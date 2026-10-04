@@ -49,7 +49,7 @@ def show(ch, posts):
         print(f'{pid}\t{kst:%m-%d %H:%M}\t{text[:160]}'); n += 1
     return n
 
-def collect(ch, start, until=None):
+def collect(ch, start, until=None, cap=400):
     cur, allp = start - 1, []
     while True:
         ps = [p for p in page(ch, after=cur) if p[0] > cur]
@@ -59,23 +59,38 @@ def collect(ch, start, until=None):
             ps = [p for p in ps if p[1] and p[1] <= until] or []
             if not ps: break
         allp += ps; cur = ps[-1][0]
-        if len(allp) > 400: break  # 한 번에 너무 많이 읽지 않음
+        if cap and len(allp) > cap: break  # 한 번에 너무 많이 읽지 않음
     return allp, cur
+
+def find(ch, iso):
+    """그 날짜(KST) 무렵 첫 글 id(약간 앞쪽)와 최신 id"""
+    target = datetime.fromisoformat(iso).replace(tzinfo=KST)
+    latest = max(p[0] for p in page(ch))
+    lo, hi = 1, latest
+    while hi - lo > 20:
+        mid = (lo + hi) // 2
+        ps = [p for p in page(ch, before=mid + 1) if p[1]]
+        if not ps: lo = mid; continue
+        if max(ps)[1] < target: lo = mid
+        else: hi = mid
+    return lo, latest
 
 if __name__ == '__main__':
     mode, ch = sys.argv[1], sys.argv[2]
     if mode == 'find':
-        target = datetime.fromisoformat(sys.argv[3]).replace(tzinfo=KST)
-        latest = max(p[0] for p in page(ch))
-        lo, hi = 1, latest
-        while hi - lo > 20:
-            mid = (lo + hi) // 2
-            ps = [p for p in page(ch, before=mid + 1) if p[1]]
-            if not ps: lo = mid; continue
-            print(f'  {mid}: {max(ps)[1]:%m-%d %H:%M}', file=sys.stderr)
-            if max(ps)[1] < target: lo = mid
-            else: hi = mid
+        lo, latest = find(ch, sys.argv[3])
         print(ch, '대략 시작 id', lo, '(최신', latest, ')')
+    elif mode == 'dump':
+        # 전체 덤프(출력 없음): 날짜(KST)부터 끝까지 JSONL로 저장 — 건수 파악·후보 선별은 파일에서
+        lo, _ = find(ch, sys.argv[3])
+        ps, last = collect(ch, lo, cap=0)
+        t0 = datetime.fromisoformat(sys.argv[3]).replace(tzinfo=KST)
+        with open(sys.argv[4], 'w') as f:
+            for pid, kst, text in ps:
+                if kst and kst >= t0:
+                    f.write(json.dumps({'id': pid, 't': kst.isoformat(), 'x': text,
+                                        'seen': f'https://t.me/{ch}/{pid}' in seen}, ensure_ascii=False) + '\n')
+        print(f'# {ch}: {len(ps)}개 저장, 마지막 id {last}')
     else:
         start = int(sys.argv[3])
         until = datetime.fromisoformat(sys.argv[4]).replace(tzinfo=KST) if mode == 'back' else None

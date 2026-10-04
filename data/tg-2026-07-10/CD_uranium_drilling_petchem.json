@@ -1,0 +1,1904 @@
+{
+ "file": "CD_uranium_drilling_petchem",
+ "industries": [
+  "uranium",
+  "drilling",
+  "petchem"
+ ],
+ "period": "2026-07-01~2026-10-04",
+ "counts": {
+  "lines": 1232,
+  "N": 778,
+  "R": 454,
+  "relevant": 435
+ },
+ "flow": [
+  {
+   "month": "2026-07",
+   "industry": "uranium",
+   "point": "중국이 신규 원전 8기를 승인하고 한·미·일 SMR 협력, 일리노이 금지 해제 등 건설 쪽 발표가 이어졌습니다. 공급은 카메코 시가레이크가 제련소 차질로 멈추고 데니슨이 ISR 광산 착공에 들어갔습니다.",
+   "ids": [
+    "HANAchina/66344",
+    "insidertracking/57651",
+    "Trillion_labs/6476",
+    "PipeBeom/5328",
+    "Trillion_labs/6809"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "uranium",
+   "point": "폭염과 가뭄에 프랑스·동유럽 원전 출력이 제한됐습니다. 유틸리티 장기계약 확대 주장과 함께, 공급망 전 단계에 1,000억 달러 이상이 필요하다는 보고서가 나왔고, 한국은 SMR을 세액공제 대상에 넣었습니다.",
+   "ids": [
+    "insidertracking/59973",
+    "PipeBeom/5905",
+    "Trillion_labs/7772",
+    "TNBfolio/70917"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "uranium",
+   "point": "한·일의 대미 원전 투자가 구체화되고 NRC 규제 개편과 HD현대중공업의 SMR 공장 투자가 나왔습니다. 센트러스는 증자를 했고, 차세대로용 플루토늄 부족 문제가 드러났습니다.",
+   "ids": [
+    "Trillion_labs/8818",
+    "TNBfolio/71236",
+    "w_compass/6967",
+    "insidertracking/63326",
+    "insidertracking/63042"
+   ]
+  },
+  {
+   "month": "2026-10",
+   "industry": "uranium",
+   "point": "한국과 웨스팅하우스가 타협협정 개정에 합의해 APR1400의 미국 건설 걸림돌이 풀렸고, 미국 정부는 비스트라의 원전 출력 증강에 40억 달러를 빌려줍니다.",
+   "ids": [
+    "w_compass/7137",
+    "Trillion_labs/9978"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "drilling",
+   "point": "미국 원유 리그가 445개에서 450개대로 완만히 늘었고 OCTG 스팟은 2,325달러로 멈춰 있었습니다. UAE는 OPEC 탈퇴 뒤 생산을 늘렸고 ADNOC 가스 FID가 나왔습니다.",
+   "ids": [
+    "PipeBeom/5345",
+    "PipeBeom/5586",
+    "PipeBeom/5297",
+    "PipeBeom/5616"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "drilling",
+   "point": "7월 한국산 미국향 유정관 수출이 141.6% 늘었습니다. 셰일 업체는 고유가에도 시추를 늘리지 않았고 미국 수출은 줄었습니다. 베네수엘라 협정으로 서비스 수요 기대가 생겼습니다(dup).",
+   "ids": [
+    "PipeBeom/5918",
+    "Trillion_labs/7050",
+    "Trillion_labs/7069",
+    "insidertracking/62537"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "drilling",
+   "point": "9월 초 북미 OCTG 단가가 2주 연속(+10.8%, +1.9%) 올랐고, 오드펠이 2031년까지 이어지는 반잠수식 3년 계약을 따내 리그 장기 계약이 확인됐습니다. 사우디 생산은 1990년 이후 최저로 떨어졌습니다.",
+   "ids": [
+    "PipeBeom/6269",
+    "PipeBeom/6356",
+    "Trillion_labs/8625",
+    "Trillion_labs/8594"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "petchem",
+   "point": "종전 뒤 원유값은 내렸지만 러시아 정유 설비 피격과 디젤 수출 금지, 후티의 자잔 정유소 타격으로 정제마진이 사상 최고로 올랐습니다. 석유화학은 약세였고, EU는 중국 화학제품 조사 방침을 밝혔습니다.",
+   "ids": [
+    "TNBfolio/70540",
+    "TNBfolio/70643",
+    "Trillion_labs/6364",
+    "Onionfarmer/17073",
+    "The_MariTimes/61087"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "petchem",
+   "point": "디젤 크랙이 100달러를 넘었고, 골드만 집계로 석유제품 수출은 하루 600만 배럴 줄었습니다. 석화 쪽은 LYB가 중동 PE 설비 20% 이상이 피해를 입었다고 밝혔고, 중국 PTA·MEG·PP 재고가 5년 최저로 내려갔으며, 아무르 신규 단지에서 폭발이 났습니다.",
+   "ids": [
+    "TNBfolio/70987",
+    "HANAchina/68053",
+    "Trillion_labs/6904",
+    "HANAchina/67670",
+    "Trillion_labs/7944"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "petchem",
+   "point": "러시아 핵심 정유소가 잇달아 멈추면서 미국·아시아·유럽 디젤 가격과 마진이 모두 사상 최고를 찍었습니다. 프랑스에서는 주유소 품절이 났습니다. 중국 범용수지 선물이 강세였고, 포모사 매출은 40.7% 늘었습니다.",
+   "ids": [
+    "Trillion_labs/9181",
+    "TNBfolio/71284",
+    "Trillion_labs/9231",
+    "HANAchina/68156",
+    "HANAchina/68592"
+   ]
+  },
+  {
+   "month": "2026-10",
+   "industry": "petchem",
+   "point": "미국은 디젤 수출 금지를 접고, G7이 4개월 동안 비축 원유와 디젤 최대 1억 배럴을 풀기로 했습니다. 하지만 러시아·중국은 수출을 계속 막고 있고, 후티의 리야드 정유소 공격으로 공급 불안은 남아 있습니다.",
+   "ids": [
+    "TNBfolio/71429",
+    "HANAchina/69775",
+    "Trillion_labs/9919",
+    "Trillion_labs/9970"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "07-03",
+   "ids": [
+    "PipeBeom/5328"
+   ],
+   "summary": "카메코가 시가레이크 우라늄 광산을 일시 중단, 원인은 광산이 아닌 오라노 제련소 가동 차질",
+   "why": "세계 최대 고품위 광산 공급 차질, 정광 수급 긴장 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "본문 확인 필요(중단 기간·감산량 미기재)"
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "07-05",
+   "ids": [
+    "PipeBeom/5353"
+   ],
+   "summary": "미국 2025년 우라늄 생산이 전년 대비 3배 이상 늘었다(Mining.com, EIA 연례 자료)",
+   "why": "미국 내 채굴 부활, 다만 절대량 작음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(생산량 수치)"
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "07-30",
+   "ids": [
+    "Trillion_labs/6809"
+   ],
+   "summary": "데니슨, 캐나다 첫 ISR 우라늄 광산 건설 착수 — 토목 공사 5분의 1 이상 완료",
+   "why": "장기가 고점에서 신규 광산 실행 단계 진입",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "08-02",
+   "ids": [
+    "Trillion_labs/6380",
+    "Trillion_labs/6912",
+    "Trillion_labs/6913"
+   ],
+   "summary": "라라미드 호주 웨스트모어랜드 우라늄 사업 PEA 갱신, 사업 가치 7.41억 달러 제시",
+   "why": "신규 광산 개발 검토 확산(초기 단계)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "08-07",
+   "ids": [
+    "PipeBeom/5905"
+   ],
+   "summary": "Eagle Nuclear CEO \"미국 원전 사업자 우라늄 장기계약이 본격 확대되는 변곡점\"",
+   "why": "유틸리티 장기계약 증가 여부가 다음 국면 조건",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "회사 측 주장, 계약량 수치 없음"
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "08-09",
+   "ids": [
+    "PipeBeom/5929"
+   ],
+   "summary": "콩고민주공화국, 코발트 수출품에 섞인 우라늄 약 5,000톤 유출 경로 공식 조사",
+   "why": "비공식 우라늄 유통 문제(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "mining",
+   "date": "09-08",
+   "ids": [
+    "PipeBeom/6301",
+    "PipeBeom/6410"
+   ],
+   "summary": "\"러시아가 세계 우라늄 3분의 1 장악 가능\" 아프리카 광산 투자 활발 / 우라늄 업체 증산 경쟁",
+   "why": "공급 지정학과 증산 경쟁 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "둘 다 링크·제목뿐, 본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "",
+   "date": "08-21",
+   "ids": [
+    "Trillion_labs/7772"
+   ],
+   "summary": "핵연료 공급망 보고서: 2050년까지 재처리·변환·농축·가공·채굴 전 단계에 1,050억 달러 이상 투자 필요",
+   "why": "채굴보다 변환·농축·재처리 병목이 크다는 근거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "변환 250억~400억, 농축 250억~350억 달러 등. 보고서 출처 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "fabrication",
+   "date": "09-07",
+   "ids": [
+    "insidertracking/63042"
+   ],
+   "summary": "플루토늄 부족과 재처리 시설 부족이 차세대 원자로 스타트업 사업을 제약",
+   "why": "차세대로 연료 병목 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "enrichment",
+   "date": "09-10",
+   "ids": [
+    "insidertracking/63326"
+   ],
+   "summary": "센트러스, 5억 달러 규모 주식·선불 워런트 공모가 확정(주당 199.64달러)",
+   "why": "농축 증설 자금 조달 실행",
+   "status": "follow",
+   "dupOf": "flows 10-01 [enrichment] 센트러스 설비투자 계획",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "07-19",
+   "ids": [
+    "Trillion_labs/5948",
+    "Trillion_labs/5949",
+    "Trillion_labs/5950",
+    "insidertracking/58863",
+    "insidertracking/59028",
+    "PipeBeom/5658",
+    "The_MariTimes/61575",
+    "The_MariTimes/61660",
+    "insidertracking/62096",
+    "insidertracking/62109",
+    "insidertracking/62721"
+   ],
+   "summary": "미·사우디 원자력 협정: 7월 잠정 합의·30년 협정 승인, 8월 26일 의회 제출(이스라엘 관계 정상화 조건)",
+   "why": "농축 허용 범위가 확산 정책의 시험대",
+   "status": "dup",
+   "dupOf": "카드 tg-PipeBeom-6257, flows 10-02 [enrichment][policy]",
+   "priority": "하",
+   "note": "의회 제출일·정상화 조건은 카드에 없으면 보강 가능"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-08",
+   "ids": [
+    "insidertracking/57651",
+    "PipeBeom/5407",
+    "TNBfolio/70535"
+   ],
+   "summary": "한·미·일 외교장관, NATO 정상회의 계기 제3국 SMR 보급 3자 협력 양해각서 체결",
+   "why": "SMR 수출 동맹 구도 형성",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-09",
+   "ids": [
+    "insidertracking/57777"
+   ],
+   "summary": "아르헨티나, 아투차 원전 부지에 SMR 건설 발표 — 민간 투자 12억 달러(마이트너 에너지)",
+   "why": "신흥국 SMR 발주 사례",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-31",
+   "ids": [
+    "HANAchina/66344",
+    "HANAchina/66587"
+   ],
+   "summary": "중국 국무원, 4개 사업 신규 원전 8기 승인 — 총투자 1,700억 위안 이상, 상하이 원전 기업 약 500억 위안 수주",
+   "why": "중국의 대형로 건설 속도 재확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-08",
+   "ids": [
+    "HANAchina/64997",
+    "HANAchina/65066",
+    "HANAchina/65984"
+   ],
+   "summary": "중국 대베이 최신 원자로 가동, 15차 5개년 계획 원전·전력망 투자 급증 기사",
+   "why": "중국 원전 투자 지속(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "링크·제목뿐, 본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-25",
+   "ids": [
+    "insidertracking/59173"
+   ],
+   "summary": "DOE 시범사업(첨단로 3기 7월 4일까지 임계 목표)에서 트럼프가 4개 기업 달성 발표",
+   "why": "첨단로 실증 가속",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "기업명 미기재, 본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-01",
+   "ids": [
+    "insidertracking/57128"
+   ],
+   "summary": "오클로 그로브스 동위원소 시험로가 DOE 안전성분석 승인, 가동 전 최종 절차 돌입",
+   "why": "첨단로 실증 진척(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-23",
+   "ids": [
+    "The_MariTimes/61607"
+   ],
+   "summary": "일본의 400억 달러 미국 원전 사업, 사고 시 일본 책임 조건으로 난항",
+   "why": "대미 원전 투자 조건 리스크",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "원문 링크 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "07-28",
+   "ids": [
+    "Trillion_labs/6476"
+   ],
+   "summary": "일리노이주 신규 원전 금지 해제, 9개 지역사회가 신규 부지 후보로 나섬",
+   "why": "미국 주 단위 규제 완화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "07-30",
+   "ids": [
+    "PipeBeom/5748"
+   ],
+   "summary": "DOE, 원자력 생애주기 혁신 캠퍼스 후보로 테네시·유타·루이지애나·아이다호·오클라호마 선정",
+   "why": "연료주기 거점 정책 구체화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "07-23",
+   "ids": [
+    "TNBfolio/70710",
+    "Trillion_labs/6425"
+   ],
+   "summary": "미 행정부 해양·수중 원전 설치 검토, 아토마린은 바지선 원전 데이터센터 사업 출범",
+   "why": "해상 원전 구상 확산(초기)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "operators",
+   "date": "08-02",
+   "ids": [
+    "insidertracking/58276",
+    "The_MariTimes/61359",
+    "insidertracking/59973",
+    "The_MariTimes/61800",
+    "Trillion_labs/6977",
+    "PipeBeom/5836",
+    "insidertracking/60298",
+    "insidertracking/60912",
+    "Trillion_labs/7385",
+    "Trillion_labs/7410",
+    "Trillion_labs/7412",
+    "Trillion_labs/7217",
+    "insidertracking/61364",
+    "HANAchina/67869"
+   ],
+   "summary": "폭염·가뭄으로 프랑스 원전 6~7월 3,700GWh 감소·용량 12% 감축, 헝가리·루마니아도 출력 제한",
+   "why": "여름 출력 제약, 프랑스 전력가 19개월 최고",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "프랑스 익일 전력 MWh당 177.34유로(8월 18일)"
+  },
+  {
+   "industry": "uranium",
+   "node": "operators",
+   "date": "07-15",
+   "ids": [
+    "HANAchina/65378",
+    "Onionfarmer/17194",
+    "Trillion_labs/5733"
+   ],
+   "summary": "PJM 2028/29 용량 경매 6.8GW 부족(원전 약 7기 분)",
+   "why": "데이터센터 전력 부족이 원전 수요 근거",
+   "status": "dup",
+   "dupOf": "old_items 2026-08-14 PJM 비상 절차 제안(6.8GW 부족)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "08-12",
+   "ids": [
+    "TNBfolio/70917"
+   ],
+   "summary": "한국 정부, SMR을 국가전략기술 세액공제 대상에 포함해 R&D·설비 투자 혜택 확대",
+   "why": "국내 SMR 투자 유인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-10",
+   "ids": [
+    "w_compass/6967"
+   ],
+   "summary": "HD현대중공업, 1조 722억 원 투자해 3GW 발전엔진 생산기지와 SMR 제작 전용 공장 건립",
+   "why": "기자재사의 SMR 설비투자 착수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "SMR 공장 별도 금액은 본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-03",
+   "ids": [
+    "Trillion_labs/8285"
+   ],
+   "summary": "스튜즈빅·GE베르노바히타치·삼성물산 협약 체결(링크만)",
+   "why": "SMR 협력 확대(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "09-12",
+   "ids": [
+    "TNBfolio/71236"
+   ],
+   "summary": "NRC, 행정명령 14300호·ADVANCE법 이행으로 원자로 인허가·감독 규제 전면 개편안 제출",
+   "why": "인허가 단축 흐름 강화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8818"
+   ],
+   "summary": "일본 대미 투자 5,500억 달러 목표 중 2,000억 달러를 원자력 관련에 집중",
+   "why": "대미 원전 투자 자금원 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "원문 출처(cryptobriefing) 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "operators",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8820"
+   ],
+   "summary": "일본 데이터 변조 스캔들로 원자로 2기 재가동 연기",
+   "why": "일본 재가동 제동",
+   "status": "dup",
+   "dupOf": "카드 bbg4-04(하마오카), flows 10-01 [operators]",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-07",
+   "ids": [
+    "TNBfolio/71166",
+    "w_compass/6917",
+    "w_compass/6930",
+    "w_compass/6940",
+    "insidertracking/63340",
+    "TNBfolio/71209",
+    "PipeBeom/6346",
+    "HANAchina/69241",
+    "Trillion_labs/9274",
+    "TNBfolio/71354",
+    "HANAchina/69684",
+    "insidertracking/65054",
+    "Trillion_labs/9839"
+   ],
+   "summary": "한국 대미 투자에 미국 원전 8기·웨스팅하우스 지분(15%→7% 요구) 포함, 10월 1,200억 달러 발표",
+   "why": "대미 원전 투자 확정 과정",
+   "status": "dup",
+   "dupOf": "flows 09-22·09-30 [build], old_items 2026-10-01 트럼프 2,000억 달러 발표",
+   "priority": "하",
+   "note": "PipeBeom/6346은 deferred_newNote에서 제외로 기록된 글"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "10-01",
+   "ids": [
+    "w_compass/7137"
+   ],
+   "summary": "한국·웨스팅하우스 기존 타협협정(SA) 개정 합의 — 한국형 대형 원전 미국 진출 길 열려",
+   "why": "APR1400 미국 건설 걸림돌 해소",
+   "status": "follow",
+   "dupOf": "flows 09-30 [build] 미국 원전 8기(APR1400 2기)",
+   "priority": "상",
+   "note": "합의 조건 본문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "09-29",
+   "ids": [
+    "w_compass/7100"
+   ],
+   "summary": "포스코, 국내 첫 민간 원전 추진 — 10월 7일 GX 보고회서 민간 원전 투자 허용 요청 예정",
+   "why": "한국 원전 민간 투자 논의 시작",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "operators",
+   "date": "10-03",
+   "ids": [
+    "Trillion_labs/9978"
+   ],
+   "summary": "미국 정부, 비스트라에 원전 발전량 확대(출력 증강)용 40억 달러 대출 제공 예정",
+   "why": "기존 원전 출력 증강에 공공 자금",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "한 줄 글, 원문 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-11",
+   "ids": [
+    "insidertracking/63456"
+   ],
+   "summary": "UBS, 뉴스케일 매도 하향 — 건설 5년+·확정 고객 부족·2028년까지 현금 소진 약 7억 달러",
+   "why": "SMR 사업화 지연 리스크",
+   "status": "follow",
+   "dupOf": "flows 10-01 [build][operators] 뉴스케일·TVA",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-26",
+   "ids": [
+    "HANAchina/69456"
+   ],
+   "summary": "Holtec Nuclear IPO 언급(Oura IPO 기사 말미)",
+   "why": "원전 기업 상장 흐름(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 잘림, 확인 필요"
+  },
+  {
+   "industry": "uranium",
+   "node": "build",
+   "date": "09-30",
+   "ids": [
+    "TNBfolio/71397",
+    "Trillion_labs/9716"
+   ],
+   "summary": "NRC, TVA 클린치리버 BWRX-300 건설허가 승인(미국 첫 SMR)",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "flows 09-29 [build][policy]",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "uranium",
+   "node": "policy",
+   "date": "08-27",
+   "ids": [
+    "The_MariTimes/61339",
+    "The_MariTimes/62391",
+    "The_MariTimes/62612",
+    "The_MariTimes/62637"
+   ],
+   "summary": "러시아·이란 신규 원전 MOU(250억 달러 서명 예정 보도), 로사톰 이란 사업 확대·한국 협력 관심 발언",
+   "why": "러시아 원전 수출 진영화(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "62391은 deferred_newNote에서 원문 막혀 제외로 기록됨"
+  },
+  {
+   "industry": "drilling",
+   "node": "octg",
+   "date": "07-17",
+   "ids": [
+    "PipeBeom/5345",
+    "PipeBeom/5459",
+    "PipeBeom/5586",
+    "PipeBeom/5805",
+    "PipeBeom/5915",
+    "PipeBeom/6045"
+   ],
+   "summary": "미 원유 리그 7월 초 445개→8월 중순 455개, 북미 OCTG 5.5인치 스팟 숏톤당 2,325달러 보합(7월)",
+   "why": "7~8월 리그 완만한 증가, 가격은 정체",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "8월 가격은 본문 확인 필요"
+  },
+  {
+   "industry": "drilling",
+   "node": "octg",
+   "date": "09-04",
+   "ids": [
+    "PipeBeom/6269",
+    "PipeBeom/6356",
+    "PipeBeom/6441"
+   ],
+   "summary": "북미 OCTG 단가 9월 4일 주 +10.8%, 9월 11일 주 +1.9%로 2주 연속 상승 — 원재료·물류비 전가, 수입 제한",
+   "why": "9월 초 OCTG 가격 급등이 2,625달러 보합 전 단계",
+   "status": "follow",
+   "dupOf": "flows 09-25 [octg] 2,625달러 보합, old_items 09-27 OCTG 주간",
+   "priority": "상",
+   "note": "6356은 deferred_newNote에서 제외(더 최근 자료 있음)로 기록됨"
+  },
+  {
+   "industry": "drilling",
+   "node": "octg",
+   "date": "08-09",
+   "ids": [
+    "PipeBeom/5918"
+   ],
+   "summary": "7월 한국 미국향 전기용접 유정관 5.8만 톤(+141.6% YoY), 송유관 5.8만 톤(+45.0% YoY)",
+   "why": "한국 강관 대미 수출 급증, 관세에도 물량 증가",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "octg",
+   "date": "09-18",
+   "ids": [
+    "PipeBeom/6419"
+   ],
+   "summary": "상상인증권 강관 보고서: 고유가와 시추 활동 회복이 강관 업황 지지",
+   "why": "강관 업황 개선 판단 보강",
+   "status": "follow",
+   "dupOf": "flows 09-17 [octg] 상상인증권 알래스카 LNG",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "07-22",
+   "ids": [
+    "PipeBeom/5616"
+   ],
+   "summary": "ADNOC, 62억 달러 움 샤이프 가스캡 프로젝트 FID",
+   "why": "중동 국영사 해양 FID 사례",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "07-07",
+   "ids": [
+    "PipeBeom/5297",
+    "PipeBeom/5383",
+    "PipeBeom/5400"
+   ],
+   "summary": "UAE, OPEC 탈퇴 뒤 6월 원유 수출 370만 b/d·생산 380만 b/d 이상 기록, 걸프 증산 점유율 경쟁",
+   "why": "산유국 증산 경쟁이 상류 투자 배경",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "07-08",
+   "ids": [
+    "HANAchina/65002",
+    "HANAchina/67001"
+   ],
+   "summary": "EIA 7월 유가 전망 약 14% 하향(호르무즈 연말 정상화 가정) → 8월 브렌트 평균 82→86달러 상향",
+   "why": "유가 전망이 7~8월 사이 뒤집힘",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "07-01",
+   "ids": [
+    "PipeBeom/5296"
+   ],
+   "summary": "미국 4월 원유 생산 1,393만 b/d 월간 사상 최고(EIA)",
+   "why": "미국 생산 최고치 흐름의 앞선 수치",
+   "status": "follow",
+   "dupOf": "flows 09-25 [capex] 주간 1,395.5만 b/d",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "08-04",
+   "ids": [
+    "Trillion_labs/7050",
+    "Trillion_labs/7069"
+   ],
+   "summary": "다이아몬드백 \"고유가가 새 정상\" 경고, ANZ \"미국 원유·제품 수출 6월 이후 하루 약 150만 배럴 감소, 생산·시추 감소 동반\"",
+   "why": "셰일 시추 확대 없이 수출 감소",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "drilling",
+   "node": "services",
+   "date": "07-09",
+   "ids": [
+    "PipeBeom/5428"
+   ],
+   "summary": "셰브론, 셰일 증산용 화학 계면활성제 기술을 경쟁 시추사에 제공",
+   "why": "기술로 생산성 끌어올리기(참고)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "services",
+   "date": "07-14",
+   "ids": [
+    "insidertracking/58220"
+   ],
+   "summary": "핼리버튼, 토탈에너지 수리남 그란모르구 통합 시추·완결 계약 수주",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "flows 10-01 [capex] 수리남 그란모르구",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "services",
+   "date": "08-31",
+   "ids": [
+    "Trillion_labs/8138"
+   ],
+   "summary": "SLB, 데이터센터 냉각업체 켈비온을 34억 달러에 인수",
+   "why": "유전 서비스사가 데이터센터로 다각화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "rigs",
+   "date": "09-10",
+   "ids": [
+    "Trillion_labs/8625"
+   ],
+   "summary": "오드펠 드릴링 딥씨 베르겐, 바르 에네르기와 2028년 초부터 3년 계약(5.18억 달러) — 2031년 1분기까지 확정",
+   "why": "반잠수식 장기 계약, 가동률 개선 근거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "09-05",
+   "ids": [
+    "The_MariTimes/62644"
+   ],
+   "summary": "트럼프 정부, 비상사태 선포로 캘리포니아주 석유 시추 허용 예정",
+   "why": "미국 내 시추 규제 완화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "09-29",
+   "ids": [
+    "insidertracking/64927"
+   ],
+   "summary": "아르헨티나, 영국에 포클랜드 인근 해상 석유 시추 중단 요구 — 불응 시 국제해양법재판소 제소",
+   "why": "해양 탐사 지정학 리스크",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "10-03",
+   "ids": [
+    "insidertracking/65226",
+    "insidertracking/65227"
+   ],
+   "summary": "트럼프, 한국과의 합의로 84억 달러 원유 회수 증진(EOR) 프로젝트 발표",
+   "why": "대미 투자가 상류 생산으로 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "한국 산업부 반응 본문 잘림, 확인 필요"
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "08-31",
+   "ids": [
+    "PipeBeom/6202",
+    "insidertracking/62461",
+    "insidertracking/62537",
+    "insidertracking/62368",
+    "insidertracking/62644",
+    "insidertracking/62757",
+    "Trillion_labs/8067",
+    "Trillion_labs/8068",
+    "Trillion_labs/8102",
+    "Trillion_labs/9210"
+   ],
+   "summary": "미·베네수엘라 석유 협정(미 투자 최대 350억 달러 보도, 라이트 장관 \"생산 두 배 이상\")",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "카드 tg-PipeBeom-6194·6222·6240, flows 10-01~10-02",
+   "priority": "하",
+   "note": "350억 달러·생산 두 배 전망은 카드에 없으면 보강 가능"
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "09-10",
+   "ids": [
+    "Trillion_labs/8594"
+   ],
+   "summary": "사우디가 OPEC에 원유 생산이 다시 줄어 1990년 이후 최저라고 통보",
+   "why": "걸프 생산 차질 심화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "rigs",
+   "date": "09-17",
+   "ids": [
+    "Trillion_labs/9047",
+    "Onionfarmer/17912",
+    "Onionfarmer/17938"
+   ],
+   "summary": "보르 대주주 매수, 트랜스오션 CEO 가동률 전망, 엘도라도의 딥 밸류 드릴러 인수",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "flows 09-10·09-17·09-19 [rigs]",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "drilling",
+   "node": "capex",
+   "date": "07-30",
+   "ids": [
+    "Trillion_labs/6722",
+    "insidertracking/59854",
+    "PipeBeom/5789"
+   ],
+   "summary": "세노버스 분기 최고 실적·오일샌드 100만 boe/d 목표, 셰브론 2분기 생산 401만 boe/d",
+   "why": "메이저 실적 호조, 투자 확대는 미확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "07-09",
+   "ids": [
+    "insidertracking/57140",
+    "PipeBeom/5309",
+    "Onionfarmer/17040",
+    "TNBfolio/70525",
+    "TNBfolio/70526",
+    "TNBfolio/70538",
+    "TNBfolio/70540",
+    "HANAchina/65056",
+    "TNBfolio/70550",
+    "TNBfolio/70556",
+    "HANAchina/65148",
+    "The_MariTimes/61336",
+    "TNBfolio/70585",
+    "The_MariTimes/61381",
+    "TNBfolio/70637",
+    "The_MariTimes/61294",
+    "insidertracking/57574",
+    "Trillion_labs/5995",
+    "Trillion_labs/6004",
+    "Trillion_labs/6151",
+    "TNBfolio/70657",
+    "TNBfolio/70658",
+    "TNBfolio/70659",
+    "Onionfarmer/17269",
+    "Onionfarmer/17389",
+    "TNBfolio/70723",
+    "TNBfolio/70727",
+    "Onionfarmer/17419",
+    "TNBfolio/70739",
+    "Trillion_labs/6471"
+   ],
+   "summary": "러 정유 20%+ 정지·처리량 -140만b/d, 6월 디젤 수출 47만b/d(-50%), 디젤 수출 금지·휘발유 금지 연말까지",
+   "why": "정제 병목이 호르무즈에서 러시아로 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "JPM: 러시아 정유 가동 하루 360만 배럴 수준"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "08-18",
+   "ids": [
+    "insidertracking/60008",
+    "Trillion_labs/6980",
+    "Trillion_labs/6983",
+    "Trillion_labs/7301",
+    "insidertracking/60632",
+    "insidertracking/60942",
+    "TNBfolio/70944",
+    "Trillion_labs/7541",
+    "TNBfolio/70973",
+    "TNBfolio/70988",
+    "TNBfolio/71000",
+    "TNBfolio/71053",
+    "Trillion_labs/7892",
+    "Trillion_labs/7947",
+    "Trillion_labs/8038",
+    "Trillion_labs/8078"
+   ],
+   "summary": "8월 러 오르스크 6개월 중단·페름 80% 정지, 10개 지역 판매 통제, 디젤 금지 9월 연장, 한국산 경유 수입",
+   "why": "러시아 정제 차질 장기화",
+   "status": "follow",
+   "dupOf": "위 7월 러시아 후보",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-21",
+   "ids": [
+    "TNBfolio/71173",
+    "TNBfolio/71216",
+    "Trillion_labs/8798",
+    "Trillion_labs/8823",
+    "insidertracking/63748",
+    "TNBfolio/71268",
+    "TNBfolio/71286",
+    "Trillion_labs/8926",
+    "Trillion_labs/8931",
+    "Onionfarmer/17905",
+    "Trillion_labs/9010",
+    "Trillion_labs/9048",
+    "Trillion_labs/9089",
+    "TNBfolio/71317",
+    "Trillion_labs/9133",
+    "Trillion_labs/9134",
+    "Trillion_labs/9180",
+    "Trillion_labs/9181",
+    "Trillion_labs/9238",
+    "Trillion_labs/9285",
+    "insidertracking/64615",
+    "insidertracking/64635",
+    "Trillion_labs/9399",
+    "TNBfolio/71369",
+    "Trillion_labs/9926"
+   ],
+   "summary": "9월 랴잔·키리시·시즈란·사라토프·야로슬라블·모스크바·페름 중단, 7월 러 제품 수출 120만b/d 미만(-50%)",
+   "why": "폴란드 외무 \"러 정유 30~40% 파괴\", 디젤 부족 핵심",
+   "status": "follow",
+   "dupOf": "위 7·8월 러시아 후보, old_items 09-26 일스키",
+   "priority": "상",
+   "note": "핵심 6개 정유소가 디젤 생산 절반 담당"
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "09-14",
+   "ids": [
+    "insidertracking/63597",
+    "insidertracking/63678",
+    "TNBfolio/71250",
+    "The_MariTimes/62992",
+    "Trillion_labs/8757",
+    "Trillion_labs/8800",
+    "insidertracking/63933",
+    "HANAchina/69200",
+    "Trillion_labs/9212",
+    "insidertracking/64313"
+   ],
+   "summary": "트럼프, 디젤 급등 원인을 러·우 전쟁으로 지목하고 우크라에 정유 공격 중단 요구·\"상호 자제 합의\" 발표",
+   "why": "합의 직후 시즈란·모스크바 공격으로 효과 없음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-28",
+   "ids": [
+    "Trillion_labs/9241",
+    "Trillion_labs/9593",
+    "Trillion_labs/9598",
+    "Trillion_labs/9917",
+    "Trillion_labs/9918",
+    "Trillion_labs/9919",
+    "The_MariTimes/63470"
+   ],
+   "summary": "러시아 디젤 수출 금지 10월 말까지 연장, 푸틴 \"제재 해제 전 세계 시장 공급 안 해\"",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "old_items 98 (09-29 러시아 경유 수출 금지 연장)",
+   "priority": "하",
+   "note": "푸틴·페스코프 발언은 새 사실"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "07-17",
+   "ids": [
+    "Onionfarmer/17057",
+    "Onionfarmer/17058",
+    "Onionfarmer/17073",
+    "TNBfolio/70574",
+    "Onionfarmer/17157",
+    "Onionfarmer/17193",
+    "Onionfarmer/17202",
+    "TNBfolio/70643",
+    "Onionfarmer/17206",
+    "Onionfarmer/17274",
+    "Onionfarmer/17426",
+    "TNBfolio/70675",
+    "HANAchina/65057",
+    "Onionfarmer/17219",
+    "HANAchina/65669",
+    "Trillion_labs/6560",
+    "Onionfarmer/17461",
+    "Onionfarmer/17532",
+    "TNBfolio/70714",
+    "Trillion_labs/6757",
+    "TNBfolio/70678"
+   ],
+   "summary": "7월 미국 3-2-1 크랙 69.66달러 사상 최고, 한국 정제마진 32→46달러, 미 정유 가동률 약 100%",
+   "why": "종전 뒤 원유↓·정제마진↑ 괴리 시작",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "하나증권 주간: 같은 기간 석유화학은 약세. 미 석유제품 재고 1984년 이후 최저"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "07-30",
+   "ids": [
+    "Trillion_labs/6838",
+    "Trillion_labs/8361",
+    "Trillion_labs/8775"
+   ],
+   "summary": "PBF 등 정유사가 2026년 정기보수를 2027년으로 연기, 가을 보수 시즌에도 가동 지속",
+   "why": "보수 연기로 겨울 설비 리스크 누적",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "07-28",
+   "ids": [
+    "The_MariTimes/61659",
+    "Trillion_labs/6364",
+    "Trillion_labs/6454",
+    "insidertracking/59508",
+    "Onionfarmer/17491",
+    "TNBfolio/70869",
+    "insidertracking/60702",
+    "Trillion_labs/7346",
+    "The_MariTimes/62093"
+   ],
+   "summary": "후티, 7월 25일 아람코 자잔 정유소(40만 b/d) 타격해 가동 중단, 8월 9일 복구 중 재공격",
+   "why": "중동 정제 설비도 직접 타격 대상",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "8월 15일 재가동 목표였음"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-08",
+   "ids": [
+    "insidertracking/63046",
+    "HANAchina/68497",
+    "insidertracking/63073",
+    "insidertracking/63121",
+    "HANAchina/68559",
+    "PipeBeom/6286",
+    "PipeBeom/6305",
+    "Trillion_labs/8485"
+   ],
+   "summary": "9월 7~8일 후티의 자잔 등 사우디 남부 에너지 시설 재공격",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "카드 bbg4-07, flows 10-01 [feedstock]",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "10-03",
+   "ids": [
+    "insidertracking/65264",
+    "Trillion_labs/9970",
+    "Trillion_labs/9974"
+   ],
+   "summary": "후티, 사우디 아람코 리야드 정유소 공격 — 여러 곳 연기",
+   "why": "사우디 내륙 정유소까지 피격 지속",
+   "status": "follow",
+   "dupOf": "old_items 26 (09-26 후티 리야드 재공격)",
+   "priority": "중",
+   "note": "피해 규모 확인 필요"
+  },
+  {
+   "industry": "petchem",
+   "node": "commodity",
+   "date": "08-02",
+   "ids": [
+    "Trillion_labs/6904"
+   ],
+   "summary": "라이온델바젤 CEO \"중동 폴리에틸렌 생산능력 최소 20% 피해, 2027년까지 복구 불가\"",
+   "why": "중동 PE 공급 감소로 아시아 범용수지 수급 변화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "원문 확인 필요(채널 전언)"
+  },
+  {
+   "industry": "petchem",
+   "node": "commodity",
+   "date": "08-23",
+   "ids": [
+    "HANAchina/67670",
+    "HANAchina/68075",
+    "HANAchina/68156",
+    "HANAchina/68225",
+    "HANAchina/68668",
+    "HANAchina/68789"
+   ],
+   "summary": "중국 PTA·메탄올·MEG·PP 재고 5년 동기 최저, 9월 초 PP+2.5%·PVC+3.5%·PTA+3.3% 선물 강세",
+   "why": "범용수지 재고 바닥, 가격 반등 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "차트 출처 국금증권, 수치는 일부만"
+  },
+  {
+   "industry": "petchem",
+   "node": "cracker",
+   "date": "08-26",
+   "ids": [
+    "Trillion_labs/7944"
+   ],
+   "summary": "러·중 합작 아무르 가스화학 단지(연 270만 톤 폴리머) 최종 가동 준비 단계에서 폭발",
+   "why": "대형 신규 설비 가동 지연 가능",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "추론: 가동 지연 시 공급 증가 늦어짐. 피해 규모 확인 필요"
+  },
+  {
+   "industry": "petchem",
+   "node": "commodity",
+   "date": "09-09",
+   "ids": [
+    "HANAchina/68592"
+   ],
+   "summary": "대만 포모사 4개 계열사 8월 매출 1,570억 대만달러(+40.7% YoY), 난야플라스틱 50개월 최고",
+   "why": "아시아 석화 매출 회복 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "commodity",
+   "date": "07-19",
+   "ids": [
+    "HANAchina/65599"
+   ],
+   "summary": "완화화학 상반기 순이익 98억~104억 위안 예상, 화학 업종 회복세",
+   "why": "중국 선두사 실적 회복",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "07-02",
+   "ids": [
+    "The_MariTimes/61087"
+   ],
+   "summary": "EU, 8월 전 대중국 조사로 화학·기계에 비상 관세·쿼터 부과 가능(슈퍼 301조식 도구)",
+   "why": "EU의 중국 화학 견제 시작점",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "9월 18일 자발적 수출 제한 요구(flows)의 앞 단계"
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "07-09",
+   "ids": [
+    "HANAchina/65084",
+    "HANAchina/67335",
+    "HANAchina/68463"
+   ],
+   "summary": "중국 반내권 테마(화학 포함) 마진 반등, 공급개혁이 10월까지 반등 지지 전망",
+   "why": "중국 공급 조정 기대(근거 약함)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "수요보다 유동성·공급 요인이라는 단서"
+  },
+  {
+   "industry": "petchem",
+   "node": "specialty",
+   "date": "07-16",
+   "ids": [
+    "Trillion_labs/5390",
+    "HANAchina/65429",
+    "TNBfolio/71299"
+   ],
+   "summary": "반도체용 불산 공급 부족에 20~30% 상승, 포모사 전자급 불산·IPA 인상, WF6 가격 인상",
+   "why": "전자 화학 스페셜티 가격 강세",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "cracker",
+   "date": "08-05",
+   "ids": [
+    "The_MariTimes/61892",
+    "The_MariTimes/61893",
+    "TNBfolio/70634",
+    "Trillion_labs/6367",
+    "Trillion_labs/7398"
+   ],
+   "summary": "영국 화학사 파산 비율 10여 년 전의 3배, 독일 화학 생산 감소, 7~8월 라인강 가뭄에 독일 화학 생산 차질",
+   "why": "유럽 화학 탈산업화 지속",
+   "status": "follow",
+   "dupOf": "flows 09-22 [cracker] Cefic 3,700만 톤 폐쇄, old_items 66 라인강(9월)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "08-18",
+   "ids": [
+    "Trillion_labs/7508",
+    "HANAchina/67130",
+    "TNBfolio/70972",
+    "TNBfolio/70987",
+    "Trillion_labs/7539",
+    "Trillion_labs/7605",
+    "Trillion_labs/7606",
+    "HANAchina/67550",
+    "The_MariTimes/62406",
+    "Trillion_labs/8117",
+    "TNBfolio/71029",
+    "Trillion_labs/6924",
+    "Trillion_labs/6884",
+    "Trillion_labs/7886"
+   ],
+   "summary": "미 디젤 크랙 사상 처음 100달러 돌파(102.2달러), 디젤 재고 23년 만에 최저",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "카드 tg-TNBfolio-71075·bbg4-19, flows 10-01 [feedstock]",
+   "priority": "하",
+   "note": "셸·셰브론 CEO 디젤 부족 발언 포함"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "08-30",
+   "ids": [
+    "HANAchina/67604",
+    "HANAchina/68053",
+    "Badonions/6872",
+    "TNBfolio/71186",
+    "TNBfolio/71244",
+    "Trillion_labs/9760",
+    "HANAchina/69616"
+   ],
+   "summary": "골드만: 세계 석유제품 수출 -600만b/d(4분의 3 걸프·러시아), 정제능력 8,600만→8,000만b/d",
+   "why": "원유보다 정제 설비가 핵심 병목으로 굳음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "Citi: 올해 디젤 공급 부족 하루 약 100만 배럴. 러·걸프 디젤 수출 -75%(52만 b/d)"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-05",
+   "ids": [
+    "HANAchina/68247",
+    "The_MariTimes/62608",
+    "Trillion_labs/8239",
+    "Trillion_labs/8345",
+    "HANAchina/68393",
+    "TNBfolio/71158",
+    "TNBfolio/71201",
+    "Trillion_labs/8568",
+    "TNBfolio/71217",
+    "The_MariTimes/62910",
+    "The_MariTimes/62872",
+    "Trillion_labs/8809",
+    "Trillion_labs/9001",
+    "HANAchina/69198",
+    "HANAchina/69232",
+    "Trillion_labs/9326",
+    "The_MariTimes/62527",
+    "The_MariTimes/62825",
+    "HANAchina/69460"
+   ],
+   "summary": "9월 미 디젤 크랙 106달러, 소매 5.85→6.51달러 연속 최고, 8월 디젤 수출 5,420만 배럴 최고",
+   "why": "디젤 부족이 9월 내내 심화",
+   "status": "follow",
+   "dupOf": "flows 10-01 [feedstock] 경유 크랙 100달러 초과",
+   "priority": "중",
+   "note": "EIA: 디젤 재고 2003년 이후 최저 전망"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-16",
+   "ids": [
+    "TNBfolio/71284",
+    "Trillion_labs/8683",
+    "TNBfolio/71421"
+   ],
+   "summary": "아시아 10ppm 디젤 마진 배럴당 87달러 사상 최고, 싱가포르 92 휘발유 크랙 10년 최고(9월물 30달러)",
+   "why": "아시아 정제마진도 최고권, 10월 한국 마진 42.9달러",
+   "status": "follow",
+   "dupOf": "flows 10-01 [feedstock] 아시아 경유 마진 약 75달러",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-21",
+   "ids": [
+    "Onionfarmer/17950",
+    "Trillion_labs/9462",
+    "TNBfolio/71315",
+    "Trillion_labs/9137",
+    "Trillion_labs/9231",
+    "The_MariTimes/63158",
+    "Trillion_labs/9327",
+    "TNBfolio/71321",
+    "Onionfarmer/17924",
+    "The_MariTimes/62393",
+    "Trillion_labs/8166"
+   ],
+   "summary": "유럽 디젤 프리미엄 95달러(2011년 이후 최고), 프랑스 주유소 11→16% 품절, 4분기 항공유 51만b/d 부족",
+   "why": "유럽이 정제유 부족의 최약지점",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "유럽 10ppm 1,642달러는 old_items 15에 있음. 프랑스는 EU에 연료 품질 기준 완화 요청"
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "09-12",
+   "ids": [
+    "Trillion_labs/8694",
+    "Trillion_labs/8698",
+    "Trillion_labs/8699"
+   ],
+   "summary": "백악관, 국방생산법(DPA)으로 미국 정제능력 확대 방안 검토 — 가을·겨울 부족을 메울 신규 능력은 어렵다는 평가",
+   "why": "정제 증설 정책 검토 시작",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "09-23",
+   "ids": [
+    "TNBfolio/71238",
+    "HANAchina/68775",
+    "Trillion_labs/8977",
+    "Onionfarmer/17901",
+    "HANAchina/69140",
+    "Trillion_labs/9147",
+    "The_MariTimes/63237",
+    "TNBfolio/71348",
+    "Trillion_labs/9311",
+    "Onionfarmer/17941",
+    "HANAchina/69359",
+    "HANAchina/69405",
+    "insidertracking/64775",
+    "TNBfolio/71373",
+    "HANAchina/69519",
+    "HANAchina/69687",
+    "The_MariTimes/63444",
+    "Trillion_labs/9548",
+    "Trillion_labs/9781"
+   ],
+   "summary": "미국 디젤 수출 금지 검토(트럼프 \"매우 진지\", 라이트 장관 업계 대비 지시)",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "old_items 4·43·60 (경유 수출 금지 검토)",
+   "priority": "하",
+   "note": "EU 디젤 수입의 32%가 미국산"
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "10-02",
+   "ids": [
+    "Trillion_labs/9718",
+    "The_MariTimes/63414",
+    "HANAchina/69721",
+    "insidertracking/65140",
+    "The_MariTimes/63451",
+    "Trillion_labs/9921",
+    "Trillion_labs/9932",
+    "Trillion_labs/9937",
+    "cahier_de_market/10913",
+    "TNBfolio/71429",
+    "insidertracking/65239",
+    "HANAchina/69775",
+    "The_MariTimes/63480"
+   ],
+   "summary": "미국, 독·프에 비축 디젤 방출 압박 → G7 4개월간 원유·디젤 최대 1억 배럴 방출, 트럼프 \"수출 금지 안 한다\"",
+   "why": "정책이 수출 통제 대신 비축 방출로 정리",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "미국 요구는 6개월 1.2억 배럴, 미 SPR 4,000만 배럴 추가 방출 승인"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-01",
+   "ids": [
+    "Trillion_labs/8149",
+    "Trillion_labs/8161"
+   ],
+   "summary": "ADNOC 루와이스 정유소(92.2만 b/d)가 전쟁 피해 복구 뒤 최대 가동 재개, 디젤·항공유 수출 증가",
+   "why": "중동 정제 공급 일부 복귀",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-08",
+   "ids": [
+    "The_MariTimes/61430",
+    "Onionfarmer/17261",
+    "The_MariTimes/62751"
+   ],
+   "summary": "중국, 7월 말 석유제품 수출 제한 해제 뒤 수출 반등, 9월 예년 수준 복귀 추정(Vortexa)",
+   "why": "10월 수출 중단 전 7~9월 공급 완충",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "09-17",
+   "ids": [
+    "Trillion_labs/8953",
+    "insidertracking/63913",
+    "Onionfarmer/17902",
+    "The_MariTimes/63288",
+    "Trillion_labs/9861",
+    "TNBfolio/71410",
+    "Trillion_labs/9876"
+   ],
+   "summary": "중국 휘발유·경유 재고 수년 만의 최저 → 10월 연료 수출 중단",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "old_items 9 (09-24), 카드 bbg4-18, flows 10-01 [policy]",
+   "priority": "하",
+   "note": "중국·인도 정유사 가동률 인하 검토 언급"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "07-27",
+   "ids": [
+    "insidertracking/59397",
+    "Badonions/6132",
+    "Trillion_labs/6900",
+    "Trillion_labs/7371",
+    "Badonions/6660",
+    "The_MariTimes/62823",
+    "The_MariTimes/63011",
+    "Trillion_labs/8475",
+    "Trillion_labs/8183",
+    "Trillion_labs/8274",
+    "HANAchina/68403",
+    "Trillion_labs/7773"
+   ],
+   "summary": "중국 2분기 원유 수입 -30.2%로 재고 소진 → 7월 반등(780만b/d), 9월 가동률↑·INE 6달러 프리미엄",
+   "why": "중국 재구매가 원유 하단 지지, 아시아 원료 경쟁",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-16",
+   "ids": [
+    "HANAchina/69006",
+    "Trillion_labs/8991",
+    "HANAchina/68744"
+   ],
+   "summary": "사우디 송유관 피격 뒤 일본 에네오스·이데미쓰가 10월 선적분 조기 매입, 걸프 원유 현물 프리미엄 38달러",
+   "why": "아시아 정유·석화 원료 비용 상승",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-16",
+   "ids": [
+    "TNBfolio/71276"
+   ],
+   "summary": "미 전략비축유 2억 8,540만 배럴, 1982년 이후 최저",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "old_items 12 (09-18)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-18",
+   "ids": [
+    "Trillion_labs/8833",
+    "Trillion_labs/8891",
+    "Trillion_labs/9087",
+    "Trillion_labs/9088",
+    "insidertracking/64075",
+    "HANAchina/69092",
+    "HANAchina/69096",
+    "The_MariTimes/63132",
+    "Onionfarmer/17911",
+    "PipeBeom/6422",
+    "insidertracking/64354",
+    "Trillion_labs/9272",
+    "HANAchina/69261",
+    "Trillion_labs/9309"
+   ],
+   "summary": "사우디 동서 송유관 피격으로 유럽 정유사 원유 공급 중단, 이후 얀부 선적 재개 통보",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "flows 09-18·09-29 [capex]",
+   "priority": "하",
+   "note": "아람코가 지중해 디젤·유럽 휘발유 화물 구매 나섬"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "10-02",
+   "ids": [
+    "cahier_de_market/10912"
+   ],
+   "summary": "사우디 동서 송유관 수송량이 최대 능력의 80% 이상, 홍해 수출 가능 물량 전쟁 뒤 최고",
+   "why": "원유 흐름 회복 vs 국내 정유 공급 축소",
+   "status": "follow",
+   "dupOf": "flows 09-29 [capex] 얀부 하루 약 200만 배럴",
+   "priority": "중",
+   "note": "국내 정유시설 공급 물량을 줄였다는 점 주목"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "08-05",
+   "ids": [
+    "HANAchina/66586",
+    "Trillion_labs/7393",
+    "HANAchina/67589"
+   ],
+   "summary": "아람코 \"역사상 최대 공급 충격, 하루 1,100만 배럴 액체연료 손실·재고 방출 소진\", Citi OECD 재고 70일선 근접",
+   "why": "원료 재고 완충 소진",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "아람코 2분기 순이익 334억 달러(+33%)"
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "08-29",
+   "ids": [
+    "Trillion_labs/8073"
+   ],
+   "summary": "베네수엘라 초중질유는 희석제(미국산 나프타) 대량 필요 — 증산 시 나프타 수요 증가",
+   "why": "나프타 수급에 새 수요(추론)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "추론: 증산 속도에 따라 나프타 수요 확대"
+  },
+  {
+   "industry": "petchem",
+   "node": "cracker",
+   "date": "09-06",
+   "ids": [
+    "The_MariTimes/62648",
+    "Onionfarmer/17830"
+   ],
+   "summary": "나이지리아 단고테 정유소, 국내 소비보다 많은 연료 생산 중이며 2주 내 IPO로 정유 증설 자금 조달",
+   "why": "코로나 이후 거의 유일한 신규 대형 정유소 증설",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "policy",
+   "date": "09-05",
+   "ids": [
+    "The_MariTimes/62641"
+   ],
+   "summary": "독일·이탈리아 등 EU 6개국, 석유 기업 대상 EU 차원 횡재세 도입 촉구",
+   "why": "유럽 정유 투자 위축 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "specialty",
+   "date": "09-14",
+   "ids": [
+    "TNBfolio/71240",
+    "HANAchina/68854"
+   ],
+   "summary": "코스트코, 글로벌 공급 부족으로 자체 브랜드 엔진오일 구매 수량 제한",
+   "why": "윤활기유 부족이 소비재로 전이",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "7월 하나증권 주간에도 윤활기유 강세 언급(Onionfarmer/17073)"
+  },
+  {
+   "industry": "petchem",
+   "node": "demand",
+   "date": "09-27",
+   "ids": [
+    "HANAchina/69480",
+    "PipeBeom/5947"
+   ],
+   "summary": "유럽 8월 순수 전기차 등록 +52%(독일 +75%), 전쟁이 중국 전기차 확산을 도움",
+   "why": "연료 수요 대체 가속",
+   "status": "follow",
+   "dupOf": "flows 10-02 [feedstock] 중국 전기차 석유 대체",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "cracker",
+   "date": "07-28",
+   "ids": [
+    "Trillion_labs/6468"
+   ],
+   "summary": "호주, 1960년대 이후 첫 신규 정유소 건설 검토 착수",
+   "why": "정유 자급 정책 확산(초기)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "feedstock",
+   "date": "09-01",
+   "ids": [
+    "TNBfolio/71114",
+    "HANAchina/69048",
+    "TNBfolio/71161"
+   ],
+   "summary": "골드만, 2027년 디젤 마진 전망 2배 이상 상향 → 9월 디젤 전망 낮추고 유럽 휘발유로 무게 이동, 선박용 중유도 부족",
+   "why": "디젤 부족이 다른 제품으로 번짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "commodity",
+   "date": "09-28",
+   "ids": [
+    "HANAchina/69513"
+   ],
+   "summary": "CICC: 1~8월 중국 중간재 수출 증가가 에너지 가격 상승과 관련",
+   "why": "—",
+   "status": "dup",
+   "dupOf": "flows 09-28 [commodity]",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "petchem",
+   "node": "cracker",
+   "date": "08-05",
+   "ids": [
+    "Trillion_labs/7144"
+   ],
+   "summary": "ENEOS, 셰브론 사업 인수로 글로벌 성장 투자 1조 엔, 연료·가스·석유화학 기회 모색",
+   "why": "일본 정유사 해외 확장",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  }
+ ]
+}

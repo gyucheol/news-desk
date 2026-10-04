@@ -1,0 +1,1246 @@
+{
+ "file": "F1b_semis_Aug",
+ "industries": [
+  "macro/semis"
+ ],
+ "period": "2026-08-01~2026-08-31",
+ "counts": {
+  "lines": 823,
+  "N": 433,
+  "R": 390,
+  "relevant": 305
+ },
+ "flow": [
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "8월 초: 7월 말 메모리주 급락(레버리지 청산)에도 2분기 실적 뒤 CSP 설비투자 전망이 상향되고 메모리 3사 2027년 생산능력 완판·LTA로 가격 하방이 막히며 부족 국면이 이어졌습니다.",
+   "ids": [
+    "cahier_de_market/10330",
+    "HANAchina/66481",
+    "HANAchina/66537",
+    "HANAchina/66415",
+    "insidertracking/60004"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "8월 중순: 샌디스크 실적·Rubin Ultra HBM 축소설로 '가격 상승 속도 둔화' 논쟁이 일었으나, 마이크론·애플 사례에서 부족은 오히려 심화했고 공급사 증설(난야·SK하이닉스·삼성)과 중국(CXMT·YMTC) 확장이 시작됐습니다.",
+   "ids": [
+    "HANAchina/66780",
+    "HANAchina/66724",
+    "insidertracking/60946",
+    "HANAchina/66731",
+    "HANAchina/67295",
+    "insidertracking/61004"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "8월 하순: 엔비디아가 FY28 매출 +70%와 메모리발 마진 하락·서버 15% 인상을 밝히며 마진이 메모리로 이동했고, 파운드리·장비·키옥시아 증설로 상승이 넓어졌습니다. 한편 스마트폰 출하 -16.7% 전망 등 수요 파괴, 미국 반도체 관세 검토가 위험으로 떠올랐습니다.",
+   "ids": [
+    "cahier_de_market/10558",
+    "insidertracking/61824",
+    "insidertracking/61516",
+    "HANAchina/67715",
+    "HANAchina/67921",
+    "HANAchina/67914",
+    "insidertracking/62232"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-02",
+   "ids": [
+    "cahier_de_market/10323",
+    "HANAchina/66415",
+    "Onionfarmer/17618",
+    "HANAchina/66684",
+    "HANAchina/67011"
+   ],
+   "summary": "메모리 LTA 구조 변화: 삼성 판매 60~70%가 LTA, 가격 인하 분기 5% 상한·상승은 시장가 반영, 기간 1→5년·2·3선 업체로 확산",
+   "why": "가격 하방을 막는 계약 구조로 이번 사이클의 진폭을 줄임",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-02",
+   "ids": [
+    "cahier_de_market/10330",
+    "cahier_de_market/10341",
+    "cahier_de_market/10386",
+    "insidertracking/60594",
+    "HANAchina/66790"
+   ],
+   "summary": "모건스탠리, 2027년 CSP 설비투자 1.3조 달러(컨센서스 +24%) 전망, 2027 클라우드 capex 증가율 14%→29%로 상향",
+   "why": "AI 설비투자 둔화 우려를 반박하는 상향 조정",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "HANAchina/66481",
+    "HANAchina/66797",
+    "HANAchina/66454",
+    "TNBfolio/70801"
+   ],
+   "summary": "트렌드포스: 2026년 9대 CSP capex +90%, AI 서버 출하 증가율 28→31%. 4대 클라우드 2분기 capex +79%",
+   "why": "2분기 실적 뒤 AI 설비투자 가이던스가 다시 올라감",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "insidertracking/60088"
+   ],
+   "summary": "트렌드포스, 3분기 PC D램 고정거래가 전분기 대비 15~20% 상승 전망, 서버 수요에 내년 PC D램 공급 축소",
+   "why": "서버 우선 배정으로 범용 D램까지 가격 상승 전이",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-04",
+   "ids": [
+    "HANAchina/66537",
+    "HANAchina/66670",
+    "HANAchina/66800",
+    "HANAchina/66560",
+    "HANAchina/66498"
+   ],
+   "summary": "삼성·마이크론·SK하이닉스의 2027년 D램·HBM 생산능력 이미 배정 완료(디지타임스), D램 부족 2027년까지 지속",
+   "why": "공급 부족이 내년까지 확정된 신호, 업황 장기화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "HANAchina/66606",
+    "HANAchina/66612"
+   ],
+   "summary": "선전 화창베이 D램 현물가가 1주일 새 10~14% 급등(DDR4 8Gb +12.8%, DDR5 16/24Gb +14.3%), 6개월 보합 종료",
+   "why": "현물 시장까지 다시 오르며 7월 말 주가 급락과 괴리",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-04",
+   "ids": [
+    "Trillion_labs/7049"
+   ],
+   "summary": "일본, 8월 1일 세 번째 반도체 장비 수출통제 발효, 첨단 패키징 전 공정 핵심 장비의 대중 공급 중단",
+   "why": "첨단 패키징까지 통제 범위가 넓어짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(중국 매체 인용)"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-02",
+   "ids": [
+    "HANAchina/66397"
+   ],
+   "summary": "중국, AI 수출통제 검토…해외 파운드리 위탁생산 규제 논의(글로벌이코노믹)",
+   "why": "중국 쪽 역방향 통제 가능성",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "링크만 있음, 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "TNBfolio/70826",
+    "Badonions/6450"
+   ],
+   "summary": "미국, 중국산 데이터센터용 800G·1.6T 광트랜시버 수입 금지 검토",
+   "why": "AI 인프라 부품까지 미·중 공급망 분리 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "insidertracking/60261",
+    "insidertracking/60263",
+    "TNBfolio/70828",
+    "TNBfolio/70858",
+    "The_MariTimes/61906"
+   ],
+   "summary": "미국, 폴리실리콘 파생품에 15% 관세·최저 수입가 도입",
+   "why": "반도체·태양광 원재료 대중 견제",
+   "status": "dup",
+   "dupOf": "old_items 62 (2026-08-05 폴리실리콘 15% 관세)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "insidertracking/60343",
+    "HANAchina/66637",
+    "The_MariTimes/61901",
+    "insidertracking/60111"
+   ],
+   "summary": "삼성·SK하이닉스, 미국 규제 강화 대비 중국 팹에 AMEC 식각장비 도입 시험(로이터). AMEC는 中 점유율 60% 목표",
+   "why": "수출통제가 중국 장비 국산화를 앞당김",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "cahier_de_market/10362",
+    "insidertracking/60335",
+    "cahier_de_market/10364"
+   ],
+   "summary": "머스크: 메모리 공급 연 20% 증가 vs 수요 200% 이상, 최대 제약은 메모리. 스페이스X 연말 2GW 이상 컴퓨팅",
+   "why": "수요 측 대형 고객이 메모리 병목을 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-04",
+   "ids": [
+    "cahier_de_market/10344",
+    "TNBfolio/70957"
+   ],
+   "summary": "B200 노드 임대 13개 업체 가용 물량 0, 시간당 6.5~7달러로 상승 전망. H100 임대료 6개월 새 1.70→2.35달러",
+   "why": "GPU 임대가는 AI 설비 과잉 여부를 보는 선행지표",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "HANAchina/66646",
+    "HANAchina/66696",
+    "kkkontemp/2571",
+    "HANAchina/66780",
+    "HANAchina/66945",
+    "HANAchina/66990",
+    "insidertracking/60957",
+    "cahier_de_market/10392",
+    "Onionfarmer/17686",
+    "cahier_de_market/10396"
+   ],
+   "summary": "샌디스크 실적 뒤 '가격 정점' 논쟁: 번스타인 3분기 D램·낸드 계약가 상승폭 약 20%로 축소, 씨티 마이크론 목표가 하향",
+   "why": "부족은 이어지나 가격 상승 속도 둔화가 국면 논점으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-06",
+   "ids": [
+    "Badonions/6342",
+    "HANAchina/66560",
+    "HANAchina/66724",
+    "HANAchina/66796",
+    "HANAchina/66816",
+    "HANAchina/66860",
+    "HANAchina/67000",
+    "Onionfarmer/17679",
+    "cahier_de_market/10426",
+    "cahier_de_market/10404"
+   ],
+   "summary": "엔비디아, HBM 부족에 Rubin Ultra HBM을 12단 384GB→8단 192GB 등으로 축소 검토(보도)",
+   "why": "HBM 공급 제약이 고객 제품 사양을 바꿀 만큼 심각",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "사양 축소 여부는 루머·반론 혼재"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-06",
+   "ids": [
+    "HANAchina/66700",
+    "HANAchina/66731",
+    "HANAchina/66961",
+    "insidertracking/60446",
+    "HANAchina/66644",
+    "TNBfolio/70845",
+    "w_compass/6591",
+    "HANAchina/66865",
+    "HANAchina/66915",
+    "HANAchina/67205",
+    "HANAchina/66485"
+   ],
+   "summary": "애플, D램 부족으로 TSMC 보유 프로세서 약 10억 달러어치 패키징 지연, CXMT 칩 시험(WSJ)·가격 협상은 실패",
+   "why": "부족이 대형 완제품 업체 공급망까지 흔듦",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-15",
+   "ids": [
+    "insidertracking/61197",
+    "PipeBeom/6031",
+    "insidertracking/61845",
+    "HANAchina/67655"
+   ],
+   "summary": "러트닉 상무장관, 애플의 중국산 메모리 구매에 반대 표명. 23일엔 CXMT·YMTC 구매 허용 준비 관측(루머)",
+   "why": "메모리 부족이 대중 기술 통제와 충돌",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "허용설은 루머 수준"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-10",
+   "ids": [
+    "insidertracking/60770",
+    "HANAchina/66910",
+    "HANAchina/67459",
+    "HANAchina/67421",
+    "HANAchina/66444",
+    "HANAchina/66654",
+    "HANAchina/67800"
+   ],
+   "summary": "아이폰18 프로 원가 약 38%↑(트렌드포스), 샤오미 메모리 비용이 매출총이익 30억 위안 잠식, 아마존 기기가 최대 60% 인상",
+   "why": "메모리 원가가 완제품 가격으로 전가되는 단계",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-27",
+   "ids": [
+    "HANAchina/67914",
+    "HANAchina/67773",
+    "HANAchina/68112",
+    "HANAchina/66665"
+   ],
+   "summary": "IDC, 2026년 스마트폰 출하 약 10억 대·전년 대비 -16.7%, 평균가 581달러(+27.6%). 태블릿 패널도 -4.7%",
+   "why": "메모리발 원가 상승이 소비자 기기 수요를 깎는 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "HANAchina/66656",
+    "HANAchina/66686",
+    "HANAchina/67123"
+   ],
+   "summary": "난야테크 2026년 capex 520억→697억 대만달러(+34%), 5A 신공장에 4년간 3,466억 대만달러 투자",
+   "why": "가격 급등에 2선 업체 증설 시작, 다음 공급 사이클 씨앗",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-11",
+   "ids": [
+    "insidertracking/61144",
+    "HANAchina/67295",
+    "TNBfolio/70963",
+    "HANAchina/66768",
+    "HANAchina/66984",
+    "HANAchina/67784"
+   ],
+   "summary": "삼성·SK하이닉스 상반기 설비투자 43.2조 원(+35.1%), 가동률 100%. 솔리다임 다롄2공장 재개(낸드 +50%)",
+   "why": "한국 메모리의 증설이 본격화, 공급 대응 국면",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-13",
+   "ids": [
+    "TNBfolio/70942"
+   ],
+   "summary": "CNBC: SK하이닉스, 2034년까지 생산능력 3배로 늘리는 7,200억 달러 규모 메모리 팹 투자",
+   "why": "장기 증설 규모가 사이클 공급 측 변수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "영상 기사 요약, 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-14",
+   "ids": [
+    "HANAchina/67147",
+    "HANAchina/67949",
+    "HANAchina/67542",
+    "Trillion_labs/7894",
+    "insidertracking/62447",
+    "HANAchina/68116"
+   ],
+   "summary": "SK하이닉스, 미국 인디애나에 40억 달러+ HBM 패키징 공장(2029년 양산), 미국 전공정 부지·일본 미야기 합작 팹 검토",
+   "why": "고객 현지화 요구로 메모리 증설이 해외로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-18",
+   "ids": [
+    "cahier_de_market/10440",
+    "HANAchina/67315",
+    "insidertracking/61376",
+    "HANAchina/67772"
+   ],
+   "summary": "미국이 대미투자에서 한국 메모리 생산시설 투자를 강하게 요구, 정부는 '반도체 1호 사업' 보도 부인",
+   "why": "메모리 공급망이 통상 협상 의제로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-11",
+   "ids": [
+    "cahier_de_market/10406",
+    "cahier_de_market/10411",
+    "insidertracking/60946",
+    "TNBfolio/70923"
+   ],
+   "summary": "마이크론(키뱅크): 영업이익률 81%, 내년 부족 심화, 데이터센터 수요 절반 미만만 충족, SCA(공급능력계약) 도입",
+   "why": "공급사가 부족 장기화를 직접 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-12",
+   "ids": [
+    "HANAchina/67030",
+    "kkkontemp/2614"
+   ],
+   "summary": "서버 DDR5 8월 15~23% 인상, 64GB RDIMM 현물은 6~7월 3,000달러대→8월 3,600달러",
+   "why": "서버 메모리 가격 상승 재가속",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "Badonions/6336",
+    "Badonions/6562",
+    "Badonions/6850"
+   ],
+   "summary": "낸드 512Gb TLC 주간가 8/3 19.25→8/10 20.13→8/24 21.21달러(전년 대비 +655%)",
+   "why": "낸드도 8월 내내 상승 지속",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-21",
+   "ids": [
+    "cahier_de_market/10497",
+    "HANAchina/67817"
+   ],
+   "summary": "한국 D램 8월 1~20일 수출 단가 kg당 9만2,183달러, 전년 대비 +401%",
+   "why": "수출 데이터로 가격 상승 지속을 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-08",
+   "ids": [
+    "HANAchina/66795",
+    "Badonions/6522",
+    "Badonions/6514",
+    "TNBfolio/70882",
+    "HANAchina/66930",
+    "Badonions/6385",
+    "Badonions/6389",
+    "TNBfolio/70797",
+    "TNBfolio/70868",
+    "HANAchina/66868"
+   ],
+   "summary": "대만 7월 수출 753억 달러(+32.9%), 메모리 IC +168.8%, TSMC 7월 매출 +44.7%",
+   "why": "교역 지표가 AI 반도체 호황을 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-11",
+   "ids": [
+    "insidertracking/60830",
+    "HANAchina/66947",
+    "The_MariTimes/62031",
+    "HANAchina/67025",
+    "TNBfolio/70932",
+    "HANAchina/67175",
+    "HANAchina/67109",
+    "HANAchina/67221",
+    "HANAchina/67803",
+    "HANAchina/67268"
+   ],
+   "summary": "엔비디아, 아폴로·블랙스톤 등과 최대 5,000억 달러 AI 인프라 금융 플랫폼(GPU 담보 SPV) 추진. 색스 '연산 과잉' 경고",
+   "why": "칩 수요를 공급사 신용으로 떠받치는 단계, 과잉 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-16",
+   "ids": [
+    "insidertracking/61218",
+    "Trillion_labs/8027",
+    "insidertracking/62043",
+    "insidertracking/62084",
+    "insidertracking/62380"
+   ],
+   "summary": "엔비디아, 오픈AI 오하이오 데이터센터 금융보증 조정(1단계 1,200억 달러). 브로드컴 5년 CDS 확대, 반도체 채권 스프레드 확대",
+   "why": "벤더 파이낸싱 확대에 신용시장이 경계",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "HANAchina/66645",
+    "Trillion_labs/7220",
+    "HANAchina/66595",
+    "HANAchina/66494"
+   ],
+   "summary": "삼성 파운드리 4나노 풀가동(HBM4 베이스다이·LPU), 고객에 5나노 대체 제안, 하반기 가동률 100% 근접",
+   "why": "로직 파운드리까지 AI 수요로 가동률 포화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-19",
+   "ids": [
+    "insidertracking/61516",
+    "insidertracking/61525",
+    "cahier_de_market/10466",
+    "HANAchina/67460",
+    "The_MariTimes/62196",
+    "HANAchina/68066"
+   ],
+   "summary": "삼성, 4·5나노 등 첨단 파운드리 신규 주문 가격 최대 15% 인상(로이터). TSMC도 내년 최대 10% 인상 예정",
+   "why": "파운드리 가격 인상이 메모리에서 로직으로 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-18",
+   "ids": [
+    "HANAchina/66599",
+    "HANAchina/66742",
+    "HANAchina/67324",
+    "HANAchina/67359",
+    "HANAchina/67571"
+   ],
+   "summary": "성숙공정·후공정·전력반도체 가격 인상 확산: 대만 전력반도체 10월 10~15%, ST 8/23 3차 인상",
+   "why": "AI발 부족이 범용 반도체 가격으로 번짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-05",
+   "ids": [
+    "cahier_de_market/10369",
+    "HANAchina/66638",
+    "HANAchina/67403",
+    "HANAchina/67439",
+    "HANAchina/67760",
+    "cahier_de_market/10529",
+    "cahier_de_market/10584",
+    "insidertracking/62449",
+    "HANAchina/68114"
+   ],
+   "summary": "TSMC CoWoS 부족: CoW 공정 ASE 외주·후공정 일부 인텔 말레이시아로. SK하이닉스 HBM에 인텔 EMIB·베이스다이 위탁 검토",
+   "why": "첨단 패키징 병목이 공급망을 다변화시킴",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "HANAchina/66440",
+    "insidertracking/60070"
+   ],
+   "summary": "TSMC 3나노 월 18만 장 목표를 엔비디아·AMD·브로드컴 주문 폭주로 4분기 초로 2~3개월 앞당겨 달성 전망",
+   "why": "선단 공정 수요 강도 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "insidertracking/60091",
+    "insidertracking/61004",
+    "insidertracking/60233",
+    "HANAchina/66550",
+    "HANAchina/67481"
+   ],
+   "summary": "CXMT, 베이징 2공장 검토, 17나노 DDR5 수율 90% 도달, HP·에이수스·에이서 저가 노트북 채택. 2분기 가장 빠른 점유율 성장",
+   "why": "중국 D램 공급 확대는 다음 사이클 가격 변수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-28",
+   "ids": [
+    "Badonions/6918",
+    "Badonions/6919",
+    "HANAchina/67993",
+    "HANAchina/68003",
+    "HANAchina/68056",
+    "HANAchina/67938"
+   ],
+   "summary": "CXMT 2분기 매출 995억 위안(예상 655억), 매출총이익률 92.4%. 상반기 매출 1,503억 위안(+873%)",
+   "why": "중국 업체까지 초과이익, 증설 유인 커짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-29",
+   "ids": [
+    "HANAchina/68021",
+    "insidertracking/62377",
+    "HANAchina/68035",
+    "HANAchina/67824"
+   ],
+   "summary": "CXMT, 세계 최초 LPDDR6 양산 발표, 샤오미 18 Fold에 첫 탑재. 생산능력은 중국 업체 장기계약이 선점",
+   "why": "중국 메모리 기술 격차 축소",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-12",
+   "ids": [
+    "HANAchina/67041",
+    "HANAchina/67590",
+    "HANAchina/67602",
+    "TNBfolio/71023",
+    "insidertracking/61940",
+    "HANAchina/67595",
+    "HANAchina/68073"
+   ],
+   "summary": "YMTC 낸드 점유율 14%로 3위, 330억 위안 IPO 접수, 1분기 낸드 매출총이익률 78.7%, 내년 웨이퍼 25% 증산(옴디아)",
+   "why": "중국 낸드 증설이 공급 측 변수로 부상",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-19",
+   "ids": [
+    "TNBfolio/70990",
+    "HANAchina/67429"
+   ],
+   "summary": "중국 정부, 엔비디아 H200 소량 반입 허용, 바이트댄스·텐센트 각각 약 1만 개 수령",
+   "why": "중국 수입 규제 일부 완화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-27",
+   "ids": [
+    "insidertracking/62232",
+    "TNBfolio/71091"
+   ],
+   "summary": "트럼프 행정부, 반도체와 서버·노트북 등 파생제품에 광범위한 추가 관세 검토(폴리티코)",
+   "why": "AI 설비 원가를 높일 정책 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-28",
+   "ids": [
+    "The_MariTimes/62439",
+    "insidertracking/62352"
+   ],
+   "summary": "미국, 중국 AI 기업의 해외 데이터센터 통한 첨단 칩 원격 이용 차단 규정 마련 중",
+   "why": "수출통제가 클라우드 접근까지 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-18",
+   "ids": [
+    "TNBfolio/70977",
+    "TNBfolio/71008"
+   ],
+   "summary": "미·중 규제 맞물려 텅스텐 가격 전년 대비 666% 폭등. 중국은 대만행 게르마늄·석영 소재 수출 지연",
+   "why": "소재 공급망 병목",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-23",
+   "ids": [
+    "insidertracking/61824",
+    "HANAchina/67647",
+    "TNBfolio/71024",
+    "HANAchina/67681",
+    "cahier_de_market/10509",
+    "TNBfolio/71054",
+    "insidertracking/60988",
+    "HANAchina/67611"
+   ],
+   "summary": "엔비디아, 내년 초 출하 서버 가격 15% 이상 인상 통보(블룸버그), 메모리 원가 반영. 트렌드포스 2027 HBM값 50% 상승 전망",
+   "why": "메모리 원가가 GPU 가격으로 전가, 공급사로 마진 이동",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-27",
+   "ids": [
+    "w_compass/6795",
+    "cahier_de_market/10555",
+    "cahier_de_market/10558",
+    "HANAchina/67881",
+    "HANAchina/67911",
+    "Badonions/6884",
+    "cahier_de_market/10573",
+    "cahier_de_market/10574",
+    "cahier_de_market/10577"
+   ],
+   "summary": "엔비디아 실적: FY28 매출 약 +70%(예상 44%) 전망, 매출총이익률 72~73%로 하향(메모리 비용), 공급 병목 FY28 말까지",
+   "why": "AI 수요 재가속 확인, 메모리 부족 2027년까지",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-17",
+   "ids": [
+    "cahier_de_market/10436",
+    "HANAchina/67804",
+    "HANAchina/67835",
+    "Badonions/6844",
+    "TNBfolio/70897",
+    "TNBfolio/70898",
+    "cahier_de_market/10368"
+   ],
+   "summary": "트렌드포스: 2027년 메모리가 주요 CSP capex의 68%. UBS 26~28년 하이퍼스케일러 누적 capex 4.1조 달러",
+   "why": "AI 설비투자의 몫이 메모리로 이동",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-18",
+   "ids": [
+    "cahier_de_market/10442",
+    "cahier_de_market/10443",
+    "cahier_de_market/10444",
+    "cahier_de_market/10445"
+   ],
+   "summary": "메리츠: 고객사 2028년 HBM 수요 계획 상향(브로드컴 350~400억Gb 등 합계 약 1,000억Gb), 올해 출하는 약 300억Gb",
+   "why": "중기 HBM 수요가 공급 능력을 크게 앞섬",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-07",
+   "ids": [
+    "cahier_de_market/10387",
+    "HANAchina/66627"
+   ],
+   "summary": "골드만삭스, 2027년 HBM 평균가 약 2배 상승·범용 D램과 격차 Gb당 1달러 이상 전망",
+   "why": "HBM 가격 상승 기대 유지",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-24",
+   "ids": [
+    "HANAchina/67715",
+    "insidertracking/62036",
+    "insidertracking/61114",
+    "HANAchina/66609"
+   ],
+   "summary": "골드만삭스, 웨이퍼 팹 장비 투자 2026~28년 1,500·2,180·2,810억 달러로 상향. AMAT 분기 매출 91억 달러(+25%)",
+   "why": "공급 증설이 장비 업사이클로 이어짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-27",
+   "ids": [
+    "HANAchina/67921",
+    "insidertracking/62234",
+    "HANAchina/68032",
+    "Badonions/6932"
+   ],
+   "summary": "키옥시아, 6년간 일본 증설 5조 엔+(기타카미 1.8조 엔), 샌디스크와 310억 달러. 증설 조건으로 장기계약 요구",
+   "why": "낸드 증설을 장기계약과 맞바꾸는 공급자 우위",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-20",
+   "ids": [
+    "HANAchina/67500"
+   ],
+   "summary": "윈본드, 고객과 생산능력 협의가 2030년까지 차자 가오슝 증설 앞당김(2027 착공·2029 장비 반입)",
+   "why": "2선 업체도 장기 증설 착수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-28",
+   "ids": [
+    "cahier_de_market/10567",
+    "HANAchina/67953",
+    "insidertracking/62329"
+   ],
+   "summary": "곽노정 SK하이닉스 사장, 메모리 공급 부족 2030년 말까지 지속·이후에도 급격한 수요 감소 없을 것",
+   "why": "공급사가 장기 부족을 공언",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-31",
+   "ids": [
+    "insidertracking/62481",
+    "cahier_de_market/10589"
+   ],
+   "summary": "삼성전자, 2031년까지 메모리 생산능력 약 70%를 장기계약에 배정(트렌드포스). HBM3E 현물가 계약가의 4~5배",
+   "why": "물량 대부분이 장기계약에 묶여 현물 급등",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-21",
+   "ids": [
+    "HANAchina/67552",
+    "HANAchina/67561",
+    "insidertracking/61733",
+    "insidertracking/61668",
+    "HANAchina/67545"
+   ],
+   "summary": "마이크론 CEO: 고객 구매 의향이 공급 약속 가능량을 넘어섬, 메모리는 전략 부품. 10년간 100억 달러 미국 연구소",
+   "why": "공급사의 구조적 수요 주장",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-26",
+   "ids": [
+    "HANAchina/67837",
+    "HANAchina/68059",
+    "insidertracking/61757",
+    "HANAchina/66642"
+   ],
+   "summary": "가트너, 2026년 메모리 시장 8,373억 달러로 2025년 반도체 전체(8,090억)를 넘을 전망. 2분기 낸드 5사 매출 +77% QoQ",
+   "why": "메모리 시장 규모가 반도체 전체를 넘는 이례적 호황",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-28",
+   "ids": [
+    "HANAchina/67996"
+   ],
+   "summary": "BofA, 공급 부족과 성수기 겹쳐 9월 D램·낸드 현물가 10~20% 추가 상승 여지",
+   "why": "9월 가격 상승 지속 전망",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-08",
+   "ids": [
+    "HANAchina/66798",
+    "HANAchina/67438",
+    "HANAchina/67401"
+   ],
+   "summary": "DDR4 현물가 전년 대비 약 6배, 하반기 상승폭 둔화 예상. 8월 중순 D램 현물 거래 부진 속 소폭 상승, 샤오미도 완화 전망",
+   "why": "범용·구세대 현물은 상승 둔화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-09",
+   "ids": [
+    "HANAchina/66848",
+    "Onionfarmer/17680",
+    "HANAchina/66811",
+    "HANAchina/67099",
+    "Badonions/6662"
+   ],
+   "summary": "LLM 토큰 비용 5월 고점 대비 37.5% 하락. 에이전트 AI로 AWS CPU 부족, BofA CPU:GPU 1:1 전망",
+   "why": "수익화 압력과 함께 연산 수요가 CPU로 확장",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "insidertracking/60076",
+    "HANAchina/67970",
+    "HANAchina/68017",
+    "cahier_de_market/10542",
+    "Badonions/6870",
+    "TNBfolio/71061",
+    "HANAchina/66922"
+   ],
+   "summary": "구글 2028년 TPU 수요 최대 1,500만 개, 옴디아 2028년 ASIC 출하 1,050만 개로 GPU 추월, 오픈AI 자체칩 공개",
+   "why": "가속기 수요가 ASIC으로 분산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-12",
+   "ids": [
+    "HANAchina/67040",
+    "HANAchina/67120",
+    "Badonions/6639",
+    "HANAchina/67097",
+    "HANAchina/67808"
+   ],
+   "summary": "폭스콘 2026년 AI 서버 랙 출하 2배+, 콴타 주문 가시성 2028년까지, 레노버 매출 +43%. 대만 7월 도매 +56.4%",
+   "why": "서버 조립 단계의 수요 강세",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-03",
+   "ids": [
+    "TNBfolio/70802",
+    "TNBfolio/70915",
+    "TNBfolio/70929",
+    "HANAchina/67142",
+    "HANAchina/67922",
+    "HANAchina/67630",
+    "HANAchina/67300",
+    "Badonions/6948"
+   ],
+   "summary": "MLCC 장기계약 급증·삼성전기 4분기 견적 인상, 난야플라스틱 전자재료 가격 올해 2배+, 고급 동박 수요 +260%",
+   "why": "부족이 수동부품·소재로 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-26",
+   "ids": [
+    "HANAchina/67858",
+    "cahier_de_market/10572",
+    "HANAchina/66908",
+    "cahier_de_market/10591"
+   ],
+   "summary": "삼성·SK하이닉스, 하반기 엔비디아향 8단 HBM4 공급 확대, 삼성은 8단 HBM4E 개발. 루빈 CPX는 HBM4로 부활(궈밍치)",
+   "why": "Rubin 사양 조정 논란의 후속",
+   "status": "follow",
+   "dupOf": "",
+   "priority": "중",
+   "note": "Rubin Ultra HBM 축소 후보(08-06)의 후속"
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-28",
+   "ids": [
+    "Badonions/6906",
+    "insidertracking/59953",
+    "cahier_de_market/10531",
+    "HANAchina/67768"
+   ],
+   "summary": "마이크론 대만 노조 약 1만 명 파업 찬성 약 80%(빠르면 9월). SK하이닉스 임금 잠정합의 노조 투표 부결(반대 50.1%)",
+   "why": "노사 갈등이 공급 차질 위험으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-11",
+   "ids": [
+    "insidertracking/60870"
+   ],
+   "summary": "중국, 자체 EUV 노광장비용 EUV 레이저 광원 개발 진전, 전 ASML 엔지니어 참여",
+   "why": "장비 통제 우회 시도",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "08-19",
+   "ids": [
+    "cahier_de_market/10460",
+    "cahier_de_market/10461",
+    "cahier_de_market/10462",
+    "cahier_de_market/10469",
+    "insidertracking/61531",
+    "insidertracking/61615",
+    "cahier_de_market/10503",
+    "PipeBeom/6115",
+    "HANAchina/67577"
+   ],
+   "summary": "SK하이닉스 40조 원 자사주 매입·FCF 50% 이상 환원, 삼성 올해 잔여 환원 90~110조 원. 원화 강세 요인으로 거론",
+   "why": "초과이익의 쓰임(증설 vs 환원)과 환율 경로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-04",
+   "ids": [
+    "insidertracking/60004",
+    "HANAchina/66469",
+    "cahier_de_market/10343",
+    "HANAchina/66653",
+    "insidertracking/60198",
+    "HANAchina/67302",
+    "w_compass/6839"
+   ],
+   "summary": "7월 메모리주 급락은 레버리지 청산 탓, 실적 악화 아님(WSJ·중신건투). 필라델피아 반도체지수 약세장 21일 만에 종료",
+   "why": "주가 조정과 업황 펀더멘털의 괴리",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-20",
+   "ids": [
+    "HANAchina/67490"
+   ],
+   "summary": "일본 7월 수출 +23.2%, 2022년 10월 이후 최고. 반도체·자동차 수요와 엔 약세가 견인",
+   "why": "반도체 교역 호황의 확산",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "deferred_newNote 이월 후보(HANAchina 67490)"
+  }
+ ]
+}

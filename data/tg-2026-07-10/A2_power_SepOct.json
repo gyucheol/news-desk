@@ -1,0 +1,1329 @@
+{
+ "file": "A2_power_SepOct",
+ "industries": [
+  "power"
+ ],
+ "period": "2026-09-01~2026-10-04",
+ "counts": {
+  "lines": 628,
+  "N": 354,
+  "R": 274,
+  "relevant": 160
+ },
+ "flow": [
+  {
+   "month": "2026-09",
+   "industry": "power",
+   "point": "수요 전망은 계속 상향(골드만 217GW, JP모건 57GW 부족)되고 계통연계 대기가 2,078GW로 늘었지만, 데이터센터 반대가 정치 의제가 돼 텍사스 허가 중단·주 단위 규제·비용 귀속 법안이 잇따랐습니다.",
+   "ids": [
+    "cahier_de_market/10834",
+    "Onionfarmer/17957",
+    "w_compass/7018",
+    "Trillion_labs/9248",
+    "The_MariTimes/62869",
+    "HANAchina/68956"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "power",
+   "point": "발전 기자재는 캐터필러 잔고 +92%, 보일러·연료전지 등 대체 발전으로 병목이 번졌고, 변압기 납기는 증설에도 2~3년이 유지됐습니다.",
+   "ids": [
+    "Onionfarmer/17837",
+    "HANAchina/68883",
+    "HANAchina/69365",
+    "w_compass/6918"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "power",
+   "point": "ESS는 미국 행정명령으로 단기 지연 위험과 비중국 셀 대체 수요가 함께 생겼고, 중국은 신규 배터리 공장 건설을 멈췄으며 탄산리튬은 5월 고점 대비 35% 넘게 하락했습니다.",
+   "ids": [
+    "w_compass/6894",
+    "Badonions/7266",
+    "TNBfolio/71226",
+    "HANAchina/68843"
+   ]
+  },
+  {
+   "month": "2026-10",
+   "industry": "power",
+   "point": "10월 초(1~4일)에는 한국 대미 원전 8기·가스발전 투자가 발표되고 계통+연료전지 혼합 데이터센터가 늘었으며, 반대 여론은 호주까지 번졌습니다.",
+   "ids": [
+    "Trillion_labs/9839",
+    "Onionfarmer/17994",
+    "The_MariTimes/63488"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-01",
+   "ids": [
+    "The_MariTimes/62503",
+    "insidertracking/62498",
+    "HANAchina/68147",
+    "HANAchina/68276",
+    "insidertracking/62808",
+    "The_MariTimes/62767",
+    "insidertracking/63679",
+    "HANAchina/68905",
+    "HANAchina/68907"
+   ],
+   "summary": "트럼프·베선트·밴스가 데이터센터 반대 여론을 공개 비판, 폭스 조사 유권자 70%가 지역 건설 반대",
+   "why": "수요 확대의 제약이 정치·여론으로 옮겨 간 신호",
+   "status": "follow",
+   "dupOf": "tg-TNBfolio-71034(유권자 61% 반대)",
+   "priority": "중",
+   "note": "70%는 폭스뉴스 여론조사 수치(본문 일부)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-03",
+   "ids": [
+    "HANAchina/68286"
+   ],
+   "summary": "바클레이즈: 미국인 71%가 집 근처 데이터센터 반대, 전기요금 상승폭 최대 24%",
+   "why": "다음 병목이 칩·전력보다 인허가·정치라는 판단",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(24%의 기준·기간)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-07",
+   "ids": [
+    "The_MariTimes/62692"
+   ],
+   "summary": "미국 데이터센터 차단 건수: 지난해 전체 26건, 올해는 1분기만 26건",
+   "why": "반대에 따른 실현 차질이 빠르게 늘어남",
+   "status": "follow",
+   "dupOf": "bbg4-12(2분기 45곳·680억 달러)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-04",
+   "ids": [
+    "HANAchina/68355"
+   ],
+   "summary": "태국 정부가 규제 정비 위해 데이터센터 49개 사업 건설을 중단, 한 달 안 새 규정",
+   "why": "미국 밖에서도 데이터센터 규제가 생김",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-05",
+   "ids": [
+    "insidertracking/62908"
+   ],
+   "summary": "캐나다 카니 정부의 AI 인프라 확대가 온타리오 등 지역사회 반발에 부딪힘",
+   "why": "데이터센터 대체 입지에서도 반대가 번짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-11",
+   "ids": [
+    "The_MariTimes/62869"
+   ],
+   "summary": "매사추세츠 주지사, 데이터센터에 주정부 허가 전 지역 지지 확보·NDA 금지 등 규제 발표",
+   "why": "주 단위 규제가 펜실베이니아·버지니아에 이어 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-22",
+   "ids": [
+    "Trillion_labs/9248",
+    "The_MariTimes/62870"
+   ],
+   "summary": "텍사스 애벗 주지사, ERCOT 감사 완료까지 주정부 발급 데이터센터 허가 전면 중단",
+   "why": "8월 연결 승인 중단이 허가 전반으로 넓어짐",
+   "status": "follow",
+   "dupOf": "flows 2026-08-03 텍사스 주지사 연결 승인 중단",
+   "priority": "상",
+   "note": "이미 전력을 받거나 허가된 부지는 제외로 보임(채널 해석). 62870(09-11)은 8월 지시 재언급"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-16",
+   "ids": [
+    "HANAchina/68956",
+    "TNBfolio/71285"
+   ],
+   "summary": "미 상원 공화당이 데이터센터가 전력비를 스스로 내게 하는 요금납부자 보호법을 선거 전 추진, 하원 표결 예상",
+   "why": "망 비용을 데이터센터에 귀속시키는 흐름이 연방으로",
+   "status": "follow",
+   "dupOf": "flows 2026-09-30 상원 인허가 법안(데이터센터 비용 직접 부담)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-08",
+   "ids": [
+    "Onionfarmer/17834",
+    "The_MariTimes/62720"
+   ],
+   "summary": "7월 미국 데이터센터 건설 지출이 연환산 750억 달러로 사상 최고(+57% YoY), 사무실 지출 추월",
+   "why": "전력 수요를 끄는 건설 투자가 아직 가속 중",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-04",
+   "ids": [
+    "Badonions/7128"
+   ],
+   "summary": "씨티: 세계 데이터센터 IT 부하 2025년 말 86GW→2031년 370GW(연 25%)로 상향",
+   "why": "수요 전망이 계속 위로 수정됨",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-11",
+   "ids": [
+    "HANAchina/68706"
+   ],
+   "summary": "마이크로소프트가 2032년 데이터센터 용량을 38GW로 두 배 확대 계획",
+   "why": "하이퍼스케일러의 장기 전력 수요가 커짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(현재 용량 기준)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-22",
+   "ids": [
+    "HANAchina/69245",
+    "HANAchina/69269",
+    "HANAchina/69297"
+   ],
+   "summary": "알리바바가 2032년까지 클라우드 데이터센터를 20GW 이상으로 늘리고 1년 안 8개 지역 추가",
+   "why": "중국 측 데이터센터 전력 수요도 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-17",
+   "ids": [
+    "HANAchina/69035",
+    "w_compass/7038",
+    "cahier_de_market/10834"
+   ],
+   "summary": "골드만: 2030년 데이터센터 용량 168→217GW, 전력 수요 증가율 +117%→+170%, 미국 CAGR 3.2→3.5%",
+   "why": "수요 전망 상향이 이어져 설비 병목 장기화 쪽",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "AI 신규 전력은 '일본 하나를 새로 만드는 것'에 맞먹고 터빈·변압기·정치적 저항이 병목이라 함"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-25",
+   "ids": [
+    "Onionfarmer/17957"
+   ],
+   "summary": "JP모건: 2030년 데이터센터발 전력 부족 57GW, 5년 전력망 부하 증가 예측이 24GW→166GW로 7배",
+   "why": "수요가 계통 공급을 크게 넘는다는 정량 근거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-28",
+   "ids": [
+    "w_compass/7092"
+   ],
+   "summary": "모건스탠리가 2028년 미국 전력 부족 추정(종전 38GW)을 베라 루빈 전력 증가 반영해 올림",
+   "why": "전력 부족 추정치가 커짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(새 수치가 160자 밖)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-03",
+   "ids": [
+    "HANAchina/68299",
+    "HANAchina/68414"
+   ],
+   "summary": "머스크: 2027년 AI 칩 전력 부족 최소 15GW, 칩 증가 40~50% 대비 중국 밖 전력 증가 연 10~20%",
+   "why": "칩보다 전력이 느리게 는다는 업계 인식",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-10",
+   "ids": [
+    "Badonions/7244",
+    "TNBfolio/71214"
+   ],
+   "summary": "스페이스X(xAI)가 데이터센터 확장을 속도에서 전력·냉각 이중화·사전 시험 중심으로 바꿔 속도 조절",
+   "why": "자가발전 신뢰성 문제가 구축 속도를 늦춤",
+   "status": "follow",
+   "dupOf": "tg-PipeBeom-6103(오프그리드 터빈 균열)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-11",
+   "ids": [
+    "insidertracking/63455"
+   ],
+   "summary": "UAE가 이란 공격 뒤 보안 우려로 5GW 아부다비 AI 데이터센터를 여러 곳 분산으로 재검토",
+   "why": "중동 데이터센터 수요 실현에 지정학 변수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-14",
+   "ids": [
+    "HANAchina/68828"
+   ],
+   "summary": "중국이 동수서산 AI 데이터센터에 전력의 80% 청정에너지 사용 규제",
+   "why": "중국 데이터센터 수요를 재생에너지와 묶음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(링크만 있음)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-16",
+   "ids": [
+    "Badonions/7391"
+   ],
+   "summary": "골드만 전문가 통화: 800VDC 채택이 예상보다 느려 2030년 미국 신규 데이터센터 비중 25%→21%로 하향",
+   "why": "800VDC 전환 속도가 늦춰짐",
+   "status": "follow",
+   "dupOf": "tg-TNBfolio-71094(800VDC)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-16",
+   "ids": [
+    "HANAchina/69003",
+    "HANAchina/69062"
+   ],
+   "summary": "엔비디아·구글·Emerald AI가 데이터센터 부하를 계통 상황에 맞춰 조절하는 AEMA 출범, 기존 망에서 최대 100GW 확보 주장",
+   "why": "부하 유연화로 연결 병목을 우회하려는 시도",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "100GW는 주장치"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-23",
+   "ids": [
+    "HANAchina/69311"
+   ],
+   "summary": "SB에너지 IPO가 500억 달러 기업가치 의문으로 10월 하순으로 연기",
+   "why": "데이터센터·전력 사업 자금 조달 둔화 신호",
+   "status": "follow",
+   "dupOf": "flows 2026-09-21 SB에너지 상장 서류",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-30",
+   "ids": [
+    "Trillion_labs/9692",
+    "Trillion_labs/9696",
+    "Trillion_labs/9697"
+   ],
+   "summary": "블루아울 일부 펀드 환매·청산 등 사모신용 경계로 신생 데이터센터 사업이 연기·취소될 수 있다는 채널 분석",
+   "why": "자금 조달이 수요 실현의 새 제약으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "추론: 채널 의견. 전력계약·토지가 확보된 사업만 가치 상승"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-29",
+   "ids": [
+    "TNBfolio/71384"
+   ],
+   "summary": "NorthPoint가 펜실베이니아 1,300에이커 데이터센터 허가를 위해 주민 4,500가구에 1만 달러씩 제안",
+   "why": "반대 여론 비용이 사업비로 들어옴",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "10-04",
+   "ids": [
+    "The_MariTimes/63488"
+   ],
+   "summary": "호주에서 여론 반발로 데이터센터 사업이 좌초",
+   "why": "반대가 호주로도 확산",
+   "status": "dup",
+   "dupOf": "old_items 70(09-29 굿맨 Project Mars 철회)",
+   "priority": "하",
+   "note": "본문 확인 필요(같은 사업인지)"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-29",
+   "ids": [
+    "The_MariTimes/63384"
+   ],
+   "summary": "영국 녹색당이 AI 데이터센터 건설 모라토리엄을 촉구",
+   "why": "반대 담론의 유럽 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-07",
+   "ids": [
+    "HANAchina/68444",
+    "Trillion_labs/8427"
+   ],
+   "summary": "타이파워가 10월부터 AI 반도체·데이터센터 등 대형 수요처 요금 15~20% 인상 검토(711억 대만달러 지원 불확실)",
+   "why": "대형 수요처에 비용 전가 시도",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-22",
+   "ids": [
+    "HANAchina/69227"
+   ],
+   "summary": "대만은 12.83% 인상 요인에도 10~12월 전기요금을 현행 동결하기로 결정",
+   "why": "9월 초 대형 수요처 인상 검토가 동결로 정리",
+   "status": "follow",
+   "dupOf": "flows 2026-10-01 대만 711억 대만달러 보조",
+   "priority": "중",
+   "note": "대형 수요처 차등 인상 포함 여부는 본문 확인 필요"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-17",
+   "ids": [
+    "w_compass/7018"
+   ],
+   "summary": "미국 2분기 계통연계 대기 발전용량 2,078GW로 사상 최대, 신규 가스발전 신청 2배 이상",
+   "why": "병목이 계통 연결로 옮겨 감을 수치로 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "태양광·태양광+ESS가 잔여 사업의 40% 이상"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-19",
+   "ids": [
+    "w_compass/7048"
+   ],
+   "summary": "펜실베이니아 PUC 보고서: 데이터센터 수요로 2030년 PJM 공급정지기대(LOLE)가 기준의 6배",
+   "why": "PJM 신뢰도 부족이 구조적임을 강화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-29",
+   "ids": [
+    "w_compass/7111"
+   ],
+   "summary": "PJM은 올해 역대 최대 에너지 비상을 선포했고 배터리를 늘린 캘리포니아·텍사스는 0건",
+   "why": "ESS가 계통 신뢰도 차이를 만든다는 근거",
+   "status": "dup",
+   "dupOf": "old_items 81(PJM 에너지 비상 16일)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-14",
+   "ids": [
+    "insidertracking/63621"
+   ],
+   "summary": "삼성전자·SK하이닉스가 한전의 전기요금 25조 원 선납 제안을 거절(산업용 을 182.7원/kWh)",
+   "why": "한전 재무 압박과 요금 인상 기대 차이",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "전기신문 의견 요약"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8857"
+   ],
+   "summary": "한전 영업이익 감소로 적자 전환 전망, 전기요금 인상론이 나올 것이라는 채널 전언",
+   "why": "SMP 상승·요금 동결의 후속 압력",
+   "status": "follow",
+   "dupOf": "flows 2026-09-17 SMP 상승·4분기 요금 동결",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-02",
+   "ids": [
+    "Trillion_labs/8236",
+    "HANAchina/68292"
+   ],
+   "summary": "아시아 LNG 현물가가 2022년 12월 이후 최고로 전쟁 전의 2배, 파키스탄은 비싼 LNG 구매를 포기해 전력난 우려",
+   "why": "연료비 급등이 신흥국 전력 공급을 압박",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8872"
+   ],
+   "summary": "블룸버그: 이란 전쟁 여파로 영국 에너지 요금 25% 급등 예상",
+   "why": "유럽 전기요금이 다시 오름",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-01",
+   "ids": [
+    "The_MariTimes/62551"
+   ],
+   "summary": "영국 번햄 총리가 수도·전기·가스 등 필수 유틸리티 국유화(국가 통제 강화) 추진",
+   "why": "전력 산업 소유 구조 변화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-25",
+   "ids": [
+    "Trillion_labs/9420"
+   ],
+   "summary": "엑셀론(ComEd)은 졸리엣 200억 달러 데이터센터 에너지 사업 개발사가 계약금을 못 내 FERC에 관련 절차를 밟음",
+   "why": "대형 부하의 계약금 미납이 나타남",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(원문 Utility Dive)"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-25",
+   "ids": [
+    "Trillion_labs/9452"
+   ],
+   "summary": "인도 전력부는 수요 급증으로 2035~36년까지 석탄이 발전의 약 절반을 차지한다고 전망",
+   "why": "신흥국 수요 증가가 석탄 의존을 늘림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-08",
+   "ids": [
+    "Onionfarmer/17837"
+   ],
+   "summary": "캐터필러 수주잔고 약 720억 달러(+92% YoY)로 발전설비·에너지 수요가 주도, 일부 고객은 2030년 물량까지 확보",
+   "why": "왕복엔진·소형 발전기까지 잔고 급증",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-14",
+   "ids": [
+    "HANAchina/68883",
+    "Onionfarmer/17881"
+   ],
+   "summary": "가스터빈 부족이 2030년까지 이어져 보일러+증기터빈으로 전환, Applied Digital은 노스다코타 1.2GW(2028년 말)",
+   "why": "터빈 병목의 대체 수요가 다른 기자재로 번짐",
+   "status": "follow",
+   "dupOf": "flows 2026-09-17 POWER 매거진 패키지 보일러",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-24",
+   "ids": [
+    "HANAchina/69365",
+    "Onionfarmer/17942"
+   ],
+   "summary": "데이터센터 계량기 뒤(BTM) 자가발전 2030년 설치 전망이 67GW로 상향, 연료전지가 최고 평가",
+   "why": "계통 대기로 자가발전 시장이 커짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "10-04",
+   "ids": [
+    "Onionfarmer/17994"
+   ],
+   "summary": "네비우스 인디애나 525MW+ 캠퍼스는 계통 350MW에 블룸 연료전지 175MW를 현장 발전으로 더함",
+   "why": "계통+현장 발전 혼합이 표준화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-03",
+   "ids": [
+    "insidertracking/62758",
+    "insidertracking/63001",
+    "HANAchina/68413"
+   ],
+   "summary": "스페이스X의 터빈 블레이드 내재화에 하우멧 주가 하락, 공급사 위협은 아직 제한적이라는 평가",
+   "why": "블레이드 병목 대응의 후속",
+   "status": "dup",
+   "dupOf": "tg-PipeBeom-6242(머스크 블레이드 직접 생산)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-30",
+   "ids": [
+    "TNBfolio/71397",
+    "Trillion_labs/9716"
+   ],
+   "summary": "미 NRC가 TVA 클린치리버 BWRX-300 소형모듈원전 건설을 처음 허가",
+   "why": "SMR 상용화 첫 허가",
+   "status": "dup",
+   "dupOf": "old_items 3(9월 29일 미국 첫 SMR 건설허가)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8820"
+   ],
+   "summary": "일본 원전 2기 재가동이 데이터 변조 스캔들로 연기",
+   "why": "원전 재가동 공급 차질",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-15",
+   "ids": [
+    "PipeBeom/6383",
+    "Trillion_labs/8787"
+   ],
+   "summary": "미 EPA가 석탄·신규 가스발전소 탄소배출 규제 폐지",
+   "why": "화석 발전 신설 규제 완화",
+   "status": "dup",
+   "dupOf": "old_items 50(EPA 발전소 탄소 규제 폐지)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "gen",
+   "date": "09-27",
+   "ids": [
+    "Trillion_labs/9474"
+   ],
+   "summary": "MS 연관 뉴저지 데이터센터가 무허가 가스발전기 사용으로 주 사상 최대 벌금",
+   "why": "자가발전의 인허가 리스크",
+   "status": "dup",
+   "dupOf": "old_items 48(뉴저지 무허가 가스발전기 벌금)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "developers",
+   "date": "09-07",
+   "ids": [
+    "TNBfolio/71166",
+    "w_compass/6930",
+    "TNBfolio/71209"
+   ],
+   "summary": "한미 대미 투자 최종 합의에 미국 원전 8기 건설 반영, 2,000억 달러 중 60%가 원전 전망",
+   "why": "대미 투자가 원전 쪽으로 쏠림",
+   "status": "follow",
+   "dupOf": "flows 2026-09-30 대미 투자 연 200억 달러 상한",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "developers",
+   "date": "09-30",
+   "ids": [
+    "HANAchina/69684",
+    "insidertracking/65054",
+    "Trillion_labs/9839",
+    "insidertracking/65098"
+   ],
+   "summary": "트럼프, 한국 2,000억 달러 대미 투자 발표: 원전 8기 1,200억 달러·텍사스 가스발전 223억 달러·알래스카 LNG",
+   "why": "대미 발전 투자가 확정 단계로",
+   "status": "dup",
+   "dupOf": "old_items 5(10-01 한국 대미 에너지 투자 2,000억 달러)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "developers",
+   "date": "09-16",
+   "ids": [
+    "Trillion_labs/8950"
+   ],
+   "summary": "한국이 텍사스 가스복합 협상에서 전력 사전구매계약 주선·한국 기자재 벤더 참여 확약을 요구했으나 미국이 거부",
+   "why": "대미 1호 사업의 수익·수주 조건이 불리",
+   "status": "follow",
+   "dupOf": "flows 2026-10-01 미국 수익 프로젝트별 배분 요구",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "developers",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8818",
+    "insidertracking/64136"
+   ],
+   "summary": "일본 대미 투자 5,500억 달러 중 약 2,000억 달러를 원자력에, 오하이오·텍사스·펜실베이니아 초대형 가스발전도 대상",
+   "why": "일본 자금도 미국 발전 설비로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "developers",
+   "date": "09-21",
+   "ids": [
+    "Trillion_labs/9216"
+   ],
+   "summary": "뉴에라 에너지&디지털이 비스트라 계열과 텍사스 207MW 20년 PPA 체결",
+   "why": "데이터센터용 장기 전력계약 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "09-07",
+   "ids": [
+    "w_compass/6918"
+   ],
+   "summary": "POWER 매거진: OEM들이 미국 공장 증설을 서두르지만 대형 변압기·GSU 조달 기간은 여전히 2~3년",
+   "why": "증설에도 변압기 납기가 줄지 않음",
+   "status": "follow",
+   "dupOf": "flows 2026-10-02 변압기 납기 68~113주",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "09-15",
+   "ids": [
+    "Badonions/7344",
+    "Badonions/7350"
+   ],
+   "summary": "8월 한국 수출: LS일렉트릭 변압기·차단기 등 1.59억 달러(+105% YoY), 일진전기 5.47억 달러(+33%)",
+   "why": "한국 전력기기 수출이 계속 늘어남",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "09-16",
+   "ids": [
+    "w_compass/7014"
+   ],
+   "summary": "스페인이 2030년까지 전력망 투자를 170억 유로 이상으로 30% 늘릴 계획",
+   "why": "유럽 송배전 투자 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "09-03",
+   "ids": [
+    "Badonions/7084"
+   ],
+   "summary": "채널: 미국은 계통 접속 55개월·변압기 5년·PJM 용량가격 11배로 데이터센터 증분이 해외로 향함",
+   "why": "병목이 데이터센터 입지를 바꿈",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "추론: 채널 분석"
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "09-21",
+   "ids": [
+    "w_compass/7069"
+   ],
+   "summary": "히타치에너지가 미시시피 5억 2,800만 달러 공장으로 미국 중소형 변압기 생산능력을 두 배 이상 확대",
+   "why": "변압기 증설",
+   "status": "dup",
+   "dupOf": "flows 2026-09-29 히타치 미시시피 공장",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-04",
+   "ids": [
+    "w_compass/6894",
+    "w_compass/6897"
+   ],
+   "summary": "BNEF: 외국산 전력 부품 제한 행정명령으로 미국 ESS 설치가 다른 분야보다 지연·취소 위험이 큼",
+   "why": "EO가 단기적으로 ESS 공급을 막음",
+   "status": "follow",
+   "dupOf": "flows 2026-08-26 행정명령 14421",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-11",
+   "ids": [
+    "Badonions/7266",
+    "Badonions/7193",
+    "w_compass/6951"
+   ],
+   "summary": "1~7월 미국 리튬이온 배터리 수입의 중국 비중 39.3%로 EO 대상 품목(0.3~16.7%) 중 최고, 대체 수요는 배터리에서 최대",
+   "why": "탈중국 대체 수요가 ESS에 집중",
+   "status": "follow",
+   "dupOf": "bbg4-14(전력망 장비 제한 행정명령)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-18",
+   "ids": [
+    "w_compass/7036"
+   ],
+   "summary": "북미 ESS의 비중국 배터리 점유율 전망 25년 10%→26년 50%→27년 72%→28년 85%",
+   "why": "한국 셀사 수요가 커지는 경로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "출처 불명(채널 전망)"
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-08",
+   "ids": [
+    "w_compass/6931",
+    "HANAchina/68701",
+    "TNBfolio/71226"
+   ],
+   "summary": "중국 당국이 과잉설비 검토로 EV·ESS용 신규 배터리 공장 건설을 잠정 중단, 연말 평가 뒤 정책 결정",
+   "why": "배터리도 반내권 대상, 증설 제동",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-09",
+   "ids": [
+    "HANAchina/68643"
+   ],
+   "summary": "중국 ESS 공급망 가격 인상은 단기 수급·원자재 요인이고 시스템 비용은 5년간 계속 하락할 것이라는 업계 시각",
+   "why": "ESS 셀 값 반등의 지속성에 의문",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-11",
+   "ids": [
+    "HANAchina/68767",
+    "PipeBeom/6359",
+    "HANAchina/68843",
+    "HANAchina/69024"
+   ],
+   "summary": "탄산리튬 선물이 9월 11일 장중 -9.74%로 톤당 13~14만 위안 아래, 5월 고점 대비 35% 넘게 하락(재고 상향)",
+   "why": "ESS가 끌어올린 리튬값이 되돌림",
+   "status": "follow",
+   "dupOf": "flows 2026-09-28 탄산리튬 연중 최저",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-11",
+   "ids": [
+    "HANAchina/68705"
+   ],
+   "summary": "9월 1일 리튬전지 소비세 2% 부과로 일부 배터리 업체가 먼저 값을 올리고 2·3선 업체는 압박",
+   "why": "소비세가 셀 값에 반영되기 시작",
+   "status": "follow",
+   "dupOf": "flows 2026-07-17 리튬이온 소비세",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-04",
+   "ids": [
+    "w_compass/6896"
+   ],
+   "summary": "SK온이 미국 네오볼트와 5년 9GWh ESS용 LFP 공급(2027~2031 조지아 생산, 약 1.5조 원 추정)",
+   "why": "한국 셀사의 북미 ESS 수주 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-23",
+   "ids": [
+    "w_compass/7082",
+    "w_compass/7086",
+    "w_compass/7160",
+    "w_compass/7025",
+    "w_compass/7138"
+   ],
+   "summary": "포스코퓨처엠이 SK온에 3년 1.07조 원 LFP 양극재 공급, SK온–엘앤에프 1,600억 원, LG엔솔도 포스코퓨처엠 LFP 계약 추진",
+   "why": "북미 ESS용 비중국 LFP 소재망 구축",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-03",
+   "ids": [
+    "w_compass/6886"
+   ],
+   "summary": "미국 ESS 2025년 신규 설치 57.6GWh로 사상 최대, 2026년 1분기 +32% YoY",
+   "why": "미국 ESS 성장 지속",
+   "status": "follow",
+   "dupOf": "tg-TNBfolio-71117(2분기 20.2GWh)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-27",
+   "ids": [
+    "w_compass/7091",
+    "w_compass/7094"
+   ],
+   "summary": "미국 ESS 누적이 2026년 중반 52GW에서 2032년 225GW/1TWh로 늘어날 전망",
+   "why": "장기 ESS 수요 전망",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "출처 확인 필요"
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "10-02",
+   "ids": [
+    "w_compass/7161"
+   ],
+   "summary": "EIA 보고 기준 2027~2031년 가동 계획 미국 BESS 사업 293건으로 1년 전(167건)보다 75%, 용량 45% 증가",
+   "why": "ESS 파이프라인 확대 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-30",
+   "ids": [
+    "w_compass/7119"
+   ],
+   "summary": "우드맥킨지 3분기 미국 저장 모니터: 데이터센터 구축이 BESS 전망을 밝게 하고 저장장치가 새 지역·용도로 확산",
+   "why": "데이터센터가 ESS 새 수요원",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요(수치)"
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-25",
+   "ids": [
+    "TNBfolio/71366",
+    "HANAchina/69581"
+   ],
+   "summary": "엔비디아가 AI 데이터센터 인증용 BESS 평가 프로그램과 ESS·냉각 포함 'DSX Ready' 인증 규격을 공개",
+   "why": "데이터센터 내 ESS가 표준 구성으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-18",
+   "ids": [
+    "TNBfolio/71307",
+    "TNBfolio/71308"
+   ],
+   "summary": "파나소닉에너지의 데이터센터 배터리 매출이 회계연도 5,500억 엔으로 EV 배터리를 넘어설 전망",
+   "why": "데이터센터 백업 배터리 수요 급증",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-21",
+   "ids": [
+    "TNBfolio/71325"
+   ],
+   "summary": "BNEF: 구글·메타 등 하이퍼스케일러가 데이터센터 전력용 장주기 저장장치(LDES) 투자를 늘림",
+   "why": "장주기 저장 수요 형성",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "10-01",
+   "ids": [
+    "w_compass/7153"
+   ],
+   "summary": "대규모 ESS 세계 시장이 5년 전의 11배이며 중국 본토 공급망에서 벗어나기 가장 어려운 전력 기술",
+   "why": "탈중국 ESS의 한계",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "power",
+   "node": "storage",
+   "date": "09-09",
+   "ids": [
+    "HANAchina/68589"
+   ],
+   "summary": "중커하이나–한국 VOLTA, 5년 10GWh 나트륨이온 ESS 장기 공급 추진",
+   "why": "나트륨 ESS의 해외 진출",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "wind",
+   "date": "09-26",
+   "ids": [
+    "The_MariTimes/63348"
+   ],
+   "summary": "영국이 해상풍력 관련 예산을 14.5억 달러 삭감",
+   "why": "유럽 해상풍력 정책 지원 후퇴",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "modules",
+   "date": "09-04",
+   "ids": [
+    "Trillion_labs/8358",
+    "Trillion_labs/8359"
+   ],
+   "summary": "232조로 12월 4일부터 수입 모듈에 와트당 0.38달러 최저수입가격, 예외가 넓으면 효과 약화 위험",
+   "why": "미국 모듈 가격 하한 수치 확인",
+   "status": "follow",
+   "dupOf": "flows 2026-08-05 232조 포고문",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "polysilicon",
+   "date": "09-17",
+   "ids": [
+    "HANAchina/69025",
+    "HANAchina/69554",
+    "HANAchina/69504"
+   ],
+   "summary": "태양광 유리 과잉 해소 가속·모듈사 적자 입찰 포기·폴리실리콘 평균가 톤당 4만 위안 돌파",
+   "why": "상류 감산의 가격 효과",
+   "status": "dup",
+   "dupOf": "flows 2026-09-28·09-30 폴리실리콘·유리 가격",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-25",
+   "ids": [
+    "Badonions/7503",
+    "HANAchina/69376",
+    "Onionfarmer/17945",
+    "HANAchina/69403",
+    "Trillion_labs/9437",
+    "The_MariTimes/63329",
+    "The_MariTimes/63347",
+    "The_MariTimes/63182"
+   ],
+   "summary": "오라클 뉴멕시코 프로젝트 주피터 불가항력 통지, 해지 불가 임대·대출 할인 거래",
+   "why": "데이터센터 금융 경색",
+   "status": "dup",
+   "dupOf": "flows 2026-09-25 오라클 불가항력, old_items 33",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "09-29",
+   "ids": [
+    "Trillion_labs/9831",
+    "w_compass/7139",
+    "w_compass/7148",
+    "w_compass/7143"
+   ],
+   "summary": "FERC의 PJM 데이터센터 조달안 수정 명령·경매 중단·상원 법안의 데이터센터 망 비용 부담",
+   "why": "비용 귀속 정책 흐름",
+   "status": "dup",
+   "dupOf": "flows 2026-09-29·09-30 FERC·PJM·상원 법안",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-18",
+   "ids": [
+    "insidertracking/63901",
+    "HANAchina/69049",
+    "w_compass/7051",
+    "HANAchina/69199",
+    "The_MariTimes/63183",
+    "insidertracking/64251",
+    "TNBfolio/71331",
+    "HANAchina/69332",
+    "Onionfarmer/17836",
+    "insidertracking/62576",
+    "w_compass/6869"
+   ],
+   "summary": "제너랙–아마존·LG엔솔/SDI 북미 ESS 잔고·CATL 셀값·펜실베이니아/버지니아 규제·엔시날 6.3GW·SB에너지 S-1 등 기존 반영 사건",
+   "why": "이미 반영",
+   "status": "dup",
+   "dupOf": "flows 09-16~09-22 및 해당 카드",
+   "priority": "하",
+   "note": "여러 기존 사건 재보도 묶음"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "09-07",
+   "ids": [
+    "PipeBeom/6282"
+   ],
+   "summary": "WSJ: 데이터센터 지역사회 반발 확산에 개발사들이 주민 관계 개선 협상에 나섬",
+   "why": "반대 비용이 사업 조건에 들어감",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "10월 2일 이월 후보"
+  },
+  {
+   "industry": "power",
+   "node": "demand",
+   "date": "10-01",
+   "ids": [
+    "insidertracking/65138",
+    "HANAchina/69722"
+   ],
+   "summary": "일본이 대형 가스 거래업체를 활용해 1,400억 달러 AI 인프라 투자 추진(델·JERA 등)",
+   "why": "일본 데이터센터 전력 수요 확대",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "FT 원문 확인 못 함(이월 사유). JERA·델 400MW는 기존 카드와 겹침"
+  },
+  {
+   "industry": "power",
+   "node": "market",
+   "date": "",
+   "ids": [
+    "The_MariTimes/62322"
+   ],
+   "summary": "온타리오 전력 공급 중단 경고",
+   "why": "캐나다 전력 수출 카드와 연관 가능",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "하",
+   "note": "이월 후보, 이번 파일에는 해당 글 없음. 관련: The_MariTimes/62712(캐나다 전력 수출 중단 시사, 09-08)"
+  },
+  {
+   "industry": "power",
+   "node": "grid",
+   "date": "10-02",
+   "ids": [
+    "Trillion_labs/9939",
+    "insidertracking/65244",
+    "Trillion_labs/9835",
+    "Trillion_labs/9857"
+   ],
+   "summary": "러시아가 우크라이나 송전선·변전소 등 에너지 시스템에 최대 1,000발 규모 겨울 공격을 계획(NYT)",
+   "why": "전쟁 지역 계통 파괴, 변압기 수요 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  }
+ ]
+}

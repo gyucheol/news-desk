@@ -1,0 +1,2627 @@
+{
+ "file": "G_macro_JulAug",
+ "industries": [
+  "macro"
+ ],
+ "period": "2026-07-01~2026-08-31",
+ "counts": {
+  "lines": 1486,
+  "N": 1100,
+  "R": 386,
+  "relevant": 614
+ },
+ "flow": [
+  {
+   "month": "2026-07",
+   "industry": "macro",
+   "point": "연준은 워시 의장 아래 포워드 가이던스를 버리고 완화 문구를 빼며 인상 쪽으로 기울었습니다. 6월 고용 5.7만 명·CPI 3.5%로 둔화 신호가 있었지만 PCE 3.7%가 높아 7월 FOMC는 9대3 매파적 동결이었습니다.",
+   "ids": [
+    "Onionfarmer/17029",
+    "insidertracking/57241",
+    "The_MariTimes/61366",
+    "insidertracking/59761",
+    "The_MariTimes/61727"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "macro",
+   "point": "7월 7~8일 휴전이 깨지고 호르무즈 재봉쇄·미국 해상봉쇄·후티 홍해 공격이 겹쳐 브렌트가 7월 23일 100달러에 닿았습니다. 26일 공습이 멈추자 80달러대로 내려왔습니다.",
+   "ids": [
+    "PipeBeom/5424",
+    "insidertracking/58072",
+    "PipeBeom/5528",
+    "HANAchina/65861",
+    "insidertracking/59251"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "macro",
+   "point": "유가·AI 회사채 공급·재정이 겹쳐 미 30년물이 5.23%로 2007년 이후 최고, 독일 10년물·한국 30년물도 최고치를 찍었습니다. 오라클 CDS가 사상 최고로 AI 신용 경계도 시작됐습니다.",
+   "ids": [
+    "The_MariTimes/61750",
+    "HANAchina/65854",
+    "The_MariTimes/61542",
+    "HANAchina/65008",
+    "HANAchina/65716"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "macro",
+   "point": "엔은 162.89엔으로 1986년 이후 최저, 원화는 1,500원대로 약해졌고 한국은행이 2.75%로 올렸습니다. 코스피는 레버리지 ETF 청산으로 한 달 22% 빠졌고, 중국은 2분기 4.3%·7월 PMI 49.2로 둔화했습니다. 추론: ② 과열·긴축 속에 고용·중국에서 ③ 쪽 신호가 함께 나온 달입니다.",
+   "ids": [
+    "HANAchina/65753",
+    "HANAchina/65433",
+    "insidertracking/59633",
+    "HANAchina/65382",
+    "HANAchina/66314"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "7월 고용이 -2.3만 명으로 줄고 CPI 3.4%·PPI 0.0%로 물가가 식자 9월 인상 확률이 75%에서 25%까지 내려갔습니다. 그러나 워시가 잭슨홀에서 '할 일이 남았다'고 해 확률이 50~60%로 다시 올랐습니다.",
+   "ids": [
+    "insidertracking/60569",
+    "insidertracking/60966",
+    "HANAchina/67164",
+    "HANAchina/68012"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "10년물 입찰 금리가 2007년 이후 최고, 30년물 5.32%까지 오르자 재무부가 8월 19일 장기물 바이백을 두 배로 늘렸습니다. 같은 날 부채가 40조 달러를 넘었고, 바이백 효과는 하루 만에 사라졌습니다.",
+   "ids": [
+    "HANAchina/67063",
+    "HANAchina/67305",
+    "HANAchina/67465",
+    "HANAchina/67476",
+    "insidertracking/61811"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "호르무즈는 합의 기대와 부인이 되풀이됐고, 미국은 군사에서 2차 제재('경제적 추방 작전')로 돌아섰습니다. 이란·오만은 8월 26일 임시 통로에 합의했습니다. IEA는 하루 180만 배럴 공급 부족을, 미 SPR은 1982년 이후 최저를 보였습니다.",
+   "ids": [
+    "HANAchina/66429",
+    "cahier_de_market/10527",
+    "The_MariTimes/62354",
+    "HANAchina/67053",
+    "insidertracking/61365"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "macro",
+   "point": "달러가 100·99를 차례로 밑돌며 약해졌고, 원화는 7월 8% 절상 뒤 1,300원대로 돌아왔습니다. 한국은행은 3.00%로 다시 올렸고, 중국은 7월 대출 마이너스·고정투자 -6.7%로 내수가 꺾였습니다. 추론: 미국 성장은 이익·투자로 버티지만 고용·중국 쪽에서 ③ 신호가 커졌습니다.",
+   "ids": [
+    "The_MariTimes/62167",
+    "TNBfolio/70799",
+    "HANAchina/67901",
+    "HANAchina/67277"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-02",
+   "ids": [
+    "Onionfarmer/17029",
+    "insidertracking/57203",
+    "insidertracking/57169",
+    "The_MariTimes/61085",
+    "The_MariTimes/61089",
+    "The_MariTimes/61100",
+    "insidertracking/57236",
+    "Onionfarmer/17076",
+    "insidertracking/57906",
+    "The_MariTimes/61277"
+   ],
+   "summary": "워시 연준 의장, 포워드 가이던스 중단·대차대조표 축소 의지·새 물가 틀 예고, 태스크포스 5개 구성",
+   "why": "연준 소통·정책 틀이 바뀐 출발점, 이후 금리 변동성 확대의 배경",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-02",
+   "ids": [
+    "insidertracking/57241",
+    "The_MariTimes/61094",
+    "The_MariTimes/61098",
+    "insidertracking/57145"
+   ],
+   "summary": "미 6월 비농업 고용 5.7만 명(예상 하회)·실업률 4.2%, ADP 9.8만 명; 2년물 -5bp·달러 -0.7%",
+   "why": "고용 둔화가 시작된 신호, 성장 축 약화 쪽 근거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-04",
+   "ids": [
+    "HANAchina/64663",
+    "HANAchina/64794",
+    "HANAchina/64801",
+    "HANAchina/64856",
+    "insidertracking/57491",
+    "PipeBeom/5351",
+    "HANAchina/64921",
+    "HANAchina/64954",
+    "insidertracking/57654",
+    "insidertracking/57334",
+    "insidertracking/57229",
+    "PipeBeom/5368",
+    "The_MariTimes/61124"
+   ],
+   "summary": "휴전 뒤 공급과잉 논리: OPEC 6월 하루 234만 배럴 증산, 아람코 8월 OSP 11달러 인하, 씨티 연말 60~65달러",
+   "why": "7월 초 유가 하락·물가 둔화 기대의 근거(이후 뒤집힘)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "EIA는 2027년 브렌트 65달러로 하향, 걸프 6월 수출은 전쟁 전보다 약 40% 적음"
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "07-02",
+   "ids": [
+    "insidertracking/57219"
+   ],
+   "summary": "한국, 7월 6일부터 외환시장 24시간 운영·2027년 상반기 역외 원화 거래 도입 계획(신화)",
+   "why": "원화 완전 태환 추진, 환율 구조 변화 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-02",
+   "ids": [
+    "HANAchina/64716"
+   ],
+   "summary": "노무라: 한국 수출 호조는 메모리·에너지 단가 급등에 따른 '가격 착시', 물량은 못 따라가",
+   "why": "수출 금액과 실물 성장의 괴리 경고",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-03",
+   "ids": [
+    "The_MariTimes/61130",
+    "insidertracking/57285",
+    "The_MariTimes/61960",
+    "The_MariTimes/62401"
+   ],
+   "summary": "대법원, 트럼프의 쿡 연준 이사 해임 시도 기각; 8월 행정부는 절차를 다시 밟아 해임 재추진, 쿡 측 반박",
+   "why": "연준 독립성 논란 지속, 기대 인플레이션·장기금리 위험 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-07",
+   "ids": [
+    "insidertracking/57580",
+    "The_MariTimes/61183"
+   ],
+   "summary": "독일, 재무장 위해 대규모 차입; 내년 재정적자 12.5% 늘린 2,000억 유로, 국방비 2030년 1,836억 유로",
+   "why": "유럽 재정 확장 → 분트 금리 상승 압력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-08",
+   "ids": [
+    "insidertracking/57596",
+    "HANAchina/64970",
+    "The_MariTimes/61211",
+    "The_MariTimes/61213",
+    "Onionfarmer/17102",
+    "insidertracking/57658",
+    "insidertracking/57679",
+    "The_MariTimes/61219",
+    "HANAchina/64996",
+    "PipeBeom/5403",
+    "PipeBeom/5406",
+    "PipeBeom/5424",
+    "insidertracking/57882",
+    "insidertracking/57764",
+    "PipeBeom/5430",
+    "TNBfolio/70555",
+    "HANAchina/65045",
+    "insidertracking/57696"
+   ],
+   "summary": "이란 혁명수비대 상선 미사일 공격 → 미국, 이란 원유 제재 유예 철회·공습 재개, 트럼프 '휴전 끝'; 브렌트 +6% 78.6달러",
+   "why": "6월 휴전이 깨지며 에너지 충격이 다시 시작된 전환점",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-08",
+   "ids": [
+    "HANAchina/64994",
+    "Onionfarmer/17094",
+    "HANAchina/65008",
+    "The_MariTimes/61255",
+    "HANAchina/65194",
+    "HANAchina/65278",
+    "HANAchina/64987"
+   ],
+   "summary": "아마존 250억 달러 회사채(경쟁률 1.6대1)로 올해 AI 회사채 3,350억 달러 사상 최대; 골드만 '시장 수용 한계'",
+   "why": "AI 투자의 부채 조달 전환, 장기금리·신용 스프레드 압력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-07",
+   "ids": [
+    "Onionfarmer/17050",
+    "The_MariTimes/61192"
+   ],
+   "summary": "블루아울 BDC 환매 요청 18.8%·38.1%에 환매 제한, HSBC 사모신용 펀드 대출 중단 통보",
+   "why": "사모신용 유동성 경색 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-02",
+   "ids": [
+    "The_MariTimes/61105"
+   ],
+   "summary": "영란은행, 헤지펀드 국채 레포에 최소 헤어컷 도입 추진(베이시스 거래 규제)",
+   "why": "국채시장 유동성 악화 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-09",
+   "ids": [
+    "insidertracking/57748"
+   ],
+   "summary": "6월 FOMC 의사록: 대다수가 완화 성향 문구를 성명에서 빼는 데 동의, 물가 안정 의지 강조",
+   "why": "연준의 완화 기대 철회 공식화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "07-09",
+   "ids": [
+    "HANAchina/65071"
+   ],
+   "summary": "미 10년물 TIPS 실질금리 약 2.3%로 2025년 4월 이후 최고(AI 투자·유가로 인상 기대 재점화)",
+   "why": "실질금리 상승 = 금융여건 긴축",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-16",
+   "ids": [
+    "HANAchina/65087",
+    "insidertracking/57820",
+    "HANAchina/65433",
+    "insidertracking/58477"
+   ],
+   "summary": "한국은행, 기준금리 2.50%→2.75% 인상; 총재 '기조적 물가압력 크고 오래 갈 것, 2분기 GDP·7월 물가 보고 결정'",
+   "why": "원화 약세·물가에 한국도 인상 사이클 진입",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "07-10",
+   "ids": [
+    "HANAchina/65088",
+    "HANAchina/65134",
+    "HANAchina/66886",
+    "HANAchina/67078"
+   ],
+   "summary": "인민은행 위안화 고시환율 6.80 하회(2023년 이후 최강), 8월 10일 6.7884; 미중 금리차 확대에도 강세",
+   "why": "위안 강세 용인, 달러 약세 흐름의 한 축",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "07-09",
+   "ids": [
+    "HANAchina/65090"
+   ],
+   "summary": "중국 6월 CPI +1.0%(예상 1.1%), PPI +4.1%로 연중 고점",
+   "why": "중국 생산자물가 상승 = 원자재발 물가 수출",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "07-10",
+   "ids": [
+    "insidertracking/57864",
+    "insidertracking/58387",
+    "HANAchina/64905"
+   ],
+   "summary": "AI 지출이 미 GDP 최대 기여; MS 빅5 AI 설비투자 2026년 8천억 달러(GDP 2.5%), 4~8조 달러 부채 조달",
+   "why": "성장 축이 AI 투자에 쏠림, 꺾이면 성장 급둔화 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-10",
+   "ids": [
+    "The_MariTimes/61284"
+   ],
+   "summary": "중국, 전 세계 대상 헬륨 수출 통제 즉시 시행(이란 전쟁으로 이미 공급 부족)",
+   "why": "반도체 공정 원자재 공급 충격",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-12",
+   "ids": [
+    "insidertracking/58072",
+    "The_MariTimes/61305",
+    "HANAchina/65223",
+    "HANAchina/65234",
+    "TNBfolio/70587",
+    "insidertracking/58108",
+    "TNBfolio/70586",
+    "insidertracking/58058"
+   ],
+   "summary": "이란 혁명수비대, 호르무즈 해협 무기한 봉쇄 선언; 24시간 통과 상선 11척, 미군 주중 세 번째 공습",
+   "why": "해협 재봉쇄, 에너지 공급 충격 재개",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-14",
+   "ids": [
+    "The_MariTimes/61328",
+    "TNBfolio/70598",
+    "insidertracking/58200",
+    "insidertracking/58224",
+    "insidertracking/58223",
+    "HANAchina/65300",
+    "insidertracking/58282",
+    "PipeBeom/5528",
+    "PipeBeom/5519",
+    "insidertracking/58441",
+    "HANAchina/65295",
+    "The_MariTimes/61334",
+    "insidertracking/58245",
+    "The_MariTimes/61356",
+    "HANAchina/65240"
+   ],
+   "summary": "미국, 이란 해상봉쇄 재개(7/15)·통행료 20% 구상(VLCC당 약 3,000만 달러); 브렌트 85~86달러로 한 달 최고",
+   "why": "미·이란 상호 봉쇄 장기화 국면 진입",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-13",
+   "ids": [
+    "Badonions/5774",
+    "PipeBeom/5491",
+    "HANAchina/65312",
+    "HANAchina/65257",
+    "HANAchina/65352"
+   ],
+   "summary": "월러 이사 '근원물가 상승 광범위, 단기 인상 검토 필요'; 7월 인상 확률 50% 근접, 2년물 4.28%(2025년 2월 이후 최고)",
+   "why": "연준 인상 재개 가능성 부각",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "07-14",
+   "ids": [
+    "The_MariTimes/61366",
+    "Trillion_labs/5705",
+    "Trillion_labs/5710",
+    "insidertracking/58288",
+    "HANAchina/65357",
+    "HANAchina/65353",
+    "insidertracking/58321"
+   ],
+   "summary": "미 6월 CPI 3.5%(예상 3.8%), 근원 2.6%(예상 2.9%), 전월비 -0.4%; 연료유 +42.9%·휘발유 +26.7%",
+   "why": "유가 일시 하락 반영, 근원 둔화로 7월 인상 기대 후퇴",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "07-15",
+   "ids": [
+    "HANAchina/65410",
+    "The_MariTimes/61389"
+   ],
+   "summary": "미 6월 PPI 5.5%(예상 6.2%), 근원 4.7%(예상 5.1%)",
+   "why": "생산자물가도 둔화, 다만 소비자물가보다 높은 수준",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-15",
+   "ids": [
+    "insidertracking/58329",
+    "HANAchina/65414",
+    "The_MariTimes/61410",
+    "The_MariTimes/61417",
+    "The_MariTimes/61375"
+   ],
+   "summary": "워시 의회 증언: '인플레이션은 선택', AI가 공급보다 수요를 먼저 키워 향후 12개월 물가 상승 요인",
+   "why": "AI 투자를 물가 위험으로 본 연준 시각",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-15",
+   "ids": [
+    "HANAchina/65382",
+    "HANAchina/65408"
+   ],
+   "summary": "중국 2분기 GDP +4.3%(예상 4.5%, 1분기 5.0%); 6월 산업생산 5.3%, GDP 디플레이터 2년 반 만에 플러스",
+   "why": "중국 성장 둔화 속 물가는 플러스 전환",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-14",
+   "ids": [
+    "HANAchina/65349",
+    "HANAchina/65697"
+   ],
+   "summary": "인민은행 1.4조 위안 6개월물 매입형 역RP 공급; 3분기 완화 여력 확대 전망",
+   "why": "중국 유동성은 완화 방향",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-19",
+   "ids": [
+    "The_MariTimes/61371",
+    "The_MariTimes/61474"
+   ],
+   "summary": "미 정부 이자비용(최근 1년) 1.12조→1.35조 달러, 세수 대비 25% 이상",
+   "why": "재정 이자 부담이 장기금리 상승 압력으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-17",
+   "ids": [
+    "Trillion_labs/5884",
+    "insidertracking/59631"
+   ],
+   "summary": "미 6월 순관세 수입 약 -256억 달러, 환급금 탓에 사상 첫 마이너스",
+   "why": "관세 환급이 재정적자 확대·기업 이익 일시 보강",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-17",
+   "ids": [
+    "HANAchina/65526"
+   ],
+   "summary": "미시간대 7월 소비자심리 54.4(6월 49.5, 예상 51), 1년 기대인플레 4.2%로 하락",
+   "why": "유가 하락 구간 심리 반등(일시)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-18",
+   "ids": [
+    "HANAchina/65545",
+    "HANAchina/65716"
+   ],
+   "summary": "오라클 5년물 CDS 198bp로 2008년 고점 넘어 사상 최고, S&P는 투기등급 바로 위로 강등",
+   "why": "AI 부채 위험의 바로미터, 신용시장 경계",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-23",
+   "ids": [
+    "HANAchina/65681",
+    "Onionfarmer/17296",
+    "HANAchina/65820",
+    "PipeBeom/5654",
+    "HANAchina/65861",
+    "HANAchina/65882",
+    "HANAchina/65799",
+    "HANAchina/65614",
+    "The_MariTimes/61602",
+    "HANAchina/65999",
+    "HANAchina/65852",
+    "HANAchina/65901"
+   ],
+   "summary": "후티, 사우디 해상 항행 금지·홍해 유조선 공격; 만데브 물동량 34% 감소, 브렌트 7월 23일 100달러",
+   "why": "호르무즈+만데브 동시 압박, 유가 100달러 복귀",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-21",
+   "ids": [
+    "Trillion_labs/6125",
+    "Onionfarmer/17271",
+    "HANAchina/65915"
+   ],
+   "summary": "제프 커리 '경력상 가장 빠듯한 공급'; 미 SPR 43년 만의 최저 근접, 정제마진 배럴당 60달러; 재고·우회로 완충 소진",
+   "why": "완충 장치 소진 = 2차 봉쇄 충격이 더 큼",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-24",
+   "ids": [
+    "HANAchina/65733",
+    "HANAchina/65930",
+    "HANAchina/65862"
+   ],
+   "summary": "골드만 '장기 차질 시 4분기 120달러', JP모건 '3개월 지속 시 114달러', RBC '146달러 넘을 수도'",
+   "why": "유가 상방 꼬리위험 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-21",
+   "ids": [
+    "TNBfolio/70676",
+    "insidertracking/58724",
+    "HANAchina/65698",
+    "insidertracking/58902",
+    "The_MariTimes/61571",
+    "The_MariTimes/61621"
+   ],
+   "summary": "미국, 관세법 338조 근거로 8월 19일부터 캐나다산 일부 품목 50% 추가 관세(에너지·포타시·핵심광물 제외)",
+   "why": "북미 무역전쟁 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-24",
+   "ids": [
+    "insidertracking/58784",
+    "TNBfolio/70693",
+    "insidertracking/58849",
+    "HANAchina/65754",
+    "TNBfolio/70726",
+    "insidertracking/59454",
+    "insidertracking/59560"
+   ],
+   "summary": "한시 10% 보편관세(122조) 만료로 60개국·EU 대상 새 관세 시행; 그리어 '추가 경제 영향 제한적'",
+   "why": "관세가 301조 등으로 재구축, 시장 반응은 작음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "07-21",
+   "ids": [
+    "HANAchina/65753",
+    "The_MariTimes/61521"
+   ],
+   "summary": "엔화, 달러당 162.89엔으로 1986년 이후 최저",
+   "why": "엔 약세 극단 → 8월 초 미·일 개입으로 이어짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "07-21",
+   "ids": [
+    "insidertracking/58740"
+   ],
+   "summary": "이재명 대통령, 달러·원 환율 1,500~1,600원 근접을 '매우 이례적'이라 언급, 레버리지 상품 문제 지적",
+   "why": "원화 약세 정점 국면(8월 급반전 전)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "07-23",
+   "ids": [
+    "insidertracking/59027",
+    "The_MariTimes/61603",
+    "The_MariTimes/61611",
+    "The_MariTimes/61563",
+    "HANAchina/65816",
+    "The_MariTimes/61643",
+    "HANAchina/65934",
+    "The_MariTimes/61552",
+    "HANAchina/66065",
+    "HANAchina/65858"
+   ],
+   "summary": "미 10년물 4.69%·2년물 4.32%로 연중 최고, 30년물 5% 상회일 2007년 이후 최다·실질금리 3%; 다이먼 '채권 자경단'",
+   "why": "유가→물가→장기금리 상승, 금융여건 긴축",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "07-23",
+   "ids": [
+    "The_MariTimes/61507",
+    "The_MariTimes/61542",
+    "The_MariTimes/61625",
+    "The_MariTimes/61508",
+    "HANAchina/65854",
+    "The_MariTimes/61601",
+    "The_MariTimes/61780",
+    "The_MariTimes/61781",
+    "HANAchina/67535",
+    "The_MariTimes/62429",
+    "HANAchina/67994",
+    "The_MariTimes/62118",
+    "The_MariTimes/62159",
+    "The_MariTimes/62223"
+   ],
+   "summary": "한국 30년물 4.6% 사상 최고, 독일 10년물 3.20%(2011년 이후), 8월 글로벌 GDP가중 10년물 5% 돌파",
+   "why": "미국만이 아닌 전 세계 기간 프리미엄 상승",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "8월: 독일 5년물 3%(2008년 이후), 프랑스 30년물 4.92%"
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-23",
+   "ids": [
+    "insidertracking/59033"
+   ],
+   "summary": "유럽중앙은행, 예금금리 2.25% 동결(예상 부합)",
+   "why": "9월 인상 전 마지막 동결",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-23",
+   "ids": [
+    "insidertracking/59037",
+    "HANAchina/65864"
+   ],
+   "summary": "미 신규 실업수당 청구 18.7만 건으로 1969년 이후 최저(예상 21만)",
+   "why": "해고는 적어 고용 지표가 엇갈림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-23",
+   "ids": [
+    "HANAchina/65849"
+   ],
+   "summary": "중국 상무부: 미·중, 각각 약 300억 달러 규모 상호 관세 인하 프레임워크 논의",
+   "why": "미중 긴장 완화 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-22",
+   "ids": [
+    "insidertracking/58903",
+    "The_MariTimes/61385"
+   ],
+   "summary": "헤그세스 국방장관, 이란 전쟁 추가 예산 시급 촉구; FT '의회 승인 쉽지 않을 것'",
+   "why": "전비가 재정 부담으로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-24",
+   "ids": [
+    "The_MariTimes/61638"
+   ],
+   "summary": "중국 6월 누적 재정적자 전년 대비 13% 감소",
+   "why": "중국 재정 부양 의지 약함",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-24",
+   "ids": [
+    "HANAchina/65917",
+    "The_MariTimes/61391"
+   ],
+   "summary": "시카고 밀 선물 7월 약 19% 올라 3년 최고 근접(흑해·홍해 운송 위험, 미·유럽 폭염)",
+   "why": "식품 물가 상승 압력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "07-24",
+   "ids": [
+    "The_MariTimes/61622",
+    "HANAchina/65881"
+   ],
+   "summary": "알파벳 향후 지출 약정 8,110억 달러(분기 +5,000억); CICC '5년간 AI 자금 공백 최대 3.5조 달러'",
+   "why": "AI 투자의 부채·약정 의존 심화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "07-25",
+   "ids": [
+    "The_MariTimes/61654"
+   ],
+   "summary": "퀄컴, 3분기부터 스마트폰 고객사에 판가 두 자릿수 인상 통보(공급업체 비용 상승)",
+   "why": "반도체발 소비재 물가 전이",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-26",
+   "ids": [
+    "insidertracking/59251",
+    "insidertracking/59233",
+    "The_MariTimes/61671",
+    "insidertracking/59286",
+    "PipeBeom/5704",
+    "HANAchina/66098",
+    "insidertracking/59322",
+    "HANAchina/66029",
+    "HANAchina/66076",
+    "HANAchina/66137",
+    "PipeBeom/5712"
+   ],
+   "summary": "트럼프, 13일 연속 공습 중단 지시(오만 중재·방공 재고 부족); 주말 유가 -4.5%, WTI 하루 -8% 82달러",
+   "why": "확전 멈춤, 유가 고점 통과",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-28",
+   "ids": [
+    "HANAchina/66001",
+    "insidertracking/59160",
+    "insidertracking/59335",
+    "Onionfarmer/17433",
+    "Onionfarmer/17438",
+    "insidertracking/59428",
+    "kkkontemp/2540",
+    "HANAchina/66229",
+    "insidertracking/59583",
+    "insidertracking/58811",
+    "Onionfarmer/17225"
+   ],
+   "summary": "7월 FOMC 직전 인상 확률 13%→38%; 선물은 12월 4.00%·2027년 4월 4.13% 정점 반영, 시타델은 인상 예상",
+   "why": "시장이 인하에서 인상 사이클로 가격 전환",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-03",
+   "ids": [
+    "HANAchina/66056",
+    "HANAchina/66509",
+    "PipeBeom/5828",
+    "PipeBeom/5862",
+    "PipeBeom/5312"
+   ],
+   "summary": "관세 앞둔 구리 미국 유입: 7월 약 20만 톤(최소 12년 만의 속도), 초과 수입 33.5만 톤; LME 1만4천 달러 돌파",
+   "why": "관세가 구리 실물 재고 쏠림·가격 상승 유발",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-29",
+   "ids": [
+    "HANAchina/66168",
+    "insidertracking/60035",
+    "PipeBeom/5810"
+   ],
+   "summary": "OPEC+, 9월 하루 18.8만 배럴 증산 뒤 연말까지 추가 증산 중단",
+   "why": "증산 여력 소진",
+   "status": "dup",
+   "dupOf": "old_items 19 (2026-08-02 OPEC+ 9월 18.8만 배럴 증산 승인)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-29",
+   "ids": [
+    "The_MariTimes/61704",
+    "PipeBeom/5731",
+    "The_MariTimes/61707"
+   ],
+   "summary": "오만, 말라카식 자발적 통행세 해법 제시 → 이란 거부·통제권 요구; 후티도 만데브 통행세 추진",
+   "why": "해협 통행료 관행화 = 운송비 구조적 상승",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "07-29",
+   "ids": [
+    "HANAchina/66171",
+    "HANAchina/66222",
+    "insidertracking/59593"
+   ],
+   "summary": "이란, 요르단 미군기지에 미사일; 트럼프 '강력 타격' 언급에 WTI +6% 84.43달러",
+   "why": "휴전 국면에서도 재충돌 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-29",
+   "ids": [
+    "Trillion_labs/6674"
+   ],
+   "summary": "컨퍼런스보드 노동시장 격차 지수 7월 3.1로 하락(음수 전환 시 예외 없이 침체)",
+   "why": "고용 둔화 선행 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(지수 정의·원자료)"
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "07-29",
+   "ids": [
+    "insidertracking/59633",
+    "The_MariTimes/61705",
+    "Badonions/6307",
+    "HANAchina/65290",
+    "HANAchina/65739",
+    "HANAchina/66248",
+    "The_MariTimes/61304",
+    "insidertracking/60934"
+   ],
+   "summary": "코스피 7월 -22%(13일 하루 약 9%), 이틀 연속 서킷브레이커·긴급 F4; 단일종목 레버리지 ETF 청산, 재경부 장관 사과",
+   "why": "한국 개인 레버리지 청산 = 국내 유동성 충격",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "8월 거래소, 레버리지 ETF 최소 거래 단위 20주로 상향 추진"
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-30",
+   "ids": [
+    "The_MariTimes/61727",
+    "w_compass/6425",
+    "Trillion_labs/6735",
+    "Badonions/6221",
+    "PipeBeom/5760",
+    "HANAchina/66238",
+    "insidertracking/59666",
+    "The_MariTimes/61739",
+    "The_MariTimes/61741",
+    "The_MariTimes/61742",
+    "The_MariTimes/61744",
+    "The_MariTimes/61747",
+    "HANAchina/66245",
+    "HANAchina/66259",
+    "HANAchina/66338",
+    "w_compass/6426"
+   ],
+   "summary": "7월 FOMC 3.50~3.75% 동결(5회 연속), 9대3(지역 연은 3명 인상 주장); 워시 '시장 금리가 긴축 경로 중 하나'",
+   "why": "매파적 동결, 채권시장 긴축을 사실상 용인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "07-30",
+   "ids": [
+    "insidertracking/59685",
+    "The_MariTimes/61750",
+    "The_MariTimes/61752",
+    "kkkontemp/2552",
+    "HANAchina/66318"
+   ],
+   "summary": "FOMC 뒤 미 30년물 5.23%로 2007년 이후 최고, 베어 스티프닝; 워시가 PCE 외 지표 검토 시사하자 기대인플레 급등",
+   "why": "기간 프리미엄 주도 장기금리 상승",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "07-30",
+   "ids": [
+    "insidertracking/59761",
+    "Trillion_labs/6822",
+    "HANAchina/65653"
+   ],
+   "summary": "미 6월 PCE 3.7%·근원 3.3%, 근원 전월비 0.1%(예상 0.2%)",
+   "why": "근원 둔화 속 헤드라인은 높음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-31",
+   "ids": [
+    "HANAchina/66314",
+    "PipeBeom/5781",
+    "HANAchina/66459",
+    "HANAchina/66620"
+   ],
+   "summary": "중국 7월 제조업 PMI 49.2(예상 50.1)·신규주문 48.5, 비제조업 49.0; RatingDog 제조 50.9·서비스 50.4",
+   "why": "중국 경기 위축 전환",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-30",
+   "ids": [
+    "HANAchina/66269",
+    "PipeBeom/5771"
+   ],
+   "summary": "중국 7월 정치국회의: 더 적극적 재정·적절히 완화적 통화 유지, 대규모 부양 의지는 낮음",
+   "why": "중국 부양 강도 제한적",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "07-30",
+   "ids": [
+    "The_MariTimes/61732"
+   ],
+   "summary": "미 공화당, X-date(내년 여름~내후년 초) 앞서 이번 의회에서 부채한도 증액 검토",
+   "why": "재정 드라마 재개 예고",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-19",
+   "ids": [
+    "Trillion_labs/6778",
+    "insidertracking/61517",
+    "insidertracking/61694"
+   ],
+   "summary": "VLCC 페르시아만→아시아 용선료 7월 하루 46만 달러, 8월 51만 달러(평시 3~4만의 17배); 유조선 선가 2008년 이후 최고",
+   "why": "운송비 폭등이 에너지 물가에 가산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-28",
+   "ids": [
+    "insidertracking/59469"
+   ],
+   "summary": "사우디 아브카이크(하루 700만 배럴 처리) 원유 처리시설 화재 정황(위성사진)",
+   "why": "걸프 공급 취약성",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "원인 미확인"
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-01",
+   "ids": [
+    "insidertracking/59885",
+    "TNBfolio/70798",
+    "The_MariTimes/61796",
+    "The_MariTimes/62363"
+   ],
+   "summary": "워시, FOMC 정례회의 연 8회→6회 축소 검토(NYT), 7월 의사록에 제안 확인",
+   "why": "연준 소통 축소 기조 강화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "08-03",
+   "ids": [
+    "The_MariTimes/61791",
+    "The_MariTimes/61827",
+    "The_MariTimes/61914",
+    "The_MariTimes/61946",
+    "The_MariTimes/61924"
+   ],
+   "summary": "미·일 공동 엔화 매수 개입 해석: 연준 발권력으로 달러 유동성 공급, 베선트는 UAE 달러스와프 요구 관련 스와프 효용 인정",
+   "why": "엔 약세 정점 통과, 달러 약세 전환",
+   "status": "dup",
+   "dupOf": "old_items 18 (2026-08-03 미·일 공동 엔화 매수 개입)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "08-19",
+   "ids": [
+    "TNBfolio/70799",
+    "insidertracking/61501",
+    "PipeBeom/6115"
+   ],
+   "summary": "원화 7월 달러 대비 약 8% 절상(세계 최고 수준, FT), 8월 19일 환율 10개월 반 만에 1,300원대",
+   "why": "원화 급반전, 수입물가 부담 완화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "강세 원인: AI 부품 수익 환류·금리 인상·삼성·하이닉스 주주환원 기대(증권사 추정)"
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-03",
+   "ids": [
+    "Badonions/6334",
+    "The_MariTimes/61818",
+    "HANAchina/66429",
+    "HANAchina/66428",
+    "insidertracking/60039",
+    "HANAchina/66432",
+    "insidertracking/60068",
+    "HANAchina/66502",
+    "HANAchina/66574",
+    "insidertracking/60254",
+    "insidertracking/60329",
+    "HANAchina/66624",
+    "HANAchina/66426",
+    "insidertracking/60020",
+    "insidertracking/60086",
+    "insidertracking/60369",
+    "HANAchina/66449",
+    "PipeBeom/5835",
+    "insidertracking/59996"
+   ],
+   "summary": "트럼프, 대규모 이란 공습 취소·'호르무즈 합의 윤곽'; 베선트 '하루이틀 내 합의'; WTI -7% 78.7달러, 이란은 부인",
+   "why": "협상 기대에 유가·금리 하락",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-02",
+   "ids": [
+    "HANAchina/66412",
+    "HANAchina/65707",
+    "HANAchina/67029"
+   ],
+   "summary": "G10 초과 유동성 선행지표 2024년 이후 첫 마이너스; 하월 '글로벌 유동성 작년 4분기 정점'",
+   "why": "유동성 둔화 = 위험자산 역풍",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-03",
+   "ids": [
+    "HANAchina/66493"
+   ],
+   "summary": "한국은행, 13년 만에 금 매입 재개·금 ETF 매수 시작",
+   "why": "외환보유액 탈달러 분산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-04",
+   "ids": [
+    "The_MariTimes/61835",
+    "HANAchina/66512"
+   ],
+   "summary": "미 10y10y 금리 6.24%로 2000년대 초 이후 최고; JP모건 연말 10년물 4.85%·30년물 5.40%로 상향",
+   "why": "기간 프리미엄 복귀",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-04",
+   "ids": [
+    "Onionfarmer/17601",
+    "cahier_de_market/10345",
+    "The_MariTimes/61894",
+    "The_MariTimes/61895",
+    "The_MariTimes/61896",
+    "HANAchina/66794"
+   ],
+   "summary": "미 재무부 분기 차입계획: 9월 말 TGA 목표 9,000억 달러로 하향; 중장기채 비중 확대, 이표채 '향후 증액' 문구 수정",
+   "why": "국채 공급 구조가 장기금리 핵심 변수로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-04",
+   "ids": [
+    "HANAchina/66514",
+    "insidertracking/60282",
+    "HANAchina/66584"
+   ],
+   "summary": "시타델 'AI 칩 부채 2028년까지 5,000억 달러 초과'; 블랙스톤, 앤트로픽 구글 칩 비용용 360억 달러 부채 조달 주도",
+   "why": "AI 투자 자금의 사모·부채화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-05",
+   "ids": [
+    "insidertracking/60146",
+    "HANAchina/66510",
+    "HANAchina/66593",
+    "insidertracking/60311"
+   ],
+   "summary": "미 25개 주, 최신 관세 조치 위헌 소송; 대법원 판결 뒤 관세 환급 약 1,000억 달러",
+   "why": "관세 수입 감소·환급이 재정적자 키움",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-07",
+   "ids": [
+    "insidertracking/60569",
+    "cahier_de_market/10391",
+    "w_compass/6574",
+    "The_MariTimes/61947",
+    "The_MariTimes/61950",
+    "HANAchina/66783",
+    "HANAchina/66801",
+    "insidertracking/60593",
+    "insidertracking/60382",
+    "HANAchina/66750"
+   ],
+   "summary": "미 7월 비농업 -2.3만 명(예상 +8만), 6월 2만으로 하향, 실업률 4.1%; 9월 인상 확률 70%→40%",
+   "why": "고용 감소 전환, 성장 둔화 신호 강화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-06",
+   "ids": [
+    "insidertracking/60416",
+    "insidertracking/60478",
+    "HANAchina/66712",
+    "HANAchina/66713"
+   ],
+   "summary": "쿡 이사 '물가 안 꺾이면 인상 대비'; FT '물가 지표가 뜨거우면 워시는 9월 인상 준비'; 10년물 4.65%",
+   "why": "9월 인상 가능성 열어둠",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-06",
+   "ids": [
+    "HANAchina/66664",
+    "The_MariTimes/62121",
+    "The_MariTimes/62408",
+    "The_MariTimes/62483"
+   ],
+   "summary": "프랑스 상반기 적자 1,070억 유로(전망 +14.4%), 연 8% 가능; 독일과 스프레드 84bp, 10년물 2008년 이후 최고",
+   "why": "유럽 재정 위험의 진원지",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-27",
+   "ids": [
+    "The_MariTimes/62407",
+    "The_MariTimes/62426"
+   ],
+   "summary": "유로존 공동채 발행 논의 급물살, 독일·이탈리아·프랑스·스페인 10년물 금리 압축",
+   "why": "유럽 재정 통합 진전 가능성",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "논의 출처·주체는 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-06",
+   "ids": [
+    "HANAchina/66668",
+    "HANAchina/67336"
+   ],
+   "summary": "중국 10년물 국채 금리 1.7% 하회, 8월 18일 10년 국채 선물 사상 최고(미 30년물 5.32%와 대조)",
+   "why": "미·중 금리 방향 정반대(중국 디플레 압력)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-06",
+   "ids": [
+    "HANAchina/66669"
+   ],
+   "summary": "브라질 중앙은행, 기준금리 25bp 인하해 14%",
+   "why": "신흥국 일부는 완화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-06",
+   "ids": [
+    "insidertracking/60453"
+   ],
+   "summary": "다이먼 '신용융자 잔액 사상 최고, 통계 밖 차입도 상당'",
+   "why": "시장 레버리지 경고",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-07",
+   "ids": [
+    "cahier_de_market/10385"
+   ],
+   "summary": "알파벳 10개 트랜치(2~40년) 회사채, 주문 1,150억 달러(발행량 4배 이상), 40년물 국채+1.3%p",
+   "why": "하이퍼스케일러 채권 수요는 아직 견조",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-07",
+   "ids": [
+    "PipeBeom/5898"
+   ],
+   "summary": "콩고민주공화국, 구리·코발트 정광 수출 즉시 금지",
+   "why": "구리 공급 충격 추가",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-07",
+   "ids": [
+    "PipeBeom/5906"
+   ],
+   "summary": "중국 7월 수출 +23.9%(3,978억 달러), 수입 +27.5%",
+   "why": "중국 외수 강세 vs 내수 부진 양극화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-08",
+   "ids": [
+    "insidertracking/60588"
+   ],
+   "summary": "뉴욕 연은 7월 소비자 조사: 기대인플레 하락, 구직 가능 확률 46.2%로 올해 최고",
+   "why": "기대인플레 안정",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-08",
+   "ids": [
+    "insidertracking/60590",
+    "The_MariTimes/61295",
+    "Trillion_labs/7377"
+   ],
+   "summary": "미 상원, 러시아 에너지 부문 광범위 제재 법안 86대11 통과(하원 송부)",
+   "why": "러시아산 원유 공급 위험 추가",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-08",
+   "ids": [
+    "HANAchina/66805"
+   ],
+   "summary": "모건스탠리: 연준이 2027년 1분기부터 약 2년간 대차대조표 약 1.5조 달러 축소 예상",
+   "why": "워시 QT 재개 전망",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-08",
+   "ids": [
+    "insidertracking/60642",
+    "HANAchina/66823",
+    "insidertracking/60775",
+    "HANAchina/67059"
+   ],
+   "summary": "UAE 해상 원유 수출 1주일째 0(ADNOC 유조선 4척 피격), 이라크 수출 75% 감소; 사우디 7월 수출 419만 배럴",
+   "why": "걸프 수출 차질 심화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "OPEC 월보: 사우디 7월 생산 820만 배럴, 2026년 수요 전망 하향"
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-09",
+   "ids": [
+    "HANAchina/66836"
+   ],
+   "summary": "중국 7월 CPI +0.5%(예상 0.8%), PPI +3.5%(예상 3.8%), 2개월 연속 하회",
+   "why": "중국 물가 모멘텀 약화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-10",
+   "ids": [
+    "HANAchina/66913"
+   ],
+   "summary": "미 저축률 1년 새 약 5%→2.3%, 신용카드 부채는 증가(로젠버그)",
+   "why": "소비가 저축을 깎아 유지 = 둔화 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-11",
+   "ids": [
+    "insidertracking/60839",
+    "Badonions/6581",
+    "HANAchina/66932",
+    "insidertracking/60991",
+    "insidertracking/60650",
+    "HANAchina/66921",
+    "The_MariTimes/62003",
+    "HANAchina/66923"
+   ],
+   "summary": "트럼프 '호르무즈 개방, 기뢰 제거, 100% 통제' 선언 vs 이란 '조건 수용 전 봉쇄'; 브렌트 +5%",
+   "why": "실제 통항 회복 없이 말만 오감",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-15",
+   "ids": [
+    "HANAchina/66980",
+    "HANAchina/67153",
+    "HANAchina/67179",
+    "insidertracking/62043"
+   ],
+   "summary": "BofA, 브로드컴 신용 '중립' 하향(스프레드 동종보다 30~45bp 높음), 칩 금융으로 2029년까지 3,700억 달러 선순위 부채 추산",
+   "why": "AI 칩 판매자 보증 금융의 신용위험 부각",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-21",
+   "ids": [
+    "HANAchina/67537",
+    "HANAchina/67573",
+    "The_MariTimes/62243"
+   ],
+   "summary": "브로드컴, AI 칩 거래용 600억~1,000억 달러 장부외 부채 조달 추진, CDS 사상 최고",
+   "why": "AI 금융 사상 최대 규모",
+   "status": "dup",
+   "dupOf": "brief flows 2026-10-02 [liquidity] 브로드컴 은행단 600억 달러 / 카드 tg-HANAchina-69758",
+   "priority": "하",
+   "note": "8월 첫 보도분, CDS 최고치는 추가 사실"
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-12",
+   "ids": [
+    "insidertracking/60966",
+    "The_MariTimes/62042",
+    "PipeBeom/5992",
+    "insidertracking/61057",
+    "The_MariTimes/62075",
+    "Trillion_labs/7467",
+    "HANAchina/67164",
+    "HANAchina/67108",
+    "kkkontemp/2589",
+    "HANAchina/67252",
+    "insidertracking/61007"
+   ],
+   "summary": "미 7월 CPI 3.4%(예상 부합, 전월비 0.1%), PPI 전월비 0.0%(예상 0.2%); 9월 인상 확률 75%→25%",
+   "why": "물가 둔화 확인, 인상 기대 소멸",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-12",
+   "ids": [
+    "HANAchina/67053"
+   ],
+   "summary": "IEA: 3분기 원유 공급 부족 전망 두 배로, 현재 하루 약 180만 배럴 부족·글로벌 재고 4.1억 배럴 감소",
+   "why": "수요 둔화보다 공급 감소가 커 재고 급감",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-13",
+   "ids": [
+    "The_MariTimes/62058"
+   ],
+   "summary": "미 7월 재정적자 4,320억 달러, 코로나 이후 한 달 최대",
+   "why": "재정적자 확대(추론: 관세 환급 영향)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "원인 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-13",
+   "ids": [
+    "HANAchina/67063",
+    "HANAchina/67117"
+   ],
+   "summary": "미 10년물 입찰 낙찰금리 4.683%로 2007년 이후 최고·테일 발생, 30년물 입찰은 2001년 이후 최고 예상",
+   "why": "장기물 수요 약화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-14",
+   "ids": [
+    "insidertracking/61094",
+    "The_MariTimes/62095"
+   ],
+   "summary": "피치, 미국 AA+ 유지; 올해 재정적자 GDP 7.4%(전년 6.8%), 부채비율 2028년 123%, X-date 2027년 중반",
+   "why": "재정 악화 공식 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "liquidity",
+   "date": "08-14",
+   "ids": [
+    "insidertracking/61099"
+   ],
+   "summary": "연준, 9월 14일까지 준비금 관리용 단기국채 매입(RMP) 중단, 재투자 약 170억 달러는 지속",
+   "why": "단기 유동성 공급 일시 축소",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-14",
+   "ids": [
+    "insidertracking/61098",
+    "HANAchina/67122"
+   ],
+   "summary": "트럼프, 수입 드론·부품에 10~100% 관세 포고문 서명(21일 뒤 발효)",
+   "why": "품목별 관세 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-15",
+   "ids": [
+    "The_MariTimes/62079",
+    "The_MariTimes/62120"
+   ],
+   "summary": "바킨 '많은 위원은 금리가 이미 긴축적'; 윌리엄스 'AI 투자발 수요가 이어지면 인상'",
+   "why": "연준 내부 의견 갈림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-17",
+   "ids": [
+    "HANAchina/67171",
+    "HANAchina/67277",
+    "HANAchina/67314",
+    "HANAchina/67201"
+   ],
+   "summary": "중국 7월 신규대출 -3,400억 위안; 산업생산 4.5%·소매 0.6%·고정투자 -6.7%, 12개 지표 중 10개 하회",
+   "why": "중국 내수 2개월 연속 쇼크",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-16",
+   "ids": [
+    "HANAchina/67207",
+    "insidertracking/61250",
+    "HANAchina/68103"
+   ],
+   "summary": "S&P500 2분기 이익 +31%(예상 23%, 1992년 이후 최강), 다른 집계 +53%(관세 환급 포함)",
+   "why": "기업 이익은 강함 = 성장 축 유지",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-16",
+   "ids": [
+    "insidertracking/61238"
+   ],
+   "summary": "미 8월 소비자심리 하락, 물가·경제 전망 우려 지속",
+   "why": "소비 심리 약화",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-18",
+   "ids": [
+    "The_MariTimes/62136",
+    "The_MariTimes/62153",
+    "HANAchina/67305",
+    "HANAchina/67379",
+    "HANAchina/67380",
+    "HANAchina/67240",
+    "HANAchina/67455",
+    "HANAchina/67425",
+    "The_MariTimes/62145",
+    "HANAchina/67251",
+    "HANAchina/68125",
+    "HANAchina/68135",
+    "The_MariTimes/62485"
+   ],
+   "summary": "미 30년물 5.32%로 2007년 이후 최고, 10년물 4.75%; 8월 IG 회사채 발행 사상 최대; 골드만 '장기금리는 공급 문제'",
+   "why": "AI 회사채+재정적자 = 장기물 수급 불균형",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "8월 31일 10년물 4.75%·5년물 4.5% 재차 연중 최고"
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-18",
+   "ids": [
+    "insidertracking/61365",
+    "The_MariTimes/62332"
+   ],
+   "summary": "미 전략비축유 2억9,340만 배럴로 1982년 말 이후 최저(주간 -530만), 원유 재고 41일치로 수십 년 최저",
+   "why": "비축 완충 고갈",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-18",
+   "ids": [
+    "HANAchina/67391",
+    "HANAchina/67390",
+    "insidertracking/61167",
+    "insidertracking/61357",
+    "The_MariTimes/62122",
+    "The_MariTimes/62143",
+    "insidertracking/61360",
+    "insidertracking/61436",
+    "Trillion_labs/7577",
+    "HANAchina/67163"
+   ],
+   "summary": "트럼프 '이란과 대화 없음·봉쇄 유지', 호르무즈 '미국 영토' 지도·오만 위협; 갈리바프는 봉쇄·제재 해제 등 조건 제시",
+   "why": "6월 MOU 60일 협상기간(8/17) 종료, 교착",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-19",
+   "ids": [
+    "cahier_de_market/10473",
+    "HANAchina/67465",
+    "The_MariTimes/62162",
+    "The_MariTimes/62163",
+    "The_MariTimes/62166",
+    "The_MariTimes/62167",
+    "Onionfarmer/17782",
+    "PipeBeom/6072",
+    "Trillion_labs/7689"
+   ],
+   "summary": "미 재무부, 10~30년물 유동성 지원 바이백 회당 20억→최소 40억 달러로 확대(9/9~11/4); 장기금리 하락·달러 99 하회",
+   "why": "정부가 장기금리 상승을 통제선 넘었다고 인정",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "상",
+   "note": "brief flows 9/10 60억 달러 매입의 출발점"
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-20",
+   "ids": [
+    "insidertracking/61584",
+    "insidertracking/61597",
+    "HANAchina/67476",
+    "The_MariTimes/62204",
+    "cahier_de_market/10489",
+    "HANAchina/67249"
+   ],
+   "summary": "미 연방부채 40조 달러 돌파, 1년 새 3조 달러 증가(코로나 제외 최고 속도); 베선트 '숫자 자체 의미 없어, 재정적자 고점'",
+   "why": "재정 지속성 우려가 기간 프리미엄 자극",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-21",
+   "ids": [
+    "insidertracking/61604",
+    "HANAchina/67555",
+    "HANAchina/67592",
+    "insidertracking/61754",
+    "HANAchina/67695",
+    "The_MariTimes/62235",
+    "insidertracking/61811",
+    "cahier_de_market/10490",
+    "HANAchina/67733",
+    "insidertracking/61947",
+    "HANAchina/67763",
+    "HANAchina/67751",
+    "cahier_de_market/10530",
+    "insidertracking/62028",
+    "HANAchina/67788",
+    "The_MariTimes/62336",
+    "HANAchina/67834",
+    "The_MariTimes/62375",
+    "HANAchina/67597",
+    "cahier_de_market/10510",
+    "insidertracking/62203",
+    "HANAchina/67896",
+    "HANAchina/67491",
+    "HANAchina/67478",
+    "HANAchina/67519",
+    "HANAchina/67523"
+   ],
+   "summary": "바이백 효과 하루 만에 소멸·30년물 5.27% 복귀; TGA 1조 달러 활용 거론, 드러켄밀러·시타델 비판",
+   "why": "정책 개입으로도 장기금리 못 누름",
+   "status": "follow",
+   "dupOf": "HANAchina/67465(deferred, 8/19 바이백 확대)",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-20",
+   "ids": [
+    "insidertracking/61665",
+    "insidertracking/61758"
+   ],
+   "summary": "필라델피아 연은 제조업지수 47.4(예상 24.1); 경제학자 3분기 성장률 전망 2.0%→2.5% 상향",
+   "why": "제조·투자 성장 견조",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "08-21",
+   "ids": [
+    "insidertracking/61688",
+    "HANAchina/67238"
+   ],
+   "summary": "씨티, 3개월 달러인덱스 전망 102.12→98.34 하향(비둘기 연준·바이백·중간선거)",
+   "why": "달러 약세 국면 전환",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-21",
+   "ids": [
+    "insidertracking/61699",
+    "HANAchina/67553",
+    "The_MariTimes/62323",
+    "The_MariTimes/62355",
+    "HANAchina/67200"
+   ],
+   "summary": "오데사 항 공격으로 우크라이나 곡물 수출 사실상 중단(GDP 약 2% 손실); 쌀값 +47%, JP모건 '내년 식량위기'",
+   "why": "식품 물가 2차 충격",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-27",
+   "ids": [
+    "cahier_de_market/10502",
+    "w_compass/6806",
+    "HANAchina/67901"
+   ],
+   "summary": "한국은행, 기준금리 2.75%→3.00% 인상(2026년 CPI 2.7%·2027년 2.3% 전망); 신임 부총재는 신중론",
+   "why": "한국 두 번째 인상, 원화 강세 속에도 긴축",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-25",
+   "ids": [
+    "insidertracking/61804",
+    "HANAchina/67624",
+    "insidertracking/62008",
+    "Trillion_labs/7923",
+    "The_MariTimes/62322",
+    "The_MariTimes/62352",
+    "HANAchina/67424",
+    "insidertracking/61591"
+   ],
+   "summary": "캐나다, 미국과 무역협상 중단·9월 8일부터 50% 보복관세; 트럼프는 캐나다 자동차 관세 50% 인상 언급",
+   "why": "북미 관세전쟁 격화",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "deferred의 The_MariTimes 62322(온타리오 전력 공급 중단 경고)와 합침, 전력 부분은 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-22",
+   "ids": [
+    "HANAchina/67639",
+    "insidertracking/61814",
+    "Trillion_labs/8096",
+    "The_MariTimes/62480"
+   ],
+   "summary": "UBS '호르무즈 일 600만 배럴(암류 포함)' vs 탱커트래커 최근 7일 380~418만 배럴; 이란은 이라크 유조선 통과 허용",
+   "why": "실제 통항은 정상의 일부",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-22",
+   "ids": [
+    "HANAchina/67641"
+   ],
+   "summary": "골드만 '시장에 스태그플레이션 냄새', 바이백 효과는 유가·소비 부진에 역부족",
+   "why": "③국면 우려 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-25",
+   "ids": [
+    "cahier_de_market/10527",
+    "insidertracking/61959",
+    "insidertracking/61981",
+    "insidertracking/61993",
+    "HANAchina/67744",
+    "The_MariTimes/62326",
+    "The_MariTimes/62327",
+    "The_MariTimes/62329",
+    "Trillion_labs/7985",
+    "The_MariTimes/62333",
+    "The_MariTimes/62419",
+    "Trillion_labs/8087",
+    "Trillion_labs/8085",
+    "insidertracking/61698",
+    "insidertracking/61110",
+    "insidertracking/61756",
+    "insidertracking/62095",
+    "insidertracking/61883"
+   ],
+   "summary": "미 재무부 '경제적 추방 작전': 디지털자산·기술·금·항공·해운 2차 제재, 약 60개 지정, 중국 예외 없음·매주 은행까지 확대 예고",
+   "why": "군사→경제 제재로 전환, 중국과 제재 충돌 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-25",
+   "ids": [
+    "insidertracking/62001",
+    "The_MariTimes/62321"
+   ],
+   "summary": "미국, 트럼프·시진핑 회담 전 중국 과잉생산에 7.5% 관세 검토",
+   "why": "미중 완화 흐름에 견제",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-26",
+   "ids": [
+    "The_MariTimes/62354",
+    "insidertracking/62076",
+    "HANAchina/67838",
+    "HANAchina/67872",
+    "HANAchina/67876",
+    "HANAchina/67877",
+    "insidertracking/62093",
+    "insidertracking/62074",
+    "insidertracking/61211",
+    "HANAchina/67189",
+    "HANAchina/68051"
+   ],
+   "summary": "이란·오만 임시 통로·기뢰 소해·수익 배분 합의, 휴전 보도; 브렌트 주간 -9% 85달러, 이란 '즉시 개방 안 해'",
+   "why": "해협 재개방 기대, 유가 하락",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-26",
+   "ids": [
+    "insidertracking/62161",
+    "The_MariTimes/62369"
+   ],
+   "summary": "미 7월 근원 PCE 3.3%(예상 부합); 2분기 GDP 개정 디플레이터·PCE 물가 예상 상회",
+   "why": "근원 3%대 고착",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-26",
+   "ids": [
+    "HANAchina/67819",
+    "HANAchina/67891",
+    "PipeBeom/6172",
+    "insidertracking/61313",
+    "HANAchina/67347",
+    "PipeBeom/6035",
+    "PipeBeom/6053",
+    "HANAchina/66685"
+   ],
+   "summary": "LME 구리 14,415.5달러 사상 최고(1년 +50%), 미국 2027~28년 15~30% 관세 검토; LME 재고 한 달 -32%",
+   "why": "산업금속 공급 부족 + 관세 쏠림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "semis",
+   "date": "08-27",
+   "ids": [
+    "HANAchina/67849",
+    "HANAchina/67927",
+    "cahier_de_market/10407",
+    "insidertracking/60901",
+    "HANAchina/67360",
+    "HANAchina/66399"
+   ],
+   "summary": "엔비디아 부외 약정 5,300억 달러·AI 금융 플랫폼; 빅테크 부외부채 3조 달러, 2027년 빅5 설비투자 1조 달러",
+   "why": "AI 투자 자금이 대차대조표 밖 부채로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "geo",
+   "date": "08-27",
+   "ids": [
+    "insidertracking/62232"
+   ],
+   "summary": "트럼프 행정부, 반도체 광범위 추가 관세 검토(폴리티코)",
+   "why": "반도체 관세 = 물가·공급망 위험",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-27",
+   "ids": [
+    "HANAchina/67925",
+    "HANAchina/67954",
+    "HANAchina/68070"
+   ],
+   "summary": "OPEC+ 생산 비중 48%→40%로 하락; 베네수엘라 OPEC 탈퇴 검토, 미국과 25년 석유 협정(목표 하루 150만 배럴)",
+   "why": "유가 결정력 OPEC 밖으로 이동",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-28",
+   "ids": [
+    "w_compass/6831",
+    "Badonions/6920",
+    "Badonions/6921",
+    "Badonions/6922",
+    "Badonions/6923",
+    "Badonions/6924",
+    "insidertracking/62344",
+    "insidertracking/62365",
+    "HANAchina/68012",
+    "HANAchina/67999",
+    "Trillion_labs/8060",
+    "Trillion_labs/8050",
+    "HANAchina/68111",
+    "HANAchina/68054",
+    "HANAchina/68026",
+    "insidertracking/62381",
+    "insidertracking/62379",
+    "insidertracking/62384",
+    "insidertracking/62440",
+    "insidertracking/62374",
+    "insidertracking/62372",
+    "PipeBeom/6198",
+    "PipeBeom/6203",
+    "The_MariTimes/62446",
+    "The_MariTimes/62420",
+    "HANAchina/68046"
+   ],
+   "summary": "워시 잭슨홀 '2% 목표 확고, 할 일 남아, 금리 긴축적 아냐'; 2년물 +12bp 4.35%, 9월 인상 확률 50~60%",
+   "why": "인상 재점화, 9월 FOMC 인상의 전조",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "해맥 '여러 차례 인상 필요', 유럽중앙은행 인사들도 9월 인상 선호"
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "08-25",
+   "ids": [
+    "HANAchina/67779"
+   ],
+   "summary": "유로 1.17까지 상승, 시장은 유럽중앙은행 금리 인상 확률 95% 반영",
+   "why": "ECB 9월 인상 예고",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "08-31",
+   "ids": [
+    "HANAchina/68072",
+    "The_MariTimes/62468",
+    "The_MariTimes/62381",
+    "The_MariTimes/61861"
+   ],
+   "summary": "G20 계기 미·유럽, 플라자식 위안화 절상 공동 압박 구상(WSJ); 베선트 '중국 1조 달러 흑자 다뤄야', 메르츠도 위안 절상 요구",
+   "why": "달러 약세·위안 강세 정책 압력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-31",
+   "ids": [
+    "HANAchina/68092"
+   ],
+   "summary": "중국 8월 제조업 PMI 49.8(예상 49.5, 7월 49.2), 신규주문 50.6",
+   "why": "중국 제조 경기 소폭 반등",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-31",
+   "ids": [
+    "insidertracking/62482",
+    "HANAchina/68119"
+   ],
+   "summary": "사우디, 전쟁 장기화 재정 압박에 약 80억 달러 대출 모색(아람코도 차입 논의)",
+   "why": "산유국 재정도 압박",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-31",
+   "ids": [
+    "HANAchina/68105"
+   ],
+   "summary": "유럽 폭염: 초과 사망 3만5천 명, EU GDP 성장률 약 0.2%p 하락 가능",
+   "why": "유럽 성장 하방",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-31",
+   "ids": [
+    "The_MariTimes/62459"
+   ],
+   "summary": "미 재무부 긴급 공고: 2년물 낙찰금리 4.375~4.5%면 3년 전 발행 5년물과 동일 종목으로 간주",
+   "why": "단기물 발행 구조 조정",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "fiscal",
+   "date": "08-30",
+   "ids": [
+    "insidertracking/60922",
+    "cahier_de_market/10578"
+   ],
+   "summary": "트럼프, 중간선거 앞두고 자본이득세 인하(물가 연동) 검토",
+   "why": "감세 = 재정적자 확대 요인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-01",
+   "ids": [
+    "insidertracking/59893"
+   ],
+   "summary": "아폴로 슬록: 만데브 우회로 해상 운송 약 9일 늘어 육상 운임 상승, 소비자 물가로 전이",
+   "why": "운송비발 물가",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-04",
+   "ids": [
+    "Trillion_labs/7055"
+   ],
+   "summary": "아람코: 호르무즈 재가동 시 세계 재고 회복까지 18개월",
+   "why": "공급 정상화도 장기",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "07-16",
+   "ids": [
+    "The_MariTimes/61432",
+    "HANAchina/65484"
+   ],
+   "summary": "이라크, 드론 공격으로 바스라 원유 선적 일시 중단; IEA '수주 내 개선 없으면 에너지 안보 우려'",
+   "why": "공급 차질 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-11",
+   "ids": [
+    "HANAchina/66975"
+   ],
+   "summary": "중국 7월 내연기관차 소매 -41%(고유가 영향), 신에너지차도 -3.9%",
+   "why": "고유가의 수요 파괴",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "fx",
+   "date": "07-07",
+   "ids": [
+    "The_MariTimes/61184",
+    "insidertracking/57663",
+    "insidertracking/57525"
+   ],
+   "summary": "달러 투기적 롱·트레이더 낙관 2015년 이후 최고; 소시에테제네랄 연말 DXY 103.6 전망",
+   "why": "7월 달러 강세 쏠림(8월 반전 전)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-06",
+   "ids": [
+    "HANAchina/64882",
+    "insidertracking/57533",
+    "insidertracking/57487",
+    "insidertracking/57886"
+   ],
+   "summary": "모건스탠리 '워시 비둘기 신호, 연내 인상 없음'; 7월 초 7월 인상 확률 23~25%",
+   "why": "7월 초 동결 기대(이후 매파 전환)",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "07-21",
+   "ids": [
+    "insidertracking/57139",
+    "HANAchina/65748"
+   ],
+   "summary": "해싯 '하반기 성장률 약 4%', 베선트 '3%도 비현실적 아냐'",
+   "why": "정부의 고성장 주장",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "cb",
+   "date": "07-31",
+   "ids": [
+    "The_MariTimes/61776"
+   ],
+   "summary": "영란은행 총재 '금리 인상 쪽으로 전혀 기울지 않아'",
+   "why": "BoE는 연준·ECB와 달리 동결 기조",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "inflation",
+   "date": "08-22",
+   "ids": [
+    "insidertracking/61812",
+    "insidertracking/61747",
+    "The_MariTimes/62255"
+   ],
+   "summary": "쇠고기 값 잡으려 90일 최대 30만 톤 무관세 수입 추진했다가 농가 반발에 연기",
+   "why": "식품 물가에 정부 개입",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-24",
+   "ids": [
+    "HANAchina/67728"
+   ],
+   "summary": "모건스탠리, 4분기 브렌트 전망 배럴당 100달러로 상향",
+   "why": "유가 고점 장기화 전망",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "macro",
+   "node": "commodity",
+   "date": "08-25",
+   "ids": [
+    "The_MariTimes/62346",
+    "The_MariTimes/62317"
+   ],
+   "summary": "IEA 비롤: 전략비축유 80% 남음·추가 방출 논의 안 해, 유럽 가스 재고 너무 낮다고 경고",
+   "why": "겨울 유럽 가스 위험",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "62346은 목록에 없어 본문 확인 필요, 62317과 같은 발언으로 추정"
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-27",
+   "ids": [
+    "The_MariTimes/62399"
+   ],
+   "summary": "네덜란드 연기금 ABP, 미 국채 보유 84% 감소",
+   "why": "해외 기관의 미 국채 이탈",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "목록에 없음, 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "rates",
+   "date": "08-03",
+   "ids": [
+    "insidertracking/60014"
+   ],
+   "summary": "일본의 미 국채 보유 3개월간 960억 달러 감소",
+   "why": "해외 공적 수요 약화",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "중",
+   "note": "목록에 없음, 본문 확인 필요"
+  },
+  {
+   "industry": "macro",
+   "node": "growth",
+   "date": "08-20",
+   "ids": [
+    "HANAchina/67490"
+   ],
+   "summary": "일본 수출 증가율 4년 만의 최고",
+   "why": "AI·가격발 아시아 수출 호조",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "하",
+   "note": "목록에 없음, 본문 확인 필요"
+  }
+ ]
+}

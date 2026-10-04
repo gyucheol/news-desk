@@ -1,0 +1,1480 @@
+{
+ "file": "B_gas_coal",
+ "industries": [
+  "gas",
+  "coal"
+ ],
+ "period": "2026-07-01 ~ 2026-10-04",
+ "counts": {
+  "lines": 963,
+  "N": 656,
+  "R": 307,
+  "relevant": 227
+ },
+ "flow": [
+  {
+   "month": "2026-07",
+   "industry": "gas",
+   "point": "7월 8일 카타르 LNG선 피격 뒤 라스라판 생산 확대가 멈추고 불가항력이 10월 중순까지 늘어 6월 종전 뒤의 회복 기대가 꺾였습니다. TTF는 전쟁 이후 최고를 찍었다가 공습 중단에 급락했고, 미국에서는 가스발전 증설·가스터빈 값·수주가 함께 뛰었습니다.",
+   "ids": [
+    "Onionfarmer/17169",
+    "Trillion_labs/6303",
+    "The_MariTimes/61584",
+    "HANAchina/66034",
+    "Trillion_labs/5398",
+    "HANAchina/65237",
+    "insidertracking/58935"
+   ]
+  },
+  {
+   "month": "2026-07",
+   "industry": "coal",
+   "point": "중국 석탄 상장사 실적이 반등 국면에 들어섰고(중신증권), 미국에서는 태양광이 석탄 비중을 처음 넘었습니다. 라인강 수위가 떨어지기 시작해 유럽 석탄 운송 차질이 예고됐습니다.",
+   "ids": [
+    "HANAchina/65007",
+    "insidertracking/57552",
+    "The_MariTimes/61372"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "gas",
+   "point": "유럽 저장량이 계절 기준 17년 만의 최저로 떨어지고 TTF가 60→70유로, 유럽 LNG가 2023년 이후 최고로 올랐으며 골드만은 12월 100유로를 경고했습니다. 반면 미국은 재고가 10년 평균보다 7% 많아 가격이 따로 놀았고, 가스관은 데이터센터 장기 계약을 쌓았습니다.",
+   "ids": [
+    "insidertracking/60151",
+    "insidertracking/60914",
+    "HANAchina/67924",
+    "HANAchina/67806",
+    "insidertracking/61137",
+    "Trillion_labs/7628"
+   ]
+  },
+  {
+   "month": "2026-08",
+   "industry": "coal",
+   "point": "라인강 저수위로 독일 제철소가 석탄을 철도로 옮기는 등 물류 병목이 커졌고, 8월 27일 중국 국유 탄광 안전 강화 의견으로 공급 탄력성이 더 줄었다는 평가가 나왔습니다.",
+   "ids": [
+    "Trillion_labs/7400",
+    "HANAchina/68329",
+    "The_MariTimes/62090"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "gas",
+   "point": "카타르 불가항력이 11월까지 늘며 아시아 현물이 2022년 이후 최고가 되고 파키스탄은 구매를 포기했습니다. TTF는 9월 14일 2022년 12월 이후 최고를 찍은 뒤 하순 70유로 아래로 내려왔고, 공급 쪽에서는 엑손 LNG 목표 상향과 골드만의 2027년 헨리허브 하향이 2027년 이후 공급 증가를 가리켰습니다.",
+   "ids": [
+    "HANAchina/68344",
+    "Trillion_labs/8236",
+    "HANAchina/68871",
+    "The_MariTimes/63199",
+    "Trillion_labs/8791",
+    "HANAchina/68331"
+   ]
+  },
+  {
+   "month": "2026-09",
+   "industry": "coal",
+   "point": "중국 원료탄 수입이 수년 만의 최고로 늘고 케이프 운임이 5만 달러를 넘었지만, 중국 조강 -3.7%와 철강협회 감산 제안이 제철 수요의 약세를 보여 줬습니다. 뉴캐슬 선도곡선은 겨울 뒤 하락을 반영합니다.",
+   "ids": [
+    "Trillion_labs/8441",
+    "The_MariTimes/62629",
+    "Trillion_labs/8980",
+    "HANAchina/68930",
+    "The_MariTimes/62757"
+   ]
+  },
+  {
+   "month": "2026-10",
+   "industry": "gas",
+   "point": "JERA 수장이 카타르 공급의 단기 회복이 어렵다고 보고 발전소의 석탄 전환을 언급했으며, 미국 액화 장기계약(벤처글로벌·코노코)은 이어졌습니다. 알래스카 LNG는 사업비가 멕시코만의 두 배라는 지적에 상업성 의문이 커졌습니다.",
+   "ids": [
+    "HANAchina/69766",
+    "Trillion_labs/9936",
+    "Trillion_labs/9928",
+    "The_MariTimes/63473"
+   ]
+  },
+  {
+   "month": "2026-10",
+   "industry": "coal",
+   "point": "중국 발전용 석탄이 11주 연속 올라 3년 만의 최고를 유지했고, 대만 철강업계도 원료탄 고가를 전제로 4분기 회복을 기대합니다.",
+   "ids": [
+    "Trillion_labs/9904",
+    "HANAchina/69804"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "07-10",
+   "ids": [
+    "Onionfarmer/17096",
+    "insidertracking/57673",
+    "PipeBeom/5427",
+    "insidertracking/57876",
+    "Onionfarmer/17169",
+    "Trillion_labs/5873"
+   ],
+   "summary": "7월 7~8일 카타르 LNG선 알레카이야트 피격 뒤 카타르에너지가 라스라판 생산 확대를 멈추고 최소 가동으로 낮춤",
+   "why": "6월 종전 뒤 재개되던 카타르 공급이 다시 막힌 출발점",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "같은 날 유조선·가스선 최소 4척이 호르무즈에서 회항(PipeBeom/5427)"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-23",
+   "ids": [
+    "Trillion_labs/6303",
+    "insidertracking/59019",
+    "insidertracking/59030",
+    "Onionfarmer/17452",
+    "Trillion_labs/6501",
+    "Trillion_labs/6337"
+   ],
+   "summary": "카타르에너지가 LNG 불가항력을 10월 중순까지 연장(아시아 고객), 7월 28일 유럽 고객에도 연장 통보",
+   "why": "겨울 조달기 전체가 공급 제약 아래 놓임",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "이후 11월까지 재연장(9월 4일), 9월 28일 재연장은 old_items 카드와 겹침"
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "07-22",
+   "ids": [
+    "HANAchina/65784",
+    "Trillion_labs/5872",
+    "HANAchina/65980",
+    "insidertracking/59239"
+   ],
+   "summary": "7월 21일 호르무즈를 지난 VLCC·LNG선 0척(케플러), 대형 운반선 3척뿐; 카타르는 7월 26일 자국 해상운항 재개",
+   "why": "7월 하순에도 카타르 LNG 해상 출구가 사실상 닫힘",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "8월 통과 0척은 brief flows(9-28)에 있음"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-23",
+   "ids": [
+    "HANAchina/65519",
+    "The_MariTimes/61584",
+    "insidertracking/59068",
+    "HANAchina/66034"
+   ],
+   "summary": "TTF가 7월 23일 이란 전쟁 이후 최고 경신(독일 가스값 2020년의 약 5배), 27일 공습 중단에 장중 8.3% 급락(58.28유로)",
+   "why": "휴전·교전 뉴스에 가스값이 크게 흔들리는 사건 가격 국면",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-10",
+   "ids": [
+    "Onionfarmer/17153"
+   ],
+   "summary": "iM증권: 종전 뒤에도 LNG 가격 안정이 원유보다 더뎌, 카타르 설비 차질·호주 수출 제한으로 절대 공급이 빠듯",
+   "why": "원유와 달리 LNG는 공급 자체가 줄어든 구조라는 판단",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "regas",
+   "date": "07-04",
+   "ids": [
+    "The_MariTimes/61131",
+    "Trillion_labs/5967",
+    "insidertracking/60151",
+    "Trillion_labs/7014",
+    "Trillion_labs/7066"
+   ],
+   "summary": "유럽 가스 재고가 7월 초 2017년 이후 최저권(5년 평균보다 약 600Bcf 부족), 8월 초엔 계절 기준 17년 만의 최저",
+   "why": "여름 주입기부터 겨울 부족이 예고됨",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "독일 48% 카드(tg-HANAchina-67365, 8-18)는 독일만 다룸"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-25",
+   "ids": [
+    "The_MariTimes/61647",
+    "insidertracking/60290",
+    "Trillion_labs/6338",
+    "Trillion_labs/8171"
+   ],
+   "summary": "아시아는 카타르 대체 물량을 확보, 유럽은 고가에 구매를 미뤄 부족 심화(6월 미국산 LNG의 절반도 못 받음)",
+   "why": "유럽·아시아의 유연 화물 쟁탈전이 여름부터 시작",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "9월 하순 유럽의 조달 가속 카드(bbg-02)로 이어짐; 6월 유럽 수입 미국산 비중 절반 미만은 2024년 7월 이후 처음(Trillion_labs/8171)"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-03",
+   "ids": [
+    "Trillion_labs/5398"
+   ],
+   "summary": "2026년 1~4월 미국 신규 대형 발전 16GW 가동, 가스발전 증설 속도는 2025년의 약 7배",
+   "why": "미국 가스 수요 증가가 발전 설비에서 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-09",
+   "ids": [
+    "insidertracking/57754",
+    "Trillion_labs/5528"
+   ],
+   "summary": "메타가 캐나다 앨버타에 약 100억 달러·1GW 데이터센터를 짓고 전력 대부분을 천연가스로 조달",
+   "why": "빅테크 데이터센터의 가스 자가발전 확산",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-12",
+   "ids": [
+    "HANAchina/65237",
+    "PipeBeom/5308",
+    "insidertracking/57298",
+    "PipeBeom/5531",
+    "insidertracking/58558"
+   ],
+   "summary": "AI 전력 수요로 가스터빈 값 3년간 300% 상승, xAI는 1GW 이동식 터빈사 APR에너지를 10억 달러에 인수",
+   "why": "가스발전 장비가 병목이 되며 값이 오름",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "소형 엔진사 수혜(WSJ, PipeBeom/5308)"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-22",
+   "ids": [
+    "insidertracking/58906",
+    "insidertracking/58935",
+    "Onionfarmer/17401",
+    "Onionfarmer/17625",
+    "Onionfarmer/17837"
+   ],
+   "summary": "GE버노바 2분기 수주 242억 달러(+88%)·잔고 1,760억 달러, 지멘스에너지 실적 상회, 캐터필러 잔고 720억 달러(+92%)",
+   "why": "가스발전 설비 주문이 쌓여 수요가 몇 년 앞까지 고정",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "GE버노바 116GW 계약 해석은 old_items(9-29)와 겹치지 않는 2분기 실적 수치"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-19",
+   "ids": [
+    "Onionfarmer/17284",
+    "Trillion_labs/7331",
+    "PipeBeom/5981",
+    "Trillion_labs/7060"
+   ],
+   "summary": "옛 석탄발전소 호머시티를 4.4GW 가스발전으로 재건(아마존 협상), 페르미 2.6GW 등 데이터센터용 가스 캠퍼스 잇따라",
+   "why": "데이터센터용 대형 가스발전 단지가 늘어남",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "GW랜치(Trillion_labs/7060)도 같은 유형"
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "07-22",
+   "ids": [
+    "PipeBeom/5616"
+   ],
+   "summary": "ADNOC이 62억 달러 움샤이프 가스캡 프로젝트 최종투자결정",
+   "why": "걸프 산유국의 가스 증산 투자는 전쟁 중에도 진행",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요(생산량)"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-22",
+   "ids": [
+    "insidertracking/58837",
+    "insidertracking/59402",
+    "The_MariTimes/61344",
+    "The_MariTimes/61869"
+   ],
+   "summary": "그리스 반대로 EU의 러시아 LNG 운송 제재가 막힘; 유럽은 상반기 야말 LNG 997만 톤(+16%) 수입",
+   "why": "러시아 LNG 퇴출 방침과 실제 의존이 엇갈림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "벨기에 7월 LNG는 전량 러시아산(The_MariTimes/61869)"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-22",
+   "ids": [
+    "insidertracking/58907",
+    "The_MariTimes/61577"
+   ],
+   "summary": "중국 LNG 수입이 22개월 만의 최고로 늘어(블룸버그 \"두 배 이상\") 가격이 내려간 틈에 재진입",
+   "why": "중국이 싼 시점에만 사는 가격 민감 수요임을 보여줌",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "\"두 배 이상\" 기준 기간 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-02",
+   "ids": [
+    "The_MariTimes/62573"
+   ],
+   "summary": "중국 8월 LNG 수입이 전년보다 20% 가까이 줄어 4월 이후 가장 가파른 감소",
+   "why": "고가 국면에서 중국 수요가 다시 빠짐(9월 -8%로 이어짐)",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-29 [demand] 중국 9월 LNG 수입 -8%",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-30",
+   "ids": [
+    "insidertracking/59737"
+   ],
+   "summary": "카타르에너지가 올해 미국산 LNG 현물 33카고(약 10억 달러)를 사들여 아시아 고객 물량을 메움(로이터)",
+   "why": "수출국 카타르가 미국산 구매자로 돌아선 첫 수치",
+   "status": "follow",
+   "dupOf": "card bbg4-09(카타르, 미국산 장기 구매 협상)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "07-30",
+   "ids": [
+    "Trillion_labs/6723",
+    "Trillion_labs/6724",
+    "insidertracking/59663",
+    "insidertracking/59665"
+   ],
+   "summary": "이집트 다미에타항에서 미국 소유 LNG선과 미국 가스 저장시설 두 곳이 드론 공격을 받아 화재",
+   "why": "공격 범위가 호르무즈 밖 LNG 설비로 넓어짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "07-29",
+   "ids": [
+    "Trillion_labs/6632"
+   ],
+   "summary": "리비아 멜리타 석유·가스 단지가 시위대 습격으로 운영 중단, 가스 공급 차질로 정전 우려",
+   "why": "지중해권 가스 공급 차질 사례",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "이탈리아행 그린스트림 영향 여부 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "07-29",
+   "ids": [
+    "insidertracking/59608",
+    "insidertracking/63835",
+    "insidertracking/63925",
+    "Trillion_labs/8907",
+    "insidertracking/64026"
+   ],
+   "summary": "러시아산 원유·가스 구매국에 최대 100% 세컨더리 관세를 매기는 제재법이 상원(7월)·하원(9월 17일) 통과",
+   "why": "러시아 가스 구매국의 비용이 커질 수 있는 정책 변수",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "대통령 서명 여부 미확인; 헝가리는 면제 요청(insidertracking/64026)"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "07-29",
+   "ids": [
+    "Onionfarmer/17474",
+    "Onionfarmer/17475",
+    "insidertracking/60982",
+    "Onionfarmer/17994"
+   ],
+   "summary": "블룸에너지 2분기 매출 10.65억 달러(+166%), 데이터센터들이 가스 연료전지로 전력원 전환",
+   "why": "가스관 연결이 필요한 연료전지형 가스 수요가 커짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "네비우스 바인랜드 전환·인디애나 175MW(Onionfarmer/17994)"
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "08-01",
+   "ids": [
+    "HANAchina/66386"
+   ],
+   "summary": "카타르 화물을 실은 LNG선이 호르무즈 통과 중 투사체에 맞아 기관실 피해·통제 불능(UKMTO)",
+   "why": "8월 LNG선 통과 0척의 배경",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "7월 알레카이야트 피격과 같은 사건인지 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "08-12",
+   "ids": [
+    "insidertracking/60914",
+    "The_MariTimes/61847",
+    "PipeBeom/5948",
+    "The_MariTimes/61994",
+    "Trillion_labs/7384",
+    "Trillion_labs/7385"
+   ],
+   "summary": "TTF 8월 4일 60유로 돌파, 11일 장중 +11%; 노르웨이 오르멘랑에 정비가 2027년 2월까지 연장되고 폭염 수요 겹침",
+   "why": "공급 차질에 노르웨이 정비·폭염 수요가 겹친 여름 상승",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "서유럽 발전용 가스 7월 평년보다 약 7.14억㎥ 많음(우드맥킨지, Trillion_labs/7385)"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "08-27",
+   "ids": [
+    "Trillion_labs/8017",
+    "HANAchina/67924",
+    "The_MariTimes/62434"
+   ],
+   "summary": "유럽 LNG 가격이 100만BTU당 22.83달러로 2023년 1월 이후 최고, TTF는 8월 28일 3월 중순 뒤 처음 70유로 돌파",
+   "why": "겨울 전 가격 상승이 이어짐",
+   "status": "follow",
+   "dupOf": "card tg-PipeBeom-6147(8월 24일 TTF 68.61유로)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "08-25",
+   "ids": [
+    "HANAchina/67806"
+   ],
+   "summary": "골드만삭스: 호르무즈 LNG 차질이 이어지면 12월물 TTF가 MWh당 100유로를 넘을 수 있다",
+   "why": "재고 부족이 겨울 가격 상단을 크게 열어 둠",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "08-14",
+   "ids": [
+    "insidertracking/61137"
+   ],
+   "summary": "미국 가스 재고가 8월 7일 10년 계절 평균보다 1,960억 입방피트(약 7%) 많아 선물 급락에도 과잉 지속",
+   "why": "미국 가스는 수출 능력에 막혀 해외와 따로 노는 증거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "08-14",
+   "ids": [
+    "Trillion_labs/7515"
+   ],
+   "summary": "위성 사진상 카타르 북부 LNG 설비 T5가 멈추고 T6·T7만 열 신호(8월 13일)",
+   "why": "카타르 가동 축소의 정황",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요(출처·해석)"
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "08-18",
+   "ids": [
+    "PipeBeom/5345",
+    "PipeBeom/5459",
+    "PipeBeom/5586",
+    "PipeBeom/5805",
+    "PipeBeom/5915",
+    "PipeBeom/6045",
+    "PipeBeom/6441"
+   ],
+   "summary": "미국 가스 리그가 7월 3일 126개→8월 7일 124개→9월 18일 134개로 늘어",
+   "why": "고가 해외 시장에도 미국 상류는 완만한 증가",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-30 [upstream] 가스 리그 135개",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "08-19",
+   "ids": [
+    "TNBfolio/70832",
+    "Trillion_labs/7627",
+    "Trillion_labs/7628"
+   ],
+   "summary": "미국 가스관 업체들이 AI 수요로 증설 경쟁, 에너지트랜스퍼는 6Bcf/일 이상·평균 18년 장기 운송 계약 제시",
+   "why": "데이터센터 수요가 미드스트림 장기 계약으로 고정",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "미래 운송수수료 250억 달러 이상(Trillion_labs/7628)"
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "08-26",
+   "ids": [
+    "insidertracking/61832",
+    "insidertracking/62131",
+    "insidertracking/63453"
+   ],
+   "summary": "카타르 LNG 수출 96% 급감·가스 판매 손실 240억 달러, 정부 예산 30%·대외원조 85% 축소",
+   "why": "카타르 피해가 재정까지 번져 복구·증설 여력에 부담",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-20 [liquefaction] 하나증권 카고 -96%",
+   "priority": "중",
+   "note": "추론: 재정 축소가 증설 일정에 영향 줄 수 있음; 연간 약 200억 달러 수입 손실 예상(insidertracking/63453)"
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "08-23",
+   "ids": [
+    "insidertracking/61862",
+    "insidertracking/61864"
+   ],
+   "summary": "이란 석유장관, 파르스주 남부에서 7.5조 입방피트(회수 가능 약 5.7조) 가스 발견 발표",
+   "why": "참고: 이란 매장량 발표, 수출로 이어질 경로는 없음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "08-26",
+   "ids": [
+    "Trillion_labs/7944"
+   ],
+   "summary": "러시아·중국 합작 아무르 가스화학 단지(연 270만 톤 폴리머)가 7년 건설 끝 가동 직전 폭발",
+   "why": "러시아 동부 가스 가공 투자 차질",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "08-28",
+   "ids": [
+    "Onionfarmer/17802"
+   ],
+   "summary": "키메리지: 미국 데이터센터 계획의 절반이 지연·중지될 우려, AI발 가스 수요는 전망 하단에 머물 수 있음",
+   "why": "데이터센터 가스 수요 기대에 대한 반대 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "08-30",
+   "ids": [
+    "HANAchina/68052",
+    "insidertracking/62758",
+    "HANAchina/68413",
+    "insidertracking/63001"
+   ],
+   "summary": "SpaceX가 텍사스에 주조공장을 지어 가스터빈 블레이드·베인을 자체 생산 추진",
+   "why": "가스터빈 공급 부족이 수요자의 수직계열화로 번짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "블레이드 병목 카드(old_items 9-24 GE에어로스페이스 CPP)와 같은 흐름"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-04",
+   "ids": [
+    "HANAchina/68344",
+    "HANAchina/68292",
+    "Trillion_labs/8338",
+    "Onionfarmer/17817",
+    "Trillion_labs/8236"
+   ],
+   "summary": "카타르 불가항력 11월까지 연장, 아시아 LNG 현물 2022년 12월 이후 최고(약 25달러), 파키스탄은 구매 포기",
+   "why": "아시아 가격 민감국부터 수요 파괴가 시작",
+   "status": "follow",
+   "dupOf": "card tg-PipeBeom-6239(아시아 현물 23.2달러)·gas flows 9-28 카타르 취소",
+   "priority": "상",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-09",
+   "ids": [
+    "The_MariTimes/62805",
+    "HANAchina/68642",
+    "Trillion_labs/8527",
+    "HANAchina/68834",
+    "HANAchina/68871",
+    "Trillion_labs/8853",
+    "The_MariTimes/63026",
+    "Trillion_labs/8874",
+    "The_MariTimes/63199"
+   ],
+   "summary": "TTF 9월 9일 2023년 이후 처음 80유로 돌파, 14일 2022년 12월 이후 최고 뒤 하순 하락(9월 30일 약 69.7유로)",
+   "why": "9월 중순이 이번 가격 국면의 고점이었는지 확인할 지점",
+   "status": "follow",
+   "dupOf": "card tg-PipeBeom-6239(9월 2일 73.85유로)·gas flows 9-30 TTF 69.7",
+   "priority": "상",
+   "note": "추론: 고점 뒤 하락은 저장률 목표 완화·수요 억제 영향일 수 있음; 영국 가스도 200펜스 돌파(HANAchina/68642)"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-06",
+   "ids": [
+    "Trillion_labs/8375"
+   ],
+   "summary": "연초 대비 유럽 천연가스 +155%, 난방유 +114%, 브렌트 +59%, 석탄 +39%",
+   "why": "에너지 가운데 유럽 가스 상승이 가장 큼",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-04",
+   "ids": [
+    "HANAchina/68331"
+   ],
+   "summary": "골드만삭스가 2027년 NYMEX 가스 전망을 100만BTU당 3.50달러에서 2.80달러로 낮춤",
+   "why": "미국 가스는 공급 우위로 해외 고가와 반대 방향",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "EIA 2027년 3.28달러(gas brief)와 같은 방향"
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "09-05",
+   "ids": [
+    "The_MariTimes/62657",
+    "Trillion_labs/8386"
+   ],
+   "summary": "푸틴·시진핑이 SCO에서 시베리아의 힘 2 가스관 최종 확정 논의, 러시아는 사업 이름을 \"바이칼의 힘\"으로 변경",
+   "why": "러시아 가스가 유럽 대신 중국으로 가는 장기 경로",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "확정 여부 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "regas",
+   "date": "09-06",
+   "ids": [
+    "w_compass/6910",
+    "Onionfarmer/17844",
+    "insidertracking/63337"
+   ],
+   "summary": "EU 가스 저장률 65~67%로 5년 평균(82%)·1년 전보다 13%p 낮아 2011년 이후 가장 취약한 상태로 난방철 진입",
+   "why": "겨울 부족 위험 확인",
+   "status": "dup",
+   "dupOf": "card tg-PipeBeom-6322(유럽 저장률 67%, 9-09)",
+   "priority": "하",
+   "note": "65%·5년 평균 82% 수치는 Onionfarmer/17844"
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "09-14",
+   "ids": [
+    "Trillion_labs/8791"
+   ],
+   "summary": "엑손모빌이 가스텍에서 2030년 LNG 판매 목표를 연 4,000만 톤에서 5,000만 톤으로 올림",
+   "why": "메이저의 LNG 증설 의지, 2030년 전후 공급 증가 근거",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "09-14",
+   "ids": [
+    "Trillion_labs/8794"
+   ],
+   "summary": "유니퍼가 EU 구제금융 조건을 맞추려 오팔 가스관 지분을 매각 예정",
+   "why": "참고: 유럽 가스 인프라 자산 재편",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-14",
+   "ids": [
+    "HANAchina/68883",
+    "Onionfarmer/17881"
+   ],
+   "summary": "가스터빈이 2030년까지 매진돼 데이터센터가 가스보일러+증기터빈으로 전환, 어플라이드디지털 1.2GW 도입",
+   "why": "터빈 병목에도 가스 사용 자체는 다른 설비로 이어짐",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "터빈 납기 2032년까지 밀릴 수 있음(Onionfarmer/17881)"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-15",
+   "ids": [
+    "Trillion_labs/8872",
+    "Trillion_labs/8987"
+   ],
+   "summary": "영국 에너지 요금 25% 급등 전망(블룸버그 이코노믹스); TTF가 24달러를 넘으면 유럽 암모니아 비료 마진이 마이너스",
+   "why": "유럽 산업·가계 가스 수요 파괴 압력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-17",
+   "ids": [
+    "w_compass/7018"
+   ],
+   "summary": "2분기 미국 계통연계 대기 발전 2,078GW로 사상 최대, 신규 천연가스 발전 신청이 두 배 넘게 늘어",
+   "why": "미국 가스발전 투자 의향이 빠르게 늘어남",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "upstream",
+   "date": "09-17",
+   "ids": [
+    "Trillion_labs/9049"
+   ],
+   "summary": "우크라이나 드론 사거리가 3,000km를 넘어 노비우렌고이 콘덴세이트 공장을 공격, 야말·북극 LNG2 설비도 사정권",
+   "why": "러시아 LNG·가스 생산 설비가 공격 대상",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "regas",
+   "date": "09-18",
+   "ids": [
+    "Trillion_labs/9098"
+   ],
+   "summary": "독일이 겨울 가스 공급을 위해 공급사에 보조금을 주는 저장 입찰을 크게 늘릴 계획",
+   "why": "시장 대신 정부가 저장을 채우는 방향",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-30 독일 SEFE 8TWh 저장 지시",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-19",
+   "ids": [
+    "insidertracking/64136",
+    "Trillion_labs/8818"
+   ],
+   "summary": "일본의 대미 투자 5,500억 달러의 핵심 사업에 오하이오·텍사스·펜실베이니아 초대형 천연가스 발전이 포함",
+   "why": "외국 자본이 미국 가스발전 증설을 받침",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "본문 확인 필요(규모·GW)"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-21",
+   "ids": [
+    "Trillion_labs/9218",
+    "HANAchina/69315"
+   ],
+   "summary": "중국이 미국산 LNG 15% 관세 철폐를 계획한다는 보도, 정상회담 전 LNG 구매 추진",
+   "why": "미중 LNG 교역 재개 여부",
+   "status": "dup",
+   "dupOf": "gas flows 2026-09-30 [trade] 중국 미국산 LNG 관세 인하 미확인",
+   "priority": "하",
+   "note": "9월 30일 기준 시행 확인 안 됨"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-24",
+   "ids": [
+    "HANAchina/69365",
+    "Onionfarmer/17942"
+   ],
+   "summary": "데이터센터 \"계량기 뒤\" 자가발전 2030년 설치 전망이 67GW로 상향, 연료전지가 가장 높은 평가",
+   "why": "계통 대기가 길어져 현장 가스발전 수요 확대",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "전망 주체 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "regas",
+   "date": "09-26",
+   "ids": [
+    "The_MariTimes/63335",
+    "Onionfarmer/17955",
+    "The_MariTimes/63413"
+   ],
+   "summary": "네덜란드가 가스 비축 목표를 74%에서 64%로 낮추고 EU 의무 저장 목표 폐지를 추진(올해 충전에 약 10억 유로 사용)",
+   "why": "저장 목표 완화로 겨울 재고가 더 낮아질 수 있음",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-26 [regas] 네덜란드 저장 목표 폐지 주장",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "09-28",
+   "ids": [
+    "HANAchina/69502"
+   ],
+   "summary": "중국 조선소가 세계 대형 LNG선 발주의 75%를 차지하고 \"선건조 후매각\"까지 나섬",
+   "why": "LNG선 공급 과잉 위험(운임 하락·계선 중 발주 급증)",
+   "status": "follow",
+   "dupOf": "card tg-HANAchina-67227(중국 상반기 52척·57.8%)",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "09-30",
+   "ids": [
+    "insidertracking/65030",
+    "Trillion_labs/9759"
+   ],
+   "summary": "9월 30일 호르무즈에서 유조선·LNG선 등 최소 3척이 하루 새 발사체에 피격(UKMTO)",
+   "why": "9월 재개된 카타르 LNG 통과가 다시 위협받음",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-30",
+   "ids": [
+    "The_MariTimes/63387"
+   ],
+   "summary": "러시아와 이란이 아제르바이잔 경유 러시아 가스의 이란 수송 협력을 논의",
+   "why": "참고: 제재국 간 가스 협력",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-22",
+   "ids": [
+    "HANAchina/69227"
+   ],
+   "summary": "대만이 12.83% 인상 요인에도 10~12월 전기요금을 동결",
+   "why": "고가 LNG 부담을 정부·국영사가 떠안음",
+   "status": "follow",
+   "dupOf": "card rtr-02(대만 130억 달러 에너지 추가 지출)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-11",
+   "ids": [
+    "The_MariTimes/62878"
+   ],
+   "summary": "한국·호주가 경유·LNG 등 에너지 자원 공급망 유지를 위한 공동 성명 발표",
+   "why": "수입국의 공급선 확보 외교",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "09-10",
+   "ids": [
+    "insidertracking/63347"
+   ],
+   "summary": "EU의 러시아 에너지 퇴출 계획 REPowerEU에 3,000억 유로를 배정했으나 실제 쓴 돈은 600억 유로 미만",
+   "why": "러시아 가스 대체 투자가 계획에 못 미침",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "08-13",
+   "ids": [
+    "Trillion_labs/7458"
+   ],
+   "summary": "로이터 칼럼: 유럽 재생에너지 확대가 가스 수요 감소로 이어지고 있다",
+   "why": "유럽 가스 수요의 구조적 감소 논리",
+   "status": "follow",
+   "dupOf": "gas flows 2026-10-02 [demand] EU 겨울 가스 수요 2022년보다 17% 감소",
+   "priority": "하",
+   "note": "본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "10-01",
+   "ids": [
+    "insidertracking/65054",
+    "insidertracking/65075",
+    "insidertracking/65080",
+    "insidertracking/65086",
+    "insidertracking/65098",
+    "Trillion_labs/9721",
+    "Trillion_labs/9839",
+    "HANAchina/69774",
+    "The_MariTimes/63473"
+   ],
+   "summary": "알래스카 LNG: 트럼프가 한국 서명 안 하면 \"더 많은 비용\" 압박, 로이터는 사업비가 멕시코만 유사 시설의 두 배 넘는다고 지적",
+   "why": "알래스카 LNG 상업성 의문이 커짐",
+   "status": "follow",
+   "dupOf": "gas flows 2026-09-30·10-01 알래스카 LNG, card bbg-01",
+   "priority": "중",
+   "note": "10월 1일 발표 자체는 dup"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "10-02",
+   "ids": [
+    "HANAchina/69766",
+    "Trillion_labs/9936"
+   ],
+   "summary": "JERA 수장: 호르무즈 통항 중단으로 카타르 공급이 단기 회복 어렵다; 현물가는 작년의 두 배, 발전소들은 더 싼 석탄으로 전환",
+   "why": "최대 구매자도 겨울 부족을 전제로 움직임",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "석탄 전환은 coal flows 10-02 [power]와 같은 흐름"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "10-02",
+   "ids": [
+    "Trillion_labs/9928"
+   ],
+   "summary": "벤처글로벌과 코노코필립스가 20년 LNG 판매·구매 계약 발표",
+   "why": "미국 액화 장기계약 러시 지속",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "물량 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "10-01",
+   "ids": [
+    "Trillion_labs/9818",
+    "Trillion_labs/9819"
+   ],
+   "summary": "시리아 다마스쿠스 인근 발전소 가스관 폭발로 발전소 3곳 정지; 아랍가스파이프라인 시리아 구간 186km(초기 1,100만㎥) 20년 만에 건설",
+   "why": "참고: 중동 역내 가스관 재연결",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "1,100만㎥의 단위 기간 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "10-01",
+   "ids": [
+    "HANAchina/69722"
+   ],
+   "summary": "일본이 대형 가스 거래사(JERA)를 활용해 1,400억 달러 AI 데이터센터 투자 추진(FT 인용 중국 언론)",
+   "why": "LNG 구매자가 데이터센터 전력 공급자로 변신",
+   "status": "deferred",
+   "dupOf": "card JERA·델·RHAELM 지바 데이터센터(10-01)와 연결",
+   "priority": "중",
+   "note": "deferred insidertracking/65138(FT 원문 확인 못 함)과 같은 사건; 그 id는 내 목록에 없음"
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "10-02",
+   "ids": [
+    "Trillion_labs/9911",
+    "insidertracking/65243"
+   ],
+   "summary": "미군이 사우디 석유시설과 카타르 가스시설에 패트리어트 포대를 1개씩 추가 배치(악시오스)",
+   "why": "카타르 LNG 설비 추가 피격 위험에 대비",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "regas",
+   "date": "08-16",
+   "ids": [],
+   "summary": "IEA 비롤의 유럽 가스 재고 경고(The_MariTimes/62346)",
+   "why": "유럽 저장 부족 경고 보강",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "하",
+   "note": "이월 후보 The_MariTimes/62346은 내 목록에 없음, 본문 확인 필요"
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "08-06",
+   "ids": [
+    "PipeBeom/5882",
+    "PipeBeom/5926",
+    "PipeBeom/6038",
+    "The_MariTimes/62435"
+   ],
+   "summary": "이란·오만이 호르무즈 통과 항로를 양국 쪽으로 나누는 임시 통로에 합의 추진; 카타르도 이란과 기뢰 공동 제거·임시 항로 논의",
+   "why": "카타르 LNG 통과 재개(9월)의 전제",
+   "status": "deferred",
+   "dupOf": "",
+   "priority": "하",
+   "note": "이월 후보 The_MariTimes/62354와 같은 사건(그 id는 내 목록에 없음)"
+  },
+  {
+   "industry": "gas",
+   "node": "midstream",
+   "date": "07-20",
+   "ids": [
+    "Onionfarmer/17255",
+    "Onionfarmer/17256",
+    "Onionfarmer/17302",
+    "insidertracking/58702"
+   ],
+   "summary": "오라클 프로젝트 주피터 가스관 경로가 뉴멕시코 주 토지 통과를 두 번째 거부당함",
+   "why": "데이터센터 가스관 인허가 병목",
+   "status": "dup",
+   "dupOf": "card tg-Trillion_labs-7626·gas flows 09-25",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "demand",
+   "date": "09-08",
+   "ids": [
+    "Onionfarmer/17836",
+    "insidertracking/63340",
+    "TNBfolio/71209",
+    "Trillion_labs/8950",
+    "HANAchina/69241"
+   ],
+   "summary": "한미가 텍사스 엔시날 6.3GW 가스발전(약 223억 달러) 등 대미 에너지 투자 논의",
+   "why": "대미투자 1호 가스발전",
+   "status": "dup",
+   "dupOf": "old_items 9-22 엔시날 6.3GW·card tg-TNBfolio-71074",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "liquefaction",
+   "date": "09-18",
+   "ids": [
+    "Trillion_labs/9090",
+    "Trillion_labs/9126",
+    "Onionfarmer/17920",
+    "Trillion_labs/9175",
+    "Trillion_labs/9176",
+    "Onionfarmer/17928",
+    "Trillion_labs/8812",
+    "Trillion_labs/9556",
+    "Trillion_labs/9474",
+    "w_compass/7148"
+   ],
+   "summary": "이미 반영된 가스 사건 묶음: LNG캐나다 2단계, 브라우즈 지분, 카타르 복구 3년·불가항력 연장 등",
+   "why": "이미 반영된 사건들",
+   "status": "dup",
+   "dupOf": "gas flows 9-20~10-01, cards bbg4-10·bbg4-01·bbg-0920, old_items 9-27·9-28",
+   "priority": "하",
+   "note": "여러 사건을 한 줄로 묶은 중복 목록; 오사카가스 브라우즈·하나증권 보고서·파키스탄 카타르 화물·카타르 증설 지연·차이나가스 계약·뉴저지 벌금·인허가 합의 포함"
+  },
+  {
+   "industry": "gas",
+   "node": "trade",
+   "date": "08-26",
+   "ids": [
+    "Trillion_labs/7942"
+   ],
+   "summary": "모리슨 전 호주 총리, 가스 비축 제도가 일본과의 신뢰를 해칠 수 있다고 경고",
+   "why": "호주 내수 의무 논쟁",
+   "status": "dup",
+   "dupOf": "card bbg-0910-aus-gas-reservation",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "gas",
+   "node": "shipping",
+   "date": "08-07",
+   "ids": [
+    "Trillion_labs/7298"
+   ],
+   "summary": "파나마운하가 엘니뇨로 네오파나막스 흘수를 8월 26일 48피트, 9월 3일 47.5피트로 낮춰 LNG선 적재 제한",
+   "why": "LNG 수송 비용 증가",
+   "status": "follow",
+   "dupOf": "card tg-PipeBeom-6197(파나마 통과 36→32척)",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "thermal",
+   "date": "07-08",
+   "ids": [
+    "HANAchina/65007"
+   ],
+   "summary": "중신증권: 석탄 업종 새 반등 국면, 추적 상장사 2분기 순이익 전분기 대비 약 +31%·상반기 +19%, 원료탄·무연탄 업체 증가율이 더 큼",
+   "why": "석탄 생산사 실적이 가격을 따라 개선되기 시작",
+   "status": "new",
+   "dupOf": "",
+   "priority": "상",
+   "note": "사이클 다음 국면 조건(생산사 실적 개선)과 연결"
+  },
+  {
+   "industry": "coal",
+   "node": "policy",
+   "date": "07-13",
+   "ids": [
+    "Trillion_labs/5548",
+    "HANAchina/66496"
+   ],
+   "summary": "중국이 300MW 미만 석탄발전 퇴출·600MW급 초초임계 개조 추진, 15·5 계획은 석탄화력 \"개조 가능한 건 모두 개조\"",
+   "why": "중국 석탄발전은 없애기보다 효율 개조로 유지",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "power",
+   "date": "07-07",
+   "ids": [
+    "insidertracking/57552"
+   ],
+   "summary": "미국 5월 태양광 발전 비중 12.8%가 석탄(12.2%)을 처음 넘어섬",
+   "why": "미국 석탄발전의 구조적 감소",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "power",
+   "date": "07-24",
+   "ids": [
+    "HANAchina/65876"
+   ],
+   "summary": "중국 풍력·태양광 급증에도 전력망 병목으로 석탄 의존 장기화 우려",
+   "why": "재생에너지 증설이 석탄 수요를 곧바로 줄이지 못함",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": "본문 확인 필요(링크만)"
+  },
+  {
+   "industry": "coal",
+   "node": "logistics",
+   "date": "08-12",
+   "ids": [
+    "The_MariTimes/61372",
+    "TNBfolio/70634",
+    "insidertracking/60298",
+    "Trillion_labs/7398",
+    "Trillion_labs/7400",
+    "Trillion_labs/7407",
+    "Trillion_labs/9384"
+   ],
+   "summary": "라인강 수위 사상 최저로 독일 제철소가 로테르담→제철소 석탄을 철도로 옮김; 9월 25일 카우프 수위 4cm로 1880년 이후 최저",
+   "why": "유럽 석탄 내륙 운송 병목",
+   "status": "follow",
+   "dupOf": "old_items 9-28 라인강 수위 사상 최저",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "power",
+   "date": "08-14",
+   "ids": [
+    "The_MariTimes/62090"
+   ],
+   "summary": "인도가 급증하는 전력 수요에 10년 만에 가장 많은 석탄발전 설비를 늘림",
+   "why": "인도 석탄발전 증설 국면",
+   "status": "follow",
+   "dupOf": "coal flows 2026-09-29 [power] 인도 224→315GW",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "thermal",
+   "date": "09-04",
+   "ids": [
+    "HANAchina/68329"
+   ],
+   "summary": "화타이증권: 8월 27일 광산안전감찰국의 국유 탄광 안전 강화 의견으로 중기 공급 탄력성이 더 떨어져 가격 레벨업 지속",
+   "why": "중국 공급 제약이 제도화되는 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "9월 중순 안정 공급 통지(coal flows 10-01)와 상반됨"
+  },
+  {
+   "industry": "coal",
+   "node": "met",
+   "date": "09-07",
+   "ids": [
+    "Trillion_labs/8441",
+    "HANAchina/68533",
+    "HANAchina/68475"
+   ],
+   "summary": "중국 코크스용 석탄 수입이 수년 만의 최고; 원료탄 공급 긴축으로 제철 원가가 올라 철광석 100달러 회복·철근·열연 수개월 최고",
+   "why": "원료탄 강세가 철강 원료 전반을 끌어올림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "수입량 수치 본문 확인 필요"
+  },
+  {
+   "industry": "coal",
+   "node": "logistics",
+   "date": "09-04",
+   "ids": [
+    "The_MariTimes/62629",
+    "Trillion_labs/8579",
+    "Trillion_labs/8980"
+   ],
+   "summary": "케이프 운임선도 하루 5만 달러 돌파(BCI +20%), 다만 중국 8월 조강 -3.7%로 제철소 마진 약화",
+   "why": "벌크 운임 강세와 철강 수요 약세가 엇갈림",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": "철광석 수입 +5.4%(Trillion_labs/8980)"
+  },
+  {
+   "industry": "coal",
+   "node": "steel",
+   "date": "09-15",
+   "ids": [
+    "HANAchina/68930",
+    "PipeBeom/6391"
+   ],
+   "summary": "중국철강공업협회가 업계 자율 감산·재고 축소 전면 시행 제안(공급 강세·수요 약세·저가·수익 악화)",
+   "why": "원료탄 수요를 누르는 철강 감산 신호",
+   "status": "new",
+   "dupOf": "",
+   "priority": "중",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "trade",
+   "date": "09-08",
+   "ids": [
+    "The_MariTimes/62757"
+   ],
+   "summary": "뉴캐슬 석탄 선도곡선은 올겨울까지 콘탱고, 그 뒤로는 백워데이션",
+   "why": "시장은 겨울 수요 뒤 가격 하락을 예상",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "policy",
+   "date": "09-11",
+   "ids": [
+    "The_MariTimes/62879"
+   ],
+   "summary": "폴란드·이탈리아 등 10개국이 EU 탄소배출권 제도가 에너지 비용을 올린다며 개혁 요구",
+   "why": "참고: 탄소가격 완화 압력은 석탄발전에 유리",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "steel",
+   "date": "09-21",
+   "ids": [
+    "Trillion_labs/9138"
+   ],
+   "summary": "러시아 미사일 공격으로 우크라이나에 남은 대형 제철소 3곳이 파괴돼 철강 산업 사실상 붕괴(메틴베스트)",
+   "why": "참고: 지역 원료탄 수요 소멸",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "policy",
+   "date": "07-03",
+   "ids": [
+    "PipeBeom/5330"
+   ],
+   "summary": "미 에너지부가 석탄·석탄 기반 원료에서 핵심광물을 회수하는 5개 프로젝트에 7,500만 달러 지원",
+   "why": "참고: 석탄의 비연료 활용 정책",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "steel",
+   "date": "10-04",
+   "ids": [
+    "HANAchina/69804"
+   ],
+   "summary": "대만 철강 성수기 진입, 철광석·원료탄 가격 고수준 유지와 데이터센터 철골 수요로 4분기 회복 기대",
+   "why": "원료탄 고가 지속 확인",
+   "status": "new",
+   "dupOf": "",
+   "priority": "하",
+   "note": ""
+  },
+  {
+   "industry": "coal",
+   "node": "trade",
+   "date": "10-02",
+   "ids": [
+    "Trillion_labs/9904"
+   ],
+   "summary": "중국 발전용 석탄 3년 만의 최고·11주 연속 상승, 리처즈베이 석탄도 연중 최고 부근 마감",
+   "why": "아시아 열탄 강세 지속",
+   "status": "deferred",
+   "dupOf": "coal flows 2026-09-28 [trade] 친황다오 986위안",
+   "priority": "하",
+   "note": "pf-bbg-011과 겹친다는 이월 기록; 리처즈베이는 새 내용"
+  },
+  {
+   "industry": "coal",
+   "node": "met",
+   "date": "08-31",
+   "ids": [
+    "The_MariTimes/62473",
+    "The_MariTimes/62601",
+    "The_MariTimes/62961",
+    "HANAchina/68717",
+    "The_MariTimes/62880",
+    "Trillion_labs/9452"
+   ],
+   "summary": "중국 점결탄·철광석 선물 동반 상승(주택 부양), IEA 석탄 수요 사상 최대, 인도 채굴 능력 2배·2035년 석탄 절반",
+   "why": "이미 반영된 사건",
+   "status": "dup",
+   "dupOf": "coal flows 8-13·9-29·10-02, card bbg-0910-iea-coal",
+   "priority": "하",
+   "note": ""
+  }
+ ]
+}

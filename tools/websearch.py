@@ -5,8 +5,11 @@
   기본    : 빙 뉴스 RSS — 날짜, 제목, 기사 원래 주소, 요약 160자 (주소를 WebFetch/curl로 바로 열 수 있음)
   --gnews : 구글 뉴스 RSS — 날짜, 매체, 제목 (링크는 구글 뉴스 경유라 열기 어려움, 보도 존재·제목 확인용)
   --web   : 빙 일반 검색 — 제목, 주소, 요약 (1차 자료·기관 페이지 찾기용)
+  python3 tools/websearch.py --fetch <주소> [--grep 단어1,단어2] [--n 글자수]
+          : 기사 본문 텍스트만 뽑아 출력(기본 앞 3000자). --grep을 주면 그 단어 주변 문장만 출력
 """
-import sys, re, html, subprocess, urllib.parse, base64
+import sys, re, html, subprocess, urllib.parse, base64, signal
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # head 등으로 잘라 볼 때 오류 없이 끝내기
 
 UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 
@@ -58,8 +61,27 @@ def bing_web(q, n, lang):
         out.append(f"{clean(a.group(2))} | {u} | {clean(p.group(1))[:160] if p else ''}")
     return out
 
+def fetch(url, grep, n):
+    x = get(url)
+    x = re.sub(r'(?is)<(script|style|noscript|svg|header|footer|nav)[^>]*>.*?</\1>', ' ', x)
+    x = re.sub(r'(?i)<br\s*/?>|</p>|</h\d>|</li>', ' \n ', x)
+    t = html.unescape(re.sub(r'<[^>]+>', ' ', x))
+    t = re.sub(r'[ \t\r\f\v]+', ' ', t)
+    t = re.sub(r'\s*\n\s*', '\n', t).strip()
+    if not grep:
+        return [t[:n]]
+    sents = [s_ for s_ in re.split(r'\n|(?<=[.!?다])\s+', t) if len(s_) > 20]
+    ws = [w.lower() for w in grep.split(',') if w]
+    return [s_[:400] for s_ in sents if any(w in s_.lower() for w in ws)][:30]
+
 if __name__ == '__main__':
     args = sys.argv[1:]
+    if args and args[0] == '--fetch':
+        g = args[args.index('--grep') + 1] if '--grep' in args else ''
+        n = int(args[args.index('--n') + 1]) if '--n' in args else 3000
+        for line in fetch(args[1], g, n):
+            print('-', line)
+        sys.exit()
     q = args[0]
     n = int(args[args.index('--n') + 1]) if '--n' in args else 8
     lang = args[args.index('--lang') + 1] if '--lang' in args else 'en'

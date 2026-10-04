@@ -1,0 +1,69 @@
+{
+ "key": "tg-TNBfolio-70713",
+ "channel": "TNBfolio",
+ "published": "2026-07-23T12:59:00+09:00",
+ "url": "https://t.me/TNBfolio/70713",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "headline": "{{인텔·AMD}}, 가격 급등 속 {{중국 서버 고객과 CPU 장기계약}} — 대부분 {{1년 물량 고정}}, 일부 {{2년 이상}}, 중국 서버 CPU 값은 {{올해 40% 넘게}} 올라",
+ "facts": [
+  "무엇이: 로이터에 따르면 {{인텔·AMD}}가 {{중국 서버 고객사}}와 {{데이터센터용 CPU 장기 구매 약정}}을 맺고 있습니다. {{물량은 고정}}하되 {{가격은 고정하지 않는}} 방식이고, 대부분 {{약 1년}}이며 일부와는 {{2년 이상}}도 논의했습니다 [사실]",
+  "가격: 중국 내 {{서버 CPU 가격}}은 일부 제품이 {{전월 대비 10% 넘게}}, {{연초 대비 40% 넘게}} 올랐습니다 [사실]",
+  "왜: {{AI 데이터센터}}는 GPU뿐 아니라 {{서버 운영·스토리지·네트워크·추론}}에 많은 CPU를 쓰고, {{에이전트형 AI}}도 CPU 작업을 늘립니다. 그래서 {{부족}}이 {{메모리·네트워크·CPU}}로 번져 공급사의 {{협상력}}이 커졌습니다 [사실]",
+  "중국: 채널(서울경제)은 중국이 {{미국 GPU 수출 규제}}를 {{대량의 CPU로 우회}}해 왔기 때문에 {{CPU 값 상승}}에 특히 {{취약하다}}고 전했습니다 [사실]"
+ ],
+ "tags": [
+  {
+   "s": 0,
+   "t": "병목 이동 — {{AI 부족}}이 {{GPU·메모리}}에서 {{범용 서버 CPU}}로 옮겨 가, {{공급사가 장기 약정}}을 요구하는 단계가 됐습니다 [사실]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "{{현재 매크로 판정 ②}}(과열·긴축)와 {{같습니다}}: {{부품 전반의 가격 상승}}과 {{장기계약 확산}}은 {{AI 투자 과열}}과 {{반도체발 물가 압력}}을 보여 줍니다 [귀납]"
+  }
+ ],
+ "incentive": "{{인텔·AMD}}는 {{수요가 강할 때}} {{물량 약정}}을 받아 {{향후 수요 둔화}}에 대비하고, {{중국 고객}}은 {{공급 확보}}를 위해 이를 받아들입니다 [유추]",
+ "check": "칼리지타임스·더스타(로이터 전재)·테크노드 보도로 {{장기 약정 조건}}, {{1~2년 이상}}, {{월 10%·연초 대비 40% 상승}}을 {{확인}}했습니다. {{로이터 원문}}은 열지 못했습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-07-23",
+   "u": "https://t.me/TNBfolio/70713"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-23",
+   "u": "https://t.me/insidertracking/59021"
+  },
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-23",
+   "u": "https://t.me/The_MariTimes/61609"
+  },
+  {
+   "o": "칼리지타임스(로이터 전재)",
+   "d": "2026-07-23",
+   "u": "https://www.khaleejtimes.com/business/tech/intel-amd-sign-long-term-server-cpu-deals-with-chinese-clients-as-prices-surge-sources-say"
+  },
+  {
+   "o": "더스타",
+   "d": "2026-07-24",
+   "u": "https://www.thestar.com.my/business/business-news/2026/07/24/intel-amd-sign-server-cpu-deals-with-chinese-firms"
+  },
+  {
+   "o": "테크노드",
+   "d": "2026-07-24",
+   "u": "https://technode.com/2026/07/24/intel-and-amd-sign-longer-term-server-cpu-deals-with-chinese-customers-as-prices-rise/"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

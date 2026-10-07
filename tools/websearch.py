@@ -1,7 +1,7 @@
 """웹 검색 대체 도구 — WebSearch 세션 한도(200회)에 걸렸을 때 Bash로 쓰는 검색.
 
 사용:
-  python3 tools/websearch.py "검색어" [--gnews | --web] [--n 8] [--lang ko|en]
+  python3 tools/websearch.py "검색어" [--gnews | --web] [--n 8] [--lang ko|ja|en]
   기본    : 빙 뉴스 RSS — 날짜, 제목, 기사 원래 주소, 요약 160자 (주소를 WebFetch/curl로 바로 열 수 있음)
   --gnews : 구글 뉴스 RSS — 날짜, 매체, 제목 (링크는 구글 뉴스 경유라 열기 어려움, 보도 존재·제목 확인용)
   --web   : 빙 일반 검색 — 제목, 주소, 요약 (1차 자료·기관 페이지 찾기용)
@@ -26,7 +26,7 @@ def tag(it, name):
     return m.group(1) if m else ''
 
 def bing_news(q, n, lang):
-    mkt = 'ko-KR' if lang == 'ko' else 'en-US'
+    mkt = {'ko': 'ko-KR', 'ja': 'ja-JP'}.get(lang, 'en-US')
     x = get(f'https://www.bing.com/news/search?q={urllib.parse.quote(q)}&format=rss&setmkt={mkt}&count={n}')
     out = []
     for it in re.findall(r'<item>(.*?)</item>', x, re.S)[:n]:
@@ -37,7 +37,7 @@ def bing_news(q, n, lang):
     return out
 
 def gnews(q, n, lang):
-    hl, gl, ceid = ('ko', 'KR', 'KR:ko') if lang == 'ko' else ('en-US', 'US', 'US:en')
+    hl, gl, ceid = {'ko': ('ko', 'KR', 'KR:ko'), 'ja': ('ja', 'JP', 'JP:ja')}.get(lang, ('en-US', 'US', 'US:en'))
     x = get(f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl={hl}&gl={gl}&ceid={ceid}')
     out = []
     for it in re.findall(r'<item>(.*?)</item>', x, re.S)[:n]:
@@ -45,7 +45,7 @@ def gnews(q, n, lang):
     return out
 
 def bing_web(q, n, lang):
-    mkt = 'ko-KR' if lang == 'ko' else 'en-US'
+    mkt = {'ko': 'ko-KR', 'ja': 'ja-JP'}.get(lang, 'en-US')
     x = get(f'https://www.bing.com/search?q={urllib.parse.quote(q)}&setmkt={mkt}&count={n}')
     out = []
     for b in re.findall(r'<li class="b_algo"(.*?)</li>', x, re.S)[:n]:

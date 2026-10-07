@@ -1,0 +1,714 @@
+<title>다운턴 데스크 개편 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+@font-face{font-family:"Pretendard Variable";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
+/* Layout: 기존 '다운턴 뉴스 선별 데스크'와 같은 토스 계열 제품 화면 — 흰 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑.
+   위에서 아래로 단계가 실제 순서대로 이어진다: 한줄 목록 → 자세한 정리 → 산업 구조 → 뒤집어 보기 → 후보 기업. 항상 밝은 테마(사용자 결정). */
+:root{
+  --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
+  --ink:#191F28; --strong:#333D4B; --body:#4E5968; --muted:#6B7684; --faint:#8B95A1;
+  --line:#E5E8EB; --line-soft:#F2F4F6; --line-strong:#D1D6DB;
+  --accent:#3182F6; --accent-press:#1065CC; --accent-ink:#FFFFFF; --accent-soft:#E8F3FF; --accent-strong:#1B64DA; --accent-hover:#2272EB; --accent-ring:rgba(49,130,246,.24);
+  --warn:#FF8800; --warn-soft:#FFF3E5; --warn-strong:#B85E00;
+  --good-soft:#E8F7EE; --good-strong:#0E7A3E;
+  --font-body:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --r-xs:4px; --r-sm:8px; --r:12px; --r-lg:16px; --r-xl:24px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--body);font-family:var(--font-body);font-size:15px;line-height:1.6;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word;margin:0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:var(--r-sm)}
+h1,h2,h3,h4{color:var(--ink);margin:0;text-wrap:balance;letter-spacing:-.015em}
+p{margin:0}
+ul,ol{margin:0;padding:0}
+.wrap{max-width:880px;margin:0 auto;padding-inline:20px;padding-block:40px 120px}
+@media (max-width:480px){.wrap{padding-inline:16px;padding-block:28px 140px}}
+
+/* masthead */
+.mast{display:grid;gap:12px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:13px;font-weight:600;color:var(--accent-strong);letter-spacing:.01em}
+.mast h1{font-size:30px;line-height:1.3;font-weight:700;letter-spacing:-.02em}
+.mast .lede{color:var(--body);max-width:62ch}
+.note{font-size:13px;color:var(--muted)}
+.steps{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px;list-style:none}
+.steps a{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--strong);font-size:13px;font-weight:600}
+.steps a:hover{background:var(--card-strong);text-decoration:none}
+.steps b{font-variant-numeric:tabular-nums;color:var(--accent-strong);font-weight:700}
+
+/* section shells */
+section{padding-top:40px;scroll-margin-top:16px}
+.sh{display:grid;gap:6px;margin-bottom:18px}
+.tag{font-size:12px;font-weight:700;color:var(--accent-strong);letter-spacing:.02em}
+.sh h2{font-size:22px;line-height:1.35;font-weight:700}
+.sh p{color:var(--muted);font-size:14px}
+h3{font-size:17px;line-height:1.45;font-weight:700}
+h4{font-size:15px;line-height:1.5;font-weight:700;color:var(--strong)}
+
+/* news list — step 0·1·2 */
+.news{list-style:none;display:grid;border-top:1px solid var(--line)}
+.item{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:start;padding:18px 4px;border-bottom:1px solid var(--line)}
+.ck{display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 6px;border:1px solid var(--line-strong);border-radius:999px;font-size:13px;font-weight:600;color:var(--strong);cursor:pointer;user-select:none;background:var(--bg);white-space:nowrap}
+.ck input{width:18px;height:18px;margin:0;accent-color:var(--accent);cursor:pointer}
+.ck:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-strong)}
+.meta{font-size:12.5px;color:var(--faint);display:flex;flex-wrap:wrap;gap:4px 10px}
+.meta .ind{color:var(--accent-strong);font-weight:600}
+.ttl{font-size:16.5px;line-height:1.45;font-weight:700;color:var(--ink);margin-top:4px}
+.one{margin-top:6px;color:var(--strong);font-size:15px;line-height:1.65}
+.one::before{content:"한줄";display:inline-block;margin-right:8px;padding:0 6px;border-radius:var(--r-xs);background:var(--card);color:var(--muted);font-size:11.5px;font-weight:700;line-height:20px;vertical-align:1px}
+.links{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px}
+.read{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.read:hover{background:var(--soft)}
+.read[aria-pressed="true"]{background:var(--card);border-color:var(--card);color:var(--faint)}
+.item.is-read .ttl,.item.is-read .one{color:var(--faint)}
+.item.is-read .one::before{background:var(--line-soft)}
+@media (max-width:560px){
+  .item{grid-template-columns:minmax(0,1fr);gap:10px}
+  .item .ctrl{display:flex;gap:8px;align-items:center;order:2}
+  .item .body{order:1}
+}
+@media (min-width:561px){.item .ctrl{display:contents}}
+
+/* sticky request bar */
+.reqbar{position:fixed;left:0;right:0;bottom:0;z-index:5;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.96);border-top:1px solid var(--line);backdrop-filter:saturate(1.4) blur(8px)}
+.reqbar .in{max-width:880px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.reqbar .cnt{font-size:14px;color:var(--strong)}
+.reqbar .cnt b{color:var(--accent-strong);font-variant-numeric:tabular-nums}
+.btn{appearance:none;border:0;border-radius:var(--r);padding:10px 16px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn:hover{background:var(--accent-hover)}
+.btn:active{background:var(--accent-press)}
+.btn[disabled]{background:var(--card-strong);color:var(--faint);cursor:not-allowed}
+.btn.ghost{background:var(--card);color:var(--strong)}
+.btn.ghost:hover{background:var(--card-strong)}
+.reqmsg{font-size:13px;color:var(--good-strong);min-height:1em}
+.reqtext{width:100%;min-height:72px;margin-top:6px;padding:10px;border:1px solid var(--line-strong);border-radius:var(--r-sm);font:inherit;font-size:13px;color:var(--strong)}
+
+/* stage panels */
+.panel{background:var(--soft);border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;display:grid;gap:22px;min-width:0}
+@media (max-width:480px){.panel{padding:18px}}
+.block{display:grid;gap:10px;min-width:0}
+.lead{font-size:16.5px;line-height:1.65;color:var(--ink);font-weight:600}
+.pts{list-style:none;display:grid;gap:10px}
+.pts li{position:relative;padding-left:16px;line-height:1.7}
+.pts li::before{content:"";position:absolute;left:2px;top:.72em;width:5px;height:5px;border-radius:50%;background:var(--line-strong)}
+ol.num{list-style:none;counter-reset:n;display:grid;gap:12px}
+ol.num>li{counter-increment:n;position:relative;padding-left:30px;line-height:1.7}
+ol.num>li::before{content:counter(n);position:absolute;left:0;top:1px;width:20px;height:20px;border-radius:50%;background:var(--card-strong);color:var(--strong);font-size:12px;font-weight:700;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+
+/* evidence labels */
+.lb{display:inline-block;margin-left:4px;padding:0 6px;border-radius:var(--r-xs);font-size:11px;font-weight:700;line-height:18px;vertical-align:1px;white-space:nowrap}
+.lb.f{background:var(--card-strong);color:var(--strong)}
+.lb.p{background:var(--accent-soft);color:var(--accent-strong)}
+.lb.a{background:#EEF0FF;color:#4450B8}
+.lb.i{background:var(--warn-soft);color:var(--warn-strong)}
+.lb.u{background:transparent;color:var(--muted);box-shadow:inset 0 0 0 1px var(--line-strong)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;color:var(--muted);align-items:center}
+.legend .lb{margin-left:0;margin-right:2px}
+
+/* mechanism chain */
+.chain{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;font-size:13.5px}
+.chain span{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm);padding:6px 10px;color:var(--strong)}
+.chain i{font-style:normal;color:var(--faint);align-self:center}
+
+/* value chain */
+.vc{display:grid;grid-template-columns:minmax(0,1.25fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:stretch}
+.vc .col{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.vc .col.here{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-ring)}
+.vc .arrow{align-self:center;color:var(--faint);font-size:18px}
+.vc h4{font-size:13px;color:var(--muted);font-weight:700}
+.vc ul{list-style:none;display:grid;gap:6px;font-size:13.5px;line-height:1.5}
+.vc li b{color:var(--ink);font-weight:700}
+.here-tag{justify-self:start;font-size:11px;font-weight:700;color:var(--accent-ink);background:var(--accent);padding:1px 8px;border-radius:999px}
+@media (max-width:640px){.vc{grid-template-columns:minmax(0,1fr)}.vc .arrow{justify-self:center;transform:rotate(90deg)}}
+
+/* stage chips by segment */
+.seg{list-style:none;display:grid;gap:8px}
+.seg li{display:grid;grid-template-columns:minmax(0,9em) auto minmax(0,1fr);gap:10px;align-items:baseline;padding:10px 12px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm)}
+.seg .nm{font-weight:700;color:var(--ink);font-size:14px}
+.stage{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.stage.tight{background:var(--warn-soft);color:var(--warn-strong)}
+.stage.build{background:var(--accent-soft);color:var(--accent-strong)}
+.stage.turn{background:#FDECEC;color:#B42318}
+.seg .why{font-size:13.5px;color:var(--body);min-width:0}
+@media (max-width:560px){.seg li{grid-template-columns:minmax(0,1fr) auto}.seg .why{grid-column:1/-1}}
+
+/* hypotheses */
+.hyps{display:grid;gap:14px}
+.hyp{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:10px;min-width:0}
+.hyp .hd{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.hyp .hd .k{font-size:12px;font-weight:700;color:var(--muted)}
+.kv{display:grid;grid-template-columns:minmax(0,8.5em) minmax(0,1fr);gap:6px 14px;font-size:14px;line-height:1.65}
+.kv dt{color:var(--muted);font-weight:600}
+.kv dd{margin:0;color:var(--body);min-width:0}
+@media (max-width:560px){.kv{grid-template-columns:minmax(0,1fr)}.kv dt{margin-top:6px}}
+.verdict{display:grid;gap:10px}
+.verdict .v{padding:14px 16px;border-radius:var(--r);background:var(--bg);border:1px solid var(--line)}
+.verdict .v h4{margin-bottom:4px}
+.verdict .v.strong{border-left:4px solid var(--accent)}
+.verdict .v.swing{border-left:4px solid var(--warn)}
+
+/* companies */
+.co{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;display:grid;gap:14px;min-width:0}
+.co .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;align-items:baseline}
+.co .top h3{font-size:18px}
+.co .tk{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.co .px{font-size:13px;color:var(--strong);font-variant-numeric:tabular-nums}
+.co .role{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--card);color:var(--strong)}
+.co .role.cond{background:var(--warn-soft);color:var(--warn-strong)}
+.co details{border-top:1px solid var(--line-soft);padding-top:10px}
+.co summary{cursor:pointer;font-weight:700;color:var(--ink);font-size:14.5px;list-style:none;display:flex;align-items:center;gap:8px}
+.co summary::-webkit-details-marker{display:none}
+.co summary::after{content:"";width:16px;height:16px;margin-left:auto;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7684' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E") center/16px no-repeat;transition:transform .15s}
+.co details[open] summary::after{transform:rotate(180deg)}
+.co details>div{margin-top:10px;display:grid;gap:10px}
+.series{display:grid;gap:4px;font-size:13.5px;font-variant-numeric:tabular-nums}
+.series div{display:grid;grid-template-columns:minmax(0,7.5em) minmax(0,1fr);gap:10px}
+.series dt,.series .l{color:var(--muted)}
+.series .r{color:var(--strong);min-width:0}
+.cmp{list-style:none;display:grid;gap:8px}
+.cmp li{display:grid;grid-template-columns:minmax(0,9.5em) minmax(0,1fr);gap:12px;padding:10px 12px;border-radius:var(--r-sm);background:var(--bg);border:1px solid var(--line);font-size:14px}
+.cmp .l{font-weight:700;color:var(--ink)}
+@media (max-width:560px){.cmp li,.series div{grid-template-columns:minmax(0,1fr)}}
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.pick{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:4px}
+.pick .k{font-size:12px;color:var(--muted);font-weight:700}
+.pick .n{font-size:17px;font-weight:700;color:var(--ink)}
+.pick p{font-size:13.5px}
+@media (max-width:640px){.picks{grid-template-columns:minmax(0,1fr)}}
+.big-ck{display:flex;gap:10px;align-items:flex-start;padding:14px 16px;border:1px dashed var(--line-strong);border-radius:var(--r);background:var(--bg);cursor:pointer}
+.big-ck input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--accent)}
+.big-ck:has(input:checked){border-style:solid;border-color:var(--accent);background:var(--accent-soft)}
+.big-ck b{color:var(--ink)}
+.src{list-style:none;display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.src a{word-break:break-all}
+.dim{color:var(--muted);font-size:13.5px}
+.callout{padding:12px 14px;border-radius:var(--r);background:var(--card);font-size:14px;color:var(--strong)}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display:grid;gap:10px;font-size:13px;color:var(--muted)}
+</style>
+
+<main class="wrap">
+  <header class="mast">
+    <p class="eyebrow">개편 시안 · 2026년 10월 7일 기준</p>
+    <h1>목록은 한 줄로, 깊이는 고른 뉴스에만</h1>
+    <p class="lede">10월 2~6일 뉴스 5건으로 만든 예시입니다. 목록에는 제목과 한줄 요약만 둡니다. 더 볼 뉴스에 체크하면 자세한 정리가 붙고, 그중 투자 인사이트까지 원하는 뉴스에 다시 체크하면 산업 구조·뒤집어 보기·후보 기업 분석이 붙습니다. 아래에는 '도시바 HDD 증설' 한 건을 끝 단계까지 펼쳐 두었습니다.</p>
+    <p class="note">실제 DB와 연결되지 않은 미리보기입니다. 체크와 읽음 표시는 이 브라우저에만 남습니다.</p>
+    <ol class="steps" aria-label="단계 바로가기">
+      <li><a href="#list"><b>0~2</b> 한줄 목록 · 체크 · 읽음</a></li>
+      <li><a href="#detail"><b>3</b> 자세한 정리</a></li>
+      <li><a href="#insight"><b>4</b> 산업 구조</a></li>
+      <li><a href="#flip"><b>5</b> 뒤집어 보기</a></li>
+      <li><a href="#picks"><b>5</b> 후보 기업</a></li>
+      <li><a href="#onepage"><b>6</b> 산업 한 페이지</a></li>
+    </ol>
+  </header>
+
+  <!-- ───────── 0·1·2단계: 한줄 목록 ───────── -->
+  <section id="list" aria-labelledby="list-h">
+    <div class="sh">
+      <p class="tag">0~2단계 · 오늘 들어온 뉴스</p>
+      <h2 id="list-h">제목과 한줄 요약만 보고 고르기</h2>
+      <p>번호는 붙이지 않습니다. 더 알고 싶은 뉴스는 '자세히'에 체크하고, 다 본 뉴스는 '읽음'을 누르세요.</p>
+    </div>
+    <ul class="news">
+      <li class="item" data-id="hdd">
+        <div class="ctrl"><label class="ck"><input type="checkbox" id="ck-hdd" data-id="hdd"><span>자세히</span></label></div>
+        <div class="body">
+          <p class="meta"><span class="ind">저장장치 · AI 투자</span><span>닛케이 보도</span><span>10월 2일</span></p>
+          <h3 class="ttl">도시바, AI 데이터센터용 HDD 생산능력 2배로…필리핀에 600억 엔 투자</h3>
+          <p class="one">도시바가 약 600억 엔(약 3억 8천만 달러)을 들여 필리핀 공장을 넓혀 2028년 3월까지 데이터센터용 HDD 생산능력을 2배로 늘리기로 하면서, 새 공장 없이 가격을 올려 온 씨게이트와 웨스턴디지털의 주가가 발표 당일 각각 10% 넘게 떨어졌다</p>
+          <p class="links"><a href="#detail">자세한 정리 예시 보기</a><a href="https://finance.yahoo.com/technology/ai/articles/toshiba-double-hard-disk-output-023335775.html" target="_blank" rel="noopener">원문(인베스팅닷컴)</a></p>
+        </div>
+        <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="hdd">읽음 표시</button></div>
+      </li>
+      <li class="item" data-id="tdk">
+        <div class="ctrl"><label class="ck"><input type="checkbox" id="ck-tdk" data-id="tdk"><span>자세히</span></label></div>
+        <div class="body">
+          <p class="meta"><span class="ind">저장장치 · 부품</span><span>블룸버그 보도</span><span>10월 6일</span></p>
+          <h3 class="ttl">씨게이트·도시바, TDK의 HDD 헤드 사업 인수 경쟁 보도…도시바는 "사실과 다르다"</h3>
+          <p class="one">HDD 3사 모두에 헤드를 공급하는 유일한 독립 업체 TDK가 헤드 사업 매각을 검토하고 씨게이트와 도시바가 수십억 달러 규모로 인수를 다툰다는 보도가 나오면서, 헤드를 TDK에 전부 의존하는 도시바의 증설 속도가 인수 결과에 달리게 됐다(도시바와 최대 주주는 보도 내용을 부인했다)</p>
+          <p class="links"><a href="https://www.trendforce.com/news/2026/10/06/news-seagate-toshiba-reportedly-vie-for-tdks-hdd-head-unit-a-key-independent-supply-source/" target="_blank" rel="noopener">TrendForce(블룸버그 인용)</a><a href="https://moneycheck.com/toshiba-refutes-claims-of-bidding-war-with-seagate-for-tdk-magnetic-head-unit/" target="_blank" rel="noopener">도시바 부인</a></p>
+        </div>
+        <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="tdk">읽음 표시</button></div>
+      </li>
+      <li class="item" data-id="g7">
+        <div class="ctrl"><label class="ck"><input type="checkbox" id="ck-g7" data-id="g7"><span>자세히</span></label></div>
+        <div class="body">
+          <p class="meta"><span class="ind">매크로 · 정유</span><span>G7 발표</span><span>10월 2일</span></p>
+          <h3 class="ttl">G7, 4개월간 원유·경유 비축분 1억 배럴 방출…트럼프는 경유 수출 금지 접어</h3>
+          <p class="one">트럼프 대통령의 경유 수출 금지 위협 끝에 G7이 원유·경유 비축분 1억 배럴을 4개월에 걸쳐 풀고 경유는 첫 20일에 앞당겨 내놓기로 하면서, 유럽은 미국산 경유가 끊길 위험을 덜었지만 이미 예고된 물량이 많아 유가 반응은 작았다</p>
+          <p class="links"><a href="https://oilprice.com/Energy/Crude-Oil/G7s-100-Million-Barrel-Release-Is-Mostly-Already-Priced-In.html" target="_blank" rel="noopener">OilPrice(스탠다드차타드 분석)</a></p>
+        </div>
+        <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="g7">읽음 표시</button></div>
+      </li>
+      <li class="item" data-id="vst">
+        <div class="ctrl"><label class="ck"><input type="checkbox" id="ck-vst" data-id="vst"><span>자세히</span></label></div>
+        <div class="body">
+          <p class="meta"><span class="ind">원전 · 전력</span><span>미 에너지부 발표</span><span>10월 5일</span></p>
+          <h3 class="ttl">미 에너지부, 비스트라 원전 3곳 출력 증강에 최대 42억 달러 조건부 대출</h3>
+          <p class="one">미국 에너지부가 비스트라의 오하이오·펜실베이니아 원전 3곳에 최대 42억 달러 조건부 대출을 약정하면서, 데이터센터 수요가 몰린 PJM 전력망에 433MW가 더해지고 약 4GW 기존 설비를 유지할 자금이 마련된다(아직 확정 대출이 아닌 약정 단계)</p>
+          <p class="links"><a href="https://finance.yahoo.com/energy/articles/doe-intends-loan-vistra-4-140002055.html" target="_blank" rel="noopener">Utility Dive</a><a href="https://www.powermag.com/vistra-in-line-for-doe-loan-package-to-uprate-nuclear-plants-in-ohio-and-pennsylvania/" target="_blank" rel="noopener">POWER</a></p>
+        </div>
+        <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="vst">읽음 표시</button></div>
+      </li>
+      <li class="item" data-id="jera">
+        <div class="ctrl"><label class="ck"><input type="checkbox" id="ck-jera" data-id="jera"><span>자세히</span></label></div>
+        <div class="body">
+          <p class="meta"><span class="ind">가스 · LNG</span><span>블룸버그TV 인터뷰</span><span>10월 2일</span></p>
+          <h3 class="ttl">세계 최대 LNG 구매자 JERA "카타르산 LNG 곧 돌아오지 않는다"</h3>
+          <p class="one">일본 JERA 회장이 호르무즈 봉쇄로 카타르산 LNG가 겨울 전에 돌아오기 어렵다고 밝히면서, 가스 저장률이 평년(86%)보다 낮은 71%인 유럽과 아시아 구매자가 남은 LNG를 두고 더 비싸게 경쟁할 전망이다</p>
+          <p class="links"><a href="https://oilprice.com/Latest-Energy-News/World-News/JERA-CEO-Warns-LNG-Prices-Have-Further-to-Climb.html" target="_blank" rel="noopener">OilPrice</a></p>
+        </div>
+        <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="jera">읽음 표시</button></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ───────── 3단계: 자세한 정리 ───────── -->
+  <section id="detail" aria-labelledby="detail-h">
+    <div class="sh">
+      <p class="tag">3단계 · '자세히'를 요청했을 때</p>
+      <h2 id="detail-h">도시바 HDD 증설, 자세한 정리</h2>
+      <p>원문이나 이전 기사를 읽지 않아도 전후 맥락이 이해되도록 씁니다. 1~2분 분량.</p>
+    </div>
+    <div class="panel">
+      <p class="legend"><span><span class="lb f">사실</span>보도·공시로 확인</span><span><span class="lb p">회사 발표</span>회사 계획·발언</span><span><span class="lb a">증권사</span>분석 기관 견해</span><span><span class="lb i">추론</span>제 판단</span><span><span class="lb u">미확인</span>원문 확인 못 함</span></p>
+
+      <div class="block">
+        <h3>1. 핵심 한 줄</h3>
+        <p class="lead">도시바가 5년 만의 대규모 HDD 투자로 생산능력을 2배로 늘리기로 하면서, 'HDD 3사 누구도 공장을 새로 짓지 않는다'는 공급 구조에 처음 균열이 생겼다. 다만 도시바는 기술이 한 세대가량 뒤처져 있고 핵심 부품을 외부에 의존해, 실제로 늘어나는 저장 용량은 '2배'라는 숫자보다 작을 가능성이 크다.</p>
+      </div>
+
+      <div class="block">
+        <h3>2. 배경 → 이번에 달라진 점</h3>
+        <h4>기존 상황</h4>
+        <ul class="pts">
+          <li>HDD를 만드는 회사는 씨게이트, 웨스턴디지털(WDC), 도시바 3곳뿐입니다. 저장 용량 기준으로 도시바 점유율은 10% 남짓(번스타인 계산 11.2%)이고, 나머지를 두 미국 회사가 나눠 갖습니다.<span class="lb f">사실</span></li>
+          <li>AI 데이터센터가 보관할 데이터가 늘고, 메모리(낸드) 부족으로 SSD가 HDD보다 용량당 약 20배 비싸지면서 데이터센터용 대용량 HDD(니어라인 HDD)로 수요가 몰렸습니다. 니어라인 HDD의 약 60%를 구글·아마존 같은 미국 대형 클라우드가 삽니다.<span class="lb f">사실</span></li>
+          <li>3사는 공장을 짓는 대신 디스크 한 장에 더 촘촘히 기록하는 기술로 용량을 늘려 왔습니다. 공급이 빠듯해지자 니어라인 HDD 계약가는 2026년 2분기에 전 분기보다 약 10% 올랐고, 씨게이트의 엑사바이트(EB, 100만 TB)당 가격은 1년 전보다 11% 올랐습니다. 씨게이트 매출총이익률(조정 기준)은 6월 분기 52.7%로 13분기 연속 올랐습니다.<span class="lb f">사실</span></li>
+          <li>씨게이트는 니어라인 생산능력을 2028년까지 대부분 고객에게 배정했다고 밝혔고, WDC도 2027년 공급 대부분을 장기계약(LTA, 가격과 물량을 미리 정한 계약)으로 묶었습니다.<span class="lb p">회사 발표</span></li>
+        </ul>
+        <h4>이번에 달라진 점</h4>
+        <ul class="pts">
+          <li>도시바가 약 600억 엔(약 3억 8천만 달러)을 필리핀 공장에 투자해 2027회계연도(2028년 3월 끝)까지 데이터센터용 HDD 생산능력을 2배로 늘립니다. 약 5년 만의 대규모 HDD 투자입니다.<span class="lb f">사실</span></li>
+          <li>새 라인은 대당 용량이 최대 40% 큰 제품을 만들고, 2030년 65TB급 양산과 그 뒤 100TB급을 목표로 합니다. 용량 기준 점유율을 중기적으로 30%까지 올리겠다는 계획도 함께 보도됐습니다.<span class="lb p">회사 계획(보도)</span></li>
+          <li>단계 구분: 투자 '결정·발표' 단계입니다. 필리핀 법인은 10월 1일 증설 라인의 첫 출하를 알렸지만, 이번 600억 엔 증설분의 착공·가동 일정은 확인하지 못했습니다.<span class="lb u">미확인</span></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>3. 영향과 작동 원리</h3>
+        <p>시장이 먼저 읽은 경로는 이렇습니다.<span class="lb i">추론</span></p>
+        <p class="chain"><span>도시바 증설</span><i>→</i><span>2027~2028년 HDD 공급 증가</span><i>→</i><span>씨게이트·WDC 가격 협상력 약화</span><i>→</i><span>이익률 둔화</span></p>
+        <p>이 경로대로 10월 2일 두 회사 주가는 각각 10.2% 떨어졌습니다.<span class="lb f">사실</span> 그러나 이 경로가 약해지는 조건이 세 가지 있습니다.</p>
+        <ol class="num">
+          <li>생산능력 2배가 점유율 2배는 아닙니다. 번스타인은 도시바가 엑사바이트 출하를 2배로 늘리고 두 경쟁사가 장기 계획대로 25%씩 늘리면 도시바 점유율이 11.2%에서 16.8%로 오른다고 계산했습니다. 보도된 30%보다 훨씬 낮습니다.<span class="lb a">증권사</span></li>
+          <li>장기계약이 가격을 묶고 있습니다. 두 회사 물량 대부분이 2027~2028년까지 계약돼 있어, 도시바 물량이 본격적으로 나오는 2028년 전에는 가격 영향이 작을 가능성이 큽니다.<span class="lb i">추론</span></li>
+          <li>기술과 부품이 속도를 정합니다. 모건스탠리는 도시바에 최첨단 용량 제품과 HAMR(열을 이용해 더 촘촘히 기록하는 차세대 방식)이 없다고 봤고, 도시바는 헤드를 TDK에서 전량 사 옵니다. 같은 공장에서 나오는 저장 용량이 경쟁사보다 적고, 헤드 확보가 증설 속도를 좌우합니다.<span class="lb a">증권사</span><span class="lb f">보도</span></li>
+        </ol>
+        <p>부품 쪽에서는 반대 방향의 경로가 생깁니다. 도시바가 늘리면 헤드(TDK), 기록매체(레조낙), 유리기판(호야) 주문이 늘고, 부품사들은 이미 증설 중입니다(레조낙 싱가포르 연 1억 6천만→2억 1천만 장, 호야 베트남에 500억 엔 새 공장, 2028년경 완공 목표).<span class="lb f">사실</span> 부품이 병목이면 이익이 조립 업체보다 부품 업체 쪽으로 갈 수 있습니다.<span class="lb i">추론</span></p>
+      </div>
+
+      <div class="block">
+        <h3>4. 앞으로 확인할 것</h3>
+        <ol class="num">
+          <li>씨게이트·WDC의 10월 하순 실적 발표(정확한 날짜는 확인 필요): 엑사바이트당 가격, 장기계약 범위, 설비투자 계획. 가격이 계속 오르고 설비투자가 매출의 5% 안팎(2026회계연도 씨게이트 4.7%, WDC 3.2%)에 머물면 '과잉 반응' 해석이 강해집니다. 가격 상승이 멈추거나 공장 증설 발표가 나오면 '공급 규율이 끝났다'는 해석이 강해집니다.</li>
+          <li>TDK 헤드 사업의 향방: 도시바가 가져가면 증설 계획이 현실성을 얻고, 씨게이트가 가져가면 도시바와 WDC의 헤드 조달이 불리해질 수 있습니다.<span class="lb i">추론</span></li>
+          <li>낸드 공급: 트렌드포스는 낸드 부족이 2027년 하반기에 완화된다고 봅니다. SSD 값이 내려가면 HDD로 몰린 수요 일부가 돌아갈 수 있습니다.<span class="lb p">전망</span></li>
+        </ol>
+      </div>
+
+      <div class="block">
+        <h4>출처와 날짜</h4>
+        <ul class="src">
+          <li>닛케이 보도(사건일 10월 2일, 일본 시간) — <a href="https://finance.yahoo.com/technology/ai/articles/toshiba-double-hard-disk-output-023335775.html" target="_blank" rel="noopener">인베스팅닷컴 전재</a>(발행 10월 1일 미국 서부시간), <a href="https://www.trendforce.com/news/2026/10/02/news-toshiba-to-double-ai-data-center-hdd-capacity-by-fy2027-with-380m-expansion-as-ai-storage-demand-surges" target="_blank" rel="noopener">TrendForce 10월 2일</a></li>
+          <li>번스타인·씨티·모건스탠리 견해 — <a href="https://finance.yahoo.com/markets/stocks/articles/wdc-stx-stocks-rebound-premarket-084952730.html" target="_blank" rel="noopener">Yahoo Finance 10월 5일</a></li>
+          <li>씨게이트 가격·이익률·장기계약 — <a href="https://finance.yahoo.com/markets/stocks/articles/seagate-gross-margin-hit-52-141744773.html" target="_blank" rel="noopener">Yahoo Finance(TIKR) 9월 17일</a></li>
+          <li>계약가·클라우드 비중·부품사 증설 — <a href="https://www.trendforce.com/news/2026/07/22/news-ai-data-center-demand-revives-hdd-demand-japanese-component-makers-tdk-hoya-resonac-expand-capacity" target="_blank" rel="noopener">TrendForce 7월 22일</a>, 호야 베트남 공장 — <a href="https://www.nikkei.com/article/DGXZQOUC304GT0Q6A430C2000000/" target="_blank" rel="noopener">닛케이 4월 30일</a></li>
+          <li>헤드 공급 구조 — <a href="https://www.trendforce.com/news/2026/10/06/news-seagate-toshiba-reportedly-vie-for-tdks-hdd-head-unit-a-key-independent-supply-source/" target="_blank" rel="noopener">TrendForce 10월 6일(블룸버그 인용)</a>, 낸드 전망 — <a href="https://www.trendforce.com/presscenter/news/20260721-13148.html" target="_blank" rel="noopener">TrendForce 7월 21일</a></li>
+          <li>함께 들어온 텔레그램 글: 하나증권 중국전략 69767, 트릴리온 9929, 미국 주식 인사이더 65212(같은 사건이라 하나로 합침). 주가는 Yahoo Finance 일별 종가.</li>
+        </ul>
+      </div>
+
+      <label class="big-ck" for="ck-insight"><input type="checkbox" id="ck-insight"><span><b>투자 인사이트도 받기</b><br><span class="dim">체크한 뉴스만 아래 4·5단계(산업 구조, 뒤집어 보기, 후보 기업)를 만듭니다. 웹에서 공시·실적·통계를 더 찾아야 해서 가장 오래 걸리는 단계입니다.</span></span></label>
+    </div>
+  </section>
+
+  <!-- ───────── 4단계: 산업 구조 ───────── -->
+  <section id="insight" aria-labelledby="insight-h">
+    <div class="sh">
+      <p class="tag">4단계 · 투자 인사이트 ① 산업 구조</p>
+      <h2 id="insight-h">이 변화는 밸류체인의 어디에서 일어났나</h2>
+      <p>뉴스만으로 판단하지 않고 공시·실적 발언·업계 통계를 더해 정리했습니다.</p>
+    </div>
+    <div class="panel">
+      <div class="block">
+        <h3>1. 변화가 일어난 위치</h3>
+        <div class="vc" role="group" aria-label="HDD 밸류체인">
+          <div class="col">
+            <h4>소재·부품</h4>
+            <ul>
+              <li><b>헤드</b> TDK(유일한 독립 공급사, 3사 모두에 공급). 씨게이트·WDC는 자체 생산하고 수요가 몰릴 때 TDK를 씀. 도시바는 전량 TDK</li>
+              <li><b>기록매체</b> 레조낙(세계 최대 공급사)</li>
+              <li><b>유리기판</b> 호야(유리기판 유일 공급사)</li>
+              <li><b>서스펜션 배선</b> 닛토덴코(점유율 90% 이상)</li>
+            </ul>
+          </div>
+          <span class="arrow" aria-hidden="true">→</span>
+          <div class="col here">
+            <span class="here-tag">이번 변화</span>
+            <h4>HDD 제조·조립</h4>
+            <ul>
+              <li><b>씨게이트</b> HAMR 방식 최대 44TB 출하</li>
+              <li><b>WDC</b> 40TB급 2026년 하반기 양산</li>
+              <li><b>도시바</b> 30~34TB, 생산능력 2배 계획</li>
+            </ul>
+          </div>
+          <span class="arrow" aria-hidden="true">→</span>
+          <div class="col">
+            <h4>최종 고객</h4>
+            <ul>
+              <li><b>미국 대형 클라우드</b> 니어라인 물량의 약 60%</li>
+              <li><b>그 밖의 고객</b> 기업 등(비중 미확인). 중국 PC 업체 수요도 공급을 빠듯하게 만든 요인으로 보도됨</li>
+            </ul>
+          </div>
+        </div>
+        <ul class="pts">
+          <li>누가 누구에게 파나: 부품사가 HDD 3사에 부품을, HDD 3사가 클라우드에 드라이브를 팝니다. 늘어나는 비용은 클라우드가 냅니다.<span class="lb f">사실</span></li>
+          <li>가격 결정력: 지금은 HDD 3사에 있습니다. 씨게이트 CFO는 "저장 비용이 클라우드 예산에서 작은 부분이라 가격을 올려도 받아들여진다"고 말했습니다.<span class="lb p">회사 발언</span> 부품 중에서는 유일 공급사가 있는 헤드(TDK)와 유리기판(호야)이 협상력이 강한 구간입니다.<span class="lb i">추론</span></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>2. 일시적인가, 구조적인가</h3>
+        <ul class="pts">
+          <li>수요: AI 데이터 보관 수요는 구조적으로 늘고 있습니다. 씨게이트는 일부 고객이 2029년 이후까지 수요 계획을 세운다고 밝혔습니다.<span class="lb p">회사 발표</span> 다만 낸드 부족이 만든 'SSD 대신 HDD' 수요는 2027년 하반기 낸드 부족이 풀리면 줄 수 있는 일시적 요인입니다.<span class="lb p">전망</span></li>
+          <li>공급능력: 이번이 변화 지점입니다. 3사 중 처음으로 '공장 증설'이 나왔고, 씨게이트·WDC는 아직 기술로만 용량을 늘립니다.<span class="lb f">사실</span></li>
+          <li>설비투자: 씨게이트 2026회계연도 5.7억 달러(매출의 4.7%, 전년의 2.1배), WDC 4.2억 달러(3.2%). 부품사는 거의 모두 증설 중입니다.<span class="lb f">사실</span></li>
+          <li>재고·가동률: 3사 생산능력이 2028년까지 대부분 배정돼 사실상 완판입니다. 업계 재고 수치는 확인하지 못했습니다.<span class="lb u">미확인</span></li>
+          <li>기술: 씨게이트가 HAMR로 앞서고 WDC가 뒤따르며, 도시바는 차세대 기술이 늦습니다.<span class="lb a">증권사</span></li>
+          <li>경쟁 구도: 3사 과점은 그대로지만, 경쟁의 축이 '공장'에서 '부품 확보'로 옮겨 가는 신호(TDK 헤드 매각설)가 겹쳤습니다.<span class="lb i">추론</span></li>
+        </ul>
+        <h4>구간별 국면</h4>
+        <ul class="seg">
+          <li><span class="nm">HDD 제조(3사)</span><span class="stage turn">공급 부족 → 증설 초입</span><span class="why">장기계약 2028년까지, 가격 상승 지속, 3사 중 첫 공장 증설</span></li>
+          <li><span class="nm">헤드</span><span class="stage tight">공급 부족(병목)</span><span class="why">독립 공급사가 TDK 하나, 도시바 전량 의존, 매각 경쟁 보도</span></li>
+          <li><span class="nm">기록매체·유리기판·배선</span><span class="stage build">증설</span><span class="why">레조낙 +31%, 호야 500억 엔, 닛토덴코 280억 엔(7월 기사는 430억 엔으로 기사마다 다름)</span></li>
+          <li><span class="nm">고객(클라우드)</span><span class="stage tight">물량 확보 경쟁</span><span class="why">가격 인상 수용, 2029년까지 수요 계획</span></li>
+        </ul>
+        <h4>발표된 능력과 실제 공급</h4>
+        <ul class="pts">
+          <li>도시바의 '2배'는 생산능력입니다. 기록 밀도가 낮아 엑사바이트로는 덜 늘고, 새 제품이 클라우드 검증(인증)을 통과하는 시간과 헤드 공급이 실제 속도를 늦춥니다. 번스타인·씨티·모건스탠리 모두 '2028년까지 부족 지속'으로 봅니다.<span class="lb a">증권사</span></li>
+          <li>새로 들어올 회사는 없습니다. 부족을 가장 빨리 줄일 수 있는 변수는 대체재인 SSD, 곧 낸드 공급입니다.<span class="lb i">추론</span></li>
+        </ul>
+        <h4>이해관계</h4>
+        <ul class="pts">
+          <li>도시바(2023년 JIP 컨소시엄 인수로 비상장): 점유율을 되찾아 회사 가치를 높일 유인이 있습니다.<span class="lb i">추론</span></li>
+          <li>씨게이트·WDC: 가격 유지가 이익이라 공장 대신 기술로 용량을 늘리는 쪽을 택해 왔습니다.<span class="lb p">회사 발언</span></li>
+          <li>클라우드: 공급처가 늘어나길 바라므로 도시바 증설을 반길 유인이 있습니다.<span class="lb i">추론</span></li>
+          <li>TDK: 이익률이 낮은 헤드 사업을 경쟁 입찰로 비싸게 팔 유인이 있습니다.<span class="lb f">보도</span></li>
+        </ul>
+        <p class="callout">판단: 공급 구조가 바뀌기 시작했다는 '초기 신호'는 맞지만, 공급 과잉으로 넘어간다는 증거는 아직 부족해 판단을 유보합니다. 갈림길은 씨게이트·WDC의 설비투자 비율과 엑사바이트당 가격입니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── 5단계: 뒤집어 보기 ───────── -->
+  <section id="flip" aria-labelledby="flip-h">
+    <div class="sh">
+      <p class="tag">5단계 · 투자 인사이트 ② 뒤집어 생각하기</p>
+      <h2 id="flip-h">같은 사실을 다르게 설명하는 가설 3개</h2>
+      <p>반대 의견을 억지로 만드는 것이 아니라, 시장이 놓칠 수 있는 인과관계를 찾습니다.</p>
+    </div>
+    <div class="panel">
+      <div class="block">
+        <h3>1. 확인된 사실과 통상적인 해석</h3>
+        <ul class="pts">
+          <li>사실: 도시바 600억 엔·생산능력 2배·2027회계연도(10월 2일 보도). 같은 날 씨게이트·WDC 각각 −10.2%. 10월 6일 블룸버그가 'TDK 헤드 사업을 두고 씨게이트·도시바 인수 경쟁'을 보도했고 도시바와 JIP는 내용을 부인. 그날 씨게이트 −9.2%, WDC −6.9%, TDK +5.3%.<span class="lb f">사실</span> 10월 6일 주가 움직임이 이 보도 때문인지는 확인하지 못했습니다. 일본 매체(시키호 온라인)는 TDK 상승 이유로 매각설을 들었습니다.</li>
+          <li>통상적 해석 두 갈래: 매도 쪽은 "HDD 가격을 떠받치던 '공급 규율'이 끝난다"(중국 매체 월스트리트견문 기사 제목, 텔레그램 전재). 증권사(번스타인·씨티·모건스탠리)는 "과잉 반응, 2028년까지 부족 지속".<span class="lb a">증권사</span></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>2. 대안 가설과 검증</h3>
+        <div class="hyps">
+          <article class="hyp">
+            <div class="hd"><span class="k">가설 1 · 인센티브·경쟁</span><h4>공급 규율 붕괴가 아니라 '뒤처진 회사의 점유율 되찾기'다</h4></div>
+            <dl class="kv">
+              <dt>핵심 주장·근거</dt><dd>기술이 뒤진 도시바가 대수로 점유율을 되찾으려는 것이고, 앞선 두 회사는 기록 밀도로 엑사바이트를 늘린다. 번스타인 계산으로 도시바 점유율은 11.2%→16.8%에 그치고, 두 회사 물량은 2027~2028년까지 계약돼 있다.</dd>
+              <dt>맞다면 보일 것</dt><dd>10월 실적에서 엑사바이트당 가격이 계속 오르고, 장기계약 범위가 넓어진다. 도시바 신제품의 클라우드 인증은 느리게 진행된다.</dd>
+              <dt>반증</dt><dd>씨게이트·WDC가 가격 상승 둔화나 고객 반발을 언급하거나, 클라우드가 주문을 도시바로 옮긴다는 보도.</dd>
+              <dt>구분 지표</dt><dd>엑사바이트당 가격 추이(씨게이트 직전 분기 +11%)와 장기계약 범위.</dd>
+              <dt>이익·부담</dt><dd>도시바는 점유율을 얻고, 클라우드는 공급처가 늘며, 씨게이트·WDC는 협상력이 조금 줄어드는 정도.</dd>
+            </dl>
+          </article>
+          <article class="hyp">
+            <div class="hd"><span class="k">가설 2 · 자본순환·시간차</span><h4>최고 이익률이 자본을 끌어들이는 '증설 국면'의 시작이다</h4></div>
+            <dl class="kv">
+              <dt>핵심 주장·근거</dt><dd>최근 분기 영업이익률이 씨게이트 43%, WDC 41.7%다. 씨게이트는 5년 평균(약 15%)의 세 배 수준이다. 이 이익이 도시바 증설과 부품사 줄증설을 불렀다. 새 설비가 들어오는 2028년 무렵 낸드 부족도 풀리면(2027년 하반기 완화 전망) 공급은 늘고 SSD로 돌아가는 수요가 생긴다.</dd>
+              <dt>맞다면 보일 것</dt><dd>씨게이트·WDC가 설비투자를 크게 올리거나 공장 증설을 발표한다. 납기가 짧아지고 2027년 계약 가격 인상 폭이 줄어든다.</dd>
+              <dt>반증</dt><dd>두 회사가 설비투자를 매출의 5% 안팎으로 유지하고, 장기계약이 2029년까지 가격 인상 조건과 함께 연장된다.</dd>
+              <dt>구분 지표</dt><dd>씨게이트·WDC 설비투자/매출 비율, 부품사 증설 합계와 HDD 수요 증가율의 차이.</dd>
+              <dt>이익·부담</dt><dd>먼저 부품·장비사가 이익을 얻고, 나중에 HDD 회사가 이익률 하락을, 클라우드가 가격 하락 혜택을 본다.</dd>
+            </dl>
+          </article>
+          <article class="hyp">
+            <div class="hd"><span class="k">가설 3 · 밸류체인·병목 이동</span><h4>이익은 조립 회사가 아니라 대체 불가능한 부품으로 옮겨 간다</h4></div>
+            <dl class="kv">
+              <dt>핵심 주장·근거</dt><dd>도시바는 헤드를 TDK에 전량 의존하고, TDK는 3사 모두에 헤드를 대는 유일한 독립 공급사다. 유리기판은 호야만 만든다. 증설이 누구에게서 일어나든 이 부품 주문은 늘고, 헤드를 쥔 쪽이 경쟁사의 증설 속도를 좌우할 수 있다(블룸버그 보도의 논지).</dd>
+              <dt>맞다면 보일 것</dt><dd>TDK 헤드 사업이 높은 가격에 팔리고, 호야 HDD 기판 성장률이 회사 예상(15~20%)을 넘으며, 도시바 증설이 헤드 부족으로 늦어진다.</dd>
+              <dt>반증</dt><dd>TDK 매각이 무산되거나 낮은 값에 팔리고, 부품사 이익률이 제자리이며, 도시바가 일정대로 생산을 늘린다.</dd>
+              <dt>구분 지표</dt><dd>TDK 헤드 거래 결과·가격, 호야 정보·통신 부문 이익률과 HDD 기판 성장률.</dd>
+              <dt>이익·부담</dt><dd>부품사와 헤드 사업 인수자가 이익을 얻고, 인수자는 웃돈을, 헤드를 못 가진 쪽은 조달 위험을 진다.</dd>
+            </dl>
+          </article>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>이 사건이 없었어도 같은 변화가 일어났을까</h3>
+        <p>상당 부분은 그랬을 것입니다. 부품사 증설은 4~8월에 이미 발표됐고, 도시바 필리핀 법인은 10월 1일 증설 라인 첫 출하를 알렸습니다. 씨게이트·WDC 주가는 이번 뉴스 전에도 6월 고점보다 각각 약 14%·38% 낮았고(10월 1일 종가 기준), 9월 중순에는 'AI 연산 효율화로 인프라 수요가 줄 수 있다'는 우려로 저장장치주가 함께 떨어졌습니다.<span class="lb f">사실</span> 이번 뉴스는 원인이라기보다 이미 진행 중이던 변화가 드러난 계기에 가깝습니다. 뉴스 하나의 중요성을 과대평가하지 않아야 합니다.<span class="lb i">추론</span></p>
+      </div>
+
+      <div class="block verdict">
+        <div class="v strong"><h4>가장 근거가 강한 해석</h4><p>가설 1. 번스타인 계산, 2028년까지의 장기계약, 기술 격차가 함께 받쳐 줍니다. 단기(2027년까지) HDD 공급 부족은 이어질 가능성이 큽니다.</p></div>
+        <div class="v swing"><h4>근거는 약하지만 맞으면 판단을 크게 바꿀 가설</h4><p>가설 2. 씨게이트·WDC가 공장 증설로 대응하거나 낸드 부족이 예상대로 2027년 하반기에 풀리면, HDD 회사의 '가격 결정력'이라는 투자 전제가 무너집니다.</p></div>
+        <div class="v"><h4>다음에 확인할 자료</h4><p>씨게이트·WDC 10월 실적(엑사바이트당 가격, 설비투자 계획) · TDK 헤드 매각 결과 · 트렌드포스 분기 니어라인 HDD·낸드 가격 · 호야 2분기 실적(HDD 기판 성장률) · 미국 대형 클라우드의 설비투자 계획</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── 5단계: 후보 기업 ───────── -->
+  <section id="picks" aria-labelledby="picks-h">
+    <div class="sh">
+      <p class="tag">5단계 · 투자 인사이트 ③ 후보 기업</p>
+      <h2 id="picks-h">실제 매출·이익으로 이어질 회사만 골랐습니다</h2>
+      <p>기준: 미국 주가 10월 7일 장중(미 동부 오전 10시 40분), 일본 주가 10월 7일 종가, 환율 158.1엔/달러. 미국 재무는 SEC 공시(10-K·10-Q), 일본 재무와 예상 PER은 stockanalysis.com(S&amp;P Global 자료). 매수 권유가 아니라 형식을 보여 주는 분석 예시입니다.</p>
+    </div>
+    <div class="panel">
+      <div class="block">
+        <h3>후보군 비교와 최종 선정</h3>
+        <p>HDD 제조(씨게이트, WDC, 도시바)와 핵심 부품(TDK 헤드, 호야 유리기판, 레조낙 기록매체, 닛토덴코 배선)을 비교했습니다. 조건에 맞는 회사는 3곳이고, 1곳은 조건부입니다. 4곳을 억지로 채우지 않았습니다.</p>
+        <ul class="cmp">
+          <li><span class="l">선정</span><span>씨게이트, 웨스턴디지털, 호야, TDK(조건부)</span></li>
+          <li><span class="l">탈락 · 도시바</span><span>2023년 JIP 컨소시엄 인수로 상장폐지돼 살 수 없습니다. 일부 기사에 붙은 6588은 도시바테크(POS·프린터)로 HDD와 무관합니다.</span></li>
+          <li><span class="l">탈락 · 레조낙</span><span>기록매체 세계 1위지만 HDD 매출 비중을 확인하지 못했고, 순부채가 영업현금 창출력(EBITDA)의 약 3.3배입니다. 최근 주가 상승(10월 1~7일 +13.7%)은 석유화학 자회사 분리 상장 등과 섞여 HDD 효과를 가려낼 수 없습니다.</span></li>
+          <li><span class="l">보류 · 닛토덴코</span><span>서스펜션 배선 점유율 90% 이상으로 유망하지만, 이번에 재무를 확인하지 못해 다음 조사로 미룹니다.</span></li>
+        </ul>
+      </div>
+
+      <article class="co">
+        <div class="top"><h3>씨게이트 테크놀로지</h3><span class="tk">STX · 미국 나스닥</span></div>
+        <p class="px">803.41달러 · 시가총액 약 1,830억 달러 · 6월 고점(1,094달러) 대비 −27% · 10월 1일 대비 −15%</p>
+        <span class="role">HDD 제조 · 기술 선두</span>
+        <details open><summary>① 사업과 밸류체인 위치</summary><div>
+          <p>데이터센터용 대용량 HDD가 중심인 HDD 제조사입니다. 헤드는 자체 생산하고 수요가 몰릴 때 TDK를 씁니다. HAMR 방식으로 최대 44TB를 출하해 기술이 가장 앞섭니다. 고객은 대형 클라우드와 기업입니다. 회사 매출 대부분이 HDD지만 정확한 비율은 이번에 확인하지 않았습니다.<span class="lb u">미확인</span></p>
+        </div></details>
+        <details><summary>② 실제 수혜 경로</summary><div>
+          <p>판매가격(엑사바이트당 +11%)과 고용량화가 이익률을 올립니다. CFO는 원가가 거의 그대로인 채 대당 용량이 늘어 추가 매출의 매출총이익률이 70%를 넘는다고 했습니다.<span class="lb p">회사 발언</span> 주문은 4~5분기 앞까지 가격·물량이 정해져 있고 니어라인 물량은 2028년까지 배정돼, 도시바 증설의 가격 영향은 빨라야 2028년 계약부터입니다.<span class="lb i">추론</span> TB당 원가가 도시바보다 약 25% 낮다는 분석도 있습니다.<span class="lb u">채널 전언</span></p>
+        </div></details>
+        <details><summary>③ 펀더멘탈과 다운턴 생존 능력</summary><div>
+          <dl class="series">
+            <div><dt class="l">매출</dt><dd class="r">116.6억 → 73.8억 → 65.5억 → 91.0억 → 122.0억 달러 (2022~2026회계연도, 7월 초 결산)</dd></div>
+            <div><dt class="l">영업이익률</dt><dd class="r">16.8% → −4.6% → 6.9% → 20.8% → 33.6% (최근 분기 43.0%)</dd></div>
+            <div><dt class="l">잉여현금흐름</dt><dd class="r">12.8억 → 6.3억 → 6.6억 → 8.2억 → 31.0억 달러</dd></div>
+            <div><dt class="l">순부채</dt><dd class="r">18.6억 달러(현금 17.0억, 차입 35.7억) · 순부채/EBITDA 0.4배</dd></div>
+            <div><dt class="l">만기</dt><dd class="r">2027회계연도 0 · 2028 1.9억 · 2029 3.8억 · 2030 6.4억 · 2031 6.0억 · 이후 18.0억 달러</dd></div>
+            <div><dt class="l">이자·투자</dt><dd class="r">이자비용 2.8억 달러(영업이익의 약 1/14) · 설비투자 5.7억 달러(매출의 4.7%)</dd></div>
+          </dl>
+          <p>2023회계연도 영업적자 때도 잉여현금흐름은 플러스(6.3억 달러)였습니다.<span class="lb f">사실</span> 주식 수가 2025년 10월 2억 1,350만 주에서 2026년 7월 2억 2,680만 주로 약 6% 늘었는데, 원인은 확인하지 못했습니다.<span class="lb u">미확인</span> 공시된 수주잔고 수치는 찾지 못해 장기계약 발언으로 대신했습니다.</p>
+        </div></details>
+        <details><summary>④ 현재 가격에서의 매력</summary><div>
+          <p>지난 12개월 PER 58배, 예상 PER 22.5배(애널리스트 평균), EV/EBITDA 41배, 최근 분기 영업이익×4 기준 EV/EBIT 약 29배, 잉여현금흐름 수익률 1.7%.<span class="lb f">사실</span></p>
+          <p>착시 점검: 최근 분기 영업이익률 43%는 5년 평균(약 15%)의 세 배입니다. 2026회계연도 매출에 정상 이익률 20%를 가정하면 EV/EBIT는 약 75배입니다.<span class="lb i">추론</span> 지난 12개월 PER(58배)과 예상 PER(22.5배)의 차이는 이익이 크게 는다는 기대를 뜻합니다. 지난 12개월은 회계 기준 이익, 예상치는 애널리스트 기준이라 단순 배율로 비교하기는 어렵지만, 높은 이익률이 오래 간다는 전제가 이미 가격에 들어 있다고 봅니다.<span class="lb i">추론</span> 좋은 기업이지만 현재 가격이 좋은 투자인지는 별개입니다.</p>
+        </div></details>
+        <details><summary>⑤ 추천 이유와 반대 논리</summary><div>
+          <p>논리: 기술 선두와 장기계약으로 2028년까지 가격을 지킵니다. 촉매: 10월 실적, HAMR 확대, 장기계약 연장. 반대 논리: 최고 이익 구간의 높은 가격, 가설 2(증설 국면), 보도대로 TDK 헤드 인수에 수십억 달러를 쓰면 자본 배분 부담이 생깁니다(보도 미확인). 폐기 조건: 엑사바이트당 가격이 전 분기보다 내려가거나, 설비투자를 매출의 8% 이상으로 올리거나(제가 정한 기준), 장기계약 재협상 보도가 나올 때.</p>
+        </div></details>
+      </article>
+
+      <article class="co">
+        <div class="top"><h3>웨스턴디지털</h3><span class="tk">WDC · 미국 나스닥</span></div>
+        <p class="px">408.45달러 · 시가총액 약 1,530억 달러 · 6월 고점(746달러) 대비 −45% · 10월 1일 대비 −12%</p>
+        <span class="role">HDD 제조 · 순현금</span>
+        <details open><summary>① 사업과 밸류체인 위치</summary><div>
+          <p>2025년 플래시 사업(샌디스크)을 분리한 뒤 HDD만 만듭니다. 40TB급을 2026년 하반기 양산하고 2029년 HAMR 100TB를 목표로 합니다. 헤드는 자체 생산하고 수요가 몰릴 때 TDK를 씁니다.<span class="lb f">사실</span></p>
+        </div></details>
+        <details><summary>② 실제 수혜 경로</summary><div>
+          <p>가격과 고용량화가 이익률을 올리는 구조는 씨게이트와 같습니다. 2027년 공급 대부분과 2028~2029년 일부를 장기계약으로 확보했습니다.<span class="lb p">회사 발표</span> 도시바와의 기술 격차가 씨게이트보다 작다는 분석이 있어(1세대 미만), 도시바가 점유율을 늘리면 WDC가 더 영향을 받을 수 있습니다.<span class="lb u">채널 전언</span><span class="lb i">추론</span></p>
+        </div></details>
+        <details><summary>③ 펀더멘탈과 다운턴 생존 능력</summary><div>
+          <dl class="series">
+            <div><dt class="l">매출</dt><dd class="r">63.2억 → 95.2억 → 129.2억 달러 (2024~2026회계연도, 그 이전은 플래시 포함이라 비교 불가)</dd></div>
+            <div><dt class="l">영업이익률</dt><dd class="r">−6.4% → 24.5% → 34.5% (최근 분기 41.7%)</dd></div>
+            <div><dt class="l">잉여현금흐름</dt><dd class="r">−7.8억 → 12.8억 → 35.1억 달러</dd></div>
+            <div><dt class="l">순현금</dt><dd class="r">5.3억 달러(현금 15.8억, 차입 10.5억 — 전액 1년 안 만기, 현금으로 갚을 수 있음)</dd></div>
+            <div><dt class="l">이자·투자</dt><dd class="r">이자비용 1.65억 달러 · 설비투자 4.2억 달러(매출의 3.2%)</dd></div>
+          </dl>
+          <p>2026회계연도 순이익(94.2억 달러)이 영업이익(44.5억)보다 훨씬 큰 것은 영업 외 이익 때문이라, 가치평가에는 영업이익을 썼습니다. 주식 수가 3억 4,200만 주(2025년 10월)에서 3억 7,430만 주(현재)로 늘었고 원인은 확인하지 못했습니다.<span class="lb u">미확인</span></p>
+        </div></details>
+        <details><summary>④ 현재 가격에서의 매력</summary><div>
+          <p>예상 PER 20.5배, EV/EBITDA 30.7배, 최근 분기 영업이익×4 기준 EV/EBIT 약 24배, 잉여현금흐름 수익률 약 2.3%.<span class="lb f">사실</span> 최근 분기 이익률 41.7%는 3년 평균(17.5%)의 두 배를 넘습니다. 씨게이트보다 배수는 낮지만 절대적으로 싸다고 보기는 어렵습니다.<span class="lb i">추론</span></p>
+        </div></details>
+        <details><summary>⑤ 추천 이유와 반대 논리</summary><div>
+          <p>논리: 씨게이트와 같은 업황 수혜를 더 낮은 배수와 순현금으로 삽니다. 반대 논리: 도시바와 격차가 작아 점유율 경쟁에 더 노출되고, 씨게이트가 TDK 헤드를 가져가면 수요 급증 때 헤드 조달이 불리해질 수 있습니다.<span class="lb i">추론</span> 폐기 조건: 엑사바이트당 가격 하락, 장기계약 비중 축소, 헤드 조달 차질.</p>
+        </div></details>
+      </article>
+
+      <article class="co">
+        <div class="top"><h3>호야</h3><span class="tk">7741 · 도쿄</span></div>
+        <p class="px">25,135엔 · 시가총액 약 8.4조 엔(약 530억 달러) · 4월 고점(30,030엔) 대비 −16%</p>
+        <span class="role">핵심 부품 · 유리기판 독점</span>
+        <details open><summary>① 사업과 밸류체인 위치</summary><div>
+          <p>안경렌즈·내시경(라이프케어)과 반도체 마스크 블랭크·HDD 유리기판(정보·통신)을 합니다. 1분기(4~6월) 기준 정보·통신은 매출의 약 40%, 두 부문 이익 합계의 약 65%입니다. HDD 유리기판은 호야만 만들고, 알루미늄을 포함한 3.5인치 니어라인 기판 시장에서는 약 40%를 차지한다고 회사가 추정합니다.<span class="lb f">사실</span><span class="lb u">개인 분석 글 인용</span> HDD 매출이 회사 전체에서 차지하는 비율은 확인하지 못했습니다.</p>
+        </div></details>
+        <details><summary>② 실제 수혜 경로</summary><div>
+          <p>판매량: 드라이브당 디스크 장수 증가, 고용량화에 따른 알루미늄→유리 전환, 두 번째·세 번째 고객의 양산입니다. 어느 HDD 회사가 점유율을 가져가든 유리 채택이 늘면 수혜입니다(가설 3).<span class="lb i">추론</span> 1분기(4~6월) HDD 매출이 고정환율 기준 15% 늘었고 회사는 2~3분기 3.5인치 15~20% 성장을 예상합니다. 라오스 라인 추가(2028년 3월까지)와 베트남 새 공장(2028년경)이 공급 여력을 늘립니다.<span class="lb p">회사 전망</span><span class="lb u">개인 분석 글 인용</span></p>
+        </div></details>
+        <details><summary>③ 펀더멘탈과 다운턴 생존 능력</summary><div>
+          <dl class="series">
+            <div><dt class="l">매출</dt><dd class="r">6,615억 → 7,236억 → 7,626억 → 8,660억 → 9,477억 엔 (2022~2026년 3월 결산)</dd></div>
+            <div><dt class="l">영업이익률</dt><dd class="r">30.4% → 29.0% → 28.0% → 29.2% → 32.4% (HDD 불황기에도 28% 이상)</dd></div>
+            <div><dt class="l">잉여현금흐름</dt><dd class="r">2,218억 엔(2026년 3월 결산)</dd></div>
+            <div><dt class="l">순현금</dt><dd class="r">5,319억 엔(차입 422억 엔)</dd></div>
+          </dl>
+          <p>베트남 HDD 기판(500억 엔)과 싱가포르 EUV(420억 엔) 새 공장의 감가상각이 늘어, 정보·통신 이익률이 55%에서 50% 안팎으로 내려갈 수 있다고 회사가 설명했습니다.<span class="lb u">개인 분석 글 인용</span></p>
+        </div></details>
+        <details><summary>④ 현재 가격에서의 매력</summary><div>
+          <p>PER 32.0배, 예상 PER 29.5배, EV/EBITDA 20.6배.<span class="lb f">사실</span> 이익률이 5년 내내 28~32%라 '고점 이익 착시'는 작지만, 배수에 성장 기대가 들어 있습니다.<span class="lb i">추론</span></p>
+        </div></details>
+        <details><summary>⑤ 추천 이유와 반대 논리</summary><div>
+          <p>논리: 대체하기 어려운 부품 독점과 다운턴 내성. 촉매: 2분기 실적의 HDD 성장률, 새 고객 양산, EUV 수요. 반대 논리: HDD는 이익의 일부일 뿐이고, HAMR로 디스크 한 장의 용량이 커지면 필요한 장수가 덜 늘 수 있으며, EUV에서는 AGC와 경쟁합니다. 폐기 조건: 3.5인치 기판 성장률이 10% 밑으로 떨어지거나, 새 고객 양산이 늦어지거나, 정보·통신 이익률이 45% 밑으로 내려갈 때.</p>
+        </div></details>
+      </article>
+
+      <article class="co">
+        <div class="top"><h3>TDK</h3><span class="tk">6762 · 도쿄</span></div>
+        <p class="px">3,530엔 · 시가총액 약 6.7조 엔(약 420억 달러) · 10월 1일 대비 +10%</p>
+        <span class="role cond">조건부 · 매각 이벤트형</span>
+        <details open><summary>① 사업과 밸류체인 위치</summary><div>
+          <p>전지(주력), 수동부품, 센서, 자기응용(HDD 헤드·서스펜션)을 만듭니다. HDD 헤드의 유일한 독립 공급사로 3사 모두에 공급하고, 도시바는 전량 의존합니다.<span class="lb f">보도</span> HDD 매출 비중은 확인하지 못했습니다.<span class="lb u">미확인</span></p>
+        </div></details>
+        <details><summary>② 실제 수혜 경로</summary><div>
+          <p>두 갈래입니다. 매각되면 경쟁 입찰로 높은 값을 받아 전지·수동부품에 투자할 현금이 들어옵니다. 매각이 무산되면 도시바 증설로 헤드 수요가 늘어납니다. 다만 헤드는 '역사적으로 이익률이 낮은' 사업이라(블룸버그), 구조적 수혜보다는 매각 가격 이벤트에 가깝습니다.<span class="lb i">추론</span></p>
+        </div></details>
+        <details><summary>③ 펀더멘탈과 다운턴 생존 능력</summary><div>
+          <dl class="series">
+            <div><dt class="l">매출</dt><dd class="r">1조 9,021억 → 2조 1,808억 → 2조 1,039억 → 2조 2,048억 → 2조 5,048억 엔 (2022~2026년 3월 결산)</dd></div>
+            <div><dt class="l">영업이익률</dt><dd class="r">8.4% → 7.2% → 8.1% → 10.0% → 10.6% (최근 12개월 11.2%)</dd></div>
+            <div><dt class="l">잉여현금흐름</dt><dd class="r">2,091억 엔(2026년 3월 결산) · 최근 12개월 1,065억 엔(설비투자 증가)</dd></div>
+            <div><dt class="l">순현금</dt><dd class="r">2,268억 엔(2026년 3월) · 1,058억 엔(최근)</dd></div>
+          </dl>
+        </div></details>
+        <details><summary>④ 현재 가격에서의 매력</summary><div>
+          <p>PER 29.4배, 예상 PER 25.8배, EV/EBITDA 13.2배로 후보 중 EV/EBITDA가 가장 낮습니다.<span class="lb f">사실</span> 매각설 보도일(10월 6일) 주가가 5.3% 올랐습니다.</p>
+        </div></details>
+        <details><summary>⑤ 추천 이유와 반대 논리</summary><div>
+          <p>논리: 낮은 배수와 매각 선택권. 반대 논리: 보도가 확인되지 않았고(도시바·JIP 부인), '수십억 달러'라면 시가총액의 한 자릿수에서 10%대 초반 비중입니다.<span class="lb i">추론</span> 주력인 전지는 스마트폰 생산 감소(트렌드포스: 2026년 −15~20%)의 영향을 받습니다. 폐기 조건: 매각 협상 무산과 전지 부문 부진이 겹칠 때.</p>
+        </div></details>
+      </article>
+
+      <div class="block">
+        <h3>최종 비교와 우선순위</h3>
+        <ul class="cmp">
+          <li><span class="l">밸류체인 위치</span><span>씨게이트·WDC는 조립(제조), 호야·TDK는 핵심 부품</span></li>
+          <li><span class="l">수혜 직접성</span><span>씨게이트 ≥ WDC &gt; 호야 &gt; TDK</span></li>
+          <li><span class="l">재무건전성</span><span>호야(순현금 5,319억 엔) &gt; WDC(순현금) &gt; TDK(순현금) &gt; 씨게이트(순부채 18.6억 달러, 부담은 낮음)</span></li>
+          <li><span class="l">현금창출력</span><span>잉여현금흐름/매출: WDC 27% · 씨게이트 25% · 호야 23% · TDK 8%</span></li>
+          <li><span class="l">가치평가</span><span>예상 PER: WDC 20.5 · 씨게이트 22.5 · TDK 25.8 · 호야 29.5 / EV/EBITDA: TDK 13.2 · 호야 20.6 · WDC 30.7 · 씨게이트 41.2</span></li>
+          <li><span class="l">촉매</span><span>씨게이트·WDC 10월 실적, 호야 2분기 실적, TDK 헤드 매각 결과</span></li>
+          <li><span class="l">주요 위험</span><span>씨게이트·WDC 증설 국면·고점 이익, 호야 HDD 비중·감가상각, TDK 보도 불확실성</span></li>
+        </ul>
+        <div class="picks">
+          <div class="pick"><span class="k">구조적 수혜가 가장 큰 기업</span><span class="n">씨게이트</span><p>기술 선두와 가격 결정력. 대신 가격 부담이 가장 큽니다.</p></div>
+          <div class="pick"><span class="k">다운턴을 가장 잘 견딜 기업</span><span class="n">호야</span><p>5년 내내 영업이익률 28% 이상, 순현금, 사업 다각화.</p></div>
+          <div class="pick"><span class="k">현재 가격에서 상대적으로 매력적</span><span class="n">WDC</span><p>HDD 순수 업체 중 배수가 가장 낮고 순현금. 절대 가격은 비쌉니다.</p></div>
+        </div>
+        <ul class="pts">
+          <li>지금 조사할 후보: 호야(가설 3에 맞고 다운턴 내성), WDC(10월 실적에서 가격·장기계약을 확인한 뒤).</li>
+          <li>기다릴 후보: 씨게이트(설비투자 계획과 가격 추이 확인 전까지 가격 부담), TDK(매각 결과가 나온 뒤).</li>
+          <li>키움증권 접근성: 씨게이트·WDC는 미국, 호야·TDK는 일본 상장이라 모두 해외주식으로 거래할 수 있는 시장입니다.</li>
+        </ul>
+        <ul class="src">
+          <li>재무: SEC <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001137789&amp;type=10-K" target="_blank" rel="noopener">씨게이트 공시</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000106040&amp;type=10-K" target="_blank" rel="noopener">WDC 공시</a> · stockanalysis.com <a href="https://stockanalysis.com/quote/tyo/7741/statistics/" target="_blank" rel="noopener">호야</a> · <a href="https://stockanalysis.com/quote/tyo/6762/statistics/" target="_blank" rel="noopener">TDK</a> · <a href="https://stockanalysis.com/quote/tyo/4004/statistics/" target="_blank" rel="noopener">레조낙</a> (10월 7일 갱신)</li>
+          <li>호야 부문·성장률·점유율: <a href="https://note.com/kessan_yomijun/n/n003c51602c4e" target="_blank" rel="noopener">개인 분석 글(회사 자료 인용, 9월 25일)</a> · <a href="https://toyokeizai.net/articles/-/862778" target="_blank" rel="noopener">도요게이자이</a></li>
+          <li>도시바 상장폐지: <a href="https://en.wikipedia.org/wiki/Toshiba" target="_blank" rel="noopener">Wikipedia</a> · 도시바 부인: <a href="https://moneycheck.com/toshiba-refutes-claims-of-bidding-war-with-seagate-for-tdk-magnetic-head-unit/" target="_blank" rel="noopener">MoneyCheck 10월 6일</a></li>
+          <li>로젠블랫 분석(기술 격차·원가): 텔레그램 카이에 de market 10918 전재, 원문 미확인</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── 6단계 ───────── -->
+  <section id="onepage" aria-labelledby="onepage-h">
+    <div class="sh">
+      <p class="tag">6단계 · 산업 한 페이지</p>
+      <h2 id="onepage-h">매일 저녁 갱신은 그대로 둡니다</h2>
+    </div>
+    <div class="panel">
+      <ul class="pts">
+        <li>그날 들어온 뉴스를 산업·밸류체인으로 나눠 묶고, 자료를 보태 산업 한 페이지에 반영하는 방식은 지금과 같습니다.</li>
+        <li>오늘 예시라면 도시바·TDK 두 건은 '반도체·AI 투자'(매크로의 반도체 노드)에 들어갑니다. 지금 9개 산업에는 HDD 밸류체인이 따로 없으므로, 새 방식에서는 '저장장치(HDD)' 밸류체인(부품 → HDD 3사 → 클라우드)을 먼저 조사해 만들고 그 노드에 내용을 넣게 됩니다.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>이 화면은 개편 형식을 보여 주기 위한 예시입니다. 투자 판단은 본인 책임이며, 수치는 표시한 기준일의 자료입니다.</p>
+    <p>단계별 소요: 한줄 요약은 뉴스당 확인 1~2회, 자세한 정리는 출처 3~5곳, 투자 인사이트는 공시·실적·주가까지 확인해 가장 오래 걸립니다.</p>
+  </footer>
+</main>
+
+<div class="reqbar" role="region" aria-label="체크한 뉴스 요청">
+  <div class="in">
+    <span class="cnt">자세히 체크 <b id="n-detail">0</b>건 · 투자 인사이트 체크 <b id="n-insight">0</b>건</span>
+    <button class="btn" id="req" type="button" disabled>요청 문구 복사</button>
+    <span class="reqmsg" id="reqmsg" aria-live="polite"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+  var KEY='desk-preview-v1';
+  var state={d:{},r:{},i:false};
+  try{var s=JSON.parse(localStorage.getItem(KEY)||'null'); if(s&&typeof s==='object'){state.d=s.d||{};state.r=s.r||{};state.i=!!s.i;}}catch(e){}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
+  var boxes=[].slice.call(document.querySelectorAll('.news input[type=checkbox]'));
+  var reads=[].slice.call(document.querySelectorAll('.news .read'));
+  var ins=document.getElementById('ck-insight');
+  var req=document.getElementById('req'), msg=document.getElementById('reqmsg');
+  function titleOf(id){var li=document.querySelector('.item[data-id="'+id+'"] .ttl');return li?li.textContent.trim():id;}
+  function render(){
+    boxes.forEach(function(b){b.checked=!!state.d[b.dataset.id];});
+    reads.forEach(function(b){var on=!!state.r[b.dataset.id];b.setAttribute('aria-pressed',on?'true':'false');b.textContent=on?'읽음':'읽음 표시';b.closest('.item').classList.toggle('is-read',on);});
+    ins.checked=state.i;
+    var nd=Object.keys(state.d).filter(function(k){return state.d[k];}).length;
+    document.getElementById('n-detail').textContent=nd;
+    document.getElementById('n-insight').textContent=state.i?1:0;
+    req.disabled=(nd===0&&!state.i);
+  }
+  boxes.forEach(function(b){b.addEventListener('change',function(){state.d[b.dataset.id]=b.checked;save();render();msg.textContent='';});});
+  reads.forEach(function(b){b.addEventListener('click',function(){state.r[b.dataset.id]=!state.r[b.dataset.id];save();render();});});
+  ins.addEventListener('change',function(){state.i=ins.checked;save();render();msg.textContent='';});
+  req.addEventListener('click',function(){
+    var ids=Object.keys(state.d).filter(function(k){return state.d[k];});
+    var lines=[];
+    if(ids.length){lines.push('체크한 뉴스 자세히 정리 요청 ('+ids.length+'건)');ids.forEach(function(id){lines.push('- '+titleOf(id));});}
+    if(state.i){lines.push('투자 인사이트 요청 (1건)');lines.push('- '+titleOf('hdd'));}
+    var text=lines.join('\n');
+    var done=function(){msg.textContent='복사했습니다. Claude에게 붙여 넣으면 됩니다.';};
+    var fallback=function(){
+      msg.textContent='자동 복사가 막혀 아래 글을 선택해 두었습니다.';
+      var old=document.getElementById('reqtext'); if(old) old.remove();
+      var ta=document.createElement('textarea'); ta.id='reqtext'; ta.className='reqtext'; ta.value=text; ta.readOnly=true;
+      document.querySelector('.reqbar .in').appendChild(ta); ta.focus(); ta.select();
+    };
+    try{navigator.clipboard.writeText(text).then(done,fallback);}catch(e){fallback();}
+  });
+  render();
+})();
+</script>

@@ -1,0 +1,212 @@
+{
+ "agent": "A1",
+ "searches_used": 22,
+ "items": [
+  {
+   "key": "bbg-1007-qatar-empty-lng-ships",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost",
+   "origTitle": "Qatar Brings Empty LNG Ships Into Gulf in Potential Export Boost",
+   "published": "2026-10-07",
+   "inds": ["gas"],
+   "nodes": ["gas/shipping", "gas/trade"],
+   "title": "카타르, 빈 LNG선을 걸프 안으로 불러들여…수출 확대 준비 신호",
+   "one": "카타르가 빈 LNG 운반선을 호르무즈 안쪽 라스라판 앞으로 모으면서, 9월에 전쟁 이후 최대로 회복된 걸프 LNG 수출을 더 늘릴 수 있는 선적 여력이 생기고 있다.",
+   "facts": [
+    "무엇이: 카타르와 연계된 빈(밸러스트) LNG 운반선들이 라스라판 쪽으로 이동해 걸프 안에 모이고 있습니다. [사실]",
+    "얼마나: 빈 배의 전체 척수는 독립 출처에 없고, 10월 2일 카타르 앞바다 호르무즈 안쪽에서 빈 상태의 알마루나호가 포착됐습니다. [사실]",
+    "왜: 라스라판에서 화물을 실으려면 배가 걸프 안에 있어야 해 수출 확대 준비로 읽히지만, 증량이 승인됐다는 확인은 아닙니다. [추론]",
+    "배경: 9월 호르무즈 통과 LNG 화물은 S&P 글로벌 집계 19척(카타르 13·UAE 6), 케플러 집계 21척으로 전쟁 이후 월간 최대였습니다. [사실]"
+   ],
+   "basis": "partial",
+   "check": "블룸버그 원문 미확인 — 1Arabia(아라비안 포스트 계열, 10월 7일) 보도로 작성. 걸프에 들어온 빈 배의 척수와 블룸버그가 쓴 선박 추적 자료는 확인 못 함.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-07", "u": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost"},
+    {"o": "1Arabia(아라비안 포스트)", "d": "2026-10-07", "u": "https://www.1arabia.com/2026/10/qatar-positions-empty-lng-fleet-for.html"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1007-equinor-hammerfest-lng-cost",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/equinor-hikes-norway-lng-plant-upgrade-cost-amid-project-hurdles",
+   "origTitle": "Equinor Hikes Norway LNG Plant Upgrade Cost Amid Project Hurdles",
+   "published": "2026-10-07",
+   "inds": ["gas"],
+   "nodes": ["gas/liquefaction", "gas/upstream"],
+   "title": "에퀴노르, 함메르페스트 LNG 개조 비용 265억 크로네로 또 상향",
+   "one": "에퀴노르가 노르웨이 함메르페스트 LNG 공장 개조(스뇌비트 퓨처) 사업비를 2022년 계획의 약 두 배인 265억 크로네로 다시 올리면서, 합작사들의 비용 부담이 커졌지만 2029~2030년 가동 일정은 유지된다.",
+   "facts": [
+    "무엇이: 에퀴노르가 10월 7일 연 430만 톤 규모 함메르페스트 LNG의 개조 사업(스뇌비트 퓨처) 비용 추정치를 265억 크로네(2026년 가치)로 올렸습니다. [사실]",
+    "얼마나: 2022년 계획은 132억 크로네(현재 가치 152억 크로네), 2025년 12월 추정은 200억 크로네 남짓이었습니다. [사실]",
+    "왜: 가동 중인 공장 안에서 공사하는 어려움, 날씨, 전력 케이블 터널의 암반 조건이 원인으로 제시됐습니다. [사실]",
+    "다음 일정: 공정률은 약 60%이고, 육상 압축 설비는 2029년, 전기화는 2030년 가동으로 일정은 바뀌지 않았습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 에퀴노르 보도자료 목록(10월 7일)과 애스크트레이더스(10월 7일), LNG 프라임(10월 7일, 앞부분만 공개) 보도로 작성. 달러 환산액은 확인 못 함.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-07", "u": "https://www.bloomberg.com/news/articles/2026-10-07/equinor-hikes-norway-lng-plant-upgrade-cost-amid-project-hurdles"},
+    {"o": "에퀴노르 보도자료 목록", "d": "2026-10-07", "u": "https://www.equinor.com/news"},
+    {"o": "AskTraders", "d": "2026-10-07", "u": "https://www.asktraders.com/analysis/equinor-lifts-snohvit-future-cost-estimate-to-nok-26-5bn-but-keeps-timetable/"},
+    {"o": "LNG Prime", "d": "2026-10-07", "u": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-venture-global-china-buyers",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers",
+   "origTitle": "Venture Global in Talks to Supply US LNG to More Chinese Buyers",
+   "published": "2026-10-06",
+   "inds": ["gas"],
+   "nodes": ["gas/liquefaction", "gas/trade"],
+   "title": "벤처글로벌, 페트로차이나 등 중국 3곳 이상과 LNG 장기 공급 협상",
+   "one": "미국 벤처글로벌이 페트로차이나 등 중국 수입사 3곳 이상과 LNG 장기 공급을 협의하면서, 카타르 물량이 막힌 중국 구매자들이 현물 대신 미국산 장기 계약으로 조달처를 옮길 수 있다.",
+   "facts": [
+    "무엇이: 벤처글로벌이 중국 수입사 최소 3곳과 LNG 장기 공급을 초기 단계에서 협의 중이라고 블룸버그가 관계자를 인용해 전했습니다. [사실]",
+    "얼마나: 국영 페트로차이나는 벤처글로벌의 루이지애나 수출 설비에서 연 100만 톤 이상을 받는 방안을 검토하고 있습니다. [사실]",
+    "왜: 지난해 중국 LNG 수입의 약 30%를 댄 카타르 공급이 호르무즈 차질로 막히고 현물값이 뛰자, 중국 구매자들이 현물 구매를 줄이고 장기 물량을 찾고 있습니다. [사실]",
+    "배경: 중국은 2025년 미국산 가스에 관세를 매겼고, 벤처글로벌은 지난달 2030년 인도 시작 장기 계약을 한 건 맺었습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 인베스팅닷컴 자체 기사(10월 6일, 블룸버그 인용)로 작성. 페트로차이나 외 수입사 이름과 계약 기간은 확인 못 함. 로이터도 블룸버그를 인용해 보도.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-06", "u": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers"},
+    {"o": "로이터(원문 미확인)", "d": "2026-10-06", "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S112:0-venture-global-in-talks-to-sell-us-lng-to-chinese-buyers-bloomberg-news-reports/"},
+    {"o": "Investing.com 자체 기사", "d": "2026-10-06", "u": "https://ca.investing.com/news/stock-market-news/venture-global-shares-rise-amid-report-chinese-buyers-eye-expanded-us-lng-deals-4868316"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-vietnam-lng-power-delay",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule",
+   "origTitle": "Vietnam's LNG Power-Plant Ambitions Are Well Behind Schedule",
+   "published": "2026-10-06",
+   "inds": ["gas", "power"],
+   "nodes": ["gas/demand", "power/gen"],
+   "title": "베트남 LNG 발전 22.5GW 계획 크게 지연…일정 맞추는 곳은 1곳뿐",
+   "one": "베트남이 2030년까지 가동하려던 LNG 발전소 15곳(22.5GW) 가운데 일정대로 가는 곳이 1곳뿐인 것으로 드러나면서, 아시아 LNG 수요를 늘릴 것으로 기대된 신규 발전 물량이 늦어질 전망이다.",
+   "facts": [
+    "무엇이: 베트남 산업무역부 점검 결과, 정부가 관리하는 LNG 발전 사업 18개 가운데 일정을 맞출 수 있는 곳은 호찌민의 히엡프억 1곳으로 평가됐습니다. [사실]",
+    "얼마나: 조정된 전력개발계획(PDP8)은 2030년까지 15개 사업 2만 2,524MW의 상업운전을 목표로 하지만, 지금 공사 중인 곳은 2개입니다. [사실]",
+    "왜: 투자 준비, 용지 확보, 자금 조달, 전력구매계약(PPA) 협상이 병목으로 꼽혔고, 100만 BTU당 약 25달러인 아시아 LNG값도 사업성을 어렵게 합니다. [사실]",
+    "영향: 발전소 완공이 늦어지는 만큼 베트남의 LNG 수입 증가도 뒤로 밀릴 수 있습니다. [추론]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 더 인베스터 베트남(10월 2일, 산업무역부 발표)과 비즈니스 투데이(10월 7일) 보도로 작성. 블룸버그가 따로 제시한 수치·분석은 확인 못 함.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-06", "u": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule"},
+    {"o": "The Investor(베트남)", "d": "2026-10-02", "u": "https://theinvestor.vn/vietnams-lng-power-pipeline-faces-delays-only-one-seen-on-track-d20138.html"},
+    {"o": "Business Today", "d": "2026-10-07", "u": "https://www.businesstoday.in/world/story/vietnams-lng-gamble-hits-a-roadblock-as-22-5-gw-power-plan-stalls-559987-2026-10-07"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1005-hormuz-lng-rebound",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/lng-trade-through-hormuz-extends-rebound-despite-shipping-risks",
+   "origTitle": "LNG Trade Through Hormuz Extends Rebound Despite Shipping Risks",
+   "published": "2026-10-05",
+   "inds": ["gas"],
+   "nodes": ["gas/shipping", "gas/trade"],
+   "title": "호르무즈 LNG 통과 회복세 이어져…그래도 전쟁 전보다 75% 넘게 적어",
+   "one": "카타르·UAE의 LNG선이 피격 위험 속에도 호르무즈를 계속 빠져나와 9월 통과 화물이 전쟁 이후 최대인 21척으로 늘었지만, 전쟁 전 하루 3척에 견주면 75% 넘게 적어 세계 LNG 수급을 풀기엔 부족하다.",
+   "facts": [
+    "무엇이: 블룸버그·케플러 집계에서 지난 주말 이후 LNG 운반선 최소 3척이 호르무즈를 빠져나간 것으로 나타났습니다. [사실]",
+    "얼마나: 9월 통과 화물은 21척으로 전쟁 이후 월간 최대였지만, 전쟁 전(하루 약 3척)보다 75% 넘게 적습니다. [사실]",
+    "위험: 영국 해사무역기구(UKMTO)에 최근 한 주 동안 선박 피격이 8건 보고됐고, LNG선 대부분은 위치 신호를 끄고 통과합니다. [사실]",
+    "배경: 9월 아시아·유럽 가스값은 2022~2023년 에너지 위기 이후 가장 높았습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 오일프라이스 자체 기사(10월 5일, 블룸버그·케플러 집계 인용)로 작성. 통과 선박의 이름과 행선지는 확인 못 함.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-05", "u": "https://www.bloomberg.com/news/articles/2026-10-05/lng-trade-through-hormuz-extends-rebound-despite-shipping-risks"},
+    {"o": "Oilprice.com 자체 기사", "d": "2026-10-05", "u": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html"}
+   ],
+   "dupOf": "pf-rtr-004"
+  },
+  {
+   "key": "rtr-1005-adnoc-gulf-thailand-lng",
+   "source": "로이터",
+   "url": "https://tradingview.com/news/reuters.com,2026:newsml_L4N45R0PJ:0-uae-s-adnoc-signs-lng-supply-deal-with-thailand-s-gulf-group",
+   "origTitle": "UAE's ADNOC signs LNG supply deal with Thailand's Gulf Group",
+   "published": "2026-10-05",
+   "inds": ["gas"],
+   "nodes": ["gas/trade", "gas/demand"],
+   "title": "ADNOC, 태국 걸프와 LNG 약 200만 톤 다년 공급 계약…2027년부터",
+   "one": "UAE 국영 ADNOC가 태국 걸프 디벨롭먼트에 2027년부터 LNG 약 200만 톤을 여러 해에 걸쳐 공급하기로 하면서, 카타르산 의존이 컸던 태국이 호르무즈 차질 속에 조달처를 넓히게 됐다.",
+   "facts": [
+    "무엇이: ADNOC가 자회사 ADNOC 트레이딩을 통해 태국 걸프 디벨롭먼트에 LNG를 파는 다년 매매 계약을 10월 5일 발표했습니다. [사실]",
+    "얼마나: 물량은 약 200만 톤, 인도는 2027년 시작이며 가격·계약 기간·화물 출처는 공개되지 않았습니다. [사실]",
+    "배경: 태국은 전력의 60% 이상을 가스로 만들고, LNG 수입의 약 24%(연 220만 톤)를 호르무즈 경유 물량, 대부분 카타르산에 의존해 왔습니다. [사실]",
+    "눈여겨볼 점: ADNOC의 기존 LNG 수출 기지도 걸프 안에 있어, 화물을 어디서 대느냐가 실제 공급 안정성을 좌우할 수 있습니다. [추론]"
+   ],
+   "basis": "verified",
+   "check": "로이터 원문 미확인 — 더 내셔널(10월 5일)과 LNG 프라임(10월 5일, 앞부분만 공개) 보도로 작성. 계약 기간과 화물 출처는 비공개.",
+   "src": [
+    {"o": "로이터(원문 미확인)", "d": "2026-10-05", "u": "https://tradingview.com/news/reuters.com,2026:newsml_L4N45R0PJ:0-uae-s-adnoc-signs-lng-supply-deal-with-thailand-s-gulf-group"},
+    {"o": "The National", "d": "2026-10-05", "u": "https://www.thenationalnews.com/business/energy/2026/10/05/adnoc-signs-thai-lng-deal-after-iran-war-disrupts-gulf-supply/"},
+    {"o": "LNG Prime", "d": "2026-10-05", "u": "https://lngprime.com/asia/adnoc-gulf-seal-lng-supply-deal/197946/"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "rtr-1005-petronas-lng-25-28",
+   "source": "로이터",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/",
+   "origTitle": "LNG buyers are paying $25-$28 MMBtu without flinching, PETRONAS says",
+   "published": "2026-10-05",
+   "inds": ["gas"],
+   "nodes": ["gas/trade", "gas/demand"],
+   "title": "페트로나스 \"LNG 구매자들, 25~28달러에도 주저 없이 산다\"",
+   "one": "말레이시아 국영 페트로나스가 구매자들이 100만 BTU당 25~28달러에도 LNG를 주저 없이 사고 있다고 밝히면서, 2022~2023년 위기 이후 가장 비싼 값에도 구매 수요가 아직 꺾이지 않았다는 판매자 쪽 진단이 나왔다.",
+   "facts": [
+    "무엇이: 페트로나스는 LNG 구매자들이 100만 BTU당 25~28달러를 주저 없이 치르고 있다고 말했습니다(로이터 제목 기준). [사실]",
+    "배경: 에너지 인텔리전스는 10월 6일 페트로나스 최고경영자가 2027년 아시아에 LNG 가격 '블러드배스(큰 혼란)'가 올 수 있다고 경고했다고 제목으로 전했습니다. [사실]",
+    "참고: 9월 아시아·유럽 가스값은 2022~2023년 에너지 위기 이후 가장 높은 수준이었습니다(오일프라이스). [사실]",
+    "미확인: 발언 장소와 경고의 구체 근거·수치는 독립 출처 본문으로 확인하지 못했습니다. [미확인]"
+   ],
+   "basis": "partial",
+   "check": "로이터 원문 미확인 — 로이터 제목과 에너지 인텔리전스 제목(10월 6일, 본문 유료)으로만 작성해 발언 세부는 확인 못 함. 더스타 기사는 블룸버그 전재본이라 근거로 쓰지 않음.",
+   "src": [
+    {"o": "로이터(원문 미확인)", "d": "2026-10-05", "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/"},
+    {"o": "Energy Intelligence(제목만 공개)", "d": "2026-10-06", "u": "https://energyintel.com/000001a1-11a4-d564-a5ef-77b467bc0000"},
+    {"o": "Oilprice.com 자체 기사", "d": "2026-10-05", "u": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html"}
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1002-trump-korea-alaska-lng-threat",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-threatens-south-korea-over-alaska-lng-project-dispute",
+   "origTitle": "Trump Threatens Trade Retaliation Against South Korea Over Alaska LNG Project",
+   "published": "2026-10-02",
+   "inds": ["gas", "macro"],
+   "nodes": ["gas/liquefaction", "macro/geo"],
+   "title": "트럼프 \"한국, 알래스카 LNG 서명 안 하면 관세 두 배\"",
+   "one": "트럼프 대통령이 한국이 500억 달러 규모 알래스카 LNG 사업 투자에 곧 서명하지 않으면 관세를 두 배로 올리겠다고 위협하면서, 투자가 확정되지 않았다는 입장인 한국 정부의 협상 부담이 커졌다.",
+   "facts": [
+    "무엇이: 트럼프 대통령은 10월 2일 백악관에서 한국이 투자를 원치 않으면 더 내게 하겠다며, 곧 서명하지 않으면 관세를 두 배로 올리겠다고 말했습니다. [사실]",
+    "얼마나: 알래스카 LNG 사업 규모는 500억 달러로 거론되고, 한국은 사업 참여가 아직 확정되지 않았다는 입장입니다. [사실]",
+    "배경: 같은 날 미 국무부 대변인은 합의가 이뤄졌다는 점이 중요하다고 말해 수위를 낮췄고, 11월 중간선거를 앞둔 정치적 발언이라는 해석도 나옵니다. [사실]",
+    "참고: 블룸버그 집계로 2024년 11월 이후 트럼프의 무역 위협 72건 가운데 실제 관세가 부과된 것은 15건(20.8%)입니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 블루밍비트 영문판(한국경제 기사, 10월 4일)과 쿼츠(10월 5일) 보도로 작성. 현재 관세율과 한국에 요구된 투자액은 확인 못 함.",
+   "src": [
+    {"o": "블룸버그(원문 미확인)", "d": "2026-10-02", "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-threatens-south-korea-over-alaska-lng-project-dispute"},
+    {"o": "블루밍비트(한국경제 기사 영문판)", "d": "2026-10-04", "u": "https://en.bloomingbit.io/feed/news/121568"},
+    {"o": "Quartz", "d": "2026-10-05", "u": "https://qz.com/trump-south-korea-tariffs-alaska-lng-deal-100526"}
+   ],
+   "dupOf": "n-bbg-0002"
+  }
+ ],
+ "skipped": [
+  {"title": "The World Risks Becoming Too Reliant on US Liquefied Natural Gas", "url": "https://www.bloomberg.com/news/newsletters/2026-10-05/the-world-risks-becoming-too-reliant-on-us-liquefied-natural-gas", "date": "2026-10-05", "reason": "독립 출처 없음"},
+  {"title": "Norway ready for high winter gas demand from Europe, pipeline operator says", "url": "https://tradingview.com/news/reuters.com,2026:newsml_L8N45N09J:0-norway-ready-for-high-winter-gas-demand-from-europe-pipeline-operator-says", "date": "2026-10-01", "reason": "이미 다룸(n-rtr-0008)"},
+  {"title": "Trump's $54 Billion Election Pitch for Alaska LNG Is Its Undoing", "url": "https://www.bloomberg.com/opinion/articles/2026-10-01/alaska-lng-s-54-billion-political-pitch-is-its-undoing", "date": "2026-10-01", "reason": "범위 밖"},
+  {"title": "Shell-Backed LNG Canada to Double Capacity in $23 Billion Investment", "url": "https://www.bloomberg.com/news/articles/2026-09-29/shell-s-lng-canada-to-proceed-with-multibillion-dollar-expansion", "date": "2026-09-29", "reason": "범위 밖"},
+  {"title": "Europe's LNG Shift Is Breaking the Economics of Gas Storage", "url": "https://www.bloomberg.com/news/features/2026-09-29/war-and-lng-shift-breaks-economics-of-european-gas-storage", "date": "2026-09-29", "reason": "범위 밖"}
+ ]
+}

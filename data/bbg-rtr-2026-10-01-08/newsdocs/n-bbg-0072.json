@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0072",
+ "feed": "v5",
+ "format": "one1",
+ "num": 72,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-google-constellation-nuclear",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power",
+ "inds": [
+  "uranium",
+  "power"
+ ],
+ "nodes": [
+  "uranium/operators",
+  "power/demand"
+ ],
+ "title": "구글–콘스텔레이션 20년 원전 전력계약…원자로 11기 출력 890MW 늘린다",
+ "one": "구글이 콘스텔레이션과 20년 전력구매계약을 맺어 일리노이·펜실베이니아·뉴저지 원자로 11기의 출력을 890MW 늘리는 투자를 뒷받침하면서, 새 원전을 짓지 않고도 대형 원전 1기 분량의 전력이 미국 동부 PJM 전력망에 더해진다",
+ "headline": "구글–콘스텔레이션 20년 원전 전력계약…원자로 11기 출력 890MW 늘린다",
+ "facts": [
+  "무엇이: 구글과 콘스텔레이션 에너지가 20년 전력구매계약을 발표했고, 이 계약이 콘스텔레이션 원자로 11기(일리노이·펜실베이니아·뉴저지)의 설비 교체와 출력 증강 자금을 댑니다. [사실]",
+  "얼마나: 늘어나는 출력은 890MW, 콘스텔레이션이 밝힌 신규 투자는 43억 달러 이상이며 첫 출력 증강은 2028년까지로 예상됩니다. [사실]",
+  "추가 계약: 별도의 15년 에너지 공급 계약으로 PJM 지역 2,700MW가 더 묶였고, 로이터는 전체를 3.6GW 규모 계약으로 보도했습니다. [사실]",
+  "배경: 9월 말 아마존–콘스텔레이션 계약(캘버트클리프스 약 190MW 증설)에 이어, 빅테크가 기존 원전의 출력 증강 비용을 대는 계약이 잇따르고 있습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 월드뉴클리어뉴스(10월 6일) 보도로 작성. 투자액은 콘스텔레이션 발표 기준. 블룸버그 주소에 나온 '10억 달러대' 계약 금액은 확인 못 함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power"
+  },
+  {
+   "o": "로이터(원문 미확인, 제목만)",
+   "d": "2026-10-06",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S04O:0-google-enters-massive-3-6-gw-power-deal-with-constellation-energy/"
+  },
+  {
+   "o": "월드뉴클리어뉴스",
+   "d": "2026-10-06",
+   "u": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Google, Constellation Energy Strike Deal for Nuclear Power"
+}

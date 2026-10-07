@@ -1,0 +1,47 @@
+{
+ "id": "n-bbg-0074",
+ "feed": "v5",
+ "format": "one1",
+ "num": 74,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-hk-fima-access-review",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/us-lawmaker-seeks-review-of-hong-kong-s-access-to-fed-facility",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/cb",
+  "macro/fx"
+ ],
+ "title": "미 하원 중국특위 위원장, 연준에 홍콩의 달러 유동성 창구 이용 재검토 요구",
+ "one": "미 하원 중국특위 물레나 위원장이 워시 연준 의장에게 홍콩금융관리국의 FIMA 레포 창구(미 국채를 맡기고 달러를 빌리는 장치) 이용 자격을 재검토하라는 서한을 보내면서, 홍콩의 비상 달러 조달 경로가 미 의회의 압박 대상이 됐다",
+ "headline": "미 하원 중국특위 위원장, 연준에 홍콩의 달러 유동성 창구 이용 재검토 요구",
+ "facts": [
+  "무엇이: 물레나 위원장이 10월 6일 워시 의장에게 서한을 보내, 연준 이사회와 FOMC 외환 소위원회가 홍콩금융관리국의 FIMA 레포 창구 이용을 공식 재검토하라고 요구했습니다. [사실]",
+  "왜: 2021년 7월 창구 상설화 뒤 전략·금융 환경이 바뀌었고, 2020년 국가보안법 이후 홍콩의 법적·제도적 자율성이 무너졌다는 점을 이유로 들었습니다. [사실]",
+  "질의: 참가 자격 기준, 홍콩금융관리국의 위안화 유동성 인프라 역할, 이용 조건 강화 같은 단계적 조치, 접근 중단 때의 시스템 영향 등 다섯 가지를 물었습니다. [사실]",
+  "미확인: 홍콩이 이 창구를 실제로 얼마나 썼는지와 연준의 답변 시한은 보도자료에 없습니다. [미확인]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 미 하원 중국특위 보도자료(2026-10-06)로 작성. 연준·홍콩금융관리국의 반응은 확인하지 못함(CNBC 본문 열리지 않음).",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/us-lawmaker-seeks-review-of-hong-kong-s-access-to-fed-facility"
+  },
+  {
+   "o": "미 하원 중국특위 보도자료(1차 자료)",
+   "d": "2026-10-06",
+   "u": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-review-hong-kong-s-access-to-federal-reserve-s-liquidity-tool"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "US Lawmaker Seeks Review of Hong Kong’s Access to Fed Facility"
+}

@@ -1,184 +1,168 @@
-# 핸드오프 — 수집 점검, 7~10월 텔레그램 소급 분석, 7월 카드·한줄 요약, 개편 시안
+# 핸드오프 — 데스크 한줄 목록 개편, 블룸버그·로이터 62건, 텔레그램 10월 6~8일 후보 46건
 
-작성 시점: 2026-10-08 07시 무렵(KST). 이 세션은 Claude Code 클라우드 세션(저장소 gyucheol/news-desk, 브랜치 claude/zen-tesla-ez7jin)에서 진행했습니다. 작업물은 저장소에 커밋했고, 저장소에 넣지 않은 원자료(텔레그램 덤프, DB 스냅샷)는 함께 드린 압축 파일(작업본-v4.zip)에 들어 있습니다. 이전 핸드오프(2026-10-04)의 내용 중 아직 유효한 것은 다시 적었습니다.
+작성 시점: 2026-10-08 08시 30분 무렵(KST). 이 세션은 claude.ai 프로젝트 "to be rich"에 붙은 클라우드 세션이었고, 저장소(gyucheol/news-desk)에는 연결되지 않았습니다. 그래서 커밋은 하지 않았고, 오늘 만든 파일은 함께 드린 압축 파일(작업본-v5.zip)의 저장소 폴더 구조 안에 넣었습니다. 직전 핸드오프(같은 날 07시)는 HANDOFF-prev-2026-10-08-07h.md로 남겼습니다. 다음 작업은 사용자 결정에 따라 Claude Code(네트워크를 연 환경)에서 이어갑니다.
 
 ---
 
 ## 1. 한눈에 보기
 
-1. 수집 점검: 텔레그램 11개 채널은 정상으로 받을 수 있습니다(새로 알려 주신 w_compass 포함). 블룸버그·로이터는 사이트맵(제목 목록)만 받을 수 있고 본문은 막혀 있습니다(블룸버그 403, 로이터 401).
-2. DB는 이번 세션에서 한 번도 쓰지 않았습니다. news 161건, meta/progressV4 v10, meta/newsSeen v4(575줄), chains 9곳 모두 10월 4일 핸드오프 때와 같습니다.
-3. 7월 1일~10월 4일 텔레그램 11개 채널의 글 25,603개를 모두 받아, 서브 에이전트 10개로 산업 흐름 기준 선별을 했습니다. 요약 후보는 757건(우선순위 상 167건)이고, 월별로 7월 265, 8월 220, 9월 224, 10월 34, 날짜 미상 14입니다.
-4. 7월 후보 265건으로 긴 요약 카드 252장을 만들었고(형식 검사 통과), 사실 재확인은 주간 사용 한도에 걸려 일부만 끝났습니다.
-5. 사용자가 구상한 개편안(0~6번)의 맛보기 페이지를 따로 게시했습니다: https://claude.ai/artifact/KoBvVaCnezrK2FBtwogTPn (Version 2). 도시바 HDD 증설 1건을 투자 인사이트 단계까지 펼친 예시와, 7월분 '제목 + 한줄 요약' 252건 목록이 들어 있습니다.
-6. 결정 대기: 실제 데스크를 개편할지, 7월분을 어떤 형식으로 DB에 저장할지, 8~10월분을 어떻게 처리할지, 블룸버그·로이터 본문을 어디서 읽을지(4절).
+1. 데스크를 사용자의 0~6번 구상대로 개편해 같은 주소에 게시했습니다(Version 40). 목록은 번호 없이 제목 + 한줄 요약, 날짜별(최근이 위), 뉴스마다 '자세히' 체크와 '읽음 표시'가 있습니다.
+2. 예전 요약 카드 161건은 meta/chainsLog.applied로 161건 모두 산업 한 페이지 반영을 확인하고 목록에서 숨겼습니다. 삭제하지 않았고 '이전 기록 › 요약 카드'에서 봅니다.
+3. 블룸버그·로이터 10월 1~7일분 62건을 제목+한줄 형식으로 DB에 저장했습니다(블룸버그 53, 로이터 8, 텔레그램 1). 10월 8일자는 0건입니다.
+4. 이 62건은 사이트맵 전체 목록이 아니라 웹 검색에 잡힌 제목으로 만든 것이라 빠진 기사가 있습니다. 특히 로이터가 그렇습니다. 사용자도 이 점을 지적했습니다.
+5. 텔레그램 10월 6~8일: 11개 채널 글 목록을 받아 관심 산업 글 46건을 골라 두었고(data/tg-2026-10-06-08/), 요약 작성과 저장은 하지 않았습니다. 사용자가 "Claude Code에서 토큰 적게 쓰는 방식(덤프)으로 진행"하기로 했습니다.
+6. 이 세션 환경은 셸의 외부 접속이 정책으로 막혀 있었습니다(t.me, bloomberg, reuters, 검색 사이트 모두 403). WebSearch·WebFetch만 됐습니다.
 
 ---
 
 ## 2. 대상과 환경
 
-- 데스크 페이지: "다운턴 뉴스 선별 데스크" https://claude.ai/artifact/1QxhURJDYUkJG1Je8g9ARB — Version 39 그대로이며 이번 세션에서 손대지 않았습니다. DB 컬렉션 news·items·chains·meta.
-- 개편 시안: "다운턴 데스크 개편 시안" https://claude.ai/artifact/KoBvVaCnezrK2FBtwogTPn — 데스크와 별개인 미리보기입니다. DB와 연결되지 않았고, 체크·읽음은 보는 사람의 브라우저(localStorage)에만 남습니다. 게시 파일은 index.html, july.json, fonts/PretendardVariable.woff2이고, 원본은 저장소 design/redesign-preview.html, design/july.json입니다.
-- 저장소: github.com/gyucheol/news-desk, 브랜치 claude/zen-tesla-ez7jin. work/ 폴더는 .gitignore로 빠져 있습니다.
-- 클라우드 환경 네트워크: 사용자가 처음에 Custom(t.me, www.bloomberg.com, www.reuters.com)으로 열었다가, 재확인을 위해 더 넓은 단계로 바꿨습니다. curl로는 대부분의 사이트가 열리지만 cnbc·investing·forbes·tmcnet은 사이트가 자체로 403을 줍니다. WebFetch 도구는 yahoo·forbes·msn 등 여러 도메인을 EGRESS_BLOCKED로 막아서, curl을 쓰는 tools/websearch.py --fetch로 대신 읽었습니다.
-- 웹 검색 한도: WebSearch 도구는 세션 전체(서브 에이전트 포함)에서 200회가 한도였고 두 번 바닥났습니다. 사용자 승인을 받아 tools/websearch.py(빙 뉴스 RSS, 구글 뉴스 RSS, 빙 검색을 curl로 읽음)를 대체 검색으로 씁니다. 한도 안내에는 "더 필요하면 사용자에게 한도 상향을 요청하라"고 나왔고, 그래서 사용 전에 승인을 받았습니다.
-- 사용 한도: 10월 7일 주간 한도("resets Oct 7, 12pm UTC")에 걸려 서브 에이전트 다수가 중간에 멈췄습니다. 세션 정보의 7일 한도 상태가 'rejected'로 표시된 적이 있는데 정확한 의미는 확인하지 못했습니다.
-- 모델·노력: 모델은 Opus 5.5이고, 사용자가 세션 노력 수준을 max로 바꿨습니다(10월 7일 확인). 서브 에이전트는 model을 opus로 지정해 띄웠습니다. 서브 에이전트별 노력 수준은 따로 지정할 수 없어 세션 설정을 따른다고 추정합니다.
-- Chrome 확장: 사용자가 Chrome에 Claude 확장을 설치했지만, 클라우드 세션은 사용자 컴퓨터에 닿지 않아 쓸 수 없습니다. 블룸버그·로이터 본문을 Chrome으로 읽으려면 사용자 컴퓨터에서 도는 세션(데스크톱 앱 또는 `claude remote-control`)이 필요합니다.
+- 데스크: "다운턴 뉴스 선별 데스크" https://claude.ai/artifact/1QxhURJDYUkJG1Je8g9ARB — Version 40(2026-10-08). 게시 파일은 index.html과 fonts/PretendardVariable.woff2(글꼴은 그대로 유지). 기능 선언(db 규칙 2개, user)은 그대로 이어받았습니다.
+- 개편 시안(별도 미리보기): https://claude.ai/artifact/KoBvVaCnezrK2FBtwogTPn — 손대지 않았습니다.
+- DB 현재 상태: news 223건(예전 161 + 새 62), meta/progressV4 v11, meta/newsSeen v5(637줄), meta/newsTools v4, chains 9곳은 이 세션에서 쓰지 않았습니다(10월 4일 핸드오프 때와 같음).
+- 예약 작업: '산업 한 페이지 저녁 업데이트'(매일 20:47 KST, trig_014res2hazUFUcx55wHPWtoU)는 손대지 않았습니다. 10월 7일 실행은 사용 한도로 실패했습니다(USAGE_LIMIT_REACHED). 10월 8일 실행이 새 62건을 반영하는지 확인이 필요합니다.
+- 프로젝트 문서: claude/desk-one-line-format.md(새 형식과 절차, 오늘 작성). claude/news-runbook.md의 4~7절(긴 카드 형식)은 이 문서로 대체됐습니다.
+- 메모리 파일은 쓰지 않았습니다.
 
 ---
 
 ## 3. 한 일
 
-### 3-1. 수집 점검과 도구
+### 3-1. 데스크 개편 (Version 40)
 
-1. 채널 11개: Onionfarmer(양파농장), The_MariTimes(카드 표기 Polaristimes, 같은 채널), insidertracking(미국 주식 인사이더), HANAchina(하나증권 중국전략), TNBfolio, w_compass(부의 나침반, 신규), Trillion_labs(트릴리온), cahier_de_market(카이에 de market), PipeBeom(상상인 김진범), kkkontemp(KK Kontemporaries), Badonions(나쁜양파).
-2. w_compass는 기존 기록에 없던 채널입니다. 사용자 지시로 다른 산업 채널처럼 8월 15일분부터 소급하기로 했고(8월 15일 첫 글 6641번), 실제로는 7월 1일분부터 덤프에 넣었습니다. progressV4에는 아직 이 채널 위치를 넣지 않았습니다.
-3. 저장소 도구(tools/)
-   - tgcollect.py: new(새 글), back(소급), find(날짜로 시작 번호 찾기), dump(날짜부터 전체를 JSONL로 저장). 원본 HTML은 출력하지 않고 짧은 목록만 보여 줍니다.
-   - tg_split.py: 덤프를 산업별 후보 파일(work/split/)로 나눕니다. 카드화한 글, 짧은 글, 채널 간 중복을 빼고, 예전에 훑은 구간(R)과 처음 보는 구간(N)을 표시합니다.
-   - sitemap_list.py: 블룸버그·로이터 뉴스 사이트맵의 제목만 받아 관심 산업 키워드로 거릅니다.
-   - websearch.py: 대체 검색(빙 뉴스, --gnews, --web, --lang ko|ja)과 기사 본문 키워드 추출(--fetch 주소 --grep 단어).
-   - cardkit/: 이전 작업본의 cardlib.py, check_cards.py, hlcheck.py, mk.py, verify.py, mkcards_1002n.py(카드 예시), GUIDE.md, GUIDE-short.md.
-4. RUNBOOK.md: 세션 시작, 텔레그램 수집, 블룸버그·로이터 목록, 저장 절차.
+1. 탭: 뉴스 / 산업 한 페이지 / 이전 기록.
+2. 뉴스 탭
+   - 날짜별 묶음(최근 날짜가 위), 뉴스마다 산업·출처, 제목, 한줄 요약, 원문 링크, '근거와 출처'(사실 2~4줄, 확인 메모, 확인에 쓴 출처) 접힘.
+   - '자세히' 체크는 DB data/users/<id>/detailReq {ids, done}에, '읽음'은 reads {ids}에, '투자 인사이트도 받기'는 insightReq {ids, done}에 저장됩니다.
+   - 출처(전체·블룸버그·로이터·텔레그램), 산업 칩, 검색, 안 읽은 것만, 체크한 것만, 모두 읽음(확인 단계 있음), 80건씩 더 보기.
+   - 체크가 있으면 화면 아래에 '요청 문구 복사' 막대가 뜹니다.
+   - 문서에 detail이 있으면 체크 대신 '자세한 정리 보기' 버튼이 나오고, insight2가 있으면 산업 구조·뒤집어 보기·후보 기업이 이어서 나옵니다.
+3. 산업 한 페이지: 예전 코드 그대로입니다.
+4. 이전 기록: '요약 카드'(예전 161건, 눌러서 펼침)와 '개편 전 기록'(items 컬렉션) 세 가지 보기. 산업 한 페이지의 출처 칩을 누르면 새 형식은 뉴스 목록으로, 예전 카드는 이전 기록으로 갑니다.
+5. 뺀 것: 묶음·타임라인·지표판 보기(예전 카드의 신호 태그·국면 판정에 기대던 화면). Version 39 코드는 desk/parts/v39.html에 있습니다.
+6. 숨김 기준: 문서에 one 필드가 없으면 예전 카드로 봅니다. DB의 예전 카드는 고치지 않았습니다.
+7. 확인: DB 사본을 붙인 시험 화면(1200·400 너비)에서 목록, 체크 저장, 읽음, 필터, 자세한 정리 펼침, 산업 탭, 이전 기록을 확인했고 오류와 가로 넘침은 없었습니다. 실제 페이지에서는 사용자가 처음 체크할 때 detailReq 문서가 생깁니다(아직 없음).
 
-### 3-2. 7월 1일~10월 4일 텔레그램 소급 분석
+### 3-2. 블룸버그·로이터 10월 1~7일 62건
 
-1. 덤프 25,603개. 채널별로 insidertracking 7,567, HANAchina 4,795, Trillion_labs 4,368, The_MariTimes 2,360, Badonions 1,460, PipeBeom 1,101, w_compass 1,072, TNBfolio 953, Onionfarmer 877, cahier_de_market 836, kkkontemp 214개입니다.
-2. 이미 카드로 쓴 글 231, 짧은 글 4,304, 채널 간 중복 2,033을 빼면 19,035개가 남습니다. 이 가운데 한 번도 검토하지 않은 글이 13,334개, 예전에 다른 기준(보유·관심 6개 묶음)으로 훑고 넘긴 글이 5,701개입니다.
-3. 키워드와 반복 시황 필터로 약 1만 2천 줄을 남겨 서브 에이전트 10개(전력 2, 가스·석탄, 원전·시추·석화, 일본 보험·화장품, 반도체 3, 매크로 2)가 읽었습니다.
-4. 결과: 후보 945건을 같은 글끼리 묶어 813건, 그중 기존 카드와 겹치는 56건을 빼 757건입니다. 새 사건 647, 기존 카드 후속 67, 10월 2일 미뤄 둔 후보 43(에이전트가 빠뜨린 Trillion_labs 9925는 수동 추가)입니다. 산업별로 매크로 212, 반도체 209, 전력 164, 가스 46, 석화·정유 35, 일본 보험 33, 원전 25, 시추 13, 석탄 10, 화장품 9이고, 우선순위 상은 167건입니다.
-5. 산업별 월별 흐름 요약은 에이전트별 결과 JSON의 flow 필드에 있습니다. 저장 위치는 data/tg-2026-07-10/입니다(에이전트별 JSON, merged.json, README.md, 선별 지시서 PROMPT.md).
+1. 방법: 분야별 서브 에이전트 8개(Opus). 블룸버그는 WebSearch(allowed_domains bloomberg.com)로 제목·주소를, 로이터는 tradingview.com 검색에 나온 로이터 제목을 찾고, 사실은 독립 매체·1차 출처를 WebFetch로 읽어 확인했습니다. 두 매체 본문과 전재본은 열지 않았습니다.
+2. 결과: 64건 → 같은 사건 2건을 합쳐 62건.
+   - id: n-bbg-0049~0101(53건), n-rtr-0013~0020(8건), n-tg-0102(도시바 HDD 증설, 텔레그램 하나증권 중국전략 69767 — 시안의 자세한 정리와 투자 인사이트를 detail·insight2로 함께 저장).
+   - 날짜: 10-07 18, 10-06 17, 10-05 11, 10-04 1, 10-03 1, 10-02 7, 10-01 7.
+   - 분야: 매크로 21, 반도체·AI 투자 10, 전력 7, 가스·LNG 7, 석화·정유 5, 원전 4, 석탄 4, 일본 보험 4. 시추·화장품 0.
+   - basis: verified 대부분, partial 13건 안팎(각 문서의 check에 미확인 내용 기록).
+3. 표본 대조(메인 세션): 4건의 출처를 다시 열어 2건(구글–콘스텔레이션, 아람코 11월 가격)은 수치 일치, 2건(뉴욕 연은 기대인플레이션, 에퀴노르 함메르페스트)은 그 페이지에서 수치를 읽지 못해 대조 못 함.
+4. 저장 후 재조회: 62건 모두 만든 파일과 일치.
+5. 확인 못 해 뺀 제목 약 30건은 meta/progressV4.bloomberg.note에 있습니다(베선트 부채 감축 계획·20년물 폐지·워런의 바이백 질의, 삼성전자 3분기 잠정실적, 이란 석유장관 사임, 이라크 디나르 절하 등). 이전 note는 bloomberg.notePrev로 옮겼습니다.
+6. 토큰: 에이전트 8개 합계 약 129만(건당 약 2만), WebSearch 176회.
 
-### 3-3. 7월 긴 카드와 재확인
+### 3-3. 텔레그램 10월 1~8일 집계와 10월 6~8일 후보
 
-1. 7월 후보 265건을 서브 에이전트 10개가 카드 252장으로 썼습니다. 건너뛴 것은 14건입니다(근거 약함, 6월 발표 재전달, 수치 없는 한 줄 주장 등). 252장 전체가 check_cards와 hlcheck에서 문제 0, 경고 0이었고 강조 비율은 65%입니다. 저장 위치는 data/cards-2026-07/(카드 252장, _reports/ 배치별 보고, _PROMPT.md 작성 지시서)입니다.
-2. 처음 작성 때 웹 검색 한도와 접속 차단으로 252장 중 228장에 '확인하지 못했습니다'가 남았습니다.
-3. 재확인(238장, 노력 max, Opus)은 v01과 v02만 끝났습니다. 나머지 8개는 주간 한도로 중간에 멈췄지만, 그때까지 고친 카드는 저장돼 있습니다. 저장 위치는 data/cards-2026-07-verify/vNN/(고친 카드, _report.json, _unverified.json)과 _VERIFY.md(재확인 지시서)입니다.
-4. v06의 tg-The_MariTimes-61432 카드는 고치던 중이라 check_cards에서 문제 1건(check 문장 안에 띄어쓰기 없는 41자 이상 문자열)이 남아 있습니다.
-
-### 3-4. 개편 시안(맛보기)
-
-1. 사용자의 개편 구상(0번 제목+한줄 요약·번호 삭제, 1번 자세히 체크, 2번 읽음 버튼, 3번 자세한 정리, 4번 투자 인사이트, 5번 뒤집어 생각하기와 후보 기업, 6번 산업 한 페이지 유지)을 한 화면에 보여 줍니다.
-2. 예시 뉴스는 10월 2~6일 5건(도시바 HDD 증설, TDK 헤드 사업 인수 경쟁 보도와 도시바 부인, G7 비축유 1억 배럴, 비스트라 원전 42억 달러 조건부 대출, JERA "카타르 LNG 곧 안 돌아온다")이고, 도시바 건을 5단계까지 펼쳤습니다.
-3. 후보 기업은 씨게이트, 웨스턴디지털, 호야, TDK(조건부)를 골랐습니다. 탈락은 도시바(2023년 상장폐지)와 레조낙, 보류는 닛토덴코입니다. 주가 기준은 10월 7일입니다(미국 장중, 일본 종가). 미국 재무는 SEC 공시, 일본 재무는 stockanalysis.com 자료입니다.
-4. 문장마다 근거 표시를 붙였습니다(사실, 회사 발표, 증권사, 추론, 미확인).
-5. 7월 실제 분량 목록(Version 2): 252건을 산업별로 걸러 보기, 날짜순 정렬, 안 읽은 것만 보기, 40건씩 더 보기가 됩니다. 체크하면 하단 '요청 문구 복사'에 카드 key가 함께 들어갑니다.
-
-### 3-5. 7월 '제목 + 한줄 요약' 252건
-
-1. 사용자의 '서브 에이전트를 사용하여 수행' 지시에 따라, 서브 에이전트 5개(Opus)가 긴 카드(재확인본이 있으면 그쪽)에서 제목과 한줄 요약을 만들었습니다. 새 웹 조사는 하지 않았습니다.
-2. 한줄 요약은 사용자 규칙을 따릅니다. 구조는 '[주체]가 [핵심 행동·변화]하면서 [대상에 미치는 영향]'이고, 규모·시점·원인 중 하나를 넣었습니다. 82~124자, 평균 109자이고, '업황 개선 기대' 같은 표현과 강조·번호는 쓰지 않았습니다.
-3. 근거 정도: 다른 매체로 확인 208, 일부 미확인 28, 채널 주장 위주 16(문장 끝에 '(채널 전언)'). 제목 4건은 메인 세션이 내용에 맞게 고쳤습니다.
-4. 산업 분류(반도체는 macro/semis 노드 기준): 반도체 100, 매크로 52, 전력 43, 가스 16, 일본 보험 11, 원전 10, 석화 8, 시추 6, 화장품 3, 석탄 3.
-5. 저장 위치: data/oneliners-2026-07/july_final.json(작성 지시서 PROMPT.md 포함), 시안용 사본 design/july.json.
-
----
-
-## 4. 남은 일과 결정 대기
-
-1. 실제 데스크 개편 여부: 사용자 답이 없습니다. 작업 범위를 묻는 질문에는 '선호 없음'으로 답하셨습니다. 개편한다면 할 일은 아래와 같습니다.
-   - 목록에서 번호를 지우고 제목+한줄만 보이게 하기
-   - '자세히' 체크를 DB에 저장하기(지금 데스크의 투자 인사이트 체크 기능을 넓히는 방식이 자연스러울 것으로 보입니다. 추론입니다)
-   - 읽음 버튼(데스크에 이미 읽음 상태가 있는지 확인 필요)
-   - news 문서에 title·one 필드 추가
-   - 기존 161건 처리 방법
-2. 7월분 DB 저장 형식: 한줄 형식(july_final.json)으로 저장할지, 긴 카드로 저장할지(그 경우 재확인 v03~v10을 마저 해야 함) 결정이 필요합니다. 저장할 때는 progressV4·newsSeen을 다시 읽어 if_version을 맞춥니다(현재 v10, v4). 번호는 n-tg-0102부터입니다.
-3. 8~10월 후보: 8월 220, 9월 224, 10월 34, 날짜 미상 14건(data/tg-2026-07-10/merged.json). 사용자는 "7월꺼부터"라고 했습니다.
-4. 10월 4일 이후 텔레그램 새 글은 아직 받지 않았습니다. 시작 위치는 progressV4.telegram.new(10월 2일 21시 기준)이고, 덤프로 10월 4일까지 받았으므로 dump 파일의 마지막 번호 다음부터 받으면 됩니다. w_compass는 7172번부터입니다.
-5. 산업 한 페이지(chains)에 7월 흐름 반영: 사용자가 '흐름도 반영'을 골랐지만, 재확인 뒤로 미뤄 아직 하지 않았습니다. 매일 20:47 예약 작업과 충돌하지 않게 저장 직전에 다시 읽고 if_version을 걸어야 합니다.
-6. 블룸버그·로이터: 사이트맵 목록은 됩니다(10월 2일 21시 UTC 이후 블룸버그 125건 중 키워드 해당 29건, 10월 1일 10시 UTC 이후 로이터 776건 중 146건 확인). 본문은 사용자 컴퓨터 세션의 Chrome 확장으로만 읽을 수 있습니다.
-7. 이전 핸드오프에서 미결이던 일은 그대로입니다(사이클 위치 블록 이동, 전력·우라늄 강조 재표시, 강조 기준 규칙화, Tossface 글꼴).
+1. 10-08 07:40 기준 채널별 최신 번호와 덤프 마지막 번호 차이는 1,086개, 실제 글은 약 990개로 추정했습니다(앨범 묶음 보정).
+2. 10월 6일 0시(KST) 이후 글 목록을 WebFetch로 받았습니다(약 50회 호출, 목록 화면 요지만). 시각은 UTC로 나오고 날짜는 시각 흐름으로 맞췄습니다.
+3. 10월 6일 0시(KST) ~ 10월 8일 08시 20분 무렵의 채널별 번호 범위(시작~끝)
+   - HANAchina 69901~70036
+   - Trillion_labs 10028~10152
+   - The_MariTimes 63520~63583
+   - insidertracking 65439~65698
+   - Badonions 7633~7708
+   - PipeBeom 6605~6643
+   - w_compass 7178~7217
+   - TNBfolio 71436~71463
+   - Onionfarmer 18024~18043
+   - cahier_de_market 10926~10948
+   - kkkontemp 2728~2730
+4. 후보 46건: data/tg-2026-10-06-08/T1~T5.json(분야별), candidates.txt(한 줄씩). 필드는 post, key, channel, url, published(KST), gist, inds, nodes, also(같은 사건을 다룬 다른 글).
+   - T1 반도체 9건: 삼성전자 3분기 잠정실적, 솔리다임 미국 IPO, 난야 D램 계약가 20% 인상, 마이크론 대만 노조 파업 투표, 마벨 투자자의 날, TSMC 성숙공정 인상, 삼성전기 FC-BGA 투자, MLCC 현물가, 아시아 GPU 담보 대출.
+   - T2 AI 자금·데이터센터 11건: 오라클 위스콘신 지연, 모건스탠리 32GW 부족, 스페이스X CDS, 오픈AI 300억 달러 조달, 딥시크 800억 위안, 메타·MS의 클로드 축소, 데이터센터 건설 지출, 데이원 IPO, 미 8월 무역적자, 부실 레버리지론, 데이터센터 반대 여론.
+   - T3 매크로 9건: 인도 금리 인상, 영국 30년물 6%, 프랑스 금리차, 인민은행 금, 신흥국 자금 유출, EU 하이브리드 세이프가드, 휘발유세 유예 검토, 베선트 재무부(WSJ), 일본 실질임금.
+   - T4 유가·정유·시추·가스 11건: EIA 브렌트 전망, VLCC 운임, 메카 방위동맹, 정유소 가동 중단 2곳, 골드만 경유 전망, 앵글로–텍 합병, 해양 FID 전망(우드매켄지), 산토스–트랜스오션, 중국 심층·심해 개발, 에너지 트랜스퍼 인수, 중국 민간 정유사 원유 조달.
+   - T5 전력·원전·석탄 6건: 붐–크루소 터빈 계약 취소, 포스코퓨처엠–삼성SDI, 한·미 원전 8기, 웨스팅하우스 로열티, GLO 우라늄 자금 부족, 우크라이나 철강 중단.
+5. 주의: 요지(gist)와 숫자는 목록 화면에서 소형 모델이 뽑은 것이라 틀릴 수 있습니다. 덤프 원문으로 다시 확인해야 합니다. 이미 올린 62건과 겹치는 글은 뺐지만(구글–콘스텔레이션, 브로드컴·스페이스X 자금 조달, TDK, AMD, 연준 의사록, 미 10년물 입찰 등), 저장 전 seen으로 다시 대조하세요.
+6. 고르지 않은 것: 시황·잡담·개별 종목 주가, 바이오, 전쟁 속보, 9개 분야 밖 원자재(은·니켈·텅스텐), 단일 기업 실적.
 
 ---
 
-## 5. 이어서 하는 절차
+## 4. 남은 일
+
+1. 텔레그램 10월 6~8일 (다음 작업, Claude Code): 5절 절차대로 덤프 → 후보 46건 원문 확인 → 제목+한줄 작성 → 저장. 번호는 n-tg-0103부터.
+2. 블룸버그·로이터 보완: 사이트맵으로 10월 1~8일 제목을 받아 이미 저장한 62건(work/seen_urls.txt)과 대조하고 빠진 것을 채웁니다. 10월 8일자는 0건이라 새로 받아야 합니다.
+3. 9월 30일 이전으로 거슬러 올라가기(사용자 지시: 오늘부터 날짜 역순). 7월 텔레그램 한줄 252건(data/oneliners-2026-07/july_final.json)은 차례가 오면 저장합니다.
+4. 텔레그램 10월 1~5일: 선별만 하고 요약하지 않은 후보 33건(data/tg-2026-07-10/merged.json의 10월분, 도시바 건 제외)과 10월 4~5일 미수집분.
+5. 사용자가 페이지에서 체크하면: '자세히' 요청은 detailReq.ids, 투자 인사이트 요청은 insightReq.ids를 읽어 news/<id>.detail, insight2에 씁니다(6절 형식).
+6. 저녁 예약 작업의 10월 8일 실행 결과 확인.
+7. 이전 핸드오프의 미결(사이클 위치 블록, 강조 기준 규칙화, Tossface 글꼴 등)은 개편으로 대부분 해당 화면이 빠졌습니다. 필요 여부는 사용자에게 확인하세요.
+
+---
+
+## 5. 이어서 하는 절차 (Claude Code)
 
 1. 세션 시작
-   - 저장소를 받고 브랜치 claude/zen-tesla-ez7jin을 체크아웃합니다.
-   - 압축 파일의 work/를 저장소 work/에 풉니다(덤프·DB 스냅샷·한줄 작업 폴더).
-   - DB를 새로 받습니다: ArtifactData list(meta, news, chains, items; out_dir=work/live).
-   - 이미 처리한 주소 목록 work/seen_urls.txt를 만듭니다(RUNBOOK.md 0절의 한 줄 명령).
-   - 네트워크를 확인합니다: curl -s -o /dev/null -w '%{http_code}' https://t.me/s/HANAchina → 200.
-2. 텔레그램 새 글
-   - python3 tools/tgcollect.py new <채널> <시작id>
-   - 많이 받을 때는 python3 tools/tgcollect.py dump <채널> <YYYY-MM-DD> work/dump/<채널>.jsonl, 그다음 python3 tools/tg_split.py [시작날짜]
-3. 서브 에이전트 지시서(그대로 재사용 가능)
-   - 선별: data/tg-2026-07-10/PROMPT.md
-   - 긴 카드: data/cards-2026-07/_PROMPT.md
-   - 재확인: data/cards-2026-07-verify/_VERIFY.md
-   - 한줄 요약: data/oneliners-2026-07/PROMPT.md
-   - 에이전트마다 자기 폴더만 쓰게 하세요(공용 scratchpad에서 보조 스크립트가 서로 덮어쓴 일이 있었습니다).
-4. 카드 검사: 카드가 cards/ 하위 폴더에 있는 위치에서 python3 tools/cardkit/check_cards.py && python3 tools/cardkit/hlcheck.py를 실행합니다(같은 위치에 seen.txt 필요).
-5. DB 저장(긴 카드 기준): tools/cardkit/mk.py에 --dump --log --new --pv --sv를 줘서 실행하면 WRITES 줄이 나옵니다. 이를 ArtifactData batch(50건씩)로 저장하고 verify.py로 대조합니다.
-6. 시안 수정: design/redesign-preview.html을 index.html로, design/july.json을 july.json으로 한 폴더에 두고 Artifact publish(url=시안 주소)합니다. 다른 대화에서는 먼저 read가 필요합니다. 글꼴 파일은 files를 생략하면 유지됩니다.
+   - 저장소를 받고 압축 파일의 내용을 저장소에 풉니다(desk/, tools/mk_one.py, tools/conv_preview.py, data/bbg-rtr-2026-10-01-08/, data/tg-2026-10-06-08/, work/). 커밋은 사용자가 요청할 때 합니다.
+   - DB를 새로 받습니다: ArtifactData list(meta, news, chains; out_dir=work/live). progressV4·newsSeen의 version을 적어 둡니다(지금 11, 5).
+   - 네트워크 확인: curl -s -o /dev/null -w '%{http_code}' https://t.me/s/HANAchina → 200이어야 합니다.
+2. 텔레그램 10월 6~8일
+   - 덤프: python3 tools/tgcollect.py dump <채널> 2026-10-04 work/dump/<채널>.jsonl (기존 덤프가 10월 2~4일에서 끝나므로 이어 붙이거나 새 파일로 받습니다. 덤프 마지막 번호: HANAchina 69817, Trillion_labs 9990, The_MariTimes 63492, Badonions 7631, PipeBeom 6593, w_compass 7171, TNBfolio 71431, Onionfarmer 18010, cahier_de_market 10924, insidertracking 65316, kkkontemp 2727).
+   - 후보 46건의 글 번호로 덤프 원문을 뽑아(also에 적힌 글 포함) 에이전트에게 원문과 함께 넘기면 목록·embed 호출이 필요 없습니다.
+   - 작성 지시서는 data/bbg-rtr-2026-10-01-08/PROMPT.md의 4~6절(제목·한줄·사실 규칙, 산업·노드 id, 출력 형식)을 그대로 쓰고, 1~3절(제목 찾기)만 '주어진 텔레그램 글의 내용을 독립 출처로 확인'으로 바꿉니다. key는 tg-<채널>-<번호>, source "텔레그램", channel은 표기 이름(트릴리온, 하나증권 중국전략, TNBfolio, 상상인 김진범, Polaristimes, 미국 주식 인사이더, 나쁜양파, 양파농장, 카이에 de market, 부의 나침반, KK Kontemporaries), basis는 verified·partial·channel(채널 주장 위주면 한줄 끝에 '(채널 전언)').
+   - 후보에 없는 좋은 글이 덤프에서 보이면 더합니다. 10월 8일 08시 20분 이후 새 글도 받습니다.
+3. 저장
+   - tools/mk_one.py <DB 사본 폴더> <processed 날짜>가 out/A*.json 꼴의 결과를 합쳐 newsdocs/와 meta_out/(progressV4, newsSeen)을 만듭니다. 합치기(merge)와 도시바 예외 처리 줄은 10월 8일 자료용이므로 지우거나 고쳐 쓰세요. 경로(out/, newsdocs/, meta_out/)는 실행 위치 기준입니다.
+   - ArtifactData batch(50건씩; progressV4·newsSeen은 if_version 지정) → news를 processed 날짜로 query해 newsdocs와 대조.
+4. 블룸버그·로이터 보완: python3 tools/sitemap_list.py bbg|rtr <since ISO UTC>로 제목을 받아 work/seen_urls.txt에 없는 것만 봅니다. 로이터로 저장한 8건의 url은 tradingview 주소라 seen_urls와 주소가 다릅니다. 제목으로 대조하세요.
+5. 화면 수정: desk/parts/의 new.css, tail.css, body.html, js1.js, js2.js를 고치고 python3 desk/parts/build.py desk/parts/v39.html desk/index.html로 조립한 뒤 Artifact publish(url=데스크 주소). 다른 대화에서는 먼저 Artifact read가 필요합니다. build.py는 v39.html의 줄 범위(산업 한 페이지, 카드 본문, 개편 전 기록 코드)를 그대로 가져다 씁니다.
+6. 시험 화면: desk/test/shot.js(플레이라이트). DB 사본으로 window.claude를 흉내 내는 시험 페이지를 만들어 띄우는 방식이며, 만드는 스크립트는 이 문서 6절 메모를 참고해 다시 써야 합니다(시험 페이지 자체는 압축 파일에 넣지 않음).
 
 ---
 
 ## 6. 기술 메모
 
-1. 데이터 경로
-   - 주가: Yahoo 차트 API(https://query1.finance.yahoo.com/v8/finance/chart/<티커>?range=6mo&interval=1d), curl로 됩니다.
-   - 미국 재무: SEC EDGAR companyfacts(https://data.sec.gov/api/xbrl/companyfacts/CIK<10자리>.json, User-Agent에 연락처 필요).
-   - 일본 재무: stockanalysis.com 페이지 안의 데이터 배열(datekey, ncfo, capex, fcf, debt, netcash 등).
-   - stooq와 Yahoo quoteSummary(401)는 막혀 있습니다.
-2. tg_split.py의 '예전에 훑은 구간'은 8월 1일~소급 위치(BACKFILL_END)와 9월 16일~10월 2일 21시(NEW_END, 매크로 채널은 10월 1일부터)입니다.
-3. 덤프 JSONL 형식: {"id", "t"(KST ISO), "x"(본문 전문), "seen"(이미 카드화)}.
-4. 한줄 결과 필드: key, title, one, date, channel, url, inds, ind(대표 산업; 반도체는 semis), basis.
-5. 시안 페이지는 july.json을 fetch로 읽습니다(같은 아티팩트에 함께 게시). 체크·읽음 상태 키는 localStorage 'desk-preview-v1'입니다.
-6. 사이트맵 키워드 필터는 단어 단위로 맞춥니다(rig↔Religion, power↔powers 같은 오탐 방지).
+1. 뉴스 문서(format "one1"): id, feed "v5", format, num, processed, source, key, published, url, inds, nodes, title, one, headline(= title), facts, basis, check, src, tags [], cycles [], incentive "", insight {}. 선택: channel, ind("semis"), origTitle, dupOf, detail, insight2. headline·facts 등은 저녁 예약 작업이 읽으므로 남깁니다.
+2. 한줄 요약 규칙: '[주체]가 [핵심 행동·변화]하면서 [대상에 미치는 영향]', 규모·시점·원인 중 하나, 한 문장, '~다'로 끝, 80~130자, 마침표 없음. 제목 20~45자.
+3. detail = {updated, blocks}, insight2 = {updated, parts:[{id, tag, title, sub, blocks}]}. blocks의 종류(k): h3, h4, lead, p, dim, callout, legend, pts, num, src, chain, vc, seg, hyps, verdict, cmp, series, picks, co. 글 안 표기: {f:사실} {p:회사 발표} {a:증권사} {i:추론} {u:미확인}, [글자](주소), {{강조}}. 본보기는 news/n-tg-0102, 변환기는 tools/conv_preview.py.
+4. 화면의 산업 표시: mainInd(ind → macro/semis 노드면 semis → inds[0]). 매크로 칩은 macro 노드가 semis뿐인 뉴스를 세지 않습니다.
+5. 목록 정렬: 날짜 내림차순 → 산업 순서(반도체, 매크로, 전력, 가스, 석화, 원전, 시추, 석탄, 일본 보험, 화장품) → id.
+6. 이 세션에서 확인한 도구 동작
+   - WebSearch: allowed_domains ["bloomberg.com"]은 되고 ["reuters.com"]은 거부(HTTP 400). 로이터 제목은 allowed_domains ["tradingview.com"]으로 찾음.
+   - WebFetch: bloomberg.com 기사는 robots 차단, reuters.com은 SITE_BLOCKED. 블룸버그 사이트맵은 4월 자 낡은 사본이 돌아옴. t.me/s/<채널>?before=<번호>&nc=<임의값>은 됨(nc 없으면 낡은 화면, 날짜는 안 나오고 시각은 UTC, 가끔 글 번호 대신 조회수를 적어 냄).
+   - 시험 화면용 가짜 DB: collection(name).orderBy().limit().onSnapshot(cb), doc(path).onSnapshot/set, claude.use('db'|'user')만 흉내 내면 페이지가 돕니다.
+7. meta/newsTools.files에 mk_one.py, ONE_PROMPT.md, conv_preview.py를 더했습니다(저장소 없이 시작한 세션용 보관).
 
 ---
 
-## 7. 저장소와 압축 파일 구성
+## 7. 압축 파일(작업본-v5.zip) 구성
 
-1. 저장소(브랜치 claude/zen-tesla-ez7jin)
-   - HANDOFF.md(이 문서), RUNBOOK.md
-   - tools/(3-1절)
-   - data/tg-2026-07-10/(소급 선별 결과)
-   - data/cards-2026-07/(7월 긴 카드 252장)
-   - data/cards-2026-07-verify/(재확인 중간본)
-   - data/oneliners-2026-07/(한줄 252건)
-   - design/redesign-preview.html, design/july.json(개편 시안)
-2. 압축 파일(작업본-v4.zip)
-   - 위 저장소 파일 전부
-   - work/dump/(7월 1일~10월 4일 11개 채널 원문 덤프 25,603개)
-   - work/live/(10월 4일 받은 DB 스냅샷 meta·news·chains·items)
-   - work/brief/(산업별 요약 자료)
-   - work/oneliner/(한줄 작업 입출력)
-   - 시안 글꼴 fonts/PretendardVariable.woff2
+1. news-desk/ (저장소 구조)
+   - HANDOFF.md(이 문서), HANDOFF-prev-2026-10-08-07h.md, RUNBOOK.md
+   - desk/index.html(게시한 Version 40 원본), desk/parts/(조각 파일, build.py, v39.html), desk/test/(shot.js, shot2.js)
+   - tools/(기존 도구 + mk_one.py, conv_preview.py)
+   - data/bbg-rtr-2026-10-01-08/(PROMPT.md, out/A1~A8.json, newsdocs/ 62건, toshiba_deep.json)
+   - data/tg-2026-10-06-08/(T1~T5.json, candidates.txt)
+   - data/의 기존 폴더(7월 카드·재확인·한줄, 7~10월 선별)와 design/(시안)
+   - work/dump/(7월 1일~10월 4일 덤프), work/live/(DB 사본: meta·news 223건·chains·items — chains는 10월 8일 아침, meta·news는 오늘 쓴 것 반영), work/seen_urls.txt(637개), work/brief/, work/oneliner/
+2. handoff.md(이 문서 사본)
 
 ---
 
 ## 8. 사용자 작업 규칙 (계속 적용)
 
-1. 존댓말로, 결론을 먼저 씁니다. 표는 쓰지 않고 보고서류에는 굵은 글씨를 쓰지 않습니다.
-2. 근거가 부족하면 모른다고 밝히고 지어내지 않습니다. 추론이면 유형과 근거를 밝힙니다. 모호하면 먼저 확인 질문을 합니다.
-3. 링크로 연결되는 내용에 근거했으면 답변 끝에 Sources를 붙입니다. 이전 규칙상 게시된 페이지 주소는 사용자가 요청하지 않으면 채팅에 붙이지 않습니다. 이번 세션에서는 시안 주소를 채팅에 붙였는데, 사용자 지적은 없었습니다.
-4. "다른 건 손대지 말고": 요청 범위 밖의 데이터·기능은 바꾸지 않습니다.
-5. 같은 아티팩트를 같은 주소에 갱신하고 사본을 만들지 않습니다. 개편 시안은 데스크 사본이 아닌 별도 미리보기로 만들었습니다.
-6. 예약 작업은 명시적 동의 없이 바꾸지 않습니다. 메모리 파일은 사용자가 명시적으로 요청할 때만 씁니다.
-7. 독립적인 도구 호출은 한 번에 묶어서 보냅니다.
-8. 요청 표현
-   - "텔레 5개 ㄱㄱ": 텔레그램 요약 카드 5건
-   - "handoff해줘": 이 문서와 압축 파일
-9. 무거운 작업은 서브 에이전트로 합니다(사용자 요청). 요약은 Opus 5.5, 노력 최대로 합니다(사용자 요청).
-10. 토큰을 적게 쓰는 방법을 선호합니다. 수집 방식도 그 기준으로 골랐습니다(텔레그램은 세션에서 직접 curl, 블룸버그·로이터는 목록만 보고 고른 기사만 본문).
-11. 대체 검색 도구(tools/websearch.py) 사용은 승인을 받았습니다.
+1. 존댓말, 결론 먼저. 표는 쓰지 않고 보고서류에는 굵은 글씨를 쓰지 않습니다.
+2. 근거가 부족하면 모른다고 밝히고 지어내지 않습니다. 추론이면 유형과 근거를 밝힙니다.
+3. 링크에 근거했으면 답변 끝에 Sources. 게시된 페이지 주소는 요청이 없으면 채팅에 붙이지 않습니다.
+4. 요청 범위 밖의 데이터·기능은 바꾸지 않습니다. 예약 작업과 메모리는 명시적 요청이 있을 때만 바꿉니다.
+5. 같은 아티팩트를 같은 주소에 갱신합니다.
+6. 요청 표현: "handoff해줘" = 이 문서와 압축 파일. "텔레 5개 ㄱㄱ" = 텔레그램 5건. "체크한 뉴스 자세히 정리 요청" = detailReq.ids 처리.
+7. 무거운 작업은 서브 에이전트(Opus)로 하되, 토큰을 적게 쓰는 방법을 우선합니다. 텔레그램은 덤프(curl) 방식, 블룸버그·로이터는 사이트맵 목록을 쓰라는 것이 사용자 뜻입니다(10-08 재확인).
+8. 정리 순서는 최근 날짜부터 거꾸로. 텔레그램은 10월 8·7·6일을 먼저.
+9. 새 대화로 시작하는 편이 토큰이 덜 듭니다(긴 대화는 약 43% 더 듦, 예전 측정).
 
 ---
 
 ## 9. 알려진 한계
 
-1. 한줄 요약은 긴 카드에 든 사실만으로 썼고 새로 확인하지 않았습니다. 채널 주장 위주 16건과 일부 미확인 28건이 섞여 있습니다.
-2. 7월 긴 카드의 재확인이 끝나지 않았습니다(238장 중 v01·v02 48장 완료, 나머지는 부분 수정).
-3. 후보 선별은 에이전트가 본문 앞 160자만 보고 했습니다. 카드 작성 단계에서 원문 전문을 다시 읽었습니다.
-4. 시안의 투자 분석에는 한계가 있습니다.
-   - 호야의 부문 수치·점유율은 회사 자료를 인용한 개인 분석 글에서 가져왔습니다.
-   - 로젠블랫 분석은 텔레그램 채널 전언입니다.
-   - 씨게이트·웨스턴디지털 10월 실적 발표 날짜는 확인하지 못했습니다.
-   - 주가와 배수는 10월 7일 기준입니다.
-   - 투자 권유가 아니라 형식을 보여 주는 예시입니다.
-5. 블룸버그·로이터 본문은 수집하지 못했습니다.
-6. 10월 4일 이후 텔레그램 글은 아직 받지 않았습니다.
-7. WebSearch 200회 세션 한도와 주간 사용 한도 때문에, 서브 에이전트를 여러 개 동시에 돌리면 중간에 멈출 수 있습니다.
+1. 블룸버그·로이터 62건은 검색에 잡힌 제목 기준이라 전체가 아닙니다. 원문은 읽지 못했고 독립 출처로 확인했습니다. 로이터 8건의 보도일 일부는 추정입니다(check에 기록).
+2. 서브 에이전트가 읽은 출처를 메인 세션이 전부 다시 확인하지는 않았습니다(표본 4건 중 2건 일치, 2건 대조 불가).
+3. 텔레그램 후보 46건의 요지·숫자는 미확인이고, 날짜는 UTC 시각 흐름으로 맞춘 것입니다.
+4. 도시바 건(n-tg-0102)의 투자 분석은 10월 7일 기준 수치이며 형식 예시입니다(직전 핸드오프 9절 4항 참고).
+5. 실제 페이지에서 사용자 계정으로 체크·읽음이 저장되는지는 사용자가 눌러 봐야 확인됩니다(시험 화면에서만 확인).
+6. 묶음·타임라인·지표판을 뺀 것은 제 판단입니다. 사용자가 원하면 되살립니다.

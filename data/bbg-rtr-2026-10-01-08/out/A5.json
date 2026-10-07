@@ -1,0 +1,518 @@
+{
+ "agent": "A5",
+ "searches_used": 22,
+ "items": [
+  {
+   "key": "bbg-1007-fed-minutes-unanimous-hike",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-minutes-show-hawkish-unity-behind-september-rate-hike",
+   "origTitle": "Fed Minutes Show Officials All Backed September Interest Rate Hike",
+   "published": "2026-10-07",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/rates",
+    "macro/inflation"
+   ],
+   "title": "연준 9월 의사록, 12대 0 인상…'대부분 연내 한 번 더 인상 적절'",
+   "one": "연준 위원 전원이 9월 0.25%p 인상에 찬성했고 대부분이 연말까지 한 번 더 올리는 것이 적절하다고 본 사실이 의사록으로 확인되면서, 3.75~4.00%인 기준금리가 연내 추가로 오를 가능성이 유지됐다.",
+   "facts": [
+    "무엇이: 9월 15~16일 회의 의사록에서 기준금리 목표범위를 3.75~4.00%로 0.25%p 올리는 안이 12대 0으로 통과된 것이 확인됐습니다. [사실]",
+    "추가 인상: 대부분의 참석자는 연말까지 한 번 더 올리는 것이 적절할 가능성이 크다고 봤고, 여러 참석자는 현재 금리가 긴축적이지 않거나 약하게만 긴축적이라고 평가했습니다. [사실]",
+    "물가·고용: 참석자들은 물가 위험이 위쪽으로 치우쳤다고 대체로 봤고, 거의 모든 참석자가 고용 위험은 줄어 대체로 균형이라고 판단했습니다. [사실]",
+    "국채시장: 몇몇 참석자는 국채시장 기능 이상에 대비해 연준의 전략·소통·도구를 다듬되 시장 내 연준 비중은 줄여야 한다고 말했습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 연준 누리집의 9월 15~16일 FOMC 의사록(최종 갱신 2026-10-07)으로 작성. 의사록 공개 뒤 시장 반응은 확인하지 않음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-minutes-show-hawkish-unity-behind-september-rate-hike"
+    },
+    {
+     "o": "연준 FOMC 의사록(1차 자료)",
+     "d": "2026-10-07",
+     "u": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+    }
+   ],
+   "dupOf": "n-bbg-0044"
+  },
+  {
+   "key": "bbg-1007-ust-10y-auction-strong",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/us-bonds-rise-as-yields-at-2002-high-lures-buyers-at-auction",
+   "origTitle": "US Bonds Rise as Yields at 2002 High Lures Buyers at Auction",
+   "published": "2026-10-07",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/rates",
+    "macro/liquidity"
+   ],
+   "title": "미 10년물 390억 달러 입찰 호조…낙찰금리 5.300%, 간접 응찰 80%",
+   "one": "미 재무부의 10년물 국채 390억 달러 입찰에 2002년 이후 가장 높은 금리를 노린 매수세가 몰려 낙찰금리가 입찰 직전 시장 금리보다 낮은 5.300%로 정해지면서, 장기 국채 수요 불안이 다소 누그러졌다.",
+   "facts": [
+    "무엇이: 10월 7일 10년물 390억 달러 입찰의 낙찰금리가 5.300%로, 입찰 직전 거래 금리(5.317%)보다 1.7bp 낮게 정해졌습니다. [사실]",
+    "수요: 응찰률은 2.77배(평균 2.54배), 외국 중앙은행 등이 들어가는 간접 응찰 비중은 80.34%(평균 74.1%)였고 딜러가 떠안은 몫은 2.54%(평균 8.8%)에 그쳤습니다. [사실]",
+    "배경: 재무부 집계 종가 기준 10년물 금리는 10월 5일 5.31%, 30년물은 5.66%까지 올랐다가 6일 5.27%·5.64%로 내려왔습니다. [사실]",
+    "다음 일정: 이번 주 이표채 입찰 세 번 가운데 두 번째였고, 남은 한 번은 30년물로 보입니다. [추론]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — investingLive(2026-10-07) 입찰 결과 기사와 미 재무부 일별 금리표로 작성. '수요 불안 완화'는 블룸버그·CNBC 제목에 근거한 표현이며 CNBC 본문은 열리지 않음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-bonds-rise-as-yields-at-2002-high-lures-buyers-at-auction"
+    },
+    {
+     "o": "investingLive",
+     "d": "2026-10-07",
+     "u": "https://investinglive.com/news/the-us-treasury-sells-39-billion-of-10-year-notes-at-a-high-yield-of-5-300-versus-wi-level-of-5-317/"
+    },
+    {
+     "o": "미 재무부 일별 국채 금리(1차 자료)",
+     "d": "2026-10-06",
+     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+    }
+   ],
+   "dupOf": "n-bbg-0048"
+  },
+  {
+   "key": "bbg-1007-nyfed-inflation-expectations",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/one-year-inflation-expectations-reach-three-year-high-ny-fed",
+   "origTitle": "One-Year Inflation Expectations Reach Three-Year High: NY Fed Survey",
+   "published": "2026-10-07",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation",
+    "macro/cb"
+   ],
+   "title": "뉴욕 연은 조사, 1년 기대인플레이션 3.9%…2023년 5월 이후 최고",
+   "one": "미국 소비자들이 예상하는 1년 뒤 물가 상승률이 9월 3.9%로 한 달 새 0.3%p 올라 2023년 5월 이후 가장 높아지면서, 물가 안정을 앞세워 금리를 올리고 있는 연준의 긴축 기조를 뒷받침하는 자료가 될 수 있다.",
+   "facts": [
+    "무엇이: 뉴욕 연은 9월 소비자 기대 조사에서 1년 뒤 물가 상승률 예상(중앙값)이 8월 3.6%에서 3.9%로 올라 2023년 5월 이후 최고였습니다. [사실]",
+    "얼마나: 3년 뒤 예상은 3.2%에서 3.3%로 올랐고, 5년 뒤 예상은 3.0%로 그대로였습니다. [사실]",
+    "가계: 1년 전보다 살림이 나빠졌다는 응답과 1년 뒤 나빠질 것이라는 응답이 함께 늘었고, 뉴욕 연은은 고용 기대는 나아졌다고 밝혔습니다. [사실]",
+    "해석: 단기 기대만 뛰고 5년 기대는 그대로여서, 연준 의사록이 말한 '단기 기대는 높지만 중장기는 2%와 부합'이라는 판단과 같은 방향입니다. [추론]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 뉴욕 연은 보도자료 제목(2026-10-07), FXStreet·Quartz(2026-10-07) 보도로 작성. 휘발유·임대료 등 세부 항목 수치는 확인하지 못함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/one-year-inflation-expectations-reach-three-year-high-ny-fed"
+    },
+    {
+     "o": "FXStreet",
+     "d": "2026-10-07",
+     "u": "https://www.fxstreet.com/news/ny-fed-survey-of-consumers-shows-households-bracing-for-higher-prices-202610071539"
+    },
+    {
+     "o": "Quartz",
+     "d": "2026-10-07",
+     "u": "https://qz.com/ny-fed-inflation-expectations-three-year-high-september-2026-100726"
+    },
+    {
+     "o": "뉴욕 연은 보도자료(1차 자료)",
+     "d": "2026-10-07",
+     "u": "https://www.newyorkfed.org/newsevents/news/research/2026/20261007"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1007-imf-georgieva-praises-warsh",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability",
+   "origTitle": "Fed’s Warsh Earns IMF Praise for Focusing on Price Stability",
+   "published": "2026-10-07",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/fiscal"
+   ],
+   "title": "IMF 총재, 워시의 '물가 안정 우선' 칭찬…미·일 등에 부채 대응 촉구",
+   "one": "게오르기에바 IMF 총재가 9월에 금리를 올린 워시 연준 의장을 물가 안정을 우선했다며 공개적으로 칭찬하고 미국·프랑스·일본·이탈리아에는 부채 대응을 더 미루지 말라고 촉구하면서, 주요국 재정을 향한 국제기구의 경고 수위가 높아졌다.",
+   "facts": [
+    "무엇이: 게오르기에바 총재가 10월 7일 블룸버그TV 인터뷰에서 워시 의장을 칭찬하고 싶다며, 물가 안정이 연준의 우선순위라는 분명한 신호를 보냈다고 말했습니다. [사실]",
+    "재정: 미국·프랑스·일본·이탈리아가 높은 부채와 적자에 더 대응해야 한다며 더는 미루지 말라고 했고, 독일은 재정 규율 덕에 '다행스러운 예외'라고 했습니다. [사실]",
+    "배경: 연준은 트럼프 대통령의 금리 인하 요구에도 9월에 2023년 7월 이후 처음으로 금리를 올렸습니다. [사실]",
+    "다음 일정: IMF·세계은행 연차총회가 다음 주 방콕에서 열립니다. [사실]"
+   ],
+   "basis": "partial",
+   "check": "블룸버그 원문 미확인 — 블룸버그TV 인터뷰를 인용한 Briefs(2026-10-07) 자체 기사로 작성. IMF 누리집의 발언 원문은 확인하지 못함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+    },
+    {
+     "o": "Briefs(블룸버그TV 인용)",
+     "d": "2026-10-07",
+     "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-hk-fima-access-review",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/us-lawmaker-seeks-review-of-hong-kong-s-access-to-fed-facility",
+   "origTitle": "US Lawmaker Seeks Review of Hong Kong’s Access to Fed Facility",
+   "published": "2026-10-06",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/liquidity",
+    "macro/cb",
+    "macro/fx"
+   ],
+   "title": "미 하원 중국특위 위원장, 연준에 홍콩의 달러 유동성 창구 이용 재검토 요구",
+   "one": "미 하원 중국특위 물레나 위원장이 워시 연준 의장에게 홍콩금융관리국의 FIMA 레포 창구(미 국채를 맡기고 달러를 빌리는 장치) 이용 자격을 재검토하라는 서한을 보내면서, 홍콩의 비상 달러 조달 경로가 미 의회의 압박 대상이 됐다.",
+   "facts": [
+    "무엇이: 물레나 위원장이 10월 6일 워시 의장에게 서한을 보내, 연준 이사회와 FOMC 외환 소위원회가 홍콩금융관리국의 FIMA 레포 창구 이용을 공식 재검토하라고 요구했습니다. [사실]",
+    "왜: 2021년 7월 창구 상설화 뒤 전략·금융 환경이 바뀌었고, 2020년 국가보안법 이후 홍콩의 법적·제도적 자율성이 무너졌다는 점을 이유로 들었습니다. [사실]",
+    "질의: 참가 자격 기준, 홍콩금융관리국의 위안화 유동성 인프라 역할, 이용 조건 강화 같은 단계적 조치, 접근 중단 때의 시스템 영향 등 다섯 가지를 물었습니다. [사실]",
+    "미확인: 홍콩이 이 창구를 실제로 얼마나 썼는지와 연준의 답변 시한은 보도자료에 없습니다. [미확인]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 미 하원 중국특위 보도자료(2026-10-06)로 작성. 연준·홍콩금융관리국의 반응은 확인하지 못함(CNBC 본문 열리지 않음).",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/us-lawmaker-seeks-review-of-hong-kong-s-access-to-fed-facility"
+    },
+    {
+     "o": "미 하원 중국특위 보도자료(1차 자료)",
+     "d": "2026-10-06",
+     "u": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-review-hong-kong-s-access-to-federal-reserve-s-liquidity-tool"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-japan-10y-auction-solid",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average",
+   "origTitle": "Japan’s 10-Year Bond Sale Draws Solid Demand as Yields Top 3%",
+   "published": "2026-10-06",
+   "inds": [
+    "macro",
+    "jpins"
+   ],
+   "nodes": [
+    "macro/rates",
+    "jpins/rates"
+   ],
+   "title": "일본 10년물 국채 입찰, 금리 3%대에 수요 견조…평균 낙찰금리 3.101%",
+   "one": "일본 재무성의 10년물 국채 입찰에 약 7조 4,000억 엔의 응찰이 몰려 1조 9,661억 엔이 평균 금리 3.101%에 소화되면서, 금리가 3%를 넘어선 일본 장기 국채에 매수 수요가 붙고 있음이 확인됐다.",
+   "facts": [
+    "무엇이: 10월 6일 10년물(제384회, 표면금리 3.1%) 입찰에서 응찰 7조 4,011억 엔 가운데 1조 9,661억 엔이 낙찰됐습니다. [사실]",
+    "얼마나: 평균 낙찰가는 99.99엔(금리 3.101%), 최저 낙찰가는 99.97엔(3.103%)으로 둘의 차이가 0.02엔에 그쳤습니다. [사실]",
+    "수요: 응찰액을 낙찰액으로 나누면 약 3.76배이며, 블룸버그 제목은 수요가 12개월 평균보다 강했다고 전했습니다. [추론]",
+    "다음 일정: 재무성 일정표에는 10월 8일 30년물, 14일 5년물, 20일 20년물 입찰이 잡혀 있습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 일본 재무성 입찰 결과·10월 입찰 일정표(1차 자료)로 작성. 응찰률 3.76배는 재무성 수치로 직접 계산한 값이고, 12개월 평균 대비 비교는 블룸버그 제목에만 근거함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average"
+    },
+    {
+     "o": "일본 재무성 입찰 결과(1차 자료)",
+     "d": "2026-10-06",
+     "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261006.htm"
+    },
+    {
+     "o": "일본 재무성 10월 입찰 일정",
+     "d": "2026-10-06",
+     "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/2610e.htm"
+    }
+   ],
+   "dupOf": "n-bbg-0038"
+  },
+  {
+   "key": "bbg-1005-treasury-long-end-24yr-high",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/treasuries-slump-pushes-long-end-yields-to-fresh-24-year-highs",
+   "origTitle": "Treasury Yields Hit 24-Year Highs as Long Bonds Extend Selloff",
+   "published": "2026-10-05",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/rates",
+    "macro/inflation",
+    "macro/fiscal"
+   ],
+   "title": "미 30년물 국채 금리 5.7% 근접, 2002년 이후 최고…장기채 매도 지속",
+   "one": "미국 장기 국채 매도가 이어져 10월 5일 30년물 금리가 2002년 이후 가장 높은 5.66%, 10년물이 5.31%까지 오르면서, 30년 주택담보대출 금리도 3년 만의 최고로 올라 주택 대출 신청과 주택 거래가 줄고 있다.",
+   "facts": [
+    "무엇이: 재무부 집계 종가 기준으로 10월 5일 10년물 금리는 5.31%, 20년물은 5.70%, 30년물은 5.66%였고, 10월 1일(5.24%·5.64%·5.61%)보다 모두 올랐습니다. [사실]",
+    "얼마나: 30년물은 5.7%에 바짝 다가서 2002년 이후 최고였고, 10년물과 30년물 모두 3월 초 저점보다 1%p 넘게 올랐습니다. [사실]",
+    "왜: 모틀리풀은 2%를 웃도는 물가, 정부 부채, 지정학 위험을 주된 이유로 꼽았습니다. [사실]",
+    "영향: 30년 주택담보대출 평균 금리가 3년 만의 최고이고 대출 신청과 잠정 주택 판매가 줄고 있으며, 신용 스프레드에도 일부 긴장 신호가 보인다고 전했습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 미 재무부 일별 금리표(1차 자료)와 모틀리풀(2026-10-05) 자체 기사로 작성. 로이터도 같은 날 'US 30-year bond yield hits fresh 24-year high'로 보도(제목만 확인). 당일 장중 고점 수치는 확인하지 못함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-05",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-05/treasuries-slump-pushes-long-end-yields-to-fresh-24-year-highs"
+    },
+    {
+     "o": "미 재무부 일별 국채 금리(1차 자료)",
+     "d": "2026-10-05",
+     "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+    },
+    {
+     "o": "모틀리풀",
+     "d": "2026-10-05",
+     "u": "https://www.fool.com/investing/2026/10/05/30-year-treasury-yield-24-year-high-stocks-warning/"
+    },
+    {
+     "o": "로이터(제목만, 원문 미확인)",
+     "d": "2026-10-05",
+     "u": "https://investing.com/news/economy-news/us-30year-bond-yield-hits-fresh-24year-high-4936064"
+    }
+   ],
+   "dupOf": "n-bbg-0048"
+  },
+  {
+   "key": "bbg-1002-us-jobs-september-miss",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/us-firms-add-just-29-000-jobs-unemployment-rate-ticks-up",
+   "origTitle": "US Job Growth Misses Estimates, Unemployment Rate Edges Higher in September",
+   "published": "2026-10-02",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/growth",
+    "macro/cb"
+   ],
+   "title": "미 9월 고용 2만 9,000명 증가에 그쳐…7·8월도 6만 명 하향",
+   "one": "미국의 9월 비농업 일자리가 2만 9,000명 늘어나는 데 그치고 7·8월 수치도 합쳐 6만 명 낮춰지면서, 물가를 이유로 금리를 올리고 있는 연준이 고용 둔화까지 함께 따져야 하는 부담이 커질 수 있다.",
+   "facts": [
+    "무엇이: 노동통계국이 10월 2일 발표한 9월 비농업 일자리는 2만 9,000명 증가였고 실업률은 4.2%(실업자 710만 명)였습니다. [사실]",
+    "수정: 7월은 2만 1,000명 증가에서 1만 명 감소로, 8월은 16만 2,000명에서 13만 3,000명 증가로 낮춰져 두 달 합계가 6만 명 줄었습니다. [사실]",
+    "임금: 민간 시간당 평균 임금은 37.81달러로 전달보다 0.1%, 1년 전보다 3.0% 올랐습니다. [사실]",
+    "업종: 보건의료 1만 7,000명·건설 1만 1,000명·제조업 9,000명이 늘었고 금융은 7,000명 줄었습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 미 노동통계국 9월 고용 상황 보도자료(2026-10-02)로 작성. '예상 하회'는 블룸버그 제목에 근거하며 시장 예상치 수치는 확인하지 않음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-02",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-02/us-firms-add-just-29-000-jobs-unemployment-rate-ticks-up"
+    },
+    {
+     "o": "미 노동통계국 고용 상황(1차 자료)",
+     "d": "2026-10-02",
+     "u": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1002-eurozone-inflation-3yr-high",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/euro-zone-inflation-tops-estimates-to-hit-three-year-high",
+   "origTitle": "Euro-Zone Inflation Tops Estimates to Hit Three-Year High",
+   "published": "2026-10-02",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation",
+    "macro/cb"
+   ],
+   "title": "유로존 9월 물가 3.8%로 3년 만의 최고…에너지 18.8% 급등",
+   "one": "유로존의 9월 소비자물가 상승률이 에너지 가격 18.8% 급등 탓에 8월 3.2%에서 3.8%로 뛰어 3년 만의 최고를 기록하면서, 올해 이미 두 차례 금리를 올린 유럽중앙은행이 추가 인상에 나설 가능성이 커질 수 있다.",
+   "facts": [
+    "무엇이: 유럽연합 통계청 속보치에서 유로존 9월 물가 상승률이 3.8%로 8월(3.2%)보다 0.6%p 높아졌습니다. [사실]",
+    "왜: 에너지가 18.8%(8월 14.3%) 올랐고, 서비스는 3.2%, 식품·주류·담배는 1.4% 올랐습니다. [사실]",
+    "근원: 에너지·식품 등을 뺀 근원 물가는 2.5%로 8월(2.4%)보다 소폭 오르는 데 그쳤습니다. [사실]",
+    "나라별: 이탈리아 4.1%·프랑스 3.4%·독일 3.3%로 일제히 올랐고, 확정치는 10월 16일에 나옵니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 유럽연합 통계청 9월 물가 속보치(1차 자료)로 작성. '예상 상회·3년 만의 최고'는 블룸버그 제목에 근거하며, 추가 인상 가능성은 본인 해석.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-02",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-02/euro-zone-inflation-tops-estimates-to-hit-three-year-high"
+    },
+    {
+     "o": "유럽연합 통계청 속보치(1차 자료)",
+     "d": "2026-10-02",
+     "u": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1001-trump-warsh-should-have-opposed",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike",
+   "origTitle": "Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board",
+   "published": "2026-10-01",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb"
+   ],
+   "title": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+   "one": "트럼프 대통령이 타임 인터뷰에서 워시 연준 의장이 9월 금리 인상에 반대표를 던졌어야 했다고 말하면서도 책임은 이사회에 돌리면서, 연내 한 번 더 인상을 예고한 연준에 대한 백악관의 공개 압박이 이어지고 있다.",
+   "facts": [
+    "무엇이: 10월 1일 공개된 타임 인터뷰에서 트럼프 대통령은 '워시를 탓하지 않는다. 내가 그였다면 아마 이사회에 반대표를 던졌을 것'이라고 말했습니다. [사실]",
+    "배경: 연준은 9월 16일 워시 의장을 포함한 12대 0으로 금리를 0.25%p 올렸고, 연내 한 번 더 인상을 시사했습니다. [사실]",
+    "앞선 발언: 인상 당일 트럼프 대통령은 금리가 1% 이하여야 한다고 했고 FOMC를 '정치인 무리'라고 부르면서도 워시 의장은 여전히 신임한다고 말했습니다. [사실]",
+    "미확인: 블룸버그 제목의 '정치적 이사회' 표현에 해당하는 인터뷰 원문 인용은 직접 확인하지 못했습니다. [미확인]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — Quartz(2026-10-01)와 야후파이낸스 자체 기사(2026-09-16)로 작성. 같은 타임 인터뷰의 다른 발언은 기존 카드(n-tg-0096)에서 다룸.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-01",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+    },
+    {
+     "o": "Quartz",
+     "d": "2026-10-01",
+     "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+    },
+    {
+     "o": "야후파이낸스",
+     "d": "2026-09-16",
+     "u": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"
+    }
+   ],
+   "dupOf": "n-tg-0096"
+  }
+ ],
+ "skipped": [
+  {
+   "title": "Warren Questions Bessent Over US Treasury Buybacks and Cash Strategy",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/bessent-pressed-by-warren-on-chaotic-us-treasuries-buybacks",
+   "date": "2026-10-07",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Bessent’s Debt-Cutting Plan Draws Skepticism From Market Strategists",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/bessent-s-bend-the-debt-curve-hope-seen-as-more-market-jawboning",
+   "date": "2026-10-06",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Bessent Axing 20-Year Treasury May Send Yields Higher, BNP Warns",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/bessent-axing-20-year-treasury-may-send-yields-higher-bnp-warns",
+   "date": "2026-10-06",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Bessent Tries to Talk Down Yields: Evening Briefing Americas",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/bessent-tries-to-talk-down-yields-evening-briefing-americas",
+   "date": "2026-10-06",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Traders Reload Bets on Higher US Yields After Brief Jolt",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/bonds-traders-revive-treasury-short-bets-after-fleeting-shakeout",
+   "date": "2026-10-06",
+   "reason": "예산"
+  },
+  {
+   "title": "Scott Bessent’s Economic Forecasts Are Testing His Credibility",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/scott-bessent-s-economic-forecasts-are-testing-his-credibility",
+   "date": "2026-10-05",
+   "reason": "예산"
+  },
+  {
+   "title": "Fed, ECB Minutes to Show Inflation Fears as Hike Bets Fade",
+   "url": "https://bloomberg.com/news/articles/2026-10-03/fed-ecb-minutes-to-show-inflation-fears-as-hike-bets-fade",
+   "date": "2026-10-03",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "Warsh’s Top Fed Deputies Step in to Give Markets a Clear Message",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/warsh-s-top-fed-deputies-step-in-to-give-markets-a-clear-message",
+   "date": "2026-10-02",
+   "reason": "예산"
+  },
+  {
+   "title": "DOJ Not Reopening Criminal Probe Into Fed’s Powell, Blanche Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/doj-not-reopening-criminal-probe-into-fed-s-powell-blanche-says",
+   "date": "2026-10-02",
+   "reason": "예산"
+  },
+  {
+   "title": "Beijing’s mini-stimulus package: Next China",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-02/beijing-s-mini-stimulus-package-next-china",
+   "date": "2026-10-02",
+   "reason": "예산"
+  },
+  {
+   "title": "Rebecca Patterson Warns Fed May See Dissents at October Meeting",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/rebecca-patterson-sees-fed-dissents-coming-after-united-front",
+   "date": "2026-10-02",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "Treasuries Rebound Raises Stakes for Job Data as Rate Hikes Loom",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/treasuries-rebound-raises-stakes-for-job-data-as-rate-hikes-loom",
+   "date": "2026-10-02",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "South Korea’s Export Growth Extends Rally as Chip Boom Rolls on",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/south-korea-s-export-growth-extends-rally-as-chip-boom-rolls-on",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(n-tg-0093)"
+  },
+  {
+   "title": "Yen Weakens as BOJ Summary Damps Bets for Back-to-Back Rate Hike",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/yen-weakens-as-boj-summary-damps-bets-for-back-to-back-rate-hike",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(pf-rtr-017)"
+  },
+  {
+   "title": "US Benchmark 10-Year Yield Briefly Hits Highest Since 2002",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/treasury-10-year-yield-hits-highest-since-2002-on-rate-outlook-mup7ryq2",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(n-bbg-0048)"
+  },
+  {
+   "title": "Swelling Bets Against Treasuries Are Fueling Repo Borrowing Cost",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/swelling-bets-against-treasuries-are-fueling-repo-borrowing-cost",
+   "date": "2026-10-01",
+   "reason": "예산"
+  },
+  {
+   "title": "US Treasuries Rebound From Global Bond Selloff",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-01/us-treasuries-rebound-from-global-bond-selloff",
+   "date": "2026-10-01",
+   "reason": "범위 밖"
+  }
+ ]
+}

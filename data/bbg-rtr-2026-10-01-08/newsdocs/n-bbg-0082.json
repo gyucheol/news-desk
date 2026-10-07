@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0082",
+ "feed": "v5",
+ "format": "one1",
+ "num": 82,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-ueda-no-october-signal",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/ueda-does-little-to-challenge-bets-against-october-boj-hike",
+ "inds": [
+  "jpins",
+  "macro"
+ ],
+ "nodes": [
+  "jpins/rates",
+  "macro/cb"
+ ],
+ "title": "우에다 총재 '금리 계속 올린다'…10월 인상 신호는 주지 않아",
+ "one": "우에다 일본은행 총재가 10월 6일 연설에서 금리를 계속 올리겠다면서도 시기와 속도는 점검하며 정하겠다고만 밝히면서, 10월 30일 회의의 인상 확률을 4분의 1 정도로 보는 시장 예상이 바뀌지 않았다",
+ "headline": "우에다 총재 '금리 계속 올린다'…10월 인상 신호는 주지 않아",
+ "facts": [
+  "무엇이: 우에다 총재가 10월 6일 전국증권대회 인사말에서 계속 정책금리를 올려 금융완화 정도를 조정해 나가겠다고 말했습니다. [사실]",
+  "얼마나: 정책금리는 9월 인상으로 1.25% 수준이며, 인상 시기와 속도는 전망이 실현될 가능성과 위험을 점검하며 검토한다고 했습니다. [사실]",
+  "왜: 중동 정세, AI 관련 수요 확대, 환율 변동 때문에 기조적 물가 상승률이 2% 목표를 넘어설 위험이 있다고 짚었습니다. [사실]",
+  "다음 일정: 다음 회의는 10월 29~30일이며, 금리 선물은 10월 인상 확률을 약 26%로 반영했습니다(FXStreet 집계 인용). [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 일본은행 연설문(10월 6일)과 FXStreet(10월 6일)·InvestingLive(10월 5일) 자체 기사로 작성. '시장 예상이 바뀌지 않았다'는 블룸버그 제목과 FXStreet의 선물 반영 확률에 근거한 표현이며, 연설 직후 엔화·금리 움직임은 확인 못 함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/ueda-does-little-to-challenge-bets-against-october-boj-hike"
+  },
+  {
+   "o": "일본은행 총재 전국증권대회 인사말",
+   "d": "2026-10-06",
+   "u": "https://www.boj.or.jp/about/press/koen_2026/data/ko261006a.pdf"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-06",
+   "u": "https://www.fxstreet.com/analysis/the-market-is-pricing-a-boj-pause-heres-why-uedas-keep-raising-rates-could-force-a-sharp-yen-repricing-202610061823"
+  },
+  {
+   "o": "InvestingLive",
+   "d": "2026-10-05",
+   "u": "https://investinglive.com/central-banks/boj-s-ueda-in-focus-as-markets-weigh-a-back-to-back-october-rate-hike/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Ueda Does Little to Challenge Bets Against October BOJ Hike"
+}

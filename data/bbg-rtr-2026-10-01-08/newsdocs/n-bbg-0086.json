@@ -1,0 +1,47 @@
+{
+ "id": "n-bbg-0086",
+ "feed": "v5",
+ "format": "one1",
+ "num": 86,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-australia-climate-ruling-coal",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/australia-climate-ruling-to-test-49-billion-coal-export-sector",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/policy",
+  "coal/thermal",
+  "coal/trade"
+ ],
+ "title": "호주 최고법원 \"탄광 승인 때 수출탄 연소 배출도 따져야\"…탄광 확장 제동",
+ "one": "호주 최고법원이 3대 2로 탄광을 승인할 때 수출된 석탄이 해외에서 탈 때 나오는 배출까지 따져야 한다고 판결하면서, 4억 4,400만 톤을 더 캐려던 마운트플레전트 확장을 비롯한 신규 석탄 사업의 인허가가 까다로워질 수 있다",
+ "headline": "호주 최고법원 \"탄광 승인 때 수출탄 연소 배출도 따져야\"…탄광 확장 제동",
+ "facts": [
+  "무엇이: 호주 최고법원(High Court)이 10월 7일 탄광 운영사 MACH 에너지의 상고를 기각하고 헌터밸리 주민 단체의 손을 들어줬습니다(재판관 5명 중 3명). [사실]",
+  "얼마나: MACH는 뉴사우스웨일스주 마운트플레전트 노천 탄광에서 2048년까지 4억 4,400만 톤을 캐 연간 생산을 거의 두 배로 늘리려 했고, 해외 연소 배출은 이산화탄소 환산 8억 7,000만 톤을 넘습니다. [사실]",
+  "배경: 2022년 주 독립계획위원회가 확장을 승인했으나 2025년 7월 주 항소법원이 제동을 걸었고, 광산은 올해 8월에 받은 허가로 2032년 말까지는 가동할 수 있습니다. [사실]",
+  "영향: 판결은 뉴사우스웨일스주 법에 근거해 다른 주에 미치는 직접 효력은 제한적이지만, 전국의 법원과 인허가 기관이 참고할 것이라는 전문가 평가가 있습니다. [추론]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 호주 ABC(10월 7일) 보도로 작성. 블룸버그 제목의 '석탄 수출 490억 달러' 수치는 독립 출처로 확인하지 못해 쓰지 않음. 로이터도 같은 판결을 보도(전재본 제목만 확인).",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/australia-climate-ruling-to-test-49-billion-coal-export-sector"
+  },
+  {
+   "o": "호주 ABC",
+   "d": "2026-10-07",
+   "u": "https://www.abc.net.au/news/2026-10-07/mount-pleasant-coal-mine-high-court-ruling/107233650"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Australia Climate Ruling to Test $49 Billion of Coal Exports"
+}

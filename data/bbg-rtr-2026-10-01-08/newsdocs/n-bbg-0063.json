@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0063",
+ "feed": "v5",
+ "format": "one1",
+ "num": 63,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1005-india-power-deficit-wind-hydro",
+ "published": "2026-10-05",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-05/india-power-deficit-deepens-as-weak-wind-adds-to-hydro-slump",
+ "inds": [
+  "coal",
+  "power"
+ ],
+ "nodes": [
+  "coal/power",
+  "power/gen",
+  "power/demand"
+ ],
+ "title": "인도 야간 전력 부족 5.8GW로 확대…풍력 급감에 수력 부진 겹쳐",
+ "one": "인도에서 10월 3일 밤 전력 부족이 5.8GW까지 벌어졌는데, 풍력 출력이 3분의 1 가까이 줄고 수력도 부진해 수요가 5월 최고치보다 낮은데도 공급이 모자랐으며, 그 공백을 메워야 하는 석탄발전소의 재고 부담이 커지고 있다",
+ "headline": "인도 야간 전력 부족 5.8GW로 확대…풍력 급감에 수력 부진 겹쳐",
+ "facts": [
+  "무엇이: 10월 3일 인도의 야간 최대 전력 부족이 5.8GW였고, 당시 수요는 232GW였습니다(인도 계통운영기관 자료). [사실]",
+  "비교: 5월 22일에는 야간 수요가 253.3GW로 더 높았는데도 부족은 1.1GW에 그쳤고, 최근 일주일의 야간 최대 부족은 평균 약 2.8GW였습니다. [사실]",
+  "왜: 10월 3일 풍력 최대 가용 출력은 3분의 1 가까이, 석탄 가용 출력은 8% 가까이 낮았고 약한 몬순으로 수력도 줄었으며, 9월 30일에는 화력 약 32GW가 미뤄 둔 정비 등으로 멈춰 있었습니다. [사실]",
+  "재고: 10월 2일 기준 발전소 191곳 중 절반 가까이가 석탄 재고 위험 수준(권장량의 25% 미만)이었습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — Briefs(10월 5일, 블룸버그·인도 계통운영기관 자료 인용 자체 기사)로 작성. 풍력·석탄 가용 출력 감소율의 비교 기준일은 5월 22일로 보이나 확정하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/india-power-deficit-deepens-as-weak-wind-adds-to-hydro-slump"
+  },
+  {
+   "o": "Briefs(블룸버그·계통운영기관 자료 인용)",
+   "d": "2026-10-05",
+   "u": "https://www.briefs.co/news/india-s-power-shortfall-deepens-as-wind-slows-and-reservoirs/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "India Power Deficit Deepens as Weak Wind Adds to Hydro Slump",
+ "dupOf": "n-rtr-0004"
+}

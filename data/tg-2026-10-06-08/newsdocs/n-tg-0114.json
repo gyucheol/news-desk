@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0114",
+ "feed": "v5",
+ "format": "one1",
+ "num": 114,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69956",
+ "published": "2026-10-06T21:17:00+09:00",
+ "url": "https://t.me/HANAchina/69956",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "TSMC 성숙공정 인상 여파…PMIC·DDI·MCU 업체도 가격 인상 검토",
+ "one": "TSMC가 내년 1월부터 성숙공정 가격을 최대 10% 올릴 것으로 알려지면서, 전력관리칩·디스플레이 구동칩·MCU 공급사들이 연말부터 제품 가격을 5%에서 두 자릿수까지 올리는 방안을 검토하고 있다",
+ "headline": "TSMC 성숙공정 인상 여파…PMIC·DDI·MCU 업체도 가격 인상 검토",
+ "facts": [
+  "무엇이: 매일경제(10월 6일)는 트렌드포스를 인용해 PMIC·DDI·MCU 공급사들이 올해 말부터 내년 초 사이 제품 가격을 5%에서 두 자릿수까지 올리는 방안을 검토 중이라고 보도했습니다 [채널]",
+  "왜: TSMC는 2027년 1월부터 성숙공정 가격을 올린다고 IC 설계사들에 알린 것으로 보도됐으며, 트렌드포스 7월 보도는 인상 폭을 한 자릿수로 예상했습니다 [사실]",
+  "얼마나: 매일경제는 TSMC 성숙공정 인상 폭을 3~10%로, 2나노 웨이퍼는 내년 1분기 6~8% 추가 인상으로 전했습니다 [채널]",
+  "배경: 일부 고객의 중국 배제 공급망 요구와 인상 전 선주문이 팹리스의 원가 전가 여지를 키우고 있다고 전해졌습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "채널 글은 매일경제(10월 6일) 기사 링크이며 그 기사를 직접 읽었습니다. TSMC 성숙공정 2027년 1월 인상은 트렌드포스 7월 13일 기사로 확인했으나, 인상 폭 최대 10%와 PMIC·DDI·MCU 가격 인상 검토는 트렌드포스 자체 발표에서 찾지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-06",
+   "u": "https://t.me/HANAchina/69956"
+  },
+  {
+   "o": "매일경제(다음 뉴스)",
+   "d": "2026-10-06",
+   "u": "https://v.daum.net/v/20261006174813891"
+  },
+  {
+   "o": "트렌드포스",
+   "d": "2026-07-13",
+   "u": "https://www.trendforce.com/news/2026/07/13/news-tsmc-reportedly-notifies-ic-designers-of-mature-node-price-hikes-starting-jan-2027-increase-seen-in-single-digits/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략",
+ "ind": "semis"
+}

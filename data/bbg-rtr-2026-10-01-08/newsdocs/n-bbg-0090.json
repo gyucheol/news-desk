@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0090",
+ "feed": "v5",
+ "format": "one1",
+ "num": 90,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-fed-minutes-unanimous-hike",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-minutes-show-hawkish-unity-behind-september-rate-hike",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/rates",
+  "macro/inflation"
+ ],
+ "title": "연준 9월 의사록, 12대 0 인상…'대부분 연내 한 번 더 인상 적절'",
+ "one": "연준 위원 전원이 9월 0.25%p 인상에 찬성했고 대부분이 연말까지 한 번 더 올리는 것이 적절하다고 본 사실이 의사록으로 확인되면서, 3.75~4.00%인 기준금리가 연내 추가로 오를 가능성이 유지됐다",
+ "headline": "연준 9월 의사록, 12대 0 인상…'대부분 연내 한 번 더 인상 적절'",
+ "facts": [
+  "무엇이: 9월 15~16일 회의 의사록에서 기준금리 목표범위를 3.75~4.00%로 0.25%p 올리는 안이 12대 0으로 통과된 것이 확인됐습니다. [사실]",
+  "추가 인상: 대부분의 참석자는 연말까지 한 번 더 올리는 것이 적절할 가능성이 크다고 봤고, 여러 참석자는 현재 금리가 긴축적이지 않거나 약하게만 긴축적이라고 평가했습니다. [사실]",
+  "물가·고용: 참석자들은 물가 위험이 위쪽으로 치우쳤다고 대체로 봤고, 거의 모든 참석자가 고용 위험은 줄어 대체로 균형이라고 판단했습니다. [사실]",
+  "국채시장: 몇몇 참석자는 국채시장 기능 이상에 대비해 연준의 전략·소통·도구를 다듬되 시장 내 연준 비중은 줄여야 한다고 말했습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 연준 누리집의 9월 15~16일 FOMC 의사록(최종 갱신 2026-10-07)으로 작성. 의사록 공개 뒤 시장 반응은 확인하지 않음.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-minutes-show-hawkish-unity-behind-september-rate-hike"
+  },
+  {
+   "o": "연준 FOMC 의사록(1차 자료)",
+   "d": "2026-10-07",
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Fed Minutes Show Officials All Backed September Interest Rate Hike",
+ "dupOf": "n-bbg-0044"
+}

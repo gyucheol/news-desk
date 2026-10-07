@@ -1,0 +1,45 @@
+{
+ "id": "n-bbg-0081",
+ "feed": "v5",
+ "format": "one1",
+ "num": 81,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-trafigura-zambia-congo-power-link",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/trafigura-and-partners-back-300-million-zambia-congo-power-link",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ],
+ "title": "트라피구라 등, 잠비아–콩고 구리벨트 송전선에 3억 달러…최대 550MW 수입 길",
+ "one": "트라피구라·그리드웍스·콩고 전략투자기금이 잠비아 칼룸빌라와 콩고 콜웨지를 잇는 200km 송전선(건설비 약 3억 달러)을 짓기로 하면서, 전력이 1GW 넘게 모자란 구리벨트 광산에 최대 550MW를 들여올 길이 열린다",
+ "headline": "트라피구라 등, 잠비아–콩고 구리벨트 송전선에 3억 달러…최대 550MW 수입 길",
+ "facts": [
+  "무엇이: 콩고민주공화국 전략투자기금(FIS-RDC)·엔파워·트라피구라·그리드웍스가 10월 6일 킨샤사에서 칼룸빌라–콜웨지 연계선 사업 협약에 서명했습니다 [사실]",
+  "얼마나: 길이 200km, 건설비 약 3억 달러이며 열용량 700MW로 최대 550MW를 수입할 수 있고 1GW 이상으로 늘릴 수 있게 설계됐습니다 [사실]",
+  "왜: 콩고는 구조적으로 전력이 1GW 넘게 모자라 광산·제련 사업이 멈춰 있으며, 이 선로는 광산의 전력 구매 계약을 바탕으로 합니다 [사실]",
+  "자금: 영국 개발금융기관이 소유한 그리드웍스가 최대 주주로 지분 투자를 이끌고 트라피구라는 부채 조달의 상당 부분을 주선하며, 착공·준공 시점은 발표에 없습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 트라피구라 보도자료(10월 6일)로 작성. 착공·준공 일정과 전압은 발표에 없음.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trafigura-and-partners-back-300-million-zambia-congo-power-link"
+  },
+  {
+   "o": "트라피구라 보도자료",
+   "d": "2026-10-06",
+   "u": "https://www.trafigura.com/news-and-insights/press-releases/2026/fis-rdc-enpower-trafigura-and-gridworks-join-forces-to-deliver-landmark-power-interconnector-to-supply-the-drc-s-copperbelt/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Trafigura and Partners Back $300 Million Zambia-Congo Power Link"
+}

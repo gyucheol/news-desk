@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0128",
+ "feed": "v5",
+ "format": "one1",
+ "num": 128,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65618",
+ "published": "2026-10-07T17:31:00+09:00",
+ "url": "https://t.me/insidertracking/65618",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "마이크론 대만 타오위안 노조, 찬성 99%로 파업권 확보",
+ "one": "마이크론 대만 타오위안 공장 노조가 찬성률 99%로 파업권을 확보하면서, 마이크론의 주요 D램·HBM 생산 거점에서 실제 파업이 벌어지면 메모리 생산에 차질이 생길 수 있다",
+ "headline": "마이크론 대만 타오위안 노조, 찬성 99%로 파업권 확보",
+ "facts": [
+  "무엇이: 타오위안 노조 투표에서 2,012명 중 1,994명(99%)이 파업에 찬성했으나 파업 날짜는 아직 정하지 않았습니다 [사실]",
+  "왜: 노조는 보너스 산정 방식 교체와 영업이익 15%를 분기 보너스로 나누는 제도를 요구하며, 회사가 내놓은 월급 35~68개월분 지급안을 거부했습니다 [사실]",
+  "배경: 마이크론 대만 인력은 타오위안 약 3,000명, 타이중 1만 2,300명이며 타이중 노조는 10월 22일 추가 조정이 잡혀 있습니다 [사실]",
+  "다음 일정: 10월 8~9일 마이크론 이사회가 예정돼 있으며, 노조는 19일 타이베이 집회 참가를 독려하고 있습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(로이터 보도 전재)로 들어온 소식이며, 벤징가·트레이딩피디아(10월 7일) 자체 기사로 검색 결과 요약에서 찬성률·요구 사항을 확인했습니다. 이사회 일정은 채널이 옮긴 디지타임스 기사에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-07",
+   "u": "https://t.me/insidertracking/65618"
+  },
+  {
+   "o": "벤징가",
+   "d": "2026-10-07",
+   "u": "https://www.benzinga.com/trading-ideas/movers/26/10/62216483/micron-stock-falls-amid-chip-sector-slump-as-taiwan-union-votes-99-for-strike-authorization"
+  },
+  {
+   "o": "트레이딩피디아",
+   "d": "2026-10-07",
+   "u": "https://www.tradingpedia.com/2026/10/07/micron-union-wins-strike-mandate-in-taiwan/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

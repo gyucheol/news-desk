@@ -1,0 +1,67 @@
+{
+ "id": "n-bbg-0075",
+ "feed": "v5",
+ "format": "one1",
+ "num": 75,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-jgb-10y-auction-solid",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average",
+ "inds": [
+  "jpins",
+  "macro"
+ ],
+ "nodes": [
+  "jpins/rates",
+  "macro/rates"
+ ],
+ "title": "일본 10년물 국채 입찰, 표면금리 3.1%에 응찰 3.76배로 수요 견조",
+ "one": "일본 재무성의 10월 6일 10년물 국채 입찰에서 표면금리가 3.1%로 오르자 응찰이 낙찰액의 약 3.76배(9월 3.29배)로 늘면서, 3%를 넘은 금리 수준에서는 매수 수요가 받쳐 준다는 점이 확인됐다",
+ "headline": "일본 10년물 국채 입찰, 표면금리 3.1%에 응찰 3.76배로 수요 견조",
+ "facts": [
+  "무엇이: 10월 6일 10년 국채(제384회) 입찰에 7조 4,011억 엔이 응찰해 1조 9,661억 엔이 낙찰됐습니다(약 3.76배). [사실]",
+  "얼마나: 표면금리 3.1%, 최고 낙찰금리 3.103%, 평균 낙찰금리 3.101%였고 평균가와 최저가의 차이(꼬리)는 0.02엔이었습니다. [사실]",
+  "배경: 9월 1일 입찰(제383회)은 표면금리 2.7%, 응찰 약 3.29배, 꼬리 0.12엔이었습니다. [사실]",
+  "다음 일정: 재무성 일정표상 10월 8일 30년물, 14일 5년물, 20일 20년물 입찰이 이어집니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 일본 재무성 입찰 결과 공표(10월 6일, 9월 1일)와 10월 입찰 일정표로 작성. 응찰 배율과 꼬리는 재무성 수치로 직접 계산했고, 블룸버그 주소에 담긴 '12개월 평균 상회'의 평균값은 확인 못 함. 같은 사건을 다룬 다른 분야 정리와 한 건으로 합쳤습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average"
+  },
+  {
+   "o": "일본 재무성 10년 국채 제384회 입찰 결과",
+   "d": "2026-10-06",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261006.htm"
+  },
+  {
+   "o": "일본 재무성 10년 국채 제383회 입찰 결과",
+   "d": "2026-09-01",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260901.htm"
+  },
+  {
+   "o": "일본 재무성 2026년 10월 입찰 일정표",
+   "d": "2026-10-06",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/2610.htm"
+  },
+  {
+   "o": "일본 재무성 입찰 결과(1차 자료)",
+   "d": "2026-10-06",
+   "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261006.htm"
+  },
+  {
+   "o": "일본 재무성 10월 입찰 일정",
+   "d": "2026-10-06",
+   "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/2610e.htm"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Japan's 10-Year Bond Sale Draws Solid Demand as Yields Top 3%"
+}

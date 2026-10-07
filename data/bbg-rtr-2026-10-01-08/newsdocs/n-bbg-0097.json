@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0097",
+ "feed": "v5",
+ "format": "one1",
+ "num": 97,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-nyfed-inflation-expectations",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/one-year-inflation-expectations-reach-three-year-high-ny-fed",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "title": "뉴욕 연은 조사, 1년 기대인플레이션 3.9%…2023년 5월 이후 최고",
+ "one": "미국 소비자들이 예상하는 1년 뒤 물가 상승률이 9월 3.9%로 한 달 새 0.3%p 올라 2023년 5월 이후 가장 높아지면서, 물가 안정을 앞세워 금리를 올리고 있는 연준의 긴축 기조를 뒷받침하는 자료가 될 수 있다",
+ "headline": "뉴욕 연은 조사, 1년 기대인플레이션 3.9%…2023년 5월 이후 최고",
+ "facts": [
+  "무엇이: 뉴욕 연은 9월 소비자 기대 조사에서 1년 뒤 물가 상승률 예상(중앙값)이 8월 3.6%에서 3.9%로 올라 2023년 5월 이후 최고였습니다. [사실]",
+  "얼마나: 3년 뒤 예상은 3.2%에서 3.3%로 올랐고, 5년 뒤 예상은 3.0%로 그대로였습니다. [사실]",
+  "가계: 1년 전보다 살림이 나빠졌다는 응답과 1년 뒤 나빠질 것이라는 응답이 함께 늘었고, 뉴욕 연은은 고용 기대는 나아졌다고 밝혔습니다. [사실]",
+  "해석: 단기 기대만 뛰고 5년 기대는 그대로여서, 연준 의사록이 말한 '단기 기대는 높지만 중장기는 2%와 부합'이라는 판단과 같은 방향입니다. [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 뉴욕 연은 보도자료 제목(2026-10-07), FXStreet·Quartz(2026-10-07) 보도로 작성. 휘발유·임대료 등 세부 항목 수치는 확인하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/one-year-inflation-expectations-reach-three-year-high-ny-fed"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-07",
+   "u": "https://www.fxstreet.com/news/ny-fed-survey-of-consumers-shows-households-bracing-for-higher-prices-202610071539"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-07",
+   "u": "https://qz.com/ny-fed-inflation-expectations-three-year-high-september-2026-100726"
+  },
+  {
+   "o": "뉴욕 연은 보도자료(1차 자료)",
+   "d": "2026-10-07",
+   "u": "https://www.newyorkfed.org/newsevents/news/research/2026/20261007"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "One-Year Inflation Expectations Reach Three-Year High: NY Fed Survey"
+}

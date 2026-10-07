@@ -1,0 +1,72 @@
+{
+ "key": "tg-The_MariTimes-61087",
+ "inds": [
+  "petchem",
+  "macro"
+ ],
+ "nodes": [
+  "petchem/policy",
+  "macro/geo"
+ ],
+ "headline": "{{EU}}, {{중국산}} {{화학·기계 등 핵심 업종}}에 {{긴급 관세·쿼터}} 검토(채널) — ‘{{슈퍼 301조}}’식 도구, {{보복 피해}}를 보상하는 {{연대 메커니즘}}",
+ "facts": [
+  "무엇이: 채널은 {{EU}}가 {{8월 전}}에 {{중국 대상 조사}}를 시작해 {{화학·기계 등 핵심 업종}}에 {{긴급 관세나 쿼터}}를 매길 수 있고, 미국 ‘{{슈퍼 301조}}’ 같은 {{도구}}가 거론된다고 전했습니다(출처 기사 미표기) [사실]",
+  "확인된 흐름: {{EU}}는 {{7월 1일}} 일부 {{철강 수입 관세}}를 {{두 배로 올리}}고 쿼터를 줄였으며, {{세주르네 산업 담당 집행위원}}은 {{화학·청정기술}}에도 {{수입 쿼터·관세}}를 넓혀 쓰겠다고 했습니다 [사실]",
+  "연대 장치: 집행위는 {{중국산 수입 급증}}의 피해가 큰 회원국을 {{보상하는 연대 메커니즘}}을 준비하고 있지만, {{긴급 수입 제한}}에는 {{회원국 과반 지지}}가 필요합니다 [사실]",
+  "중국: {{중국}}은 EU의 새 수입 제한 검토에 맞서 {{EU 대상 무역 조사}}로 {{보복하겠다}}고 경고했습니다 [사실]",
+  "의미: {{유럽 시장}}이 중국산 화학제품에 닫히면 {{남는 물량}}이 {{아시아로 더 몰려}} {{한국 석화의 가격 회복}}을 늦출 수 있습니다 [유추]"
+ ],
+ "tags": [
+  {
+   "s": 4,
+   "t": "정책 충격 — {{EU}}가 제품별 반덤핑을 넘어 {{업종 단위 긴급 관세·쿼터}}를 꺼내면 {{중국 화학제품의 수출길}}이 바뀝니다 [유추]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "petchem",
+   "stage": 6,
+   "why": "{{현재 판정 ⑥}}과 {{같은 쪽}}입니다: {{교역 장벽}}이 {{공급 과잉의 이동}}을 부르는 것은 {{감축·통합을 서두르게 하는}} 구조조정 국면의 배경입니다 [유추]"
+  },
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "{{현재 매크로 판정 ②}}와 {{직접 관계는 약합니다}}: {{무역 장벽}}은 {{수입 물가}}를 올리는 쪽이지만 {{범위와 규모}}는 아직 정해지지 않았습니다 [유추]"
+  }
+ ],
+ "incentive": "{{EU 집행위}}는 역내 {{화학·철강 산업의 감원 압력}}에 대응하는 모습을 보이려 하고, {{연대 메커니즘}}으로 {{중국 보복을 두려워하는 회원국}}을 설득하려 합니다 [유추]",
+ "check": "{{EU의 쿼터·관세 확대 방침}}과 {{연대 메커니즘}}은 {{유로뉴스(7월 14일)·헬레닉시핑뉴스 보도}}로 {{확인}}했습니다. '{{슈퍼 301조}}'식 수단 논의는 {{발로르 인터내셔널 칼럼 제목(7월 23일)}}과 {{애틀랜틱카운슬 분석(6월 3일)}}에도 나오지만, {{8월 전 조사 개시}}는 {{찾지 못했}}습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-02",
+   "u": "https://t.me/The_MariTimes/61087"
+  },
+  {
+   "o": "유로뉴스",
+   "d": "2026-07-14",
+   "u": "https://www.euronews.com/my-europe/2026/07/14/brussels-warns-dialogue-with-china-will-not-suffice"
+  },
+  {
+   "o": "헬레닉시핑뉴스",
+   "d": "2026-07",
+   "u": "https://www.hellenicshippingnews.com/china-threatens-trade-probes-against-the-eu-as-brussels-weighs-new-import-curbs/"
+  },
+  {
+   "o": "애틀랜틱카운슬",
+   "d": "2026-06-03",
+   "u": "https://www.atlanticcouncil.org/dispatches/europe-has-had-enough-of-chinas-export-surge/"
+  },
+  {
+   "o": "발로르 인터내셔널(구글 뉴스 링크)",
+   "d": "2026-07-23",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ0s5Mk1hd1FyVWdvckVNejBvNGNwUUNTbk16ZUlWLVhBYzNNaDJQWVNNOE9vZUI2U0JkM0l2UzZPZGJrSXJKTkktUGJldG5CUHh3cDltX3dzM3Vyd25fLUlldWNBdWlTM1ctb19DR3dBMVFoby1xX3JsTjBqSEZtVFNIQ0VZenVBSzY1QVV4anVycU9mOEp5UFJxUXlVS1pwcEdWR0txMUZzaU1qT0hZUTAyWmhZal9sZ0tLbtIBywFBVV95cUxQelR3ZVB5ZkJxU2FkalFCYmRCVFNXdUItUVRNZGFOVmlyUkhDMHlCaWFNRGhIOTRsZFAtLTdKa2tYOEhra2J4Q2lBYTF6ekhud09wRWRlT0R5eEl1OWV4Z1pxdW16QUdGRmtiRmx6NGp3NkV6aUk1RlVZVVN3Q1dvXzJ2VE90cFVLdEJvR0QyeVZiWnE0WGNlTHpWdGxld1BZM1FmNGczNmwtSi1WUWlwdjNGUUQwQVR3Vld5RW56M0E5UU1oNnNMZGhRRQ?oc=5"
+  }
+ ],
+ "channel": "Polaristimes",
+ "published": "2026-07-02T06:27:00+09:00",
+ "url": "https://t.me/The_MariTimes/61087",
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

@@ -1,0 +1,59 @@
+{
+ "key": "tg-insidertracking-59033",
+ "channel": "미국 주식 인사이더",
+ "published": "2026-07-23T21:19:00+09:00",
+ "url": "https://t.me/insidertracking/59033",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "headline": "{{유럽중앙은행}}, {{예금금리 2.25% 동결}}(예상 부합) — {{6월 3년 만의 인상}} 뒤 숨 고르기, {{독일 10년물}}은 {{2011년 이후 최고}}",
+ "facts": [
+  "무엇이: {{유럽중앙은행(ECB)}}이 {{7월 23일}} 시장 예상대로 {{예금금리를 2.25%로 동결}}했습니다 [사실]",
+  "배경: ECB는 {{6월}}에 {{3년 만의 첫 인상}}을 단행했고, 시장은 이번 회의에서 {{동결}}하되 {{9월 인상 가능성}}을 열어 둘 것으로 봤습니다 [사실]",
+  "시장: 회의를 앞두고 {{독일 10년물}}은 {{3.20%}}로 {{2011년 5월 이후 최고}}였고, 채널(월스트리트CN)은 일부 애널리스트가 {{깜짝 인상}} 가능성도 배제하지 않았다고 전했습니다 [사실]",
+  "이후: {{ECB}}는 {{9월 10일}} {{예금금리를 2.50%로 0.25%p 올려}} {{연준·일본은행}}과 나란히 {{인상}}했습니다 [사실]"
+ ],
+ "tags": [],
+ "cycles": [
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "{{현재 매크로 판정 ②}}(과열·긴축)와 {{같습니다}}: {{인상 뒤 한 번 쉬어 가는 동결}}이고 {{9월 추가 인상}}으로 이어져 {{긴축 국면}}이 {{계속}}됐습니다 [귀납]"
+  }
+ ],
+ "incentive": "{{ECB}}는 {{유가발 물가}}와 {{성장 둔화}} 사이에서 {{인상 여지}}를 남긴 채 {{시간을 벌}}려 합니다 [유추]",
+ "check": "{{7월 동결}}과 {{세 정책금리(2.25%·2.40%·2.65%)}}는 {{스페인 중앙은행이 옮긴 ECB 결정문}}(7월 23일)으로, {{6월 인상}}과 {{9월 2.50% 인상}}도 같은 곳의 결정문으로 {{확인}}했습니다. {{독일 10년물 3.20%}}는 트레이딩이코노믹스로 확인했고, {{깜짝 인상 가능성}}을 말한 {{애널리스트 전언}}은 {{채널 글로만}} 봤습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-23",
+   "u": "https://t.me/insidertracking/59033"
+  },
+  {
+   "o": "트레이딩이코노믹스(독일 10년물·ECB 예상)",
+   "d": "2026-07-23",
+   "u": "https://tradingeconomics.com/germany/government-bond-yield/news/569188"
+  },
+  {
+   "o": "스페인 중앙은행(ECB 7월 결정)",
+   "d": "2026-07-23",
+   "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/tipos-de-interes--julio-2026.html"
+  },
+  {
+   "o": "스페인 중앙은행(ECB 6월 결정)",
+   "d": "2026-06-11",
+   "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/bce-tipos-junio26.html"
+  },
+  {
+   "o": "스페인 중앙은행(ECB 9월 결정)",
+   "d": "2026-09-10",
+   "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/el-bce-sube-los-tipos-25-puntos-basicos-en-septiembre-2026.html"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

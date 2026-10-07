@@ -1,0 +1,75 @@
+{
+ "key": "tg-The_MariTimes-61105",
+ "channel": "Polaristimes",
+ "published": "2026-07-02T23:13:00+09:00",
+ "url": "https://t.me/The_MariTimes/61105",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "headline": "{{영란은행}}, {{헤지펀드 국채 레포}}에 {{최소 헤어컷 도입}} 추진(FT) — {{베이시스 거래 레버리지}} {{제한}}, {{최종안}}은 {{2027년 초}}",
+ "facts": [
+  "무엇이: {{영란은행}}이 {{헤지펀드}}가 {{영국 국채(길트)를 담보로 돈을 빌리는 레포 거래}}에 {{최소 헤어컷}}(담보 가치에서 깎는 비율)을 {{도입}}해 {{빌릴 수 있는 돈}}을 {{줄이는 방안}}을 {{추진}}한다고 FT가 {{7월 2일}} 보도했습니다 [사실]",
+  "왜: {{헤지펀드}}는 {{길트 레포 거래의 약 30%}}를 차지하고, {{대형 헤지펀드}}는 {{은행 간 경쟁}}으로 {{헤어컷 0%에 가까운 조건}}에 {{레버리지}}를 {{얻어 왔}}습니다. {{헤지펀드의 길트 레포 차입}}은 {{지난해 11월 약 1,000억 파운드}}까지 {{늘었}}습니다 [사실]",
+  "일정: {{영란은행}}은 {{아직 결정하지 않았}}고, {{2026년 내내 협의}}한 뒤 {{2027년 초}} {{정책안을 포함한 종합 보고}}를 {{낼}} 계획입니다 [사실]",
+  "반론: {{업계}}는 {{담보 요구가 늘면}} {{시장 유동성}}이 {{줄고}} {{비용}}이 {{오른다}}고 {{반발}}했고, 채널도 {{국채 시장 유동성 악화}}를 {{우려}}했습니다 [사실]"
+ ],
+ "tags": [
+  {
+   "s": 0,
+   "t": "정책 충격 — {{현물·선물 가격차를 노리는 베이시스 거래}}의 {{레버리지}}가 {{줄면}} {{길트 수요}}가 {{약해져}} {{장기 금리}}에 {{위쪽 압력}}이 될 수 있습니다 [유추]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "현재 매크로 판정 ②와 {{같은 방향}}입니다: {{긴축 국면}}에서 {{국채 공급이 늘고}} {{레버리지 매수자}}마저 {{묶이면}} {{장기 금리}}가 {{오르기 쉬워집니다}} [유추]"
+  }
+ ],
+ "incentive": "{{영란은행}}은 {{2022년 연기금 사태}} 같은 {{국채 급락 때의 강제 청산}}을 {{막으려}} 하고, {{헤지펀드·은행}}은 {{싼 레포 자금}}을 {{지키려}} {{반대}}합니다 [유추]",
+ "check": "{{FT 보도(7월 2일)}}는 그라운드뉴스 요약과 더트레이드뉴스(7월 3일)로, {{최소 헤어컷 추진}}과 {{일정}}은 영란은행 인사이트 글과 트레이더스유니언·헤지위크 보도로 {{확인}}했습니다. {{결정 전}}이라 {{헤어컷 수준}}은 {{공개되지 않았}}고 {{FT 원문}}은 {{유료라 열지 못했}}습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-02",
+   "u": "https://t.me/The_MariTimes/61105"
+  },
+  {
+   "o": "영란은행 인사이트",
+   "d": "2026",
+   "u": "https://www.bankofengland.co.uk/bank-insights/2026/gilt-edged-resilience-strengthening-liquidity-provision-in-the-repo-market"
+  },
+  {
+   "o": "더트레이드뉴스",
+   "d": "2026-07-03",
+   "u": "https://www.thetradenews.com/bank-of-england-continuing-with-proposals-to-cap-hedge-fund-leveraging-in-uk-gilt-markets/"
+  },
+  {
+   "o": "트레이더스유니언",
+   "d": "",
+   "u": "https://tradersunion.com/news/financial-news/show/2551899-boe-hedge-fund-leverage-gilt-market/"
+  },
+  {
+   "o": "헤지위크",
+   "d": "",
+   "u": "https://www.hedgeweek.com/bank-of-england-steps-up-scrutiny-of-hedge-fund-activity-in-gilt-repo-market/"
+  },
+  {
+   "o": "FT(채널 인용, 미열람)",
+   "d": "2026-07-02",
+   "u": "https://www.ft.com/content/ea2f743d-c98e-4ae8-882a-a49bce5fae08"
+  },
+  {
+   "o": "그라운드뉴스(FT 요약)",
+   "d": "2026-07-02",
+   "u": "https://ground.news/article/bank-of-england-plans-to-curb-hedge-fund-leverage-in-gilt-market"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

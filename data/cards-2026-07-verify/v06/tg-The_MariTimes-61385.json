@@ -1,0 +1,80 @@
+{
+ "key": "tg-The_MariTimes-61385",
+ "channel": "Polaristimes",
+ "published": "2026-07-15T16:11:00+09:00",
+ "url": "https://t.me/The_MariTimes/61385",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "headline": "{{헤그세스 국방장관}}, {{이란 전쟁 비용 375억 달러}} 공개하며 {{약 670억 달러 추가 예산}} \"시급\" — {{5월 추산 290억}}에서 늘어, {{의회 승인}}은 불투명",
+ "facts": [
+  "무엇이: {{피트 헤그세스 국방장관}}이 {{7월 21일}} {{상원 세출위원회 청문회}}에서 {{이란 전쟁 비용}}이 지금까지 {{375억 달러}}라고 밝히며 {{약 670억 달러 추가 예산}}이 {{시급하고 필요하다}}고 했습니다 [사실]",
+  "증가: 비용은 {{5월 중순 추산 약 290억 달러}}에서 늘었습니다. {{케인 합참의장}}과 함께 {{9월 말까지 전쟁 비용}}을 메울 돈이라고 설명했습니다 [사실]",
+  "반발: {{민주당 섀힌 의원}}은 국방부에 {{쓰지 않은 예산 750억 달러}}가 남아 있다고 반박했고, 청문회는 '{{이란 전쟁 반대}}' 팻말 시위로 여러 차례 {{중단}}됐습니다 [사실]",
+  "의회: {{7월 14일}} {{상원 민주당}}은 {{이란 전쟁에 항의}}해 {{1조 달러대 국방 법안}}을 {{막았}}고(AP·로이터), 채널은 FT를 인용해 {{추가 국방비}}도 {{의회 승인이 쉽지 않을}} 것이라며 막히면 {{전쟁을 강제로 접어야}} 할 수도 있다고 봤습니다 [사실]"
+ ],
+ "tags": [
+  {
+   "s": 0,
+   "t": "정책 충격 — {{전쟁 비용}}이 빠르게 불어나 {{재정적자}}가 커지고, {{예산 승인}}이 막히면 {{전쟁 지속 여부}}가 {{의회 표결}}에 걸립니다 [유추]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "{{현재 매크로 판정 ②}}(과열·긴축)와 {{같습니다}}: {{전쟁 추가 지출}}은 {{재정 확대}}로 {{국채 공급}}을 늘려 {{장기금리 상승 압력}}을 키우는 {{긴축 국면 요인}}입니다 [연역]"
+  }
+ ],
+ "incentive": "{{국방부}}는 {{예산 고갈}}을 강조해 {{의회 승인}}을 서두르고, {{민주당}}은 {{미사용 예산}}을 들어 {{전쟁 확대}}에 제동을 겁니다 [유추]",
+ "check": "아랍뉴스·조던타임스·폭스 보도로 {{375억 달러}}, {{290억 달러(5월)}}, {{약 670억 달러 요청}}, {{섀힌 반박}}을, {{AP·로이터·폴리티코(7월 14일)}} 제목으로 {{상원 민주당의 국방 법안 저지}}를, {{폴리티코(7월 16일)}} 제목으로 {{1조 5천억 달러 국방예산안 난항}}을 {{확인}}했습니다. {{FT 원문}}은 {{열지 못했}}습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-15",
+   "u": "https://t.me/The_MariTimes/61385"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-22",
+   "u": "https://t.me/insidertracking/58903"
+  },
+  {
+   "o": "아랍뉴스",
+   "d": "2026-07-22",
+   "u": "https://www.arabnews.com/node/2651813/world"
+  },
+  {
+   "o": "조던타임스",
+   "d": "2026-07-22",
+   "u": "https://jordantimes.com/news/world/hegseth-estimates-cost-of-iran-war-at-375-billion"
+  },
+  {
+   "o": "폭스10",
+   "d": "2026-07-22",
+   "u": "https://www.fox10phoenix.com/news/hegseth-reveals-how-much-iran-war-has-cost-so-far"
+  },
+  {
+   "o": "AP(구글 뉴스 링크)",
+   "d": "2026-07-14",
+   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1E2VFpwYl84ZUh4Z2RzRk81OFQ4bUo0TFNfZFBlc1NRa19QazZ3WjE4V3dLWjNrb0tpMlcyS2tTQXEzNWtnekNzMVd4d1FBWUd6NVpGWDlpSHBWWE5rc0hGVjFkdEk2VXJyVEZiYXRTSzJrRVRsdFU1TkN3X1RZSWdfQm4tWlV4WDN1ZjJDa0Z0dw?oc=5"
+  },
+  {
+   "o": "폴리티코(구글 뉴스 링크)",
+   "d": "2026-07-16",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWC1QTWJjZ2pxbWlyQktlbkRhbXJndHJGRzZucUVzbHQ4VjRHSFo1bkRzNXB3ZUtuMXJaS3pwVHhWTW51d2pCb0F3N1pXMm8wbHAzNHQyZ3M0NWdGSGZVQ3NKOURoQ3RzNE1DRjRla3haM2FQcV9iZE85MWVyejJuem0tMkpmUDRyc0JzZmdZaw?oc=5"
+  },
+  {
+   "o": "AP 속보(마이노스웨스트, 구글 뉴스 링크)",
+   "d": "2026-07-21",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZVRuUUM5WlREaFpEbW1TWFJMWkd4T054SFZPMERQS2FLOEEweW9RdnEtY0dqWVNCVHlndEx5ampqZGJpQUNqZGFDczdyZU83MVp3MHR4UDR4VnpFZEtFSDRPVDFCcjh2eTBoLTlfOXBpbk5kMm5pcFlMcVdvNWhzM3M3ZGZ5azh3dk44dHNtekl5NGk3Y2tKTXkxOUZqZXZRWFE?oc=5"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

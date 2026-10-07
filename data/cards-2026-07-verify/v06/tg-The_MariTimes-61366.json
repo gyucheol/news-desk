@@ -1,0 +1,101 @@
+{
+ "key": "tg-The_MariTimes-61366",
+ "channel": "Polaristimes",
+ "published": "2026-07-14T21:31:00+09:00",
+ "url": "https://t.me/The_MariTimes/61366",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "headline": "{{미국 6월 CPI}} {{전월 대비 -0.4%}}·{{전년 대비 3.5%}}로 {{예상 밑돌아}} — {{근원}}은 {{0.0%}}·{{2.6%}}, {{휘발유 9.7% 하락}}",
+ "facts": [
+  "무엇이: {{미국 6월 소비자물가}}가 {{전월 대비 0.4% 내려}} {{예상(-0.1%)}}보다 {{많이 떨어졌}}고, {{전년 대비}}로는 {{3.5%}}로 {{5월 4.2%}}와 {{예상 3.8%}}를 {{밑돌았}}습니다 [사실]",
+  "근원: {{식품·에너지를 뺀 근원 물가}}는 {{전월 대비 보합(0.0%)}}으로 {{예상(+0.2%)}}을 밑돌았고 {{전년 대비 2.6%}}로 {{2.9%에서 낮아졌}}습니다 [사실]",
+  "왜: {{에너지 물가}}가 {{5.7% 내렸}}고 그중 {{휘발유}}가 {{9.7%}}, {{전기}}가 {{1.0%}} {{내렸}}습니다. {{식품}}은 {{0.2%}} {{올랐}}습니다 [사실]",
+  "세부: {{주거비}}는 {{0.1% 올라}} {{2021년 1월 이후 가장 적게 올랐}}습니다(채널은 0.12%). 채널에 따르면 {{근원 상품}}은 {{두 달 연속 하락(-0.09%)}}했고, {{전년 대비}}로는 {{난방유 +42.9%}}, {{휘발유 +26.7%}}로 {{여전히 높습니다}} [사실]",
+  "시장: {{트레이더들}}은 {{7월 인상 베팅}}을 {{줄였}}습니다. {{월간 -0.4%}}는 {{2020년 4월 이후 첫 하락}}이자 {{2020년 이후 가장 큰 하락}}이었습니다(NAHB·악시오스·폭스5) [사실]"
+ ],
+ "tags": [
+  {
+   "s": 0,
+   "t": "동인 — {{유가 하락}}과 {{근원 둔화}}가 겹쳐 {{7월 인상 압력}}이 {{누그러졌}}지만, {{호르무즈 봉쇄 재개}}로 {{에너지값이 다시 오르면}} {{되돌려질}} 수 있습니다 [유추]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "macro",
+   "stage": 2,
+   "why": "{{현재 매크로 판정 ②}}와 {{다른 방향}}입니다: {{물가가 예상보다 빨리 꺾인}} 것은 {{① 골디락스 쪽}} 신호였지만, 이후 {{9월 인상}}과 {{유가 100달러대}}로 {{② 판정}}이 {{유지됐}}습니다 [귀납]"
+  }
+ ],
+ "incentive": "{{채널}}은 {{지표 속보}}로 {{위험자산 반등 기대}}를 전하고, {{연준 매파}}는 {{에너지 효과}}를 들어 {{한 달 지표로 판단하지 않으려}} 합니다 [유추]",
+ "check": "{{헤드라인·근원 수치}}는 퍼스트트러스트·그린리프트러스트 해설로, {{에너지 세부}}와 {{주거비 +0.1%}}는 {{NAHB 해설}}로, {{2020년 이후 최대 하락}}은 {{악시오스(7월 14일)·폭스5 샌디에이고(7월 22일)}} 제목으로 {{확인}}했습니다. 채널은 {{폭스뉴스}}라 했지만 찾은 것은 {{폭스 계열 지역 방송}}입니다. {{근원 상품 -0.09%}}와 {{전년 대비 난방유·휘발유}}는 {{노동통계국 원자료}}를 {{열지 못해}} {{확인하지 못했}}습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-14",
+   "u": "https://t.me/The_MariTimes/61366"
+  },
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-07-14",
+   "u": "https://t.me/Trillion_labs/5705"
+  },
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-07-14",
+   "u": "https://t.me/Trillion_labs/5710"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-14",
+   "u": "https://t.me/insidertracking/58288"
+  },
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-07-14",
+   "u": "https://t.me/HANAchina/65357"
+  },
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-07-14",
+   "u": "https://t.me/HANAchina/65353"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-15",
+   "u": "https://t.me/insidertracking/58321"
+  },
+  {
+   "o": "퍼스트트러스트",
+   "d": "2026-07-14",
+   "u": "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/7/14/the-consumer-price-index-cpi-declined-0.4percent-in-june"
+  },
+  {
+   "o": "그린리프트러스트",
+   "d": "2026-07-14",
+   "u": "https://greenleaftrust.com/news/june-cpi-report-better-than-anticipated/"
+  },
+  {
+   "o": "NAHB 아이온하우징",
+   "d": "2026-07-14",
+   "u": "https://eyeonhousing.org/2026/07/inflation-cooled-in-june-as-gas-prices-eased/"
+  },
+  {
+   "o": "악시오스(구글 뉴스 링크)",
+   "d": "2026-07-14",
+   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Wd3NNc1YwclNIT3UyUk1GdkZRWURlUEd0cTJCQ0tCckpFYXlQblU2Njh4X1kzX3JQUk9YQmEzWHZJTThBblAzNVU0MVlXYU9wWHltZFQwRy1naHVrSUZkcXQ2UjNOdmZCWWc?oc=5"
+  },
+  {
+   "o": "폭스5 샌디에이고(구글 뉴스 링크)",
+   "d": "2026-07-22",
+   "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CRzdoTmFIczdFTVB4TkdSeXY2dGJZUW45WlVhTzhybkYyUGZ6U05fQmNvOHB6UHdZUTVLZEg2cWdPMUMzRTdzWjlCZGxsbHhsSTdQdl9rOC0tdGJpdUk0OGZyWGZFa3Rn0gFuQVVfeXFMTTRUSWp2ZktpVUVqWnl0Q1VxRTlQVUVGS0x5c1JtbUNzMlZTQ25pSm1jaHhzdnZIVnh4eVFqV19JeURQdXlCajJpSFNpdU5OcUpkOG5YODdpX1BGUXUtMTJWbm12bDFyQjRycXM3LXc?oc=5"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

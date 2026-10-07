@@ -1,0 +1,79 @@
+{
+ "key": "tg-The_MariTimes-61344",
+ "channel": "Polaristimes",
+ "published": "2026-07-14T12:26:00+09:00",
+ "url": "https://t.me/The_MariTimes/61344",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade"
+ ],
+ "headline": "{{EU}}, {{러시아 가스 끊겠다}}면서 {{상반기 야말 LNG 997만 톤 수입}}(+16%, 로이터) — {{러시아 LNG 운송 금지 제재}}는 {{그리스 반대}}에 막혔다가 {{예외를 주고}} {{7월 23일 합의}}",
+ "facts": [
+  "무엇이: {{EU 국가들}}은 {{올 상반기}} {{러시아 야말 LNG}}를 {{136척분 997만 톤}} {{수입}}해 {{전년보다 16% 늘었}}고, {{야말 출하량의 97% 이상}}이 {{EU 항구}}로 갔습니다(로이터, 케이플러·우르게발트 자료) [사실]",
+  "제재 교착: {{그리스}}는 {{러시아 LNG를 나르는 자국 해운사 다이나가스}}를 지키려 {{제3국 운송 금지}}가 든 {{21차 제재 패키지}}를 {{7월 중순 막았}}고(FT), 채널이 옮긴 블룸버그에 따르면 {{EU}}는 {{시행 24개월 연기}} 등 {{세 방안}}을 {{논의}}했습니다(7월 22일). {{EU}}는 {{7월 23일}} {{그리스 예외}}를 넣어 {{패키지에 합의}}했습니다 [사실]",
+  "방식 변경: FT는 {{7월 26일}} {{그리스 예외}}를 계기로 {{집행위}}가 {{대형 패키지 대신}} {{개별·소규모 주제별 제재}}로 {{바꾸는 방안}}을 {{검토}}한다고 보도했습니다. {{회원국 한 곳의 거부권}}에 {{막히는 일}}을 {{줄이려는}} 것입니다 [사실]",
+  "이후: 채널은 {{벨기에}}가 {{7월 LNG 수입}}을 {{전부 러시아산}}으로 {{채웠}}다고 전했습니다(8월 5일) [사실]"
+ ],
+ "tags": [
+  {
+   "s": 0,
+   "t": "정책 충격 — {{EU의 러시아 LNG 제재}}가 {{회원국 해운 이해}}에 {{막혀}}, {{카타르 공백}} 속에 {{러시아산 의존}}이 {{오히려}} {{커졌}}습니다 [귀납]"
+  }
+ ],
+ "cycles": [
+  {
+   "ind": "gas",
+   "stage": 2,
+   "why": "{{현재 판정 ②}}와 {{같습니다}}: {{공급이 빠듯}}해 {{유럽}}이 {{러시아 LNG}}까지 {{더 사는}} 것은 {{부족 국면}}의 모습입니다 [귀납]"
+  }
+ ],
+ "incentive": "{{그리스}}는 {{자국 해운사}}의 {{사업}}을 {{지키려}} 하고, {{벨기에·유럽 구매자}}는 {{싼 장기계약 물량}}을 {{놓지 않으려}} 합니다 [유추]",
+ "check": "로이터(야후 게재, 7월 13일)로 {{997만 톤·+16%·97%}}를, 폴리티스(FT 인용, 7월 16일)로 {{그리스의 제재 저지}}를, {{유로뉴스·폴리티코 유럽(7월 23일)}}과 {{FT(7월 26일)·우크린폼(7월 27일)}} 보도 제목으로 {{예외를 준 합의}}와 {{제재 방식 변경 검토}}를 {{확인}}했습니다. {{블룸버그의 세 방안}}과 {{벨기에 7월 전량 러시아산}}은 {{채널 글로만}} 봤습니다 [사실]",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-07-14",
+   "u": "https://t.me/The_MariTimes/61344"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-22",
+   "u": "https://t.me/insidertracking/58837"
+  },
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-07-27",
+   "u": "https://t.me/insidertracking/59402"
+  },
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-08-05",
+   "u": "https://t.me/The_MariTimes/61869"
+  },
+  {
+   "o": "로이터(야후 파이낸스 게재)",
+   "d": "2026-07-13",
+   "u": "https://sg.finance.yahoo.com/news/eu-imports-record-lng-volumes-090048883.html"
+  },
+  {
+   "o": "폴리티스(FT 인용)",
+   "d": "2026-07-16",
+   "u": "https://en.politis.com.cy/news/economy/1019615/athens-blocks-eu-russia-sanctions-to-shield-shipping-firm"
+  },
+  {
+   "o": "유로뉴스(구글 뉴스 링크)",
+   "d": "2026-07-23",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWlcwajRoQTB3dmJzRERJZmNVeE05b2hFT0dxc1cwSnVMVTRLQnp4cVk4SUE4U25PWjhzbmx5UkNDV0RwWmMweTFCZHdoVTJOMmk2SWkxRzc3dWZwaDNvbVVqX3Z2OFQ5NXpZRVpBVkpSdVFlUUswaDRxTWhyWVBocnlaQ2FLV3ZmcXBxd19vS1R6WUlmX1BzU2w1WDZDXzhKUGNRbFEwNENiZw?oc=5"
+  },
+  {
+   "o": "FT(구글 뉴스 링크)",
+   "d": "2026-07-26",
+   "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdGRIdTU2RDFJNVNLNV9YNW40THJYWWxsek9nNTdiWGQ5RkZKZkEtcDVCam5VV3d4TF9UODB5ZlVTLS1ISmVhNWNUN1Q3aHVlZkNEWFRnMGJnLTVMQU9nQmM1MnlnT0FYZm1ncXFiTFltcXFXQndGV0dCbjNOWm9kX3ZVR3k?oc=5"
+  }
+ ],
+ "source": "텔레그램",
+ "dupOf": "",
+ "insight": {}
+}

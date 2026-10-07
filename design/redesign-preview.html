@@ -188,6 +188,16 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:1px;width:20px
 .src a{word-break:break-all}
 .dim{color:var(--muted);font-size:13.5px}
 .callout{padding:12px 14px;border-radius:var(--r);background:var(--card);font-size:14px;color:var(--strong)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;cursor:pointer;font-variant-numeric:tabular-nums}
+.chip:hover{background:var(--soft)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#FFFFFF}
+.jtools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:10px}
+.tgl{appearance:none;border:0;background:var(--card);color:var(--strong);font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:var(--r-sm);cursor:pointer}
+.tgl:hover{background:var(--card-strong)}
+.tgl[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-strong)}
+.item.empty{display:block}
+.more-row{margin-top:14px;display:flex;justify-content:center}
 footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display:grid;gap:10px;font-size:13px;color:var(--muted)}
 </style>
 
@@ -199,6 +209,7 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display
     <p class="note">실제 DB와 연결되지 않은 미리보기입니다. 체크와 읽음 표시는 이 브라우저에만 남습니다.</p>
     <ol class="steps" aria-label="단계 바로가기">
       <li><a href="#list"><b>0~2</b> 한줄 목록 · 체크 · 읽음</a></li>
+      <li><a href="#july"><b>0~2</b> 7월 실제 분량으로 보기</a></li>
       <li><a href="#detail"><b>3</b> 자세한 정리</a></li>
       <li><a href="#insight"><b>4</b> 산업 구조</a></li>
       <li><a href="#flip"><b>5</b> 뒤집어 보기</a></li>
@@ -266,6 +277,24 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display
         <div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="jera">읽음 표시</button></div>
       </li>
     </ul>
+  </section>
+
+  <!-- ───────── 7월 실제 분량 ───────── -->
+  <section id="july" aria-labelledby="july-h">
+    <div class="sh">
+      <p class="tag">0~2단계 · 실제 분량으로 보기</p>
+      <h2 id="july-h">7월 텔레그램 뉴스를 한줄로 바꾸면</h2>
+      <p>사실 확인을 거친 7월 요약 카드를 서브 에이전트가 '제목 + 한줄 요약'으로 다시 썼습니다. 산업을 골라 보거나 날짜순으로 바꿔 볼 수 있습니다.</p>
+    </div>
+    <div class="filters" id="jf" role="group" aria-label="산업 선택"></div>
+    <div class="jtools">
+      <span class="dim" id="jcount"></span>
+      <button class="tgl" id="jsort" type="button" aria-pressed="false">날짜 오름차순으로</button>
+      <button class="tgl" id="junread" type="button" aria-pressed="false">안 읽은 것만</button>
+    </div>
+    <p class="legend"><span><span class="lb u">일부 미확인</span>핵심 수치 일부를 다른 매체로 확인하지 못함</span><span><span class="lb i">채널 전언</span>채널 주장 위주</span></p>
+    <ul class="news" id="jlist"><li class="item empty"><p class="dim">7월 목록을 불러오는 중입니다.</p></li></ul>
+    <p class="more-row"><button class="btn ghost" id="jmore" type="button" hidden>더 보기</button></p>
   </section>
 
   <!-- ───────── 3단계: 자세한 정리 ───────── -->
@@ -677,27 +706,34 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display
   var state={d:{},r:{},i:false};
   try{var s=JSON.parse(localStorage.getItem(KEY)||'null'); if(s&&typeof s==='object'){state.d=s.d||{};state.r=s.r||{};state.i=!!s.i;}}catch(e){}
   function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
-  var boxes=[].slice.call(document.querySelectorAll('.news input[type=checkbox]'));
-  var reads=[].slice.call(document.querySelectorAll('.news .read'));
   var ins=document.getElementById('ck-insight');
   var req=document.getElementById('req'), msg=document.getElementById('reqmsg');
-  function titleOf(id){var li=document.querySelector('.item[data-id="'+id+'"] .ttl');return li?li.textContent.trim():id;}
-  function render(){
-    boxes.forEach(function(b){b.checked=!!state.d[b.dataset.id];});
-    reads.forEach(function(b){var on=!!state.r[b.dataset.id];b.setAttribute('aria-pressed',on?'true':'false');b.textContent=on?'읽음':'읽음 표시';b.closest('.item').classList.toggle('is-read',on);});
+  var titles={};
+  function titleOf(id){if(titles[id])return titles[id];var t=document.querySelector('.item[data-id="'+id+'"] .ttl');return t?t.textContent.trim():id;}
+  function paint(root){
+    [].forEach.call((root||document).querySelectorAll('.news input[type=checkbox]'),function(b){b.checked=!!state.d[b.dataset.id];});
+    [].forEach.call((root||document).querySelectorAll('.news .read'),function(b){var on=!!state.r[b.dataset.id];b.setAttribute('aria-pressed',on?'true':'false');b.textContent=on?'읽음':'읽음 표시';var it=b.closest('.item');if(it)it.classList.toggle('is-read',on);});
+  }
+  function counts(){
     ins.checked=state.i;
     var nd=Object.keys(state.d).filter(function(k){return state.d[k];}).length;
     document.getElementById('n-detail').textContent=nd;
     document.getElementById('n-insight').textContent=state.i?1:0;
     req.disabled=(nd===0&&!state.i);
   }
-  boxes.forEach(function(b){b.addEventListener('change',function(){state.d[b.dataset.id]=b.checked;save();render();msg.textContent='';});});
-  reads.forEach(function(b){b.addEventListener('click',function(){state.r[b.dataset.id]=!state.r[b.dataset.id];save();render();});});
-  ins.addEventListener('change',function(){state.i=ins.checked;save();render();msg.textContent='';});
+  document.addEventListener('change',function(e){
+    var b=e.target;
+    if(b.matches&&b.matches('.news input[type=checkbox]')){state.d[b.dataset.id]=b.checked;save();counts();msg.textContent='';}
+  });
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('.news .read');
+    if(b){state.r[b.dataset.id]=!state.r[b.dataset.id];save();paint(b.closest('.news'));if(onlyUnread)renderJuly();}
+  });
+  ins.addEventListener('change',function(){state.i=ins.checked;save();counts();msg.textContent='';});
   req.addEventListener('click',function(){
     var ids=Object.keys(state.d).filter(function(k){return state.d[k];});
     var lines=[];
-    if(ids.length){lines.push('체크한 뉴스 자세히 정리 요청 ('+ids.length+'건)');ids.forEach(function(id){lines.push('- '+titleOf(id));});}
+    if(ids.length){lines.push('체크한 뉴스 자세히 정리 요청 ('+ids.length+'건)');ids.forEach(function(id){lines.push('- '+titleOf(id)+(id.indexOf('tg-')===0?' ['+id+']':''));});}
     if(state.i){lines.push('투자 인사이트 요청 (1건)');lines.push('- '+titleOf('hdd'));}
     var text=lines.join('\n');
     var done=function(){msg.textContent='복사했습니다. Claude에게 붙여 넣으면 됩니다.';};
@@ -709,6 +745,54 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display
     };
     try{navigator.clipboard.writeText(text).then(done,fallback);}catch(e){fallback();}
   });
-  render();
+
+  /* ── 7월 실제 분량 ── */
+  var IND={macro:'매크로',semis:'반도체·AI 투자',power:'재생에너지·전력',gas:'가스·LNG',coal:'석탄',uranium:'원전·우라늄',drilling:'시추·해양',petchem:'석유화학·정유',jpins:'일본 보험',beauty:'화장품'};
+  var ORDER=['all','semis','macro','power','gas','petchem','uranium','drilling','coal','jpins','beauty'];
+  var jdata=[], filt='all', asc=false, onlyUnread=false, shown=40;
+  var jlist=document.getElementById('jlist'), jf=document.getElementById('jf'), jmore=document.getElementById('jmore');
+  function esc(t){return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function primary(x){return x.ind||(x.inds&&x.inds[0])||'macro';}
+  function filtered(){
+    return jdata.filter(function(x){return (filt==='all'||x.ind===filt||(x.inds||[]).indexOf(filt)>=0)&&(!onlyUnread||!state.r[x.key]);})
+      .sort(function(a,b){return asc?(a.sortkey<b.sortkey?-1:1):(a.sortkey<b.sortkey?1:-1);});
+  }
+  function chips(){
+    var c={all:jdata.length};
+    ORDER.forEach(function(k){if(k!=='all')c[k]=jdata.filter(function(x){return x.ind===k||(x.inds||[]).indexOf(k)>=0;}).length;});
+    jf.innerHTML=ORDER.filter(function(k){return c[k];}).map(function(k){
+      return '<button class="chip" type="button" data-f="'+k+'" aria-pressed="'+(k===filt)+'">'+(k==='all'?'전체':IND[k])+' '+c[k]+'</button>';
+    }).join('');
+  }
+  function renderJuly(){
+    var rows=filtered();
+    document.getElementById('jcount').textContent=rows.length+'건'+(onlyUnread?' (안 읽은 것)':'');
+    var html=rows.slice(0,shown).map(function(x){
+      var badge=x.basis==='channel'?'<span class="lb i">채널 전언</span>':(x.basis==='partial'?'<span class="lb u">일부 미확인</span>':'');
+      return '<li class="item" data-id="'+esc(x.key)+'">'+
+        '<div class="ctrl"><label class="ck"><input type="checkbox" data-id="'+esc(x.key)+'"><span>자세히</span></label></div>'+
+        '<div class="body"><p class="meta"><span class="ind">'+esc(IND[x.ind]||x.ind)+'</span><span>'+esc(x.channel)+'</span><span>'+esc(x.dlabel)+'</span>'+badge+'</p>'+
+        '<h3 class="ttl">'+esc(x.title)+'</h3><p class="one">'+esc(x.one)+'</p>'+
+        '<p class="links"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">텔레그램 원문</a></p></div>'+
+        '<div class="ctrl"><button class="read" type="button" aria-pressed="false" data-id="'+esc(x.key)+'">읽음 표시</button></div></li>';
+    }).join('');
+    jlist.innerHTML=html||'<li class="item empty"><p class="dim">조건에 맞는 뉴스가 없습니다.</p></li>';
+    jmore.hidden=rows.length<=shown;
+    jmore.textContent='더 보기 ('+Math.min(40,rows.length-shown)+'건)';
+    paint(jlist);
+  }
+  jf.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;filt=b.dataset.f;shown=40;chips();renderJuly();});
+  document.getElementById('jsort').addEventListener('click',function(){asc=!asc;this.setAttribute('aria-pressed',asc);this.textContent=asc?'최신순으로':'날짜 오름차순으로';renderJuly();});
+  document.getElementById('junread').addEventListener('click',function(){onlyUnread=!onlyUnread;this.setAttribute('aria-pressed',onlyUnread);renderJuly();});
+  jmore.addEventListener('click',function(){shown+=40;renderJuly();});
+  fetch('july.json').then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(d){
+    jdata=d.filter(function(x){return x.one;}).map(function(x){
+      var dt=x.date||''; x.sortkey=dt+' '+(x.key||''); x.dlabel=dt?(Number(dt.slice(5,7))+'월 '+Number(dt.slice(8,10))+'일'):'';
+      x.ind=x.ind||primary(x); titles[x.key]=x.title; return x;
+    });
+    chips(); renderJuly();
+  }).catch(function(){jlist.innerHTML='<li class="item empty"><p class="dim">7월 목록을 불러오지 못했습니다. 새로고침해 보세요.</p></li>';});
+
+  paint(document); counts();
 })();
 </script>

@@ -12,7 +12,7 @@
   let readRef = null, writing = Promise.resolve();
   let archive = null, archLoading = false, dbRef = null;
   let reqs = {}, reqDone = {}, reqRef = null;      // 투자 인사이트 요청
-  let dreqs = {}, dreqDone = {}, dsent = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
+  let dreqs = {}, dreqDone = {}, dsent = {}, dsess = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
   const st = {
     tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(),
     ind: null, flowNode: 'all', flowMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()

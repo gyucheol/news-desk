@@ -1,0 +1,298 @@
+{
+ "agent": "T4",
+ "searches_used": 8,
+ "fetches_used": 1,
+ "items": [
+  {
+   "key": "tg-Trillion_labs-9939",
+   "source": "텔레그램",
+   "channel": "트릴리온",
+   "url": "https://t.me/Trillion_labs/9939",
+   "published": "2026-10-02T23:05:00+09:00",
+   "inds": [
+    "power",
+    "macro"
+   ],
+   "nodes": [
+    "power/grid",
+    "macro/geo"
+   ],
+   "title": "러시아, 우크라이나 전력망에 최대 1,000발 겨울 공세 계획(NYT)",
+   "one": "러시아가 미사일·드론·폭탄 최대 1,000발로 우크라이나 변전소와 발전소를 치는 겨울 공세를 계획하면서, 키이우·하르키우·오데사의 전력과 난방 공급이 최대 90%까지 끊길 수 있다",
+   "facts": [
+    "무엇이: 뉴욕타임스가 우크라이나 에너지장관이 유럽 측에 설명한 러시아의 겨울 에너지 공격 계획 문서를 보도했습니다 [사실]",
+    "얼마나: 미사일·드론·유도폭탄 최대 1,000발, 발전설비 약 15GW 제거를 상정했고 대상 도시의 전력·난방을 최대 90% 줄이는 것이 목표로 적혀 있습니다 [사실]",
+    "순서: 서부 국경 수입용 변전소, 수력발전소, 원전 3곳의 송전 개폐소 순으로 3단계 공격을 담았습니다 [사실]",
+    "한계: 8월 날짜의 러시아어 문서로 NYT도 진위를 독자적으로 확인하지 못했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(뉴욕타임스 보도 전재)로 들어온 소식이며, NYT 기사를 옮긴 UNITED24 Media·UNN 기사 내용을 검색 결과 요약으로 확인했습니다. NYT 원문은 읽지 못했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-02",
+     "u": "https://t.me/Trillion_labs/9939"
+    },
+    {
+     "o": "UNITED24 Media",
+     "d": "2026-10-02",
+     "u": "https://united24media.com/war-in-ukraine/russia-plans-up-to-1000-strikes-to-cripple-ukraines-energy-grid-this-winter-23058"
+    },
+    {
+     "o": "UNN",
+     "d": "2026-10-02",
+     "u": "https://unn.ua/en/news/up-to-1000-missiles-drones-and-bombs-the-nyt-learned-of-russias-plans-for-the-most-powerful-strike-in-an-attempt-to-freeze-ukraine"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-Trillion_labs-9928",
+   "source": "텔레그램",
+   "channel": "트릴리온",
+   "url": "https://t.me/Trillion_labs/9928",
+   "published": "2026-10-02T21:55:00+09:00",
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/liquefaction",
+    "gas/trade"
+   ],
+   "title": "벤처글로벌, 코노코필립스와 연 100만 톤 20년 LNG 판매계약",
+   "one": "벤처글로벌이 코노코필립스와 2030년부터 20년간 연 100만 톤의 LNG 판매계약을 맺으면서, 미국산 LNG의 장기 판매 물량이 늘었지만 공급 설비와 가격 조건은 공개되지 않았다",
+   "facts": [
+    "무엇이: 벤처글로벌과 코노코필립스가 10월 1일 LNG 장기 판매·구매계약(SPA)을 발표했습니다 [사실]",
+    "얼마나: 2030년부터 20년간 연 100만 톤입니다. 공급 설비·가격·인도 조건은 공개하지 않았습니다 [사실]",
+    "배경: 벤처글로벌은 CP2 2단계 최종투자결정을 위해 추가 장기계약과 건설 자금 조달을 진행 중이라고 밝혀 왔습니다 [사실]",
+    "해석: 이번 물량이 CP2 2단계에 배정될지는 발표에 없습니다 [추론]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(회사 보도자료 번역)로 들어온 소식이며, 벤처글로벌 보도자료와 World Oil 기사(2026-10-02)를 검색 결과 요약으로 확인했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-02",
+     "u": "https://t.me/Trillion_labs/9928"
+    },
+    {
+     "o": "벤처글로벌 보도자료",
+     "d": "2026-10-01",
+     "u": "https://ventureglobal.com/2026/10/01/venture-global-and-conocophillips-announce-20-year-lng-sales-and-purchase-agreement/"
+    },
+    {
+     "o": "World Oil",
+     "d": "2026-10-02",
+     "u": "https://www.worldoil.com/news/2026/10/2/conocophillips-expands-lng-portfolio-with-20-year-venture-global-agreement/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-HANAchina-69766",
+   "source": "텔레그램",
+   "channel": "하나증권 중국전략",
+   "url": "https://t.me/HANAchina/69766",
+   "published": "2026-10-02T21:32:00+09:00",
+   "inds": [
+    "gas",
+    "coal"
+   ],
+   "nodes": [
+    "gas/trade",
+    "gas/demand",
+    "coal/power"
+   ],
+   "title": "JERA 가니 CEO \"카타르 LNG 곧 안 돌아온다\"…현물가 작년의 두 배",
+   "one": "세계 최대 LNG 구매자 JERA의 가니 CEO가 호르무즈 차질로 카타르 LNG가 겨울 전에 돌아오기 어렵다고 밝히면서, 이미 전년의 두 배인 LNG 현물가가 더 오를 수 있다는 우려가 커졌다",
+   "facts": [
+    "무엇이: JERA 가니 유키오 CEO가 10월 2일 \"카타르 LNG가 곧 시장에 돌아올 것으로 보지 않는다\"고 말했습니다 [사실]",
+    "얼마나: LNG 현물가는 1년 전의 두 배이며, 유럽의 낮은 가스 재고와 1월 러시아산 LNG 수입 금지로 더 오를 수 있다고 봤습니다 [사실]",
+    "배경: 9월 카타르·UAE의 호르무즈 LNG 통과량은 전쟁 이후 최대였지만 2월보다 80% 적었습니다(Kpler) [사실]",
+    "파급: 비싼 가스 탓에 발전소들이 석탄으로 돌아서고 있다는 설명이 채널 글에 있습니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(블룸버그 TV 인터뷰 전재)로 들어온 소식이며, The National(2026-10-02) 자체 기사를 검색 결과 요약으로 확인했습니다. 석탄 전환 대목은 채널 글에만 있습니다.",
+   "src": [
+    {
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-02",
+     "u": "https://t.me/HANAchina/69766"
+    },
+    {
+     "o": "The National",
+     "d": "2026-10-02",
+     "u": "https://www.thenationalnews.com/business/energy/2026/10/02/worlds-top-lng-buyer-sees-qatar-supply-disruption-persisting-into-winter/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-w_compass-7161",
+   "source": "텔레그램",
+   "channel": "부의 나침반",
+   "url": "https://t.me/w_compass/7161",
+   "published": "2026-10-02T11:22:00+09:00",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/storage",
+    "power/grid"
+   ],
+   "title": "미국 2027~2031년 가동 예정 BESS 293건…1년 새 75%↑",
+   "one": "미국 에너지정보청에 보고된 2027~2031년 가동 예정 배터리저장(BESS) 사업이 293건으로 1년 전보다 75% 늘면서, 전력망 연계 병목이 풀리는 만큼 ESS 수요가 빠르게 늘 수 있다 (채널 전언)",
+   "facts": [
+    "무엇이: 2026년 6월 말 EIA 집계 기준 2027~2031년 가동 계획 BESS 사업은 293건으로 1년 전 167건보다 75% 많습니다 [채널]",
+    "얼마나: 같은 기간 계획 용량은 45% 늘었다고 채널은 전했습니다 [채널]",
+    "배경: EIA 8월 자료로는 운영사들이 2027년 26GW, 2028년 14GW의 배터리 추가를 계획하고 있습니다 [사실]",
+    "해석: 대기 물량이 연계 절차 병목에 묶여 있다는 것은 채널의 해석입니다 [추론]"
+   ],
+   "basis": "channel",
+   "check": "채널 글만으로 작성했습니다. 293건·167건·45% 숫자는 독립 출처를 찾지 못했고, EIA 8월 용량 계획만 Energy-Storage.News 검색 결과 요약으로 확인했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-02",
+     "u": "https://t.me/w_compass/7161"
+    },
+    {
+     "o": "Energy-Storage.News",
+     "d": "2026-08",
+     "u": "https://www.energy-storage.news/us-double-bess-capacity-2028-eia-reports/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-w_compass-7153",
+   "source": "텔레그램",
+   "channel": "부의 나침반",
+   "url": "https://t.me/w_compass/7153",
+   "published": "2026-10-01T18:57:00+09:00",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/storage",
+    "power/market"
+   ],
+   "title": "대형 ESS 배터리 5년 새 11배…중국산 비중 95%로 탈중국 가장 어려워",
+   "one": "세계 대형 에너지저장 배터리 설비가 5년 전의 11배로 커진 가운데 중국 업체가 공급의 95%를 차지하면서, 미국·EU의 보안 규제에도 ESS 공급망을 중국에서 떼어내기가 가장 어렵다",
+   "facts": [
+    "무엇이: 경제일보는 IEA를 인용해 세계 대형 배터리 저장 설비가 5년 전의 11배라고 전했습니다 [사실]",
+    "얼마나: 벤치마크 미네랄 인텔리전스는 중국 업체 공급 비중을 95%로 추산했고, CATL은 올해 상반기 대형 저장용 셀 판매 22%로 1위입니다 [사실]",
+    "가격: 엠버에 따르면 전력망 저장용 배터리팩 값은 지난해 45% 내렸습니다 [사실]",
+    "규제: 미국은 에너지부가 중국 연계 저장장비를 전력망에서 배제할 수 있게 했고 EU는 고위험국 핵심부품 사업에 공적자금을 제한합니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "채널이 링크한 경제일보(대만, 2026-10-01, 외신 종합) 기사를 직접 열어 확인했습니다. 11배와 중국 설비 증가는 별도 분석 글에서도 같은 숫자를 봤습니다.",
+   "src": [
+    {
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-01",
+     "u": "https://t.me/w_compass/7153"
+    },
+    {
+     "o": "경제일보(經濟日報)",
+     "d": "2026-10-01",
+     "u": "https://money.udn.com/money/story/5599/9788406"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-HANAchina-69722",
+   "source": "텔레그램",
+   "channel": "하나증권 중국전략",
+   "url": "https://t.me/HANAchina/69722",
+   "published": "2026-10-01T17:16:00+09:00",
+   "inds": [
+    "power",
+    "gas"
+   ],
+   "nodes": [
+    "power/demand",
+    "power/gen",
+    "gas/demand"
+   ],
+   "title": "JERA·델·아폴로, 5년간 AI 데이터센터 3~4GW에 1,400억 달러 구상",
+   "one": "JERA가 델·아폴로와 지바 400MW 데이터센터에 이어 5년 안에 가스발전을 붙인 AI 데이터센터 3~4GW를 짓겠다고 밝히면서, 투자 규모가 약 1,400억 달러에 이르고 일본 LNG 발전 수요가 늘 수 있다",
+   "facts": [
+    "무엇이: JERA 가니 CEO는 5년 안에 가스발전과 함께 3~4GW 규모 AI 데이터센터를 짓겠다고 밝혔습니다 [사실]",
+    "얼마나: 1GW당 350억~450억 달러로 잡아 전체 약 1,400억 달러로 추산됩니다. 채널 글의 3,500억~4,500억 달러는 단위 오기로 보입니다 [사실]",
+    "배경: 첫 사업은 지바 화력발전소 옆 400MW·150억 달러 규모로 아폴로가 자금을 대고 전력망에 연결하지 않습니다 [사실]",
+    "연료: 가니 CEO는 연 3,500만 톤의 LNG 거래량으로 발전소 연료를 댈 수 있다고 설명했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(FT 보도를 중국 매체가 옮긴 것)로 들어온 소식이며, TechRadar·The Next Web 자체 기사를 검색 결과 요약으로 확인했습니다. 지바 400MW 사업은 n-rtr-0003에서 다뤘고 3~4GW·1,400억 달러가 새 사실입니다.",
+   "src": [
+    {
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-01",
+     "u": "https://t.me/HANAchina/69722"
+    },
+    {
+     "o": "TechRadar",
+     "d": "2026-10",
+     "u": "https://www.techradar.com/pro/the-keyword-is-speed-to-power-dell-apollo-and-jera-launch-a-usd140b-plan-to-build-up-to-4gw-of-ai-data-centers-across-japan-and-asia"
+    },
+    {
+     "o": "The Next Web",
+     "d": "2026-10",
+     "u": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera"
+    }
+   ],
+   "dupOf": "n-rtr-0003"
+  },
+  {
+   "key": "tg-Trillion_labs-9818",
+   "source": "텔레그램",
+   "channel": "트릴리온",
+   "url": "https://t.me/Trillion_labs/9818",
+   "published": "2026-10-01T09:48:00+09:00",
+   "inds": [
+    "gas",
+    "power"
+   ],
+   "nodes": [
+    "gas/midstream",
+    "power/gen"
+   ],
+   "title": "시리아 다마스쿠스 인근 가스관 폭발로 발전소 3곳 멈춰",
+   "one": "다마스쿠스 인근에서 티슈린 화력발전소로 가는 가스관이 폭발하면서 같은 가스망을 쓰는 발전소 3곳이 멈춰, 가스가 부족한 시리아 전국의 전력 생산이 줄고 제한송전이 길어지게 됐다",
+   "facts": [
+    "무엇이: 9월 30일 티슈린 발전소 입구 감압소 폭발로 가스관 2개가 손상돼 티슈린·데이르 알리·나시리야 발전소가 멈췄습니다 [사실]",
+    "얼마나: 시리아는 하루 약 2,400만㎥의 가스가 필요하지만 국내 생산은 약 850만㎥입니다 [사실]",
+    "다음 일정: 10월 1일 아랍가스파이프라인 아드라~데이르 알리 구간에 다시 압력을 넣어 데이르 알리부터 단계적으로 복구하기 시작했습니다 [사실]",
+    "원인: 당국은 고장인지 공격인지 밝히지 않았고, 9월 28일 데이르에즈조르 가스관 밸브 파손은 사보타주로 규정했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(SANA·로이터 보도 전재)로 들어온 소식이며, 신화통신·SANA 영문 자체 기사를 검색 결과 요약으로 확인했습니다. 함께 볼 글의 아랍가스파이프라인 신규 구간(186km, 2028년 완공 목표)은 확인하지 못해 넣지 않았습니다.",
+   "src": [
+    {
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-01",
+     "u": "https://t.me/Trillion_labs/9818"
+    },
+    {
+     "o": "신화통신",
+     "d": "2026-10-01",
+     "u": "https://english.news.cn/20261001/e657e89c122e432bb4a3645ca2826c83/c.html"
+    },
+    {
+     "o": "SANA",
+     "d": "2026-10-01",
+     "u": "https://sana.sy/en/syria/2347190"
+    }
+   ],
+   "dupOf": ""
+  }
+ ],
+ "skipped": [
+  {
+   "key": "tg-w_compass-7137",
+   "reason": "범위 밖(연합뉴스 9월 22일 보도 재탕, 10월 1일 이전 사건)"
+  }
+ ]
+}

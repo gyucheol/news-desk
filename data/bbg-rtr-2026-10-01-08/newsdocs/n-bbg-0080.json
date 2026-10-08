@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0080",
+ "feed": "v5",
+ "format": "one1",
+ "num": 80,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-spacex-40bn-debt-nvidia-chips",
+ "published": "2026-10-06",
+ "url": "https://bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "스페이스X, 엔비디아 칩 사려고 400억 달러 부채 조달 추진",
+ "one": "스페이스X가 엔비디아 AI 칩을 사기 위해 아폴로 주도로 은행 대출 약 100억 달러와 투자등급 채권 300억 달러 등 400억 달러 조달을 추진하면서, AI 칩 구매 자금을 사모신용과 채권시장 투자자가 대는 규모가 한층 커지고 있다",
+ "headline": "스페이스X, 엔비디아 칩 사려고 400억 달러 부채 조달 추진",
+ "facts": [
+  "무엇이: 스페이스X가 엔비디아 AI 칩 구매 자금 400억 달러 조달을 추진 중이라고 파이낸셜타임스가 관계자를 인용해 보도했습니다. [사실]",
+  "얼마나: 은행 대출 약 100억 달러와 투자등급 채권 300억 달러로 나뉘고, 아폴로가 주도하며 핌코 등이 협의 중이고 거래는 2027년에 마무리될 전망입니다. [사실]",
+  "배경: 스페이스X는 xAI를 흡수해 6월 약 860억 달러 규모 기업공개로 상장했고, 콜로서스 데이터센터의 연산 능력을 앤트로픽·구글에도 빌려주고 있습니다. [사실]",
+  "왜: 모건스탠리는 AI 인프라에 2028년까지 외부 자금 1조 5,000억 달러가 필요하다고 추정하면서 대출자들의 경계가 커지고 있다고 봅니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인(FT 보도를 옮긴 기사) — investingLive(10/7) 보도로 작성. 구매할 칩 종류와 수량은 공개되지 않았습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-07",
+   "u": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "ind": "semis",
+ "origTitle": "SpaceX Seeks $40 Billion Debt Deal to Buy Nvidia Chips for AI Expansion"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0068",
+ "feed": "v5",
+ "format": "one1",
+ "num": 68,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1005-treasury-long-end-24yr-high",
+ "published": "2026-10-05",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-05/treasuries-slump-pushes-long-end-yields-to-fresh-24-year-highs",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/inflation",
+  "macro/fiscal"
+ ],
+ "title": "미 30년물 국채 금리 5.7% 근접, 2002년 이후 최고…장기채 매도 지속",
+ "one": "미국 장기 국채 매도가 이어져 10월 5일 30년물 금리가 2002년 이후 가장 높은 5.66%, 10년물이 5.31%까지 오르면서, 30년 주택담보대출 금리도 3년 만의 최고로 올라 주택 대출 신청과 주택 거래가 줄고 있다",
+ "headline": "미 30년물 국채 금리 5.7% 근접, 2002년 이후 최고…장기채 매도 지속",
+ "facts": [
+  "무엇이: 재무부 집계 종가 기준으로 10월 5일 10년물 금리는 5.31%, 20년물은 5.70%, 30년물은 5.66%였고, 10월 1일(5.24%·5.64%·5.61%)보다 모두 올랐습니다. [사실]",
+  "얼마나: 30년물은 5.7%에 바짝 다가서 2002년 이후 최고였고, 10년물과 30년물 모두 3월 초 저점보다 1%p 넘게 올랐습니다. [사실]",
+  "왜: 모틀리풀은 2%를 웃도는 물가, 정부 부채, 지정학 위험을 주된 이유로 꼽았습니다. [사실]",
+  "영향: 30년 주택담보대출 평균 금리가 3년 만의 최고이고 대출 신청과 잠정 주택 판매가 줄고 있으며, 신용 스프레드에도 일부 긴장 신호가 보인다고 전했습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 미 재무부 일별 금리표(1차 자료)와 모틀리풀(2026-10-05) 자체 기사로 작성. 로이터도 같은 날 'US 30-year bond yield hits fresh 24-year high'로 보도(제목만 확인). 당일 장중 고점 수치는 확인하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/treasuries-slump-pushes-long-end-yields-to-fresh-24-year-highs"
+  },
+  {
+   "o": "미 재무부 일별 국채 금리(1차 자료)",
+   "d": "2026-10-05",
+   "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+  },
+  {
+   "o": "모틀리풀",
+   "d": "2026-10-05",
+   "u": "https://www.fool.com/investing/2026/10/05/30-year-treasury-yield-24-year-high-stocks-warning/"
+  },
+  {
+   "o": "로이터(제목만, 원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://investing.com/news/economy-news/us-30year-bond-yield-hits-fresh-24year-high-4936064"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Treasury Yields Hit 24-Year Highs as Long Bonds Extend Selloff",
+ "dupOf": "n-bbg-0048"
+}

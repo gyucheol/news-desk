@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0156",
+ "feed": "v5",
+ "format": "one1",
+ "num": 156,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69764",
+ "published": "2026-10-02T17:15:00+09:00",
+ "url": "https://t.me/HANAchina/69764",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "테슬라, 옵티머스 양산 위해 AI5 램 절반·AI6 3분의 1 축소",
+ "one": "테슬라가 메모리 물량을 확보하려고 AI5 칩 램을 절반인 72GB로, AI6를 3분의 1 줄인 144GB로 낮추면서, 메모리 부족이 데이터센터를 넘어 휴머노이드 로봇 생산까지 제약하고 있다",
+ "headline": "테슬라, 옵티머스 양산 위해 AI5 램 절반·AI6 3분의 1 축소",
+ "facts": [
+  "무엇이: 머스크는 10월 1일 X에서 AI5 램을 절반(LP5 72GB), AI6를 3분의 1(LP6 144GB) 줄였다고 밝혔습니다 [사실]",
+  "왜: 옵티머스 생산에 필요한 물량을 확보할 유일한 방법이며 비용도 크게 줄인다고 설명했습니다 [사실]",
+  "영향: 대역폭은 유지돼 옵티머스 성능 영향은 미미하다는 것이 테슬라의 설명이지만 벤치마크는 공개되지 않았습니다 [사실]",
+  "배경: 엔비디아도 메모리 부족과 비용 상승을 이유로 메모리를 절반으로 줄인 64GB판 DGX Spark를 내고 128GB판 가격을 6,950달러로 올렸습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(월스트리트견문 보도 전재)로 들어온 소식이며, 머스크의 X 게시물과 Not a Tesla App 기사(검색 결과 요약으로 확인)로 확인했습니다. 엔비디아 DGX Spark 내용은 채널 글에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-02",
+   "u": "https://t.me/HANAchina/69764"
+  },
+  {
+   "o": "일론 머스크 X 게시물",
+   "d": "2026-10-01",
+   "u": "https://x.com/elonmusk/status/2105747471045370250"
+  },
+  {
+   "o": "Not a Tesla App",
+   "d": "2026-10",
+   "u": "https://www.notateslaapp.com/news/4763/tesla-cuts-ram-on-ai5-and-ai6-chips-to-boost-production"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략",
+ "ind": "semis"
+}

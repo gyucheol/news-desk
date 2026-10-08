@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0084",
+ "feed": "v5",
+ "format": "one1",
+ "num": 84,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-vietnam-lng-power-behind-schedule",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/gen",
+  "gas/demand"
+ ],
+ "title": "베트남 LNG 발전 확대 계획 크게 지연…18개 사업 중 1곳만 일정 맞출 듯",
+ "one": "베트남 정부가 2030년까지 LNG 발전소 15곳 22.5GW를 가동하려 하지만 점검 대상 18개 사업 중 히엡프억 1곳만 일정을 맞출 수 있는 것으로 파악되면서, 전력 공급 확충과 LNG 수입 수요 증가가 계획보다 늦어질 수 있다",
+ "headline": "베트남 LNG 발전 확대 계획 크게 지연…18개 사업 중 1곳만 일정 맞출 듯",
+ "facts": [
+  "무엇이: 베트남 산업무역부 집계로 정부가 점검하는 LNG 발전 사업 18개 가운데 일정을 맞출 수 있는 곳은 호찌민시의 히엡프억 1곳뿐입니다 [사실]",
+  "얼마나: 전력개발계획은 2030년까지 15개 사업 2만 2,524MW의 상업 운전을 목표로 하며, 18개 중 착공한 곳은 2곳이고 2곳은 투자자도 정해지지 않았습니다 [사실]",
+  "왜: 투자 준비, 토지 확보, 자금 조달, 전력 구매 계약이 걸림돌로 꼽혔고 한 고리가 늦으면 가스 발전 사슬 전체가 밀린다고 부처는 설명했습니다 [사실]",
+  "영향: 발전소 가동이 늦어지면 베트남의 LNG 수입 증가 시점도 뒤로 밀릴 수 있습니다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 베트남 더인베스터(10월 2일, 산업무역부 자료)와 Gas to Power Journal(10월 6일) 보도로 작성. 블룸버그가 따로 쓴 수치는 확인 못 함. 같은 사건을 다룬 다른 분야 정리와 한 건으로 합쳤습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule"
+  },
+  {
+   "o": "더인베스터(theinvestor.vn)",
+   "d": "2026-10-02",
+   "u": "https://theinvestor.vn/vietnams-lng-power-pipeline-faces-delays-only-one-seen-on-track-d20138.html"
+  },
+  {
+   "o": "Gas to Power Journal",
+   "d": "2026-10-06",
+   "u": "https://gastopowerjournal.com/news/projectsandfinance/vietnam-lng-to-power-plans-delayed-hiep-phuoc-stays-on-track/"
+  },
+  {
+   "o": "Business Today",
+   "d": "2026-10-07",
+   "u": "https://www.businesstoday.in/world/story/vietnams-lng-gamble-hits-a-roadblock-as-22-5-gw-power-plan-stalls-559987-2026-10-07"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Vietnam’s LNG Power-Plant Ambitions Are Well Behind Schedule"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "n-rtr-0013",
+ "feed": "v5",
+ "format": "one1",
+ "num": 13,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1001-coal-india-sept-supply",
+ "published": "2026-10-01",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/thermal",
+  "coal/power"
+ ],
+ "title": "콜인디아 9월 석탄 공급 6,120만 톤…12.5% 늘려도 발전소 재고는 바닥",
+ "one": "인도 콜인디아가 9월 석탄 공급을 작년보다 12.5% 많은 6,120만 톤으로 늘렸지만, 전력 수요 급증과 수력 부진 탓에 석탄발전소 190곳 중 약 80곳의 재고가 위험 수준에 머물러 공급 확대가 재고 회복으로 이어지지 못하고 있다",
+ "headline": "콜인디아 9월 석탄 공급 6,120만 톤…12.5% 늘려도 발전소 재고는 바닥",
+ "facts": [
+  "무엇이: 콜인디아의 2026년 9월 석탄 공급량이 6,120만 톤으로 작년 같은 달보다 12.5% 늘었습니다. [사실]",
+  "그런데도: 10월 초 기준 석탄발전소 190곳 가운데 약 80곳의 재고가 권장량의 25%에 못 미치는 위험 수준이었습니다. [사실]",
+  "배경: 9월 최대 전력 수요가 269GW에 이르렀고, 정부는 전기법 11조를 발동해 자가발전용 석탄발전소를 12월 31일까지 최대로 돌리도록 했습니다. [사실]"
+ ],
+ "basis": "partial",
+ "check": "로이터 원문 미확인(회사 발표를 옮긴 속보 제목) — 웨일스북(10월 6일) 보도로 수치 확인. 보도일 10월 1일은 로이터 기사 코드와 월초 실적 발표 관행에 따른 추정. 회사 공시 원문은 확인 못 함.",
+ "src": [
+  {
+   "o": "로이터(원문 미확인, 제목만)",
+   "d": "2026-10-01",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+  },
+  {
+   "o": "웨일스북",
+   "d": "2026-10-06",
+   "u": "https://www.whalesbook.com/news/English/energy/India-Thermal-Plants-Face-Coal-Shortage-Demand-Hits-269-GW/6ac516a65aacb956d08e2aef"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Coal India Augmented Coal Supplies By 12.5% To 61.20 MT In September FY 2026-27"
+}

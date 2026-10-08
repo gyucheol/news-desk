@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0069",
+ "feed": "v5",
+ "format": "one1",
+ "num": 69,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1005-trump-dyed-diesel-order",
+ "published": "2026-10-05",
+ "url": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel",
+ "inds": [
+  "petchem"
+ ],
+ "nodes": [
+  "petchem/policy",
+  "petchem/commodity"
+ ],
+ "title": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+ "one": "트럼프 대통령이 농기계용 면세 적색 경유를 연말까지 도로 주행에도 쓸 수 있게 하는 행정명령에 서명하면서 트럭 운전자의 세금 부담은 줄지만, 경유 공급이 늘지는 않아 농가가 쓰는 경유 값이 오를 수 있다는 지적이 나온다",
+ "headline": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 5일 비도로용 적색 경유의 도로 사용을 허용하고 연방 유류세를 연말까지 이자·벌금 없이 유예하는 행정명령에 서명했습니다. [사실]",
+  "얼마나: 대상 연방세는 갤런당 24.4센트(가스버디 분석가)이고, 백악관은 트럭 운전자가 주유 한 번에 100달러 넘게 아낀다고 주장했습니다. [사실]",
+  "왜: 미국 경유 평균값이 9월에 사상 처음으로 갤런당 6달러를 넘었습니다. [사실]",
+  "한계: 블룸버그가 인용한 전문가들은 적색 경유 배송 시설이 한정돼 효과가 크지 않고, 도로 수요가 몰리면 농가 가격이 오를 수 있다고 봤습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 백악관 설명자료(10월 5일)와 일리노이대 팜폴리시뉴스(10월 6일, 블룸버그·로이터·CNBC 인용 정리)로 작성.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+  },
+  {
+   "o": "백악관 설명자료",
+   "d": "2026-10-05",
+   "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/"
+  },
+  {
+   "o": "일리노이대 팜폴리시뉴스",
+   "d": "2026-10-06",
+   "u": "https://farmpolicynews.illinois.edu/2026/10/trump-order-allows-tax-exempt-diesel-use-on-highways/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Trump Plans to Ease Limits on Tax-Exempt Diesel Variety",
+ "dupOf": "rtr-081"
+}

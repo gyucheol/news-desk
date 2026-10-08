@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0050",
+ "feed": "v5",
+ "format": "one1",
+ "num": 50,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1001-greer-board-of-trade-no-date",
+ "published": "2026-10-01",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "그리어 '미·중 무역위원회 관세 인하, 아직 일정 없다'…법적 절차 남아",
+ "one": "그리어 미 무역대표가 미·중 무역위원회를 통한 관세 인하에 아직 시행 일정이 없고 법적 절차를 먼저 거쳐야 한다고 밝히면서, 정상회담에서 합의한 약 600억 달러어치 품목의 관세 인하 시점이 불투명해졌다",
+ "headline": "그리어 '미·중 무역위원회 관세 인하, 아직 일정 없다'…법적 절차 남아",
+ "facts": [
+  "무엇이: 그리어 미 무역대표가 10월 1일 밀워키 G20 무역장관회의 자리에서 미·중 무역위원회의 관세 인하를 시행할 일정이 아직 없다고 말했습니다. [사실]",
+  "왜: 권고안을 공개하고 의견을 주고받은 뒤 관세 조치로 채택할지 법적으로 판단하는 절차를 거쳐야 한다며 '법적 절차를 지켜야 한다'고 했습니다. [사실]",
+  "배경: 무역위원회는 지난주 시진핑 주석의 워싱턴 국빈 방문에서 나온 핵심 경제 합의입니다. [사실]",
+  "규모: 관세 인하 대상은 양국 합계 약 600억 달러어치로 보도됐으나 CNN·마켓스크리너 제목으로만 확인했습니다. [미확인]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 사우스차이나모닝포스트(10-02) 보도로 작성. '600억 달러어치'는 CNN(9-28)·마켓스크리너 제목에서만 확인했고 본문은 읽지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts"
+  },
+  {
+   "o": "사우스차이나모닝포스트",
+   "d": "2026-10-02",
+   "u": "https://www.scmp.com/news/us/economy-trade-business/article/3369490/greer-says-no-specific-timeline-set-enforcing-us-china-board-trade"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Greer Says No Date Set for US-China Board of Trade Tariff Cuts",
+ "dupOf": "tg-079"
+}

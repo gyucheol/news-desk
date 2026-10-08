@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0071",
+ "feed": "v5",
+ "format": "one1",
+ "num": 71,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-blue-energy-ercot-smr",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid",
+ "inds": [
+  "uranium",
+  "power"
+ ],
+ "nodes": [
+  "uranium/build",
+  "power/grid"
+ ],
+ "title": "블루 에너지, 텍사스 전력망에 소형원전 첫 연결 신청…300MW급 최대 5기",
+ "one": "블루 에너지가 텍사스 전력망 운영기관에 소형원전으로는 처음으로 300MW급 최대 5기(1.5GW)의 계통 연결을 신청하면서, 데이터센터용 '가스 먼저, 원전 나중' 발전소가 원자력 인허가에 이어 전력망 연결 절차에 들어갔다",
+ "headline": "블루 에너지, 텍사스 전력망에 소형원전 첫 연결 신청…300MW급 최대 5기",
+ "facts": [
+  "무엇이: 블루 에너지가 텍사스 전력망 운영기관 ERCOT에 소형모듈원전의 계통 연결을 신청했으며, ERCOT에 접수된 첫 소형원전 신청입니다. [사실]",
+  "얼마나: GE 버노바 히타치의 BWRX-300 최대 5기(각 300MW, 합계 약 1.5GW)이고, 먼저 지을 가스발전 약 1GW는 2030년과 2031년에 가동될 예정입니다. [사실]",
+  "어디에: 텍사스 빅토리아항 부지에서 크루소의 데이터센터 단지에 전력을 공급하는 사업으로, 전체 약 2.5GW에 60억 달러 넘게 들 것으로 보도됐습니다. [사실]",
+  "다음 일정: 9월에 미 원자력규제위원회에 건설허가 신청 1차분을 냈고 나머지는 2027년 하반기에 낼 예정이며, 첫 원자로 가동 목표는 2033년입니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 빅에너지(10월 7일, 블룸버그 인용 자체 기사)와 컨스트럭션리뷰(10월 7일) 보도로 작성. 사업비 60억 달러와 2033년 가동 시점은 컨스트럭션리뷰 기준.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid"
+  },
+  {
+   "o": "빅에너지(블룸버그 인용)",
+   "d": "2026-10-07",
+   "u": "https://bigenergynews.com/2026/10/blue-energy-seeks-first-ercot-connection-for-small-modular-nuclear-reactors/"
+  },
+  {
+   "o": "컨스트럭션리뷰",
+   "d": "2026-10-07",
+   "u": "https://constructionreviewonline.com/2-5gw-port-of-victoria-project-6bn-texas-small-reactor-project-moves-toward-grid-connection/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Blue Energy Seeks Texas Grid Connection for Small Nuclear Reactors",
+ "dupOf": "n-bbg-0005"
+}

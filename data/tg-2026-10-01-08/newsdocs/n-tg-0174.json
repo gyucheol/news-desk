@@ -1,0 +1,53 @@
+{
+ "id": "n-tg-0174",
+ "feed": "v5",
+ "format": "one1",
+ "num": 174,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-9992",
+ "published": "2026-10-04T20:38:00+09:00",
+ "url": "https://t.me/Trillion_labs/9992",
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/semis",
+  "power/demand"
+ ],
+ "title": "미국 8월 데이터센터 건설 지출 연율 850억 달러…73% 늘어 최고",
+ "one": "미국 데이터센터 건설 지출이 8월 계절조정 연율 850억 달러로 1년 새 73% 늘어 사상 최고를 기록하면서, AI 투자가 줄어드는 사무실 건설과의 격차를 사상 최대로 벌리고 있다",
+ "headline": "미국 8월 데이터센터 건설 지출 연율 850억 달러…73% 늘어 최고",
+ "facts": [
+  "무엇이: 미국 센서스국 8월 건설지출 통계에서 민간 데이터센터 건설 지출이 연율 약 850억 달러(전년 490억 달러)로 사상 최고를 기록했습니다 [사실]",
+  "얼마나: 전년 대비 73%, 전월 대비 7.5% 늘어 2025년 4월 이후 가장 큰 증가율입니다 [사실]",
+  "비교: 일반 사무실 건설 지출은 460억 달러로 10% 줄어 두 부문 격차가 390억 달러로 벌어졌습니다 [채널]",
+  "배경: 반도체·전자 공장 건설은 520억 달러로 2024년 6월 정점 대비 59% 줄었고, 전력 건설은 연율 1,860억 달러로 8.5% 늘었습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(@GlobalMktObserv 차트 번역)로 들어온 소식이며, 미국 센서스국 10월 1일 발표와 Construction Dive 자체 기사(검색 결과 요약으로 확인)로 850억 달러·73%·전월 대비 7.5%를 확인했습니다. 사무실 460억 달러와 반도체 공장 520억 달러는 채널 글에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-04",
+   "u": "https://t.me/Trillion_labs/9992"
+  },
+  {
+   "o": "미국 센서스국 월간 건설지출",
+   "d": "2026-10-01",
+   "u": "https://www.census.gov/construction/c30/current/index.html"
+  },
+  {
+   "o": "Construction Dive",
+   "d": "2026-10-01",
+   "u": "https://www.constructiondive.com/news/data-center-construction-spending-august/831954/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온",
+ "ind": "semis"
+}

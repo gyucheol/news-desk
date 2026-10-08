@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0017",
+ "feed": "v5",
+ "format": "one1",
+ "num": 17,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1005-petronas-lng-25-28",
+ "published": "2026-10-05",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade",
+  "gas/demand"
+ ],
+ "title": "페트로나스 \"LNG 구매자들, 25~28달러에도 주저 없이 산다\"",
+ "one": "말레이시아 국영 페트로나스가 구매자들이 100만 BTU당 25~28달러에도 LNG를 주저 없이 사고 있다고 밝히면서, 2022~2023년 위기 이후 가장 비싼 값에도 구매 수요가 아직 꺾이지 않았다는 판매자 쪽 진단이 나왔다",
+ "headline": "페트로나스 \"LNG 구매자들, 25~28달러에도 주저 없이 산다\"",
+ "facts": [
+  "무엇이: 페트로나스는 LNG 구매자들이 100만 BTU당 25~28달러를 주저 없이 치르고 있다고 말했습니다(로이터 제목 기준). [사실]",
+  "배경: 에너지 인텔리전스는 10월 6일 페트로나스 최고경영자가 2027년 아시아에 LNG 가격 '블러드배스(큰 혼란)'가 올 수 있다고 경고했다고 제목으로 전했습니다. [사실]",
+  "참고: 9월 아시아·유럽 가스값은 2022~2023년 에너지 위기 이후 가장 높은 수준이었습니다(오일프라이스). [사실]",
+  "미확인: 발언 장소와 경고의 구체 근거·수치는 독립 출처 본문으로 확인하지 못했습니다. [미확인]"
+ ],
+ "basis": "partial",
+ "check": "로이터 원문 미확인 — 로이터 제목과 에너지 인텔리전스 제목(10월 6일, 본문 유료)으로만 작성해 발언 세부는 확인 못 함. 더스타 기사는 블룸버그 전재본이라 근거로 쓰지 않음.",
+ "src": [
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/"
+  },
+  {
+   "o": "Energy Intelligence(제목만 공개)",
+   "d": "2026-10-06",
+   "u": "https://energyintel.com/000001a1-11a4-d564-a5ef-77b467bc0000"
+  },
+  {
+   "o": "Oilprice.com 자체 기사",
+   "d": "2026-10-05",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "LNG buyers are paying $25-$28 MMBtu without flinching, PETRONAS says"
+}

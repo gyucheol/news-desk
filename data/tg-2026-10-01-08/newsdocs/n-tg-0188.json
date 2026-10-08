@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0188",
+ "feed": "v5",
+ "format": "one1",
+ "num": 188,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-TNBfolio-71465",
+ "published": "2026-10-08T09:52:00+09:00",
+ "url": "https://t.me/TNBfolio/71465",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "title": "미 오피스 CMBS 연체율 9월 12.2%…사상 두 번째, 금융위기 고점 웃돌아",
+ "one": "미국 오피스 CMBS 연체율이 9월 12.2%로 다시 뛰어 1월 사상 최고(12.3%)에 바짝 다가서면서, 고금리로 차환이 막힌 오피스 대출의 만기 부도가 4분기 만기 물량에 번질 수 있다",
+ "headline": "미 오피스 CMBS 연체율 9월 12.2%…사상 두 번째, 금융위기 고점 웃돌아",
+ "facts": [
+  "무엇이: 트렙 집계 미국 오피스 CMBS 연체율이 9월 12.2%로 올라 2026년 1월(12.3%)에 이은 사상 두 번째 수준을 기록했습니다 [사실]",
+  "왜: 블랙스톤·허드슨퍼시픽의 할리우드 오피스·스튜디오 담보 11억 달러 대출 만기 부도와 브룩필드의 휴스턴 도심 오피스 담보 4억 7,000만 달러 대출이 상승을 이끌었습니다 [사실]",
+  "다음 일정: 10월 CMBS 하드 만기 물량은 47억 달러로 9월(27억 4,000만 달러)보다 늘었고, 이 중 오피스가 12억 7,000만 달러입니다 [채널]",
+  "배경: 미 10년물 금리가 2021년 9월 말 1.52%에서 5년 뒤 5.29%로 올라 차환이 사실상 막혔다는 것이 채널의 해석입니다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(울프스트리트 트렙 자료 인용 추정)로 들어온 소식이며, 연체율 12.2%와 두 대출 요인은 울프스트리트(2026-10-05)·Yield PRO 보도를 검색 결과 요약으로 확인했습니다. 10월 만기 물량 수치는 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-08",
+   "u": "https://t.me/TNBfolio/71465"
+  },
+  {
+   "o": "WOLF STREET",
+   "d": "2026-10-05",
+   "u": "https://wolfstreet.com/2026/10/05/office-cmbs-delinquency-rate-re-spikes-to-12-2-far-worse-than-financial-crisis-peak-as-end-of-extend-and-pretend-looms/"
+  },
+  {
+   "o": "Yield PRO",
+   "d": "2026-10",
+   "u": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "TNBfolio"
+}

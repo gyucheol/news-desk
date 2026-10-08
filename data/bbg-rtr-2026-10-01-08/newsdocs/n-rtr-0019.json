@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0019",
+ "feed": "v5",
+ "format": "one1",
+ "num": 19,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1006-europe-wind-solar-systems-exposed",
+ "published": "2026-10-06",
+ "url": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N45S0LR:0-thousands-of-european-wind-and-solar-power-systems-exposed-online-dutch-researchers-say/",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/gen",
+  "power/wind",
+  "power/grid"
+ ],
+ "title": "유럽 풍력·태양광 관리 시스템 8,547개 인터넷에 노출…터빈 정지 화면까지 열려",
+ "one": "네덜란드 연구진이 유럽 35개국 풍력·태양광 단지의 관리 시스템 8,547개가 인터넷에 그대로 노출돼 있다고 밝히면서, 터빈을 멈출 수 있는 조작 화면까지 열려 있어 발전 설비가 원격 공작에 당할 위험이 드러났다",
+ "headline": "유럽 풍력·태양광 관리 시스템 8,547개 인터넷에 노출…터빈 정지 화면까지 열려",
+ "facts": [
+  "무엇이: 인터넷 탐지 업체 모닷(MODAT)과 네덜란드 국가사이버보안센터가 10월 6일 헤이그 ONE 콘퍼런스에서 공동 보고서를 발표했습니다 [사실]",
+  "얼마나: 노출된 시스템은 8,547개로 태양광 7,942개·풍력 605개이며, 스페인 태양광 2,766개·그리스 1,860개·독일 태양광 672개와 풍력 212개 순입니다 [사실]",
+  "위험: 일부 화면에는 터빈의 시작·정지·초기화 버튼과 위치·실시간 출력이 보였고, 연구자는 약 180곳에서 완전한 제어가 가능했다고 말했습니다 [사실]",
+  "권고: 운영사는 관리 화면을 공용 인터넷에서 즉시 내려야 한다고 연구진은 권고했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 원문 미확인 — 헤이그시 뉴스룸(10월 6일) 발표와 로이터를 인용한 TechNadu 자체 기사로 작성. '약 180곳 완전 제어'는 로이터 인용 수치로 1차 보고서에서는 직접 확인 못 함.",
+ "src": [
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N45S0LR:0-thousands-of-european-wind-and-solar-power-systems-exposed-online-dutch-researchers-say/"
+  },
+  {
+   "o": "헤이그시 뉴스룸(thehague.com)",
+   "d": "2026-10-06",
+   "u": "https://thehague.com/newsroom/en/news/how-solar-and-wind-farms-can-be-turned-and-anyone"
+  },
+  {
+   "o": "TechNadu",
+   "d": "2026-10-06",
+   "u": "https://www.technadu.com/researchers-find-8500-european-wind-and-solar-systems-exposed-online-with-full-control-possible-at-180-sites/640809/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Thousands of European wind and solar power systems exposed online, Dutch researchers say"
+}

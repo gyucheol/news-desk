@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0079",
+ "feed": "v5",
+ "format": "one1",
+ "num": 79,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-seagate-toshiba-tdk-hdd-heads",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/seagate-is-said-to-battle-toshiba-for-tdk-s-hard-drive-head-unit",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "씨게이트·도시바, TDK의 HDD 자기헤드 사업 인수 경쟁",
+ "one": "TDK가 수익성이 낮은 HDD 자기헤드 사업 매각을 검토하는 가운데 도시바에 이어 씨게이트가 더 높은 가격으로 인수전에 뛰어들면서, 유일한 독립 헤드 공급원을 누가 갖느냐에 따라 HDD 3사의 부품 조달과 가격 협상력이 달라질 수 있다",
+ "headline": "씨게이트·도시바, TDK의 HDD 자기헤드 사업 인수 경쟁",
+ "facts": [
+  "무엇이: 도시바가 봄부터 TDK와 자기헤드 사업 인수를 협의해 왔고 씨게이트가 여름에 더 높은 제안으로 가세했다고 블룸버그가 관계자를 인용해 보도했습니다. [사실]",
+  "얼마나: 거래 규모는 수십억 달러가 될 수 있고, 2026년 HDD 점유율 전망은 웨스턴디지털 48%·씨게이트 42%·도시바 10%입니다(TrendForce). [사실]",
+  "왜: TDK는 3사 모두에 납품하는 유일한 독립 헤드 공급사이고, 도시바는 헤드를 전량 TDK에 의존하며 대용량 HAMR 드라이브 양산에도 TDK 기술이 필요합니다. [사실]",
+  "변수: 데이터센터 저장장치가 전략 품목으로 여겨져 어떤 거래든 경쟁당국의 엄격한 심사를 받을 가능성이 큽니다. [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — TrendForce(10/6)가 블룸버그를 인용해 쓴 자체 기사로 작성. TDK 해당 사업의 매출·공장 정보와 세 회사의 공식 입장은 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/seagate-is-said-to-battle-toshiba-for-tdk-s-hard-drive-head-unit"
+  },
+  {
+   "o": "TrendForce",
+   "d": "2026-10-06",
+   "u": "https://www.trendforce.com/news/2026/10/06/news-seagate-toshiba-reportedly-vie-for-tdks-hdd-head-unit-a-key-independent-supply-source/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "ind": "semis",
+ "origTitle": "Seagate Said to Vie With Toshiba for TDK’s Hard-Drive Magnetic Heads Unit"
+}

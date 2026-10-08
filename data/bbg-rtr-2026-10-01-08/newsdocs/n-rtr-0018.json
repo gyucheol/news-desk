@@ -1,0 +1,46 @@
+{
+ "id": "n-rtr-0018",
+ "feed": "v5",
+ "format": "one1",
+ "num": 18,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1006-eia-us-power-use-record",
+ "published": "2026-10-06",
+ "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/market"
+ ],
+ "title": "미 EIA, 미국 전력 사용 2년 연속 최대 전망…PJM 도매가 41% 상승",
+ "one": "미국 에너지정보청이 10월 전망에서 미국 발전량이 2025년 4조 4,300억 kWh에서 2027년 4조 6,130억 kWh로 해마다 늘어난다고 보면서, 최대 전력망 PJM의 2026년 도매 전력값은 41% 오를 전망이다",
+ "headline": "미 EIA, 미국 전력 사용 2년 연속 최대 전망…PJM 도매가 41% 상승",
+ "facts": [
+  "무엇이: 미국 에너지정보청(EIA)이 10월 6일 낸 단기 에너지 전망에서 미국 발전량을 2025년 4조 4,300억 kWh, 2026년 4조 5,450억 kWh, 2027년 4조 6,130억 kWh로 제시했습니다 [사실]",
+  "수요: 2027년 전력 판매는 데이터센터가 포함된 상업 부문이 2.8%, 산업 부문이 2.7% 늘고 가정용은 2026년 수준에 머물 것으로 봤습니다 [사실]",
+  "가격: 2026년 도매 전력값은 평균 MWh당 52달러로 2025년보다 11% 높고 PJM은 41% 오르며, 가정용 요금은 kWh당 18.2센트에서 2027년 18.7센트로 오를 전망입니다 [사실]",
+  "미확인: 로이터 제목의 '전력 사용량 사상 최대' 수치(소비량 기준)는 EIA 공개 화면에서 따로 확인하지 못했습니다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "로이터 원문 미확인(주소는 Utility Dive 링크에서 확인) — EIA 단기 에너지 전망(10월 6일) 전력 부문 화면으로 작성. 소비량 기준 총량·기록 경신 수치는 확인 못 해 발전량·부문별 증가율로 대신함.",
+ "src": [
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+  },
+  {
+   "o": "미국 에너지정보청(EIA) 단기 에너지 전망",
+   "d": "2026-10-06",
+   "u": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says"
+}

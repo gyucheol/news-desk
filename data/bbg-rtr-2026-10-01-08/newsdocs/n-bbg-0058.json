@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0058",
+ "feed": "v5",
+ "format": "one1",
+ "num": 58,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1002-trump-no-diesel-export-ban-g7",
+ "published": "2026-10-02",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "title": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+ "one": "G7이 비축유 1억 배럴을 4개월간 풀고 첫 20일에 경유를 앞당겨 방출하기로 하자 트럼프가 경유 수출 금지를 하지 않겠다고 밝히면서, 유럽 경유 정제마진이 배럴당 85달러에서 약 70달러로 내려왔다",
+ "headline": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+ "facts": [
+  "무엇이: G7 정상들이 10월 2일 화상회의에서 IEA를 통해 원유·경유 비축분 1억 배럴을 즉시 시작해 4개월간 풀고, 첫 20일 안에 경유를 앞당겨 방출하기로 했습니다. [사실]",
+  "트럼프: 합의 직후 '유럽에는 경유가 많다'며 미국은 경유 수출을 금지하지 않겠다고 밝혔고, G7은 에너지 수출 제한을 자제하기로 약속했습니다. [사실]",
+  "시장: ICE 경유(가스오일) 정제마진은 전주 중반 배럴당 85달러에서 약 70달러로 내렸고, 미국 경유 평균값은 갤런당 6.37달러(AAA)입니다. [사실]",
+  "한계: ING는 걸프의 정제제품 수출이 다시 흘러야 중간유분 부족이 근본적으로 풀린다고 봤고, 일본은 5일 추가 방출 계획이 없다고 밝혔습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 타운홀(10-02), LBC, 오일프라이스(10-05) 2건으로 작성. 경유가 1억 배럴 가운데 얼마인지는 어느 출처에도 없음.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  },
+  {
+   "o": "타운홀",
+   "d": "2026-10-02",
+   "u": "https://townhall.com/news/cameron-arcand/2026/10/02/trump-declines-diesel-export-ban-after-european-agreement-n2684049"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-05",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-05",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Rules-Out-More-Reserve-Releases-After-G7-Pledges-100-Million-Barrels.html"
+  },
+  {
+   "o": "LBC(게시일 표시 없음)",
+   "d": "",
+   "u": "https://www.lbc.co.uk/article/trump-us-diesel-ban-g7-5HjdjMt_2/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Trump Says US to Hold Off on Diesel Export Ban After G7 Release",
+ "dupOf": "n-tg-0101"
+}

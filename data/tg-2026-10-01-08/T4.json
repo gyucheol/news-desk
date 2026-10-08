@@ -1,0 +1,131 @@
+[
+ {
+  "post": "Trillion_labs/9939",
+  "key": "tg-Trillion_labs-9939",
+  "channel": "트릴리온",
+  "url": "https://t.me/Trillion_labs/9939",
+  "published": "2026-10-02T23:05:27+09:00",
+  "gist": "러시아가 우크라이나 송전선·변전소 등 에너지 시스템에 최대 1,000발 규모 겨울 공격 계획(NYT)",
+  "inds": [
+   "power",
+   "macro"
+  ],
+  "nodes": [
+   "power/grid",
+   "macro/geo"
+  ],
+  "also": "insidertracking/65244, Trillion_labs/9835·9857"
+ },
+ {
+  "post": "Trillion_labs/9928",
+  "key": "tg-Trillion_labs-9928",
+  "channel": "트릴리온",
+  "url": "https://t.me/Trillion_labs/9928",
+  "published": "2026-10-02T21:55:58+09:00",
+  "gist": "벤처글로벌과 코노코필립스 20년 LNG 판매·구매 계약",
+  "inds": [
+   "gas"
+  ],
+  "nodes": [
+   "gas/liquefaction",
+   "gas/trade"
+  ],
+  "also": ""
+ },
+ {
+  "post": "HANAchina/69766",
+  "key": "tg-HANAchina-69766",
+  "channel": "하나증권 중국전략",
+  "url": "https://t.me/HANAchina/69766",
+  "published": "2026-10-02T21:32:38+09:00",
+  "gist": "JERA 수장: 호르무즈 통항 중단으로 카타르 공급 단기 회복 어렵다, 현물가 작년의 두 배, 발전소들 석탄으로 전환",
+  "inds": [
+   "gas"
+  ],
+  "nodes": [
+   "gas/trade",
+   "gas/demand"
+  ],
+  "also": "Trillion_labs/9936"
+ },
+ {
+  "post": "w_compass/7161",
+  "key": "tg-w_compass-7161",
+  "channel": "부의 나침반",
+  "url": "https://t.me/w_compass/7161",
+  "published": "2026-10-02T11:22:01+09:00",
+  "gist": "EIA 기준 2027~2031년 가동 계획 미국 BESS 사업 293건으로 1년 전(167건)보다 75%, 용량 45% 증가",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/storage"
+  ],
+  "also": ""
+ },
+ {
+  "post": "w_compass/7153",
+  "key": "tg-w_compass-7153",
+  "channel": "부의 나침반",
+  "url": "https://t.me/w_compass/7153",
+  "published": "2026-10-01T18:57:19+09:00",
+  "gist": "대규모 ESS 세계 시장이 5년 전의 11배, 중국 공급망 의존도가 가장 높은 전력 기술",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/storage"
+  ],
+  "also": ""
+ },
+ {
+  "post": "HANAchina/69722",
+  "key": "tg-HANAchina-69722",
+  "channel": "하나증권 중국전략",
+  "url": "https://t.me/HANAchina/69722",
+  "published": "2026-10-01T17:16:48+09:00",
+  "gist": "일본이 대형 가스 거래사(JERA)를 활용해 1,400억 달러 AI 데이터센터 투자 추진(FT 인용)",
+  "inds": [
+   "power",
+   "gas"
+  ],
+  "nodes": [
+   "power/demand",
+   "gas/demand"
+  ],
+  "also": "insidertracking/65138"
+ },
+ {
+  "post": "Trillion_labs/9818",
+  "key": "tg-Trillion_labs-9818",
+  "channel": "트릴리온",
+  "url": "https://t.me/Trillion_labs/9818",
+  "published": "2026-10-01T09:48:07+09:00",
+  "gist": "시리아 다마스쿠스 인근 가스관 폭발로 발전소 3곳 정지, 아랍가스파이프라인 시리아 구간",
+  "inds": [
+   "gas",
+   "power"
+  ],
+  "nodes": [
+   "gas/midstream",
+   "power/gen"
+  ],
+  "also": "Trillion_labs/9819"
+ },
+ {
+  "post": "w_compass/7137",
+  "key": "tg-w_compass-7137",
+  "channel": "부의 나침반",
+  "url": "https://t.me/w_compass/7137",
+  "published": "2026-10-01T07:57:26+09:00",
+  "gist": "한국·웨스팅하우스 기존 타협협정(SA) 개정 합의 — 한국형 대형 원전 미국 진출 길",
+  "inds": [
+   "uranium"
+  ],
+  "nodes": [
+   "uranium/build",
+   "uranium/policy"
+  ],
+  "also": ""
+ }
+]

@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0162",
+ "feed": "v5",
+ "format": "one1",
+ "num": 162,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-9939",
+ "published": "2026-10-02T23:05:00+09:00",
+ "url": "https://t.me/Trillion_labs/9939",
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/grid",
+  "macro/geo"
+ ],
+ "title": "러시아, 우크라이나 전력망에 최대 1,000발 겨울 공세 계획(NYT)",
+ "one": "러시아가 미사일·드론·폭탄 최대 1,000발로 우크라이나 변전소와 발전소를 치는 겨울 공세를 계획하면서, 키이우·하르키우·오데사의 전력과 난방 공급이 최대 90%까지 끊길 수 있다",
+ "headline": "러시아, 우크라이나 전력망에 최대 1,000발 겨울 공세 계획(NYT)",
+ "facts": [
+  "무엇이: 뉴욕타임스가 우크라이나 에너지장관이 유럽 측에 설명한 러시아의 겨울 에너지 공격 계획 문서를 보도했습니다 [사실]",
+  "얼마나: 미사일·드론·유도폭탄 최대 1,000발, 발전설비 약 15GW 제거를 상정했고 대상 도시의 전력·난방을 최대 90% 줄이는 것이 목표로 적혀 있습니다 [사실]",
+  "순서: 서부 국경 수입용 변전소, 수력발전소, 원전 3곳의 송전 개폐소 순으로 3단계 공격을 담았습니다 [사실]",
+  "한계: 8월 날짜의 러시아어 문서로 NYT도 진위를 독자적으로 확인하지 못했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(뉴욕타임스 보도 전재)로 들어온 소식이며, NYT 기사를 옮긴 UNITED24 Media·UNN 기사 내용을 검색 결과 요약으로 확인했습니다. NYT 원문은 읽지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9939"
+  },
+  {
+   "o": "UNITED24 Media",
+   "d": "2026-10-02",
+   "u": "https://united24media.com/war-in-ukraine/russia-plans-up-to-1000-strikes-to-cripple-ukraines-energy-grid-this-winter-23058"
+  },
+  {
+   "o": "UNN",
+   "d": "2026-10-02",
+   "u": "https://unn.ua/en/news/up-to-1000-missiles-drones-and-bombs-the-nyt-learned-of-russias-plans-for-the-most-powerful-strike-in-an-attempt-to-freeze-ukraine"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

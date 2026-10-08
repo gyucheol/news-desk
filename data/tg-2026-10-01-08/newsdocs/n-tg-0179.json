@@ -1,0 +1,45 @@
+{
+ "id": "n-tg-0179",
+ "feed": "v5",
+ "format": "one1",
+ "num": 179,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Onionfarmer-18025",
+ "published": "2026-10-05T13:57:00+09:00",
+ "url": "https://t.me/Onionfarmer/18025",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ],
+ "title": "JP모건 \"800V 직류 도입 늦어진다\"…하이브리드 AC/DC가 2030년대까지 주류",
+ "one": "JP모건이 싱가포르 데이터센터 월드 미팅 뒤 800V 직류 도입이 늦어져 하이브리드 AC/DC 구조가 2030년대까지 주류일 것으로 보면서, 슈나이더·이튼·LS일렉트릭 등의 기존 UPS·변압기 제품이 대체될 위험이 줄었다고 평가했다 (채널 전언)",
+ "headline": "JP모건 \"800V 직류 도입 늦어진다\"…하이브리드 AC/DC가 2030년대까지 주류",
+ "facts": [
+  "무엇이: JP모건이 10월 5일 싱가포르 Data Center World 미팅 리포트에서 800V 직류 도입 시점이 밀리고 있다고 썼습니다 [채널]",
+  "영향: 슈나이더·이튼·버티브·히타치·LS일렉트릭 등 UPS·스위치기어·변압기 업체의 기존 제품이 빠르게 대체될 위험이 줄어든다고 봤습니다 [채널]",
+  "경쟁력: 사이드카·고체상태변압기(SST)는 개발만으로 해자가 되기 어렵고 저가 대량 공급과 EPC·운영 SW 턴키 역량이 관건이라고 했습니다 [채널]",
+  "배경: 맥킨지도 단기적으로는 AC 설비에 사이드카 등으로 직류를 얹는 하이브리드 방식이 채택될 것으로 봤습니다 [사실]"
+ ],
+ "basis": "channel",
+ "check": "채널 글(JP모건 리포트 인용)만으로 작성했습니다. JP모건 리포트 자체는 찾지 못했고, 행사(Data Center World Asia, 9월 29~30일 싱가포르)와 하이브리드 단계 전망은 델타 보도자료·맥킨지 글 검색 결과 요약으로 확인했습니다. 9월 에버코어의 '18~24개월 내 800V 표준화' 전망(tg-067)과 반대되는 시각입니다.",
+ "src": [
+  {
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-05",
+   "u": "https://t.me/Onionfarmer/18025"
+  },
+  {
+   "o": "McKinsey",
+   "d": "",
+   "u": "https://www.mckinsey.com/industries/industrials/our-insights/the-shift-to-800-volt-dc-at-data-centers-implications-for-providers"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "양파농장"
+}

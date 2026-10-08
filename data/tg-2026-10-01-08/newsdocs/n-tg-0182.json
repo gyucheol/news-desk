@@ -1,0 +1,47 @@
+{
+ "id": "n-tg-0182",
+ "feed": "v5",
+ "format": "one1",
+ "num": 182,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-w_compass-7177",
+ "published": "2026-10-05T21:05:00+09:00",
+ "url": "https://t.me/w_compass/7177",
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/demand",
+  "macro/semis"
+ ],
+ "title": "골드만 \"미 데이터센터 전력 수요 2027년 17GW 증가\"…지역 반발에도 증설 지속",
+ "one": "골드만삭스가 미국 데이터센터 용량 전망을 2026년 말 64GW로 5GW 올리고 2027년 말은 90GW로 5GW 낮추면서도, 지역 반발에도 2027년 전력 수요 증가분이 17GW로 2026년(12GW)보다 클 것으로 내다봤다",
+ "headline": "골드만 \"미 데이터센터 전력 수요 2027년 17GW 증가\"…지역 반발에도 증설 지속",
+ "facts": [
+  "무엇이: 골드만삭스가 10월 4일 보고서에서 미국 데이터센터 용량 전망을 2026년 말 64GW(5GW 상향), 2027년 말 90GW(5GW 하향)로 바꿨습니다 [사실]",
+  "얼마나: 데이터센터 전력 수요는 2026년 38%(12GW), 2027년 38%(17GW) 늘 것으로 봤습니다 [사실]",
+  "왜: 전력 수요·전기요금 등 지역 반발로 일부 사업이 늦어질 수 있지만 2027년까지 성장 전망은 크게 바뀌지 않았다고 했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(대만 매체 전재)로 들어온 소식이며, Finimize 등 여러 매체의 골드만 보고서 보도를 검색 결과 요약으로 확인했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-05",
+   "u": "https://t.me/w_compass/7177"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-05",
+   "u": "https://finimize.com/content/goldman-thinks-us-data-center-growth-can-power-through-pushback"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "부의 나침반",
+ "ind": "semis"
+}

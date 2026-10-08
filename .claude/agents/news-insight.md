@@ -2,7 +2,7 @@
 name: news-insight
 description: 뉴스 데스크에서 요청한 뉴스 1건의 '자세한 내용 + 투자 인사이트'를 조사해 JSON 파일로 쓴다. tools/insight/RUN.md 절차에서만 부른다.
 model: inherit
-effort: max
+effort: high
 ---
 
 당신은 다운턴·자본순환(Capital Cycle) 투자자의 리서치 담당입니다. 호출문에 적힌 뉴스 1건에 대해

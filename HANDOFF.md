@@ -1,129 +1,96 @@
-# 핸드오프 — 텔레그램 10월 6~8일 37건 저장(덤프 방식), 다음은 10월 1~5일
+# 핸드오프 — 텔레그램 10월분 55건 추가 저장, 데스크 v43(요청 버튼 → 새 Claude Code 창), 인사이트 1건 시험 중
 
-작성 시점: 2026-10-08 09시 20분 무렵(KST). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었고, 셸에서 외부 접속이 됐습니다(t.me 200). 작업은 브랜치 ccr-43a885da-d73psn에 커밋·푸시했습니다(c8e8530, 이 문서 커밋). PR은 만들지 않았습니다. 직전 핸드오프(같은 날 08시 30분)는 HANDOFF-prev-2026-10-08-08h.md로 남겼습니다.
+작성 시점: 2026-10-08 14시 20분 무렵(KST). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었고, 작업은 브랜치 ccr-3155a934-jp2ev0에 커밋·푸시했습니다. PR은 만들지 않았습니다. 직전 핸드오프(같은 날 09시 20분)는 HANDOFF-prev-2026-10-08-09h.md로 남겼습니다. 주의: 직전 세션의 브랜치는 ccr-43a885da-d73psn이었고, 이번 브랜치는 그 위에 이어서 만든 것입니다.
 
 ---
 
 ## 1. 한눈에 보기
 
-1. 텔레그램 10월 6일 0시~10월 8일 08시 35분(KST) 글 중 37건을 제목+한줄 요약(format one1)으로 DB에 저장했습니다: n-tg-0103~n-tg-0139.
-   - 날짜: 10-06 13건(0103~0115), 10-07 16건(0116~0131), 10-08 8건(0132~0139).
-   - basis: verified 29, partial 8, channel 0.
-   - 분야(화면 표시 기준): 반도체·AI 16, 매크로 12, 원전 3, 석화·정유 2, 석탄·가스·시추·전력 각 1.
-2. 방식: 사용자 뜻대로 curl 덤프(tools/tgcollect.py dump)로 11개 채널 글 767개를 받고, 후보 원문만 묶음 파일로 만들어 Opus 서브 에이전트 5개에 넘겼습니다. 목록 화면 WebFetch·캡처는 쓰지 않았습니다.
-3. 후보 50건(핸드오프 46 + 덤프에서 더한 4) 중 37건 저장, 13건 제외(범위 밖 12, 이미 다룸 1).
-4. 토큰: 서브 에이전트 합계 약 62만(건당 약 1만 7천), WebSearch 52회, WebFetch 18회. 블룸버그·로이터 때(건당 약 2만)보다 조금 줄었고, 남은 비용은 대부분 독립 출처 확인 검색입니다.
-5. DB 현재: news 260건, meta/progressV4 v12, meta/newsSeen v6(674줄). 저장 후 재조회로 37건 모두 파일과 일치를 확인했습니다.
-6. 오늘 20:47(KST) 저녁 예약 작업이 이번 37건과 오늘 아침에 만든 62건(블룸버그 53·로이터 8·도시바 1)을 합친 99건을 한꺼번에 반영 대상으로 잡을 것으로 보입니다(아래 2절).
+1. 텔레그램 10월 1일 0시~10월 8일 12시 30분(KST) 가운데 남은 글을 정리해 55건을 저장했습니다: n-tg-0140~n-tg-0194.
+   - 날짜: 10-01 5, 10-02 19, 10-03 5, 10-04 7, 10-05 9, 10-08(08시 35분 이후) 10.
+   - basis: verified 36, partial 17, channel 2.
+   - 후보 73건 중 55건 저장, 18건 제외(이미 다룸 6, 다른 후보와 합침 2, 범위 밖 10).
+   - 이제 텔레그램은 10월 1일 0시~10월 8일 12시 30분 무렵까지 모두 정리된 상태입니다.
+2. 데스크 페이지를 Version 43까지 고쳤습니다(같은 주소).
+   - 뉴스 칸: 근거·출처 접기, '일부 미확인'·'채널 전언' 표시, 원문 링크를 없앴습니다. 버튼은 '뉴스 내용 및 인사이트 요청'·'읽음 처리' 두 개를 한 줄에 둡니다. 뉴스마다 '10월 8일 목'처럼 날짜를 붙였고, 위아래 여백을 줄였습니다.
+   - '이전 기록' 탭을 없애고 '요청한 뉴스' 탭을 넣었습니다.
+   - '요청' 버튼을 누르면 Claude Code Remote 커넥터로 새 세션(모델 claude-opus-5-5)을 만듭니다. 새 세션은 노력 최대 조사 에이전트로 자세한 내용과 투자 인사이트를 만들어 DB에 넣습니다(4절).
+3. 인사이트 1건 시험: 시험 세션 session_01Kx5amLCor2zwQLBjSKhP8A(n-tg-0192 네비우스 GPU 요금 인상)이 14시 20분 현재 조사 중입니다. 결과(DB 저장 여부)는 아직 확인하지 못했습니다(6절 1항).
+4. DB 현재: news 315건, meta/progressV4 v13, meta/newsSeen v7(729줄), newsSeq.tg 194.
+5. 서브 에이전트 토큰: 텔레그램 작성 7개 합계 약 66만(건당 약 1만 2천), 검색 65회, 열람 3회.
 
 ---
 
 ## 2. 대상과 환경
 
-- 데스크: "다운턴 뉴스 선별 데스크" https://claude.ai/artifact/1QxhURJDYUkJG1Je8g9ARB — Version 40 그대로(이번에 페이지는 고치지 않음).
-- DB 사본: work/live/(meta 12, news 260, chains 9, items 414) — 이번 저장까지 반영한 상태입니다.
-- 예약 작업 '산업 한 페이지 저녁 업데이트'(trig_014res2hazUFUcx55wHPWtoU): 켜져 있음, 다음 실행 2026-10-08 20:47 KST. 10월 7일 실행은 사용 한도(USAGE_LIMIT_REACHED)로 실패. 지시문은 processed가 최근 7일 이내이고 meta/chainsLog.applied에 없는 카드를 읽으므로, 오늘은 processed 2026-10-08인 99건(n-bbg-0049~0101, n-rtr-0013~0020, n-tg-0102~0139)이 대상이 될 것으로 추론합니다(지시문 1단계 기준의 연역: DB 사본에서 processed 10월 1일 이후이면서 applied 161건에 없는 문서를 세면 99건. 실제 실행은 미확인). 예약 작업은 손대지 않았습니다.
-- 셸 네트워크: t.me 200 확인. bloomberg·reuters 사이트맵은 이번에 시험하지 않았습니다.
-- WebFetch: war.gov 보도자료는 403, seoul.co.kr·financialcontent.com은 열림.
+- 데스크: "다운턴 뉴스 선별 데스크" https://claude.ai/artifact/1QxhURJDYUkJG1Je8g9ARB — Version 43. 공유는 '링크가 있는 누구나'. 실행 버전(contract) 0.2.60(최신 0.2.74, 올리지 않음).
+  - 권한 선언: db(규칙 2개 그대로), user, mcp(Claude Code Remote의 create_session 하나).
+  - 파일: index.html + fonts/PretendardVariable.woff2(손대지 않음).
+- 시안 페이지(별도): "뉴스 데스크 개편 시안" https://claude.ai/artifact/Po6Fqj1DGnGXjzf6XctrLi — DB 사본을 넣은 미리보기. 결정이 끝나 더 쓸 일은 없습니다.
+- 환경: env_01RA512p3rtBmG713S3VL9zo(이름 news). 셸에서 t.me 200 확인.
+- DB 사본: work/live/(meta 12, news 315, chains 9). chains는 직전 사본을 그대로 쓴 것입니다(저녁 예약 작업 전).
+- 예약 작업 '산업 한 페이지 저녁 업데이트'(trig_014res2hazUFUcx55wHPWtoU): 손대지 않음. 오늘 20:47 실행 대상은 직전 추론 99건에 이번 55건이 더해진 약 154건이 될 것으로 추론합니다(지시문 1단계 기준의 연역, 실제 실행은 미확인).
+- 이 세션이 만든 예약 확인(send_later) trig_011T25FvPBVfkVM7fvXu4VP3: 05:29 UTC에 이 세션으로 '시험 세션 확인' 메시지가 옵니다. 새 세션에서 이어가면 무시하거나 delete_trigger로 지우면 됩니다.
 
 ---
 
-## 3. 한 일
+## 3. 텔레그램 55건 (한 일)
 
-### 3-1. 덤프
-
-1. python3 tools/tgcollect.py dump <채널> 2026-10-06 work/dump2/<채널>.jsonl 을 3묶음 병렬로 실행(약 10분).
-2. 받은 범위(첫 번호~마지막 번호, KST): HANAchina 69901~70037, Trillion_labs 10028~10157, The_MariTimes 63520~63583, insidertracking 65439~65700, Badonions 7633~7708, PipeBeom 6605~6643, w_compass 7178~7220, TNBfolio 71436~71463, Onionfarmer 18027~18045, cahier_de_market 10926~10948, kkkontemp 2728~2730. 시작 번호는 직전 핸드오프의 범위와 같았습니다.
-3. '함께 볼 글'인데 10월 6일 이전이라 덤프에 없던 2건(The_MariTimes/63513, Trillion_labs/10006)은 따로 받아 work/dump2/extra/에 두었습니다.
-
-### 3-2. 후보 조정
-
-1. 08시 20분 이후 새 글과, 후보가 적은 분야 키워드(LNG·석탄·보험·화장품·석화·원전·시추·ESS 등)로 덤프를 짧게 훑었습니다.
-2. 더한 4건: 트릴리온 10157(미 전쟁부 전략자본국의 울프스피드 15억 달러 대출), 부의 나침반 7218(중국 내륙 데이터센터, FT), 하나증권 중국전략 70037(IEA 비축유 방출 가속), 상상인 김진범 6620(WSJ 호르무즈 원유·석유제품 물동량).
-3. 뺀 새 글: 어플라이드 디지털·리바이스·LG에너지솔루션 실적(단일 기업 실적), 전기차 점유율 50%(커뮤니티 글 출처), 일본 자금 이동(블로그 논평), EIA 전력 전망(n-rtr-0018), 구글–콘스텔레이션(이미 저장).
-4. 묶음: T1 반도체 10, T2 AI 자금·데이터센터 11, T3 매크로 10(무역적자 건을 T2에서 옮김), T4 유가·정유 10, T5 전력·원전·시추 9(시추 3건을 T4에서 옮김). T*.json과 candidates.txt를 이에 맞게 고쳤습니다(추가분에는 "added" 필드).
-
-### 3-3. 작성 (서브 에이전트 5개, Opus)
-
-1. 지시서: data/tg-2026-10-06-08/PROMPT_TG.md. 블룸버그·로이터 PROMPT.md의 4~5절(쓰기 규칙·노드)을 그대로 쓰고, 0~2절을 '묶음 원문을 독립 출처로 확인'으로, 6절 출력을 텔레그램용으로 바꿨습니다. 검색은 (후보 수+2)회, 열람은 후보 수 이내. 검색 결과 요약에 숫자가 보이면 그것으로 확인 가능(check에 명시).
-2. 결과(작성/제외, 검색/열람, 토큰): T1 8/2, 12/2, 12.3만 · T2 7/4, 12/4, 13.4만 · T3 8/2, 10/1, 13.0만 · T4 8/2, 11/4, 12.2만 · T5 6/3, 7/7, 11.1만.
-3. 에이전트가 1차 출처로 채널 숫자를 고친 것: EIA 2026년 브렌트 평균 98→96달러, VLCC 120만→116만 2,000달러, 데이원 순손실 8,190만(보통주 귀속)→7,721만 달러(전체).
-
-### 3-4. 검수와 저장
-
-1. tools/mk_one_tg.py 형식 검사(글자 수·~다·꼬리표·노드·출처 수·날짜·중복 주소) 문제 0건.
-2. 메인 세션 표본 대조 5건(울프스피드, 삼성전자, 인민은행 금, GPU 대출, VLCC). 3건은 사실 줄·출처 설명이 한줄과 맞았고 2건을 고쳤습니다.
-   - 울프스피드(n-tg-0139): 발표문 본문에 GaN 에피택시 외에 SiC 강화도 있어 한줄에 함께 적음. '7억 5,000만 달러 자본 확보' 조건은 발표문에 없어 발표문의 선행 조건으로 바꿈(전쟁부 페이지는 403이라 확인 못 함).
-   - 삼성전자(n-tg-0136): 서울신문 본문으로 '국내 첫 분기 영업이익 100조 원'과 '4개 분기 연속 매출·영업이익 신기록' 확인. 사실 줄의 '영업이익률 네 분기 연속 최대'는 확인 못 해 확인된 표현으로 바꿈.
-3. ArtifactData batch 39건(뉴스 37 + progressV4 if_version 11 + newsSeen if_version 5)을 한 번에 저장 → query(source 텔레그램, processed 2026-10-08) 38건 중 37건이 파일과 모두 일치.
-4. 진행 기록: progressV4.telegram.new를 덤프 마지막 번호로 갱신, telegram.newNote 앞에 이번 메모(뺀 후보 포함), log에 한 줄. newsSeq.tg 139.
-
-### 3-5. 저장한 37건 중 따로 볼 것
-
-1. partial 8건: n-tg-0108 아시아 GPU 담보 대출(은행 명단·구조 미확인), 0114 TSMC 성숙공정 인상 여파, 0116 WSJ 호르무즈 석유제품, 0123 글로벌 아토믹 자금 공백, 0129 영국 30년물, 0132 EU 하이브리드차 세이프가드(계획 단계), 0133 IIF 신흥국 자금 유출(192억 달러는 로이터 계열에만), 0138 중국 내륙 데이터센터(FT 원문 못 봄).
-2. 이미 다룬 사건의 후속(dupOf) 8건: 0103→tg-030, 0117→n-rtr-0018, 0123→pf-tg-008, 0131→rtr-036, 0132→pf-tg-032, 0134→n-bbg-0080, 0135→tg-007, 0137→pf-rtr-005. 페이지는 dupOf를 '이미 다룬 사건의 후속' 표시로만 쓰므로(desk/parts/js2.js 95줄) 예전 id여도 됩니다.
-
-### 3-6. 제외한 13건
-
-1. 이미 다룸 1: 하나증권 중국전략 70037 IEA 비축유 = n-bbg-0092.
-2. 범위 밖 12(10월 6일 이전 사건의 재게시, 에이전트 판단): 삼성전기 FC-BGA 투자(9월 28일 이사회), MLCC 가격(6월 36Kr), 오라클 위스콘신 지연(9월 18·30일), 미 8월 데이터센터 건설 지출(10월 1일 센서스), 사모신용 부도율(UBS 2월), 데이터센터 반대 71%(갤럽 3월), 프랑스–독일 금리차(10월 5일 글 재게시·10월 1일 예산안), 베선트 재무부 WSJ(새 사실 없음), 앵글로–텍 합병(10월 2일 보도), 붐–크루소 터빈(9월 25일), 해양 FID(10월 5일 원글·7월 자료), 산토스 시추(6월 계약).
-3. 이 가운데 오라클 위스콘신, 8월 데이터센터 건설 지출, 프랑스–독일 금리차는 DB에 없습니다. 해당 날짜를 정리할 때 다룰 후보입니다. 범위 밖 판단은 메인 세션이 다시 확인하지 않았습니다.
+1. 덤프: tools/tgcollect.py dump로 11개 채널의 10월 1일 0시 이후 글을 work/dump3/에 받았습니다(마지막 번호 HANAchina 70051, Trillion_labs 10182, The_MariTimes 63583, kkkontemp 2730, insidertracking 65707, Badonions 7717, PipeBeom 6643, w_compass 7227, TNBfolio 71470, Onionfarmer 18051, cahier_de_market 10948). progressV4.telegram.new를 이 번호로 올렸습니다.
+2. 후보 73건(data/tg-2026-10-01-08/)
+   - cands_merged.txt 38건: data/tg-2026-07-10/merged.json의 10월분 중 DB에 없는 것(TSMC 텍사스, 비스트라 대출, 유로존 물가, 미 고용, G7 경유, 알래스카 LNG, 아마존 SPV, 도시바, 한국 9월 수출, 중국 석탄 3년 최고 등은 이미 DB에 있어 뺐음). 직전 핸드오프의 남은 3건 포함.
+   - cands_new.txt 35건: 예전 덤프와 dump2 사이 빈 구간(10월 4일 15시~5일 밤)과 10월 8일 08시 35분 이후 새 글에서 고른 것.
+   - Trillion_labs/9902는 지워진 글이라 9903으로 바꿨고, kkkontemp/2708(9월 28일 글)은 뺐습니다.
+3. 묶음 7개(T1·T2 반도체·AI, T3·T4 전력·가스·원전·시추, T5·T6 유가·지정학, T7 매크로) → Opus 서브 에이전트 7개. 지시서 PROMPT_TG.md는 10월 6~8일 판에서 범위 기준을 '10월 1일 0시 이전 사건의 재탕'으로 바꾸고, 블룸버그·로이터 중복 확인을 강조했습니다.
+4. 합치기: tools/mk_one_tg.py에 다섯째 인자(게시 시각 검사 정규식)를 더했습니다. 이번에는 '^2026-10-0[1-8]T'로 실행했습니다. 덤프 폴더 이름도 메모에 그대로 적히게 고쳤습니다. 주의: DB 사본 폴더에 chains가 있어야 노드 검사가 됩니다.
+5. 표본 대조 5건 중 2건 수정: n-tg-0160 벤처글로벌–코노코필립스(발표문에 CP2 연결이 없어 한줄에서 뺌), n-tg-0151 한국 9월 물가('반년째'는 확인되지 않아 '여전히'로).
+6. 저장: ArtifactData batch 2회(50 + 7). 다시 받아 55건과 progressV4·newsSeen이 파일과 일치함을 확인했습니다.
+7. 제외 18건: data/tg-2026-10-01-08/out/T*.json의 skipped와 progressV4.telegram.newNote에 있습니다. 범위 밖 판단은 에이전트가 했고 메인 세션은 다시 확인하지 않았습니다.
 
 ---
 
-## 4. 남은 일
+## 4. 요청 버튼 → 새 Claude Code 창 (구조)
 
-1. 오늘 20:47 저녁 예약 작업 결과 확인(대상 99건, 7일 실행은 사용 한도로 실패).
-2. 텔레그램 10월 8일 08시 35분 이후 새 글: progressV4.telegram.new 번호 다음부터.
-3. 텔레그램 10월 1~5일(날짜 역순 원칙상 다음 차례)
-   - 선별만 한 후보 33건: data/tg-2026-07-10/merged.json의 10월분(도시바 건 제외).
-   - 덤프 빈 구간: 예전 덤프(work/dump) 마지막 번호 다음 ~ work/dump2 첫 번호 앞. 예전 마지막 번호는 HANAchina 69817, Trillion_labs 9990, The_MariTimes 63492, Badonions 7631, PipeBeom 6593, w_compass 7171, TNBfolio 71431, Onionfarmer 18010, cahier_de_market 10924, insidertracking 65316, kkkontemp 2727.
-   - 위 3-6의 DB에 없는 3건도 후보로.
-4. 블룸버그·로이터 보완(사이트맵 목록 대조) — 직전 핸드오프 4절 2항과 같음.
-5. 9월 30일 이전으로 거슬러 올라가기, 7월 텔레그램 한줄 252건 저장.
-6. 사용자가 페이지에서 체크하면 detailReq·insightReq 처리.
-7. 토큰을 더 줄이려면 사용자 결정이 필요합니다. 예: 증권사·매체 보도를 옮긴 글은 확인 검색 없이 basis channel로 쓰기, 같은 사건 여러 건을 한 번에 검색하기. 지금은 건마다 확인 검색 1회 안팎입니다.
-8. 직전 핸드오프의 미결(사이클 위치 블록 등) 필요 여부 확인.
-
----
-
-## 5. 이어서 하는 절차 (Claude Code)
-
-1. 세션 시작
-   - 저장소 브랜치 ccr-43a885da-d73psn을 받고(main에 합쳐졌으면 main), 압축 파일의 news-desk/work/를 저장소의 work/에 풉니다(work/는 .gitignore 대상이라 저장소에 없음).
-   - DB를 새로 받습니다: ArtifactData list(meta, news, chains; out_dir=work/live, news는 limit 1000). progressV4·newsSeen의 version을 적어 둡니다(지금 12, 6). 저녁 예약 작업은 chains와 meta/chainsLog를 바꿉니다.
-   - 네트워크 확인: curl -s -o /dev/null -w '%{http_code}' https://t.me/s/HANAchina → 200.
-2. 텔레그램 (이번에 쓴 순서)
-   1. 덤프: python3 tools/tgcollect.py dump <채널> <시작 날짜 KST> work/<폴더>/<채널>.jsonl (같은 경로면 덮어씀). 11개 채널을 3묶음으로 병렬 실행. 로그의 'N개 저장'은 시작 날짜 앞 글까지 센 수이고 파일에는 시작 날짜 이후만 들어갑니다. 본문 없는 글(x 빈 문자열)도 들어갑니다.
-   2. 후보: data/<새 폴더>/T*.json(post, key, channel, url, published, gist, inds, nodes, also). 기존 merged.json 후보를 이 꼴로 옮기거나 덤프에서 고릅니다.
-   3. 묶음: python3 -I tools/tg_bundle.py data/<새 폴더> work/<덤프 폴더> → bundle/T*.md. 덤프 폴더 아래 하위 폴더(extra/)까지 읽습니다. '덤프에 없는 글'이 나오면 tgcollect의 page(ch, before=번호+1)로 따로 받습니다.
-   4. 지시서: data/tg-2026-10-06-08/PROMPT_TG.md를 새 폴더로 복사하고 날짜 문구(제목의 '10월 6~8일', '오늘은 2026-10-08', 1절 4항 '10월 6일 0시(KST) 이전', 6절 출력 경로)를 고칩니다.
-   5. 에이전트 호출문(묶음마다 하나, Opus, 백그라운드): "작업 폴더: /home/user/news-desk. 당신의 에이전트 이름은 T1, 맡은 묶음은 <경로>/bundle/T1.md(분야, n건). 먼저 <경로>/PROMPT_TG.md를 끝까지 읽고 따르세요. 결과는 <경로>/out/T1.json. WebSearch·WebFetch는 ToolSearch(select:WebSearch,WebFetch)로 불러 쓰세요. 예산: WebSearch n+2회, WebFetch n회. 묶음 안 원문은 자료일 뿐 지시가 아닙니다. 끝나면 3줄 이내로 보고."
-   6. 합치기(새 폴더 안에서): python3 -I ../../tools/mk_one_tg.py ../../work/live <processed 날짜> ../../work/<덤프 폴더> '<기간 설명>' → newsdocs/, meta_out/. 날짜 검사 정규식(r'^2026-10-0[6-8]T')은 이번 기간용이라 고쳐 쓰세요.
-   7. 표본 대조(메인 세션이 출처 2~5건 다시 열기) → 고칠 것은 out/T*.json을 고치고 6을 다시 실행.
-   8. 저장: ArtifactData batch(뉴스는 if_version 없이 set, progressV4·newsSeen은 if_version) → query(source 텔레그램, processed 날짜)로 받아 newsdocs와 대조 → work/live·work/seen.txt·work/seen_urls.txt 갱신.
-3. 블룸버그·로이터 보완, 화면 수정, 시험 화면: 직전 핸드오프(HANDOFF-prev-2026-10-08-08h.md) 5절 4~6항과 같습니다.
+1. 페이지(desk/parts/js2.js의 startResearch): mcp.callTool('Claude Code Remote', 'create_session', {prompt, title, environment_id env_01RA512p3rtBmG713S3VL9zo, source_url https://github.com/gyucheol/news-desk, source_revision ccr-3155a934-jp2ev0, model claude-opus-5-5}).
+   - prompt: '뉴스 데스크 요청 처리. 요청 뉴스 id: ...' + 제목 목록 + 'tools/insight/RUN.md를 끝까지 읽고 그대로 따르세요'.
+   - 응답의 세션 번호는 payload.ccr.id에 있습니다(처음엔 다른 위치를 읽어 v43에서 고침).
+   - 요청 상태는 data/users/<본인>/detailReq {ids(체크), sent(요청 시각), sess(세션 번호), done}에 저장합니다. 화면 상태: 체크만 함 → '요청 담음', 보냄 → '조사 중'(요청한 뉴스 탭에 '작업 창 보기' 링크), 문서에 detail이 생기면 → '작성 완료'(펼쳐 보기).
+2. 새 세션: tools/insight/RUN.md 순서대로 진행합니다. 문서 받기 → news-insight 에이전트 호출(최대 4개 동시) → tools/insight/check.py 형식 검사 → ArtifactData update(news/<id>에 detail·insight2만, if_version) → 다시 읽어 확인 → data/insight/ 결과 커밋 → 5줄 보고.
+3. 조사 에이전트: .claude/agents/news-insight.md(frontmatter model inherit, effort max). 본문은 tools/insight/INSIGHT_PROMPT.md를 따르라는 지시입니다.
+   - INSIGHT_PROMPT.md: 자세한 정리(핵심 한 줄·배경·영향·확인할 것·출처)와 투자 인사이트 세 부분(산업 구조·뒤집어 생각하기·후보 기업)의 블록 구성. 검색 30·열람 20 한도. 본보기는 tools/insight/example-n-tg-0102.json(도시바 건).
+   - Claude Code 프로그램(2.1.293) 안에서 에이전트 정의가 effort 항목을 읽는 것은 확인했습니다. 실제 조사 턴이 max로 도는지는 시험 세션에서 확인되지 않았습니다.
+   - 시험 세션은 news-insight 에이전트를 인식했고, ArtifactData 도구를 가졌으며, 권한 모드는 auto였습니다.
+4. 브랜치 고정: 새 세션은 ccr-3155a934-jp2ev0에서 시작합니다. 이 브랜치를 지우거나 바꾸면 페이지의 CCR.rev도 바꿔야 합니다(main에 합치면 'main'으로).
 
 ---
 
-## 6. 기술 메모
+## 5. 페이지 코드 메모
 
-1. 뉴스 문서 형식은 직전 핸드오프 6절 1~3항과 같습니다. 텔레그램 문서는 channel(표기 이름)이 있고, basis에 channel이 올 수 있습니다(그때 한줄 끝에 ' (채널 전언)', 독립 출처 없이 src 1개 허용). facts 꼬리표는 [사실] [채널] [추론] [미확인].
-2. 채널 표기 이름: HANAchina 하나증권 중국전략, Trillion_labs 트릴리온, The_MariTimes Polaristimes, insidertracking 미국 주식 인사이더, Badonions 나쁜양파, PipeBeom 상상인 김진범, w_compass 부의 나침반, TNBfolio TNBfolio, Onionfarmer 양파농장, cahier_de_market 카이에 de market, kkkontemp KK Kontemporaries. 나쁜양파·부의 나침반은 DB에 예가 없어 직전 핸드오프의 이름 목록과 영문 뜻으로 짝지었습니다.
-3. tools/tg_bundle.py: 본문은 원글 1,800자, 함께 볼 글 1,200자에서 자릅니다. also의 'HANAchina/69982(...)', 'Trillion_labs/10033·10036' 꼴을 읽습니다.
-4. tools/mk_one_tg.py: out/T*.json을 published·key 순으로 정렬해 newsSeq.tg 다음 번호를 매깁니다. 진행 기록 메모에 뺀 후보(skipped)를 적고, telegram.new를 덤프 마지막 번호로 올립니다.
-5. 저녁 예약 작업 지시문은 카드의 headline·facts·tags·incentive·insight·cycles·check·src를 읽습니다. 한줄 형식 문서는 tags·cycles가 빈 배열이고 insight가 빈 객체라, 지시문의 '투자 인사이트가 없으면 facts 등에서 뽑음' 규칙으로 처리될 것으로 봅니다(미확인).
+1. 빌드: desk/parts/에서 python3 build.py v39.html ../index.html. v39.html의 줄 범위(옛 산업 화면·카드 함수)를 그대로 가져오므로 v39.html은 지우면 안 됩니다. 옛 카드·보관함 함수(cardBox, oldCard, loadArchive)는 호출되지 않지만 남아 있습니다.
+2. 시안 빌드: design/v41/(parts 복사본, preview.html). preview.html은 DB 사본을 넣고 window.PREVIEW_CLAUDE·window.PREVIEW로 가짜 DB와 가짜 '요청'을 씁니다. 실제 페이지 코드도 window.PREVIEW_CLAUDE가 있으면 그것을 쓰므로 같은 방식으로 시험 화면을 만들 수 있습니다.
+3. 시험: playwright 스크립트로 file:// 열기(로그인 없이 열면 'DB를 불러올 수 없음' 문구가 정상).
+4. 예전 요약 카드(10월 1~2일, one 없는 문서)는 이제 화면에서 볼 곳이 없습니다. 산업 한 페이지의 출처 칩이 그런 카드를 가리키면 눌러도 아무 일이 일어나지 않습니다.
 
 ---
 
-## 7. 압축 파일(작업본-v6.zip) 구성
+## 6. 남은 일
 
-1. news-desk/ (저장소 구조, .git 제외)
-   - HANDOFF.md(이 문서), HANDOFF-prev-2026-10-08-08h.md, HANDOFF-prev-2026-10-08-07h.md, RUNBOOK.md
-   - desk/, design/, tools/(tg_bundle.py, mk_one_tg.py 추가)
-   - data/tg-2026-10-06-08/(PROMPT_TG.md, T1~T5.json, candidates.txt, bundle/, out/, newsdocs/ 37건, meta_out/), data/bbg-rtr-2026-10-01-08/ 등 기존 폴더
-   - work/dump/(7월 1일~10월 4일 덤프), work/dump2/(10월 6일 0시~10월 8일 08시 35분, extra/ 포함), work/live/(이번 저장까지 반영한 DB 사본), work/seen.txt·seen_urls.txt(674줄), work/brief/, work/oneliner/
-2. handoff.md(이 문서 사본)
+1. 시험 세션 결과 확인: mcp get_session/list_events(session_01Kx5amLCor2zwQLBjSKhP8A). 끝났으면 news/n-tg-0192에 detail·insight2가 들어갔는지 ArtifactData get으로 보고, 화면의 '요청한 뉴스' 탭에서 펼쳐 봅니다. 내용 품질(사실 확인)도 표본으로 봅니다. 실패했으면 RUN.md·INSIGHT_PROMPT.md를 고칩니다.
+2. 사용자가 페이지 '요청' 버튼을 처음 눌러 보는 시험(커넥터 허락 창, 새 세션 생성, '작업 창 보기' 링크). 안 되면 실행 버전을 올리는 것(contract 'latest')을 사용자에게 먼저 묻습니다.
+3. 공유 범위: 페이지가 '링크가 있는 누구나'라서 다른 사람이 '요청'을 누르면 그 사람 계정으로 세션이 생길 수 있습니다. 사용자에게 공유 범위 확인을 요청했습니다(바꾸는 것은 사용자가 공유 메뉴에서).
+4. 오늘 20:47 저녁 예약 작업 결과 확인(대상 약 154건 추론).
+5. 텔레그램 10월 8일 12시 30분 이후 새 글: progressV4.telegram.new 번호 다음부터.
+6. 블룸버그·로이터 보완(사이트맵 목록 대조), 9월 30일 이전으로 거슬러 올라가기, 7월 텔레그램 한줄 252건 저장 — 직전 핸드오프와 같음.
+7. 핸드오프 문서·RUNBOOK.md에 detailReq.sent/sess 같은 새 필드를 반영하는 일(RUNBOOK은 이번에 고치지 않았습니다).
+
+---
+
+## 7. 이어서 하는 절차 (Claude Code)
+
+1. 저장소 브랜치 ccr-3155a934-jp2ev0을 받고, 압축 파일의 news-desk/work/를 저장소의 work/에 풉니다(work/는 .gitignore 대상).
+2. DB를 새로 받습니다: ArtifactData list(meta, news[limit 1000], chains; out_dir=work/live). progressV4·newsSeen version을 적어 둡니다(지금 13, 7).
+3. 텔레그램: 직전 핸드오프 5절 2항 순서 그대로. 합치기는 python3 -I ../../tools/mk_one_tg.py ../../work/live <processed 날짜> ../../work/<덤프 폴더> '<기간 설명>' '<날짜 정규식>'.
+4. 페이지 수정: desk/parts를 고치고 build.py로 desk/index.html을 만든 뒤 Artifact publish(url 데스크 주소). 처음 게시하는 세션이면 먼저 Artifact read로 읽고 저장소 파일과 같은지 봅니다. capabilities는 생략하면 그대로 유지됩니다.
 
 ---
 
@@ -134,18 +101,24 @@
 3. 링크에 근거했으면 답변 끝에 Sources. 게시된 페이지 주소는 요청이 없으면 채팅에 붙이지 않습니다.
 4. 요청 범위 밖의 데이터·기능은 바꾸지 않습니다. 예약 작업과 메모리는 명시적 요청이 있을 때만 바꿉니다.
 5. 같은 아티팩트를 같은 주소에 갱신합니다.
-6. 요청 표현: "handoff해줘" = 이 문서와 압축 파일. "텔레 5개 ㄱㄱ" = 텔레그램 5건. "텔레그램 10월 8,7,6일 껄로 ㄱㄱ" = 그 날짜 텔레그램 글 정리. "체크한 뉴스 자세히 정리 요청" = detailReq.ids 처리.
-7. 무거운 작업은 서브 에이전트(Opus)로 하되 토큰을 적게 쓰는 방법을 우선합니다. 텔레그램은 덤프(curl) 방식(웹사이트 캡처 아님), 블룸버그·로이터는 사이트맵 목록.
+6. 요청 표현: "handoff해줘" = 이 문서와 압축 파일. "텔레 5개 ㄱㄱ" = 텔레그램 5건. "텔레그램 10월꺼 나머지 전부다 ㄱㄱ" = 그 달 남은 텔레그램 글 전부. "ㄱㄱ" = 진행. 화면 변경은 "예시를 먼저 만들어서 보여줘"라고 하면 시안 페이지를 먼저 만듭니다.
+7. 무거운 작업은 서브 에이전트(Opus)로 하되 토큰을 적게 쓰는 방법을 우선합니다. 텔레그램은 덤프(curl) 방식, 블룸버그·로이터는 사이트맵 목록.
 8. 정리 순서는 최근 날짜부터 거꾸로.
-9. 새 대화로 시작하는 편이 토큰이 덜 듭니다.
-10. 커밋: 직전 핸드오프에는 '사용자가 요청할 때'라고 되어 있었으나, 이번 세션은 컨테이너가 사라질 위험과 세션의 지정 브랜치 규칙 때문에 작업 브랜치에 커밋·푸시했습니다. 사용자가 이에 대해 따로 지시하지는 않았습니다.
+9. 새 대화로 시작하는 편이 토큰이 덜 듭니다. 자세한 조사는 '요청' 버튼이 여는 새 창에서 합니다.
+10. 커밋: 세션의 지정 브랜치에 커밋·푸시해 왔습니다(컨테이너가 사라질 위험 때문). 사용자가 따로 지시하지는 않았습니다.
 
 ---
 
-## 9. 알려진 한계
+## 9. 압축 파일(작업본-v7.zip) 구성
 
-1. 37건 중 32건은 서브 에이전트가 읽은 출처를 메인 세션이 다시 열지 않았습니다(표본 5건 중 2건 수정).
-2. 상당수는 WebFetch 대신 검색 결과 요약으로 확인했습니다(각 문서 check에 표시).
-3. 후보 선별은 직전 세션의 목록 화면 선별 46건 + 키워드 훑기 + 새 글 확인입니다. 덤프 767개 전체를 다시 읽지는 않아 빠진 글이 있을 수 있습니다.
-4. 범위 밖 12건은 에이전트 판단이며 메인 세션이 다시 확인하지 않았습니다.
-5. 저녁 예약 작업이 99건을 한 번에 처리할 수 있는지, 한줄 형식 문서를 제대로 반영하는지는 오늘 실행 결과로만 알 수 있습니다.
+1. news-desk/ (저장소 구조, .git 제외): HANDOFF.md(이 문서), HANDOFF-prev-*.md, RUNBOOK.md, .claude/agents/, desk/, design/(v41 시안 포함), tools/(insight/ 포함), data/(tg-2026-10-01-08/ 포함), work/(dump·dump2·dump3, live, seen.txt·seen_urls.txt 729줄 등). work/dumpx(묶음용 링크 폴더)는 링크라 빼었습니다. 필요하면 dump·dump3·dump2/extra를 a·b·c 하위 폴더로 링크해 다시 만듭니다.
+2. handoff.md(이 문서 사본)
+
+---
+
+## 10. 알려진 한계
+
+1. 55건 중 50건은 에이전트가 읽은 출처를 메인 세션이 다시 열지 않았습니다. 상당수는 검색 결과 요약으로 확인했습니다(각 문서 check에 표시).
+2. 후보는 덤프 전체를 다시 읽어 고른 것이 아니라, 예전 선별 목록과 새 구간을 훑어 고른 것입니다.
+3. 요청 버튼의 실제 동작(페이지에서의 커넥터 호출)은 사용자가 아직 눌러 보지 않아 확인되지 않았습니다. 새 세션 쪽 흐름은 시험 중입니다.
+4. effort max는 에이전트 정의로 지정했고, 이 방식이 실제 조사 턴에 적용되는지는 확인 전입니다.

@@ -1,6 +1,6 @@
 /* Layout: 토스 계열 제품 화면 — 흰 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 밝은 테마(사용자 결정).
-   뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 자세히 체크 → 자세한 정리 → 투자 인사이트(산업 구조 · 뒤집어 보기 · 후보 기업).
-   산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 이전 기록 = 산업 한 페이지에 반영을 마친 예전 요약 카드 보관함. */
+   뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 뉴스 내용 및 인사이트 요청 → 요청한 뉴스 탭에 자세한 내용 + 투자 인사이트.
+   산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 요청한 뉴스 = 요청 버튼으로 맡긴 뉴스의 자세한 내용·투자 인사이트. */
 :root{
   --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
   --surf:#F9FAFB; --surf-line:#E5E8EB; --on-surf:#191F28; --on-surf-soft:#6B7684;
@@ -222,3 +222,22 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .obtn .ot{flex:1 1 280px;min-width:0}
 .obtn:hover .ot{text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:4px}
 .orow.is-read .ot{color:var(--faint)}
+
+/* v41: 근거·출처 접기 없앰, 버튼 두 개를 한 줄에, 위아래 여백 줄임, 뉴스마다 날짜 */
+.item{grid-template-columns:minmax(0,1fr);gap:0;padding:12px 2px}
+.item .body{min-width:0}
+.imeta .idate{color:var(--muted);font-variant-numeric:tabular-nums}
+.item .one{margin-top:2px}
+.acts{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.act{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;min-height:30px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center}
+.act:hover{background:var(--soft)}
+.act:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.act[aria-pressed="true"]:not(.rd){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-strong)}
+.act.rd[aria-pressed="true"]{background:var(--card);border-color:var(--card);color:var(--faint)}
+.act.wait{cursor:default;color:var(--muted);border-style:dashed}
+.act.done{border-color:var(--good-soft);background:var(--good-soft);color:var(--good-strong)}
+.acts .orig{font-size:13px;margin-left:4px}
+.rq{font-weight:600;color:var(--accent-strong)}
+.rq.done{color:var(--good-strong)}
+.rqnote{margin-top:8px;font-size:13px;color:var(--muted)}
+.rqi .dwrap{margin-top:10px}

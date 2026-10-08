@@ -5,8 +5,8 @@
 <style>
 @font-face{font-family:"Pretendard Variable";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
 /* Layout: 토스 계열 제품 화면 — 흰 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 밝은 테마(사용자 결정).
-   뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 자세히 체크 → 자세한 정리 → 투자 인사이트(산업 구조 · 뒤집어 보기 · 후보 기업).
-   산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 이전 기록 = 산업 한 페이지에 반영을 마친 예전 요약 카드 보관함. */
+   뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 뉴스 내용 및 인사이트 요청 → 요청한 뉴스 탭에 자세한 내용 + 투자 인사이트.
+   산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 요청한 뉴스 = 요청 버튼으로 맡긴 뉴스의 자세한 내용·투자 인사이트. */
 :root{
   --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
   --surf:#F9FAFB; --surf-line:#E5E8EB; --on-surf:#191F28; --on-surf-soft:#6B7684;
@@ -229,6 +229,25 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .obtn:hover .ot{text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:4px}
 .orow.is-read .ot{color:var(--faint)}
 
+/* v41: 근거·출처 접기 없앰, 버튼 두 개를 한 줄에, 위아래 여백 줄임, 뉴스마다 날짜 */
+.item{grid-template-columns:minmax(0,1fr);gap:0;padding:12px 2px}
+.item .body{min-width:0}
+.imeta .idate{color:var(--muted);font-variant-numeric:tabular-nums}
+.item .one{margin-top:2px}
+.acts{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.act{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;min-height:30px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center}
+.act:hover{background:var(--soft)}
+.act:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.act[aria-pressed="true"]:not(.rd){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-strong)}
+.act.rd[aria-pressed="true"]{background:var(--card);border-color:var(--card);color:var(--faint)}
+.act.wait{cursor:default;color:var(--muted);border-style:dashed}
+.act.done{border-color:var(--good-soft);background:var(--good-soft);color:var(--good-strong)}
+.acts .orig{font-size:13px;margin-left:4px}
+.rq{font-weight:600;color:var(--accent-strong)}
+.rq.done{color:var(--good-strong)}
+.rqnote{margin-top:8px;font-size:13px;color:var(--muted)}
+.rqi .dwrap{margin-top:10px}
+
 /* industry tiles: equal squares */
 .tiles{display:grid;grid-template-columns:repeat(var(--m,4),minmax(0,1fr));gap:8px;margin-bottom:20px}
 @media (min-width:900px){.tiles{grid-template-columns:repeat(var(--n,8),minmax(0,1fr))}}
@@ -387,7 +406,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     <nav class="topnav" aria-label="화면 이동">
       <button type="button" class="navlink" id="tab-news" data-tab="news" aria-current="page">뉴스</button>
       <button type="button" class="navlink" id="tab-ind" data-tab="ind">산업 한 페이지</button>
-      <button type="button" class="navlink" id="tab-arch" data-tab="arch">이전 기록</button>
+      <button type="button" class="navlink" id="tab-req" data-tab="req">요청한 뉴스</button>
     </nav>
   </header>
 
@@ -400,8 +419,8 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
 
 <div class="reqbar" id="reqbar" role="region" aria-label="체크한 뉴스 요청" hidden>
   <div class="in">
-    <span class="cnt">자세히 체크 <b id="n-detail">0</b>건 · 투자 인사이트 체크 <b id="n-insight">0</b>건</span>
-    <button class="btn" id="reqcopy" type="button">요청 문구 복사</button>
+    <span class="cnt">뉴스 내용 및 인사이트 요청 <b id="n-detail">0</b>건 <span class="dim" id="n-insight" hidden></span></span>
+    <button class="btn" id="reqgo" type="button">요청</button>
     <span class="reqmsg" id="reqmsg" aria-live="polite"></span>
   </div>
 </div>
@@ -438,18 +457,18 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   let readRef = null, writing = Promise.resolve();
   let archive = null, archLoading = false, dbRef = null;
   let reqs = {}, reqDone = {}, reqRef = null;      // 투자 인사이트 요청
-  let dreqs = {}, dreqDone = {}, dreqRef = null;   // 자세히 요청
+  let dreqs = {}, dreqDone = {}, dsent = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
   const st = {
     tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(),
     ind: null, flowNode: 'all', flowMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()
   };
   try {
     const s = JSON.parse(localStorage.getItem('v6state') || localStorage.getItem('v5state') || '{}');
-    if (['news', 'ind', 'arch'].includes(s.tab)) st.tab = s.tab;
+    if (['news', 'ind', 'req'].includes(s.tab)) st.tab = s.tab;
     if (s.ind) st.ind = s.ind;
   } catch (e) {}
   const h = (location.hash || '').replace('#', '');
-  if (h === 'news' || h === 'arch') st.tab = h;
+  if (h === 'news' || h === 'req') st.tab = h;
   else if (/^[a-z]+$/.test(h)) { st.tab = 'ind'; st.ind = h; }
   const save = () => { try { localStorage.setItem('v6state', JSON.stringify({ tab: st.tab, ind: st.ind })); } catch (e) {} };
 
@@ -662,7 +681,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   }
 
   /* ── 새 형식(제목 + 한줄 요약) 뉴스 ── */
-  // 한줄 요약(one)이 있는 문서만 뉴스 목록에 나옵니다. 그 전의 요약 카드는 산업 한 페이지에 반영을 마쳐 '이전 기록'으로만 봅니다.
+  // 한줄 요약(one)이 있는 문서만 뉴스 목록에 나옵니다. 그 전의 요약 카드는 산업 한 페이지에 반영을 마쳐 목록에 나오지 않습니다.
   const isFresh = n => typeof n.one === 'string' && n.one.trim() !== '';
   const fresh = () => news.filter(isFresh);
   const legacy = () => news.filter(n => !isFresh(n));
@@ -673,7 +692,8 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   const srcName = n => n.source === '텔레그램' && n.channel ? '텔레그램 ' + n.channel : (n.source || '');
   const hasDetail = n => !!(n.detail && Array.isArray(n.detail.blocks) && n.detail.blocks.length);
   const hasIns2 = n => !!(n.insight2 && Array.isArray(n.insight2.parts) && n.insight2.parts.length);
-  const pendingDetail = () => fresh().filter(n => dreqs[n.id] && !hasDetail(n));
+  const pendingDetail = () => fresh().filter(n => dreqs[n.id] && !dsent[n.id] && !hasDetail(n));   // 체크만 하고 아직 '요청'을 누르지 않은 것
+  const reqState = n => hasDetail(n) ? 'done' : dsent[n.id] ? 'sent' : dreqs[n.id] ? 'ck' : '';
   const pendingInsight = () => fresh().filter(n => reqs[n.id] && !hasIns2(n));
   const unreadCount = () => fresh().filter(n => !reads[n.id]).length;
   const ordInd = n => { const i = IND_ORDER.indexOf(mainInd(n)); return i < 0 ? 99 : i; };
@@ -684,7 +704,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       if (skip !== 'src' && st.src !== 'all' && n.source !== st.src) return false;
       if (skip !== 'ind' && st.nind !== 'all' && !indTags(n).has(st.nind)) return false;
       if (st.unreadOnly && reads[n.id]) return false;
-      if (st.ckOnly && !dreqs[n.id] && !reqs[n.id]) return false;
+      if (st.ckOnly && !dreqs[n.id] && !dsent[n.id]) return false;
       if (q && !plain(JSON.stringify([n.title, n.one, n.facts, n.origTitle, n.channel, n.source])).toLowerCase().includes(q)) return false;
       return true;
     });
@@ -734,50 +754,59 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     const d = n.detail || {};
     let out = '<section class="dsec"><div class="dsh"><span class="tag">자세한 정리' + (d.updated ? ' · ' + esc(kday(d.updated)) + ' 작성' : '') + '</span><p>원문이나 이전 기사를 읽지 않아도 앞뒤 맥락이 이해되도록 썼습니다.</p></div>' +
       '<div class="dpanel">' + EVLEGEND + blocksHtml(d.blocks) +
-      (hasIns2(n) ? '' : '<label class="big-ck"><input type="checkbox" id="ick-' + esc(n.id) + '" data-ck="insight" data-id="' + esc(n.id) + '"' + (reqs[n.id] ? ' checked' : '') + '><span><b>투자 인사이트도 받기</b><br><span class="dim">체크한 뉴스만 산업 구조, 뒤집어 보기, 후보 기업 분석을 만듭니다. 공시·실적·통계를 더 찾아야 해서 가장 오래 걸리는 단계입니다.</span></span></label>') +
       '</div></section>';
     if (hasIns2(n)) out += n.insight2.parts.map(p => '<section class="dsec"><div class="dsh"><span class="tag">' + esc(p.tag || '투자 인사이트') + '</span><h3>' + rt(p.title || '') + '</h3>' + (p.sub ? '<p>' + rt(p.sub) + '</p>' : '') + '</div><div class="dpanel">' + blocksHtml(p.blocks) + '</div></section>').join('');
-    return '<div class="dwrap" id="dw-' + esc(n.id) + '">' + out + '<div class="dfoot"><button type="button" class="tg" data-act="dopen" data-id="' + esc(n.id) + '">자세한 정리 접기</button></div></div>';
+    return '<div class="dwrap" id="dw-' + esc(n.id) + '">' + out + '<div class="dfoot"><button type="button" class="tg" data-act="dopen" data-id="' + esc(n.id) + '">접기</button></div></div>';
   }
   const BASIS = { partial: ['u', '일부 미확인'], channel: ['i', '채널 전언'] };
+  const pubDay = n => { const d = dayOf(n); return d ? kday(d) + ' ' + dowOf(d).replace('요일', '') : ''; };
+  function reqBtn(n) {
+    const id = esc(n.id), s = reqState(n);
+    if (s === 'done') return '<button type="button" class="act done" data-act="goreq" data-id="' + id + '">내용·인사이트 보기</button>';
+    if (s === 'sent') return '<span class="act wait">요청함 · 작성 대기</span>';
+    return '<button type="button" class="act" data-act="dreq" data-id="' + id + '" aria-pressed="' + !!dreqs[n.id] + '">' + (dreqs[n.id] ? '요청 담음' : '뉴스 내용 및 인사이트 요청') + '</button>';
+  }
   function itemHtml(n) {
-    const id = esc(n.id), read = !!reads[n.id], open = st.dopen.has(n.id), det = hasDetail(n);
+    const id = esc(n.id), read = !!reads[n.id];
     const bs = BASIS[n.basis];
-    const ctrl = det
-      ? '<button type="button" class="dbtn" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '" aria-controls="dw-' + id + '">' + (open ? '접기' : (hasIns2(n) ? '정리·인사이트 보기' : '자세한 정리 보기')) + '</button>'
-      : '<label class="ck"><input type="checkbox" id="dck-' + id + '" data-ck="detail" data-id="' + id + '"' + (dreqs[n.id] ? ' checked' : '') + '><span>자세히</span></label>';
-    const srcs = (n.src || []).slice(1).filter(x => x && x.u);
-    const facts = (n.facts || []).length || n.check || srcs.length
-      ? '<details class="basis"><summary>근거와 출처</summary>' + ((n.facts || []).length ? '<ul>' + n.facts.map(f => '<li>' + rt(f) + '</li>').join('') + '</ul>' : '') +
-        (n.check ? '<p class="chk">확인 메모: ' + rt(n.check) + '</p>' : '') +
-        (srcs.length ? '<p class="sl">' + srcs.map(x => '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc(x.o || '출처') + (x.d ? ' · ' + esc(md(x.d)) : '') + '</a>').join('') + '</p>' : '') + '</details>'
-      : '';
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
-      '<div class="ctrl">' + ctrl + '</div>' +
-      '<div class="body"><p class="imeta"><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (bs ? '<span class="ev ' + bs[0] + '">' + bs[1] + '</span>' : '') + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + '</p>' +
+      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (bs ? '<span class="ev ' + bs[0] + '">' + bs[1] + '</span>' : '') + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + '</p>' +
         '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
-        '<p class="links">' + (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">원문' + (n.source ? '(' + esc(n.source) + ')' : '') + '</a>' : '') +
-          (!det && dreqs[n.id] ? '<span class="wait">자세히 요청함 · 아직 작성 전</span>' : '') + (det && !hasIns2(n) && reqs[n.id] ? '<span class="wait">투자 인사이트 요청함 · 아직 작성 전</span>' : '') + '</p>' + facts + '</div>' +
-      '<div class="ctrl"><button type="button" class="read" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 표시') + '</button></div>' +
-      (det && open ? detailHtml(n) : '') + '</li>';
+        '<div class="acts">' + reqBtn(n) +
+          '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button>' +
+          (n.url ? '<a class="orig" href="' + esc(n.url) + '" target="_blank" rel="noopener">원문</a>' : '') + '</div></div></li>';
+  }
+  function reqItemHtml(n) {
+    const s = reqState(n), id = esc(n.id);
+    const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">작성 대기' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id]).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>';
+    const open = st.dopen.has(n.id);
+    return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
+      '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
+      (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
+        : '<p class="rqnote">Claude가 자세한 내용과 투자 인사이트를 작성하면 이 자리에 나옵니다.</p>') + '</div></li>';
+  }
+  function renderReq() {
+    const arr = fresh().filter(n => reqState(n) === 'sent' || reqState(n) === 'done').sort((a, b) => (reqState(a) === reqState(b) ? byList(a, b) : reqState(a) === 'sent' ? -1 : 1));
+    $('main').innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 작성을 기다리는 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다.</p></div>' +
+      (arr.length ? '<ul class="news">' + arr.map(reqItemHtml).join('') + '</ul>' : '<div class="empty"><b>아직 요청한 뉴스가 없습니다.</b><br>뉴스 목록에서 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르면 여기에 모입니다.</div>');
   }
   const emptyBox = () => dbMissing
     ? '<div class="empty"><b>저장된 뉴스를 불러올 수 없습니다.</b><br>claude.ai에서 로그인한 상태로 이 페이지를 열면 목록이 보입니다.</div>'
     : !newsLoaded
     ? '<div class="empty">뉴스를 불러오는 중입니다. 날짜별로 제목과 한줄 요약이 여기에 나옵니다.</div>'
     : !fresh().length
-    ? '<div class="empty"><b>아직 새 형식으로 정리한 뉴스가 없습니다.</b><br>Claude에게 뉴스 정리를 요청하면 제목과 한줄 요약이 날짜별로 쌓입니다. 예전 요약 카드는 이전 기록에 있습니다.</div>'
+    ? '<div class="empty"><b>아직 새 형식으로 정리한 뉴스가 없습니다.</b><br>Claude에게 뉴스 정리를 요청하면 제목과 한줄 요약이 날짜별로 쌓입니다. 예전 요약 카드는 산업 한 페이지에 반영돼 있습니다.</div>'
     : '<div class="empty"><b>조건에 맞는 뉴스가 없습니다.</b><br><button type="button" class="lnk" data-act="clearall">필터 모두 지우기</button></div>';
   function ensureNewsSkeleton() {
     if ($('nb')) return;
     $('main').innerHTML =
       '<div class="nb" id="nb">' +
-        '<p class="guide">더 알고 싶은 뉴스는 <b>자세히</b>에 체크하고, 다 본 뉴스는 <b>읽음 표시</b>를 누르세요. 체크는 저장되므로 Claude에게 "체크한 뉴스 자세히 정리 요청"이라고만 말씀하시면 됩니다.</p>' +
+        '<p class="guide">더 알고 싶은 뉴스는 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르세요. 다 본 뉴스는 <b>읽음 처리</b>를 누르세요.</p>' +
         '<div class="sg" role="group" aria-label="출처" id="nb-src"></div>' +
         '<div class="filters" role="group" aria-label="산업" id="nb-ind"></div>' +
         '<div class="tools"><input type="search" id="nq" placeholder="뉴스 검색" aria-label="뉴스 검색" autocomplete="off">' +
           '<button type="button" class="tg" id="nb-unread" data-act="unread" aria-pressed="false">안 읽은 것만</button>' +
-          '<button type="button" class="tg" id="nb-ck" data-act="ckonly" aria-pressed="false">체크한 것만</button>' +
+          '<button type="button" class="tg" id="nb-ck" data-act="ckonly" aria-pressed="false">요청한 것만</button>' +
           '<span class="bulk" id="nb-bulk"></span></div>' +
       '</div><div id="nb-body"></div>';
     const inp = $('nq'); inp.value = st.q;
@@ -799,7 +828,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       .map(p => '<button type="button" class="chip" data-act="nind" data-id="' + p[0] + '" aria-pressed="' + (st.nind === p[0]) + '">' + esc(p[1]) + '</button>').join('');
     const nq = $('nq'); if (document.activeElement !== nq && nq.value !== st.q) nq.value = st.q;
     const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만 ' + all.filter(n => !reads[n.id]).length;
-    const cb = $('nb-ck'); cb.setAttribute('aria-pressed', String(st.ckOnly)); cb.textContent = '체크한 것만 ' + all.filter(n => dreqs[n.id] || reqs[n.id]).length;
+    const cb = $('nb-ck'); cb.setAttribute('aria-pressed', String(st.ckOnly)); cb.textContent = '요청한 것만 ' + all.filter(n => dreqs[n.id] || dsent[n.id]).length;
     const rows = listFiltered().sort(byList);
     const unreadShown = rows.filter(n => !reads[n.id]).length;
     $('nb-bulk').innerHTML = !unreadShown ? '' : st.confirmAll
@@ -822,9 +851,14 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     renderBar();
   }
   function renderBar() {
-    const nd = pendingDetail().length, ni = pendingInsight().length, bar = $('reqbar');
-    bar.hidden = st.tab !== 'news' || (!nd && !ni);
-    $('n-detail').textContent = nd; $('n-insight').textContent = ni;
+    const nd = pendingDetail().length, bar = $('reqbar');
+    bar.hidden = st.tab !== 'news' || !nd;
+    $('n-detail').textContent = nd;
+  }
+  // 새 Claude Code 창 열기. 시안(PREVIEW)에서는 실제로 열지 않고 흉내만 냅니다. 실제 연결은 확정 뒤에 넣습니다.
+  async function startResearch(list) {
+    if (window.PREVIEW) return window.PREVIEW.start(list);
+    return 'saved';   // 아직 자동 연결 전: 요청 목록(detailReq.sent)만 저장합니다.
   }
   function reqText() {
     const d = pendingDetail().sort(byList), i = pendingInsight().sort(byList), lines = [];
@@ -833,55 +867,9 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     return lines.join('\n');
   }
 
-  /* ── 이전 기록: 산업 한 페이지에 반영을 마친 요약 카드와 개편 전 기록 ── */
-  function renderCards() {
-    const q = st.cq.trim().toLowerCase();
-    let arr = legacy().slice().sort((a, b) => String(b.published || b.processed || '').localeCompare(String(a.published || a.processed || '')));
-    if (q) arr = arr.filter(n => plain(JSON.stringify([n.headline, n.facts, n.channel, n.source])).toLowerCase().includes(q));
-    const lim = st.cardsMore ? arr.length : 60, shown = arr.slice(0, lim);
-    $('arch-hint').textContent = '10월 1~2일에 만든 요약 카드 ' + legacy().length + '건입니다. 내용은 산업 한 페이지에 모두 반영했고, 뉴스 목록에서는 숨겼습니다.' + (q ? ' 검색 결과 ' + arr.length + '건.' : '');
-    $('arch-body').innerHTML = (shown.length ? shown.map(n => { const id = esc(n.id), open = st.open.has(n.id), pub = n.published || n.processed || '';
-      return '<div class="orow' + (reads[n.id] ? ' is-read' : '') + '" id="row-' + id + '"><button type="button" class="obtn" data-act="open" data-id="' + id + '" aria-expanded="' + open + '"><span class="om">' + esc(md(pub)) + ' · ' + esc(n.channel || n.source || '') + '</span><span class="ot">' + esc(splitHead(n.headline).title) + '</span></button>' + (open ? cardBox(n) : '') + '</div>'; }).join('')
-      : '<div class="empty">' + (newsLoaded ? '해당하는 카드가 없습니다.' : '카드를 불러오는 중입니다.') + '</div>') +
-      (arr.length > lim ? '<button type="button" class="more" data-act="cardsmore">' + (arr.length - lim) + '건 더 보기</button>' : '');
-  }
-  function renderArchive() {
-    if (!$('aq')) {
-      $('main').innerHTML = '<div class="sg" role="group" aria-label="기록 종류" style="margin-bottom:12px"><button type="button" class="sgb" id="am-cards" data-act="archmode" data-id="cards">요약 카드</button><button type="button" class="sgb" id="am-all" data-act="archmode" data-id="all">개편 전 기록</button><button type="button" class="sgb" id="am-unread" data-act="archmode" data-id="unread">개편 전 · 안 읽은 것</button><button type="button" class="sgb" id="am-req" data-act="archmode" data-id="req">개편 전 · 체크한 것</button></div>' +
-        '<div class="tools" style="margin-bottom:12px"><input type="search" id="aq" placeholder="이전 기록 검색" aria-label="이전 기록 검색" autocomplete="off"></div>' +
-        '<p class="hint" id="arch-hint" style="margin:0 0 12px"></p><div id="arch-body"></div>';
-      const inp = $('aq');
-      inp.addEventListener('input', () => { if (st.archMode === 'cards') st.cq = inp.value; else st.aq = inp.value; clearTimeout(inp._t); inp._t = setTimeout(() => { st.archMore = false; st.cardsMore = false; renderArchive(); }, 300); });
-    }
-    const inp = $('aq'), want = st.archMode === 'cards' ? st.cq : st.aq; if (document.activeElement !== inp && inp.value !== want) inp.value = want;
-    ['cards', 'all', 'unread', 'req'].forEach(m => $('am-' + m).setAttribute('aria-pressed', String(st.archMode === m)));
-    $('am-cards').textContent = '요약 카드 ' + legacy().length;
-    if (st.archMode === 'cards') { renderCards(); return; }
-    const body = $('arch-body');
-    if (!archive) { $('arch-hint').textContent = ''; body.innerHTML = '<div class="empty">' + (archLoading ? '개편 전 기록을 불러오는 중입니다.' : '개편 전 기록(카드 약 410건)은 읽기 전용으로 보관돼 있습니다. 불러오려면 잠시 기다려 주세요.') + '</div>'; if (!archLoading) loadArchive(); return; }
-    const q = st.aq.trim().toLowerCase();
-    $('am-all').textContent = '개편 전 기록 ' + archive.length;
-    $('am-unread').textContent = '개편 전 · 안 읽은 것 ' + archive.filter(x => !reads[x.id]).length;
-    $('am-req').textContent = '개편 전 · 체크한 것 ' + archive.filter(x => reqs[x.id]).length;
-    let arr = archive.slice().sort((a, b) => String(b.published || b.processed || '').localeCompare(String(a.published || a.processed || '')));
-    if (st.archMode === 'unread') arr = arr.filter(x => !reads[x.id]); else if (st.archMode === 'req') arr = arr.filter(x => reqs[x.id]);
-    if (q) arr = arr.filter(x => plain(JSON.stringify([x.headline, x.facts, x.newFacts])).toLowerCase().includes(q));
-    if (st.archMode === 'all') {
-      const shown = arr.slice(0, 200);
-      $('arch-hint').textContent = '10월 1일 개편 전의 기록 ' + arr.length + '건 중 최신 ' + shown.length + '건을 보여 줍니다. 예전 등급 표시는 기록 그대로입니다.';
-      body.innerHTML = '<div class="arch">' + shown.map(x => '<details><summary><span class="meta">' + esc(md(x.published || x.processed)) + ' ' + oldPre(x.id) + ' #' + esc(x.num || '') + '</span>' + rich(x.headline || '') + '</summary>' +
-        ((x.facts || []).length ? '<ul>' + x.facts.map(f => '<li>' + rich(f) + '</li>').join('') + '</ul>' : '') + (x.url ? '<a class="src" href="' + esc(x.url) + '" target="_blank" rel="noopener">원문</a>' : '') + '</details>').join('') + '</div>';
-    } else {
-      const lim = st.archMore ? arr.length : 40, shown = arr.slice(0, lim);
-      $('arch-hint').textContent = (st.archMode === 'unread' ? '개편 전 안 읽은 카드 ' : '투자 인사이트 요청에 체크한 개편 전 카드 ') + arr.length + '건입니다. 예전 방식 요약 그대로이고, 읽음 표시하면 안 읽은 목록에서 빠집니다.';
-      body.innerHTML = (shown.length ? '<div class="nlist">' + shown.map(oldCard).join('') + '</div>' : '<div class="empty">해당하는 카드가 없습니다.</div>') +
-        (arr.length > lim ? '<button type="button" class="more" data-act="archmore">' + (arr.length - lim) + '건 더 보기</button>' : '');
-    }
-  }
-
   /* ── masthead and routing ── */
   function renderNav() {
-    ['news', 'ind', 'arch'].forEach(t => { const b = $('tab-' + t); if (st.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+    ['news', 'ind', 'req'].forEach(t => { const b = $('tab-' + t); if (st.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
     const u = unreadCount();
     $('tab-news').innerHTML = '뉴스' + (u ? '<span class="badge" aria-label="안 읽은 뉴스 ' + u + '건">' + u + '</span>' : '');
     const f = fresh();
@@ -893,7 +881,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   function render() {
     renderNav();
     if (st.tab === 'ind') { const l = sortedInds(); if (l.length && (!st.ind || !chains[st.ind])) st.ind = l[0].id; renderInd(); }
-    else if (st.tab === 'arch') renderArchive();
+    else if (st.tab === 'req') renderReq();
     else renderNews();
     renderBar();
   }
@@ -904,18 +892,18 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     const el = document.getElementById('node-' + ind + '-' + node);
     if (el) { el.classList.add('hl'); const d = el.querySelector('details'); if (d) d.open = true; scrollTo(el); setTimeout(() => el.classList.remove('hl'), 2400); }
   }
-  // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록, 예전 요약 카드면 이전 기록에서 펼쳐 보여 줍니다.
+  // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록으로 갑니다(예전 요약 카드는 볼 곳이 없어 그대로 둡니다).
   function goNews(id) {
     const n = news.find(z => z.id === id);
-    if (n && !isFresh(n)) { st.tab = 'arch'; st.archMode = 'cards'; st.cq = ''; st.cardsMore = true; st.open.add(id); }
-    else { st.tab = 'news'; st.src = 'all'; st.nind = 'all'; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.shown = 1e6; st.confirmAll = false; if (n && hasDetail(n)) st.dopen.add(id); }
+    if (n && !isFresh(n)) return;
+    { st.tab = 'news'; st.src = 'all'; st.nind = 'all'; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.shown = 1e6; st.confirmAll = false; if (n && hasDetail(n)) st.dopen.add(id); }
     save(); render(); scrollTo(document.getElementById('row-' + id));
   }
   const setDoc = (ref, body) => { if (ref) writing = writing.then(() => ref.set(body)).catch(() => {}); };
   const saveReqs = () => setDoc(reqRef, { ids: Object.assign({}, reqs), done: Object.assign({}, reqDone) });
-  const saveDreqs = () => setDoc(dreqRef, { ids: Object.assign({}, dreqs), done: Object.assign({}, dreqDone) });
+  const saveDreqs = () => setDoc(dreqRef, { ids: Object.assign({}, dreqs), sent: Object.assign({}, dsent), done: Object.assign({}, dreqDone) });
   const saveReads = () => setDoc(readRef, { ids: Object.assign({}, reads) });
-  const rerender = () => { renderNav(); if (st.tab === 'arch') renderArchive(); else if (st.tab === 'news') renderNews(); renderBar(); };
+  const rerender = () => { renderNav(); if (st.tab === 'req') renderReq(); else if (st.tab === 'news') renderNews(); renderBar(); };
 
   document.addEventListener('change', e => {
     const b = e.target; if (!b || !b.dataset || !b.dataset.ck) return;
@@ -924,16 +912,18 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     if (b.dataset.ck === 'insight') saveReqs(); else saveDreqs();
     $('reqmsg').textContent = ''; rerender();
   });
-  $('reqcopy').addEventListener('click', () => {
-    const text = reqText(), msg = $('reqmsg');
-    const done = () => { msg.textContent = '복사했습니다. Claude에게 붙여 넣으면 됩니다.'; };
-    const fallback = () => {
-      msg.textContent = '자동 복사가 막혀 아래 글을 선택해 두었습니다.';
-      const old = $('reqtext'); if (old) old.remove();
-      const ta = document.createElement('textarea'); ta.id = 'reqtext'; ta.className = 'reqtext'; ta.value = text; ta.readOnly = true; ta.setAttribute('aria-label', '요청 문구');
-      document.querySelector('.reqbar .in').appendChild(ta); ta.focus(); ta.select();
-    };
-    try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+  // '요청': 체크해 둔 뉴스를 '요청 보냄'으로 바꾸고 새 Claude Code 창(세션)에 조사를 맡깁니다. 실제 시작은 startResearch가 합니다.
+  $('reqgo').addEventListener('click', async () => {
+    const list = pendingDetail().sort(byList), msg = $('reqmsg'), btn = $('reqgo');
+    if (!list.length) return;
+    btn.disabled = true; msg.textContent = '요청을 보내는 중입니다.';
+    try {
+      const how = await startResearch(list);
+      const ts = Date.now(); list.forEach(n => { dsent[n.id] = ts; }); saveDreqs();
+      msg.textContent = how === 'saved' ? list.length + '건을 요청 목록에 저장했습니다. Claude에게 "요청한 뉴스 처리"라고 말씀하시면 작성합니다.' : list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
+      rerender();
+    } catch (e) { msg.textContent = '새 창을 열지 못했습니다. ' + ((e && e.message) || '') + ' 잠시 뒤 다시 눌러 주세요.'; }
+    btn.disabled = false;
   });
   document.addEventListener('click', e => {
     const t = e.target.closest('[data-tab]');
@@ -951,16 +941,15 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     else if (act === 'ckonly') { st.ckOnly = !st.ckOnly; st.shown = PAGE; st.confirmAll = false; renderNews(); }
     else if (act === 'clearall') { st.src = 'all'; st.nind = 'all'; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.confirmAll = false; renderNews(); }
     else if (act === 'more') { st.shown += PAGE; renderNews(); }
-    else if (act === 'dopen') { const was = st.dopen.has(id); if (was) st.dopen.delete(id); else st.dopen.add(id); renderNews(); if (was) scrollTo(document.getElementById('row-' + id)); }
-    else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); if (st.tab === 'arch') renderArchive(); }
+    else if (act === 'dopen') { const was = st.dopen.has(id); if (was) st.dopen.delete(id); else st.dopen.add(id); if (st.tab === 'req') renderReq(); else renderNews(); if (was) scrollTo(document.getElementById((st.tab === 'req' ? 'rq-' : 'row-') + id)); }
+    else if (act === 'dreq') { if (dreqs[id]) delete dreqs[id]; else dreqs[id] = today; saveDreqs(); $('reqmsg').textContent = ''; rerender(); }
+    else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
+    else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
     else if (act === 'read') { if (reads[id]) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
     else if (act === 'readall') { st.confirmAll = true; renderNews(); }
     else if (act === 'readall-no') { st.confirmAll = false; renderNews(); }
     else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!reads[n.id]) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }
-    else if (act === 'archmode') { st.archMode = id; st.archMore = false; st.cardsMore = false; renderArchive(); }
-    else if (act === 'archmore') { st.archMore = true; renderArchive(); }
-    else if (act === 'cardsmore') { st.cardsMore = true; renderArchive(); }
   });
 
   render();
@@ -968,7 +957,8 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   (async () => {
     const status = $('status');
     const say = t => { status.textContent = t; status.hidden = !t; };
-    const db = window.claude && await window.claude.use('db');
+    const CL = window.PREVIEW_CLAUDE || window.claude;
+    const db = CL && await CL.use('db');
     if (!db) { dbMissing = true; say('이 화면에서는 저장된 데이터를 불러올 수 없습니다. claude.ai에서 로그인한 상태로 열어 주세요.'); render(); return; }
     dbRef = db;
     db.collection('chains').onSnapshot(snap => {
@@ -989,13 +979,13 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       if (d && Array.isArray(d.stages) && d.stages.length === 8) { stages = d.stages; cycUpdated = d.updated || ''; if (st.tab === 'ind') render(); }
     }, () => {});
     try {
-      const user = await window.claude.use('user');
+      const user = await CL.use('user');
       const uid = user && await user.id();
       if (uid) {
         const watch = (name, fn) => { const ref = db.doc('data/users/' + uid + '/' + name); ref.onSnapshot(snap => { fn(snap.exists ? (snap.data() || {}) : {}); rerender(); }, () => {}); return ref; };
         readRef = watch('reads', d => { if (d.ids) reads = Object.assign({}, d.ids); });
         reqRef = watch('insightReq', d => { reqs = Object.assign({}, d.ids || {}); reqDone = Object.assign({}, d.done || {}); });
-        dreqRef = watch('detailReq', d => { dreqs = Object.assign({}, d.ids || {}); dreqDone = Object.assign({}, d.done || {}); });
+        dreqRef = watch('detailReq', d => { dreqs = Object.assign({}, d.ids || {}); dreqDone = Object.assign({}, d.done || {}); dsent = Object.assign({}, d.sent || {}); });
       }
     } catch (e) {}
   })();

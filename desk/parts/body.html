@@ -7,7 +7,7 @@
     <nav class="topnav" aria-label="화면 이동">
       <button type="button" class="navlink" id="tab-news" data-tab="news" aria-current="page">뉴스</button>
       <button type="button" class="navlink" id="tab-ind" data-tab="ind">산업 한 페이지</button>
-      <button type="button" class="navlink" id="tab-arch" data-tab="arch">이전 기록</button>
+      <button type="button" class="navlink" id="tab-req" data-tab="req">요청한 뉴스</button>
     </nav>
   </header>
 
@@ -20,8 +20,8 @@
 
 <div class="reqbar" id="reqbar" role="region" aria-label="체크한 뉴스 요청" hidden>
   <div class="in">
-    <span class="cnt">자세히 체크 <b id="n-detail">0</b>건 · 투자 인사이트 체크 <b id="n-insight">0</b>건</span>
-    <button class="btn" id="reqcopy" type="button">요청 문구 복사</button>
+    <span class="cnt">뉴스 내용 및 인사이트 요청 <b id="n-detail">0</b>건 <span class="dim" id="n-insight" hidden></span></span>
+    <button class="btn" id="reqgo" type="button">요청</button>
     <span class="reqmsg" id="reqmsg" aria-live="polite"></span>
   </div>
 </div>

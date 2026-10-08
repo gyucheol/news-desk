@@ -12,17 +12,17 @@
   let readRef = null, writing = Promise.resolve();
   let archive = null, archLoading = false, dbRef = null;
   let reqs = {}, reqDone = {}, reqRef = null;      // 투자 인사이트 요청
-  let dreqs = {}, dreqDone = {}, dreqRef = null;   // 자세히 요청
+  let dreqs = {}, dreqDone = {}, dsent = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
   const st = {
     tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(),
     ind: null, flowNode: 'all', flowMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()
   };
   try {
     const s = JSON.parse(localStorage.getItem('v6state') || localStorage.getItem('v5state') || '{}');
-    if (['news', 'ind', 'arch'].includes(s.tab)) st.tab = s.tab;
+    if (['news', 'ind', 'req'].includes(s.tab)) st.tab = s.tab;
     if (s.ind) st.ind = s.ind;
   } catch (e) {}
   const h = (location.hash || '').replace('#', '');
-  if (h === 'news' || h === 'arch') st.tab = h;
+  if (h === 'news' || h === 'req') st.tab = h;
   else if (/^[a-z]+$/.test(h)) { st.tab = 'ind'; st.ind = h; }
   const save = () => { try { localStorage.setItem('v6state', JSON.stringify({ tab: st.tab, ind: st.ind })); } catch (e) {} };

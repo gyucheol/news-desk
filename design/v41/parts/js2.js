@@ -1,6 +1,6 @@
 
   /* ── 새 형식(제목 + 한줄 요약) 뉴스 ── */
-  // 한줄 요약(one)이 있는 문서만 뉴스 목록에 나옵니다. 그 전의 요약 카드는 산업 한 페이지에 반영을 마쳐 '이전 기록'으로만 봅니다.
+  // 한줄 요약(one)이 있는 문서만 뉴스 목록에 나옵니다. 그 전의 요약 카드는 산업 한 페이지에 반영을 마쳐 목록에 나오지 않습니다.
   const isFresh = n => typeof n.one === 'string' && n.one.trim() !== '';
   const fresh = () => news.filter(isFresh);
   const legacy = () => news.filter(n => !isFresh(n));
@@ -82,7 +82,7 @@
   function reqBtn(n) {
     const id = esc(n.id), s = reqState(n);
     if (s === 'done') return '<button type="button" class="act done" data-act="goreq" data-id="' + id + '">내용·인사이트 보기</button>';
-    if (s === 'sent') return '<span class="act wait">조사 중</span>';
+    if (s === 'sent') return '<span class="act wait">요청함 · 작성 대기</span>';
     return '<button type="button" class="act" data-act="dreq" data-id="' + id + '" aria-pressed="' + !!dreqs[n.id] + '">' + (dreqs[n.id] ? '요청 담음' : '뉴스 내용 및 인사이트 요청') + '</button>';
   }
   function itemHtml(n) {
@@ -97,16 +97,16 @@
   }
   function reqItemHtml(n) {
     const s = reqState(n), id = esc(n.id);
-    const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">조사 중' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id]).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>';
+    const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">작성 대기' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id]).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>';
     const open = st.dopen.has(n.id);
     return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
       '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
       (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
-        : '<p class="rqnote">새 Claude Code 창에서 자세한 내용과 투자 인사이트를 조사하고 있습니다. 끝나면 이 자리에 나옵니다.</p>') + '</div></li>';
+        : '<p class="rqnote">Claude가 자세한 내용과 투자 인사이트를 작성하면 이 자리에 나옵니다.</p>') + '</div></li>';
   }
   function renderReq() {
     const arr = fresh().filter(n => reqState(n) === 'sent' || reqState(n) === 'done').sort((a, b) => (reqState(a) === reqState(b) ? byList(a, b) : reqState(a) === 'sent' ? -1 : 1));
-    $('main').innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 조사 중인 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다.</p></div>' +
+    $('main').innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 작성을 기다리는 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다.</p></div>' +
       (arr.length ? '<ul class="news">' + arr.map(reqItemHtml).join('') + '</ul>' : '<div class="empty"><b>아직 요청한 뉴스가 없습니다.</b><br>뉴스 목록에서 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르면 여기에 모입니다.</div>');
   }
   const emptyBox = () => dbMissing
@@ -114,7 +114,7 @@
     : !newsLoaded
     ? '<div class="empty">뉴스를 불러오는 중입니다. 날짜별로 제목과 한줄 요약이 여기에 나옵니다.</div>'
     : !fresh().length
-    ? '<div class="empty"><b>아직 새 형식으로 정리한 뉴스가 없습니다.</b><br>Claude에게 뉴스 정리를 요청하면 제목과 한줄 요약이 날짜별로 쌓입니다. 예전 요약 카드는 이전 기록에 있습니다.</div>'
+    ? '<div class="empty"><b>아직 새 형식으로 정리한 뉴스가 없습니다.</b><br>Claude에게 뉴스 정리를 요청하면 제목과 한줄 요약이 날짜별로 쌓입니다. 예전 요약 카드는 산업 한 페이지에 반영돼 있습니다.</div>'
     : '<div class="empty"><b>조건에 맞는 뉴스가 없습니다.</b><br><button type="button" class="lnk" data-act="clearall">필터 모두 지우기</button></div>';
   function ensureNewsSkeleton() {
     if ($('nb')) return;
@@ -177,7 +177,7 @@
   // 새 Claude Code 창 열기. 시안(PREVIEW)에서는 실제로 열지 않고 흉내만 냅니다. 실제 연결은 확정 뒤에 넣습니다.
   async function startResearch(list) {
     if (window.PREVIEW) return window.PREVIEW.start(list);
-    throw new Error('아직 연결하지 않았습니다.');
+    return 'saved';   // 아직 자동 연결 전: 요청 목록(detailReq.sent)만 저장합니다.
   }
   function reqText() {
     const d = pendingDetail().sort(byList), i = pendingInsight().sort(byList), lines = [];
@@ -211,7 +211,7 @@
     const el = document.getElementById('node-' + ind + '-' + node);
     if (el) { el.classList.add('hl'); const d = el.querySelector('details'); if (d) d.open = true; scrollTo(el); setTimeout(() => el.classList.remove('hl'), 2400); }
   }
-  // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록, 예전 요약 카드면 이전 기록에서 펼쳐 보여 줍니다.
+  // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록으로 갑니다(예전 요약 카드는 볼 곳이 없어 그대로 둡니다).
   function goNews(id) {
     const n = news.find(z => z.id === id);
     if (n && !isFresh(n)) return;
@@ -235,11 +235,11 @@
   $('reqgo').addEventListener('click', async () => {
     const list = pendingDetail().sort(byList), msg = $('reqmsg'), btn = $('reqgo');
     if (!list.length) return;
-    btn.disabled = true; msg.textContent = '새 Claude Code 창을 여는 중입니다.';
+    btn.disabled = true; msg.textContent = '요청을 보내는 중입니다.';
     try {
-      await startResearch(list);
+      const how = await startResearch(list);
       const ts = Date.now(); list.forEach(n => { dsent[n.id] = ts; }); saveDreqs();
-      msg.textContent = list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
+      msg.textContent = how === 'saved' ? list.length + '건을 요청 목록에 저장했습니다. Claude에게 "요청한 뉴스 처리"라고 말씀하시면 작성합니다.' : list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
       rerender();
     } catch (e) { msg.textContent = '새 창을 열지 못했습니다. ' + ((e && e.message) || '') + ' 잠시 뒤 다시 눌러 주세요.'; }
     btn.disabled = false;

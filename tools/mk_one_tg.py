@@ -1,10 +1,11 @@
 """텔레그램 서브 에이전트 결과(out/T*.json)를 합쳐 '제목 + 한줄 요약' 뉴스 문서(newsdocs/)와 진행 기록(meta_out/)을 만든다.
-사용(묶음 폴더에서): python3 -I mk_one_tg.py <DB 사본 폴더> <processed 날짜> <덤프 폴더> <기간 설명>
+사용(묶음 폴더에서): python3 -I mk_one_tg.py <DB 사본 폴더> <processed 날짜> <덤프 폴더> <기간 설명> [게시 시각 검사 정규식]
   예: python3 -I ../../tools/mk_one_tg.py ../../work/live2 2026-10-08 ../../work/dump2 '10월 6일 0시~10월 8일 08시 35분'
   DB에 쓰지는 않는다 — newsdocs/*.json과 meta_out/*.json을 ArtifactData batch에 넣는다.
   basis는 verified·partial·channel. channel이면 한줄 끝에 ' (채널 전언)'이 붙고 독립 출처가 없어도 된다."""
 import json, glob, os, re, sys, collections
 DB, TODAY, DUMP, SPAN = sys.argv[1:5]
+DATE_RE = sys.argv[5] if len(sys.argv) > 5 else r'^2026-10-0[6-8]T'  # 기간 검사 정규식
 prog = json.load(open(f'{DB}/meta/progressV4.json')); seen = json.load(open(f'{DB}/meta/newsSeen.json'))
 NODES = {os.path.basename(p)[:-5]: [n['id'] for n in json.load(open(p))['nodes']] for p in glob.glob(f'{DB}/chains/*.json')}
 TAIL = ' (채널 전언)'
@@ -39,7 +40,7 @@ for i, c in enumerate(lst, 1):
         if '|' in s or '**' in s or '{{' in s: P.append(f'{w}: 금지 문자')
     for s in c['facts']:
         if not re.search(r'\[(사실|채널|추론|미확인)\]$', s.strip()): P.append(f'{w}: 꼬리표 없는 사실 줄 …{s[-12:]}')
-    if not re.match(r'^2026-10-0[6-8]T', c['published']): P.append(f'{w}: 날짜 {c["published"]}')
+    if not re.match(DATE_RE, c['published']): P.append(f'{w}: 날짜 {c["published"]}')
     for nd in c['nodes']:
         a, b = nd.split('/')
         if b not in NODES.get(a, []): P.append(f'{w}: 없는 노드 {nd}')
@@ -63,7 +64,7 @@ for p in glob.glob(f'{DUMP}/*.jsonl'):
     if ids: last[os.path.basename(p)[:-6]] = max(ids)
 tg = prog['telegram']; tg['new'].update(last)
 bas = collections.Counter(d['basis'] for d in docs)
-note = (f'{TODAY}: {SPAN} 글을 curl 덤프로 모두 받아(work/dump2) 관심 산업 후보 {len(items) + len(skipped)}건 중 {len(docs)}건을 제목+한줄 요약으로 저장'
+note = (f'{TODAY}: {SPAN} 글을 curl 덤프로 모두 받아(work/{os.path.basename(DUMP.rstrip("/"))}) 관심 산업 후보 {len(items) + len(skipped)}건 중 {len(docs)}건을 제목+한줄 요약으로 저장'
         f'({docs[0]["id"]}~{docs[-1]["id"]}, 독립 출처 확인 {bas["verified"]}·일부 확인 {bas["partial"]}·채널 전언 {bas["channel"]}). 뺀 후보: '
         + ' / '.join(f"{s.get('key', '')}({s.get('reason', '')[:30]})" for s in skipped))
 tg['newNote'] = note + ' // ' + tg.get('newNote', '')[:600]

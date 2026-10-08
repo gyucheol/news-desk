@@ -871,7 +871,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       r = await mcp.callTool(CCR.server, 'create_session', { prompt, title: '뉴스 인사이트 ' + ids.length + '건: ' + list[0].title.slice(0, 40), environment_id: CCR.env, source_url: CCR.repo, source_revision: CCR.rev, model: CCR.model }, { cache: false });
     } catch (e) { throw new Error(MCP_MSG[e && e.code] || ((e && e.message) || '알 수 없는 오류입니다.')); }
     const p = (r && r.payload) || {};
-    const sid = p.session_id || p.id || (p.session && p.session.id) || '';
+    const sid = (p.ccr && p.ccr.id) || p.session_id || p.id || '';
     if (sid) ids.forEach(id => { dsess[id] = sid; });
     return 'session';
   }

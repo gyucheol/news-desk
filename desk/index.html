@@ -4,29 +4,30 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
 <style>
 @font-face{font-family:"Pretendard Variable";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
-/* Layout: 토스 계열 제품 화면 — 흰 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 밝은 테마(사용자 결정).
+/* Layout: 토스 계열 제품 화면 — 어두운 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 어두운 테마(2026-10-09 사용자 결정, 이전에는 항상 밝은 테마).
    뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 뉴스 내용 및 인사이트 요청 → 요청한 뉴스 탭에 자세한 내용 + 투자 인사이트.
    산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 요청한 뉴스 = 요청 버튼으로 맡긴 뉴스의 자세한 내용·투자 인사이트. */
 :root{
-  --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
-  --surf:#F9FAFB; --surf-line:#E5E8EB; --on-surf:#191F28; --on-surf-soft:#6B7684;
-  --feat:#191F28; --feat-ink:#FFFFFF;
-  --ink:#191F28; --strong:#333D4B; --body:#4E5968; --muted:#6B7684; --faint:#8B95A1;
-  --line:#E5E8EB; --line-soft:#F2F4F6; --line-strong:#D1D6DB;
-  --accent:#3182F6; --accent-press:#1065CC; --accent-ink:#FFFFFF; --link:#3182F6;
-  --accent-soft:#E8F3FF; --accent-strong:#1B64DA; --accent-ring:rgba(49,130,246,.24); --accent-hover:#2272EB;
-  --warn:#FF8800; --warn-soft:#FFF3E5; --warn-strong:#B85E00;
-  --good-soft:#E8F7EE; --good-strong:#0E7A3E;
-  --note-soft:#EEF0FF; --note-strong:#4450B8;
-  --risk-soft:#FDECEC; --risk-strong:#B42318;
-  --bar-bg:rgba(255,255,255,.96);
-  --hl:#333D4B; --hl-bg:rgba(25,31,40,.08);
-  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7684' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  --bg:#101318; --soft:#171B22; --card:#1E232B; --card-strong:#2A3039;
+  --surf:#171B22; --surf-line:#2A3039; --on-surf:#E8EBEF; --on-surf-soft:#9AA4B0;
+  --feat:#E8EBEF; --feat-ink:#101318;
+  --ink:#F2F4F6; --strong:#D6DBE1; --body:#B8C0CA; --muted:#8C96A3; --faint:#6E7884;
+  --line:#2A3039; --line-soft:#1E232B; --line-strong:#3A414C;
+  --accent:#4C94FF; --accent-press:#2F7BEA; --accent-ink:#FFFFFF; --link:#6AA8FF;
+  --accent-soft:#16263F; --accent-strong:#8DBDFF; --accent-ring:rgba(76,148,255,.32); --accent-hover:#3D87F5;
+  --warn:#FF9A2E; --warn-soft:#33240F; --warn-strong:#FFB866;
+  --good-soft:#12291C; --good-strong:#5FD38D;
+  --note-soft:#1D2142; --note-strong:#A6AEFF;
+  --risk-soft:#351717; --risk-strong:#FF8A80;
+  --bar-bg:rgba(16,19,24,.96);
+  --hl:#E8EBEF; --hl-bg:rgba(255,255,255,.10);
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%238C96A3' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
   --font-body:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", "Noto Sans KR", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-display:var(--font-body); --font-mono:var(--font-body);
   --r-xs:4px; --r-sm:8px; --r:12px; --r-lg:16px; --r-xl:24px;
-  color-scheme:light;
+  color-scheme:dark;
 }
+html,body{background:var(--bg)}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--body);font-family:var(--font-body);font-size:15px;line-height:1.6;letter-spacing:-.005em;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
 .wrap{max-width:960px;margin:0 auto;padding-inline:clamp(16px,3.4vw,32px);padding-block:40px 132px;display:flex;flex-direction:column;gap:24px}

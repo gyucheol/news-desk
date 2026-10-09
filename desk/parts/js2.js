@@ -14,7 +14,10 @@
   const pendingDetail = () => fresh().filter(n => dreqs[n.id] && !dsent[n.id] && !hasDetail(n));   // 체크만 하고 아직 '요청'을 누르지 않은 것
   const reqState = n => hasDetail(n) ? 'done' : dsent[n.id] ? 'sent' : dreqs[n.id] ? 'ck' : '';
   const pendingInsight = () => fresh().filter(n => reqs[n.id] && !hasIns2(n));
-  const unreadCount = () => fresh().filter(n => !reads[n.id]).length;
+  // 묶음 뉴스에 새 기사가 더해지면(updatedAt) 그 전에 읽은 표시는 무효가 되어 다시 '안 읽음'이 됩니다.
+  const updAt = n => { const t = n.updatedAt ? Date.parse(n.updatedAt) : 0; return isNaN(t) ? 0 : t; };
+  const isRead = n => !!reads[n.id] && reads[n.id] >= updAt(n);
+  const unreadCount = () => fresh().filter(n => !isRead(n)).length;
   const ordInd = n => { const i = IND_ORDER.indexOf(mainInd(n)); return i < 0 ? 99 : i; };
   const byList = (a, b) => { const da = dayOf(a), db = dayOf(b); return da < db ? 1 : da > db ? -1 : ordInd(a) - ordInd(b) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0); };
   function listFiltered(skip) {
@@ -22,9 +25,9 @@
     return fresh().filter(n => {
       if (skip !== 'src' && st.src !== 'all' && n.source !== st.src) return false;
       if (skip !== 'ind' && st.nind !== 'all' && !indTags(n).has(st.nind)) return false;
-      if (st.unreadOnly && reads[n.id]) return false;
+      if (st.unreadOnly && isRead(n)) return false;
       if (st.ckOnly && !dreqs[n.id] && !dsent[n.id]) return false;
-      if (q && !plain(JSON.stringify([n.title, n.one, n.facts, n.origTitle, n.channel, n.source])).toLowerCase().includes(q)) return false;
+      if (q && !plain(JSON.stringify([n.title, n.one, n.facts, n.origTitle, n.channel, n.source, (n.items || []).map(x => x.t)])).toLowerCase().includes(q)) return false;
       return true;
     });
   }
@@ -84,11 +87,22 @@
     if (s === 'sent') return '<span class="act wait">조사 중</span>';
     return '<button type="button" class="act" data-act="dreq" data-id="' + id + '" aria-pressed="' + !!dreqs[n.id] + '">' + (dreqs[n.id] ? '요청 담음' : '뉴스 내용 및 인사이트 요청') + '</button>';
   }
+  // 원문 링크: 묶음 뉴스는 items[{t 제목, o 출처, d 날짜, u 주소}], 한 건짜리는 문서의 url(없으면 src 첫 주소)
+  const linkItems = n => Array.isArray(n.items) && n.items.length ? n.items
+    : [{ t: n.origTitle || '', o: srcName(n), d: (n.published || '').slice(0, 10), u: n.url || (n.src && n.src[0] && n.src[0].u) || '' }];
+  const okUrl = u => /^https?:\/\//.test(u || '');
+  function linksHtml(n) {
+    const xs = linkItems(n).filter(x => okUrl(x.u));
+    if (!xs.length) return '';
+    const a = x => '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc([x.d ? kday(x.d) : '', x.o].filter(Boolean).join(' · ') || '원문') + '</a>' + (x.t ? ' <span class="lt">' + esc(x.t) + '</span>' : '');
+    if (xs.length === 1) return '<p class="lks1">원문 ' + a(xs[0]) + '</p>';
+    return '<details class="lks"><summary>원문 ' + xs.length + '건</summary><ul>' + xs.map(x => '<li>' + a(x) + '</li>').join('') + '</ul></details>';
+  }
   function itemHtml(n) {
-    const id = esc(n.id), read = !!reads[n.id];
+    const id = esc(n.id), read = isRead(n), again = !!reads[n.id] && !read;
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
-      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + '</p>' +
-        '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
+      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
+        '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' + linksHtml(n) +
         '<div class="acts">' + reqBtn(n) +
           '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button></div></div></li>';
   }
@@ -143,10 +157,10 @@
     $('nb-ind').innerHTML = [['all', '전체 ' + base.length]].concat(IND_ORDER.filter(k => cnt[k] || k === st.nind).map(k => [k, IND[k] + ' ' + (cnt[k] || 0)]))
       .map(p => '<button type="button" class="chip" data-act="nind" data-id="' + p[0] + '" aria-pressed="' + (st.nind === p[0]) + '">' + esc(p[1]) + '</button>').join('');
     const nq = $('nq'); if (document.activeElement !== nq && nq.value !== st.q) nq.value = st.q;
-    const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만 ' + all.filter(n => !reads[n.id]).length;
+    const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만 ' + all.filter(n => !isRead(n)).length;
     const cb = $('nb-ck'); cb.setAttribute('aria-pressed', String(st.ckOnly)); cb.textContent = '요청한 것만 ' + all.filter(n => dreqs[n.id] || dsent[n.id]).length;
     const rows = listFiltered().sort(byList);
-    const unreadShown = rows.filter(n => !reads[n.id]).length;
+    const unreadShown = rows.filter(n => !isRead(n)).length;
     $('nb-bulk').innerHTML = !unreadShown ? '' : st.confirmAll
       ? '<span>지금 조건에 맞는 ' + unreadShown + '건을 읽음으로 표시할까요?</span><button type="button" class="tg on" data-act="readall-yes">읽음으로 표시</button><button type="button" class="tg" data-act="readall-no">취소</button>'
       : '<button type="button" class="tg" data-act="readall">' + unreadShown + '건 모두 읽음</button>';
@@ -280,10 +294,10 @@
     else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
     else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
-    else if (act === 'read') { if (reads[id]) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
+    else if (act === 'read') { const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
     else if (act === 'readall') { st.confirmAll = true; renderNews(); }
     else if (act === 'readall-no') { st.confirmAll = false; renderNews(); }
-    else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!reads[n.id]) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }
+    else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!isRead(n)) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }
   });
 
   render();

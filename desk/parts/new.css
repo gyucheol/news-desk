@@ -241,3 +241,11 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .rq.done{color:var(--good-strong)}
 .rqnote{margin-top:8px;font-size:13px;color:var(--muted)}
 .rqi .dwrap{margin-top:10px}
+
+/* 원문 링크·묶음 표시 */
+.imeta .upd{color:var(--accent-strong)}
+.lks1,.lks{margin-top:4px;font-size:13px;color:var(--muted);max-width:70ch}
+.lks summary{cursor:pointer;color:var(--muted)}
+.lks ul{margin:4px 0 0;padding-left:18px;display:grid;gap:3px}
+.lks1 a,.lks a{color:var(--accent-strong)}
+.lks .lt,.lks1 .lt{color:var(--faint)}

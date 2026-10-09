@@ -1,5 +1,5 @@
-  const IND = { macro: '매크로', semis: '반도체·AI 투자', power: '전력·재생에너지', gas: '가스·LNG', coal: '석탄', uranium: '원전·우라늄', drilling: '시추·해양', petchem: '석유화학·정유', jpins: '일본 보험·금융', beauty: '화장품' };
-  const IND_ORDER = ['semis', 'macro', 'power', 'gas', 'petchem', 'uranium', 'drilling', 'coal', 'jpins', 'beauty'];
+  const IND = { macro: '매크로', semis: '반도체·AI 투자', power: '전력·재생에너지', gas: '가스·LNG', coal: '석탄', uranium: '원전·우라늄', drilling: '시추·해양', petchem: '석유화학·정유', jpins: '일본 보험·금융', beauty: '화장품', tech: '기술·통신', auto: '자동차', aero: '항공·방산', pharma: '제약·바이오', fin: '금융', consumer: '소비재·유통', shipping: '해운·물류', realestate: '부동산', industrial: '산업재', metals: '금속·광물', agri: '농산물' };
+  const IND_ORDER = ['semis', 'macro', 'power', 'gas', 'petchem', 'uranium', 'drilling', 'coal', 'jpins', 'beauty', 'metals', 'agri', 'shipping', 'industrial', 'auto', 'aero', 'tech', 'pharma', 'fin', 'consumer', 'realestate'];
   const SRC_ORDER = ['블룸버그', '로이터', '텔레그램'];
   const PAGE = 80;
   const coarse = (() => { try { return matchMedia('(pointer:coarse)').matches; } catch (e) { return false; } })();

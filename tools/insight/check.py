@@ -1,4 +1,4 @@
-"""news-insight 결과 파일(data/insight/<id>.json) 형식 검사. 사용: python3 -I tools/insight/check.py <파일>
+"""news-insight 결과 파일(data/insight/<id>.json) 형식 검사. 사용: python3 -I tools/insight/check.py <파일> [뉴스 문서 파일 — 주면 원문이 모두 반영됐는지도 본다]
 페이지(desk/parts/js2.js blocksHtml)가 그리는 블록 종류와 필드만 허용한다. 문제가 없으면 'OK'만 찍는다."""
 import json, re, sys
 
@@ -51,5 +51,14 @@ if ids != ['structure', 'flip', 'picks']: P.append(f'insight2.parts id 순서 {i
 for p in ins.get('parts', []):
     for f in ('tag', 'title'): s_ok(f'insight2.{p.get("id")}.{f}', p.get(f))
     blocks(f'insight2.{p.get("id")}', p.get('blocks'))
+# 원문 목록(items)이 여러 건인 뉴스는 자세한 정리에 원문 주소가 모두 들어가야 한다(사용자 지시: 원문을 모두 반영)
+if len(sys.argv) > 2:
+    nd = json.load(open(sys.argv[2], encoding='utf-8')); nd = nd.get('data', nd) if isinstance(nd.get('data'), dict) else nd
+    its = nd.get('items') or []
+    if len(its) > 1:
+        txt = json.dumps(det, ensure_ascii=False)
+        miss = [it.get('u', '') for it in its if it.get('u') and it['u'] not in txt]
+        if miss: P.append(f'원문 {len(its)}건 중 {len(miss)}건이 자세한 정리에 없음: ' + ', '.join(miss[:5]))
+        if not any(b.get('k') == 'h3' and '원문' in b.get('t', '') for b in det.get('blocks', [])): P.append("'원문 N건 핵심' 절 없음")
 print('OK' if not P else '\n'.join(['PROBLEMS ' + str(len(P))] + P[:60]))
 sys.exit(1 if P else 0)

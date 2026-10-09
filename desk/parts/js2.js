@@ -197,7 +197,7 @@
   // 새 Claude Code 창 열기. 시안(PREVIEW)에서는 실제로 열지 않고 흉내만 냅니다. 실제 연결은 확정 뒤에 넣습니다.
   // 새 창 = Claude Code Remote 커넥터의 create_session. 새 세션은 저장소의 tools/insight/RUN.md를 따라
   // 뉴스마다 news-insight 에이전트(.claude/agents, effort: high)를 불러 조사하고 결과를 이 DB의 뉴스 문서에 넣습니다.
-  const CCR = { server: 'Claude Code Remote', env: 'env_01RA512p3rtBmG713S3VL9zo', repo: 'https://github.com/gyucheol/news-desk', rev: 'ccr-3155a934-jp2ev0', model: 'claude-opus-5-5' };
+  const CCR = { server: 'Claude Code Remote', env: 'env_01RA512p3rtBmG713S3VL9zo', repo: 'https://github.com/gyucheol/news-desk', rev: 'claude/busy-dirac-rdnh60', model: 'claude-opus-5-5' };
   const MCP_MSG = { not_granted: 'Claude Code Remote 커넥터 사용을 허락해야 새 창을 열 수 있습니다.', server_not_connected: 'claude.ai 설정에서 Claude Code Remote 커넥터가 연결돼 있어야 합니다.', not_in_manifest: '이 페이지에 새 창 열기 권한이 없습니다.', rate_limited: '요청이 많아 잠시 막혔습니다. 잠시 뒤 다시 눌러 주세요.' };
   async function startResearch(list) {
     if (window.PREVIEW) return window.PREVIEW.start(list);

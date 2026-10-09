@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 FStech·WRE News 보도로 검사 건수 감소, 신속 처리 비중, 내부 압박 사례를 확인. 익명 소식통 기반 보도임.",
+ "cycles": [],
+ "facts": [
+  "무엇이: CFPB 검사관들이 압박과 위협 속에 검사를 가볍게 하고 있다고 소식통이 전했다 [사실]",
+  "내용: 올해 검사 대상은 약 70곳으로 평소의 절반이고, 절반 이상이 예전엔 드물던 관대한 신속 처리 절차로 끝났다 [사실]",
+  "압박: 검사관에게 '겸손 서약'을 낭독하게 하고, 고위 검사관이 지나치게 공격적이면 불이익이 있을 것이라고 경고했다 [사실]",
+  "의미: 소비자금융 회사의 감독 부담이 줄어들 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 소비자금융보호국 검사관들, 압박·위협 속 검사 강도 완화",
+ "id": "n-rtr-0141",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "美 소비자금융 감독기관 검사관들, 압박·위협 속 검사 완화",
+   "u": "https://www.reuters.com/world/us-consumer-watchdog-examiners-adopt-lighter-touch-amid-pressure-threats-sources-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C293-2026-10-09",
+ "nodes": [],
+ "num": 141,
+ "one": "미국 소비자금융보호국(CFPB) 검사관들이 내부 압박과 위협 속에 금융회사 검사를 느슨하게 하고 있다고 소식통이 전하면서, 은행·핀테크 등 소비자금융 회사들의 규제 부담이 줄어들 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T00:54:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "FStech",
+   "d": "2026-10-08",
+   "u": "https://fstech.co.uk/fst/US_Consumer_Financial_Protection_Bureau_adopts_lighter_touch_amid_pressure.php"
+  },
+  {
+   "o": "WRE News",
+   "d": "2026-10-08",
+   "u": "https://wrenews.com/cfpb-2026-examinations-expedited-reviews-supervision/"
+  }
+ ],
+ "tags": [],
+ "title": "美 소비자금융보호국 검사관들, 압박·위협 속 검사 강도 완화",
+ "url": "https://www.reuters.com/world/us-consumer-watchdog-examiners-adopt-lighter-touch-amid-pressure-threats-sources-2026-10-07/"
+}

@@ -1,0 +1,53 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 확인했으나 모두 같은 단독 보도를 받아 쓴 기사여서 독립 확인은 아님. 백악관은 최근 논의를 부인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 재러드 쿠슈너와 키릴 드미트리예프 등이 미국 투자자의 노르트스트림 가스관 참여를 논의했다고 소식통 5명이 전함 [사실]",
+  "반론: 백악관 관계자는 최근 노르트스트림 논의는 없었다고 밝힘, 가스관은 미국·EU 제재 대상이라 재가동은 불법 [사실]",
+  "전망: 미 당국자는 장애물 때문에 중기적으로 성사 가능성이 낮다고 봄, 독일 연정과 폴란드도 반대 [사실]",
+  "영향: 성사되면 유럽 가스 공급원과 가격에 변화 가능 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미·러, 우크라이나 전쟁 중 유럽에 가스 판매 방안 모색",
+ "id": "n-rtr-0115",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "소식통 '미·러, 우크라이나 전쟁 중 유럽에 가스 판매 모색'",
+   "u": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C265-2026-10-09",
+ "nodes": [
+  "gas/trade"
+ ],
+ "num": 115,
+ "one": "미국과 러시아 인사들이 미국 투자자의 노르트스트림 가스관 참여 등 유럽 가스 판매 방안을 논의했다고 소식통들이 전하면서, 러시아산 가스를 줄여 온 유럽의 가스 수급 구도가 바뀔 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T15:54:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "The News (Pakistan)",
+   "d": "2026-10-08",
+   "u": "https://www.thenews.com.pk/latest/1419119-us-russia-explore-gas-sales-to-europe-via-nord-stream-pipelines-amid-ukraine-conflict"
+  },
+  {
+   "o": "HuffPost",
+   "d": "2026-10-08",
+   "u": "https://www.huffpost.com/entry/us-russia-explore-gas-sale-to-europe_n_6ac75aafe4b01d1704f7a358"
+  }
+ ],
+ "tags": [],
+ "title": "미·러, 우크라이나 전쟁 중 유럽에 가스 판매 방안 모색",
+ "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+}

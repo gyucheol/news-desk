@@ -1,0 +1,55 @@
+{
+ "basis": "verified",
+ "check": "남아공 정부 통신(SAnews)·Engineering News 보도의 검색 결과 요약으로 조달 규모(4.6GW·5GW) 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 남아공 람오콥파 전력·에너지 장관이 배터리 저장장치와 가스발전을 우선 조달한다고 10월 7일 발표 [사실]",
+  "규모: 2026~2037년 대상 34조 결정으로 배터리 저장 4.6GW, 가스발전 5GW 등 총 9.6GW를 먼저 조달하고 풍력·태양광 배정은 뒤에 한다 [사실]",
+  "방식: 독립발전사업자청(IPPO)이 시행하며 에스콤을 포함한 모든 사업자에 열려 있다 [사실]",
+  "미정: 저장 용량(MWh)과 입찰 일정은 공개되지 않았다 [미확인]",
+  "의미: 신규 발전 조달이 저장·가스로 이동 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "남아공, 배터리 저장장치·가스발전 사업 우선 추진",
+ "id": "n-rtr-0151",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "남아공 에너지부 \"배터리 저장장치·가스발전 사업 우선 추진\"",
+   "u": "https://www.reuters.com/business/energy/south-africa-prioritise-battery-storage-gas-to-power-projects-says-energy-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C306-2026-10-09",
+ "nodes": [
+  "power/storage",
+  "power/gen"
+ ],
+ "num": 151,
+ "one": "남아공 에너지부가 배터리 저장장치 4.6GW와 가스발전 5GW를 우선 조달하겠다고 밝히면서, 전력난을 겪는 남아공의 신규 발전 조달이 저장장치·가스 쪽으로 쏠리고 관련 사업자의 수주 기회가 늘 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T19:27:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "SAnews(남아공 정부)",
+   "d": "2026-10-07",
+   "u": "https://www.sanews.gov.za/south-africa/south-africa-prioritises-gas-and-battery-storage"
+  },
+  {
+   "o": "Engineering News",
+   "d": "2026-10-07",
+   "u": "https://www.engineeringnews.co.za/article/new-determination-opens-way-for-public-procurement-of-large-scale-battery-storage-and-gas-to-power-2026-10-07"
+  }
+ ],
+ "tags": [],
+ "title": "남아공, 배터리 저장장치·가스발전 사업 우선 추진",
+ "url": "https://www.reuters.com/business/energy/south-africa-prioritise-battery-storage-gas-to-power-projects-says-energy-2026-10-07/"
+}

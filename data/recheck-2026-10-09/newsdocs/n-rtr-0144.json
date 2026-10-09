@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 여러 독립 매체가 1000조 원, 약 7470억 달러 규모라고 전해 747 billion이 달러임을 확인했다. 재원 구성(재정 200조 원 등)은 합계가 맞지 않아 쓰지 않았다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 한국 정부가 2035년까지의 녹색전환 전략(K-GX)을 발표했다 [사실]",
+  "규모: 약 1000조 원으로 달러로 약 7470억 달러이며, 제목의 747 billion은 달러 기준이다 [사실]",
+  "목표: 2030년까지 재생에너지 설비 100GW, 2035년 신차 판매의 70% 이상을 전기·수소차로 채운다 [사실]",
+  "대상: 철강·시멘트·반도체·석유화학·정유 부문 배출 감축과 배터리·태양광·풍력·수소·SMR 육성이 포함됐다 [사실]",
+  "영향: 전력 설비 발주 방향이 계획에 따라 정해질 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "한국, 2035년까지 1000조 원 규모 에너지 전환 계획 발표",
+ "id": "n-rtr-0144",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "한국, 2035년까지 7470억 규모 에너지 전환 계획 공개",
+   "u": "https://www.reuters.com/business/energy/south-korea-unveils-747-billion-energy-transition-plan-through-2035-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C297-2026-10-09",
+ "nodes": [
+  "power/developers",
+  "power/grid"
+ ],
+ "num": 144,
+ "one": "한국 정부가 2035년까지 약 1000조 원(7470억 달러) 규모의 녹색전환 전략 K-GX를 내놓으면서, 재생에너지 설비와 전기·수소차, 철강·석유화학 등 중공업 감축 투자의 방향이 이 계획에 맞춰 정해질 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T23:18:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "GMK Center",
+   "d": "2026-10-08",
+   "u": "https://gmk.center/en/news/south-korea-has-unveiled-a-747-billion-energy-transition-plan-running-until-2035/"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-08",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Unveils-747-Billion-Plan-to-Break-Its-Fossil-Fuel-Habit.html"
+  },
+  {
+   "o": "Hydrogen Insight",
+   "d": "2026-10-08",
+   "u": "https://www.hydrogeninsight.com/policy/south-korea-sets-out-747bn-energy-transition-plan-with-role-for-hydrogen-in-steelmaking-and-transport/2-1-2055060"
+  }
+ ],
+ "tags": [],
+ "title": "한국, 2035년까지 1000조 원 규모 에너지 전환 계획 발표",
+ "url": "https://www.reuters.com/business/energy/south-korea-unveils-747-billion-energy-transition-plan-through-2035-2026-10-07/"
+}

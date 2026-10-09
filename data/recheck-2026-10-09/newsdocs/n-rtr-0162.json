@@ -1,0 +1,54 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. NST가 적자 GDP의 3.3%(760억 링깃) 목표를 전했고, 총액 4,598억 링깃과 보조금 수치는 같은 검색 결과 요약에서 읽음.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 말레이시아 정부가 10월 9일 2027년 예산안을 의회에 냈다 [사실]",
+  "규모: 예산 총액은 4,598억 링깃으로 올해 수정예산보다 3.6% 많다 [사실]",
+  "적자: 2027년 재정적자 목표는 760억 링깃, GDP의 3.3%로 2028년 3.0% 목표를 향한다 [사실]",
+  "보조금: 보조금·사회지원은 올해 745억 링깃에서 2027년 727억 링깃으로 조금 준다 [사실]",
+  "정치: 총선이 다가오고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "말레이시아 2027년 예산, 총선 앞두고 생활비·재정위험 대응",
+ "id": "n-rtr-0162",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "말레이시아 2027년 예산, 총선 앞두고 생활비·재정 위험 대응",
+   "u": "https://www.reuters.com/world/asia-pacific/malaysia-2027-budget-tackle-living-costs-fiscal-risks-election-looms-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C321-2026-10-09",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 162,
+ "one": "말레이시아 정부가 총선을 앞두고 10월 9일 내놓은 2027년 예산안에서 재정적자 목표를 국내총생산의 3.3%로 낮추면서, 생활비 지원 지출과 재정 건전화 사이의 균형이 예산의 관건이 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T12:10:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "New Straits Times",
+   "d": "2026-10-09",
+   "u": "https://www.nst.com.my/business/economy/2026/10/1549624/2o27-budget-fiscal-deficit-likely-narrow-33pct-gdp"
+  },
+  {
+   "o": "Malaysiakini Newslab",
+   "d": "2026-10-09",
+   "u": "https://newslab.malaysiakini.com/budget-2027/en/visualised/"
+  }
+ ],
+ "tags": [],
+ "title": "말레이시아 2027년 예산, 총선 앞두고 생활비·재정위험 대응",
+ "url": "https://www.reuters.com/world/asia-pacific/malaysia-2027-budget-tackle-living-costs-fiscal-risks-election-looms-2026-10-07/"
+}

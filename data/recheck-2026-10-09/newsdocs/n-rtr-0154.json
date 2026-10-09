@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 OE디지털·베어드마리타임 보도로 두 사업의 사업비 증가 폭과 원인을 확인. 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 노르웨이 예산안에서 아커BP 위그드라실 사업비 추정치가 1776억 크로네에서 1950억 크로네로 약 9.8% 늘었다 [사실]",
+  "발할-펜리스: 사업비 추정치가 759억 크로네에서 934억 크로네로 약 23% 늘었다 [사실]",
+  "원인: 새로 찾은 자원 추가로 사업 범위가 넓어지고 추가 시추공이 생겼으며, 해상 설비 공사비 추정이 갱신됐다 [사실]",
+  "일정: 두 사업 모두 2027년 생산 개시 목표는 유지됐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아커BP 노르웨이 대형 유전 사업비 증가…정부 예산안서 드러나",
+ "id": "n-rtr-0154",
+ "incentive": "",
+ "inds": [
+  "drilling"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "노르웨이 예산안 \"아커BP 해상 대형 사업 비용 늘어\"",
+   "u": "https://www.reuters.com/business/energy/aker-bps-major-projects-off-norway-cost-more-fiscal-budget-shows-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C309-2026-10-09",
+ "nodes": [
+  "drilling/capex"
+ ],
+ "num": 154,
+ "one": "노르웨이 정부 예산안에서 아커BP가 운영하는 대륙붕 대형 개발 사업들의 비용이 기존 추정보다 늘어난 것으로 나타나면서, 해양 유전 개발 비용 상승이 석유회사 수익성과 투자 일정에 부담이 될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T17:47:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "OE Digital",
+   "d": "2026-10-07",
+   "u": "https://www.oedigital.com/news/543521-costs-rise-for-aker-bp-s-yggdrasil-and-valhall-fenris-oil-and-gas-projects"
+  },
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-08",
+   "u": "https://www.bairdmaritime.com/offshore/drilling-production/aker-bps-flagship-offshore-project-costs-continue-to-rise"
+  }
+ ],
+ "tags": [],
+ "title": "아커BP 노르웨이 대형 유전 사업비 증가…정부 예산안서 드러나",
+ "url": "https://www.reuters.com/business/energy/aker-bps-major-projects-off-norway-cost-more-fiscal-budget-shows-2026-10-07/"
+}

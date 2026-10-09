@@ -1,0 +1,82 @@
+{
+ "basis": "partial",
+ "channel": "미국 주식 인사이더",
+ "check": "EconoTimes·TradersUnion·Xenospectrum의 검색 결과 요약으로 17곳 협력과 고객 확보 과제 확인. '150억 달러'의 구성은 출처마다 지원액이 달라 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 일본의 150억 달러 규모 라피더스 반도체 사업이 고객 확보에 달려 있다는 분석 [제목]",
+  "기존 흐름: 라피더스가 시놉시스·인포시스 등 17곳과 고객 칩 설계 지원 협력 [사실]",
+  "고객: 잠재 고객 30~40곳과 협의 중이지만 최종 고객은 한 자릿수로 줄 것으로 예상, 후지쓰·IBM 재팬이 대표적 후보 [사실]",
+  "지원: 정부 지원액은 출처마다 약 2.4조~2.9조 엔으로 다르게 보도되며 총 7조 엔 넘는 투자 중 나머지는 민간 자금·대출로 채워야 한다 [사실]",
+  "일정: 2나노 위탁생산은 다음 회계연도 하반기 시작 예정이며 확보한 고객 수는 확인 못 함 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "日 150억 달러 라피더스 반도체 승부, 고객 확보가 관건",
+ "id": "n-tg-0178",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "라피더스, 도시바 자회사 등 설계업체 17곳과 고객 칩 설계 지원",
+   "u": "https://t.me/insidertracking/65379"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "일본의 150억 달러 라피더스 반도체 승부, 고객 확보에 달려",
+   "u": "https://www.reuters.com/world/asia-pacific/japans-15-billion-rapidus-chip-bet-hinges-winning-customers-2026-10-06/"
+  }
+ ],
+ "key": "tg-insidertracking-65379",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 178,
+ "one": "일본 라피더스가 도시바 자회사 등 설계업체 17곳과 손잡고 고객사 칩 설계를 돕는 가운데, 정부 지원 등 150억 달러가 걸린 2나노 파운드리 사업의 성패가 실제 고객 수주에 달려 있다는 지적이 나온다",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T15:18:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65379"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "nippon.com(지지통신)",
+   "u": "https://www.nippon.com/en/news/yjj2026100500666/japan's-rapidus-teams-with-17-firms-on-chip-design-support.html"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "파이낸셜뉴스 영문판",
+   "u": "https://en.fnnews.com/news/202610051240152035"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "닛케이 아시아(원문 미확인)",
+   "u": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-rapidus-to-help-17-companies-design-chips-for-clients"
+  },
+  {
+   "o": "EconoTimes",
+   "d": "2026-10-07",
+   "u": "http://www.econotimes.com/Rapidus-Seeks-Chip-Customers-as-Japan-Pushes-2nm-Semiconductor-Revival-1754146"
+  },
+  {
+   "o": "Xenospectrum",
+   "d": "2026-10-07",
+   "u": "https://xenospectrum.com/en/rapidus-2nm-zero-experience-bet/"
+  }
+ ],
+ "tags": [],
+ "title": "日 150억 달러 라피더스 반도체 승부, 고객 확보가 관건",
+ "updatedAt": "2026-10-09T15:22:03+09:00",
+ "url": "https://t.me/insidertracking/65379"
+}

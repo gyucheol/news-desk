@@ -1,0 +1,59 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 오일프라이스·켐애널리스트·GAR 등이 ICC 부분 판정, 1억7000만 달러 배상 상한, 반대 의견 1명을 전했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: ICC 중재재판부가 10월 7일 부분 최종 판정에서 캘커슈패스가 상업운전 개시를 제때 선언하지 않아 갈프와의 계약을 위반했다고 봤다 [사실]",
+  "배상: 배상액은 2027~2028년 별도 심리에서 정하며 계약상 상한은 1억7000만 달러다 [사실]",
+  "반응: 중재인 3명 중 1명이 반대했고, 벤처글로벌은 다른 구매자 중재 결과와 어긋난다며 대응을 검토 중이다 [사실]",
+  "의미: 오를렌 등 남은 장기 구매자 분쟁에 참고가 될 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+ "id": "n-rtr-0075",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+   "u": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C223-2026-10-09",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "num": 75,
+ "one": "국제상업회의소(ICC) 중재재판부가 벤처글로벌 자회사 캘커슈패스가 포르투갈 갈프와의 LNG 공급 계약을 어겼다고 판정하면서, 벤처글로벌이 최대 1억7000만 달러 한도의 배상 책임을 질 수 있게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:46:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-08",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Venture-Global-Loses-LNG-Arbitration-to-Portugals-Galp.html"
+  },
+  {
+   "o": "ChemAnalyst",
+   "d": "2026-10-09",
+   "u": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/venture-global-loses-galp-lng-arbitration-faces-170-million-44910"
+  },
+  {
+   "o": "Global Arbitration Review",
+   "d": "2026-10-08",
+   "u": "https://globalarbitrationreview.com/article/galp-wins-claim-against-venture-global"
+  }
+ ],
+ "tags": [],
+ "title": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+ "url": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/"
+}

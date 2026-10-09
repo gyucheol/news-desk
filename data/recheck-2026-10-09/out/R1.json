@@ -394,6 +394,136 @@
     }
    ],
    "note": "검사 건수·완화 방식·압박 내용 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0148",
+   "changed": true,
+   "basis": "verified",
+   "title": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+   "one": "콜롬비아 정부가 연기금의 해외투자에 상한을 두는 법령을 철회하면서, 연기금이 해외 자산 비중을 유지하거나 늘릴 길이 열려 페소화와 국내 자산시장 수급에 영향을 줄 수 있다",
+   "facts": [
+    "무엇이: 콜롬비아 재무부가 10월 6일 시행령 1490호로 의무 연기금의 해외투자 30% 상한을 없앴다 [사실]",
+    "배경: 상한은 페트로 전 정부가 4월 시행령 369호로 도입했고, 8월 취임한 데라에스프리에야 정부가 철회했다 [사실]",
+    "규모: 7월 말 의무 연기금 자산 557조 페소(약 1720억 달러) 가운데 44.5%인 248조 페소가 해외에 투자돼 있다 [사실]",
+    "영향: 연기금 자금의 국내 송환 압력이 줄어 환율·국내 자산 수급에 영향 가능 [추론]"
+   ],
+   "check": "웹 검색 결과 요약과 엘티엠포·리오타임스·펀드프로 보도로 시행령 번호, 30% 상한 철폐, 연기금 해외투자 규모를 확인. 해외 비중은 보도마다 44.5~48%로 차이.",
+   "src_add": [
+    {
+     "o": "El Tiempo",
+     "d": "2026-10-07",
+     "u": "https://eltiempo.com/economia/finanzas-personales/como-impacta-la-pension-de-millones-de-colombianos-el-decreto-que-elimina-el-limite-de-inversion-del-ahorro-pensional-en-el-exterior-3592130"
+    },
+    {
+     "o": "The Rio Times",
+     "d": "2026-10-07",
+     "u": "https://www.riotimesonline.com/colombia-lifts-pension-funds-foreign-investment-cap-2026"
+    }
+   ],
+   "note": "시행령 번호·30% 상한·연기금 해외투자 규모 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0154",
+   "changed": true,
+   "basis": "verified",
+   "title": "아커BP 노르웨이 대형 유전 사업비 증가…정부 예산안서 드러나",
+   "one": "노르웨이 정부 예산안에서 아커BP가 운영하는 대륙붕 대형 개발 사업들의 비용이 기존 추정보다 늘어난 것으로 나타나면서, 해양 유전 개발 비용 상승이 석유회사 수익성과 투자 일정에 부담이 될 수 있다",
+   "facts": [
+    "무엇이: 노르웨이 예산안에서 아커BP 위그드라실 사업비 추정치가 1776억 크로네에서 1950억 크로네로 약 9.8% 늘었다 [사실]",
+    "발할-펜리스: 사업비 추정치가 759억 크로네에서 934억 크로네로 약 23% 늘었다 [사실]",
+    "원인: 새로 찾은 자원 추가로 사업 범위가 넓어지고 추가 시추공이 생겼으며, 해상 설비 공사비 추정이 갱신됐다 [사실]",
+    "일정: 두 사업 모두 2027년 생산 개시 목표는 유지됐다 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 OE디지털·베어드마리타임 보도로 두 사업의 사업비 증가 폭과 원인을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "OE Digital",
+     "d": "2026-10-07",
+     "u": "https://www.oedigital.com/news/543521-costs-rise-for-aker-bp-s-yggdrasil-and-valhall-fenris-oil-and-gas-projects"
+    },
+    {
+     "o": "Baird Maritime",
+     "d": "2026-10-08",
+     "u": "https://www.bairdmaritime.com/offshore/drilling-production/aker-bps-flagship-offshore-project-costs-continue-to-rise"
+    }
+   ],
+   "note": "사업명(위그드라실·발할-펜리스)과 증가 금액 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0159",
+   "changed": true,
+   "basis": "verified",
+   "title": "우간다, 단고테 정유 지분의 자국 투자자 판매 승인",
+   "one": "우간다 당국이 나이지리아 단고테 정유 주식을 자국 투자자에게 판매하는 것을 승인하면서, 아프리카 최대 정유소의 지분 공모가 나이지리아 밖 동아프리카 투자자로 넓어지고 있다",
+   "facts": [
+    "무엇이: 우간다 자본시장청(CMA)이 10월 6일 단고테 정유 공모주의 우간다 내 마케팅·판매를 승인했다 [사실]",
+    "조건: 판매 대상은 고액자산가와 전문투자자로 제한되고 대중 광고는 금지된다 [사실]",
+    "공모: 41억 주를 주당 525나이라에 팔아 약 2조1500억 나이라(약 16억 달러)를 모으며, 10월 13일 마감하고 11월 거래 시작 예정 [사실]",
+    "맥락: 케냐에 이어 동아프리카에서 두 번째 승인 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 아프리카뉴스·피플데일리 보도로 승인 기관(CMA), 판매 대상 제한, 공모 규모를 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "Africanews",
+     "d": "2026-10-07",
+     "u": "https://www.africanews.com/2026/10/07/after-kenya-uganda-opens-dangote-refinery-ipo-to-domestic-investors/"
+    },
+    {
+     "o": "People Daily",
+     "d": "2026-10-08",
+     "u": "https://peopledaily.digital/business/uganda-restricts-dangote-refinery-ipo-to-wealthy-professional-investors"
+    }
+   ],
+   "note": "승인 기관·판매 대상 제한·공모 규모 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0165",
+   "changed": true,
+   "basis": "verified",
+   "title": "美 법원, 라디언트 관련 뉴욕연은 문서 소환 허가…펀드 측 요청 수용",
+   "one": "미국 맨해튼 연방법원이 펀드 마리너에 철광석 중개업체 라디언트 월드 관련 뉴욕연은 결제 기록 소환을 허가하면서, 4860만 달러 회수를 노리는 스위스 형사 사건에 미국 결제 자료가 증거로 쓰일 수 있게 됐다",
+   "facts": [
+    "무엇이: 존 크로넌 맨해튼 연방판사가 마리너 애틀랜틱 멀티스트래티지에 뉴욕연은과 CHIPS의 결제 기록 소환을 허가했다 [사실]",
+    "배경: 마리너는 싱가포르 철광석 중개업체 라디언트 월드가 허위 거래로 자금을 받았다며 9월 14일 제네바 검찰에 형사 고소했고, 돌려받지 못한 대출금은 4860만 달러다 [사실]",
+    "반응: 라디언트 월드는 잘못을 부인했다 [사실]",
+    "절차: 뉴욕연은과 CHIPS는 소환장을 받은 뒤 28일 안에 응해야 한다 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 트레이더스유니언 보도로 판사·펀드 이름, 스위스 형사 사건 배경, 회수 대상 금액을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "Traders Union",
+     "d": "2026-10-07",
+     "u": "https://tradersunion.com/news/financial-news/show/3690020-mariner-subpoena-ny-fed-radiant-world/"
+    }
+   ],
+   "note": "펀드명·사건 성격(소송이 아닌 스위스 형사 사건 지원) 확인해 한줄·facts 수정, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0171",
+   "changed": true,
+   "basis": "verified",
+   "title": "보우먼 연준 부의장 \"은행 감독 책임 체계 전면 개편 계획\"",
+   "one": "미셸 보우먼 연준 감독 담당 부의장이 연준의 은행 감독 책임 체계를 개편할 계획이라고 밝히면서, 감독 권한과 검사 방식이 바뀌어 미국 은행들의 규제 부담과 감독 강도가 달라질 수 있다",
+   "facts": [
+    "무엇이: 보우먼 부의장이 지역 연은 총재 대신 5개 권역별 '지역 책임자'가 은행 감독을 총괄하도록 체계를 바꾸겠다고 밝혔다 [사실]",
+    "이유: 실리콘밸리은행 붕괴 검토에서 검사관 대응이 늦었다는 지적에 따라 위원회 남용도 줄인다 [사실]",
+    "일정: 내년 초 지역 책임자 면접을 시작하고, 별도로 더 엄격한 규제를 받는 자산 기준 갱신도 검토한다 [사실]",
+    "의미: 감독 책임이 재배분되면 은행 검사 방식과 규제 부담이 바뀔 수 있다 [추론]"
+   ],
+   "check": "웹 검색 결과 요약과 아메리칸뱅커·IndexBox 보도로 5개 권역 지역 책임자 체제와 시행 일정을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "American Banker",
+     "d": "2026-10-06",
+     "u": "https://asreport.americanbanker.com/news/feds-bowman-unveils-major-overhaul-of-its-bank-supervision"
+    },
+    {
+     "o": "IndexBox",
+     "d": "2026-10-07",
+     "u": "https://www.indexbox.io/blog/fed-to-restructure-bank-supervision-moving-away-from-regional-presidents/"
+    }
+   ],
+   "note": "개편 내용(5개 권역 지역 책임자)·일정 확인해 facts 보강, 꼬리 뗌"
   }
  ]
 }

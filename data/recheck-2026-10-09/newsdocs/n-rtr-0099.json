@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 더넥스트웹·애널리틱스인사이트 보도로 제품명(토큰 패브릭), 출시 일정, 투자 규모를 확인. 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 엔비디아가 투자한 업스케일 AI가 여러 업체의 AI 칩을 한 데이터센터에서 잇는 네트워킹 플랫폼 '토큰 패브릭'을 출시했다 [사실]",
+  "구성: 자체 스위치칩 SkyFabriX와 엔비디아 Spectrum-X 이더넷 기반 스위치를 묶고 UALink·ESUN 같은 공용 표준을 지원한다 [사실]",
+  "일정: 4분기 첫 단계를 내놓고 2027년까지 나눠 출시하며, 내년 매출은 수천만 달러를 기대한다 [사실]",
+  "투자: 6월 기업가치 20억 달러로 평가됐고 누적 투자금은 5억 달러다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+ "id": "n-rtr-0099",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "엔비디아 투자 받은 업스케일 AI, 경쟁 공급사 칩 잇는 플랫폼 출시",
+   "u": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C249-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 99,
+ "one": "엔비디아가 투자한 스타트업 업스케일 AI가 서로 다른 공급업체의 AI 칩을 하나로 연결하는 플랫폼을 내놓으면서, 데이터센터 운영사가 특정 업체 칩에 묶이지 않고 여러 회사 칩을 섞어 쓸 길이 넓어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "The Next Web",
+   "d": "2026-10-08",
+   "u": "https://thenextweb.com/news/upscale-ai-token-fabric-nvidia-ai-chip-networking"
+  },
+  {
+   "o": "Analytics Insight",
+   "d": "2026-10-08",
+   "u": "https://www.analyticsinsight.net/amp/story/news/nvidia-backed-upscale-ai-launches-token-fabric-to-link-ai-chips"
+  }
+ ],
+ "tags": [],
+ "title": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+ "url": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/"
+}

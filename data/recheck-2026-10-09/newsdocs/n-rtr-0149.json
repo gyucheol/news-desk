@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "우드매켄지 보도자료를 열람해 15% 전망과 6GW·3분의 1 목표를 확인, 원인은 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 우드매켄지가 2026-10-07 보고서에서 싱가포르 저탄소 전력 수입이 2035년 발전량의 약 15%에 그칠 것으로 전망 [사실]",
+  "목표: 싱가포르 에너지시장청(EMA) 목표는 6GW, 예상 수요의 약 3분의 1 [사실]",
+  "원인: 6개 경로 9.25GW가 승인됐으나 착공한 사업이 없고, 인도네시아 수출 허가 갱신 문제와 현지 조달 요건 등이 걸림돌 [사실]",
+  "영향: 싱가포르의 가스발전 의존 지속 가능성 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+ "id": "n-rtr-0149",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 미달할 것\"",
+   "u": "https://www.reuters.com/business/energy/singapore-miss-2035-green-power-import-target-wood-mackenzie-says-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C304-2026-10-09",
+ "nodes": [
+  "power/grid"
+ ],
+ "num": 149,
+ "one": "우드매켄지가 싱가포르의 저탄소 전력 수입이 2035년 발전량의 약 15%에 그쳐 수요의 3분의 1(6GW) 목표의 절반 수준에 머물 것으로 전망하면서, 싱가포르의 전력 탈탄소와 역내 해저 송전망 사업이 늦어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T20:37:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Wood Mackenzie",
+   "d": "2026-10-07",
+   "u": "https://www.woodmac.com/press-releases/singapores-9.25-gw-low-carbon-electricity-import-pipeline-outlook"
+  },
+  {
+   "o": "New Straits Times",
+   "d": "2026-10-07",
+   "u": "https://www.nst.com.my/business/economy/2026/10/1550070/singapore-set-miss-2035-green-power-import-target"
+  }
+ ],
+ "tags": [],
+ "title": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+ "url": "https://www.reuters.com/business/energy/singapore-miss-2035-green-power-import-target-wood-mackenzie-says-2026-10-07/"
+}

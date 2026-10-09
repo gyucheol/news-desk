@@ -1,6 +1,6 @@
 import json
 OUT = "/home/user/news-desk/data/recheck-2026-10-09/out/R4.json"
-SEARCHES = 16
+SEARCHES = 20
 FETCHES = 0
 docs = []
 
@@ -299,6 +299,80 @@ docs.append({
   {"o": "Engineering News", "d": "2026-10-07", "u": "https://www.engineeringnews.co.za/article/new-determination-opens-way-for-public-procurement-of-large-scale-battery-storage-and-gas-to-power-2026-10-07"}
  ],
  "note": "조달 규모(저장 4.6GW·가스 5GW) 확인해 한줄·facts 보강, 꼬리 뗌"
+})
+
+docs.append({
+ "id": "n-rtr-0157", "changed": True, "basis": "verified",
+ "title": "인도 타이탄, 축제 시기 어긋나 9월 분기 귀금속 성장 둔화…주가 하락",
+ "one": "인도 최대 보석업체 타이탄의 9월 분기 귀금속 매출이 약 21% 늘었지만 결혼·축제 수요가 다음 분기로 밀려 시장 기대에 못 미치면서 주가가 밀려, 인도 귀금속 소비 회복 속도에 대한 의구심이 커지고 있다",
+ "facts": [
+  "무엇이: 타이탄의 9월 분기(2027회계연도 2분기) 귀금속 사업이 전년보다 약 21% 늘었지만 일부 증권사 기대치(25~27%)를 밑돌았다 [사실]",
+  "원인: 주요 결혼·축제 일정이 3분기로 넘어가 분기 말 수요가 약해졌고 금값 고공행진에 금화 등 투자 수요도 줄었다 [사실]",
+  "시장: 발표 뒤 타이탄 주가 하락, 하락폭은 출처마다 1.3~4%로 다르다 [사실]",
+  "전체: 소비자 사업 전체는 약 25%, 시계 약 30%, 안경 약 28% 성장 [사실]"
+ ],
+ "check": "Kotak Neo·Whalesbook 보도의 검색 결과 요약으로 귀금속 성장률(약 21%)과 축제 시기 영향, 주가 하락 확인",
+ "src_add": [
+  {"o": "Kotak Neo", "d": "2026-10-07", "u": "https://www.kotakneo.com/news/stocks/titan-share-price-q2-fy27-jewellery-growth/"},
+  {"o": "Whalesbook", "d": "2026-10-07", "u": "https://www.whalesbook.com/news/English/brokerage-reports/Titan-Shares-Fall-4percent-as-Q2-Jewellery-Growth-Misses-Targets/6ac5cb5a5aacb956d08eb21a"}
+ ],
+ "note": "성장률 약 21%(기대 미달) 확인해 한줄·facts 보강, 꼬리 뗌"
+})
+
+docs.append({
+ "id": "n-rtr-0163", "changed": True, "basis": "verified",
+ "title": "BHP, 캄발다 니켈 선광장·광구 골드필즈에 매각",
+ "one": "BHP가 서호주 캄발다의 니켈 선광 설비와 광구를 금광업체 골드필즈에 매각하기로 하면서, BHP의 니켈 자산 정리가 이어지고 골드필즈는 캄발다 일대 사업 기반을 넓히게 된다",
+ "facts": [
+  "무엇이: BHP가 2024년부터 가동을 멈춘 캄발다 니켈 선광장과 광구·광물권 묶음을 골드필즈에 매각하기로 합의 [사실]",
+  "조건: 매각 금액은 공개되지 않았고 규제 승인을 거쳐 2027년 마무리될 예정 [사실]",
+  "활용: 골드필즈는 인근 세인트아이브스 광산과 연계해 금·니켈 처리 용도를 검토한다 [사실]",
+  "남은 점: 마운트키스·린스터 광산 등 나머지 니켈웨스트 자산의 향후는 2027년 2월까지 결정할 예정 [사실]"
+ ],
+ "check": "International Mining·Proactive Investors 보도의 검색 결과 요약으로 매각 대상·조건 확인. 매각 금액은 비공개",
+ "src_add": [
+  {"o": "International Mining", "d": "2026-10-07", "u": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/"},
+  {"o": "Proactive Investors", "d": "2026-10-07", "u": "https://www.proactiveinvestors.com.au/a/52592c4f/bhp-sells-kambalda-plant-to-gold-fields-as-nickel-west-review-continues"}
+ ],
+ "note": "매각 조건(금액 비공개, 2027년 완료)·활용 계획 확인해 facts 보강, 꼬리 뗌"
+})
+
+docs.append({
+ "id": "n-rtr-0169", "changed": True, "basis": "verified",
+ "title": "IMF '헤지펀드 시장 영향력 커져 감독 강화 필요'",
+ "one": "IMF가 헤지펀드의 시장 내 비중이 커지고 있다며 더 면밀한 감독이 필요하다고 지적하면서, 레버리지를 쓰는 비은행 투자자에 대한 규제 논의가 확대될 수 있다",
+ "facts": [
+  "무엇이: IMF가 10월 세계금융안정보고서(GFSR) 미리보기 장에서 헤지펀드의 시장 영향력이 커져 감독 강화가 필요하다고 밝혔다 [사실]",
+  "규모: 헤지펀드 총자산은 약 13조 달러로 2013년 약 4조 달러에서 늘었고 성장은 주로 파생상품을 통한 레버리지에서 나왔다 [사실]",
+  "국채: 헤지펀드의 미 국채 시장 비중은 9%로 2022년 4%에서 높아졌다 [사실]",
+  "권고: 데이터 공백을 메우고 위험 감시를 강화하며 쏠린 포지션·동시 디레버리징 위험에 맞춘 대책이 필요하다고 했다 [사실]",
+  "영향: 비은행 금융 규제 논의 확대 가능성 [추론]"
+ ],
+ "check": "International Finance 보도와 IMF GFSR 예고 페이지의 검색 결과 요약으로 확인. 전체 보고서는 10월 13일 공개 예정이라 수치는 미리보기 기준",
+ "src_add": [
+  {"o": "International Finance", "d": "2026-10-07", "u": "https://internationalfinance.com/markets/imf-warns-growing-hedge-fund-footprint-merits-closer-scrutiny/"},
+  {"o": "IMF", "d": "2026-10-13", "u": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026"}
+ ],
+ "note": "보고서 수치(총자산 13조 달러, 국채 비중 9%) 확인해 facts 보강, 꼬리 뗌"
+})
+
+docs.append({
+ "id": "n-tg-0178", "changed": True, "basis": "partial",
+ "title": "日 150억 달러 라피더스 반도체 승부, 고객 확보가 관건",
+ "one": "일본 라피더스가 도시바 자회사 등 설계업체 17곳과 손잡고 고객사 칩 설계를 돕는 가운데, 정부 지원 등 150억 달러가 걸린 2나노 파운드리 사업의 성패가 실제 고객 수주에 달려 있다는 지적이 나온다",
+ "facts": [
+  "무엇이: 일본의 150억 달러 규모 라피더스 반도체 사업이 고객 확보에 달려 있다는 분석 [제목]",
+  "기존 흐름: 라피더스가 시놉시스·인포시스 등 17곳과 고객 칩 설계 지원 협력 [사실]",
+  "고객: 잠재 고객 30~40곳과 협의 중이지만 최종 고객은 한 자릿수로 줄 것으로 예상, 후지쓰·IBM 재팬이 대표적 후보 [사실]",
+  "지원: 정부 지원액은 출처마다 약 2.4조~2.9조 엔으로 다르게 보도되며 총 7조 엔 넘는 투자 중 나머지는 민간 자금·대출로 채워야 한다 [사실]",
+  "일정: 2나노 위탁생산은 다음 회계연도 하반기 시작 예정이며 확보한 고객 수는 확인 못 함 [미확인]"
+ ],
+ "check": "EconoTimes·TradersUnion·Xenospectrum의 검색 결과 요약으로 17곳 협력과 고객 확보 과제 확인. '150억 달러'의 구성은 출처마다 지원액이 달라 확인 못 함",
+ "src_add": [
+  {"o": "EconoTimes", "d": "2026-10-07", "u": "http://www.econotimes.com/Rapidus-Seeks-Chip-Customers-as-Japan-Pushes-2nm-Semiconductor-Revival-1754146"},
+  {"o": "Xenospectrum", "d": "2026-10-07", "u": "https://xenospectrum.com/en/rapidus-2nm-zero-experience-bet/"}
+ ],
+ "note": "고객 후보·지원 규모 범위 추가, 150억 달러 구성은 미확인이라 partial, 꼬리 뗌"
 })
 
 out = {"agent": "R4", "searches_used": SEARCHES, "fetches_used": FETCHES, "docs": docs}

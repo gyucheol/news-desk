@@ -1,0 +1,46 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. RTE 등이 FT 보도를 인용해 CORE 안 기준선 상향, 1억 유로 현행 기준, 회원국 만장일치 필요를 전함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: EU 집행위가 대기업 대상 부담금으로 빅테크를 과세하는 방안을 검토하고 있다고 FT가 10월 7일 보도했다 [사실]",
+  "방식: EU 내 연매출 1억 유로 초과 기업에 정액 부담금을 매기는 CORE 안의 기준선을 높여 초대형 기업에 부담을 집중하는 방안이다 [사실]",
+  "배경: 디지털세만 따로 매기면 미국의 보복을 우려한 회원국 반대가 커 우회로를 찾는 것이다 [사실]",
+  "남은 점: 새 기준선·세율과 27개 회원국 전원 합의 여부는 정해지지 않았다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EU 집행위, 대기업 과세로 빅테크 세금 부과 구상(FT)",
+ "id": "n-rtr-0156",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "FT '브뤼셀, 대기업 과세로 빅테크 포착 추진'",
+   "u": "https://www.reuters.com/business/retail-consumer/brussels-looks-capture-big-tech-through-tax-large-corporations-ft-reports-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C313-2026-10-09",
+ "nodes": [],
+ "num": 156,
+ "one": "EU 집행위원회가 연매출 1억 유로 넘는 기업에 매기려던 CORE 부담금의 기준을 높여 초대형 기업만 내게 하는 방안을 검토한다고 FT가 전하면서, 미국 대형 IT기업의 유럽 내 세 부담이 늘어날 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T16:26:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "RTE",
+   "d": "2026-10-07",
+   "u": "https://www.rte.ie/news/business/2026/1007/1594352-brussels-considers-taxing-big-us-tech-companies-ft/"
+  }
+ ],
+ "tags": [],
+ "title": "EU 집행위, 대기업 과세로 빅테크 세금 부과 구상(FT)",
+ "url": "https://www.reuters.com/business/retail-consumer/brussels-looks-capture-big-tech-through-tax-large-corporations-ft-reports-2026-10-07/"
+}

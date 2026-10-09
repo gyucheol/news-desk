@@ -1,0 +1,54 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 미들이스트온라인·휘리예트데일리뉴스가 의회 발언, 9월 물가 30% 하회, 기조 물가 23.7%를 전함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 파티흐 카라한 총재가 10월 7일 의회 위원회에서 공급 압력이 걷히면 디스인플레이션이 다시 속도를 낼 것이라고 말했다 [사실]",
+  "근거: 9월 연간 물가상승률이 약 5년 만에 30% 아래로 내려왔고 기조 물가 흐름은 23.7%다 [사실]",
+  "정책: 지금까지의 성과를 지키려 신중한 기조를 유지한다 [사실]",
+  "영향: 빠른 금리 인하 기대가 제한될 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 중앙은행 총재 \"디스인플레이션 다시 속도…신중 기조 유지\"",
+ "id": "n-rtr-0173",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "튀르키예 중앙은행 총재 \"신중 기조 속 디스인플레이션 다시 속도 낼 것\"",
+   "u": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C332-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "num": 173,
+ "one": "튀르키예 중앙은행 카라한 총재가 공급 압력이 걷히면 물가 둔화가 다시 빨라질 것이라며 신중한 기조를 유지하겠다고 밝히면서, 리라화 자산에 대한 급격한 금리 인하 기대는 제한될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T01:19:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Hurriyet Daily News",
+   "d": "2026-10-07",
+   "u": "https://www.hurriyetdailynews.com/disinflation-expected-to-accelerate-karahan-227834"
+  },
+  {
+   "o": "Middle East Online",
+   "d": "2026-10-07",
+   "u": "https://www.middle-east-online.com/en/turkey%E2%80%99s-central-bank-says-disinflation-track-crisis-contained"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예 중앙은행 총재 \"디스인플레이션 다시 속도…신중 기조 유지\"",
+ "url": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/"
+}

@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 아메리칸뱅커·IndexBox 보도로 5개 권역 지역 책임자 체제와 시행 일정을 확인. 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 보우먼 부의장이 지역 연은 총재 대신 5개 권역별 '지역 책임자'가 은행 감독을 총괄하도록 체계를 바꾸겠다고 밝혔다 [사실]",
+  "이유: 실리콘밸리은행 붕괴 검토에서 검사관 대응이 늦었다는 지적에 따라 위원회 남용도 줄인다 [사실]",
+  "일정: 내년 초 지역 책임자 면접을 시작하고, 별도로 더 엄격한 규제를 받는 자산 기준 갱신도 검토한다 [사실]",
+  "의미: 감독 책임이 재배분되면 은행 검사 방식과 규제 부담이 바뀔 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "보우먼 연준 부의장 \"은행 감독 책임 체계 전면 개편 계획\"",
+ "id": "n-rtr-0171",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "보우먼 \"연준, 은행 감독 책임 체계 개편 계획\"",
+   "u": "https://www.reuters.com/business/finance/fed-plans-overhaul-bank-supervision-responsibilities-bowman-says-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C330-2026-10-09",
+ "nodes": [],
+ "num": 171,
+ "one": "미셸 보우먼 연준 감독 담당 부의장이 연준의 은행 감독 책임 체계를 개편할 계획이라고 밝히면서, 감독 권한과 검사 방식이 바뀌어 미국 은행들의 규제 부담과 감독 강도가 달라질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T03:15:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "American Banker",
+   "d": "2026-10-06",
+   "u": "https://asreport.americanbanker.com/news/feds-bowman-unveils-major-overhaul-of-its-bank-supervision"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-07",
+   "u": "https://www.indexbox.io/blog/fed-to-restructure-bank-supervision-moving-away-from-regional-presidents/"
+  }
+ ],
+ "tags": [],
+ "title": "보우먼 연준 부의장 \"은행 감독 책임 체계 전면 개편 계획\"",
+ "url": "https://www.reuters.com/business/finance/fed-plans-overhaul-bank-supervision-responsibilities-bowman-says-2026-10-06/"
+}

@@ -1,0 +1,54 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 엘티엠포·리오타임스·펀드프로 보도로 시행령 번호, 30% 상한 철폐, 연기금 해외투자 규모를 확인. 해외 비중은 보도마다 44.5~48%로 차이.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 콜롬비아 재무부가 10월 6일 시행령 1490호로 의무 연기금의 해외투자 30% 상한을 없앴다 [사실]",
+  "배경: 상한은 페트로 전 정부가 4월 시행령 369호로 도입했고, 8월 취임한 데라에스프리에야 정부가 철회했다 [사실]",
+  "규모: 7월 말 의무 연기금 자산 557조 페소(약 1720억 달러) 가운데 44.5%인 248조 페소가 해외에 투자돼 있다 [사실]",
+  "영향: 연기금 자금의 국내 송환 압력이 줄어 환율·국내 자산 수급에 영향 가능 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+ "id": "n-rtr-0148",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+   "u": "https://www.reuters.com/business/colombia-revokes-decree-capping-pension-funds-foreign-investments-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C302-2026-10-09",
+ "nodes": [
+  "macro/fx",
+  "macro/liquidity"
+ ],
+ "num": 148,
+ "one": "콜롬비아 정부가 연기금의 해외투자에 상한을 두는 법령을 철회하면서, 연기금이 해외 자산 비중을 유지하거나 늘릴 길이 열려 페소화와 국내 자산시장 수급에 영향을 줄 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T21:10:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "El Tiempo",
+   "d": "2026-10-07",
+   "u": "https://eltiempo.com/economia/finanzas-personales/como-impacta-la-pension-de-millones-de-colombianos-el-decreto-que-elimina-el-limite-de-inversion-del-ahorro-pensional-en-el-exterior-3592130"
+  },
+  {
+   "o": "The Rio Times",
+   "d": "2026-10-07",
+   "u": "https://www.riotimesonline.com/colombia-lifts-pension-funds-foreign-investment-cap-2026"
+  }
+ ],
+ "tags": [],
+ "title": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+ "url": "https://www.reuters.com/business/colombia-revokes-decree-capping-pension-funds-foreign-investments-2026-10-07/"
+}

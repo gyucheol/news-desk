@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 헤스 미드스트림 8-K와 오프쇼어테크놀로지 보도로 거래 구조, 현금 2억 달러, 손실 규모를 확인했다. 매각 상대는 제3자가 아니라 헤스 미드스트림 자신이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 셰브론이 헤스 미드스트림 지분(GP 지분 100% 포함)과 DJ 분지 원유 미드스트림 자산을 헤스 미드스트림에 넘긴다 [사실]",
+  "대가: 현금 2억 달러와 2045년까지 연장·개선된 바켄 운송 계약을 받는다 [사실]",
+  "영향: 거래 종결 때 세후 30억~40억 달러의 일회성 손실을 반영하고 바켄 단위 미드스트림 비용은 약 50% 줄어들 전망이다 [사실]",
+  "남은 점: 거래 종결 시점은 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "셰브론, 헤스 미드스트림 지분과 DJ 분지 원유 미드스트림 자산 넘겨",
+ "id": "n-rtr-0164",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "셰브론, 헤스 미드스트림·DJ 분지 원유 미드스트림 지분 매각",
+   "u": "https://www.reuters.com/business/energy/chevron-divest-ownership-interests-hess-midstream-dj-basin-crude-midstream-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C323-2026-10-09",
+ "nodes": [
+  "gas/midstream"
+ ],
+ "num": 164,
+ "one": "셰브론이 헤스 미드스트림 지분과 DJ 분지 원유 미드스트림 자산을 헤스 미드스트림에 넘기고 현금 2억 달러와 2045년까지 연장된 바켄 운송 계약을 받으면서, 거래 종결 때 세후 30억~40억 달러 손실을 반영하게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T10:15:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "SEC 8-K(헤스 미드스트림)",
+   "d": "2026-10-06",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001789832/000119312526418053/d401552dex991.htm"
+  },
+  {
+   "o": "Offshore Technology",
+   "d": "2026-10-07",
+   "u": "https://www.offshore-technology.com/news/chevron-sell-hess-midstream-dj-basin/"
+  }
+ ],
+ "tags": [],
+ "title": "셰브론, 헤스 미드스트림 지분과 DJ 분지 원유 미드스트림 자산 넘겨",
+ "url": "https://www.reuters.com/business/energy/chevron-divest-ownership-interests-hess-midstream-dj-basin-crude-midstream-2026-10-06/"
+}

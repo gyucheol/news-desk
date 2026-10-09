@@ -1,0 +1,77 @@
+{
+ "basis": "verified",
+ "check": "불가리아 BNews(10월 7일)와 관련 보도의 검색 결과 요약으로 발언 장관(니더작센 환경장관 마이어)과 분트의 정지 신청 확인. 법원 결정은 못 찾음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 니더작센주 환경장관 크리스티안 마이어가 링겐 공장이 러시아 면허로 불가리아 등 유럽 5개국용 핵연료를 만들어선 안 된다고 말했다 [사실]",
+  "기존: 환경단체 분트가 프라마톰 링겐 공장이 로사톰 면허로 러시아형 원전 연료를 만들도록 한 허가를 법원에서 임시로 멈추려 한다 [사실]",
+  "배경: 마이어의 부처가 허가 당국이며, 법적 거부 근거가 없어 허가는 내줬다는 입장이다 [사실]",
+  "영향: 불가리아 등 유럽 5개국이 러시아산을 대신할 연료를 공급받는 일정이 늦어질 수 있다 [추론]",
+  "남은 점: 법원의 정지 신청 결정 시점은 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "독일 환경단체 이어 주정부 장관도 '러시아 원자로용 링겐 핵연료 공장 막아야'",
+ "id": "n-rtr-0020",
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "독일 환경단체, 로사톰 면허 쓰는 링겐 핵연료 공장 허가 정지 신청 나서",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45S1BR:0-german-group-seeks-to-prevent-role-of-russia-s-rosatom-in-nuclear-project/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "독일 주정부 장관 '러시아 원자로용 부품 공장 막아야'",
+   "u": "https://www.reuters.com/business/energy/germany-should-block-plant-making-parts-russian-reactors-state-minister-says-2026-10-07/"
+  }
+ ],
+ "key": "rtr-1007-lingen-rosatom-bund",
+ "nodes": [
+  "uranium/fabrication",
+  "uranium/policy"
+ ],
+ "num": 20,
+ "one": "독일 환경단체 분트가 로사톰 면허로 러시아형 원전 연료를 만들려는 프라마톰 링겐 공장 허가의 임시 정지를 법원에 신청한 데 이어 주정부 장관까지 공장을 막아야 한다고 나서면서, 불가리아 등 유럽 5개국의 러시아산 연료 대체 일정이 늦어질 수 있다",
+ "origTitle": "German group seeks to prevent role of Russia's Rosatom in nuclear project",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T20:49:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터(원문 미확인, 제목만)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45S1BR:0-german-group-seeks-to-prevent-role-of-russia-s-rosatom-in-nuclear-project/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "BNews 불가리아(로이터 인용)",
+   "u": "https://balgarianovinite.com/en/lower-saxony-minister-opposes-nuclear-fuel-pro"
+  },
+  {
+   "d": "2026-09-11",
+   "o": "UA.NEWS",
+   "u": "https://ua.news/en/world/u-nimechchini-khochut-cherez-sud-zablokuvati-proiekt-iz-rosatomom"
+  },
+  {
+   "d": "2026-09-12",
+   "o": "EU Today",
+   "u": "https://eutoday.net/lingen-rosatom-nuclear-fuel-permit-court-challenge/"
+  },
+  {
+   "o": "BNews 불가리아",
+   "d": "2026-10-07",
+   "u": "https://balgarianovinite.com/en/lower-saxony-minister-opposes-nuclear-fuel-pro/"
+  }
+ ],
+ "tags": [],
+ "title": "독일 환경단체 이어 주정부 장관도 '러시아 원자로용 링겐 핵연료 공장 막아야'",
+ "updatedAt": "2026-10-09T15:22:03+09:00",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45S1BR:0-german-group-seeks-to-prevent-role-of-russia-s-rosatom-in-nuclear-project/"
+}

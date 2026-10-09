@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "웹 검색 결과 요약과 크라우드펀드인사이더·퓨처오브뱅킹 보도로 발언자(서유럽 CEO), 피해 고객 수, 유출 경위를 확인. 보상 규모는 공개되지 않음.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 레볼루트 서유럽 CEO 베아트리스 코사뒤뮈르지에가 피해 고객이 신분증을 새로 발급받아야 하면 비용을 회사가 부담하겠다고 밝혔다 [사실]",
+  "경위: 해커가 장악한 이탈리아 정부기관 이메일 주소의 요청에 레볼루트가 고객 개인정보를 보냈고, 피해 고객은 680명(프랑스 55명)이다 [사실]",
+  "범위: 회사는 자금·접속 코드·생체정보는 유출되지 않았고 몸값은 내지 않겠다고 했다 [사실]",
+  "미확인: 보상 총액은 밝히지 않았다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "레볼루트 서유럽 CEO \"해킹 피해 고객 신분증 재발급 비용 보상\"",
+ "id": "n-rtr-0125",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "레볼루트 CEO \"서유럽 데이터 해킹 피해 고객 비용 보상할 것\"",
+   "u": "https://www.reuters.com/business/finance/revolut-will-cover-costs-customers-hit-by-data-hack-western-europe-ceo-says-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C277-2026-10-09",
+ "nodes": [],
+ "num": 125,
+ "one": "레볼루트 서유럽 최고경영자가 개인정보 유출 피해 고객이 여권 등 신분증을 새로 받아야 하면 회사가 비용을 대겠다고 밝히면서, 고객 680명 정보가 넘어간 사고의 보상 부담과 디지털 은행 보안 점검이 커질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T05:51:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Crowdfund Insider",
+   "d": "2026-10-08",
+   "u": "https://www.crowdfundinsider.com/2026/10/316737-following-revoluts-data-breach-the-digital-bank-is-expected-to-pay-to-replace-identity-documents/"
+  },
+  {
+   "o": "Future of Banking",
+   "d": "2026-10-08",
+   "u": "https://www.futureofbanking.info/revolut-will-cover-costs-for-customers-hit-by-data-breach/"
+  }
+ ],
+ "tags": [],
+ "title": "레볼루트 서유럽 CEO \"해킹 피해 고객 신분증 재발급 비용 보상\"",
+ "url": "https://www.reuters.com/business/finance/revolut-will-cover-costs-customers-hit-by-data-hack-western-europe-ceo-says-2026-10-07/"
+}

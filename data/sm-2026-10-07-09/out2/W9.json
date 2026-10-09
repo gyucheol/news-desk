@@ -1,7 +1,7 @@
 {
  "agent": "W9",
- "searches_used": 16,
- "fetches_used": 0,
+ "searches_used": 20,
+ "fetches_used": 6,
  "items": [
   {
    "cid": "C002",
@@ -723,7 +723,7 @@
    "cid": "C147",
    "attachTo": "",
    "title": "호주, LNG 수출량 20% 국내 공급 의무화 최종안 공개 예정",
-   "one": "호주 정부가 LNG 수출업체에 수출량의 20%에 해당하는 가스를 국내에 실제로 공급하도록 하는 가스 비축제 최종안을 내놓을 예정이어서, 수출 허가와 연동된 이 의무가 시행되면 동부 해안 가스 수급은 나아지지만 아시아로 가는 LNG 물량은 줄어들 수 있다",
+   "one": "호주 정부가 LNG 수출업체에 수출량의 20%를 국내에 실제 공급하도록 하는 가스 비축제 최종안을 내놓을 예정이어서, 시행되면 동부 해안 가스 수급은 나아지지만 아시아행 LNG 물량은 줄어들 수 있다",
    "facts": [
     "무엇이: 호주 정부가 국내에 LNG 생산을 더 남기기 위한 최종 계획을 발표할 예정 [제목]",
     "설계: 초안 기준 모든 LNG 수출업체는 수출량의 20%를 국내 시장에 실제 공급해야 하며, 공급 의무 이행이 수출 허가 조건 [사실]",
@@ -834,6 +834,469 @@
      "o": "블룸버그",
      "d": "2026-10-08",
      "u": "https://www.bloomberg.com/news/articles/2026-10-08/ex-flipkart-execs-press-walmart-to-buy-out-their-stock-options"
+    }
+   ]
+  },
+  {
+   "cid": "C187",
+   "attachTo": "",
+   "title": "UPS 직원 경고메일 놓쳐 F-35 부품 홍콩 경유…중국 당국 손에",
+   "one": "UPS 직원이 미국 수출규제상 특정국 경유 금지 경고 메일을 놓친 채 호주 F-35의 조종석 캐노피와 무장창 문을 홍콩으로 돌려 보내면서, 레이더 흡수 코팅이 된 스텔스 부품이 중국 당국 손에 들어가 미 국방부·국무부가 조사에 나섰다",
+   "facts": [
+    "무엇이: 5월 말 미국으로 수리·폐기차 보내던 호주 F-35 조종석 캐노피·무장창 문이 홍콩을 거치다 중국 당국에 넘어감 [사실]",
+    "경위: 물류업체 DSV가 특정국 경유 금지 경고 메일을 보냈으나 UPS 직원이 놓치고 배송을 서두르려 홍콩으로 경로 변경 [사실]",
+    "대응: 미 국방부는 부품이 '사용 불가 상태'라 했고 국방부·국무부가 조사 중, 록히드마틴은 악용 위험이 낮다고 봄 [사실]",
+    "유의: 경위는 블룸버그 익명 소식통 기반이며 중국 외교부는 '알지 못한다'고 밝힘 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Tom's Hardware·AeroTime·Al Jazeera 등 검색 결과 요약으로 확인. UPS·DSV는 논평 거부",
+   "src": [
+    {
+     "o": "AeroTime",
+     "d": "2026-10",
+     "u": "https://www.aerotime.aero/articles/ups-missed-warning-email-f35-parts-china"
+    },
+    {
+     "o": "Al Jazeera",
+     "d": "2026-09-24",
+     "u": "https://www.aljazeera.com/news/2026/9/24/has-china-received-us-f-35-parts-by-diverting-an-australian-shipment"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "UPS 직원 보안 메일 놓쳐 중국이 F-35 부품 입수",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/ups-worker-missed-security-email-letting-china-get-f-35-parts"
+    }
+   ]
+  },
+  {
+   "cid": "C197",
+   "attachTo": "",
+   "title": "영국 9월 풍력발전 최대에도 전력값 2배…가스가 가격 결정",
+   "one": "영국 풍력발전이 9월 6.62TWh로 월간 최대를 기록해 가스 발전을 9월 기준 최저로 밀어냈지만, 한계비용 가스가 핵심 시간대 가격을 정하면서 전일시장 전력값은 MWh당 135파운드로 1년 전의 약 2배에 이르렀다",
+   "facts": [
+    "무엇이: 9월 영국 풍력발전 6.62TWh로 9월 기준 최대, 전년보다 4% 증가 [사실]",
+    "가스: 가스 발전량은 9월 기준 사상 최저 [사실]",
+    "가격: 9월 전일시장 전력값 평균 MWh당 135.39파운드로 전년의 약 2배, 가스 발전이 많은 상위 10% 시간대는 약 184파운드 [사실]",
+    "원인: 이란 전쟁으로 카타르산 등 걸프 가스 공급이 막혀 가스값이 올랐고, 한계가격 구조상 가스가 가격을 정함 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Energy Connects 전재 등 검색 결과 요약으로 확인(블룸버그 계산 수치 포함)",
+   "src": [
+    {
+     "o": "Energy Connects",
+     "d": "2026-10",
+     "u": "https://www.energyconnects.com/news/renewables/2026/october/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/wind",
+    "power/market",
+    "gas/demand"
+   ],
+   "items": [
+    {
+     "t": "풍력 발전 최대에도 영국, 비싼 가스 의존 못 벗어나",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"
+    }
+   ]
+  },
+  {
+   "cid": "C207",
+   "attachTo": "",
+   "title": "폭스바겐 영국 금융법인, 자동차금융 보상 충당금 7억2500만 파운드",
+   "one": "폭스바겐 영국 금융법인이 금융감독청의 자동차금융 불완전판매 보상 제도에 대비해 7억2500만 파운드를 충당금으로 쌓으면서, 2025년 세후 3억5290만 파운드 적자로 돌아섰고 최종 비용은 더 달라질 수 있다",
+   "facts": [
+    "무엇이: 폭스바겐파이낸셜서비스 UK가 2025년 감사보고서에 보상금·이자·운영비를 포함한 7억2500만 파운드 충당금을 반영 [사실]",
+    "실적: 세후 3억5290만 파운드 적자(전년 1억1030만 파운드 흑자) [사실]",
+    "제도: 금융감독청 보상안은 2007년 이후 약 75억 파운드 규모로 7월 법적 다툼으로 일부 중단, 본안 심리는 12월 또는 2027년 2월 예정 [사실]",
+    "동종사: BMW는 6억1200만 파운드, 로이즈는 약 20억 파운드를 적립 [사실]"
+   ],
+   "basis": "verified",
+   "check": "City AM·AM Online·Law360 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "City AM",
+     "d": "2026-10-07",
+     "u": "https://www.cityam.com/volkswagen-takes-725m-hit-from-motor-finance-scandal/"
+    },
+    {
+     "o": "AM Online",
+     "d": "2026-10-07",
+     "u": "https://www.am-online.com/news/vw-financial-services-records-486m-loss-after-redress-provision"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "폭스바겐, 영국 자동차금융 보상에 7억2500만 파운드 적립",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/volkswagen-sets-aside-725-million-for-uk-motor-finance-payout"
+    }
+   ]
+  },
+  {
+   "cid": "C217",
+   "attachTo": "",
+   "title": "구글, 파산 스피릿항공 내부 데이터 AI 학습용 인수…의원 100여 명 제동",
+   "one": "구글이 파산한 스피릿항공의 직원 이메일 약 1억 건 등 내부 기록을 1000만 달러에 낙찰받아 AI 학습에 쓰려 하자 워런 상원의원 등 의원 100여 명이 개인정보 재식별 위험을 들어 거래 보류를 요구하면서, 10월 14일 파산법원 심리가 고비가 됐다",
+   "facts": [
+    "무엇이: 구글이 경매에서 1000만 달러에 스피릿항공 운영 기록(직원 이메일 약 1억 건, 팀즈 메시지 5억 건 등)을 낙찰 [사실]",
+    "반발: 워런 상원의원·호스퍼드 하원의원 주도로 의원 100명 이상이 AI로 비식별 정보가 재식별될 수 있다며 직원 정보 제외를 요구 [사실]",
+    "구글: 개인정보는 사지 않으며 제외하거나 독립 제3자가 비식별 처리한 뒤 받는다고 해명 [사실]",
+    "다음 일정: 개인정보 옴부즈맨은 승객 9700만 명 정보 제외를 조건으로 10월 14일 심리에서 승인을 권고 [사실]"
+   ],
+   "basis": "verified",
+   "check": "The Hill·The Record·PYMNTS 등 검색 결과 요약으로 확인. 의원 수는 출처마다 114~121명으로 다름",
+   "src": [
+    {
+     "o": "The Hill",
+     "d": "2026-10-08",
+     "u": "https://thehill.com/homenews/house/6137595-horsford-warren-lawmakers-google-spirit-data-ai/"
+    },
+    {
+     "o": "The Record",
+     "d": "2026-10",
+     "u": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "의원들, 구글의 스피릿항공 데이터 AI 학습용 인수 계획에 경고",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/lawmakers-raise-alarm-google-plan-acquire-spirit-airlines-data-ai-models-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C227",
+   "attachTo": "",
+   "title": "모로코·이스라엘 합작 방산업체 MMI, 2027년 3월 포탑 첫 납품 목표",
+   "one": "모로코·이스라엘 합작 방산업체 MMI가 2027년 3월 포탑 납품을 목표로 제시하면서, 모로코 안에서 무기 부품을 생산하려는 계획과 양국 방산 협력이 구체적인 납품 일정 단계로 들어선다 (제목 기준)",
+   "facts": [
+    "무엇이: 모로코·이스라엘 합작 방산업체 MMI가 포탑 납품을 2027년 3월 시작하는 것을 목표로 함 [제목]",
+    "의미: 모로코 현지 방산 생산과 이스라엘과의 협력이 실제 제품 납품으로 이어지는 첫 일정 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 포탑 종류·수량·발주처 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "모로코·이스라엘 방산업체 MMI, 2027년 3월 포탑 납품 목표",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/middle-east/moroccan-israeli-defense-firm-mmi-targets-turret-deliveries-march-2027-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C237",
+   "attachTo": "",
+   "title": "싱가포르 세비오라, 산하 자산운용사 3곳 통합",
+   "one": "싱가포르 자산운용 그룹 세비오라가 산하 자산운용사 3곳을 하나로 통합하기로 하면서, 계열사별로 나뉘어 있던 운용 조직과 상품이 한 회사로 모여 운용 규모를 키우고 중복 비용을 줄일 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 싱가포르 세비오라가 자산운용사 3곳을 통합 [제목]",
+    "효과: 조직 통합으로 운용 규모 확대와 중복 비용 절감 가능 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 통합 대상 회사명·운용자산 규모 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "싱가포르 세비오라, 자산운용사 3곳 통합",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/singapores-seviora-integrate-three-asset-management-companies-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C247",
+   "attachTo": "",
+   "title": "佛 나발그룹, 유럽 국방비 증가에 역내 수주 공략 강화",
+   "one": "프랑스 군함 건조업체 나발그룹이 유럽 각국의 국방비가 늘어나는 흐름에 맞춰 유럽 시장 영업을 강화하면서, 잠수함·수상함 등 해군 함정 발주를 둘러싼 역내 조선·방산업체 간 수주 경쟁이 거세질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 나발그룹이 국방비 증가에 맞춰 유럽 시장 공략을 강화 [제목]",
+    "배경: 유럽 각국 국방비 증가 [제목]",
+    "영향: 유럽 해군 함정 발주를 둘러싼 업체 간 경쟁 확대 가능 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 대상 국가·함종·목표 금액 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "나발그룹, 국방비 증가 속 유럽 시장 공략 강화",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/aerospace-defense/naval-group-steps-up-europe-push-defence-spending-rises-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C257",
+   "attachTo": "",
+   "title": "유니클로 패스트리테일링, 연매출 3조9633억엔·사업이익 30% 증가",
+   "one": "유니클로 운영사 패스트리테일링이 8월 결산 연도에 매출 3조9633억엔(16.6% 증가), 사업이익 7184억엔(30.4% 증가)을 내면서도 올해는 사업이익 증가율을 15.5%로 낮춰 잡아 이익 성장 속도가 둔화할 전망이다",
+   "facts": [
+    "무엇이: 패스트리테일링 2026 회계연도(8월 결산) 매출 3조9633억엔으로 16.6% 증가 [사실]",
+    "이익: 사업이익 7184억엔으로 30.4% 증가, 지배주주 순이익 5425억엔으로 25.3% 증가, 로이터 제목은 이익 32% 증가 [사실]",
+    "올해 전망: 매출 4조4500억엔(12.3% 증가), 사업이익 8300억엔(15.5% 증가), 순이익 5600억엔(3.2% 증가) [사실]"
+   ],
+   "basis": "partial",
+   "check": "회사 IR 실적요약 페이지로 확인. 로이터 제목의 32% 증가가 어떤 이익 항목인지는 확인 못 함",
+   "src": [
+    {
+     "o": "패스트리테일링 IR",
+     "d": "2026-10-08",
+     "u": "https://www.fastretailing.com/eng/ir/financial/summary.html"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "유니클로 운영사 패스트리테일링, 연간 이익 32% 증가",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/retail-consumer/uniqlo-operator-fast-retailing-posts-32-rise-full-year-profit-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C267",
+   "attachTo": "",
+   "title": "다임러트럭 3분기 판매 26% 증가…북미 트럭 51% 급증",
+   "one": "다임러트럭의 3분기 판매가 9만1260대로 전년보다 약 26% 늘었고 특히 북미 트럭이 4만5629대로 약 51% 급증하면서, 부진했던 북미·유럽 대형트럭 수요가 회복 국면에 들어선 모습이다",
+   "facts": [
+    "무엇이: 다임러트럭 3분기 판매 9만1260대, 전년 동기 7만2277대 대비 약 26% 증가 [사실]",
+    "북미: 트럭 북미 부문 4만5629대로 전년(3만225대) 대비 약 51% 증가 [사실]",
+    "유럽 등: 메르세데스벤츠 트럭 4만362대(전년 3만5818대), 버스는 5394대로 감소 [사실]",
+    "전동화: 배터리 전기 트럭·버스는 1207대로 전년(1679대)보다 감소 [사실]"
+   ],
+   "basis": "verified",
+   "check": "회사 뉴스룸 발표(10월 8일)로 확인. 증가율은 발표 수치로 계산",
+   "src": [
+    {
+     "o": "다임러트럭 뉴스룸",
+     "d": "2026-10-08",
+     "u": "https://www.daimlertruck.com/en/newsroom"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "다임러트럭 3분기 판매 26% 증가…북미·유럽 성장",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/daimler-truck-q3-sales-rise-26-north-america-europe-grow-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C277",
+   "attachTo": "",
+   "title": "레볼루트 CEO \"서유럽 해킹 피해 고객 비용 보상\"",
+   "one": "영국 핀테크 레볼루트의 최고경영자가 서유럽에서 데이터 해킹 피해를 본 고객들의 비용을 회사가 부담하겠다고 밝히면서, 보상 비용과 함께 디지털 은행의 보안 관리에 대한 감독 당국과 고객의 점검이 강해질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 레볼루트 CEO가 서유럽에서 데이터 해킹 피해를 입은 고객의 비용을 보상하겠다고 밝힘 [제목]",
+    "영향: 보상 비용 부담과 보안 점검 강화 가능 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 피해 고객 수·보상 규모 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "레볼루트 CEO \"서유럽 데이터 해킹 피해 고객 비용 보상할 것\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/revolut-will-cover-costs-customers-hit-by-data-hack-western-europe-ceo-says-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C287",
+   "attachTo": "",
+   "title": "에어프로덕츠, 말레이시아 페트로나스 합작사에 LNG 냉열 공기분리설비 건설",
+   "one": "미국 산업가스업체 에어프로덕츠가 말레이시아에서 페트로나스 주도 합작사와 함께 LNG 냉열을 활용하는 공기분리설비를 짓기로 하면서, LNG 기화 과정에서 버려지던 냉열로 산소·질소를 더 싸게 생산하는 사업이 아시아에서 늘어날 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 에어프로덕츠가 페트로나스 주도 합작사와 말레이시아에 LNG 기반 공기분리설비를 건설 [제목]",
+    "의미: LNG 냉열을 이용하면 공기분리 전력 소모를 줄일 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "회사 뉴스센터 열람 실패(403), 웹 검색 한도 소진으로 확인 못 함. 용량·투자액·가동 시점 미확인",
+   "src": [],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/regas"
+   ],
+   "items": [
+    {
+     "t": "에어프로덕츠, 말레이시아 페트로나스 주도 합작사에 LNG 기반 공기분리설비 건설",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/air-products-build-lng-based-air-separation-unit-petronas-led-venture-malaysia-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C297",
+   "attachTo": "",
+   "title": "한국, 2035년까지 에너지 전환 계획 발표",
+   "one": "한국 정부가 2035년까지의 에너지 전환 계획을 내놓으면서, 앞으로 10년간 재생에너지·전력망 등 전력 설비 투자와 발주의 방향이 이 계획에 맞춰 정해질 전망이다 (제목 기준)",
+   "facts": [
+    "무엇이: 한국 정부가 2035년까지의 에너지 전환 계획을 발표 [제목]",
+    "규모: 기사 제목상 747 billion 규모이며 통화 단위(달러 또는 원)는 확인 못 함 [미확인]",
+    "영향: 전력 설비 발주 방향이 계획에 따라 정해질 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 규모의 통화 단위와 부문별 배분 미확인",
+   "src": [],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/developers",
+    "power/grid"
+   ],
+   "items": [
+    {
+     "t": "한국, 2035년까지 7470억 규모 에너지 전환 계획 공개",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/south-korea-unveils-747-billion-energy-transition-plan-through-2035-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C307",
+   "attachTo": "",
+   "title": "폴란드 첫 해상풍력 발틱파워, 터빈 76기 설치 완료",
+   "one": "노스랜드파워와 오를렌이 폴란드 첫 해상풍력 단지 발틱파워의 터빈 76기 설치를 모두 마치면서, 폴란드 전력망에 해상풍력 전력이 처음으로 들어가기 위한 시운전·연결 단계만 남게 됐다",
+   "facts": [
+    "무엇이: 노스랜드파워·오를렌의 발틱파워 해상풍력 단지가 터빈 76기 설치를 완료 [사실]",
+    "의미: 폴란드 첫 해상풍력 단지 [제목]",
+    "다음 단계: 설비 용량과 상업운전 시점은 확인 못 함 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "노스랜드파워 뉴스룸 보도자료 제목으로 76기 설치 완료 확인. 용량·상업운전 시점 미확인, 폴란드 석탄 비중은 일반 사실",
+   "src": [
+    {
+     "o": "노스랜드파워 뉴스룸",
+     "d": "2026-10",
+     "u": "https://www.northlandpower.com/newsroom/"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/wind"
+   ],
+   "items": [
+    {
+     "t": "노스랜드·오를렌, 폴란드 첫 해상풍력 터빈 설치 완료",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/northland-orlen-complete-turbine-installation-polands-first-offshore-wind-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C317",
+   "attachTo": "n-bbg-0072",
+   "title": "구글–콘스텔레이션 원전 출력 890MW 증강 계약에 호주 우라늄주 급등",
+   "one": "구글이 콘스텔레이션과 20년 전력구매계약을 맺어 원자로 11기 출력을 890MW 늘리는 투자를 뒷받침하자, 기존 원전의 가동·증강 수요가 커질 것이라는 기대에 호주 우라늄 채굴주가 일제히 올랐다",
+   "facts": [
+    "무엇이: 구글이 콘스텔레이션과 20년 전력구매계약을 맺어 일리노이·펜실베이니아·뉴저지 원자로 11기 출력을 890MW 늘리는 투자를 뒷받침 [사실]",
+    "규모: 새 원전 없이 대형 원전 1기 분량 전력이 PJM 전력망에 더해짐 [사실]",
+    "시장 반응: 계약 소식에 호주 우라늄 채굴주가 상승 [제목]",
+    "의미: 출력 증강은 같은 원자로에 들어가는 우라늄 연료 수요를 늘릴 수 있음 [추론]"
+   ],
+   "basis": "partial",
+   "check": "계약 내용은 기존 문서 한줄 근거. 호주 우라늄주 상승 폭·종목은 웹 검색 한도 소진으로 확인 못 함",
+   "src": [],
+   "inds": [
+    "uranium"
+   ],
+   "nodes": [
+    "uranium/mining",
+    "uranium/operators"
+   ],
+   "items": [
+    {
+     "t": "구글–콘스텔레이션 전력계약에 호주 우라늄 채굴주 급등",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/australian-uranium-miners-rally-after-googles-power-deal-with-constellation-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C327",
+   "attachTo": "",
+   "title": "코로나 맥주 컨스텔레이션 브랜즈, 2분기 실적 예상 상회",
+   "one": "코로나 맥주를 파는 컨스텔레이션 브랜즈가 견조한 수요에 힘입어 2분기 실적에서 시장 예상을 웃돌면서, 미국 수입 맥주 수요가 버티고 있다는 신호로 주류 업계 실적 눈높이를 지지할 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 컨스텔레이션 브랜즈가 2분기 실적에서 시장 예상을 웃돎 [제목]",
+    "배경: 기사 제목은 수요가 견조했다고 표현 [제목]",
+    "유의: 매출·이익 수치와 연간 전망 변경 여부 미확인 [미확인]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "코로나 맥주 업체 컨스텔레이션 브랜즈, 견조한 수요에 2분기 예상 상회",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/retail-consumer/corona-beer-maker-constellation-brands-tops-second-quarter-estimates-resilient-2026-10-06/"
     }
    ]
   }

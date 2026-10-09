@@ -1,0 +1,984 @@
+{
+ "clusters": [
+  {
+   "cid": "C001",
+   "theme": "이란-미국 협상·군사 긴장",
+   "field": "geo",
+   "attachTo": "n-rtr-0014",
+   "lines": [
+    30,
+    42,
+    105,
+    120,
+    121,
+    14,
+    183,
+    113
+   ]
+  },
+  {
+   "cid": "C002",
+   "theme": "후티의 사우디 공항·시설 공격 격화",
+   "field": "geo",
+   "attachTo": "n-tg-0166",
+   "lines": [
+    78,
+    117,
+    150,
+    260,
+    272,
+    318,
+    296,
+    302
+   ]
+  },
+  {
+   "cid": "C003",
+   "theme": "데이터센터 전력난·건설 규제",
+   "field": "power",
+   "attachTo": "n-tg-0182",
+   "lines": [
+    44,
+    49,
+    152,
+    31,
+    238
+   ]
+  },
+  {
+   "cid": "C004",
+   "theme": "미 국채 금리·재정적자·채권 수급",
+   "field": "rates",
+   "attachTo": "n-tg-0140",
+   "lines": [
+    67,
+    139,
+    135,
+    168
+   ]
+  },
+  {
+   "cid": "C005",
+   "theme": "오픈AI·앤트로픽 매출 논란과 기술주 하락",
+   "field": "ai",
+   "attachTo": "n-tg-0149",
+   "lines": [
+    90,
+    123,
+    125,
+    74
+   ]
+  },
+  {
+   "cid": "C006",
+   "theme": "애플 아이폰18 프로 주문 축소",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    220,
+    234,
+    246,
+    278
+   ]
+  },
+  {
+   "cid": "C007",
+   "theme": "우크라 드론의 러 정유·데이터센터 공격과 경유",
+   "field": "energy",
+   "attachTo": "n-tg-0121",
+   "lines": [
+    201,
+    266,
+    186,
+    212
+   ]
+  },
+  {
+   "cid": "C008",
+   "theme": "투자심리·포지셔닝(현금·Mag7·AAII)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    3,
+    27,
+    26,
+    275
+   ]
+  },
+  {
+   "cid": "C009",
+   "theme": "AI 차입·신용 위험(오라클 CDS 등)",
+   "field": "ai",
+   "attachTo": "n-bbg-0049",
+   "lines": [
+    141,
+    109,
+    66
+   ]
+  },
+  {
+   "cid": "C010",
+   "theme": "Firmus IPO 실패 뒤 사모 조달",
+   "field": "ai",
+   "attachTo": "n-bbg-0142",
+   "lines": [
+    241,
+    297,
+    210
+   ]
+  },
+  {
+   "cid": "C011",
+   "theme": "대만 9월 반도체·전자 수출",
+   "field": "semis",
+   "attachTo": "n-tg-0122",
+   "lines": [
+    206,
+    142,
+    144
+   ]
+  },
+  {
+   "cid": "C012",
+   "theme": "중국 부양책·환율 정책",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    245,
+    307,
+    12
+   ]
+  },
+  {
+   "cid": "C013",
+   "theme": "엘니뇨 역대급 강화와 작황",
+   "field": "agri",
+   "attachTo": "n-rtr-0029",
+   "lines": [
+    169,
+    282,
+    303
+   ]
+  },
+  {
+   "cid": "C014",
+   "theme": "명품 업황·케링 생로랑 디자이너 교체",
+   "field": "consumer",
+   "attachTo": "n-rtr-0050",
+   "lines": [
+    193,
+    202,
+    324
+   ]
+  },
+  {
+   "cid": "C015",
+   "theme": "영국 금리·물가·은행세",
+   "field": "rates",
+   "attachTo": "n-tg-0201",
+   "lines": [
+    280,
+    182,
+    298
+   ]
+  },
+  {
+   "cid": "C016",
+   "theme": "트럼프 8월 주식 거래 공시(메타·스페이스X)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    54,
+    56,
+    133
+   ]
+  },
+  {
+   "cid": "C017",
+   "theme": "유가: 아브카이크 공격·트럼프 영향력 약화",
+   "field": "energy",
+   "attachTo": "n-bbg-0077",
+   "lines": [
+    79,
+    136
+   ]
+  },
+  {
+   "cid": "C018",
+   "theme": "펩시코 전망 하향 뒤 회사채 조달",
+   "field": "consumer",
+   "attachTo": "n-rtr-0035",
+   "lines": [
+    288,
+    101
+   ]
+  },
+  {
+   "cid": "C019",
+   "theme": "스페이스X 주파수 인수에 미·유럽 통신주 급락",
+   "field": "tech",
+   "attachTo": "n-bbg-0103",
+   "lines": [
+    287,
+    321
+   ]
+  },
+  {
+   "cid": "C020",
+   "theme": "말레이시아 2027년 예산",
+   "field": "macro",
+   "attachTo": "n-rtr-0162",
+   "lines": [
+    232,
+    319
+   ]
+  },
+  {
+   "cid": "C021",
+   "theme": "중국 국경절 여행·소비",
+   "field": "consumer",
+   "attachTo": "n-tg-0204",
+   "lines": [
+    227,
+    293
+   ]
+  },
+  {
+   "cid": "C022",
+   "theme": "금 시장(런던 선물·JP모건 전망)",
+   "field": "metals",
+   "attachTo": "n-tg-0124",
+   "lines": [
+    48,
+    64
+   ]
+  },
+  {
+   "cid": "C023",
+   "theme": "구글 기업용 Gemini Agent 공개",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    37,
+    53
+   ]
+  },
+  {
+   "cid": "C024",
+   "theme": "반도체 수요 전망(ASML·SK)",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    158,
+    226
+   ]
+  },
+  {
+   "cid": "C025",
+   "theme": "배터리 업황(CATL·씨티 하락 사이클)",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    58,
+    229
+   ]
+  },
+  {
+   "cid": "C026",
+   "theme": "미국 세븐일레븐 공급망·IPO",
+   "field": "consumer",
+   "attachTo": "n-rtr-0114",
+   "lines": [
+    290,
+    304
+   ]
+  },
+  {
+   "cid": "C027",
+   "theme": "이란-러시아 군사 협력·정상회담",
+   "field": "geo",
+   "attachTo": "n-tg-0208",
+   "lines": [
+    119,
+    86
+   ]
+  },
+  {
+   "cid": "C028",
+   "theme": "연준·물가(관세 효과 분석)",
+   "field": "macro",
+   "attachTo": "n-bbg-0052",
+   "lines": [
+    204
+   ]
+  },
+  {
+   "cid": "C029",
+   "theme": "유럽 채권 불안과 ECB 레포",
+   "field": "rates",
+   "attachTo": "n-bbg-0111",
+   "lines": [
+    192
+   ]
+  },
+  {
+   "cid": "C030",
+   "theme": "포르쉐 9개월 판매 16% 감소",
+   "field": "auto",
+   "attachTo": "n-bbg-0112",
+   "lines": [
+    219
+   ]
+  },
+  {
+   "cid": "C031",
+   "theme": "허리케인 이사야스 멕시코만 상륙 예보",
+   "field": "energy",
+   "attachTo": "n-tg-0187",
+   "lines": [
+    185
+   ]
+  },
+  {
+   "cid": "C032",
+   "theme": "에어텔 머니 런던 데뷔 부진",
+   "field": "fin",
+   "attachTo": "n-bbg-0162",
+   "lines": [
+    274
+   ]
+  },
+  {
+   "cid": "C033",
+   "theme": "미·러 우크라 협상과 루코일 자산 연계",
+   "field": "geo",
+   "attachTo": "n-bbg-0178",
+   "lines": [
+    213
+   ]
+  },
+  {
+   "cid": "C034",
+   "theme": "인도, 미 영주권 노동인증 중단 반발",
+   "field": "trade",
+   "attachTo": "n-bbg-0133",
+   "lines": [
+    233
+   ]
+  },
+  {
+   "cid": "C035",
+   "theme": "에티오피아-에리트레아 충돌",
+   "field": "geo",
+   "attachTo": "n-bbg-0160",
+   "lines": [
+    311
+   ]
+  },
+  {
+   "cid": "C036",
+   "theme": "EU 셰프초비치 방중",
+   "field": "trade",
+   "attachTo": "n-tg-0132",
+   "lines": [
+    47
+   ]
+  },
+  {
+   "cid": "C037",
+   "theme": "한국 증시 약세·반도체 디커플링",
+   "field": "fin",
+   "attachTo": "n-tg-0136",
+   "lines": [
+    32
+   ]
+  },
+  {
+   "cid": "C038",
+   "theme": "하나증권 중국 지수 전망",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    250
+   ]
+  },
+  {
+   "cid": "C039",
+   "theme": "골드만, 팔란티어 매수 상향",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    2
+   ]
+  },
+  {
+   "cid": "C040",
+   "theme": "메타 Muse DAU 200만",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    52
+   ]
+  },
+  {
+   "cid": "C041",
+   "theme": "중국 조선 수주 80% 장악",
+   "field": "shipping",
+   "attachTo": "",
+   "lines": [
+    57
+   ]
+  },
+  {
+   "cid": "C042",
+   "theme": "중국 고무값 급등·타이어 가격 인상",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    68
+   ]
+  },
+  {
+   "cid": "C043",
+   "theme": "바이오헤이븐-오노 라이선스",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    71
+   ]
+  },
+  {
+   "cid": "C044",
+   "theme": "BYD 미국 승용차 판매 보류",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    107
+   ]
+  },
+  {
+   "cid": "C045",
+   "theme": "글로벌파운드리스 실리콘 브리지 생산",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    108
+   ]
+  },
+  {
+   "cid": "C046",
+   "theme": "애플 터치스크린 맥북 출시 예정",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    111
+   ]
+  },
+  {
+   "cid": "C047",
+   "theme": "라간 FAU 모듈 양산",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    124
+   ]
+  },
+  {
+   "cid": "C048",
+   "theme": "IDC 3분기 PC 출하 20% 감소",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    166
+   ]
+  },
+  {
+   "cid": "C049",
+   "theme": "주택 압류 42% 급증",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    170
+   ]
+  },
+  {
+   "cid": "C050",
+   "theme": "샤오미 17 울트라 가격 인상",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    176
+   ]
+  },
+  {
+   "cid": "C051",
+   "theme": "인도네시아 고속철 지분",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    178
+   ]
+  },
+  {
+   "cid": "C052",
+   "theme": "아디티아 비를라 솔에너지 인수 대출",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    194
+   ]
+  },
+  {
+   "cid": "C053",
+   "theme": "히스로 확장 감독",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    197
+   ]
+  },
+  {
+   "cid": "C054",
+   "theme": "요하네스버그 재생 투자",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    198
+   ]
+  },
+  {
+   "cid": "C055",
+   "theme": "DCC 넥소라 매각",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    203
+   ]
+  },
+  {
+   "cid": "C056",
+   "theme": "태국 경제 시험대",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    209
+   ]
+  },
+  {
+   "cid": "C057",
+   "theme": "노스 애틀랜틱-PIA 리스",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    214
+   ]
+  },
+  {
+   "cid": "C058",
+   "theme": "머스크 인도 사업 정체",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    217
+   ]
+  },
+  {
+   "cid": "C059",
+   "theme": "엑사일 회계 재작성",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    218
+   ]
+  },
+  {
+   "cid": "C060",
+   "theme": "다난타라 증시 개입 가능",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    221
+   ]
+  },
+  {
+   "cid": "C061",
+   "theme": "SIG 차기 CEO",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    222
+   ]
+  },
+  {
+   "cid": "C062",
+   "theme": "뷰티테크 경영진 지분 축소",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    225
+   ]
+  },
+  {
+   "cid": "C063",
+   "theme": "짐바브웨 리튬 수출 금지",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    228
+   ]
+  },
+  {
+   "cid": "C064",
+   "theme": "페트로나스 배당 확대",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    231
+   ]
+  },
+  {
+   "cid": "C065",
+   "theme": "SSP 이익 전망 하향",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    239
+   ]
+  },
+  {
+   "cid": "C066",
+   "theme": "옥스퍼드 메트릭스 적자 경고",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    249
+   ]
+  },
+  {
+   "cid": "C067",
+   "theme": "폴란드 중앙은행 총재 탄핵 추진",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    253
+   ]
+  },
+  {
+   "cid": "C068",
+   "theme": "바핀, 도이체방크 데이터 시스템 시한",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    256
+   ]
+  },
+  {
+   "cid": "C069",
+   "theme": "스페인 교차상장 규정 완화",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    257
+   ]
+  },
+  {
+   "cid": "C070",
+   "theme": "케냐 재정적자 확대",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    258
+   ]
+  },
+  {
+   "cid": "C071",
+   "theme": "유럽 석유 메이저 3분기 실적",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    259
+   ]
+  },
+  {
+   "cid": "C072",
+   "theme": "EU 핵심광물 전략사업 46곳",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    262
+   ]
+  },
+  {
+   "cid": "C073",
+   "theme": "BASF 에보닉 인수가 상향 가능",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    263
+   ]
+  },
+  {
+   "cid": "C074",
+   "theme": "파라마운트 사이버펑크 영화",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    265
+   ]
+  },
+  {
+   "cid": "C075",
+   "theme": "FSB 부실은행 긴급자금 공백",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    267
+   ]
+  },
+  {
+   "cid": "C076",
+   "theme": "세간티 내부자거래 재판",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    268
+   ]
+  },
+  {
+   "cid": "C077",
+   "theme": "이탈리아 8월 산업생산 급감",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    271
+   ]
+  },
+  {
+   "cid": "C078",
+   "theme": "UNCTAD 세계 성장 둔화 전망",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    289
+   ]
+  },
+  {
+   "cid": "C079",
+   "theme": "미 DFC 아프리카 지분투자",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    300
+   ]
+  },
+  {
+   "cid": "C080",
+   "theme": "엑손 카샤간 분쟁 합의안 거부",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    308
+   ]
+  },
+  {
+   "cid": "C081",
+   "theme": "벤딩스푼스 SaaS 매수 기회",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    312
+   ]
+  },
+  {
+   "cid": "C082",
+   "theme": "가나 광업법 수정",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    313
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 1,
+   "reason": "중복(250과 같은 고정글)"
+  },
+  {
+   "line": 4,
+   "reason": "비공식 가격 추정·잡담"
+  },
+  {
+   "line": 6,
+   "reason": "이미 다룸(n-bbg-0052)"
+  },
+  {
+   "line": 13,
+   "reason": "이미 다룸(n-rtr-0035)"
+  },
+  {
+   "line": 20,
+   "reason": "이미 다룸(n-tg-0198)"
+  },
+  {
+   "line": 21,
+   "reason": "8월 사건 재탕"
+  },
+  {
+   "line": 23,
+   "reason": "이미 다룸(n-bbg-0102)"
+  },
+  {
+   "line": 34,
+   "reason": "뉴스 요약 모음"
+  },
+  {
+   "line": 35,
+   "reason": "뉴스 요약 모음"
+  },
+  {
+   "line": 36,
+   "reason": "이미 다룸(n-bbg-0117)"
+  },
+  {
+   "line": 38,
+   "reason": "프리마켓 종목 등락 중계"
+  },
+  {
+   "line": 46,
+   "reason": "10월 1일 발언 재탕"
+  },
+  {
+   "line": 50,
+   "reason": "이미 다룸(n-rtr-0013)"
+  },
+  {
+   "line": 59,
+   "reason": "이미 다룸(n-rtr-0044)"
+  },
+  {
+   "line": 60,
+   "reason": "이미 다룸(n-bbg-0134)"
+  },
+  {
+   "line": 61,
+   "reason": "뉴스 제목 모음"
+  },
+  {
+   "line": 62,
+   "reason": "이미 다룸(n-bbg-0142)"
+  },
+  {
+   "line": 63,
+   "reason": "이미 다룸(n-tg-0121)"
+  },
+  {
+   "line": 65,
+   "reason": "이미 다룸(n-rtr-0090)"
+  },
+  {
+   "line": 69,
+   "reason": "이미 다룸(n-rtr-0014)"
+  },
+  {
+   "line": 70,
+   "reason": "이미 다룸(n-rtr-0014)"
+  },
+  {
+   "line": 76,
+   "reason": "이미 다룸(n-tg-0149)"
+  },
+  {
+   "line": 77,
+   "reason": "4월 기사 재탕"
+  },
+  {
+   "line": 83,
+   "reason": "이미 다룸(n-bbg-0077)"
+  },
+  {
+   "line": 87,
+   "reason": "이미 다룸(n-tg-0121)"
+  },
+  {
+   "line": 91,
+   "reason": "뉴스 요약 모음"
+  },
+  {
+   "line": 92,
+   "reason": "이미 다룸(n-rtr-0014)"
+  },
+  {
+   "line": 94,
+   "reason": "이미 다룸(n-rtr-0014)"
+  },
+  {
+   "line": 98,
+   "reason": "뉴스 요약 모음"
+  },
+  {
+   "line": 122,
+   "reason": "이미 다룸(n-tg-0206)"
+  },
+  {
+   "line": 127,
+   "reason": "이미 다룸(n-tg-0122)"
+  },
+  {
+   "line": 132,
+   "reason": "이미 다룸(n-tg-0182)"
+  },
+  {
+   "line": 138,
+   "reason": "이미 다룸(n-bbg-0111)"
+  },
+  {
+   "line": 145,
+   "reason": "이미 다룸(n-tg-0149)"
+  },
+  {
+   "line": 148,
+   "reason": "이미 다룸(n-bbg-0165)"
+  },
+  {
+   "line": 151,
+   "reason": "이미 다룸(n-rtr-0033)"
+  },
+  {
+   "line": 156,
+   "reason": "이미 다룸(n-tg-0149)"
+  },
+  {
+   "line": 157,
+   "reason": "이미 다룸(n-bbg-0142)"
+  },
+  {
+   "line": 164,
+   "reason": "이미 다룸(n-tg-0140)"
+  },
+  {
+   "line": 184,
+   "reason": "이미 다룸(n-bbg-0077)"
+  },
+  {
+   "line": 223,
+   "reason": "이미 다룸(n-bbg-0162)"
+  },
+  {
+   "line": 242,
+   "reason": "이미 다룸(n-bbg-0077)"
+  },
+  {
+   "line": 261,
+   "reason": "이미 다룸(n-bbg-0142)"
+  },
+  {
+   "line": 273,
+   "reason": "환율 시황 중계"
+  },
+  {
+   "line": 301,
+   "reason": "이미 다룸(n-bbg-0178)"
+  }
+ ]
+}

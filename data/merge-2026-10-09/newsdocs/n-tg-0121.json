@@ -1,0 +1,118 @@
+{
+ "basis": "partial",
+ "channel": "트릴리온",
+ "check": "볼고그라드 중단(Meduza)·카르돈 화재(The Deep Dive)와 얀덱스 데이터센터·드론 399대(CNBC·NBC·모스크바타임스, 검색 결과 요약) 문서 2건을 묶었습니다. '최대 정유소'가 어디인지와 디젤 수출 통계는 제목 기준이라 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 랴잔주 얀덱스 사소보 데이터센터가 드론 공격으로 불이 나 가동을 멈췄고, 러시아 데이터 거점에 대한 첫 대형 공격입니다 [사실]",
+  "정유소: 루코일 볼고그라드 정유소(하루 약 28만 배럴, 러시아 정제량의 약 5%)가 드론 공격으로 10월 2일 원유 처리를 완전히 중단했습니다 [사실]",
+  "규모: 러시아 국방부는 하룻밤 사이 18개 지역에서 드론 399대를 격추했다고 밝혔습니다 [사실]",
+  "추가 타격: 우크라이나는 10월 8일 러시아 최대 정유소를 타격했다고 밝혔고, 러시아 디젤 선적은 급감했습니다 [제목]",
+  "베네수엘라: PDVSA 카르돈 정유소(하루 31만 배럴)도 10월 6일 화재로 가동 설비를 멈췄습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우크라 드론, 러 볼고그라드 정유소 멈춘 뒤 얀덱스 데이터센터까지 타격",
+ "id": "n-tg-0121",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-10063",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "petchem/commodity"
+ ],
+ "num": 121,
+ "one": "루코일 볼고그라드 정유소가 드론 공격으로 10월 2일 원유 처리를 전부 멈춘 데 이어 우크라이나 드론이 가스프롬 살라바트 정유단지와 얀덱스 데이터센터까지 타격하면서, 러시아 석유제품 공급 차질과 기반시설 피해가 넓어지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:26:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10063"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Meduza",
+   "u": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "The Deep Dive",
+   "u": "https://thedeepdive.ca/gas-line-rupture-idles-venezuelas-cardon-refinery/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Meduza",
+   "u": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Militarnyi",
+   "u": "https://militarnyi.com/en/news/drones-strike-salavat-oil-refinery-in-bashkortostan-fire-erupts/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Moscow Times",
+   "u": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915"
+  }
+ ],
+ "tags": [],
+ "title": "우크라 드론, 러 볼고그라드 정유소 멈춘 뒤 얀덱스 데이터센터까지 타격",
+ "url": "https://t.me/Trillion_labs/10063",
+ "items": [
+  {
+   "t": "러 볼고그라드 정유소 드론 피해로 전면 중단…베네수엘라 카르돈도 화재로 멈춰",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-07",
+   "u": "https://t.me/Trillion_labs/10063"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "t": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+   "u": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "우크라이나 '러시아 최대 정유소 타격'",
+   "u": "https://www.reuters.com/business/energy/ukraine-says-it-hit-russias-largest-oil-refinery-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "드론, 얀덱스 데이터센터 타격…러시아 데이터 거점에 첫 대형 공격",
+   "u": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

@@ -1,0 +1,71 @@
+{
+ "basis": "partial",
+ "check": "그리어 발언(사우스차이나모닝포스트)과 보잉 협상 교착(심플플라잉, 검색 결과 요약) 문서 2건을 묶었습니다. 600억 달러 규모는 CNN·마켓스크리너 제목에서만, 보잉 협상의 최신 상태는 확인하지 못했습니다.",
+ "cycles": [],
+ "dupOf": "tg-079",
+ "facts": [
+  "무엇이: 그리어 미 무역대표가 10월 1일 미·중 무역위원회의 관세 인하를 시행할 일정이 아직 없고 법적 절차를 먼저 거쳐야 한다고 말했습니다 [사실]",
+  "보잉: 중국이 보잉 200대 주문과 관련해 엔진·예비부품·정비의 장기 공급 보장을 요구하며 협상이 멈췄습니다 [사실]",
+  "미국 측: 백악관은 판매 뒤 정비가 5월 합의(약 170억~190억 달러)에 포함되지 않았다는 입장입니다 [사실]",
+  "규모: 관세 인하 대상은 양국 합계 약 600억 달러어치로 보도됐으나 제목으로만 확인했습니다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미·중 정상회담 합의 이행 지연…관세 인하 일정 없고 보잉 주문 흔들",
+ "id": "n-bbg-0050",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1001-greer-board-of-trade-no-date",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 50,
+ "one": "그리어 미 무역대표가 미·중 무역위원회를 통한 관세 인하에 아직 시행 일정이 없다고 밝힌 데 이어 중국이 보잉 200대 주문 조건으로 엔진·부품 장기 공급 보장을 요구하면서, 정상회담에서 나온 무역 합의들의 이행이 늦어지고 있다",
+ "origTitle": "Greer Says No Date Set for US-China Board of Trade Tariff Cuts",
+ "processed": "2026-10-09",
+ "published": "2026-10-02T21:20:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "사우스차이나모닝포스트",
+   "u": "https://www.scmp.com/news/us/economy-trade-business/article/3369490/greer-says-no-specific-timeline-set-enforcing-us-china-board-trade"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63458"
+  },
+  {
+   "d": "2026-10",
+   "o": "심플플라잉",
+   "u": "https://simpleflying.com/boeing-china-200-jet-order-engine-parts-standoff/"
+  }
+ ],
+ "tags": [],
+ "title": "미·중 정상회담 합의 이행 지연…관세 인하 일정 없고 보잉 주문 흔들",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts",
+ "items": [
+  {
+   "t": "그리어 '미·중 무역위원회 관세 인하, 아직 일정 없다'…법적 절차 남아",
+   "o": "블룸버그",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/greer-says-no-date-set-for-us-china-board-of-trade-tariff-cuts"
+  },
+  {
+   "t": "중국, 보잉 200대 주문에 엔진 부품 장기 보장 요구…계약 무산 위기",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-02",
+   "u": "https://t.me/The_MariTimes/63458"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

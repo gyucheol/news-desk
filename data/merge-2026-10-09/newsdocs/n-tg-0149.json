@@ -1,0 +1,83 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "소프트뱅크 납입(오픈AI 공식 발표·Neoteo)과 매출 목표·FT 보도(Investing.com·Axios, 검색 결과 요약) 문서 2건을 묶었습니다. 엔비디아 납입은 보도 기준이고 회계 차이 설명은 단일 출처입니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 오픈AI가 2026년 말 연환산 매출 700억 달러 이상을 예상한다고 투자자들에게 밝혔고, 성장은 기업용 사업이 주도한다고 했습니다 [사실]",
+  "반론: FT는 9월 말 연환산 매출이 약 500억 달러로 앞서 알려진 700억 달러보다 약 200억 달러 적다고 보도했습니다 [사실]",
+  "투자: 소프트뱅크는 10월 1일 마지막 100억 달러를 집행해 300억 달러 추가 투자를 마쳤고, 누적 투자액은 646억 달러·지분율은 약 13%입니다 [사실]",
+  "배경: 매출 수치는 300억 달러 이상 자금 조달 협상 과정에서 공유됐습니다 [사실]",
+  "차이 원인: 일부 출처는 클라우드 파트너 경유 매출을 넣는 회계 조정 때문이라고 설명했습니다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "오픈AI 연말 매출 700억 달러 목표…FT '9월 실적은 200억 달러 적어'",
+ "id": "n-tg-0149",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-9903",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 149,
+ "one": "소프트뱅크가 10월 1일 오픈AI에 마지막 100억 달러를 넣어 누적 646억 달러·지분 약 13%가 된 뒤, 오픈AI가 투자자들에게 연말 연환산 매출 700억 달러를 내세웠지만 FT가 9월 말 실제 수치는 약 500억 달러라고 보도하면서 기업가치 산정에 의문이 커질 수 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:12:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10",
+   "o": "Neoteo",
+   "u": "https://www.neoteo.com/en/softbank-confirms-10b-openai-tranche-nvidia-payment-reported"
+  },
+  {
+   "d": "2026-03-31",
+   "o": "오픈AI",
+   "u": "https://openai.com/index/accelerating-the-next-phase-ai/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Investing.com",
+   "u": "https://www.investing.com/news/stock-market-news/openai-expects-to-reach-70-bln-revenue-by-end2026-bloomberg-reports-4940179"
+  },
+  {
+   "d": "2026-09-29",
+   "o": "Axios",
+   "u": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b"
+  }
+ ],
+ "tags": [],
+ "title": "오픈AI 연말 매출 700억 달러 목표…FT '9월 실적은 200억 달러 적어'",
+ "url": "https://t.me/Trillion_labs/9903",
+ "items": [
+  {
+   "t": "소프트뱅크, 오픈AI에 마지막 100억 달러 납입…누적 646억 달러·지분 13%",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "오픈AI, 2026년 말 연환산 매출 700억 달러 예상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "FT \"오픈AI 연환산 매출, 앞서 알려진 것보다 200억 달러 적어\"",
+   "u": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

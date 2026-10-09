@@ -1,0 +1,167 @@
+{
+ "basis": "verified",
+ "check": "G7 방출·경유 수출(타운홀·LBC·오일프라이스), 적색 경유 행정명령(백악관 설명자료·팜폴리시뉴스), 골드만 전망(CNBC), 휘발유세·난방유(EIA 보도자료) 문서 4건을 묶었습니다. 민주당 의원 촉구는 제목 기준입니다.",
+ "cycles": [],
+ "dupOf": "n-tg-0101",
+ "facts": [
+  "무엇이: G7 정상들이 10월 2일 IEA를 통해 원유·경유 비축분 1억 배럴을 4개월간 풀고 첫 20일 안에 경유를 앞당겨 방출하기로 했고, 트럼프 대통령은 경유 수출을 금지하지 않겠다고 밝혔습니다 [사실]",
+  "미국 대책: 트럼프 대통령이 10월 5일 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령에 서명했고, 갤런당 18.4센트 연방 휘발유세 유예도 검토 중입니다 [사실]",
+  "전망: 골드만삭스는 2027년 세계 경유·항공유 크랙이 배럴당 40달러를 넘어 평소(약 20달러)의 두 배 이상이 될 것으로 봤습니다 [사실]",
+  "난방유: EIA는 올겨울 난방유 평균 가격이 갤런당 5.26달러로 34% 오르고 가구 지출이 2,115달러로 21% 늘 것으로 전망했습니다 [사실]",
+  "정치: 북동부 민주당 의원들이 난방유 급등에 행정부 조치를 촉구했습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "G7 비축유 1억 배럴 방출에도 경유 고가…트럼프, 연료세 대책 잇따라",
+ "id": "n-bbg-0058",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "key": "bbg-1002-trump-no-diesel-export-ban-g7",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "macro/inflation",
+  "petchem/commodity",
+  "petchem/policy"
+ ],
+ "num": 58,
+ "one": "G7이 비축유 1억 배럴 방출에 합의하고 트럼프 대통령이 적색 경유 도로 사용 허용에 이어 휘발유세 유예까지 검토하고 있지만, 골드만삭스는 경유 고가가 2027년까지 간다고 봤고 EIA는 올겨울 난방유 가구 지출이 21% 늘 것으로 전망했다",
+ "origTitle": "Trump Says US to Hold Off on Diesel Export Ban After G7 Release",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T22:58:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "타운홀",
+   "u": "https://townhall.com/news/cameron-arcand/2026/10/02/trump-declines-diesel-export-ban-after-european-agreement-n2684049"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Rules-Out-More-Reserve-Releases-After-G7-Pledges-100-Million-Barrels.html"
+  },
+  {
+   "d": "",
+   "o": "LBC(게시일 표시 없음)",
+   "u": "https://www.lbc.co.uk/article/trump-us-diesel-ban-g7-5HjdjMt_2/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "백악관 설명자료",
+   "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일리노이대 팜폴리시뉴스",
+   "u": "https://farmpolicynews.illinois.edu/2026/10/trump-order-allows-tax-exempt-diesel-use-on-highways/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69942"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "d": "2026-10",
+   "o": "Transport Topics",
+   "u": "https://www.ttnews.com/articles/trump-gas-tax-suspension"
+  },
+  {
+   "d": "2026-10",
+   "o": "뉴스위크",
+   "u": "https://www.newsweek.com/trump-floats-gas-tax-cut-how-much-you-could-save-12533288"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "EIA",
+   "u": "https://www.eia.gov/pressroom/releases/press593.php"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"
+  }
+ ],
+ "tags": [],
+ "title": "G7 비축유 1억 배럴 방출에도 경유 고가…트럼프, 연료세 대책 잇따라",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release",
+ "items": [
+  {
+   "t": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+   "o": "블룸버그",
+   "d": "2026-10-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  },
+  {
+   "t": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+   "o": "블룸버그",
+   "d": "2026-10-05",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+  },
+  {
+   "t": "골드만 \"경유 고가 2027년까지\"…경유·항공유 크랙 40달러 넘을 전망",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-06",
+   "u": "https://t.me/HANAchina/69942"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 Polaristimes",
+   "t": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+   "u": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "북동부 민주당 의원들, 난방유 급등에 트럼프 행정부 조치 촉구",
+   "u": "https://www.reuters.com/legal/litigation/northeast-democrats-urge-trump-administration-action-heating-oil-costs-surge-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "트럼프, 중간선거 전 휘발유·디젤 가격 낮출 수 있을까",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/can-trump-lower-gas-and-diesel-prices-before-the-midterms"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

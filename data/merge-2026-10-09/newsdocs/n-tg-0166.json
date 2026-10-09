@@ -1,0 +1,211 @@
+{
+ "basis": "verified",
+ "channel": "미국 주식 인사이더",
+ "check": "리야드 정유소 공격(NBC·타임스오브이스라엘), 바브엘만데브 장악 주장(알자지라·TRT월드), 공항 공격·운항 중단(검색 결과 요약), 메카 방위협정 반격(CNBC·Middle East Eye·Daily Sabah) 문서 4건을 묶었습니다. 한줄의 사실은 모두 verified 문서에서 왔고, 정유소 피해 규모와 미 분석가 파견은 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 사우디·파키스탄·튀르키예가 8월 맺은 메카 방위협정을 발동한 뒤 사우디 주도의 대후티 반격이 시작됐습니다 [사실]",
+  "공격: 후티는 10월 3일 하루 약 13만 배럴 규모 아람코 리야드 정유소를 공격했다고 주장했고, 6~7일 아브하·리야드 공항 공격으로 3명이 숨지고 36명이 다쳤습니다 [사실]",
+  "항공: 루프트한자 그룹이 10월 16일까지, 에어인디아가 10일까지 리야드 운항을 멈췄고 8일 리야드 출발편의 49.7%가 취소됐습니다 [사실]",
+  "지원: 튀르키예는 드론 운용병·정보·방공 지원을 보내되 대규모 파병은 배제했고, 파키스탄은 사우디에 병력을 배치했으며 시리아는 군사 지원을 검토 중입니다 [사실]",
+  "지상전: 예멘 정부군은 바브엘만데브를 장악했다고 밝혔지만 후티는 이를 부인했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "후티 공항 공격에 사우디, 메카 방위협정 발동해 반격…튀르키예 지원",
+ "id": "n-tg-0166",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "key": "tg-insidertracking-65264",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "petchem/feedstock"
+ ],
+ "num": 166,
+ "one": "예멘 후티가 10월 6~7일 사우디 아브하·리야드 공항을 공격해 3명이 숨지고 루프트한자·에어인디아가 리야드 운항을 멈춘 가운데, 사우디가 메카 방위협정을 발동해 반격에 나서고 튀르키예·파키스탄이 지원하면서 걸프 석유시설을 둘러싼 전선이 넓어지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:17:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-03",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65264"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "NBC뉴스",
+   "u": "https://www.nbcnews.com/world/middle-east/fire-smoke-seen-aramco-facility-riyadh-rcna601278"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "타임스오브이스라엘",
+   "u": "https://www.timesofisrael.com/liveblog_entry/iran-backed-houthis-say-they-targeted-riyadh-airport-aramco-refinery/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69881"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "알자지라",
+   "u": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "아랍타임스",
+   "u": "https://www.arabtimesonline.com/news/yemeni-forces-seize-dhubab-district-in-offensive-near-bab-el-mandeb/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65704"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "아나돌루(AA)",
+   "u": "https://www.aa.com.tr/en/middle-east/3-killed-36-injured-in-attacks-on-saudi-arabias-abha-riyadh-airports/4081390"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "The Tribune",
+   "u": "https://www.tribuneindia.com/news/abha-airport/3-killed-36-injured-in-houthi-attacks-on-abha-king-khalid-airports-saudi-gaca"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Gulf Business",
+   "u": "https://gulfbusiness.com/en/2026/saudi-arabia/lufthansa-indian-airlines-suspend-riyadh-flights-houthi-attacks/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "신화통신 영문판",
+   "u": "https://english.news.cn/20261006/5ff16640ca054b1098833b9a4a1676b0/c.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/booms-flight-disruptions-riyadh-saudi-houthi-war-escalates.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Middle East Eye",
+   "u": "https://www.middleeasteye.net/news/turkey-to-deploy-troops-and-air-defence-systems-saudi-arabia"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Daily Sabah",
+   "u": "https://www.dailysabah.com/world/mid-east/syria-mulls-military-aid-to-saudi-arabia-as-houthis-escalate-war"
+  }
+ ],
+ "tags": [],
+ "title": "후티 공항 공격에 사우디, 메카 방위협정 발동해 반격…튀르키예 지원",
+ "url": "https://t.me/insidertracking/65264",
+ "items": [
+  {
+   "t": "후티, 사우디 아람코 리야드 정유소 공격 주장…대형 화재 발생",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-03",
+   "u": "https://t.me/insidertracking/65264"
+  },
+  {
+   "t": "예멘 정부군, 바브엘만데브·두밥 장악 주장…후티는 부인",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-05",
+   "u": "https://t.me/HANAchina/69881"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "사우디·파키스탄·튀르키예, 메카 방위협정 첫 발동…사우디에 병력 배치 합의",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "사우디-후티 적대 격화에 걸프 증시 부진",
+   "u": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-saudi-houthi-hostilities-escalate-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "사우디 주도의 후티 반군 상대 반격이 본격적으로 시작됐다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/saudi-led-fightback-against-the-houthis-begins"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+   "u": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "후티, 사우디 아브하·리야드 공항 공격…3명 사망·36명 부상",
+   "u": "https://t.me/insidertracking/65704"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+   "u": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "공항 공격 뒤 항공사들 사우디행 운항 중단",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/airlines-cancel-flights-to-riyadh-after-houthi-attack-on-airport"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "시리아, 예멘 전쟁 속 사우디 군사 지원 검토…소식통",
+   "u": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "후티 공격 뒤 루프트한자·에어인디아 리야드 운항 중단",
+   "u": "https://www.reuters.com/world/middle-east/lufthansa-air-india-suspend-flights-riyadh-after-houthi-attacks-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "튀르키예 외무장관 \"사우디 방위 지원 검토 중\"…일부 선택지는 배제",
+   "u": "https://www.reuters.com/world/asia-pacific/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "사우디 공항들 후티 공격받자 시리아, 예멘 전쟁 지원 검토",
+   "u": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "무니르의 군대가 걸프 역할 맡는데 파키스탄 의회는 배제돼",
+   "u": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

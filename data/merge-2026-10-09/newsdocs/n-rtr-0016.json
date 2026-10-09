@@ -1,0 +1,98 @@
+{
+ "basis": "verified",
+ "check": "30년물 사상 최고·다카이치 연설(IndexBox·Finimize)과 10년물 입찰 결과(일본 재무성 공표·일정표) 문서 2건을 묶었습니다. 20년·40년물 금리와 국채 발행 억제 금액은 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 5일 일본 30년물 국채 금리가 사상 최고인 4.235%까지 올랐고, 10년물은 3.08% 부근이었습니다 [사실]",
+  "정부: 다카이치 총리가 같은 날 국회 연설에서 연간 국채 발행을 억제하겠다고 했지만, 식품 소비세 감세의 재원은 제시되지 않았습니다 [사실]",
+  "입찰: 10월 6일 10년 국채 입찰은 표면금리 3.1%, 응찰 약 3.76배(9월 3.29배), 꼬리 0.02엔이었습니다 [사실]",
+  "다음 일정: 재무성 일정표상 10월 8일 30년물, 14일 5년물, 20일 20년물 입찰이 잡혀 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "日 30년물 금리 4.235% 사상 최고…10년물 입찰은 응찰 3.76배로 견조",
+ "id": "n-rtr-0016",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "jpins"
+ ],
+ "insight": {},
+ "key": "rtr-1005-jgb-30y-record-takaichi",
+ "nodes": [
+  "jpins/rates",
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 16,
+ "one": "일본 30년물 국채 금리가 10월 5일 사상 최고인 4.235%까지 올라 다카이치 총리가 국채 발행 억제를 밝힌 뒤, 6일 10년물 입찰은 표면금리 3.1%에 응찰 배율이 약 3.76배로 9월보다 높아지면서 3%대 금리에서 매수 수요가 확인됐다",
+ "origTitle": "Japan's 30-year bond yields hit record high ahead of PM's remarks",
+ "processed": "2026-10-09",
+ "published": "2026-10-06",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "로이터(원문 미확인)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "IndexBox",
+   "u": "https://www.indexbox.io/blog/japan-pm-takaichi-pledges-bond-issuance-control-as-30-year-jgb-yield-hits-record-4235/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/japans-30-year-bond-yield-hit-a-record-ahead-of-takaichis-speech"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일본 재무성 10년 국채 제384회 입찰 결과",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261006.htm"
+  },
+  {
+   "d": "2026-09-01",
+   "o": "일본 재무성 10년 국채 제383회 입찰 결과",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260901.htm"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일본 재무성 2026년 10월 입찰 일정표",
+   "u": "https://www.mof.go.jp/jgbs/auction/calendar/2610.htm"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일본 재무성 입찰 결과(1차 자료)",
+   "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261006.htm"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일본 재무성 10월 입찰 일정",
+   "u": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/2610e.htm"
+  }
+ ],
+ "tags": [],
+ "title": "日 30년물 금리 4.235% 사상 최고…10년물 입찰은 응찰 3.76배로 견조",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/",
+ "items": [
+  {
+   "t": "일본 30년물 금리 4.235% 사상 최고…다카이치 '국채 발행 억제'",
+   "o": "로이터",
+   "d": "2026-10-05",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/"
+  },
+  {
+   "t": "일본 10년물 국채 입찰, 표면금리 3.1%에 응찰 3.76배로 수요 견조",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/japan-s-10-year-bond-sale-demand-stronger-than-12-month-average"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

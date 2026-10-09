@@ -1,0 +1,79 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "겨울 공세 계획(NYT 기사를 옮긴 UNITED24 Media·UNN, 검색 결과 요약)과 철강 손실 추산(ua.news) 문서 2건을 묶었습니다. NYT 원문은 읽지 못했고 철광석 수출 손실은 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 뉴욕타임스가 미사일·드론·유도폭탄 최대 1,000발로 발전설비 약 15GW를 없애 대상 도시의 전력·난방을 최대 90% 줄이는 러시아의 겨울 공격 계획 문서를 보도했습니다 [사실]",
+  "한계: 8월 날짜의 러시아어 문서로 NYT도 진위를 독자적으로 확인하지 못했습니다 [사실]",
+  "철강: 러시아의 잇단 공습 뒤 우크라이나 철강 생산의 약 90%가 멈춰 있다고 포브스 우크라이나가 전했습니다 [사실]",
+  "손실: 최악의 경우 손실이 국내총생산의 6.5~7%에 이르고 외화 수입은 50억~70억 달러 줄 수 있다는 추산입니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "러시아, 우크라 전력망에 최대 1,000발 겨울 공세 계획…철강 90% 멈춰",
+ "id": "n-tg-0162",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "coal",
+  "power"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-9939",
+ "nodes": [
+  "coal/steel",
+  "macro/geo",
+  "power/grid"
+ ],
+ "num": 162,
+ "one": "러시아가 미사일·드론 최대 1,000발로 우크라이나 변전소와 발전소를 치는 겨울 공세를 계획했다는 NYT 보도에 이어, 잇단 공습으로 우크라이나 철강 생산의 약 90%가 멈춰 최악엔 국내총생산의 6.5~7%를 잃을 수 있다는 추산이 나왔다",
+ "processed": "2026-10-09",
+ "published": "2026-10-06T05:39:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9939"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "UNITED24 Media",
+   "u": "https://united24media.com/war-in-ukraine/russia-plans-up-to-1000-strikes-to-cripple-ukraines-energy-grid-this-winter-23058"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "UNN",
+   "u": "https://unn.ua/en/news/up-to-1000-missiles-drones-and-bombs-the-nyt-learned-of-russias-plans-for-the-most-powerful-strike-in-an-attempt-to-freeze-ukraine"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65460"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "ua.news (포브스 우크라이나 인용)",
+   "u": "https://ua.news/en/money/pidrakhovano-vtrati-ekonomiki-ukrayini-cherez-zupinku-metalurgiyi-vnaslidok-rosiiskikh-atak"
+  }
+ ],
+ "tags": [],
+ "title": "러시아, 우크라 전력망에 최대 1,000발 겨울 공세 계획…철강 90% 멈춰",
+ "url": "https://t.me/Trillion_labs/9939",
+ "items": [
+  {
+   "t": "러시아, 우크라이나 전력망에 최대 1,000발 겨울 공세 계획(NYT)",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9939"
+  },
+  {
+   "t": "러시아 공습에 우크라 철강 90% 멈춰…\"최악엔 GDP 7% 손실\" 추산",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-06",
+   "u": "https://t.me/insidertracking/65460"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

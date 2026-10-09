@@ -1,0 +1,264 @@
+{
+ "agent": "R1",
+ "searches_used": 15,
+ "fetches_used": 0,
+ "docs": [
+  {
+   "id": "n-rtr-0073",
+   "changed": true,
+   "basis": "verified",
+   "title": "RTX 레이시온, 최대 63억 달러 규모 미국 SM-3 미사일 계약 수주",
+   "one": "RTX 자회사 레이시온이 SM-3 블록 IB 요격미사일을 생산·유지하는 최대 63억 달러 규모의 미군 다년 계약을 따내면서, 투손·헌츠빌 공장의 향후 5년 생산 물량과 수주 잔고가 늘게 됐다",
+   "facts": [
+    "무엇이: 레이시온이 SM-3 블록 IB 요격미사일 생산·유지 미군 다년 계약을 수주했다 [사실]",
+    "규모: 최대 63억 달러, 기간 5년에 2년 연장 옵션 [사실]",
+    "생산지: 애리조나주 투손과 앨라배마주 헌츠빌 공장 [사실]",
+    "맥락: 9월 28일에도 최대 207억 달러 규모 AMRAAM 미사일 계약을 받았다 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 KOLD·구루포커스 보도로 계약 금액(최대 63억 달러), 미사일 종류(SM-3 블록 IB), 기간을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "KOLD",
+     "d": "2026-10-08",
+     "u": "https://www.kold.com/2026/10/08/federal-government-awards-63-billion-contract-raytheon/"
+    },
+    {
+     "o": "GuruFocus",
+     "d": "2026-10-08",
+     "u": "https://www.gurufocus.com/news/9116424/raytheon-secures-63-billion-missile-contract-boosting-rtxs-defense-production"
+    }
+   ],
+   "note": "금액 63억 달러로 확정(630억 아님), 미사일 종류 SM-3 블록 IB 추가, 제목·한줄 수정, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0145",
+   "changed": true,
+   "basis": "verified",
+   "title": "케냐 인프라펀드, 3400억 실링(26억 달러) 시드 자본으로 국채 매입 개시",
+   "one": "케냐 국가인프라펀드가 3400억 실링(약 26억 달러) 규모 시드 자본을 국내 국채 매입으로 투입하기 시작하면서, 사파리콤 지분·송유관공사 매각 대금이 인프라 투자 재원으로 쓰이는 경로가 가동되고 있다",
+   "facts": [
+    "무엇이: 케냐 국가인프라펀드가 7월부터 시드 자본으로 국내 국채를 사들이기 시작했다 [사실]",
+    "규모: 시드 자본은 3400억 실링(약 26억 달러)으로, 제목의 '260억'은 26억 달러를 잘못 읽은 것이다 [사실]",
+    "재원: 사파리콤 지분 15%를 보다콤에 판 약 2040억 실링과 케냐 파이프라인공사 일부 민영화 대금 약 1063억 실링 [사실]",
+    "계획: 이번 회계연도 안에 전액 투입, 완전 투입 시 연 약 420억 실링 수익 기대, 라무의 단고테 정유소 지분 투자도 추진 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 세라리그룹·라이오타임스 등 보도로 통화(3400억 실링=약 26억 달러)와 매입 대상(국내 국채)을 확인. 한 출처는 시드 자본을 약 3100억 실링으로 적어 차이가 있음.",
+   "src_add": [
+    {
+     "o": "Serrari Group",
+     "d": "2026-10-07",
+     "u": "https://serrarigroup.com/kenyas-ksh340bn-infrastructure-fund-starts-bond-buying/"
+    },
+    {
+     "o": "The Rio Times",
+     "d": "2026-10-07",
+     "u": "https://www.riotimesonline.com/kenya-mps-flag-sh340bn-infrastructure-fund-loopholes-2026/"
+    }
+   ],
+   "note": "'260억'을 3400억 실링(약 26억 달러)으로 정정, 매입 대상(국채) 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-bbg-0207",
+   "changed": true,
+   "basis": "verified",
+   "title": "멕시코 기업들 국내 회사채 발행 서둘러…발행액 사상 최대",
+   "one": "멕시코 기업들이 앞다퉈 국내 채권시장에서 자금을 조달하면서 현지 회사채 발행액이 사상 최대를 기록해, 멕시코 기업 자금 조달의 무게가 국내 시장으로 쏠리고 있다",
+   "facts": [
+    "무엇이: 멕시코 비은행 기업의 장기 국내 회사채 발행액이 2026년 9월까지 2348억 페소(약 130억 달러)로 2004년 집계 이후 연간 최대를 기록했다 [사실]",
+    "비교: 이미 2025년 연간 총액보다 14% 많다 [사실]",
+    "원인: 금리 하락, 만기 도래, 연기금·보험사 수요 확대 [사실]",
+    "사례: 멕시코 전력청(CFE) 200억 페소, 그루포 랄라 계열사 90억 페소 발행 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 Mexico Business News·Briefs 보도로 반노르테 집계 기준 사상 최대 발행액과 원인을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "Mexico Business News",
+     "d": "2026-10-08",
+     "u": "https://mexicobusiness.news/finance/news/mexicos-local-bond-market-hits-record-rates-fall"
+    },
+    {
+     "o": "Briefs",
+     "d": "2026-10-08",
+     "u": "https://www.briefs.co/news/mexican-companies-rush-into-local-bonds-as-rates-ease-and-bi/"
+    }
+   ],
+   "note": "발행 규모(2348억 페소)·원인 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0067",
+   "changed": true,
+   "basis": "verified",
+   "title": "콜롬비아 '쯔진, 투자자 모집하며 광산 보안 위험 축소'",
+   "one": "콜롬비아 정부가 중국 쯔진광업이 투자자 자금을 모으는 과정에서 현지 광산의 보안 위험을 축소해 알렸다고 지적하면서, 쯔진의 콜롬비아 광산 사업과 자금 조달에 대한 정부 압박이 커지고 있다",
+   "facts": [
+    "무엇이: 콜롬비아 정부가 국제투자분쟁해결센터(ICSID) 중재 서면에서 쯔진이 부리티카 금광의 보안 위험을 투자자에게 축소했다고 주장했다 [사실]",
+    "맥락: 2025년 쯔진골드 홍콩 상장 투자설명서가 부리티카를 큰 문제 없는 사업장으로 소개했다는 지적이며, 쯔진골드는 상장으로 약 32억 달러를 조달했다 [사실]",
+    "쟁점: 쯔진은 정부가 불법 채굴·무장세력 공격을 막지 못했다며 손해배상을 청구했고, 11월에 반박할 예정이다 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 iux24 보도로 광산명(부리티카), 중재 절차, 홍콩 상장 투자설명서 쟁점을 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "iux24",
+     "d": "2026-10-08",
+     "u": "https://www.iux24.com/es/news/colombia-alleges-zijin-downplayed-mine-security-risks-in-investor-filings-20261008"
+    }
+   ],
+   "note": "광산명·중재 절차·조달 방식(홍콩 상장) 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0078",
+   "changed": true,
+   "basis": "verified",
+   "title": "악조노벨·액설타 합병, EU 반독점 조건부 승인 전망",
+   "one": "페인트·코팅업체 악조노벨과 액설타의 합병이 EU 집행위원회로부터 조건부 반독점 승인을 받을 것으로 알려지면서, 일부 사업 매각 등 시정조치를 전제로 거래 성사에 한 걸음 다가설 전망이다",
+   "facts": [
+    "무엇이: EU가 악조노벨·액설타의 약 250억 달러 합병을 조건부로 승인할 것으로 예상된다고 소식통이 전했다 [사실]",
+    "조건: 악조노벨 차량 보수용 도료 사업 매각을 시정안으로 내기로 했고, 분체도료 중복 우려는 해소됐다 [사실]",
+    "일정: 다음 주 시정안 제출로 10월 22일 심사 기한이 영업일 10일 연장되며, 합병 완료는 2026년 말~2027년 초 예상 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 PYMNTS 보도로 조건부 승인 전망, 시정조치 내용(차량 보수용 도료 사업 매각), 심사 기한을 확인. 공식 결정은 아직 없음.",
+   "src_add": [
+    {
+     "o": "PYMNTS",
+     "d": "2026-10-08",
+     "u": "https://www.pymnts.com/cpi-posts/akzonobel-axalta-near-eu-approval-for-25-billion-merger/"
+    }
+   ],
+   "note": "시정조치·일정 확인해 facts 보강([추론]·[미확인] 줄 대체), 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0086",
+   "changed": true,
+   "basis": "partial",
+   "title": "덴마크 '러시아가 자국 방산업체에 사보타주 공격'",
+   "one": "덴마크 정부가 러시아가 자국 방산업체들을 겨냥해 사보타주 공격을 벌였다고 밝히면서, 우크라이나 지원과 맞물린 유럽 방산 공급망이 물리적 공격 위험에 노출돼 있음이 드러났다",
+   "facts": [
+    "무엇이: 덴마크 정보기관 PET가 러시아가 우크라이나에 물자를 대는 덴마크 방산업체를 겨냥한 사보타주에 나섰다고 밝혔다 [사실]",
+    "방식: 텔레그램 등으로 노숙인·마약중독자 같은 훈련받지 않은 대리인을 모집해 정찰부터 시킨 뒤 사보타주로 키운다 [사실]",
+    "반응: 주코펜하겐 러시아대사관은 근거 없는 주장이라며 부인했다 [사실]",
+    "미확인: 피해 업체와 실제 피해 규모는 공개되지 않았고, 보도마다 '감행'과 '시도'로 표현이 갈린다 [미확인]"
+   ],
+   "check": "웹 검색 결과 요약과 키이우포스트·디펜스워치 보도로 PET의 10월 7일 발표 내용과 러시아 측 부인을 확인. 실제 공격이 성공했는지, 피해 업체가 어디인지는 확인 못 함.",
+   "src_add": [
+    {
+     "o": "Kyiv Post",
+     "d": "2026-10-07",
+     "u": "https://www.kyivpost.com/post/86420"
+    },
+    {
+     "o": "The Defense Watch",
+     "d": "2026-10-07",
+     "u": "https://thedefensewatch.com/policy-strategy/denmark-russia-sabotage-defense-firms/"
+    }
+   ],
+   "note": "발표 주체(PET)·수법 확인, 실제 공격 여부는 보도마다 달라 partial, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0093",
+   "changed": true,
+   "basis": "verified",
+   "title": "모로코 항공우주 수출, 50억 달러로 늘 수 있다…업계 단체 전망",
+   "one": "모로코 항공우주 업계 단체가 자국 항공우주 수출이 50억 달러 규모로 늘어날 수 있다고 전망하면서, 항공기 부품 공급망에서 모로코의 비중이 커질 수 있다",
+   "facts": [
+    "무엇이: 모로코 항공우주산업협회(GIMAS)가 연간 항공우주 수출이 3년 안에 약 50억 달러에 이를 수 있다고 전망했다 [사실]",
+    "기준: 지난해 수출은 약 30억 달러 수준이었다 [사실]",
+    "산업: 약 160개 기업이 2만5천 명가량을 고용하며, 사프란이 랜딩기어·항공기 엔진 공장을 짓고 있다 [사실]",
+    "의미: 항공기 제작사들의 부품 조달처로 모로코 역할 확대 가능성 [추론]"
+   ],
+   "check": "웹 검색 결과 요약과 Newsy Today·르누벨리스트 보도로 GIMAS의 50억 달러(미 달러) 전망과 3년 시한을 확인. 다른 보도는 2030년 60억 달러 목표를 적고 있어 기준이 조금씩 다름.",
+   "src_add": [
+    {
+     "o": "Newsy Today",
+     "d": "2026-10-08",
+     "u": "https://www.newsy-today.com/morocco-aerospace-exports-could-rise-to-5-billion-gimas-says/"
+    },
+    {
+     "o": "Le Nouvelliste Maroc",
+     "d": "2026-10-08",
+     "u": "https://www.lenouvelliste.ma/aeronautique-marocaine-les-exportations-pourraient-bondir-a-5-milliards-de-dollars/"
+    }
+   ],
+   "note": "50억 달러·3년 시한·기준치 확인, facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0099",
+   "changed": true,
+   "basis": "verified",
+   "title": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+   "one": "엔비디아가 투자한 스타트업 업스케일 AI가 서로 다른 공급업체의 AI 칩을 하나로 연결하는 플랫폼을 내놓으면서, 데이터센터 운영사가 특정 업체 칩에 묶이지 않고 여러 회사 칩을 섞어 쓸 길이 넓어질 수 있다",
+   "facts": [
+    "무엇이: 엔비디아가 투자한 업스케일 AI가 여러 업체의 AI 칩을 한 데이터센터에서 잇는 네트워킹 플랫폼 '토큰 패브릭'을 출시했다 [사실]",
+    "구성: 자체 스위치칩 SkyFabriX와 엔비디아 Spectrum-X 이더넷 기반 스위치를 묶고 UALink·ESUN 같은 공용 표준을 지원한다 [사실]",
+    "일정: 4분기 첫 단계를 내놓고 2027년까지 나눠 출시하며, 내년 매출은 수천만 달러를 기대한다 [사실]",
+    "투자: 6월 기업가치 20억 달러로 평가됐고 누적 투자금은 5억 달러다 [사실]"
+   ],
+   "check": "웹 검색 결과 요약과 더넥스트웹·애널리틱스인사이트 보도로 제품명(토큰 패브릭), 출시 일정, 투자 규모를 확인. 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "The Next Web",
+     "d": "2026-10-08",
+     "u": "https://thenextweb.com/news/upscale-ai-token-fabric-nvidia-ai-chip-networking"
+    },
+    {
+     "o": "Analytics Insight",
+     "d": "2026-10-08",
+     "u": "https://www.analyticsinsight.net/amp/story/news/nvidia-backed-upscale-ai-launches-token-fabric-to-link-ai-chips"
+    }
+   ],
+   "note": "제품명·출시 일정·투자 규모 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0105",
+   "changed": true,
+   "basis": "verified",
+   "title": "잠비아, 보건 협정과 분리해 미국과 광물 협정 협상 중",
+   "one": "구리 생산국 잠비아가 미국과의 보건 협정을 광물 문제와 떼어낸 뒤 별도의 광물 협정을 협상하고 있다고 밝히면서, 미국의 아프리카 핵심광물 확보 움직임이 잠비아로 넓어지고 있다",
+   "facts": [
+    "무엇이: 잠비아 하임베 외교장관이 미국과 핵심광물 협정을 아직 협상 중이라고 밝혔다 [사실]",
+    "배경: 10월 8일 광물·데이터 문제와 분리한 5년짜리 보건 협정에 서명했으며, 미국이 15억 달러 이상, 잠비아가 9억7500만 달러를 낸다 [사실]",
+    "미확인: 협정 대상 광물과 규모, 타결 시점은 밝히지 않았다 [미확인]"
+   ],
+   "check": "웹 검색 결과 요약과 루사카타임스·Briefs 보도로 보건 협정 분리 서명과 광물 협정 협상 진행을 확인. 대상 광물은 공개되지 않음.",
+   "src_add": [
+    {
+     "o": "Lusaka Times",
+     "d": "2026-10-09",
+     "u": "https://www.lusakatimes.com/2026/10/09/zambia-signs-us2-49bn-us-health-pact-after-holding-firm-on-data-and-minerals/"
+    },
+    {
+     "o": "Briefs",
+     "d": "2026-10-08",
+     "u": "https://www.briefs.co/news/zambia-and-the-us-split-minerals-talks-from-a-newly-signed-h/"
+    }
+   ],
+   "note": "보건 협정 서명·분리 경위 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0113",
+   "changed": true,
+   "basis": "verified",
+   "title": "인도 부동산개발사 브리게이드, 3년간 40억 달러 넘게 투자",
+   "one": "인도 부동산개발사 브리게이드가 앞으로 3년 동안 40억 달러가 넘는 돈을 개발 사업에 투자하겠다고 밝히면서, 인도 부동산 시장의 신규 공급 물량이 늘어날 수 있다",
+   "facts": [
+    "무엇이: 브리게이드 엔터프라이즈가 앞으로 3년간 약 4000억 루피(약 41억 달러)를 투자하겠다고 밝혔다 [사실]",
+    "배분: 주거 약 70%, 오피스·리테일 20%, 호텔 10%로 4000만 제곱피트 개발 계획에 쓴다 [사실]",
+    "조달: 내부 유보금, 사업 단위 차입, 고객 선수금으로 충당한다 [사실]",
+    "의미: 인도 부동산 개발 물량이 늘어날 수 있다 [추론]"
+   ],
+   "check": "웹 검색 결과 요약과 엔젤원·트레이드브레인스 보도로 4000억 루피(약 41억 달러) 3년 투자 계획과 배분·조달 방식을 확인. 금액이 그룹 자기자본보다 훨씬 커 회사 자체 부담분은 불분명.",
+   "src_add": [
+    {
+     "o": "Angel One",
+     "d": "2026-10-08",
+     "u": "https://www.angelone.in/news/stocks/brigade-enterprises-share-price-in-focus-to-invest-40-000-crore-over-next-3-years"
+    },
+    {
+     "o": "Trade Brains",
+     "d": "2026-10-08",
+     "u": "https://tradebrains.in/indian-markets/brigade-enterprises-in-focus-as-real-estate-developer-marks-40th-year-with-40000-crore-investment-roadmap-12638314"
+    }
+   ],
+   "note": "루피 기준 금액·배분·조달 방식 확인해 facts 보강, 꼬리 뗌"
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+{
+ "agent": "R3",
+ "searches_used": 14,
+ "fetches_used": 0,
+ "docs": [
+  {
+   "id": "n-rtr-0111",
+   "changed": true,
+   "basis": "verified",
+   "title": "가나 코코아위원회, 농가 수매 자금 2억8800만 달러(33억9000만 세디) 확보",
+   "one": "가나 코코아위원회가 연 11% 금리의 단기 국내 채권으로 33억9,000만 세디(약 2억8,800만 달러)를 조달하면서, 수매 대금 지급이 막혔던 농가와 수매업체에 이번 시즌 코코아 대금이 풀릴 길이 열렸다",
+   "facts": [
+    "무엇이: 가나 코코아위원회가 10월 5일 단기 국내 채권으로 33억9,000만 세디(약 2억8,800만 달러)를 조달했다 [사실]",
+    "조건: 금리 11%, 만기 2027년 6월이며 목표 40억 세디에는 못 미쳤다 [사실]",
+    "구조: 163억 세디(약 13억8,000만 달러) 국내 조달 계획의 3회 중 첫 번째 회차다 [사실]",
+    "배경: 9월 25일 시즌이 열렸지만 수매업체들이 자기 돈으로 사들이길 거부해 수매가 지연됐다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 나이라메트릭스·타임스라이브 등이 33억9,000만 세디(약 2억8,800만 달러), 금리 11%, 2027년 6월 만기를 전해 통화는 세디 조달·달러 환산으로 확정.",
+   "src_add": [
+    {
+     "o": "Nairametrics",
+     "d": "2026-10-08",
+     "u": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
+    },
+    {
+     "o": "Africa Briefing",
+     "d": "2026-10-08",
+     "u": "https://africabriefing.com/ghana-raises-288m-to-fund-cocoa-purchases/"
+    },
+    {
+     "o": "GBC Ghana",
+     "d": "2026-10-08",
+     "u": "https://www.gbcghanaonline.com/news/cocobod-raises-gh%C2%A23-39-billion-to-boost-cocoa-purchases/2026/"
+    }
+   ],
+   "note": "통화 확인: 33억9,000만 세디=약 2억8,800만 달러로 명시, 금리·만기·목표 미달 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-bbg-0094",
+   "changed": true,
+   "basis": "verified",
+   "title": "인도 석탄발전 재고 '위험 수준'…최대 발전사 NTPC, 민간 석탄 구매 확대",
+   "one": "인도 석탄발전소 191곳 중 절반 가까이의 재고가 위험 수준으로 떨어지자 최대 발전사 NTPC가 민간 상업 광산에서 최대 1,500만 톤의 석탄을 사들이려 하면서, 민간 석탄 공급처로 수요가 옮겨가고 있다",
+   "facts": [
+    "무엇이: 인도 최대 발전사 NTPC가 민간 업체와 최대 1,500만 톤의 석탄 구매를 협의 중이라고 소식통이 전했다 [사실]",
+    "기존: 석탄발전소 191곳 중 약 90곳(약 47%)의 재고가 위험 수준이다 [사실]",
+    "NTPC 재고: 발전소 석탄 재고가 4월 1,800만 톤에서 550만 톤으로 줄었다 [사실]",
+    "영향: 수력·풍력이 부진한 저녁 시간대 정전 위험이 커지고 있다 [사실]",
+    "남은 점: 수입탄 비중과 구매 단가는 확인하지 못했다 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. 마이닝위클리·MINING.COM 전재와 HDFC Sky 등이 최대 1,500만 톤 구매 협의, 재고 1,800만→550만 톤, 191곳 중 약 90곳 위험 수준을 전함.",
+   "src_add": [
+    {
+     "o": "Mining Weekly",
+     "d": "2026-10-07",
+     "u": "https://www.miningweekly.com/article/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-07"
+    },
+    {
+     "o": "HDFC Sky",
+     "d": "2026-10-07",
+     "u": "https://hdfcsky.com/news/ntpc-to-buy-10-15-mt-coal-from-commercial-miners-in-fy27"
+    }
+   ],
+   "note": "구매 물량(최대 1,500만 톤)·NTPC 재고 추가, '권장량 25% 미만' 표현을 '위험 수준'으로 완화, 꼬리 뗌"
+  },
+  {
+   "id": "n-bbg-0216",
+   "changed": true,
+   "basis": "verified",
+   "title": "나파밸리 고급 와인, 저가 브랜드 달고 팔린다",
+   "one": "캘리포니아 와인 공급 과잉으로 병당 150달러 안팎의 나파밸리 고급 와인이 코스트코·알디 등 유통업체 자체 상표로 30달러 미만에 팔리면서, 고가 와인 브랜드의 가격 지위가 흔들리고 있다",
+   "facts": [
+    "무엇이: 나파밸리 등 캘리포니아 고급 와인이 유통업체 자체·전용 상표로 싸게 팔리고 있다 [사실]",
+    "가격: 와이너리 상표로 150달러 수준인 와인이 30달러 미만에, 일부 나파 카베르네는 9.99달러에 팔린다 [사실]",
+    "원인: 캘리포니아 와인의 생산과 소비 수요가 수년째 어긋난 공급 과잉 [사실]",
+    "남은 점: 전체 판매 물량은 확인하지 못했다 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. KTLA(LA타임스 보도 전재)가 코스트코·알디·크로거·그로서리아웃렛 자체 상표 판매와 150달러→30달러 미만 사례, 공급 과잉 원인을 전함.",
+   "src_add": [
+    {
+     "o": "KTLA(LA Times)",
+     "d": "2026-10-08",
+     "u": "https://ktla.com/news/california/california-wine-surplus-costco-aldi-kroger/"
+    }
+   ],
+   "note": "가격 사례·원인 확인해 한줄·사실 보강, 추론 줄을 사실로 대체, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0072",
+   "changed": true,
+   "basis": "verified",
+   "title": "英 온라인 의류업체 아소스, 해킹으로 일부 고객 개인정보 유출",
+   "one": "영국 온라인 패션업체 아소스가 외부 데이터 플랫폼 해킹으로 고객 이름·연락처 등이 노출됐다고 확인하면서, 결제정보는 안전하다고 했지만 고객 신뢰 하락과 규제 대응 부담을 안게 됐다",
+   "facts": [
+    "무엇이: 아소스가 고객 소통용 제3자 플랫폼 해킹으로 일부 고객 개인정보가 노출됐다고 확인했다 [사실]",
+    "경위: 10월 6일 해커가 아소스 앱으로 무단 푸시 알림을 보냈고, 직원 계정이 사회공학 수법으로 뚫렸다 [사실]",
+    "범위: 이름·연락처가 노출됐을 수 있으나 결제카드 정보와 비밀번호는 영향이 없다고 회사는 밝혔다 [사실]",
+    "남은 점: 피해 고객 수는 공개되지 않았다 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. 테크크런치·블리핑컴퓨터·패션네트워크가 무단 앱 알림, 제3자 플랫폼 침해, 이름·연락처 노출, 결제정보 무관을 전함.",
+   "src_add": [
+    {
+     "o": "TechCrunch",
+     "d": "2026-10-08",
+     "u": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/"
+    },
+    {
+     "o": "BleepingComputer",
+     "d": "2026-10-08",
+     "u": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
+    }
+   ],
+   "note": "경위·노출 정보 종류 확인해 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0082",
+   "changed": true,
+   "basis": "verified",
+   "title": "나이지리아, 연료비 변동 줄이려 휘발유 공급원가 상한제 제안",
+   "one": "나이지리아 정부가 정유·수입 휘발유의 공급원가에 리터당 약 1,350나이라의 상한을 두는 방안을 제안하면서, 상한을 넘는 비용을 정유·수입업체가 먼저 떠안고 나중에 회수하는 구조가 될 수 있다",
+   "facts": [
+    "무엇이: 나이지리아 재무장관이 10월 8일 휘발유 출하·도입 원가에 리터당 약 1,350나이라 상한을 두는 방안을 발표했다 [사실]",
+    "구조: 주유소 판매가가 아닌 정유·수입 원가 상한이며 매달 재검토한다 [사실]",
+    "병행: NNPC 휘발유를 30일간 원가에 팔고 대중교통을 우선하는 할인도 추진한다 [사실]",
+    "배경: 중동 긴장에 따른 국제 유가 상승으로 연료비가 사상 최고 수준이 됐다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 더선·밴가드·이코노미포스트 등 나이지리아 매체가 리터당 1,350나이라 원가 상한, 월별 재검토, NNPC 30일 할인을 전함. 1,350나이라가 원가 상한인지 판매가인지 보도가 엇갈림.",
+   "src_add": [
+    {
+     "o": "The Sun Nigeria",
+     "d": "2026-10-08",
+     "u": "https://thesun.ng/updated-fg-moves-to-cap-petrol-landing-cost-at-n1350-litre/"
+    },
+    {
+     "o": "Vanguard",
+     "d": "2026-10-09",
+     "u": "https://www.vanguardngr.com/2026/10/fg-offers-petrol-at-n1350-for-next-30-days/"
+    }
+   ],
+   "note": "상한 대상이 판매가가 아닌 공급원가임을 반영해 제목·한줄 정정, 수준(1,350나이라) 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0088",
+   "changed": true,
+   "basis": "verified",
+   "title": "싱가포르 세비오라, 산하 자산운용사 3곳 통합",
+   "one": "테마섹 산하 자산운용 그룹 세비오라가 아잘레아·시타운·세비오라캐피털 3곳을 2027년 1월 하나로 합치기로 하면서, 운용자산 약 760억 달러 그룹의 운용 조직과 고객 창구가 한 회사로 모이게 된다",
+   "facts": [
+    "무엇이: 테마섹 산하 세비오라가 완전 자회사인 아잘레아, 시타운, 세비오라캐피털을 단일 플랫폼으로 통합한다고 10월 8일 발표했다 [사실]",
+    "시점: 필요한 동의·승인을 전제로 2027년 1월 1일 통합이 목표다 [사실]",
+    "제외: 풀러턴펀드매니지먼트와 이노벤캐피털은 별도 법인으로 남는다 [사실]",
+    "규모: 그룹 합산 운용자산은 약 760억 달러다 [사실]",
+    "효과: 운용 규모 집중과 중복 비용 절감 가능 [추론]"
+   ],
+   "check": "검색 결과 요약으로 확인. 디엘스트리트아시아·디엣지싱가포르·캡로아시아가 통합 대상 3곳, 2027년 1월 1일 목표, 운용자산 약 760억 달러를 전함.",
+   "src_add": [
+    {
+     "o": "The Edge Singapore",
+     "d": "2026-10-08",
+     "u": "https://www.theedgesingapore.com/news/funds/temaseks-seviora-integrate-azalea-seatown-and-seviora-capital-single-platform"
+    },
+    {
+     "o": "DealStreetAsia",
+     "d": "2026-10-08",
+     "u": "https://www.dealstreetasia.com/stories/seviora-to-fold-azalea-seatown-seviora-497589"
+    },
+    {
+     "o": "Caproasia",
+     "d": "2026-10-09",
+     "u": "https://www.caproasia.com/2026/10/09/singapore-temasek-76-billion-independent-asset-management-business-seviora-to-merge-3-wholly-owned-asset-management-companies-azalea-investment-management-seatown-holdings-international-seviora-ca/"
+    }
+   ],
+   "note": "통합 대상 회사명·시점·운용자산 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0095",
+   "changed": true,
+   "basis": "verified",
+   "title": "ASML·자이스 '차세대 반도체 노광기술 하이퍼 NA, 10년 뒤에나 준비될 수도'",
+   "one": "ASML과 자이스 엔지니어들이 논문에서 하이 NA 극자외선 장비의 후속인 하이퍼 NA가 약 10년 뒤 준비될 수 있다고 밝히면서, 칩 제조사들은 당분간 현 세대 극자외선 장비로 미세화를 이어가야 할 전망이다",
+   "facts": [
+    "무엇이: ASML과 자이스 엔지니어들이 학술 논문에서 차세대 노광기술 '하이퍼 NA'가 약 10년 뒤 준비될 수 있다고 추정했다 [사실]",
+    "상태: ASML은 개발에 착수했지만 실제 장비 생산은 결정하지 않았다 [사실]",
+    "과제: 초점 심도가 약 절반으로 줄어 초점 제어와 더 얇은 감광제가 필요하다 [사실]",
+    "의미: 현 세대 하이 NA 장비의 사용 기간이 길어질 수 있음 [추론]"
+   ],
+   "check": "검색 결과 요약으로 확인. 테크진·더스타 등이 하이퍼 NA 명칭, 약 10년 일정, 생산 미결정, 초점 심도 문제를 전함.",
+   "src_add": [
+    {
+     "o": "Techzine",
+     "d": "2026-10-08",
+     "u": "https://www.techzine.eu/news/infrastructure/144861/asml-next-generation-chip-machine-hyper-na-in-ten-years/"
+    },
+    {
+     "o": "The Star",
+     "d": "2026-10-08",
+     "u": "https://www.thestar.com.my/tech/tech-news/2026/10/08/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-in-10-years"
+    }
+   ],
+   "note": "기술 명칭(하이퍼 NA)·논문 근거 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0101",
+   "changed": true,
+   "basis": "verified",
+   "title": "루비오 국무장관 '미국, 지중해 해저 전력 케이블 지지'",
+   "one": "루비오 미 국무장관이 그리스 본토와 키프로스를 잇는 19억 유로 규모 지중해 해저 전력 케이블을 강하게 지지한다고 밝히면서, 그리스·튀르키예 해역 분쟁으로 멈춘 사업이 미국의 외교적 뒷받침을 받게 됐다",
+   "facts": [
+    "무엇이: 루비오 장관이 그리스 카티메리니 인터뷰에서 미국이 동지중해 해저 전력 케이블 사업에 매우 전념하고 있다고 말했다 [사실]",
+    "사업: 그리스 송전망 운영사 IPTO의 19억 유로 사업으로 유럽 본토와 키프로스, 이후 이스라엘을 잇는다 [사실]",
+    "걸림돌: 케이블이 지나는 해역을 둘러싼 그리스·튀르키예 분쟁으로 진척이 멈췄다 [사실]",
+    "지분: 프랑스 메리디암이 8월 최대주주가 되는 계약을 맺었다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 알모니터·더프린트 등이 카티메리니 인터뷰, IPTO의 19억 유로 사업, 그리스·튀르키예 분쟁을 전함.",
+   "src_add": [
+    {
+     "o": "Al-Monitor",
+     "d": "2026-10-08",
+     "u": "https://www.al-monitor.com/originals/2026/10/rubio-says-us-committed-mediterranean-undersea-power-cable"
+    },
+    {
+     "o": "Bytes Europe",
+     "d": "2026-10-08",
+     "u": "https://www.byteseu.com/2434869/"
+    }
+   ],
+   "note": "사업명(IPTO 그리스-키프로스 케이블)·규모 19억 유로·분쟁 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0109",
+   "changed": true,
+   "basis": "verified",
+   "title": "독일 설탕업체 쥐트추커, 상반기 매출 보합에도 이익 급증·전망 상향",
+   "one": "독일 설탕업체 쥐트추커가 상반기 매출은 41억9,000만 유로로 보합이었지만 영업 EBITDA가 3억300만 유로로 늘었다고 발표하면서, 설탕 부진을 바이오연료가 메워 연간 매출 전망을 올렸다",
+   "facts": [
+    "무엇이: 쥐트추커의 2026/27 회계연도 상반기 매출이 41억8,800만 유로로 전년 41억9,900만 유로와 비슷했다 [사실]",
+    "이익: 영업 EBITDA가 1억8,900만 유로에서 3억300만 유로로 늘었다 [사실]",
+    "부문: 설탕 매출은 13억8,900만에서 12억6,900만 유로로 줄고 바이오에탄올은 4억200만에서 4억3,800만 유로로 늘었다 [사실]",
+    "전망: 연간 매출 전망을 83억~87억 유로로 높였다 [사실]",
+    "위험: 가뭄으로 2026년 설탕 생산이 크게 줄 전망이다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 인베스팅닷컴(자체 기사)·애드혹뉴스 등이 회사 발표 기준 매출 41억8,800만 유로, 영업 EBITDA 3억300만 유로, 연간 매출 전망 상향을 전함.",
+   "src_add": [
+    {
+     "o": "Investing.com",
+     "d": "2026-10-08",
+     "u": "https://www.investing.com/news/earnings/sudzucker-raises-forecast-floor-as-firsthalf-ebitda-jumps-to-303-million-4937911"
+    },
+    {
+     "o": "ad-hoc-news",
+     "d": "2026-10-08",
+     "u": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/suedzucker-stock-returns-to-profit-in-the-first-half/70262874"
+    }
+   ],
+   "note": "매출·EBITDA·전망 수치 추가, '성장 멈춤' 서술을 이익 급증·전망 상향으로 정정, 제목 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0116",
+   "changed": true,
+   "basis": "verified",
+   "title": "포비아 헬라, 완성차 2곳서 약 5억 유로 규모 배터리 전력 부품 '에너지코어' 수주",
+   "one": "자동차 부품업체 포비아 헬라가 미주·유럽 완성차업체 두 곳에서 약 5억 유로 규모의 에너지코어 양산 주문을 따내면서, 2027년 말부터 전기차 배터리 전력 부품 매출 기반이 넓어질 전망이다",
+   "facts": [
+    "무엇이: 포비아 헬라가 완성차업체 두 곳으로부터 에너지코어 양산 주문 2건을 따냈다고 10월 8일 발표했다 [사실]",
+    "규모: 합산 약 5억 유로이며 회사는 '수억 유로 중반대'라고만 밝혔다 [사실]",
+    "제품: 첫 3-in-1 고전압 배터리 관리 시스템과 48볼트 파워팩이다 [사실]",
+    "시점: 양산은 2027년 12월과 2028년 봄에 각각 시작한다 [사실]",
+    "미정: 고객사 이름은 공개되지 않았다 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. 포비아 보도자료와 인베스팅닷컴(자체 기사)이 주문 2건, 약 5억 유로, 2027년 12월·2028년 봄 양산 시작을 전함.",
+   "src_add": [
+    {
+     "o": "FORVIA 보도자료",
+     "d": "2026-10-08",
+     "u": "https://www.forvia.com/en/press/forvia-hella-receives-major-series-orders-highly-integrated-energycore-solutions"
+    },
+    {
+     "o": "Investing.com",
+     "d": "2026-10-08",
+     "u": "https://www.investing.com/news/stock-market-news/forvia-receives-500-million-in-orders-for-energycore-solutions-93CH-4937969"
+    }
+   ],
+   "note": "수주 규모 약 5억 유로·제품·양산 시점 추가, 제목 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0122",
+   "changed": true,
+   "basis": "verified",
+   "title": "美, 오로라 자율주행 트럭에 경고삼각대 규정 5년 면제",
+   "one": "미국 연방자동차운송안전청이 오로라 등 무인 트럭에 경고삼각대 대신 운전석 위 경고등을 쓰도록 5년간 면제를 내주면서, 운전자 없는 대형 트럭 상업 운행의 규제 장벽 하나가 낮아졌다",
+   "facts": [
+    "무엇이: 미국 연방자동차운송안전청(FMCSA)이 오로라의 무인 트럭에 경고삼각대 설치 규정 면제를 내줬다 [사실]",
+    "내용: 정차 시 삼각대 대신 운전석 위에 단 경고등을 5분 안에 켜도록 하고 예비 전원을 갖추게 했다 [사실]",
+    "기간: 2026년 10월 7일부터 2031년 10월 7일까지 5년이며 3개월짜리 임시 면제를 대체한다 [사실]",
+    "범위: 사전 신고한 다른 4단계 자율주행 운송사도 적용되며 코디악·와비·스택AV가 참여했다 [사실]",
+    "반발: 독립 화물차 운전자 협회(OOIDA)는 특혜라며 반대했다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 프레이트웨이브스·CCJ·오버드라이브가 경고등 대체, 5년 기간(2026.10.7~2031.10.7), 조건과 참여 업체를 전함.",
+   "src_add": [
+    {
+     "o": "FreightWaves",
+     "d": "2026-10-08",
+     "u": "https://www.freightwaves.com/news/fmcsa-aurora-warning-beacon-exemption-five-year"
+    },
+    {
+     "o": "Overdrive",
+     "d": "2026-10-08",
+     "u": "https://www.overdriveonline.com/regulations/article/15837000/court-shoots-down-operators-driverless-warningdevice-waiver-lawsuit-as-fmcsa-gives-5year-extension"
+    }
+   ],
+   "note": "면제 대상(경고삼각대→경고등)·기간 5년 확인, 제목 구체화, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0128",
+   "changed": true,
+   "basis": "verified",
+   "title": "소송금융업체 옴니브리지웨이, 10억 달러 자금 조달",
+   "one": "호주 소송금융업체 옴니브리지웨이가 기존 투자자 99%가 재투자한 10억 달러 규모 펀드 모집을 마치면서, 기업 소송 비용을 대고 승소금 일부를 받는 소송금융 시장으로 기관 자금이 계속 흘러들고 있다",
+   "facts": [
+    "무엇이: 옴니브리지웨이가 펀드4·5 시리즈2 모집을 목표액 10억 달러로 최종 마감했다고 10월 7일 밝혔다 [사실]",
+    "구조: 이전 펀드 투자자의 99%가 재투자했고 회사 자체 자금이 약 20%를 차지한다 [사실]",
+    "규모: 운용자산은 59억 호주달러(42억 달러)로 늘었다 [사실]",
+    "의미: 사모 대체자산 수요가 소송금융으로 넓어지고 있음을 보여 줄 수 있다 [추론]"
+   ],
+   "check": "검색 결과 요약으로 확인. 회사 보도자료(글로브뉴스와이어)와 로360이 10억 달러 최종 마감, 재투자율 99%, 운용자산 59억 호주달러를 전함.",
+   "src_add": [
+    {
+     "o": "GlobeNewswire(회사 보도자료)",
+     "d": "2026-10-07",
+     "u": "https://www.globenewswire.com/news-release/2026/10/07/3376339/0/en/omni-bridgeway-closes-us-1-billion-legal-finance-fundraise.html"
+    },
+    {
+     "o": "Law360",
+     "d": "2026-10-07",
+     "u": "https://www.law360.com/articles/2535029/omni-bridgeway-raises-1b-for-new-litigation-funding"
+    }
+   ],
+   "note": "펀드 구조(재투자율 99%, 자체 자금 약 20%)·운용자산 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0133",
+   "changed": true,
+   "basis": "verified",
+   "title": "브라질 당국, 아메리칸항공의 아줄 1억 달러 투자 조건부 승인",
+   "one": "브라질 경쟁당국 CADE가 아메리칸항공의 아줄 1억 달러 투자를 조건부 승인하면서, 파산보호에서 벗어난 아줄이 약 8% 지분의 미국 대형 항공사 자본을 받아 남미 항공시장 제휴 구도가 넓어지고 있다",
+   "facts": [
+    "무엇이: 브라질 경쟁당국 CADE가 10월 7일 아메리칸항공의 아줄 투자를 승인했다 [사실]",
+    "규모: 투자액 1억 달러, 지분율 약 8%이며 신주인수권 행사 방식이다 [사실]",
+    "조건: 당사자들이 CADE와 합병통제협약(ACC)을 맺고 지키는 조건이 붙었다 [사실]",
+    "반대: 아메리칸의 오랜 제휴사 골을 거느린 아브라그룹이 이의를 제기했었다 [사실]",
+    "배경: 아줄은 2026년 2월 20일 미국 파산보호(챕터11)에서 벗어났다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. 에어웨이즈매거진·팁랭크스와 아줄의 SEC 6-K 공시가 CADE 조건부 승인, 1억 달러, 신주인수권 행사 방식을 전함.",
+   "src_add": [
+    {
+     "o": "Airways Magazine",
+     "d": "2026-10-08",
+     "u": "https://www.airwaysmag.com/new-post/american-airlines-azul-investment-brazil-approval"
+    },
+    {
+     "o": "Azul SEC 6-K",
+     "d": "2026-10-08",
+     "u": "https://www.sec.gov/Archives/edgar/data/0001432364/000143236426000032/azul-materialfact_american.htm"
+    }
+   ],
+   "note": "승인 기관(CADE)·투자액 1억 달러·지분 약 8%·조건부 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0138",
+   "changed": true,
+   "basis": "verified",
+   "title": "파이어플라이 로보틱스, 나스닥 직상장 신청",
+   "one": "자율 잔디관리 로봇업체 파이어플라이 로보틱스가 신주 공모 없이 기존 주주 주식 최대 2,710만 주를 거래소에 올리는 나스닥 직상장을 신청하면서, 로봇 기업에 대한 공개시장 수요를 가늠할 시험대가 될 수 있다",
+   "facts": [
+    "무엇이: 파이어플라이 로보틱스가 나스닥 직상장을 위한 S-1을 SEC에 제출하고 티커 FFLY로 상장을 신청했다 [사실]",
+    "사업: 솔트레이크시티 소재로 잔디·조경 관리용 전기 자율 로봇을 만든다 [사실]",
+    "방식: 회사는 신주를 팔지 않고 기존 주주가 최대 2,710만 주를 매도한다 [사실]",
+    "실적: 6월 말까지 상반기 매출 3,050만 달러, 순손실 910만 달러 [사실]",
+    "이력: 2025년 10월 IPO를 신청했다가 2026년 3월 철회했다 [사실]",
+    "남은 점: 기준가격과 상장일은 확인하지 못했다 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. SEC S-1 공시와 인베스팅닷컴(자체 기사)이 직상장 신청, 티커 FFLY, 매도 주식 수, 사업 내용을 전함.",
+   "src_add": [
+    {
+     "o": "SEC Form S-1",
+     "d": "2026-10-07",
+     "u": "https://www.sec.gov/Archives/edgar/data/0001660851/000149315226046104/forms-1.htm"
+    },
+    {
+     "o": "Investing.com",
+     "d": "2026-10-07",
+     "u": "https://www.investing.com/news/stock-market-news/firefly-robotics-files-for-direct-listing-on-nasdaq-under-ticker-ffly-432SI-4937299"
+    }
+   ],
+   "note": "사업 분야·매도 주식 수·실적 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0143",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  },
+  {
+   "id": "n-rtr-0150",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  },
+  {
+   "id": "n-rtr-0156",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  },
+  {
+   "id": "n-rtr-0162",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  },
+  {
+   "id": "n-rtr-0168",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  },
+  {
+   "id": "n-rtr-0173",
+   "changed": false,
+   "basis": "title",
+   "note": "아직 확인 전"
+  }
+ ]
+}

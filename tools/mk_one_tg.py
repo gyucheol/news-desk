@@ -2,8 +2,12 @@
 사용(묶음 폴더에서): python3 -I mk_one_tg.py <DB 사본 폴더> <processed 날짜> <덤프 폴더> <기간 설명> [게시 시각 검사 정규식]
   예: python3 -I ../../tools/mk_one_tg.py ../../work/live2 2026-10-08 ../../work/dump2 '10월 6일 0시~10월 8일 08시 35분'
   DB에 쓰지는 않는다 — newsdocs/*.json과 meta_out/*.json을 ArtifactData batch에 넣는다.
-  basis는 verified·partial·channel. channel이면 한줄 끝에 ' (채널 전언)'이 붙고 독립 출처가 없어도 된다."""
+  basis는 verified·partial·channel. channel이면 한줄 끝에 ' (채널 전언)'이 붙고 독립 출처가 없어도 된다.
+  attachTo(기존 문서 id)가 있는 항목은 새 문서를 만들지 않고 그 문서에 기사로 더한다(title·one·facts는 묶음 전체로 새로 쓴 값,
+  itemTitle은 이 글 하나의 제목). 고친 기존 문서는 newsdocs/에 함께 쓰고 attached.txt에 id를 남긴다 — 저장할 때 if_version 필요."""
 import json, glob, os, re, sys, collections
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bundle_attach import attach, now_kst, rotate_seen
 DB, TODAY, DUMP, SPAN = sys.argv[1:5]
 DATE_RE = sys.argv[5] if len(sys.argv) > 5 else r'^2026-10-0[6-8]T'  # 기간 검사 정규식
 prog = json.load(open(f'{DB}/meta/progressV4.json')); seen = json.load(open(f'{DB}/meta/newsSeen.json'))
@@ -25,15 +29,22 @@ os.makedirs('newsdocs', exist_ok=True); os.makedirs('meta_out', exist_ok=True)
 for f in glob.glob('newsdocs/*.json'): os.remove(f)
 lst = sorted(by.values(), key=lambda c: (c['published'], c['key']))
 n0 = prog['newsSeq'].get('tg', 0); docs, new_lines = [], []
-for i, c in enumerate(lst, 1):
-    n = n0 + i; nid = f'n-tg-{n:04d}'; w = c['key']
-    if nid in known_ids: P.append(f'{nid} 이미 있음')
+attached, NOW, n = {}, now_kst(), n0
+for c in lst:
+    w = c['key']
+    if c.get('attachTo'):
+        nid = c['attachTo']
+        if nid not in attached and not os.path.exists(f'{DB}/news/{nid}.json'): P.append(f'{w}: attachTo 문서 없음 {nid}'); continue
+    else:
+        n += 1; nid = f'n-tg-{n:04d}'
+        if nid in known_ids: P.append(f'{nid} 이미 있음')
     if c['url'] in known_urls: P.append(f'{w}: 이미 다룬 주소')
     if c['source'] != '텔레그램' or not c['url'].startswith('https://t.me/'): P.append(f'{w}: source·url')
     one = c['one'].strip().rstrip('.').strip(); title = c['title'].strip()
     core = one[:-len(TAIL)] if one.endswith(TAIL) else one
     if (c['basis'] == 'channel') != one.endswith(TAIL): P.append(f'{w}: basis {c["basis"]}와 (채널 전언) 꼬리가 맞지 않음')
-    if not (60 <= len(core) <= 135): P.append(f'{w}: 한줄 {len(core)}자')
+    lo, hi = (85, 165) if c.get('attachTo') else (60, 135)
+    if not (lo <= len(core) <= hi): P.append(f'{w}: 한줄 {len(core)}자')
     if not core.endswith('다'): P.append(f'{w}: 한줄이 ~다로 끝나지 않음 …{core[-6:]}')
     if not (12 <= len(title) <= 50): P.append(f'{w}: 제목 {len(title)}자')
     for s in [one, title] + c['facts'] + [c['check']]:
@@ -48,6 +59,15 @@ for i, c in enumerate(lst, 1):
     if not c['src'] or not all(s.get('u', '').startswith('http') for s in c['src']): P.append(f'{w}: src')
     if c['basis'] in ('verified', 'partial') and len(c['src']) < 2: P.append(f'{w}: 독립 출처 없음')
     if c['basis'] not in ('verified', 'partial', 'channel'): P.append(f'{w}: basis {c["basis"]}')
+    if c.get('attachTo'):
+        base = attached.get(nid) or json.load(open(f'{DB}/news/{nid}.json'))
+        item = {'t': (c.get('itemTitle') or title).strip(), 'o': '텔레그램 ' + c.get('channel', ''), 'd': c['published'][:10], 'u': c['url']}
+        d = attach(base, [item], {'title': title, 'one': one, 'facts': c['facts'], 'basis': c['basis'], 'check': c['check']}, TODAY, NOW,
+                   c['src'], c['inds'], c['nodes'], c['published'])
+        if 'macro/semis' in d['nodes'] and not d.get('ind'): d['ind'] = 'semis'
+        attached[nid] = d
+        new_lines.append(f"{c['published'][:16]} {nid} {item['t']} | {c['url']}")
+        continue
     d = {'id': nid, 'feed': 'v5', 'format': 'one1', 'num': n, 'processed': TODAY, 'source': '텔레그램', 'key': w, 'published': c['published'], 'url': c['url'],
          'inds': c['inds'], 'nodes': c['nodes'], 'title': title, 'one': one, 'headline': title, 'facts': c['facts'], 'basis': c['basis'], 'check': c['check'],
          'src': c['src'], 'tags': [], 'cycles': [], 'incentive': '', 'insight': {}, 'channel': c.get('channel', '')}
@@ -55,7 +75,9 @@ for i, c in enumerate(lst, 1):
     if c.get('dupOf'): d['dupOf'] = c['dupOf']
     json.dump(d, open(f'newsdocs/{nid}.json', 'w'), ensure_ascii=False, indent=1); docs.append(d)
     new_lines.append(f"{c['published'][:16]} {nid} {title} | {c['url']}")
-prog['newsSeq']['tg'] = n0 + len(lst)
+for nid, d in attached.items(): json.dump(d, open(f'newsdocs/{nid}.json', 'w'), ensure_ascii=False, indent=1)
+open('attached.txt', 'w').write(''.join(f'{i}\n' for i in attached))
+prog['newsSeq']['tg'] = n
 print('PROBLEMS', len(P)); [print(' -', x) for x in P]
 # 진행 기록: 채널별 마지막으로 읽은 글 번호와 메모
 last = {}
@@ -65,12 +87,14 @@ for p in glob.glob(f'{DUMP}/*.jsonl'):
 tg = prog['telegram']; tg['new'].update(last)
 bas = collections.Counter(d['basis'] for d in docs)
 note = (f'{TODAY}: {SPAN} 글을 curl 덤프로 모두 받아(work/{os.path.basename(DUMP.rstrip("/"))}) 관심 산업 후보 {len(items) + len(skipped)}건 중 {len(docs)}건을 제목+한줄 요약으로 저장'
-        f'({docs[0]["id"]}~{docs[-1]["id"]}, 독립 출처 확인 {bas["verified"]}·일부 확인 {bas["partial"]}·채널 전언 {bas["channel"]}). 뺀 후보: '
+        f'(기존 문서에 더함 {len(attached)}건' + (f', {docs[0]["id"]}~{docs[-1]["id"]}' if docs else '') + f', 독립 출처 확인 {bas["verified"]}·일부 확인 {bas["partial"]}·채널 전언 {bas["channel"]}). 뺀 후보: '
         + ' / '.join(f"{s.get('key', '')}({s.get('reason', '')[:30]})" for s in skipped))
 tg['newNote'] = note + ' // ' + tg.get('newNote', '')[:600]
-prog['log'] = (prog['log'] + [{'d': TODAY, 't': f'{TODAY} 텔레그램 {SPAN}분 {len(docs)}건({docs[0]["id"]}~{docs[-1]["id"]})을 덤프 원문 + 분야별 서브 에이전트 5개(Opus)로 제목+한줄 작성. 독립 출처 확인 {bas["verified"]}, 일부 확인 {bas["partial"]}, 채널 전언 {bas["channel"]}'}])[-60:]
+prog['log'] = (prog['log'] + [{'d': TODAY, 't': f'{TODAY} 텔레그램 {SPAN}분 새 문서 {len(docs)}건' + (f'({docs[0]["id"]}~{docs[-1]["id"]})' if docs else '') + f'·기존 문서에 더함 {len(attached)}건을 덤프 원문 + 분야별 서브 에이전트 5개(Opus)로 제목+한줄 작성. 독립 출처 확인 {bas["verified"]}, 일부 확인 {bas["partial"]}, 채널 전언 {bas["channel"]}'}])[-60:]
 json.dump(prog, open('meta_out/progressV4.json', 'w'), ensure_ascii=False, indent=1)
-seen['lines'] = (seen['lines'] + new_lines)[-1500:]; seen['count'] = len(seen['lines']); seen['updated'] = TODAY
+seen['lines'] = seen['lines'] + new_lines; seen['count'] = len(seen['lines']); seen['updated'] = TODAY
+old = json.load(open(f'{DB}/meta/newsSeenOld.json'))
+if rotate_seen(seen, old, TODAY): json.dump(old, open('meta_out/newsSeenOld.json', 'w'), ensure_ascii=False)
 json.dump(seen, open('meta_out/newsSeen.json', 'w'), ensure_ascii=False)
 print(len(docs), collections.Counter(d['published'][:10] for d in docs), bas, prog['newsSeq'])
 print(collections.Counter(d.get('ind') or d['inds'][0] for d in docs), 'bytes', sum(os.path.getsize(f) for f in glob.glob('newsdocs/*.json')))

@@ -1,0 +1,91 @@
+{
+ "id": "n-bbg-0102",
+ "num": 102,
+ "key": "bnd-C007-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T23:58:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/german-production-jumps-most-in-17-months-on-construction-boom",
+ "origTitle": "",
+ "headline": "독일 8월 산업생산 17개월 만에 최대폭 증가…정부, 올해 성장 전망 두 배로 상향",
+ "src": [
+  {
+   "o": "The Local Germany",
+   "d": "2026-10-07",
+   "u": "https://www.thelocal.de/20261007/factory-production-in-germany-hits-highest-level-in-18-months"
+  },
+  {
+   "o": "Admiral Markets",
+   "d": "2026-10-07",
+   "u": "https://admiralmarkets.com/analytics/traders-blog/germany-industrial-production-august-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 산업생산, 건설 호황에 17개월 만에 최대폭 증가",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/german-production-jumps-most-in-17-months-on-construction-boom"
+  },
+  {
+   "t": "독일 8월 산업생산, 예상보다 크게 증가",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/german-industrial-output-rises-more-than-expected-august-2026-10-07/"
+  },
+  {
+   "t": "독일 무역업계, 2026년 수출 증가 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/china/german-trade-industry-raises-2026-export-growth-forecast-1-2026-10-07/"
+  },
+  {
+   "t": "독일 연립정부, 민주주의 역사적 시험대 속 개혁 의제 재확인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/german-coalition-affirms-reform-agenda-amid-historic-test-democracy-2026-10-08/"
+  },
+  {
+   "t": "독일 8월 수출, 예상 밖 감소",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/china/german-exports-unexpectedly-fall-august-2026-10-08/"
+  },
+  {
+   "t": "독일, 제조업 반등에 2026년 성장 전망 두 배로 상향",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/germany-doubles-2026-growth-outlook-as-manufacturing-rallies"
+  },
+  {
+   "t": "독일 정부, 2026·2027년 성장률 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/german-government-raises-growth-forecasts-2026-2027-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "독일 8월 산업생산 17개월 만에 최대폭 증가…정부, 올해 성장 전망 두 배로 상향",
+ "one": "독일 8월 산업생산이 건설 9.3% 급증에 힘입어 전월보다 2.0% 늘고 정부가 2026년 성장률 전망을 두 배 넘게 올렸지만, 같은 달 수출은 예상과 달리 줄고 업계는 개혁 없이는 반등이 짧을 수 있다고 경고했다",
+ "facts": [
+  "무엇이: 독일 8월 산업생산이 전월 대비 2.0% 늘어 시장 예상(약 0.5%)을 크게 웃돌았다 [사실]",
+  "원인: 건설이 9.3% 늘었고 에너지·건설 제외 제조업은 0.6% 증가, 자동차는 공장 휴가 영향 등으로 5.4% 감소했다 [사실]",
+  "전망: 독일 정부는 4월 1%에서 반으로 낮췄던 2026년 성장 전망을 상반기 호조에 두 배 넘게 올렸다 [사실]",
+  "무역: 8월 수출은 예상과 달리 감소했고, 무역업계는 2026년 수출 증가 전망을 높였다 [제목]",
+  "경계: 상공회의소(DIHK)는 실질적인 경제 개혁 없이는 회복이 오래가지 못할 것이라고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 정부의 2027년 전망 수치와 8월 수출 감소폭, 무역업계 전망치는 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

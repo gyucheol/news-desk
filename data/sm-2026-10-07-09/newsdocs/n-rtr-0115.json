@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0115",
+ "num": 115,
+ "key": "bnd-C265-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T15:54:00+09:00",
+ "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/",
+ "origTitle": "",
+ "headline": "미·러, 우크라이나 전쟁 중 유럽에 가스 판매 방안 모색",
+ "src": [],
+ "items": [
+  {
+   "t": "소식통 '미·러, 우크라이나 전쟁 중 유럽에 가스 판매 모색'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미·러, 우크라이나 전쟁 중 유럽에 가스 판매 방안 모색",
+ "one": "미국과 러시아가 우크라이나 전쟁이 이어지는 가운데 유럽에 가스를 판매하는 방안을 함께 검토하고 있다고 소식통들이 전하면서, 러시아산 가스를 줄여 온 유럽의 가스 수급 구도가 바뀔 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국과 러시아가 유럽 대상 가스 판매를 모색 [제목]",
+  "출처: 소식통 인용 보도로 공식 발표 아님 [제목]",
+  "영향: 성사되면 유럽 가스 공급원과 가격에 변화 가능 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 확인 못 함. 거래 구조·물량 미확인",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade"
+ ]
+}

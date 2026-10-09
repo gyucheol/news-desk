@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0052",
+ "num": 52,
+ "key": "bnd-C132-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T06:59:00+09:00",
+ "url": "https://www.reuters.com/legal/government/us-appeals-court-weighs-block-kennedys-vaccine-panel-appointments-2026-10-06/",
+ "origTitle": "",
+ "headline": "케네디 美 보건장관, 백신 부작용 연구 추진…법원은 백신자문위 임명 차단 심리",
+ "src": [
+  {
+   "o": "CNN",
+   "d": "2026-10-08",
+   "u": "https://cnn.com/2026/10/08/health/hhs-vaccine-injury-initiative"
+  },
+  {
+   "o": "The Hill",
+   "d": "2026-10-06",
+   "u": "https://thehill.com/policy/healthcare/6132695-appeals-court-considers-kennedy-acip-block/"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 항소법원, 케네디의 백신자문위 임명 차단 여부 심리",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/legal/government/us-appeals-court-weighs-block-kennedys-vaccine-panel-appointments-2026-10-06/"
+  },
+  {
+   "t": "케네디 美 보건장관, 백신 부작용 대응 새 추진",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/litigation/us-health-secretary-kennedy-launches-new-push-vaccine-injuries-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "케네디 美 보건장관, 백신 부작용 연구 추진…법원은 백신자문위 임명 차단 심리",
+ "one": "케네디 보건장관이 NIH에 백신 부작용 진료소를 열고 부작용 신고 확대를 추진하는 한편 연방항소법원은 그가 임명한 CDC 백신자문위원 13명의 직무 정지 명령을 심리하면서, 자문위가 회의를 열지 못해 독감 백신 등의 권고가 늦어지고 있다",
+ "facts": [
+  "무엇이: 미 보건부가 10월 8일 백신 접종 뒤 건강 문제를 연구·기록하는 부처 차원 사업을 시작했고 NIH 진료소가 문을 열었다 [사실]",
+  "세부: CMS는 의사의 VAERS 부작용 신고에 보상하는 방안을, CDC는 VAERS 개편을 추진한다 [사실]",
+  "소송: 제1순회 항소법원이 10월 6일 케네디가 임명한 ACIP 위원 13명의 직무를 정지한 3월 16일 하급심 명령을 심리했고 판결은 아직이다 [사실]",
+  "영향: ACIP는 하급심 판결 뒤 회의 두 번을 취소했고 정족수 부족으로 권고를 내지 못하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(CNN, The Hill)",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,63 @@
+{
+ "basis": "title",
+ "check": "정제·화학 마진은 기존 문서 한줄 근거. 가스 생산 상향 수치는 웹 검색 한도 소진으로 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 셸이 3분기 가스 생산 전망을 상향 [제목]",
+  "정제: 3분기 정제 마진 지표를 2분기 24달러에서 배럴당 42달러로 높여 안내 [사실]",
+  "화학: 화학 마진은 톤당 208달러로 하락 [사실]",
+  "미정: 가스 생산 전망치의 구체 수치는 확인 못 함 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "셸, 3분기 정제 마진 75% 급등 예고에 가스 생산 전망도 상향",
+ "id": "n-bbg-0100",
+ "incentive": "",
+ "inds": [
+  "gas",
+  "petchem"
+ ],
+ "insight": {},
+ "key": "bbg-1007-shell-q3-refining-margin",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/upstream",
+  "petchem/commodity"
+ ],
+ "num": 100,
+ "one": "셸이 3분기 정제 마진 지표를 배럴당 24달러에서 42달러로 높여 안내한 데 이어 통합가스 부문 생산 전망도 올리면서, 정유·가스 부문 이익은 늘지만 화학 마진은 톤당 208달러로 떨어져 석유화학 부진은 이어질 전망이다 (제목 기준)",
+ "origTitle": "Shell Sees Record Refining Margins as War Roils Fuel Markets",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T23:23:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "셸 3분기 안내문(GlobeNewswire)",
+   "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+  }
+ ],
+ "tags": [],
+ "title": "셸, 3분기 정제 마진 75% 급등 예고에 가스 생산 전망도 상향",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings",
+ "items": [
+  {
+   "t": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "t": "셸, 3분기 가스 생산 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

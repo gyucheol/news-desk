@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0069",
+ "num": 69,
+ "key": "bnd-C217-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T07:13:00+09:00",
+ "url": "https://www.reuters.com/world/lawmakers-raise-alarm-google-plan-acquire-spirit-airlines-data-ai-models-2026-10-08/",
+ "origTitle": "",
+ "headline": "구글, 파산 스피릿항공 내부 데이터 AI 학습용 인수…의원 100여 명 제동",
+ "src": [
+  {
+   "o": "The Hill",
+   "d": "2026-10-08",
+   "u": "https://thehill.com/homenews/house/6137595-horsford-warren-lawmakers-google-spirit-data-ai/"
+  },
+  {
+   "o": "The Record",
+   "d": "2026-10",
+   "u": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal"
+  }
+ ],
+ "items": [
+  {
+   "t": "의원들, 구글의 스피릿항공 데이터 AI 학습용 인수 계획에 경고",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/lawmakers-raise-alarm-google-plan-acquire-spirit-airlines-data-ai-models-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "구글, 파산 스피릿항공 내부 데이터 AI 학습용 인수…의원 100여 명 제동",
+ "one": "구글이 파산한 스피릿항공의 직원 이메일 약 1억 건 등 내부 기록을 1000만 달러에 사들여 AI 학습에 쓰려 하자 의원 100여 명이 개인정보 재식별 위험을 들어 제동을 걸면서, 10월 14일 법원 심리가 고비가 됐다",
+ "facts": [
+  "무엇이: 구글이 경매에서 1000만 달러에 스피릿항공 운영 기록(직원 이메일 약 1억 건, 팀즈 메시지 5억 건 등)을 낙찰 [사실]",
+  "반발: 워런 상원의원·호스퍼드 하원의원 주도로 의원 100명 이상이 AI로 비식별 정보가 재식별될 수 있다며 직원 정보 제외를 요구 [사실]",
+  "구글: 개인정보는 사지 않으며 제외하거나 독립 제3자가 비식별 처리한 뒤 받는다고 해명 [사실]",
+  "다음 일정: 개인정보 옴부즈맨은 승객 9700만 명 정보 제외를 조건으로 10월 14일 심리에서 승인을 권고 [사실]"
+ ],
+ "basis": "verified",
+ "check": "The Hill·The Record·PYMNTS 등 검색 결과 요약으로 확인. 의원 수는 출처마다 114~121명으로 다름",
+ "inds": [
+  "tech"
+ ],
+ "nodes": []
+}

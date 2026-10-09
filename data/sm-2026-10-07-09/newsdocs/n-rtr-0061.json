@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0061",
+ "num": 61,
+ "key": "bnd-C143-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T00:29:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/vietnams-central-bank-says-inflation-is-higher-than-targeted-remains-under-2026-10-07/",
+ "origTitle": "",
+ "headline": "과열되는 베트남 경제…은행들 70억 달러 증자 추진, 물가는 목표 웃돌아",
+ "src": [
+  {
+   "o": "The Investor",
+   "d": "2026-10",
+   "u": "https://theinvestor.vn/vietnam-banks-rush-to-raise-capital-expand-lending-headroom-d20094.html"
+  },
+  {
+   "o": "VIR",
+   "d": "2026-10",
+   "u": "https://vir.com.vn/lenders-turn-to-bond-market-to-strengthen-capital-base-155890.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "베트남 중앙은행 \"물가 목표보다 높지만 통제 범위 안\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/vietnams-central-bank-says-inflation-is-higher-than-targeted-remains-under-2026-10-07/"
+  },
+  {
+   "t": "경제 과열 속 베트남 은행들, 투자자에게서 70억 달러 조달",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/vietnams-banks-tap-investors-7-billion-economy-runs-red-hot-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "과열되는 베트남 경제…은행들 70억 달러 증자 추진, 물가는 목표 웃돌아",
+ "one": "베트남 대출이 9월 말 기준 1년 새 16.69% 불어나 경제가 과열되는 가운데 은행들이 대출 여력을 늘리려 70억 달러 가까운 신주 발행을 추진하고 중앙은행은 물가가 목표보다 높다고 인정하면서, 부동산 대출 비중이 큰 은행권의 건전성 부담이 커질 수 있다",
+ "facts": [
+  "무엇이: 베트남 은행들이 약 70억 달러 규모 신주 발행 준비, 상장 은행들은 올해 약 128조 동 증자 계획 [사실]",
+  "신용: 9월 30일 대출 잔액 약 2경 750조 동, 연초 대비 11.59%·전년 대비 16.69% 증가, 연간 목표 약 15% [사실]",
+  "물가: 중앙은행이 물가가 목표보다 높지만 통제 범위 안이라고 언급 [제목]",
+  "위험: 은행 대출의 약 4분의 1이 부동산, 부실채권 증가, 피치는 추가 증자 필요 가능성 경고 [사실]"
+ ],
+ "basis": "partial",
+ "check": "증자·신용 증가율은 검색 결과 요약으로 확인. 물가 수치는 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/liquidity"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

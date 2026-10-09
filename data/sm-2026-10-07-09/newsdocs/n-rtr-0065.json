@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0065",
+ "num": 65,
+ "key": "bnd-C213-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T09:57:00+09:00",
+ "url": "https://www.reuters.com/business/ai-pricing-lawsuit-against-mcdonalds-raises-new-antitrust-questions-2026-10-08/",
+ "origTitle": "",
+ "headline": "맥도날드, AI 가격 추천 도구로 가맹점 가격 담합 혐의 집단소송 피소",
+ "src": [
+  {
+   "o": "ABC News",
+   "d": "2026-10-08",
+   "u": "https://abcnews.com/Technology/wireStory/mcdonalds-sued-ai-tool-recommends-prices-us-franchisees-137046042"
+  },
+  {
+   "o": "Claims Journal",
+   "d": "2026-10-08",
+   "u": "https://www.claimsjournal.com/news/national/2026/10/08/340627.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "맥도날드 상대 AI 가격 책정 소송, 새로운 반독점 쟁점 제기",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/ai-pricing-lawsuit-against-mcdonalds-raises-new-antitrust-questions-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "맥도날드, AI 가격 추천 도구로 가맹점 가격 담합 혐의 집단소송 피소",
+ "one": "맥도날드가 비공개 거래 데이터로 학습한 AI 가격 추천 도구로 미국 가맹점 메뉴 가격을 사실상 조율했다는 집단소송이 시카고 연방법원에 제기되면서, 알고리즘 가격 책정에 대한 반독점 소송이 호텔·부동산에 이어 외식업으로 번지고 있다",
+ "facts": [
+  "무엇이: 시카고 연방법원에 맥도날드가 AI 가격 도구로 가맹점 가격을 조율해 반독점법을 어겼다는 집단소송이 제기됐다 [사실]",
+  "주장: 원고는 도구가 경쟁 가맹점끼리 비공개 매장 판매 데이터를 공유하게 하며 담합이 2019년부터 이어졌다고 주장한다 [사실]",
+  "반론: 맥도날드는 메뉴 가격은 AI가 아니라 가맹점이 정하며 도구는 선택 사항이라고 반박했다 [사실]",
+  "맥락: 알고리즘 가격 소송은 호텔·부동산·건강보험 등에서도 진행 중이며 판결은 엇갈린다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(ABC News, Claims Journal)",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": []
+}

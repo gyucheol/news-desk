@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0035",
+ "num": 35,
+ "key": "bnd-C061-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T23:36:00+09:00",
+ "url": "https://www.reuters.com/business/finance/pepsico-running-out-time-meet-elliott-inspired-targets-glp-1-threat-intensifies-2026-10-07/",
+ "origTitle": "",
+ "headline": "펩시코, 북미 회복 지연·원가 부담에 연간 이익 전망 하향…비용 절감 확대",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
+  },
+  {
+   "o": "PepsiCo 8-K(SEC)",
+   "d": "2026-10-08",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "펩시코, GLP-1 위협 커지는 가운데 엘리엇발 목표 달성 시간 부족",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/pepsico-running-out-time-meet-elliott-inspired-targets-glp-1-threat-intensifies-2026-10-07/"
+  },
+  {
+   "t": "펩시코, 탄산음료 사업 강화·스낵 회복 가속 모색",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/pepsico-lowers-guidance-on-mounting-costs-in-north-america"
+  },
+  {
+   "t": "펩시코, 비용 상승에 마진 악화로 연간 핵심 이익 전망 하향",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/retail-consumer/pepsico-cuts-annual-core-profit-forecast-higher-costs-hurt-margins-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "펩시코, 북미 회복 지연·원가 부담에 연간 이익 전망 하향…비용 절감 확대",
+ "one": "펩시코가 북미 음료 물량 2% 감소와 원가 상승으로 올해 핵심 주당순이익 증가율 전망을 2.5~3.5%로 낮추고 추가 구조적 비용 절감을 예고하면서, 엘리엇이 압박한 실적 목표 달성과 GLP-1 비만약 확산 대응 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 펩시코가 10월 8일 3분기 실적과 함께 올해 핵심 EPS 증가율 전망을 2.5~3.5%로 하향(기존 5~7% 하단) [사실]",
+  "3분기: 매출 5.6% 늘어난 252억 7천만 달러, 조정 EPS 2.34달러로 예상 상회, 북미 음료 물량 2% 감소·식품 물량 보합 [사실]",
+  "대응: 라구아르타 CEO가 수개월 안에 추가 구조적 비용 절감을 시행하겠다고 밝힘, 매출 성장 전망은 약 6%로 상향 [사실]",
+  "압박: 엘리엇이 촉발한 목표 달성 시간이 부족하고 GLP-1 위협이 커진다는 분석 [제목]"
+ ],
+ "basis": "verified",
+ "check": "회사 실적 발표(SEC)·CNBC 검색 결과 요약으로 확인",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0146",
+ "num": 146,
+ "key": "bnd-C113-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T10:06:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/sec-warns-activist-investors-after-climate-push-at-exxon-mobil",
+ "origTitle": "",
+ "headline": "SEC, 엑손 기후 표 대결 관련 기소 않지만 경고…\"기후 연대 가입 땐 13G 자격 잃을 수도\"",
+ "src": [
+  {
+   "o": "SEC",
+   "d": "2026-10-07",
+   "u": "https://www.sec.gov/files/litigation/investreport/34-106611.pdf"
+  },
+  {
+   "o": "ESG Today",
+   "d": "2026-10-08",
+   "u": "https://www.esgtoday.com/sec-drops-investigation-into-blackrock-state-street-with-a-warning-over-participation-in-climate-groups/"
+  }
+ ],
+ "items": [
+  {
+   "t": "SEC, 엑손 기후 압박 뒤 행동주의 투자자들에 경고",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/sec-warns-activist-investors-after-climate-push-at-exxon-mobil"
+  },
+  {
+   "t": "미 SEC, 기후 단체 기소 않기로…공시 의무는 경고",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/government/us-sec-will-not-pursue-charges-against-climate-group-warns-disclosure-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "SEC, 엑손 기후 표 대결 관련 기소 않지만 경고…\"기후 연대 가입 땐 13G 자격 잃을 수도\"",
+ "one": "미 증권거래위원회(SEC)가 2021년 엑손모빌 주총 표 대결과 관련한 기후 연대 '클라이밋 액션 100+' 조사에서 기소는 않기로 했지만, 지배권 영향을 노린 단체 가입이 간이 보고(13G) 자격을 잃게 할 수 있다고 경고해 대형 운용사의 기후 행동주의가 위축될 수 있다",
+ "facts": [
+  "무엇이: SEC가 10월 7일 Section 21(a) 조사 보고서(Release 34-106611)를 내고 클라이밋 액션 100+ 회원사에 대한 집행 조치를 하지 않기로 결정 [사실]",
+  "경고: 특정 발행사의 지배권 변경·영향을 목적으로 한 단체 가입이 Schedule 13G 자격 상실 요인이 될 수 있어 13D 보고 의무가 생길 수 있음 [사실]",
+  "배경: 2021년 5월 엑손모빌 주총에서 블랙록·뱅가드·스테이트스트리트가 엔진 넘버원 측 반대파 이사 일부 지지 [사실]",
+  "반응: 애즈유소는 각주로 새 규칙을 만든 것이라고 비판 [사실]"
+ ],
+ "basis": "verified",
+ "check": "SEC 보고서·InvestmentNews·ESG Today 검색 결과 요약으로 확인",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

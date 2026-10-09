@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0175",
+ "num": 175,
+ "key": "bnd-C159-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T02:09:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather",
+ "origTitle": "",
+ "headline": "PG&E, 강풍·산불 위험에 주말 예방 단전 경고…캘리포니아 북부 대상",
+ "src": [
+  {
+   "o": "Insurance Journal",
+   "d": "2026-10-09",
+   "u": "https://www.insurancejournal.com/news/west/2026/10/09/888527.htm"
+  },
+  {
+   "o": "ABC10",
+   "d": "2026-10-08",
+   "u": "https://www.abc10.com/article/news/local/california/potential-pge-power-shutoffs-could-affect-17-california-counties/103-28018f82-95ec-429e-b2f3-830a7de80690"
+  }
+ ],
+ "items": [
+  {
+   "t": "PG&E, 강풍 속 주말 단전 가능성 경고",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "PG&E, 강풍·산불 위험에 주말 예방 단전 경고…캘리포니아 북부 대상",
+ "one": "캘리포니아 최대 전력회사 PG&E가 건조한 강풍으로 산불 위험이 커지자 토요일부터 월요일까지 새크라멘토 북·서쪽 등 일부 지역에 예방 단전을 할 수 있다고 경고하면서, 약 1만 2,200가구의 전력 공급이 끊길 수 있다",
+ "facts": [
+  "무엇이: PG&E가 강풍·낮은 습도·산불 위험을 이유로 주말 공공안전 단전(PSPS) 가능성 경고 [사실]",
+  "범위: 약 1만 2,200 고객, 17개 카운티 일부가 대상이 될 수 있음(다른 보도는 7개 카운티) [사실]",
+  "일정: 10월 8일 고객 통보 완료, 금요일 오후~월요일 기상 감시 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Insurance Journal·ABC10 검색 결과 요약으로 확인. 대상 카운티 수는 보도별로 7곳·17곳으로 다름",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ]
+}

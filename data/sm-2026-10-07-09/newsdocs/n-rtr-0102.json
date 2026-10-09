@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0102",
+ "num": 102,
+ "key": "bnd-C252-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T20:29:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/ai-boom-fuel-australia-inflation-despite-higher-rates-ex-rba-official-says-2026-10-08/",
+ "origTitle": "",
+ "headline": "전 RBA 인사 \"AI 붐, 금리 올라도 호주 물가 자극할 것\"",
+ "src": [],
+ "items": [
+  {
+   "t": "전 RBA 인사 \"AI 붐, 금리 인상에도 호주 물가 부추길 것\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/ai-boom-fuel-australia-inflation-despite-higher-rates-ex-rba-official-says-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "전 RBA 인사 \"AI 붐, 금리 올라도 호주 물가 자극할 것\"",
+ "one": "호주중앙은행(RBA) 전직 인사가 AI 붐이 금리 인상에도 불구하고 호주 인플레이션을 부추길 것이라고 밝히면서, RBA의 긴축이 길어지거나 추가 인상 압력이 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 전 RBA 인사가 AI 붐이 높아진 금리에도 호주 물가를 끌어올릴 것이라고 언급 [제목]",
+  "의미: 물가 압력이 이어지면 RBA 통화정책이 더 오래 긴축적으로 유지될 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ]
+}

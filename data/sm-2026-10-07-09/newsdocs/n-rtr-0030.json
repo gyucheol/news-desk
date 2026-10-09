@@ -1,0 +1,72 @@
+{
+ "id": "n-rtr-0030",
+ "num": 30,
+ "key": "bnd-C037-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:39:00+09:00",
+ "url": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/",
+ "origTitle": "",
+ "headline": "EU 집행위, 이탈리아·그리스 재정준칙 추가 유연성 요구에 '재정 신중' 제동",
+ "src": [
+  {
+   "o": "Democrata",
+   "d": "2026-10-08",
+   "u": "https://www.democrata.es/en/economy/brussels-cools-the-demand-of-italy-and-greece-to-expand-fiscal-flexibility-in-the-face-of-the-energy-crisis/"
+  },
+  {
+   "o": "Rapporteur",
+   "d": "2026-10-08",
+   "u": "https://www.rapporteur.com/news/brussels-casts-doubt-on-italy-greeces-call-for-more-budget-wiggle-room/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이탈리아 'EU는 예산 이탈 평가 때 인플레이션 감안해야'",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/"
+  },
+  {
+   "t": "이탈리아, 2027년 예산 분담 놓고 은행·에너지 기업과 협의",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/italy-talking-banks-energy-groups-over-contribution-2027-budget-2026-10-08/"
+  },
+  {
+   "t": "EU, 이탈리아·그리스 재량 요구에 재정 신중 압박",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-pushes-for-fiscal-prudence-as-italy-and-greece-seek-leeway"
+  },
+  {
+   "t": "EU 집행위, 그리스·이탈리아의 재정준칙 유연성 확대 요구 거부",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/eu-exec-rejects-greek-italian-requests-more-fiscal-rules-flexibility-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "EU 집행위, 이탈리아·그리스 재정준칙 추가 유연성 요구에 '재정 신중' 제동",
+ "one": "에너지값 대응을 위해 이탈리아는 인플레이션 반영을, 그리스는 한시 지원책의 순지출 한도 제외를 요구했지만 EU 집행위가 '매번 새 유연성을 줄 수 없다'며 사실상 거부하면서, 두 나라의 내년 예산 운용 여지가 좁아지고 있다",
+ "facts": [
+  "무엇이: 돔브로우스키스 EU 경제 집행위원이 10월 8일 이탈리아·그리스의 재정준칙 유연성 확대 요구에 '새 유연성을 계속 줄 수는 없다'며 재정 신중을 강조 [사실]",
+  "요구 내용: 이탈리아는 예상보다 높은 물가를 적자·지출 이탈 평가에 반영하자고, 그리스는 가계·기업 한시 지원을 순지출 한도에서 빼 달라고 요청 [사실]",
+  "배경: EU는 6월 에너지 충격 대응에 GDP 0.6%의 추가 지출을 허용했고, 프랑스 등의 재정 우려로 국채 금리가 급등 [사실]",
+  "이탈리아 예산: 2027년 예산 재원 마련을 위해 은행·에너지 기업과 분담금 협의 중 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 집행위가 정밀 검토 여지는 남김",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

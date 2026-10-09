@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0157",
+ "num": 157,
+ "key": "bnd-C126-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T18:57:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/iraq-devalues-currency-as-hormuz-closure-hits-oil-exports",
+ "origTitle": "",
+ "headline": "이라크, 호르무즈 봉쇄로 원유 수출 줄자 디나르 평가절하…달러당 1,520",
+ "src": [
+  {
+   "o": "Oilprice.com",
+   "d": "2026-10-07",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html"
+  },
+  {
+   "o": "Kuwait Times",
+   "d": "2026-10-07",
+   "u": "https://kuwaittimes.com/article/51157/business/iraq-central-bank-devalues-dinar-as-war-hurts-oil-exports/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이라크, 호르무즈 차질로 원유 수출 타격에 통화 평가절하",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/iraq-devalues-currency-as-hormuz-closure-hits-oil-exports"
+  },
+  {
+   "t": "이라크 국영통신 \"디나르, 달러당 1,520으로 평가절하\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/iraq-devalues-dinar-1520-per-us-dollar-state-news-agency-says-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "이라크, 호르무즈 봉쇄로 원유 수출 줄자 디나르 평가절하…달러당 1,520",
+ "one": "이라크가 호르무즈 해협 차질로 세입의 90%를 차지하는 원유 수출이 전쟁 전 하루 360만 배럴에서 크게 줄자 디나르를 달러당 1,520으로 13~14.5% 평가절하해, 달러 원유 수입의 현지 화폐 가치는 늘지만 수입 물가와 가계 구매력 부담이 커질 전망이다",
+ "facts": [
+  "무엇이: 이라크가 10월 7일부터 은행 고객 대상 환율을 달러당 1,520디나르로 바꿔 디나르를 평가절하, 하락 폭은 13~14.5%로 보도 [사실]",
+  "원인: 원유가 세입의 약 90%인데 8월 수출이 하루 234만 배럴로 전쟁 전 360만 배럴을 크게 밑돎 [사실]",
+  "재정: 외환보유액이 전쟁 초 약 1천억 달러에서 8월 800억 달러로 감소 [사실]",
+  "부작용: 수입품 가격 상승과 구매력 감소 우려, 비공식 시장 환율은 1,700디나르를 넘어섬 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Oilprice, Rigzone, Kuwait Times)으로 확인. 절하 폭은 출처별 13%/14.5%",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx",
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

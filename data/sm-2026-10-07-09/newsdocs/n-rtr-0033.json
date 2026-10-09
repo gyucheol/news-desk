@@ -1,0 +1,81 @@
+{
+ "id": "n-rtr-0033",
+ "num": 33,
+ "key": "bnd-C044-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T05:59:00+09:00",
+ "url": "https://www.reuters.com/business/energy/stability-fair-fiscal-terms-needed-venezuela-russia-see-investors-return-conoco-2026-10-06/",
+ "origTitle": "",
+ "headline": "베네수엘라산 원유 인도 수입 7년 만에 최대…미 업체 복귀 속 볼리바르는 급락",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-07",
+   "u": "https://www.business-standard.com/economy/news/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high-in-oct-126100700608_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "코노코 '안정과 공정한 재정 조건 있어야 베네수엘라·러시아에 투자자 돌아온다'",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/stability-fair-fiscal-terms-needed-venezuela-russia-see-investors-return-conoco-2026-10-06/"
+  },
+  {
+   "t": "릴라이언스 주도로 인도의 베네수엘라 원유 수입 7년 만에 최대",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high"
+  },
+  {
+   "t": "캘리포니아 소형 석유사, 베네수엘라 진출 선발주자로",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/pacific-coast-energy-starts-work-to-revive-venezuela-oil-fields"
+  },
+  {
+   "t": "월가 신생 투자사, 트럼프의 베네수엘라 광업 추진에 베팅",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/a-wall-street-upstart-bets-on-trump-s-venezuelan-mining-push"
+  },
+  {
+   "t": "로드리게스가 조정 강조하는 가운데 통화 급락이 베네수엘라 시험",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/venezuela-bolivar-hits-new-milestone-as-dollar-supply-declines"
+  },
+  {
+   "t": "베네수엘라 대통령, 지진 피해에도 3분기 성장 기대",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/venezuelas-president-expects-third-quarter-growth-after-earthquake-hit-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "베네수엘라산 원유 인도 수입 7년 만에 최대…미 업체 복귀 속 볼리바르는 급락",
+ "one": "릴라이언스가 잼나가르 정유공장으로 베네수엘라 중질유를 대거 들여오며 10월 인도의 수입이 7년 만에 최대로 늘고 미국 소형 석유사도 유전 재가동에 나섰지만, 달러 공급이 줄며 볼리바르가 급락해 베네수엘라 경제의 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 케플러 추정 10월 인도의 베네수엘라산 원유 수입이 최대 하루 46만5,000배럴로 2019년 12월 이후 최대, 9월은 약 19만6,000배럴 [사실]",
+  "배경: 러시아산 우랄유가 비싸지고 베네수엘라 메레이유는 할인 판매되며, 인도는 미국 제재 완화 뒤 2월 수입을 재개 [사실]",
+  "투자자: 코노코는 안정적이고 공정한 재정 조건이 있어야 베네수엘라·러시아에 투자자가 돌아온다고 밝힘, 캘리포니아 소형사 퍼시픽코스트에너지는 유전 복구 착수 [제목]",
+  "환율: 달러 공급 감소로 볼리바르가 새 저점, 로드리게스 대통령은 조정을 내세우며 3분기 성장을 기대 [제목]"
+ ],
+ "basis": "partial",
+ "check": "인도 수입 규모는 검색 결과 요약으로 확인. 볼리바르 급락·퍼시픽코스트 유전 복구·광업 투자는 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/fx",
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

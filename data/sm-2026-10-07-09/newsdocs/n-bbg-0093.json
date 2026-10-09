@@ -1,0 +1,79 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 워시 칭찬은 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 게오르기에바 총재가 10월 7일 싱가포르 연설에서 에너지 충격·부채·AI 위험이 세계 성장을 위협한다고 경고 [사실]",
+  "에너지: 유가가 배럴당 100달러 근처이고 경유 등 정제 마진이 추가 부담, 걸프 전쟁이 끝나도 고유가가 2027년까지 이어질 수 있다고 봄 [사실]",
+  "부채: 미국을 필두로 한 선진국을 '최악'으로 꼽고 세계 공공부채가 2030년 전 GDP의 100%를 넘을 것이라며 재정 건전화 촉구, 워시 연준의 9월 금리 인상을 물가 안정 우선이라 칭찬 [사실]",
+  "AI: 대형 AI 기업 실적이 실망스러우면 높은 레버리지와 미국 주식 대량 보유 탓에 더 넓은 충격으로 번질 수 있다고 경고 [사실]",
+  "일정: IMF·세계은행 연차총회는 10월 12~18일 방콕에서 열리며 새 성장 전망 발표 예정 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IMF 총재 'AI·유가·부채 위험 칵테일' 경고…주요국에 재정 건전화 촉구",
+ "id": "n-bbg-0093",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1007-imf-georgieva-praises-warsh",
+ "nodes": [
+  "macro/commodity",
+  "macro/fiscal",
+  "macro/growth"
+ ],
+ "num": 93,
+ "one": "게오르기에바 IMF 총재가 유가 배럴당 100달러 안팎의 에너지 충격과 2030년 전 GDP의 100%를 넘을 공공부채, AI 붐의 실적 실망 위험이 겹쳐 세계 성장을 위협한다고 경고하고 미국 등에 재정 건전화를 촉구하면서, 방콕 연차총회를 앞두고 성장 전망 하향 가능성이 커졌다",
+ "origTitle": "Fed’s Warsh Earns IMF Praise for Focusing on Price Stability",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T16:56:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Briefs(블룸버그TV 인용)",
+   "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-07",
+   "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+  },
+  {
+   "o": "Manila Times",
+   "d": "2026-10-08",
+   "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+  }
+ ],
+ "tags": [],
+ "title": "IMF 총재 'AI·유가·부채 위험 칵테일' 경고…주요국에 재정 건전화 촉구",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability",
+ "items": [
+  {
+   "t": "IMF 총재, 워시의 '물가 안정 우선' 칭찬…미·일 등에 부채 대응 촉구",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "t": "IMF 총재 '세계, AI·석유·부채의 위험 칵테일에 직면'",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/world-faces-risk-cocktail-from-ai-oil-and-debt-says-imf-chief"
+  },
+  {
+   "t": "IMF 총재, 에너지 충격·부채 증가·AI 위험이 세계 성장 위협한다고 경고",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-chief-warns-energy-shock-growing-debt-ai-risks-threaten-global-growth-2026-10-07/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

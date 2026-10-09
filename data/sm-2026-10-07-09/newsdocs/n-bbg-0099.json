@@ -1,0 +1,77 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Zawya, Upstream, OGJ). 회사 공식 가동 시점은 2027년 상반기",
+ "cycles": [],
+ "facts": [
+  "무엇이: 카타르에너지의 노스필드이스트(NFE) 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤고, 첫 LNG 생산은 2027년 1분기로 예상된다고 소식통이 전했다 [사실]",
+  "셸: 3월 이란 전쟁 중 공격으로 2개 트레인 중 하나가 손상된 펄 GTL을 부분 재가동해 제한된 재고를 쌓고 있으며, 2번 트레인 수리는 내년 1분기 완료 예정이다 [사실]",
+  "제약: 추가 트레인 장비 반입과 제품 선적은 호르무즈 해협 안전 통행에 달려 있다 [사실]",
+  "기존: 카타르는 빈 LNG선을 라스라판 앞으로 모으며 9월 전쟁 이후 최대로 회복된 수출을 더 늘릴 선적 여력을 만들고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "카타르 LNG 복구 속도…NFE 첫 트레인 11월 가동 준비, 셸 펄 GTL 부분 재가동",
+ "id": "n-bbg-0099",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "key": "bbg-1007-qatar-empty-lng-ships",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "num": 99,
+ "one": "카타르가 빈 LNG선을 걸프 안으로 불러들이는 가운데 연산 800만 톤 규모 노스필드이스트 첫 트레인이 11월 가동 준비를 마치고 셸이 3월 공격으로 멈춘 펄 GTL을 부분 재가동하면서, 호르무즈 통행이 풀리면 카타르의 LNG·석유제품 공급이 빠르게 늘어날 수 있다",
+ "origTitle": "Qatar Brings Empty LNG Ships Into Gulf in Potential Export Boost",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:14:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "1Arabia(아라비안 포스트)",
+   "u": "https://www.1arabia.com/2026/10/qatar-positions-empty-lng-fleet-for.html"
+  },
+  {
+   "o": "Zawya",
+   "d": "2026-10-07",
+   "u": "https://www.zawya.com/en/business/commodities/first-lng-train-at-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-1545253"
+  },
+  {
+   "o": "Upstream",
+   "d": "2026-10-08",
+   "u": "https://www.upstreamonline.com/energy-security/shell-partially-restarts-pearl-facility-in-qatar-after-attacks/2-1-2056091"
+  }
+ ],
+ "tags": [],
+ "title": "카타르 LNG 복구 속도…NFE 첫 트레인 11월 가동 준비, 셸 펄 GTL 부분 재가동",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost",
+ "items": [
+  {
+   "t": "카타르, 빈 LNG선을 걸프 안으로 불러들여…수출 확대 준비 신호",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost"
+  },
+  {
+   "t": "카타르에너지 NFE 프로젝트 첫 LNG 트레인 가동 준비 완료…소식통 2명",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/"
+  },
+  {
+   "t": "셸, 카타르 펄 가스액화연료(GTL) 공장 부분 재가동",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

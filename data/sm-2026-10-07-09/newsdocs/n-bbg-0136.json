@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0136",
+ "num": 136,
+ "key": "bnd-C094-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:06:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/midterm-elections-are-potential-test-for-us-defense-investors",
+ "origTitle": "",
+ "headline": "미 중간선거 다가오자 AI 인기주·방산주가 최대 위험군으로",
+ "src": [
+  {
+   "o": "Advisor Perspectives",
+   "d": "2026-09-24",
+   "u": "https://www.advisorperspectives.com/articles/2026/09/24/ai-trade-key-concern-stock-investors-election-risks"
+  },
+  {
+   "o": "Futu 뉴스(차이롄)",
+   "d": "2026-10-09",
+   "u": "https://news.futunn.com/en/post/1000760817/less-than-a-month-until-the-midterm-elections-will-these"
+  }
+ ],
+ "items": [
+  {
+   "t": "중간선거, 미 방산 투자자들에게 시험대 될 수도",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/midterm-elections-are-potential-test-for-us-defense-investors"
+  },
+  {
+   "t": "미 중간선거 임박에 AI 인기주·방산주가 가장 위험",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-darlings-defense-shares-most-at-risk-as-us-midterms-near"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미 중간선거 다가오자 AI 인기주·방산주가 최대 위험군으로",
+ "one": "미 중간선거를 앞두고 여론조사가 민주당 쪽으로 기울면서 의회 청문회·조사 강화 가능성이 커져, 밸류에이션이 높은 AI 인기주와 예산 지연 우려가 있는 방산주가 가장 큰 하락 위험에 놓였다는 분석이 나온다",
+ "facts": [
+  "무엇이: 중간선거를 앞두고 AI 인기주와 방산주가 가장 위험한 업종으로 지목 [제목]",
+  "근거: 여론조사·예측시장이 민주당 우세로 기울어 최소 한 원 장악 가능성이 커졌고, 에버코어 ISI는 빅테크·AI 조사·청문회를 가장 큰 시장 위험으로 꼽음 [사실]",
+  "방산: 민주당이 의회를 장악하면 감시 강화와 예산 지연 우려, 미국 항공우주·방산 ETF는 8월 14일 고점 대비 최대 18.2% 하락 [사실]",
+  "전망: 뱅크오브아메리카는 민주당이 상·하원과 텍사스까지 이기면 미국 증시가 10% 떨어질 수 있다고 경고 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Advisor Perspectives, Futu/차이롄, Morningstar)으로 확인. 일부는 9월 말 보도 내용",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/fiscal"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

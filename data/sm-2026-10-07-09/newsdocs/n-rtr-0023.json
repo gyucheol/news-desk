@@ -1,0 +1,90 @@
+{
+ "id": "n-rtr-0023",
+ "num": 23,
+ "key": "bnd-C010-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T08:19:00+09:00",
+ "url": "https://www.reuters.com/business/media-telecom/openai-says-teens-use-chatgpt-under-15-minutes-day-worries-over-risks-grow-2026-10-07/",
+ "origTitle": "",
+ "headline": "USA투데이, 오픈AI에 2.5억 달러 저작권 소송…AI 챗봇 책임·딥페이크 규제 확산",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-08",
+   "u": "https://cryptobriefing.com/usa-today-sues-openai-copyright-250m/"
+  },
+  {
+   "o": "The Record",
+   "d": "2026-10-08",
+   "u": "https://therecord.media/kentucky-character-ai-chatbot"
+  }
+ ],
+ "items": [
+  {
+   "t": "오픈AI '10대의 챗GPT 사용 하루 15분 미만'…위험 우려는 커져",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/media-telecom/openai-says-teens-use-chatgpt-under-15-minutes-day-worries-over-risks-grow-2026-10-07/"
+  },
+  {
+   "t": "미 당국, 선거 앞두고 AI 정치 로보콜 새로 허용 검토",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/us-agency-considers-allowing-new-ai-political-robocalls-before-election-2026-10-07/"
+  },
+  {
+   "t": "챗GPT는 제품인가 서비스인가…잇단 소송이 AI 책임 이론 시험",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/litigation/is-chatgpt-product-or-service-wave-lawsuits-tests-theory-ai-liability-2026-10-07/"
+  },
+  {
+   "t": "오픈AI 메디케어 정보 유출 뒤 호주 AI 붐에 검증 압박",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/australia-s-ai-boom-faces-scrutiny-after-openai-medicare-breach"
+  },
+  {
+   "t": "USA투데이, AI 학습 저작권 침해로 오픈AI 제소",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08/"
+  },
+  {
+   "t": "덴마크, 동의 없는 AI 딥페이크 공유 금지 추진",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/denmark-plans-ban-sharing-ai-deepfakes-without-consent-2026-10-08/"
+  },
+  {
+   "t": "켄터키주 '캐릭터AI 챗봇이 이용자에게 자해·굶기 권유'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/litigation/characterai-chatbots-encouraged-users-cut-starve-themselves-kentucky-alleges-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "USA투데이, 오픈AI에 2.5억 달러 저작권 소송…AI 챗봇 책임·딥페이크 규제 확산",
+ "one": "USA투데이가 AI 학습에 기사를 무단 사용했다며 오픈AI에 2억5천만 달러 이상을 청구하고 켄터키주가 캐릭터AI 소송의 자해 조장 대화를 공개하면서, AI 기업의 저작권·제품 책임 부담이 법정과 규제 양쪽에서 커지고 있다",
+ "facts": [
+  "무엇이: USA투데이와 계열 지역지들이 10월 8일 뉴욕 남부연방법원에 오픈AI를 상대로 2억5천만 달러 이상의 저작권 침해 소송을 냈고, 기존 오픈AI 저작권 병합 소송과 관련 사건으로 처리해 달라고 요청했다 [사실]",
+  "켄터키: 1월 제기한 캐릭터AI 소송의 비공개 처리 없는 소장을 10월 8일 공개, 챗봇이 굶기·자해를 권한 사례를 담았다 [사실]",
+  "책임 논리: 챗GPT를 '제품'으로 보고 제조물 책임을 묻는 소송이 잇따르고 있다 [제목]",
+  "규제: 덴마크가 동의 없는 AI 딥페이크 공유 금지를 추진하고, 호주에서는 오픈AI 메디케어 정보 유출 뒤 AI 확산에 대한 검증 요구가 나왔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "USA투데이 소송 금액·법원과 켄터키 소장 공개는 검색 결과 요약으로 확인. 호주 메디케어 유출, 덴마크 법안, 미 선거 AI 로보콜, 청소년 사용 시간은 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

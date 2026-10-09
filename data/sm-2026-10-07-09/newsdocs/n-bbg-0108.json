@@ -1,0 +1,85 @@
+{
+ "id": "n-bbg-0108",
+ "num": 108,
+ "key": "bnd-C025-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T23:02:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/hungary-sees-economic-growth-upswing-bond-rally-on-euro-path",
+ "origTitle": "",
+ "headline": "폴란드·루마니아·세르비아 금리 동결…에너지발 물가·정치 불안에 중동부 유럽 긴축 유지",
+ "src": [
+  {
+   "o": "Poland Insight",
+   "d": "2026-10-07",
+   "u": "https://polandinsight.com/poland-interest-rates-375-investors-price-in-hikes-19771/"
+  },
+  {
+   "o": "Central Banking",
+   "d": "2026-10-08",
+   "u": "https://www.centralbanking.com/central-banks/monetary-policy/7976610/national-bank-of-romania-holds-rates-amid-political-instability"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-08",
+   "u": "https://www.briefs.co/news/serbia-keeps-key-rate-steady-for-25th-straight-month-ahead-o/"
+  }
+ ],
+ "items": [
+  {
+   "t": "헝가리, 성장 반등 전망…유로 도입 기대에 국채 강세",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/hungary-sees-economic-growth-upswing-bond-rally-on-euro-path"
+  },
+  {
+   "t": "폴란드, 연료가격 상한이 물가 억제하자 금리 동결",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/poland-keeps-rates-unchanged-as-fuel-price-cap-curbs-inflation"
+  },
+  {
+   "t": "루마니아, 정치 불안에 레우 약세 속 EU 최고 금리 유지 전망",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/romania-to-keep-eu-s-highest-rates-as-political-woes-weaken-leu"
+  },
+  {
+   "t": "세르비아, 중대 선거 앞두고 기록적 금리 동결 연장",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/serbia-extends-record-rate-pause-in-run-up-to-pivotal-election"
+  },
+  {
+   "t": "폴란드 글라핀스키 총재 '본인 행위 조사는 근거 없다'",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/polish-central-bank-chief-calls-probe-into-his-conduct-baseless"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "폴란드·루마니아·세르비아 금리 동결…에너지발 물가·정치 불안에 중동부 유럽 긴축 유지",
+ "one": "폴란드(3.75%)·루마니아(6.50%)·세르비아(5.75%) 중앙은행이 중동 전쟁발 에너지 물가와 정치 불안 속에 금리를 일제히 동결하면서, 폴란드 물가가 4%로 오른 가운데 시장은 내년 인상 가능성을 반영하기 시작했다",
+ "facts": [
+  "무엇이: 폴란드 중앙은행이 10월 7일 기준금리를 3.75%로 동결했다. 9월 물가상승률은 4%로 8월 3.4%에서 올랐다 [사실]",
+  "폴란드 전망: 연료가격 상한이 물가를 누르고 있지만 시장은 약 1%p 인상을 반영하고 있다 [사실]",
+  "루마니아: 금리를 EU 최고 수준인 6.50%로 유지했고, 정치 불안으로 레우화가 약세다 [사실]",
+  "세르비아: 선거를 앞두고 5.75% 동결을 기록적으로 이어갔다 [사실]",
+  "헝가리: 성장 반등 전망과 유로 도입 기대에 국채가 강세다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 세르비아 10월 결정은 출처 날짜 혼선이 있어 블룸버그 제목과 함께 판단, 폴란드 총재 조사 건은 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

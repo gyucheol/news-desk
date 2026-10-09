@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0208",
+ "num": 208,
+ "key": "bnd-C196-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T22:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/sk-hynix-lockup-expiry-stirs-anxiety-over-bumper-adr-premium",
+ "origTitle": "",
+ "headline": "SK하이닉스 美 ADR 보호예수 해제…국내 주식 대비 38% 프리미엄 흔들",
+ "src": [
+  {
+   "o": "TokenPost",
+   "d": "2026-10-07",
+   "u": "https://www.tokenpost.com/news/investing/27829"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-08",
+   "u": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-adr-stock-sliding-today-93CH-4936822"
+  }
+ ],
+ "items": [
+  {
+   "t": "SK하이닉스 보호예수 해제, 높은 ADR 프리미엄 불안 키워",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/sk-hynix-lockup-expiry-stirs-anxiety-over-bumper-adr-premium"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "SK하이닉스 美 ADR 보호예수 해제…국내 주식 대비 38% 프리미엄 흔들",
+ "one": "SK하이닉스 미국 ADR이 7월 나스닥 상장 후 90일 보호예수가 풀리는 시점에 한국 주식보다 38% 비싸게 거래되면서, 물량 출회로 아시아 최대 수준의 ADR 프리미엄이 줄어들 수 있다는 우려가 커졌다",
+ "facts": [
+  "무엇이: SK하이닉스 미국 ADR의 90일 보호예수가 10월 7~8일 해제 [사실]",
+  "프리미엄: 10월 6일 종가 기준 ADR이 한국 주식보다 38% 높아 블룸버그 집계 아시아 주요 발행사 중 최고 [사실]",
+  "물량: 해제 물량은 약 263만 ADS, 약 4억 8,900만 달러로 추정 [사실]",
+  "시각: 펀더멘털 문제는 아니지만 매도의 기술적 이유가 된다는 평가 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(TokenPost, Investing.com, Stocktwits)으로 확인. 해제일은 출처별 7일/8일",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0126",
+ "num": 126,
+ "key": "bnd-C082-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:35:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/worst-performing-philippine-bonds-face-peso-inflation-risks",
+ "origTitle": "",
+ "headline": "부진한 필리핀 국채, 페소·물가 위험 속 국제 가격 관행 도입해 외국인 유치",
+ "src": [
+  {
+   "o": "Daily Tribune",
+   "d": "2026-10-09",
+   "u": "https://tribune.net.ph/2026/10/09/phl-to-adopt-global-bond-pricing-rules-in-january-2027"
+  },
+  {
+   "o": "AsianBondsOnline(ADB)",
+   "d": "2026-10-01",
+   "u": "https://asianbondsonline.adb.org/philippines/"
+  }
+ ],
+ "items": [
+  {
+   "t": "가장 부진한 필리핀 국채, 페소·인플레이션 위험 직면",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/worst-performing-philippine-bonds-face-peso-inflation-risks"
+  },
+  {
+   "t": "필리핀, 투자자 유치 위해 국제 채권 가격 산정 방식 도입",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/philippines-to-adopt-international-bond-pricing-to-woo-investors"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "부진한 필리핀 국채, 페소·물가 위험 속 국제 가격 관행 도입해 외국인 유치",
+ "one": "페소 약세와 물가 상승으로 필리핀 국채 성적이 가장 부진한 가운데 필리핀 정부가 2027년 1월부터 페소 국채 결제에 국제 가격 산정 관행을 적용하기로 하면서, JP모건 신흥국 국채지수 편입을 앞두고 외국인 자금 유입을 늘리려 하고 있다",
+ "facts": [
+  "무엇이: 필리핀 당국이 10월 9일 페소 국채 결제에 국제 가격 산정 관행을 2027년 1월 4일부터 적용한다고 발표 [사실]",
+  "배경: JP모건이 2027년 1월 29일 필리핀 페소 국채를 신흥국 국채지수(GBI-EM)에 편입할 예정 [사실]",
+  "시장: 10월 1일 기준 10년물 금리 7.61%로 연초보다 약 154bp 상승, 페소는 달러당 62.80 [사실]",
+  "위험: 페소 약세와 물가 상승으로 필리핀 국채가 가장 부진한 성적 [제목]"
+ ],
+ "basis": "partial",
+ "check": "가격 관행 도입 시점·지수 편입·금리 수준은 검색 결과 요약으로 확인. '가장 부진' 순위는 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fx"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

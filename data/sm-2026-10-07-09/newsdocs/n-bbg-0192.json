@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0192",
+ "num": 192,
+ "key": "bnd-C178-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/madagascar-skips-tender-for-power-equipment-as-russia-ties-grow",
+ "origTitle": "",
+ "headline": "마다가스카르, 입찰 없이 러시아 업체서 발전기 18대 구매…친러 행보 강화",
+ "src": [
+  {
+   "o": "Midi Madagasikara",
+   "d": "2026-10-07",
+   "u": "https://midi-madagasikara.mg/delestage-et-penurie-energetique-la-jirama-requisitionnee-pour-lachat-de-18-groupes-aupres-dune-societe-russe-2/"
+  },
+  {
+   "o": "Madagascar Tribune",
+   "d": "2026-10-07",
+   "u": "https://m.madagascar-tribune.com/18-groupes-electrogenes-russes-pour-renforcer-la-production-de-la-JIRAMA.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "마다가스카르, 러시아와 관계 깊어지며 전력설비 입찰 생략",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/madagascar-skips-tender-for-power-equipment-as-russia-ties-grow"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "마다가스카르, 입찰 없이 러시아 업체서 발전기 18대 구매…친러 행보 강화",
+ "one": "에너지 비상사태 속 마다가스카르 정부가 국영 전력회사 JIRAMA에 러시아 업체의 디젤 발전기 18대(약 18MW)를 입찰 없이 직접 사도록 지시하면서, 공급사 선정과 계약 금액의 투명성 논란 속에 러시아와의 밀착이 짙어지고 있다",
+ "facts": [
+  "무엇이: 마다가스카르 정부가 10월 6일 국무회의에서 JIRAMA에 러시아 업체 Malmekhservice의 디젤 발전기 18대를 수의계약으로 구매하도록 지시 [사실]",
+  "규모: 대당 약 1MW, 수도 안타나나리보 연계 전력망에 18MW 추가 목적 [사실]",
+  "근거: 9월 29일 연장된 에너지 비상사태를 근거로 입찰 절차 생략 [사실]",
+  "논란: 공급사 선정 방식·계약 금액·보증 조건이 공개되지 않아 의문 제기, 지난해 군사 쿠데타 이후 러시아와 관계 강화 [사실]"
+ ],
+ "basis": "verified",
+ "check": "현지 매체(Midi Madagasikara·Madagascar Tribune) 검색 결과 요약으로 확인. 계약 금액은 미확인",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/gen"
+ ]
+}

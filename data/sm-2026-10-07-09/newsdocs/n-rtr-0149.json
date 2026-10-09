@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0149",
+ "num": 149,
+ "key": "bnd-C304-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T20:37:00+09:00",
+ "url": "https://www.reuters.com/business/energy/singapore-miss-2035-green-power-import-target-wood-mackenzie-says-2026-10-07/",
+ "origTitle": "",
+ "headline": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+ "src": [],
+ "items": [
+  {
+   "t": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 미달할 것\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/singapore-miss-2035-green-power-import-target-wood-mackenzie-says-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+ "one": "에너지 컨설팅사 우드매켄지가 싱가포르의 2035년 저탄소 전력 수입 목표가 달성되지 못할 것으로 전망하면서, 가스발전 의존이 큰 싱가포르의 전력 탈탄소 일정과 역내 해저 송전망 사업이 늦어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 우드매켄지가 싱가포르의 2035년 녹색전력 수입 목표 미달을 전망 [제목]",
+  "미확인: 목표 규모와 예상 달성치, 지연 원인 [미확인]",
+  "영향: 싱가포르의 가스발전 의존 지속 가능성 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 확인 못 함",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ]
+}

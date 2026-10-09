@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0108",
+ "num": 108,
+ "key": "bnd-C258-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:15:00+09:00",
+ "url": "https://www.reuters.com/business/finance/ecbs-wunsch-pushes-back-proposal-increase-bank-charges-2026-10-08/",
+ "origTitle": "",
+ "headline": "ECB 분슈 총재, 은행 무이자 지급준비율 인상안에 반대",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-08",
+   "u": "https://www.indexbox.io/blog/ecb-policymaker-wunsch-opposes-higher-bank-reserve-charges/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/ecbs-wunsch-says-that-the-case-for-lifting-the-minimum-reserve-requirement-is-not-very-clear-or-convincing"
+  }
+ ],
+ "items": [
+  {
+   "t": "ECB 분슈, 은행 부담금 인상안에 반대",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/ecbs-wunsch-pushes-back-proposal-increase-bank-charges-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "ECB 분슈 총재, 은행 무이자 지급준비율 인상안에 반대",
+ "one": "ECB가 손실을 줄이고 물가 대응 차원에서 은행 초과 유동성의 무이자 예치를 늘리는 지급준비율 인상을 논의하는 가운데 분슈 벨기에 중앙은행 총재가 준재정 수단이라며 반대하면서, 은행 부담 확대안 추진에 제동이 걸릴 수 있다",
+ "facts": [
+  "무엇이: 분슈 벨기에 중앙은행 총재가 10월 8일 은행 최소 지급준비율 인상 논의에 대해 '근거가 명확하지도 설득력 있지도 않다'고 반박 [사실]",
+  "논의 배경: ECB 정책위원들이 손실 축소와 금융 여건 긴축을 위해 은행 초과 유동성을 무이자 계정에 더 묶어두는 방안 논의 [사실]",
+  "반대 이유: 중앙은행 손실 축소 목적이면 준재정 수단이 되고, 은행 부담이 커지면 향후 채권 매입 참여 의지가 약해질 수 있음 [사실]",
+  "규모: 금융권 초과 유동성은 2조 1천억 유로 이상, 분데스방크는 손실로 배당 중단 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(IndexBox·Newsquawk)",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/liquidity"
+ ]
+}

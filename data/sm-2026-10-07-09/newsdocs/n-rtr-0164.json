@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0164",
+ "num": 164,
+ "key": "bnd-C323-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T10:15:00+09:00",
+ "url": "https://www.reuters.com/business/energy/chevron-divest-ownership-interests-hess-midstream-dj-basin-crude-midstream-2026-10-06/",
+ "origTitle": "",
+ "headline": "셰브론, 헤스 미드스트림 지분과 DJ 분지 원유 미드스트림 자산 매각",
+ "src": [],
+ "items": [
+  {
+   "t": "셰브론, 헤스 미드스트림·DJ 분지 원유 미드스트림 지분 매각",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/chevron-divest-ownership-interests-hess-midstream-dj-basin-crude-midstream-2026-10-06/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "셰브론, 헤스 미드스트림 지분과 DJ 분지 원유 미드스트림 자산 매각",
+ "one": "셰브론이 헤스 미드스트림 보유 지분과 DJ 분지 원유 미드스트림 자산 지분을 팔기로 하면서, 파이프라인 등 미드스트림 자산을 정리해 현금을 확보하고 해당 자산은 새 소유주에게 넘어가게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 셰브론이 헤스 미드스트림 보유 지분과 DJ 분지 원유 미드스트림 자산 지분을 매각한다 [제목]",
+  "의미: 미드스트림 자산을 정리해 현금을 확보하는 흐름이다 [추론]",
+  "남은 점: 매각 상대와 금액은 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 독립 출처 확인 못 함. 기사 제목만 근거",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/midstream"
+ ]
+}

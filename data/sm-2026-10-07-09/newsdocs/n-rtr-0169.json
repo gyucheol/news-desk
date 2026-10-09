@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0169",
+ "num": 169,
+ "key": "bnd-C328-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T05:40:00+09:00",
+ "url": "https://www.reuters.com/business/finance/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny-2026-10-06/",
+ "origTitle": "",
+ "headline": "IMF '헤지펀드 시장 영향력 커져 감독 강화 필요'",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF '헤지펀드 시장 영향력 커져 면밀한 감독 필요'",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny-2026-10-06/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "IMF '헤지펀드 시장 영향력 커져 감독 강화 필요'",
+ "one": "IMF가 헤지펀드의 시장 내 비중이 커지고 있다며 더 면밀한 감독이 필요하다고 지적하면서, 레버리지를 쓰는 비은행 투자자에 대한 규제 논의가 확대될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF가 헤지펀드의 시장 영향력 확대로 감독 강화가 필요하다고 언급 [제목]",
+  "영향: 비은행 금융 규제 논의 확대 가능성 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 확인 못 함. 보고서 수치 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ]
+}

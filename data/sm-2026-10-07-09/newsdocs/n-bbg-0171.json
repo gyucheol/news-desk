@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0171",
+ "num": 171,
+ "key": "bnd-C155-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:25:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/kinder-morgan-lifts-force-majeure-on-us-mexico-gas-pipeline",
+ "origTitle": "",
+ "headline": "킨더모건, 미·멕시코 가스관 불가항력 해제…멕시코행 가스 5분의 1 줄었다 복구",
+ "src": [
+  {
+   "o": "Natural Gas Intelligence",
+   "d": "2026-10-08",
+   "u": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/"
+  },
+  {
+   "o": "Hart Energy",
+   "d": "2026-10-08",
+   "u": "https://www.hartenergy.com/midstream-energy-infrastructure/he-kinder-morgan-gas-pipeline-us-mexico/"
+  }
+ ],
+ "items": [
+  {
+   "t": "킨더모건, 미국·멕시코 간 가스관의 불가항력 선언 해제",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/kinder-morgan-lifts-force-majeure-on-us-mexico-gas-pipeline"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "킨더모건, 미·멕시코 가스관 불가항력 해제…멕시코행 가스 5분의 1 줄었다 복구",
+ "one": "킨더모건이 정비 중 문제를 발견해 일부 구간을 막았던 테네시가스파이프라인의 불가항력을 수리 뒤 해제하면서, 미국산 공급이 5분의 1가량 줄었던 멕시코행 천연가스 수송이 정상화됐다",
+ "facts": [
+  "무엇이: 킨더모건 자회사 테네시가스파이프라인이 10월 8일 미·멕시코 가스관의 불가항력을 해제 [사실]",
+  "원인: 10월 5일 계획 정비·점검 중 문제가 발견돼 리오브라보·세나가스 인도 계량소 등 일부 구간을 차단 [사실]",
+  "영향: 멕시코 국영 가스관 운영사 세나가스는 미국 공급이 평소보다 5분의 1 줄었다고 밝힘, 멕시코 가스 비축은 약 3일분 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/midstream",
+  "gas/trade"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0062",
+ "num": 62,
+ "key": "bnd-C210-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:42:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/",
+ "origTitle": "",
+ "headline": "싱가포르, 성장 호조·물가 위험에 14일 세 번째 통화 긴축 나설 듯",
+ "src": [
+  {
+   "o": "MAS 발표 일정",
+   "d": "2026-10",
+   "u": "https://www.mas.gov.sg/monetary-policy/advance-release-calendar"
+  },
+  {
+   "o": "1027 WBOW(로이터 전재 요약)",
+   "d": "2026-10-09",
+   "u": "https://1027wbow.com/2026/10/09/singapore-poised-to-tighten-monetary-policy-amid-strong-growth-and-rising-inflation-risks/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르, 강한 성장·물가 상승 위험 속 통화정책 긴축 채비",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "싱가포르, 성장 호조·물가 위험에 14일 세 번째 통화 긴축 나설 듯",
+ "one": "싱가포르통화청이 AI 수요에 기댄 강한 성장과 유가발 물가 위험에 4월·7월에 이어 10월 14일 통화정책을 다시 조일 것으로 로이터 설문 응답자 10명 전원이 예상하면서, 싱가포르달러 환율 정책밴드 기울기가 더 가팔라질 전망이다",
+ "facts": [
+  "무엇이: 로이터 설문에서 이코노미스트 10명 전원이 싱가포르통화청(MAS)이 10월 14일 통화정책을 긴축할 것으로 예상했다 [사실]",
+  "근거: AI가 이끄는 강한 성장과 이란 전쟁발 유가 상승에 따른 운송·에너지 비용 압력이 꼽힌다 [사실]",
+  "물가: 8월 근원물가 2.2%, 헤드라인 2.3%로 예상보다 온건해 긴축 폭은 작을 것이란 관측이 많다 [사실]",
+  "경로: MAS는 4월에 이어 7월에도 시장 예상을 깨고 아주 소폭 긴축했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(로이터 전재 지역 매체, MAS 일정표)",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0209",
+ "num": 209,
+ "key": "bnd-C197-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T21:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas",
+ "origTitle": "",
+ "headline": "영국 9월 풍력발전 최대에도 전력값 2배…가스가 가격 결정",
+ "src": [
+  {
+   "o": "Energy Connects",
+   "d": "2026-10",
+   "u": "https://www.energyconnects.com/news/renewables/2026/october/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"
+  }
+ ],
+ "items": [
+  {
+   "t": "풍력 발전 최대에도 영국, 비싼 가스 의존 못 벗어나",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "영국 9월 풍력발전 최대에도 전력값 2배…가스가 가격 결정",
+ "one": "영국 풍력발전이 9월 6.62TWh로 월간 최대를 기록해 가스 발전을 9월 기준 최저로 밀어냈지만, 한계비용 가스가 핵심 시간대 가격을 정하면서 전일시장 전력값은 MWh당 135파운드로 1년 전의 약 2배에 이르렀다",
+ "facts": [
+  "무엇이: 9월 영국 풍력발전 6.62TWh로 9월 기준 최대, 전년보다 4% 증가 [사실]",
+  "가스: 가스 발전량은 9월 기준 사상 최저 [사실]",
+  "가격: 9월 전일시장 전력값 평균 MWh당 135.39파운드로 전년의 약 2배, 가스 발전이 많은 상위 10% 시간대는 약 184파운드 [사실]",
+  "원인: 이란 전쟁으로 카타르산 등 걸프 가스 공급이 막혀 가스값이 올랐고, 한계가격 구조상 가스가 가격을 정함 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Energy Connects 전재 등 검색 결과 요약으로 확인(블룸버그 계산 수치 포함)",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind",
+  "power/market",
+  "gas/demand"
+ ]
+}

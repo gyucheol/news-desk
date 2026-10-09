@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0118",
+ "num": 118,
+ "key": "bnd-C268-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T15:18:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/",
+ "origTitle": "",
+ "headline": "미국, 미얀마 군부와 직접 대화 개시…수년간의 고립 정책 뒤집어",
+ "src": [],
+ "items": [
+  {
+   "t": "미국, 미얀마 군부와 직접 대화 시작…수년간 고립 정책 뒤집어",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미국, 미얀마 군부와 직접 대화 개시…수년간의 고립 정책 뒤집어",
+ "one": "미국이 수년간 유지해 온 미얀마 군부 고립 정책을 뒤집고 군 장성들과 직접 대화를 시작하면서, 서방 제재로 막혀 있던 미얀마와의 외교·경제 관계에 변화가 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국이 미얀마 군 장성들과 직접 대화를 시작 [제목]",
+  "의미: 수년간의 고립 정책을 뒤집는 조치 [제목]",
+  "영향: 제재·투자 환경 변화 가능성 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 확인 못 함. 대화 일시·참석자 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ]
+}

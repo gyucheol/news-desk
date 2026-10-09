@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0109",
+ "num": 109,
+ "key": "bnd-C045-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T16:58:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/thailand-is-back-on-radar-for-global-investors-anutin-says",
+ "origTitle": "",
+ "headline": "태국 중앙은행 \"금리 인상 서두르지 않아\"…가계부채·소비심리 부담",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-08",
+   "u": "https://www.indexbox.io/blog/thailands-central-bank-sees-no-urgent-need-to-raise-rates-as-inflation-cools/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-08",
+   "u": "https://finimize.com/content/thailands-central-bank-isnt-in-a-hurry-to-hike-rates"
+  }
+ ],
+ "items": [
+  {
+   "t": "아누틴 총리 \"태국, 글로벌 투자자 관심 다시 받아\"",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/thailand-is-back-on-radar-for-global-investors-anutin-says"
+  },
+  {
+   "t": "IMF 총회 여는 방콕, 가계부채 함정이 성장 목표 시험",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/thai-household-debt-trap-tests-growth-ambitions-bangkok-hosts-imf-2026-10-08/"
+  },
+  {
+   "t": "태국 9월 소비자신뢰지수 하락",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/thai-consumer-confidence-drops-september-survey-shows-2026-10-08/"
+  },
+  {
+   "t": "태국 중앙은행 총재 \"금리 인상 서두르지 않아\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/thai-central-bank-no-rush-raise-rates-governor-says-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "태국 중앙은행 \"금리 인상 서두르지 않아\"…가계부채·소비심리 부담",
+ "one": "태국 중앙은행 총재가 올해 물가 전망을 2.8%에서 2% 안팎으로 낮추며 1%인 기준금리 인상을 서두르지 않겠다고 밝힌 가운데, 가계부채 부담과 9월 소비자신뢰 하락이 겹쳐 성장률 2.3% 목표 달성이 시험대에 올랐다",
+ "facts": [
+  "무엇이: 비타이 태국 중앙은행 총재가 10월 8일 금리 인상을 서두를 필요가 없다고 발언, 기준금리는 8월 이후 1.00% [사실]",
+  "물가: 2026년 물가 전망을 6월 2.8%에서 약 2%로 낮춤, 1~9월 평균 1.54% [사실]",
+  "성장: 올해 성장률 약 2.3%, 수출 17~18% 증가 전망, 홍수 영향은 평가 중, 다음 정책회의는 10월 28일 [사실]",
+  "부담: 가계부채 함정이 성장 목표를 시험하고 9월 소비자신뢰가 하락 [제목]"
+ ],
+ "basis": "partial",
+ "check": "총재 발언·물가·성장 전망은 검색 결과 요약(IndexBox, Finimize 등)으로 확인. 소비자신뢰 수치와 가계부채 규모는 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

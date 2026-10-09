@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0128",
+ "num": 128,
+ "key": "bnd-C084-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:12:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026",
+ "origTitle": "",
+ "headline": "오픈AI 연말 연환산 매출 700억 달러 목표…FT \"9월 실적은 200억 달러 적어\"",
+ "src": [
+  {
+   "o": "Investing.com",
+   "d": "2026-10-09",
+   "u": "https://www.investing.com/news/stock-market-news/openai-expects-to-reach-70-bln-revenue-by-end2026-bloomberg-reports-4940179"
+  },
+  {
+   "o": "Axios",
+   "d": "2026-09-29",
+   "u": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b"
+  }
+ ],
+ "items": [
+  {
+   "t": "오픈AI, 2026년 말 연환산 매출 700억 달러 예상",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026"
+  },
+  {
+   "t": "FT \"오픈AI 연환산 매출, 앞서 알려진 것보다 200억 달러 적어\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "오픈AI 연말 연환산 매출 700억 달러 목표…FT \"9월 실적은 200억 달러 적어\"",
+ "one": "오픈AI가 투자자들에게 연말 연환산 매출 700억 달러 달성을 내세웠지만 FT가 9월 말 실제 연환산 매출은 약 500억 달러로 앞서 알려진 수치보다 200억 달러 적다고 보도하면서, AI 기업 매출 성장세와 기업가치 산정에 대한 의문이 커질 수 있다",
+ "facts": [
+  "무엇이: 오픈AI가 2026년 말 연환산 매출 700억 달러 이상을 예상한다고 투자자들에게 밝힘, 성장은 기업용 사업이 주도 [사실]",
+  "반론: FT는 9월 말 연환산 매출이 약 500억 달러로 앞서 알려진 700억 달러보다 약 200억 달러 적다고 보도 [사실]",
+  "차이 원인: 일부 출처는 클라우드 파트너 경유 매출을 넣는 앤트로픽식 회계로 맞춘 조정 때문이라고 설명 [미확인]",
+  "배경: 매출 수치는 300억 달러 이상 자금 조달 협상 과정에서 공유됨 [사실]"
+ ],
+ "basis": "verified",
+ "check": "700억 달러 목표·FT 500억 달러 보도는 Investing.com·Axios 등으로 확인(검색 결과 요약으로 확인). 회계 차이 설명은 단일 출처",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

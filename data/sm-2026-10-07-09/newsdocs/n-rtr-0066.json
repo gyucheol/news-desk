@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0066",
+ "num": 66,
+ "key": "bnd-C214-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T09:56:00+09:00",
+ "url": "https://www.reuters.com/business/finance/american-express-national-bank-fined-350-million-insufficient-anti-money-2026-10-08/",
+ "origTitle": "",
+ "headline": "아멕스 은행, 자금세탁 방지 부실로 3억 5,000만 달러 벌금…10년간 130억 달러 의심 거래",
+ "src": [
+  {
+   "o": "Banking Dive",
+   "d": "2026-10-08",
+   "u": "https://www.bankingdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832570/"
+  },
+  {
+   "o": "SEC 8-K(아메리칸익스프레스)",
+   "d": "2026-10-08",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000376/axp-20261008.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "아메리칸익스프레스 내셔널뱅크, 자금세탁 방지 미흡으로 3억 5,000만 달러 벌금",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/finance/american-express-national-bank-fined-350-million-insufficient-anti-money-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "아멕스 은행, 자금세탁 방지 부실로 3억 5,000만 달러 벌금…10년간 130억 달러 의심 거래",
+ "one": "미 통화감독청(OCC)이 아메리칸익스프레스 내셔널뱅크의 자금세탁 방지 체계 부실로 3억 5,000만 달러 벌금과 시정명령을 내리고 연준도 모회사에 조치하면서, 아멕스는 의심 거래 재점검과 내부통제 개선 부담을 지게 됐다",
+ "facts": [
+  "무엇이: OCC가 10월 8일 아멕스 내셔널뱅크에 은행비밀법·자금세탁 방지 프로그램 결함으로 3억 5,000만 달러 민사 제재금과 시정명령 [사실]",
+  "규모: 의심 거래 감시·보고 체계 붕괴로 지난 10년간 약 130억 달러 의심 자금세탁 활동 발생 [사실]",
+  "후속: 독립적 소급 점검 명령, 연준은 모회사에 개선 계획 제출 요구 [사실]",
+  "회사: 벌금 일부는 앞서 충당해 2026년 가이던스 영향 없음, 자산 상한 없음(8-K) [사실]"
+ ],
+ "basis": "verified",
+ "check": "PYMNTS·Banking Dive·아멕스 8-K 검색 결과 요약으로 확인",
+ "inds": [
+  "fin"
+ ],
+ "nodes": []
+}

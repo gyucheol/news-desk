@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0101",
+ "num": 101,
+ "key": "bnd-C251-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T20:51:00+09:00",
+ "url": "https://www.reuters.com/business/energy/rubio-says-us-committed-mediterranean-undersea-power-cable-2026-10-08/",
+ "origTitle": "",
+ "headline": "루비오 국무장관 '미국, 지중해 해저 전력 케이블 지지'",
+ "src": [],
+ "items": [
+  {
+   "t": "루비오 '미국은 지중해 해저 전력 케이블에 전념'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/rubio-says-us-committed-mediterranean-undersea-power-cable-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "루비오 국무장관 '미국, 지중해 해저 전력 케이블 지지'",
+ "one": "루비오 미 국무장관이 지중해 해저 전력 케이블 사업에 미국이 계속 힘을 싣겠다고 밝히면서, 이 국가 간 송전망 사업이 미국의 외교적 뒷받침을 받게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 루비오 장관이 미국이 지중해 해저 전력 케이블에 전념하고 있다고 말했다 [제목]",
+  "사업: 어느 국가를 잇는 케이블인지는 확인 못 했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 케이블 사업 이름·연결 국가 미확인",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0025",
+ "num": 25,
+ "key": "bnd-C026-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T22:48:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/",
+ "origTitle": "",
+ "headline": "AI 거품 경고 잇따라…싱가포르 총리 \"조정 불가피\", 루빈 \"美 경제 위험\"",
+ "src": [
+  {
+   "o": "싱가포르 총리실",
+   "d": "2026-10-08",
+   "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+  },
+  {
+   "o": "CryptoBriefing",
+   "d": "2026-10-08",
+   "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 포럼서 거품 우려에 존재론적 위협까지…AI 분위기 가라앉아",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+  },
+  {
+   "t": "노보그라츠도 AI 거품론 가세…그래도 \"뛰어들라\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/novogratz-says-ai-is-in-a-bubble-and-investors-should-pile-in"
+  },
+  {
+   "t": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/robert-rubin-warns-ai-boom-carries-risks-for-us-economy-markets"
+  },
+  {
+   "t": "전략가 \"AI 거품, 2008년 이후 최악의 S&P500 폭락 위험\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-bubble-risks-worst-s-p-500-crash-since-2008-strategist-says"
+  },
+  {
+   "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "AI 거품 경고 잇따라…싱가포르 총리 \"조정 불가피\", 루빈 \"美 경제 위험\"",
+ "one": "로런스 웡 싱가포르 총리가 AI 기술 랠리가 결국 조정을 맞을 것이라고 경고하고 로버트 루빈 전 재무장관과 한 전략가도 2008년 이후 최악의 S&P500 폭락 가능성을 거론하면서, AI 주도 증시와 반도체 수출 경기에 대한 경계가 커지고 있다",
+ "facts": [
+  "무엇이: 웡 총리가 10월 8일 포브스 글로벌 CEO 회의에서 AI 기술 랠리가 결국 조정을 맞을 것이라며 시점·형태는 알 수 없다고 발언 [사실]",
+  "싱가포르 노출: 세계 반도체 생산의 약 10%를 맡고 올해 성장률 전망을 4.5~5.5%로 상향 [사실]",
+  "다른 경고: 루빈 전 재무장관이 AI 붐의 미 경제·시장 위험 경고, 한 전략가는 2008년 이후 최악의 S&P500 폭락 위험 제기 [제목]",
+  "반대 의견: 노보그라츠는 AI가 거품이라면서도 투자에 뛰어들라고 주장 [제목]"
+ ],
+ "basis": "partial",
+ "check": "웡 총리 발언은 검색 결과 요약으로 확인. 루빈·전략가·노보그라츠 발언은 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

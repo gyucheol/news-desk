@@ -1,0 +1,145 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "공격 최다·통항 최저·이란 경고·머스크 20% 인상은 검색 결과 요약으로 확인. 트라피구라 매입·운임 수치는 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 지난주 호르무즈 유조선 공격 건수가 이란 전쟁 시작 이후 주간 최다, 통항 선박은 두 달여 만에 최저 [사실]",
+  "기존: 해협 밖 카타르 북쪽·UAE 푸자이라 인근에서 하루 새 유조선 두 척 피격 [사실]",
+  "이란 위협: 원유 수출용 새 항로 개설 시도를 적대 행위로 간주하겠다고 역내 국가에 경고 [사실]",
+  "운임: 머스크가 10월 12일부터 긴급 유류할증료(EFS)를 20%로 인상, 블룸버그는 원유 운임이 최고치 경신·초대형 유조선의 중동 쏠림으로 선박 부족 심화 보도 [사실]",
+  "파급: 트라피구라가 SFL에서 유조선 7척 매입, 운임 급등으로 아시아의 미국산 원유 수요 위축 우려, 걸프 증시 하락 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호르무즈 유조선 공격 개전 후 주간 최다…통항 두 달來 최저, 운임·할증료 급등",
+ "id": "n-tg-0202",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-10193",
+ "nodes": [
+  "gas/shipping",
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 202,
+ "one": "호르무즈 해협 안팎에서 유조선 공격이 이란 전쟁 이후 주간 최다로 늘고 이란이 우회 항로까지 막겠다고 위협하면서, 통항이 두 달여 만에 최저로 줄고 유조선 운임이 사상 최고로 뛰어 머스크가 긴급 유류할증료를 20%로 올리는 등 해운·원유 수입 비용이 커지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:32:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10193"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/amp/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/oil-tanker-assembly-site-reportedly-explodes-near-uae-mizan-reports"
+  },
+  {
+   "o": "YourNews",
+   "d": "2026-10-08",
+   "u": "https://yournews.com/2026/10/08/7219471/maersk-raises-emergency-fuel-surcharge-to-20-as-middle-east/"
+  },
+  {
+   "o": "ENGINE",
+   "d": "2026-10-08",
+   "u": "https://www.engine.online/news/maersk-raises-emergency-fuel-surcharge-amid-middle-east-war-8277"
+  }
+ ],
+ "tags": [],
+ "title": "호르무즈 유조선 공격 개전 후 주간 최다…통항 두 달來 최저, 운임·할증료 급등",
+ "url": "https://t.me/Trillion_labs/10193",
+ "items": [
+  {
+   "t": "호르무즈 밖으로 번진 유조선 공격…카타르 북쪽·UAE 푸자이라 인근 피격",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10193"
+  },
+  {
+   "t": "이란의 해협 유조선 공격 가속에 유가 상승",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/oil-gains-as-iran-ramps-up-pace-of-attacks-on-tankers-in-strait"
+  },
+  {
+   "t": "유럽 LNG 수요와 늘어나는 선대 규모가 겨울 운임에 압력",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/europes-lng-demand-growing-fleet-size-pressure-shipping-rates-winter-2026-10-07/"
+  },
+  {
+   "t": "트라피구라, 운임 상승 속 SFL로부터 유조선 7척 매입",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise"
+  },
+  {
+   "t": "이란 관리 \"호르무즈 해협 불법 항로 곧 봉쇄\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/iranian-official-says-illegal-routes-strait-hormuz-soon-be-blocked-2026-10-07/"
+  },
+  {
+   "t": "호르무즈 정체로 원유 운송비 아찔한 사상 최고치",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls"
+  },
+  {
+   "t": "호르무즈 유조선 공격, 이란 전쟁 시작 이후 주간 최다…소식통",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
+  },
+  {
+   "t": "중동으로 몰리는 초대형 유조선, 세계 선박 부족 심화",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/supertankers-racing-to-middle-east-worsen-global-ships-crunch"
+  },
+  {
+   "t": "해운사 머스크, 중동 분쟁에 긴급 유류할증료 인상",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/shipping-group-maersk-raises-emergency-fuel-surcharge-due-middle-east-conflict-2026-10-08/"
+  },
+  {
+   "t": "이란의 호르무즈 추가 항로 봉쇄 공언에 유조선 공격 위험 증가",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/attack-risks-rise-tankers-iran-vows-block-more-hormuz-routes-2026-10-08/"
+  },
+  {
+   "t": "호르무즈 유조선 공격 전시 최고치에 걸프 증시 후퇴",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/gulf-stocks-retreat-hormuz-tanker-attacks-hit-wartime-high-2026-10-08/"
+  },
+  {
+   "t": "공격 이후 호르무즈 통항 두 달여 만에 최저…데이터",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+  },
+  {
+   "t": "치솟는 운임, 아시아의 미국산 원유 수요 위협",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

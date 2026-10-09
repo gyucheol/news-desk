@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0082",
+ "num": 82,
+ "key": "bnd-C231-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:43:00+09:00",
+ "url": "https://www.reuters.com/business/energy/nigeria-proposes-petrol-price-cap-curb-fuel-cost-volatility-2026-10-08/",
+ "origTitle": "",
+ "headline": "나이지리아, 연료비 변동 줄이려 휘발유 가격 상한제 제안",
+ "src": [],
+ "items": [
+  {
+   "t": "나이지리아, 연료비 변동 억제 위해 휘발유 가격 상한제 제안",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/nigeria-proposes-petrol-price-cap-curb-fuel-cost-volatility-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "나이지리아, 연료비 변동 줄이려 휘발유 가격 상한제 제안",
+ "one": "나이지리아가 연료비 변동성을 줄이기 위해 휘발유 가격 상한제를 제안하면서, 시행되면 현지 정유·유통업체가 받을 수 있는 휘발유 판매가에 상한이 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 나이지리아가 휘발유 가격 상한제를 제안했다 [제목]",
+  "목적: 연료비 변동성 억제 [제목]"
+ ],
+ "basis": "title",
+ "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 제안 주체(정부·규제기관), 상한 수준, 시행 시기 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity"
+ ]
+}

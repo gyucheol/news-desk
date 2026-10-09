@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0142",
+ "num": 142,
+ "key": "bnd-C105-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:34:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles",
+ "origTitle": "",
+ "headline": "엔비디아 투자 호주 Firmus, 50억 달러 IPO 철회…협력사 마스 거래정지",
+ "src": [
+  {
+   "o": "Inside AI News",
+   "d": "2026-10-09",
+   "u": "https://insideai.news/news/ai-in-business/firmus-ipo-shelved-maas-trading-halt/13932/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엔비디아 투자 Firmus, 대형 IPO 난항에 수요예측 마감 소식",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles"
+  },
+  {
+   "t": "엔비디아 투자 Firmus 50억 달러 IPO 보류에 호주 마스 거래정지",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/australias-maas-enters-trading-halt-after-nvidia-backed-firmus-shelves-5-billion-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "엔비디아 투자 호주 Firmus, 50억 달러 IPO 철회…협력사 마스 거래정지",
+ "one": "엔비디아가 투자한 호주 AI 데이터센터 운영사 Firmus가 8월보다 세 배 가까운 306억 달러 몸값과 약 300억 달러 부채에 대한 투자자 우려로 50억 달러 IPO를 접고 비상장 자금조달로 돌리면서, 지분 3.2%를 가진 건설 협력사 마스 그룹이 거래정지됐다",
+ "facts": [
+  "무엇이: Firmus가 시장 변동성을 이유로 50억 달러 규모 IPO를 철회하고 비상장 투자 유치로 전환 [사실]",
+  "원인: 주당 11호주달러 공모가 기준 몸값 306억 달러로 8월 투자 유치 때 105억 달러의 거의 세 배, 약 300억 달러 부채와 확장 실행력에 투자자 우려 [사실]",
+  "파장: 지분 3.2%를 가진 마스 그룹 주가가 하루 20% 넘게 떨어져 약 5억 1,700만 호주달러가 증발한 뒤 거래정지 요청 [사실]",
+  "의미: AI 발행사에 대해 투자자들이 선별적으로 바뀌었다는 신호로 해석 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Inside AI News, 라디오 방송사 전재본)으로 확인. 조달 규모는 출처별로 50억 달러/70억 호주달러로 엇갈림",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

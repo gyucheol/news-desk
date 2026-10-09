@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0111",
+ "num": 111,
+ "key": "bnd-C047-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T12:34:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks",
+ "origTitle": "",
+ "headline": "프랑스 재정 불안에 유로 5주 연속 약세…달러는 18개월 고점 부근 유지",
+ "src": [
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-09",
+   "u": "https://www.brecorder.com/news/40443407/euro-skids-toward-fifth-weekly-fall-but-selling-pressure-slows"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-08",
+   "u": "https://www.fxstreet.com/news/forex-today-euro-stabilizes-as-markets-await-comments-from-central-bankers-202610080720"
+  }
+ ],
+ "items": [
+  {
+   "t": "정치 위험 커지며 유로 비관론 확산",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks"
+  },
+  {
+   "t": "유럽의 어려움이 달러 강세론자들에게 새 근거 제공",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/europe/europes-woes-give-dollar-bulls-fresh-reason-press-2026-10-08/"
+  },
+  {
+   "t": "달러, FOMC 의사록 공개 후 18개월 고점서 소폭 후퇴",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/"
+  },
+  {
+   "t": "유로, 5주 연속 주간 하락 향해…매도 압력은 둔화",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/euro-skids-toward-fifth-weekly-fall-selling-pressure-slows-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "프랑스 재정 불안에 유로 5주 연속 약세…달러는 18개월 고점 부근 유지",
+ "one": "프랑스의 사상 최대 부채와 예산 삭감을 둘러싼 정치 불확실성으로 유로가 17개월 최저인 1.1161달러까지 밀리며 5주째 하락하는 사이, 매파적 FOMC 의사록에 달러가 18개월 고점 부근을 지키면서 달러 강세 흐름이 이어지고 있다",
+ "facts": [
+  "무엇이: 유로가 프랑스 부채·정치 우려로 5주 연속 주간 하락 흐름, 5주간 달러 대비 3% 넘게 하락 [사실]",
+  "저점: 유로는 이번 주 월요일 17개월 최저인 1.1161달러 기록, 이후 프랑스 국채시장 안정으로 매도세 둔화 [사실]",
+  "달러: 10월 7일 공개된 FOMC 의사록이 9월 금리 인상의 매파 기조를 재확인했고 달러지수는 102.25 부근 [사실]",
+  "금리 기대: 10월 28일 FOMC 동결 확률 약 80%, 12월 인상은 완전히 반영 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(유로 수준은 시점별로 차이)",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

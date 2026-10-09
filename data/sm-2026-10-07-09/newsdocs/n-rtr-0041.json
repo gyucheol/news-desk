@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0041",
+ "num": 41,
+ "key": "bnd-C076-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:37:00+09:00",
+ "url": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/",
+ "origTitle": "",
+ "headline": "테슬라 FSD 유럽 승인 속도…독일 지지·슬로바키아 승인 방침",
+ "src": [
+  {
+   "o": "Drive Tesla Canada",
+   "d": "2026-10-08",
+   "u": "https://driveteslacanada.ca/news/tesla-fsd-slovakia-approval-ninth-eu-country/"
+  },
+  {
+   "o": "Tesla North",
+   "d": "2026-10-08",
+   "u": "https://teslanorth.com/2026/10/08/tesla-assisted-driving-europe/"
+  }
+ ],
+ "items": [
+  {
+   "t": "테슬라의 EU 자율주행 승인 압박, 효과 보고 있다",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/"
+  },
+  {
+   "t": "머스크, 독일의 테슬라 운전보조 기술 지지 환영…EU 승인 추진",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/musk-welcomes-german-backing-tesla-driver-assistance-tech-group-chases-eu-2026-10-07/"
+  },
+  {
+   "t": "슬로바키아, 테슬라 자율주행 기술 승인 예정",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/slovakia-approve-teslas-self-driving-tech-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "테슬라 FSD 유럽 승인 속도…독일 지지·슬로바키아 승인 방침",
+ "one": "테슬라가 EU에 감독형 FSD 승인을 거세게 압박하는 가운데 독일 교통부가 제한 속도 10% 이내 초과 허용 등에 합의하고 슬로바키아가 네덜란드 승인을 인정해 며칠 안에 승인하겠다고 밝히면서, EU 전체 승인 전에도 국가별 허용이 늘어나고 있다",
+ "facts": [
+  "무엇이: 슬로바키아 교통장관이 10월 8일 네덜란드 형식승인을 인정해 테슬라 FSD를 승인하겠다고 발표, 9번째 EU 국가가 될 전망 [사실]",
+  "독일: 교통부가 10월 6일 테슬라와 합의, 최고 속도 10% 이내 초과 허용·명칭은 'Tesla Assisted Driving'으로 변경 제안, 국가 승인은 아직 [사실]",
+  "EU: 자동차기술위원회가 10월 6일 논의했으나 표결 없이 12월로 미뤄진 것으로 전해짐 [사실]",
+  "로비: 테슬라가 EU 승인을 위해 강하게 압박해 효과를 보고 있다는 로이터 탐사 보도 [제목]"
+ ],
+ "basis": "verified",
+ "check": "슬로바키아 방침, 독일 합의 내용, EU 표결 연기는 검색 결과 요약으로 확인(EU 표결 시점은 업계 매체 보도)",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

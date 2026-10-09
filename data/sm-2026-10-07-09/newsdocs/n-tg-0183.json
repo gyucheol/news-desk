@@ -1,0 +1,167 @@
+{
+ "basis": "verified",
+ "channel": "Polaristimes",
+ "check": "검색 결과 요약(유로넥스트 전재 기사, IndexBox, Trading Economics)으로 확인. 물랭 총재의 'ECB 도움 불필요' 발언은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 프랑스 10년물 국채 금리가 9월 초 이후 80bp 가까이 올라 2002년 7월 이후 최고, 5%에 근접 [사실]",
+  "유로존 대응: 10월 8일 유로존 재무장관들과 ECB가 2027년 예산 통과를 촉구, 라가르드 총재는 ECB 수단이 재정규칙 준수 등 조건부라고 언급 [사실]",
+  "걸림돌: 프랑스는 GDP 대비 5% 넘는 적자로 EU 과다적자 절차 중이며 2027년 4~5월 대선·총선을 앞둠 [사실]",
+  "발행: 2027년 국채 발행 계획은 사상 최대 3,400억 유로, 재무장관은 단기물 발행 확대를 검토 [사실]",
+  "기존 흐름: 프랑스-독일 10년물 금리차가 145bp를 넘어 일본 투자자 보유분 등 전염 우려 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "프랑스 국채 금리 2002년 이후 최고…유로존, 예산 통과 압박·ECB는 개입 선 그어",
+ "id": "n-tg-0183",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-The_MariTimes-63513",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 183,
+ "one": "프랑스 10년물 금리가 9월 초 이후 80bp 가까이 올라 2002년 이후 최고인 5% 가까이 치솟자, 유로존 재무장관과 ECB가 2027년 예산 통과를 요구하며 지금은 개입 조건이 안 된다고 선을 그어 프랑스 국채 불안이 정치 결단에 달리게 됐다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:03:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63513"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "FXStreet",
+   "u": "https://www.fxstreet.com/analysis/us-jobs-report-day-french-german-10-year-spread-nears-150bps-202610021014"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "ideal-investisseur",
+   "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+  },
+  {
+   "o": "Euronext 뉴스(유로존 장관 회의)",
+   "d": "2026-10-08",
+   "u": "https://live.euronext.com/en/financial-news/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-08",
+   "u": "https://www.indexbox.io/blog/euro-zone-ministers-and-ecb-urge-france-to-adopt-2027-budget-as-borrowing-costs-hit-25-year-high/"
+  }
+ ],
+ "tags": [],
+ "title": "프랑스 국채 금리 2002년 이후 최고…유로존, 예산 통과 압박·ECB는 개입 선 그어",
+ "url": "https://t.me/The_MariTimes/63513",
+ "items": [
+  {
+   "t": "프랑스-독일 10년물 금리차 145bp 넘어…유로존 위기 이후 최대",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-05",
+   "u": "https://t.me/The_MariTimes/63513"
+  },
+  {
+   "t": "프랑스, 전국 학생 시위 대비…채권시장 분위기 악화",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/live/live-france-braces-nationwide-student-protests-bond-markets-sour-2026-10-06/"
+  },
+  {
+   "t": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/bond-selloff-leaves-france-no-room-fiscal-mistakes-citadel-executive-says-2026-10-07/"
+  },
+  {
+   "t": "위기에 휩싸인 프랑스, ECB와의 정면 대결로 향한다",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-moulin-says-conditions-for-france-intervention-aren-t-met"
+  },
+  {
+   "t": "프랑스은행 총재 \"현재로선 프랑스에 ECB 지원 필요 없어\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/france-does-not-need-ecb-help-present-says-bank-france-head-2026-10-07/"
+  },
+  {
+   "t": "프랑스 의원들, 예산 심사 시작하며 연금 수급자 삭감은 면제",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/french-lawmakers-spare-pensioners-cuts-budget-review-begins-2026-10-07/"
+  },
+  {
+   "t": "프랑스의 복합 위기, ECB를 채권시장 대결로 끌어들일 수도",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-multiple-crises-could-drag-ecb-into-bond-market-showdown"
+  },
+  {
+   "t": "프랑스 재무부 \"국채 발행 전략 변경 없다\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy"
+  },
+  {
+   "t": "프랑스 재무장관, WSJ에 \"단기 국채 발행 확대 검토 중\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/france-is-considering-more-shorter-term-debt-issuance-finance-minister-tells-wsj-2026-10-07/"
+  },
+  {
+   "t": "레스퀴르 장관 \"프랑스 국채 수요 꾸준하다\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-has-no-problem-finding-bond-buyers-lescure-tells-bbc"
+  },
+  {
+   "t": "물랭 프랑스은행 총재 \"이제 모든 나라가 더 높은 금리에 직면\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-france-s-moulin-says-all-countries-face-higher-rates-now"
+  },
+  {
+   "t": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-s-debt-is-now-riskier-than-38-of-nation-s-company-bonds"
+  },
+  {
+   "t": "RBC 블루베이 전략가 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/le-pen-lifting-retirement-age-is-key-french-bond-yields-rbc-bluebay-strategist-2026-10-08/"
+  },
+  {
+   "t": "프랑스, 세계 시장 스트레스의 풍향계가 되다",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/france-is-the-bellwether-for-stress-in-global-markets"
+  },
+  {
+   "t": "유로존 재무장관 회의 속 프랑스 국채시장 우려 확대",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet"
+  },
+  {
+   "t": "유로존 장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/finance/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets-2026-10-08/"
+  },
+  {
+   "t": "프랑스 부채 위기가 일본의 1,450억 달러 채권 투자를 시험하는 방식",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-09/how-france-s-debt-crisis-is-testing-japan-s-145-billion-bond-bet"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

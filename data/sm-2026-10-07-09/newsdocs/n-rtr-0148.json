@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0148",
+ "num": 148,
+ "key": "bnd-C302-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T21:10:00+09:00",
+ "url": "https://www.reuters.com/business/colombia-revokes-decree-capping-pension-funds-foreign-investments-2026-10-07/",
+ "origTitle": "",
+ "headline": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+ "src": [],
+ "items": [
+  {
+   "t": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/colombia-revokes-decree-capping-pension-funds-foreign-investments-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+ "one": "콜롬비아 정부가 연기금의 해외투자에 상한을 두는 법령을 철회하면서, 연기금이 해외 자산 비중을 유지하거나 늘릴 길이 열려 페소화와 국내 자산시장 수급에 영향을 줄 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 콜롬비아가 연기금 해외투자 상한 법령을 철회 [제목]",
+  "영향: 연기금 자금의 국내 송환 압력이 줄어 환율·국내 자산 수급에 영향 가능 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx",
+  "macro/liquidity"
+ ]
+}

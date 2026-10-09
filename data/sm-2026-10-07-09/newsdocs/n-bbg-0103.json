@@ -1,0 +1,77 @@
+{
+ "id": "n-bbg-0103",
+ "num": 103,
+ "key": "bnd-C011-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash",
+ "origTitle": "",
+ "headline": "스페이스X, 800MHz 저대역 주파수 확보…스타링크 모바일로 美 통신사 정면 도전",
+ "src": [
+  {
+   "o": "Via Satellite",
+   "d": "2026-10-08",
+   "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+  }
+ ],
+ "items": [
+  {
+   "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+  },
+  {
+   "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight"
+  },
+  {
+   "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/"
+  },
+  {
+   "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/"
+  },
+  {
+   "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service"
+  },
+  {
+   "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "스페이스X, 800MHz 저대역 주파수 확보…스타링크 모바일로 美 통신사 정면 도전",
+ "one": "스페이스X가 그레인 매니지먼트로부터 미국 전국 800MHz 저대역 주파수(최대 14MHz 쌍) 인수에 합의하면서 스타링크 모바일의 실내 커버리지가 넓어질 수 있고, 발표 직후 AT&T·버라이즌·T모바일 주가가 6~7%대 급락했다",
+ "facts": [
+  "무엇이: 스페이스X가 10월 8일 그레인 매니지먼트 보유 800MHz 대역 최대 14MHz 쌍 주파수 면허 인수 합의, 금액 비공개·FCC 승인 필요 [사실]",
+  "의미: 저대역은 건물 벽을 통과하는 커버리지층으로, 기존 2GHz 중대역과 묶어 스타링크를 미국 주요 이동통신사로 만들겠다는 구상 [사실]",
+  "시장 반응: 시간외 거래에서 AT&T 7.3%, T모바일·버라이즌 6.6% 하락 [사실]",
+  "주변 흐름: 美 FCC는 직접-단말 서비스용 신규 주파수 경매 추진을 표결했고, 항공우주 업계는 스페이스X의 주파수 접근 확대에 반발, 인도는 머스크의 위성인터넷 승인 편파 비판을 부인 [제목]"
+ ],
+ "basis": "verified",
+ "check": "주파수 인수·규모·통신주 하락은 Via Satellite 등 검색 결과 요약으로 확인. FCC 경매·업계 반발·인도·델타 기사는 제목 기준",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

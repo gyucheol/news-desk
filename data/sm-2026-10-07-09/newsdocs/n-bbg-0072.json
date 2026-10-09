@@ -1,0 +1,66 @@
+{
+ "basis": "partial",
+ "check": "계약 내용은 기존 문서 한줄 근거. 호주 우라늄주 상승 폭·종목은 웹 검색 한도 소진으로 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 구글이 콘스텔레이션과 20년 전력구매계약을 맺어 일리노이·펜실베이니아·뉴저지 원자로 11기 출력을 890MW 늘리는 투자를 뒷받침 [사실]",
+  "규모: 새 원전 없이 대형 원전 1기 분량 전력이 PJM 전력망에 더해짐 [사실]",
+  "시장 반응: 계약 소식에 호주 우라늄 채굴주가 상승 [제목]",
+  "의미: 출력 증강은 같은 원자로에 들어가는 우라늄 연료 수요를 늘릴 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "구글–콘스텔레이션 원전 출력 890MW 증강 계약에 호주 우라늄주 급등",
+ "id": "n-bbg-0072",
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "insight": {},
+ "key": "bbg-1006-google-constellation-nuclear",
+ "nodes": [
+  "uranium/mining",
+  "uranium/operators"
+ ],
+ "num": 72,
+ "one": "구글이 콘스텔레이션과 20년 전력구매계약을 맺어 원자로 11기 출력을 890MW 늘리는 투자를 뒷받침하자, 기존 원전의 가동·증강 수요가 커질 것이라는 기대에 호주 우라늄 채굴주가 일제히 올랐다",
+ "origTitle": "Google, Constellation Energy Strike Deal for Nuclear Power",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T15:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "로이터(원문 미확인, 제목만)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S04O:0-google-enters-massive-3-6-gw-power-deal-with-constellation-energy/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "월드뉴클리어뉴스",
+   "u": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations"
+  }
+ ],
+ "tags": [],
+ "title": "구글–콘스텔레이션 원전 출력 890MW 증강 계약에 호주 우라늄주 급등",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power",
+ "items": [
+  {
+   "t": "구글–콘스텔레이션 20년 원전 전력계약…원자로 11기 출력 890MW 늘린다",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power"
+  },
+  {
+   "t": "구글–콘스텔레이션 전력계약에 호주 우라늄 채굴주 급등",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/australian-uranium-miners-rally-after-googles-power-deal-with-constellation-2026-10-07/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

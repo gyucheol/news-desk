@@ -1,0 +1,108 @@
+{
+ "basis": "verified",
+ "channel": "Polaristimes",
+ "check": "FT 인용 보도로 확인(15% 수치는 외교 소식통 기준). 위안화·산업단체 내용은 기사 제목 기준",
+ "cycles": [],
+ "dupOf": "pf-tg-032",
+ "facts": [
+  "무엇이: 중국 상무부가 EU의 하이브리드차 수출 자율제한 요구를 'WTO 규칙 위반'이라며 거부(FT 보도) [사실]",
+  "EU 요구: 중국산 플러그인 하이브리드를 EU 시장의 약 15%로 제한, 현재 중국산 비중은 3분의 1 이상 [사실]",
+  "대안: EU 집행위는 일정 물량 초과분에 관세를 매기는 관세할당형 한시 세이프가드를 검토, 셰프초비치 집행위원이 베이징에서 이틀간 협의 [사실]",
+  "환율: 중국 인민은행은 무역 우위를 위해 위안화를 약세로 만들 필요도 의도도 없다고 밝혔고, 유럽 산업단체들은 EU의 긴급 대응을 촉구 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중국, EU의 하이브리드차 수출 자율제한 요구 거부…EU는 관세할당·무역적자 압박",
+ "id": "n-tg-0132",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-The_MariTimes-63577",
+ "nodes": [
+  "macro/fx",
+  "macro/geo"
+ ],
+ "num": 132,
+ "one": "EU가 7월 월 5만 대까지 늘어난 중국산 하이브리드차를 시장의 약 15%로 묶는 수출 자율제한을 요구했으나 중국이 WTO 위반이라며 거부하면서, 초과분에 관세를 매기는 EU의 한시 세이프가드 도입 가능성이 커지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T12:52:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63577"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CnEVPost",
+   "u": "https://cnevpost.com/2026/10/07/eu-plans-chinese-hybrid-import-curbs/"
+  },
+  {
+   "o": "TimesLIVE",
+   "d": "2026-10-08",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-08-china-rejects-eu-request-for-voluntary-hybrid-car-export-curbs-report/"
+  },
+  {
+   "o": "Newsquawk(FT 인용)",
+   "d": "2026-10-07",
+   "u": "https://www.newsquawk.com/headlines/china-has-rejected-an-eu-request-to-voluntarily-restrict-exports-of-hybrid-cars-to-europe-as-the-two-sides-enter-last-ditch-talks-to-avert-a-trade-conflict-ft-reports"
+  }
+ ],
+ "tags": [],
+ "title": "중국, EU의 하이브리드차 수출 자율제한 요구 거부…EU는 관세할당·무역적자 압박",
+ "url": "https://t.me/The_MariTimes/63577",
+ "items": [
+  {
+   "t": "EU, 중국산 하이브리드차 수입 제한 준비…초과분 관세 매기는 관세할당 검토",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-08",
+   "u": "https://t.me/The_MariTimes/63577"
+  },
+  {
+   "t": "EU, 중국과 협의 통해 대중 무역적자 축소 추진",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/china/eu-seeks-cut-trade-deficit-with-china-talks-with-beijing-2026-10-07/"
+  },
+  {
+   "t": "중국, EU의 하이브리드차 수출 자율제한 요구 거부(FT)",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/china/china-rejects-eu-request-voluntary-hybrid-car-export-curbs-ft-reports-2026-10-07/"
+  },
+  {
+   "t": "EU, 무역협의 개시하며 대중 무역적자에 강경 기조",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-is-taking-harder-line-on-china-s-trade-gap-as-talks-kick-off"
+  },
+  {
+   "t": "중국, EU와 무역 이견 해소 위한 대등한 대화 촉구",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/china/china-pushes-equal-dialogue-resolving-trade-differences-with-eu-2026-10-08/"
+  },
+  {
+   "t": "중국, EU 협의서 불균형 쟁점 속 위안화 정책 방어",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/china-central-bank-defends-currency-policy-before-eu-trade-talks"
+  },
+  {
+   "t": "유럽 산업단체들, 대중 무역에 EU 긴급 조치 촉구",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/china/european-industry-groups-call-urgent-eu-action-china-trade-2026-10-08/"
+  },
+  {
+   "t": "중국 인민은행 '무역 우위 위해 위안화 약세 유도할 필요도 의도도 없어'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/china-has-no-need-or-intention-weaken-yuan-trade-edge-central-bank-says-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

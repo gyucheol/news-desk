@@ -1,0 +1,95 @@
+{
+ "basis": "partial",
+ "channel": "상상인 김진범",
+ "check": "인도의 러시아산 감소·시리아 트럭 수송은 검색 결과 요약으로 확인. 사우디 셔틀 협의와 시리아 증산 계획은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 호르무즈 해협 원유 물동량이 하루 1,030만 배럴로 전쟁 전의 76%까지 회복, 석유제품은 11%에 그침 [사실]",
+  "인도: 10월 4일까지 4주간 러시아산 원유 도입이 하루 31만 배럴로 2022년 3월 이후 최저, 러시아산이 브렌트 대비 배럴당 10달러 넘는 웃돈에 팔림 [사실]",
+  "이라크·시리아: 시리아 국영석유사는 10월 중순 이라크산 원유 트럭 수송 시작을 기대, 키르쿠크-바니야스 송유관 복구는 3~4년 걸린다는 전망 [사실]",
+  "시리아: 투자자 복귀 속 1년 안에 원유 생산을 두 배로 늘릴 계획 [제목]",
+  "사우디: 시장 점유율 경쟁 속 호르무즈 셔틀 운항을 공식화하는 협의 중 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중동 원유 흐름 회복에 인도는 러시아산 외면…이라크는 시리아 경유 호르무즈 우회로 추진",
+ "id": "n-tg-0116",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-PipeBeom-6620",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 116,
+ "one": "호르무즈 원유 물동량이 전쟁 전의 76%까지 회복되자 인도 정유사들이 웃돈이 붙은 러시아산 구매를 줄였고 이라크는 시리아를 거치는 트럭·송유관 우회로를 추진하면서, 걸프 원유의 수출 경로와 아시아 수입처 구성이 바뀌고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T18:00:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 상상인 김진범",
+   "u": "https://t.me/PipeBeom/6620"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "investingLive",
+   "u": "https://investinglive.com/commodities/reports-that-hormuz-crude-flows-near-76-of-prewar-levels-diesel-shortage-persists"
+  },
+  {
+   "o": "Al Arabiya",
+   "d": "2026-10-07",
+   "u": "https://english.alarabiya.net/News/middle-east/2026/10/07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html"
+  }
+ ],
+ "tags": [],
+ "title": "중동 원유 흐름 회복에 인도는 러시아산 외면…이라크는 시리아 경유 호르무즈 우회로 추진",
+ "url": "https://t.me/PipeBeom/6620",
+ "items": [
+  {
+   "t": "호르무즈 원유 통과 전쟁 전 76%로 회복…석유제품은 11%에 그쳐 경유난 지속",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-07",
+   "u": "https://t.me/PipeBeom/6620"
+  },
+  {
+   "t": "시리아, 이라크 원유의 호르무즈 우회 경로로 부상할 듯",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+  },
+  {
+   "t": "투자자 복귀 속 시리아, 1년 안에 원유 생산 두 배 노려",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-plans-to-double-oil-output-in-a-year-as-investors-return"
+  },
+  {
+   "t": "중동 원유 흐름 회복에 인도, 비싸진 러시아산 외면",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/india-shuns-costly-russian-crude-as-middle-east-flows-recover"
+  },
+  {
+   "t": "사우디, 시장 쟁탈전 속 호르무즈 셔틀 운항 공식화 협의",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/saudis-in-talks-to-formalize-hormuz-shuttles-in-fight-for-market"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

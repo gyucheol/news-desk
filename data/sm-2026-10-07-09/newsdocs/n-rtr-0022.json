@@ -1,0 +1,92 @@
+{
+ "id": "n-rtr-0022",
+ "num": 22,
+ "key": "bnd-C009-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T02:19:00+09:00",
+ "url": "https://www.reuters.com/world/africa/senegal-aims-deal-with-official-creditors-bondholders-by-december-sources-say-2026-10-06/",
+ "origTitle": "",
+ "headline": "IMF, 파키스탄과 12억 달러 실무합의…파푸아뉴기니·말라위·세네갈도 지원·채무조정 협상",
+ "src": [
+  {
+   "o": "Anadolu(aNews)",
+   "d": "2026-10-08",
+   "u": "https://www.anews.com.tr/world/2026/10/08/pakistan-reaches-imf-staff-deal-for-12b-as-energy-shocks-weigh-on-economy"
+  },
+  {
+   "o": "Lahore Times",
+   "d": "2026-10-08",
+   "u": "https://www.lhrtimes.com/2026/10/08/imf-pakistan-seal-staff-level-deal-for-1-2bn-board-nod-awaited/"
+  }
+ ],
+ "items": [
+  {
+   "t": "세네갈, 12월까지 공식 채권단·채권자들과 채무 합의 목표…소식통",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/africa/senegal-aims-deal-with-official-creditors-bondholders-by-december-sources-say-2026-10-06/"
+  },
+  {
+   "t": "IMF, 파푸아뉴기니와 실무합의…자금 지원 길 열릴 수도",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-reaches-staff-level-deal-with-papua-new-guinea-potentially-unlocking-about-2026-10-06/"
+  },
+  {
+   "t": "IMF \"말라위 방문으로 신규 대출 프로그램 향해 진전\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/africa/imf-says-malawi-visit-makes-progress-towards-new-lending-programme-2026-10-07/"
+  },
+  {
+   "t": "IMF, 파키스탄과 실무합의…12억 달러 지원 길 열릴 수도",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-reaches-staff-deal-with-pakistan-potentially-unlocking-12-billion-2026-10-07/"
+  },
+  {
+   "t": "파키스탄, IMF와 합의…신규 자금 12억 달러 확보",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/pakistan-reaches-imf-deal-to-unlock-1-2-billion-in-new-funds"
+  },
+  {
+   "t": "영국 지원 단체, IMF·세계은행 회의 앞두고 민간 채권자용 채무조정 지침 발표",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/finance/uk-backed-group-issues-private-lenders-debt-rework-guide-ahead-imf-world-bank-2026-10-08/"
+  },
+  {
+   "t": "콜롬비아, 대출 합의 가능성 속 IMF 약속 이행에 난관",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/colombia-faces-hurdles-meet-imf-commitments-under-possible-lending-deal-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "IMF, 파키스탄과 12억 달러 실무합의…파푸아뉴기니·말라위·세네갈도 지원·채무조정 협상",
+ "one": "IMF가 파키스탄과 연료 보조금 조기 폐지를 조건으로 약 12억 달러 지원 실무합의를 맺고 파푸아뉴기니·말라위와도 협상을 진척시키는 가운데, 세네갈은 12월까지 채권단과 채무조정 타결을 노리고 있어 에너지 충격에 취약한 신흥국의 긴축 부담이 커지고 있다",
+ "facts": [
+  "무엇이: IMF가 10월 7일 파키스탄과 70억 달러 EFF 4차 검토·RSF 3차 검토 실무합의, 이사회 승인 시 약 12억 달러 집행 [사실]",
+  "조건: 연료 지원제도 조기 폐지, 이번 회계연도 GDP 대비 2% 기초재정흑자 [사실]",
+  "배경: 파키스탄 9월 물가 약 10.3%, 9월 말 외환보유액 약 215억 달러, 호르무즈 경유 에너지 수입 의존 [사실]",
+  "다른 나라: 파푸아뉴기니 실무합의, 말라위 신규 프로그램 진전, 세네갈 12월까지 공식·민간 채권단 합의 목표, 콜롬비아 IMF 약속 이행 난관 [제목]",
+  "제도: 영국 지원 단체가 IMF·세계은행 연차총회 앞서 민간 채권자용 채무조정 지침 발표 [제목]"
+ ],
+ "basis": "partial",
+ "check": "파키스탄 합의 내용은 검색 결과 요약으로 확인. 파푸아뉴기니·말라위·세네갈·콜롬비아 건은 제목만 근거",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/liquidity"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

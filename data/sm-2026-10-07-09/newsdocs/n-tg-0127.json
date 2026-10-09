@@ -1,0 +1,115 @@
+{
+ "basis": "partial",
+ "channel": "하나증권 중국전략",
+ "check": "샌프란시스코·오클랜드 45일 중단은 Mission Local·SFist 등으로 확인(검색 결과 요약으로 확인). 오라클·비톨·스페인·인도·굿맨 내용은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 샌프란시스코 시의회가 10월 6일 만장일치로 신규 데이터센터 건설·증설을 45일간 중단하는 조례를 통과, 오클랜드도 같은 날 45일 중단 승인 [사실]",
+  "연장 가능성: 환경 영향이 크다고 판단되면 최대 22개월 연장이나 영구 규제로 이어질 수 있음, 캘리포니아 최소 26개 도시가 비슷한 조치를 검토·통과 [사실]",
+  "기존 전망: 모건스탠리는 미국 데이터센터 전력 부족분을 2028년 32GW(필요량의 34%)로 추산 [사실]",
+  "임시 전력: 오라클이 전력 지연을 피하려 트럭으로 가스를 실어 나르고, 비톨 등은 데이터센터용 유연 전력 사업에 투자 [제목]",
+  "확산: RWE는 전력망 비용 부담 주체 문제를 제기했고 스페인 정부는 규제 강화, 인도에서는 주민 반발 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "데이터센터 전력난에 반발 확산…샌프란시스코 45일 신설 중단, 오라클은 가스 트럭",
+ "id": "n-tg-0127",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "key": "tg-HANAchina-70006",
+ "nodes": [
+  "macro/semis",
+  "power/demand",
+  "power/grid"
+ ],
+ "num": 127,
+ "one": "미국 데이터센터 전력 부족이 2028년 32GW로 추산되는 가운데 샌프란시스코·오클랜드가 신규 데이터센터를 45일간 막고 스페인·인도에서도 규제와 주민 반발이 커지면서, 전력망 연결이 늦어진 사업자들은 트럭 가스 수송 같은 임시 전력에 기대고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:38:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70006"
+  },
+  {
+   "d": "2026-10",
+   "o": "Benzinga",
+   "u": "https://www.benzinga.com/markets/prediction-markets/26/10/62174172/nvidia-broadcom-ai-power-shortage"
+  },
+  {
+   "d": "2026-10",
+   "o": "Igor'sLAB",
+   "u": "https://www.igorslab.de/en/ai-buildout-power-grid-morgan-stanley-32-gw-shortfall-2028/"
+  },
+  {
+   "o": "Mission Local",
+   "d": "2026-10",
+   "u": "https://missionlocal.org/2026/10/sf-supervisors-pass-data-center-moratorium/"
+  },
+  {
+   "o": "SFist",
+   "d": "2026-10-07",
+   "u": "https://sfist.com/2026/10/07/san-francisco-oakland-pass-45-day-moratoriums-on-new-data-centers/"
+  }
+ ],
+ "tags": [],
+ "title": "데이터센터 전력난에 반발 확산…샌프란시스코 45일 신설 중단, 오라클은 가스 트럭",
+ "url": "https://t.me/HANAchina/70006",
+ "items": [
+  {
+   "t": "모건스탠리 \"미 데이터센터 2028년 전력 32GW 부족\"…부품사 먼저 타격",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/70006"
+  },
+  {
+   "t": "굿맨의 일본 데이터센터, 시드니 부지 차질 이후 비판 직면",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/goodmans-japanese-data-centre-comes-under-fire-following-sydney-site-setback-2026-10-07/"
+  },
+  {
+   "t": "RWE \"데이터센터 붐에 전력망 비용 누가 내나 문제 대두\"",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/data-center-boom-raises-issue-of-who-pays-for-grid-rwe-says"
+  },
+  {
+   "t": "AI의 본고장 샌프란시스코, 데이터센터 모라토리엄 통과",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/san-francisco-passes-data-center-moratorium-in-hometown-of-ai"
+  },
+  {
+   "t": "비톨 등 투자자, 데이터센터용 유연 전력 사업에 투자",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/vitol-among-investors-backing-flexible-power-for-data-centers"
+  },
+  {
+   "t": "스페인 정부, 총선 앞두고 데이터센터 규제 강화 추진",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/spanish-government-press-with-tighter-data-centre-rules-before-election-2026-10-08/"
+  },
+  {
+   "t": "오라클, 데이터센터 전력 지연 피하려 트럭으로 가스 운송",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/oracle-moves-gas-by-trucks-to-avoid-data-center-power-delays"
+  },
+  {
+   "t": "모디는 인도를 AI 시대 전력 강국으로 만들려 하지만 주민들은 반발",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

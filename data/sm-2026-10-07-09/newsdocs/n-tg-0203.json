@@ -1,0 +1,144 @@
+{
+ "basis": "verified",
+ "channel": "하나증권 중국전략",
+ "check": "재고 경고·SPR 최저·POWERR Asia·사우디 UAE 동참은 검색 결과 요약(boereport·oilprice 등)으로 확인. 기존 문서 사실은 기존 한줄 근거. 유가 하락·중국 수출 재개·디젤 가격·EIA 재고는 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아람코 나세르 CEO는 올해 중동 위기 이후 10억 배럴 넘게 상업재고가 풀렸고 남은 60억 배럴 미만의 상업재고도 대부분 실제로 쓸 수 없다고 경고 [사실]",
+  "가격 바닥: 셰브런 워스 CEO는 완충재고 소진으로 시장이 취약해지고 유가 하단이 올라갔다고 언급, 美 전략비축유는 1982년 10월 이후 최저 [사실]",
+  "아시아 비축: 일본 주도 'POWERR Asia'(약 100억 달러 지원)에 사우디·UAE가 동참해 아시아 비축 능력 강화 협력 의사 [사실]",
+  "기존 흐름: 국경절 연휴 뒤 상하이 연료유 선물 18% 넘게 급등, 브렌트 103~104달러 [사실]",
+  "이후: 트럼프의 이란 협상 발언에 유가 하락, 중국은 10월 연료 수출을 잠시 멈춘 뒤 재개 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "원유 완충재고 바닥 경고…中 연료유 18% 급등 뒤 아시아 비축 확대·유가 출렁",
+ "id": "n-tg-0203",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-HANAchina-70061",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 203,
+ "one": "중동 사태 이후 10억 배럴 넘는 재고가 풀려 세계 원유 완충재고가 거의 바닥났다는 경고 속에 중국 연료유 선물이 18% 급등하고 일본·사우디·UAE가 아시아 비축 확대에 나섰으며, 유가는 트럼프의 이란 협상 발언에 하락하는 등 변동성이 커지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:27:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70061"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "21세기경제보도(21财经)",
+   "u": "https://m.21jingji.com/article/20261008/herald/f410939663eb7bfce5dbd955d3821466.html"
+  },
+  {
+   "o": "BOE Report(재고 경고 전재)",
+   "d": "2026-10-06",
+   "u": "https://boereport.com/2026/10/06/the-world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say/"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-08",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Courts-Saudi-Arabia-and-UAE-as-Asias-Oil-Supply-Fears-Persist.html"
+  }
+ ],
+ "tags": [],
+ "title": "원유 완충재고 바닥 경고…中 연료유 18% 급등 뒤 아시아 비축 확대·유가 출렁",
+ "url": "https://t.me/HANAchina/70061",
+ "items": [
+  {
+   "t": "중국 연료유 선물 18% 급등…브렌트도 103~104달러로 상승",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-08",
+   "u": "https://t.me/HANAchina/70061"
+  },
+  {
+   "t": "디젤 가격 급등에 농가 타격…식품 물가 상승 위험 커져",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/features/2026-10-07/diesel-price-surge-hits-farmers-raising-food-inflation-risk"
+  },
+  {
+   "t": "석유업계 경영진 \"세계는 원유 비축 완충재고를 거의 다 써버렸다\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/"
+  },
+  {
+   "t": "'적기공급'에서 '만일 대비'로…석유업계 \"세계에 수출 경로 더 필요\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/just-in-time-just-in-case-oil-executives-say-world-needs-more-export-routes-2026-10-06/"
+  },
+  {
+   "t": "美 EIA: 원유·중간유분 재고 감소, 휘발유 재고는 증가",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-inventories-rise-eia-says-2026-10-07/"
+  },
+  {
+   "t": "폭풍과 공습이 공급 위협하며 유가 상승",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/oil-prices-rise-storms-air-strikes-threaten-supply-2026-10-07/"
+  },
+  {
+   "t": "로이터 조사: 일본 기업 실적 위험 1순위는 유가 변동성",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-2026-10-07/"
+  },
+  {
+   "t": "제트바이오, 공장에 에탄올-디젤 전환 설비 추가",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/jetbio-to-add-ethanol-to-diesel-capacity-at-proposed-plant"
+  },
+  {
+   "t": "이탈리아 \"유럽국들이 약속 이행하면 원유 비축분 추가 방출 가능\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/italy-open-more-oil-stock-releases-if-european-countries-meet-pledges-2026-10-08/"
+  },
+  {
+   "t": "사우디·UAE, 일본 주도 아시아 원유 비축 강화 구상에 동참",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/saudi-uae-join-japan-led-push-to-bolster-asian-oil-buffers"
+  },
+  {
+   "t": "선박 공격 속 중동 공급 우려 지속에 유가 상승",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/"
+  },
+  {
+   "t": "아시아, 이란 전쟁 대응해 원유 비축·재생에너지 확대 서둘러",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/asia-races-stockpile-oil-speed-up-renewables-response-iran-war-2026-10-08/"
+  },
+  {
+   "t": "트럼프의 이란 협상 발언에 공급 우려 완화되며 유가 하락",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/"
+  },
+  {
+   "t": "소식통 4명 \"중국, 짧은 중단 뒤 10월 연료 수출 재개\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/china-resume-october-fuel-exports-after-brief-halt-four-trade-sources-say-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

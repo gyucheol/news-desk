@@ -1,0 +1,66 @@
+{
+ "id": "n-rtr-0038",
+ "num": 38,
+ "key": "bnd-C073-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:47:00+09:00",
+ "url": "https://www.reuters.com/world/europe/rubio-says-war-ukraine-is-dangerous-stalemate-2026-10-08/",
+ "origTitle": "",
+ "headline": "루비오 \"우크라戰 위험한 교착\"…위트코프·쿠슈너, 마이애미서 우크라와 협상",
+ "src": [
+  {
+   "o": "Axios",
+   "d": "2026-10-08",
+   "u": "https://www.axios.com/2026/10/08/ukraine-russia-war-kushner-witkoff-negotiations-winter"
+  },
+  {
+   "o": "SBS News",
+   "d": "2026-10-08",
+   "u": "https://www.sbs.com.au/news/article/marco-rubio-warns-of-ukraine-war-stalemate-as-us-pushes-for-peace-deal/crykrmg5o"
+  }
+ ],
+ "items": [
+  {
+   "t": "루비오 \"우크라이나 전쟁은 위험한 교착 상태\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/europe/rubio-says-war-ukraine-is-dangerous-stalemate-2026-10-08/"
+  },
+  {
+   "t": "젤렌스키 \"유럽도 미국과의 협상에 합류할 것으로 기대\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/zelenskiy-says-ukraine-expects-europeans-join-talks-with-us-2026-10-08/"
+  },
+  {
+   "t": "미 소식통 \"위트코프·쿠슈너, 금요일 마이애미서 우크라이나 측과 회동\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/europe/witkoff-kushner-meet-ukrainians-miami-friday-says-us-source-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "루비오 \"우크라戰 위험한 교착\"…위트코프·쿠슈너, 마이애미서 우크라와 협상",
+ "one": "루비오 미 국무장관이 우크라이나 전쟁을 위험한 교착 상태라고 규정한 가운데 위트코프·쿠슈너 특사가 9일 마이애미에서 우크라이나 대표단과 만나 에너지·곡물 부분 휴전 등을 논의하기로 하면서, 겨울 전력망 공격을 앞두고 협상 재개 여부가 주목된다",
+ "facts": [
+  "무엇이: 루비오 국무장관이 우크라이나 전쟁을 위험한 교착이라고 하며 더 넓은 지역 분쟁으로 번질 수 있다고 경고 [사실]",
+  "협상: 위트코프·쿠슈너 특사가 10월 9일 마이애미에서 우크라이나 대표단과 회동, 영국·프랑스·독일 안보보좌관과 NATO·EU 관계자도 초청 [사실]",
+  "의제: 에너지 시설·곡물 운송 공격을 멈추는 부분 휴전안, 우크라이나는 수용 의사, 러시아는 일시 조치에 관심 없다는 입장 [사실]",
+  "쟁점: 루비오는 러시아가 겨울을 이용해 우크라이나 전력망 파괴를 노린다고 언급 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Axios, SBS, TVP World, ThePrint)으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

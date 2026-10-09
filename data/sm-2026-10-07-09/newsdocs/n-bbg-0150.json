@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0150",
+ "num": 150,
+ "key": "bnd-C118-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T04:12:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/how-us-solar-exports-are-helping-ease-cuba-s-energy-pain",
+ "origTitle": "",
+ "headline": "미국, 쿠바행 연료 90건 압류하며 봉쇄 강화…태양광이 전력난 완화 대안으로",
+ "src": [
+  {
+   "o": "CTV News",
+   "d": "2026-10-07",
+   "u": "https://www.ctvnews.ca/world/article/us-seizes-us3-million-in-fuel-shipments-to-cuba-as-crackdown-continues/"
+  },
+  {
+   "o": "Rio Times",
+   "d": "2026-10-08",
+   "u": "https://www.riotimesonline.com/us-seizes-90-cuba-bound-fuel-shipments-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국산 태양광 수출이 쿠바의 에너지난 완화에 기여하는 방식",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/how-us-solar-exports-are-helping-ease-cuba-s-energy-pain"
+  },
+  {
+   "t": "미국, 쿠바행 연료 300만 달러어치 압류…단속 지속",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/us-seizes-3-million-fuel-shipments-cuba-crackdown-continues-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미국, 쿠바행 연료 90건 압류하며 봉쇄 강화…태양광이 전력난 완화 대안으로",
+ "one": "미국이 제재 대상 쿠바 국영 연료회사로 가던 바이오디젤 90건(약 280만 달러어치)을 압류하는 등 연료 봉쇄를 이어가면서, 정전이 심해진 쿠바에서 미국산 태양광 설비 수입이 전력난을 덜어주는 통로가 되고 있다",
+ "facts": [
+  "무엇이: 미 당국이 10월 7일 쿠바 국영 연료회사 ENETEC로 향하던 바이오디젤 90건, 280만 달러어치를 압류했다고 발표 [사실]",
+  "규모: 포트 에버글레이즈에서 71건(약 49만 6천 갤런) 압류, 휴스턴항에서 19건(약 11만 9천 갤런) 억류 [사실]",
+  "영향: 연료 봉쇄로 쿠바의 정전·물 부족·물가 상승이 심해졌다는 보도 [사실]",
+  "태양광: 미국산 태양광 설비 수출이 쿠바 에너지난 완화에 도움을 주고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "연료 압류는 검색 결과 요약으로 확인. 미국산 태양광 수출 규모는 확인 못 함",
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/geo",
+  "power/modules"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,6 +1,6 @@
 {
  "agent": "R4",
- "searches_used": 10,
+ "searches_used": 16,
  "fetches_used": 0,
  "docs": [
   {
@@ -274,6 +274,171 @@
     }
    ],
    "note": "대화 일시·참석자·의제(희토류 포함) 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0123",
+   "changed": true,
+   "basis": "verified",
+   "title": "웨불 주가 급락…\"美 하원 위원회, 중국 연계 문제 제기\" CNBC 보도",
+   "one": "미 하원 위원회가 온라인 증권사 웨불의 중국 연계를 문제 삼았다는 CNBC 보도가 나오면서 웨불 주가가 급락해, 중국 연계 핀테크 기업에 대한 미국 의회의 규제·안보 압박이 주가 위험으로 번지고 있다",
+   "facts": [
+    "무엇이: CNBC가 미 하원 중국특별위원회(초당적)가 웨불이 중국 정부와 구조적으로 연계돼 있다고 결론 냈다고 보도 [사실]",
+    "시장: 10월 7일 웨불 주가가 보도 시점에 따라 19~32% 급락, 로빈후드·인터랙티브브로커스도 2~3% 하락 [사실]",
+    "반박: 웨불은 보고서에 중대한 오류와 근거 없는 결론이 있다며 미국 고객 데이터는 미국에 저장한다고 밝혔다 [사실]",
+    "한계: 위원회 보고서 자체로는 제재·영업 금지 같은 강제 조치가 따르지 않는다 [사실]",
+    "영향: 중국 연계 미국 상장 핀테크에 대한 의회 감시 강화 가능성 [추론]"
+   ],
+   "check": "24/7 Wall St.·Crowdfund Insider 보도의 검색 결과 요약으로 위원회 명칭과 하락폭(출처별 19~32%) 확인",
+   "src_add": [
+    {
+     "o": "24/7 Wall St.",
+     "d": "2026-10-07",
+     "u": "https://247wallst.com/investing/2026/10/07/webull-sinks-29-as-house-panel-calls-its-china-ties-a-national-security-risk-robinhood-drops-3-interactive-brokers-slips/"
+    },
+    {
+     "o": "Crowdfund Insider",
+     "d": "2026-10-07",
+     "u": "https://www.crowdfundinsider.com/2026/10/316397-webull-shares-plummet-as-house-select-committee-on-china-declares-national-security-risk-and-ties-to-china/"
+    }
+   ],
+   "note": "위원회 명칭·하락폭·회사 반박 확인해 facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0129",
+   "changed": true,
+   "basis": "verified",
+   "title": "미 FDA, 노바티스 두드러기약 랩시도 피부묘기증으로 적응증 확대",
+   "one": "미 FDA가 노바티스의 만성 두드러기약 랩시도(레미브루티닙)를 항히스타민제로 조절되지 않는 성인 증상성 피부묘기증에 쓰도록 승인하면서, 노바티스가 이 약의 처방 대상을 넓히게 됐다",
+   "facts": [
+    "무엇이: 미 FDA가 노바티스 랩시도(레미브루티닙)의 사용을 성인 증상성 피부묘기증(만성 두드러기의 한 형태)으로 확대 승인 [사실]",
+    "대상: 항히스타민제로 증상이 충분히 조절되지 않는 성인, 이 질환 전용 첫 FDA 승인 치료제 [사실]",
+    "근거: 3상 RemIND에서 12주 뒤 두드러기 완전 소실 비율이 29.3%로 위약 14%보다 높았다 [사실]",
+    "기존: 이 약은 이미 미국에서 만성 자발성 두드러기에 승인돼 있다 [사실]"
+   ],
+   "check": "PharmTech·AJMC 보도의 검색 결과 요약으로 약 이름(레미브루티닙)과 질환(증상성 피부묘기증) 확인",
+   "src_add": [
+    {
+     "o": "PharmTech",
+     "d": "2026-10-07",
+     "u": "https://www.pharmtech.com/view/symptomatic-dermographism-novartis-lands-remibrutinib-label-expansion"
+    },
+    {
+     "o": "AJMC",
+     "d": "2026-10-07",
+     "u": "https://www.ajmc.com/view/fda-approves-first-symptomatic-dermographism-treatment"
+    }
+   ],
+   "note": "약 이름(랩시도·레미브루티닙)·질환(피부묘기증) 확인해 제목·한줄·facts 구체화, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0134",
+   "changed": true,
+   "basis": "verified",
+   "title": "英 바닥재 유통사 헤드램, 법정관리 들어가며 상장폐지",
+   "one": "영국 바닥재 유통업체 헤드램이 법정관리 끝에 핵심 자산을 1490만 파운드에 라이크와이즈에 넘기고 런던 증시 상장폐지를 추진하면서, 기존 주주가 투자금을 돌려받을 가능성이 거의 사라졌다",
+   "facts": [
+    "무엇이: 헤드램 관리인이 FCA에 상장 취소를 신청할 계획이며 시행일은 아직 정해지지 않았다 [사실]",
+    "경과: 헤드램은 9월 8일 법정관리에 들어갔고 주식은 9월 초부터 거래 정지 상태다 [사실]",
+    "매각: 라이크와이즈가 대참 물류센터와 브랜드 등 일부 자산을 1490만 파운드에 인수해 10월 6일 완료, 약 110개 일자리 유지 [사실]",
+    "영향: 회사는 주주에게 자본이 돌아갈 가능성이 낮다고 밝혔다 [사실]"
+   ],
+   "check": "헤드램 공시를 다룬 TipRanks·AskTraders·TradersUnion의 검색 결과 요약으로 법정관리·자산 매각·상장 취소 계획 확인. 상장폐지 시행일은 미정",
+   "src_add": [
+    {
+     "o": "TipRanks(헤드램 공시)",
+     "d": "2026-10-07",
+     "u": "https://www.tipranks.com/news/company-announcements/headlam-sells-core-assets-to-likewise-and-plans-london-listing-cancellation"
+    },
+    {
+     "o": "AskTraders",
+     "d": "2026-10-07",
+     "u": "https://www.asktraders.com/analysis/headlam-shares-face-delisting-after-14-9m-asset-sale-to-likewise/"
+    }
+   ],
+   "note": "상장폐지는 '추진'(시행일 미정)으로 한줄 보정, 자산 매각 1490만 파운드 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0139",
+   "changed": true,
+   "basis": "verified",
+   "title": "로사톰, 델로 지분 100% 확보…러시아 최대 물류그룹 탄생",
+   "one": "러시아 국영 원자력기업 로사톰이 창업자 지분 51%를 사들여 물류그룹 델로를 완전히 소유하고 FESCO와 묶기로 하면서, 러시아 항만·컨테이너 운송에서 국영기업의 영향력이 커지게 됐다",
+   "facts": [
+    "무엇이: 로사톰이 창업자 세르게이 시시카료프의 델로 지분 51%를 사들여 지분 100%를 확보했다(기존 49%) [사실]",
+    "금액: 인수가는 공개되지 않았고 시시카료프는 자기 지분 가치를 770억 루블로 제시했다 [사실]",
+    "재편: 로사톰은 델로를 해운사 FESCO 등과 묶어 공동 관리센터를 세울 계획이다 [사실]",
+    "규모: 로사톰의 러시아 컨테이너 환적 시장 점유율은 50%, 철도 컨테이너 운송 점유율은 44%에 이르렀다 [사실]",
+    "영향: 국영기업 중심의 물류 재편 [추론]"
+   ],
+   "check": "Moscow Times·Splash247·Baird Maritime 보도의 검색 결과 요약으로 지분 구조와 통합 계획 확인. 실제 인수 금액은 비공개",
+   "src_add": [
+    {
+     "o": "The Moscow Times",
+     "d": "2026-10-07",
+     "u": "https://www.themoscowtimes.com/2026/10/07/rosatom-takes-full-control-of-delo-group-in-900m-buyout-a93906"
+    },
+    {
+     "o": "Splash247",
+     "d": "2026-10-08",
+     "u": "https://splash247.com/rosatom-folds-delo-into-expanding-logistics-platform/"
+    }
+   ],
+   "note": "기존 지분율(49%)·인수 지분(51%)·FESCO 통합 확인해 한줄·facts 보강, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0146",
+   "changed": true,
+   "basis": "partial",
+   "title": "인도 NSE, 수요 몰린 해외 ETF 고평가 경고",
+   "one": "인도국립증권거래소(NSE)가 해외 주식 ETF로 수요가 몰려 일부 상품 가격이 비싸지자 투자자들에게 주의를 당부하면서, 해외 주식에 쏠린 인도 개인 투자자들이 고평가된 가격에 사들이는 손실 위험이 부각됐다",
+   "facts": [
+    "무엇이: NSE가 일부 해외 ETF가 순자산가치(NAV)보다 크게 비싸게 거래된다며 투자자 주의 촉구 [사실]",
+    "원인: 뮤추얼펀드의 해외 투자 한도가 소진돼 새 ETF 단위를 만들 수 없어 수요가 가격을 밀어 올렸다 [사실]",
+    "세부: 모틸랄오스왈 나스닥 Q50 ETF의 프리미엄은 9월 18일 235%까지 치솟았다가 9월 28일 57%로 내려간 뒤 다시 반등했다 [사실]",
+    "참고: BSE도 비슷한 경고를 냈다 [사실]"
+   ],
+   "check": "Value Research·Whalesbook 보도의 검색 결과 요약으로 해외 ETF 프리미엄과 BSE 경고는 확인. NSE 경고 원문은 로이터 계열 글에서만 보여 독립 출처로는 확인 못 함",
+   "src_add": [
+    {
+     "o": "Value Research",
+     "d": "2026-10-07",
+     "u": "https://valueresearchonline.com/stories/229882/nasdaq-q50-etf-premium-international-funds-open"
+    },
+    {
+     "o": "Whalesbook",
+     "d": "2026-10-07",
+     "u": "https://www.whalesbook.com/news/English/sebiexchange/BSE-Warns-Investors-On-International-ETF-Price-Premiums/6ab6baed5aacb956d080c3f0"
+    }
+   ],
+   "note": "프리미엄 원인·규모 확인해 facts 보강, NSE 경고 자체는 독립 출처 미확인이라 partial, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0151",
+   "changed": true,
+   "basis": "verified",
+   "title": "남아공, 배터리 저장장치·가스발전 사업 우선 추진",
+   "one": "남아공 에너지부가 배터리 저장장치 4.6GW와 가스발전 5GW를 우선 조달하겠다고 밝히면서, 전력난을 겪는 남아공의 신규 발전 조달이 저장장치·가스 쪽으로 쏠리고 관련 사업자의 수주 기회가 늘 수 있다",
+   "facts": [
+    "무엇이: 남아공 람오콥파 전력·에너지 장관이 배터리 저장장치와 가스발전을 우선 조달한다고 10월 7일 발표 [사실]",
+    "규모: 2026~2037년 대상 34조 결정으로 배터리 저장 4.6GW, 가스발전 5GW 등 총 9.6GW를 먼저 조달하고 풍력·태양광 배정은 뒤에 한다 [사실]",
+    "방식: 독립발전사업자청(IPPO)이 시행하며 에스콤을 포함한 모든 사업자에 열려 있다 [사실]",
+    "미정: 저장 용량(MWh)과 입찰 일정은 공개되지 않았다 [미확인]",
+    "의미: 신규 발전 조달이 저장·가스로 이동 [추론]"
+   ],
+   "check": "남아공 정부 통신(SAnews)·Engineering News 보도의 검색 결과 요약으로 조달 규모(4.6GW·5GW) 확인",
+   "src_add": [
+    {
+     "o": "SAnews(남아공 정부)",
+     "d": "2026-10-07",
+     "u": "https://www.sanews.gov.za/south-africa/south-africa-prioritises-gas-and-battery-storage"
+    },
+    {
+     "o": "Engineering News",
+     "d": "2026-10-07",
+     "u": "https://www.engineeringnews.co.za/article/new-determination-opens-way-for-public-procurement-of-large-scale-battery-storage-and-gas-to-power-2026-10-07"
+    }
+   ],
+   "note": "조달 규모(저장 4.6GW·가스 5GW) 확인해 한줄·facts 보강, 꼬리 뗌"
   }
  ]
 }

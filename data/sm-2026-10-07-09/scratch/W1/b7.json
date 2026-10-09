@@ -1,0 +1,140 @@
+{
+ "searches_used": 24,
+ "fetches_used": 5,
+ "items": [
+  {
+   "cid": "C289",
+   "attachTo": "",
+   "title": "웰스파고, 흑인 주택 보유 확대 프로그램 놓고 규제당국 조사",
+   "one": "웰스파고가 흑인 가구의 주택 보유를 늘리려던 대출 프로그램을 두고 규제당국의 조사를 받게 됐다고 월스트리트저널이 보도하면서, 인종을 고려한 금융 지원에 대한 감독 압박이 은행권으로 번질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 웰스파고가 흑인 주택 보유 확대 노력과 관련해 규제당국 조사에 직면(WSJ 보도) [제목]",
+    "세부: 조사 기관·쟁점 조항은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "웰스파고, 흑인 주택 보유 확대 노력 두고 규제당국 조사 직면…WSJ",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/wells-fargo-faces-regulator-probe-over-efforts-boost-black-homeownership-wsj-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C299",
+   "attachTo": "",
+   "title": "인도 NSE, 수요 몰린 해외 ETF 고평가 경고",
+   "one": "인도국립증권거래소(NSE)가 해외 주식 ETF로 수요가 몰려 일부 상품 가격이 비싸지자 투자자들에게 주의를 당부하면서, 해외 주식에 쏠린 인도 개인 투자자들이 고평가된 가격에 사들이는 손실 위험이 부각됐다 (제목 기준)",
+   "facts": [
+    "무엇이: NSE가 수요 급증한 해외 ETF의 고평가에 대해 투자자 주의 촉구 [제목]",
+    "세부: 프리미엄 규모와 대상 ETF는 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 프리미엄 규모·대상 ETF 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 NSE, 수요 급증한 해외 ETF 고평가에 투자자 주의 당부",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/nse-cautions-investors-over-pricey-overseas-etfs-demand-surges-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C309",
+   "attachTo": "",
+   "title": "아커BP 노르웨이 대형 유전 사업비 증가…정부 예산안서 드러나",
+   "one": "노르웨이 정부 예산안에서 아커BP가 운영하는 대륙붕 대형 개발 사업들의 비용이 기존 추정보다 늘어난 것으로 나타나면서, 해양 유전 개발 비용 상승이 석유회사 수익성과 투자 일정에 부담이 될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 노르웨이 재정 예산안에 아커BP 주요 해상 사업의 비용 증가가 반영 [제목]",
+    "세부: 해당 사업명과 증가 금액은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "drilling"
+   ],
+   "nodes": [
+    "drilling/capex"
+   ],
+   "items": [
+    {
+     "t": "노르웨이 예산안 \"아커BP 해상 대형 사업 비용 늘어\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/aker-bps-major-projects-off-norway-cost-more-fiscal-budget-shows-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C319",
+   "attachTo": "",
+   "title": "보스턴다이내믹스, 아마존 AI 책임자 출신 로힛 프라사드 CEO 선임",
+   "one": "로봇업체 보스턴다이내믹스가 아마존에서 AI 개발을 이끈 로힛 프라사드를 새 최고경영자로 선임하면서, 회사가 밝힌 대로 AI를 접목한 로봇의 상용화에 경영의 무게를 싣게 됐다",
+   "facts": [
+    "무엇이: 보스턴다이내믹스가 전 아마존 임원 로힛 프라사드를 CEO로 선임 [사실]",
+    "배경: 회사는 그를 전 아마존 AI 리더로 소개하며 '피지컬 AI 혁신과 상용화의 다음 시대'를 이끌 것이라고 밝힘 [사실]",
+    "세부: 전임자와 선임 날짜는 회사 페이지에서 확인 못 함 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "보스턴다이내믹스 뉴스 페이지 열람으로 선임 사실과 소개 문구 확인. 날짜·전임자 확인 못 함",
+   "src": [
+    {
+     "o": "Boston Dynamics",
+     "d": "2026-10-07",
+     "u": "https://bostondynamics.com/news/"
+    }
+   ],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "보스턴다이내믹스, 전 아마존 임원 로힛 프라사드 CEO 선임",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/autos-transportation/boston-dynamics-appoints-ex-amazon-executive-rohit-prasad-ceo-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C329",
+   "attachTo": "",
+   "title": "텍사스 법무장관, 프루트오브더룸·헤인스 아동용품 유해물질 조사",
+   "one": "켄 팩스턴 텍사스주 법무장관이 프루트오브더룸과 헤인스의 아동용 제품에 잠재적 유해 화학물질이 들어 있는지 조사에 나서면서, 두 의류업체가 소송과 제품 회수 부담을 질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 텍사스주 법무장관 팩스턴이 프루트오브더룸·헤인스를 아동용 제품 유해 화학물질 가능성으로 조사 [제목]",
+    "세부: 문제 물질과 대상 제품은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "텍사스 법무장관 팩스턴, 아동용품 유해물질 우려로 프루트오브더룸·헤인스 조사",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/litigation/texas-ag-paxton-probes-fruit-loom-hanes-over-potential-toxic-chemicals-childrens-2026-10-06/"
+    }
+   ]
+  }
+ ]
+}

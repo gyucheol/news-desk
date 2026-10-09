@@ -1,0 +1,64 @@
+{"searches_used": 16, "fetches_used": 0,
+"items": [
+{"cid": "C159", "attachTo": "",
+ "title": "PG&E, 강풍·산불 위험에 주말 예방 단전 경고…캘리포니아 북부 대상",
+ "one": "캘리포니아 최대 전력회사 PG&E가 건조한 강풍으로 산불 위험이 커지자 토요일부터 월요일까지 새크라멘토 북·서쪽 등 일부 지역에 예방 단전을 할 수 있다고 경고하면서, 약 1만 2,200가구의 전력 공급이 끊길 수 있다",
+ "facts": [
+  "무엇이: PG&E가 강풍·낮은 습도·산불 위험을 이유로 주말 공공안전 단전(PSPS) 가능성 경고 [사실]",
+  "범위: 약 1만 2,200 고객, 17개 카운티 일부가 대상이 될 수 있음(다른 보도는 7개 카운티) [사실]",
+  "일정: 10월 8일 고객 통보 완료, 금요일 오후~월요일 기상 감시 [사실]"],
+ "basis": "verified",
+ "check": "Insurance Journal·ABC10 검색 결과 요약으로 확인. 대상 카운티 수는 보도별로 7곳·17곳으로 다름",
+ "src": [{"o": "Insurance Journal", "d": "2026-10-09", "u": "https://www.insurancejournal.com/news/west/2026/10/09/888527.htm"},
+         {"o": "ABC10", "d": "2026-10-08", "u": "https://www.abc10.com/article/news/local/california/potential-pge-power-shutoffs-could-affect-17-california-counties/103-28018f82-95ec-429e-b2f3-830a7de80690"}],
+ "inds": ["power"], "nodes": ["power/grid"],
+ "items": [
+  {"t": "PG&E, 강풍 속 주말 단전 가능성 경고", "o": "블룸버그", "d": "2026-10-09", "u": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather"}]},
+{"cid": "C169", "attachTo": "",
+ "title": "프랑크푸르트 코메르츠방크 타워, 3.6억 유로 차환·리모델링 자금 조달 난항",
+ "one": "프랑크푸르트 코메르츠방크 타워를 소유한 삼성SRA자산운용이 약 3억 6,000만 유로 대출 차환과 리모델링용 우선주 1억 5,000만 유로 조달에 나섰지만 2032년 임대 만료 후 코메르츠방크의 재계약이 불확실해 진척이 더디면서, 빌딩의 앞날이 불투명해졌다",
+ "facts": [
+  "무엇이: 소유주 삼성SRA자산운용이 BNP파리바를 자문사로 두고 약 3억 6,000만 유로 대출 차환과 약 1억 5,000만 유로 우선주 조달 추진 [사실]",
+  "걸림돌: 코메르츠방크의 2032년 임대 만료 후 연장 여부 불확실, 소유주는 신규 자본 투입에 소극적 [사실]",
+  "기존 대출: 2023년 바이에른LB 등 은행단에서 LTV 55%로 차환 [사실]"],
+ "basis": "verified",
+ "check": "MarketScreener 요약(블룸버그 보도 인용)과 Patrizia 2023년 발표로 확인. 임대 만료 연도는 2031·2032년으로 출처마다 다름",
+ "src": [{"o": "MarketScreener 뉴스 요약", "d": "2026-10-08", "u": "https://www.marketscreener.com/news/bnp-paribas-reportedly-hired-to-secure-funds-for-renovation-of-commerzbank-s-frankfurt-tower-ce785ddfdb81f626"},
+         {"o": "PATRIZIA", "d": "2023-08-10", "u": "https://www.patrizia.ag/en/news-detail/patrizia-secures-significant-refinancing-on-iconic-commerzbank-tower-in-frankfurt"}],
+ "inds": ["realestate"], "nodes": [],
+ "items": [
+  {"t": "코메르츠방크 타워, 자금 조달 난항에 앞날 불투명", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-08/commerzbank-tower-struggles-for-funds-leaving-future-in-doubt"}]},
+{"cid": "C179", "attachTo": "",
+ "title": "美 상원 초당적 인허가 개혁안에 환경단체 반발…\"석유·빅테크에 퍼주기\"",
+ "one": "미 상원이 에너지·송전 사업 인허가를 앞당기는 초당적 합의안을 내놓자 환경단체들이 멸종위기종 보호 약화와 석유·가스 개발 가속을 이유로 반발하면서, 중간선거 뒤로 미뤄진 표결에서 민주당 표 확보가 난관이 될 전망이다",
+ "facts": [
+  "무엇이: 상원 협상단이 초당적 인허가 개혁안(Bipartisan American Affordability and Jobs Act of 2026) 합의 [사실]",
+  "반발: 오일체인지인터내셔널은 '석유·빅테크에 대한 노골적 선물', 생물다양성센터는 멸종위기종법 무력화라고 비판 [사실]",
+  "분열: NRDC는 송전 조항이 절실하다며 판단 보류, 시에라클럽 등 대형 단체는 반대 서한 불참 [사실]",
+  "일정: 표결은 중간선거 이후, 민주당 표 확보가 최대 과제 [사실]"],
+ "basis": "verified",
+ "check": "Common Dreams·Grist·Inside Climate News 검색 결과 요약으로 확인",
+ "src": [{"o": "Grist", "d": "2026-10", "u": "https://grist.org/politics/permitting-reform-baaja-climate-debate-clean-energy-fossil-fuels"},
+         {"o": "Inside Climate News", "d": "2026-10-02", "u": "https://insideclimatenews.org/news/02102026/senate-introduces-energy-permitting-bill/"}],
+ "inds": ["power"], "nodes": ["power/grid"],
+ "items": [
+  {"t": "환경단체들, 상원 인허가 합의안은 '나쁜 거래'라고 비판", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-08/environmental-groups-criticize-senate-permitting-deal-as-bad-bargain"}]},
+{"cid": "C189", "attachTo": "",
+ "title": "캐나다, 2027년 1월 만료 앞둔 외국인 주택 구매 금지 재검토",
+ "one": "캐나다 정부가 2027년 1월 1일 만료되는 외국인 주택 구매 금지 조치를 연장할지 재검토에 들어가면서, 신축·나대지만 외국인에게 허용하는 호주식 부분 개방이 거론돼 주택시장에 해외 수요가 일부 돌아올 수 있다",
+ "facts": [
+  "무엇이: 샹파뉴 재무장관이 외국인 주택 구매 금지 만료 전 선택지를 검토 중이라고 언급 [사실]",
+  "만료: 금지 조치는 2024년 2월 2년 연장돼 2027년 1월 1일 만료 예정 [사실]",
+  "방향: 로버트슨 주택장관은 신축·나대지만 허용하는 호주 모델을 거론 [사실]",
+  "별도: 온타리오 25%, BC 20% 등 주정부 외국인 취득세는 만료와 무관하게 유지 [사실]"],
+ "basis": "verified",
+ "check": "캐나다 재무부 2024년 발표·BLG·MoneySense 등 검색 결과 요약으로 확인. 최종 결정은 아직 없음",
+ "src": [{"o": "Department of Finance Canada", "d": "2024-02-04", "u": "https://www.canada.ca/en/department-finance/news/2024/02/government-announces-two-year-extension-to-ban-on-foreign-ownership-of-canadian-housing.html"},
+         {"o": "BLG", "d": "2026-07", "u": "https://www.blg.com/en/insights/2026/07/canadas-foreign-buyer-ban-what-the-2027-expiry-signals-for-investors"}],
+ "inds": ["realestate"], "nodes": [],
+ "items": [
+  {"t": "캐나다, 2027년 만료 앞두고 외국인 주택 구매 금지 재검토", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-07/canada-reviews-foreign-homebuyers-ban-as-2027-expiry-approaches"}]}
+],
+"skipped": [
+ {"cid": "C139", "reason": "범위 밖(대만 안보 동향, 투자 관련 구체 사실 없음)"},
+ {"cid": "C199", "reason": "범위 밖(애널리스트 매수 의견 기사)"}]}

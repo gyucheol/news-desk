@@ -1,0 +1,38 @@
+{"items": [
+{"cid": "C187", "attachTo": "",
+ "title": "UPS 직원 경고메일 놓쳐 F-35 부품 홍콩 경유…중국 당국 손에",
+ "one": "UPS 직원이 미국 수출규제상 특정국 경유 금지 경고 메일을 놓친 채 호주 F-35의 조종석 캐노피와 무장창 문을 홍콩으로 돌려 보내면서, 레이더 흡수 코팅이 된 스텔스 부품이 중국 당국 손에 들어가 미 국방부·국무부가 조사에 나섰다",
+ "facts": ["무엇이: 5월 말 미국으로 수리·폐기차 보내던 호주 F-35 조종석 캐노피·무장창 문이 홍콩을 거치다 중국 당국에 넘어감 [사실]", "경위: 물류업체 DSV가 특정국 경유 금지 경고 메일을 보냈으나 UPS 직원이 놓치고 배송을 서두르려 홍콩으로 경로 변경 [사실]", "대응: 미 국방부는 부품이 '사용 불가 상태'라 했고 국방부·국무부가 조사 중, 록히드마틴은 악용 위험이 낮다고 봄 [사실]", "유의: 경위는 블룸버그 익명 소식통 기반이며 중국 외교부는 '알지 못한다'고 밝힘 [사실]"],
+ "basis": "verified", "check": "Tom's Hardware·AeroTime·Al Jazeera 등 검색 결과 요약으로 확인. UPS·DSV는 논평 거부",
+ "src": [{"o": "AeroTime", "d": "2026-10", "u": "https://www.aerotime.aero/articles/ups-missed-warning-email-f35-parts-china"}, {"o": "Al Jazeera", "d": "2026-09-24", "u": "https://www.aljazeera.com/news/2026/9/24/has-china-received-us-f-35-parts-by-diverting-an-australian-shipment"}],
+ "inds": ["aero"], "nodes": [],
+ "items": [
+  {"t": "UPS 직원 보안 메일 놓쳐 중국이 F-35 부품 입수", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-07/ups-worker-missed-security-email-letting-china-get-f-35-parts"}]},
+{"cid": "C197", "attachTo": "",
+ "title": "영국 9월 풍력발전 최대에도 전력값 2배…가스가 가격 결정",
+ "one": "영국 풍력발전이 9월 6.62TWh로 월간 최대를 기록해 가스 발전을 9월 기준 최저로 밀어냈지만, 한계비용 가스가 핵심 시간대 가격을 정하면서 전일시장 전력값은 MWh당 135파운드로 1년 전의 약 2배에 이르렀다",
+ "facts": ["무엇이: 9월 영국 풍력발전 6.62TWh로 9월 기준 최대, 전년보다 4% 증가 [사실]", "가스: 가스 발전량은 9월 기준 사상 최저 [사실]", "가격: 9월 전일시장 전력값 평균 MWh당 135.39파운드로 전년의 약 2배, 가스 발전이 많은 상위 10% 시간대는 약 184파운드 [사실]", "원인: 이란 전쟁으로 카타르산 등 걸프 가스 공급이 막혀 가스값이 올랐고, 한계가격 구조상 가스가 가격을 정함 [사실]"],
+ "basis": "verified", "check": "Energy Connects 전재 등 검색 결과 요약으로 확인(블룸버그 계산 수치 포함)",
+ "src": [{"o": "Energy Connects", "d": "2026-10", "u": "https://www.energyconnects.com/news/renewables/2026/october/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"}],
+ "inds": ["power"], "nodes": ["power/wind", "power/market", "gas/demand"],
+ "items": [
+  {"t": "풍력 발전 최대에도 영국, 비싼 가스 의존 못 벗어나", "o": "블룸버그", "d": "2026-10-07", "u": "https://www.bloomberg.com/news/articles/2026-10-07/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"}]},
+{"cid": "C207", "attachTo": "",
+ "title": "폭스바겐 영국 금융법인, 자동차금융 보상 충당금 7억2500만 파운드",
+ "one": "폭스바겐 영국 금융법인이 금융감독청의 자동차금융 불완전판매 보상 제도에 대비해 7억2500만 파운드를 충당금으로 쌓으면서, 2025년 세후 3억5290만 파운드 적자로 돌아섰고 최종 비용은 더 달라질 수 있다",
+ "facts": ["무엇이: 폭스바겐파이낸셜서비스 UK가 2025년 감사보고서에 보상금·이자·운영비를 포함한 7억2500만 파운드 충당금을 반영 [사실]", "실적: 세후 3억5290만 파운드 적자(전년 1억1030만 파운드 흑자) [사실]", "제도: 금융감독청 보상안은 2007년 이후 약 75억 파운드 규모로 7월 법적 다툼으로 일부 중단, 본안 심리는 12월 또는 2027년 2월 예정 [사실]", "동종사: BMW는 6억1200만 파운드, 로이즈는 약 20억 파운드를 적립 [사실]"],
+ "basis": "verified", "check": "City AM·AM Online·Law360 등 검색 결과 요약으로 확인",
+ "src": [{"o": "City AM", "d": "2026-10-07", "u": "https://www.cityam.com/volkswagen-takes-725m-hit-from-motor-finance-scandal/"}, {"o": "AM Online", "d": "2026-10-07", "u": "https://www.am-online.com/news/vw-financial-services-records-486m-loss-after-redress-provision"}],
+ "inds": ["auto"], "nodes": [],
+ "items": [
+  {"t": "폭스바겐, 영국 자동차금융 보상에 7억2500만 파운드 적립", "o": "블룸버그", "d": "2026-10-07", "u": "https://www.bloomberg.com/news/articles/2026-10-07/volkswagen-sets-aside-725-million-for-uk-motor-finance-payout"}]},
+{"cid": "C217", "attachTo": "",
+ "title": "구글, 파산 스피릿항공 내부 데이터 AI 학습용 인수…의원 100여 명 제동",
+ "one": "구글이 파산한 스피릿항공의 직원 이메일 약 1억 건 등 내부 기록을 1000만 달러에 낙찰받아 AI 학습에 쓰려 하자 워런 상원의원 등 의원 100여 명이 개인정보 재식별 위험을 들어 거래 보류를 요구하면서, 10월 14일 파산법원 심리가 고비가 됐다",
+ "facts": ["무엇이: 구글이 경매에서 1000만 달러에 스피릿항공 운영 기록(직원 이메일 약 1억 건, 팀즈 메시지 5억 건 등)을 낙찰 [사실]", "반발: 워런 상원의원·호스퍼드 하원의원 주도로 의원 100명 이상이 AI로 비식별 정보가 재식별될 수 있다며 직원 정보 제외를 요구 [사실]", "구글: 개인정보는 사지 않으며 제외하거나 독립 제3자가 비식별 처리한 뒤 받는다고 해명 [사실]", "다음 일정: 개인정보 옴부즈맨은 승객 9700만 명 정보 제외를 조건으로 10월 14일 심리에서 승인을 권고 [사실]"],
+ "basis": "verified", "check": "The Hill·The Record·PYMNTS 등 검색 결과 요약으로 확인. 의원 수는 출처마다 114~121명으로 다름",
+ "src": [{"o": "The Hill", "d": "2026-10-08", "u": "https://thehill.com/homenews/house/6137595-horsford-warren-lawmakers-google-spirit-data-ai/"}, {"o": "The Record", "d": "2026-10", "u": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal"}],
+ "inds": ["tech"], "nodes": [],
+ "items": [
+  {"t": "의원들, 구글의 스피릿항공 데이터 AI 학습용 인수 계획에 경고", "o": "로이터", "d": "2026-10-09", "u": "https://www.reuters.com/world/lawmakers-raise-alarm-google-plan-acquire-spirit-airlines-data-ai-models-2026-10-08/"}]}
+], "skipped": []}

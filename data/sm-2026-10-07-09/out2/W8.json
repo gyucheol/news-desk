@@ -1,0 +1,1220 @@
+{
+ "agent": "W8",
+ "searches_used": 20,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C009",
+   "attachTo": "",
+   "title": "IMF, 파키스탄과 12억 달러 실무합의…파푸아뉴기니·말라위·세네갈도 지원·채무조정 협상",
+   "one": "IMF가 파키스탄과 연료 보조금 조기 폐지를 조건으로 약 12억 달러 지원 실무합의를 맺고 파푸아뉴기니·말라위와도 협상을 진척시키는 가운데, 세네갈은 12월까지 채권단과 채무조정 타결을 노리고 있어 에너지 충격에 취약한 신흥국의 긴축 부담이 커지고 있다",
+   "facts": [
+    "무엇이: IMF가 10월 7일 파키스탄과 70억 달러 EFF 4차 검토·RSF 3차 검토 실무합의, 이사회 승인 시 약 12억 달러 집행 [사실]",
+    "조건: 연료 지원제도 조기 폐지, 이번 회계연도 GDP 대비 2% 기초재정흑자 [사실]",
+    "배경: 파키스탄 9월 물가 약 10.3%, 9월 말 외환보유액 약 215억 달러, 호르무즈 경유 에너지 수입 의존 [사실]",
+    "다른 나라: 파푸아뉴기니 실무합의, 말라위 신규 프로그램 진전, 세네갈 12월까지 공식·민간 채권단 합의 목표, 콜롬비아 IMF 약속 이행 난관 [제목]",
+    "제도: 영국 지원 단체가 IMF·세계은행 연차총회 앞서 민간 채권자용 채무조정 지침 발표 [제목]"
+   ],
+   "basis": "partial",
+   "check": "파키스탄 합의 내용은 검색 결과 요약으로 확인. 파푸아뉴기니·말라위·세네갈·콜롬비아 건은 제목만 근거",
+   "src": [
+    {
+     "o": "Anadolu(aNews)",
+     "d": "2026-10-08",
+     "u": "https://www.anews.com.tr/world/2026/10/08/pakistan-reaches-imf-staff-deal-for-12b-as-energy-shocks-weigh-on-economy"
+    },
+    {
+     "o": "Lahore Times",
+     "d": "2026-10-08",
+     "u": "https://www.lhrtimes.com/2026/10/08/imf-pakistan-seal-staff-level-deal-for-1-2bn-board-nod-awaited/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/liquidity"
+   ],
+   "items": [
+    {
+     "t": "세네갈, 12월까지 공식 채권단·채권자들과 채무 합의 목표…소식통",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/africa/senegal-aims-deal-with-official-creditors-bondholders-by-december-sources-say-2026-10-06/"
+    },
+    {
+     "t": "IMF, 파푸아뉴기니와 실무합의…자금 지원 길 열릴 수도",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/imf-reaches-staff-level-deal-with-papua-new-guinea-potentially-unlocking-about-2026-10-06/"
+    },
+    {
+     "t": "IMF \"말라위 방문으로 신규 대출 프로그램 향해 진전\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/africa/imf-says-malawi-visit-makes-progress-towards-new-lending-programme-2026-10-07/"
+    },
+    {
+     "t": "IMF, 파키스탄과 실무합의…12억 달러 지원 길 열릴 수도",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/imf-reaches-staff-deal-with-pakistan-potentially-unlocking-12-billion-2026-10-07/"
+    },
+    {
+     "t": "파키스탄, IMF와 합의…신규 자금 12억 달러 확보",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/pakistan-reaches-imf-deal-to-unlock-1-2-billion-in-new-funds"
+    },
+    {
+     "t": "영국 지원 단체, IMF·세계은행 회의 앞두고 민간 채권자용 채무조정 지침 발표",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/uk-backed-group-issues-private-lenders-debt-rework-guide-ahead-imf-world-bank-2026-10-08/"
+    },
+    {
+     "t": "콜롬비아, 대출 합의 가능성 속 IMF 약속 이행에 난관",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/americas/colombia-faces-hurdles-meet-imf-commitments-under-possible-lending-deal-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C021",
+   "attachTo": "n-tg-0202",
+   "title": "호르무즈 유조선 공격 개전 후 주간 최다…통항 두 달來 최저, 운임·할증료 급등",
+   "one": "호르무즈 해협 안팎에서 유조선 공격이 이란 전쟁 이후 주간 최다로 늘고 이란이 우회 항로까지 막겠다고 위협하면서, 통항이 두 달여 만에 최저로 줄고 유조선 운임이 사상 최고로 뛰어 머스크가 긴급 유류할증료를 20%로 올리는 등 해운·원유 수입 비용이 커지고 있다",
+   "facts": [
+    "무엇이: 지난주 호르무즈 유조선 공격 건수가 이란 전쟁 시작 이후 주간 최다, 통항 선박은 두 달여 만에 최저 [사실]",
+    "기존: 해협 밖 카타르 북쪽·UAE 푸자이라 인근에서 하루 새 유조선 두 척 피격 [사실]",
+    "이란 위협: 원유 수출용 새 항로 개설 시도를 적대 행위로 간주하겠다고 역내 국가에 경고 [사실]",
+    "운임: 머스크가 10월 12일부터 긴급 유류할증료(EFS)를 20%로 인상, 블룸버그는 원유 운임이 최고치 경신·초대형 유조선의 중동 쏠림으로 선박 부족 심화 보도 [사실]",
+    "파급: 트라피구라가 SFL에서 유조선 7척 매입, 운임 급등으로 아시아의 미국산 원유 수요 위축 우려, 걸프 증시 하락 [제목]"
+   ],
+   "basis": "verified",
+   "check": "공격 최다·통항 최저·이란 경고·머스크 20% 인상은 검색 결과 요약으로 확인. 트라피구라 매입·운임 수치는 제목 기준",
+   "src": [
+    {
+     "o": "YourNews",
+     "d": "2026-10-08",
+     "u": "https://yournews.com/2026/10/08/7219471/maersk-raises-emergency-fuel-surcharge-to-20-as-middle-east/"
+    },
+    {
+     "o": "ENGINE",
+     "d": "2026-10-08",
+     "u": "https://www.engine.online/news/maersk-raises-emergency-fuel-surcharge-amid-middle-east-war-8277"
+    }
+   ],
+   "inds": [
+    "macro",
+    "gas"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/commodity",
+    "gas/shipping"
+   ],
+   "items": [
+    {
+     "t": "이란의 해협 유조선 공격 가속에 유가 상승",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/oil-gains-as-iran-ramps-up-pace-of-attacks-on-tankers-in-strait"
+    },
+    {
+     "t": "유럽 LNG 수요와 늘어나는 선대 규모가 겨울 운임에 압력",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/europes-lng-demand-growing-fleet-size-pressure-shipping-rates-winter-2026-10-07/"
+    },
+    {
+     "t": "트라피구라, 운임 상승 속 SFL로부터 유조선 7척 매입",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise"
+    },
+    {
+     "t": "이란 관리 \"호르무즈 해협 불법 항로 곧 봉쇄\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/middle-east/iranian-official-says-illegal-routes-strait-hormuz-soon-be-blocked-2026-10-07/"
+    },
+    {
+     "t": "호르무즈 정체로 원유 운송비 아찔한 사상 최고치",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls"
+    },
+    {
+     "t": "호르무즈 유조선 공격, 이란 전쟁 시작 이후 주간 최다…소식통",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
+    },
+    {
+     "t": "중동으로 몰리는 초대형 유조선, 세계 선박 부족 심화",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/supertankers-racing-to-middle-east-worsen-global-ships-crunch"
+    },
+    {
+     "t": "해운사 머스크, 중동 분쟁에 긴급 유류할증료 인상",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/shipping-group-maersk-raises-emergency-fuel-surcharge-due-middle-east-conflict-2026-10-08/"
+    },
+    {
+     "t": "이란의 호르무즈 추가 항로 봉쇄 공언에 유조선 공격 위험 증가",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/attack-risks-rise-tankers-iran-vows-block-more-hormuz-routes-2026-10-08/"
+    },
+    {
+     "t": "호르무즈 유조선 공격 전시 최고치에 걸프 증시 후퇴",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/gulf-stocks-retreat-hormuz-tanker-attacks-hit-wartime-high-2026-10-08/"
+    },
+    {
+     "t": "공격 이후 호르무즈 통항 두 달여 만에 최저…데이터",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+    },
+    {
+     "t": "치솟는 운임, 아시아의 미국산 원유 수요 위협",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C026",
+   "attachTo": "",
+   "title": "AI 거품 경고 잇따라…싱가포르 총리 \"조정 불가피\", 루빈 \"美 경제 위험\"",
+   "one": "로런스 웡 싱가포르 총리가 AI 기술 랠리가 결국 조정을 맞을 것이라고 경고하고 로버트 루빈 전 재무장관과 한 전략가도 2008년 이후 최악의 S&P500 폭락 가능성을 거론하면서, AI 주도 증시와 반도체 수출 경기에 대한 경계가 커지고 있다",
+   "facts": [
+    "무엇이: 웡 총리가 10월 8일 포브스 글로벌 CEO 회의에서 AI 기술 랠리가 결국 조정을 맞을 것이라며 시점·형태는 알 수 없다고 발언 [사실]",
+    "싱가포르 노출: 세계 반도체 생산의 약 10%를 맡고 올해 성장률 전망을 4.5~5.5%로 상향 [사실]",
+    "다른 경고: 루빈 전 재무장관이 AI 붐의 미 경제·시장 위험 경고, 한 전략가는 2008년 이후 최악의 S&P500 폭락 위험 제기 [제목]",
+    "반대 의견: 노보그라츠는 AI가 거품이라면서도 투자에 뛰어들라고 주장 [제목]"
+   ],
+   "basis": "partial",
+   "check": "웡 총리 발언은 검색 결과 요약으로 확인. 루빈·전략가·노보그라츠 발언은 제목 기준",
+   "src": [
+    {
+     "o": "싱가포르 총리실",
+     "d": "2026-10-08",
+     "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+    },
+    {
+     "o": "CryptoBriefing",
+     "d": "2026-10-08",
+     "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis",
+    "macro/growth"
+   ],
+   "items": [
+    {
+     "t": "싱가포르 포럼서 거품 우려에 존재론적 위협까지…AI 분위기 가라앉아",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+    },
+    {
+     "t": "노보그라츠도 AI 거품론 가세…그래도 \"뛰어들라\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/novogratz-says-ai-is-in-a-bubble-and-investors-should-pile-in"
+    },
+    {
+     "t": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/robert-rubin-warns-ai-boom-carries-risks-for-us-economy-markets"
+    },
+    {
+     "t": "전략가 \"AI 거품, 2008년 이후 최악의 S&P500 폭락 위험\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-bubble-risks-worst-s-p-500-crash-since-2008-strategist-says"
+    },
+    {
+     "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+    }
+   ]
+  },
+  {
+   "cid": "C040",
+   "attachTo": "n-tg-0194",
+   "title": "후티 사우디 공항 공격에 루프트한자·에어인디아 리야드 운항 중단…출발편 절반 취소",
+   "one": "예멘 후티가 사우디 아브하·리야드 공항을 잇달아 공격해 3명이 숨지고 36명이 다친 뒤, 루프트한자가 16일까지, 에어인디아가 10일까지 리야드 운항을 멈추고 리야드 출발편 약 절반이 취소되면서 사우디 항공·관광 수요와 걸프 증시에 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 후티가 6~7일 아브하·리야드 킹칼리드 공항 공격, 3명 사망·36명 부상 [사실]",
+    "항공: 루프트한자 그룹 10월 16일까지, 에어인디아·아카사 10일까지, 인디고 9일까지 리야드 운항 중단 [사실]",
+    "규모: 시리움 집계로 8일 리야드 출발편의 49.7% 취소 [사실]",
+    "확전: 후티가 예멘 아덴 공항에도 미사일 발사, 걸프 증시 약세 [제목]"
+   ],
+   "basis": "verified",
+   "check": "운항 중단 기간·취소 비율은 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Gulf Business",
+     "d": "2026-10-08",
+     "u": "https://gulfbusiness.com/en/2026/saudi-arabia/lufthansa-indian-airlines-suspend-riyadh-flights-houthi-attacks/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "사우디-후티 적대 격화에 걸프 증시 부진",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-saudi-houthi-hostilities-escalate-2026-10-07/"
+    },
+    {
+     "t": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+    },
+    {
+     "t": "공항 공격 뒤 항공사들 사우디행 운항 중단",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/airlines-cancel-flights-to-riyadh-after-houthi-attack-on-airport"
+    },
+    {
+     "t": "후티 공격 뒤 루프트한자·에어인디아 리야드 운항 중단",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/middle-east/lufthansa-air-india-suspend-flights-riyadh-after-houthi-attacks-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C053",
+   "attachTo": "",
+   "title": "TCS 2분기 순이익 15% 늘었지만…인도 IT, 지정학·AI 탓 4년째 저성장 전망",
+   "one": "인도 최대 IT 서비스 기업 TCS가 9월 분기 순이익을 약 1,388억 루피로 전년보다 15% 늘리고 AI 서비스 연환산 매출을 31억 달러로 키웠지만, 고정환율 기준 분기 매출 증가는 0.5%에 그쳐 인도 IT 업종의 4년째 저성장 전망은 이어지고 있다",
+   "facts": [
+    "무엇이: TCS 9월 분기 지배주주 순이익 13,884크로르(약 1,388억) 루피, 전년 대비 약 15%·전분기 대비 4% 증가 [사실]",
+    "매출: 루피 기준 전년 대비 11.2%, 전분기 대비 1.3% 증가, 고정환율 기준 전분기 대비 0.5% 증가, 영업이익률 24% [사실]",
+    "AI: AI 서비스 연환산 매출 31억 달러로 전분기 26억 달러에서 증가, 주당 12루피 중간배당 [사실]",
+    "업종: 인도 IT가 지정학·AI 위험으로 4년째 약한 성장 예상, 수주 흐름은 서서히 회복 [제목]"
+   ],
+   "basis": "verified",
+   "check": "TCS 실적 수치는 검색 결과 요약으로 확인. 순이익의 시장 예상 상회 여부는 매체마다 달라(Zee Business 예상 대비 1% 하회) 제목 표현을 쓰지 않음. 업종 4년째 저성장은 제목 기준",
+   "src": [
+    {
+     "o": "Zee Business",
+     "d": "2026-10-08",
+     "u": "https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609"
+    },
+    {
+     "o": "Kotak Neo",
+     "d": "2026-10-08",
+     "u": "https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "TCS, IT 수주 서서히 회복하며 순이익 예상 상회",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up"
+    },
+    {
+     "t": "인도 IT, 지정학·AI 위험에 4년째 약한 성장 예상",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/india-it-set-for-fourth-year-of-weak-growth-on-geopolitics-ai-risks"
+    },
+    {
+     "t": "인도 TCS 주가 상승…해외 사업·AI 관련 성장에 투자자 환호",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/india/indias-tcs-rises-investors-cheer-growth-international-business-ai-related-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C067",
+   "attachTo": "n-tg-0130",
+   "title": "휘발유세 유예 검토 이어 난방유 21% 상승 전망…트럼프, 중간선거 앞 연료비 압박",
+   "one": "트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예를 검토하는 가운데 미 에너지정보청(EIA)이 올겨울 난방유 가구 지출이 21% 늘 것으로 전망하고 북동부 민주당 의원들이 대책을 요구하면서, 중간선거 앞 연료비가 정치 부담으로 커지고 있다",
+   "facts": [
+    "무엇이: 트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예 검토, 입법 필요·인하 효과 갤런당 10~16센트 추산 [사실]",
+    "난방유: EIA 겨울 전망에서 난방유 평균 가격 갤런당 5.26달러로 34% 상승, 가구 지출 2,115달러로 21% 증가 [사실]",
+    "다른 연료: 천연가스 가구 지출 9% 감소, 프로판 3% 감소, 전기 4% 증가 [사실]",
+    "원인: 세계 정제 생산 감소, 동부 해안 중간유분 재고 9월 5년 평균보다 32% 적음, 4분기 브렌트 평균 105달러 전망 [사실]",
+    "정치: 북동부 민주당 의원들이 난방유 급등에 행정부 조치 촉구 [제목]"
+   ],
+   "basis": "verified",
+   "check": "EIA 수치는 EIA 보도자료(검색 결과 요약)로 확인. 휘발유세 내용은 기존 한줄 근거",
+   "src": [
+    {
+     "o": "EIA",
+     "d": "2026-10-06",
+     "u": "https://www.eia.gov/pressroom/releases/press593.php"
+    },
+    {
+     "o": "CNBC",
+     "d": "2026-10-07",
+     "u": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"
+    },
+    {
+     "t": "북동부 민주당 의원들, 난방유 급등에 트럼프 행정부 조치 촉구",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/litigation/northeast-democrats-urge-trump-administration-action-heating-oil-costs-surge-2026-10-06/"
+    },
+    {
+     "t": "트럼프, 중간선거 전 휘발유·디젤 가격 낮출 수 있을까",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/can-trump-lower-gas-and-diesel-prices-before-the-midterms"
+    }
+   ]
+  },
+  {
+   "cid": "C080",
+   "attachTo": "",
+   "title": "포테스큐, 中 CMRG 분쟁에 판매 차질…철광석은 공급 과잉·수요 부진에 주간 하락",
+   "one": "포테스큐가 중국 국영 구매사 CMRG와의 가격 분쟁으로 9월 분기 철광석 판매량이 4,290만 톤으로 선적량 4,680만 톤에 못 미치고 순부채가 28억 달러로 늘었다고 밝히는 가운데, 철광석 가격도 공급 과잉·수요 부진에 주간 하락을 이어가고 있다",
+   "facts": [
+    "무엇이: 포테스큐 9월 분기 선적 4,680만 톤으로 전년 대비 6% 감소, 판매는 4,290만 톤 [사실]",
+    "원인: 중국 국영 CMRG와의 연간 공급 협상 갈등, CMRG가 제철소에 포테스큐 주력 제품 인수 자제 요청 [사실]",
+    "재무: 현금 51억→32억 달러, 순부채 9억→28억 달러, 적철광 실현가격 톤당 80달러(플래츠 지수의 82%) [사실]",
+    "가격: 철광석이 공급 과잉·수요 부진으로 주간 하락 확대 [제목]"
+   ],
+   "basis": "verified",
+   "check": "포테스큐 수치는 검색 결과 요약으로 확인. 철광석 가격 하락폭은 미확인",
+   "src": [
+    {
+     "o": "MINING.COM",
+     "d": "2026-10-08",
+     "u": "https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/"
+    },
+    {
+     "o": "Kalkine",
+     "d": "2026-10-08",
+     "u": "https://kalkine.com.au/news/announcements/fortescue-ships-468mt-of-iron-ore-in-q1-fy27-six-per-cent-below-prior-year"
+    }
+   ],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "포테스큐 \"중국과의 분쟁이 철광석 판매에 부담\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fortescue-flags-lower-iron-ore-sales-as-china-dispute-drags-on"
+    },
+    {
+     "t": "철광석, 공급 과잉·수요 부진에 주간 하락 확대",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/iron-ore-extends-weekly-drop-as-excess-supply-weak-demand-weigh"
+    }
+   ]
+  },
+  {
+   "cid": "C091",
+   "attachTo": "",
+   "title": "스타벅스, 시총 390억 달러 치폴레 인수 검토…성사 땐 외식업 사상 최대",
+   "one": "스타벅스가 자문사와 함께 시가총액 약 390억 달러인 치폴레 인수를 검토했다는 FT 보도가 나오면서, 치폴레 주가는 장중 최대 8.6% 뛰고 스타벅스는 6.7% 떨어져 차입·신주 발행 부담과 턴어라운드 차질 우려가 커졌다",
+   "facts": [
+    "무엇이: FT가 10월 8일 스타벅스가 최근 몇 달 자문사와 치폴레 인수안을 검토했다고 보도, 공식 제안 여부는 불분명 [사실]",
+    "주가: 치폴레 장중 최대 8.6% 상승, 스타벅스 최대 6.7% 하락 후 일부 회복 [사실]",
+    "규모: 치폴레 시총 약 390억 달러, 성사 시 2014년 버거킹의 팀호튼스 인수(114억 달러)를 넘는 외식업 최대 거래 [사실]",
+    "우려: 인수 시 대규모 차입이나 신주 발행 필요, 니콜 CEO의 '백 투 스타벅스' 회복 전략과 상충한다는 분석 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(CBS·Forbes·Ad Age)으로 확인",
+   "src": [
+    {
+     "o": "CBS News",
+     "d": "2026-10-08",
+     "u": "https://www.cbsnews.com/news/chipotle-stock-starbucks-takeover-ceo-brian-niccol/"
+    },
+    {
+     "o": "Forbes",
+     "d": "2026-10-08",
+     "u": "https://www.forbes.com/sites/zacharyfolk/2026/10/08/chipotle-shares-rise-on-report-of-potential-starbucks-acquisition/"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "스타벅스의 인수 검토 보도에 치폴레 급등",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/chipotle-jumps-after-report-that-starbucks-has-explored-takeover"
+    },
+    {
+     "t": "스타벅스, 치폴레 인수 검토…FT 보도",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/starbucks-explored-chipotle-takeover-ft-reports-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C102",
+   "attachTo": "",
+   "title": "임페리얼 브랜즈, 주가 하락 뒤 15억 파운드 자사주 매입…연간 전망 유지",
+   "one": "영국 담배회사 임페리얼 브랜즈가 주가 하락 뒤 2027년 10월까지 최대 15억 파운드의 자사주를 사들이겠다고 밝히고 2026회계연도 조정 영업이익 3~5% 증가 전망을 유지하면서, 주식 수 감소로 주주 환원이 이어질 전망이다",
+   "facts": [
+    "무엇이: 임페리얼 브랜즈가 10월 8일 2027년 10월 29일까지 최대 15억 파운드 자사주 매입 발표, 1차분 최대 7억 5,000만 파운드 [사실]",
+    "전망: 2026회계연도 조정 영업이익 3~5% 증가 범위, 잉여현금흐름 22억 파운드 이상, 순부채/EBITDA 2.0~2.5배 하단 [사실]",
+    "이력: 직전 14억 5,000만 파운드 매입 완료, 2022년 10월 이후 발행주식 21% 이상 감소 [사실]",
+    "배경: 발표 전 주가 하락 [제목]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(GuruFocus·DirectorsTalk)으로 확인. 로이터 제목의 20억은 달러 환산치",
+   "src": [
+    {
+     "o": "DirectorsTalk Interviews",
+     "d": "2026-10-08",
+     "u": "https://www.directorstalkinterviews.com/imperial-brands-on-track-for-fy26-guidance-as-1-5bn-share-buyback-announced/4121265631"
+    },
+    {
+     "o": "GuruFocus",
+     "d": "2026-10-08",
+     "u": "https://www.gurufocus.com/news/9115209/imperial-brands-plans-15-billion-share-buyback-amid-positive-financial-outlook"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "임페리얼 브랜즈, 주가 하락 뒤 15억 파운드 자사주 매입 계획",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/imperial-brands-plans-1-5-billion-buyback-after-shares-decline"
+    },
+    {
+     "t": "영국 임페리얼 브랜즈, 연간 전망 재확인·20억 달러 자사주 매입 착수",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/uks-imperial-brands-affirms-annual-outlook-launches-2-billion-share-buyback-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C113",
+   "attachTo": "",
+   "title": "SEC, 엑손 기후 표 대결 관련 기소 않지만 경고…\"기후 연대 가입 땐 13G 자격 잃을 수도\"",
+   "one": "미 증권거래위원회(SEC)가 2021년 엑손모빌 주총 표 대결과 관련한 기후 연대 '클라이밋 액션 100+' 조사에서 기소는 않기로 했지만, 지배권 영향을 노린 단체 가입이 간이 보고(13G) 자격을 잃게 할 수 있다고 경고해 대형 운용사의 기후 행동주의가 위축될 수 있다",
+   "facts": [
+    "무엇이: SEC가 10월 7일 Section 21(a) 조사 보고서(Release 34-106611)를 내고 클라이밋 액션 100+ 회원사에 대한 집행 조치를 하지 않기로 결정 [사실]",
+    "경고: 특정 발행사의 지배권 변경·영향을 목적으로 한 단체 가입이 Schedule 13G 자격 상실 요인이 될 수 있어 13D 보고 의무가 생길 수 있음 [사실]",
+    "배경: 2021년 5월 엑손모빌 주총에서 블랙록·뱅가드·스테이트스트리트가 엔진 넘버원 측 반대파 이사 일부 지지 [사실]",
+    "반응: 애즈유소는 각주로 새 규칙을 만든 것이라고 비판 [사실]"
+   ],
+   "basis": "verified",
+   "check": "SEC 보고서·InvestmentNews·ESG Today 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "SEC",
+     "d": "2026-10-07",
+     "u": "https://www.sec.gov/files/litigation/investreport/34-106611.pdf"
+    },
+    {
+     "o": "ESG Today",
+     "d": "2026-10-08",
+     "u": "https://www.esgtoday.com/sec-drops-investigation-into-blackrock-state-street-with-a-warning-over-participation-in-climate-groups/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "SEC, 엑손 기후 압박 뒤 행동주의 투자자들에 경고",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/sec-warns-activist-investors-after-climate-push-at-exxon-mobil"
+    },
+    {
+     "t": "미 SEC, 기후 단체 기소 않기로…공시 의무는 경고",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/government/us-sec-will-not-pursue-charges-against-climate-group-warns-disclosure-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C123",
+   "attachTo": "",
+   "title": "사우스웨스트워터 모회사 페넌, 5억 5,000만 파운드 유상증자·배당 삭감에 주가 급락",
+   "one": "영국 사우스웨스트워터 모회사 페넌이 수도 설비 투자를 약 10억 파운드 늘리려 주당 250펜스에 5억 5,000만 파운드 유상증자를 하고 주당 배당을 약 30% 줄이면서, 주가가 하루 새 약 20% 급락하는 등 영국 수도회사 주주의 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 페넌이 10월 7일 전액 인수 보증된 5억 5,000만 파운드 유상증자 발표, 기존 15주당 신주 7주를 주당 250펜스에 배정 [사실]",
+    "용도: AMP8 기간 규제 수도사업 추가 투자 약 10억 파운드, 총투자 약 36억 파운드 [사실]",
+    "배당: 2026/27 총배당 1억 3,800만→1억 2,500만 파운드, 증자 반영 주당 배당 약 30% 감소 [사실]",
+    "시장: 7일 주가 약 20% 하락(매체별 17~20%), 무디스가 사우스웨스트워터 등급 한 단계 하향 [사실]",
+    "배경: 신임 CEO 키스 해슬렛의 사업 재점검, 약 800만 파운드 하수 벌금 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인. 무디스 하향은 한 매체만 보도",
+   "src": [
+    {
+     "o": "Proactive Investors",
+     "d": "2026-10-07",
+     "u": "https://proactiveinvestors.co.uk/a/b950c2f1/pennon-launches-550m-rights-issue-and-cuts-dividend-as-new-ceo-orders-in"
+    },
+    {
+     "o": "ADVFN",
+     "d": "2026-10-08",
+     "u": "https://uk.advfn.com/market-news/article/24286/pennon-group-shares-recover-1-5-following-550-million-rights-issue-and-dividend-reduction"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "사우스웨스트워터 모회사, 5억 5,000만 파운드 유상증자에 주가 급락",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/pennon-seeks-550-million-from-investors-to-boost-water-spending"
+    },
+    {
+     "t": "영국 페넌, 투자 재원 마련 위해 5억 5,000만 파운드 유상증자·배당 삭감",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/uks-pennon-launches-550-million-rights-issue-cuts-dividend-fund-investment-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C143",
+   "attachTo": "",
+   "title": "과열되는 베트남 경제…은행들 70억 달러 증자 추진, 물가는 목표 웃돌아",
+   "one": "베트남 대출이 9월 말 기준 1년 새 16.69% 불어나 경제가 과열되는 가운데 은행들이 대출 여력을 늘리려 70억 달러 가까운 신주 발행을 추진하고 중앙은행은 물가가 목표보다 높다고 인정하면서, 부동산 대출 비중이 큰 은행권의 건전성 부담이 커질 수 있다",
+   "facts": [
+    "무엇이: 베트남 은행들이 약 70억 달러 규모 신주 발행 준비, 상장 은행들은 올해 약 128조 동 증자 계획 [사실]",
+    "신용: 9월 30일 대출 잔액 약 2경 750조 동, 연초 대비 11.59%·전년 대비 16.69% 증가, 연간 목표 약 15% [사실]",
+    "물가: 중앙은행이 물가가 목표보다 높지만 통제 범위 안이라고 언급 [제목]",
+    "위험: 은행 대출의 약 4분의 1이 부동산, 부실채권 증가, 피치는 추가 증자 필요 가능성 경고 [사실]"
+   ],
+   "basis": "partial",
+   "check": "증자·신용 증가율은 검색 결과 요약으로 확인. 물가 수치는 미확인",
+   "src": [
+    {
+     "o": "The Investor",
+     "d": "2026-10",
+     "u": "https://theinvestor.vn/vietnam-banks-rush-to-raise-capital-expand-lending-headroom-d20094.html"
+    },
+    {
+     "o": "VIR",
+     "d": "2026-10",
+     "u": "https://vir.com.vn/lenders-turn-to-bond-market-to-strengthen-capital-base-155890.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation",
+    "macro/liquidity"
+   ],
+   "items": [
+    {
+     "t": "베트남 중앙은행 \"물가 목표보다 높지만 통제 범위 안\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/vietnams-central-bank-says-inflation-is-higher-than-targeted-remains-under-2026-10-07/"
+    },
+    {
+     "t": "경제 과열 속 베트남 은행들, 투자자에게서 70억 달러 조달",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/vietnams-banks-tap-investors-7-billion-economy-runs-red-hot-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C154",
+   "attachTo": "",
+   "title": "테일러팜스, 사이클로스포라 사태에 멕시코산 양상추 여름철 수확 무기한 중단",
+   "one": "미국 신선채소 업체 테일러팜스가 수천 명이 감염되고 2명이 숨진 사이클로스포라 집단 발병 이후 미 감염철(5~8월) 동안 멕시코 중부산 양상추 수확·가공을 무기한 중단하기로 하면서, 여름철 미국·캐나다 양상추 조달처가 바뀔 수 있다",
+   "facts": [
+    "무엇이: 테일러팜스가 10월 8일 미 사이클로스포라 시즌 동안 멕시코 중부 아이스버그 양상추 수확·가공 무기한 중단 발표 [사실]",
+    "배경: 집단 발병으로 수천 명 감염, 미시간에서 2명 사망, CDC는 9월 11일 종료 선언 [사실]",
+    "대책: 멕시코 중부 관개용수·작물 검사 확대 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Detroit News·Food Safety News 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "The Detroit News",
+     "d": "2026-10-08",
+     "u": "https://www.detroitnews.com/story/business/2026/10/08/taylor-farms-mexico-lettuce-cyclospora-season/92156487007/"
+    },
+    {
+     "o": "Food Safety News",
+     "d": "2026-10",
+     "u": "https://www.foodsafetynews.com/2026/10/taylor-farms-leader-says-his-company-is-taking-steps-in-wake-of-huge-cyclospora-outbreak/"
+    }
+   ],
+   "inds": [
+    "agri"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "테일러팜스, 내년 여름 멕시코산 아이스버그 양상추 중단",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/taylor-farms-to-suspend-iceberg-lettuce-from-mexico-next-summer"
+    }
+   ]
+  },
+  {
+   "cid": "C164",
+   "attachTo": "",
+   "title": "우버 철수 한 달 만에…차량금융 무브, 창업지 나이지리아 떠나",
+   "one": "나이지리아에서 창업한 차량금융 업체 무브가 핵심 플랫폼 우버가 9월 철수한 지 한 달 만에 현지 사업을 접고 350억 나이라어치 차량을 운전자에게 넘기기로 해, 현지 차량호출 시장의 이탈이 이어지고 있다",
+   "facts": [
+    "무엇이: 무브가 10월 8일 나이지리아 철수 발표, 우버가 9월 2일 나이지리아 철수를 밝힌 지 약 5주 만 [사실]",
+    "이유: 공동 CEO 라디 델라노가 우버 이탈로 사업 경제성이 바뀌어 기존 모델 유지가 어렵다고 설명 [사실]",
+    "정리: 350억 나이라 이상(약 2,200만~2,600만 달러) 차량 소유권을 운전자에게 이전, 현지 고객 9,000명 이상 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Techpoint Africa·Guardian Nigeria 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Techpoint Africa",
+     "d": "2026-10-08",
+     "u": "https://techpoint.africa/news/moove-exit-nigeria-after-ubers-departure/"
+    },
+    {
+     "o": "The Guardian Nigeria",
+     "d": "2026-10-08",
+     "u": "https://guardian.ng/news/moove-ends-nigerian-operations-one-month-after-uber-exit/"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "나이지리아 창업 무브, 우버 철수 뒤 나이지리아 떠나",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/nigeria-founded-moove-to-exit-country-after-uber-pulled-out"
+    }
+   ]
+  },
+  {
+   "cid": "C184",
+   "attachTo": "",
+   "title": "美 PBM 프라임 테라퓨틱스, 리베이트 대신 선가격 '순비용 모델' 2028년 도입",
+   "one": "미국 대형 약국급여관리업체(PBM) 프라임 테라퓨틱스가 2028년부터 리베이트 대신 처음부터 실제 가격을 매기는 '순비용 모델'을 고객에게 내놓기로 해, 리베이트 중심 PBM 수익 구조가 바뀔 수 있다",
+   "facts": [
+    "무엇이: 프라임 테라퓨틱스 CEO 모스타파 카말이 2028년 고객에게 순비용 모델 제공 계획 발표 [사실]",
+    "방향: 환자 부담을 키운다는 비판을 받는 리베이트 기반 체계에서 선가격 방식으로 전환 [사실]",
+    "영향: 리베이트에 기댄 PBM 수익 구조 변화 가능성 [추론]"
+   ],
+   "basis": "partial",
+   "check": "Modern Healthcare 검색 결과 요약으로 확인. 세부 가격 구조는 미확인",
+   "src": [
+    {
+     "o": "Modern Healthcare",
+     "d": "2026-10-08",
+     "u": "https://www.modernhealthcare.com/insurance/mh-prime-therapeutics-upfront-prices-drug-sales-model/"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "프라임 테라퓨틱스, 새 약품 판매 모델서 선가격 제시 추진",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/prime-therapeutics-pushes-upfront-prices-in-new-drug-sales-model"
+    }
+   ]
+  },
+  {
+   "cid": "C194",
+   "attachTo": "n-tg-0187",
+   "title": "허리케인 이사야스 2등급으로 세력 키워…美 멕시코만 원유 생산 63% 중단",
+   "one": "허리케인 이사야스가 2등급으로 강해져 미 멕시코만으로 다가오면서 셸·셰브론·BP가 플랫폼 인력을 대피시켜, 원유 생산 중단 비율이 하루 새 25%에서 약 63%(하루 128만 배럴)로 뛰었다",
+   "facts": [
+    "무엇이: 이사야스가 2등급 허리케인으로 강해지며 미 멕시코만 원유 생산 약 62.9%(하루 약 128만 배럴), 가스 57.35% 중단(10월 8일 기준) [사실]",
+    "기존: 7일에는 원유 생산 25%인 하루 51만 1,619배럴과 가스 16.4% 중단 [사실]",
+    "대피: 유인 플랫폼 371곳 중 121곳 인력 철수, 셸 마스·올림푸스 등, BP 나키카·썬더호스 가동 중단 [사실]",
+    "경로: 9일 밤 미시시피·앨라배마·플로리다 경계 부근 상륙 예보, 피해 없으면 생산 재개는 비교적 빠를 수 있음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "gCaptain 등 검색 결과 요약으로 확인. 감독기관 명칭은 매체마다 다름",
+   "src": [
+    {
+     "o": "gCaptain",
+     "d": "2026-10-08",
+     "u": "https://gcaptain.com/hurricane-isaias-shuts-down-nearly-two-thirds-of-gulf-oil-production/"
+    },
+    {
+     "o": "NBC News",
+     "d": "2026-10-08",
+     "u": "https://www.nbcnews.com/business/energy/gas-prices-hurricane-isaias-gulf-mexico-rcna602258"
+    }
+   ],
+   "inds": [
+    "macro",
+    "drilling"
+   ],
+   "nodes": [
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "허리케인 이사야스 세력 강화에 산유사들 생산 중단",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/isaias-to-menace-us-oil-and-gas-assets-as-category-2-hurricane"
+    }
+   ]
+  },
+  {
+   "cid": "C204",
+   "attachTo": "",
+   "title": "항셍테크 지수 30→50종목 확대…AI·하드웨어 중심 대개편, 12월 7일 시행",
+   "one": "항셍지수회사가 항셍테크 지수 구성 종목을 30개에서 50개로 늘리고 매출 성장 기준과 AI·첨단 하드웨어 테마를 새로 넣기로 하면서, 올해 약 24% 떨어진 이 지수를 추종하는 약 371억 달러 자금의 편입 종목이 12월부터 바뀐다",
+   "facts": [
+    "무엇이: 항셍지수회사가 10월 7일 항셍테크 지수를 12월 7일부터 50종목으로 확대 확정, 명단은 11월 20일 발표 [사실]",
+    "방식: 시가총액 상위 40개와 최근 12개월 매출 성장 상위 10개로 구성, 업종 요건 폐지, 하위 테마 16→24개 [사실]",
+    "비중: 기존 30종목이 지수 비중 90%, 신규 편입분 10% [사실]",
+    "배경: 지수가 올해 약 24% 하락, 핵심 AI 하드웨어 기업 부재가 부진 요인으로 지적, 추종 자산 약 371억 달러(9월) [사실]"
+   ],
+   "basis": "verified",
+   "check": "항셍지수회사 협의 결과 문서·Caixin 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Hang Seng Indexes",
+     "d": "2026-10-07",
+     "u": "https://www.hsi.com.hk/content/dam/wpb/hsil/en_hk/consultations/content/20261007T161500.pdf"
+    },
+    {
+     "o": "Caixin Global",
+     "d": "2026-10-08",
+     "u": "https://www.caixinglobal.com/2026-10-08/hong-kongs-hang-seng-tech-index-to-expand-to-50-stocks-102491229.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "홍콩 기술주 지수, AI 중심 대개편으로 구성 종목 50개로 확대",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/hong-kong-tech-index-expands-members-to-50-in-major-ai-overhaul"
+    }
+   ]
+  },
+  {
+   "cid": "C214",
+   "attachTo": "",
+   "title": "아멕스 은행, 자금세탁 방지 부실로 3억 5,000만 달러 벌금…10년간 130억 달러 의심 거래",
+   "one": "미 통화감독청(OCC)이 아메리칸익스프레스 내셔널뱅크의 자금세탁 방지 체계 부실로 3억 5,000만 달러 벌금과 시정명령을 내리고 연준도 모회사에 조치하면서, 아멕스는 의심 거래 재점검과 내부통제 개선 부담을 지게 됐다",
+   "facts": [
+    "무엇이: OCC가 10월 8일 아멕스 내셔널뱅크에 은행비밀법·자금세탁 방지 프로그램 결함으로 3억 5,000만 달러 민사 제재금과 시정명령 [사실]",
+    "규모: 의심 거래 감시·보고 체계 붕괴로 지난 10년간 약 130억 달러 의심 자금세탁 활동 발생 [사실]",
+    "후속: 독립적 소급 점검 명령, 연준은 모회사에 개선 계획 제출 요구 [사실]",
+    "회사: 벌금 일부는 앞서 충당해 2026년 가이던스 영향 없음, 자산 상한 없음(8-K) [사실]"
+   ],
+   "basis": "verified",
+   "check": "PYMNTS·Banking Dive·아멕스 8-K 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Banking Dive",
+     "d": "2026-10-08",
+     "u": "https://www.bankingdive.com/news/amex-dinged-by-fed-occ-must-pay-350m-for-aml-failures/832570/"
+    },
+    {
+     "o": "SEC 8-K(아메리칸익스프레스)",
+     "d": "2026-10-08",
+     "u": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000376/axp-20261008.htm"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "아메리칸익스프레스 내셔널뱅크, 자금세탁 방지 미흡으로 3억 5,000만 달러 벌금",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/american-express-national-bank-fined-350-million-insufficient-anti-money-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C224",
+   "attachTo": "",
+   "title": "英 법원, 160만 명 디젤 배출가스 소송 항소 불허…벤츠·포드 등 車업체 유리",
+   "one": "영국 고등법원이 벤츠·포드·닛산 등 자동차 업체에 유리했던 7월 디젤 배출가스 판결에 대해 원고 측 항소 허가를 거부하면서, 약 160만 명의 집단 소송은 항소법원에 직접 기대야 하는 처지가 됐다",
+   "facts": [
+    "무엇이: 영국 고등법원 세라 코커릴 판사가 10월 8일 디젤 배출가스 소송 원고 측 항소 허가 거부 [사실]",
+    "원판결: 7월 판결에서 시험 차량 20대에 불법 조작 장치가 있다는 주장 대부분 기각 [사실]",
+    "대상: 메르세데스-벤츠·포드·닛산·르노·푸조·시트로엥, 13개 그룹 약 160만 명 운전자 [사실]",
+    "다음: 원고 측 로펌 리 데이 등은 항소법원에 직접 신청할 계획 [사실]"
+   ],
+   "basis": "partial",
+   "check": "Claims Journal 등 검색 결과 요약으로 확인했으나 해당 매체들이 로이터 기사를 전재했을 수 있음",
+   "src": [
+    {
+     "o": "Claims Journal",
+     "d": "2026-10-08",
+     "u": "https://www.claimsjournal.com/news/national/2026/10/08/340620.htm"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "英 법원, 자동차 업체 상대 디젤 배출가스 소송 항소 허가 거부",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/uk-court-refuses-permission-appeal-diesel-emissions-lawsuits-against-carmakers-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C234",
+   "attachTo": "",
+   "title": "보스턴사이언티픽, 심장 시술 도구 특허 침해로 J&J 자회사 제소",
+   "one": "보스턴사이언티픽이 존슨앤드존슨이 올해 인수한 아트라버스 메디컬의 심방세동 시술용 천자 도구 '핫와이어'가 자사 특허를 침해했다며 델라웨어 연방법원에 손해배상과 판매 금지를 청구하면서, 심장 전기생리 시장의 특허 분쟁이 커지고 있다",
+   "facts": [
+    "무엇이: 보스턴사이언티픽이 10월 7일 델라웨어 연방법원에 J&J 자회사 아트라버스 메디컬 제소(1:26-cv-01294) [사실]",
+    "쟁점: 심장 조직 천자 방법 특허, 심방세동 치료 시 좌심방 접근에 쓰는 핫와이어 장치 [사실]",
+    "청구: 손해배상(액수 미정)과 침해 금지 명령, 지난해 같은 법원 소송의 연장선 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Law360 사건 정보 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Law360",
+     "d": "2026-10-08",
+     "u": "https://www.law360.com/articles/2535761/boston-scientific-brings-heart-puncture-patent-suit"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "보스턴사이언티픽, 심장 시술 도구 특허 침해로 J&J 제소",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/legalindustry/boston-scientific-sues-jj-patent-infringement-over-heart-procedure-tool-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C254",
+   "attachTo": "",
+   "title": "美 25% 관세 직격탄…멕시코 9월 자동차 수출 12% 급감, 생산 15% 감소",
+   "one": "미국이 멕시코산 차량에 매기는 25% 관세 영향으로 멕시코의 9월 경차량 수출이 27만 7,369대로 1년 전보다 12% 줄고 생산도 약 15% 감소하면서, 닛산·GM·포드 등 멕시코 생산 거점 업체들의 대미 수출 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 멕시코 통계청(INEGI) 기준 9월 경차량 수출 27만 7,369대, 전년 대비 12% 감소로 2025년 12월 이후 최대 낙폭 [사실]",
+    "생산·내수: 생산 약 15% 감소, 내수 판매 8% 증가, 1~9월 누적 수출 1.5% 감소 [사실]",
+    "관세: USMCA 재검토 중 25% 관세 유지, 원산지 규정 충족 시 실효 부담 10~12% [사실]",
+    "업체: 닛산 수출 33% 감소, 벤츠는 닛산 합작공장 폐쇄로 수출 0대 [사실]"
+   ],
+   "basis": "verified",
+   "check": "IndexBox·MEXICO NOW·CBT News 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "MEXICO NOW",
+     "d": "2026-10-08",
+     "u": "https://mexico-now.com/car-production-in-mexico-drops-15-in-september/"
+    },
+    {
+     "o": "CBT News",
+     "d": "2026-10-08",
+     "u": "https://www.cbtnews.com/mexico-auto-exports-fall-12"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미 관세 여파로 멕시코 9월 자동차 수출 급감",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/autos-transportation/mexican-auto-exports-slump-september-us-tariffs-take-toll-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C264",
+   "attachTo": "",
+   "title": "세븐&아이, 2분기 영업이익 11% 감소…일본 편의점 부진",
+   "one": "세븐일레븐 모회사 세븐&아이의 6~8월 영업이익이 1,273억 엔으로 11% 줄면서, 북미 휘발유 판매로 해외 편의점 이익은 늘었지만 판관비 증가에 일본 편의점 이익이 9.8% 줄어든 부담이 드러났다",
+   "facts": [
+    "무엇이: 세븐&아이 2분기(6~8월) 영업이익 1,273억 엔, 전년 1,323억 엔보다 11% 감소 [사실]",
+    "상반기: 영업이익 2,322억 엔으로 11.5% 증가, 매출 5조 4,602억 엔으로 2.8% 감소(요크HD·세븐은행 연결 제외) [사실]",
+    "부문: 해외 편의점 영업이익 1,504억 엔으로 약 두 배, 국내 편의점 1,098억 엔으로 9.8% 감소 [사실]",
+    "전망: 연간 영업이익 4,250억 엔 전망 유지 [사실]"
+   ],
+   "basis": "verified",
+   "check": "nippon.com(지지통신)·Quartz 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "nippon.com(지지통신)",
+     "d": "2026-10-08",
+     "u": "https://www.nippon.com/en/news/yjj2026100800914/"
+    },
+    {
+     "o": "Quartz",
+     "d": "2026-10-08",
+     "u": "https://qz.com/seven-i-holdings-7-eleven-quarterly-profit-japan-north-america-100826"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "세븐&아이, 2분기 영업이익 11% 감소",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/seven-i-operating-profit-falls-11-second-quarter-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C274",
+   "attachTo": "",
+   "title": "웨불 주가 급락…\"美 하원 위원회, 중국 연계 문제 제기\" CNBC 보도",
+   "one": "미 하원 위원회가 온라인 증권사 웨불의 중국 연계를 문제 삼았다는 CNBC 보도가 나오면서 웨불 주가가 급락해, 중국 연계 핀테크 기업에 대한 미국 의회의 규제·안보 압박이 주가 위험으로 번지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: CNBC가 미 하원 위원회가 웨불의 중국 연계를 지적했다고 보도 [제목]",
+    "시장: 보도 뒤 웨불 주가 급락 [제목]",
+    "영향: 중국 연계 미국 상장 핀테크에 대한 의회 감시 강화 가능성 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 하락폭·위원회 명칭 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "CNBC \"美 하원 위원회 중국 연계 지적\" 보도에 웨불 급락",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/webull-sinks-after-cnbc-reports-us-house-panel-flagged-china-ties-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C284",
+   "attachTo": "",
+   "title": "사우디, 플라이두바이 항공기 사고 안전 조사 착수",
+   "one": "사우디아라비아가 두바이 저가항공사 플라이두바이 항공기 관련 사고에 대해 항공 안전 조사에 착수하면서, 후티 공격으로 걸프 항공 운항이 흔들리는 가운데 역내 항공사의 안전 점검 부담이 커질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 사우디가 플라이두바이 사고에 대한 항공 안전 조사 착수, 소식통 인용 [제목]",
+    "미확인: 사고 경위·장소·피해 규모 [미확인]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 사고 내용 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "사우디, 플라이두바이 사고에 항공 안전 조사 착수…소식통",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/saudi-arabia-launches-air-safety-probe-into-flydubai-incident-sources-say-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C294",
+   "attachTo": "",
+   "title": "인도 선파마, 비전환 회사채 발행으로 자금 조달 검토",
+   "one": "인도 최대 제약사 선파마슈티컬이 회사채(디벤처) 발행으로 자금을 조달하는 방안을 검토하면서, 현금이 많은 제약사가 차입을 늘리는 배경과 자금 용도에 시장의 관심이 쏠리고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 선파마가 디벤처 발행을 통한 자금 조달 검토 [제목]",
+    "미확인: 조달 규모(제목의 155억은 단위·소수점 불분명)와 용도 [미확인]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함. 금액 단위 불분명해 숫자를 쓰지 않음",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 선파마, 디벤처 발행으로 자금 조달 검토",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/indias-sun-pharmaceuticals-consider-raising-155-billion-via-debentures-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C304",
+   "attachTo": "",
+   "title": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+   "one": "에너지 컨설팅사 우드매켄지가 싱가포르의 2035년 저탄소 전력 수입 목표가 달성되지 못할 것으로 전망하면서, 가스발전 의존이 큰 싱가포르의 전력 탈탄소 일정과 역내 해저 송전망 사업이 늦어질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 우드매켄지가 싱가포르의 2035년 녹색전력 수입 목표 미달을 전망 [제목]",
+    "미확인: 목표 규모와 예상 달성치, 지연 원인 [미확인]",
+    "영향: 싱가포르의 가스발전 의존 지속 가능성 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함",
+   "src": [],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "items": [
+    {
+     "t": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 미달할 것\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/singapore-miss-2035-green-power-import-target-wood-mackenzie-says-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C314",
+   "attachTo": "",
+   "title": "인도 타이탄, 축제 시기 어긋나 9월 분기 귀금속 성장 둔화…주가 하락",
+   "one": "인도 최대 보석업체 타이탄이 올해 축제 시즌 시기가 늦어져 9월 분기 귀금속 매출 증가세가 둔화했다고 밝히면서 주가가 밀려, 인도 귀금속 소비 회복 속도에 대한 의구심이 커지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 타이탄의 9월 분기 귀금속 사업 성장이 축제 시기 차이로 둔화 [제목]",
+    "시장: 발표 뒤 타이탄 주가 하락 [제목]",
+    "미확인: 성장률 수치 [미확인]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 타이탄, 축제 시기 탓 9월 분기 귀금속 성장 둔화에 주가 하락",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/indias-titan-slips-festive-timing-dents-september-quarter-jewellery-growth-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C324",
+   "attachTo": "",
+   "title": "美 법원, 라디언트 관련 뉴욕연은 문서 소환 허가…펀드 측 요청 수용",
+   "one": "미국 판사가 한 펀드에 라디언트 월드 관련 뉴욕 연방준비은행 문서를 소환할 수 있도록 허가하면서, 라디언트 사건을 둘러싼 소송에서 뉴욕연은 내부 자료가 증거로 쓰일 수 있게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 미 판사가 펀드의 뉴욕연은 문서 소환을 허가, 라디언트 월드 관련 [제목]",
+    "미확인: 펀드 이름, 소송 내용, 라디언트 월드의 성격 [미확인]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함. 사건 배경 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "美 판사, 라디언트 월드 관련 뉴욕연은 문서에 대한 펀드의 소환 허가",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/government/us-judge-authorizes-fund-subpoena-new-york-fed-documents-related-radiant-world-2026-10-06/"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "cid": "C133",
+   "reason": "범위 밖(캐나다 달러 환율 시황)"
+  },
+  {
+   "cid": "C174",
+   "reason": "범위 밖(중국 부양책 해설 뉴스레터, 구체 사실 없음)"
+  },
+  {
+   "cid": "C244",
+   "reason": "AI 투자 증액"
+  }
+ ]
+}

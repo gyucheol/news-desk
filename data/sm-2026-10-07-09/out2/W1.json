@@ -1,0 +1,1228 @@
+{
+ "agent": "W1",
+ "searches_used": 24,
+ "fetches_used": 5,
+ "items": [
+  {
+   "cid": "C005",
+   "attachTo": "n-bbg-0101",
+   "title": "美 30년물 금리 2002년 이후 최고·모기지 7.49%…입찰 호조에도 채권 매도세 지속",
+   "one": "유가가 배럴당 100달러를 다시 넘으면서 미 국채 30년물 금리가 2002년 이후 최고인 5.7% 안팎까지 오르고 30년 고정 모기지 금리도 7.49%로 2023년 이후 최고를 찍어, 10년물 입찰 호조에도 주택 수요와 은행 실적에 금리 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 미 국채 30년물 금리가 2002년 이후 최고 수준으로 상승, 10월 8일 5.69% 안팎 [사실]",
+    "모기지: MBA 30년 고정 평균 금리가 10월 2일 주간 19bp 올라 7.49%, 2023년 11월 이후 최고 [사실]",
+    "기존 문서: 10년물 390억 달러 입찰은 낙찰금리 5.300%로 호조 [사실]",
+    "파장: 싱가포르 은행주 급락, 냇웨스트는 미·유럽 국채 딜링 축소, 핌코 이바식은 10년물 6% 도달 위험 언급 [제목]"
+   ],
+   "basis": "verified",
+   "check": "30년물 2002년 이후 최고(5.69~5.70%)와 MBA 모기지 7.49%는 검색 결과 요약으로 확인. 냇웨스트·싱가포르 은행·핌코 발언은 제목만 근거",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-09-29",
+     "u": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html"
+    },
+    {
+     "o": "Detroit News",
+     "d": "2026-10-07",
+     "u": "https://www.detroitnews.com/story/business/real-estate/2026/10/07/the-average-30-year-mortgage-rate-is-up-again/92136783007/"
+    },
+    {
+     "o": "Trading Economics",
+     "d": "2026-10-08",
+     "u": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/rates"
+   ],
+   "items": [
+    {
+     "t": "짧은 충격 뒤 트레이더들, 미 국채 금리 상승 베팅 재개",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/bonds-traders-revive-treasury-short-bets-after-fleeting-shakeout"
+    },
+    {
+     "t": "BofA 수브라마니안 \"채권이 주식과 드물게 경쟁하는 국면\"",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/bofa-s-subramanian-says-bonds-in-rare-competition-with-stocks"
+    },
+    {
+     "t": "미 모기지 금리 7.49%로 급등…2023년 이후 최고",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-mortgage-rates-jump-to-7-49-highest-in-nearly-three-years"
+    },
+    {
+     "t": "유가 100달러 넘자 미 30년물 금리 2002년 고점으로 복귀",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-30-year-yields-return-to-2002-high-with-crude-back-above-100"
+    },
+    {
+     "t": "워런, 베선트에 '혼란스러운' 국채 바이백 추궁",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/bessent-pressed-by-warren-on-chaotic-us-treasuries-buybacks"
+    },
+    {
+     "t": "1994년 이후 최대 분기 급등에도 미 국채 금리 하락 전망 유지",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/lower-us-treasury-yield-view-persists-despite-biggest-quarterly-surge-since-1994-2026-10-07/"
+    },
+    {
+     "t": "골드만부터 BofA까지, 전략가들 채권 금리 고점 점치기",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/from-goldman-to-bofa-strategists-try-to-call-peak-bond-yields"
+    },
+    {
+     "t": "유럽 채권시장 매도세 속 투자자들이 고른 새 유망주와 실패작",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/investors-pick-new-darlings-duds-selloff-rocks-europes-bond-market-2026-10-07/"
+    },
+    {
+     "t": "미 30년 모기지 금리, 근 3년 만에 최고",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/us/us-30-year-mortgage-rate-hits-highest-nearly-three-years-2026-10-07/"
+    },
+    {
+     "t": "미 30년물 국채 금리, 24년 만에 최고치 또 경신",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/"
+    },
+    {
+     "t": "도이체방크 \"부유층 투자자, 금리를 최대 성장 위험으로 인식\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/wealthy-investors-view-rates-yields-biggest-growth-risk-says-deutsche-bank-2026-10-07/"
+    },
+    {
+     "t": "금리 급등이 실적 위협하자 싱가포르 은행주 급락",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-banks-hot-rally-stutters-over-surging-bond-yields"
+    },
+    {
+     "t": "냇웨스트, 미국·유럽 국채 딜링에서 발 뺀다",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/natwest-pulls-back-from-dealing-us-and-european-government-bonds"
+    },
+    {
+     "t": "높은 금리에 30년물 입찰 수요 몰리며 미 국채 강세",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale"
+    },
+    {
+     "t": "미 30년 고정 모기지 금리 7.40%로 급등",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/markets/us/us-30-year-fixed-rate-mortgage-rate-jumps-740-2026-10-08/"
+    },
+    {
+     "t": "유가 부담·30년물 입찰 앞두고 미 국채 이틀째 하락, 금리 상승",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/markets/us/us-bonds-fall-lifting-yields-2nd-day-oil-weighs-30-year-auction-looms-2026-10-08/"
+    },
+    {
+     "t": "핌코 이바식 \"미 10년물 금리, 2000년 이후 처음 6% 갈 위험\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/markets/us/us-10-year-treasury-yield-risks-hitting-6-first-time-since-2000-pimcos-ivascyn-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C016",
+   "attachTo": "",
+   "title": "금리 상승에 사모신용 환매·차환 압박…英 90일 환매 예고 제안, 호주는 펀드 판매 중단",
+   "one": "금리 상승으로 사모신용의 기존 대출 차환 위험과 환매 요구가 커지는 가운데, 영국 FCA가 비유동자산 펀드에 90일 환매 예고를 제안하고 호주 ASIC이 2억 5,180만 호주달러 규모 펀드 3개의 판매를 막으면서 개인 투자자의 자금 회수 여건이 빡빡해지고 있다",
+   "facts": [
+    "무엇이: 영국 FCA가 10월 8일 비유동자산 비중 50% 이상 개인용 펀드에 최소 90일 환매 예고·월 1회 이하 환매를 제안(CP26/35), 17개 펀드·약 72억 2,000만 파운드 대상 [사실]",
+    "호주: ASIC가 ASCF 사모신용 펀드 3개(6월 말 운용자산 2억 5,180만 호주달러)에 공시 미흡을 이유로 임시 판매 중지 명령 [사실]",
+    "운용사: 파트너스그룹은 환매 몰린 펀드 수습책 마련, 금리 상승에 기존 사모신용 대출의 차환 위험 부각 [제목]",
+    "은행: 아일랜드은행의 부실 SRT(위험이전) 거래가 SRT 붐의 위험을 드러냄 [제목]"
+   ],
+   "basis": "verified",
+   "check": "FCA 제안과 ASIC 명령은 검색 결과 요약으로 확인. 파트너스그룹·SRT·차환 위험 기사는 제목만 근거",
+   "src": [
+    {
+     "o": "City AM",
+     "d": "2026-10-08",
+     "u": "https://www.cityam.com/fca-eyes-90-day-redemption-rule-on-illiquid-funds-to-end-mass-withdrawals/"
+    },
+    {
+     "o": "Private Equity Wire",
+     "d": "2026-10-08",
+     "u": "https://www.privateequitywire.co.uk/asic-suspends-fundraising-for-three-ascf-private-credit-funds/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "환매 몰린 펀드 수습 위해 묘수 짜내는 파트너스그룹",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/partners-group-gets-creative-to-fix-funds-hit-by-redemption-wave"
+    },
+    {
+     "t": "채권 매도세 이어지자 사모신용 공매도 다시 늘어",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/private-credit-shorts-rebound-as-bond-selloff-continues"
+    },
+    {
+     "t": "아일랜드은행 부실 거래가 보여준 위험이전(SRT) 붐의 위험",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-ireland-s-soured-deals-show-hazard-in-risk-transfer-boom"
+    },
+    {
+     "t": "금리 오르자 기존 사모신용 대출에 차환 위험",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/legacy-private-credit-loans-face-refinancing-risks-as-rates-rise"
+    },
+    {
+     "t": "영국 감독당국, 비유동자산 펀드에 90일 환매 예고 기간 제안",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/government/uk-watchdog-proposes-90-day-redemption-notice-period-illiquid-assets-2026-10-08/"
+    },
+    {
+     "t": "호주 ASIC, ASCF 사모신용 펀드 3개 자금 모집 중단시켜",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/government/australias-asic-halts-fundraising-by-three-ascf-private-credit-funds-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C031",
+   "attachTo": "",
+   "title": "흑해 상선 공격 잇따라…소치 앞 유조선 화재, 인도행 해바라기유 차질",
+   "one": "러시아와 우크라이나가 겨울을 앞두고 흑해 상선 공격을 늘리면서 소치 앞바다에서 인도인 선원 23명이 탄 유조선이 무인정 공격에 불타고 불가리아 수역에서도 유조선이 침몰해, 인도행 해바라기유 화물이 취소·지연되는 등 흑해 해상 물류 차질이 커지고 있다",
+   "facts": [
+    "무엇이: 라이베리아 선적 유조선 아프라맥스 리오호가 10월 6일 소치 앞에서 무인정 공격으로 화재, 인도인 선원 23명 전원 구조 [사실]",
+    "확산: 같은 날 불가리아 배타적경제수역에서 유조선 2척 피격, 토고 선적 알파 와탄호 침몰 [사실]",
+    "반응: 인도는 흑해 운항 합의를 모색, 튀르키예는 양국 공격이 늘고 있다고 언급, 시리아는 침몰 선박 독립 조사 요구 [제목]",
+    "교역: 인도행 러시아산 해바라기유 화물이 취소·지연 위기 [제목]"
+   ],
+   "basis": "partial",
+   "check": "리오호 피격·불가리아 수역 유조선 침몰은 검색 결과 요약으로 확인. 해바라기유 차질, 튀르키예·시리아 발언은 확인 못 함(제목 근거)",
+   "src": [
+    {
+     "o": "ABC News",
+     "d": "2026-10-07",
+     "u": "https://www.abc.net.au/news/2026-10-07/oil-tanker-attack-in-black-sea-off-sochi-sparks-giant-fire/107238536"
+    },
+    {
+     "o": "Semafor",
+     "d": "2026-10-06",
+     "u": "https://www.semafor.com/article/10/06/2026/bulgarian-tankers-struck-in-black-sea-as-shipping-fears-mount"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "러시아 \"흑해서 공격받아 불탄 유조선 선원 구조\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/russia-says-tanker-crew-rescued-black-sea-after-attack-set-ship-ablaze-2026-10-06/"
+    },
+    {
+     "t": "상선 공격 재개되자 인도, 흑해 운항 합의 모색",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-seeks-black-sea-deal-as-merchant-ships-face-fresh-attacks"
+    },
+    {
+     "t": "전쟁이 러시아 수출 막아 인도행 해바라기유 화물 취소·지연 위기",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/india-bound-sunflower-oil-cargoes-face-cancellation-delays-war-disrupts-russian-2026-10-07/"
+    },
+    {
+     "t": "튀르키예 \"러·우크라, 겨울 앞두고 흑해 공격 늘려\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/turkey-says-russia-ukraine-increasing-attacks-black-sea-ahead-winter-2026-10-08/"
+    },
+    {
+     "t": "시리아, 흑해 선박 침몰에 독립 조사 요구",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/syria-calls-independent-probe-into-sinking-ship-black-sea-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C048",
+   "attachTo": "",
+   "title": "포르쉐, 판매 감소 시대 고가 전략으로 전환…최상위 모델 20% 인상·이익률 15% 목표",
+   "one": "포르쉐가 최상위 모델 평균 판매가를 약 20% 올리고 손익분기 판매량을 20만 대 아래로 낮춰 장기 영업이익률 15%를 노리는 새 전략을 내놓으면서, 상반기 7.8%까지 떨어진 수익성을 물량 대신 가격으로 회복하는 쪽으로 사업 구조를 바꾸고 있다",
+   "facts": [
+    "무엇이: 포르쉐가 10월 7일 자본시장의 날에서 2035년까지의 전략 발표, 장기 그룹 영업이익률 15%·자동차 순현금흐름률 12% 목표 [사실]",
+    "가격: 최상위 모델 평균 판매가를 중기적으로 약 20% 인상 [사실]",
+    "비용: 손익분기 판매량을 20만 대 미만으로 낮추고 개발비·모델 가짓수를 각각 20% 감축 [사실]",
+    "현재: 2026년 상반기 영업이익률 7.8%, 중기 목표는 10~15% 유지 [사실]"
+   ],
+   "basis": "verified",
+   "check": "포르쉐 뉴스룸·전재 기사 요약으로 확인. 15% 목표 시점(2035년)은 매체마다 표현 차이",
+   "src": [
+    {
+     "o": "Porsche Newsroom",
+     "d": "2026-10-07",
+     "u": "https://newsroom.porsche.com/en/2026/company/porsche-capital-markets-day-strategy-sportwagenschmiede-35-43419.html"
+    },
+    {
+     "o": "finews.asia",
+     "d": "2026-10-07",
+     "u": "https://www.finews.asia/high-end/45127-porsche-capital-markets-day-2026-new-ceo-michael-leiters-mission-s-sports-car-strategy"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "포르쉐, 최상위 스포츠카 가격 20% 인상 목표",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/porsche-s-ceo-to-chase-returns-with-fresh-lineup-of-pricier-cars"
+    },
+    {
+     "t": "포르쉐, 장기 이익률 목표 15% 제시",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/porsche-sets-long-term-margin-target-15-2026-10-07/"
+    },
+    {
+     "t": "포르쉐 회생 계획의 핵심 내용",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/key-elements-porsches-turnaround-plan-2026-10-07/"
+    },
+    {
+     "t": "판매 감소 시대 대비하는 포르쉐, 초고가 전략에서 활로 모색",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/autos-transportation/porsche-braces-lower-sales-era-seeks-lifeline-luxury-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C063",
+   "attachTo": "",
+   "title": "테스코, 상반기 영업익 6.5% 증가에 연간 전망 하단 상향…온라인 배송이 비용 압박 상쇄",
+   "one": "테스코가 빠른 배송 서비스를 앞세운 온라인 매출 8.4% 증가로 상반기 조정 영업이익을 6.5% 늘린 17억 8,000만 파운드로 끌어올리고 연간 이익 전망 하단을 31억 5,000만 파운드로 높였지만, 연말 주류 판매는 절주 추세로 둔화할 수 있다고 밝혔다",
+   "facts": [
+    "무엇이: 테스코 상반기 조정 영업이익 약 6.5% 증가한 17억 8,000만 파운드 [사실]",
+    "전망: 연간 조정 영업이익 전망을 30억~33억 파운드에서 31억 5,000만~33억 파운드로 하단 상향 [사실]",
+    "온라인: 영국 온라인 매출 8.4% 증가, 빠른 배송 서비스 후시 약 37% 성장 [사실]",
+    "주주환원: 자사주 매입 규모를 7억 5,000만 파운드에서 9억 5,000만 파운드로 확대 [사실]",
+    "변수: 절주 추세가 연말 주류 판매를 억제할 것으로 예상 [제목]"
+   ],
+   "basis": "verified",
+   "check": "실적·전망·온라인 성장률·자사주 매입은 검색 결과 요약으로 확인(온라인 성장률은 매체별 8~8.4%). 주류 판매 둔화는 제목 근거",
+   "src": [
+    {
+     "o": "RTE",
+     "d": "2026-10-08",
+     "u": "https://www.rte.ie/news/business/2026/1008/1594496-tesco-raises-profit-outlook-floor-after-first-half-rise/"
+    },
+    {
+     "o": "Proactive Investors",
+     "d": "2026-10-08",
+     "u": "https://www.proactiveinvestors.com/companies/news/1099786/tesco-raises-profit-outlook-and-boosts-buyback-after-strong-first-half-1099786.html"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "테스코 \"빠른 배송 수요가 비용 압박 상쇄\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/tesco-narrows-outlook-as-online-sales-offset-cost-pressure"
+    },
+    {
+     "t": "영국 테스코, 상반기 이익 증가에 이익 전망 하단 상향",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/britains-tesco-raises-profit-outlook-floor-after-first-half-rise-2026-10-08/"
+    },
+    {
+     "t": "테스코 \"절주 추세로 연말 주류 판매 억제될 것\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/retail-consumer/tesco-expects-moderation-trend-curb-festive-alcohol-sales-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C076",
+   "attachTo": "",
+   "title": "테슬라 FSD 유럽 승인 속도…독일 지지·슬로바키아 승인 방침",
+   "one": "테슬라가 EU에 감독형 FSD 승인을 거세게 압박하는 가운데 독일 교통부가 제한 속도 10% 이내 초과 허용 등에 합의하고 슬로바키아가 네덜란드 승인을 인정해 며칠 안에 승인하겠다고 밝히면서, EU 전체 승인 전에도 국가별 허용이 늘어나고 있다",
+   "facts": [
+    "무엇이: 슬로바키아 교통장관이 10월 8일 네덜란드 형식승인을 인정해 테슬라 FSD를 승인하겠다고 발표, 9번째 EU 국가가 될 전망 [사실]",
+    "독일: 교통부가 10월 6일 테슬라와 합의, 최고 속도 10% 이내 초과 허용·명칭은 'Tesla Assisted Driving'으로 변경 제안, 국가 승인은 아직 [사실]",
+    "EU: 자동차기술위원회가 10월 6일 논의했으나 표결 없이 12월로 미뤄진 것으로 전해짐 [사실]",
+    "로비: 테슬라가 EU 승인을 위해 강하게 압박해 효과를 보고 있다는 로이터 탐사 보도 [제목]"
+   ],
+   "basis": "verified",
+   "check": "슬로바키아 방침, 독일 합의 내용, EU 표결 연기는 검색 결과 요약으로 확인(EU 표결 시점은 업계 매체 보도)",
+   "src": [
+    {
+     "o": "Drive Tesla Canada",
+     "d": "2026-10-08",
+     "u": "https://driveteslacanada.ca/news/tesla-fsd-slovakia-approval-ninth-eu-country/"
+    },
+    {
+     "o": "Tesla North",
+     "d": "2026-10-08",
+     "u": "https://teslanorth.com/2026/10/08/tesla-assisted-driving-europe/"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "테슬라의 EU 자율주행 승인 압박, 효과 보고 있다",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/"
+    },
+    {
+     "t": "머스크, 독일의 테슬라 운전보조 기술 지지 환영…EU 승인 추진",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/musk-welcomes-german-backing-tesla-driver-assistance-tech-group-chases-eu-2026-10-07/"
+    },
+    {
+     "t": "슬로바키아, 테슬라 자율주행 기술 승인 예정",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/slovakia-approve-teslas-self-driving-tech-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C086",
+   "attachTo": "",
+   "title": "애플, M&A 책임자에 내부 출신 스티브 스미스…페리카는 서비스 부문으로",
+   "one": "애플이 존 터너스 CEO 체제의 조직 개편으로 내부 출신 스티브 스미스를 M&A 책임자로 앉혀 CFO 산하에 두고 17년간 인수합병을 이끈 에이드리언 페리카를 서비스 부문으로 옮기면서, 서비스 사업 확대에 경영진 역량을 더 싣고 있다",
+   "facts": [
+    "무엇이: 애플이 10월 8일 기업개발 선임이사 출신 스티브 스미스를 M&A 책임자로 임명, 케반 파레크 CFO에 보고 [사실]",
+    "이동: 에이드리언 페리카는 서비스 리더십팀으로 옮겨 에디 큐에게 보고, 회사는 떠나지 않음 [사실]",
+    "배경: 9월 팀 쿡에 이어 취임한 존 터너스 CEO 체제의 경영진 개편, 큐는 메모에서 '서비스에 큰 계획이 있다'고 언급 [사실]"
+   ],
+   "basis": "verified",
+   "check": "AppleInsider 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "AppleInsider",
+     "d": "2026-10-08",
+     "u": "https://appleinsider.com/articles/26/10/08/ternus-shuffle-apple-names-new-mergers-acquisitions-chief"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "애플, 스티브 스미스 M&A 책임자 임명…에이드리언 페리카는 서비스 사업으로",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/apple-names-steve-smith-m-a-chief-moves-adrian-perica-to-services-business"
+    },
+    {
+     "t": "애플, 내부 출신 스티브 스미스를 새 M&A 책임자로 임명…메모 확인",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/legalindustry/apple-names-insider-steve-smith-new-ma-chief-memo-shows-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C097",
+   "attachTo": "",
+   "title": "CH로빈슨, RXO 58억 달러에 인수…美 1·3위 트럭 중개사 통합",
+   "one": "디젤 비용 부담 속에 CH로빈슨이 경쟁사 RXO를 58억 달러에 인수해 미국 1위와 3위 트럭 화물 중개사를 합치고 2년 안에 연 3억 달러의 비용 절감을 노리면서, 화물 중개 업계의 통합이 빨라질 전망이다",
+   "facts": [
+    "무엇이: CH로빈슨이 10월 5일 RXO를 현금·주식 58억 달러에 인수하기로 합의, 합병 회사 기업가치 250억 달러 이상 [사실]",
+    "조건: RXO 주당 현금 17.25달러와 CH로빈슨 주식을 섞어 주당 30.25달러, 현금분은 모건스탠리 브리지 대출로 조달 [사실]",
+    "효과: 마감 후 2년 내 연 3억 달러 순비용 절감 목표, 2027년 상반기 마감 예정 [사실]",
+    "업계: CH로빈슨 CEO는 디젤 비용 부담 속 중개업 통합이 더 이어질 것으로 봄 [제목]"
+   ],
+   "basis": "verified",
+   "check": "CH로빈슨 보도자료·FreightWaves 검색 결과 요약으로 확인. 교환비율은 매체별 차이로 생략",
+   "src": [
+    {
+     "o": "C.H. Robinson",
+     "d": "2026-10-05",
+     "u": "https://www.chrobinson.com/en-us/about-us/newsroom/press-releases/2026/ch-robinson-to-acquire-rxo/"
+    },
+    {
+     "o": "FreightWaves",
+     "d": "2026-10-05",
+     "u": "https://www.freightwaves.com/news/c-h-robinson-buys-rxo-historys-largest-brokerage-deal"
+    }
+   ],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "CH로빈슨 CEO \"디젤 비용 부담에 화물 중개업 통합 더 늘 것\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/ch-robinson-ceo-sees-more-freight-broker-consolidation-diesel-costs-bite-2026-10-06/"
+    },
+    {
+     "t": "CH로빈슨, AI 기반 화물 거래로 RXO 58억 달러에 인수",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/ch-robinson-chrw-buys-rxo-in-5-8-billion-ai-driven-freight-deal"
+    }
+   ]
+  },
+  {
+   "cid": "C108",
+   "attachTo": "n-tg-0136",
+   "title": "삼성 영업익 107조·TSMC 매출 사상 최대에도 주가 하락…AI 호황 지속성 의문",
+   "one": "삼성전자가 분기 영업이익 107조 4,000억 원, TSMC가 분기 매출 1조 4,900억 대만달러로 나란히 사상 최대 실적을 냈지만 차입에 기댄 AI 호황이 이어질지 의문이 커지면서, 삼성 주가는 2.4% 떨어지고 코스피도 2.6% 밀렸다",
+   "facts": [
+    "무엇이: 삼성전자 3분기 잠정 영업이익 107조 4,000억 원, 국내 기업 첫 분기 100조 원 돌파 [사실]",
+    "TSMC: 3분기 매출 1조 4,900억 대만달러(467억 1,000만 달러)로 전년 대비 50% 증가, 시장 예상 상회 [사실]",
+    "주가: 10월 8일 삼성 2.4% 하락·코스피 2.6% 하락, TSMC 대만 상장주 1.35% 하락 [사실]",
+    "원인: 부채로 키운 데이터센터 투자 붐의 지속성과 2027년 이익 하향 가능성에 대한 우려, 미국 금리 20년 만의 고점 [사실]"
+   ],
+   "basis": "verified",
+   "check": "실적 수치와 주가 반응은 Japan Times·Capital Brief 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "The Japan Times",
+     "d": "2026-10-08",
+     "u": "https://www.japantimes.co.jp/business/2026/10/08/samsung-tsmc-investors/"
+    },
+    {
+     "o": "Capital Brief",
+     "d": "2026-10-08",
+     "u": "https://www.capitalbrief.com/briefing/samsung-tsmc-shares-fall-as-investors-question-debt-fuelled-ai-chip-boom-deae1f31-17ac-405c-8e5f-d97a77b0197d/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "삼성 투자자들, 이익 호황이 지속된다는 증거 원해",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/samsung-investors-want-evidence-profit-boom-has-staying-power"
+    },
+    {
+     "t": "삼성·TSMC, 가파른 AI 성장에 익숙한 투자자들 만족시키지 못해",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/samsung-reaches-new-profit-record-with-memory-chip-windfall"
+    }
+   ]
+  },
+  {
+   "cid": "C119",
+   "attachTo": "",
+   "title": "크레틴스키 인수 로열메일, 2027년까지 사무직 2,500명 감원",
+   "one": "체코 억만장자 크레틴스키가 인수한 영국 로열메일이 편지 물량이 정점 대비 70% 넘게 줄자 2027년 말까지 본사·지원 부문에서 최대 2,500명을 줄이기로 하면서, 배송 현장 인력은 유지한 채 중복 조직을 걷어내 비용을 낮추려 하고 있다",
+   "facts": [
+    "무엇이: 로열메일이 2027년 말까지 본사·지원 부문 최대 2,500명 감원 계획 발표, 배송·처리 현장 인력은 감축 없음 [사실]",
+    "방식: 자연 감소와 희망퇴직 위주, 전체 직원 13만 1,000여 명의 약 2% [사실]",
+    "배경: 편지 물량 정점 대비 70% 이상 감소, 보편적 우편 서비스 개편, 크레틴스키의 EP그룹이 2025년 모회사 IDS를 36억 파운드에 인수 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Around Prague",
+     "d": "2026-10-07",
+     "u": "https://aroundprague.cz/en/people/daniel-kretinskys-empire-cuts-staff-royal-mail-to-shed-up-to-2-500-jobs"
+    }
+   ],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "크레틴스키 인수 뒤 로열메일, 사무직 2,500명 감원",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/royal-mail-to-cut-2-500-office-jobs-after-kretinsky-buyout"
+    },
+    {
+     "t": "영국 로열메일, 2027년 말까지 최대 2,500명 감원 계획",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/world-at-work/uks-royal-mail-plans-cut-up-2500-jobs-by-end-2027-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C129",
+   "attachTo": "",
+   "title": "美 명품 카드 지출 석 달째 감소…中 역외신탁 세무 단속까지 명품업계 이중고",
+   "one": "미국 명품 카드 지출이 9월 전년 대비 6% 줄며 석 달째 감소한 가운데 중국이 역외신탁을 쓴 부유층에 10월 22일까지 밀린 세금을 신고·납부하라고 압박하면서, 루이비통·구찌 등 명품 브랜드의 양대 시장 판매가 함께 위축되고 있다",
+   "facts": [
+    "무엇이: 씨티 카드 데이터 기준 미국 명품 지출이 9월 전년 대비 6% 감소, 7·8월 각 4% 감소에 이어 석 달째 [사실]",
+    "중국: 역외신탁 이용 부유층에 10월 22일까지 수년치 세금 신고·납부 요구, 20% 세율이 초고액 자산가 소비를 압박 [사실]",
+    "주가: 올해 LVMH·에르메스 각 약 40%, 케링 29% 하락 [사실]",
+    "일정: LVMH 10월 12일 3분기 매출, 케링 10월 22일 발표 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(로이터 전재본이 아닌 Business of Fashion·뉴스 요약 기준)",
+   "src": [
+    {
+     "o": "Business of Fashion",
+     "d": "2026-10-06",
+     "u": "https://www.businessoffashion.com/news/luxury/us-luxury-spending-slows-citi-data-shows/"
+    },
+    {
+     "o": "New Straits Times",
+     "d": "2026-10-09",
+     "u": "https://www.nst.com.my/business/economy/2026/10/1551277/chinas-tax-crackdown-piles-pressure-luxury-brands-us-spending"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미 중간선거 앞두고 명품 지출 둔화…카드 데이터",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/finance/us-luxury-spending-slows-ahead-midterms-credit-card-data-shows-2026-10-06/"
+    },
+    {
+     "t": "미국 소비 주춤한 가운데 중국 세무 단속이 명품 브랜드 압박",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/chinas-tax-crackdown-piles-pressure-luxury-brands-as-us-spending-falters-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C149",
+   "attachTo": "",
+   "title": "샤오미, 새 SUV '스카이노매드' 첫 달 확정 주문 7만 대에 주가 최대 9% 급등",
+   "one": "샤오미가 주행거리 연장형 SUV 스카이노매드 시리즈의 출시 첫 달 확정 주문이 7만 대를 넘었다고 밝히면서, 올해 38% 떨어졌던 홍콩 주가가 장중 최대 9.2% 뛰고 9월 인도량도 4만 대를 넘어 올해 최고를 기록했다",
+   "facts": [
+    "무엇이: 샤오미 스카이노매드(N70·N90) 9월 7일~10월 7일 확정 주문 7만 대 이상 [사실]",
+    "인도: 스카이노매드 첫 달 인도 1만 대 이상, 9월 전체 인도 4만 대 넘어 올해 최대 [사실]",
+    "주가: 10월 9일 홍콩 증시에서 장중 최대 9.2% 상승, 연초 대비 38% 하락 상태였음 [사실]",
+    "과제: 연간 인도 목표 55만 대 달성엔 남은 석 달 월 4만 대를 크게 넘어야 함 [사실]"
+   ],
+   "basis": "verified",
+   "check": "CarNewsChina·Free Malaysia Today 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "CarNewsChina",
+     "d": "2026-10-08",
+     "u": "https://carnewschina.com/2026/10/08/xiaomis-skynomad-series-reported-70000-firm-orders-in-first-month/"
+    },
+    {
+     "o": "Free Malaysia Today",
+     "d": "2026-10-09",
+     "u": "https://www.freemalaysiatoday.com/category/business/2026/10/09/xiaomi-shares-jump-9-as-strong-ev-orders-boost-sentiment"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "샤오미 주가, 스카이노매드 SUV 주문 호조에 급등",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/xiaomi-shares-jump-9-on-strong-orders-for-new-ev-model"
+    }
+   ]
+  },
+  {
+   "cid": "C159",
+   "attachTo": "",
+   "title": "PG&E, 강풍·산불 위험에 주말 예방 단전 경고…캘리포니아 북부 대상",
+   "one": "캘리포니아 최대 전력회사 PG&E가 건조한 강풍으로 산불 위험이 커지자 토요일부터 월요일까지 새크라멘토 북·서쪽 등 일부 지역에 예방 단전을 할 수 있다고 경고하면서, 약 1만 2,200가구의 전력 공급이 끊길 수 있다",
+   "facts": [
+    "무엇이: PG&E가 강풍·낮은 습도·산불 위험을 이유로 주말 공공안전 단전(PSPS) 가능성 경고 [사실]",
+    "범위: 약 1만 2,200 고객, 17개 카운티 일부가 대상이 될 수 있음(다른 보도는 7개 카운티) [사실]",
+    "일정: 10월 8일 고객 통보 완료, 금요일 오후~월요일 기상 감시 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Insurance Journal·ABC10 검색 결과 요약으로 확인. 대상 카운티 수는 보도별로 7곳·17곳으로 다름",
+   "src": [
+    {
+     "o": "Insurance Journal",
+     "d": "2026-10-09",
+     "u": "https://www.insurancejournal.com/news/west/2026/10/09/888527.htm"
+    },
+    {
+     "o": "ABC10",
+     "d": "2026-10-08",
+     "u": "https://www.abc10.com/article/news/local/california/potential-pge-power-shutoffs-could-affect-17-california-counties/103-28018f82-95ec-429e-b2f3-830a7de80690"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "items": [
+    {
+     "t": "PG&E, 강풍 속 주말 단전 가능성 경고",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather"
+    }
+   ]
+  },
+  {
+   "cid": "C169",
+   "attachTo": "",
+   "title": "프랑크푸르트 코메르츠방크 타워, 3.6억 유로 차환·리모델링 자금 조달 난항",
+   "one": "프랑크푸르트 코메르츠방크 타워를 소유한 삼성SRA자산운용이 약 3억 6,000만 유로 대출 차환과 리모델링용 우선주 1억 5,000만 유로 조달에 나섰지만 2032년 임대 만료 후 코메르츠방크의 재계약이 불확실해 진척이 더디면서, 빌딩의 앞날이 불투명해졌다",
+   "facts": [
+    "무엇이: 소유주 삼성SRA자산운용이 BNP파리바를 자문사로 두고 약 3억 6,000만 유로 대출 차환과 약 1억 5,000만 유로 우선주 조달 추진 [사실]",
+    "걸림돌: 코메르츠방크의 2032년 임대 만료 후 연장 여부 불확실, 소유주는 신규 자본 투입에 소극적 [사실]",
+    "기존 대출: 2023년 바이에른LB 등 은행단에서 LTV 55%로 차환 [사실]"
+   ],
+   "basis": "verified",
+   "check": "MarketScreener 요약(블룸버그 보도 인용)과 Patrizia 2023년 발표로 확인. 임대 만료 연도는 2031·2032년으로 출처마다 다름",
+   "src": [
+    {
+     "o": "MarketScreener 뉴스 요약",
+     "d": "2026-10-08",
+     "u": "https://www.marketscreener.com/news/bnp-paribas-reportedly-hired-to-secure-funds-for-renovation-of-commerzbank-s-frankfurt-tower-ce785ddfdb81f626"
+    },
+    {
+     "o": "PATRIZIA",
+     "d": "2023-08-10",
+     "u": "https://www.patrizia.ag/en/news-detail/patrizia-secures-significant-refinancing-on-iconic-commerzbank-tower-in-frankfurt"
+    }
+   ],
+   "inds": [
+    "realestate"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "코메르츠방크 타워, 자금 조달 난항에 앞날 불투명",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/commerzbank-tower-struggles-for-funds-leaving-future-in-doubt"
+    }
+   ]
+  },
+  {
+   "cid": "C179",
+   "attachTo": "",
+   "title": "美 상원 초당적 인허가 개혁안에 환경단체 반발…\"석유·빅테크에 퍼주기\"",
+   "one": "미 상원이 에너지·송전 사업 인허가를 앞당기는 초당적 합의안을 내놓자 환경단체들이 멸종위기종 보호 약화와 석유·가스 개발 가속을 이유로 반발하면서, 중간선거 뒤로 미뤄진 표결에서 민주당 표 확보가 난관이 될 전망이다",
+   "facts": [
+    "무엇이: 상원 협상단이 초당적 인허가 개혁안(Bipartisan American Affordability and Jobs Act of 2026) 합의 [사실]",
+    "반발: 오일체인지인터내셔널은 '석유·빅테크에 대한 노골적 선물', 생물다양성센터는 멸종위기종법 무력화라고 비판 [사실]",
+    "분열: NRDC는 송전 조항이 절실하다며 판단 보류, 시에라클럽 등 대형 단체는 반대 서한 불참 [사실]",
+    "일정: 표결은 중간선거 이후, 민주당 표 확보가 최대 과제 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Common Dreams·Grist·Inside Climate News 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Grist",
+     "d": "2026-10",
+     "u": "https://grist.org/politics/permitting-reform-baaja-climate-debate-clean-energy-fossil-fuels"
+    },
+    {
+     "o": "Inside Climate News",
+     "d": "2026-10-02",
+     "u": "https://insideclimatenews.org/news/02102026/senate-introduces-energy-permitting-bill/"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "items": [
+    {
+     "t": "환경단체들, 상원 인허가 합의안은 '나쁜 거래'라고 비판",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/environmental-groups-criticize-senate-permitting-deal-as-bad-bargain"
+    }
+   ]
+  },
+  {
+   "cid": "C189",
+   "attachTo": "",
+   "title": "캐나다, 2027년 1월 만료 앞둔 외국인 주택 구매 금지 재검토",
+   "one": "캐나다 정부가 2027년 1월 1일 만료되는 외국인 주택 구매 금지 조치를 연장할지 재검토에 들어가면서, 신축·나대지만 외국인에게 허용하는 호주식 부분 개방이 거론돼 주택시장에 해외 수요가 일부 돌아올 수 있다",
+   "facts": [
+    "무엇이: 샹파뉴 재무장관이 외국인 주택 구매 금지 만료 전 선택지를 검토 중이라고 언급 [사실]",
+    "만료: 금지 조치는 2024년 2월 2년 연장돼 2027년 1월 1일 만료 예정 [사실]",
+    "방향: 로버트슨 주택장관은 신축·나대지만 허용하는 호주 모델을 거론 [사실]",
+    "별도: 온타리오 25%, BC 20% 등 주정부 외국인 취득세는 만료와 무관하게 유지 [사실]"
+   ],
+   "basis": "verified",
+   "check": "캐나다 재무부 2024년 발표·BLG·MoneySense 등 검색 결과 요약으로 확인. 최종 결정은 아직 없음",
+   "src": [
+    {
+     "o": "Department of Finance Canada",
+     "d": "2024-02-04",
+     "u": "https://www.canada.ca/en/department-finance/news/2024/02/government-announces-two-year-extension-to-ban-on-foreign-ownership-of-canadian-housing.html"
+    },
+    {
+     "o": "BLG",
+     "d": "2026-07",
+     "u": "https://www.blg.com/en/insights/2026/07/canadas-foreign-buyer-ban-what-the-2027-expiry-signals-for-investors"
+    }
+   ],
+   "inds": [
+    "realestate"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "캐나다, 2027년 만료 앞두고 외국인 주택 구매 금지 재검토",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/canada-reviews-foreign-homebuyers-ban-as-2027-expiry-approaches"
+    }
+   ]
+  },
+  {
+   "cid": "C209",
+   "attachTo": "",
+   "title": "FTSE 러셀, 튀르키예 '선진 신흥시장' 지위 유지…관찰 대상 지정 안 해",
+   "one": "FTSE 러셀이 연례 국가 분류 심사에서 튀르키예를 관찰 대상에 올리지 않고 선진 신흥시장 지위를 유지하면서, 9월 펀드 131개 청산 명령으로 흔들린 튀르키예 증시가 지수 강등에 따른 자금 유출 위험을 일단 피했다",
+   "facts": [
+    "무엇이: FTSE 러셀이 10월 6일 국가 분류 심사에서 튀르키예의 선진 신흥시장 지위 유지, 관찰 대상 미지정 [사실]",
+    "배경: 9월 지수 변경 일부 연기, 중앙예탁원(MKK) 유동주식 자료 정밀도를 두고 보르사 이스탄불·자본시장위원회와 협의 중 [사실]",
+    "시장: 9월 튀르키예 당국이 운용사 7곳의 펀드 131개 청산 명령 [사실]",
+    "다음: MSCI 11월 심사가 다음 분수령 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Anadolu·Daily Sabah 등 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Anadolu Agency",
+     "d": "2026-10-07",
+     "u": "https://www.aa.com.tr/en/economy/ftse-russell-maintains-turkiye-s-advanced-emerging-market-status/4080447"
+    },
+    {
+     "o": "Türkiye Today",
+     "d": "2026-10-07",
+     "u": "https://www.turkiyetoday.com/business/ftse-russell-keeps-turkiye-in-advanced-emerging-market-status-amid-fund-rout-3229801"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "FTSE 러셀, 튀르키예 선진 신흥시장 지위 유지",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/ftse-russell-retains-turkey-s-advanced-emerging-market-status"
+    }
+   ]
+  },
+  {
+   "cid": "C219",
+   "attachTo": "",
+   "title": "KKR 보유 음료 위탁생산사 레프레스코, 기업가치 100억 달러 이상 IPO 검토",
+   "one": "KKR이 2022년 약 80억 달러에 인수한 세계 최대 독립 음료 위탁생산업체 레프레스코가 미국이나 유럽에서 기업가치 100억 달러 이상을 노린 상장을 검토하면서, 채권 금리 상승으로 흔들린 가을 IPO 시장에 대형 매물이 더해질 수 있다",
+   "facts": [
+    "무엇이: 레프레스코와 KKR이 최근 몇 주간 투자은행들로부터 IPO 주관 제안을 받음, 기업가치 100억 달러 이상 예상 [사실]",
+    "장소: 미국 또는 유럽 상장 검토, 계획은 초기 단계 [사실]",
+    "인수가: KKR은 2022년 약 79억~80억 달러에 인수 [사실]",
+    "시장: 금리 상승·변동성으로 최근 몇몇 기업이 상장을 연기 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Newsquawk·Global Banking & Finance 요약으로 확인. 출처는 익명 관계자",
+   "src": [
+    {
+     "o": "Newsquawk",
+     "d": "2026-10-08",
+     "u": "https://www.newsquawk.com/headlines/kkrs-kkr-refresco-is-weighing-a-potential-ipo-at-more-than-a-usd-10bln-valuation-according-to-sources"
+    },
+    {
+     "o": "PitchBook",
+     "d": "2022",
+     "u": "https://pitchbook.com/newsletter/kkr-inks-79b-deal-for-bottler-refresco"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "레프레스코, 기업가치 100억 달러 이상 IPO 검토…소식통",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/refresco-plots-potential-ipo-10-billion-plus-valuation-sources-say-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C229",
+   "attachTo": "",
+   "title": "FDA, 뉴론 조현병 신약 임상 보류 이유로 사망 4건 지목",
+   "one": "미 FDA가 뉴론의 조현병 신약 에베나마이드 투여 환자 사망 4건을 부정맥 가능성이 배제되지 않은 안전성 신호로 지목하고 미국 내 3상 임상 보류를 유지하면서, 뉴론 주가가 약 8.5% 떨어지고 신약 개발 일정에 차질이 생길 수 있다",
+   "facts": [
+    "무엇이: FDA가 에베나마이드 전체 임상에서 투여군 사망 4건(0.56%)을 잠재 안전성 신호로 판단, 위약군은 1건(0.27%) [사실]",
+    "임상: 치료저항성 조현병 대상 3상 ENIGMA-TRS 2의 미국 내 보류 유지, 미국 밖 등록은 계속 [사실]",
+    "회사: 약 700명의 심전도 1만여 건에서 심장 이상 패턴은 없었다며 심장 검사 강화 검토 [사실]",
+    "주가: 발표 후 약 8.5% 하락 [사실]"
+   ],
+   "basis": "verified",
+   "check": "BioSpace 등 검색 결과 요약으로 확인. FDA 판단은 회사 발표 기준",
+   "src": [
+    {
+     "o": "BioSpace",
+     "d": "2026-10-08",
+     "u": "https://www.biospace.com/drug-development/newron-reveals-5-deaths-in-late-stage-schizophrenia-program-as-fda-maintains-hold"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미 FDA, 뉴론 조현병 신약 임상 보류에 사망 4건 지목",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/litigation/us-fda-cites-4-deaths-newrons-schizophrenia-drug-trial-hold-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C239",
+   "attachTo": "",
+   "title": "비아트리스, 비마약성 진통제 퍼시라 16억 5,000만 달러에 인수",
+   "one": "비아트리스가 비마약성 수술 후 진통제 엑스파렐을 가진 퍼시라 바이오사이언스를 주당 36.5달러, 총 16억 5,000만 달러에 현금 인수하기로 하면서, 복제약 중심에서 신약 사업으로 무게를 옮기고 퍼시라 주가는 44% 넘게 뛰었다",
+   "facts": [
+    "무엇이: 비아트리스가 10월 8일 퍼시라를 주당 36.5달러 현금, 지분가치 약 16억 5,000만 달러에 인수 합의 [사실]",
+    "대상: 엑스파렐(수술 후 통증)·질레타(무릎 골관절염 통증), 6월 말까지 12개월 매출 약 7억 4,600만 달러 [사실]",
+    "자금: 보유 현금과 단기 차입으로 조달, 2026년 말 마감 예정 [사실]",
+    "반응: 퍼시라 주가 44% 이상 상승 [사실]"
+   ],
+   "basis": "verified",
+   "check": "비아트리스 보도자료·GuruFocus 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Viatris",
+     "d": "2026-10-08",
+     "u": "https://newsroom.viatris.com/2026-10-08-Viatris-Agrees-to-Acquire-Pacira-BioSciences,-Advancing-Its-Innovative-Medicines-Strategy-and-Becoming-a-Leader-in-Non-Opioid-Pain-Therapies"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "비아트리스, 퍼시라 바이오사이언스 16억 5,000만 달러에 인수",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/litigation/viatris-acquire-pacira-biosciences-165-billion-deal-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C249",
+   "attachTo": "",
+   "title": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+   "one": "엔비디아가 투자한 스타트업 업스케일 AI가 서로 다른 공급업체의 AI 칩을 하나로 연결하는 플랫폼을 내놓으면서, 데이터센터 운영사가 특정 업체 칩에 묶이지 않고 여러 회사 칩을 섞어 쓸 길이 넓어질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 엔비디아가 투자한 업스케일 AI가 경쟁 공급업체 칩들을 연결하는 플랫폼 출시 [제목]",
+    "의미: 칩 공급업체 간 상호 연결 선택지가 늘어날 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 제품명·출시 세부·투자 규모 미확인",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "엔비디아 투자 받은 업스케일 AI, 경쟁 공급사 칩 잇는 플랫폼 출시",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C259",
+   "attachTo": "",
+   "title": "독일 설탕업체 쥐트추커, 상반기 매출 대체로 보합",
+   "one": "독일 설탕업체 쥐트추커가 상반기 매출이 전년과 대체로 비슷한 수준을 유지했다고 발표하면서, 외형은 버텼지만 매출 성장은 멈춘 흐름이 이어지고 있다는 점이 확인됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 쥐트추커가 상반기 매출이 대체로 안정적이었다고 발표 [제목]",
+    "세부: 매출액·이익 수치와 연간 전망은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진, 회사 뉴스 페이지 열람 실패(404)로 수치 확인 못 함",
+   "src": [],
+   "inds": [
+    "agri"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "쥐트추커, 상반기 매출 대체로 보합",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/retail-consumer/sdzucker-reports-broadly-stable-first-half-revenue-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C269",
+   "attachTo": "",
+   "title": "인도 결제주 하락…UPI 가맹점 수수료 도입 지연 보도 여파",
+   "one": "인도 정부가 UPI 결제에 가맹점 수수료(MDR)를 다시 매기는 조치를 미룰 것이라는 보도가 나오면서, 수수료 수익 회복을 기대하던 인도 결제업체 주가가 일제히 떨어졌다 (제목 기준)",
+   "facts": [
+    "무엇이: UPI 가맹점 수수료 도입이 지연된다는 보도 [제목]",
+    "시장: 인도 결제 관련주 하락 [제목]",
+    "세부: 종목별 하락 폭과 보도 출처는 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "UPI 가맹점 수수료 도입 지연 보도에 인도 결제주 하락",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/indian-payment-stocks-slide-after-report-upi-mdr-rollout-delay-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C279",
+   "attachTo": "",
+   "title": "질랜드·로슈 비만 신약, 2상서 체중 최대 9.2% 감량",
+   "one": "덴마크 질랜드파마와 로슈가 함께 개발하는 비만 신약이 중기 임상에서 환자 체중을 최대 9.2% 줄였다고 발표하면서, 두 회사가 비만약 시장 후발 주자로서 후기 임상 진입 여부를 가늠할 근거를 얻었다 (제목 기준)",
+   "facts": [
+    "무엇이: 질랜드·로슈 비만 신약이 2상에서 최대 9.2% 체중 감량 [제목]",
+    "세부: 약물명, 투여 기간, 위약 대비 차이, 부작용은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진, 질랜드 공시 페이지 열람 실패(403). 9.2%는 기사 주소의 '92'를 9.2%로 읽은 것",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "질랜드·로슈 비만약, 중기 임상서 체중 최대 9.2% 감량",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/zealand-roches-obesity-drug-helps-patients-lose-up-92-weight-mid-stage-trial-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C289",
+   "attachTo": "",
+   "title": "웰스파고, 흑인 주택 보유 확대 프로그램 놓고 규제당국 조사",
+   "one": "웰스파고가 흑인 가구의 주택 보유를 늘리려던 대출 프로그램을 두고 규제당국의 조사를 받게 됐다고 월스트리트저널이 보도하면서, 인종을 고려한 금융 지원에 대한 감독 압박이 은행권으로 번질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 웰스파고가 흑인 주택 보유 확대 노력과 관련해 규제당국 조사에 직면(WSJ 보도) [제목]",
+    "세부: 조사 기관·쟁점 조항은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "웰스파고, 흑인 주택 보유 확대 노력 두고 규제당국 조사 직면…WSJ",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/wells-fargo-faces-regulator-probe-over-efforts-boost-black-homeownership-wsj-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C299",
+   "attachTo": "",
+   "title": "인도 NSE, 수요 몰린 해외 ETF 고평가 경고",
+   "one": "인도국립증권거래소(NSE)가 해외 주식 ETF로 수요가 몰려 일부 상품 가격이 비싸지자 투자자들에게 주의를 당부하면서, 해외 주식에 쏠린 인도 개인 투자자들이 고평가된 가격에 사들이는 손실 위험이 부각됐다 (제목 기준)",
+   "facts": [
+    "무엇이: NSE가 수요 급증한 해외 ETF의 고평가에 대해 투자자 주의 촉구 [제목]",
+    "세부: 프리미엄 규모와 대상 ETF는 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 프리미엄 규모·대상 ETF 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 NSE, 수요 급증한 해외 ETF 고평가에 투자자 주의 당부",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/nse-cautions-investors-over-pricey-overseas-etfs-demand-surges-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C309",
+   "attachTo": "",
+   "title": "아커BP 노르웨이 대형 유전 사업비 증가…정부 예산안서 드러나",
+   "one": "노르웨이 정부 예산안에서 아커BP가 운영하는 대륙붕 대형 개발 사업들의 비용이 기존 추정보다 늘어난 것으로 나타나면서, 해양 유전 개발 비용 상승이 석유회사 수익성과 투자 일정에 부담이 될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 노르웨이 재정 예산안에 아커BP 주요 해상 사업의 비용 증가가 반영 [제목]",
+    "세부: 해당 사업명과 증가 금액은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "drilling"
+   ],
+   "nodes": [
+    "drilling/capex"
+   ],
+   "items": [
+    {
+     "t": "노르웨이 예산안 \"아커BP 해상 대형 사업 비용 늘어\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/aker-bps-major-projects-off-norway-cost-more-fiscal-budget-shows-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C319",
+   "attachTo": "",
+   "title": "보스턴다이내믹스, 아마존 AI 책임자 출신 로힛 프라사드 CEO 선임",
+   "one": "로봇업체 보스턴다이내믹스가 아마존에서 AI 개발을 이끈 로힛 프라사드를 새 최고경영자로 선임하면서, 회사가 밝힌 대로 AI를 접목한 로봇의 상용화에 경영의 무게를 싣게 됐다",
+   "facts": [
+    "무엇이: 보스턴다이내믹스가 전 아마존 임원 로힛 프라사드를 CEO로 선임 [사실]",
+    "배경: 회사는 그를 전 아마존 AI 리더로 소개하며 '피지컬 AI 혁신과 상용화의 다음 시대'를 이끌 것이라고 밝힘 [사실]",
+    "세부: 전임자와 선임 날짜는 회사 페이지에서 확인 못 함 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "보스턴다이내믹스 뉴스 페이지 열람으로 선임 사실과 소개 문구 확인. 날짜·전임자 확인 못 함",
+   "src": [
+    {
+     "o": "Boston Dynamics",
+     "d": "2026-10-07",
+     "u": "https://bostondynamics.com/news/"
+    }
+   ],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "보스턴다이내믹스, 전 아마존 임원 로힛 프라사드 CEO 선임",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/autos-transportation/boston-dynamics-appoints-ex-amazon-executive-rohit-prasad-ceo-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C329",
+   "attachTo": "",
+   "title": "텍사스 법무장관, 프루트오브더룸·헤인스 아동용품 유해물질 조사",
+   "one": "켄 팩스턴 텍사스주 법무장관이 프루트오브더룸과 헤인스의 아동용 제품에 잠재적 유해 화학물질이 들어 있는지 조사에 나서면서, 두 의류업체가 소송과 제품 회수 부담을 질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 텍사스주 법무장관 팩스턴이 프루트오브더룸·헤인스를 아동용 제품 유해 화학물질 가능성으로 조사 [제목]",
+    "세부: 문제 물질과 대상 제품은 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "텍사스 법무장관 팩스턴, 아동용품 유해물질 우려로 프루트오브더룸·헤인스 조사",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/litigation/texas-ag-paxton-probes-fruit-loom-hanes-over-potential-toxic-chemicals-childrens-2026-10-06/"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "cid": "C139",
+   "reason": "범위 밖(대만 안보 동향, 투자 관련 구체 사실 없음)"
+  },
+  {
+   "cid": "C199",
+   "reason": "범위 밖(애널리스트 매수 의견 기사)"
+  }
+ ]
+}

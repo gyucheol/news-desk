@@ -1,0 +1,40 @@
+[
+{"cid":"C051","attachTo":"","title":"EU 1646건·英 38건 대러 제재 추가…그림자 선단·우회 결제망 겨냥",
+"one":"EU 대사들이 군수 공급망 중심의 대러 제재 대상 1646건을 승인하고 영국이 그림자 선단 유조선 12척과 우회 결제·가상자산 거래소 등 38건을 추가 제재하면서, 러시아의 원유 수출·결제 경로와 현지에 남은 서방 기업의 부담이 커지고 있다",
+"facts":["무엇이: EU 대사들이 10월 7일 대러 제재 대상 1646건(대부분 미사일 등 군수산업) 신규 지정을 승인, 외교장관들이 10월 12일 공식 채택 예정이며 새 업종·금융 제한은 없음 [사실]","영국: 10월 8일 38건 지정, 유조선 12척 추가로 그림자 선단 제재 선박이 600척 넘었고 캐나다·키르기스스탄 소재 결제업체 5곳과 자루베즈네프트 등 석유사 포함 [사실]","기업: 러시아에 남은 미국·유럽 기업들이 철수에 모든 것을 걸어야 하는 상황 [제목]"],
+"basis":"verified","check":"EU 1646건·채택 일정, 영국 38건·유조선 12척·결제업체는 검색 결과 요약(Brussels Morning·AML Intelligence·Moscow Times)으로 확인. 기업 철수 기사는 제목 기준",
+"src":[{"o":"Brussels Morning","d":"2026-10-08","u":"https://brusselsmorning.com/eu-envoys-approve-1646-new-sanctions-targeting-russia/104903/"},{"o":"AML Intelligence","d":"2026-10-08","u":"https://www.amlintelligence.com/2026/10/news-uk-announces-new-russia-sanctions-targeting-the-countrys-shadow-fleet/"}],
+"inds":["macro"],"nodes":["macro/geo"],
+"items":[
+{"t":"EU 대사들, 대러 제재 대상 신규 지정 승인…외교관들 전해","o":"로이터","d":"2026-10-08","u":"https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"},
+{"t":"영국, 금융서비스·그림자 선단 겨냥한 새 대러 제재 발표","o":"로이터","d":"2026-10-09","u":"https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"},
+{"t":"러시아에 발 묶인 미국·유럽 기업들, 철수 위해 모든 것을 걸다","o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/features/2026-russia-exits/"}]},
+{"cid":"C065","attachTo":"","title":"美 주정부, SNS 청소년 보호 소송 압박…틱톡 '가짜 안전기능' 실험·메타 변경 요구",
+"one":"뉴욕주가 틱톡이 청소년을 포함한 이용자에게 작동하지 않는 '가짜' 피드 초기화 기능을 주고 체류 시간·광고 수익 영향을 실험했다고 소장에 추가하고 플로리다주는 메타에 페이스북·인스타그램 변경 명령을 법원에 요청하면서, SNS 기업들의 소송·합의 부담이 커지고 있다",
+"facts":["무엇이: 뉴욕주 검찰총장이 봉인 해제된 수정 소장에서 틱톡이 2023년 'Algo Refresh' 실험 중 일부 이용자에게 작동하지 않는 위약 버전을 줬다고 주장 [사실]","배경: 뉴욕은 틱톡을 제소한 10여 개 주 중 하나이며 틱톡은 9월 앨라배마 유사 소송을 최대 3억 달러에 합의, 틱톡은 혐의를 부인 [사실]","플로리다: 플로리다주가 법원에 메타의 페이스북·인스타그램 10대 관련 변경 강제를 요청 [제목]"],
+"basis":"partial","check":"뉴욕 틱톡 소장 내용·앨라배마 합의는 검색 결과 요약(Business Standard·Benzinga 등)으로 확인. 플로리다의 메타 관련 법원 요청은 확인 못 함",
+"src":[{"o":"Business Standard","d":"2026-10-08","u":"https://www.business-standard.com/world-news/tiktok-accused-by-new-york-ag-of-secretly-testing-safety-features-on-teens-126100800269_1.html"}],
+"inds":["tech"],"nodes":[],
+"items":[
+{"t":"플로리다, 법원에 메타의 페이스북·인스타그램 10대 관련 변경 강제 요청","o":"로이터","d":"2026-10-08","u":"https://www.reuters.com/world/us/florida-asks-court-force-meta-change-facebook-instagram-teens-2026-10-07/"},
+{"t":"뉴욕주, 틱톡이 10대 대상 비밀 안전 실험을 했다고 고발","o":"블룸버그","d":"2026-10-08","u":"https://www.bloomberg.com/news/articles/2026-10-07/tiktok-accused-by-ny-of-running-secret-safety-tests-on-teens"},
+{"t":"뉴욕주 \"틱톡, 실험에서 10대·아동에 가짜 안전기능 제공\"","o":"로이터","d":"2026-10-08","u":"https://www.reuters.com/world/china/tiktok-gave-teens-children-placebo-safety-feature-experiment-new-york-alleges-2026-10-07/"}]},
+{"cid":"C078","attachTo":"","title":"인도 최대 지오 IPO 로드쇼…암바니 후계자들 투자자 질문 공세",
+"one":"아카시·이샤 암바니가 약 38억 달러로 인도 사상 최대가 될 지오 플랫폼스 IPO 해외 로드쇼를 이끌며 투자자들의 까다로운 질문을 받는 가운데, 상장 뒤 모회사 릴라이언스가 지오를 더 싸게 사는 경로가 될 수 있다는 분석이 나왔다",
+"facts":["무엇이: 지오 플랫폼스 IPO는 약 38억 달러 규모로 2024년 현대차 인도법인(29억 달러)을 넘어 인도 최대가 될 전망, 10월 21일 청약 개시 보도 [사실]","구조: 최대 2억7000만 주 전량 신주, 조달 자금은 주로 릴라이언스 지오 인포콤 부채 상환 [사실]","로드쇼: 아카시·이샤 암바니가 미국·영국·두바이·홍콩·싱가포르 투자자 설명회를 이끌며 어려운 질문을 받음 [사실]","릴라이언스: 상장 뒤 릴라이언스 주식이 지오를 더 싸게 사는 방법일 수 있다는 분석 [제목]"],
+"basis":"verified","check":"규모·일정·신주 구조·로드쇼 지역은 검색 결과 요약(thedailyjagran 등)으로 확인, 규모·일정은 비공식 보도 기준. 릴라이언스 할인 분석은 제목 기준",
+"src":[{"o":"Billionaires.Africa","d":"2026-10-05","u":"https://www.billionaires.africa/2026/10/05/indian-billionaire-mukesh-ambanis-jio-platforms-sets-october-21-launch-for-3-8-billion-ipo/"},{"o":"Daily Jagran","d":"2026-10","u":"https://www.thedailyjagran.com/business/news/sebi-approval-global-roadshows-clear-way-latest-update-on-jio-platforms-historic-rs-36000-cr-ipo-10331314"}],
+"inds":["tech"],"nodes":[],
+"items":[
+{"t":"상장 후엔 릴라이언스가 지오를 더 싸게 사는 방법일 수도","o":"블룸버그","d":"2026-10-08","u":"https://www.bloomberg.com/news/articles/2026-10-08/reliance-may-be-a-cheaper-way-to-buy-jio-after-its-listing"},
+{"t":"암바니 후계자들, 사상 최대 지오 IPO 로드쇼에서 까다로운 질문 직면","o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/news/articles/2026-10-09/ambani-heirs-face-tough-questions-in-roadshow-for-record-jio-ipo"}]},
+{"cid":"C089","attachTo":"","title":"인도 SEBI, 거래 기록 넘기며 제인스트리트에 답변 압박…조사 지연 공방",
+"one":"인도 증권거래위원회(SEBI)가 조작 혐의 판단에 쓴 거래 기록을 제인스트리트에 넘기고 답변을 요구하자 제인스트리트가 증권항소법원에서 조사를 늦출 동기가 없다며 추가 자료를 요구해, 약 484억 루피 규모 부당이득 혐의 사건의 결론이 미뤄지고 있다",
+"facts":["무엇이: SEBI가 예비 명령의 근거인 거래 로그(시각·수량·가격)를 제인스트리트에 공유하고 혐의에 대한 답변을 요구 [사실]","공방: 제인스트리트는 SEBI와 NSE가 주고받은 이메일 최대 60건 등을 요구하며 SEBI가 사후에 기준을 바꿨다고 주장, SEBI는 끝없는 '낚시성' 요구라고 반박 [사실]","배경: SEBI는 2025년 7월 뱅크니프티 지수 조작으로 약 484억 루피(4843크로르) 부당이득 혐의를 제기했고, 제인스트리트는 부인하며 자금을 예치 [사실]","일정: 서면 제출 뒤 증권항소법원(SAT)이 10월 21일 다룰 수 있음 [사실]"],
+"basis":"verified","check":"검색 결과 요약(Business Standard·BusinessToday)으로 확인. 부당이득은 4843크로르 루피(약 484억 루피)",
+"src":[{"o":"Business Standard","d":"2026-10-07","u":"https://www.business-standard.com/markets/news/sebi-shares-trade-data-with-jane-street-seeks-response-to-allegations-126100700677_1.html"},{"o":"Business Standard","d":"2026-10-08","u":"https://www.business-standard.com/markets/news/jane-street-accuses-sebi-of-shifting-goalposts-in-sat-hearing-on-documents-126100801282_1.html"}],
+"inds":["fin"],"nodes":[],
+"items":[
+{"t":"인도 규제당국, 데이터 공유 뒤 제인스트리트에 답변 압박","o":"블룸버그","d":"2026-10-07","u":"https://www.bloomberg.com/news/articles/2026-10-07/india-regulator-presses-jane-street-to-respond-after-data-share"},
+{"t":"제인스트리트, 법원에 \"인도 조사 지연시킬 동기 없다\"","o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/news/articles/2026-10-08/jane-street-tells-court-firm-has-no-motive-to-delay-india-probe"}]}
+]

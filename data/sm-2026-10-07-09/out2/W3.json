@@ -1,0 +1,1239 @@
+{
+ "agent": "W3",
+ "searches_used": 16,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C018",
+   "attachTo": "n-tg-0125",
+   "title": "인도 금리 인상에도 루피 사상 최저 근접…RBI '추가 긴축' 신호, 외환보유액 4주째 감소",
+   "one": "인도중앙은행이 약 4년 만에 기준금리를 5.50%로 올리고 추가 인상 가능성을 내비쳤지만 루피가 달러당 96.85로 사상 최저 근처까지 밀리고 외환보유액이 4주째 줄면서, 자금 유출과 물가 압력이 함께 커지고 있다",
+   "facts": [
+    "무엇이: 인도중앙은행(RBI)이 10월 7일 기준금리를 5.25%에서 5.50%로 올리고 기조를 '조정된 긴축'으로 바꿈, 2023년 2월 이후 첫 인상 [사실]",
+    "루피: 결정 뒤 달러당 96.85까지 밀려 5월 기록(96.965)에 근접, 아시아 통화 중 가장 약세 [사실]",
+    "외환보유액: 4주 연속 감소해 9월 고점보다 500억 달러 줄어 [제목]",
+    "물가 기대: RBI 조사에서 식품·연료비 상승으로 가계 기대 인플레이션이 올라감 [제목]",
+    "전망: RBI는 2027회계연도 성장률 전망을 6.7%에서 7.1%로 올림, 시장은 연속 인상 가능성을 거론 [사실]"
+   ],
+   "basis": "verified",
+   "check": "인상 폭·루피 수준·성장률은 검색 결과 요약으로 확인. 외환보유액 500억 달러 감소는 제목 기준",
+   "src": [
+    {
+     "o": "IIFL(indiainfoline)",
+     "d": "2026-10-07",
+     "u": "https://www.indiainfoline.com/news/inflation-watch/rbi-hikes-repo-rate-by-25-bps-to-5-50-gdp-forecast-raised-to-7-1"
+    },
+    {
+     "o": "Briefs",
+     "d": "2026-10-07",
+     "u": "https://www.briefs.co/news/rupee-slides-toward-record-low-after-rbi-raises-rates/"
+    },
+    {
+     "o": "Asia Times",
+     "d": "2026-10",
+     "u": "https://asiatimes.com/2026/10/indias-rate-hike-a-loud-warning-shot-for-modinomics/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/rates",
+    "macro/fx",
+    "macro/inflation"
+   ],
+   "items": [
+    {
+     "t": "물가 압력 커지자 RBI, 추가 금리 인상 신호",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-central-bank-lifts-rates-for-first-time-in-near-four-years"
+    },
+    {
+     "t": "인도 외환보유액 4주째 감소…9월 고점 대비 500억 달러 줄어",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/indias-fx-reserves-fall-fourth-week-down-50-billion-september-peak-2026-10-07/"
+    },
+    {
+     "t": "RBI 총재 '시장은 단기적으로 비이성적일 수 있다'…루피 언급",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/india-rbi-chief-says-markets-can-be-irrational-short-term-rupee-may-be-2026-10-07/"
+    },
+    {
+     "t": "RBI 총재 '은행 유동성 흑자, 회계연도 말까지 줄어들 듯'",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/india-bank-liquidity-surplus-likely-decline-by-financial-year-end-rbi-chief-says-2026-10-07/"
+    },
+    {
+     "t": "RBI 인상에도 트레이더들 더 원해…루피 사상 최저 근접",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/rupee-nears-record-low-as-rbi-hike-leaves-traders-wanting-more"
+    },
+    {
+     "t": "인도, 글로벌 요인에 독자적 금리 결정 여지 좁아져",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/in-india-global-forces-are-narrowing-room-to-set-rate-policy-independently"
+    },
+    {
+     "t": "식품·연료비 상승에 인도 가계 기대 인플레이션 상승…RBI 조사",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/india/india-household-inflation-expectations-rise-higher-food-fuel-costs-rbi-survey-2026-10-07/"
+    },
+    {
+     "t": "RBI 금리 인상, 다음 행보 두고 추측 게임 촉발",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/rbi-rate-hike-sets-off-guessing-game-over-what-comes-next"
+    },
+    {
+     "t": "인도 가계, 인플레이션 급등 예상…RBI 조사 결과",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-households-expect-inflation-to-spike-rbi-surveys-show"
+    },
+    {
+     "t": "RBI 추가 긴축 신호에도 루피 사상 최저 근접",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/rupee-nears-record-low-even-as-rbi-signals-further-tightening"
+    },
+    {
+     "t": "인플레이션 상승에 인도 연속 금리 인상 예상",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/india-set-for-back-to-back-rate-hikes-as-inflation-risks-mount"
+    },
+    {
+     "t": "식품·에너지 압력에 인도 9월 인플레이션 가속 예상",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/india-inflation-likely-accelerated-september-food-energy-pressures-2026-10-08/"
+    },
+    {
+     "t": "글로벌 역풍에도 인도 기업 이익 증가 속도 빨라질 듯",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/indian-firms-seen-posting-faster-profit-growth-despite-global-headwinds-2026-10-08/"
+    },
+    {
+     "t": "인도 금리 인상으로 자금 유출 못 막아…중앙은행 진퇴양난",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/india-rate-hike-will-not-stem-outflows-leaving-central-bank-bind-2026-10-08/"
+    },
+    {
+     "t": "RBI 결정 뒤 인도 선물환 프리미엄 급등 지속…1년물 이번 주 64bp 상승",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/india/india-fx-forward-premiums-extend-post-rbi-policy-surge-1-year-up-64-bps-this-2026-10-08/"
+    },
+    {
+     "t": "대형 펀드매니저 '인도 시장, 더 어려운 시기 온다'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/india-markets-set-for-more-difficult-times-says-top-fund-manager"
+    },
+    {
+     "t": "미 금리·달러 하락이 RBI 도와 루피의 사상 최저 행진 둔화",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/india/dip-us-yields-dollar-lend-rbi-hand-slowing-rupees-slide-all-time-low-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C035",
+   "attachTo": "",
+   "title": "바이오·의료기기 상장 잇따라…엔비디아 투자 이암빅 최대 8억 달러 몸값, 티렉스 1억1,670만 달러 조달",
+   "one": "엔비디아가 투자한 신약개발사 이암빅이 기업가치 최대 8억580만 달러로 미국 상장에 나서고 일라이릴리가 투자한 티렉스바이오가 공모가 하단에서 1억1,670만 달러를 조달하는 등, 바이오·의료기기 기업들의 미국·홍콩 상장 추진이 이어지고 있다",
+   "facts": [
+    "무엇이: 이암빅 테라퓨틱스가 주당 15~17달러에 938만 주를 팔아 최대 1억5,940만 달러를 모으는 나스닥 상장 추진, 상단 기준 기업가치 8억580만 달러 [사실]",
+    "티렉스바이오: 주당 14달러(희망 범위 14~16달러 하단)에 833만 주를 팔아 1억1,670만 달러 조달, 릴리가 공모주 매입 의향 [사실]",
+    "센티넬 스파인: 척추 디스크 대체 임플란트 업체가 최대 1억 달러 뉴욕증시 상장 신청, 상반기 매출 8,520만 달러(전년 6,010만 달러) [사실]",
+    "사네진 바이오: 쑤저우 소재 업체가 2027년 홍콩 상장을 목표로 함 [제목]"
+   ],
+   "basis": "verified",
+   "check": "이암빅·티렉스·센티넬 숫자는 검색 결과 요약으로 확인. 사네진은 제목 기준",
+   "src": [
+    {
+     "o": "IPOScoop",
+     "d": "2026-10-08",
+     "u": "https://www.iposcoop.com/the-ipo-buzz-iambic-therapeutics-iam-proposed-launches-150-million-ipo/"
+    },
+    {
+     "o": "Quiver Quant(회사 보도자료)",
+     "d": "2026-10-09",
+     "u": "https://www.quiverquant.com/news/TRexBio+Prices+$116.7+Million+Initial+Public+Offering+at+$14.00+Per+Share"
+    },
+    {
+     "o": "Renaissance Capital",
+     "d": "2026-10-07",
+     "u": "https://www.renaissancecapital.com/IPO-Center/News/122099/spinal-implant-developer-centinel-spine-files-for-a-100-million-ipo"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "의료기기업체 센티넬 스파인, 미국 상장 신청서에서 매출 증가 공개",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/medical-device-maker-centinel-spine-discloses-revenue-rise-us-ipo-filing-2026-10-07/"
+    },
+    {
+     "t": "사네진 바이오, 2027년 홍콩 상장 목표로 알려져",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/suzhou-sanegene-bio-is-said-to-target-2027-for-hong-kong-listing"
+    },
+    {
+     "t": "엔비디아 투자 이암빅 테라퓨틱스, 미국 상장서 최대 8억600만 달러 기업가치 목표",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/litigation/nvidia-backed-iambic-therapeutics-targets-up-806-million-valuation-us-ipo-2026-10-08/"
+    },
+    {
+     "t": "일라이릴리 투자 바이오텍 티렉스, 미국 상장으로 1억1,670만 달러 조달",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/eli-lilly-backed-biotech-trex-raises-116-7-million-in-us-ipo"
+    }
+   ]
+  },
+  {
+   "cid": "C042",
+   "attachTo": "n-tg-0116",
+   "title": "중동 원유 흐름 회복에 인도는 러시아산 외면…이라크는 시리아 경유 호르무즈 우회로 추진",
+   "one": "호르무즈 원유 물동량이 전쟁 전의 76%까지 회복되자 인도 정유사들이 웃돈이 붙은 러시아산 구매를 줄였고 이라크는 시리아를 거치는 트럭·송유관 우회로를 추진하면서, 걸프 원유의 수출 경로와 아시아 수입처 구성이 바뀌고 있다",
+   "facts": [
+    "무엇이: 호르무즈 해협 원유 물동량이 하루 1,030만 배럴로 전쟁 전의 76%까지 회복, 석유제품은 11%에 그침 [사실]",
+    "인도: 10월 4일까지 4주간 러시아산 원유 도입이 하루 31만 배럴로 2022년 3월 이후 최저, 러시아산이 브렌트 대비 배럴당 10달러 넘는 웃돈에 팔림 [사실]",
+    "이라크·시리아: 시리아 국영석유사는 10월 중순 이라크산 원유 트럭 수송 시작을 기대, 키르쿠크-바니야스 송유관 복구는 3~4년 걸린다는 전망 [사실]",
+    "시리아: 투자자 복귀 속 1년 안에 원유 생산을 두 배로 늘릴 계획 [제목]",
+    "사우디: 시장 점유율 경쟁 속 호르무즈 셔틀 운항을 공식화하는 협의 중 [제목]"
+   ],
+   "basis": "partial",
+   "check": "인도의 러시아산 감소·시리아 트럭 수송은 검색 결과 요약으로 확인. 사우디 셔틀 협의와 시리아 증산 계획은 확인 못 함",
+   "src": [
+    {
+     "o": "Al Arabiya",
+     "d": "2026-10-07",
+     "u": "https://english.alarabiya.net/News/middle-east/2026/10/07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+    },
+    {
+     "o": "OilPrice.com",
+     "d": "2026-10",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "시리아, 이라크 원유의 호르무즈 우회 경로로 부상할 듯",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+    },
+    {
+     "t": "투자자 복귀 속 시리아, 1년 안에 원유 생산 두 배 노려",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-plans-to-double-oil-output-in-a-year-as-investors-return"
+    },
+    {
+     "t": "중동 원유 흐름 회복에 인도, 비싸진 러시아산 외면",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/india-shuns-costly-russian-crude-as-middle-east-flows-recover"
+    },
+    {
+     "t": "사우디, 시장 쟁탈전 속 호르무즈 셔틀 운항 공식화 협의",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/saudis-in-talks-to-formalize-hormuz-shuttles-in-fight-for-market"
+    }
+   ]
+  },
+  {
+   "cid": "C044",
+   "attachTo": "",
+   "title": "베네수엘라산 원유 인도 수입 7년 만에 최대…미 업체 복귀 속 볼리바르는 급락",
+   "one": "릴라이언스가 잼나가르 정유공장으로 베네수엘라 중질유를 대거 들여오며 10월 인도의 수입이 7년 만에 최대로 늘고 미국 소형 석유사도 유전 재가동에 나섰지만, 달러 공급이 줄며 볼리바르가 급락해 베네수엘라 경제의 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 케플러 추정 10월 인도의 베네수엘라산 원유 수입이 최대 하루 46만5,000배럴로 2019년 12월 이후 최대, 9월은 약 19만6,000배럴 [사실]",
+    "배경: 러시아산 우랄유가 비싸지고 베네수엘라 메레이유는 할인 판매되며, 인도는 미국 제재 완화 뒤 2월 수입을 재개 [사실]",
+    "투자자: 코노코는 안정적이고 공정한 재정 조건이 있어야 베네수엘라·러시아에 투자자가 돌아온다고 밝힘, 캘리포니아 소형사 퍼시픽코스트에너지는 유전 복구 착수 [제목]",
+    "환율: 달러 공급 감소로 볼리바르가 새 저점, 로드리게스 대통령은 조정을 내세우며 3분기 성장을 기대 [제목]"
+   ],
+   "basis": "partial",
+   "check": "인도 수입 규모는 검색 결과 요약으로 확인. 볼리바르 급락·퍼시픽코스트 유전 복구·광업 투자는 확인 못 함",
+   "src": [
+    {
+     "o": "Business Standard",
+     "d": "2026-10-07",
+     "u": "https://www.business-standard.com/economy/news/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high-in-oct-126100700608_1.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "macro/fx",
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "코노코 '안정과 공정한 재정 조건 있어야 베네수엘라·러시아에 투자자 돌아온다'",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/stability-fair-fiscal-terms-needed-venezuela-russia-see-investors-return-conoco-2026-10-06/"
+    },
+    {
+     "t": "릴라이언스 주도로 인도의 베네수엘라 원유 수입 7년 만에 최대",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high"
+    },
+    {
+     "t": "캘리포니아 소형 석유사, 베네수엘라 진출 선발주자로",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/pacific-coast-energy-starts-work-to-revive-venezuela-oil-fields"
+    },
+    {
+     "t": "월가 신생 투자사, 트럼프의 베네수엘라 광업 추진에 베팅",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/a-wall-street-upstart-bets-on-trump-s-venezuelan-mining-push"
+    },
+    {
+     "t": "로드리게스가 조정 강조하는 가운데 통화 급락이 베네수엘라 시험",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/venezuela-bolivar-hits-new-milestone-as-dollar-supply-declines"
+    },
+    {
+     "t": "베네수엘라 대통령, 지진 피해에도 3분기 성장 기대",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/americas/venezuelas-president-expects-third-quarter-growth-after-earthquake-hit-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C055",
+   "attachTo": "",
+   "title": "AI 서버 부품 공급난 심화…루멘텀 2029년까지 매진, 베시는 메모리 병목 우려에 급락",
+   "one": "엔비디아가 투자한 광부품업체 루멘텀이 AI 데이터센터용 광소자 생산능력이 2029년 무렵까지 모두 팔렸다고 밝힌 반면 반도체 장비업체 베시는 주력 기술이 메모리 공급난 압박을 받는다는 우려에 주가가 떨어지면서, AI 부품 공급망의 병목이 종목별 명암을 가르고 있다",
+   "facts": [
+    "무엇이: 루멘텀 CEO 마이클 헐스턴이 10월 9일 도쿄 인터뷰에서 광소자 생산능력이 2029년 무렵까지 매진됐다고 밝힘, 4월에는 2028년까지라고 했음 [사실]",
+    "공급 부족: 일부 제품은 내년까지 수요의 약 70%를, 다른 일부는 2028년까지 30%를 맞추지 못함, 주로 인화인듐(InP) 기반 EML 칩·펌프 레이저 [사실]",
+    "베시: 주력 기술이 메모리 공급난 압박에 직면했다는 우려로 주가 하락 [제목]",
+    "주가: 루멘텀 발언 뒤 광부품주가 시간외 거래에서 올랐다는 보도 [사실]"
+   ],
+   "basis": "partial",
+   "check": "루멘텀 매진 시점·부족 비율은 검색 결과 요약으로 확인. 베시 주가 하락 폭과 원인은 확인 못 함. 메타 'AI 뜨거운 감자' 기사는 AI 투자·자금 부담 성격이라 items에서 뺌",
+   "src": [
+    {
+     "o": "Crypto Briefing",
+     "d": "2026-10-09",
+     "u": "https://cryptobriefing.com/lumentum-optoelectronic-parts-sold-out-2029/"
+    },
+    {
+     "o": "Stocktwits",
+     "d": "2026-10-09",
+     "u": "https://stocktwits.com/news-articles/markets/equity/lite-cohr-aaoi-poet-rise-overnight-after-lumentum-ceo-says-optical-parts-are-completely-sold-out-through-early-2029/cZD6aeMRBVQ"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "주력 기술이 메모리 공급난 압박에 직면하자 베시 주가 급락",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/besi-shares-sink-as-flagship-tech-faces-memory-crunch-pressure"
+    },
+    {
+     "t": "엔비디아 투자 루멘텀, AI 서버 부품 2029년까지 매진",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029"
+    }
+   ]
+  },
+  {
+   "cid": "C071",
+   "attachTo": "",
+   "title": "비트코인 8만3천 달러대로 밀려 5억5천만 달러 청산…그리스는 암호화폐 차익에 10% 과세 추진",
+   "one": "미 장기금리 상승과 유가 급등 속에 비트코인이 8만3천~8만4천 달러대로 떨어져 하루 5억5천만 달러의 레버리지 포지션이 청산된 가운데, 그리스가 암호화폐 양도차익에 10% 세율을 매기는 법안을 내놓고 시큐리타이즈가 미국 주식 토큰 거래를 시작하며 제도권 편입이 이어지고 있다",
+   "facts": [
+    "무엇이: 비트코인이 8만3천~8만4천 달러대로 하락하며 24시간 동안 약 5억5천만 달러의 포지션이 청산됨, 대부분 매수 포지션 [사실]",
+    "원인: 미 장기 국채금리 급등, 브렌트유 101달러 돌파, ETF 자금 유출 9,000만 달러 등이 거론됨 [사실]",
+    "그리스: 개인의 암호화폐 양도차익에 10% 단일세율, 연 500유로까지 면제하는 초안, 6월 거론된 15%보다 낮음, 의견수렴은 10월 22일까지 [사실]",
+    "시큐리타이즈: 애플·엔비디아·테슬라 등 미국 주식 12종을 실제 주식 1대1 담보 토큰으로 솔라나에서 거래 시작 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인. 청산 규모는 출처마다 4억~5억5천만 달러로 차이",
+   "src": [
+    {
+     "o": "FXStreet",
+     "d": "2026-10-07",
+     "u": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103"
+    },
+    {
+     "o": "CoinDesk",
+     "d": "2026-10-08",
+     "u": "https://www.coindesk.com/policy/2026/10/08/greece-prepares-to-levy-10-capital-gains-tax-on-cryptocurrency"
+    },
+    {
+     "o": "The Block",
+     "d": "2026-10-08",
+     "u": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "위험한 암호화폐 베팅 5억5천만 달러 청산되며 비트코인 하락",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/bitcoin-btc-falls-as-550-million-in-risky-crypto-bets-wiped-out"
+    },
+    {
+     "t": "그리스, 암호화폐 양도차익에 10% 세금 부과 계획",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/greece-plans-10-cryptocurrency-capital-gains-tax-2026-10-08/"
+    },
+    {
+     "t": "시큐리타이즈, 블록체인 기반 주식 출시",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/government/securitize-launches-blockchain-based-stocks-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C082",
+   "attachTo": "",
+   "title": "부진한 필리핀 국채, 페소·물가 위험 속 국제 가격 관행 도입해 외국인 유치",
+   "one": "페소 약세와 물가 상승으로 필리핀 국채 성적이 가장 부진한 가운데 필리핀 정부가 2027년 1월부터 페소 국채 결제에 국제 가격 산정 관행을 적용하기로 하면서, JP모건 신흥국 국채지수 편입을 앞두고 외국인 자금 유입을 늘리려 하고 있다",
+   "facts": [
+    "무엇이: 필리핀 당국이 10월 9일 페소 국채 결제에 국제 가격 산정 관행을 2027년 1월 4일부터 적용한다고 발표 [사실]",
+    "배경: JP모건이 2027년 1월 29일 필리핀 페소 국채를 신흥국 국채지수(GBI-EM)에 편입할 예정 [사실]",
+    "시장: 10월 1일 기준 10년물 금리 7.61%로 연초보다 약 154bp 상승, 페소는 달러당 62.80 [사실]",
+    "위험: 페소 약세와 물가 상승으로 필리핀 국채가 가장 부진한 성적 [제목]"
+   ],
+   "basis": "partial",
+   "check": "가격 관행 도입 시점·지수 편입·금리 수준은 검색 결과 요약으로 확인. '가장 부진' 순위는 확인 못 함",
+   "src": [
+    {
+     "o": "Daily Tribune",
+     "d": "2026-10-09",
+     "u": "https://tribune.net.ph/2026/10/09/phl-to-adopt-global-bond-pricing-rules-in-january-2027"
+    },
+    {
+     "o": "AsianBondsOnline(ADB)",
+     "d": "2026-10-01",
+     "u": "https://asianbondsonline.adb.org/philippines/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/rates",
+    "macro/fx"
+   ],
+   "items": [
+    {
+     "t": "가장 부진한 필리핀 국채, 페소·인플레이션 위험 직면",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/worst-performing-philippine-bonds-face-peso-inflation-risks"
+    },
+    {
+     "t": "필리핀, 투자자 유치 위해 국제 채권 가격 산정 방식 도입",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/philippines-to-adopt-international-bond-pricing-to-woo-investors"
+    }
+   ]
+  },
+  {
+   "cid": "C093",
+   "attachTo": "",
+   "title": "영국 총리 '독일 GCAP 전투기 합류 열려 있다'…FCAS 무산 뒤 유럽 전투기 판 재편",
+   "one": "버넘 영국 총리가 베를린에서 메르츠 독일 총리를 만난 뒤 독일의 차세대 전투기 GCAP 합류에 열려 있다고 밝히면서, 프랑스·스페인과의 FCAS가 무산된 독일이 영국·이탈리아·일본 사업에 들어갈 길이 열렸지만 업무 재분배와 일정 지연이 과제로 남았다",
+   "facts": [
+    "무엇이: 앤디 버넘 영국 총리가 10월 8일 베를린 기자회견에서 독일의 GCAP 합류에 열려 있으며 이탈리아·일본과 함께 진전시키겠다고 밝힘 [사실]",
+    "배경: 독일이 프랑스·스페인과 추진한 차세대 전투기 FCAS는 올여름 산업 분쟁 속에 무산 [사실]",
+    "독일 입장: 독일 측은 참여 결정은 아직 없지만 메르츠 총리는 독자 개발보다 유럽 공동 방안을 선호한다고 밝힘 [사실]",
+    "걸림돌: BAE시스템스·레오나르도·미쓰비시 등이 이미 작업을 나눠 가져, 새 참여국이 들어오면 지연 위험 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Breaking Defense",
+     "d": "2026-10",
+     "u": "https://breakingdefense.com/2026/10/could-germany-join-gcap-uk-seeks-to-progress-the-potential-switch/"
+    },
+    {
+     "o": "Japan Times",
+     "d": "2026-10-09",
+     "u": "https://www.japantimes.co.jp/news/2026/10/09/world/burnham-germany-gcap/"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "버넘 '영국, 독일의 GCAP 전투기 사업 합류에 열려 있다'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/uk-s-burnham-open-to-germany-joining-next-gen-combat-jet-program"
+    },
+    {
+     "t": "영국 버넘 총리 '독일의 GCAP 전투기 사업 합류에 열려 있다'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/aerospace-defense/uk-pm-burnham-says-open-germany-joining-gcap-fighter-programme-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C104",
+   "attachTo": "",
+   "title": "한국, 국내 면허 없는 외국계 은행의 해외채권 주선 금지 검토…MUFG·ANZ 등 영향",
+   "one": "한국 기획재정부가 국내 증권업 면허가 없는 외국계 투자은행이 한국 기업의 해외채권 발행을 주선하지 못하게 하는 방안을 검토하면서, 올해 상반기 531억 달러로 늘어난 한국물 발행에서 MUFG·ANZ 같은 역외 은행이 밀려나고 일부 발행이 지연될 수 있다",
+   "facts": [
+    "무엇이: 기획재정부가 국내 면허 없는 외국계 은행의 해외채권 주선을 막는 규제를 검토, 10월 1일 금융투자협회를 통해 회원사 의견을 조사 [사실]",
+    "영향: 롯데렌탈의 3억 달러 채권 발행이 한 달 넘게 지연된 뒤 씨티·HSBC·크레디아그리콜·미즈호로 주관사단을 바꿔 진행 [사실]",
+    "대상: 국내 증권 면허가 없는 MUFG·ANZ 등 해외채 주선 상위 은행이 규제 대상이 될 수 있음 [사실]",
+    "규모: 한국 기업의 올해 상반기 외화채 발행 531억 달러, 전년보다 33% 증가 [사실]",
+    "쟁점: 국내 면허 증권사들은 공정 경쟁을 주장, 비판 측은 법적 근거가 없다고 지적, 2019년에도 추진했다 보류 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인. 최종 범위와 기존 위임분 적용 여부는 미정",
+   "src": [
+    {
+     "o": "BigGo Finance",
+     "d": "2026-10",
+     "u": "https://finance.biggo.com/news/36f24f92-cacf-4837-81d4-e4fde0ef9e07"
+    },
+    {
+     "o": "Retail News Asia",
+     "d": "2026-10-08",
+     "u": "https://retailnews.asia/south-korea-may-ban-unlicensed-foreign-banks-from-arranging-global-bonds"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "한국, 면허 없는 외국계 은행의 채권 거래 금지 검토",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/korea-mulls-banning-unlicensed-foreign-banks-global-bond-deals"
+    },
+    {
+     "t": "한국, 외국계 은행의 해외채권 주선 금지할 수도…블룸버그 보도",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/south-korea-may-ban-foreign-banks-arranging-global-bond-deals-bloomberg-news-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C115",
+   "attachTo": "",
+   "title": "캐나다 웨스턴 가문, 영국 약국 체인 부츠 89억 달러에 인수…페어팩스가 지분 절반",
+   "one": "캐나다 웨스턴 가문의 지주회사 위팅턴이 페어팩스 파이낸셜과 손잡고 영국 약국 체인 부츠를 부채 포함 89억 달러에 사들이기로 하면서, 2025년 월그린을 인수한 사이커모어가 1년여 만에 부츠를 떼어 팔게 됐다",
+   "facts": [
+    "무엇이: 웨스턴 가문의 위팅턴 인베스트먼츠가 부츠를 부채 포함 89억 달러에 인수, 대상은 영국·아일랜드 소매점, 부츠 안경점, No7 뷰티 등 [사실]",
+    "매도자: 사이커모어 파트너스와 페시나 가문, 베나비데스·얼라이언스헬스케어 독일 등은 계속 보유 [사실]",
+    "구조: 페어팩스 파이낸셜이 23억 달러를 내고 지분 50%를 보유, 운영은 위팅턴이 맡고 갤런 웨스턴이 회장 [사실]",
+    "일정: 2027년 1분기 거래 종결 예상, 매장·온라인 투자와 의료 서비스 확대 계획 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "The Globe and Mail",
+     "d": "2026-10-07",
+     "u": "https://www.theglobeandmail.com/business/article-weston-family-wittington-buys-boots-with-fairfax-backing/"
+    },
+    {
+     "o": "Insurance Journal",
+     "d": "2026-10-08",
+     "u": "https://www.insurancejournal.com/news/international/2026/10/08/888403.htm"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "부츠 89억 달러에 매각…캐나다 웨스턴 가문 영국 재진출",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/canada-s-westons-to-buy-uk-pharmacy-chain-boots-for-8-9-billion"
+    },
+    {
+     "t": "캐나다 웨스턴 가문, 약국 체인 부츠 89억 달러에 인수",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/canadas-weston-family-buys-pharmacy-chain-boots-89-billion-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C125",
+   "attachTo": "n-bbg-0093",
+   "title": "IMF 총재 'AI·유가·부채 위험 칵테일' 경고…워시 연준 칭찬하며 주요국 재정 긴축 촉구",
+   "one": "게오르기에바 IMF 총재가 유가 배럴당 100달러 안팎의 에너지 충격과 2030년 전 GDP의 100%를 넘을 공공부채, AI 붐의 실적 실망 위험이 겹쳐 세계 성장을 위협한다고 경고하고 미국 등에 재정 건전화를 촉구하면서, 방콕 연차총회를 앞두고 성장 전망 하향 가능성이 커졌다",
+   "facts": [
+    "무엇이: 게오르기에바 총재가 10월 7일 싱가포르 연설에서 에너지 충격·부채·AI 위험이 세계 성장을 위협한다고 경고 [사실]",
+    "에너지: 유가가 배럴당 100달러 근처이고 경유 등 정제 마진이 추가 부담, 걸프 전쟁이 끝나도 고유가가 2027년까지 이어질 수 있다고 봄 [사실]",
+    "부채: 미국을 필두로 한 선진국을 '최악'으로 꼽고 세계 공공부채가 2030년 전 GDP의 100%를 넘을 것이라며 재정 건전화 촉구, 워시 연준의 9월 금리 인상을 물가 안정 우선이라 칭찬 [사실]",
+    "AI: 대형 AI 기업 실적이 실망스러우면 높은 레버리지와 미국 주식 대량 보유 탓에 더 넓은 충격으로 번질 수 있다고 경고 [사실]",
+    "일정: IMF·세계은행 연차총회는 10월 12~18일 방콕에서 열리며 새 성장 전망 발표 예정 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인. 워시 칭찬은 기존 문서 근거",
+   "src": [
+    {
+     "o": "Quartz",
+     "d": "2026-10-07",
+     "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+    },
+    {
+     "o": "Manila Times",
+     "d": "2026-10-08",
+     "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/growth",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "IMF 총재 '세계, AI·석유·부채의 위험 칵테일에 직면'",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/world-faces-risk-cocktail-from-ai-oil-and-debt-says-imf-chief"
+    },
+    {
+     "t": "IMF 총재, 에너지 충격·부채 증가·AI 위험이 세계 성장 위협한다고 경고",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/imf-chief-warns-energy-shock-growing-debt-ai-risks-threaten-global-growth-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C135",
+   "attachTo": "",
+   "title": "이탈리아 은행 쟁탈전 격화…칼타지로네 MPS 방어안 반대, 제네랄리는 방카제네랄리 인수설",
+   "one": "몬테데이파스키 지분 10.26%를 가진 칼타지로네가 인테사의 인수 시도를 막으려는 MPS의 방코BPM·방카제네랄리 인수안에 반대표를 던지기로 하고 제네랄리의 방카제네랄리 인수설까지 나오면서, 10월 29일 MPS 주총을 앞두고 인테사의 350억 유로 인수전이 힘을 얻고 있다",
+   "facts": [
+    "무엇이: 칼타지로네 지주회사(MPS 지분 10.26%)가 10월 29일 주총에서 MPS의 방코BPM·방카제네랄리 인수와 메디오방카 합병안에 반대하겠다고 밝힘 [사실]",
+    "구도: MPS의 두 인수안은 합쳐 약 340억 유로 규모로 주주 3분의 2 찬성이 필요, 델핀(17.6%)·에디치오네는 인테사의 350억 유로 제안을 지지 [사실]",
+    "제네랄리: 이탈리아 언론이 제네랄리가 방카제네랄리 잔여 지분(시가 약 35억 유로) 인수를 검토한다고 보도, 측근은 근거 없다고 부인 [사실]",
+    "주가: 보도 뒤 방카제네랄리 1.75% 상승, 은행지수는 2.5% 하락 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인. 칼타지로네 지분은 출처에 따라 13.5%로도 나옴",
+   "src": [
+    {
+     "o": "Global Banking & Finance Review",
+     "d": "2026-10-08",
+     "u": "https://www.globalbankingandfinance.com/italys-caltagirone-vote-against-monte-dei-paschi-defence/"
+    },
+    {
+     "o": "Il Giornale d'Italia",
+     "d": "2026-10-08",
+     "u": "https://www.ilgiornaleditalia.it/news/economia/828265/banca-generali-sale-dell-1-5-a-piazza-affari-in-calo-dello-0-7-sull-ipotesi-di-opa-totalitaria-da-parte-del-leone.html"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "제네랄리 인수 추진 보도에 방카제네랄리 주가 상승",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/banca-generali-shares-rise-report-generali-may-bid-2026-10-08/"
+    },
+    {
+     "t": "이탈리아 칼타지로네, 인테사 겨냥한 몬테데이파스키 방어책에 반대표",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/italys-caltagirone-vote-against-monte-dei-paschi-defence-moves-against-intesa-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C145",
+   "attachTo": "",
+   "title": "우즈베크 핀테크 우줌, 국내 최대 회사채 발행사 된 뒤 유로본드 데뷔 추진",
+   "one": "우즈베키스탄 핀테크·전자상거래 기업 우줌이 다섯 차례 국내 회사채로 2조1천억 숨을 모아 최대 민간 발행사가 된 뒤 해외 유로본드 발행을 추진하면서, 중앙아시아 신흥 기업의 국제 자본시장 진출이 넓어지고 있다",
+   "facts": [
+    "무엇이: 우줌이 국내 최대 발행사가 된 뒤 유로본드 발행을 검토 [제목]",
+    "국내 채권: 5차 발행으로 6,000억 숨을 연 18% 금리에 조달, 약 60%를 비거주자가 매입, 누적 2조1천억 숨 [사실]",
+    "외화채: 9월 규제 샌드박스로 첫 달러채 5,000만 달러(금리 8.5%) 등록 [사실]",
+    "배경: 2025년 8월 텐센트 등에서 기업가치 약 15억 달러로 7,000만 달러 유치, 2027년 상장 검토 [사실]"
+   ],
+   "basis": "partial",
+   "check": "국내 발행 실적은 검색 결과 요약으로 확인. 이번 유로본드 규모·시점은 확인 못 함",
+   "src": [
+    {
+     "o": "UzDaily",
+     "d": "2026",
+     "u": "https://www.uzdaily.uz/en/uzum-places-uzs-600-billion-in-bonds/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "우즈베크 핀테크 우줌, 국내 최대 발행사 된 뒤 유로본드 검토",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/uzbek-fintech-uzum-eyes-eurobond-after-becoming-top-local-issuer"
+    }
+   ]
+  },
+  {
+   "cid": "C155",
+   "attachTo": "",
+   "title": "킨더모건, 미·멕시코 가스관 불가항력 해제…멕시코행 가스 5분의 1 줄었다 복구",
+   "one": "킨더모건이 정비 중 문제를 발견해 일부 구간을 막았던 테네시가스파이프라인의 불가항력을 수리 뒤 해제하면서, 미국산 공급이 5분의 1가량 줄었던 멕시코행 천연가스 수송이 정상화됐다",
+   "facts": [
+    "무엇이: 킨더모건 자회사 테네시가스파이프라인이 10월 8일 미·멕시코 가스관의 불가항력을 해제 [사실]",
+    "원인: 10월 5일 계획 정비·점검 중 문제가 발견돼 리오브라보·세나가스 인도 계량소 등 일부 구간을 차단 [사실]",
+    "영향: 멕시코 국영 가스관 운영사 세나가스는 미국 공급이 평소보다 5분의 1 줄었다고 밝힘, 멕시코 가스 비축은 약 3일분 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Natural Gas Intelligence",
+     "d": "2026-10-08",
+     "u": "https://naturalgasintel.com/news/us-mexico-natural-gas-flows-recover-after-brief-tgp-force-majeure/"
+    },
+    {
+     "o": "Hart Energy",
+     "d": "2026-10-08",
+     "u": "https://www.hartenergy.com/midstream-energy-infrastructure/he-kinder-morgan-gas-pipeline-us-mexico/"
+    }
+   ],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/midstream",
+    "gas/trade"
+   ],
+   "items": [
+    {
+     "t": "킨더모건, 미·멕시코 가스관 불가항력 해제",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/kinder-morgan-lifts-force-majeure-on-us-mexico-gas-pipeline"
+    }
+   ]
+  },
+  {
+   "cid": "C165",
+   "attachTo": "",
+   "title": "미시간주, 블루크로스 블루실드 반독점 제소…'건강보험 시장 65% 독점'",
+   "one": "미시간주 검찰총장이 주 건강보험 시장의 65%, PPO 시장의 79%를 차지한 블루크로스 블루실드 오브 미시간을 다른 블루 계열사와 지역을 나눠 경쟁을 막았다며 연방 반독점 소송을 내면서, 수억 달러 규모의 손해배상과 영업 관행 금지 명령을 요구하고 있다",
+   "facts": [
+    "무엇이: 데이나 네슬 미시간주 검찰총장이 10월 8일 블루크로스 블루실드 오브 미시간(BCBSM)을 셔먼법 위반 등으로 연방법원에 제소 [사실]",
+    "주장: 다른 블루 계열 보험사들과 지역을 나눠 경쟁을 제한하고 보험료는 올리며 의료기관 지급액은 낮췄다는 이른바 '블루 공모' [사실]",
+    "요구: 영구 금지명령, 손해배상(수억 달러 추정), 부당이득 환수, 민사 벌금 [사실]",
+    "반응: BCBSM은 시장에 경쟁이 있다며 주장을 반박, 네슬은 1월 퇴임해 후임자가 소송을 이어받음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Michigan Public",
+     "d": "2026-10-08",
+     "u": "https://www.michiganpublic.org/criminal-justice-legal-system/2026-10-08/michigan-sues-states-largest-health-insurer-blue-cross-blue-shield-claiming-its-a-monopoly"
+    },
+    {
+     "o": "Fierce Healthcare",
+     "d": "2026-10-08",
+     "u": "https://www.fiercehealthcare.com/payers/michigan-ag-hits-bcbsm-antitrust-suit"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미시간주, 블루크로스의 보험시장 독점 혐의 제기",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/michigan-attorney-general-sues-state-s-blue-cross-blue-shield"
+    }
+   ]
+  },
+  {
+   "cid": "C175",
+   "attachTo": "",
+   "title": "라이언에어·루프트한자 CEO '엄격한 조종사 점검에도 위험 남아'…플라이두바이 사건 여파",
+   "one": "플라이두바이 부기장의 조종석 공격 사건 뒤 라이언에어 오리어리와 루프트한자 슈포어 CEO가 조종사 정신건강 점검이 이미 엄격하지만 모든 사고를 막을 수는 없다고 밝히면서, 항공사들은 심사 강화만으로 위험을 없애기 어렵다는 입장을 내놨다",
+   "facts": [
+    "무엇이: 두 CEO가 10월 8일 브뤼셀 유럽항공사협회(A4E) 기자회견 자리에서 조종사 점검의 한계를 언급 [사실]",
+    "슈포어: 조종사 정신건강 점검은 이미 탄탄하지만 모든 사고를 막는 것은 불가능하다고 말함 [사실]",
+    "오리어리: 조종석의 '미친 사람'은 법으로 대비하기 매우 어렵다고 말함 [사실]",
+    "배경: 플라이두바이 부기장이 기장을 공격한 사건으로 조종사 심사 논란 재점화, 2015년 저먼윙스 추락이 비교 사례로 거론 [사실]"
+   ],
+   "basis": "partial",
+   "check": "CEO 발언은 로이터 전재 지역방송 기사의 검색 결과 요약으로만 확인, 사건 개요는 독립 매체로 확인",
+   "src": [
+    {
+     "o": "Forth News",
+     "d": "2026-10",
+     "u": "https://www.forth.news/stories/Cfm1uhHAR58NZKdiGRS5p"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "라이언에어·루프트한자 '엄격한 조종사 점검에도 위험은 남는다'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ryanair-lufthansa-ceos-say-tough-pilot-checks-still-leave-risks"
+    }
+   ]
+  },
+  {
+   "cid": "C185",
+   "attachTo": "",
+   "title": "파산한 퍼스트브랜즈 형제, 재판서 서로 책임 떠넘기기 예고",
+   "one": "파산한 자동차부품업체 퍼스트브랜즈의 창업자 형제가 다가오는 재판에서 서로에게 책임을 돌리겠다고 밝히면서, 회사 붕괴 경위를 둘러싼 법정 공방이 형제 간 다툼으로 번질 전망이다 (제목 기준)",
+   "facts": [
+    "무엇이: 퍼스트브랜즈의 형제 경영진이 재판에서 서로를 탓하겠다고 밝힘 [제목]",
+    "의미: 피고 간 책임 공방으로 재판 전략이 갈라짐 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 피고 이름·혐의·재판 일정 미확인",
+   "src": [],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "퍼스트브랜즈 형제 '재판에서 서로를 탓하겠다'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/first-brands-brothers-say-they-ll-blame-each-other-at-trial"
+    }
+   ]
+  },
+  {
+   "cid": "C195",
+   "attachTo": "",
+   "title": "멕시코 기업들 국내 회사채 발행 서둘러…발행액 사상 최대",
+   "one": "멕시코 기업들이 앞다퉈 국내 채권시장에서 자금을 조달하면서 현지 회사채 발행액이 사상 최대를 기록해, 멕시코 기업 자금 조달의 무게가 국내 시장으로 쏠리고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 멕시코 국내 채권 발행이 사상 최대를 기록 [제목]",
+    "원인: 기업들이 시장으로 몰려든 결과 [제목]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 발행 규모·기간 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "기업들 몰리며 멕시코 국내 채권 발행 사상 최대",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/mexico-local-bond-sales-hit-record-as-companies-rush-to-market"
+    }
+   ]
+  },
+  {
+   "cid": "C205",
+   "attachTo": "",
+   "title": "나파밸리 고급 와인, 저가 브랜드 달고 팔린다",
+   "one": "캘리포니아 나파밸리의 고급 와인이 값싼 상표를 달고 팔리면서, 소비자는 같은 고급 산지의 와인을 더 낮은 값에 살 수 있게 됐지만 고가 와인 브랜드의 가격 지위는 흔들릴 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 캘리포니아·나파밸리 고급 와인이 저가 상표로 판매됨 [제목]",
+    "의미: 고가 와인 수요 부진으로 재고를 할인 처분하는 흐름 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 판매 규모·원인 미확인",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "캘리포니아 나파밸리 고급 와인, 저렴한 상표로 판매",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/california-napa-valley-premium-wines-sold-under-affordable-labels"
+    }
+   ]
+  },
+  {
+   "cid": "C215",
+   "attachTo": "",
+   "title": "콜롬비아 '쯔진, 투자자 모집하며 광산 보안 위험 축소'",
+   "one": "콜롬비아 정부가 중국 쯔진광업이 투자자 자금을 모으는 과정에서 현지 광산의 보안 위험을 축소해 알렸다고 지적하면서, 쯔진의 콜롬비아 광산 사업과 자금 조달에 대한 정부 압박이 커지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 콜롬비아가 쯔진이 광산 보안 위험을 투자자에게 축소했다고 밝힘 [제목]",
+    "맥락: 쯔진이 자금 조달을 추진하던 중 나온 지적 [제목]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 광산명·조달 방식 미확인",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "콜롬비아 '쯔진, 자금 모집하며 투자자에게 광산 보안 위험 축소'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/colombia-says-zijin-downplayed-mine-security-risks-investors-while-seeking-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C225",
+   "attachTo": "",
+   "title": "딜로이트, 영국 교통운영사 고어헤드 그룹 감사 부실로 벌금",
+   "one": "영국에서 교통운영사 고어헤드 그룹의 회계감사가 부실했다는 이유로 딜로이트에 벌금이 부과되면서, 대형 회계법인의 감사 품질에 대한 영국의 제재가 이어지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 딜로이트가 고어헤드 그룹 감사와 관련해 영국에서 벌금 부과받음 [제목]",
+    "규모: 기사 주소에 '605 million'으로 표기돼 소수점 위치(605만 또는 6,050만)와 통화 단위를 확인 못 함 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 벌금액·통화·제재 기관 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "딜로이트, 교통운영사 고어헤드 그룹 감사 문제로 영국에서 벌금 부과받아",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/uk/deloitte-fined-605-million-uk-over-audits-transport-operator-go-ahead-group-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C235",
+   "attachTo": "",
+   "title": "덴마크 '러시아가 자국 방산업체에 사보타주 공격'",
+   "one": "덴마크 정부가 러시아가 자국 방산업체들을 겨냥해 사보타주 공격을 벌였다고 밝히면서, 우크라이나 지원과 맞물린 유럽 방산 공급망이 물리적 공격 위험에 노출돼 있음이 드러났다 (제목 기준)",
+   "facts": [
+    "무엇이: 덴마크가 러시아의 자국 방산업체 대상 사보타주를 공식 지목 [제목]",
+    "의미: 유럽 방산업체의 보안 비용과 위험이 커질 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 피해 업체·시점 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "덴마크 '러시아, 자국 방산업체에 사보타주 공격 감행'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/aerospace-defense/denmark-says-russia-has-conducted-sabotage-attacks-against-its-defense-firms-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C245",
+   "attachTo": "",
+   "title": "ASML·자이스 '차세대 반도체 노광기술, 10년 뒤에나 준비될 수도'",
+   "one": "네덜란드 ASML과 독일 광학업체 자이스가 차세대 반도체 노광기술이 실제로 쓰일 수 있으려면 10년가량 걸릴 수 있다고 밝히면서, 칩 제조사들은 당분간 현 세대 극자외선 장비로 미세화를 이어가야 할 전망이다 (제목 기준)",
+   "facts": [
+    "무엇이: ASML과 자이스가 차세대 칩 제조 기술이 10년 뒤에야 준비될 수 있다고 밝힘 [제목]",
+    "의미: 현 세대 노광장비의 사용 기간이 길어질 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 차세대 기술의 구체 명칭 미확인",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "ASML·자이스 '차세대 반도체 제조 기술, 10년 뒤 준비될 수도'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C255",
+   "attachTo": "",
+   "title": "잠비아, 보건 협정과 분리해 미국과 광물 협정 협상 중",
+   "one": "구리 생산국 잠비아가 미국과의 보건 협정을 광물 문제와 떼어낸 뒤 별도의 광물 협정을 협상하고 있다고 밝히면서, 미국의 아프리카 핵심광물 확보 움직임이 잠비아로 넓어지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 잠비아가 미국과 광물 협정을 협상 중이라고 밝힘 [제목]",
+    "배경: 앞서 보건 협정과 광물 문제를 분리 [제목]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 협정 대상 광물·규모 미확인",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "잠비아 '보건 협정 분리 뒤 미국과 광물 협정 협상 중'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/zambia-says-it-is-negotiating-us-minerals-deal-after-decoupling-health-pact-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C265",
+   "attachTo": "",
+   "title": "미·러, 우크라이나 전쟁 중 유럽에 가스 판매 방안 모색",
+   "one": "미국과 러시아가 우크라이나 전쟁이 이어지는 가운데 유럽에 가스를 판매하는 방안을 함께 검토하고 있다고 소식통들이 전하면서, 러시아산 가스를 줄여 온 유럽의 가스 수급 구도가 바뀔 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 미국과 러시아가 유럽 대상 가스 판매를 모색 [제목]",
+    "출처: 소식통 인용 보도로 공식 발표 아님 [제목]",
+    "영향: 성사되면 유럽 가스 공급원과 가격에 변화 가능 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 거래 구조·물량 미확인",
+   "src": [],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/trade"
+   ],
+   "items": [
+    {
+     "t": "소식통 '미·러, 우크라이나 전쟁 중 유럽에 가스 판매 모색'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C275",
+   "attachTo": "",
+   "title": "제너럴다이내믹스, 내부 인사 대니 딥을 차기 CEO로 선임",
+   "one": "미국 방산업체 제너럴다이내믹스가 내부 출신 대니 딥을 차기 최고경영자로 정하면서, 잠수함·전투차량·걸프스트림 사업을 거느린 회사가 외부 영입 없이 경영 승계를 진행하게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 제너럴다이내믹스가 내부 인사 대니 딥을 차기 CEO로 선임 [제목]",
+    "일정: 취임 시점 미확인 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 취임 시점·현 직책 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "제너럴다이내믹스, 내부 인사 대니 딥을 차기 CEO로 낙점",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/aerospace-defense/general-dynamics-taps-insider-danny-deep-next-ceo-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C285",
+   "attachTo": "",
+   "title": "브라질 당국, 아메리칸항공의 아줄 투자 승인",
+   "one": "브라질 규제당국이 아메리칸항공의 브라질 항공사 아줄 투자를 승인하면서, 아줄이 미국 대형 항공사의 자본을 받아들일 수 있게 돼 남미 항공시장의 미국 항공사 제휴 구도가 넓어지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 브라질 규제당국이 아메리칸항공의 아줄 투자를 승인 [제목]",
+    "규모: 투자 금액·지분율 미확인 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 투자 규모·승인 기관 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "브라질 규제당국, 아메리칸항공의 브라질 항공사 아줄 투자 승인",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/litigation/brazil-regulator-approves-american-airlines-investment-azul-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C295",
+   "attachTo": "",
+   "title": "WHO, 아동 비만 대책으로 GLP-1 약보다 생활습관 개선 권고",
+   "one": "세계보건기구가 아동 비만 대응에서 GLP-1 계열 비만약보다 식단·운동 같은 생활습관 개선을 우선 권고하면서, 비만약 제약사들이 노려 온 소아 시장 확대에 신중론이 더해졌다 (제목 기준)",
+   "facts": [
+    "무엇이: WHO가 아동 비만 대응에 GLP-1 약물보다 생활습관 개선을 지지 [제목]",
+    "영향: 소아 대상 GLP-1 처방 확대 속도에 영향 줄 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 지침의 약물 사용 조건 미확인",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "WHO, 아동 비만 대응에 GLP-1 약보다 생활습관 변화 지지",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-endorses-lifestyle-changes-over-glp-1-drugs-child-obesity-fight-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C305",
+   "attachTo": "",
+   "title": "독일, 중국 코스코로의 물류회사 매각 차단",
+   "one": "독일 정부가 자국 물류회사를 중국 국영 해운사 코스코에 파는 거래를 막으면서, 항만·물류 같은 핵심 기반시설에 대한 중국 자본의 유럽 진출이 다시 제동이 걸렸다 (제목 기준)",
+   "facts": [
+    "무엇이: 독일이 물류회사의 코스코 매각을 차단 [제목]",
+    "대상: 매각 대상 회사명 미확인 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 회사명·차단 근거 미확인",
+   "src": [],
+   "inds": [
+    "shipping"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "독일 정부, 중국 코스코로의 자국 물류회사 매각을 차단",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/china/germany-blocks-sale-logistics-company-chinas-cosco-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C315",
+   "attachTo": "",
+   "title": "일본 대형 맥주회사들, 담합 혐의로 압수수색",
+   "one": "일본 당국이 주요 맥주회사들을 담합 혐의로 압수수색하면서, 몇몇 대기업이 나눠 가진 일본 맥주시장의 가격 결정 관행이 제재 대상에 오를 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 일본 주요 맥주회사들이 카르텔 혐의로 압수수색 받음 [제목]",
+    "대상: 압수수색 받은 회사명은 기사 제목에 없음 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 대상 회사·조사 기관·담합 품목 미확인",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "일본 주요 맥주회사들, 카르텔 혐의로 당국의 압수수색 받아",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/litigation/major-japanese-beer-companies-raided-over-accusations-cartelisation-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C325",
+   "attachTo": "",
+   "title": "안두릴·미 해군, 잠수함 부품 생산 확대 위해 공동 투자",
+   "one": "방산 스타트업 안두릴과 미 해군이 잠수함 부품 생산을 늘리기 위해 함께 투자하기로 하면서, 병목이 이어져 온 미국 잠수함 건조 공급망의 부품 생산능력이 확대될 전망이다 (제목 기준)",
+   "facts": [
+    "무엇이: 안두릴과 미 해군이 잠수함 부품 생산 확대에 투자 [제목]",
+    "규모: 기사 주소에 '66 bln'으로 표기돼 66억 달러로 보이나 소수점 위치 미확인 [미확인]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 확인 못 함. 투자 규모(66억 달러 추정)·분담 구조 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "안두릴·미 해군, 잠수함 부품 생산 늘리려 공동 투자(주소상 '66 bln')",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/aerospace-defense/anduril-us-navy-invest-66-bln-boost-submarine-parts-production-2026-10-06/"
+    }
+   ]
+  }
+ ],
+ "skipped": []
+}

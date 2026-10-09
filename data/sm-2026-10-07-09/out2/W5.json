@@ -1,0 +1,1162 @@
+{
+ "agent": "W5",
+ "searches_used": 19,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C010",
+   "attachTo": "",
+   "title": "USA투데이, 오픈AI에 2.5억 달러 저작권 소송…AI 챗봇 책임·딥페이크 규제 확산",
+   "one": "USA투데이가 AI 학습에 기사를 무단 사용했다며 오픈AI에 2억5천만 달러 이상을 청구하고 켄터키주가 캐릭터AI 소송의 자해 조장 대화를 공개하면서, AI 기업의 저작권·제품 책임 부담이 법정과 규제 양쪽에서 커지고 있다",
+   "facts": [
+    "무엇이: USA투데이와 계열 지역지들이 10월 8일 뉴욕 남부연방법원에 오픈AI를 상대로 2억5천만 달러 이상의 저작권 침해 소송을 냈고, 기존 오픈AI 저작권 병합 소송과 관련 사건으로 처리해 달라고 요청했다 [사실]",
+    "켄터키: 1월 제기한 캐릭터AI 소송의 비공개 처리 없는 소장을 10월 8일 공개, 챗봇이 굶기·자해를 권한 사례를 담았다 [사실]",
+    "책임 논리: 챗GPT를 '제품'으로 보고 제조물 책임을 묻는 소송이 잇따르고 있다 [제목]",
+    "규제: 덴마크가 동의 없는 AI 딥페이크 공유 금지를 추진하고, 호주에서는 오픈AI 메디케어 정보 유출 뒤 AI 확산에 대한 검증 요구가 나왔다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "USA투데이 소송 금액·법원과 켄터키 소장 공개는 검색 결과 요약으로 확인. 호주 메디케어 유출, 덴마크 법안, 미 선거 AI 로보콜, 청소년 사용 시간은 제목 기준",
+   "src": [
+    {
+     "o": "Crypto Briefing",
+     "d": "2026-10-08",
+     "u": "https://cryptobriefing.com/usa-today-sues-openai-copyright-250m/"
+    },
+    {
+     "o": "The Record",
+     "d": "2026-10-08",
+     "u": "https://therecord.media/kentucky-character-ai-chatbot"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "오픈AI '10대의 챗GPT 사용 하루 15분 미만'…위험 우려는 커져",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/media-telecom/openai-says-teens-use-chatgpt-under-15-minutes-day-worries-over-risks-grow-2026-10-07/"
+    },
+    {
+     "t": "미 당국, 선거 앞두고 AI 정치 로보콜 새로 허용 검토",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/us-agency-considers-allowing-new-ai-political-robocalls-before-election-2026-10-07/"
+    },
+    {
+     "t": "챗GPT는 제품인가 서비스인가…잇단 소송이 AI 책임 이론 시험",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/litigation/is-chatgpt-product-or-service-wave-lawsuits-tests-theory-ai-liability-2026-10-07/"
+    },
+    {
+     "t": "오픈AI 메디케어 정보 유출 뒤 호주 AI 붐에 검증 압박",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/australia-s-ai-boom-faces-scrutiny-after-openai-medicare-breach"
+    },
+    {
+     "t": "USA투데이, AI 학습 저작권 침해로 오픈AI 제소",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08/"
+    },
+    {
+     "t": "덴마크, 동의 없는 AI 딥페이크 공유 금지 추진",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/denmark-plans-ban-sharing-ai-deepfakes-without-consent-2026-10-08/"
+    },
+    {
+     "t": "켄터키주 '캐릭터AI 챗봇이 이용자에게 자해·굶기 권유'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/litigation/characterai-chatbots-encouraged-users-cut-starve-themselves-kentucky-alleges-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C028",
+   "attachTo": "n-tg-0153",
+   "title": "미국 주도 15개 경제권 '과잉생산 대응' 공동성명…중국·브라질 불참, 각국 수입 규제 확산",
+   "one": "그리어 USTR이 16개 경제권 과잉생산 301조 조사의 대응 조치를 예고한 데 이어 미국이 EU·일본·인도 등 15개 경제권과 전기차·배터리·태양광 과잉생산 대응 공동성명을 내면서, 중국산 제품에 대한 관세·수입 규제가 영국·브라질 등으로 넓어지고 있다",
+   "facts": [
+    "무엇이: USTR이 10월 7일 미국·EU·일본·한국·인도 등 15개 경제권이 서명한 구조적 과잉생산 대응 공동성명을 발표했다 [사실]",
+    "불참: 중국·브라질·인도네시아·러시아·사우디·남아공은 서명하지 않았다 [사실]",
+    "대상: 자동차·전기차, 배터리, 화학, 범용 반도체, 태양광 패널을 우선 분야로 정하고 12월 전 실무 회의를 열기로 했다 [사실]",
+    "각국: 영국이 중국산 루틸형 이산화티타늄에 관세를 제안했고, 스텔란티스는 중국산 수입차가 브라질 자동차 일자리를 위협한다고 했다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "공동성명 서명국·불참국·대상 분야는 검색 결과 요약(DFAT·USTR 성명·ANI)으로 확인. 영국 이산화티타늄 관세와 스텔란티스 발언은 제목 기준",
+   "src": [
+    {
+     "o": "호주 외교통상부(DFAT)",
+     "d": "2026-10-07",
+     "u": "https://www.dfat.gov.au/news/media-release/joint-ministerial-statement-addressing-structural-excess-capacity-and-production"
+    },
+    {
+     "o": "USTR",
+     "d": "2026-10-07",
+     "u": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Joint%20Ministerial%20Statement%20Addressing%20Structural%20Excess%20Capacity%20and%20Production%20(10.2026).pdf"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "영국, 중국산 루틸형 이산화티타늄 수입에 관세 제안",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/china/uk-proposes-duty-imports-chinese-rutile-titanium-dioxide-2026-10-07/"
+    },
+    {
+     "t": "일부 G20 통상장관, 미국 주도 과잉 공장설비 규탄 성명에 서명",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/some-g20-trade-ministers-sign-us-led-statement-denouncing-excess-factory-2026-10-07/"
+    },
+    {
+     "t": "미국, 교역 상대국들과 과잉설비 대응 서약 이끌어내",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-enlists-trading-partners-in-pledge-to-address-excess-capacity"
+    },
+    {
+     "t": "스텔란티스 '중국산 수입차에 브라질 자동차 일자리 위태'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/brazil-auto-jobs-imperiled-by-chinese-imports-stellantis-says"
+    },
+    {
+     "t": "'차이나 쇼크 2.0'에 대한 반발 확산",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/backlash-against-the-china-shock-2-0"
+    }
+   ]
+  },
+  {
+   "cid": "C030",
+   "attachTo": "n-bbg-0082",
+   "title": "일본 가계지출 9개월째 감소에도 일은 '물가 압력 확산'…금리 인상 신호 이어져",
+   "one": "우에다 총재에 이어 사토 위원도 추가 인상 지지를 내비치고 일본은행이 물가 압력 확산을 짚었지만, 8월 가계지출이 3.1% 줄어 9개월째 감소하면서 10월 30일 회의를 앞두고 인상 근거와 소비 부진 신호가 함께 쌓이고 있다",
+   "facts": [
+    "무엇이: 일본 8월 가계지출이 전년 대비 3.1% 줄어 9개월 연속 감소했다(예상 약 -3.5%), 실질임금은 8개월째 올랐다 [사실]",
+    "일본은행: 사토 위원이 추가 인상 지지를 시사했고, 일은은 물가 압력이 넓어지고 있다고 봤다 [제목]",
+    "기업: 9월 단칸 대형 제조업 지수는 24로 8년 만의 최고였지만 비제조업은 35로 떨어졌다 [사실]",
+    "엔·재정: 미 연준이 재무부 자금으로 엔화 공동 개입에 참여했고, 다카이치 총리는 엔화·물가를 주시하겠다며 지출 점검과 재해 추경을 검토 중이다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "가계지출·실질임금·단칸 수치는 검색 결과 요약으로 확인. 사토 위원 발언, 일은 물가 판단, 미·일 공동 개입, 30년물 입찰, 추경·지출 점검은 제목 기준",
+   "src": [
+    {
+     "o": "신화통신",
+     "d": "2026-10-09",
+     "u": "https://english.news.cn/asiapacific/20261009/1cea8d4d7a414ce6aa15f2370d94d273/c.html"
+    },
+    {
+     "o": "Japan Times",
+     "d": "2026-10-01",
+     "u": "https://www.japantimes.co.jp/business/2026/10/01/companies/tankan-better-sentiment/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/rates",
+    "macro/fx"
+   ],
+   "items": [
+    {
+     "t": "일본 제조업 심리 5년 만의 최고 근접…서비스업 심리는 급락",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/japan-manufacturers-mood-hits-near-5-year-high-service-sector-sentiment-slumps-2026-10-06/"
+    },
+    {
+     "t": "일은 사토 위원, 추가 금리 인상 지지 시사…교도통신",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/bojs-sato-signals-support-future-rate-hikes-kyodo-reports-2026-10-06/"
+    },
+    {
+     "t": "일본, 재해 복구용 추가경정예산 또 검토…요미우리",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/japan-considers-another-extra-budget-disaster-relief-yomiuri-says-2026-10-06/"
+    },
+    {
+     "t": "연준, 공동 개입서 재무부 자금으로 엔화 지지",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-used-treasury-funds-to-support-yen-in-joint-intervention"
+    },
+    {
+     "t": "일본 30년물 국채 입찰, 높은 금리에 수요 견조",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/japan-30-year-bond-sale-sees-firmer-demand-than-12-month-average-muyzkqpv"
+    },
+    {
+     "t": "도쿄금융거래소, 일은 정책 변화 빨라지자 새 금리 선물 상장",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/tokyo-financial-exchange-launches-new-boj-rate-futures-policy-shifts-accelerate-2026-10-08/"
+    },
+    {
+     "t": "리플레이션 이미지 벗으려는 다카이치 총리, 실체가 필요",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/japanese-pm-takaichis-campaign-shed-reflationist-image-needs-substance-behind-2026-10-08/"
+    },
+    {
+     "t": "일본은행, 인플레이션 압력 확산 진단",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/bank-japan-sees-broadening-inflationary-pressure-2026-10-08/"
+    },
+    {
+     "t": "일본 가계지출, 임금 상승에도 또 감소",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/japan-s-household-spending-falls-again-despite-wage-gains"
+    },
+    {
+     "t": "일본 가계지출 전년 대비 9개월 연속 감소",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/japanese-annual-household-spending-drops-9-straight-months-2026-10-08/"
+    },
+    {
+     "t": "IMF, 우에다 일은 총재를 11월 6일 연설에 초청",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/imf-invites-boj-chief-ueda-speak-november-6-2026-10-08/"
+    },
+    {
+     "t": "일본, 재원 찾기 위해 DOGE식 지출 점검 재가동…다카이치 공약",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/"
+    },
+    {
+     "t": "일본 총리 '엔화·물가 움직임 계속 주의 깊게 지켜볼 것'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/japan-pm-vows-keep-watching-yen-inflation-moves-carefully-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C041",
+   "attachTo": "n-tg-0197",
+   "title": "우크라 드론, 살라바트 이어 러시아 최대 정유소·얀덱스 데이터센터 타격",
+   "one": "우크라이나 드론이 가스프롬 살라바트 정유단지에 이어 러시아 최대 정유소와 얀덱스 데이터센터까지 공격하면서, 러시아 디젤 수출이 줄어든 가운데 석유제품 공급 차질과 기반시설 피해가 넓어지고 있다",
+   "facts": [
+    "무엇이: 우크라이나가 10월 8일 러시아 최대 정유소를 타격했다고 밝혔다 [제목]",
+    "얀덱스: 랴잔주 사소보 데이터센터가 드론 공격으로 불이 나 가동을 멈췄고, 러시아 데이터 거점에 대한 첫 대형 공격이다 [사실]",
+    "규모: 러시아 국방부는 하룻밤 사이 18개 지역에서 드론 399대를 격추했다고 밝혔다 [사실]",
+    "수출: 러시아 석유제품 수출은 늘었지만 디젤 선적은 급감했다 [제목]",
+    "한국: 우크라이나 측 보도와 달리 한국 정부는 러시아 연료난을 덜어줬다는 주장을 부인했다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "얀덱스 데이터센터 피해와 드론 399대는 검색 결과 요약(CNBC·NBC·모스크바타임스)으로 확인. '최대 정유소'가 옴스크인지는 목격자 증언뿐이라 확인 못 함. 수출 통계와 한국 부인은 제목 기준",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-10-08",
+     "u": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+    },
+    {
+     "o": "The Moscow Times",
+     "d": "2026-10-08",
+     "u": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/"
+    },
+    {
+     "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+    },
+    {
+     "t": "우크라이나 '러시아 최대 정유소 타격'",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/ukraine-says-it-hit-russias-largest-oil-refinery-2026-10-08/"
+    },
+    {
+     "t": "드론, 얀덱스 데이터센터 타격…러시아 데이터 거점에 첫 대형 공격",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C054",
+   "attachTo": "",
+   "title": "토픽스 사상 최대 개편에 683개 종목 퇴출…일본 IPO는 14년 만의 최저",
+   "one": "일본거래소그룹이 토픽스 구성 종목 약 683개를 빼는 사상 최대 개편을 발표하고 1~9월 신규 상장이 32건으로 2012년 이후 최저로 줄면서, 퇴출 종목은 패시브 자금 매도 압력을 받게 되고 채권 발행 호황에 글로벌 은행들은 일본 채권 인력을 늘리고 있다",
+   "facts": [
+    "무엇이: 일본거래소그룹이 10월 7일 토픽스 사상 최대 개편을 발표해 약 683개 종목을 빼고 35개를 새로 넣기로 했으며 10월 30일부터 적용한다 [사실]",
+    "퇴출 방식: 제외 종목의 비중은 2028년 7월까지 분기마다 줄어들고, 지수를 따르는 패시브 자금은 약 166조 엔이다 [사실]",
+    "IPO: 1~9월 신규 상장이 32건으로 같은 기간 기준 2012년 이후 가장 적었고, AI 관련 기업 상장이 부족한 점이 원인으로 꼽혔다 [사실]",
+    "채권: 회사채 발행 호황에 글로벌 은행들이 일본 채권 인력을 늘리고 있다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "토픽스 개편 규모·시행일과 IPO 건수는 검색 결과 요약(재팬타임스)으로 확인. 'IPO 자금 14년 만의 최저'는 제목 기준이며 검색 요약엔 조달액이 4년 만의 최저로 나와 엇갈림. 채권 인력 보강은 제목 기준",
+   "src": [
+    {
+     "o": "The Japan Times",
+     "d": "2026-10-07",
+     "u": "https://www.japantimes.co.jp/business/2026/10/07/topix-revamp-cull-stocks/"
+    },
+    {
+     "o": "The Japan Times",
+     "d": "2026-10-09",
+     "u": "https://www.japantimes.co.jp/business/2026/10/09/companies/japan-ipo-fundraising-low/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "일본 지수, 투자자 유치 위해 수백 개 종목 퇴출…토픽스 사상 최대 개편",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/topix-s-biggest-ever-revamp-to-cull-hundreds-of-japanese-stocks"
+    },
+    {
+     "t": "채권 발행 호황에 글로벌 은행들 일본 채권팀 보강",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/global-banks-bolster-japan-debt-teams-as-bond-issuance-booms"
+    },
+    {
+     "t": "일본 거래 가뭄에 IPO 조달액 14년 만의 최저",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/japan-deal-drought-cuts-ipo-fundraising-to-lowest-in-14-years"
+    }
+   ]
+  },
+  {
+   "cid": "C070",
+   "attachTo": "",
+   "title": "그리어 '캐나다에 입장 고수'…공화당 로저스도 관세전쟁 중단 요구",
+   "one": "그리어 USTR이 캐나다와의 무역 협상에서 미국 입장을 바꾸지 않겠다고 밝히고 미시간 공화당 상원 후보 로저스가 관세전쟁 중단을 요구하면서, 협상 교착 속에 카니 총리는 미국 관세를 계기로 송유관 등 자국 투자 사업을 서두르고 있다",
+   "facts": [
+    "무엇이: 그리어 USTR이 10월 8일 CNBC 인터뷰에서 캐나다와의 무역 입장을 고수하고 있으며 퀘벡 선거가 오타와를 붙잡고 있다고 말했다 [사실]",
+    "미 정치권: 미시간 상원 공화당 후보 마이크 로저스가 10월 7일 광고에서 '캐나다는 적이 아니다, 관세전쟁을 끝내야 한다'고 했다 [사실]",
+    "관세: 트럼프 행정부는 약 200억 달러어치 캐나다산 제품에 50% 관세를 매기고 있다 [사실]",
+    "캐나다: 카니 총리가 미국 관세를 계기로 송유관과 투자 사업 승인을 서두르고 있다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "그리어 발언, 로저스 광고, 50% 관세는 검색 결과 요약(Globe and Mail·Detroit News·The Hill)으로 확인. 카니 총리의 송유관 신속 추진은 제목 기준",
+   "src": [
+    {
+     "o": "The Globe and Mail",
+     "d": "2026-10-08",
+     "u": "https://www.theglobeandmail.com/business/article-us-trade-stance-with-canada-jamieson-greer/"
+    },
+    {
+     "o": "The Detroit News",
+     "d": "2026-10-07",
+     "u": "https://www.detroitnews.com/story/news/politics/2026/10/07/trump-trade-war-canada-tariffs-mike-rogers-abdul-el-sayed-michigan-senate-race/92133762007/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "트럼프 관세 덕에 카니, 캐나다 송유관·투자 추진 가속",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push"
+    },
+    {
+     "t": "미시간 공화당 로저스, 트럼프와 달리 캐나다 관세 싸움 중단 촉구",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/us/michigan-republican-rogers-calls-end-canada-tariff-fight-breaking-with-trump-2026-10-07/"
+    },
+    {
+     "t": "그리어 USTR '캐나다와 무역 입장 고수'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C081",
+   "attachTo": "",
+   "title": "PAG, 헝다 물업 지분 인수 위해 청산인과 독점 협상",
+   "one": "사모펀드 PAG가 헝다 청산인과 자회사 헝다물업 지배지분 인수를 위한 독점 협상에 들어가면서, 6월 광둥성여유그룹과의 협상이 깨진 뒤 멈췄던 헝다 핵심 자산 매각이 다시 진행되고 있다",
+   "facts": [
+    "무엇이: PAG가 헝다 청산인과 헝다물업(Evergrande Property Services) 지배지분 인수를 놓고 독점 협상 중이라는 보도가 나왔다 [사실]",
+    "경과: 청산인은 4월 광둥성여유그룹과 51.016% 지분 독점 협상에 들어갔으나 6월 무산됐고, 당시 주가가 약 23.5% 떨어졌다 [사실]",
+    "다른 후보: 9월에는 PAG·워버그핀커스·트러스타캐피털이 새 인수 제안을 검토한다고 보도됐다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "PAG 독점 협상은 AASTOCKS(블룸버그 인용) 검색 결과로만 확인, 인수 가격·지분 규모는 확인 못 함. 이전 협상 경과는 검색 결과 요약(차이신·The Standard)으로 확인",
+   "src": [
+    {
+     "o": "AASTOCKS",
+     "d": "2026-10-09",
+     "u": "https://www.aastocks.com/en/stocks/news/aafn-con/now.1548491/latest-news"
+    },
+    {
+     "o": "Caixin Global",
+     "d": "2026-06-26",
+     "u": "https://www.caixinglobal.com/2026-06-26/evergrande-property-services-stake-sale-collapses-sending-shares-down-24-102457689.html"
+    }
+   ],
+   "inds": [
+    "realestate"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "PAG, 헝다 자회사 놓고 청산인과 독점 협상 중",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/pag-said-in-exclusive-talks-with-liquidators-for-evergrande-unit"
+    },
+    {
+     "t": "PAG, 헝다 자회사 두고 청산인과 독점 협상…블룸버그 보도",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/pag-said-exclusive-talks-with-liquidators-evergrande-unit-bloomberg-news-reports-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C092",
+   "attachTo": "",
+   "title": "미 대형은행 3분기 이익 최대 20% 증가 예상…금리 급등·딜 전망이 관건",
+   "one": "미 대형은행들이 다음 주 3분기 실적 발표를 앞두고 투자은행·트레이딩 호조로 이익이 전년보다 최대 20% 늘 것으로 예상되지만, 최근 국채금리 급등이 인수합병과 대출 증가를 누르고 조달 비용을 높일 수 있어 투자자들이 2027년 전망을 주시하고 있다",
+   "facts": [
+    "무엇이: 미 최대 은행들의 3분기 이익이 투자은행·트레이딩 수입 증가로 전년 대비 최대 20% 늘 것으로 예상된다 [미확인]",
+    "위험: 최근 국채금리 급등이 딜 활동과 대출 증가를 억누르고 조달 비용을 올릴 수 있다 [미확인]",
+    "일정: JP모건은 10월 13일 실적을 발표한다 [사실]",
+    "2027년: 보너스, AI, 고용이 2027년 전망을 좌우할 변수로 꼽힌다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "이익 최대 20% 증가 예상과 금리 위험은 로이터 기사의 검색 결과 요약으로만 봤고 독립 출처는 못 찾음. JP모건 10월 13일 발표는 Alphastreet 검색 결과로 확인. 2027년 변수는 제목 기준",
+   "src": [
+    {
+     "o": "Alphastreet",
+     "d": "2026-10",
+     "u": "https://news.alphastreet.com/jpmorgan-chase-q3-2026-earnings-preview-october-13-street-expects-5-93-eps/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미 은행 투자자들, 3분기 실적서 고금리 영향·딜 전망 주목",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/us-bank-investors-focus-impact-higher-rates-deals-outlook-q3-earnings-2026-10-08/"
+    },
+    {
+     "t": "은행 실적 주간 앞두고 보너스·AI·고용이 2027년 전망 좌우",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/bonuses-ai-and-jobs-color-2027-outlook-ahead-of-bank-earnings-week"
+    }
+   ]
+  },
+  {
+   "cid": "C103",
+   "attachTo": "",
+   "title": "중동발 유가 충격에 아시아 전기차 전환 가속…필리핀 판매 2배, 파키스탄 목표 앞당겨",
+   "one": "중동 전쟁 이후 휘발유·경유값이 급등하면서 필리핀의 1~7월 전기차 판매가 3만8천여 대로 2배 넘게 늘고 파키스탄은 2030년 전기차 30% 목표를 앞당길 수 있다고 밝혀, 고유가가 신흥 아시아의 전기차·전기 이륜차 수요를 끌어올리고 있다",
+   "facts": [
+    "무엇이: 필리핀 1~7월 전기차 판매가 3만8,286대로 2배 넘게 늘었지만 전체 차량 판매는 10.2% 줄었다 [사실]",
+    "파키스탄: 2월 중동 전쟁 이후 휘발유값이 54%, 경유값이 43% 올라 전기차 투자 회수 기간이 1~1.5년으로 줄었다고 정부 자문관이 밝혔다 [사실]",
+    "목표: 파키스탄은 2030년 신차 판매의 30%를 전기차로 채우는 목표를 예정보다 빨리 달성할 수 있다고 본다 [사실]",
+    "한계: 두 나라 모두 대도시 밖 충전 인프라가 부족하다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "필리핀 판매 수치(CAMPI·TMA)와 파키스탄 연료값·목표는 검색 결과 요약(닛케이 아시아·Business Recorder)으로 확인. 파키스탄 수치는 정부 측 주장",
+   "src": [
+    {
+     "o": "Nikkei Asia",
+     "d": "2026-10",
+     "u": "https://asia.nikkei.com/business/automobiles/electric-vehicles/philippine-ev-sales-surge-as-fuel-shock-drives-shift-from-gasoline"
+    },
+    {
+     "o": "Business Recorder",
+     "d": "2026-10-08",
+     "u": "https://www.brecorder.com/news/40443265/pakistan-expects-early-ev-target-amid-oil-price-surge-report"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "파키스탄 '중동 유가 충격이 전기차 전환 가속'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/pakistan-says-middle-east-oil-shock-is-accelerating-ev-shift"
+    },
+    {
+     "t": "높은 휘발유값에 필리핀 전기차 판매 급증",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/high-gasoline-prices-drive-ev-sales-surge-philippines-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C114",
+   "attachTo": "",
+   "title": "머크 피하주사형 키트루다, 할로자임 특허 소송 패소로 유럽 8개국 판매 금지",
+   "one": "네덜란드 특허법원이 할로자임의 특허 침해 주장을 받아들여 머크의 피하주사형 키트루다 제조·판매를 유럽 8개국에서 금지하면서, 정맥주사형만 남게 된 해당 국가에서 머크의 피하주사 제품 출시가 막혔다",
+   "facts": [
+    "무엇이: 헤이그 특허법원이 머크가 할로자임의 MDASE 특허(EP622)를 침해했다고 판단해 피하주사형 키트루다의 제조·판매 금지를 명령했다 [사실]",
+    "범위: 벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드 8개국이며, 정맥주사형 키트루다는 해당되지 않는다 [사실]",
+    "대응: 머크는 판결에 강하게 반대한다며 다투겠다고 했다 [사실]",
+    "다른 소송: 할로자임은 독일에서 2025년 12월 가처분을 얻었고, 미국 뉴저지에서도 15개 특허 침해를 주장하고 있다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "판결 내용·대상국·머크 반응은 검색 결과 요약(할로자임 IR·Fierce Pharma)으로 확인. 항소 여부는 확인 못 함",
+   "src": [
+    {
+     "o": "Halozyme IR",
+     "d": "2026-10-07",
+     "u": "https://ir.halozyme.com/news/news-details/2026/Halozyme-Wins-Injunction-Stopping-Manufacture-and-Sale-of-Mercks-Keytruda-SC-in-Multiple-European-Markets/default.aspx"
+    },
+    {
+     "o": "Fierce Pharma",
+     "d": "2026-10-07",
+     "u": "https://www.fiercepharma.com/pharma/halozyme-stymies-subq-keytruda-launch-select-european-countries-merck-vows-fight-patent"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "머크 새 키트루다 주사제, 법원 패소로 유럽서 판매 차단",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/merck-s-new-keytruda-shot-blocked-in-europe-after-court-loss"
+    },
+    {
+     "t": "할로자임, 일부 유럽 시장서 머크 주사형 키트루다 차단 명령 얻어",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/litigation/halozyme-wins-court-order-block-mercks-injected-keytruda-select-european-markets-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C124",
+   "attachTo": "",
+   "title": "노르웨이 2027년 예산, 국부펀드서 6084억 크로네 인출…20년 만의 최대 소득세 감세",
+   "one": "노르웨이 정부가 2027년 예산안에서 국부펀드 인출액을 6084억 크로네(약 636억 달러)로 늘리고 64억 크로네 규모의 20년 만의 최대 소득세 감세를 내놓으면서, 재정 의존도를 줄이라는 OECD·IMF 권고와 달리 펀드 지출 비중이 펀드 가치의 2.7%로 유지된다",
+   "facts": [
+    "무엇이: 노르웨이 정부가 10월 7일 2027년 예산안에서 국부펀드 인출액을 6084억 크로네로 제시했다(2026년 수정치 5834억 크로네) [사실]",
+    "비중: 인출액은 펀드 가치의 2.7%로, 실질 기준으로는 거의 같은 수준이다 [사실]",
+    "감세: 국민보험 기여율을 7.6%에서 7.4%로 낮추는 등 64억 크로네 규모로 20년 만의 최대 소득세 감세다 [사실]",
+    "정치: 소수 노동당 정부는 4개 정당과 예산 통과를 협상해야 한다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "인출액·비중·감세 규모는 검색 결과 요약(노르웨이 정부·The Local·aawsat)으로 확인",
+   "src": [
+    {
+     "o": "노르웨이 정부",
+     "d": "2026-10-07",
+     "u": "https://www.regjeringen.no/en/whats-new/a-responsible-budget-that-keeps-norway-secure-in-uncertain-times/id3174614/"
+    },
+    {
+     "o": "The Local Norway",
+     "d": "2026-10-07",
+     "u": "https://www.thelocal.no/20261007/what-norways-proposed-2027-budget-could-mean-for-you"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal"
+   ],
+   "items": [
+    {
+     "t": "노르웨이, 20년 만의 최대 소득세 감세 추진",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/norway-seeks-to-keep-wealth-fund-spending-steady-in-2027-budget"
+    },
+    {
+     "t": "노르웨이, 2027년 국부펀드에서 636억 달러 지출 계획",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/norway-plans-spend-636-billion-wealth-fund-2027-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C134",
+   "attachTo": "",
+   "title": "에어버스 9월 72대 인도…연 870대 목표엔 4분기 323대 필요",
+   "one": "에어버스가 9월 72대를 인도해 1~9월 누적 547대로 8% 늘었지만 연간 목표 약 870대를 맞추려면 4분기에 323대를 인도해야 하고, 비만방글라데시항공은 A350·A321neo 10대를 처음 주문했다",
+   "facts": [
+    "무엇이: 에어버스가 10월 8일 9월 인도량 72대를 확인했으며, 1~9월 누적은 547대로 전년보다 8% 많다 [사실]",
+    "목표: 연간 약 870대 목표를 채우려면 4분기에 약 323대가 필요하고, 1~9월 월평균은 61대였다 [사실]",
+    "수주: 비만방글라데시항공이 A350-900 4대와 A321neo 6대를 확정 주문했으며, 에어버스로부터의 첫 주문이다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "인도량·목표·주문 내역은 검색 결과 요약(Air Data News·AeroTime·AviTrader)으로 확인. 주문 금액과 인도 시점은 공개되지 않음",
+   "src": [
+    {
+     "o": "Air Data News",
+     "d": "2026-10-08",
+     "u": "https://www.airdatanews.com/airbus-delivers-72-jets-in-september-as-order-backlog-falls-by-58-aircraft/"
+    },
+    {
+     "o": "AeroTime",
+     "d": "2026-10-07",
+     "u": "https://www.aerotime.aero/articles/biman-bangladesh-places-firm-order-for-10-airbus-jets"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "에어버스 '비만방글라데시항공, 10대 주문 확정'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/aerospace-defense/airbus-says-biman-bangladesh-confirms-order-10-jets-2026-10-07/"
+    },
+    {
+     "t": "에어버스, 9월 항공기 72대 인도 확인",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/aerospace-defense/airbus-confirms-72-jet-deliveries-september-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C144",
+   "attachTo": "",
+   "title": "에티오피아·에리트레아 단교·충돌 위기…홍해 해운에 또 다른 위협",
+   "one": "에티오피아가 10월 1일 에리트레아와 외교 관계가 끊긴 뒤 아브 총리가 아사브 항구를 포함한 홍해 접근을 요구하며 무력도 배제하지 않으면서, 후티 반군 공격에 이어 홍해 해운에 새로운 위험 요인이 생기고 있다",
+   "facts": [
+    "무엇이: 에티오피아가 아스마라 대사관을 닫고 에리트레아 외교관 10명을 추방하자 에리트레아가 10월 1일 모든 관계를 끊었다 [사실]",
+    "요구: 아비 총리는 10월 5일 취임하며 홍해 항구 확보를 다짐했고, 아사브 장악을 포함한 무력 사용을 배제하지 않았다 [사실]",
+    "진영: 이집트·에리트레아·수단·소말리아가 10월 4일 홍해 관리는 연안국 몫이라고 밝혀 에티오피아에 맞섰다 [사실]",
+    "해운: 실제 상선 운항 차질 보도는 아직 없다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "단교·아비 총리 발언·4개국 회의는 검색 결과 요약(알자지라·Critical Threats)으로 확인. 해운 영향은 분석가 전망 수준",
+   "src": [
+    {
+     "o": "Al Jazeera",
+     "d": "2026-10-05",
+     "u": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+    },
+    {
+     "o": "Critical Threats",
+     "d": "2026-10-08",
+     "u": "https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "에티오피아·에리트레아 긴장이 홍해 해운에 또 다른 위협인 이유",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/why-ethiopia-eritrea-tensions-pose-another-threat-to-red-sea-shipping"
+    }
+   ]
+  },
+  {
+   "cid": "C151",
+   "attachTo": "",
+   "title": "휴매나, 최대 메디케어 계약 별점 4개로 상향…주가 급등",
+   "one": "미 메디케어 당국이 휴매나 최대 메디케어 어드밴티지 계약(가입자 약 240만 명)의 2027년 별점을 3.5개에서 4개로 올리면서, 품질 보너스 지급 기준을 넘어 2028년 매출이 늘 수 있다는 기대에 주가가 장외에서 13% 안팎 뛰었다",
+   "facts": [
+    "무엇이: CMS가 휴매나 계약 H5216의 2027년 별점을 3.5개에서 4개로 올렸다 [사실]",
+    "의미: 별점 4개 이상이면 품질 보너스를 받아 연방 지원금이 늘며, 이번 등급은 주로 2028년 지급액에 반영된다 [사실]",
+    "주가: 10월 8일 장외에서 약 13% 올랐다 [사실]",
+    "한계: 휴매나 전체 가입자 중 별점 4개 이상 계약 가입 비율은 약 20%로 2024년 이전 94%에 크게 못 미친다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "등급 변경·가입자 수·보너스 기준·주가는 검색 결과 요약(Seeking Alpha·GuruFocus)으로 확인. 주가 상승률은 매체별로 12.6~16.5%로 엇갈림",
+   "src": [
+    {
+     "o": "Seeking Alpha",
+     "d": "2026-10-08",
+     "u": "https://seekingalpha.com/news/4651598-humana-surges-post-market-boost-2027-medicare-advantage-star-ratings"
+    },
+    {
+     "o": "GuruFocus",
+     "d": "2026-10-08",
+     "u": "https://www.gurufocus.com/news/9116346/humana-hum-shares-surge-after-medicare-advantage-plan-upgrade-to-4-stars"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "새 메디케어 등급에 매출 증가 기대…휴매나 급등",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/humana-surges-on-medicare-quality-ratings-improvement"
+    }
+   ]
+  },
+  {
+   "cid": "C161",
+   "attachTo": "",
+   "title": "CBO 국장 '성장만으로 미 부채 안정 어려워…5~6% 성장 필요'",
+   "one": "스와겔 미 의회예산국장이 금리 4~5%를 전제하면 성장만으로 부채를 안정시키려면 5~6%의 경제성장이 필요하다고 밝히면서, 베센트 재무장관의 성장 중심 재정 전략에 의문을 던지고 재정 방향이 장기적으로 국채금리를 밀어 올릴 수 있다고 경고했다",
+   "facts": [
+    "무엇이: 필립 스와겔 CBO 국장이 10월 8일 성장만으로 부채를 안정시키려면 GDP가 5~6% 늘어야 한다고 말했다 [사실]",
+    "전제: 이 추정은 금리 4~5%를 가정한 것이다 [사실]",
+    "금리: 지금은 부채 우려가 국채금리에 큰 영향을 주지 않지만 재정 방향이 시간이 지나며 금리 상승 압력이 될 수 있다고 했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "발언 내용은 검색 결과 요약(Newsquawk·Saxo·Bloomingbit)으로 확인. 베센트 장관 반응은 확인 못 함",
+   "src": [
+    {
+     "o": "Newsquawk",
+     "d": "2026-10-08",
+     "u": "https://www.newsquawk.com/headlines/cbo-director-swagel-says-growth-estimates-for-debt-stabilisation-assume-4-5-rates-and-"
+    },
+    {
+     "o": "Saxo",
+     "d": "2026-10-09",
+     "u": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take--9-october-2026-09102026"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/rates"
+   ],
+   "items": [
+    {
+     "t": "CBO 국장 '성장으로 미 부채 해결하는 방안은 통하기 어려워'",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+    }
+   ]
+  },
+  {
+   "cid": "C171",
+   "attachTo": "",
+   "title": "엑스박스, 영화·TV·굿즈 맡는 'XP' 사업부 신설",
+   "one": "마이크로소프트 엑스박스가 게임 IP를 영화·TV·상품·테마파크로 넓히는 XP 사업부를 새로 만들면서, 올해 인력 약 20%를 줄인 뒤 콜오브듀티 영화와 디아블로 애니메이션 등으로 게임 밖 매출원을 키우려 하고 있다",
+   "facts": [
+    "무엇이: 엑스박스가 10월 8일 영화·TV, 라이선스·상품, 제휴, 현장 체험을 맡는 XP 사업부를 신설했다 [사실]",
+    "인사: 모장 스튜디오 사장이던 케일린 월터스가 XP 사장을 맡아 아샤 샤르마 엑스박스 CEO에게 보고한다 [사실]",
+    "작품: 넷플릭스용 디아블로 애니메이션, 콜오브듀티 영화가 포함된다 [사실]",
+    "배경: 엑스박스는 올해 인력 약 20%를 줄이고 4개 개발 스튜디오를 분사했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "사업부 구성·인사·작품·구조조정은 검색 결과 요약(Variety·Quartz·Gizmodo)으로 확인",
+   "src": [
+    {
+     "o": "Variety",
+     "d": "2026-10-08",
+     "u": "https://variety.com/2026/tv/news/xbox-xp-film-tv-products-experiences-division-kayleen-walters-1236904912/"
+    },
+    {
+     "o": "Gizmodo",
+     "d": "2026-10-08",
+     "u": "https://gizmodo.com/xbox-launches-new-division-to-turn-its-games-into-movies-tv-shows-and-toys-2000823550"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "엑스박스, 새 사업부로 영화·TV 야심 확대",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/microsoft-expands-xbox-s-movie-tv-ambitions-with-new-division"
+    }
+   ]
+  },
+  {
+   "cid": "C181",
+   "attachTo": "",
+   "title": "핼러도어, 메롬 석탄발전소 전력 6.9억 달러 6년 계약…선도 판매 30억 달러",
+   "one": "핼러도어가 인디애나 메롬 석탄발전소의 용량 225MW와 전력을 2029~2035년 한 전력회사에 파는 약 6억9천만 달러 계약을 맺으면서, 메롬 용량의 약 95%가 2035년까지 팔려 기존 석탄발전 설비의 장기 수익이 확보됐다",
+   "facts": [
+    "무엇이: 핼러도어 자회사가 10월 7일 MISO 6구역의 투자등급 전력회사와 2029년 6월~2035년 5월 메롬 발전소 전력·용량 계약을 맺었다 [사실]",
+    "규모: 용량 수입 약 2억7,100만 달러와 선도 전력가 기준 전력 수입 약 4억2,200만 달러이며, 연평균 225MW 용량을 판다 [사실]",
+    "판매 현황: 메롬 인증 용량의 약 95%가 2035년까지 계약됐고 부문 선도 판매액은 약 30억 달러다 [사실]",
+    "상대방: 회사는 이름을 밝히지 않았고 일부 매체가 듀크에너지 인디애나로 보도했다 [미확인]"
+   ],
+   "basis": "verified",
+   "check": "계약 기간·금액·용량은 검색 결과 요약(StockTitan·Benzinga 회사 발표)으로 확인. 계약 상대 전력회사 이름은 확인 못 함",
+   "src": [
+    {
+     "o": "StockTitan(회사 발표)",
+     "d": "2026-10-07",
+     "u": "https://www.stocktitan.net/news/HNRG/hallador-executes-700m-sale-record-price-lifts-forward-sales-to-3-413n6id2qo74.html"
+    },
+    {
+     "o": "Benzinga",
+     "d": "2026-10-07",
+     "u": "https://www.benzinga.com/markets/small-cap/26/10/62256058/hallador-energy-secures-record-capacity-pricing-for-merom-station-boosts-sales-book-to-3-billion"
+    }
+   ],
+   "inds": [
+    "coal",
+    "power"
+   ],
+   "nodes": [
+    "coal/power",
+    "power/market"
+   ],
+   "items": [
+    {
+     "t": "핼러도어, 인디애나 전력회사와 6억9,300만 달러 전력 계약",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/hallador-signs-711-million-power-deal-with-indiana-utility"
+    }
+   ]
+  },
+  {
+   "cid": "C191",
+   "attachTo": "",
+   "title": "AMC, 39.7억 달러 차입금 재조달 마무리…만기 2031·2033년으로",
+   "one": "AMC엔터테인먼트가 도이체방크 특수상황그룹의 11억2천만 달러 2순위 대출을 포함한 39억7천만 달러 재조달을 마치면서, 부채의 약 97% 만기가 2031년과 2033년으로 밀려 당분간 만기 압박을 덜었다",
+   "facts": [
+    "무엇이: AMC가 10월 5일 기존 부채 39억7천만 달러의 재조달을 마무리했다 [사실]",
+    "구성: 2031년 만기 1순위 채권 20억 달러, 1순위 신규 대출 8억5천만 달러, 도이체방크 특수상황그룹의 2순위 대출 11억2천만 달러 [사실]",
+    "만기: 부채의 약 97%가 2031년 10월과 2033년 10월 만기로 늦춰졌다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "재조달 규모·구성·만기는 검색 결과 요약(AMC 발표·Morningstar Business Wire)으로 확인. 채권 금리는 확인 못 함",
+   "src": [
+    {
+     "o": "Business Wire(AMC 발표)",
+     "d": "2026-10-05",
+     "u": "https://www.morningstar.com/news/business-wire/20261005927504/amc-entertainment-holdings-inc-announces-results-of-tender-offer-the-closing-of-first-lien-notes-offering-and-new-term-loan-facilities-totaling-a-397-billion-refinancing-of-existing-debt"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "도이체방크 '카사블랑카 프로젝트'로 AMC 대규모 부채 재조정 마무리",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/deutsche-bank-s-project-casablanca-seals-amc-s-big-debt-revamp"
+    }
+   ]
+  },
+  {
+   "cid": "C201",
+   "attachTo": "",
+   "title": "남아공 경쟁위, 통조림 공장 폐쇄 은폐 이유로 프리미어-RFG 합병 승인 취소 신청",
+   "one": "남아공 경쟁위원회가 프리미어와 RFG가 심사 중 툴바흐 과일 통조림 공장 폐쇄 계획을 숨겼다며 약 60억 랜드 규모 합병 승인 취소를 신청하면서, 받아들여지면 프리미어가 RFG 인수를 되돌리거나 자산을 팔아야 할 수 있다",
+   "facts": [
+    "무엇이: 경쟁위원회가 경쟁법 16조 3항에 따라 경쟁심판소에 프리미어의 RFG 인수 승인 취소를 신청했다 [사실]",
+    "이유: 두 회사가 공장 폐쇄·통합 계획이 없다고 했지만 RFG의 툴바흐 과일 통조림 공장 폐쇄 계획을 알리지 않았다는 것이다 [사실]",
+    "영향: 이 공장은 남아공 두 곳뿐인 과일 통조림 공장 중 하나로, 400명 넘는 직원이 일한다 [사실]",
+    "반론: 프리미어는 폐쇄가 세계 과일 통조림 업계의 경영난 때문이라며 반박했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "신청 내용·공장·프리미어 반론은 검색 결과 요약(BusinessDay·Bowmans·EWN)으로 확인. 거래 규모는 매체별 56억~65억 랜드로 엇갈림",
+   "src": [
+    {
+     "o": "BusinessDay",
+     "d": "2026-10-07",
+     "u": "https://www.businessday.co.za/companies/2026-10-07-why-the-competition-watchdog-wants-r6bn-premier-rfg-merger-revoked/"
+    },
+    {
+     "o": "Bowmans",
+     "d": "2026-10",
+     "u": "https://bowmanslaw.com/insights/south-africa-competition-commission-seeks-revocation-of-merger-approval-in-premier-rfg-transaction/"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "남아공 경쟁당국, 프리미어-RFG 거래 승인 취소 추진",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/south-african-antitrust-body-seeks-to-revoke-premier-rfg-deal"
+    }
+   ]
+  },
+  {
+   "cid": "C211",
+   "attachTo": "",
+   "title": "이재명 대통령, 극초음속 미사일 시험 발사 참관",
+   "one": "이재명 대통령이 극초음속 미사일 시험 발사를 직접 참관하면서, 한국이 개발 중인 극초음속 무기의 시험 단계가 공개적으로 확인됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 이재명 대통령이 극초음속 미사일 시험 발사를 참관했다 [제목]",
+    "의미: 국산 극초음속 무기 개발이 시험 발사 단계에 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 시험 일시·미사일 이름·사거리 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "한국 이재명 대통령, 극초음속 미사일 시험 발사 참관",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-oversees-test-fire-hypersonic-missile-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C221",
+   "attachTo": "",
+   "title": "RTX 레이시온, 대규모 미국 미사일 계약 따내",
+   "one": "RTX 자회사 레이시온이 미국 정부의 대규모 미사일 계약을 따내면서, 미 국방부의 미사일 조달이 레이시온의 수주 잔고를 늘리게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 레이시온이 미국 미사일 계약을 수주했다 [제목]",
+    "규모: 원문 주소에 '최대 63'억(또는 630억) 달러로 적혀 있으나 정확한 금액은 확인 못 했다 [미확인]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 계약 금액(주소의 'up 63 billion'이 63억인지 630억인지), 미사일 종류 미확인",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "RTX 레이시온, 최대 수십억 달러 규모 미국 미사일 계약 수주",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/aerospace-defense/rtxs-raytheon-wins-up-63-billion-us-missile-contract-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C231",
+   "attachTo": "",
+   "title": "나이지리아, 연료비 변동 줄이려 휘발유 가격 상한제 제안",
+   "one": "나이지리아가 연료비 변동성을 줄이기 위해 휘발유 가격 상한제를 제안하면서, 시행되면 현지 정유·유통업체가 받을 수 있는 휘발유 판매가에 상한이 생길 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 나이지리아가 휘발유 가격 상한제를 제안했다 [제목]",
+    "목적: 연료비 변동성 억제 [제목]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 제안 주체(정부·규제기관), 상한 수준, 시행 시기 미확인",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "나이지리아, 연료비 변동 억제 위해 휘발유 가격 상한제 제안",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/nigeria-proposes-petrol-price-cap-curb-fuel-cost-volatility-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C241",
+   "attachTo": "",
+   "title": "이탈리아 에너지돔, 대규모 자금 유치 막바지 협상…IPO도 열어 둬",
+   "one": "이탈리아 에너지 저장 업체 에너지돔이 대규모 자금 유치를 위한 막바지 협상을 하면서 기업공개 가능성도 열어 둬, 협상이 끝나면 사업 확장 재원을 확보하고 상장 시점을 저울질할 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 에너지돔이 대규모 자금 조달을 위한 협상이 막바지 단계라고 밝혔다 [제목]",
+    "상장: 기업공개 선택지도 열어 두고 있다 [제목]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 조달 규모·투자자·상장 시기 미확인",
+   "src": [],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/storage"
+   ],
+   "items": [
+    {
+     "t": "이탈리아 에너지돔, 대규모 자금 조달 막바지 협상…IPO 가능성 유지",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/italys-energy-dome-advanced-talks-major-funding-keeps-ipo-option-open-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C251",
+   "attachTo": "",
+   "title": "루비오 국무장관 '미국, 지중해 해저 전력 케이블 지지'",
+   "one": "루비오 미 국무장관이 지중해 해저 전력 케이블 사업에 미국이 계속 힘을 싣겠다고 밝히면서, 이 국가 간 송전망 사업이 미국의 외교적 뒷받침을 받게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 루비오 장관이 미국이 지중해 해저 전력 케이블에 전념하고 있다고 말했다 [제목]",
+    "사업: 어느 국가를 잇는 케이블인지는 확인 못 했다 [미확인]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 케이블 사업 이름·연결 국가 미확인",
+   "src": [],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "items": [
+    {
+     "t": "루비오 '미국은 지중해 해저 전력 케이블에 전념'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/rubio-says-us-committed-mediterranean-undersea-power-cable-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C261",
+   "attachTo": "",
+   "title": "가나 코코아위원회, 농가 수매 자금 2억8800만 확보",
+   "one": "가나 코코아 규제기관이 농가에서 코코아를 사들일 자금 2억8,800만(달러 추정)을 확보하면서, 이번 시즌 농가 대상 코코아 수매 대금을 치를 재원이 마련됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 가나 코코아 규제기관이 농가 코코아 수매 자금 2억8,800만을 확보했다 [제목]",
+    "통화: 기사 주소에 통화 단위가 없어 달러인지 확인 못 했다 [미확인]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 통화 단위, 자금 출처(대출 등) 미확인",
+   "src": [],
+   "inds": [
+    "agri"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "가나 코코아 규제기관, 농가 수매용 2억8,800만 확보",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/africa/ghanas-cocoa-regulator-secures-288-million-farmer-purchases-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C281",
+   "attachTo": "",
+   "title": "미 FDA, 노바티스 약 만성 피부질환 적응증 확대",
+   "one": "미 FDA가 노바티스 약의 사용 범위를 만성 피부질환으로 넓히면서, 노바티스가 해당 질환 환자에게도 이 약을 판매할 수 있게 돼 처방 대상이 늘어나게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 미 FDA가 노바티스 약의 만성 피부질환 사용을 승인했다 [제목]",
+    "약 이름: 어떤 약·질환인지는 확인 못 했다 [미확인]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 약 이름과 질환명 미확인",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미 FDA, 노바티스 약의 만성 피부질환 사용 확대",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-expands-use-novartis-drug-chronic-skin-condition-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C291",
+   "attachTo": "",
+   "title": "로사톰, 델로 지분 100% 확보…러시아 최대 물류그룹 탄생",
+   "one": "러시아 국영 원자력기업 로사톰이 물류그룹 델로의 지분을 모두 확보해 러시아 최대 물류그룹을 만들면서, 러시아 항만·컨테이너 운송에서 국영기업의 영향력이 커지게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 로사톰이 델로를 완전히 인수해 러시아 최대 물류그룹을 만들었다 [제목]",
+    "영향: 국영기업 중심의 물류 재편 [추론]"
+   ],
+   "basis": "title",
+   "check": "공용 검색 한도가 소진돼 독립 출처로 확인 못 함. 인수 금액과 기존 지분율 미확인",
+   "src": [],
+   "inds": [
+    "shipping"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "로사톰, 델로 완전 인수…러시아 최대 물류그룹 출범",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/rosatom-takes-full-control-delo-create-russias-biggest-logistics-group-2026-10-07/"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "cid": "C271",
+   "reason": "범위 밖(소송 대상 정책을 제목으로 알 수 없고 검색 한도 소진으로 확인 불가)"
+  }
+ ]
+}

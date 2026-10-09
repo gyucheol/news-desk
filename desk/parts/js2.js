@@ -98,11 +98,20 @@
     if (xs.length === 1) return '<p class="lks1">원문 ' + a(xs[0]) + '</p>';
     return '<details class="lks"><summary>원문 ' + xs.length + '건</summary><ul>' + xs.map(x => '<li>' + a(x) + '</li>').join('') + '</ul></details>';
   }
+  // 이미 다룬 사건의 후속(dupOf)이면 앞선 뉴스의 날짜와 한줄 요약을 함께 보여 줍니다.
+  function prevHtml(n) {
+    if (!n.dupOf) return '';
+    const p = news.find(x => x.id === n.dupOf);
+    if (!p || !(p.one || p.title)) return '<p class="prev">이미 다룬 사건의 후속입니다.</p>';
+    return '<p class="prev"><span class="pk">앞선 뉴스' + (dayOf(p) ? ' · ' + esc(kday(dayOf(p))) : '') + '</span> ' + esc(p.one || p.title) + '</p>';
+  }
+  // 묶음 뉴스의 출처: 기사 출처가 여럿이면 '블룸버그 외 2'
+  const srcLabel = n => { const os = Array.isArray(n.items) ? Array.from(new Set(n.items.map(x => x.o).filter(Boolean))) : []; return os.length > 1 ? os[0] + ' 외 ' + (os.length - 1) : os.length === 1 ? os[0] : srcName(n); };
   function itemHtml(n) {
     const id = esc(n.id), read = isRead(n), again = !!reads[n.id] && !read;
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
-      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
-        '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' + linksHtml(n) +
+      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcLabel(n)) + '</span>' + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
+        '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' + prevHtml(n) + linksHtml(n) +
         '<div class="acts">' + reqBtn(n) +
           '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button></div></div></li>';
   }

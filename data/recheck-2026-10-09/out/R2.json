@@ -1,7 +1,7 @@
 {
  "agent": "R2",
- "searches_used": 12,
- "fetches_used": 0,
+ "searches_used": 16,
+ "fetches_used": 1,
  "docs": [
   {
    "id": "n-rtr-0077",
@@ -288,6 +288,111 @@
     }
    ],
    "note": "'예년 수준 유지' 해석이 틀려 전년 대비 축소로 고침, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0132",
+   "changed": true,
+   "basis": "verified",
+   "title": "사우디, 플라이두바이 여객기 조종실 흉기 사건 항공 안전 조사 착수",
+   "one": "사우디아라비아가 부기장의 추락 시도 의혹이 제기된 이스라엘행 플라이두바이 여객기 조종실 흉기 사건에 대해 항공 안전 조사에 착수하면서, 고의 행위 사건에서 국제 항공사고 조사 협력이 시험대에 오른다",
+   "facts": [
+    "무엇이: 사우디가 9월 30일 플라이두바이 FZ1073편 사건에 대해 국제 규정에 따른 항공 안전 조사를 시작했다고 소식통 3명이 전함 [사실]",
+    "사건: 이스라엘행 여객기에서 부기장이 조종실에서 흉기를 휘둘러 기체를 추락시키려 한 의혹, 탑승객 172명 대부분이 이스라엘인 [사실]",
+    "병행: UAE 검찰총장은 이를 테러로 규정하고 별도 형사 수사 중, 이스라엘은 조사 참여를 요청했으나 아직 초청받지 못함 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. Aero-News Network·Times of Israel이 사우디 조사 착수와 사건 경위를 보도. 사우디 당국의 공식 확인은 없음.",
+   "src_add": [
+    {
+     "o": "Aero-News Network",
+     "d": "2026-10-08",
+     "u": "https://www.aero-news.net/index.cfm?do=main.textpost&id=4DB89546-2F15-4CDC-AE7F-65A22C910818"
+    },
+    {
+     "o": "The Times of Israel",
+     "d": "2026-10-07",
+     "u": "https://www.timesofisrael.com/saudi-arabia-launching-its-own-air-safety-probe-into-flydubai-attack-sources-say/"
+    }
+   ],
+   "note": "사고 내용(조종실 흉기·추락 시도 의혹) 확인해 제목·한줄 고침, 근거 없던 '후티 공격' 맥락 삭제, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0137",
+   "changed": true,
+   "basis": "verified",
+   "title": "웰스파고, 흑인 주택 보유 확대 프로그램 놓고 규제당국 조사",
+   "one": "미국 주택도시개발부(HUD)가 흑인 주택 보유 확대를 내건 웰스파고의 약속이 인종별 차별 대우로 공정대출법을 어겼는지 조사한다고 WSJ가 보도하면서, 인종을 고려한 금융 지원에 대한 감독 압박이 은행권으로 번질 수 있다",
+   "facts": [
+    "무엇이: 미국 주택도시개발부(HUD)가 찰리 샤프 CEO에게 서한을 보내 웰스파고의 흑인 주택 보유 확대 노력을 조사한다고 WSJ가 보도 [사실]",
+    "쟁점: 인종에 따라 다른 상품·조건을 제시해 공정대출법을 어겼는지, 대상은 2017년 흑인 주택 보유자 25만 명 이상 늘리겠다며 600억 달러 대출을 약속한 프로그램 등 [사실]",
+    "범위: HUD는 다른 은행의 비슷한 프로그램도 검토 중, 웰스파고는 논평 거부 [사실]"
+   ],
+   "check": "검색 결과 요약으로 확인. Seeking Alpha·TIPP Insights 등이 WSJ 보도를 인용해 조사 기관(HUD)과 쟁점을 전함. HUD의 공식 확인은 없음.",
+   "src_add": [
+    {
+     "o": "Seeking Alpha",
+     "d": "2026-10-07",
+     "u": "https://seekingalpha.com/news/4651076-wells-fargo-faces-probe-over-allegedly-favoring-black-other-minority-homeownership---report"
+    },
+    {
+     "o": "TIPP Insights",
+     "d": "2026-10-07",
+     "u": "https://tippinsights.com/us-regulator-investigates-wells-fargo-over-race-based-homeownership-programs/"
+    }
+   ],
+   "note": "조사 기관(HUD)·쟁점 추가, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0142",
+   "changed": true,
+   "basis": "verified",
+   "title": "인도 선파마, 비전환 회사채로 최대 1,500억 루피 조달 검토",
+   "one": "인도 선파마슈티컬이 비전환 회사채(NCD) 사모 발행으로 최대 1,500억 루피(약 15억5,000만 달러)를 조달하는 방안을 10월 12일 이사회에서 검토하면서, 차입이 적던 이 회사의 자금 용도에 관심이 쏠리고 있다",
+   "facts": [
+    "무엇이: 선파마 이사회가 10월 12일 비전환 회사채 사모 발행으로 최대 1,500억 루피(약 15억5,000만 달러) 조달을 검토한다고 10월 7일 공시 [사실]",
+    "방식: 상장·신용평가를 받은 무담보 NCD를 1회 이상 나눠 발행할 수 있음, 금리·만기는 미정 [사실]",
+    "용도: 특수의약품·신약 확장 지원이라는 언론 해석이 있으나 회사가 밝힌 용도는 미확인 [미확인]"
+   ],
+   "check": "검색 결과 요약으로 확인. Kotak Neo·Whalesbook이 1만5,000크로르 루피(1,500억 루피) NCD 이사회 검토를 보도. 제목의 155억은 15억5,000만 달러를 잘못 읽은 것.",
+   "src_add": [
+    {
+     "o": "Kotak Neo",
+     "d": "2026-10-08",
+     "u": "https://www.kotakneo.com/news/market-news/sun-pharma-15000-crore-ncd-issue-october-12/"
+    },
+    {
+     "o": "Whalesbook",
+     "d": "2026-10-08",
+     "u": "https://www.whalesbook.com/news/English/bankingfinance/Sun-Pharma-To-Consider-indian-rupee15000-Crore-Debt-Plan-On-Oct-12/6ac66d4e5aacb956d08fa9aa"
+    }
+   ],
+   "note": "금액을 1,500억 루피(약 15억5,000만 달러)로 확정, '최대 제약사·현금 많은' 표현 뺌, 꼬리 뗌"
+  },
+  {
+   "id": "n-rtr-0149",
+   "changed": true,
+   "basis": "verified",
+   "title": "우드매켄지 \"싱가포르, 2035년 녹색전력 수입 목표 못 채울 것\"",
+   "one": "우드매켄지가 싱가포르의 저탄소 전력 수입이 2035년 발전량의 약 15%에 그쳐 수요의 3분의 1(6GW) 목표의 절반 수준에 머물 것으로 전망하면서, 싱가포르의 전력 탈탄소와 역내 해저 송전망 사업이 늦어질 수 있다",
+   "facts": [
+    "무엇이: 우드매켄지가 2026-10-07 보고서에서 싱가포르 저탄소 전력 수입이 2035년 발전량의 약 15%에 그칠 것으로 전망 [사실]",
+    "목표: 싱가포르 에너지시장청(EMA) 목표는 6GW, 예상 수요의 약 3분의 1 [사실]",
+    "원인: 6개 경로 9.25GW가 승인됐으나 착공한 사업이 없고, 인도네시아 수출 허가 갱신 문제와 현지 조달 요건 등이 걸림돌 [사실]",
+    "영향: 싱가포르의 가스발전 의존 지속 가능성 [추론]"
+   ],
+   "check": "우드매켄지 보도자료를 열람해 15% 전망과 6GW·3분의 1 목표를 확인, 원인은 검색 결과 요약으로 확인.",
+   "src_add": [
+    {
+     "o": "Wood Mackenzie",
+     "d": "2026-10-07",
+     "u": "https://www.woodmac.com/press-releases/singapores-9.25-gw-low-carbon-electricity-import-pipeline-outlook"
+    },
+    {
+     "o": "New Straits Times",
+     "d": "2026-10-07",
+     "u": "https://www.nst.com.my/business/economy/2026/10/1550070/singapore-set-miss-2035-green-power-import-target"
+    }
+   ],
+   "note": "목표·전망치·지연 원인 추가, 꼬리 뗌"
   }
  ]
 }

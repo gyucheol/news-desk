@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0227",
+ "num": 227,
+ "key": "mix-C080-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T18:19:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/exxon-blocked-proposal-to-settle-5-billion-kashagan-dispute",
+ "origTitle": "",
+ "headline": "엑손, 카샤간 50억 달러 분쟁 합의안 막아…카자흐 갈등 장기화 우려",
+ "src": [
+  {
+   "o": "World Oil",
+   "d": "2026-07-24",
+   "u": "https://www.worldoil.com/news/2026/7/24/kazakhstan-targets-kashagan-partners-in-dispute-over-5-billion-sulfur-fine/"
+  },
+  {
+   "o": "BOE Report",
+   "d": "2026-07-21",
+   "u": "https://boereport.com/2026/07/21/kazakhstans-disputes-with-oil-majors/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엑손, 50억 달러 카샤간 분쟁 합의안 가로막아",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/exxon-blocked-proposal-to-settle-5-billion-kashagan-dispute"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity"
+ ],
+ "title": "엑손, 카샤간 50억 달러 분쟁 합의안 막아…카자흐 갈등 장기화 우려",
+ "one": "엑손모빌이 카샤간 유전 컨소시엄과 카자흐스탄 정부 사이의 50억 달러 환경 벌금 분쟁을 끝낼 합의안을 막으면서, 벌금 집행과 형사처벌 경고로 압박해 온 카자흐 정부와 서방 석유사의 갈등이 길어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 엑손이 카샤간 50억 달러 분쟁을 끝낼 합의안을 막았습니다 [제목]",
+  "벌금: 아스타나 법원은 과잉 황 저장을 이유로 카샤간 컨소시엄에 2조 3,560억 텡게(약 50억 달러) 벌금을 유지했습니다 [사실]",
+  "압박: 카자흐스탄은 컨소시엄 대표에게 형사처벌 가능성을 경고했고, 국영 카즈무나이가스는 자기 몫 벌금을 내기로 했습니다 [사실]",
+  "연계: 엑손은 카샤간 서부 미개발 구역 합작사업을 카자흐 정부의 청구 해결과 연계해 왔다는 보도가 있었습니다 [사실]"
+ ],
+ "basis": "title",
+ "check": "합의안 거부 자체는 독립 출처로 확인 못 함(자동 생성 요약 페이지만 있음). 벌금·압박 배경은 검색 결과 요약으로 확인"
+}

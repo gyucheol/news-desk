@@ -1,0 +1,152 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "얀덱스 두 번째 데이터센터(칼루가) 피해와 코미 정유소 공격은 모스크바타임스 등 검색 결과 요약으로 확인. 트럼프의 10월 9일 발언은 찾지 못했고 9월 중순 같은 취지 발언만 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 얀덱스는 10월 9일 칼루가주 데이터센터의 여러 모듈이 드론 공격으로 완전히 멈췄다고 밝혔고, 하루 전 랴잔주 데이터센터에 이은 이틀 새 두 번째 피해입니다 [사실]",
+  "정유소: 루코일 볼고그라드 정유소(하루 약 28만 배럴)가 10월 2일 원유 처리를 완전히 멈췄고, 10월 9일에는 코미공화국의 루코일 정유소도 공격받았다는 보도가 나왔습니다 [사실]",
+  "트럼프: 트럼프 대통령은 우크라이나가 러시아 정유시설 공격을 멈춰야 하며 경유 공급 부족은 중동이 아니라 러우전쟁 때문이라고 말했습니다 [채널]",
+  "공습: 우크라이나군은 10월 9일 새벽 이틀 연속 대규모 드론 공습을 벌였습니다 [채널]",
+  "우크라이나: 러시아의 공격에 맞서 우크라이나가 주유소 방호를 강화하고 있습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우크라 드론, 얀덱스 데이터센터 이틀 새 두 곳 타격…트럼프 '러 정유 공격 멈춰야'",
+ "id": "n-tg-0121",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 트릴리온",
+   "t": "러 볼고그라드 정유소 드론 피해로 전면 중단…베네수엘라 카르돈도 화재로 멈춰",
+   "u": "https://t.me/Trillion_labs/10063"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "t": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+   "u": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "우크라이나 '러시아 최대 정유소 타격'",
+   "u": "https://www.reuters.com/business/energy/ukraine-says-it-hit-russias-largest-oil-refinery-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "드론, 얀덱스 데이터센터 타격…러시아 데이터 거점에 첫 대형 공격",
+   "u": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/"
+  },
+  {
+   "t": "우크라이나군, 이틀 연속 러시아에 대규모 드론 공습",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65802"
+  },
+  {
+   "t": "트럼프 '우크라, 러시아 정유시설 공격 멈춰야…경유 부족은 러우전쟁 탓'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63606"
+  },
+  {
+   "t": "우크라이나, 러시아 공격에 대비해 주유소 방호 강화",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/ukraine-fortifies-its-filling-stations-against-russian-attacks-2026-10-09/"
+  },
+  {
+   "t": "러시아 얀덱스 '두 번째 데이터센터도 드론 공격 받아'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/"
+  }
+ ],
+ "key": "tg-Trillion_labs-10063",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "petchem/commodity"
+ ],
+ "num": 121,
+ "one": "우크라이나 드론이 루코일 볼고그라드 정유소를 멈춰 세운 데 이어 이틀 새 얀덱스 데이터센터 두 곳까지 타격하자, 트럼프 대통령이 경유 공급 부족을 이유로 러시아 정유시설 공격 중단을 요구하면서 러시아 석유제품 차질이 외교 쟁점으로 번지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T17:25:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10063"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Meduza",
+   "u": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "The Deep Dive",
+   "u": "https://thedeepdive.ca/gas-line-rupture-idles-venezuelas-cardon-refinery/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Meduza",
+   "u": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Militarnyi",
+   "u": "https://militarnyi.com/en/news/drones-strike-salavat-oil-refinery-in-bashkortostan-fire-erupts/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Moscow Times",
+   "u": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-09",
+   "u": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927"
+  },
+  {
+   "o": "NBC News",
+   "d": "2026-09",
+   "u": "https://www.nbcnews.com/world/ukraine/trump-calls-ukraine-halt-strikes-russian-diesel-fuel-citing-global-sho-rcna597637"
+  }
+ ],
+ "tags": [],
+ "title": "우크라 드론, 얀덱스 데이터센터 이틀 새 두 곳 타격…트럼프 '러 정유 공격 멈춰야'",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://t.me/Trillion_labs/10063"
+}

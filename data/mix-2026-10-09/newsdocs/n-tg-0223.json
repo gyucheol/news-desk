@@ -1,0 +1,59 @@
+{
+ "id": "n-tg-0223",
+ "num": 223,
+ "key": "mix-C048-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:12:00+09:00",
+ "url": "https://t.me/HANAchina/70123",
+ "origTitle": "",
+ "headline": "IDC, 3분기 세계 PC 출하 20.1% 급감한 6,270만 대…연초 선구매 후유증",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-09",
+   "u": "https://t.me/HANAchina/70123"
+  },
+  {
+   "o": "TechPowerUp",
+   "d": "2026-10-08",
+   "u": "https://www.techpowerup.com/353538/pc-shipments-drop-20-1-in-q3-2026-hp-and-dell-hit-hardest"
+  },
+  {
+   "o": "Engadget",
+   "d": "2026-10-08",
+   "u": "https://www.engadget.com/2281788/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IDC '3분기 세계 PC 출하량 전년비 20.1% 감소한 6,270만 대'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-09",
+   "u": "https://t.me/HANAchina/70123"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "title": "IDC, 3분기 세계 PC 출하 20.1% 급감한 6,270만 대…연초 선구매 후유증",
+ "one": "IDC가 3분기 세계 PC 출하량이 6,270만 대로 1년 전보다 20.1% 줄었다고 밝히면서, 연초 가격 인상 전 선구매와 공급 제약으로 수요가 소진돼 HP·델 등 PC 업체 물량이 크게 줄었다",
+ "facts": [
+  "무엇이: IDC 잠정치로 3분기 세계 PC 출하량은 6,270만 대로 전년 대비 20.1%, 전분기 대비 9.1% 줄어 2분기(-3.8%)보다 감소폭이 커졌습니다 [사실]",
+  "원인: 연초 제조사·유통사가 가격 인상에 앞서 재고를 쌓아 수요가 앞당겨졌고 공급 제약과 가격 상승이 겹쳤습니다 [사실]",
+  "업체: HP 30.9%, 델 25%, 레노버 22.6% 감소했고 IDC는 올해 전체 출하 전망을 11.3% 감소로 낮췄습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "출하량·감소율·업체별 수치는 검색 결과 요약으로 확인."
+}

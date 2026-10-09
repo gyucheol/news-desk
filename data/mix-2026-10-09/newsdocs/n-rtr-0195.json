@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0195",
+ "num": 195,
+ "key": "mix-C078-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T18:02:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/world-economic-growth-slow-26-2026-un-trade-body-says-2026-10-09/",
+ "origTitle": "",
+ "headline": "UNCTAD '올해 세계 성장 2.6%로 둔화'…중동 전쟁발 에너지 가격 부담",
+ "src": [
+  {
+   "o": "UNCTAD",
+   "d": "2026-10",
+   "u": "https://unctad.org/news/global-growth-expected-slow-26-through-2026"
+  },
+  {
+   "o": "ua.news(아나돌루)",
+   "d": "2026-10",
+   "u": "https://ua.news/en/world/unctad-ochikuie-upovilnennia-svitovogo-zrostannia-do-2-6-u-2026-rotsi-anadolu-agency"
+  }
+ ],
+ "items": [
+  {
+   "t": "유엔무역개발회의 '2026년 세계 경제 성장 2.6%로 둔화'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/world-economic-growth-slow-26-2026-un-trade-body-says-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "UNCTAD '올해 세계 성장 2.6%로 둔화'…중동 전쟁발 에너지 가격 부담",
+ "one": "유엔무역개발회의가 중동 전쟁에 따른 에너지 가격 상승으로 올해 세계 경제 성장률이 지난해 2.9%에서 2.6%로 낮아질 것으로 보면서, 개도국 성장도 4.7%에서 4%로 둔화할 전망이다",
+ "facts": [
+  "무엇이: UNCTAD가 무역개발보고서 2026에서 올해 세계 성장률을 2.6%로 전망했습니다(2025년 2.9%) [사실]",
+  "원인: 중동 전쟁에 따른 에너지 가격 상승을 둔화 요인으로 꼽았습니다 [사실]",
+  "세부: 개도국 성장은 4.7%에서 4%로 낮아지고, 2027년 세계 성장은 2.7%, 아시아가 올해 세계 성장의 59%를 차지할 전망입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(UNCTAD·아나돌루 보도)으로 확인."
+}

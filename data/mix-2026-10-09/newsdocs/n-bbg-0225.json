@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0225",
+ "num": 225,
+ "key": "mix-C067-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T17:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial",
+ "origTitle": "",
+ "headline": "폴란드 의회 위원회, 글라핀스키 중앙은행 총재 국사재판소 회부 표결 권고",
+ "src": [
+  {
+   "o": "RMF24",
+   "d": "2026-10-09",
+   "u": "https://rmf24.pl/fakty/polska/news-adam-glapinski-przed-trybunal-stanu-komisja-przeglosowala-wn,nIdn,1021168"
+  },
+  {
+   "o": "Super Biznes",
+   "d": "2026-10-09",
+   "u": "https://superbiz.se.pl/wiadomosci/koniec-prac-komisji-glapinski-blizej-trybunalu-stanu-aa-gGYK-mz2a-jCi3.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "폴란드, 중앙은행 총재 국사재판소 회부 표결 추진",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "폴란드 의회 위원회, 글라핀스키 중앙은행 총재 국사재판소 회부 표결 권고",
+ "one": "폴란드 하원 헌법책임위원회가 글라핀스키 중앙은행 총재를 국사재판소에 세우자는 보고서를 채택해 하원 표결을 권고하면서, 현직 중앙은행 총재 기소 절차가 본회의로 넘어가고 가결 요건을 둘러싼 다툼이 이어질 전망이다",
+ "facts": [
+  "무엇이: 하원 헌법책임위원회가 10월 9일 글라핀스키 총재를 국사재판소에 회부하자는 보고서를 채택했고, 혐의는 8가지입니다 [사실]",
+  "혐의: 중앙은행을 통한 최소 1,440억 즐로티 재정적자 간접 지원, 이사회 승인 없는 외환 개입, 선거운동 기간 금리 인하 등이 포함됐습니다 [사실]",
+  "일정: 의원들에게 최소 21일 검토 기간을 줘야 해 하원 표결은 빨라야 10월 말입니다 [사실]",
+  "가결 요건: 연정은 과반을 갖고 있지만 2024년 1월 헌법재판소는 5분의 3(276표)이 필요하다고 봤고 연정은 30표 넘게 모자랍니다 [사실]",
+  "반응: 글라핀스키 총재는 절차가 근거 없다는 입장입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "위원회 보고서 채택·혐의·표결 요건은 RMF24·Super Biznes 등 폴란드 매체 검색 결과 요약으로 확인"
+}

@@ -1,0 +1,160 @@
+{
+ "basis": "verified",
+ "check": "뉴욕연준 분석(10월 6일, 67개 상품군 2.9%p, 반사실 약 -0.9%)은 검색 결과 요약으로 확인. 채널의 '-2.9% 추가 하락해 디플레이션'은 2.9%p 기여도와 -0.9% 반사실을 섞은 표현으로 보여 확인된 수치로 씀",
+ "cycles": [],
+ "dupOf": "n-tg-0096",
+ "facts": [
+  "무엇이: 뉴욕연준 연구진이 10월 6일 관세 때문에 67개 상품군 물가가 2월 기준 2.9%p 더 올랐다고 분석했습니다 [사실]",
+  "반사실: 관세가 없었다면 해당 상품 물가는 약 0.9% 내렸을 것으로 추정됐고, 가계 소비 전체로 넓히면 영향은 약 0.6%p로 계산됩니다 [사실]",
+  "연준: 9월 기준금리를 3.75~4.00%로 올렸고 의사록에서 대다수 위원이 연내 추가 인상이 적절하다고 봤습니다 [사실]",
+  "시장: 10월 인상 확률은 약 24%로 낮아져 10월 동결·12월 인상 쪽으로 기대가 옮겨갔습니다 [사실]",
+  "반박: 백악관은 관세 비용을 결국 외국 수출업체가 부담할 것이라고 반박했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연준 '연내 추가 인상' 기류 속 뉴욕연준 '관세가 상품물가 2.9%p 끌어올려'",
+ "id": "n-bbg-0052",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그",
+   "t": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 Polaristimes",
+   "t": "제퍼슨 연준 부의장 \"판단에 시간 더 필요\"…10월 인상 확률 24%로",
+   "u": "https://t.me/The_MariTimes/63452"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "데일리 연은 총재 \"추가 인상 필요성은 충격 전개에 달려\"",
+   "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "9월 의사록, 연준 위원들 금리 인상 논리 두고 의견 갈려",
+   "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "연준 의사록, 일부 위원은 시장 스트레스 대비 원해",
+   "u": "https://www.reuters.com/business/fed-minutes-show-some-officials-want-prepare-market-stress-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "무살렘 연은 총재 \"물가 낮추려면 추가 금리 인상 필요\"",
+   "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/"
+  },
+  {
+   "t": "뉴욕연준 '관세 없었다면 2월 물가 하락해 디플레이션 영역'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63607"
+  }
+ ],
+ "key": "bbg-1001-trump-warsh-should-have-opposed",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 52,
+ "one": "연준이 9월 0.25%p 인상 뒤 의사록에서 대다수 위원이 연내 추가 인상을 지지한 가운데, 뉴욕연준 연구진이 관세가 없었다면 2월 기준 상품 물가가 오히려 약 0.9% 내렸을 것이라고 분석해, 관세가 물가를 떠받친다는 근거가 더해지고 있다",
+ "origTitle": "Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T15:45:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Quartz",
+   "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+  },
+  {
+   "d": "2026-09-16",
+   "o": "야후파이낸스",
+   "u": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63452"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/0f41e1af-9b65-4157-bc82-78966c19fb43"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "The Asia Business Daily",
+   "u": "https://view.asiae.co.kr/en/article/2026100204124792533"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "investingLive",
+   "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Raisin",
+   "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+  },
+  {
+   "o": "Washington Post",
+   "d": "2026-10-07",
+   "u": "https://www.washingtonpost.com/business/2026/10/07/tariffs-drove-up-prices-consumer-goods-study-finds/"
+  },
+  {
+   "o": "Daybreak Wire",
+   "d": "2026-10-08",
+   "u": "https://daybreakwire.com/business/ny-fed-tariffs-2-9-points-goods-inflation/"
+  }
+ ],
+ "tags": [],
+ "title": "연준 '연내 추가 인상' 기류 속 뉴욕연준 '관세가 상품물가 2.9%p 끌어올려'",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+}

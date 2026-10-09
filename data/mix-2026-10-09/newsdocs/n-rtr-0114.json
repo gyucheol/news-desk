@@ -1,0 +1,69 @@
+{
+ "basis": "partial",
+ "check": "상장 연기 배경은 CSP Daily News 검색 결과 요약으로 확인. 공급망 내재화 세부 내용과 CEO의 IPO 발언은 로이터·블룸버그 제목 외 독립 출처로 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국 7-일레븐이 인플레이션 부담 속에 공급망을 내재화하는 방안을 추진하고 있습니다 [제목]",
+  "IPO: 미국 7-일레븐 CEO는 IPO 시점이 사업 회복과 시장 상황에 달렸다고 말했습니다 [제목]",
+  "연기: 세븐&아이는 4월 북미 법인 상장을 빨라야 2027 회계연도로 미뤘고, 경제 전망이 불확실하다고 했습니다 [사실]",
+  "실적: 세븐&아이 2분기(6~8월) 영업이익은 1,273억 엔으로 11% 줄었고 해외 편의점 영업이익은 약 두 배로 늘었습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 세븐일레븐, 인플레에 공급망 내재화 추진…IPO 시점은 회복·시장에 달려",
+ "id": "n-rtr-0114",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "세븐&아이, 2분기 영업이익 11% 감소",
+   "u": "https://www.reuters.com/world/asia-pacific/seven-i-operating-profit-falls-11-second-quarter-2026-10-08/"
+  },
+  {
+   "t": "미국 7-일레븐, 인플레이션 압박에 공급망 내재화 추진",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/7-elevens-us-arm-looks-move-supply-chain-in-house-inflation-bites-2026-10-09/"
+  },
+  {
+   "t": "미국 7-일레븐 CEO 'IPO 시점은 사업 회복과 시장에 달려'",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/us-7-eleven-ipo-timing-depends-on-turnaround-market-ceo-says"
+  }
+ ],
+ "key": "bnd-C264-2026-10-09",
+ "nodes": [],
+ "num": 114,
+ "one": "세븐&아이의 2분기 영업이익이 일본 편의점 부진으로 11% 줄어든 가운데, 미국 7-일레븐이 인플레이션 부담 속에 공급망을 직접 운영하는 방안을 추진하고 CEO가 IPO 시점은 사업 회복과 시장 상황에 달렸다고 밝히면서 북미 상장 일정이 불확실해졌다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T18:12:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "nippon.com(지지통신)",
+   "u": "https://www.nippon.com/en/news/yjj2026100800914/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Quartz",
+   "u": "https://qz.com/seven-i-holdings-7-eleven-quarterly-profit-japan-north-america-100826"
+  },
+  {
+   "o": "CSP Daily News",
+   "d": "2026-04",
+   "u": "https://www.cspdailynews.com/company-news/seven-i-holdings-delays-north-american-ipo-fiscal-year-2027"
+  }
+ ],
+ "tags": [],
+ "title": "美 세븐일레븐, 인플레에 공급망 내재화 추진…IPO 시점은 회복·시장에 달려",
+ "url": "https://www.reuters.com/world/asia-pacific/seven-i-operating-profit-falls-11-second-quarter-2026-10-08/",
+ "updatedAt": "2026-10-09T19:13:39+09:00"
+}

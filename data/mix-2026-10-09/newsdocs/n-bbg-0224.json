@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0224",
+ "num": 224,
+ "key": "mix-C064-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T16:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/petronas-boosts-malaysia-dividends-further-as-oil-prices-surge",
+ "origTitle": "",
+ "headline": "유가 급등에 페트로나스, 말레이 정부 배당 또 확대",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-02-27",
+   "u": "https://www.thestar.com.my/news/nation/2026/02/27/petronas-to-pay-rm20bil-dividend-to-govt-in-2026"
+  },
+  {
+   "o": "The Edge Malaysia",
+   "d": "2026-10",
+   "u": "https://theedgemalaysia.com/node/820285"
+  }
+ ],
+ "items": [
+  {
+   "t": "페트로나스, 유가 급등에 말레이시아 배당 추가 확대",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/petronas-boosts-malaysia-dividends-further-as-oil-prices-surge"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/commodity"
+ ],
+ "title": "유가 급등에 페트로나스, 말레이 정부 배당 또 확대",
+ "one": "페트로나스가 유가 급등을 타고 말레이시아 정부 배당을 또 늘리면서, 당초 9년 만의 최저인 200억 링깃으로 잡혔던 배당이 커져 선거를 앞둔 정부의 2027년 지출 확대 재원이 될 전망이다",
+ "facts": [
+  "무엇이: 페트로나스가 유가 급등에 힘입어 말레이시아 정부 배당을 더 늘립니다 [제목]",
+  "당초 계획: 정부는 올해 페트로나스 배당을 9년 만의 최저인 200억 링깃으로 예상했고, 페트로나스 CEO도 2월 이를 확인했습니다 [사실]",
+  "규모: 검색 요약상 정부 보고서는 2027년 배당을 320억 링깃, 올해 수정 추정치를 270억 링깃으로 잡았습니다 [미확인]",
+  "예산: 10월 9일 발표된 2027년 예산안은 4,598억 링깃으로 선거를 앞두고 지출을 늘렸고, 재정적자는 GDP 대비 3.3%로 줄이는 목표입니다 [미확인]",
+  "부담: BIMB증권은 배당 확대가 페트로나스의 업스트림·가스 인프라 투자 여력에 부담이 될 수 있다고 지적했습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "당초 200억 링깃 배당과 BIMB 분석은 확인. 2027년 320억·올해 270억 링깃과 예산 수치는 로이터 전재본 검색 요약에만 있어 독립 출처로 확인 못 함"
+}

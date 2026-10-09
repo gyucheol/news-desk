@@ -1,0 +1,117 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "FT 보도(500억 달러, 200억 달러 차이)와 AI주 하락은 CNBC 등 검색 결과 요약으로 확인. 반도체지수 3.66%·12,588.2는 채널 수치(다른 보도는 3.4%로 차이). 앤트로픽 매출 정체 주장은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: FT는 오픈AI가 투자자들에게 9월 말 연환산 매출이 약 500억 달러라고 설명했다고 보도했고, 이는 앞서 알려진 약 700억 달러보다 약 200억 달러 적습니다 [사실]",
+  "주가: 10월 8일 엔비디아 3%, 오라클 약 6%, 코어위브 약 8%, AMD·브로드컴 4%, 인텔 5% 하락했습니다 [사실]",
+  "지수: 필라델피아 반도체지수는 478.0포인트(3.66%) 내린 12,588.2에 마감했고 나스닥100은 1.6% 하락했습니다 [채널]",
+  "차이 원인: 앤트로픽은 클라우드 파트너 경유 매출을 넣은 총매출, 오픈AI는 순매출 기준이며, CNBC는 앞선 680억 달러가 파트너 총매출을 포함한 수치라고 전했습니다 [사실]",
+  "배경: 오픈AI는 투자자들에게 2026년 말 연환산 매출 700억 달러 이상을 내세운 바 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "오픈AI 매출 500억 달러 보도에 AI주 급락…필라델피아 반도체지수 3.66%↓",
+ "id": "n-tg-0149",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "t": "소프트뱅크, 오픈AI에 마지막 100억 달러 납입…누적 646억 달러·지분 13%",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "오픈AI, 2026년 말 연환산 매출 700억 달러 예상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "FT \"오픈AI 연환산 매출, 앞서 알려진 것보다 200억 달러 적어\"",
+   "u": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/"
+  },
+  {
+   "t": "앤트로픽 연환산 매출 성장 정체 주장…중국산 저가 AI 잠식 지목",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63604"
+  },
+  {
+   "t": "오픈AI 매출 200억 달러 적다는 보도에 필라델피아 반도체지수 3.66% 급락",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-09",
+   "u": "https://t.me/TNBfolio/71482"
+  },
+  {
+   "t": "CNN, 오픈AI 매출 예상보다 낮다는 보도에 기술주 하락…회계 기준 차이 지목",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-09",
+   "u": "https://t.me/cahier_de_market/10950"
+  },
+  {
+   "t": "TickerTrends, 오픈AI 연간 매출 추적치 약 504억 달러로 FT 보도와 부합",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-09",
+   "u": "https://t.me/cahier_de_market/10951"
+  }
+ ],
+ "key": "tg-Trillion_labs-9903",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 149,
+ "one": "FT가 오픈AI의 9월 말 연환산 매출이 약 500억 달러로 앞서 알려진 700억 달러보다 200억 달러 적다고 보도하면서, 필라델피아 반도체지수가 3.66% 급락하고 오라클·코어위브 등 AI 관련주가 줄줄이 떨어져 AI 투자 회수 능력에 대한 의문이 커졌다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:12:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10",
+   "o": "Neoteo",
+   "u": "https://www.neoteo.com/en/softbank-confirms-10b-openai-tranche-nvidia-payment-reported"
+  },
+  {
+   "d": "2026-03-31",
+   "o": "오픈AI",
+   "u": "https://openai.com/index/accelerating-the-next-phase-ai/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Investing.com",
+   "u": "https://www.investing.com/news/stock-market-news/openai-expects-to-reach-70-bln-revenue-by-end2026-bloomberg-reports-4940179"
+  },
+  {
+   "d": "2026-09-29",
+   "o": "Axios",
+   "u": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+  },
+  {
+   "o": "Investing.com(FT 인용)",
+   "d": "2026-10-08",
+   "u": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-at-50bn-far-below-reports--ft-4939530"
+  }
+ ],
+ "tags": [],
+ "title": "오픈AI 매출 500억 달러 보도에 AI주 급락…필라델피아 반도체지수 3.66%↓",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://t.me/Trillion_labs/9903"
+}

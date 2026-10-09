@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0188",
+ "num": 188,
+ "key": "mix-C070-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T17:11:00+09:00",
+ "url": "https://www.reuters.com/world/africa/kenya-expects-budget-deficit-rise-59-gdp-202728-2026-10-09/",
+ "origTitle": "",
+ "headline": "케냐, 2027/28 재정적자 GDP 5.9%로 확대 전망…대외 차입 급증",
+ "src": [
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10-09",
+   "u": "https://www.cnbcafrica.com/2026/kenya-expects-budget-deficit-to-rise-to-5-9-of-gdp-in-2027-28"
+  },
+  {
+   "o": "Ecofin Agency",
+   "d": "2026-07",
+   "u": "https://www.ecofinagency.com/news/2407-57692-kenya-targets-3-6-fiscal-deficit-for-2027/2028-financial-year"
+  }
+ ],
+ "items": [
+  {
+   "t": "케냐, 2027/28 재정적자 GDP 대비 5.9%로 확대 예상",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/africa/kenya-expects-budget-deficit-rise-59-gdp-202728-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "케냐, 2027/28 재정적자 GDP 5.9%로 확대 전망…대외 차입 급증",
+ "one": "케냐 재무부가 2027/28 회계연도 재정적자를 국내총생산의 5.9%로 올해보다 늘려 잡고 순대외차입도 4,238억 실링으로 키우면서, 7월에 내놓았던 적자 3.6% 감축 계획에서 크게 멀어졌다",
+ "facts": [
+  "무엇이: 케냐 재무부는 2027/28 회계연도 재정적자가 GDP의 5.9%로 2026/27년 5.5%보다 커질 것으로 봤습니다 [사실]",
+  "차입: 순대외차입은 2,472억 실링에서 4,238억 실링으로 늘어날 전망입니다 [사실]",
+  "이전 계획: 재무부는 7월 2027/28년 적자를 GDP 3.6%로 줄이겠다는 계획을 밝혔었습니다 [사실]",
+  "일정: 내년 8월 총선 때문에 예산안이 보통의 6월보다 일찍 제출됩니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "5.9% 전망·대외차입은 검색 결과 요약으로 확인. 7월 3.6% 계획과의 차이 이유는 확인 못 함"
+}

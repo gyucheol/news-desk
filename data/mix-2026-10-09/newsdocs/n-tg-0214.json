@@ -1,0 +1,68 @@
+{
+ "id": "n-tg-0214",
+ "num": 214,
+ "key": "mix-C023-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T22:29:00+09:00",
+ "url": "https://t.me/insidertracking/65748",
+ "origTitle": "",
+ "headline": "구글, 기업용 범용 AI 에이전트 공개…제미나이·클로드 골라 쓴다",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65748"
+  },
+  {
+   "o": "9to5Google",
+   "d": "2026-10-08",
+   "u": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/"
+  },
+  {
+   "o": "VentureBeat",
+   "d": "2026-10-08",
+   "u": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage"
+  }
+ ],
+ "items": [
+  {
+   "t": "구글 클라우드, 기업 업무용 범용 AI 에이전트 '제미나이 에이전트' 공개",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65748"
+  },
+  {
+   "t": "구글 Gemini Agent 세부: 멀티에이전트·멀티모델·기업 시스템 통합",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-08",
+   "u": "https://t.me/cahier_de_market/10949"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis",
+ "title": "구글, 기업용 범용 AI 에이전트 공개…제미나이·클로드 골라 쓴다",
+ "one": "구글 클라우드가 업무 계획부터 코딩·문서 작성까지 스스로 수행하고 제미나이와 앤스로픽 클로드를 작업별로 골라 쓰는 기업용 범용 에이전트를 내놓고 Gemini Enterprise 고객에 추가 비용 없이 주기로 하면서, 업무용 소프트웨어 시장의 에이전트 경쟁이 거세질 수 있다",
+ "facts": [
+  "무엇이: 구글 클라우드가 10월 8일 Gemini at Work 2026 행사에서 범용 업무 에이전트 'Gemini Agent'를 공개했고, 현재는 비공개 프리뷰 단계입니다 [사실]",
+  "모델: 에이전트와 기반 모델을 분리해 제미나이와 앤스로픽 클로드 가운데 작업별로 고르며, 다른 폐쇄형·오픈 모델로 넓힐 계획입니다 [사실]",
+  "연동: 웹·모바일·CLI·Google Workspace·Microsoft 365·Slack에서 쓰고 Salesforce·ServiceNow·Jira 등과 MCP로 연결되며, 자체 메일·드라이브를 가진 동료 에이전트도 만들 수 있습니다 [사실]",
+  "가격: Gemini Enterprise를 쓸 수 있는 고객에게는 추가 비용 없이 제공하고, 프로젝트별 실시간 지출 한도를 둡니다 [사실]",
+  "도입: 구글 클라우드 고객 약 80%가 AI 제품을 쓰고 포춘 100대 기업의 약 90%가 Gemini Enterprise를 쓴다고 구글이 밝혔습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "발표 시점·멀티모델(클로드 포함)·연동 범위·추가 비용 없음·프리뷰 단계는 검색 결과 요약으로 확인. 도입 비율 수치는 채널 전언",
+ "updatedAt": "2026-10-09T19:13:39+09:00"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0178",
+ "num": 178,
+ "key": "mix-C056-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T15:48:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/nearly-30-years-after-imf-rescue-thailand-faces-new-economic-test-2026-10-09/",
+ "origTitle": "",
+ "headline": "IMF 구제 30년 만에 태국 경제 새 시험대…저성장·가계부채 85%에 재정 여력 축소",
+ "src": [
+  {
+   "o": "Free Malaysia Today",
+   "d": "2026-10-08",
+   "u": "https://www.freemalaysiatoday.com/category/business/2026/10/08/thai-household-debt-trap-tests-growth-ambitions-as-bangkok-hosts-imf"
+  },
+  {
+   "o": "Nation Thailand",
+   "d": "2026",
+   "u": "https://www.nationthailand.com/news/policy/40071657"
+  },
+  {
+   "o": "Thai Examiner",
+   "d": "2026-10-08",
+   "u": "https://www.thaiexaminer.com/thai-news-foreigners/2026/10/08/thailand-still-struggles-economically-even-with-revised-world-bank-gdp-growth-for-2026-coming-at-2/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF 구제 30년 가까이 지나 새 경제 시험대에 선 태국",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/nearly-30-years-after-imf-rescue-thailand-faces-new-economic-test-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/fiscal"
+ ],
+ "title": "IMF 구제 30년 만에 태국 경제 새 시험대…저성장·가계부채 85%에 재정 여력 축소",
+ "one": "태국이 IMF 구제금융 이후 30년 가까이 지나 5년 평균 2.34%의 저성장과 GDP 대비 85.2%인 가계부채에 묶인 가운데, 공공부채가 법정 상한 70%에 다가서 재정으로 경기를 떠받칠 여력도 줄고 있다",
+ "facts": [
+  "무엇이: 태국은 최근 5년 연평균 성장률이 2.34%에 그쳐 역내 국가보다 회복이 더디고, 다음 주 방콕에서 IMF·세계은행 연차총회를 엽니다 [사실]",
+  "가계: 6월 말 가계부채는 GDP 대비 85.2%로 아시아 최고 수준이며, 태국 중앙은행은 성장을 잠재 수준 아래로 묶을 수 있다고 경고했습니다 [사실]",
+  "재정: 공공부채는 2025회계연도 말 GDP 대비 65.08%로 법정 상한 70%에 다가섰고, 내각은 새 회계연도 약 1조 2,600억 바트 차입을 승인했습니다 [사실]",
+  "전망: 재무장관은 3년 안에 3% 성장을 목표로 하지만 세계은행의 올해 전망은 약 2%에 그칩니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "성장률·가계부채·공공부채·차입 승인·세계은행 전망은 검색 결과 요약으로 확인. 로이터 기사 본문의 논지 전체는 확인 못 함"
+}

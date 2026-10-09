@@ -1,0 +1,218 @@
+{
+ "basis": "partial",
+ "check": "프랑스 국채 매도와 레포 레버리지 위험, ECB 대응 논쟁은 검색 결과 요약으로 확인. ECB 레포 공급 규모·변경 여부 등 블룸버그 기사 핵심은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유럽 채권시장 혼란으로 ECB의 레포 자금 공급이 주목받고 있습니다 [제목]",
+  "구조: 헤지펀드 등은 국채를 담보로 한 단기 레포로 자기자본보다 큰 국채 포지션을 유지하며, ECB 금융안정보고서는 가격 하락 때 비은행의 강제 디레버리징이 담보 가치까지 떨어뜨릴 수 있다고 경고했습니다 [사실]",
+  "금리: 프랑스 10년물은 9월 초 이후 80bp 가까이 올라 5%에 다가섰고 프랑스-독일 금리차는 145bp를 넘었습니다 [사실]",
+  "대응: 라가르드 총재는 ECB 수단이 조건부라고 했고, 한 번도 쓰지 않은 TPI 발동을 두고 의견이 갈리는 가운데 ING는 양적긴축 중단 후 프랑스채 재투자 방안을 제시했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유럽 국채 불안에 ECB 레포 자금 주목…프랑스 10년물 5% 육박",
+ "id": "n-bbg-0111",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 Polaristimes",
+   "t": "프랑스-독일 10년물 금리차 145bp 넘어…유로존 위기 이후 최대",
+   "u": "https://t.me/The_MariTimes/63513"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "정치 위험 커지며 유로 비관론 확산",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "프랑스, 전국 학생 시위 대비…채권시장 분위기 악화",
+   "u": "https://www.reuters.com/live/live-france-braces-nationwide-student-protests-bond-markets-sour-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+   "u": "https://www.reuters.com/business/finance/bond-selloff-leaves-france-no-room-fiscal-mistakes-citadel-executive-says-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "위기에 휩싸인 프랑스, ECB와의 정면 대결로 향한다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-moulin-says-conditions-for-france-intervention-aren-t-met"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "프랑스은행 총재 \"현재로선 프랑스에 ECB 지원 필요 없어\"",
+   "u": "https://www.reuters.com/business/finance/france-does-not-need-ecb-help-present-says-bank-france-head-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "프랑스 의원들, 예산 심사 시작하며 연금 수급자 삭감은 면제",
+   "u": "https://www.reuters.com/business/finance/french-lawmakers-spare-pensioners-cuts-budget-review-begins-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "유럽의 어려움이 달러 강세론자들에게 새 근거 제공",
+   "u": "https://www.reuters.com/world/europe/europes-woes-give-dollar-bulls-fresh-reason-press-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "프랑스의 복합 위기, ECB를 채권시장 대결로 끌어들일 수도",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-multiple-crises-could-drag-ecb-into-bond-market-showdown"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "프랑스 재무부 \"국채 발행 전략 변경 없다\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "프랑스 재무장관, WSJ에 \"단기 국채 발행 확대 검토 중\"",
+   "u": "https://www.reuters.com/business/france-is-considering-more-shorter-term-debt-issuance-finance-minister-tells-wsj-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "레스퀴르 장관 \"프랑스 국채 수요 꾸준하다\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-has-no-problem-finding-bond-buyers-lescure-tells-bbc"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "물랭 프랑스은행 총재 \"이제 모든 나라가 더 높은 금리에 직면\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-france-s-moulin-says-all-countries-face-higher-rates-now"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-s-debt-is-now-riskier-than-38-of-nation-s-company-bonds"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "RBC 블루베이 전략가 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+   "u": "https://www.reuters.com/business/le-pen-lifting-retirement-age-is-key-french-bond-yields-rbc-bluebay-strategist-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "프랑스, 세계 시장 스트레스의 풍향계가 되다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/france-is-the-bellwether-for-stress-in-global-markets"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "유로존 재무장관 회의 속 프랑스 국채시장 우려 확대",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "달러, FOMC 의사록 공개 후 18개월 고점서 소폭 후퇴",
+   "u": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "유로, 5주 연속 주간 하락 향해…매도 압력은 둔화",
+   "u": "https://www.reuters.com/business/euro-skids-toward-fifth-weekly-fall-selling-pressure-slows-2026-10-09/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "유로존 장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+   "u": "https://www.reuters.com/business/finance/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "프랑스 부채 위기가 일본의 1,450억 달러 채권 투자를 시험하는 방식",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-09/how-france-s-debt-crisis-is-testing-japan-s-145-billion-bond-bet"
+  },
+  {
+   "t": "유럽 채권시장 혼란에 ECB 레포 자금 공급 주목",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/europe-s-bond-market-turbulence-puts-ecb-repo-funding-into-focus"
+  }
+ ],
+ "key": "bnd-C047-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/fx",
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "num": 111,
+ "one": "프랑스 10년물 금리가 2002년 이후 최고인 5% 가까이 오르고 유로가 17개월 최저로 밀린 가운데 ECB가 개입에 선을 긋자, 레포 차입으로 국채 포지션을 키운 투자자들의 자금 조달이 시장 불안을 키울 수 있다는 우려에 ECB 레포가 주목받고 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T15:15:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Business Recorder",
+   "u": "https://www.brecorder.com/news/40443407/euro-skids-toward-fifth-weekly-fall-but-selling-pressure-slows"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "FXStreet",
+   "u": "https://www.fxstreet.com/news/forex-today-euro-stabilizes-as-markets-await-comments-from-central-bankers-202610080720"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63513"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "FXStreet",
+   "u": "https://www.fxstreet.com/analysis/us-jobs-report-day-french-german-10-year-spread-nears-150bps-202610021014"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "ideal-investisseur",
+   "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Euronext 뉴스(유로존 장관 회의)",
+   "u": "https://live.euronext.com/en/financial-news/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "IndexBox",
+   "u": "https://www.indexbox.io/blog/euro-zone-ministers-and-ecb-urge-france-to-adopt-2027-budget-as-borrowing-costs-hit-25-year-high/"
+  },
+  {
+   "o": "ECB 금융안정보고서",
+   "d": "2026-05",
+   "u": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/ecb.fsr202605~50566915a7.en.html"
+  },
+  {
+   "o": "NAI500",
+   "d": "2026-10",
+   "u": "https://nai500.com/blog/2026/10/europe-s-bond-market-remembers-how-to-panic/"
+  }
+ ],
+ "tags": [],
+ "title": "유럽 국채 불안에 ECB 레포 자금 주목…프랑스 10년물 5% 육박",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks"
+}

@@ -1,0 +1,105 @@
+{
+ "basis": "partial",
+ "check": "1,500억 달러 조달 추진·오라클 CDS 9월 사상 최고·채권 수익률은 검색 결과 요약으로 확인. 10월 현재 CDS 수준, 10년물 5.31%, CCC 가산금리, 부도확률 20%는 확인 못 함. 엔비디아 지분투자 가치 1천억 달러 글(Polaristimes)은 AI 투자 증액 성격이라 items에서 뺌",
+ "cycles": [],
+ "facts": [
+  "무엇이: 스페이스X·브로드컴·오라클이 일주일도 안 돼 1,500억 달러 넘는 자금 조달을 추진했고, 공개 채권시장이 한계에 가까워지자 사모 대출과 장부 밖 구조로 옮겨 가고 있습니다 [사실]",
+  "오라클 신용: S&P가 BBB-로 강등한 뒤 오라클 CDS는 9월 하순 사상 최고를 기록했고, 10월 5일 기준 오라클 2066년물 수익률은 8.45%로 미국 상장 채권 중 오라클·스페이스X만 7.5%를 넘었습니다 [사실]",
+  "시장 압박: 미 10년물 금리 5.31% 재상승, CCC 등급 가산금리 1,000bp 근접, 오라클 5년 내 부도확률 20% 이상 반영, 스페이스X CDS 4개월 새 약 두 배 [채널]",
+  "기존 흐름: 칼라일은 AI 연산 설비에 사모신용 약 1조 달러가 필요할 수 있다고 경고했고, 5대 기술기업 채권 발행은 올해 7월까지 1,320억 달러였습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 차입 몰리며 美 채권시장 포화…오라클 CDS 오름세, 장기채 수익률 8%대",
+ "id": "n-bbg-0049",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그",
+   "t": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+  },
+  {
+   "t": "오라클 신용부도스와프(CDS) 프리미엄 지속 상승",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65770"
+  },
+  {
+   "t": "스페이스X·브로드컴·오라클 대규모 채권 발행에 美 채권시장 포화",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-09",
+   "u": "https://t.me/HANAchina/70108"
+  }
+ ],
+ "key": "bbg-1001-carlyle-ai-private-credit-concentration",
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates",
+  "macro/semis"
+ ],
+ "num": 49,
+ "one": "스페이스X·브로드컴·오라클이 일주일도 안 돼 1,500억 달러가 넘는 자금 조달에 나서 공개 채권시장이 포화에 가까워지고 오라클 CDS가 사상 최고 수준에서 오르는 가운데, 차입이 사모신용·장부 밖 구조로 옮겨 가며 기술기업 차입 비용이 오르고 있다",
+ "origTitle": "AI Buildout May Spur $1 Trillion in Private Credit, Carlyle White Paper Finds",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T10:21:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Briefs Finance",
+   "u": "https://www.briefs.co/news/carlyle-warns-private-credit-don-t-repeat-software-s-concent/"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "포브스(기고)",
+   "u": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/"
+  },
+  {
+   "d": "2026-09",
+   "o": "Sage Advisory",
+   "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+  },
+  {
+   "d": "2026",
+   "o": "Portfolio Adviser",
+   "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+  },
+  {
+   "o": "24/7 Wall St.",
+   "d": "2026-10-08",
+   "u": "https://247wallst.com/investing/2026/10/08/spacex-broadcom-and-oracle-all-want-billions-in-ai-chip-debt-at-the-same-time/"
+  },
+  {
+   "o": "Benzinga",
+   "d": "2026-10",
+   "u": "https://www.benzinga.com/markets/large-cap/26/10/62161704/highest-yielding-hyperscaler-bonds-october-2026-spacex-oracle"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-09",
+   "u": "https://seekingalpha.com/news/4646794-oracle-credit-default-swaps-hit-new-record-high-as-ai-debt-worries-mount"
+  }
+ ],
+ "tags": [],
+ "title": "AI 차입 몰리며 美 채권시장 포화…오라클 CDS 오름세, 장기채 수익률 8%대",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+}

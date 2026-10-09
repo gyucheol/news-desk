@@ -51,7 +51,7 @@ add("C012","",
 ["macro"],["macro/fiscal","macro/fx"],
 [T("인민은행 '환율 결정은 시장이 결정적 역할…경쟁적 절하 안 해'","텔레그램 하나증권 중국전략","2026-10-08","https://t.me/HANAchina/70077"),
  T("중국, 지방 정부에 820억 달러 규모 추가 부양책 내놓아","블룸버그","2026-10-09","https://www.bloomberg.com/news/articles/2026-10-09/china-allows-provinces-to-draw-on-82-billion-to-shore-up-growth"),
- T("중국, 성장 목표 달성 위해 재정 지원 강화","로이터","2026-10-09","https://www.reuters.com/world/china-ramps-up-fiscal-push-meet-growth-target-2026-10-09/")])
+ T("중국, 성장 목표 달성을 위해 재정 부양 드라이브 강화","로이터","2026-10-09","https://www.reuters.com/world/china-ramps-up-fiscal-push-meet-growth-target-2026-10-09/")])
 
 add("C017","n-bbg-0077",
 "후티 아브카이크 공격 전언…트럼프 발언 약발 다한 유가, 실물 공급이 좌우",

@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0254",
+ "num": 254,
+ "key": "mix-C114-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T17:20:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight",
+ "origTitle": "",
+ "headline": "中 발전용 석탄값 3년 만에 최고…탄광 안전점검·수입 감소에 상승 지속",
+ "src": [
+  {
+   "o": "OilPrice",
+   "d": "2026-10",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Thermal-Coal-Prices-Surge-to-Three-Year-High.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 석탄값 3년 만에 최고…당분간 완화 조짐 없어",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/thermal",
+  "coal/trade",
+  "coal/power"
+ ],
+ "title": "中 발전용 석탄값 3년 만에 최고…탄광 안전점검·수입 감소에 상승 지속",
+ "one": "산시성 탄광 사고 뒤 안전점검 감산과 인도네시아산 수입 감소로 중국 발전용 석탄 가격이 친황다오 기준 톤당 986위안을 넘어 3년 만의 최고로 오르면서, 겨울을 앞둔 중국 발전사의 연료비 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 중국 발전용 석탄 가격이 11주 연속 올라 9월 말 톤당 986위안(147달러)으로 3년 만의 최고를 기록했고, 10월 10일에는 1,003위안이라는 집계도 있습니다 [사실]",
+  "원인: 산시성 탄광 사고 뒤 안전점검으로 6~8월 생산이 약 3분의 1 줄었고, 인도네시아산 수입은 올해 25% 감소했습니다 [사실]",
+  "전망: 당분간 가격 부담이 풀릴 기미가 적다는 평가이며, 정부는 겨울을 앞두고 증산을 추진하고 있습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "3년 최고·986위안·감산과 수입 감소 원인은 검색 결과 요약(OilPrice)으로 확인. 1,003위안은 집계 사이트 수치"
+}

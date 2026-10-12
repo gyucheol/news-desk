@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0219",
+ "num": 219,
+ "key": "mix-C138-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T23:12:00+09:00",
+ "url": "https://www.reuters.com/legal/transactional/totalenergies-expands-us-venture-with-kkr-with-700-mw-portfolio-2026-10-12/",
+ "origTitle": "",
+ "headline": "토탈에너지, KKR과 美 합작사에 태양광 700MW 추가…2.1GW로 확대",
+ "src": [
+  {
+   "o": "TotalEnergies",
+   "d": "2026-10-12",
+   "u": "https://totalenergies.com/newsroom/etats-unis-totalenergies-etend-sa-coentreprise-avec-kkr-avec-lajout-dun-portefeuille-de-700-mw-de-renouvelables-506845/?lang=eng"
+  },
+  {
+   "o": "Renewables Now",
+   "d": "2026-10-12",
+   "u": "https://renewablesnow.com/news/totalenergies-kkr-add-700-mw-of-solar-to-north-american-jv-1302817/"
+  }
+ ],
+ "items": [
+  {
+   "t": "토탈에너지, 700MW 포트폴리오로 KKR과의 미국 합작 확대",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/legal/transactional/totalenergies-expands-us-venture-with-kkr-with-700-mw-portfolio-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers",
+  "power/gen"
+ ],
+ "title": "토탈에너지, KKR과 美 합작사에 태양광 700MW 추가…2.1GW로 확대",
+ "one": "토탈에너지가 KKR과 50대50으로 세운 미국 합작사에 텍사스·오하이오 태양광 3곳 700MW를 더해 설비를 약 2.1GW로 키우면서, 기업가치 12억 달러 규모 자산이 2027년 1분기 상업운전에 들어갈 예정이다",
+ "facts": [
+  "무엇이: 토탈에너지와 KKR이 10월 12일 1.4GW 규모 50대50 미국 합작사에 텍사스·오하이오의 대형 태양광 3곳 700MW를 넣기로 했습니다 [사실]",
+  "규모: 편입 자산의 기업가치는 12억 달러이며 합작사 설비는 약 2.1GW가 됩니다 [사실]",
+  "일정: 상업운전은 2027년 1분기 목표이고, 거래 종결은 2026년 안에 예상되며 운영은 토탈에너지가 맡습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "700MW·12억 달러·2027년 1분기 상업운전은 토탈에너지 발표와 검색 결과 요약으로 확인"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0202",
+ "num": 202,
+ "key": "mix-C082-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T01:05:00+09:00",
+ "url": "https://www.reuters.com/world/uk/eu-host-britain-summit-nov-20-2026-10-12/",
+ "origTitle": "",
+ "headline": "EU, 11월 20일 영국과 정상회의…번햄 '브렉시트 무역협정 일부 재협상'",
+ "src": [
+  {
+   "o": "Europe Says",
+   "d": "2026-10-12",
+   "u": "https://www.europesays.com/europe/157435/"
+  },
+  {
+   "o": "Newscord",
+   "d": "2026-10-12",
+   "u": "https://newscord.org/article/andy-burnham-tells-mps-rejecting-closer-eu-ties-would-be-dereliction-of-duty--Story_20261012_RejectingcloserEUtiecb73d083"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU, 오는 11월 20일 영국과의 정상회의를 주최하기로",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/uk/eu-host-britain-summit-nov-20-2026-10-12/"
+  },
+  {
+   "t": "번햄, 의회에 '영국은 EU와 새 협정 검토해야' 밝힐 예정",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/uk/burnham-tell-parliament-uk-needs-consider-new-deal-with-eu-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "EU, 11월 20일 영국과 정상회의…번햄 '브렉시트 무역협정 일부 재협상'",
+ "one": "번햄 영국 총리가 의회에서 브렉시트 뒤 맺은 EU 무역협정 일부를 재협상하겠다고 밝히고 EU가 11월 20일 브뤼셀에서 영국과 정상회의를 열기로 하면서, 식품 교역 협정·청년 이동 제도·탄소배출권 연계 등 영국·EU 관계 재설정 논의가 본격화할 전망이다",
+ "facts": [
+  "무엇이: 유럽이사회가 스타머 총리 사임으로 미뤄졌던 영국·EU 정상회의를 11월 20일 브뤼셀에서 연다고 확정했습니다 [사실]",
+  "번햄: 번햄 총리는 의회에서 EU와의 무역협정 일부를 재협상하겠다고 밝히고, 식품 교역 협정·청년 이동 제도·배출권 거래 협정 서명을 추진하겠다고 했습니다 [사실]",
+  "반대: 배드녹 보수당 대표는 브렉시트 논쟁을 다시 여는 것은 끔찍한 생각이라고 비판했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "정상회의 날짜와 번햄의 재협상 발언은 검색 결과 요약으로 확인(집계 사이트 위주라 원문 대조는 못 함)",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

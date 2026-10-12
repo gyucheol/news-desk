@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0211",
+ "num": 211,
+ "key": "mix-C117-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T18:29:00+09:00",
+ "url": "https://www.reuters.com/markets/asia/russias-new-budget-allows-more-monetary-easing-is-not-only-factor-central-bank-2026-10-12/",
+ "origTitle": "",
+ "headline": "러시아 중앙은행 '새 예산이 추가 완화 여지'…재정적자 축소가 조건",
+ "src": [
+  {
+   "o": "Izvestia",
+   "d": "2026-10-12",
+   "u": "https://iz.ru/en/node/2182832"
+  },
+  {
+   "o": "Izvestia",
+   "d": "2026-10-12",
+   "u": "https://en.iz.ru/en/2182452/2026-10-12/what-should-investor-keep-eye-week"
+  }
+ ],
+ "items": [
+  {
+   "t": "러시아 새 예산, 추가 통화 완화 허용하지만 유일한 요인 아냐…중앙은행",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/markets/asia/russias-new-budget-allows-more-monetary-easing-is-not-only-factor-central-bank-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fiscal"
+ ],
+ "title": "러시아 중앙은행 '새 예산이 추가 완화 여지'…재정적자 축소가 조건",
+ "one": "러시아 중앙은행 부총재가 새 3개년 예산이 7월 전망에 부합해 추가 통화 완화를 허용한다면서도 2027년 구조적 재정적자 축소를 금리 인하의 중요 조건으로 꼽아, 현재 14%인 기준금리의 인하 속도는 재정 운용에 좌우될 전망이다",
+ "facts": [
+  "무엇이: 자보트킨 러시아 중앙은행 부총재는 10월 12일 하원에서 새 예산이 추가 통화 완화를 허용하지만 유일한 요인은 아니라고 말했다 [사실]",
+  "조건: 2027년 연방 예산의 구조적 기초재정적자를 크게 줄이는 것이 추가 금리 인하의 중요한 조건이라고 밝혔다 [사실]",
+  "금리: 기준금리는 연속 인하 끝에 14%이며 다음 회의는 10월 23일이다 [사실]",
+  "물가: 10월 5일까지 한 주 물가가 0.96% 올라 10월 회의에서 신중론이 나올 수 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "재정적자 축소 조건과 회의 일정은 이즈베스티야 검색 결과 요약으로 확인. 예산이 완화를 허용한다는 발언은 로이터 전재본 요약에만 있어 독립 확인 부족"
+}

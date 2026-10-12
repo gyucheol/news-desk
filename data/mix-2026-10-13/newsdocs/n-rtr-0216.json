@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0216",
+ "num": 216,
+ "key": "mix-C126-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T20:23:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/indonesia-central-bank-has-full-autonomy-over-interest-rates-new-chief-says-2026-10-12/",
+ "origTitle": "",
+ "headline": "인니 중앙은행 새 총재 \"금리 결정 자율권 완전히 보유\"",
+ "src": [
+  {
+   "o": "Finimize",
+   "d": "2026-10-12",
+   "u": "https://finimize.com/content/bank-indonesias-new-governor-tries-to-calm-independence-fears"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10",
+   "u": "https://tradingeconomics.com/indonesia/interest-rate"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도네시아 중앙은행 새 총재 \"금리에 대한 완전한 자율권 보유\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/asia-pacific/indonesia-central-bank-has-full-autonomy-over-interest-rates-new-chief-says-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "title": "인니 중앙은행 새 총재 \"금리 결정 자율권 완전히 보유\"",
+ "one": "데스트리 다마얀티 인도네시아 중앙은행 신임 총재가 정부와 협력하면서도 금리 결정에는 완전한 자율권이 있다고 밝히면서, 독립성 우려로 흔들린 루피아와 국채 투자자 신뢰를 되찾으려 하고 있다",
+ "facts": [
+  "무엇이: 데스트리 다마얀티 총재가 인터뷰에서 정부와 시너지를 내면서도 정책금리에 대한 완전한 자율권을 갖고 있다고 발언 [사실]",
+  "우려 배경: 정부 관료가 월례 정책회의 일부에 참석하고, 의회가 성장 비중을 높이도록 권한을 넓혔으며, 프라보워 대통령의 조카가 고위직에 임명됨 [사실]",
+  "금리: 9월 첫 회의에서 기준금리를 5.75%로 동결하고 대신 루피아 채권 외국인 투자자 헤지 비용 할인을 확대, 다음 회의는 10월 21일 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 신임 총재의 자율권 발언과 독립성 우려 배경, 9월 5.75% 동결(파이니마이즈·트레이딩이코노믹스). 날짜 표기가 출처마다 일부 불일치"
+}

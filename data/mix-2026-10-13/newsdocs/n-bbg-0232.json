@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0232",
+ "num": 232,
+ "key": "mix-C031-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T00:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+ "origTitle": "",
+ "headline": "골드만, 글로벌 주식 비중확대 상향…美 주식위험프리미엄은 24년 만에 마이너스",
+ "src": [
+  {
+   "o": "Unusual Whales",
+   "d": "2026-10-12",
+   "u": "https://unusualwhales.com/news/goldman-sachs-bullish-stocks-overweight-equities"
+  },
+  {
+   "o": "KuCoin News",
+   "d": "2026-10-12",
+   "u": "https://www.kucoin.com/news/flash/goldman-sachs-upgrades-global-stocks-to-overweight-forecasts-27-q3-earnings-growth-for-s-p-500"
+  }
+ ],
+ "items": [
+  {
+   "t": "골드만 전략가들, 이익 개선에 글로벌 주식 투자의견 상향",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost"
+  },
+  {
+   "t": "비틀거리는 주식 랠리, 연말 상승은 실적에 달려",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/stumbling-equity-rally-hinges-on-earnings-for-year-end-boost"
+  },
+  {
+   "t": "골드만, 실적 낙관에 글로벌 주식 투자의견 상향",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/goldman-upgrades-global-equities-earnings-optimism-2026-10-12/"
+  },
+  {
+   "t": "美 주식위험프리미엄 24년 만에 최저…마이너스 전환",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71507"
+  },
+  {
+   "t": "골드만 \"美 기업 2027년 자사주 1.7조 달러 매입, 주식 공급 충격 완화\"",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70306"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "title": "골드만, 글로벌 주식 비중확대 상향…美 주식위험프리미엄은 24년 만에 마이너스",
+ "one": "골드만삭스가 3분기 실적 기대와 낮아진 밸류에이션을 들어 글로벌 주식 3개월 전망을 비중확대로 올리고 2027년 자사주 매입 1.7조 달러를 예상했지만, 미국 주식위험프리미엄은 24년 만에 마이너스로 떨어져 주식의 국채 대비 기대 보상이 사라지고 있다",
+ "facts": [
+  "무엇이: 골드만삭스는 10월 12일 글로벌 주식 3개월 전망을 중립에서 비중확대로 올리고 12개월 비중확대를 유지했으며, S&P 500 3분기 이익 증가율을 약 27%로 봤습니다 [사실]",
+  "밸류에이션: 골드만 기준 S&P 500 선행 PER은 19.1배로 연초 약 22배에서 낮아졌고, 미국·아시아 비중확대, 유럽 비중축소, 국채 12개월 비중확대를 제시했습니다 [사실]",
+  "수급: 골드만은 2027년 미국 기업 자사주 매입을 사상 최대 1.7조 달러, 주식 발행을 6,000억 달러로 전망했고 올해 발행은 약 4,310억 달러로 98% 늘었습니다 [채널]",
+  "위험 보상: 미국 주식위험프리미엄이 24년 만의 최저로 마이너스가 됐고, 30년물 물가연동국채 금리는 3.40%에 근접했습니다 [채널]",
+  "남은 변수: 골드만은 금리·에너지 가격 상승과 중간선거 불확실성을 위험으로 꼽았고, 연말 랠리는 실적에 달렸다는 분석이 나왔습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "골드만 상향과 27%·19.1배 수치는 검색 결과 요약으로 확인. 자사주 1.7조 달러 전망과 ERP 마이너스는 확인 못 함(채널).",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

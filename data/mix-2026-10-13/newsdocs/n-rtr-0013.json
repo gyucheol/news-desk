@@ -1,0 +1,123 @@
+{
+ "basis": "verified",
+ "check": "재고 수준, 철강공장 정전, 경매 프리미엄 94%, 4GW 부족은 검색 결과 요약으로 확인. 태양광 4% 낭비는 로이터 제목 기준.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 전력부 자료로 10월 10일 기준 석탄발전소 절반 가까이의 연료 재고가 필요량의 4분의 1 미만으로 떨어졌습니다 [사실]",
+  "산업 피해: 차티스가르주 소형 철강공장은 하루 10~12시간 정전으로 감산 중이고, 금속 제련·화학·제지 업체는 콜인디아가 계통 발전사에 우선 공급해 자가발전 연료를 구하지 못하고 있습니다 [사실]",
+  "가격·수급: 콜인디아 현물 경매 프리미엄은 9월 기준가 대비 94%로 8월 59%에서 뛰었고, 10월 첫 10일 전력망 부족분은 하루 평균 약 4GW였습니다 [사실]",
+  "원인: 2015년 이후 가장 약한 몬순으로 수력 발전이 줄고 더위로 냉방·관개 수요가 늘었습니다 [사실]",
+  "역설: 7~8월 전력난 속에서도 태양광 발전의 4%가 버려졌다는 보고서가 나왔습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 석탄난에 공장 정전 확산…철강공장 하루 10~12시간 단전, 태양광은 버려져",
+ "id": "n-rtr-0013",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "로이터",
+   "t": "콜인디아 9월 석탄 공급 6,120만 톤…12.5% 늘려도 발전소 재고는 바닥",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "인도 석탄발전소 절반 가까이 재고 '위험 수준'…정전 위험 커져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "인도 최대 발전사, 민간 석탄 구매 확대 계획",
+   "u": "https://www.reuters.com/business/energy/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-06/"
+  },
+  {
+   "t": "석탄난이 경제로 번지며 인도 공장들 정전 피해",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/blackouts-hit-indian-factories-as-coal-crunch-feeds-into-economy"
+  },
+  {
+   "t": "인도, 7~8월 전력난 속 태양광 발전 4% 버려져…보고서",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/india-wastes-4-solar-power-amid-power-shortages-july-august-report-shows-2026-10-12/"
+  }
+ ],
+ "key": "rtr-1001-coal-india-sept-supply",
+ "nodes": [
+  "coal/power",
+  "coal/thermal",
+  "power/demand",
+  "power/grid"
+ ],
+ "num": 13,
+ "one": "인도 석탄발전소 절반 가까이의 연료 재고가 필요량의 4분의 1 밑으로 떨어지자 콜인디아가 발전사 공급을 우선하면서 자가발전 연료를 못 구한 철강·화학 공장이 하루 최대 12시간 정전을 겪어, 석탄난이 산업 생산 감소로 번지고 있다",
+ "origTitle": "Coal India Augmented Coal Supplies By 12.5% To 61.20 MT In September FY 2026-27",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T16:47:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "로이터(원문 미확인, 제목만)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "웨일스북",
+   "u": "https://www.whalesbook.com/news/English/energy/India-Thermal-Plants-Face-Coal-Shortage-Demand-Hits-269-GW/6ac516a65aacb956d08e2aef"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Briefs(블룸버그·계통운영기관 자료 인용)",
+   "u": "https://www.briefs.co/news/india-s-power-shortfall-deepens-as-wind-slows-and-reservoirs/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "컨스트럭션월드",
+   "u": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/indias-peak-power-demand-eases-as-coal-stocks-stay-critical/98041"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "디스커버리얼러트",
+   "u": "https://discoveryalert.com/analysis/india-power-crunch-2026-grid-timing/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Mining Weekly",
+   "u": "https://www.miningweekly.com/article/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-07"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "HDFC Sky",
+   "u": "https://hdfcsky.com/news/ntpc-to-buy-10-15-mt-coal-from-commercial-miners-in-fy27"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-12",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Small-Indian-Factories-Face-Blackouts-as-Coal-Stocks-Plunge.html"
+  },
+  {
+   "o": "Engineering News",
+   "d": "2026-10-12",
+   "u": "https://www.engineeringnews.co.za/article/blackouts-hit-indian-factories-as-coal-crunch-feeds-into-economy-2026-10-12"
+  }
+ ],
+ "tags": [],
+ "title": "인도 석탄난에 공장 정전 확산…철강공장 하루 10~12시간 단전, 태양광은 버려져",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+}

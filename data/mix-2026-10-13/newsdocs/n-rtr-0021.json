@@ -1,0 +1,122 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 이번 기사들은 확인하지 않음. 기존 문서 사실은 기존 한줄 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 우간다 실링이 투자자들의 현지 채권 기피로 가장 부진한 통화가 됐다 [제목]",
+  "콩고: 통화 가치와 투자를 끌어올리려 프랑화 결제를 의무화할 계획이다 [제목]",
+  "케냐·모리셔스: 케냐는 국채 장외시장 개설을 계획하고, 모리셔스 금리 정책은 물가 지속 여부에 달렸다는 보도가 나왔다 [제목]",
+  "기존: 케냐 중앙은행은 10월 7일 기준금리를 8.75%로 동결했고 가나 9월 물가는 5.2%로 두 달째 올랐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아프리카 통화 압박 확산…우간다 실링 최약세, 콩고 '프랑 결제 의무화' 추진",
+ "id": "n-rtr-0021",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "남아공 중앙은행 '2차 물가 파급 위험 커져'",
+   "u": "https://www.reuters.com/world/africa/south-africa-central-bank-says-second-round-inflation-risks-rise-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "가나 물가 상승세 가팔라져 금리 동결 근거 강화",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ghana-s-inflation-rate-edges-higher-again-in-september"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "가나 9월 소비자물가 전년 대비 5.2% 상승",
+   "u": "https://www.reuters.com/world/africa/ghana-consumer-inflation-52-year-year-september-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "케냐, 이란 전쟁발 물가 위험 주시하며 금리 동결",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/kenya-holds-rates-with-eye-on-inflationary-risks-from-iran-war"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "케냐 중앙은행, 기준 대출금리 동결",
+   "u": "https://www.reuters.com/world/africa/kenya-central-bank-keeps-main-lending-rate-unchanged-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "아프리카 외환: 우간다 실링 강세 유지 전망",
+   "u": "https://www.reuters.com/world/africa/africa-fx-ugandas-currency-expected-remain-ropes-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "세계은행, 나이지리아 성장률 2028년까지 평균 4.4% 전망",
+   "u": "https://www.reuters.com/world/africa/world-bank-sees-nigeria-growth-averaging-44-through-2028-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "콩고 중앙은행, 기준금리 동결",
+   "u": "https://www.reuters.com/world/africa/congo-central-bank-keeps-policy-rate-125-2026-10-08/"
+  },
+  {
+   "t": "모리셔스 금리 정책 방향, 물가 상승 지속 여부에 달려",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/mauritius-rates-policy-to-hinge-on-persistance-of-inflation"
+  },
+  {
+   "t": "콩고, 통화·투자 부양 위해 프랑화 결제 요구",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/congo-to-demand-franc-payments-to-boost-currency-investment"
+  },
+  {
+   "t": "우간다 실링, 투자자 현지 채권 외면에 최약세 통화로",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/-usd-ugx-uganda-shilling-turns-worst-currency-as-investors-sour-on-local-debt"
+  },
+  {
+   "t": "케냐, 정부 증권 거래 위한 장외시장 개설 계획",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/kenya-plans-over-the-counter-market-for-government-securities"
+  }
+ ],
+ "key": "bnd-C003-2026-10-09",
+ "nodes": [
+  "macro/fx",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 21,
+ "one": "케냐가 기준금리를 동결하고 가나 물가가 두 달째 오른 데 이어 우간다 실링이 현지 채권 기피로 최약세 통화가 되고 콩고가 자국 프랑 결제 의무화에 나서면서, 아프리카 각국의 통화·금리 정책 부담이 커지고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T01:46:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "CNBC Africa",
+   "u": "https://www.cnbcafrica.com/2026/kenya-central-bank-keeps-main-lending-rate-unchanged"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Graphic Online",
+   "u": "https://www.graphic.com.gh/business/business-news/ghanas-inflation-rises-to-5-2-in-september.html"
+  }
+ ],
+ "tags": [],
+ "title": "아프리카 통화 압박 확산…우간다 실링 최약세, 콩고 '프랑 결제 의무화' 추진",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.reuters.com/world/africa/south-africa-central-bank-says-second-round-inflation-risks-rise-2026-10-06/"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "n-tg-0226",
+ "num": 226,
+ "key": "mix-C014-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T07:32:00+09:00",
+ "url": "https://t.me/insidertracking/66012",
+ "origTitle": "",
+ "headline": "북한, 동해상 탄도미사일 발사…KCNA '전술탄도미사일 시험', 트럼프는 김정은 회동 거론",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/66012"
+  },
+  {
+   "o": "Free Malaysia Today",
+   "d": "2026-10-13",
+   "u": "https://www.freemalaysiatoday.com/category/highlight/2026/10/13/north-korea-fires-ballistic-missiles-into-sea-of-japan"
+  },
+  {
+   "o": "TASS",
+   "d": "2026-10-13",
+   "u": "https://tass.com/world/2201159"
+  }
+ ],
+ "items": [
+  {
+   "t": "한·일 \"북한 또 탄도미사일 발사\"…최근 2주 새 두 번째",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/66012"
+  },
+  {
+   "t": "북한, 국경 침범 경고를 내놓은 뒤 미사일 발사",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/north-korea-fires-projectile-off-its-east-coast-south-says"
+  },
+  {
+   "t": "NHK \"북한, 동해로 탄도미사일 3발 발사\"",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10353"
+  },
+  {
+   "t": "한국 정부 \"북한, 동해상으로 미상 발사체를 발사했다\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-sea-off-its-east-coast-seoul-2026-10-12/"
+  },
+  {
+   "t": "미 태평양사령부 \"북한 탄도미사일 2발, 즉각적 위협 아냐\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66080"
+  },
+  {
+   "t": "조선중앙통신 \"북한, 전술탄도미사일 시험 발사 진행\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/north-korea-test-fires-tactical-ballistic-missile-kcna-says-2026-10-12/"
+  },
+  {
+   "t": "트럼프, 아시아 순방 중 김정은과 회동 가능성 거론",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-floats-potential-meeting-with-kim-jong-un-during-asia-trip"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "channel": "미국 주식 인사이더",
+ "title": "북한, 동해상 탄도미사일 발사…KCNA '전술탄도미사일 시험', 트럼프는 김정은 회동 거론",
+ "one": "북한이 10월 12일 동해상으로 탄도미사일을 쏘고 조선중앙통신이 이를 전술탄도미사일 시험이라고 밝힌 가운데 트럼프 대통령이 아시아 순방 중 김정은 위원장과의 회동 가능성을 거론하면서, 한반도 지정학 위험과 외교 변수가 함께 부각되고 있다",
+ "facts": [
+  "무엇이: 북한이 10월 12일 평양 일대에서 동해상으로 탄도미사일을 발사했고, 합참은 일부가 900km 넘게 날아갔다고 밝혔다 [사실]",
+  "발사 수: 미 태평양사령부는 2발로 파악하고 미군·동맹국에 즉각적 위협은 아니라고 평가했으며, NHK는 3발로 전했다 [사실]",
+  "북한 발표: 조선중앙통신은 미사일 핵심 요소의 기술 개량을 확인한 전술탄도미사일 시험이라고 밝혔고, 한 달 새 네 번째 발사라는 집계도 있다 [사실]",
+  "외교: 트럼프 대통령이 아시아 순방 중 김정은 위원장과 만날 가능성을 거론했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "발사·발사 수 차이·KCNA 발표는 검색 결과 요약(로이터 전재 제외 매체)으로 확인. 트럼프 회동 언급은 제목 근거",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

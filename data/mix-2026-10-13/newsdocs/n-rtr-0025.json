@@ -1,0 +1,145 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 탄의 도박꾼 비유·자본 병목 발언, 퍼머스 그리드 IPO 철회, OpenAI 연환산 매출 500억 달러(트레이딩피디아·푸투). 제프리스 수주잔고 집중은 회사별 비중으로 확인(합계 2조 3,400억 달러 중 절반 수치는 확인 못 함). CFO 지출 긴축은 제목뿐",
+ "cycles": [],
+ "facts": [
+  "무엇이: 혹 탄 CEO가 10월 12일 싱가포르 DBS 행사에서 많은 AI 투자자가 무엇에 투자하는지 모르는 도박꾼 같다며, 자본이 칩·메모리·전력 부족을 대신해 AI 발전의 최대 병목이 되고 있다고 발언 [사실]",
+  "신용 집중: 제프리스 크리스 우드는 OpenAI·앤트로픽이 아마존 수주잔고의 45~50%, 구글의 약 40%를 차지한다며 서브프라임 위기에 비유하고, 신용시장이 자금을 거두는 순간 AI 거래가 무너질 수 있다고 경고 [사실]",
+  "자금 시장: 엔비디아가 지원하는 호주 데이터센터 기업 퍼머스 그리드가 55억 달러 IPO를 철회했고, 탄은 OpenAI가 9월 연환산 매출 500억 달러에도 적자라고 지적 [사실]",
+  "기업 지출: CFO들이 AI 지출 고삐를 죄고 있고 틱톡 추 CEO와 MS 알트호프도 AI 과열을 경고 [제목]",
+  "기존: 웡 싱가포르 총리가 10월 8일 AI 기술 랠리가 결국 조정을 맞을 것이라고 경고 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 거품 경고 확산…브로드컴 탄 \"투자자 다수가 도박꾼\", 제프리스 \"2008년 모먼트\"",
+ "id": "n-rtr-0025",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "싱가포르 포럼서 거품 우려에 존재론적 위협까지…AI 분위기 가라앉아",
+   "u": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "노보그라츠도 AI 거품론 가세…그래도 \"뛰어들라\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/novogratz-says-ai-is-in-a-bubble-and-investors-should-pile-in"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/robert-rubin-warns-ai-boom-carries-risks-for-us-economy-markets"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "전략가 \"AI 거품, 2008년 이후 최악의 S&P500 폭락 위험\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-bubble-risks-worst-s-p-500-crash-since-2008-strategist-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+  },
+  {
+   "t": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics"
+  },
+  {
+   "t": "제프리스 \"2008년 모먼트\" 경고…AI 하이퍼스케일러 수주잔고 절반이 OpenAI·앤트로픽",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70247"
+  },
+  {
+   "t": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/tiktok-s-chew-and-microsoft-s-althoff-warn-about-runaway-ai-hype"
+  },
+  {
+   "t": "브로드컴 CEO \"AI 기술 성장의 최대 장애물은 메모리가 아닌 자본\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/asia-pacific/broadcom-ceo-says-biggest-hurdle-ai-fuelled-tech-growth-is-capital-not-memory-2026-10-12/"
+  },
+  {
+   "t": "브로드컴 혹 탄 \"AI 최대 제약은 메모리 아닌 자본\"…웨이퍼 부족은 극복 중",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-12",
+   "u": "https://t.me/TNBfolio/71501"
+  },
+  {
+   "t": "브로드컴 CEO, 많은 AI 투자자를 카지노 도박꾼에 비유",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/broadcom-ceo-likens-many-ai-investors-to-casino-gamblers"
+  },
+  {
+   "t": "브로드컴 CEO \"AI 투자자는 카지노 도박꾼\"…인텔 립부 탄도 자금 조달 비용 우려",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70301"
+  },
+  {
+   "t": "혹 탄, 적자 AI 연구소 경제성에 의문…퍼머스 그리드 55억 달러 IPO 철회",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71509"
+  }
+ ],
+ "key": "bnd-C026-2026-10-09",
+ "nodes": [
+  "macro/growth",
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 25,
+ "one": "혹 탄 브로드컴 CEO가 AI 투자자 다수를 카지노 도박꾼에 비유하며 자본이 AI 성장의 최대 제약이 됐다고 말하고 제프리스가 하이퍼스케일러 수주잔고의 OpenAI·앤트로픽 쏠림을 2008년 위기에 견주면서, AI 인프라 자금줄에 대한 경계가 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T07:07:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "싱가포르 총리실",
+   "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CryptoBriefing",
+   "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+  },
+  {
+   "o": "Tradingpedia",
+   "d": "2026-10-12",
+   "u": "https://www.tradingpedia.com/2026/10/12/broadcom-chief-flags-casino-like-speculation-in-ai-stocks/"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-12",
+   "u": "https://news.futunn.com/en/post/1000898139/broadcom-ceo-many-ai-investors-are-like-casino-gamblers-capital"
+  },
+  {
+   "o": "Tiger Brokers",
+   "d": "2026-10-12",
+   "u": "https://www.itiger.com/news/1179263540"
+  }
+ ],
+ "tags": [],
+ "title": "AI 거품 경고 확산…브로드컴 탄 \"투자자 다수가 도박꾼\", 제프리스 \"2008년 모먼트\"",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/",
+ "ind": "semis"
+}

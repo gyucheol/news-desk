@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0207",
+ "num": 207,
+ "key": "mix-C111-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T17:05:00+09:00",
+ "url": "https://www.reuters.com/business/energy/wind-turbine-maker-nordex-q3-orders-rise-turkish-demand-us-recovery-2026-10-12/",
+ "origTitle": "",
+ "headline": "노르덱스 3분기 수주 29.5% 늘어난 2.8GW…튀르키예·독일·미국이 견인",
+ "src": [
+  {
+   "o": "energy-pedia",
+   "d": "2026-10-12",
+   "u": "https://www.energy-pedia.com/news/general/nordex-group-order-intake-rises-29-5pc-to-2-8-gw-in-the-third-quarter-of-2026-205627"
+  },
+  {
+   "o": "Renewable Energy Industry",
+   "d": "2026-10-12",
+   "u": "https://www.renewable-energy-industry.com/news/world/article-7701"
+  }
+ ],
+ "items": [
+  {
+   "t": "풍력터빈 업체 노르덱스, 튀르키예 수요·미국 회복에 3분기 수주 증가",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/wind-turbine-maker-nordex-q3-orders-rise-turkish-demand-us-recovery-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind"
+ ],
+ "title": "노르덱스 3분기 수주 29.5% 늘어난 2.8GW…튀르키예·독일·미국이 견인",
+ "one": "독일 풍력터빈 업체 노르덱스의 3분기 수주가 튀르키예·독일·미국 수요에 힘입어 1년 전보다 29.5% 늘어난 2,810MW를 기록하면서, 미국 풍력 시장 회복이 터빈 수주로 이어지고 있다",
+ "facts": [
+  "무엇이: 노르덱스의 3분기 프로젝트 수주는 2,810MW로 1년 전 2,170MW보다 29.5% 늘었고, 1~9월 누적은 7,733MW로 16.1% 증가했습니다 [사실]",
+  "지역: 10개국 427기 가운데 튀르키예가 900MW 넘게 최대였고, 미국은 연초 이후 1.3GW 넘게 수주했습니다 [사실]",
+  "가격: 평균 판매가격은 MW당 90만 유로로 1년 전 93만 유로보다 조금 낮았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 발표 검색 결과 요약으로 확인. 3분기만의 미국 수주량은 공개되지 않음"
+}

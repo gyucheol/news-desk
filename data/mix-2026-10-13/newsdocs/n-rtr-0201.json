@@ -1,0 +1,68 @@
+{
+ "id": "n-rtr-0201",
+ "num": 201,
+ "key": "mix-C061-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T05:30:00+09:00",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/",
+ "origTitle": "",
+ "headline": "유럽 에너지값 대책 분주…獨 전기세 EU 최저로, EU는 석유·가스 횡재세 검토",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-12",
+   "u": "https://www.globalbankingandfinance.com/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar/"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-12",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  }
+ ],
+ "items": [
+  {
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  },
+  {
+   "t": "영국 송전망, 공급 확보 위해 프랑스에 긴급 전력 요청",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-grid-seeks-emergency-french-power-to-secure-supplies"
+  },
+  {
+   "t": "에너지 가격 급등에 EU, 석유·가스 횡재세 검토",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/market",
+  "gas/demand"
+ ],
+ "title": "유럽 에너지값 대책 분주…獨 전기세 EU 최저로, EU는 석유·가스 횡재세 검토",
+ "one": "메르츠 독일 총리가 모든 소비자의 전기세를 EU 최저 수준으로 낮추겠다고 약속하고 EU 집행위가 석유·가스 기업 횡재세 검토 작업반을 꾸리면서, 이란 전쟁발 에너지값 급등의 부담 일부가 에너지 기업 이익 쪽으로 옮겨갈 수 있다",
+ "facts": [
+  "무엇이: 메르츠 총리가 10월 12일 지난해 재원 부족으로 접었던 전 소비자 전기세 인하를 EU 최저 수준으로 다시 약속, 현재 세율은 kWh당 2.05센트이고 EU 최저는 0.05센트 [사실]",
+  "재원: 성장 전망 개선으로 연방 세수가 필요액인 약 50억 유로 늘 수 있다고 설명 [사실]",
+  "EU: 훅스트라 세제 담당 집행위원이 석유·가스 기업 횡재세의 득실을 따질 작업반을 꾸리고 있으며, 2022년에는 초과이익에 최소 33%를 부과해 약 290억 유로를 거뒀음 [사실]",
+  "영국: 송전망 운영사가 공급 확보를 위해 프랑스에 긴급 전력을 요청 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 메르츠 전기세 인하 약속과 세율·50억 유로, EU 횡재세 작업반과 2022년 33%·290억 유로(인베스팅닷컴 자체 기사·글로벌뱅킹앤파이낸스). 영국 프랑스 긴급 전력 요청은 제목만",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

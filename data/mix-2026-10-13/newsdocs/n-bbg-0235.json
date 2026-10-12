@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0235",
+ "num": 235,
+ "key": "mix-C034-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T23:09:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/prospect-of-arctic-blasts-threatens-energy-traders-el-nino-bets",
+ "origTitle": "",
+ "headline": "EU 가스 저장률 73%로 2011년 이후 최저…트레이더는 엘니뇨 온화한 겨울에 베팅",
+ "src": [
+  {
+   "o": "IEEFA",
+   "d": "2026-10",
+   "u": "https://ieefa.org/resources/eu-may-need-cut-winter-gas-demand-7-gas-storage-record-seasonal-low"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-09",
+   "u": "https://www.euronews.com/2026/10/09/eu-may-need-to-cut-winter-gas-demand-by-7-as-storage-hits-record-low-ieefa-warns"
+  }
+ ],
+ "items": [
+  {
+   "t": "북극 한파 가능성, 에너지 트레이더들의 엘니뇨 베팅 위협",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/prospect-of-arctic-blasts-threatens-energy-traders-el-nino-bets"
+  },
+  {
+   "t": "10월 초 EU 가스 저장량 약 73%로 2011년 이후 계절 최저",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10348"
+  },
+  {
+   "t": "유럽, 가스 재고 저점 속 또 한 해 가스 고가 예고",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/"
+  },
+  {
+   "t": "가스 트레이더들, 북극 한파 위험에도 엘니뇨 베팅 몰려",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/gas-traders-pile-into-el-nino-bet-despite-arctic-cold-risk"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade",
+  "gas/demand"
+ ],
+ "title": "EU 가스 저장률 73%로 2011년 이후 최저…트레이더는 엘니뇨 온화한 겨울에 베팅",
+ "one": "EU 가스 저장률이 10월 초 약 73%로 2011년 집계 이후 같은 시기 최저에 머물러 겨울 수요를 7% 줄여야 할 수 있다는 경고가 나온 가운데, 트레이더들이 엘니뇨발 온화한 겨울에 베팅하고 있어 북극 한파가 오면 유럽 가스 가격이 다시 뛸 수 있다",
+ "facts": [
+  "무엇이: EU 가스 저장률이 10월 3일 72.4%, 10월 6일 약 73%로 2011년 집계 이후 같은 날짜 기준 최저를 기록했습니다 [사실]",
+  "수요 감축: IEEFA는 EU가 지난겨울보다 가스 수요를 7%(약 140억 입방미터) 줄여야 할 수 있다고 경고했습니다 [사실]",
+  "트레이더: 북극 한파 위험에도 가스 트레이더들이 엘니뇨 베팅에 몰리고 있습니다 [제목]",
+  "가격: 저장 저점 속에 유럽 가스 가격이 또 한 해 고가를 이어갈 전망입니다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "저장률 72.4~73%·2011년 이후 최저, IEEFA 7% 감축 경고는 검색 결과 요약으로 확인",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

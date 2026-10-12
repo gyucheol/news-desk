@@ -259,7 +259,14 @@
   const setDoc = (ref, body) => { if (ref) writing = writing.then(() => ref.set(body)).catch(() => {}); };
   const saveReqs = () => setDoc(reqRef, { ids: Object.assign({}, reqs), done: Object.assign({}, reqDone) });
   const saveDreqs = () => setDoc(dreqRef, { ids: Object.assign({}, dreqs), sent: Object.assign({}, dsent), sess: Object.assign({}, dsess), done: Object.assign({}, dreqDone) });
-  const saveReads = () => setDoc(readRef, { ids: Object.assign({}, reads) });
+  // 읽음 기록: 로그인한 계정의 개인 저장소(data/users/<id>/reads)에 쓰고, 이 브라우저에도 계정별로 사본을 둡니다.
+  // 링크로 공유받은 사람(보기 권한)은 개인 저장소에 쓸 수 없어(플랫폼 규칙) 브라우저 사본이 그 사람의 읽음 기록이 됩니다.
+  let readKey = 'deskReads:anon';
+  const localReads = () => { try { const o = JSON.parse(localStorage.getItem(readKey) || '{}'); return o && typeof o === 'object' ? o : {}; } catch (e) { return {}; } };
+  const saveReads = () => {
+    try { localStorage.setItem(readKey, JSON.stringify(reads)); } catch (e) {}
+    setDoc(readRef, { ids: Object.assign({}, reads) });
+  };
   const rerender = () => { renderNav(); if (st.tab === 'req') renderReq(); else if (st.tab === 'news') renderNews(); renderBar(); };
 
   document.addEventListener('change', e => {
@@ -338,13 +345,15 @@
     try {
       const user = await CL.use('user');
       const uid = user && await user.id();
+      readKey = 'deskReads:' + (uid || 'anon');
+      if (!uid) { reads = localReads(); rerender(); }
       if (uid) {
         const watch = (name, fn) => { const ref = db.doc('data/users/' + uid + '/' + name); ref.onSnapshot(snap => { fn(snap.exists ? (snap.data() || {}) : {}); rerender(); }, () => {}); return ref; };
-        readRef = watch('reads', d => { if (d.ids) reads = Object.assign({}, d.ids); });
+        readRef = watch('reads', d => { const srv = d.ids || {}; reads = Object.keys(srv).length ? Object.assign({}, srv) : localReads(); });
         reqRef = watch('insightReq', d => { reqs = Object.assign({}, d.ids || {}); reqDone = Object.assign({}, d.done || {}); });
         dreqRef = watch('detailReq', d => { dreqs = Object.assign({}, d.ids || {}); dreqDone = Object.assign({}, d.done || {}); dsent = Object.assign({}, d.sent || {}); dsess = Object.assign({}, d.sess || {}); });
       }
-    } catch (e) {}
+    } catch (e) { reads = localReads(); rerender(); }
   })();
 
   // 테마 바꾸기: 기본은 어두운 테마. 고른 값은 이 브라우저에만 기억합니다(저장이 막혀 있으면 이번 화면에만 적용).

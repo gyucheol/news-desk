@@ -9,7 +9,7 @@ def add(cid, attach, title, one, facts, basis, check, src, inds, nodes, its):
                   "basis": basis, "check": check, "src": src, "inds": inds, "nodes": nodes, "items": its})
 
 add("C003", "n-tg-0125",
- "RBI, 정유사 달러 창구·파생상품 규제로 루피 방어…루피 1% 반등, 9월 물가 2년 만의 최고",
+ "RBI, 정유사 달러 창구로 루피 방어…루피 1% 반등, 9월 물가 2년 만의 최고",
  "인도중앙은행이 금리 인상에 이어 국영 정유사 전용 달러 창구와 외환파생상품 규제로 루피 방어에 나서 루피가 1% 반등했지만, 9월 물가가 5.54%로 2년 만의 최고로 오르고 채권 매도가 이어지면서 추가 긴축 압력이 커지고 있다",
  ["무엇이: RBI가 10월 12일부터 인도석유(IOC)·HPCL·BPCL 등 국영 정유사 3곳의 달러 수요를 직접 맡는 특별 창구를 열고, 외환파생상품 재예약을 막는 등 방어 조치를 내놨다 [사실]",
   "루피: 조치 뒤 루피가 달러 대비 1% 올랐다(직전 금요일 종가 달러당 96.71루피 보도) [채널]",
@@ -32,9 +32,9 @@ add("C003", "n-tg-0125",
   it("인도 중앙은행 규제로 루피 약세 대비 기업 헤지 쏠림 진정", R, "2026-10-12", "https://www.reuters.com/world/india/indian-central-bank-curbs-temper-corporate-rush-hedge-against-rupee-weakness-2026-10-12/"),
   it("RBI 창구, 정유사 월 100억 달러 수요 맡아 루피 지원", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/rbi-window-to-meet-refiners-10-billion-monthly-need-aid-rupee"),
   it("RBI가 원유 달러 수요 돌리고 일부 외환 헤지 비용 올리자 루피 1% 급등", R, "2026-10-12", "https://www.reuters.com/world/india/rupee-jumps-1-after-rbi-redirects-oil-dollar-demand-raises-cost-some-fx-hedges-2026-10-12/"),
-  it("인도 물가 2년 만의 최고, RBI 긴축 뒷받침", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"),
+  it("인도 물가 약 2년 만의 최고치 기록, RBI 긴축 기조 뒷받침", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"),
   it("인도 9월 CPI 5.54%로 약 2년 만의 최고…중앙은행 긴축 압력 확대", "텔레그램 하나증권 중국전략", "2026-10-12", "https://t.me/HANAchina/70290"),
-  it("인도 9월 소매물가 전년비 5.54% 상승", R, "2026-10-12", "https://www.reuters.com/world/india/indias-september-retail-inflation-554-on-year-2026-10-12/"),
+  it("인도 9월 소매물가 상승률, 전년 대비 5.54% 기록", R, "2026-10-12", "https://www.reuters.com/world/india/indias-september-retail-inflation-554-on-year-2026-10-12/"),
   it("인도 중앙은행, 루피 역외선물환(NDF) 규칙 강화·적용 확대", R, "2026-10-13", "https://www.reuters.com/world/india/indias-central-bank-tightens-rules-rupee-non-deliverable-contracts-widens-20-2026-10-12/")])
 
 add("C014", "",
@@ -49,11 +49,11 @@ add("C014", "",
   {"o": "TASS", "d": "2026-10-13", "u": "https://tass.com/world/2201159"}],
  ["macro"], ["macro/geo"],
  [it("한·일 \"북한 또 탄도미사일 발사\"…최근 2주 새 두 번째", "텔레그램 미국 주식 인사이더", "2026-10-12", "https://t.me/insidertracking/66012"),
-  it("북한, 국경 침범 경고 뒤 미사일 발사", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/north-korea-fires-projectile-off-its-east-coast-south-says"),
+  it("북한, 국경 침범 경고를 내놓은 뒤 미사일 발사", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/north-korea-fires-projectile-off-its-east-coast-south-says"),
   it("NHK \"북한, 동해로 탄도미사일 3발 발사\"", "텔레그램 트릴리온", "2026-10-12", "https://t.me/Trillion_labs/10353"),
-  it("서울 \"북한, 동해상으로 미상 발사체 발사\"", R, "2026-10-13", "https://www.reuters.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-sea-off-its-east-coast-seoul-2026-10-12/"),
+  it("한국 정부 \"북한, 동해상으로 미상 발사체를 발사했다\"", R, "2026-10-13", "https://www.reuters.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-sea-off-its-east-coast-seoul-2026-10-12/"),
   it("미 태평양사령부 \"북한 탄도미사일 2발, 즉각적 위협 아냐\"", "텔레그램 미국 주식 인사이더", "2026-10-13", "https://t.me/insidertracking/66080"),
-  it("조선중앙통신 \"북한, 전술탄도미사일 시험 발사\"", R, "2026-10-13", "https://www.reuters.com/world/asia-pacific/north-korea-test-fires-tactical-ballistic-missile-kcna-says-2026-10-12/"),
+  it("조선중앙통신 \"북한, 전술탄도미사일 시험 발사 진행\"", R, "2026-10-13", "https://www.reuters.com/world/asia-pacific/north-korea-test-fires-tactical-ballistic-missile-kcna-says-2026-10-12/"),
   it("트럼프, 아시아 순방 중 김정은과 회동 가능성 거론", B, "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-12/trump-floats-potential-meeting-with-kim-jong-un-during-asia-trip")])
 
 add("C021", "n-tg-0182",
@@ -72,7 +72,7 @@ add("C021", "n-tg-0182",
   it("모건스탠리 \"2026~2028년 미국 데이터센터 전력 순부족 32GW\"", "텔레그램 부의 나침반", "2026-10-12", "https://t.me/w_compass/7257"),
   it("AI 데이터센터 전력 순부족 32GW…공급 시점이 설비투자 핵심 변수로", "텔레그램 하나증권 중국전략", "2026-10-12", "https://t.me/HANAchina/70262"),
   it("가뭄 지역에서 늘어나는 AI 데이터센터 물 사용", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas"),
-  it("전력난에 직면한 AI 데이터센터", B, "2026-10-12", "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-data-centers-face-power-crunch"),
+  it("AI 데이터센터들, 전력 공급 부족 사태에 직면", B, "2026-10-12", "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-data-centers-face-power-crunch"),
   it("미 규제위, PJM 데이터센터 등록제 승인하고 전력 차단안은 기각", R, "2026-10-13", "https://www.reuters.com/business/energy/us-panel-approves-pjms-registry-data-centers-rejects-plan-curtail-power-them-2026-10-12/")])
 
 add("C028", "n-bbg-0058",
@@ -105,10 +105,10 @@ add("C035", "n-bbg-0085",
  [{"o": "The Rio Times", "d": "2026-10-12", "u": "https://www.riotimesonline.com/chile-el-teniente-avalanche-2026/"},
   {"o": "Discovery Alert", "d": "2026-10-11", "u": "https://discoveryalert.com/news/el-teniente-mudslide-codelco-workers-trapped-october-2026/"}],
  ["metals"], [],
- [it("코델코 구리광산 눈사태로 또 사망자 발생", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-11/codelco-races-to-rescue-workers-after-accident-at-chilean-mine"),
+ [it("칠레 코델코 구리광산에 눈사태, 또다시 사망자 발생", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-11/codelco-races-to-rescue-workers-after-accident-at-chilean-mine"),
   it("칠레 현지 소식통 \"에스콘디다 생산 35% 가까이 감소 가능성\"", "텔레그램 트릴리온", "2026-10-12", "https://t.me/Trillion_labs/10352"),
   it("칠레 코델코, 엘테니엔테 광산 토사 유출로 노동자 3명 피해", R, "2026-10-12", "https://www.reuters.com/world/americas/chiles-codelco-reports-mudslide-el-teniente-mine-three-workers-affected-2026-10-11/"),
-  it("금리 전망과 칠레 광산 눈사태에 구리값 상승", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche")])
+  it("금리 인상 기대 완화와 칠레 광산 눈사태에 구리값 상승", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche")])
 
 add("C043", "n-rtr-0021",
  "아프리카 통화 압박 확산…우간다 실링 최약세, 콩고 '프랑 결제 의무화' 추진",
@@ -119,10 +119,10 @@ add("C043", "n-rtr-0021",
   "기존: 케냐 중앙은행은 10월 7일 기준금리를 8.75%로 동결했고 가나 9월 물가는 5.2%로 두 달째 올랐다 [사실]"],
  "title", "검색 한도로 이번 기사들은 확인하지 않음. 기존 문서 사실은 기존 한줄 근거",
  [], ["macro"], ["macro/fx", "macro/rates"],
- [it("모리셔스 금리 정책, 물가 지속 여부에 달려", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/mauritius-rates-policy-to-hinge-on-persistance-of-inflation"),
+ [it("모리셔스 금리 정책 방향, 물가 상승 지속 여부에 달려", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/mauritius-rates-policy-to-hinge-on-persistance-of-inflation"),
   it("콩고, 통화·투자 부양 위해 프랑화 결제 요구", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/congo-to-demand-franc-payments-to-boost-currency-investment"),
   it("우간다 실링, 투자자 현지 채권 외면에 최약세 통화로", B, "2026-10-12", "https://www.bloomberg.com/news/articles/2026-10-12/-usd-ugx-uganda-shilling-turns-worst-currency-as-investors-sour-on-local-debt"),
-  it("케냐, 국채 장외시장 개설 계획", B, "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-12/kenya-plans-over-the-counter-market-for-government-securities")])
+  it("케냐, 정부 증권 거래 위한 장외시장 개설 계획", B, "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-12/kenya-plans-over-the-counter-market-for-government-securities")])
 
 add("C051", "",
  "칩·부품 가격 인상 확산…인텔·퀄컴 이어 AMD, 후공정 10~30%·유리섬유 천도 인상",
@@ -156,7 +156,7 @@ add("C059", "",
   it("아이온큐, 사이버보안 기업 엘리시티를 최대 13억 달러에 인수", R, "2026-10-13", "https://www.reuters.com/legal/transactional/ionq-buy-cybersecurity-firm-elisity-up-13-billion-deal-2026-10-12/")])
 
 add("C067", "n-tg-0210",
- "메모리값 급등에 3분기 스마트폰 출하 20% 감소…14년 만의 최악, 노트북은 '中 회귀' 고심",
+ "메모리값에 3분기 스마트폰 출하 20% 감소, 14년 만의 최악…노트북 '中 회귀' 고심",
  "메모리값 급등으로 애플이 아이폰18 프로 부품 주문을 줄인 데 이어 3분기 세계 스마트폰 출하가 20% 줄어 14년 만의 최악을 기록하고 노트북 업체들이 중국 생산 회귀를 저울질하면서, 부품 원가 부담이 기기 판매량을 끌어내리고 있다",
  ["무엇이: 카운터포인트 잠정치로 3분기 세계 스마트폰 출하가 전년보다 약 20% 줄어 2012년 이후 가장 부진한 3분기를 기록했다 [사실]",
   "원인: D램·낸드 가격 상승분이 전가되며 올해 평균판매가격이 약 20% 올랐고, 초저가폰은 메모리가 원가의 최대 64%를 차지한다 [사실]",
@@ -195,7 +195,7 @@ add("C083", "",
  [{"o": "The Hollywood Reporter", "d": "2026-10-12", "u": "https://www.hollywoodreporter.com/business/business-news/getty-images-to-file-for-bankruptcy-go-private-1236727902/"},
   {"o": "Quartz", "d": "2026-10-12", "u": "https://qz.com/getty-images-bankruptcy-private-koch-equity-101226"}],
  ["tech"], [],
- [it("게티이미지, 구조조정 합의 뒤 비상장 전환", R, "2026-10-13", "https://www.reuters.com/business/getty-images-go-private-after-restructuring-deal-2026-10-12/"),
+ [it("게티이미지, 구조조정 합의 뒤 비상장 회사로 전환", R, "2026-10-13", "https://www.reuters.com/business/getty-images-go-private-after-restructuring-deal-2026-10-12/"),
   it("코크·게티 가문, 파산 거래로 게티이미지 비상장화에 손잡아", B, "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-12/koch-getty-families-team-up-to-take-getty-images-private-in-bankruptcy-deal")])
 
 add("C091", "",

@@ -1,3 +1,4 @@
+<script>try { if (localStorage.getItem('deskTheme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>
 <div class="wrap">
   <header class="mast">
     <div class="mast-t">
@@ -8,6 +9,7 @@
       <button type="button" class="navlink" id="tab-news" data-tab="news" aria-current="page">뉴스</button>
       <button type="button" class="navlink" id="tab-ind" data-tab="ind">산업 한 페이지</button>
       <button type="button" class="navlink" id="tab-req" data-tab="req">요청한 뉴스</button>
+      <button type="button" class="navlink theme" id="themebtn" aria-label="밝은 테마로 바꾸기">☀️ 라이트</button>
     </nav>
   </header>
 

@@ -346,4 +346,19 @@
       }
     } catch (e) {}
   })();
+
+  // 테마 바꾸기: 기본은 어두운 테마. 고른 값은 이 브라우저에만 기억합니다(저장이 막혀 있으면 이번 화면에만 적용).
+  const themeBtn = $('themebtn');
+  const paintTheme = () => {
+    const light = document.documentElement.dataset.theme === 'light';
+    themeBtn.textContent = light ? '🌙 다크' : '☀️ 라이트';
+    themeBtn.setAttribute('aria-label', light ? '어두운 테마로 바꾸기' : '밝은 테마로 바꾸기');
+  };
+  themeBtn.addEventListener('click', () => {
+    const light = document.documentElement.dataset.theme !== 'light';
+    if (light) document.documentElement.dataset.theme = 'light'; else delete document.documentElement.dataset.theme;
+    try { localStorage.setItem('deskTheme', light ? 'light' : 'dark'); } catch (e) {}
+    paintTheme();
+  });
+  paintTheme();
 })();

@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
 <style>
 @font-face{font-family:"Pretendard Variable";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
-/* Layout: 토스 계열 제품 화면 — 어두운 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 어두운 테마(2026-10-09 사용자 결정, 이전에는 항상 밝은 테마).
+/* Layout: 토스 계열 제품 화면 — 어두운 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 기본은 어두운 테마, 오른쪽 위 버튼으로 밝은 테마와 바꿈(2026-10-12 사용자 결정, 고른 값은 이 브라우저에 기억).
    뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 뉴스 내용 및 인사이트 요청 → 요청한 뉴스 탭에 자세한 내용 + 투자 인사이트.
    산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 요청한 뉴스 = 요청 버튼으로 맡긴 뉴스의 자세한 내용·투자 인사이트. */
 :root{
@@ -28,6 +28,27 @@
   color-scheme:dark;
 }
 html,body{background:var(--bg)}
+/* 밝은 테마: 오른쪽 위 테마 버튼으로 바꿈(html[data-theme=light]). 값은 v47까지 쓰던 밝은 색 그대로. */
+html[data-theme="light"]{
+  --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
+  --surf:#F9FAFB; --surf-line:#E5E8EB; --on-surf:#191F28; --on-surf-soft:#6B7684;
+  --feat:#191F28; --feat-ink:#FFFFFF;
+  --ink:#191F28; --strong:#333D4B; --body:#4E5968; --muted:#6B7684; --faint:#8B95A1;
+  --line:#E5E8EB; --line-soft:#F2F4F6; --line-strong:#D1D6DB;
+  --accent:#3182F6; --accent-press:#1065CC; --accent-ink:#FFFFFF; --link:#3182F6;
+  --accent-soft:#E8F3FF; --accent-strong:#1B64DA; --accent-ring:rgba(49,130,246,.24); --accent-hover:#2272EB;
+  --warn:#FF8800; --warn-soft:#FFF3E5; --warn-strong:#B85E00;
+  --good-soft:#E8F7EE; --good-strong:#0E7A3E;
+  --note-soft:#EEF0FF; --note-strong:#4450B8;
+  --risk-soft:#FDECEC; --risk-strong:#B42318;
+  --bar-bg:rgba(255,255,255,.96);
+  --hl:#333D4B; --hl-bg:rgba(25,31,40,.08);
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7684' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  color-scheme:light;
+}
+.navlink.theme{border:1px solid var(--line-strong);color:var(--strong)}
+.navlink.theme:hover{background:var(--card)}
+
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--body);font-family:var(--font-body);font-size:15px;line-height:1.6;letter-spacing:-.005em;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
 .wrap{max-width:960px;margin:0 auto;padding-inline:clamp(16px,3.4vw,32px);padding-block:40px 132px;display:flex;flex-direction:column;gap:24px}
@@ -409,6 +430,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 </style>
 
+<script>try { if (localStorage.getItem('deskTheme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>
 <div class="wrap">
   <header class="mast">
     <div class="mast-t">
@@ -419,6 +441,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       <button type="button" class="navlink" id="tab-news" data-tab="news" aria-current="page">뉴스</button>
       <button type="button" class="navlink" id="tab-ind" data-tab="ind">산업 한 페이지</button>
       <button type="button" class="navlink" id="tab-req" data-tab="req">요청한 뉴스</button>
+      <button type="button" class="navlink theme" id="themebtn" aria-label="밝은 테마로 바꾸기">☀️ 라이트</button>
     </nav>
   </header>
 
@@ -1039,5 +1062,20 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
       }
     } catch (e) {}
   })();
+
+  // 테마 바꾸기: 기본은 어두운 테마. 고른 값은 이 브라우저에만 기억합니다(저장이 막혀 있으면 이번 화면에만 적용).
+  const themeBtn = $('themebtn');
+  const paintTheme = () => {
+    const light = document.documentElement.dataset.theme === 'light';
+    themeBtn.textContent = light ? '🌙 다크' : '☀️ 라이트';
+    themeBtn.setAttribute('aria-label', light ? '어두운 테마로 바꾸기' : '밝은 테마로 바꾸기');
+  };
+  themeBtn.addEventListener('click', () => {
+    const light = document.documentElement.dataset.theme !== 'light';
+    if (light) document.documentElement.dataset.theme = 'light'; else delete document.documentElement.dataset.theme;
+    try { localStorage.setItem('deskTheme', light ? 'light' : 'dark'); } catch (e) {}
+    paintTheme();
+  });
+  paintTheme();
 })();
 </script>

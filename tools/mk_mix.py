@@ -117,7 +117,7 @@ for p in glob.glob(f'{DUMP}/*.jsonl'):
     ids = [json.loads(l)['id'] for l in open(p)]
     if ids: last[os.path.basename(p)[:-6]] = max(ids)
 tg = prog['telegram']; tg['new'].update({k: max(v, tg['new'].get(k, 0)) for k, v in last.items()})
-summary = (f'{TODAY}: {SPAN} 텔레그램·블룸버그·로이터 글을 함께 거르고 묶어(data/' + os.path.basename(os.getcwd()) + ') 새 문서 {nnew}건, 기존 문서에 더함 {len(attached)}건. '
+summary = (f'{TODAY}: {SPAN} 텔레그램·블룸버그·로이터 글을 함께 거르고 묶어(data/{os.path.basename(os.getcwd())}) 새 문서 {nnew}건, 기존 문서에 더함 {len(attached)}건. '
            f'독립 출처 확인 {bas["verified"]}, 일부 확인 {bas["partial"]}, 채널 전언 {bas["channel"]}, 제목 기준 {bas["title"]}, 건너뜀 {len(skipped)}')
 tg['newNote'] = summary + ' // ' + tg.get('newNote', '')[:600]
 prog['log'] = (prog['log'] + [{'d': TODAY, 't': summary}])[-60:]

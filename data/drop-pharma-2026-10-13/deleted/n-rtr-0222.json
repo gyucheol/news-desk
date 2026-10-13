@@ -1,0 +1,38 @@
+{
+  "basis": "title",
+  "check": "검색 한도 안에서 확인하지 못함, 로이터 제목 기준",
+  "cycles": [],
+  "facts": [
+    "무엇이: 바슈롬 손더스 CEO가 사임하고 아피오 의장이 임시 CEO로 선임 [제목]",
+    "의미: 정식 후임 선임 전까지 리더십 공백 [추론]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "바슈롬 {{손더스 CEO 사임}}…아피오 이사회 의장이 {{임시 CEO}} 맡아",
+  "id": "n-rtr-0222",
+  "incentive": "",
+  "inds": [
+    "pharma"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "t": "바슈롬 손더스 CEO 사임, 아피오 의장 임시 최고경영자 선임",
+      "u": "https://www.reuters.com/legal/transactional/bausch-lomb-ceo-saunders-steps-down-chairman-appio-appointed-interim-chief-2026-10-12/"
+    }
+  ],
+  "key": "mix-C142-2026-10-13",
+  "nodes": [],
+  "num": 222,
+  "one": "{{안과 기업 바슈롬}}의 {{손더스 CEO}}가 {{물러나고}} {{아피오 이사회 의장}}이 {{임시 최고경영자로 선임되면서}}, 새 경영진 선임 전까지 {{회사 전략과 경영 방향에 변화}}가 {{생길}} 수 있다 (제목 기준)",
+  "origTitle": "",
+  "processed": "2026-10-13",
+  "published": "2026-10-13T00:54:00+09:00",
+  "source": "로이터",
+  "src": [],
+  "tags": [],
+  "title": "{{바슈롬 손더스 CEO 사임}}…{{아피오 이사회 의장}}이 {{임시 CEO 맡아}}",
+  "url": "https://www.reuters.com/legal/transactional/bausch-lomb-ceo-saunders-steps-down-chairman-appio-appointed-interim-chief-2026-10-12/"
+}

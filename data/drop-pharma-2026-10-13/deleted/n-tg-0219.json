@@ -1,0 +1,51 @@
+{
+  "basis": "verified",
+  "channel": "트릴리온",
+  "check": "계약 조건은 회사 보도자료(검색 결과 요약)로 확인.",
+  "cycles": [],
+  "facts": [
+    "무엇이: 바이오헤이븐이 10월 8일 IgG 분해제 BHV-1300 등의 일본·한국·대만·아세안 권리를 오노약품에 라이선스했습니다 [사실]",
+    "조건: 선급금 8천만 달러, 1년 안 예상 마일스톤 최대 2천만 달러, 순매출 약 20% 로열티이며 미국·유럽·중국 권리는 바이오헤이븐이 보유합니다 [사실]",
+    "제품: BHV-1300은 IgG3를 남기고 IgG1·2·4만 분해해 적응증 확대에 한계가 있다는 지적이 있습니다 [채널]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "{{바이오헤이븐}}, IgG 분해제 아시아 권리 오노약품에 라이선스…{{선급금 8천만 달러}}",
+  "id": "n-tg-0219",
+  "incentive": "",
+  "inds": [
+    "pharma"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-09",
+      "o": "텔레그램 트릴리온",
+      "t": "바이오헤이븐, IgG 분해제 아시아 권리 오노파마에 라이선스…선급금 8천만 달러",
+      "u": "https://t.me/Trillion_labs/10213"
+    }
+  ],
+  "key": "mix-C043-2026-10-09",
+  "nodes": [],
+  "num": 219,
+  "one": "{{바이오헤이븐}}이 {{그레이브스병 3상 중인 IgG 분해제 BHV-1300}}의 {{일본·한국·대만·아세안 권리}}를 {{오노약품}}에 {{넘기}}고 {{선급금 8천만 달러}}와 {{로열티 약 20%}}를 받기로 하면서 다른 파이프라인 개발 자금을 {{확보했다}}",
+  "origTitle": "",
+  "processed": "2026-10-09",
+  "published": "2026-10-09T01:32:00+09:00",
+  "source": "텔레그램",
+  "src": [
+    {
+      "d": "2026-10-09",
+      "o": "텔레그램 트릴리온",
+      "u": "https://t.me/Trillion_labs/10213"
+    },
+    {
+      "d": "2026-10-08",
+      "o": "PR Newswire(바이오헤이븐 보도자료)",
+      "u": "https://www.prnewswire.com/news-releases/biohaven-enters-strategic-licensing-agreement-with-ono-pharma-for-extracellular-igg-degraders-in-japan-and-select-asian-regions-lead-candidate-bhv-1300-in-phase-3-for-graves-disease-302901852.html"
+    }
+  ],
+  "tags": [],
+  "title": "{{바이오헤이븐}}, {{IgG 분해제 아시아 권리}} {{오노약품}}에 라이선스…{{선급금 8천만 달러}}",
+  "url": "https://t.me/Trillion_labs/10213"
+}

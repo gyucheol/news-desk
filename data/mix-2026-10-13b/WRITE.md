@@ -50,7 +50,7 @@
 - 시각 순서(오래된 것 먼저). 기존 문서의 기사는 넣지 않습니다(합칠 때 자동으로 앞에 붙음). 묶음 파일의 주소만 씁니다.
 
 ## 3. 산업·노드
-- inds·nodes는 9개 산업 id를 씁니다. 해당이 없으면 inds에 새 분야 id 하나만(tech auto aero pharma fin consumer shipping realestate industrial metals agri) 넣고 nodes는 빈 배열.
+- inds·nodes는 9개 산업 id를 씁니다. 해당이 없으면 inds에 새 분야 id 하나만(auto aero pharma fin consumer shipping realestate industrial metals agri) 넣고 nodes는 빈 배열.
 - uranium: mining conversion enrichment fabrication physical operators build policy / drilling: rigs capex services subsea fpso osv octg yards / gas: upstream midstream liquefaction shipping regas trade demand / coal: thermal met logistics trade power steel policy / power: demand gen grid storage wind modules polysilicon developers market / petchem: feedstock cracker commodity specialty demand policy / jpins: underwriting reinsurance assets rates capital securities regulation demand / beauty: brands odm materials packaging channels exports / macro: cb rates fiscal inflation growth fx liquidity commodity geo semis
 - nodes는 "macro/rates"처럼. 반도체·AI는 inds ["macro"], nodes ["macro/semis"]. inds에는 nodes에 쓴 산업을 모두 넣습니다.
 

@@ -848,8 +848,8 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
       '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcLabel(n)) + '</span>' + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
         '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + addHtml(n) + prevHtml(n) + linksHtml(n) +
-        '<div class="acts">' + reqBtn(n) +
-          '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button></div></div></li>';
+        '<div class="acts"><button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button>' +
+          reqBtn(n) + '</div></div></li>';
   }
   function reqItemHtml(n) {
     const s = reqState(n), id = esc(n.id);

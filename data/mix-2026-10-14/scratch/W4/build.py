@@ -213,7 +213,7 @@ items.append({
  "added": "이번 로이터 1건으로 {{지분 4% 이상}}과 {{내재가치 주당 12.36파운드}} 같은 {{앵코라의 매각 요구 근거}}가 추가됐다",
  "items": [
   I("앵코라, 英 셀프스토리지 빅옐로 그룹에 매각 검토 압박", "블룸버그", "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-13/ancora-is-said-to-push-uk-s-big-yellow-group-to-explore-sale",
-    "{{앵코라}}가 영국 {{셀프스토리지 업체 빅옐로}}에 {{매각 검토}}를 {{압박}}하면서 {{2025년 블랙스톤 인수 무산}} 뒤 {{매각 논의}}가 {{다시 불붙}}고 있다"),
+    "{{앵코라}}가 영국 {{셀프스토리지 업체 빅옐로}}에 {{매각 검토}}를 {{압박}}하면서 {{2025년 블랙스톤 인수 무산}} 뒤 {{매각 논의}}가 다시 불붙고 있다"),
   I("행동주의 투자자 앵코라, 빅옐로에 매각 검토 촉구", "로이터", "2026-10-14", "https://www.reuters.com/business/activist-investor-ancora-pushes-big-yellow-explore-sale-2026-10-13/",
     "{{앵코라}}가 {{지분 4% 이상}}을 앞세워 내재가치 {{주당 12.36파운드}}를 {{제시}}하면서 {{종가 7.99파운드}}인 {{빅옐로 주가의 할인}}이 {{부각}}되고 있다")
  ]})
@@ -231,16 +231,15 @@ items.append({
   "기존: 앵테르마르셰도 매장 150곳이 표적이 된 사이버공격을 받았습니다 [제목]"
  ],
  "basis": "verified",
- "check": "검색 결과 요약(AP·로이터 인용 보도)으로 쿠페라티브 U 80곳 피해, 손실 추정, 전국 700곳 영향, 댄포스 소프트웨어를 확인. 기존 문서의 앵테르마르셰 150곳은 여전히 제목 기준.",
+ "check": "검색 결과 요약(AP 등)으로 쿠페라티브 U 80곳 피해, 손실 추정, 전국 700곳 영향, 댄포스 소프트웨어를 확인. 기존 문서의 앵테르마르셰 150곳은 여전히 제목 기준.",
  "src": [
-  {"o": "The Star(로이터 전재 아님, 기술면)", "d": "2026-10-13", "u": "https://www.thestar.com.my/tech/tech-news/2026/10/13/cyberattack-affected-80-stores-of-french-supermarket-chain-co-operative-u"},
   {"o": "Washington Times(AP)", "d": "2026-10-13", "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"}
  ],
  "inds": ["consumer"], "nodes": [],
  "added": "이번 로이터 1건으로 {{쿠페라티브 U 매장 80곳}}의 {{피해}}와 {{대형 매장당 최대 20만 유로}}에 이르는 {{손실 추정}}이 추가됐다",
  "items": [
   I("佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해", "로이터", "2026-10-13", "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/",
-    "{{쿠페라티브 U}}가 매장 약 2,000곳 중 {{80곳}}이 {{사이버공격 피해}}를 입었다고 밝히면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 {{떠안}}았다")
+    "{{쿠페라티브 U}}가 {{매장 약 2,000곳 중 80곳}}이 {{사이버공격 피해}}를 입었다고 밝히면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 떠안았다")
  ]})
 
 # C066

@@ -32,3 +32,9 @@
 .ttl mark{font-weight:inherit}
 .one mark,.prev mark{font-weight:600}
 .item.is-read mark{color:inherit}
+/* 묶음 뉴스: 더해진 내용 한 줄, 원문별 한줄 요약 */
+.add{margin-top:4px;font-size:14px;line-height:1.6;color:var(--body);max-width:70ch}
+.add .ak{display:inline-block;margin-right:6px;padding:0 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent-strong);font-size:12px;font-weight:700;line-height:20px;vertical-align:1px}
+.item.is-read .add{color:var(--faint)}
+.lks .ls,.lks1 .ls{display:block;margin-top:1px;color:var(--body);line-height:1.55}
+.lks li{padding:3px 0}

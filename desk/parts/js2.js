@@ -96,10 +96,12 @@
   function linksHtml(n) {
     const xs = linkItems(n).filter(x => okUrl(x.u));
     if (!xs.length) return '';
-    const a = x => '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc([x.d ? kday(x.d) : '', x.o].filter(Boolean).join(' · ') || '원문') + '</a>' + (x.t ? ' <span class="lt">' + esc(x.t) + '</span>' : '');
+    const a = x => '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">' + esc([x.d ? kday(x.d) : '', x.o].filter(Boolean).join(' · ') || '원문') + '</a>' + (x.t ? ' <span class="lt">' + esc(x.t) + '</span>' : '') + (x.s ? '<span class="ls">' + hl(x.s) + '</span>' : '');
     if (xs.length === 1) return '<p class="lks1">원문 ' + a(xs[0]) + '</p>';
-    return '<details class="lks"><summary>원문 ' + xs.length + '건</summary><ul>' + xs.map(x => '<li>' + a(x) + '</li>').join('') + '</ul></details>';
+    return '<details class="lks"><summary>원문 ' + xs.length + '건' + (xs.some(x => x.s) ? ' · 원문별 한줄 요약' : '') + '</summary><ul>' + xs.map(x => '<li>' + a(x) + '</li>').join('') + '</ul></details>';
   }
+  // 묶음 뉴스: 가장 최근에 더해진 원문들이 새로 알려 준 내용(added) 한 줄
+  const addHtml = n => n.added ? '<p class="add"><span class="ak">더해진 내용</span> ' + hl(n.added) + '</p>' : '';
   // 이미 다룬 사건의 후속(dupOf)이면 앞선 뉴스의 날짜와 한줄 요약을 함께 보여 줍니다.
   function prevHtml(n) {
     if (!n.dupOf) return '';
@@ -113,7 +115,7 @@
     const id = esc(n.id), read = isRead(n), again = !!reads[n.id] && !read;
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
       '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcLabel(n)) + '</span>' + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
-        '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + prevHtml(n) + linksHtml(n) +
+        '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + addHtml(n) + prevHtml(n) + linksHtml(n) +
         '<div class="acts">' + reqBtn(n) +
           '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button></div></div></li>';
   }
@@ -122,7 +124,7 @@
     const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">조사 중' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id] + 9 * 3600e3).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>' + (dsess[n.id] ? '<a href="https://claude.ai/code/' + esc(dsess[n.id]) + '" target="_blank" rel="noopener">작업 창 보기</a>' : '');
     const open = st.dopen.has(n.id);
     return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
-      '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' +
+      '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + addHtml(n) +
       (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
         : '<p class="rqnote">' + (dsess[n.id] ? '새 Claude Code 창에서 자세한 내용과 투자 인사이트를 조사하고 있습니다. 끝나면 이 자리에 나옵니다.' : 'Claude가 자세한 내용과 투자 인사이트를 작성하면 이 자리에 나옵니다.') + '</p>') + '</div></li>';
   }

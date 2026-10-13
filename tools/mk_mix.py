@@ -43,6 +43,11 @@ def hl_check(w, name, s, lo, hi):
         if not 2 <= len(m.strip()) <= 20: P.append(f'{w} {name} 강조 길이 {len(m)}')
     return s.replace('{{', '').replace('}}', '')
 
+def sub_line(w, name, s, lo, hi, nlo, nhi):
+    core = re.sub(r' \((제목 기준|채널 전언)\)$', '', hl_check(w, name, s, nlo, nhi))
+    if not lo <= len(core) <= hi: P.append(f'{w} {name} {len(core)}자')
+    if not core.endswith('다'): P.append(f'{w} {name} 끝맺음')
+
 def check(x, its):
     w = x['cid']
     hl_check(w, 'title', x['title'], 1, 2)
@@ -64,12 +69,17 @@ def check(x, its):
         if i not in NODES and i not in NEWIND: P.append(f'{w} ind {i}')
     for s in [x['title'], one, x['check']] + x.get('facts', []):
         if '|' in s or '**' in s: P.append(f'{w} 금지 문자')
-    for s in [x['check']] + x.get('facts', []) + [it.get('t', '') for it in its]:
+    for s in [x['check']] + x.get('facts', []) + [it.get('t', '') for it in its]:  # s·added는 강조 허용
         if '{{' in s: P.append(f'{w} 제목·한줄 밖 강조')
     for f in x.get('facts', []):
         if not re.search(r'\[(사실|채널|제목|추론|미확인)\]$', f.strip()): P.append(f'{w} 꼬리표 없는 사실 줄 …{f[-12:]}')
     if x['basis'] not in ('verified', 'partial', 'title', 'channel'): P.append(f'{w} basis {x["basis"]}')
     if x['basis'] in ('verified', 'partial') and not x.get('src'): P.append(f'{w} 독립 출처 없음')
+    multi = len(its) > 1 or bool(x.get('attachTo'))
+    if multi:
+        sub_line(w, 'added', x.get('added', ''), 60, 140, 1, 3)
+        for k, it in enumerate(its): sub_line(w, f'items[{k}].s', it.get('s', ''), 45, 110, 1, 2)
+    elif x.get('added') or any(it.get('s') for it in its): P.append(f'{w} 한 건짜리에 added·s')
     for it in its:
         if it['u'] not in when: P.append(f'{w} 주소가 후보에 없음 {it["u"][:80]}')
         if it['u'] in known_urls: P.append(f'{w} 이미 다룬 주소 {it["u"][:80]}')
@@ -93,6 +103,7 @@ for x in sorted(items, key=lambda x: x['cid']):
     used |= {it['u'] for it in its}
     if not its: P.append(f"{x['cid']} 기사 없음"); continue
     fields = {k: x[k] for k in ('title', 'one', 'facts', 'basis', 'check')}
+    if x.get('added'): fields['added'] = x['added']
     lt = max(when.get(it['u'], '') for it in its)
     if x.get('attachTo'):
         aid = x['attachTo']; path = f'{DB}/news/{aid}.json'

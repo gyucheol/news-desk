@@ -11,7 +11,7 @@ DB, TODAY, DUMP, SPAN = sys.argv[1:5]
 NOW = now_kst()
 prog = json.load(open(f'{DB}/meta/progressV4.json')); seen = json.load(open(f'{DB}/meta/newsSeen.json'))
 NODES = {os.path.basename(p)[:-5]: [n['id'] for n in json.load(open(p))['nodes']] for p in glob.glob(f'{DB}/chains/*.json')}
-NEWIND = {'auto', 'pharma', 'consumer', 'shipping', 'realestate', 'industrial', 'metals', 'agri'}
+NEWIND = {'pharma', 'consumer', 'shipping', 'realestate', 'industrial', 'metals', 'agri'}
 CHAN = json.load(open('chan.json'))['chan']
 TAILS = {'title': ' (제목 기준)', 'channel': ' (채널 전언)'}
 SRCN = {'bbg': '블룸버그', 'rtr': '로이터', 'tg': '텔레그램'}

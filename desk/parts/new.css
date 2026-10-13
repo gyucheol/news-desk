@@ -14,7 +14,7 @@
   --note-soft:#1D2142; --note-strong:#A6AEFF;
   --risk-soft:#351717; --risk-strong:#FF8A80;
   --bar-bg:rgba(16,19,24,.96);
-  --hl:#E8EBEF; --hl-bg:rgba(255,255,255,.10);
+  --hl:#8C96A3; --hl-bg:rgba(255,255,255,.10);
   --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%238C96A3' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
   --font-body:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", "Noto Sans KR", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-display:var(--font-body); --font-mono:var(--font-body);
@@ -36,7 +36,7 @@ html[data-theme="light"]{
   --note-soft:#EEF0FF; --note-strong:#4450B8;
   --risk-soft:#FDECEC; --risk-strong:#B42318;
   --bar-bg:rgba(255,255,255,.96);
-  --hl:#333D4B; --hl-bg:rgba(25,31,40,.08);
+  --hl:#6B7684; --hl-bg:rgba(25,31,40,.08);
   --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7684' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
   color-scheme:light;
 }

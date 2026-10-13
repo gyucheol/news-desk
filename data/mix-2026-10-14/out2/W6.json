@@ -1,0 +1,349 @@
+{"agent": "W6", "searches_used": 16, "fetches_used": 0,
+ "items": [
+  {"cid": "C006", "attachTo": "n-tg-0157",
+   "title": "{{이란}}, {{호르무즈 선박 공격 격화}}…{{이란 원유 수출 10월 0}}, {{운송비}}는 {{원유값 25% 넘어}}",
+   "one": "{{이란}}이 {{호르무즈 일대 선박 공격}}을 {{2주 새 앞선 8주치 수준으로 늘리}}고 {{미국 봉쇄}}로 {{이란 원유 수출}}이 {{10월 0}}에 머무는 가운데, {{운송비}}가 {{원유 도착 비용의 25% 이상}}으로 {{뛰}}어 {{되살아나던 걸프 원유 수출}}이 {{다시 위협받}}고 있다",
+   "facts": [
+    "무엇이: UKMTO는 10월 13일 호르무즈 해협에서 유조선과 컨테이너선이 각각 정체불명 발사체에 맞았다고 밝혔고, 10월 11일에는 하루에 선박 6척이 피격돼 2월 28일 개전 뒤 가장 많았다는 집계가 나왔다 [사실]",
+    "공격 빈도: UKMTO 자료를 분석하면 최근 2주 공격 건수가 그 앞 8주 동안의 건수와 거의 맞먹는다 [채널]",
+    "이란 수출: 미국 봉쇄로 10월 이란 원유 수출은 0에 머물렀고(보텍사), 이란을 뺀 걸프 원유 수출은 전쟁 전 수준을 되찾았다(케플러) [사실]",
+    "운송비: 운송비가 원유 도착 비용의 25% 이상으로 분쟁 전 약 3%에서 크게 늘었다는 인용이 전해졌고, 10월 9일 미 걸프-중국 VLCC 1항차 운임은 약 7,961만 달러였다 [채널]",
+    "일본: 일본계 유조선이 몇 달 만에 중동으로 돌아왔다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "The National·Middle East Monitor 검색 결과 요약으로 10월 13일 UKMTO 피격 2건과 10월 11일 하루 6척 피격 확인, Baird Maritime·Kpler 검색 결과 요약으로 10월 이란 수출 0(보텍사)과 걸프 수출 회복 확인. 2주 공격이 8주치와 맞먹는다는 분석, 운송비 25% 인용, 일본 유조선 복귀는 확인 못 함",
+   "src": [
+    {"o": "The National", "d": "2026-10-13", "u": "https://www.thenationalnews.com/news/gulf/2026/10/13/strait-of-hormuz-attacks-surge-as-iran-steps-up-campaign-against-us-backed-oil-shipping/"},
+    {"o": "Middle East Monitor", "d": "2026-10-13", "u": "https://middleeastmonitor.com/20261013-iranian-attacks-target-6-ships-near-strait-of-hormuz-in-1-day-highest-since-war-with-us-began"},
+    {"o": "Baird Maritime", "d": "2026-10-13", "u": "https://www.bairdmaritime.com/shipping/tankers/us-blockade-successfully-locks-down-iranian-crude-exports-at-zero"},
+    {"o": "Kpler", "d": "2026-10", "u": "https://www.kpler.com/blog/explainer-how-mideast-gulf-crude-exports-returned-to-pre-war-levels"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/geo", "macro/commodity"],
+   "added": "이번 {{텔레그램 3건·블룸버그 2건·로이터 1건}}으로 {{10월 13일 유조선·컨테이너선 피격}}, {{2주 공격이 8주치와 맞먹는 급증}}, {{10월 이란 원유 수출 0}}, {{운송비 비중 25% 이상}}이 추가됐다",
+   "items": [
+    {"t": "호르무즈 선박 공격 급증…최근 2주가 앞선 8주치와 맞먹어", "o": "텔레그램 트릴리온", "d": "2026-10-13", "u": "https://t.me/Trillion_labs/10415",
+     "s": "{{UKMTO 자료 분석}}에서 {{호르무즈 주변 선박 공격}}이 {{최근 2주}}에만 {{앞선 8주 건수와 맞먹을 만큼}} {{늘어}}, {{해협 통항 위험}}이 {{빠르게 커지}}고 있다"},
+    {"t": "운송비, 원유 도착 비용의 25% 넘어…분쟁 전엔 약 3%", "o": "텔레그램 트릴리온", "d": "2026-10-13", "u": "https://t.me/Trillion_labs/10419",
+     "s": "{{운송비}}가 {{원유 도착 비용의 25% 이상}}을 차지해 {{분쟁 전 약 3%}}에서 {{크게 뛰}}면서, {{원유 수입국의 실제 조달 비용}}이 {{불어나}}고 있다"},
+    {"t": "일본 유조선들, 몇 달 공백 끝에 중동 복귀", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/japan-controlled-tankers-return-to-middle-east-after-months-away",
+     "s": "{{일본 유조선}}들이 {{몇 달 공백}} 끝에 {{중동}}으로 {{돌아오}}면서, {{일본행 중동 원유 수송}}이 {{다시 늘어날}} 수 있다 (제목 기준)"},
+    {"t": "이란, 선박 공격 확대…원유 수출 회복세 위협", "o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-13/iran-escalates-attacks-on-ships-threatening-oil-export-recovery",
+     "s": "{{이란}}이 {{호르무즈 일대 선박 공격}}을 {{확대}}하면서, {{전쟁 전 수준을 되찾은}} {{걸프 원유 수출}}의 {{회복세}}가 {{다시 위협받}}고 있다"},
+    {"t": "미국 봉쇄로 이란 원유 수출 10월에도 0…보고서", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/energy/us-blockade-keeps-iranian-crude-exports-zero-october-report-says-2026-10-13/",
+     "s": "{{미국의 해상 봉쇄}}가 {{이어지}}면서 {{이란 원유 수출}}이 {{10월 들어서도 0}}에 머물러, {{이란의 원유 수입원}}이 {{말라가}}고 있다"},
+    {"t": "UKMTO, 호르무즈서 유조선·컨테이너선 피격 보고", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-14", "u": "https://t.me/insidertracking/66153",
+     "s": "{{UKMTO}}가 {{10월 13일 호르무즈에서 유조선과 컨테이너선}}이 {{각각 정체불명 발사체에 피격}}됐다며 {{통항 선박}}에 {{주의 항해}}를 {{권고}}해, {{해협 통과 위험}}이 {{커지}}고 있다"}
+   ]},
+
+  {"cid": "C009", "attachTo": "n-tg-0118",
+   "title": "{{메모리 정점 경고}} 잇따라…{{캐시 우드 회피}}, {{모건스탠리 '저PER 함정'}}, {{YMTC 상장 신청}}",
+   "one": "{{캐시 우드}}가 {{중국 증설}}을 들어 {{메모리주 회피}}를 밝히고 {{모건스탠리}}도 {{선행 PER 3~4배}}가 {{정점의 함정}}일 수 있다고 {{경고}}한 데 이어 {{YMTC}}도 {{상장을 신청}}하면서, {{장기계약이 늘어난 메모리 품귀}} 속에도 {{메모리주}}가 {{공급 과잉 우려}}에 {{흔들리}}고 있다",
+   "facts": [
+    "무엇이: 캐시 우드 ARK 대표는 10월 13일 홍콩 투자자 행사에서 메모리 업종이 악순환적 호황·불황 주기에 취약하다며 전통 메모리 업체를 피한다고 했고, CXMT 등 중국 국가 지원 업체의 증설을 공급 압력으로 꼽았다 [사실]",
+    "밸류에이션: 모건스탠리는 삼성전자·SK하이닉스 선행 PER 약 3~4배가 사이클 정점의 함정일 수 있고, 과거 메모리주는 실적 정점보다 4~8개월 먼저 고점을 찍었으며 2027년 하반기 신규 생산능력 가동이 전환점이 될 수 있다고 봤다 [채널]",
+    "주가: CXMT 위협과 우드 발언 뒤 마이크론·SK하이닉스 주가 하락이 이어졌고, SK하이닉스는 올해 고점 대비 51%, 삼성전자는 36% 내렸다는 집계가 나왔다 [사실]",
+    "중국 공급: YMTC가 상하이증권거래소 상장 신청서를 냈고, 매출·낸드 출하량 기준 세계 3위이며 조달 목표액은 공개하지 않았다 [채널]",
+    "SK하이닉스: 외국인 투자자들은 솔리다임 IPO 명분, ADR 락업 만료 뒤 추가 발행 가능성, 호남·미국·일본 설비투자 계획을 문제로 꼽는다는 전언이 나왔다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "Quartz·Tiger Brokers 검색 결과 요약으로 우드 발언, Invezz·TipRanks 검색 결과 요약으로 마이크론·SK하이닉스 주가 하락 확인. 모건스탠리 보고서, YMTC 상장 신청, SK하이닉스 관련 외국인 의문은 확인 못 함",
+   "src": [
+    {"o": "Quartz", "d": "2026-10-13", "u": "https://qz.com/cathie-wood-china-chip-memory-cycles-ark-invest-101326"},
+    {"o": "Tiger Brokers", "d": "2026-10-13", "u": "https://www.itiger.com/news/1147729055"},
+    {"o": "Invezz", "d": "2026-10-13", "u": "https://invezz.com/ng/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/"},
+    {"o": "TipRanks", "d": "2026-10-13", "u": "https://www.tipranks.com/news/why-cathie-wood-sees-more-risk-ahead-for-micron-samsung-and-sk-hynix-stocks"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/semis"],
+   "added": "이번 {{텔레그램 4건·블룸버그·로이터 각 1건}}으로 {{캐시 우드의 메모리 회피}}, {{모건스탠리의 정점 밸류에이션 경고}}, {{YMTC 상장 신청}}, {{미 반도체주 하락}}이 추가됐다",
+   "items": [
+    {"t": "ARK 캐시 우드, '악순환' 사이클 위험에 메모리칩 업종 회피", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/ark-s-wood-shuns-memory-chip-sector-on-vicious-cycle-risk",
+     "s": "{{캐시 우드}}가 {{메모리 업종}}은 {{악순환적 호황·불황 주기}}에 {{취약}}하다며 {{ARK 펀드}}가 {{전통 메모리 업체}}를 {{피한다}}고 밝혀, {{메모리주 투자심리}}가 {{식}}고 있다"},
+    {"t": "외국인이 보는 SK하이닉스 의문점…솔리다임 IPO·ADR·설비투자", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-13", "u": "https://t.me/insidertracking/66118",
+     "s": "{{외국인 투자자}}들이 {{SK하이닉스}}의 {{솔리다임 IPO 명분}}, {{ADR 추가 발행 가능성}}, {{호남·미국·일본 설비투자}}를 {{문제 삼}}으면서, {{3분기 실적 발표}}에서 {{자본 배분 정책}}을 {{밝혀야}} 한다는 {{압박}}이 커지고 있다"},
+    {"t": "모건스탠리 \"메모리주, 사이클 정점에서 가장 싸 보이지만 가장 위험\"", "o": "텔레그램 하나증권 중국전략", "d": "2026-10-13", "u": "https://t.me/HANAchina/70359",
+     "s": "{{모건스탠리}}가 {{삼성전자·SK하이닉스 선행 PER 3~4배}}를 {{사이클 정점의 함정}}일 수 있다고 보고 {{2027년 하반기 신규 생산능력 가동}}을 {{전환점}}으로 {{꼽으}}면서, {{메모리주 고점 논쟁}}이 {{커지}}고 있다"},
+    {"t": "미 반도체주, 중국 메모리 보도·AI 지출 불안에 하락 이어가", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/",
+     "s": "{{중국 메모리 기술 보도}}와 {{AI 지출 불안}}이 {{겹치}}면서 {{미국 반도체주}}가 {{하락}}을 {{이어가}}, {{마이크론 등 메모리주}}의 {{낙폭}}이 {{커지}}고 있다"},
+    {"t": "중국 YMTC, 상하이 증시 상장 위한 IPO 신청", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-14", "u": "https://t.me/insidertracking/66152",
+     "s": "{{중국 YMTC}}가 {{상하이증권거래소 상장 신청서}}를 {{내고}} {{연구개발·낸드 생산능력 확대}}에 {{나서}}면서, {{중국 메모리 업체의 증설 자금줄}}이 {{넓어지}}고 있다"},
+    {"t": "캐시 우드 \"중국 D램 증설이 공급 압력…HBM 가격도 흔들 수 있어\"", "o": "텔레그램 나쁜양파", "d": "2026-10-14", "u": "https://t.me/Badonions/7768",
+     "s": "{{캐시 우드}}가 {{CXMT 등 중국 국가 지원 업체의 D램 증설}}이 {{공급 압력}}을 {{키우}}고 {{중국 신규 진입자}}가 {{HBM 가격}}까지 {{흔들}} 수 있다고 {{지적}}하면서도 {{AI 버블 우려}}는 {{일축}}했다"}
+   ]},
+
+  {"cid": "C020", "attachTo": "n-rtr-0022",
+   "title": "{{세네갈 채권단 '원금 삭감 반대'}}·{{G24 '부채 위험'}}…{{취약 신흥국 채무조정}} {{본격화}}",
+   "one": "{{세네갈 국제채 보유자들}}이 {{알바레즈앤마샬}}을 {{자문사로 뽑고}} {{원금 삭감 요구}}가 {{협상을 늦출}} 수 있다고 {{경고}}한 가운데 {{G24 의장}}도 {{개도국 부채 부담}}을 {{큰 위험}}으로 {{꼽으}}면서, {{IMF 지원을 받는 파키스탄}} 등 {{취약 신흥국의 채무조정 논의}}가 {{본격화}}하고 있다",
+   "facts": [
+    "무엇이: 세네갈 국제 국채 보유자 모임이 채무조정 협상의 재무 자문사로 알바레즈앤마샬을 골랐고, 약 열흘 전 정부에 원금 삭감 요구는 협상을 크게 늦출 수 있다는 서한을 보냈다 [사실]",
+    "규모·일정: 이 모임은 화이트앤케이스가 대리하며 미상환 52억 달러 가운데 22억 달러를 보유하고, 세네갈은 12월까지 공식 채권단·채권자와 합의를 목표로 한다 [사실]",
+    "개도국: G24 의장은 늘어나는 부채 부담이 개도국에 큰 위험이라고 했고, 세네갈 채무조정이 공동 프레임워크를 바꿀 수 있을지가 논의된다 [제목]",
+    "파키스탄: IMF와 약 12억 달러 지원 실무합의를 맺었고, 국영기업 5~6곳 매각으로 10억 달러 넘게 조달하고 4% 넘는 성장을 내걸었다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "CNBC Africa·Boursorama 검색 결과 요약으로 알바레즈앤마샬 선정, 원금 삭감 경고 서한, 22억 달러 보유 확인. G24 의장 발언, 공동 프레임워크 논의, 블룸버그 뉴스레터 내용은 확인 못 함",
+   "src": [
+    {"o": "CNBC Africa", "d": "2026-10-13", "u": "https://www.cnbcafrica.com/2026/senegal-bondholders-pick-alvarez-marsal-as-financial-adviser-for-debt-talks-sources"},
+    {"o": "Boursorama", "d": "2026-10-13", "u": "https://boursorama.com/actualite-economique/actualites/les-detenteurs-d-obligations-senegalaises-choisissent-un-conseiller-financier-pour-les-negociations-sur-la-dette-et-mettent-en-garde-contre-les-decotes-selon-certaines-sources-7107ffd502acc0d86e5f67ec2a4eadd9"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/fiscal"],
+   "added": "이번 {{로이터 3건·블룸버그 1건}}으로 {{세네갈 채권단의 알바레즈앤마샬 선정}}과 {{원금 삭감 경고}}, {{G24 의장의 개도국 부채 위험 경고}}가 추가됐다",
+   "items": [
+    {"t": "G24 의장 \"늘어나는 부채 부담, 개도국에 큰 위험\"", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/africa/growing-debt-burden-poses-significant-risk-developing-nations-g24-chair-says-2026-10-13/",
+     "s": "{{G24 의장}}이 {{늘어나는 부채 부담}}을 {{개도국의 큰 위험}}으로 {{꼽으}}면서, {{취약 신흥국의 채무 재조정 압력}}이 {{커질}} 수 있다 (제목 기준)"},
+    {"t": "넥스트 아프리카: 부채 탕감 미로를 헤쳐 갈 새 길", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/next-africa-charting-a-new-course-through-the-debt-relief-maze",
+     "s": "{{아프리카 부채국}}들이 {{복잡한 부채 탕감 절차}}를 {{헤쳐 나갈 새 길}}을 {{찾}}으면서, {{채무조정 방식}}에 {{변화}}가 생길 수 있다 (제목 기준)"},
+    {"t": "세네갈 채권단, 채무 협상 자문사 선정…원금 삭감엔 경고", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/africa/senegal-bondholders-pick-financial-adviser-debt-talks-warn-against-haircuts-2026-10-13/",
+     "s": "{{세네갈 국제채 보유자들}}이 {{알바레즈앤마샬}}을 {{재무 자문사}}로 {{뽑고}} {{원금 삭감 요구}}가 {{협상을 크게 늦출}} 수 있다고 {{경고}}해, {{12월 합의 목표}}가 {{빠듯해질}} 수 있다"},
+    {"t": "세네갈 채무조정, 공동 프레임워크를 고칠 수 있을까", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/africa/can-senegals-debt-restructuring-revamp-common-framework-2026-10-13/",
+     "s": "{{세네갈 채무조정}}이 {{공동 프레임워크}}의 {{개편 시험대}}로 {{떠오르}}면서, {{다른 빈국들의 부채 해결 방식}}에도 {{영향}}을 줄 수 있다 (제목 기준)"}
+   ]},
+
+  {"cid": "C032", "attachTo": "n-bbg-0197",
+   "title": "{{불가리아}}, {{흑해 선박 피격 배후로 러시아 지목}}…{{러시아}}는 {{'미콜라이우행 선박 타격'}}",
+   "one": "{{불가리아 배타적경제수역}}에서 {{드론 공격으로 선박 1척이 침몰}}하고 {{선원 11명이 실종}}되자 {{라데프 총리}}가 {{러시아에 이득}}이라며 {{러시아 대사 초치}}와 {{NATO·EU 지원 요청}}에 {{나섰}}고, {{러시아}}도 {{미콜라이우행 선박 타격}}을 {{밝혀}} {{흑해 해상 수송 위험}}이 {{더 커지고 있다}}",
+   "facts": [
+    "무엇이: 10월 13일 불가리아 배타적경제수역에서 상선 2척이 드론에 맞아 1척이 침몰했고, 5명이 구조됐으나 11명이 실종됐다 [사실]",
+    "배후: 라데프 총리는 결정적 증거는 없지만 결과가 러시아에 이득이라며 러시아 대사를 부르고 NATO·EU에 지원을 요청했으며, 루마니아·튀르키예와 항행 안전 공동안을 논의한다 [사실]",
+    "러시아: 러시아는 우크라이나 미콜라이우로 군수품을 나르던 선박을 타격했다고 밝혔다 [제목]",
+    "앞선 공격: 10월 6일 불가리아 수역에서 유조선 2척이 피격돼 1척이 침몰했고, 하루 전에는 루마니아 앞바다에서 튀르키예 곡물선이 드론에 맞아 2명이 숨졌다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "알자지라·CBC·키이우인디펜던트 검색 결과 요약으로 침몰·실종 11명·러시아 지목·대사 초치 확인. 침몰선 이름(디그니티/아조프 콘코드)과 해안 거리(기존 약 24km, 이번 보도 32~34km)는 보도마다 다름. 러시아의 미콜라이우행 선박 타격 주장은 확인 못 함",
+   "src": [
+    {"o": "Al Jazeera", "d": "2026-10-13", "u": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says"},
+    {"o": "CBC", "d": "2026-10-13", "u": "https://www.cbc.ca/news/world/drone-black-sea-bulgaria-9.7378361"},
+    {"o": "Kyiv Independent", "d": "2026-10-13", "u": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/geo"],
+   "added": "이번 {{블룸버그·로이터 각 1건}}으로 {{선원 11명 실종}}, {{불가리아의 러시아 배후 지목}}, {{러시아의 미콜라이우행 선박 타격 주장}}이 추가됐다",
+   "items": [
+    {"t": "불가리아, 드론이 화물선 추가 타격하자 러시아 지목", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/bulgaria-to-summon-russian-ambassador-as-drones-hit-more-ships",
+     "s": "{{라데프 불가리아 총리}}가 {{드론 공격으로 화물선이 또 피격}}되자 {{러시아에 이득}}이라며 {{러시아 대사 초치}}에 {{나서}}면서, {{흑해 해상 안보 갈등}}이 {{NATO·EU}}로 {{번지}}고 있다"},
+    {"t": "러시아 \"우크라이나 미콜라이우로 군수품 나르던 선박 타격\"", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/europe/russia-says-it-hit-ship-delivering-military-cargo-ukraines-mykolaiv-2026-10-13/",
+     "s": "{{러시아}}가 {{우크라이나 미콜라이우로 군수품을 나르던 선박}}을 {{타격}}했다고 밝히면서, {{우크라이나 항구를 오가는 상선}}의 {{피격 위험}}이 {{커지}}고 있다 (제목 기준)"}
+   ]},
+
+  {"cid": "C037", "attachTo": "n-bbg-0049",
+   "title": "{{AI 빚잔치}}에 {{신흥국 채권 밀려날 위험}}…{{코어위브 채권 금리 15%로 급등}}",
+   "one": "{{빅테크의 AI 차입}}이 {{신흥국 국채}}를 {{세계 채권시장에서 밀어낼}} 수 있다는 {{경고}}가 나오고 {{코어위브 채권 금리}}가 {{발행 4개월 만에 15%로 뛰었다}}는 전언까지 더해지면서, {{오라클 CDS 급등}}에 이은 {{AI발 신용 위험}}이 {{신흥국 조달 비용}}으로 {{번질}} 수 있다",
+   "facts": [
+    "무엇이: 하이퍼스케일러 차입이 신흥국 국채를 밀어낼 수 있다는 뱅크오브아메리카 전략가의 경고가 나왔고, 신흥국 달러채 평균 금리는 하반기에 1%p 가까이 올랐다 [사실]",
+    "비중: IMF는 하이퍼스케일러의 세계 투자등급 회사채 발행 비중이 2024년 이후 1% 미만에서 10%로 커졌다고 했다 [사실]",
+    "코어위브: 만기가 6년 남은 코어위브 채권 금리가 발행 4개월 만에 9.625%에서 15%로 뛰었다는 전언이 나왔다 [채널]",
+    "기존: 오라클 5년물 CDS가 10월 8일 사상 최고인 261bp에 마감했다 [사실]",
+    "반론: 골드만삭스 전략가들은 AI 회사채 발행이 다른 채권시장에 번진 효과는 제한적이었다고 본다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "briefs.co·CNBC 검색 결과 요약으로 BofA 경고, 신흥국 달러채 금리 상승, IMF의 발행 비중 10% 확인. 코어위브 채권 금리 15%는 확인 못 함(검색에선 2031년물 약 13.4% 보도)",
+   "src": [
+    {"o": "briefs.co", "d": "2026-10-13", "u": "https://www.briefs.co/news/hyperscalers-borrowing-is-pushing-up-costs-for-emerging-mark/"},
+    {"o": "CNBC", "d": "2026-10-13", "u": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"},
+    {"o": "The Globe and Mail", "d": "2026-10", "u": "https://www.theglobeandmail.com/investing/article-dont-blame-us-bond-market-indigestion-on-ai-debt-binge/"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/liquidity", "macro/rates"],
+   "added": "이번 {{블룸버그·텔레그램 각 1건}}으로 {{AI 차입이 신흥국 국채를 밀어낼 위험}}과 {{코어위브 채권 금리 15% 급등}} 전언이 추가됐다",
+   "items": [
+    {"t": "AI 부채 폭식, 신흥국을 세계 시장에서 밀어낼 위험", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/ai-debt-binge-risks-crowding-out-em-nations-from-global-markets",
+     "s": "{{빅테크의 AI 차입 급증}}이 {{세계 채권 수요}}를 {{빨아들이}}면서, {{신흥국 국채}}가 {{조달 시장에서 밀려나}} {{차입 비용}}이 {{오를}} 수 있다"},
+    {"t": "코어위브 채권 금리, 발행 4개월 만에 9.625%에서 15%로", "o": "텔레그램 Polaristimes", "d": "2026-10-14", "u": "https://t.me/The_MariTimes/63700",
+     "s": "{{코어위브}}의 {{만기 6년 남은 채권 금리}}가 {{발행 4개월 만에 9.625%에서 15%로 뛰}}면서, {{오라클에 버금가는 AI 신용 위험}}이 {{부각}}되고 있다"}
+   ]},
+
+  {"cid": "C045", "attachTo": "n-rtr-0013",
+   "title": "{{인도}}, {{석탄난 속 석탄발전 증설 상향}} {{검토}}…{{2035년 97GW서 최대 150GW로}}",
+   "one": "{{인도 중앙전력청장}}이 {{피크 수요가 1년 새 45~50GW 늘}}자 {{2035년까지 97GW로 잡은 석탄발전 증설}}을 {{최대 150GW로 늘려야}} 할 수 있다고 {{밝히}}면서, {{석탄 재고 부족·공장 정전}}에 시달리는 {{인도의 석탄 수요}}가 {{더 커질}} 전망이다",
+   "facts": [
+    "무엇이: 간샴 프라사드 인도 중앙전력청(CEA) 청장은 2035년까지 97GW로 잡은 석탄발전 증설 계획이 105GW, 많게는 150GW까지 늘 수 있다고 했다 [사실]",
+    "수요: 피크 수요가 1년 전보다 약 45~50GW 늘었고, 9월 전력 부족량은 5억 6,000만kWh로 2023년 8월 이후 가장 많았다 [사실]",
+    "재생: 인도는 지난해 재생에너지 약 50GW를 늘렸고 해마다 50GW 넘게 더할 전망이며, 모디 총리는 COP31을 앞두고 300GW 친환경 설비 확충을 내세웠다 [제목]",
+    "기존: 10월 10일 기준 석탄발전소 절반 가까이의 연료 재고가 필요량의 4분의 1 미만이었고, 소형 철강공장은 하루 10~12시간 정전을 겪었다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "MINING.COM·Free Press Journal·Oilprice 검색 결과 요약으로 CEA 청장 발언과 수요 수치 확인. 150GW는 공식 목표가 아닌 가능성으로 보도됨. 모디의 300GW 발언 내용은 확인 못 함",
+   "src": [
+    {"o": "Free Press Journal", "d": "2026-10-13", "u": "https://www.freepressjournal.in/business/india-may-need-up-to-150-gw-additional-coal-power-capacity-by-2035-central-electricity-authority-chief"},
+    {"o": "Oilprice.com", "d": "2026-10-13", "u": "https://oilprice.com/Latest-Energy-News/World-News/Indias-97-GW-Coal-Expansion-Plan-Looks-Too-Small-Senior-Official-Says.html"}
+   ],
+   "inds": ["coal", "power"], "nodes": ["coal/power", "power/demand", "power/gen"],
+   "added": "이번 {{로이터·블룸버그 각 1건}}으로 {{석탄발전 증설 목표 최대 150GW 상향 가능성}}과 {{모디 총리의 300GW 친환경 설비 확충}}이 추가됐다",
+   "items": [
+    {"t": "인도 관리 \"수요 급증에 석탄발전 설비 늘려야 할 수도\"", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/india-may-need-raise-coal-power-capacity-demand-surges-official-says-2026-10-13/",
+     "s": "{{인도 중앙전력청장}}이 {{전력 수요 급증}}에 {{2035년 석탄발전 증설 계획 97GW}}를 {{최대 150GW로 늘릴}} 수 있다고 {{밝혀}}, {{인도의 석탄 수요}}가 {{더 커질}} 수 있다"},
+    {"t": "모디, COP31 앞두고 인도의 300GW 친환경 설비 확충 내세워", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/modi-touts-india-s-300-gigawatt-green-buildout-ahead-of-cop31",
+     "s": "{{모디 총리}}가 {{COP31}}을 앞두고 {{인도의 300GW 친환경 설비 확충}}을 {{내세우}}면서, {{석탄 증설 검토}}와 {{재생 확대}}가 {{함께 진행}}되는 {{인도 전력 정책}}이 {{부각}}되고 있다 (제목 기준)"}
+   ]},
+
+  {"cid": "C053", "attachTo": "",
+   "title": "{{美 EPA}}, {{정유사 바이오연료 면제분 100% 재배분}} {{제안}}…{{2026·2027년 의무 확대}}",
+   "one": "{{미 환경보호청(EPA)}}이 {{2025년 소형 정유사 29곳의 바이오연료 의무 면제분}} 가운데 {{예상을 넘은 약 7억 7,000만 RIN}}을 {{2026·2027년에 100% 재배분}}하자고 {{제안}}하면서, {{다른 정유사들의 혼합 의무 부담}}이 {{늘어날}} 전망이다",
+   "facts": [
+    "무엇이: EPA는 10월 13일 2025년 소형 정유사 면제로 사라진 바이오연료 의무를 100% 재배분하는 안을 내고 12월 4일까지 의견을 받는다 [사실]",
+    "규모: 2025년 면제는 정유사 29곳(전면 18곳·부분 11곳), 17억 6,000만 RIN이었고 당초 예상한 약 9억 9,000만 RIN을 약 7억 7,000만 RIN 웃돌았다 [사실]",
+    "방식: 초과분을 2026·2027년 의무 연도에 반씩 나누는 안과 2027년에 모두 얹는 안 두 가지이며, 2026년 의무 이행 기한(2027년 3월 31일) 연장도 거론됐다 [사실]",
+    "반응: 정유업계 단체 AFPM은 소비자 연료비만 올린다고 반발했고, 바이오연료 업계는 환영했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "TT News·Iowa Capital Dispatch·Agri-Pulse 검색 결과 요약으로 확인",
+   "src": [
+    {"o": "TT News", "d": "2026-10-13", "u": "https://www.ttnews.com/articles/epa-reallocation-biofuel"},
+    {"o": "Iowa Capital Dispatch", "d": "2026-10-13", "u": "https://iowacapitaldispatch.com/2026/10/13/farm-fuel-groups-celebrate-epa-proposals-to-reallocate-small-refinery-exemptions"},
+    {"o": "Agri-Pulse", "d": "2026-10-13", "u": "https://www.agri-pulse.com/articles/25371-epa-proposes-rellocating-rvos-lost-due-to-small-refinery-exemptions"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/commodity"],
+   "added": "이번 {{로이터 1건}}으로 {{초과 면제분 약 7억 7,000만 RIN}}을 {{2026·2027년에 나누거나 2027년에 몰아 얹는 두 안}}이 추가됐다",
+   "items": [
+    {"t": "EPA, 정유사 바이오연료 면제분 100% 재배분 제안", "o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-13/epa-confirms-100-reallocation-for-refinery-biofuel-exemptions",
+     "s": "{{EPA}}가 {{소형 정유사에 준 바이오연료 의무 면제분}}을 {{100% 재배분}}하자고 {{제안}}하면서, {{다른 정유사들의 혼합 의무}}가 {{늘어날}} 수 있다"},
+    {"t": "EPA, 정유사 바이오연료 면제분 전량 재배분 제안", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/",
+     "s": "{{EPA}}가 {{초과 면제분 약 7억 7,000만 RIN}}을 {{2026·2027년에 나눠 얹거나}} {{2027년에 모두 얹는 두 안}}을 {{내놓}}자, {{정유업계}}는 {{연료비 상승}}을 들어 {{반발}}하고 있다"}
+   ]},
+
+  {"cid": "C061", "attachTo": "n-tg-0182",
+   "title": "{{美 데이터센터 반발}}, {{중간선거 쟁점}}으로…{{골드만 CEO '선거발 변동성 주시'}}",
+   "one": "{{오하이오·미시간}}에서 {{데이터센터 반발}}이 {{중간선거 쟁점}}으로 {{번진}} 가운데 {{솔로몬 골드만삭스 CEO}}도 {{선거 전후 주·지방정부 대응}}에 따른 {{변동성}}과 {{금리 압박}}이 {{일부 AI 사업 수익성}}을 {{해칠}} 수 있다고 {{밝혀}}, {{데이터센터 인허가·조달 부담}}이 {{커질}} 수 있다",
+   "facts": [
+    "무엇이: 솔로몬 골드만삭스 CEO는 10월 13일 실적 발표에서 중간선거를 앞둔 AI 데이터센터 관련 정치적 변동성을 주시하며, 선거 뒤 주·지방정부 대응도 불확실성이라고 했다 [사실]",
+    "조달: 솔로몬은 AI 사업 자금 수요가 커지고 금리 압박이 있으면 일부 프로젝트의 수익성과 사업성이 흔들릴 수 있다고 했다 [사실]",
+    "여론: 9월 오하이오 조사에서 70%가 데이터센터가 환경에, 69%가 가정 에너지 비용에 나쁘다고 답했다 [사실]",
+    "사례: 오하이오 파타스칼라 시의회가 8월 200MW 데이터센터 계획을 부결했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Investing.com·Finwire 검색 결과 요약으로 솔로몬 발언 확인. 실적 발표 원문은 열지 않음",
+   "src": [
+    {"o": "Investing.com", "d": "2026-10-13", "u": "https://ca.investing.com/news/economy-news/goldmans-ceo-solomon-says-to-watch-political-volatility-around-data-centers-4878721"},
+    {"o": "Finwire", "d": "2026-10-13", "u": "https://finwire.io/news/economy-news/goldmans-ceo-solomon-says-to-watch-political-volatility-around-data-centers"}
+   ],
+   "inds": ["power"], "nodes": ["power/demand"],
+   "added": "이번 {{로이터 1건}}으로 {{골드만삭스 CEO의 선거발 데이터센터 변동성 경고}}와 {{금리 압박에 따른 AI 사업 수익성 우려}}가 추가됐다",
+   "items": [
+    {"t": "골드만 CEO, 데이터센터 둘러싼 선거발 변동성 주시", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/goldman-ceo-watching-election-driven-volatility-around-data-centers-2026-10-13/",
+     "s": "{{솔로몬 골드만삭스 CEO}}가 {{중간선거 전후 데이터센터 관련 정치적 변동성}}을 {{주시}}한다며 {{금리 압박}}이 {{일부 AI 사업 수익성}}을 {{해칠}} 수 있다고 {{밝혔}}다"}
+   ]},
+
+  {"cid": "C068", "attachTo": "n-rtr-0271",
+   "title": "{{이 대통령 '북극항로 개발, 국제 제재 준수'}}…{{2030년 정기 노선}} {{추진}}",
+   "one": "{{이재명 대통령}}이 {{북극항로 첫 상업 왕복을 마친 팬스타 아크로호}} 귀항 행사에서 {{국제 규범·제재를 엄격히 지키며}} {{항로를 개발}}하겠다고 {{밝혔}}지만, {{737TEU에 그친 화물}}과 {{러시아 쇄빙 지원 제재}} 탓에 {{2030년 정기 노선}}의 {{사업성}}이 {{관건}}이 될 전망이다",
+   "facts": [
+    "무엇이: 이재명 대통령은 10월 13일 부산 팬스타 아크로호 귀항 행사에서 국제 규범과 제재 원칙을 엄격히 지키며 북극항로를 개발하고 주요 협력국과 긴밀히 소통하겠다고 했다 [사실]",
+    "제재: 항로 대부분이 러시아 북극 연안을 지나고 쇄빙 서비스를 맡는 러시아 국영 아톰플로트가 제재 대상이라, 비상 쇄빙 지원을 받을 수 있는지가 쟁점이다 [사실]",
+    "일정: 해양수산부 장관은 2027년 추가 시범 운항, 2030년 정기 노선, 2040년 무렵 경제성 확보를 예상했다 [사실]",
+    "화물: 팬스타는 약 1,300TEU를 목표했으나 737TEU를 싣고 떠났고 수입 화물 없이 돌아왔다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "코리아타임스·코리아헤럴드·서울경제 검색 결과 요약으로 확인",
+   "src": [
+    {"o": "코리아타임스", "d": "2026-10-13", "u": "https://www.koreatimes.co.kr/southkorea/20261013/lee-says-arctic-sea-route-development-to-comply-with-intl-sanctions"},
+    {"o": "코리아헤럴드", "d": "2026-10-13", "u": "https://www.koreaherald.com/article/10901410"},
+    {"o": "서울경제", "d": "2026-10-13", "u": "https://en.sedaily.com/politics/2026/10/13/lee-pledges-long-term-approach-to-arctic-shipping-route"}
+   ],
+   "inds": ["shipping"], "nodes": [],
+   "added": "이번 {{로이터 1건}}으로 {{이 대통령의 국제 제재 준수 약속}}과 {{2027년 추가 시범 운항·2040년 경제성 확보 일정}}이 추가됐다",
+   "items": [
+    {"t": "이 대통령 \"북극항로 개발, 국제 제재 준수할 것\"", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/china/south-koreas-lee-says-arctic-shipping-route-development-comply-with-2026-10-13/",
+     "s": "{{이재명 대통령}}이 {{북극항로 개발}}을 {{국제 제재를 지키며}} {{추진}}하겠다고 {{밝혀}}, {{러시아 연안을 지나는 항로}}에 대한 {{서방 협력국의 우려}}를 {{달래}}려 하고 있다"}
+   ]},
+
+  {"cid": "C076", "attachTo": "n-bbg-0127",
+   "title": "{{니덱 주가 10년 만의 최저}}…{{상장폐지 위험}} 커지고 {{오아시스}}는 {{비상장 전환 요구}}",
+   "one": "{{2년 연속 감사의견 거절}}로 {{상장폐지 위험}}이 {{커진 니덱}}의 주가가 {{10월 13일 6.6% 내려 2016년 7월 이후 최저}}로 {{떨어지}}면서, {{지분 약 8%의 오아시스}}가 요구한 {{비상장 전환}}과 {{10월 28일 내부통제 보고서}}가 {{회사의 향방}}을 {{가를}} 전망이다",
+   "facts": [
+    "무엇이: 니덱 주가는 10월 13일 6.6% 내려 2016년 7월 이후 최저로 떨어졌고, 9월 18일 고점보다 34% 넘게 낮다 [사실]",
+    "상장폐지 위험: 도쿄증권거래소가 2025년 10월 회계 부정 뒤 니덱을 특별주의종목으로 지정했고, 내부통제 개선이 부족하다고 보면 상장폐지될 수 있으며 니덱은 10월 28일까지 보고서를 낸다 [사실]",
+    "감사: PwC재팬은 2026년 3월 결산에 2년 연속 감사의견을 거절했다 [사실]",
+    "주주: 지분 약 8%의 오아시스는 비상장 전환 검토를 요구했고, UBS는 투자의견을 중립으로 낮췄다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "The Edge Malaysia·briefs.co 검색 결과 요약으로 10년 저점과 6.6% 하락 확인. 특별주의종목 지정 시점은 한 출처(piqmarkets)가 다르게 적음",
+   "src": [
+    {"o": "The Edge Malaysia", "d": "2026-10-13", "u": "https://theedgemalaysia.com/node/821659"},
+    {"o": "briefs.co", "d": "2026-10-13", "u": "https://www.briefs.co/news/nidec-shares-slide-to-lowest-since-july-2016-as-delisting-fe/"}
+   ],
+   "inds": ["industrial"], "nodes": [],
+   "added": "이번 {{블룸버그 1건}}으로 {{니덱 주가의 2016년 7월 이후 최저 추락}}과 {{9월 고점 대비 34% 넘는 하락}}, {{10월 28일 내부통제 보고서 일정}}이 추가됐다",
+   "items": [
+    {"t": "니덱 주가 10년 만의 최저…상장폐지 위험 고조", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/nidec-shares-hit-decade-low-as-delisting-risk-mounts",
+     "s": "{{니덱 주가}}가 {{상장폐지 위험}}이 {{커지}}면서 {{10월 13일 6.6% 내려}} {{2016년 7월 이후 최저}}로 {{떨어져}}, {{주주들의 손실}}이 {{불어나}}고 있다"}
+   ]},
+
+  {"cid": "C084", "attachTo": "",
+   "title": "{{인도 NTPC}}, {{日·韓·獨 구매자}}와 {{그린 암모니아 판매}} {{협의}}",
+   "one": "{{인도 최대 발전사 NTPC}}가 {{안드라프라데시 그린수소 허브}}에서 만들 {{그린 암모니아·메탄올}}을 두고 {{일본·한국·독일 구매자}}와 {{협의}}에 {{나서}}면서, {{장기 구매계약 확보}}가 {{사업화}}의 {{관건}}이 될 전망이다",
+   "facts": [
+    "무엇이: 구르딥 싱 NTPC 회장은 10월 13일 일본·한국·독일의 잠재 구매자와 그린 암모니아 등 저탄소 연료 판매를 협의 중이라고 했다 [사실]",
+    "사업: 안드라프라데시에 추진하는 그린수소 허브가 수소보다 운송·교역이 쉬운 그린 암모니아와 그린 메탄올을 생산한다 [사실]",
+    "조건: 싱 회장은 시범 사업을 넘어 상업화하려면 장기 구매계약이 필요하다고 했고, 공개된 수출 계약은 아직 없다 [사실]",
+    "정책: 인도는 2030년 그린수소 연 500만 톤 생산을 목표로 약 21억 달러 보조금을 둔다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "Business Standard·BW Businessworld 검색 결과 요약으로 확인",
+   "src": [
+    {"o": "Business Standard", "d": "2026-10-13", "u": "https://www.business-standard.com/companies/news/ntpc-in-talks-with-japan-south-korea-germany-for-sale-of-green-fuel-126101300454_1.html"},
+    {"o": "BW Businessworld", "d": "2026-10-13", "u": "https://www.businessworld.in/article/ntpc-eyes-overseas-buyers-for-green-ammonia-low-carbon-fuels-628334"}
+   ],
+   "inds": ["power"], "nodes": ["power/developers"],
+   "items": [
+    {"t": "인도 NTPC, 그린 암모니아·저탄소 연료 해외 구매자 물색", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/indias-ntpc-seeks-overseas-buyers-green-ammonia-low-carbon-fuels-2026-10-13/"}
+   ]},
+
+  {"cid": "C092", "attachTo": "",
+   "title": "{{시타라만 '거래세 논쟁 건전'}} 발언에 {{인도 증시 반등}}…{{센섹스 1.54% 상승}}",
+   "one": "{{시타라만 인도 재무장관}}이 {{증권거래세·장기 양도세 논쟁}}을 {{건전하다}}고 {{평가}}하자 {{세 부담 완화 기대}}에 {{센섹스}}가 {{1,109포인트(1.54%) 올라}}, {{2027년 2월 예산안}}의 {{세제 개편 여부}}가 {{주목}}된다",
+   "facts": [
+    "무엇이: 시타라만 재무장관은 10월 13일 블룸버그 뉴이코노미 포럼에서 거래세와 자산별 동일 과세를 둘러싼 논쟁이 충분히 나왔고 건전하다고 했다 [사실]",
+    "시장: 센섹스는 1,109.10포인트(1.54%) 오른 73,033.78, 니프티50은 358.60포인트(1.60%) 오른 22,721.95에 마감했다 [사실]",
+    "한계: 감세나 면제 발표는 없었고, IT 기업 실적과 루피 강세·유가 하락도 상승을 거들었다 [사실]",
+    "일정: 다음 연방 예산안은 2027년 2월 1일 발표된다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "BusinessToday·The Week·OpIndia 검색 결과 요약으로 확인",
+   "src": [
+    {"o": "BusinessToday", "d": "2026-10-13", "u": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-gains-on-fm-sitharamans-ltcg-tax-stt-remark-561274-2026-10-13"},
+    {"o": "The Week", "d": "2026-10-13", "u": "https://theweek.in/news/biz-tech/2026/10/13/indian-stock-market-rebound.html"},
+    {"o": "OpIndia", "d": "2026-10-13", "u": "https://opindia.com/2026/10/why-sensex-surged-1100-points-sitharaman-tax-remarks-it-earnings-and-rupee-recovery-explain-dalal-streets-dramatic-rebound"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/fiscal"],
+   "items": [
+    {"t": "시타라만 거래세 발언에 인도 증시 상승", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/indian-stocks-rise-on-sitharaman-s-comments-on-transaction-tax"}
+   ]},
+
+  {"cid": "C100", "attachTo": "",
+   "title": "{{보츠와나}}, {{드비어스 지분 25%로 확대}} {{합의 근접}}…{{앵글로 매각}} {{막바지}}",
+   "one": "{{보츠와나}}가 {{드비어스 인수 우선협상자 GDC}}와 {{지분을 15%에서 약 25%로 늘리는 합의}}에 {{다가서}}면서, {{앵글로아메리칸의 드비어스 매각}}이 {{막바지 단계}}로 {{넘어갈}} 전망이다",
+   "facts": [
+    "무엇이: 보츠와나와 글로벌다이아몬드컨소시엄(GDC)이 보츠와나의 드비어스 지분을 15%에서 약 25%로 늘리는 합의에 다가섰고, 아직 확정되지는 않았다 [사실]",
+    "구조: 앵글로아메리칸 지분 85% 일부가 보츠와나로 가고 앙골라·나미비아·민간 투자자도 지분을 받으며, 세 정부 합계는 50% 미만이다 [사실]",
+    "의미: 보코 대통령이 요구해 온 과반 지분에서 물러선 것이며, 핵심 광산이 있는 보츠와나와의 합의가 매각의 걸림돌이었다 [사실]",
+    "배경: 전 드비어스 CEO 개러스 페니가 이끄는 GDC가 7월 우선협상자로 떠올랐고, 앵글로는 2월 드비어스 장부가를 23억 달러로 낮췄다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "bne IntelliNews·FashionNetwork 검색 결과 요약으로 확인(원 보도는 블룸버그)",
+   "src": [
+    {"o": "bne IntelliNews", "d": "2026-10-13", "u": "https://www.intellinews.com/botswana-reportedly-nears-deal-for-25-de-beers-stake-as-anglo-american-sale-advances-475658"},
+    {"o": "FashionNetwork", "d": "2026-10-13", "u": "https://us.fashionnetwork.com/news/Botswana-said-to-near-agreement-on-size-of-its-de-beers-stake,1875506.html"}
+   ],
+   "inds": ["metals"], "nodes": [],
+   "items": [
+    {"t": "보츠와나, 드비어스 지분 약 25%로 늘리는 합의 근접…블룸버그 보도", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/africa/botswana-nearing-deal-raise-de-beers-stake-about-25-bloomberg-reports-2026-10-13/"}
+   ]},
+
+  {"cid": "C108", "attachTo": "",
+   "title": "{{가이아나}}, {{엑손 가스 재주입 수요}}에 {{LNG 계획 축소}} {{검토}}…{{연 300만 톤으로}}",
+   "one": "{{엑손 컨소시엄}}이 {{원유 목표}}를 맞추려면 {{하루 약 20억 입방피트의 가스를 유전에 재주입}}해야 한다고 {{보}}면서, {{가이아나}}가 {{연 600만 톤 LNG 사업}}을 {{최대 300만 톤으로 줄이}}거나 {{수출 포기}}까지 {{검토}}하고 있다",
+   "facts": [
+    "무엇이: 가이아나가 엑손모빌의 가스 수요 탓에 LNG 계획 축소를 검토하고 있으며 아직 최종 결정은 없다고 소식통 2명이 전했다 [사실]",
+    "가스 수요: 엑손·셰브런·CNOOC 컨소시엄은 승인된 사업의 원유 목표를 맞추려면 하루 약 20억 입방피트의 가스를 유전에 재주입해야 한다고 본다 [사실]",
+    "LNG 규모: 연 600만 톤으로 계획한 사업이 최대 300만 톤으로 시작해 나중에 늘릴 수 있고, 2024년 선정된 미국 풀크럼 LNG의 부유식 설비도 영향을 받는다 [사실]",
+    "대안: 정부는 수출을 접고 국내 발전·석유화학에 가스를 쓰는 방안도 따지며, 가스발전소 가동을 우선하고 있다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "EnergyNow·Newsquawk 검색 결과 요약으로 확인(원 보도는 로이터 단독)",
+   "src": [
+    {"o": "EnergyNow", "d": "2026-10-13", "u": "https://energynow.com/2026/10/guyana-may-scale-back-lng-plans-as-exxon-needs-more-gas-for-its-wells-sources-say/"},
+    {"o": "Newsquawk", "d": "2026-10-13", "u": "https://www.newsquawk.com/headlines/guyanas-government-reconsidering-lng-project-after-exxon-mobil-xom-told-guyana-it-will-need-more-gas-for-reinjection-according-to-reports-citing-sources"}
+   ],
+   "inds": ["gas"], "nodes": ["gas/upstream", "gas/liquefaction"],
+   "items": [
+    {"t": "가이아나, 엑손 유전에 가스 더 필요해 LNG 계획 축소 가능성…소식통", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"}
+   ]}
+ ],
+ "skipped": []}

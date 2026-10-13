@@ -135,7 +135,7 @@ items.append({
 # C038
 items.append({
  "cid": "C038", "attachTo": "n-bbg-0070",
- "title": "{{리사 수}} \"{{올해는 추론의 해}}\"…{{AMD}}, {{2030년 CPU 시장 2,000억 달러}}로 {{상향}}",
+ "title": "{{리사 수}} \"{{올해는 추론의 해}}\"…AMD, {{2030년 CPU 시장 2,000억 달러}}로 {{상향}}",
  "one": "{{리사 수 AMD CEO}}가 {{공급이 훨씬 더 필요}}하다고 인정한 데 이어 {{OCP 기조연설}}에서 {{에이전트 AI}}로 {{추론 비중이 60%}}에 이를 것이라며 {{2030년 CPU 시장 전망}}을 {{2,000억 달러 이상}}으로 {{올리}}면서, {{서버 CPU 공급 부족}}이 {{길어질}} 수 있다",
  "facts": [
   "무엇이: 리사 수 CEO는 10월 12일 OCP 글로벌 서밋 기조연설에서 2026년을 추론의 해로 부르며 추론이 앞으로 시장의 약 60%를 차지할 것이라고 했다 [사실]",
@@ -326,5 +326,5 @@ items.append({
 
 skipped = [{"cid": "C062", "reason": "범위 밖(기린 9050 시리즈 양산은 10월 1일 메이트 90 출시 때 공개된 내용의 재탕, 스마트폰 칩 소개)"}]
 
-json.dump({"agent": "W7", "searches_used": 12, "fetches_used": 0, "items": items, "skipped": skipped},
+json.dump({"agent": "W7", "searches_used": 14, "fetches_used": 0, "items": items, "skipped": skipped},
           open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

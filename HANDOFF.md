@@ -1,78 +1,80 @@
-# 핸드오프 — 제목 기준 100건 재확인, 비슷한 뉴스 소급 묶기 28묶음(흡수 43건), n-tg-0200 삭제, 텔레그램 붙이기 기능
+# 핸드오프 — 새 글 함께 묶기 2회(10월 8~9일·12~13일), 데스크 테마·읽음 보관, 요청 조사에 원문 전체 반영
 
-작성 시점: 2026-10-09 18시 20분(KST). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었습니다. 작업은 브랜치 claude/sweet-heisenberg-x437s0에 커밋·푸시했습니다. 시작할 때 직전 브랜치 ccr-0362917f-y69eiu를 앞으로 감은 뒤 이어 썼습니다. PR은 만들지 않았습니다. 직전 핸드오프는 HANDOFF-prev-2026-10-09-14h.md입니다(절차·규칙은 그 문서의 4~8절이 그대로 유효합니다).
-주의: 페이지의 '요청' 버튼이 여는 새 세션은 여전히 브랜치 ccr-3155a934-jp2ev0에서 시작합니다(desk/parts/js2.js의 CCR.rev). 바꾸지 않았습니다.
+작성 시점: 2026-10-13 14시 30분(KST). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었고, 작업은 브랜치 claude/busy-dirac-rdnh60에 커밋·푸시했습니다(시작 때 직전 브랜치 claude/sweet-heisenberg-x437s0을 앞으로 감음). PR은 만들지 않았습니다. 직전 핸드오프는 HANDOFF-prev-2026-10-09-18h.md입니다.
+중요: 데스크의 '요청' 버튼이 여는 새 세션은 이제 이 브랜치(claude/busy-dirac-rdnh60)에서 시작합니다(desk/parts/js2.js의 CCR.rev). 다른 브랜치로 옮겨 작업하면 이 값도 바꾸고 페이지를 다시 게시해야 합니다.
 
 ---
 
 ## 1. 한눈에 보기
 
-1. n-tg-0200(백악관 AI 과학 정상회의, 기업 투자 약속) 삭제. newsSeen의 그 주소 줄은 남겨 두었습니다(다시 수집되지 않게).
-2. 제목 기준 100건 재확인(data/recheck-2026-10-09/): Opus 에이전트 5개 × 20건, 검색 100회. 결과는 확인 93, 일부 확인 6, 제목 기준 1(n-bbg-0210 유럽 방산·에너지 기술).
-   - 숫자 미확인 6곳: 레이시온 최대 63억 달러(SM-3 블록 IB), 가나 코코아 2억8,800만 달러, 질랜드·로슈 9.2% 맞음, 케냐 3,400억 실링(약 26억 달러, 한 출처는 3,100억), 딜로이트 벌금 605만 파운드, 안두릴·해군 66억 달러, 한국 K-GX 7,470억 달러(약 1,000조 원).
-   - 그 밖에 정정: 인도 1,500억 루피(155억 아님), 셰브론 거래 상대(헤스 미드스트림), 애버딘 지분 5.2%, 플라이두바이 사건 내용, 수드추커·콘스텔레이션 실적 해석 등.
-   - 메인 세션은 3건(레이시온·케냐·한국)만 전후를 대조했습니다. 출처는 각 문서 src에 있고 직접 열어 보지 않았습니다.
-3. 비슷한 뉴스 소급 묶기(data/merge-2026-10-09/): 사용자가 '28묶음 모두 진행'을 골랐습니다.
-   - 대상: 안 읽은(U) 문서만 흡수, 남는 문서는 각 흐름에서 게시가 가장 이른 문서(읽은 문서도 가능, 7건은 다시 '안 읽음'이 됨). 자세한 정리·인사이트가 있는 문서는 흡수하지 않음.
-   - 흡수 43건(텔레그램 27, 블룸버그 14, 로이터 2) 삭제, 남는 28건에 items·src·분야를 옮기고 제목·한줄·사실을 새로 씀(근거 확인 15, 일부 확인 13).
-   - newsSeen 줄 174개의 id를 남는 문서 id로 바꿈(주소 중복 검사는 그대로).
-   - 묶음 판단은 제목과 한줄 앞부분만 보고 했습니다(Opus 1개). 이란 전쟁 묶음(G001)처럼 넓게 묶은 곳이 있어 사용자 확인이 필요합니다.
-4. 텔레그램 저장에 '기존 문서에 붙이기'를 넣었습니다: tools/mk_one_tg.py(attachTo·itemTitle), 공용 함수 tools/bundle_attach.py, 지시서 틀 tools/PROMPT_TG.md. 시험 사본에서만 동작을 확인했고 실제 저장에는 아직 쓰지 않았습니다.
-5. DB 현재: news 558건, meta/newsSeen v10(약 251KB — 한도 256KB에 가까움), newsSeenOld v1, progressV4 v15(이번에 손대지 않음), newsSeq bbg 220·rtr 173·tg 209.
-6. 토큰: 재확인 Opus 5개 약 59만, 묶기 찾기 Opus 약 12만, 묶음 작성 Opus 약 15만.
+1. 텔레그램·블룸버그·로이터를 출처 구분 없이 함께 거르고 같은 흐름끼리 묶는 방식(data/mix-*/, tools/mk_mix.py)으로 두 번 저장했습니다.
+   - 10월 8일 17시 45분~9일 18시 30분: 후보 325 → 남김 187 → 82묶음 → 새 문서 47건, 기존 문서 30건에 더함(기사 133). 근거: 확인 51, 일부 19, 채널 전언 3, 제목 기준 4.
+   - 10월 12일 0시~13일 07시 50분: 후보 962(블룸버그 241·로이터 392·텔레그램 329) → 남김 544 → 168묶음(같은 문서에 붙는 묶음은 하나로 합침) → 새 문서 96건(n-bbg-0229~0264, n-rtr-0198~0230, n-tg-0225~0251), 기존 문서 60건에 더함(기사 498). 근거: 확인 84, 일부 35, 채널 전언 16, 제목 기준 21. 건너뜀 12.
+   - 두 번 모두 DB를 다시 받아 저장 파일과 같음을 확인했습니다. 표본 대조는 각 2~3건뿐입니다.
+2. 비어 있는 구간: 10월 9일 18시 30분~11일 24시(블룸버그·로이터·텔레그램 모두)는 처리하지 않았습니다. 10월 13일 07시 50분 이후도 아직입니다.
+3. n-bbg-0210: 재검색 2회로도 원문 요약을 못 찾아 제목 기준 유지(check만 갱신).
+4. chains(산업 한 페이지) 7개 문서에서 소급 묶기로 지운 문서 id 72곳을 남은 문서 id로 바꿈. n-tg-0200을 가리키는 1곳은 대신할 문서가 없어 그대로.
+5. 데스크 페이지(같은 주소) Version 48~51:
+   - v48 어두운 테마, v50 다크·라이트 바꾸기 버튼(기본 다크, 고른 값은 브라우저 localStorage 'deskTheme').
+   - v49 요청 버튼 세션 브랜치를 이 브랜치로.
+   - v51 읽음 기록을 계정별로 브라우저에도 보관(localStorage 'deskReads:<id>'). 링크로 공유받은 조직 밖 사람은 '보기' 권한이라 개인 저장소(data/users/<id>/reads)에 쓸 수 없어(플랫폼 규칙) 읽음이 사라지던 문제를 그 브라우저 안에서는 해결. 다른 기기에서는 유지되지 않음.
+   - '내가 읽음 처리하면 공유받은 사람에게도 읽음' 문제는 원인을 찾지 못했습니다(개인 저장소는 서로 읽을 수 없고 코드에도 경로 없음). 사용자에게 그 사람의 로그인 계정·화면을 물어 둔 상태.
+6. 요청한 뉴스 조사(tools/insight/): 묶음 뉴스의 원문 전체를 반영하도록 바꿈 — sources.py(원문 목록 + 텔레그램 본문 받기), INSIGHT_PROMPT.md('원문 N건 핵심' 절, 검색 한도 20+원문 수), RUN.md, check.py(원문 주소가 자세한 정리에 모두 있는지 검사). 실제 요청으로 끝까지 돌려 본 적은 없음.
+7. 저녁 예약 작업(trig_014res2hazUFUcx55wHPWtoU, 매일 20:47 KST) 지시문을 읽어 확인: 대상은 processed가 최근 7일이고 meta/chainsLog.applied에 없는 카드. 그래서 이미 반영된 카드는 다시 반영되지 않고(중복 없음), 기사를 더 붙인 기존 문서의 새 내용도 반영되지 않습니다. 예약 작업은 바꾸지 않았습니다.
+8. DB 현재: news 701건, meta/newsSeen v12, newsSeenOld v3, progressV4 v17, newsSeq bbg 264·rtr 230·tg 251.
+9. 검색: 이번 세션 약 215회(에이전트 보고 합). '세션당 약 200회' 한도는 이번에 막히지 않았음(미확인 그대로).
 
 ---
 
-## 2. 이번에 만든 도구
+## 2. 함께 묶기 절차 (data/mix-2026-10-13/ 기준, 다음에도 이 방식)
 
-1. tools/bundle_attach.py: as_items(문서→기사 목록), attach(기존 문서에 기사 더하기, updatedAt·processed 올림), absorb(여러 문서를 하나로), rotate_seen(newsSeen이 240KB를 넘으면 오래된 줄을 newsSeenOld로 옮김).
-2. tools/mk_one_tg.py: 후보에 attachTo가 있으면 새 문서 대신 기존 문서에 붙입니다(한줄 85~165자 검사). 고친 기존 문서는 newsdocs/와 attached.txt에 남습니다. 저장할 때 if_version이 필요합니다. newsSeen 저장 전에 rotate_seen을 부르므로 meta_out/newsSeenOld.json이 생길 수 있고, 생기면 함께 저장해야 합니다.
-3. tools/merge_docs.py: 소급 묶기. 입력 merged.json([{gid, keep, absorb, title, one, facts, basis, check}]) → newsdocs/, deletes.txt, meta_out/newsSeen(Old).json.
-4. data/recheck-2026-10-09/apply.py: 재확인 결과를 문서에 반영.
-5. ArtifactData list의 out_dir 파일에는 version이 없습니다. 이번에는 work/live2/versions.json을 손으로 만들었습니다. 다음 세션은 list 결과에 나온 version을 써야 합니다(work/live 파일만으로는 알 수 없음).
+1. 목록
+   - 텔레그램: for c in 11개 채널; python3 tools/tgcollect.py dump $c <시작 KST ISO> work/dumpN/$c.jsonl (seen 표시 포함).
+   - 블룸버그·로이터: python3 -I tools/sitemap_list.py bbg|rtr <since UTC> --all > work/smN/bbg.txt (사용자 컴퓨터 불필요. 본문은 열리지 않음).
+2. all.tsv(줄번호·출처 tg:<채널>|bbg|rtr·KST·제목/본문·주소) → in/F*.tsv(본문 260자) → Haiku 에이전트(노력 max, 지시서 FILTER.md, 320줄 안팎씩) → out/F*.tsv(K/D).
+3. keep.tsv(본문 300~400자) + existing.tsv(최근 1주 문서) → Opus 1개, CLUSTER.md → clusters.json. 같은 attachTo를 가진 묶음은 메인 세션이 하나로 합침(clusters_orig.json이 원본).
+4. python3 -I mk_bundles.py <DB 사본> <에이전트 수> → bundle/W*.md → Opus 에이전트, WRITE.md(검색 16회·열람 4회 이내) → out2/W*.json.
+5. 작업 폴더에서 python3 -I ../../tools/mk_mix.py <DB 사본> <processed 날짜> <텔레그램 덤프 폴더> '<기간 설명>' → newsdocs/, meta_out/(progressV4·newsSeen·newsSeenOld), attached.txt. PROBLEMS 0이 될 때까지 out2만 고침.
+6. 저장: ArtifactData batch(50개·1MiB 이하). 기존 문서는 list 결과의 version으로 if_version, meta는 마지막 배치에. 저장 뒤 다시 받아 대조, work/seen.txt·seen_urls.txt를 newsSeenOld+newsSeen으로 다시 만듦.
+7. 주의: n-tg-0166(후티·사우디 흐름)은 기사 66건까지 커졌습니다. 너무 크면 나눌지 사용자에게 물을 것.
 
 ---
 
 ## 3. 남은 일
 
-1. 사용자가 실제 페이지에서 묶음(특히 G001 이란, G002 호르무즈, G008 연준)과 다시 안 읽음, 원문 N건을 확인하는 것.
-2. n-bbg-0210(유럽 방산·에너지 기술) 한 건은 아직 제목 기준입니다.
-3. 텔레그램 10월 8일 17시 45분 이후 새 글: tools/PROMPT_TG.md를 회차 폴더에 복사해 쓰고, mk_one_tg.py의 붙이기 기능으로 저장하기(첫 실사용).
-4. 블룸버그·로이터 10월 9일 14시 36분 이후(직전 핸드오프 4절).
-5. 예약 작업 '산업 한 페이지 저녁 업데이트'(trig_014res2hazUFUcx55wHPWtoU): 이번에 묶은 28건과 재확인한 100건의 processed가 2026-10-09가 되었습니다. 저녁 작업이 processed로 대상을 고르면 다시 대상이 될 수 있습니다(추론, 지시문 미확인). 손대지 않았습니다.
-6. 레거시 형식의 dupOf(예: 'pf-tg-013', 'bbg-074') 20건은 지금 없는 id를 가리킵니다. 이번 작업 전부터 있던 것이고 고치지 않았습니다.
-7. 직전 핸드오프의 남은 일(표본 대조, 인사이트 시험 결과 대조, 요청 버튼 첫 시험, 공유 범위, 9월 30일 이전 소급, 7월 텔레그램 252건, RUNBOOK 갱신)은 그대로입니다.
+1. 10월 9일 18시 30분~11일, 10월 13일 07시 50분 이후 새 글.
+2. 공유받은 사람에게 내 읽음이 보인다는 문제: 사용자 답(그 사람의 계정·화면)을 받아 확인.
+3. 요청 버튼 첫 실사용(원문 전체 반영 절차) 결과 확인.
+4. 표본 대조(두 번의 묶기 저장분), 이란 묶음(n-rtr-0014)·후티 묶음(n-tg-0166) 크기 확인.
+5. 직전 핸드오프 3절의 남은 일 중 미처리: 레거시 dupOf 20건, 인사이트 시험 결과 대조, 9월 30일 이전 소급, 7월 텔레그램 252건, RUNBOOK 갱신.
 
 ---
 
 ## 4. 이어서 하는 절차 (Claude Code)
 
-1. 브랜치 claude/sweet-heisenberg-x437s0를 받고, 압축 파일의 news-desk/work/를 저장소의 work/에 풉니다(work/는 .gitignore 대상).
-2. DB를 새로 받습니다: ArtifactData list(meta, news[limit 1000], chains; out_dir=work/live). 사용자 읽음 기록은 collection data/users/me, doc reads(값은 읽은 시각 ms, updatedAt보다 작으면 안 읽음).
-3. seen 목록: newsSeenOld+newsSeen을 합쳐 work/seen.txt·seen_urls.txt(지금 1,398줄).
-4. 텔레그램·블룸버그·로이터·페이지 수정 절차는 직전 핸드오프 4~5·7절과 같습니다. 텔레그램 지시서는 tools/PROMPT_TG.md 틀을 씁니다.
+1. 브랜치 claude/busy-dirac-rdnh60을 받고, 압축 파일의 news-desk/work/를 저장소 work/에 풉니다(work/는 .gitignore 대상, live7이 최신 DB 사본).
+2. DB를 새로 받습니다(meta, news limit 1000, chains; out_dir=work/liveN). 기존 문서를 고칠 때는 list 결과의 version을 씁니다.
+3. 페이지 수정: desk/parts에서 python3 build.py v39.html ../index.html → Artifact publish(같은 주소). 시험 화면은 playwright(executablePath /opt/pw-browsers/chromium) + window.PREVIEW_CLAUDE 모의 객체(스크립트는 저장소에 없음).
 
 ---
 
-## 5. 사용자 작업 규칙 (계속 적용, 직전 핸드오프 8절과 같음)
+## 5. 사용자 작업 규칙 (계속 적용)
 
 1. 존댓말, 결론 먼저. 표는 쓰지 않고 보고서류에는 굵은 글씨를 쓰지 않습니다.
 2. 근거가 부족하면 모른다고 밝히고 지어내지 않습니다. 추론이면 유형과 근거를 밝힙니다.
 3. 링크에 근거했으면 답변 끝에 Sources. 게시된 페이지 주소는 요청이 없으면 채팅에 붙이지 않습니다.
 4. 요청 범위 밖의 데이터·기능은 바꾸지 않습니다. 예약 작업과 메모리는 명시적 요청이 있을 때만 바꿉니다.
 5. 같은 아티팩트를 같은 주소에 갱신합니다.
-6. 요청 표현: "handoff해줘"·"handoff" = 이 문서와 압축 파일. "텔레 5개 ㄱㄱ" = 텔레그램 5건. "ㄱㄱ"·"진행시켜" = 진행. 화면 변경은 "예시를 먼저 만들어서 보여줘"라고 하면 시안 먼저.
-7. 무거운 작업은 서브 에이전트(Opus), 깊게 생각할 필요 없는 작업은 Haiku 5.5(노력 max). 토큰을 적게 쓰는 방법 우선.
-8. 정리 순서는 최근 날짜부터 거꾸로.
-9. 커밋: 세션의 지정 브랜치에 커밋·푸시.
-10. 뉴스 고르기: AI 투자 증액류 제외, 축소·취소·연기류 포함. 블룸버그·로이터는 분야를 넓게.
-11. 비슷한 뉴스 묶기: 같은 흐름이면 처음 저장한 문서에 더함(텔레그램 포함). 묶는 기준은 넓게. 새 기사를 더하면 다시 안 읽음. 모든 뉴스에 원문 링크.
-12. 대량 작업 전에는 총 건수부터 알려 드리고 진행 여부를 묻습니다.
-13. 검색 한도: 세션 전체 WebSearch 약 200회로 보고(미확인), 이번 세션은 약 100회를 썼습니다.
+6. 요청 표현: "handoff" = 이 문서와 압축 파일. "ㄱㄱ"·"진행시켜" = 진행.
+7. 무거운 작업은 서브 에이전트(Opus), 깊게 생각할 필요 없는 작업은 Haiku(노력 max). 토큰을 적게 쓰는 방법 우선.
+8. 뉴스 고르기: AI 투자 증액류 제외, 축소·취소·연기류 포함. 블룸버그·로이터는 분야를 넓게.
+9. 비슷한 뉴스 묶기: 출처와 상관없이 같은 흐름이면 묶고, 기존 문서와 같은 흐름이면 처음 저장한 문서에 더함(넓게). 새 기사를 더하면 다시 안 읽음. 모든 뉴스에 원문 링크.
+10. 뉴스 내용 및 인사이트 요청: 묶음의 원문들을 모두 활용해 작성.
+11. 대량 작업 전에는 총 건수부터 알려 드리고 진행 여부를 묻습니다.
+12. 커밋: 세션의 지정 브랜치에 커밋·푸시.
 
 ---
 
-## 6. 압축 파일(작업본-v10.zip) 구성
+## 6. 압축 파일 구성
 
-1. news-desk/ (저장소 구조, .git 제외): HANDOFF.md(이 문서), HANDOFF-prev-*.md, RUNBOOK.md, tools/, desk/, data/(recheck-2026-10-09/, merge-2026-10-09/ 포함), work/(live = 이번 작업 뒤 DB 사본 news 558, live2 = 작업 전 사본, live3 = 작업 뒤 받은 news, deleted/n-tg-0200.json, seen.txt·seen_urls.txt).
-2. handoff.md(이 문서 사본)
+news-desk/ (저장소 구조, .git 제외, work/는 live7·dump5·dump6·sm5·sm6·seen.txt·seen_urls.txt만), handoff.md(이 문서 사본).

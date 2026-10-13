@@ -439,11 +439,8 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
 .lks .ls,.lks1 .ls{display:block;margin-top:1px;color:var(--body);line-height:1.55}
 .lks li{padding:3px 0}
 
-/* 읽음 처리로 목록에서 빠질 때: 연기가 흩어지듯 번지며 위로 날아가 사라짐(0.2초) */
-.item.smoke{pointer-events:none;animation:smoke .2s ease-out forwards;transform-origin:50% 100%}
-.item.smoke .body{animation:smoke-txt .2s ease-out forwards}
-@keyframes smoke{0%{opacity:1;filter:blur(0);transform:none}60%{opacity:.45;filter:blur(3px)}100%{opacity:0;filter:blur(10px);transform:translateY(-14px) scale(1.04,1.08)}}
-@keyframes smoke-txt{to{letter-spacing:.12em;word-spacing:.2em}}
+/* 읽음 처리로 목록에서 빠질 때: 탄력 있게 톡 사라짐(js2.js의 row.animate) */
+.item.pop{pointer-events:none;overflow:hidden;transform-origin:50% 50%;will-change:transform,opacity,height}
 </style>
 
 <script>try { if (localStorage.getItem('deskTheme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>
@@ -1048,9 +1045,22 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
     else if (act === 'read') {
       const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads();
-      // '안 읽은 것만'에서 읽음 처리하면 목록에서 빠지므로, 연기가 흩어지듯 0.2초 동안 사라진 뒤 다시 그립니다.
+      // '안 읽은 것만'에서 읽음 처리하면 목록에서 빠지므로, 살짝 부풀었다가 톡 줄어들며(아이폰처럼 탄력 있게) 사라지고 아래 뉴스가 부드럽게 올라온 뒤 다시 그립니다.
       const row = document.getElementById('row-' + id);
-      if (row && n && st.unreadOnly && isRead(n) && !reduce) { if (!row.classList.contains('smoke')) { row.classList.add('smoke'); setTimeout(rerender, 200); } }
+      if (row && n && st.unreadOnly && isRead(n) && !reduce && row.animate) {
+        if (!row.classList.contains('pop')) {
+          row.classList.add('pop');
+          const h = row.offsetHeight;
+          row.animate([
+            { transform: 'scale(1)', opacity: 1, offset: 0, easing: 'cubic-bezier(.34,1.8,.64,1)' },
+            { transform: 'scale(1.04)', opacity: 1, offset: .35, easing: 'cubic-bezier(.5,0,.75,0)' },
+            { transform: 'scale(.86)', opacity: 0, offset: .8 },
+            { transform: 'scale(.86)', opacity: 0, offset: 1 }
+          ], { duration: 360, fill: 'forwards' });
+          row.animate([{ height: h + 'px', paddingTop: getComputedStyle(row).paddingTop, paddingBottom: getComputedStyle(row).paddingBottom }, { height: '0px', paddingTop: '0px', paddingBottom: '0px' }],
+            { duration: 220, delay: 200, easing: 'cubic-bezier(.32,.72,0,1)', fill: 'forwards' }).finished.then(rerender, rerender);
+        }
+      }
       else rerender();
     }
     else if (act === 'readall') { st.confirmAll = true; renderNews(); }

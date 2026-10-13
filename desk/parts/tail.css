@@ -39,8 +39,5 @@
 .lks .ls,.lks1 .ls{display:block;margin-top:1px;color:var(--body);line-height:1.55}
 .lks li{padding:3px 0}
 
-/* 읽음 처리로 목록에서 빠질 때: 연기가 흩어지듯 번지며 위로 날아가 사라짐(0.2초) */
-.item.smoke{pointer-events:none;animation:smoke .2s ease-out forwards;transform-origin:50% 100%}
-.item.smoke .body{animation:smoke-txt .2s ease-out forwards}
-@keyframes smoke{0%{opacity:1;filter:blur(0);transform:none}60%{opacity:.45;filter:blur(3px)}100%{opacity:0;filter:blur(10px);transform:translateY(-14px) scale(1.04,1.08)}}
-@keyframes smoke-txt{to{letter-spacing:.12em;word-spacing:.2em}}
+/* 읽음 처리로 목록에서 빠질 때: 탄력 있게 톡 사라짐(js2.js의 row.animate) */
+.item.pop{pointer-events:none;overflow:hidden;transform-origin:50% 50%;will-change:transform,opacity,height}

@@ -314,26 +314,7 @@
     else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
     else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
-    else if (act === 'read') {
-      const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads();
-      // '안 읽은 것만'에서 읽음 처리하면 목록에서 빠지므로, 살짝 부풀었다가 톡 줄어들며(아이폰처럼 탄력 있게) 사라지고 아래 뉴스가 부드럽게 올라온 뒤 다시 그립니다.
-      const row = document.getElementById('row-' + id);
-      if (row && n && st.unreadOnly && isRead(n) && !reduce && row.animate) {
-        if (!row.classList.contains('pop')) {
-          row.classList.add('pop');
-          const h = row.offsetHeight;
-          row.animate([
-            { transform: 'scale(1)', opacity: 1, offset: 0, easing: 'cubic-bezier(.34,1.8,.64,1)' },
-            { transform: 'scale(1.04)', opacity: 1, offset: .35, easing: 'cubic-bezier(.5,0,.75,0)' },
-            { transform: 'scale(.86)', opacity: 0, offset: .8 },
-            { transform: 'scale(.86)', opacity: 0, offset: 1 }
-          ], { duration: 360, fill: 'forwards' });
-          row.animate([{ height: h + 'px', paddingTop: getComputedStyle(row).paddingTop, paddingBottom: getComputedStyle(row).paddingBottom }, { height: '0px', paddingTop: '0px', paddingBottom: '0px' }],
-            { duration: 220, delay: 200, easing: 'cubic-bezier(.32,.72,0,1)', fill: 'forwards' }).finished.then(rerender, rerender);
-        }
-      }
-      else rerender();
-    }
+    else if (act === 'read') { const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
     else if (act === 'readall') { st.confirmAll = true; renderNews(); }
     else if (act === 'readall-no') { st.confirmAll = false; renderNews(); }
     else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!isRead(n)) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }

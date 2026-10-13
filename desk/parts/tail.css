@@ -38,6 +38,3 @@
 .item.is-read .add{color:var(--faint)}
 .lks .ls,.lks1 .ls{display:block;margin-top:1px;color:var(--body);line-height:1.55}
 .lks li{padding:3px 0}
-
-/* 읽음 처리로 목록에서 빠질 때: 탄력 있게 톡 사라짐(js2.js의 row.animate) */
-.item.pop{pointer-events:none;overflow:hidden;transform-origin:50% 50%;will-change:transform,opacity,height}

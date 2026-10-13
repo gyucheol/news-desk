@@ -933,7 +933,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     if (window.PREVIEW) return window.PREVIEW.start(list);
     const CL = window.PREVIEW_CLAUDE || window.claude;
     const mcp = CL && await CL.use('mcp');
-    if (!mcp) throw new Error('이 화면에서는 새 창을 열 수 없습니다. claude.ai에서 로그인한 상태로 열어 주세요.');
+    if (!mcp) return { how: 'saved', why: '이 화면에서는 새 창을 열 수 없음' };
     const ids = list.map(n => n.id);
     const prompt = '뉴스 데스크 요청 처리. 요청 뉴스 id: ' + ids.join(', ') + '\n' +
       list.map(n => '- ' + n.id + ' ' + plain(n.title)).join('\n') + '\n\n' +
@@ -941,7 +941,12 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     let r;
     try {
       r = await mcp.callTool(CCR.server, 'create_session', { prompt, title: '뉴스 인사이트 ' + ids.length + '건: ' + plain(list[0].title).slice(0, 40), environment_id: CCR.env, source_url: CCR.repo, source_revision: CCR.rev, model: CCR.model }, { cache: false });
-    } catch (e) { throw new Error(MCP_MSG[e && e.code] || ((e && e.message) || '알 수 없는 오류입니다.')); }
+    } catch (e) {
+      // 잠깐 막힌 경우(재시도 가능)만 오류로 돌려 다시 누르게 하고, 그 밖(조직 정책·커넥터에서 막힘 등)은 요청 목록에 저장으로 넘깁니다.
+      const code = (e && e.code) || '';
+      if (e && (e.retryable || code === 'rate_limited' || code === 'cancelled')) throw new Error(MCP_MSG[code] || ((e && e.message) || '알 수 없는 오류입니다.'));
+      return { how: 'saved', why: MCP_MSG[code] || ((e && e.message) || '') + (code ? ' (' + code + ')' : '') };
+    }
     const p = (r && r.payload) || {};
     const sid = (p.ccr && p.ccr.id) || p.session_id || p.id || '';
     if (sid) ids.forEach(id => { dsess[id] = sid; });
@@ -1012,9 +1017,9 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     if (!list.length) return;
     btn.disabled = true; msg.textContent = '요청을 보내는 중입니다.';
     try {
-      const how = await startResearch(list);
+      const res = await startResearch(list), how = res && res.how ? res.how : res;
       const ts = Date.now(); list.forEach(n => { dsent[n.id] = ts; }); saveDreqs();
-      msg.textContent = how === 'saved' ? list.length + '건을 요청 목록에 저장했습니다. Claude에게 "요청한 뉴스 처리"라고 말씀하시면 작성합니다.' : list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
+      msg.textContent = how === 'saved' ? (res && res.why ? '새 창은 열지 못했습니다(' + res.why + '). ' : '') + list.length + '건을 요청 목록에 저장했습니다. Claude Code에서 "요청한 뉴스 처리"라고 말씀하시면 작성합니다.' : list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
       rerender();
     } catch (e) { msg.textContent = '새 창을 열지 못했습니다. ' + ((e && e.message) || ''); }
     btn.disabled = false;

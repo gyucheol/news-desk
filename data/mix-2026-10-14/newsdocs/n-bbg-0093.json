@@ -1,0 +1,269 @@
+{
+ "added": "이번 텔레그램 2건과 블룸버그·로이터 3건으로 {{IMF 금융안정보고서}}의 {{하이퍼스케일러 회사채 비중 10%}}, {{취약 은행 자산 22%}}, {{아시아 좀비 기업 부채 21.4%}}가 추가됐다",
+ "basis": "verified",
+ "check": "AI 조정·국채금리·사이버공격 3대 요인, 하이퍼스케일러 회사채 비중 10%, 취약 은행 자산 22%는 검색 결과 요약으로 확인. 아시아 좀비 기업 부채 21.4%와 중국 적자 기업 비율은 확인하지 못함",
+ "cycles": [],
+ "facts": [
+  "무엇이: IMF는 10월 13일 글로벌 금융안정보고서에서 AI발 조정, 국채금리 급등, 대형 사이버공격을 금융여건 급격한 긴축과 시장 혼란을 부를 단기 촉발 요인으로 꼽았다 [사실]",
+  "AI 레버리지: 하이퍼스케일러가 세계 투자등급 회사채 발행에서 차지하는 비중은 2024년 1% 미만에서 10%로 늘었고, 2023년 이후 순환형 AI 거래 14건에 지분 약 3,000억 달러와 부채 6,500억 달러가 들어갔다 [사실]",
+  "은행: 스트레스 테스트에서 은행은 전반적으로 견조했지만 자본이 '취약'한 은행의 자산 비중은 세계 은행 자산의 22%로 2025년 18%에서 높아졌다 [사실]",
+  "좀비 기업: IMF 분석으로 아시아 10개국 기업부채의 21.4%가 좀비 기업에 묶여 있고(2008년 10% 미만), 아시아 기업신용은 2025년 말 GDP 대비 107%다 [채널]",
+  "기존 흐름: IMF는 올해 세계성장률을 3.1%로 올리면서 국채금리 급등을 금융시스템 최대 위험으로 꼽았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{IMF}} '{{AI 조정}}·{{국채금리 급등}}이 위기 방아쇠'…하이퍼스케일러 {{회사채 비중 10%}}",
+ "id": "n-bbg-0093",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{IMF 총재}}가 {{연준 워시의 물가 안정 우선 기조}}를 {{칭찬}}하면서 {{미국·일본 등 부채가 많은 나라}}에 {{부채 대응}}을 {{촉구}}했다 (제목 기준)",
+   "t": "IMF 총재, 워시의 '물가 안정 우선' 칭찬…미·일 등에 부채 대응 촉구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{IMF 총재}}가 {{유가 100달러 안팎의 에너지 충격}}과 {{GDP 100%를 넘을 공공부채}}, {{AI 실망 위험}}을 {{위험 칵테일}}로 꼽으면서 {{재정 건전화}}를 촉구했다",
+   "t": "IMF 총재 '세계, AI·석유·부채의 위험 칵테일에 직면'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/world-faces-risk-cocktail-from-ai-oil-and-debt-says-imf-chief"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{IMF 총재}}가 {{에너지 충격과 부채 증가}}, {{AI 위험}}이 {{한꺼번에 세계 성장을 위협}}한다고 경고하면서 {{각국 경제 전망에 부담}}이 {{커질}} 수 있다 (제목 기준)",
+   "t": "IMF 총재, 에너지 충격·부채 증가·AI 위험이 세계 성장 위협한다고 경고",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-chief-warns-energy-shock-growing-debt-ai-risks-threaten-global-growth-2026-10-07/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "로이터",
+   "s": "{{방가 세계은행 총재}}가 {{수십 개국과 위기 지원}}을 {{논의}}하고 있다고 밝히면서, {{세계은행의 긴급 자금 지원}}이 {{여러 나라로 넓어질}} 수 있다 (제목 기준)",
+   "t": "방가 세계은행 총재 \"수십 개국과 위기 지원 논의 중\"",
+   "u": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{게오르기에바 총재}}가 {{AI가 반복 업무 수요를 줄이}}고 {{소득을 노동에서 자본으로 옮겨}} {{세수를 압박}}할 수 있다며 '{{느린 쓰나미}}'라고 경고했다",
+   "t": "IMF 총재, AI가 일자리·세수에 미칠 '느린 쓰나미'에 경각심",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{영국 재무장관}}이 {{IMF 회의}}에서 {{대형 경제국들에 차입 통제}}를 {{촉구}}하면서 {{주요국의 재정 적자 관리 압박}}이 {{커질}} 수 있다 (제목 기준)",
+   "t": "영국 재무장관, IMF에서 대형 경제국에 차입 통제 촉구",
+   "u": "https://www.reuters.com/world/uk/uk-finance-minister-call-big-economies-get-borrowing-under-control-imf-2026-10-11/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{AI가 아시아 선진국 성장률을 0.5~1%포인트 높일}} 수 있다며 {{AI 생산성 향상}}이 {{아시아 고령화 문제를 상쇄}}할 수 있다고 봤다",
+   "t": "IMF \"AI 생산성 향상이 아시아 고령화 문제 상쇄할 수 있어\"",
+   "u": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{선진국 국채 매도}}가 {{이어지}}면서 {{선진 경제의 재정 상황}}이 {{IMF 연차총회에서 주목받는 대상}}으로 {{떠올랐}}다 (제목 기준)",
+   "t": "선진국 국채 매도로 선진 경제가 IMF의 주목 대상에",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/rich-world-bond-selloff-puts-advanced-economies-in-imf-spotlight"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{AI 투자가 세계 성장률을 3% 안팎으로 지탱}}한다고 평가하면서 {{아시아가 그 혜택을 크게 볼}} 수 있다고 밝혔다 (제목 기준)",
+   "t": "IMF \"AI 투자가 세계 성장 3% 안팎 지탱…아시아 혜택 커\"",
+   "u": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{일본 재무상}}이 {{세계은행·IMF 합동개발위원회 차기 의장}}에 {{지명}}되면서, {{일본이 개발금융 논의를 이끄는 자리}}를 {{맡게}} 됐다 (제목 기준)",
+   "t": "일본 재무상, 세계은행·IMF 합동개발위원회 차기 의장에 지명",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-finance-minister-named-next-chair-world-bank-imf-joint-development-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{가타야마 재무상}}이 {{일본인으로는 처음}} {{IMF·세계은행 개발위원회 의장}}을 {{맡게}} 되면서, {{두 기관의 개발 의제에서 일본의 발언권}}이 {{커질}} 수 있다 (제목 기준)",
+   "t": "가타야마, 일본인 최초로 IMF·세계은행 개발위원회 의장 맡는다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/katayama-to-be-first-japanese-chair-of-imf-wb-development-panel"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{IMF}}가 {{세계경제가 버티고는 있지만}} {{회복력의 한계에 가까워졌}}다고 진단하면서, {{추가 충격이 오면}} {{성장 둔화}}로 {{이어질}} 수 있다는 경고를 내놨다",
+   "t": "IMF \"세계경제 버티지만 회복력 한계에 근접\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/world-economy-holds-up-but-nears-limits-of-resilience-imf-says"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{IMF}}가 {{올해 세계성장률을 3.1%로 올리}}고 {{물가 4.7%}}, {{평균 유가 96달러}}를 전망하면서, {{유가 130달러가 이어지}}면 {{2027년 성장률이 0.5%p 깎일}} 수 있다고 봤다",
+   "t": "IMF, 올해 세계성장률 3.1%로 상향…평균 유가 96달러 전망",
+   "u": "https://t.me/HANAchina/70335"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{에너지 충격과 미미한 AI 효과}}를 이유로 {{중남미·카리브 성장률 전망}}을 {{낮추}}면서, {{AI 투자 혜택}}이 {{지역마다 엇갈리}}고 있다 (제목 기준)",
+   "t": "IMF, 에너지 충격·미미한 AI 효과에 중남미·카리브 성장률 전망 하향",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-cuts-latin-america-caribbean-growth-forecasts-energy-shock-little-ai-boost-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{IMF}}가 {{국채금리 급등}}을 {{금융시스템의 최대 위험}}으로 {{꼽}}으면서, {{고부채 국가의 차입 비용}}과 {{채권 보유 기관의 손실 부담}}이 {{커질}} 수 있다 (제목 기준)",
+   "t": "IMF \"국채금리 급등이 금융시스템 최대 위험\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/surging-bond-yields-are-top-risk-to-financial-system-imf-says"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{AI 둔화와 금리 급등}}을 {{다가오는 세계 금융시장 위험}}으로 {{지목}}하면서, {{AI 기대에 오른 자산 가격}}이 {{조정받을}} 수 있다는 {{경고}}가 나왔다 (제목 기준)",
+   "t": "IMF, AI 둔화·금리 급등을 다가오는 글로벌 시장 위험으로 지목",
+   "u": "https://www.reuters.com/business/finance/imf-cites-ai-slowdown-spiking-yields-looming-global-market-risks-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "{{IMF}}가 {{중동 군사 충돌과 호르무즈 해협 폐쇄}}가 {{무역·에너지 흐름에 준 타격}}을 들어 {{중동 성장률 전망}}을 낮추면서, 역내 경제도 전쟁 충격을 받고 있다",
+   "t": "IMF, 군사 충돌·호르무즈 봉쇄에 중동 성장률 전망 하향",
+   "u": "https://t.me/insidertracking/66109"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{AI 투자}}가 세계성장을 떠받치고 있지만 {{전쟁과 부채가 전망을 위협}}한다고 밝히면서, {{성장의 버팀목이 AI 한쪽에 쏠려 있음}}이 {{드러났}}다",
+   "t": "IMF \"AI 투자가 세계성장 떠받쳐…전쟁·부채가 전망 위협\"",
+   "u": "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{IMF}}가 {{AI 붐이 세계 성장과 교역을 떠받쳐}} {{중국·인도}}가 {{혜택}}을 보고 있다고 밝히면서, {{AI 공급망 참여 여부}}에 따라 {{나라별 성장 격차}}가 {{벌어질}} 수 있다 (제목 기준)",
+   "t": "IMF \"AI 붐이 성장·교역 떠받쳐…중국·인도가 수혜\"",
+   "u": "https://www.reuters.com/world/asia-pacific/ai-boom-bolstered-growth-global-trade-benefiting-china-india-imf-says-2026-10-13/"
+  },
+  {
+   "t": "IMF, 'AI발 매도·국채금리 급등' 금융시장 안일함 경고",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71517",
+   "s": "{{IMF}}가 {{AI 조정·국채금리 급등·사이버공격}}을 {{단기 위기 요인}}으로 꼽고 하이퍼스케일러 {{회사채 비중 10%}}를 들어 {{AI 레버리지}}가 {{강제 매도}}를 {{부를}} 수 있다고 경고했다"
+  },
+  {
+   "t": "IMF '아시아 기업부채 21.4%가 좀비 기업에 묶여'",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71518",
+   "s": "{{아시아 10개국 기업부채의 21.4%}}가 {{좀비 기업}}에 {{묶여}} 있고 {{자본이 약한 은행}}이 상환 유예로 {{부실 처리}}를 {{미루}}면서 {{중국}}이 {{1980~90년대 일본}}을 {{닮았다}}는 경고까지 나왔다"
+  },
+  {
+   "t": "금융 불균형 쌓는 AI 붐…블룸버그 경제 뉴스레터 분석",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/financial-imbalances-and-ai-boom",
+   "s": "{{AI 붐}} 속에 {{금융 불균형}}이 {{쌓이}}면서 {{AI 관련 자산 조정}}이 {{금융시장 전반}}의 {{위험}}으로 {{번질}} 수 있다는 점을 짚었다 (제목 기준)"
+  },
+  {
+   "t": "AI 붐이 세계경제의 균열을 덮어 가리고 있는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/why-the-ai-boom-is-papering-over-cracks-in-global-economy",
+   "s": "{{AI 붐}}이 {{세계경제의 균열}}을 {{가리고}} 있어 {{AI 모멘텀이 꺾이면}} {{감춰진 약점}}이 {{드러날}} 수 있다는 분석이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "IMF, AI 시장 조정·전쟁·부채를 세계경제 위험으로 지목",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/imf-flags-risks-global-economy-ai-market-correction-war-debt-2026-10-13/",
+   "s": "{{IMF}}가 {{AI 시장 조정}}, {{전쟁}}, {{부채}}를 {{세계경제의 위험}}으로 {{지목}}하면서 {{국채금리 급등}}이 {{위기 방아쇠}}가 될 수 있다고 경고했다"
+  }
+ ],
+ "key": "bbg-1007-imf-georgieva-praises-warsh",
+ "nodes": [
+  "macro/commodity",
+  "macro/fiscal",
+  "macro/growth",
+  "macro/liquidity",
+  "macro/rates",
+  "macro/semis"
+ ],
+ "num": 93,
+ "one": "{{IMF}}가 {{세계성장률을 3.1%로 올리}}면서도 금융안정보고서에서 {{AI 조정·국채금리 급등·사이버공격}}을 {{위기 촉발 요인}}으로 꼽고 {{하이퍼스케일러 회사채 비중}}이 {{10%로 급증}}했다고 경고해, AI 둔화 시 {{강제 매도}}가 {{시장 전반}}으로 {{번질}} 수 있다",
+ "origTitle": "Fed’s Warsh Earns IMF Praise for Focusing on Price Stability",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:15:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Briefs(블룸버그TV 인용)",
+   "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Quartz",
+   "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Manila Times",
+   "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Irish Times",
+   "u": "https://www.irishtimes.com/business/work/2026/10/12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/imf-raises-2026-global-real-gdp-growth-forecast-to-31--from-30-citing-ai-investment-tempering-energy-price-shock-in-key-economies-while-it-maintains-2027-global-growth-view-at-34"
+  },
+  {
+   "o": "InvestmentNews",
+   "d": "2026-10-13",
+   "u": "https://www.investmentnews.com/alternatives/imf-warns-bond-yields-face-disorderly-spike-on-debt-and-ai-risks/268570"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/imf-ai-stock-crash-global-financial-stability-101326"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-13",
+   "u": "https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report"
+  }
+ ],
+ "tags": [],
+ "title": "{{IMF}} '{{AI 조정}}·{{국채금리 급등}}이 위기 방아쇠'…하이퍼스케일러 {{회사채 비중 10%}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability",
+ "ind": "semis"
+}

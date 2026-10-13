@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0294",
+ "num": 294,
+ "key": "mix-C100-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:09:00+09:00",
+ "url": "https://www.reuters.com/world/africa/botswana-nearing-deal-raise-de-beers-stake-about-25-bloomberg-reports-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{보츠와나}}, {{드비어스 지분 25%로 확대}} 합의 {{근접}}…앵글로 매각 {{막바지}}",
+ "src": [
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10-13",
+   "u": "https://www.intellinews.com/botswana-reportedly-nears-deal-for-25-de-beers-stake-as-anglo-american-sale-advances-475658"
+  },
+  {
+   "o": "FashionNetwork",
+   "d": "2026-10-13",
+   "u": "https://us.fashionnetwork.com/news/Botswana-said-to-near-agreement-on-size-of-its-de-beers-stake,1875506.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "보츠와나, 드비어스 지분 약 25%로 늘리는 합의 근접…블룸버그 보도",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/africa/botswana-nearing-deal-raise-de-beers-stake-about-25-bloomberg-reports-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "{{보츠와나}}, {{드비어스 지분 25%로 확대}} 합의 {{근접}}…앵글로 매각 {{막바지}}",
+ "one": "{{보츠와나}}가 드비어스 인수 우선협상자 {{GDC}}와 {{지분을 15%에서 약 25%로 늘리는 합의}}에 {{다가서}}면서, {{앵글로아메리칸의 드비어스 매각}}이 {{막바지 단계}}로 {{넘어갈}} 전망이다",
+ "facts": [
+  "무엇이: 보츠와나와 글로벌다이아몬드컨소시엄(GDC)이 보츠와나의 드비어스 지분을 15%에서 약 25%로 늘리는 합의에 다가섰고, 아직 확정되지는 않았다 [사실]",
+  "구조: 앵글로아메리칸 지분 85% 일부가 보츠와나로 가고 앙골라·나미비아·민간 투자자도 지분을 받으며, 세 정부 합계는 50% 미만이다 [사실]",
+  "의미: 보코 대통령이 요구해 온 과반 지분에서 물러선 것이며, 핵심 광산이 있는 보츠와나와의 합의가 매각의 걸림돌이었다 [사실]",
+  "배경: 전 드비어스 CEO 개러스 페니가 이끄는 GDC가 7월 우선협상자로 떠올랐고, 앵글로는 2월 드비어스 장부가를 23억 달러로 낮췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "bne IntelliNews·FashionNetwork 검색 결과 요약으로 확인(원 보도는 블룸버그)"
+}

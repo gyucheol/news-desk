@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0294",
+ "num": 294,
+ "key": "mix-C105-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T02:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/trump-seeks-to-revisit-orsted-s-rhode-island-wind-farm-permit",
+ "origTitle": "",
+ "headline": "{{트럼프}}, 가동 중인 {{외르스테드 해상풍력}} {{인허가 재검토}}…美 해상풍력 {{공세 재개}}",
+ "src": [
+  {
+   "o": "Canary Media",
+   "d": "2026-10",
+   "u": "https://www.canarymedia.com/articles/offshore-wind/trump-reevaluate-permit-revolution-wind-orsted"
+  },
+  {
+   "o": "Governors' Wind Energy Coalition",
+   "d": "2026-10-13",
+   "u": "https://governorswindenergycoalition.org/trump-renews-battle-to-upend-offshore-wind-farms-in-the-us/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 미국 해상풍력 단지 뒤집기 위한 싸움 재개",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/trump-seeks-to-revisit-orsted-s-rhode-island-wind-farm-permit"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind"
+ ],
+ "title": "{{트럼프}}, 가동 중인 {{외르스테드 해상풍력}} {{인허가 재검토}}…美 해상풍력 {{공세 재개}}",
+ "one": "{{트럼프 행정부}}가 이미 전력을 생산 중인 {{외르스테드의 704MW 레볼루션 윈드}} {{승인을 다시 검토}}하겠다고 {{법원에 요청}}하면서, 미국 {{해상풍력 사업의 인허가 불확실성}}이 {{다시 커지}}고 있다",
+ "facts": [
+  "무엇이: 미 내무부가 2023년 내준 레볼루션 윈드(로드아일랜드) 건설·운영계획 승인을 재검토하도록 연방법원에 환송을 요청했습니다 [사실]",
+  "사업: 704MW 규모로 3월 발전을 시작했고 9월 65기 터빈 설치를 마쳤습니다 [사실]",
+  "영향: 전문가들은 당장 사업 운영에는 영향이 없지만 법적 절차가 내년 초까지 이어질 수 있다고 봤습니다 [사실]",
+  "배경: 램버스 판사는 앞서 당국의 8월 공사 중단 명령을 극도로 자의적이라며 막았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "내무부의 승인 환송 요청과 사업 현황을 검색 결과 요약(Canary Media·주지사풍력에너지연합)으로 확인. 법원 결정은 아직 확인되지 않음."
+}

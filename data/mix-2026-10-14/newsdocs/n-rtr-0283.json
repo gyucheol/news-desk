@@ -1,0 +1,69 @@
+{
+ "id": "n-rtr-0283",
+ "num": 283,
+ "key": "mix-C023-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T05:37:00+09:00",
+ "url": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{AI 전력 병목}}에 {{송전망 신설론}}…{{오라클}}, 데이터센터 {{가스관 신속 승인}} 요청",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-13",
+   "u": "https://cryptobriefing.com/oracle-gas-pipeline-new-mexico-data-center/"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/",
+   "s": "{{AI 전력 수요 증가}}가 미국 {{간선 송전선 신설}}의 {{논거}}를 {{강화}}하면서 장거리 {{송전망 투자}}가 {{늘어날}} 수 있다 (제목 기준)"
+  },
+  {
+   "t": "데이터센터 업체들 '전력과 인재가 AI 최대 병목'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/power-and-talent-biggest-ai-bottlenecks-say-data-center-firms",
+   "s": "{{데이터센터 업체들}}이 {{전력과 인재}}를 AI의 {{최대 병목}}으로 꼽으면서 {{전력 확보}}가 데이터센터 {{가동 속도}}를 {{좌우할}} 전망이다 (제목 기준)"
+  },
+  {
+   "t": "오라클, 데이터센터용 가스관 신속 승인 규제당국에 요청",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/oracle-asks-regulators-to-expedite-gas-pipeline-for-data-center",
+   "s": "{{오라클}}이 {{FERC}}에 {{뉴멕시코 데이터센터용 가스관}}의 {{신속 승인}}을 {{요청}}하면서 {{2027년 2월로 밀린 완공}}이 데이터센터 {{가동}}을 {{늦출}} 수 있다고 경고했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/grid",
+  "gas/midstream",
+  "gas/demand"
+ ],
+ "title": "{{AI 전력 병목}}에 {{송전망 신설론}}…{{오라클}}, 데이터센터 {{가스관 신속 승인}} 요청",
+ "one": "{{데이터센터 업체들}}이 {{전력과 인력}}을 {{AI 최대 병목}}으로 꼽는 가운데 {{오라클}}이 완공이 {{2027년 2월로 밀린}} 하루 4억 입방피트 {{가스관}}의 {{신속 승인}}을 {{FERC에 요청}}하면서, 미국 {{간선 송전선}}과 {{가스관 증설}} 논리가 {{힘을 얻고}} 있다",
+ "facts": [
+  "무엇이: 오라클은 10월 13일 FERC에 서한을 보내 뉴멕시코 '프로젝트 주피터' 데이터센터에 가스를 대는 그린칠리 가스관 승인을 서둘러 달라고 요청했다 [사실]",
+  "가스관: 에너지트랜스퍼 자회사가 운영할 17.8마일 가스관은 하루 약 4억 입방피트를 블룸에너지 연료전지로 보내며, 주 정부의 경로 거부로 완공이 2027년 2월로 밀렸다 [사실]",
+  "병목: 데이터센터 업체들은 전력과 인재를 AI의 가장 큰 병목으로 꼽았다 [제목]",
+  "송전망: AI 수요 증가가 미국 간선 송전선 신설의 근거를 강화한다는 분석이 나왔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "오라클의 FERC 요청과 그린칠리 가스관 규모·지연은 검색 결과 요약으로 확인. REEII 간선 송전선 분석과 데이터센터 업체 병목 발언은 독립 출처로 확인하지 못함",
+ "added": "이번 블룸버그 1건으로 {{오라클}}이 {{하루 4억 입방피트 그린칠리 가스관}}의 {{신속 승인}}을 {{FERC에 요청}}했고 {{완공이 2027년 2월로 밀렸다}}는 사실이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

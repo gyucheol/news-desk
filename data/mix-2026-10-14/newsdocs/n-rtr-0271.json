@@ -1,0 +1,75 @@
+{
+ "basis": "verified",
+ "check": "코리아타임스·코리아헤럴드·서울경제 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 이재명 대통령은 10월 13일 부산 팬스타 아크로호 귀항 행사에서 국제 규범과 제재 원칙을 엄격히 지키며 북극항로를 개발하고 주요 협력국과 긴밀히 소통하겠다고 했다 [사실]",
+  "제재: 항로 대부분이 러시아 북극 연안을 지나고 쇄빙 서비스를 맡는 러시아 국영 아톰플로트가 제재 대상이라, 비상 쇄빙 지원을 받을 수 있는지가 쟁점이다 [사실]",
+  "일정: 해양수산부 장관은 2027년 추가 시범 운항, 2030년 정기 노선, 2040년 무렵 경제성 확보를 예상했다 [사실]",
+  "화물: 팬스타는 약 1,300TEU를 목표했으나 737TEU를 싣고 떠났고 수입 화물 없이 돌아왔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{이 대통령}} '{{북극항로 개발}}, {{국제 제재 준수}}'…2030년 {{정기 노선}} 추진",
+ "id": "n-rtr-0271",
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-11",
+   "o": "로이터",
+   "t": "한국, 북극항로 유럽 상업 운항 완료…정기 노선 추진",
+   "u": "https://www.reuters.com/world/china/south-korea-completes-arctic-europe-commercial-voyage-eyes-regular-service-2026-10-11/"
+  },
+  {
+   "t": "이 대통령 \"북극항로 개발, 국제 제재 준수할 것\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/south-koreas-lee-says-arctic-shipping-route-development-comply-with-2026-10-13/",
+   "s": "{{이재명 대통령}}이 {{북극항로 개발}}을 {{국제 제재를 지키며}} {{추진}}하겠다고 밝혀, {{러시아 연안을 지나는 항로}}에 대한 {{서방 협력국의 우려}}를 {{달래}}려 하고 있다"
+  }
+ ],
+ "key": "mix-C147-2026-10-13",
+ "nodes": [],
+ "num": 271,
+ "one": "{{이재명 대통령}}이 북극항로 첫 상업 왕복을 마친 {{팬스타 아크로호}} 귀항 행사에서 {{국제 규범·제재를 엄격히 지키며}} {{항로를 개발}}하겠다고 밝혔지만, {{737TEU에 그친 화물}}과 {{러시아 쇄빙 지원 제재}} 탓에 {{2030년 정기 노선}}의 {{사업성}}이 {{관건}}이 될 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T17:21:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-11",
+   "o": "Korea Herald",
+   "u": "https://www.koreaherald.com/article/10898455"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "gCaptain",
+   "u": "https://gcaptain.com/south-korea-completes-arctic-europe-maritime-commercial-voyage/"
+  },
+  {
+   "o": "코리아타임스",
+   "d": "2026-10-13",
+   "u": "https://www.koreatimes.co.kr/southkorea/20261013/lee-says-arctic-sea-route-development-to-comply-with-intl-sanctions"
+  },
+  {
+   "o": "코리아헤럴드",
+   "d": "2026-10-13",
+   "u": "https://www.koreaherald.com/article/10901410"
+  },
+  {
+   "o": "서울경제",
+   "d": "2026-10-13",
+   "u": "https://en.sedaily.com/politics/2026/10/13/lee-pledges-long-term-approach-to-arctic-shipping-route"
+  }
+ ],
+ "tags": [],
+ "title": "{{이 대통령}} '{{북극항로 개발}}, {{국제 제재 준수}}'…2030년 {{정기 노선}} 추진",
+ "url": "https://www.reuters.com/world/china/south-korea-completes-arctic-europe-commercial-voyage-eyes-regular-service-2026-10-11/",
+ "added": "이번 로이터 1건으로 {{이 대통령}}의 {{국제 제재 준수 약속}}과 {{2027년 추가 시범 운항}}·{{2040년 경제성 확보}} 일정이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

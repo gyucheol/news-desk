@@ -1,0 +1,84 @@
+{
+ "id": "n-rtr-0282",
+ "num": 282,
+ "key": "mix-C018-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T23:41:00+09:00",
+ "url": "https://www.reuters.com/world/europe/russia-calls-french-seizure-alleged-shadow-fleet-tanker-violation-international-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{佛}}, 러 {{그림자 선단 유조선}} 또 {{나포}}…인도행 {{우랄유 운임}} {{사상 최고}}",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-13",
+   "u": "https://gcaptain.com/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy/"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-13",
+   "u": "https://www.themoscowtimes.com/2026/10/13/french-navy-boards-russia-linked-tanker-in-indian-ocean-a93956"
+  },
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-13",
+   "u": "https://www.bairdmaritime.com/shipping/tankers/record-high-tanker-rates-to-india-are-eating-into-russias-oil-profits"
+  }
+ ],
+ "items": [
+  {
+   "t": "러시아, 프랑스의 그림자 선단 의심 유조선 나포는 국제법 위반",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/europe/russia-calls-french-seizure-alleged-shadow-fleet-tanker-violation-international-2026-10-13/",
+   "s": "{{러시아}}가 {{프랑스의 그림자 선단 유조선 나포}}를 {{국제법 위반}}으로 규정하고 {{사전 통보도 없었다}}고 {{반발}}하면서 제재 단속을 둘러싼 {{러·佛 갈등}}이 {{커지}}고 있다"
+  },
+  {
+   "t": "인도행 러시아 우랄유 운임, 10월 초 또 사상 최고",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/freight-rates-russian-urals-oil-shipments-india-hit-fresh-records-early-october-2026-10-13/",
+   "s": "흑해발 {{인도행 수에즈맥스 운임}}이 9월 약 1,900만 달러에서 {{2,700만~3,000만 달러}}로 {{뛰}}면서 {{러시아 원유 판매 수입}}이 운임만큼 {{줄}}고 있다"
+  },
+  {
+   "t": "흑해 선적 시간 길어지며 러시아 원유 수출 속도 둔화",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/russia-s-oil-exports-slow-as-black-sea-loading-takes-longer",
+   "s": "{{흑해 항구 선적}}이 {{길어지}}면서 {{러시아 원유 수출}}이 {{둔화}}해 세계 원유 공급이 {{더 빠듯해질}} 수 있다 (제목 기준)"
+  },
+  {
+   "t": "프랑스, 그림자 선단 유조선 또 나포…러시아 '해적 행위' 비난",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy-2026-10-13/",
+   "s": "{{프랑스}}가 인도양에서 {{제재 대상 유조선 DF피크}}를 {{나포}}해 레위니옹으로 끌고 가자 {{러시아}}가 {{해적 행위}}라고 {{비난}}하면서 {{그림자 선단 운항 위험}}이 {{커지}}고 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "title": "{{佛}}, 러 {{그림자 선단 유조선}} 또 {{나포}}…인도행 {{우랄유 운임}} {{사상 최고}}",
+ "one": "{{프랑스}}가 인도양에서 {{러시아 그림자 선단 유조선}} DF피크를 {{나포}}하고 흑해발 {{인도행 우랄유 운임}}이 척당 {{최대 3,000만 달러}}로 {{치솟}}으면서 {{러시아의 원유 판매 수입}}이 {{깎이}}고 있다",
+ "facts": [
+  "무엇이: 프랑스 해군이 10월 12일 레위니옹 남쪽 450해리 넘는 인도양에서 미국·EU·영국 제재 대상 유조선 DF피크를 나포해 레위니옹으로 끌고 갔고, 러시아 대사관은 국제법 위반이자 해적 행위라고 반발했습니다 [사실]",
+  "이력: 이 배는 베냉 국적을 내세웠으나 위장 국적 의심을 받았고 과거 소브콤플로트의 칼리닌그라드호로 운항했으며, 2024년 이후 프랑스가 나포한 러시아 연관 유조선으로는 최소 다섯 번째입니다 [사실]",
+  "운임: 흑해에서 인도까지 수에즈맥스(약 14만 톤) 편도 운임이 10월 초 2,700만~3,000만 달러로 9월 약 1,900만 달러에서 뛰어 사상 최고였고, 배럴당 30달러 이상입니다 [사실]",
+  "수출: 흑해 선적이 길어지면서 러시아 원유 수출이 둔화했습니다 [제목]",
+  "영향: 운임 상승분은 판매자 수입에서 빠지므로 국제 유가가 높아도 러시아 수입을 줄입니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 프랑스의 DF피크 나포와 러시아 반발, 인도행 우랄유 운임 사상 최고를 확인. 흑해 선적 지연에 따른 수출 둔화는 확인 못 함. 프랑스 나포 횟수는 매체별로 다섯·여섯 번째로 엇갈림.",
+ "added": "이번 블룸버그·로이터 최신 2건으로 {{흑해 선적 지연에 따른 러 원유 수출 둔화}}와 {{프랑스의 추가 나포}}에 대한 {{러시아의 해적 행위 비난}}이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

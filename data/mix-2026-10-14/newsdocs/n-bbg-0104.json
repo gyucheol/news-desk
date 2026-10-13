@@ -1,0 +1,171 @@
+{
+ "added": "이번 로이터 2건으로 {{독일 9월 물가 3.3% 확정}}과 {{AI가 노동자 협상력을 제한한다}}는 {{레인의 발언}}이 추가됐다",
+ "basis": "partial",
+ "check": "독일 연방통계청 보도자료(검색 결과 요약)로 9월 물가 3.3% 확정과 에너지 세부를 확인. 레인 발언은 기사 제목만 근거이며 내용은 확인 못 함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 독일 연방통계청은 9월 소비자물가 상승률을 잠정치와 같은 3.3%로 확정했고, 8월 2.9%, 7월 2.8%에서 높아져 2023년 12월 이후 가장 높았습니다 [사실]",
+  "에너지: 난방유가 74.9%, 차량 연료가 37.1% 올랐고 근원물가는 2.4%로 유지됐으며, 10월 1일 시행된 유류세 인하는 아직 반영되지 않았습니다 [사실]",
+  "레인: 레인 ECB 수석 이코노미스트는 AI가 유럽 노동자의 협상력을 제한하고 있다고 말했습니다 [제목]",
+  "기존: ECB는 9월 정책금리를 0.25%p 올려 예금금리를 2.50%로 했고, 의사록에서 위원 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{獨 9월 물가}} {{3.3% 확정}}…{{레인}} '{{AI}}가 유럽 {{노동자 협상력 제한}}'",
+ "id": "n-bbg-0104",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{ECB 돌렌츠}}가 {{현 금리 수준이 다음 결정에서 유연성}}을 {{준다}}고 말하면서 {{추가 인상을 서두르지 않을 여지}}를 {{남겼}}다 (제목 기준)",
+   "t": "ECB 돌렌츠 '현 금리가 다음 결정에 유연성 제공'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{라가르드 후임을 둘러싼 ECB 총재 경쟁 구도}}가 {{부각}}되면서 {{차기 총재 인선}}이 {{유로존 통화정책 방향의 변수}}로 {{떠올랐}}다 (제목 기준)",
+   "t": "ECB 총재 경쟁: 라가르드 후임은 누구인가",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/ecb-president-race-who-will-replace-christine-lagarde"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{돌렌츠}}가 {{ECB 금리로 가격 충격 확산}}을 {{막을}} 수 있다고 밝히면서 {{금리 정책의 물가 억제 효과}}를 {{강조했}}다 (제목 기준)",
+   "t": "돌렌츠 'ECB 금리로 가격 충격 확산 막을 수 있다'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-rates-can-prevent-price-shock-from-spreading-dolenc-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "로이터가 {{ECB 정책위원 돌렌츠}}와의 인터뷰를 전하면서 {{그가 보는 유로존 금리 경로에 대한 견해}}가 {{시장에 알려졌}}다 (제목 기준)",
+   "t": "ECB 정책위원 돌렌츠 로이터 인터뷰",
+   "u": "https://www.reuters.com/markets/us/reuters-interview-with-ecb-policymaker-dolenc-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{돌렌츠 슬로베니아 중앙은행 총재}}가 {{인플레이션 상방 위험}}을 이유로 {{ECB의 추가 인상}}이 {{필요할}} 수 있다고 말하면서 {{매파적 신호}}를 {{보냈}}다",
+   "t": "돌렌츠 '인플레이션 상방 위험에 ECB 추가 인상 필요할 수도'",
+   "u": "https://www.reuters.com/world/europe/with-inflation-risks-upside-ecb-may-need-hike-more-dolenc-says-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{ECB 지그만}}이 {{다음 회의에서 매우 치열한 논의}}가 {{예상된다}}고 밝히면서 {{추가 인상을 둘러싼 위원 간 이견}}이 {{드러났}}다 (제목 기준)",
+   "t": "ECB 지그만 '다음 회의에서 매우 치열한 논의 예상'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-s-zigman-sees-very-intensive-discussion-at-next-meeting"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{레인}}이 {{ECB가 이란 전쟁에 절제된 대응을 유지}}할 수 있다고 말하면서 {{단기 추가 인상 기대}}가 {{낮아질}} 수 있다 (제목 기준)",
+   "t": "레인 'ECB, 이란 전쟁에 절제된 대응 유지 가능'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-can-stick-with-measured-response-to-iran-war-lane-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{10월 8일 공개된 ECB 의사록}}에서 {{위원들}}은 {{9월 0.25%p 인상을 비례적 조치}}로 설명했고, {{전원}}이 {{인플레이션 위험이 위쪽으로 치우쳤}}다고 봤다",
+   "t": "ECB 위원들, 지난 인상 때 '비례적' 조치 추구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-officials-took-proporionate-step-with-last-month-s-hike"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{ECB 정책위원 발언과 의사록}}이 {{신중한 기조}}를 보이면서 {{시장의 단기 금리 인상 기대}}가 {{약해졌}}다 (제목 기준)",
+   "t": "ECB 정책위원 발언·의사록, 단기 금리 인상 기대 약화",
+   "u": "https://www.reuters.com/world/europe/ecb-policymakers-accounts-dampen-near-term-rate-hike-bets-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{유로존 물가}}가 {{목표의 2배 가까이 오르}}면서 {{ECB가 12월에 다시 금리를 올릴 것}}이라는 관측이 나왔다 (제목 기준)",
+   "t": "ECB, 물가 목표 2배 근접에 12월 다시 인상할 듯",
+   "u": "https://www.reuters.com/business/ecb-hike-rates-again-december-inflation-almost-doubles-2-target-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{슈나벨 후임 ECB 이사 자리의 후보 마감}}은 {{확정됐}}지만 {{라가르드 거취}}는 {{불투명해}} {{ECB 지도부 인선의 불확실성}}이 {{남았}}다 (제목 기준)",
+   "t": "슈나벨 후임 ECB 자리 마감 확정…라가르드 거취는 불투명",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/schnabel-ecb-job-deadline-is-set-as-lagarde-plans-stay-unclear"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{유로그룹}}이 {{ECB 슈나벨 이사 후임 후보 제출 마감}}을 {{10월 28일}}로 정하면서 ECB 이사회 인선 절차가 본격적으로 {{시작됐}}다",
+   "t": "유로그룹, ECB 슈나벨 후임 후보 제출 마감 10월 28일로 설정",
+   "u": "https://www.reuters.com/business/eurogroup-sets-deadline-submit-candidates-replace-ecbs-schnabel-oct-28-2026-10-08/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{파차리데스}}가 {{ECB가 금리를 올려도 추가 충격을 막을 수는 없다}}고 말하면서 {{금리 인상 효과에 대한 신중론}}이 {{더해졌}}다 (제목 기준)",
+   "t": "파차리데스 'ECB 금리 인상으로 추가 충격 막을 수 없어'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/ecb-s-higher-rates-can-t-prevent-more-shocks-patsalides-says"
+  },
+  {
+   "t": "독일 9월 소비자물가 상승률 3.3%로 최종 확정",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/europe/german-september-inflation-confirmed-33-2026-10-13/",
+   "s": "{{독일 9월 물가}}가 난방유 {{74.9%}}·연료 {{37.1%}} {{급등}}에 {{3.3%}}로 확정되면서 {{2023년 12월 이후 최고}}를 기록했다"
+  },
+  {
+   "t": "ECB 레인 'AI가 유럽 노동자 협상력 제한'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-2026-10-13/",
+   "s": "{{레인 ECB 수석 이코노미스트}}가 {{AI}}가 {{유럽 노동자의 협상력}}을 {{제한}}하고 있다고 {{말하}}면서 {{임금 상승 압력}}이 {{눌릴}} 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C014-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 104,
+ "one": "{{독일 9월 물가}}가 {{에너지값 급등}}에 {{3.3%}}로 {{2023년 12월 이후 최고}}로 {{확정}}되고 {{ECB}}가 {{9월 인상}} 뒤 {{신중론}}을 {{이어가}}는 가운데, {{레인}}이 {{AI가 노동자 협상력을 제한}}한다고 {{말하}}면서 {{임금발 물가 압력}}이 {{약할}} 수 있다는 {{시각}}이 더해졌다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T03:36:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "ECB 통화정책회의 의사록",
+   "u": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+  },
+  {
+   "d": "2026-09-24",
+   "o": "ECB 보도자료(슈나벨 사임)",
+   "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/eurogroup-sets-october-28th-deadline-for-ecb-nominations-and-expects-to-decide-on-a-successor-to-ecbs-schnabel-as-soon-as-next-month"
+  },
+  {
+   "o": "독일 연방통계청",
+   "d": "2026-10-13",
+   "u": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+  },
+  {
+   "o": "RTÉ",
+   "d": "2026-10-13",
+   "u": "https://www.rte.ie/news/business/2026/1013/1595139-german-september-inflation-confirmed-at-3-3/"
+  }
+ ],
+ "tags": [],
+ "title": "{{獨 9월 물가}} {{3.3% 확정}}…{{레인}} '{{AI}}가 유럽 {{노동자 협상력 제한}}'",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0296",
+ "num": 296,
+ "key": "mix-C102-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:59:00+09:00",
+ "url": "https://www.reuters.com/business/energy/argentina-seeks-tribunal-order-against-uk-oil-activity-near-falklands-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{아르헨티나}}, {{포클랜드 시라이언 유전}} {{개발 중단}}을 국제해양법재판소에 {{요청}}",
+ "src": [
+  {
+   "o": "MercoPress",
+   "d": "2026-10-13",
+   "u": "https://en.mercopress.com/2026/10/13/argentina-asks-the-law-of-the-sea-tribunal-to-halt-sea-lion-and-bar-new-oil-permits"
+  },
+  {
+   "o": "UPI",
+   "d": "2026-10-13",
+   "u": "https://www.upi.com/Top_News/World-News/2026/10/13/latam-argentina-falklands-oil/1621791906387/"
+  }
+ ],
+ "items": [
+  {
+   "t": "아르헨티나, 포클랜드 인근 영국 석유 개발 막는 재판소 명령 요청",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/argentina-seeks-tribunal-order-against-uk-oil-activity-near-falklands-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "{{아르헨티나}}, {{포클랜드 시라이언 유전}} {{개발 중단}}을 국제해양법재판소에 {{요청}}",
+ "one": "{{아르헨티나}}가 {{국제해양법재판소}}에 로크호퍼·나비타스의 {{포클랜드 시라이언 유전}} {{생산 금지}}와 {{추가 시추 허가 금지}}를 {{잠정조치로 요청}}하면서, {{2028년 첫 원유}}를 노리는 {{개발 일정}}에 {{법적 불확실성}}이 {{생겼}}다",
+ "facts": [
+  "무엇이: 아르헨티나가 10월 13일 유엔해양법협약 제290조 5항에 따라 국제해양법재판소에 시라이언 유전 개발을 막는 긴급 잠정조치를 요청했습니다 [사실]",
+  "요청 내용: 키르노 외교장관은 석유·가스 생산의 개시·지속 금지와 추가 시추 허가 발급 등 분쟁을 키우는 결정 금지 등 4가지 조치를 제시했습니다 [사실]",
+  "배경: 아르헨티나는 9월 28일 영국에 협약 부속서 7에 따른 중재 개시를 통보했고, 사업은 영국 로크호퍼와 이스라엘 나비타스가 북포클랜드 분지에서 진행합니다 [사실]",
+  "영국·업계: 영국은 절차에 참여하되 주권 문제 해결에 쓰려는 시도에는 맞서겠다고 했고, 두 회사는 개발이 틀어지지 않을 것으로 보며 2028년 첫 원유를 기대합니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "MercoPress·UPI 검색 결과 요약으로 요청 내용, 법적 근거, 영국 반응 확인. 재판소 심리 일정은 미정"
+}

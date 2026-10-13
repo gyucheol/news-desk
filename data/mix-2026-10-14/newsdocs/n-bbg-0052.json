@@ -1,0 +1,335 @@
+{
+ "added": "이번 텔레그램 3건·블룸버그 2건·로이터 3건으로 {{윌리엄스의 2027년 인상 불필요}}, {{콜린스의 연말 전 추가 인상}}, {{굴스비의 AI발 물가 확산 경고}}가 추가됐다",
+ "basis": "verified",
+ "check": "윌리엄스·콜린스 발언과 선물시장 반영은 CNBC·investingLive 검색 결과 요약으로 확인, 굴스비 발언은 Semafor 검색 결과 요약으로 확인. 바킨 발언과 2년물 금리 반납폭, 실질 중립금리 1% 추정은 채널 글에만 있음.",
+ "cycles": [],
+ "dupOf": "n-tg-0096",
+ "facts": [
+  "무엇이: 윌리엄스 뉴욕 연은 총재는 연내 1회 추가 인상은 적절하지만 현재로선 2027년 추가 인상은 필요 없다고 봤다 [사실]",
+  "콜린스: 보스턴 연은 콜린스 총재는 중동 전쟁발 에너지값·관세·AI 인프라 구축을 물가 압력으로 들며 연말 전 완만한 추가 인상이 적절할 것으로 봤다 [사실]",
+  "굴스비: 시카고 연은 굴스비 총재는 AI발 물가가 데이터센터 공급망 밖으로 번지고 있다며 일시적 공급 충격보다 수요발 과열에 가깝다고 했다 [사실]",
+  "시장: 연준은 9월 금리를 3.75~4.00%로 올렸고, 선물시장은 2027년에도 최소 1회 인상을 반영해 윌리엄스 전망과 엇갈린다 [사실]",
+  "CPI: 10월 14일 발표될 9월 CPI는 전년 대비 3.6%로 8월 3.4%에서 오를 전망이며, 10월 27~28일 FOMC 전 마지막 물가 지표다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연준 인사들 '{{연내 1회 추가 인상}}' {{무게}}…{{윌리엄스}} '{{2027년엔 불필요}}'",
+ "id": "n-bbg-0052",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그",
+   "t": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 Polaristimes",
+   "t": "제퍼슨 연준 부의장 \"판단에 시간 더 필요\"…10월 인상 확률 24%로",
+   "u": "https://t.me/The_MariTimes/63452"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "데일리 연은 총재 \"추가 인상 필요성은 충격 전개에 달려\"",
+   "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "9월 의사록, 연준 위원들 금리 인상 논리 두고 의견 갈려",
+   "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "연준 의사록, 일부 위원은 시장 스트레스 대비 원해",
+   "u": "https://www.reuters.com/business/fed-minutes-show-some-officials-want-prepare-market-stress-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "무살렘 연은 총재 \"물가 낮추려면 추가 금리 인상 필요\"",
+   "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 Polaristimes",
+   "t": "뉴욕연준 '관세 없었다면 2월 물가 하락해 디플레이션 영역'",
+   "u": "https://t.me/The_MariTimes/63607"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{바클레이즈·모건스탠리}}가 9월 근원 CPI 상승률이 0.24%로 둔화할 것으로 보면서, 연준의 {{10월 동결}} 근거가 될 수 있다는 분석이 나왔다",
+   "t": "다음 주 미국 CPI의 의미: 연준, 10월 금리 동결할까",
+   "u": "https://t.me/HANAchina/70137"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "시장이 10월 동결 확률을 83.5%로 보는 대신 {{12월 25bp 인상}} 확률을 74.5%로 반영하면서, {{연내 1회 인상}} 경로가 유력해졌다",
+   "t": "연준 금리 전망: 10월 동결 83.5%, 12월 25bp 인상 74.5%",
+   "u": "https://t.me/insidertracking/65892"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "블룸버그",
+   "s": "{{휘발유 가격}} 상승이 9월 미국 CPI를 끌어올리면서, 전체 물가 상승률이 높게 나올 것으로 {{블룸버그}}가 전망했다",
+   "t": "미국 CPI, 휘발유 가격 상승에 전체 물가 상승 보여줄 전망",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-10/us-cpi-to-show-overall-inflation-boosted-by-higher-gasoline-prices"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 KK Kontemporaries",
+   "s": "{{UBS}}가 9월 헤드라인 CPI를 0.56%로 보면서도 근원은 {{0.19%}}로 컨센서스보다 낮게 전망해, 에너지발 물가와 근원 둔화가 엇갈릴 것으로 봤다",
+   "t": "UBS 9월 CPI 프리뷰: 헤드라인 0.56%, 근원 0.19% 전망",
+   "u": "https://t.me/kkkontemp/2731"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "미 채권 트레이더, 연준 금리 경로 단서로 CPI·워시 주목",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/us-bond-traders-await-cpi-warsh-for-insight-on-fed-s-rate-path"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "미국, 자산 붐과 물가 충격이 충돌",
+   "u": "https://www.reuters.com/business/finance/us-a-wealth-boom-price-shock-collide-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "BofA 'S&P 500 실적서 원자재 비용 언급 2022년 중반 이후 최고'",
+   "u": "https://t.me/insidertracking/66051"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 Polaristimes",
+   "t": "골드만 1년 뒤 연준 금리 4.00~4.25% 전망…시장 금리와 60bp 넘게 괴리",
+   "u": "https://t.me/The_MariTimes/63671"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "연준 해맥 '작고 잦은 금리 조정이 바람직'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/fed-s-hammack-says-smaller-frequent-rate-adjustments-preferable"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "달러, 중동 분쟁·물가 지표 주시 속 18개월 고점 부근 유지",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-stays-near-18-month-high-mideast-conflict-inflation-data-focus-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "연준 해맥, 긴축 정책 지지…'비교적 빨리 하는 게 낫다'",
+   "u": "https://www.reuters.com/markets/us/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "연준 해맥 '고용시장 고통 없이 수요·물가 식히길 기대'",
+   "u": "https://www.reuters.com/business/feds-hammack-hope-cool-demand-inflation-without-job-market-pain-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "{{맥쿼리}}가 9월 CPI가 가속하더라도 이달 말 인상 결정을 바꾸지 않을 것으로 보면서, 시장의 10월 인상 확률은 {{약 19%}}에 그쳤다",
+   "t": "맥쿼리 \"9월 CPI 가속해도 연준 10월 인상 가능성 낮아\"",
+   "u": "https://t.me/insidertracking/66111"
+  },
+  {
+   "t": "굴스비 '물가 오를 때 금리 동결은 실질적 인하…투자는 놀라운 강세'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63686",
+   "s": "{{굴스비}} 총재가 목표를 웃도는 {{물가가 더 오를 때 금리 동결}}은 {{실질 인하와 같다}}고 하면서, {{강한 기업 투자}}를 들어 {{현 금리가 긴축적이지 않다}}는 시각을 드러냈다"
+  },
+  {
+   "t": "굴스비 'AI발 인플레이션, 제 영역 벗어나 번져'(세마포)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/goolsbee-says-ai-induced-inflation-is-jumping-out-its-lane-semafor-reports-2026-10-13/",
+   "s": "{{굴스비 총재}}가 {{AI발 인플레이션}}이 {{데이터센터 공급망 밖으로 번지고}} 있다고 {{경고}}하면서, {{되돌리기 어려운 수요발 물가}}가 될 수 있다는 {{우려}}를 키웠다"
+  },
+  {
+   "t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-williams-currently-sees-no-need-for-rate-hike-in-2027",
+   "s": "{{윌리엄스}} 총재가 현재로선 {{2027년 금리 인상이 필요 없다}}고 보면서, {{2027년 인상을 점치는 선물시장}}과 {{다른 금리 경로}}를 {{제시}}했다"
+  },
+  {
+   "t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'(블룸버그 보도)",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/feds-williams-currently-sees-no-need-rate-hike-2027-bloomberg-news-reports-2026-10-13/",
+   "s": "로이터도 {{윌리엄스}} 총재의 {{연내 1회 추가 인상은 적절}}하다는 발언을 전하면서, {{연내 인상 뒤 멈추는}} {{뉴욕 연은의 경로}}가 {{재확인}}됐다"
+  },
+  {
+   "t": "콜린스 '물가 잡으려면 올해 금리 더 오를 가능성 커'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices",
+   "s": "{{콜린스}} 총재가 {{물가를 잡으려면}} {{올해 금리가 더 오를 가능성이 크다}}고 보면서, 10월 말·12월 회의의 {{추가 인상 가능성}}이 {{살아 있다}}"
+  },
+  {
+   "t": "콜린스 '2026년 말 전 추가 금리 인상 논의 대상'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/feds-collins-sees-another-rate-hike-table-before-end-2026-2026-10-13/",
+   "s": "{{콜린스}} 총재가 {{에너지값·관세·AI 구축}}을 {{물가 압력}}으로 꼽으며 {{연말 전 추가 인상}}을 {{열어 두면서}}, {{완만한 추가 인상}}이 {{적절}}하다는 판단을 내놨다"
+  },
+  {
+   "t": "윌리엄스 '경제 과열 아냐', 콜린스·바킨은 물가 대응 강조",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66135",
+   "s": "{{윌리엄스}}가 AI 인프라 투자가 {{반도체값·건설비}}를 {{올리지만}} 경제 전반 {{과열은 아니라}}고 했고 {{콜린스·바킨}}은 {{물가 압력 지속}}을 들어 {{통화정책 대응}}을 {{강조}}했다"
+  },
+  {
+   "t": "윌리엄스 '실질 중립금리 1% 안팎'…2년물 금리 상승폭 반납",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-14",
+   "u": "https://t.me/TNBfolio/71530",
+   "s": "{{윌리엄스}}가 실질 {{중립금리를 1% 안팎}}으로 보며 {{현 금리가 중립에서 멀지 않다}}고 하자 {{2년물 금리}}가 {{장중 3bp 상승폭}}을 {{모두 반납}}하면서, {{해먹·로건}} 등 {{추가 인상론}}과의 차이가 드러났다"
+  }
+ ],
+ "key": "bbg-1001-trump-warsh-should-have-opposed",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 52,
+ "one": "{{9월 CPI}}가 {{전년 대비 3.6%로 오를 전망}}인 가운데 {{윌리엄스·콜린스}} 총재가 {{연내 추가 인상}}에 {{무게}}를 싣고 {{굴스비}} 총재가 {{AI발 물가 확산}}을 {{경고}}했지만, {{윌리엄스}}가 {{2027년 인상은 불필요}}하다고 보면서 2027년 인상을 반영한 {{선물시장}}과의 {{간극}}이 {{벌어지고}} 있다",
+ "origTitle": "Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T06:47:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Quartz",
+   "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+  },
+  {
+   "d": "2026-09-16",
+   "o": "야후파이낸스",
+   "u": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63452"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/0f41e1af-9b65-4157-bc82-78966c19fb43"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "The Asia Business Daily",
+   "u": "https://view.asiae.co.kr/en/article/2026100204124792533"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "investingLive",
+   "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Raisin",
+   "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Washington Post",
+   "u": "https://www.washingtonpost.com/business/2026/10/07/tariffs-drove-up-prices-consumer-goods-study-finds/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Daybreak Wire",
+   "u": "https://daybreakwire.com/business/ny-fed-tariffs-2-9-points-goods-inflation/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Quartz",
+   "u": "https://qz.com/cleveland-fed-hammack-smaller-frequent-rate-hikes-101226"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/feds-hammack-2026-voter-says--broad-based-inflation-and-ongoing-growth-need-restrictive-monetary-policy"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "ChainCatcher(맥쿼리 전망)",
+   "u": "https://www.chaincatcher.com/en/article/2295859"
+  },
+  {
+   "d": "2026-10",
+   "o": "Admiral Markets",
+   "u": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-september-2026-scenarios-fed-october"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-13",
+   "u": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-13",
+   "u": "https://investinglive.com/central-banks/fed-s-collins-backs-another-rate-hike-by-year-end-flags-three-inflation-pressures/"
+  },
+  {
+   "o": "Semafor",
+   "d": "2026-10-13",
+   "u": "https://www.semafor.com/article/10/12/2026/ai-is-an-inflation-problem-feds-goolsbee-says"
+  }
+ ],
+ "tags": [],
+ "title": "연준 인사들 '{{연내 1회 추가 인상}}' {{무게}}…{{윌리엄스}} '{{2027년엔 불필요}}'",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0290",
+ "num": 290,
+ "key": "mix-C094-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T20:00:00+09:00",
+ "url": "https://www.reuters.com/world/india/indias-adani-enterprises-eyes-210-mln-fundraise-via-rupee-debt-bankers-say-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{아다니 엔터프라이즈}}, {{루피채로 2억1천만 달러}} {{조달}} 추진",
+ "src": [
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-13",
+   "u": "https://www.brecorder.com/news/40444006/indias-adani-enterprises-eyes-210-mln-fundraise-via-rupee-debt-bankers-say"
+  },
+  {
+   "o": "Lapaas Voice",
+   "d": "2026-10-13",
+   "u": "https://lapaasvoice.com/adani-enterprises-plans-%E2%82%B92000-crore-bond-sale"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 아다니 엔터프라이즈, 루피채로 2억1천만 달러 조달 추진",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/india/indias-adani-enterprises-eyes-210-mln-fundraise-via-rupee-debt-bankers-say-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "title": "{{아다니 엔터프라이즈}}, {{루피채로 2억1천만 달러}} {{조달}} 추진",
+ "one": "인도 {{아다니 엔터프라이즈}}가 {{만기 5년 미만 루피채}}로 {{약 200억 루피}}(약 2억1천만 달러)를 {{이번 분기 안에}} {{조달하려 하면서}}, 1월 {{100억 루피 공모채}}에 이어 {{국내 채권시장 자금 조달}}을 {{이어가고}} 있다",
+ "facts": [
+  "무엇이: 은행가 2명은 아다니 엔터프라이즈가 만기 5년 미만 루피채로 약 200억 루피(약 2억1천만 달러)를 조달하려 하며 이번 분기 안에 마칠 수 있다고 전했습니다 [사실]",
+  "조건: 최종 조건은 공개되지 않았고 회사는 발행 계획을 공식 확인하지 않았습니다 [사실]",
+  "앞선 조달: 아다니 엔터프라이즈는 2026년 1월 2년·3년·5년물 쿠폰 8.60%·8.75%·8.90%의 공모채로 100억 루피 조달에 나섰습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "로이터 보도를 옮긴 Business Recorder·Lapaas Voice 검색 결과 요약으로 내용 확인. 독립 출처나 회사 확인은 없음"
+}

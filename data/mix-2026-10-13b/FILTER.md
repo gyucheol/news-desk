@@ -18,6 +18,7 @@
 - 제약·바이오: 정책(약가·관세·FDA 등 규제기관의 제도 변경·의약품 수출입 규제·정부 조달)과 CDMO(위탁개발생산: 수주·증설·인수·공급 계약)만 (사용자 지시)
 
 ## 빼는 것 (D)
+- 금융업: 은행·증권·자산운용·헤지펀드·사모펀드·보험·핀테크·거래소·암호화폐 기업의 실적·인수·소송·제재·인사, 금융 감독·규제, 펀드 자금 흐름 (사용자 지시, 10월 13일). 중앙은행 금리·물가·국채·환율·신용시장 같은 거시는 macro·rates로 남기고, 일본 보험(jpins) 산업 페이지 관련은 그대로 둡니다.
 - 기술·통신: 소프트웨어·인터넷·플랫폼·통신사·스마트폰·가전·게임 기업 뉴스 (사용자 지시, 10월 13일). 반도체와 AI 투자 축소·취소·연기, 칩 공급·가격은 기술이 아니라 semis·ai로 남깁니다.
 - 제약·바이오 중 정책·CDMO가 아닌 것: 개별 신약 임상 결과, 품목 허가·승인, 기술이전·라이선스, 제약사 실적·인수합병, 바이오텍 자금 조달 (사용자 지시)
 - 'AI 투자를 늘렸다'류: 투자 약속·증액, 데이터센터 건설 발표, AI 파트너십 발표, AI 펀드 조성 (사용자 지시)
@@ -31,8 +32,8 @@
 
 ## 출력
 data/mix-2026-10-13b/out/<이름>.tsv — 입력 줄마다 한 줄: `줄번호 \t 판정(K|D) \t 분야 또는 사유`
-- 분야(K일 때, 하나): macro, rates, geo, trade, energy, power, metals, agri, semis, ai, auto, aero, pharma, fin, consumer, shipping, realestate, industrial, other
-- 사유(D일 때): sports, life, politics, crime, wrap, explainer, opinion, ai-invest, pharma, tech, chatter, dup, other
+- 분야(K일 때, 하나): macro, rates, geo, trade, energy, power, metals, agri, semis, ai, auto, aero, pharma, consumer, shipping, realestate, industrial, other
+- 사유(D일 때): sports, life, politics, crime, wrap, explainer, opinion, ai-invest, pharma, tech, fin, chatter, dup, other
 줄 수가 입력과 같아야 합니다. 출력이 길면 나눠서 이어 쓰세요(한 번에 다 쓰려다 출력 한도에 걸린 일이 있음).
 끝나면 `cut -f2 <출력> | sort | uniq -c`와 줄 수를 확인하고 2줄 이내로 보고합니다.
 보조 파일은 data/mix-2026-10-13b/scratch/<이름>/ 안에만 만듭니다.

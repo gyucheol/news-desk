@@ -51,6 +51,15 @@ if ids != ['structure', 'flip', 'picks']: P.append(f'insight2.parts id 순서 {i
 for p in ins.get('parts', []):
     for f in ('tag', 'title'): s_ok(f'insight2.{p.get("id")}.{f}', p.get(f))
     blocks(f'insight2.{p.get("id")}', p.get('blocks'))
+# 강조 {{ }}(사용자 지시): 자세한 정리 10곳 이상, 인사이트 각 부분 3곳 이상, 짝이 맞고 한 곳 2~20자
+def hl(where, x, lo):
+    t = json.dumps(x, ensure_ascii=False); ms = re.findall(r'\{\{([^{}]+)\}\}', t)
+    if len(ms) < lo: P.append(f'{where}: 강조 {len(ms)}곳(최소 {lo})')
+    if t.count('{{') != t.count('}}'): P.append(f'{where}: 강조 괄호 짝 안 맞음')
+    long = [m for m in ms if not 2 <= len(m) <= 20]
+    if long: P.append(f'{where}: 강조 길이 벗어남 {len(long)}곳')
+hl('detail', det.get('blocks'), 10)
+for p in ins.get('parts', []): hl(f'insight2.{p.get("id")}', p, 3)
 # 원문 목록(items)이 여러 건인 뉴스는 자세한 정리에 원문 주소가 모두 들어가야 한다(사용자 지시: 원문을 모두 반영)
 if len(sys.argv) > 2:
     nd = json.load(open(sys.argv[2], encoding='utf-8')); nd = nd.get('data', nd) if isinstance(nd.get('data'), dict) else nd

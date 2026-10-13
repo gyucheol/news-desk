@@ -28,3 +28,7 @@
   .foot{padding:18px 18px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+/* 제목·한줄 요약의 {{강조}}: 회색 바탕 굵은 글씨. 제목은 원래 굵기 유지, 읽은 뉴스는 흐린 색을 따름. */
+.ttl mark{font-weight:inherit}
+.one mark,.prev mark{font-weight:600}
+.item.is-read mark{color:inherit}

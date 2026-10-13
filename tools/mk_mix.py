@@ -33,8 +33,20 @@ def label(u):
     k = kind.get(u, '')
     return '텔레그램 ' + CHAN.get(k[3:], k[3:]) if k.startswith('tg:') else SRCN.get(k, '')
 
+HL = re.compile(r'\{\{([^{}]+)\}\}')
+def hl_check(w, name, s, lo, hi):
+    n = len(HL.findall(s))
+    if not lo <= n <= hi: P.append(f'{w} {name} 강조 {n}곳')
+    rest = HL.sub('', s)
+    if '{' in rest or '}' in rest: P.append(f'{w} {name} 강조 괄호 짝 안 맞음')
+    for m in HL.findall(s):
+        if not 2 <= len(m.strip()) <= 20: P.append(f'{w} {name} 강조 길이 {len(m)}')
+    return s.replace('{{', '').replace('}}', '')
+
 def check(x, its):
-    w = x['cid']; one = x['one']
+    w = x['cid']
+    hl_check(w, 'title', x['title'], 1, 2)
+    one = hl_check(w, 'one', x['one'], 2, 4)
     tail = TAILS.get(x['basis'], '')
     if tail and not one.endswith(tail): P.append(f'{w} basis {x["basis"]} 꼬리 없음')
     core = one[:-len(tail)] if tail and one.endswith(tail) else one
@@ -43,7 +55,7 @@ def check(x, its):
     lo, hi = (80, 130) if len(its) <= 1 and not x.get('attachTo') else (85, 165)
     if not lo <= len(core) <= hi: P.append(f'{w} one {len(core)}자')
     if not core.endswith('다'): P.append(f'{w} one 끝맺음')
-    if not 12 <= len(x['title']) <= 60: P.append(f'{w} title {len(x["title"])}자')
+    if not 12 <= len(x['title'].replace('{{', '').replace('}}', '')) <= 60: P.append(f'{w} title {len(x["title"])}자')
     for nd in x.get('nodes', []):
         i, _, k = nd.partition('/')
         if k not in NODES.get(i, []): P.append(f'{w} node {nd}')
@@ -51,7 +63,9 @@ def check(x, its):
     for i in x.get('inds', []):
         if i not in NODES and i not in NEWIND: P.append(f'{w} ind {i}')
     for s in [x['title'], one, x['check']] + x.get('facts', []):
-        if '|' in s or '**' in s or '{{' in s: P.append(f'{w} 금지 문자')
+        if '|' in s or '**' in s: P.append(f'{w} 금지 문자')
+    for s in [x['check']] + x.get('facts', []) + [it.get('t', '') for it in its]:
+        if '{{' in s: P.append(f'{w} 제목·한줄 밖 강조')
     for f in x.get('facts', []):
         if not re.search(r'\[(사실|채널|제목|추론|미확인)\]$', f.strip()): P.append(f'{w} 꼬리표 없는 사실 줄 …{f[-12:]}')
     if x['basis'] not in ('verified', 'partial', 'title', 'channel'): P.append(f'{w} basis {x["basis"]}')

@@ -1,0 +1,409 @@
+import json, re, sys
+
+OUT = "/home/user/news-desk/data/mix-2026-10-14/out2/W4.json"
+items = []
+
+def I(t, o, d, u, s=None):
+    x = {"t": t, "o": o, "d": d, "u": u}
+    if s:
+        x["s"] = s
+    return x
+
+# C004
+items.append({
+ "cid": "C004", "attachTo": "n-bbg-0077",
+ "title": "{{OPEC}}, {{2027년 수요 전망}} 상향…{{브렌트 옵션}} 거래 {{사상 최대}}·{{정제마진}} {{신고가 근접}}",
+ "one": "세계 {{원유 재고}}가 {{바닥권}}인 가운데 {{OPEC}}이 {{재고 재축적}}을 이유로 {{2027년 수요 증가 전망}}을 하루 {{약 255만 배럴}}로 {{올렸}}고, {{ICE 브렌트 옵션}}이 3분기 {{2,800만 건}}으로 {{사상 최대}}를 기록하면서 유가 {{급변 대비 수요}}가 {{커지}}고 있다",
+ "facts": [
+  "무엇이: OPEC은 10월 13일 월간 보고서에서 이란 전쟁으로 줄어든 재고를 다시 채워야 한다며 2027년 수요 증가 전망을 하루 236만 배럴에서 약 255만 배럴로 올리고, 2026년 증가 전망은 약 20만 배럴로 여섯 번째 낮췄습니다 [사실]",
+  "재고: 8월 OECD 상업 재고는 2015~2019년 평균보다 1억 7,720만 배럴 적었고, 골드만은 실물(데이티드) 브렌트가 배럴당 120달러 안팎으로 선물을 크게 웃돈다고 분석했습니다 [사실]",
+  "옵션: ICE 브렌트 옵션은 3분기 2,800만 건, 일평균 43만 7,200건으로 사상 최대 거래를 기록했고, ICE는 올해가 브렌트 옵션 사상 최대 거래 연도라고 밝혔습니다 [사실]",
+  "가격·마진: 13일 오후 브렌트는 배럴당 105달러, WTI는 92달러 아래로 밀렸고, NYMEX 3-2-1 크랙스프레드는 배럴당 약 65달러로 신고가를 넘볼 수 있다는 전언이 나왔습니다 [채널]",
+  "중국: 중국 정유사들이 원유 수입 회복에 맞춰 재고 감소 속도를 늦출 전망입니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 OPEC 2027년 전망 상향(약 255만 배럴, 매체별 255만·260만 표기 차이)과 ICE 브렌트 옵션 3분기 기록을 확인. 기존 문서는 2026년 증가 전망을 40만 배럴로 적었으나 이번 보고서 기준 약 20만 배럴로 다시 낮아짐. 3-2-1 크랙스프레드 65달러, 중국 정유사 재고 감소 둔화, 옥시덴털 관련 내용은 확인 못 함.",
+ "src": [
+  {"o": "Quartz", "d": "2026-10-13", "u": "https://qz.com/opec-2027-oil-demand-forecast-inventory-rebound-101326"},
+  {"o": "OilPrice.com", "d": "2026-10-13", "u": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html"},
+  {"o": "Business Wire(ICE 보도자료)", "d": "2026-10-13", "u": "https://www.businesswire.com/news/home/20261013755877/en/ICE-Brent-Options-Reach-Record-Traded-Volume-in-Q3-2026-as-Customers-Manage-Risk-Across-the-Brent-Curve"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/commodity", "macro/geo"],
+ "added": "이번 텔레그램 3건·로이터 3건·블룸버그 1건으로 {{OPEC의 2027년 수요 전망 상향}}, {{브렌트 옵션 3분기 사상 최대 거래}}, {{3-2-1 크랙스프레드 신고가 근접}}이 추가됐다",
+ "items": [
+  I("NYMEX 3-2-1 크랙스프레드 배럴당 65달러…신고가 경신 가시권", "텔레그램 트릴리온", "2026-10-13", "https://t.me/Trillion_labs/10421",
+    "{{NYMEX 3-2-1 크랙스프레드}}가 배럴당 {{약 65달러}} 수준에서 {{신고가 경신}} 가능성을 {{보이}}면서 정제마진 지표가 {{사상 최고}}를 {{넘볼}} 수 있다"),
+  I("브렌트 105달러·WTI 92달러 하회…하루 1.6~1.9% 하락", "텔레그램 하나증권 중국전략", "2026-10-13", "https://t.me/HANAchina/70354",
+    "{{브렌트유}}가 {{1.60% 내려}} {{배럴당 105달러}} 아래로, {{WTI}}가 {{1.91% 내려}} {{92달러}} 아래로 {{밀리}}면서 {{유가 강세}}가 {{잠시 숨 고르기}}에 들어갔다"),
+  I("중국 정유사, 수입 회복에 재고 감소 속도 늦춘다", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-13/chinese-refiners-to-slow-inventory-drawdowns-as-imports-pick-up",
+    "{{중국 정유사}}들이 {{원유 수입}}이 {{다시 늘}}면서 {{재고 감소 속도}}를 {{늦출}} 전망이어서 {{재고를 헐어 쓰던 흐름}}이 {{약해질}} 수 있다 (제목 기준)"),
+  I("투자자들, 3분기 ICE 브렌트 옵션 사상 최대 규모 거래", "로이터", "2026-10-13", "https://www.reuters.com/business/energy/investors-traded-record-volume-ice-brent-options-third-quarter-2026-10-13/",
+    "{{ICE 브렌트 옵션}}이 3분기 {{2,800만 건}}, 일평균 {{43만 7,200건}}으로 {{사상 최대 거래}}를 기록하면서 유가 급변에 대비한 {{위험 관리 수요}}가 {{커졌}}음을 보여줬다"),
+  I("옥시덴털…공급 우려가 원유 끌어올리며 유가 급등", "로이터", "2026-10-13", "https://www.reuters.com/business/energy/occidental-oil-prices-jump-supply-concerns-lift-crude-2026-10-13/",
+    "{{공급 우려}}가 {{원유 가격}}을 {{끌어올리}}며 {{유가}}가 {{급등}}했고, {{미 석유회사 옥시덴털}}이 제목에 함께 거론됐다 (제목 기준)"),
+  I("OPEC, 재고 재축적 필요 들어 2027년 원유 수요 전망 상향", "로이터", "2026-10-13", "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
+    "{{OPEC}}이 전쟁으로 {{줄어든 재고}}를 {{다시 채워야}} 한다며 {{2027년 수요 증가 전망}}을 하루 {{약 255만 배럴}}로 {{올리}}면서 내년 원유 수요가 {{크게 반등}}할 전망이다"),
+  I("ICE 브렌트 옵션 3분기 2,800만 건…올해 누적 이미 작년 넘어", "텔레그램 Polaristimes", "2026-10-13", "https://t.me/The_MariTimes/63698",
+    "{{ICE 브렌트 옵션}} 거래가 올해 누적 {{7,510만 건}}으로 {{작년 전체}}(6,220만 건)를 {{넘어서}}면서 {{원유 시장 포지셔닝}}이 {{충분히 붐빈다}}는 평가가 나왔다")
+ ]})
+
+# C012
+items.append({
+ "cid": "C012", "attachTo": "n-tg-0166",
+ "title": "{{이집트}} '사우디에 {{모든 지원}}'·{{트럼프}} '후티 {{매우 나빠}}'…{{美 개입 압박}} 커져",
+ "one": "{{후티}}의 {{사우디 공항 공격}}으로 {{걸프 항공편이 끊기}}고 {{요격탄 부족}}이 드러난 가운데, {{이집트}}가 {{모든 종류의 지원}}을 {{약속}}하고 {{트럼프}}가 {{이란을 후티 배후}}로 {{지목}}하면서 {{미국의 직접 개입 압박}}이 {{커지}}고 있다",
+ "facts": [
+  "무엇이: 이집트 압델라티 외무장관은 13일 사우디에 유보 없이 모든 종류의 지원을 하겠다고 했지만 예멘 직접 개입 같은 구체적 파병은 약속하지 않았고, 사우디·튀르키예·파키스탄과의 메카 방위협정 참여는 진지하게 검토 중이라고 했습니다 [사실]",
+  "미국: 미국은 정보·표적·공중급유로 사우디를 돕고 있지만 직접 개입은 피해 왔고, 트럼프는 공습 합류 여부를 검토하겠다고 했습니다 [사실]",
+  "트럼프: 트럼프는 SNS에서 후티가 아마도 이란의 지시로 사우디를 공격해 의도적으로 유가를 끌어올리려 한다며 선거 뒤에도 잊지 않겠다고 했습니다 [채널]",
+  "이스라엘: 하레츠 보도로 네타냐후 총리는 후티 공격과 사우디 방어로 사우디를 방위 조약에 끌어들이려 하지만 빈 살만 왕세자가 반대해 왔고, 이스라엘 고문단 파견설은 확인되지 않았습니다 [채널]",
+  "기존: 카타르항공·에티하드·걸프에어가 사우디 노선을 중단·취소했고, 사우디는 요격미사일 부족으로 이집트 등에 방공 지원을 요청했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 이집트 외무장관의 지원 약속, 미국의 간접 지원과 트럼프의 합류 검토 발언, 사우디의 요격탄 부족·방공 지원 요청을 확인. 트럼프 SNS의 이란 배후 발언과 네타냐후 관련 하레츠 보도는 채널 전언만 있음.",
+ "src": [
+  {"o": "Middle East Monitor", "d": "2026-10-13", "u": "https://www.middleeastmonitor.com/20261013-egypt-vows-any-kind-of-support-for-saudi-arabia-after-houthi-attacks/"},
+  {"o": "Arab News Pakistan", "d": "2026-10-13", "u": "https://www.arabnews.pk/saudi-arabia/egypt-ready-with-any-kind-of-support-for-saudi-arabia-to-tackle-houthis-3004049"},
+  {"o": "NBC News", "d": "2026-10-13", "u": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/geo"],
+ "added": "이번 텔레그램 2건·블룸버그 2건·로이터 1건으로 {{이집트의 전면 지원 약속}}, {{트럼프의 이란 배후 지목}}, {{네타냐후의 참전 타진}}이 추가됐다",
+ "items": [
+  I("네타냐후, 사우디의 후티 전쟁 합류 타진…빈 살만은 반대", "텔레그램 트릴리온", "2026-10-13", "https://t.me/Trillion_labs/10417",
+    "{{네타냐후 총리}}가 {{후티 공격}}으로 {{사우디를 방위 조약}}에 {{끌어들이려}} 하면서, 이슬람권 위상 훼손을 우려하는 {{빈 살만 왕세자}}는 {{이스라엘의 역할}}에 {{반대}}하고 있다"),
+  I("트럼프, 공격 뒤 사우디 지원하라는 압박 받아", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/newsletters/2026-10-13/trump-under-pressure-to-help-saudis-after-attacks",
+    "{{후티 공격}} 뒤 {{트럼프}}가 {{사우디를 도우라는 압박}}을 {{받}}으면서 {{정보·공중급유 지원}}에 머물던 {{미국의 직접 개입 여부}}가 {{쟁점}}이 되고 있다"),
+  I("이집트, 후티 공습 뒤 사우디에 '모든 종류' 지원 약속", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-13/egypt-vows-any-kind-of-support-for-saudis-after-houthi-strikes",
+    "{{이집트 외무장관}}이 사우디에 {{모든 종류의 지원}}을 {{약속}}하고 메카 방위협정 참여를 {{검토}}하면서도 {{구체적 파병}}은 {{밝히지 않았}}다"),
+  I("트럼프 '예멘 후티, 매우 나쁘게 행동하고 있다'", "로이터", "2026-10-14", "https://www.reuters.com/world/middle-east/trump-says-yemens-houthis-are-behaving-very-badly-2026-10-13/",
+    "{{트럼프 대통령}}이 {{예멘 후티}}가 {{매우 나쁘게 행동}}하고 있다고 {{비판}}하면서 {{미국의 후티 대응 수위}}에 {{관심}}이 {{쏠리}}고 있다 (제목 기준)"),
+  I("트럼프 SNS '후티, 이란 지시로 사우디 공격해 유가 끌어올려'", "텔레그램 미국 주식 인사이더", "2026-10-14", "https://t.me/insidertracking/66137",
+    "{{트럼프}}가 {{후티}}가 {{이란의 지시}}로 {{사우디를 공격}}해 {{유가를 끌어올린다}}고 {{주장}}하며 선거 뒤에도 {{잊지 않겠다}}고 경고했다")
+ ]})
+
+# C018
+items.append({
+ "cid": "C018", "attachTo": "",
+ "title": "{{佛}}, 러 {{그림자 선단 유조선}} 또 {{나포}}…인도행 {{우랄유 운임}} {{사상 최고}}",
+ "one": "{{프랑스}}가 인도양에서 {{러시아 그림자 선단 유조선}} DF피크를 {{나포}}하고 흑해발 {{인도행 우랄유 운임}}이 척당 {{최대 3,000만 달러}}로 {{치솟}}으면서 {{러시아의 원유 판매 수입}}이 {{깎이}}고 있다",
+ "facts": [
+  "무엇이: 프랑스 해군이 10월 12일 레위니옹 남쪽 450해리 넘는 인도양에서 미국·EU·영국 제재 대상 유조선 DF피크를 나포해 레위니옹으로 끌고 갔고, 러시아 대사관은 국제법 위반이자 해적 행위라고 반발했습니다 [사실]",
+  "이력: 이 배는 베냉 국적을 내세웠으나 위장 국적 의심을 받았고 과거 소브콤플로트의 칼리닌그라드호로 운항했으며, 2024년 이후 프랑스가 나포한 러시아 연관 유조선으로는 최소 다섯 번째입니다 [사실]",
+  "운임: 흑해에서 인도까지 수에즈맥스(약 14만 톤) 편도 운임이 10월 초 2,700만~3,000만 달러로 9월 약 1,900만 달러에서 뛰어 사상 최고였고, 배럴당 30달러 이상입니다 [사실]",
+  "수출: 흑해 선적이 길어지면서 러시아 원유 수출이 둔화했습니다 [제목]",
+  "영향: 운임 상승분은 판매자 수입에서 빠지므로 국제 유가가 높아도 러시아 수입을 줄입니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 프랑스의 DF피크 나포와 러시아 반발, 인도행 우랄유 운임 사상 최고를 확인. 흑해 선적 지연에 따른 수출 둔화는 확인 못 함. 프랑스 나포 횟수는 매체별로 다섯·여섯 번째로 엇갈림.",
+ "src": [
+  {"o": "gCaptain", "d": "2026-10-13", "u": "https://gcaptain.com/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy/"},
+  {"o": "The Moscow Times", "d": "2026-10-13", "u": "https://www.themoscowtimes.com/2026/10/13/french-navy-boards-russia-linked-tanker-in-indian-ocean-a93956"},
+  {"o": "Baird Maritime", "d": "2026-10-13", "u": "https://www.bairdmaritime.com/shipping/tankers/record-high-tanker-rates-to-india-are-eating-into-russias-oil-profits"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/commodity", "macro/geo"],
+ "added": "이번 블룸버그·로이터 최신 2건으로 {{흑해 선적 지연에 따른 러 원유 수출 둔화}}와 {{프랑스의 추가 나포}}에 대한 {{러시아의 해적 행위 비난}}이 추가됐다",
+ "items": [
+  I("러시아, 프랑스의 그림자 선단 의심 유조선 나포는 국제법 위반", "로이터", "2026-10-13", "https://www.reuters.com/world/europe/russia-calls-french-seizure-alleged-shadow-fleet-tanker-violation-international-2026-10-13/",
+    "{{러시아}}가 {{프랑스의 그림자 선단 유조선 나포}}를 {{국제법 위반}}으로 규정하고 {{사전 통보도 없었다}}고 {{반발}}하면서 제재 단속을 둘러싼 {{러·佛 갈등}}이 {{커지}}고 있다"),
+  I("인도행 러시아 우랄유 운임, 10월 초 또 사상 최고", "로이터", "2026-10-13", "https://www.reuters.com/business/energy/freight-rates-russian-urals-oil-shipments-india-hit-fresh-records-early-october-2026-10-13/",
+    "흑해발 {{인도행 수에즈맥스 운임}}이 9월 약 1,900만 달러에서 {{2,700만~3,000만 달러}}로 {{뛰}}면서 {{러시아 원유 판매 수입}}이 운임만큼 {{줄}}고 있다"),
+  I("흑해 선적 시간 길어지며 러시아 원유 수출 속도 둔화", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-13/russia-s-oil-exports-slow-as-black-sea-loading-takes-longer",
+    "{{흑해 항구 선적}}이 {{길어지}}면서 {{러시아 원유 수출}}이 {{둔화}}해 세계 원유 공급이 {{더 빠듯해질}} 수 있다 (제목 기준)"),
+  I("프랑스, 그림자 선단 유조선 또 나포…러시아 '해적 행위' 비난", "로이터", "2026-10-13", "https://www.reuters.com/world/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy-2026-10-13/",
+    "{{프랑스}}가 인도양에서 {{제재 대상 유조선 DF피크}}를 {{나포}}해 레위니옹으로 끌고 가자 {{러시아}}가 {{해적 행위}}라고 {{비난}}하면서 {{그림자 선단 운항 위험}}이 {{커지}}고 있다")
+ ]})
+
+# C030
+items.append({
+ "cid": "C030", "attachTo": "n-tg-0228",
+ "title": "{{러 경유 거래}} '경유값 낮추기엔 {{너무 작아}}'…{{美 수요 열흘 치}}에 그쳐",
+ "one": "{{미국}}이 {{러시아산 경유 거래}}를 {{허용}}했지만 약속 물량 {{480만 톤}}이 {{미국 수요 약 열흘 치}}에 그치고 러 경유 수출도 {{급감}}한 상태여서, {{경유 가격 인하 효과}}는 배럴당 {{1~2달러}}에 {{머물}} 수 있다",
+ "facts": [
+  "무엇이: 트럼프가 내세운 러시아 경유 물량은 약 480만 톤으로 미국 국내 수요 약 열흘 치, 세계 수요 하루 남짓에 해당합니다 [사실]",
+  "가격: 골드만삭스는 10~11월 풀릴 러시아 경유가 미 걸프만·유럽 도매 경유 가격을 배럴당 1~2달러 낮추는 데 그칠 것으로 봤고, 발표 당일 경유 선물은 약 1센트 내리는 데 그쳤습니다 [사실]",
+  "예산: FT는 전문가를 인용해 제재 완화와 경유 수출 확대가 러시아 연방 예산에 약 1억 달러의 추가 수입만 줄 것이라고 전했습니다 [채널]",
+  "기존: 보르텍사 집계로 러시아 경유 수출은 3분기 하루 19만 배럴로 2분기 69만 배럴에서 급감했고, 미 재무부는 일반허가 135호로 거래를 허용했습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약(CNBC·Newsweek)으로 물량 480만 톤과 골드만의 배럴당 1~2달러 효과 추정을 확인. FT의 러 예산 1억 달러 추정은 찾지 못함.",
+ "src": [
+  {"o": "CNBC", "d": "2026-10-13", "u": "https://www.cnbc.com/2026/10/13/trump-putin-zelenskyy-russia-ukraine-diesel-oil-price.html"},
+  {"o": "CNBC", "d": "2026-10-12", "u": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-diesel-prices.html"},
+  {"o": "Newsweek", "d": "2026-10-13", "u": "https://www.newsweek.com/trump-russia-diesel-deal-price-impacts-pump-experts-12557596"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/commodity", "macro/geo"],
+ "added": "이번 텔레그램 1건·블룸버그 1건으로 {{러 예산 추가 수입이 약 1억 달러}}에 그친다는 {{FT 인용 추정}}과 {{거래 규모가 경유값을 끌어내리기엔 작다}}는 {{평가}}가 추가됐다",
+ "items": [
+  I("FT '러 경유 수출 확대, 러 예산 추가 수입 1억 달러뿐'", "텔레그램 Polaristimes", "2026-10-13", "https://t.me/The_MariTimes/63695",
+    "전문가가 {{미국의 제재 완화}}와 {{러 경유 수출 확대}}로 {{러 예산 추가 수입}}이 {{약 1억 달러}}에 {{그친다}}고 추정하면서, 우크라이나의 {{반발이 과하다}}는 여론이 {{굳어지}}고 있다"),
+  I("트럼프의 러시아 거래, 경유 가격 낮추기엔 너무 작아", "블룸버그", "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-13/trump-s-russia-deal-is-too-small-to-dent-diesel-prices",
+    "{{트럼프의 러시아 경유 거래}}가 약 {{480만 톤}}으로 {{미국 수요 열흘 치}}에 {{그치}}면서 경유 가격을 끌어내리기에는 {{역부족}}이라는 평가가 나온다")
+ ]})
+
+# C035
+items.append({
+ "cid": "C035", "attachTo": "n-bbg-0104",
+ "title": "{{獨 9월 물가}} {{3.3% 확정}}…{{레인}} '{{AI}}가 유럽 {{노동자 협상력 제한}}'",
+ "one": "{{독일 9월 물가}}가 {{에너지값 급등}}에 {{3.3%}}로 {{2023년 12월 이후 최고}}로 {{확정}}되고 {{ECB}}가 {{9월 인상}} 뒤 {{신중론}}을 {{이어가}}는 가운데, {{레인}}이 {{AI가 노동자 협상력을 제한}}한다고 {{말하}}면서 {{임금발 물가 압력}}이 {{약할}} 수 있다는 {{시각}}이 더해졌다",
+ "facts": [
+  "무엇이: 독일 연방통계청은 9월 소비자물가 상승률을 잠정치와 같은 3.3%로 확정했고, 8월 2.9%, 7월 2.8%에서 높아져 2023년 12월 이후 가장 높았습니다 [사실]",
+  "에너지: 난방유가 74.9%, 차량 연료가 37.1% 올랐고 근원물가는 2.4%로 유지됐으며, 10월 1일 시행된 유류세 인하는 아직 반영되지 않았습니다 [사실]",
+  "레인: 레인 ECB 수석 이코노미스트는 AI가 유럽 노동자의 협상력을 제한하고 있다고 말했습니다 [제목]",
+  "기존: ECB는 9월 정책금리를 0.25%p 올려 예금금리를 2.50%로 했고, 의사록에서 위원 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "독일 연방통계청 보도자료(검색 결과 요약)로 9월 물가 3.3% 확정과 에너지 세부를 확인. 레인 발언은 기사 제목만 근거이며 내용은 확인 못 함.",
+ "src": [
+  {"o": "독일 연방통계청", "d": "2026-10-13", "u": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"},
+  {"o": "RTÉ", "d": "2026-10-13", "u": "https://www.rte.ie/news/business/2026/1013/1595139-german-september-inflation-confirmed-at-3-3/"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/inflation", "macro/cb"],
+ "added": "이번 로이터 2건으로 {{독일 9월 물가 3.3% 확정}}과 {{AI가 노동자 협상력을 제한한다}}는 {{레인의 발언}}이 추가됐다",
+ "items": [
+  I("독일 9월 소비자물가 상승률 3.3%로 최종 확정", "로이터", "2026-10-13", "https://www.reuters.com/world/europe/german-september-inflation-confirmed-33-2026-10-13/",
+    "{{독일 9월 물가}}가 난방유 {{74.9%}}·연료 {{37.1%}} {{급등}}에 {{3.3%}}로 확정되면서 {{2023년 12월 이후 최고}}를 기록했다"),
+  I("ECB 레인 'AI가 유럽 노동자 협상력 제한'", "로이터", "2026-10-14", "https://www.reuters.com/business/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-2026-10-13/",
+    "{{레인 ECB 수석 이코노미스트}}가 {{AI}}가 {{유럽 노동자의 협상력}}을 {{제한}}하고 있다고 {{말하}}면서 {{임금 상승 압력}}이 {{눌릴}} 수 있다 (제목 기준)")
+ ]})
+
+# C043
+items.append({
+ "cid": "C043", "attachTo": "n-bbg-0082",
+ "title": "{{일본은행}}, {{10월 연속 인상}} 피하는 쪽으로 {{기울어}}…{{12월 인상}} 검토",
+ "one": "기조 물가가 {{2%에 근접}}했다는 {{우에다 총재}} 발언에도 {{일본은행}}이 {{물가 급등 징후가 없다}}며 {{10월 연속 인상}}을 피하는 쪽으로 {{기울}}면서, 추가 인상 시점은 {{빠르면 12월}}로 {{밀릴}} 전망이다",
+ "facts": [
+  "무엇이: 소식통에 따르면 일본은행 관계자들은 물가 상승 위험이 갑자기 커진 징후가 없다며 10월 30일 회의에서 연속 인상을 피하는 쪽으로 기울었고, 빠르면 12월 회의에서 인상 여부를 판단할 예정입니다 [사실]",
+  "변수: 소식통들은 10월 회의의 최종 결정이 막판까지 바뀔 수 있다고 전했습니다 [사실]",
+  "시장: 오버나이트 스와프는 10월 인상 가능성을 약 10%, 12월까지 인상 가능성을 약 88%로 반영했습니다 [사실]",
+  "기존: 정책금리는 9월 1.25%로 올랐고, 9월 설문에서 가계의 88.6%가 1년 뒤 물가 상승을 예상했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(재팬타임스 등)으로 10월 연속 인상 회피 기류, 12월 검토, 결정 변경 가능성을 확인. 스와프 확률은 한 매체 요약 수치.",
+ "src": [
+  {"o": "The Japan Times", "d": "2026-10-13", "u": "https://www.japantimes.co.jp/business/2026/10/13/economy/boj-lean-against-october-rate-hike/"},
+  {"o": "Newsquawk", "d": "2026-10-13", "u": "https://www.newsquawk.com/headlines/boj-is-reportedly-to-lean-back-against-back-to-back-hikes-in-october-reports-suggest-citing-sources"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/cb", "macro/rates"],
+ "added": "이번 블룸버그 1건·텔레그램 1건으로 {{일본은행이 10월 연속 인상을 피하는 쪽}}으로 {{기울}}고 {{빠르면 12월 인상을 검토}}한다는 {{소식통 전언}}이 추가됐다",
+ "items": [
+  I("일본은행, 10월 연속 금리 인상 피하는 쪽으로 기울어", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-13/boj-is-said-to-lean-against-back-to-back-rate-hike-in-october",
+    "{{일본은행 관계자}}들이 {{10월 연속 인상}}을 피하는 쪽으로 {{기울}}면서 시장이 보는 {{10월 인상 가능성}}이 {{약 10%}}로 {{낮아졌}}다"),
+  I("BOJ 10월 연속 인상 회피 기울어…빠르면 12월 재인상 검토", "텔레그램 하나증권 중국전략", "2026-10-13", "https://t.me/HANAchina/70356",
+    "{{일본은행}}이 {{물가 급등 징후가 없다}}며 {{연속 인상}}의 필요성을 {{낮게 보}}면서, 경제지표를 보고 {{빠르면 12월}}에 {{추가 인상}}을 판단할 예정이다")
+ ]})
+
+# C051
+items.append({
+ "cid": "C051", "attachTo": "",
+ "title": "{{행동주의 앵코라}}, {{英 빅옐로}}에 {{매각 검토}} {{압박}}…'{{순자산 대비 40% 할인}}'",
+ "one": "{{행동주의 투자자 앵코라}}가 {{지분 4% 이상}}을 {{확보}}하고 {{영국 셀프스토리지 리츠 빅옐로}}에 {{매각 검토}}를 {{요구}}하면서, {{순자산가치보다 약 40% 낮은 주가}}의 {{재평가}}와 {{운용사·경쟁사의 인수}} 가능성이 {{거론}}되고 있다",
+ "facts": [
+  "무엇이: 앵코라는 10월 13일 빅옐로 지분 4% 이상을 보유했다며 매각을 포함한 전략 검토를 요구했고, 매각이 위험 대비 최선의 결과라고 주장했습니다 [사실]",
+  "가치: 앵코라는 내재가치를 주당 12.36파운드로 제시했고, 종가 7.99파운드(시가총액 약 16억 파운드)가 순자산가치보다 40% 가까이 낮다고 봤습니다 [사실]",
+  "인수 후보: 하이트먼·누빈·KKR·퍼블릭스토리지·엑스트라스페이스스토리지를 잠재 인수자로 꼽았고, 2025년 블랙스톤의 비공개화 시도는 거래 없이 끝났습니다 [사실]",
+  "그 밖: 비핵심 자산 매각, 아르마딜로 사업 매각·재브랜딩, 개발 부지 현금화, 자사주 매입도 요구했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(앵코라 보도자료, Finimize 등)으로 지분·매각 요구·가치 평가·인수 후보를 확인. 빅옐로 측 반응은 확인 못 함.",
+ "src": [
+  {"o": "Business Wire(앵코라 보도자료)", "d": "2026-10-13", "u": "https://www.financialcontent.com/article/bizwire-2026-10-13-ancora-releases-presentation-highlighting-significant-value-creation-opportunities-at-big-yellow-group-plc-lse-byg"},
+  {"o": "Finimize", "d": "2026-10-13", "u": "https://finimize.com/content/activist-ancora-wants-big-yellow-to-consider-a-sale"}
+ ],
+ "inds": ["realestate"], "nodes": [],
+ "added": "이번 로이터 1건으로 {{지분 4% 이상}}과 {{내재가치 주당 12.36파운드}} 같은 {{앵코라의 매각 요구 근거}}가 추가됐다",
+ "items": [
+  I("앵코라, 英 빅옐로 그룹에 매각 검토 압박", "블룸버그", "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-13/ancora-is-said-to-push-uk-s-big-yellow-group-to-explore-sale",
+    "{{앵코라}}가 {{영국 셀프스토리지 업체 빅옐로}}에 {{매각 검토}}를 {{압박}}하면서 {{2025년 블랙스톤 인수 무산}} 뒤 {{매각 논의}}가 {{다시 불붙}}고 있다"),
+  I("행동주의 투자자 앵코라, 빅옐로에 매각 검토 촉구", "로이터", "2026-10-14", "https://www.reuters.com/business/activist-investor-ancora-pushes-big-yellow-explore-sale-2026-10-13/",
+    "{{앵코라}}가 {{지분 4% 이상}}을 앞세워 {{내재가치 주당 12.36파운드}}를 {{제시}}하면서 {{종가 7.99파운드}}인 {{빅옐로 주가의 할인}}이 {{부각}}되고 있다")
+ ]})
+
+# C059
+items.append({
+ "cid": "C059", "attachTo": "n-rtr-0230",
+ "title": "{{佛 슈퍼마켓 냉장 시스템 해킹}}…{{쿠페라티브 U 80곳}} 등 {{700곳 피해}}",
+ "one": "{{냉장 관리 소프트웨어}}를 겨냥한 {{사이버공격}}으로 {{앵테르마르셰}}에 이어 {{쿠페라티브 U 매장 80곳}}이 {{피해}}를 {{입}}고 {{프랑스 슈퍼마켓 약 700곳}}이 {{영향}}을 받으면서, {{식품 폐기}} 등 {{매장당 최대 20만 유로 손실}}이 {{생기}}고 있다",
+ "facts": [
+  "무엇이: 쿠페라티브 U의 셸셰르 CEO는 매장 약 2,000곳 중 80곳이 사이버공격 피해를 입었고, 대부분 냉장 차질을 막았지만 일부는 식품을 버려야 했다고 밝혔습니다 [사실]",
+  "손실: 그는 작은 매장은 수만 유로, 대형 하이퍼마켓은 최대 20만 유로의 손실을 추정했습니다 [사실]",
+  "범위: 레스퀴르 재무장관은 프랑스 슈퍼마켓 약 1만 곳 중 약 700곳이 영향을 받았다고 했고, 냉장 관리 소프트웨어를 공급한 덴마크 댄포스는 피해 시스템 대부분이 보안 업데이트가 끊긴 구형 제품이라고 했습니다 [사실]",
+  "수사: 공격 주체를 자처한 곳은 없고 파리 검찰 사이버범죄 부서가 수사 중입니다 [사실]",
+  "기존: 앵테르마르셰도 매장 150곳이 표적이 된 사이버공격을 받았습니다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(AP·로이터 인용 보도)으로 쿠페라티브 U 80곳 피해, 손실 추정, 전국 700곳 영향, 댄포스 소프트웨어를 확인. 기존 문서의 앵테르마르셰 150곳은 여전히 제목 기준.",
+ "src": [
+  {"o": "The Star(로이터 전재 아님, 기술면)", "d": "2026-10-13", "u": "https://www.thestar.com.my/tech/tech-news/2026/10/13/cyberattack-affected-80-stores-of-french-supermarket-chain-co-operative-u"},
+  {"o": "Washington Times(AP)", "d": "2026-10-13", "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"}
+ ],
+ "inds": ["consumer"], "nodes": [],
+ "added": "이번 로이터 1건으로 {{쿠페라티브 U 매장 80곳 피해}}와 {{대형 매장당 최대 20만 유로 손실 추정}}이 추가됐다",
+ "items": [
+  I("佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해", "로이터", "2026-10-13", "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/",
+    "{{쿠페라티브 U}}가 {{매장 약 2,000곳 중 80곳}}이 {{사이버공격 피해}}를 {{입었}}다고 {{밝히}}면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 {{떠안}}았다")
+ ]})
+
+# C066
+items.append({
+ "cid": "C066", "attachTo": "n-rtr-0268",
+ "title": "{{中 대졸 1,270만 명 사상 최대}}에 {{청년 실업률 19%}}…{{AI}}가 {{초급 일자리 잠식}}",
+ "one": "{{중국}}이 {{1~9월 도시 일자리 1,052만 개}}를 {{만들었}}지만 {{사상 최대인 대졸자 1,270만 명}}이 {{쏟아지}}고 {{AI}}가 {{초급 일자리}}를 {{줄이}}면서 {{16~24세 실업률}}이 {{19% 안팎}}에 {{이르러}}, {{청년층 소비와 가구 형성}}이 {{위축}}될 수 있다",
+ "facts": [
+  "무엇이: 중국 국가통계국 자료로 재학생을 뺀 16~24세 실업률은 8월 18.9%로 7월 17.9%에서 올랐고, 올여름 대졸자는 사상 최대인 약 1,270만 명이었습니다 [사실]",
+  "연령: 25~29세 실업률은 7.5%로 전체 약 5%를 웃돌았고, 코로나 이전 추세와 비교하면 도시 일자리가 약 3,700만 개 부족하다는 분석이 있습니다 [채널]",
+  "AI: WSJ가 인용한 상하이과기대 연구는 2022~2026년 채용공고 7억 건을 분석해 AI 도입에 따른 채용 감소가 경력 1~3년 인력에서 가장 컸다고 했고, 중국 정부는 기업에 AI를 이유로 감원하지 말라고 경고했습니다 [채널]",
+  "소비: 취업난이 결혼·출산 지연과 부모 의존을 키워 내수 부진과 인구 감소를 심화시킬 수 있다는 우려가 나옵니다 [채널]",
+  "기존: 1~9월 도시 신규 일자리는 1,052만 개로 연간 목표의 87.7%였고, 정부는 서비스업 고용 정책 문서를 준비 중입니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약(SCMP)으로 8월 16~24세 실업률 18.9%와 대졸자 1,270만 명을 확인. WSJ 원문, 25~29세 7.5%, 일자리 3,700만 개 부족, 상하이과기대 연구는 확인 못 함.",
+ "src": [
+  {"o": "South China Morning Post", "d": "2026-09", "u": "https://www.scmp.com/economy/economic-indicators/article/3367869/record-influx-university-graduates-pushes-chinas-youth-unemployment-rate-189"}
+ ],
+ "inds": ["macro"], "nodes": ["macro/growth"],
+ "added": "이번 텔레그램 1건으로 {{16~24세 실업률 약 19%}}, {{대졸자 1,270만 명}}, {{AI가 경력 1~3년 채용을 가장 많이 줄였다}}는 {{연구 결과}}가 추가됐다",
+ "items": [
+  I("WSJ '中 청년, 대졸 1,270만 명·AI에 취업난…내수 부진 심화 우려'", "텔레그램 상상인 김진범", "2026-10-13", "https://t.me/PipeBeom/6696",
+    "{{대졸자 1,270만 명}}과 {{AI의 초급 일자리 대체}}로 {{중국 청년 취업난}}이 {{깊어지}}면서 {{결혼·출산 지연}}과 {{내수 부진}}이 {{심해질}} 수 있다")
+ ]})
+
+# C074
+items.append({
+ "cid": "C074", "attachTo": "n-bbg-0124",
+ "title": "{{리오틴토}} {{3분기 철광석 판매 2% 증가}}…{{포테스큐}}는 {{中 CMRG 분쟁}}에 {{차질}}",
+ "one": "{{포테스큐}}가 {{중국 CMRG와의 분쟁}}으로 {{판매가 선적에 못 미치}}고 {{철광석값}}이 {{공급 과잉}}에 {{밀리}}는 가운데, {{리오틴토}}는 {{3분기 필바라 판매 8,570만 톤}}으로 {{작년보다 소폭 늘}}며 {{예상을 웃돌}}아 {{공급 과잉 부담}}이 {{이어질}} 수 있다",
+ "facts": [
+  "무엇이: 리오틴토의 3분기 필바라 철광석 판매는 8,570만 톤으로 작년보다 소폭 늘어 시장 예상을 웃돌았고, 연간 필바라 출하 목표 3억 2,300만~3억 3,800만 톤은 유지됐습니다 [사실]",
+  "증가율: 3분기 철광석 판매 증가율은 2%입니다 [제목]",
+  "포테스큐: 9월 분기 선적 4,680만 톤 중 판매는 4,290만 톤에 그쳤고, 중국 국영 CMRG가 제철소에 포테스큐 주력 제품 인수 자제를 요청했습니다 [사실]",
+  "재무: 포테스큐 순부채는 9억 달러에서 28억 달러로 늘었고 적철광 실현가는 톤당 80달러(플래츠 지수의 82%)였습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약(Finimize)으로 필바라 판매 8,570만 톤과 연간 목표 유지를 확인. 증가율 2%와 회사 원문 보고서는 확인 못 함.",
+ "src": [
+  {"o": "Finimize", "d": "2026-10-14", "u": "https://finimize.com/content/rio-tinto-says-it-can-free-up-5-billion-by-2026"}
+ ],
+ "inds": ["metals"], "nodes": [],
+ "added": "이번 로이터 1건으로 {{리오틴토의 3분기 철광석 판매 2% 증가}}와 {{필바라 판매 8,570만 톤}}이 추가됐다",
+ "items": [
+  I("리오틴토, 3분기 철광석 판매 2% 증가", "로이터", "2026-10-14", "https://www.reuters.com/business/rio-tinto-posts-2-rise-third-quarter-iron-ore-sales-2026-10-13/",
+    "{{리오틴토}}가 {{3분기 철광석 판매}}를 {{2% 늘리}}며 {{필바라 판매 8,570만 톤}}으로 {{예상을 웃돌}}아 {{철광석 공급}}이 {{넉넉하게 이어지}}고 있다")
+ ]})
+
+# C090
+items.append({
+ "cid": "C090", "attachTo": "",
+ "title": "{{印 CDMO 피라말}}, '{{중국 노출 한 자릿수로 줄였다}}'",
+ "one": "{{인도 위탁개발생산(CDMO) 업체 피라말 파마}}가 {{중국 노출}}을 {{한 자릿수}}로 {{줄였}}다고 밝히면서, {{탈중국 공급처를 찾는 고객사 수요}}가 {{인도 공장}}으로 {{몰리}}고 있다",
+ "facts": [
+  "무엇이: 피라말 측은 블룸버그 뉴이코노미포럼(뉴델리)에서 중국 노출을 한 자릿수로 낮췄다고 했으나 어떤 지표인지는 밝히지 않았습니다 [사실]",
+  "수요: 중국 외 대안을 찾는 고객사의 인도 공장 원료의약품·완제의약품 수요가 강하고, 미국 생산은 채산이 맞지 않는 경우가 많다고 했습니다 [사실]",
+  "비용: 서아시아 정세 불안으로 의약품 원료 가격이 올랐다고 했고, 회사 매출의 절반 이상이 CDMO에서 나옵니다 [사실]",
+  "이전: 2024년에는 원료의 약 12%를 중국에서 조달했고 탈중국 전환은 약 8년에 걸쳐 진행될 것으로 봤습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(BW Businessworld)으로 중국 노출 한 자릿수 축소, 인도 공장 수요, 원료 가격 상승을 확인. 기사 날짜 표기는 확인 못 함(포럼 화요일 발언).",
+ "src": [
+  {"o": "BW Businessworld", "d": "2026-10-13", "u": "https://www.businessworld.in/article/piramal-pharma-cuts-china-raw-material-exposure-to-single-digits-628313"}
+ ],
+ "inds": ["pharma"], "nodes": [],
+ "items": [
+  I("인도 CDMO 피라말 '중국 노출 축소에 집중'", "블룸버그", "2026-10-13", "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure")
+ ]})
+
+# C098
+items.append({
+ "cid": "C098", "attachTo": "",
+ "title": "{{화이트브레드}}, '{{코벡스 이사 선임 거부}}' 권고…{{상반기 이익 9% 감소}}",
+ "one": "{{프리미어인 운영사 화이트브레드}}가 {{3대 주주 코벡스의 이사 선임 요구}}를 {{거부}}하라고 {{권고}}하면서, {{11월 9일 주총}}에서 {{식당 철수·부동산 매각}} 등 {{5년 구조조정 계획}}의 {{향방}}이 {{갈린다}}",
+ "facts": [
+  "무엇이: 화이트브레드 이사회는 10월 13일 만장일치로 코벡스 파트너 제임스 게멜의 이사 선임안에 반대하라고 주주들에게 권고했고, 표결은 11월 9일 임시주총에서 합니다 [사실]",
+  "계획: 남은 브랜드 식당 197곳 철수, 15억 파운드 규모 자가 부동산 매각, 약 3,800명 감원이 포함될 수 있는 비용 재설정을 담은 5년 계획을 고수했습니다 [사실]",
+  "코벡스: 지분 약 6.4%의 3대 주주로, 9월 매각 요구를 접고 이사 자리를 요구했습니다 [사실]",
+  "실적: 상반기(8월 27일까지 26주) 조정 세전이익은 2억 8,700만 파운드로 9% 줄었고 중간배당은 36.4펜스로 유지했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Skift·Finimize 등)으로 이사 선임 반대 권고, 주총 일정, 구조조정 계획, 상반기 실적을 확인. 세전이익은 매체별 2억 8,700만·2억 8,680만 파운드로 표기 차이.",
+ "src": [
+  {"o": "Skift", "d": "2026-10-13", "u": "https://skift.com/2026/10/13/premier-inn-owner-fights-activist-bid-as-rising-costs-squeeze-profit/"},
+  {"o": "Finimize", "d": "2026-10-13", "u": "https://finimize.com/content/whitbread-is-pushing-back-against-corvexs-board-grab"}
+ ],
+ "inds": ["consumer"], "nodes": [],
+ "items": [
+  I("프리미어인 운영사 화이트브레드, 코벡스 이사회 진입 요구 거부 촉구", "로이터", "2026-10-13", "https://www.reuters.com/business/premier-inn-owner-whitbread-urges-shareholders-reject-corvexs-board-seat-demand-2026-10-13/")
+ ]})
+
+# C106
+items.append({
+ "cid": "C106", "attachTo": "",
+ "title": "{{美 전력망}}, {{정비철 이상 고온}}에 {{비상}}…{{에너지부}} {{PJM 긴급명령}}",
+ "one": "{{가을 정비철}}에 {{발전기·송전선이 대거 멈춘}} 채 {{이상 고온}}으로 {{전력 수요}}가 {{늘}}면서 {{미 에너지부}}가 {{PJM에 긴급명령}}을 {{내렸}}고, {{예비력}}이 {{필요 수준에 900MW까지 근접}}할 수 있다",
+ "facts": [
+  "무엇이: 미 에너지부는 높은 수요와 가을 정비철의 계획 발전 정지·송전 정지를 이유로 연방전력법 202(c)조 긴급명령을 내려 PJM이 10월 13~16일 지정 설비와 비상 발전을 쓸 수 있게 했습니다 [사실]",
+  "규모: PJM은 약 6만 1,591MW의 발전 설비가 멈춰 있고 필요 예비력에 900MW까지 다가설 수 있다고 했으며, 수요 예상은 약 11만 1,500MW였습니다 [사실]",
+  "범위: 13개 주에 걸친 PJM 권역에 전력망 비상 경보가 내려졌습니다 [사실]",
+  "배경: 데이터센터 부하로 용량·에너지 가격이 올라 올해 PJM 도매 전력 비용이 크게 뛰었다는 분석이 있습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(미 에너지부 발표 등)으로 PJM 긴급명령, 정지 설비 규모, 예비력 여유를 확인. MISO·ERCOT의 10월 상황은 확인 못 함. 명령일은 매체별 10월 12일·13일로 엇갈림.",
+ "src": [
+  {"o": "미 에너지부", "d": "2026-10-13", "u": "https://energy.gov/articles/energy-secretary-secures-mid-atlantic-grid-ahead-anticipated-stressed-system-conditions"},
+  {"o": "Potomac Local", "d": "2026-10-13", "u": "https://potomaclocal.com/2026/10/13/energy-secretary-issues-emergency-order-for-mid-atlantic-grid"}
+ ],
+ "inds": ["power"], "nodes": ["power/demand", "power/grid", "power/market"],
+ "items": [
+  I("美 주요 전력망, 정비 성수기에 폭염으로 부담", "블룸버그", "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season")
+ ]})
+
+skipped = [{"cid": "C082", "reason": "범위 밖(주체 불명·구체 사실 부족)"}]
+
+d = {"agent": "W4", "searches_used": 16, "fetches_used": 0, "items": items, "skipped": skipped}
+json.dump(d, open(OUT, "w"), ensure_ascii=False, indent=1)
+
+# checks
+TAIL = re.compile(r" \((제목 기준|채널 전언)\)$")
+def plain(s): return s.replace("{{", "").replace("}}", "")
+def ratio(s):
+    s = TAIL.sub("", s)
+    tot = len(plain(s))
+    emp = sum(len(m) for m in re.findall(r"\{\{(.*?)\}\}", s))
+    return round(emp / tot * 100) if tot else 0
+def chunks_ok(s):
+    bad = []
+    for m in re.findall(r"\{\{(.*?)\}\}", s):
+        if len(m) > 30 or m != m.strip() or "{{" in m:
+            bad.append(m)
+    if s.count("{{") != s.count("}}"): bad.append("UNBAL")
+    return bad
+for x in items:
+    multi = len(x["items"]) > 1 or x["attachTo"]
+    lo, hi = (90, 160) if multi else (80, 130)
+    ol = len(plain(TAIL.sub("", x["one"])))
+    tl = len(plain(x["title"]))
+    flags = []
+    if not (20 <= tl <= 50): flags.append(f"TITLE{tl}")
+    if not (lo <= ol <= hi): flags.append(f"ONE{ol}")
+    for k in ("title", "one"):
+        r = ratio(x[k])
+        if not (50 <= r <= (75 if k=="title" else 65)): flags.append(f"{k}%{r}")
+        b = chunks_ok(x[k])
+        if b: flags.append(f"{k}chunk{b}")
+    if multi:
+        a = x.get("added", "")
+        al = len(plain(TAIL.sub("", a)))
+        if not (60 <= al <= 140): flags.append(f"ADD{al}")
+        r = ratio(a)
+        if not (45 <= r <= 65): flags.append(f"add%{r}")
+        for it in x["items"]:
+            s = it.get("s", "")
+            sl = len(plain(TAIL.sub("", s)))
+            if not (45 <= sl <= 110): flags.append(f"S{sl}")
+            r = ratio(s)
+            if not (50 <= r <= 65): flags.append(f"s%{r}:{plain(s)[:12]}")
+            b = chunks_ok(s)
+            if b: flags.append(f"schunk{b}")
+    for it in x["items"]:
+        if not (25 <= len(it["t"]) <= 60): flags.append(f"T{len(it['t'])}:{it['t'][:10]}")
+    for f in x["facts"]:
+        if "|" in f or "**" in f or "{{" in f: flags.append("FACTCHAR")
+    print(x["cid"], tl, ol, ratio(x["title"]), ratio(x["one"]), flags)

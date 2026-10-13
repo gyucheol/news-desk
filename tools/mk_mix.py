@@ -34,14 +34,18 @@ def label(u):
     return '텔레그램 ' + CHAN.get(k[3:], k[3:]) if k.startswith('tg:') else SRCN.get(k, '')
 
 HL = re.compile(r'\{\{([^{}]+)\}\}')
-def hl_check(w, name, s, lo, hi):
-    n = len(HL.findall(s))
-    if not lo <= n <= hi: P.append(f'{w} {name} 강조 {n}곳')
+# 강조 기준: tools/cardkit/GUIDE-short.md(사용자가 직접 표시한 기준). 문장 뼈대를 칠해 강조 글자가 전체의 50~65%쯤.
+# 검사는 30% 미만·86% 초과(24자 이상 문장)와 강조 없음, 덩어리 30자 초과를 문제로 봅니다. lo·hi는 예전 곳 수 규칙의 흔적이라 쓰지 않습니다.
+def hl_check(w, name, s, lo=None, hi=None):
+    ms = HL.findall(s); plain = s.replace('{{', '').replace('}}', '')
+    core = re.sub(r' \((제목 기준|채널 전언)\)$', '', plain); n = len(core); h = sum(len(m) for m in ms)
+    if not ms and n >= 10: P.append(f'{w} {name} 강조 없음')
+    elif n >= 24 and not 0.30 <= h / n <= 0.86: P.append(f'{w} {name} 강조 비율 {h / n:.0%}')
     rest = HL.sub('', s)
     if '{' in rest or '}' in rest: P.append(f'{w} {name} 강조 괄호 짝 안 맞음')
-    for m in HL.findall(s):
-        if not 2 <= len(m.strip()) <= 20: P.append(f'{w} {name} 강조 길이 {len(m)}')
-    return s.replace('{{', '').replace('}}', '')
+    for m in ms:
+        if m != m.strip() or len(m) > 30: P.append(f'{w} {name} 강조 덩어리 "{m}"')
+    return plain
 
 def sub_line(w, name, s, lo, hi, nlo, nhi):
     core = re.sub(r' \((제목 기준|채널 전언)\)$', '', hl_check(w, name, s, nlo, nhi))

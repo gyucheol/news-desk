@@ -12,12 +12,13 @@
 - 거시: 중앙은행·금리·물가·고용·성장·재정·환율·국채·신용시장
 - 정책·규제·무역: 관세, 제재, 수출 통제, 산업 정책, 반독점, 세금
 - 지정학: 시장·공급망·원자재에 닿는 전쟁·외교(중동, 러시아·우크라이나, 미중 등)
-- 원자재·에너지: 석유·가스·LNG·석탄·전력·원전·금속·농산물
+- 원자재·에너지: 석유·가스·LNG·석탄·전력·원전·금속
 - 산업·기업: 실적·가이던스, 인수합병, 증설·감산·공장 폐쇄, 공급 부족, 가격 인상·인하, 파산·구조조정, 대규모 수주, 주요 소송·리콜. 반도체, 자동차, 항공·방산, 금융, 소비재, 해운, 부동산 등 모든 업종
 - AI: 투자 축소·취소·연기·보류, 수요 둔화, 자금 조달 난항, 칩 공급·가격, 규제
 - 제약·바이오: 정책(약가·관세·FDA 등 규제기관의 제도 변경·의약품 수출입 규제·정부 조달)과 CDMO(위탁개발생산: 수주·증설·인수·공급 계약)만 (사용자 지시)
 
 ## 빼는 것 (D)
+- 농산물: 곡물·축산·커피·코코아·설탕 등 농산물 시세·작황·수급, 농업·식품 원료 기업 (사용자 지시, 10월 13일). 관세·무역 협상 자체와 비료(가스·화학 공급과 연결)는 trade·energy로 남깁니다.
 - 자동차: 완성차·자동차 부품·전기차·자율주행 업체의 실적·판매·생산·리콜·인사·제휴 (사용자 지시, 10월 13일). 관세·무역 협상과 배터리 소재·리튬 같은 금속은 trade·metals로 남깁니다.
 - 항공·방산: 항공사, 항공기·엔진 제조사(보잉·에어버스 등), 방산 기업의 실적·수주·인도·사고·인사, 방산 수출·무기 계약 (사용자 지시, 10월 13일). 전쟁·외교 자체(지정학)와 관세·무역 협상은 geo·trade로 남깁니다.
 - 금융업: 은행·증권·자산운용·헤지펀드·사모펀드·보험·핀테크·거래소·암호화폐 기업의 실적·인수·소송·제재·인사, 금융 감독·규제, 펀드 자금 흐름 (사용자 지시, 10월 13일). 중앙은행 금리·물가·국채·환율·신용시장 같은 거시는 macro·rates로 남기고, 일본 보험(jpins) 산업 페이지 관련은 그대로 둡니다.
@@ -34,8 +35,8 @@
 
 ## 출력
 data/mix-2026-10-13b/out/<이름>.tsv — 입력 줄마다 한 줄: `줄번호 \t 판정(K|D) \t 분야 또는 사유`
-- 분야(K일 때, 하나): macro, rates, geo, trade, energy, power, metals, agri, semis, ai, pharma, consumer, shipping, realestate, industrial, other
-- 사유(D일 때): sports, life, politics, crime, wrap, explainer, opinion, ai-invest, pharma, tech, fin, aero, auto, chatter, dup, other
+- 분야(K일 때, 하나): macro, rates, geo, trade, energy, power, metals, semis, ai, pharma, consumer, shipping, realestate, industrial, other
+- 사유(D일 때): sports, life, politics, crime, wrap, explainer, opinion, ai-invest, pharma, tech, fin, aero, auto, agri, chatter, dup, other
 줄 수가 입력과 같아야 합니다. 출력이 길면 나눠서 이어 쓰세요(한 번에 다 쓰려다 출력 한도에 걸린 일이 있음).
 끝나면 `cut -f2 <출력> | sort | uniq -c`와 줄 수를 확인하고 2줄 이내로 보고합니다.
 보조 파일은 data/mix-2026-10-13b/scratch/<이름>/ 안에만 만듭니다.

@@ -314,7 +314,13 @@
     else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
     else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
-    else if (act === 'read') { const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
+    else if (act === 'read') {
+      const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads();
+      // '안 읽은 것만'에서 읽음 처리하면 목록에서 빠지므로, 연기가 흩어지듯 0.2초 동안 사라진 뒤 다시 그립니다.
+      const row = document.getElementById('row-' + id);
+      if (row && n && st.unreadOnly && isRead(n) && !reduce) { if (!row.classList.contains('smoke')) { row.classList.add('smoke'); setTimeout(rerender, 200); } }
+      else rerender();
+    }
     else if (act === 'readall') { st.confirmAll = true; renderNews(); }
     else if (act === 'readall-no') { st.confirmAll = false; renderNews(); }
     else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!isRead(n)) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }

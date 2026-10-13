@@ -1,0 +1,38 @@
+{
+ "id": "n-rtr-0245",
+ "num": 245,
+ "key": "mix-C099-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T21:26:00+09:00",
+ "url": "https://www.reuters.com/business/media-telecom/russian-satellite-activity-raises-concerns-starlink-german-space-commander-says-2026-10-09/",
+ "origTitle": "",
+ "headline": "독일 우주사령관 \"{{러 위성 활동}}, 스타링크에 위협\"",
+ "src": [],
+ "items": [
+  {
+   "t": "독일 우주사령관 \"러시아 위성 활동, 스타링크에 우려 키워\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/russian-satellite-activity-raises-concerns-starlink-german-space-commander-says-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "독일 우주사령관 \"{{러 위성 활동}}, 스타링크에 위협\"",
+ "one": "{{독일 우주사령관}}이 러시아 위성의 활동이 {{스타링크}}에 대한 우려를 키운다고 밝히면서, 유럽의 위성 통신망 보호와 {{우주 방위}} 대응 요구가 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 독일 우주사령관이 러시아 위성 활동이 스타링크에 대한 우려를 키운다고 말했습니다 [제목]",
+  "의미: 저궤도 위성 통신망에 대한 위협 인식이 유럽 군 당국에서 커지고 있습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음. 제목만 근거"
+}

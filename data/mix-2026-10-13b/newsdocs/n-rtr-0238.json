@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0238",
+ "num": 238,
+ "key": "mix-C068-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T08:52:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/port-los-angeles-sets-september-volume-record-executive-director-says-2026-10-09/",
+ "origTitle": "",
+ "headline": "LA항 9월 {{104만 TEU}} 사상 최대…中→美 {{컨테이너 운임}} 코로나 이후 최고",
+ "src": [
+  {
+   "o": "Port of Los Angeles",
+   "d": "2026-10-09",
+   "u": "https://portoflosangeles.org/references/2026-news-releases/news_100926_sept_cargo"
+  },
+  {
+   "o": "Port Technology International",
+   "d": "2026-10-09",
+   "u": "https://www.porttechnology.org/news/cargo-handling/port-of-la-handles-record-1-million-teus-in-september/"
+  }
+ ],
+ "items": [
+  {
+   "t": "LA항, 9월 물동량 사상 최고 기록…사무총장 발표",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/retail-consumer/port-los-angeles-sets-september-volume-record-executive-director-says-2026-10-09/",
+   "s": "{{LA항}}이 9월 {{104만 TEU}}로 개항 이래 최대 월간 물동량을 기록하면서 미국 수입 수요가 견조함을 보여줬다"
+  },
+  {
+   "t": "드류리 中→美 컨테이너 운임, 서안·동안 모두 코로나 물류대란 이후 최고",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63678",
+   "s": "드류리 추산 {{중국발 미주 서안·동안 운임}}이 나란히 {{코로나 물류대란 이후 최고}}를 경신하면서 경유값 상승이 미국 물류망 스트레스로 번질 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "LA항 9월 {{104만 TEU}} 사상 최대…中→美 {{컨테이너 운임}} 코로나 이후 최고",
+ "one": "{{LA항}}이 9월 104만 TEU로 개항 118년 만의 월간 최대 물동량을 기록한 가운데 드류리 추산 {{중국발 미주 운임}}이 서안·동안 모두 코로나 물류대란 이후 최고로 오르면서, {{미국 물류망}} 전반에 비용 압력이 커질 수 있다",
+ "facts": [
+  "무엇이: LA항의 9월 물동량은 104만 2,652TEU로 118년 역사상 월간 최대였고, 적재 수입은 54만 5,696TEU로 19% 늘었습니다 [사실]",
+  "배경: 진 세로카 사무총장은 견조한 소비 수요, 재고 보충, 연초보다 낮은 관세, 수에즈·파나마 운하 차질을 꼽았습니다 [사실]",
+  "운임: 드류리 추산 중국발 미주 서안·동안 컨테이너 운임이 나란히 코로나 물류대란 이후 최고를 경신했습니다 [채널]",
+  "전망: 미국 수입 성수기가 끝나가며 11월까지 물동량이 줄 것이라는 전망도 나왔습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "LA항 9월 수치와 배경은 검색 결과 요약으로 확인. 드류리 운임 최고치는 확인 못 함",
+ "added": "이번 텔레그램 1건으로 드류리 추산 {{중국발 미주 운임}}이 서안·동안 모두 {{코로나 이후 최고}}를 경신했다는 사실이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

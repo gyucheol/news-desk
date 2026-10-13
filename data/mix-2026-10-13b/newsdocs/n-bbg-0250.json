@@ -1,0 +1,82 @@
+{
+ "basis": "verified",
+ "check": "DTN·High Plains Journal 검색 결과 요약으로 단수·생산·기말재고·12월물 종가 확인. 텔레그램의 '장중 6%, 약 3년 만의 최대 낙폭'은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: USDA가 10월 9일 수급 보고서(WASDE)에서 옥수수 단수를 에이커당 181.2부셸로, 생산 전망을 9월 158억 부셸에서 160억 3,400만 부셸로 올렸습니다 [사실]",
+  "재고: 2026/27년 기말재고 전망은 18억 4,900만 부셸로 시장 예상 16억 7,700만 부셸을 크게 웃돌았습니다 [사실]",
+  "가격: 옥수수 선물은 장중 한때 하한가까지 떨어졌고, 12월물은 20.5센트 내린 부셸당 4.7975달러에 마감했습니다 [사실]",
+  "대두: 대두 단수 53.1부셸, 생산 45억 6,200만 부셸로 모두 사상 최대 전망이 나왔습니다 [사실]",
+  "수요: 13일 대두 가격은 중국의 구매 확대를 기다리며 내렸습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "USDA 옥수수 생산 {{160억 부셸}}로 깜짝 상향…선물 장중 하한가, 대두도 약세",
+ "id": "n-bbg-0250",
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "옥수수 선물, WASDE 재고 발표 뒤 낙폭 5%로 확대",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63635",
+   "s": "미 농무부의 {{WASDE}} 재고 발표 뒤 매도가 몰리면서 {{옥수수 선물}}의 하루 낙폭이 5%까지 커졌다"
+  },
+  {
+   "t": "늘어난 미 옥수수 재고, USDA 가축 사료 소비 자료에 의문 키워",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/retail-consumer/bigger-us-corn-stocks-fuel-doubts-about-usda-livestock-feeding-data-2026-10-09/",
+   "s": "미 {{옥수수 재고}}가 예상보다 크게 나오면서 USDA의 {{가축 사료 소비}} 통계가 정확한지에 대한 의문이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "USDA 옥수수 생산 전망 깜짝 상향…선물 장중 6% 급락",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-10",
+   "u": "https://t.me/HANAchina/70155",
+   "s": "{{미 농무부}}가 옥수수 생산 전망을 약 {{160억 부셸}}로 올리면서 감산 기대가 뒤집혀 선물이 급락하고 농기계·종자·비료주도 약세를 보였다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "곡물 시장 혼조…건조한 날씨에 미국 대두 수확 속도",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/wheat-extends-drop-as-trump-remarks-fuel-black-sea-truce-hopes"
+  },
+  {
+   "t": "대두 가격, 트레이더들 중국의 구매 확대 기다리며 하락",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/soybeans-decline-as-traders-wait-for-china-to-step-up-purchases",
+   "s": "트레이더들이 {{중국}}이 구매를 늘리기를 기다리며 관망하는 가운데 {{대두}} 가격이 13일 하락했다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C096-2026-10-13",
+ "nodes": [],
+ "num": 250,
+ "one": "{{미 농무부}}가 옥수수 단수를 에이커당 181.2부셸로 올려 생산 전망을 {{160억 3,400만 부셸}}로 높이고 기말재고도 예상을 웃돌면서 옥수수 선물이 장중 하한가까지 밀렸고, {{대두}}도 중국 구매를 기다리며 약세를 보였다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T13:39:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "DTN Progressive Farmer",
+   "d": "2026-10-09",
+   "u": "https://www.dtnpf.com/agriculture/web/ag/news/article/2026/10/09/october-wasdes-shocking-rise-corn"
+  },
+  {
+   "o": "High Plains Journal",
+   "d": "2026-10-12",
+   "u": "https://hpj.com/2026/10/12/october-9-wasde-report/"
+  }
+ ],
+ "tags": [],
+ "title": "USDA 옥수수 생산 {{160억 부셸}}로 깜짝 상향…선물 장중 하한가, 대두도 약세",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/wheat-extends-drop-as-trump-remarks-fuel-black-sea-truce-hopes",
+ "added": "이번 텔레그램 2건과 로이터·블룸버그 각 1건으로 {{USDA 옥수수 생산 상향}}과 {{옥수수 선물 급락}}, 중국 구매를 기다리는 {{대두 약세}}가 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

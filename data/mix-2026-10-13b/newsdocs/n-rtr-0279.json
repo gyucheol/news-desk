@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0279",
+ "num": 279,
+ "key": "mix-C195-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:18:00+09:00",
+ "url": "https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{에퀴노르}}, 에네코와 5년 가스 공급 계약…연 9TWh 규모",
+ "src": [
+  {
+   "o": "Equinor",
+   "d": "2026-10-13",
+   "u": "https://www.equinor.com/news/20261013-eneco-five-year-gas-agreement"
+  }
+ ],
+ "items": [
+  {
+   "t": "에퀴노르·에네코, 5년 가스 공급 계약 체결해",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/equinor-eneco-sign-five-year-gas-delivery-deal-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade"
+ ],
+ "title": "{{에퀴노르}}, 에네코와 5년 가스 공급 계약…연 9TWh 규모",
+ "one": "{{에퀴노르}}가 네덜란드 에네코와 연 9TWh(약 9억 ㎥) 규모의 5년 가스 공급 계약을 맺고 10월 1일 공급을 시작하면서, 올해 세 번째 장기 계약으로 네덜란드 가스망에 들어가는 {{노르웨이산 가스}} 물량이 늘었다",
+ "facts": [
+  "무엇이: 에퀴노르와 에네코가 10월 13일 네덜란드 가스망 공급용 5년 가스 계약을 발표했고 공급은 10월 1일 시작됐습니다 [사실]",
+  "물량: 연간 약 9TWh, 약 9억 ㎥이며 노르웨이 대륙붕에서 생산됩니다 [사실]",
+  "관계: 올해 에네코와 맺은 세 번째 장기 계약으로, 2월 계약은 연 최대 5억 ㎥였습니다 [사실]",
+  "조건: 상업 조건은 공개되지 않았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(에퀴노르 발표)."
+}

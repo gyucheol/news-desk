@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0262",
+ "num": 262,
+ "key": "mix-C122-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T05:01:00+09:00",
+ "url": "https://www.reuters.com/business/tko-offers-2-billion-service-properties-trusts-hotel-portfolio-2026-10-09/",
+ "origTitle": "",
+ "headline": "TKO, {{서비스프로퍼티 호텔 포트폴리오}}에 20억 달러 인수 제안",
+ "src": [
+  {
+   "o": "Pulse 2.0",
+   "d": "2026-10-09",
+   "u": "https://pulse2.com/tko-hotels-proposes-2-billion-acquisition-of-service-properties-trust-hotel-portfolio/"
+  },
+  {
+   "o": "CoStar",
+   "d": "2026-10-09",
+   "u": "https://www.costar.com/article/1108813232/service-properties-trust-receives-unsolicited-2-billion-offer-to-sell-hotel-portfolio"
+  }
+ ],
+ "items": [
+  {
+   "t": "TKO, 서비스프로퍼티 트러스트 호텔 포트폴리오에 20억 달러 인수 제안",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/tko-offers-2-billion-service-properties-trusts-hotel-portfolio-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "TKO, {{서비스프로퍼티 호텔 포트폴리오}}에 20억 달러 인수 제안",
+ "one": "{{TKO}}가 서비스프로퍼티 트러스트의 호텔 포트폴리오 전체를 20억 달러 현금으로 사겠다고 제안하면서, 성사되면 SVC가 부채의 40% 넘게 갚고 {{순수 임대 리츠}}로 바뀔 수 있다는 기대에 주가가 급등했다",
+ "facts": [
+  "무엇이: TKO가 10월 9일 서비스프로퍼티 트러스트(SVC)의 호텔 포트폴리오를 20억 달러 전액 현금으로 인수하겠다는 비요청 제안을 냈습니다 [사실]",
+  "규모: 대상은 미국·푸에르토리코·캐나다의 호텔 약 93곳, 객실 2만 1,000개 이상입니다 [사실]",
+  "의미: 매각 대금으로 SVC는 부채의 40% 이상을 갚고 순수 넷리스 리츠로 바뀔 수 있다고 TKO는 주장했습니다 [사실]",
+  "상태: SVC 이사회는 제안을 검토하겠다고 했으며 합의된 거래는 없습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Pulse 2.0·CoStar 등). 호텔 수는 92~93곳으로 출처마다 다르고 주가 상승폭 수치도 엇갈려 쓰지 않음."
+}

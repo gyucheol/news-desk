@@ -1,0 +1,73 @@
+{
+ "basis": "verified",
+ "check": "Devdiscourse·Bilyonaryo 검색 결과 요약으로 확인. 의무 시작 시점은 검색 결과(2028년 1월 1일)와 기존 문서(2028년 7월)가 달라 검색 결과를 따름",
+ "cycles": [],
+ "facts": [
+  "무엇이: 세실 웨이크 셸 호주 회장은 국내 가스 비축 자체에는 반대하지 않지만 현 설계는 잘 작동하는 시장에 대한 쇠망치라고 비판했다 [사실]",
+  "논리: 그는 비축안이 가격을 신규 생산의 장기 비용 아래로 끌어내려 미래 시장 실패의 씨앗이 될 수 있다고 했다 [사실]",
+  "설계: 초안은 2028년 1월 1일부터 수출업체가 에너지 규제당국이 정하는 대로 생산량의 최대 5분의 1을 국내용으로 남기도록 한다 [사실]",
+  "예외 논란: 비판론자들은 예외 조항 때문에 산토스 주도의 GLNG가 의무를 거의 지지 않을 수 있다고 지적했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "셸 \"호주 가스 비축안은 {{쇠망치}}\"…가격 억눌러 시장 실패 우려",
+ "id": "n-bbg-0163",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "호주, LNG 생산 국내 공급 확대 최종안 공개 예정",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/australia-to-release-final-plan-to-keep-more-lng-output-at-home"
+  },
+  {
+   "t": "셸, 호주 가스 비축안은 시장 실패 부를 '쇠망치'라고 비판",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/shell-calls-australias-gas-reserve-plan-sledgehammer-that-risks-market-failure-2026-10-13/",
+   "s": "셸이 호주 가스 비축안을 시장 실패를 부를 수 있는 {{쇠망치}}라고 비판하면서, 정부와 LNG 수출업체의 갈등이 커지고 있다"
+  }
+ ],
+ "key": "bnd-C147-2026-10-09",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "num": 163,
+ "one": "호주 정부가 LNG 수출업체에 생산량의 최대 5분의 1을 국내용으로 남기게 하는 가스 비축안을 추진하자 {{셸 호주}}가 가격을 장기 개발비용 아래로 눌러 미래의 {{시장 실패}}를 부를 '쇠망치'라고 비판하면서, 신규 가스 개발이 위축될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T12:29:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026",
+   "o": "호주 자원부 장관실",
+   "u": "https://www.minister.industry.gov.au/king/media/press-conference-announcing-the-gas-reservation-scheme"
+  },
+  {
+   "d": "2026",
+   "o": "Gadens",
+   "u": "https://www.gadens.com/legal-insights/the-new-domestic-gas-reservation-scheme-what-it-means-for-lng-and-gas-supply-in-australia/"
+  },
+  {
+   "o": "Devdiscourse",
+   "d": "2026-10-13",
+   "u": "https://www.devdiscourse.com/article/international/3991223-shell-calls-australias-gas-reserve-plan-a-sledgehammer-that-risks-market-failure"
+  },
+  {
+   "o": "Bilyonaryo",
+   "d": "2026-10-13",
+   "u": "https://bilyonaryo.com/shell-warns-australias-gas-reservation-plan-could-worsen-shortages/"
+  }
+ ],
+ "tags": [],
+ "title": "셸 \"호주 가스 비축안은 {{쇠망치}}\"…가격 억눌러 시장 실패 우려",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/australia-to-release-final-plan-to-keep-more-lng-output-at-home",
+ "added": "이번 로이터 1건으로 셸이 호주 가스 비축안을 시장 실패 위험이 있는 '{{쇠망치}}'라고 공개 비판한 내용이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

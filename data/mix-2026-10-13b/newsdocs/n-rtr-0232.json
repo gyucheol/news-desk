@@ -1,0 +1,77 @@
+{
+ "id": "n-rtr-0232",
+ "num": 232,
+ "key": "mix-C032-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T02:51:00+09:00",
+ "url": "https://www.reuters.com/world/china/trumps-fed-ex-nominee-shelton-advise-bessent-treasury-says-2026-10-09/",
+ "origTitle": "",
+ "headline": "트럼프, {{연준 쿡 이사 해임}} 재추진…백악관 위원회 11월 5일 청문",
+ "src": [
+  {
+   "o": "CBS News",
+   "d": "2026-10-09",
+   "u": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-09",
+   "u": "https://abcnews.com/Politics/trump-announces-committee-investigate-federal-reserves-lisa-cook/story?id=137133554"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프의 연준 이사 지명자였던 셸턴, 베선트 재무장관 자문 맡아",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/china/trumps-fed-ex-nominee-shelton-advise-bessent-treasury-says-2026-10-09/",
+   "s": "{{주디 셸턴}}이 베선트 재무장관 자문을 맡으면서, 연준 이사 후보였던 인사가 {{재무부}} 정책 자문으로 합류했다"
+  },
+  {
+   "t": "쿡 이사 변호인 '청문에서 주택담보대출 사기 아님 보일 것'",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/legal/government/feds-cook-lawyers-say-hearing-will-show-no-mortgage-fraud-case-2026-10-09/",
+   "s": "{{쿡 이사 변호인단}}이 청문에서 주택담보대출 사기 사건이 아님을 보이겠다고 하면서, 해임 근거를 두고 {{법적 공방}}이 예고됐다"
+  },
+  {
+   "t": "트럼프 정부, '절차 문제'라며 쿡 이사 해임 절차 다시 시작",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63628",
+   "s": "{{트럼프 정부}}가 쿡 이사 해임 불발은 절차 문제였다며 {{해임 절차}}를 다시 시작하기로 하면서, 연준 이사 해임 시도가 재점화됐다"
+  },
+  {
+   "t": "트럼프, 연준 쿡 이사 조사 위원회 출범…백악관 성명",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/us/trump-launches-committee-probe-feds-lisa-cook-white-house-statement-2026-10-09/",
+   "s": "{{트럼프}}가 쿡 이사를 조사할 {{백악관 위원회}}를 출범시키면서, 11월 5일 청문을 거쳐 해임 여부를 다시 다투게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "트럼프, {{연준 쿡 이사 해임}} 재추진…백악관 위원회 11월 5일 청문",
+ "one": "{{트럼프 대통령}}이 대법원에서 막힌 쿡 연준 이사 해임을 절차를 갖춰 다시 밀어붙이려 {{백악관 조사위원회}}를 꾸리고 11월 5일 청문을 잡으면서, {{연준 독립성}}을 둘러싼 논란이 다시 커지고 있다",
+ "facts": [
+  "무엇이: 트럼프가 쿡 이사의 주택담보대출 서류 허위 기재 의혹을 조사할 3인 위원회(해싯·루커스·손더링)를 만들었다 [사실]",
+  "청문: 위원회는 11월 5일 백악관에서 4시간 이내 비공개 청문을 열며, 쿡 측 변호인은 주택담보대출 사기 사건이 아님을 보이겠다고 했다 [사실]",
+  "배경: 대법원이 앞서 해임 시도를 막았고, 정부는 해임 자체가 아니라 절차가 문제였다는 입장이다 [사실]",
+  "인사: 연준 이사 후보였던 주디 셸턴이 베선트 재무장관 자문으로 재무부에 합류한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "조사위원회 구성·11월 5일 청문·셸턴 재무부 합류는 검색 결과 요약으로 확인",
+ "added": "이번 로이터 1건으로 쿡 이사 해임 재추진이 {{백악관 조사위원회}} 출범이라는 {{공식 절차}} 단계로 들어갔다는 사실이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

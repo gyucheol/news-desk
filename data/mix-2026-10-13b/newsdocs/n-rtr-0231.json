@@ -1,0 +1,103 @@
+{
+ "id": "n-rtr-0231",
+ "num": 231,
+ "key": "mix-C008-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T10:13:00+09:00",
+ "url": "https://www.reuters.com/world/icc-prosecutor-condemns-us-sanctions-says-work-will-continue-2026-10-09/",
+ "origTitle": "",
+ "headline": "{{美, ICC 기관 전체 제재}}…자산 동결·거래 금지에 유엔·동맹국 반발",
+ "src": [
+  {
+   "o": "미 국무부",
+   "d": "2026-10-09",
+   "u": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court"
+  },
+  {
+   "o": "NPR",
+   "d": "2026-10-10",
+   "u": "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court"
+  },
+  {
+   "o": "UN News",
+   "d": "2026-10-10",
+   "u": "https://news.un.org/en/story/2026/10/1168562"
+  }
+ ],
+ "items": [
+  {
+   "t": "ICC 검사, 미국 제재 규탄하며 업무 계속 방침",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/icc-prosecutor-condemns-us-sanctions-says-work-will-continue-2026-10-09/",
+   "s": "{{ICC 검사}}가 미국 제재를 규탄하며 업무를 계속하겠다고 밝히면서, 제재 속에서도 재판소 수사가 이어질 것임을 분명히 했다 (제목 기준)"
+  },
+  {
+   "t": "ICC, 미국 제재 속 회원국에 업무 지속 보장 촉구",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/icc-urges-members-make-sure-it-can-continue-despite-us-sanctions-2026-10-09/",
+   "s": "{{ICC}}가 미국 제재에도 업무가 이어지도록 해 달라고 {{회원국들}}에 촉구하면서, 회원국 지원이 재판소 운영의 관건으로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "美 국무부 'ICC는 미국 주권 위협'…전방위 압박 강화",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63629",
+   "s": "{{미 국무부}}가 ICC가 미군·공직자를 기소·구금하려 한다며 {{미국 주권 위협}}이라고 비판하면서, ICC에 대한 압박 수위가 한층 높아졌다"
+  },
+  {
+   "t": "트럼프 정부, ICC에 공식 제재…'전범 억제 장치 사라졌다'는 평가",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63630",
+   "s": "{{트럼프 정부}}가 ICC에 공식 제재를 부과하면서, 채널은 달러 패권이 유지되는 한 미국·이스라엘을 막을 {{국제 제재 장치}}가 사라졌다고 평가했다"
+  },
+  {
+   "t": "미국의 국제형사재판소(ICC) 제재에 대한 각국 반응",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/reactions-us-imposing-sanctions-international-criminal-court-2026-10-09/",
+   "s": "{{각국 정부와 국제기구}}가 미국의 ICC 제재에 잇달아 입장을 내놓으면서, 제재를 둘러싼 {{국제 반발}}이 번지고 있다"
+  },
+  {
+   "t": "美, ICC에 광범위 제재…은행·보험·소프트웨어 접근 차단 경고",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65844",
+   "s": "{{트럼프 행정부}}가 ICC를 제재하며 미국 {{은행·보험·소프트웨어}} 접근 차단을 경고하자, ICC가 대체 서비스 확보 준비에 착수했다"
+  },
+  {
+   "t": "미국, 전직 판사 노벨평화상 수상 몇 시간 만에 ICC 제재",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/us-imposes-sanctions-international-criminal-court-hours-after-former-judge-wins-2026-10-09/",
+   "s": "{{미국}}이 전직 ICC 판사의 {{노벨평화상 수상}} 몇 시간 만에 ICC 제재를 발표하면서, 국제사회와의 마찰이 두드러졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "{{美, ICC 기관 전체 제재}}…자산 동결·거래 금지에 유엔·동맹국 반발",
+ "one": "{{트럼프 행정부}}가 처음으로 국제형사재판소(ICC) 기관 자체를 제재해 미국 관할 자산을 동결하고 미국 기업·은행과의 거래를 막으면서, ICC가 대체 은행·보험·소프트웨어 확보에 나섰고 {{유엔·주요 동맹국}}의 반발이 커지고 있다",
+ "facts": [
+  "무엇이: 미국이 10월 9일 ICC를 개인이 아닌 기관 자체로 처음 제재해 미국 관할 자산을 동결하고 미국인·기업·은행의 거래를 원칙적으로 막았다 [사실]",
+  "유예: 재무부 OFAC는 2027년 4월 7일까지 운영 유지·정리에 필요한 거래를 허용하는 일반면허와 통신·업무용 소프트웨어 관련 면허를 냈다 [사실]",
+  "반응: 구테흐스 유엔 사무총장이 규탄했고 캐나다·독일·프랑스·일본·영국 등 8개국이 반대 공동성명을 냈으며, ICC는 업무를 계속하겠다고 밝혔다 [사실]",
+  "배경: 네타냐후 총리 체포영장과 아프가니스탄 주둔 미군 조사에 대한 반발이 계기이며, 루비오 국무장관은 ICC를 끝내겠다고 경고했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "기관 제재·OFAC 일반면허·유엔과 8개국 반발·노벨평화상 직후 발표는 검색 결과 요약으로 확인",
+ "added": "이번 로이터 1건으로 제재 발표가 {{전직 ICC 판사 나비 필레이}}의 노벨평화상 수상 몇 시간 뒤였다는 점이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

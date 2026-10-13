@@ -1,0 +1,41 @@
+{
+ "id": "n-rtr-0280",
+ "num": 280,
+ "key": "mix-C196-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:24:00+09:00",
+ "url": "https://www.reuters.com/legal/transactional/stmicroelectronics-seeks-one-year-renewal-ceo-chery-2026-10-13/",
+ "origTitle": "",
+ "headline": "ST마이크로, {{셰리 CEO 1년 연임}} 추진",
+ "src": [],
+ "items": [
+  {
+   "t": "ST마이크로일렉트로닉스, 셰리 CEO 1년 연임 추진",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/legal/transactional/stmicroelectronics-seeks-one-year-renewal-ceo-chery-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "ST마이크로, {{셰리 CEO 1년 연임}} 추진",
+ "one": "{{ST마이크로일렉트로닉스}}가 셰리 최고경영자의 임기를 {{1년만 연장}}하는 안을 추진하면서, 짧은 연임 기간 동안 회사의 {{경영 승계}} 논의가 본격화할 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: ST마이크로일렉트로닉스가 셰리 CEO의 1년 연임을 추진합니다 [제목]",
+  "의미: 임기를 1년으로 정해 후임 논의가 이어질 수 있습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음. 제목만 근거"
+}

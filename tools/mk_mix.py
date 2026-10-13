@@ -22,8 +22,8 @@ for l in open('all.tsv'):
     when[x[4]] = f'2026-{x[2][:5]}T{x[2][6:11]}:00+09:00'
     kind[x[4]] = x[1]
 known_urls = {l.rsplit(' | ', 1)[-1] for l in seen['lines']}
-if os.path.exists(f'{DB}/meta/newsSeenOld.json'):
-    known_urls |= {l.rsplit(' | ', 1)[-1] for l in json.load(open(f'{DB}/meta/newsSeenOld.json'))['lines']}
+for p in glob.glob(f'{DB}/meta/newsSeenOld*.json'):  # newsSeenOld가 256KB에 닿아 옛 줄은 newsSeenOld2로 옮김(2026-10-13)
+    known_urls |= {l.rsplit(' | ', 1)[-1] for l in json.load(open(p))['lines']}
 
 items, skipped, P = [], [], []
 for p in sorted(glob.glob('out2/W*.json')):

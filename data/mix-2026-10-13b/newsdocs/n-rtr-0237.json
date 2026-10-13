@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0237",
+ "num": 237,
+ "key": "mix-C067-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T03:01:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/teva-wins-fda-approval-monthly-schizophrenia-injection-weltruza-2026-10-09/",
+ "origTitle": "",
+ "headline": "FDA, 테바 {{월 1회 조현병 주사}}·아사히카세이 헤르페스 치료제 승인",
+ "src": [
+  {
+   "o": "Benzinga",
+   "d": "2026-10-09",
+   "u": "https://www.benzinga.com/news/fda/26/10/62277846/fda-approves-tevas-new-once-monthly-schizophrenia-injection"
+  },
+  {
+   "o": "Israel National News",
+   "d": "2026-10-10",
+   "u": "https://www.israelnationalnews.com/news/434362"
+  }
+ ],
+ "items": [
+  {
+   "t": "테바, 월 1회 조현병 주사제 웰트루자 FDA 승인 획득",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/legal/litigation/teva-wins-fda-approval-monthly-schizophrenia-injection-weltruza-2026-10-09/",
+   "s": "{{테바}}가 한 달에 한 번 맞는 조현병 주사제 {{웰트루자}}의 FDA 승인을 받으면서, 수주 안에 미국 출시에 나설 예정이다"
+  },
+  {
+   "t": "미 FDA, 아사히카세이의 지속성 헤르페스 감염 치료제 승인",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-approves-asahi-kaseis-drug-persistent-herpes-infections-2026-10-09/",
+   "s": "{{미 FDA}}가 아사히카세이의 {{지속성 헤르페스 감염}} 치료제를 승인하면서, 아사히카세이가 이 약을 미국에서 팔 수 있게 됐다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "FDA, 테바 {{월 1회 조현병 주사}}·아사히카세이 헤르페스 치료제 승인",
+ "one": "{{미 FDA}}가 테바의 월 1회 조현병 주사제 웰트루자와 아사히카세이의 지속성 헤르페스 감염 치료제를 잇달아 승인하면서, {{테바}}는 수주 안에 미국 출시에 나서고 협력사 {{메디셀}}은 최대 1억 1,200만 달러 마일스톤을 받을 수 있다",
+ "facts": [
+  "무엇이: 테바가 10월 9일 성인 조현병 대상 월 1회 올란자핀 주사제 웰트루자의 FDA 승인을 발표했습니다 [사실]",
+  "출시: 테바는 수주 안에 미국 출시를 예상하며, 메디셀과의 협력에서 우제디에 이은 두 번째 제품입니다 [사실]",
+  "수익: 메디셀은 최대 1억 1,200만 달러의 마일스톤과 로열티를 받을 수 있습니다 [사실]",
+  "아사히카세이: FDA가 아사히카세이의 지속성 헤르페스 감염 치료제를 승인했습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "Benzinga·Israel National News 검색 결과 요약으로 웰트루자 승인·출시 시점·메디셀 마일스톤 확인. 아사히카세이 약 이름과 세부 내용은 확인 못 함",
+ "added": "이번 로이터 2건 가운데 나중 글로 {{아사히카세이}}의 {{지속성 헤르페스 감염 치료제}}도 FDA 승인을 받았다는 사실이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

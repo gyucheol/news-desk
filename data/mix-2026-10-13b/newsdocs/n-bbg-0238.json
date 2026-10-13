@@ -1,0 +1,123 @@
+{
+ "basis": "partial",
+ "check": "미 국무부의 강압 반대 성명과 대만 반응은 검색 결과 요약(타이베이타임스 등)으로 확인. 라이칭더 연설 내용·중국 국방부 비판·중국군 활동 수치는 독립 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 국무부 토미 피곳 대변인은 중국이 벨리즈·파라과이 장관을 제재한 뒤 서반구 국가에 대한 중국의 강압에 반대한다고 밝혔습니다 [사실]",
+  "기존: 중국은 10월 12일 두 장관의 중국 내 자산을 동결하고 거래를 막았으며, 대만 협력국 관리를 제재한 것은 처음입니다 [사실]",
+  "연설 공방: 라이칭더 총통은 10월 10일 국방비 증액·비대칭 전력 강화를 밝히며 도발이 아닌 억지력이라고 했고, 중국 국방부는 이를 비판하며 정례 훈련이 정당하다고 했습니다 [채널]",
+  "군사 활동: 10일 오전 6시부터 24시간 동안 중국 군용기 12회, 군함 6척, 공무선 3척이 포착됐고 5회는 서남부 방공식별구역에 들어왔습니다 [채널]",
+  "대만 반응: 천밍치 외교부 차관은 중국이 초국가적 탄압을 대만 수교국으로 넓히고 있다고 했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "中 대만 수교국 장관 제재에 {{美 \"강압 반대\"}}…쌍십절 연설 둘러싼 {{양안 공방}}",
+ "id": "n-bbg-0238",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "라이칭더 대만 총통 '국방 강화는 도발이 아니다'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/china/taiwan-president-say-boosting-its-defences-is-not-provocation-2026-10-09/",
+   "s": "{{라이칭더 총통}}이 대만의 국방력 강화는 {{도발이 아니다}}라는 입장을 밝히면서 중국의 반발과 양안 긴장이 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "미국 '대만 인근 중국의 행동은 매우 불안정 초래'",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/china/us-says-chinese-actions-off-taiwan-are-deeply-destabilising-2026-10-10/",
+   "s": "미국이 {{대만 인근 중국의 행동}}이 매우 불안정을 초래한다고 비판하면서 {{대만 문제}}를 둘러싼 미중 갈등이 다시 부각됐다 (제목 기준)"
+  },
+  {
+   "t": "라이 총통 '대만은 평화 소중히 여기지만 자유 포기하지 않을 것'",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/china/taiwan-cherishes-peace-will-not-give-up-its-freedom-president-says-2026-10-10/",
+   "s": "라이칭더 총통이 평화를 소중히 여기되 {{자유는 포기하지 않겠다}}고 밝히면서 {{중국의 압박}}에 맞서는 입장을 분명히 했다 (제목 기준)"
+  },
+  {
+   "t": "중국군 군용기 12회·군함 6척 대만 주변 활동…5회 서남부 ADIZ 진입",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-11",
+   "u": "https://t.me/insidertracking/65948",
+   "s": "{{중국 군용기 12회}} 출격과 군함 6척 활동이 포착되고 5회가 서남부 방공식별구역에 들어오면서 {{대만군}}이 대응 태세를 유지하고 있다"
+  },
+  {
+   "t": "중국 국방부, 라이칭더 쌍십절 연설 비판…'정례 훈련은 정당한 조치'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-11",
+   "u": "https://t.me/insidertracking/65951",
+   "s": "{{중국 국방부}}가 국방비 증액을 밝힌 라이칭더의 쌍십절 연설을 비판하고 {{정례 훈련}}을 정당화하면서 양안 긴장이 높은 수준을 유지하고 있다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "중국, 대만 협력국 관리들을 처음으로 제재 대상에 올려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-sanctions-officials-of-taiwan-s-allies-for-the-first-time",
+   "s": "{{중국}}이 대만과의 관계를 이유로 {{대만 협력국 관리}}를 처음 제재 대상에 올리면서 대만 수교국에 대한 압박이 새 단계로 넘어갔다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "대만 '중국의 연쇄 실사격 훈련 면밀히 감시 중'",
+   "u": "https://www.reuters.com/world/china/taiwan-says-it-is-closely-monitoring-series-chinese-live-fire-drills-2026-10-12/",
+   "s": "{{대만}}이 중국의 {{연쇄 실사격 훈련}}을 면밀히 감시하고 있다고 밝히면서 양안 간 군사 긴장이 높아질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "중국, 대만 관계 이유로 파라과이·벨리즈 장관 제재",
+   "u": "https://www.reuters.com/world/china/china-sanctions-paraguay-belize-ministers-over-taiwan-ties-2026-10-12/",
+   "s": "{{중국}}이 파라과이 비야테 통신장관과 벨리즈 폰세카 외교장관의 {{중국 내 자산을 동결}}하고 거래를 금지해 대만 국경일 이틀 뒤 수교국 압박에 나섰다"
+  },
+  {
+   "t": "미국, 벨리즈·파라과이 장관 제재 뒤 '중국의 강압에 반대'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/us-says-it-opposes-chinese-coercion-after-belize-paraguay-ministers-sanctioned-2026-10-13/",
+   "s": "{{미 국무부}}가 벨리즈·파라과이 장관 제재 뒤 서반구 국가에 대한 {{중국의 강압}}에 반대한다고 밝혀 대만 수교국 문제가 미중 갈등으로 번졌다"
+  }
+ ],
+ "key": "mix-C055-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 238,
+ "one": "중국이 대만 수교국인 {{파라과이·벨리즈 장관}}을 처음 제재하고 라이칭더 총통의 쌍십절 연설을 비판하며 군사 활동을 이어가자 {{미 국무부}}가 중국의 강압에 반대한다고 밝히면서, {{양안 긴장}}이 미중 갈등으로 번지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T11:24:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "알자지라",
+   "u": "https://www.aljazeera.com/news/2026/10/12/china-sanctions-paraguay-belize-ministers-over-taiwan-ties"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "홍콩프리프레스",
+   "u": "https://hongkongfp.com/2026/10/12/china-announces-sanctions-on-belize-paraguay-ministers-over-taiwan-ties/"
+  },
+  {
+   "o": "Taipei Times",
+   "d": "2026-10-13",
+   "u": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/13/2003865894"
+  },
+  {
+   "o": "Free Malaysia Today",
+   "d": "2026-10-13",
+   "u": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-opposes-china-s-coercion-against-taiwan-s-diplomatic-allies"
+  }
+ ],
+ "tags": [],
+ "title": "中 대만 수교국 장관 제재에 {{美 \"강압 반대\"}}…쌍십절 연설 둘러싼 {{양안 공방}}",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/china-sanctions-officials-of-taiwan-s-allies-for-the-first-time",
+ "added": "이번 로이터 4건·텔레그램 2건으로 {{미 국무부의 강압 반대}} 성명과 라이칭더 쌍십절 연설을 둘러싼 {{중국 국방부 비판}}, 중국군 활동 내역이 추가됐다"
+}

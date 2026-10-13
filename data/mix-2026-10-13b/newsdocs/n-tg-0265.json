@@ -1,0 +1,57 @@
+{
+ "id": "n-tg-0265",
+ "num": 265,
+ "key": "mix-C140-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T19:06:00+09:00",
+ "url": "https://t.me/insidertracking/65887",
+ "origTitle": "",
+ "headline": "아마존 레오, 위성 {{1,000기}} 생산…수주 내 인터넷 서비스 출시",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65887"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-09",
+   "u": "https://thenextweb.com/news/amazon-leo-1000th-satellite-europe"
+  },
+  {
+   "o": "Light Reading",
+   "d": "2026-10-09",
+   "u": "https://www.lightreading.com/satellite/amazon-leo-still-tracking-for-2026-service-launch-as-satellite-production-ramps"
+  }
+ ],
+ "items": [
+  {
+   "t": "아마존, 발사 지연 속 위성 1,000기 생산…수주 내 레오 서비스 출시",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65887"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "channel": "미국 주식 인사이더",
+ "title": "아마존 레오, 위성 {{1,000기}} 생산…수주 내 인터넷 서비스 출시",
+ "one": "{{아마존}}이 레오 위성 1,000기를 만들고 주당 27기를 생산하며 수주 안에 위성 인터넷을 내놓겠다고 밝혔지만, 궤도 위성은 396기에 그치고 주파수 우선권도 잃어 {{스타링크 추격}}이 발사 일정에 달렸다",
+ "facts": [
+  "무엇이: 아마존은 레오 위성 1,000기를 생산했고 커클랜드 공장에서 주당 27기를 만들며 수주 내 서비스 출시를 약속했다 [사실]",
+  "병목: 궤도 위성은 7월 이후 396기에 머물러 있고 벌컨·뉴글렌 로켓 지연이 원인이며, 벌컨은 수주 내 레오 발사를 재개할 예정이다 [사실]",
+  "주파수: 2026년 7월 30일까지 1,616기 목표를 못 채워 그 뒤 발사 위성의 Ka·Ku 대역 우선권을 잃었고, 2027년 10월부터 복원될 수 있다 [채널]",
+  "규모: 1세대망에는 3,232기가 필요하고 4개 발사사와 약 100회 발사 계약을 맺었다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "1,000기·주당 27기·궤도 396기·수주 내 출시는 The Next Web·Light Reading 검색 결과 요약으로 확인. FCC 우선권 상실·복원 일정은 확인 못 함"
+}

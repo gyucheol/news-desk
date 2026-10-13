@@ -1,0 +1,101 @@
+{
+ "basis": "verified",
+ "channel": "나쁜양파",
+ "check": "TipRanks·Futu 검색 결과 요약으로 BofA 목표가, 2나노 비중 3%→11%, 3분기 매출, 발표일 확인. 4분기 성장률은 출처마다 11%, 10~15%로 엇갈림. 패키징 내용은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: BofA가 10월 12일 TSMC 미국 주식 목표가를 590달러에서 620달러로 올렸습니다 [사실]",
+  "실적: 3분기 매출은 약 1조 4,900억 대만달러로 가이던스 상단을 약 2% 웃돌았고, 실적 발표는 10월 15일입니다 [사실]",
+  "2나노: BofA는 2나노 매출 비중이 전 분기 3%에서 11%로 뛰었고 선행 PER 16배는 역사적 중간값이라고 봤습니다 [사실]",
+  "9월 매출: 9월 매출은 5,118억 6,000만 대만달러로 전년보다 54.6% 늘었습니다 [채널]",
+  "패키징: AI 칩 병목이 패키징으로 옮겨가며 TSMC 주도 CoPoS는 2028~2029년 양산이 예상되고, FOPLP·유리 기판이 차세대 기술로 꼽힙니다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "TSMC 실적 앞두고 {{2나노 비중 11%}}…BofA 목표가 620달러, 패키징이 새 병목",
+ "id": "n-tg-0206",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 나쁜양파",
+   "t": "TSMC 9월 매출 전년비 54.6% 증가…3분기 1조 4,942억 대만달러",
+   "u": "https://t.me/Badonions/7722",
+   "s": "{{TSMC}}의 9월 매출이 {{전년보다 54.6%}} 늘었고 3분기 매출은 1조 4,942억 대만달러로 시장 추정치를 2.7% 웃돌며 전년보다 50.9% 늘었다"
+  },
+  {
+   "t": "TSMC 실적 임박…CoPoS·FOPLP·유리 기판이 AI 패키징 공급망 재편",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-10",
+   "u": "https://t.me/HANAchina/70168",
+   "s": "AI 칩 생산 병목이 첨단 공정에서 {{패키징}}으로 옮겨가면서, TSMC 주도 {{CoPoS}}와 FOPLP·유리 기판이 차세대 핵심 기술로 떠오르고 있다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "TSMC, AI 붐에 6분기 연속 사상 최대 이익 발표 전망",
+   "u": "https://www.reuters.com/world/china/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-12/",
+   "s": "{{TSMC}}가 AI 붐에 힘입어 {{6분기 연속 사상 최대}} 분기 이익을 발표할 것으로 예상되면서 AI 칩 공급망의 실적 강세가 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "TSMC 3분기 실적 전망: 2나노 양산·AI 수요, HSBC 목표가 최고 3,800대만달러",
+   "u": "https://t.me/HANAchina/70287",
+   "s": "{{2나노 양산 확대}}와 3·5나노 높은 가동률이 TSMC 3분기 실적을 이끈 것으로 분석되면서 BofA와 HSBC가 목표주가를 올렸고 HSBC는 {{최고 3,800대만달러}}를 제시했다"
+  },
+  {
+   "t": "BofA, TSMC 목표가 620달러로 상향…2나노 확대에 매출·이익률 개선",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70339",
+   "s": "{{BofA}}가 2나노 매출 비중이 {{3%에서 11%}}로 뛴 점을 들어 목표가를 올리면서, 4분기 매출도 전 분기보다 11% 더 늘 것으로 내다봤다"
+  }
+ ],
+ "key": "tg-Badonions-7722",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 206,
+ "one": "{{TSMC}}의 3분기 매출이 약 1조 4,900억 대만달러로 가이던스 상단을 넘고 2나노 매출 비중이 3%에서 11%로 뛰면서 {{BofA}}가 15일 실적 발표를 앞두고 목표가를 620달러로 올렸고, AI 칩 병목은 {{첨단 패키징}}으로 옮겨가고 있다",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T11:43:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 나쁜양파",
+   "u": "https://t.me/Badonions/7722"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "TSMC 보도자료",
+   "u": "https://pr.tsmc.com/english/news/3343"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html"
+  },
+  {
+   "o": "TipRanks",
+   "d": "2026-10-12",
+   "u": "https://www.tipranks.com/news/bofa-raises-tsmc-stock-tsm-price-target-ahead-of-q3-earnings-heres-why"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-13",
+   "u": "https://news.futunn.com/en/post/1000942698/ahead-of-the-earnings-report-bank-of-america-raises-taiwan"
+  }
+ ],
+ "tags": [],
+ "title": "TSMC 실적 앞두고 {{2나노 비중 11%}}…BofA 목표가 620달러, 패키징이 새 병목",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://t.me/Badonions/7722",
+ "added": "이번 텔레그램 2건으로 {{BofA 목표가 620달러}}와 {{2나노 비중 11%}}, 차세대 패키징 {{CoPoS 2028~2029년 양산}} 전망이 추가됐다"
+}

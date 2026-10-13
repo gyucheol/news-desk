@@ -1,0 +1,60 @@
+{
+ "id": "n-tg-0261",
+ "num": 261,
+ "key": "mix-C129-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T07:03:00+09:00",
+ "url": "https://t.me/insidertracking/65837",
+ "origTitle": "",
+ "headline": "{{삼성전자}}, 차량용 엑시노스 개발 중단…시스템LSI 흑자 전환 추진",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65837"
+  },
+  {
+   "o": "TrendForce",
+   "d": "2026-10-09",
+   "u": "https://www.trendforce.com/news/2026/10/09/news-samsung-reportedly-plans-exynos-auto-exit-prioritizes-mobile-aps-image-sensors-for-2027-system-lsi-turnaround/"
+  },
+  {
+   "o": "Gadget Hacks",
+   "d": "2026-10",
+   "u": "https://samsung.gadgethacks.com/news/samsung-exiting-exynos-auto-chip-business-whats-confirmed/"
+  }
+ ],
+ "items": [
+  {
+   "t": "삼성전자, 차량용 엑시노스 반도체 개발 중단 결정",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65837"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis",
+ "title": "{{삼성전자}}, 차량용 엑시노스 개발 중단…시스템LSI 흑자 전환 추진",
+ "one": "{{삼성전자}}가 퀄컴과의 경쟁과 누적 적자로 {{차량용 엑시노스}} 후속 개발을 중단하고 현대차·BMW 공급만 유지하기로 하면서, 시스템LSI는 {{모바일 AP·이미지센서}}에 집중해 흑자 전환을 노린다",
+ "facts": [
+  "무엇이: 문화일보 보도로 삼성전자가 2018년부터 추진한 차량용 엑시노스 AP 사업에서 기존 공급을 마친 뒤 후속 개발·양산을 중단한다는 소식이 전해졌다 [사실]",
+  "원인: 칩 1종 개발비가 최대 7,500만 달러인데 공급가는 개당 20~40달러이고, 퀄컴이 시장을 사실상 장악하고 있다 [사실]",
+  "유지: 2023년 현대차, 2025년 BMW와 맺은 기존 공급 약정은 이행한다 [사실]",
+  "방향: 시스템LSI는 스마트폰용 엑시노스와 이미지센서에 집중해 내년 말 흑자 전환을 추진한다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "중단 보도·개발비와 판가·기존 고객 유지는 검색 결과 요약으로 확인. 삼성전자의 공식 확인은 없고 흑자 전환 시점은 미확인"
+}

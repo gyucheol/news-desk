@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0268",
+ "num": 268,
+ "key": "mix-C135-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T11:54:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/china-adds-1052-million-urban-jobs-jan-sept-roll-out-services-jobs-policy-2026-10-10/",
+ "origTitle": "",
+ "headline": "中 1~9월 도시 일자리 {{1,052만 개}}…서비스업 고용 정책 예고",
+ "src": [
+  {
+   "o": "SCIO(국무원 신문판공실)",
+   "d": "2026-10-10",
+   "u": "http://english.scio.gov.cn/pressroom/2026-10/10/content_118728380.html"
+  },
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-10",
+   "u": "https://www.brecorder.com/news/40443581/china-adds-1052m-urban-jobs-in-jan-sept-to-roll-out-services-jobs-policy"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 1~9월 도시 일자리 1,052만 개 창출…서비스업 고용 정책 내놓는다",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/asia-pacific/china-adds-1052-million-urban-jobs-jan-sept-roll-out-services-jobs-policy-2026-10-10/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "中 1~9월 도시 일자리 {{1,052만 개}}…서비스업 고용 정책 예고",
+ "one": "{{중국}}이 1~9월 도시 일자리 {{1,052만 개}}를 만들어 연간 목표의 87.7%를 채우고 {{서비스업 고용 정책}} 문서를 준비하면서, 부진한 내수 속 고용 방어의 축이 서비스업으로 옮겨갈 전망이다",
+ "facts": [
+  "무엇이: 중국 인력자원사회보장부는 1~9월 도시 신규 일자리가 1,052만 개로 연간 목표의 87.7%라고 밝혔다 [사실]",
+  "정책: 서비스업이 고용 흡수의 주 경로가 되도록 관계 부처와 서비스업 고용 문서를 마련 중이며, 세부 내용은 아직 공개되지 않았다 [사실]",
+  "실업: 1~8월 도시 조사실업률은 평균 5.2%였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "1,052만 개·목표 대비 87.7%·서비스업 고용 문서 준비는 검색 결과 요약으로 확인"
+}

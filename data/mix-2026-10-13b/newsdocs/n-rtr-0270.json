@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0270",
+ "num": 270,
+ "key": "mix-C143-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T00:13:00+09:00",
+ "url": "https://www.reuters.com/business/energy/rosatom-says-it-wins-tribunal-ruling-finnish-nuclear-plant-dispute-2026-10-10/",
+ "origTitle": "",
+ "headline": "{{로사톰}} \"핀란드 원전 분쟁 중재 승소\"…순차액은 로사톰 측이 지급",
+ "src": [
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-10",
+   "u": "https://www.themoscowtimes.com/2026/10/10/rosatom-says-it-wins-tribunal-ruling-in-finnish-nuclear-plant-dispute-a93939"
+  },
+  {
+   "o": "Energynews.pro",
+   "d": "2026-10",
+   "u": "https://energynews.pro/en/hanhikivi-icc-rules-termination-unlawful-but-orders-rosatom-subsidiaries-to-pay-net-sum"
+  }
+ ],
+ "items": [
+  {
+   "t": "로사톰 \"핀란드 원전 분쟁 중재판정에서 승소했다\"",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/business/energy/rosatom-says-it-wins-tribunal-ruling-finnish-nuclear-plant-dispute-2026-10-10/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "nodes": [
+  "uranium/build",
+  "uranium/policy"
+ ],
+ "title": "{{로사톰}} \"핀란드 원전 분쟁 중재 승소\"…순차액은 로사톰 측이 지급",
+ "one": "{{로사톰}}이 국제상업회의소 중재에서 핀란드 {{펜노보이마}}의 2022년 한히키비-1 원전 계약 해지가 불법으로 판단됐다고 밝혔지만 순차액은 로사톰 자회사가 내야 하는 것으로 알려지면서, {{양측 모두}} 승리를 주장하고 있다",
+ "facts": [
+  "무엇이: 로사톰은 10월 10일 ICC 중재판정부가 펜노보이마의 2022년 한히키비-1 계약 해지를 불법으로 판단했다고 밝혔다 [사실]",
+  "지급: 판정은 로사톰 자회사들이 펜노보이마에 순차액을 지급해야 한다고 인정했고, 펜노보이마는 자신이 낼 순지급액은 없다고 밝혔다 [사실]",
+  "미공개: 판정문은 공개되지 않았고 ICC는 논평하지 않았으며, 리하초프 사장은 최종 승리가 아니라며 추가 소송을 예고했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "10월 10일 ICC 판정에 대한 로사톰 발표와 순차액 지급 인정, 양측 승리 주장은 검색 결과 요약으로 확인. 판정문은 비공개"
+}

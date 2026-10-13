@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0240",
+ "num": 240,
+ "key": "mix-C081-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T10:30:00+09:00",
+ "url": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/",
+ "origTitle": "",
+ "headline": "아일랜드 의장국, EU 7년 예산 {{8% 삭감}}안…'검약국'은 더 깎으라",
+ "src": [
+  {
+   "o": "Modern Diplomacy",
+   "d": "2026-10-10",
+   "u": "https://moderndiplomacy.eu/2026/10/10/eu-budget-showdown-irish-presidency-seeks-8-cut-to-2028-2034-spending-plan/"
+  },
+  {
+   "o": "Agence Europe",
+   "d": "2026-10-10",
+   "u": "https://agenceurope.eu/en/bulletin/article/13957/1/mff-2028-2034-irish-council-presidency-bets-on-cuts-mainly-affecting-eu-competitiveness-defence-and-external-action"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU 의장국 아일랜드, 2028~2034년 예산안 8% 삭감 요구",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/",
+   "s": "{{아일랜드 의장국}}이 2028~34년 EU 예산을 {{8% 줄인}} 약 1조 6천억 유로로 제시하면서, 경쟁력·안보 지출이 13% 줄어들 수 있다"
+  },
+  {
+   "t": "독일 등 6개국 정상, 대규모 삭감 없으면 EU 예산 합의 보류 경고",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-11",
+   "u": "https://t.me/The_MariTimes/63652",
+   "s": "{{독일·네덜란드·스웨덴 등 6개국}} 정상이 수천억 유로 삭감이 없으면 {{합의를 보류}}하겠다고 하면서, EU 예산 협상이 길어질 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "아일랜드 의장국, EU 7년 예산 {{8% 삭감}}안…'검약국'은 더 깎으라",
+ "one": "{{EU 의장국 아일랜드}}가 2028~34년 예산을 집행위안보다 {{8% 줄인}} 약 1조 6천억 유로로 제시했지만 독일·네덜란드 등 6개국이 수천억 유로 추가 삭감을 요구하면서, {{EU 예산 합의}}가 늦어질 수 있다",
+ "facts": [
+  "무엇이: 아일랜드 의장국은 2028~34년 EU 예산 상한을 약 1조 6천억 유로로 잡아 집행위안 1조 7,600억 유로(2025년 가격)에서 1,410억 유로, 8%를 줄이자고 제안했습니다 [사실]",
+  "삭감 분야: 지역개발·농업·어업은 3%, 경쟁력·안보 지출은 13% 줄고, 관세·탄소배출권 수입 등 550억 유로의 새 재원을 제시했습니다 [사실]",
+  "반발: 스웨덴은 감당할 수 없다고 했고 네덜란드 재무장관과 메르츠 독일 총리도 합의 기반이 아니라고 했으며, 6개국 정상은 공동 서한을 보냈습니다 [사실]",
+  "일정: EU 정상들은 10월 15~16일 브뤼셀에서 논의하고 12월 정치적 합의를 목표로 합니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아일랜드 8% 삭감안, 분야별 삭감, 검약국 반발과 일정은 검색 결과 요약으로 확인. '최후통첩' 표현은 확인 못 함(6개국 공동 서한만 확인)",
+ "added": "이번 텔레그램 1건으로 {{독일·네덜란드 등 6개국}} 정상이 수천억 유로 삭감이 없으면 {{예산 합의를 보류}}하겠다고 압박한 사실이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

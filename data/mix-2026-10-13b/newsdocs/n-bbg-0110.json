@@ -1,0 +1,84 @@
+{
+ "basis": "title",
+ "check": "이번 블룸버그 기사는 제목만 근거로 별도 검색하지 않음. 8월 생산 수치와 연료비 원인은 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 남아공 8월 제조업 생산이 전년 대비 4.3% 줄어 시장 예상(0.4% 증가)을 크게 밑돌았습니다 [사실]",
+  "폭: 전월 대비 3.1% 감소로 2024년 5월 이후 최대 낙폭이며 10개 부문 중 9개가 줄었습니다 [사실]",
+  "새 요인: 중국산 수입이 남아공 공장의 회복을 가로막고 있다는 분석이 나왔습니다 [제목]",
+  "원인: 이란 전쟁발 연료비 급등에 따른 원가 상승이 꼽혔습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "남아공 공장 {{중국산 수입}}에 회복 막혀…8월 제조업 {{4.3% 급감}}",
+ "id": "n-bbg-0110",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "남아공, 국영기업들을 감독할 새 위원회 설립 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/south-africa-to-establish-new-commission-to-oversee-state-firms",
+   "s": "{{남아공}} 정부가 국영기업들을 감독할 {{새 위원회}} 설립을 추진하면서, 국영기업 운영에 대한 정부 관리가 강화될 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "남아공 8월 제조업 생산 전년 대비 4.3% 감소",
+   "u": "https://www.reuters.com/world/africa/south-africas-august-manufacturing-output-falls-43-yy-2026-10-08/",
+   "s": "남아공 8월 {{제조업 생산}}이 전년 대비 {{4.3% 감소}}해 예상(0.4% 증가)을 크게 밑돌면서, 연료비 급등에 따른 원가 부담이 3분기 성장을 누를 수 있다"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "남아공 법원, 정부의 법률 부문 흑인경제력강화 규정 뒤집어",
+   "u": "https://www.reuters.com/world/africa/south-african-court-overturns-governments-black-empowerment-code-legal-sector-2026-10-08/",
+   "s": "{{남아공 법원}}이 정부의 법률 부문 {{흑인경제력강화}} 규정을 뒤집으면서, 법률 업계에 대한 BEE 요건 적용에 제동이 걸렸다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "남아공 랜드화, 제조업 지표 앞두고 보합…달러 약세가 지지",
+   "u": "https://www.reuters.com/world/africa/south-african-rand-steady-ahead-manufacturing-data-muted-dollar-offers-support-2026-10-08/",
+   "s": "{{랜드화}}가 제조업 지표 발표를 앞두고 {{보합}}을 보이면서, 달러 약세가 남아공 통화 가치를 떠받쳤다 (제목 기준)"
+  },
+  {
+   "t": "중국산 수입에 회복 막힌 남아공 공장 가동 급감",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/south-african-factories-crater-as-china-imports-stunt-revival",
+   "s": "{{중국산 수입품}}이 남아공 제조업의 회복을 가로막으면서 {{남아공 공장 가동}}이 급감하고 제조업 부진이 이어지고 있다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C046-2026-10-09",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 110,
+ "one": "남아공 8월 제조업 생산이 연료비 급등 속에 전년보다 {{4.3%}} 줄어 10개 부문 중 9개가 뒷걸음질한 데 이어 {{중국산 수입품}}이 공장 회복을 가로막는다는 분석이 나오면서, {{3분기 성장률}}이 다시 떨어질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "CNBC Africa",
+   "u": "https://www.cnbcafrica.com/2026/south-africas-august-manufacturing-output-falls-4-3-y-y"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Business Day",
+   "u": "https://www.businessday.co.za/economy/2026-10-09-factory-output-slumps-43-as-fuel-prices-surge/"
+  }
+ ],
+ "tags": [],
+ "title": "남아공 공장 {{중국산 수입}}에 회복 막혀…8월 제조업 {{4.3% 급감}}",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/south-africa-to-establish-new-commission-to-oversee-state-firms",
+ "added": "이번 블룸버그 기사 1건으로 연료비 급등에 더해 {{중국산 수입}}이 {{남아공 공장 회복}}을 가로막고 있다는 새 원인이 추가됐다 (제목 기준)"
+}

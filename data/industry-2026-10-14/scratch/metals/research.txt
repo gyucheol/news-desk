@@ -1,0 +1,42 @@
+# metals research log (WebSearch count / WebFetch count)
+## node plan v1
+ironore, steel, copper, smelting(비철 제련·알루미늄), battery, critical, precious, market, policy
+news map: 드비어스->precious | 리오/포테스큐->ironore | 에스콘디다/센티넬라->copper | 에라멧->battery | 고려아연->smelting, 세아베스틸->steel
+ | 희토류 재활용/말레이->critical | 라이너스 브라질->critical | 탄산리튬->battery | 은/금 매도->precious | 팔라듐/주석->precious,critical
+ | LME 창고->market | 가나 광업법->policy | EU 전략사업->policy | 쯔진 콜롬비아->policy | 앵글로 MMG 니켈->battery | 짐바브웨 리튬->battery
+ | LBMA 소송->precious | 잠비아-미국 협정->policy | 아람코 리튬->battery | BHP 캄발다 니켈->battery | 인도 철강 수입->steel | 텅스텐 IPO->critical
+
+## S1 copper (WebSearch 1)
+- ICSG Apr-2026: 2026 refined surplus 96,000t; demand growth 1.6%; refined output +0.4%; mine output growth cut to 1.6% (Grasberg, Kamoa); 2027 surplus 377,000t. Mining Weekly 2026-04-23 https://www.miningweekly.com/article/global-refined-copper-market-to-swing-to-surplus-in-2026-group-says-2026-04-23
+- ICSG Oct-2025 had forecast 150,000t deficit for 2026 (Mining Weekly 2025-10-08)
+- 2026 benchmark TC/RC = 0 (Antofagasta-Chinese smelter, vs 2025 $21.25/t, 2.125c/lb) MINING.COM https://www.mining.com/web/antofagasta-agrees-zero-copper-processing-charges-for-2026-with-chinese-smelter/ (Dec 2025)
+- Freeport: PTFI 2026 consolidated sales ~0.7 bn lb copper (phased Grasberg Block Cave restart) SEC 8-K 2Q26 https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000033/a2q2026exhibit991.htm
+## S2 aluminium (WebSearch 2)
+- Argus 2026-03: forecasts hit $4,000/t on Middle East conflict (GS 3,600; Citi >4,000) https://www.argusmedia.com/en/news-and-insights/latest-market-news/2796865-al-price-forecasts-hit-4-000-t-on-middle-east-conflict
+- aggregator (discoveryalert): Gulf ~9% of global primary; LME Al 4-yr high around Jun-2 (peak numbers conflict 3,651~3,855); late-Jul ~3,170 (low quality, avoid numbers)
+- Alumeco: smelter restart 6-12 months https://www.alumeco.com/metal-prices/metal-price-news-2026/extra-aluminium-shoots-up-after-war-in-the-middle-east/
+## S3 iron ore (WebSearch 3)
+- price ~ $99-100 late Sep (NewsBreak, low quality); fell <100 mid-Jun to 96.70 (Jun 26) after 2-yr high 111.60 (MarketIndex, date unk)
+- Simandou 2026 shipments est 16-22Mt; UBS May run-rate ~30Mt/yr (MarketIndex)
+- consensus 2026 avg $94-95 (GMK Center) https://gmk.center/en/news/iron-ore-prices-may-fall-to-94-per-tonne-in-2026-consensus-forecast/
+- S&P Global 2026-01-05: limited 2026 price impact, deeper oversupply 2027 https://www.spglobal.com/energy/en/news-research/latest-news/metals/010526-iron-ore-industry-challenges-simandous-pilbara-killer-status
+## desk records reused (newsdocs)
+- CTEE 2026-10-04: iron ore $95-100/t; CSC Sep shipments 1.041Mt (50-month high) https://www.ctee.com.tw/news/20261004700040-439901
+- worldsteel SRO 2026-10-12: 2026 demand 1,722Mt flat; 2027 +1.7% 1,752Mt; China -2.0%/-1.0%; ex-China +1.5%/+4%; India +7.9% https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/
+- Fortescue Sep-qtr: shipments 46.8Mt (-6%), sales 42.9Mt; CMRG dispute; realized $80/t (82% Platts); net debt 0.9->2.8bn MINING.COM 2026-10-08 https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/
+- Centinela strike Oct-7 (~700 workers, ~1/3 of group output); LME 3M copper 14,614.5 (Oct-8, 2-wk high), record 14,875 (Sep-10); LME stocks -36% since early June. Northern Miner 2026-10-08 https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/ ; MINING.COM https://www.mining.com/antofagastas-centinela-strike-adds-copper-supply-risk/
+- Eramet: €500m capital increase, French state 27%->up to 49%; 2025 loss due to Indonesia nickel quota cut + lower prices; covenant breach. Mining Weekly 2026-10-13 https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13
+- Lithium: GFEX carbonate futures -11.8% Oct-12 to 104,740 yuan/t (~10-month low); EU hybrid export deal + CATL Jianxiawo design approval. Mining Weekly 2026-10-12 https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12
+- Zimbabwe lithium concentrate export ban Jan-2027 confirmed; 1 operating lithium sulphate plant; 6 approved exporters pay 10-16% export tax. SMM 2026-10-09 https://news.metal.com/newscontent/104149017-smm-lithium-news-zimbabwe-no-reason-to-delay-lithium-concentrates-export-ban
+- Anglo nickel Brazil -> MMG (up to $500m) EU in-depth review; Anglo threatens closure. Mining.com.au 2026-10-08 https://mining.com.au/anglo-american-threatens-to-close-brazilian-nickel-operation-if-eu-blocks-sale-to-mmg/
+- PBoC gold 77.47Moz end-Sep (23rd month); +0.74Moz biggest since Sep-2023; gold price fell >6% in Sep. Mining Weekly 2026-10-07 https://www.miningweekly.com/article/chinas-central-bank-adds-to-gold-reserves-for-twenty-third-consecutive-month-2026-10-07
+- Nornickel Monchegorsk ~40% of world palladium refining (company claim); drone range. Yle https://yle.fi/a/74-20237105
+- SIPG negotiating H&M Metal Warehousing (LME); only Chinese capital in LME warehousing = CMST (Henry Bath 51%). Finimize 2026-10-12 https://finimize.com/content/chinas-top-port-operator-eyes-a-key-lme-warehouse-firm
+- Ghana draft mining bill: 10% free carried interest + special share; royalty 5-12% sliding since Mar-10. Citi Newsroom 2026-10-07 https://www.citinewsroom.com/2026/10/chamber-of-mines-asks-reuters-to-clarify-ghana-mining-bill-report/
+- EU 46 strategic projects (16 states, 102 applications), €21.1bn; extraction 8, processing 11, recycling 19; 2030 targets 10/40/25%. Bruxelles2 2026-10-09 https://www.bruxelles2.eu/en/article/321145
+- Tungsten: Abenojar LSE IPO plan (El Moto €211m capex, early-2029 production); Trinity Metals NY listing; China ~79% of mine output. Mining.com.au 2026-10 https://mining.com.au/tungsten-miners-turn-to-public-markets-as-prices-surge/ ; INN 2026-10-07 https://investingnews.com/abenojar-london-ipo-tungsten-project/
+- De Beers: Botswana 15%->~25% with GDC; Anglo wrote De Beers book value to $2.3bn in Feb. bne IntelliNews 2026-10-13 https://www.intellinews.com/botswana-reportedly-nears-deal-for-25-de-beers-stake-as-anglo-american-sale-advances-475658
+- Malaysia king buys 2.25% Southern Alliance Mining (rare earths). Business Today Malaysia 2026-10-13 https://www.businesstoday.com.my/2026/10/13/sultan-ibrahim-acquires-2-25-stake-in-southern-alliance-mining-for-s6-1-million/
+- India draft steel policy 2047: 604Mt capacity (from ~220Mt). Business Standard 2026-10-11 https://www.business-standard.com/industry/news/govt-releases-draft-national-steel-policy-2047-targets-604-mt-capacity-126101100130_1.html
+- Glencore ASX secondary listing Oct-14 (coal list) MINING.COM https://www.mining.com/web/glencores-planned-australian-debut-draws-interest-as-investors-look-past-coal/
+- Korea Zinc Q3 OP est 312.8bn KRW (-46.7% QoQ), SeAH Besteel 25bn (-58.4%); China special steel bar AD 25.08~27.96% prelim (channel) https://t.me/PipeBeom/6659

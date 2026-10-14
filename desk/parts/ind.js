@@ -91,7 +91,7 @@
       (dl ? '<dl class="ik">' + dl + '</dl>' : '') +
       (watch ? '<h4>먼저 볼 지표</h4><ul class="iw">' + watch + '</ul>' : '') +
       (reading ? '<h4>이런 뉴스는 이렇게 읽습니다</h4><ul class="ir">' + reading + '</ul>' : '') +
-      (players ? '<details><summary>주요 기업 ' + (it.players || []).length + '곳</summary><ul class="pl">' + players + '</ul></details>' : '') +
+      (players ? '<details><summary>' + ((it.players || []).every(p => !p.t) ? '주요 기관 ' : '주요 기업 ') + (it.players || []).length + '곳</summary><ul class="pl">' + players + '</ul></details>' : '') +
       (terms ? '<details><summary>용어 ' + (it.terms || []).length + '개</summary><dl class="it">' + terms + '</dl></details>' : '') +
       '</section>';
   }

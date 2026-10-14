@@ -67,3 +67,7 @@ S14 WebSearch: CME Q3 2026 ADV (press release 2026-10-02)
    https://www.cmegroup.com/media-room/press-releases/2026/10/02/cme_group_reportsrecordaveragedailyvolumeforseptemberandq3driven.html
    Sept ADV record 31.8M (+22% YoY); Q3 ADV record 29.4M (+16%); IR ADV Q3 15.1M (+13%); UST F&O Q3 9.4M (+25%); Sept UST F&O 9.5M (+42%); SOFR fut Q3 3.8M (+3%)
 == fin WebSearch used: 14/14 ==
+F3 WebFetch: ajunews 2026-10-08 (KB 1조8,396억 / 신한 1조6,048억 / 하나 1조2,191억 / 우리 9,749억; 합산 5조6,384억, FnGuide; NIM 소폭 하락 가능-조달비용(예금·은행채) 상승, 기업대출 증가가 이자이익 지지; 증권 계열사 둔화: 거래대금 감소·금리 상승)
+F4 WebFetch: Fed Bowman speech 2026-10-01 (eSLR finalized Nov 2025; buffer 50% method-1 surcharge (DI subs capped 1%); effective 2026-04-01, early adoption 2026-01-01; 7 of 8 GSIBs early in 1Q26; dealer UST positions ~$600B -> >$700B by end-April)
+F5 WebFetch: FDIC QBP 2Q26 page: release 2026-08-25 (event listing); NI $90.1B (+$9.7B, +12.0%); ROA 1.37% (NIM/unrealized losses only from S2 summary)
+== fin WebFetch used: 5/5 ==

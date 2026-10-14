@@ -120,3 +120,13 @@
 
 ## F1 Walmart listing: Nasdaq (Walmart IR page "Walmart Inc. (Nasdaq: WMT)") https://stock.walmart.com/
 SEARCH COUNT: consumer WebSearch 14/14, WebFetch 1/5
+
+## F2 P&G release 2026-07-29 (fetched)
+- FY27 organic sales +1~3%; core EPS in-line to +3% ($6.89-7.11, midpoint $7.00); ~$1bn after-tax headwind raw materials/energy/transportation
+- FY26 organic +1% (pricing), volume & mix unchanged; Q4 organic volume 0%
+## F3 CoStar release -> 403 ; F4 hotelmanagement.net -> 403 (CoStar Aug data date unconfirmed; use 2026-09 month-level)
+SEARCH COUNT FINAL: consumer WebSearch 14/14, WebFetch 4/5 (2 returned 403)
+
+## Node plan (consumer)
+food, alcohol, household, apparel, durables, retail, dining, leisure, demand
+agri ids fixed: inputs, weather, grains, softs, livestock, processors, demand, policy

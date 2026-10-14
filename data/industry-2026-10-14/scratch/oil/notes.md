@@ -96,3 +96,12 @@
 - G7: 100 mb over four months incl. frontloaded diesel release within first 20 days
 - Korea MOTIR: joined March collective action, releasing 22.46 mb
 - urls: https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026 ; https://english.news.cn/20261007/6cb97e800a1f462386424ecb38fc7d09/c.html ; https://www.rigzone.com/news/iea_members_support_oil_stock_release_acceleration-09-oct-2026-184812-article/ ; https://fortune.com/2026/10/12/global-emergency-oil-stocks-iea-strategic-petroleum-reserve-gao/ ; https://www.iea.org/news/iea-member-countries-to-carry-out-largest-ever-oil-stock-release-amid-market-disruptions-from-middle-east-conflict ; https://www.euronews.com/2026/10/03/iea-says-325-million-barrels-of-emergency-oil-released-with-75-million-still-to-come
+## WF3: tradersunion -> HTTP 403 (blocked, counted) -> European margin collapse claim NOT used (gaps)
+## WF4: Gulf News (Poten) page "Last updated 2026-10-05"
+- Poten: VLCC $1.3M/day (~43x early-Jan ~$30,000/day MEG-Far East); freight ~ $33/bbl = ~27% of delivered cost (Brent ~$120 basis); Jan ~$1.73/bbl (~3%)
+- Clarksons Research: avg global VLCC spot earnings approaching $642,000/day; some ME-Asia routes >$1M/day; war-risk premiums higher (no figures)
+## COUNTS (oil): WebSearch 14/14, WebFetch 4/5 (2 blocked: IEA, tradersunion)
+## DECISIONS
+- nodes: opec, nonopec, transport, refining, products, stocks, price, demand, policy (9)
+- shipping tanker node id to link: shipping/tankers
+- cycle: stage 1 (conf 중간); node stages: nonopec 1, transport 1, products 1, refining 2; others omitted; no split

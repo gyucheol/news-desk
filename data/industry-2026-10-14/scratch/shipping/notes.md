@@ -72,3 +72,20 @@
 - BIMCO via TechTimes 2026-08-01: 2027 fleet growth 3.5-4.5% vs demand 0.5-1.5% if Hormuz stays effectively closed (rerouting boost reverses) url https://www.techtimes.com/articles/322617/20260801/dry-bulk-shipping-faces-2027-supply-glut-bimco-warns-hormuz-rerouting-boost-will-reverse.htm
 - MSI (allaboutshipping 2026-09-28): firm market into 2027, more newbuild orders; effective supply growth ~4.0% in 2027, slight softening url https://allaboutshipping.co.uk/2026/09/28/msi-forecasts-firm-dry-bulk-market-into-2027-driving-further-newbuilding-orders/
 - Star Bulk Q2 call: orderbook ~13.9%
+## WS12: IMO Net-Zero Framework (search summary)
+- approved in principle MEPC 83 (Apr 2025, 63-16); Oct 2025 extraordinary session adjourned 1 yr (Saudi motion 57-49-21; US opposed)
+- MEPC 84 (Apr-May 2026) kept NZF as basis; Sept 2026 intersessional no consensus on Net-Zero Fund legal nature & long-term stringency
+- adjourned session to resume 2026-12-04 (MEPC 85 shortly before); earliest entry into force 1 Mar 2028 (DNV est.)
+- urls: https://vesselchain.org/imo-net-zero-framework/ ; https://www.carbonbrief.org/qa-how-countries-got-the-global-net-zero-shipping-deal-back-on-track ; https://www.hilldickinson.com/our-view/articles/imo-s-net-zero-framework-adoption-adjourned-and-consensus-building-continues/
+## WS13: LNG/LPG carriers (Baltic Exchange weekly via The Edge Malaysia, week to 2026-10-09)
+- BLNG2 US Gulf-Continent -$4,900 to $21,200/day; Atlantic vessel list > cargoes, charterers upper hand; BLNG1 Australia-Japan -$2,300 to $34,600/day
+- VLGC: BLPG1 Ras Tanura-Chiba $265.00/t, TCE $258,182/day; BLPG3 Houston-Chiba +$22 to $344.71/t, TCE $214,030/day
+- url https://theedgemalaysia.com/node/821285
+- Lloyd's List 2026-10-07 title: VLGC rates also at all-time highs (USG-Japan $216,335/day etc.) url https://www.lloydslist.com/LL1158644/Its-not-just-crude-tankers-VLGC-rates-are-also-at-alltime-highs
+- => gascarrier node split: LNG oversupply (stage 3) vs VLGC boom
+## WS14: Korean yards (search summary, Korean press) -- SHIPPING SEARCH BUDGET EXHAUSTED (14/14)
+- 9월 말 3사 누적 383.2억 달러 (글로벌이코노믹 2026-09-30 https://www.g-enews.com/article/Industry/2026/09/2026093015010154524debea800_1)
+- HD한국조선해양 169척 187.1억 달러, 목표 233.1억의 80.3%, 지난해 연간 185.5억 초과
+- 삼성중공업 상선 44척 75억(목표 57억의 132%), 해양 FLNG 2기 44억(목표 82억의 54%), 합계 119억(목표 139억의 86%)
+- 한화오션 목표 비공개; VLCC 18, LNG선 8, 컨테이너선 6, 암모니아운반선 3, 대형가스운반선 3, 해상풍력설치선 1 등 41척 77.1억 달러; 9월에만 약 2.9조 원 (허프포스트코리아 https://www.huffingtonpost.kr/article/260862)
+- energy carriers (LNG, VLCC, VLGC) dominate

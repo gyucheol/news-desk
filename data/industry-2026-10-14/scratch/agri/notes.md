@@ -95,3 +95,28 @@
 - src: Deere 8-K 2026-08-20 https://www.sec.gov/Archives/edgar/data/0000315189/000110465926098904/de-20260820xex99d1.htm
 - src: AgNavigator 2026-08-20 https://www.agnavigator.com/Article/2026/08/20/john-deere-q3-2026-results-precision-ag-pays-off-large-ag-slips/
 - src: GuruFocus https://www.gurufocus.com/news/9046206/deere-co-de-q3-2026-earnings-call-highlights-strong-margins-and-raised-outlook-amid-tariff-headwinds
+
+## S10 Coffee
+- Conab 3rd estimate (2026-09-24): Brazil 2026 total 67.6m bags (from 66.7m), arabica 48.213m bags (~+35% y/y), slightly above USDA arabica number for first time (JG Anes)
+- Conab 1st estimate (Feb): 66.2m total (+17%), 44.1m arabica (Comunicaffe)
+- USDA FAS June: record 71.9m bags; Rabobank ~73.3m
+- arabica ~ $2.70/lb, down >20% YTD (Sorafutures, date unknown)
+- src: JG Anes Consulting https://jganesconsulting.com/blogs/news/history-was-made-in-the-coffee-market
+- src: Comunicaffe https://www.comunicaffe.com/brazil-brazil-conab-forecasts-a-record-harvest-of-66-2-million-17-for-the-2026-27-season/
+- src: Sorafutures https://www.sorafutures.com/archives/43447
+- consumer S10: US CPI coffee +7.1% y/y (Sept table)
+
+## F1 Korea JoongAng Daily 2026-10-12 (fetched) Brazilian egg imports
+- HPAI last winter culled 11.34m laying hens -> production down, prices up; imports = "short-term response to egg shortages"
+- imports thru Sept: 133.24m eggs (US 125.78m, Thailand 5.62m, Brazil 1.12m, Denmark 0.72m)
+- Brazil eggs 39,000 won/tray (~$29), 3-4x US eggs; 27% tariff on Brazil (US 0%, Thai 5%, Denmark 1.6%)
+- govt supplied retailers at avg 131 won/egg; budget ~120bn won for fresh egg imports (Livestock Development Fund + supplementary budget)
+- egg price 7,418 won/tray mid-Jul -> 6,937 won early Oct (domestic recovery also)
+- new rule: min space per laying hen 0.05 -> 0.075 m2, full effect Sept next year (2027)
+- src: https://www.koreajoongangdaily.com/business/koreas-pricey-brazilian-egg-imports-put-large-taxpayer-subsidies-under-scrutiny/12915207
+
+## F2 farmdoc daily 2026-10-05 (Gerald Mashange) (fetched)
+- Aug 2026 CPI: food at home 0.0% m/m, +2.2% y/y; FAFH +0.3% m/m, +3.4% y/y; all food +2.7% y/y; beef&veal +5.9% y/y; eggs -23.0% y/y
+- beef cow herd 28.5m head on 2026-07-01 (-1% y/y); replacement heifers +3% to 3.8m; 2026 calf crop 32.5m (-2%)
+- US beef consumption ~8% above 20-yr avg; USDA projects beef&veal prices +9.4% in 2026; USDA Sept outlook: 2027 food-at-home +1.8%, FAFH +2.6%
+- src: https://farmdocdaily.illinois.edu/2026/10/food-inflation-and-the-outlook-for-beef-prices.html

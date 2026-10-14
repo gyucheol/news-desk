@@ -1,6 +1,6 @@
 # 핸드오프 — 모든 산업 뉴스 되살리기, 산업 한 페이지 22개(입문 칸), 뉴스 밸류체인 한 줄, 데스크 v66~v68
 
-작성 시점: 2026-10-14 밤(KST). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었고, 작업은 지정 브랜치 ccr-52978088-7rv2qu에 커밋·푸시했습니다(시작 때 직전 브랜치 claude/news-insight-request-error-khmgs4로 앞으로 감음). PR은 만들지 않았습니다. 직전 핸드오프는 HANDOFF-prev-2026-10-14-am.md입니다.
+작성 시점: 2026-10-15 오전(KST, 작업은 10월 14일 저녁~밤). 이번 세션은 저장소(gyucheol/news-desk)에 연결된 Claude Code 클라우드 세션이었고, 작업은 지정 브랜치 ccr-52978088-7rv2qu에 커밋·푸시했습니다(시작 때 직전 브랜치 claude/news-insight-request-error-khmgs4로 앞으로 감음). PR은 만들지 않았습니다. 직전 핸드오프는 HANDOFF-prev-2026-10-14-am.md입니다.
 
 ---
 
@@ -92,4 +92,7 @@
 
 ## 6. 압축 파일
 
-이번 세션에서는 아직 만들지 않았습니다. 사용자가 'handoff'를 요청하면 news-desk/(저장소 구조, .git 제외, work/live16 포함)와 이 문서 사본으로 만듭니다.
+news-desk-handoff-v15.zip
+- news-desk/: 저장소 구조(.git 제외). work/에는 live16(10월 15일 오전 기준 DB 사본: news 865, chains 22, meta, data/users/me — detailReq v51·reads v829로 변화 없음), dump8·sm8(10월 13~14일 회차 수집본), seen.txt·seen_urls.txt(10월 14일 회차 기준이라 다음 회차 전에 다시 만들 것).
+- scratch/: 시험 화면 스크립트 — req.js·chip.js·pdf/make.js(이전), chip66.js·v67.js·v67item.js·real.js·final.js(이번: 모의 데이터로 칩·입문·밸류체인 줄·산업 흐름 확인). 실행: NODE_PATH=$(npm root -g) node <스크립트> <desk/index.html> <모의 데이터 json> <스크린샷 접두어>. 모의 데이터 json은 python3 scratch/mkmock.py work/live16 <출력 json>으로 만듭니다(chip66.js만 뉴스 배열 json을 받음).
+- handoff.md: 이 문서 사본.

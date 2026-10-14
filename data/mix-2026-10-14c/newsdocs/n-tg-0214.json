@@ -1,0 +1,104 @@
+{
+ "basis": "verified",
+ "channel": "미국 주식 인사이더",
+ "check": "제미나이 4 아르곤 출시일·제공처(Gemini API 유료 등급·AI Studio·안드로이드 스튜디오, AI 울트라 구독자용 안티그래비티)·용도는 구글 블로그 본문으로 확인. 플레이스토어 비공개 등록(개발자 계정·25달러 등록비 불요, 검색·추천 비노출, 미국 등 일부 시장 18세 이상)은 검색 결과 요약(안드로이드폴리스·데이터코노미·테크브리플리)으로 확인. API 가격은 로이터 전재본에서만 봐 미확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 구글이 10월 13일 플래그십 모델 '제미나이 4 아르곤'을 내놓고 Gemini API 유료 등급(Google AI Studio)과 안드로이드 스튜디오에서 개발자가 바로 쓸 수 있게 했다 [사실]",
+  "용도: 구글은 아르곤을 실제 소프트웨어 개발, 기업 지식 업무, 사이버보안 방어의 복잡한 작업을 위한 최전선 모델로 소개했고, AI 울트라 구독자는 AI Studio와 에이전트 개발 플랫폼 '안티그래비티'에서 써 볼 수 있다 [사실]",
+  "플레이스토어: AI 스튜디오로 만든 바이브코딩 안드로이드 앱을 등록비 25달러의 개발자 계정 없이 개인 라이브러리에 비공개로 올릴 수 있고, 검색·추천에는 뜨지 않으며 미국 등 일부 시장의 18세 이상부터 적용된다 [사실]",
+  "가격: 출시 API 가격은 입력 100만 토큰당 2달러·출력 10달러이고 11월 30일 뒤 두 배가 된다고 전해졌다 [미확인]",
+  "기존: 구글 클라우드는 10월 8일 제미나이와 앤스로픽 클로드를 작업별로 골라 쓰는 기업용 범용 에이전트 'Gemini Agent'를 공개했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{구글}}, 기업 에이전트 이어 {{'제미나이 4 아르곤'}} 출시…{{바이브코딩 앱}} {{플레이스토어 허용}}",
+ "id": "n-tg-0214",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "구글 클라우드, 기업 업무용 범용 AI 에이전트 '제미나이 에이전트' 공개",
+   "u": "https://t.me/insidertracking/65748"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 카이에 de market",
+   "t": "구글 Gemini Agent 세부: 멀티에이전트·멀티모델·기업 시스템 통합",
+   "u": "https://t.me/cahier_de_market/10949"
+  },
+  {
+   "t": "구글, 개발자·기업용 플래그십 AI 모델 '제미나이 4 아르곤' 출시",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/",
+   "s": "{{구글}}이 플래그십 모델 {{'제미나이 4 아르곤'}}을 {{Gemini API}} 유료 등급과 {{안드로이드 스튜디오}}에 {{출시}}하면서 {{코딩·기업 지식 업무·보안}}의 복잡한 작업을 {{겨냥}}했다"
+  },
+  {
+   "t": "구글, 바이브코딩 앱 누구나 플레이스토어에 비공개 등록 허용",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/google-will-let-anyone-publish-privately-listed-vibe-coded-apps-on-play-store",
+   "s": "{{구글}}이 {{바이브코딩 앱}}을 25달러 {{개발자 계정 없이}} {{플레이스토어}}에 {{비공개로 올리게}} 하면서 AI로 만든 {{개인용 앱}}의 {{배포 문턱}}이 {{낮아졌}}다"
+  }
+ ],
+ "key": "mix-C023-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 214,
+ "one": "{{구글}}이 {{기업용 범용 에이전트}}에 이어 플래그십 모델 {{'제미나이 4 아르곤'}}을 {{개발자·기업}}에 내놓고, AI 스튜디오로 만든 {{바이브코딩 앱}}을 {{유료 개발자 계정 없이}} {{플레이스토어에 비공개로 올리게}} 하면서, {{AI로 만든 앱}}을 {{쓰는 문턱}}이 {{낮아지고}} 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T02:00:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65748"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "9to5Google",
+   "u": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "VentureBeat",
+   "u": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage"
+  },
+  {
+   "o": "구글 블로그",
+   "d": "2026-10-13",
+   "u": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+  },
+  {
+   "o": "안드로이드폴리스",
+   "d": "2026-10",
+   "u": "https://www.androidpolice.com/your-vibe-coded-android-apps-home-on-google-play/"
+  },
+  {
+   "o": "데이터코노미",
+   "d": "2026-10-14",
+   "u": "https://dataconomy.com/2026/10/14/google-play-private-vibe-coded-android-apps/"
+  },
+  {
+   "o": "테크브리플리",
+   "d": "2026-10-14",
+   "u": "https://techbriefly.com/2026/10/14/google-play-private-vibe-coded-android-apps/"
+  }
+ ],
+ "tags": [],
+ "title": "{{구글}}, 기업 에이전트 이어 {{'제미나이 4 아르곤'}} 출시…{{바이브코딩 앱}} {{플레이스토어 허용}}",
+ "updatedAt": "2026-10-15T07:54:15+09:00",
+ "url": "https://t.me/insidertracking/65748",
+ "added": "이번 로이터·블룸버그 각 1건으로 {{구글}}의 {{플래그십 모델 '제미나이 4 아르곤'}} {{출시}}와 {{바이브코딩 앱}}의 {{플레이스토어 비공개 등록 허용}}이 추가됐다"
+}

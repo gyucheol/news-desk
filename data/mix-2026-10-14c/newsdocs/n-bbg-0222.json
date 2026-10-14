@@ -1,0 +1,80 @@
+{
+ "added": "이번 로이터 1건으로 {{영향력 있는 힌두 단체}}가 {{머스크·암바니 갈등}} 속에 {{인도 정부}}에 {{스타링크 차단}}을 {{촉구}}했다는 내용이 추가됐다 (제목 기준)",
+ "basis": "title",
+ "check": "이번 로이터 글은 독립 출처를 찾지 못해 제목 기준(검색에 야후·더스타·아랍뉴스·트레이딩뷰 등 로이터 전재본만 나왔고 열지 않음). 단체 이름(SJM)·국가안보 논리·관세 연계는 로이터 전재본 검색 요약에만 있어 미확인. 기존 문서 사실은 기존 한줄 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 영향력 있는 힌두 단체가 머스크·암바니 갈등 속에 인도 정부에 스타링크 차단을 촉구했습니다 [제목]",
+  "단체·논리: 촉구한 곳은 집권 BJP의 이념적 모체인 RSS의 경제 단체 스와데시 자가란 만치(SJM)로, 비상시 인터넷 통제가 어려워진다는 국가안보 이유를 들고 미국의 고율 관세와도 연결했다고 전해졌습니다 [미확인]",
+  "기존 흐름: 머스크는 인도에서 스타링크를 저렴하게 내놓겠다고 했고, 릴라이언스의 지오 플랫폼은 1,060억 달러 가치를 목표로 인도 사상 최대 IPO를 준비하고 있습니다 [사실]",
+  "정부: 인도 정부는 차별을 부인하며 스타링크·지오 등 위성 사업자 3곳이 모두 최종 보안 승인을 기다린다고 했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{영향력 있는 힌두 단체}}, 인도에 {{스타링크 차단}} {{촉구}}…머스크·암바니 {{갈등}} 속",
+ "id": "n-bbg-0222",
+ "incentive": "",
+ "inds": [
+  "auto",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "머스크의 인도 구애, 스타링크·테슬라 정체 속 반목으로 끝나",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/musk-s-india-romance-ends-in-acrimony-as-starlink-tesla-stall"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{인도 정부}}가 {{암바니가 스타링크 출시를 막는다는 머스크의 주장}}에 {{독점은 없다}}고 반박하면서, {{위성 사업자 3곳 모두 보안 승인을 기다리는 상황}}이 드러났다",
+   "t": "인도, 머스크의 '암바니가 스타링크 출시 막아' 주장에 독점 부인",
+   "u": "https://www.reuters.com/business/media-telecom/india-rejects-monopoly-claim-after-musk-accuses-ambani-blocking-starlink-launch-2026-10-09/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{머스크}}가 {{지오의 사상 최대 IPO를 며칠 앞두고}} {{인도 스타링크를 저렴하게 내놓겠다고}} 밝히면서, {{가격은 내놓지 않았}}지만 {{지오와 정면 경쟁}}을 예고했다",
+   "t": "머스크, 암바니의 사상 최대 지오 IPO 앞두고 \"인도 스타링크 저렴하게\"",
+   "u": "https://www.reuters.com/business/media-telecom/musk-vows-affordable-starlink-india-days-before-ambanis-record-jio-ipo-2026-10-11/"
+  },
+  {
+   "t": "영향력 있는 힌두 단체, 머스크·암바니 갈등 속 인도에 스타링크 차단 촉구",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/india/influential-hindu-group-urges-india-block-starlink-amid-musk-ambani-feud-2026-10-13/",
+   "s": "{{영향력 있는 힌두 단체}}가 머스크·암바니 갈등 속에 {{인도 정부}}에 {{스타링크 차단}}을 {{촉구}}하면서 {{스타링크의 인도 진출}}에 {{정치적 부담}}이 {{커질}} 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C058-2026-10-09",
+ "nodes": [],
+ "num": 222,
+ "one": "{{머스크}}가 {{인도 스타링크를 저렴하게}} 내놓겠다며 {{암바니의 지오}}와 {{공방}}을 벌이는 가운데 {{영향력 있는 힌두 단체}}가 {{정부}}에 {{스타링크 차단}}을 {{촉구}}하면서, {{최종 보안 승인}}을 기다리는 {{스타링크}}의 {{인도 진출}}에 {{정치적 부담}}이 {{커질}} 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T21:59:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/09/musk-starlink-ambani-india-us.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "TechCrunch",
+   "u": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/economy/2026/10/11/musk-vows-affordable-starlink-in-india-as-he-escalates-feud-with-ambani"
+  }
+ ],
+ "tags": [],
+ "title": "{{영향력 있는 힌두 단체}}, 인도에 {{스타링크 차단}} {{촉구}}…머스크·암바니 {{갈등}} 속",
+ "updatedAt": "2026-10-15T07:54:15+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/musk-s-india-romance-ends-in-acrimony-as-starlink-tesla-stall"
+}

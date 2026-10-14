@@ -120,3 +120,34 @@
 - beef cow herd 28.5m head on 2026-07-01 (-1% y/y); replacement heifers +3% to 3.8m; 2026 calf crop 32.5m (-2%)
 - US beef consumption ~8% above 20-yr avg; USDA projects beef&veal prices +9.4% in 2026; USDA Sept outlook: 2027 food-at-home +1.8%, FAFH +2.6%
 - src: https://farmdocdaily.illinois.edu/2026/10/food-inflation-and-the-outlook-for-beef-prices.html
+
+## F3 FAO release 2026-10-02 (fetched)
+- FFPI 136.0 (+1.5% m/m, +5.8% y/y); cereals +5.1% m/m, +17.2% y/y; wheat +6.3% m/m (Black Sea logistics, N. America dryness); maize also supported by Hormuz shipping uncertainty boosting biofuel feedstock demand + lower Brazil export availability
+- veg oils +0.9%; sugar +6.1% (lower Thai output, smaller EU beet area; India below-normal rain, Brazil heavy rain, El Nino); meat -1.1% (pig/poultry ample); dairy -0.1%
+- 2026 world cereal production forecast 2,979mt, -2.1% vs 2025 (2nd largest on record); 2026/27 stocks-to-use 31.7% (from 32.0%)
+- src: https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en
+COUNT: agri WebSearch 10/14, WebFetch 3/5
+
+## S11 Fertilizer companies Q2 2026
+- Mosaic: Q2 net loss $273m, adj EBITDA $407m; sulfur availability/affordability; cut phosphate production; 2026 capex lowered to $1.2bn; Q3 sulfur contracts $705/long ton (Mosaic 8-K)
+- Nutrien (release 2026-08-05): Q2 net earnings $1.22bn, adj EBITDA $2.43bn; record H1 potash volumes; nitrogen adj EBITDA H1 $1.12bn up (higher benchmarks, lower gas cost); phosphate margins negative (sulfur); capex $1.95-2.05bn trimmed; N volume guidance 9.2-9.7mt
+- CF (8-K 2026-08-05): Q2 net earnings $727m ($4.73/sh), adj EBITDA $1.19bn; urea realized prices up sharply (tighter N balance, Iran-conflict supply disruptions); fundamentals constructive into 2027
+- src: Mosaic 8-K https://www.sec.gov/Archives/edgar/data/0001285785/000128578526000109/pressreleaseq22026-ex991.htm
+- src: Fertilizer Daily 2026-08-07 https://www.fertilizerdaily.com/20260807-nutrien-q2-2026-record-potash-earnings/
+- src: CF 8-K https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000017/cf-08052026_ex991xearnings.htm
+
+## S12 Palm oil (moderate value)
+- ~4,700 ringgit/t on 2026-10-14 (Trading Economics, not primary) ; Business Recorder (Oct 4?): Malaysian futures 6th straight session decline, lowest close in 12 weeks, weak exports, high inventory expectations
+- Dorab Mistry: 4,500-5,000 ringgit through Dec; higher stocks offset El Nino lower production next year
+- Malaysia palm oil council: inventories at 8-month high; biofuel economics supportive
+- Indonesia B50 rollout planned (June report) - status unconfirmed
+- src: Business Recorder https://www.brecorder.com/news/amp/40442512
+- src: OFI Magazine https://www.ofimagazine.com/news/palm-oil-prices-could-reach-us-1-500-tonne-as-b50-and-el-ni%C3%B1o-tighten-supply
+
+## S13 India monsoon 2026 (IMD, Business Standard 2026-09-30)
+- season 87% of LPA, weakest since 2015, 4th lowest since 2001; ~759.4mm vs ~868.6mm normal (~-12.6%)
+- South peninsula 76% LPA, East 74%; core zone 94%; June 65%, Aug 84% (Namanias)
+- IMD forecast path: 92% (Apr) -> 90% (late May), 60% chance deficient; El Nino 92% chance
+- sowing little affected except paddy, cotton, maize; dry spells Maharashtra & Karnataka -> yield concerns
+- src: Business Standard 2026-09-30 https://www.business-standard.com/industry/agriculture/2026-monsoon-ends-with-nearly-13-rain-deficit-worst-since-2015-imd-126093001389_1.html
+- src: Down To Earth https://www.downtoearth.org.in/climate-change/imd-revises-monsoon-forecast-to-90-of-lpa-60-chance-of-deficient-rainfall

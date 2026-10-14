@@ -13,7 +13,7 @@
 - 사용자 기준: 'AI 투자를 늘렸다'류(투자 약속·증액·데이터센터 건설·AI 자금 조달)는 쓰지 않고 skipped("AI 투자 증액"). 'AI 투자를 줄였다'류는 씁니다. 묶음 안 일부 글만 그런 것이면 그 글만 items에서 뺍니다.
 - 사용자 기준: 제약·바이오는 정책(약가·관세·규제 제도·의약품 수출입 규제·정부 조달)과 CDMO(위탁개발생산) 내용만 씁니다. 그 밖(개별 임상 결과, 품목 허가, 기술이전, 제약사 실적·인수합병, 바이오텍 자금 조달)은 skipped("제약·바이오 비정책").
 - 사용자 기준: 기술·통신(소프트웨어·인터넷·플랫폼·통신사·스마트폰·가전·게임) 뉴스는 쓰지 않고 skipped("기술·통신"). 반도체·AI 투자 축소류는 해당하지 않습니다.
-- 사용자 기준: 금융업(은행·증권·자산운용·헤지펀드·사모펀드·보험·핀테크·거래소·암호화폐 기업, 금융 감독·규제) 뉴스는 쓰지 않고 skipped("금융"). 중앙은행·금리·국채·환율·신용시장 같은 거시와 일본 보험(jpins) 산업 관련은 해당하지 않습니다.
+- 사용자 기준: 금융업(미국·한국·일본 은행 제외 — 이 나라들의 은행·은행지주의 실적·주가·자본·배당·인수합병·대출 부실, 직접 닿는 규제·감독은 씁니다, 10월 14일 지시. 그 밖의 나라 은행, 증권·자산운용·헤지펀드·사모펀드·보험·핀테크·거래소·암호화폐 기업, 금융 감독·규제) 뉴스는 쓰지 않고 skipped("금융"). 중앙은행·금리·국채·환율·신용시장 같은 거시와 일본 보험(jpins) 산업 관련은 해당하지 않습니다.
 - 사용자 기준: 항공·방산(항공사, 항공기·엔진 제조사, 방산 기업, 방산 수출·무기 계약) 뉴스는 쓰지 않고 skipped("항공·방산"). 전쟁·외교 자체와 관세·무역 협상은 해당하지 않습니다.
 - 사용자 기준: 자동차(완성차·부품·전기차·자율주행 업체) 뉴스는 쓰지 않고 skipped("자동차"). 관세·무역 협상과 배터리 소재·리튬 같은 금속은 해당하지 않습니다.
 - 사용자 기준: 농산물(곡물·축산·커피·코코아·설탕 등 시세·작황·수급, 농업·식품 원료 기업) 뉴스는 쓰지 않고 skipped("농산물"). 관세·무역 협상 자체와 비료는 해당하지 않습니다.
@@ -55,7 +55,7 @@
 - 시각 순서(오래된 것 먼저). 기존 문서의 기사는 넣지 않습니다(합칠 때 자동으로 앞에 붙음). 묶음 파일의 주소만 씁니다.
 
 ## 3. 산업·노드
-- inds·nodes는 9개 산업 id를 씁니다. 해당이 없으면 inds에 새 분야 id 하나만(pharma consumer shipping realestate industrial metals) 넣고 nodes는 빈 배열.
+- inds·nodes는 9개 산업 id를 씁니다. 해당이 없으면 inds에 새 분야 id 하나만(pharma fin consumer shipping realestate industrial metals; fin은 미국·한국·일본 은행) 넣고 nodes는 빈 배열.
 - uranium: mining conversion enrichment fabrication physical operators build policy / drilling: rigs capex services subsea fpso osv octg yards / gas: upstream midstream liquefaction shipping regas trade demand / coal: thermal met logistics trade power steel policy / power: demand gen grid storage wind modules polysilicon developers market / petchem: feedstock cracker commodity specialty demand policy / jpins: underwriting reinsurance assets rates capital securities regulation demand / beauty: brands odm materials packaging channels exports / macro: cb rates fiscal inflation growth fx liquidity commodity geo semis
 - nodes는 "macro/rates"처럼. 반도체·AI는 inds ["macro"], nodes ["macro/semis"]. inds에는 nodes에 쓴 산업을 모두 넣습니다.
 

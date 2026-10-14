@@ -89,3 +89,24 @@
 - 삼성중공업 상선 44척 75억(목표 57억의 132%), 해양 FLNG 2기 44억(목표 82억의 54%), 합계 119억(목표 139억의 86%)
 - 한화오션 목표 비공개; VLCC 18, LNG선 8, 컨테이너선 6, 암모니아운반선 3, 대형가스운반선 3, 해상풍력설치선 1 등 41척 77.1억 달러; 9월에만 약 2.9조 원 (허프포스트코리아 https://www.huffingtonpost.kr/article/260862)
 - energy carriers (LNG, VLCC, VLGC) dominate
+## WF1: splash247 boxship orderbook -> HTTP 403 (blocked, counted)
+## WF2: g-enews 2026-09-30 (confirmed)
+- 3사 누적 383.2억 달러; HD KSOE 169척 187.1억(목표 233.1억의 80.3%, 지난해 연간 185.5억 3분기 만에 초과; LNG 17, 컨테이너 30, LPG·암모니아·LCO2 52, PC선 53)
+- 삼성중공업 상선 44척 75억(상선 목표 57억의 132%), 전체 119억(목표 139억의 86%, FLNG 2기 44억 포함); 9월 VLGC 2척 3,074억 원
+- 한화오션 41척 77.1억(VLCC 18, LNG선 8); 9월 약 2.9조 원(VLGC 3, LNG 이중연료 컨테이너선 6, LNG선 2)
+- 클락슨리서치 1~8월 세계 발주 5,972만 CGT(+61%); 한국 938만 CGT(+55%); 상반기 3사 영업이익 4조 7,764억 원
+## WF3: Breakwave tanker 1H (2026-09-02, confirmed)
+- VLCC newbuild ~$130m (+~5% y/y); 5-yr ~$151m (+~30%); resale ~$178m (+$48m vs NB); 20-yr $71.1m (+~90%); scrap $20.8m
+- Jan-Jul 2026: 339 tanker NB contracts vs 193 deliveries, 6 cancellations; VLCC 139 contracted (42.59m dwt), net +120; Suezmax net +45
+- tanker orderbook 1,127 (131.42m dwt) -> 1,267 (173.32m dwt); OB/fleet 20.1% by vessels, 25.0% by capacity
+- 1,515 vessels (149.78m dwt) >=20 yrs incl VLCC 52.01m dwt; 21 recycled; "5-yr values above NB strengthen case for ordering"
+## WF4: Riviera 2026-05-06 (confirmed)
+- Linerlytica record orderbook 13M TEU, 38.3% (post-GFC high); BIMCO mid-March 11.8M TEU; Xclusiv ULCV >70%, Neo-Panamax 34%, feeder ~15%, Handy >22%
+- Jan-Apr 2026 contracts >1.9M TEU (2025 record 5.1M TEU); 2028 firm deliveries 5.2M TEU, expected >5.5M TEU
+## WF5: Baltic Exchange weekly 2026-10-09 via The Edge Malaysia (Baltic owns IP; not wire)
+- LNG: BLNG1 $34,600 (-2,300); BLNG2 $21,200 (-4,900); BLNG3 $52,100 (-4,200)
+- LPG: BLPG1 $265.00/t TCE $258,182; BLPG2 $190.83/t (+18) TCE $227,905; BLPG3 $344.71/t (+22) TCE $214,030
+- capesize 5TC $43,833 (Mon) -> $39,363 (Fri); Atlantic weakness > Pacific recovery
+- tankers: TD3C WS1,318.75 (+115) TCE $1,412,594/day; TD34 WS841.07 TCE $912,660; TD15 WS750.63 TCE $763,031; TD22 lumpsum $79,611,111 (+$24.8m) TCE $637,675
+## COUNTS (shipping): WebSearch 14/14, WebFetch 5/5 (1 blocked: splash247)
+## DECISIONS: cycle stage 2 (중간); node stages newbuild 2, tankers 2, drybulk 2, containers 2, gascarrier omitted (LNG 3 / VLGC boom); split 2 vs 3

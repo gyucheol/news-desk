@@ -151,3 +151,17 @@ COUNT: agri WebSearch 10/14, WebFetch 3/5
 - sowing little affected except paddy, cotton, maize; dry spells Maharashtra & Karnataka -> yield concerns
 - src: Business Standard 2026-09-30 https://www.business-standard.com/industry/agriculture/2026-monsoon-ends-with-nearly-13-rain-deficit-worst-since-2015-imd-126093001389_1.html
 - src: Down To Earth https://www.downtoearth.org.in/climate-change/imd-revises-monsoon-forecast-to-90-of-lpa-60-chance-of-deficient-rainfall
+
+## S14 Corteva (Q2 2026)
+- raised 2026 operating EBITDA guidance to $4.1-4.3bn, op EPS $3.60-3.80 (from $4.0-4.2bn)
+- Q2 crop protection sales ~$1.85bn vs ~$1.92bn (price -4%, competitive pricing LatAm); segment op EBITDA +2% to $342m; H2 pricing down low-mid single digit (reported); CP volume +HSD in H2
+- src: Corteva Q2 8-K https://www.sec.gov/Archives/edgar/data/0001755672/000175567226000022/a2q_2026xearningsxnewsxr.htm
+- src: Globe and Mail https://www.theglobeandmail.com/investing/markets/stocks/CTVA/pressreleases/4048033/corteva-boosts-guidance-amid-pricing-and-brazil-risks/
+
+## F4 WTO blog -> 402 (failed)
+## F5 Fertilizer Daily 2026-07-24 (Kim Clarksen, citing WTO data blog 2026-07-10) (fetched)
+- Hormuz normally ~1/3 of global seaborne fertilizer trade: 34% urea, 23% ammonia, ~20% phosphate exports; 44% seaborne sulfur (FAQ)
+- urea pre-war ~$400/t; peak >$850/t April 2026; June ~$453/t ("close to the pre-conflict baseline"); DAP ~$580 -> ~$770/t, slower to retreat
+- China reopened urea exports in June ($660/t floor); recovery due to partial resumption of shipping
+- src: https://www.fertilizerdaily.com/20260724-strait-of-hormuz-fertilizer-trade-wto-urea-prices-recovery/
+COUNT FINAL: agri WebSearch 14/14, WebFetch 5/5 (1 failed 402)

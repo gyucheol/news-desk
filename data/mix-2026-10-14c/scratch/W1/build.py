@@ -318,6 +318,115 @@ ITEMS.append({
  ]
 })
 
+# ---------------- C034 ----------------
+ITEMS.append({
+ "cid": "C034", "attachTo": "n-bbg-0279",
+ "title": "{{레저}}, {{9,000만 달러}} 스파이칩 피해에 {{동남아·홍콩 재판매 중단}}…{{지갑 유통망}} {{재정비}} 확산",
+ "one": "{{레저}}가 {{약 9,000만 달러 피해}}를 낸 스파이칩 이식 사건 뒤 {{동남아·홍콩 재판매상}}에 {{판매 중단}}을 요청하고 {{변조 방지 대책}}을 {{재검토}}하는 가운데 {{원키·트레저}}도 판매처 관계를 {{끊거나 점검}}하면서, {{하드웨어 지갑 유통}}이 {{공식 경로 중심}}으로 {{재편될}} 수 있다",
+ "facts": [
+  "무엇이: 레저가 약 9,000만 달러 피해를 낸 하드웨어 이식 공격 뒤 재판매상·판매 통제와 변조 방지 장치를 재검토하고 있다 [사실]",
+  "판매 중단: 레저는 인도네시아·싱가포르·태국·필리핀·베트남·말레이시아·홍콩 재판매상에 판매 중단을 요청하고 공식 경로로만 재고를 들이며 반품 기기를 다시 팔지 말라고 했고, 직접 판매 기기는 피해가 없다고 밝혔다 [사실]",
+  "한계: 레저는 정품 인증 기능(Genuine Check)이 보안칩을 건드리지 않고 덧붙인 하드웨어는 잡아내도록 설계되지 않았다고 인정했다 [사실]",
+  "확산: 독일 미디어마크트가 레저 제품을 매장·온라인에서 내렸고, 원키·트레저도 일부 판매처와의 관계를 중단하거나 재검토하고 있다 [사실]",
+  "기존: 원키는 10월 12일 변조 기기를 판 크립토빌리스의 판매 권한을 취소하고 3월 1일~10월 12일 구매 기기를 12월 31일까지 무상 교체하기로 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "레저의 판매 정책·변조 방지 재검토, 동남아·홍콩 재판매상 판매 중단 요청과 재고·반품 지침, 직판 피해 없음, Genuine Check 한계, 미디어마크트 철수, 원키·트레저 대응은 검색 결과 요약(쿼츠·톰스하드웨어·코인데스크·PYMNTS·크립토브리핑)으로 확인. 피해액은 7,200만~9,320만 달러로 출처마다 다르고 레저는 총액을 확인하지 않음.",
+ "src": [
+  {"o": "쿼츠", "d": "2026-10-14", "u": "https://qz.com/ledger-reseller-controls-spy-chip-crypto-theft-101426"},
+  {"o": "톰스하드웨어", "d": "2026-10", "u": "https://www.tomshardware.com/tech-industry/cryptocurrency/ledger-to-review-sales-and-anti-tamper-policies-after-usd93-million-hardware-wallet-supply-chain-attack-rogue-lte-implants-reportedly-stole-users-recovery-phrases"},
+  {"o": "코인데스크", "d": "2026-10-13", "u": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"},
+  {"o": "PYMNTS", "d": "2026-10", "u": "https://www.pymnts.com/cryptocurrency/2026/ledger-suspends-southeast-asian-resellers-during-90-million-crypto-wallet-hack-investigation/"}
+ ],
+ "inds": ["fin"], "nodes": [],
+ "added": "이번 블룸버그 1건으로 {{레저}}가 {{약 9,000만 달러 피해}} 뒤 {{동남아·홍콩 재판매상 판매}}를 {{멈추게}} 하고 {{판매 정책·변조 방지 대책}}을 {{재검토}}한다는 내용이 추가됐다",
+ "items": [
+  {"t": "9,000만 달러 스파이웨어 해킹에 암호화폐 지갑 판매 방식 재검토", "o": "블룸버그", "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/ledger-to-review-sale-policies-after-crypto-spyware-attack",
+   "s": "약 {{9,000만 달러}} {{스파이웨어 해킹}}이 {{레저}}의 {{판매 정책 재검토}}로 이어지면서 {{동남아·홍콩 재판매상}}의 레저 {{판매}}가 {{멈췄}}다"}
+ ]
+})
+
+# ---------------- C038 ----------------
+ITEMS.append({
+ "cid": "C038", "attachTo": "n-tg-0225",
+ "title": "{{中 완성차}} 유럽 현지화 {{금융까지}}…{{BYD 덴자}}, {{BMW·벤츠}} 겨냥 {{금융 법인 검토}}",
+ "one": "{{BYD}}가 {{유럽 인력}}을 {{2030년 4만 명 넘게 늘리}}고 {{샤오펑}}이 {{유럽 연 50만 대}}를 {{목표}}로 한 데 이어, BYD 고급 브랜드 {{덴자}}가 {{BMW·벤츠}}에 맞서 {{자체 자동차금융 법인}}을 {{이르면 2027년}} 세우는 방안을 {{검토}}하면서, {{유럽 경쟁}}이 {{차 판매·기술}}에서 {{금융 서비스}}로 {{넓어질}} 전망이다",
+ "facts": [
+  "무엇이: BYD 고급 브랜드 덴자가 BMW·메르세데스벤츠에 맞서 이르면 2027년 유럽에 자체 자동차금융 법인을 세우는 방안을 검토하고 있다 [사실]",
+  "미정: 금융 법인의 지분 구조·제휴 은행·첫 시장과 인가 신청 일정은 공개되지 않았다 [사실]",
+  "BYD: 유럽 인력을 1만여 명에서 2030년 4만 명 넘게 늘리고, 헝가리 첫 공장은 4분기 본격 생산한다 [사실]",
+  "샤오펑: 허샤오펑 회장은 2030년 유럽 연 50만 대 판매를 목표로 마그나와 증산을 논의 중이다 [사실]",
+  "샤오펑 기술: 유럽에 맞춘 차량 자율주행 시스템을 빠르게 적용할 수 있다고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "덴자의 유럽 자동차금융 법인 검토(이르면 2027년, BMW·벤츠 겨냥)는 검색 결과 요약(아라비안포스트·구루포커스)으로 확인했으나 둘 다 2차 보도이고, 회사 공식 발표와 지분 구조·제휴 은행·첫 시장은 확인 못 함. 샤오펑 자율주행 적용은 기존 문서대로 제목 기준.",
+ "src": [
+  {"o": "아라비안포스트", "d": "2026-10", "u": "https://thearabianpost.com/denza-considers-european-financing-arm-for-premium-cars/"},
+  {"o": "구루포커스", "d": "2026-10-13", "u": "https://www.gurufocus.com/news/9120942/byds-tengshi-plans-european-auto-financing-to-compete-with-luxury-brands"}
+ ],
+ "inds": ["auto"], "nodes": [],
+ "added": "이번 블룸버그 1건으로 {{BYD 고급 브랜드 덴자}}가 {{BMW·벤츠}}에 맞서 {{유럽 자동차금융 법인}}을 {{이르면 2027년}} {{세우는 방안}}을 {{검토}}한다는 내용이 추가됐다",
+ "items": [
+  {"t": "BYD 덴자, BMW·벤츠 겨냥 유럽 자동차금융 법인 검토", "o": "블룸버그", "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/byd-s-denza-eyes-europe-car-finance-unit-to-rival-bmw-mercedes",
+   "s": "{{BYD 덴자}}가 {{BMW·벤츠}}에 맞설 {{유럽 자체 자동차금융 법인}}을 {{검토}}하면서 {{중국 고급차}}의 {{유럽 경쟁}}이 {{차 판매}}에서 {{금융 서비스}}로 {{넓어질}} 수 있다"}
+ ]
+})
+
+# ---------------- C042 ----------------
+ITEMS.append({
+ "cid": "C042", "attachTo": "",
+ "title": "{{인도 ICICI생명}}, 7~9월 {{순이익 25% 증가}}…보험료 수입 {{16.6%}} 늘어",
+ "one": "{{인도 ICICI생명}}이 7~9월 {{순보험료 수입}}을 {{16.6% 늘리}}면서 단독 {{순이익}}이 {{37억 4,220만 루피}}로 {{약 25% 늘었}}고, 앞으로의 이익 기반인 {{신계약 가치}}도 {{20.7% 증가}}했다",
+ "facts": [
+  "무엇이: 인도 ICICI생명(옛 ICICI프루덴셜생명)의 7~9월(2027 회계연도 2분기) 단독 순이익이 37억 4,220만 루피로 1년 전보다 약 25% 늘었다 [사실]",
+  "보험료: 순보험료 수입은 1,380억 3,900만 루피로 16.6% 늘었다 [사실]",
+  "신계약: 신계약 가치(VNB)는 71억 2,000만 루피로 20.7%, 연환산 보험료(APE)는 279억 9,000만 루피로 16.6% 늘었다 [사실]",
+  "기타: 순이익은 직전 분기보다 약 3.1% 줄었고, 회사는 출범 25년을 맞아 사명을 ICICI생명보험으로 바꿨다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "순이익(37억 4,220만 루피, 약 25% 증가), 순보험료(1,380억 3,900만 루피, 16.6%), VNB(71억 2,000만 루피, 20.7%), APE(279억 9,000만 루피, 16.6%), 직전 분기 대비 감소, 사명 변경은 검색 결과 요약(프리프레스저널·지비즈·업스톡스·칼킨)으로 확인. 발표 뒤 주가는 상승·하락 보도가 엇갈려 쓰지 않음.",
+ "src": [
+  {"o": "프리프레스저널", "d": "2026-10-13", "u": "https://www.freepressjournal.in/business/icici-life-insurance-q2-fy27-profit-rises-25-to-37422-crore-net-premium-income-up-17"},
+  {"o": "지비즈", "d": "2026-10-13", "u": "https://www.zeebiz.com/companies/news-icici-life-insurance-q2-results-standalone-pat-rises-25-to-rs-374-crore-gross-premium-income-up-16-403842"},
+  {"o": "업스톡스", "d": "2026-10", "u": "https://upstox.com/news/market-news/stocks/icici-life-insurance-shares-gain-3-as-q2-fy-27-vnb-soars-21-yo-y-here-s-what-analysts-said/article-201822/"}
+ ],
+ "inds": ["fin"], "nodes": [],
+ "items": [
+  {"t": "인도 ICICI생명보험, 보험료 수입 늘어 분기 순이익 증가", "o": "로이터", "d": "2026-10-13",
+   "u": "https://www.reuters.com/legal/litigation/indias-icici-life-insurance-profit-rises-higher-premium-income-2026-10-13/"}
+ ]
+})
+
+# ---------------- C046 ----------------
+ITEMS.append({
+ "cid": "C046", "attachTo": "n-rtr-0032",
+ "title": "{{항공유 부담}}에 {{약한 항공사 파산 위기}}…{{위즈에어}}, 이들 {{슬롯 인수}} 위해 공항과 협의",
+ "one": "{{항공유 가격 급등}}에 {{델타항공}}이 {{이익 전망}}을 {{낮춘}} 데 이어 {{약한 항공사들}}이 {{이번 겨울 파산}}할 수 있다는 분석이 나오면서, {{위즈에어}}가 {{유럽 공항들}}과 {{파산 위험 항공사의 슬롯}}을 {{넘겨받는 협의}}에 나서 {{살아남은 항공사}} 중심으로 {{공급}}이 {{재편될}} 수 있다",
+ "facts": [
+  "무엇이: 위즈에어의 오웨인 존스 최고기업책임자가 10월 13일 리스본 세계항공페스티벌에서 파산 위험 항공사들이 내놓을 수 있는 슬롯을 넘겨받으려 유럽 공항들과 협의하고 있다고 밝혔다 [사실]",
+  "배경: 높은 항공유 가격과 지정학 불확실성으로 약한 항공사들이 이번 겨울 파산할 수 있다는 분석이 나오며, 이 경우 노선과 슬롯이 강한 경쟁사로 넘어간다 [사실]",
+  "경쟁: 라이언에어 오리어리 CEO도 9월 말 비슷한 전략을 밝혔고, 라이언에어는 에어발틱의 파산보호(챕터 11) 신청 뒤 발트 지역에서 확장하고 있다 [사실]",
+  "위즈 계획: 위즈는 이탈리아에서 확장하고 몇 주 안에 스페인에 새 기지를 연다 [사실]",
+  "기존: 델타항공은 연료비가 60억 달러 늘 것으로 보고 올해 조정 EPS 전망을 6.50~7.50달러에서 5.10~5.60달러로 낮췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "위즈에어의 슬롯 협의(오웨인 존스, 10월 13일 리스본), 항공유·지정학 배경과 겨울 파산 가능성, 라이언에어의 비슷한 전략과 에어발틱 파산보호 뒤 발트 확장, 이탈리아 확장·스페인 새 기지는 검색 결과 요약(에어로하베르·에이비에이션비즈니스뉴스·칼킨미디어)으로 확인. 세부 일부는 로이터 기사를 옮긴 보도에 기대고, 위즈는 특정 항공사나 슬롯 거래를 밝히지 않음.",
+ "src": [
+  {"o": "에이비에이션비즈니스뉴스", "d": "2026-10", "u": "https://www.aviationbusinessnews.com/low-cost/latest-news-low-cost/wizz-air-eyes-distressed-competitors-slots"},
+  {"o": "에어로하베르", "d": "2026-10-13", "u": "https://aerohaber.com/wizz-air-in-talks-with-airports-to-take-over-slots-from-carriers-at-risk-of-bankruptcy/"},
+  {"o": "칼킨미디어", "d": "2026-10", "u": "https://kalkinemedia.com/uk/stocks/consumer/why-is-wizz-air-lsewizz-stock-in-focus-today-after-talks-to-take-over-slots-from-struggling-carriers"}
+ ],
+ "inds": ["aero"], "nodes": [],
+ "added": "이번 로이터 1건으로 {{위즈에어}}가 {{파산 위험 항공사}}가 {{내놓을 슬롯}}을 {{넘겨받으려}} {{유럽 공항들과 협의}}한다는 내용이 추가됐다",
+ "items": [
+  {"t": "위즈에어, 파산 위험 항공사 슬롯 넘겨받으려 공항들과 협의", "o": "로이터", "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/wizz-air-talks-with-airports-take-over-slots-carriers-risk-bankruptcy-2026-10-13/",
+   "s": "{{위즈에어}}가 {{파산 위험 항공사}}의 공항 {{슬롯}}을 {{넘겨받으려}} 공항들과 {{협의}}하면서 {{중동부 유럽}}에서 {{라이언에어}}와의 {{슬롯 경쟁}}이 {{커지고}} 있다"}
+ ]
+})
+
 # ---- MORE ----
 
 if __name__ == '__main__':

@@ -61,3 +61,38 @@
 - Baker Hughes week ending 2026-10-09: US oil rigs +6 to 462 (+44 y/y); gas rigs +12 y/y; total 603 (vs 547 yr ago); Permian +4 to 274; US total 588 (Sep 4) -> 603
 - commentary: producers expanding in established regions but avoiding aggressive rig additions of past cycles (VT Markets-type commentary)
 - urls: https://rigzone.com/news/north_america_adds_rigs_for_3_straight_weeks_bh_count_shows-12-oct-2026-184827-article ; https://energynow.com/2026/10/u-s-rig-count-climbs-above-600-as-oil-drilling-leads-weekly-increase/ ; https://www.vtmarkets.com/en-asia/live-updates/us-oil-rig-count-rises-to-462-signalling-modest-expansion-in-drilling-activity/
+## WS10: Gulf exports/Hormuz (search summary)
+- Kpler: Gulf crude+condensate exports ex-Iran >= 16.5 mb/d (Sep 1-28, 2026) = pre-war benchmark (energynews.pro / euronews 2026-10-05)
+- Vortexa: Gulf crude flows ex-Iran >81% of pre-war (mainly Saudi)
+- Kpler (CNBC 2026-09-30): crude via Hormuz 7-day avg 13.5 mb/d as of Sep 28 = prewar baseline; crude+products via Hormuz ~80% of ~17 mb/d baseline (14.2 mb/d); products via Hormuz 677,000 b/d vs 3.6 mb/d prewar
+- Kpler: 40% of exports bypass Hormuz vs 17% prewar; Saudi East-West pipeline shut Sep 11, resumed Sep 22
+- Vortexa (BigGo): Iranian seaborne crude exports zero from 2nd week Sept, not recovered as of Oct 5; ~83 mb Iranian crude stranded on tankers; Iran LPG exports -48% m/m Sept; Russian exports +6% Sept (title)
+- urls: https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html ; https://www.euronews.com/2026/10/05/middle-east-oil-exports-return-to-pre-war-levels-excluding-iran ; https://energynews.pro/en/kpler-gulf-crude-exports-excluding-iran-return-to-pre-war-levels ; https://finance.biggo.com/news/a4c0cd3e-c18d-4415-bc1d-94039139b4c6 ; https://www.cnbc.com/2026/09/25/saudi-arabia-oil-iran-war-pipeline-strait-hormuz-red-sea-houthis.html ; https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable
+## WS11: Russia revenues (search summary)
+- Sept oil & gas revenue ~452.4bn RUB (+6.7% m/m, -22.3% y/y) (The Moscow Times 2026-10-05); MinFin shortfall ~10bn vs expectations
+- fuel damper payments 197.3bn -> 305.5bn RUB in Sept; consumed rise in MET (807bn RUB)
+- Jan-Sep 5.47tn RUB (-17.2%); MinFin cut 2026 oil&gas revenue forecast by 1.3tn to 7.58tn RUB
+- reduced refining volumes due to refinery damage; rising fuel imports (subsidised)
+- Oct: additional oil&gas revenue projected 289.5bn RUB
+- urls: https://www.themoscowtimes.com/2026/10/05/russias-currency-buying-spree-set-to-pressure-ruble-as-oil-revenues-rise-a93878 ; https://www.pravda.com.ua/eng/news/2026/10/05/8056530/ ; https://english.nv.ua/business/russia-cuts-2026-oil-and-gas-revenue-forecast-after-22-3-september-plunge-50647249.html ; https://www.newsquawk.com/headlines/russia-cuts-oil-and-gas-revenues-estimate-for-2026-to-rub-76tln-from-rub-89tln-previously
+- (skip The Insider item attributed to Reuters)
+## WS12: China imports Sept 2026 (search summary)
+- customs: Sept crude imports 37.1 Mt, -2.2% m/m tonnage (Trading Economics; newsquawk headline "down 2.2% from August")
+  urls https://tradingeconomics.com/china/crude-oil-imports ; https://www.newsquawk.com/headlines/china-september-crude-oil-imports-were-down-22-from-august
+- 9.03 mb/d, +1.1% daily rate m/m, -21.5% y/y; 9M 357.97 Mt (9.57 mb/d, -15.3%) -> appears from brecorder (likely wire reprint) -> DO NOT USE
+- Kpler 7.84 mb/d (Aug 7.25, yr ago 9.76); Vortexa seaborne 7.6 (yr ago 9.9); Vortexa onshore crude stock draw 57 mb, Kpler 47.5 mb in Sept -> source unclear (bairdmaritime?) -> avoid
+- CNBC 2026-10-14: China exports & imports beat expectations in Sept
+## WS13: EPA RFS (search summary)
+- 2026-10-13 EPA proposed reallocating 100% of additional 2025 SRE volume into 2026 & 2027 obligations; comments due Dec 4, 2026; two options: split evenly 2026/2027 or all to 2027
+- Aug 31, 2026 decisions on 34 petitions: 18 full, 11 partial (50%), 3 denied, 2 ineligible; 1.76bn exempted RINs vs ~990m projected -> ~770m RINs at issue
+- may need to extend 2026 compliance deadline (Mar 31, 2027); RFA welcomed reallocation
+- urls: https://www.epa.gov/newsreleases/while-iowa-administrator-zeldin-proposes-100-reallocation-additional-2025-small ; https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/10/13/epa-proposes-reallocating-refinery ; https://www.epa.gov/newsreleases/epa-announces-action-2025-small-refinery-exemptions-and-related-actions
+- (avoid WTVB = wire reprint; API reaction from there)
+## WS14: IEA emergency stocks (search summary) -- OIL SEARCH BUDGET EXHAUSTED (14/14)
+- 2026-10-07 IEA member governments meeting: backed accelerating releases under March 2026 Collective Action, prioritising diesel (IEA ED statement)
+- ~325 mb released under March 2026 Collective Action; remaining pledges ~100 mb (Euronews 10-03 says 75 mb still to come -> inconsistent)
+- March 2026 = "largest ever oil stock release" (IEA); 400 mb (StanChart) / 426 mb pledged (tracker)
+- IEA members still hold ~1.1bn bbl incl. >200 mb diesel; review at Oct 15 governing board
+- G7: 100 mb over four months incl. frontloaded diesel release within first 20 days
+- Korea MOTIR: joined March collective action, releasing 22.46 mb
+- urls: https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026 ; https://english.news.cn/20261007/6cb97e800a1f462386424ecb38fc7d09/c.html ; https://www.rigzone.com/news/iea_members_support_oil_stock_release_acceleration-09-oct-2026-184812-article/ ; https://fortune.com/2026/10/12/global-emergency-oil-stocks-iea-strategic-petroleum-reserve-gao/ ; https://www.iea.org/news/iea-member-countries-to-carry-out-largest-ever-oil-stock-release-amid-market-disruptions-from-middle-east-conflict ; https://www.euronews.com/2026/10/03/iea-says-325-million-barrels-of-emergency-oil-released-with-75-million-still-to-come

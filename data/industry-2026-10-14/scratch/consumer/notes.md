@@ -72,3 +72,42 @@
 - src: casino.org https://www.casino.org/news/macau-losing-streak-hits-four-months-september/
 - src: ASGAM https://asgam.com/2026/10/01/macau-ggr-down-1-2-year-on-year-to-mop18-1-billion-in-september/
 - desk: China Golden Week domestic trips 826m, spend CNY738.4bn; daily avg trips +6.3%, spend +4.3% (A News https://www.anews.com.tr/world/2026/10/09/chinas-national-day-holiday-tourism-spending-reaches-1101b) [n-tg-0204]
+
+## S9 P&G FY2027 guidance (FY26 results, late July 2026)
+- FY27 organic sales +1~3% (incl 30-50bp headwind from brand/form/go-to-market discontinuations)
+- core EPS $6.89-7.11 (flat to +3% from $6.89); GAAP EPS +1~5% from $6.62
+- ~$1bn after-tax costs from raw materials, energy, transportation (mostly 1H)
+- FY26 Q4 net sales $21.2bn missed (yahoo -> avoid); FY26 tariff cost ~$800m after-tax
+- src: P&G release https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/
+- src: SEC 8-K https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000093/fy2526q4amj8-kexhibit991.htm
+- desk: EU approved KMB-Kenvue 10-13 with EEA feminine care divestiture to Dilek Group (GuruFocus https://www.gurufocus.com/news/9121071/european-commission-approves-kimberlyclarks-acquisition-of-kenvue-with-conditions-kmb) deal $40bn or $48.7bn [n-rtr-0295]
+
+## S10 US CPI food (BLS)
+- Aug 2026 CPI (released 2026-09-11): food at home 0.0% m/m SA, +2.2% y/y; (farmdoc: beef&veal +5.9%, fish +6.5%, eggs -23.0%, nonalc bev +3.7% — likely Aug; verify)
+- Sept 2026 CPI (BLS cpi.htm "2026 M09 Results"): food at home +0.1% m/m SA, +1.8% y/y; coffee +7.1% y/y — release date unknown
+- src: BLS Aug archive https://www.bls.gov/news.release/archives/cpi_09112026.htm
+- src: farmdoc daily 2026-10 https://farmdocdaily.illinois.edu/2026/10/food-inflation-and-the-outlook-for-beef-prices.html
+
+## S11 China retail sales Aug 2026 (NBS, 2026-09-15)
+- +0.4% y/y (CNY3,982.4bn), slowest since growth resumed; July +0.6%; ex-auto +2.5%; Jan-Aug +1.1%
+- autos -18.5%; appliances/AV +2.3%; communication equip +27.3%; catering +1.1%; jewelry -17.5%
+- NBS blamed extreme weather & global energy volatility; Goldman: trade-in subsidy pull-forward now a drag
+- src: NBS https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html
+- src: CNBC https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html
+- src: Caixin https://www.caixinglobal.com/2026-09-15/chinas-august-retail-sales-barely-grow-as-auto-slump-deepens-102485121.html
+
+## S12 Korea CCSI Sept 2026 (BOK, 2026-09-23)
+- CCSI 106.6 (+2.1p); Jul 106.8 -> Aug 104.5 -> Sep 106.6; 5 of 6 components up (not current living conditions)
+- household income outlook CSI 102 (+2), current economic judgment 83 (+4); rate-level outlook 128 highest since Oct 2023
+- BOK: smaller stock-market swings + solid real economy -> income expectations; semis exports
+- src: 전자신문 https://www.etnews.com/20260923000012
+- src: 머니투데이 https://www.mt.co.kr/economy/2026/09/23/2026092217321423880
+
+## S13 Wine supply destruction (California)
+- >38,000 acres removed Oct 2024–Aug 2025 (CA 2025 acreage study), ~477,000 acres left; ~40,000 more acres est. removed in 2026 (industry estimate)
+- balance ~425k (Ekman) or <400k acres (Allied Grape Growers' Jeff Bitter); balance likely 2027-2028 (Bitter)
+- unpicked grapes: ~400k tons 2024; ~820k tons "last year" (~quarter of crop) - date ambiguous, avoid
+- src: Farm Progress https://www.farmprogress.com/grapes/california-on-track-to-raze-another-40-000-acres-of-vineyards
+- src: Vinetur 2026-10-05 https://www.vinetur.com/en/20261005108307/california-growers-removed-38000-vineyard-acres-prompting-fears-of-a-future-shortage.html
+- src: Ag Alert 2026-02-11 https://www.agalert.com/california-ag-news/archives/february-11-2026/grape-glut-lessens-as-growers-scrap-vines
+- no whiskey/bourbon distillery pause data found

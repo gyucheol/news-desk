@@ -59,3 +59,11 @@ S11 WebSearch: PE Q3 2026
 S12 WebSearch: stablecoins / GENIUS Act (secondary sources only)
    The Market Periodical 2026-08-18 https://themarketperiodical.com/2026/08/18/us-treasury-proposes-genius-act-rules-for-stablecoin-issuers/ Treasury proposed rules Aug 17; GENIUS effective 2027-01-18
    Asianet (StanChart) https://newsable.asianetnews.com/markets/standard-chartered-says-usdc-faces-competition-in-payments-delays-2t-stablecoin-forecast-articleshow-ifglq0g supply stuck $300-320B for 12 months, ~ $309B; date unknown
+S13 WebSearch: Goldman 3Q26 (SEC 8-K 2026-10-13)
+   https://www.sec.gov/Archives/edgar/data/0000886982/000088698226000529/a3q26gsearningsresults.htm
+   net rev $18.7B; EPS $17.01; ROE 18.7%; ROTE 20.5%; Equities $6.44B +72% YoY (2nd best after 2Q record); IB fees $3.224B +21%;
+   advisory record $1.654B; ECM $666M +43%; backlog down vs 2Q-end (advisory) but robust; AWM $5.1B +14%; AUS record $4.1T
+S14 WebSearch: CME Q3 2026 ADV (press release 2026-10-02)
+   https://www.cmegroup.com/media-room/press-releases/2026/10/02/cme_group_reportsrecordaveragedailyvolumeforseptemberandq3driven.html
+   Sept ADV record 31.8M (+22% YoY); Q3 ADV record 29.4M (+16%); IR ADV Q3 15.1M (+13%); UST F&O Q3 9.4M (+25%); Sept UST F&O 9.5M (+42%); SOFR fut Q3 3.8M (+3%)
+== fin WebSearch used: 14/14 ==

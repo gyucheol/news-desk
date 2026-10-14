@@ -14,3 +14,9 @@ S12 Samsung Bio Q2 2026 (7/23): rev 1조3209억 +30%, OP 5864억 +23%, OPM 44.4%
 S13 J&J Q3 2026 (10/13): MedTech ~$8.6B +2.5% op, miss $8.71B (LSEG); Ortho +3.4%; IM +7.7% $16.76B; total $25.4B; adj EPS $2.59; net $210M vs $5.15B; DePuy Synthes sep mid-2027; investor event 12/8; China supply disruption & Mideast headwinds [CNBC 2026/10/13, MassDevice]
 S14 PBM: CAA 2026 (H.R.7148) signed 2026-02-03; Part D delinking flat fees from 2028-01-01; rebate pass-through; ERISA ~2029; CBO -$2.12B 2026-2035 [KFF, Sidley]; Express Scripts ends rebate retention; Optum Rx full pass-through 2026 [AJMC]
 == searches used: 14/14 ==
+F1 bioworld 734411 -> 403
+F2 EY taxnews 2026-0787 (2026-04-03): proclamation 2026-04-02; 100% Annex I (patented drugs, APIs, KSMs); others from 2026-09-29 12:01 ET; MFN+onshoring 0% to 2029-01-20; onshoring-only 20% -> up to 100% after 4y; EU/JP/KR/CH/LI 15%; UK 10%; generics/biosimilars exempt; ~53% of patented drugs distributed in US made abroad
+F3 BioPharma Dive 824881 (2026-07-13): >=68 cos >$9.1B VC H1 = highest H1 since start of 2022; 13 IPOs $4.5B so far 2026; ~2/3 (42) of H1 rounds to clinical-stage cos; seed less abundant (EY Singhania)
+F4 beckers -> 403
+F5 PharmaSource (2026-09-29): Procl 11020; 100% default for non-Annex III from 9/29; 17 Annex III since 7/31; 26 mfrs ~89% branded market MFN by 8/31 (White House); generics/biosimilars/US-origin not covered; EU/JP/KR/CH 15%; UK no add'l
+== fetches used: 5/5 ==

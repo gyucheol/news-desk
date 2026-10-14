@@ -51,15 +51,20 @@
 - 시각 순서(오래된 것 먼저). 기존 문서의 기사는 넣지 않습니다(합칠 때 자동으로 앞에 붙음). 묶음 파일의 주소만 씁니다.
 
 ## 3. 산업·노드
-- inds·nodes는 9개 산업 id를 씁니다. 해당이 없으면 inds에 새 분야 id 하나만(pharma fin tech auto aero agri consumer shipping realestate industrial metals) 넣고 nodes는 빈 배열.
+- inds에는 산업 id를 씁니다(tools/industry/nodes.md의 산업: macro uranium drilling gas coal power petchem jpins beauty oil metals agri shipping industrial aero auto semis tech fin realestate consumer pharma). nodes는 예전 9개 산업(아래 목록)의 노드만 씁니다. 9개 산업에 해당이 없으면 inds에 산업 id 하나만 넣고 nodes는 빈 배열.
 - uranium: mining conversion enrichment fabrication physical operators build policy / drilling: rigs capex services subsea fpso osv octg yards / gas: upstream midstream liquefaction shipping regas trade demand / coal: thermal met logistics trade power steel policy / power: demand gen grid storage wind modules polysilicon developers market / petchem: feedstock cracker commodity specialty demand policy / jpins: underwriting reinsurance assets rates capital securities regulation demand / beauty: brands odm materials packaging channels exports / macro: cb rates fiscal inflation growth fx liquidity commodity geo semis
 - nodes는 "macro/rates"처럼. 반도체·AI는 inds ["macro"], nodes ["macro/semis"]. inds에는 nodes에 쓴 산업을 모두 넣습니다.
+
+## 3-1. 밸류체인 한 줄(vc) — 사용자 요청(10월 14일)
+- 묶음마다 vc를 씁니다: "밸류체인의 어디에서, 공급·수요·가격 중 무엇이, 어느 쪽으로 움직였나". 규칙은 /home/user/news-desk/tools/industry/VC.md 2절, 산업·노드는 /home/user/news-desk/tools/industry/nodes.md(쓰기 전에 읽으세요).
+- 맞는 산업이 nodes.md에 없으면 vc의 ind에 새 산업 id(영문 소문자)를 쓰고 node는 ""로 둔 뒤, 그 항목에 newInd {"id", "name", "why"}를 적습니다. 작업을 맡긴 쪽이 tools/industry/BUILD.md로 새 산업 페이지를 만든 뒤 노드를 채웁니다(사용자 지시: 앞으로 나오는 산업도 산업 데스크에 추가).
 
 ## 4. 출력
 data/mix-2026-10-14/out2/<이름>.json — 3~4묶음 쓸 때마다 다시 저장.
 {"agent": "W1", "searches_used": 0, "fetches_used": 0,
  "items": [{"cid": "C001", "attachTo": "", "title": "...", "one": "...", "facts": ["무엇이: ... [사실]"], "basis": "verified|partial|channel|title",
    "check": "...", "src": [{"o": "확인한 출처 이름", "d": "날짜", "u": "주소"}], "inds": ["macro"], "nodes": ["macro/rates"],
+   "vc": [{"ind": "oil", "node": "upstream", "f": "공급", "dir": "down", "k": "예상", "t": "후티 공격으로 사우디 수출 차질 우려"}],
    "added": "묶음일 때만", "items": [{"t": "...", "o": "텔레그램 하나증권 중국전략", "d": "2026-10-09", "u": "https://t.me/...", "s": "묶음일 때만"}]}],
  "skipped": [{"cid": "C010", "reason": "..."}]}
 - attachTo는 묶음 파일에 적힌 값 그대로(없으면 "").

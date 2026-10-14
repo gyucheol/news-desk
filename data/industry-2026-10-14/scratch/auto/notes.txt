@@ -1,0 +1,60 @@
+# auto 작업 메모 (2026-10-14)
+## 노드 초안 (상류->하류, 7개)
+battery 배터리·소재(셀·리튬) -> power/storage 링크
+parts 부품·반도체(Tier1·전장·차량용 반도체·애프터마켓 부품)
+oem 완성차(기존 업체: 승용·상용)
+chinaoem 중국 완성차·해외 확장
+sales 수요·판매·금융(딜러·중고차·렌터카·애프터서비스·충전망)
+autonomy 자율주행·로보택시·차량 SW
+policy 정책(관세·보조금·배출·안전 규제·시장 진입) -> macro/geo 링크
+## 뉴스 -> 노드 배정 확인
+battery: (직접 뉴스 없음, 포비아 헬라 에너지코어는 parts)
+parts: OP모빌리티 감원, 포비아 헬라 수주, 태국 홍수 부품 공장, 퍼스트브랜즈 재판
+oem: 스텔란티스(립모터·웨이브, STLA One, 3분기 출하, CEO 발언), 현대차 인도 155억 달러, VW·유럽 대중차 압박, BMW·벤츠·VW 인도 감소, 혼다 SUV, 타타-이베코, 아우디 공장, 다임러트럭, 재규어
+chinaoem: 샤오펑·BYD 유럽, 레거시 대중차 시장 상실, 중국 9월 소매 -28%, 지리 캐나다, 마에스트로 브레이크, 샤오미 SUV
+sales: 포드 F-150 라이트닝 중고, 고유가 EV 수요(르노 60%), 미국 충전망, 허츠 채무, VW 영국 금융 충당금, 덴자 금융, 벨론 IPO(애프터서비스)
+autonomy: 테슬라 FSD 개명, NHTSA 테슬라 로보택시, 오로라 면제, 우버 로보택시 임원 퇴사
+policy: EU-중국 하이브리드 상한, 멕시코 25% 관세, 중국 설계 규제, 영국 디젤 소송, 폴스타 미국 판매 금지, 머스크 인도 스타링크(시장 진입·규제)
+## 검색 로그 (WebSearch 최대 14, WebFetch 최대 5)
+S1 WebSearch "CPCA September 2026..." -> CnEVPost 2026-10-12 https://cnevpost.com/2026/10/12/china-sept-2026-nev-retail-cpca/ (CPCA 확정치)
+  9월 승용차 소매 161.8만 대(-28%), NEV 소매 108.4만 대(-16.7%, 9개월 연속 감소), NEV 침투율 67.0% 사상 최고, 휘발유차 -43%
+  NEV 수출 55.8만 대(+163.5%), 승용차 수출 91.7만 대(+73.7%), 수출 덕에 NEV 도매는 +11.3%
+  CPCA 원인: 이른 추석, 작년 보조금 수요 몰림 기저, 고유가, AI 수요로 메모리 반도체 가격 급등이 신차 출시를 늦춤
+  (예비치 10/10: NEV -12%, 전체 -24% -> 확정치로 하향)
+S2 WebSearch "Cox Automotive third quarter 2026..." -> Cox 2026-09-24 발표 https://www.coxautoinc.com/wp-content/uploads/2026/09/Q3-2026-Cox-Automotive-Sales-Forecast-Update-Full-Presentation.pdf ; PR https://www.coxautoinc.com/press-releases/q3-september-2026-cox-automotive-new-vehicle-sales-forecast-press-release/
+  9월 SAAR 약 1,630만(작년 9월 1,660만), 3분기 평균 약 1,640만, 2026년 연간 전망 1,580만 -> 1,610만 상향, 9월 판매 +6.5% 예상(아시아 브랜드 점유율 확대)
+  신차 EV 비중 약 6%에서 안정, 연방 EV 세액공제 폐지로 리스 비중 23%로 낮춤, 딜러의 관세 우려는 작년보다 훨씬 낮음
+S3 WebSearch "ACEA new car registrations August 2026..." + F1 WebFetch ACEA PDF(바이너리, 로컬 저장본을 Read로 확인) https://www.acea.auto/files/Press_release_car_registrations_August_2026.pdf (2026-09-24)
+  EU 신차 등록 1~8월 +5.3%('에너지 가격 상승과 지정학 불확실성 속'), 8월 +4.5%(그래프)
+  BEV 점유율 21.7%(전년 15.8%), 164만 1,333대; 프랑스 +74.2%, 독일 +53.1%, 덴마크 +40.9%
+  HEV 36.6%(275만 9,718대), PHEV 10%(75만 8,082대, 전년 8.8%)
+  휘발유 -18.6%, 점유율 21.7%(28%); 디젤 -18.6%, 7.3%(9.4%); 휘발유+디젤 29%(37.5%)
+S4 WebSearch "CATL first half 2026 results..." -> Caixin 2026-07-28 https://www.caixinglobal.com/2026-07-28/energy-insider-catl-profit-surges-plans-record-share-buyback-102468755.html (제목: 이익 급증, 사상 최대 자사주 매입 계획)
+  (검색 요약) 상반기 순이익 432.8억 위안(+41.98%), 매출 2,769.2억 위안(+54.8%), 매출총이익률 23.93%(전년 25.02%)
+  ESS 매출 532.6억 위안(+87.54%), EV 배터리 매출 1,921.2억 위안(+46.02%), 1~5월 EV 배터리 점유율 40.2%(SNE)
+  생산 498GWh, 생산능력 525GWh, 가동률 94.86%, 건설 중 764GWh; 자사주 매입 200억~400억 위안(소각)
+F2 WebFetch energy-storage.news -> 403 (열람 실패, 1회로 셈)
+S5 WebSearch "lithium carbonate price September 2026..." -> (요약) 5월 탄산리튬 약 20만 위안/t까지 올랐다가 반락, InfoLink는 2027년 소폭 공급 과잉 예상, 저장용 LFP 셀 0.363위안/Wh(280/314Ah), Fastmarkets: 저장 수요 예상 웃돌고 중국 EV 회복은 더딤(날짜 불명 -> 본문에 쓰지 않음)
+F3 WebFetch SunSirs 2026-10-09 https://www.sunsirs.com/uk/detail_news-36652.html
+  탄산리튬 9월 초 약 15.6만 -> 월말 12만 위안/t(-23%); 성수기 기대 미달, 삼원계 생산 감소, 리튬 배터리 소비세 시행, 공급이 예상보다 많음
+  LFP 생산은 높게 유지(ESS 수요 견조), 재고 소진 속도 급감, 양극재사는 필요한 만큼만 구매; 국내 생산 증가, 염호 증산, 호주 정광 도착 많음
+S6 WebSearch "현대차 2026년 2분기 실적..." -> 현대차그룹 뉴스룸 2026-07-23 https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-company-2026-q2-earnings ; 스타뉴스 2026-07-23 https://www.starnewskorea.com/business-life/2026/07/23/2026072314174243848 ; 인더뉴스 https://www.inthenews.co.kr/news/article.html?no=89683
+  2분기 매출 49조 2,153억 원(+1.9%, 분기 최대), 도매 99만 1,885대(-6.9%), 영업이익 2조 8,509억 원(-20.8%), 영업이익률 5.8%
+  원인(회사): 경쟁 심화로 인센티브 증가, 신차 전 구형 재고 소진 비용; 매출원가율 82.2%(원자재 가격 상승); 부품사 화재 생산 차질(인더뉴스)
+  전동화 26만 6,627대(+1.7%), HEV 분기 최대; 연간 목표 매출 +1~2%, 영업이익률 6.3~7.3%
+S7 WebSearch "Volkswagen Group half-year 2026..." -> VW PR https://www.volkswagen-group.com/en/press-releases/volkswagen-group-stays-on-track-in-challenging-environment-and-expects-improved-margin-in-the-second-half-of-the-year-20542 (날짜 미확인)
+  상반기 영업이익 59억 유로(약 -12%), 영업이익률 3.8%(특수 항목 제외 4.3%), 매출 1,581억 유로(보합)
+  미국 ID.4 생산 중단 관련 비용 약 5억 유로, 부정적 제품 구성, 상반기 중국 시장 -20%, 미국 관세 비용 높아 일부 엔트리 모델 적자
+  연간 영업이익률 목표 4.0~5.5% 유지, 하반기 개선 기대; 경영진 '현재 합의된 비용 절감으로는 부족' -> 추가 조치 가능
+S8 WebSearch "BYD first half 2026..." -> eletric-vehicles.com(날짜 미확인) https://eletric-vehicles.com/byd/byd-profit-rises-for-the-first-time-in-five-quarters-still-miss-forecasts-by-12/ ; BigGo https://finance.biggo.com/news/80038d49-3b7f-45ad-ba9d-1bb308f2bb6c ; CnEVPost 2026-04-28(1분기)
+  상반기 매출 약 3,448억 위안(약 -7%), 순이익 약 123억 위안(-20.5%, 회사는 환손실 탓), 2분기 순이익 약 +30%(5개 분기 만의 증가)
+  해외 판매 약 79만 대(+68%), 해외 매출 비중 52.57%(처음 절반 넘음), 해외 매출총이익률 21.71% vs 국내 15.67%(Bitauto 분석)
+  국내 판매 상반기 약 40% 감소(Tridens), 왕촨푸: 올해 해외 150만 대 목표 넘을 수도, 2세대 블레이드 배터리 증산 중 배터리 공급 제약
+S9 WebSearch "Waymo 2026 paid rides..." ->
+  TechCrunch 2026-03-27 https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/ : 미국 10개 도시 주당 유료 운행 50만 건(2024년 5월 5만 건)
+  TechCrunch 2026-09-24 https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/ : 로보택시 약 4,000대, 80%가 캘리포니아·텍사스
+  (Yahoo/Investing '1M 목표·160억 달러 조달 1,260억 달러 가치'는 로이터 전재 가능성 -> 인용 안 함)
+S10 WebSearch "US auto tariffs 2026 Section 232..." -> USTR 2026 USMCA Autos Report to Congress(2026-07-01) https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/2026%20USMCA%20Autos%20Report%20to%20Congress_070126.pdf ; CRS IN12545 https://www.congress.gov/crs_external_products/IN/HTML/IN12545.html (날짜 미확인)
+  (검색 요약) 섹션 232: 완성차 25%(2025-04-03), 부품 25%(2025-05-03); EU(2025-08-01)·일본(2025-09-16) 15% 상한, 한국 15%(2025-11-01, 출처 1개)
+  멕시코·캐나다: USMCA 미충족 25%, 충족 부품 면제·충족 완성차 일부 감면; 2026-07-01 USMCA 공동 검토에서 미국이 연장 안 하고 연례 검토로(출처 1개)
+  2026년 2월 대법원 IEEPA 관세 위법 판결, 232조 자동차 관세는 유지; 캐나다 섹션 338 50% 여부는 출처 엇갈림(쓰지 않음)

@@ -57,3 +57,10 @@ S14 WebSearch: MBA maturities (2026-02-09) https://www.mba.org/news-and-research
    17% ($875B) of $5.0T commercial/multifamily mortgages mature in 2026 (2025: $957B, -9%); hotel 30%, industrial 23%, office 17%, healthcare 15%, MF 13%;
    depositories $396B (21%), CMBS/CLO/ABS $200B (25%), credit cos/warehouse/other $163B (29%); Morningstar DBRS (Jan 2026): >half of ~$100B securitized CRE maturing in 2026 unlikely to pay off (secondary)
 == realestate WebSearch used: 14/14 ==
+F2 WebFetch: CBRE press release 2026-08-27: vacancy 1.4% (unchanged from YE2025); NoVA 0.2%; supply +33.7% (~10.9 GW; release typo 'MW'); UC 7,481 MW (+24.8%) record; >80% preleased (74.3%);
+   <1,500 MW available ~6 months; rents up all sizes, max +8.3% (3-10MW); power constraints extend timelines; 'strong AI-driven demand'
+F3 WebFetch: CRE Daily 2026-10-07: 10y >5% (last seen 2002) stalls REIT M&A; Hoya: avg discount ~10% (15-30% recent yrs); 30+ REITs >=20%; 9 REITs >$3B >=30% (Kilroy, Vornado);
+   Welltower ~97% premium; AvalonBay+Equity Residential all-stock combination completed in Aug (180,000 units, $69B EV); Public Storage to buy NSA $10.5B all-stock; IRT-Centerspace $8.1B
+F4 WebFetch: NAHB 2026-09-16: HMI 32 (-3), lowest since Sep 2025; current sales 35 (-4); expectations 37 (-6); traffic 23; price cuts 38% (Aug 35%); avg cut 6%; incentives 66% (63%); lot availability poor 42%
+F5 WebFetch: Newmark 2Q26 office -> HTTP 403 (blocked)
+== realestate WebFetch used: 5/5 ==

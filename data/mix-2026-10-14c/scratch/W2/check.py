@@ -54,7 +54,7 @@ def main(path):
         multi = len(x['items']) > 1 or bool(x['attachTo'])
         print(x['cid'], x['basis'], 'attach=%r' % x['attachTo'], 'n_items=%d' % len(x['items']), x['inds'], x['nodes'])
         rep('title', x['title'], 20, 50)
-        one = rep('one', x['one'], 90 if multi else 80, 160 if multi else 130)
+        one = plain(rep('one', x['one'], 90 if multi else 80, 160 if multi else 130))
         if not one.endswith('다'):
             print('  !! one does not end with 다')
         # tail consistency
@@ -83,7 +83,7 @@ def main(path):
             if 'added' not in x or not x['added']:
                 print('  !! added missing')
             else:
-                a = rep('added', x['added'], 60, 140)
+                a = plain(rep('added', x['added'], 60, 140))
                 if not a.endswith('다'):
                     print('  !! added does not end with 다')
                 if not a.startswith('이번 '):
@@ -109,7 +109,7 @@ def main(path):
                 if not it.get('s'):
                     print('   !! s missing')
                 else:
-                    s = rep('s', it['s'], 45, 110)
+                    s = plain(rep('s', it['s'], 45, 110))
                     if not s.endswith('다'):
                         print('   !! s does not end with 다')
             elif it.get('s'):

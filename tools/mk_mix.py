@@ -11,7 +11,13 @@ DB, TODAY, DUMP, SPAN = sys.argv[1:5]
 NOW = now_kst()
 prog = json.load(open(f'{DB}/meta/progressV4.json')); seen = json.load(open(f'{DB}/meta/newsSeen.json'))
 NODES = {os.path.basename(p)[:-5]: [n['id'] for n in json.load(open(p))['nodes']] for p in glob.glob(f'{DB}/chains/*.json')}
-NEWIND = {'pharma', 'fin', 'tech', 'auto', 'aero', 'agri', 'consumer', 'shipping', 'realestate', 'industrial', 'metals'}
+NEWIND = {'pharma', 'fin', 'tech', 'auto', 'aero', 'agri', 'consumer', 'shipping', 'realestate', 'industrial', 'metals', 'oil'}
+# 밸류체인 한 줄(vc, 2026-10-14 사용자 요청): 산업·노드는 tools/industry/nodes.json(산업 한 페이지 목록)과 DB 사본 chains 기준.
+# 이번 회차 작성 결과에 vc를 쓰지 않았으면 NO_VC=1 로 실행합니다(나중에 vc를 따로 붙일 때).
+VCN = dict(NODES)
+if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'industry', 'nodes.json')):
+    VCN.update(json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'industry', 'nodes.json'))))
+NEED_VC = os.environ.get('NO_VC') != '1'
 CHAN = json.load(open('chan.json'))['chan']
 TAILS = {'title': ' (제목 기준)', 'channel': ' (채널 전언)'}
 SRCN = {'bbg': '블룸버그', 'rtr': '로이터', 'tg': '텔레그램'}
@@ -52,8 +58,21 @@ def sub_line(w, name, s, lo, hi, nlo, nhi):
     if not lo <= len(core) <= hi: P.append(f'{w} {name} {len(core)}자')
     if not core.endswith('다'): P.append(f'{w} {name} 끝맺음')
 
+def check_vc(w, vc):
+    if not isinstance(vc, list) or not 1 <= len(vc) <= 3: P.append(f'{w} vc 개수'); return
+    for v in vc:
+        i, n = v.get('ind'), v.get('node')
+        if i not in VCN: P.append(f'{w} vc 산업 {i}')
+        elif n not in VCN[i]: P.append(f'{w} vc 노드 {i}/{n}')
+        if v.get('f') not in ('공급', '수요', '가격', '-'): P.append(f"{w} vc f {v.get('f')}")
+        if v.get('dir') not in ('up', 'down', 'flat', 'mixed'): P.append(f"{w} vc dir {v.get('dir')}")
+        if v.get('k') not in ('실제', '예상'): P.append(f"{w} vc k {v.get('k')}")
+        t = v.get('t', '')
+        if not 8 <= len(t) <= 60 or '{{' in t: P.append(f'{w} vc t {len(t)}자')
+
 def check(x, its):
     w = x['cid']
+    if 'vc' in x or NEED_VC: check_vc(w, x.get('vc'))
     hl_check(w, 'title', x['title'], 1, 2)
     one = hl_check(w, 'one', x['one'], 2, 4)
     tail = TAILS.get(x['basis'], '')
@@ -108,6 +127,7 @@ for x in sorted(items, key=lambda x: x['cid']):
     if not its: P.append(f"{x['cid']} 기사 없음"); continue
     fields = {k: x[k] for k in ('title', 'one', 'facts', 'basis', 'check')}
     if x.get('added'): fields['added'] = x['added']
+    if x.get('vc'): fields['vc'] = x['vc']
     lt = max(when.get(it['u'], '') for it in its)
     if x.get('attachTo'):
         aid = x['attachTo']; path = f'{DB}/news/{aid}.json'

@@ -4,7 +4,7 @@
   const isFresh = n => typeof n.one === 'string' && n.one.trim() !== '';
   const fresh = () => news.filter(isFresh);
   const legacy = () => news.filter(n => !isFresh(n));
-  const indTags = n => { const s = new Set(n.inds || []), mac = (n.nodes || []).filter(p => p.indexOf('macro/') === 0); if (mac.includes('macro/semis')) { s.add('semis'); if (mac.length === 1) s.delete('macro'); } if (n.ind) s.add(n.ind); return s; };
+  const indTags = n => { const s = new Set(n.inds || []), mac = (n.nodes || []).filter(p => p.indexOf('macro/') === 0); if (mac.includes('macro/semis')) { s.add('semis'); if (mac.length === 1) s.delete('macro'); } if (n.ind) s.add(n.ind); (Array.isArray(n.vc) ? n.vc : []).forEach(v => { if (v && v.ind) s.add(v.ind); }); return s; };
   const mainInd = n => n.ind || ((n.nodes || []).includes('macro/semis') ? 'semis' : (n.inds || [])[0] || 'macro');
   const indLabel = n => { const m = mainInd(n); const rest = (n.inds || []).filter(i => i !== m && !(m === 'semis' && i === 'macro')); return [m].concat(rest).map(i => IND[i] || i).join(' · '); };
   const dayOf = n => pubParts(n.published || n.processed).day;
@@ -102,6 +102,22 @@
   }
   // 묶음 뉴스: 가장 최근에 더해진 원문들이 새로 알려 준 내용(added) 한 줄
   const addHtml = n => n.added ? '<p class="add"><span class="ak">더해진 내용</span> ' + hl(n.added) + '</p>' : '';
+  // 밸류체인 한 줄(vc, v67): 어디에서(산업 › 노드), 공급·수요·가격 중 무엇이, 어느 쪽으로 움직였나. 노드를 누르면 산업 한 페이지의 그 노드로 갑니다.
+  const VC_ARROW = { up: '↑', down: '↓', flat: '→', mixed: '↕' };
+  const VC_WORD = { '공급': { up: '늘어남', down: '줄어듦' }, '수요': { up: '늘어남', down: '줄어듦' }, '가격': { up: '오름', down: '내림' } };
+  const vcList = n => (Array.isArray(n.vc) ? n.vc : []).filter(v => v && v.ind);
+  function vcWhere(v) {
+    const c = chains[v.ind], nd = c && (c.nodes || []).find(z => z.id === v.node);
+    return (c ? (c.short || c.name) : (IND[v.ind] || v.ind)) + (v.node ? ' › ' + (nd ? (nd.short || nd.name) : v.node) : '');
+  }
+  function vcWhat(v) {
+    const f = ['공급', '수요', '가격'].includes(v.f) ? v.f : '', d = VC_ARROW[v.dir] ? v.dir : '';
+    if (!f) return '공급·수요·가격 변화 없음';
+    return f + ' ' + ((VC_WORD[f] || {})[d] || (d === 'flat' ? '그대로' : d === 'mixed' ? '엇갈림' : '')) + (d ? ' ' + VC_ARROW[d] : '') + (v.k === '예상' ? ' (예상)' : '');
+  }
+  const vcHtml = n => { const xs = vcList(n); return xs.length ? '<div class="vcl">' + xs.slice(0, 3).map(v => '<p class="vcrow"><span class="vk">밸류체인</span><button type="button" class="vcn" data-act="node" data-ind="' + esc(v.ind) + '" data-id="' + esc(v.node || '') + '">' + esc(vcWhere(v)) + '</button><span class="vf">' + esc(vcWhat(v)) + '</span>' + (v.t ? '<span class="vt">' + hl(v.t) + '</span>' : '') + '</p>').join('') + '</div>' : ''; };
+  // 산업 표시를 누르면 그 산업의 한 페이지로 갑니다(페이지가 있을 때).
+  const itagHtml = n => { const m = mainInd(n); return chains[m] ? '<button type="button" class="itag" data-act="ind" data-id="' + esc(m) + '">' + esc(indLabel(n)) + '</button>' : '<span class="itag">' + esc(indLabel(n)) + '</span>'; };
   // 이미 다룬 사건의 후속(dupOf)이면 앞선 뉴스의 날짜와 한줄 요약을 함께 보여 줍니다.
   function prevHtml(n) {
     if (!n.dupOf) return '';
@@ -114,8 +130,8 @@
   function itemHtml(n) {
     const id = esc(n.id), read = isRead(n), again = !!reads[n.id] && !read;
     return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
-      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcLabel(n)) + '</span>' + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
-        '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + addHtml(n) + prevHtml(n) + linksHtml(n) +
+      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span>' + itagHtml(n) + '<span>' + esc(srcLabel(n)) + '</span>' + (Array.isArray(n.items) && n.items.length > 1 ? '<span class="upd">' + (again ? '새 내용 추가 · ' : '') + '기사 ' + n.items.length + '건 묶음</span>' : '') + '</p>' +
+        '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + vcHtml(n) + addHtml(n) + prevHtml(n) + linksHtml(n) +
         '<div class="acts"><button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button>' +
           reqBtn(n) + '</div></div></li>';
   }
@@ -123,8 +139,8 @@
     const s = reqState(n), id = esc(n.id);
     const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">조사 중' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id] + 9 * 3600e3).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>' + (dsess[n.id] ? '<a href="https://claude.ai/code/' + esc(dsess[n.id]) + '" target="_blank" rel="noopener">작업 창 보기</a>' : '');
     const open = st.dopen.has(n.id);
-    return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
-      '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + addHtml(n) +
+    return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span>' + itagHtml(n) + '<span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
+      '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + vcHtml(n) + addHtml(n) +
       (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
         : '<p class="rqnote">' + (dsess[n.id] ? '새 Claude Code 창에서 자세한 내용과 투자 인사이트를 조사하고 있습니다. 끝나면 이 자리에 나옵니다.' : 'Claude가 자세한 내용과 투자 인사이트를 작성하면 이 자리에 나옵니다.') + '</p>') + '</div></li>';
   }
@@ -257,6 +273,7 @@
     st.tab = 'ind'; st.ind = ind; st.flowNode = 'all'; st.flowMore = false; save(); render();
     const el = document.getElementById('node-' + ind + '-' + node);
     if (el) { el.classList.add('hl'); const d = el.querySelector('details'); if (d) d.open = true; scrollTo(el); setTimeout(() => el.classList.remove('hl'), 2400); }
+    else window.scrollTo(0, 0);
   }
   // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록으로 갑니다(예전 요약 카드는 볼 곳이 없어 그대로 둡니다).
   function goNews(id) {
@@ -308,6 +325,7 @@
     else if (act === 'flownode') { st.flowNode = id; st.flowMore = false; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
     else if (act === 'flowmore') { st.flowMore = true; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
     else if (act === 'gonews') goNews(id);
+    else if (act === 'indnews') { st.tab = 'news'; st.src = 'all'; st.nind = id; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.shown = PAGE; st.confirmAll = false; save(); render(); window.scrollTo(0, 0); }
     else if (act === 'src') { st.src = id; st.shown = PAGE; st.confirmAll = false; renderNews(); }
     else if (act === 'nind') { st.nind = st.nind === id ? 'all' : id; st.shown = PAGE; st.confirmAll = false; renderNews(); }
     else if (act === 'unread') { st.unreadOnly = !st.unreadOnly; st.shown = PAGE; st.confirmAll = false; renderNews(); }

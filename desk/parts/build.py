@@ -9,6 +9,6 @@ out = ['<title>다운턴 뉴스 선별 데스크</title>',
  '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
  '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap">',
  '<style>', L(7, 7), P('new.css'), '', L(258, 374), P('tail.css'), '</style>', '', P('body.html'), '',
- '<script>', '(() => {', L(475, 490), P('js1.js'), '', L(524, 596), '', L(687, 752), '', cardbox, '', L(1042, 1076), P('js2.js'), '</script>', '']
+ '<script>', '(() => {', L(475, 490), P('js1.js'), '', L(524, 596), '', P('ind.js'), '', cardbox, '', L(1042, 1076), P('js2.js'), '</script>', '']
 open(sys.argv[2], 'w', encoding='utf-8').write('\n'.join(out))
 print('built', sum(len(x) for x in out))

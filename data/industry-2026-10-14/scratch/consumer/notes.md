@@ -111,3 +111,12 @@
 - src: Vinetur 2026-10-05 https://www.vinetur.com/en/20261005108307/california-growers-removed-38000-vineyard-acres-prompting-fears-of-a-future-shortage.html
 - src: Ag Alert 2026-02-11 https://www.agalert.com/california-ag-news/archives/february-11-2026/grape-glut-lessens-as-growers-scrap-vines
 - no whiskey/bourbon distillery pause data found
+
+## S14 US hotels Aug 2026 (CoStar)
+- occupancy 66.4% (+0.5%), ADR $161.78 (+1.5%), RevPAR $107.43 (+2.0%) y/y; slowed vs July; m/m occ -4.7%, RevPAR -10.3%
+- CoStar/Tourism Economics raised 2026 outlook in Aug; H1 helped by World Cup & America 250
+- src: CoStar https://www.costar.com/products/str-benchmark/resources/press-releases/us-hotel-performance-august-2026
+- src: Hotel Management https://www.hotelmanagement.net/data-trends/costar-us-hotel-performance-august-improvement-slows
+
+## F1 Walmart listing: Nasdaq (Walmart IR page "Walmart Inc. (Nasdaq: WMT)") https://stock.walmart.com/
+SEARCH COUNT: consumer WebSearch 14/14, WebFetch 1/5

@@ -63,3 +63,12 @@
 - desk: Domino's Q3 US comps +0.3% (vs 5.2% yr ago), 3 straight qtrs <1%; avg ticket & items per order down (Quartz https://qz.com/dominos-pizza-same-store-sales-growth-third-quarter-2026-101326 ; NRN https://www.nrn.com/quick-service/domino-s-sales-impacted-by-pressured-consumers) [n-bbg-0285]
 - desk: SSP FY op profit ~GBP230m (consensus 239m), NA LFL +2%, UK&I +9%, NA passengers weak (Finimize https://finimize.com/content/ssp-group-trimmed-its-profit-outlook-as-us-summer-travel-softened) [n-rtr-0184]
 - desk: Marston's new-format pubs sales ~+30%, ROCE >30%, LFL -1.2% (Morning Advertiser) [n-rtr-0289]
+
+## S8 Macau GGR Sept 2026 (DICJ, released 2026-10-01)
+- MOP18.06bn (~US$2.23bn), -1.2% y/y, lowest month of 2026, 4th straight y/y decline; -17.5% m/m
+- 9M 2026 GGR MOP187.1bn +3.2% (thru Aug +3.7%); Q3 MOP60.21bn
+- CLSA FY2026 MOP253.2bn (+2.3%), flags earnings downgrade risk
+- src: GGRAsia https://www.ggrasia.com/macaus-sept-casino-ggr-follows-downward-trend-down-1-2pct-y-o-y-to-us2-2bln
+- src: casino.org https://www.casino.org/news/macau-losing-streak-hits-four-months-september/
+- src: ASGAM https://asgam.com/2026/10/01/macau-ggr-down-1-2-year-on-year-to-mop18-1-billion-in-september/
+- desk: China Golden Week domestic trips 826m, spend CNY738.4bn; daily avg trips +6.3%, spend +4.3% (A News https://www.anews.com.tr/world/2026/10/09/chinas-national-day-holiday-tourism-spending-reaches-1101b) [n-tg-0204]

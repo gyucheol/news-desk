@@ -56,3 +56,6 @@ S11 WebSearch: PE Q3 2026
      US 405 exits (+11%), $165.1B (+51% QoQ); global fundraising 9M $368.1bn / 523 funds; fund count pacing -30.5% YoY, capital +3.1%; US may finish <$300bn first since 2020
    Fortune 2026-10-12 https://fortune.com/2026/10/12/us-private-equity-deal-value-was-down-q3-pitchbook-says/ US PE deal value -14.1% in Q3
    PitchBook: ~$2T dry powder; fundraising won't recover until exits restore LP liquidity
+S12 WebSearch: stablecoins / GENIUS Act (secondary sources only)
+   The Market Periodical 2026-08-18 https://themarketperiodical.com/2026/08/18/us-treasury-proposes-genius-act-rules-for-stablecoin-issuers/ Treasury proposed rules Aug 17; GENIUS effective 2027-01-18
+   Asianet (StanChart) https://newsable.asianetnews.com/markets/standard-chartered-says-usdc-faces-competition-in-payments-delays-2t-stablecoin-forecast-articleshow-ifglq0g supply stuck $300-320B for 12 months, ~ $309B; date unknown

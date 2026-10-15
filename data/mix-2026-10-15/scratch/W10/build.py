@@ -56,7 +56,7 @@ items.append({
      "영국 제조업 생산이 8월 전월보다 1.2% 늘면서, 7월 0.4%에서 둔화한 흐름 속에서도 경제가 플러스 성장을 지켰다"),
   it("영국 경제, 예산안 앞두고 서비스업에서 제조업으로 무게 옮기며 성장", B, "2026-10-15", "https://www.bloomberg.com/news/newsletters/2026-10-15/uk-economy-grows-ahead-of-budget-in-shift-from-services-to-manufacturing",
      "영국 경제가 예산안 발표를 앞두고 서비스업 대신 제조업이 성장을 이끄는 모습을 보이면서, 성장의 축이 옮겨 가고 있다 (제목 기준)"),
-  it("영국 경제, 예상 웃돌며 8월 0.1% 성장", R, "2026-10-15", "https://www.reuters.com/world/uk/uk-economy-beats-forecasts-grow-by-01-august-2026-10-15/",
+  it("영국 경제, 예상 웃돌며 8월 전월 대비 0.1% 성장", R, "2026-10-15", "https://www.reuters.com/world/uk/uk-economy-beats-forecasts-grow-by-01-august-2026-10-15/",
      "영국 8월 GDP가 0.1% 늘어 예상치를 웃돌면서, 영란은행의 금리 인상 논의에 힘이 실릴 수 있다는 분석이 나왔다"),
   it("브리든 영란은행 부총재 '기업들의 비용 절감이 중앙은행에 도움'", R, "2026-10-15", "https://www.reuters.com/world/uk/bank-englands-breeden-says-cost-cutting-by-firms-helping-central-bank-2026-10-15/",
      "브리든 영란은행 부총재가 기업들의 비용 절감을 짚으면서, 이것이 중앙은행의 물가 억제 부담을 덜어 주고 있다고 평가했다 (제목 기준)"),
@@ -66,7 +66,7 @@ items.append({
      "영국 8월 GDP가 예상 밖으로 늘고 달러가 약세를 보이면서, 파운드화가 달러 대비 올랐다 (제목 기준)"),
   it("로이터 조사: 영란은행 11월 4%로 인상 뒤 동결 전망 근소 우세", R, "2026-10-15", "https://www.reuters.com/world/uk/boe-raise-rates-4-november-economists-narrowly-expect-hold-there-2026-10-15/",
      "이코노미스트들이 영란은행이 11월 기준금리를 3.75%에서 4%로 올린 뒤 그 수준에 머물 것으로 근소하게 더 많이 내다보면서, 시장의 연속 인상 기대와 차이를 보였다"),
-  it("영국 소비자, 비용 압박 커지며 지출에 신중", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/britain-s-consumers-are-turning-cautious-as-cost-pressures-mount",
+  it("영국 소비자들, 비용 압박 커지며 지출에 점점 신중", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/britain-s-consumers-are-turning-cautious-as-cost-pressures-mount",
      "영국 소비자들이 생활비 압박이 커지자 지출에 신중해지면서, 가계 소비가 성장에 기여할 여력이 줄어들 수 있다 (제목 기준)")
  ]
 })
@@ -102,7 +102,7 @@ items.append({
      "영국 정부가 개발도상국 부채 탕감 문제에 국제사회의 관심을 새로 모으려 나서면서, 취약국 채무조정 논의에 힘이 실릴 수 있다 (제목 기준)"),
   it("아르헨티나, 2027년 자금 수요 충당에 중국 통화스와프 활용 검토", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/argentina-eyes-tapping-china-swap-to-cover-2027-financing-needs",
      "아르헨티나가 2027년 자금 수요를 메우려 중국과의 통화스와프 활용을 검토하면서, 외부 자금 조달에서 중국 의존이 커질 수 있다 (제목 기준)"),
-  it("IMF, 스리랑카 지원 지속 약속", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/imf-vows-continued-support-sri-lanka-2026-10-15/",
+  it("IMF, 스리랑카에 대한 지원 계속하겠다고 약속", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/imf-vows-continued-support-sri-lanka-2026-10-15/",
      "IMF가 스리랑카에 대한 지원을 계속하겠다고 약속하면서, 스리랑카의 IMF 프로그램이 흔들림 없이 유지될 전망이다 (제목 기준)"),
   it("IMF, 이집트 마지막 프로그램 검토 연내 마무리 목표", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/imf-aims-to-wrap-up-egypt-s-final-program-review-by-end-of-year",
      "IMF가 이집트 지원 프로그램의 마지막 검토를 연말까지 끝내겠다는 목표를 내놓으면서, 이집트 프로그램의 종료 일정이 가시화됐다 (제목 기준)"),
@@ -148,7 +148,7 @@ items.append({
      "EU 경제 담당 집행위원이 중국은 지출을 늘리고 미국은 줄이며 EU는 투자를 늘려야 한다고 말하면서, 캐나다 중앙은행과 같은 세계 불균형 처방이 되풀이됐다"),
   it("IMF '부양책 강화 없으면 위안화 저평가 지속' 경고", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/imf-warns-china-stimulus-lacks-ambition-leaves-yuan-undervalued",
      "IMF가 중국 부양책이 야심 차지 못하다며 위안화가 실질 기준 약 21.3% 저평가됐다고 평가하면서, 내수 확대 없이는 저평가가 이어질 수 있다고 경고했다"),
-  it("IMF, 중국에 더 큰 재정 부양 촉구", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/imf-urges-china-deploy-bigger-fiscal-stimulus-2026-10-15/",
+  it("IMF, 중국에 더 큰 규모의 재정 부양책 시행 촉구", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/imf-urges-china-deploy-bigger-fiscal-stimulus-2026-10-15/",
      "IMF가 중국의 기존 지원책을 규모와 범위가 제한적이라고 평가하고 단기 재정 확대를 촉구하면서, 올해 성장률이 4.5%로 둔화할 것으로 내다봤다"),
   it("중국 3분기 성장 반등 전망…부양책에 2026년 목표 달성 가시권", R, "2026-10-15", "https://www.reuters.com/world/china/china-q3-growth-set-pick-up-stimulus-keeping-2026-goal-within-reach-2026-10-15/",
      "부양책 효과로 중국 3분기 성장률이 높아질 것으로 예상되면서, 2026년 성장 목표 달성이 가능권에 들 전망이다 (제목 기준)"),
@@ -178,9 +178,9 @@ items.append({
  "vc": [
   vc("macro", "growth", "수요", "down", "예상", "독일 3분기 성장 일시 둔화 전망")
  ],
- "added": "이번 블룸버그 1건으로 독일 경기 회복이 메르츠 총리에게는 너무 늦을 수 있다는 정치적 분석이 추가됐다 (제목 기준)",
+ "added": "이번 블룸버그 1건으로 독일 경기 회복이 너무 늦게 와 메르츠 총리가 그 효과를 정치적으로 누리기 어려울 수 있다는 분석이 추가됐다 (제목 기준)",
  "items": [
-  it("독일 경제부 '3분기 경기 둔화 가능성'", R, "2026-10-14", "https://www.reuters.com/markets/europe/german-economy-likely-slowed-third-quarter-ministry-says-2026-10-14/",
+  it("독일 경제부 '독일 경제 3분기에 둔화했을 가능성 높아'", R, "2026-10-14", "https://www.reuters.com/markets/europe/german-economy-likely-slowed-third-quarter-ministry-says-2026-10-14/",
      "독일 경제부가 월간 보고서에서 약한 산업·수출과 내수 부진으로 3분기 성장이 일시 둔화했을 것으로 보면서, 상반기 회복 흐름이 꺾였다"),
   it("독일 경기 회복, 메르츠 총리에겐 너무 늦을 수도", B, "2026-10-15", "https://www.bloomberg.com/news/features/2026-10-15/germany-s-economic-recovery-may-be-too-late-for-friedrich-merz",
      "독일 경기 회복이 더디게 나타나면서, 프리드리히 메르츠 총리가 그 효과를 정치적으로 누리기엔 늦을 수 있다는 분석이 나왔다 (제목 기준)")
@@ -256,7 +256,7 @@ items.append({
      "탄산리튬 선물이 오후 들어 4.7% 내린 톤당 10만 400위안을 기록하면서, 하루 낙폭이 개장 때보다 더 커졌다"),
   it("탄산리튬 선물, 2025년 12월 이후 처음 10만 위안 붕괴", TG_HANA, "2026-10-15", "https://t.me/HANAchina/70450",
      "탄산리튬 선물이 개장과 함께 10만 위안을 내준 뒤 장중 9만 9,500위안까지 2.75% 떨어지면서, 2025년 12월 이후 처음 9만 위안대로 내려갔다"),
-  it("배터리 수요 우려 커지며 리튬 급락세 이어져", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/lithium-extends-deep-slump-as-battery-demand-concerns-mount",
+  it("배터리 수요 우려 커지며 리튬 가격 깊은 하락세 이어가", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/lithium-extends-deep-slump-as-battery-demand-concerns-mount",
      "배터리 수요 둔화 우려가 커지면서, 이미 깊은 침체에 빠진 리튬 가격이 추가로 밀리며 하락세를 이어갔다 (제목 기준)"),
   it("탄산리튬 현물 톤당 10만 4,000위안, 하루 새 3,000위안 하락", TG_HANA, "2026-10-15", "https://t.me/HANAchina/70459",
      "상하이스틸연합 집계 전지급 탄산리튬 현물이 톤당 10만 4,000위안으로 전 거래일보다 3,000위안 내리면서, 선물 급락이 현물 가격으로 번졌다")
@@ -424,7 +424,7 @@ items.append({
 items.append({
  "cid": "G4-003", "attachTo": "n-tg-0206",
  "title": "TSMC 3분기 순이익 69% 늘어 사상 최대…마진 하락에 ADR 약세",
- "one": "TSMC가 3분기 순이익을 7,630억 대만달러로 69% 늘려 사상 최대를 내고 수요가 공급을 웃돈다며 4분기 매출 523억~543억 달러를 제시했지만, 2나노 초기 양산으로 매출총이익률이 66.4%로 1.3%p 떨어지면서 ADR이 약세를 보이는 등 AI 반도체 주가 불안은 가시지 않았다",
+ "one": "TSMC가 3분기 순이익을 7,630억 대만달러로 69% 늘려 사상 최대를 내고 수요가 공급을 웃돈다며 4분기 매출 523억~543억 달러를 제시했지만, 2나노 초기 양산으로 매출총이익률이 66.4%로 1.3%p 떨어지면서 ADR이 약세를 보이며 AI 반도체 주가 불안은 가시지 않았다",
  "facts": [
   "무엇이: TSMC 3분기 순이익은 7,630억 6,000만 대만달러로 68.7% 늘었고, 매출은 467억 2,000만 달러로 가이던스 446억~458억 달러를 넘었다 [사실]",
   "마진: 매출총이익률은 66.4%로 전 분기보다 1.3%p 낮아졌고, 2나노 공정 초기 양산이 원인으로 꼽혔다 [사실]",
@@ -466,7 +466,7 @@ items.append({
      "TSMC가 미국 전력 공급 상황을 한 번 더 점검하는 연구를 마쳤다고 밝히면서, 전력 부족이 아직 수요 판단을 흔들 요인은 아니라는 입장을 내놨다"),
   it("TSMC 'AI 가속기 수요 산정에 CPU는 포함 안 돼'", TG_CAH, "2026-10-15", "https://t.me/cahier_de_market/11004",
      "TSMC가 AI 수요 산정에서 CPU를 빼고 있다고 설명하면서, 50%대 중후반 AI 가속기 성장 가이던스에 CPU 수요는 더해지지 않았다는 점을 분명히 했다"),
-  it("TSMC 낙관론도 AI 주식 침체는 못 깨", B, "2026-10-15", "https://www.bloomberg.com/news/newsletters/2026-10-15/tsmc-optimism-fails-to-break-ai-stock-gloom",
+  it("TSMC 낙관론도 AI 관련 주식의 침체 분위기는 못 깨", B, "2026-10-15", "https://www.bloomberg.com/news/newsletters/2026-10-15/tsmc-optimism-fails-to-break-ai-stock-gloom",
      "TSMC의 낙관적 실적 발표에도 AI 관련주 전반의 침체 분위기가 이어지면서, 실적과 주가 흐름이 엇갈렸다 (제목 기준)"),
   it("TSMC 3분기 어닝콜 요약: 매출 467억 달러·4분기 마진 압박", TG_INS, "2026-10-16", "https://t.me/insidertracking/66394",
      "TSMC가 3분기 매출 467억 달러로 가이던스 상단을 넘고 올해 달러 매출 성장률을 약 44%로 제시했지만, 2나노 초기 양산과 해외 공장 비용에 4분기 매출총이익률은 65~67%로 전망했다")
@@ -500,7 +500,7 @@ items.append({
      "FDA 새 지도부가 희귀질환 치료제 승인 방식을 대대적으로 바꾸려 하면서, 희귀질환 신약 개발사의 허가 경로가 달라질 수 있다 (제목 기준)"),
   it("미국, 처방약 비용 우려 키운 소액 수입 규정 시행 연기", R, "2026-10-16", "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15/",
      "미국 정부가 처방약 비용 상승 우려를 낳은 소액 수입 규정의 시행을 미루면서, 관련 약값 부담 우려가 일단 뒤로 밀렸다 (제목 기준)"),
-  it("미 FDA, 펩타이드 조제 정책 변경 착수", R, "2026-10-16", "https://www.reuters.com/legal/litigation/us-fda-takes-step-change-peptide-compounding-policy-2026-10-15/",
+  it("미 FDA, 펩타이드 조제 정책 변경 위한 첫 조치 착수", R, "2026-10-16", "https://www.reuters.com/legal/litigation/us-fda-takes-step-change-peptide-compounding-policy-2026-10-15/",
      "HHS와 FDA가 일부 펩타이드 조제를 위한 임시 접근 정책을 백악관 검토에 넘기면서, 조제약국들이 단속 걱정 없이 인기 펩타이드를 만들 길이 열릴 수 있다")
  ]
 })

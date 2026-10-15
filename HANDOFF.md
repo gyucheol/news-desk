@@ -37,7 +37,8 @@
 ## 2. 회차 절차 (data/mix-2026-10-14/ 서식 기준)
 
 1. meta를 받아 work/seen_urls.txt와 work/seen.txt를 다시 만듦.
-2. 블룸버그·로이터 python3 tools/sitemap_list.py, 텔레그램 python3 tools/tgcollect.py dump(11채널).
+2. 블룸버그·로이터 python3 tools/sitemap_list.py, 텔레그램 python3 tools/tgcollect.py dump(11채널), 연준 공식 연설·성명 python3 tools/fedspeech.py <since UTC> --out work/sm8/fed.txt(10월 15일 추가, 이사회·FOMC·12개 지역 연은; build_all.py가 fed:<기관>으로 읽음).
+   - 연준 인사 발언은 꼭 남기고 '연준 인사 발언'으로 따로 묶음(FILTER·CLUSTER·WRITE.md 3-2, 문서의 fed 목록 → 매크로 산업 페이지 '연준 인사 발언' 칸, 명단 tools/industry/fed_roster.json).
 3. build_all.py → 거르기 Haiku 4(FILTER.md) → 묶기 Opus 1(CLUSTER.md) → mk_bundles.py → 작성 Opus(WRITE.md, 검색 16·열람 4). 작성 결과에 vc를 씀(WRITE.md 3-1).
 4. mk_mix.py(PROBLEMS 0; vc의 산업·노드는 tools/industry/nodes.json 기준 검사, vc를 쓰지 않은 회차만 NO_VC=1) → 배치 저장 → 다시 받아 대조.
 5. 새 산업: 작성 결과에 newInd가 있거나 mk_mix가 'vc 산업 X'를 내면, tools/industry/BUILD.md로 그 산업 페이지를 만들고(Opus) apply.py 검사 → chains 저장 → catalog.py로 nodes.md·nodes.json 다시 만들고 → vc 노드를 채운 뒤 저장.

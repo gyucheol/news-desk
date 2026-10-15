@@ -51,18 +51,12 @@ if ids != ['structure', 'flip', 'picks']: P.append(f'insight2.parts id 순서 {i
 for p in ins.get('parts', []):
     for f in ('tag', 'title'): s_ok(f'insight2.{p.get("id")}.{f}', p.get(f))
     blocks(f'insight2.{p.get("id")}', p.get('blocks'))
-# 강조 {{ }}(사용자 지시, 기준 tools/cardkit/GUIDE-short.md): 문장 뼈대를 칠해 전체 강조 비율 40% 이상, 짝이 맞고 한 덩어리 30자 이하
-def hl(where, x, lo):
-    t = json.dumps(x, ensure_ascii=False); ms = re.findall(r'\{\{([^{}]+)\}\}', t)
-    if len(ms) < lo: P.append(f'{where}: 강조 {len(ms)}곳(최소 {lo})')
-    if t.count('{{') != t.count('}}'): P.append(f'{where}: 강조 괄호 짝 안 맞음')
-    long = [m for m in ms if len(m) > 30 or m != m.strip()]
-    if long: P.append(f'{where}: 강조 덩어리 벗어남 {len(long)}곳')
-    txt = re.sub(r'\{[fpaiu]:[^{}]+\}|\]\([^)]*\)', '', t); n = len(re.sub(r'[^가-힣0-9A-Za-z]', '', txt.replace('{{', '').replace('}}', '')))
-    h = sum(len(re.sub(r'[^가-힣0-9A-Za-z]', '', m)) for m in ms)
-    if n and h / n < 0.40: P.append(f'{where}: 강조 비율 {h / n:.0%}(40% 이상)')
-hl('detail', det.get('blocks'), 10)
-for p in ins.get('parts', []): hl(f'insight2.{p.get("id")}', p, 3)
+# 강조 {{ }}는 쓰지 않습니다(2026-10-15 사용자 지시: "회색 강조하는 거 다 지워줘 앞으로도"). 남아 있으면 문제.
+def hl(where, x):
+    n = json.dumps(x, ensure_ascii=False).count('{{')
+    if n: P.append(f'{where}: 강조 표시 {n}곳 남음')
+hl('detail', det.get('blocks'))
+for p in ins.get('parts', []): hl(f'insight2.{p.get("id")}', p)
 # 원문 목록(items)이 여러 건인 뉴스는 자세한 정리에 원문 주소가 모두 들어가야 한다(사용자 지시: 원문을 모두 반영)
 if len(sys.argv) > 2:
     nd = json.load(open(sys.argv[2], encoding='utf-8')); nd = nd.get('data', nd) if isinstance(nd.get('data'), dict) else nd

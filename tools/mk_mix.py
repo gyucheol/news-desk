@@ -46,18 +46,10 @@ def label(u):
     return '텔레그램 ' + CHAN.get(k[3:], k[3:]) if k.startswith('tg:') else SRCN.get(k, '')
 
 HL = re.compile(r'\{\{([^{}]+)\}\}')
-# 강조 기준: tools/cardkit/GUIDE-short.md(사용자가 직접 표시한 기준). 문장 뼈대를 칠해 강조 글자가 전체의 50~65%쯤.
-# 검사는 30% 미만·95% 초과(제목은 명사구라 90%대가 흔함)(24자 이상 문장)와 강조 없음, 덩어리 30자 초과를 문제로 봅니다. lo·hi는 예전 곳 수 규칙의 흔적이라 쓰지 않습니다.
+# 강조 {{ }}는 쓰지 않습니다(2026-10-15 사용자 지시: "회색 강조하는 거 다 지워줘 앞으로도"). 남아 있으면 문제로 봅니다.
 def hl_check(w, name, s, lo=None, hi=None):
-    ms = HL.findall(s); plain = s.replace('{{', '').replace('}}', '')
-    core = re.sub(r' \((제목 기준|채널 전언)\)$', '', plain); n = len(core); h = sum(len(m) for m in ms)
-    if not ms and n >= 10: P.append(f'{w} {name} 강조 없음')
-    elif n >= 24 and not 0.30 <= h / n <= 0.95: P.append(f'{w} {name} 강조 비율 {h / n:.0%}')
-    rest = HL.sub('', s)
-    if '{' in rest or '}' in rest: P.append(f'{w} {name} 강조 괄호 짝 안 맞음')
-    for m in ms:
-        if m != m.strip() or len(m) > 30: P.append(f'{w} {name} 강조 덩어리 "{m}"')
-    return plain
+    if '{{' in s or '}}' in s: P.append(f'{w} {name} 강조 표시 남음')
+    return s.replace('{{', '').replace('}}', '')
 
 def sub_line(w, name, s, lo, hi, nlo, nhi):
     core = re.sub(r' \((제목 기준|채널 전언)\)$', '', hl_check(w, name, s, nlo, nhi))
@@ -118,8 +110,8 @@ def check(x, its):
         if i not in NODES and i not in NEWIND: P.append(f'{w} ind {i}')
     for s in [x['title'], one, x['check']] + x.get('facts', []):
         if '|' in s or '**' in s: P.append(f'{w} 금지 문자')
-    for s in [x['check']] + x.get('facts', []) + [it.get('t', '') for it in its]:  # s·added는 강조 허용
-        if '{{' in s: P.append(f'{w} 제목·한줄 밖 강조')
+    for s in [x['check']] + x.get('facts', []) + [it.get('t', '') for it in its] + [f.get('t', '') for f in x.get('fed') or []]:
+        if '{{' in s: P.append(f'{w} 강조 표시 남음')
     for f in x.get('facts', []):
         if not re.search(r'\[(사실|채널|제목|추론|미확인)\]$', f.strip()): P.append(f'{w} 꼬리표 없는 사실 줄 …{f[-12:]}')
     if x['basis'] not in ('verified', 'partial', 'title', 'channel'): P.append(f'{w} basis {x["basis"]}')

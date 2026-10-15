@@ -309,7 +309,6 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .vcn{appearance:none;border:0;background:var(--card);color:var(--ink);font:inherit;font-size:13px;font-weight:600;border-radius:999px;padding:0 9px;line-height:1.75;cursor:pointer}
 .vcn:hover{background:var(--card-strong)}
 .vf{font-weight:700;color:var(--accent-strong);white-space:nowrap}
-.vt mark{font-weight:600}
 .item.is-read .vcrow,.item.is-read .vf{color:var(--faint)}
 .item.is-read .vcn{color:var(--faint)}
 .imeta button.itag{appearance:none;border:0;background:none;padding:0;font:inherit;font-size:12.5px;color:var(--accent-strong);font-weight:600;cursor:pointer}
@@ -480,10 +479,6 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   .foot{padding:18px 18px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-/* 제목·한줄 요약의 {{강조}}: 회색 바탕 굵은 글씨. 제목은 원래 굵기 유지, 읽은 뉴스는 흐린 색을 따름. */
-.ttl mark{font-weight:inherit}
-.one mark,.prev mark{font-weight:600}
-.item.is-read mark{color:inherit}
 /* 묶음 뉴스: 더해진 내용 한 줄, 원문별 한줄 요약 */
 .add{margin-top:4px;font-size:14px;line-height:1.6;color:var(--body);max-width:70ch}
 .add .ak{display:inline-block;margin-right:6px;padding:0 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent-strong);font-size:12px;font-weight:700;line-height:20px;vertical-align:1px}
@@ -582,7 +577,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   const labeled = t => esc(t).replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]/g, (m, a, b) => ' <span class="lb">' + a + b + '</span>');
   function rich(t) {
     let s = esc(t);
-    s = s.replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+    s = s.replace(/\{\{|\}\}/g, '');
     s = s.replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]\s*$/, (m, a, b) => ' <span class="lb">' + a + esc(b) + '</span>');
     return s;
   }
@@ -873,12 +868,12 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   }
 
   /* 본문 표기: {{강조}}, {f:사실}·{p:회사 발표}·{a:증권사}·{i:추론}·{u:미확인} 꼬리표, [글자](주소) 링크. 예전 꼬리표 [사실]·[추론]도 읽습니다. */
-  // 제목·한줄 요약: {{강조}}만 회색 바탕 굵은 글씨(mark)로, 나머지는 글자 그대로.
-  const hl = t => esc(t).replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+  // 강조 {{ }}는 보이지 않게(2026-10-15 사용자 지시: 회색 강조를 모두 지움). 저장된 글의 괄호만 떼고 글자는 그대로 둡니다.
+  const hl = t => esc(plain(t));
   const EVK = { '사실': 'f', '추론': 'i', '귀납': 'i', '연역': 'i', '유추': 'i', '추측': 'i', '미확인': 'u' };
   function rt(t) {
     let s = esc(t);
-    s = s.replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+    s = s.replace(/\{\{|\}\}/g, '');
     s = s.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g, (m, a, u) => '<a href="' + u + '" target="_blank" rel="noopener">' + a + '</a>');
     s = s.replace(/\s*\{([fpaiu]):([^{}]+)\}/g, (m, c, a) => '<span class="ev ' + c + '">' + a + '</span>');
     s = s.replace(/\s*\[(사실|추론|귀납|연역|유추|추측|미확인)\]/g, (m, a) => '<span class="ev ' + EVK[a] + '">' + a + '</span>');

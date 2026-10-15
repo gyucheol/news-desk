@@ -534,7 +534,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   const labeled = t => esc(t).replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]/g, (m, a, b) => ' <span class="lb">' + a + b + '</span>');
   function rich(t) {
     let s = esc(t);
-    s = s.replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+    s = s.replace(/\{\{|\}\}/g, '');
     s = s.replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]\s*$/, (m, a, b) => ' <span class="lb">' + a + esc(b) + '</span>');
     return s;
   }

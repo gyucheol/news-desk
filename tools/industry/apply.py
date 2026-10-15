@@ -16,7 +16,7 @@ def check_intro(i, it):
     for r in it.get('reading') or []:
         if not r.get('news') or not r.get('means'): P.append(f'{i} intro.reading 빈 칸')
     for s in [it.get('what', ''), it.get('money', ''), it.get('drivers', '')] + [r.get('means', '') for r in it.get('reading') or []]:
-        if s.count('{{') != s.count('}}'): P.append(f'{i} intro 강조 괄호 짝')
+        if '{{' in s or '}}' in s: P.append(f'{i} intro 강조 표시 남음(10월 15일부터 강조 안 씀)')
 os.makedirs(f'{W}/save', exist_ok=True)
 orders = {}
 for f in sorted(glob.glob(f'{W}/out/*.json')):

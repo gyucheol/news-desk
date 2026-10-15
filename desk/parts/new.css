@@ -303,7 +303,6 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .vcn{appearance:none;border:0;background:var(--card);color:var(--ink);font:inherit;font-size:13px;font-weight:600;border-radius:999px;padding:0 9px;line-height:1.75;cursor:pointer}
 .vcn:hover{background:var(--card-strong)}
 .vf{font-weight:700;color:var(--accent-strong);white-space:nowrap}
-.vt mark{font-weight:600}
 .item.is-read .vcrow,.item.is-read .vf{color:var(--faint)}
 .item.is-read .vcn{color:var(--faint)}
 .imeta button.itag{appearance:none;border:0;background:none;padding:0;font:inherit;font-size:12.5px;color:var(--accent-strong);font-weight:600;cursor:pointer}

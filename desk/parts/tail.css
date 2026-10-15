@@ -28,10 +28,6 @@
   .foot{padding:18px 18px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-/* 제목·한줄 요약의 {{강조}}: 회색 바탕 굵은 글씨. 제목은 원래 굵기 유지, 읽은 뉴스는 흐린 색을 따름. */
-.ttl mark{font-weight:inherit}
-.one mark,.prev mark{font-weight:600}
-.item.is-read mark{color:inherit}
 /* 묶음 뉴스: 더해진 내용 한 줄, 원문별 한줄 요약 */
 .add{margin-top:4px;font-size:14px;line-height:1.6;color:var(--body);max-width:70ch}
 .add .ak{display:inline-block;margin-right:6px;padding:0 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent-strong);font-size:12px;font-weight:700;line-height:20px;vertical-align:1px}

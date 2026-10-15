@@ -14,7 +14,7 @@
 ## 1. 입력
 - /home/user/news-desk/work/live14/chains/<id>.json — 기존 페이지(summary, nodes의 id·name·role·companies·indicators, cycle). 크므로 필요한 필드만 python3로 뽑아 읽으세요(flows·insight·history는 읽지 않아도 됩니다).
 - data/industry-2026-10-14/news/<id>.tsv — 데스크에 들어온 이 산업 뉴스(날짜, id, 제목, 한줄 요약, 기존 노드 표시).
-- 강조 기준: /home/user/news-desk/tools/cardkit/GUIDE-short.md
+- 강조 {{ }}를 쓰지 않습니다(2026-10-15 사용자 지시: "회색 강조하는 거 다 지워줘 앞으로도").
 
 ## 2. 출력 — data/industry-2026-10-14/intro/<id>.json
 ```
@@ -36,7 +36,7 @@
 - reading: 3~5개. news/<id>.tsv에 실제로 자주 나오는 뉴스 유형을 "이런 뉴스가 나오면 → 기존 노드 중 어디에서 공급·수요·가격 중 무엇이 어느 쪽으로 움직인 것이고, 다음에 무엇을 확인하면 되는지"로 풉니다. means 안에 기존 노드 이름(name)을 그대로 씁니다.
 - terms: 3~6개. 이 산업 뉴스에 자주 나오는 낯선 용어를 한 줄로.
 - missing: 뉴스 목록을 훑어 기존 노드 어디에도 붙이기 어려운 뉴스 유형이 있으면 적습니다(없으면 빈 배열). 노드를 직접 고치지는 않습니다.
-- 문체: '~입니다/~합니다'. 쉬운 말로 정확하게. what·money·drivers와 reading.means에는 강조 {{ }}를 GUIDE-short.md 기준(뼈대, 50~65%)으로 넣고, watch·players·terms에는 넣지 않습니다.
+- 문체: '~입니다/~합니다'. 쉬운 말로 정확하게. 어느 칸에도 강조 {{ }}를 넣지 않습니다.
 - 매크로(macro)는 산업이 아니라 거시 환경이므로 what은 '이 페이지가 다루는 것(중앙은행·금리·물가·재정·환율·유동성·원자재·지정학·반도체 투자 사이클)과 그것이 다른 산업으로 전해지는 길', money는 '돈의 값(금리)과 양(유동성)이 자산 가격과 기업 이익에 닿는 방식'으로 바꿔 씁니다.
 
 ## 3. 끝나면

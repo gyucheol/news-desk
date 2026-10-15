@@ -44,7 +44,7 @@ items.append({
     "힐리 재무장관이 예산안 발표를 앞두고 쏟아지는 추측을 누그러뜨리고 나서면서, 10월 28일 발표 전 시장 기대를 관리하려 하고 있다 (제목 기준)"),
   I("필수소비재·방산 강세에 英 증시 상승…예산 차입 보도로 심리 개선", R, "2026-10-15", "https://www.reuters.com/world/uk/uk-stocks-gain-consumer-staples-defence-budget-borrowing-report-lifts-sentiment-2026-10-14/",
     "필수소비재·방산주가 오르고 예산 조치를 추가 차입 없이 메운다는 보도가 투자심리를 끌어올리면서, 영국 증시가 상승했다 (제목 기준)"),
-  I("힐리 '적자 감축 경로 그대로 지키겠다'", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/uk-s-healey-says-he-will-stay-the-path-on-deficit-reduction",
+  I("英 힐리 재무장관 '적자 감축 경로 그대로 지키겠다'", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/uk-s-healey-says-he-will-stay-the-path-on-deficit-reduction",
     "힐리 재무장관이 적자 감축 경로를 그대로 지키겠다고 밝히면서, 예산안에서 차입을 늘리는 대규모 부양책이 나올 가능성이 낮아졌다 (제목 기준)"),
   I("로이터 설문 '힐리, 재정 여력 약 150억~160억 파운드로 다시 쌓아야'", R, "2026-10-15", "https://www.reuters.com/world/uk/uks-healey-should-rebuild-fiscal-headroom-about-15-16-billion-reuters-poll-shows-2026-10-15/",
     "로이터 설문 응답자들이 힐리 재무장관이 재정 여력을 약 150억~160억 파운드로 다시 쌓아야 한다고 보면서, 예산안의 증세·지출 조정 폭이 커질 수 있다 (제목 기준)")
@@ -98,7 +98,7 @@ items.append({
     "EU 집행위가 무역 데이터를 분석해 수입 급증 업종을 가려내는 평가에 착수하면서, 하이브리드차식 쿼터가 다른 업종에 적용될 수 있다"),
   I("中, EU 하이브리드차 상한 수용…EU는 301조식 무역수단 추진", "텔레그램 상상인 김진범", "2026-10-16", "https://t.me/PipeBeom/6718",
     "중국이 EU의 하이브리드차 연 35만 대 수입 상한을 받아들인 가운데 독·불이 301조와 비슷한 폭넓은 관세 수단을 추진하면서, 규제가 화학 등 다른 제조업으로 번질 수 있다"),
-  I("EU, 대중 무역 쿼터 대상 업종 추가 검토", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/eu-assesses-more-sectors-in-china-trade-for-quotas",
+  I("EU, 대중 무역 쿼터 적용 대상 업종 추가로 검토", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/eu-assesses-more-sectors-in-china-trade-for-quotas",
     "EU가 쿼터를 적용할 대중 교역 업종을 더 살피면서, 화학·기계 등 중국산 제품의 유럽 수출 여건이 빡빡해질 수 있다"),
   I("EU, 중국산 수입 차단 권한 담은 무역 무기 강화", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/eu-prepares-trade-tool-that-could-block-china-from-single-market",
     "EU가 중국산 수입을 단일시장에서 막을 수 있는 권한을 담은 무역 수단을 준비하면서, 중국 기업의 유럽 시장 접근이 위협받게 됐다 (제목 기준)"),
@@ -135,19 +135,19 @@ items.append({
  "items": [
   I("골드만 '원유 운송료 배럴당 30달러…무르반-바스라 가격차 43달러'", "텔레그램 트릴리온", "2026-10-14", "https://t.me/Trillion_labs/10442",
     "골드만삭스가 세계 원유 운송료가 1년 전 배럴당 4달러에서 30달러로 올랐다고 분석하면서, 호르무즈 안팎 원유 등급 간 가격차가 43달러로 벌어졌다"),
-  I("치솟는 원유 운임, 연료 공급 위험으로 부상", B, "2026-10-14", "https://www.bloomberg.com/news/newsletters/2026-10-14/soaring-oil-freight-is-becoming-a-risk-to-fuel-supply",
+  I("치솟는 원유 운임, 연료 공급을 위협하는 위험으로 부상", B, "2026-10-14", "https://www.bloomberg.com/news/newsletters/2026-10-14/soaring-oil-freight-is-becoming-a-risk-to-fuel-supply",
     "원유 운임 급등이 연료 공급을 위협하는 요인으로 떠오르면서, 수입국의 석유제품 조달 차질 우려가 커지고 있다 (제목 기준)"),
   I("美, 운임 낮추려 그림자 선단 일부 제재 해제 논의…로이터", "텔레그램 미국 주식 인사이더", "2026-10-15", "https://t.me/insidertracking/66315",
     "미국이 글로벌 운임을 낮추고 중동 원유 흐름을 늘리려 그림자 선단 일부 선박의 제재 해제를 논의한다는 영문 속보가 나오면서, 유조선 공급 확대 기대가 생겼다"),
-  I("美, 그림자 함대 일부 선박 제재 완화 논의", "텔레그램 미국 주식 인사이더", "2026-10-15", "https://t.me/insidertracking/66319",
+  I("美, 운임 인하 위해 그림자 함대 일부 선박 제재 완화 논의", "텔레그램 미국 주식 인사이더", "2026-10-15", "https://t.me/insidertracking/66319",
     "미국 정부가 중동 석유 수송을 살리려 그림자 함대 일부 선박의 제재 완화를 논의 중이라는 관계자 발언이 한국어로 전해지면서, 운임 하락 가능성이 거론됐다"),
   I("美, 불법 선박 제재 완화 검토…채널 '새 카드'", "텔레그램 트릴리온", "2026-10-15", "https://t.me/Trillion_labs/10531",
     "미국이 불법 선박 제재 완화를 검토한다는 소식을 채널이 운임 대응을 위한 새 카드로 평가하면서, 그림자 선단 규제 완화 가능성에 관심이 쏠렸다"),
-  I("英 재무장관, 러시아 해운 제재 강화 촉구", R, "2026-10-15", "https://www.reuters.com/world/uk/uk-finance-minister-calls-tighter-russian-shipping-sanctions-2026-10-15/",
+  I("英 재무장관, 러시아 해운에 대한 제재 강화 촉구", R, "2026-10-15", "https://www.reuters.com/world/uk/uk-finance-minister-calls-tighter-russian-shipping-sanctions-2026-10-15/",
     "영국 재무장관이 러시아 해운 제재를 더 조여야 한다고 촉구하면서, 미국의 완화 검토와 반대 방향의 압박이 나왔다 (제목 기준)"),
   I("트럼프 행정부, 러·이란·베네수엘라 원유 나른 유조선단 제재 완화 계획", "텔레그램 트릴리온", "2026-10-15", "https://t.me/Trillion_labs/10548",
     "트럼프 행정부가 러시아·이란·베네수엘라 석유를 실어 온 유조선단의 제재 완화를 계획한다고 채널이 전하면서, 사상 최고 운임을 낮추려는 대응이 구체화되고 있다"),
-  I("원유 운송비 급등에 주유소·식료품 값 상승", R, "2026-10-15", "https://www.reuters.com/business/energy/oil-shipping-costs-spike-lifting-prices-pump-grocery-2026-10-15/",
+  I("원유 운송비 급등에 주유소 기름값·식료품 값까지 상승", R, "2026-10-15", "https://www.reuters.com/business/energy/oil-shipping-costs-spike-lifting-prices-pump-grocery-2026-10-15/",
     "원유 운송비가 급등해 주유소 기름값과 식료품 가격까지 끌어올리면서, 운임 부담이 소비자 물가로 번지고 있다 (제목 기준)"),
   I("분석가들 '美 그림자 선단 제재 완화로 풀리는 유조선 많지 않을 것'", R, "2026-10-16", "https://www.reuters.com/business/energy/us-plan-ease-shadow-fleet-sanctions-unlikely-free-up-many-tankers-analysts-say-2026-10-15/",
     "분석가들이 제재 선박 대부분이 이미 운항 중이고 보험사가 EU·영국 규정에 묶여 있다고 지적하면서, 미국의 완화가 운임을 크게 낮추기 어렵다고 봤다"),
@@ -180,9 +180,9 @@ items.append({
  "items": [
   I("베네수엘라 최고 경제고문 '채무 지속가능성 분석 공개 추진'", R, "2026-10-14", "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/",
     "베네수엘라 최고 경제고문이 채무 지속가능성 분석을 공개하겠다고 밝히면서, 채권자들과의 채무 재조정 논의의 기초 자료가 나올 수 있다 (제목 기준)"),
-  I("미국, 베네수엘라 최고위 입법자 제재 해제", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
+  I("미국, 관계 해빙 속 베네수엘라 최고위 입법자 제재 해제", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
     "미국이 관계 해빙 속에 베네수엘라 국회의장의 제재를 해제하면서, 양국 관계 정상화가 한 걸음 더 나아갔다"),
-  I("美, 베네수엘라 의회 수장 제재 해제", R, "2026-10-15", "https://www.reuters.com/business/energy/us-lifts-sanctions-head-venezuela-legislature-2026-10-14/",
+  I("美 재무부, 베네수엘라 의회 수장에 대한 제재 해제", R, "2026-10-15", "https://www.reuters.com/business/energy/us-lifts-sanctions-head-venezuela-legislature-2026-10-14/",
     "미국 재무부가 베네수엘라 의회 수장의 미국 내 자산 동결을 풀면서, 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다")
  ]
 })
@@ -212,7 +212,7 @@ items.append({
  ],
  "added": "이번 블룸버그·로이터 6건과 텔레그램 1건으로 EU 정상회의의 단기 에너지 대책 논의, 이탈리아의 가스 가격 상한 합의 근접, 체코 정유업 횡재세, 집행위의 힘든 겨울 경고가 추가됐다",
  "items": [
-  I("체코 하원, 정유업 횡재세 1차 지지", R, "2026-10-14", "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/",
+  I("체코 하원, 정유 부문 횡재세 법안에 1차 지지", R, "2026-10-14", "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/",
     "체코 하원이 정유업 횡재세 법안을 1차로 지지하면서, 높은 에너지값 속 정유사 이익에 대한 과세가 현실화될 수 있다 (제목 기준)"),
   I("멜로니 '이탈리아, EU와 가스 가격 상한 합의 근접'", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/italy-is-nearing-deal-with-eu-on-gas-price-cap-meloni-says",
     "멜로니 총리가 이탈리아가 EU와 가스 가격 상한 합의에 다가섰다고 밝히면서, 가스값 급등에 상한을 두는 대응이 가시화될 수 있다 (제목 기준)"),
@@ -326,7 +326,7 @@ items.append({
  "items": [
   I("SEC, 로빈후드 통한 Cboe의 KPI 예측시장 베팅 승인", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-14/sec-approves-cboe-s-kpi-prediction-market-bets-with-robinhood",
     "SEC가 로빈후드를 통해 거래되는 Cboe의 KPI 예측시장 상품을 승인하면서, 증권 규제 틀 안의 예측시장이 넓어질 전망이다 (제목 기준)"),
-  I("급성장하는 미국 중간선거 베팅 시장의 내막", R, "2026-10-15", "https://www.reuters.com/legal/government/inside-booming-market-us-midterm-election-bets-2026-10-14/",
+  I("급성장하는 미국 중간선거 베팅 시장의 내막 들여다보기", R, "2026-10-15", "https://www.reuters.com/legal/government/inside-booming-market-us-midterm-election-bets-2026-10-14/",
     "미국 중간선거를 겨냥한 베팅 시장이 급성장하면서, 선거 결과에 돈을 거는 예측시장 계약 거래가 크게 늘고 있다 (제목 기준)"),
   I("대만, 선거 베팅 의혹에 코인베이스·칼시 차단", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/taiwan-blocks-coinbase-kalshi-over-suspected-election-bets",
     "대만 법원이 선거 베팅 의혹으로 코인베이스·칼시 접속 제한을 허용하면서, 11월 28일 지방선거를 앞두고 해외 예측시장 이용이 막혔다")
@@ -359,7 +359,7 @@ items.append({
  "items": [
   I("MSCI '인도네시아 신흥시장 지위 협의 대상'", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
     "MSCI가 인도네시아의 신흥시장 지위를 협의에 부치면서, 지분 투명성 개선이 없으면 내년 강등이 현실화될 수 있다"),
-  I("MSCI, 인도네시아 독자시장 강등 검토", R, "2026-10-16", "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/",
+  I("MSCI, 인도네시아를 독자시장으로 강등하는 방안 검토", R, "2026-10-16", "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/",
     "MSCI가 인도네시아를 프런티어가 아닌 독자시장으로 낮추는 방안을 검토하면서, 개혁 성과가 없으면 신흥시장 지수 추종 자금이 빠질 수 있다")
  ]
 })
@@ -412,7 +412,7 @@ items.append({
  "inds": ["fin"], "nodes": [],
  "vc": [{"ind": "fin", "node": "regulation", "f": "-", "dir": "flat", "k": "실제", "t": "금융사 16곳 해킹 피해로 보안 책임 강화 예고"}],
  "items": [
-  I("한국, 해킹 피해 금융사 총 16곳 확인", R, "2026-10-14", "https://www.reuters.com/world/south-korea-finds-hacking-incidents-total-16-financial-firms-2026-10-14/")
+  I("한국, 해킹 피해 입은 금융사 총 16곳으로 확인", R, "2026-10-14", "https://www.reuters.com/world/south-korea-finds-hacking-incidents-total-16-financial-firms-2026-10-14/")
  ]
 })
 
@@ -450,7 +450,7 @@ items.append({
     "에어트렁크·퍼머스·SB에너지가 상장을 철회하거나 미루면서, 데이터센터 투자자들의 평가 기준이 성장 규모에서 수익성과 부채 상환 능력으로 옮겨가고 있다"),
   I("시장 매도세·금리 상승, AI 데이터센터 거래 붐 시험대", R, "2026-10-16", "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
     "시장 매도세와 금리 상승이 이어지면서, 활황이던 AI 데이터센터 거래와 상장이 자금 조달 시험대에 올랐다"),
-  I("글로벌 시장 긴급: AI 관련 CDS", R, "2026-10-16", "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
+  I("글로벌 시장 긴급: AI 관련 신용부도스와프(CDS)", R, "2026-10-16", "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
     "AI 관련 기업의 신용부도스와프가 시장의 긴급 관심사로 떠오르면서, AI 부채에 대한 신용 위험 경계가 커지고 있다 (제목 기준)"),
   I("엔스케일 350억 달러 IPO 계획, AI 데이터센터 지연에 혼선", B, "2026-10-16", "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays",
     "엔스케일의 노르웨이 데이터센터가 6개월 늦어져 30MW 중 6.4MW만 가동되면서, 약 350억 달러 가치를 노린 상장 계획이 흔들리고 있다")
@@ -482,7 +482,7 @@ items.append({
  "items": [
   I("넷플릭스, 성장 둔화에 인력 6%·약 1,000명 감원", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/netflix-to-cut-6-of-global-staff-about-1-000-jobs-wsj-says",
     "넷플릭스가 성장 둔화 속에 전체 인력의 6%인 약 1,000명을 줄이기로 하면서, 2022년 이후 최대 규모의 비용 조정에 나섰다"),
-  I("WSJ '넷플릭스, 일자리 약 6% 감축'", R, "2026-10-15", "https://www.reuters.com/business/world-at-work/netflix-cuts-about-6-jobs-wsj-reports-2026-10-14/",
+  I("WSJ '넷플릭스, 전체 일자리 약 6% 감축'", R, "2026-10-15", "https://www.reuters.com/business/world-at-work/netflix-cuts-about-6-jobs-wsj-reports-2026-10-14/",
     "WSJ가 넷플릭스의 약 6% 감원을 보도하면서, 감원이 제품·기술·법무·인사 부문에 집중된다는 점이 드러났다"),
   I("넷플릭스의 영화·TV 경영진 감원, 프로그램 편성 고민 시사", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-14/netflix-cuts-of-film-and-tv-executives-hint-at-programming-woes",
     "넷플릭스가 영화·TV 부문 경영진까지 줄이면서, 콘텐츠 편성 전략에 문제가 있다는 해석이 나오고 있다 (제목 기준)")

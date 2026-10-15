@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0350",
+ "num": 350,
+ "key": "mix-G4-064-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T03:20:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/apple-asks-us-court-overturn-landmark-57-billion-patent-verdict-2026-10-14/",
+ "origTitle": "",
+ "headline": "애플, 택션 특허 57억 달러 배상 평결 파기·재심 요청",
+ "src": [
+  {
+   "o": "9to5Mac",
+   "d": "2026-10-13",
+   "u": "https://9to5mac.com/2026/10/13/apple-challenges-tactions-5-7b-patent-verdict-says-damages-were-based-on-guesswork/"
+  },
+  {
+   "o": "PYMNTS",
+   "d": "2026-10-14",
+   "u": "https://www.pymnts.com/cpi-posts/apple-seeks-to-overturn-record-5-7-billion-patent-verdict/"
+  }
+ ],
+ "items": [
+  {
+   "t": "애플, 美 법원에 57억 달러 기록적 특허 배상 평결 파기 요청",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/litigation/apple-asks-us-court-overturn-landmark-57-billion-patent-verdict-2026-10-14/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "애플, 택션 특허 57억 달러 배상 평결 파기·재심 요청",
+ "one": "애플이 탭틱 엔진 특허 침해로 택션에 57억 달러를 물라는 배심 평결에 대해 손해액이 추측에 근거했다며 파기나 재심을 요청하면서, 기록적 특허 배상금의 확정 여부가 법원 판단에 달리게 됐다",
+ "facts": [
+  "무엇이: 애플이 10월 13일(미국 시간) 남부 캘리포니아 연방법원에 택션 테크놀로지 특허 소송의 57억 달러 배상 평결을 뒤집거나 재심을 열어 달라고 요청했습니다 [사실]",
+  "배경: 배심은 9월 25일 애플이 탭틱 엔진 관련 택션 특허 2건을 침해했다고 봤지만 고의 침해는 인정하지 않았습니다 [사실]",
+  "논리: 애플은 택션이 특허 기술의 가치를 입증하지 못했고 손해 산정 전문가도 재판 전 배제됐다며 배상액이 추측에 기댔다고 주장했습니다 [사실]",
+  "상태: 판사는 아직 평결 파기나 재심 여부를 결정하지 않았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "배상액 57억 달러, 요청 내용, 평결일·고의성 판단, 미결 상태는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "특허 배상 다툼은 수급보다 법적 비용 문제"
+  }
+ ]
+}

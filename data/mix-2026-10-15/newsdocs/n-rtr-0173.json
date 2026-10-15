@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "카라한 발언과 커메르츠방크 반론, 환율·물가 수치를 검색 결과 요약으로 확인. 금리 경로는 출처마다 엇갈려 쓰지 않음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 파티흐 카라한 총재는 투자자들에게 향후 더 급격한 평가절하를 피하려고 리라가 더 빨리 약해지도록 허용하고 있으며 경기 둔화로 환율의 물가 전가가 줄었다고 설명했다 [사실]",
+  "반론: 커메르츠방크는 최근 리라 절하 속도에 뚜렷한 가속이 없었고 연 20% 안팎의 관리된 절하가 30~35%의 국내 물가보다 느려 실질환율이 절상되고 있다고 봤다 [사실]",
+  "환율: 10월 15일 달러·리라 환율은 49.41리라로 리라 가치가 1년 새 약 18% 떨어졌다 [사실]",
+  "기존: 카라한 총재는 10월 7일 공급 압력이 걷히면 디스인플레이션이 다시 빨라질 것이라며 신중한 기조 유지를 밝혔고, 9월 물가상승률은 29.73%로 30% 아래로 내려왔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예, 급격한 평가절하 피하려 리라 약세 속도 허용…물가는 30% 아래",
+ "id": "n-rtr-0173",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "튀르키예 중앙은행 총재 \"신중 기조 속 디스인플레이션 다시 속도 낼 것\"",
+   "u": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/"
+  },
+  {
+   "t": "튀르키예, 향후 평가절하 위험 피하려 리라 약세 속도 높여 허용",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/turkey-lets-lira-fall-quicker-to-avoid-future-devaluation-risk",
+   "s": "튀르키예 중앙은행이 나중의 급격한 평가절하를 피하려고 리라가 더 빨리 약해지도록 허용하면서 관리된 리라 절하 경로가 가팔라질 수 있다"
+  }
+ ],
+ "key": "bnd-C332-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/fx",
+  "macro/inflation"
+ ],
+ "num": 173,
+ "one": "튀르키예 중앙은행이 신중한 기조를 유지하면서 앞으로의 급격한 평가절하를 피하려고 리라가 더 빨리 약해지도록 허용한다고 밝혔지만, 연 20% 안팎의 절하 속도가 30%대 물가보다 느려 리라의 실질 가치가 계속 높아질 수 있다는 지적이 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T18:15:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Hurriyet Daily News",
+   "u": "https://www.hurriyetdailynews.com/disinflation-expected-to-accelerate-karahan-227834"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Middle East Online",
+   "u": "https://www.middle-east-online.com/en/turkey%E2%80%99s-central-bank-says-disinflation-track-crisis-contained"
+  },
+  {
+   "o": "FXStreet(커메르츠방크)",
+   "d": "2026-10-15",
+   "u": "https://www.fxstreet.com/news/turkish-lira-managed-depreciation-fails-to-remove-devaluation-risk-commerzbank-202610150759"
+  },
+  {
+   "o": "Tradingpedia",
+   "d": "2026-10-15",
+   "u": "https://www.tradingpedia.com/2026/10/15/commerzbank-warns-of-ongoing-devaluation-risks-for-lira/"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10-15",
+   "u": "https://tradingeconomics.com/turkey/currency"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예, 급격한 평가절하 피하려 리라 약세 속도 허용…물가는 30% 아래",
+ "url": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/",
+ "added": "이번 블룸버그 1건으로 튀르키예 중앙은행이 향후 평가절하 위험을 피하려고 리라가 더 빨리 약해지도록 허용하고 있다는 내용이 추가됐다",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "중앙은행이 리라 약세 속도 높여 허용"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

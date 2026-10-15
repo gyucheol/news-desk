@@ -1,0 +1,84 @@
+{
+ "id": "n-rtr-0319",
+ "num": 319,
+ "key": "mix-G1-040-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T08:37:00+09:00",
+ "url": "https://www.reuters.com/business/us-floats-fees-spanish-ships-caps-olive-oil-imports-over-port-dispute-2026-10-14/",
+ "origTitle": "",
+ "headline": "美, 스페인 선박에 항차당 20만 달러 수수료·올리브유 수입 제한 검토",
+ "src": [
+  {
+   "o": "Marine Insight",
+   "d": "2026-10-14",
+   "u": "https://www.marineinsight.com/u-s-threatens-sanctions-on-spanish-shipping-olive-oil-imports-amid-trade-dispute/"
+  },
+  {
+   "o": "Brussels Signal",
+   "d": "2026-10-14",
+   "u": "https://brusselssignal.eu/2026/10/us-proposes-fees-on-spanish-ships-and-import-curbs-over-port-bans/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 항만 분쟁에 스페인 선박 수수료·올리브유 수입 상한 검토",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/us-floats-fees-spanish-ships-caps-olive-oil-imports-over-port-dispute-2026-10-14/",
+   "s": "미국이 항만 입항 분쟁을 이유로 스페인 선박에 수수료를 물리고 올리브유 수입에 상한을 두는 방안을 꺼내면서, 스페인 해운사와 올리브유 수출이 부담을 질 수 있다"
+  },
+  {
+   "t": "미국, 스페인 겨냥 금수 품목 리스트 작성…EU 무역협정 타격 우려",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-15",
+   "u": "https://t.me/The_MariTimes/63721",
+   "s": "미국 정부가 스페인에 매길 금수 품목 리스트를 만들고 있다는 소식에, 채널은 유럽과의 무역협정에 타격을 주고 유럽을 갈라놓으려는 전략이라고 해석했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "shipping",
+  "agri"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "美, 스페인 선박에 항차당 20만 달러 수수료·올리브유 수입 제한 검토",
+ "one": "미 연방해사위원회가 미국 선박 입항 거부에 맞서 스페인 국적선에 항차당 20만 달러 수수료와 올리브유 등 수입 제한을 제안하면서, 60일 의견수렴 뒤 확정되면 스페인 해운·식품 수출과 미-EU 무역 관계에 부담이 될 수 있다",
+ "facts": [
+  "무엇이: 미 연방해사위원회(FMC)가 스페인 국적선이 미국 항구에 들어올 때마다 항차당 20만 달러를 물리고 향수·화장품, 유지류, 도자기, 석재, 과자류 등 5개 품목군 수입 제한을 검토하는 방안을 제안했다 [사실]",
+  "발단: 스페인은 2024년 11월 이스라엘을 오가는 화물을 실었다는 이유로 미국 해운안보프로그램 소속 미국 국적선 3척의 입항을 거부했다 [사실]",
+  "규모: 스페인의 2025년 대미 올리브유 수출은 8억 3,690만 달러였다 [사실]",
+  "일정: 조치는 아직 시행 전이며 60일 의견수렴과 스페인 측 청문 요청 기회를 거치고, FMC는 스페인이 보복하면 수수료를 올리고 품목을 늘리겠다고 경고했다 [사실]",
+  "해석: 채널은 미국이 유럽에 스페인을 버리라는 양자택일을 강요해 유럽 분열을 노린다고 봤다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "FMC 제안 내용, 품목군, 올리브유 수출액, 60일 의견수렴은 검색 결과 요약으로 확인. 금수 품목 리스트가 EU 무역협정을 흔든다는 해석은 채널 의견",
+ "added": "이번 텔레그램 1건으로 미국이 스페인 겨냥 금수 품목 리스트를 만들고 있으며 이것이 EU와의 무역협정을 흔들 수 있다는 해석이 추가됐다",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "ports",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "스페인 국적선에 항차당 20만 달러 수수료 제안"
+  },
+  {
+   "ind": "agri",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "올리브유 등 스페인산 수입 제한 검토"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

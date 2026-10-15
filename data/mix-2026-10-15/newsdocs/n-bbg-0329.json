@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0329",
+ "num": 329,
+ "key": "mix-G4-032-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T16:47:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-robots-china-is-beating-the-us-to-5-trillion-market",
+ "origTitle": "",
+ "headline": "中 로봇 업체들, 공간 카메라·가상 데이터로 휴머노이드 학습 비용 낮춰",
+ "src": [
+  {
+   "o": "Unite.AI",
+   "d": "2026-10-14",
+   "u": "https://www.unite.ai/hesai-launches-kosmo-to-turn-real-world-scans-into-robot-training-data/"
+  },
+  {
+   "o": "AsiaOne",
+   "d": "2026-10-15",
+   "u": "https://www.asiaone.com/digital/chinese-startup-dexforce-trains-humanoid-robots-using-virtual-data-slash-costs"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 로봇: 중국, 5조 달러 시장에서 미국 앞서",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-robots-china-is-beating-the-us-to-5-trillion-market",
+   "s": "블룸버그가 5조 달러 규모로 꼽히는 AI 로봇 시장에서 중국이 미국을 앞서 나가고 있다고 진단했다 (제목 기준)"
+  },
+  {
+   "t": "中 허사이, AI 로봇 보급 위한 공간 카메라 출시",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/technology/chinas-hesai-launches-spatial-camera-boost-ai-powered-robotics-adoption-2026-10-14/",
+   "s": "라이다 업체 허사이가 휴머노이드 AI 학습용 3D 공간 데이터를 모으는 카메라와 클라우드 플랫폼을 내놓으며 학습 데이터 비용 절감을 내세웠다"
+  },
+  {
+   "t": "中 스타트업 덱스포스, 가상 데이터로 휴머노이드 훈련해 비용 절감",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/technology/chinese-startup-dexforce-trains-humanoid-robots-using-virtual-data-slash-costs-2026-10-15/",
+   "s": "선전 스타트업 덱스포스가 사람 시연 대신 가상 환경의 합성 데이터로 휴머노이드를 훈련시켜 데이터 수집에 드는 시간과 비용을 줄이고 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "中 로봇 업체들, 공간 카메라·가상 데이터로 휴머노이드 학습 비용 낮춰",
+ "one": "허사이가 휴머노이드 학습용 3D 공간 데이터를 모으는 카메라 코스모를 내놓고 덱스포스가 가상 환경 합성 데이터로 로봇을 훈련시키면서, 중국 업체들이 로봇 학습 데이터 비용을 낮추는 가운데 AI 로봇 시장에서 중국이 미국을 앞선다는 평가가 나온다",
+ "facts": [
+  "무엇이: 허사이는 10월 14일 라이다·1인치 센서·관성측정장치를 묶은 공간 카메라 코스모 원과 클라우드 플랫폼 코스모 월드로 된 3D 데이터 엔진 코스모를 출시했다 [사실]",
+  "허사이 주장: 공간 하나를 찍으면 1만 개 넘는 학습 궤적을 만들어 같은 비용에 데이터가 100배라고 했지만, 이는 회사 주장이다 [사실]",
+  "덱스포스: 2021년 세워진 선전 스타트업 덱스포스는 작업장을 가상으로 만들어 로봇을 훈련한 뒤 실제 기계로 옮기며, 사람 시연은 한 동작을 100번 넘게 반복해야 한다고 설명했다 [사실]",
+  "시장: 블룸버그는 중국이 5조 달러 규모 AI 로봇 시장에서 미국을 앞서고 있다고 봤다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "허사이 코스모 출시와 덱스포스 가상 데이터 훈련은 검색 결과 요약으로 확인. 5조 달러 시장 평가는 블룸버그 제목 기준",
+ "added": "이번 로이터 2건으로 허사이의 로봇 학습용 공간 카메라 코스모 출시와 덱스포스의 가상 데이터 기반 휴머노이드 훈련 사례가 추가됐다",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "robotics",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "공간 카메라·가상 데이터로 로봇 학습 비용 절감"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

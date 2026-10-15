@@ -1,0 +1,96 @@
+{
+ "id": "n-bbg-0325",
+ "num": 325,
+ "key": "mix-G4-021-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/white-house-ai-task-force-to-hold-first-meeting-on-thursday",
+ "origTitle": "",
+ "headline": "백악관 '초지능' AI 태스크포스 첫 회의…美中, 정상회담 앞 AI 거버넌스 조율",
+ "src": [
+  {
+   "o": "Yahoo 뉴스",
+   "d": "2026-10-15",
+   "u": "https://www.yahoo.com/news/politics/articles/white-house-super-intelligence-task-191423857.html"
+  },
+  {
+   "o": "Phemex",
+   "d": "2026-10-15",
+   "u": "https://phemex.com/news/article/white-house-ai-working-group-to-hold-first-meeting-thursday-99929"
+  }
+ ],
+ "items": [
+  {
+   "t": "백악관 AI 태스크포스, 목요일 첫 회의 개최 예정",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/white-house-ai-task-force-to-hold-first-meeting-on-thursday",
+   "s": "백악관 AI 태스크포스가 목요일 첫 회의를 열면서, 트럼프 행정부의 AI 정책 틀을 짜는 각료급 논의가 본격화했다"
+  },
+  {
+   "t": "FTC 대변인 '트럼프 AI 태스크포스 목요일 회의'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/us/trumps-ai-task-force-meet-thursday-ftc-spokesperson-says-2026-10-15/",
+   "s": "FTC 대변인이 트럼프의 AI 태스크포스가 목요일 모인다고 확인하면서, 퍼거슨 FTC 위원장이 부위원장으로 참여하는 만큼 AI 기업 책임 문제가 논의될 전망이다"
+  },
+  {
+   "t": "美 재무부, 세계 파트너에 AI를 '초지능'으로 바꿔 부르자 압박",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
+   "s": "미국 재무부가 파트너국들에 AI를 '초지능'으로 바꿔 부르자고 압박하면서, 트럼프 행정부의 AI 용어를 국제 논의에 퍼뜨리려 하고 있다 (제목 기준)"
+  },
+  {
+   "t": "대형 AI 기업이 중간선거에 수백만 달러 쏟는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/why-big-ai-is-pouring-millions-into-the-midterms",
+   "s": "대형 AI 기업들이 중간선거에 수백만 달러를 쏟아부으면서, 정치권을 상대로 한 AI 업계의 영향력 다툼이 커지고 있다 (제목 기준)"
+  },
+  {
+   "t": "美·中, 11월 정상회담 앞두고 AI 거버넌스 협약 조율",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-16",
+   "u": "https://t.me/HANAchina/70490",
+   "s": "미국과 중국이 11월 시진핑-트럼프 회담을 앞두고 AI 거버넌스 협약을 조율하면서, 양국 간 AI 규칙 합의가 정상회담 의제로 떠올랐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "백악관 '초지능' AI 태스크포스 첫 회의…美中, 정상회담 앞 AI 거버넌스 조율",
+ "one": "트럼프 행정부가 각료급이 참여하는 AI 태스크포스 첫 회의를 열고 재무부가 파트너국에 AI를 '초지능'으로 부르자고 압박하는 가운데, 미·중이 11월 정상회담을 앞두고 AI 거버넌스 협약을 조율하면서 AI 기업 규제 방향이 정해질 전망이다",
+ "facts": [
+  "무엇이: 백악관 AI 태스크포스가 10월 15일(미 동부시각) 오후 4시 첫 회의를 열며, 각료 등 10여 명이 참석하고 제이 클레이턴 국가정보장이 위원장, 퍼거슨 FTC 위원장 등이 부위원장을 맡았습니다 [사실]",
+  "방향: 트럼프는 이 조직을 '초지능 태스크포스'로 부르며, 새 규제 대신 기존 책임법으로 AI 모델이 일으킨 피해에 기업 책임을 묻는 방안을 검토합니다 [사실]",
+  "재무부: 미국 재무부는 세계 파트너들에게 AI를 '초지능'으로 바꿔 부르자고 압박하고 있습니다 [제목]",
+  "미·중: 미국과 중국이 11월 시진핑-트럼프 회담을 앞두고 AI 거버넌스 협약을 조율하고 있습니다 [채널]",
+  "선거: 대형 AI 기업들이 중간선거에 수백만 달러를 쏟아붓고 있습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 태스크포스 첫 회의·위원장·책임법 검토 확인. 재무부 명칭 압박·AI 기업의 중간선거 지출은 제목 기준, 미·중 AI 거버넌스 조율은 채널 전언",
+ "added": "이번 10월 16일 글 3건으로 재무부의 '초지능' 명칭 압박, 대형 AI 기업의 중간선거 자금 투입, 미·중 AI 거버넌스 협약 조율이 추가됐다",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "백악관 AI 태스크포스 첫 회의, 규제 방향 논의 시작"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

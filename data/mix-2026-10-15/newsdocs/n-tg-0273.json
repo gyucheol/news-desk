@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "channel": "하나증권 중국전략",
+ "check": "검색 결과 요약(차이나글로벌사우스·에너지뉴스)으로 감원 규모와 직원 수 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 론지·트리나·징코·JA솔라·통웨이 5개사의 2025년 말 직원 수는 15만 4,061명으로 1년 새 4만 589명(21%) 줄었다 [사실]",
+  "누적: 앞선 해에도 약 31%를 줄여 2년 새 인력이 절반가량 사라졌다 [사실]",
+  "배경: 세계 폴리실리콘 설비가 연간 수요를 크게 웃돌아 공장 가동률이 낮고, 분석가들은 과잉설비가 2027년까지 이어질 것으로 본다 [사실]",
+  "기존: 통웨이·GCL 등은 10월 11일 항저우 비공개 회의에서 수요에 맞춘 자율 감산 실행안과 폴리실리콘·모듈 가격 하한선을 정했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "中 태양광 5대 기업, 지난해 4만 명 추가 감원…감산·가격 하한선 합의 이어 구조조정",
+ "id": "n-tg-0273",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "통웨이·GCL 등 中 태양광 대기업, 항저우서 출혈경쟁 방지 비공개 회의",
+   "u": "https://t.me/HANAchina/70336"
+  },
+  {
+   "t": "中 태양광 대기업, 과잉설비 지속에 지난해 4만 명 추가 감원",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/world-at-work/china-solar-giants-shed-another-40000-jobs-last-year-overcapacity-persists-2026-10-14/",
+   "s": "중국 태양광 5대 기업이 과잉설비 속에 지난해 인력을 4만 589명(21%) 줄이면서, 2년 새 인력이 절반가량 사라지는 구조조정이 이어졌다"
+  }
+ ],
+ "key": "mix-C176-2026-10-13",
+ "nodes": [
+  "power/modules",
+  "power/polysilicon"
+ ],
+ "num": 273,
+ "one": "론지·트리나·징코·JA솔라·통웨이 등 중국 태양광 5대 기업이 과잉설비 속에 지난해 인력을 4만 명 넘게(21%) 줄인 데 이어 항저우 회의에서 자율 감산과 폴리실리콘·모듈 가격 하한선까지 정하면서, 공급 과잉에 빠진 태양광 공급망의 구조조정이 이어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T15:48:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70336"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "지에몐",
+   "u": "https://www.jiemian.com/article/15182763.html"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "둥팡차이푸",
+   "u": "https://finance.eastmoney.com/a/202610133893991778.html"
+  },
+  {
+   "o": "China Global South",
+   "d": "2026-10-14",
+   "u": "https://chinaglobalsouth.com/2026/10/14/china-solar-giants-cut-40000-jobs-overcapacity-crisis/"
+  },
+  {
+   "o": "energynews.pro",
+   "d": "2026-10-14",
+   "u": "https://energynews.pro/en/chinas-five-largest-solar-panel-makers-cut-their-workforces-again"
+  }
+ ],
+ "tags": [],
+ "title": "中 태양광 5대 기업, 지난해 4만 명 추가 감원…감산·가격 하한선 합의 이어 구조조정",
+ "url": "https://t.me/HANAchina/70336",
+ "added": "이번 로이터 1건으로 중국 태양광 5대 기업이 지난해 인력을 4만 589명(21%) 줄였다는 사실이 추가됐다",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "modules",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "중국 태양광 5대 기업 지난해 인력 4만 명 감축"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

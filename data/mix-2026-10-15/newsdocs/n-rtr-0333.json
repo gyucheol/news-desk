@@ -1,0 +1,91 @@
+{
+ "id": "n-rtr-0333",
+ "num": 333,
+ "key": "mix-G3-024-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T16:49:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/uk-retailer-dunelms-quarterly-sales-rise-demand-curtains-kitchenware-rebounds-2026-10-15/",
+ "origTitle": "",
+ "headline": "던엘름 매출 1.1% 증가·THG 이익 전망 상향…영국 소비 기업 선방",
+ "src": [
+  {
+   "o": "ADVFN",
+   "d": "2026-10-15",
+   "u": "https://uk.advfn.com/market-news/article/24573/dunelm-reports-1-1-rise-in-q1-fy27-sales-to-433-million-and-maintains-full-year-profit-outlook"
+  },
+  {
+   "o": "Retail Sector",
+   "d": "2026-10-15",
+   "u": "https://www.retailsector.co.uk/744877-dunelm-sales-rise-1-1-to-433m-in-q1/"
+  },
+  {
+   "o": "The Market Reporter",
+   "d": "2026-10-15",
+   "u": "https://www.themarketreporter.co.uk/a/3c3f1a0c/dunelm-keeps-full-year-profit-outlook-intact-as-trading-recovers-from-su"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 유통업체 던엘름, 커튼·주방용품 수요 반등에 분기 매출 증가",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/retail-consumer/uk-retailer-dunelms-quarterly-sales-rise-demand-curtains-kitchenware-rebounds-2026-10-15/",
+   "s": "던엘름의 13주 매출이 1.1% 늘어 4억 3,300만 파운드가 되면서, 더운 여름에 주춤했던 커튼·주방용품 수요가 마지막 7주 약 4% 증가로 살아났다"
+  },
+  {
+   "t": "엔테인, 국내 성장이 브라질 타격 상쇄하며 게임 매출 2% 증가",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/americas/entain-gaming-revenue-rises-2-domestic-growth-offsets-hit-brazil-2026-10-15/",
+   "s": "엔테인이 브라질 사업의 타격을 영국 국내 성장으로 메우면서, 게임 매출이 2% 늘어 실적 방어에 성공했다 (제목 기준)"
+  },
+  {
+   "t": "THG, 영양제 수요에 2026년 핵심이익 시장 예상 웃돌 것으로 전망",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/retail-consumer/uks-thg-forecasts-2026-core-profit-above-market-view-nutrition-demand-shares-2026-10-15/",
+   "s": "THG가 영양 보충제 수요 호조로 2026년 조정 EBITDA 전망을 1억 300만 파운드로 높이면서, 핵심이익이 시장 예상을 웃돌 것으로 내다봤다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "던엘름 매출 1.1% 증가·THG 이익 전망 상향…영국 소비 기업 선방",
+ "one": "영국 던엘름이 여름 더위로 주춤했던 매출을 막판에 되살려 1분기 1.1% 늘리고 THG가 영양제 수요로 2026년 이익 전망을 올렸으며 엔테인도 브라질 부진을 국내 성장으로 메우면서, 소비 둔화 우려 속에서도 영국 소비 기업들이 실적을 지켜내고 있다",
+ "facts": [
+  "무엇이: 던엘름의 9월 26일까지 13주 매출은 4억 3,300만 파운드로 1.1% 늘었고, 마지막 7주는 약 4% 늘었다 [사실]",
+  "전망: 던엘름은 연간 이익 전망을 유지했지만 상반기 조정 세전이익은 전년보다 낮을 것으로 봤다 [사실]",
+  "THG: 영양제 수요에 힘입어 2026년 조정 EBITDA 전망을 1억 300만 파운드로 올렸다 [사실]",
+  "엔테인: 국내 성장이 브라질 부진을 상쇄해 게임 매출이 2% 늘었다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "던엘름 매출·전망과 THG 조정 EBITDA 전망 1억 300만 파운드는 검색 결과 요약으로 확인. 엔테인 게임 매출 2% 증가는 확인 못 함(연간 가이던스 유지 제목만 보임)",
+ "added": "이번 로이터 3건 가운데 뒤의 2건으로 엔테인의 게임 매출 2% 증가와 THG의 2026년 핵심이익 전망 상향이 던엘름의 매출 증가에 더해졌다",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "던엘름 1분기 매출 1.1% 증가"
+  },
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "엔테인 게임 매출 2% 증가"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

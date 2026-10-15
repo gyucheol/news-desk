@@ -1,0 +1,177 @@
+{
+ "added": "이번 텔레그램 1건으로 킹보드의 15% 인상이 올해 8번째이며 유리섬유 원단·원사 공급 부족 때문이라는 점과 회사의 인상 확인이 추가됐다",
+ "basis": "partial",
+ "channel": "하나증권 중국전략",
+ "check": "킹보드의 8번째 15% 인상과 이유, 8월 인상은 검색 결과 요약으로 확인. 파나소닉 CCL 200% 인상은 이번에 확인하지 못함(기존 채널 전언)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 킹보드 라미네이츠는 2116 이하 박형 유리섬유 원단을 쓰는 CCL과 프리프레그 값을 즉시 15% 올렸고, 올해 들어 8번째 인상이다 [사실]",
+  "이유: 회사는 박형 원단 수요 증가와 전자용 유리섬유 원단·원사 공급 부족을 들었고, 씨티는 이번 인상이 모든 CCL이 아닌 고급 제품에만 적용된다고 봤다 [사실]",
+  "앞선 인상: 킹보드는 8월 28일 일반 FR-4 값을 10%, 박형 프리프레그 값을 20% 올렸다 [사실]",
+  "파나소닉: 파나소닉 인더스트리는 2027년 1월 출하분부터 일반 다층기판용 CCL 값을 200% 올린다고 고객사에 알렸다 [채널]",
+  "기존 흐름: ASML은 한국향 EUV·DUV 교체 부품값을 2027년 1월부터 일괄 10% 올리기로 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "킹보드, 올해 8번째 CCL 값 인상…파나소닉 200% 이어 기판 소재 인상 확산",
+ "id": "n-tg-0233",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 TNBfolio",
+   "s": "{{ASML}}이 한국향 노광장비 부품값을 일괄 10% 올리면서, 반도체 공급망의 {{가격 결정권}}이 고객사에서 장비업체로 넘어가고 있다는 평가가 나왔다",
+   "t": "ASML, 한국 공급 장비 교체 부품값 일괄 10% 인상…내년 1월 적용",
+   "u": "https://t.me/TNBfolio/71491"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{삼성전자·SK하이닉스}}가 ASML의 부품값 10% 인상을 받아들이면서, 동시 증설로 빠듯한 {{소모품 분야}}까지 공급 부족이 넓어질 전망이다",
+   "t": "ASML, 장비 부품값 10% 인상…삼성전자·SK하이닉스 수용",
+   "u": "https://t.me/HANAchina/70181"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 부의 나침반",
+   "s": "ASML에 이어 {{어플라이드머티리얼즈}} 같은 대형 장비업체도 값을 올리면서, {{웨이퍼 제조업체}}의 가격 협상력이 약해지고 있다",
+   "t": "ASML 전 부품 10% 인상에 반도체 장비 시장 전반으로 가격 압박 확산",
+   "u": "https://t.me/w_compass/7231"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "ASML이 지난달 초 한국 법인을 통해 통보한 인상안을 협의 끝에 확정하면서, {{광학 시스템·광원}} 등 노광장비 {{전 부품}}의 값이 오르게 됐다",
+   "t": "ASML, EUV·DUV 전체 부품 10% 인상 확정…광학·광원 등 포함",
+   "u": "https://t.me/insidertracking/65952"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "AI 칩 테스트 시간 증가와 클라우드 기업의 자체 칩 확대로 {{대만 후공정}} 업계가 {{10~30%}} 가격을 올리면서, 소규모 고객의 긴급 주문 가격은 두 배까지 오를 수 있다",
+   "t": "AI 열풍에 반도체 후공정 업계 사상 최대 가격 인상, 10~30%",
+   "u": "https://t.me/HANAchina/70236"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "TSMC 제조비 상승으로 인텔·퀄컴에 이어 {{AMD}}도 {{프로세서 가격 인상}}에 나설 전망이어서, PC 제조사의 부품 원가 부담이 커질 수 있다",
+   "t": "인텔·퀄컴 이어 AMD도 프로세서 가격 인상 전망…TSMC 비용 상승 여파",
+   "u": "https://t.me/insidertracking/66035"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "AI용 생산 전환으로 범용품이 부족해지면서 {{유리섬유 천}} 10월 가격이 7628 모델 미터당 {{1.5위안}} 오르는 등 인상이 확정돼, 전자기판 업체의 원가 부담이 커질 수 있다",
+   "t": "전자기판용 유리섬유 천 10월 가격 인상 확정, 박형 제품 인상폭 확대",
+   "u": "https://t.me/HANAchina/70295"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 트릴리온",
+   "s": "{{킹보드}}가 박형 유리섬유 원단 부족을 이유로 2116 규격 이하 적층판·프리프레그 값을 {{15%}} 올리면서, 전자기판 원가 부담이 커지게 됐다",
+   "t": "킹보드, 박형 유리섬유 적층판·프리프레그 가격 15% 인상 공지",
+   "u": "https://t.me/Trillion_labs/10396"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 나쁜양파",
+   "s": "{{파나소닉 인더스트리}}가 {{2027년 1월 출하분}}부터 일반 다층기판용 {{CCL 가격}}을 {{200% 올린다}}고 {{통보}}하면서 5개 생산거점 고객의 {{기판 원가}}가 {{급등할}} 전망이다",
+   "t": "파나소닉 인더스트리, 일반 다층기판용 CCL 가격 200% 인상 통보",
+   "u": "https://t.me/Badonions/7764"
+  },
+  {
+   "t": "킹보드 라미네이츠, 올해 8번째 가격 인상…CCL·PP 15%",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-14",
+   "u": "https://t.me/HANAchina/70407",
+   "s": "킹보드 라미네이츠가 유리섬유 원단·원사 공급 부족을 이유로 CCL과 PP 값을 15% 올리면서, 올해에만 8번째 인상으로 PCB 원가 부담이 커졌다"
+  }
+ ],
+ "key": "mix-C051-2026-10-13",
+ "nodes": [
+  "macro/inflation",
+  "macro/semis"
+ ],
+ "num": 233,
+ "one": "킹보드가 유리섬유 원단·원사 공급 부족을 이유로 박형 원단을 쓰는 CCL·프리프레그 값을 15% 올려 올해 8번째 인상에 나서고 파나소닉이 2027년 1월부터 일반 CCL 값을 200% 올리기로 하면서, PCB 업체들의 소재 원가 부담이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T15:47:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70236"
+  },
+  {
+   "d": "2026-10",
+   "o": "Wccftech",
+   "u": "https://wccftech.com/multiple-intel-cpu-families-witness-15-20-price-hike-while-amd-is-also-expected-to-raise-cpu-prices-soon/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Hardware Busters",
+   "u": "https://hwbusters.com/news/intels-third-cpu-price-hike-in-a-year-hits-panther-lake-hardest-with-qualcomm-and-amd-close-behind/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "TrendForce",
+   "u": "https://www.trendforce.com/news/2026/10/12/news-asml-reportedly-plans-10-parts-price-hike-in-south-korea-starting-jan-2027-equipment-prices-may-also-rise/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Tech Times",
+   "u": "https://www.techtimes.com/articles/328933/20261012/asml-forces-first-ever-blanket-parts-hike-samsung-sk-hynix-january.htm"
+  },
+  {
+   "d": "2026-09-01",
+   "o": "DigiTimes",
+   "u": "https://www.digitimes.com/news/a20260901PD243/panasonic-ccl-pcb-ic-substrate-materials.html"
+  },
+  {
+   "d": "2026-04-09",
+   "o": "Panasonic Industry",
+   "u": "https://industrial.panasonic.com/sa/electronic-materials/news/2026-04-09-em-ccl"
+  },
+  {
+   "o": "DIGITIMES",
+   "d": "2026-10-14",
+   "u": "https://www.digitimes.com/news/a20261014PD200/kingboard-ccl-pcb-price-increase-2026.html"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-14",
+   "u": "https://news.futunn.com/en/post/1001090124/hong-kong-stocks-movers-kingboard-laminates-01888-drops-over-6"
+  }
+ ],
+ "tags": [],
+ "title": "킹보드, 올해 8번째 CCL 값 인상…파나소닉 200% 이어 기판 소재 인상 확산",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://t.me/HANAchina/70236",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "materials",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "킹보드 박형 원단 CCL·프리프레그 15% 인상"
+  },
+  {
+   "ind": "semis",
+   "node": "materials",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "전자용 유리섬유 원단·원사 공급 부족"
+  }
+ ]
+}

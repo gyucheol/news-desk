@@ -1,0 +1,121 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 10월 세수 10% 증가·1~10월 14% 감소, 노바텍 3분기 가스 생산 4.9% 증가 확인. 묶음 제목의 '49%'는 주소에서 소수점이 빠진 것으로 4.9%가 맞음. 쇄빙 가스선 확보는 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 로이터 계산으로 10월 러시아 연방 석유·가스 세수는 약 1조 루블(약 120억 달러)로 1년 전보다 약 10% 늘 전망이며, 분기마다 내는 초과이익세가 반영된 영향입니다 [사실]",
+  "누계: 1~10월 석유·가스 세수는 6조 4,500억 루블로 1년 전보다 약 14% 줄 것으로 예상됩니다 [사실]",
+  "기존: 9월 세수는 정유사 보조금이 3,055억 루블로 불어나 1년 전보다 22% 줄어든 4,524억 루블이었습니다 [사실]",
+  "노바텍: 3분기 가스 생산은 211억 2천만 세제곱미터로 4.9% 늘었지만 가스 판매는 158억 세제곱미터로 3.1% 줄었습니다 [사실]",
+  "선박: 노바텍이 쇄빙 가스선을 최소 2척 확보했다는 선박 자료가 나왔습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "러시아 10월 석유·가스 세수 10% 증가 전망…노바텍 3분기 가스 생산 4.9%↑",
+ "id": "n-bbg-0078",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas",
+  "oil"
+ ],
+ "insight": {},
+ "key": "bbg-1006-russia-oil-revenue-payouts",
+ "nodes": [
+  "gas/shipping",
+  "gas/upstream",
+  "macro/commodity",
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "num": 78,
+ "one": "러시아의 10월 석유·가스 세수가 분기별 초과이익세 납부로 1년 전보다 약 10% 늘어난 약 1조 루블로 예상되고 노바텍의 3분기 가스 생산도 4.9% 늘었지만, 1~10월 세수는 14% 줄 전망이어서 9월 보조금발 세수 부진은 일부만 만회될 전망이다",
+ "origTitle": "Russia’s Oil-Export Boom Undercut by Payouts, Diesel Sales Ban",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T20:26:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/russia-s-oil-export-boom-undercut-by-payouts-diesel-sales-ban"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "ua.news",
+   "u": "https://ua.news/en/world/naftogazovi-dokhodi-rosiyi-rizko-skorotilisia-popri-dorozhchu-naftu"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "브리프스(블룸버그 인용)",
+   "u": "https://www.briefs.co/news/russia-s-fuel-bills-surge-as-war-time-strikes-squeeze-refine/"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-15",
+   "u": "https://www.themoscowtimes.com/2026/10/15/russias-oil-and-gas-revenues-forecast-to-rise-10-year-on-year-in-october-to-12bln-a93992"
+  },
+  {
+   "o": "LNG Prime",
+   "d": "2026-10-14",
+   "u": "https://lngprime.com/asia/novateks-gas-sales-down-in-q3/198412/"
+  },
+  {
+   "o": "ChemAnalyst",
+   "d": "2026-10-14",
+   "u": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/novatek-output-surges-4-2-but-gas-sales-slip-as-liquids-gain-45003"
+  }
+ ],
+ "tags": [],
+ "title": "러시아 10월 석유·가스 세수 10% 증가 전망…노바텍 3분기 가스 생산 4.9%↑",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/russia-s-oil-export-boom-undercut-by-payouts-diesel-sales-ban",
+ "items": [
+  {
+   "t": "러시아 9월 석유·가스 세수 22% 감소…정유 보조금 3,055억 루블로 급증",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/russia-s-oil-export-boom-undercut-by-payouts-diesel-sales-ban"
+  },
+  {
+   "t": "러시아 노바텍, 3분기 가스 생산 4.9% 증가",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/russias-novatek-says-q3-gas-output-up-49-2026-10-14/",
+   "s": "노바텍의 3분기 가스 생산이 1년 전보다 4.9% 늘었지만 가스 판매는 3.1% 줄면서 생산 증가가 판매로 이어지지 못했다"
+  },
+  {
+   "t": "러시아 노바텍, 쇄빙 가스선 최소 2척 확보…선박 자료",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/russias-novatek-acquires-least-two-ice-class-gas-carriers-data-shows-2026-10-14/",
+   "s": "노바텍이 쇄빙 가스선을 최소 2척 사들인 것으로 선박 자료에 나타나면서 북극 LNG 운송 능력이 늘 수 있다 (제목 기준)"
+  },
+  {
+   "t": "러시아 10월 석유·가스 세수 1년 전보다 10% 늘어 120억 달러 전망",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/russias-oil-gas-revenue-seen-up-10-yy-october-12-billion-2026-10-15/",
+   "s": "분기별 초과이익세 납부로 러시아 10월 석유·가스 세수가 약 1조 루블로 10% 늘 전망이지만 1~10월 누계는 14% 줄 것으로 보인다"
+  }
+ ],
+ "added": "이번 로이터 3건으로 10월 석유·가스 세수 약 10% 증가 전망(1~10월은 14% 감소), 노바텍 3분기 가스 생산 4.9% 증가, 쇄빙 가스선 확보가 추가됐다",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "upstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "노바텍 3분기 가스 생산 4.9% 증가"
+  },
+  {
+   "ind": "gas",
+   "node": "shipping",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "노바텍 쇄빙 가스선 최소 2척 확보"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0331",
+ "num": 331,
+ "key": "mix-G4-036-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T01:50:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/aerospace-ceos-meet-with-duffy-to-discuss-certification-reform",
+ "origTitle": "",
+ "headline": "美 교통장관, 보잉·GE 등 항공 CEO들과 항공기 인증 개혁 논의",
+ "src": [
+  {
+   "o": "Cargo Facts",
+   "d": "2026-10-14",
+   "u": "https://cargofacts.com/allposts/freighter-aircraft/boeing-ge-ceos-meeting-with-duffy-on-certification-reform/"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-14",
+   "u": "https://seekingalpha.com/news/4653071-aerospace-ceos-meet-with-u-s-officials-on-aircraft-certification-reform"
+  }
+ ],
+ "items": [
+  {
+   "t": "보잉·GE CEO, 인증 개혁 놓고 더피 교통장관과 회동",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/aerospace-ceos-meet-with-duffy-to-discuss-certification-reform",
+   "s": "보잉·GE CEO가 더피 교통장관과 만나 항공기 인증 개혁을 논의하면서 FAA 승인 절차 단축 기대가 커졌다"
+  },
+  {
+   "t": "미 교통장관, 항공기 인증 놓고 보잉·GE CEO와 회동",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/us-transportation-secretary-meeting-with-boeing-ge-ceos-aircraft-certification-2026-10-14/",
+   "s": "더피 교통장관이 서배너에서 보잉·GE·RTX CEO들에게 현행 인증 제도의 문제와 개선안을 들으며 중국과의 경쟁을 개혁 명분으로 내세웠다"
+  },
+  {
+   "t": "유가 100달러·FAA 지연에도 보잉 애널리스트들 모두 낙관",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/boeing-s-analysts-are-all-bullish-despite-100-oil-faa-delays",
+   "s": "유가 100달러와 FAA 인증 지연에도 보잉을 다루는 애널리스트들이 모두 낙관적 평가를 유지하면서 항공기 수요 기대가 이어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "美 교통장관, 보잉·GE 등 항공 CEO들과 항공기 인증 개혁 논의",
+ "one": "더피 미 교통장관이 보잉·GE에어로스페이스·RTX 최고경영자들과 만나 FAA의 항공기·엔진·부품 인증을 빠르게 하는 개혁을 논의하면서, 737 맥스 7처럼 수년씩 늦어진 신기종 승인 기간이 줄어들 수 있다",
+ "facts": [
+  "무엇이: 더피 교통장관이 10월 14일 조지아주 서배너에서 켈리 오트버그 보잉 CEO, 래리 컬프 GE에어로스페이스 CEO, 크리스토퍼 칼리오 RTX CEO와 항공기·엔진·부품 인증 가속 방안을 논의했다 [사실]",
+  "배경: 보잉 737 맥스 7은 인증에 8년 넘게 걸려 8월에야 승인됐고, 777X 인증은 원래 일정보다 5년 넘게 늦었다 [사실]",
+  "기존 제안: FAA는 6월 면제·특별조건을 줄여 승인 비용과 시간을 줄이는 규칙을 제안했다 [사실]",
+  "평가: 유가 100달러와 FAA 지연에도 보잉을 다루는 애널리스트들은 모두 낙관적이다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "회동 일시·장소·참석자·배경·FAA 6월 규칙 제안은 Cargo Facts·Seeking Alpha 등 검색 결과 요약으로 확인. 회동 결과와 애널리스트 평가는 확인 못 함",
+ "added": "이번 블룸버그 1건으로 유가 100달러와 FAA 지연에도 보잉 애널리스트들이 모두 낙관적이라는 평가가 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "oem",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "FAA 인증 가속 논의로 신기종 승인 단축 기대"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

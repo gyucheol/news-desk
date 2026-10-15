@@ -17,7 +17,7 @@ skipped = []
 # G1-014
 items.append({
  "cid": "G1-014", "attachTo": "n-bbg-0104",
- "title": "ECB 위원들 추가 인상론 확산…獨 도매물가 8.7%·佛 물가 3.4%, 라가르드 거취도 변수",
+ "title": "ECB 위원들 추가 인상론…獨 도매물가 8.7%·佛 물가 3.4%, 라가르드 거취도 변수",
  "one": "독일 9월 도매물가가 8.7%, 프랑스 EU 기준 물가가 3.4%로 뛰는 가운데 분쉬·심쿠스 등 ECB 위원들이 추가 인상 가능성을 거론하면서, 라가르드 총재 거취 논란 속에 10월 29일 회의의 긴축 재개 여부가 쟁점이 됐다",
  "facts": [
   "무엇이: 분쉬 벨기에 중앙은행 총재는 ECB가 아마 다시 금리를 올려야 할 것이라며 10월 인상도 배제하지 않았고, 심쿠스 리투아니아 중앙은행 총재도 9월 이후 근거가 일부 긴축 필요를 가리킨다고 말했습니다 [사실]",
@@ -125,7 +125,7 @@ items.append({
     "프랑스가 우크라이나에 주민과 기반시설을 지킬 모든 수단을 줘야 한다고 강조하면서, 방공 지원 확대 쪽에 힘을 실었다 (제목 기준)"),
   I("젤렌스키, 벨기에 국왕에 F-16 전투기·탄약 추가 지원 요청", T("미국 주식 인사이더"), "2026-10-16", "https://t.me/insidertracking/66408",
     "젤렌스키 대통령이 브뤼셀에서 필리프 벨기에 국왕과 만나 F-16 전투기와 탄약 추가 지원을 요청하면서, 유럽 각국을 상대로 무기 확보 행보를 이어갔다"),
-  I("유럽, 트럼프가 푸틴을 돕는 세상과 마주하다", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/europe-reckons-with-a-world-where-trump-is-now-helping-putin",
+  I("유럽, 트럼프가 이제 푸틴을 돕는 세상과 마주하다", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/europe-reckons-with-a-world-where-trump-is-now-helping-putin",
     "트럼프가 이제 푸틴을 돕는 쪽에 섰다는 인식이 유럽에 퍼지면서, 유럽이 안보와 우크라이나 지원 전략을 다시 따져야 하는 상황이 됐다 (제목 기준)")]})
 
 # G2-030
@@ -244,11 +244,11 @@ items.append({
         V("fin", "pcredit", "수요", "up", "실제", "템스워터 긴급자금 24억 파운드 추가 요청")],
  "added": "이번 로이터·블룸버그 3건으로 규제당국의 수도요금 삭감 제안과 목표 미달 1억 700만 파운드 차감, 템스워터의 긴급자금 24억 파운드 추가 요청이 추가됐다",
  "items": [
-  I("英 규제당국, 수도요금 삭감 제안", R, "2026-10-14", "https://www.reuters.com/world/uk/uk-regulator-proposes-cut-water-bills-by-319-million-2026-10-14/",
+  I("영국 규제당국, 수도회사들의 수도요금 삭감 제안", R, "2026-10-14", "https://www.reuters.com/world/uk/uk-regulator-proposes-cut-water-bills-by-319-million-2026-10-14/",
     "영국 수도 규제당국이 수도요금을 깎는 방안을 제안하면서, 부채 부담이 큰 수도회사들의 요금 수입이 줄어들 전망이다 (제목 기준)"),
   I("英 수도회사들, 목표 미달로 요금 1억 700만 파운드 차감 위기", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/uk-water-firms-face-107-million-hit-to-bills-for-unmet-targets",
     "영국 수도회사들이 성과 목표를 못 지켜 요금에서 1억 700만 파운드를 깎일 처지에 놓이면서, 업계의 요금 수입이 더 줄어들게 됐다 (제목 기준)"),
-  I("템스워터, 긴급자금 24억 파운드 추가 요청", R, "2026-10-16", "https://www.reuters.com/world/uk/thames-water-seeks-24-billion-more-emergency-funding-2026-10-15/",
+  I("英 템스워터, 긴급자금 24억 파운드 추가 지원 요청", R, "2026-10-16", "https://www.reuters.com/world/uk/thames-water-seeks-24-billion-more-emergency-funding-2026-10-15/",
     "템스워터가 긴급 자금 한도를 24억 파운드 늘린 54억 파운드로 키워 달라고 요청하면서, 이르면 연말 자금이 바닥날 위기 속 채권단 회생안 논의가 급해졌다")]})
 
 # G3-037
@@ -343,7 +343,7 @@ items.append({
     "SK증권 추정치 기준 12개월 선행 PER이 삼성전자 3.5배, SK하이닉스 2.9배로 내려가면서, 주가 급락으로 메모리주의 이익 대비 주가가 크게 낮아졌다"),
   I("JP모건 '메모리주, 기대치 재조정 국면 진입'", T("하나증권 중국전략"), "2026-10-15", "https://t.me/HANAchina/70479",
     "JP모건이 AI 지출 지속성을 둘러싼 인식 차이로 메모리주가 기대치 재조정 국면에 들어갔다고 보면서, 10월 19일 시작되는 한국 실적 시즌이 업황 지속 여부를 가를 전망이다"),
-  I("기술주 주도 매도에 코스피 서킷브레이커 발동", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
+  I("기술주 주도 매도에 한국 코스피 서킷브레이커 발동", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
     "기술주 주도 매도로 코스피에 서킷브레이커가 발동돼 거래가 20분간 멈추면서, 올해 들어 거듭된 급락에 시장 변동성이 커졌다"),
   I("삼성전자·SK하이닉스, 2022~2023년 바닥 PBR은 0.8~1.0배", T("나쁜양파"), "2026-10-15", "https://t.me/Badonions/7828",
     "2022~2023년 다운사이클 바닥에서 삼성전자와 SK하이닉스의 PBR이 0.8~1.0배였다는 비교가 나오면서, 지금 주가를 과거 바닥과 견주는 시각이 등장했다")]})
@@ -401,7 +401,7 @@ items.append({
  "vc": [V("tech", "ai", "-", "flat", "예상", "백악관 AI 태스크포스 첫 회의, 규제 방향 논의 시작")],
  "added": "이번 10월 16일 글 3건으로 재무부의 '초지능' 명칭 압박, 대형 AI 기업의 중간선거 자금 투입, 미·중 AI 거버넌스 협약 조율이 추가됐다",
  "items": [
-  I("백악관 AI 태스크포스, 목요일 첫 회의", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/white-house-ai-task-force-to-hold-first-meeting-on-thursday",
+  I("백악관 AI 태스크포스, 목요일 첫 회의 개최 예정", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/white-house-ai-task-force-to-hold-first-meeting-on-thursday",
     "백악관 AI 태스크포스가 목요일 첫 회의를 열면서, 트럼프 행정부의 AI 정책 틀을 짜는 각료급 논의가 본격화했다"),
   I("FTC 대변인 '트럼프 AI 태스크포스 목요일 회의'", R, "2026-10-15", "https://www.reuters.com/world/us/trumps-ai-task-force-meet-thursday-ftc-spokesperson-says-2026-10-15/",
     "FTC 대변인이 트럼프의 AI 태스크포스가 목요일 모인다고 확인하면서, 퍼거슨 FTC 위원장이 부위원장으로 참여하는 만큼 AI 기업 책임 문제가 논의될 전망이다"),

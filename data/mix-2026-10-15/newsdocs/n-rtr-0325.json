@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0325",
+ "num": 325,
+ "key": "mix-G2-043-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:32:00+09:00",
+ "url": "https://www.reuters.com/world/africa/gold-fields-ceo-plays-down-prospect-higher-northern-star-offer-2026-10-15/",
+ "origTitle": "",
+ "headline": "골드필즈 CEO, 노던스타 인수가 상향 가능성 일축",
+ "src": [
+  {
+   "o": "MINING.COM",
+   "d": "2026-10-15",
+   "u": "https://www.mining.com/web/gold-fields-ceo-plays-down-prospect-of-higher-northern-star-offer"
+  },
+  {
+   "o": "BusinessDay",
+   "d": "2026-10-15",
+   "u": "https://www.businessday.co.za/companies/2026-10-15-gold-fields-ceo-plays-down-talk-of-raising-its-offer-for-northern-star/"
+  }
+ ],
+ "items": [
+  {
+   "t": "골드필즈 CEO, 노던스타 인수 제안 상향 가능성 일축",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/africa/gold-fields-ceo-plays-down-prospect-higher-northern-star-offer-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "골드필즈 CEO, 노던스타 인수가 상향 가능성 일축",
+ "one": "골드필즈 프레이저 CEO가 노던스타가 먼저 결합 경로를 인정해야 한다며 387억 호주달러 인수 제안을 올릴 가능성을 낮추면서, 금광 대형 합병 논의가 교착 상태에 머물고 있다",
+ "facts": [
+  "무엇이: 마이크 프레이저 골드필즈 CEO는 노던스타가 먼저 결합 경로를 인정해야 한다며 인수 제안을 올릴 가능성을 낮췄고, 가치 창출에 합의가 없으면 물러나겠다고 했다 [사실]",
+  "제안: 골드필즈는 지난달 주식·현금으로 387억 호주달러 인수를 제안했지만 노던스타는 독자 생존 가치보다 높은 제안이 아니라며 거절했다 [사실]",
+  "주주: 골드필즈 최대주주인 남아공 공공투자공사(PIC)는 비용 상승, 노던스타 회생 계획 이행, 과다 지급 가능성을 우려했다 [사실]",
+  "밸류에이션: 골드필즈는 EBITDA 대비 기업가치 3.5~4배로 노던스타(7~8배)보다 낮게 거래되며, 프레이저는 합병 회사가 재평가될 것이라고 주장한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(MINING.COM·BusinessDay)으로 확인. 하루 앞선 한 매체의 현금 비중 상향 검토 보도와는 엇갈림",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "precious",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "골드필즈, 노던스타 인수가 상향 가능성 일축"
+  }
+ ]
+}

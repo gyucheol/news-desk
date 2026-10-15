@@ -1,0 +1,91 @@
+{
+ "added": "이번 로이터 2건으로 사이버보험이 식품 손실을 대개 보상하지 않는다는 보험사 판단과 네덜란드 알버트 하인의 물류센터 차질이 추가됐다",
+ "basis": "partial",
+ "check": "검색 결과 요약으로 확인(Insurance Journal·NBC·알자지라): 사이버보험 미보상, 앵테르마르셰 손실 추정, 전쟁 면책 우려. 알버트 하인 물류센터 건은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 보험사들은 프랑스 슈퍼마켓의 사이버보험이 조사·홍보 비용 일부는 보상해도 식품 폐기 같은 물리적 손실은 대개 보상하지 않는다고 밝혔다 [사실]",
+  "피해: 앵테르마르셰 CEO는 하루 만에 전국 손실이 수천만 유로에 이른다고 했고, 자사 보험도 이런 사고를 보상하지 않는다고 했다 [사실]",
+  "국가 배후 변수: 보험사들은 국가 행위자 소행이면 전쟁 면책 조항 때문에 보상이 더 어려울 수 있다고 했다 [사실]",
+  "기존: 냉장 관리 소프트웨어를 노린 공격으로 프랑스 슈퍼마켓 약 700곳이 영향을 받았고, 대형 매장은 최대 20만 유로 손실이 추정됐다 [사실]",
+  "네덜란드: 알버트 하인은 사이버 사고 뒤 물류센터가 곧 정상 가동될 것으로 예상했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유럽 유통 사이버공격 여파…佛 슈퍼마켓 식품 손실, 사이버보험 보상 어려워",
+ "id": "n-rtr-0230",
+ "incentive": "",
+ "inds": [
+  "consumer",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "佛 슈퍼마켓 체인 앵테르마르셰 사이버공격, 매장 150곳 표적",
+   "u": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{쿠페라티브 U}}가 {{매장 약 2,000곳 중 80곳}}이 {{사이버공격 피해}}를 입었다고 밝히면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 떠안았다",
+   "t": "佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해",
+   "u": "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/"
+  },
+  {
+   "t": "알버트 하인, 사이버 사고 뒤 물류센터 곧 정상화 예상",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/albert-heijn-expects-distribution-centres-be-operational-soon-after-cyber-2026-10-14/",
+   "s": "네덜란드 알버트 하인이 사이버 사고로 멈춘 물류센터가 곧 정상 가동될 것으로 예상하면서, 매장 공급 차질이 조만간 풀릴 수 있다 (제목 기준)"
+  },
+  {
+   "t": "보험사 \"佛 슈퍼마켓 사이버보험, 식품 손실 보상 어려워\"",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/",
+   "s": "보험사들이 사이버보험은 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 밝히면서, 프랑스 슈퍼마켓이 손실을 떠안게 될 수 있다"
+  }
+ ],
+ "key": "mix-C164-2026-10-13",
+ "nodes": [],
+ "num": 230,
+ "one": "냉장 관리 소프트웨어 해킹으로 프랑스 슈퍼마켓 약 700곳이 피해를 입은 데 이어 보험사들이 사이버보험은 식품 같은 물리적 손실을 대개 보상하지 않는다고 밝히고 네덜란드 알버트 하인도 물류센터 차질을 겪으면서, 유통업체가 손실을 떠안을 가능성이 커졌다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:22:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Washington Times(AP)",
+   "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"
+  },
+  {
+   "o": "Insurance Journal",
+   "d": "2026-10-15",
+   "u": "https://www.insurancejournal.com/news/international/2026/10/15/889037.htm"
+  },
+  {
+   "o": "NBC News",
+   "d": "2026-10-14",
+   "u": "https://www.nbcnews.com/world/europe/hackers-heat-french-supermarket-fridges-sparking-fires-spoiling-food-rcna603151"
+  }
+ ],
+ "tags": [],
+ "title": "유럽 유통 사이버공격 여파…佛 슈퍼마켓 식품 손실, 사이버보험 보상 어려워",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "佛 슈퍼마켓 약 700곳 냉장 시스템 해킹 피해"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "basis": "verified",
+ "channel": "미국 주식 인사이더",
+ "check": "라이칭더 발언·노조 요구·조정 경과·바티아 발언은 검색 결과 요약으로 확인. 대만 인력 1만 5,000명은 채널 전언",
+ "cycles": [],
+ "facts": [
+  "무엇이: 라이칭더 대만 총통이 10월 15일 마이크론 타이중 새 조립·테스트 공장 개소식에서 노사에 성실한 협상을 촉구했다 [사실]",
+  "쟁점: 노조는 영업이익 15%를 직원에게 나누는 상시 이익 공유제를 요구하며 2026 회계연도 보상안을 거부했고, 파업 날짜는 정하지 않았다 [사실]",
+  "협상: 타오위안 노조 조정은 9월 합의 없이 끝났고 타이중 노조와는 협상이 이어지며, 노조는 19일 타이베이 집회가 파업이 아니라고 했다 [사실]",
+  "회사: 마니시 바티아 사장은 파업을 언급하지 않았고, 새 공장의 2027년 생산능력이 이미 모두 팔렸다고 말했다 [사실]",
+  "규모: 대만은 마이크론 최대 생산 거점으로 약 1만 5,000명이 일하는 HBM 핵심 생산 기지다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "라이칭더 '마이크론 노사 성실히 협상하라'…대만 파업 위기에 HBM 차질 우려",
+ "id": "n-tg-0128",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "insight": {},
+ "key": "tg-insidertracking-65618",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 128,
+ "one": "마이크론 대만 노조가 영업이익 15% 상시 배분을 요구하며 파업권을 확보한 가운데 라이칭더 총통이 타이중 새 공장 개소식에서 노사에 성실한 협상을 촉구하면서, 약 1만 5,000명이 일하는 HBM 핵심 생산 거점의 공급 차질 우려가 커지고 있다",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T18:34:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65618"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "벤징가",
+   "u": "https://www.benzinga.com/trading-ideas/movers/26/10/62216483/micron-stock-falls-amid-chip-sector-slump-as-taiwan-union-votes-99-for-strike-authorization"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "트레이딩피디아",
+   "u": "https://www.tradingpedia.com/2026/10/07/micron-union-wins-strike-mandate-in-taiwan/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-15",
+   "u": "https://finimize.com/content/taiwans-president-urges-micron-to-talk-as-strike-looms"
+  },
+  {
+   "o": "Mezha",
+   "d": "2026-10-15",
+   "u": "https://mezha.net/eng/news/mezha-1c53391888390831b6245ff2_taiwan-s_lai_urges/"
+  }
+ ],
+ "tags": [],
+ "title": "라이칭더 '마이크론 노사 성실히 협상하라'…대만 파업 위기에 HBM 차질 우려",
+ "url": "https://t.me/insidertracking/65618",
+ "items": [
+  {
+   "t": "마이크론 대만 타오위안 노조, 찬성 99%로 파업권 확보",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-07",
+   "u": "https://t.me/insidertracking/65618"
+  },
+  {
+   "t": "라이칭더 대만 총통, 파업 앞둔 마이크론 노사에 '성실한 협상' 촉구",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/taiwan-president-calls-micron-workers-negotiate-sincerely-ahead-possible-strike-2026-10-15/",
+   "s": "라이칭더 총통이 마이크론 타이중 새 공장 개소식에서 노사에 성실한 협상을 촉구하면서, 파업 가능성이 대만 정부 차원의 현안으로 올라섰다"
+  },
+  {
+   "t": "마이크론 대만 파업 가능성에 메모리 공급 차질 우려 확대",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-15",
+   "u": "https://t.me/insidertracking/66360",
+   "s": "마이크론 대만 노조가 성과급 문제로 파업 찬성표를 확보하면서, 약 1만 5,000명이 일하는 HBM 핵심 생산 기지의 생산 차질 우려가 커졌다"
+  }
+ ],
+ "added": "이번 로이터·텔레그램 2건으로 라이칭더 총통의 성실 협상 촉구와 새 공장 2027년 물량 완판 발언, 1만 5,000명 규모 HBM 거점의 생산 차질 우려가 추가됐다",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "마이크론 대만 파업 가능성에 HBM 생산 차질 우려"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

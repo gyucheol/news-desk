@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0337",
+ "num": 337,
+ "key": "mix-G3-035-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T03:09:00+09:00",
+ "url": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/",
+ "origTitle": "",
+ "headline": "인도 대법원, 예스은행 AT1 채권 상각은 위법 판결",
+ "src": [],
+ "items": [
+  {
+   "t": "인도 대법원 '예스은행 AT1 채권 상각은 위법'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "인도 대법원, 예스은행 AT1 채권 상각은 위법 판결",
+ "one": "인도 대법원이 예스은행의 AT1(신종자본증권) 채권 상각을 위법하다고 판결하면서, 상각으로 손실을 본 채권 보유자의 보상 요구와 은행의 부담이 다시 쟁점이 될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도 대법원이 예스은행의 AT1 채권 상각이 위법하다고 판결했다 [제목]",
+  "영향: 상각된 AT1 채권 보유자의 원금 회복 요구가 커지고 인도 은행 AT1 시장의 투자자 보호 논의로 번질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도가 소진돼 판결 내용과 상각 규모를 확인 못 함. 로이터 제목 근거",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "법원 판결로 AT1 손실 부담 주체가 다시 쟁점"
+  }
+ ]
+}

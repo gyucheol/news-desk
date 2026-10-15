@@ -1,0 +1,106 @@
+{
+ "added": "이번 블룸버그·로이터 2건으로 MSCI의 인도네시아 독자시장 강등 협의 착수와 2027년 6월 결정 일정, 지수 시가총액 55% 감소가 추가됐다",
+ "basis": "verified",
+ "check": "MSCI 협의 착수, 사유, 일정, 시가총액·비중 변화는 MSCI 보도자료 전재본과 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: MSCI는 10월 15일 인도네시아를 신흥시장에서 독자시장으로 재분류하는 안에 대한 협의를 시작했고, 2027년 4월 30일까지 의견을 받아 6월 30일 이전에 결정한다 [사실]",
+  "이유: MSCI는 불투명한 지분 구조와 담합 거래 의혹 등 투자 가능성 문제가 풀리지 않았고, 프런티어 시장 강등으로는 문제의 깊이를 반영하지 못한다고 봤다 [사실]",
+  "규모: 1월 이후 MSCI 인도네시아 지수 시가총액은 55% 줄었고 신흥시장 지수 내 비중은 1.16%에서 0.43%로 떨어졌으며, 1월부터의 지수 동결은 계속된다 [사실]",
+  "기존: 자카르타종합지수는 10월 12일 약 2.5% 떨어져 석 달 만의 최저를 기록했고, 국부펀드 다난타라는 개입 가능성을 열어 뒀다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "MSCI, 인도네시아 신흥시장→독자시장 강등 협의 착수…내년 6월 결정",
+ "id": "n-rtr-0181",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{인도네시아 국부펀드 다난타라}}가 밸류에이션이 매력적이면 {{급락장에 개입할}} 수 있다고 밝히면서, {{증시 하단을 받칠}} 수 있다",
+   "t": "인도네시아 다난타라 \"밸류에이션 매력 있으면 급락장에 개입할 수도\"",
+   "u": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "인도네시아 증시가 {{규제 벌금 추측에 급락해}} 지수가 {{석 달 최저로 밀리면서}}, {{인프라·금융·농업 업종의 낙폭}}이 {{컸다}}",
+   "t": "인도네시아 증시, 규제 당국 벌금 추측에 급락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/indonesian-stocks-plunge-sending-benchmark-to-three-month-low"
+  },
+  {
+   "t": "MSCI '인도네시아 신흥시장 지위 협의 대상'",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
+   "s": "MSCI가 인도네시아의 신흥시장 지위를 협의에 부치면서, 지분 투명성 개선이 없으면 내년 강등이 현실화될 수 있다"
+  },
+  {
+   "t": "MSCI, 인도네시아를 독자시장으로 강등하는 방안 검토",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/",
+   "s": "MSCI가 인도네시아를 프런티어가 아닌 독자시장으로 낮추는 방안을 검토하면서, 개혁 성과가 없으면 신흥시장 지수 추종 자금이 빠질 수 있다"
+  }
+ ],
+ "key": "mix-C060-2026-10-09",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 181,
+ "one": "MSCI가 불투명한 지분 구조와 담합 거래 의혹이 풀리지 않았다며 인도네시아를 신흥시장에서 독자시장으로 낮추는 협의에 착수하면서, 올해 지수 시가총액이 55% 줄어든 인도네시아 증시에서 지수 추종 자금 이탈 압력이 커질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:47:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/danantara-signals-it-could-step-in-when-indonesia-stocks-slide"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Rancak Media",
+   "u": "https://rancakmedia.com/finance/101920/ihsg-plunges-2-59-to-5936-ptro-cuan-dssa-shares-tumble"
+  },
+  {
+   "o": "MSCI 보도자료(Business Wire 전재)",
+   "d": "2026-10-15",
+   "u": "https://www.financialcontent.com/article/bizwire-2026-10-15-msci-launches-a-consultation-on-a-proposal-to-reclassify-indonesia-from-emerging-market-to-standalone-market-status"
+  },
+  {
+   "o": "Securities.io",
+   "d": "2026-10-15",
+   "u": "https://www.securities.io/msci-consults-on-moving-indonesia-indexes-to-standalone-market-status/"
+  }
+ ],
+ "tags": [],
+ "title": "MSCI, 인도네시아 신흥시장→독자시장 강등 협의 착수…내년 6월 결정",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "MSCI 인도네시아 독자시장 강등 협의 착수"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "신흥지수 내 인도네시아 비중 0.43%로 축소"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0327",
+ "num": 327,
+ "key": "mix-G4-028-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/fda-aims-to-overhaul-rare-disease-approvals-under-new-leadership",
+ "origTitle": "",
+ "headline": "FDA 펩타이드 조제 허용 정책 백악관 검토…희귀질환 승인 개편도 추진",
+ "src": [
+  {
+   "o": "ABC News(AP)",
+   "d": "2026-10-15",
+   "u": "https://abcnews.com/Business/wireStory/trump-administration-advances-plan-peptide-137299803"
+  },
+  {
+   "o": "Buchanan Ingersoll & Rooney",
+   "d": "2026-08-01",
+   "u": "https://www.bipc.com/fda-voted-yes-on-six-peptides-now-what-the-regulatory-road-ahead"
+  }
+ ],
+ "items": [
+  {
+   "t": "FDA 새 지도부, 희귀질환 승인 절차 전면 개편 추진",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fda-aims-to-overhaul-rare-disease-approvals-under-new-leadership",
+   "s": "FDA 새 지도부가 희귀질환 치료제 승인 방식을 대대적으로 바꾸려 하면서, 희귀질환 신약 개발사의 허가 경로가 달라질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "미국, 처방약 비용 우려 키운 소액 수입 규정 시행 연기",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/government/us-delays-small-imports-rule-that-raised-alarm-over-prescription-drug-costs-2026-10-15/",
+   "s": "미국 정부가 처방약 비용 상승 우려를 낳은 소액 수입 규정의 시행을 미루면서, 관련 약값 부담 우려가 일단 뒤로 밀렸다 (제목 기준)"
+  },
+  {
+   "t": "미 FDA, 펩타이드 조제 정책 변경 위한 첫 조치 착수",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/us-fda-takes-step-change-peptide-compounding-policy-2026-10-15/",
+   "s": "HHS와 FDA가 일부 펩타이드 조제를 위한 임시 접근 정책을 백악관 검토에 넘기면서, 조제약국들이 단속 걱정 없이 인기 펩타이드를 만들 길이 열릴 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "FDA 펩타이드 조제 허용 정책 백악관 검토…희귀질환 승인 개편도 추진",
+ "one": "미 보건복지부와 FDA가 일부 펩타이드 조제를 사실상 허용하는 임시 정책을 백악관 검토에 넘기고 FDA 새 지도부가 희귀질환 승인 개편을, 정부가 처방약 소액 수입 규정 연기를 추진하면서, 조제약국과 희귀질환 신약 개발사의 규제 환경이 바뀔 수 있다",
+ "facts": [
+  "무엇이: HHS와 FDA가 10월 15일 일부 펩타이드 조제를 위한 임시 접근 정책을 백악관 OMB 검토에 보냈지만, 공개 문서에 세부 내용은 없다 [사실]",
+  "내용: AP는 이 정책이 단속 재량을 통해 조제약국이 특정 펩타이드를 만들어도 단속하지 않겠다는 뜻이라고 전했다 [사실]",
+  "배경: 7월 FDA 자문위는 BPC-157 등 펩타이드 6종을 조제용 원료 목록에 넣으라고 권고했다 [사실]",
+  "희귀질환·수입: FDA 새 지도부는 희귀질환 승인 방식 개편을 추진하고, 정부는 처방약 비용 우려를 낳은 소액 수입 규정을 미뤘다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "펩타이드 조제 정책의 OMB 검토는 검색 결과 요약으로 확인. 희귀질환 승인 개편·소액 수입 규정 연기는 확인 못 함. 텔레그램(TNBfolio 71556)의 스칼라락 아피테그로맙 승인 속보는 회사 8-K상 9월 11일 승인으로 10월 9일 이전 사건의 재탕이라 items에서 뺌",
+ "added": "이번 로이터 2건으로 처방약 소액 수입 규정 연기와 FDA의 펩타이드 조제 정책 변경 착수가 희귀질환 승인 개편 소식에 더해졌다",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "펩타이드 조제 허용 임시 정책 백악관 검토"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "n-tg-0305",
+ "num": 305,
+ "key": "mix-G4-053-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T21:52:00+09:00",
+ "url": "https://t.me/Trillion_labs/10489",
+ "origTitle": "",
+ "headline": "인텔 이스라엘 키르얏갓 공장 폭발로 2명 사망…독성가스 NF3 누출",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-14",
+   "u": "https://t.me/Trillion_labs/10489"
+  },
+  {
+   "o": "Times of Israel",
+   "d": "2026-10-14",
+   "u": "https://www.timesofisrael.com/3-workers-seriously-hurt-in-apparent-gas-explosion-at-intel-plant-in-southern-israel/"
+  },
+  {
+   "o": "Tom's Hardware",
+   "d": "2026-10-15",
+   "u": "https://www.tomshardware.com/tech-industry/semiconductors/two-killed-one-seriously-hurt-in-explosion-at-intels-chip-plant-in-israel-police-suspect-a-gas-cylinder-malfunction-and-the-fire-involved-a-toxic-gas-used-to-clean-chipmaking-tools"
+  },
+  {
+   "o": "DCD",
+   "d": "2026-10-15",
+   "u": "https://www.datacenterdynamics.com/en/news/two-workers-killed-third-injured-in-explosion-at-intels-kiryat-gat-fab-in-israel/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이스라엘 인텔 키르얏갓 공장 폭발 현장 공개…NF3 처리 중",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-14",
+   "u": "https://t.me/Trillion_labs/10489"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "트릴리온",
+ "ind": "semis",
+ "title": "인텔 이스라엘 키르얏갓 공장 폭발로 2명 사망…독성가스 NF3 누출",
+ "one": "이스라엘 키르얏갓의 인텔 반도체 공장에서 10월 14일 가스 실린더 오작동으로 추정되는 폭발이 일어나 근로자 2명이 숨지고 독성가스 삼불화질소가 새면서, 당국이 원인 조사와 현장 위험 점검에 나섰다",
+ "facts": [
+  "무엇이: 10월 14일 이스라엘 키르얏갓 인텔 공장에서 폭발이 일어나 근로자 2명이 숨지고 1명이 중상을 입었다 [사실]",
+  "가스: 폭발로 불이 나며 반도체 장비 세정에 쓰는 독성 가스 삼불화질소(NF3)가 샜고, 화재는 진압됐다 [사실]",
+  "원인: 경찰은 탱크로리 교체 중 가스 실린더 오작동을 의심하며 범죄·과실 혐의는 없다고 봤고, 인텔은 조사에 협조하고 있다 [사실]",
+  "시설: 이 단지에는 Fab 28이 있고, 인접한 Fab 38 건설은 2024년 중반부터 멈춰 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(타임스오브이스라엘·톰스하드웨어·DCD)으로 사상자·가스·원인 추정 확인, 생산 차질 여부는 보도 없음",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "foundry",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "키르얏갓 공장 가스 폭발, 생산 영향은 알려지지 않음"
+  }
+ ]
+}

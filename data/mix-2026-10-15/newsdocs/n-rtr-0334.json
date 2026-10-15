@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0334",
+ "num": 334,
+ "key": "mix-G3-026-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T21:12:00+09:00",
+ "url": "https://www.reuters.com/world/india/indian-consumer-firms-face-margin-squeeze-despite-strong-quarterly-sales-2026-10-14/",
+ "origTitle": "",
+ "headline": "인도 소비재, 판매 호조에도 마진 압박…네슬레 인도는 순이익 36% 증가",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-15",
+   "u": "https://www.business-standard.com/companies/quarterly-results/nestle-india-q2-result-net-profit-rises-36-to-1-026-cr-revenue-up-20-126101500511_1.html"
+  },
+  {
+   "o": "BusinessToday",
+   "d": "2026-10-15",
+   "u": "https://www.businesstoday.in/markets/stocks/story/nestle-india-q2-earnings-net-profit-at-rs-1026-crore-stock-plunges-561779-2026-10-15"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 소비재 기업, 분기 판매 호조에도 마진 압박",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/india/indian-consumer-firms-face-margin-squeeze-despite-strong-quarterly-sales-2026-10-14/",
+   "s": "인도 소비재 기업들이 분기 판매는 견조했지만 마진이 눌리면서 이익 개선이 판매만큼 따라오지 못하고 있다 (제목 기준)"
+  },
+  {
+   "t": "네슬레 인도 분기 이익 증가…포장식품 수요 견조",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/nestle-indias-quarterly-profit-rises-demand-packaged-foods-stays-firm-2026-10-15/",
+   "s": "포장식품 수요가 견조해 네슬레 인도의 분기 순이익이 36.3%, 매출이 20.5% 늘었지만 광고비 46% 증가 속에 주가는 떨어졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "인도 소비재, 판매 호조에도 마진 압박…네슬레 인도는 순이익 36% 증가",
+ "one": "인도 소비재 기업들이 분기 판매 호조에도 마진 압박을 받는 가운데 네슬레 인도는 두 자릿수 물량 증가로 매출을 20.5%, 순이익을 36.3% 늘렸지만 광고·마케팅비가 46% 불어나 실적 발표 뒤 주가가 떨어졌다",
+ "facts": [
+  "무엇이: 네슬레 인도의 9월 분기 단독 순이익은 36.3% 늘어 102억 6,800만 루피, 매출은 20.5% 늘어 678억 2,200만 루피였다 [사실]",
+  "동력·비용: 두 자릿수 물량 증가가 매출을 이끌었고 광고·마케팅비는 46% 늘었으며, 마진은 23.8%로 1년 전 21.8%보다 높아졌다 [사실]",
+  "주가: 실적 발표 뒤 네슬레 인도 주가는 5~9% 떨어졌다 [사실]",
+  "업종: 인도 소비재 기업들이 분기 판매 호조에도 마진 압박에 직면했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "네슬레 인도 실적·광고비·주가는 검색 결과 요약으로 확인(주가 하락폭은 매체별 4.74~9%). 업종 전반 마진 압박은 확인 못 함",
+ "added": "이번 로이터 1건으로 네슬레 인도의 순이익 36.3%·매출 20.5% 증가와 광고·마케팅비 46% 증가, 실적 뒤 주가 하락이 추가됐다",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "네슬레 인도 판매 물량 두 자릿수 증가"
+  },
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "인도 소비재 판매 호조에도 마진 압박"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

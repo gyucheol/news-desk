@@ -1,0 +1,70 @@
+{
+ "basis": "verified",
+ "check": "ECB 승인, 지분율, 연말 지배권 확보 전망, 독일 정부 입장은 검색 결과 요약으로 확인. EU 경쟁 심사 시한은 기존 문서 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유니크레디트는 ECB가 코메르츠방크 지분 30% 초과를 승인하고 상한 없이 지분을 늘릴 수 있게 했다고 밝혔다 [사실]",
+  "지분: 7월 마무리된 적대적 공개매수로 지분이 약 48%로 늘었고(보도별 47.6~48%), 남은 규제 절차와 조건을 마치면 연말께 의결권 약 50%로 지배권을 얻을 것으로 본다 [사실]",
+  "남은 절차: EU 반독점 당국은 11월 16일까지 거래에 대한 판단을 내린다 [제목]",
+  "독일 정부: 독일 정부는 코메르츠방크가 상장을 유지하고 프랑크푸르트에 본사를 두기를 원하며, 정부 지분은 9월 기준 약 12%였다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유니크레디트, 코메르츠방크 지배 ECB 승인…연말께 의결권 50% 확보 예상",
+ "id": "n-rtr-0246",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "EU 반독점 당국, 유니크레디트의 코메르츠방크 거래 11월 16일까지 결정",
+   "u": "https://www.reuters.com/legal/transactional/eu-antitrust-regulators-decide-unicredits-commerzbank-deal-by-november-16-2026-10-09/"
+  },
+  {
+   "t": "유니크레디트, 독일 코메르츠방크 지배 ECB 승인 받아",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/finance/italys-unicredit-wins-ecb-approval-control-germanys-commerzbank-2026-10-15/",
+   "s": "ECB가 유니크레디트의 코메르츠방크 지분 30% 초과를 승인하면서, 이탈리아 유니크레디트가 독일 코메르츠방크를 지배할 길이 열렸다"
+  }
+ ],
+ "key": "mix-C100-2026-10-13",
+ "nodes": [],
+ "num": 246,
+ "one": "유럽중앙은행이 유니크레디트에 코메르츠방크 지분 30% 초과 보유를 상한 없이 허용하면서, 지분 약 48%를 가진 유니크레디트가 11월 16일 시한의 EU 경쟁 심사를 거쳐 연말께 의결권 50%로 지배권을 확보할 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T04:35:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Euronews",
+   "d": "2026-10-15",
+   "u": "https://www.euronews.com/2026/10/15/unicredit-cleared-by-ecb-to-take-control-of-commerzbank"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-15",
+   "u": "https://www.gurufocus.com/news/9126297/unicredit-gains-ecb-approval-to-boost-stake-in-commerzbank-crzby-beyond-30"
+  }
+ ],
+ "tags": [],
+ "title": "유니크레디트, 코메르츠방크 지배 ECB 승인…연말께 의결권 50% 확보 예상",
+ "url": "https://www.reuters.com/legal/transactional/eu-antitrust-regulators-decide-unicredits-commerzbank-deal-by-november-16-2026-10-09/",
+ "added": "이번 로이터 1건으로 ECB가 유니크레디트의 코메르츠방크 지분 30% 초과를 상한 없이 승인해 연말께 지배권 확보 길이 열렸다는 점이 추가됐다",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "유니크레디트 코메르츠방크 지배 ECB 승인"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

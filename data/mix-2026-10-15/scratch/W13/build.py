@@ -66,7 +66,7 @@ items.append({
      "오전에 오르던 유럽 국채 금리가 급락에 동참하면서, 10월 초 캐리 청산을 촉발했던 프랑스-독일 금리차가 130bp대로 좁혀졌다"),
   it("佛-獨 국채 금리차 130bp대 축소, 유럽 금리 낙폭 확대", TC, "2026-10-15", "https://t.me/cahier_de_market/11010",
      "같은 시각 다른 채널도 유럽 금리 낙폭이 커지며 프랑스-독일 스프레드가 130bp대로 줄었다고 전해, 금리차 축소가 두 채널에서 함께 확인됐다"),
-  it("프랑스 학교 시위, 정부 부채와 맞닿아 있다", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/french-school-protests-have-a-link-with-government-debt",
+  it("프랑스 학교 시위, 정부 부채 문제와 맞닿아 있다는 분석", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/french-school-protests-have-a-link-with-government-debt",
      "프랑스 학교 시위가 정부 부채 문제와 연결돼 있다는 분석이 나오면서, 재정 압박이 교육 같은 공공서비스 갈등으로 번지고 있다 (제목 기준)")
  ]
 })
@@ -133,7 +133,7 @@ items.append({
      "후티가 다란 아람코 시설과 리야드 공항·정유소를 미사일·드론으로 때렸다며 사우디 내륙 공격을 이어 가겠다고 밝히고, 해운사·민간인에게 해당 시설 대피를 경고했다"),
   it("후티, 아람코 본사 피격 하루 만에 사우디 공항·석유시설 공격 지속 선언", TT, "2026-10-14", "https://t.me/TNBfolio/71547",
      "아람코 다란 본사 화재가 여러 층으로 번진 하루 뒤 후티가 공격 지속을 선언하면서, 13명이 숨진 리야드 공항은 17일까지 닫히고 아람코 직원은 재택 근무로 전환했다"),
-  it("후티, 전쟁을 리야드로 끌고 오다", R, "2026-10-15", "https://www.reuters.com/world/middle-east/houthis-bring-war-riyadh-2026-10-14/",
+  it("후티, 사우디 수도 리야드까지 전쟁을 끌고 오다", R, "2026-10-15", "https://www.reuters.com/world/middle-east/houthis-bring-war-riyadh-2026-10-14/",
      "후티가 사우디 수도 리야드까지 공격 범위를 넓히면서, 예멘 분쟁이 사우디 본토의 공항·석유시설로 옮겨붙고 있다 (제목 기준)"),
   it("예멘군, 사우디 공군의 후티 진지 공습 영상 공개", TI, "2026-10-15", "https://t.me/insidertracking/66279",
      "예멘 국가군이 사우디 공군이 후티 차량과 진지를 공습하는 영상을 공개하면서, 사우디가 후티 공격에 공중 반격으로 맞서고 있음이 드러났다"),
@@ -143,7 +143,7 @@ items.append({
      "사우디가 리야드 공항에 세워 둔 항공기 수십 대를 다른 곳으로 옮기면서, 수요일 정오 기준 공항 주기 항공기가 134대에서 38대로 줄었다"),
   it("후티, 예멘 아덴 대통령궁에 미사일 발사…정부 관리", R, "2026-10-16", "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/",
      "후티가 예멘 정부가 있는 아덴 대통령궁에 미사일을 쏘면서, 공격 대상이 사우디 본토에서 사우디가 지원하는 예멘 정부 본부로 넓어졌다"),
-  it("예멘 정부 '후티가 아덴 대통령궁 타격'", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/yemen-government-says-houthis-strike-presidential-palace-in-aden",
+  it("예멘 정부 '후티가 아덴 대통령궁을 미사일로 타격'", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/yemen-government-says-houthis-strike-presidential-palace-in-aden",
      "예멘 정부가 후티의 아덴 대통령궁 타격을 밝히면서, 총리 경호원 등 사망자가 나오고 정부 본부의 안전이 흔들렸다"),
   it("사우디 연합군 '후티, 사우디 시설 수십 곳 공격 시도'", R, "2026-10-16", "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attempted-attack-dozens-saudi-facilities-2026-10-15/",
      "사우디 주도 연합군이 후티가 사우디 시설 수십 곳을 공격하려 했다고 밝히면서, 후티 공격이 몇몇 시설을 넘어 광범위하다는 점이 드러났다 (제목 기준)"),
@@ -239,7 +239,7 @@ items.append({
 # G2-025
 items.append({
  "cid": "G2-025", "attachTo": "n-bbg-0071",
- "title": "카이로스 6억 4,300만 달러 조달·히타치 日 SMR 검토…中 ACP100 연내 연료 장전 목표",
+ "title": "카이로스 6억 4,300만 달러 조달·히타치 日 SMR 검토…中 ACP100 시운전",
  "one": "카이로스가 테네시 50MW 시범로에 6억 4,300만 달러를 확보하고 히타치가 일본 소형원전을 검토하며 중국 ACP100이 연료 장전 전 고온 시험에 들어가면서, 블루 에너지에 이어 SMR 사업이 자금·시운전 단계로 속도를 내고 있다",
  "facts": [
   "무엇이: 카이로스 파워가 테네시 시범 원자로 사업에 민간 3억 6,800만 달러와 미 에너지부 2억 7,500만 달러 등 6억 4,300만 달러를 확보했다 [사실]",
@@ -261,7 +261,7 @@ items.append({
  ],
  "added": "이번 블룸버그 2건·텔레그램 2건으로 카이로스의 6억 4,300만 달러 조달, 히타치의 일본 SMR 검토, 中 ACP100 고온 시험과 중국 원전 전력가격 반등 전망이 추가됐다",
  "items": [
-  it("히타치, 전력비 상승 속 일본 소형원전 검토", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/hitachi-eyes-small-nuclear-reactors-in-japan-as-power-costs-rise",
+  it("히타치, 전력비 상승 속 일본에서 소형원전 사업 검토", B, "2026-10-14", "https://www.bloomberg.com/news/articles/2026-10-14/hitachi-eyes-small-nuclear-reactors-in-japan-as-power-costs-rise",
      "히타치가 전력비 상승을 배경으로 일본에서 소형원전을 검토하면서, 일본에서도 SMR이 전력 공급 대안으로 거론되고 있다 (제목 기준)"),
   it("원전 스타트업 카이로스, 테네시 사업에 6억 4,300만 달러 조달", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-14/nuclear-startup-kairos-raises-643-million-for-tennessee-project",
      "카이로스가 민간과 미 에너지부에서 6억 4,300만 달러를 모으면서, 2030년 가동 목표인 50MW 헤르메스 2 시범로 건설 자금을 확보했다"),
@@ -388,7 +388,7 @@ items.append({
   vc("consumer", "household", "수요", "down", "실제", "3분기 유기적 매출 1.3% 감소")
  ],
  "items": [
-  it("킴벌리클라크, 3분기 잠정 실적 예상 상회", R, "2026-10-16", "https://www.reuters.com/legal/transactional/kimberly-clark-posts-preliminary-quarterly-results-above-estimates-2026-10-15/")
+  it("킴벌리클라크, 3분기 잠정 실적 시장 예상 웃돌아", R, "2026-10-16", "https://www.reuters.com/legal/transactional/kimberly-clark-posts-preliminary-quarterly-results-above-estimates-2026-10-15/")
  ]
 })
 
@@ -568,7 +568,7 @@ items.append({
  ],
  "added": "이번 텔레그램 1건과 CAAM 집계로 9월 자동차 내수 판매 26% 감소, 6개월 연속 20%대 감소, 승용차 수출 64% 급증이 추가됐다",
  "items": [
-  it("중국 자동차 내수 판매 증가율 역대 최저", TH, "2026-10-14", "https://t.me/HANAchina/70422",
+  it("중국 자동차 내수 판매 증가율, 역대 최저로 떨어져", TH, "2026-10-14", "https://t.me/HANAchina/70422",
      "하나증권 중국전략이 중국 자동차 내수 판매 증가율이 역대 최저로 떨어졌다고 전하면서, 수출로 버티는 중국 완성차 업계의 내수 부진이 부각됐다")
  ]
 })

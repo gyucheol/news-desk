@@ -80,8 +80,8 @@ items.append({
     "관세 위협으로 미국에 쌓인 구리가 세계 가시재고의 약 70%에 이르지만 차익 축소로 쏠림 효과가 약해지고 있다"),
   I("BHP 에스콘디다 감독직 노조, 잠정합의로 파업 피해", R, "2026-10-15", "https://www.reuters.com/business/world-at-work/bhps-escondida-supervisors-union-avert-strike-with-preliminary-agreement-2026-10-14/",
     "BHP와 에스콘디다 감독직 노조가 잠정합의에 이르면서 세계 최대 구리 광산의 파업이 회피됐다"),
-  I("강한 미국 물가에 매도세…구리값 사흘째 하락", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
-    "미국 물가 지표가 강하게 나오면서 매도세가 이어져 구리값이 사흘째 떨어졌다 (제목 기준)"),
+  I("강한 미국 물가 지표에 매도세…구리값 사흘째 하락", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
+    "미국 물가 지표가 예상보다 강하게 나오면서 금속 시장에 매도세가 이어져 구리값이 사흘째 떨어졌다 (제목 기준)"),
   I("LME 위크: 구리 공급난이 오래된 광산에 새 생명 불어넣어", R, "2026-10-15", "https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/",
     "구리 공급난과 높은 가격이 이어지면서 채산성이 낮던 오래된 광산들이 다시 살아나고 있다 (제목 기준)"),
   I("안토파가스타 센티넬라 파업 노조 '협상 돌파구 없어'", R, "2026-10-16", "https://www.reuters.com/business/world-at-work/no-breakthrough-talks-antofagastas-striking-centinela-copper-mine-unions-say-2026-10-15/",
@@ -131,7 +131,7 @@ items.append({
     "싱가포르 선적 GFS 프라이드와 GFS 지젤이 피격돼 프라이드는 불이 난 뒤 가라앉았고 지젤은 선체 손상 뒤 자력으로 피항했다"),
   I("WSJ '호르무즈서 UAE 화물선 2척 공격받아 침몰'", "텔레그램 상상인 김진범", "2026-10-15", "https://t.me/PipeBeom/6706",
     "호르무즈 해협에서 화물선 두 척이 공격을 받아 침몰했다는 보도가 나오면서 이란 공격 급증에 따른 해상 운송 위험이 커졌다"),
-  I("공격 늘며 호르무즈서 컨테이너선 침몰", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-14/cargo-ship-sinks-in-strait-of-hormuz-after-strike-triggers-fire",
+  I("공격 잦아지는 호르무즈 해협서 컨테이너선 침몰", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-14/cargo-ship-sinks-in-strait-of-hormuz-after-strike-triggers-fire",
     "호르무즈 해협 공격이 잦아지는 가운데 컨테이너선이 피격 뒤 화재로 가라앉으면서 선박 운항 위험이 높아졌다"),
   I("호르무즈 인근 24시간 새 컨테이너선·벌크선 2척 포탄 맞아 침몰", "텔레그램 트릴리온", "2026-10-15", "https://t.me/Trillion_labs/10573",
     "해양 당국이 24시간 새 컨테이너선과 벌크선이 각각 포탄에 맞아 침몰했다고 밝히면서 미국 봉쇄에 맞선 이란의 공격 강화가 드러났다"),
@@ -223,7 +223,7 @@ items.append({
         V("consumer", "alcohol", "수요", "mixed", "실제", "페르노리카 인도 19% 증가 속 미국·중국 감소")],
  "added": "이번 블룸버그·로이터 4건으로 쿠치넬리의 연간 전망 상향(약 12%), 페르노리카 1분기 0.9% 감소와 인도 19% 증가, 샤넬 이사회 개편이 추가됐다",
  "items": [
-  I("페르노리카 매출 감소, 인도 강세로 완화", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/pernod-ricard-sales-decline-softened-by-strength-in-india",
+  I("페르노리카 매출 감소, 인도 시장 강세로 감소폭 완화", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/pernod-ricard-sales-decline-softened-by-strength-in-india",
     "페르노리카의 1분기 매출이 0.9% 줄었지만 인도 매출이 19% 늘면서 미국·중국 부진을 일부 메웠다"),
   I("샤넬 개편 이어져…패션 대표 파블로프스키 이사회 떠나", B, "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/chanel-overhaul-continues-as-fashion-head-pavlovsky-exits-board",
     "샤넬이 패션 대표 파블로프스키를 이사회에서 빼고 운영 역할은 유지하게 하면서 이사회 독립성 강화 개편을 이어갔다"),
@@ -297,7 +297,7 @@ items.append({
     "바이트댄스가 AI 안전팀을 만들고 세계 채용에 나서면서 중국 빅테크도 AI 안전 대응을 늘리고 있다 (제목 기준)"),
   I("앤트로픽, AI 평가기관 METR에 직원 수준 모델 접근권 부여", R, "2026-10-16", "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/",
     "앤트로픽이 외부 평가기관 METR에 직원 수준의 모델 접근권을 주면서 외부 안전 검증의 범위가 넓어졌다 (제목 기준)"),
-  I("감속 요구 한 달 만에 AI 경쟁 다시 가열", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-race-heats-up-again-a-month-after-calls-for-a-slowdown",
+  I("속도 조절 요구 한 달 만에 AI 개발 경쟁 다시 가열", B, "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-race-heats-up-again-a-month-after-calls-for-a-slowdown",
     "AI 개발 속도를 늦추자는 요구가 나온 지 한 달 만에 업계 경쟁이 다시 달아오르면서 안전 논의와 개발 경쟁이 엇갈리고 있다 (제목 기준)"),
  ]})
 

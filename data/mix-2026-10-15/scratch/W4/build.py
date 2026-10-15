@@ -162,9 +162,9 @@ items.append({
  "items": [
   it("美 주간 실업수당 청구 소폭 증가…해고는 낮은 수준", "로이터", "2026-10-15", "https://www.reuters.com/world/us/us-weekly-jobless-claims-rise-marginally-amid-low-layoffs-2026-10-15/",
      "미국 신규 실업수당 청구가 19만9000건으로 1000건 늘었지만 5주째 20만 건 아래에 머물러 해고가 낮은 수준을 이어 갔다"),
-  it("美 8월 기업재고, 완만한 증가세 기록", "로이터", "2026-10-15", "https://www.reuters.com/business/us-business-inventories-rise-moderately-august-2026-10-15/",
+  it("미국 8월 기업재고, 전월 대비 완만한 증가세 기록", "로이터", "2026-10-15", "https://www.reuters.com/business/us-business-inventories-rise-moderately-august-2026-10-15/",
      "미국 기업재고가 8월에 완만하게 늘면서, 기업들의 재고 쌓기가 3분기 성장에 보탬이 될 수 있다" + TB),
-  it("미국 신입 채용, 다시 되살아나고 있을 수도", "블룸버그", "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/entry-level-hiring-may-be-making-a-comeback",
+  it("미국 신입 채용, 다시 되살아나고 있을 가능성", "블룸버그", "2026-10-16", "https://www.bloomberg.com/news/newsletters/2026-10-15/entry-level-hiring-may-be-making-a-comeback",
      "얼어붙었던 신입 채용이 다시 살아나고 있을 수 있다는 분석이 나오면서, 저채용 노동시장에 변화 신호가 될 수 있다" + TB),
  ]
 })
@@ -344,7 +344,7 @@ items.append({
  ],
  "added": "이번 블룸버그 1건으로 한미 관계가 정보 공유 갈등으로 최저점에 이르렀다는 평가와 미국의 북한 정보 일부 제한 경위가 추가됐다",
  "items": [
-  it("미국과 한국의 관계, 정보 갈등으로 최저점", "블룸버그", "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/south-korea-us-ties-hit-lowest-ebb-in-years-on-intelligence-row",
+  it("미국과 한국의 관계, 정보 공유 갈등으로 최저점", "블룸버그", "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-15/south-korea-us-ties-hit-lowest-ebb-in-years-on-intelligence-row",
      "미국과 한국의 관계가 정보 공유를 둘러싼 갈등으로 최저점에 떨어지면서, 동맹 공조에 부담이 커졌다는 보도가 나왔다" + TB),
  ]
 })
@@ -468,7 +468,7 @@ items.append({
      "중국 자동차 단체가 중-EU 무역 합의가 산업 안정에 도움이 된다고 하면서, 중국차의 유럽 수출 불확실성이 줄 수 있다" + TB),
   it("伊 장관 \"중국 업체가 살 수 있는 자동차 공장 없다\"", "로이터", "2026-10-14", "https://www.reuters.com/world/china/no-auto-plants-available-italy-chinese-purchase-italian-minister-says-2026-10-14/",
      "이탈리아 장관이 중국 업체가 인수할 수 있는 자동차 공장이 없다고 하면서, 중국차의 이탈리아 현지 생산 길이 좁아졌다" + TB),
-  it("센강까지 번진 중국과 EU의 자동차 전쟁", "로이터", "2026-10-15", "https://www.reuters.com/podcasts/viewsroom/china-eu-auto-wars-drive-in-seine-level-2026-10-15/",
+  it("센강 수준까지 번진 중국과 유럽연합의 자동차 전쟁", "로이터", "2026-10-15", "https://www.reuters.com/podcasts/viewsroom/china-eu-auto-wars-drive-in-seine-level-2026-10-15/",
      "로이터 팟캐스트가 중국과 유럽 완성차의 경쟁이 한층 격해졌다고 짚으면서, 유럽 업체의 안방 시장 부담이 커지고 있다" + TB),
   it("체리 새 브랜드, 랜드로버 닮은꼴로 영국 상륙", "블룸버그", "2026-10-15", "https://www.bloomberg.com/news/articles/2026-10-15/chery-s-latest-brand-comes-to-the-uk-with-land-rover-lookalike",
      "체리가 랜드로버를 닮은 박스형 SUV를 앞세운 새 브랜드 아이카로 영국에 들어오면서, 영국 SUV 시장 경쟁이 거세질 수 있다"),

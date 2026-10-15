@@ -324,6 +324,8 @@
     else if (act === 'node') goNode(b.dataset.ind, id);
     else if (act === 'flownode') { st.flowNode = id; st.flowMore = false; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
     else if (act === 'flowmore') { st.flowMore = true; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
+    else if (act === 'fedwho') { st.fedWho = id; st.fedMore = false; $('fedBlk').innerHTML = fedBlock(chains[st.ind]); }
+    else if (act === 'fedmore') { st.fedMore = true; $('fedBlk').innerHTML = fedBlock(chains[st.ind]); }
     else if (act === 'gonews') goNews(id);
     else if (act === 'indnews') { st.tab = 'news'; st.src = 'all'; st.nind = id; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.shown = PAGE; st.confirmAll = false; save(); render(); window.scrollTo(0, 0); }
     else if (act === 'src') { st.src = id; st.shown = PAGE; st.confirmAll = false; renderNews(); }

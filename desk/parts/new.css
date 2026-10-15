@@ -311,3 +311,18 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .fnews{appearance:none;border:0;background:none;padding:0;font:inherit;color:var(--ink);font-weight:600;text-align:left;cursor:pointer}
 .fnews:hover{text-decoration:underline;text-underline-offset:3px}
 .indnews{margin-top:4px}
+/* v69: 매크로의 연준 인사 발언 — 누가(직함), 무엇을, 매파·비둘기파 */
+.fedl li{gap:8px}
+.fw{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-size:14px}
+.fw b{color:var(--ink);font-weight:600}
+.fw .fr{font-size:12.5px;color:var(--muted)}
+.fw .ndtag{margin-right:0}
+.stc{display:inline-block;font-size:11.5px;font-weight:700;border-radius:999px;padding:0 8px;line-height:1.7}
+.stc.hawk{background:var(--risk-soft);color:var(--risk-strong)}
+.stc.dove{background:var(--accent-soft);color:var(--accent-strong)}
+.stc.mid{background:var(--card);color:var(--muted)}
+.ft{margin:2px 0 0;max-width:72ch;color:var(--body);font-size:14.5px}
+.froster{margin-top:16px}
+.froster summary{cursor:pointer;color:var(--link);font-weight:500;font-size:14px}
+.froster ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px;font-size:14px;max-width:72ch}
+.froster b{color:var(--ink);font-weight:600}

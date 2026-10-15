@@ -15,6 +15,13 @@ for s in ['bbg','rtr']:
         if u in seen or u in prev: continue
         title=p[3] if s=='bbg' and p[3].strip() else re.sub(r'-',' ',u.rstrip('/').rsplit('/',1)[-1])
         rows.append([s,t,clean(title),u])
+# 연준 공식 연설·증언·성명(사용자 지시 10월 15일): python3 tools/fedspeech.py <since> --out work/sm8/fed.txt
+# 줄: 'YYYY-MM-DD HH:MM'(KST) \t 기관 \t 발언자 성 \t 제목 \t 주소
+if os.path.exists(f'{R}/work/sm8/fed.txt'):
+    for l in open(f'{R}/work/sm8/fed.txt'):
+        p=l.rstrip('\n').split('\t')
+        if len(p)<5 or p[4] in seen or p[4] in prev: continue
+        rows.append(['fed:'+p[1],p[0][5:16],clean((p[2]+': ' if p[2] else '')+p[3]),p[4]])
 for f in glob.glob(f'{R}/work/dump8/*.jsonl'):
     ch=os.path.basename(f)[:-6]
     for l in open(f):

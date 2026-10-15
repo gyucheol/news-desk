@@ -20,7 +20,12 @@ if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'indu
 NEED_VC = os.environ.get('NO_VC') != '1'
 CHAN = json.load(open('chan.json'))['chan']
 TAILS = {'title': ' (제목 기준)', 'channel': ' (채널 전언)'}
-SRCN = {'bbg': '블룸버그', 'rtr': '로이터', 'tg': '텔레그램'}
+SRCN = {'bbg': '블룸버그', 'rtr': '로이터', 'tg': '텔레그램', 'fed': '연준 공식'}
+# 연준 인사 발언(fed, 2026-10-15 사용자 지시: 매크로에 연준 인사 발언·관련 뉴스를 꼭 담음). 출처 fed:<기관>은 tools/fedspeech.py.
+FEDR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'industry', 'fed_roster.json')))
+BANKS = FEDR['banks']
+FED_KIND = ('발언', '연설', '인터뷰', '증언', '성명·의사록', '조사·보고서', '인사·독립성', '감독·규제', '관련 뉴스')
+FED_STANCE = ('매파', '비둘기파', '중립', '')
 
 when, kind = {}, {}
 for l in open('all.tsv'):
@@ -37,6 +42,7 @@ for p in sorted(glob.glob('out2/W*.json')):
 
 def label(u):
     k = kind.get(u, '')
+    if k.startswith('fed:'): return '연준 공식 ' + BANKS.get(k[4:], k[4:])
     return '텔레그램 ' + CHAN.get(k[3:], k[3:]) if k.startswith('tg:') else SRCN.get(k, '')
 
 HL = re.compile(r'\{\{([^{}]+)\}\}')
@@ -70,9 +76,29 @@ def check_vc(w, vc):
         t = v.get('t', '')
         if not 8 <= len(t) <= 60 or '{{' in t: P.append(f'{w} vc t {len(t)}자')
 
+def check_fed(w, x, its):
+    fed = x.get('fed')
+    if fed is None:
+        if any(kind.get(it['u'], '').startswith('fed:') for it in its): P.append(f'{w} 연준 공식 글인데 fed 없음')
+        return
+    if not isinstance(fed, list) or not fed: P.append(f'{w} fed 형식'); return
+    if 'macro' not in x.get('inds', []): P.append(f'{w} fed인데 inds에 macro 없음')
+    if 'macro/cb' not in x.get('nodes', []): P.append(f'{w} fed인데 nodes에 macro/cb 없음')
+    if (x.get('vc') or NEED_VC) and not any(v.get('ind') == 'macro' and v.get('node') == 'cb' for v in x.get('vc') or []): P.append(f'{w} fed인데 vc에 macro/cb 없음')
+    us = {it['u'] for it in its}
+    for f in fed:
+        if f.get('kind') not in FED_KIND: P.append(f"{w} fed kind {f.get('kind')}")
+        if f.get('stance', '') not in FED_STANCE: P.append(f"{w} fed stance {f.get('stance')}")
+        if not f.get('who') or not f.get('role'): P.append(f'{w} fed who·role 없음')
+        t = f.get('t', '')
+        if not 15 <= len(t) <= 80 or '{{' in t or not t.endswith('다'): P.append(f'{w} fed t {len(t)}자')
+        if f.get('u') not in us: P.append(f"{w} fed 주소가 items에 없음 {str(f.get('u'))[:60]}")
+        if not re.match(r'^\d{4}-\d{2}-\d{2}$', f.get('d', '')): P.append(f"{w} fed d {f.get('d')}")
+
 def check(x, its):
     w = x['cid']
     if 'vc' in x or NEED_VC: check_vc(w, x.get('vc'))
+    check_fed(w, x, its)
     hl_check(w, 'title', x['title'], 1, 2)
     one = hl_check(w, 'one', x['one'], 2, 4)
     tail = TAILS.get(x['basis'], '')
@@ -128,6 +154,10 @@ for x in sorted(items, key=lambda x: x['cid']):
     fields = {k: x[k] for k in ('title', 'one', 'facts', 'basis', 'check')}
     if x.get('added'): fields['added'] = x['added']
     if x.get('vc'): fields['vc'] = x['vc']
+    if x.get('fed'):  # 원문별 발언 목록. 기존 문서에 붙일 때는 기존 목록에 더함(같은 주소는 새 것으로)
+        old = (docs.get(x.get('attachTo')) or (json.load(open(f"{DB}/news/{x['attachTo']}.json")) if x.get('attachTo') and os.path.exists(f"{DB}/news/{x['attachTo']}.json") else {})).get('fed', [])
+        nu = {f['u'] for f in x['fed']}
+        fields['fed'] = sorted([f for f in old if f.get('u') not in nu] + x['fed'], key=lambda f: f.get('d', ''))
     lt = max(when.get(it['u'], '') for it in its)
     if x.get('attachTo'):
         aid = x['attachTo']; path = f'{DB}/news/{aid}.json'
@@ -138,11 +168,11 @@ for x in sorted(items, key=lambda x: x['cid']):
         if 'macro/semis' in d['nodes'] and not d.get('ind'): d['ind'] = 'semis'
         docs[aid] = d; attached.add(aid)
     else:
-        u0 = its[0]['u']; k = kind[u0]; sk = 'tg' if k.startswith('tg:') else k
-        seq[sk] += 1; did = f'n-{sk}-{seq[sk]:04d}'
+        u0 = its[0]['u']; k = kind[u0]; sk = 'tg' if k.startswith('tg:') else 'fed' if k.startswith('fed:') else k
+        seq[sk] = seq.get(sk, 0) + 1; did = f'n-{sk}-{seq[sk]:04d}'
         d = {'id': did, 'num': seq[sk], 'key': f'mix-{x["cid"]}-{TODAY}', 'feed': 'v5', 'format': 'one1',
              'source': SRCN[sk], 'processed': TODAY, 'published': lt, 'url': u0, 'origTitle': '', 'headline': x['title'],
-             'src': ([{'o': its[0]['o'], 'd': its[0]['d'], 'u': u0}] if sk == 'tg' else []) + x.get('src', []),
+             'src': ([{'o': its[0]['o'], 'd': its[0]['d'], 'u': u0}] if sk in ('tg', 'fed') else []) + x.get('src', []),
              'items': its, 'cycles': [], 'tags': [], 'insight': {}, 'incentive': '',
              'inds': x.get('inds', []), 'nodes': x.get('nodes', [])}
         if sk == 'tg': d['channel'] = CHAN.get(k[3:], k[3:])

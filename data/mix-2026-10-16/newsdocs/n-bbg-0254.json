@@ -1,0 +1,137 @@
+{
+ "added": "이번 블룸버그 2건과 텔레그램 1건으로 라스파드스카야 광산 90일 조업 중단, 한국의 겨울 석탄·원전 확대, 중국의 겨울 가스 비축 확대가 추가됐다",
+ "basis": "partial",
+ "check": "라스파드스카야 90일 중단과 한국의 겨울 석탄·원전 확대는 검색 결과 요약으로 확인. 채널의 약 120만 톤 감소 추정은 러시아 측 추정(약 90만 톤)과 다름. 중국 가스 비축은 블룸버그 제목만 근거이고 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 러시아 당국은 9월 30일 화재가 난 최대 원료탄 광산 라스파드스카야에 생명 유지 작업을 뺀 90일 조업 중단을 명령했고, 광부 305명은 모두 대피했다 [사실]",
+  "공급 감소: 러시아 측 분석은 중단 기간이 거의 4분기에 몰려 약 90만 톤, 연간 물량의 6%가 줄 수 있다고 봤다 [사실]",
+  "한국: 김성환 장관은 이란 전쟁으로 걸프산 화물 흐름이 크게 막힌 가운데 난방 수요가 몰리는 겨울에 석탄과 원전에 기대겠다며 단기 조치라고 했다 [사실]",
+  "중국: 중국은 이란 전쟁 위험이 커지자 겨울에 대비한 가스 비축을 쌓고 있다 [제목]",
+  "기존: 뉴캐슬 발전용 석탄값은 13일 2024년 8월 이후 최고로 올랐고, 중국의 9월 석탄 수입은 4,337만 톤으로 6% 줄었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아시아 겨울 연료 쟁탈…러 최대 원료탄 광산 90일 중단, 한국은 석탄·원전으로",
+ "id": "n-bbg-0254",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "중국 석탄값 3년 만에 최고…당분간 완화 조짐 없어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "중국 발전사 재고가 넉넉하고 인도네시아 수출 물량이 줄면서 9월 석탄 수입이 4,337만 톤으로 1년 전보다 6% 줄었다",
+   "t": "중국 9월 석탄 수입 6% 감소…높은 재고·인도네시아 공급 제약",
+   "u": "https://www.reuters.com/business/energy/china-september-coal-imports-fall-6-high-inventories-indonesia-supply-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "중국 감산·인도네시아 수출 제약에 겨울 재고 확보 수요가 겹치면서 뉴캐슬 발전용 석탄값이 2024년 8월 이후 최고로 올랐다",
+   "t": "아시아 석탄값 2년여 만에 최고…올해 40% 넘게 급등",
+   "u": "https://t.me/HANAchina/70431"
+  },
+  {
+   "t": "한국, 겨울 가스 수급난 우려에 석탄·원전 발전 확대로 선회",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/south-korea-turns-to-dirty-coal-as-winter-gas-squeeze-looms",
+   "s": "한국 정부가 이란 전쟁으로 걸프산 LNG 도입이 막힌 가운데 겨울 난방철에 석탄·원전 발전을 늘리기로 하면서, 비싼 LNG 사용을 줄이려 하고 있다"
+  },
+  {
+   "t": "러시아 최대 원료탄 광산 라스파드스카야, 화재로 90일 조업 중단",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-16",
+   "u": "https://t.me/Trillion_labs/10621",
+   "s": "라스파드스카야 광산이 9월 30일 화재로 90일 조업 중단 명령을 받으면서, 연 470만 톤 생산 기준 약 120만 톤의 원료탄 공급이 줄 수 있다"
+  },
+  {
+   "t": "중국, 이란 전쟁 위험 커지자 겨울 대비 가스 비축 확대",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-builds-gas-buffer-for-winter-as-iran-war-heightens-risk",
+   "s": "중국이 이란 전쟁으로 공급 위험이 커지자 겨울에 대비한 가스 비축을 쌓으면서, 아시아의 겨울 LNG 확보 경쟁이 거세질 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C114-2026-10-13",
+ "nodes": [
+  "coal/met",
+  "coal/power",
+  "coal/thermal",
+  "coal/trade",
+  "gas/regas"
+ ],
+ "num": 254,
+ "one": "러시아 최대 원료탄 광산 라스파드스카야가 화재로 90일 조업 중단 명령을 받고 한국이 겨울 가스난에 석탄·원전 발전을 늘리기로 하면서, 2년여 만의 최고로 오른 아시아 석탄 시장에 원료탄 공급 감소와 발전용 수요 증가가 겹치고 있다",
+ "origTitle": "",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T14:25:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "OilPrice",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Thermal-Coal-Prices-Surge-to-Three-Year-High.html"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Mining Weekly",
+   "u": "https://www.miningweekly.com/article/china-september-coal-imports-fall-6-on-high-inventories-indonesia-supply-constraints-2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "OilPrice.com",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Imports-Fall-6-as-Prices-Hit-Nearly-3-Year-High.html"
+  },
+  {
+   "o": "SMM(Shanghai Metals Market)",
+   "d": "2026-10",
+   "u": "https://news.metal.com/newscontent/104144197-raspadskaya-suspends-coking-coal-production-after-mine-fire"
+  },
+  {
+   "o": "Energy Connects",
+   "d": "2026-10-16",
+   "u": "https://www.energyconnects.com/news/gas-lng/2026/october/south-korea-turns-to-dirty-coal-as-winter-gas-squeeze-looms/"
+  }
+ ],
+ "tags": [],
+ "title": "아시아 겨울 연료 쟁탈…러 최대 원료탄 광산 90일 중단, 한국은 석탄·원전으로",
+ "updatedAt": "2026-10-16T18:17:05+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight",
+ "vc": [
+  {
+   "ind": "coal",
+   "node": "met",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "라스파드스카야 광산 90일 조업 중단 명령"
+  },
+  {
+   "ind": "coal",
+   "node": "power",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "한국 겨울 가스난에 석탄·원전 의존 확대"
+  },
+  {
+   "ind": "gas",
+   "node": "regas",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 이란 전쟁 위험에 겨울 가스 비축 확대"
+  }
+ ]
+}

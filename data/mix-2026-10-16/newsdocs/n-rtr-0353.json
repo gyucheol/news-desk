@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0353",
+ "num": 353,
+ "key": "mix-G1-051-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T08:08:00+09:00",
+ "url": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/",
+ "origTitle": "",
+ "headline": "세계 전기차 판매 9월 2% 감소…유럽 최대에도 북미 44%·중국 18% 급감",
+ "src": [
+  {
+   "o": "WBOW",
+   "d": "2026-10-15",
+   "u": "https://1027wbow.com/2026/10/15/global-ev-sales-fall-2-in-september-ending-six-month-growth-streak/"
+  }
+ ],
+ "items": [
+  {
+   "t": "세계 전기차 판매 9월 2% 감소, 6개월 연속 증가 끝나",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "세계 전기차 판매 9월 2% 감소…유럽 최대에도 북미 44%·중국 18% 급감",
+ "one": "9월 세계 전기차 판매가 215만 대로 2% 줄어 6개월 연속 증가가 끊기면서, 유럽의 사상 최대 판매도 세액공제 종료 여파의 북미 44%, 중국 18% 급감을 메우지 못했다",
+ "facts": [
+  "무엇이: 벤치마크 미네랄 인텔리전스 집계로 9월 세계 전기차 판매는 215만 대로 2% 줄어 6개월 연속 증가가 끊겼고, 연초 이후 누계는 1,550만 대로 3% 늘었다 [사실]",
+  "지역: 유럽은 약 60만 대로 6월 기록보다 10% 많은 사상 최대였지만, 북미는 1년 전 세액공제 종료 전 구매 쏠림의 기저 탓에 44%, 중국은 18% 줄어 111만 대였다 [사실]",
+  "중국: 중국 판매가 줄면서 완성차 업체들은 수출 의존을 늘리고 있다 [사실]",
+  "전망: 찰스 레스터 데이터 매니저는 4분기부터 세액공제 종료 뒤 부진기와 비교하게 돼 비교가 쉬워진다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "215만 대·2% 감소, 유럽 약 60만 대, 북미 44%·중국 18% 감소는 검색 결과 요약으로 확인(요약 출처가 로이터 기사 전재본이라 독립 확인은 아님)",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "9월 세계 전기차 판매 2% 감소"
+  }
+ ]
+}

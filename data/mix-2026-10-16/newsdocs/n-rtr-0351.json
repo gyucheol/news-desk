@@ -1,0 +1,107 @@
+{
+ "id": "n-rtr-0351",
+ "num": 351,
+ "key": "mix-G1-013-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T13:07:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/singapores-september-exports-rise-684-year-2026-10-16/",
+ "origTitle": "",
+ "headline": "AI 수출 호황에 아시아 성장 가속…싱가포르 수출 68% 급증, 대만 성장 전망 12%",
+ "src": [
+  {
+   "o": "AsiaOne",
+   "d": "2026-10-16",
+   "u": "https://www.asiaone.com/money/singapore-external-trade-september-2026-nodx"
+  },
+  {
+   "o": "신화통신",
+   "d": "2026-10-16",
+   "u": "https://english.news.cn/20261016/205e893808a8497ba036400cdac6959d/c.html"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-16",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/16/malaysia039s-economy-grows-53-in-3q26-beats-expectations"
+  },
+  {
+   "o": "경제일보(udn)",
+   "d": "2026-10-16",
+   "u": "https://money.udn.com/money/story/5612/9818806"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 9월 수출, 전년 대비 68.4% 증가",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/singapores-september-exports-rise-684-year-2026-10-16/",
+   "s": "싱가포르의 9월 비석유 국내 수출이 AI 수요에 힘입어 1년 전보다 68.4% 늘고 전자 수출은 107.6% 뛰어, 아시아 AI 수출 호황이 이어졌다"
+  },
+  {
+   "t": "중화경제연구원, 대만 성장률 전망 12.16%로 세 번째 상향",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-16",
+   "u": "https://t.me/w_compass/7349",
+   "s": "대만 중화경제연구원이 AI 강세로 내수와 수출이 함께 견조하자 올해 성장률 전망을 12.16%로 세 번째 올려, 1988년 이후 최고 성장이 예상된다"
+  },
+  {
+   "t": "말레이시아 성장률 예상 상회…AI 호황에 수출 급증",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/malaysia-s-growth-tops-forecasts-as-ai-boom-drives-export-surge",
+   "s": "AI 호황이 수출 급증을 이끌면서 말레이시아 3분기 성장률이 시장 예상을 웃돌았고, 제조업은 전자 수출 생산에 힘입어 7.5% 성장했다"
+  },
+  {
+   "t": "말레이시아 3분기 경제 전년 대비 5.3% 성장…속보치",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/malaysias-economy-grows-53-year-q3-official-advance-estimate-shows-2026-10-16/",
+   "s": "말레이시아 통계청 속보치로 3분기 경제가 전년 대비 5.3% 성장해 2분기 6.0%보다 둔화했지만, 전분기 대비로는 4.6% 늘었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "AI 수출 호황에 아시아 성장 가속…싱가포르 수출 68% 급증, 대만 성장 전망 12%",
+ "one": "AI 수요가 아시아 수출을 끌어올리면서 싱가포르 9월 비석유 수출이 68.4% 급증하고 말레이시아 3분기 성장률이 5.3%로 예상을 웃돌았으며, 대만 중화경제연구원은 올해 성장률 전망을 12.16%로 높였다",
+ "facts": [
+  "무엇이: 싱가포르 9월 비석유 국내 수출은 전년 대비 68.4% 늘었고 전자는 107.6%, 비전자는 54.2% 증가했다 [사실]",
+  "기저: 엔터프라이즈 싱가포르는 높은 증가율에 2025년 9월 낮은 기저가 작용했다고 했고, 비전자 증가에는 일회성 선박 구조물 출하가 포함됐다 [사실]",
+  "말레이시아: 3분기 GDP 속보치는 전년 대비 5.3%로 2분기 6.0%보다 낮았지만 예상을 웃돌았고, 제조업은 전자·석유화학 수출 생산에 힘입어 7.5% 성장했다 [사실]",
+  "대만: 중화경제연구원은 올해 성장률 전망을 12.16%로 올해 세 번째 올렸고 1988년 이후 최고이며, 내수 6.63%포인트·순수출 5.53%포인트 기여로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "싱가포르 수출은 AsiaOne·신화통신, 말레이시아 GDP는 NST·더스타, 대만 전망은 경제일보(udn) 검색 결과 요약으로 확인",
+ "added": "이번 블룸버그·로이터 2건으로 AI발 수출 급증에 힘입어 말레이시아 3분기 성장률이 5.3%로 시장 예상을 웃돌았다는 사실이 추가됐다",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "AI 수요에 싱가포르 9월 비석유 수출 68.4% 급증"
+  },
+  {
+   "ind": "semis",
+   "node": "datacenter",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "AI 호황에 말레이시아 제조업 7.5% 성장"
+  }
+ ],
+ "updatedAt": "2026-10-16T18:17:05+09:00"
+}

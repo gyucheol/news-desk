@@ -1,0 +1,89 @@
+{
+ "added": "이번 로이터 1건으로 러트닉 상무장관이 자동차·철강·알루미늄 관세의 대폭 인하에 반대해 미-멕시코 관세 협상 진전이 멈췄다는 WSJ 보도가 추가됐다",
+ "basis": "verified",
+ "check": "WSJ 보도 내용과 양측 입장은 APA·SMM 등 검색 결과 요약으로 확인. 다만 보도는 소식통 기반이고 로이터도 즉시 검증하지 못했다고 밝힘",
+ "cycles": [],
+ "facts": [
+  "무엇이: WSJ는 10월 15일 미-멕시코 관세 협상이 러트닉 상무장관의 반대로 진전을 멈췄다고 보도했다 [사실]",
+  "쟁점: 양측은 철강·알루미늄·자동차 관세 인하와 멕시코의 양보를 맞바꾸는 합의에 가까웠지만, 러트닉은 자동차 25%와 철강·알루미늄 50% 관세의 대폭 인하, 금속 완제품 관세 인하에 반대했다 [사실]",
+  "양측 입장: 멕시코 무역차관은 협상에 진전이 있다고 했고 미 상무부는 멕시코와 꾸준히 대화하고 있다고 했다 [사실]",
+  "기존: 셰인바움 대통령은 미국산 수입을 늘려 8월까지 2,800억 달러를 넘은 대미 상품 흑자를 줄이겠다고 밝혔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미-멕시코 관세 협상 제동…러트닉, 자동차·철강 관세 대폭 인하에 반대",
+ "id": "n-rtr-0259",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "t": "트럼프, 멕시코에 양국 에너지 기업 간 제휴 확대 압박 - FT",
+   "u": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "{{셰인바움}} 멕시코 대통령이 {{미국산 수입}}을 {{늘리고}} {{다른 나라 구매}}를 {{줄여}} {{대미 흑자}}를 {{줄이겠다}}고 밝히면서, {{철강·자동차 관세 완화}}를 끌어낼 {{협상 카드}}로 쓰려 한다",
+   "t": "셰인바움, 트럼프와 무역합의 위해 미국산 구매 확대 약속",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/sheinbaum-vows-to-buy-more-goods-from-the-us-to-sign-trade-deal"
+  },
+  {
+   "t": "미-멕시코 관세 합의 향한 진전 멈춰…WSJ 보도",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/autos-transportation/progress-toward-us-mexico-tariff-deal-has-stalled-wsj-reports-2026-10-16/",
+   "s": "러트닉 상무장관이 자동차 25%, 철강·알루미늄 50% 관세의 대폭 인하에 반대하면서, 타결에 가까웠던 미-멕시코 관세 협상의 진전이 멈췄다"
+  }
+ ],
+ "key": "mix-C117-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 259,
+ "one": "멕시코가 미국산 구매 확대로 대미 흑자를 줄이겠다며 합의를 서둘렀지만 러트닉 상무장관이 자동차 25%, 철강·알루미늄 50% 관세의 대폭 인하에 반대하면서 타결에 가까웠던 관세 협상이 멈춰, 멕시코산 자동차·금속의 관세 부담이 이어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T09:35:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Transport Topics",
+   "u": "https://www.ttnews.com/articles/sheinbaum-mexico-trump-trade"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Quartz",
+   "u": "https://qz.com/mexico-us-trade-deal-goods-purchases-sheinbaum-101326"
+  },
+  {
+   "o": "APA",
+   "d": "2026-10-15",
+   "u": "https://en.apa.az/america/us-mexico-trade-talks-stall-over-tariff-reductions-wsj-530381"
+  },
+  {
+   "o": "SMM",
+   "d": "2026-10-15",
+   "u": "https://news.metal.com/newscontent/104161428-us-mexico-tariff-talks-stall-as-commerce-secretary-lutnick-opposes-concessions"
+  }
+ ],
+ "tags": [],
+ "title": "미-멕시코 관세 협상 제동…러트닉, 자동차·철강 관세 대폭 인하에 반대",
+ "updatedAt": "2026-10-16T18:17:05+09:00",
+ "url": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미-멕시코 자동차·철강 관세 인하 협상 정체"
+  }
+ ]
+}

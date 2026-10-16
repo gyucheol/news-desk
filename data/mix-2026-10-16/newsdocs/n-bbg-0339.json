@@ -1,0 +1,84 @@
+{
+ "id": "n-bbg-0339",
+ "num": 339,
+ "key": "mix-G1-034-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T16:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/wheat-boom-in-australia-s-victoria-state-to-boost-global-supply",
+ "origTitle": "",
+ "headline": "호주 빅토리아 밀 풍작·커피 공급 과잉 예고…커피값 변동성은 여전",
+ "src": [
+  {
+   "o": "DatamarNews",
+   "d": "2026-10",
+   "u": "https://datamarnews.com/noticias/global-coffee-prices-seen-falling-in-2026-as-brazil-led-surplus-emerges/"
+  },
+  {
+   "o": "World Coffee Index",
+   "d": "2026-10-10",
+   "u": "https://www.worldcoffeeindex.com/article/coffee-week-2026-10-10/"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-08",
+   "u": "https://finance.biggo.com/news/83a53d36-457f-43a7-8319-132804156ebf"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 빅토리아주 밀 풍작, 세계 밀 공급 늘린다",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/wheat-boom-in-australia-s-victoria-state-to-boost-global-supply",
+   "s": "호주 빅토리아주 밀 농사가 풍작을 맞아 세계 밀 공급이 늘면서, 미국 밀 선물 등 국제 밀값에 하락 압력이 커질 수 있다"
+  },
+  {
+   "t": "다가오는 커피 공급 과잉, 출렁이는 가격 진정시키기엔 부족할 수도",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/coffee-s-coming-glut-may-not-be-enough-to-calm-volatile-prices",
+   "s": "2026/27년 커피 공급 과잉이 예상되지만 줄어든 거래소 재고 보충에 물량이 먼저 쓰이면서, 출렁이는 커피 가격이 쉽게 안정되지 않을 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "호주 빅토리아 밀 풍작·커피 공급 과잉 예고…커피값 변동성은 여전",
+ "one": "호주 빅토리아주 밀 풍작이 세계 밀 공급을 늘리고 2026/27년 커피도 브라질 주도 공급 과잉이 예상되지만, 거래소 커피 재고가 크게 줄어 늘어난 물량이 재고 보충에 먼저 쓰이면서 커피값 변동성은 쉽게 잦아들지 않을 전망이다",
+ "facts": [
+  "무엇이: 호주 빅토리아주의 밀 풍작이 세계 밀 공급을 늘릴 전망이다 [제목]",
+  "호주 작황: 라보뱅크는 앞서 빅토리아를 포함한 동부 산지의 비에 힘입어 호주 밀 생산 전망을 2,130만 톤에서 최대 3,000만 톤으로 올렸다 [사실]",
+  "커피 과잉: 라보뱅크는 2026/27년 세계 커피 생산을 1억 8,170만 포대로 소비 1억 7,280만 포대보다 많게 봤고, 미 농무부는 사상 최대 1억 8,970만 포대를 예상했다 [사실]",
+  "가격·재고: 아라비카는 10월 첫 주 파운드당 3달러를 넘었다가 브라질의 9월 수출 급증에 급락했고, ICE 인증 재고가 크게 줄어 라보뱅크는 과잉 물량이 주로 재고 보충에 쓰일 것으로 봤다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "커피 공급 과잉 전망·가격 급변·재고 부족은 검색 결과 요약으로 확인, 빅토리아주 풍작 규모는 확인 못 함(호주 전체 전망은 약 두 달 전 자료)",
+ "added": "이번 블룸버그 커피 기사로 다가오는 커피 공급 과잉에도 재고 보충 수요 때문에 변동성 큰 커피값이 쉽게 진정되지 않을 수 있다는 분석이 추가됐다",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "grains",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "호주 빅토리아주 밀 풍작으로 세계 공급 증가"
+  },
+  {
+   "ind": "agri",
+   "node": "softs",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "2026/27년 브라질 주도 커피 공급 과잉 예상"
+  }
+ ],
+ "updatedAt": "2026-10-16T18:17:05+09:00"
+}

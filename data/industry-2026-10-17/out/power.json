@@ -1,0 +1,102 @@
+{
+ "id": "power",
+ "summary": "재생에너지·전력은 태양광 소재와 모듈, 풍력, ESS, 발전 기자재, 송배전 기기, 발전 사업자, 전력 시장, 수요로 이어지는 사슬이며, 데이터센터를 포함한 전력 수요가 사슬 전체의 주문을 끌고 갑니다. 지금 가장 빠듯한 곳은 계통과 발전 설비입니다. 10월 13~16일 PJM은 정비철 발전 설비 약 6만 1,591MW가 멈춘 채 이상 고온을 맞아 미 에너지부 긴급명령을 받았고, 1~7월 PJM 도매 전력값은 1년 전보다 47% 올랐습니다. 가스터빈·변압기는 여전히 수년 치 잔고를 안고 증설을 시작한 단계입니다. 반대로 상류 태양광 제조는 남는 쪽이라, 10월 11일 항저우 회의에서 자율 감산과 가격 하한을 다시 정했지만 폴리실리콘 현물가는 10월 14일에도 kg당 40위안으로 그대로였고 5대 기업은 2년 새 인력을 절반가량 줄였습니다. ESS도 원재료인 탄산리튬 값이 5월 이후 절반으로 떨어져 셀 부족이 오래가지 않을 수 있다는 신호가 나왔고, 데이터센터 IPO 연기와 지역 반대가 늘면서 수요 쪽 자금 조달이 식는 조짐도 보입니다.",
+ "state": {
+  "polysilicon": [
+   {"d": "2026-10-14", "o": "InfoLink", "u": "https://www.infolink-group.com/spot-price/", "t": "10월 8~14일 주간 폴리실리콘 모노급 현물가는 평균 kg당 40위안(범위 40~43위안)으로 9월 말과 같아, 감산 서약 뒤에도 가격이 움직이지 않았습니다 [사실]"},
+   {"d": "2026-10-11", "o": "로이터", "u": "https://www.reuters.com/business/world-at-work/china-solar-giants-shed-another-40000-jobs-last-year-overcapacity-persists-2026-10-14/", "nid": "n-tg-0273", "t": "퉁웨이·GCL 등은 10월 11일 항저우 비공개 회의에서 수요에 맞춘 자율 감산 실행안과 폴리실리콘·모듈 가격 하한선을 정했습니다 [사실]"}
+  ],
+  "modules": [
+   {"d": "2026-10-14", "o": "로이터", "u": "https://www.reuters.com/business/world-at-work/china-solar-giants-shed-another-40000-jobs-last-year-overcapacity-persists-2026-10-14/", "nid": "n-tg-0273", "t": "룽지·트리나·징코·JA솔라·퉁웨이 5개사 직원은 2025년 말 15만 4,061명으로 1년 새 4만 589명(21%) 줄었고, 그 전해 약 31% 감원까지 더하면 2년 새 절반가량이 사라졌습니다 [사실]"}
+  ],
+  "wind": [
+   {"d": "2026-10-12", "o": "로이터", "u": "https://www.reuters.com/business/energy/wind-turbine-maker-nordex-q3-orders-rise-turkish-demand-us-recovery-2026-10-12/", "nid": "n-rtr-0207", "t": "노르덱스 3분기 수주는 2,810MW로 1년 전보다 29.5% 늘었고 1~9월 누적은 7,733MW(+16.1%)지만, 평균 판매가는 MW당 90만 유로로 93만 유로에서 조금 내렸습니다 [사실]"},
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/trump-seeks-to-revisit-orsted-s-rhode-island-wind-farm-permit", "nid": "n-bbg-0294", "t": "미 내무부는 3월부터 발전 중인 외르스테드 레볼루션 윈드(704MW)의 2023년 승인을 다시 검토하겠다며 법원에 환송을 요청했고, 절차는 내년 초까지 갈 수 있습니다 [사실]"}
+  ],
+  "storage": [
+   {"d": "2026-10-12", "o": "텔레그램 부의 나침반", "u": "https://t.me/w_compass/7245", "nid": "n-tg-0216", "t": "9월 중국산 LFP 셀의 북미 도착가는 kWh당 61.99달러로 중국 출고가 51.62달러보다 20% 높고, 최대 40.9% 관세를 더하면 약 87달러가 됩니다 [사실]"}
+  ],
+  "gen": [
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-s-new-south-wales-backs-gas-power-as-coal-plants-shut", "nid": "n-bbg-0272", "t": "호주 NSW주는 석탄발전 폐쇄에 대비한 1,500MW 입찰을 대부분 가스 피크발전으로 채우려 하며 배터리 등 저장장치를 뺐습니다 [사실]"},
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/us-nuclear-s-low-hanging-fruit-is-being-gobbled-up", "nid": "n-bbg-0072", "t": "구글–콘스텔레이션 890MW, 비스트라 433MW 원전 출력 증강 뒤 제프리스는 미국 전체 증강 여력을 3~5GW로 봤습니다(2024년 에너지부 추정은 최대 8GW) [사실]"}
+  ],
+  "grid": [
+   {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/business/schneider-electric-raises-2026-targets-again-booming-data-centre-demand-2026-10-16/", "nid": "n-rtr-0283", "t": "슈나이더 일렉트릭 3분기 매출은 사상 최대 114억 6,000만 유로(내생 +16.9%)였고 올해 내생 매출 성장 목표를 10~13%에서 12~14%로 올렸습니다 [사실]"},
+   {"d": "2026-10-14", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-14/edison-eyes-power-shutoffs-for-246-000-customers-on-fire-risk", "nid": "n-bbg-0175", "t": "서던캘리포니아에디슨은 산불 위험에 최대 24만 5,700 고객의 예방 단전을 경고하고 LA·벤투라 카운티 1만 7천여 고객의 전기를 실제로 끊었습니다 [사실]"}
+  ],
+  "market": [
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season", "nid": "n-bbg-0295", "t": "미 에너지부는 202(c)조 긴급명령으로 PJM이 10월 13~16일 비상 발전을 쓰게 했고, PJM은 약 6만 1,591MW가 멈춘 채 예비력이 필요 수준에 900MW까지 다가설 수 있다고 했습니다 [사실]"},
+   {"d": "2026-10-14", "o": "텔레그램 미국 주식 인사이더", "u": "https://t.me/insidertracking/66268", "nid": "n-rtr-0018", "t": "2026년 1~7월 PJM 도매 전력값은 1년 전보다 47% 올라 MWh당 약 117달러였고, 시장감시기관은 데이터센터 수요가 없었다면 약 10달러 낮았을 것으로 봤습니다 [채널]"}
+  ],
+  "developers": [
+   {"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-set-to-approve-12-5-billion-in-renewable-power-projects", "nid": "n-bbg-0349", "t": "멕시코 CFE 이사회는 10월 20일 풍력·태양광 위주 60여 개 사업(약 8.2GW, 약 125억 달러) 승인을 표결할 예정이며 승인 수가 더 적을 수 있다는 말도 있습니다 [사실]"}
+  ],
+  "demand": [
+   {"d": "2026-10-13", "o": "로이터", "u": "https://www.reuters.com/business/energy/india-may-need-raise-coal-power-capacity-demand-surges-official-says-2026-10-13/", "nid": "n-rtr-0013", "t": "인도 피크 전력 수요는 1년 새 약 45~50GW 늘었고 9월 전력 부족량은 5억 6,000만kWh로 2023년 8월 이후 가장 많았습니다 [사실]"}
+  ]
+ },
+ "industryState": [
+  {"d": "2026-10-16", "kind": "supply", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-clean-energy-set-to-reach-new-highs-as-tax-credit-cliff-looms", "nid": "n-bbg-0345", "t": "블룸버그NEF는 미국이 2026년 사상 최대 89GW(태양광 48.9GW)의 청정에너지를 더한다고 봤지만 2026~36년 대형 태양광 전망은 7.5% 낮춘 430GW, 배터리 누적은 35% 높인 383GW입니다 [사실]"},
+  {"d": "2026-10-16", "kind": "price", "o": "텔레그램 하나증권 중국전략", "u": "https://t.me/HANAchina/70507", "nid": "n-tg-0227", "t": "중국 리튬 가격은 5월 이후 50% 떨어졌고 탄산리튬 현물은 10월 16일 톤당 10만 2,500위안으로 더 내렸습니다 [채널]"},
+  {"d": "2026-10-16", "kind": "policy", "o": "로이터", "u": "https://www.reuters.com/legal/litigation/new-trump-rules-will-make-it-harder-farmers-access-us-funds-energy-projects-2026-10-09/", "nid": "n-rtr-0243", "t": "미 농무부 REAP 개정 규정이 10월 16일 시행돼 12개월 가동 실적 뒤에만 신청할 수 있고 자기부담은 75% 이상, 재생에너지 보조금 상한은 50만 달러입니다 [사실]"},
+  {"d": "2026-10-13", "kind": "capex", "o": "로이터", "u": "https://www.reuters.com/business/energy/india-may-need-raise-coal-power-capacity-demand-surges-official-says-2026-10-13/", "nid": "n-rtr-0013", "t": "인도 중앙전력청장은 2035년까지 97GW로 잡은 석탄발전 증설이 105GW, 많게는 150GW까지 늘 수 있다고 했습니다 [사실]"}
+ ],
+ "flags": [
+  {"nid": "n-bbg-0295", "t": "재검토 필요: PJM이 가을 정비철에도 긴급명령을 받은 것은 수요가 공급을 앞지른 ① 고수익·호황 쪽을 가리키지만, 원인이 계획 정지와 이상 고온이 겹친 일시적 상황이라 판정을 바꿀 근거로는 약합니다 [유추]"},
+  {"nid": "n-tg-0227", "t": "재검토 필요: 탄산리튬 값이 5월 이후 50% 떨어진 것은 ESS 원가 쪽이 ③ 공급 과잉에 들어섰음을 가리키며(ESS 노드 판정 ②), 셀 가격까지 번지면 노드 국면을 다시 봐야 합니다 [유추]"},
+  {"nid": "n-bbg-0142", "t": "재검토 필요: 에어트렁크 IPO 연기와 Firmus IPO 철회는 수요 쪽 자본 유입이 식는 ③ 공급 과잉 전 단계를 가리키지만, 아시아 상장 시장에 한정된 신호라 산업 판정을 바꿀 근거로는 약합니다 [유추]"}
+ ],
+ "insight": {
+  "b": [
+   {"t": "공급 쪽에서 태양광 소재는 감산과 유리 냉수리로 줄고, 가스터빈·변압기는 증설에 들어갔습니다. 수요는 IEA 기준 2026년 3.6%, 2027년 3.8% 늘어납니다 [사실]", "src": [{"o": "텔레그램 하나증권 중국전략", "d": "2026-09-30", "u": "https://t.me/HANAchina/69639"}, {"o": "IEA", "d": "2026-07", "u": "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary"}]},
+   {"t": "새 설비의 무게가 태양광에서 저장장치와 풍력으로 옮겨 갑니다. 블룸버그NEF는 2036년까지 배터리 누적 전망을 35% 높인 383GW, 육상풍력 추가를 15% 높인 99.7GW로 잡고 대형 태양광은 7.5% 낮췄습니다 [사실]", "src": [{"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-clean-energy-set-to-reach-new-highs-as-tax-credit-cliff-looms"}]},
+   {"t": "풍력 주문은 회복 중입니다. 노르덱스 3분기 수주는 2,810MW로 29.5% 늘었고 미국에서만 연초 이후 1.3GW 넘게 받았지만, MW당 판매가는 93만 유로에서 90만 유로로 낮아져 물량이 가격보다 먼저 돌아오고 있습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-12", "u": "https://www.reuters.com/business/energy/wind-turbine-maker-nordex-q3-orders-rise-turkish-demand-us-recovery-2026-10-12/"}]}
+  ],
+  "b2": [
+   {"t": "중국 반내권은 여전히 서약과 비공개 합의 수준입니다. 10월 11일 항저우 회의에서 감산과 가격 하한을 다시 정했지만 10월 14일 폴리실리콘 현물가는 kg당 40위안으로 그대로였고, 거래가 적어 하한이 실제로 지켜지는지는 확인되지 않습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/world-at-work/china-solar-giants-shed-another-40000-jobs-last-year-overcapacity-persists-2026-10-14/"}, {"o": "InfoLink", "d": "2026-10-14", "u": "https://www.infolink-group.com/spot-price/"}]},
+   {"t": "ESS 원가는 빠르게 내려가고 있습니다. 탄산리튬 값이 5월 이후 50% 떨어졌고(채널 전언), 1~7월 체결된 확장 프로젝트가 2,608.5GWh라는 단일 매체 보도까지 겹치면 지금의 셀 부족이 2027~2028년 과잉으로 바뀔 수 있습니다 [추측]", "src": [{"o": "텔레그램 하나증권 중국전략", "d": "2026-10-16", "u": "https://t.me/HANAchina/70507"}, {"o": "battery-tech.net", "d": "2026-09-12", "u": "https://battery-tech.net/why-china-froze-battery-factory-approvals-in-the-middle-of-a-cell-shortage/"}]},
+   {"t": "미국 시장만은 관세가 과잉을 막습니다. 중국산 LFP 셀의 북미 도착가가 중국 출고가보다 20% 높고 관세를 더하면 약 70% 비싸, 중국 밖 원가 하락이 미국 ESS 가격으로 그대로 넘어오지는 않습니다 [유추]", "src": [{"o": "텔레그램 부의 나침반", "d": "2026-10-12", "u": "https://t.me/w_compass/7245"}]}
+  ],
+  "c": [
+   {"t": "기존 판단과 반대 신호: 수요 쪽 자금 조달이 식고 있습니다. 데이터센터 운영사 에어트렁크가 금리 상승과 변동성에 15억 달러 싱가포르 리츠 IPO를 미뤘고, 앞서 Firmus는 10월 9일 50억 달러 호주 IPO를 철회했습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/asia-pacific/airtrunk-delay-singapore-ipo-wsj-reports-2026-10-13/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/data-center-operator-airtrunk-is-said-to-delay-1-5-billion-ipo"}]},
+   {"t": "기존 판단과 반대 신호: 지역 반대가 넓어집니다. 한 조사에서 미국인 61%가 자기 지역의 새 데이터센터에 반대했고, 뉴욕주 유예·텍사스 승인 중단에 이어 이탈리아 롬바르디아주도 신청 급증에 법 개정에 나섭니다 [사실]", "src": [{"o": "텔레그램 트릴리온", "d": "2026-10-15", "u": "https://t.me/Trillion_labs/10532"}, {"o": "로이터", "d": "2026-10-15", "u": "https://www.reuters.com/legal/litigation/italys-lombardy-revise-data-centre-law-next-week-after-application-surge-2026-10-15/"}]},
+   {"t": "기존 판단과 반대 신호: 넥스트에라는 패널·배터리를 2029년까지, 변압기를 2020년대 말까지 이미 확보했다고 밝혀, 대형 사업자에게는 기자재 부족이 이미 풀린 문제일 수 있습니다 [사실]", "src": [{"o": "NextEra Energy", "d": "2026-07-24", "u": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q2%202026/Q2%202026%20Earnings%20Script_vF.pdf"}]}
+  ],
+  "c1": [
+   {"t": "아직 덮지 못합니다. 자금과 여론이 먼저 걸러 내는 것은 발표만 된 사업(번스타인 실현 확률 23%)이고, PJM은 10월에도 예비력이 필요 수준에 900MW까지 다가서 물리적 부족은 그대로입니다. 다만 IPO 연기가 미국 사모 조달로 번지면 기자재 주문 둔화로 이어질 수 있습니다 [유추]", "src": [{"o": "텔레그램 양파농장", "d": "2026-10-01", "u": "https://t.me/Onionfarmer/17735"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season"}]}
+  ],
+  "d": [
+   {"t": "이 산업을 전력 부족이 아니라 정밀 주조·고온합금 부족으로 볼 수 있습니다. GE 에어로스페이스가 블레이드 주조사 CPP를 산 것은 가스터빈과 항공엔진이 같은 주조 능력을 두고 다투기 때문이고, 진짜 병목은 그 상류에 있을 수 있습니다 [유추]", "src": [{"o": "텔레그램 하나증권 중국전략", "d": "2026-09-24", "u": "https://t.me/HANAchina/69342"}]},
+   {"t": "전력값을 발전량이 아니라 한계 연료가 정하는 구조로 보면, 영국은 풍력이 9월 최대였는데도 전력값이 전년의 약 2배였고 유럽 가스값이 연초의 두 배를 넘자 남은 석탄발전소가 횡재를 누립니다. 재생에너지 증설만으로는 가격이 내려가지 않습니다 [유추]", "src": [{"o": "Energy Connects", "d": "2026-10-09", "u": "https://www.energyconnects.com/news/renewables/2026/october/record-wind-output-can-t-break-britain-s-reliance-on-costly-gas"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/sustainability/energy-prices-loom-over-eu-summit-2026-10-16/"}]},
+   {"t": "전력회사를 기후 위험의 보험사로 보면, 캘리포니아에서는 산불 책임 규칙이 계통 운영을 정합니다. 머디워터스는 에디슨의 이턴 산불 책임을 약 200억 달러로 주장했고(일반 과실이면 상환 부담 약 43억 달러), 에디슨은 최대 24만 5,700 고객 단전을 예고했습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/legal/government/edison-drops-muddy-waters-alleges-willful-misconduct-eaton-fire-case-2026-10-13/"}, {"o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-14/edison-eyes-power-shutoffs-for-246-000-customers-on-fire-risk"}]}
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {"t": "국면은 ② 자본 유입·증설 그대로이며 근거를 새로 바꿨습니다. GE 베르노바 가스터빈 잔고는 116GW로 연 생산능력(약 20GW)의 거의 6년 치이고, 생산능력은 2030년 30GW로 늘리는 중입니다 [사실]", "src": [{"o": "Utility Dive", "d": "2026-07-23", "u": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-climbs-to-116-gw/826039/"}]},
+   {"t": "전력기기 주문도 이어집니다. 슈나이더 일렉트릭은 3분기 사상 최대 매출 114억 6,000만 유로를 내고 올해 두 번째로 목표를 올렸고, 지멘스 에너지 그리드 잔고는 510억 유로입니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/schneider-electric-raises-2026-targets-again-booming-data-centre-demand-2026-10-16/"}, {"o": "Utility Dive", "d": "2026-08", "u": "https://www.utilitydive.com/news/siemens-gas-turbine-backlog-nears-70-gw-as-company-expands-manufacturing/827390/"}]},
+   {"t": "계통 부족은 가격과 비상 운전으로 확인됩니다. PJM 용량 가격은 상한(MW·일당 325달러)에 붙었고, 1~7월 도매 전력값은 47% 올랐으며, 10월 13~16일에는 미 에너지부 긴급명령이 내려졌습니다 [사실]", "src": [{"o": "RenewableEnergyWorld", "d": "2026-07-16", "u": "https://www.renewableenergyworld.com/power-grid/pjm-capacity-auction-easily-hits-price-cap-again/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season"}]},
+   {"t": "반대로 태양광 제조는 ⑥ 공급 파괴·통합입니다. 5대 기업은 2년 새 인력을 절반가량 줄였고 10월 11일 감산·가격 하한을 다시 정했지만, 폴리실리콘 현물가는 10월 14일에도 kg당 40위안으로 그대로입니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/world-at-work/china-solar-giants-shed-another-40000-jobs-last-year-overcapacity-persists-2026-10-14/"}, {"o": "InfoLink", "d": "2026-10-14", "u": "https://www.infolink-group.com/spot-price/"}]}
+  ],
+  "next": "가스터빈·변압기 증설분이 2028~2030년 출하되는데 데이터센터 실현 비율이 낮거나 자금 조달이 식으면 ③으로 넘어갑니다. 태양광은 하위 업체 퇴출이 확인되고 가격이 현금원가 위에 자리 잡으면 ⑦로 갑니다 [유추]",
+  "watch": [
+   "가스터빈·변압기 수주잔고와 납기(GE 베르노바 3분기 실적)",
+   "PJM·ERCOT 대규모 부하의 실제 연결 비율과 비상 운전 횟수",
+   "폴리실리콘·태양광 유리 가격과 항저우 가격 하한의 실제 거래 반영",
+   "탄산리튬·ESS 셀 가격",
+   "데이터센터 IPO·사모 조달과 지역 인허가 반대"
+  ],
+  "split": [
+   {"stage": 2, "label": "전력 기자재·계통", "nodes": ["gen", "grid", "storage", "market"]},
+   {"stage": 6, "label": "태양광 제조", "nodes": ["polysilicon", "modules"]}
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "추가한 노드는 없습니다(9개 노드 id 그대로). 이번 점검에서 확인하지 못한 것: (1) 10월 11일 항저우 회의에서 정한 폴리실리콘·모듈 가격 하한의 실제 수준과 참여 업체 범위(보도는 비공개 회의라고만 전함), (2) GE 베르노바·지멘스 에너지 3분기 수주와 잔고(아직 발표 전), (3) PJM 긴급명령 기간의 실제 비상 발전 사용량과 가격, (4) 멕시코 CFE 이사회의 10월 20일 표결 결과, (5) 탄산리튬 하락이 ESS 셀 가격에 번진 정도(셀 가격 공식 자료 없음), (6) 중국 2026년 태양광·풍력 신규 설치량과 모듈 수출량, (7) 미국 세액공제 착공 기한(2026-07-04) 이후 착공 동향. 유의 사항: ESS 셀 가동률·확장 계약은 battery-tech.net 단일 매체 보도이고, PJM 1~7월 도매가 47%와 탄산리튬 50% 하락은 텔레그램 채널 전언입니다. 폴리실리콘 10월 14일 가격은 InfoLink 기준이며 SunSirs는 같은 날 톤당 4.3만 위안으로 달리 집계했습니다.",
+ "note": "뉴스 30건 반영: PJM 긴급명령·도매가 47% 상승, 중국 태양광 항저우 감산·가격 하한과 5대 기업 감원, 탄산리튬 50% 하락·데이터센터 IPO 연기 — 국면 그대로(②, 태양광 제조 ⑥), 근거 14줄, 수치 4줄, 재검토 신호 3건, 검색 1회",
+ "applied": ["n-bbg-0142", "n-bbg-0150", "n-bbg-0272", "n-rtr-0204", "n-rtr-0207", "n-rtr-0209", "n-rtr-0219", "n-rtr-0243", "n-tg-0216", "n-bbg-0072", "n-bbg-0267", "n-bbg-0294", "n-bbg-0295", "n-rtr-0013", "n-rtr-0285", "n-rtr-0286", "n-tg-0278", "n-bbg-0071", "n-bbg-0175", "n-rtr-0018", "n-tg-0119", "n-tg-0182", "n-tg-0273", "n-rtr-0283", "n-bbg-0345", "n-bbg-0349", "n-rtr-0201", "n-rtr-0284", "n-tg-0162", "n-tg-0227"],
+ "searches": 1,
+ "fetches": 0
+}

@@ -1,0 +1,487 @@
+{
+ "id": "tech",
+ "summary": "기술·통신은 반도체를 산 클라우드가 연산력을 빌려주고, 그 위에서 AI 모델·기업용 소프트웨어·인터넷 플랫폼·미디어·게임이 기업과 소비자에게 서비스를 팔며, 기기와 통신망이 사용자와 서비스를 잇는 사슬입니다. 2026년 10월 중순 가장 빠듯한 곳은 여전히 연산력으로, H100 임대료 지수는 GPU당 시간당 3달러대에 머물고 앤트로픽 3분기 매출은 168억 달러로 전분기보다 약 45% 늘었습니다. 다만 연산력을 빚으로 지은 쪽은 흔들려, 코어위브 채권 수익률이 한때 16%를 넘고 데이터센터 상장이 잇따라 철회·연기됐습니다. 기기는 메모리 값에 눌려 중국 3분기 스마트폰 출하가 13년 만에 가장 적었지만 화웨이·애플과 아이폰 듀오에는 수요가 몰렸고, 통신은 텔리아 감원·AT&T 멕시코 매각처럼 정리가 이어집니다.",
+ "state": {
+  "cloud": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/",
+    "nid": "n-bbg-0049",
+    "t": "코어위브 불안이 데이터센터 채권 전반으로 번져 메타·블루아울 하이페리온 프로젝트 채권은 1달러당 92센트를 조금 밑돌고 블랙스톤 QTS 엑스칼리버 채권은 88센트 아래로 내려갔습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays",
+    "nid": "n-tg-0295",
+    "t": "엔스케일은 노르웨이 주력 데이터센터가 6개월 늦어져 계획한 30MW 가운데 6.4MW만 가동 중이고, 약 350억 달러 가치를 노린 상장 계획이 흔들리고 있습니다 [사실]"
+   }
+  ],
+  "ai": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/",
+    "nid": "n-tg-0293",
+    "t": "앤트로픽의 3분기 매출은 168억 달러로 2분기 116억 달러보다 약 45% 늘었고, 2개 분기 연속 조정 기준 흑자와 플러스 현금흐름을 냈습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
+    "nid": "n-tg-0293",
+    "t": "앤트로픽의 성장 둔화가 드러나자 일부 투자자는 IPO 기업가치 기대를 앞서 거론된 1조 8,000억~2조 달러 이상에서 약 1조 5,000억 달러 이하로 낮췄습니다 [사실]"
+   }
+  ],
+  "software": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/proofpoint-buy-varonis-systems-63-billion-all-cash-deal-2026-10-15/",
+    "nid": "n-rtr-0267",
+    "t": "토마브라보 소유 프루프포인트가 바로니스 시스템즈를 주당 49.75달러, 약 63억 달러 전액 현금으로 사기로 해 사모펀드 계열의 기업용 소프트웨어 인수가 이어졌습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-16/indian-software-stocks-set-to-beat-ai-peers-by-most-in-decades",
+    "nid": "n-bbg-0113",
+    "t": "인도 대형 소프트웨어 수출주 지수는 한 주 10% 넘게 오르고 MSCI 세계 반도체 지수는 7.4% 내려, 인도 IT가 2004년 이후 최대 주간 초과 성과를 향했습니다 [사실]"
+   }
+  ],
+  "devices": [
+   {
+    "d": "2026-10-14",
+    "o": "텔레그램 하나증권 중국전략(옴디아 집계)",
+    "u": "https://t.me/HANAchina/70430",
+    "nid": "n-tg-0210",
+    "t": "옴디아 집계로 중국 3분기 스마트폰 출하는 5,930만 대로 12% 줄어 2013년 이후 최저였고, 화웨이(+18%)와 애플(+15%)만 늘어 두 회사 점유율이 41%가 됐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy",
+    "nid": "n-tg-0234",
+    "t": "아이폰 듀오는 사전예약 직후 배송 예정일이 1월 25일 안팎으로 밀렸고, 폭스콘 쪽 최종 조립 수율은 9월 중순 기준 60%를 조금 넘는 수준이었습니다 [사실]"
+   }
+  ],
+  "telecom": [
+   {
+    "d": "2026-10-12",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/world-at-work/swedens-telia-cut-around-900-jobs-save-1-million-2026-10-12/",
+    "nid": "n-rtr-0205",
+    "t": "텔리아는 인력의 약 6%인 약 900개 직무를 줄여 연 10억 크로나를 아끼기로 했고, 4분기에 약 6억 크로나의 구조조정 비용을 반영합니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/att-sell-mexico-unit-2-billion-2026-10-13/",
+    "nid": "n-bbg-0303",
+    "t": "AT&T는 2014년 진출 뒤 100억 달러 넘게 쏟은 멕시코 법인(가입자 약 2,470만 명)을 20억 달러에 팔고 미국 광통신·5G에 자본을 모으기로 했습니다 [사실]"
+   }
+  ],
+  "platforms": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/technology/bumble-go-private-13-billion-deal-2026-10-13/",
+    "nid": "n-bbg-0241",
+    "t": "범블은 2025년 유료 사용자가 11% 넘게 줄어 약 370만 명이 된 뒤 이타카홀딩스에 주당 6.05달러, 약 13억 달러에 팔려 비상장으로 바뀝니다 [사실]"
+   }
+  ],
+  "media": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/technology/daily-mirror-publisher-reach-hit-by-google-traffic-slump-2026-10-13/",
+    "nid": "n-rtr-0304",
+    "t": "데일리미러 발행사 리치는 구글 유입이 흔들려 3분기 그룹 매출이 14.1%, 디지털 매출이 20.3% 줄었고 AI 라이선스 계약이 일부를 메웠습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/media-telecom/netflix-names-former-disney-executive-rice-new-content-chief-bajaria-departs-2026-10-15/",
+    "nid": "n-rtr-0253",
+    "t": "넷플릭스는 인력의 약 6%인 약 1,000명을 줄인 다음 날 콘텐츠 수장을 바꿨고, 시청 참여는 2026년 상반기 2% 느는 데 그쳤습니다 [사실]"
+   }
+  ],
+  "games": [
+   {
+    "d": "2026-10-12",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai",
+    "nid": "n-bbg-0261",
+    "t": "에픽게임즈가 디즈니와 함께하는 프로젝트를 미루고 개발자들에게 AI를 더 많이 쓰라고 요구했습니다 [제목]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-15",
+   "kind": "price",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/",
+   "nid": "n-bbg-0049",
+   "t": "코어위브 2031년 10월물 달러채 수익률이 한때 16%를 넘고 부도보험료가 1,000bp를 넘어 사상 최고였으며, 주가는 주간 25% 가까이 빠졌습니다 [사실]"
+  },
+  {
+   "d": "2026-10-14",
+   "kind": "demand",
+   "o": "텔레그램 하나증권 중국전략(옴디아 집계)",
+   "u": "https://t.me/HANAchina/70430",
+   "nid": "n-tg-0210",
+   "t": "중국 3분기 스마트폰 출하는 5,930만 대로 12% 줄었고, 옴디아는 올해 중국 출하 전망을 6% 감소에서 약 7% 감소로 낮췄습니다 [사실]"
+  },
+  {
+   "d": "2026-10-14",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/",
+   "nid": "n-tg-0293",
+   "t": "앤트로픽 3분기 매출은 168억 달러로 전분기보다 약 45% 늘었고, 컴퓨팅에 쓴 1달러당 1.70달러의 매출을 올렸습니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ericsson-earnings-beat-forecast-on-solid-mobile-network-demand",
+   "nid": "n-bbg-0335",
+   "t": "에릭슨의 3분기 순매출은 595억 크로나(유기 성장 7%)였고 네트워크 부문 조정 EBITA는 72억에서 90억 크로나로 늘었지만, 부품 비용 상승이 마진을 누를 전망입니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0049",
+   "t": "재검토 필요: 코어위브 채권 수익률 16%와 데이터센터 채권 88~92센트는 빚으로 지은 AI 설비의 자금줄이 조이는 ③ 공급 과잉 쪽을 가리키며, GPU 임대료가 아직 내리지 않아 국면은 그대로 둡니다 [유추]"
+  },
+  {
+   "nid": "n-tg-0293",
+   "t": "재검토 필요: 앤트로픽 IPO 기업가치 기대가 2조 달러 안팎에서 약 1조 5,000억 달러로 낮아진 것은 ② 자본 유입의 정점을 지나 ③ 공급 과잉으로 가는 신호일 수 있으며, 상장 뒤 공모가 대비 주가로 확인해야 합니다 [유추]"
+  },
+  {
+   "nid": "n-tg-0295",
+   "t": "재검토 필요: 에어트렁크·퍼머스·SB에너지 상장 철회·연기와 엔스케일 지연은 데이터센터 쪽 신규 자본이 멈추는 ⑤ 자본 철수 초입을 가리킬 수 있지만, 아직 일주일 사이의 일이라 추세로 보지 않습니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "AI 인프라의 돈줄이 주식에서 빚으로 옮겨 가며 금리에 민감해졌습니다. 약 500억 달러의 빚을 진 코어위브의 채권 수익률이 16%를 넘었고 하이페리온·QTS 데이터센터 채권도 1달러당 88~92센트로 밀렸습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "BofA는 주요 하이퍼스케일러 가운데 향후 12개월 잉여현금흐름이 마이너스로 돌지 않을 곳은 마이크로소프트뿐이고, 아마존·알파벳·오라클·메타는 2027년까지 마이너스가 될 수 있다고 봤습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-16",
+      "u": "https://t.me/insidertracking/66461"
+     }
+    ]
+   }
+  ],
+  "a1": [
+   {
+    "t": "차입 비용이 오르면 신용이 약한 네오클라우드·데이터센터 개발사부터 상장과 가동이 늦어지고, 현금이 많은 대형 클라우드로 계약이 몰릴 가능성이 높습니다. 엔스케일 지연과 데이터센터 상장 철회·연기가 그 첫 모습입니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-15",
+      "u": "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
+     }
+    ]
+   }
+  ],
+  "a2": [
+   {
+    "t": "정반대로 흐른다면 연산력 수요가 실제로 강해서입니다. H100 임대료 지수(Ornn)는 10월 15일 GPU당 시간당 3.13달러로 9월 말 2.71달러보다 높았고, 젠슨 황 발언 뒤 코어위브 채권도 반등해 이번 흔들림이 금리 충격에 따른 일시 조정에 그칠 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "Ornn 연산력 가격지수(검색 요약)",
+      "d": "2026-10-15",
+      "u": "https://data.ornn.com/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-15",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-s-selloff-is-buying-opportunity-deutsche-bank-says"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "기기 수요는 메모리 원가에 눌리며 비싼 브랜드로 쏠립니다. 중국 3분기 스마트폰 출하는 13년 만에 가장 적었지만 화웨이와 애플만 늘어 두 회사 점유율이 41%로 약 10%p 높아졌습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-14",
+      "u": "https://t.me/HANAchina/70430"
+     }
+    ]
+   },
+   {
+    "t": "애플 안에서도 갈립니다. 아이폰 듀오는 배송이 1월 하순으로 밀릴 만큼 주문이 몰렸지만, 애플이 10월 프로 모델 부품 주문을 계획보다 15~20% 줄였다는 보도도 나왔습니다 [채널]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-15",
+      "u": "https://t.me/HANAchina/70441"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "메모리 값이 높게 머무는 동안 원가를 값에 얹을 수 있는 고가 브랜드가 점유율을 넓히고, 중저가 안드로이드 업체 출하는 더 줄 가능성이 높습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-14",
+      "u": "https://t.me/HANAchina/70430"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "정반대로 흐른다면 메모리 값이 꺾여서입니다. 메모리 ETF(DRAM)가 한 주 19% 떨어지고 8주 연속 자금이 빠진 것은 시장이 메모리 호황의 끝을 먼저 반영하기 시작했다는 뜻일 수 있습니다 [추측]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-17",
+      "u": "https://t.me/HANAchina/70543"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "AI가 돈을 번다는 정보도 큽니다. 앤트로픽은 3분기 매출 168억 달러로 2개 분기 연속 조정 흑자를 냈고, 컴퓨팅에 쓴 1달러당 1.70달러의 매출을 올렸습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지 않습니다. 가장 잘 버는 AI 모델 회사인 앤트로픽도 KBRA 등급은 투자적격 한 단계 아래인 BB+였고 후순위채는 8.5% 금리에 팔려, 매출 증가만으로 업계의 차입 부담을 덜기는 어렵습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 TNBfolio",
+      "d": "2026-10-16",
+      "u": "https://t.me/TNBfolio/71574"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "AI 수혜가 아니라 AI 피해 쪽에서 보면 다른 그림입니다. 인도 IT는 반AI 투자처로 한 주 10% 넘게 올랐고, 리치는 구글 유입이 줄어 디지털 매출이 20.3% 줄었습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/indian-software-stocks-set-to-beat-ai-peers-by-most-in-decades"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/technology/daily-mirror-publisher-reach-hit-by-google-traffic-slump-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "규제도 비용 쪽 변수입니다. 영국 CMA는 마이크로소프트 업무용 소프트웨어에 전략적 시장지위 지정을 제안했고, AWS·마이크로소프트는 데이터 반출 수수료를 없애거나 줄이기로 했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/legal/litigation/uk-competition-regulator-targets-microsofts-business-software-grip-2026-10-16/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "국면은 ② 자본 유입·증설로 두되 근거를 새 뉴스로 바꿨습니다. 상장으로 자본이 계속 들어옵니다. 앤트로픽은 11월 상장을 준비하고, 지오 플랫폼스는 약 3,021억 루피 규모의 인도 사상 최대 공모를 10월 21~23일 받습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "연산력은 아직 빠듯합니다. 앤트로픽 3분기 매출은 전분기보다 약 45% 늘었고, H100 임대료 지수(Ornn)는 10월 15일 GPU당 시간당 3.13달러로 9월 말 2.71달러보다 높아 ③으로 넘어가는 조건인 임대료 하락은 확인되지 않았습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+     },
+     {
+      "o": "Ornn 연산력 가격지수(검색 요약)",
+      "d": "2026-10-15",
+      "u": "https://data.ornn.com/"
+     }
+    ]
+   },
+   {
+    "t": "반대 신호가 쌓입니다. 코어위브 채권 수익률이 16%를 넘고 데이터센터 상장이 철회·연기됐으며, 앤트로픽 IPO 기업가치 기대도 약 1조 5,000억 달러로 낮아졌습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "통신은 ⑥ 공급 파괴·통합입니다. 텔리아가 약 900개 직무를 줄이고 AT&T가 멕시코 법인을 팔았으며, 보다폰쓰리는 합병 뒤 기지국을 약 3만7천 곳에서 2만6천 곳으로 줄입니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-12",
+      "u": "https://www.reuters.com/business/world-at-work/swedens-telia-cut-around-900-jobs-save-1-million-2026-10-12/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/legal/transactional/att-sell-mexico-unit-2-billion-2026-10-13/"
+     },
+     {
+      "o": "ISPreview UK",
+      "d": "2026-10-08",
+      "u": "https://www.ispreview.co.uk/index.php/2026/10/vodafone-uk-upgrades-cost-saving-target-to-1bn-by-2032-after-network-progress.html"
+     }
+    ]
+   }
+  ],
+  "next": "GPU 임대료가 내리기 시작하고 앤트로픽 같은 대형 AI 상장이 공모가 아래로 밀리거나 데이터센터 채권 부실이 실제 부도로 이어지면 AI·클라우드는 ③ 공급 과잉으로 넘어갑니다. 통신은 정리가 끝나고 요금이 오르기 시작하면 ⑦ 바닥을 지나 ⑧ 회복으로 갑니다 [유추]",
+  "watch": [
+   "AI 기업 상장·공모가 대비 주가(앤트로픽·지오)",
+   "GPU 임대료 지수",
+   "코어위브·데이터센터 채권 가격",
+   "스마트폰·PC 출하",
+   "통신사 감원·설비 정리"
+  ],
+  "split": [
+   {
+    "stage": 2,
+    "label": "AI 모델·클라우드(자본 유입)",
+    "short": "AI·클라우드",
+    "nodes": [
+     "cloud",
+     "ai"
+    ]
+   },
+   {
+    "stage": 6,
+    "label": "통신(합병 뒤 설비 정리)",
+    "short": "통신",
+    "nodes": [
+     "telecom"
+    ]
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "WebSearch 16회(첫 작성 14회, 이번 2회), WebFetch 5회(첫 작성)로 조사했습니다. (1) 이번 국면 점검의 GPU 임대료는 Ornn 지수 페이지의 검색 요약(10월 15일 3.13달러, 9월 말 2.71달러)이며, 다른 지수(Silicon Data 2.81달러)와 X 글의 '5월 고점 대비 30% 하락' 주장은 서로 엇갈려 쓰지 않았습니다. (2) 코어위브 부채는 출처마다 약 351억 달러(6월 말)·약 500억 달러·약 520억 달러(리스 포함)로 다르고, 5년물 CDS도 643bp에서 1,190bp까지 엇갈립니다. (3) SB에너지·퍼머스 상장 연기는 텔레그램 글뿐이고, 애플 프로 부품 주문 15~20% 축소는 디지타임스를 인용한 채널 글뿐입니다. (4) 오픈AI 9월 런레이트와 앤트로픽 ARR 순증 둔화 수치는 채널 글뿐이라 쓰지 않았고, CCC 인수 규모는 46억 달러(블룸버그 제목)와 61억 달러(로이터 제목)로 엇갈립니다. (5) 소프트웨어·기기·미디어·게임 노드는 여전히 국면 근거가 부족해 노드 국면을 적지 않았고, 넷플릭스 3분기 실적(10월 20일)과 인포시스 실적(10월 23일)은 아직 나오지 않았습니다. (6) 통신 ⑥ 판정은 보다폰쓰리·텔리아·AT&T 사례에 기대며, 위성(스타링크 주파수 매입·아마존 레오·유럽 브로모)은 새 자본이 들어오는 쪽이라 같은 국면이 아닙니다.",
+ "note": "뉴스 54건 반영: 코어위브 채권 16%·데이터센터 상장 철회, 앤트로픽 3분기 매출 168억 달러와 IPO 기대 하향, 중국 3분기 스마트폰 출하 12% 감소. 국면 그대로(② AI·클라우드, ⑥ 통신, why 근거 교체), 인사이트 9칸 첫 작성, 근거 14줄, 수치 4줄, 재검토 신호 3건, 검색 2회",
+ "applied": [
+  "n-bbg-0133",
+  "n-bbg-0180",
+  "n-bbg-0239",
+  "n-bbg-0261",
+  "n-rtr-0203",
+  "n-rtr-0205",
+  "n-rtr-0215",
+  "n-rtr-0239",
+  "n-rtr-0266",
+  "n-rtr-0272",
+  "n-rtr-0281",
+  "n-tg-0236",
+  "n-tg-0239",
+  "n-tg-0241",
+  "n-tg-0265",
+  "n-bbg-0241",
+  "n-bbg-0303",
+  "n-bbg-0304",
+  "n-bbg-0307",
+  "n-rtr-0304",
+  "n-rtr-0307",
+  "n-rtr-0311",
+  "n-tg-0214",
+  "n-tg-0221",
+  "n-bbg-0103",
+  "n-bbg-0322",
+  "n-bbg-0326",
+  "n-bbg-0328",
+  "n-bbg-0332",
+  "n-bbg-0335",
+  "n-rtr-0267",
+  "n-rtr-0350",
+  "n-tg-0210",
+  "n-tg-0217",
+  "n-tg-0293",
+  "n-tg-0295",
+  "n-tg-0299",
+  "n-tg-0301",
+  "n-bbg-0113",
+  "n-bbg-0122",
+  "n-bbg-0222",
+  "n-bbg-0323",
+  "n-bbg-0325",
+  "n-rtr-0038",
+  "n-rtr-0044",
+  "n-rtr-0253",
+  "n-rtr-0354",
+  "n-bbg-0049",
+  "n-bbg-0136",
+  "n-bbg-0344",
+  "n-rtr-0023",
+  "n-rtr-0025",
+  "n-tg-0234",
+  "n-tg-0309"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

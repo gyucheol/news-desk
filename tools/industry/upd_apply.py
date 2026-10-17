@@ -1,12 +1,14 @@
 """산업 한 페이지 업데이트(UPDATE.md) 변경분을 검사하고 기존 페이지에 합친다. DB에 쓰지 않는다.
-사용: python3 -I tools/industry/upd_apply.py <작업 폴더> <DB 사본 폴더> <오늘 YYYY-MM-DD> [--check <산업 id>]
+사용: python3 -I tools/industry/upd_apply.py <작업 폴더> <DB 사본 폴더> <오늘 YYYY-MM-DD> [--check <산업 id>] [--mode <실행 방식>]
 입력: <작업 폴더>/out/<id>.json(변경분), <작업 폴더>/news/<id>.jsonl(입력 뉴스), <DB>/chains/<id>.json, <DB>/meta/chainsLog.json
 결과(--check가 아니면): <작업 폴더>/save/<id>.json(합친 전체 페이지), <작업 폴더>/save_meta/chainsLog.json, PROBLEMS n
 합치는 규칙: 새 줄에 rev=오늘(데스크 NEW 표시). node.state는 노드마다 최근 4줄, industryState는 최근 6줄, cycle.flags는 최근 12줄만 남김.
 cycle은 변경분이 있으면 통째로 바꿈(flags는 이어 붙임). insight는 변경분의 칸만 바꿈. 문서 크기 250,000바이트 이하."""
 import json, glob, os, re, sys
 W, DB, TODAY = sys.argv[1:4]
-ONLY = sys.argv[5] if len(sys.argv) > 5 and sys.argv[4] == '--check' else None
+OPT = dict(zip(sys.argv[4::2], sys.argv[5::2]))
+ONLY = OPT.get('--check')
+MODE = OPT.get('--mode', '수동(사용자 요청: 산업 한 페이지 전부 업데이트)')
 TAG = re.compile(r'\[(사실|채널|제목|귀납|연역|유추|추측)[^\]]*\]\s*$')
 KEYS = ('a', 'a1', 'a2', 'b', 'b1', 'b2', 'c', 'c1', 'd')
 KINDS = ('price', 'supply', 'demand', 'capex', 'policy')
@@ -109,7 +111,7 @@ for f in sorted(glob.glob(f'{W}/out/*.json')):
         json.dump(c, open(f'{W}/save/{i}.json', 'w'), ensure_ascii=False)
         for n in ids: log['applied'][n] = TODAY
 if not ONLY and done:
-    log['runs'] = (log.get('runs') or []) + [{'d': TODAY, 'mode': '수동(사용자 요청: 산업 한 페이지 전부 업데이트)', 'n': sum(v[0] for v in done.values()),
+    log['runs'] = (log.get('runs') or []) + [{'d': TODAY, 'mode': MODE, 'n': sum(v[0] for v in done.values()),
                                               'problems': len(P), 'inds': {k: {'news': v[0], 'bytes': v[1], 'searches': v[2], 'stage': v[3]} for k, v in done.items()}}]
     log['runs'] = log['runs'][-60:]
     json.dump(log, open(f'{W}/save_meta/chainsLog.json', 'w'), ensure_ascii=False)

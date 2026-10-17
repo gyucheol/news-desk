@@ -1,0 +1,312 @@
+{"agent": "W1", "searches_used": 16, "fetches_used": 0,
+"items": [
+{"cid": "G1-001", "attachTo": "n-bbg-0049",
+ "title": "코어위브 채권·주가 동반 급락…AI 차입 불안, 데이터센터 채권 전반으로",
+ "one": "코어위브 채권 수익률이 한때 16%를 넘고 주가가 한 주 새 25% 가까이 빠진 데 이어 하이페리온·QTS·오라클 데이터센터 채권도 87~92센트로 밀리면서, 금리 인상 우려 속 AI 인프라 기업의 차입 비용과 조달 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 코어위브 2031년 10월 만기 달러채 수익률이 10월 15일 한때 16%를 넘고 부도보험료가 1,000bp를 넘어 사상 최고를 기록했으며, 주가는 16일 11% 넘게 빠져 주간 낙폭이 25%에 가까웠다 [사실]",
+  "배경: 최근 물가 지표로 금리 인상 베팅이 커지면서 약 500억 달러의 빚을 진 코어위브 같은 AI 인프라 기업의 이자 부담 우려가 커졌다 [사실]",
+  "확산: 메타·블루아울 하이페리온 프로젝트 채권은 1달러당 92센트를 조금 밑돌았고, 블랙스톤 QTS 엑스칼리버 채권은 88센트 아래로 내려갔다 [사실]",
+  "경영진: 마이크 인트레이터 CEO는 내부 메모에서 수주잔고가 채무를 충분히 뒷받침한다고 했지만, 그와 관련 법인은 2025년 3월 상장 이후 주로 사전 거래계획으로 약 10억 달러어치 주식을 판 것으로 공시됐다 [사실]",
+  "반론: 캐시 우드 ARK 대표는 AI 수요로 코어위브가 부채 우려를 이겨낼 것이라고 했고, 넷스케일 상장에서는 데이터센터 지연이 네오클라우드의 위험으로 지목됐다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "주가 주간 급락, 2031년물 수익률 16% 돌파, 금리 인상 우려 배경, CEO 약 10억 달러 매도는 검색 결과 요약으로 확인. 우드 발언·넷스케일 지연·사모신용 영향은 제목 기준",
+ "src": [{"o": "CNBC", "d": "2026-10-14", "u": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"},
+         {"o": "CNN", "d": "2026-10-16", "u": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave"},
+         {"o": "Quartz", "d": "2026-10-16", "u": "https://qz.com/coreweave-stock-bonds-weekly-losses-ai-debt-101626"}],
+ "inds": ["macro", "tech", "fin"], "nodes": ["macro/semis", "macro/liquidity"],
+ "vc": [{"ind": "tech", "node": "cloud", "f": "가격", "dir": "down", "k": "실제", "t": "코어위브 채권 수익률 16% 돌파와 주가 급락"},
+        {"ind": "macro", "node": "liquidity", "f": "공급", "dir": "down", "k": "예상", "t": "금리 인상 우려에 AI 인프라 차입 여건 악화"}],
+ "added": "이번 블룸버그·로이터 10건과 텔레그램 1건으로 코어위브 채권 수익률 16% 돌파와 주가 주간 25%대 급락, CEO의 약 10억 달러 주식 매도, 건물주 동반 불안 지적이 추가됐다",
+ "items": [
+  {"t": "코어위브 주가 폭락, AI를 둘러싼 공포와 탐욕의 갈림길 드러내", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/coreweave-stock-wipeout-exposes-divide-between-ai-fear-and-greed", "s": "코어위브 주가가 폭락하면서 AI를 둘러싼 공포와 낙관론이 시장에서 뚜렷하게 엇갈리고 있다 (제목 기준)"},
+  {"t": "로이터 모닝비드: AI의 부채 부담", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/podcasts/reuters-morning-bid/ais-debt-burden-2026-10-16/", "s": "로이터 모닝비드가 AI의 부채 부담을 다루면서 AI 인프라 차입이 시장의 핵심 위험으로 떠오르고 있다 (제목 기준)"},
+  {"t": "넷스케일 상장: 데이터센터 지연이 보여준 네오클라우드의 위험", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/nscale-ipo-data-center-delays-show-risks-for-the-neoclouds", "s": "넷스케일 상장 과정에서 데이터센터 지연이 드러나면서 코어위브 같은 네오클라우드 업체의 사업 위험이 부각되고 있다 (제목 기준)"},
+  {"t": "ARK 캐시 우드 '코어위브, AI 수요로 부채 우려 이겨낼 것'", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/ark-s-wood-says-coreweave-will-overcome-debt-fears-on-ai-demand", "s": "캐시 우드 ARK 대표가 AI 수요가 부채 우려를 이겨낼 것이라고 하면서 코어위브 급락을 두고 낙관론도 맞서고 있다 (제목 기준)"},
+  {"t": "코어위브, AI 열광의 한계를 시험하다", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/coreweave-is-testing-the-limits-of-ai-euphoria", "s": "코어위브의 부채 불안이 AI 열광이 어디까지 버틸 수 있는지 시험하면서 AI 관련 자산의 기대가 흔들리고 있다 (제목 기준)"},
+  {"t": "코어위브 채권 불안, 세입자 흔들리면 데이터센터 건물주도 흔들려", "o": "텔레그램 나쁜양파", "d": "2026-10-16", "u": "https://t.me/Badonions/7868", "s": "세입자인 코어위브가 흔들리면서 여기에 기대는 코어 사이언티픽·어플라이드 디지털 같은 데이터센터 건물주도 함께 흔들릴 수 있다는 지적이 나왔다"},
+  {"t": "사모신용 라운드업: 코어위브 부채 스트레스가 사모신용의 AI 금융을 시험", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/legal/transactional/private-credit-roundup-coreweaves-debt-stress-tests-private-credits-ai-financing-2026-10-16/", "s": "코어위브의 부채 스트레스가 커지면서 AI 데이터센터에 돈을 댄 사모신용 시장이 시험대에 올랐다 (제목 기준)"},
+  {"t": "테크 업계의 AI 차입 폭주가 시장을 흔드는 이유", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/why-tech-s-ai-borrowing-binge-is-rattling-markets", "s": "기술 기업들의 대규모 AI 차입이 이어지면서 주식·채권 시장의 불안을 키우고 있다는 분석이 나왔다 (제목 기준)"},
+  {"t": "코어위브 채권 급락, AI 인프라 구축의 시장 셈법을 시험", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/legal/transactional/coreweave-bond-rout-tests-markets-math-ai-buildout-2026-10-16/", "s": "코어위브 채권이 급락하면서 AI 인프라 구축 비용을 빚으로 감당할 수 있는지에 대한 시장의 셈법이 시험받고 있다 (제목 기준)"},
+  {"t": "코어위브 주가·채권, AI 차입 우려 커지며 주간 급락 향해", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/", "s": "AI 차입 우려가 커지면서 코어위브 주가가 16일 11% 넘게 빠져 주간 25% 가까이 떨어졌고 2031년물 수익률은 한때 16%를 넘었다"},
+  {"t": "코어위브가 AI 공포의 표적이 된 이유", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/legal/transactional/why-coreweave-is-crosshairs-ai-scare-2026-10-16/", "s": "코어위브가 AI 공포의 표적이 되면서 AI 인프라 기업의 부채 구조에 시장의 의심이 쏠리고 있다 (제목 기준)"},
+  {"t": "코어위브 CEO, 상장 이후 10억 달러 가까운 주식 매도…공시", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/legal/government/coreweaves-ceo-sold-nearly-1-billion-stock-since-ipo-filings-show-2026-10-16/", "s": "인트레이터 CEO와 관련 법인이 2025년 3월 상장 이후 주로 사전 계획에 따라 약 10억 달러어치 주식을 판 것으로 드러나 경영진 매도가 주목받고 있다"}
+ ]},
+
+{"cid": "G1-012", "attachTo": "n-rtr-0200",
+ "title": "튀르키예 내년 국방비 450억 달러·조달 229% 증액…유럽은 대드론·북극 감시 강화",
+ "one": "튀르키예가 2027년 예산안에 국방비 약 450억 달러와 무기 조달 229% 증액을 담고 폴란드가 자국 방산 구매국에 병력 추가를 내건 데다 EU가 드론·우주 혁신 자금에 이어 북극 감시까지 추진하면서, 유럽 주변의 무기 수요가 커지고 있다",
+ "facts": [
+  "무엇이: 의회 승인을 앞둔 튀르키예 2027년 예산안은 국방에 2조 2,060억 리라(약 445억 달러), 국내 안보에 약 252억 달러를 배정했고 무기·탄약·장비 조달은 229% 늘렸다 [사실]",
+  "의도: 이스라엘 군 소식통은 이번 증액이 동지중해와 시리아에서 이스라엘군에 맞설 능력을 키우려는 것이라고 봤고, 5세대 전투기와 전투함 확보가 우선이라고 전해졌다 [채널]",
+  "폴란드: 코시니아크카미시 국방장관은 폴란드 방산업체와 계약하는 동맹국에 평시 파견 병력을 더 보내겠다고 했다 [사실]",
+  "동유럽·북극: 불가리아는 NATO 대드론 체계 확보를 추진하고, EU는 러시아와 트럼프를 의식해 북극 감시 프로그램을 계획하고 있다 [제목]",
+  "기존: EU는 1억 1,500만 유로 AGILE 방산혁신 프로그램을 확정했고, 10억 유로 NATO 혁신펀드는 드론 탐지·무력화와 우주 정찰을 가장 시급한 투자처로 꼽았다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "튀르키예 국방 445억 달러·국내 안보 252억 달러·조달 229%와 폴란드 병력 제안은 검색 결과 요약으로 확인. 총액 710억 달러, 이스라엘 대응 목적, 불가리아·EU 북극 감시 계획 세부는 확인 못 함",
+ "src": [{"o": "Anadolu Agency", "d": "2026-10-16", "u": "https://aa.com.tr/en/turkiye/turkiye-raises-defense-equipment-procurement-by-229-in-2027/4091132"},
+         {"o": "TRT World", "d": "2026-10-16", "u": "https://www.trtworld.com/article/74c166604e0e"},
+         {"o": "Briefs", "d": "2026-10-16", "u": "https://www.briefs.co/news/poland-ties-extra-nato-troop-deployments-to-allies-buying-po/"}],
+ "inds": ["aero", "macro"], "nodes": ["macro/geo"],
+ "vc": [{"ind": "aero", "node": "defspend", "f": "수요", "dir": "up", "k": "실제", "t": "튀르키예 2027년 무기 조달 예산 229% 증액"},
+        {"ind": "aero", "node": "munitions", "f": "수요", "dir": "up", "k": "예상", "t": "불가리아 NATO 대드론 체계 확보 추진"}],
+ "added": "이번 텔레그램 2건과 로이터·블룸버그 3건으로 튀르키예의 2027년 국방비 약 450억 달러·조달 229% 증액, 폴란드의 방산 구매 연계 병력 제안, EU 북극 감시 계획이 추가됐다",
+ "items": [
+  {"t": "불가리아 국방장관 'NATO 대드론 체계 확보 추진'", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/aerospace-defense/bulgaria-seeks-nato-anti-drone-systems-says-defence-minister-2026-10-16/", "s": "불가리아 국방장관이 NATO 대드론 체계를 확보하려 한다고 밝히면서 동유럽의 드론 방어 장비 수요가 늘고 있다 (제목 기준)"},
+  {"t": "폴란드, 동맹국이 자국 방산 제품 사면 NATO 병력 더 보내겠다", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/poland-offers-more-nato-troops-if-allies-buy-from-its-defense-industry", "s": "폴란드가 자국 방산업체와 계약하는 동맹국에 평시 파견 병력을 더 보내겠다고 하면서 병력 지원을 무기 수출과 묶었다"},
+  {"t": "EU, 러시아·트럼프 의식해 북극 감시 프로그램 계획", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/eu-plans-arctic-surveillance-program-as-russia-and-trump-loom", "s": "EU가 러시아와 트럼프 변수를 의식해 북극 감시 프로그램을 계획하면서 역내 정찰·감시 장비 수요가 커질 수 있다 (제목 기준)"},
+  {"t": "튀르키예, 2027년 국방비 450억 달러…무기 조달 예산 229% 급증", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10673", "s": "에르도안 정부가 2027년 국방비 450억 달러와 국내 안보비 260억 달러를 잡고 무기 조달을 229% 늘리면서 전투기·전투함 확보에 속도를 낸다"},
+  {"t": "이스라엘 군 소식통 '튀르키예 군비 증액은 이스라엘 견제용'", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10680", "s": "이스라엘 군 소식통이 튀르키예의 군비 증액을 동지중해·시리아에서 이스라엘군에 맞서려는 것으로 보면서 두 나라의 군사 긴장이 부각되고 있다"}
+ ]},
+
+{"cid": "G1-018", "attachTo": "n-tg-0277",
+ "title": "IMF '유럽, 성장 높이거나 빚 줄여야'…선진국 재정 건전화 압박 확대",
+ "one": "IMF가 선진국 재정적자가 GDP의 5.2%에 이른다며 긴축을 촉구한 데 이어 유럽 국가 4분의 3에 구조개혁과 평균 GDP 3.5% 규모의 적자 감축이 필요하다고 하고 스위스 재무장관도 유로 위기 가능성을 경고하면서, 유럽 재정과 국채에 대한 압박이 커지고 있다",
+ "facts": [
+  "무엇이: IMF는 10월 16일 유럽 국가 약 4분의 3이 성장을 높이고 지출 압박을 덜 구조개혁이 필요하며, 중기적으로 평균 GDP 3.5% 안팎의 적자 감축이 필요하다고 했다 [사실]",
+  "규모: IMF는 유럽 국가 약 4분의 1이 GDP 5%를 넘는 재정 긴축이 필요해 과거에 대체로 가능했던 수준을 넘는 반면, EU 중기계획상 긴축은 평균 GDP 2% 정도에 그친다고 봤다 [사실]",
+  "부채: 슈추레크 IMF 유럽국장은 정책 변화가 없으면 평균적인 유럽 경제의 공공부채가 지금의 두 배까지 늘 수 있다고 했다 [사실]",
+  "스위스: 스위스 재무장관은 유럽의 높은 부채가 유로 위기를 부를 수 있다고 경고했다 [제목]",
+  "기존: IMF는 재정점검보고서에서 선진국 재정적자가 2026년 GDP의 5.2%, 미국 일반정부 적자가 8.5%에 이를 것으로 봤다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "IMF 유럽 평가(구조개혁 4분의 3, 적자 감축 3.5%, 부채 두 배)는 검색 결과 요약으로 확인. 스위스 재무장관 발언과 미·중 책임 공방, 게오르기에바 협력 촉구 세부는 확인 못 함",
+ "src": [{"o": "Il Sole 24 Ore", "d": "2026-10-16", "u": "https://en.ilsole24ore.com/art/the-imf-warns-europe-unsustainable-debt-without-growth-pass-unanimous-vote-AHwBxyCD"},
+         {"o": "IndexBox", "d": "2026-10-16", "u": "https://www.indexbox.io/blog/imf-warns-europe-grow-faster-or-cut-debt-to-keep-public-finances-sustainable/"}],
+ "inds": ["macro"], "nodes": ["macro/fiscal"],
+ "vc": [{"ind": "macro", "node": "fiscal", "f": "수요", "dir": "down", "k": "예상", "t": "IMF, 유럽 평균 GDP 3.5% 적자 감축 필요"}],
+ "added": "이번 로이터·블룸버그 4건으로 IMF의 유럽 국가 평균 GDP 3.5% 적자 감축 요구와 공공부채 두 배 경고, 스위스 재무장관의 유로 위기 경고가 추가됐다",
+ "items": [
+  {"t": "IMF '유럽, 부채 지속 가능하려면 성장 높이거나 차입 줄여야'", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/europe-must-boost-growth-or-borrow-less-keep-debt-sustainable-imf-says-2026-10-16/", "s": "IMF가 유럽 국가 4분의 3에 구조개혁과 평균 GDP 3.5% 안팎의 적자 감축이 필요하다고 하면서 유럽 정부의 재정 긴축 압박이 커졌다"},
+  {"t": "세계 경제 둘러싼 미·중 책임 공방, 중국 쪽으로 기울어", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-china-blame-game-over-global-economy-tilts-in-beijing-s-favor", "s": "세계 경제 문제를 두고 미국과 중국이 서로 책임을 돌리는 가운데 공방의 흐름이 중국에 유리하게 기울고 있다 (제목 기준)"},
+  {"t": "IMF 총재 'AI·전쟁 위험에 협력해야'…미국은 경제 모멘텀 자찬", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/imf-chief-urges-cooperation-ai-war-risks-us-hails-economic-momentum-2026-10-16/", "s": "IMF 총재가 AI와 전쟁 위험에 맞서 국제 협력을 촉구한 반면 미국은 자국 경제의 성장세를 내세우며 다른 목소리를 냈다 (제목 기준)"},
+  {"t": "스위스 재무장관 '유럽의 과도한 부채, 유로 위기 부를 수도'", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/swiss-finance-minister-warns-steep-european-debt-could-trigger-euro-crisis-2026-10-16/", "s": "스위스 재무장관이 유럽의 높은 국가부채가 유로 위기를 부를 수 있다고 경고하면서 유럽 국채 위험이 다시 거론되고 있다 (제목 기준)"}
+ ]},
+
+{"cid": "G1-024", "attachTo": "",
+ "title": "美, 멕시코시티발 신규 노선 제한 해제…유나이티드·에어캐나다도 국경 노선 확대",
+ "one": "미 교통부가 1년간 묶어 둔 멕시코 항공사의 멕시코시티 두 공항발 미국 신규 노선 제한을 풀고 에어캐나다·유나이티드가 2027년 여름 미-캐나다 신규 노선과 공동사업 확대를 추진하면서, 무역 갈등 속에서도 북미 국경 간 항공 공급이 늘어날 전망이다",
+ "facts": [
+  "무엇이: 미 교통부가 2025년 10월부터 막아 온 멕시코 항공사의 펠리페앙헬레스·베니토후아레스 공항발 미국 신규 노선 제한을 풀었다 [사실]",
+  "조건: 미국은 대형기 운항 일정 제출·승인 요건과 분쟁 관련 다른 명령 2건을 유지하며 멕시코의 약속 이행을 지켜보겠다고 했고, 비바와 아에로멕시코는 결정을 환영했다 [사실]",
+  "미-캐나다: 에어캐나다는 2027년 여름 토론토-루이빌, 몬트리올-인디애나폴리스, 에드먼턴-뉴어크 노선을 새로 열고, 유나이티드는 덴버-오타와·덴버-퀘벡시티 직항을 추가한다 [사실]",
+  "공동사업: 두 회사는 국경 간 공동사업 협정을 갱신·확대해 노선 10개를 더 넣으려 하며, 캐나다 교통부 승인이 필요하다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "멕시코시티 신규 노선 제한 해제와 유지 조건, 에어캐나다·유나이티드 신규 노선과 공동사업 확대 신청은 검색 결과 요약과 에어캐나다 보도자료로 확인",
+ "src": [{"o": "GlobeNewswire(에어캐나다 보도자료)", "d": "2026-10-16", "u": "https://www.globenewswire.com/news-release/2026/10/16/3382739/0/en/air-canada-expands-canada-u-s-connectivity-with-new-summer-2027-routes-increasing-options-for-travellers-under-its-transborder-joint-business-agreement-with-united-airlines.html"},
+         {"o": "Quartz", "d": "2026-10-16", "u": "https://qz.com/air-canada-united-joint-venture-expansion-approval-101626"},
+         {"o": "Forth", "d": "2026-10-16", "u": "https://www.forth.news/stories/Cg6ktS7QLbeFRb5LcSqER"}],
+ "inds": ["aero"], "nodes": [],
+ "vc": [{"ind": "aero", "node": "airlines", "f": "공급", "dir": "up", "k": "실제", "t": "美, 멕시코시티발 신규 노선 제한 해제"}],
+ "added": "이번 블룸버그·로이터 2건으로 미국의 멕시코시티 두 공항발 신규 노선 제한 해제와 대형기 운항 승인 요건 등 남은 조건이 추가됐다",
+ "items": [
+  {"t": "유나이티드·에어캐나다, 무역 긴장 속 노선 추가 계획", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/united-air-canada-want-to-add-routes-to-jv-amid-rising-tensions", "s": "유나이티드와 에어캐나다가 미-캐나다 무역 긴장 속에서도 공동사업에 노선 10개를 더 넣으려 하면서 국경 간 항공편 선택지가 늘어날 전망이다"},
+  {"t": "에어캐나다·유나이티드, 새 여름 노선으로 미-캐나다 노선망 확대", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/air-canada-united-airlines-expand-canada-us-network-with-new-summer-routes-2026-10-16/", "s": "에어캐나다가 토론토-루이빌 등 3개 노선을, 유나이티드가 덴버-오타와·퀘벡시티 직항을 2027년 여름 새로 열면서 미-캐나다 노선 공급이 늘어난다"},
+  {"t": "미국, 멕시코시티 공항발 신규 노선 허용", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports", "s": "미국이 멕시코시티 공항발 신규 노선을 허용하면서 멕시코 항공사들이 미국행 노선을 다시 늘릴 수 있게 됐다"},
+  {"t": "미국, 멕시코 수도 공항발 신규 항공편 제한 해제", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/world/us/us-lifts-restrictions-new-mexican-flights-capitals-airports-2026-10-16/", "s": "미 교통부가 2025년 10월부터 이어 온 제한을 풀었지만 대형기 운항 승인 요건과 다른 명령 2건은 유지하면서 멕시코의 협정 이행을 계속 점검한다"}
+ ]},
+
+{"cid": "G1-030", "attachTo": "n-rtr-0041",
+ "title": "웨이모 2028년 토론토 진출…테슬라는 슬로바키아 승인·美 집단소송 차단",
+ "one": "웨이모가 2028년 토론토에서 캐나다 첫 로보택시 서비스를 내겠다고 하고 테슬라가 슬로바키아에서 자율주행 기술 승인을 받은 데 이어 미 항소법원이 FSD 과장 광고 집단소송 인정을 취소하면서, 테슬라의 법적 부담이 덜어지고 자율주행 서비스 지역이 넓어지고 있다",
+ "facts": [
+  "무엇이: 웨이모가 토론토를 캐나다 첫 도시로 정해 2028년 일반 승객 대상 서비스를 목표로 지도 작업을 시작했고, 차량 운영은 엘리먼트 플리트 매니지먼트가 맡는다 [사실]",
+  "제약: 온타리오주 승인은 시험 운행용이며 현행 시범 규정이 2027년 10월 끝나고, 면허·보험·요금 문제도 남아 있다 [사실]",
+  "소송: 미 제9순회항소법원은 10월 16일 FSD 기능에 속았다고 주장한 캘리포니아 테슬라 구매자들의 집단소송 인정을 취소했고, 허위광고 본안 소송은 계속된다 [사실]",
+  "유럽: 테슬라는 슬로바키아에서 자율주행 기술 승인을 받았다 [제목]",
+  "기존: 테슬라는 유럽에서 FSD 명칭을 'Tesla Assisted Driving'으로 바꿨고, EU 전체 표결은 12월이 가장 빠르다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "웨이모 토론토 계획과 제9순회항소법원 집단소송 인정 취소는 검색 결과 요약으로 확인. 테슬라 슬로바키아 승인 세부는 확인 못 함",
+ "src": [{"o": "CBC", "d": "2026-10-16", "u": "https://www.cbc.ca/news/canada/toronto/waymo-autonomous-driving-robotaxi-toronto-2028-9.7383437"},
+         {"o": "Electrek", "d": "2026-10-16", "u": "https://electrek.co/2026/10/16/waymo-toronto-canada-robotaxi-2028/"},
+         {"o": "Hoodline", "d": "2026-10-16", "u": "https://hoodline.com/2026/10/appeals-court-blocks-tesla-self-driving-class-action-california-buyers-left-alone/"}],
+ "inds": ["auto"], "nodes": [],
+ "vc": [{"ind": "auto", "node": "autonomy", "f": "공급", "dir": "up", "k": "예상", "t": "웨이모 2028년 토론토 로보택시 서비스 목표"},
+        {"ind": "auto", "node": "policy", "f": "-", "dir": "flat", "k": "실제", "t": "美 항소법원 테슬라 FSD 집단소송 인정 취소"}],
+ "added": "이번 로이터 3건으로 웨이모의 2028년 토론토 로보택시 계획, 테슬라의 슬로바키아 자율주행 승인, 미 항소법원의 FSD 집단소송 인정 취소가 추가됐다",
+ "items": [
+  {"t": "구글 웨이모, 2028년 토론토서 캐나다 첫 로보택시 서비스 계획", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/googles-waymo-plans-first-canada-robotaxi-service-toronto-2028-2026-10-16/", "s": "웨이모가 토론토를 캐나다 첫 도시로 정해 2028년 일반 승객 대상 로보택시를 목표로 하면서 북미 로보택시 경쟁 지역이 넓어진다"},
+  {"t": "테슬라, 슬로바키아서 자율주행 기술 승인 받아", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/tesla-receives-approval-self-driving-tech-slovakia-2026-10-16/", "s": "테슬라가 슬로바키아에서 자율주행 기술 승인을 받으면서 EU 전체 승인 전 국가별 승인 지역이 늘었다 (제목 기준)"},
+  {"t": "미 항소법원, 테슬라 자율주행 과장 광고 집단소송 막아", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/media-telecom/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims-2026-10-16/", "s": "미 제9순회항소법원이 캘리포니아 테슬라 구매자의 집단소송 인정을 취소하면서 테슬라의 FSD 광고 관련 집단 배상 위험이 줄었다"}
+ ]},
+
+{"cid": "G1-036", "attachTo": "n-rtr-0321",
+ "title": "EU, 우크라 새 대출 불가피론…젤렌스키는 트럼프 갈등 진화, 헝가리와 관계 재설정",
+ "one": "트럼프가 우크라이나의 러시아 정유소 공격을 비판한 가운데 젤렌스키가 브뤼셀에서 EU 정상들과 만나 갈등을 진화하고 에스토니아 총리가 내년 700억 달러 넘는 재정 공백을 메울 EU 새 대출이 필요하다고 하면서, 유럽의 우크라이나 지원 부담이 더 커지고 있다",
+ "facts": [
+  "무엇이: 미할 에스토니아 총리는 우크라이나가 내년 국방·일반 예산에서 700억 달러 넘는 공백을 맞고 있어 EU가 새 대출을 줘야 할 것이라며, 연말 전 2027년 추가 지원 결정을 바란다고 했다 [사실]",
+  "재원: EU는 지난해 12월 2026~27년용 900억 유로 대출에 합의했지만, 동결된 러시아 자산 활용은 벨기에 등의 반대로 막혀 있다 [사실]",
+  "외교: 젤렌스키는 브뤼셀에서 EU 정상들을 만나 트럼프와의 긴장을 축소했고, 마자르는 헝가리와 우크라이나가 관계를 재설정하기로 했다고 밝혔다 [제목]",
+  "기존: 트럼프는 우크라이나의 러시아 정유소 드론 공격 재개를 세계 경유 공급과 유가에 해로운 수치라고 비판했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "에스토니아 총리의 새 대출 발언과 700억 달러 공백, 900억 유로 대출은 검색 결과 요약으로 확인. 헝가리·우크라이나 관계 재설정 내용과 젤렌스키 회동 세부는 확인 못 함",
+ "src": [{"o": "CBC", "d": "2026-10-16", "u": "https://www.cbc.ca/news/world/eu-summit-ukraine-russia-war-9.7383053"},
+         {"o": "Global Banking and Finance Review", "d": "2026-10-16", "u": "https://www.globalbankingandfinance.com/eu-probably-give-new-loan-ukraine-estonian-pm-michal/"}],
+ "inds": ["macro"], "nodes": ["macro/geo", "macro/fiscal"],
+ "vc": [{"ind": "macro", "node": "fiscal", "f": "수요", "dir": "up", "k": "예상", "t": "우크라 내년 700억 달러 공백에 EU 새 대출론"}],
+ "added": "이번 로이터·블룸버그 3건으로 우크라이나의 내년 700억 달러 넘는 재정 공백과 EU 새 대출론, 헝가리·우크라이나 관계 재설정, 젤렌스키의 EU 정상 회동이 추가됐다",
+ "items": [
+  {"t": "에스토니아 총리 'EU, 우크라이나에 새 대출 줘야 할 듯'", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/eu-will-probably-have-give-new-loan-ukraine-estonian-pm-michal-says-2026-10-16/", "s": "미할 에스토니아 총리가 우크라이나의 내년 700억 달러 넘는 재정 공백을 들어 EU 새 대출이 필요하다고 하면서 유럽의 지원 부담이 커질 전망이다"},
+  {"t": "마자르 '헝가리·우크라이나, 관계 재설정 합의'", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/world/hungary-ukraine-agree-reset-ties-magyar-says-2026-10-16/", "s": "마자르가 헝가리와 우크라이나가 관계를 재설정하기로 했다고 밝히면서 양국 갈등을 풀 계기가 마련됐다 (제목 기준)"},
+  {"t": "젤렌스키, 브뤼셀서 EU 정상 회동…트럼프와 긴장은 축소", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/ukraine-s-zelenskyy-meets-eu-leaders-in-brussels-and-plays-down-trump-tensions", "s": "젤렌스키가 브뤼셀에서 EU 정상들을 만나 트럼프와의 긴장을 대수롭지 않게 말하면서 유럽의 지원 결집을 다졌다 (제목 기준)"}
+ ]},
+
+{"cid": "G1-042", "attachTo": "",
+ "title": "美 청정에너지 올해 89GW 사상 최대 전망…세액공제 종료 앞두고 막바지 설치",
+ "one": "블룸버그NEF가 세액공제 종료를 앞둔 개발사들의 막바지 사업 추진과 데이터센터 수요로 미국이 올해 사상 최대인 89GW의 청정에너지를 더하고 내년엔 이를 넘을 것으로 보면서도 대형 태양광 장기 전망은 낮추면서, 공제 절벽 이후 설치 둔화 위험이 부각되고 있다",
+ "facts": [
+  "무엇이: 블룸버그NEF는 미국이 2026년 사상 최대인 89GW의 청정에너지를 새로 더하고 2027년엔 이를 넘을 것으로 전망했다 [사실]",
+  "태양광: 만료되는 세액공제 자격을 얻은 사업이 몰려 올해 태양광 48.9GW 설치가 예상되지만, 2026~36년 대형 태양광 전망은 관세와 공제 축소로 7.5% 낮춘 430GW다 [사실]",
+  "배터리·풍력: 2036년까지 배터리 누적 설치 전망은 35% 높인 383GW, 육상풍력 추가 전망은 15% 높인 99.7GW다 [사실]",
+  "절벽: 풍력·태양광은 2026년 7월 4일까지 착공하거나 2027년 말까지 가동해야 세액공제를 받는다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BNEF 89GW 사상 최대 전망, 태양광 48.9GW, 배터리·풍력 전망 상향, 공제 마감 시한은 검색 결과 요약으로 확인",
+ "src": [{"o": "Briefs", "d": "2026-10-16", "u": "https://www.briefs.co/news/u-s-set-to-add-record-clean-power-as-data-centers-drive-dema/"},
+         {"o": "E&E News", "d": "2026-10-16", "u": "https://www.eenews.net/articles/5-questions-answered-as-solar-tax-credits-phase-out/"}],
+ "inds": ["power"], "nodes": ["power/developers", "power/storage"],
+ "vc": [{"ind": "power", "node": "developers", "f": "공급", "dir": "up", "k": "예상", "t": "올해 청정에너지 89GW 사상 최대 추가 전망"},
+        {"ind": "power", "node": "storage", "f": "수요", "dir": "up", "k": "예상", "t": "배터리 2036년 누적 전망 35% 높여 383GW"}],
+ "added": "이번 블룸버그 뉴스레터 1건으로 세액공제 종료 전 막바지 설치 붐 속에 미국 청정에너지가 새 기록을 세울 태세라는 분석이 추가됐다 (제목 기준)",
+ "items": [
+  {"t": "세액공제 절벽 앞두고 美 청정에너지 사상 최대 전망", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-clean-energy-set-to-reach-new-highs-as-tax-credit-cliff-looms", "s": "세액공제 종료를 앞두고 개발사들이 사업을 서두르면서 미국 청정에너지 추가 설비가 올해 89GW로 사상 최대에 이를 전망이다"},
+  {"t": "청정에너지, 미국서 새 기록 세울 태세", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/clean-energy-is-poised-to-set-new-records-in-the-us", "s": "미국 청정에너지가 새 기록을 세울 태세라는 분석이 나오면서 세액공제 종료 전 막바지 설치 붐이 부각되고 있다 (제목 기준)"}
+ ]},
+
+{"cid": "G1-048", "attachTo": "n-bbg-0236",
+ "title": "美 요격미사일 재고 2030년까지 부족 경고…안두릴은 스틸핀 유럽 생산 검토",
+ "one": "랜디 조지 전 육군참모총장이 이란 전쟁 전 패트리엇·사드 요격미사일 재고가 2030년까지 부족할 것이라고 경고한 사실이 드러나고 안두릴이 저가 요격미사일 스틸핀의 유럽 생산을 검토하면서, 록히드 PAC-3 엣지와 맞붙는 요격미사일 증산 경쟁이 커지고 있다",
+ "facts": [
+  "무엇이: CBS는 랜디 조지 당시 육군참모총장이 2025년 12월 국방부 2027회계연도 전력 배분 계획의 위험 평가에서 패트리엇·사드 요격미사일 재고가 2030년까지 크게 부족할 것이라고 경고했다고 보도했다 [사실]",
+  "소모: CSIS는 미국이 이란 전쟁에서 전쟁 전 약 2,300발이던 패트리엇 가운데 1,050~1,430발, 약 355발이던 사드 가운데 190~290발을 쓴 것으로 추정했다 [사실]",
+  "반박: 숀 파넬 국방부 대변인은 탄약 부족 주장이 사실이 아니라고 했고, 조지 대장은 4월 해임됐다 [사실]",
+  "안두릴: 브라이언 모런 안두릴 유럽 부사장은 2027년 비행시험 예정인 스틸핀을 유럽에서 생산할 수 있다며 폴란드 PGZ·정부와 논의 중이라고 했다 [사실]",
+  "증산: 미국은 2027회계연도에 사드 요격미사일 800발 이상을 요청했고, 록히드마틴은 1월 사드 연간 생산능력을 96발에서 400발로 늘리는 계획을 밝혔다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "CBS의 요격미사일 재고 부족 경고 보도, CSIS 소모 추정, 국방부 반박, 안두릴 스틸핀 유럽 생산 검토는 검색 결과 요약으로 확인. 사드 800발 요청과 록히드 증산 계획은 채널 전언",
+ "src": [{"o": "CBS News", "d": "2026-10-16", "u": "https://www.cbsnews.com/news/randy-george-missile-defense-shortage-iran-china/"},
+         {"o": "Middle East Monitor", "d": "2026-10-16", "u": "https://www.middleeastmonitor.com/20261016-ousted-us-general-warned-before-iran-war-of-missile-defense-shortages-lasting-until-2030-report/"},
+         {"o": "Mezha", "d": "2026-10-16", "u": "https://mezha.net/eng/news/mezha-3940d744b87c47de9b3a4367_anduril_may_consider"}],
+ "inds": ["aero"], "nodes": [],
+ "vc": [{"ind": "aero", "node": "munitions", "f": "공급", "dir": "down", "k": "실제", "t": "패트리엇·사드 재고 2030년까지 부족 경고"},
+        {"ind": "aero", "node": "munitions", "f": "수요", "dir": "up", "k": "예상", "t": "미국 사드 요격미사일 800발 이상 요청"}],
+ "added": "이번 로이터·텔레그램 2건으로 미 요격미사일 재고가 2030년까지 부족하다는 육군 내부 경고와 CSIS 소모 추정, 안두릴의 스틸핀 유럽 생산 검토가 추가됐다",
+ "items": [
+  {"t": "미 방산업체 안두릴 '유럽서 요격미사일 생산할 수도'", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/aerospace-defense/us-arms-firm-anduril-could-make-interceptors-europe-executive-says-2026-10-16/", "s": "안두릴이 2027년 비행시험 예정인 저가 요격미사일 스틸핀을 폴란드 등 유럽에서 생산할 수 있다고 하면서 유럽 방공 무기 공급선이 넓어질 수 있다"},
+  {"t": "CBS '해임된 육군총장, 이란전 전 요격미사일 2030년까지 부족 경고'", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-17", "u": "https://t.me/insidertracking/66507", "s": "랜디 조지 전 육군참모총장이 패트리엇·사드 요격탄 재고가 2030년까지 부족하다고 경고한 사실이 알려지면서 미국 요격미사일 보충 수요가 부각되고 있다"}
+ ]},
+
+{"cid": "G1-054", "attachTo": "n-rtr-0240",
+ "title": "EU 7년 예산 줄다리기…메르츠 '더 깎아야', 마크롱 '연내 합의 필요'",
+ "one": "아일랜드 의장국의 1조 6,220억 유로 안을 두고 메르츠 독일 총리가 현행 예산보다 50% 많다며 추가 삭감을 요구하고 마크롱 프랑스 대통령은 연내 합의가 필요하다고 압박하면서, 2028~34년 EU 예산 타결이 11월 추가 정상회의 이후로 밀릴 수 있다",
+ "facts": [
+  "무엇이: 메르츠 총리는 1,410억 유로를 줄인 아일랜드안도 현행 다년도 재정계획보다 50% 많다며 더 깎아야 한다고 했다 [사실]",
+  "우선순위: 메르츠는 경쟁력·국방에 돈을 쓰고 결속·농업 정책 추가 지원은 거부한다고 했으며, 충분한 재원을 주장하는 프랑스와 맞서 있다 [사실]",
+  "프랑스: 마크롱 대통령은 EU 정상들에게 연말 전 예산 합의가 필요하다고 경고했다 [제목]",
+  "일정: 메르츠는 연내 합의를 바라지만 확신하지 못한다며 11월 추가 정상회의를 예상했고 만장일치가 필요하다고 강조했다 [사실]",
+  "기존: 스웨덴은 순분담금 약 60% 증가를 들어 거부했고, 유럽의회는 1조 9,380억 유로를 요구한다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "메르츠의 추가 삭감 요구와 50% 발언, 11월 추가 회의 전망은 검색 결과 요약으로 확인. 마크롱 발언 세부는 확인 못 함",
+ "src": [{"o": "Global Banking and Finance Review", "d": "2026-10-16", "u": "https://www.globalbankingandfinance.com/germanys-merz-eu-budget-proposal-cut/"},
+         {"o": "IEU Monitoring", "d": "2026-10-16", "u": "https://ieu-monitoring.com/editorial/german-chancellor-merz-demands-major-eu-budget-cuts-and-stronger-ukraine-support/1252397"}],
+ "inds": ["macro"], "nodes": ["macro/fiscal"],
+ "vc": [{"ind": "macro", "node": "fiscal", "f": "수요", "dir": "down", "k": "예상", "t": "메르츠, EU 7년 예산안 추가 삭감 요구"}],
+ "added": "이번 로이터 2건으로 아일랜드안도 현행보다 50% 많다는 메르츠의 추가 삭감 요구와 11월 추가 정상회의 전망, 마크롱의 연내 합의 압박이 추가됐다",
+ "items": [
+  {"t": "마크롱, EU 정상들에 '연말 전 예산 합의 필요' 경고", "o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/frances-macron-warns-eu-leaders-they-need-budget-deal-before-year-end-say-2026-10-16/", "s": "마크롱 대통령이 EU 정상들에게 연말 전 예산 합의가 필요하다고 경고하면서 협상 지연에 대한 압박을 키웠다 (제목 기준)"},
+  {"t": "메르츠 'EU 예산안 더 깎아야'", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/germanys-merz-says-eu-budget-proposal-must-be-cut-further-2026-10-16/", "s": "메르츠 총리가 아일랜드안도 현행 예산보다 50% 많다며 추가 삭감과 경쟁력·국방 중심 배분을 요구하면서 연내 타결이 불투명해졌다"}
+ ]},
+
+{"cid": "G1-060", "attachTo": "n-bbg-0082",
+ "title": "우에다 '기조물가 2% 넘는 가속 용인 못 해'…日 12월 인상론 힘 받아",
+ "one": "우에다 총재가 기조 인플레이션이 2% 목표 가까이 온 만큼 더 빨라지는 것은 용인할 수 없다며 금리 인상을 이어 가겠다고 하고 9월 근원물가도 2.1%로 목표를 넘었을 것으로 예상되면서, 10월 동결 뒤 12월 인상과 2027년 추가 긴축 가능성이 커지고 있다",
+ "facts": [
+  "무엇이: 우에다 총재는 10월 16일 방콕 기자회견에서 기조 인플레이션이 2% 목표에 거의 다가와 더 가속하는 것을 용인할 수 없다고 말했다 [사실]",
+  "위험: 우치다 부총재가 대독한 연설은 중동 긴장·AI 관련 수요·환율 변동을 들어 기조물가가 목표를 넘을 위험을 경고하고 금융 여건이 여전히 완화적이라고 했다 [사실]",
+  "회의: 일본은행은 10월 29~30일 새 전망에서 기조물가가 2%에 대략 도달했다는 신호를 줄 수 있지만, 9월 인상 직후라 10월 인상이 꼭 예상되지는 않는다는 관측이 나왔다 [사실]",
+  "물가: 일본 9월 전국 근원 CPI는 2.1%로 12월 이후 처음 목표 2%를 넘었을 것으로 예상됐다 [사실]",
+  "전망: 증권사들은 다음 인상을 12월, 추가 긴축을 2027년으로 예상했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "우에다의 기조물가 가속 불용 발언, 우치다 연설의 상회 위험 경고, 10월 회의 전망은 검색 결과 요약으로 확인",
+ "src": [{"o": "FXStreet", "d": "2026-10-16", "u": "https://www.fxstreet.com/news/bojs-ueda-central-bank-will-continue-to-raise-policy-rates-202610160644"},
+         {"o": "ActionForex", "d": "2026-10-16", "u": "https://www.actionforex.com/live-comments/656542-boj-ueda-shifts-focus-to-anchoring-inflation-as-2-target-comes-into-reach/"}],
+ "inds": ["macro", "jpins"], "nodes": ["macro/cb", "jpins/rates"],
+ "vc": [{"ind": "macro", "node": "cb", "f": "가격", "dir": "up", "k": "예상", "t": "우에다, 기조물가 2% 넘는 가속 용인 못 해"}],
+ "added": "이번 블룸버그 1건으로 우에다 총재의 기조물가 가속 불용 발언과 금리 인상 지속 의지, 우치다 부총재의 물가 상회 위험 경고가 추가됐다",
+ "items": [
+  {"t": "우에다 '기조 인플레이션의 2% 추가 상회는 용인 못 해'", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/boj-s-ueda-can-t-tolerate-underlying-inflation-further-over-2", "s": "우에다 총재가 기조물가가 2%를 더 넘어서는 것은 용인할 수 없다고 하면서 일본은행의 추가 금리 인상 가능성이 커졌다"}
+ ]},
+
+{"cid": "G1-065", "attachTo": "n-rtr-0022",
+ "title": "세네갈, 내년 재정적자 GDP 4.7%로 감축…IMF 전망보다 낮춰 채무조정 속도",
+ "one": "세네갈이 2027년 예산안에서 재정적자를 2026년 수정예산의 7.6%에서 GDP 4.7%로 줄이겠다고 하고 미국·IMF가 채무조정의 빠른 마무리를 지지하면서, 22억 달러 IMF 프로그램 승인과 채권단 협상이 속도를 낼 수 있지만 이자 비용이 계획 적자와 맞먹어 부담은 크다",
+ "facts": [
+  "무엇이: 세네갈 2027년 예산안은 재정적자를 약 1조 3,517억 CFA프랑, GDP의 4.7%로 잡아 2026년 수정예산의 7.6%에서 줄였다 [사실]",
+  "비교: 이 목표는 IMF의 내년 전망보다 낮다 [제목]",
+  "이자: 예산안의 채무 이자 비용은 1조 3,039억 CFA프랑(약 22억 달러)으로 계획 적자 전체와 맞먹는다 [사실]",
+  "조건: 22억 달러 규모 36개월 IMF 프로그램은 실무 합의만 됐고, 이사회 승인과 과거 재정 자료 수정, 협력국 재원 보증, 국회 예산 표결이 남아 있다 [사실]",
+  "기존: 미 재무부는 세네갈 채무조정을 1년 안에 끝내자고 했고, 세네갈은 11월 첫 IMF 자금 집행과 12월 채권단 원칙 합의를 바란다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "2027년 적자 4.7%·7.6%에서 감축, 이자 비용, IMF 프로그램 승인 조건은 검색 결과 요약으로 확인. IMF 전망치(5.7%라는 보도)는 IMF 문서로 확인 못 함",
+ "src": [{"o": "Ecofin Agency", "d": "2026-10-16", "u": "https://www.ecofinagency.com/news/1610-59822-senegal-plans-2-9-spending-cut-in-2027-budget-as-deficit-narrows"},
+         {"o": "Seneweb", "d": "2026-10-16", "u": "https://www.seneweb.com/en/news/Economie/spending-revenue-debt-challenges-discover-the-exclusive-key-figures-of-senegals-2027-budget_n_999000682.html"},
+         {"o": "The Rio Times", "d": "2026-10-16", "u": "https://www.riotimesonline.com/senegal-budget-deficit-target-4-7-percent-2026/"}],
+ "inds": ["macro"], "nodes": ["macro/fiscal"],
+ "vc": [{"ind": "macro", "node": "fiscal", "f": "수요", "dir": "down", "k": "예상", "t": "세네갈 내년 재정적자 GDP 4.7%로 감축 계획"}],
+ "added": "이번 블룸버그 1건으로 세네갈의 2027년 재정적자 GDP 4.7% 감축 계획과 계획 적자에 맞먹는 이자 비용 부담이 추가됐다",
+ "items": [
+  {"t": "세네갈, 내년 재정적자 IMF 전망 아래로 감축 계획", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/senegal-plans-to-cut-budget-deficit-below-imf-forecast-next-year", "s": "세네갈이 2027년 재정적자를 GDP 4.7%로 줄이는 예산안을 내놓으면서 IMF 프로그램 승인과 채무조정 협상에 힘을 실으려 하고 있다"}
+ ]},
+
+{"cid": "G1-077", "attachTo": "n-tg-0212",
+ "title": "판궁성 '금융시장 더 연다'…위안화 채권 담보 인정·역외시장 지원 약속",
+ "one": "판궁성 인민은행 총재가 IMF·세계은행 연차총회에서 외국인에게 금융시장을 더 열고 위안화 채권의 국제 담보 인정과 역외 위안화 시장을 지원하겠다고 하고 수출 호조로 위안화가 3주 연속 강세를 앞두면서, 해외 자금의 위안화 자산 유입과 위안화 국제화가 빨라질 수 있다",
+ "facts": [
+  "무엇이: 판궁성 총재는 IMF·세계은행 연차총회 계기에 위안화 자산이 무역 불확실성 속 분산 수요를 채울 수 있다며 외국인에게 금융시장을 더 열겠다고 했다 [사실]",
+  "수단: 위안화 채권의 국제 적격 담보 인정 확대, 국경 간 금융 인프라 연결 강화, 역외 위안화 시장 지원, 투자·조달용 위험관리 수단 확대를 내걸었다 [사실]",
+  "이유: 판 총재는 지정학 위험, 세계 경제 구도 변화, AI의 빠른 발전을 위안화 국제화를 이어 갈 이유로 들었다 [사실]",
+  "기존: 위안화는 수출 기업의 달러 환전으로 3주 연속 주간 상승을 향했고 역내 환율 달러당 6.6897위안은 2023년 1월 이후 최강이었으며, IMF는 위안화가 약 21.3% 저평가됐다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "판궁성의 금융시장 추가 개방 약속과 담보·역외시장·위험관리 수단 계획은 검색 결과 요약으로 확인(발언은 10월 15일)",
+ "src": [{"o": "The Standard", "d": "2026-10-16", "u": "https://www.thestandard.com.hk/finance/article/345697/Chinas-central-bank-to-further-open-up-Chinese-financial-markets-to-foreigners"},
+         {"o": "Finimize", "d": "2026-10-16", "u": "https://finimize.com/content/chinas-central-bank-makes-another-pitch-to-global-investors"}],
+ "inds": ["macro", "fin"], "nodes": ["macro/fx", "macro/liquidity"],
+ "vc": [{"ind": "fin", "node": "markets", "f": "공급", "dir": "up", "k": "예상", "t": "인민은행, 외국인 대상 금융시장 추가 개방 약속"},
+        {"ind": "macro", "node": "fx", "f": "가격", "dir": "up", "k": "실제", "t": "위안화 3주 연속 주간 강세 향해"}],
+ "added": "이번 로이터 1건으로 판궁성 총재의 금융시장 추가 개방 약속과 위안화 채권 국제 담보 인정·역외 위안화 시장 지원 계획이 추가됐다",
+ "items": [
+  {"t": "중국 인민은행, 외국인에 금융시장 추가 개방", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/world/asia-pacific/chinas-central-bank-further-open-up-chinese-financial-markets-foreigners-2026-10-16/", "s": "판궁성 총재가 위안화 채권 담보 인정 확대와 역외 위안화 시장 지원을 약속하면서 외국인의 위안화 자산 투자 문턱이 낮아질 전망이다"}
+ ]},
+
+{"cid": "G1-083", "attachTo": "n-rtr-0259",
+ "title": "멕시코, 조립 부품 무관세 혜택 기존 완성차 11곳으로 제한…中업체 배제",
+ "one": "멕시코 경제부가 조립용 부품 수입관세를 5년간 10%에서 0%로 낮춘 혜택을 현지 생산 시설을 갖춘 완성차 11곳으로 한정하고 미-멕시코 관세 협상은 러트닉 반대로 멈추면서, 중국 업체의 우회 진출은 막히고 기존 완성차의 부품 원가 부담은 덜어질 수 있다",
+ "facts": [
+  "무엇이: 멕시코는 10월 13일 법령으로 SKD·CKD 등 일부 조립용 부품 수입관세를 5년간 10%에서 0%로 낮췄고, 경제부는 16일 혜택을 보세 조립 허가를 가진 11개 완성차로 한정한다고 밝혔다 [사실]",
+  "대상: 업계 자료상 아우디·BMW·포드·GM·혼다·기아·마쓰다·닛산·스텔란티스·도요타·폭스바겐이 수혜 후보로 꼽혔고, 경제부는 현지 생산 시설이 없는 업체의 부품 수입은 돕지 않는다고 했다 [사실]",
+  "중국: 분석가들은 GAC·JAC 같은 중국 업체가 혜택을 볼 수 있다고 봤으나, 무역협정이 없는 나라의 완성차는 여전히 50% 관세를 문다 [사실]",
+  "기존: 미-멕시코 관세 협상은 러트닉 상무장관이 자동차 25%, 철강·알루미늄 50% 관세의 대폭 인하에 반대하면서 멈췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "부품 관세 10%→0% 5년 인하, 11개 완성차 한정, 중국 업체 배제 취지, 완성차 50% 관세는 검색 결과 요약으로 확인",
+ "src": [{"o": "Forbes México", "d": "2026-10-16", "u": "https://forbes.com.mx/limitan-exencion-arancelaria-a-automotrices-ya-establecidas/"},
+         {"o": "Finimize", "d": "2026-10-16", "u": "https://finimize.com/content/mexico-limits-its-zero-tariff-car-parts-break"},
+         {"o": "Mezha", "d": "2026-10-16", "u": "https://mezha.net/eng/news/mezha-73ffe7da870ba1d2e3842d3f_mexico_limits_five-year"}],
+ "inds": ["auto"], "nodes": [],
+ "vc": [{"ind": "auto", "node": "policy", "f": "가격", "dir": "down", "k": "실제", "t": "멕시코 조립 부품 관세 5년간 10%에서 0%로"}],
+ "added": "이번 로이터 1건으로 멕시코의 조립 부품 5년 무관세 혜택과 그 대상을 현지 생산 시설을 갖춘 기존 완성차 11곳으로 한정한 조치가 추가됐다",
+ "items": [
+  {"t": "멕시코, 관세 혜택을 기존 현지 완성차 업체로 제한", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/autos-transportation/mexico-limits-tariffs-break-established-local-carmakers-2026-10-16/", "s": "멕시코 경제부가 조립 부품 무관세 혜택을 현지 생산 시설을 갖춘 11개 완성차로 한정하면서 중국 업체의 부품 수입 우회로가 막혔다"}
+ ]}
+],
+"skipped": [{"cid": "G1-071", "reason": "이미 다룸(n-rtr-0115)"}]}

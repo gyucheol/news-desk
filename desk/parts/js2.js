@@ -198,8 +198,8 @@
     else {
       const shown = rows.slice(0, st.shown), days = [];
       shown.forEach(n => { const d = dayOf(n); let g = days[days.length - 1]; if (!g || g.day !== d) days.push(g = { day: d, xs: [] }); g.xs.push(n); });
-      const total = {}; rows.forEach(n => { const d = dayOf(n); total[d] = (total[d] || 0) + 1; });
-      html = '<div class="days">' + days.map(g => '<section aria-label="' + esc(kday(g.day)) + ' 뉴스"><div class="dayh"><h2>' + esc(kday(g.day) || '날짜 미상') + ' ' + esc(dowOf(g.day)) + '</h2><span>' + total[g.day] + '건</span></div><ul class="news">' + g.xs.map(itemHtml).join('') + '</ul></section>').join('') + '</div>' +
+      // 날짜 옆 건수 표시 없음(2026-10-17 사용자 지시)
+      html = '<div class="days">' + days.map(g => '<section aria-label="' + esc(kday(g.day)) + ' 뉴스"><div class="dayh"><h2>' + esc(kday(g.day) || '날짜 미상') + ' ' + esc(dowOf(g.day)) + '</h2></div><ul class="news">' + g.xs.map(itemHtml).join('') + '</ul></section>').join('') + '</div>' +
         (rows.length > st.shown ? '<p class="more-row"><button type="button" class="btn ghost" data-act="more">더 보기 (' + Math.min(PAGE, rows.length - st.shown) + '건)</button></p>' : '');
     }
     const body = $('nb-body'), a = document.activeElement, keep = a && body.contains(a) ? [a.dataset.act || a.dataset.ck || '', a.dataset.id || ''] : null;

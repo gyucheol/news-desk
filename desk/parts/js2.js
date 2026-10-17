@@ -192,7 +192,7 @@
     const unreadShown = rows.filter(n => !isRead(n)).length;
     $('nb-bulk').innerHTML = !unreadShown ? '' : st.confirmAll
       ? '<span>지금 조건에 맞는 ' + unreadShown + '건을 읽음으로 표시할까요?</span><button type="button" class="tg on" data-act="readall-yes">읽음으로 표시</button><button type="button" class="tg" data-act="readall-no">취소</button>'
-      : '<button type="button" class="tg" data-act="readall">' + unreadShown + '건 모두 읽음</button>';
+      : '<button type="button" class="tg" data-act="readall">모두 읽음</button>';
     let html;
     if (!rows.length) html = emptyBox();
     else {

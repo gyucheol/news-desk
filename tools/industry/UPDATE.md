@@ -17,7 +17,7 @@
 
 ## 1. 입력
 - data/industry-2026-10-17/news/<산업 id>.jsonl — 이 산업에 닿는 반영 안 된 뉴스(10월 10일 이후 처리, 오래된 것 먼저). 한 줄에 문서 하나:
-  {"id", "d"(처리일), "title", "one", "added"(기사를 더한 문서면 이번에 더해진 내용), "facts", "vc"(이 산업을 가리키는 밸류체인 한 줄), "src"([{o, u, d}] 원문 출처 앞 6개), "upd"(true면 예전에 반영한 문서에 기사가 더해진 것 — added 위주로 봄)}
+  {"id", "d"(처리일), "title", "one", "added"(기사를 더한 문서면 이번에 더해진 내용), "facts", "vc"(이 산업을 가리키는 밸류체인 한 줄), "src"([{o, u, d}] 원문 출처 가운데 최근 3개, 사실은 앞 4줄), "upd"(true면 예전에 반영한 문서에 기사가 더해진 것 — added 위주로 봄)}
 - 기존 페이지: /home/user/news-desk/work/live21/chains/<산업 id>.json (summary, nodes[].state, cycle, industryState, insight, gaps, history).
 - 자본순환 8국면 정의: /home/user/news-desk/work/live21/meta/cycle.json.
 

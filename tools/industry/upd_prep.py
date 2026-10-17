@@ -15,11 +15,11 @@ for p in glob.glob(f'{DB}/news/*.json'):
     if d['id'] in app and pr <= app[d['id']]: continue
     vc = d.get('vc') or []
     inds = set(d.get('inds') or []) | {v.get('ind') for v in vc if v.get('ind')}
-    src = [{'o': it.get('o', ''), 'u': it.get('u', ''), 'd': it.get('d', '')} for it in (d.get('items') or [])][-6:] or [{'o': d.get('source', ''), 'u': d.get('url', ''), 'd': pr}]
+    src = [{'o': it.get('o', ''), 'u': it.get('u', ''), 'd': it.get('d', '')} for it in (d.get('items') or [])][-3:] or [{'o': d.get('source', ''), 'u': d.get('url', ''), 'd': pr}]
     for i in inds:
         if i not in pages: continue
         out[i].append({'id': d['id'], 'd': pr, 'title': P(d.get('title')), 'one': P(d.get('one')), 'added': P(d.get('added')),
-                       'facts': [P(f) for f in d.get('facts') or []], 'vc': [v for v in vc if v.get('ind') == i], 'src': src,
+                       'facts': [P(f) for f in (d.get('facts') or [])[:4]], 'vc': [v for v in vc if v.get('ind') == i], 'src': src,
                        'upd': d['id'] in app})
 os.makedirs(f'{W}/news', exist_ok=True)
 for i in sorted(pages):

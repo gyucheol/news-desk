@@ -100,8 +100,8 @@
     if (xs.length === 1) return '<p class="lks1">원문 ' + a(xs[0]) + '</p>';
     return '<details class="lks"><summary>원문 ' + xs.length + '건' + (xs.some(x => x.s) ? ' · 원문별 한줄 요약' : '') + '</summary><ul>' + xs.map(x => '<li>' + a(x) + '</li>').join('') + '</ul></details>';
   }
-  // 묶음 뉴스: 가장 최근에 더해진 원문들이 새로 알려 준 내용(added) 한 줄
-  const addHtml = n => n.added ? '<p class="add"><span class="ak">더해진 내용</span> ' + hl(n.added) + '</p>' : '';
+  // 묶음 뉴스: 이전 회차에 보여 준 뉴스에 새 기사를 더했을 때, 새로 추가된 내용(added) 한 줄(2026-10-17 사용자 지시: '추가된 내용: ~ 내용이 추가됨')
+  const addHtml = n => n.added ? '<p class="add"><span class="ak">추가된 내용</span> ' + hl(n.added) + '</p>' : '';
   // 밸류체인 한 줄(vc, v67): 어디에서(산업 › 노드), 공급·수요·가격 중 무엇이, 어느 쪽으로 움직였나. 노드를 누르면 산업 한 페이지의 그 노드로 갑니다.
   const VC_ARROW = { up: '↑', down: '↓', flat: '→', mixed: '↕' };
   const VC_WORD = { '공급': { up: '늘어남', down: '줄어듦' }, '수요': { up: '늘어남', down: '줄어듦' }, '가격': { up: '오름', down: '내림' } };

@@ -56,6 +56,12 @@ def sub_line(w, name, s, lo, hi, nlo, nhi):
     if not lo <= len(core) <= hi: P.append(f'{w} {name} {len(core)}자')
     if not core.endswith('다'): P.append(f'{w} {name} 끝맺음')
 
+def added_line(w, s):
+    core = re.sub(r' \((제목 기준|채널 전언)\)$', '', hl_check(w, 'added', s, 1, 3))
+    if not 40 <= len(core) <= 140: P.append(f'{w} added {len(core)}자')
+    if not core.endswith('내용이 추가됨'): P.append(f"{w} added 끝맺음('~ 내용이 추가됨')")
+    if ' — ' not in core: P.append(f"{w} added 꼴('[출처·건수] — [내용] 내용이 추가됨')")
+
 def check_vc(w, vc):
     if not isinstance(vc, list) or not 1 <= len(vc) <= 3: P.append(f'{w} vc 개수'); return
     for v in vc:
@@ -117,10 +123,14 @@ def check(x, its):
     if x['basis'] not in ('verified', 'partial', 'title', 'channel'): P.append(f'{w} basis {x["basis"]}')
     if x['basis'] in ('verified', 'partial') and not x.get('src'): P.append(f'{w} 독립 출처 없음')
     multi = len(its) > 1 or bool(x.get('attachTo'))
+    # 추가된 내용(added): 이전 회차에 저장한 문서에 기사를 더할 때만 씀(2026-10-17 사용자 지시).
+    # 같은 회차에 한꺼번에 묶은 새 문서에는 쓰지 않음. 꼴: '[출처·건수] — [새 핵심] 내용이 추가됨'
+    prior = bool(x.get('attachTo')) and os.path.exists(f"{DB}/news/{x['attachTo']}.json")
+    if prior: added_line(w, x.get('added', ''))
+    elif x.get('added'): P.append(f'{w} 새 문서(이전 회차 문서에 더한 것이 아님)에 added')
     if multi:
-        sub_line(w, 'added', x.get('added', ''), 60, 140, 1, 3)
         for k, it in enumerate(its): sub_line(w, f'items[{k}].s', it.get('s', ''), 45, 110, 1, 2)
-    elif x.get('added') or any(it.get('s') for it in its): P.append(f'{w} 한 건짜리에 added·s')
+    elif any(it.get('s') for it in its): P.append(f'{w} 한 건짜리에 s')
     for it in its:
         if it['u'] not in when: P.append(f'{w} 주소가 후보에 없음 {it["u"][:80]}')
         if it['u'] in known_urls: P.append(f'{w} 이미 다룬 주소 {it["u"][:80]}')

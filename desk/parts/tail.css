@@ -28,7 +28,7 @@
   .foot{padding:18px 18px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-/* 묶음 뉴스: 더해진 내용 한 줄, 원문별 한줄 요약 */
+/* 묶음 뉴스: 추가된 내용 한 줄, 원문별 한줄 요약 */
 .add{margin-top:4px;font-size:14px;line-height:1.6;color:var(--body);max-width:70ch}
 .add .ak{display:inline-block;margin-right:6px;padding:0 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent-strong);font-size:12px;font-weight:700;line-height:20px;vertical-align:1px}
 .item.is-read .add{color:var(--faint)}

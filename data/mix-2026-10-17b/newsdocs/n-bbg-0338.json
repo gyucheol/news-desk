@@ -1,0 +1,163 @@
+{
+ "added": "텔레그램 1건 — 40개 기술 수출 전 임시 등록이 10월 16일 공고일부터 시행되고 진행 중인 수출도 대상이라는 내용이 추가됨",
+ "basis": "verified",
+ "check": "중국 상무부·과학기술부 2026년 제48호 공고의 임시 등록 시행 시점(공고일), 분야별 항목 수, 금지·제한 구분, 예외 조항은 상무부 공고·대변인 문답을 다룬 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 상무부·과학기술부는 10월 16일 공고로 기술 수출 금지·제한 목록 개정안 의견 수렴을 11월 15일까지 받고, 공고일부터 개정 목록 시행 때까지 해당 기술을 수출하기 전 상무부 시스템에 등록하도록 했다 [사실]",
+  "범위: AI 23개, 바이오의약 5개, 태양광 12개 등 40개 기술 가운데 14개는 금지, 26개는 제한 대상이며, 이미 시작됐지만 끝나지 않은 수출도 등록해야 한다 [사실]",
+  "예외: 오픈소스·학술 논문으로 공개된 기술은 관리 대상이 아니고 소유권 이전 없는 해외 라이선스에는 자동 허가 등 편의 조치가 적용되며, 상무부는 시행 뒤에도 대부분의 AI 기술은 자유롭게 수출할 수 있다고 했다 [사실]",
+  "대만: 궁밍신 대만 경제부 장관은 AI 서버·첨단 칩을 수출 통제 목록에 넣어 허가 없는 대중 반출을 무역법상 형사 처벌하겠다고 했지만 시행 시기는 밝히지 않았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중국, AI 등 40개 기술 '수출 전 등록' 시행…대만은 AI 칩 밀수출 처벌 추진",
+ "id": "n-bbg-0338",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "pharma",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "대만이 미국과의 무역협정 약속의 하나로 AI 칩의 대중 수출을 억제하기로 하면서, 대만산 첨단 칩이 중국으로 흘러가는 길이 좁아질 전망이다",
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 칩 수출 억제",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "대만이 첨단 칩의 중국 밀수를 막으려는 트럼프 행정부 단속에 동참해 AI 서버와 첨단 반도체를 통제 품목에 넣으면서, 무단 대중 선적이 형사 처벌 대상이 된다",
+   "t": "대만, AI 서버·첨단 칩 통제 품목 추가…무단 대중 선적 형사 처벌",
+   "u": "https://t.me/HANAchina/70519"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "중국이 AI·바이오의약·태양광 기술 40개를 수출 금지·제한 목록에 넣자고 제안하면서, 11월 15일까지 의견을 받는 동안 등록 의무가 곧바로 시행된다",
+   "t": "중국, AI·바이오·태양광 기술 40개 수출 통제 목록 추가 제안",
+   "u": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "중국이 AI 모델·칩 관련 기술 23개 등을 수출 금지·제한 목록에 넣자고 제안하면서 중국산 AI 기술의 해외 이전이 까다로워질 전망이다",
+   "t": "중국, 핵심 기술 통제 위해 AI 수출 규제 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "중국이 세포·유전자 치료와 siRNA 기술의 수출을 묶되 라이선스·제휴는 통제에서 빼면서 중국 바이오의 해외 기술이전 거래는 이어질 수 있다",
+   "t": "중국, 바이오 기술 수출 제한 추진하되 기술이전 계약은 허용",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-looks-to-tighten-biotech-exports-allows-licensing-deals"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "대만이 미국 수출 제한 대상 AI 부품의 대중 공급을 형사범죄로 만들고 통제를 미국 체계에 맞추기로 하면서 중국의 첨단 칩 조달 길이 좁아질 전망이다",
+   "t": "대만, 대중 AI 칩 공급 통제 강화…미 수출 규정 위반 형사처벌",
+   "u": "https://t.me/insidertracking/66456"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 Polaristimes",
+   "s": "대만이 미국과의 무역협정에 따라 대중 AI 반도체 수출 통제를 강화하면서 중국의 대만 압박이 거세질 수 있다는 관측이 나왔다",
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 반도체 수출 통제 강화",
+   "u": "https://t.me/The_MariTimes/63754"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 Polaristimes",
+   "s": "중국이 AI·태양광·바이오의약 기술 40종을 새 수출 금지·제한 품목에 넣기로 하면서 이 분야 기술의 해외 반출 문턱이 높아진다",
+   "t": "중국, AI·태양광·바이오 기술 40종 수출 금지·제한 목록에 등재",
+   "u": "https://t.me/The_MariTimes/63755"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "대만 경제부장이 허가 없는 AI 서버·첨단 칩 대중 반출을 무역법으로 처벌하겠다면서도 시행 시기를 밝히지 않아 암시장 단속 효과는 지켜봐야 한다",
+   "t": "대만 경제부장 '첨단 칩 중국 밀수출하면 형사처벌'",
+   "u": "https://t.me/HANAchina/70562"
+  },
+  {
+   "t": "중국 상무부·과기부, 40개 기술 '수출 전 등록' 시행",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70573",
+   "s": "중국 상무부·과학기술부가 AI·바이오·태양광 40개 기술을 수출하기 전 등록하도록 하면서, 해당 기술의 해외 이전 절차가 까다로워졌다"
+  }
+ ],
+ "key": "mix-G1-018-2026-10-16",
+ "nodes": [
+  "macro/geo",
+  "macro/semis"
+ ],
+ "num": 338,
+ "one": "중국 상무부·과학기술부가 AI 23개·바이오 5개·태양광 12개 등 40개 기술의 수출 통제 목록 개정안을 내고 10월 16일부터 수출 전 임시 등록을 시행한 가운데 대만은 AI 칩 무단 대중 반출 처벌을 추진하면서, 첨단 기술 교역 문턱이 높아지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T17:44:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/taiwan-curbs-ai-chip-exports-china/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Startup Fortune",
+   "u": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "MLex",
+   "u": "https://www.mlex.com/mlex/trade/articles/2538790"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Geopolitechs",
+   "u": "https://www.geopolitechs.org/p/china-imposes-temporary-export-registration"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Quartz",
+   "u": "https://qz.com/china-biotech-export-controls-licensing-deals-exemption-101626"
+  },
+  {
+   "o": "중국 상무부 공고 2026년 제48호",
+   "d": "2026-10-16",
+   "u": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
+  },
+  {
+   "o": "중국 상무부 대변인 문답",
+   "d": "2026-10-16",
+   "u": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html"
+  },
+  {
+   "o": "증권시보",
+   "d": "2026-10-16",
+   "u": "https://www.stcn.com/article/detail/4222659.html"
+  }
+ ],
+ "tags": [],
+ "title": "중국, AI 등 40개 기술 '수출 전 등록' 시행…대만은 AI 칩 밀수출 처벌 추진",
+ "updatedAt": "2026-10-17T21:10:03+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "중국 AI 등 40개 기술 수출 전 등록 시행"
+  }
+ ]
+}

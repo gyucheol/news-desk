@@ -1,0 +1,124 @@
+{
+ "basis": "verified",
+ "check": "씨티·BofA·JP모건의 AI 에이전트 접근 제한과 예금 이탈 우려, 470억 달러 추산은 검색 결과 요약으로 확인. 연준 감독 당국의 비공식 지지는 '규제 당국이 수용적'이라는 보도만 있어 채널 전언으로 둠",
+ "cycles": [],
+ "facts": [
+  "무엇이: 씨티는 제3자 AI 에이전트가 고객 계좌에 로그인하거나 디지털 뱅킹에서 직접 거래하는 것을 허용하지 않는다고 했고, 모이니핸 BofA CEO는 AI가 승인한 결제의 책임 소재를 정할 때까지 예금 계좌 접근을 제한한다고 했다 [사실]",
+  "JP모건: 다이먼 CEO는 실적 발표에서 보호 장치를 갖출 때까지 외부 AI 에이전트가 시스템에 들어오지 못하게 하겠다고 했다 [사실]",
+  "이유: AI 도구가 자금을 고금리 상품으로 옮겨 저비용 예금을 빼낼 수 있다는 우려 때문이며, 한 보도는 대형 3개 은행이 1조 6,000억 달러 무이자 예금에 3%를 주면 연 470억 달러 비용이 는다고 추산했다 [사실]",
+  "감독: 거래 책임 소재 기준은 아직 없고, 연준 감독 당국이 비공식적으로 이 조치를 지지했다고 전해졌다 [채널]",
+  "기존: 금융안정위원회(FSB)는 고위험 업무에서 AI 에이전트가 사람 승인을 받도록 위험 기반 기준을 정하라고 권고했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 차단…저비용 예금 이탈 방어",
+ "id": "n-rtr-0331",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "FSB를 검토한 보고서가 FSB가 진정으로 시스템적인 위험에 집중해야 한다고 권고하면서 국제 금융감독 기구의 역할 조정 논의가 불거졌다 (제목 기준)",
+   "t": "검토 보고서 'FSB, 진정한 시스템 위험에 집중해야'",
+   "u": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "영란은행 브리든이 AI 위험에 맞서 은행들이 시스템을 처음부터 다시 세우는 복구 능력을 갖춰야 한다고 말하면서 운영 복원력 요구가 커졌다 (제목 기준)",
+   "t": "영란은행 브리든 '은행, AI 위험 대비해 베어메탈 복구 능력 갖춰야'",
+   "u": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "FSB가 에이전트형 AI의 고위험 업무에 더 집중적인 인간 감독과 사람 승인 기준을 요구하면서 금융회사의 AI 도입 통제가 강화됐다",
+   "t": "글로벌 금융감독기구, 에이전트형 AI에 인간 감독 강화 촉구",
+   "u": "https://www.reuters.com/legal/government/global-financial-watchdog-calls-more-human-oversight-agentic-ai-2026-10-15/"
+  },
+  {
+   "t": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 일제히 차단",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70570",
+   "s": "미국 대형은행 세 곳이 AI 에이전트의 고객 계좌 접근과 대리 거래를 막으면서, AI가 저비용 예금을 고금리 상품으로 옮기는 흐름을 억제하려 하고 있다"
+  }
+ ],
+ "key": "mix-G3-019-2026-10-15",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 331,
+ "one": "씨티·BofA·JP모건이 AI 에이전트가 고객 계좌에 들어가 자금을 고금리 상품으로 옮기는 것을 잇달아 막고 FSB가 에이전트형 AI에 사람 승인 기준을 주문하면서, 은행권은 저비용 예금을 지키는 대신 AI 운영 통제 부담을 함께 떠안게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T17:39:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/global-financial-watchdog-calls-human-oversight-agentic-ai/"
+  },
+  {
+   "d": "2026",
+   "o": "The Asian Banker",
+   "u": "https://www.theasianbanker.com/updates-and-articles/financial-stability-board-points-banks-towards-ai-monitoring-ai-as-human-oversight-reaches-its-limits"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-17",
+   "u": "https://cryptobriefing.com/citi-restricts-ai-agents-customer-accounts/"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-17",
+   "u": "https://tradersunion.com/news/institutions/show/3849745-us-banks-limit-ai-agent-access/"
+  },
+  {
+   "o": "디지털투데이",
+   "d": "2026-10-17",
+   "u": "https://www.digitaltoday.co.kr/en/view/115865/major-financial-firms-move-to-block-access-by-personal-ai-agents-citing-deposit-flight-risk"
+  }
+ ],
+ "tags": [],
+ "title": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 차단…저비용 예금 이탈 방어",
+ "updatedAt": "2026-10-17T21:10:03+09:00",
+ "url": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 에이전트발 저비용 예금 이탈 우려"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "연준 감독 당국, 은행 AI 차단에 비공식 지지"
+  }
+ ],
+ "added": "텔레그램 1건 — 씨티·BofA·JP모건의 AI 에이전트 계좌 접근 차단과 예금 이탈 우려, 연준 감독 당국의 비공식 지지 내용이 추가됨",
+ "fed": [
+  {
+   "k": "",
+   "who": "연준",
+   "role": "은행 감독 당국",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "연준 감독 당국이 대형은행의 AI 에이전트 계좌 접근 차단에 비공식 지지를 보냈다고 전해졌다",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70570"
+  }
+ ]
+}

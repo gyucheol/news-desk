@@ -1,0 +1,303 @@
+{
+ "id": "gas",
+ "summary": "천연가스 사슬은 가스를 뽑는 상류와 가스관, 액화·수송·재기화, 거래, 수요로 이어지며, 미국 가스는 증산에도 액화·수출 능력에 막혀 헨리허브가 3달러대에 묶이고 해외 가격(TTF·JKM)과 큰 격차가 납니다. 10월 중순에도 그 격차는 커서, 집계 사이트 기준 16일 JKM은 MMBtu당 약 29.9달러, TTF는 약 28.6달러인데 헨리허브는 약 3.1달러였습니다. 가장 빠듯한 곳은 유럽 저장으로, EU 저장률은 10월 초 약 73%로 2011년 집계 이후 같은 시기 최저였고 카타르는 8월 아시아 6대 시장에 LNG를 한 척도 보내지 못했습니다. 반면 공급 쪽에서는 카타르 노스필드 이스트 첫 트레인(연 800만 톤)이 가동 준비를 마쳤다는 전언이 나오고 알래스카 LNG 출범, 탄자니아 420억 달러 사업 합의 임박이 겹쳐 2030년 전후 증가 물량은 계속 쌓이고 있습니다. 수요는 사상 최강 엘니뇨로 아시아 겨울이 따뜻할 전망이 나와 아시아 물량이 유럽으로 풀릴 여지가 생겼지만, 호주처럼 석탄 폐쇄에 대비해 가스 피크발전을 늘리는 곳도 있습니다.",
+ "state": {
+  "upstream": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/russias-novatek-says-q3-gas-output-up-49-2026-10-14/",
+    "nid": "n-bbg-0078",
+    "t": "노바텍의 3분기 가스 생산은 211억 2천만 세제곱미터로 1년 전보다 4.9% 늘었지만 가스 판매는 158억 세제곱미터로 3.1% 줄었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-12",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/medco-energi-take-10-stake-four-eni-oil-gas-blocks-indonesia-2026-10-12/",
+    "nid": "n-rtr-0213",
+    "t": "메드코에너지가 가스 5조 입방피트로 추정되는 젤리가 발견지를 포함한 에니의 인도네시아 쿠타이 분지 4개 광구 지분 10%를 사기로 했고, 금액은 공개되지 않았습니다 [사실]"
+   }
+  ],
+  "midstream": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/shell-sell-its-nigeria-gas-business-vaaris-energy-2026-10-13/",
+    "nid": "n-rtr-0297",
+    "t": "셸이 약 170km 가스관으로 산업·상업 고객에 가스를 대는 셸 나이지리아 가스를 현지 바리스에너지에 팔기로 했고, 나이지리아에서는 심해와 통합가스(LNG)에 집중한다고 밝혔습니다 [사실]"
+   }
+  ],
+  "liquefaction": [
+   {
+    "d": "2026-10-07",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-2026-10-07/",
+    "nid": "n-tg-0159",
+    "t": "카타르 노스필드 이스트 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤다는 소식통 전언이 나왔지만, 카타르에너지 CEO의 공식 안내는 2027년 상반기 생산입니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/",
+    "nid": "n-rtr-0291",
+    "t": "탄자니아 재무장관은 에퀴노르·셸 주도의 420억 달러 LNG 협정을 몇 달 안에 마무리할 것으로 기대했지만, 2022년 기본 틀 서명 뒤 2026년 6월 서명 목표도 넘겼습니다 [사실]"
+   }
+  ],
+  "regas": [
+   {
+    "d": "2026-10-06",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/",
+    "nid": "n-bbg-0235",
+    "t": "EU 가스 저장률은 10월 3일 72.4%, 6일 약 73%로 2011년 집계 이후 같은 날짜 기준 최저였고, IEEFA는 EU가 지난겨울보다 수요를 7%(약 140억 입방미터) 줄여야 할 수 있다고 봤습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/naftogaz-chief-says-ukraines-gas-reserves-hit-six-year-high-ahead-winter-2026-10-16/",
+    "nid": "n-tg-0162",
+    "t": "우크라이나 지하 저장고 가스는 160억 입방미터로 2020년 이후 최대이고 정부 겨울 최소 목표(132억 입방미터)를 넘었으며, 산업 수요 감소가 비축을 도왔습니다 [사실]"
+   }
+  ],
+  "trade": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10621",
+    "nid": "n-bbg-0254",
+    "t": "카타르는 8월 중국·일본·한국·대만·태국·싱가포르에 LNG를 전혀 보내지 못했고, 6개 시장의 LNG 수입량은 12.5% 줄었으며 평균 수입가는 31.8% 오른 MMBtu당 14.1달러였습니다 [채널]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/trump-says-taiwan-agrees-buy-30-gas-alaska-pipeline-2026-10-14/",
+    "nid": "n-bbg-0314",
+    "t": "대만 경제부는 알래스카 LNG에서 연 600만 톤 구매와 최대 44억 달러 투자 계획을 확인했지만 지분 구조·상업 계약 조건은 아직 확정되지 않았다고 했습니다 [사실]"
+   }
+  ],
+  "demand": [
+   {
+    "d": "2026-10-13",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-13/el-nino-to-bring-warmer-asian-winter-easing-energy-demand",
+    "nid": "n-rtr-0029",
+    "t": "유럽중기예보센터 모델은 11~2월 일본·한국 기온을 평년보다 1~2도 높게 봤지만, 번스타인은 강한 엘니뇨에도 아시아 LNG 수입 감소가 세계 수입의 1% 미만일 것으로 봤습니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-s-new-south-wales-backs-gas-power-as-coal-plants-shut",
+    "nid": "n-bbg-0272",
+    "t": "호주 뉴사우스웨일스주는 석탄발전소 폐쇄에 대비한 1,500MW 예비전력 입찰을 대부분 가스 피크발전으로 채우려 하며, 남은 석탄발전소 4곳 중 3곳이 2033년까지 문을 닫습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-16",
+   "kind": "price",
+   "o": "LNGInsights(집계 사이트, 공식 정산가 아님)",
+   "u": "https://lnginsights.com/",
+   "t": "10월 16일 집계 사이트 기준 JKM은 MMBtu당 약 29.89달러, TTF는 약 28.55달러, 헨리허브는 약 3.07달러로 해외와 미국 가격 차이가 9배를 넘었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-13",
+   "kind": "supply",
+   "o": "TFTC(GIE AGSI 자료, 검색 요약)",
+   "u": "https://www.tftc.io/eu-natural-gas-multi-year-highs-winter-storage-deficit-2026",
+   "t": "GIE AGSI 자료로 10월 13일 EU 지하 가스 저장률은 74.02%(약 837TWh)로 1년 전보다 약 11% 낮았습니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "capex",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/energy/trump-says-taiwan-agrees-buy-30-gas-alaska-pipeline-2026-10-14/",
+   "nid": "n-bbg-0314",
+   "t": "트럼프 대통령이 출범을 선언한 알래스카 LNG의 사업비는 445억~545억 달러로 추정되며, 파이프라인은 올해, 수출 터미널은 2027년 최종투자결정을 노립니다 [사실]"
+  },
+  {
+   "d": "2026-10-13",
+   "kind": "policy",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/energy/shell-calls-australias-gas-reserve-plan-sledgehammer-that-risks-market-failure-2026-10-13/",
+   "nid": "n-bbg-0163",
+   "t": "호주 가스 비축안 초안은 2028년 1월 1일부터 LNG 수출업체가 생산량의 최대 5분의 1을 국내용으로 남기도록 하며, 셸 호주는 이를 시장 실패를 부를 쇠망치라고 비판했습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-tg-0159",
+   "t": "재검토 필요: 노스필드 이스트 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤다는 전언은 ③ 공급 과잉 국면의 시작 시점을 앞당길 수 있음을 가리키며, 카타르 공백이 메워지기 시작하면 고가의 근거가 약해지기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0029",
+   "t": "재검토 필요: 사상 최강 엘니뇨로 아시아 겨울이 따뜻하면 아시아 LNG가 유럽으로 풀려 ③ 공급 과잉 쪽 가격 하락을 앞당길 수 있으나, 번스타인은 감소폭을 세계 수입의 1% 미만으로 봐 신호는 약합니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a1": [
+   {
+    "t": "2026~2027년은 카타르 공백 때문에 빠듯하지만, 2028년 이후 노스필드 이스트·사우스, 미국 신규 터미널, LNG캐나다 2단계가 겹치며 가격이 내려갈 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-09-21",
+      "u": "https://t.me/Trillion_labs/9217"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-09-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-28/qatar-extends-lng-force-majeure-as-hormuz-disruptions-drag-on"
+     }
+    ]
+   },
+   {
+    "t": "노스필드 이스트 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤다는 전언이 나와, 공식 안내(2027년 상반기)보다 카타르 물량 복귀가 몇 달 앞당겨질 수 있습니다. 다만 가동을 늘리려면 호르무즈 통항이 자유로워야 한다는 분석도 있습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-07",
+      "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-2026-10-07/"
+     },
+     {
+      "o": "Oil & Gas Middle East",
+      "d": "2026-10",
+      "u": "https://www.oilandgasmiddleeast.com/news/north-field-east-first-train"
+     }
+    ]
+   },
+   {
+    "t": "알래스카 LNG(사업비 445억~545억 달러) 출범과 탄자니아 420억 달러 협정 임박으로 2030년대 공급 후보가 더 늘어, 과잉이 오면 그 폭이 커질 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/energy/trump-says-taiwan-agrees-buy-30-gas-alaska-pipeline-2026-10-14/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "이코노미스트는 메이저들이 횡재 이익 대부분을 주주에게 돌리고 순부채를 약 20% 줄였으며 주가현금흐름배수는 전쟁 전과 같다고 전했습니다. 업계 전반이 과열됐다는 증거는 약합니다 [사실]",
+    "src": [
+     {
+      "o": "The Economist(The Nightly 재게재)",
+      "d": "2026-09-14",
+      "u": "https://thenightly.com.au/business/the-economist-how-an-oil-supply-crisis-could-bring-about-an-investment-boom-c-22865339"
+     }
+    ]
+   },
+   {
+    "t": "증설 계획이 줄거나 밀리는 사례도 나옵니다. 가이아나는 엑손 컨소시엄의 하루 약 20억 입방피트 재주입 수요 때문에 연 600만 톤 LNG를 최대 300만 톤으로 줄이는 방안을 검토하고, 탄자니아 협정은 2026년 6월 서명 목표를 넘겼습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "당장의 부족은 더 깊어졌습니다. EU 저장률은 10월 초 약 73%로 2011년 이후 같은 시기 최저였고, 아시아 6대 시장 LNG 평균 수입가는 8월에 31.8% 올랐습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-12",
+      "u": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-16",
+      "u": "https://t.me/Trillion_labs/10621"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "액화·선박 노드의 증설 흐름을 덮을 정도는 아닙니다. 가이아나 축소는 연 300만 톤 안팎이라 노스필드 이스트 한 트레인(연 800만 톤)보다 작고, 지금의 부족은 카타르 손상·호르무즈 같은 사건에서 나온 것이어서 증설 결정을 멈추게 하기보다 앞당기는 쪽으로 작용합니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-07",
+      "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-2026-10-07/"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "아시아 최대 구매자 JERA가 되파는 쪽으로 움직이는 것은 고가 국면 속에서도 계약 물량이 수요를 넘는 때를 대비하는 과잉의 선행 신호일 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-09-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-16/japan-s-jera-looks-to-pivot-lng-buying-muscle-into-global-sales"
+     }
+    ]
+   },
+   {
+    "t": "날씨가 공급보다 먼저 가격을 움직일 수 있습니다. 사상 최강 엘니뇨로 일본·한국 겨울이 평년보다 1~2도 따뜻하면 아시아 화물이 저장률이 낮은 유럽으로 풀리고, 반대로 북극 한파가 오면 2011년 이후 최저인 유럽 저장이 바로 가격 급등으로 이어집니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/el-nino-to-bring-warmer-asian-winter-easing-energy-demand"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-12",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/gas-traders-pile-into-el-nino-bet-despite-arctic-cold-risk"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 검색 2회로 확인했고 열람은 하지 않았으며, 블룸버그·로이터 기사와 전재본은 열지 않았습니다. 아래는 확인하지 못했습니다. (1) JKM·TTF·헨리허브 10월 16일 값은 집계 사이트(LNGInsights) 수치이고 공식 정산가가 아니며, 같은 사이트 안에서도 JKM이 26.19달러로 다르게 적힌 곳이 있습니다. TTF는 10월 15일 MWh당 약 86.5유로라는 집계도 있습니다. (2) EU 저장률 74.02%(10월 13일)는 검색 요약에 인용된 GIE AGSI 수치로, AGSI 원자료는 직접 열지 못했습니다. (3) 노스필드 이스트 첫 트레인의 11월 가동은 소식통 전언이고, 카타르에너지 공식 안내는 2027년 상반기 생산입니다. (4) 카타르의 8월 아시아 6대 시장 수출 0과 평균 수입가 31.8% 상승은 채널 글로만 보았습니다. (5) 호주 비축 의무 시작일이 이번 뉴스(2028년 1월 1일)와 기존 근거(2028년 7월 발효)에서 다르게 나와 최종안 확인이 필요합니다. (6) 알래스카 LNG에 대한 한국의 500억 달러 투자는 한국 정부가 결정이 없다고 밝혀 쓰지 않았습니다. (7) 노바텍 쇄빙 가스선 확보 척수·조건, 노르트스트림 재가동 협상설(채널 전언, 백악관 부인)은 근거로 쓰지 않았습니다. 기존 확인 못 한 항목(EQT·익스팬드·에너지 트랜스퍼·타가 실적, 9월 LNG선 운임 원문, 카타르 손상 규모 원문, 라스라판 피해 기준 차이)은 그대로 남아 있습니다.",
+ "note": "뉴스 23건 반영: EU 저장률 2011년 이후 최저, 노스필드 이스트 첫 트레인 가동 준비·알래스카 LNG 출범·탄자니아 협정 임박, 엘니뇨 온난 겨울 전망. 국면 ② 그대로, 근거 11줄, 수치 4줄, 재검토 신호 2건, 검색 2회",
+ "applied": [
+  "n-bbg-0163",
+  "n-bbg-0235",
+  "n-bbg-0272",
+  "n-rtr-0115",
+  "n-rtr-0213",
+  "n-rtr-0279",
+  "n-tg-0159",
+  "n-rtr-0029",
+  "n-rtr-0291",
+  "n-rtr-0297",
+  "n-rtr-0298",
+  "n-rtr-0299",
+  "n-bbg-0078",
+  "n-bbg-0100",
+  "n-bbg-0314",
+  "n-tg-0157",
+  "n-tg-0187",
+  "n-rtr-0283",
+  "n-bbg-0254",
+  "n-rtr-0014",
+  "n-rtr-0201",
+  "n-rtr-0322",
+  "n-tg-0162"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

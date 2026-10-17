@@ -1,0 +1,103 @@
+{
+ "id": "agri",
+ "summary": "농산물은 비료·농약·종자·농기계를 쓴 농가가 곡물·유지작물·연질상품·가축을 생산하면 곡물 메이저가 사들여 저장·수출하고 착유·제분·사료·바이오연료로 가공해 식품회사와 에너지 기업에 넘기는 사슬이며, 날씨와 무역 정책이 공급량과 교역 경로를 좌우합니다. 2026년 10월 중순 미국 옥수수·대두는 사상 최대 생산 전망(옥수수 160억 3,400만 부셸)과 수확 압력으로 남는 쪽이고, 브라질 수수 증산과 호주 밀 풍작 전망이 수출 경쟁을 더합니다. 중국 국영사가 미국산 대두를 누적 약 1,500만 톤 사들였지만 13% 관세 탓에 민간 구매는 약합니다. 빠듯한 쪽은 흑해 물류와 기후로, 루마니아·불가리아 해역의 상선 공격이 이어지고 관측 사상 최강 엘니뇨가 남부 아프리카·아시아 작황을 위협합니다. 요소는 2분기 평균 톤당 693.5달러에서 3분기 399.2달러로 내렸지만 유엔 기구는 호르무즈발 비료난이 수확에 타격을 주기 시작했다고 경고했고, 미국 EPA의 바이오연료 면제분 재배분 제안으로 착유·가공 단계의 수요 기반은 더 넓어졌습니다.",
+ "state": {
+  "inputs": [
+   {"d": "2026-10-15", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-15/g7-pledges-2-5-billion-for-fertilizers-food-as-war-hits-supply", "nid": "n-bbg-0315", "t": "G7은 10월 15일 전쟁발 공급난에 맞서 식량 불안국에 비료를 중심으로 25억 달러를 지원하기로 했고, 세계은행은 에너지값 급등으로 식량 안보 문제를 겪을 수 있는 나라를 44곳으로 꼽았습니다 [사실]"}
+  ],
+  "weather": [
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/zambia-cuts-economic-growth-outlook-as-el-nino-threat-builds", "nid": "n-rtr-0029", "t": "잠비아 재무장관은 엘니뇨와 이란 전쟁 여파로 2027·2028년 성장률 전망을 6%·7.5%에서 4.9%·5%로 낮췄고, 유럽중기예보센터 모델은 11~2월 한국·일본 기온을 평년보다 1~2도 높게 봤습니다 [사실]"}
+  ],
+  "grains": [
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-farmers-face-new-crop-challenge-from-brazil-s-sorghum-boom", "nid": "n-bbg-0250", "t": "브라질 수수 생산은 4년 새 두 배 넘게 늘어 약 600만 톤이 됐고, 중국은 1~7월 수수 490만 톤 중 300만 톤을 미국에서 들였지만 브라질이 올해 200만~300만 톤을 보낼 수 있다는 전망이 나옵니다 [사실]"},
+   {"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/wheat-boom-in-australia-s-victoria-state-to-boost-global-supply", "nid": "n-bbg-0339", "t": "라보뱅크는 빅토리아를 포함한 호주 동부 산지의 비에 힘입어 호주 밀 생산 전망을 2,130만 톤에서 최대 3,000만 톤으로 올렸습니다 [사실]"}
+  ],
+  "softs": [
+   {"d": "2026-10-15", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-cocoa-grindings-post-first-third-quarter-gain-since-2021", "nid": "n-rtr-0111", "t": "유럽 3분기 코코아 분쇄량은 34만 8,215톤으로 3.2% 늘어 감소 예상을 뒤집었고, 아시아는 23만 3,767톤으로 29.2% 늘어 적어도 2012년 이후 분기 최대였습니다 [사실]"},
+   {"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/coffee-s-coming-glut-may-not-be-enough-to-calm-volatile-prices", "nid": "n-bbg-0339", "t": "라보뱅크는 2026/27년 세계 커피 생산을 1억 8,170만 포대로 소비(1억 7,280만 포대)보다 많게 봤지만, ICE 인증 재고가 크게 줄어 과잉 물량이 주로 재고 보충에 쓰일 것으로 봤습니다 [사실]"}
+  ],
+  "livestock": [
+   {"d": "2026-10-14", "o": "텔레그램 트릴리온", "u": "https://t.me/Trillion_labs/10439", "nid": "n-tg-0287", "t": "한국 정부가 들여온 브라질산 계란은 한 판 3만 9,000원으로 미국산 등의 3~4배이고 정부가 수입가와 소비자가의 차액을 보전하며, 9월까지 수입 계란 1억 3,324만 개 중 1억 2,578만 개가 미국산입니다 [채널]"}
+  ],
+  "demand": [
+   {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/", "nid": "n-rtr-0323", "t": "중국 국영 무역회사들이 10월 16일 미국산 대두 10~13척을 더 사 이번 주 구매가 120만~150만 톤에 이르렀지만, 미국산은 13% 관세(브라질산 3%)로 민간 구매자에게 가격 경쟁력이 없습니다 [사실]"},
+   {"d": "2026-10-13", "o": "로이터", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/", "nid": "n-bbg-0286", "t": "EPA는 2025년 소형 정유사 29곳 면제분 17억 6,000만 RIN 중 예상을 넘은 약 7억 7,000만 RIN을 2026·2027년 의무에 100% 재배분하는 안을 내고 12월 4일까지 의견을 받습니다 [사실]"}
+  ],
+  "policy": [
+   {"d": "2026-10-14", "o": "로이터", "u": "https://www.reuters.com/business/us-floats-fees-spanish-ships-caps-olive-oil-imports-over-port-dispute-2026-10-14/", "nid": "n-rtr-0319", "t": "미 연방해사위원회는 스페인 국적선에 항차당 20만 달러 수수료와 유지류 등 5개 품목군 수입 제한을 제안했고, 스페인의 2025년 대미 올리브유 수출은 8억 3,690만 달러였습니다 [사실]"},
+   {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/", "nid": "n-bbg-0197", "t": "몰도바에 하루 새 러시아 드론 5대가 떨어졌고, 루마니아 외무장관은 자국 영해·배타적경제수역 상선 공격에서 열흘 남짓 동안 선원 최소 23명이 희생됐다며 러시아에 책임을 물었습니다 [사실]"}
+  ]
+ },
+ "industryState": [
+  {"d": "2026-10-14", "kind": "price", "o": "Trifacta Data(세계은행 10월 핑크시트 인용)", "u": "https://www.trifactadata.com/insights/fertilizer-prices-2026-forecast-vs-actual", "t": "세계은행 집계 요소 가격은 2026년 1분기 평균 톤당 537.7달러, 2분기 693.5달러, 3분기 399.2달러였고 9월은 407.5달러였습니다 [사실]"},
+  {"d": "2026-10-16", "kind": "demand", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/", "nid": "n-rtr-0323", "t": "중국의 미국산 대두 누적 매입은 약 1,500만 톤으로 2026/27년 목표 2,500만 톤에 가까워졌고, 이번 주 구매는 120만~150만 톤으로 추산됩니다 [사실]"},
+  {"d": "2026-10-16", "kind": "supply", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/coffee-s-coming-glut-may-not-be-enough-to-calm-volatile-prices", "nid": "n-bbg-0339", "t": "2026/27년 세계 커피 생산은 라보뱅크 1억 8,170만 포대(소비 1억 7,280만 포대), 미 농무부 사상 최대 1억 8,970만 포대로 전망됩니다 [사실]"},
+  {"d": "2026-10-13", "kind": "policy", "o": "로이터", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/", "nid": "n-bbg-0286", "t": "EPA는 2025년 소형 정유사 면제분 가운데 예상을 넘은 약 7억 7,000만 RIN을 2026·2027년 바이오연료 의무에 100% 재배분하자고 제안했습니다 [사실]"}
+ ],
+ "flags": [
+  {"nid": "n-rtr-0111", "t": "재검토 필요: 유럽·아시아 3분기 코코아 분쇄 증가는 연질상품 노드의 코코아가 ③ 공급 과잉에서 ⑦ 바닥 형성 쪽으로 가는 신호일 수 있으며, 수매가 인하 뒤 수요가 먼저 돌아오고 있기 때문입니다 [유추]"},
+  {"nid": "n-bbg-0315", "t": "재검토 필요: 호르무즈발 비료난이 수확에 타격을 주기 시작했다는 유엔 경고는 곡물 노드가 ④에서 ⑧ 회복 초기로 건너뛸 수 있음을 가리키며, 비료 부족이 다음 작황의 공급을 줄이기 때문입니다 [유추]"}
+ ],
+ "insight": {
+  "a": [
+   {"t": "곡물 교역 경로가 바뀌고 있습니다. 중국은 브라질산 수수로 공급처를 넓히면서 미국산 대두는 국영사가 사들이고, 러시아 곡물은 흑해 대신 발트해로 나가 발트해 비중이 80.7%가 됐습니다 [귀납]", "src": [{"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-farmers-face-new-crop-challenge-from-brazil-s-sorghum-boom"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/"}, {"o": "로이터", "d": "2026-10-09", "u": "https://www.reuters.com/business/baltic-countries-seek-eu-ban-russian-grain-transit-2026-10-09/"}]}
+  ],
+  "a1": [
+   {"t": "미국 농가는 정부 직접 지급과 중국 국영사의 정책성 구매에 기대고 상업 수출에서는 브라질과 경쟁하게 돼, 미국 곡물 가격 약세와 농가 소득 압박이 이어질 가능성이 높습니다 [유추]", "src": [{"o": "USDA ERS", "d": "2026-09-03", "u": "https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/highlights-from-the-farm-income-forecast"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-farmers-face-new-crop-challenge-from-brazil-s-sorghum-boom"}]}
+  ],
+  "a2": [
+   {"t": "흑해 항로 공격이 다뉴브 수출로까지 번지거나 엘니뇨 피해가 커지면 교역 재편보다 공급 부족이 먼저 와 곡물 가격이 반등할 수 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/"}, {"o": "WMO", "d": "2026-10-08", "u": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"}]}
+  ],
+  "b": [
+   {"t": "공급은 넘칩니다. 미국 옥수수 기말재고 전망은 18억 4,900만 부셸이고, 호주 밀은 최대 3,000만 톤, 2026/27년 커피는 생산이 소비보다 약 900만 포대 많을 전망입니다 [사실]", "src": [{"o": "DTN Progressive Farmer", "d": "2026-10-09", "u": "https://www.dtnpf.com/agriculture/web/ag/news/article/2026/10/09/october-wasdes-shocking-rise-corn"}, {"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/wheat-boom-in-australia-s-victoria-state-to-boost-global-supply"}, {"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/coffee-s-coming-glut-may-not-be-enough-to-calm-volatile-prices"}]},
+   {"t": "수요 쪽에서는 바이오연료 의무가 커지고(EPA 약 7억 7,000만 RIN 재배분 제안) 코코아 분쇄가 유럽·아시아에서 늘어 비식용·가공 수요가 받쳐 줍니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/"}, {"o": "블룸버그", "d": "2026-10-15", "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-cocoa-grindings-post-first-third-quarter-gain-since-2021"}]}
+  ],
+  "b1": [
+   {"t": "곡물·커피 원료 가격은 눌리고, 싼 원료로 바이오연료 의무 물량을 대는 착유·가공 단계의 마진은 유지될 가능성이 높습니다 [유추]", "src": [{"o": "Holland & Knight", "d": "2026-04", "u": "https://www.hklaw.com/en/insights/publications/2026/04/epa-boosts-biofuel-mandates-in-final-renewable-fuel-standard-rule"}, {"o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/"}]}
+  ],
+  "b2": [
+   {"t": "비료난으로 수입국 수확이 줄고 커피 ICE 재고가 적어 늘어난 물량이 재고 보충에 먼저 쓰이면, 공급 과잉 전망에도 가격이 높게 머물 수 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-15", "u": "https://www.reuters.com/world/middle-east/hormuz-shipping-disruption-is-starting-hit-harvests-un-agency-says-2026-10-15/"}, {"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/coffee-s-coming-glut-may-not-be-enough-to-calm-volatile-prices"}]}
+  ],
+  "c": [
+   {"t": "흐름과 반대되는 정보도 있습니다. 중국은 미국산 대두를 이번 주 120만~150만 톤 더 샀고, 유엔 기구는 호르무즈발 비료난이 수확에 타격을 주기 시작했다고 밝혔습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/"}, {"o": "로이터", "d": "2026-10-15", "u": "https://www.reuters.com/world/middle-east/hormuz-shipping-disruption-is-starting-hit-harvests-un-agency-says-2026-10-15/"}]}
+  ],
+  "c1": [
+   {"t": "아직 흐름을 덮을 만큼은 아니라고 봅니다. 중국 구매는 국영사 중심이고 미국 대두 수확은 46%로 수확 압력이 남아 있으며, 요소는 3분기 평균 399.2달러로 2분기보다 크게 내렸습니다 [유추]", "src": [{"o": "Pro Farmer", "d": "2026-10-14", "u": "https://www.profarmer.com/news/first-thing-today/first-thing-today-soybeans-lifted-renewed-china-purchases"}, {"o": "Trifacta Data(세계은행 핑크시트 인용)", "d": "2026-10-14", "u": "https://www.trifactadata.com/insights/fertilizer-prices-2026-forecast-vs-actual"}]}
+  ],
+  "d": [
+   {"t": "농산물이 해운·외교 분쟁의 보복 수단이 되고 있습니다. 미국은 항만 분쟁으로 스페인 올리브유 등 수입 제한을, 발트 3국은 러시아 곡물 통과 금지를 요구해 교역 비용이 작황과 무관하게 오를 수 있습니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/us-floats-fees-spanish-ships-caps-olive-oil-imports-over-port-dispute-2026-10-14/"}, {"o": "로이터", "d": "2026-10-09", "u": "https://www.reuters.com/business/baltic-countries-seek-eu-ban-russian-grain-transit-2026-10-09/"}]},
+   {"t": "계란처럼 국내 생산이 빠진 품목은 수입과 보조금으로 메우는 비용이 커져, 한국에서는 브라질산 계란이 미국산의 3~4배 값에 들어왔습니다 [채널]", "src": [{"o": "텔레그램 트릴리온", "d": "2026-10-14", "u": "https://t.me/Trillion_labs/10439"}]}
+  ]
+ },
+ "cycle": {
+  "stage": 4,
+  "conf": "중간",
+  "why": [
+   {"t": "미국 농가 순소득은 2026년 2.6% 줄 전망이고 정부 직접 지급(474억 달러, 69.8% 증가)이 소득을 떠받치는 가운데 농가 부채는 6,051억 달러로 사상 최대입니다 [사실]", "src": [{"o": "USDA ERS", "d": "2026-09-03", "u": "https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/highlights-from-the-farm-income-forecast"}, {"o": "Western Producer", "d": "2026-10-08", "u": "https://www.producer.com/daily/u-s-farm-debt-is-at-a-record-official-data-might-be-undercounting-it/"}]},
+   {"t": "공급이 계속 쌓입니다. USDA가 옥수수 기말재고 전망을 18억 4,900만 부셸로 올려 선물이 하한가까지 밀렸고, 브라질 수수는 4년 새 두 배가 넘었으며 호주 밀 전망은 최대 3,000만 톤으로 올라갔습니다 [사실]", "src": [{"o": "DTN Progressive Farmer", "d": "2026-10-09", "u": "https://www.dtnpf.com/agriculture/web/ag/news/article/2026/10/09/october-wasdes-shocking-rise-corn"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-farmers-face-new-crop-challenge-from-brazil-s-sorghum-boom"}, {"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/wheat-boom-in-australia-s-victoria-state-to-boost-global-supply"}]},
+   {"t": "농자재 쪽에는 ⑤ 자본 철수 신호가 있습니다. 디어의 3분기 대형 농기계 매출이 6% 줄고 모자이크가 인산 생산과 설비투자를 줄였으며, 요소 가격은 3분기 평균 톤당 399.2달러로 2분기(693.5달러)보다 크게 내렸습니다 [귀납]", "src": [{"o": "AgNavigator", "d": "2026-08-20", "u": "https://www.agnavigator.com/Article/2026/08/20/john-deere-q3-2026-results-precision-ag-pays-off-large-ag-slips/"}, {"o": "Mosaic 실적 발표(SEC 8-K)", "d": "2026-08", "u": "https://www.sec.gov/Archives/edgar/data/0001285785/000128578526000109/pressreleaseq22026-ex991.htm"}, {"o": "Trifacta Data(세계은행 핑크시트 인용)", "d": "2026-10-14", "u": "https://www.trifactadata.com/insights/fertilizer-prices-2026-forecast-vs-actual"}]},
+   {"t": "하위 업종의 국면은 크게 갈립니다. 가공 단계는 재생연료 의무 확대와 EPA 면제분 재배분 제안으로 ① 고수익에 가깝고, 커피는 생산이 소비를 넘는 ③ 공급 과잉이지만 코코아는 분쇄가 다시 늘기 시작했습니다 [귀납]", "src": [{"o": "Holland & Knight", "d": "2026-04", "u": "https://www.hklaw.com/en/insights/publications/2026/04/epa-boosts-biofuel-mandates-in-final-renewable-fuel-standard-rule"}, {"o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/epa-proposes-full-reallocation-refinery-biofuel-exemptions-2026-10-13/"}, {"o": "블룸버그", "d": "2026-10-15", "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-cocoa-grindings-post-first-third-quarter-gain-since-2021"}]}
+  ],
+  "next": "농가 파산이 늘고 정부 지급이 줄어 2027년 파종 면적이 실제로 줄면 ⑤ 자본 철수와 ⑥ 공급 파괴로 넘어갑니다. 엘니뇨나 흑해·호르무즈 차질이 남반구·아시아 작황과 비료 공급을 크게 줄이면 재고가 빨리 줄어 ⑧ 회복 초기로 건너뛸 수도 있습니다 [유추]",
+  "watch": [
+   "USDA WASDE 기말재고율",
+   "FAO 식량가격지수",
+   "엘니뇨 강도와 남반구·아시아 작황",
+   "요소 가격과 미국 농가 소득",
+   "중국의 국가별 대두 수입",
+   "흑해·다뉴브 항로 상선 공격"
+  ],
+  "split": [
+   {"stage": 1, "label": "착유 마진 호조", "nodes": ["processors"]},
+   {"stage": 3, "label": "커피·코코아 공급 회복", "nodes": ["softs"]},
+   {"stage": 4, "label": "농가 수익 악화", "nodes": ["grains"]},
+   {"stage": 5, "label": "농자재 투자 축소", "nodes": ["inputs"]}
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 웹 검색 2회, 열람 2회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 미국 대두·옥수수 선물의 최근 종가는 출처마다 달라 쓰지 않았고, 중국의 미국산 대두 누적 매입은 출처에 따라 1,300만 톤 이상과 약 1,500만 톤으로 갈립니다. (2) 요소 가격은 기준(중동 FOB·NOLA·미국 소매)과 날짜가 섞여 있어 세계은행 핑크시트 분기 평균만 썼고, 호르무즈발 비료난의 국가별 수확 피해 규모는 유엔 기구 경고의 제목 수준만 확인했습니다. G7 지원 금액은 달러(AFP)와 유로(블룸버그 제목)로 엇갈립니다. (3) 코코아·커피·원당·면화의 현재 선물 가격, 북미 3분기 코코아 분쇄량, 코트디부아르 엘니뇨 피해는 확인하지 못했습니다. (4) 러시아 밀 작황·수출 쿼터와 흑해 휴전 논의, EU 차원의 러시아 곡물 통과 금지 여부. (5) 미국 대두 착유 설비 증설 규모, ADM·번지의 3분기 마진, 45Z 세액공제 최종 규정, 인도네시아 B50 시행 여부. (6) 홀랜드앤나이트 해설과 모자이크 실적 발표는 게재일을 월 단위로만 확인했습니다. (7) 블룸버그·로이터 기사는 데스크 뉴스 요약 기준이며 원문은 열지 않았습니다.",
+ "note": "뉴스 12건 반영: 중국 미국산 대두 누적 약 1,500만 톤 매입, EPA 바이오연료 면제분 재배분 제안, 호르무즈발 비료난 경고와 코코아 분쇄 반등, 국면 ④ 그대로(why 근거 교체), 근거 11줄, 수치 4줄, 재검토 신호 2건, 검색 2회",
+ "applied": ["n-bbg-0274", "n-rtr-0251", "n-bbg-0250", "n-bbg-0286", "n-rtr-0029", "n-tg-0287", "n-bbg-0315", "n-rtr-0111", "n-rtr-0319", "n-bbg-0339", "n-bbg-0197", "n-rtr-0323"],
+ "searches": 2,
+ "fetches": 2
+}

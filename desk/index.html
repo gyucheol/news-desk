@@ -1021,7 +1021,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     $('nb-ind').innerHTML = [['all', '전체 ' + base.length]].concat(IND_ORDER.filter(k => cnt[k] || k === st.nind).map(k => [k, IND[k] + ' ' + (cnt[k] || 0)]))
       .map(p => '<button type="button" class="chip" data-act="nind" data-id="' + p[0] + '" aria-pressed="' + (st.nind === p[0]) + '">' + esc(p[1]) + '</button>').join('');
     const nq = $('nq'); if (document.activeElement !== nq && nq.value !== st.q) nq.value = st.q;
-    const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만 ' + all.filter(n => !isRead(n)).length;
+    const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만';   // 숫자 표시 없음(2026-10-17 사용자 지시)
     const cb = $('nb-ck'); cb.setAttribute('aria-pressed', String(st.ckOnly)); cb.textContent = '요청한 것만 ' + all.filter(n => dreqs[n.id] || dsent[n.id]).length;
     const rows = listFiltered().sort(byList);
     const unreadShown = rows.filter(n => !isRead(n)).length;

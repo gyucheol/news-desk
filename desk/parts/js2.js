@@ -18,6 +18,11 @@
   const updAt = n => { const t = n.updatedAt ? Date.parse(n.updatedAt) : 0; return isNaN(t) ? 0 : t; };
   const isRead = n => !!reads[n.id] && reads[n.id] >= updAt(n);
   const unreadCount = () => fresh().filter(n => !isRead(n)).length;
+  // 요청한 뉴스 탭의 읽음(2026-10-17 사용자 지시: 요청한 뉴스도 읽음 처리하면 안 보이게). 뉴스 목록의 읽음(reads)과 따로 둡니다.
+  // 요청한 뉴스는 대개 뉴스 목록에서 이미 읽음이라, 같은 기록을 쓰면 자세한 내용을 읽기도 전에 이 탭에서 사라지기 때문입니다.
+  const rqRead = n => !!rqReads[n.id];
+  const rqHidden = n => reqState(n) === 'done' && rqRead(n);
+  const rqReadBtn = (n, cls) => '<button type="button" class="' + cls + ' rd" data-act="rqread" data-id="' + esc(n.id) + '" aria-pressed="' + rqRead(n) + '">' + (rqRead(n) ? '읽음' : '읽음 처리') + '</button>';
   const ordInd = n => { const i = IND_ORDER.indexOf(mainInd(n)); return i < 0 ? 99 : i; };
   const byList = (a, b) => { const da = dayOf(a), db = dayOf(b); return da < db ? 1 : da > db ? -1 : ordInd(a) - ordInd(b) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0); };
   function listFiltered(skip) {
@@ -80,7 +85,7 @@
       '<div class="dpanel">' + EVLEGEND + blocksHtml(d.blocks) +
       '</div></section>';
     if (hasIns2(n)) out += n.insight2.parts.map(p => '<section class="dsec"><div class="dsh"><span class="tag">' + esc(p.tag || '투자 인사이트') + '</span><h3>' + rt(p.title || '') + '</h3>' + (p.sub ? '<p>' + rt(p.sub) + '</p>' : '') + '</div><div class="dpanel">' + blocksHtml(p.blocks) + '</div></section>').join('');
-    return '<div class="dwrap" id="dw-' + esc(n.id) + '">' + out + '<div class="dfoot"><button type="button" class="tg" data-act="dopen" data-id="' + esc(n.id) + '">접기</button></div></div>';
+    return '<div class="dwrap" id="dw-' + esc(n.id) + '">' + out + '<div class="dfoot">' + rqReadBtn(n, 'tg') + '<button type="button" class="tg" data-act="dopen" data-id="' + esc(n.id) + '">접기</button></div></div>';
   }
   const pubDay = n => { const d = dayOf(n); return d ? kday(d) + ' ' + dowOf(d).replace('요일', '') : ''; };
   function reqBtn(n) {
@@ -136,18 +141,45 @@
           reqBtn(n) + '</div></div></li>';
   }
   function reqItemHtml(n) {
-    const s = reqState(n), id = esc(n.id);
+    const s = reqState(n), id = esc(n.id), read = rqHidden(n);
     const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">조사 중' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id] + 9 * 3600e3).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>' + (dsess[n.id] ? '<a href="https://claude.ai/code/' + esc(dsess[n.id]) + '" target="_blank" rel="noopener">작업 창 보기</a>' : '');
     const open = st.dopen.has(n.id);
-    return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span>' + itagHtml(n) + '<span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
+    return '<li class="item rqi' + (read ? ' is-read' : '') + '" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span>' + itagHtml(n) + '<span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
       '<h3 class="ttl">' + hl(n.title) + '</h3><p class="one">' + hl(n.one) + '</p>' + vcHtml(n) + addHtml(n) +
-      (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
+      (s === 'done' ? '<div class="acts">' + rqReadBtn(n, 'act') + '<button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
         : '<p class="rqnote">' + (dsess[n.id] ? '새 Claude Code 창에서 자세한 내용과 투자 인사이트를 조사하고 있습니다. 끝나면 이 자리에 나옵니다.' : 'Claude가 자세한 내용과 투자 인사이트를 작성하면 이 자리에 나옵니다.') + '</p>') + '</div></li>';
   }
   function renderReq() {
-    const arr = fresh().filter(n => reqState(n) === 'sent' || reqState(n) === 'done').sort((a, b) => (reqState(a) === reqState(b) ? byList(a, b) : reqState(a) === 'sent' ? -1 : 1));
-    $('main').innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 조사 중인 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다.</p></div>' +
-      (arr.length ? '<ul class="news">' + arr.map(reqItemHtml).join('') + '</ul>' : '<div class="empty"><b>아직 요청한 뉴스가 없습니다.</b><br>뉴스 목록에서 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르면 여기에 모입니다.</div>');
+    const all = fresh().filter(n => reqState(n) === 'sent' || reqState(n) === 'done').sort((a, b) => (reqState(a) === reqState(b) ? byList(a, b) : reqState(a) === 'sent' ? -1 : 1));
+    const anyRead = all.some(rqHidden);
+    if (!anyRead) st.rqAll = false;
+    const arr = st.rqAll ? all : all.filter(n => !rqHidden(n));
+    // 다시 그려도 초점을 잃지 않게: 누른 버튼(같은 동작·같은 뉴스·같은 순번)에 초점을 되돌립니다.
+    const main = $('main'), a = document.activeElement, sameAs = z => z.dataset.act === a.dataset.act && (z.dataset.id || '') === (a.dataset.id || '');
+    const keep = a && a !== main && main.contains(a) && a.dataset && a.dataset.act ? Array.from(main.querySelectorAll('[data-act]')).filter(sameAs).indexOf(a) : -1;
+    const keepKey = keep >= 0 ? { act: a.dataset.act, id: a.dataset.id || '' } : null;
+    // '읽은 것도 보기'는 읽음 처리한 뉴스가 있을 때만 나옵니다(숫자 표시 없음).
+    main.innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 조사 중인 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다. 다 읽은 뉴스는 <b>읽음 처리</b>를 누르면 이 목록에서 사라집니다.</p>' +
+      (anyRead ? '<div class="tools"><button type="button" class="tg" data-act="rqall" aria-pressed="' + st.rqAll + '">읽은 것도 보기</button></div>' : '') + '</div>' +
+      (arr.length ? '<ul class="news">' + arr.map(reqItemHtml).join('') + '</ul>'
+        : all.length ? '<div class="empty"><b>읽지 않은 요청 뉴스가 없습니다.</b><br>읽음 처리한 뉴스는 <b>읽은 것도 보기</b>를 누르면 다시 보입니다.</div>'
+        : '<div class="empty"><b>아직 요청한 뉴스가 없습니다.</b><br>뉴스 목록에서 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르면 여기에 모입니다.</div>');
+    if (keepKey) { const el = Array.from(main.querySelectorAll('[data-act]')).filter(z => z.dataset.act === keepKey.act && (z.dataset.id || '') === keepKey.id)[keep]; if (el) el.focus({ preventScroll: true }); }
+  }
+  // 요청한 뉴스 탭의 읽음 처리: 누르면 이 탭에서 사라지고(읽은 것도 보기를 켜면 다시 보임), 다시 누르면 되돌립니다.
+  // 펼친 내용 맨 아래에서 눌러 화면 위쪽이 사라지면, 다음 뉴스가 화면 맨 위에 오도록 옮깁니다.
+  function rqToggleRead(id) {
+    const n = news.find(x => x.id === id); if (!n) return;
+    const was = rqRead(n), row = document.getElementById('rq-' + id);
+    const near = row && (row.nextElementSibling || row.previousElementSibling), nearId = near ? near.id : '';
+    const above = !!row && row.getBoundingClientRect().top < 0;
+    if (was) delete rqReads[id]; else rqReads[id] = Date.now();
+    if (!was && !st.rqAll) st.dopen.delete(id);
+    saveRqReads(); renderReq();
+    if (was || st.rqAll) return;
+    const el = nearId && document.getElementById(nearId);
+    if (el) { if (above) el.scrollIntoView({ block: 'start' }); const f = el.querySelector('.acts button'); if (f) f.focus({ preventScroll: true }); }
+    else if (above) window.scrollTo(0, 0);
   }
   const emptyBox = () => dbMissing
     ? '<div class="empty"><b>저장된 뉴스를 불러올 수 없습니다.</b><br>claude.ai에서 로그인한 상태로 이 페이지를 열면 목록이 보입니다.</div>'
@@ -285,6 +317,7 @@
   const setDoc = (ref, body) => { if (ref) writing = writing.then(() => ref.set(body)).catch(() => {}); };
   const saveReqs = () => setDoc(reqRef, { ids: Object.assign({}, reqs), done: Object.assign({}, reqDone) });
   const saveDreqs = () => setDoc(dreqRef, { ids: Object.assign({}, dreqs), sent: Object.assign({}, dsent), sess: Object.assign({}, dsess), done: Object.assign({}, dreqDone) });
+  const saveRqReads = () => setDoc(rqReadRef, { ids: Object.assign({}, rqReads) });
   // 읽음 기록: 로그인한 계정의 개인 저장소(data/users/<id>/reads)에 쓰고, 이 브라우저에도 계정별로 사본을 둡니다.
   // 링크로 공유받은 사람(보기 권한)은 개인 저장소에 쓸 수 없어(플랫폼 규칙) 브라우저 사본이 그 사람의 읽음 기록이 됩니다.
   let readKey = 'deskReads:anon';
@@ -336,7 +369,9 @@
     else if (act === 'more') { st.shown += PAGE; renderNews(); }
     else if (act === 'dopen') { const was = st.dopen.has(id); if (was) st.dopen.delete(id); else st.dopen.add(id); if (st.tab === 'req') renderReq(); else renderNews(); if (was) scrollTo(document.getElementById((st.tab === 'req' ? 'rq-' : 'row-') + id)); }
     else if (act === 'dreq') { if (dreqs[id]) delete dreqs[id]; else dreqs[id] = today; saveDreqs(); $('reqmsg').textContent = ''; rerender(); }
-    else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
+    else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); if (rqReads[id]) st.rqAll = true; save(); render(); scrollTo(document.getElementById('rq-' + id)); }
+    else if (act === 'rqread') rqToggleRead(id);
+    else if (act === 'rqall') { st.rqAll = !st.rqAll; renderReq(); }
     else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
     else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
     else if (act === 'read') { const n = news.find(x => x.id === id); if (n && isRead(n)) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
@@ -381,6 +416,7 @@
         readRef = watch('reads', d => { const srv = d.ids || {}; reads = Object.keys(srv).length ? Object.assign({}, srv) : localReads(); });
         reqRef = watch('insightReq', d => { reqs = Object.assign({}, d.ids || {}); reqDone = Object.assign({}, d.done || {}); });
         dreqRef = watch('detailReq', d => { dreqs = Object.assign({}, d.ids || {}); dreqDone = Object.assign({}, d.done || {}); dsent = Object.assign({}, d.sent || {}); dsess = Object.assign({}, d.sess || {}); });
+        rqReadRef = watch('reqReads', d => { rqReads = Object.assign({}, d.ids || {}); });
       }
     } catch (e) { reads = localReads(); rerender(); }
   })();

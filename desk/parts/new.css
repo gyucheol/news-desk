@@ -223,7 +223,8 @@ ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px
 .srcl{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13px;color:var(--muted)}
 .srcl a{word-break:break-all}
 .dim{color:var(--muted);font-size:13.5px}
-.dfoot{display:flex;justify-content:flex-end}
+.dfoot{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+.tg.rd[aria-pressed="true"]{background:var(--card);color:var(--faint)}
 
 /* sticky request bar */
 .reqbar{position:fixed;left:0;right:0;bottom:0;z-index:5;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:var(--bar-bg);border-top:1px solid var(--line);backdrop-filter:saturate(1.4) blur(8px)}

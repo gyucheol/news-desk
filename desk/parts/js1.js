@@ -13,8 +13,9 @@
   let archive = null, archLoading = false, dbRef = null;
   let reqs = {}, reqDone = {}, reqRef = null;      // 투자 인사이트 요청
   let dreqs = {}, dreqDone = {}, dsent = {}, dsess = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
+  let rqReads = {}, rqReadRef = null;   // 요청한 뉴스 탭의 읽음 처리(뉴스 목록의 읽음과 따로 기록)
   const st = {
-    tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(),
+    tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(), rqAll: false,
     ind: null, flowNode: 'all', flowMore: false, fedWho: 'all', fedMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()
   };
   try {

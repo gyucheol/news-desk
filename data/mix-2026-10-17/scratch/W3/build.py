@@ -61,7 +61,7 @@ items.append({
 # G1-007
 items.append({
  "cid": "G1-007", "attachTo": "n-rtr-0014",
- "title": "美 중부사령부 '봉쇄로 이란 원유 250억 달러 수출 막아'…이란은 유조선 공격·LPG 우회 수출",
+ "title": "美 '봉쇄로 이란 원유 250억 달러 수출 막아'…이란은 유조선 공격·LPG 우회",
  "one": "미 중부사령부가 해상 봉쇄로 이란의 원유 수출 최소 250억 달러어치를 막았다고 밝혔지만 이란이 유조선 공격과 LPG·항공유 우회 수출을 이어가고 트럼프가 곡괭이산 핵시설 타격 가능성을 내비치면서, 호르무즈 해협의 긴장이 이어지고 있다",
  "facts": [
   "무엇이: 브래드 쿠퍼 중부사령관은 10월 16일 해상 봉쇄로 이란이 최소 250억 달러어치 원유를 수출하지 못했고, 지난 1주일 동안 약 400척과 원유 1억 배럴 이상이 호르무즈 해협을 지났다고 밝혔다 [사실]",
@@ -87,7 +87,7 @@ items.append({
  "items": [
   it("이란, 美 봉쇄에도 LPG·항공유 일부 선적…데이터로 확인", R, "2026-10-16", "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/",
      "이란이 미국의 해상 봉쇄 속에서도 오만 앞바다 선박 간 환적으로 LPG 약 410만 배럴과 항공유 일부를 실어 내보내면서, 봉쇄에 빈틈이 있다는 분석이 나왔다"),
-  it("트럼프 '이란 곡괭이산 타격해야 할 수도'", R, "2026-10-16", "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+  it("트럼프 '미국이 이란 곡괭이산 핵시설을 타격해야 할 수도'", R, "2026-10-16", "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
      "트럼프 대통령이 이란의 곡괭이산 핵시설을 타격해야 할 수도 있다고 말하면서, 핵무기·지상군을 뺀 추가 공습 가능성을 열어뒀다"),
   it("이란군 '며칠 안에 미 해군 500km 밖으로 밀어낼 공세 작전'", "텔레그램 트릴리온", "2026-10-16", "https://t.me/Trillion_labs/10640",
      "이란군이 해안에서 500km 떨어진 미 해군을 더 밀어내는 공세 작전을 며칠 안에 벌이겠다고 밝히면서, 걸프 해역의 군사 충돌 위험이 높아졌다"),
@@ -105,7 +105,7 @@ items.append({
 # G1-015
 items.append({
  "cid": "G1-015", "attachTo": "n-tg-0118",
- "title": "CXMT 1~3분기 순이익 1,310억 위안대 흑자 전환…'내년 1분기 HBM 80~100% 인상' 전망",
+ "title": "CXMT 1~3분기 1,310억 위안 흑자 전환…'내년 1분기 HBM 80~100% 인상'",
  "one": "중국 CXMT가 D램 가격 급등에 1~9월 순이익 1,310억~1,325억 위안의 흑자 전환을 예고하고 키뱅크가 내년 1분기 HBM 가격 80~100% 인상을 내다보면서, 데이터센터로 생산이 쏠린 PC·스마트폰용 메모리 공급은 내년 20~30% 줄어들 전망이다",
  "facts": [
   "무엇이: CXMT는 10월 16일 2026년 1~9월 지배주주 순이익이 1,310억~1,325억 위안으로 전년 동기 52억 8,000만 위안 순손실에서 흑자로 돌아설 것이라고 예고했다 [사실]",
@@ -170,7 +170,7 @@ items.append({
      "IMF가 은행세 인상은 영국 예산안의 첫 선택이 아니라며 재산세 개편과 복지 지출 조정을 권하면서, 힐리 재무장관의 은행세 인상 구상에 부담이 생겼다"),
   it("힐리, 부유한 외국인 위한 새 투자자 비자 검토", B, "2026-10-16", "https://www.bloomberg.com/news/articles/2026-10-16/healey-considers-new-uk-investor-visa-for-wealthy-foreigners",
      "힐리 재무장관이 부유한 외국인을 겨냥한 새 투자자 비자를 검토하면서, 영국이 해외 부유층 자금 유치에 다시 나설 수 있다 (제목 기준)"),
-  it("예산안이 또 은행가를 겨냥했다…미끼일까", B, "2026-10-17", "https://www.bloomberg.com/news/newsletters/2026-10-16/the-budget-targets-bankers-again-is-it-a-decoy",
+  it("英 예산안이 또 은행가를 겨냥했다…이것은 미끼일까", B, "2026-10-17", "https://www.bloomberg.com/news/newsletters/2026-10-16/the-budget-targets-bankers-again-is-it-a-decoy",
      "블룸버그 뉴스레터가 이번 예산안의 은행 겨냥이 미끼일 수 있다는 의문을 던지면서, 은행세 인상이 실제 핵심 조치인지에 물음표가 붙었다 (제목 기준)")
  ]
 })
@@ -178,7 +178,7 @@ items.append({
 # G1-026
 items.append({
  "cid": "G1-026", "attachTo": "n-bbg-0052",
- "title": "미 9월 수입물가 1.1%↑·전년비 8.1% 4년여 최대…BofA '10월 인상' 전망 유지",
+ "title": "미 9월 수입물가 전년비 8.1% 4년여 최대…BofA '10월 인상' 전망 유지",
  "one": "미국 9월 수입물가가 연료 4.8% 급등에 전월 대비 1.1%, 전년 대비 8.1% 올라 2022년 7월 이후 최대폭을 기록하고 비연료 물가도 0.7% 오르면서, CPI 3.7%에 이어 물가 확산이 확인되자 BofA가 10월 인상 전망을 유지했다",
  "facts": [
   "무엇이: 미 노동통계국 발표로 9월 수입물가는 전월 대비 1.1%(예상 0.8%) 올랐고 전년 대비 8.1% 상승해 2022년 7월 이후 최대폭이었다 [사실]",
@@ -205,7 +205,7 @@ items.append({
  "items": [
   it("BofA '여전히 10월 금리 인상 예상'…연준 중시 물가 지표 전망 상향", "텔레그램 하나증권 중국전략", "2026-10-16", "https://t.me/HANAchina/70527",
      "BofA가 근원 CPI 항목 중 3개월 연율 2.5% 초과 비중이 55%로 반등했다며, 연준의 10월 금리 인상 예상을 유지하고 물가 전망을 높였다"),
-  it("미 9월 수입물가, 예상보다 큰 폭 상승", R, "2026-10-17", "https://www.reuters.com/business/us-import-prices-increase-more-than-expected-september-2026-10-16/",
+  it("미국 9월 수입물가, 시장 예상보다 큰 폭으로 상승", R, "2026-10-17", "https://www.reuters.com/business/us-import-prices-increase-more-than-expected-september-2026-10-16/",
      "미국 9월 수입물가가 전월 대비 1.1% 올라 예상 0.8%를 웃돌면서, 전년 대비 상승률이 8.1%로 2022년 7월 이후 가장 커졌다"),
   it("미 9월 근원 수입물가·자본재 가격 동반 상승…물가 확산 확인", "텔레그램 하나증권 중국전략", "2026-10-17", "https://t.me/HANAchina/70556",
      "미국 9월 수입물가에서 연료가 4.8% 오른 데 더해 근원 수입물가 0.7%, 자본재 0.9%가 함께 오르면서, 인플레이션이 경제 전반으로 번지고 있다")
@@ -273,7 +273,7 @@ items.append({
  "items": [
   it("미 관제사, FAA와 2.8% 임금 인상 합의…WSJ 보도", R, "2026-10-17", "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-reach-deal-with-faa-28-pay-rise-wsj-reports-2026-10-16/",
      "WSJ 보도로 미 관제사 노조가 FAA와 2.8% 임금 인상에 합의했다고 알려지면서, 지연됐던 의회 승인 인상분의 지급 길이 열렸다"),
-  it("FAA·관제사 노조, 임금 인상에 합의", B, "2026-10-17", "https://www.bloomberg.com/news/articles/2026-10-16/faa-air-traffic-controllers-union-reach-agreement-on-pay-bump",
+  it("미 FAA와 관제사 노조, 임금 인상 합의에 도달", B, "2026-10-17", "https://www.bloomberg.com/news/articles/2026-10-16/faa-air-traffic-controllers-union-reach-agreement-on-pay-bump",
      "FAA와 관제사 노조 NATCA가 임금 인상에 합의하면서, 출입 기록과 업무량 기반 근무표 같은 인력 개편도 함께 시행된다"),
   it("미 관제사, FAA 합의로 2.8% 임금 인상 받는다", R, "2026-10-17", "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-get-28-pay-raise-under-faa-deal-2026-10-16/",
      "미 관제사들이 FAA 합의에 따라 1월로 소급된 2.8% 임금 인상을 10월 18일부터 받게 되면서, 초과근무에 시달려 온 인력의 불만이 일부 풀릴 수 있다")

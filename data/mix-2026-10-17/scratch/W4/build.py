@@ -27,8 +27,8 @@ items.append({"cid": "G1-004", "attachTo": "n-tg-0121",
    "s": "드론이 러시아 최대 산유 지역인 서시베리아 수르구트 인근 산업시설을 때려 불이 나면서, 우크라이나의 공격 범위가 2,500km 넘게 떨어진 에너지 중심지까지 넓어졌다"},
   {"t": "랴잔 정유소, 드론 공격 뒤 1차 정제설비 1기 가동 중단", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/business/energy/ryazan-refinery-halted-processing-one-primary-unit-after-drone-attacks-sources-2026-10-16/",
    "s": "랴잔 정유소가 15일 드론 공격 뒤 주요 원유 증류설비 CDU-6의 가동을 멈추고 나머지 3기만 돌리면서, 모스크바 연료 공급에 차질이 생길 수 있다"},
-  {"t": "우크라 드론, 러시아 랴잔 정유시설 공격", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10658",
-   "s": "채널이 우크라이나 드론의 랴잔 정유시설 공격 소식을 전하면서, 같은 정유소가 한 시간 새 거듭 표적이 됐다는 점을 짚었다"},
+  {"t": "우크라이나 드론, 러시아 랴잔 정유시설 공격 소식 전해", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10658",
+   "s": "채널이 우크라이나 드론의 랴잔 정유시설 공격 소식을 전하면서, 한 시간 전 폭격의 주체를 둘러싼 엇갈린 전언에 의문을 던졌다"},
   {"t": "랴잔 정유공장, 드론 공격에 주요 정제설비 한 곳 가동 중단", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10667",
    "s": "채널이 로이터 보도를 인용해 랴잔 정유공장이 드론 공격으로 주요 정유설비 한 곳의 가동을 멈췄다고 전하면서, 타격받은 설비의 생산이 끊겼다고 짚었다"},
   {"t": "우크라, 랴잔·칼루가·블라디미르 얀덱스 데이터센터 3곳 타격 주장", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10671",
@@ -59,7 +59,7 @@ items.append({"cid": "G1-008", "attachTo": "n-bbg-0077",
  "items": [
   {"t": "제프 커리 '브렌트유는 현실과 동떨어진 분위기 계약'", "o": "텔레그램 트릴리온", "d": "2026-10-16", "u": "https://t.me/Trillion_labs/10636",
    "s": "제프 커리가 에너지 관련 가격은 모두 오르는데 브렌트만 오르지 않는다며 실물 시장과의 괴리를 지적하면서, 헤지가 필요한 참여자들이 브렌트 선물을 꺼리고 있다고 진단했다"},
-  {"t": "트럼프 외교정책, 캐나다산 원유 가격에 타격", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-foreign-policy-takes-a-toll-on-canadian-oil-prices",
+  {"t": "트럼프의 외교정책, 캐나다산 원유 가격에 타격 입혀", "o": "블룸버그", "d": "2026-10-17", "u": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-foreign-policy-takes-a-toll-on-canadian-oil-prices",
    "s": "트럼프 대통령의 외교정책이 캐나다산 원유 가격에 부담을 주면서, 국제 유가 강세 속에서도 캐나다 원유가 제값을 받기 어려워지고 있다 (제목 기준)"},
   {"t": "에릭 너털 '석유 재고 계속 감소…비톨 사장, 가용 재고 거의 소진'", "o": "텔레그램 트릴리온", "d": "2026-10-17", "u": "https://t.me/Trillion_labs/10655",
    "s": "에릭 너털이 이란·후티 공격과 러·우 전쟁 격화 속에 석유 재고가 계속 줄고 있다고 전하면서, 2027년 선물 가격은 약 84달러이고 유럽 전략비축유 방출도 미미하다고 짚었다"},
@@ -209,7 +209,7 @@ items.append({"cid": "G1-043", "attachTo": "",
  "items": [
   {"t": "릴리 알약 파운데이오, 비만·당뇨 치료제로 EU 승인 얻어", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/lilly-s-pill-foundayo-gets-eu-nod-for-obesity-and-diabetes",
    "s": "릴리의 경구 비만약 파운데이오가 EU에서 비만·당뇨 치료제로 승인 권고를 받으면서, 집행위의 최종 허가를 거쳐 유럽 출시를 앞두게 됐다"},
-  {"t": "일라이릴리 체중감량 알약, 유럽서 지지 얻어", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/",
+  {"t": "일라이릴리 체중감량 알약, 유럽 규제당국 지지 얻어", "o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/",
    "s": "EMA 자문위원회가 체중이 최대 11% 줄어든 임상을 근거로 파운데이오 승인을 권고하면서, 집행위가 보통 약 2개월 안에 최종 판매 허가 여부를 정하게 됐다"}]})
 
 items.append({"cid": "G1-049", "attachTo": "n-tg-0234",
@@ -315,7 +315,7 @@ items.append({"cid": "G1-074", "attachTo": "n-bbg-0136",
  "vc": [{"ind": "tech", "node": "platforms", "f": "-", "dir": "flat", "k": "예상", "t": "민주당 조사 대비 인사 영입, 수급 영향은 불분명"}],
  "added": "이번 블룸버그 1건으로 팔란티어·애플·MS의 민주당 인사 영입과 기업들의 소환장 대비 내부 문서 점검, 백악관 연회장 기부 조사 가능성이 추가됐다",
  "items": [
-  {"t": "팔란티어·애플·MS, 민주당 공세에 대비", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/palantir-apple-microsoft-brace-for-democrats-to-go-on-offensive",
+  {"t": "팔란티어·애플·마이크로소프트, 민주당 공세에 대비", "o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/palantir-apple-microsoft-brace-for-democrats-to-go-on-offensive",
    "s": "팔란티어·애플·마이크로소프트가 민주당의 하원 탈환과 소환장 공세에 대비해 민주당 출신 인사를 영입하면서, 빅테크의 의회 조사 대응이 본격화했다"}]})
 
 items.append({"cid": "G1-080", "attachTo": "n-rtr-0028",

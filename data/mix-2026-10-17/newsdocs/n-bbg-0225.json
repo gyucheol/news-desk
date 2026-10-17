@@ -1,0 +1,87 @@
+{
+ "basis": "partial",
+ "check": "이사회 정족수 미달 우려(11월 5일)와 부서 공방은 검색 결과 요약(폴란드 매체)으로 확인. 대통령의 구체적 해법은 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 폴란드 대통령실은 정부가 중앙은행 이사 지명에 부서를 거부해 새 지명이 없으면 지도부가 5명으로 줄어 법정 최소 인원에 못 미치고, 11월 5일부터 기능이 멈출 수 있다고 밝혔다 [사실]",
+  "정부: 슈와프카 정부 대변인은 정부 부서 없는 대통령 임명은 법적으로 무효라고 맞섰다 [사실]",
+  "대통령: 블룸버그는 폴란드 대통령이 중앙은행 교착을 벗어날 길을 찾고 있다고 전했다 [제목]",
+  "기존: 하원 헌법책임위원회는 10월 9일 글라핀스키 총재를 국사재판소에 회부하자는 보고서를 채택했고, 하원 표결은 빨라야 10월 말이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "폴란드 중앙은행 이사회 마비 위기…대통령, 교착 해법 모색",
+ "id": "n-bbg-0225",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "폴란드, 중앙은행 총재 국사재판소 회부 표결 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial"
+  },
+  {
+   "t": "폴란드 대통령, 중앙은행 이사회 교착 벗어날 길 모색",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/polish-president-seeks-way-out-of-deadlock-at-the-central-bank",
+   "s": "폴란드 대통령이 중앙은행 이사회 교착을 풀 방법을 찾으면서, 11월 5일 이후 정족수 미달로 기능이 멈출 수 있다는 우려에 대응하고 있다"
+  }
+ ],
+ "key": "mix-C067-2026-10-09",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 225,
+ "one": "폴란드 대통령실이 정부의 중앙은행 이사 지명 부서 거부로 11월 5일부터 이사회가 법정 최소 인원에 못 미칠 수 있다고 경고하고 대통령이 교착 해법을 찾으면서, 글라핀스키 총재 국사재판소 회부 공방과 겹쳐 통화정책 기구 운영이 흔들리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T21:31:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "RMF24",
+   "u": "https://rmf24.pl/fakty/polska/news-adam-glapinski-przed-trybunal-stanu-komisja-przeglosowala-wn,nIdn,1021168"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Super Biznes",
+   "u": "https://superbiz.se.pl/wiadomosci/koniec-prac-komisji-glapinski-blizej-trybunalu-stanu-aa-gGYK-mz2a-jCi3.html"
+  },
+  {
+   "o": "wPolityce",
+   "d": "2026-10-16",
+   "u": "https://wpolityce.pl/gospodarka/paraliz-w-nbp-od-listopada-prezydent-nawrocki-rzuca-wyzwanie-tuskowi-,278560"
+  },
+  {
+   "o": "Archyde",
+   "d": "2026-10",
+   "u": "https://www.archyde.com/nbp-resubmits-board-appointments-to-president-nawrocki-amid-tensions-with-government/"
+  },
+  {
+   "o": "Poland Insight",
+   "d": "2026-10",
+   "u": "https://polandinsight.com/glapinski-state-tribunal-nbp-zloty-market-reaction-october-2026/"
+  }
+ ],
+ "tags": [],
+ "title": "폴란드 중앙은행 이사회 마비 위기…대통령, 교착 해법 모색",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial",
+ "added": "이번 블룸버그 1건으로 이사 지명 부서 공방에 따른 중앙은행 이사회 정족수 미달 우려와 대통령의 교착 해법 모색이 추가됐다",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중앙은행 이사회 정족수 미달 우려로 교착"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0349",
+ "num": 349,
+ "key": "mix-G1-085-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T06:37:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-set-to-approve-12-5-billion-in-renewable-power-projects",
+ "origTitle": "",
+ "headline": "멕시코, 125억 달러 규모 재생에너지 사업 승인 앞둬…8.2GW 추가",
+ "src": [
+  {
+   "o": "Bloomberg Línea",
+   "d": "2026-10-16",
+   "u": "https://bloomberglinea.com/latinoamerica/mexico/mexico-perfila-aprobar-proyectos-de-energia-renovable-por-us12500-millones"
+  }
+ ],
+ "items": [
+  {
+   "t": "멕시코, 125억 달러 규모 재생에너지 발전 사업 승인 예정",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-set-to-approve-12-5-billion-in-renewable-power-projects"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers"
+ ],
+ "title": "멕시코, 125억 달러 규모 재생에너지 사업 승인 앞둬…8.2GW 추가",
+ "one": "멕시코 국영 전력사 CFE 이사회가 20일 풍력·태양광 위주 60여 개 민관 합작 사업 승인을 표결할 예정이면서, 약 125억 달러를 들여 8.2GW의 발전 설비가 더해질 전망이다",
+ "facts": [
+  "무엇이: CFE 이사회는 10월 20일 60개가 넘는 재생에너지 사업 승인을 표결할 예정이라고 소식통이 전했다 [사실]",
+  "규모: 사업은 주로 풍력·태양광으로 약 8.2GW를 더하며, 송전 투자에 따라 달라지는 비용은 약 125억 달러로 추정된다 [사실]",
+  "구조: 셰인바움 대통령의 민간·CFE 협력 계획의 일부이며, 멕시코 법은 모든 발전소에서 국가 지분 54% 이상을 요구한다 [사실]",
+  "변수: 다른 소식통은 최종 승인 사업 수가 더 적을 수 있다고 했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "표결일·사업 수·8.2GW·125억 달러는 블룸버그 리네아(블룸버그 계열 스페인어 매체) 기사의 검색 결과 요약으로 확인해 독립 출처 확인은 아님",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "멕시코 8.2GW 재생에너지 사업 승인 표결 앞둬"
+  }
+ ]
+}

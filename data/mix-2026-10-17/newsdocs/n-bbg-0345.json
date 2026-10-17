@@ -1,0 +1,82 @@
+{
+ "id": "n-bbg-0345",
+ "num": 345,
+ "key": "mix-G1-042-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T21:44:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-clean-energy-set-to-reach-new-highs-as-tax-credit-cliff-looms",
+ "origTitle": "",
+ "headline": "美 청정에너지 올해 89GW 사상 최대 전망…세액공제 종료 앞두고 막바지 설치",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-16",
+   "u": "https://www.briefs.co/news/u-s-set-to-add-record-clean-power-as-data-centers-drive-dema/"
+  },
+  {
+   "o": "E&E News",
+   "d": "2026-10-16",
+   "u": "https://www.eenews.net/articles/5-questions-answered-as-solar-tax-credits-phase-out/"
+  }
+ ],
+ "items": [
+  {
+   "t": "세액공제 절벽 앞두고 美 청정에너지 사상 최대 전망",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-clean-energy-set-to-reach-new-highs-as-tax-credit-cliff-looms",
+   "s": "세액공제 종료를 앞두고 개발사들이 사업을 서두르면서 미국 청정에너지 추가 설비가 올해 89GW로 사상 최대에 이를 전망이다"
+  },
+  {
+   "t": "청정에너지, 미국에서 새 설치 기록 세울 태세",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/clean-energy-is-poised-to-set-new-records-in-the-us",
+   "s": "미국 청정에너지가 새 기록을 세울 태세라는 분석이 나오면서 세액공제 종료 전 막바지 설치 붐이 부각되고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers",
+  "power/storage"
+ ],
+ "title": "美 청정에너지 올해 89GW 사상 최대 전망…세액공제 종료 앞두고 막바지 설치",
+ "one": "블룸버그NEF가 세액공제 종료를 앞둔 개발사들의 막바지 사업 추진과 데이터센터 수요로 미국이 올해 사상 최대인 89GW의 청정에너지를 더하고 내년엔 이를 넘을 것으로 보면서도 대형 태양광 장기 전망은 낮추면서, 공제 절벽 이후 설치 둔화 위험이 부각되고 있다",
+ "facts": [
+  "무엇이: 블룸버그NEF는 미국이 2026년 사상 최대인 89GW의 청정에너지를 새로 더하고 2027년엔 이를 넘을 것으로 전망했다 [사실]",
+  "태양광: 만료되는 세액공제 자격을 얻은 사업이 몰려 올해 태양광 48.9GW 설치가 예상되지만, 2026~36년 대형 태양광 전망은 관세와 공제 축소로 7.5% 낮춘 430GW다 [사실]",
+  "배터리·풍력: 2036년까지 배터리 누적 설치 전망은 35% 높인 383GW, 육상풍력 추가 전망은 15% 높인 99.7GW다 [사실]",
+  "절벽: 풍력·태양광은 2026년 7월 4일까지 착공하거나 2027년 말까지 가동해야 세액공제를 받는다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BNEF 89GW 사상 최대 전망, 태양광 48.9GW, 배터리·풍력 전망 상향, 공제 마감 시한은 검색 결과 요약으로 확인",
+ "added": "이번 블룸버그 뉴스레터 1건으로 세액공제 종료 전 막바지 설치 붐 속에 미국 청정에너지가 새 기록을 세울 태세라는 분석이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "올해 청정에너지 89GW 사상 최대 추가 전망"
+  },
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "배터리 2036년 누적 전망 35% 높여 383GW"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

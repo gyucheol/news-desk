@@ -1,0 +1,92 @@
+{
+ "basis": "partial",
+ "check": "재심리 요청 기각과 7월 판결 내용은 검색 결과 요약으로 확인. 킴벌리클라크 채권 발행 준비는 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 2순회 항소법원은 10월 16일 타이레놀이 자폐를 일으킬 수 있다는 켄뷰 상대 소송 수백 건을 되살린 판결에 대해 켄뷰의 재심리·전원합의체 심리 요청을 기각했다 [사실]",
+  "의미: 7월 판결은 원고 측 전문가 증언 배제가 지나쳤다고 본 것으로 타이레놀이 자폐를 일으킨다고 판단한 것은 아니며, 켄뷰는 연방대법원 상고에 나설 수 있다 [사실]",
+  "채권: 킴벌리클라크는 켄뷰 인수를 앞두고 채권 발행을 준비하고 있다 [제목]",
+  "기존: EU 집행위원회는 10월 13일 유럽경제지역 여성위생 사업을 딜렉 그룹에 판다는 조건으로 인수를 승인했고, 인수 규모는 보도에 따라 400억 달러 또는 487억 달러다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "킴벌리클라크, 켄뷰 인수 앞두고 채권 발행 준비…켄뷰 타이레놀 소송 재심리 요청 기각",
+ "id": "n-rtr-0295",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "t": "EU, 조건부로 킴벌리클라크의 켄뷰 인수 승인",
+   "u": "https://www.reuters.com/world/eu-approves-kimberly-clarks-acquisition-kenvue-subject-conditions-2026-10-13/"
+  },
+  {
+   "t": "킴벌리클라크, 타이레놀 제조사 인수 앞두고 채권 발행 준비",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/kimberly-clark-preps-bond-sale-ahead-of-tylenol-maker-purchase",
+   "s": "킴벌리클라크가 타이레놀 제조사 켄뷰 인수를 앞두고 채권 발행을 준비하면서, 인수 마무리를 위한 자금 조달에 들어갔다 (제목 기준)"
+  },
+  {
+   "t": "켄뷰, 타이레놀 자폐 소송 부활 뒤 재심리 요청 기각당해",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/legal/litigation/kenvue-loses-bid-rehearing-after-tylenol-autism-lawsuits-revived-2026-10-16/",
+   "s": "미 2순회 항소법원이 켄뷰의 재심리 요청을 기각하면서, 타이레놀 자폐 소송 수백 건이 1심으로 돌아가고 켄뷰의 법적 부담이 이어진다"
+  }
+ ],
+ "key": "mix-C101-2026-10-14",
+ "nodes": [],
+ "num": 295,
+ "one": "킴벌리클라크가 켄뷰 인수를 앞두고 채권 발행을 준비하는 가운데 미 2순회 항소법원이 타이레놀 자폐 소송 수백 건을 되살린 판결의 재심리 요청을 기각하면서, EU 조건부 승인을 받은 인수에 소송 부담이 따라붙게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T06:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "GuruFocus",
+   "u": "https://www.gurufocus.com/news/9121071/european-commission-approves-kimberlyclarks-acquisition-of-kenvue-with-conditions-kmb"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Citeline HBW Insight",
+   "u": "https://insights.citeline.com/hbw-insight/health/business/deals/eu-approves-kimberly-clarks-acquisition-of-kenvue-after-divestments-agreed-V4A4XBXKXVAZTOIJZYJRWKYDEE/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "PYMNTS",
+   "u": "https://www.pymnts.com/cpi-posts/kimberly-clarks-40-billion-kenvue-takeover-clears-eu-antitrust-review/"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-07",
+   "u": "https://www.theglobeandmail.com/business/international-business/us-business/article-us-appeals-court-kenvue-lawsuits-tylenol-autism-claims/"
+  },
+  {
+   "o": "Baptista Research",
+   "d": "2026-10",
+   "u": "https://baptistaresearch.com/kenvue-tylenol-lawsuits-kimberly-clark-deal/"
+  }
+ ],
+ "tags": [],
+ "title": "킴벌리클라크, 켄뷰 인수 앞두고 채권 발행 준비…켄뷰 타이레놀 소송 재심리 요청 기각",
+ "url": "https://www.reuters.com/world/eu-approves-kimberly-clarks-acquisition-kenvue-subject-conditions-2026-10-13/",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "household",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "켄뷰 인수 앞두고 킴벌리클라크 채권 발행 준비"
+  }
+ ],
+ "added": "이번 블룸버그·로이터 2건으로 킴벌리클라크의 인수 전 채권 발행 준비와 켄뷰의 타이레놀 자폐 소송 재심리 요청 기각이 추가됐다",
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

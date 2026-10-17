@@ -1,0 +1,96 @@
+{
+ "added": "이번 블룸버그·로이터 2건으로 힐리 재무장관의 3활주로 성장론 지지와 지지를 미뤄 온 번햄 총리와의 엇박자가 추가됐다",
+ "basis": "verified",
+ "check": "힐리의 성장론 지지와 번햄의 유보, 볼드바이 경고는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 힐리 재무장관은 방콕 IMF 연차총회에서 히스로 제3활주로는 늘 성장을 위한 사업이었다며 확장 지지를 밝혔다 [사실]",
+  "총리: 번햄 총리는 열려 있다면서도 주로 런던 시민의 문제인 논쟁적 사안이라며 지지를 밝히지 않았다 [사실]",
+  "투자자: 히스로 볼드바이 최고경영자는 총리의 지지가 없으면 투자자들이 330억 파운드 사업 지원을 재검토할 수 있다고 경고했다 [사실]",
+  "일정: 제3활주로 개항은 처음 예상보다 4년 늦은 2039년이 될 수 있고, 정식 계획 신청은 아직 제출되지 않았다 [사실]",
+  "감독: 민간항공청은 확장 지출을 감독할 독립위원회를 두고 11월 2027~2031년 가격 규제 최종안을 낼 계획이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "힐리 재무장관 \"히스로 3활주로는 성장 사업\"…번햄 총리와 엇박자",
+ "id": "n-rtr-0176",
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{영국 민간항공청}}이 {{히스로 확장 지출을 감독할 독립위원회}}를 두고 {{11월 2027~2031년 가격 규제 최종안}}을 내기로 하면서 {{확장 비용 통제}}가 {{강해진다}}",
+   "t": "英 민간항공청, 히스로 확장 감독 방안 제시",
+   "u": "https://www.reuters.com/world/uk/uks-caa-outlines-heathrow-expansion-oversight-measures-2026-10-09/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{히스로}}가 의회의 제3활주로 정책성명 심사를 앞두고 {{노조·항공사·투자자 지지와 330억 파운드 민간투자}}를 내세우며 {{확장 지지를 결집했다}}",
+   "t": "히스로, 의회 확장안 심사 앞두고 제3활주로 지지 결집",
+   "u": "https://www.reuters.com/world/uk/uks-heathrow-rallies-support-third-runway-parliament-weighs-expansion-plans-2026-10-12/"
+  },
+  {
+   "t": "영국 힐리, 번햄과 충돌 속 히스로 3활주로 지지",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/uk-s-healey-backs-heathrow-third-runway-in-clash-with-burnham",
+   "s": "힐리 재무장관이 지지를 미뤄 온 번햄 총리와 달리 히스로 제3활주로를 지지하면서, 확장 사업을 둘러싼 정부 내 이견이 드러났다"
+  },
+  {
+   "t": "영국 재무장관 '히스로 확장은 성장 끌어올릴 것'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/uk/uk-finance-minister-says-heathrow-expansion-would-boost-growth-2026-10-16/",
+   "s": "힐리 재무장관이 IMF 연차총회에서 히스로 확장은 늘 성장을 위한 사업이었다고 말하면서, 정부 최우선 과제인 성장의 근거로 3활주로를 내세웠다"
+  }
+ ],
+ "key": "mix-C053-2026-10-09",
+ "nodes": [],
+ "num": 176,
+ "one": "히스로가 의회의 제3활주로 정책성명 심사를 앞두고 지지를 모으는 가운데 힐리 재무장관이 확장이 성장을 끌어올린다며 지지했지만 번햄 총리는 논쟁적 사안이라며 거리를 두면서, 330억 파운드 민간투자 사업의 투자자 확신이 흔들릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T06:40:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026",
+   "o": "CAA",
+   "u": "https://www.caa.co.uk/newsroom/news/civil-aviation-authority-confirms-final-decision-on-early-heathrow-expansion-costs/"
+  },
+  {
+   "d": "2026-10",
+   "o": "FlightGlobal",
+   "u": "https://www.flightglobal.com/airlines/2026/10/london-heathrow-chief-urges-uk-government-to-clear-third-runway/"
+  },
+  {
+   "o": "Infrastructure Now",
+   "d": "2026-10-16",
+   "u": "https://www.infrastructure-now.co.uk/article/491207/andy-burnham-throws-into-doubt-heathrows-plans-for-a-third-runway"
+  },
+  {
+   "o": "UA.News(가디언 인용)",
+   "d": "2026-10-17",
+   "u": "https://ua.news/en/world/kantsler-gili-pidtrimav-tretiu-zlitnu-smugu-v-gitrou-the-guardian"
+  }
+ ],
+ "tags": [],
+ "title": "힐리 재무장관 \"히스로 3활주로는 성장 사업\"…번햄 총리와 엇박자",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/world/uk/uks-caa-outlines-heathrow-expansion-oversight-measures-2026-10-09/",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "재무장관, 히스로 3활주로 확장 지지"
+  }
+ ]
+}

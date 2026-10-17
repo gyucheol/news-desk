@@ -1,0 +1,76 @@
+{
+ "id": "n-bbg-0346",
+ "num": 346,
+ "key": "mix-G1-043-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T00:31:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/lilly-s-pill-foundayo-gets-eu-nod-for-obesity-and-diabetes",
+ "origTitle": "",
+ "headline": "릴리 경구 비만약 파운데이오, EU 승인 권고…집행위 최종 결정 남아",
+ "src": [
+  {
+   "o": "EMA",
+   "d": "2026-10-16",
+   "u": "https://www.ema.europa.eu/en/news/new-oral-glp-1-medicine-weight-management-type-2-diabetes"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-16",
+   "u": "https://www.cnbc.com/2026/10/16/eli-lillys-weight-loss-pill-wins-eu-drug-regulators-backing.html"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-16",
+   "u": "https://qz.com/lilly-foundayo-weight-loss-pill-eu-panel-backing-101626"
+  }
+ ],
+ "items": [
+  {
+   "t": "릴리 알약 파운데이오, 비만·당뇨 치료제로 EU 승인 얻어",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/lilly-s-pill-foundayo-gets-eu-nod-for-obesity-and-diabetes",
+   "s": "릴리의 경구 비만약 파운데이오가 EU에서 비만·당뇨 치료제로 승인 권고를 받으면서, 집행위의 최종 허가를 거쳐 유럽 출시를 앞두게 됐다"
+  },
+  {
+   "t": "일라이릴리 체중감량 알약, 유럽 규제당국 지지 얻어",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/",
+   "s": "EMA 자문위원회가 체중이 최대 11% 줄어든 임상을 근거로 파운데이오 승인을 권고하면서, 집행위가 보통 약 2개월 안에 최종 판매 허가 여부를 정하게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "릴리 경구 비만약 파운데이오, EU 승인 권고…집행위 최종 결정 남아",
+ "one": "유럽의약품청 자문위원회가 일라이릴리의 하루 한 알 GLP-1 비만약 파운데이오를 비만·2형 당뇨 치료제로 승인하라고 권고하면서, 집행위의 최종 허가가 나면 노보노디스크와의 유럽 경구 비만약 경쟁이 본격화할 전망이다",
+ "facts": [
+  "무엇이: EMA 약물사용자문위원회(CHMP)가 16일 릴리의 1일 1회 경구약 파운데이오(오르포글리프론)를 성인 체중 관리와 2형 당뇨 치료에 승인하라고 권고했다 [사실]",
+  "다음 단계: 권고는 집행위로 넘어가 EU 판매 허가 결정을 받게 되며, 집행위 결정은 보통 약 2개월 안에 나온다 [사실]",
+  "근거: 체중 적응증은 4,740여 명 대상 2개 연구에서 체중이 최대 11% 줄었고, 당뇨는 3,765명 대상 4개 연구를 평가했다 [사실]",
+  "판매: 파운데이오는 4월 미국 승인·출시, 8월 영국 출시 뒤 2분기 매출 9,800만 달러를 냈다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CHMP 권고·임상 근거·집행위 절차는 검색 결과 요약(EMA 발표 포함)으로 확인. 집행위 최종 결정은 아직 없음",
+ "added": "이번 로이터 1건으로 승인 권고 주체가 EMA 자문위원회이고 집행위의 최종 허가 결정이 남았다는 점과 임상 체중 감소 최대 11% 근거가 추가됐다",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "obesity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "파운데이오 EU 승인 권고로 유럽 출시 앞둬"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

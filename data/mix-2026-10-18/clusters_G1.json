@@ -1,0 +1,608 @@
+{
+ "clusters": [
+  {
+   "cid": "G1-001",
+   "theme": "우크라 드론, 상트페테르부르크 석유터미널·데이터센터·교량 타격",
+   "field": "geo",
+   "attachTo": "n-tg-0121",
+   "lines": [
+    202,
+    203,
+    204,
+    237,
+    238,
+    240,
+    241,
+    242,
+    315
+   ]
+  },
+  {
+   "cid": "G1-002",
+   "theme": "한국 증시 수급: EWY·신용잔고·EM 유출·급락 후 반등 통계",
+   "field": "fin",
+   "attachTo": "n-tg-0291",
+   "lines": [
+    134,
+    138,
+    140,
+    186,
+    221,
+    227,
+    266
+   ]
+  },
+  {
+   "cid": "G1-003",
+   "theme": "우크라 평화협상 구도·미국 무기 공급 경고·유럽 내 이견",
+   "field": "geo",
+   "attachTo": "n-rtr-0321",
+   "lines": [
+    38,
+    181,
+    213,
+    215,
+    216,
+    205,
+    39
+   ]
+  },
+  {
+   "cid": "G1-004",
+   "theme": "러시아 공습·전선 공방, 에너지 시설 76회 공격",
+   "field": "geo",
+   "attachTo": "n-tg-0162",
+   "lines": [
+    187,
+    199,
+    270,
+    277,
+    157,
+    34
+   ]
+  },
+  {
+   "cid": "G1-005",
+   "theme": "AI 신용 경색: 코어위브 채권 급락·앤트로픽 10%대 차입·아시아 AI주 부담",
+   "field": "ai",
+   "attachTo": "n-bbg-0049",
+   "lines": [
+    63,
+    226,
+    231,
+    147,
+    135
+   ]
+  },
+  {
+   "cid": "G1-006",
+   "theme": "AI·반도체 급락 뒤 진단: 버블 논쟁·하트넷 '반도체 가격'·한국 재무장관 호황 지속",
+   "field": "semis",
+   "attachTo": "n-rtr-0025",
+   "lines": [
+    79,
+    311,
+    232,
+    10,
+    169
+   ]
+  },
+  {
+   "cid": "G1-007",
+   "theme": "후티 공세에 사우디 방어 연대: UAE 재개입·이집트 지원·호주 여행금지",
+   "field": "geo",
+   "attachTo": "n-tg-0166",
+   "lines": [
+    2,
+    62,
+    153,
+    295,
+    305
+   ]
+  },
+  {
+   "cid": "G1-008",
+   "theme": "석탄 강세: 유럽 갈탄 수익성 급등·이탈리아 전력가 상한·중국 석탄값 상승",
+   "field": "energy",
+   "attachTo": "n-rtr-0201",
+   "lines": [
+    31,
+    32,
+    40,
+    28,
+    29
+   ]
+  },
+  {
+   "cid": "G1-009",
+   "theme": "호르무즈·걸프 선박 공격: 기뢰 피격 주장·LNG선 총격·예인선 피격",
+   "field": "shipping",
+   "attachTo": "n-tg-0157",
+   "lines": [
+    18,
+    49,
+    68,
+    212
+   ]
+  },
+  {
+   "cid": "G1-010",
+   "theme": "미-이란 긴장: 추가 공격 가능성·이란 '6일 내 호르무즈 재개방' 제안",
+   "field": "geo",
+   "attachTo": "n-rtr-0014",
+   "lines": [
+    129,
+    297,
+    298,
+    179
+   ]
+  },
+  {
+   "cid": "G1-011",
+   "theme": "중국 수출 통제·수출 정책: 태양광 제조기술·바이오 플랫폼·수출 환급세",
+   "field": "trade",
+   "attachTo": "n-bbg-0338",
+   "lines": [
+    229,
+    21,
+    259,
+    321
+   ]
+  },
+  {
+   "cid": "G1-012",
+   "theme": "대러 제재 면제 행정명령·공화당 반발·루비오 '60일 검토'",
+   "field": "trade",
+   "attachTo": "n-bbg-0230",
+   "lines": [
+    9,
+    98,
+    224
+   ]
+  },
+  {
+   "cid": "G1-013",
+   "theme": "스타링크 속도 제한 공방: 머스크 제안설·젤렌스키 '의도적'",
+   "field": "geo",
+   "attachTo": "n-tg-0308",
+   "lines": [
+    13,
+    22,
+    165
+   ]
+  },
+  {
+   "cid": "G1-014",
+   "theme": "마이크로소프트, 엔스케일 英 데이터센터 계약 철수",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    278,
+    291,
+    301
+   ]
+  },
+  {
+   "cid": "G1-015",
+   "theme": "미·러 경제 협력 구상: 러 가스 유럽 판매·원전 활용 데이터센터",
+   "field": "energy",
+   "attachTo": "n-rtr-0115",
+   "lines": [
+    139,
+    268,
+    150
+   ]
+  },
+  {
+   "cid": "G1-016",
+   "theme": "러시아 공습 속 폴란드·리투아니아 영공 경계",
+   "field": "geo",
+   "attachTo": "n-bbg-0197",
+   "lines": [
+    236,
+    284,
+    296
+   ]
+  },
+  {
+   "cid": "G1-017",
+   "theme": "美 이자 비용 1조 달러 사상 최대·머스크 'DOGE 실패, 부채 해법은 AI'",
+   "field": "macro",
+   "attachTo": "n-bbg-0340",
+   "lines": [
+    5,
+    164,
+    188
+   ]
+  },
+  {
+   "cid": "G1-018",
+   "theme": "IMF·세계은행 연차총회: 부채 부담·재정 감시 강화",
+   "field": "macro",
+   "attachTo": "n-bbg-0093",
+   "lines": [
+    50,
+    72,
+    299
+   ]
+  },
+  {
+   "cid": "G1-019",
+   "theme": "캐나다은행 매클럼 '고유가로 물가 전망 급등'·송유관 추진 한계",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    37,
+    56,
+    304
+   ]
+  },
+  {
+   "cid": "G1-020",
+   "theme": "앤트로픽 AI 규제 법안 제안·내부 고용 보고서",
+   "field": "ai",
+   "attachTo": "n-rtr-0023",
+   "lines": [
+    189,
+    273
+   ]
+  },
+  {
+   "cid": "G1-021",
+   "theme": "한국은행 동결 전망·골드만 원화 강세 전망 강화",
+   "field": "rates",
+   "attachTo": "n-tg-0136",
+   "lines": [
+    184,
+    253
+   ]
+  },
+  {
+   "cid": "G1-022",
+   "theme": "HBM 수요(구글 TPU)·YMTC 상장 vs CXMT 지수 편입",
+   "field": "semis",
+   "attachTo": "n-tg-0118",
+   "lines": [
+    185,
+    276
+   ]
+  },
+  {
+   "cid": "G1-023",
+   "theme": "중국 증시 조정 막바지론·반도체 기업 자사주 매입",
+   "field": "fin",
+   "attachTo": "n-tg-0292",
+   "lines": [
+    271,
+    313
+   ]
+  },
+  {
+   "cid": "G1-024",
+   "theme": "센티넬라 구리광산 파업 종료·中 양산 구리 프리미엄 상승",
+   "field": "metals",
+   "attachTo": "n-bbg-0085",
+   "lines": [
+    207,
+    214
+   ]
+  },
+  {
+   "cid": "G1-025",
+   "theme": "우드사이드 스카버러 LNG 시운전, 그린피스 시위로 중단",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    198,
+    201
+   ]
+  },
+  {
+   "cid": "G1-026",
+   "theme": "케냐·콩고 에볼라 확산",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    74,
+    293
+   ]
+  },
+  {
+   "cid": "G1-027",
+   "theme": "딥시크 V4.1 Flash 공개·검색 API 개방",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    159,
+    173
+   ]
+  },
+  {
+   "cid": "G1-028",
+   "theme": "佛·獨 내연차 금지 폐기·독일 원전 수소 저탄소 인정",
+   "field": "auto",
+   "attachTo": "n-rtr-0349",
+   "lines": [
+    46,
+    47
+   ]
+  },
+  {
+   "cid": "G1-029",
+   "theme": "워시 의장 'AI 투자는 수요 충격'…IMF 총회서 중앙은행들 고금리 경고",
+   "field": "fed",
+   "attachTo": "n-bbg-0343",
+   "lines": [
+    292
+   ]
+  },
+  {
+   "cid": "G1-030",
+   "theme": "英 9월 물가, 영란은행 11월 인상 굳힐 듯",
+   "field": "rates",
+   "attachTo": "n-rtr-0314",
+   "lines": [
+    100
+   ]
+  },
+  {
+   "cid": "G1-031",
+   "theme": "美 AI 데이터센터 주 집중·주별 규제 강화",
+   "field": "ai",
+   "attachTo": "n-tg-0182",
+   "lines": [
+    141
+   ]
+  },
+  {
+   "cid": "G1-032",
+   "theme": "대만 상장사 AI 수요로 실적 급증",
+   "field": "ai",
+   "attachTo": "n-rtr-0351",
+   "lines": [
+    112
+   ]
+  },
+  {
+   "cid": "G1-033",
+   "theme": "CCL 가격 인상 확산(젠딩 15%·파나소닉 200%)",
+   "field": "semis",
+   "attachTo": "n-tg-0233",
+   "lines": [
+    178
+   ]
+  },
+  {
+   "cid": "G1-034",
+   "theme": "ASML 하이브리드 본딩 진출과 2027년 경쟁 구도",
+   "field": "semis",
+   "attachTo": "n-rtr-0358",
+   "lines": [
+    251
+   ]
+  },
+  {
+   "cid": "G1-035",
+   "theme": "EU 대중국 무역 '협상·방어 병행'",
+   "field": "trade",
+   "attachTo": "n-tg-0132",
+   "lines": [
+    163
+   ]
+  },
+  {
+   "cid": "G1-036",
+   "theme": "美-미얀마 군부 비공개 회담, 중희토류 접근 거론",
+   "field": "metals",
+   "attachTo": "n-rtr-0118",
+   "lines": [
+    131
+   ]
+  },
+  {
+   "cid": "G1-037",
+   "theme": "홍콩, LBMA 맞설 귀금속 허브·중앙 금 청산 플랫폼 추진",
+   "field": "metals",
+   "attachTo": "n-tg-0124",
+   "lines": [
+    175
+   ]
+  },
+  {
+   "cid": "G1-038",
+   "theme": "르펜 'EU 예산·권한 힘겨루기' 공언",
+   "field": "macro",
+   "attachTo": "n-bbg-0111",
+   "lines": [
+    211
+   ]
+  },
+  {
+   "cid": "G1-039",
+   "theme": "예스은행 2분기 이익 증가, AT1 판결 미반영",
+   "field": "fin",
+   "attachTo": "n-rtr-0337",
+   "lines": [
+    73
+   ]
+  },
+  {
+   "cid": "G1-040",
+   "theme": "베네수엘라, 5년간 석유 투자 760억 달러 예상",
+   "field": "energy",
+   "attachTo": "n-rtr-0317",
+   "lines": [
+    115
+   ]
+  },
+  {
+   "cid": "G1-041",
+   "theme": "중고 유조선 가격 폭등",
+   "field": "shipping",
+   "attachTo": "n-rtr-0282",
+   "lines": [
+    15
+   ]
+  },
+  {
+   "cid": "G1-042",
+   "theme": "트럼프 휘발유값 바이든 수준 근접, 공화당 역풍 우려",
+   "field": "energy",
+   "attachTo": "n-bbg-0058",
+   "lines": [
+    36
+   ]
+  },
+  {
+   "cid": "G1-043",
+   "theme": "액센츄어, 중국 사업 최대 15억 달러에 매각 검토",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    306
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 3,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 11,
+   "reason": "이미 다룸(n-bbg-0049)"
+  },
+  {
+   "line": 12,
+   "reason": "이미 다룸(n-bbg-0104)"
+  },
+  {
+   "line": 17,
+   "reason": "행사 안내"
+  },
+  {
+   "line": 20,
+   "reason": "출처 불명 발언·구체 사실 없음"
+  },
+  {
+   "line": 23,
+   "reason": "이미 다룸(n-tg-0157)"
+  },
+  {
+   "line": 25,
+   "reason": "차트 설명뿐"
+  },
+  {
+   "line": 30,
+   "reason": "7월 사건 재탕"
+  },
+  {
+   "line": 33,
+   "reason": "논평 조각"
+  },
+  {
+   "line": 35,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 42,
+   "reason": "논평 조각"
+  },
+  {
+   "line": 45,
+   "reason": "논평 조각"
+  },
+  {
+   "line": 51,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 52,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 61,
+   "reason": "이미 다룸(n-rtr-0044)"
+  },
+  {
+   "line": 66,
+   "reason": "팟캐스트 요약"
+  },
+  {
+   "line": 69,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 71,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 81,
+   "reason": "지역 사건"
+  },
+  {
+   "line": 83,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 101,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 113,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 123,
+   "reason": "중요도 낮음(지분 목록 나열)"
+  },
+  {
+   "line": 124,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 127,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 130,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 166,
+   "reason": "이미 다룸(n-bbg-0350)"
+  },
+  {
+   "line": 177,
+   "reason": "중요도 낮음(간담회 안내)"
+  },
+  {
+   "line": 225,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 230,
+   "reason": "일반 논평"
+  },
+  {
+   "line": 234,
+   "reason": "중복(227과 같은 글)"
+  },
+  {
+   "line": 235,
+   "reason": "중복(227과 같은 글)"
+  },
+  {
+   "line": 255,
+   "reason": "지역 사건"
+  },
+  {
+   "line": 289,
+   "reason": "링크만·내용 없음"
+  },
+  {
+   "line": 320,
+   "reason": "중요도 낮음"
+  }
+ ]
+}

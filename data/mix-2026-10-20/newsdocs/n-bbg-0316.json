@@ -1,0 +1,83 @@
+{
+ "basis": "partial",
+ "check": "투표 문항·비구속 성격, 막판 여론조사(잔류 66~74%), 결과 미발표는 검색 결과 요약과 위키백과 열람으로 확인. 실제 개표 결과와 '분리 운동 지속' 전망은 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 앨버타는 10월 19일 캐나다 잔류와 구속력 있는 분리 투표를 위한 법적 절차 착수 중 하나를 고르는 주민투표를 치렀고, 결과는 20일 나올 것으로 예상된다 [사실]",
+  "여론: 막판 여론조사에서 잔류는 리서치코·레저 74%, 입소스 70%, 앵거스리드 66%로 분리 절차 착수를 크게 앞섰다 [사실]",
+  "성격: 분리 쪽이 이겨도 앨버타가 곧바로 독립하는 것은 아니며 결과는 구속력이 없다 [사실]",
+  "전망: 로이터는 예상되는 부결 뒤에도 분리 운동이 이어질 것이라고 전했다 [제목]",
+  "기존: 카니 총리는 투표를 앞두고 캘거리·에드먼턴 잔류 집회에 나서 반대표를 호소했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "앨버타 분리독립 주민투표 실시…부결 예상에도 분리 운동은 지속 전망",
+ "id": "n-bbg-0316",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "t": "카니 총리, 캐나다 분리 투표 며칠 앞두고 앨버타行",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/carney-heads-to-alberta-days-before-canada-separation-vote"
+  },
+  {
+   "t": "앨버타, 캐나다 이탈 투표…분리 운동은 예상되는 부결 뒤에도 지속될 듯",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/americas/alberta-votes-leaving-canada-separatist-movement-likely-outlast-expected-defeat-2026-10-19/",
+   "s": "앨버타가 캐나다 이탈 절차를 밟을지 묻는 투표를 치렀고 여론상 부결이 예상되지만, 분리 운동은 그 뒤에도 이어질 전망이다"
+  }
+ ],
+ "key": "mix-G2-038-2026-10-15",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 316,
+ "one": "카니 총리의 잔류 호소 속에 앨버타가 10월 19일 분리 투표 절차를 밟을지 묻는 주민투표를 치렀고 막판 여론조사마다 잔류가 66~74%로 앞서 부결이 예상되면서, 산유 주의 즉각 이탈 가능성은 낮아졌지만 분리 운동은 투표 뒤에도 이어질 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:39:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "CBC",
+   "u": "https://www.cbc.ca/news/canada/edmonton/carney-alberta-rallies-canadian-unity-9.7379637"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "CBC",
+   "u": "https://www.cbc.ca/news/canada/calgary/mark-carney-no-to-the-nine-alberta-referendum-9.7382226"
+  },
+  {
+   "o": "Wikipedia",
+   "d": "2026-10-19",
+   "u": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum"
+  },
+  {
+   "o": "Global News",
+   "d": "2026-10-19",
+   "u": "https://globalnews.ca/news/12102586/alberta-referendum-2026/"
+  }
+ ],
+ "tags": [],
+ "title": "앨버타 분리독립 주민투표 실시…부결 예상에도 분리 운동은 지속 전망",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/carney-heads-to-alberta-days-before-canada-separation-vote",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "부결 예상 속 앨버타 분리 운동 지속 전망"
+  }
+ ],
+ "added": "로이터 1건 — 투표 당일 부결이 예상되지만 분리 운동은 투표 뒤에도 이어질 것이라는 전망 내용이 추가됨 (제목 기준)",
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

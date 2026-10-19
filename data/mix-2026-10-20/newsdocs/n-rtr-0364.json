@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0364",
+ "num": 364,
+ "key": "mix-G2-034-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T21:12:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+ "origTitle": "",
+ "headline": "삼성전자, 엔비디아 차세대 HBM 베이스 다이에 TSMC 3나노 채택 보도",
+ "src": [
+  {
+   "o": "CommonWealth Magazine",
+   "d": "2026-10-19",
+   "u": "https://english.cw.com.tw/article/article.action?id=5066"
+  },
+  {
+   "o": "Tech Monitor",
+   "d": "2026-10-19",
+   "u": "https://www.techmonitor.ai/news/samsung-collaborates-with-tsmc-for-nvidias-custom-hbm-chips"
+  },
+  {
+   "o": "Silicon Analysts",
+   "d": "2026-10-18",
+   "u": "https://siliconanalysts.com/market/samsung-to-use-tsmc-3nm-for-base-dies-of-nvidia-custom-hbm-2026-10-18"
+  }
+ ],
+ "items": [
+  {
+   "t": "서울경제 '삼성, 엔비디아 차세대 메모리 칩에 TSMC 기술 사용'",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+   "s": "삼성전자가 엔비디아 차세대 메모리 칩 생산에 TSMC 기술을 쓰기로 했다는 서울경제 보도가 나오면서, 경쟁사인 두 회사가 HBM에서 손잡게 됐다"
+  },
+  {
+   "t": "삼성전자, 엔비디아 NVHBM 베이스 다이에 TSMC 3나노 채택 보도",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70617",
+   "s": "엔비디아가 메모리 3사에 TSMC 공정 베이스 다이를 요구하고 삼성이 이를 받아들이면서, 표준 HBM은 자체 생산하되 NVHBM 로직 다이는 TSMC에 맡기게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "삼성전자, 엔비디아 차세대 HBM 베이스 다이에 TSMC 3나노 채택 보도",
+ "one": "삼성전자가 엔비디아 맞춤형 HBM의 베이스 다이를 TSMC 3나노 공정으로 만들기로 했다는 보도가 나오면서, 엔비디아가 메모리 3사에 TSMC 베이스 다이 표준화를 요구한 결과 HBM 로직 다이 생산이 TSMC로 쏠리고 삼성 파운드리는 보조 생산처로 검토되는 데 그칠 수 있다",
+ "facts": [
+  "무엇이: 삼성전자는 TSMC 3나노 공정으로 엔비디아 차세대 맞춤형 HBM의 베이스 다이를 만들 예정이며, HBM 제조에서 TSMC와 협력하는 첫 사례라고 서울경제가 보도했다 [사실]",
+  "요구: 엔비디아는 삼성·SK하이닉스·마이크론에 TSMC 공정 베이스 다이와 6세대(1c) D램 코어 다이를 쓰도록 요청한 것으로 전해졌다 [사실]",
+  "제품: 8월 공개된 NVHBM은 엔비디아 자체 메모리 컨트롤러를 베이스 다이에 넣어 여러 공급사가 같은 방식으로 만들 수 있게 설계됐다 [사실]",
+  "삼성: 삼성은 표준 HBM과 다른 고객용 맞춤 제품은 자체 생산을 유지하고, TSMC 생산능력이 모자라면 자체 파운드리 생산도 검토한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "서울경제 보도 내용(TSMC 3나노 베이스 다이, 엔비디아의 3사 요청, NVHBM 구조, 삼성 자체 생산 유지·파운드리 검토)은 여러 매체 검색 결과 요약으로 확인. 삼성·엔비디아 공식 확인은 없음",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "foundry",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "엔비디아 HBM 베이스 다이 TSMC 3나노로 표준화"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

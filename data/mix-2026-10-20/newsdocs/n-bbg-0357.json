@@ -1,0 +1,86 @@
+{
+ "id": "n-bbg-0357",
+ "num": 357,
+ "key": "mix-G1-025-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:09:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22",
+ "origTitle": "",
+ "headline": "중동발 원가 충격…솔베이 연간 전망 하향, 美 항공권 22%↑, 라탐도 성장 제약",
+ "src": [
+  {
+   "o": "Solvay 발표(GlobeNewswire)",
+   "d": "2026-10-19",
+   "u": "https://www.globenewswire.com/news-release/2026/10/19/3383709/0/en/solvay-reports-preliminary-q3-2026-results-and-updates-full-year-2026-guidance.html"
+  },
+  {
+   "o": "Airways Magazine",
+   "d": "2026-10-19",
+   "u": "https://www.airwaysmag.com/new-post/us-airline-fares-september-2026-inflation"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 항공권 22% 급등에 항공사들 부유층 여행객 공략",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22",
+   "s": "미국 항공 운임이 9월 전년 대비 22.4% 오르는 가운데 항공사들이 값에 덜 민감한 프리미엄 고객을 겨냥하면서, 비싼 좌석 비중이 커지고 있다"
+  },
+  {
+   "t": "솔베이, 중동 분쟁에 3분기 타격…2026년 전망 하향",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/solvay-cuts-2026-forecast-after-middle-east-conflict-hits-q3-2026-10-19/",
+   "s": "솔베이가 사다라 과산화수소 공장 중단으로 3분기 EBITDA가 약 2,500만 유로 깎이자 연간 전망을 낮추면서, 잉여현금흐름 전망도 절반 가까이 줄었다"
+  },
+  {
+   "t": "라탐항공 '높은 연료비가 올해 성장을 억제할 것'",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/latam-airlines-says-high-fuel-costs-expected-to-restrain-growth",
+   "s": "라탐항공이 높은 연료비가 성장을 억제할 것이라고 밝히면서, 남미 항공사도 고유가로 노선·좌석 확대에 제약을 받을 전망이다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial",
+  "aero"
+ ],
+ "nodes": [],
+ "title": "중동발 원가 충격…솔베이 연간 전망 하향, 美 항공권 22%↑, 라탐도 성장 제약",
+ "one": "중동 분쟁으로 사우디 사다라 과산화수소 공장이 멈춘 솔베이가 올해 EBITDA 전망을 7억 2,000만~7억 4,000만 유로로 낮추고 미국 항공 운임이 연료비 탓에 1년 새 22.4% 뛰면서, 고유가 비용이 화학 실적과 항공 승객에게 번지고 라탐항공 같은 항공사의 성장도 제약받고 있다",
+ "facts": [
+  "무엇이: 솔베이는 중동 분쟁과 사우디 사다라 단지 과산화수소 공장 가동 중단으로 2026년 기초 EBITDA 전망을 7억 7,000만~8억 5,000만 유로에서 7억 2,000만~7억 4,000만 유로로, 잉여현금흐름 전망을 2억 유로 이상에서 1억 2,000만~1억 5,000만 유로로 낮췄다 [사실]",
+  "3분기: 분쟁은 솔베이의 3분기 기초 EBITDA를 약 2,500만 유로(2분기 약 2,000만 유로) 깎았고, 3분기 기초 EBITDA는 1억 7,300만 유로, 매출은 10억 3,000만 유로였다 [사실]",
+  "항공권: 미국 항공 운임은 9월 전년 대비 22.4% 올라 전체 소비자물가 상승률 3.7%를 크게 웃돌았고, 항공사들은 값이 올라도 수요가 줄지 않는 프리미엄 좌석 고객 공략에 나섰다 [사실]",
+  "라탐: 라탐항공은 높은 연료비가 성장을 제약할 것이라고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "솔베이 전망 하향 수치는 회사 발표(GlobeNewswire), 미국 항공 운임 22.4%는 Airways Magazine 검색 결과 요약으로 확인. 라탐항공 발언은 확인 못 함",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "사다라 과산화수소 공장 가동 중단 지속"
+  },
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "미국 항공 운임 9월 전년 대비 22.4% 상승"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "drilling",
+ "summary": "",
+ "state": {
+  "capex": [
+   {
+    "d": "2026-10-17",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+    "nid": "n-rtr-0317",
+    "t": "델시 로드리게스 베네수엘라 권한대행은 최근 협정에 따라 5년간 석유 투자 약 760억 달러를 예상했지만, 공공·민간 비중과 투자자, 집행 시기는 밝히지 않았습니다 [사실]"
+   }
+  ],
+  "services": [
+   {
+    "d": "2026-10-17",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+    "nid": "n-rtr-0317",
+    "t": "베네수엘라의 760억 달러 투자 전망은 61개 협정 가운데 17개 유전과 시추 리그 250기 계획을 담은 미국과의 양자 협정과 연결돼 있습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-17",
+   "kind": "capex",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+   "nid": "n-rtr-0317",
+   "t": "베네수엘라 서부 술리아주 생산은 하루 7만 배럴에서 37만 배럴로 늘었고 연말 목표는 40만 배럴이며, 정부는 5년간 석유 투자 약 760억 달러를 예상했습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 1건 반영: 베네수엘라 5년간 석유 투자 760억 달러 전망·시추 리그 250기 협정 — 국면 ⑧ 그대로, 근거 2줄, 수치 1줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-rtr-0317"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

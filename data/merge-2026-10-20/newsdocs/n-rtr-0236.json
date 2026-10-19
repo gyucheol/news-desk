@@ -1,0 +1,99 @@
+{
+ "added": "이번 로이터 2건 중 나중 글로 {{고용 쇼크}}가 {{금리 인상 기대를 꺾어}} {{캐나다달러 18개월 저점}}으로 {{이어졌}}다는 점이 추가됐다 (제목 기준)",
+ "basis": "partial",
+ "check": "캐나다 9월 고용 쇼크 문서와 매클럼 총재의 물가 전망 상향 문서를 묶었다. 고용 6만 8,000개 감소·실업률 6.5%, 물가 전망 상향·유가 가정·시장 금리 반영은 검색 결과 요약으로 확인했고 캐나다달러 18개월 저점은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 매클럼 총재는 10월 17일 방콕에서 고유가로 물가 전망이 7월 전망보다 꽤 높아질 것이라고 했다 [사실]",
+  "유가: 브렌트유는 약 110달러로 캐나다은행이 3분기에 가정한 약 75달러를 크게 웃돌았고, 매클럼은 유가가 100달러 안팎에 머물면 현재 3%인 물가가 점차 오를 것이라고 했다 [사실]",
+  "고용: 9월 일자리는 약 6만 8,000개 줄어 두 달 연속 감소했고 실업률은 6.5%로 올랐으며, 10월 28일 결정 전 마지막 고용 통계였다 [사실]",
+  "금리: 시장은 10월 28일과 12월 결정에서 움직임을 반영하지 않았지만 내년 중 1%포인트 인상을 반영하고 있다 [사실]",
+  "환율: 고용 지표가 금리 인상 기대를 꺾으면서 캐나다달러가 18개월 저점을 기록했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "캐나다은행 매클럼 '고유가에 물가 전망 크게 상향'…28일 결정 주목",
+ "id": "n-rtr-0236",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{캐나다 9월 일자리}}가 예상과 달리 {{6만8천 개 줄}}고 {{실업률이 6.5%로 오르}}면서 {{캐나다 고용시장의 두 달 연속 후퇴}}가 {{드러났}}다",
+   "t": "캐나다 9월 고용 예상 밖 감소…실업률 소폭 상승",
+   "u": "https://www.reuters.com/world/americas/canadas-employment-surprisingly-shrinks-september-jobless-rate-inches-up-2026-10-09/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{고용 부진}}으로 {{금리 인상 베팅}}이 {{줄}}면서 {{캐나다달러}}가 {{18개월 저점}}으로 {{떨어져}} {{수입 물가 부담}}이 {{커질 수}} 있다 (제목 기준)",
+   "t": "고용 지표에 금리 인상 베팅 꺾이며 캐나다달러 18개월 저점",
+   "u": "https://www.reuters.com/business/canadian-dollar-hits-18-month-low-jobs-data-clips-rate-hike-bets-2026-10-09/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "s": "매클럼 총재가 에너지 순수출국인 캐나다에서 고유가가 성장과 물가를 함께 끌어올린다고 보면서 물가가 넓게 번질 위험이 커졌다고 경고했다",
+   "t": "매클럼 \"고유가가 성장과 물가 함께 끌어올린다\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "로이터",
+   "s": "매클럼 총재가 유가 급등으로 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝히면서 금리 인상 여부가 쟁점으로 떠올랐다",
+   "t": "캐나다은행 \"유가 급등에 물가 전망 크게 높아져\"…매클럼",
+   "u": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "로이터",
+   "s": "카니 총리가 송유관 건설을 밀어붙이고 있지만 캐나다 석유 일자리 호황을 되살리기는 어려울 것이라는 분석이 나왔다 (제목 기준)",
+   "t": "카니의 송유관 추진, 캐나다 석유 일자리 호황 되살리기 어려워",
+   "u": "https://www.reuters.com/world/carneys-pipeline-push-is-unlikely-bring-back-canadas-oil-jobs-boom-2026-10-18/"
+  }
+ ],
+ "key": "mix-C061-2026-10-13",
+ "nodes": [
+  "macro/cb",
+  "macro/fx",
+  "macro/growth",
+  "macro/inflation"
+ ],
+ "num": 236,
+ "one": "9월 일자리가 6만 8,000개 줄어 금리 인상 기대가 꺾인 뒤 매클럼 캐나다은행 총재가 브렌트유가 가정치 75달러를 크게 웃도는 110달러 안팎에 머물자 물가 전망을 크게 올리겠다고 밝히면서, 10월 28일 결정을 앞두고 인상 여부가 다시 쟁점이 됐다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T19:54:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Statistics Canada",
+   "u": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "CBC",
+   "u": "https://www.cbc.ca/news/business/canada-jobs-numbers-september-2026-9.7375345"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "글로브앤드메일",
+   "u": "https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "캐나디언 모기지 트렌즈",
+   "u": "https://www.canadianmortgagetrends.com/2026/10/macklem-sees-higher-oil-prices-boosting-growth-inflation/"
+  }
+ ],
+ "tags": [],
+ "title": "캐나다은행 매클럼 '고유가에 물가 전망 크게 상향'…28일 결정 주목",
+ "updatedAt": "2026-10-20T08:14:17+09:00",
+ "url": "https://www.reuters.com/world/americas/canadas-employment-surprisingly-shrinks-september-jobless-rate-inches-up-2026-10-09/"
+}

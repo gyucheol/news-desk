@@ -1,0 +1,110 @@
+{
+ "basis": "partial",
+ "check": "로이터 2건·블룸버그 2건(10월 19~20일)을 묶었다. 켄트의 직함·발언 일정은 호주중앙은행 연설 목록으로, NAB 감원 규모·시기·비용은 Capital Brief·ABC News로 확인했고 노동시장 완화 발언 내용은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 크리스토퍼 켄트 호주중앙은행 부총재보(금융시장 담당)는 10월 19일 노동시장이 예상보다 빨리 느슨해지고 있다고 말했다 [제목]",
+  "영향: 로이터는 추가 금리 인상 압력이 줄 수 있다고, 블룸버그는 11월 추가 인상 근거가 약해질 수 있다고 봤다 [제목]",
+  "NAB 감원: NAB는 2027년 중반까지 인력의 약 6%인 최대 2,500명을 줄이고, 이 가운데 최대 1,500명은 연말 전에 줄인다 [사실]",
+  "외부 인력·비용: 컨설턴트·외부 계약자 사용도 크게 줄이고 세전 약 3억 호주달러의 구조조정 비용을 반영한다 [사실]",
+  "배경: 블룸버그는 이번 감원으로 호주 고용 둔화 신호가 하나 더 늘었다고 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 고용 둔화…켄트 RBA 부총재보 '노동시장 예상보다 빨리 느슨해져'·NAB 최대 2,500명(6%) 감원",
+ "id": "n-bbg-0543",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "호주중앙은행 인사 '노동시장 완화 신호 보여'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/australia-central-banker-sees-signs-labour-market-easing-2026-10-19/",
+   "s": "호주중앙은행 고위 인사가 노동시장이 완화되는 신호가 보인다고 말하면서, 추가 금리 인상 압력이 줄어들 수 있다 (제목 기준)"
+  },
+  {
+   "t": "켄트 RBA 부총재보 '노동시장, 예상보다 빨리 느슨해져'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/rba-s-kent-says-labor-market-loosening-faster-than-predicted",
+   "s": "켄트 호주중앙은행 부총재보가 노동시장이 중앙은행 예상보다 빨리 느슨해지고 있다고 말하면서, 11월 추가 인상 근거가 약해질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "NAB, 2,500명 감원·컨설턴트와 외부 계약자 축소",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/nab-to-cut-2-500-staff-use-fewer-consultants-and-contractors",
+   "s": "NAB가 인력 약 6%인 최대 2,500명을 줄이고 외부 컨설턴트·계약자 사용도 줄이기로 하면서, 호주 고용 둔화 신호가 하나 더 늘었다"
+  },
+  {
+   "t": "호주 NAB, 운영 모델 단순화로 최대 2,500명 감원",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/world-at-work/australias-nab-cut-up-2500-jobs-it-simplifies-operating-model-2026-10-19/",
+   "s": "NAB가 운영 모델 단순화를 내걸고 2027년 중반까지 최대 2,500명을 감원하면서, 세전 약 3억 호주달러의 구조조정 비용을 반영하게 됐다"
+  }
+ ],
+ "key": "split-G5-044-2026-10-20",
+ "nodes": [
+  "macro/cb",
+  "macro/growth"
+ ],
+ "num": 543,
+ "one": "호주 고용 둔화 속에 크리스토퍼 켄트 호주중앙은행 부총재보가 10월 19일 노동시장이 중앙은행 예상보다 빨리 느슨해지고 있다고 말해 11월 추가 금리 인상 근거가 약해질 수 있다는 관측이 나왔고, NAB는 운영 모델 단순화를 내걸고 2027년 중반까지 인력의 약 6%인 최대 2,500명(연말 전 최대 1,500명)을 줄이고 외부 컨설턴트·계약자 사용도 줄이면서 세전 약 3억 호주달러의 구조조정 비용을 반영하기로 했다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:58:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "호주중앙은행 연설 목록",
+   "d": "2026-10-19",
+   "u": "https://www.rba.gov.au/speeches/"
+  },
+  {
+   "o": "Capital Brief",
+   "d": "2026-10-20",
+   "u": "https://www.capitalbrief.com/article/nab-to-cut-2500-jobs-in-major-restructure-a79655b2-bc72-4ff1-8504-46f892518663/"
+  },
+  {
+   "o": "ABC News(호주)",
+   "d": "2026-10-20",
+   "u": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316"
+  }
+ ],
+ "tags": [],
+ "title": "호주 고용 둔화…켄트 RBA 부총재보 '노동시장 예상보다 빨리 느슨해져'·NAB 최대 2,500명(6%) 감원",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/australia-central-banker-sees-signs-labour-market-easing-2026-10-19/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "켄트 노동시장 빠른 완화 발언에 인상 근거 약화"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주 노동시장 예상보다 빨리 느슨해져"
+  },
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "NAB 인력 6% 최대 2,500명 감원"
+  }
+ ]
+}

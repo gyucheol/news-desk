@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 1건·로이터 2건을 남아공 중기예산 재정 개선과 신용등급 전망으로 묶었다. 세수 초과 추정·적자 축소 전망·인베스텍 등급 전망·무디스 Ba2는 bne IntelliNews·Moneyweb 검색 결과로 확인했고, 랜드 강세는 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 남아공은 21일 수요일 중기예산에서 재정 전망을 개선할 것으로 예상된다 [사실]",
+  "세수·적자: PSG는 세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 많을 것으로 추정했고, 은행들은 올해 재정적자가 2월 목표 3.7%에서 GDP의 3.3~3.6%로 줄 것으로 본다 [사실]",
+  "신용등급: 인베스텍은 예산이 신뢰할 만하면 무디스·S&P가 남아공을 투자등급 한 단계 아래로 올릴 수 있고 2028년 투자등급(Baa3 이상) 복귀도 가능하다고 봤으며, 무디스의 현재 평가는 투자등급보다 두 단계 낮은 Ba2다 [사실]",
+  "환율: 랜드화는 중기예산 연설과 물가 지표를 앞두고 소폭 올랐다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "남아공 21일 중기예산 앞 재정 개선 기대…세수 500억 랜드 초과·적자 3.3~3.6%·2028년 투자등급 복귀론",
+ "id": "n-bbg-0546",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "인베스텍 \"남아공, 투자등급 회복 경로에 올라\"",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-on-path-to-investment-grade-rating-investec-says",
+   "s": "인베스텍이 21일 중기예산이 신뢰할 만하면 무디스·S&P가 남아공을 투자등급 한 단계 아래로 올리고 2028년 투자등급(Baa3 이상) 복귀도 가능하다고 보면서, 현재 Ba2인 남아공의 신용등급 상향 기대가 커졌다"
+  },
+  {
+   "t": "남아공 랜드 소폭 강세…예산 연설·물가 지표 대기",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/africa/south-african-rand-gains-slightly-traders-await-budget-speech-inflation-data-2026-10-19/",
+   "s": "랜드화가 21일 중기예산 연설과 물가 지표를 앞두고 소폭 오르면서, 세수가 2월 전망보다 더 걷혀 재정적자 전망이 나아질 것이란 기대 속에 시장이 재정 개선 신호를 기다리고 있다 (제목 기준)"
+  },
+  {
+   "t": "남아공, 수요일 중기예산서 재정 전망 개선 예상",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/africa/south-africa-set-brighter-fiscal-outlook-wednesdays-mid-term-budget-2026-10-19/",
+   "s": "세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 더 걷힐 것으로 추정되면서 남아공이 21일 중기예산에서 올해 재정적자 전망을 GDP의 3.3~3.6%로 낮출 것으로 보여, 국채 부담이 줄 수 있다"
+  }
+ ],
+ "key": "split-G5-053-2026-10-20",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates",
+  "macro/fx"
+ ],
+ "num": 546,
+ "one": "남아공 21일 중기예산을 앞두고 PSG가 세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 더 걷힐 것으로 추정하고 은행들이 올해 재정적자 전망을 2월 목표 3.7%에서 GDP의 3.3~3.6%로 낮춰 잡은 가운데, 인베스텍은 예산이 신뢰할 만하면 무디스·S&P가 현재 투자등급보다 두 단계 낮은 Ba2인 남아공을 한 단계 올리고 2028년 투자등급(Baa3 이상) 복귀도 가능하다고 봤으며, 랜드화는 예산 연설과 물가 지표를 기다리며 소폭 올랐다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:40:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10-19",
+   "u": "https://www.intellinews.com/south-africa-s-3bn-tax-windfall-tests-budget-discipline-477046"
+  },
+  {
+   "o": "Moneyweb",
+   "d": "2026-10-19",
+   "u": "https://www.moneyweb.co.za/news/south-africa/south-africa-on-path-to-investment-grade-rating-investec-says/"
+  }
+ ],
+ "tags": [],
+ "title": "남아공 21일 중기예산 앞 재정 개선 기대…세수 500억 랜드 초과·적자 3.3~3.6%·2028년 투자등급 복귀론",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-on-path-to-investment-grade-rating-investec-says",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "세수 초과로 남아공 재정적자 3.3~3.6%로 축소 전망"
+  },
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "신뢰할 예산이면 2028년 투자등급 복귀 가능"
+  }
+ ]
+}

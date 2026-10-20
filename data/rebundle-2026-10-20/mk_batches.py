@@ -23,7 +23,7 @@ if cur: B.append(cur)
 # 마지막: 삭제 + meta (크기 때문에 둘로 나뉠 수 있음 — 삭제는 meta와 같은 마지막 batch에)
 cur, sz = [], 0; tail = []
 for e, s in last:
-    if cur and sz + s > 880000: tail.append(cur); cur, sz = [], 0
+    if cur and (len(cur) >= 50 or sz + s > 880000): tail.append(cur); cur, sz = [], 0
     cur.append(e); sz += s
 tail.append(cur); B += tail
 os.makedirs('batch', exist_ok=True)

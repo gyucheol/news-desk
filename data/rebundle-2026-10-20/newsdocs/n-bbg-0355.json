@@ -1,0 +1,64 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터(모두 10월 19일) 기사 2건을 묶었다. 인수 조건과 주가는 IB타임스 호주 보도로 확인했고, 종가 상승률은 21%가 아닌 20.24%다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: EQT는 호주 폐기물 업체 클린어웨이를 주당 3.095호주달러 현금, 부채 포함 기업가치 93억 호주달러(약 65억 달러)에 인수하기로 했다 [사실]",
+  "주가: 클린어웨이 주가는 20.24% 올라 2.97호주달러에 마감했고, 블룸버그 제목은 21% 급등으로 적었다 [사실]",
+  "조건: 인수가는 3개월 거래량가중평균가 대비 34.5% 프리미엄이며, ACCC·FIRB 승인과 주주 투표를 거쳐 2027년 3월 말까지 마무리할 예정이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EQT, 호주 클린어웨이 65억 달러 인수 합의…주당 3.095호주달러, 주가 20% 급등",
+ "id": "n-bbg-0355",
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "EQT 65억 달러 인수 합의에 클린어웨이 주가 21% 급등",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/eqt-agrees-to-buy-australia-s-cleanaway-waste-for-6-5-billion",
+   "s": "EQT가 호주 폐기물 업체 클린어웨이를 65억 달러에 인수하기로 하면서, 클린어웨이 주가가 장중 20% 안팎 뛰었다"
+  },
+  {
+   "t": "호주 클린어웨이, EQT의 65억 달러 인수 합의…주가 급등",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/legal/transactional/australias-cleanaway-agrees-65-billion-eqt-takeover-shares-surge-2026-10-18/",
+   "s": "클린어웨이가 주당 3.095호주달러 현금의 EQT 인수안에 합의하면서, 규제 승인과 주주 투표를 거쳐 2027년 3월 말 거래가 끝날 예정이다"
+  }
+ ],
+ "key": "mix-G1-016-2026-10-20",
+ "nodes": [],
+ "num": 355,
+ "one": "호주 폐기물 업계에서 EQT가 클린어웨이를 주당 3.095호주달러 현금, 부채 포함 기업가치 93억 호주달러(약 65억 달러)에 인수하기로 합의하면서 3개월 거래량가중평균가 대비 34.5% 프리미엄에 클린어웨이 주가가 20.24% 오른 2.97호주달러에 마감했고(블룸버그 제목은 21% 급등), 거래는 ACCC·FIRB 승인과 주주 투표를 거쳐 2027년 3월 말까지 마무리될 예정이다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T03:11:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "IBTimes Australia",
+   "d": "2026-10-19",
+   "u": "https://www.ibtimes.com.au/cleanaway-shares-surge-eqt-takeover-agreement-1876980"
+  }
+ ],
+ "tags": [],
+ "title": "EQT, 호주 클린어웨이 65억 달러 인수 합의…주당 3.095호주달러, 주가 20% 급등",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/eqt-agrees-to-buy-australia-s-cleanaway-waste-for-6-5-billion",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "services",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "EQT 인수 합의에 클린어웨이 주가 20% 급등"
+  }
+ ]
+}

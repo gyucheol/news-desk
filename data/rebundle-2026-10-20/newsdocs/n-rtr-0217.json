@@ -1,0 +1,120 @@
+{
+ "basis": "partial",
+ "check": "로이터 5건·블룸버그 1건을 인도 금융사 9월 분기 실적으로 묶었다. ICICI은행 실적과 액시스은행 실적·주가 하락은 FinChannel·Upstox·Business Standard로 확인했고, HDFC은행·바자즈 파이낸스 실적은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: ICICI은행의 9월 분기 단독 순이익은 약 1,484억 루피로 20.1% 늘어 예상치 1,425억 루피를 웃돌았고, 대출 확대와 충당금 감소가 이익을 끌어올렸다 [사실]",
+  "HDFC은행: 분기 이익은 4.7% 늘었지만 트레저리 영향으로 예상을 근소하게 밑돌았다 [제목]",
+  "액시스은행: 17일 보도 기준 순이익은 7,003크로르 루피로 37.6%(19일 보도는 연결 기준 39%) 늘었고 대출은 23% 늘었지만, 영업비용 증가와 트레저리 이익 둔화로 예상에 못 미쳐 19일 주가가 장중 최대 5% 떨어졌다 [사실]",
+  "바자즈 파이낸스: 강한 대출 증가에 힘입어 분기 이익이 늘었고, HDB파이낸셜은 대출 수요가 줄었다 [제목]",
+  "의미: 트레저리 부문 손익이 대형 은행 실적의 차이를 가른 변수가 됐다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 금융사 9월 분기 실적 엇갈려…ICICI 20.1%↑ 예상 상회·HDFC 4.7%↑ 소폭 하회·액시스 주가 5%↓",
+ "id": "n-rtr-0217",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "인도 액시스은행 분기 이익 37.6% 증가…비용 늘어 예상 하회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-axis-bank-quarterly-profit-rises-376-misses-estimates-higher-costs-2026-10-17/",
+   "s": "액시스은행이 분기 순이익을 7,003크로르 루피로 37.6% 늘렸지만 비용 증가로 시장 예상에는 못 미쳤다"
+  },
+  {
+   "t": "인도 ICICI은행 2분기 이익 20.1% 증가, 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-icici-bank-q2-profit-rises-201-beats-estimates-2026-10-17/",
+   "s": "인도 ICICI은행이 대출 확대와 충당금 감소로 9월 분기 단독 순이익을 약 1,484억 루피로 20.1% 늘려 애널리스트 예상치 1,425억 루피를 웃돌면서, 예상을 밑돈 HDFC은행과 대비됐다"
+  },
+  {
+   "t": "인도 HDFC은행 분기 이익 4.7% 증가…트레저리 영향에 예상 소폭 하회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-hdfc-bank-quarterly-profit-rises-47-narrowly-misses-estimates-treasury-2026-10-17/",
+   "s": "인도 HDFC은행의 분기 이익이 4.7% 늘었지만 트레저리 부문 영향으로 시장 예상을 근소하게 밑돌면서, 같은 날 예상을 웃돈 ICICI은행과 대비됐고 니프티 은행 대형주 주가 반응에 관심이 쏠렸다 (제목 기준)"
+  },
+  {
+   "t": "주말 실적 발표 뒤 HDFC·ICICI 등 니프티 은행 대형주 주목",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/nifty-bank-heavyweights-hdfc-icici-in-focus-after-weekend-earnings",
+   "s": "주말 사이 HDFC은행과 ICICI은행 실적이 나오면서 니프티 은행지수 대형주의 주가 반응에 관심이 쏠렸고, ICICI은행은 예상을 웃돈 반면 HDFC은행은 근소하게 밑돌아 두 은행 주가가 엇갈릴 수 있다 (제목 기준)"
+  },
+  {
+   "t": "인도 액시스은행, 분기 이익 예상 하회에 주가 하락",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/india/indias-axis-bank-slides-after-quarterly-profit-falls-short-expectations-2026-10-19/",
+   "s": "액시스은행 순이익이 비용 증가로 시장 예상에 못 미치면서 주가가 장중 최대 5% 떨어졌다"
+  },
+  {
+   "t": "인도 바자즈 파이낸스, 강한 대출 증가에 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/india/indias-bajaj-finance-posts-higher-quarterly-profit-strong-loan-growth-2026-10-19/",
+   "s": "인도 바자즈 파이낸스가 강한 대출 증가에 힘입어 분기 이익을 늘리면서 인도 비은행 대출 수요가 견조함을 보여 줬지만, HDB파이낸셜은 대출 수요가 줄어 회사별 대출 성장세는 엇갈리고 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C133-2026-10-13",
+ "nodes": [],
+ "num": 217,
+ "one": "인도 금융사 9월 분기 실적에서 ICICI은행은 대출 확대와 충당금 감소로 단독 순이익을 약 1,484억 루피로 20.1% 늘려 예상치 1,425억 루피를 웃돌았지만, HDFC은행은 분기 이익이 4.7% 늘고도 트레저리 영향에 예상을 근소하게 밑돌았고, 액시스은행은 순이익을 7,003크로르 루피로 37.6%(연결 기준 39%) 늘리고 대출도 23% 늘었는데도 영업비용 증가와 트레저리 이익 둔화로 예상에 못 미쳐 19일 주가가 장중 최대 5% 떨어졌으며, 바자즈 파이낸스는 강한 대출 증가에 분기 이익을 늘렸다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "FinChannel",
+   "d": "2026-10-17",
+   "u": "https://finchannel.com/icici-bank-profit-rises-20-1-beating-estimates-as-lending-expands/138489/american-business-trends/banks/2026/10/"
+  },
+  {
+   "o": "Upstox",
+   "d": "2026-10-17",
+   "u": "https://upstox.com/news/market-news/stocks/hdfc-bank-vs-icici-bank-vs-axis-bank-here-s-how-top-private-lenders-fared-in-q2/article-183351/"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-19",
+   "u": "https://www.business-standard.com/amp/markets/news/axis-bank-shares-fall-5-despite-39-rise-in-q2-net-profit-here-s-why-126101900187_1.html"
+  }
+ ],
+ "tags": [],
+ "title": "인도 금융사 9월 분기 실적 엇갈려…ICICI 20.1%↑ 예상 상회·HDFC 4.7%↑ 소폭 하회·액시스 주가 5%↓",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/world/india/indias-axis-bank-quarterly-profit-rises-376-misses-estimates-higher-costs-2026-10-17/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "ICICI 대출 확대로 순이익 20.1%, 액시스 대출 23% 증가"
+  },
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "이익 예상 하회에 액시스은행 주가 최대 5% 하락"
+  },
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "바자즈 파이낸스 강한 대출 증가에 이익 증가"
+  }
+ ]
+}

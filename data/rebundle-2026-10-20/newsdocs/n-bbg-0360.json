@@ -1,0 +1,104 @@
+{
+ "basis": "verified",
+ "check": "로이터 10월 1일 선코프 부인 기사와 블룸버그·로이터 10월 19일 챌린저 인수 제안 기사를 묶었다. 챌린저 제안 조건은 재팬타임스, 선코프 부인은 로이터 원문, 8월 인수설은 인슈어런스비즈니스 등 FT 인용 보도로 확인했고 선코프 주가 하락 폭은 확인하지 못했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 다이이치생명의 호주 자회사는 지분 20.36%를 가진 챌린저의 나머지 79.5%를 주당 11.80호주달러에 사겠다는 구속력 없는 제안을 했고, 블룸버그 계산으로 약 44억 달러다 [사실]",
+  "가격·반응: 제안가는 직전 종가 대비 약 20% 할증이며, 챌린저 이사회가 검토에 들어갔고 주가는 2018년 이후 최고로 뛰었다 [사실]",
+  "선코프: 호주 손해보험사 선코프는 10월 1일 도쿄해상과 인수 협의 중이 아니며 제안도 받지 않았다고 밝혔고, 이후 주가가 내렸다 [사실]",
+  "발단: 8월 25일 FT 보도는 도쿄해상이 IAG·선코프·인택트를 검토하다 선코프를 1순위로 정했다고 했고, 선코프 시가총액은 약 140억 달러로 성사되면 도쿄해상의 사상 최대 인수가 된다고 전했다 [사실]",
+  "인수 자금: 도쿄해상은 약 250억 달러어치 정책보유주를 줄이면서 해외 인수에 100억 달러 넘게 쓸 준비를 하고 있다고 FT 인용 보도가 전했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "일본 보험사 호주 인수전…다이이치생명 챌린저에 44억 달러 제안·선코프는 도쿄해상설 부인",
+ "id": "n-bbg-0360",
+ "incentive": "",
+ "inds": [
+  "jpins",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "호주 선코프, 도쿄해상 인수 협의설 부인하자 주가 하락 — 8월 FT 보도에서 도쿄해상 사상 최대 인수(시총 약 140억 달러)의 1순위로 꼽혔던 곳",
+   "o": "로이터",
+   "d": "2026-10-01",
+   "u": "https://www.reuters.com/legal/transactional/australias-suncorp-denies-takeover-talks-with-tokio-marine-shares-fall-2026-10-01/",
+   "s": "호주 손해보험사 선코프가 도쿄해상과의 인수 협의와 제안을 모두 부인하자 주가가 내렸고, 선코프는 8월 FT 보도에서 도쿄해상 최대 인수의 1순위로 꼽혔다"
+  },
+  {
+   "t": "다이이치생명, 챌린저 잔여 지분 44억 달러에 인수 제안",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/daiichi-life-offers-to-buy-remainder-of-australia-s-challenger",
+   "s": "다이이치생명이 호주 연금 운용사 챌린저의 나머지 지분을 약 44억 달러에 사겠다고 제안하면서 일본 생보사의 해외 보험·연금 사업 확장이 이어졌다"
+  },
+  {
+   "t": "호주 챌린저, 다이이치생명 자회사로부터 인수 제안 받아",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/australias-challenger-gets-takeover-bid-unit-japans-daiichi-life-2026-10-18/",
+   "s": "챌린저가 다이이치생명 자회사로부터 주당 11.80호주달러의 구속력 없는 인수 제안을 받아 이사회가 검토에 들어가면서 주가가 2018년 이후 최고로 뛰었다"
+  }
+ ],
+ "key": "mix-G2-015-2026-10-20",
+ "nodes": [
+  "jpins/capital"
+ ],
+ "num": 360,
+ "one": "일본 보험사의 호주 보험·연금사 인수전에서 다이이치생명 호주 자회사가 이미 20.36%를 가진 연금 운용사 챌린저의 나머지 79.5%를 주당 11.80호주달러(직전 종가 대비 약 20% 할증), 약 44억 달러에 사겠다는 구속력 없는 제안을 해 챌린저 이사회가 검토에 들어가고 주가가 2018년 이후 최고로 뛰었고, 앞서 10월 1일에는 8월 FT 보도에서 도쿄해상 사상 최대 인수(시가총액 약 140억 달러)의 1순위로 꼽혔던 호주 손해보험사 선코프가 인수 협의와 제안을 모두 부인하자 주가가 내렸다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T07:03:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "The Japan Times",
+   "d": "2026-10-19",
+   "u": "https://www.japantimes.co.jp/business/2026/10/19/companies/daiichi-life-challenger/"
+  },
+  {
+   "o": "로이터",
+   "d": "2026-10-01",
+   "u": "https://www.reuters.com/legal/transactional/australias-suncorp-denies-takeover-talks-with-tokio-marine-shares-fall-2026-10-01/"
+  },
+  {
+   "o": "Insurance Business(FT 인용)",
+   "d": "2026-08-25",
+   "u": "https://www.insurancebusinessmag.com/au/news/mergers-acquisitions/tokio-marine-reportedly-closes-in-on-australian-acquisition-target-as-suncorp-and-iag-shares-surge-587402.aspx"
+  },
+  {
+   "o": "Life Insurance International(FT 인용)",
+   "d": "2026-08-25",
+   "u": "https://lifeinsuranceinternational.com/news/tokio-marine-nears-suncorp-takeover-bid/"
+  },
+  {
+   "o": "insuranceNEWS.com.au",
+   "d": "2026-08-25",
+   "u": "https://www.insurancenews.com.au/daily/market-responds-as-japanese-giant-eyes-bid-for-suncorp"
+  }
+ ],
+ "tags": [],
+ "title": "일본 보험사 호주 인수전…다이이치생명 챌린저에 44억 달러 제안·선코프는 도쿄해상설 부인",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/legal/transactional/australias-suncorp-denies-takeover-talks-with-tokio-marine-shares-fall-2026-10-01/",
+ "vc": [
+  {
+   "ind": "jpins",
+   "node": "capital",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본 보험사 호주 보험·연금사 인수 추진"
+  },
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "다이이치생명, 챌린저 잔여 지분 44억 달러 인수 제안"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "basis": "partial",
+ "check": "로이터 1건·텔레그램 4건(10월 16~20일)을 묶었다. 곡괭이산 타격 발언은 Sunday Guardian·아랍뉴스로, 코나르크 기지 피격 주장과 미국의 부인은 Shafaq News·News.az·Newsquawk로 확인했고, IRIB 전언·CCTV 분석·루스벨트함 이동은 채널 근거다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프 대통령이 미국이 이란의 곡괭이산 핵시설을 타격해야 할 수도 있다고 말했고, 핵무기 사용과 지상군 투입은 배제했다(로이터, 10월 16일) [사실]",
+  "IRIB: 이란 국영방송 IRIB는 미국이 보복 없는 곡괭이산 핵시설 상징 타격을 허용해 달라고 요청했지만 이란이 거부했다고 전했다(10월 17일 전언) [채널]",
+  "중국 시각: CCTV는 트럼프의 곡괭이산 지하시설 타격 위협과 잦아진 중동 미군 움직임을 들어 미국의 추가 공격 가능성이 크게 높아졌다고 분석했다(10월 18일) [채널]",
+  "미군 증강: 시어도어 루스벨트 항모가 일본 기항 뒤 타격 전단·전투기·무인기를 싣고 중부사령부 작전 구역으로 향하고 있다 [채널]",
+  "코나르크: 이란 해군은 10월 19일 새벽 미군이 코나르크 해군기지를 발사체 2발로 공격해 2명이 다쳤다고 주장했고, 미 당국자는 공격 보도를 부인했다 [사실]",
+  "의미: 채널은 사실이면 해상 봉쇄 이후 첫 미군 무력 사용 사례가 된다고 봤다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미-이란 재충돌 위험…트럼프 곡괭이산 타격 위협·항모 루스벨트함 이동·코나르크 기지 피격 주장",
+ "id": "n-rtr-0407",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "트럼프 '미국이 이란 곡괭이산 핵시설을 타격해야 할 수도'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+   "s": "트럼프 대통령이 이란의 곡괭이산 핵시설을 타격해야 할 수도 있다고 말하면서, 핵무기·지상군을 뺀 추가 공습 가능성을 열어뒀다"
+  },
+  {
+   "t": "IRIB '미국의 곡괭이산 상징 타격 허용 요청, 이란이 거부'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-17",
+   "u": "https://t.me/insidertracking/66520",
+   "s": "이란 국영방송 IRIB가 10월 17일 미국이 보복 없는 곡괭이산 핵시설 상징 타격을 허용해 달라고 요청했지만 이란이 거부했다고 전하면서, 미국의 추가 공습 가능성이 거론됐다 (채널 전언)"
+  },
+  {
+   "t": "CCTV '미국의 이란 추가 군사 공격 가능성 상승'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70585",
+   "s": "트럼프 대통령이 이란 곡괭이산 지하시설 타격을 다시 위협하고 중동 미군 움직임이 잦아지면서, 미국의 이란 추가 공격 가능성이 크게 높아졌다는 분석이 나왔다"
+  },
+  {
+   "t": "미 항모 시어도어 루스벨트함, 중동 중부사령부 구역으로 이동",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-20",
+   "u": "https://t.me/Trillion_labs/10870",
+   "s": "미 항모 시어도어 루스벨트함이 일본 기항 뒤 타격 전단·전투기·무인기를 싣고 중부사령부 작전 구역으로 향하면서, 이란과의 긴장 속에 중동의 미 군사력이 더 늘어나게 됐다 (채널 전언)"
+  },
+  {
+   "t": "'미국, 이란 코나르크 해군기지 공격…이란군 2명 부상'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-20",
+   "u": "https://t.me/Trillion_labs/10878",
+   "s": "이란 해군이 19일 새벽 미군이 코나르크 해군기지를 발사체 2발로 공격해 2명이 다쳤다고 주장했지만 미 당국자가 부인하면서, 사실이면 해상 봉쇄 이후 첫 미군 무력 사용이 돼 충돌 위험이 커질 수 있다"
+  }
+ ],
+ "key": "split-G1-159-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 407,
+ "one": "미국과 이란의 재충돌 위험 속에 트럼프 대통령이 10월 16일 핵무기·지상군은 배제하면서도 이란 곡괭이산 핵시설을 타격해야 할 수도 있다고 말했고, 이란 국영방송 IRIB는 17일 미국이 보복 없는 곡괭이산 상징 타격 허용을 요청했지만 이란이 거부했다고 전했으며, 18일 중국 CCTV는 미국의 추가 공격 가능성이 크게 높아졌다고 분석했고, 미 항모 시어도어 루스벨트함이 타격 전단·전투기·무인기를 싣고 중부사령부 구역으로 향하는 가운데 이란 해군은 19일 미군이 코나르크 해군기지를 발사체 2발로 공격해 2명이 다쳤다고 주장했지만 미 당국자는 부인했다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:05:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Sunday Guardian",
+   "d": "2026-10-16",
+   "u": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-trump-signals-possible-us-strike-on-irans-pickaxe-mountain-nuclear-site-rules-out-nuclear-weapons-and-ground-troops-deployment-306996/"
+  },
+  {
+   "o": "아랍뉴스",
+   "d": "2026-10-16",
+   "u": "https://www.arabnews.com/middle-east/trump-rules-out-nuclear-attack-on-iran-eyes-pickaxe-mountain-for-possible-strike-3006728"
+  },
+  {
+   "o": "Shafaq News",
+   "d": "2026-10-19",
+   "u": "https://shafaq.com/en/World/US-denies-reported-strike-on-Iranian-naval-base"
+  },
+  {
+   "o": "News.az",
+   "d": "2026-10-19",
+   "u": "https://news.az/news/iran-says-us-strike-on-konarak-naval-base-wounds-two-soldiers"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-19",
+   "u": "https://www.newsquawk.com/headlines/iranian-navy-says-that-the-us-military-attacked-the-konarak-naval-base-with-two-light-projectiles-early-this-morning-reports-al-jazeera"
+  }
+ ],
+ "tags": [],
+ "title": "미-이란 재충돌 위험…트럼프 곡괭이산 타격 위협·항모 루스벨트함 이동·코나르크 기지 피격 주장",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "트럼프 곡괭이산 타격 위협, 미 항모 중동 이동"
+  }
+ ]
+}

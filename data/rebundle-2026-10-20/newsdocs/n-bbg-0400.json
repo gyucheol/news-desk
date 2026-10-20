@@ -1,0 +1,58 @@
+{
+ "basis": "title",
+ "check": "블룸버그·로이터(모두 10월 20일) 기사 2건을 묶었다. 독립 출처로 확인하지 못해 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 브라질 MBRF 납품 농장에서 가금 질병이 확인돼 세계 최대 닭고기 수출국 브라질의 닭고기 수출이 막힐 위험이 생겼다 [제목]",
+  "칠면조: 브라질 남부 주의 칠면조 농장에서 뉴캐슬병이 확인됐다 [제목]",
+  "영향: 가금류 수출 제한 우려가 닭고기에 이어 칠면조로 번졌다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "브라질 가금 질병 수출 위험…MBRF 납품 농장 질병·남부 칠면조 농장 뉴캐슬병 확인",
+ "id": "n-bbg-0400",
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "브라질 MBRF 납품 농장서 가금 질병…최대 닭고기 수출국 수출 위험",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/poultry-disease-poses-export-risk-to-top-chicken-supplier-brazil",
+   "s": "세계 최대 닭고기 수출국 브라질의 MBRF 납품 농장에서 가금 질병이 확인되면서 브라질산 닭고기 수출이 막힐 위험이 생겼다 (제목 기준)"
+  },
+  {
+   "t": "브라질, 남부 주 칠면조 농장서 뉴캐슬병 확인",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/brazil-detects-newcastle-disease-turkey-farm-southern-state-2026-10-19/",
+   "s": "브라질 남부 주의 칠면조 농장에서 뉴캐슬병이 확인되면서 가금류 수출 제한 우려가 닭고기에 이어 칠면조로 번졌다 (제목 기준)"
+  }
+ ],
+ "key": "split-G2-053-2026-10-20",
+ "nodes": [],
+ "num": 400,
+ "one": "세계 최대 닭고기 수출국 브라질에서 MBRF에 납품하는 농장에서 가금 질병이 확인돼 브라질산 닭고기 수출이 막힐 위험이 생긴 데 이어, 남부 주의 칠면조 농장에서도 뉴캐슬병이 확인되면서 가금류 수출 제한 우려가 닭고기에서 칠면조로 번졌다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T04:31:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "브라질 가금 질병 수출 위험…MBRF 납품 농장 질병·남부 칠면조 농장 뉴캐슬병 확인",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/poultry-disease-poses-export-risk-to-top-chicken-supplier-brazil",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "브라질 가금 질병으로 닭고기·칠면조 수출 차질 위험"
+  }
+ ]
+}

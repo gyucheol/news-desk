@@ -15,9 +15,9 @@ for i, b in enumerate(bins, 1):
         out.append(f"\n## {c['cid']} {c['theme']} (분야 {c['field']}) attachTo: \"{c.get('attachTo', '')}\"\n")
         if c.get('attachTo'):
             d = json.load(open(f"{DB}/news/{c['attachTo']}.json"))
-            out.append(f"기존 문서 {d['id']} ({(d.get('published') or '')[:10]}, basis {d.get('basis', '')})\n- 제목: {d.get('title', '')}\n- 한줄: {d.get('one', '')}\n")
+            out.append(f"기존 문서 {d['id']} ({(d.get('published') or '')[:10]}, basis {d.get('basis', '')})\n- 제목: {d.get('title', '')}\n- 한줄: {d.get('one', '')}\n".replace('{{', '').replace('}}', ''))
             for f in d.get('facts', []): out.append('- 사실: ' + f.replace('{{', '').replace('}}', '') + '\n')
-            if d.get('added'): out.append(f"- 추가된 내용(직전): {d['added']}\n")
+            if d.get('added'): out.append(f"- 추가된 내용(직전): {d['added']}\n".replace('{{', '').replace('}}', ''))
             its = d.get('items') or []
             if its:
                 out.append(f'- 이미 묶인 원문 {len(its)}건(본문에 없는 핵심 내용이 있으면 사실·한줄에 반영):\n')

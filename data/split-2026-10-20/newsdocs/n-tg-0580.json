@@ -1,0 +1,54 @@
+{
+ "id": "n-tg-0580",
+ "num": 580,
+ "key": "split-G3-140-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/TNBfolio/71586",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "메모리 ETF 'DRAM' 주간 19% 급락…8주 연속 자금 유출",
+ "headline": "메모리 ETF 'DRAM' 주간 19% 급락…8주 연속 자금 유출",
+ "one": "삼성전자·SK하이닉스를 담은 메모리 ETF 'DRAM'이 상장 이후 최대인 주간 19% 급락하고 8주 연속 자금이 빠지면서, 메모리 랠리를 떠받친 투자 자금이 이탈하고 있다 (채널 전언)",
+ "facts": [
+  "무엇이: 메모리 ETF 'DRAM'은 이번 주 19% 떨어져 상장 이후 최대 주간 낙폭을 기록했다(17일 전언) [채널]",
+  "자금: 삼성전자·SK하이닉스를 담은 이 ETF에서 8주 연속 자금이 빠졌다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "TNBfolio 텔레그램 1건이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "메모리 ETF 'DRAM' 이번 주 19% 급락…8주 연속 자금 유출",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-17",
+   "u": "https://t.me/TNBfolio/71586"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "메모리 ETF DRAM 주간 19% 급락"
+  }
+ ],
+ "channel": "TNBfolio",
+ "ind": "semis"
+}

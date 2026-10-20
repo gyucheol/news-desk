@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0513",
+ "num": 513,
+ "key": "split-G4-112-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:12:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/frances-macron-declines-interior-ministers-offer-resign-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "마크롱, 폭동 대응 책임진 누녜스 내무장관 사의 반려",
+ "headline": "마크롱, 폭동 대응 책임진 누녜스 내무장관 사의 반려",
+ "one": "마크롱 대통령이 폭동 대응 실패에 책임을 지겠다는 누녜스 내무장관의 사의를 치안 지휘가 계속 필요하다며 반려하고 정보 실패 경위 공개를 지시하면서, 소요 수습 과정에서 치안 지휘 공백은 피하게 됐다",
+ "facts": [
+  "무엇이: 마크롱 대통령은 폭동 대응 실패에 책임을 지겠다는 누녜스 내무장관의 사의를 반려했다 [사실]",
+  "이유·지시: 마크롱은 치안 지휘가 계속 필요하다고 했고, 정보 실패 경위를 공개하라고 지시했다 [사실]",
+  "배경: 정보당국은 시위 참가를 약 20만 명으로 예상했지만 실제로는 약 55만 명이 몰려 약 2,400명이 체포됐다 [사실]",
+  "후속: 총리가 통행금지를 발표해 파리 2개 지역에 야간 통행금지가 내려졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 내무장관 사의 반려와 통행금지는 AP 등 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "ABC News(AP)",
+   "d": "2026-10-19",
+   "u": "https://abcnews.com/International/wireStory/macron-rejects-interior-ministers-resignation-rioting-looting-expose-137372032"
+  }
+ ],
+ "items": [
+  {
+   "t": "마크롱, 폭동 대응 책임진 내무장관의 사의 반려",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/frances-macron-declines-interior-ministers-offer-resign-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "마크롱, 누녜스 내무장관 사의 반려"
+  }
+ ]
+}

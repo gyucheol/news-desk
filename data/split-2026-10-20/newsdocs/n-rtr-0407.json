@@ -1,0 +1,71 @@
+{
+ "id": "n-rtr-0407",
+ "num": 407,
+ "key": "split-G1-159-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"이란 곡괭이산 핵시설 타격해야 할 수도\"…CCTV \"추가 공격 가능성 상승\"",
+ "headline": "트럼프 \"이란 곡괭이산 핵시설 타격해야 할 수도\"…CCTV \"추가 공격 가능성 상승\"",
+ "one": "트럼프 대통령이 10월 16일 핵무기·지상군은 배제하면서도 이란 곡괭이산 핵시설을 타격해야 할 수도 있다고 말한 뒤, 18일 중국 CCTV는 타격 위협과 중동 미군 움직임을 들어 미국의 추가 공격 가능성이 크게 높아졌다고 분석했다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 미국이 이란의 곡괭이산 핵시설을 타격해야 할 수도 있다고 말했다(로이터, 10월 16일) [사실]",
+  "범위: 핵무기 사용과 지상군 투입은 배제하고 추가 공습 가능성을 열어뒀다 [사실]",
+  "중국 시각: CCTV는 트럼프의 곡괭이산 지하시설 타격 위협과 잦아진 중동 미군 움직임을 들어 미국의 추가 공격 가능성이 크게 높아졌다고 분석했다(10월 18일) [채널]"
+ ],
+ "basis": "verified",
+ "check": "로이터·하나증권 중국전략 기사 2건. 곡괭이산 타격 발언은 원 문서 사실과 독립 출처(Sunday Guardian·아랍뉴스)로 확인했고 CCTV 분석은 채널 전언이다.",
+ "src": [
+  {
+   "o": "Sunday Guardian",
+   "d": "2026-10-16",
+   "u": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-trump-signals-possible-us-strike-on-irans-pickaxe-mountain-nuclear-site-rules-out-nuclear-weapons-and-ground-troops-deployment-306996/"
+  },
+  {
+   "o": "아랍뉴스",
+   "d": "2026-10-16",
+   "u": "https://www.arabnews.com/middle-east/trump-rules-out-nuclear-attack-on-iran-eyes-pickaxe-mountain-for-possible-strike-3006728"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 '미국이 이란 곡괭이산 핵시설을 타격해야 할 수도'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+   "s": "트럼프 대통령이 이란의 곡괭이산 핵시설을 타격해야 할 수도 있다고 말하면서, 핵무기·지상군을 뺀 추가 공습 가능성을 열어뒀다"
+  },
+  {
+   "t": "CCTV '미국의 이란 추가 군사 공격 가능성 상승'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70585",
+   "s": "트럼프 대통령이 이란 곡괭이산 지하시설 타격을 다시 위협하고 중동 미군 움직임이 잦아지면서, 미국의 이란 추가 공격 가능성이 크게 높아졌다는 분석이 나왔다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "트럼프, 이란 곡괭이산 핵시설 타격 가능성 거론"
+  }
+ ]
+}

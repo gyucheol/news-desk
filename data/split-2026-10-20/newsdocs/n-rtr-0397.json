@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0397",
+ "num": 397,
+ "key": "split-G1-119-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/japan-cabinet-backs-plan-help-oil-importers-pay-higher-transport-costs-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "일본 내각, 호르무즈 우회 원유 수입 운송비 보조 법안 승인",
+ "headline": "일본 내각, 호르무즈 우회 원유 수입 운송비 보조 법안 승인",
+ "one": "일본 내각이 10월 13일 호르무즈를 우회해 들여오는 원유의 추가 운송비를 보전하는 보조금 법안을 승인하면서, 운임 급등에 시달리던 일본 원유 수입업체의 운송비 부담이 줄어들 전망이다",
+ "facts": [
+  "무엇이: 일본 내각은 원유 수입업체가 호르무즈 우회 수입으로 떠안은 추가 운송비를 보전하는 보조금 법안을 승인했다 [사실]",
+  "영향: 원유 수입업체의 운송비 부담이 줄어들 전망이다 [사실]",
+  "배경: 걸프 선박 공격과 유조선 운임 급등으로 중동 원유를 들여오는 비용이 크게 늘었다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 13일) 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준. 원 문서 출처 목록의 Rallies·Red Hot Singapore 10월 13일 보도가 같은 법안을 다룸.",
+ "src": [
+  {
+   "o": "Rallies(일본 내각 운송비 지원 법안)",
+   "d": "2026-10-13",
+   "u": "https://rallies.ai/news/japan-cabinet-backs-plan-to-help-oil-importers-pay-higher-transport-costs-d00537f8ad2c85aa"
+  },
+  {
+   "o": "Red Hot Singapore",
+   "d": "2026-10-13",
+   "u": "https://www.redhot.sg/japan-cabinet-backs-plan-to-help-oil-importers-pay-for-higher-transport-costs-727266.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본 내각, 원유 수입업체의 늘어난 운송비 지원 방안 승인",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/legal/litigation/japan-cabinet-backs-plan-help-oil-importers-pay-higher-transport-costs-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "일본, 원유 수입 추가 운송비 보조 법안 승인"
+  }
+ ]
+}

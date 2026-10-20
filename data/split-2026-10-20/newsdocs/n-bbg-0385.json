@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0385",
+ "num": 385,
+ "key": "split-G1-122-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/supertankers-turn-from-gulf-oil-transfer-hub-amid-iran-s-attacks",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "초대형유조선, 이란 공격 피해 걸프 원유 환적 거점서 발길 돌려",
+ "headline": "초대형유조선, 이란 공격 피해 걸프 원유 환적 거점서 발길 돌려",
+ "one": "블룸버그가 10월 13일 전한 바로는 초대형유조선들이 이란의 공격을 피해 걸프 원유 환적 거점에서 발길을 돌리면서, 환적에 기대던 걸프 원유 수출이 차질을 빚을 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 초대형유조선들이 이란의 공격을 피해 걸프 원유 환적 거점에서 발길을 돌리고 있다고 전했다 [제목]",
+  "영향: 환적에 기대던 원유 수출이 차질을 빚을 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 13일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "이란 공격에 초대형유조선들 걸프 원유 환적 거점에서 발길 돌려",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/supertankers-turn-from-gulf-oil-transfer-hub-amid-iran-s-attacks"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "VLCC들 이란 공격 피해 걸프 환적 거점 기피"
+  }
+ ]
+}

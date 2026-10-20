@@ -1,0 +1,81 @@
+{
+ "id": "n-bbg-0543",
+ "num": 543,
+ "key": "split-G5-044-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:58:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/nab-to-cut-2-500-staff-use-fewer-consultants-and-contractors",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "호주 NAB, 2027년 중반까지 최대 2,500명 감원…구조조정비 3억 호주달러",
+ "headline": "호주 NAB, 2027년 중반까지 최대 2,500명 감원…구조조정비 3억 호주달러",
+ "one": "NAB가 운영 모델 단순화를 내걸고 2027년 중반까지 인력의 약 6%인 최대 2,500명을 줄이고 외부 컨설턴트·계약자 사용도 줄이기로 하면서, 세전 약 3억 호주달러의 구조조정 비용을 반영하고 호주 고용 둔화 신호가 하나 더 늘었다",
+ "facts": [
+  "무엇이: NAB는 2027년 중반까지 인력의 약 6%인 최대 2,500명을 줄이고, 이 가운데 최대 1,500명은 연말 전에 줄인다 [사실]",
+  "외부 인력: 운영 모델을 단순화하면서 컨설턴트·외부 계약자 사용도 크게 줄인다 [사실]",
+  "비용: 세전 약 3억 호주달러의 구조조정 비용을 반영한다 [사실]",
+  "배경: 블룸버그는 이번 감원으로 호주 고용 둔화 신호가 하나 더 늘었다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터(모두 10월 20일)를 묶음. 감원 규모·시기·구조조정 비용은 Capital Brief·ABC News 검색 결과로 확인",
+ "src": [
+  {
+   "o": "Capital Brief",
+   "d": "2026-10-20",
+   "u": "https://www.capitalbrief.com/article/nab-to-cut-2500-jobs-in-major-restructure-a79655b2-bc72-4ff1-8504-46f892518663/"
+  },
+  {
+   "o": "ABC News(호주)",
+   "d": "2026-10-20",
+   "u": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316"
+  }
+ ],
+ "items": [
+  {
+   "t": "NAB, 2,500명 감원·컨설턴트와 외부 계약자 축소",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/nab-to-cut-2-500-staff-use-fewer-consultants-and-contractors",
+   "s": "NAB가 인력 약 6%인 최대 2,500명을 줄이고 외부 컨설턴트·계약자 사용도 줄이기로 하면서, 호주 고용 둔화 신호가 하나 더 늘었다"
+  },
+  {
+   "t": "호주 NAB, 운영 모델 단순화로 최대 2,500명 감원",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/world-at-work/australias-nab-cut-up-2500-jobs-it-simplifies-operating-model-2026-10-19/",
+   "s": "NAB가 운영 모델 단순화를 내걸고 2027년 중반까지 최대 2,500명을 감원하면서, 세전 약 3억 호주달러의 구조조정 비용을 반영하게 됐다"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "NAB 인력 6% 최대 2,500명 감원"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "은행 대규모 감원으로 호주 고용 둔화 신호 추가"
+  }
+ ]
+}

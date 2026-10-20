@@ -1,0 +1,78 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 2건과 로이터 1건을 묶음. 원 문서 사실에서 IFS의 350억·200억 파운드 추산은 [사실]이며 출처 목록의 Guido Fawkes·Brit Brief가 뒷받침",
+ "cycles": [],
+ "facts": [
+  "무엇이: IFS는 힐리 재무장관이 노동당 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "재정 여력: IFS는 2029~30년 재정 여력을 약 200억 파운드로 낮춰 봤고, 힐리 장관이 현상 유지식 예산의 위험을 감수할 수 없다고 경고했다 [사실]",
+  "배경: 앞서 FT는 이란 전쟁이 영국 재정에 약 120억 파운드 구멍을 냈다고 보도했다 [사실]",
+  "일정: 블룸버그는 10월 28일 예산안을 앞두고 증세나 복지 축소 압박이 커지고 있다고 전했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IFS '힐리, 지출 약속 지키려면 350억 파운드 필요'…재정 여력 200억 추정",
+ "id": "n-tg-0201",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "IFS '힐리, 영국 지출계획 맞추려면 350억 파운드 필요'",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/healey-needs-35-billion-to-meet-uk-spending-plans-ifs-says",
+   "s": "IFS가 힐리 재무장관이 노동당 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다"
+  },
+  {
+   "t": "싱크탱크 '힐리, 현상 유지식 예산 위험 감수할 수 없어'",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/legal/transactional/uks-healey-cant-risk-steady-you-go-budget-think-tank-warns-2026-10-11/",
+   "s": "싱크탱크 IFS가 2029~30년 재정 여력을 약 200억 파운드로 낮춰 보며 힐리 장관이 현상 유지식 예산의 위험을 감수할 수 없다고 경고했다"
+  },
+  {
+   "t": "IFS '힐리 재무장관, 예산안 앞두고 350억 파운드 마련해야'",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/uk-chancellor-healey-must-find-35b-ahead-of-budget-ifs-warns",
+   "s": "IFS가 힐리 재무장관이 10월 28일 예산안을 앞두고 350억 파운드를 마련해야 한다고 밝히면서 증세나 복지 축소 압박이 커지고 있다"
+  }
+ ],
+ "key": "tg-insidertracking-65719",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 201,
+ "one": "IFS가 10월 12일 2029~30년 재정 여력을 약 200억 파운드로 낮춰 보며 힐리 재무장관이 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산하면서, 10월 28일 예산안의 증세·지출 조정 압박이 커졌다",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:35:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Guido Fawkes(order-order)",
+   "d": "2026-10-12",
+   "u": "https://order-order.com/2026/10/12/ifs-says-healey-has-35-billion-budget-black-hole/"
+  },
+  {
+   "o": "Brit Brief",
+   "d": "2026-10-12",
+   "u": "https://britbrief.co.uk/business/economy/john-healey-faces-35bn-budget-dilemma-ifs-warns.html"
+  }
+ ],
+ "tags": [],
+ "title": "IFS '힐리, 지출 약속 지키려면 350억 파운드 필요'…재정 여력 200억 추정",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/healey-needs-35-billion-to-meet-uk-spending-plans-ifs-says",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IFS, 지출 약속 지키려면 350억 파운드 필요"
+  }
+ ]
+}

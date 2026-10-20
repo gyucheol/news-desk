@@ -1,0 +1,75 @@
+{
+ "id": "n-rtr-0372",
+ "num": 372,
+ "key": "split-G1-024-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-saudi-houthi-hostilities-escalate-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티 공격 격화에 사우디 타다울 2023년 3월 이후 최저…걸프 증시 흔들",
+ "headline": "후티 공격 격화에 사우디 타다울 2023년 3월 이후 최저…걸프 증시 흔들",
+ "one": "사우디-후티 적대가 격화한 10월 7일부터 걸프 증시가 부진했고, 14일 아람코 건물 피격 뒤 타다울 지수가 장중 1.8%까지 떨어져 2023년 3월 이후 최저를 기록한 데 이어 15일 추가 공격 위협에 걸프 증시가 다시 하락했다 (제목 기준)",
+ "facts": [
+  "무엇이: 아람코 건물 피격 뒤 14일 사우디 타다울 지수가 장중 1.8%까지 떨어져 2023년 3월 이후 최저를 기록했고 다른 걸프 증시는 엇갈렸다 [사실]",
+  "앞선 흐름: 10월 7일 사우디-후티 적대 격화에 걸프 증시가 부진했고, 12일 두 번째 공항 공격 뒤 사우디 증시가 떨어지며 걸프 거래가 신중해졌다 [제목]",
+  "추가 하락: 15일 후티가 사우디 추가 공격을 위협하자 걸프 증시가 다시 하락했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 4건을 묶음. 타다울 2023년 3월 이후 최저는 원 문서 사실 줄에 있으나 뒷받침하는 독립 출처를 목록에서 고르지 못해 제목 기준으로 낮춤",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디-후티 적대 격화에 걸프 증시 부진",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-saudi-houthi-hostilities-escalate-2026-10-07/",
+   "s": "사우디와 후티의 적대가 격화하면서 10월 7일 걸프 증시가 전반적으로 부진한 흐름을 보이며 역내 투자 심리가 위축됐다"
+  },
+  {
+   "t": "두 번째 공항 공격 뒤 사우디 증시 하락, 걸프 거래 신중",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/saudi-shares-fall-after-second-airport-attack-gulf-trade-stays-cautious-2026-10-12/",
+   "s": "후티의 두 번째 공항 공격 뒤 사우디 증시가 떨어지고 다른 걸프 증시도 신중한 거래를 이어 갔다"
+  },
+  {
+   "t": "아람코 건물 피격 뒤 사우디 증시 하락…걸프 증시는 혼조",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/middle-east/saudi-stocks-slip-after-attack-aramco-building-gulf-markets-mixed-2026-10-14/",
+   "s": "아람코 건물 피격 뒤 사우디 타다울 지수가 장중 1.8%까지 떨어져 2023년 3월 이후 최저를 기록했고 다른 걸프 증시는 엇갈렸다"
+  },
+  {
+   "t": "후티의 추가 사우디 공격 위협에 걸프 증시 하락",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/middle-east/gulf-stocks-fall-after-houthis-threaten-more-saudi-attacks-2026-10-15/",
+   "s": "후티 반군이 사우디 추가 공격을 위협하면서 10월 15일 걸프 증시가 하락해 역내 금융시장 불안이 이어졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "타다울 지수 2023년 3월 이후 최저로 하락"
+  }
+ ]
+}

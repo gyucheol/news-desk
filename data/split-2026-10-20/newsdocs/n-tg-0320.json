@@ -1,0 +1,62 @@
+{
+ "basis": "verified",
+ "check": "미국 주식 인사이더 채널 글 1건. 매장 50곳 피해·약 1,500개 사업체·수억 유로 손실은 검색 결과 요약(Retail Gazette·RetailDetail)으로 확인, 채널의 '수천만 유로'와 달리 약탈 매장은 19~20곳으로 보도됨",
+ "cycles": [],
+ "facts": [
+  "무엇이: 까르푸의 알렉상드르 봉파르 CEO는 그룹 매장 50곳이 피해를 입었다고 밝혔고, 이 가운데 약탈된 곳은 19~20곳, 수리비는 1,000만 유로 이상으로 전해졌다 [사실]",
+  "전국: 봉파르는 프랑스 전역 약 1,500개 사업체가 피해를 입어 손실이 최소 수억 유로에 이른다고 추산했다 [사실]",
+  "차이: 채널은 까르푸 매장 50곳 피해와 손실 수천만 유로를 1차 집계로 전했는데, 확인된 보도에서 약탈 매장은 19~20곳이었다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "까르푸, 프랑스 폭동에 매장 50곳 피해…전국 손실 최소 수억 유로",
+ "id": "n-tg-0320",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "까르푸 CEO '폭동으로 매장 50곳 피해…손실 수천만 유로'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-19",
+   "u": "https://t.me/insidertracking/66634"
+  }
+ ],
+ "key": "mix-G1-033-2026-10-20",
+ "nodes": [],
+ "num": 320,
+ "one": "까르푸의 봉파르 CEO가 프랑스 폭동으로 그룹 매장 50곳이 피해를 입고 이 가운데 19~20곳이 약탈됐다고 밝히고 전국 약 1,500개 사업체 손실을 최소 수억 유로로 추산하면서, 유통업체의 수리비와 영업 중단 부담이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T01:01:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "Retail Gazette",
+   "d": "2026-10",
+   "u": "https://www.retailgazette.co.uk/blog/2026/10/france-riots-vinted/"
+  },
+  {
+   "o": "RetailDetail",
+   "d": "2026-10",
+   "u": "https://www.retaildetail.eu/news/general/french-riots-damage-3000-stores-sephora-closes-all-locations-carrefour-fears-million-euro-bill/"
+  }
+ ],
+ "tags": [],
+ "title": "까르푸, 프랑스 폭동에 매장 50곳 피해…전국 손실 최소 수억 유로",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://t.me/insidertracking/66634",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "폭동으로 까르푸 매장 50곳 피해"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

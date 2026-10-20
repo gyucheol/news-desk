@@ -1,0 +1,79 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터·텔레그램 트릴리온 2건(10월 19일)을 묶었다. 인수 조건(ADS당 20달러, 지분가치 13억·기업가치 11억 달러, 130% 프리미엄, 2027년 1분기 종결)은 사일런스 보도자료와 검색 결과 요약으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 머크KGaA는 사일런스를 ADS당 현금 20달러, 지분가치 약 13억 달러(기업가치 11억 달러)에 인수하기로 했고, 이는 10월 16일 종가 대비 130% 프리미엄이다 [사실]",
+  "배경·조달: 인수 배경은 다혈증 치료제 디베시란의 2상 결과이고, 거래는 신규 차입으로 조달해 2027년 1분기 마무리할 예정이다 [사실]",
+  "경쟁 입찰: 사일런스는 경쟁 입찰 끝에 머크KGaA를 택했으며 디베시란 3상 개발을 앞당길 수 있다고 했다 [채널]",
+  "수치 차이: 블룸버그는 기업가치 11억 달러, 로이터는 지분가치 약 13억 달러로 전했고 채널은 13억 달러를 기업가치로 적어 기준이 엇갈린다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "머크KGaA, 사일런스테라퓨틱스 13억 달러에 인수…130% 프리미엄",
+ "id": "n-rtr-0342",
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "머크KGaA, 사일런스테라퓨틱스 11억 달러에 인수",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/merck-kgaa-to-buy-silence-therapeutics-for-1-1-billion",
+   "s": "머크KGaA가 siRNA 개발사 사일런스테라퓨틱스를 기업가치 11억 달러에 사들이기로 하면서, 희귀 혈액질환 파이프라인을 넓히게 됐다"
+  },
+  {
+   "t": "사일런스, 머크KGaA에 피인수 계약…ADS당 20달러, 130% 프리미엄",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10851",
+   "s": "사일런스가 ADS당 현금 20달러, 기업가치 약 13억 달러에 머크KGaA에 팔리기로 하면서, 주주들은 직전 종가 대비 130% 프리미엄을 받게 됐다"
+  },
+  {
+   "t": "사일런스 '경쟁 입찰 끝 머크KGaA와 계약…디베시란 3상 가속'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10852",
+   "s": "사일런스가 경쟁 입찰 끝에 머크KGaA를 택했다며 다혈증 치료제 디베시란의 3상 개발을 앞당길 수 있다고 하면서, 머크KGaA의 희귀질환 전환 전략이 이어졌다"
+  },
+  {
+   "t": "독일 머크, 사일런스테라퓨틱스 13억 달러에 인수",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/legal/litigation/germanys-merck-buys-silence-therapeutics-13-billion-2026-10-19/",
+   "s": "독일 머크가 사일런스를 지분가치 약 13억 달러, 전액 현금으로 사들이기로 하면서, 신규 차입으로 거래를 조달해 2027년 1분기 마무리할 예정이다"
+  }
+ ],
+ "key": "mix-G4-017-2026-10-15",
+ "nodes": [],
+ "num": 342,
+ "one": "머크KGaA가 10월 19일 siRNA 개발사 사일런스테라퓨틱스를 ADS당 현금 20달러, 지분가치 약 13억 달러(기업가치 11억 달러)에 사기로 하면서, 직전 종가 대비 130% 프리미엄을 주고 희귀 혈액질환 파이프라인을 넓히게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T01:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Silence Therapeutics 보도자료",
+   "d": "2026-10-19",
+   "u": "https://silence-therapeutics.com/investors/press-releases/press-releases-details/2026/Silence-Therapeutics-Enters-into-Agreement-to-be-Acquired-by-Merck-KGaA-Darmstadt-Germany/default.aspx"
+  }
+ ],
+ "tags": [],
+ "title": "머크KGaA, 사일런스테라퓨틱스 13억 달러에 인수…130% 프리미엄",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/merck-kgaa-to-buy-silence-therapeutics-for-1-1-billion",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "머크KGaA 사일런스 지분가치 13억 달러 인수"
+  }
+ ]
+}

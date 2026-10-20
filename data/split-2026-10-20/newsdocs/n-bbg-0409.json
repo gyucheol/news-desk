@@ -1,0 +1,83 @@
+{
+ "id": "n-bbg-0409",
+ "num": 409,
+ "key": "split-G2-080-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/europe-s-leaders-have-few-tools-to-ease-war-driven-energy-shock",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU 정상회의, 에너지값 급등 논의…집행위에 단기 대책 요구",
+ "headline": "EU 정상회의, 에너지값 급등 논의…집행위에 단기 대책 요구",
+ "one": "EU 정상들이 정상회의에서 전쟁발 에너지값 급등을 논의했지만 마땅한 수단을 찾지 못하고 집행위에 단기 대책을 요구하는 데 무게를 두면서, 메탄 규제 수정 같은 한정된 조치만 거론돼 높은 에너지값이 겨울 내내 이어질 수 있다",
+ "facts": [
+  "무엇이: EU 정상들이 정상회의에서 에너지값 급등을 논의하며 집행위에 단기 대책을 요구하는 데 무게를 뒀다 [사실]",
+  "거론 조치: 메탄 규제 수정과 국가보조 체계 연장 같은 한정된 조치가 거론됐다 [사실]",
+  "한계: 블룸버그는 유럽 정상들에게 전쟁발 에너지 충격을 누그러뜨릴 수단이 부족하다고 짚었고, 로이터는 에너지 가격 부담이 정상회의 전반을 짓눌렀다고 전했다 [제목]",
+  "각국 대응: EU 집행위는 석유·가스 횡재세 작업반을 꾸렸고, 독일은 전 소비자 전기세 인하를, 영국 오프젬은 시장안정 부담금 재가동을 추진한다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 2건·로이터 1건을 묶음. 정상들이 집행위에 에너지값 대책을 맡긴 흐름은 Agence Europe·E3G로 확인, 메탄 규제 수정·국가보조 연장은 기사 요약 기준",
+ "src": [
+  {
+   "o": "Agence Europe",
+   "d": "2026-10-15",
+   "u": "https://agenceurope.eu/en/bulletin/article/13960/1/heads-of-state-meeting-in-brussels-count-on-european-commission-to-tackle-soaring-energy-prices"
+  },
+  {
+   "o": "E3G",
+   "d": "2026-10",
+   "u": "https://www.e3g.org/news/euco-october2026-eu-leaders/"
+  }
+ ],
+ "items": [
+  {
+   "t": "유럽 정상들, 전쟁발 에너지 충격 누그러뜨릴 수단 부족",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-s-leaders-have-few-tools-to-ease-war-driven-energy-shock",
+   "s": "유럽 정상들이 전쟁으로 촉발된 에너지 충격을 누그러뜨릴 정책 수단을 마땅히 찾지 못하면서, 높은 에너지값이 겨울 내내 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "EU 정상회의서 에너지값 급등 논의…쉬운 해법 없어",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/no-easy-solutions-as-eu-leaders-discuss-energy-price-surge-at-summit",
+   "s": "EU 정상들이 정상회의에서 집행위에 단기 대책을 요구하는 데 무게를 두면서, 메탄 규제 수정과 국가보조 체계 연장 같은 한정된 조치가 거론되고 있다"
+  },
+  {
+   "t": "에너지 가격 부담, EU 정상회의 전반을 짓눌러",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/sustainability/energy-prices-loom-over-eu-summit-2026-10-16/",
+   "s": "에너지 가격 부담이 EU 정상회의 전반을 짓누르면서 정상들이 가계·기업 비용 대책 마련 압박을 받았다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "gas",
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "gas/trade",
+  "power/market",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "정상회의 단기 대책 부족에 높은 에너지값 지속 우려"
+  }
+ ]
+}

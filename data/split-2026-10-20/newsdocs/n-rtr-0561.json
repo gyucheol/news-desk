@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0561",
+ "num": 561,
+ "key": "split-G5-087-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/indias-icici-bank-q2-profit-rises-201-beats-estimates-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도 ICICI은행 2분기 순이익 20.1% 증가…예상치 1,425억 루피 상회",
+ "headline": "인도 ICICI은행 2분기 순이익 20.1% 증가…예상치 1,425억 루피 상회",
+ "one": "인도 ICICI은행이 대출 확대와 충당금 감소로 9월 분기 단독 순이익을 약 1,484억 루피로 20.1% 늘려 애널리스트 예상치 1,425억 루피를 웃돌면서, 예상을 밑돈 HDFC은행과 대비됐다",
+ "facts": [
+  "무엇이: ICICI은행의 9월 분기 단독 순이익은 약 1,484억 루피로 20.1% 늘어 예상치 1,425억 루피를 웃돌았다 [사실]",
+  "원인: 대출 확대와 충당금 감소가 이익을 끌어올렸다 [사실]",
+  "비교: HDFC은행 분기 이익은 4.7% 늘었지만 트레저리 영향으로 예상을 근소하게 밑돌았다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. ICICI은행 순이익 20.1% 증가·예상 상회는 FinChannel·Upstox 검색 결과로 확인",
+ "src": [
+  {
+   "o": "FinChannel",
+   "d": "2026-10-17",
+   "u": "https://finchannel.com/icici-bank-profit-rises-20-1-beating-estimates-as-lending-expands/138489/american-business-trends/banks/2026/10/"
+  },
+  {
+   "o": "Upstox",
+   "d": "2026-10-17",
+   "u": "https://upstox.com/news/market-news/stocks/hdfc-bank-vs-icici-bank-vs-axis-bank-here-s-how-top-private-lenders-fared-in-q2/article-183351/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 ICICI은행 2분기 이익 20.1% 증가, 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-icici-bank-q2-profit-rises-201-beats-estimates-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "ICICI은행 대출 확대로 순이익 20.1% 증가"
+  }
+ ]
+}

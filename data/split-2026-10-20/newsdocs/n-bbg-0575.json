@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0575",
+ "num": 575,
+ "key": "split-G5-157-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/iraq-seeks-imf-program-fund-chief-pledges-very-firm-support",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이라크, IMF 프로그램 요청…게오르기에바 '매우 확고히 지원'",
+ "headline": "이라크, IMF 프로그램 요청…게오르기에바 '매우 확고히 지원'",
+ "one": "전쟁 충격을 받은 이라크가 17일 IMF 프로그램을 요청하고 게오르기에바 총재가 매우 확고히 지원하겠다고 약속하면서, 전쟁 파급과 고유가로 자금난을 겪는 나라에 대한 IMF 자금 지원이 넓어질 수 있다",
+ "facts": [
+  "무엇이: 이라크는 10월 17일 IMF 프로그램을 요청했고 게오르기에바 총재는 매우 확고히 지원하겠다고 약속했다 [사실]",
+  "배경: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건이다. 이라크의 프로그램 요청과 총재의 지원 약속은 원 문서 사실 줄과 독립 출처(The National, 17일)로 뒷받침된다.",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-17",
+   "u": "https://www.thenationalnews.com/business/economy/2026/10/17/imf-to-accelerate-talks-with-iraq-and-lebanon-as-mena-support-grows/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이라크, IMF 프로그램 요청…총재 '매우 확고히 지원'",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/iraq-seeks-imf-program-fund-chief-pledges-very-firm-support"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "이라크 IMF 프로그램 요청, 총재 지원 약속"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0488",
+ "num": 488,
+ "key": "split-G4-033-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/ecb-hike-rates-again-december-inflation-almost-doubles-2-target-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "ECB, 물가 목표 2배 근접에 12월 인상 쪽으로…정책금리 2.75% 전망",
+ "headline": "ECB, 물가 목표 2배 근접에 12월 인상 쪽으로…정책금리 2.75% 전망",
+ "one": "유로존 물가가 목표의 2배 가까이 오르면서 ECB가 12월에 다시 금리를 올릴 것이라는 관측이 나왔고, 17일에는 ECB가 12월 인상 쪽으로 기울어 정책금리가 2.75%로 오르면 유로존 차입 비용이 더 오를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: ECB가 12월 금리 인상 쪽으로 기울고 있고, 인상하면 정책금리는 긴축 수준인 2.75%가 된다(10월 17일 블룸버그) [사실]",
+  "배경: 유로존 물가가 목표 2%의 2배 가까이 오르면서 12월 재인상 관측이 나왔다(10월 8일 로이터) [제목]",
+  "영향: 인상하면 유로존 차입 비용이 더 오를 수 있다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터·블룸버그 2건(10월 8·17일)을 묶었다. 원 문서 사실 줄에 12월 인상 기울기와 2.75%가 있으나 이를 뒷받침하는 출처를 원 문서 목록에서 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "ECB, 물가 목표 2배 근접에 12월 다시 인상할 듯",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/ecb-hike-rates-again-december-inflation-almost-doubles-2-target-2026-10-08/",
+   "s": "유로존 물가가 목표의 2배 가까이 오르면서 ECB가 12월에 다시 금리를 올릴 것이라는 관측이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "ECB, 12월 인상 쪽으로 기울어…방콕 논의서 위험 드러나",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/ecb-leans-toward-december-hike-as-bangkok-talks-expose-risks",
+   "s": "ECB가 12월 금리 인상 쪽으로 기울면서, 인상 시 정책금리가 긴축 수준인 2.75%로 올라 유로존 차입 비용이 더 오를 수 있다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "ECB 12월 인상 쪽으로 기울어, 정책금리 2.75% 전망"
+  }
+ ]
+}

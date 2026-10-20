@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0374",
+ "num": 374,
+ "key": "split-G1-039-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/airlines-cancel-flights-to-riyadh-after-houthi-attack-on-airport",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티 공항 공격에 루프트한자·에어인디아 등 리야드 운항 중단",
+ "headline": "후티 공항 공격에 루프트한자·에어인디아 등 리야드 운항 중단",
+ "one": "후티의 공항 공격 뒤 10월 8일 항공사들이 사우디행 항공편을 취소했고, 루프트한자·에어인디아가 리야드 운항을 멈추고 델타가 리야드 노선 개시를 미루면서 사우디 수도를 오가는 항공 수송이 줄고 있다",
+ "facts": [
+  "무엇이: 후티의 공항 공격 뒤 항공사들이 사우디행 항공편을 취소했다 [제목]",
+  "항공사: 루프트한자·에어인디아는 후티 공격 뒤 리야드 운항을 중단했다 [제목]",
+  "확산: 루프트한자·카타르항공 등이 운항을 멈췄고 델타는 리야드 노선 개시를 미뤘다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건과 로이터 1건을 묶음. 루프트한자·인도 항공사의 리야드 운항 중단과 항공편 차질은 Gulf Business·CNBC 출처로 확인",
+ "src": [
+  {
+   "o": "Gulf Business",
+   "d": "2026-10-08",
+   "u": "https://gulfbusiness.com/en/2026/saudi-arabia/lufthansa-indian-airlines-suspend-riyadh-flights-houthi-attacks/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/booms-flight-disruptions-riyadh-saudi-houthi-war-escalates.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "공항 공격 뒤 항공사들 사우디행 운항 중단",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/airlines-cancel-flights-to-riyadh-after-houthi-attack-on-airport",
+   "s": "후티의 공항 공격 뒤 항공사들이 리야드행 항공편을 잇달아 취소하면서 사우디 수도의 항공 수송이 줄었다"
+  },
+  {
+   "t": "후티 공격 뒤 루프트한자·에어인디아 리야드 운항 중단",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/middle-east/lufthansa-air-india-suspend-flights-riyadh-after-houthi-attacks-2026-10-08/",
+   "s": "루프트한자와 에어인디아가 후티 공격 뒤 리야드 운항을 중단하면서 외국 항공사의 사우디 노선 철수가 시작됐다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "루프트한자·에어인디아 리야드 운항 중단"
+  }
+ ]
+}

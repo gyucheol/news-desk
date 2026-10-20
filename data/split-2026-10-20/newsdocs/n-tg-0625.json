@@ -1,0 +1,91 @@
+{
+ "id": "n-tg-0625",
+ "num": 625,
+ "key": "split-G4-102-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70307",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 모기지 금리 7.5%로 2023년 11월 이후 최고…주택 계약 12년 만의 최저",
+ "headline": "美 모기지 금리 7.5%로 2023년 11월 이후 최고…주택 계약 12년 만의 최저",
+ "one": "미국 30년 고정 모기지 금리가 7.4%를 거쳐 7.5%로 2023년 11월 이후 최고로 오르면서, 9월 기존주택 매매 계약이 4% 줄어 2014년 이후 최저가 되고 구매 신청도 6주째 부진해 1년 전보다 16% 낮아졌다",
+ "facts": [
+  "무엇이: MBA 집계 30년 고정 모기지 계약금리는 7.50%로 2023년 11월 이후 최고였고, 구매 신청은 6주째 부진해 1년 전보다 16% 낮았다 [사실]",
+  "계약: 9월 기존주택 매매 계약은 전월보다 4% 줄어 2014년 이후 최저였고, 계약 취소율은 14.5%로 치솟았다 [사실]",
+  "차이: 10월 13일 채널 전언은 30년 고정 금리를 7.4%로 전했고, 하루 뒤 블룸버그는 7.5% 도달을 전해 더 최근 수치를 따랐다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "하나증권 텔레그램(10월 13일)과 블룸버그(10월 14일) 기사를 묶음. 원 문서는 7%를 넘는 모기지 금리를 검색 결과로 확인했고, MBA 주간 조사·HousingWire와 레드핀·MortgagePoint 매매 계약 자료가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "레드핀(PR Newswire)",
+   "d": "2026-10-12",
+   "u": "https://www.prnewswire.com/news-releases/us-pending-home-sales-sink-near-12-year-low-302905207.html"
+  },
+  {
+   "o": "The MortgagePoint",
+   "d": "2026-10-12",
+   "u": "https://themortgagepoint.com/2026/10/12/pending-home-sales-fall-to-near-12-year-low/"
+  },
+  {
+   "o": "MBA",
+   "d": "2026-10-14",
+   "u": "https://www.mba.org/news-and-research/newsroom/news/2026/10/14/mortgage-applications-decrease-in-latest-mba-weekly-survey"
+  },
+  {
+   "o": "HousingWire",
+   "d": "2026-10-14",
+   "u": "https://www.housingwire.com/articles/mba-applications-slip-2-7/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 모기지 금리 7%대 재상승…기존주택 계약 12년 만의 최저",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70307",
+   "s": "30년 고정 모기지 금리가 7.4%로 오르면서 9월 기존주택 매매 계약이 전월보다 4% 줄어 2014년 이후 최저가 됐고, 계약 취소율은 14.5%로 치솟았다"
+  },
+  {
+   "t": "미 모기지 금리 7.5% 도달…주택구매 부진 6주째 이어져",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity",
+   "s": "미국 30년 모기지 금리가 7.5%로 오르면서 주택구매 신청이 6주째 부진해 1년 전보다 16% 낮은 수준까지 떨어졌다"
+  }
+ ],
+ "inds": [
+  "realestate",
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "9월 매매 계약 4% 감소, 2014년 이후 최저"
+  },
+  {
+   "ind": "realestate",
+   "node": "finance",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "30년 모기지 금리 7.5%로 2023년 11월 이후 최고"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

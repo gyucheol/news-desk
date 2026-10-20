@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0406",
+ "num": 406,
+ "key": "split-G1-158-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란, 美 봉쇄에도 오만 앞바다 환적으로 LPG 410만 배럴·항공유 선적",
+ "headline": "이란, 美 봉쇄에도 오만 앞바다 환적으로 LPG 410만 배럴·항공유 선적",
+ "one": "이란이 미국의 해상 봉쇄 속에서도 오만 앞바다 선박 간 환적으로 LPG 약 410만 배럴과 항공유 일부를 실어 내보낸 것이 10월 16일 데이터로 확인되면서, 봉쇄에 빈틈이 있다는 분석이 나왔다",
+ "facts": [
+  "무엇이: 이란이 미국의 해상 봉쇄 속에서도 LPG 약 410만 배럴과 항공유 일부를 선적해 내보낸 것이 데이터로 확인됐다(로이터, 10월 16일) [사실]",
+  "방법: 오만 앞바다에서 선박 간 환적 방식을 썼다 [사실]",
+  "의미: 미국의 봉쇄에 빈틈이 있다는 분석이 나왔다 [사실]",
+  "배경: 쿠퍼 중부사령관은 봉쇄로 이란이 최소 250억 달러어치 원유를 수출하지 못했다고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 데이터로 확인된 LPG·항공유 선적은 원 문서 독립 출처(gCaptain)로 확인했다.",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-16",
+   "u": "https://gcaptain.com/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란, 美 봉쇄에도 LPG·항공유 일부 선적…데이터로 확인",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "봉쇄 속 LPG 약 410만 배럴·항공유 환적 선적"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0399",
+ "num": 399,
+ "key": "split-G2-052-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "가뭄에 美 소 사육두수 줄며 소고기값 계속 올라",
+ "headline": "가뭄에 美 소 사육두수 줄며 소고기값 계속 올라",
+ "one": "가뭄으로 미국 소 사육두수가 줄면서 소고기 공급이 빠듯해져 소비자가 사는 소고기값이 계속 오르고 있어, 미국 식료품 물가 부담이 당분간 이어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 가뭄으로 미국 소 사육두수가 줄고 있다 [제목]",
+  "가격: 소고기 공급이 빠듯해져 소비자 소고기값이 계속 오르고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록은 미국 소고기 내용을 확인 못 해 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "가뭄에 미국 소 사육두수 줄며 소고기값 계속 오르는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds"
+  }
+ ],
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "가뭄에 미국 소 사육두수 감소"
+  },
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "소고기 공급 빠듯해 소고기값 계속 상승"
+  }
+ ]
+}

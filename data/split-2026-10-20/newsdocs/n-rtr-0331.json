@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "로이터 1건(10월 15일)이다. 원 문서 확인 기록에 검토 보고서 부분이 없어 기사 제목 기준이고, FSB의 AI 권고는 원 문서 사실 줄에서 가져왔다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: FSB를 검토한 보고서가 FSB가 진정으로 시스템적인 위험에 집중해야 한다고 권고했다(10월 15일 로이터) [제목]",
+  "같은 시기: FSB는 고위험 업무에서 AI 에이전트가 사람 승인을 받도록 위험 기반 기준을 정하라고 금융회사에 권고했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "검토 보고서 \"FSB, 진정한 시스템 위험에 집중해야\"",
+ "id": "n-rtr-0331",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "검토 보고서 'FSB, 진정한 시스템 위험에 집중해야'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/"
+  }
+ ],
+ "key": "mix-G3-019-2026-10-15",
+ "nodes": [],
+ "num": 331,
+ "one": "금융안정위원회(FSB)를 검토한 보고서가 FSB가 진정으로 시스템적인 위험에 집중해야 한다고 권고하면서, 국제 금융감독 기구의 역할과 우선순위를 조정하자는 논의가 불거질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-17T17:39:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "검토 보고서 \"FSB, 진정한 시스템 위험에 집중해야\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "FSB 역할을 시스템 위험 중심으로 좁히자는 권고"
+  }
+ ]
+}

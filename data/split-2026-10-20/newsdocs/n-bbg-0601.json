@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0601",
+ "num": 601,
+ "key": "split-G6-128-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "아마존·AEP·X-에너지, 인디애나 960MW 소형원전 사업 검토",
+ "headline": "아마존·AEP·X-에너지, 인디애나 960MW 소형원전 사업 검토",
+ "one": "아마존·AEP·X-에너지가 인디애나 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 원전을 짓는 방안을 검토하고 아마존이 개발 자금과 전력 구매를 맡기로 하면서, 소형원자로 수요가 생길 전망이다",
+ "facts": [
+  "무엇이: 아마존·AEP·X-에너지는 10월 19일 인디애나 설리번카운티의 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 규모 원전을 짓는 방안을 검토한다고 밝혔고, 아마존이 개발 자금을 대고 전력을 장기 계약으로 살 계획이다 [사실]",
+  "일정: 진행 여부는 2029년 말까지 결정하며, Xe-100 노형은 아직 연방 승인이 필요하고 계약 조건은 공개되지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(10월 19일). 960MW 원전 검토는 Utility Dive와 아마존 발표 검색 결과로 확인",
+ "src": [
+  {
+   "o": "Utility Dive",
+   "d": "2026-10-19",
+   "u": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/"
+  },
+  {
+   "o": "About Amazon",
+   "d": "2026-10-19",
+   "u": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep"
+  }
+ ],
+ "items": [
+  {
+   "t": "아마존·AEP, 인디애나 960MW 원전 사업 검토",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana"
+  }
+ ],
+ "inds": [
+  "uranium",
+  "power"
+ ],
+ "nodes": [
+  "uranium/build"
+ ],
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "아마존·AEP 인디애나 960MW 소형원전 검토"
+  }
+ ]
+}

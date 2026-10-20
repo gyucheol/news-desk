@@ -1,0 +1,100 @@
+{
+ "id": "n-bbg-0395",
+ "num": 395,
+ "key": "split-G2-031-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:14:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "셸, 3분기 정제 마진 배럴당 42달러로 상향…통합가스 생산 전망도 올려",
+ "headline": "셸, 3분기 정제 마진 배럴당 42달러로 상향…통합가스 생산 전망도 올려",
+ "one": "셸이 10월 7일 3분기 안내에서 정제 마진 지표를 배럴당 24달러에서 42달러로 높이고 통합가스 생산 전망을 하루 74만~78만 배럴로 올렸지만 화학 마진은 톤당 208달러로 떨어져, 정제·가스 부문 이익이 늘어날 전망이다",
+ "facts": [
+  "무엇이: 셸은 10월 7일 3분기 안내에서 정제 마진 지표를 배럴당 24달러에서 42달러로 약 75% 높여 제시했다 [사실]",
+  "가스: 3분기 통합가스 생산 전망을 하루 74만~78만 배럴로 제시해 2분기 63만 1,000배럴보다 높였다 [사실]",
+  "화학: 화학 마진은 톤당 270달러에서 208달러로 떨어졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 2건(10월 7일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 사실 줄의 셸 42달러([사실])와 출처 목록의 셸 3분기 안내문(GlobeNewswire·StockTitan)·DirectorsTalk 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "o": "셸 3분기 안내문(GlobeNewswire)",
+   "d": "2026-10-07",
+   "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+  },
+  {
+   "o": "StockTitan(셸 안내문)",
+   "d": "2026-10-07",
+   "u": "https://www.stocktitan.net/news/SHEL/shell-third-quarter-2026-update-ip8be8zrdsz6.html"
+  },
+  {
+   "o": "DirectorsTalk",
+   "d": "2026-10-07",
+   "u": "https://www.directorstalkinterviews.com/shell-raises-q3-integrated-gas-outlook-as-refining-margins-improve/4121265558"
+  }
+ ],
+ "items": [
+  {
+   "t": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings",
+   "s": "셸이 3분기 정제 마진 지표를 배럴당 24달러에서 42달러로 높여 안내한 반면 화학 마진은 톤당 270달러에서 208달러로 떨어졌다"
+  },
+  {
+   "t": "셸, 3분기 가스 생산 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/",
+   "s": "셸이 3분기 통합가스 생산 전망을 하루 74만~78만 배럴로 제시해 2분기 63만1000배럴보다 높이면서 가스 부문 이익이 늘어날 수 있다"
+  }
+ ],
+ "inds": [
+  "oil",
+  "gas",
+  "petchem"
+ ],
+ "nodes": [
+  "gas/upstream",
+  "petchem/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "셸 3분기 정제 마진 배럴당 42달러로 상향"
+  },
+  {
+   "ind": "gas",
+   "node": "upstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "셸 통합가스 생산 전망 하루 74만~78만 배럴"
+  },
+  {
+   "ind": "petchem",
+   "node": "commodity",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "셸 화학 마진 톤당 270달러에서 208달러로"
+  }
+ ]
+}

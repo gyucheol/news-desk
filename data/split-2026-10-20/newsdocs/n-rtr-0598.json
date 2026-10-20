@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0598",
+ "num": 598,
+ "key": "split-G5-164-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:11:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/lee-says-s-korea-capable-taking-back-wartime-command-combined-us-forces-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이 대통령 '한국, 연합군 전시작전통제권 환수 역량 있다'",
+ "headline": "이 대통령 '한국, 연합군 전시작전통제권 환수 역량 있다'",
+ "one": "이재명 대통령이 한국이 한미연합군의 전시작전통제권을 되찾을 역량이 있다고 밝히면서, 북한의 확성기 재개 검토로 접경 긴장이 높아진 가운데 전작권 환수 논의가 다시 떠오를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 이재명 대통령은 한국이 연합군의 전시작전통제권을 되찾을 역량이 있다고 말했다 [제목]",
+  "배경: 같은 날 김여정 부장은 대남 확성기방송 재개와 접경 전술타격수단 증강 배치를 검토한다고 밝혔다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에서 전작권 발언은 제목 기준으로만 남아 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "이 대통령 '한국, 연합군 전시작전권 환수 역량 있다'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/lee-says-s-korea-capable-taking-back-wartime-command-combined-us-forces-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "전작권 환수 발언은 수급보다 안보 정책 신호"
+  }
+ ]
+}

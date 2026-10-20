@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0510",
+ "num": 510,
+ "key": "split-G4-097-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 정부서 적자 높게 유지되는 가운데 차입 비용 급등",
+ "headline": "트럼프 정부서 적자 높게 유지되는 가운데 차입 비용 급등",
+ "one": "로이터가 10월 19일 트럼프 정부에서 재정적자가 높게 유지되는 가운데 차입 비용이 빠르게 오르고 있다고 짚으면서, 10년물 금리 5%대와 순이자 1조 달러 돌파 속 연방정부의 이자 부담이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 19일 트럼프 정부에서 적자가 높게 유지되는 사이 차입 비용이 급등하고 있다고 전했다 [제목]",
+  "금리: 9월 이후 10년물 금리가 5%를 넘어 부채 차환 비용을 끌어올리고 있다 [사실]",
+  "이자: 2026회계연도 순이자 지출은 사상 최대인 1조 500억 달러였다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준). 원 문서 확인 기록에 이 기사 부분이 없어 기사 요약 기준이며, 금리·이자 수치는 원 문서 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "트럼프 정부서 적자 높게 유지되는 가운데 차입 비용 급등",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/legal/government/under-trump-deficits-remain-high-while-borrowing-costs-escalate-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "높은 적자 속 미국 정부 차입 비용 급등"
+  }
+ ]
+}

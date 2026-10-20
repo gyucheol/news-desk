@@ -1,0 +1,68 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 주당 11.80호주달러, 잔여 79.5%, 약 20% 할증, 구속력 없음, 약 44억 달러는 검색 결과 요약(재팬타임스)으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 다이이치생명의 호주 자회사는 지분 20.36%를 가진 챌린저의 나머지 79.5%를 주당 11.80호주달러에 사겠다는 구속력 없는 제안을 했고, 블룸버그 계산으로 약 44억 달러다 [사실]",
+  "가격: 제안가는 직전 종가 대비 약 20% 할증이다 [사실]",
+  "반응: 챌린저 이사회가 제안 검토에 들어갔고 주가는 2018년 이후 최고로 뛰었다 [사실]",
+  "흐름: 일본 생보사의 해외 보험·연금 사업 확장이 이어지고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "다이이치생명, 호주 챌린저 잔여 지분 79.5% 약 44억 달러에 인수 제안",
+ "id": "n-bbg-0360",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "jpins"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "다이이치생명, 챌린저 잔여 지분 44억 달러에 인수 제안",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/daiichi-life-offers-to-buy-remainder-of-australia-s-challenger",
+   "s": "다이이치생명이 호주 연금 운용사 챌린저의 나머지 지분을 약 44억 달러에 사겠다고 제안하면서 일본 생보사의 해외 보험·연금 사업 확장이 이어졌다"
+  },
+  {
+   "t": "호주 챌린저, 다이이치생명 자회사로부터 인수 제안 받아",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/australias-challenger-gets-takeover-bid-unit-japans-daiichi-life-2026-10-18/",
+   "s": "챌린저가 다이이치생명 자회사로부터 주당 11.80호주달러의 구속력 없는 인수 제안을 받아 이사회가 검토에 들어가면서 주가가 2018년 이후 최고로 뛰었다"
+  }
+ ],
+ "key": "mix-G2-015-2026-10-20",
+ "nodes": [
+  "jpins/capital"
+ ],
+ "num": 360,
+ "one": "다이이치생명 호주 자회사가 이미 20.36%를 가진 챌린저의 나머지 79.5%를 주당 11.80호주달러, 약 44억 달러에 사겠다는 구속력 없는 제안을 하고 챌린저 이사회가 검토에 들어가면서, 챌린저 주가가 2018년 이후 최고로 뛰었다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T07:03:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "The Japan Times",
+   "d": "2026-10-19",
+   "u": "https://www.japantimes.co.jp/business/2026/10/19/companies/daiichi-life-challenger/"
+  }
+ ],
+ "tags": [],
+ "title": "다이이치생명, 호주 챌린저 잔여 지분 79.5% 약 44억 달러에 인수 제안",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/daiichi-life-offers-to-buy-remainder-of-australia-s-challenger",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "다이이치생명, 챌린저 잔여 지분 44억 달러 인수 제안"
+  }
+ ]
+}

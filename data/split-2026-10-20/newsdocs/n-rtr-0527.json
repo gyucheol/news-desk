@@ -1,0 +1,68 @@
+{
+ "id": "n-rtr-0527",
+ "num": 527,
+ "key": "split-G4-153-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/uk-finance-minister-healey-set-pay-budget-measures-without-more-borrowing-ft-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "힐리 '적자 감축 경로 고수'…추가 차입 없이 예산 재원 마련",
+ "headline": "힐리 '적자 감축 경로 고수'…추가 차입 없이 예산 재원 마련",
+ "one": "FT가 10월 14일 힐리 재무장관이 새 예산 조치 재원을 마련해 2029/30년 기준 차입을 늘리지 않을 계획이라고 전한 뒤 15일 힐리가 추측을 진화하며 적자 감축 경로를 지키겠다고 밝혀, 차입을 늘리는 대규모 부양책 가능성이 낮아졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 14일 FT는 힐리 재무장관이 새 예산 조치의 재원을 마련해 2029/30년 기준 차입을 늘리지 않을 계획이라고 전했다 [사실]",
+  "진화: 10월 15일 힐리 재무장관은 예산안을 앞두고 쏟아지는 추측을 누그러뜨리고 나섰다 [제목]",
+  "경로: 같은 날 힐리 재무장관은 적자 감축 경로를 그대로 지키겠다고 밝혔다 [제목]",
+  "해석: 지원책을 넓히려면 증세나 지출 조정이 따라야 할 전망이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건과 블룸버그 2건을 묶음. 원 문서 확인 기록에 추가 차입 없는 재원 마련 부분의 확인 출처가 없어 제목 기준으로 낮춤",
+ "src": [],
+ "items": [
+  {
+   "t": "FT '힐리 재무장관, 추가 차입 없이 예산 조치 재원 마련'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/uk-finance-minister-healey-set-pay-budget-measures-without-more-borrowing-ft-2026-10-14/",
+   "s": "힐리 재무장관이 새 예산 조치의 재원을 마련해 2029/30년 기준 차입을 늘리지 않을 계획이라고 FT가 전하면서, 지원책 확대에는 증세나 지출 조정이 따라야 할 전망이다"
+  },
+  {
+   "t": "英 재무장관, 예산안 앞두고 무성한 추측 진화",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/uk-chancellor-tamps-down-pre-budget-speculation",
+   "s": "힐리 재무장관이 예산안 발표를 앞두고 쏟아지는 추측을 누그러뜨리고 나서면서, 10월 28일 발표 전 시장 기대를 관리하려 하고 있다 (제목 기준)"
+  },
+  {
+   "t": "英 힐리 재무장관 '적자 감축 경로 그대로 지키겠다'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/uk-s-healey-says-he-will-stay-the-path-on-deficit-reduction",
+   "s": "힐리 재무장관이 적자 감축 경로를 그대로 지키겠다고 밝히면서, 예산안에서 차입을 늘리는 대규모 부양책이 나올 가능성이 낮아졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "힐리, 2029/30년 기준 차입 늘리지 않을 방침"
+  }
+ ]
+}

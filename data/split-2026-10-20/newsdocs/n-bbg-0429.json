@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0429",
+ "num": 429,
+ "key": "split-G3-014-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국, LLM·AI 에이전트·칩 설계 등 AI 기술 23개 수출통제 추진",
+ "headline": "중국, LLM·AI 에이전트·칩 설계 등 AI 기술 23개 수출통제 추진",
+ "one": "중국 상무부가 LLM·AI 에이전트·칩 설계 등 AI 모델·칩 관련 기술 23개를 수출 금지·제한 목록 초안에 넣고 임시 등록 의무부터 도입하면서, 중국산 AI 기술의 해외 이전이 까다로워질 전망이다 (채널 전언)",
+ "facts": [
+  "무엇이: 중국이 AI 모델·칩 관련 기술 23개 등을 수출 금지·제한 목록에 넣자고 제안했다 [사실]",
+  "범위: 초안에는 LLM·AI 에이전트·칩 설계·컴퓨팅 클러스터 등이 들어갔고, 진행 중인 기술 이전에도 임시 등록 의무가 적용된다 [채널]",
+  "영향: 중국산 AI 기술의 해외 이전이 까다로워질 전망이다 [사실]"
+ ],
+ "basis": "channel",
+ "check": "블룸버그(10월 16일)와 상상인 김진범 텔레그램(10월 19일, WSJ 인용)을 묶음. 원 문서 확인 기록은 AI 기술 23개 통제와 임시 등록 의무를 확인 못 했다고 적어 독립 출처를 붙이지 않음",
+ "src": [],
+ "items": [
+  {
+   "t": "중국, 핵심 기술 통제 위해 AI 수출 규제 계획",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents",
+   "s": "중국이 AI 모델·칩 관련 기술 23개 등을 수출 금지·제한 목록에 넣자고 제안하면서 중국산 AI 기술의 해외 이전이 까다로워질 전망이다"
+  },
+  {
+   "t": "中, LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진(WSJ)",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-19",
+   "u": "https://t.me/PipeBeom/6743",
+   "s": "중국 상무부가 LLM·AI 에이전트·칩 설계 등 AI 기술 23개를 수출 통제 목록 초안에 넣고 임시 등록 의무부터 도입하면서, 중국 AI 기술의 해외 이전이 규제를 받게 됐다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진"
+  }
+ ],
+ "ind": "semis"
+}

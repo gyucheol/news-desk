@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0424",
+ "num": 424,
+ "key": "split-G2-051-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/global-food-inflation-is-expected-intensify-supply-shocks-pile-up-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "공급 충격 쌓이며 세계 식량 물가 상승 거세질 전망",
+ "headline": "공급 충격 쌓이며 세계 식량 물가 상승 거세질 전망",
+ "one": "여러 공급 충격이 한꺼번에 쌓이면서 세계 식량 물가 상승이 더 거세질 것으로 예상돼, 식료품 값이 각국 소비자물가를 끌어올리고 물가 관리에 부담이 될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 공급 충격이 쌓이면서 세계 식량 물가 상승이 거세질 것으로 예상된다 [제목]",
+  "영향: 각국 물가 관리에 부담이 될 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(10월 19일). 원 문서 확인 기록은 식량 물가 전망을 확인 못 해 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "공급 충격 쌓이며 세계 식량 물가 상승 거세질 전망",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/americas/global-food-inflation-is-expected-intensify-supply-shocks-pile-up-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "agri"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "공급 충격 누적에 세계 식량 물가 상승 가속 전망"
+  }
+ ]
+}

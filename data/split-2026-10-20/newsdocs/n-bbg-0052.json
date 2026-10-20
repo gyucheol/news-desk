@@ -1,0 +1,292 @@
+{
+ "basis": "partial",
+ "check": "10월 2~14일 연준 위원 발언 기사 15건(로이터·블룸버그·텔레그램)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록에서 월러(investingLive·Finimize), 해맥(Quartz·Newsquawk), 윌리엄스(CNBC), 콜린스(investingLive), 굴스비(Semafor) 보도를 근거로 붙였고 무살렘·데일리는 기사 제목, 제퍼슨·바킨 발언과 금리 반응은 채널 기준이다.",
+ "cycles": [],
+ "dupOf": "n-tg-0096",
+ "facts": [
+  "무엇이: 월러 이사(10월 8일)는 추가 인상이 필요하지만 매 회의 연속 인상은 필요 없다고 했고, 콜린스 보스턴 연은 총재(13일)는 에너지값·관세·AI 구축을 물가 압력으로 꼽으며 올해 말 전 완만한 추가 인상을 열어 뒀다 [사실]",
+  "해맥·굴스비: 해맥 클리블랜드 연은 총재는 긴축 정책을 지지하며 작고 잦은 금리 조정을 비교적 빨리 하는 편이 낫고 고용시장 고통 없이 수요·물가를 식히길 기대한다고 했으며, 굴스비 시카고 연은 총재는 AI발 인플레이션이 데이터센터 공급망 밖으로 번지고 있다고 경고했다 [사실]",
+  "윌리엄스: 윌리엄스 뉴욕연은 총재는 연내 1회 추가 인상은 적절하지만 현재로선 2027년 인상은 필요 없다고 해, 2027년 인상을 점치는 선물시장과 다른 경로를 제시했다 [사실]",
+  "그 밖: 무살렘 세인트루이스 연은 총재는 물가를 낮추려면 추가 인상이 필요하다고 했고, 데일리 샌프란시스코 연은 총재는 추가 인상 필요성이 충격 전개에 달렸다고 말했다 [제목]",
+  "채널 전언: 제퍼슨 부의장은 판단에 시간이 더 필요하다고 했고(당시 10월 인상 확률 24%), 굴스비는 물가가 오를 때 동결은 실질 인하라고 했으며, 윌리엄스가 실질 중립금리를 1% 안팎으로 보고 경제 과열은 아니라고 하자 2년물 금리가 장중 3bp 상승폭을 반납했고 콜린스·바킨은 물가 대응을 강조했다 [채널]"
+ ],
+ "fed": [
+  {
+   "k": "Jefferson",
+   "who": "필립 제퍼슨",
+   "role": "연준 부의장",
+   "kind": "발언",
+   "stance": "중립",
+   "t": "제퍼슨 부의장이 금리 판단에 시간이 더 필요하다고 말했다",
+   "d": "2026-10-02",
+   "u": "https://t.me/The_MariTimes/63452"
+  },
+  {
+   "k": "Daly",
+   "who": "메리 데일리",
+   "role": "샌프란시스코 연은 총재",
+   "kind": "발언",
+   "stance": "중립",
+   "t": "데일리 총재가 추가 인상 필요성은 충격이 어떻게 전개되는지에 달렸다고 말했다",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/"
+  },
+  {
+   "k": "Waller",
+   "who": "크리스토퍼 월러",
+   "role": "연준 이사",
+   "kind": "발언",
+   "stance": "매파",
+   "t": "월러 이사가 추가 인상이 필요하지만 매 회의 연속 인상은 필요 없다고 말했다",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "k": "Musalem",
+   "who": "알베르토 무살렘",
+   "role": "세인트루이스 연은 총재",
+   "kind": "발언",
+   "stance": "매파",
+   "t": "무살렘 총재가 물가를 낮추려면 추가 금리 인상이 필요하다고 말했다",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/"
+  },
+  {
+   "k": "Hammack",
+   "who": "베스 해맥",
+   "role": "클리블랜드 연은 총재",
+   "kind": "발언",
+   "stance": "매파",
+   "t": "해맥 총재가 긴축 정책을 지지하며 작고 잦은 금리 조정을 비교적 빨리 하는 게 낫다고 말했다",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/fed-s-hammack-says-smaller-frequent-rate-adjustments-preferable"
+  },
+  {
+   "k": "Goolsbee",
+   "who": "오스턴 굴스비",
+   "role": "시카고 연은 총재",
+   "kind": "인터뷰",
+   "stance": "매파",
+   "t": "굴스비 총재가 물가 상승기 동결은 실질 인하이며 AI발 인플레이션이 번진다고 경고했다",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63686"
+  },
+  {
+   "k": "Williams",
+   "who": "존 윌리엄스",
+   "role": "뉴욕연은 총재(FOMC 부의장)",
+   "kind": "발언",
+   "stance": "중립",
+   "t": "윌리엄스 총재가 연내 1회 인상은 적절하나 현재로선 2027년 인상은 필요 없다고 말했다",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-williams-currently-sees-no-need-for-rate-hike-in-2027"
+  },
+  {
+   "k": "Collins",
+   "who": "수전 콜린스",
+   "role": "보스턴 연은 총재",
+   "kind": "발언",
+   "stance": "매파",
+   "t": "콜린스 총재가 에너지값·관세·AI 구축을 들어 올해 말 전 추가 인상을 열어 뒀다",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices"
+  },
+  {
+   "k": "Barkin",
+   "who": "토머스 바킨",
+   "role": "리치먼드 연은 총재",
+   "kind": "발언",
+   "stance": "매파",
+   "t": "바킨 총재가 물가 압력이 이어진다며 통화정책 대응을 강조했다고 채널이 전했다",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66135"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "월러·해맥·콜린스 추가 인상론…윌리엄스 '2027년 인상은 불필요'",
+ "id": "n-bbg-0052",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "제퍼슨 연준 부의장 \"판단에 시간 더 필요\"…10월 인상 확률 24%로",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-02",
+   "u": "https://t.me/The_MariTimes/63452",
+   "s": "제퍼슨 연준 부의장이 금리 판단에 시간이 더 필요하다고 말하면서, 시장이 반영한 10월 인상 확률이 24%로 집계됐다"
+  },
+  {
+   "t": "데일리 연은 총재 \"추가 인상 필요성은 충격 전개에 달려\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/",
+   "s": "데일리 샌프란시스코 연은 총재가 추가 금리 인상이 필요한지는 충격이 어떻게 전개되는지에 달렸다며 판단을 열어 뒀다"
+  },
+  {
+   "t": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65727",
+   "s": "월러 연준 이사가 추가 금리 인상은 필요하지만 매 회의 연속으로 올릴 필요는 없다며 인상 속도에 유연성을 뒀다"
+  },
+  {
+   "t": "무살렘 연은 총재 \"물가 낮추려면 추가 금리 인상 필요\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/",
+   "s": "무살렘 연은 총재가 물가를 낮추려면 추가 금리 인상이 필요하다고 말하면서 연준 안의 인상론에 힘을 보탰다"
+  },
+  {
+   "t": "연준 해맥 '작고 잦은 금리 조정이 바람직'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/fed-s-hammack-says-smaller-frequent-rate-adjustments-preferable",
+   "s": "해맥 클리블랜드 연은 총재가 금리를 작게 자주 조정하는 편이 바람직하다고 말하면서 점진적 추가 인상 방식을 제시했다"
+  },
+  {
+   "t": "연준 해맥, 긴축 정책 지지…'비교적 빨리 하는 게 낫다'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/markets/us/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-2026-10-12/",
+   "s": "해맥 총재가 긴축적 통화정책을 지지하면서 인상을 하려면 비교적 빨리 하는 편이 낫다고 말했다"
+  },
+  {
+   "t": "연준 해맥 '고용시장 고통 없이 수요·물가 식히길 기대'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/feds-hammack-hope-cool-demand-inflation-without-job-market-pain-2026-10-12/",
+   "s": "해맥 총재가 고용시장에 큰 고통을 주지 않고 수요와 물가를 식힐 수 있기를 기대한다고 말했다"
+  },
+  {
+   "t": "굴스비 '물가 오를 때 금리 동결은 실질적 인하…투자는 놀라운 강세'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63686",
+   "s": "굴스비 총재가 목표를 웃도는 물가가 더 오를 때 금리 동결은 실질 인하와 같다고 하면서, 강한 기업 투자를 들어 현 금리가 긴축적이지 않다는 시각을 드러냈다"
+  },
+  {
+   "t": "굴스비 'AI발 인플레이션, 제 영역 벗어나 번져'(세마포)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/goolsbee-says-ai-induced-inflation-is-jumping-out-its-lane-semafor-reports-2026-10-13/",
+   "s": "굴스비 총재가 AI발 인플레이션이 데이터센터 공급망 밖으로 번지고 있다고 경고하면서, 되돌리기 어려운 수요발 물가가 될 수 있다는 우려를 키웠다"
+  },
+  {
+   "t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-williams-currently-sees-no-need-for-rate-hike-in-2027",
+   "s": "윌리엄스 총재가 현재로선 2027년 금리 인상이 필요 없다고 보면서, 2027년 인상을 점치는 선물시장과 다른 금리 경로를 제시했다"
+  },
+  {
+   "t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'(블룸버그 보도)",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/feds-williams-currently-sees-no-need-rate-hike-2027-bloomberg-news-reports-2026-10-13/",
+   "s": "로이터도 윌리엄스 총재의 연내 1회 추가 인상은 적절하다는 발언을 전하면서, 연내 인상 뒤 멈추는 뉴욕 연은의 경로가 재확인됐다"
+  },
+  {
+   "t": "콜린스 '물가 잡으려면 올해 금리 더 오를 가능성 커'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices",
+   "s": "콜린스 총재가 물가를 잡으려면 올해 금리가 더 오를 가능성이 크다고 보면서, 10월 말·12월 회의의 추가 인상 가능성이 살아 있다"
+  },
+  {
+   "t": "콜린스 '2026년 말 전 추가 금리 인상 논의 대상'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/feds-collins-sees-another-rate-hike-table-before-end-2026-2026-10-13/",
+   "s": "콜린스 총재가 에너지값·관세·AI 구축을 물가 압력으로 꼽으며 연말 전 추가 인상을 열어 두면서, 완만한 추가 인상이 적절하다는 판단을 내놨다"
+  },
+  {
+   "t": "윌리엄스 '경제 과열 아냐', 콜린스·바킨은 물가 대응 강조",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66135",
+   "s": "윌리엄스가 AI 인프라 투자가 반도체값·건설비를 올리지만 경제 전반 과열은 아니라고 했고 콜린스·바킨은 물가 압력 지속을 들어 통화정책 대응을 강조했다"
+  },
+  {
+   "t": "윌리엄스 '실질 중립금리 1% 안팎'…2년물 금리 상승폭 반납",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-14",
+   "u": "https://t.me/TNBfolio/71530",
+   "s": "윌리엄스가 실질 중립금리를 1% 안팎으로 보며 현 금리가 중립에서 멀지 않다고 하자 2년물 금리가 장중 3bp 상승폭을 모두 반납하면서, 해먹·로건 등 추가 인상론과의 차이가 드러났다"
+  }
+ ],
+ "key": "bbg-1001-trump-warsh-should-have-opposed",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "num": 52,
+ "one": "월러·무살렘·해맥·콜린스 등 연준 위원들이 10월 FOMC를 앞두고 추가 인상 필요성을 잇달아 밝힌 반면 윌리엄스 뉴욕연은 총재는 연내 1회 인상은 적절하나 2027년 인상은 필요 없다고 하면서, 인상 폭과 기간을 둘러싼 시각차가 드러났다",
+ "origTitle": "Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T23:04:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "investingLive",
+   "d": "2026-10-08",
+   "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-08",
+   "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-12",
+   "u": "https://qz.com/cleveland-fed-hammack-smaller-frequent-rate-hikes-101226"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-12",
+   "u": "https://www.newsquawk.com/headlines/feds-hammack-2026-voter-says--broad-based-inflation-and-ongoing-growth-need-restrictive-monetary-policy"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-13",
+   "u": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-13",
+   "u": "https://investinglive.com/central-banks/fed-s-collins-backs-another-rate-hike-by-year-end-flags-three-inflation-pressures/"
+  },
+  {
+   "o": "Semafor",
+   "d": "2026-10-13",
+   "u": "https://www.semafor.com/article/10/12/2026/ai-is-an-inflation-problem-feds-goolsbee-says"
+  }
+ ],
+ "tags": [],
+ "title": "월러·해맥·콜린스 추가 인상론…윌리엄스 '2027년 인상은 불필요'",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://t.me/The_MariTimes/63452",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "연준 위원들 연내 추가 금리 인상 필요성 언급"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "에너지값·관세·AI 구축이 물가 압력으로 꼽혀"
+  }
+ ],
+ "channel": "Polaristimes"
+}

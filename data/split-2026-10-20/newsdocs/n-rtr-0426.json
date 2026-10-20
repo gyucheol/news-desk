@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0426",
+ "num": 426,
+ "key": "split-G2-064-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/venezuelas-president-expects-third-quarter-growth-after-earthquake-hit-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "베네수엘라 대통령, 지진 피해에도 3분기 성장 기대",
+ "headline": "베네수엘라 대통령, 지진 피해에도 3분기 성장 기대",
+ "one": "베네수엘라 대통령이 지진 피해에도 3분기 성장을 기대한다고 밝히면서, 달러 공급 감소로 볼리바르가 급락하는 가운데서도 석유 증산과 함께 경기 회복을 내세웠다 (제목 기준)",
+ "facts": [
+  "무엇이: 베네수엘라 대통령은 지진 피해에도 3분기 성장을 기대한다고 밝혔다 [제목]",
+  "엇갈린 신호: 같은 시기 달러 공급이 줄며 볼리바르가 급락해 경제 조정이 시험대에 올랐다 [제목]",
+  "증산: 술리아주 생산은 하루 7만 배럴에서 37만 배럴로 늘었다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 지진 피해 규모와 성장 수치는 나오지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "베네수엘라 대통령, 지진 피해에도 3분기 성장 기대",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/venezuelas-president-expects-third-quarter-growth-after-earthquake-hit-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "지진 피해에도 3분기 성장 기대"
+  }
+ ]
+}

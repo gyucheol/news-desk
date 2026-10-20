@@ -1,0 +1,56 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(10월 19일). 미국 항공 운임 22.4% 상승은 Airways Magazine 검색 결과로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국 항공 운임은 9월 전년 대비 22.4% 올라 전체 소비자물가 상승률 3.7%를 크게 웃돌았다 [사실]",
+  "대응: 항공사들은 값이 올라도 수요가 줄지 않는 프리미엄 좌석 고객 공략에 나섰고, 비싼 좌석 비중이 커지고 있다 [사실]",
+  "배경: 운임 급등은 중동 분쟁 뒤 높아진 연료비 부담과 맞물려 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 항공권 9월 22.4% 급등…항공사들 부유층 프리미엄 고객 공략",
+ "id": "n-bbg-0357",
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "美 항공권 22% 급등에 항공사들 부유층 여행객 공략",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22"
+  }
+ ],
+ "key": "mix-G1-025-2026-10-20",
+ "nodes": [],
+ "num": 357,
+ "one": "미국 항공 운임이 9월 전년 대비 22.4% 올라 소비자물가 상승률 3.7%를 크게 웃돈 가운데, 항공사들이 값이 올라도 수요가 줄지 않는 프리미엄 좌석 고객을 겨냥하면서 비싼 좌석 비중이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Airways Magazine",
+   "d": "2026-10-19",
+   "u": "https://www.airwaysmag.com/new-post/us-airline-fares-september-2026-inflation"
+  }
+ ],
+ "tags": [],
+ "title": "美 항공권 9월 22.4% 급등…항공사들 부유층 프리미엄 고객 공략",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "미국 항공 운임 9월 전년 대비 22.4% 상승"
+  }
+ ]
+}

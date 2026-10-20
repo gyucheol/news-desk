@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0418",
+ "num": 418,
+ "key": "split-G2-025-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/logistics-rising-global-prices-could-create-diesel-shortage-ukraine-industry-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "우크라이나 업계 '물류난·국제 가격 상승에 경유 부족 올 수도'",
+ "headline": "우크라이나 업계 '물류난·국제 가격 상승에 경유 부족 올 수도'",
+ "one": "우크라이나 업계가 물류난과 국제 경유 가격 상승 탓에 경유 부족이 올 수 있다고 경고하면서, 세계 경유 강세가 수입에 기대는 나라의 공급 불안으로 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 우크라이나 업계가 10월 12일 물류난과 국제 가격 상승 탓에 경유 부족이 올 수 있다고 경고했다 [제목]",
+  "의미: 세계 경유 가격 강세가 수입 의존국의 공급 불안으로 번지고 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "우크라이나 업계 \"물류난·국제 가격 상승에 경유 부족 올 수도\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/logistics-rising-global-prices-could-create-diesel-shortage-ukraine-industry-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "우크라이나, 물류난·가격 상승에 경유 부족 경고"
+  }
+ ]
+}

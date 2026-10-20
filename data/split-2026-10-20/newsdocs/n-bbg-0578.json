@@ -1,0 +1,84 @@
+{
+ "id": "n-bbg-0578",
+ "num": 578,
+ "key": "split-G6-045-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/copper-stable-as-ai-driven-tech-stock-rally-holds-near-record",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "칠레 광산 파업·中 수요에 구리값 톤당 1만 4,540달러, 주간 2% 상승",
+ "headline": "칠레 광산 파업·中 수요에 구리값 톤당 1만 4,540달러, 주간 2% 상승",
+ "one": "10월 7일 칠레 센티넬라 파업이 공급 위험을 더해 구리값이 오르기 시작한 뒤 중국 수입 수요 지표가 4년 만에 최고를 기록하며 톤당 1만 4,540달러로 주간 약 2% 올랐고, 12일에는 금리 인상 기대 완화와 칠레 광산 눈사태에 다시 상승했다",
+ "facts": [
+  "무엇이: 10월 7일 칠레 광산 파업이 공급 위험을 더하면서 구리값이 소폭 올라 공급 차질 우려가 가격에 반영되기 시작했다 [사실]",
+  "주간: 중국 수입 수요 지표가 4년 만에 최고를 기록하고 센티넬라 파업이 이어지면서 구리값이 톤당 1만 4,540달러로 1.6% 올라 주간 약 2% 상승했다 [채널]",
+  "수요·공급: 블룸버그는 9일 중국 시장 복귀와 공급 우려가 함께 가격을 떠받쳤다고 전했다 [제목]",
+  "12일: 금리 인상 기대 완화와 칠레 광산 눈사태가 겹치며 구리값이 다시 올랐다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 3건과 텔레그램 상상인 김진범 1건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 The Northern Miner(파업발 구리 상승)·MINING.COM(1만 4,400달러 위 유지) 보도를 근거로 붙였고 톤당 가격·주간 상승률은 채널 기준이다.",
+ "src": [
+  {
+   "o": "The Northern Miner",
+   "d": "2026-10-08",
+   "u": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/"
+  },
+  {
+   "o": "MINING.COM",
+   "d": "2026-10-09",
+   "u": "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows/"
+  }
+ ],
+ "items": [
+  {
+   "t": "칠레 광산 파업이 공급 위험 더하며 구리 소폭 상승",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/copper-stable-as-ai-driven-tech-stock-rally-holds-near-record",
+   "s": "칠레 광산 파업이 공급 위험을 더하면서 구리값이 소폭 올라 공급 차질 우려가 가격에 반영되기 시작했다 (제목 기준)"
+  },
+  {
+   "t": "구리, 중국 복귀와 공급 우려에 주간 상승 앞둬",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/copper-set-for-weekly-gain-on-china-s-return-and-supply-concerns",
+   "s": "구리가 중국 시장 복귀와 공급 우려에 힘입어 주간 상승을 앞두면서 수요와 공급 양쪽 요인이 가격을 떠받쳤다 (제목 기준)"
+  },
+  {
+   "t": "구리값 톤당 1만 4,540달러로 1.6% 상승…中 수요·광산 공급 위험",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-10",
+   "u": "https://t.me/PipeBeom/6651",
+   "s": "중국 수입 수요 지표가 4년 만에 최고를 기록하고 센티넬라 파업이 이어지면서, 구리값이 톤당 1만 4,540달러로 오르며 주간 약 2% 상승했다"
+  },
+  {
+   "t": "금리 인상 기대 완화와 칠레 광산 눈사태에 구리값 상승",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche",
+   "s": "금리 인상 기대 완화와 칠레 광산 눈사태가 겹치면서 구리값이 올라 공급 차질 우려가 가격에 반영됐다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "칠레 파업·中 수요에 구리 톤당 1만 4,540달러"
+  }
+ ]
+}

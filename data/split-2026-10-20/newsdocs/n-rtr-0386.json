@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0386",
+ "num": 386,
+ "key": "split-G1-083-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/us-china-supertanker-freight-cost-eases-record-data-shows-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미국-중국 VLCC 운임 하루 63만 7,675달러 사상 최고서 소폭 하락",
+ "headline": "미국-중국 VLCC 운임 하루 63만 7,675달러 사상 최고서 소폭 하락",
+ "one": "미 걸프-중국 VLCC 운임이 하루 63만 7,675달러 사상 최고에서 63만 4,974달러로 소폭 내렸지만 정점 부근에 머물면서, 운송비 부담을 느낀 아시아 정유사들이 다른 산지 원유로 눈을 돌리고 있다",
+ "facts": [
+  "무엇이: 미 걸프-중국 VLCC 운임은 하루 63만 7,675달러 사상 최고에서 63만 4,974달러로 소폭 내렸다 [사실]",
+  "수준: 하락 폭이 작아 운임은 여전히 정점 부근에 머물렀다 [사실]",
+  "반응: 아시아 정유사들은 높은 운임에 다른 산지 원유로 눈을 돌리고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 12일) 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준. 원 문서 출처 목록의 Baird Maritime 10월 12일 보도가 미국-중국 원유 운송비 하락을 다룸.",
+ "src": [
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-12",
+   "u": "https://www.bairdmaritime.com/shipping/tankers/us-china-crude-shipping-costs-retreat-after-unprecedented-surge"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국-중국 초대형유조선 운임, 사상 최고치에서 소폭 하락",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/us-china-supertanker-freight-cost-eases-record-data-shows-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "미 걸프-중국 VLCC 운임 사상 최고서 소폭 하락"
+  },
+  {
+   "ind": "oil",
+   "node": "nonopec",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "아시아 정유사, 높은 운임에 다른 산지 모색"
+  }
+ ]
+}

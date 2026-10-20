@@ -1,0 +1,74 @@
+{
+ "id": "n-tg-0548",
+ "num": 548,
+ "key": "split-G3-090-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T11:43:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66035",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인텔·퀄컴 이어 AMD도 프로세서 가격 인상 전망…TSMC 비용 상승 여파",
+ "headline": "인텔·퀄컴 이어 AMD도 프로세서 가격 인상 전망…TSMC 비용 상승 여파",
+ "one": "TSMC 제조비 상승으로 인텔·퀄컴에 이어 AMD도 프로세서 가격 인상에 나설 전망이어서, 메모리와 기판 소재값이 함께 오르는 가운데 PC 제조사의 부품 원가 부담이 더 커질 수 있다",
+ "facts": [
+  "무엇이: 인텔·퀄컴에 이어 AMD도 프로세서 가격 인상에 나설 전망이다 [사실]",
+  "원인: 채널은 TSMC 제조비 상승이 인상 배경이라고 전했다 [채널]",
+  "영향: PC 제조사의 부품 원가 부담이 커질 수 있다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 미국 주식 인사이더 1건. 출처 목록의 Wccftech·Hardware Busters(인텔 인상, AMD 인상 예상)가 핵심을 뒷받침하고, TSMC 비용 상승 원인은 채널 전언",
+ "src": [
+  {
+   "o": "Wccftech",
+   "d": "2026-10",
+   "u": "https://wccftech.com/multiple-intel-cpu-families-witness-15-20-price-hike-while-amd-is-also-expected-to-raise-cpu-prices-soon/"
+  },
+  {
+   "o": "Hardware Busters",
+   "d": "2026-10",
+   "u": "https://hwbusters.com/news/intels-third-cpu-price-hike-in-a-year-hits-panther-lake-hardest-with-qualcomm-and-amd-close-behind/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인텔·퀄컴 이어 AMD도 프로세서 가격 인상 전망…TSMC 비용 상승 여파",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/66035"
+  }
+ ],
+ "inds": [
+  "semis",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "design",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "인텔·퀄컴 이어 AMD도 프로세서 값 인상 전망"
+  },
+  {
+   "ind": "semis",
+   "node": "foundry",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "TSMC 제조비 상승이 칩 값 인상 압력"
+  }
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

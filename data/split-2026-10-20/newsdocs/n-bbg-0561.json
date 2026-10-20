@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0561",
+ "num": 561,
+ "key": "split-G5-120-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/germany-to-push-eu-to-impose-caps-on-additional-chinese-imports",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "독일, EU에 화학·기계 등 중국산 수입 쿼터 확대 압박",
+ "headline": "독일, EU에 화학·기계 등 중국산 수입 쿼터 확대 압박",
+ "one": "독일이 14일 브뤼셀 정상회의를 앞두고 화학·기계 등 더 많은 중국산 수입품에 상한을 두자고 EU를 압박하면서, 하이브리드차에 쓰인 쿼터 방식이 자동차 밖 업종으로 넓어질 수 있다",
+ "facts": [
+  "무엇이: 독일이 화학·기계 등 더 많은 중국산 수입품에 상한을 부과하자고 EU를 압박했다 [사실]",
+  "시점: 독일은 브뤼셀 정상회의를 앞두고 대중 수입 쿼터 확대를 촉구해 정상들의 중국 무역 논의 수위를 높였다 [사실]",
+  "전망: 쿼터가 자동차 밖 업종으로 넓어질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 독일의 쿼터 확대 요구는 원 문서 출처 목록의 Türkiye Today 보도로 뒷받침",
+ "src": [
+  {
+   "o": "Türkiye Today",
+   "d": "2026-10-14",
+   "u": "https://www.turkiyetoday.com/business/germany-seeks-broader-eu-import-quotas-on-chinese-goods-beyond-evs-report-3230311"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일, EU에 더 많은 중국산 수입품 상한 부과 압박",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/germany-to-push-eu-to-impose-caps-on-additional-chinese-imports",
+   "s": "독일이 화학·기계 등 더 많은 중국산 수입품에 상한을 두자고 EU를 압박하면서, 쿼터가 자동차 밖 업종으로 넓어질 수 있다"
+  },
+  {
+   "t": "독일, 브뤼셀 정상회의 앞두고 대중 쿼터 확대 촉구",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/germany-pushes-for-more-eu-quotas-on-china-ahead-of-brussels-summit",
+   "s": "독일이 브뤼셀 정상회의를 앞두고 대중 수입 쿼터 확대를 촉구하면서, 정상들의 중국 무역 논의 수위가 높아졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "petchem",
+  "industrial"
+ ],
+ "nodes": [
+  "macro/geo",
+  "petchem/policy"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "독일, 화학·기계 중국산 수입 상한 압박"
+  }
+ ]
+}

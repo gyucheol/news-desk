@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0627",
+ "num": 627,
+ "key": "split-G6-160-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/roche-unveil-lung-breast-cancer-data-esmo-2026-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로슈, ESMO 2026서 폐암·유방암 데이터 공개",
+ "headline": "로슈, ESMO 2026서 폐암·유방암 데이터 공개",
+ "one": "로슈가 ESMO 2026에서 폐암·유방암 데이터를 공개하면서, 머크·모더나와 서밋·아케소 등이 3상 결과를 내놓는 같은 학회에서 대형 제약사의 항암 파이프라인 경쟁이 이어진다 (제목 기준)",
+ "facts": [
+  "무엇이: 로슈가 ESMO 2026에서 폐암·유방암 데이터를 공개한다 [제목]",
+  "같은 학회: 머크·모더나는 맞춤형 mRNA 암 백신 흑색종 3상 세부 데이터를, 서밋·아케소는 아이보시디맙의 담도암 3상 결과를 공개한다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에서 로슈 데이터 공개는 제목 기준으로만 남아 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "로슈, ESMO 2026서 폐암·유방암 데이터 공개",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/roche-unveil-lung-breast-cancer-data-esmo-2026-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "bigpharma",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "로슈 ESMO서 폐암·유방암 데이터 공개"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0388",
+ "num": 388,
+ "key": "split-G2-013-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+ "headline": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+ "one": "트럼프 대통령이 10월 2일 G7의 비축유 1억 배럴 방출 합의 뒤 미국은 경유 수출 금지를 하지 않겠다고 밝히면서, 사상 최고 경유값 속에서도 미국산 경유의 해외 공급은 유지될 전망이다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 2일 G7의 비축유 1억 배럴 방출 합의 뒤 미국은 경유 수출 금지를 보류하겠다고 말했다 [사실]",
+  "배경: 미국 정유 가동률은 이미 98%이고, 경유값은 9월 22일 갤런당 6.53달러로 사상 최고를 찍었다 [사실]",
+  "의미: 수출 금지 대신 비축유 방출이 공급 대책이 되면서 미국산 경유의 해외 공급은 이어질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 타운홀(수출 금지 보류)·오일프라이스(G7 1억 배럴 방출) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "타운홀",
+   "d": "2026-10-02",
+   "u": "https://townhall.com/news/cameron-arcand/2026/10/02/trump-declines-diesel-export-ban-after-european-agreement-n2684049"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-05",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+   "o": "블룸버그",
+   "d": "2026-10-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "stocks",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "G7 비축유 1억 배럴 방출 합의"
+  },
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "트럼프, 경유 수출 금지 보류"
+  }
+ ]
+}

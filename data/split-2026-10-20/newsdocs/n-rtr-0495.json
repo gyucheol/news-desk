@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0495",
+ "num": 495,
+ "key": "split-G4-041-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/imf-expects-least-one-more-25-bps-ecb-rate-hike-2026-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF \"ECB, 올해 최소 한 차례 0.25%p 더 올릴 것\"",
+ "headline": "IMF \"ECB, 올해 최소 한 차례 0.25%p 더 올릴 것\"",
+ "one": "IMF가 높은 물가에 맞서 ECB가 올해 최소 한 차례 0.25%포인트 더 금리를 올릴 것으로 보면서, 6월·9월에 이은 올해 세 번째 인상 가능성이 커지고 유로존 차입 비용 부담도 늘어날 수 있다",
+ "facts": [
+  "무엇이: IMF는 ECB가 높은 물가에 맞서 2026년 중 최소 한 차례 0.25%포인트 추가 인상할 것으로 예상했다(10월 16일) [사실]",
+  "흐름: ECB는 올해 6월과 9월에 금리를 올렸고, 추가 인상하면 세 번째가 된다 [사실]",
+  "관련: ECB는 12월 인상 쪽으로 기울고 있으며 인상하면 정책금리는 2.75%가 된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 16일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, IndexBox·GuruFocus의 IMF 전망 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-16",
+   "u": "https://www.indexbox.io/blog/imf-ecb-may-need-at-least-one-more-25-basis-point-rate-hike-in-2026/"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-16",
+   "u": "https://www.gurufocus.com/news/9127428/imf-predicts-ecb-rate-hikes-needed-to-combat-inflation"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF, 2026년 ECB 최소 한 차례 0.25%p 추가 인상 예상",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/imf-expects-least-one-more-25-bps-ecb-rate-hike-2026-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "IMF, ECB 올해 최소 0.25%p 추가 인상 예상"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0599",
+ "num": 599,
+ "key": "split-G5-171-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:28:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/china-set-leave-benchmark-lending-rates-unchanged-17th-month-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국, 대출우대금리(LPR) 17개월째 동결 전망",
+ "headline": "중국, 대출우대금리(LPR) 17개월째 동결 전망",
+ "one": "중국이 기준 대출금리인 대출우대금리(LPR)를 17개월째 그대로 둘 것으로 보이면서, 인민은행이 익일물 금리의 정책금리 전환을 검토하는 가운데 기업·가계 대출금리 부담이 당분간 이어질 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국 대출우대금리는 17개월째 동결될 전망이다 [제목]",
+  "맥락: 판궁성 인민은행장은 익일물 레포 금리를 주 정책금리로 삼는 방안을 연구하겠다고 했고, 우량 기업 신규 대출의 DR001 연동 허용도 함께 나왔다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에서 LPR 17개월 동결은 예상 기사 제목만 있어 실제 고시는 확인 못 함",
+ "src": [],
+ "items": [
+  {
+   "t": "중국, 기준 대출금리(LPR) 17개월째 동결할 전망",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/china/china-set-leave-benchmark-lending-rates-unchanged-17th-month-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "LPR 17개월째 동결 전망"
+  }
+ ]
+}

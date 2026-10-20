@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0478",
+ "num": 478,
+ "key": "split-G4-070-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/france-s-budget-must-get-timely-approval-imf-s-valdes-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF \"프랑스 신뢰도 지키려면 예산 제때 승인돼야\"",
+ "headline": "IMF \"프랑스 신뢰도 지키려면 예산 제때 승인돼야\"",
+ "one": "IMF가 10월 14일 프랑스의 신뢰도를 지키려면 예산이 제때 승인돼야 한다고 밝히면서, 유로존 장관들의 2027년 예산 통과 요구에 이어 분열된 의회의 예산 처리가 시장 신뢰의 관건으로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 14일 프랑스의 신뢰도를 지키려면 예산이 제때 승인돼야 한다고 밝혔다 [제목]",
+  "유로존: 유로존 장관들도 시장을 진정시키려면 프랑스가 2027년 예산을 통과시켜야 한다고 요구했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준. 유로존 장관 요구는 원 문서의 제목 근거 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF '프랑스 신뢰도 지키려면 예산 제때 승인돼야'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/france-s-budget-must-get-timely-approval-imf-s-valdes-says"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "IMF, 프랑스 예산 제때 승인 필요 강조"
+  }
+ ]
+}

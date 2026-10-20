@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0493",
+ "num": 493,
+ "key": "split-G4-039-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/french-inflation-rises-34-september-highest-since-january-2024-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 9월 물가 3.4%로 뛰어…2024년 1월 이후 최고",
+ "headline": "프랑스 9월 물가 3.4%로 뛰어…2024년 1월 이후 최고",
+ "one": "프랑스 9월 EU 기준 물가 상승률이 8월 2.6%에서 3.4%로 뛰어 2024년 1월 이후 최고를 기록하면서, 에너지발 물가 상승이 독일에 이어 프랑스에서도 확인됐다",
+ "facts": [
+  "무엇이: 프랑스 9월 EU 기준 물가가 8월 2.6%에서 3.4%로 뛰어 2024년 1월 이후 최고를 기록했다(10월 15일) [사실]",
+  "비교: 독일 9월 소비자물가는 3.3%로 확정돼 2023년 12월 이후 최고였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 15일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, INSEE 발표를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "INSEE",
+   "d": "2026-10-15",
+   "u": "https://www.insee.fr/fr/statistiques/9080209"
+  }
+ ],
+ "items": [
+  {
+   "t": "프랑스 9월 물가 3.4% 상승…2024년 1월 이후 최고",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/french-inflation-rises-34-september-highest-since-january-2024-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "프랑스 9월 물가 3.4%로 2024년 1월 이후 최고"
+  }
+ ]
+}

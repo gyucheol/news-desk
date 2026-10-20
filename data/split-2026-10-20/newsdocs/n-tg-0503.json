@@ -1,0 +1,62 @@
+{
+ "id": "n-tg-0503",
+ "num": 503,
+ "key": "split-G3-008-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66100",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "BofA \"스타링크 이동 시 아이폰 500만 대 감소 가능\"…애플에 세 가지 위협",
+ "headline": "BofA \"스타링크 이동 시 아이폰 500만 대 감소 가능\"…애플에 세 가지 위협",
+ "one": "BofA가 스타링크 모바일이 통신사 보조금 모델을 흔들어 애플에 위협이 된다고 분석하면서, 미 3대 통신사 후불 가입자 10%가 옮기면 아이폰 판매가 약 500만 대, 애플 매출이 약 60억 달러 줄 수 있다고 추산했다",
+ "facts": [
+  "무엇이: BofA는 스타링크 모바일이 세 가지 측면에서 애플에 위협이 될 수 있다고 분석했다(10월 13일) [채널]",
+  "추산: 미 3대 통신사 후불 가입자 10%가 스페이스X로 옮기면 아이폰 판매가 약 500만 대, 애플 매출이 약 60억 달러 줄 수 있다 [사실]",
+  "경로: 스타링크로의 이동이 통신사 보조금 모델을 흔들 수 있다는 점이 핵심이다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 미국 주식 인사이더 1건(10월 13일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, BofA 추산은 원 문서 사실 줄([사실])과 야후파이낸스(BofA 분석 보도)·BigGo를 근거로 붙였다. 세 가지 위협과 보조금 경로는 채널 전언이다.",
+ "src": [
+  {
+   "o": "Yahoo Finance(BofA 분석 보도)",
+   "d": "2026-10",
+   "u": "https://finance.yahoo.com/technology/article/spacexs-starlink-could-pose-3-big-risks-to-apple-bofa-warns-175500290.html"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10",
+   "u": "https://finance.biggo.com/news/bb116a77-9698-45bc-93ec-5a89946a9d39"
+  }
+ ],
+ "items": [
+  {
+   "t": "BofA \"스타링크 모바일, 세 가지 측면에서 애플에 위협\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66100"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "후불 가입자 10% 이탈 시 아이폰 500만 대 감소 추산"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

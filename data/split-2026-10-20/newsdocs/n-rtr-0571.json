@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0571",
+ "num": 571,
+ "key": "split-G5-108-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/byd-exec-says-biggest-challenge-expansion-is-geopolitics-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "BYD 경영진 '해외 확장의 가장 큰 난관은 지정학'",
+ "headline": "BYD 경영진 '해외 확장의 가장 큰 난관은 지정학'",
+ "one": "BYD 경영진이 8일 해외 확장에서 가장 큰 난관은 지정학이라고 밝히면서, 각국의 무역 규제가 중국 완성차 업체들의 해외 진출 속도를 제약할 수 있다는 점을 시사했다 (제목 기준)",
+ "facts": [
+  "무엇이: BYD 경영진이 해외 확장의 가장 큰 난관으로 지정학을 꼽았다 [제목]",
+  "의미: 무역 규제가 중국 완성차의 해외 진출을 제약할 수 있음을 시사했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "BYD 경영진 \"해외 확장의 가장 큰 난관은 지정학\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/byd-exec-says-biggest-challenge-expansion-is-geopolitics-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "chinaoem",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "지정학이 BYD 해외 확장 최대 난관으로 꼽힘"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0546",
+ "num": 546,
+ "key": "split-G5-064-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/brazil-announces-bill-forgive-25-billion-micro-entrepreneurs-debt-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질, 영세 자영업자 부채 250억 탕감 법안 발표",
+ "headline": "브라질, 영세 자영업자 부채 250억 탕감 법안 발표",
+ "one": "브라질 정부가 10월 25일 결선 투표를 앞두고 영세 자영업자 부채 250억 규모를 탕감하는 법안을 내놓으면서, 시장이 이미 부채 증가를 걱정하는 가운데 재정 부담이 더 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 브라질 정부는 영세 자영업자 부채 250억 규모를 탕감하는 법안을 발표했다 [제목]",
+  "시점: 법안은 10월 25일 결선 투표를 앞두고 나왔다 [사실]",
+  "영향: 결선을 앞둔 재정 부담이 커질 수 있고, 시장 열광이 급증하는 브라질 부채 문제를 가린다는 분석도 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 탕감 규모의 통화 단위는 기사에 나온 그대로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질, 영세 자영업자 부채 250억 탕감 법안 발표",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/brazil-announces-bill-forgive-25-billion-micro-entrepreneurs-debt-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "영세 자영업자 부채 250억 탕감 법안 발표"
+  }
+ ]
+}

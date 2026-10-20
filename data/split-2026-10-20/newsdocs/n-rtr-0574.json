@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0574",
+ "num": 574,
+ "key": "split-G5-113-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/autos-transportation/eu-eyes-december-trade-initiatives-after-china-car-import-deal-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU, 중국차 수입 합의 뒤 12월 무역 조치 추진 검토",
+ "headline": "EU, 중국차 수입 합의 뒤 12월 무역 조치 추진 검토",
+ "one": "EU가 12일 중국과의 자동차 수입 합의 뒤 12월에 추가 무역 조치를 추진할지 검토하면서, 집행위가 12월 발표할 새 정책 수단이 EU·중국 무역의 다음 분기점으로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: EU가 중국차 수입 합의 뒤 12월 무역 조치 추진을 검토하고 있다 [제목]",
+  "관전 포인트: 국련증권은 하이브리드차 규정의 시행 방식, 집행위가 12월 발표할 새 정책 수단, 산업가속화법의 유럽산 기준 확정을 핵심 변수로 꼽았다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "EU, 중국차 수입 합의 뒤 12월 무역 조치 추진 검토",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/autos-transportation/eu-eyes-december-trade-initiatives-after-china-car-import-deal-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "auto",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU, 중국차 합의 뒤 12월 무역 조치 검토"
+  }
+ ]
+}

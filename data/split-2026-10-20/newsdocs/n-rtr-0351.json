@@ -1,0 +1,68 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터 각 1건(10월 16일)을 묶었다. 3분기 5.3% 성장과 예상 상회는 The Star 보도로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 말레이시아 통계청 속보치로 3분기 경제는 전년 대비 5.3% 성장해 시장 예상을 웃돌았다(10월 16일) [사실]",
+  "흐름: 2분기 6.0%보다는 둔화했지만 전분기 대비로는 4.6% 늘었다 [사실]",
+  "제조업: AI 호황이 수출 급증을 이끌며 제조업이 전자 수출 생산에 힘입어 7.5% 성장했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "말레이시아 3분기 5.3% 성장 예상 상회…AI 수출에 제조업 7.5%↑",
+ "id": "n-rtr-0351",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "말레이시아 성장률 예상 상회…AI 호황에 수출 급증",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/malaysia-s-growth-tops-forecasts-as-ai-boom-drives-export-surge",
+   "s": "AI 호황이 수출 급증을 이끌면서 말레이시아 3분기 성장률이 시장 예상을 웃돌았고, 제조업은 전자 수출 생산에 힘입어 7.5% 성장했다"
+  },
+  {
+   "t": "말레이시아 3분기 경제 전년 대비 5.3% 성장…속보치",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/malaysias-economy-grows-53-year-q3-official-advance-estimate-shows-2026-10-16/",
+   "s": "말레이시아 통계청 속보치로 3분기 경제가 전년 대비 5.3% 성장해 2분기 6.0%보다 둔화했지만, 전분기 대비로는 4.6% 늘었다"
+  }
+ ],
+ "key": "mix-G1-013-2026-10-16",
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "num": 351,
+ "one": "말레이시아 3분기 경제가 속보치로 전년 대비 5.3% 성장해 2분기 6.0%보다 둔화했지만 전분기 대비 4.6% 늘어 예상을 웃돌면서, AI 호황에 따른 전자 수출 생산이 제조업을 7.5% 끌어올렸다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T06:52:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-16",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/16/malaysia039s-economy-grows-53-in-3q26-beats-expectations"
+  }
+ ],
+ "tags": [],
+ "title": "말레이시아 3분기 5.3% 성장 예상 상회…AI 수출에 제조업 7.5%↑",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/malaysia-s-growth-tops-forecasts-as-ai-boom-drives-export-surge",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "말레이시아 3분기 5.3% 성장, AI 수출에 예상 상회"
+  }
+ ]
+}

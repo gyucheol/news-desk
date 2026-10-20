@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0374",
+ "num": 374,
+ "key": "split-G1-032-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/shipping-group-maersk-raises-emergency-fuel-surcharge-due-middle-east-conflict-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "머스크, 중동 분쟁에 긴급 유류할증료 인상",
+ "headline": "머스크, 중동 분쟁에 긴급 유류할증료 인상",
+ "one": "해운사 머스크가 8일 중동 분쟁을 이유로 긴급 유류할증료를 올리면서, 호르무즈 일대 선박 공격이 이어지는 가운데 화물을 맡기는 화주들의 해상 운송비 부담이 늘어나게 됐다",
+ "facts": [
+  "무엇이: 머스크가 중동 분쟁을 이유로 긴급 유류할증료를 인상했다 [사실]",
+  "영향: 화주들의 해상 운송비 부담이 늘어난다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 머스크의 긴급 유류할증료 인상은 원 문서 출처 목록의 YourNews·ENGINE 보도로 뒷받침",
+ "src": [
+  {
+   "o": "YourNews",
+   "d": "2026-10-08",
+   "u": "https://yournews.com/2026/10/08/7219471/maersk-raises-emergency-fuel-surcharge-to-20-as-middle-east/"
+  },
+  {
+   "o": "ENGINE",
+   "d": "2026-10-08",
+   "u": "https://www.engine.online/news/maersk-raises-emergency-fuel-surcharge-amid-middle-east-war-8277"
+  }
+ ],
+ "items": [
+  {
+   "t": "해운사 머스크, 중동 분쟁에 긴급 유류할증료 인상",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/shipping-group-maersk-raises-emergency-fuel-surcharge-due-middle-east-conflict-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "containers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "머스크, 중동 분쟁에 긴급 유류할증료 인상"
+  }
+ ]
+}

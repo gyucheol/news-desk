@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0526",
+ "num": 526,
+ "key": "split-G5-014-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/bny-targets-blind-spots-in-abs-after-tricolor-mess-rocked-market",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "BNY, 트라이컬러 사태로 흔들린 ABS 시장의 사각지대 겨냥",
+ "headline": "BNY, 트라이컬러 사태로 흔들린 ABS 시장의 사각지대 겨냥",
+ "one": "BNY가 10월 16일 트라이컬러 사태로 드러난 자산유동화증권(ABS) 시장의 사각지대를 겨냥하고 나섰다고 블룸버그가 전하면서, 이중 담보 같은 증권화 위험을 걸러 낼 장치가 마련될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 16일 BNY가 트라이컬러 사태로 흔들린 ABS 시장의 사각지대를 겨냥하고 있다고 전했다 [제목]",
+  "의미: 이중 담보 같은 증권화 위험을 걸러 낼 장치가 마련될 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "BNY, 트라이컬러 사태로 흔들린 ABS 시장의 사각지대 겨냥",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/bny-targets-blind-spots-in-abs-after-tricolor-mess-rocked-market"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "BNY, 트라이컬러 사태 뒤 ABS 시장 사각지대 겨냥"
+  }
+ ]
+}

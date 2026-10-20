@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0384",
+ "num": 384,
+ "key": "split-G1-121-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/japan-controlled-tankers-return-to-middle-east-after-months-away",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "일본 측 유조선들, 몇 달 공백 끝에 중동 항로 복귀",
+ "headline": "일본 측 유조선들, 몇 달 공백 끝에 중동 항로 복귀",
+ "one": "블룸버그가 10월 13일 전한 바로는 일본 측이 운영하는 유조선들이 몇 달 공백 끝에 중동으로 돌아오면서, 그동안 줄었던 일본행 중동 원유 수송이 다시 늘어날 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 13일 일본 측이 운영하는 유조선들이 몇 달 공백 끝에 중동으로 돌아오고 있다고 전했다 [제목]",
+  "영향: 일본행 중동 원유 수송이 다시 늘어날 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 13일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "일본 유조선들, 몇 달 공백 끝에 중동 복귀",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/japan-controlled-tankers-return-to-middle-east-after-months-away"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본 측 유조선 몇 달 만에 중동 복귀"
+  }
+ ]
+}

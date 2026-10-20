@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0445",
+ "num": 445,
+ "key": "split-G3-107-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+ "headline": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+ "one": "웡 싱가포르 총리가 10월 8일 AI 기술주 랠리가 결국 조정을 맞을 것이라고 경고했고, 이후 10월 중순 세계 반도체주 매도가 번지며 필라델피아 반도체지수가 8거래일 연속 하락했다",
+ "facts": [
+  "무엇이: 웡 싱가포르 총리는 10월 8일 AI 기술 랠리가 결국 조정을 맞을 것이라고 경고했다 [사실]",
+  "이후: 세계 반도체주 매도가 번지며 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건이다. 원문 한줄이 없어 제목을 근거로 했고, 웡 총리 발언은 원 문서 출처인 싱가포르 총리실 연설문과 CryptoBriefing 기사를 붙였다.",
+ "src": [
+  {
+   "o": "싱가포르 총리실",
+   "d": "2026-10-08",
+   "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+  },
+  {
+   "o": "CryptoBriefing",
+   "d": "2026-10-08",
+   "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "웡 총리, AI 기술 랠리 결국 조정 경고"
+  }
+ ],
+ "ind": "semis"
+}

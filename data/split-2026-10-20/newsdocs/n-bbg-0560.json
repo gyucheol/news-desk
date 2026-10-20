@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0560",
+ "num": 560,
+ "key": "split-G5-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/eu-s-china-trade-imbalances-go-beyond-autos-dombrovskis-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "돔브로우스키스 '대중 적자 3,600억 유로…자동차 넘어 재균형 필요'",
+ "headline": "돔브로우스키스 '대중 적자 3,600억 유로…자동차 넘어 재균형 필요'",
+ "one": "돔브로우스키스 EU 집행위원이 13~14일 지난해 약 3,600억 유로인 대중 무역적자를 지속 불가능하다고 보고 하이브리드차 합의 뒤 자동차를 넘어 다른 업종에서도 재균형이 필요하다고 밝히면서, 추가 품목 조치가 나올 수 있다",
+ "facts": [
+  "무엇이: 돔브로우스키스 집행위원이 13일 EU의 대중 무역 불균형은 자동차를 넘어선다며 지난해 약 3,600억 유로 적자를 지속 불가능하다고 했다 [사실]",
+  "재균형: 14일에는 하이브리드차 합의 이후 다른 업종에서도 대중 무역 재균형이 필요하다고 밝혔다 [사실]",
+  "적자 추세: EU의 대중 상품 무역적자는 하루 10억 유로를 넘고, 중국 해관총서 기준 9월 적자는 사상 최대인 348억 달러였다 [사실]",
+  "전망: 자동차 밖 품목에 대한 추가 조치가 나올 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 돔브로우스키스 발언은 원 문서 출처 목록의 AFP(Indo Premier)·Börsvärlden 보도로 뒷받침",
+ "src": [
+  {
+   "o": "Indo Premier(AFP)",
+   "d": "2026-10-13",
+   "u": "https://www.indopremier.com/ipotnews/newsDetail.php?jdl=EU_economy_chief_says_needs__broader__trade_balancing_with_China_after_auto_accord&news_id=1741259&group_news=ALLNEWS&taging_subtype=CHINA&name=&search=y_general&q=CHINA%2C+&halaman=1"
+  },
+  {
+   "o": "Börsvärlden",
+   "d": "2026-10-13",
+   "u": "https://borsvarlden.com/artiklar/dombrovskis-handelsobalansen-mellan-eu-och-kina-stracker-sig-bortom-fordonssektorn-bn"
+  }
+ ],
+ "items": [
+  {
+   "t": "돔브로우스키스 'EU의 대중 무역 불균형은 자동차 넘어선다'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/eu-s-china-trade-imbalances-go-beyond-autos-dombrovskis-says",
+   "s": "돔브로우스키스 EU 집행위원이 지난해 대중 무역적자 약 3,600억 유로를 지속 불가능하다며 자동차를 넘어 더 넓은 분야의 재균형을 요구해, 추가 품목 조치가 나올 수 있다"
+  },
+  {
+   "t": "돔브로우스키스 '하이브리드차 합의 뒤 다른 업종도 대중 무역 재균형 필요'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/autos-transportation/after-hybrid-car-deal-eu-needs-rebalance-china-trade-other-sectors-dombrovskis-2026-10-14/",
+   "s": "돔브로우스키스 집행위원이 하이브리드차 합의 이후 다른 업종에서도 대중 무역 재균형이 필요하다고 밝히면서, 연 3,600억 유로 적자 축소 압박이 이어졌다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU, 자동차 넘어 다른 업종 대중 재균형 요구"
+  }
+ ]
+}

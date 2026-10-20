@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0368",
+ "num": 368,
+ "key": "split-G1-020-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/iranian-official-says-illegal-routes-strait-hormuz-soon-be-blocked-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란 '호르무즈 불법 항로 곧 봉쇄'…추가 항로 봉쇄 공언",
+ "headline": "이란 '호르무즈 불법 항로 곧 봉쇄'…추가 항로 봉쇄 공언",
+ "one": "이란 관리가 7일 호르무즈 해협의 불법 항로를 곧 봉쇄하겠다고 밝힌 데 이어 8일 추가 항로 봉쇄를 공언하면서, 해협을 오가는 유조선들이 받는 공격 위험이 한층 높아지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 이란 관리가 호르무즈 해협의 불법 항로를 곧 봉쇄하겠다고 밝혔다 [제목]",
+  "공언: 이란이 호르무즈의 추가 항로 봉쇄를 공언해 유조선 공격 위험이 커졌다 [제목]",
+  "이후: 이란 국영 매체는 17일 기뢰에 맞은 유조선 2척이 위치·레이더 장치를 끄고 허가되지 않은 항로를 쓰려 했다고 전했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 2건(제목 기준)을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "이란 관리 \"호르무즈 해협 불법 항로 곧 봉쇄\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/iranian-official-says-illegal-routes-strait-hormuz-soon-be-blocked-2026-10-07/",
+   "s": "이란 관리가 호르무즈 해협의 불법 항로를 곧 봉쇄하겠다고 밝히면서 해협을 지나는 선박의 통항 위험이 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "이란의 호르무즈 추가 항로 봉쇄 공언에 유조선 공격 위험 증가",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/attack-risks-rise-tankers-iran-vows-block-more-hormuz-routes-2026-10-08/",
+   "s": "이란이 호르무즈의 추가 항로 봉쇄를 공언하면서 해협을 오가는 유조선들이 받는 공격 위험이 한층 높아지고 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "이란, 호르무즈 추가 항로 봉쇄 공언"
+  }
+ ]
+}

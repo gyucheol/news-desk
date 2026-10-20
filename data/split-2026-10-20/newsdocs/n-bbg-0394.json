@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0394",
+ "num": 394,
+ "key": "split-G2-030-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/republicans-brace-for-backlash-as-trump-gas-prices-near-biden-s",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 시대 휘발유값 갤런당 4.36달러로 바이든 수준 근접…공화당 역풍 대비",
+ "headline": "트럼프 시대 휘발유값 갤런당 4.36달러로 바이든 수준 근접…공화당 역풍 대비",
+ "one": "미국 휘발유 전국 평균이 갤런당 약 4.36달러로 트럼프 취임 때보다 약 39% 올라 바이든 재임 중에도 76일만 더 높았던 수준에 다가서면서, 공화당이 중간선거를 앞두고 유권자 역풍에 대비하고 있다",
+ "facts": [
+  "무엇이: AAA 기준 미국 휘발유 전국 평균은 10월 12일 갤런당 약 4.36달러로, 바이든 재임 1,460일 가운데 이보다 높았던 날은 76일뿐이었다고 CNN 팩트체크가 전했다 [사실]",
+  "상승폭: 전국 평균은 2025년 1월 20일 약 3.12달러에서 약 39% 올랐다 [사실]",
+  "정치: 공화당은 트럼프 정부의 휘발유값이 바이든 시절에 다가서면서 중간선거를 앞두고 역풍에 대비하고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록(CNN 10월 13일 팩트체크)으로 10월 12일 전국 평균 약 4.36달러, 바이든 재임 중 더 높았던 날 76일, 취임 후 약 39% 상승을 확인했고 공화당 역풍 대비 내용 자체는 확인하지 못했다.",
+ "src": [
+  {
+   "o": "CNN",
+   "d": "2026-10-13",
+   "u": "https://www.cnn.com/2026/10/13/politics/fact-check-trump-gas-prices-under-biden"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 시대 휘발유값 바이든 수준 근접에 공화당 역풍 대비",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/republicans-brace-for-backlash-as-trump-gas-prices-near-biden-s"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "휘발유 전국 평균 갤런당 약 4.36달러"
+  }
+ ]
+}

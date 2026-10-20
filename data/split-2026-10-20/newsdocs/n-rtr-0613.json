@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0613",
+ "num": 613,
+ "key": "split-G6-095-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/labcorp-buy-select-assets-opko-health-unit-up-872-million-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "랩코프, 옵코헬스 사업부 자산 최대 8억 7,200만 달러에 인수",
+ "headline": "랩코프, 옵코헬스 사업부 자산 최대 8억 7,200만 달러에 인수",
+ "one": "랩코프가 옵코헬스 사업부 일부 자산을 현금 7억 2,200만 달러와 성과 연동 최대 1억 5천만 달러, 모두 최대 8억 7,200만 달러에 사들이기로 하면서 진단검사 사업을 넓힌다 (제목 기준)",
+ "facts": [
+  "무엇이: 랩코프는 10월 15일 옵코헬스 사업부 일부 자산을 최대 8억 7,200만 달러에 인수하기로 했다 [사실]",
+  "조건: 현금 7억 2,200만 달러에 성과 연동 최대 1억 5천만 달러를 더하는 구조이며, 랩코프는 진단검사 사업을 넓힌다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 15일)이다. 원 문서 확인 기록에 랩코프 거래를 뒷받침하는 출처가 없어 기사 요약 기준으로 낮춰 뒀다.",
+ "src": [],
+ "items": [
+  {
+   "t": "랩코프, 옵코헬스 사업부 일부 자산 최대 8억 7,200만 달러에 인수",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/litigation/labcorp-buy-select-assets-opko-health-unit-up-872-million-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "랩코프 옵코헬스 자산 최대 8억 7,200만 달러 인수"
+  }
+ ]
+}

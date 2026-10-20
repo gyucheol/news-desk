@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0499",
+ "num": 499,
+ "key": "split-G4-050-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/bond-selloff-leaves-france-no-room-fiscal-mistakes-citadel-executive-says-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+ "headline": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+ "one": "로이터에 따르면 시타델 임원이 국채 매도세 탓에 프랑스가 더는 재정 정책에서 실수할 여지가 없다고 경고하면서, 2027년 예산 처리를 앞둔 프랑스 정부에 대한 채권시장의 압박이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 시타델 임원은 채권 매도로 프랑스에 재정 실수 여지가 없어졌다고 말했다(10월 7일 로이터) [제목]",
+  "압박: 유로존 장관들도 시장 진정을 위해 프랑스에 2027년 예산 통과를 요구했다 [제목]",
+  "부채: 프랑스 국가부채는 6월 말 GDP의 119%다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 7일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/bond-selloff-leaves-france-no-room-fiscal-mistakes-citadel-executive-says-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "채권 매도로 프랑스 재정 실수 여지 사라져"
+  }
+ ]
+}

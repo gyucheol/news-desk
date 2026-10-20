@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0489",
+ "num": 489,
+ "key": "split-G4-100-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/trump-backed-housing-rule-could-undercut-effort-to-lower-costs",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 지지 주택 규정, 주택 비용 인하 노력 약화시킬 수도",
+ "headline": "트럼프 지지 주택 규정, 주택 비용 인하 노력 약화시킬 수도",
+ "one": "트럼프 대통령이 지지하는 주택 규정이 주택 비용을 낮추려는 노력을 오히려 약화시킬 수 있다는 지적이 나오면서, 주택 구입자의 비용 부담이 줄지 않을 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 트럼프가 지지하는 주택 규정이 주택 비용을 낮추려는 노력을 약화시킬 수 있다는 지적이 나왔다 [제목]",
+  "영향: 주택 구입자의 부담이 줄지 않을 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 12일). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "트럼프가 지지하는 주택 규정, 비용 인하 노력 약화시킬 수도",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-backed-housing-rule-could-undercut-effort-to-lower-costs"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "policy",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "트럼프 지지 규정에 주택 비용 인하 노력 약화 우려"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0486",
+ "num": 486,
+ "key": "split-G4-087-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/french-protests-add-to-fiscal-reckoning-as-investors-reprice-risk",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 시위가 재정 청산 압박 더해…투자자들 위험 재평가",
+ "headline": "프랑스 시위가 재정 청산 압박 더해…투자자들 위험 재평가",
+ "one": "블룸버그가 10월 19일 프랑스 시위가 재정 문제를 더 키우면서 투자자들이 프랑스 위험을 다시 매기고 있다고 전했고, 같은 날 금리차가 146bp로 벌어져 무디스 심사를 앞두고 차입 비용 상승 압력이 이어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 19일 프랑스 시위가 재정 청산 압박을 더하면서 투자자들이 위험을 재평가하고 있다고 전했다 [제목]",
+  "시장: 같은 날 프랑스 10년물 금리는 약 4.9%로 오르고 독일과의 금리차는 146bp였다 [사실]",
+  "일정: 무디스는 이번 주 금요일 프랑스 신용등급을 검토한다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 분석 부분은 없어 기사 요약 기준이며, 금리·무디스 일정은 원 문서에서 검색 결과 요약으로 확인된 사실",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 시위가 재정 청산 압박 더해…투자자 위험 재평가",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/french-protests-add-to-fiscal-reckoning-as-investors-reprice-risk"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "투자자 프랑스 위험 재평가로 차입 비용 상승 압력"
+  }
+ ]
+}

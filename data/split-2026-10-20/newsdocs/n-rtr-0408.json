@@ -1,0 +1,78 @@
+{
+ "id": "n-rtr-0408",
+ "num": 408,
+ "key": "split-G1-162-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티, 아덴 대통령궁 사우디 지휘센터에 탄도미사일…총리 경호원 사망",
+ "headline": "후티, 아덴 대통령궁 사우디 지휘센터에 탄도미사일…총리 경호원 사망",
+ "one": "후티가 15일 예멘 정부가 있는 아덴 대통령궁 안 사우디 군사 지휘센터를 노려 탄도미사일을 쏴 총리 경호원 등이 숨졌지만 총리와 각료는 무사하면서, 공격 대상이 사우디가 지원하는 예멘 정부 본부로 넓어졌다",
+ "facts": [
+  "무엇이: 예멘 정부는 후티가 아덴 대통령궁을 미사일로 타격했다고 밝혔고, 총리 경호원 등 사망자가 나왔다 [사실]",
+  "표적: 후티는 대통령궁 단지 안 사우디 군사 지휘센터를 노렸다며 탄도미사일을 쐈고, 폭발음이 최소 6차례 들렸지만 총리와 각료는 피해를 입지 않았다 [채널]",
+  "의미: 후티의 공격 대상이 사우디 본토에서 사우디가 지원하는 예멘 정부 본부로 넓어졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터·블룸버그·텔레그램 기사 3건(16일 자)을 묶었다. 아덴 대통령궁 피격은 독립 출처(CNN·CBC, 15일)로 확인되며, 사우디 지휘센터 표적과 폭발 횟수는 채널 전언이다.",
+ "src": [
+  {
+   "o": "CNN",
+   "d": "2026-10-15",
+   "u": "https://www.cnn.com/2026/10/15/middleeast/yemeni-houthi-strikes-on-aden-presidential-palace-kill-two-latam-intl"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-10-15",
+   "u": "https://www.cbc.ca/news/world/yemen-houthis-attack-presidential-palace-9.7382188"
+  }
+ ],
+ "items": [
+  {
+   "t": "후티, 예멘 아덴 대통령궁에 미사일 발사…정부 관리",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/",
+   "s": "후티가 예멘 정부가 있는 아덴 대통령궁에 미사일을 쏘면서, 공격 대상이 사우디 본토에서 사우디가 지원하는 예멘 정부 본부로 넓어졌다"
+  },
+  {
+   "t": "예멘 정부 '후티가 아덴 대통령궁을 미사일로 타격'",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/yemen-government-says-houthis-strike-presidential-palace-in-aden",
+   "s": "예멘 정부가 후티의 아덴 대통령궁 타격을 밝히면서, 총리 경호원 등 사망자가 나오고 정부 본부의 안전이 흔들렸다"
+  },
+  {
+   "t": "후티, 아덴 대통령궁 내 사우디 지휘센터 겨냥 탄도미사일 공격",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-16",
+   "u": "https://t.me/insidertracking/66401",
+   "s": "후티가 아덴 대통령궁 단지 안 사우디 군사 지휘센터를 노렸다며 탄도미사일을 쏴 폭발음이 최소 6차례 들렸지만, 총리와 각료는 피해를 입지 않았다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "후티, 아덴 대통령궁 사우디 지휘센터 미사일 공격"
+  }
+ ]
+}

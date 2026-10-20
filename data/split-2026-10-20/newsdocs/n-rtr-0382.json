@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0382",
+ "num": 382,
+ "key": "split-G1-047-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/us/trump-says-comment-that-iran-could-take-out-los-angeles-was-misinterpreted-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"이란이 LA 칠 수 있다는 발언은 잘못 해석된 것\" 해명",
+ "headline": "트럼프 \"이란이 LA 칠 수 있다는 발언은 잘못 해석된 것\" 해명",
+ "one": "트럼프 대통령이 10월 9일 이란이 LA를 칠 수 있다는 자신의 발언이 잘못 해석된 것이라고 해명하면서, 이란의 미 본토 타격 능력을 둘러싼 발언 파장을 진화하려 했다 (제목 기준)",
+ "facts": [
+  "무엇이: 트럼프 대통령이 이란이 LA를 칠 수 있다는 자신의 발언은 잘못 해석된 것이라고 말했다(로이터, 10월 9일) [제목]",
+  "의미: 발언이 낳은 미 본토 위협 논란의 파장을 진화하려는 해명이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "트럼프 \"이란이 LA를 칠 수 있다는 발언은 잘못 해석된 것\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/us/trump-says-comment-that-iran-could-take-out-los-angeles-was-misinterpreted-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "트럼프, 이란 LA 타격 발언 오해라고 해명"
+  }
+ ]
+}

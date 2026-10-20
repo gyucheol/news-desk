@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0536",
+ "num": 536,
+ "key": "split-G5-034-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:50:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-morgan-stanley-traders-are-split-over-virgin-media-debt",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "버진미디어 채권 두고 골드만·모건스탠리 트레이더 의견 엇갈려",
+ "headline": "버진미디어 채권 두고 골드만·모건스탠리 트레이더 의견 엇갈려",
+ "one": "버진미디어 채권을 두고 골드만삭스와 모건스탠리 트레이더들의 의견이 엇갈리면서, 이 회사 채권을 사야 할지 팔아야 할지를 둘러싼 시장의 투자 판단이 갈리고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 버진미디어 채권을 두고 골드만·모건스탠리 트레이더들의 의견이 엇갈린다 [제목]",
+  "의미: 해당 채권의 투자 판단이 갈리고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 13일). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "버진미디어 채권 두고 골드만·모건스탠리 트레이더 의견 엇갈려",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-morgan-stanley-traders-are-split-over-virgin-media-debt"
+  }
+ ],
+ "inds": [
+  "fin",
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "버진미디어 채권 두고 골드만·모건스탠리 판단 엇갈림"
+  }
+ ]
+}

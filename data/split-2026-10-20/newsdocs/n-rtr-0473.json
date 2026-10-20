@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0473",
+ "num": 473,
+ "key": "split-G3-077-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T16:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-country-cannot-avoid-raising-interest-rates-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이재명 대통령 '한국은 금리 인상을 피할 수 없다'",
+ "headline": "이재명 대통령 '한국은 금리 인상을 피할 수 없다'",
+ "one": "이재명 대통령이 13일 한국이 금리 인상을 피할 수 없다고 말하고 같은 날 신현송 한은 총재도 물가 확신이 들 때까지 긴축 유지를 밝히면서, 7·8월 인상으로 3.00%인 기준금리의 추가 인상 가능성에 무게가 실렸다 (제목 기준)",
+ "facts": [
+  "무엇이: 이재명 대통령이 한국은 금리 인상을 피할 수 없다고 말했다 [제목]",
+  "한은: 신현송 총재는 13일 물가 확신이 들 때까지 긴축을 유지하겠다고 했다 [사실]",
+  "현재 금리: 기준금리는 7·8월 인상으로 3.00%다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "이재명 대통령 '한국은 금리 인상을 피할 수 없다'고 언급",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-country-cannot-avoid-raising-interest-rates-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "이 대통령, 금리 인상 피할 수 없다고 언급"
+  }
+ ]
+}

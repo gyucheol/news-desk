@@ -1,0 +1,86 @@
+{
+ "id": "n-tg-0594",
+ "num": 594,
+ "key": "split-G4-004-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63607",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "뉴욕연준 '관세 없었다면 2월 물가 하락해 디플레이션 영역'",
+ "headline": "뉴욕연준 '관세 없었다면 2월 물가 하락해 디플레이션 영역'",
+ "one": "뉴욕연준이 관세가 없었다면 2월 물가가 하락해 디플레이션 영역에 들어갔을 것이라는 분석을 내놓으면서, 관세가 미국 소비자물가를 끌어올린 핵심 요인이라는 점이 수치로 드러났다",
+ "facts": [
+  "무엇이: 뉴욕연준 분석에 따르면 관세가 없었다면 2월 물가는 하락해 디플레이션 영역에 들어갔을 것이라고 채널이 10월 9일 전했다 [채널]",
+  "관세 효과: 뉴욕연준 연구는 관세가 소비재 물가를 끌어올린 것으로 봤고, 이는 원 문서 출처의 미국 언론 보도로도 확인된다 [사실]",
+  "의미: 관세발 물가 상승분이 연준의 추가 인상 판단에 어떻게 반영될지가 변수가 될 수 있다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 Polaristimes 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 워싱턴포스트·Daybreak Wire의 뉴욕연준 관세 연구 보도를 근거로 붙였다. 2월 디플레이션 수치 자체는 채널 기준이다.",
+ "src": [
+  {
+   "o": "Washington Post",
+   "d": "2026-10-07",
+   "u": "https://www.washingtonpost.com/business/2026/10/07/tariffs-drove-up-prices-consumer-goods-study-finds/"
+  },
+  {
+   "o": "Daybreak Wire",
+   "d": "2026-10-08",
+   "u": "https://daybreakwire.com/business/ny-fed-tariffs-2-9-points-goods-inflation/"
+  }
+ ],
+ "items": [
+  {
+   "t": "뉴욕연준 '관세 없었다면 2월 물가 하락해 디플레이션 영역'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63607"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "관세가 없었다면 2월 물가는 디플레이션 영역"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "뉴욕연준, 관세의 물가 효과 분석 발표"
+  }
+ ],
+ "channel": "Polaristimes",
+ "fed": [
+  {
+   "k": "",
+   "who": "뉴욕연은",
+   "role": "뉴욕 연방준비은행 조사",
+   "kind": "조사·보고서",
+   "stance": "",
+   "t": "뉴욕연준이 관세가 없었다면 2월 물가가 디플레이션 영역이었을 것이라고 분석했다",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63607"
+  }
+ ]
+}

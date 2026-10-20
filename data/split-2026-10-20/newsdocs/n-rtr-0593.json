@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0593",
+ "num": 593,
+ "key": "split-G5-156-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/swiss-finance-minister-warns-steep-european-debt-could-trigger-euro-crisis-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스위스 재무장관 '유럽의 과도한 부채, 유로 위기 부를 수도'",
+ "headline": "스위스 재무장관 '유럽의 과도한 부채, 유로 위기 부를 수도'",
+ "one": "스위스 재무장관이 17일 유럽의 높은 국가부채가 유로 위기를 부를 수 있다고 경고하면서, IMF가 유럽 국가 약 4분의 3에 평균 GDP 3.5% 안팎의 적자 감축을 요구한 데 이어 유럽 국채 위험이 다시 거론되고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 스위스 재무장관은 10월 17일 유럽의 과도한 부채가 유로 위기를 부를 수 있다고 경고했다 [제목]",
+  "IMF 평가: IMF는 16일 유럽 국가 약 4분의 3에 구조개혁과 평균 GDP 3.5% 안팎의 적자 감축이 필요하다고 했고, 정책 변화가 없으면 평균적인 유럽 경제의 공공부채가 두 배까지 늘 수 있다고 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록은 스위스 재무장관 발언을 제목만 근거로 적었고, IMF 유럽 평가는 검색 결과로 확인된 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "스위스 재무장관 '유럽의 과도한 부채, 유로 위기 부를 수도'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/swiss-finance-minister-warns-steep-european-debt-could-trigger-euro-crisis-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "스위스 재무장관, 유럽 부채의 유로 위기 위험 경고"
+  }
+ ]
+}

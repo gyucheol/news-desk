@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0414",
+ "num": 414,
+ "key": "split-G1-194-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/least-18-killed-houthi-attack-yemeni-government-military-camp-shabwa-sources-say-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티, 예멘 샤브와 정부군 기지 공격…최소 18명 사망",
+ "headline": "후티, 예멘 샤브와 정부군 기지 공격…최소 18명 사망",
+ "one": "후티가 20일 예멘 샤브와의 정부군 기지를 공격해 최소 18명이 숨지면서, 아덴 대통령궁 공격과 오만 협상 거부에 이어 사우디 국경 밖 예멘 내전 전선에서도 교전이 격해지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 20일 후티가 예멘 샤브와의 정부군 기지를 공격해 최소 18명이 숨졌다고 보도했다 [제목]",
+  "앞선 공격: 후티는 사우디의 오만 협상 제안을 거부하고 아덴 대통령궁도 공격했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서는 샤브와 기지 공격을 채널 근거 사실 줄에 적었고 확인 기록에는 이 사건 부분이 없다.",
+ "src": [],
+ "items": [
+  {
+   "t": "후티, 예멘 샤브와 정부군 기지 공격…최소 18명 사망",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/least-18-killed-houthi-attack-yemeni-government-military-camp-shabwa-sources-say-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "예멘 내전 교전 격화, 시장 영향 불분명"
+  }
+ ]
+}

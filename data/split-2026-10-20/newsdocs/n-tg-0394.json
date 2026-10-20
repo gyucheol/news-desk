@@ -1,0 +1,76 @@
+{
+ "id": "n-tg-0394",
+ "num": 394,
+ "key": "split-G1-130-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/PipeBeom/6695",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란, 나탄즈·픽액스산 핵시설 흙더미 방호…걸프 석유·데이터센터 보복 거론",
+ "headline": "이란, 나탄즈·픽액스산 핵시설 흙더미 방호…걸프 석유·데이터센터 보복 거론",
+ "one": "이란이 10월 13일 나탄즈·픽액스산 핵시설 주변에 토사를 쌓고 미사일·드론 생산 복구에 나서는 한편 사우디 석유시설과 역내 데이터센터를 보복 대상으로 거론하면서, 원유 수송 불확실성이 이어지고 있다",
+ "facts": [
+  "무엇이: 이란이 나탄즈·픽액스산 핵시설 주변에 토사를 쌓아 방호에 나섰다(10월 13일 전언) [사실]",
+  "무기: 미사일·드론 생산 복구와 무기 비축에 나섰다 [채널]",
+  "보복 대상: 사우디 석유시설과 역내 데이터센터 등 걸프 에너지·디지털 인프라를 보복 대상으로 거론했다 [채널]",
+  "영향: 원유 수송 불확실성이 이어지고 있다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "상상인 김진범 채널 기사 1건. 핵시설 방호 강화는 원 문서 독립 출처(The New Arab·i24NEWS)로 확인했고 보복 대상 거론은 채널 전언이다.",
+ "src": [
+  {
+   "o": "The New Arab",
+   "d": "2026-10-13",
+   "u": "https://www.newarab.com/news/iran-fortifies-nuclear-sites-prepares-renewed-war-report"
+  },
+  {
+   "o": "i24NEWS",
+   "d": "2026-10-13",
+   "u": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-fortifying-nuclear-sites-warns-of-land-incursions-into-gulf-states-if-the-us-launches-new-strikes-report"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란, 핵시설 흙더미 방호·무기 비축…걸프 에너지·디지털 인프라 보복 거론",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-13",
+   "u": "https://t.me/PipeBeom/6695"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil",
+  "tech"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "이란, 사우디 석유시설을 보복 대상으로 거론"
+  },
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "역내 데이터센터를 보복 대상으로 거론"
+  }
+ ],
+ "channel": "상상인 김진범"
+}

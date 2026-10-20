@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0572",
+ "num": 572,
+ "key": "split-G5-109-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/european-industry-groups-call-urgent-eu-action-china-trade-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유럽 산업단체들, 대중 무역에 EU 긴급 조치 촉구",
+ "headline": "유럽 산업단체들, 대중 무역에 EU 긴급 조치 촉구",
+ "one": "유럽 산업단체들이 9일 대중 무역에 대한 EU의 긴급 조치를 촉구하면서, EU의 대중 상품 무역적자가 하루 10억 유로를 넘는 가운데 중국산 수입품에 대한 규제 압력이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 유럽 산업단체들이 대중 무역에 대한 EU의 긴급 조치를 촉구했다 [제목]",
+  "배경: EU의 대중 상품 무역적자는 하루 10억 유로를 넘는다 [사실]",
+  "의미: 중국산 수입품에 대한 규제 압력이 커지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "유럽 산업단체들, 대중 무역에 EU 긴급 조치 촉구",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/china/european-industry-groups-call-urgent-eu-action-china-trade-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "유럽 산업단체, 대중 무역 EU 긴급 조치 촉구"
+  }
+ ]
+}

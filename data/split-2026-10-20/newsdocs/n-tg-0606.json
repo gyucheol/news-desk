@@ -1,0 +1,62 @@
+{
+ "id": "n-tg-0606",
+ "num": 606,
+ "key": "split-G4-027-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63826",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "Polaristimes '10년물 장중 10bp 상승…연준 인상 여파 몇 달 뒤 닥칠 것'",
+ "headline": "Polaristimes '10년물 장중 10bp 상승…연준 인상 여파 몇 달 뒤 닥칠 것'",
+ "one": "텔레그램 채널 Polaristimes가 10년물 금리가 장중 10bp 올라 2023년 10월 고점에 다가섰다며 연준이 금리를 더 올리면 몇 달 안에 그 충격이 미국 경제에 닥칠 것이라고 추가 인상론을 비판했다 (채널 전언)",
+ "facts": [
+  "무엇이: 채널 Polaristimes는 10월 19일 미 10년물 금리가 장중 10bp 오르며 2023년 10월 고점에 다가섰다고 전했다 [채널]",
+  "주장: 채널은 연준이 금리를 더 올리면 몇 달 안에 그 충격이 미국 경제에 그대로 닥칠 것이라며 '올릴 수 있다면 올려 보라'고 추가 인상 가능성을 비판했다 [채널]",
+  "성격: 채널 운영자의 의견으로, 연준 위원 발언이나 기관 전망이 아니다 [추론]"
+ ],
+ "basis": "channel",
+ "check": "텔레그램 Polaristimes 기사 2건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "Polaristimes \"10년물 장중 10bp 상승…연준 인상 여파 몇 달 뒤 닥칠 것\"",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-19",
+   "u": "https://t.me/The_MariTimes/63826",
+   "s": "Polaristimes는 10년물 금리가 장중 10bp 오르며 2023년 10월 고점에 다가섰다며 연준이 금리를 올리면 몇 달 뒤 미국 경제가 그 여파를 맞을 것이라고 주장했다"
+  },
+  {
+   "t": "Polaristimes \"연준, 올릴 수 있다면 올려 보라\"",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-19",
+   "u": "https://t.me/The_MariTimes/63838",
+   "s": "Polaristimes는 연준이 금리를 더 올리면 몇 달 안에 그 충격이 미국 경제에 그대로 닥칠 것이라며 추가 인상 가능성을 비판했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "10년물 장중 10bp 올라 2023년 10월 고점 근접"
+  }
+ ],
+ "channel": "Polaristimes"
+}

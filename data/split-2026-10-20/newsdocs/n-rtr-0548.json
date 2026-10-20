@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0548",
+ "num": 548,
+ "key": "split-G5-068-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/brazil-economic-activity-up-03-august-matching-forecasts-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질 8월 경제활동지수 0.3% 증가…산업 0.9% 늘고 농업 1.8% 줄어",
+ "headline": "브라질 8월 경제활동지수 0.3% 증가…산업 0.9% 늘고 농업 1.8% 줄어",
+ "one": "브라질 경제활동지수가 8월 전월보다 0.3% 늘어 예상에 부합하면서, 산업 0.9% 증가가 농업 1.8% 감소를 메워 성장세를 받쳤고 셀릭 금리 13.75%인 가운데 11월 초 금리 결정을 앞두게 됐다",
+ "facts": [
+  "무엇이: 브라질 8월 경제활동지수는 전월보다 0.3% 늘어 예상에 부합했다 [사실]",
+  "부문별: 산업이 0.9% 늘어 농업 1.8% 감소를 메웠다 [사실]",
+  "금리: 셀릭 금리는 9월 0.25%포인트 인하로 13.75%이며 다음 결정은 11월 초다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 8월 경제활동지수 증가와 셀릭 금리 수준은 검색 결과 요약(Investing.com, 리우타임스)으로 확인했다.",
+ "src": [
+  {
+   "o": "Investing.com",
+   "d": "2026-10-16",
+   "u": "https://au.investing.com/news/world-news/brazil-economic-activity-rises-034-in-august-amid-election-4695464"
+  },
+  {
+   "o": "Rio Times",
+   "d": "2026-10-16",
+   "u": "https://www.riotimesonline.com/brazil-ibc-br-economic-activity-august-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "브라질 8월 경제활동 0.3% 증가, 예상 부합",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/americas/brazil-economic-activity-up-03-august-matching-forecasts-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "8월 경제활동지수 0.3% 증가, 예상 부합"
+  }
+ ]
+}

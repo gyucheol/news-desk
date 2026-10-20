@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0475",
+ "num": 475,
+ "key": "split-G2-119-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Onionfarmer/18118",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "벤처글로벌, 720MW급 가스발전 최대 16기 계약…데이터센터 전력 사업 진출",
+ "headline": "벤처글로벌, 720MW급 가스발전 최대 16기 계약…데이터센터 전력 사업 진출",
+ "one": "벤처글로벌이 10월 15일 GE 베르노바·베이커휴즈와 720MW급 독립형 가스복합 발전 설비 최대 16기 계약을 맺고 데이터센터 전력 사업에 나서면서, 가스터빈 수요는 늘지만 부채 부담에 주가는 5.8% 내렸다",
+ "facts": [
+  "무엇이: 벤처글로벌은 10월 15일 GE 베르노바·베이커휴즈와 각 720MW 용량의 독립형 가스복합 발전 설비 최대 16기와 변압기 장비 계약을 맺었다 [사실]",
+  "일정·규모: 첫 발주는 2026년 말이며, 고객 계약에 따라 2034년 말까지 최대 10GW 컴퓨팅을 지원할 수 있다 [사실]",
+  "시장 반응: 채널은 부채 부담에 벤처글로벌 주가가 5.8% 내렸다고 전했다 [채널]",
+  "배경: GE 베르노바 가스터빈은 2030년 물량까지 매진된 상태다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 양파농장 1건이다. 계약 내용(720MW·최대 16기·10GW·첫 발주 시점)은 벤처글로벌 8-K와 Transformer Magazine으로 확인했고, 주가 5.8% 하락은 확인 못 했다.",
+ "src": [
+  {
+   "o": "벤처글로벌 8-K(SEC)",
+   "d": "2026-10-15",
+   "u": "https://www.sec.gov/Archives/edgar/data/0002007855/000200785526000081/frameagreementpressrelease.htm"
+  },
+  {
+   "o": "Transformer Magazine",
+   "d": "2026-10-15",
+   "u": "https://transformer-magazine.com/news/venture-global-signs-deals-with-ge-vernova-and-baker-hughes/"
+  }
+ ],
+ "items": [
+  {
+   "t": "벤처글로벌, LNG 터미널 발전 설비로 데이터센터 전력 공급 나서",
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-17",
+   "u": "https://t.me/Onionfarmer/18118"
+  }
+ ],
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/gen",
+  "gas/demand"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "벤처글로벌 720MW급 가스발전 최대 16기 계약"
+  }
+ ],
+ "channel": "양파농장"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0390",
+ "num": 390,
+ "key": "split-G1-099-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/bp-withdraws-riyadh-energy-conference-after-airport-attack-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "BP 등 석유 대기업 수장들, 리야드 공격 뒤 에너지 회의 불참",
+ "headline": "BP 등 석유 대기업 수장들, 리야드 공격 뒤 에너지 회의 불참",
+ "one": "BP가 리야드 공항 공격 뒤 리야드 에너지 회의 참석을 철회하고 10월 12일 석유 대기업 수장들이 행사 일정에서 잇달아 빠지면서, 사우디가 여는 에너지 행사와 투자 유치 일정이 차질을 빚었다",
+ "facts": [
+  "무엇이: BP 등 석유 대기업 수장들은 리야드 에너지 행사 일정에서 빠졌다 [사실]",
+  "BP: BP는 공항 공격 뒤 리야드 에너지 회의 참석을 철회했다 [제목]",
+  "배경: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 2건을 묶음. BP의 리야드 에너지 회의 불참은 Gulf Business 출처로 확인",
+ "src": [
+  {
+   "o": "Gulf Business",
+   "d": "2026-10-12",
+   "u": "https://gulfbusiness.com/en/2026/saudi-arabia/bp-withdraws-riyadh-energy-congress-airport-attacks/"
+  }
+ ],
+ "items": [
+  {
+   "t": "BP, 공항 공격 뒤 리야드 에너지 회의 참석 철회",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/bp-withdraws-riyadh-energy-conference-after-airport-attack-2026-10-11/",
+   "s": "BP가 리야드 공항 공격 뒤 리야드 에너지 회의 참석을 철회하면서 사우디 에너지 행사에 차질이 생겼다"
+  },
+  {
+   "t": "리야드 공격 뒤 석유 대기업 수장들 행사 일정서 빠져",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/top-oil-executives-dropped-event-schedule-after-riydah-attacks-2026-10-12/",
+   "s": "리야드 공격 뒤 석유 대기업 수장들이 행사 일정에서 빠지면서 사우디 에너지 회의의 무게가 줄었다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "consumer"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "BP 등 석유 대기업 수장 리야드 에너지 회의 불참"
+  }
+ ]
+}

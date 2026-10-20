@@ -1,0 +1,68 @@
+{
+ "id": "n-rtr-0420",
+ "num": 420,
+ "key": "split-G2-038-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:14:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/australias-ampol-third-quarter-lytton-refining-margin-more-than-doubles-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "호주 암폴, 리튼 정제마진 23.92달러로 두 배…FCC 재가동은 11월 중순",
+ "headline": "호주 암폴, 리튼 정제마진 23.92달러로 두 배…FCC 재가동은 11월 중순",
+ "one": "호주 암폴의 3분기 리튼 정제마진이 배럴당 23.92달러로 1년 전 10.64달러의 두 배를 넘었지만, FCC 재가동이 11월 중순으로 밀리면서 4분기 휘발유·경유·항공유 생산이 약 1억 5,000만 리터 줄게 됐다",
+ "facts": [
+  "무엇이: 암폴은 3분기 리튼 정제마진이 배럴당 23.92달러로 1년 전 10.64달러의 두 배를 넘었다고 밝혔다(10월 19일) [사실]",
+  "차질: 리튼 FCC 재가동이 11월 중순으로 밀려 4분기 휘발유·경유·항공유 생산이 약 1억 5,000만 리터 줄 것이라고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 19일)이다. 원 문서 확인 기록대로 리튼 마진·FCC 재가동 지연·4분기 생산 감소를 검색 결과 요약(Motley Fool Australia·Kalkine)으로 확인했다.",
+ "src": [
+  {
+   "o": "The Motley Fool Australia",
+   "d": "2026-10-19",
+   "u": "https://www.fool.com.au/2026/10/19/ampol-posts-3q26-ebit-growth-and-surging-refinery-margins/"
+  },
+  {
+   "o": "Kalkine",
+   "d": "2026-10-19",
+   "u": "https://kalkine.com.au/stock-analysis/energy/how-is-ampol-asxald-trading-a-look-at-its-third-quarter-update-as-shares-slip"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 암폴, 3분기 리튼 정제마진 두 배 넘게 상승",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/energy/australias-ampol-third-quarter-lytton-refining-margin-more-than-doubles-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "암폴 리튼 정제마진 배럴당 23.92달러로 두 배"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "FCC 재가동 지연에 4분기 연료 1억 5,000만 리터 감소"
+  }
+ ]
+}

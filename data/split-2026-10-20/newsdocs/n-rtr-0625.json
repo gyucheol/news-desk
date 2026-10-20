@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0625",
+ "num": 625,
+ "key": "split-G6-154-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "中 한소제약·로슈, 선급금 4억 달러 포함 150억 달러 넘는 ADC 계약",
+ "headline": "中 한소제약·로슈, 선급금 4억 달러 포함 150억 달러 넘는 ADC 계약",
+ "one": "한소제약이 로슈와 선급금 4억 달러와 1주년 1억 1천만 달러, 최대 150억 달러 마일스톤과 로열티를 받는 ADC 포트폴리오 계약을 맺으면서, 중화권 밖 개발권이 로슈로 넘어가게 됐다",
+ "facts": [
+  "무엇이: 한소제약은 로슈와 150억 달러가 넘는 ADC 포트폴리오 계약을 맺었다(10월 20일 로이터) [사실]",
+  "조건: 선급금 4억 달러와 1주년 1억 1천만 달러, 최대 150억 달러 마일스톤과 로열티를 받을 수 있다 [사실]",
+  "권리: 중화권 밖 개발권은 로슈로 넘어간다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 20일)이다. 선급금 4억 달러와 150억 달러 이상 규모는 Endpoints News·Fierce Biotech 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "Endpoints News",
+   "d": "2026-10-19",
+   "u": "https://endpoints.news/roche-does-400m-upfront-15b-deal-with-chinas-hansoh/"
+  },
+  {
+   "o": "Fierce Biotech",
+   "d": "2026-10-19",
+   "u": "https://www.fiercebiotech.com/biotech/roche-returns-chinas-adc-powerhouse-hansoh-15b-biobucks-pact"
+  }
+ ],
+ "items": [
+  {
+   "t": "中 한소제약, 로슈와 150억 달러 넘는 신약 계약",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "로슈 한소제약 ADC 150억 달러 넘는 계약"
+  }
+ ]
+}

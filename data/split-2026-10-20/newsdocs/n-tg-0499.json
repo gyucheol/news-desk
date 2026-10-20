@@ -1,0 +1,64 @@
+{
+ "id": "n-tg-0499",
+ "num": 499,
+ "key": "split-G2-183-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10428",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시드릴 웨스트 카리나, 인도네시아 880일 계약…일일 47만 7천 달러",
+ "headline": "시드릴 웨스트 카리나, 인도네시아 880일 계약…일일 47만 7천 달러",
+ "one": "시드릴이 놀던 드릴십 웨스트 카리나로 인도네시아에서 확정 약 880일·약 4억 2,000만 달러 계약을 따내고 수당 포함 하루 47만 7천 달러를 받게 되면서, 유휴 드릴십이 시장 요금으로 재투입된다",
+ "facts": [
+  "무엇이: 시드릴은 웨스트 카리나의 인도네시아 계약(확정 약 880일, 약 4억 2,000만 달러)을 따냈다 [채널]",
+  "요금: 일일 요금은 수당 포함 47만 7천 달러다 [채널]",
+  "의미: 놀던 드릴십이 시장 요금으로 재투입된다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 기사 1건. 인도네시아 계약 수주는 Offshore Technology·Splash247 출처로 확인했고, 계약 금액과 일일 요금은 채널 근거",
+ "src": [
+  {
+   "o": "Offshore Technology",
+   "d": "2026-10-13",
+   "u": "https://www.offshore-technology.com/news/seadrill-deepwater-rig-awards-four-markets/"
+  },
+  {
+   "o": "Splash247",
+   "d": "2026-10-13",
+   "u": "https://splash247.com/indonesia-award-leads-new-batch-of-seadrill-contracts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "시드릴 웨스트 카리나, 인도네시아 880일 계약…일일 47만 7천 달러",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-13",
+   "u": "https://t.me/Trillion_labs/10428"
+  }
+ ],
+ "inds": [
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/rigs"
+ ],
+ "vc": [
+  {
+   "ind": "drilling",
+   "node": "rigs",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "시드릴 웨스트 카리나 인도네시아 880일 계약"
+  }
+ ],
+ "channel": "트릴리온"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "n-bbg-0386",
+ "num": 386,
+ "key": "split-G1-124-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/uk-says-iran-s-irgc-directed-incident-at-airbase-used-by-us",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 \"RAF 페어퍼드 사건, 이란 혁명수비대 지시\"…이란인 2명 제재",
+ "headline": "영국 \"RAF 페어퍼드 사건, 이란 혁명수비대 지시\"…이란인 2명 제재",
+ "one": "영국 정부가 미군이 쓰는 RAF 페어퍼드 공군기지 인근 9월 27일 체포 사건을 이란 혁명수비대가 지시했다고 보고 이란인 2명을 제재했고, 약 30개국이 이란의 혼합 공격을 규탄하면서 영국과 이란의 관계가 더 나빠질 수 있다",
+ "facts": [
+  "무엇이: 영국 정부가 미군이 쓰는 공군기지 사건을 혁명수비대가 지시했다고 보고 이란인 2명을 제재했다(블룸버그, 10월 13일) [사실]",
+  "총리 발언: 버넘 영국 총리는 의회에서 9월 27일 RAF 페어퍼드 인근 체포 사건이 혁명수비대 지시였을 가능성이 크다고 밝혔다(로이터) [사실]",
+  "국제 반응: 약 30개국이 이란의 혼합 공격을 규탄했다 [사실]",
+  "전망: 영국과 이란의 관계가 더 나빠질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건. 혁명수비대 배후 판단은 원 문서 독립 출처(The Globe and Mail)로 확인했다.",
+ "src": [
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-12",
+   "u": "https://www.theglobeandmail.com/world/article-iran-irgc-raf-fairford-incident/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 \"미군 사용 공군기지 사건, 이란 혁명수비대가 지시\"",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-says-iran-s-irgc-directed-incident-at-airbase-used-by-us",
+   "s": "영국 정부가 미군이 쓰는 공군기지 사건을 혁명수비대가 지시했다고 보고 이란인 2명을 제재하면서 영국과 이란의 관계가 더 나빠질 수 있다"
+  },
+  {
+   "t": "버넘 英 총리 \"RAF 페어퍼드 사건, 이란 혁명수비대 배후 가능성\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/uk/uk-pm-burnham-says-irans-irgc-likely-behind-raf-fairford-incident-2026-10-12/",
+   "s": "버넘 영국 총리가 의회에서 9월 27일 RAF 페어퍼드 인근 체포 사건이 혁명수비대 지시였을 가능성이 크다고 밝혔고, 약 30개국이 이란의 혼합 공격을 규탄했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "영국, RAF 기지 사건 배후로 혁명수비대 지목"
+  }
+ ]
+}

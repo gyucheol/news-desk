@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0415",
+ "num": 415,
+ "key": "split-G2-106-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/power-and-talent-biggest-ai-bottlenecks-say-data-center-firms",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "데이터센터 업체들 \"전력과 인재가 AI 최대 병목\"",
+ "headline": "데이터센터 업체들 \"전력과 인재가 AI 최대 병목\"",
+ "one": "데이터센터 업체들이 전력과 인재를 AI의 최대 병목으로 꼽으면서, GE 베르노바 가스터빈이 2030년분까지 매진됐다는 전언 속에 전력 확보가 데이터센터 가동 속도를 좌우할 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 데이터센터 업체들이 전력과 인재를 AI 최대 병목으로 꼽았다 [제목]",
+  "전력 병목: GE 베르노바 가스터빈은 2030년 물량까지 매진되고 계통 접속 대기가 5년 넘게 늘었다 [채널]",
+  "의미: 전력 확보 여부가 데이터센터 가동 시점을 좌우할 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "데이터센터 업체들 '전력과 인재가 AI 최대 병목'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/power-and-talent-biggest-ai-bottlenecks-say-data-center-firms"
+  }
+ ],
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/demand",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "데이터센터 업체들, 전력을 AI 최대 병목으로 지목"
+  }
+ ],
+ "ind": "semis"
+}

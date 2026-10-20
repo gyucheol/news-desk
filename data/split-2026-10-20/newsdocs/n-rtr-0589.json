@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0589",
+ "num": 589,
+ "key": "split-G5-149-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/imf-urges-members-stock-up-funds-low-income-vulnerable-states-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF, 회원국에 저소득 취약국 지원 재원 확충 촉구",
+ "headline": "IMF, 회원국에 저소득 취약국 지원 재원 확충 촉구",
+ "one": "IMF가 14일 회원국들에 저소득 취약국을 돕기 위한 재원을 미리 더 쌓아 두라고 촉구하면서, 전쟁 파급과 고유가로 자금난을 겪는 나라들에 대한 지원 확대 논의가 연차총회 의제로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 14일 회원국들에 저소득 취약국 지원 재원을 미리 확충하라고 촉구했다 [제목]",
+  "후속: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, IMFC 지원 촉구는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF, 회원국에 저소득 취약국 지원 재원 확충 촉구",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-urges-members-stock-up-funds-low-income-vulnerable-states-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "IMF, 저소득 취약국 지원 재원 확충 촉구"
+  }
+ ]
+}

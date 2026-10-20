@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0573",
+ "num": 573,
+ "key": "split-G5-110-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/autos-transportation/record-chinese-turnout-puts-european-carmakers-under-pressure-paris-show-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "파리모터쇼에 중국 업체 역대 최다 참가…유럽 완성차와 신차 경쟁",
+ "headline": "파리모터쇼에 중국 업체 역대 최다 참가…유럽 완성차와 신차 경쟁",
+ "one": "파리모터쇼에 중국 업체가 역대 최다로 참가한 가운데 유럽과 중국 완성차가 신차를 쏟아내며 시장 쟁탈전을 벌이면서, 안방 시장을 지키려는 유럽 완성차 업체들의 부담이 커지고 유럽이 대응책을 고심하고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 파리모터쇼에 중국 업체가 역대 최다로 참가해 유럽 완성차 업체들이 압박을 받고 있다고 로이터가 9일 전했다 [제목]",
+  "고심: 블룸버그는 12일 파리모터쇼에서 밀려드는 중국차 공세에 유럽이 대응책을 고심하고 있다고 전했다 [제목]",
+  "신차 경쟁: 유럽과 중국 완성차 업체들이 파리모터쇼에서 신차를 쏟아내며 유럽 시장 쟁탈전을 벌였다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 2건·블룸버그 1건(모두 제목 기준)을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "파리모터쇼에 중국 업체 역대 최다 참가…유럽 완성차 압박",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/autos-transportation/record-chinese-turnout-puts-european-carmakers-under-pressure-paris-show-2026-10-09/",
+   "s": "파리모터쇼에 중국 업체가 역대 최다로 참가하면서 안방 시장을 지키려는 유럽 완성차 업체들의 부담이 커지고 있다 (제목 기준)"
+  },
+  {
+   "t": "파리모터쇼에서 밀려드는 중국차 공세에 고심하는 유럽",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/europe-wrestles-with-china-s-surge-at-paris-motor-show",
+   "s": "블룸버그는 파리모터쇼에서 밀려드는 중국차 공세에 유럽이 대응책을 고심하고 있다고 전하며 유럽 완성차의 경쟁 부담을 짚었다 (제목 기준)"
+  },
+  {
+   "t": "유럽·중국 완성차, 파리모터쇼서 신차 공세로 시장 쟁탈전",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/autos-transportation/european-chinese-automakers-launch-product-blitz-paris-car-show-fight-market-2026-10-12/",
+   "s": "유럽과 중국 완성차 업체들이 파리모터쇼에서 신차를 쏟아내며 시장 쟁탈전을 벌이면서 유럽 시장 경쟁이 한층 치열해지고 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "chinaoem",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "파리모터쇼 중국 업체 역대 최다 참가"
+  }
+ ]
+}

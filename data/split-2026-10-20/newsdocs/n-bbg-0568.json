@@ -1,0 +1,102 @@
+{
+ "id": "n-bbg-0568",
+ "num": 568,
+ "key": "split-G5-141-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/surging-bond-yields-are-top-risk-to-financial-system-imf-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 금융안정보고서 '국채금리 급등·AI 조정이 최대 위험'",
+ "headline": "IMF 금융안정보고서 '국채금리 급등·AI 조정이 최대 위험'",
+ "one": "IMF가 13일 국채금리 급등을 금융시스템 최대 위험으로 꼽고 AI 조정과 사이버공격을 단기 위기 요인으로 지목한 데 이어 14일 AI 시장 조정·전쟁·부채를 세계경제 위험으로 꼽으면서, 국채금리와 AI 자산 가격의 조정 우려가 커졌다",
+ "facts": [
+  "무엇이: IMF는 10월 13일 국채금리 급등을 금융시스템의 최대 위험으로 꼽았고, AI 둔화와 금리 급등을 다가오는 세계 금융시장 위험으로 지목했다 [제목]",
+  "AI 레버리지: IMF는 AI 조정·국채금리 급등·사이버공격을 단기 위기 요인으로 꼽고, 하이퍼스케일러 회사채 비중이 10%에 이른다며 AI 레버리지가 강제 매도를 부를 수 있다고 경고했다 [채널]",
+  "세계경제: IMF는 14일 AI 시장 조정, 전쟁, 부채를 세계경제 위험으로 지목하고 국채금리 급등이 위기의 방아쇠가 될 수 있다고 했다 [사실]",
+  "영향: 국채금리가 급등하면 고부채 국가의 차입 비용과 채권 보유 기관의 손실 부담이 커질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터(제목 기준)·텔레그램·로이터(14일) 기사 4건을 묶었다. 국채금리 급등과 AI 조정 위험은 독립 출처(InvestmentNews·Quartz·The Next Web, 13일)로 확인되며, 하이퍼스케일러 회사채 10%는 채널 전언이다.",
+ "src": [
+  {
+   "o": "InvestmentNews",
+   "d": "2026-10-13",
+   "u": "https://www.investmentnews.com/alternatives/imf-warns-bond-yields-face-disorderly-spike-on-debt-and-ai-risks/268570"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/imf-ai-stock-crash-global-financial-stability-101326"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-13",
+   "u": "https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF \"국채금리 급등이 금융시스템 최대 위험\"",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/surging-bond-yields-are-top-risk-to-financial-system-imf-says",
+   "s": "IMF가 국채금리 급등을 금융시스템의 최대 위험으로 꼽으면서, 고부채 국가의 차입 비용과 채권 보유 기관의 손실 부담이 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "IMF, AI 둔화·금리 급등을 다가오는 글로벌 시장 위험으로 지목",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/finance/imf-cites-ai-slowdown-spiking-yields-looming-global-market-risks-2026-10-13/",
+   "s": "IMF가 AI 둔화와 금리 급등을 다가오는 세계 금융시장 위험으로 지목하면서, AI 기대에 오른 자산 가격이 조정받을 수 있다는 경고가 나왔다 (제목 기준)"
+  },
+  {
+   "t": "IMF, 'AI발 매도·국채금리 급등' 금융시장 안일함 경고",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71517",
+   "s": "IMF가 AI 조정·국채금리 급등·사이버공격을 단기 위기 요인으로 꼽고 하이퍼스케일러 회사채 비중 10%를 들어 AI 레버리지가 강제 매도를 부를 수 있다고 경고했다"
+  },
+  {
+   "t": "IMF, AI 시장 조정·전쟁·부채를 세계경제 위험으로 지목",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/imf-flags-risks-global-economy-ai-market-correction-war-debt-2026-10-13/",
+   "s": "IMF가 AI 시장 조정, 전쟁, 부채를 세계경제의 위험으로 지목하면서 국채금리 급등이 위기 방아쇠가 될 수 있다고 경고했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "IMF, 국채금리 급등을 금융시스템 최대 위험 지목"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 레버리지의 강제 매도 가능성 경고"
+  }
+ ],
+ "ind": "semis"
+}

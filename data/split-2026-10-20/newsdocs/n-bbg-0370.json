@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0370",
+ "num": 370,
+ "key": "split-G1-027-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/india-shuns-costly-russian-crude-as-middle-east-flows-recover",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도, 중동 원유 흐름 회복에 비싸진 러시아산 외면",
+ "headline": "인도, 중동 원유 흐름 회복에 비싸진 러시아산 외면",
+ "one": "중동 원유 흐름이 회복되자 인도가 8일 비싸진 러시아산 원유를 외면하기 시작하면서, 러시아산 원유 수요가 줄고 인도의 원유 도입선이 다시 중동 쪽으로 옮겨 갈 수 있다",
+ "facts": [
+  "무엇이: 인도가 비싸진 러시아산 원유를 외면하고 있다 [사실]",
+  "계기: 중동 원유 흐름 회복이 계기가 됐다 [제목]",
+  "전망: 러시아산 수요가 줄어들 수 있다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 인도의 러시아산 도입 감소는 원 문서 출처 목록의 OilPrice.com 보도로 뒷받침, 중동 회복과의 인과는 제목 기준",
+ "src": [
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중동 원유 흐름 회복에 인도, 비싸진 러시아산 외면",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/india-shuns-costly-russian-crude-as-middle-east-flows-recover"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "인도, 비싸진 러시아산 원유 외면"
+  }
+ ]
+}

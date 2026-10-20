@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0379",
+ "num": 379,
+ "key": "split-G1-042-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "치솟는 해상 운임에 아시아 정유사의 미국산 원유 수요 위협받아",
+ "headline": "치솟는 해상 운임에 아시아 정유사의 미국산 원유 수요 위협받아",
+ "one": "해상 운임이 치솟아 운송비 부담이 커지면서 아시아 정유사들의 미국산 원유 구매 수요가 위협받고 있어, 거리가 먼 미국산 원유의 아시아행 수출 물량이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 9일 해상 운임 급등으로 운송비 부담이 커진 아시아 정유사들의 미국산 원유 수요가 위협받고 있다고 전했다 [제목]",
+  "영향: 운송비가 원유 도착 비용을 키우는 만큼 거리가 먼 미국산 원유의 아시아행 물량이 줄어들 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 9일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "치솟는 운임, 아시아의 미국산 원유 수요 위협",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/soaring-freight-rates-threaten-asias-appetite-us-crude-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "운임 급등에 아시아의 미국산 원유 수요 위협"
+  },
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "해상 운임 급등으로 원유 운송비 부담 확대"
+  }
+ ]
+}

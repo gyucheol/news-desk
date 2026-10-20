@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0480",
+ "num": 480,
+ "key": "split-G4-077-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/lescure-says-bond-turmoil-helps-france-see-need-for-discipline",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "레스퀴르 재무장관 \"채권 혼란이 프랑스에 재정 규율 필요성 일깨워\"",
+ "headline": "레스퀴르 재무장관 \"채권 혼란이 프랑스에 재정 규율 필요성 일깨워\"",
+ "one": "레스퀴르 재무장관이 10월 16일 국채 금리 상승을 경고 신호로 보고 채권 혼란이 재정 규율의 필요를 일깨운다고 하면서, 무디스 신용등급 검토를 앞둔 프랑스 정부의 2027년 예산 통과 압박이 커지고 있다",
+ "facts": [
+  "무엇이: 레스퀴르 재무장관은 10월 16일 국채 금리 상승을 경고 신호로 보고, 채권 혼란이 프랑스가 재정 규율의 필요성을 깨닫는 데 도움이 된다고 말했다 [사실]",
+  "압박: 유로존 장관들은 시장 진정을 위해 프랑스에 2027년 예산 통과를 요구했다 [제목]",
+  "일정: 무디스는 이번 주 금요일 프랑스 신용등급을 검토한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 독립 출처 France 24(10월 14일, 차입 비용 상승은 경고 신호라는 재무장관 발언)·Atlantic Council(레스퀴르 채권시장 압박 대담)이 같은 발언 흐름을 다뤄 이를 근거로 삼음. 무디스 검토 일정은 원 문서에서 검색 결과 요약으로 확인",
+ "src": [
+  {
+   "o": "France 24",
+   "d": "2026-10-14",
+   "u": "https://www.france24.com/en/live-news/20261014-higher-borrowing-costs-an-alarm-signal-for-france-finance-minister"
+  },
+  {
+   "o": "Atlantic Council",
+   "d": "2026-10",
+   "u": "https://www.atlanticcouncil.org/commentary/transcript/full-transcript-french-finance-minister-roland-lescure-on-bond-market-pressure-upcoming-elections-and-more/"
+  }
+ ],
+ "items": [
+  {
+   "t": "레스퀴르 '채권 혼란이 프랑스에 재정 규율 필요성 일깨워'",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/lescure-says-bond-turmoil-helps-france-see-need-for-discipline"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "재무장관, 국채 금리 상승을 경고 신호로 평가"
+  }
+ ]
+}

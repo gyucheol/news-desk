@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0604",
+ "num": 604,
+ "key": "split-G6-143-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:57:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/cme-plans-tungsten-futures-as-us-europe-seek-price-stability",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "CME, 텅스텐 선물 2027년 1분기 초 코멕스 상장 추진",
+ "headline": "CME, 텅스텐 선물 2027년 1분기 초 코멕스 상장 추진",
+ "one": "CME그룹이 패스트마켓 APT 가격으로 현금 정산하는 텅스텐 선물을 규제 검토를 거쳐 2027년 1분기 초 코멕스에 상장하기로 하면서, 중국 의존도가 높은 텅스텐에 가격 헤지 수단이 생길 전망이다",
+ "facts": [
+  "무엇이: CME그룹은 10월 19일 텅스텐 선물을 규제 검토를 거쳐 2027년 1분기 초 코멕스에 상장할 계획이라고 밝혔다 [사실]",
+  "구조: 선물은 패스트마켓 APT 가격으로 현금 정산한다 [사실]",
+  "배경: 미국·유럽이 가격 안정을 원하는 가운데 중국 의존도가 높은 텅스텐에 가격 헤지 수단이 생길 전망이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 상장 시점과 정산 방식은 CME그룹 보도자료(PR Newswire) 출처로 확인",
+ "src": [
+  {
+   "o": "CME Group(PR Newswire)",
+   "d": "2026-10-19",
+   "u": "https://www.prnewswire.com/news-releases/cme-group-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals-302912428.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "미·유럽 가격 안정 원하는 가운데 CME, 텅스텐 선물 계획",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/cme-plans-tungsten-futures-as-us-europe-seek-price-stability"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "critical",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "CME 텅스텐 선물 상장으로 가격 헤지 수단 마련"
+  }
+ ]
+}

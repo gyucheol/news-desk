@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0459",
+ "num": 459,
+ "key": "split-G2-190-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:43:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/ithaca-may-halt-britain-investment-without-rosebank-approval-ft-reports-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "FT '이타카, 로즈뱅크 승인 없으면 영국 투자 중단할 수도'",
+ "headline": "FT '이타카, 로즈뱅크 승인 없으면 영국 투자 중단할 수도'",
+ "one": "이타카가 로즈뱅크 유전 개발 승인이 나지 않으면 영국 투자를 멈출 수 있다고 압박하면서, 영국 정부의 북해 개발 허가 결정이 업계 투자 여부를 가를 변수로 떠오르고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 이타카가 로즈뱅크 유전 승인이 없으면 영국 투자를 멈출 수 있다고 FT가 보도했다 [제목]",
+  "의미: 영국 북해 개발 허가가 이타카의 투자 여부를 가를 변수로 떠올랐다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터(FT 인용) 1건. 원 문서 확인 기록에서 이타카 로즈뱅크 건은 확인 못 한 항목으로 남아 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "FT \"이타카, 로즈뱅크 승인 없으면 영국 투자 중단할 수도\"",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/ithaca-may-halt-britain-investment-without-rosebank-approval-ft-reports-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "oil",
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "vc": [
+  {
+   "ind": "drilling",
+   "node": "capex",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "로즈뱅크 승인 없으면 영국 투자 중단 경고"
+  }
+ ]
+}

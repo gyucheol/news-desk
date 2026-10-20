@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0591",
+ "num": 591,
+ "key": "split-G5-153-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/europe-must-boost-growth-or-borrow-less-keep-debt-sustainable-imf-says-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF '유럽 4분의 3, 평균 GDP 3.5% 적자 감축 필요'",
+ "headline": "IMF '유럽 4분의 3, 평균 GDP 3.5% 적자 감축 필요'",
+ "one": "IMF가 16일 유럽 국가 약 4분의 3에 구조개혁과 중기적으로 평균 GDP 3.5% 안팎의 적자 감축이 필요하다며 정책 변화가 없으면 공공부채가 두 배까지 늘 수 있다고 경고하면서, 유럽 정부의 긴축 압박이 커졌다",
+ "facts": [
+  "무엇이: IMF는 10월 16일 유럽 국가 약 4분의 3이 구조개혁과 중기적으로 평균 GDP 3.5% 안팎의 적자 감축이 필요하다고 했다 [사실]",
+  "부채 경고: 슈추레크 IMF 유럽국장은 정책 변화가 없으면 평균적인 유럽 경제의 공공부채가 두 배까지 늘 수 있다고 했다 [사실]",
+  "해법: IMF는 유럽이 부채를 지속 가능하게 유지하려면 성장을 높이거나 차입을 줄여야 한다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건이다. 원 문서 확인 기록에서 IMF 유럽 평가(구조개혁·적자 감축 3.5%·부채 두 배)를 검색 결과로 확인했고, 독립 출처는 Il Sole 24 Ore·IndexBox(16일)다.",
+ "src": [
+  {
+   "o": "Il Sole 24 Ore",
+   "d": "2026-10-16",
+   "u": "https://en.ilsole24ore.com/art/the-imf-warns-europe-unsustainable-debt-without-growth-pass-unanimous-vote-AHwBxyCD"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-16",
+   "u": "https://www.indexbox.io/blog/imf-warns-europe-grow-faster-or-cut-debt-to-keep-public-finances-sustainable/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF '유럽, 부채 지속 가능하려면 성장 높이거나 차입 줄여야'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/europe-must-boost-growth-or-borrow-less-keep-debt-sustainable-imf-says-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 유럽 평균 GDP 3.5% 적자 감축 필요"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0512",
+ "num": 512,
+ "key": "split-G4-149-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/uk-firms-tell-healey-tax-cuts-needed-in-budget-to-boost-hiring",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 기업들, 힐리에 '고용 늘리려면 예산안에 감세 필요'",
+ "headline": "영국 기업들, 힐리에 '고용 늘리려면 예산안에 감세 필요'",
+ "one": "영국 기업들이 힐리 재무장관에게 예산안에서 세금을 깎아야 고용을 늘릴 수 있다고 요구하면서 감세 압박이 더해졌지만, IFS는 지출 약속을 지키려면 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 13일 영국 기업들은 힐리 재무장관에게 고용을 늘리려면 예산안에 감세가 필요하다고 요구했다 [제목]",
+  "반대 압력: IFS는 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "해석: 기업 감세 요구와 재정 공백이 맞서면서 예산안의 세제 선택 폭이 좁아질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(IFS 추산은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "英 기업들, 힐리에 '고용 늘리려면 예산안에 감세 필요'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-firms-tell-healey-tax-cuts-needed-in-budget-to-boost-hiring"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "기업들, 감세 없으면 고용 확대 어렵다고 요구"
+  }
+ ]
+}

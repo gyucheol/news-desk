@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0399",
+ "num": 399,
+ "key": "split-G1-125-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/sixty-countries-back-declaration-opposing-strait-tolls-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "60개국, 해협 통행료 부과 반대 선언 지지…국제 공동 대응 확산",
+ "headline": "60개국, 해협 통행료 부과 반대 선언 지지…국제 공동 대응 확산",
+ "one": "60개국이 해협 통행료 부과에 반대하는 선언을 지지했다고 로이터가 10월 13일 전하면서, 해협을 지나는 선박에 통행료를 거두려는 시도에 맞선 국제 공동 대응이 넓어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 60개국이 해협 통행료 부과에 반대하는 선언을 지지했다(로이터, 10월 13일) [제목]",
+  "의미: 해협 통행료를 거두려는 시도에 대한 국제 공동 대응이 넓어지고 있다 [제목]",
+  "대상: 기사 요약에는 대상 해협이 명시되지 않았으며, 호르무즈 해협 통제를 둘러싼 대치와 맞물린 움직임으로 보인다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없고 맞는 독립 출처도 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "60개국, 해협 통행료 부과에 반대하는 선언 지지",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/sixty-countries-back-declaration-opposing-strait-tolls-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "60개국, 해협 통행료 부과 반대 선언 지지"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0398",
+ "num": 398,
+ "key": "split-G1-123-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/shipping-insurance-costs-energy-flows-surge-opec-non-opec-ministers-say-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "OPEC·비OPEC 장관들 '에너지 수송 해운 보험료 급등'",
+ "headline": "OPEC·비OPEC 장관들 '에너지 수송 해운 보험료 급등'",
+ "one": "로이터가 10월 13일 전한 바로는 OPEC과 비OPEC 산유국 장관들이 에너지 수송에 드는 해운 보험료가 급등했다고 밝히면서, 운임에 보험료까지 더해져 원유 수송 비용이 더 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 OPEC·비OPEC 장관들이 에너지 수송의 해운 보험료가 급등했다고 말했다고 전했다 [제목]",
+  "영향: 원유·가스 수송 비용이 더 커질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 13일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "OPEC·비OPEC 장관들 '에너지 수송 해운 보험료 급등'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/shipping-insurance-costs-energy-flows-surge-opec-non-opec-ministers-say-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "에너지 수송 해운 보험료 급등"
+  }
+ ]
+}

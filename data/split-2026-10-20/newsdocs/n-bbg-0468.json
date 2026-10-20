@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0468",
+ "num": 468,
+ "key": "split-G4-054-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 재무부 \"국채 발행 전략 변경 없다\"…장관은 단기채 확대 검토",
+ "headline": "프랑스 재무부 \"국채 발행 전략 변경 없다\"…장관은 단기채 확대 검토",
+ "one": "프랑스 재무부가 10월 8일 국채 발행 전략에 변화가 없다고 밝힌 가운데 재무장관은 WSJ에 단기 국채 발행 확대를 검토 중이라고 했고, 레스퀴르 장관은 프랑스 국채 수요가 꾸준하다고 말하면서 조달 불안 진화에 나섰다 (제목 기준)",
+ "facts": [
+  "무엇이: 프랑스 재무부는 국채 발행 전략에 변경이 없다고 밝혔다(10월 8일 블룸버그) [제목]",
+  "단기채: 재무장관은 WSJ에 단기 국채 발행 확대를 검토 중이라고 했다(10월 8일 로이터) [제목]",
+  "수요: 레스퀴르 장관은 프랑스 국채 수요가 꾸준하다고 말했다(10월 8일 블룸버그) [제목]",
+  "배경: 10월 5일 프랑스-독일 10년물 금리차가 145bp를 넘어 유로존 위기 이후 최대였다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 2건·로이터 1건(10월 8일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 재무부 \"국채 발행 전략 변경 없다\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy",
+   "s": "프랑스 재무부가 국채 금리 상승과 시장 불안에도 기존 국채 발행 전략을 바꾸지 않겠다고 밝혔다"
+  },
+  {
+   "t": "프랑스 재무장관, WSJ에 \"단기 국채 발행 확대 검토 중\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/france-is-considering-more-shorter-term-debt-issuance-finance-minister-tells-wsj-2026-10-07/",
+   "s": "프랑스 재무장관이 WSJ에 단기 국채 발행을 늘리는 방안을 검토 중이라고 밝혀 조달 만기 구성이 바뀔 수 있다"
+  },
+  {
+   "t": "레스퀴르 장관 \"프랑스 국채 수요 꾸준하다\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-has-no-problem-finding-bond-buyers-lescure-tells-bbc",
+   "s": "레스퀴르 장관이 프랑스 국채를 사려는 수요가 꾸준하다고 말하며 조달 불안 우려를 진화했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "발행 전략 유지 속 단기 국채 확대 검토"
+  }
+ ]
+}

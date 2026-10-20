@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0488",
+ "num": 488,
+ "key": "split-G4-099-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 중서부 주택 구입 여력, 집값·모기지 금리 상승에 악화",
+ "headline": "美 중서부 주택 구입 여력, 집값·모기지 금리 상승에 악화",
+ "one": "미 중서부에서 집값과 모기지 금리가 함께 오르면서 주택 구입 여력이 나빠져, 이 지역 실수요자의 내 집 마련이 어려워지고 주택 매수 수요가 위축될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미 중서부의 주택 구입 여력이 집값과 모기지 금리 상승으로 나빠지고 있다 [제목]",
+  "영향: 이 지역 실수요자의 내 집 마련이 어려워질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 12일). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "미 중서부 주택 구입 여력, 집값·모기지 금리 상승에 악화",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages"
+  }
+ ],
+ "inds": [
+  "realestate",
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "집값·금리 상승에 중서부 주택 구입 여력 악화"
+  }
+ ]
+}

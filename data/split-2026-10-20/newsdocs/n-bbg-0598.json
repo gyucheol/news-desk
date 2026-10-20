@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0598",
+ "num": 598,
+ "key": "split-G6-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/ivanhoe-electric-ie-in-talks-to-sell-arizona-copper-amid-data-center-demand",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "아이반호 일렉트릭, 데이터센터 수요 속 애리조나 구리 판매 협상",
+ "headline": "아이반호 일렉트릭, 데이터센터 수요 속 애리조나 구리 판매 협상",
+ "one": "블룸버그에 따르면 아이반호 일렉트릭이 데이터센터 수요를 배경으로 애리조나 구리의 판매를 협상하고 있어, 데이터센터발 구리 수요가 새 광산의 판로 확보로 이어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 아이반호 일렉트릭이 애리조나 구리 판매를 협상하고 있다(10월 19일 블룸버그) [제목]",
+  "배경: 데이터센터 수요가 늘어나는 가운데 나온 협상이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 19일)이다. 원 문서 확인 기록대로 아이반호 건은 제목 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "아이반호 일렉트릭, 데이터센터 수요 속 애리조나 구리 판매 협상",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/ivanhoe-electric-ie-in-talks-to-sell-arizona-copper-amid-data-center-demand"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "데이터센터 수요 속 애리조나 구리 판매 협상"
+  }
+ ]
+}

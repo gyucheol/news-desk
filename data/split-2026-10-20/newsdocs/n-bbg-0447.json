@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0447",
+ "num": 447,
+ "key": "split-G3-110-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/tiktok-s-chew-and-microsoft-s-althoff-warn-about-runaway-ai-hype",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+ "headline": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+ "one": "틱톡의 추 CEO와 마이크로소프트의 알트호프가 걷잡을 수 없는 AI 과열을 경고하면서, 빅테크 경영진 사이에서도 AI 기대가 지나치다는 목소리가 나와 AI 관련주 투자 심리에 부담이 될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 12일 틱톡 추 CEO와 MS 알트호프가 걷잡을 수 없는 AI 과열을 경고했다고 전했다 [제목]",
+  "같은 시기: 혹 탄 브로드컴 CEO의 자본 병목·'카지노' 발언과 제프리스·골드만삭스의 AI 투자 경고 뒤 세계 반도체주 매도가 번졌다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건으로 원문 한줄이 없어 제목을 근거로 썼다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/tiktok-s-chew-and-microsoft-s-althoff-warn-about-runaway-ai-hype"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "빅테크 경영진의 AI 과열 경고"
+  }
+ ],
+ "ind": "semis"
+}

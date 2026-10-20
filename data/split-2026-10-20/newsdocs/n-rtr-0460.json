@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0460",
+ "num": 460,
+ "key": "split-G3-003-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+ "headline": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+ "one": "미 연방통신위원회(FCC)가 위성과 휴대전화를 직접 잇는 직접-단말 서비스를 늘리기 위한 신규 주파수 경매 추진을 표결하면서, 위성 직접통신 사업자들이 쓸 수 있는 주파수가 늘어날 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미 FCC가 직접-단말 서비스 확대를 위한 신규 주파수 경매 추진을 표결했다(10월 8일 로이터) [제목]",
+  "영향: 위성 휴대전화 직접 연결 사업자들이 쓸 주파수가 늘어날 수 있다 [제목]",
+  "흐름: 다음 날인 10월 9일 스페이스X가 스타링크 모바일용 800MHz 대역 주파수 인수를 발표했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 8일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "FCC, 직접-단말용 신규 주파수 경매 추진"
+  }
+ ]
+}

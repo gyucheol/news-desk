@@ -1,0 +1,59 @@
+{
+ "id": "n-tg-0393",
+ "num": 393,
+ "key": "split-G1-129-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10424",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란, 美 전쟁 재개 시 인접국 지상 침공·미 함정 격침 경고(WSJ)",
+ "headline": "이란, 美 전쟁 재개 시 인접국 지상 침공·미 함정 격침 경고(WSJ)",
+ "one": "이란이 10월 13일 미국이 전쟁을 재개하면 즉시 인접국을 지상 침공하고 미 함정을 격침하겠다고 경고하며 42만 병력 대부분을 국경에 배치했다고 밝히면서, 걸프 역내로 확전될 위험이 커졌다",
+ "facts": [
+  "무엇이: 이란이 미국의 전쟁 재개 즉시 인접국 지상 침공과 미 함정 격침을 경고했다고 WSJ가 보도했다(10월 13일 전언) [사실]",
+  "병력: 42만 병력 대부분을 국경에 배치했다고 밝혔다 [채널]",
+  "전망: 걸프 역내 확전 위험이 커졌다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "트릴리온 채널 기사 1건. 걸프 인접국 지상 침공 경고는 원 문서 독립 출처(i24NEWS)로 확인했고 42만 병력 배치는 채널 전언이다.",
+ "src": [
+  {
+   "o": "i24NEWS",
+   "d": "2026-10-13",
+   "u": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-fortifying-nuclear-sites-warns-of-land-incursions-into-gulf-states-if-the-us-launches-new-strikes-report"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란, 美 전쟁 재개 시 인접국 지상 침공·미 함정 공격 경고(WSJ)",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-13",
+   "u": "https://t.me/Trillion_labs/10424"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "이란, 전쟁 재개 시 인접국 침공·미 함정 격침 경고"
+  }
+ ],
+ "channel": "트릴리온"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0419",
+ "num": 419,
+ "key": "split-G2-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/indian-clean-power-firms-brace-for-data-center-demand-surge",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도 청정에너지 업체들, 데이터센터발 전력 수요 급증 대비",
+ "headline": "인도 청정에너지 업체들, 데이터센터발 전력 수요 급증 대비",
+ "one": "블룸버그에 따르면 인도 청정에너지 발전 업체들이 데이터센터발 전력 수요 급증에 대비하고 있어, 인도에서도 데이터센터가 전력 수요를 끌어올리는 새 축으로 떠오를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도 청정에너지 발전 업체들이 데이터센터 수요 급증에 대비하고 있다(10월 16일 블룸버그) [제목]",
+  "의미: 인도에서도 데이터센터가 전력 수요의 새 축으로 떠오르고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 16일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "인도 청정에너지 업체들, 데이터센터 수요 급증에 대비",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/indian-clean-power-firms-brace-for-data-center-demand-surge"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/developers"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "인도 데이터센터발 전력 수요 급증 대비"
+  }
+ ]
+}

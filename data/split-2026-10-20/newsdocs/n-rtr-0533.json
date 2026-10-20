@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0533",
+ "num": 533,
+ "key": "split-G5-018-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/us/michigan-republican-rogers-calls-end-canada-tariff-fight-breaking-with-trump-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미시간 공화당 로저스, 트럼프와 달리 캐나다 관세 싸움 중단 촉구",
+ "headline": "미시간 공화당 로저스, 트럼프와 달리 캐나다 관세 싸움 중단 촉구",
+ "one": "미시간 공화당 상원 후보 마이크 로저스가 10월 7일 광고에서 캐나다는 적이 아니라며 관세전쟁을 끝내야 한다고 촉구하면서, 자동차 산업이 몰린 미시간에서 트럼프의 캐나다 관세 노선과 다른 목소리가 나왔다",
+ "facts": [
+  "무엇이: 미시간 공화당 상원 후보 마이크 로저스는 10월 7일 광고에서 캐나다는 적이 아니라며 관세전쟁을 끝내야 한다고 촉구했다 [사실]",
+  "대비: 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협해 왔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 사실 줄의 로저스 촉구를 따르고, 원 문서 독립 출처 The Detroit News(10월 7일, 미시간 상원 선거와 캐나다 관세)를 근거로 삼음",
+ "src": [
+  {
+   "o": "The Detroit News",
+   "d": "2026-10-07",
+   "u": "https://www.detroitnews.com/story/news/politics/2026/10/07/trump-trade-war-canada-tariffs-mike-rogers-abdul-el-sayed-michigan-senate-race/92133762007/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미시간 공화당 로저스, 트럼프와 달리 캐나다 관세 싸움 중단 촉구",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/us/michigan-republican-rogers-calls-end-canada-tariff-fight-breaking-with-trump-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "auto"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미시간 공화당 로저스, 캐나다 관세전쟁 중단 촉구"
+  }
+ ]
+}

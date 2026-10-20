@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0490",
+ "num": 490,
+ "key": "split-G4-101-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/us-mortgage-bond-funds-suffer-one-of-worst-outflows-since-2021",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 모기지채권 펀드, 2021년 이후 최악 수준 자금 유출",
+ "headline": "美 모기지채권 펀드, 2021년 이후 최악 수준 자금 유출",
+ "one": "미국 모기지채권 펀드에서 2021년 이후 최악 수준의 자금이 빠져나가면서, 주택담보 채권을 사 줄 투자 수요가 줄어 모기지 시장의 자금 조달 여건이 나빠질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국 모기지채권 펀드에서 2021년 이후 최악 수준의 자금이 빠져나갔다 [제목]",
+  "영향: 모기지 시장의 자금 조달 여건이 나빠질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 12일). 원 문서 확인 기록에 자금 유출 확인 내용이 없어 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "미국 모기지채권 펀드, 2021년 이후 최악 수준 자금 유출",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/us-mortgage-bond-funds-suffer-one-of-worst-outflows-since-2021"
+  }
+ ],
+ "inds": [
+  "realestate",
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "finance",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "모기지채권 펀드 2021년 이후 최악 자금 유출"
+  }
+ ]
+}

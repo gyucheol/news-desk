@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0476",
+ "num": 476,
+ "key": "split-G4-066-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/bank-of-france-survey-shows-sharp-jump-in-business-uncertainty",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스은행 \"3분기 성장 0.1%\"…기업 불확실성 급등",
+ "headline": "프랑스은행 \"3분기 성장 0.1%\"…기업 불확실성 급등",
+ "one": "프랑스은행이 10월 12일 기업 설문에서 불확실성이 크게 뛰었다고 밝히고 3분기 성장률을 0.1%로 추정하면서, 정치·재정 불안 속 프랑스 경제가 정체에 가까운 흐름을 이어가고 있다는 점이 드러났다",
+ "facts": [
+  "무엇이: 프랑스은행은 10월 12일 3분기 성장률을 0.1%로 추정했다 [사실]",
+  "설문: 같은 조사에서 기업들의 불확실성이 크게 뛴 것으로 나타났다 [사실]",
+  "해석: 국채 금리차 확대와 예산 처리 불안이 이어지는 가운데 성장이 사실상 정체에 머물러 재정 건전화 여건이 더 어려워질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건(프랑스은행 기업 설문·3분기 성장 추정). 원 문서 확인 기록에 이 사건 부분이 없고, 원 문서 독립 출처(Eurasia Business News·Breaking The News, 10월 12일)의 제목이 성장 0.1% 추정과 불확실성 상승을 다뤄 이를 근거로 삼음",
+ "src": [
+  {
+   "o": "Eurasia Business News",
+   "d": "2026-10-12",
+   "u": "https://eurasiabusinessnews.com/2026/10/12/france-growth-outlook-economic-uncertainty-rises-as-gdp-stagnates/"
+  },
+  {
+   "o": "Breaking The News",
+   "d": "2026-10-12",
+   "u": "https://breakingthenews.net/Article/Bank-of-France-estimates-third-quarter-growth-at-0.1/67280034"
+  }
+ ],
+ "items": [
+  {
+   "t": "프랑스 중앙은행 조사, 기업 불확실성 급등 보여",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/bank-of-france-survey-shows-sharp-jump-in-business-uncertainty",
+   "s": "프랑스은행 기업 설문에서 불확실성이 크게 뛴 것으로 나타나면서, 정치·재정 불안이 기업 심리를 누르고 있다는 점이 드러났다"
+  },
+  {
+   "t": "프랑스 중앙은행, 3분기 성장률 0.1%로 추정",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/french-third-quarter-growth-seen-01-central-bank-says-2026-10-12/",
+   "s": "프랑스은행이 3분기 성장률을 0.1%로 추정하면서, 프랑스 경제가 정체에 가까운 흐름을 이어가고 있다는 진단이 나왔다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스 3분기 성장 0.1% 추정, 기업 불확실성 급등"
+  }
+ ]
+}

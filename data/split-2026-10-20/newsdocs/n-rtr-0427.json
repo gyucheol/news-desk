@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0427",
+ "num": 427,
+ "key": "split-G2-065-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/venezuela-looking-sign-105-oil-contracts-by-end-year-head-pdvsa-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "PDVSA 사장 \"연내 석유계약 105건 추진…61건 서명\"",
+ "headline": "PDVSA 사장 \"연내 석유계약 105건 추진…61건 서명\"",
+ "one": "PDVSA 사장이 연내 석유계약 105건을 목표로 이미 61건을 서명했다고 밝히면서, 하루 약 120만 배럴인 베네수엘라 원유 생산에 신규 유전 중심의 외국 자본 유입이 늘어날 수 있다",
+ "facts": [
+  "무엇이: PDVSA 사장은 연내 석유계약 105건을 목표로 61건을 서명했다고 했다 [사실]",
+  "생산: PDVSA 생산량은 하루 약 120만 배럴이고, 술리아주 생산은 하루 7만 배럴에서 37만 배럴로 늘었다 [사실]",
+  "전망: 신규 유전 중심으로 외국 자본 유입이 늘어날 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 계약 105건 목표와 61건 서명은 검색 결과 요약(Egypt Oil & Gas)으로 확인했다.",
+ "src": [
+  {
+   "o": "Egypt Oil & Gas",
+   "d": "2026-10-09",
+   "u": "https://egyptoil-gas.com/news/pdvsa-chief-venezuela-targets-105-oil-contracts-by-end-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "PDVSA 사장 \"베네수엘라, 연내 석유계약 105건 체결 추진\"",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/energy/venezuela-looking-sign-105-oil-contracts-by-end-year-head-pdvsa-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "oil",
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "연내 석유계약 105건 목표, 61건 서명"
+  }
+ ]
+}

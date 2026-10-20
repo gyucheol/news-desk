@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0470",
+ "num": 470,
+ "key": "split-G4-057-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-08/france-is-the-bellwether-for-stress-in-global-markets",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스, 세계 시장 스트레스의 풍향계로 떠올라",
+ "headline": "프랑스, 세계 시장 스트레스의 풍향계로 떠올라",
+ "one": "블룸버그가 10월 8일 프랑스를 세계 시장 스트레스의 풍향계로 꼽으면서, 국가부채가 GDP의 119%에 이르는 프랑스의 국채 불안이 세계 채권시장 긴장을 가늠하는 잣대가 되고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 프랑스가 세계 시장 스트레스의 풍향계가 됐다고 짚었다(10월 8일) [제목]",
+  "부채: 프랑스 국가부채는 6월 말 GDP의 119%다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 8일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스, 세계 시장 스트레스의 풍향계가 되다",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/france-is-the-bellwether-for-stress-in-global-markets"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "프랑스, 세계 시장 스트레스의 풍향계로 부상"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0428",
+ "num": 428,
+ "key": "split-G3-005-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스페이스X, 스타링크 모바일용 800MHz 주파수 인수…美 이통 3사에 도전",
+ "headline": "스페이스X, 스타링크 모바일용 800MHz 주파수 인수…美 이통 3사에 도전",
+ "one": "스페이스X가 10월 9일 스타링크 휴대전화 서비스에 쓸 800MHz 저주파 대역 주파수 인수 계약을 발표하고 위성·지상망 통합을 추진하면서, T모바일·AT&T·버라이즌 등 기존 이동통신사와 직접 경쟁할 기반을 마련했다",
+ "facts": [
+  "무엇이: 스페이스X가 10월 9일 스타링크 휴대전화 서비스에 쓸 800MHz 대역 주파수 인수 계약을 발표했다 [사실]",
+  "전략: 800MHz 저주파 대역으로 위성·지상망 통합을 추진해 T모바일·AT&T·버라이즌과 직접 경쟁할 기반을 마련했다 [채널]",
+  "반응: 발표 당일 STOXX 600 통신지수가 3.3% 내리고 도이치텔레콤이 7~8% 급락하는 등 통신주가 흔들렸다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터·텔레그램 미국 주식 인사이더 3건(10월 9~10일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 주파수 인수는 원 문서 사실 줄([사실])과 Via Satellite 보도(10월 8일)를 근거로 붙였다. 위성·지상망 통합 전략은 채널 전언이다.",
+ "src": [
+  {
+   "o": "Via Satellite",
+   "d": "2026-10-08",
+   "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+  }
+ ],
+ "items": [
+  {
+   "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service",
+   "s": "스페이스X가 스타링크 휴대전화 서비스에 쓸 주파수 인수 계약을 발표하면서 위성 직접 휴대전화 통신 사업을 넓힐 수 있게 됐다 (제목 기준)"
+  },
+  {
+   "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/",
+   "s": "스페이스X가 스타링크 모바일 서비스를 가능케 할 주파수를 인수하면서 기존 이동통신사와 직접 경쟁할 길이 열릴 수 있다 (제목 기준)"
+  },
+  {
+   "t": "스페이스X, 스타링크 모바일로 위성·지상망 통합…미 이통 3사에 도전",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65838",
+   "s": "스페이스X가 800MHz 저주파 대역을 확보해 위성·지상망 통합을 추진하면서, T모바일·AT&T·버라이즌과 직접 경쟁할 기반을 마련했다"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "스페이스X, 스타링크 모바일용 800MHz 주파수 인수"
+  }
+ ]
+}

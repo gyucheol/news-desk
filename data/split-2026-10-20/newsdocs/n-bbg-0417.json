@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0417",
+ "num": 417,
+ "key": "split-G2-110-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-s-rampant-power-demand-is-delivering-another-water-shock",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI의 폭발적 전력 수요, 또 다른 물 충격 부른다",
+ "headline": "AI의 폭발적 전력 수요, 또 다른 물 충격 부른다",
+ "one": "AI의 폭발적 전력 수요가 물 수급에도 충격을 주면서, 데이터센터 업체들이 최대 병목으로 꼽은 전력·인재에 이어 물이 데이터센터 확장의 또 다른 제약으로 떠오르고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 AI의 폭발적 전력 수요가 또 다른 물 충격을 부르고 있다고 짚었다 [제목]",
+  "연관: 데이터센터 업체들은 전력과 인재를 AI 최대 병목으로 꼽았다 [제목]",
+  "의미: 물 확보가 데이터센터 입지와 확장 속도를 제약할 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "AI의 폭발적 전력 수요가 또 다른 물 충격을 부르고 있다",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-s-rampant-power-demand-is-delivering-another-water-shock"
+  }
+ ],
+ "inds": [
+  "utilities",
+  "power"
+ ],
+ "nodes": [
+  "power/demand"
+ ],
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "water",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI 전력 수요가 물 수급 충격 유발"
+  }
+ ]
+}

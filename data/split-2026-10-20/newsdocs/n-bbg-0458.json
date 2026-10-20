@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0458",
+ "num": 458,
+ "key": "split-G4-013-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미 금리 인상 베팅·국채 금리 고공에 금값 하락(10월 14·19일)",
+ "headline": "미 금리 인상 베팅·국채 금리 고공에 금값 하락(10월 14·19일)",
+ "one": "10월 14일 빨라진 미국 물가가 연준 인상 베팅을 키우며 금값이 급락했고 19일에는 유가 하락에도 국채 금리가 높게 유지되며 금값이 다시 내리면서, 금리 기대가 금값을 누르는 흐름이 이어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 14일 미국 물가 상승 속도가 빨라지자 연준의 금리 인상 베팅이 커지면서 안전자산인 금값이 큰 폭으로 떨어졌다 [제목]",
+  "19일: 유가가 내렸는데도 국채 금리가 높은 수준에 머물면서 이자가 없는 금의 매력이 줄어 금값이 하락했다 [제목]",
+  "흐름: 두 차례 모두 유가나 안전자산 수요보다 금리 기대가 금값을 좌우했다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 2건(10월 14일·19일)을 묶었다. 원 문서 확인 기록에서 금값 부분은 제목 근거로 분류돼 있다.",
+ "src": [],
+ "items": [
+  {
+   "t": "빨라진 미국 물가가 연준 인상 베팅 키우며 금값 급락",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+   "s": "미국 물가 상승 속도가 빨라지자 연준의 금리 인상 베팅이 커지면서 안전자산인 금값이 큰 폭으로 떨어졌다 (제목 기준)"
+  },
+  {
+   "t": "유가 하락에도 국채 금리 높게 유지되며 금값 하락",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech",
+   "s": "유가가 내렸는데도 국채 금리가 높은 수준에 머물면서 이자가 없는 금의 매력이 줄어 금값이 하락했다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "metals",
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "precious",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "인상 베팅·높은 국채 금리에 금값 하락"
+  }
+ ]
+}

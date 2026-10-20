@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0427",
+ "num": 427,
+ "key": "split-G3-002-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "머스크, 항공기 위성통신 경쟁서 '빠진 고리' 델타항공 겨냥",
+ "headline": "머스크, 항공기 위성통신 경쟁서 '빠진 고리' 델타항공 겨냥",
+ "one": "블룸버그에 따르면 머스크가 항공기 위성통신 경쟁에서 아직 고객으로 잡지 못한 델타항공을 겨냥하고 있어, 스타링크가 항공사 기내 인터넷 시장의 판도를 바꿀 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 머스크가 항공기 위성통신 경쟁의 빠진 고리인 델타항공을 겨냥했다(10월 7일 블룸버그) [제목]",
+  "의미: 기내 인터넷 시장 판도가 바뀔 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 7일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight"
+  }
+ ],
+ "inds": [
+  "aero",
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "space",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "머스크, 기내 위성통신 고객으로 델타항공 겨냥"
+  }
+ ]
+}

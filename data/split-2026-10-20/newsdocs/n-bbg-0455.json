@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0455",
+ "num": 455,
+ "key": "split-G3-158-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:11:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "블룸버그 'AI 기업 고평가에 투자자 저항 커져'…상장 할인 압력",
+ "headline": "블룸버그 'AI 기업 고평가에 투자자 저항 커져'…상장 할인 압력",
+ "one": "블룸버그가 AI 기업의 프리미엄 밸류에이션에 투자자들의 저항이 커지고 있다고 전하면서, 엔스케일 몸값 논란처럼 AI 관련 상장과 주가에 할인 압력이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 투자자들이 AI 기업의 프리미엄 밸류에이션에 점점 더 저항하고 있다 [제목]",
+  "사례: 같은 날 일부 투자자들은 엔스케일의 IPO 목표 기업가치 약 300억 달러에 반발해 160억~190억 달러를 제시했다 [사실]",
+  "업계: 한 달 새 다섯 번째 AI 데이터센터 상장 무산 사례라는 평가가 나왔고, 호주 퍼머스는 IPO를 철회했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건. 원 문서 확인 기록에 이 기사 부분이 없어 제목 기준으로 쓰고, 엔스케일 사례만 원 문서의 확인된 사실을 따름",
+ "src": [],
+ "items": [
+  {
+   "t": "AI 기업 프리미엄 밸류에이션에 투자자들의 저항 커져",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors"
+  }
+ ],
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 기업 고평가에 투자자 저항 커져"
+  }
+ ],
+ "ind": "semis"
+}

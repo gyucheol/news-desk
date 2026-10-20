@@ -1,0 +1,101 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 1건과 텔레그램 4건(하나증권 2건, 미국 주식 인사이더, Polaristimes)을 묶음. 대만의 AI 칩 대중 수출 통제와 형사 처벌 방침은 Crypto Briefing·Startup Fortune·MLex가 독립 출처로 남아 있음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 대만은 미국과의 무역협정 약속의 하나로 AI 서버·첨단 반도체를 통제 품목에 넣고 무단 대중 선적을 형사 처벌하기로 했지만, 경제부장은 시행 시기를 밝히지 않았다 [사실]",
+  "방식: 대만은 미국 수출 제한 대상 AI 부품의 대중 공급을 형사범죄로 만들고 통제를 미국 체계에 맞추며, 첨단 칩 밀수를 막으려는 트럼프 행정부 단속에 동참한다 [채널]",
+  "처벌: 대만 경제부장은 17일 허가 없는 AI 서버·첨단 칩 대중 반출을 무역법으로 처벌하겠다고 했다 [채널]",
+  "반응: 중국의 대만 압박이 거세질 수 있다는 관측이 나왔다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "대만, 미 무역협정 따라 AI 서버·첨단 칩 대중 무단 반출 형사처벌",
+ "id": "n-bbg-0338",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 칩 수출 억제",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+   "s": "대만이 미국과의 무역협정 약속의 하나로 AI 칩의 대중 수출을 억제하기로 하면서, 대만산 첨단 칩이 중국으로 흘러가는 길이 좁아질 전망이다"
+  },
+  {
+   "t": "대만, AI 서버·첨단 칩 통제 품목 추가…무단 대중 선적 형사 처벌",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-16",
+   "u": "https://t.me/HANAchina/70519",
+   "s": "대만이 첨단 칩의 중국 밀수를 막으려는 트럼프 행정부 단속에 동참해 AI 서버와 첨단 반도체를 통제 품목에 넣으면서, 무단 대중 선적이 형사 처벌 대상이 된다"
+  },
+  {
+   "t": "대만, 대중 AI 칩 공급 통제 강화…미 수출 규정 위반 형사처벌",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-16",
+   "u": "https://t.me/insidertracking/66456",
+   "s": "대만이 미국 수출 제한 대상 AI 부품의 대중 공급을 형사범죄로 만들고 통제를 미국 체계에 맞추기로 하면서 중국의 첨단 칩 조달 길이 좁아질 전망이다"
+  },
+  {
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 반도체 수출 통제 강화",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-16",
+   "u": "https://t.me/The_MariTimes/63754",
+   "s": "대만이 미국과의 무역협정에 따라 대중 AI 반도체 수출 통제를 강화하면서 중국의 대만 압박이 거세질 수 있다는 관측이 나왔다"
+  },
+  {
+   "t": "대만 경제부장 '첨단 칩 중국 밀수출하면 형사처벌'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70562",
+   "s": "대만 경제부장이 허가 없는 AI 서버·첨단 칩 대중 반출을 무역법으로 처벌하겠다면서도 시행 시기를 밝히지 않아 암시장 단속 효과는 지켜봐야 한다"
+  }
+ ],
+ "key": "mix-G1-018-2026-10-16",
+ "nodes": [
+  "macro/semis",
+  "macro/geo"
+ ],
+ "num": 338,
+ "one": "대만이 미국과의 무역협정 약속의 하나로 16일 AI 서버·첨단 반도체를 통제 품목에 넣고 무단 대중 선적을 형사 처벌하기로 했지만, 17일 경제부장이 시행 시기를 밝히지 않아 중국의 첨단 칩 조달 길이 얼마나 좁아질지는 지켜봐야 한다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T17:40:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-16",
+   "u": "https://cryptobriefing.com/taiwan-curbs-ai-chip-exports-china/"
+  },
+  {
+   "o": "Startup Fortune",
+   "d": "2026-10-16",
+   "u": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/"
+  },
+  {
+   "o": "MLex",
+   "d": "2026-10-16",
+   "u": "https://www.mlex.com/mlex/trade/articles/2538790"
+  }
+ ],
+ "tags": [],
+ "title": "대만, 미 무역협정 따라 AI 서버·첨단 칩 대중 무단 반출 형사처벌",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "대만, AI 서버·첨단 칩 대중 무단 반출 형사처벌"
+  }
+ ]
+}

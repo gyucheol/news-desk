@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0396",
+ "num": 396,
+ "key": "split-G2-033-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:14:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/energy-companies-set-to-lead-european-earnings-growth-again",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "에너지 기업, 3분기 유럽 기업 이익 증가 다시 주도할 전망",
+ "headline": "에너지 기업, 3분기 유럽 기업 이익 증가 다시 주도할 전망",
+ "one": "블룸버그에 따르면 에너지 기업들이 3분기 실적 시즌에 다시 유럽 기업 이익 증가를 이끌 것으로 보이면서, 이란 전쟁발 유가·정제마진 상승이 유럽 실적의 버팀목이 될 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 에너지 기업들이 다시 유럽 기업 이익 증가를 주도할 것으로 전망됐다(10월 14일 블룸버그) [제목]",
+  "근거: 앞서 셸은 3분기 정제 마진 지표를 배럴당 42달러로, BP는 46.7달러로 높여 안내했다 [사실]",
+  "의미: 이란 전쟁발 유가·정제마진 상승이 3분기 실적 시즌의 버팀목이 될 전망이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 14일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 셸·BP 마진 수치는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "에너지 기업, 다시 유럽 기업 이익 증가 주도할 전망",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/energy-companies-set-to-lead-european-earnings-growth-again"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "에너지 기업, 3분기 유럽 이익 증가 주도 전망"
+  }
+ ]
+}

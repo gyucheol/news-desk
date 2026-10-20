@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0443",
+ "num": 443,
+ "key": "split-G2-109-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/india-roll-out-data-centre-policy-concerns-grow-over-power-use-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도, 전력 사용 우려 속 데이터센터 정책 내놓는다",
+ "headline": "인도, 전력 사용 우려 속 데이터센터 정책 내놓는다",
+ "one": "인도가 데이터센터의 전력 사용 우려가 커지는 가운데 데이터센터 정책을 내놓기로 하면서, 전력 수급 관리가 정책 과제로 떠올랐고 데이터센터 입지와 전력 공급 조건이 달라질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도가 데이터센터 정책을 내놓기로 했다 [제목]",
+  "배경: 데이터센터 전력 사용에 대한 우려가 커지고 있다 [제목]",
+  "의미: 전력 수급 관리가 데이터센터 유치의 조건이 될 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "인도, 전력 사용 우려 커지는 가운데 데이터센터 정책 내놓는다",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/india/india-roll-out-data-centre-policy-concerns-grow-over-power-use-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/demand"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "인도, 데이터센터 전력 사용 우려에 정책 마련"
+  }
+ ]
+}

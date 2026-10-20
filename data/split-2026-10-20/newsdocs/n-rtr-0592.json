@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0592",
+ "num": 592,
+ "key": "split-G5-155-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/imf-chief-urges-cooperation-ai-war-risks-us-hails-economic-momentum-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 총재 'AI·전쟁 위험에 협력해야'…미국은 경제 모멘텀 자찬",
+ "headline": "IMF 총재 'AI·전쟁 위험에 협력해야'…미국은 경제 모멘텀 자찬",
+ "one": "IMF 총재가 16일 AI와 전쟁 위험에 맞서 국제 협력을 촉구한 반면 미국은 자국 경제의 성장세를 내세우며 다른 목소리를 내면서, 연차총회에서 세계경제 위험을 둘러싼 시각차가 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF 총재는 10월 16일 AI와 전쟁 위험에 맞서 국제 협력이 필요하다고 촉구했다 [제목]",
+  "미국: 미국은 자국 경제의 모멘텀을 자찬하며 다른 목소리를 냈다 [제목]",
+  "IMF 경고: 게오르기에바 총재는 앞서 미국 성장만으로는 조정을 충분히 빨리 해낼 수 없다며 적자를 줄여야 한다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF 총재 'AI·전쟁 위험에 협력해야'…미국은 경제 모멘텀 자찬",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/finance/imf-chief-urges-cooperation-ai-war-risks-us-hails-economic-momentum-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "IMF 총재 위험 경고 속 미국은 경제 모멘텀 자찬"
+  }
+ ]
+}

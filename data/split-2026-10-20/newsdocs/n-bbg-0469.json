@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0469",
+ "num": 469,
+ "key": "split-G4-055-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/france-s-debt-is-now-riskier-than-38-of-nation-s-company-bonds",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+ "headline": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+ "one": "블룸버그에 따르면 프랑스 국채가 시장에서 자국 회사채의 38%보다 더 위험한 자산으로 평가받게 되면서, 재정 불안에 프랑스 정부의 차입 여건이 자국 기업 상당수보다 나빠졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 프랑스 국채가 자국 회사채의 38%보다 위험해졌다(10월 8일 블룸버그) [제목]",
+  "배경: 10월 5일 프랑스-독일 10년물 금리차가 145bp를 넘어 유로존 위기 이후 최대였다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 8일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-s-debt-is-now-riskier-than-38-of-nation-s-company-bonds"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "프랑스 국채, 자국 회사채 38%보다 위험해져"
+  }
+ ]
+}

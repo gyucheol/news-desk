@@ -1,0 +1,63 @@
+{
+ "id": "n-tg-0555",
+ "num": 555,
+ "key": "split-G3-099-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70606",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "中 반도체·IT 4곳, 한 시간 새 2억~8억 위안 자사주 매입안",
+ "headline": "中 반도체·IT 4곳, 한 시간 새 2억~8억 위안 자사주 매입안",
+ "one": "Sugon·Hygon·Shengyi·Montage 등 중국 반도체·IT 기업 4곳이 18일 한 시간 안에 2억~8억 위안 규모 자사주 매입안을 잇따라 내면서, 급락한 중국 기술주의 하단을 받치려는 움직임이 나왔다",
+ "facts": [
+  "무엇이: Sugon·Hygon·Shengyi·Montage 4곳이 18일 한 시간 안에 2억~8억 위안 규모 자사주 매입안을 냈다 [사실]",
+  "규모: 이 가운데 Sugon은 3억~5억 위안, Shengyi Technology는 2억~3억 위안이다 [사실]",
+  "배경: 당국은 매도 제한과 자사주 매입으로 증시를 떠받쳤다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "하나증권 텔레그램 1건이다. 자사주 매입안 규모는 원 문서에 [사실]로 적힌 줄을 따랐고 富途牛牛 두 기사(16일·18일)를 출처로 붙였다.",
+ "src": [
+  {
+   "o": "富途牛牛",
+   "d": "2026-10-16",
+   "u": "https://news.futunn.com/en/post/1001480114/the-chairman-of-zhongke-shuguang-603019-sh-proposes-a-share"
+  },
+  {
+   "o": "富途牛牛",
+   "d": "2026-10-18",
+   "u": "https://news.futunn.com/en/post/1001481790/tech-stock-buybacks-and-shareholdings-gain-momentum-shanghai-listed-companies"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 반도체·IT 기업 4곳, 한 시간 안에 잇따라 자사주 매입안 발표",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70606"
+  }
+ ],
+ "inds": [
+  "fin",
+  "semis"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "반도체·IT 4곳 2억~8억 위안 자사주 매입안"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

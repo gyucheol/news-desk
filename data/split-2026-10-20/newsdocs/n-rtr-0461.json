@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0461",
+ "num": 461,
+ "key": "split-G3-004-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+ "headline": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+ "one": "로이터에 따르면 인도 정부가 머스크의 '올리가르히' 비판이 나온 뒤 위성인터넷 사업 승인에 편파가 있었다는 의혹을 부인하면서, 위성인터넷 승인을 둘러싼 머스크 측과 인도 정부의 공방이 이어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도 정부가 머스크의 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹을 부인했다(10월 8일 로이터) [제목]",
+  "의미: 위성인터넷 승인을 둘러싼 머스크 측과의 공방이 이어졌다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 8일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "인도, 위성인터넷 승인 편파 의혹 부인(공방)"
+  }
+ ]
+}

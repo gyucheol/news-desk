@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0529",
+ "num": 529,
+ "key": "split-G5-021-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/canada-s-doug-ford-says-trump-tariffs-on-steel-autos-may-last-permanently",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "포드 온타리오 주지사 \"트럼프 철강·자동차 관세 영구화될 수도\"",
+ "headline": "포드 온타리오 주지사 \"트럼프 철강·자동차 관세 영구화될 수도\"",
+ "one": "더그 포드 온타리오 주지사가 10월 14일 철강·자동차 등에 걸린 미국 232조 관세가 트럼프 이후에도 남을 수 있다고 경고하면서, 캐나다 기업들이 장기 관세를 전제로 사업 계획을 세워야 할 처지가 됐다",
+ "facts": [
+  "무엇이: 더그 포드 온타리오 주지사는 10월 14일 철강·자동차 등에 걸린 미국 232조 관세가 트럼프 이후에도 이어질 수 있다고 경고했다 [사실]",
+  "촉구: 포드는 캐나다 기업에 장기 관세를 전제로 대비하라고 촉구했다 [사실]",
+  "관세 위협: 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 사실 줄의 포드 발언을 따르고, 원 문서 독립 출처 Briefs·Transport Topics(10월 14일, 오래 남을 미국 관세에 대비하라는 포드 발언)를 근거로 삼음",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-14",
+   "u": "https://www.briefs.co/news/doug-ford-says-canada-should-brace-for-u-s-tariffs-that-stic/"
+  },
+  {
+   "o": "Transport Topics",
+   "d": "2026-10-14",
+   "u": "https://www.ttnews.com/articles/ford-lasting-us-tariffs-trump"
+  }
+ ],
+ "items": [
+  {
+   "t": "포드 온타리오 주지사 '트럼프 철강·자동차 관세 영구화될 수도'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/canada-s-doug-ford-says-trump-tariffs-on-steel-autos-may-last-permanently"
+  }
+ ],
+ "inds": [
+  "macro",
+  "auto",
+  "metals"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "포드 주지사, 철강·자동차 232조 관세 영구화 경고"
+  }
+ ]
+}

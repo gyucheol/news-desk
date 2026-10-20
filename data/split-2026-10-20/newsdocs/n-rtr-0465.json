@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0465",
+ "num": 465,
+ "key": "split-G3-016-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 상무부, 박막 웨이퍼·페로브스카이트 등 태양광 기술 12개 수출통제 제안",
+ "headline": "중국 상무부, 박막 웨이퍼·페로브스카이트 등 태양광 기술 12개 수출통제 제안",
+ "one": "중국 상무부가 박막 웨이퍼·페로브스카이트·탠덤 셀 기술 수출은 금지하고 TOPCon·HJT·XBC 셀 기술은 제한하는 등 태양광 제조 기술 12개 통제를 제안하면서, 해외 공장의 기술 확보가 어려워질 수 있다",
+ "facts": [
+  "무엇이: 중국 상무부가 태양광 제조 기술 12개의 수출 금지·제한을 제안했다 [사실]",
+  "범위: 박막 웨이퍼·페로브스카이트·탠덤 셀 기술 수출은 금지하고 TOPCon·HJT·XBC 셀 기술은 제한하며, 의견 수렴은 11월 15일까지다 [사실]",
+  "영향: 해외 태양광 공장의 기술 확보가 어려워질 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건(10월 18일). 태양광 제조 기술 12개 통제 제안은 IndexBox·URKU 기사가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-18",
+   "u": "https://indexbox.io/blog/china-proposes-export-controls-on-12-solar-manufacturing-technologies"
+  },
+  {
+   "o": "URKU",
+   "d": "2026-10-18",
+   "u": "https://urku.org/article/china-proposes-new-solar-export-controls-what-it-means-for-global-energy"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 태양광 제조 기술에 대한 수출 통제 도입 제안",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/modules"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "modules",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "태양광 셀 기술 12개 수출 금지·제한 제안"
+  }
+ ]
+}

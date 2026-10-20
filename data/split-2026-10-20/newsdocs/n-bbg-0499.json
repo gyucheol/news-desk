@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0499",
+ "num": 499,
+ "key": "split-G4-127-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/billionaires-are-leaving-london-and-luxury-home-buyers-want-bargains",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "억만장자들 런던 떠나고 고가 주택 매수자는 헐값 매물 찾아",
+ "headline": "억만장자들 런던 떠나고 고가 주택 매수자는 헐값 매물 찾아",
+ "one": "억만장자들이 런던을 떠나는 가운데 고가 주택 매수자들은 헐값 매물만 찾으면서 런던 고급 주택시장이 얼어붙고 있고, 30년물 금리가 1998년 이후 최고로 오른 고금리 환경이 매수 심리를 더 누를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 7일 블룸버그는 억만장자들이 런던을 떠나고 고가 주택 매수자들은 헐값 매물을 찾고 있다고 전했다 [제목]",
+  "금리 배경: 같은 날 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였다 [사실]",
+  "해석: 부유층 이탈과 고금리가 겹치면 런던 고가 주택의 가격 협상력이 매수자 쪽으로 기울 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "억만장자들 런던 떠나고 고가 주택 매수자는 헐값 매물 찾아",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/billionaires-are-leaving-london-and-luxury-home-buyers-want-bargains"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "억만장자 런던 이탈에 고가 주택 수요 냉각"
+  }
+ ]
+}

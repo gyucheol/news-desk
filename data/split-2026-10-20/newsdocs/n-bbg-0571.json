@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0571",
+ "num": 571,
+ "key": "split-G5-147-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/imf-says-us-growth-not-enough-to-fight-high-debt-deficit-levels",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF·게오르기에바 '美 성장만으론 높은 부채·적자 대응 못 해'",
+ "headline": "IMF·게오르기에바 '美 성장만으론 높은 부채·적자 대응 못 해'",
+ "one": "IMF와 게오르기에바 총재가 14일 미국 경제 성장만으로는 높은 부채와 적자를 줄이기에 충분하지 않다며 적자를 줄이는 긴축 쪽으로 가야 한다고 하면서, 일반정부 적자가 GDP의 8.5%로 예상되는 미국에 재정 긴축 압박이 커졌다",
+ "facts": [
+  "무엇이: IMF는 10월 14일 미국 경제 성장만으로는 높은 부채와 적자에 대응하기에 충분하지 않다고 했다 [사실]",
+  "총재 발언: 게오르기에바 총재는 성장은 도움이 되지만 조정을 충분히 빨리 해낼 수 없다며 적자를 줄이는 긴축 쪽으로 가야 한다고 했다 [사실]",
+  "수치: IMF는 미국 일반정부 적자가 2026년 GDP의 8.5%, 선진국 전체 적자가 5.2%에 이를 것으로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사(14일)를 묶었다. 총재 발언과 적자 수치는 원 문서 사실 줄과 독립 출처(Fortune·CNBC, 14일)로 확인된다.",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-14",
+   "u": "https://cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html"
+  },
+  {
+   "o": "Fortune",
+   "d": "2026-10-14",
+   "u": "https://fortune.com/2026/10/14/imf-us-nations-global-debt-economic-growth"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF \"美 성장만으로는 높은 부채·적자 대응 못 해\"",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/imf-says-us-growth-not-enough-to-fight-high-debt-deficit-levels",
+   "s": "IMF가 미국 경제 성장만으로는 높은 부채와 적자를 줄이기에 충분하지 않다고 하면서, 적자 감축 압박이 커졌다"
+  },
+  {
+   "t": "게오르기에바 IMF 총재 \"美 성장만으론 부채 축소 불충분\"",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/us/imfs-georgieva-says-us-growth-will-not-be-enough-shrink-debt-2026-10-14/",
+   "s": "게오르기에바 총재가 성장은 도움이 되지만 조정을 충분히 빨리 해낼 수 없다며 적자를 줄이는 긴축 쪽으로 가야 한다고 했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 미국에 적자 감축 긴축 요구"
+  }
+ ]
+}

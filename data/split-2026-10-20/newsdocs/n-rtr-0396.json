@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0396",
+ "num": 396,
+ "key": "split-G1-114-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/saudi-warning-system-stayed-silent-before-deadly-airport-attacks-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디 경보 체계, 치명적 리야드 공항 공격 전 작동 안 해",
+ "headline": "사우디 경보 체계, 치명적 리야드 공항 공격 전 작동 안 해",
+ "one": "로이터가 13일 사우디 경보 체계가 치명적인 공항 공격 전에 울리지 않았다고 보도하면서, 최소 12명이 숨진 리야드 공항 피격과 맞물려 사우디 방공 체계의 신뢰도에 대한 의문이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 13일 사우디 경보 체계가 치명적인 공항 공격 전에 작동하지 않았다고 보도했다 [제목]",
+  "공격: 후티의 10일 리야드 킹칼리드 국제공항 공격으로 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]",
+  "방공 한계: WSJ가 인용한 미 고위 당국자는 공격의 절반 이상이 방공망 없는 지역에 몰렸다고 했고, 사우디는 요격탄 재고 부족 속 튀르키예·파키스탄·유럽에 방공 지원을 요청했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 공항 사망자는 원 문서 검색 확인 수치, 방공 한계는 WSJ 인용 채널 근거다.",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디 경보 체계, 치명적 공항 공격 전 작동 안 해",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/middle-east/saudi-warning-system-stayed-silent-before-deadly-airport-attacks-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "요격탄 부족 속 사우디 방공 지원 요청"
+  }
+ ]
+}

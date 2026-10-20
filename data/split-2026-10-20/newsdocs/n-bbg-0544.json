@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0544",
+ "num": 544,
+ "key": "split-G5-046-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-reveals-advanced-nuclear-sub-was-used-to-test-fire-missile",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국, 신형 핵잠수함으로 미사일 시험 발사 공개",
+ "headline": "중국, 신형 핵잠수함으로 미사일 시험 발사 공개",
+ "one": "중국이 신형 핵잠수함을 미사일 시험 발사에 썼다고 공개하면서, 해상 핵 억지력을 과시하는 행보로 필리핀과 맞선 남중국해 등 주변국과의 군사 긴장이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국은 신형 핵잠수함이 미사일 시험 발사에 쓰였다고 공개했다 [제목]",
+  "영향: 해상 핵 억지력을 과시해 주변국 긴장이 커질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록은 핵잠 미사일 시험 공개를 검색에서 찾지 못해 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국, 신형 핵잠수함으로 미사일 시험 발사 공개",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/china-reveals-advanced-nuclear-sub-was-used-to-test-fire-missile"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "핵잠 미사일 시험 공개, 수급 영향은 불분명"
+  }
+ ]
+}

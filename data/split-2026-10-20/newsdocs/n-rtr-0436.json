@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0436",
+ "num": 436,
+ "key": "split-G2-083-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/uk-watchdog-moves-protect-energy-market-wholesale-price-swings-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 오프젬, 시장안정 부담금 이르면 11월 재가동 협의",
+ "headline": "영국 오프젬, 시장안정 부담금 이르면 11월 재가동 협의",
+ "one": "영국 오프젬이 2022~2024년에 썼던 시장안정 부담금을 이르면 11월 재가동하는 방안을 협의하면서, 도매 에너지값 급변동 속에 에너지 공급사들이 떠안는 손실 위험을 줄이려 하고 있다",
+ "facts": [
+  "무엇이: 영국 오프젬이 2022~2024년에 썼던 시장안정 부담금을 이르면 11월 재가동하는 방안을 협의하고 있다 [사실]",
+  "목적: 에너지 공급사들을 도매가 급변동에서 보호하려는 조치다 [사실]",
+  "맥락: 같은 시기 EU는 횡재세 작업반을, 독일은 전기세 인하를, 이탈리아는 발전용 가스값 상한을 추진하는 등 유럽 각국이 에너지값 대응에 나섰다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 오프젬의 시장안정 부담금 재가동 협의를 독립 출처(eastrennews)로 확인",
+ "src": [
+  {
+   "o": "Eastern Daily Press(eastrennews)",
+   "d": "2026-10-16",
+   "u": "https://www.eastrennews.co.uk/news/national/26642133.ofgem-planning-action-cushion-energy-firms-wholesale-price-swings/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 감독당국, 도매가 급변동에서 에너지 시장 보호 조치 착수",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/uk-watchdog-moves-protect-energy-market-wholesale-price-swings-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "공급사 보호 장치 재가동 협의로 방향 판단 어려움"
+  }
+ ]
+}

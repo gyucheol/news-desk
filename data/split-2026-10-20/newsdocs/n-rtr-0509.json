@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0509",
+ "num": 509,
+ "key": "split-G4-088-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/dollar-firmer-euro-weakens-french-protests-turn-violent-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 시위 폭력 양상에 유로 약세·달러 강세",
+ "headline": "프랑스 시위 폭력 양상에 유로 약세·달러 강세",
+ "one": "프랑스 시위가 폭력 양상으로 번진 10월 19일 국채·증시와 함께 유로가 약해지고 달러가 강해졌으며 파운드는 유로 대비 17개월 만의 최고로 올라, 유럽 정치 위험이 환율에 반영되고 있다",
+ "facts": [
+  "무엇이: 10월 19일 프랑스 시위가 폭력 양상으로 번지자 프랑스 국채·증시와 함께 유로가 하락했다 [사실]",
+  "달러: 로이터는 같은 날 달러가 강세를 보였다고 전했다 [제목]",
+  "파운드: 파운드는 유로 대비 17개월 만의 최고로 올랐다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "로이터 기사 1건(제목 기준). 국채·증시·유로 동반 하락은 원 문서에서 검색 결과 요약(CNBC 등)으로 확인했고, 파운드 17개월 최고는 채널 근거",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-19",
+   "u": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "프랑스 시위 폭력 양상에 달러 강세·유로 약세",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-firmer-euro-weakens-french-protests-turn-violent-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스 시위 폭력 양상에 유로 약세"
+  }
+ ]
+}

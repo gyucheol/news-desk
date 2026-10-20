@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0586",
+ "num": 586,
+ "key": "split-G6-074-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/copper-and-aluminum-drop-as-ai-selloff-saps-appetite-for-risk",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI 매도세·미국 물가 지표에 구리값 사흘 연속 하락…알루미늄도 약세",
+ "headline": "AI 매도세·미국 물가 지표에 구리값 사흘 연속 하락…알루미늄도 약세",
+ "one": "10월 13일 AI 매도세로 위험 선호가 약해져 구리·알루미늄이 떨어진 뒤 14일 세계 최대 광산의 파업 회피로 공급 우려가 줄고 15일 강한 미국 물가 지표에 매도세가 이어지면서, 사상 최고에 근접했던 구리값이 사흘째 내렸다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 13일 AI 매도세로 위험 선호가 약해지면서 구리·알루미늄 가격이 떨어져 사상 최고에 근접했던 구리 랠리가 주춤했다 [제목]",
+  "14일: 세계 최대 구리 광산이 파업을 피하면서 공급 차질 우려가 줄어 구리값이 소폭 내렸다 [제목]",
+  "15일: 미국 물가 지표가 예상보다 강하게 나오자 금속 시장 매도세가 이어져 구리값이 사흘째 떨어졌다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 3건(10월 13~15일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "AI 매도세에 위험 선호 위축…구리·알루미늄 하락",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/copper-and-aluminum-drop-as-ai-selloff-saps-appetite-for-risk",
+   "s": "AI 매도세로 위험 선호가 약해지면서 구리·알루미늄 가격이 떨어져, 사상 최고에 근접했던 구리 랠리가 주춤했다 (제목 기준)"
+  },
+  {
+   "t": "세계 최대 광산 파업 피하자 구리값 소폭 하락",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/copper-climbs-to-three-week-high-on-strike-threat-fed-comments",
+   "s": "세계 최대 구리 광산이 파업을 피하면서 공급 차질 우려가 줄어 구리값이 소폭 내렸다 (제목 기준)"
+  },
+  {
+   "t": "강한 미국 물가 지표에 매도세…구리값 사흘째 하락",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
+   "s": "미국 물가 지표가 예상보다 강하게 나오면서 금속 시장에 매도세가 이어져 구리값이 사흘째 떨어졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "AI 매도세·미 물가 지표에 구리 사흘째 하락"
+  },
+  {
+   "ind": "metals",
+   "node": "aluminum",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "AI 매도세에 알루미늄 가격 하락"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0423",
+ "num": 423,
+ "key": "split-G2-163-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/russia-says-drones-attacked-two-oil-refineries-interfax-reports",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "노박 '러시아 정유소 두 곳 드론 공격받아'…휴전 뒤 피격 재개",
+ "headline": "노박 '러시아 정유소 두 곳 드론 공격받아'…휴전 뒤 피격 재개",
+ "one": "러시아 당국과 노박이 15일 자국 정유소 두 곳이 밤사이 드론 공격을 받았다고 밝히면서, 트럼프의 에너지 휴전 발표 뒤 멈췄던 러시아 정유시설 피격이 다시 시작됐다 (채널 전언)",
+ "facts": [
+  "무엇이: 러시아 당국은 드론이 자국 정유소 두 곳을 공격했다고 인테르팍스를 통해 밝혔다 [제목]",
+  "노박: 노박은 러시아 정유시설 두 곳이 공격받았다고 밝혀 전날 밤에도 정유소 피격이 이어졌음이 드러났다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "블룸버그 1건·트릴리온 텔레그램 1건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "러 '드론이 정유소 두 곳 공격'…인테르팍스 보도",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/russia-says-drones-attacked-two-oil-refineries-interfax-reports",
+   "s": "러시아 당국이 드론이 자국 정유소 두 곳을 공격했다고 밝히면서 에너지 휴전 뒤 멈췄던 정유시설 피격이 다시 생겼다 (제목 기준)"
+  },
+  {
+   "t": "노박 '러시아 정유시설 두 곳 공격받아'…밤새 피격 이어져",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-15",
+   "u": "https://t.me/Trillion_labs/10528",
+   "s": "노박이 러시아 정유시설 두 곳이 공격받았다고 밝히면서 전날 밤에도 러시아 정유소 피격이 이어졌음이 드러났다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "러 정유소 두 곳 드론 피격"
+  }
+ ]
+}

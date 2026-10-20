@@ -1,0 +1,83 @@
+{
+ "id": "n-rtr-0604",
+ "num": 604,
+ "key": "split-G6-079-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:55:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "佛 앵테르마르셰 150곳·쿠페라티브 U 80곳 사이버공격…식품 손실",
+ "headline": "佛 앵테르마르셰 150곳·쿠페라티브 U 80곳 사이버공격…식품 손실",
+ "one": "프랑스 슈퍼마켓 체인 앵테르마르셰 매장 150곳이 표적이 되고 쿠페라티브 U 매장 80곳이 피해를 입어 일부 매장이 식품을 버렸고, 보험사들이 이런 물리적 손실은 대개 보상하지 않는다고 밝혀 손실을 업체가 떠안을 수 있다",
+ "facts": [
+  "무엇이: 앵테르마르셰는 사이버공격으로 매장 150곳이 표적이 됐고, 쿠페라티브 U는 매장 약 2,000곳 중 80곳이 피해를 입었다 [사실]",
+  "규모: 프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격을 받았다 [사실]",
+  "손실: 일부 매장은 식품을 버렸고, 보험사들은 사이버보험이 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 했다 [사실]",
+  "연관성: 네덜란드 국가사이버보안센터는 아홀드 사고가 다른 나라 공격과 직접 연결됐다고 볼 이유는 없다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 3건을 묶음. 프랑스 슈퍼마켓 약 700곳 냉장 시스템 공격과 보험 보상 한계를 AP·NBC·Insurance Journal 검색 결과로 확인했고, 매장 150곳·80곳은 기사 기준",
+ "src": [
+  {
+   "o": "Washington Times(AP)",
+   "d": "2026-10-13",
+   "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"
+  },
+  {
+   "o": "Insurance Journal",
+   "d": "2026-10-15",
+   "u": "https://www.insurancejournal.com/news/international/2026/10/15/889037.htm"
+  },
+  {
+   "o": "NBC News",
+   "d": "2026-10-14",
+   "u": "https://www.nbcnews.com/world/europe/hackers-heat-french-supermarket-fridges-sparking-fires-spoiling-food-rcna603151"
+  }
+ ],
+ "items": [
+  {
+   "t": "佛 슈퍼마켓 체인 앵테르마르셰 사이버공격, 매장 150곳 표적",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+   "s": "프랑스 슈퍼마켓 체인 앵테르마르셰가 사이버공격을 받아 매장 150곳이 표적이 되면서, 냉장 관리 시스템을 노린 공격이 프랑스 유통업계로 번졌다"
+  },
+  {
+   "t": "佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/",
+   "s": "쿠페라티브 U가 매장 약 2,000곳 중 80곳이 사이버공격 피해를 입었다고 밝히면서 일부 매장이 식품을 버리는 손실을 떠안았다"
+  },
+  {
+   "t": "보험사 \"佛 슈퍼마켓 사이버보험, 식품 손실 보상 어려워\"",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/",
+   "s": "보험사들이 사이버보험은 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 밝히면서, 프랑스 슈퍼마켓이 손실을 떠안게 될 수 있다"
+  }
+ ],
+ "inds": [
+  "consumer",
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "佛 슈퍼마켓 사이버공격에 식품 폐기 손실"
+  }
+ ]
+}

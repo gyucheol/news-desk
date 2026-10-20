@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0388",
+ "num": 388,
+ "key": "split-G1-097-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티, 치명적 리야드 공격 뒤 사우디 공항 경고 재차",
+ "headline": "후티, 치명적 리야드 공격 뒤 사우디 공항 경고 재차",
+ "one": "후티가 10일 리야드 공항 공격으로 최소 12명이 숨진 뒤 사우디 공항들에 대한 경고를 다시 내놓으면서, 사우디 공항 운영과 외국 항공사들의 운항 재개가 더 늦어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 후티는 치명적인 리야드 공격 뒤 사우디 공항에 대한 경고를 다시 내놨다 [제목]",
+  "배경: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "후티, 치명적 리야드 공격 뒤 사우디 공항 경고 재차 내놔",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "후티 사우디 공항 공격 경고 재차"
+  }
+ ]
+}

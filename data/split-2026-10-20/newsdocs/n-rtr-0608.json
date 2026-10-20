@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0608",
+ "num": 608,
+ "key": "split-G6-086-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/aerospace-defense/renk-wins-130-million-leopard-2-contract-extension-knds-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "렝크, KNDS와 1억 3,000만 규모 레오파르트2 계약 연장",
+ "headline": "렝크, KNDS와 1억 3,000만 규모 레오파르트2 계약 연장",
+ "one": "렝크가 KNDS로부터 레오파르트2 전차 관련 1억 3,000만 규모 계약 연장을 따내면서, 독일 정부의 KNDS 지분 인수 협상이 진행되는 가운데 전차 부품 수요가 이어지고 있음을 보였다 (제목 기준)",
+ "facts": [
+  "무엇이: 렝크는 10월 14일 KNDS와 1억 3,000만 규모 레오파르트2 계약 연장을 따냈다 [제목]",
+  "배경: 같은 날 독일 정부가 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상 중이라는 보도가 나왔다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 14일)이다. 원 문서 확인 기록에 렝크 계약 부분이 없어 기사 제목 기준이고, 계약 금액의 통화는 제목에 드러나지 않아 숫자만 적었다.",
+ "src": [],
+ "items": [
+  {
+   "t": "렝크, KNDS와 1억 3,000만 규모 레오파르트2 계약 연장",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/aerospace-defense/renk-wins-130-million-leopard-2-contract-extension-knds-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "parts",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "렝크 KNDS 레오파르트2 계약 연장"
+  }
+ ]
+}

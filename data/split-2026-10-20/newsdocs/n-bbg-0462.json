@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0462",
+ "num": 462,
+ "key": "split-G4-031-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/ecb-president-race-who-will-replace-christine-lagarde",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라가르드 후임 ECB 총재 경쟁…스페인 제1야당도 데코스 지지",
+ "headline": "라가르드 후임 ECB 총재 경쟁…스페인 제1야당도 데코스 지지",
+ "one": "라가르드 후임을 둘러싼 ECB 총재 경쟁이 부각된 가운데 10월 15일 스페인 제1야당 대표가 데코스를 차기 총재로 지지하면서, 스페인 후보가 여야 지지를 함께 얻어 차기 총재 경쟁 구도에 변수가 생겼다 (제목 기준)",
+ "facts": [
+  "무엇이: 스페인 제1야당 대표가 데코스를 라가르드 후임 ECB 총재로 지지했다(10월 15일 블룸버그) [제목]",
+  "의미: 차기 총재 경쟁에서 스페인 후보가 여야 지지를 함께 얻게 됐다 [제목]",
+  "배경: 블룸버그는 10월 8일 라가르드 후임 경쟁 구도를 짚었고, 차기 총재 인선이 유로존 통화정책 방향의 변수로 떠올랐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 2건(10월 8·15일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "ECB 총재 경쟁: 라가르드 후임은 누구인가",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/ecb-president-race-who-will-replace-christine-lagarde",
+   "s": "라가르드 후임을 둘러싼 ECB 총재 경쟁 구도가 부각되면서 차기 총재 인선이 유로존 통화정책 방향의 변수로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "스페인 제1야당 대표, 라가르드 후임 ECB 총재로 데코스 지지",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/spain-s-opposition-leader-backs-de-cos-to-succeed-lagarde-at-ecb",
+   "s": "스페인 제1야당 대표가 데코스를 라가르드의 후임 ECB 총재로 지지하면서, 차기 총재 경쟁에서 스페인 후보가 여야 지지를 함께 얻게 됐다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "스페인 제1야당, 데코스 ECB 총재 후보 지지"
+  }
+ ]
+}

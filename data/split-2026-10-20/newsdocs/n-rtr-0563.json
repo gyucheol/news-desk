@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0563",
+ "num": 563,
+ "key": "split-G5-091-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/indias-bajaj-finance-posts-higher-quarterly-profit-strong-loan-growth-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도 바자즈 파이낸스, 강한 대출 증가에 분기 이익 증가",
+ "headline": "인도 바자즈 파이낸스, 강한 대출 증가에 분기 이익 증가",
+ "one": "인도 바자즈 파이낸스가 강한 대출 증가에 힘입어 분기 이익을 늘리면서 인도 비은행 대출 수요가 견조함을 보여 줬지만, HDB파이낸셜은 대출 수요가 줄어 회사별 대출 성장세는 엇갈리고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 바자즈 파이낸스의 분기 이익이 강한 대출 증가에 힘입어 늘었다 [제목]",
+  "확인: 바자즈 파이낸스 이익 수치는 독립 출처로 확인하지 못했다 [미확인]",
+  "반대 신호: HDFC은행 계열 HDB파이낸셜은 대출 수요가 줄었는데도 이익을 늘렸다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서는 바자즈 파이낸스 이익 수치를 확인 못 해 제목 기준으로 분류",
+ "src": [],
+ "items": [
+  {
+   "t": "인도 바자즈 파이낸스, 강한 대출 증가에 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/india/indias-bajaj-finance-posts-higher-quarterly-profit-strong-loan-growth-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "바자즈 파이낸스 강한 대출 증가에 이익 증가"
+  }
+ ]
+}

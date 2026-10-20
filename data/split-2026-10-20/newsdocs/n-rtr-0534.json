@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0534",
+ "num": 534,
+ "key": "split-G5-019-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "그리어 USTR \"캐나다와 무역 입장 고수\"…퀘벡 선거 탓 교착",
+ "headline": "그리어 USTR \"캐나다와 무역 입장 고수\"…퀘벡 선거 탓 교착",
+ "one": "그리어 USTR이 10월 8일 CNBC 인터뷰에서 캐나다와의 무역 입장을 고수하겠다며 퀘벡 선거가 오타와를 붙잡고 있다고 말하면서, 미국과 캐나다의 무역협상 교착이 길어지고 관세 부담이 이어질 수 있다",
+ "facts": [
+  "무엇이: 그리어 USTR은 10월 8일 CNBC 인터뷰에서 미국이 캐나다와의 무역 입장을 고수하고 있다고 말했다 [사실]",
+  "배경 진단: 그리어는 퀘벡 선거가 오타와를 붙잡고 있다고 했다 [사실]",
+  "관세: 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 사실 줄의 그리어 발언을 따르고, 원 문서 독립 출처 The Globe and Mail(10월 8일, 그리어의 대캐나다 무역 입장)을 근거로 삼음",
+ "src": [
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-08",
+   "u": "https://www.theglobeandmail.com/business/article-us-trade-stance-with-canada-jamieson-greer/"
+  }
+ ],
+ "items": [
+  {
+   "t": "그리어 USTR '캐나다와 무역 입장 고수'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미국, 캐나다와 무역 입장 고수로 협상 교착"
+  }
+ ]
+}

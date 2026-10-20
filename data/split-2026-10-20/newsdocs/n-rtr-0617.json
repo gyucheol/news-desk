@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0617",
+ "num": 617,
+ "key": "split-G6-103-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "오스트리아 투자자, 칠레 트레스바예스 노후 광산 구리 증산 서둘러",
+ "headline": "오스트리아 투자자, 칠레 트레스바예스 노후 광산 구리 증산 서둘러",
+ "one": "오스트리아 투자자의 회사가 칠레 트레스바예스에서 소규모 광산 광석을 사들이고 자체 생산을 늘리며 노후 광산 증산을 서두르면서, 칠레 구리 공급 감소를 일부 메울 수 있다",
+ "facts": [
+  "무엇이: 오스트리아 투자자의 회사가 칠레 트레스바예스 노후 광산에서 구리 증산을 서두르고 있다고 로이터가 10월 16일 전했다 [사실]",
+  "방식: 소규모 광산 광석을 사들이고 자체 생산을 늘리는 방식이다 [사실]",
+  "의미: 칠레 구리 공급 감소를 일부 메울 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 MINING.COM(오스트리아 투자자 노후 광산 증산) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "MINING.COM",
+   "d": "2026-10-16",
+   "u": "https://www.mining.com/web/austrian-investor-rushes-to-boost-copper-production-at-old-chile-mine/"
+  }
+ ],
+ "items": [
+  {
+   "t": "오스트리아 투자자, 칠레 노후 광산 구리 증산 서둘러",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "칠레 트레스바예스 노후 광산 구리 증산"
+  }
+ ]
+}

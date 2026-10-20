@@ -1,0 +1,54 @@
+{
+ "id": "n-tg-0525",
+ "num": 525,
+ "key": "split-G3-056-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66152",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 YMTC, 상하이 증시 IPO 신청…낸드 생산능력 확대 추진",
+ "headline": "중국 YMTC, 상하이 증시 IPO 신청…낸드 생산능력 확대 추진",
+ "one": "중국 낸드 업체 YMTC가 상하이증권거래소에 상장 신청서를 내고 연구개발과 낸드 생산능력 확대에 나서면서, 중국 메모리 업체의 증설 자금줄이 넓어지고 있다 (채널 전언)",
+ "facts": [
+  "무엇이: 중국 YMTC가 14일 상하이증권거래소 상장을 위한 IPO 신청서를 냈다 [채널]",
+  "자금 용도: 상장으로 연구개발과 낸드 생산능력 확대에 나선다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "미국 주식 인사이더 텔레그램 1건. 원 문서 확인 기록에서 YMTC 상장은 채널 전언으로 남아 있어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국 YMTC, 상하이 증시 상장 위한 IPO 신청",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66152"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "YMTC 상장으로 낸드 생산능력 확대"
+  }
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

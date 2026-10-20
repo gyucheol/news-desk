@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0593",
+ "num": 593,
+ "key": "split-G6-104-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/traders-are-shelling-out-millions-to-secure-copper",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트레이더들, 구리 실물 확보에 수백만 달러씩 지출",
+ "headline": "트레이더들, 구리 실물 확보에 수백만 달러씩 지출",
+ "one": "트레이더들이 구리 실물 물량을 확보하려 수백만 달러씩 치르고 있다고 블룸버그가 전하면서, 공급난 속 실물 구리의 확보 비용이 오르고 현물 시장의 압박이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 트레이더들이 구리 물량을 확보하려 수백만 달러씩 치르고 있다고 블룸버그가 10월 16일 전했다 [제목]",
+  "의미: 실물 구리의 확보 비용이 오르고 있다 [제목]",
+  "해석: 현물 시장의 공급 압박이 커지고 있다는 신호로 읽힌다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "트레이더들, 구리 물량 확보에 수백만 달러씩 지출",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/traders-are-shelling-out-millions-to-secure-copper"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "트레이더 구리 실물 확보에 수백만 달러 지출"
+  }
+ ]
+}

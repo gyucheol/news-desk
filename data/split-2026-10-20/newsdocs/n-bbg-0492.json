@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0492",
+ "num": 492,
+ "key": "split-G4-104-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "투자자 수익률 요구에 美 모기지 채권 발행 보류…3억 4,600만 달러 MBS도",
+ "headline": "투자자 수익률 요구에 美 모기지 채권 발행 보류…3억 4,600만 달러 MBS도",
+ "one": "투자자들이 더 높은 수익률을 요구하면서 피겨테크놀로지 계열 3억 4,600만 달러 주택저당증권 등 모기지 채권 발행이 미뤄져, 주택 대출 업체의 자금 조달 비용이 오를 수 있다",
+ "facts": [
+  "무엇이: 투자자들이 더 높은 수익률을 요구하면서 모기지 채권 발행이 보류되고 있다 [사실]",
+  "사례: 피겨테크놀로지 계열의 3억 4,600만 달러 주택저당증권 발행이 보류됐다 [제목]",
+  "영향: 발행이 미뤄지면서 주택 대출 업체의 자금 조달 비용이 오를 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(10월 17일). 발행 보류는 Trusted Mortgage Capital 기사가 독립 출처로 남아 있고, 피겨테크놀로지 계열 3억 4,600만 달러 사례는 원 문서에서도 제목 기준",
+ "src": [
+  {
+   "o": "Trusted Mortgage Capital",
+   "d": "2026-10-17",
+   "u": "https://www.trustedmortgagecapital.com/mortgage-bond-sales-put-on-hold-as-investors-demand-moreyield/"
+  }
+ ],
+ "items": [
+  {
+   "t": "투자자들 더 높은 수익률 요구에 모기지 채권 발행 보류",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "finance",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "수익률 요구에 모기지 채권 발행 보류"
+  },
+  {
+   "ind": "realestate",
+   "node": "finance",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "주택 대출 업체 자금 조달 비용 상승 가능"
+  }
+ ]
+}

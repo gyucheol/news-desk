@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0629",
+ "num": 629,
+ "key": "split-G6-162-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/eyepoint-cut-workforce-by-half-after-experimental-drug-fails-second-late-stage-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "아이포인트 듀라뷰 3상 두 번째 실패…인력 약 53% 감축",
+ "headline": "아이포인트 듀라뷰 3상 두 번째 실패…인력 약 53% 감축",
+ "one": "아이포인트의 듀라뷰가 습성 황반변성 3상에서 아플리버셉트 대비 비열등성을 입증하지 못하자 회사가 인력 약 53%를 줄이고 해당 3상을 조기 종료하면서, 당뇨황반부종 개발에 집중하기로 했다",
+ "facts": [
+  "무엇이: 아이포인트의 듀라뷰는 습성 황반변성 3상에서 아플리버셉트 대비 비열등성을 입증하지 못해, 후기 임상에서 두 번째 실패를 기록했다 [사실]",
+  "구조조정: 회사는 인력 약 53%를 줄이고 해당 3상을 조기 종료하며 당뇨황반부종에 집중하기로 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 3상 실패·53% 감원·당뇨황반부종 집중은 검색 결과 요약으로 확인(원 문서에 출처별 구분이 없어 독립 출처 3곳을 함께 적음)",
+ "src": [
+  {
+   "o": "BioWorld",
+   "d": "2026-10-19",
+   "u": "https://www.bioworld.com/articles/734772-disc-readies-for-round-two-at-fda-with-positive-phase-iii-data-in-epp"
+  },
+  {
+   "o": "Fierce Pharma",
+   "d": "2026-10-19",
+   "u": "https://www.fiercepharma.com/pharma/eyepoint-cuts-staff-and-shifts-priorities-after-another-amd-ph3-miss"
+  },
+  {
+   "o": "BioSpace",
+   "d": "2026-10-19",
+   "u": "https://www.biospace.com/job-trends/eyepoint-will-halve-workforce-end-pivotal-wet-amd-trials-early-following-second-fail"
+  }
+ ],
+ "items": [
+  {
+   "t": "아이포인트, 신약 후기 임상 두 번째 실패에 인력 절반 감축",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/eyepoint-cut-workforce-by-half-after-experimental-drug-fails-second-late-stage-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "아이포인트 듀라뷰 습성 황반변성 3상 실패"
+  }
+ ]
+}

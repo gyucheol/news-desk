@@ -1,0 +1,75 @@
+{
+ "id": "n-bbg-0491",
+ "num": 491,
+ "key": "split-G4-103-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/us-existing-home-sales-edged-up-ahead-of-mortgage-rate-shock",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 9월 기존주택 판매 1.5% 늘어 연율 399만 채…금리 상승에 전망은 흐려",
+ "headline": "美 9월 기존주택 판매 1.5% 늘어 연율 399만 채…금리 상승에 전망은 흐려",
+ "one": "미국 9월 기존주택 판매가 모기지 금리 충격 직전 연율 399만 채로 1.5% 늘었지만, 이후 금리가 오르며 구매 자격을 갖춘 수요자가 줄어 금리 급등 영향이 이후 판매에 뒤늦게 반영될 수 있다",
+ "facts": [
+  "무엇이: 미국 9월 기존주택 판매는 연율 399만 채로 1.5% 늘었다 [사실]",
+  "시점: 블룸버그는 이 증가가 모기지 금리 충격 직전에 나온 것이라며 금리 급등의 영향이 이후 판매에 뒤늦게 반영될 수 있다고 봤다 [사실]",
+  "전망: 로이터는 모기지 금리 상승으로 구매 자격을 갖춘 수요자가 줄어 판매 전망이 어두워졌다고 전했다 [사실]",
+  "반대 신호: 같은 9월 기존주택 매매 계약은 전월보다 4% 줄어 2014년 이후 최저였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그(10월 13일)·로이터(10월 14일) 기사를 묶음. 9월 판매 연율 399만 채, 1.5% 증가는 NAR 발표와 Calculated Risk·Inman 기사가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "NAR",
+   "d": "2026-10-13",
+   "u": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+  },
+  {
+   "o": "Calculated Risk",
+   "d": "2026-10-13",
+   "u": "https://calculatedrisk.substack.com/p/nar-existing-home-sales-increased-a4b"
+  },
+  {
+   "o": "Inman",
+   "d": "2026-10-13",
+   "u": "https://www.inman.com/2026/10/13/existing-home-sales-september-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 기존주택 판매, 모기지 금리 충격 직전 소폭 증가",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-existing-home-sales-edged-up-ahead-of-mortgage-rate-shock",
+   "s": "미국 기존주택 판매가 모기지 금리 충격 직전인 9월에 소폭 늘었지만 금리 급등의 영향이 이후 판매에 뒤늦게 반영될 수 있다"
+  },
+  {
+   "t": "美 9월 기존주택 판매 증가…모기지 금리 상승에 전망은 흐려",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/us-existing-home-sales-rise-september-higher-mortgage-rates-dim-outlook-2026-10-13/",
+   "s": "미국 9월 기존주택 판매가 연율 399만 채로 1.5% 늘었지만 모기지 금리 상승으로 구매 자격을 갖춘 수요자가 줄어 판매 전망이 어두워졌다"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "9월 기존주택 판매 연율 399만 채, 1.5% 증가"
+  }
+ ]
+}

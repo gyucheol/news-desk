@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0594",
+ "num": 594,
+ "key": "split-G5-158-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/markets/asia/imf-members-call-increased-support-countries-amid-negative-risks-war-spillovers-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMFC 회원국, 전쟁 파급·고유가 피해국 지원 확대 촉구",
+ "headline": "IMFC 회원국, 전쟁 파급·고유가 피해국 지원 확대 촉구",
+ "one": "IMFC 의장 알자단 사우디 재무장관이 17일 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 밝히면서, 세계 경제 위험이 하방으로 기울었다는 경고 속에 피해국 자금 지원이 늘어날 수 있다",
+ "facts": [
+  "무엇이: IMFC 의장 알자단 사우디 재무장관은 10월 17일 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]",
+  "위험 평가: 회원국들은 세계 경제 위험이 하방으로 기울었다고 경고했다 [사실]",
+  "같은 날: 이라크가 IMF 프로그램을 요청하자 게오르기에바 총재는 확고한 지원을 약속했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건이다. IMFC의 지원 확대 촉구는 원 문서 사실 줄에 있고, 전쟁 파급과 부채가 저소득국을 위협한다는 독립 출처(Al Jazeera, 17일)가 뒷받침한다.",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-17",
+   "u": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF 회원국, 하방 위험·전쟁 파급 속 피해국 지원 확대 촉구",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/markets/asia/imf-members-call-increased-support-countries-amid-negative-risks-war-spillovers-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "IMFC, 전쟁 피해국 자금 지원 확대 촉구"
+  }
+ ]
+}

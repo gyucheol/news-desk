@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0444",
+ "num": 444,
+ "key": "split-G2-140-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+ "headline": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+ "one": "한국 정부가 러시아의 연료난을 완화해 줬다는 우크라이나 측 보도를 부인하면서, 우크라이나 드론 공격으로 정유시설이 멈춘 러시아의 연료 공급에 한국이 관여했다는 주장에 선을 그었다 (제목 기준)",
+ "facts": [
+  "무엇이: 한국 정부는 러시아의 연료난을 완화해 줬다는 우크라이나 측 보도를 부인했다 [제목]",
+  "배경: 같은 시기 볼고그라드 정유소가 10월 2일부터 원유 처리를 전면 중단하는 등 러시아 정유시설이 우크라이나 드론 공격을 받고 있었다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "한국의 러 연료난 완화 보도 부인으로 수급 영향 판단 어려움"
+  }
+ ]
+}

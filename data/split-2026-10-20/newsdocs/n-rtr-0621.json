@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0621",
+ "num": 621,
+ "key": "split-G6-121-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-confirms-ebola-outbreak-spreads-eighth-province-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "콩고 에볼라 8번째 주 북우방기로 확산…누적 사망 4,536명",
+ "headline": "콩고 에볼라 8번째 주 북우방기로 확산…누적 사망 4,536명",
+ "one": "콩고에서 에볼라가 북우방기까지 번져 8번째 주로 확산되고 10월 16일까지 하루 동안 67명이 새로 확진되면서, 누적 확진 9,415명·사망 4,536명에 이르러 방역 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 콩고에서 에볼라가 8번째 주인 북우방기로 번졌고, 이곳에서 확진된 2명 가운데 1명이 숨졌다 [사실]",
+  "누적: 10월 16일까지 24시간 동안 67명이 새로 확진되고 26명이 숨져 누적 확진은 9,415명, 사망은 4,536명이 됐다 [사실]",
+  "수치 차이: 누적 수치를 9,348명·4,510명으로 전한 보도도 있어 집계 시점 차이로 보인다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 18일)이다. 8번째 주 확산과 누적 수치는 아샤르크 알아우사트·데칸헤럴드로 확인했고, 다른 집계(9,348명·4,510명)는 시점 차이로 봤다.",
+ "src": [
+  {
+   "o": "아샤르크 알아우사트",
+   "d": "2026-10-18",
+   "u": "https://english.aawsat.com/world/5330773-congo-confirms-ebola-outbreak-spreads-eighth-province"
+  },
+  {
+   "o": "데칸헤럴드",
+   "d": "2026-10-18",
+   "u": "https://www.deccanherald.com/world/rest-of-world/ebola-outbreak-spreads-to-eighth-province-in-dr-congo-death-toll-tops-4500-4187188"
+  }
+ ],
+ "items": [
+  {
+   "t": "콩고, 에볼라 발병이 8번째 주로 확산됐다고 확인",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-confirms-ebola-outbreak-spreads-eighth-province-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "콩고 에볼라 8번째 주 확산, 산업 영향 언급 없음"
+  }
+ ]
+}

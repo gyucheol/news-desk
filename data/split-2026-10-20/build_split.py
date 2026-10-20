@@ -67,6 +67,7 @@ for p in wr:
     if did in orig:
         d = json.loads(json.dumps(orig[did]))
         for f in ('added', 'channel'): d.pop(f, None)
+        if d.get('format') == 'sum1': d.update({'cycles': [], 'tags': [], 'incentive': ''})  # 옛 단건 형식의 {{ }} 필드 정리
     else:
         primary = orig[p['docs'][0]]
         d = {'id': did, 'num': int(did[-4:]), 'key': f"split-{p['c']}-{TODAY}", 'feed': 'v5', 'format': 'one1',

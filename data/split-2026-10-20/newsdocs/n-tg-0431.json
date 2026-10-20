@@ -1,0 +1,73 @@
+{
+ "id": "n-tg-0431",
+ "num": 431,
+ "key": "split-G1-181-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10756",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "UAE, 반후티 세력 자금 재개…사우디와 군사협력 복원",
+ "headline": "UAE, 반후티 세력 자금 재개…사우디와 군사협력 복원",
+ "one": "UAE가 18일 예멘 반후티 세력 자금 지원을 재개해 내전에 다시 들어가기로 하고 사우디가 공중 지원을 맡기로 한 데다 이집트도 의회에 지원 권한 승인을 요청하면서, 걸프국들이 후티에 공동 대응하게 됐다",
+ "facts": [
+  "무엇이: UAE는 예멘 반후티 세력에 대한 자금 지원을 재개해 내전에 다시 개입하기로 했고 사우디는 공중 지원을 맡기로 했다 [채널]",
+  "협력 복원: 채널은 후티의 리야드·에너지시설 공격에 사우디와 UAE가 군사협력 복원에 나섰고 이집트도 의회에 지원 권한 승인을 요청했다고 전했다 [채널]",
+  "전망: 채널은 중동의 방공·대드론 수요가 커질 수 있다고 봤다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 2건(트릴리온·카이에 de market, 18일)을 묶었다. 원 문서는 UAE 자금 재개를 채널 근거로 적었고, UAE의 반후티 세력 지원 재개와 사우디 공중 엄호는 독립 출처(i24NEWS·News of Bahrain, 17일)로 뒷받침된다.",
+ "src": [
+  {
+   "o": "i24NEWS",
+   "d": "2026-10-17",
+   "u": "https://www.i24news.tv/en/news/middle-east/the-gulf/artc-uae-to-resume-funding-anti-houthi-forces-in-southern-yemen-saudi-arabia-to-provide-air-cover"
+  },
+  {
+   "o": "News of Bahrain",
+   "d": "2026-10-17",
+   "u": "https://www.newsofbahrain.com/en/article/uae-agrees-to-resume-support-for-anti-houthi-forces-in-yemen"
+  }
+ ],
+ "items": [
+  {
+   "t": "UAE, 반후티 세력 자금 재개로 예멘 내전 재개입…사우디는 공중 지원",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-18",
+   "u": "https://t.me/Trillion_labs/10756",
+   "s": "UAE가 예멘 반후티 세력 자금 지원을 재개해 내전에 다시 들어가기로 하고 사우디가 공중 지원을 맡기로 하면서, 걸프국들이 후티에 공동 대응하게 됐다"
+  },
+  {
+   "t": "사우디·UAE 군사협력 복원, 이집트도 군사 지원 준비",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-18",
+   "u": "https://t.me/cahier_de_market/11032",
+   "s": "후티의 리야드·에너지시설 공격에 사우디와 UAE가 군사협력 복원에 나서고 이집트도 의회에 지원 권한 승인을 요청하면서, 중동의 방공·대드론 수요가 커질 수 있다"
+  }
+ ],
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "걸프국 공동 대응에 방공·대드론 수요 확대 가능성"
+  }
+ ],
+ "channel": "트릴리온"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "n-tg-0392",
+ "num": 392,
+ "key": "split-G1-128-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66106",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"중·러, 이란 전혀 돕지 않는다고 믿어\"…서방 보도와 엇갈려",
+ "headline": "트럼프 \"중·러, 이란 전혀 돕지 않는다고 믿어\"…서방 보도와 엇갈려",
+ "one": "트럼프 대통령이 10월 13일 중국과 러시아는 잃을 것이 많아 이란을 전혀 돕지 않는다고 믿는다고 밝혔지만 서방 언론은 정보·이중용도 품목 지원을 보도해 왔고, 호르무즈 대치 속 중·러 제재 확대 압박은 줄어들 수 있다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 중국과 러시아가 이란을 전혀 돕지 않는다고 본다고 밝혔다(블룸버그·로이터, 10월 13일) [사실]",
+  "이유: 중·러는 잃을 것이 많아 이란을 돕지 않으며, 돕는다면 곧바로 알게 될 것이라고 했다 [채널]",
+  "반대 신호: 서방 언론은 중·러의 대이란 정보·이중용도 품목 지원을 보도해 왔다 [사실]",
+  "전망: 호르무즈 대치 속 중·러에 대한 제재 확대 압박은 줄어들 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "미국 주식 인사이더·블룸버그·로이터 기사 3건. 트럼프 발언은 원 문서 독립 출처(Express Tribune·Investing.com)로 확인했다.",
+ "src": [
+  {
+   "o": "Express Tribune",
+   "d": "2026-10-13",
+   "u": "https://tribune.com.pk/story/2634561/trump-says-he-doesnt-believe-china-and-russia-are-helping-iran"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-13",
+   "u": "https://investing.com/news/economy-news/trump-says-russia-china-not-helping-iran-4945371"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 \"중·러, 이란 전혀 돕지 않는다고 믿어\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66106",
+   "s": "트럼프 대통령이 중국과 러시아는 잃을 것이 많아 이란을 돕지 않는다고 믿으며 돕는다면 곧바로 알게 될 것이라고 밝혔다"
+  },
+  {
+   "t": "트럼프 \"러시아와 중국이 이란을 돕고 있다고 믿지 않아\"",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/trump-says-he-does-not-believe-russia-and-china-are-helping-iran",
+   "s": "트럼프 대통령이 러시아와 중국의 이란 지원을 믿지 않는다고 밝혔지만, 서방 언론은 정보·이중용도 품목 지원을 보도해 왔다"
+  },
+  {
+   "t": "트럼프 \"중국·러시아가 이란을 전혀 돕고 있다고 보지 않아\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/trump-says-he-does-not-believe-china-russia-are-helping-iran-at-all-2026-10-13/",
+   "s": "트럼프 대통령이 중국·러시아가 이란을 전혀 돕지 않는다고 본다고 밝히면서, 호르무즈 대치 속 중·러 제재 확대 압박은 줄어들 수 있다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "트럼프, 중·러의 이란 지원 부인"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0404",
+ "num": 404,
+ "key": "split-G1-155-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/rubio-urges-lebanon-not-return-confiscated-explosives-hezbollah-us-official-says-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "루비오, 레바논에 '압수 폭발물 헤즈볼라에 반환 말라' 촉구",
+ "headline": "루비오, 레바논에 '압수 폭발물 헤즈볼라에 반환 말라' 촉구",
+ "one": "루비오 미 국무장관이 레바논에 압수한 폭발물을 헤즈볼라에 돌려주지 말라고 촉구했다고 미 관리가 전한 내용이 10월 16일 보도되면서, 이란 연계 헤즈볼라를 둘러싼 미국의 압박이 레바논으로 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 루비오 국무장관이 레바논에 압수한 폭발물을 헤즈볼라에 돌려주지 말라고 촉구했다고 미 관리가 밝혔다(로이터, 10월 16일) [제목]",
+  "의미: 이란 연계 헤즈볼라를 둘러싼 미국의 압박이 레바논으로 번지고 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "미 관리 '루비오, 레바논에 압수 폭발물 헤즈볼라 반환 말라 촉구'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/middle-east/rubio-urges-lebanon-not-return-confiscated-explosives-hezbollah-us-official-says-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "루비오, 레바논에 압수 폭발물 반환 금지 촉구"
+  }
+ ]
+}

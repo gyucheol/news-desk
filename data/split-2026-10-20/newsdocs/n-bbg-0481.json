@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0481",
+ "num": 481,
+ "key": "split-G4-079-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/the-french-political-crisis-that-s-turning-into-a-debt-crisis",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 정치 위기, 국가 부채 위기로 번지는 중",
+ "headline": "프랑스 정치 위기, 국가 부채 위기로 번지는 중",
+ "one": "블룸버그가 10월 16일 프랑스의 정치 교착이 길어지면서 정치 위기가 국가 부채 위기로 번지고 있다고 짚으면서, 예산 처리가 막힌 프랑스 국채 시장의 부담이 커지고 있다는 진단이 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 16일 프랑스 정치 위기가 국가 부채 위기로 바뀌고 있다고 분석했다 [제목]",
+  "배경: 프랑스 국가부채는 6월 말 GDP의 119%이고, 무디스는 이번 주 금요일 신용등급을 검토한다 [사실]",
+  "흐름: 프랑스-독일 금리차는 10월 5일 145bp를 넘어 유로존 위기 이후 최대였다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 정치 위기, 국가 부채 위기로 번지는 중",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/the-french-political-crisis-that-s-turning-into-a-debt-crisis"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "정치 교착 길어지며 프랑스 국채 부담 확대"
+  }
+ ]
+}

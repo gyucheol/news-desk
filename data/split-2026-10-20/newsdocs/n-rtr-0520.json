@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0520",
+ "num": 520,
+ "key": "split-G4-131-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/uk-labour-market-shows-more-signs-recovery-september-kpmgrec-survey-shows-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 9월 노동시장 회복 신호 늘어…KPMG·REC 조사",
+ "headline": "영국 9월 노동시장 회복 신호 늘어…KPMG·REC 조사",
+ "one": "KPMG·REC 조사에서 영국 9월 노동시장에 회복 신호가 늘어난 것으로 나타나 고용 둔화 우려가 다소 줄 수 있지만, IMF는 에너지값과 금리 상승으로 영국 성장률이 올해 1.3%에서 내년 1.2%로 둔화한다고 봤다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 8일 KPMG·REC 조사에서 영국 9월 노동시장의 회복 신호가 늘어난 것으로 나타났다 [제목]",
+  "반대 신호: IMF는 10월 13일 에너지 가격과 장기금리 상승으로 영국 성장률이 올해 1.3%에서 내년 1.2%로 둔화한다고 봤다 [사실]",
+  "해석: 고용 회복 신호는 금리 상승기에도 가계 소득이 버틸 수 있음을 보여 주지만, 한 달 조사여서 추세 확인이 필요하다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(IMF 성장 전망은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "영국 9월 노동시장 회복 신호 늘어…KPMG·REC 조사",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/uk/uk-labour-market-shows-more-signs-recovery-september-kpmgrec-survey-shows-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국 9월 노동시장 회복 신호 늘어"
+  }
+ ]
+}

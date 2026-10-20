@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0529",
+ "num": 529,
+ "key": "split-G4-156-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/uks-healey-should-rebuild-fiscal-headroom-about-15-16-billion-reuters-poll-shows-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로이터 설문 '힐리, 재정 여력 150억~160억 파운드로 다시 쌓아야'",
+ "headline": "로이터 설문 '힐리, 재정 여력 150억~160억 파운드로 다시 쌓아야'",
+ "one": "로이터 설문 응답자들이 힐리 재무장관이 재정 여력을 약 150억~160억 파운드로 다시 쌓아야 한다고 보면서 예산안의 증세·지출 조정 폭이 커질 수 있고, IFS는 2029~30년 재정 여력을 약 200억 파운드로 추정했다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 15일 로이터 설문 응답자들은 힐리 재무장관이 재정 여력을 약 150억~160억 파운드로 다시 쌓아야 한다고 봤다 [제목]",
+  "비교: IFS는 2029~30년 재정 여력을 약 200억 파운드로 낮춰 봤고, 지출 약속을 지키려면 2030~31년까지 약 350억 파운드가 필요하다고 추산했다 [사실]",
+  "해석: 재정 여력을 다시 쌓으려면 10월 28일 예산안에서 증세나 지출 조정 폭이 커질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(IFS 추산은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "로이터 설문 '힐리, 재정 여력 약 150억~160억 파운드로 다시 쌓아야'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/uk/uks-healey-should-rebuild-fiscal-headroom-about-15-16-billion-reuters-poll-shows-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "재정 여력 150억~160억 파운드 재구축 필요"
+  }
+ ]
+}

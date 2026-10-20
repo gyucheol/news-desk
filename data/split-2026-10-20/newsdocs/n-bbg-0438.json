@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0438",
+ "num": 438,
+ "key": "split-G3-074-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T16:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/south-korean-won-hits-two-year-high-on-lower-oil-dollar-sales",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유가 하락·달러 매도에 원화 2년 만에 최고",
+ "headline": "유가 하락·달러 매도에 원화 2년 만에 최고",
+ "one": "유가 하락과 달러 매도가 겹치면서 원화 가치가 12일 2년 만의 최고 수준으로 올랐고, 원·달러 환율은 18일 1,328.9원까지 내려 원유 등 수입 물가 부담이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 유가 하락과 달러 매도로 원화가 2년 만의 최고로 올랐다 [제목]",
+  "이후: 18일 원·달러 환율은 1,328.9원으로 내렸다 [사실]",
+  "한은: 신현송 총재는 13일 원화가 더 오르는 것이 바람직하다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에서 18일 원화 강세(1,328.9원)는 검색 결과 요약으로 확인했으나 12일 2년 만의 최고 기사에 맞는 출처는 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "유가 하락과 달러 매도에 한국 원화 2년 만에 최고",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/south-korean-won-hits-two-year-high-on-lower-oil-dollar-sales"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "유가 하락·달러 매도에 원화 2년 만에 최고"
+  }
+ ]
+}

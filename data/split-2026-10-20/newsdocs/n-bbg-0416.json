@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0416",
+ "num": 416,
+ "key": "split-G2-107-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/oracle-asks-regulators-to-expedite-gas-pipeline-for-data-center",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "오라클, 데이터센터용 가스관 신속 승인 요청…12개 주 분쟁 가세",
+ "headline": "오라클, 데이터센터용 가스관 신속 승인 요청…12개 주 분쟁 가세",
+ "one": "오라클이 FERC에 뉴멕시코 데이터센터용 가스관의 신속 승인을 요청하며 2027년 2월로 밀린 완공이 데이터센터 가동을 늦출 수 있다고 경고한 데 이어 12개 주가 뉴멕시코주에 맞서면서, 가스관 인허가 갈등이 주 경계를 넘어 커졌다",
+ "facts": [
+  "무엇이: 오라클이 FERC에 뉴멕시코 데이터센터용 가스관의 신속 승인을 요청했다 [사실]",
+  "지연: 오라클은 2027년 2월로 밀린 가스관 완공이 데이터센터 가동을 늦출 수 있다고 경고했다 [사실]",
+  "분쟁 확대: 12개 주가 오라클 가스관 분쟁에서 뉴멕시코주에 맞섰다 [제목]",
+  "배경: GE 베르노바 가스터빈은 2030년 물량까지 매진되는 등 데이터센터 전력 기자재 병목이 길어지고 있다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 2건을 묶음. 오라클의 가스관 신속 승인 요청은 Crypto Briefing 검색 결과로 확인했고, 12개 주 가세는 제목 기준",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-13",
+   "u": "https://cryptobriefing.com/oracle-gas-pipeline-new-mexico-data-center/"
+  }
+ ],
+ "items": [
+  {
+   "t": "오라클, 데이터센터용 가스관 신속 승인 규제당국에 요청",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/oracle-asks-regulators-to-expedite-gas-pipeline-for-data-center",
+   "s": "오라클이 FERC에 뉴멕시코 데이터센터용 가스관의 신속 승인을 요청하면서 2027년 2월로 밀린 완공이 데이터센터 가동을 늦출 수 있다고 경고했다"
+  },
+  {
+   "t": "오라클 천연가스관 분쟁, 12개 주가 뉴멕시코에 반기",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/12-states-push-back-on-new-mexico-in-oracle-pipeline-fight",
+   "s": "12개 주가 오라클 데이터센터용 천연가스관 분쟁에서 뉴멕시코주에 맞서면서 가스관 인허가 갈등이 주 경계를 넘어 커졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "gas",
+  "power"
+ ],
+ "nodes": [
+  "gas/midstream",
+  "gas/demand"
+ ],
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "오라클 데이터센터용 가스관 완공 2027년 2월로 지연"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "n-rtr-0536",
+ "num": 536,
+ "key": "split-G5-027-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:23:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/canadian-dollar-notches-nearly-four-week-high-on-boc-rate-hike-bets-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "캐나다은행 10월 28일 인상 베팅 확대…캐나다달러 약 4주 고점",
+ "headline": "캐나다은행 10월 28일 인상 베팅 확대…캐나다달러 약 4주 고점",
+ "one": "9월 물가가 3.1%로 오르고 기대 인플레이션도 높아지자 트레이더와 이코노미스트들이 10월 28일 캐나다은행의 금리 인상 쪽으로 베팅을 늘리면서, 결정이 인상과 동결 사이 박빙이 되고 캐나다달러가 약 4주 만의 고점으로 올랐다",
+ "facts": [
+  "무엇이: 트레이더와 이코노미스트들이 다음 주 캐나다은행 금리 인상 쪽으로 베팅을 늘려 10월 28일 결정이 인상과 동결 사이 박빙이 됐다 [사실]",
+  "엇갈린 전망: TD 등은 동결을, RBC는 이르면 다음 주 인상 가능성을 거론했고, 인상 확률은 출처마다 달랐다 [사실]",
+  "환율: 인상 베팅에 캐나다달러가 약 4주 만의 고점으로 올랐다 [제목]",
+  "반전: 9일 고용 부진 직후에는 인상 베팅이 꺾여 캐나다달러가 18개월 저점까지 밀렸었다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "로이터·블룸버그 2건을 묶음. 인상 베팅 확대는 글로브앤드메일 검색 결과로 확인했고 인상 확률은 출처마다 달라 숫자를 뺐으며, 캐나다달러 약 4주 고점은 제목 기준",
+ "src": [
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-19",
+   "u": "https://www.theglobeandmail.com/business/economy/article-bank-of-canada-interest-rate-hike-bets-tiff-macklem-hawkish-speech/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐나다은행 인상 베팅에 캐나다달러 약 4주 만의 고점",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/canadian-dollar-notches-nearly-four-week-high-on-boc-rate-hike-bets-2026-10-19/",
+   "s": "캐나다은행 금리 인상 베팅이 커지면서, 캐나다달러가 약 4주 만의 고점으로 올랐다 (제목 기준)"
+  },
+  {
+   "t": "트레이더·이코노미스트, 다음 주 캐나다 금리 인상 베팅 확대",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/bank-of-canada-hike-bets-grow-among-economists-traders",
+   "s": "트레이더와 이코노미스트들이 다음 주 캐나다은행의 금리 인상 쪽으로 베팅을 늘리면서, 10월 28일 결정이 인상과 동결 사이 박빙이 됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "10월 28일 캐나다은행 인상 베팅 확대"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "인상 베팅에 캐나다달러 약 4주 고점"
+  }
+ ]
+}

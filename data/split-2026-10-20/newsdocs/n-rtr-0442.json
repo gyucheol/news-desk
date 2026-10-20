@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0442",
+ "num": 442,
+ "key": "split-G2-105-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+ "headline": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+ "one": "AI 전력 수요 증가가 미국 간선 송전선 신설의 논거를 강화하면서, 계통 접속 대기가 5년 넘게 늘었다는 전언이 나오는 가운데 장거리 송전망 투자가 늘어날 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: AI 전력 수요 증가가 미국 간선 송전선 신설 논거를 강화하고 있다 [제목]",
+  "병목: 계통 접속 대기가 5년 넘게 늘었다는 채널 전언이 있다 [채널]",
+  "전망: 장거리 송전망 투자가 늘어날 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "grid",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI 수요에 미국 간선 송전선 신설 논거 강화"
+  }
+ ]
+}

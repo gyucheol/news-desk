@@ -1,0 +1,102 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 2건(10월 15·16일)과 로이터 1건(10월 15일)을 묶음. 취업자 3만 9,300명 감소·실업률 4.7%는 호주 통계청 발표와 ABC·investingLive 기사가 독립 출처로 남아 있고, 호주달러 7월 이후 최저는 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 호주 9월 취업자가 3만 9,300명 줄고 실업률은 5년 만의 최고인 4.7%에 머물렀으며, 시장은 약 2만 명 증가를 예상했다 [사실]",
+  "세부: 시간제 일자리가 7만 3,700개 줄면서 노동시장 둔화가 확인됐다 [사실]",
+  "금리: 호주중앙은행은 9월 말 기준금리를 4.60%로 올렸고 시장은 11월 인상 베팅을 줄였으며, 10월 28일 3분기 CPI가 관건이다 [사실]",
+  "환율: 인상 베팅이 약해지면서 호주달러가 7월 이후 가장 낮은 수준으로 떨어졌다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 9월 취업자 3만 9,300명 감소·실업률 4.7%…호주달러 7월 이후 최저",
+ "id": "n-bbg-0313",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "호주 실업률 상승에 시장, RBA 금리 인상 베팅 축소",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+   "s": "호주 실업률이 5년 만의 최고 수준에 머물자 시장이 호주중앙은행의 추가 인상 베팅을 줄이면서 금리 기대가 낮아졌다"
+  },
+  {
+   "t": "호주 9월 취업자 3만 9,300명 감소…실업률 4.7%",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/australia-employment-slides-39300-september-jobless-47-2026-10-15/",
+   "s": "호주 9월 취업자가 3만 9,300명 줄고 시간제 일자리가 7만 3,700개 감소하면서 실업률이 4.7%에 머물러 노동시장 둔화가 확인됐다"
+  },
+  {
+   "t": "RBA 인상 베팅 약해지며 호주달러 7월 이후 최저",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/aussie-dollar-falls-to-lowest-since-july-as-rba-hike-bets-fade",
+   "s": "고용 부진 뒤 호주중앙은행의 추가 인상 베팅이 약해지면서 호주달러가 7월 이후 가장 낮은 수준으로 떨어졌다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G1-029-2026-10-15",
+ "nodes": [
+  "macro/growth",
+  "macro/cb",
+  "macro/fx"
+ ],
+ "num": 313,
+ "one": "호주 9월 취업자가 시장 예상 약 2만 명 증가와 달리 3만 9,300명 줄고 실업률이 5년 만의 최고인 4.7%에 머물면서, 시장이 호주중앙은행 추가 인상 베팅을 줄이고 호주달러는 7월 이후 최저로 떨어졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:58:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "호주 통계청(ABS)",
+   "d": "2026-10-15",
+   "u": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-15",
+   "u": "https://www.abc.net.au/news/2026-10-15/unemployment-rate-september-2026-australia/107268870"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-15",
+   "u": "https://investinglive.com/central-banks/aud-lower-australian-jobs-fall-39-300-in-september-unemployment-at-five-year-high-of-4-7/"
+  }
+ ],
+ "tags": [],
+ "title": "호주 9월 취업자 3만 9,300명 감소·실업률 4.7%…호주달러 7월 이후 최저",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주 9월 취업자 3만 9,300명 감소, 실업률 4.7%"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "시장, 호주중앙은행 11월 인상 베팅 축소"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "인상 베팅 약화에 호주달러 7월 이후 최저"
+  }
+ ]
+}

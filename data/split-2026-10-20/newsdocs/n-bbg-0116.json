@@ -1,0 +1,74 @@
+{
+ "basis": "verified",
+ "check": "로이터·블룸버그 기사 2건. 원 문서 사실 줄의 ASCF 3개·아레스 펀드 판매 중지를 따르고, 원 문서 독립 출처 Private Equity Wire(ASCF)·ASIC 보도자료·Money Management(10월 13일, 약 8억 호주달러 펀드 임시 판매 중지)를 근거로 삼음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 호주 ASIC는 공시 미흡을 이유로 ASCF 사모신용 펀드 3개에 임시 판매 중지를 명령해 운용자산 2억 5,180만 호주달러 규모 펀드의 자금 모집을 멈췄다 [사실]",
+  "추가 조치: 10월 13일에는 목표시장 결정이 부적절하다며 운용자산 7억 9,990만 호주달러의 아레스 신용펀드에 21일간 판매 중지 명령을 내렸다 [사실]",
+  "흐름: 블룸버그는 이를 호주의 사모신용 단속이 이어지는 흐름으로 전했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 ASIC, ASCF 펀드 3개·아레스 펀드 판매 중지…사모신용 단속",
+ "id": "n-bbg-0116",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "호주 ASIC, ASCF 사모신용 펀드 3개 자금 모집 중단시켜",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/government/australias-asic-halts-fundraising-by-three-ascf-private-credit-funds-2026-10-07/",
+   "s": "호주 ASIC가 공시 미흡을 이유로 ASCF 사모신용 펀드 3개에 임시 판매 중지를 명령해 운용자산 2억 5,180만 호주달러 규모 펀드의 자금 모집이 멈췄다"
+  },
+  {
+   "t": "호주의 사모신용 단속에 아레스 펀드 판매 제동",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-regulator-halts-another-credit-fund-amid-crackdown",
+   "s": "호주 ASIC가 목표시장 결정이 부적절하다며 운용자산 7억 9,990만 호주달러의 아레스 신용펀드에 21일 판매 중지 명령을 내렸다"
+  }
+ ],
+ "key": "bnd-C057-2026-10-09",
+ "nodes": [],
+ "num": 116,
+ "one": "호주 ASIC가 10월 초 공시 미흡을 이유로 운용자산 2억 5,180만 호주달러 규모 ASCF 사모신용 펀드 3개에 임시 판매 중지를 명령한 데 이어, 13일 7억 9,990만 호주달러의 아레스 신용펀드에도 21일간 판매 중지를 내리면서 사모신용 펀드의 자금 모집이 막히고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Private Equity Wire",
+   "d": "2026-10-08",
+   "u": "https://www.privateequitywire.co.uk/asic-suspends-fundraising-for-three-ascf-private-credit-funds/"
+  },
+  {
+   "o": "ASIC",
+   "d": "2026-10-13",
+   "u": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-deficiencies"
+  },
+  {
+   "o": "Money Management",
+   "d": "2026-10-13",
+   "u": "https://www.moneymanagement.com.au/asic-issues-interim-stop-order-on-800m-credit-income-fund/"
+  }
+ ],
+ "tags": [],
+ "title": "호주 ASIC, ASCF 펀드 3개·아레스 펀드 판매 중지…사모신용 단속",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/government/australias-asic-halts-fundraising-by-three-ascf-private-credit-funds-2026-10-07/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "ASIC, ASCF·아레스 사모신용 펀드 판매 중지"
+  }
+ ]
+}

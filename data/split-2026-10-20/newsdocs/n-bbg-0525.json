@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0525",
+ "num": 525,
+ "key": "split-G5-012-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/banks-pull-back-from-financing-australian-private-credit-funds",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "골드만·UBS 등 글로벌 은행, 호주 사모신용 펀드 대출서 발 빼",
+ "headline": "골드만·UBS 등 글로벌 은행, 호주 사모신용 펀드 대출서 발 빼",
+ "one": "골드만삭스·UBS 등 글로벌 은행들이 10월 14일 호주 사모신용 펀드의 딜 집행·환매 대응용 특화 대출을 줄이고 있다고 알려지면서, 절반이 부동산에 묶인 2,000억 호주달러 시장에서 부동산 비중이 큰 소형 운용사부터 자금줄이 좁아지고 있다",
+ "facts": [
+  "무엇이: 골드만삭스·UBS 등 글로벌 은행들이 호주 사모신용 펀드에 대한 특화 대출에서 발을 빼고 있다 [사실]",
+  "시장: 대상 시장은 2,000억 호주달러 규모로 절반이 부동산에 묶여 있다 [사실]",
+  "영향: 부동산 비중이 큰 소형 운용사부터 자금줄이 좁아지고 있다 [사실]",
+  "전망: 채널은 은행들이 딜 집행·환매 대응용 대출을 꺼리면서 시장 유동성이 더 빠질 수 있다고 봤다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건·텔레그램 TNBfolio 1건. 원 문서 사실 줄의 은행 대출 축소·2,000억 호주달러를 따르고, 원 문서 독립 출처 Private Equity Wire(10월 15일, 호주 사모신용 펀드 대출 조임)를 근거로 삼음",
+ "src": [
+  {
+   "o": "Private Equity Wire",
+   "d": "2026-10-15",
+   "u": "https://www.privateequitywire.co.uk/banks-tighten-financing-for-australian-private-credit-funds/"
+  }
+ ],
+ "items": [
+  {
+   "t": "글로벌 은행들, 호주 사모신용 펀드 대출에서 발 빼",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/banks-pull-back-from-financing-australian-private-credit-funds",
+   "s": "글로벌 은행들이 호주 사모신용 펀드에 대한 대출을 줄이면서, 부동산 비중이 큰 소형 운용사부터 자금줄이 좁아지고 있다"
+  },
+  {
+   "t": "골드만·UBS, 호주 사모신용 펀드 특화 대출 의지 잃어",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-15",
+   "u": "https://t.me/TNBfolio/71551",
+   "s": "골드만삭스·UBS 등이 딜 집행과 환매 대응용 특화 대출을 꺼리면서, 절반이 부동산에 묶인 2,000억 호주달러 시장의 유동성이 더 빠질 수 있다"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "골드만·UBS 등 호주 사모신용 펀드 대출 축소"
+  }
+ ]
+}

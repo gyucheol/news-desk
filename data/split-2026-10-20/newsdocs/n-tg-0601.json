@@ -1,0 +1,53 @@
+{
+ "id": "n-tg-0601",
+ "num": 601,
+ "key": "split-G4-018-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/kkkontemp/2740",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "UBS '헤드라인 CPI 11월 3.8%로 정점'…10월 월간 상승폭은 0.20%로 축소",
+ "headline": "UBS '헤드라인 CPI 11월 3.8%로 정점'…10월 월간 상승폭은 0.20%로 축소",
+ "one": "UBS가 10월 CPI 월간 상승률 전망을 0.20%로 낮추면서도 헤드라인 물가가 11월 약 3.8%로 정점을 찍고 근원은 2.6~2.8%에 머물 것으로 보면서, 물가 상승세가 연말까지 높게 남을 전망이다 (채널 전언)",
+ "facts": [
+  "무엇이: UBS가 미국 헤드라인 CPI가 11월 약 3.8%로 정점을 찍을 것으로 봤다고 채널이 10월 15일 전했다 [채널]",
+  "10월: 10월 CPI 월간 상승률 전망은 0.20%로 낮춰 잡았다 [채널]",
+  "근원: 근원 CPI는 2.6~2.8%에 머물 것으로 봤다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "텔레그램 KK Kontemporaries 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "UBS '헤드라인 CPI 11월 3.8%로 정점…10월 월간 상승폭은 축소'",
+   "o": "텔레그램 KK Kontemporaries",
+   "d": "2026-10-15",
+   "u": "https://t.me/kkkontemp/2740"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "UBS, 헤드라인 CPI 11월 3.8% 정점 전망"
+  }
+ ],
+ "channel": "KK Kontemporaries"
+}

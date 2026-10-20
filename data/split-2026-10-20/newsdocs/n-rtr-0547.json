@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0547",
+ "num": 547,
+ "key": "split-G5-067-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/brazil-candidates-focus-fiscal-plans-voter-friendly-measures-before-runoff-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질 결선 후보들, 재정 계획·유권자 친화 공약에 집중",
+ "headline": "브라질 결선 후보들, 재정 계획·유권자 친화 공약에 집중",
+ "one": "룰라 대통령과 플라비우 보우소나루가 10월 25일 결선을 앞두고 재정 계획과 유권자 친화적 공약을 앞세우면서, 결선 막판 쟁점이 재정 운용 방향으로 모이고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 두 결선 후보는 재정 계획과 유권자 친화적 공약을 앞세웠다 [제목]",
+  "보우소나루: 사회 지출에 손대지 않고 부처 폐지, 국영기업 관리 개선, 연방 부동산 매각으로 2,000억 헤알 재정 조정을 하겠다고 했다 [사실]",
+  "정부: 브라질 정부는 영세 자영업자 부채 250억 규모를 탕감하는 법안을 내놨다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 기사 부분이 없어 기사 요약 기준이며, 보우소나루의 재정 조정 공약만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 후보들, 결선 앞두고 재정 계획·유권자 친화 정책에 집중",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/americas/brazil-candidates-focus-fiscal-plans-voter-friendly-measures-before-runoff-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "결선 후보들 재정 계획·유권자 친화 공약 경쟁"
+  }
+ ]
+}

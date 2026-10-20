@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0466",
+ "num": 466,
+ "key": "split-G3-017-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/chinas-solar-panel-exports-extend-slump-september-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 태양광 패널 수출, 9월에도 부진 이어져",
+ "headline": "중국 태양광 패널 수출, 9월에도 부진 이어져",
+ "one": "중국의 태양광 패널 수출이 9월에도 부진을 이어 가면서, 생산능력 조정기에 놓인 중국 태양광 업계의 해외 판매 둔화가 계속되고 재고 부담도 이어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국의 태양광 패널 수출이 9월에도 부진을 이어 갔다 [제목]",
+  "배경: 중국 태양광 업계는 생산능력 조정기에 놓여 있고 해외 판매 둔화가 계속됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(10월 18일). 원 문서 확인 기록에 패널 수출 부분이 없어 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "중국 태양광 패널 수출, 9월에도 부진 이어져",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/energy/chinas-solar-panel-exports-extend-slump-september-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/modules"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "modules",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "중국 태양광 패널 수출 9월에도 부진"
+  }
+ ]
+}

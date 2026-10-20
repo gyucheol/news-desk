@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0615",
+ "num": 615,
+ "key": "split-G6-098-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/italys-lombardy-revise-data-centre-law-next-week-after-application-surge-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이탈리아 롬바르디아, 신청 급증에 다음 주 데이터센터 법 개정",
+ "headline": "이탈리아 롬바르디아, 신청 급증에 다음 주 데이터센터 법 개정",
+ "one": "로이터가 10월 15일 전한 바로는 이탈리아 롬바르디아주가 데이터센터 건설 신청이 몰리자 다음 주 관련 법을 고치기로 하면서, 유럽에서도 데이터센터 인허가 기준이 바뀌게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 롬바르디아주는 데이터센터 신청 급증에 다음 주 데이터센터 법을 개정하기로 했다 [제목]",
+  "배경: 롬바르디아에 데이터센터 건설 신청이 몰리고 있다 [제목]",
+  "영향: 개정 내용에 따라 현지 데이터센터 인허가 기준이 달라질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 15일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "이탈리아 롬바르디아, 신청 급증에 다음 주 데이터센터 법 개정",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/litigation/italys-lombardy-revise-data-centre-law-next-week-after-application-surge-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "datacenter",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "롬바르디아 데이터센터 건설 신청 급증"
+  }
+ ]
+}

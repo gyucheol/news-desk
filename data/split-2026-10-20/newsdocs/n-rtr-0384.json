@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0384",
+ "num": 384,
+ "key": "split-G1-066-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/eu-aviation-agency-widens-saudi-airspace-alert-citing-growing-risk-houthi-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU 항공안전청, 후티 위험 커지자 사우디 영공 경보 확대",
+ "headline": "EU 항공안전청, 후티 위험 커지자 사우디 영공 경보 확대",
+ "one": "EU 항공안전청이 후티 위협이 커졌다며 사우디 영공 경보 범위를 넓히면서, 이미 운항을 멈춘 루프트한자 등에 이어 유럽 항공사들의 사우디 운항이 더 위축될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: EU 항공안전청은 후티 위험이 커졌다며 사우디 영공 경보를 확대했다 [제목]",
+  "배경: 루프트한자·카타르항공 등이 운항을 멈췄고 델타는 리야드 노선 개시를 미뤘다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "EU 항공안전청, 후티 위험 커지자 사우디 영공 경보 확대",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/middle-east/eu-aviation-agency-widens-saudi-airspace-alert-citing-growing-risk-houthi-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU 항공안전청 사우디 영공 경보 확대"
+  }
+ ]
+}

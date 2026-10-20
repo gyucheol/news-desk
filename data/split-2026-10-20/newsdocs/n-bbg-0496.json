@@ -1,0 +1,91 @@
+{
+ "id": "n-bbg-0496",
+ "num": 496,
+ "key": "split-G4-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/live-blog/2026-10-15/ftse-100-live-uk-gdp-pound-bonds-gilts-chip-stocks-oil-prices-hormuz-tsmc-budget-what-s-moving-uk-markets-right-now-markets-today-mv94jtxa",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 8월 GDP 예상 밖 0.1% 성장…제조업 1.2% 늘며 견인",
+ "headline": "영국 8월 GDP 예상 밖 0.1% 성장…제조업 1.2% 늘며 견인",
+ "one": "영국 8월 GDP가 제조업 생산 1.2% 증가에 힘입어 전월보다 0.1% 늘어 수축 예상을 깨면서, 예산안을 앞두고 성장의 축이 서비스업에서 제조업으로 옮겨 가고 영란은행 금리 인상 논의에 힘이 실릴 수 있다",
+ "facts": [
+  "무엇이: 10월 15일 발표된 영국 8월 GDP는 전월보다 0.1% 늘어 수축을 점친 시장 예상을 깼다 [사실]",
+  "제조업: 제조업 생산이 8월 전월보다 1.2% 늘면서, 7월 0.4%에서 둔화한 흐름 속에서도 경제가 플러스 성장을 지켰다 [사실]",
+  "구조: 예산안 발표를 앞두고 서비스업 대신 제조업이 성장을 이끄는 모습이다 [제목]",
+  "영향: 예상을 웃돈 성장이 영란은행의 금리 인상 논의에 힘을 실을 수 있다는 분석이 나왔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 3건·로이터 1건(10월 15일)을 묶었다. 8월 GDP 0.1% 증가와 제조업 견인은 Invezz·Money Marketing·FX스트리트 보도로 확인했다.",
+ "src": [
+  {
+   "o": "Invezz",
+   "d": "2026-10-15",
+   "u": "https://invezz.com/news/2026/10/15/uk-gdp-grows-0-1-in-august-beating-forecasts-as-production-offsets-weakness/"
+  },
+  {
+   "o": "Money Marketing",
+   "d": "2026-10-15",
+   "u": "https://www.moneymarketing.co.uk/news/uk-economy-grows-by-0-1-but-interest-rate-rise-fears-mount/"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-15",
+   "u": "https://www.fxstreet.com/analysis/uk-economy-ekes-out-01-growth-but-outlook-remains-challenging-202610150613"
+  }
+ ],
+ "items": [
+  {
+   "t": "FTSE 100 라이브: 영국 경제 8월 예상 밖 0.1% 성장",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/live-blog/2026-10-15/ftse-100-live-uk-gdp-pound-bonds-gilts-chip-stocks-oil-prices-hormuz-tsmc-budget-what-s-moving-uk-markets-right-now-markets-today-mv94jtxa",
+   "s": "영국 8월 GDP가 예상 밖으로 전월보다 0.1% 늘었다는 발표가 나오면서, 수축을 점쳤던 시장 예상이 빗나갔다"
+  },
+  {
+   "t": "영국, 제조업 급증에 힘입어 8월 예상 밖 성장",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/uk-economy-grew-in-august-with-better-than-feared-performance",
+   "s": "영국 제조업 생산이 8월 전월보다 1.2% 늘면서, 7월 0.4%에서 둔화한 흐름 속에서도 경제가 플러스 성장을 지켰다"
+  },
+  {
+   "t": "영국 경제, 예산안 앞두고 서비스업에서 제조업으로 무게 옮기며 성장",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/uk-economy-grows-ahead-of-budget-in-shift-from-services-to-manufacturing",
+   "s": "영국 경제가 예산안 발표를 앞두고 서비스업 대신 제조업이 성장을 이끄는 모습을 보이면서, 성장의 축이 옮겨 가고 있다 (제목 기준)"
+  },
+  {
+   "t": "영국 경제, 예상 웃돌며 8월 전월 대비 0.1% 성장",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/uk/uk-economy-beats-forecasts-grow-by-01-august-2026-10-15/",
+   "s": "영국 8월 GDP가 0.1% 늘어 예상치를 웃돌면서, 영란은행의 금리 인상 논의에 힘이 실릴 수 있다는 분석이 나왔다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국 8월 GDP 0.1% 증가로 수축 예상 깨"
+  }
+ ]
+}

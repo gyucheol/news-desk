@@ -1,0 +1,80 @@
+{
+ "id": "n-rtr-0387",
+ "num": 387,
+ "key": "split-G1-090-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/indian-national-injured-riyadh-airport-attack-dies-embassy-says-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티 리야드 공항 2차 공격…최소 12명 사망·제4터미널 피해",
+ "headline": "후티 리야드 공항 2차 공격…최소 12명 사망·제4터미널 피해",
+ "one": "후티가 10월 10일 리야드 킹칼리드 국제공항을 다시 공격해 최소 12명이 숨지고 300명 넘게 다친 뒤 제4터미널을 재타격했고, 다친 인도인도 숨지면서 사우디 수도 공항의 인명·시설 피해가 커졌다",
+ "facts": [
+  "무엇이: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다(채널 일부는 13명 사망) [사실]",
+  "재타격: 채널은 후티가 리야드 공항 제4터미널을 다시 타격했고 토요일 공격 사망자가 12명, 부상자가 309명이라고 전했다 [채널]",
+  "인명: 인도 대사관은 리야드 공항 공격으로 다친 인도인이 숨졌다고 발표했다 [제목]",
+  "피해 영상: 알아라비야는 피격된 리야드 공항 터미널 내부 피해 영상을 공개했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건과 텔레그램 2건을 묶음. 10일 리야드 공항 피격과 사상자는 알자지라·CNN 출처로 확인했고, 사망자는 텔레그램 13명과 검색 요약 최소 12명이 달라 검색 수치를 씀",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-10",
+   "u": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+  },
+  {
+   "o": "CNN",
+   "d": "2026-10-10",
+   "u": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
+  }
+ ],
+ "items": [
+  {
+   "t": "리야드 공항 공격으로 다친 인도인 숨져…인도 대사관 발표",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/india/indian-national-injured-riyadh-airport-attack-dies-embassy-says-2026-10-11/",
+   "s": "리야드 공항 공격으로 다친 인도인이 숨졌다고 인도 대사관이 발표하면서 외국인 사망자도 나왔다"
+  },
+  {
+   "t": "후티, 리야드 공항 제4터미널 재타격…토요일 공격 사망 12명·부상 309명",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/65985",
+   "s": "후티가 리야드 공항 제4터미널을 다시 타격했고 토요일 공격 사망자는 12명, 부상자는 309명으로 늘었다"
+  },
+  {
+   "t": "알아라비야, 피격된 리야드 공항 터미널 내부 피해 영상 공개",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/66004",
+   "s": "알아라비야가 피격된 리야드 공항 터미널 내부 피해 영상을 공개하면서 시설 피해 규모가 드러났다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "리야드 공항 2차 피격으로 최소 12명 사망"
+  }
+ ]
+}

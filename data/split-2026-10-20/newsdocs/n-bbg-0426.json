@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0426",
+ "num": 426,
+ "key": "split-G3-001-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스페이스X 주파수 접근 확대 추진에 항공우주 업계 반발",
+ "headline": "스페이스X 주파수 접근 확대 추진에 항공우주 업계 반발",
+ "one": "블룸버그에 따르면 스페이스X가 주파수 접근 확대를 밀어붙이면서 같은 대역을 쓰는 항공우주 업계의 반발을 사고 있어, 주파수 배분을 둘러싼 업계 간 갈등이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 스페이스X가 주파수 접근 확대를 추진하자 항공우주 업계가 반발했다(10월 7일 블룸버그) [제목]",
+  "쟁점: 같은 대역을 쓰는 항공우주 업계와 주파수 이용을 두고 부딪히고 있다 [제목]",
+  "이후: 스페이스X는 10월 9일 스타링크 모바일용 800MHz 대역 주파수 인수를 발표했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 7일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+  }
+ ],
+ "inds": [
+  "aero",
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "space",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "스페이스X, 주파수 접근 확대 추진에 업계 반발"
+  }
+ ]
+}

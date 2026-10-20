@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0605",
+ "num": 605,
+ "key": "split-G6-080-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/us-panel-approves-pjms-registry-data-centers-rejects-plan-curtail-power-them-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "FERC, PJM 데이터센터 등록제 승인…신규 대형 부하 차단안은 기각",
+ "headline": "FERC, PJM 데이터센터 등록제 승인…신규 대형 부하 차단안은 기각",
+ "one": "FERC가 PJM의 대형 부하 등록제는 승인하고 신규 대형 부하를 먼저 끊는 IRAS 차단안은 기각하면서, 전력이 모자랄 때 어느 고객을 차단할지는 주정부 권한으로 남게 됐다",
+ "facts": [
+  "무엇이: FERC는 PJM의 대형 부하 등록제는 승인하고 신규 대형 부하를 먼저 끊는 IRAS 차단안은 기각했다 [사실]",
+  "권한: 어느 고객을 차단할지는 주정부 권한으로 남게 됐다 [사실]",
+  "배경: 미 에너지부는 대형 부하로 생기는 망 비용을 가정·소상공인 요금에 넘기지 말라는 의견서를 FERC에 냈다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 13일) 요약. 원 문서 사실 줄은 FERC의 등록제 승인·차단안 기각을 사실로 다뤘고, 출처 목록의 mgrid.org 10월 10일 보도가 같은 결정을 다룸.",
+ "src": [
+  {
+   "o": "mgrid.org",
+   "d": "2026-10-10",
+   "u": "https://mgrid.org/2026/10/10/ferc-rejects-pjms-curtail-first-plan-for-new-large-loads-and-keeps-only-the-50-mw-definition-and-a-registry/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 규제위, PJM 데이터센터 등록제 승인하고 전력 차단안은 기각",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/us-panel-approves-pjms-registry-data-centers-rejects-plan-curtail-power-them-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "등록제 승인·차단안 기각, 차단 권한은 주정부에"
+  }
+ ]
+}

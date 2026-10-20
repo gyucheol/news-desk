@@ -1,0 +1,64 @@
+{
+ "id": "n-tg-0416",
+ "num": 416,
+ "key": "split-G1-164-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10620",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티, 사우디의 오만 협상 제안 거부…전장 우위 판단",
+ "headline": "후티, 사우디의 오만 협상 제안 거부…전장 우위 판단",
+ "one": "후티가 전장에서 우위를 쥐었다는 판단 아래 16일 사우디의 오만 협상 제안을 거부하고 여러 전선에서 연합군을 밀어내면서, 사우디 본토를 겨냥한 후티 공격이 이어질 전망이다",
+ "facts": [
+  "무엇이: 텔레그램 채널은 10월 16일 후티가 사우디의 오만 협상 제안을 거부했다고 전했다 [채널]",
+  "전장: 채널은 후티가 여러 전선에서 연합군을 밀어내며 전장 우위를 쥐었다고 판단하고 있다고 전했다 [채널]",
+  "전망: 협상이 막히면서 사우디 본토 공항·석유시설을 겨냥한 공격이 이어질 수 있다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 트릴리온 기사 1건이다. 원 문서는 오만 협상 거부를 채널 근거로 적었고, 사우디가 후티의 오만 회동 거절을 밝힌 독립 출처(Dawn·Times of Israel, 15일)가 협상 거부를 뒷받침한다. 전장 우위 판단은 채널 전언이다.",
+ "src": [
+  {
+   "o": "Dawn",
+   "d": "2026-10-15",
+   "u": "https://www.dawn.com/news/2037374/saudi-arabia-says-houthis-declined-to-meet-in-oman-in-recent-weeks"
+  },
+  {
+   "o": "Times of Israel",
+   "d": "2026-10-15",
+   "u": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-says-houthis-declined-to-meet-in-oman-struck-riyadh-airport-20-times/"
+  }
+ ],
+ "items": [
+  {
+   "t": "후티, 사우디의 오만 협상 제안 거부…전장 우위 판단",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-16",
+   "u": "https://t.me/Trillion_labs/10620"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "후티의 오만 협상 거부로 공격 장기화 우려"
+  }
+ ],
+ "channel": "트릴리온"
+}

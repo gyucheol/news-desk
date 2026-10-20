@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0530",
+ "num": 530,
+ "key": "split-G5-008-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/government/uk-watchdog-proposes-90-day-redemption-notice-period-illiquid-assets-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 FCA, 비유동자산 펀드에 90일 환매 예고 기간 제안",
+ "headline": "영국 FCA, 비유동자산 펀드에 90일 환매 예고 기간 제안",
+ "one": "영국 FCA가 10월 8일 비유동자산 비중이 50% 이상인 개인용 펀드에 최소 90일 환매 예고와 월 1회 이하 환매를 제안하면서, 17개 펀드 약 72억 2,000만 파운드의 투자자 자금 회수가 늦어질 수 있다",
+ "facts": [
+  "무엇이: 영국 FCA는 10월 8일 비유동자산 비중 50% 이상인 개인용 펀드에 최소 90일 환매 예고 기간과 월 1회 이하 환매를 제안했다 [사실]",
+  "영향: 제안이 시행되면 17개 펀드, 약 72억 2,000만 파운드가 영향을 받는다 [사실]",
+  "목적: 대량 환매 사태를 막기 위한 조치로, 각국 감독당국의 사모시장 펀드 단속 흐름과 맞물린다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 사실 줄의 FCA 제안·17개 펀드·72억 2,000만 파운드를 따르고, 원 문서 독립 출처 City AM(10월 8일)이 같은 90일 환매 규칙을 다뤄 이를 근거로 삼음",
+ "src": [
+  {
+   "o": "City AM",
+   "d": "2026-10-08",
+   "u": "https://www.cityam.com/fca-eyes-90-day-redemption-rule-on-illiquid-funds-to-end-mass-withdrawals/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 감독당국, 비유동자산 펀드에 90일 환매 예고 기간 제안",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/government/uk-watchdog-proposes-90-day-redemption-notice-period-illiquid-assets-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "비유동 펀드 90일 환매 예고로 자금 회수 지연"
+  }
+ ]
+}

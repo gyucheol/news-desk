@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0485",
+ "num": 485,
+ "key": "split-G4-020-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/ubs-extends-fed-tightening-cycle-forecast-with-march-rate-hike-after-inflation-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "UBS, 9월 물가 지표 뒤 연준 긴축 전망에 내년 3월 인상 추가",
+ "headline": "UBS, 9월 물가 지표 뒤 연준 긴축 전망에 내년 3월 인상 추가",
+ "one": "UBS가 9월 물가 지표를 반영해 내년 3월 금리 인상을 전망에 더하면서 연준 긴축 사이클의 예상 기간을 늘려, 금리 인상이 내년까지 이어질 수 있다는 전망이 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: UBS가 9월 물가 지표를 반영해 내년 3월 금리 인상을 전망에 더했다고 로이터가 10월 15일 전했다 [제목]",
+  "의미: 연준 긴축 사이클이 내년 1분기까지 길어질 수 있다는 시각이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "UBS, 물가 지표 뒤 3월 인상 더해 연준 긴축 전망 연장",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/ubs-extends-fed-tightening-cycle-forecast-with-march-rate-hike-after-inflation-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "UBS, 내년 3월 인상 더해 긴축 전망 연장"
+  }
+ ]
+}

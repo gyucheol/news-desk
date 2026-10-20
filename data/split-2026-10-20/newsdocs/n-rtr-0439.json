@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0439",
+ "num": 439,
+ "key": "split-G2-097-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T21:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/freight-rates-russian-urals-oil-shipments-india-hit-fresh-records-early-october-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도행 러시아 우랄유 수에즈맥스 운임 3,000만 달러까지…또 사상 최고",
+ "headline": "인도행 러시아 우랄유 수에즈맥스 운임 3,000만 달러까지…또 사상 최고",
+ "one": "흑해발 인도행 수에즈맥스 운임이 9월 약 1,900만 달러에서 10월 초 2,700만~3,000만 달러로 뛰어 다시 사상 최고를 기록하면서, 러시아 원유 판매 수입이 늘어난 운임만큼 줄고 있다",
+ "facts": [
+  "무엇이: 흑해발 인도행 수에즈맥스 운임은 9월 약 1,900만 달러에서 10월 초 2,700만~3,000만 달러로 뛰어 다시 사상 최고였다 [사실]",
+  "영향: 운임 상승분만큼 러시아 원유 판매 수입이 줄고 있다 [사실]",
+  "배경: 세계 평균 원유 운송료는 1년 전 배럴당 4달러에서 30달러로 올랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 인도행 유조선 사상 최고 운임이 러시아 원유 수입을 깎는다는 흐름을 Baird Maritime 검색 결과로 확인",
+ "src": [
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-13",
+   "u": "https://www.bairdmaritime.com/shipping/tankers/record-high-tanker-rates-to-india-are-eating-into-russias-oil-profits"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도행 러시아 우랄유 운임, 10월 초 또 사상 최고",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/freight-rates-russian-urals-oil-shipments-india-hit-fresh-records-early-october-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도행 수에즈맥스 운임 2,700만~3,000만 달러로"
+  }
+ ]
+}

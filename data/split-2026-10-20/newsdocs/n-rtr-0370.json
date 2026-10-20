@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0370",
+ "num": 370,
+ "key": "split-G1-022-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/trump-says-nobody-knows-who-is-running-iran-2026-10-06/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"누가 이란을 이끄는지 아무도 모른다\"…지도부 체계에 의문",
+ "headline": "트럼프 \"누가 이란을 이끄는지 아무도 모른다\"…지도부 체계에 의문",
+ "one": "트럼프 대통령이 로이터가 10월 7일 전한 발언에서 누가 이란을 이끌고 있는지 아무도 모른다고 말하며 이란 지도부 체계에 공개적으로 의문을 드러내, 협상 상대가 불분명하다는 인식을 내비쳤다 (제목 기준)",
+ "facts": [
+  "무엇이: 트럼프 대통령이 누가 이란을 이끌고 있는지 아무도 모른다고 말했다(로이터, 10월 7일) [제목]",
+  "의미: 이란 지도부 체계에 대한 의문을 공개적으로 드러낸 발언으로, 협상 상대가 누구인지 불분명하다는 인식으로 읽힌다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "트럼프 \"누가 이란을 이끌고 있는지 아무도 모른다\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/trump-says-nobody-knows-who-is-running-iran-2026-10-06/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "트럼프, 이란 지도부 체계에 공개 의문 제기"
+  }
+ ]
+}

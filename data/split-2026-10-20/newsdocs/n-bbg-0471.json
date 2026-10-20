@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0471",
+ "num": 471,
+ "key": "split-G4-058-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유로존 재무장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+ "headline": "유로존 재무장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+ "one": "유로존 재무장관 회의를 앞두고 프랑스 국채시장 우려가 커진 가운데 장관들이 시장을 진정시키려면 2027년 예산을 통과시키라고 프랑스에 요구하면서, 예산 처리가 프랑스 차입 비용을 가를 변수로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 유로존 장관들이 시장 진정을 위해 프랑스에 2027년 예산 통과를 요구했다(10월 9일 로이터) [제목]",
+  "배경: 유로존 재무장관 회의를 앞두고 프랑스 국채시장 우려가 커졌다(10월 8일 블룸버그) [제목]",
+  "부채: 프랑스 국가부채는 6월 말 GDP의 119%다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 2건(10월 8~9일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없고 사실 줄에서도 장관들의 예산 통과 요구가 제목 기준으로 분류돼 있어 제목 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "유로존 재무장관 회의 속 프랑스 국채시장 우려 확대",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet",
+   "s": "유로존 재무장관 회의를 앞두고 프랑스 국채시장에 대한 투자자들의 우려가 한층 커지고 있다"
+  },
+  {
+   "t": "유로존 장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/finance/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets-2026-10-08/",
+   "s": "유로존 장관들이 시장을 진정시키려면 2027년 예산을 통과시켜야 한다고 프랑스에 요구했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "유로존 장관들, 프랑스에 2027년 예산 통과 요구"
+  }
+ ]
+}

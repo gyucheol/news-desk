@@ -1,0 +1,64 @@
+{
+ "id": "n-tg-0331",
+ "num": 331,
+ "key": "split-G1-012-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/69881",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "예멘 정부군, 바브엘만데브·두밥 장악 주장…후티는 부인",
+ "headline": "예멘 정부군, 바브엘만데브·두밥 장악 주장…후티는 부인",
+ "one": "예멘 정부군이 10월 5일 바브엘만데브 해협 인근 두밥 지역을 장악했다고 주장했지만 후티가 이를 부인하면서, 홍해 입구 해협 주변의 통제권을 둘러싼 공방이 벌어지고 있다",
+ "facts": [
+  "무엇이: 예멘 정부군은 바브엘만데브 해협 인근 두밥 지역을 장악했다고 주장했다 [채널]",
+  "반응: 후티는 정부군의 장악 주장을 부인했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 기사 1건. 정부군의 두밥 장악 주장은 알자지라·아랍타임스 출처가 뒷받침하나 원 문서 사실 줄에 이 사건 부분이 없어 채널 요약 기준",
+ "src": [
+  {
+   "o": "알자지라",
+   "d": "2026-10-05",
+   "u": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis"
+  },
+  {
+   "o": "아랍타임스",
+   "d": "2026-10-05",
+   "u": "https://www.arabtimesonline.com/news/yemeni-forces-seize-dhubab-district-in-offensive-near-bab-el-mandeb/"
+  }
+ ],
+ "items": [
+  {
+   "t": "예멘 정부군, 바브엘만데브·두밥 장악 주장…후티는 부인",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-05",
+   "u": "https://t.me/HANAchina/69881"
+  }
+ ],
+ "inds": [
+  "macro",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "바브엘만데브 인근 두밥 장악 공방"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

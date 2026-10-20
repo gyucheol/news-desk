@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0495",
+ "num": 495,
+ "key": "split-G4-110-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:12:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/french-unrest-tapers-off-as-tougher-security-measures-imposed",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "佛, 통행금지 등 보안 조치 강화…주말 폭동·약탈 진정세",
+ "headline": "佛, 통행금지 등 보안 조치 강화…주말 폭동·약탈 진정세",
+ "one": "프랑스 정부가 총리 발표로 파리 2개 지역에 야간 통행금지를 내리는 등 보안 조치를 강화하면서 주말 내내 이어진 폭동과 약탈이 잦아들기 시작했지만, 예산이 빈 상태에서 시위는 이어지고 있다",
+ "facts": [
+  "무엇이: 프랑스 정부가 통행금지 등 보안 조치를 강화하면서 주말 내내 이어진 폭동과 약탈이 잦아들기 시작했다 [사실]",
+  "조치: 총리가 통행금지를 발표해 파리 2개 지역에 야간 통행금지가 내려졌다 [사실]",
+  "남은 불씨: 보안 조치로 소요는 잦아들고 있지만 예산이 빈 상태에서 시위가 이어지고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 기사 1건. 파리 통행금지는 검색 결과 요약으로 확인했고, 소요 진정세 자체는 원 문서에서 제목 기준으로 다뤘다.",
+ "src": [
+  {
+   "o": "NBC News",
+   "d": "2026-10-19",
+   "u": "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292"
+  }
+ ],
+ "items": [
+  {
+   "t": "더 강한 보안 조치 시행되자 프랑스 소요 진정세",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/french-unrest-tapers-off-as-tougher-security-measures-imposed"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "통행금지 등 보안 강화에 프랑스 소요 진정세"
+  }
+ ]
+}

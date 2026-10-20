@@ -1,0 +1,62 @@
+{
+ "id": "n-tg-0677",
+ "num": 677,
+ "key": "split-G6-144-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T19:58:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63835",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "베네수엘라, 영란은행 금 31톤 뉴욕연은 이전 합의 근접…英 법원이 변수",
+ "headline": "베네수엘라, 영란은행 금 31톤 뉴욕연은 이전 합의 근접…英 법원이 변수",
+ "one": "베네수엘라 정부와 야당이 영란은행에 있는 약 31톤, 40억 달러 규모 중앙은행 금을 뉴욕연은으로 옮기는 합의에 다가섰지만 영란은행이 법원 판단 전엔 따를 수 없다고 하면서, 실제 이전은 영국 법원 절차에 달려 있다",
+ "facts": [
+  "무엇이: 베네수엘라 정부와 야당은 영란은행에 있는 약 31톤, 40억 달러 규모 중앙은행 금을 뉴욕연은으로 옮기는 합의에 다가섰다 [사실]",
+  "변수: 영란은행은 영국 법원 판단 전에는 지시를 따를 수 없다는 입장이다 [사실]",
+  "대조: 유럽 국가들은 뉴욕에서 금을 빼고 있어 금 보관처가 엇갈려 이동하고 있다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "Polaristimes 채널 글 1건. 금 약 31톤(40억 달러)의 영란은행→뉴욕연은 이전 합의 근접과 영국 법원 절차 문제는 검색 결과 요약(MINING.COM·IndexBox)으로 확인",
+ "src": [
+  {
+   "o": "MINING.COM",
+   "d": "2026-10",
+   "u": "https://www.mining.com/venezuelas-4b-gold-stash-closer-to-leaving-london/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10",
+   "u": "https://www.indexbox.io/blog/venezuela-nears-deal-to-move-4-billion-in-gold-from-bank-of-england-to-new-york-fed/"
+  }
+ ],
+ "items": [
+  {
+   "t": "베네수엘라, 영란은행 금 뉴욕연은 이전 합의 근접",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-19",
+   "u": "https://t.me/The_MariTimes/63835"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "precious",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "베네수엘라 금 31톤 보관처 이전은 수급과 무관"
+  }
+ ],
+ "channel": "Polaristimes"
+}

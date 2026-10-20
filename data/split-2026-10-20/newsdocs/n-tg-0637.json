@@ -1,0 +1,82 @@
+{
+ "id": "n-tg-0637",
+ "num": 637,
+ "key": "split-G5-142-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66109",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF, 군사 충돌·호르무즈 봉쇄에 중동 성장률 하향…'전쟁 장기화 최대 위험'",
+ "headline": "IMF, 군사 충돌·호르무즈 봉쇄에 중동 성장률 하향…'전쟁 장기화 최대 위험'",
+ "one": "IMF가 13일 군사 충돌과 호르무즈 해협 폐쇄가 무역·에너지 흐름을 해쳤다며 중동 성장률 전망을 낮춘 데 이어 15일 전쟁 장기화와 공급 차질 재발을 최대 위험으로 꼽으면서, 재고와 여유 생산능력 감소로 가격 변동이 커질 수 있다",
+ "facts": [
+  "무엇이: IMF는 10월 13일 중동 군사 충돌과 호르무즈 해협 폐쇄가 무역·에너지 흐름에 타격을 줬다며 중동 성장률 전망을 낮췄다 [채널]",
+  "위험: IMF는 15일 전쟁 장기화와 공급 차질 재발을 중동의 최대 위험으로 꼽았다 [사실]",
+  "가격: IMF는 재고와 여유 생산능력이 줄어 가격 변동이 훨씬 커질 수 있다고 경고했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 미국 주식 인사이더(13일)와 로이터(15일) 기사를 묶었다. 중동 성장 둔화와 전쟁 장기화 위험은 독립 출처(AGBI·L'Orient Today, 15일)로 확인된다.",
+ "src": [
+  {
+   "o": "AGBI",
+   "d": "2026-10-15",
+   "u": "https://www.agbi.com/economy/2026/10/imf-forecasts-middle-east-gdp-contraction-as-war-drags-on/"
+  },
+  {
+   "o": "L'Orient Today",
+   "d": "2026-10-15",
+   "u": "https://today.lorientlejour.com/article/1550932/middle-east-faces-no-quick-return-to-pre-war-growth-jihad-azour-warns.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF, 군사 충돌·호르무즈 봉쇄에 중동 성장률 전망 하향",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66109",
+   "s": "IMF가 중동 군사 충돌과 호르무즈 해협 폐쇄가 무역·에너지 흐름에 준 타격을 들어 중동 성장률 전망을 낮추면서, 역내 경제도 전쟁 충격을 받고 있다"
+  },
+  {
+   "t": "IMF '전쟁 장기화·공급 차질 재발이 중동 최대 위험'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/prolonged-war-renewed-disruptions-pose-biggest-risk-middle-east-region-imf-says-2026-10-15/",
+   "s": "IMF가 전쟁 장기화와 공급 차질 재발을 중동 최대 위험으로 꼽으면서, 재고와 여유 생산능력이 줄어 가격 변동이 훨씬 커질 수 있다고 경고했다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 전쟁·호르무즈 봉쇄에 중동 성장률 하향"
+  },
+  {
+   "ind": "oil",
+   "node": "price",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "재고·여유 생산능력 감소로 가격 변동 확대 경고"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

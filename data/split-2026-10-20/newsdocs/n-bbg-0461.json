@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0461",
+ "num": 461,
+ "key": "split-G4-029-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/hassett-says-cpi-data-shows-inflation-needs-some-work",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "해싯 'CPI 지표, 물가에 아직 손볼 부분 있음 보여 줘'",
+ "headline": "해싯 'CPI 지표, 물가에 아직 손볼 부분 있음 보여 줘'",
+ "one": "해싯이 10월 19일 CPI 지표가 물가에 아직 손볼 부분이 있음을 보여 준다고 말하면서, 백악관도 9월 물가 지표 이후 물가 압력이 다 꺾이지 않았다고 인정한 셈이 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 해싯은 10월 19일 CPI 지표가 물가에 아직 손볼 부분이 있음을 보여 준다고 말했다 [제목]",
+  "의미: 백악관도 물가 압력이 다 꺾이지 않았다고 인정한 셈이 됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에서 해싯 발언은 제목 근거로 분류돼 있다.",
+ "src": [],
+ "items": [
+  {
+   "t": "해싯 \"CPI 지표, 물가에 아직 손볼 부분 있음 보여 줘\"",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/hassett-says-cpi-data-shows-inflation-needs-some-work"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "해싯, CPI상 물가에 아직 손볼 부분 있다고 인정"
+  }
+ ]
+}

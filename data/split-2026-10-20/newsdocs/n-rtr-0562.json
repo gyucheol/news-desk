@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0562",
+ "num": 562,
+ "key": "split-G5-088-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/indias-hdfc-bank-quarterly-profit-rises-47-narrowly-misses-estimates-treasury-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도 HDFC은행 분기 이익 4.7% 증가…트레저리 영향에 예상 소폭 하회",
+ "headline": "인도 HDFC은행 분기 이익 4.7% 증가…트레저리 영향에 예상 소폭 하회",
+ "one": "인도 HDFC은행의 분기 이익이 4.7% 늘었지만 트레저리 부문 영향으로 시장 예상을 근소하게 밑돌면서, 같은 날 예상을 웃돈 ICICI은행과 대비됐고 니프티 은행 대형주 주가 반응에 관심이 쏠렸다 (제목 기준)",
+ "facts": [
+  "무엇이: HDFC은행 분기 이익은 4.7% 늘었지만 트레저리 영향으로 예상을 근소하게 밑돌았다 [제목]",
+  "비교: 같은 날 ICICI은행은 순이익을 20.1% 늘려 예상치 1,425억 루피를 웃돌았다 [사실]",
+  "의미: 트레저리 부문 손익이 대형 은행 실적의 차이를 가른 변수가 됐다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서는 HDFC은행 실적을 제목 기준으로 분류",
+ "src": [],
+ "items": [
+  {
+   "t": "인도 HDFC은행 분기 이익 4.7% 증가…트레저리 영향에 예상 소폭 하회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-hdfc-bank-quarterly-profit-rises-47-narrowly-misses-estimates-treasury-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "트레저리 영향에 HDFC은행 이익 예상 소폭 하회"
+  }
+ ]
+}

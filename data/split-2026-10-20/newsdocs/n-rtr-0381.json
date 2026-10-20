@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0381",
+ "num": 381,
+ "key": "split-G1-046-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미국, 이란 관련 개인·단체에 신규 제재 부과…경제 압박 확대",
+ "headline": "미국, 이란 관련 개인·단체에 신규 제재 부과…경제 압박 확대",
+ "one": "로이터가 10월 9일 전한 바에 따르면 미국이 이란과 관련된 개인·단체에 신규 제재를 부과하면서, 이란을 겨냥한 미국의 경제적 압박 범위가 한층 넓어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국이 이란과 관련된 개인·단체에 신규 제재를 부과했다(로이터, 10월 9일) [제목]",
+  "의미: 이란을 겨냥한 경제적 압박의 범위가 넓어졌다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없고 맞는 독립 출처를 고르지 못해 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "미국, 이란과 관련된 개인·단체에 신규 제재 부과",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "이란 관련 개인·단체 신규 제재 부과"
+  }
+ ]
+}

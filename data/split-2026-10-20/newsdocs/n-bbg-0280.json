@@ -1,0 +1,55 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(10월 13일, 원문별 한줄 없음). 원 문서 사실 줄과 알파카의 토큰화 주식 인프라를 다룬 CoinDesk 기사(7월)를 근거로 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 토큰화 주식을 계기로 알파카가 프라임 브로커리지에 진출한다 [사실]",
+  "위치: 알파카는 토큰화 미국 주식·ETF의 약 94%를 청산 또는 수탁한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "알파카, 토큰화 주식 붐 타고 프라임 브로커리지 진출",
+ "id": "n-bbg-0280",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "토큰화 주식이 알파카의 프라임 브로커리지 진출 이끌어",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage"
+  }
+ ],
+ "key": "mix-C189-2026-10-13",
+ "nodes": [],
+ "num": 280,
+ "one": "토큰화 미국 주식·ETF의 약 94%를 청산 또는 수탁하는 알파카가 토큰화 주식 확산을 계기로 프라임 브로커리지에 진출하면서, 토큰화 자산을 다루는 기관 고객용 중개 서비스가 넓어질 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T00:42:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "CoinDesk",
+   "d": "2026-07-16",
+   "u": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure"
+  }
+ ],
+ "tags": [],
+ "title": "알파카, 토큰화 주식 붐 타고 프라임 브로커리지 진출",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "토큰화 주식 94% 처리 알파카, 프라임 브로커리지 진출"
+  }
+ ]
+}

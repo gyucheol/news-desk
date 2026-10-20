@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0428",
+ "num": 428,
+ "key": "split-G2-068-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "베네수엘라 최고 경제고문 \"채무 지속가능성 분석 공개 추진\"",
+ "headline": "베네수엘라 최고 경제고문 \"채무 지속가능성 분석 공개 추진\"",
+ "one": "베네수엘라 최고 경제고문이 채무 지속가능성 분석을 공개하겠다고 밝히면서, 세계은행 대출 검토와 미국의 제재 완화가 이어지는 가운데 채권자들과의 채무 재조정 논의의 기초 자료가 나올 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 베네수엘라 최고 경제고문은 채무 지속가능성 분석을 공개하겠다고 했다 [제목]",
+  "의미: 채권자들과의 채무 재조정 논의의 기초 자료가 될 수 있다 [제목]",
+  "연결: 세계은행은 2년간 최대 50억 달러 대출을 검토하며, 첫해 최대 20억 달러는 다른 다자은행 연체 해소가 조건이다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 세계은행 대출 조건만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "베네수엘라 최고 경제고문 '채무 지속가능성 분석 공개 추진'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "채무 지속가능성 분석 공개 추진"
+  }
+ ]
+}

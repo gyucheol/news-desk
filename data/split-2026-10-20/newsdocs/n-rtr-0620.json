@@ -1,0 +1,55 @@
+{
+ "id": "n-rtr-0620",
+ "num": 620,
+ "key": "split-G6-111-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "주요 개발은행들, 핵심광물 가공·제련·제조 지원 틀 마련",
+ "headline": "주요 개발은행들, 핵심광물 가공·제련·제조 지원 틀 마련",
+ "one": "주요 개발은행들이 핵심광물의 가공·제련·제조 단계를 함께 지원하는 협력 틀을 내놓으면서, 자원 보유국의 광물 가치사슬에 개발 금융 자금이 더 흘러들어갈 전망이다",
+ "facts": [
+  "무엇이: 주요 개발은행들이 핵심광물 가공·제련·제조를 지원하는 틀을 내놓았다(10월 17일 로이터) [사실]",
+  "전망: 자원국의 광물 가치사슬에 자금이 더 들어갈 전망이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 17일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, EBRD의 개발은행 협력 틀 발표(10월 17일)를 출처로 붙였다.",
+ "src": [
+  {
+   "o": "EBRD",
+   "d": "2026-10-17",
+   "u": "https://www.ebrd.com/home/news-and-events/news/2026/mdb-collaboration-framework-citical-minerals-to-manufacturing-va.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "주요 개발은행들, 핵심광물 가치사슬 지원 강화",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "개발은행들 핵심광물 가공·제련 지원 틀 마련"
+  }
+ ]
+}

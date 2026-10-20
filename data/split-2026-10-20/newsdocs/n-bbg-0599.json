@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0599",
+ "num": 599,
+ "key": "split-G6-117-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "관세 신호 없는 구리 강세장에 트레이더들 경계 커져",
+ "headline": "관세 신호 없는 구리 강세장에 트레이더들 경계 커져",
+ "one": "블룸버그에 따르면 미국의 구리 관세 신호가 보이지 않자 트레이더들이 구리 강세장을 경계하기 시작하면서, 사상 최고 수준까지 오른 구리값 상승세가 이어질지 의문이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국 구리 관세 신호가 보이지 않자 트레이더들이 구리 강세장을 경계하고 있다(10월 19일 블룸버그) [제목]",
+  "가격: LME 현물 구리는 앞서 톤당 1만 4,822달러로 사상 최고에 마감했다 [사실]",
+  "의미: 가격 상승세가 이어질지에 대한 의문이 커지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 19일)이다. 원 문서 확인 기록대로 관세 건은 제목 기준이며, 사상 최고가는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "관세 신호 없는 구리 강세장에 트레이더들 경계 커져",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "관세 신호 없어 구리 강세장 경계 커져"
+  }
+ ]
+}

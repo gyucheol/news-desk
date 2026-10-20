@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0493",
+ "num": 493,
+ "key": "split-G4-107-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/bond-sale-tied-to-manhattan-office-building-is-latest-on-hold",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "맨해튼 오피스 빌딩 담보 채권 발행도 보류…상업용 부동산 조달 막혀",
+ "headline": "맨해튼 오피스 빌딩 담보 채권 발행도 보류…상업용 부동산 조달 막혀",
+ "one": "맨해튼 오피스 빌딩을 담보로 한 채권 발행이 보류되면서, 투자자 수익률 요구로 미뤄진 모기지 채권에 이어 상업용 부동산의 채권 자금 조달도 막히고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 맨해튼 오피스 빌딩을 담보로 한 채권 발행이 보류됐다 [제목]",
+  "흐름: 모기지 채권에 이어 상업용 부동산 자금 조달도 막히고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 20일). 원 문서 확인 기록에서도 맨해튼 오피스 채권 보류는 제목만 근거여서 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "맨해튼 오피스 빌딩 관련 채권 발행도 보류 대열에 합류",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/bond-sale-tied-to-manhattan-office-building-is-latest-on-hold"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "commercial",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "맨해튼 오피스 빌딩 담보 채권 발행 보류"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0371",
+ "num": 371,
+ "key": "split-G1-023-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war-2026-10-06/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "밴스 美 부통령 \"이란, 농축 줄이고 전쟁 끝내야\"…로이터 인터뷰",
+ "headline": "밴스 美 부통령 \"이란, 농축 줄이고 전쟁 끝내야\"…로이터 인터뷰",
+ "one": "밴스 미 부통령이 10월 7일 보도된 로이터 인터뷰에서 이란이 농축을 줄이고 전쟁을 끝내야 한다고 요구하면서, 농축 축소가 미·이란 협상의 핵심 조건임을 분명히 했다 (제목 기준)",
+ "facts": [
+  "무엇이: 밴스 미 부통령이 로이터 인터뷰에서 이란이 농축을 줄이고 전쟁을 끝내야 한다고 말했다(10월 7일 보도) [제목]",
+  "의미: 농축 문제가 미·이란 협상의 핵심 조건임을 분명히 한 발언이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "[인터뷰] 밴스 미 부통령 \"이란, 농축 줄이고 전쟁 끝내야\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war-2026-10-06/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "밴스, 이란에 농축 축소와 종전 요구"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0413",
+ "num": 413,
+ "key": "split-G2-091-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/japan-power-price-at-four-year-high-with-rising-coal-lng-costs",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "석탄·LNG값 상승에 日 익일 전력값 kWh당 31.15엔…4년 만의 최고",
+ "headline": "석탄·LNG값 상승에 日 익일 전력값 kWh당 31.15엔…4년 만의 최고",
+ "one": "LNG·석탄값 상승과 겨울 전 정기 보수가 겹쳐 일본전력거래소 전국 익일 현물 전력값이 19일 kWh당 31.15엔으로 한 주 새 25% 넘게 뛰면서, 약 4년 만의 최고를 기록해 발전 연료비 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 일본전력거래소 전국 익일 현물 가격은 19일 kWh당 31.15엔으로 한 주 새 25% 넘게 올라 약 4년 만의 최고였다 [사실]",
+  "원인: LNG·석탄값 상승과 겨울 전 정기 보수가 겹쳤다 [사실]",
+  "연료값: 중국 발전용 석탄값은 3년 만에 톤당 1,000위안을 넘어 아시아 발전 연료값 상승을 보여 줬다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 일본 익일 현물 전력값 31.15엔·한 주 25% 상승을 OilPrice 검색 결과 요약으로 확인",
+ "src": [
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-19",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-25-as-LNG-and-Coal-Costs-Soar.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "석탄·LNG 비용 상승에 일본 전력값 4년 만의 최고",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/japan-power-price-at-four-year-high-with-rising-coal-lng-costs"
+  }
+ ],
+ "inds": [
+  "power",
+  "gas",
+  "coal"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "日 익일 전력값 kWh당 31.15엔, 4년 만의 최고"
+  }
+ ]
+}

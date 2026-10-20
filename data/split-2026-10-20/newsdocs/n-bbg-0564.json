@@ -1,0 +1,113 @@
+{
+ "id": "n-bbg-0564",
+ "num": 564,
+ "key": "split-G5-130-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 총재 'AI·석유·부채 위험 칵테일'…워시 연준 물가 안정 칭찬",
+ "headline": "IMF 총재 'AI·석유·부채 위험 칵테일'…워시 연준 물가 안정 칭찬",
+ "one": "게오르기에바 IMF 총재가 7일 유가 100달러 안팎의 에너지 충격과 GDP 100%를 넘을 공공부채, AI 실망을 위험 칵테일로 꼽아 재정 건전화를 촉구하고 워시 연준의 물가 안정 우선 기조를 칭찬하면서, 부채가 많은 미국·일본 등에 압박이 커졌다",
+ "facts": [
+  "무엇이: 게오르기에바 IMF 총재는 10월 7일 세계가 유가 100달러 안팎의 에너지 충격, GDP 100%를 넘을 공공부채, AI 실망이라는 위험 칵테일에 직면했다며 재정 건전화를 촉구했다 [사실]",
+  "성장 위협: 로이터는 총재가 에너지 충격·부채 증가·AI 위험이 한꺼번에 세계 성장을 위협한다고 경고했다고 전했다 [제목]",
+  "연준: 총재는 워시 의장이 이끄는 연준의 물가 안정 우선 기조를 칭찬하면서 미국·일본 등 부채가 많은 나라에 부채 대응을 촉구했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건과 로이터 기사(7일)를 묶었다. 위험 칵테일 발언은 원 문서 사실 줄과 독립 출처(Quartz·Manila Times)로 확인되고, 워시 칭찬은 블룸버그TV를 인용한 Briefs가 뒷받침하지만 블룸버그 원문은 제목만 봤다.",
+ "src": [
+  {
+   "o": "Briefs(블룸버그TV 인용)",
+   "d": "2026-10-07",
+   "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-07",
+   "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+  },
+  {
+   "o": "Manila Times",
+   "d": "2026-10-08",
+   "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF 총재, 워시의 '물가 안정 우선' 칭찬…미·일 등에 부채 대응 촉구",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability",
+   "s": "IMF 총재가 연준 워시의 물가 안정 우선 기조를 칭찬하면서 미국·일본 등 부채가 많은 나라에 부채 대응을 촉구했다 (제목 기준)"
+  },
+  {
+   "t": "IMF 총재 '세계, AI·석유·부채의 위험 칵테일에 직면'",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/world-faces-risk-cocktail-from-ai-oil-and-debt-says-imf-chief",
+   "s": "IMF 총재가 유가 100달러 안팎의 에너지 충격과 GDP 100%를 넘을 공공부채, AI 실망 위험을 위험 칵테일로 꼽으면서 재정 건전화를 촉구했다"
+  },
+  {
+   "t": "IMF 총재, 에너지 충격·부채 증가·AI 위험이 세계 성장 위협한다고 경고",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-chief-warns-energy-shock-growing-debt-ai-risks-threaten-global-growth-2026-10-07/",
+   "s": "IMF 총재가 에너지 충격과 부채 증가, AI 위험이 한꺼번에 세계 성장을 위협한다고 경고하면서 각국 경제 전망에 부담이 커질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/fiscal",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF 총재, AI·석유·부채 위험 칵테일 경고"
+  },
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "부채 많은 미국·일본 등에 재정 건전화 촉구"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "IMF 총재, 워시 연준의 물가 안정 우선 기조 칭찬"
+  }
+ ],
+ "fed": [
+  {
+   "k": "Warsh",
+   "who": "케빈 워시",
+   "role": "의장",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "게오르기에바 IMF 총재가 워시 연준의 물가 안정 우선 기조를 칭찬했다",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "n-rtr-0537",
+ "num": 537,
+ "key": "split-G5-043-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:58:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/australia-central-banker-sees-signs-labour-market-easing-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "RBA 켄트 부총재보 \"노동시장, 예상보다 빨리 느슨해져\"…인상 근거 약화",
+ "headline": "RBA 켄트 부총재보 \"노동시장, 예상보다 빨리 느슨해져\"…인상 근거 약화",
+ "one": "크리스토퍼 켄트 호주중앙은행 부총재보가 19일 노동시장이 중앙은행 예상보다 빨리 느슨해지고 있다고 말하면서, 9월 취업자 감소에 이어 11월 추가 금리 인상의 근거가 약해질 수 있다",
+ "facts": [
+  "무엇이: 크리스토퍼 켄트 호주중앙은행 부총재보(금융시장 담당)는 19일 노동시장이 예상보다 빨리 느슨해지고 있다고 말했다 [제목]",
+  "확인: 켄트의 직함과 19일 발언 일정은 호주중앙은행 연설 목록으로 확인됐다 [사실]",
+  "영향: 로이터는 노동시장 완화 신호로 추가 금리 인상 압력이 줄 수 있다고, 블룸버그는 11월 추가 인상 근거가 약해질 수 있다고 봤다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "로이터·블룸버그(모두 10월 19일)를 묶음. 켄트의 직함과 19일 발언 일정은 호주중앙은행 사이트로 확인했고, 노동시장 완화 발언 내용은 제목 기준",
+ "src": [
+  {
+   "o": "호주중앙은행 연설 목록",
+   "d": "2026-10-19",
+   "u": "https://www.rba.gov.au/speeches/"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주중앙은행 인사 '노동시장 완화 신호 보여'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/australia-central-banker-sees-signs-labour-market-easing-2026-10-19/",
+   "s": "호주중앙은행 고위 인사가 노동시장이 완화되는 신호가 보인다고 말하면서, 추가 금리 인상 압력이 줄어들 수 있다 (제목 기준)"
+  },
+  {
+   "t": "켄트 RBA 부총재보 '노동시장, 예상보다 빨리 느슨해져'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/rba-s-kent-says-labor-market-loosening-faster-than-predicted",
+   "s": "켄트 호주중앙은행 부총재보가 노동시장이 중앙은행 예상보다 빨리 느슨해지고 있다고 말하면서, 11월 추가 인상 근거가 약해질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "켄트 노동시장 빠른 완화 발언에 인상 근거 약화"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주 노동시장 예상보다 빨리 느슨해져"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0577",
+ "num": 577,
+ "key": "split-G5-118-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/china-says-it-is-willing-work-with-eu-boost-stability-trade-ties-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 'EU와 협력해 무역관계 안정 높일 용의'",
+ "headline": "중국 'EU와 협력해 무역관계 안정 높일 용의'",
+ "one": "중국이 14일 EU와 협력해 무역관계의 안정성을 높일 용의가 있다고 밝히면서, 하이브리드차 합의 뒤 EU의 추가 무역 조치 논의가 이어지는 가운데 갈등 확대를 피하려는 신호를 보냈다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국이 EU와 협력해 무역관계의 안정성을 높일 용의가 있다고 밝혔다 [제목]",
+  "의미: 하이브리드차 합의 뒤 갈등 확대를 피하려는 신호를 보냈다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국 'EU와 협력해 무역관계 안정 높일 용의'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/china/china-says-it-is-willing-work-with-eu-boost-stability-trade-ties-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중국 협력 의사 표명, 수급 변화는 없음"
+  }
+ ]
+}

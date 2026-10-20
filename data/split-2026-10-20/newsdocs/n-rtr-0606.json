@@ -1,0 +1,69 @@
+{
+ "id": "n-rtr-0606",
+ "num": 606,
+ "key": "split-G6-084-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/galderma-agrees-buy-zo-skin-health-around-15-billion-sources-say-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "갈더마, 블랙스톤의 ZO스킨헬스 15억 달러에 인수…미국 스킨케어 확대",
+ "headline": "갈더마, 블랙스톤의 ZO스킨헬스 15억 달러에 인수…미국 스킨케어 확대",
+ "one": "갈더마가 블랙스톤이 가진 미국 스킨케어 업체 ZO스킨헬스를 기업가치 15억 달러에 인수하기로 하면서, 10월 14일 소식통 보도가 하루 만에 공식 확인됐고 갈더마는 미국 스킨케어 시장에서 몸집을 키우게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 갈더마는 10월 15일 미국 ZO스킨헬스를 기업가치 15억 달러에 인수한다고 발표했다 [사실]",
+  "경과: 하루 전인 10월 14일 로이터는 소식통을 인용해 갈더마가 약 15억 달러에 인수하기로 합의했다고 전했다 [사실]",
+  "매도자: 블랙스톤이 ZO스킨헬스를 갈더마에 팔면서 사모펀드가 피부관리 자산을 정리했다 [제목]",
+  "의미: 갈더마는 이번 인수로 미국 스킨케어 시장에서 몸집을 키운다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 2건·블룸버그 1건(10월 14~15일)을 묶었다. 원 문서 확인 기록에 갈더마 거래를 뒷받침하는 출처가 없어 기사 요약 기준으로 낮춰 뒀다.",
+ "src": [],
+ "items": [
+  {
+   "t": "갈더마, ZO스킨헬스 약 15억 달러에 인수 합의…소식통",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/galderma-agrees-buy-zo-skin-health-around-15-billion-sources-say-2026-10-13/",
+   "s": "갈더마가 ZO스킨헬스를 약 15억 달러에 사들이기로 하면서 미국 스킨케어 시장에서 몸집을 키운다"
+  },
+  {
+   "t": "블랙스톤, ZO스킨헬스를 갈더마에 15억 달러에 매각",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/galderma-expands-in-us-skincare-with-1-5-billion-purchase-of-zo",
+   "s": "블랙스톤이 ZO스킨헬스를 갈더마에 15억 달러에 팔면서 사모펀드가 피부관리 자산을 정리했다 (제목 기준)"
+  },
+  {
+   "t": "갈더마, 미국 ZO스킨헬스 15억 달러에 인수",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/transactional/galderma-buy-us-firm-zo-skin-health-15-billion-2026-10-14/",
+   "s": "갈더마가 ZO스킨헬스를 기업가치 15억 달러에 인수한다고 발표하면서 앞선 소식통 보도가 공식 확인됐다"
+  }
+ ],
+ "inds": [
+  "beauty",
+  "pharma"
+ ],
+ "nodes": [
+  "beauty/brands"
+ ],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "갈더마 ZO스킨헬스 15억 달러 인수"
+  }
+ ]
+}

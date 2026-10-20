@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0546",
+ "num": 546,
+ "key": "split-G5-053-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-on-path-to-investment-grade-rating-investec-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인베스텍 \"남아공, 신뢰할 예산이면 2028년 투자등급 복귀 가능\"",
+ "headline": "인베스텍 \"남아공, 신뢰할 예산이면 2028년 투자등급 복귀 가능\"",
+ "one": "인베스텍이 21일 중기예산이 신뢰할 만하면 무디스·S&P가 남아공을 투자등급 한 단계 아래로 올리고 2028년 투자등급(Baa3 이상) 복귀도 가능하다고 보면서, 현재 Ba2인 남아공의 신용등급 상향 기대가 커졌다",
+ "facts": [
+  "무엇이: 인베스텍은 21일 중기예산이 신뢰할 만하면 무디스·S&P가 남아공을 투자등급 한 단계 아래로 올릴 수 있고, 2028년 투자등급(Baa3 이상) 복귀도 가능하다고 봤다 [사실]",
+  "현재 등급: 무디스는 남아공을 투자등급보다 두 단계 낮은 Ba2로 평가하고 있다 [사실]",
+  "근거: PSG는 세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 많을 것으로 추정했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 인베스텍의 2028년 투자등급 복귀 전망, 무디스 Ba2, 예산 발표 21일은 검색 결과 요약(Moneyweb)으로 확인했다.",
+ "src": [
+  {
+   "o": "Moneyweb",
+   "d": "2026-10-19",
+   "u": "https://www.moneyweb.co.za/news/south-africa/south-africa-on-path-to-investment-grade-rating-investec-says/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인베스텍 \"남아공, 투자등급 회복 경로에 올라\"",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-on-path-to-investment-grade-rating-investec-says"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "신뢰할 예산이면 2028년 투자등급 복귀 가능"
+  }
+ ]
+}

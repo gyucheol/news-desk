@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0435",
+ "num": 435,
+ "key": "split-G3-034-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-to-exclude-tightly-owned-stocks-from-benchmark-index",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인니 거래소, 지수 비중 18% 지분 집중 종목 자카르타지수 산출서 제외",
+ "headline": "인니 거래소, 지수 비중 18% 지분 집중 종목 자카르타지수 산출서 제외",
+ "one": "인도네시아증권거래소가 19일 MSCI와 면담한 뒤 지수 비중 약 18%인 지분 집중 종목을 자카르타종합지수 산출에서 빼고 1% 이상 주주를 공개하기로 하면서, MSCI가 지적한 지분 구조 불투명성 대응에 나섰다",
+ "facts": [
+  "무엇이: 인도네시아증권거래소는 19일 MSCI와 면담한 뒤 지수 비중 약 18%인 지분 집중 종목을 자카르타종합지수 산출에서 빼겠다고 밝혔다 [사실]",
+  "공개: 1% 이상 주주 명단과 회사와의 관계를 공개하겠다고 했다 [사실]",
+  "빈칸: 시행일과 제외 종목 명단은 내놓지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 지분 집중 종목 지수 제외, 1% 이상 주주 공개, 지수 비중 약 18%는 검색 결과 요약(Eastern Herald)으로 확인했고 시행일·명단은 미정이다.",
+ "src": [
+  {
+   "o": "Eastern Herald",
+   "d": "2026-10-19",
+   "u": "https://easternherald.com/2026/10/19/indonesia-hsc-stocks-jakarta-composite-index/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도네시아, 지분 집중 종목을 대표 지수에서 제외",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-to-exclude-tightly-owned-stocks-from-benchmark-index"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "지수 비중 18% 지분 집중 종목 산출서 제외"
+  }
+ ]
+}

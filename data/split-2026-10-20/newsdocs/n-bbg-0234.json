@@ -1,0 +1,85 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터·트릴리온 텔레그램(모두 10월 19일)을 묶음. NAHB 지수 29(2012년 6월 이후 최저)와 가격 인하 43%·인센티브 65%를 NAHB 보도자료 검색 결과로 확인. 블룸버그는 14년, 로이터는 14년 반 만의 최저로 표기",
+ "cycles": [],
+ "facts": [
+  "무엇이: NAHB·웰스파고 주택시장지수는 10월 29로 3포인트 내려 2012년 6월 이후 최저였다 [사실]",
+  "가격: 업체의 43%가 집값을 내리고 65%가 판매 인센티브를 썼다 [사실]",
+  "원인: 로이터는 높은 금리와 자재비 부담이 분양 가격을 끌어내리고 있다고 전했다 [사실]",
+  "금리: 텔레그램 채널은 평균 30년 모기지 금리가 7.4%에 이르러 주택시장이 얼어붙었다고 전했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 주택건설업체 심리 29로 2012년 6월 이후 최저…43%가 가격 인하",
+ "id": "n-bbg-0234",
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "美 주택건설업체 심리, 판매 부진에 14년 만의 최저",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales",
+   "s": "NAHB 주택시장지수가 판매 부진 속 29로 떨어져 2012년 6월 이후 최저를 기록하면서, 미국 신규주택 시장 위축이 뚜렷해졌다"
+  },
+  {
+   "t": "美 주택건설업체 심리, 10월 14년 반 만의 최저 근처로 급락",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/us-homebuilder-sentiment-tumbles-near-14-12-year-low-october-2026-10-19/",
+   "s": "10월 건설업체 심리가 14년 반 만의 최저로 떨어지고 업체 43%가 가격을 내리면서, 높은 금리와 자재비 부담이 분양 가격을 끌어내리고 있다"
+  },
+  {
+   "t": "모기지 금리 7.4%에 美 주택시장 마비…건설업체 심리 최저",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10865",
+   "s": "평균 30년 모기지 금리가 7.4%에 이르러 주택시장이 얼어붙고 건설업체 심리가 14년 반 만의 최저로 떨어지면서, 주택 거래 위축이 이어지고 있다"
+  }
+ ],
+ "key": "mix-C033-2026-10-13",
+ "nodes": [],
+ "num": 234,
+ "one": "10월 미국 NAHB 주택시장지수가 3포인트 내린 29로 2012년 6월 이후 최저로 떨어지고 업체 43%가 집값을 내리고 65%가 판매 인센티브를 쓰면서, 7.4%대 모기지 금리 속 신규주택 시장 위축이 뚜렷해졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:13:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "NAHB",
+   "d": "2026-10-19",
+   "u": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates"
+  },
+  {
+   "o": "HousingWire",
+   "d": "2026-10-19",
+   "u": "https://www.housingwire.com/articles/nahb-builder-confidence-14-year-low-october/"
+  }
+ ],
+ "tags": [],
+ "title": "美 주택건설업체 심리 29로 2012년 6월 이후 최저…43%가 가격 인하",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "건설업체 심리 29로 2012년 6월 이후 최저"
+  },
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "건설업체 43%가 집값 인하, 65%가 인센티브"
+  }
+ ]
+}

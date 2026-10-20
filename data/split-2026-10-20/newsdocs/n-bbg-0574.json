@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0574",
+ "num": 574,
+ "key": "split-G5-154-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-china-blame-game-over-global-economy-tilts-in-beijing-s-favor",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "세계 경제 둘러싼 미·중 책임 공방, 중국 쪽으로 기울어",
+ "headline": "세계 경제 둘러싼 미·중 책임 공방, 중국 쪽으로 기울어",
+ "one": "세계 경제 문제를 두고 미국과 중국이 서로 책임을 돌리는 가운데 블룸버그가 16일 공방의 흐름이 중국에 유리하게 기울고 있다고 분석하면서, 선진국 재정을 둘러싼 국제 논쟁에서 중국의 목소리가 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 16일 세계 경제를 둘러싼 미·중 책임 공방이 중국 쪽으로 기울고 있다고 분석했다 [제목]",
+  "중국 요구: 판궁성 인민은행 총재는 17일 방콕 IMFC 회의에서 IMF가 주요 선진국의 재정 위험과 파급 효과를 더 면밀히 감시해야 한다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 판궁성 발언은 원 문서에서 검색 결과로 확인된 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "세계 경제 둘러싼 미·중 책임 공방, 중국 쪽으로 기울어",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-china-blame-game-over-global-economy-tilts-in-beijing-s-favor"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미·중 세계 경제 책임 공방, 방향성 불분명"
+  }
+ ]
+}

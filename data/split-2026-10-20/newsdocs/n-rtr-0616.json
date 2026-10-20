@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0616",
+ "num": 616,
+ "key": "split-G6-101-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/bhp-sues-union-spence-copper-mine-over-illegal-production-stoppages-lawsuit-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "BHP, 칠레 스펜스 구리광산 노조를 불법 생산 중단으로 제소",
+ "headline": "BHP, 칠레 스펜스 구리광산 노조를 불법 생산 중단으로 제소",
+ "one": "BHP가 칠레 스펜스 구리광산 노조를 불법 생산 중단 혐의로 제소하면서, 센티넬라 파업과 에스콘디다 협상에 이어 칠레 구리광산의 노사 갈등이 법정 다툼으로 번졌다",
+ "facts": [
+  "무엇이: BHP가 칠레 스펜스 구리광산 노조를 불법 생산 중단 혐의로 제소했다고 로이터가 10월 16일 전했다 [사실]",
+  "의미: 칠레 광산 노사 갈등이 법정으로 번졌다 [사실]",
+  "맥락: 같은 시기 센티넬라 파업과 에스콘디다 감독직 노조 협상이 이어져 칠레 구리 공급의 노사 위험이 커졌다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 Discovery Alert(스펜스 소송) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Discovery Alert",
+   "d": "2026-10-15",
+   "u": "https://discoveryalert.com/news/bhp-spence-copper-strike-lawsuit-october-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "BHP, 스펜스 구리광산 노조를 불법 생산 중단으로 제소",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/bhp-sues-union-spence-copper-mine-over-illegal-production-stoppages-lawsuit-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "스펜스 노조 불법 생산 중단에 BHP 제소"
+  }
+ ]
+}

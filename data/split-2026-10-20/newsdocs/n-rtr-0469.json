@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0469",
+ "num": 469,
+ "key": "split-G3-026-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인니 국부펀드 다난타라 \"밸류에이션 매력 있으면 급락장 개입\"",
+ "headline": "인니 국부펀드 다난타라 \"밸류에이션 매력 있으면 급락장 개입\"",
+ "one": "인도네시아 국부펀드 다난타라가 밸류에이션이 매력적이면 증시 급락장에 개입할 수 있다고 밝히면서, 외국인 순매도가 이어지는 자카르타 증시의 하단을 국부펀드 자금이 받칠 수 있다",
+ "facts": [
+  "무엇이: 인도네시아 국부펀드 다난타라는 밸류에이션이 매력적이면 급락장에 개입할 수 있다고 밝혔다 [사실]",
+  "의미: 국부펀드 매수가 증시 하단을 받칠 수 있다 [사실]",
+  "배경: 올해 외국인 순매도는 이미 47억 달러로 사상 최대다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 다난타라의 급락장 개입 가능성 발언은 검색 결과 요약(Finimize)으로 확인했다.",
+ "src": [
+  {
+   "o": "Finimize",
+   "d": "2026-10-09",
+   "u": "https://finimize.com/content/danantara-signals-it-could-step-in-when-indonesia-stocks-slide"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도네시아 다난타라 \"밸류에이션 매력 있으면 급락장에 개입할 수도\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "국부펀드 다난타라, 급락장 개입 가능성 시사"
+  }
+ ]
+}

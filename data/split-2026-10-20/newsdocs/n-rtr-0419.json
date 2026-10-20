@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0419",
+ "num": 419,
+ "key": "split-G2-035-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:14:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "토탈에너지스, 3분기 정제 마진 33.2달러로 두 배…이익 급증 예고",
+ "headline": "토탈에너지스, 3분기 정제 마진 33.2달러로 두 배…이익 급증 예고",
+ "one": "토탈에너지스가 10월 15일 3분기 정제 마진이 배럴당 33.2달러로 2분기 13.5달러의 두 배를 넘었다고 밝히면서, 이란 전쟁발 에너지값 상승에 정제·화학 부문 현금흐름이 약 40억 달러로 불어날 전망이다",
+ "facts": [
+  "무엇이: 토탈에너지스는 3분기 정제 마진이 배럴당 33.2달러로 2분기 13.5달러에서 두 배 넘게 뛰었다고 밝혔다(10월 15일) [사실]",
+  "현금흐름: 정제·화학 부문 현금흐름이 약 40억 달러로 불어날 전망이다 [사실]",
+  "배경: 이란 전쟁이 에너지값을 계속 끌어올리면서 3분기 이익 급증이 예고됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 15일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 사실 줄의 33.2달러([사실])와 RTE·Finimize 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "RTE",
+   "d": "2026-10-15",
+   "u": "https://www.rte.ie/news/business/2026/1015/1595502-totalenergies-quarterly-results/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-15",
+   "u": "https://finimize.com/content/totalenergies-sees-q3-profit-jump-as-hormuz-tightens-supply"
+  }
+ ],
+ "items": [
+  {
+   "t": "토탈에너지스, 이란 전쟁발 에너지값 상승에 3분기 이익 급증 예고",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "토탈에너지스 3분기 정제 마진 배럴당 33.2달러"
+  }
+ ]
+}

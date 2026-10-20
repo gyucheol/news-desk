@@ -1,0 +1,75 @@
+{
+ "id": "n-tg-0430",
+ "num": 430,
+ "key": "split-G1-180-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66613",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라브로프, 테헤란서 아락치와 회담…아락치 '호르무즈 긴장 美 탓·외교 촉구'",
+ "headline": "라브로프, 테헤란서 아락치와 회담…아락치 '호르무즈 긴장 美 탓·외교 촉구'",
+ "one": "라브로프 러시아 외무장관이 바레인 GCC-러시아 전략대화 뒤 10월 19일 테헤란에서 아락치 외무장관과 회담했고, 아락치는 회견에서 호르무즈 긴장의 책임을 미국에 돌리면서도 외교적 해법을 촉구해 협상 여지를 남겼다",
+ "facts": [
+  "무엇이: 라브로프 러시아 외무장관이 10월 19일 테헤란에서 아락치 이란 외무장관과 회담했다 [사실]",
+  "경로: 라브로프는 바레인에서 GCC-러시아 전략대화를 마친 뒤 테헤란으로 향했다 [채널]",
+  "아락치 발언: 아락치는 라브로프와의 회견에서 호르무즈 긴장의 책임을 미국에 돌리면서도 외교적 해법을 촉구했다 [사실]",
+  "추가 중재: 아심 무니르 파키스탄 육군 원수가 20일 테헤란을 방문할 예정이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "미국 주식 인사이더·로이터 기사 2건. 원 문서 확인 기록대로 라브로프-아락치 테헤란 회담, 아락치의 미국 책임론, 무니르 방문 예정을 검색 결과(The National·The Star)로 확인했다.",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-19",
+   "u": "https://www.thenationalnews.com/news/gulf/2026/10/19/russias-lavrov-heads-to-tehran-as-gulf-states-press-moscow-over-iran-attacks/"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-19",
+   "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/19/iran039s-araqchi-blames-the-us-for-strait-of-hormuz-tensions-but-calls-for-diplomacy"
+  }
+ ],
+ "items": [
+  {
+   "t": "라브로프, 바레인 GCC 대화 뒤 19일 테헤란서 아락치와 회담 예정",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-18",
+   "u": "https://t.me/insidertracking/66613",
+   "s": "라브로프 러시아 외무장관이 GCC-러시아 전략대화 뒤 테헤란으로 가 아락치 장관과 만나기로 하면서, 러시아의 중재 행보가 본격화됐다"
+  },
+  {
+   "t": "이란 아락치, 호르무즈 긴장 미국 탓하면서도 외교 촉구",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy-2026-10-19/",
+   "s": "아락치 외무장관이 라브로프와의 회견에서 호르무즈 긴장의 책임을 미국에 돌리면서도 외교적 해법을 촉구해, 협상 여지를 남겼다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "아락치, 호르무즈 긴장 미국 탓하며 외교 촉구"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

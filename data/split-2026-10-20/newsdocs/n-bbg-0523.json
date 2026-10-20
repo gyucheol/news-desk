@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0523",
+ "num": 523,
+ "key": "split-G5-007-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/private-credit-firms-see-rare-growth-shortcut-with-bdcs-for-sale",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사모신용 운용사들, 매물로 나온 BDC에서 드문 성장 지름길 발견",
+ "headline": "사모신용 운용사들, 매물로 나온 BDC에서 드문 성장 지름길 발견",
+ "one": "블룸버그가 10월 8일 사모신용 운용사들이 매물로 나온 BDC 인수를 드문 성장 지름길로 보고 있다고 전하면서, 자금 모집 경쟁 속에서 BDC 업계의 인수합병과 재편이 빨라질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 8일 사모신용 운용사들이 매물로 나온 BDC를 드문 성장 지름길로 보고 있다고 전했다 [제목]",
+  "영향: 매물 BDC 인수가 늘면 BDC 업계 재편이 빨라질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "사모신용 운용사들, 매물로 나온 BDC에서 드문 성장 지름길 발견",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/private-credit-firms-see-rare-growth-shortcut-with-bdcs-for-sale"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "매물 BDC 인수로 사모신용 업계 재편 가능"
+  }
+ ]
+}

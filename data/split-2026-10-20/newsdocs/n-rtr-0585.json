@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0585",
+ "num": 585,
+ "key": "split-G5-136-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 'AI 투자가 세계 성장 3% 안팎 지탱…중국·인도·아시아 수혜'",
+ "headline": "IMF 'AI 투자가 세계 성장 3% 안팎 지탱…중국·인도·아시아 수혜'",
+ "one": "IMF가 12~13일 AI 투자가 세계 성장률을 3% 안팎으로 지탱하고 AI 붐이 성장과 교역을 떠받쳐 중국·인도가 혜택을 보고 있다고 밝히면서, AI 공급망 참여 여부에 따라 나라별 성장 격차가 벌어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 12일 AI 투자가 세계 성장률을 3% 안팎으로 지탱하고 아시아가 그 혜택을 크게 볼 수 있다고 밝혔다 [제목]",
+  "수혜국: IMF는 13일 AI 붐이 세계 성장과 교역을 떠받쳐 중국·인도가 혜택을 보고 있다고 했다 [제목]",
+  "상향: IMF는 올해 세계성장률 전망을 3.1%로 올렸다 [채널]",
+  "격차: AI 공급망 참여 여부에 따라 나라별 성장 격차가 벌어질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 2건(제목 기준)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 3.1% 상향은 원 문서의 채널 근거 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF \"AI 투자가 세계 성장 3% 안팎 지탱…아시아 혜택 커\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/",
+   "s": "IMF가 AI 투자가 세계 성장률을 3% 안팎으로 지탱한다고 평가하면서 아시아가 그 혜택을 크게 볼 수 있다고 밝혔다 (제목 기준)"
+  },
+  {
+   "t": "IMF \"AI 붐이 성장·교역 떠받쳐…중국·인도가 수혜\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/ai-boom-bolstered-growth-global-trade-benefiting-china-india-imf-says-2026-10-13/",
+   "s": "IMF가 AI 붐이 세계 성장과 교역을 떠받쳐 중국·인도가 혜택을 보고 있다고 밝히면서, AI 공급망 참여 여부에 따라 나라별 성장 격차가 벌어질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "AI 투자가 세계 성장 3% 안팎 지탱"
+  }
+ ],
+ "ind": "semis"
+}

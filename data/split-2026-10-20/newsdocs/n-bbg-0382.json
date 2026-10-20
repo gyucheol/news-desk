@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0382",
+ "num": 382,
+ "key": "split-G1-108-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/delta-delays-nonstop-service-to-saudi-arabia-amid-conflict",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "델타항공, 리야드 공항 공격 뒤 애틀랜타-리야드 직항 개시 연기",
+ "headline": "델타항공, 리야드 공항 공격 뒤 애틀랜타-리야드 직항 개시 연기",
+ "one": "델타항공이 10일 리야드 킹칼리드 공항 피격 뒤 분쟁을 이유로 애틀랜타-리야드 직항 노선 개시를 미루면서, 루프트한자·카타르항공의 운항 중단에 이어 미국 항공사의 사우디 노선 확대도 멈췄다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그와 로이터는 10월 12일 델타항공이 분쟁 속에 애틀랜타-리야드 직항 노선 개시를 미뤘다고 보도했다 [사실]",
+  "계기: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]",
+  "다른 항공사: 루프트한자·카타르항공 등도 리야드 운항을 멈췄다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터의 델타 노선 연기 기사 2건(둘 다 제목만 있음)을 묶었다. 원 문서는 델타의 노선 개시 연기를 사실 줄에 적었으나 이를 직접 뒷받침하는 독립 출처를 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "델타항공, 분쟁 속 사우디 직항 노선 개시 연기",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/delta-delays-nonstop-service-to-saudi-arabia-amid-conflict",
+   "s": "델타항공이 분쟁이 이어지는 가운데 사우디 직항 노선 개시를 미루면서 미국 항공사의 사우디 노선 확대 계획이 멈췄다"
+  },
+  {
+   "t": "델타, 리야드 공항 공격 뒤 애틀랜타-리야드 노선 연기",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/delta-pushes-back-atlanta-riyadh-service-after-riyadh-airport-attacks-2026-10-12/",
+   "s": "델타가 리야드 공항 공격 뒤 애틀랜타-리야드 노선 개시를 연기하면서 사우디 항공 수요 회복이 늦어질 수 있다"
+  }
+ ],
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "델타 애틀랜타-리야드 직항 개시 연기"
+  }
+ ]
+}

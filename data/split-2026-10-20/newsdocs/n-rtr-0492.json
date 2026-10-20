@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0492",
+ "num": 492,
+ "key": "split-G4-038-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/spains-final-12-month-eu-harmonised-inflation-5-september-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스페인 통계청, 9월 EU 기준 소비자물가 확정치 발표",
+ "headline": "스페인 통계청, 9월 EU 기준 소비자물가 확정치 발표",
+ "one": "스페인 통계청이 9월 EU 기준 12개월 소비자물가 상승률 확정치를 내면서, 독일 3.3%·프랑스 3.4%에 이어 유로존 주요국의 9월 물가 흐름을 가늠할 자료가 하나 더해졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 스페인 통계청이 9월 EU 기준 12개월 물가 상승률 확정치를 발표했다(10월 14일 로이터) [제목]",
+  "비교: 같은 9월 독일 소비자물가는 3.3%, 프랑스 EU 기준 물가는 3.4%였다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 14일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 제목·요약에 스페인 수치가 없어 수치는 쓰지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "스페인 9월 EU 기준 12개월 물가 상승률 확정치 발표",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/spains-final-12-month-eu-harmonised-inflation-5-september-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "스페인 9월 물가 확정치 발표, 수치 미확인"
+  }
+ ]
+}

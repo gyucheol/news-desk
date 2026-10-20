@@ -1,0 +1,171 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터 14건(10월 7~17일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 사실 줄의 추가 인상론·신중론([사실])과 출처 목록의 심쿠스(Briefs)·나겔(GuruFocus)·라가르드(Shafaqna) 보도를 근거로 붙였다. 지그만·레인·파차리데스 발언은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 분쉬 벨기에 중앙은행 총재와 심쿠스 리투아니아 중앙은행 총재는 10월 14일 ECB가 다시 금리를 올려야 할 것이라며 이달 인상도 배제하지 않았고, 나겔 분데스방크 총재도 16일 추가 인상 가능성을 배제할 수 없다고 했다 [사실]",
+  "앞선 발언: 돌렌츠 슬로베니아 중앙은행 총재는 8일 인플레이션 상방 위험에 ECB의 추가 인상이 필요할 수 있다고 했다 [사실]",
+  "신중론: 돌렌츠는 15일 채권시장 긴장으로 금융 여건이 조여지면 ECB가 덜 올려도 될 수 있다고 했고, 카작스 라트비아 중앙은행 총재는 물가 압력은 더 세겠지만 서두를 필요가 없다고 했다 [사실]",
+  "라가르드: 라가르드 총재는 17일 장기금리 급등으로 금융 여건이 조여져 성장과 물가 전가가 9월 전망보다 더 둔화할 것이라고 봤다 [사실]",
+  "그 밖: 지그만은 다음 회의에서 매우 치열한 논의를 예상했고, 레인은 이란 전쟁에 절제된 대응을 유지할 수 있다고, 파차리데스는 금리를 올려도 추가 충격을 막을 수 없다고 했으며, 라가르드는 14일 물가의 2차 파급 효과가 아직 안 보인다고 했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ECB 위원 발언 엇갈려…분쉬·심쿠스·나겔 추가 인상론, 라가르드·카작스는 신중",
+ "id": "n-bbg-0104",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "ECB 돌렌츠 '현 금리가 다음 결정에 유연성 제공'",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions",
+   "s": "ECB 돌렌츠가 현 금리 수준이 다음 결정에서 유연성을 준다고 말하면서 추가 인상을 서두르지 않을 여지를 남겼다 (제목 기준)"
+  },
+  {
+   "t": "돌렌츠 'ECB 금리로 가격 충격 확산 막을 수 있다'",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-rates-can-prevent-price-shock-from-spreading-dolenc-says",
+   "s": "돌렌츠가 ECB 금리로 가격 충격 확산을 막을 수 있다고 밝히면서 금리 정책의 물가 억제 효과를 강조했다 (제목 기준)"
+  },
+  {
+   "t": "ECB 정책위원 돌렌츠 로이터 인터뷰",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/markets/us/reuters-interview-with-ecb-policymaker-dolenc-2026-10-08/",
+   "s": "로이터가 ECB 정책위원 돌렌츠와의 인터뷰를 전하면서 그가 보는 유로존 금리 경로에 대한 견해가 시장에 알려졌다 (제목 기준)"
+  },
+  {
+   "t": "돌렌츠 '인플레이션 상방 위험에 ECB 추가 인상 필요할 수도'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/europe/with-inflation-risks-upside-ecb-may-need-hike-more-dolenc-says-2026-10-08/",
+   "s": "돌렌츠 슬로베니아 중앙은행 총재가 인플레이션 상방 위험을 이유로 ECB의 추가 인상이 필요할 수 있다고 말하면서 매파적 신호를 보냈다"
+  },
+  {
+   "t": "ECB 지그만 '다음 회의에서 매우 치열한 논의 예상'",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-s-zigman-sees-very-intensive-discussion-at-next-meeting",
+   "s": "ECB 지그만이 다음 회의에서 매우 치열한 논의가 예상된다고 밝히면서 추가 인상을 둘러싼 위원 간 이견이 드러났다 (제목 기준)"
+  },
+  {
+   "t": "레인 'ECB, 이란 전쟁에 절제된 대응 유지 가능'",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-can-stick-with-measured-response-to-iran-war-lane-says",
+   "s": "레인이 ECB가 이란 전쟁에 절제된 대응을 유지할 수 있다고 말하면서 단기 추가 인상 기대가 낮아질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "파차리데스 'ECB 금리 인상으로 추가 충격 막을 수 없어'",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/ecb-s-higher-rates-can-t-prevent-more-shocks-patsalides-says",
+   "s": "파차리데스가 ECB가 금리를 올려도 추가 충격을 막을 수는 없다고 말하면서 금리 인상 효과에 대한 신중론이 더해졌다 (제목 기준)"
+  },
+  {
+   "t": "라가르드 'ECB, 물가 2차 파급 효과 아직 안 보여'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-not-seeing-second-round-inflation-effects-lagarde-says",
+   "s": "라가르드 ECB 총재가 물가의 2차 파급 효과가 아직 보이지 않는다고 말하면서, 에너지값 급등이 임금·근원물가로 번졌다는 근거는 없다는 판단을 내놨다 (제목 기준)"
+  },
+  {
+   "t": "분쉬 'ECB, 아마 다시 금리 올려야 할 것'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-will-probably-have-to-hike-interest-rates-again-wunsch-says",
+   "s": "분쉬 벨기에 중앙은행 총재가 ECB가 아마 다시 금리를 올려야 할 것이라고 말하면서, 10월 인상도 배제하지 않아 추가 긴축 기대를 키웠다"
+  },
+  {
+   "t": "심쿠스 'ECB, 물가 압력이 추가 긴축 가리켜'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-s-simkus-says-inflation-pressures-point-to-more-tightening",
+   "s": "심쿠스 리투아니아 중앙은행 총재가 물가 압력이 추가 긴축을 가리킨다고 말하면서, 이달 인상도 배제할 수 없다며 추가 인상론에 힘을 보탰다"
+  },
+  {
+   "t": "돌렌츠 '시장이 긴축하면 ECB는 덜 해도 될 수도'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-may-not-have-to-do-as-much-if-markets-tighten-dolenc-says",
+   "s": "돌렌츠 슬로베니아 중앙은행 총재가 채권시장 긴장으로 금융 여건이 조여지면 ECB가 덜 올려도 될 수 있다고 말하면서, 국채 금리 상승이 인상 폭을 줄일 변수로 떠올랐다"
+  },
+  {
+   "t": "카작스 '상반된 경제 힘 속 ECB 서두를 필요 없어'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-in-no-rush-to-act-amid-opposing-economic-forces-kazaks-says",
+   "s": "카작스 라트비아 중앙은행 총재가 당분간 물가 압력은 더 세겠지만 서둘러 움직일 필요는 없다고 말하면서, 10월 회의의 즉각 인상 기대를 낮췄다"
+  },
+  {
+   "t": "나겔 'ECB 다시 인상해야 할 가능성 배제 못 해'",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/nagel-says-he-can-t-exclude-that-ecb-may-need-to-hike-again",
+   "s": "나겔 분데스방크 총재가 ECB가 다시 금리를 올려야 할 가능성을 배제할 수 없다고 말하면서, 독일 중앙은행도 추가 인상론에 힘을 실었다"
+  },
+  {
+   "t": "라가르드 'ECB, 국채 매도세가 물가를 둔화시킬 것'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/",
+   "s": "라가르드 총재가 장기금리 급등으로 금융 여건이 조여졌다고 하면서, 성장과 물가 전가가 9월 전망보다 더 둔화할 것이라고 봤다"
+  }
+ ],
+ "key": "bnd-C014-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "num": 104,
+ "one": "분쉬·심쿠스·나겔 등 ECB 위원들이 10월 중순 잇따라 추가 인상 가능성을 열었지만, 라가르드 총재는 국채 매도로 금융 여건이 조여져 물가가 둔화할 것이라 하고 돌렌츠·카작스는 속도 조절론을 펴면서 다음 인상 시점을 둘러싼 이견이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:44:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-14",
+   "u": "https://www.briefs.co/news/ecb-s-simkus-says-another-rate-hike-is-still-on-the-table/"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-16",
+   "u": "https://www.gurufocus.com/news/9126923/european-central-bank-may-raise-rates-again-says-joachim-nagel"
+  },
+  {
+   "o": "Shafaqna",
+   "d": "2026-10-17",
+   "u": "https://en.shafaqna.com/485588/ecb-bond-selloff-lagarde-inflation/"
+  }
+ ],
+ "tags": [],
+ "title": "ECB 위원 발언 엇갈려…분쉬·심쿠스·나겔 추가 인상론, 라가르드·카작스는 신중",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "분쉬·심쿠스·나겔, ECB 추가 인상 가능성 열어"
+  },
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "장기금리 급등에 유로존 금융 여건 긴축"
+  }
+ ]
+}

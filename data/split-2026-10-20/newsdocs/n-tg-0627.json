@@ -1,0 +1,64 @@
+{
+ "id": "n-tg-0627",
+ "num": 627,
+ "key": "split-G4-128-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/65719",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "FT '이란 전쟁, 영국 재정에 120억 파운드 구멍'…힐리 재정 여력 반토막",
+ "headline": "FT '이란 전쟁, 영국 재정에 120억 파운드 구멍'…힐리 재정 여력 반토막",
+ "one": "FT가 이란 전쟁이 영국 공공 재정에 약 120억 파운드 구멍을 냈다고 추산하면서 힐리 재무장관의 재정 여력이 절반으로 줄어, 10월 28일 예산안의 편성 여력이 좁아질 전망이다",
+ "facts": [
+  "무엇이: 10월 8일 FT는 이란 전쟁이 영국 공공 재정에 약 120억 파운드 구멍을 냈다고 보도했다 [사실]",
+  "재정 여력: 채널은 이 손실로 힐리 재무장관의 재정 여력이 반토막 났다고 전했다 [채널]",
+  "금리 배경: 전날 30년물 국채금리는 6.02%로 1998년 이후 최고였고, 이날 10년물 차입 비용도 유가 급등에 19년 만의 최고로 올랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 미국 주식 인사이더 1건. 원 문서 사실에서 FT의 약 120억 파운드 추산은 [사실]이며, 출처 목록의 FT 게시물과 Newsquawk 헤드라인(재정 여력 절반 감소 포함)이 뒷받침",
+ "src": [
+  {
+   "o": "Financial Times(X 게시물)",
+   "d": "2026-10-08",
+   "u": "https://x.com/FT/status/2107926187213209839"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/the-iran-war-has-blown-a-near-gbp-12bln-hole-in-uk-public-finances-according-to-ft-estimates-slashing-chancellor-healeys-headroom-in-half-and-forcing-him-to-lean-on-budget-tax-rises-and-spending-cuts-to-fund-efforts-to-ease-the-cost-of-living"
+  }
+ ],
+ "items": [
+  {
+   "t": "FT '이란 전쟁, 영국 재정에 120억 파운드 구멍'…재정 여력 반토막",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65719"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "이란 전쟁에 영국 재정 120억 파운드 구멍"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

@@ -1,0 +1,82 @@
+{
+ "basis": "partial",
+ "check": "텔레그램 3건(TNBfolio, 하나증권 중국전략, 미국 주식 인사이더)을 묶음. 출처 목록의 TrendForce·Tech Times(한국 대상 부품값 10% 인상, 2027년 1월 적용)가 핵심을 뒷받침하고, 통보 경위·고객 수용·평가는 원 문서에서 채널로 표시",
+ "cycles": [],
+ "facts": [
+  "무엇이: ASML은 한국에 공급하는 노광장비 부품값을 일괄 10% 올려 2027년 1월부터 적용하기로 했다 [사실]",
+  "범위·경위: 인상은 광학 시스템·광원을 포함한 EUV·DUV 전 부품에 적용되며, 지난달 초 한국 법인을 통해 통보한 뒤 협의를 거쳐 확정됐다 [채널]",
+  "고객: 삼성전자·SK하이닉스는 인상을 받아들였다 [채널]",
+  "평가: 반도체 공급망의 가격 결정권이 고객사에서 장비업체로 넘어가고 있고, 동시 증설로 빠듯한 소모품 분야까지 공급 부족이 넓어질 전망이라는 평가가 나왔다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ASML, 노광장비 전 부품값 10% 인상 확정…삼성전자·SK하이닉스 수용",
+ "id": "n-tg-0233",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "semis",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "ASML, 한국 공급 장비 교체 부품값 일괄 10% 인상…내년 1월 적용",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-10",
+   "u": "https://t.me/TNBfolio/71491",
+   "s": "ASML이 한국향 노광장비 부품값을 일괄 10% 올리면서, 반도체 공급망의 가격 결정권이 고객사에서 장비업체로 넘어가고 있다는 평가가 나왔다"
+  },
+  {
+   "t": "ASML, 장비 부품값 10% 인상…삼성전자·SK하이닉스 수용",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-10",
+   "u": "https://t.me/HANAchina/70181",
+   "s": "삼성전자·SK하이닉스가 ASML의 부품값 10% 인상을 받아들이면서, 동시 증설로 빠듯한 소모품 분야까지 공급 부족이 넓어질 전망이다"
+  },
+  {
+   "t": "ASML, EUV·DUV 전체 부품 10% 인상 확정…광학·광원 등 포함",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-11",
+   "u": "https://t.me/insidertracking/65952",
+   "s": "ASML이 지난달 초 한국 법인을 통해 통보한 인상안을 협의 끝에 확정하면서, 광학 시스템·광원 등 노광장비 전 부품의 값이 오르게 됐다"
+  }
+ ],
+ "key": "mix-C051-2026-10-13",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 233,
+ "one": "ASML이 지난달 초 한국 법인을 통해 통보한 EUV·DUV 노광장비 전 부품값 10% 인상을 협의 끝에 확정해 내년 1월부터 적용하고 삼성전자·SK하이닉스가 이를 받아들이면서, 동시 증설로 빠듯한 소모품까지 공급 부족이 넓어질 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T11:43:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "TrendForce",
+   "d": "2026-10-12",
+   "u": "https://www.trendforce.com/news/2026/10/12/news-asml-reportedly-plans-10-parts-price-hike-in-south-korea-starting-jan-2027-equipment-prices-may-also-rise/"
+  },
+  {
+   "o": "Tech Times",
+   "d": "2026-10-12",
+   "u": "https://www.techtimes.com/articles/328933/20261012/asml-forces-first-ever-blanket-parts-hike-samsung-sk-hynix-january.htm"
+  }
+ ],
+ "tags": [],
+ "title": "ASML, 노광장비 전 부품값 10% 인상 확정…삼성전자·SK하이닉스 수용",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://t.me/TNBfolio/71491",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "ASML 노광장비 전 부품값 10% 인상 확정"
+  }
+ ],
+ "channel": "TNBfolio"
+}

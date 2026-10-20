@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0605",
+ "num": 605,
+ "key": "split-G6-153-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "버지니아, 넥스트에라-도미니언 인수 승인 조건으로 6년 요금 동결 요구",
+ "headline": "버지니아, 넥스트에라-도미니언 인수 승인 조건으로 6년 요금 동결 요구",
+ "one": "버지니아주가 넥스트에라의 도미니언 인수 승인 조건으로 6년간 전력요금 동결을 요구하면서, 합병 회사의 요금 인상 여지가 좁아지고 전력회사 수익이 묶일 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 버지니아주는 넥스트에라-도미니언 거래에서 6년간 전력요금 동결을 원한다 [제목]",
+  "영향: 합병 회사의 요금 인상 여지가 좁아질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 20일). 원 문서 확인 기록에서도 버지니아 요금 동결 요구는 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "버지니아, 넥스트에라-도미니언 거래에 6년 요금 동결 요구",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal"
+  }
+ ],
+ "inds": [
+  "utilities"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "regulator",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "버지니아, 도미니언 합병에 요금 6년 동결 요구"
+  }
+ ]
+}

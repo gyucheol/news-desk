@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0588",
+ "num": 588,
+ "key": "split-G6-077-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T19:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/kroger-plans-to-slash-37-of-corporate-jobs-in-next-three-years",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "크로거, 3년간 본사 일자리 37% 감축…약 3,000명 줄이고 AI 도입",
+ "headline": "크로거, 3년간 본사 일자리 37% 감축…약 3,000명 줄이고 AI 도입",
+ "one": "크로거가 향후 3년간 본사 직원 약 8,200명 가운데 약 3,000명, 37%를 줄이고 업무에 AI를 들이기로 하면서, 아낀 비용을 가격 인하와 매장 직원에 돌리고 본사 조직은 크게 줄어들게 됐다",
+ "facts": [
+  "무엇이: 크로거는 향후 3년간 본사 직원 약 8,200명 중 약 3,000명(약 37%)을 줄일 계획이다 [사실]",
+  "쓰임: 크로거는 AI를 업무에 들이고 아낀 비용을 가격 인하와 매장 직원에 쓰겠다고 밝혔다 [사실]",
+  "전언: 로이터는 블룸버그를 인용해 본사 직무의 약 3분의 1을 없앨 계획이라고 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터(모두 10월 13일) 기사를 묶음. 본사 인력 37%(약 3,000명) 감원은 WVXU·GV Wire 기사가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "WVXU",
+   "d": "2026-10-12",
+   "u": "https://www.wvxu.org/local-news/2026-10-12/kroger-cut-3000-jobs-cincinnati"
+  },
+  {
+   "o": "GV Wire",
+   "d": "2026-10-12",
+   "u": "https://gvwire.com/2026/10/12/kroger-plans-to-eliminate-3000-corporate-roles-memo-shows-as-it-expands-ai-use"
+  }
+ ],
+ "items": [
+  {
+   "t": "크로거, 향후 3년간 본사 일자리 37% 감축 계획",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/kroger-plans-to-slash-37-of-corporate-jobs-in-next-three-years",
+   "s": "크로거가 향후 3년간 본사 직원 약 8,200명 중 약 3,000명을 줄이기로 하면서 AI를 업무에 들이고 아낀 비용을 가격 인하와 매장 직원에 쓰겠다고 밝혔다"
+  },
+  {
+   "t": "크로거, 3년간 본사 직무 약 3분의 1 감축 계획(블룸버그 인용)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/kroger-plans-cut-about-third-corporate-roles-over-next-three-years-bloomberg-2026-10-12/",
+   "s": "로이터가 블룸버그를 인용해 크로거가 3년간 본사 직무의 약 3분의 1을 없앨 계획이라고 전하면서 크로거 본사 조직이 크게 줄어들게 됐다"
+  }
+ ],
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "본사 감원 절감분을 가격 인하에 쓸 계획"
+  }
+ ]
+}

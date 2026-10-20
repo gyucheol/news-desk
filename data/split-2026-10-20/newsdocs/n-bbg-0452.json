@@ -1,0 +1,94 @@
+{
+ "id": "n-bbg-0452",
+ "num": 452,
+ "key": "split-G3-138-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI 우려에 반도체주 급락…필라델피아 반도체지수 8일 연속 하락",
+ "headline": "AI 우려에 반도체주 급락…필라델피아 반도체지수 8일 연속 하락",
+ "one": "AI 우려로 반도체주가 무너지며 S&P500이 16일까지 6월 이후 최악의 한 주를 보냈고 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했으며, 워시 의장 발언 뒤 10월 금리 인상 확률은 15% 아래로 내려갔다",
+ "facts": [
+  "무엇이: 블룸버그는 16일 AI 우려로 반도체주가 급락하며 S&P500이 6월 이후 최악의 한 주를 보냈다고 전했다 [사실]",
+  "반도체지수: 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했다고 코어위브는 한 주에 25% 넘게 폭락해 AI 인프라 투자 열풍이 신뢰 위기를 맞았다 [채널]",
+  "금리: 워시 의장 발언 뒤 10월 금리 인상 확률은 15% 아래로 내려갔다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 1건과 하나증권 텔레그램 1건을 묶었다. 원 문서 확인 기록에 이 사건 부분은 없으나 반도체주 주간 급락은 원 문서 출처 CBS·Asianet(나스닥100 최악 주간) 기사와 맞아 붙였고, 반도체지수 8일 연속 하락과 코어위브 낙폭은 채널 전언이다.",
+ "src": [
+  {
+   "o": "CBS News",
+   "d": "2026-10-16",
+   "u": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+  },
+  {
+   "o": "Asianet Newsable",
+   "d": "2026-10-16",
+   "u": "https://newsable.asianetnews.com/markets/nasdaq-100-records-worst-week-in-18-months-as-investors-steer-clear-of-chipmakers-aapl-mstr-uber-soxx-in-focus-articleshow-xcdkcz2"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 우려에 반도체주 급락…S&P500 6월 이후 최악의 한 주",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold",
+   "s": "AI 우려로 반도체주가 무너지면서 S&P500이 6월 이후 최악의 한 주를 보냈고, 워시 의장 발언 뒤 10월 금리 인상 확률은 15% 아래로 내려갔다"
+  },
+  {
+   "t": "필라델피아 반도체지수 8일 연속 하락, 2008년 이후 최장",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70539",
+   "s": "필라델피아 반도체지수가 2008년 이후 최장인 8거래일 연속 하락하고 코어위브가 한 주에 25% 넘게 폭락하면서 AI 인프라 투자 열풍이 신뢰 위기를 맞았다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "필라델피아 반도체지수 8거래일 연속 하락"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "워시 발언 뒤 10월 인상 확률 15% 아래로"
+  }
+ ],
+ "fed": [
+  {
+   "k": "Warsh",
+   "who": "케빈 워시",
+   "role": "의장",
+   "kind": "관련 뉴스",
+   "stance": "중립",
+   "t": "워시 의장 발언 뒤 10월 금리 인상 확률이 15% 아래로 내려가 동결 기대가 커졌다",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
+  }
+ ],
+ "ind": "semis"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0378",
+ "num": 378,
+ "key": "split-G1-041-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "공격 이후 호르무즈 통항 두 달여 만에 최저…데이터",
+ "headline": "공격 이후 호르무즈 통항 두 달여 만에 최저…데이터",
+ "one": "선박 공격이 잇따른 뒤 호르무즈 해협 통항 건수가 9일 두 달여 만에 최저로 줄었다는 데이터가 나오면서, 해협을 통한 원유와 화물 수송이 위축됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 선박 공격 이후 호르무즈 통항 건수가 두 달여 만에 최저로 줄었다 [제목]",
+  "이후: UKMTO는 10월 16일로 끝난 한 주에 호르무즈 10건 등 12건의 공격을 집계했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "공격 이후 호르무즈 통항 두 달여 만에 최저…데이터",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "호르무즈 통항 두 달여 만에 최저"
+  }
+ ]
+}

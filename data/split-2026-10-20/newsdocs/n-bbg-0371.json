@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0371",
+ "num": 371,
+ "key": "split-G1-028-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/saudis-in-talks-to-formalize-hormuz-shuttles-in-fight-for-market",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디, 시장 쟁탈전 속 호르무즈 셔틀 운항 공식화 협의",
+ "headline": "사우디, 시장 쟁탈전 속 호르무즈 셔틀 운항 공식화 협의",
+ "one": "사우디가 8일 시장 쟁탈전 속에 호르무즈 셔틀 운항을 공식화하는 협의에 나서면서, 선박 공격이 이어지는 해협에서 환적 방식의 원유 수출이 제도화될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 사우디가 시장 쟁탈전 속에 호르무즈 셔틀 운항을 공식화하는 협의에 나섰다 [제목]",
+  "의미: 환적 방식의 원유 수출이 제도화될 수 있다 [제목]",
+  "배경: UKMTO는 10월 16일로 끝난 한 주에 호르무즈 10건 등 12건의 공격을 집계했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디, 시장 쟁탈전 속 호르무즈 셔틀 운항 공식화 협의",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/saudis-in-talks-to-formalize-hormuz-shuttles-in-fight-for-market"
+  }
+ ],
+ "inds": [
+  "oil",
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "사우디, 호르무즈 셔틀 운항 공식화 협의"
+  }
+ ]
+}

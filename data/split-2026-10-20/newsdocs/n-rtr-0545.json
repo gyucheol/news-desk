@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0545",
+ "num": 545,
+ "key": "split-G5-062-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/brazil-election-reshape-trade-with-us-with-tariffs-minerals-stake-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질 대선, 관세·광물 걸린 대미 무역 관계 재편 전망",
+ "headline": "브라질 대선, 관세·광물 걸린 대미 무역 관계 재편 전망",
+ "one": "로이터가 10월 25일 결선을 앞둔 브라질 대선 결과에 따라 관세와 광물 이해가 걸린 대미 무역 관계가 다시 짜일 수 있다고 분석하면서, 선거가 브라질 대외 교역의 변수로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 브라질 대선이 관세와 광물이 걸린 대미 무역 관계를 재편할 것으로 봤다 [제목]",
+  "일정: 결선은 10월 25일 룰라 대통령과 플라비우 보우소나루가 치른다 [사실]",
+  "전망: 결선 결과에 따라 관세·광물 협상의 방향이 달라질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 분석 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 결선 날짜만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 대선, 관세·광물 걸린 대미 무역 재편할 듯",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/brazil-election-reshape-trade-with-us-with-tariffs-minerals-stake-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "metals"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "대선 결과에 대미 관세·광물 무역 재편 전망"
+  }
+ ]
+}

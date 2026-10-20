@@ -1,0 +1,86 @@
+{
+ "basis": "verified",
+ "check": "텔레그램·블룸버그·로이터 3건을 묶음. AEP의 구글용 702MW 연료전지·40억 달러·2028년 말 가동은 AEP 발표·PR Newswire·DCD로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: AEP는 구글과의 20년 전력 공급 계약에 따라 와이오밍에 블룸에너지 연료전지 702MW를 약 40억 달러에 지어 2028년 말 가동할 계획이다 [사실]",
+  "규모: 아마존·콜로직스용에 이은 AEP 최대 규모의 블룸 연료전지 설비다 [사실]",
+  "공급 계약: 이번 투자로 블룸에너지의 최대 1GW 공급 계약 물량이 실제 발전소로 이어지게 됐다 [사실]",
+  "배경: GE 베르노바 가스터빈은 2030년 물량까지 매진되고 계통 접속 대기가 5년 넘게 늘어 데이터센터 자가발전 수요가 커지고 있다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AEP, 구글용 블룸에너지 연료전지 702MW에 40억 달러 투자",
+ "id": "n-rtr-0283",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "AEP, 구글 공급용 블룸에너지 702MW 연료전지에 40억 달러 투자",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66238",
+   "s": "AEP가 구글과의 20년 전력 공급 계약에 따라 와이오밍에 블룸에너지 연료전지 702MW를 약 40억 달러에 지어 데이터센터에 전기를 대기로 했다"
+  },
+  {
+   "t": "AEP, 연료전지에 40억 달러 투입해 구글에 전력 공급",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/aep-to-sell-power-to-google-from-4-billion-fuel-cell-project",
+   "s": "AEP가 아마존·콜로직스용에 이어 자사 최대 규모의 블룸 연료전지 설비를 구글용으로 짓기로 해 데이터센터 현장 발전 수요가 커졌다"
+  },
+  {
+   "t": "아메리칸일렉트릭파워, 구글 전력용 연료전지 사업에 40억 달러 투자",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/american-electric-power-to-invest-4-billion-fuel-cell-project-power-google-2026-10-14/",
+   "s": "AEP가 2028년 말 가동을 목표로 구글용 연료전지 사업에 40억 달러를 투자하면서 블룸에너지의 최대 1GW 공급 계약 물량이 실제 발전소로 이어지게 됐다"
+  }
+ ],
+ "key": "mix-C023-2026-10-14",
+ "nodes": [
+  "power/gen",
+  "power/demand"
+ ],
+ "num": 283,
+ "one": "AEP가 구글과의 20년 전력 공급 계약에 따라 와이오밍에 블룸에너지 연료전지 702MW를 약 40억 달러에 지어 2028년 말 가동하기로 하면서, 블룸에너지의 최대 1GW 공급 계약 물량이 실제 발전소로 이어지고 데이터센터 현장 발전 수요가 커졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-17T20:05:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "AEP",
+   "d": "2026-10-14",
+   "u": "https://www.aep.com/news/stories/view/12314/"
+  },
+  {
+   "o": "PR Newswire",
+   "d": "2026-10-14",
+   "u": "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html"
+  },
+  {
+   "o": "DCD",
+   "d": "2026-10-14",
+   "u": "https://www.datacenterdynamics.com/en/news/google-signs-20-year-ppa-with-aep-for-702mw-wyoming-fuel-cell-project/"
+  }
+ ],
+ "tags": [],
+ "title": "AEP, 구글용 블룸에너지 연료전지 702MW에 40억 달러 투자",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://t.me/insidertracking/66238",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "AEP, 구글용 블룸 연료전지 702MW에 40억 달러"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

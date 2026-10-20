@@ -1,0 +1,79 @@
+{
+ "id": "n-bbg-0511",
+ "num": 511,
+ "key": "split-G4-145-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/imf-s-tenreyro-tells-uk-to-stay-the-course-on-fiscal-plans",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF '영국, 재정건전화 계획 고수해야…가속 권고는 아냐'",
+ "headline": "IMF '영국, 재정건전화 계획 고수해야…가속 권고는 아냐'",
+ "one": "텐레이로 IMF 수석이코노미스트가 10월 13일 영국이 재정건전화를 시작했다며 계획을 고수하라고 한 데 이어 14일 발데스 재정국장이 가속이 아니라 기존 경로를 지키라는 뜻이라고 밝히면서, 예산안은 급격한 긴축보다 계획 유지에 무게를 둘 수 있다",
+ "facts": [
+  "무엇이: 10월 13일 텐레이로 IMF 수석이코노미스트는 영국이 재정건전화를 시작했다며 재정계획을 고수하라고 했다 [사실]",
+  "평가: 블룸버그는 부채가 많은 영국이 재정건전화 착수로 IMF의 칭찬을 받았다고 짚었다 [제목]",
+  "해명: 10월 14일 발데스 IMF 재정국장은 영국에 건전화 가속을 권고하는 것이 아니라 기존 경로를 지키라는 뜻이라고 밝혔다 [사실]",
+  "배경: IMF는 영국 성장률이 올해 1.3%에서 내년 1.2%로 둔화한다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건과 로이터 1건을 묶음. 원 문서 사실의 IMF 기존 경로 고수 권고는 [사실]이며 출처 목록의 The National·IndexBox가 뒷받침. IMF 칭찬 기사는 제목 기준",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-13",
+   "u": "https://www.thenationalnews.com/business/economy/2026/10/13/imf-urges-uk-to-stay-course-on-deficit-reduction/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-14",
+   "u": "https://www.indexbox.io/blog/imf-warns-uk-to-stay-on-deficit-reduction-path-ahead-of-healeys-budget/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF 텐레이로 수석이코노미스트 \"영국, 재정계획 고수해야\"",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/imf-s-tenreyro-tells-uk-to-stay-the-course-on-fiscal-plans",
+   "s": "텐레이로 IMF 수석이코노미스트가 영국이 재정건전화를 시작했다며 계획을 고수하라고 하면서, 부채 안정 경로 유지를 주문했다"
+  },
+  {
+   "t": "막대한 빚을 진 영국이 IMF로부터 칭찬받는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/why-heavily-indebted-britain-is-getting-praise-from-the-imf",
+   "s": "IMF가 부채가 많은 영국의 재정건전화 착수를 높이 평가하면서 예산안에서 계획 고수 압력이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "IMF '영국에 재정건전화 가속을 권고하는 것 아니다'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/europe/imf-says-it-is-not-recommending-faster-uk-fiscal-consolidation-2026-10-14/",
+   "s": "IMF 발데스 재정국장이 영국에 건전화 속도를 높이라는 게 아니라 기존 경로를 지키라는 뜻이라고 밝히면서, 예산안이 급격한 긴축보다 계획 유지에 무게를 둘 수 있다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "IMF, 영국에 기존 재정건전화 경로 고수 주문"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0497",
+ "num": 497,
+ "key": "split-G4-119-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/britain-s-consumers-are-turning-cautious-as-cost-pressures-mount",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 소비자들, 생활비 압박 커지며 지출에 점점 신중",
+ "headline": "영국 소비자들, 생활비 압박 커지며 지출에 점점 신중",
+ "one": "8월 GDP가 제조업에 기대 0.1% 늘어난 가운데 영국 소비자들이 생활비 압박이 커지자 지출에 점점 신중해지면서, 가계 소비가 성장에 기여할 여력이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 영국 소비자들이 비용 압박이 커지며 지출에 점점 신중해지고 있다(10월 15일 블룸버그) [제목]",
+  "배경: 같은 날 발표된 8월 GDP 0.1% 증가는 서비스업이 아니라 제조업 생산 1.2% 증가가 이끌었다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 15일)이다. 원 문서 확인 기록에 소비자 지출 부분이 없어 기사 제목 기준이고, GDP 수치는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "영국 소비자들, 비용 압박 커지며 지출에 점점 신중",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/britain-s-consumers-are-turning-cautious-as-cost-pressures-mount"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "비용 압박에 영국 소비자 지출 신중"
+  }
+ ]
+}

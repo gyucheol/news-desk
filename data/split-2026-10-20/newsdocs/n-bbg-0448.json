@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0448",
+ "num": 448,
+ "key": "split-G3-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "저커버그, 메타 2,000억 달러 AI 베팅에 \"확신 없었다\" 인정",
+ "headline": "저커버그, 메타 2,000억 달러 AI 베팅에 \"확신 없었다\" 인정",
+ "one": "저커버그가 메타의 1,000억~2,000억 달러 AI 투자를 성공 확신 없이 결정했다고 인정하면서, 빅테크 AI 자본지출의 회수 불확실성이 부각되고 AI 투자 회수를 둘러싼 시장의 의문이 커졌다",
+ "facts": [
+  "무엇이: 블룸버그는 10월 14일 저커버그가 메타의 1,000억~2,000억 달러 AI 투자를 성공 확신 없이 결정했다고 인정했다고 전했다 [사실]",
+  "의미: 빅테크 AI 자본지출의 회수 불확실성이 부각됐다 [사실]",
+  "배경: 같은 시기 세계 반도체주 매도가 번졌고 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건이다. 원 문서 확인 기록에 이 사건 부분은 없으나 원 문서 출처 Quartz·The Next Web 기사가 같은 저커버그 발언을 다뤄 붙였다.",
+ "src": [
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/zuckerberg-meta-ai-spending-uncertainty-muse-wonder-101326"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-13",
+   "u": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt"
+  }
+ ],
+ "items": [
+  {
+   "t": "저커버그, 메타의 2,000억 달러 AI 베팅에 확신 없었다고 인정",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "메타 2,000억 달러 AI 투자 회수 불확실"
+  }
+ ],
+ "ind": "semis"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "n-tg-0618",
+ "num": 618,
+ "key": "split-G4-090-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63626",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"특정 수준의 인플레이션이 부채 빠르게 갚는 데 도움\"",
+ "headline": "트럼프 \"특정 수준의 인플레이션이 부채 빠르게 갚는 데 도움\"",
+ "one": "트럼프가 10월 10일 특정 수준의 인플레이션이 국가부채를 매우 빠르게 갚는 데 도움이 된다고 공개 발언하면서, 채널은 이를 물가로 빚 부담을 줄이는 재정 지배의 공개 선언으로 봤다",
+ "facts": [
+  "무엇이: 트럼프는 특정 수준의 인플레이션이 국가부채를 매우 빠르게 갚는 데 도움이 된다고 말했다 [사실]",
+  "해석: 채널은 이 발언을 재정 지배의 공개 선언으로 봤다 [채널]",
+  "배경: 미국 국가부채는 40조 달러를 넘었다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 Polaristimes 글 1건. 원 문서 독립 출처 Hokanews·The Financial District가 같은 트럼프 발언을 다뤄 발언 자체는 이를 근거로 삼았고, 재정 지배 해석은 채널 의견",
+ "src": [
+  {
+   "o": "Hokanews",
+   "d": "2026-10",
+   "u": "https://www.hokanews.com/2026/10/trump-says-inflation-could-pay-down-40.html"
+  },
+  {
+   "o": "The Financial District",
+   "d": "2026-10",
+   "u": "https://www.thefinancialdistrict.com.ph/post/trump-says-certain-levels-of-inflation-could-help-pay-down-u-s-debt"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 '특정 수준의 인플레이션이 부채 빠르게 갚는 데 도움'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63626"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "트럼프, 일정 인플레이션이 부채 상환에 도움 발언"
+  }
+ ],
+ "channel": "Polaristimes"
+}

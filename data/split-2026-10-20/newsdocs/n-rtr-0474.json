@@ -1,0 +1,66 @@
+{
+ "id": "n-rtr-0474",
+ "num": 474,
+ "key": "split-G3-082-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/retail-consumer/global-smartphone-shipments-record-worst-third-quarter-14-years-amid-memory-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "메모리 부족에 세계 3분기 스마트폰 출하 약 20% 급감…14년 만의 최악",
+ "headline": "메모리 부족에 세계 3분기 스마트폰 출하 약 20% 급감…14년 만의 최악",
+ "one": "메모리 부족 속에 세계 3분기 스마트폰 출하가 1년 전보다 약 20% 줄어 14년 만의 최악을 기록하고 샤오미 출하는 30% 넘게 줄면서, 메모리 원가 상승이 기기 판매량을 끌어내리고 있다",
+ "facts": [
+  "무엇이: 10월 13일 로이터는 메모리 부족 속에 세계 3분기 스마트폰 출하가 약 20% 줄어 14년 만의 최악이었다고 전했다 [사실]",
+  "업체별: 샤오미 출하는 30% 넘게 줄었다 [사실]",
+  "중국: 같은 분기 중국 출하는 IDC 기준 15.4%, 옴디아 기준 12% 줄었다 [사실]",
+  "해석: 메모리 가격 상승이 기기 값 인상으로 이어지면서 수요 위축이 길어질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 원 문서 사실의 세계 3분기 출하 약 20% 감소·샤오미 30% 이상 감소는 [사실]이며 출처 목록의 Developing Telecoms·Analytics Insight가 뒷받침",
+ "src": [
+  {
+   "o": "Developing Telecoms",
+   "d": "2026-10-12",
+   "u": "https://www.developingtelecoms.com/telecom-technology/telecom-devices-platforms/20954-global-smartphone-shipments-fall-20-as-memory-costs-push-up-prices.html"
+  },
+  {
+   "o": "Analytics Insight",
+   "d": "2026-10-12",
+   "u": "https://www.analyticsinsight.net/news/global-smartphone-market-slumps-as-memory-chip-shortage-drives-up-prices"
+  }
+ ],
+ "items": [
+  {
+   "t": "메모리 부족 속 세계 스마트폰 출하, 14년 만의 최악 3분기",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/retail-consumer/global-smartphone-shipments-record-worst-third-quarter-14-years-amid-memory-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "세계 3분기 스마트폰 출하 약 20% 감소"
+  }
+ ],
+ "ind": "semis"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0573",
+ "num": 573,
+ "key": "split-G5-152-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-says-saudi-buffers-energy-backup-blunt-economic-blow",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF '사우디, 완충력·에너지 우회로로 전쟁 타격 완화'…올해 3.3% 역성장",
+ "headline": "IMF '사우디, 완충력·에너지 우회로로 전쟁 타격 완화'…올해 3.3% 역성장",
+ "one": "IMF가 15일 사우디를 다변화된 수출 경로 덕에 역내에서 전쟁 타격이 가장 작은 나라로 보면서도 올해 3.3% 역성장 뒤 내년 반등을 전망해, 사우디 경제가 완충력과 우회 수출로 버틸 수 있다는 평가가 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 15일 사우디가 완충력과 에너지 우회로로 경제 타격을 줄이고 있다며 다변화된 수출 경로 덕에 역내에서 타격이 가장 작은 나라로 봤다 [사실]",
+  "전망: IMF는 사우디가 올해 3.3% 역성장한 뒤 내년에 반등할 것으로 전망했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 사우디 전망을 직접 뒷받침하는 독립 출처를 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF '사우디, 완충력·에너지 우회로로 경제 타격 완화'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/imf-says-saudi-buffers-energy-backup-blunt-economic-blow"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 사우디 올해 3.3% 역성장 뒤 반등 전망"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0455",
+ "num": 455,
+ "key": "split-G2-167-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/kremlin-accuses-ukraine-flouting-spirit-us-peace-efforts-with-strikes-russian-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "크렘린 '우크라 정유소 공격, 美 평화 노력 무시'…트럼프는 연료값 우크라 탓",
+ "headline": "크렘린 '우크라 정유소 공격, 美 평화 노력 무시'…트럼프는 연료값 우크라 탓",
+ "one": "크렘린이 우크라이나의 정유소 공격이 미국 평화 노력의 취지를 무시한다고 비난하고 트럼프 대통령은 비싼 연료값을 우크라이나 탓으로 돌리면서, 정유시설 공격 재개를 둘러싼 책임 공방이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 크렘린은 15일 우크라이나가 정유소 공격으로 미국 평화 노력의 취지를 무시한다고 비난했다 [제목]",
+  "공방: 러시아는 우크라이나의 정유소 공격을 부각했고 트럼프 대통령은 비싼 연료값을 우크라이나 탓으로 돌렸다 [제목]",
+  "연료값: 미국 경유 평균가는 갤런당 6.18달러로 올랐다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준이고, 경유 평균가는 원 문서 채널 사실에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "크렘린 '우크라, 정유소 공격으로 미국 평화 노력 취지 무시'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/kremlin-accuses-ukraine-flouting-spirit-us-peace-efforts-with-strikes-russian-2026-10-15/",
+   "s": "크렘린이 우크라이나의 정유소 공격이 미국 평화 노력의 취지를 무시한다고 비난하면서 에너지 휴전을 둘러싼 책임 공방이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "러시아, 정유소 공격 부각…트럼프는 비싼 연료값 우크라 탓",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/russia-talks-up-refinery-attack-trump-blames-ukraine-expensive-fuel-2026-10-16/",
+   "s": "러시아가 우크라이나의 정유소 공격을 부각하고 트럼프 대통령이 비싼 연료값을 우크라이나 탓으로 돌리면서, 공격 재개를 둘러싼 공방이 커지고 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "미국 경유 평균가 갤런당 6.18달러로 상승"
+  }
+ ]
+}

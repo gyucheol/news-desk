@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0551",
+ "num": 551,
+ "key": "split-G5-073-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/turkey-submit-draft-fund-liquidation-bill-parliament-soon-lawmaker-says-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "튀르키예, 펀드 청산 법안 곧 국회 제출…투자자 약 45만 6천 명",
+ "headline": "튀르키예, 펀드 청산 법안 곧 국회 제출…투자자 약 45만 6천 명",
+ "one": "집권 정의개발당 의원이 펀드 청산의 법적 틀을 담은 법안을 며칠 안에 국회에 내겠다고 밝히면서, 운용사 7곳 펀드 131개 청산 명령으로 얽힌 투자자 약 45만 6,000명의 손실 처리 방식이 정해질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 집권 정의개발당 의원은 펀드 청산의 법적 틀을 담은 법안을 며칠 안에 국회에 내겠다고 밝혔다 [사실]",
+  "대상: 법안으로 투자자 약 45만 6,000명의 손실 처리 방식이 정해질 수 있다 [사실]",
+  "규모: 자본시장위원회는 운용사 7곳의 펀드 131개(자산 약 170억~183억 달러) 청산을 명령했고, 원 문서는 피해 개인투자자를 약 45만 5,000명으로 적어 기사와 1,000명 차이가 난다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 법안 부분이 없고 맞는 독립 출처를 고르지 못해 제목 기준으로 낮췄으며, 펀드 청산 규모만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "튀르키예, 펀드 청산 법안 곧 국회 제출…여당 의원 밝혀",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/turkey-submit-draft-fund-liquidation-bill-parliament-soon-lawmaker-says-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "펀드 청산 법적 틀 담은 법안 국회 제출 예정"
+  }
+ ]
+}

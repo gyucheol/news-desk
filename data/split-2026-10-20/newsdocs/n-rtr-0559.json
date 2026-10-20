@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0559",
+ "num": 559,
+ "key": "split-G5-084-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/indias-hdfc-life-posts-quarterly-profit-rise-higher-premium-income-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도 HDFC생명, 보험료 수입 늘어 분기 이익 증가",
+ "headline": "인도 HDFC생명, 보험료 수입 늘어 분기 이익 증가",
+ "one": "인도 생명보험사 HDFC생명이 보험료 수입 증가에 힘입어 분기 이익을 늘리면서, 인도 생명보험 수요가 이어지고 있음을 보여 줬고 보험료 수입이 보험사 실적을 받치는 흐름이 확인됐다 (제목 기준)",
+ "facts": [
+  "무엇이: HDFC생명의 분기 이익이 늘었다 [제목]",
+  "원인: 보험료 수입 증가가 이익을 받쳤다 [제목]",
+  "의미: 인도 생명보험 수요가 이어지고 있다는 신호다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "인도 HDFC생명, 보험료 수입 늘어 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/indias-hdfc-life-posts-quarterly-profit-rise-higher-premium-income-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "HDFC생명 보험료 수입 증가에 분기 이익 증가"
+  }
+ ]
+}

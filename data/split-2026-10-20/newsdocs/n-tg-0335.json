@@ -1,0 +1,78 @@
+{
+ "id": "n-tg-0335",
+ "num": 335,
+ "key": "split-G1-034-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70047",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 국방부, 이란 대규모 공격 재개 준비 지시…트럼프 '합의 원치 않아'",
+ "headline": "美 국방부, 이란 대규모 공격 재개 준비 지시…트럼프 '합의 원치 않아'",
+ "one": "미 국방부가 중부사령부에 이란 대규모 공격 재개 준비를 지시했다는 악시오스 보도가 10월 8일 나온 직후 트럼프 대통령이 이란과의 합의를 원하지 않는다고 밝히면서, 에너지·핵 시설 대규모 폭격 가능성이 거론됐다",
+ "facts": [
+  "무엇이: 미 국방부가 중부사령부에 이란 대규모 공격 재개 준비를 지시했다고 악시오스가 보도했다(10월 8일 하나증권 중국전략 전언) [사실]",
+  "트럼프 발언: 트럼프 대통령은 보도 직후 이란과의 합의는 자신이 원하는 것이 아니라고 말했다 [사실]",
+  "시점·표적: 중간선거 전 공습 준비 보도와 함께 에너지·핵 시설 대규모 폭격 가능성이 거론됐다 [채널]",
+  "이후: 트럼프는 이후 중간선거 전 공격 배제와 번복을 오갔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "하나증권 중국전략·TNBfolio 채널 기사 2건. 국방부 공격 준비 지시는 원 문서 독립 출처(Investing.com의 악시오스 인용, FXStreet), 트럼프의 합의 불원 발언은 The Express Tribune으로 확인했다.",
+ "src": [
+  {
+   "o": "Investing.com(악시오스 인용)",
+   "d": "2026-10-07",
+   "u": "https://www.investing.com/news/economy-news/pentagon-orders-military-to-be-ready-for-more-iran-strikes-axios-reports-4937833"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-07",
+   "u": "https://www.fxstreet.com/news/pentagon-orders-readiness-for-potential-iran-strikes-as-trump-weighs-timing-202610072349"
+  },
+  {
+   "o": "The Express Tribune",
+   "d": "2026-10-08",
+   "u": "https://tribune.com.pk/story/2633651/trump-says-iran-deal-isnt-really-something-that-i-want-to-do"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 국방부, 중부사령부에 이란 대규모 공격 재개 준비 지시(악시오스)",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-08",
+   "u": "https://t.me/HANAchina/70047",
+   "s": "미 국방부가 중부사령부에 이란 대규모 공격 재개 준비를 지시했다고 악시오스가 보도하면서 대이란 군사행동 재개 가능성이 커졌다."
+  },
+  {
+   "t": "트럼프 '이란 합의, 내가 원하는 게 아니다'…공습 재개 준비 보도 직후",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-08",
+   "u": "https://t.me/TNBfolio/71471",
+   "s": "트럼프 대통령이 중간선거 전 공습 준비 보도 직후 이란과의 합의를 더 이상 원하지 않는다고 밝히면서 에너지·핵 시설 대규모 폭격 가능성이 거론됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "미 국방부, 이란 대규모 공격 재개 준비 지시"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

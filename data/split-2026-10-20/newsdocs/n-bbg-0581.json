@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0581",
+ "num": 581,
+ "key": "split-G6-050-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/vitol-among-investors-backing-flexible-power-for-data-centers",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "비톨 등 투자자, 데이터센터용 유연 전력 사업에 투자",
+ "headline": "비톨 등 투자자, 데이터센터용 유연 전력 사업에 투자",
+ "one": "블룸버그가 10월 8일 전한 바로는 비톨 등 투자자들이 데이터센터용 유연 전력 사업에 투자하면서, 전력 부족을 겪는 데이터센터가 쓸 수 있는 전력 확보 수단이 늘어날 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 비톨이 데이터센터용 유연 전력 사업을 지원하는 투자자 가운데 하나라고 전했다 [제목]",
+  "영향: 데이터센터가 쓸 수 있는 전력 확보 수단이 늘어날 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 8일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "비톨 등 투자자, 데이터센터용 유연 전력 사업에 투자",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/vitol-among-investors-backing-flexible-power-for-data-centers"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "비톨 등 데이터센터용 유연 전력 사업 투자"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0398",
+ "num": 398,
+ "key": "split-G2-048-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/wheat-futures-rise-as-ukraine-russia-strikes-stoke-supply-fears",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "러·우 공습 속 밀 선물값 하락 보도…기사 주소엔 '상승'으로 엇갈려",
+ "headline": "러·우 공습 속 밀 선물값 하락 보도…기사 주소엔 '상승'으로 엇갈려",
+ "one": "러시아·우크라이나 공습으로 휴전 합의가 어렵다는 신호가 나왔는데도 밀 선물값이 내렸다고 전해졌지만, 같은 기사 주소에는 공급 우려에 따른 상승으로 적혀 있어 밀값 방향은 확인이 필요하다 (제목 기준)",
+ "facts": [
+  "무엇이: 러시아·우크라이나 공습으로 합의가 어려워 보이는데도 밀 선물값은 내렸다고 전해졌다 [제목]",
+  "엇갈림: 같은 기사 주소에는 우크라이나·러시아 공습이 공급 우려를 키워 밀 선물이 올랐다는 뜻(rise)으로 적혀 있어 방향이 엇갈린다 [미확인]",
+  "해석: 공급 우려가 가격에 바로 반영되지 않았다는 풀이는 하락 보도를 전제로 한 것이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록에서도 밀 선물값 내용은 확인 못 한 제목 기준이며, 번역 제목(하락)과 기사 주소(상승)가 서로 달라 방향을 확정하지 않음",
+ "src": [],
+ "items": [
+  {
+   "t": "러시아·우크라이나 공습에 합의 어려워 보여도 밀 가격은 하락",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/wheat-futures-rise-as-ukraine-russia-strikes-stoke-supply-fears"
+  }
+ ],
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "grains",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "실제",
+   "t": "러·우 공습 속 밀 선물값 방향 보도 엇갈림"
+  }
+ ]
+}

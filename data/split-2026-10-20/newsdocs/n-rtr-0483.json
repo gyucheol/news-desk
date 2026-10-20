@@ -1,0 +1,107 @@
+{
+ "id": "n-rtr-0483",
+ "num": 483,
+ "key": "split-G4-012-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "뜨거운 CPI에도 보우먼·데일리 \"기다릴 수 있다\"…달러 18개월 고점서 후퇴",
+ "headline": "뜨거운 CPI에도 보우먼·데일리 \"기다릴 수 있다\"…달러 18개월 고점서 후퇴",
+ "one": "달러가 10월 9일 FOMC 의사록 공개 뒤 18개월 고점에서 소폭 밀린 데 이어, 16일에는 뜨거운 CPI로 18개월 고점까지 올랐다가 보우먼·데일리 등 연준 인사들이 더 기다릴 수 있다고 시사하자 되밀리며 인상 베팅이 줄었다",
+ "facts": [
+  "무엇이: 보우먼 감독 담당 부의장과 데일리 샌프란시스코 연은 총재 등 연준 인사들이 더 기다릴 수 있다고 시사하자, 뜨거운 CPI로 18개월 고점까지 오른 달러가 되밀렸다(10월 16일 로이터) [사실]",
+  "금리 기대: 연준 인사들의 발언으로 금리 인상 베팅이 줄었다 [사실]",
+  "앞선 흐름: 달러는 10월 9일에도 FOMC 의사록 공개 뒤 18개월 고점에서 소폭 후퇴했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 2건(10월 9·16일)을 묶었다. 보우먼·데일리 발언과 달러 후퇴는 원 문서 연준 발언 기록과 Global Banking and Finance Review 보도(10월 15일)를 근거로 붙였고, 의사록 뒤 달러 후퇴는 제목 기준이다.",
+ "src": [
+  {
+   "o": "Global Banking and Finance Review",
+   "d": "2026-10-15",
+   "u": "https://www.globalbankingandfinance.com/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials/"
+  }
+ ],
+ "items": [
+  {
+   "t": "달러, FOMC 의사록 공개 후 18개월 고점서 소폭 후퇴",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/",
+   "s": "FOMC 의사록이 공개된 뒤 달러가 18개월 고점에서 소폭 물러서면서 강달러 흐름이 잠시 숨을 골랐다"
+  },
+  {
+   "t": "뜨거운 CPI에도 연준 인사들 인상 베팅 누그러뜨려 달러 18개월 고점서 후퇴",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+   "s": "보우먼·데일리 등 연준 인사들이 더 기다릴 수 있다고 시사하면서, 뜨거운 CPI로 18개월 고점까지 오른 달러가 되밀리고 인상 베팅이 줄었다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "보우먼·데일리 관망 시사에 인상 베팅 후퇴"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "달러, 18개월 고점서 후퇴"
+  }
+ ],
+ "fed": [
+  {
+   "k": "",
+   "who": "FOMC",
+   "role": "연방공개시장위원회",
+   "kind": "성명·의사록",
+   "stance": "",
+   "t": "FOMC 의사록 공개 뒤 달러가 18개월 고점에서 소폭 후퇴했다",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Bowman",
+   "kind": "발언",
+   "role": "감독 담당 부의장",
+   "stance": "중립",
+   "t": "더 분명한 그림을 볼 때까지 연준이 기다릴 수 있다고 말했다",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+   "who": "미셸 보우먼"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Daly",
+   "kind": "발언",
+   "role": "샌프란시스코 연은 총재",
+   "stance": "중립",
+   "t": "연준이 더 많은 지표를 보며 기다릴 수 있다고 말했다",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+   "who": "메리 데일리"
+  }
+ ]
+}

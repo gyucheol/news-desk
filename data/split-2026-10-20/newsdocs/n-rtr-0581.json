@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0581",
+ "num": 581,
+ "key": "split-G5-125-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/china-ready-cooperate-with-eu-tackling-global-imbalances-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 'EU와 세계 불균형 해소 협력할 준비 돼 있어'",
+ "headline": "중국 'EU와 세계 불균형 해소 협력할 준비 돼 있어'",
+ "one": "중국이 16일 세계 불균형 해소를 위해 EU와 협력할 준비가 돼 있다고 밝히면서, 다른 중국 업종으로 수입 제한을 넓히려는 EU의 무역 수단 강화 움직임에 대화 의사를 내보였다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국이 세계 불균형 해소를 위해 EU와 협력할 준비가 돼 있다고 밝혔다 [제목]",
+  "의미: EU의 무역 수단 강화 움직임에 대화 의사를 내보였다 [제목]",
+  "배경: 폰데어라이엔 집행위원장은 하이브리드차 합의로는 구조적 불균형을 고치지 못한다며 다른 중국 업종에도 수입 제한을 제안하겠다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국 'EU와 세계 불균형 해소에 협력할 준비 돼 있어'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/china/china-ready-cooperate-with-eu-tackling-global-imbalances-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중국 협력 의사 표명, 수급 변화는 없음"
+  }
+ ]
+}

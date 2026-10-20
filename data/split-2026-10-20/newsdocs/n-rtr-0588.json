@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0588",
+ "num": 588,
+ "key": "split-G5-146-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/fitch-warns-bond-yield-surge-is-worsening-debt-outlook-developed-economies-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "피치 '국채 금리 급등, 선진국 부채 전망 악화시켜'",
+ "headline": "피치 '국채 금리 급등, 선진국 부채 전망 악화시켜'",
+ "one": "피치가 14일 국채 금리 급등이 선진국 부채 전망을 악화시키고 있다고 경고하면서, IMF가 선진국 재정적자를 2026년 GDP의 5.2%로 본 가운데 이자 부담에 따른 각국 재정 압박이 부각됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 피치는 10월 14일 국채 금리 급등이 선진국의 부채 전망을 악화시키고 있다고 경고했다 [제목]",
+  "IMF 전망: IMF는 선진국 재정적자가 2026년 GDP의 5.2%, 미국 일반정부 적자가 8.5%에 이를 것으로 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, IMF 수치는 원 문서의 재정점검 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "피치 \"국채 금리 급등, 선진국 부채 전망 악화시켜\"",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/china/fitch-warns-bond-yield-surge-is-worsening-debt-outlook-developed-economies-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "피치, 국채 금리 급등이 선진국 부채 전망 악화"
+  }
+ ]
+}

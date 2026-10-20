@@ -1,0 +1,82 @@
+{
+ "id": "n-bbg-0530",
+ "num": 530,
+ "key": "split-G5-025-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:23:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "매클럼 캐나다은행 총재 \"고유가에 물가 전망 크게 높아져\"",
+ "headline": "매클럼 캐나다은행 총재 \"고유가에 물가 전망 크게 높아져\"",
+ "one": "매클럼 캐나다은행 총재가 브렌트유가 가정치 75달러를 크게 웃도는 약 110달러에 머물자 고유가가 성장과 물가를 함께 끌어올린다며 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝히면서, 금리 인상 여부가 쟁점으로 떠올랐다",
+ "facts": [
+  "무엇이: 매클럼 총재는 유가 급등으로 10월 28일 내놓을 새 물가 전망이 7월보다 크게 높아질 것이라고 밝혔다 [사실]",
+  "유가: 브렌트유는 캐나다은행 가정치 75달러를 크게 웃도는 약 110달러에 머물고 있다 [사실]",
+  "진단: 에너지 순수출국인 캐나다에서 고유가가 성장과 물가를 함께 끌어올려 물가가 넓게 번질 위험이 커졌다고 경고했다 [사실]",
+  "시장: 발언 뒤 10월 28일 금리 인상 여부가 쟁점으로 떠올랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 2건을 묶음. 매클럼 총재의 물가 전망 상향 발언과 브렌트유 가정치는 글로브앤드메일·캐나디언 모기지 트렌즈 검색 결과로 확인",
+ "src": [
+  {
+   "o": "글로브앤드메일",
+   "d": "2026-10-17",
+   "u": "https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/"
+  },
+  {
+   "o": "캐나디언 모기지 트렌즈",
+   "d": "2026-10-17",
+   "u": "https://www.canadianmortgagetrends.com/2026/10/macklem-sees-higher-oil-prices-boosting-growth-inflation/"
+  }
+ ],
+ "items": [
+  {
+   "t": "매클럼 \"고유가가 성장과 물가 함께 끌어올린다\"",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+   "s": "매클럼 총재가 에너지 순수출국인 캐나다에서 고유가가 성장과 물가를 함께 끌어올린다고 보면서 물가가 넓게 번질 위험이 커졌다고 경고했다"
+  },
+  {
+   "t": "캐나다은행 \"유가 급등에 물가 전망 크게 높아져\"…매클럼",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
+   "s": "매클럼 총재가 유가 급등으로 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝히면서 금리 인상 여부가 쟁점으로 떠올랐다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "매클럼, 고유가에 물가 전망 크게 상향 예고"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "브렌트유 약 110달러에 물가 확산 위험 커져"
+  }
+ ]
+}

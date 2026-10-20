@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0494",
+ "num": 494,
+ "key": "split-G4-108-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:12:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/france-protests-smolder-on-an-empty-budget-as-macron-calls-for-calm",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "佛 55만 명 시위·2,400명 체포…마크롱, 예산 공백 속 진정 호소",
+ "headline": "佛 55만 명 시위·2,400명 체포…마크롱, 예산 공백 속 진정 호소",
+ "one": "프랑스 시위에 약 55만 명이 몰려 약 2,400명이 체포된 뒤에도 예산안이 없는 상태에서 시위가 이어지자 마크롱 대통령이 진정을 호소하면서, 재정 공백과 사회 불안이 겹치고 있다",
+ "facts": [
+  "무엇이: 프랑스 내무부 집계로 토요일 전국 110개 행진에 약 55만 명이 참여해 정보당국 예상 약 20만 명을 크게 넘었고, 약 2,400명이 체포되고 경찰·헌병 약 1,000명이 다쳤다 [사실]",
+  "피해: 당국은 여러 도시에서 최소 3,000개 사업장이 파손·약탈됐다고 추산했고, 리모주 시청은 화재로 크게 부서졌다 [사실]",
+  "정부 대응: 마크롱은 치안 지휘가 계속 필요하다며 누녜스 내무장관의 사의를 반려했고, 총리가 통행금지를 발표해 파리 2개 지역에 야간 통행금지가 내려졌다 [사실]",
+  "진정세: 보안 조치가 강화되면서 소요가 잦아들고 있지만, 예산이 빈 상태에서 시위가 이어지자 마크롱이 진정을 호소했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 뉴스레터 1건(10월 19일). 시위 규모(내무부 55만 명), 체포 2,400명, 사업장 피해, 내무장관 사의 반려, 통행금지는 NBC·AP 검색 결과로 확인했고 마크롱의 진정 호소는 제목 기준",
+ "src": [
+  {
+   "o": "NBC News",
+   "d": "2026-10-19",
+   "u": "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292"
+  },
+  {
+   "o": "ABC News(AP)",
+   "d": "2026-10-19",
+   "u": "https://abcnews.com/International/wireStory/macron-rejects-interior-ministers-resignation-rioting-looting-expose-137372032"
+  }
+ ],
+ "items": [
+  {
+   "t": "빈 예산 속 프랑스 시위 계속…마크롱 '진정' 호소",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/france-protests-smolder-on-an-empty-budget-as-macron-calls-for-calm"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "예산 공백 속 대규모 시위로 정치 불확실성 확대"
+  }
+ ]
+}

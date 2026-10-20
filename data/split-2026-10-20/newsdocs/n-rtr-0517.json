@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0517",
+ "num": 517,
+ "key": "split-G4-124-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/hedge-funds-warn-boe-repo-reforms-could-backfire-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "헤지펀드들 '영란은행 레포 시장 개혁, 역효과 낼 수 있다' 경고",
+ "headline": "헤지펀드들 '영란은행 레포 시장 개혁, 역효과 낼 수 있다' 경고",
+ "one": "헤지펀드들이 영란은행의 레포 시장 개혁안이 오히려 역효과를 낼 수 있다고 경고하면서, 30년물 금리가 1998년 이후 최고로 뛴 시기에 영국 단기자금 시장 운영 방식을 둘러싼 시장 참가자들의 우려가 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 7일 헤지펀드들이 영란은행의 레포 시장 개혁이 역효과를 낼 수 있다고 경고했다 [제목]",
+  "시장 배경: 같은 날 영국 30년물 국채금리는 12bp 올라 6.02%로 1998년 이후 최고를 기록했다 [사실]",
+  "해석: 레포 시장은 헤지펀드의 국채 거래 자금줄이어서, 개혁 방식에 따라 길트 시장 유동성이 영향을 받을 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "헤지펀드들, 영란은행 레포 시장 개혁이 역효과 낼 수 있다고 경고",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/hedge-funds-warn-boe-repo-reforms-could-backfire-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "레포 개혁이 시장 유동성에 역효과 낼 우려"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0380",
+ "num": 380,
+ "key": "split-G1-103-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/why-saudi-arabia-s-aim-of-defeating-yemen-s-houthis-is-a-tall-order",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "다시 세력 키운 후티…사우디의 제압 목표 쉽지 않다는 분석",
+ "headline": "다시 세력 키운 후티…사우디의 제압 목표 쉽지 않다는 분석",
+ "one": "블룸버그가 10월 12일 사우디가 다시 세력을 키운 예멘 후티의 위협에 맞서고 있지만 후티를 제압하겠다는 목표는 쉽지 않다고 분석하면서, 사우디와 후티의 교전이 길어질 수 있다는 관측이 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 사우디의 예멘 후티 제압 목표가 쉽지 않은 이유를 분석했다 [제목]",
+  "위협: 사우디는 다시 세력을 키운 예멘 후티의 위협에 맞서고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사·뉴스레터 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디의 예멘 후티 제압 목표가 쉽지 않은 이유",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/why-saudi-arabia-s-aim-of-defeating-yemen-s-houthis-is-a-tall-order",
+   "s": "사우디가 예멘 후티를 제압하겠다는 목표를 세웠지만 그 목표가 쉽지 않은 이유를 블룸버그가 분석했다"
+  },
+  {
+   "t": "사우디, 다시 세력을 키운 예멘 후티 위협에 맞서",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/saudis-confront-a-resurgent-houthi-threat-from-yemen",
+   "s": "사우디가 다시 세력을 키운 예멘 후티의 위협에 맞서면서 본토 방어 부담이 커지고 있다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "다시 세력 키운 후티 위협에 사우디 제압 난항"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "basis": "title",
+ "check": "블룸버그·로이터 기사 2건(10월 7일·18일, 모두 제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 관세 위협은 원 문서 사실 줄에서 가져옴",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 10월 7일 트럼프 관세 덕에 카니 총리가 캐나다 송유관·투자 추진을 빠르게 밀어붙일 수 있게 됐다고 전했다 [제목]",
+  "반론: 로이터는 18일 카니의 송유관 추진이 캐나다 석유 일자리 호황을 되살리기는 어렵다고 분석했다 [제목]",
+  "배경: 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "트럼프 관세에 카니, 캐나다 송유관 추진 가속…일자리 호황은 어려워",
+ "id": "n-bbg-0120",
+ "incentive": "",
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "트럼프 관세 덕에 카니, 캐나다 송유관·투자 추진 가속",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push",
+   "s": "카니 총리가 트럼프 관세를 계기로 캐나다 송유관과 투자 사업 승인을 서두르면서 캐나다의 에너지·인프라 사업 추진이 빨라질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "카니의 송유관 추진, 캐나다 석유 일자리 호황 되살리기 어려워",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/carneys-pipeline-push-is-unlikely-bring-back-canadas-oil-jobs-boom-2026-10-18/",
+   "s": "카니 총리가 송유관 건설을 밀어붙이고 있지만 캐나다 석유 일자리 호황을 되살리기는 어려울 것이라는 분석이 나왔다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C070-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 120,
+ "one": "카니 총리가 10월 7일 트럼프 관세를 계기로 캐나다 송유관과 투자 사업 승인을 서두르고 있다고 전해졌지만, 18일에는 송유관을 밀어붙여도 캐나다 석유 일자리 호황을 되살리기는 어렵다는 분석이 나오면서 효과에 대한 의문도 커졌다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:36:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "트럼프 관세에 카니, 캐나다 송유관 추진 가속…일자리 호황은 어려워",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "카니, 관세 계기로 캐나다 송유관 승인 가속"
+  }
+ ]
+}

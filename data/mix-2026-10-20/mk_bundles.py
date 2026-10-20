@@ -16,7 +16,12 @@ for i, b in enumerate(bins, 1):
         if c.get('attachTo'):
             d = json.load(open(f"{DB}/news/{c['attachTo']}.json"))
             out.append(f"기존 문서 {d['id']} ({(d.get('published') or '')[:10]}, basis {d.get('basis', '')})\n- 제목: {d.get('title', '')}\n- 한줄: {d.get('one', '')}\n")
-            for f in d.get('facts', [])[:5]: out.append(f'- 사실: {f}\n')
+            for f in d.get('facts', []): out.append(f'- 사실: {f}\n')
+            if d.get('added'): out.append(f"- 추가된 내용(직전): {d['added']}\n")
+            its = d.get('items') or []
+            if its:
+                out.append(f'- 이미 묶인 원문 {len(its)}건(본문에 없는 핵심 내용이 있으면 사실·한줄에 반영):\n')
+                for it in its: out.append(f"  - {it.get('d', '')} {it.get('o', '')}: {it.get('t', '')}" + (f" — {it['s']}" if it.get('s') else '') + '\n')
         for ln in sorted(c['lines'], key=lambda n: rows[n][2]):
             r = rows[ln]; s = r[1]
             if s.startswith('tg:'):

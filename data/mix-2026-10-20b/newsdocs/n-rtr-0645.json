@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0645",
+ "num": 645,
+ "key": "mix-G1-077-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T21:49:00+09:00",
+ "url": "https://www.reuters.com/business/world-at-work/betting-giant-flutter-cut-up-1400-jobs-2026-10-20/",
+ "origTitle": "",
+ "headline": "플러터, 영국·아일랜드서 최대 1,400명 감원…원격 게임세 40% 인상 여파",
+ "src": [
+  {
+   "o": "SBC News",
+   "d": "2026-10-20",
+   "u": "https://sbcnews.co.uk/sportsbook/2026/10/20/flutter-cuts-1400-uki-jobs"
+  },
+  {
+   "o": "CasinoBeats",
+   "d": "2026-10-20",
+   "u": "https://casinobeats.com/2026/10/20/flutter-to-cut-up-to-1400-uk-ireland-jobs-as-higher-gambling-duties-bite/"
+  }
+ ],
+ "items": [
+  {
+   "t": "베팅 대기업 플러터, 최대 1,400명 감원",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/world-at-work/betting-giant-flutter-cut-up-1400-jobs-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "플러터, 영국·아일랜드서 최대 1,400명 감원…원격 게임세 40% 인상 여파",
+ "one": "베팅 대기업 플러터가 영국·아일랜드 사업에서 최대 1,400명을 줄이기로 했다\n· 영국 원격 게임세가 4월 21%에서 40%로 오르자 고정비를 줄이려는 조치다\n· 감원 비용은 세전 8,000만~9,000만 달러로 2026년 말까지 대부분 마무리한다",
+ "facts": [
+  "무엇이: 플러터는 10월 20일 영국·아일랜드 사업에서 최대 1,400명을 줄이는 구조조정 계획을 공시하고 해당 직원에게 통보를 시작했다 [사실]",
+  "이유: 영국 원격 게임세가 2026년 4월 21%에서 40%로 올랐고 원격 베팅세도 2027년 4월 25%로 오르면서 세금 인상분을 다 흡수할 수 없다고 밝혔다 [사실]",
+  "비용: 세전 비용은 약 8,000만~9,000만 달러로 대부분 퇴직금 현금 지출이며 2026년 말까지 대부분 마무리한다 [사실]",
+  "지역: 리즈·더블린과 포르투·클루지나포카 거점의 영국·아일랜드 사업 인력이 대상이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "8-K 공시 내용과 세율·비용을 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "플러터, 영국·아일랜드 최대 1,400명 감원"
+  }
+ ]
+}

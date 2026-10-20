@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0641",
+ "num": 641,
+ "key": "mix-G2-084-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:42:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/thames-water-creditors-offer-pimco-a-compromise-on-new-debt",
+ "origTitle": "",
+ "headline": "템스워터·채권단, 24억 파운드 신규 부채 배분 놓고 핌코에 절충안 제시",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-20",
+   "u": "https://www.briefs.co/news/thames-water-dangles-sweeter-terms-to-win-pimco-s-nod-on-2-4/"
+  }
+ ],
+ "items": [
+  {
+   "t": "템스워터·채권단, 신규 부채 놓고 핌코에 절충안",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/thames-water-creditors-offer-pimco-a-compromise-on-new-debt"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "utilities",
+  "fin"
+ ],
+ "nodes": [],
+ "title": "템스워터·채권단, 24억 파운드 신규 부채 배분 놓고 핌코에 절충안 제시",
+ "one": "템스워터와 일부 선순위 채권단이 24억 파운드 신규 차입 배분을 바꾼 절충안을 핌코에 내놨다\n· 첫 6억 파운드는 세 채권단에 나누고 나머지 18억 파운드는 초선순위 쪽에 배분해 핌코 몫을 키운다\n· 채권단 투표는 10월 29일로 예정돼 있다",
+ "facts": [
+  "무엇이: 템스워터와 일부 선순위 채권단은 24억 파운드 신규 차입 배분을 바꾼 절충안을 초선순위 채권만 가진 핌코에 제시했다 [사실]",
+  "배경: 핌코는 신규 자금이 초선순위·A등급·B등급 채권자에 고루 나뉘어 자기 지위가 희석될 것을 우려했다 [사실]",
+  "일정: 템스워터는 초선순위 차입 한도를 54억 파운드로 늘리려 하며, 채권단 투표는 10월 29일이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "절충안 배분(6억+18억 파운드)과 투표 일정은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "capital",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "템스워터 24억 파운드 신규 차입 배분 절충"
+  }
+ ]
+}

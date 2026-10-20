@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0658",
+ "num": 658,
+ "key": "mix-G2-073-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T16:37:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/astrazeneca-partners-with-oracle-ai-driven-clinical-trials-2026-10-20/",
+ "origTitle": "",
+ "headline": "아스트라제네카, 오라클과 AI 임상시험 협력…환자 모집·안전성 감시에 실사용 데이터",
+ "src": [
+  {
+   "o": "Becker's Hospital Review",
+   "d": "2026-10-20",
+   "u": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/oracle-health-astrazeneca-team-up-to-test-ai-in-clinical-trials/"
+  },
+  {
+   "o": "pharmaphorum",
+   "d": "2026-10-20",
+   "u": "https://pharmaphorum.com/news/az-and-oracle-team-ai-platform-clinical-trials"
+  }
+ ],
+ "items": [
+  {
+   "t": "아스트라제네카, 오라클과 AI 기반 임상시험 협력",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/astrazeneca-partners-with-oracle-ai-driven-clinical-trials-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "아스트라제네카, 오라클과 AI 임상시험 협력…환자 모집·안전성 감시에 실사용 데이터",
+ "one": "아스트라제네카가 오라클과 AI·실사용 데이터로 임상시험을 효율화하는 비구속 협력에 합의했다\n· 양사는 임상 대상 환자 발굴과 안전성 신호 감시에 AI를 쓰며 재무 조건은 공개하지 않았다\n· 첫 사업은 UAE M42와 아부다비에서 조절 안 되는 고혈압 환자를 찾는 프로그램이다",
+ "facts": [
+  "무엇이: 아스트라제네카와 오라클은 10월 20일 AI와 실사용 데이터로 임상 대상 환자를 찾고 안전성 신호를 감시하는 비구속 협력 조건서에 서명했다 [사실]",
+  "범위: 항암·심혈관·신장·대사·호흡기·면역·희귀질환에 적용을 검토하며, 비식별 데이터를 쓰고 재무 조건은 공개하지 않았다 [사실]",
+  "첫 사업: UAE 의료기업 M42와 아부다비에서 조절 안 되는 고혈압 환자를 찾아 진료와 임상 모집을 돕는 프로그램이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "비구속 협력 합의, 환자 모집·안전성 감시 목적, 아부다비 고혈압 첫 사업은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI로 임상 환자 모집 속도 개선 추진"
+  }
+ ]
+}

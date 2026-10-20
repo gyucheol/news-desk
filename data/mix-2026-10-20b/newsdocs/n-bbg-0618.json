@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0618",
+ "num": 618,
+ "key": "mix-G1-035-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:25:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/maersk-hateco-plan-3-5-billion-vietnam-rail-freight-project",
+ "origTitle": "",
+ "headline": "머스크·하테코, 베트남 북부 철도 화물 터미널 최대 35억 달러 사업 비구속 합의",
+ "src": [
+  {
+   "o": "Investing.com",
+   "d": "2026-10-20",
+   "u": "https://www.investing.com/news/stock-market-news/apm-terminals-hateco-sign-deal-to-study-vietnam-rail-terminals-93CH-4959832"
+  },
+  {
+   "o": "Maritime Professional",
+   "d": "2026-10-20",
+   "u": "http://www.maritimeprofessional.com/news/maersk-hateco-analyze-railway-freight-423754"
+  }
+ ],
+ "items": [
+  {
+   "t": "머스크·하테코, 35억 달러 베트남 화물망 계획",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/maersk-hateco-plan-3-5-billion-vietnam-rail-freight-project",
+   "s": "머스크와 하테코가 35억 달러 규모 베트남 화물 네트워크를 계획하면서 베트남 북부 항만·철도 연계 물류 능력이 커질 수 있다"
+  },
+  {
+   "t": "머스크·하테코, 베트남 철도 화물 터미널 비구속 합의 서명",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/maersk-hateco-sign-non-binding-agreement-rail-freight-terminals-vietnam-2026-10-20/",
+   "s": "두 회사가 하이퐁 등 북부 철도 화물 터미널 타당성 조사에 비구속 합의하면서 실제 건설 여부는 조사 결과에 달리게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "머스크·하테코, 베트남 북부 철도 화물 터미널 최대 35억 달러 사업 비구속 합의",
+ "one": "머스크와 베트남 하테코가 최대 35억 달러 규모 베트남 철도 화물 터미널 사업 검토에 비구속 합의했다\n· 머스크 항만 부문 APM터미널스와 하테코는 하이퐁 철도 화물 터미널과 북부 3곳을 함께 조사한다\n· 베트남 정부는 예비 투자액을 최대 35억 달러로, 머스크는 두 회사 합계 25억~35억 달러로 제시했다\n· 합의는 타당성 조사까지만 묶어 건설 착수나 최종 투자 결정 시점은 나오지 않았다",
+ "facts": [
+  "무엇이: APM터미널스(머스크)와 하테코가 또 럼 베트남 서기장의 덴마크 방문 중 북부 철도 화물 터미널 조사에 관한 비구속 합의에 서명했다 [사실]",
+  "범위·규모: 하이퐁 철도 화물 터미널과 북부 3곳이 대상이며 투자액은 베트남 정부 기준 최대 35억 달러, 머스크 기준 25억~35억 달러다 [사실]",
+  "단계: 타당성 조사만 약속했고 일정·최종 투자 결정은 공개되지 않았으며, 두 회사는 2025년 약 4억 달러짜리 하이퐁 국제컨테이너터미널을 열었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 비구속 조사 합의, 최대 35억 달러(머스크 25억~35억 달러), 하이퐁·북부 3곳 확인",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "ports",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "베트남 북부 철도 화물 터미널 최대 35억 달러 검토"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

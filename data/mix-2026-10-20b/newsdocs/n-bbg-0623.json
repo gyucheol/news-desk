@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0623",
+ "num": 623,
+ "key": "mix-G1-065-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:04:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/sherritt-says-it-won-us-fuel-license-in-push-to-rescue-cuba-mine",
+ "origTitle": "",
+ "headline": "셰리트, 미 재무부 연료 수출 허가 획득…쿠바 모아 니켈 광산 재가동은 추가 허가 필요",
+ "src": [
+  {
+   "o": "Sherritt",
+   "d": "2026-10-20",
+   "u": "https://sherritt.com/sherritt-provides-updates-on-operations-and-financial-position/"
+  },
+  {
+   "o": "CTV News(캐나다 통신)",
+   "d": "2026-10-20",
+   "u": "https://www.ctvnews.ca/business/article/sherritt-gets-key-fuel-license-from-us-government-for-moa-mine-in-cuba/"
+  }
+ ],
+ "items": [
+  {
+   "t": "셰리트, 쿠바 광산 살리기 위해 미국 연료 수출 허가 획득",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/sherritt-says-it-won-us-fuel-license-in-push-to-rescue-cuba-mine"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "셰리트, 미 재무부 연료 수출 허가 획득…쿠바 모아 니켈 광산 재가동은 추가 허가 필요",
+ "one": "캐나다 셰리트가 쿠바 모아 니켈 광산을 살리기 위해 미국 재무부의 연료 수출 허가를 받았다\n· 허가는 연료·연료유·황의 구매와 운송·보험·금융을 허용하며 첫 선적은 4분기로 예상된다\n· 생산 재개에는 별도 긴급 허가가 필요해 최고경영자는 결승선과는 거리가 멀다고 했다",
+ "facts": [
+  "무엇이: 미 재무부 해외자산통제국(OFAC)이 셰리트의 쿠바 모아 니켈 사업장에 연료·연료유·황을 사서 보내는 것을 허가했다 [사실]",
+  "범위: 운송·보험·금융 등 부수 서비스도 허용되며, 첫 연료 선적은 올해 4분기로 예상된다 [사실]",
+  "한계: 이 허가로 생산을 재개할 수는 없어 셰리트는 채굴·처리 재개용 긴급 허가를 따로 신청하고 있고, 유동성 문제도 남아 있다 [사실]",
+  "배경: 1월 미국의 베네수엘라산 원유 차단 뒤 쿠바 연료난으로 가동이 멈췄고, 셰리트는 5월 7일 합작 참여를 중단하고 6월 22일 포트서스캐처원 정제를 멈췄다 [사실]",
+  "지분: 레이 워시번 관련 미국 패밀리오피스 길론 캐피털이 셰리트 경영권 지분을 추진하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "OFAC 연료·황 수출 허가, 4분기 첫 선적 예상, 생산 재개용 추가 허가 필요는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "battery",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "연료 허가로 쿠바 모아 니켈 광산 재가동 첫발"
+  }
+ ]
+}

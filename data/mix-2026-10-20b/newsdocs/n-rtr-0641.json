@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0641",
+ "num": 641,
+ "key": "mix-G1-071-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:46:00+09:00",
+ "url": "https://www.reuters.com/business/autos-transportation/volkswagen-bet-xpeng-save-its-china-business-its-not-going-plan-2026-10-20/",
+ "origTitle": "",
+ "headline": "폭스바겐-샤오펑 협력 中 회생 차질…UNYX 08 월 267대로 목표 3,622대 미달",
+ "src": [
+  {
+   "o": "오토모티브뉴스",
+   "d": "2026-10-20",
+   "u": "https://www.autonews.com/volkswagen/ane-vw-xpeng-china-sales-1020/"
+  },
+  {
+   "o": "타임스라이브",
+   "d": "2026-10-20",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-20-vws-bet-on-xpeng-to-save-its-china-business-is-not-going-to-plan/"
+  }
+ ],
+ "items": [
+  {
+   "t": "샤오펑으로 중국 사업 살리려던 폭스바겐의 계획, 뜻대로 안 돼",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/autos-transportation/volkswagen-bet-xpeng-save-its-china-business-its-not-going-plan-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "폭스바겐-샤오펑 협력 中 회생 차질…UNYX 08 월 267대로 목표 3,622대 미달",
+ "one": "폭스바겐이 샤오펑과 손잡고 중국 사업을 되살리려던 계획이 판매 부진으로 차질을 빚고 있다\n· 첫 공동 개발 차 ID. UNYX 08은 4~8월 월평균 267대 팔려 목표 3,622대에 크게 못 미쳤다\n· 폭스바겐은 중국 승용차 시장이 올해 약 20% 줄 것으로 보고 있다",
+ "facts": [
+  "무엇이: ID. UNYX 08은 4월 출시 뒤 8월까지 월평균 267대 팔려 2026년 목표 월 3,622대에 크게 못 미쳤다 [사실]",
+  "전망 하향: 2026년 판매 목표는 3만 2,600대에서 1만 2,300대로, 2027년은 7만 400대에서 6만 4,000대로 낮아졌다 [사실]",
+  "시장: 중국은 폭스바겐 그룹 이익의 약 10%로 줄었고, 폭스바겐은 올해 중국 승용차 시장이 약 20% 줄 것으로 본다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "판매량·목표 하향은 검색 결과 요약(오토모티브뉴스·타임스라이브)으로 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "UNYX 08 월 267대로 목표 3,622대 미달"
+  }
+ ]
+}

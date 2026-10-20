@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0655",
+ "num": 655,
+ "key": "mix-G2-060-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:48:00+09:00",
+ "url": "https://www.reuters.com/world/americas/colombian-congress-approves-2011-billion-budget-2027-2026-10-20/",
+ "origTitle": "",
+ "headline": "콜롬비아 의회, 2027년 예산 634.9조 페소(약 2,011억 달러) 승인…국방비 확대",
+ "src": [
+  {
+   "o": "Colombia One",
+   "d": "2026-10-20",
+   "u": "https://colombiaone.com/2026/10/20/congress-approves-2027-budget/"
+  },
+  {
+   "o": "Devdiscourse",
+   "d": "2026-10-20",
+   "u": "https://www.devdiscourse.com/article/international/3995111-colombian-congress-approves-6349-trillion-peso-budget-for-2027"
+  }
+ ],
+ "items": [
+  {
+   "t": "콜롬비아 의회, 2,011억 달러 규모 2027년 예산 승인",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/americas/colombian-congress-approves-2011-billion-budget-2027-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "콜롬비아 의회, 2027년 예산 634.9조 페소(약 2,011억 달러) 승인…국방비 확대",
+ "one": "콜롬비아 의회가 2027년 예산 634.9조 페소(약 2,011억 달러)를 최종 승인했다\n· 예산은 평화협정 관련 지출과 부채 이자 지급을 줄이고 국방비를 늘렸다\n· 정부는 2027년 재정적자를 GDP의 9.4%로 보고 이를 줄일 재정 개혁을 추진한다",
+ "facts": [
+  "무엇이: 콜롬비아 상원(찬성 57)과 하원(찬성 112)이 2027년 예산 634.9조 페소(약 2,011억 달러)를 승인했고, 2026년 555.8조 페소보다 늘었다 [사실]",
+  "내용: 평화협정 관련 지출을 줄이고 국방비(74.9조 페소)를 늘렸으며 부채 이자 지급을 줄였다 [사실]",
+  "적자: 정부는 2027년 재정적자를 GDP의 9.4%로 전망하고 이를 줄일 재정 개혁을 추진한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "예산 규모·표결·배분은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "2027년 예산 634.9조 페소로 늘려 승인"
+  }
+ ]
+}

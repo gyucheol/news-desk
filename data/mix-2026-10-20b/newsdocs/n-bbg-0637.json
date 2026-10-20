@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0637",
+ "num": 637,
+ "key": "mix-G2-064-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:27:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/barclays-says-cycle-peaking-for-data-center-equipment-vendors",
+ "origTitle": "",
+ "headline": "바클레이즈 '데이터센터 전력·전기장비 업체 사이클 정점'…AI 랩 가격 압박 경고",
+ "src": [
+  {
+   "o": "크립토브리핑",
+   "d": "2026-10-20",
+   "u": "https://cryptobriefing.com/barclays-data-center-equipment-pricing-squeeze/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-14",
+   "u": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "바클레이즈 '데이터센터 장비 업체 사이클 정점'",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/barclays-says-cycle-peaking-for-data-center-equipment-vendors"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "industrial"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "바클레이즈 '데이터센터 전력·전기장비 업체 사이클 정점'…AI 랩 가격 압박 경고",
+ "one": "바클레이즈가 데이터센터 전력·전기장비 업체의 성장 사이클이 정점에 이르고 있다고 밝혔다\n· 바클레이즈는 지멘스에너지·ABB·슈나이더일렉트릭이 비용을 줄이려는 AI 랩의 가격 압박을 받을 것으로 봤다\n· 업계 공급 확대와 소수 대형 구매자 집중이 협상력을 고객 쪽으로 옮길 수 있다고 지적했다",
+ "facts": [
+  "무엇이: 바클레이즈는 10월 20일 데이터센터 전력·전기장비 업체의 성장 사이클이 정점에 이르고 있다고 밝혔다 [사실]",
+  "대상: 지멘스에너지·ABB·슈나이더일렉트릭이 AI 랩의 비용 절감에 따른 가격 압박을 받을 것으로 봤다 [사실]",
+  "요인: 업계 공급 확대와 구매자 집중이 가격 협상력을 대형 고객 쪽으로 옮기고 있다고 지적했다 [사실]",
+  "앞선 의견: 바클레이즈는 14일 델·HPE·넷앱 투자의견을 낮췄고 델 주가는 약 11% 떨어졌다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "사이클 정점·가격 압박 내용은 크립토브리핑 열람으로 확인했으나 두 번째 출처는 찾지 못함. 델 하향은 CNBC 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 랩 가격 압박에 전기장비 업체 사이클 정점"
+  }
+ ]
+}

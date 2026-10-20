@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0639",
+ "num": 639,
+ "key": "mix-G2-081-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector",
+ "origTitle": "",
+ "headline": "영란은행, AI가 금융권에 미칠 영향 스트레스 테스트 검토",
+ "src": [
+  {
+   "o": "Mortgage Professional(MPA)",
+   "d": "2026-04",
+   "u": "https://www.mpamag.com/uk/mortgage-industry/market-trends/bank-of-england-to-stress-test-ai-risk-to-uks-financial-system/572196"
+  }
+ ],
+ "items": [
+  {
+   "t": "영란은행, AI가 금융 부문에 미칠 영향 스트레스 테스트 검토",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "영란은행, AI가 금융권에 미칠 영향 스트레스 테스트 검토",
+ "one": "영란은행이 AI가 금융 부문에 미칠 영향을 스트레스 테스트로 점검하는 방안을 검토하고 있다\n· 영란은행은 앞서 4월에도 AI 위험을 향후 스트레스 테스트에 반영하고 군집 행동을 점검하겠다고 밝혔다 (제목 기준)",
+ "facts": [
+  "무엇이: 영란은행이 AI가 금융 부문에 미칠 영향을 스트레스 테스트하는 방안을 검토하고 있다 [제목]",
+  "앞서: 영란은행은 4월 의회에 보낸 서한에서 AI 위험을 향후 스트레스 테스트에 넣고 매도를 키울 수 있는 군집 행동을 다른 중앙은행과 함께 점검하겠다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "10월 기사 내용은 검색에서 찾지 못함(4월 영란은행 AI 스트레스 테스트 방침만 확인). 제목 기준",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "영란은행 AI 영향 스트레스 테스트 검토"
+  }
+ ]
+}

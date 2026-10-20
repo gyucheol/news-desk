@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0636",
+ "num": 636,
+ "key": "mix-G2-061-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T12:18:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/india-s-rbi-steps-up-overseas-investment-checks-as-rupee-slides",
+ "origTitle": "",
+ "headline": "인도중앙은행(RBI), 루피 약세 이어지자 해외 투자 점검 강화",
+ "src": [],
+ "items": [
+  {
+   "t": "인도, 루피 약세에 해외 투자 점검 강화",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/india-s-rbi-steps-up-overseas-investment-checks-as-rupee-slides"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "title": "인도중앙은행(RBI), 루피 약세 이어지자 해외 투자 점검 강화",
+ "one": "인도중앙은행(RBI)이 루피 약세가 이어지자 해외 투자에 대한 점검을 강화했다\n· 해외로 나가는 자금을 더 꼼꼼히 들여다봐 루피 하락 압력을 줄이려는 조치로 풀이된다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도는 루피가 밀리자 해외 투자 점검을 강화했다 [제목]",
+  "주체: 기사 주소상 인도중앙은행(RBI)이 점검 강화를 주도한다 [제목]",
+  "영향: 해외 유출 자금을 줄여 루피 방어에 보탬이 될 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 생략(한도). 블룸버그 제목·주소만 근거",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "루피 약세에 인도 해외 투자 점검 강화"
+  }
+ ]
+}

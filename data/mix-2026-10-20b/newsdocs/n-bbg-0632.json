@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0632",
+ "num": 632,
+ "key": "mix-G2-032-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/salesforce-to-buy-marketing-platform-braze-for-5-7-billion",
+ "origTitle": "",
+ "headline": "세일즈포스, 마케팅 플랫폼 브레이즈 57억 달러에 인수…주당 47.50달러 현금",
+ "src": [
+  {
+   "o": "Salesforce",
+   "d": "2026-10-20",
+   "u": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-20",
+   "u": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "세일즈포스, 마케팅 플랫폼 브레이즈 57억 달러에 인수",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/salesforce-to-buy-marketing-platform-braze-for-5-7-billion",
+   "s": "세일즈포스가 마케팅 플랫폼 브레이즈를 57억 달러에 사들이면서 고객 데이터·마케팅 자동화 영역에서 몸집을 키운다"
+  },
+  {
+   "t": "세일즈포스, 56억 6,000만 달러 규모 브레이즈 인수",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/salesforce-acquire-braze-566-billion-deal-2026-10-20/",
+   "s": "세일즈포스가 브레이즈 주주에게 주당 47.50달러를 현금으로 주는 56억 6,000만 달러 거래를 맺으면서 브레이즈 주가가 51% 넘게 뛰었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "세일즈포스, 마케팅 플랫폼 브레이즈 57억 달러에 인수…주당 47.50달러 현금",
+ "one": "세일즈포스가 마케팅 플랫폼 브레이즈를 기업가치 약 57억 달러(56억 6,000만 달러)에 사기로 했다\n· 브레이즈 주주는 주당 47.50달러를 현금으로 받아 직전 종가 30.04달러보다 약 58% 높다\n· 발표 뒤 브레이즈 주가는 51% 넘게 올랐고 세일즈포스 주가는 3% 내렸다\n· 인수는 주주·규제 승인을 거쳐 2028 회계연도에 마무리될 예정이다",
+ "facts": [
+  "무엇이: 세일즈포스는 10월 20일 마케팅 플랫폼 브레이즈를 기업가치 약 56억 6,000만 달러(약 57억 달러)에 인수하는 확정 계약을 맺었다 [사실]",
+  "조건: 브레이즈 A주 주주는 주당 47.50달러를 현금으로 받으며 직전 종가 30.04달러 대비 약 58% 웃돈이다 [사실]",
+  "주가: 브레이즈 주가는 51% 넘게 올라 45.57달러에 마감했고 세일즈포스 주가는 3% 내렸다 [사실]",
+  "일정·목적: 주주·규제 승인을 거쳐 2028 회계연도에 마무리할 예정이며, 브레이즈의 실시간 고객 참여 도구를 데이터 360·에이전트포스와 묶는다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "세일즈포스 보도자료·CNBC 등 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "세일즈포스, 브레이즈 56억 6,000만 달러에 인수"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0633",
+ "num": 633,
+ "key": "mix-G2-033-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T18:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/australia-to-sue-facebook-tiktok-for-alleged-breaches-of-ban",
+ "origTitle": "",
+ "headline": "호주, 16세 미만 SNS 금지 위반으로 페이스북·틱톡 등 5개 플랫폼 제소 예정",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-20",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/20/australia-to-sue-facebook-tiktok-for-alleged-breaches-of-ban"
+  },
+  {
+   "o": "TBS News",
+   "d": "2026-10-20",
+   "u": "https://www.tbsnews.net/world/australia-sue-facebook-tiktok-over-violations-under-16-social-media-ban-1578311"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주, 아동 안전 강화 위해 페이스북·틱톡 제소 예정",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/australia-to-sue-facebook-tiktok-for-alleged-breaches-of-ban",
+   "s": "호주가 16세 미만 SNS 금지 위반 혐의로 페이스북·틱톡 등 5개 플랫폼을 제소하기로 하면서 최대 1억 920만 호주달러 과징금 위험이 생겼다"
+  },
+  {
+   "t": "호주, SNS 금지 위반 책임 페이스북·틱톡에 묻는다",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-20/australia-is-holding-facebook-tiktok-to-account-on-social-media-ban",
+   "s": "호주가 SNS 연령 금지 집행을 위해 페이스북·틱톡에 책임을 묻는 흐름을 짚으면서 플랫폼의 연령 확인 부담이 커질 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "호주, 16세 미만 SNS 금지 위반으로 페이스북·틱톡 등 5개 플랫폼 제소 예정",
+ "one": "호주 정부가 16세 미만 SNS 금지 위반을 이유로 페이스북·틱톡 등을 연방법원에 제소할 준비를 하고 있다\n· 아니카 웰스 통신장관은 페이스북·인스타그램·틱톡·스냅챗·유튜브 5개 서비스를 대상으로 꼽았다\n· eSafety 위원장은 3월부터 이들을 조사했고 7월 보고서는 미성년자 대부분이 계정을 유지했다고 봤다\n· 위반 시 최대 과징금은 1억 920만 호주달러로 두 배로 늘었다",
+ "facts": [
+  "무엇이: 아니카 웰스 호주 통신장관은 16세 미만 SNS 금지 위반으로 페이스북·인스타그램·틱톡·스냅챗·유튜브를 연방법원에 제소할 것이라고 했다(아직 제소 전) [사실]",
+  "근거: eSafety 위원장은 3월 이들 5개 서비스 조사에 착수했고, 7월 보고서는 약한 연령 확인 탓에 미성년자 대부분이 계정을 유지하거나 새로 만들 수 있었다고 봤다 [사실]",
+  "처벌: 최대 과징금은 1억 920만 호주달러(약 7,600만 달러)로 두 배가 됐고, 메타는 8월 16세 미만으로 판단한 계정 75만 개 이상을 막았다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 5개 플랫폼 제소 준비, eSafety 조사, 최대 과징금 1억 920만 호주달러 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "호주 16세 미만 SNS 금지 위반 제소로 미성년 이용 제한"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

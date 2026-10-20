@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0627",
+ "num": 627,
+ "key": "mix-G2-012-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:59:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk",
+ "origTitle": "",
+ "headline": "구글 클라우드 런던 전력 장애…레볼루트·영국 은행 서비스 마비 뒤 대부분 복구",
+ "src": [
+  {
+   "o": "RTÉ",
+   "d": "2026-10-20",
+   "u": "https://www.rte.ie/news/business/2026/1020/1596063-some-revolut-services-down/"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-20",
+   "u": "https://www.euronews.com/2026/10/20/digital-bank-revolut-down-in-major-worldwide-outage"
+  }
+ ],
+ "items": [
+  {
+   "t": "구글 클라우드 전력 장애, 레볼루트 등 온라인 서비스 마비",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk",
+   "s": "구글 클라우드 런던 리전의 전력 장애로 레볼루트와 영국 은행 등 온라인 서비스가 멈추면서 클라우드 의존 금융사의 운영 위험이 드러났다"
+  },
+  {
+   "t": "영국 구글 클라우드 서비스, 장애 뒤 대부분 다시 가동",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/google-cloud-services-largely-back-up-uk-2026-10-20/",
+   "s": "구글이 영국 클라우드 서비스를 대부분 되살리면서 레볼루트 등 피해 기업의 서비스도 단계적으로 정상화됐다"
+  },
+  {
+   "t": "구글 클라우드, 유럽 지역에서 서비스 장애 겪어",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/google-cloud-services-experience-outage-europe-2026-10-20/",
+   "s": "구글 클라우드가 유럽에서 장애를 겪으면서 로이즈·HSBC 고객 접속 문제가 생기고 영국 금융행위감독청이 대응에 나섰다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "fin"
+ ],
+ "nodes": [],
+ "title": "구글 클라우드 런던 전력 장애…레볼루트·영국 은행 서비스 마비 뒤 대부분 복구",
+ "one": "구글 클라우드 런던 리전이 10월 20일 전력 문제로 멈춰 레볼루트 등 유럽 온라인 서비스가 마비됐다\n· 장애는 오전 6시 직후 시작됐고 구글은 약 6시간 뒤 대부분 서비스가 정상화됐다고 밝혔다\n· 레볼루트는 서비스가 복구됐고 고객 돈과 데이터는 안전하다고 밝혔다\n· 로이즈와 HSBC 고객도 접속 장애를 겪었고 영국 금융행위감독청은 구글·피해 기업과 접촉했다",
+ "facts": [
+  "무엇이: 구글 클라우드 런던 리전(europe-west2)이 10월 20일 오전 6시 직후 '전력 사건'으로 멈췄다 [사실]",
+  "피해: 레볼루트와 로이즈·HSBC 등 영국 은행 고객이 서비스 장애를 겪었다 [사실]",
+  "복구: 구글은 정오 직후 대부분, 이후 전체 서비스를 복구했다고 했지만 레볼루트 상태 페이지는 오후까지 일부 서비스를 부분 장애로 표시했다 [사실]",
+  "감독: 영국 금융행위감독청(FCA)은 구글·피해 기업과 대응을 협의했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 런던 리전 전력 장애, 레볼루트·로이즈·HSBC 피해, 복구, FCA 대응 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "구글 클라우드 런던 리전 전력 장애로 서비스 중단"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

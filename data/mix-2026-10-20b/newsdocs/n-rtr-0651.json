@@ -1,0 +1,71 @@
+{
+ "id": "n-rtr-0651",
+ "num": 651,
+ "key": "mix-G2-035-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:28:00+09:00",
+ "url": "https://www.reuters.com/business/media-telecom/essilorluxotticas-smart-glasses-boom-runs-into-tougher-regulatory-scrutiny-2026-10-20/",
+ "origTitle": "",
+ "headline": "스마트 안경·AI 웨어러블 규제 강화…에실로룩소티카 웨어러블 20%↑ 속 사생활 우려",
+ "src": [
+  {
+   "o": "더스타",
+   "d": "2026-10-20",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/20/essilorluxottica039s-smart-glasses-boom-runs-into-tougher-regulatory-scrutiny"
+  },
+  {
+   "o": "이코노타임스",
+   "d": "2026-10-20",
+   "u": "https://econotimes.com/EssilorLuxottica-Reports-20-Wearables-Growth-as-Privacy-Scrutiny-Builds-1757861"
+  }
+ ],
+ "items": [
+  {
+   "t": "에실로룩소티카 스마트 안경 호황, 강화된 규제 심사에 직면",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/media-telecom/essilorluxotticas-smart-glasses-boom-runs-into-tougher-regulatory-scrutiny-2026-10-20/",
+   "s": "에실로룩소티카가 웨어러블 매출 20% 증가 속에 유럽 개인정보 당국의 녹화 제한 권고와 각국 조사에 부딪히면서 스마트 안경 성장에 규제 위험이 커졌다"
+  },
+  {
+   "t": "아마존·메타 AI 웨어러블, 상시 청취 기기로 사생활 우려",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-20/amazon-meta-ai-wearables-raise-privacy-concerns-over-always-listening-devices",
+   "s": "아마존과 메타의 AI 웨어러블이 늘 듣고 있는 기기라는 점에서 사생활 우려를 키우면서 AI 기기 확산에 규제 부담이 더해지고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "스마트 안경·AI 웨어러블 규제 강화…에실로룩소티카 웨어러블 20%↑ 속 사생활 우려",
+ "one": "메타와 손잡은 에실로룩소티카의 스마트 안경 호황이 유럽 등의 사생활 규제 강화에 부딪혔다\n· 유럽 데이터보호이사회는 13일 녹화 표시등, 연속 녹화·생중계 제한, 주변인 흐림 처리를 권고했다\n· 노르웨이는 일부 장소에서 한시적 금지를 추진하고 이탈리아·오스트리아 당국은 학교 내 사용 사건을 조사하고 있다\n· 에실로룩소티카의 3분기 웨어러블 매출은 고정환율 기준 20% 늘었다\n· 아마존·메타의 상시 청취 AI 웨어러블도 사생활 우려를 키우고 있다",
+ "facts": [
+  "무엇이: 에실로룩소티카의 스마트 안경 호황이 유럽 등에서 사생활 규제 심사 강화에 부딪혔다 [사실]",
+  "규제: 유럽 데이터보호이사회는 13일 비구속 예비 성명으로 녹화 표시등, 연속 녹화·생중계 제한, 주변인 흐림 처리, 민감 장소 사용 제한을 권고했다 [사실]",
+  "각국: 노르웨이는 일부 장소 한시 금지를, 호주는 정부 일터 제한을 검토하고 이탈리아·오스트리아 당국은 학교 내 사용 사건을 조사 중이다 [사실]",
+  "실적: 에실로룩소티카의 3분기 웨어러블 매출은 고정환율 기준 20% 늘었고, 스티펠은 사생활 우려를 이 제품군의 위험으로 꼽았다 [사실]",
+  "웨어러블: 아마존·메타의 상시 청취 AI 웨어러블이 사생활 우려를 키우고 있다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "유럽 데이터보호이사회 권고·각국 조치·웨어러블 매출 20%를 검색 결과 요약으로 확인. 아마존·메타 웨어러블은 제목 기준",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "사생활 규제 강화로 스마트 안경 성장 위험"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

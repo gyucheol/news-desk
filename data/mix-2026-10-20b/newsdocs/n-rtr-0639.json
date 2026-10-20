@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0639",
+ "num": 639,
+ "key": "mix-G1-064-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T17:07:00+09:00",
+ "url": "https://www.reuters.com/business/italys-top-court-set-rule-future-troubled-taranto-steelworks-2026-10-20/",
+ "origTitle": "",
+ "headline": "이탈리아 대법원, 경영난 타란토 제철소 미래 판결 예정",
+ "src": [],
+ "items": [
+  {
+   "t": "이탈리아 대법원, 경영난 타란토 제철소 미래 판결 예정",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/italys-top-court-set-rule-future-troubled-taranto-steelworks-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "이탈리아 대법원, 경영난 타란토 제철소 미래 판결 예정",
+ "one": "이탈리아 최고 법원이 경영난에 빠진 타란토 제철소의 미래를 가를 판결을 내릴 예정이다\n· 판결은 경영난이 이어진 타란토 제철소의 운영 지속 여부에 영향을 줄 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 이탈리아 대법원이 경영난에 빠진 타란토 제철소의 미래에 대해 판결할 예정이다 [제목]",
+  "영향: 판결이 제철소 운영 지속 여부를 좌우할 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 미확인, 로이터 제목 기준",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "steel",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "대법원 판결 앞둔 타란토 제철소 향방 불투명"
+  }
+ ]
+}

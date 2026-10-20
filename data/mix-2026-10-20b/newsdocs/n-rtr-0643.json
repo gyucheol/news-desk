@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0643",
+ "num": 643,
+ "key": "mix-G1-075-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:24:00+09:00",
+ "url": "https://www.reuters.com/business/energy/polish-power-regulator-wants-wider-eu-battery-rule-exceptions-ease-grid-struggle-2026-10-20/",
+ "origTitle": "",
+ "headline": "폴란드 전력 규제당국, 전력망 부담 덜려 EU 배터리 규정 예외 확대 요구",
+ "src": [
+  {
+   "o": "ESS News",
+   "d": "2026-10-20",
+   "u": "https://www.ess-news.com/2026/10/20/poland-eases-connection-rules-for-home-batteries-up-to-2-2x-pv-power/"
+  }
+ ],
+ "items": [
+  {
+   "t": "폴란드 전력 규제당국, 전력망 부담 덜려 EU 배터리 규정 예외 확대 원해",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/polish-power-regulator-wants-wider-eu-battery-rule-exceptions-ease-grid-struggle-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/storage"
+ ],
+ "title": "폴란드 전력 규제당국, 전력망 부담 덜려 EU 배터리 규정 예외 확대 요구",
+ "one": "폴란드 전력 규제당국이 전력망 부담을 덜기 위해 EU 배터리 규정의 예외를 넓혀 달라고 요구했다\n· 폴란드는 12월 1일부터 태양광 출력 2.2배 이하 가정용 배터리를 설치 용량에서 빼는 연결 규칙 완화도 시행한다 (제목 기준)",
+ "facts": [
+  "무엇이: 폴란드 전력 규제당국이 전력망 부담을 덜기 위해 EU 배터리 규정의 예외를 넓히기를 원한다 [제목]",
+  "국내 규칙: 폴란드는 12월 1일부터 태양광 출력의 2.2배 이하인 가정용 배터리를 마이크로 설비 설치 용량에 넣지 않는 연결 규칙 완화를 시행한다 [사실]"
+ ],
+ "basis": "title",
+ "check": "규제당국의 EU 배터리 규정 예외 요구는 검색에서 찾지 못함. 가정용 배터리 연결 규칙 완화는 검색 결과 요약(ESS News)으로 확인한 별도 사실",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "폴란드, EU 배터리 규정 예외 확대 요구"
+  }
+ ]
+}

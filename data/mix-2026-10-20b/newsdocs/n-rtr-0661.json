@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0661",
+ "num": 661,
+ "key": "mix-G2-076-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:12:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/",
+ "origTitle": "",
+ "headline": "리시아 테라퓨틱스, 기업가치 최대 9억 3,800만 달러로 미국 IPO 추진",
+ "src": [
+  {
+   "o": "Renaissance Capital",
+   "d": "2026-10-20",
+   "u": "https://www.renaissancecapital.com/IPO-Center/News/122315/allergy-and-autoimmune-biotech-lycia-therapeutics-sets-terms-for-250"
+  },
+  {
+   "o": "Fierce Biotech",
+   "d": "2026-10-20",
+   "u": "https://www.fiercebiotech.com/biotech/lycia-aims-228m-generate-data-food-allergy-rival-xolair"
+  }
+ ],
+ "items": [
+  {
+   "t": "신약 개발사 리시아, 미국 IPO서 기업가치 9억 3,800만 달러 목표",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "리시아 테라퓨틱스, 기업가치 최대 9억 3,800만 달러로 미국 IPO 추진",
+ "one": "신약 개발사 리시아 테라퓨틱스가 기업가치 최대 9억 3,800만 달러를 목표로 미국 나스닥 상장에 나섰다\n· 공모는 1,470만 주를 주당 16~18달러에 팔아 약 2억 4,990만 달러를 모으는 조건이다\n· 주력 후보 LCA-0061은 식품 알레르기 초기 임상 단계다",
+ "facts": [
+  "무엇이: 리시아 테라퓨틱스는 미국 IPO에서 기업가치 최대 약 9억 3,800만 달러를 목표로 한다 [사실]",
+  "조건: 1,470만 주를 주당 16~18달러에 공모해 약 2억 4,990만 달러를 조달하며, 나스닥 종목코드는 LYCA다 [사실]",
+  "파이프라인: 노벨상 수상자 캐럴린 버토지가 세운 회사로, 주력 후보 LCA-0061은 식품 알레르기 초기 임상 중이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "공모 조건·목표 기업가치는 검색 결과 요약으로 확인(출처별로 기업가치 산정 차이 있음)",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "biotech",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "리시아 IPO로 약 2억 4,990만 달러 조달 추진"
+  }
+ ]
+}

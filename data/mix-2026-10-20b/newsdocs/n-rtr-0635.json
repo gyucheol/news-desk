@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0635",
+ "num": 635,
+ "key": "mix-G1-055-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:22:00+09:00",
+ "url": "https://www.reuters.com/world/india/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-agenda-2026-10-20/",
+ "origTitle": "",
+ "headline": "루비오 미 국무장관 인도 방문 시작…무역협정·러시아 원유 수입 의제",
+ "src": [],
+ "items": [
+  {
+   "t": "루비오, 무역협정·러시아 원유 의제로 인도 방문 시작",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/india/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-agenda-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "루비오 미 국무장관 인도 방문 시작…무역협정·러시아 원유 수입 의제",
+ "one": "마코 루비오 미 국무장관이 무역협정과 러시아산 원유를 의제로 인도 방문을 시작했다\n· 미·인도 무역협정과 인도의 러시아 원유 수입 문제가 함께 논의될 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 루비오 국무장관이 인도 방문을 시작했다 [제목]",
+  "의제: 무역협정과 러시아 원유가 방문 의제로 올랐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 독립 출처 확인 안 함(제목 기준)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미·인도 무역협정과 러시아 원유 수입 논의"
+  }
+ ]
+}

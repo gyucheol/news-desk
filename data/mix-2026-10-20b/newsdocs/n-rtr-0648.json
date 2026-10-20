@@ -1,0 +1,81 @@
+{
+ "id": "n-rtr-0648",
+ "num": 648,
+ "key": "mix-G2-025-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:49:00+09:00",
+ "url": "https://www.reuters.com/business/german-producer-prices-rise-67-yy-september-2026-10-20/",
+ "origTitle": "",
+ "headline": "독일 9월 생산자물가 6.7%↑…10월 ZEW 투자심리 28.1로 예상보다 큰 폭 하락",
+ "src": [
+  {
+   "o": "ZEW",
+   "d": "2026-10-20",
+   "u": "https://www.zew.de/en/press/latest-press-releases"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-20",
+   "u": "https://www.investing.com/news/economic-indicators/german-producer-prices-climb-67-in-september-on-energy-costs-93CH-4959184"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 9월 생산자물가 전년 대비 6.7% 상승",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/german-producer-prices-rise-67-yy-september-2026-10-20/",
+   "s": "독일 9월 생산자물가가 에너지값 급등에 전년 대비 6.7% 오르면서 2023년 3월 이후 가장 높은 상승률을 기록했다"
+  },
+  {
+   "t": "독일 10월 ZEW 투자심리, 예상보다 크게 하락",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/retail-consumer/german-investor-morale-falls-more-than-expected-october-zew-finds-2026-10-20/",
+   "s": "독일 10월 ZEW 경기기대지수가 28.1로 예상보다 크게 떨어지면서 에너지값 부담 속 독일 경기 전망이 어두워졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/growth"
+ ],
+ "title": "독일 9월 생산자물가 6.7%↑…10월 ZEW 투자심리 28.1로 예상보다 큰 폭 하락",
+ "one": "독일 9월 생산자물가가 전년 대비 6.7% 오르고 10월 ZEW 투자심리는 예상보다 크게 떨어졌다\n· 생산자물가 상승률은 8월 4.6%에서 뛰어 2023년 3월 이후 최고였고 예상치 6.2%를 웃돌았다\n· 중동 분쟁 여파로 에너지 가격이 14.9% 오르며 상승을 이끌었다\n· 10월 ZEW 경기기대지수는 플러스 28.1로 내려갔다",
+ "facts": [
+  "무엇이: 독일 9월 생산자물가는 전년 대비 6.7%, 전월 대비 1.9% 올라 2023년 3월 이후 가장 크게 뛰었다(8월 4.6%, 예상 6.2%) [사실]",
+  "동인: 에너지 가격이 14.9% 올랐고 에너지 제외 물가는 전년 대비 3.2%, 전월 대비 0.1% 올랐다 [사실]",
+  "심리: 10월 ZEW 경기기대지수는 플러스 28.1로 떨어져 예상보다 큰 폭으로 내려갔다 [사실]",
+  "물가 흐름: 독일 9월 소비자물가 상승률은 3.3%로 8월 2.9%에서 높아졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 생산자물가 6.7%·에너지 14.9% 확인, ZEW 누리집 보도자료(10월 20일 '경기 기대 하락, 28.1')로 ZEW 확인. 시장 예상치 대비 하락 폭은 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "독일 9월 생산자물가 전년 대비 6.7% 상승"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "독일 10월 ZEW 투자심리 예상보다 큰 폭 하락"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

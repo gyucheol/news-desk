@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0642",
+ "num": 642,
+ "key": "mix-G1-074-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:03:00+09:00",
+ "url": "https://www.reuters.com/business/energy/us-holds-nevada-geothermal-auction-amid-soaring-industry-interest-2026-10-20/",
+ "origTitle": "",
+ "headline": "미국, 업계 관심 급증 속 네바다 지열 부지 경매…83개 구획·26만 5,690에이커",
+ "src": [
+  {
+   "o": "BLM",
+   "d": "2026-10-20",
+   "u": "https://www.blm.gov/announcement/blm-hold-october-2026-geothermal-lease-sale-nevada"
+  },
+  {
+   "o": "Taylorville Daily News",
+   "d": "2026-10-20",
+   "u": "https://www.taylorvilledailynews.com/us-holds-nevada-geothermal-auction-amid-soaring-industry-interest/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 업계 관심 급증 속 네바다 지열 부지 경매",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/us-holds-nevada-geothermal-auction-amid-soaring-industry-interest-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/gen"
+ ],
+ "title": "미국, 업계 관심 급증 속 네바다 지열 부지 경매…83개 구획·26만 5,690에이커",
+ "one": "미국 토지관리국이 업계 관심이 커진 가운데 네바다 지열 부지 임대 경매를 열었다\n· 네바다 10개 카운티의 83개 구획, 약 26만 5,690에이커가 에이커당 최저 2달러에 나왔다\n· 올해 연방 지열 경매 6회 중 4번째로, 8월 유타 경매 평균 낙찰가는 에이커당 339달러로 사상 최고였다",
+ "facts": [
+  "무엇이: 미국 토지관리국은 10월 20일 네바다 10개 카운티 83개 구획 약 26만 5,690에이커의 지열 임대를 온라인 경쟁입찰에 부쳤다 [사실]",
+  "비교: 올해 6회 연방 지열 경매 중 4번째이자 네바다 첫 경매로, 8월 유타 경매 평균 낙찰가는 에이커당 339달러였고 1년 전 네바다는 32달러였다 [사실]",
+  "충돌: 일부 구획은 넥스트에라의 소투스 태양광 사업 부지와 겹쳤지만 토지관리국은 경매 연기 요청을 거부했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "경매 규모·최저가·이전 경매 비교를 검색 결과 요약으로 확인. 낙찰 결과는 아직 나오지 않음",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "업계 관심 급증 속 네바다 지열 부지 경매"
+  }
+ ]
+}

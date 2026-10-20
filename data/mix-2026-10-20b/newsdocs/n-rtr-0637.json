@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0637",
+ "num": 637,
+ "key": "mix-G1-061-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T17:49:00+09:00",
+ "url": "https://www.reuters.com/business/energy/italys-eni-increase-gas-processing-capacity-egypts-western-desert-2026-10-20/",
+ "origTitle": "",
+ "headline": "에니, 이집트 서부사막 멜레이하 2단계 착수…하루 1억 입방피트 가스 처리 능력",
+ "src": [
+  {
+   "o": "Egypt Oil & Gas",
+   "d": "2026-10-20",
+   "u": "https://egyptoil-gas.com/news/eni-launches-start-up-activities-for-100-mmcf-d-meleiha-gas-project-in-egypt/"
+  },
+  {
+   "o": "Zawya",
+   "d": "2026-10-20",
+   "u": "https://www.zawya.com/en/projects/energy/italys-eni-to-increase-gas-processing-capacity-in-egypts-western-desert-1774430"
+  }
+ ],
+ "items": [
+  {
+   "t": "이탈리아 에니, 이집트 서부사막 가스 처리 능력 확대",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/italys-eni-increase-gas-processing-capacity-egypts-western-desert-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/midstream"
+ ],
+ "title": "에니, 이집트 서부사막 멜레이하 2단계 착수…하루 1억 입방피트 가스 처리 능력",
+ "one": "에니가 이집트 서부사막에서 하루 1억 입방피트 규모 멜레이하 2단계 가스 처리 사업 가동에 들어갔다\n· 생산정·집하망·간선과 전용 가스 수출관을 갖춰 이집트 국내 가스 공급을 늘릴 수 있다\n· 국영 EGPC와의 합작사 아기바가 운영하며 초기 생산량과 최대치 도달 일정은 밝히지 않았다",
+ "facts": [
+  "무엇이: 에니는 10월 20일 이집트 서부사막 멜레이하 2단계 가스 허브의 가동 작업을 시작했고, 설계 처리 능력은 하루 1억 표준입방피트다 [사실]",
+  "설비: 새 생산정, 가스 집하망, 간선, 전용 가스 수출관이 포함되며 새 생산분을 기존 망에 연결해 국내 가스 공급을 늘린다 [사실]",
+  "운영: 국영 EGPC와의 합작사 아기바가 운영하고, 초기 생산량과 최대치 도달 일정은 공개되지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "멜레이하 2단계 처리 능력·구성은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "에니, 이집트 하루 1억 입방피트 처리 설비 가동"
+  }
+ ]
+}

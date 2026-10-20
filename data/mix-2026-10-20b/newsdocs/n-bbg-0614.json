@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0614",
+ "num": 614,
+ "key": "mix-G1-028-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:39:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/abb-orders-surge-past-expectations-as-data-centers-fuel-40-jump",
+ "origTitle": "",
+ "headline": "ABB 3분기 수주 40%↑ 120억 달러 사상 최대…데이터센터 호황에도 EPS 미달·주가 하락",
+ "src": [
+  {
+   "o": "ABB",
+   "d": "2026-10-20",
+   "u": "https://new.abb.com/news/detail/139696/q3-2026-results"
+  },
+  {
+   "o": "피니마이즈",
+   "d": "2026-10-20",
+   "u": "https://finimize.com/content/abbs-data-center-orders-keep-climbing-with-ai-demand"
+  }
+ ],
+ "items": [
+  {
+   "t": "ABB CEO의 데이터센터 확대 전망도 AI 우려 상쇄 못 해",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/abb-orders-surge-past-expectations-as-data-centers-fuel-40-jump",
+   "s": "ABB가 데이터센터 수요로 3분기 수주를 40% 늘렸다고 했지만, AI 수요 지속성 우려와 EPS 미달이 겹치며 주가가 약 5.3% 떨어졌다"
+  },
+  {
+   "t": "ABB '데이터센터 사업 호황'…3분기 실적은 예상 부합",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/technology/abb-says-data-centre-business-booming-q3-figures-line-with-forecasts-2026-10-20/",
+   "s": "ABB가 데이터센터 사업이 호황이라고 밝히면서 3분기 매출이 14% 늘어 97억 100만 달러를 기록했고, 전기화 부문 수주가 70% 늘었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "ABB 3분기 수주 40%↑ 120억 달러 사상 최대…데이터센터 호황에도 EPS 미달·주가 하락",
+ "one": "ABB가 3분기 데이터센터 수요로 수주를 40% 늘렸지만 이익이 예상에 못 미쳐 주가가 떨어졌다\n· 3분기 수주는 120억 5,500만 달러로 40%, 매출은 97억 100만 달러로 14% 늘었다\n· 데이터센터 수주는 세 자릿수 비율로 늘었고 전기화 부문 수주는 70% 증가했다\n· 조정 EPS 0.69달러가 예상 0.79달러를 밑돌며 주가는 약 5.3% 하락했다",
+ "facts": [
+  "무엇이: ABB의 3분기 수주는 120억 5,500만 달러로 40%, 매출은 97억 100만 달러로 14% 늘었고 수주잔고는 323억 달러였다 [사실]",
+  "데이터센터: CEO는 데이터센터 수주가 세 자릿수 비율로 늘었다고 했고, 전기화 부문 수주는 70%, 미국 수주는 82% 늘었다 [사실]",
+  "실적 미달: 조정 EPS 0.69달러가 예상 0.79달러를 밑돌았고, AI 우려 속에 주가가 약 5.3% 떨어졌다 [사실]",
+  "수익성: 영업 EBITA 마진은 20.8%로 3분기 기준 최고였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "수주·매출·EPS·주가는 검색 결과 요약(ABB 발표·인베스팅닷컴 비로이터 글)으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "데이터센터 수요로 ABB 3분기 수주 40% 증가"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

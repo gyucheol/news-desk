@@ -1,0 +1,119 @@
+{
+ "basis": "partial",
+ "check": "기준금리 5.50% 동결은 검색 결과 요약으로 확인. 2030년 3% 미만 목표와 유로존 조기 가입 발언은 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 마자르 총리는 2027년 예산안에서 재정적자를 올해 예상치인 GDP의 7.5%에서 4.9%로 줄이는 목표를 내놓았다 [사실]",
+  "재원: 1조 5,000억 포린트 넘는 지출 삭감, 자산 10억 포린트 초과 개인에 대한 부유세(연 2,000억 포린트), 대기업 법인세·에너지기업 세금 인상이 담겼다 [사실]",
+  "시장·유로 기준: 목표치는 시장 예상(로이터 설문 5.3%, 채권 투자자 중간값 5.2%)보다 공격적이고, 유로 도입 적자 상한은 GDP의 3%이며 분석가들은 가입을 2032~2033년으로 본다 [사실]",
+  "중기 목표: 마자르 총리는 2030년까지 적자를 GDP의 3% 미만으로 낮추고 유로존에 최대한 빨리 가입하는 것을 지지한다고 밝혔다 [제목]",
+  "금리: 헝가리 중앙은행은 20일 기준금리 5.50%·익일물 예금금리 4.50%를 동결하고 인하 여지를 2027년 예산에 대한 시장 반응에 연결했으며, 다음 회의는 11월 17일이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "헝가리 마자르 정부 재정·유로 행보…2027년 적자 4.9%·2030년 3% 미만 목표, 금리 동결",
+ "id": "n-bbg-0363",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "헝가리 정부가 유로 도입을 겨냥해 2027년 재정적자를 GDP의 4.9%로 줄이는 계획을 내놓으면서, 재정 신뢰 회복을 노리고 있다",
+   "t": "헝가리, 유로 도입 향한 재정적자 감축안 공개",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/hungary-to-cut-2027-budget-deficit-to-4-9-of-gdp-in-euro-push"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "s": "마자르 총리의 첫 예산안이 지출 삭감과 부유세로 적자를 GDP 5% 아래로 낮추기로 하면서, 시장 예상치 5.3%보다 강한 긴축 의지를 보였다",
+   "t": "헝가리, 마자르 첫 예산안서 적자 GDP 5% 아래로 감축",
+   "u": "https://www.reuters.com/business/hungary-cut-deficit-below-5-gdp-magyars-first-budget-plan-2026-10-19/"
+  },
+  {
+   "t": "마자르 '헝가리, 2030년까지 재정적자 3% 미만으로'",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-plans-to-bring-deficit-to-below-3-by-2030-magyar-says",
+   "s": "마자르 총리가 2030년까지 재정적자를 GDP의 3% 미만으로 줄이겠다고 밝히면서, 2027년 4.9% 목표 뒤 유로 도입 기준까지 적자를 더 낮추는 경로를 제시했다 (제목 기준)"
+  },
+  {
+   "t": "헝가리 마자르, 최대한 이른 유로존 가입 지지",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-s-magyar-backs-joining-euro-zone-as-early-as-possible",
+   "s": "마자르 총리가 유로존에 최대한 빨리 가입하는 것을 지지한다고 밝히면서 재정 긴축이 유로 도입 준비와 맞물려 진행될 전망이다 (제목 기준)"
+  },
+  {
+   "t": "헝가리, 예산·유로 경로 주목 속 기준금리 동결",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-holds-interest-rate-with-budget-and-euro-path-in-focus",
+   "s": "헝가리 중앙은행이 기준금리를 5.50%로 동결하고 추가 인하 여지를 새 예산에 대한 시장 반응에 연결하면서 완화 행보를 멈췄다"
+  }
+ ],
+ "key": "mix-G2-036-2026-10-20",
+ "nodes": [
+  "macro/cb",
+  "macro/fiscal"
+ ],
+ "num": 363,
+ "one": "마자르 헝가리 총리가 첫 예산으로 적자를 빠르게 줄이고 유로 가입을 서두르겠다고 밝혔다\n· 올해 GDP의 7.5%로 예상되는 재정적자를 2027년 4.9%로 줄이는 예산안을 내놨다\n· 재원은 1조 5,000억 포린트 넘는 지출 삭감과 부유세 등으로 마련한다\n· 마자르 총리는 2030년까지 적자를 GDP의 3% 미만으로 낮추겠다고 밝혔다\n· 그는 유로존에 최대한 빨리 가입하는 것을 지지한다고 말했다\n· 헝가리 중앙은행은 20일 기준금리를 5.50%로 동결하고 인하 여지를 예산에 대한 시장 반응에 연결했다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T21:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-19",
+   "o": "bne IntelliNews",
+   "u": "https://www.intellinews.com/hungarian-pm-presents-2027-budget-of-reconstruction-justice-and-development-targeting-4-9-deficit-477077"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "Sweden Herald",
+   "u": "https://swedenherald.com/article/hungarys-magyar-plans-to-cut-budget-deficit-to-49-of-gdp-by-2027"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/hungary-cut-deficit-5-gdp-magyars-first-budget-plan/"
+  },
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10-20",
+   "u": "https://www.intellinews.com/hungary-holds-base-rate-at-5-5-despite-below-target-inflation-477459/"
+  },
+  {
+   "o": "FX.co",
+   "d": "2026-10-20",
+   "u": "https://www.fx.co/en/forex-news/3237733"
+  }
+ ],
+ "tags": [],
+ "title": "헝가리 마자르 정부 재정·유로 행보…2027년 적자 4.9%·2030년 3% 미만 목표, 금리 동결",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/hungary-to-cut-2027-budget-deficit-to-4-9-of-gdp-in-euro-push",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "2030년까지 재정적자 GDP 3% 미만 목표"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "헝가리 기준금리 5.50% 동결"
+  }
+ ],
+ "added": "블룸버그 3건 — 2030년까지 적자 GDP 3% 미만 목표, 최대한 빠른 유로존 가입 지지, 중앙은행 기준금리 5.50% 동결 내용이 추가됨"
+}

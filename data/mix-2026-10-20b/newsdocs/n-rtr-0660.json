@@ -1,0 +1,55 @@
+{
+ "id": "n-rtr-0660",
+ "num": 660,
+ "key": "mix-G2-075-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:13:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/us-fda-issues-guidance-apps-used-with-prescription-drugs-2026-10-20/",
+ "origTitle": "",
+ "headline": "美 FDA, 처방약과 함께 쓰는 앱(PDURS) 지침 발표",
+ "src": [
+  {
+   "o": "Federal Register",
+   "d": "2023-09-19",
+   "u": "https://www.federalregister.gov/documents/2023/09/19/2023-20241/regulatory-considerations-for-prescription-drug-use-related-software-draft-guidance-for-industry"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 FDA, 처방약과 함께 쓰는 앱에 관한 지침 발표",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/us-fda-issues-guidance-apps-used-with-prescription-drugs-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "美 FDA, 처방약과 함께 쓰는 앱(PDURS) 지침 발표",
+ "one": "미국 FDA가 처방약과 함께 쓰는 앱 같은 소프트웨어에 관한 지침을 냈다\n· 2023년 초안은 제약사가 배포한 앱이 환자·의료진에게 보여 주는 내용을 처방약 표시 정보로 보고 규제하도록 했다\n· 이번 지침이 초안의 최종본인지, 무엇이 바뀌었는지는 확인되지 않았다",
+ "facts": [
+  "무엇이: 미국 FDA가 처방약과 함께 쓰는 앱에 관한 지침을 냈다 [제목]",
+  "초안 내용: 2023년 9월 PDURS 초안 지침은 제약사가 배포하는 모바일 앱·웹 도구의 출력을 처방약 표시 정보로 보고, 기기 연동 앱은 처방 정보에 넣도록 했다 [사실]",
+  "확인 못 함: 이번 발표가 최종 지침인지, 초안에서 무엇이 바뀌었는지는 확인하지 못했다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "PDURS 지침의 내용은 2023년 초안 기준으로 검색 결과 요약(Federal Register·Ropes & Gray)에서 확인. 이번 발표가 최종본인지는 확인 못 함",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "처방약 연계 앱 지침, 수급 영향은 불분명"
+  }
+ ]
+}

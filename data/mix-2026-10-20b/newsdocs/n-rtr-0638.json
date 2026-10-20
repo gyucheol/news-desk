@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0638",
+ "num": 638,
+ "key": "mix-G1-062-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T16:53:00+09:00",
+ "url": "https://www.reuters.com/business/energy/hsbc-ceo-says-alternative-routes-could-make-strait-hormuz-redundant-five-years-2026-10-20/",
+ "origTitle": "",
+ "headline": "HSBC CEO '걸프 대체 경로로 5년 안에 호르무즈 해협 불필요해질 수도'",
+ "src": [
+  {
+   "o": "The Edge Malaysia",
+   "d": "2026-10-20",
+   "u": "https://theedgemalaysia.com/node/822499"
+  },
+  {
+   "o": "LSE.co.uk",
+   "d": "2026-10-20",
+   "u": "https://www.lse.co.uk/news/hsbc-ceo-says-alternative-routes-could-make-strait-of-hormuz-redundant-in-five-years-z00dmif2psrv8hb.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "HSBC CEO '대체 경로로 5년 내 호르무즈 해협 불필요해질 수도'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/hsbc-ceo-says-alternative-routes-could-make-strait-hormuz-redundant-five-years-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil",
+  "shipping",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "HSBC CEO '걸프 대체 경로로 5년 안에 호르무즈 해협 불필요해질 수도'",
+ "one": "HSBC 엘헤데리 CEO가 걸프 국가들의 대체 물류 경로로 5년 안에 호르무즈 해협이 필요 없어질 수 있다고 말했다\n· 다만 우회 송유관은 사우디(홍해)와 UAE(오만만)만 갖고 있어 다른 걸프 산유국은 해협 의존이 크다\n· 세계은행은 전쟁 여파로 중동·북아프리카·파키스탄 경제가 올해 1.3% 역성장할 것으로 봤다",
+ "facts": [
+  "무엇이: 엘헤데리 CEO는 10월 20일 두바이 HSBC 퓨처 포럼에서 걸프 자금의 대체 물류 경로로 호르무즈가 아마 5년 안에 불필요해질 수 있다고 했다 [사실]",
+  "한계: 우회 송유관은 사우디·UAE만 운영하고 전쟁 전 여유 용량도 해협 물동량에 크게 못 미치며, 사우디 동서 송유관은 드론 공격으로 멈췄다가 감량 재가동됐다 [사실]",
+  "배경: 세계은행은 중동·북아프리카·파키스탄 지역이 올해 1.3% 역성장한다고 봤고, 사우디 투자회의는 리야드 공격으로 2027년으로 미뤄졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 두바이 포럼 발언(5년 내 호르무즈 불필요 가능)과 우회로 한계·세계은행 전망 확인",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "걸프 대체 경로로 5년 내 호르무즈 우회 가능성"
+  }
+ ]
+}

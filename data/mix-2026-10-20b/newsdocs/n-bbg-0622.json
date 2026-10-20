@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0622",
+ "num": 622,
+ "key": "mix-G1-063-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T14:13:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/chinese-nickel-firms-plan-to-discuss-cutting-indonesian-output",
+ "origTitle": "",
+ "headline": "中 니켈 4사, 인니 생산 감축 논의…각사 약 30% 감산안·니켈값 5월 고점 대비 20%↓",
+ "src": [
+  {
+   "o": "인도네시아 광업협회",
+   "d": "2026-10-20",
+   "u": "https://ima-api.org/chinese-backed-nickel-smelters-in-indonesia-consider-output-cuts/"
+  },
+  {
+   "o": "IDX채널",
+   "d": "2026-10-20",
+   "u": "https://www.idxchannel.com/economics/harga-nikel-tertekan-4-perusahaan-china-pertimbangkan-pengurangan-produksi-di-ri"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 니켈 기업들, 인도네시아 생산 감축 논의 계획",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/chinese-nickel-firms-plan-to-discuss-cutting-indonesian-output"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "中 니켈 4사, 인니 생산 감축 논의…각사 약 30% 감산안·니켈값 5월 고점 대비 20%↓",
+ "one": "칭산 등 중국 니켈 기업 4곳이 인도네시아 공장의 생산 감축을 논의할 계획이다\n· 각사가 생산을 약 30% 줄이는 안이 거론되지만 합의는 보장되지 않는다\n· 니켈값은 5월 고점보다 약 20% 내렸고 황 가격 상승으로 HPAL 공장 수익성이 나빠졌다",
+ "facts": [
+  "무엇이: 칭산·GEM·리전드·화유코발트 4사가 10월 20일 인도네시아 배터리 소재 공장의 공동 감산을 논의할 계획이었다 [사실]",
+  "감산안: 각사가 생산을 약 30% 줄이는 안이 거론됐지만 합의는 이뤄지지 않았고, 8월 비슷한 논의도 불발됐다 [사실]",
+  "배경: 니켈값이 5월 고점보다 약 20% 내린 가운데 황 가격 상승과 인도네시아 채굴 쿼터 축소·광석값 상승으로 HPAL 공장 수익성이 나빠졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "4사 감산 논의·30% 안은 검색 결과 요약(인도네시아 광업협회·IDX채널)으로 확인, 회의 결과는 미확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "battery",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국 니켈 4사 인니 공장 약 30% 감산 논의"
+  }
+ ]
+}

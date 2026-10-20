@@ -1,0 +1,120 @@
+{
+ "added": "블룸버그·로이터 2건 — 총재 국사재판소 회부 표결 11월 후반 지정과 통화위원의 '즐로티 약세는 금리 인상 요인' 발언 내용이 추가됨",
+ "basis": "partial",
+ "check": "회부 표결 11월 후반 일정과 쟁점은 검색 결과 요약으로 확인. 통화위원의 즐로티·금리 인상 발언은 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 차르자스티 하원의장은 글라핀스키 총재의 국사재판소 회부 표결을 11월 후반에 하겠다고 밝혔다 [사실]",
+  "쟁점: 위원회 다수는 2020~21년 자산매입을 통한 간접 재정적자 조달 등을 문제 삼았고 글라핀스키는 부인했으며, 2024년 헌재 판결은 5분의 3 찬성이 필요하다고 봤지만 정부는 그 판결의 적법성을 다툰다 [사실]",
+  "이사회: 대통령실은 정부의 이사 지명 부서 거부로 새 지명이 없으면 지도부가 5명으로 줄어 11월 5일부터 기능이 멈출 수 있다고 했고, 정부는 부서 없는 임명은 무효라고 맞섰다 [사실]",
+  "대통령: 폴란드 대통령은 중앙은행 이사회 교착을 벗어날 길을 찾고 있다 [제목]",
+  "금리: 한 폴란드 통화정책위원은 즐로티 약세를 금리 인상 요인 중 하나로 꼽았다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "폴란드 중앙은행 흔들…총재 국사재판소 회부 표결 11월로·통화위원 '즐로티 약세면 인상'",
+ "id": "n-bbg-0225",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "폴란드, 중앙은행 총재 국사재판소 회부 표결 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "폴란드 대통령이 중앙은행 이사회 교착을 풀 방법을 찾으면서, 11월 5일 이후 정족수 미달로 기능이 멈출 수 있다는 우려에 대응하고 있다",
+   "t": "폴란드 대통령, 중앙은행 이사회 교착 벗어날 길 모색",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/polish-president-seeks-way-out-of-deadlock-at-the-central-bank"
+  },
+  {
+   "t": "폴란드 통화정책위원, 즐로티 약세를 금리 인상 요인으로 지목",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/polish-policymaker-flags-zloty-weakness-among-rate-hike-triggers",
+   "s": "폴란드 통화정책위원이 즐로티 약세를 금리 인상을 부를 요인으로 꼽으면서, 정치 공방 속에도 긴축 가능성이 거론되고 있다 (제목 기준)"
+  },
+  {
+   "t": "폴란드 의회, 중앙은행 총재 국사재판소 회부 표결 11월로 지정",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/finance/polands-parliament-sets-november-date-vote-central-bank-chiefs-tribunal-referral-2026-10-20/",
+   "s": "폴란드 하원의장이 글라핀스키 총재 국사재판소 회부 표결을 11월 후반으로 잡으면서 중앙은행 독립성 공방이 이사회 정족수 문제와 겹치게 됐다"
+  }
+ ],
+ "key": "mix-C067-2026-10-09",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 225,
+ "one": "폴란드 의회가 글라핀스키 중앙은행 총재 국사재판소 회부 표결을 11월로 잡으며 중앙은행 공방이 커지고 있다\n· 정부의 이사 지명 부서 거부로 11월 5일부터 이사회가 법정 최소 인원에 못 미칠 수 있다는 경고가 나왔다\n· 대통령은 중앙은행 이사회 교착을 벗어날 해법을 찾고 있다\n· 차르자스티 하원의장은 회부 표결을 11월 후반에 하겠다고 밝혔다\n· 2024년 헌재 판결은 회부에 5분의 3 찬성이 필요하다고 봤지만 정부는 그 적법성을 다툰다\n· 한 통화정책위원은 즐로티 약세를 금리 인상 요인 중 하나로 꼽았다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:41:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "RMF24",
+   "u": "https://rmf24.pl/fakty/polska/news-adam-glapinski-przed-trybunal-stanu-komisja-przeglosowala-wn,nIdn,1021168"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Super Biznes",
+   "u": "https://superbiz.se.pl/wiadomosci/koniec-prac-komisji-glapinski-blizej-trybunalu-stanu-aa-gGYK-mz2a-jCi3.html"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "wPolityce",
+   "u": "https://wpolityce.pl/gospodarka/paraliz-w-nbp-od-listopada-prezydent-nawrocki-rzuca-wyzwanie-tuskowi-,278560"
+  },
+  {
+   "d": "2026-10",
+   "o": "Archyde",
+   "u": "https://www.archyde.com/nbp-resubmits-board-appointments-to-president-nawrocki-amid-tensions-with-government/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Poland Insight",
+   "u": "https://polandinsight.com/glapinski-state-tribunal-nbp-zloty-market-reaction-october-2026/"
+  },
+  {
+   "o": "Arab News",
+   "d": "2026-10-20",
+   "u": "https://www.arabnews.com/world/polands-parliament-sets-november-date-for-vote-on-central-bank-chiefs-tribunal-referral-3007329"
+  },
+  {
+   "o": "RMF24",
+   "d": "2026-10-20",
+   "u": "https://rmf24.pl/fakty/polityka/news-glapinski-przed-trybunalem-stanu-czarzasty-o-terminie-glosow,nIdn,1022651"
+  }
+ ],
+ "tags": [],
+ "title": "폴란드 중앙은행 흔들…총재 국사재판소 회부 표결 11월로·통화위원 '즐로티 약세면 인상'",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/polish-commission-recommends-vote-on-putting-glapinski-on-trial",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "통화위원, 즐로티 약세를 금리 인상 요인으로 지목"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "총재 국사재판소 회부 표결 11월 후반 예정"
+  }
+ ]
+}

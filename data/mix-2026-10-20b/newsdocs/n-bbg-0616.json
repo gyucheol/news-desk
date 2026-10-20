@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0616",
+ "num": 616,
+ "key": "mix-G1-031-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:21:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/trump-hints-at-pulling-back-threat-of-us-bombardier-boycott",
+ "origTitle": "",
+ "headline": "트럼프 '캔자스 일자리 있는 봄바디어 해칠 계획 없다'…불매 위협 후퇴 시사",
+ "src": [
+  {
+   "o": "Detroit News",
+   "d": "2026-10-20",
+   "u": "https://www.detroitnews.com/story/news/politics/2026/10/20/trump-drops-threats-against-canadian-bombardier-after-learning-of-us-jobs/92346882007/"
+  },
+  {
+   "o": "Global News",
+   "d": "2026-10-20",
+   "u": "https://globalnews.ca/news/12109639/trump-drops-bombardier-threat/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 미국 내 봄바디어 불매 위협 철회 시사",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/trump-hints-at-pulling-back-threat-of-us-bombardier-boycott",
+   "s": "트럼프 대통령이 봄바디어 미국 불매 위협을 거둘 수 있다고 시사하면서, 캐나다 비즈니스 제트기의 미국 판매 차질 우려가 줄었다"
+  },
+  {
+   "t": "트럼프, 캔자스서 '봄바디어 해칠 계획 없다'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/us/trump-says-kansas-he-does-not-plan-hurt-bombardier-2026-10-20/",
+   "s": "트럼프가 캔자스 유세에서 봄바디어를 해치지 않겠다고 밝히면서, 위치타 공장 약 1,500명 일자리를 지키라는 지역 공화당 요구에 호응했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "트럼프 '캔자스 일자리 있는 봄바디어 해칠 계획 없다'…불매 위협 후퇴 시사",
+ "one": "트럼프 대통령이 캐나다 항공기 제조사 봄바디어에 대한 미국 불매 위협에서 물러날 뜻을 내비쳤다\n· 트럼프는 캔자스 유세에서 '봄바디어가 캔자스에 있다면 해치지 않는다'고 말했다\n· 로이터는 봄바디어의 캔자스 위치타 인력을 약 1,500명으로 전했다\n· 캔자스 공화당 상원의원들이 일자리 보호를 요구하며 압박한 것이 배경으로 꼽혔다",
+ "facts": [
+  "무엇이: 트럼프 대통령은 캔자스 유세에서 봄바디어를 해칠 계획이 없다며 9월에 꺼낸 미국 판매 차단 위협에서 물러설 뜻을 보였다 [사실]",
+  "근거: 트럼프는 봄바디어의 캔자스 인력을 이유로 들었고, 로이터는 위치타 인력을 약 1,500명, 다른 매체는 1,200명 이상으로 전했다 [사실]",
+  "압박: 로저 마셜·제리 모런 등 캔자스 공화당 상원의원이 일자리 보호를 요구했고, 봄바디어는 그 전주 위치타에 5,000만 달러 투자를 발표했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "캔자스 발언·위치타 인력·의원 압박을 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "oem",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "트럼프 봄바디어 불매 위협 후퇴 시사"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

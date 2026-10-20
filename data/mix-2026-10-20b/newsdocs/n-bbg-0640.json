@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0640",
+ "num": 640,
+ "key": "mix-G2-083-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground",
+ "origTitle": "",
+ "headline": "폴리마켓 투자자들, 칼시 추격에 쿠플란 CEO에게 변화 요구",
+ "src": [],
+ "items": [
+  {
+   "t": "폴리마켓 투자자들, 칼시 추격에 쿠플란 CEO에 변화 요구",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "폴리마켓 투자자들, 칼시 추격에 쿠플란 CEO에게 변화 요구",
+ "one": "예측시장 폴리마켓의 투자자들이 경쟁사 칼시가 입지를 넓히자 쿠플란 CEO에게 변화를 요구하고 있다\n· 칼시의 추격으로 폴리마켓 경영진에 대한 투자자 압박이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 폴리마켓 투자자들이 쿠플란 CEO에게 변화를 요구하고 있다 [제목]",
+  "배경: 경쟁사 칼시가 입지를 넓히고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 못해 블룸버그 제목 기준",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "칼시 추격으로 예측시장 경쟁 심화"
+  }
+ ]
+}

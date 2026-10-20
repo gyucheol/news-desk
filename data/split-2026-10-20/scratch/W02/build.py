@@ -432,7 +432,7 @@ E('G4-048', '정치 위험에 유로 비관론 확산…유로 5주 연속 주�
   'partial', ['n-bbg-0111#S1'],
   f'블룸버그·로이터 3건(10월 7~9일)을 묶었다. {NO}이며, 5주 연속 주간 하락은 Business Recorder 보도(10월 9일)로 뒷받침되고 나머지는 제목 기준이다.',
   ['macro'], ['macro/fx'], [('macro', 'fx', '가격', 'down', '실제', '유로, 5주 연속 주간 하락 향해')],
-  s_add={'https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks': '유럽 정치 위험이 커지면서 유로화에 대한 비관론이 시장에 퍼지고 있다',
+  s_add={'https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks': '유럽 정치 위험이 커지면서 유로화 약세를 점치는 비관론이 외환시장에 빠르게 퍼지고 있다',
          'https://www.reuters.com/world/europe/europes-woes-give-dollar-bulls-fresh-reason-press-2026-10-08/': '유럽의 정치·재정 어려움이 달러 강세론자들에게 달러 매수를 밀어붙일 새 근거를 주고 있다',
          'https://www.reuters.com/business/euro-skids-toward-fifth-weekly-fall-selling-pressure-slows-2026-10-09/': '유로가 매도 압력이 다소 누그러졌는데도 5주 연속 주간 하락을 향하면서 약세 흐름을 이어 갔다'})
 
@@ -462,7 +462,7 @@ E('G4-051', '위기 휩싸인 프랑스, ECB와 채권시장 정면 대결로 �
   f'블룸버그 2건(10월 7~8일)을 묶었다. {NO}이다.',
   ['macro'], ['macro/cb', 'macro/rates'], [('macro', 'cb', '-', 'flat', '예상', '프랑스 위기에 ECB 채권시장 개입 대결 가능성')],
   s_add={'https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-moulin-says-conditions-for-france-intervention-aren-t-met': '위기에 휩싸인 프랑스가 국채 불안 속에 ECB와 정면으로 부딪히는 국면으로 향하고 있다',
-         'https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-multiple-crises-could-drag-ecb-into-bond-market-showdown': '프랑스의 정치·재정 복합 위기가 ECB를 채권시장과의 대결로 끌어들일 수 있다'})
+         'https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-multiple-crises-could-drag-ecb-into-bond-market-showdown': '프랑스의 정치·재정 복합 위기가 ECB를 채권시장과의 정면 대결로 끌어들일 수 있다는 분석이 나왔다'})
 
 E('G4-052', '프랑스은행 총재 "현재 ECB 지원 불필요…모든 나라가 더 높은 금리 직면"',
   '물랭 프랑스은행 총재가 10월 7일 현재로선 프랑스에 ECB 지원이 필요 없다고 밝힌 데 이어 8일에는 이제 모든 나라가 더 높은 금리에 직면했다고 말하면서, 프랑스 금리 상승을 세계적 금리 상승의 일부로 보는 시각을 드러냈다',
@@ -495,7 +495,7 @@ E('G4-054', '프랑스 재무부 "국채 발행 전략 변경 없다"…장관�
   'title', [],
   f'블룸버그 2건·로이터 1건(10월 8일)을 묶었다. {NO}이다.',
   ['macro'], ['macro/fiscal'], [('macro', 'fiscal', '공급', 'mixed', '예상', '발행 전략 유지 속 단기 국채 확대 검토')],
-  s_add={'https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy': '프랑스 재무부가 국채 금리 상승에도 국채 발행 전략을 바꾸지 않겠다고 밝혔다',
+  s_add={'https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy': '프랑스 재무부가 국채 금리 상승과 시장 불안에도 기존 국채 발행 전략을 바꾸지 않겠다고 밝혔다',
          'https://www.reuters.com/business/france-is-considering-more-shorter-term-debt-issuance-finance-minister-tells-wsj-2026-10-07/': '프랑스 재무장관이 WSJ에 단기 국채 발행을 늘리는 방안을 검토 중이라고 밝혀 조달 만기 구성이 바뀔 수 있다',
          'https://www.bloomberg.com/news/articles/2026-10-08/france-has-no-problem-finding-bond-buyers-lescure-tells-bbc': '레스퀴르 장관이 프랑스 국채를 사려는 수요가 꾸준하다고 말하며 조달 불안 우려를 진화했다'})
 
@@ -531,7 +531,7 @@ E('G4-058', '유로존 재무장관들, 시장 진정 위해 프랑스에 2027�
   'title', [],
   '블룸버그·로이터 2건(10월 8~9일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없고 사실 줄에서도 장관들의 예산 통과 요구가 제목 기준으로 분류돼 있어 제목 기준이다.',
   ['macro'], ['macro/fiscal'], [('macro', 'fiscal', '-', 'flat', '예상', '유로존 장관들, 프랑스에 2027년 예산 통과 요구')],
-  s_add={'https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet': '유로존 재무장관 회의를 앞두고 프랑스 국채시장에 대한 우려가 한층 커지고 있다',
+  s_add={'https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet': '유로존 재무장관 회의를 앞두고 프랑스 국채시장에 대한 투자자들의 우려가 한층 커지고 있다',
          'https://www.reuters.com/business/finance/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets-2026-10-08/': '유로존 장관들이 시장을 진정시키려면 2027년 예산을 통과시켜야 한다고 프랑스에 요구했다'})
 
 E('G4-059', '프랑스 부채 위기, 일본의 1,450억 달러 채권 투자 시험대',

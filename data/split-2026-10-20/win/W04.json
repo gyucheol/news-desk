@@ -1,0 +1,2024 @@
+{
+ "docs": {
+  "n-bbg-0233": {
+   "title": "CCC 회사채 스프레드 12.97%p로 급등…30년 만의 신용시장 양극화",
+   "one": "CCC 등급 회사채 스프레드가 국채 대비 12.97%포인트로 BBB의 약 12배까지 벌어지는 사이 BB·투자등급은 거의 움직이지 않고 국채 금리 고공행진과 AI 인프라 차입 우려가 겹치면서, 가장 취약한 차입자들의 자금 조달 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 지난주 금요일 CCC 등급 스프레드는 국채 대비 12.97%포인트로 BBB(1.06%포인트)의 약 12배였고, 매뉴라이프 존핸콕은 CCC만 홀로 이렇게 급격히 벌어진 것은 30년 만에 처음이라고 했다 [채널]",
+    "확인: 10월 15일 기준 신용 스프레드 트래커에서 CCC 옵션조정 스프레드는 12.78%로 4주간 202bp 넓어진 반면 BB는 41bp 확대에 그쳤다 [사실]",
+    "원인: 10년물·30년물 미 국채 금리가 수십 년 만의 최고치를 찍고 AI 인프라 차입 우려가 커졌으며, 지난주 코어위브 주식·채권이 동반 급락했다 [채널]",
+    "시장: 하이일드 지수 내 CCC 비중은 사상 최저인 8.6%이고 대표 하이일드 ETF의 연초 이후 총수익률은 -0.2%이며, J.P.모건 자산운용은 파국보다 성장통에 가깝다고 봤다 [채널]",
+    "기존: CCC 등급 스프레드는 9월 30일 약 1,007bp로 SVB 사태 이후 처음 1,000bp를 넘었다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 CCC 스프레드만 급격히 넓어지고 BB·투자등급은 소폭 움직인 점(10월 15일 CCC 12.78%, 4주간 +202bp 대 BB +41bp) 확인. 12.97%포인트, BBB 1.06%포인트, 매뉴라이프의 '30년 만' 진단은 확인 못 함. 출처마다 CCC 수준 집계가 달라 수치 차이 있음",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0233#S1",
+     "o": "Tech Times",
+     "d": "2026-10-01",
+     "u": "https://www.techtimes.com/articles/328402/20261001/junk-bonds-cross-distressed-territory-high-yield-funds-now-hold-bankruptcy-bets.htm"
+    },
+    {
+     "k": "n-bbg-0233#S2",
+     "o": "The Trading Tools 신용 스프레드 트래커",
+     "d": "2026-10-15",
+     "u": "https://www.thetrading.tools/credit-spreads"
+    },
+    {
+     "k": "n-bbg-0233#S3",
+     "o": "Penn Mutual AM",
+     "d": "2026-10-15",
+     "u": "https://www.pennmutualam.com/market-insights/blogs/chart-of-the-week/2026-10-15-wider-ccc-spreads-signal-growing-stress"
+    }
+   ],
+   "inds": [
+    "macro",
+    "fin"
+   ],
+   "nodes": [
+    "macro/liquidity",
+    "macro/rates"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "실제",
+     "node": "liquidity",
+     "t": "CCC 스프레드 12.97%포인트로 BBB의 약 12배"
+    }
+   ]
+  },
+  "n-bbg-0234": {
+   "title": "美 모기지 금리 7.5%에 주택 한파…건설업체 심리 14년 만에 최저, 채권 발행도 보류",
+   "one": "30년 모기지 금리가 7.4~7.5%로 오르며 9월 매매 계약이 2014년 이후 최저로 줄고 구매 신청이 6주째 부진한 데 이어, 10월 건설업체 심리지수가 29로 14년 만에 최저로 떨어져 업체 43%가 집값을 내리고 모기지·오피스 채권 발행도 보류되면서 주택 자금 조달이 막히고 있다",
+   "facts": [
+    "무엇이: NAHB·웰스파고 주택시장지수는 10월 29로 3포인트 내려 2012년 6월 이후 최저였고, 업체의 43%가 집값을 내리고 65%가 판매 인센티브를 썼다 [사실]",
+    "금리: MBA 집계 30년 고정 모기지 계약금리는 7.50%로 2023년 11월 이후 최고였고, 구매 신청은 6주째 부진해 1년 전보다 16% 낮았다 [사실]",
+    "거래: 9월 기존주택 판매는 연율 399만 채로 1.5% 늘었지만, 9월 매매 계약은 전월보다 4% 줄어 2014년 이후 최저였고 계약 취소율은 14.5%로 치솟았다 [사실]",
+    "채권: 미국 모기지채권 펀드에서 2021년 이후 최악 수준의 자금이 빠졌고, 피겨테크놀로지 계열 3억 4,600만 달러 주택저당증권에 이어 맨해튼 오피스 빌딩 관련 채권 발행도 보류됐다 [제목]",
+    "영국: 라이트무브는 영국 주택시장에 모기지 금리의 영향이 나타나고 있다고 했다 [제목]"
+   ],
+   "check": "NAHB 지수 29(2012년 6월 이후 최저), 가격 인하 43%·인센티브 65%, 7% 넘는 모기지 금리는 NAHB 보도자료 검색 결과 요약으로 확인. 맨해튼 오피스 채권 보류, 영국 라이트무브 내용은 제목만 근거",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0234#S1",
+     "o": "레드핀(PR Newswire)",
+     "d": "2026-10-12",
+     "u": "https://www.prnewswire.com/news-releases/us-pending-home-sales-sink-near-12-year-low-302905207.html"
+    },
+    {
+     "k": "n-bbg-0234#S2",
+     "o": "The MortgagePoint",
+     "d": "2026-10-12",
+     "u": "https://themortgagepoint.com/2026/10/12/pending-home-sales-fall-to-near-12-year-low/"
+    },
+    {
+     "k": "n-bbg-0234#S3",
+     "o": "NAR",
+     "d": "2026-10-13",
+     "u": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+    },
+    {
+     "k": "n-bbg-0234#S4",
+     "o": "Calculated Risk",
+     "d": "2026-10-13",
+     "u": "https://calculatedrisk.substack.com/p/nar-existing-home-sales-increased-a4b"
+    },
+    {
+     "k": "n-bbg-0234#S5",
+     "o": "Inman",
+     "d": "2026-10-13",
+     "u": "https://www.inman.com/2026/10/13/existing-home-sales-september-2026/"
+    },
+    {
+     "k": "n-bbg-0234#S6",
+     "o": "MBA",
+     "d": "2026-10-14",
+     "u": "https://www.mba.org/news-and-research/newsroom/news/2026/10/14/mortgage-applications-decrease-in-latest-mba-weekly-survey"
+    },
+    {
+     "k": "n-bbg-0234#S7",
+     "o": "HousingWire",
+     "d": "2026-10-14",
+     "u": "https://www.housingwire.com/articles/mba-applications-slip-2-7/"
+    },
+    {
+     "k": "n-bbg-0234#S8",
+     "o": "Trusted Mortgage Capital",
+     "d": "2026-10-17",
+     "u": "https://www.trustedmortgagecapital.com/mortgage-bond-sales-put-on-hold-as-investors-demand-moreyield/"
+    },
+    {
+     "k": "n-bbg-0234#S9",
+     "o": "Quartz",
+     "d": "2026-10-12",
+     "u": "https://qz.com/us-mortgage-bond-fund-outflows-worst-since-2021-101226"
+    },
+    {
+     "k": "n-bbg-0234#S10",
+     "o": "NAHB",
+     "d": "2026-10-19",
+     "u": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates"
+    },
+    {
+     "k": "n-bbg-0234#S11",
+     "o": "HousingWire",
+     "d": "2026-10-19",
+     "u": "https://www.housingwire.com/articles/nahb-builder-confidence-14-year-low-october/"
+    }
+   ],
+   "inds": [
+    "macro",
+    "realestate"
+   ],
+   "nodes": [
+    "macro/rates"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "수요",
+     "ind": "realestate",
+     "k": "실제",
+     "node": "housing",
+     "t": "건설업체 심리 2012년 이후 최저, 43% 가격 인하"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "realestate",
+     "k": "실제",
+     "node": "finance",
+     "t": "모기지·맨해튼 오피스 채권 발행 잇따라 보류"
+    }
+   ]
+  },
+  "n-bbg-0240": {
+   "title": "앨버트슨, 크로거 상대 합병 무산 소송 재판 시작…80억 달러대 청구 속 구조조정",
+   "one": "앨버트슨이 연간 전망을 철회하고 전면 사업 검토에 들어간 가운데 크로거를 상대로 위약금 6억 달러와 80억 달러 넘는 주주 프리미엄 손실 등을 청구한 합병 무산 소송 재판이 시작되면서, 미국 식료품 체인 재편의 비용을 누가 질지 가려지게 됐다",
+   "facts": [
+    "무엇이: 앨버트슨이 크로거를 상대로 낸 합병 무산 소송이 10월 19일 델라웨어 형평법원에서 배심원 없이 시작됐고, 재판은 2주 예정이지만 판결은 몇 달 걸릴 수 있다 [사실]",
+    "청구: 앨버트슨은 위약금 6억 달러와 이자·비용, 주주가 잃은 프리미엄과 세금 80억 달러 이상 등 93억 달러 넘게 요구하며 크로거가 매각 점포를 충분히 내놓지 않았다고 주장한다 [사실]",
+    "반박: 크로거는 승인을 위해 10억 달러 넘게 썼지만 당시 리나 칸 FTC 위원장 체제에선 승인이 불가능했다고 맞선다 [사실]",
+    "증인: 앨버트슨 전 CEO는 합병 무산 책임을 크로거에 돌렸다 [제목]",
+    "기존: 앨버트슨은 13일 2분기 순이익이 5,150만 달러로 줄자 2026회계연도 전망을 철회하고 전면 사업 검토에 들어갔고, 크로거는 본사 인력 37% 감원을 밝혔다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 10월 19일 델라웨어 형평법원 재판 개시, 청구액(위약금 6억 달러+80억 달러 이상, 합계 93억 달러 이상), 크로거 반박 확인. 매체마다 청구액 표기가 80억~93억 달러로 다름",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0240#S1",
+     "o": "WVXU",
+     "d": "2026-10-12",
+     "u": "https://www.wvxu.org/local-news/2026-10-12/kroger-cut-3000-jobs-cincinnati"
+    },
+    {
+     "k": "n-bbg-0240#S2",
+     "o": "GV Wire",
+     "d": "2026-10-12",
+     "u": "https://gvwire.com/2026/10/12/kroger-plans-to-eliminate-3000-corporate-roles-memo-shows-as-it-expands-ai-use"
+    },
+    {
+     "k": "n-bbg-0240#S3",
+     "o": "Chain Store Age",
+     "d": "2026-10-13",
+     "u": "https://chainstoreage.com/albertsons-beats-street-q2-profit-pulls-guidance-review-business"
+    },
+    {
+     "k": "n-bbg-0240#S4",
+     "o": "Quartz",
+     "d": "2026-10-13",
+     "u": "https://qz.com/albertsons-suspends-guidance-business-review-profit-falls-101326"
+    },
+    {
+     "k": "n-bbg-0240#S5",
+     "o": "Grocery Dive",
+     "d": "2026-10-19",
+     "u": "https://www.grocerydive.com/news/albertsons-kroger-trial-merger-supermarket-grocery/833261/"
+    },
+    {
+     "k": "n-bbg-0240#S6",
+     "o": "Supermarket News",
+     "d": "2026-10-19",
+     "u": "https://www.supermarketnews.com/mergers-acquisitions/kroger-albertsons-ex-ceos-to-testify-in-failed-merger-trial"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "flat",
+     "f": "-",
+     "ind": "consumer",
+     "k": "실제",
+     "node": "retail",
+     "t": "합병 무산 손해배상 재판 시작, 판결 전이라 수급 영향 없음"
+    }
+   ]
+  },
+  "n-bbg-0280": {
+   "title": "월가 토큰화·스테이블코인 확산…JPM코인 이더리움 진출, 송금사도 스테이블코인",
+   "one": "알파카가 토큰화 주식 붐을 타고 프라임 브로커리지에 나선 데 이어 JP모건이 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 올리고 웨스턴유니온·머니그램이 스테이블코인으로 돌아서면서, 토큰화 자산과 블록체인 결제가 월가 결제망과 국제 송금으로 넓어지고 있다",
+   "facts": [
+    "무엇이: JP모건 블록체인 부문 키넥시스는 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝혔고, 실제 가동 시점은 보도마다 엇갈린다 [사실]",
+    "대상: 이더리움판 JPM코인은 온체인으로 결제하는 대형 암호화폐 기업과 토큰화 자산 거래의 결제·담보에 쓰려는 금융기관을 겨냥하며, 2025년 11월 베이스에서 처음 나왔다 [사실]",
+    "송금: 암호화폐가 송금 시장을 흔들자 웨스턴유니온·머니그램이 스테이블코인으로 돌아서고 있다 [제목]",
+    "운용: 블랙록은 토큰화 펀드가 월가 결제 인프라로 들어가고 있다고 본다 [제목]",
+    "기존: 토큰화 미국 주식·ETF의 약 94%를 청산 또는 수탁하는 알파카가 프라임 브로커리지에 진출한다 [사실]"
+   ],
+   "check": "JPM코인 이더리움 진출(키넥시스 10월 19일 발표, 기관 한정, 2025년 11월 베이스 출시)을 검색 결과 요약으로 확인했지만 가동 시점은 엇갈림. 블랙록·웨스턴유니온·머니그램·송금 시장 기사는 제목 기준",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0280#S1",
+     "o": "CoinDesk",
+     "d": "2026-07-16",
+     "u": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure"
+    },
+    {
+     "k": "n-bbg-0280#S2",
+     "o": "Coin Insider",
+     "d": "2026-10-19",
+     "u": "https://www.coininsider.org/news/jpmorgan-jpm-coin-ethereum-institutional-clients/"
+    },
+    {
+     "k": "n-bbg-0280#S3",
+     "o": "Unchained",
+     "d": "2026-10-19",
+     "u": "https://unchainedcrypto.com/jpmorgan-picks-ethereum-for-jpm-coin-citing-the-networks-liquidity-and-client-use/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "공급",
+     "ind": "fin",
+     "k": "실제",
+     "node": "payments",
+     "t": "JPM코인 이더리움 진출·송금사 스테이블코인 도입"
+    }
+   ]
+  },
+  "n-bbg-0313": {
+   "title": "호주 노동시장 예상보다 빨리 완화·NAB 2,500명 감원…뉴질랜드는 추가 인상 전망",
+   "one": "호주 9월 취업자가 3만 9,300명 줄고 켄트 호주중앙은행 부총재보가 노동시장이 예상보다 빨리 느슨해진다고 한 데 이어 NAB가 최대 2,500명 감원을 밝히면서 호주 인상 베팅은 약해졌지만, 뉴질랜드는 물가 급등에 추가 인상 전망이 커졌다",
+   "facts": [
+    "무엇이: 호주 9월 취업자가 3만 9,300명 줄고 실업률은 5년 만의 최고인 4.7%에 머물렀으며, 시장은 약 2만 명 증가를 예상했다 [사실]",
+    "켄트: 크리스토퍼 켄트 호주중앙은행 부총재보(금융시장 담당)는 19일 노동시장이 예상보다 빨리 느슨해지고 있다고 말했다 [제목]",
+    "NAB: NAB는 2027년 중반까지 인력의 약 6%인 최대 2,500명(연말 전 최대 1,500명)을 줄이고 컨설턴트·외부 계약자 사용도 크게 줄이며, 세전 약 3억 호주달러의 구조조정 비용을 반영한다 [사실]",
+    "호주 금리: 호주중앙은행은 9월 말 기준금리를 4.60%로 올렸고 시장은 11월 인상 베팅을 줄였으며, 10월 28일 3분기 CPI가 관건이다 [사실]",
+    "뉴질랜드: 뉴질랜드 2분기 물가 상승률은 4.1%였고, 이코노미스트들은 3분기 CPI 발표를 앞두고 10월 28일 기준금리 인상이 여전히 유력하다고 봤다 [사실]"
+   ],
+   "check": "NAB 감원 규모·시기·구조조정 비용, 뉴질랜드 2분기 물가와 10월 인상 가능성을 검색 결과 요약으로, 켄트의 직함과 19일 발언 일정을 RBA 사이트로 확인. 켄트의 노동시장 완화 발언 내용과 뉴질랜드 연말 물가 급등 전망은 제목 기준",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0313#S1",
+     "o": "호주 통계청(ABS)",
+     "d": "2026-10-15",
+     "u": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+    },
+    {
+     "k": "n-bbg-0313#S2",
+     "o": "ABC News",
+     "d": "2026-10-15",
+     "u": "https://www.abc.net.au/news/2026-10-15/unemployment-rate-september-2026-australia/107268870"
+    },
+    {
+     "k": "n-bbg-0313#S3",
+     "o": "investingLive",
+     "d": "2026-10-15",
+     "u": "https://investinglive.com/central-banks/aud-lower-australian-jobs-fall-39-300-in-september-unemployment-at-five-year-high-of-4-7/"
+    },
+    {
+     "k": "n-bbg-0313#S4",
+     "o": "Capital Brief",
+     "d": "2026-10-20",
+     "u": "https://www.capitalbrief.com/article/nab-to-cut-2500-jobs-in-major-restructure-a79655b2-bc72-4ff1-8504-46f892518663/"
+    },
+    {
+     "k": "n-bbg-0313#S5",
+     "o": "ABC News(호주)",
+     "d": "2026-10-20",
+     "u": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316"
+    },
+    {
+     "k": "n-bbg-0313#S6",
+     "o": "interest.co.nz",
+     "d": "2026-10",
+     "u": "https://www.interest.co.nz/economy/140719/inflation-projected-soften-slightly-and-temporarily-september-quarter-economists-say"
+    },
+    {
+     "k": "n-bbg-0313#S7",
+     "o": "호주중앙은행 연설 목록",
+     "d": "2026-10-19",
+     "u": "https://www.rba.gov.au/speeches/"
+    }
+   ],
+   "inds": [
+    "macro",
+    "fin"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/fx",
+    "macro/growth"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "수요",
+     "ind": "macro",
+     "k": "실제",
+     "node": "growth",
+     "t": "호주 9월 일자리 3만 9,300개 감소·노동시장 빠른 완화"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "예상",
+     "node": "cb",
+     "t": "뉴질랜드 물가 급등에 추가 인상 전망"
+    }
+   ]
+  },
+  "n-bbg-0338": {
+   "title": "中 AI·태양광 기술·터널굴착기 수출통제…대만도 대중 AI칩 반출 형사처벌",
+   "one": "중국이 AI·바이오·태양광 기술 40개를 수출 금지·제한 목록에 넣는 개정안으로 AI 기술 23개와 태양광 셀 기술을 묶고 11월 18일부터 터널굴착기 수출 허가제를 도입하는 사이, 대만은 대중 AI 칩 무단 반출을 형사 처벌하기로 하면서 양안 기술·장비 거래 문턱이 함께 높아지고 있다",
+   "facts": [
+    "무엇이: 중국 상무부는 10월 19일 토압식·이수식 쉴드와 암반 터널굴착기, 그 부품을 이중용도 품목으로 지정해 11월 18일부터 수출을 통제하고, 같은 날 드론·준설선 부품 통제도 조정했다 [사실]",
+    "AI·바이오: 40개 기술 개정 초안에는 LLM·AI 에이전트·칩 설계·컴퓨팅 클러스터 등 AI 기술 23개가 들어갔고 진행 중인 기술 이전에도 임시 등록 의무가 적용되며, 세포·유전자 치료·siRNA 플랫폼의 외국 인수는 막되 라이선스는 허용한다 [채널]",
+    "태양광: 개정안은 박막 웨이퍼·페로브스카이트·탠덤 셀 기술 수출을 금지하고 TOPCon·HJT·XBC 셀 기술은 제한하며 의견 수렴은 11월 15일까지이고, 중국 태양광 패널 수출은 9월에도 부진했다 [사실]",
+    "대만: 대만은 미국과의 무역협정 약속의 하나로 AI 서버·첨단 반도체를 통제 품목에 넣고 무단 대중 선적을 형사 처벌하기로 했지만, 경제부장은 시행 시기를 밝히지 않았다 [사실]",
+    "기타: 신만굉원증권은 신규 폴리실리콘 설비의 전력·용수 기준 강화로 해외·후발 업체 증설 기회가 줄 것으로 봤고, 중국은 10월 12일 신에너지차 수출 환급세율을 13%에서 9%로 낮췄다 [채널]"
+   ],
+   "check": "터널굴착기 수출 통제(11월 18일 시행)와 드론·준설선 부품 조정은 신화통신·닛케이아시아 등 검색 결과 요약으로 확인. AI 기술 23개 통제와 임시 등록 의무, 신만굉원증권의 증설 분석은 확인 못 함",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0338#S1",
+     "o": "Crypto Briefing",
+     "d": "2026-10-16",
+     "u": "https://cryptobriefing.com/taiwan-curbs-ai-chip-exports-china/"
+    },
+    {
+     "k": "n-bbg-0338#S2",
+     "o": "Startup Fortune",
+     "d": "2026-10-16",
+     "u": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/"
+    },
+    {
+     "k": "n-bbg-0338#S3",
+     "o": "MLex",
+     "d": "2026-10-16",
+     "u": "https://www.mlex.com/mlex/trade/articles/2538790"
+    },
+    {
+     "k": "n-bbg-0338#S4",
+     "o": "Geopolitechs",
+     "d": "2026-10-16",
+     "u": "https://www.geopolitechs.org/p/china-imposes-temporary-export-registration"
+    },
+    {
+     "k": "n-bbg-0338#S5",
+     "o": "Quartz",
+     "d": "2026-10-16",
+     "u": "https://qz.com/china-biotech-export-controls-licensing-deals-exemption-101626"
+    },
+    {
+     "k": "n-bbg-0338#S6",
+     "o": "중국 상무부 공고 2026년 제48호",
+     "d": "2026-10-16",
+     "u": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
+    },
+    {
+     "k": "n-bbg-0338#S7",
+     "o": "중국 상무부 대변인 문답",
+     "d": "2026-10-16",
+     "u": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html"
+    },
+    {
+     "k": "n-bbg-0338#S8",
+     "o": "증권시보",
+     "d": "2026-10-16",
+     "u": "https://www.stcn.com/article/detail/4222659.html"
+    },
+    {
+     "k": "n-bbg-0338#S9",
+     "o": "IndexBox",
+     "d": "2026-10-18",
+     "u": "https://indexbox.io/blog/china-proposes-export-controls-on-12-solar-manufacturing-technologies"
+    },
+    {
+     "k": "n-bbg-0338#S10",
+     "o": "URKU",
+     "d": "2026-10-18",
+     "u": "https://urku.org/article/china-proposes-new-solar-export-controls-what-it-means-for-global-energy"
+    },
+    {
+     "k": "n-bbg-0338#S11",
+     "o": "신화통신",
+     "d": "2026-10-19",
+     "u": "https://english.news.cn/20261019/fda010dc392047b29cfc6631d468ec4b/c.html"
+    },
+    {
+     "k": "n-bbg-0338#S12",
+     "o": "Nikkei Asia",
+     "d": "2026-10-19",
+     "u": "https://asia.nikkei.com/economy/china-announces-export-controls-for-tunnel-boring-machines"
+    }
+   ],
+   "inds": [
+    "macro",
+    "industrial",
+    "pharma",
+    "power",
+    "tech"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/semis",
+    "power/modules",
+    "power/polysilicon"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "industrial",
+     "k": "예상",
+     "node": "machinery",
+     "t": "터널굴착기 11월 18일부터 수출 허가제"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "tech",
+     "k": "예상",
+     "node": "ai",
+     "t": "LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "power",
+     "k": "예상",
+     "node": "polysilicon",
+     "t": "전력·용수 기준 강화로 폴리실리콘 증설 기회 축소"
+    }
+   ]
+  },
+  "n-bbg-0353": {
+   "title": "트럼프 '젤렌스키 말고 다른 협상가'…젤렌스키 '美가 굴복 강요' 반발",
+   "one": "트럼프 대통령이 젤렌스키가 종전 의지가 없고 러시아 디젤 정유시설 공격으로 세계 디젤 시장을 해친다고 비판한 데 이어 다른 인물이 협상을 맡을 때라고 말하고 젤렌스키는 미국이 우크라이나에 굴복을 강요한다고 맞서면서, 종전 협상의 불확실성이 커지고 있다",
+   "facts": [
+    "무엇이: 트럼프 대통령은 10월 19일 젤렌스키가 다른 사람에게 협상을 맡길 때일 수 있다고 말했고, 10일에는 우크라이나 대통령 교체를 요구한 바 있다 [사실]",
+    "디젤: 트럼프는 젤렌스키가 러시아 디젤 정유시설을 공격해 미국을 포함한 세계 디젤 시장에 타격을 주고 있으며, 러시아는 여전히 수백만 배럴의 디젤을 싸게 수출한다고 주장했다 [채널]",
+    "협상: 트럼프는 인질 협상을 포함해 상당한 진전이 있다며 러시아를 협상에서 이탈시킬 행동은 피하고 문서 서명은 나중에 할 수 있다고 했다 [채널]",
+    "반발: 젤렌스키는 트럼프가 푸틴이 아닌 우크라이나에 양보와 굴복을 압박하고 있다고 말했다 [제목]",
+    "러시아: 크렘린 강경파가 트럼프와 젤렌스키의 균열을 반기며 지속 여부를 지켜보고 있다는 보도가 나왔다 [제목]"
+   ],
+   "check": "트럼프의 '다른 협상가' 발언과 10일 대통령 교체 요구는 검색 결과 요약(TRT World·SCMP 등)으로 확인. 디젤·협상 진전 발언은 채널 원문, 젤렌스키 반발과 크렘린 반응은 기사 제목 기준",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0353#S1",
+     "o": "TRT World",
+     "d": "2026-10-19",
+     "u": "https://www.trtworld.com/article/f3e88d74769f"
+    },
+    {
+     "k": "n-bbg-0353#S2",
+     "o": "SCMP",
+     "d": "2026-10-20",
+     "u": "https://www.scmp.com/news/world/russia-central-asia/article/3371432/zelensky-should-get-somebody-else-negotiate-end-ukraine-war-trump-says"
+    }
+   ],
+   "inds": [
+    "macro",
+    "oil"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "oil",
+     "k": "실제",
+     "node": "products",
+     "t": "우크라의 러시아 디젤 정유시설 공격 지속"
+    },
+    {
+     "dir": "flat",
+     "f": "-",
+     "ind": "macro",
+     "k": "예상",
+     "node": "geo",
+     "t": "미·우크라 균열로 종전 협상 향방 불투명해 방향 판단 어려움"
+    }
+   ]
+  },
+  "n-bbg-0354": {
+   "title": "흑해 불안에 호주 밀값 최고…엘니뇨·가축 질병 겹쳐 식량 물가 압력",
+   "one": "러시아·우크라이나 공방으로 흑해 수출로 재개가 어려워져 호주산 밀값이 2024년 6월 이후 최고로 올랐지만 밀 선물값은 오히려 내린 가운데, 강한 엘니뇨와 인도네시아 팜 농가 고립, 미국 소 사육두수 감소, 브라질 가금 질병까지 겹치면서 세계 식량 물가 압력이 커질 수 있다 (채널 전언)",
+   "facts": [
+    "무엇이: 흑해 수출 통로 재개가 어려워져 대체 공급처를 찾는 수요가 몰리면서 호주산 밀 가격이 2024년 6월 이후 최고로 올랐다 [사실]",
+    "흑해·엘니뇨: 젤렌스키 대통령은 농산물 수출을 위한 흑해 민간 항행 개방을 튀르키예·이집트·인도와 협의 중이라고 밝혔고, 미 기후예측센터(CPC)는 1~3월에도 강하거나 매우 강한 엘니뇨가 이어지고 중립은 6월께에야 올 것으로 봤다 [채널]",
+    "농축산: 엘니뇨 가뭄으로 인도네시아 팜 농가가 고립되고, 가뭄으로 미국 소 사육두수가 줄어 소고기값이 계속 오르며, 브라질에서는 MBRF 납품 농장의 가금 질병과 남부 칠면조 농장의 뉴캐슬병이 확인돼 수출 위험이 생겼다 [제목]",
+    "가격·전망: 러시아·우크라이나 공습으로 합의가 어려워 보이는데도 밀 선물값은 내렸지만, 공급 충격이 쌓이면서 세계 식량 물가 상승이 거세질 것으로 예상된다 [제목]"
+   ],
+   "check": "검색 결과 요약으로 호주 주요 5개 항구 평균 밀값이 흑해 차질에 따른 대체 수요로 2024년 6월 이후 최고가 된 점 확인(원 기사 페이지는 특정 못 함, 열어 본 8월 기사는 다른 시점). 젤렌스키 흑해 협의, CPC 엘니뇨 전망, 미 소고기·브라질 가금 질병, 식량 물가 전망은 확인 못 함 독립 출처 주소를 남기지 못해 확인 수준을 채널 전언으로 낮춤.",
+   "basis": "channel",
+   "src": [],
+   "inds": [
+    "agri",
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "agri",
+     "k": "실제",
+     "node": "grains",
+     "t": "흑해 불안에 호주 밀 2024년 6월 이후 최고"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "agri",
+     "k": "실제",
+     "node": "livestock",
+     "t": "가뭄에 미국 소 사육두수 감소, 브라질 가금 질병"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "agri",
+     "k": "예상",
+     "node": "weather",
+     "t": "강한 엘니뇨 1~3월까지 이어질 전망"
+    }
+   ]
+  },
+  "n-bbg-0355": {
+   "title": "EQT, 클린어웨이 65억 달러 인수…실간은 트리비움 34억 달러에 사들여",
+   "one": "EQT가 호주 최대 폐기물 업체 클린어웨이를 부채 포함 65억 달러에 인수하기로 하고 실간이 아메리칸 인더스트리얼 파트너스와 트리비움 패키징을 34억 달러에 사들이면서, 폐기물·포장 업종에서 사모펀드가 낀 대형 거래가 잇따르고 금속 포장 업체가 하나로 합쳐지고 있다",
+   "facts": [
+    "무엇이: EQT는 클린어웨이를 주당 3.095호주달러 현금, 부채 포함 기업가치 93억 호주달러(약 65억 달러)에 인수하기로 했고, 클린어웨이 주가는 20.24% 올라 2.97호주달러에 마감했다 [사실]",
+    "조건: 인수가는 3개월 거래량가중평균가 대비 34.5% 프리미엄이며, ACCC·FIRB 승인과 주주 투표를 거쳐 2027년 3월 말까지 마무리할 예정이다 [사실]",
+    "포장: 실간과 아메리칸 인더스트리얼 파트너스(AIP)는 트리비움 패키징을 34억 달러 전액 현금에 사들여 금속 포장 회사 실간 MCC(실간 60%, AIP 40%)를 만들고, 실간은 특수·플라스틱 포장 부문을 분사하며 거래는 2027년 중반 끝날 예정이다 [사실]",
+    "브룩필드: 브룩필드의 릴라이언스 월드와이드 인수 제안은 고숍(더 나은 제안 탐색) 기간을 넘겼다 [제목]"
+   ],
+   "check": "클린어웨이 인수 조건·주가와 실간·트리비움 거래 구조는 Capital Brief·IBTimes·PlasticsToday 등 검색 결과 요약으로 확인(클린어웨이 상승률은 21%가 아닌 20.24%). 브룩필드 거래는 제목만 근거이고 금액 통화 단위가 제목에서 불분명해 금액은 뺌",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0355#S1",
+     "o": "IBTimes Australia",
+     "d": "2026-10-19",
+     "u": "https://www.ibtimes.com.au/cleanaway-shares-surge-eqt-takeover-agreement-1876980"
+    },
+    {
+     "k": "n-bbg-0355#S2",
+     "o": "PlasticsToday",
+     "d": "2026-10-19",
+     "u": "https://www.plasticstoday.com/packaging/silgan-aip-to-acquire-trivium-in-3-4-billion-deal"
+    }
+   ],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "industrial",
+     "k": "실제",
+     "node": "services",
+     "t": "EQT 인수 합의에 클린어웨이 주가 20% 급등"
+    }
+   ]
+  },
+  "n-bbg-0356": {
+   "title": "전력 수요 반등…아마존·AEP 960MW 원전 검토, 버지니아 요금 6년 동결 요구",
+   "one": "유럽 전력 수요가 수년간의 부진 뒤 다시 늘고 아마존이 AEP·X-에너지의 인디애나 960MW 소형원전 개발 자금을 대 전력을 사기로 한 가운데, 버지니아주는 넥스트에라-도미니언 거래에 6년 요금 동결을 요구해 전력회사 수익을 묶을 수 있다",
+   "facts": [
+    "무엇이: 아마존·AEP·X-에너지는 10월 19일 인디애나 설리번카운티의 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 규모 원전을 짓는 방안을 검토한다고 밝혔고, 아마존이 개발 자금을 대고 전력을 장기 계약으로 살 계획이다 [사실]",
+    "일정: 진행 여부는 2029년 말까지 결정하며, Xe-100 노형은 아직 연방 승인이 필요하고 계약 조건은 공개되지 않았다 [사실]",
+    "버지니아: 버지니아주는 넥스트에라-도미니언 거래에서 6년간 전력요금 동결을 원한다 [제목]",
+    "유럽: 유럽 전력 수요가 수년간의 부진 끝에 다시 늘고 있다 [제목]",
+    "우라늄: 센트러스 에너지는 원심분리기 케이싱 등 핵심 부품 업체 웨스터먼을 1억 1,600만 달러(현금 약 9,500만 달러, 주식 2,100만 달러)에 인수한다 [채널]"
+   ],
+   "check": "아마존·AEP·X-에너지 960MW 원전 검토를 검색 결과 요약으로 확인. 버지니아 요금 동결 요구와 유럽 전력 수요 반등은 제목 기준, 센트러스의 웨스터먼 인수는 확인 못 함",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0356#S1",
+     "o": "Utility Dive",
+     "d": "2026-10-19",
+     "u": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/"
+    },
+    {
+     "k": "n-bbg-0356#S2",
+     "o": "About Amazon",
+     "d": "2026-10-19",
+     "u": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep"
+    }
+   ],
+   "inds": [
+    "power",
+    "uranium",
+    "utilities"
+   ],
+   "nodes": [
+    "power/demand",
+    "uranium/build",
+    "uranium/enrichment"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "수요",
+     "ind": "uranium",
+     "k": "예상",
+     "node": "build",
+     "t": "아마존·AEP 인디애나 960MW 소형원전 검토"
+    },
+    {
+     "dir": "up",
+     "f": "수요",
+     "ind": "power",
+     "k": "실제",
+     "node": "demand",
+     "t": "유럽 전력 수요 수년 부진 뒤 반등"
+    },
+    {
+     "dir": "flat",
+     "f": "가격",
+     "ind": "utilities",
+     "k": "예상",
+     "node": "regulator",
+     "t": "버지니아, 도미니언 합병에 요금 6년 동결 요구"
+    }
+   ]
+  },
+  "n-bbg-0357": {
+   "title": "중동발 원가 충격…솔베이 연간 전망 하향, 美 항공권 22%↑, 라탐도 성장 제약",
+   "one": "중동 분쟁으로 사우디 사다라 과산화수소 공장이 멈춘 솔베이가 올해 EBITDA 전망을 7억 2,000만~7억 4,000만 유로로 낮추고 미국 항공 운임이 연료비 탓에 1년 새 22.4% 뛰면서, 고유가 비용이 화학 실적과 항공 승객에게 번지고 라탐항공 같은 항공사의 성장도 제약받고 있다",
+   "facts": [
+    "무엇이: 솔베이는 중동 분쟁과 사우디 사다라 단지 과산화수소 공장 가동 중단으로 2026년 기초 EBITDA 전망을 7억 7,000만~8억 5,000만 유로에서 7억 2,000만~7억 4,000만 유로로, 잉여현금흐름 전망을 2억 유로 이상에서 1억 2,000만~1억 5,000만 유로로 낮췄다 [사실]",
+    "3분기: 분쟁은 솔베이의 3분기 기초 EBITDA를 약 2,500만 유로(2분기 약 2,000만 유로) 깎았고, 3분기 기초 EBITDA는 1억 7,300만 유로, 매출은 10억 3,000만 유로였다 [사실]",
+    "항공권: 미국 항공 운임은 9월 전년 대비 22.4% 올라 전체 소비자물가 상승률 3.7%를 크게 웃돌았고, 항공사들은 값이 올라도 수요가 줄지 않는 프리미엄 좌석 고객 공략에 나섰다 [사실]",
+    "라탐: 라탐항공은 높은 연료비가 성장을 제약할 것이라고 밝혔다 [제목]"
+   ],
+   "check": "솔베이 전망 하향 수치는 회사 발표(GlobeNewswire), 미국 항공 운임 22.4%는 Airways Magazine 검색 결과 요약으로 확인. 라탐항공 발언은 확인 못 함",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0357#S1",
+     "o": "Solvay 발표(GlobeNewswire)",
+     "d": "2026-10-19",
+     "u": "https://www.globenewswire.com/news-release/2026/10/19/3383709/0/en/solvay-reports-preliminary-q3-2026-results-and-updates-full-year-2026-guidance.html"
+    },
+    {
+     "k": "n-bbg-0357#S2",
+     "o": "Airways Magazine",
+     "d": "2026-10-19",
+     "u": "https://www.airwaysmag.com/new-post/us-airline-fares-september-2026-inflation"
+    }
+   ],
+   "inds": [
+    "industrial",
+    "aero"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "industrial",
+     "k": "실제",
+     "node": "materials",
+     "t": "사다라 과산화수소 공장 가동 중단 지속"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "aero",
+     "k": "실제",
+     "node": "airlines",
+     "t": "미국 항공 운임 9월 전년 대비 22.4% 상승"
+    }
+   ]
+  },
+  "n-bbg-0358": {
+   "title": "中 신형 핵잠 미사일 시험 공개·필리핀, 中 대사 초치…남중국해 긴장",
+   "one": "중국이 신형 핵잠수함으로 미사일을 시험 발사했다고 공개하고 필리핀 외교부가 무력 사용 위협으로 읽히는 발언을 한 징취안 중국대사를 초치하면서, 남중국해를 둘러싼 중국·필리핀 갈등이 외교 마찰로 번지고 있다",
+   "facts": [
+    "무엇이: 필리핀 테레사 라사로 외교장관은 19일 징취안 중국대사를 불러 무력 사용 위협을 담았다고 본 10월 15일 발언에 강하게 항의했다 [사실]",
+    "발언: 징 대사는 테오도로 국방장관이 중국을 지역의 말썽꾼이라 부른 데 맞서 중국은 쉽게 이길 수 있지만 평화를 사랑해 무력을 쓰지 않겠다고 말했다 [사실]",
+    "반응: 중국 외교부는 대사를 두둔하며 필리핀의 반응이 과잉이라고 했고, 필리핀 일부 상원의원은 대사 추방을 요구했다 [사실]",
+    "핵잠: 중국은 신형 핵잠수함이 미사일 시험 발사에 쓰였다고 공개했다 [제목]"
+   ],
+   "check": "필리핀의 중국대사 초치와 발언 내용을 검색 결과 요약으로 확인. 중국 핵잠 미사일 시험 공개는 검색에서 찾지 못해 제목 기준",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0358#S1",
+     "o": "Rappler",
+     "d": "2026-10-19",
+     "u": "https://rappler.com/philippines/lazaro-summons-china-jing-quan-october-2026"
+    },
+    {
+     "k": "n-bbg-0358#S2",
+     "o": "The Manila Times",
+     "d": "2026-10-19",
+     "u": "https://www.manilatimes.net/2026/10/19/news/dfa-summons-chinese-envoy-to-manila-over-recent-remarks-vs-ph/2448369"
+    },
+    {
+     "k": "n-bbg-0358#S3",
+     "o": "Taipei Times",
+     "d": "2026-10-20",
+     "u": "https://www.taipeitimes.com/News/world/archives/2026/10/20/2003866304"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "vc": [
+    {
+     "dir": "flat",
+     "f": "-",
+     "ind": "macro",
+     "k": "실제",
+     "node": "geo",
+     "t": "수급 영향은 불분명한 중·필리핀 외교 마찰 격화"
+    }
+   ]
+  },
+  "n-bbg-0359": {
+   "title": "佛 55만 명 시위·폭동에 2,400명 체포…마크롱, 내무장관 사의 반려",
+   "one": "생활비·공공서비스에 항의하는 프랑스 시위에 55만 명이 몰려 폭동·약탈로 약 2,400명이 체포되고 마크롱 대통령이 누녜스 내무장관의 사의를 반려하면서, 예산이 빈 채 선거를 앞둔 프랑스의 정치 불확실성이 커지고 있다",
+   "facts": [
+    "무엇이: 프랑스 내무부 집계로 토요일 전국 110개 행진에 약 55만 명이 참여해 정보당국 예상 약 20만 명을 크게 넘었고, 약 2,400명이 체포되고 경찰·헌병 약 1,000명이 다쳤다 [사실]",
+    "피해: 당국은 여러 도시에서 최소 3,000개 사업장이 파손·약탈됐다고 추산했고, 리모주 시청은 화재로 크게 부서졌다 [사실]",
+    "정부 대응: 마크롱은 치안 지휘가 계속 필요하다며 누녜스 내무장관의 사의를 반려했고, 총리가 통행금지를 발표해 파리 2개 지역에 야간 통행금지가 내려졌다 [사실]",
+    "진정세: 보안 조치가 강화되면서 소요가 잦아들고 있지만, 예산이 빈 상태에서 시위가 이어지고 있다 [제목]"
+   ],
+   "check": "시위 규모(내무부 55만 명, 채널은 50만 명 이상), 체포 2,400명, 사업장 피해, 내무장관 사의 반려, 통행금지를 검색 결과 요약으로 확인",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0359#S1",
+     "o": "NBC News",
+     "d": "2026-10-19",
+     "u": "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292"
+    },
+    {
+     "k": "n-bbg-0359#S2",
+     "o": "ABC News(AP)",
+     "d": "2026-10-19",
+     "u": "https://abcnews.com/International/wireStory/macron-rejects-interior-ministers-resignation-rioting-looting-expose-137372032"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/geo"
+   ],
+   "vc": [
+    {
+     "dir": "flat",
+     "f": "-",
+     "ind": "macro",
+     "k": "실제",
+     "node": "fiscal",
+     "t": "예산 공백 속 대규모 시위로 정치 불확실성 확대"
+    }
+   ]
+  }
+ },
+ "clusters": [
+  {
+   "c": "G5-031",
+   "label": "CCC 회사채 스프레드 1,000bp 돌파·급등…신용시장 양극화",
+   "docs": [
+    "n-bbg-0233"
+   ],
+   "items": [
+    {
+     "t": "모건스탠리, CCC 스프레드 1,000bp 돌파·은행주 33년 만의 과매도 경고",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "s": "모건스탠리가 CCC 스프레드가 1,000bp를 넘고 은행주가 33년 만에 가장 과매도됐다며 지수 고점 아래 취약 차입자의 신용 불안이 커지고 있다고 경고했다",
+     "u": "https://t.me/HANAchina/70288"
+    },
+    {
+     "t": "CCC 회사채 스프레드 12.97%p 급등…30년 만의 신용시장 양극화",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-20",
+     "s": "CCC 등급 스프레드가 12.97%포인트로 BBB의 약 12배까지 벌어지고 다른 등급은 거의 그대로여서, 매뉴라이프가 30년 만에 처음 보는 단독 급등이라고 진단했다",
+     "u": "https://t.me/TNBfolio/71611"
+    },
+    {
+     "t": "정크본드 최하단 CCC 스프레드만 급등…AI 차입 우려·국채 금리 부담",
+     "o": "텔레그램 양파농장",
+     "d": "2026-10-20",
+     "s": "양파농장은 TNBfolio 글을 옮겨 코어위브 급락 등 AI 차입 우려와 수십 년 만의 국채 금리가 CCC 등급 차입자의 부담을 키우고 있다고 전했다",
+     "u": "https://t.me/Onionfarmer/18146"
+    }
+   ]
+  },
+  {
+   "c": "G5-032",
+   "label": "크레디아그리콜, 자동차 딜러 대출 SRT로 헤지 검토",
+   "docs": [
+    "n-bbg-0233"
+   ],
+   "items": [
+    {
+     "t": "크레디아그리콜, 자동차 딜러 SRT로 위험 부채 헤지 검토",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "크레디아그리콜이 자동차 딜러 관련 위험 부채를 SRT로 헤지하는 방안을 검토하면서 대출 위험 일부를 외부 투자자에게 넘길 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/credit-agricole-weighs-hedging-risky-debt-in-car-dealer-srt"
+    }
+   ]
+  },
+  {
+   "c": "G5-033",
+   "label": "사모펀드, 배당 리캡 여력 410억 유로 남아",
+   "docs": [
+    "n-bbg-0233"
+   ],
+   "items": [
+    {
+     "t": "사모펀드, 배당 리캡에 쓸 여력 410억 유로 남아",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "사모펀드들이 배당 리캡에 쓸 수 있는 여력이 410억 유로 남아 있어 차입을 늘려 배당을 챙기는 거래가 더 나올 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/private-equity-has-41-billion-of-headroom-for-dividend-recaps"
+    }
+   ]
+  },
+  {
+   "c": "G5-034",
+   "label": "버진미디어 채권 두고 골드만·모건스탠리 의견 엇갈려",
+   "docs": [
+    "n-bbg-0233"
+   ],
+   "items": [
+    {
+     "t": "버진미디어 채권 두고 골드만·모건스탠리 트레이더 의견 엇갈려",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "버진미디어 채권을 두고 골드만·모건스탠리 트레이더들의 의견이 엇갈리면서 해당 채권의 투자 판단이 갈리고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-morgan-stanley-traders-are-split-over-virgin-media-debt"
+    }
+   ]
+  },
+  {
+   "c": "G4-099",
+   "label": "미 중서부 주택 구입 여력 악화",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "미 중서부 주택 구입 여력, 집값·모기지 금리 상승에 악화",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "집값과 모기지 금리가 오르면서 미 중서부의 주택 구입 여력이 나빠져, 이 지역 실수요자의 내 집 마련이 어려워질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages"
+    }
+   ]
+  },
+  {
+   "c": "G4-100",
+   "label": "트럼프 지지 주택 규정, 비용 인하 노력 약화 우려",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "트럼프가 지지하는 주택 규정, 비용 인하 노력 약화시킬 수도",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "트럼프가 지지하는 주택 규정이 주택 비용을 낮추려는 노력을 약화시킬 수 있다는 지적이 나오면서, 주택 구입자의 부담이 줄지 않을 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-backed-housing-rule-could-undercut-effort-to-lower-costs"
+    }
+   ]
+  },
+  {
+   "c": "G4-101",
+   "label": "미 모기지채권 펀드 2021년 이후 최악 자금 유출",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "미국 모기지채권 펀드, 2021년 이후 최악 수준 자금 유출",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "미국 모기지채권 펀드에서 2021년 이후 최악 수준의 자금이 빠져나가면서, 모기지 시장의 자금 조달 여건이 나빠질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/us-mortgage-bond-funds-suffer-one-of-worst-outflows-since-2021"
+    }
+   ]
+  },
+  {
+   "c": "G4-102",
+   "label": "미 30년 모기지 금리 7.4~7.5%로 상승·주택 계약·구매신청 부진",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "미 모기지 금리 7%대 재상승…기존주택 계약 12년 만의 최저",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-13",
+     "s": "30년 고정 모기지 금리가 7.4%로 오르면서 9월 기존주택 매매 계약이 전월보다 4% 줄어 2014년 이후 최저가 됐고, 계약 취소율은 14.5%로 치솟았다",
+     "u": "https://t.me/HANAchina/70307"
+    },
+    {
+     "t": "미 모기지 금리 7.5% 도달…주택구매 부진 6주째 이어져",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "미국 30년 모기지 금리가 7.5%로 오르면서 주택구매 신청이 6주째 부진해 1년 전보다 16% 낮은 수준까지 떨어졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity"
+    }
+   ]
+  },
+  {
+   "c": "G4-103",
+   "label": "미 9월 기존주택 판매 1.5% 증가",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "美 기존주택 판매, 모기지 금리 충격 직전 소폭 증가",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "미국 기존주택 판매가 모기지 금리 충격 직전인 9월에 소폭 늘었지만 금리 급등의 영향이 이후 판매에 뒤늦게 반영될 수 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-existing-home-sales-edged-up-ahead-of-mortgage-rate-shock"
+    },
+    {
+     "t": "美 9월 기존주택 판매 증가…모기지 금리 상승에 전망은 흐려",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "미국 9월 기존주택 판매가 연율 399만 채로 1.5% 늘었지만 모기지 금리 상승으로 구매 자격을 갖춘 수요자가 줄어 판매 전망이 어두워졌다",
+     "u": "https://www.reuters.com/business/us-existing-home-sales-rise-september-higher-mortgage-rates-dim-outlook-2026-10-13/"
+    }
+   ]
+  },
+  {
+   "c": "G4-104",
+   "label": "투자자 수익률 요구에 모기지 채권 발행 보류",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "투자자들 더 높은 수익률 요구에 모기지 채권 발행 보류",
+     "o": "블룸버그",
+     "d": "2026-10-17",
+     "s": "투자자들이 더 높은 수익률을 요구하면서 모기지 채권 발행이 미뤄져 주택 대출 업체의 자금 조달 비용이 오를 수 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield"
+    }
+   ]
+  },
+  {
+   "c": "G4-105",
+   "label": "라이트무브 '영국 주택시장에 모기지 금리 영향'",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "라이트무브 '영국 주택시장에 모기지 금리 영향 조짐'",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "라이트무브가 영국 주택시장에 모기지 금리 상승의 영향이 나타나기 시작했다고 하면서, 영국 주택 수요도 둔화할 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/world/uk/uk-housing-market-showing-signs-mortgage-rates-impact-rightmove-says-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G4-106",
+   "label": "미 주택건설업체 심리(NAHB) 29로 14년 반 만에 최저",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "美 주택건설업체 심리, 판매 부진에 14년 만의 최저",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "NAHB 주택시장지수가 판매 부진 속 29로 떨어져 2012년 6월 이후 최저를 기록하면서, 미국 신규주택 시장 위축이 뚜렷해졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales"
+    },
+    {
+     "t": "美 주택건설업체 심리, 10월 14년 반 만의 최저 근처로 급락",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "10월 건설업체 심리가 14년 반 만의 최저로 떨어지고 업체 43%가 가격을 내리면서, 높은 금리와 자재비 부담이 분양 가격을 끌어내리고 있다",
+     "u": "https://www.reuters.com/business/us-homebuilder-sentiment-tumbles-near-14-12-year-low-october-2026-10-19/"
+    },
+    {
+     "t": "모기지 금리 7.4%에 美 주택시장 마비…건설업체 심리 최저",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "평균 30년 모기지 금리가 7.4%에 이르러 주택시장이 얼어붙고 건설업체 심리가 14년 반 만의 최저로 떨어지면서, 주택 거래 위축이 이어지고 있다",
+     "u": "https://t.me/Trillion_labs/10865"
+    }
+   ]
+  },
+  {
+   "c": "G4-107",
+   "label": "맨해튼 오피스 빌딩 담보 채권 발행 보류",
+   "docs": [
+    "n-bbg-0234"
+   ],
+   "items": [
+    {
+     "t": "맨해튼 오피스 빌딩 관련 채권 발행도 보류 대열에 합류",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "맨해튼 오피스 빌딩을 담보로 한 채권 발행이 보류되면서, 모기지 채권에 이어 상업용 부동산 자금 조달도 막히고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/bond-sale-tied-to-manhattan-office-building-is-latest-on-hold"
+    }
+   ]
+  },
+  {
+   "c": "G6-076",
+   "label": "앨버트슨, 무산된 크로거 합병 배상 소송·재판 시작",
+   "docs": [
+    "n-bbg-0240"
+   ],
+   "items": [
+    {
+     "t": "앨버트슨, 무산된 크로거 합병에 90억 달러 넘는 배상 요구",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "앨버트슨이 무산된 크로거 합병을 두고 90억 달러 넘는 배상을 요구하면서 크로거의 소송 부담이 커지게 됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/albertsons-seeks-more-than-9-billion-over-busted-kroger-deal"
+    },
+    {
+     "t": "앨버트슨 전 CEO \"합병 무산은 크로거 탓\"",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "앨버트슨 전 CEO가 법정에서 합병 무산 책임을 크로거에 돌리면서 위약금과 손해배상을 둘러싼 양사 공방이 본격화했다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/albertsons-kroger-to-call-ex-ceos-to-testify-over-failed-deal"
+    },
+    {
+     "t": "앨버트슨, 크로거 상대 80억 달러 합병 무산 소송 재판 시작",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "앨버트슨이 델라웨어 법원에서 크로거를 상대로 위약금 6억 달러와 주주 프리미엄 손실을 청구하는 재판을 시작하면서 판결에 따라 수십억 달러가 오갈 수 있게 됐다",
+     "u": "https://www.reuters.com/legal/litigation/albertsons-begins-its-8-billion-trial-against-kroger-over-failed-merger-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G6-077",
+   "label": "크로거 3년간 본사 일자리 약 37% 감축 계획",
+   "docs": [
+    "n-bbg-0240"
+   ],
+   "items": [
+    {
+     "t": "크로거, 향후 3년간 본사 일자리 37% 감축 계획",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "크로거가 향후 3년간 본사 직원 약 8,200명 중 약 3,000명을 줄이기로 하면서 AI를 업무에 들이고 아낀 비용을 가격 인하와 매장 직원에 쓰겠다고 밝혔다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/kroger-plans-to-slash-37-of-corporate-jobs-in-next-three-years"
+    },
+    {
+     "t": "크로거, 3년간 본사 직무 약 3분의 1 감축 계획(블룸버그 인용)",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "s": "로이터가 블룸버그를 인용해 크로거가 3년간 본사 직무의 약 3분의 1을 없앨 계획이라고 전하면서 크로거 본사 조직이 크게 줄어들게 됐다",
+     "u": "https://www.reuters.com/business/kroger-plans-cut-about-third-corporate-roles-over-next-three-years-bloomberg-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "c": "G6-078",
+   "label": "앨버트슨 사업 검토 착수·연간 실적 전망 철회",
+   "docs": [
+    "n-bbg-0240"
+   ],
+   "items": [
+    {
+     "t": "앨버트슨, 사업 검토 착수하며 연간 전망 중단",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "앨버트슨이 사업 전반 검토에 착수하면서 연간 실적 전망을 중단해, 투자자들은 4분기 새 목표 발표까지 가이던스 없이 지켜보게 됐다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-13/albertsons-pauses-full-year-outlook-as-it-reviews-operations"
+    },
+    {
+     "t": "미 식료품 체인 앨버트슨, 사업 검토 속 연간 전망 철회",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "앨버트슨이 조정 주당순이익 36센트로 예상을 웃돌았지만 동일점 매출이 0.8% 줄고 점유율이 밀리자 연간 전망을 거두고 비용 구조 개편에 나섰다",
+     "u": "https://www.reuters.com/business/us-grocer-albertsons-suspends-full-year-forecasts-amid-business-review-2026-10-13/"
+    }
+   ]
+  },
+  {
+   "c": "G5-035",
+   "label": "알파카, 토큰화 주식 계기로 프라임 브로커리지 진출",
+   "docs": [
+    "n-bbg-0280"
+   ],
+   "items": [
+    {
+     "t": "토큰화 주식이 알파카의 프라임 브로커리지 진출 이끌어",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage"
+    }
+   ]
+  },
+  {
+   "c": "G5-036",
+   "label": "블랙록 '토큰화 펀드, 월가 결제 인프라로 진입'",
+   "docs": [
+    "n-bbg-0280"
+   ],
+   "items": [
+    {
+     "t": "블랙록 '토큰화 펀드, 월가 결제 인프라로 들어간다'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "블랙록이 토큰화 펀드가 월가의 결제·담보 인프라로 들어가고 있다고 보면서, 토큰화 자산이 기관 금융의 기본 배관으로 쓰일 전망이다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing"
+    }
+   ]
+  },
+  {
+   "c": "G5-037",
+   "label": "JP모건, 예금 토큰 JPM코인 이더리움에 도입",
+   "docs": [
+    "n-bbg-0280"
+   ],
+   "items": [
+    {
+     "t": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "JP모건이 JPM코인을 기관 고객용으로 공개 블록체인 이더리움에 올리면서, 암호화폐 기업과 토큰화 자산 거래의 결제·담보 수단이 넓어졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients"
+    }
+   ]
+  },
+  {
+   "c": "G5-038",
+   "label": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인 선회",
+   "docs": [
+    "n-bbg-0280"
+   ],
+   "items": [
+    {
+     "t": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "암호화폐가 송금 시장을 흔들자 웨스턴유니온·머니그램이 스테이블코인을 받아들이면서, 기존 송금사의 수수료 구조가 바뀔 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/western-union-moneygram-turn-to-stablecoins-as-crypto-disrupts-money-transfers"
+    }
+   ]
+  },
+  {
+   "c": "G5-039",
+   "label": "빠른 송금 수단이 세계 해외송금 사업 흔들어(분석)",
+   "docs": [
+    "n-bbg-0280"
+   ],
+   "items": [
+    {
+     "t": "빠른 송금 수단이 세계 해외송금 사업을 뒤흔든다",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "빠른 송금 수단이 퍼지면서 세계 송금 사업이 흔들리고, 기존 송금 업체들이 새 결제 방식으로 대응을 서두르고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/transferencias-rapidas-sacuden-el-negocio-global-de-remesas-mvffayeb"
+    }
+   ]
+  },
+  {
+   "c": "G5-040",
+   "label": "호주 9월 고용 감소·실업률 4.7%…RBA 인상 베팅 축소·호주달러 약세",
+   "docs": [
+    "n-bbg-0313"
+   ],
+   "items": [
+    {
+     "t": "호주 실업률 상승에 시장, RBA 금리 인상 베팅 축소",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "호주 실업률이 5년 만의 최고 수준에 머물자 시장이 호주중앙은행의 추가 인상 베팅을 줄이면서 금리 기대가 낮아졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses"
+    },
+    {
+     "t": "호주 9월 취업자 3만 9,300명 감소…실업률 4.7%",
+     "o": "로이터",
+     "d": "2026-10-15",
+     "s": "호주 9월 취업자가 3만 9,300명 줄고 시간제 일자리가 7만 3,700개 감소하면서 실업률이 4.7%에 머물러 노동시장 둔화가 확인됐다",
+     "u": "https://www.reuters.com/world/asia-pacific/australia-employment-slides-39300-september-jobless-47-2026-10-15/"
+    },
+    {
+     "t": "RBA 인상 베팅 약해지며 호주달러 7월 이후 최저",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "고용 부진 뒤 호주중앙은행의 추가 인상 베팅이 약해지면서 호주달러가 7월 이후 가장 낮은 수준으로 떨어졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/aussie-dollar-falls-to-lowest-since-july-as-rba-hike-bets-fade"
+    }
+   ]
+  },
+  {
+   "c": "G5-041",
+   "label": "뉴질랜드중앙은행 수석이코노미스트 '다음 결정 열려 있다'",
+   "docs": [
+    "n-bbg-0313"
+   ],
+   "items": [
+    {
+     "t": "뉴질랜드중앙은행 수석이코노미스트 '다음 금리 결정 완전히 열려 있다'",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "뉴질랜드중앙은행 수석이코노미스트가 다음 금리 결정이 완전히 열려 있다고 말하면서 뉴질랜드 금리 경로의 불확실성이 커졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open"
+    }
+   ]
+  },
+  {
+   "c": "G5-042",
+   "label": "뉴질랜드 3분기 CPI 급등, 추가 금리 인상 시사",
+   "docs": [
+    "n-bbg-0313"
+   ],
+   "items": [
+    {
+     "t": "3분기 CPI, 뉴질랜드달러 약세 행진 이어질지 가를 시험대",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "뉴질랜드 3분기 CPI 발표가 다가오면서, 결과에 따라 약세를 이어 온 뉴질랜드달러의 방향이 갈릴 전망이다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-18/cpi-test-set-to-make-or-break-new-zealand-dollar-s-losing-run"
+    },
+    {
+     "t": "뉴질랜드 연말 물가 급등, 추가 금리 인상 시사",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "뉴질랜드 물가가 연말로 갈수록 크게 오를 것으로 보이면서, 뉴질랜드중앙은행이 금리를 더 올릴 가능성이 커졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/new-zealand-s-year-end-inflation-surge-points-to-more-rate-hikes"
+    }
+   ]
+  },
+  {
+   "c": "G5-043",
+   "label": "RBA 켄트 부총재보 '노동시장 예상보다 빨리 느슨해져'",
+   "docs": [
+    "n-bbg-0313"
+   ],
+   "items": [
+    {
+     "t": "호주중앙은행 인사 '노동시장 완화 신호 보여'",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "호주중앙은행 고위 인사가 노동시장이 완화되는 신호가 보인다고 말하면서, 추가 금리 인상 압력이 줄어들 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/world/asia-pacific/australia-central-banker-sees-signs-labour-market-easing-2026-10-19/"
+    },
+    {
+     "t": "켄트 RBA 부총재보 '노동시장, 예상보다 빨리 느슨해져'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "켄트 호주중앙은행 부총재보가 노동시장이 중앙은행 예상보다 빨리 느슨해지고 있다고 말하면서, 11월 추가 인상 근거가 약해질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/rba-s-kent-says-labor-market-loosening-faster-than-predicted"
+    }
+   ]
+  },
+  {
+   "c": "G5-044",
+   "label": "호주 NAB, 최대 2,500명 감원·외부 계약 축소",
+   "docs": [
+    "n-bbg-0313"
+   ],
+   "items": [
+    {
+     "t": "NAB, 2,500명 감원·컨설턴트와 외부 계약자 축소",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "NAB가 인력 약 6%인 최대 2,500명을 줄이고 외부 컨설턴트·계약자 사용도 줄이기로 하면서, 호주 고용 둔화 신호가 하나 더 늘었다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/nab-to-cut-2-500-staff-use-fewer-consultants-and-contractors"
+    },
+    {
+     "t": "호주 NAB, 운영 모델 단순화로 최대 2,500명 감원",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "NAB가 운영 모델 단순화를 내걸고 2027년 중반까지 최대 2,500명을 감원하면서, 세전 약 3억 호주달러의 구조조정 비용을 반영하게 됐다",
+     "u": "https://www.reuters.com/business/world-at-work/australias-nab-cut-up-2500-jobs-it-simplifies-operating-model-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G3-012",
+   "label": "대만, 미 무역협정 따라 대중 AI 칩·서버 수출 통제·형사처벌",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "대만, 미국과 무역협정 일환으로 대중 AI 칩 수출 억제",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "대만이 미국과의 무역협정 약속의 하나로 AI 칩의 대중 수출을 억제하기로 하면서, 대만산 첨단 칩이 중국으로 흘러가는 길이 좁아질 전망이다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal"
+    },
+    {
+     "t": "대만, AI 서버·첨단 칩 통제 품목 추가…무단 대중 선적 형사 처벌",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-16",
+     "s": "대만이 첨단 칩의 중국 밀수를 막으려는 트럼프 행정부 단속에 동참해 AI 서버와 첨단 반도체를 통제 품목에 넣으면서, 무단 대중 선적이 형사 처벌 대상이 된다",
+     "u": "https://t.me/HANAchina/70519"
+    },
+    {
+     "t": "대만, 대중 AI 칩 공급 통제 강화…미 수출 규정 위반 형사처벌",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-16",
+     "s": "대만이 미국 수출 제한 대상 AI 부품의 대중 공급을 형사범죄로 만들고 통제를 미국 체계에 맞추기로 하면서 중국의 첨단 칩 조달 길이 좁아질 전망이다",
+     "u": "https://t.me/insidertracking/66456"
+    },
+    {
+     "t": "대만, 미국과 무역협정 일환으로 대중 AI 반도체 수출 통제 강화",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-16",
+     "s": "대만이 미국과의 무역협정에 따라 대중 AI 반도체 수출 통제를 강화하면서 중국의 대만 압박이 거세질 수 있다는 관측이 나왔다",
+     "u": "https://t.me/The_MariTimes/63754"
+    },
+    {
+     "t": "대만 경제부장 '첨단 칩 중국 밀수출하면 형사처벌'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-17",
+     "s": "대만 경제부장이 허가 없는 AI 서버·첨단 칩 대중 반출을 무역법으로 처벌하겠다면서도 시행 시기를 밝히지 않아 암시장 단속 효과는 지켜봐야 한다",
+     "u": "https://t.me/HANAchina/70562"
+    }
+   ]
+  },
+  {
+   "c": "G3-013",
+   "label": "중국, AI·바이오·태양광 40개 기술 수출통제 목록·사전 등록",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국, AI·바이오·태양광 기술 40개 수출 통제 목록 추가 제안",
+     "o": "로이터",
+     "d": "2026-10-16",
+     "s": "중국이 AI·바이오의약·태양광 기술 40개를 수출 금지·제한 목록에 넣자고 제안하면서, 11월 15일까지 의견을 받는 동안 등록 의무가 곧바로 시행된다",
+     "u": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/"
+    },
+    {
+     "t": "중국, AI·태양광·바이오 기술 40종 수출 금지·제한 목록에 등재",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-16",
+     "s": "중국이 AI·태양광·바이오의약 기술 40종을 새 수출 금지·제한 품목에 넣기로 하면서 이 분야 기술의 해외 반출 문턱이 높아진다",
+     "u": "https://t.me/The_MariTimes/63755"
+    },
+    {
+     "t": "중국 상무부·과기부, 40개 기술 '수출 전 등록' 시행",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-17",
+     "s": "중국 상무부·과학기술부가 AI·바이오·태양광 40개 기술을 수출하기 전 등록하도록 하면서, 해당 기술의 해외 이전 절차가 까다로워졌다",
+     "u": "https://t.me/HANAchina/70573"
+    }
+   ]
+  },
+  {
+   "c": "G3-014",
+   "label": "중국, LLM·AI 에이전트 등 AI 기술 23개 수출통제 추진",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국, 핵심 기술 통제 위해 AI 수출 규제 계획",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "중국이 AI 모델·칩 관련 기술 23개 등을 수출 금지·제한 목록에 넣자고 제안하면서 중국산 AI 기술의 해외 이전이 까다로워질 전망이다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+    },
+    {
+     "t": "中, LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진(WSJ)",
+     "o": "텔레그램 상상인 김진범",
+     "d": "2026-10-19",
+     "s": "중국 상무부가 LLM·AI 에이전트·칩 설계 등 AI 기술 23개를 수출 통제 목록 초안에 넣고 임시 등록 의무부터 도입하면서, 중국 AI 기술의 해외 이전이 규제를 받게 됐다",
+     "u": "https://t.me/PipeBeom/6743"
+    }
+   ]
+  },
+  {
+   "c": "G3-015",
+   "label": "중국, 세포·유전자치료·siRNA 바이오 기술 수출·외국 인수 제한",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국, 바이오 기술 수출 제한 추진하되 기술이전 계약은 허용",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "중국이 세포·유전자 치료와 siRNA 기술의 수출을 묶되 라이선스·제휴는 통제에서 빼면서 중국 바이오의 해외 기술이전 거래는 이어질 수 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-looks-to-tighten-biotech-exports-allows-licensing-deals"
+    },
+    {
+     "t": "중국, 핵심 바이오 제약 플랫폼의 외국 기업 인수 금지 추진",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-17",
+     "s": "중국이 세포·유전자 치료와 siRNA 플랫폼의 외국 인수를 막는 안을 내면서도 라이선스는 열어 두어, 바이오 기술이전 거래 영향은 제한적일 수 있다",
+     "u": "https://t.me/Trillion_labs/10714"
+    }
+   ]
+  },
+  {
+   "c": "G3-016",
+   "label": "중국 상무부, 태양광 제조 기술 12개 수출통제 제안",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국, 태양광 제조 기술에 대한 수출 통제 도입 제안",
+     "o": "로이터",
+     "d": "2026-10-18",
+     "s": "중국 상무부가 박막 웨이퍼·페로브스카이트 셀 등 태양광 제조 기술 12개의 수출 금지·제한을 제안하면서 해외 공장의 기술 확보가 어려워질 수 있다",
+     "u": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G3-017",
+   "label": "중국 태양광 패널 수출 9월에도 부진",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국 태양광 패널 수출, 9월에도 부진 이어져",
+     "o": "로이터",
+     "d": "2026-10-18",
+     "s": "중국의 태양광 패널 수출이 9월에도 부진을 이어 가면서 생산능력 조정기에 놓인 중국 태양광 업계의 해외 판매 둔화가 계속됐다 (제목 기준)",
+     "u": "https://www.reuters.com/business/energy/chinas-solar-panel-exports-extend-slump-september-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G3-018",
+   "label": "중국 배터리·신에너지차 수출 환급세 인하 부담(화타이)",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "화타이증권 \"중국 수출 환급세 인하, 노동집약 업종에 더 큰 부담\"",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-18",
+     "s": "중국이 배터리·신에너지차 수출 환급세율을 낮추면서 2026~2027년 환급이 약 330억·720억 위안 줄고, 환급 의존도 높은 업종의 수익이 줄 수 있다",
+     "u": "https://t.me/HANAchina/70616"
+    }
+   ]
+  },
+  {
+   "c": "G3-019",
+   "label": "신만굉원 \"폴리실리콘 기준 강화로 中 태양광 공급 축소 가속\"",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "신만굉원 '中 정책으로 태양광 공급 축소 가속'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-19",
+     "s": "신만굉원증권이 신규 폴리실리콘 설비의 전력·용수 기준 강화로 해외·후발 업체 증설 기회가 줄 것으로 보면서, 중국 태양광 공급 축소가 빨라질 수 있다고 분석했다",
+     "u": "https://t.me/HANAchina/70664"
+    }
+   ]
+  },
+  {
+   "c": "G3-020",
+   "label": "중국 상무부, 터널굴착기 수출 통제 발표(11월 18일 시행)",
+   "docs": [
+    "n-bbg-0338"
+   ],
+   "items": [
+    {
+     "t": "중국 상무부, 터널굴착기에 대한 수출 통제 발표",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "중국 상무부가 터널굴착기와 부품을 이중용도 품목으로 묶어 11월 18일부터 수출 허가를 받게 하면서, 중국 장비에 기대는 인도 등 해외 인프라 사업에 차질이 생길 수 있다",
+     "u": "https://www.reuters.com/world/asia-pacific/china-commerce-ministry-announces-export-controls-tunnel-boring-machines-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G2-042",
+   "label": "젤렌스키 '트럼프가 러시아 아닌 우크라에 양보 압박'",
+   "docs": [
+    "n-bbg-0353"
+   ],
+   "items": [
+    {
+     "t": "젤렌스키 '트럼프가 푸틴 아닌 우크라이나에 양보 압박'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "젤렌스키 대통령이 트럼프가 푸틴이 아닌 우크라이나에 양보를 압박한다고 말하면서 미·우크라 갈등이 공개적으로 드러났다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-trump-is-pushing-ukraine-to-capitulate-to-russia"
+    },
+    {
+     "t": "젤렌스키 '트럼프가 러시아에 대한 항복 강요'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "젤렌스키가 트럼프가 러시아에 대한 항복을 강요하고 있다고 주장하면서 미국 중재 방식에 대한 반발 수위를 높였다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-18/zelenskyy-says-trump-forcing-capitulation-to-russia"
+    },
+    {
+     "t": "젤렌스키 '트럼프가 우크라이나에 러시아 양보 압박'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "젤렌스키가 트럼프가 우크라이나에 러시아에 양보하라고 압박한다고 거듭 말하면서 양국 정상 간 공방이 이어졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/zelenskyy-says-trump-is-pushing-ukraine-to-yield-to-russia"
+    },
+    {
+     "t": "젤렌스키 '트럼프가 우크라이나에 양보 강요'(뉴스레터)",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "블룸버그 뉴스레터가 트럼프가 러시아가 아닌 우크라이나를 압박한다는 젤렌스키 발언을 다시 다루면서 미·우크라 갈등에 대한 관심이 이어졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/zelenskyy-says-trump-is-pushing-ukraine-to-yield-to-russia-mvf4ptjj"
+    },
+    {
+     "t": "젤렌스키 '우크라이나 관련 미국 결정, 설명하기 어려워'",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "젤렌스키가 우크라이나에 대한 미국의 결정들을 설명하기 어렵다고 말하면서 미국 정책에 대한 당혹감을 드러냈다 (제목 기준)",
+     "u": "https://www.reuters.com/world/europe/ukraines-zelenskiy-says-us-decisions-ukraine-hard-explain-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G2-043",
+   "label": "트럼프 '젤렌스키는 유럽 돈 때문에 종전 원치 않아'",
+   "docs": [
+    "n-bbg-0353"
+   ],
+   "items": [
+    {
+     "t": "트럼프 '협상 진전 중, 젤렌스키는 종전 원치 않아'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-19",
+     "s": "트럼프가 인질 협상 등 중대한 진전을 이유로 문서 서명을 미룰 수 있다고 하면서 젤렌스키가 유럽 자금 지원 탓에 종전을 원치 않는다고 비판했다",
+     "u": "https://t.me/HANAchina/70629"
+    },
+    {
+     "t": "트럼프 '유럽·바이든 돈 때문에 젤렌스키는 종전 원치 않아'",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-19",
+     "s": "트럼프가 유럽과 바이든 전 대통령이 준 막대한 돈 때문에 젤렌스키가 처음부터 전쟁을 끝낼 생각이 없었다고 주장하면서 우크라이나 지원국까지 겨냥했다",
+     "u": "https://t.me/The_MariTimes/63829"
+    }
+   ]
+  },
+  {
+   "c": "G2-044",
+   "label": "크렘린 강경파, 트럼프·젤렌스키 균열 반겨",
+   "docs": [
+    "n-bbg-0353"
+   ],
+   "items": [
+    {
+     "t": "크렘린 강경파, 트럼프·젤렌스키 균열 반겨…지속될지가 관건",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "크렘린 강경파가 트럼프와 젤렌스키의 균열을 반기면서도 그 균열이 오래갈지를 지켜보고 있다 (제목 기준)",
+     "u": "https://www.reuters.com/world/europe/kremlin-hawks-savour-trump-zelenskiy-rift-if-it-lasts-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G2-045",
+   "label": "트럼프 '젤렌스키는 종전 협상에서 빠져야'",
+   "docs": [
+    "n-bbg-0353"
+   ],
+   "items": [
+    {
+     "t": "트럼프 '젤렌스키는 다른 사람에게 종전 협상 맡겨야'",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "트럼프가 젤렌스키 대신 다른 인물이 종전 협상을 맡아야 한다고 말하면서 우크라이나 지도부 교체 압박을 이어 갔다",
+     "u": "https://www.reuters.com/world/trump-says-zelenskiy-should-get-somebody-else-negotiate-end-war-2026-10-19/"
+    },
+    {
+     "t": "트럼프, 평화협상서 젤렌스키 배제 주장…'100만 명 더 살았을 것'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-20",
+     "s": "트럼프가 젤렌스키에게 선거를 요구한 데 이어 협상 배제를 공개 주장하면서 자기 말을 들었으면 우크라이나인 100만 명이 더 살았을 것이라고 반박했다",
+     "u": "https://t.me/insidertracking/66733"
+    }
+   ]
+  },
+  {
+   "c": "G2-046",
+   "label": "우크라이나, 곡물 회랑·흑해 항행 개방 튀르키예·인도·이집트와 협의",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "우크라이나, 곡물 회랑 두고 튀르키예·인도·이집트와 협의",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "우크라이나가 곡물 회랑을 두고 튀르키예·인도·이집트와 협의하면서 막힌 흑해 곡물 수출로가 다시 열릴지가 곡물 공급의 변수로 떠올랐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-18/ukraine-talks-with-turkey-india-egypt-over-grain-corridor"
+    },
+    {
+     "t": "젤렌스키, 농산물 수출 위한 흑해 항행 개방 3개국과 협의",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "젤렌스키 대통령이 농산물 수출을 위한 흑해 민간 항행 개방을 튀르키예·이집트·인도와 협의 중이라고 밝히면서 우크라이나 곡물 수출 재개 가능성이 거론됐다",
+     "u": "https://t.me/Trillion_labs/10842"
+    }
+   ]
+  },
+  {
+   "c": "G2-047",
+   "label": "미 기후예측센터 '1~3월 강한 엘니뇨 지속, 중립은 6월께'",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "CPC \"1~3월 강한 엘니뇨 지속, 중립은 6월께\"",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "미 기후예측센터가 1~3월에도 강하거나 매우 강한 엘니뇨가 이어지고 중립은 6월께에야 온다고 전망하면서 작황에 대한 날씨 위험이 내년 봄까지 남게 됐다",
+     "u": "https://t.me/Trillion_labs/10840"
+    }
+   ]
+  },
+  {
+   "c": "G2-048",
+   "label": "러·우 공습에도 밀 선물값 하락",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "러시아·우크라이나 공습에 합의 어려워 보여도 밀 가격은 하락",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "러시아·우크라이나의 공습으로 휴전 합의가 어렵다는 신호가 나왔는데도 밀 선물값이 내리면서 공급 우려가 가격에 바로 반영되지는 않았다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/wheat-futures-rise-as-ukraine-russia-strikes-stoke-supply-fears"
+    }
+   ]
+  },
+  {
+   "c": "G2-049",
+   "label": "엘니뇨 가뭄에 강물 말라 인도네시아 팜 농가 고립",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "엘니뇨 가뭄에 강물 말라…인도네시아 팜 농가 고립",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "엘니뇨 가뭄으로 강물이 줄어 인도네시아 팜 농가가 고립되면서 팜유 생산과 운송에 차질이 생길 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/environment/el-nio-powered-drought-leaves-indonesian-palm-farmers-high-dry-river-recedes-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G2-050",
+   "label": "흑해 불안에 호주산 밀 가격 2024년 6월 이후 최고",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "흑해 불안 지속에 호주산 밀 가격 2024년 6월 이후 최고",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-19",
+     "s": "러시아·우크라이나 분쟁 격화로 흑해 수출 통로 재개가 어려워지자 구매자들이 대체 공급처로 몰리면서 호주산 밀값이 약 1년여 만의 최고로 올랐다",
+     "u": "https://t.me/HANAchina/70677"
+    }
+   ]
+  },
+  {
+   "c": "G2-051",
+   "label": "공급 충격 쌓이며 세계 식량 물가 상승 거세질 전망",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "공급 충격 쌓이며 세계 식량 물가 상승 거세질 전망",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "여러 공급 충격이 한꺼번에 쌓이면서 세계 식량 물가 상승이 더 거세질 것으로 예상돼 각국 물가 관리에 부담이 될 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/world/americas/global-food-inflation-is-expected-intensify-supply-shocks-pile-up-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G2-052",
+   "label": "가뭄에 미국 소 사육두수 감소·소고기값 상승",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "가뭄에 미국 소 사육두수 줄며 소고기값 계속 오르는 이유",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "가뭄으로 미국 소 사육두수가 줄면서 소고기 공급이 빠듯해져 소비자 소고기값이 계속 오르고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds"
+    }
+   ]
+  },
+  {
+   "c": "G2-053",
+   "label": "브라질 가금 농장 뉴캐슬병 확인·닭고기 수출 위험",
+   "docs": [
+    "n-bbg-0354"
+   ],
+   "items": [
+    {
+     "t": "브라질 MBRF 납품 농장서 가금 질병…최대 닭고기 수출국 수출 위험",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "세계 최대 닭고기 수출국 브라질의 MBRF 납품 농장에서 가금 질병이 확인되면서 브라질산 닭고기 수출이 막힐 위험이 생겼다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/poultry-disease-poses-export-risk-to-top-chicken-supplier-brazil"
+    },
+    {
+     "t": "브라질, 남부 주 칠면조 농장서 뉴캐슬병 확인",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "브라질 남부 주의 칠면조 농장에서 뉴캐슬병이 확인되면서 가금류 수출 제한 우려가 닭고기에 이어 칠면조로 번졌다 (제목 기준)",
+     "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/brazil-detects-newcastle-disease-turkey-farm-southern-state-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G6-123",
+   "label": "EQT, 호주 클린어웨이 65억 달러 인수 합의·주가 급등",
+   "docs": [
+    "n-bbg-0355"
+   ],
+   "items": [
+    {
+     "t": "EQT 65억 달러 인수 합의에 클린어웨이 주가 21% 급등",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "EQT가 호주 폐기물 업체 클린어웨이를 65억 달러에 인수하기로 하면서, 클린어웨이 주가가 장중 20% 안팎 뛰었다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-18/eqt-agrees-to-buy-australia-s-cleanaway-waste-for-6-5-billion"
+    },
+    {
+     "t": "호주 클린어웨이, EQT의 65억 달러 인수 합의…주가 급등",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "클린어웨이가 주당 3.095호주달러 현금의 EQT 인수안에 합의하면서, 규제 승인과 주주 투표를 거쳐 2027년 3월 말 거래가 끝날 예정이다",
+     "u": "https://www.reuters.com/legal/transactional/australias-cleanaway-agrees-65-billion-eqt-takeover-shares-surge-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G6-124",
+   "label": "브룩필드 릴라이언스 월드와이드 인수 제안 고숍 통과",
+   "docs": [
+    "n-bbg-0355"
+   ],
+   "items": [
+    {
+     "t": "브룩필드의 릴라이언스 월드와이드 인수 제안, 고숍 관문 통과",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "브룩필드의 릴라이언스 월드와이드 인수 제안이 더 나은 제안을 찾는 고숍 기간을 넘기면서, 거래 성사에 한 걸음 다가섰다 (제목 기준)",
+     "u": "https://www.reuters.com/legal/transactional/brookfields-253-billion-bid-reliance-worldwide-clears-go-shop-hurdle-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G6-125",
+   "label": "실간·AIP 트리비움 패키징 34억 달러 인수",
+   "docs": [
+    "n-bbg-0355"
+   ],
+   "items": [
+    {
+     "t": "실간, 트리비움 패키징 34억 달러 인수 임박",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "실간이 트리비움 패키징을 34억 달러에 사들이는 거래에 다가서면서, 미국 금속 포장 업계의 대형 통합이 가시화됐다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/silgan-nears-3-4-billion-purchase-of-trivium-packaging"
+    },
+    {
+     "t": "실간·아메리칸 인더스트리얼, 트리비움 패키징 34억 달러에 인수",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "실간과 AIP가 트리비움을 전액 현금으로 사들여 60대 40 지분의 금속 포장 회사를 만들기로 하면서, 실간은 특수·플라스틱 포장 부문을 분사한다",
+     "u": "https://www.reuters.com/legal/transactional/silgan-american-industrial-buy-trivium-packaging-34-billion-deal-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G6-126",
+   "label": "유럽 전력 수요 데이터센터·전기화로 다시 증가",
+   "docs": [
+    "n-bbg-0356"
+   ],
+   "items": [
+    {
+     "t": "수년간 부진하던 유럽 전력 수요, 데이터센터·전환에 다시 증가",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "데이터센터와 전기화 전환이 유럽 전력 수요를 되살리면서, 수년간 줄던 수요가 다시 늘기 시작했다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/data-centers-and-green-shift-are-reviving-europe-s-power-demand"
+    }
+   ]
+  },
+  {
+   "c": "G6-127",
+   "label": "센트러스, 원심분리기 부품사 웨스터먼 1억 1,600만 달러 인수",
+   "docs": [
+    "n-bbg-0356"
+   ],
+   "items": [
+    {
+     "t": "센트러스, 원심분리기 부품사 웨스터먼 1억 1,600만 달러에 인수",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-19",
+     "s": "센트러스 에너지가 원자력 부품 업체 웨스터먼을 1억 1,600만 달러에 사들이면서, 우라늄 농축 확장에 쓸 원심분리기 케이싱·부품 제조를 내재화한다",
+     "u": "https://t.me/insidertracking/66690"
+    }
+   ]
+  },
+  {
+   "c": "G6-128",
+   "label": "아마존·AEP·X-에너지 인디애나 960MW 소형원전 사업",
+   "docs": [
+    "n-bbg-0356"
+   ],
+   "items": [
+    {
+     "t": "아마존·AEP, 인디애나 960MW 원전 사업 검토",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "아마존이 AEP·X-에너지의 인디애나 옛 석탄발전소 부지 960MW 소형원전 개발 자금을 대고 전력을 사기로 하면서, 소형원자로 수요가 생길 전망이다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana"
+    }
+   ]
+  },
+  {
+   "c": "G6-153",
+   "label": "버지니아, 넥스트에라-도미니언 인수에 6년 요금 동결 요구",
+   "docs": [
+    "n-bbg-0356"
+   ],
+   "items": [
+    {
+     "t": "버지니아, 넥스트에라-도미니언 거래에 6년 요금 동결 요구",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "버지니아주가 넥스트에라의 도미니언 인수 승인 조건으로 6년간 전력요금 동결을 요구하면서, 합병 회사의 요금 인상 여지가 좁아질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal"
+    }
+   ]
+  },
+  {
+   "c": "G1-183",
+   "label": "美 항공권 22% 급등에 항공사들 부유층 공략",
+   "docs": [
+    "n-bbg-0357"
+   ],
+   "items": [
+    {
+     "t": "美 항공권 22% 급등에 항공사들 부유층 여행객 공략",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "미국 항공 운임이 9월 전년 대비 22.4% 오르는 가운데 항공사들이 값에 덜 민감한 프리미엄 고객을 겨냥하면서, 비싼 좌석 비중이 커지고 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22"
+    }
+   ]
+  },
+  {
+   "c": "G1-188",
+   "label": "솔베이, 중동 분쟁에 3분기 타격·연간 전망 하향",
+   "docs": [
+    "n-bbg-0357"
+   ],
+   "items": [
+    {
+     "t": "솔베이, 중동 분쟁에 3분기 타격…2026년 전망 하향",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "솔베이가 사다라 과산화수소 공장 중단으로 3분기 EBITDA가 약 2,500만 유로 깎이자 연간 전망을 낮추면서, 잉여현금흐름 전망도 절반 가까이 줄었다",
+     "u": "https://www.reuters.com/business/solvay-cuts-2026-forecast-after-middle-east-conflict-hits-q3-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G1-189",
+   "label": "라탐항공 '높은 연료비가 올해 성장 억제'",
+   "docs": [
+    "n-bbg-0357"
+   ],
+   "items": [
+    {
+     "t": "라탐항공 '높은 연료비가 올해 성장을 억제할 것'",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "라탐항공이 높은 연료비가 성장을 억제할 것이라고 밝히면서, 남미 항공사도 고유가로 노선·좌석 확대에 제약을 받을 전망이다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/latam-airlines-says-high-fuel-costs-expected-to-restrain-growth"
+    }
+   ]
+  },
+  {
+   "c": "G5-046",
+   "label": "중국, 신형 핵잠수함 미사일 시험 발사 공개",
+   "docs": [
+    "n-bbg-0358"
+   ],
+   "items": [
+    {
+     "t": "중국, 신형 핵잠수함으로 미사일 시험 발사 공개",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "중국이 신형 핵잠수함을 미사일 시험 발사에 썼다고 공개하면서, 해상 핵 억지력을 과시해 주변국 긴장이 커질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/china-reveals-advanced-nuclear-sub-was-used-to-test-fire-missile"
+    }
+   ]
+  },
+  {
+   "c": "G5-047",
+   "label": "필리핀, '무력 사용' 위협 발언에 중국대사 초치",
+   "docs": [
+    "n-bbg-0358"
+   ],
+   "items": [
+    {
+     "t": "필리핀, '무력 사용' 위협 발언에 중국대사 초치",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "필리핀 외교부가 무력 사용 위협을 담았다고 본 징취안 대사의 발언을 문제 삼아 대사를 초치하면서, 양국 외교 갈등이 공식 항의로 번졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/philippines-summons-china-envoy-over-use-of-force-threat"
+    },
+    {
+     "t": "필리핀, 위협을 전달한 발언 두고 중국대사 초치",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "필리핀이 테오도로 국방장관을 겨냥한 중국대사의 발언을 위협으로 규정하자 중국 외교부가 과잉 반응이라고 맞서면서, 양국 공방이 이어지고 있다",
+     "u": "https://www.reuters.com/world/china/philippines-summons-chinas-envoy-over-remarks-conveying-threat-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G4-108",
+   "label": "마크롱, 예산 공백 속 시위에 진정 호소",
+   "docs": [
+    "n-bbg-0359"
+   ],
+   "items": [
+    {
+     "t": "빈 예산 속 프랑스 시위 계속…마크롱 '진정' 호소",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "예산안이 없는 상태에서 프랑스 시위가 이어지자 마크롱 대통령이 진정을 호소하면서, 재정 공백과 사회 불안이 겹치고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/france-protests-smolder-on-an-empty-budget-as-macron-calls-for-calm"
+    }
+   ]
+  }
+ ]
+}

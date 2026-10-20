@@ -1,0 +1,2212 @@
+{
+ "docs": {
+  "n-bbg-0052": {
+   "title": "수입물가 8.1%에도 美 국채 안전자산 복귀…10년물 주간 17bp 급락",
+   "one": "미국 9월 수입물가가 전년 대비 8.1% 올라 물가 확산이 확인됐지만 AI 거래가 흔들려 나스닥100이 주간 5.5% 급락하자 10년물 금리가 17bp 내리고 CTA의 숏 청산이 겹치면서, 국채의 안전자산 기능이 살아나고 10월 동결 확률은 84%로 높아졌다",
+   "facts": [
+    "무엇이: 지난주 나스닥100이 5.5% 급락하는 사이 미 10년물 금리는 약 17bp 내려, 두 지표가 주간으로 이만큼 함께 떨어진 것은 2025년 4월 관세 충격 이후 처음이었다 [사실]",
+    "배경: 앤트로픽 매출 성장 둔화 신호와 코어위브 채권 가격 하락이 AI 거래 균열 우려를 키웠고, 국채 선물에 숏을 크게 쌓았던 CTA의 청산이 랠리를 키웠다 [사실]",
+    "금리 기대: CME 페드워치 기준 10월 동결 확률은 83.9%, 12월까지 누적 25bp 인상 확률은 77.3%, 50bp 인상 확률은 14.5%였다 [채널]",
+    "백악관: 해싯은 CPI 지표가 물가에 아직 손볼 부분이 있음을 보여 준다고 말했다 [제목]",
+    "기존: 9월 수입물가는 전월 대비 1.1%, 전년 대비 8.1% 올라 2022년 7월 이후 최대였고, BofA는 10월 인상 전망을 유지했다 [사실]"
+   ],
+   "check": "검색 결과 요약으로 10년물 주간 약 17bp 하락·나스닥100 5.5% 급락, 2025년 4월 이후 첫 동반 하락, 앤트로픽·코어위브발 AI 우려, CTA 숏 청산 확인. 페드워치 확률은 채널, 해싯 발언·금값은 제목 근거",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0052#S1",
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-01",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+    },
+    {
+     "k": "n-bbg-0052#S2",
+     "o": "Quartz",
+     "d": "2026-10-01",
+     "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+    },
+    {
+     "k": "n-bbg-0052#S3",
+     "o": "야후파이낸스",
+     "d": "2026-09-16",
+     "u": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"
+    },
+    {
+     "k": "n-bbg-0052#S4",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-02",
+     "u": "https://t.me/The_MariTimes/63452"
+    },
+    {
+     "k": "n-bbg-0052#S5",
+     "o": "BigGo Finance",
+     "d": "2026-10-01",
+     "u": "https://finance.biggo.com/news/0f41e1af-9b65-4157-bc82-78966c19fb43"
+    },
+    {
+     "k": "n-bbg-0052#S6",
+     "o": "The Asia Business Daily",
+     "d": "2026-10-02",
+     "u": "https://view.asiae.co.kr/en/article/2026100204124792533"
+    },
+    {
+     "k": "n-bbg-0052#S7",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-08",
+     "u": "https://t.me/insidertracking/65727"
+    },
+    {
+     "k": "n-bbg-0052#S8",
+     "o": "investingLive",
+     "d": "2026-10-08",
+     "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+    },
+    {
+     "k": "n-bbg-0052#S9",
+     "o": "Finimize",
+     "d": "2026-10-08",
+     "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+    },
+    {
+     "k": "n-bbg-0052#S10",
+     "o": "CNBC",
+     "d": "2026-10-07",
+     "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+    },
+    {
+     "k": "n-bbg-0052#S11",
+     "o": "Raisin",
+     "d": "2026-10-08",
+     "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+    },
+    {
+     "k": "n-bbg-0052#S12",
+     "o": "CNBC",
+     "d": "2026-10-08",
+     "u": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+    },
+    {
+     "k": "n-bbg-0052#S13",
+     "o": "Washington Post",
+     "d": "2026-10-07",
+     "u": "https://www.washingtonpost.com/business/2026/10/07/tariffs-drove-up-prices-consumer-goods-study-finds/"
+    },
+    {
+     "k": "n-bbg-0052#S14",
+     "o": "Daybreak Wire",
+     "d": "2026-10-08",
+     "u": "https://daybreakwire.com/business/ny-fed-tariffs-2-9-points-goods-inflation/"
+    },
+    {
+     "k": "n-bbg-0052#S15",
+     "o": "Quartz",
+     "d": "2026-10-12",
+     "u": "https://qz.com/cleveland-fed-hammack-smaller-frequent-rate-hikes-101226"
+    },
+    {
+     "k": "n-bbg-0052#S16",
+     "o": "Newsquawk",
+     "d": "2026-10-12",
+     "u": "https://www.newsquawk.com/headlines/feds-hammack-2026-voter-says--broad-based-inflation-and-ongoing-growth-need-restrictive-monetary-policy"
+    },
+    {
+     "k": "n-bbg-0052#S17",
+     "o": "ChainCatcher(맥쿼리 전망)",
+     "d": "2026-10-13",
+     "u": "https://www.chaincatcher.com/en/article/2295859"
+    },
+    {
+     "k": "n-bbg-0052#S18",
+     "o": "Admiral Markets",
+     "d": "2026-10",
+     "u": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-september-2026-scenarios-fed-october"
+    },
+    {
+     "k": "n-bbg-0052#S19",
+     "o": "CNBC",
+     "d": "2026-10-13",
+     "u": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"
+    },
+    {
+     "k": "n-bbg-0052#S20",
+     "o": "investingLive",
+     "d": "2026-10-13",
+     "u": "https://investinglive.com/central-banks/fed-s-collins-backs-another-rate-hike-by-year-end-flags-three-inflation-pressures/"
+    },
+    {
+     "k": "n-bbg-0052#S21",
+     "o": "Semafor",
+     "d": "2026-10-13",
+     "u": "https://www.semafor.com/article/10/12/2026/ai-is-an-inflation-problem-feds-goolsbee-says"
+    },
+    {
+     "k": "n-bbg-0052#S22",
+     "o": "미 노동통계국 CPI 요약",
+     "d": "2026-10-14",
+     "u": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+     "k": "n-bbg-0052#S23",
+     "o": "CNBC",
+     "d": "2026-10-15",
+     "u": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+    },
+    {
+     "k": "n-bbg-0052#S24",
+     "o": "Global Banking and Finance Review",
+     "d": "2026-10-15",
+     "u": "https://www.globalbankingandfinance.com/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials/"
+    },
+    {
+     "k": "n-bbg-0052#S25",
+     "o": "미 노동통계국",
+     "d": "2026-10-16",
+     "u": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm"
+    },
+    {
+     "k": "n-bbg-0052#S26",
+     "o": "ANI",
+     "d": "2026-10-16",
+     "u": "https://aninews.in/news/business/us-import-prices-surge-81-in-12-months-highest-rise-since-july-202220261016193539/"
+    },
+    {
+     "k": "n-bbg-0052#S27",
+     "o": "Futu News",
+     "d": "2026-10-19",
+     "u": "https://news.futunn.com/en/post/1001498945/10-year-treasury-yield-plunges-17-basis-points-in-a"
+    },
+    {
+     "k": "n-bbg-0052#S28",
+     "o": "Briefs",
+     "d": "2026-10-19",
+     "u": "https://www.briefs.co/news/treasuries-edge-back-into-haven-mode-as-ai-jitters-hit-tech/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/inflation",
+    "macro/rates"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "가격",
+     "ind": "macro",
+     "k": "실제",
+     "node": "rates",
+     "t": "AI 거래 불안에 10년물 금리 주간 17bp 하락"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "예상",
+     "node": "cb",
+     "t": "12월까지 25bp 인상 확률 77.3% 반영"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "실제",
+     "node": "inflation",
+     "t": "9월 수입물가 전년 대비 8.1% 상승"
+    }
+   ],
+   "fed": [
+    {
+     "d": "2026-10-16",
+     "k": "Bowman",
+     "kind": "발언",
+     "role": "감독 담당 부의장",
+     "stance": "중립",
+     "t": "더 분명한 그림을 볼 때까지 연준이 기다릴 수 있다고 말했다",
+     "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+     "who": "미셸 보우먼"
+    },
+    {
+     "d": "2026-10-16",
+     "k": "Daly",
+     "kind": "발언",
+     "role": "샌프란시스코 연은 총재",
+     "stance": "중립",
+     "t": "연준이 더 많은 지표를 보며 기다릴 수 있다고 말했다",
+     "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/",
+     "who": "메리 데일리"
+    },
+    {
+     "d": "2026-10-16",
+     "k": "",
+     "kind": "관련 뉴스",
+     "role": "BofA의 10월 인상 전망",
+     "stance": "매파",
+     "t": "BofA가 물가 확산을 들어 연준의 10월 금리 인상 예상을 유지했다",
+     "u": "https://t.me/HANAchina/70527",
+     "who": "연준"
+    },
+    {
+     "d": "2026-10-19",
+     "k": "",
+     "kind": "관련 뉴스",
+     "role": "CME 페드워치 금리 확률",
+     "stance": "",
+     "t": "CME 페드워치에서 10월 동결 확률 83.9%, 12월까지 인상 확률 77.3%로 집계됐다",
+     "u": "https://t.me/HANAchina/70630",
+     "who": "연준"
+    }
+   ]
+  },
+  "n-bbg-0085": {
+   "title": "BHP 구리 생산 19% 급감, 中 제련소는 TC 마이너스에 감산…센티넬라 파업 종료",
+   "one": "칠레 센티넬라 광산 파업은 새 협약 비준으로 끝났지만 BHP의 7~9월 구리 생산이 에스콘디다 부진으로 19% 줄고 중국 제련소들은 TC/RC 마이너스 확대에 감산에 나서면서, 정광 부족 속 구리 공급이 더 빠듯해질 수 있다",
+   "facts": [
+    "무엇이: BHP의 7~9월 구리 생산은 40만 700톤으로 1년 전보다 19% 줄어 시장 예상 42만 3,600톤을 밑돌았고, 에스콘디다는 23% 감소한 25만 2,600톤이었다 [사실]",
+    "원인: 에스콘디다는 악천후와 계획된 품위 하락에 9월 23일 근로자 사망 사고에 따른 일시 중단이 겹쳤고, BHP는 연간 구리 생산 목표를 유지했다 [사실]",
+    "제련: 채널은 정광은 부족한데 제련소가 넘쳐 TC가 톤당 마이너스 300달러대까지 내려가 중국 제련소들이 감산 중이며, 정광을 파는 광산업체가 유리해졌다고 전했다 [채널]",
+    "장기: BHP는 2028년경부터 구조적 구리 부족이 생겨 2030년대 중반까지 800만~1,000만 톤의 추가 공급이 필요하다고 본다 [채널]",
+    "칠레·가격: 센티넬라 노조는 18일 새 협약을 94.49% 찬성으로 비준해 파업이 끝났고, LME 현물 구리는 앞서 톤당 1만 4,822달러로 사상 최고에 마감했다 [사실]"
+   ],
+   "check": "BHP 1분기(7~9월) 구리 생산 19% 감소·에스콘디다 23% 감소·사망 사고는 검색 결과 요약(MINING.COM·Capital Brief)으로 확인. TC/RC 감산과 BHP 장기 부족 전망은 채널, 관세·아르메니아·아이반호는 제목 기준",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0085#S1",
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions"
+    },
+    {
+     "k": "n-bbg-0085#S2",
+     "o": "리오타임스",
+     "d": "2026-10-07",
+     "u": "https://www.riotimesonline.com/chile-copper-mine-strike-centinela-2026/"
+    },
+    {
+     "k": "n-bbg-0085#S3",
+     "o": "SMM(상하이메탈마켓)",
+     "d": "2026-10-07",
+     "u": "https://news.metal.com/newscontent/104144099-centinela-copper-mine-mediation-ends-without-agreement-strike-could-begin-october-7"
+    },
+    {
+     "k": "n-bbg-0085#S4",
+     "o": "The Northern Miner",
+     "d": "2026-10-08",
+     "u": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/"
+    },
+    {
+     "k": "n-bbg-0085#S5",
+     "o": "MINING.COM",
+     "d": "2026-10-08",
+     "u": "https://www.mining.com/antofagastas-centinela-strike-adds-copper-supply-risk/"
+    },
+    {
+     "k": "n-bbg-0085#S6",
+     "o": "The Rio Times",
+     "d": "2026-10-12",
+     "u": "https://www.riotimesonline.com/chile-el-teniente-avalanche-2026/"
+    },
+    {
+     "k": "n-bbg-0085#S7",
+     "o": "Discovery Alert",
+     "d": "2026-10-11",
+     "u": "https://discoveryalert.com/news/el-teniente-mudslide-codelco-workers-trapped-october-2026/"
+    },
+    {
+     "k": "n-bbg-0085#S8",
+     "o": "MINING.COM",
+     "d": "2026-10-09",
+     "u": "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows/"
+    },
+    {
+     "k": "n-bbg-0085#S9",
+     "o": "Rio Times",
+     "d": "2026-10-08",
+     "u": "https://www.riotimesonline.com/chile-centinela-copper-strike-begins-709-workers"
+    },
+    {
+     "k": "n-bbg-0085#S10",
+     "o": "BigGo Finance",
+     "d": "2026-10-11",
+     "u": "https://finance.biggo.com/news/3f7a5aa1-861d-4c5d-b4e6-20c7abf30ca1"
+    },
+    {
+     "k": "n-bbg-0085#S11",
+     "o": "MINING.COM",
+     "d": "2026-10-13",
+     "u": "https://mining.com/web/worlds-top-copper-mine-in-final-bid-to-avert-strike-as-prices-rally"
+    },
+    {
+     "k": "n-bbg-0085#S12",
+     "o": "MINING.COM",
+     "d": "2026-10-13",
+     "u": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations"
+    },
+    {
+     "k": "n-bbg-0085#S13",
+     "o": "Mining Journal",
+     "d": "2026-10-13",
+     "u": "https://www.mining-journal.com/base-metals/news-analysis/4538025/antofagasta-centinela-resume-talks-amid-hunger-strike"
+    },
+    {
+     "k": "n-bbg-0085#S14",
+     "o": "The Rio Times",
+     "d": "2026-10-13",
+     "u": "https://www.riotimesonline.com/chile-escondida-copper-strike-deadline-final-offer-2026/"
+    },
+    {
+     "k": "n-bbg-0085#S15",
+     "o": "Mining Weekly",
+     "d": "2026-10-15",
+     "u": "https://www.miningweekly.com/article/bhp-escondida-supervisors-reach-deal-to-avert-strike-at-chile-copper-mine-2026-10-15"
+    },
+    {
+     "k": "n-bbg-0085#S16",
+     "o": "MINING.COM",
+     "d": "2026-10-14",
+     "u": "https://www.mining.com/bhp-averts-strike-at-worlds-biggest-copper-mine-2"
+    },
+    {
+     "k": "n-bbg-0085#S17",
+     "o": "Discovery Alert",
+     "d": "2026-10-15",
+     "u": "https://discoveryalert.com/news/bhp-spence-copper-strike-lawsuit-october-2026/"
+    },
+    {
+     "k": "n-bbg-0085#S18",
+     "o": "Miningmx",
+     "d": "2026-10-15",
+     "u": "http://www.miningmx.com/2026-10-15-tech-firms-in-conversations-about-metals-supply-says-anglo-s-wanblad/"
+    },
+    {
+     "k": "n-bbg-0085#S19",
+     "o": "Traders Union",
+     "d": "2026-10-15",
+     "u": "https://tradersunion.com/news/companies/show/3830812-tech-firms-mining-investments-metal-supply/"
+    },
+    {
+     "k": "n-bbg-0085#S20",
+     "o": "NAI500",
+     "d": "2026-10-16",
+     "u": "https://nai500.com/blog/2026/10/tech-giants-want-equity-in-anglo-american-to-lock-up-copper-supply/"
+    },
+    {
+     "k": "n-bbg-0085#S21",
+     "o": "MINING.COM",
+     "d": "2026-10-16",
+     "u": "https://www.mining.com/web/austrian-investor-rushes-to-boost-copper-production-at-old-chile-mine/"
+    },
+    {
+     "k": "n-bbg-0085#S22",
+     "o": "MiningMX",
+     "d": "2026-10-16",
+     "u": "http://www.miningmx.com/2026-10-16-congo-detains-300-chinese-in-illegal-mining-crackdown/"
+    },
+    {
+     "k": "n-bbg-0085#S23",
+     "o": "LN24",
+     "d": "2026-10-17",
+     "u": "https://ln24international.com/2026/10/17/chiles-centinela-copper-mine-strike-ends-after-unions-reach-preliminary-deal/"
+    },
+    {
+     "k": "n-bbg-0085#S24",
+     "o": "EBRD",
+     "d": "2026-10-17",
+     "u": "https://www.ebrd.com/home/news-and-events/news/2026/mdb-collaboration-framework-citical-minerals-to-manufacturing-va.html"
+    },
+    {
+     "k": "n-bbg-0085#S25",
+     "o": "피니마이즈",
+     "d": "2026-10-18",
+     "u": "https://finimize.com/content/chiles-centinela-copper-mine-strike-ends-with-new-deal"
+    },
+    {
+     "k": "n-bbg-0085#S26",
+     "o": "MINING.COM",
+     "d": "2026-10-20",
+     "u": "https://www.mining.com/web/bhp-misses-quarterly-copper-output-estimates-on-chile-disruptions"
+    },
+    {
+     "k": "n-bbg-0085#S27",
+     "o": "Capital Brief",
+     "d": "2026-10-20",
+     "u": "https://www.capitalbrief.com/briefing/bhp-copper-production-slides-19-in-first-quarter-2d01a728-be98-4cc5-8002-2b60389f9b1c/"
+    }
+   ],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "metals",
+     "k": "실제",
+     "node": "copper",
+     "t": "BHP 7~9월 구리 생산 19% 감소"
+    },
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "metals",
+     "k": "실제",
+     "node": "smelting",
+     "t": "TC/RC 마이너스 확대에 中 제련소 감산"
+    }
+   ]
+  },
+  "n-bbg-0100": {
+   "title": "정제마진 급등 확산…암폴 두 배·시트고 상향, IEA는 유럽 감산 경고",
+   "one": "셸·BP·토탈에너지스에 이어 호주 암폴의 3분기 리튼 정제마진이 1년 전의 두 배를 넘고 시트고가 이익 전망을 20억 달러 올렸지만, 유럽에선 원유·운송비 급등에 정유 마진이 줄어 IEA가 가동률 감축을 경고했고 경유값은 배럴당 200달러에 다가섰다",
+   "facts": [
+    "무엇이: 암폴은 3분기 리튼 정제마진이 배럴당 23.92달러로 1년 전 10.64달러의 두 배를 넘었다고 밝혔지만, 리튼 FCC 재가동이 11월 중순으로 밀려 4분기 휘발유·경유·항공유 생산이 약 1억 5,000만 리터 줄 것이라고 했다 [사실]",
+    "미국: 시트고는 연료 마진 급등에 이익 전망을 20억 달러 올렸다 [제목]",
+    "기존: 토탈에너지스는 3분기 정제 마진이 배럴당 33.2달러로 2분기 13.5달러에서 뛰었다고 밝혔고, BP는 46.7달러, 셸은 42달러로 정제 지표 마진을 높였으며, BP는 순부채를 2분기 223억 달러에서 135억~145억 달러로 줄여 2027년 목표를 약 1년 앞당겼다 [사실]",
+    "유럽: IEA는 원유·운송비 급등으로 유럽 정유 마진이 급감해 손실이 길어지면 가동률 감축으로 제품 부족이 심해질 수 있다고 경고했고, 유럽 경유는 배럴당 200달러에 다가섰으며 인구 1,000명당 정제능력은 1980년 18.4배럴에서 12.8배럴로 약 30% 줄었다 [채널]"
+   ],
+   "check": "암폴 리튼 마진·FCC 재가동 지연·4분기 생산 감소를 검색 결과 요약으로 확인. 시트고 20억 달러 상향은 검색·열람에서 찾지 못해 제목 기준, 유럽 경유 200달러·1인당 정제능력은 채널 전언",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0100#S1",
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+    },
+    {
+     "k": "n-bbg-0100#S2",
+     "o": "셸 3분기 안내문(GlobeNewswire)",
+     "d": "2026-10-07",
+     "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+    },
+    {
+     "k": "n-bbg-0100#S3",
+     "o": "StockTitan(셸 안내문)",
+     "d": "2026-10-07",
+     "u": "https://www.stocktitan.net/news/SHEL/shell-third-quarter-2026-update-ip8be8zrdsz6.html"
+    },
+    {
+     "k": "n-bbg-0100#S4",
+     "o": "DirectorsTalk",
+     "d": "2026-10-07",
+     "u": "https://www.directorstalkinterviews.com/shell-raises-q3-integrated-gas-outlook-as-refining-margins-improve/4121265558"
+    },
+    {
+     "k": "n-bbg-0100#S5",
+     "o": "BP 3분기 트레이딩 스테이트먼트",
+     "d": "2026-10-13",
+     "u": "https://www.bp.com/press-and-publications/press-releases/third-quarter-2026-trading-statement"
+    },
+    {
+     "k": "n-bbg-0100#S6",
+     "o": "TipRanks",
+     "d": "2026-10-13",
+     "u": "https://www.tipranks.com/news/company-announcements/bp-signals-lower-net-debt-and-major-impairments-in-third-quarter-2026-trading-update"
+    },
+    {
+     "k": "n-bbg-0100#S7",
+     "o": "RTE",
+     "d": "2026-10-15",
+     "u": "https://www.rte.ie/news/business/2026/1015/1595502-totalenergies-quarterly-results/"
+    },
+    {
+     "k": "n-bbg-0100#S8",
+     "o": "Finimize",
+     "d": "2026-10-15",
+     "u": "https://finimize.com/content/totalenergies-sees-q3-profit-jump-as-hormuz-tightens-supply"
+    },
+    {
+     "k": "n-bbg-0100#S9",
+     "o": "The Motley Fool Australia",
+     "d": "2026-10-19",
+     "u": "https://www.fool.com.au/2026/10/19/ampol-posts-3q26-ebit-growth-and-surging-refinery-margins/"
+    },
+    {
+     "k": "n-bbg-0100#S10",
+     "o": "Kalkine",
+     "d": "2026-10-19",
+     "u": "https://kalkine.com.au/stock-analysis/energy/how-is-ampol-asxald-trading-a-look-at-its-third-quarter-update-as-shares-slip"
+    }
+   ],
+   "inds": [
+    "macro",
+    "gas",
+    "oil",
+    "petchem"
+   ],
+   "nodes": [
+    "gas/liquefaction",
+    "gas/trade",
+    "gas/upstream",
+    "macro/commodity",
+    "petchem/commodity"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "oil",
+     "k": "실제",
+     "node": "refining",
+     "t": "암폴 리튼 정제마진 배럴당 23.92달러로 두 배"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "oil",
+     "k": "실제",
+     "node": "products",
+     "t": "유럽 경유 배럴당 200달러 육박"
+    }
+   ]
+  },
+  "n-bbg-0103": {
+   "title": "스페이스X 주파수 충격에 통신주 급락…유럽 4대 통신사 위성 연합 검토",
+   "one": "스페이스X가 10월 9일 스타링크 모바일용 주파수 인수를 발표하자 도이치텔레콤이 7% 넘게 급락하는 등 미국·유럽·호주 통신주가 동반 하락했고, 유럽 4대 통신사가 19일 AST 스페이스모바일과 위성 주파수 공동 입찰 검토 의향서를 맺으면서 위성 직접통신 경쟁이 유럽으로 번지고 있다",
+   "facts": [
+    "무엇이: 도이치텔레콤·오렌지·텔레포니카·보다폰은 10월 19일 유럽 위성 이동통신(MSS) 주파수 공동 입찰을 검토하는 의향서를 맺었고, AST 스페이스모바일도 네 회사와 의향서를 체결했다고 밝혔다 [사실]",
+    "주가: 스페이스X가 800MHz 대역 주파수 인수를 발표한 10월 9일 STOXX 600 통신지수는 3.3% 내려 2월 이후 최저였고 도이치텔레콤은 7~8% 급락했으며, 12일에는 텔스트라가 2.5%, TPG텔레콤이 5% 가까이 떨어졌다 [사실]",
+    "구조: 통신사들은 유럽 지상 인프라와 조정·감시 기능을 맡고 위성 배치는 외부 사업자에 맡길 계획이며, 의향서는 구속력이 없다 [사실]",
+    "AST: AST는 최대 98.9Mbps 다운로드를 시연했고 차세대 위성으로 약 200Mbps를 목표로 하며, 주파수 통합은 규제 당국 승인에 달렸다 [채널]",
+    "애플 영향: BofA는 미 3대 통신사 후불 가입자 10%가 스페이스X로 옮기면 아이폰 판매가 약 500만 대, 애플 매출이 약 60억 달러 줄 수 있다고 추산했다 [사실]"
+   ],
+   "check": "검색 결과 요약(AST 보도자료·쿼츠 등)으로 4개 통신사의 MSS 주파수 공동 입찰 검토 의향서, AST의 의향서 체결, 구속력 없음 확인. AST 속도 시연 수치는 채널 근거",
+   "basis": "verified",
+   "src": [
+    {
+     "k": "n-bbg-0103#S1",
+     "o": "Via Satellite",
+     "d": "2026-10-08",
+     "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+    },
+    {
+     "k": "n-bbg-0103#S2",
+     "o": "Investing.com",
+     "d": "2026-10-09",
+     "u": "https://uk.investing.com/news/stock-market-news/eu-telecom-stocks-fall-after-spacexs-move-to-become-a-wireless-carrier-4902338"
+    },
+    {
+     "k": "n-bbg-0103#S3",
+     "o": "ADVFN",
+     "d": "2026-10-09",
+     "u": "https://uk.advfn.com/market-news/article/24372/european-telecom-shares-fall-as-spacex-expands-plans-for-us-mobile-network"
+    },
+    {
+     "k": "n-bbg-0103#S4",
+     "o": "Kalkine Media",
+     "d": "2026-10-12",
+     "u": "https://kalkinemedia.com/au/stocks/communication/why-did-telstra-asxtls-fall-after-spacexs-reported-us-spectrum-deal"
+    },
+    {
+     "k": "n-bbg-0103#S5",
+     "o": "NZ Herald",
+     "d": "2026-10-12",
+     "u": "https://www.nzherald.co.nz/business/companies/telecommunications/spark-shares-fall-after-elon-musks-spacex-spectrum-deal-rattles-telcos/premium/LQUL4S3N4JBUBBWRLD5TNYWWPA/"
+    },
+    {
+     "k": "n-bbg-0103#S6",
+     "o": "Yahoo Finance(BofA 분석 보도)",
+     "d": "2026-10",
+     "u": "https://finance.yahoo.com/technology/article/spacexs-starlink-could-pose-3-big-risks-to-apple-bofa-warns-175500290.html"
+    },
+    {
+     "k": "n-bbg-0103#S7",
+     "o": "BigGo Finance",
+     "d": "2026-10",
+     "u": "https://finance.biggo.com/news/bb116a77-9698-45bc-93ec-5a89946a9d39"
+    },
+    {
+     "k": "n-bbg-0103#S8",
+     "o": "Business Wire(AST 스페이스모바일)",
+     "d": "2026-10-19",
+     "u": "https://www.businesswire.com/news/home/20261018409347/en/AST-SpaceMobile-Advances-Space-Based-Cellular-Broadband-in-Europe-in-Collaboration-with-European-Mobile-Network-Operator-Partners"
+    },
+    {
+     "k": "n-bbg-0103#S9",
+     "o": "Quartz",
+     "d": "2026-10-19",
+     "u": "https://qz.com/european-carriers-joint-satellite-spectrum-bid-101926"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "공급",
+     "ind": "tech",
+     "k": "예상",
+     "node": "telecom",
+     "t": "유럽 4대 통신사 위성 주파수 공동 입찰 검토"
+    }
+   ]
+  },
+  "n-bbg-0104": {
+   "title": "ECB 위원들 추가 인상론 잇따라…분데스방크 '독일 물가 상방 위험'",
+   "one": "독일 9월 물가가 3.3%로 2023년 12월 이후 최고를 찍고 분쉬·나겔 등 ECB 위원들의 추가 인상론이 잇따르면서 ECB가 12월 인상 쪽으로 기울었고, 분데스방크가 독일 물가 위험이 뚜렷이 위쪽으로 기울었다고 경고해 유로존 긴축 기조에 힘이 실리고 있다",
+   "facts": [
+    "무엇이: 분데스방크는 충격의 조합이 달라 2021~22년 같은 고물가 재연은 어려워 보이지만, 원자재 가격과 식품·비에너지 상품·서비스 비용 상승으로 물가 위험이 뚜렷이 위쪽으로 기울었다고 했다 [사실]",
+    "물가: 독일 9월 소비자물가는 난방유 74.9%·연료 37.1% 급등에 3.3%로 확정돼 2023년 12월 이후 최고였고, 독일 9월 도매물가는 8.7%, 프랑스 9월 물가는 3.4%로 2024년 1월 이후 최고였다 [사실]",
+    "ECB: ECB는 12월 인상 쪽으로 기울고 있고 인상하면 정책금리는 2.75%가 되며, 분쉬·심쿠스·나겔이 추가 인상 가능성을 열었고 IMF도 올해 최소 한 차례 0.25%포인트 추가 인상을 예상했다 [사실]",
+    "신중론: 라가르드 총재는 장기금리 급등으로 금융 여건이 조여져 성장과 물가 전가가 9월 전망보다 줄 것이라고 했고, 돌렌츠는 시장이 긴축하면 ECB가 덜 올려도 될 수 있다고, 카작스는 서두를 필요가 없다고 했다 [사실]",
+    "인사: 유로그룹은 슈나벨 후임 이사 후보 마감을 10월 28일로 정했고 ECB 위원들은 라가르드에게 거취 정리를 재촉했으며, 메르츠 총리는 필요하면 ECB 인사를 신속히 결정할 수 있다고 했다 [제목]"
+   ],
+   "check": "분데스방크의 '물가 위험 뚜렷이 상방'·2021~22년 재연 가능성 낮음·원자재와 식품·서비스 비용 요인은 검색 결과 요약으로 확인. 메르츠의 ECB 인사 발언은 제목만 근거, 트릴리온 차트 글은 구체 수치 없음",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0104#S1",
+     "o": "ECB 통화정책회의 의사록",
+     "d": "2026-10-08",
+     "u": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+    },
+    {
+     "k": "n-bbg-0104#S2",
+     "o": "ECB 보도자료(슈나벨 사임)",
+     "d": "2026-09-24",
+     "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
+    },
+    {
+     "k": "n-bbg-0104#S3",
+     "o": "Newsquawk",
+     "d": "2026-10-08",
+     "u": "https://www.newsquawk.com/headlines/eurogroup-sets-october-28th-deadline-for-ecb-nominations-and-expects-to-decide-on-a-successor-to-ecbs-schnabel-as-soon-as-next-month"
+    },
+    {
+     "k": "n-bbg-0104#S4",
+     "o": "독일 연방통계청",
+     "d": "2026-10-13",
+     "u": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+    },
+    {
+     "k": "n-bbg-0104#S5",
+     "o": "RTÉ",
+     "d": "2026-10-13",
+     "u": "https://www.rte.ie/news/business/2026/1013/1595139-german-september-inflation-confirmed-at-3-3/"
+    },
+    {
+     "k": "n-bbg-0104#S6",
+     "o": "Briefs",
+     "d": "2026-10-14",
+     "u": "https://www.briefs.co/news/ecb-s-simkus-says-another-rate-hike-is-still-on-the-table/"
+    },
+    {
+     "k": "n-bbg-0104#S7",
+     "o": "Europe Says",
+     "d": "2026-10-15",
+     "u": "https://www.europesays.com/europe/159558/"
+    },
+    {
+     "k": "n-bbg-0104#S8",
+     "o": "Global Banking and Finance",
+     "d": "2026-10-14",
+     "u": "https://www.globalbankingandfinance.com/german-wholesale-prices-rise-8-7-september/"
+    },
+    {
+     "k": "n-bbg-0104#S9",
+     "o": "INSEE",
+     "d": "2026-10-15",
+     "u": "https://www.insee.fr/fr/statistiques/9080209"
+    },
+    {
+     "k": "n-bbg-0104#S10",
+     "o": "GuruFocus",
+     "d": "2026-10-16",
+     "u": "https://www.gurufocus.com/news/9126923/european-central-bank-may-raise-rates-again-says-joachim-nagel"
+    },
+    {
+     "k": "n-bbg-0104#S11",
+     "o": "FXStreet",
+     "d": "2026-10-16",
+     "u": "https://fxstreet.com/analysis/tepid-equity-rebound-seen-ahead-of-the-weekend-after-thursdays-rout-202610160609"
+    },
+    {
+     "k": "n-bbg-0104#S12",
+     "o": "IndexBox",
+     "d": "2026-10-16",
+     "u": "https://www.indexbox.io/blog/imf-ecb-may-need-at-least-one-more-25-basis-point-rate-hike-in-2026/"
+    },
+    {
+     "k": "n-bbg-0104#S13",
+     "o": "GuruFocus",
+     "d": "2026-10-16",
+     "u": "https://www.gurufocus.com/news/9127428/imf-predicts-ecb-rate-hikes-needed-to-combat-inflation"
+    },
+    {
+     "k": "n-bbg-0104#S14",
+     "o": "Shafaqna",
+     "d": "2026-10-17",
+     "u": "https://en.shafaqna.com/485588/ecb-bond-selloff-lagarde-inflation/"
+    },
+    {
+     "k": "n-bbg-0104#S15",
+     "o": "Archyde",
+     "d": "2026-10-17",
+     "u": "https://www.archyde.com/imf-bank-of-japan-may-need-faster-rate-path/"
+    },
+    {
+     "k": "n-bbg-0104#S16",
+     "o": "Biznob",
+     "d": "2026-10-19",
+     "u": "https://www.biznob.com/german-inflation-risks-clearly-tilted-to-upside-bundesbank-says/"
+    },
+    {
+     "k": "n-bbg-0104#S17",
+     "o": "Briefs",
+     "d": "2026-10-19",
+     "u": "https://www.briefs.co/news/bundesbank-says-repeat-of-2021-22-price-surge-is-unlikely-bu/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/inflation",
+    "macro/rates"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "예상",
+     "node": "inflation",
+     "t": "분데스방크, 독일 물가 위험 위쪽으로 기울어"
+    },
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "예상",
+     "node": "cb",
+     "t": "ECB 12월 금리 인상 쪽으로 기울어"
+    }
+   ]
+  },
+  "n-bbg-0111": {
+   "title": "佛 폭동에 국채·증시·유로 동반 급락…독일과 금리차 146bp로 다시 확대",
+   "one": "프랑스-독일 10년물 금리차가 10월 초 145bp를 넘었다가 15일 130bp대로 좁혀졌지만, 주말 폭동이 정치 위기를 키우면서 금리차가 146bp로 다시 벌어지고 CAC 40의 독일 대비 할인율이 2009년 이후 최대로 커져, 예산 처리와 무디스 심사를 앞둔 정부를 압박하고 있다",
+   "facts": [
+    "무엇이: 주말 폭동 뒤 10월 19일 프랑스 10년물 금리는 약 4.9%로 9월 말 이후 가장 크게 올랐고, 독일 국채와의 금리차는 146bp로 2주 만의 최대였다 [사실]",
+    "흐름: 10월 5일 금리차가 145bp를 넘어 유로존 위기 이후 최대였다가 15일 유럽 금리 급락에 130bp대로 좁혀졌고, 11일에는 8개 노조 총파업 속 국채 금리 5% 돌파 전언도 나왔다(19일 블룸버그 기준은 약 4.9%) [채널]",
+    "증시·환율: CAC 40은 1.5% 내리고 BNP파리바·소시에테제네랄이 크게 밀렸으며 DAX 대비 할인율은 13%를 넘어 2009년 초 이후 최대였고, 파운드는 유로 대비 17개월 만의 최고로 올랐다 [채널]",
+    "ECB·유로존: 라가르드 ECB 총재는 프랑스 부채 해법이 국내에 있다고 했고 프랑스은행 총재는 현재로선 ECB 지원이 필요 없다고 했으며, 유로존 장관들은 시장 진정을 위해 2027년 예산 통과를 요구했다 [제목]",
+    "일정·기존: 무디스는 금요일 신용등급을 검토하고, IMF는 차입 비용 상승이 당장은 감당 가능하지만 금리가 높게 머물면 중기 건전화 계획이 필요하다고 했으며 국가부채는 6월 말 GDP의 119%다 [사실]"
+   ],
+   "check": "국채·증시·유로 동반 하락, 10년물 약 4.9%·독일 대비 146bp, 은행주 하락, 무디스 금요일 검토는 검색 결과 요약(CNBC 등)으로 확인. CAC의 DAX 대비 할인율 13%·2009년 이후 최대는 확인 못 함",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-bbg-0111#S1",
+     "o": "Business Recorder",
+     "d": "2026-10-09",
+     "u": "https://www.brecorder.com/news/40443407/euro-skids-toward-fifth-weekly-fall-but-selling-pressure-slows"
+    },
+    {
+     "k": "n-bbg-0111#S2",
+     "o": "FXStreet",
+     "d": "2026-10-08",
+     "u": "https://www.fxstreet.com/news/forex-today-euro-stabilizes-as-markets-await-comments-from-central-bankers-202610080720"
+    },
+    {
+     "k": "n-bbg-0111#S3",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-05",
+     "u": "https://t.me/The_MariTimes/63513"
+    },
+    {
+     "k": "n-bbg-0111#S4",
+     "o": "FXStreet",
+     "d": "2026-10-02",
+     "u": "https://www.fxstreet.com/analysis/us-jobs-report-day-french-german-10-year-spread-nears-150bps-202610021014"
+    },
+    {
+     "k": "n-bbg-0111#S5",
+     "o": "ideal-investisseur",
+     "d": "2026-10-07",
+     "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+    },
+    {
+     "k": "n-bbg-0111#S6",
+     "o": "Euronext 뉴스(유로존 장관 회의)",
+     "d": "2026-10-08",
+     "u": "https://live.euronext.com/en/financial-news/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets"
+    },
+    {
+     "k": "n-bbg-0111#S7",
+     "o": "IndexBox",
+     "d": "2026-10-08",
+     "u": "https://www.indexbox.io/blog/euro-zone-ministers-and-ecb-urge-france-to-adopt-2027-budget-as-borrowing-costs-hit-25-year-high/"
+    },
+    {
+     "k": "n-bbg-0111#S8",
+     "o": "ECB 금융안정보고서",
+     "d": "2026-05",
+     "u": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/ecb.fsr202605~50566915a7.en.html"
+    },
+    {
+     "k": "n-bbg-0111#S9",
+     "o": "NAI500",
+     "d": "2026-10",
+     "u": "https://nai500.com/blog/2026/10/europe-s-bond-market-remembers-how-to-panic/"
+    },
+    {
+     "k": "n-bbg-0111#S10",
+     "o": "Eurasia Business News",
+     "d": "2026-10-12",
+     "u": "https://eurasiabusinessnews.com/2026/10/12/france-growth-outlook-economic-uncertainty-rises-as-gdp-stagnates/"
+    },
+    {
+     "k": "n-bbg-0111#S11",
+     "o": "Breaking The News",
+     "d": "2026-10-12",
+     "u": "https://breakingthenews.net/Article/Bank-of-France-estimates-third-quarter-growth-at-0.1/67280034"
+    },
+    {
+     "k": "n-bbg-0111#S12",
+     "o": "Rothschild & Co",
+     "d": "2026-10",
+     "u": "https://www.rothschildandco.com/en-us/newsroom/insights/2026/10/wm-strategy-blog-france-fiscal-pressure/"
+    },
+    {
+     "k": "n-bbg-0111#S13",
+     "o": "Futu News",
+     "d": "2026-10-13",
+     "u": "https://news.futunn.com/en/post/1001013567/blackstone-president-and-fed-governor-waller-france-s-fiscal-pressure"
+    },
+    {
+     "k": "n-bbg-0111#S14",
+     "o": "RTÉ",
+     "d": "2026-10-14",
+     "u": "https://www.rte.ie/news/business/2026/1014/1595322-lagarde-says-solution-to-french-debt-woes-is-at-home/"
+    },
+    {
+     "k": "n-bbg-0111#S15",
+     "o": "CNN",
+     "d": "2026-10-14",
+     "u": "https://www.cnn.com/2026/10/14/markets/ecb-christine-lagarde-france-intl-hnk"
+    },
+    {
+     "k": "n-bbg-0111#S16",
+     "o": "France 24",
+     "d": "2026-10-14",
+     "u": "https://www.france24.com/en/live-news/20261014-higher-borrowing-costs-an-alarm-signal-for-france-finance-minister"
+    },
+    {
+     "k": "n-bbg-0111#S17",
+     "o": "Atlantic Council",
+     "d": "2026-10",
+     "u": "https://www.atlanticcouncil.org/commentary/transcript/full-transcript-french-finance-minister-roland-lescure-on-bond-market-pressure-upcoming-elections-and-more/"
+    },
+    {
+     "k": "n-bbg-0111#S18",
+     "o": "Trading Economics",
+     "d": "2026-10-16",
+     "u": "https://tradingeconomics.com/france/government-bond-yield"
+    },
+    {
+     "k": "n-bbg-0111#S19",
+     "o": "CNBC",
+     "d": "2026-10-15",
+     "u": "https://www.cnbc.com/amp/2026/10/15/france-budget-deficit-moulin-protests.html"
+    },
+    {
+     "k": "n-bbg-0111#S20",
+     "o": "CNBC",
+     "d": "2026-10-19",
+     "u": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+    },
+    {
+     "k": "n-bbg-0111#S21",
+     "o": "KuCoin News",
+     "d": "2026-10-19",
+     "u": "https://www.kucoin.com/news/flash/french-markets-tumble-amid-protests-and-political-crisis"
+    },
+    {
+     "k": "n-bbg-0111#S22",
+     "o": "Admiral Markets",
+     "d": "2026-10-19",
+     "u": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/fiscal",
+    "macro/fx",
+    "macro/growth",
+    "macro/liquidity",
+    "macro/rates"
+   ],
+   "vc": [
+    {
+     "dir": "up",
+     "f": "가격",
+     "ind": "macro",
+     "k": "실제",
+     "node": "rates",
+     "t": "폭동 뒤 프랑스 10년물 4.9%, 독일과 금리차 146bp"
+    },
+    {
+     "dir": "down",
+     "f": "가격",
+     "ind": "macro",
+     "k": "실제",
+     "node": "fx",
+     "t": "유로 약세, 파운드 대비 17개월 만의 최저"
+    }
+   ]
+  }
+ },
+ "clusters": [
+  {
+   "c": "G6-105",
+   "label": "콩고, 구리 벨트서 불법 채굴 중국인 약 300명 체포",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "콩고, 구리 중심지에서 중국인 광부 수백 명 체포",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "콩고가 콜웨지 등 구리 벨트에서 남의 광구를 캔 혐의로 중국인 약 300명을 구금하면서 불법 채굴로 나오던 구리 공급이 줄 수 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/congo-arrests-hundreds-of-chinese-miners-in-copper-heartland"
+    }
+   ]
+  },
+  {
+   "c": "G6-111",
+   "label": "주요 개발은행들 핵심광물 가치사슬 지원 틀 마련",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "주요 개발은행들, 핵심광물 가치사슬 지원 강화",
+     "o": "로이터",
+     "d": "2026-10-17",
+     "s": "주요 개발은행들이 핵심광물 가공·제련·제조 지원 틀을 내놓으면서, 자원국의 광물 가치사슬에 자금이 더 들어갈 전망이다",
+     "u": "https://www.reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17/"
+    }
+   ]
+  },
+  {
+   "c": "G6-114",
+   "label": "BHP '2028년경 구조적 구리 부족·800만~1,000만 톤 필요'",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "BHP '2028년경 구조적 구리 부족…800만~1,000만 톤 추가 공급 필요'",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "BHP가 2028년경부터 구조적 구리 부족을 예상하면서 2030년대 중반까지 에스콘디다급 800만~1,000만 톤의 추가 공급이 필요하다고 봤다",
+     "u": "https://t.me/Trillion_labs/10820"
+    }
+   ]
+  },
+  {
+   "c": "G6-115",
+   "label": "트럼프 후원자 아르메니아 구리 투자",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "트럼프 후원자, 미국 영향력 확대 속 아르메니아 구리에 베팅",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "트럼프 후원자가 미국의 지역 영향력 확대에 맞춰 아르메니아 구리에 베팅하면서 구리 자원 투자가 미국의 지정학 영향권으로 넓어지고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/trump-backer-bets-on-armenia-copper-as-us-expands-regional-sway"
+    }
+   ]
+  },
+  {
+   "c": "G6-116",
+   "label": "아이반호 일렉트릭 애리조나 구리 판매 협상",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "아이반호 일렉트릭, 데이터센터 수요 속 애리조나 구리 판매 협상",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "아이반호 일렉트릭이 데이터센터 수요를 배경으로 애리조나 구리 판매를 협상하면서 데이터센터발 구리 수요가 광산 판로로 이어지고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/ivanhoe-electric-ie-in-talks-to-sell-arizona-copper-amid-data-center-demand"
+    }
+   ]
+  },
+  {
+   "c": "G6-117",
+   "label": "관세 신호 없는 구리 강세장에 트레이더 경계",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "관세 신호 없는 구리 강세장에 트레이더들 경계 커져",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "미국 구리 관세 신호가 보이지 않자 트레이더들이 구리 강세장을 경계하기 시작하면서 가격 상승세의 지속성에 의문이 커지고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs"
+    }
+   ]
+  },
+  {
+   "c": "G6-152",
+   "label": "중국 구리 제련소 TC/RC 마이너스 경신에 감산",
+   "docs": [
+    "n-bbg-0085"
+   ],
+   "items": [
+    {
+     "t": "中 구리 제련소, TC/RC 마이너스 경신에 감산",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-20",
+     "s": "중국 구리 제련업체들이 가공수수료 TC/RC의 마이너스 경신을 이유로 감산에 들어가면서 정제 구리 공급이 줄 수 있다",
+     "u": "https://t.me/Trillion_labs/10884"
+    },
+    {
+     "t": "TC 마이너스 300달러 돌파…부산물로 버티던 제련소 수익성 악화",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-20",
+     "s": "정광 부족 속 제련소 과잉으로 TC가 마이너스 300달러대, RC가 파운드당 마이너스 33센트까지 내려가면서 황산·금은 부산물로 버티던 중국 제련소 수익성이 무너지고 있다",
+     "u": "https://t.me/Trillion_labs/10885"
+    },
+    {
+     "t": "TC/RC 마이너스 확대에 정광 파는 광산업체가 이익",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-20",
+     "s": "TC/RC 마이너스 폭이 커질수록 정광을 파는 광산업체가 제련소에서 더 많은 값을 받으면서 이익이 광산 쪽으로 옮겨 간다고 채널은 설명했다",
+     "u": "https://t.me/Trillion_labs/10888"
+    }
+   ]
+  },
+  {
+   "c": "G2-031",
+   "label": "셸 3분기 안내: 정제 마진 42달러로 급등·가스 생산 상향",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "셸이 3분기 정제 마진 지표를 배럴당 24달러에서 42달러로 높여 안내한 반면 화학 마진은 톤당 270달러에서 208달러로 떨어졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+    },
+    {
+     "t": "셸, 3분기 가스 생산 전망 상향",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "셸이 3분기 통합가스 생산 전망을 하루 74만~78만 배럴로 제시해 2분기 63만1000배럴보다 높이면서 가스 부문 이익이 늘어날 수 있다",
+     "u": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "c": "G2-032",
+   "label": "BP 3분기 안내: 정제·트레이딩 호조에 순부채 급감·손상차손",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "BP, 에너지 트레이딩·정제 호조에 힘입어 부채 대폭 축소",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "BP가 에너지 트레이딩과 정제 호조에 힘입어 순부채를 2분기 223억 달러에서 135억~145억 달러로 줄이면서 재무구조가 개선됐다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-13/bp-debt-shrinks-with-boost-from-oil-and-gas-trading-refining"
+    },
+    {
+     "t": "BP, 이란 전쟁發 석유·가스 트레이딩 호조에 2027년 순부채 목표 달성",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "s": "이란 전쟁으로 석유·가스 트레이딩이 호조를 보이자 BP가 2027년 순부채 목표를 약 1년 앞당겨 달성하게 됐다",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/bp-reaches-net-debt-2027-target-as-iran-war-boosts-oil-gas-trading"
+    },
+    {
+     "t": "BP 3분기 정제 마진 46.7달러로 1년 새 3배…손상차손 최대 45억 달러",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-13",
+     "s": "BP 3분기 정제 지표 마진이 배럴당 46.7달러로 1년 전의 약 3배로 뛰었지만 가스·저탄소 부문에서 30억~45억 달러 손상차손이 발생할 전망이다",
+     "u": "https://t.me/TNBfolio/71527"
+    },
+    {
+     "t": "BP, 3분기 가스 트레이딩 실적 크게 개선 예상",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "BP가 3분기 가스 트레이딩 실적이 전분기를 크게 웃돌 것으로 예상하면서 오일 트레이딩 정체에도 트레이딩 이익이 늘 전망이다",
+     "u": "https://www.reuters.com/business/energy/bp-expects-significantly-higher-gas-trading-third-quarter-2026-10-13/"
+    }
+   ]
+  },
+  {
+   "c": "G2-033",
+   "label": "에너지 기업, 3분기 유럽 기업 이익 증가 주도 전망",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "에너지 기업, 다시 유럽 기업 이익 증가 주도할 전망",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "에너지 기업들이 다시 유럽 기업 이익 증가를 이끌 것으로 보이면서, 이란 전쟁발 유가·정제마진 상승이 3분기 실적 시즌의 버팀목이 될 전망이다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-14/energy-companies-set-to-lead-european-earnings-growth-again"
+    }
+   ]
+  },
+  {
+   "c": "G2-034",
+   "label": "IEA, 유럽 정유 마진 급감에 가동률 감축·제품 부족 경고",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "FT 'IEA, 유럽 정유 마진 급감에 가동률 감축·제품 부족 경고'",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-15",
+     "s": "원유와 운송비 급등으로 유럽 정유사 마진이 급격히 줄면서, IEA는 손실이 길어지면 가동률 감축으로 석유제품 부족이 심해질 수 있다고 경고했다",
+     "u": "https://t.me/Trillion_labs/10565"
+    }
+   ]
+  },
+  {
+   "c": "G2-035",
+   "label": "토탈에너지스 3분기 정제 마진 33.2달러·이익 급증 예고",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "토탈에너지스, 이란 전쟁발 에너지값 상승에 3분기 이익 급증 예고",
+     "o": "로이터",
+     "d": "2026-10-15",
+     "s": "토탈에너지스가 3분기 정제 마진이 배럴당 33.2달러로 전분기의 두 배를 넘었다고 밝히면서, 정제·화학 현금흐름이 약 40억 달러로 불어날 전망이다",
+     "u": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/"
+    }
+   ]
+  },
+  {
+   "c": "G2-036",
+   "label": "세계 1인당 정제능력 1980년 정점 대비 30% 낮아(분석)",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "세계 1인당 정제능력 1980년 정점보다 30% 낮아…제품 위기 뿌리 깊어",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "인구 1,000명당 정제능력이 1980년 18.4배럴에서 12.8배럴로 줄었다는 분석이 나오면서, 석유제품 부족이 길어지고 석유 투자 사이클이 돌아올 수 있다는 진단이 나왔다",
+     "u": "https://t.me/Trillion_labs/10796"
+    }
+   ]
+  },
+  {
+   "c": "G2-037",
+   "label": "유럽 경유 가격 배럴당 200달러 코앞",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "유럽 경유 가격, 배럴당 200달러 코앞까지 다가서",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "유럽 경유 가격이 배럴당 200달러에 다가서면서, 정제 부족에 따른 석유제품 가격 부담이 한층 커지고 있다",
+     "u": "https://t.me/Trillion_labs/10822"
+    }
+   ]
+  },
+  {
+   "c": "G2-038",
+   "label": "호주 암폴 3분기 리튼 정제마진 두 배·FCC 재가동 지연",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "호주 암폴, 3분기 리튼 정제마진 두 배 넘게 상승",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "암폴의 3분기 리튼 정제마진이 배럴당 23.92달러로 두 배를 넘었지만 FCC 재가동이 11월 중순으로 밀리면서, 4분기 연료 생산은 약 1억 5,000만 리터 줄게 됐다",
+     "u": "https://www.reuters.com/business/energy/australias-ampol-third-quarter-lytton-refining-margin-more-than-doubles-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G2-039",
+   "label": "미국 정유사 시트고, 연료 마진 급등에 이익 전망 20억 달러 상향",
+   "docs": [
+    "n-bbg-0100"
+   ],
+   "items": [
+    {
+     "t": "시트고, 연료 마진 급등에 이익 전망 20억 달러 상향",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "미국 정유사 시트고가 연료 마진 급등을 반영해 이익 전망을 20억 달러 올리면서, 미국 정유사로도 마진 호황이 번지고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/citgo-raises-profit-outlook-by-2-billion-as-fuel-margins-surge"
+    }
+   ]
+  },
+  {
+   "c": "G3-001",
+   "label": "스페이스X 주파수 접근 확대 추진에 항공우주 업계 반발",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "스페이스X가 주파수 접근 확대를 밀어붙이면서 같은 대역을 쓰는 항공우주 업계의 반발을 사고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+    }
+   ]
+  },
+  {
+   "c": "G3-002",
+   "label": "머스크, 항공기 위성통신 경쟁서 델타항공 겨냥",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "머스크가 항공기 위성통신 경쟁에서 아직 잡지 못한 델타항공을 겨냥하면서 기내 인터넷 시장 판도가 바뀔 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight"
+    }
+   ]
+  },
+  {
+   "c": "G3-003",
+   "label": "미 FCC, 직접-단말용 신규 주파수 경매 추진 표결",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "미 FCC가 직접-단말 서비스 확대를 위한 신규 주파수 경매 추진을 표결하면서 위성 휴대전화 직접 연결 사업자들이 쓸 주파수가 늘어날 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "c": "G3-004",
+   "label": "인도, 머스크 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "인도 정부가 머스크의 '올리가르히' 비판 뒤 위성인터넷 승인에 편파가 있었다는 의혹을 부인하면서 머스크 측과의 공방이 이어졌다 (제목 기준)",
+     "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "c": "G3-005",
+   "label": "스페이스X, 스타링크 모바일용 800MHz 주파수 인수",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "s": "스페이스X가 스타링크 휴대전화 서비스에 쓸 주파수 인수 계약을 발표하면서 위성 직접 휴대전화 통신 사업을 넓힐 수 있게 됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service"
+    },
+    {
+     "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "스페이스X가 스타링크 모바일 서비스를 가능케 할 주파수를 인수하면서 기존 이동통신사와 직접 경쟁할 길이 열릴 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/"
+    },
+    {
+     "t": "스페이스X, 스타링크 모바일로 위성·지상망 통합…미 이통 3사에 도전",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-10",
+     "s": "스페이스X가 800MHz 저주파 대역을 확보해 위성·지상망 통합을 추진하면서, T모바일·AT&T·버라이즌과 직접 경쟁할 기반을 마련했다",
+     "u": "https://t.me/insidertracking/65838"
+    }
+   ]
+  },
+  {
+   "c": "G3-006",
+   "label": "스페이스X 주파수 거래에 미·유럽 통신주 하락(도이치텔레콤 7%)",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "스페이스X 주파수 거래에 미국·유럽 통신주 동반 하락",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "스페이스X 주파수 거래가 업계를 흔들면서 미국·유럽 통신주가 동반 하락해 STOXX 600 통신지수가 3.3% 내린 2월 이후 최저로 떨어졌다",
+     "u": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/"
+    },
+    {
+     "t": "스페이스X 주파수 거래에 도이치텔레콤 주가 7% 하락",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "스페이스X 주파수 거래 여파로 도이치텔레콤 주가가 7~8% 급락하면서 유럽 대형 통신사도 위성통신 경쟁 우려를 피하지 못했다",
+     "u": "https://www.reuters.com/business/media-telecom/spacex-spectrum-deal-sends-deutsche-telekom-shares-falling-7-2026-10-09/"
+    },
+    {
+     "t": "스페이스X 주파수 매입, 대형 통신주 위험 드러내",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "스페이스X의 주파수 매입으로 위성 기반 이동통신 경쟁자가 생기면서 미국 대형 통신사 주가의 위험이 부각됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/spacex-s-spectrum-purchase-exposes-risks-for-big-telecom-stocks"
+    }
+   ]
+  },
+  {
+   "c": "G3-007",
+   "label": "스페이스X 주파수 충격에 호주·뉴질랜드 통신주 하락",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "스페이스X 주파수 거래 뒤 호주·뉴질랜드 통신주 하락",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "s": "스페이스X 주파수 충격이 번지면서 12일 텔스트라가 2.5% 내린 6주 최저로, TPG텔레콤이 5% 가까이 떨어지는 등 호주·뉴질랜드 통신주가 하락했다",
+     "u": "https://www.reuters.com/business/media-telecom/telecom-stocks-australia-nz-slide-after-spacex-spectrum-deal-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "c": "G3-008",
+   "label": "BofA \"스타링크 모바일, 애플에 세 가지 위협\"",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "BofA \"스타링크 모바일, 세 가지 측면에서 애플에 위협\"",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-13",
+     "s": "BofA가 스타링크 이동이 통신사 보조금 모델을 흔들 수 있다고 분석하면서, 후불 가입자 10% 이탈 시 아이폰 500만 대 감소를 추산했다",
+     "u": "https://t.me/insidertracking/66100"
+    }
+   ]
+  },
+  {
+   "c": "G3-009",
+   "label": "유럽 통신사·AST, 위성 주파수 공동 입찰 컨소시엄 추진",
+   "docs": [
+    "n-bbg-0103"
+   ],
+   "items": [
+    {
+     "t": "유럽 통신사들, 모바일 위성 주파수 공동 입찰 검토",
+     "o": "로이터",
+     "d": "2026-10-19",
+     "s": "유럽 대형 통신사들이 위성 이동통신 주파수에 공동 입찰하는 방안을 검토하면서 위성 직접통신 주파수 확보 경쟁에 뛰어들었다",
+     "u": "https://www.reuters.com/business/aerospace-defense/european-telecom-groups-mull-joint-bid-mobile-satellite-spectrum-2026-10-19/"
+    },
+    {
+     "t": "유럽 주요 통신사, 스페이스X 견제 위해 위성 연합 모색",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "유럽 주요 통신사들이 스페이스X를 막으려 위성 연합을 모색하면서 스타링크의 유럽 이동통신 시장 진입에 맞설 진용을 짜고 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/europe-s-top-carriers-explore-satellite-group-to-fend-off-spacex"
+    },
+    {
+     "t": "AST 스페이스모바일, 유럽 4대 통신사와 위성 주파수 공동 입찰 검토",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-19",
+     "s": "AST 스페이스모바일이 유럽 4대 통신사와 위성 주파수 공동 입찰 의향서를 맺고 5억 명 넘는 가입자 시장에 스마트폰 직접 연결 광대역을 노리게 됐다",
+     "u": "https://t.me/insidertracking/66691"
+    },
+    {
+     "t": "유럽 통신사들, 스타링크 대응 위성 컨소시엄 구성 합의",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-20",
+     "s": "트릴리온은 유럽 통신사들이 스타링크에 맞선 위성 주파수 컨소시엄 구성에 합의했다는 블룸버그 정리 기사를 전하며 이미 나온 내용의 재정리로 봤다",
+     "u": "https://t.me/Trillion_labs/10871"
+    }
+   ]
+  },
+  {
+   "c": "G4-030",
+   "label": "ECB 위원들 10월 회의 앞 금리 발언(돌렌츠·나겔 등)",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "ECB 돌렌츠 '현 금리가 다음 결정에 유연성 제공'",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "ECB 돌렌츠가 현 금리 수준이 다음 결정에서 유연성을 준다고 말하면서 추가 인상을 서두르지 않을 여지를 남겼다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions"
+    },
+    {
+     "t": "돌렌츠 'ECB 금리로 가격 충격 확산 막을 수 있다'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "돌렌츠가 ECB 금리로 가격 충격 확산을 막을 수 있다고 밝히면서 금리 정책의 물가 억제 효과를 강조했다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-rates-can-prevent-price-shock-from-spreading-dolenc-says"
+    },
+    {
+     "t": "ECB 정책위원 돌렌츠 로이터 인터뷰",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "로이터가 ECB 정책위원 돌렌츠와의 인터뷰를 전하면서 그가 보는 유로존 금리 경로에 대한 견해가 시장에 알려졌다 (제목 기준)",
+     "u": "https://www.reuters.com/markets/us/reuters-interview-with-ecb-policymaker-dolenc-2026-10-08/"
+    },
+    {
+     "t": "돌렌츠 '인플레이션 상방 위험에 ECB 추가 인상 필요할 수도'",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "돌렌츠 슬로베니아 중앙은행 총재가 인플레이션 상방 위험을 이유로 ECB의 추가 인상이 필요할 수 있다고 말하면서 매파적 신호를 보냈다",
+     "u": "https://www.reuters.com/world/europe/with-inflation-risks-upside-ecb-may-need-hike-more-dolenc-says-2026-10-08/"
+    },
+    {
+     "t": "ECB 지그만 '다음 회의에서 매우 치열한 논의 예상'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "ECB 지그만이 다음 회의에서 매우 치열한 논의가 예상된다고 밝히면서 추가 인상을 둘러싼 위원 간 이견이 드러났다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-s-zigman-sees-very-intensive-discussion-at-next-meeting"
+    },
+    {
+     "t": "레인 'ECB, 이란 전쟁에 절제된 대응 유지 가능'",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "레인이 ECB가 이란 전쟁에 절제된 대응을 유지할 수 있다고 말하면서 단기 추가 인상 기대가 낮아질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-can-stick-with-measured-response-to-iran-war-lane-says"
+    },
+    {
+     "t": "파차리데스 'ECB 금리 인상으로 추가 충격 막을 수 없어'",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "파차리데스가 ECB가 금리를 올려도 추가 충격을 막을 수는 없다고 말하면서 금리 인상 효과에 대한 신중론이 더해졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/ecb-s-higher-rates-can-t-prevent-more-shocks-patsalides-says"
+    },
+    {
+     "t": "라가르드 'ECB, 물가 2차 파급 효과 아직 안 보여'",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "라가르드 ECB 총재가 물가의 2차 파급 효과가 아직 보이지 않는다고 말하면서, 에너지값 급등이 임금·근원물가로 번졌다는 근거는 없다는 판단을 내놨다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-not-seeing-second-round-inflation-effects-lagarde-says"
+    },
+    {
+     "t": "분쉬 'ECB, 아마 다시 금리 올려야 할 것'",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "분쉬 벨기에 중앙은행 총재가 ECB가 아마 다시 금리를 올려야 할 것이라고 말하면서, 10월 인상도 배제하지 않아 추가 긴축 기대를 키웠다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-will-probably-have-to-hike-interest-rates-again-wunsch-says"
+    },
+    {
+     "t": "심쿠스 'ECB, 물가 압력이 추가 긴축 가리켜'",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "심쿠스 리투아니아 중앙은행 총재가 물가 압력이 추가 긴축을 가리킨다고 말하면서, 이달 인상도 배제할 수 없다며 추가 인상론에 힘을 보탰다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-14/ecb-s-simkus-says-inflation-pressures-point-to-more-tightening"
+    },
+    {
+     "t": "돌렌츠 '시장이 긴축하면 ECB는 덜 해도 될 수도'",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "돌렌츠 슬로베니아 중앙은행 총재가 채권시장 긴장으로 금융 여건이 조여지면 ECB가 덜 올려도 될 수 있다고 말하면서, 국채 금리 상승이 인상 폭을 줄일 변수로 떠올랐다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-may-not-have-to-do-as-much-if-markets-tighten-dolenc-says"
+    },
+    {
+     "t": "카작스 '상반된 경제 힘 속 ECB 서두를 필요 없어'",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "카작스 라트비아 중앙은행 총재가 당분간 물가 압력은 더 세겠지만 서둘러 움직일 필요는 없다고 말하면서, 10월 회의의 즉각 인상 기대를 낮췄다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-in-no-rush-to-act-amid-opposing-economic-forces-kazaks-says"
+    },
+    {
+     "t": "나겔 'ECB 다시 인상해야 할 가능성 배제 못 해'",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "나겔 분데스방크 총재가 ECB가 다시 금리를 올려야 할 가능성을 배제할 수 없다고 말하면서, 독일 중앙은행도 추가 인상론에 힘을 실었다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/nagel-says-he-can-t-exclude-that-ecb-may-need-to-hike-again"
+    },
+    {
+     "t": "라가르드 'ECB, 국채 매도세가 물가를 둔화시킬 것'",
+     "o": "로이터",
+     "d": "2026-10-17",
+     "s": "라가르드 총재가 장기금리 급등으로 금융 여건이 조여졌다고 하면서, 성장과 물가 전가가 9월 전망보다 더 둔화할 것이라고 봤다",
+     "u": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/"
+    }
+   ]
+  },
+  {
+   "c": "G4-031",
+   "label": "ECB 라가르드 후임 총재 경쟁(데코스 지지 등)",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "ECB 총재 경쟁: 라가르드 후임은 누구인가",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "라가르드 후임을 둘러싼 ECB 총재 경쟁 구도가 부각되면서 차기 총재 인선이 유로존 통화정책 방향의 변수로 떠올랐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/ecb-president-race-who-will-replace-christine-lagarde"
+    },
+    {
+     "t": "스페인 제1야당 대표, 라가르드 후임 ECB 총재로 데코스 지지",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "스페인 제1야당 대표가 데코스를 라가르드의 후임 ECB 총재로 지지하면서, 차기 총재 경쟁에서 스페인 후보가 여야 지지를 함께 얻게 됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/spain-s-opposition-leader-backs-de-cos-to-succeed-lagarde-at-ecb"
+    }
+   ]
+  },
+  {
+   "c": "G4-032",
+   "label": "ECB 의사록 '9월 인상은 비례적'…단기 인상 기대 약화",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "ECB 위원들, 지난 인상 때 '비례적' 조치 추구",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "10월 8일 공개된 ECB 의사록에서 위원들은 9월 0.25%p 인상을 비례적 조치로 설명했고, 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-officials-took-proporionate-step-with-last-month-s-hike"
+    },
+    {
+     "t": "ECB 정책위원 발언·의사록, 단기 금리 인상 기대 약화",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "ECB 정책위원 발언과 의사록이 신중한 기조를 보이면서 시장의 단기 금리 인상 기대가 약해졌다 (제목 기준)",
+     "u": "https://www.reuters.com/world/europe/ecb-policymakers-accounts-dampen-near-term-rate-hike-bets-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "c": "G4-033",
+   "label": "ECB, 물가 목표 2배 근접에 12월 인상 쪽으로 기울어",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "ECB, 물가 목표 2배 근접에 12월 다시 인상할 듯",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "유로존 물가가 목표의 2배 가까이 오르면서 ECB가 12월에 다시 금리를 올릴 것이라는 관측이 나왔다 (제목 기준)",
+     "u": "https://www.reuters.com/business/ecb-hike-rates-again-december-inflation-almost-doubles-2-target-2026-10-08/"
+    },
+    {
+     "t": "ECB, 12월 인상 쪽으로 기울어…방콕 논의서 위험 드러나",
+     "o": "블룸버그",
+     "d": "2026-10-17",
+     "s": "ECB가 12월 금리 인상 쪽으로 기울면서, 인상 시 정책금리가 긴축 수준인 2.75%로 올라 유로존 차입 비용이 더 오를 수 있다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-17/ecb-leans-toward-december-hike-as-bangkok-talks-expose-risks"
+    }
+   ]
+  },
+  {
+   "c": "G4-034",
+   "label": "ECB 슈나벨 후임 이사 후보 마감 10월 28일 설정",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "슈나벨 후임 ECB 자리 마감 확정…라가르드 거취는 불투명",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "슈나벨 후임 ECB 이사 자리의 후보 마감은 확정됐지만 라가르드 거취는 불투명해 ECB 지도부 인선의 불확실성이 남았다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/schnabel-ecb-job-deadline-is-set-as-lagarde-plans-stay-unclear"
+    },
+    {
+     "t": "유로그룹, ECB 슈나벨 후임 후보 제출 마감 10월 28일로 설정",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "유로그룹이 ECB 슈나벨 이사 후임 후보 제출 마감을 10월 28일로 정하면서 ECB 이사회 인선 절차가 본격적으로 시작됐다",
+     "u": "https://www.reuters.com/business/eurogroup-sets-deadline-submit-candidates-replace-ecbs-schnabel-oct-28-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "c": "G4-035",
+   "label": "독일 9월 소비자물가 3.3% 확정",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "독일 9월 소비자물가 상승률 3.3%로 최종 확정",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "s": "독일 9월 물가가 난방유 74.9%·연료 37.1% 급등에 3.3%로 확정되면서 2023년 12월 이후 최고를 기록했다",
+     "u": "https://www.reuters.com/world/europe/german-september-inflation-confirmed-33-2026-10-13/"
+    }
+   ]
+  },
+  {
+   "c": "G4-036",
+   "label": "ECB 레인 'AI가 유럽 노동자 협상력 제한'",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "ECB 레인 'AI가 유럽 노동자 협상력 제한'",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "레인 ECB 수석 이코노미스트가 AI가 유럽 노동자의 협상력을 제한하고 있다고 말하면서 임금 상승 압력이 눌릴 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-2026-10-13/"
+    }
+   ]
+  },
+  {
+   "c": "G4-037",
+   "label": "독일 9월 도매물가 전년 대비 8.7% 상승",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "독일 9월 도매물가 1년 전보다 8.7% 상승",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "독일 연방통계청이 9월 도매물가가 1년 전보다 8.7% 올랐다고 발표하면서, 석유제품 48.8% 상승 등 에너지발 원가 압력이 도매 단계로 번졌음이 드러났다",
+     "u": "https://www.reuters.com/business/german-wholesale-prices-rise-87-september-2026-10-14/"
+    }
+   ]
+  },
+  {
+   "c": "G4-038",
+   "label": "스페인 9월 EU 기준 물가 확정치 발표",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "스페인 9월 EU 기준 12개월 물가 상승률 확정치 발표",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "스페인 통계청이 9월 EU 기준 소비자물가 상승률 확정치를 내면서, 유로존 주요국의 9월 물가 흐름을 가늠할 자료가 하나 더해졌다 (제목 기준)",
+     "u": "https://www.reuters.com/business/spains-final-12-month-eu-harmonised-inflation-5-september-2026-10-14/"
+    }
+   ]
+  },
+  {
+   "c": "G4-039",
+   "label": "프랑스 9월 물가 3.4%, 2024년 1월 이후 최고",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "프랑스 9월 물가 3.4% 상승…2024년 1월 이후 최고",
+     "o": "로이터",
+     "d": "2026-10-15",
+     "s": "프랑스 9월 EU 기준 물가가 8월 2.6%에서 3.4%로 뛰어 2024년 1월 이후 최고를 기록하면서, 에너지발 물가 상승이 독일에 이어 프랑스에서도 확인됐다",
+     "u": "https://www.reuters.com/business/french-inflation-rises-34-september-highest-since-january-2024-2026-10-15/"
+    }
+   ]
+  },
+  {
+   "c": "G4-040",
+   "label": "라가르드 WEF행 가능성·ECB 거취 재촉·메르츠 신속 인선",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "소식통 'WEF, 11월 초 라가르드 임명할 수도'",
+     "o": "로이터",
+     "d": "2026-10-15",
+     "s": "세계경제포럼이 11월 초 라가르드 ECB 총재를 임명할 수 있다는 소식통 전언이 나오면서, ECB 수장 교체 논의가 앞당겨질 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/finance/wef-could-appoint-lagarde-early-november-sources-say-2026-10-15/"
+    },
+    {
+     "t": "ECB 위원들, 라가르드에 향후 거취 정리 재촉",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "ECB 위원들이 라가르드 총재에게 향후 거취를 분명히 하라며 조바심을 내면서, 총재 거취 불확실성이 ECB 내부 쟁점으로 떠올랐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-officials-get-impatient-for-lagarde-to-clear-up-future-plans"
+    },
+    {
+     "t": "메르츠 '필요하면 ECB 인사 신속히 결정할 수 있어'",
+     "o": "블룸버그",
+     "d": "2026-10-20",
+     "s": "메르츠 독일 총리가 필요하면 ECB 고위직 인선을 빠르게 결정할 수 있다고 하면서, ECB 지도부 교체 논의가 앞당겨질 수 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/merz-says-quick-decision-can-be-reached-on-ecb-jobs-if-needed"
+    }
+   ]
+  },
+  {
+   "c": "G4-041",
+   "label": "IMF '2026년 ECB 최소 한 차례 추가 인상' 예상",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "IMF, 2026년 ECB 최소 한 차례 0.25%p 추가 인상 예상",
+     "o": "로이터",
+     "d": "2026-10-16",
+     "s": "IMF가 ECB가 높은 물가에 맞서 올해 최소 한 차례 0.25%포인트 더 올릴 것으로 보면서, 6월·9월에 이은 세 번째 인상 가능성이 커졌다",
+     "u": "https://www.reuters.com/business/imf-expects-least-one-more-25-bps-ecb-rate-hike-2026-2026-10-16/"
+    }
+   ]
+  },
+  {
+   "c": "G4-042",
+   "label": "AI 붐발 자금 쟁탈에 중앙은행들 인상 저울질",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "AI 붐발 자금 쟁탈에 중앙은행들 금리 인상 저울질",
+     "o": "로이터",
+     "d": "2026-10-17",
+     "s": "AI 붐이 자금 쟁탈을 부추기면서 각국 중앙은행이 금리 인상을 저울질해, 기업과 정부의 차입 비용이 더 오를 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+    }
+   ]
+  },
+  {
+   "c": "G4-043",
+   "label": "IMF '물가 웃돌면 일본은행 더 빨리 긴축해야'",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "IMF '물가가 전망 웃돌면 일본은행 더 빨리 긴축해야 할 수도'",
+     "o": "로이터",
+     "d": "2026-10-17",
+     "s": "IMF가 물가가 전망을 웃돌면 일본은행이 긴축 속도를 높여야 할 수 있다고 하면서, 9월 1.25%로 오른 일본 금리의 추가 인상 압력이 커질 수 있다",
+     "u": "https://www.reuters.com/world/asia-pacific/boj-may-need-tighten-faster-if-inflation-beats-forecast-imf-says-2026-10-17/"
+    }
+   ]
+  },
+  {
+   "c": "G4-044",
+   "label": "라가르드 '지속 가능한 재정이 경제 안정의 열쇠'",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "라가르드 '지속 가능한 재정이 경제 안정의 열쇠'",
+     "o": "블룸버그",
+     "d": "2026-10-17",
+     "s": "라가르드 ECB 총재가 지속 가능한 재정을 경제 안정의 열쇠로 꼽으면서, 국채 금리가 뛴 유로존 정부들의 재정 관리 부담이 부각됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability"
+    }
+   ]
+  },
+  {
+   "c": "G4-045",
+   "label": "유럽 중앙은행들 인상 가능성 차트",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "유럽 중앙은행들 금리 인상 가능성…인플레이션은 아직 시작도 안 했다는 차트",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-19",
+     "s": "채널이 유럽 중앙은행들의 금리 인상 가능성이 커지고 물가 상승이 본격화하지 않았다는 차트를 소개하면서, 유럽 긴축 장기화 가능성을 짚었다",
+     "u": "https://t.me/Trillion_labs/10824"
+    }
+   ]
+  },
+  {
+   "c": "G4-046",
+   "label": "분데스방크 '독일 물가 위험 위쪽으로 기울어'",
+   "docs": [
+    "n-bbg-0104"
+   ],
+   "items": [
+    {
+     "t": "분데스방크 '독일 물가 위험 뚜렷이 위쪽으로 기울어'",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "분데스방크가 원자재·식품·서비스 비용 상승을 들어 독일 물가 위험이 뚜렷이 위쪽으로 기울었다고 하면서, ECB 추가 인상 논거가 강해졌다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/german-inflation-risks-clearly-tilted-to-upside-bundesbank-says"
+    }
+   ]
+  },
+  {
+   "c": "G4-012",
+   "label": "달러, 의사록·연준 인사 발언에 18개월 고점서 후퇴",
+   "docs": [
+    "n-bbg-0111",
+    "n-bbg-0052"
+   ],
+   "items": [
+    {
+     "t": "달러, FOMC 의사록 공개 후 18개월 고점서 소폭 후퇴",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "",
+     "u": "https://www.reuters.com/world/africa/dollar-edges-back-18-month-high-after-fomc-minutes-2026-10-08/"
+    },
+    {
+     "t": "뜨거운 CPI에도 연준 인사들 인상 베팅 누그러뜨려 달러 18개월 고점서 후퇴",
+     "o": "로이터",
+     "d": "2026-10-16",
+     "s": "보우먼·데일리 등 연준 인사들이 더 기다릴 수 있다고 시사하면서, 뜨거운 CPI로 18개월 고점까지 오른 달러가 되밀리고 인상 베팅이 줄었다",
+     "u": "https://www.reuters.com/world/asia-pacific/dollar-retreats-18-month-high-despite-hot-cpi-fed-officials-temper-hike-bets-2026-10-15/"
+    }
+   ]
+  },
+  {
+   "c": "G4-047",
+   "label": "프랑스-독일 10년물 금리차 145bp 돌파",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스-독일 10년물 금리차 145bp 넘어…유로존 위기 이후 최대",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-05",
+     "s": "",
+     "u": "https://t.me/The_MariTimes/63513"
+    }
+   ]
+  },
+  {
+   "c": "G4-048",
+   "label": "유럽 정치 위험에 유로 약세·5주 연속 하락",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "정치 위험 커지며 유로 비관론 확산",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks"
+    },
+    {
+     "t": "유럽의 어려움이 달러 강세론자들에게 새 근거 제공",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.reuters.com/world/europe/europes-woes-give-dollar-bulls-fresh-reason-press-2026-10-08/"
+    },
+    {
+     "t": "유로, 5주 연속 주간 하락 향해…매도 압력은 둔화",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "",
+     "u": "https://www.reuters.com/business/euro-skids-toward-fifth-weekly-fall-selling-pressure-slows-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "c": "G4-049",
+   "label": "프랑스 전국 학생 시위 대비…채권시장 분위기 악화",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스, 전국 학생 시위 대비…채권시장 분위기 악화",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.reuters.com/live/live-france-braces-nationwide-student-protests-bond-markets-sour-2026-10-06/"
+    }
+   ]
+  },
+  {
+   "c": "G4-050",
+   "label": "시타델 임원 '프랑스 재정 실수 여지 없어'",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "시타델 임원 \"채권 매도로 프랑스는 재정 실수 여지 없어\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.reuters.com/business/finance/bond-selloff-leaves-france-no-room-fiscal-mistakes-citadel-executive-says-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "c": "G4-051",
+   "label": "프랑스 위기, ECB와 채권시장 정면 대결 가능성",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "위기에 휩싸인 프랑스, ECB와의 정면 대결로 향한다",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-moulin-says-conditions-for-france-intervention-aren-t-met"
+    },
+    {
+     "t": "프랑스의 복합 위기, ECB를 채권시장 대결로 끌어들일 수도",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-multiple-crises-could-drag-ecb-into-bond-market-showdown"
+    }
+   ]
+  },
+  {
+   "c": "G4-052",
+   "label": "프랑스은행 총재 'ECB 지원 불필요·모든 나라 금리 상승 직면'",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스은행 총재 \"현재로선 프랑스에 ECB 지원 필요 없어\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.reuters.com/business/finance/france-does-not-need-ecb-help-present-says-bank-france-head-2026-10-07/"
+    },
+    {
+     "t": "물랭 프랑스은행 총재 \"이제 모든 나라가 더 높은 금리에 직면\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-france-s-moulin-says-all-countries-face-higher-rates-now"
+    }
+   ]
+  },
+  {
+   "c": "G4-053",
+   "label": "프랑스 의회 예산 심사 착수, 연금 수급자 삭감 면제",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스 의원들, 예산 심사 시작하며 연금 수급자 삭감은 면제",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.reuters.com/business/finance/french-lawmakers-spare-pensioners-cuts-budget-review-begins-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "c": "G4-054",
+   "label": "프랑스 재무부 국채 발행 전략·단기채 확대 검토·수요 견조",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스 재무부 \"국채 발행 전략 변경 없다\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/french-finance-ministry-says-no-change-in-bond-issuance-strategy"
+    },
+    {
+     "t": "프랑스 재무장관, WSJ에 \"단기 국채 발행 확대 검토 중\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.reuters.com/business/france-is-considering-more-shorter-term-debt-issuance-finance-minister-tells-wsj-2026-10-07/"
+    },
+    {
+     "t": "레스퀴르 장관 \"프랑스 국채 수요 꾸준하다\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-has-no-problem-finding-bond-buyers-lescure-tells-bbc"
+    }
+   ]
+  },
+  {
+   "c": "G4-055",
+   "label": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스 국채, 자국 회사채 38%보다 위험해져",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/france-s-debt-is-now-riskier-than-38-of-nation-s-company-bonds"
+    }
+   ]
+  },
+  {
+   "c": "G4-056",
+   "label": "RBC 블루베이 '르펜 정년 인상 여부가 프랑스 금리 관건'",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "RBC 블루베이 전략가 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.reuters.com/business/le-pen-lifting-retirement-age-is-key-french-bond-yields-rbc-bluebay-strategist-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "c": "G4-057",
+   "label": "프랑스, 세계 시장 스트레스의 풍향계",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스, 세계 시장 스트레스의 풍향계가 되다",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/france-is-the-bellwether-for-stress-in-global-markets"
+    }
+   ]
+  },
+  {
+   "c": "G4-058",
+   "label": "유로존 재무장관들, 프랑스에 2027년 예산 통과 요구",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "유로존 재무장관 회의 속 프랑스 국채시장 우려 확대",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/french-bond-market-worries-mount-as-euro-area-finance-ministers-meet"
+    },
+    {
+     "t": "유로존 장관들, 시장 진정 위해 프랑스에 2027년 예산 통과 요구",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "s": "",
+     "u": "https://www.reuters.com/business/finance/euro-zone-ministers-tell-france-pass-2027-budget-calm-markets-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "c": "G4-059",
+   "label": "프랑스 부채 위기가 일본 1,450억 달러 채권 투자 시험",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스 부채 위기가 일본의 1,450억 달러 채권 투자를 시험하는 방식",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-09/how-france-s-debt-crisis-is-testing-japan-s-145-billion-bond-bet"
+    }
+   ]
+  },
+  {
+   "c": "G4-060",
+   "label": "유럽 채권 혼란 속 ECB 레포 자금 공급 주목",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "유럽 채권시장 혼란에 ECB 레포 자금 공급 주목",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/europe-s-bond-market-turbulence-puts-ecb-repo-funding-into-focus"
+    }
+   ]
+  },
+  {
+   "c": "G4-061",
+   "label": "크루그먼 '프랑스 부채 위기 구제 불가능할 수도'",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "크루그먼 '프랑스 부채 위기, 구제 불가능할 만큼 커졌을 수도'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-10",
+     "s": "폴 크루그먼이 GDP의 119%인 프랑스 국가부채가 지속 불가능한 경로에 있다며 유로존 회원국 지위가 폭발적 부채 위기를 부를 수 있다고 경고했다",
+     "u": "https://t.me/HANAchina/70164"
+    }
+   ]
+  },
+  {
+   "c": "G4-062",
+   "label": "씨티 '프랑스 위험에 ECB 인상 중단·유로 1.10달러 하회'",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "씨티 '프랑스 재정 위험에 ECB 12월 이후 인상 중단 가능…유로 1.10달러 하회'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-10",
+     "s": "씨티가 프랑스 재정 위기가 번지면 ECB가 금리 인상을 일찍 멈춰 유로화가 1.10달러 아래로 떨어질 수 있다며 연준 강세·ECB 약세 베팅을 제시했다",
+     "u": "https://t.me/HANAchina/70185"
+    }
+   ]
+  },
+  {
+   "c": "G4-063",
+   "label": "프랑스 총파업·국채 5% 돌파 속 글로벌 금리 연쇄 상승 경고",
+   "docs": [
+    "n-bbg-0111"
+   ],
+   "items": [
+    {
+     "t": "프랑스 총파업·국채 5% 돌파…'고금리 고착에 글로벌 설비투자 위축' 경고",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-11",
+     "s": "8개 노조 총파업과 국채 금리 5% 돌파 속에 팟캐스트 진행자들이 프랑스 금리가 5.5~6%로 오르면 미국·영국 국채 금리도 연쇄 상승할 수 있다고 경고했다",
+     "u": "https://t.me/Badonions/7741"
+    }
+   ]
+  }
+ ]
+}

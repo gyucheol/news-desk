@@ -1,0 +1,1641 @@
+{
+ "docs": {
+  "n-tg-0277": {
+   "title": "IMF 총회, 성장 3.1% 상향 속 부채·금리 경고…판궁성 '선진국 재정 감시'",
+   "one": "IMF가 연차총회에서 올해 세계성장률을 3.1%로 올리면서도 AI·유가·부채와 국채금리 급등을 위험으로 꼽고 유럽 국가 4분의 3에 적자 감축을 요구한 데 이어 판궁성 인민은행 총재가 선진국 재정 위험 감시 강화를 요구하면서, 선진국 재정과 국채에 대한 압박이 커지고 있다",
+   "facts": [
+    "무엇이: 판궁성 인민은행 총재는 10월 17일 방콕 IMFC 회의에서 IMF가 주요 선진국의 재정 위험과 그 파급 효과를 더 면밀히 감시해야 한다고 했다 [사실]",
+    "전망·위험: IMF는 올해 세계성장률을 3.1%로 올리고 평균 유가 96달러를 전망하면서 유가 130달러가 이어지면 2027년 성장률이 0.5%포인트 깎일 수 있다고 했다 [채널], 게오르기에바 총재는 유가 100달러 안팎의 에너지 충격과 GDP 100%를 넘을 공공부채, AI 실망을 '위험 칵테일'로 꼽았다 [사실], IMF는 국채금리 급등을 금융시스템 최대 위험으로 지목했다 [제목]",
+    "재정점검: IMF는 선진국 재정적자가 2026년 GDP의 5.2%, 미국 일반정부 적자가 8.5%에 이를 것으로 봤고, 게오르기에바 총재는 미국 성장만으로는 조정을 충분히 빨리 해낼 수 없다며 적자를 줄여야 한다고 했다 [사실]",
+    "유럽: IMF는 10월 16일 유럽 국가 약 4분의 3이 구조개혁과 중기적으로 평균 GDP 3.5% 안팎의 적자 감축이 필요하다고 했고, 슈추레크 유럽국장은 정책 변화가 없으면 평균적인 유럽 경제의 공공부채가 두 배까지 늘 수 있다고 했다 [사실], 스위스 재무장관은 유럽의 과도한 부채가 유로 위기를 부를 수 있다고 경고했다 [제목]",
+    "지원: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했고, 이라크가 IMF 프로그램을 요청하자 게오르기에바 총재는 확고한 지원을 약속했다 [사실]"
+   ],
+   "check": "IMF의 유럽 재정 건전화 요구 문서와 IMF 총회 부채 부담·판궁성 발언 문서를 묶었다. IMF 유럽 평가(구조개혁·적자 감축 3.5%·부채 두 배)와 판궁성의 감시 강화 요구는 검색 결과 요약으로 확인했고, 스위스 재무장관 발언·고부채 개발 접근법·개도국 평가 기사는 제목만 근거다.",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-tg-0277#S1",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-13",
+     "u": "https://t.me/HANAchina/70357"
+    },
+    {
+     "k": "n-tg-0277#S2",
+     "o": "IMF 재정점검보고서(2026년 4월)",
+     "d": "2026-04-15",
+     "u": "https://www.imf.org/en/publications/fm/issues/2026/04/15/fiscal-monitor-april-2026"
+    },
+    {
+     "k": "n-tg-0277#S3",
+     "o": "CNBC",
+     "d": "2026-10-14",
+     "u": "https://cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html"
+    },
+    {
+     "k": "n-tg-0277#S4",
+     "o": "Fortune",
+     "d": "2026-10-14",
+     "u": "https://fortune.com/2026/10/14/imf-us-nations-global-debt-economic-growth"
+    },
+    {
+     "k": "n-tg-0277#S5",
+     "o": "IMF 미디어센터",
+     "d": "2026-10-14",
+     "u": "https://mediacenter.imf.org/news/imf---fiscal-monitor-report-annual-meetings--2026/s/1b05cec6-cde8-4b75-80ec-2b29f9fb5d19"
+    },
+    {
+     "k": "n-tg-0277#S6",
+     "o": "Il Sole 24 Ore",
+     "d": "2026-10-16",
+     "u": "https://en.ilsole24ore.com/art/the-imf-warns-europe-unsustainable-debt-without-growth-pass-unanimous-vote-AHwBxyCD"
+    },
+    {
+     "k": "n-tg-0277#S7",
+     "o": "IndexBox",
+     "d": "2026-10-16",
+     "u": "https://www.indexbox.io/blog/imf-warns-europe-grow-faster-or-cut-debt-to-keep-public-finances-sustainable/"
+    },
+    {
+     "k": "n-tg-0277#S8",
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+    },
+    {
+     "k": "n-tg-0277#S9",
+     "o": "Briefs(블룸버그TV 인용)",
+     "d": "2026-10-07",
+     "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+    },
+    {
+     "k": "n-tg-0277#S10",
+     "o": "Quartz",
+     "d": "2026-10-07",
+     "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+    },
+    {
+     "k": "n-tg-0277#S11",
+     "o": "Manila Times",
+     "d": "2026-10-08",
+     "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+    },
+    {
+     "k": "n-tg-0277#S12",
+     "o": "Irish Times",
+     "d": "2026-10-12",
+     "u": "https://www.irishtimes.com/business/work/2026/10/12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes/"
+    },
+    {
+     "k": "n-tg-0277#S13",
+     "o": "CNBC",
+     "d": "2026-10-12",
+     "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+    },
+    {
+     "k": "n-tg-0277#S14",
+     "o": "CNBC",
+     "d": "2026-10-12",
+     "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+    },
+    {
+     "k": "n-tg-0277#S15",
+     "o": "Newsquawk",
+     "d": "2026-10-13",
+     "u": "https://www.newsquawk.com/headlines/imf-raises-2026-global-real-gdp-growth-forecast-to-31--from-30-citing-ai-investment-tempering-energy-price-shock-in-key-economies-while-it-maintains-2027-global-growth-view-at-34"
+    },
+    {
+     "k": "n-tg-0277#S16",
+     "o": "InvestmentNews",
+     "d": "2026-10-13",
+     "u": "https://www.investmentnews.com/alternatives/imf-warns-bond-yields-face-disorderly-spike-on-debt-and-ai-risks/268570"
+    },
+    {
+     "k": "n-tg-0277#S17",
+     "o": "Quartz",
+     "d": "2026-10-13",
+     "u": "https://qz.com/imf-ai-stock-crash-global-financial-stability-101326"
+    },
+    {
+     "k": "n-tg-0277#S18",
+     "o": "The Next Web",
+     "d": "2026-10-13",
+     "u": "https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report"
+    },
+    {
+     "k": "n-tg-0277#S19",
+     "o": "The Star",
+     "d": "2026-10-15",
+     "u": "https://www.thestar.com.my/business/business-news/2026/10/15/imf-warns-of-slowing-asian-growth-spillover-from-rising-yields"
+    },
+    {
+     "k": "n-tg-0277#S20",
+     "o": "AGBI",
+     "d": "2026-10-15",
+     "u": "https://www.agbi.com/economy/2026/10/imf-forecasts-middle-east-gdp-contraction-as-war-drags-on/"
+    },
+    {
+     "k": "n-tg-0277#S21",
+     "o": "L'Orient Today",
+     "d": "2026-10-15",
+     "u": "https://today.lorientlejour.com/article/1550932/middle-east-faces-no-quick-return-to-pre-war-growth-jihad-azour-warns.html"
+    },
+    {
+     "k": "n-tg-0277#S22",
+     "o": "Al Jazeera",
+     "d": "2026-10-17",
+     "u": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns"
+    },
+    {
+     "k": "n-tg-0277#S23",
+     "o": "The National",
+     "d": "2026-10-17",
+     "u": "https://www.thenationalnews.com/business/economy/2026/10/17/imf-to-accelerate-talks-with-iraq-and-lebanon-as-mena-support-grows/"
+    },
+    {
+     "k": "n-tg-0277#S24",
+     "o": "SCMP",
+     "d": "2026-10-17",
+     "u": "https://www.scmp.com/economy/global-economy/article/3350718/china-presses-imf-quota-reform-better-surveillance-advanced-economies"
+    },
+    {
+     "k": "n-tg-0277#S25",
+     "o": "민시신문",
+     "d": "2026-10-17",
+     "u": "https://ftvnews.com.tw/news/detail/2026A17W0526"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "macro/fiscal",
+    "macro/growth",
+    "macro/liquidity",
+    "macro/rates",
+    "macro/semis"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "수요",
+     "ind": "macro",
+     "k": "예상",
+     "node": "fiscal",
+     "t": "IMF, 유럽 평균 GDP 3.5% 적자 감축 필요"
+    }
+   ]
+  },
+  "n-tg-0292": {
+   "title": "中 증시 떠받치기…ETF 거래 급증·매도 제한, 증감회 '안정 우선'",
+   "one": "중국 증시가 사상 최장 주간 연속 하락에 빠지자 15일 지수형 ETF 거래대금이 40% 급증하는 국가대표 자금 개입과 매도 제한·자사주 매입이 이어지고 증감회가 시장 안정 최우선을 다짐한 가운데, A주 3분기 실적 예고의 83%가 호조로 나오면서 기술주 하락 압력이 누그러질 수 있다 (채널 전언)",
+   "facts": [
+    "무엇이: 중국 증시가 사상 최장 주간 연속 하락을 기록하는 가운데 국가대표 자금이 활발히 움직였고, 증감회는 글로벌 위험이 커지자 시장 안정을 최우선하겠다고 다짐했다 [제목]",
+    "개입: 15일 CSI300이 1.59%, CSI500이 2.43% 내린 날 주식형 ETF 거래대금이 1,670억 위안을 넘어 전날보다 약 40% 늘고 E펀드 CSI300 ETF는 전일의 14배로 불어나 정부 개입이 추정됐으며, 당국은 매도 제한과 자사주 매입으로 증시를 떠받쳤다 [채널]",
+    "자사주: Sugon·Hygon·Shengyi·Montage 4곳이 18일 한 시간 안에 2억~8억 위안 규모 자사주 매입안을 냈고, 이 가운데 Sugon은 3억~5억 위안, Shengyi Technology는 2억~3억 위안이다 [사실]",
+    "실적: Wind 집계로 18일 오후 6시까지 3분기 실적 전망을 낸 A주 159곳 중 132곳(83%)이 호조를 예상했고, AI 연산력·서버·광모듈·PCB 수요와 화학 등 경기순환 업종 가격 회복이 이끌었다 [채널]",
+    "진단: UBS는 A주 기술주 쏠림이 크게 완화돼 추가 하락 위험이 제한적이라고 봤고, 중신증권은 조정이 막바지라면서도 국채 ETF 순유입으로 위험회피 성향이 여전히 높다고 했으며, 홍콩 강구퉁 본토 거래 비중은 2년래 최저로 떨어졌다 [채널]"
+   ],
+   "check": "이번 글들은 검색으로 확인하지 못함(검색 결과 요약에 증감회의 10월 19일 발언은 없었음). 국가대표 자금 개입·증감회 다짐은 제목 기준, Wind 실적 예고 집계는 채널 전언",
+   "basis": "channel",
+   "src": [
+    {
+     "k": "n-tg-0292#S1",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "u": "https://t.me/HANAchina/70375"
+    },
+    {
+     "k": "n-tg-0292#S2",
+     "o": "KuCoin News",
+     "d": "2026-10-15",
+     "u": "https://www.kucoin.com/news/flash/a-share-indices-fall-amid-global-market-downturn-etfs-see-strong-inflows"
+    },
+    {
+     "k": "n-tg-0292#S3",
+     "o": "China Stock Crowd",
+     "d": "2026-10-15",
+     "u": "https://chinastockcrowd.substack.com/p/only-one-in-13-chinese-stocks-rose"
+    },
+    {
+     "k": "n-tg-0292#S4",
+     "o": "富途牛牛",
+     "d": "2026-10-16",
+     "u": "https://news.futunn.com/en/post/1001480114/the-chairman-of-zhongke-shuguang-603019-sh-proposes-a-share"
+    },
+    {
+     "k": "n-tg-0292#S5",
+     "o": "富途牛牛",
+     "d": "2026-10-18",
+     "u": "https://news.futunn.com/en/post/1001481790/tech-stock-buybacks-and-shareholdings-gain-momentum-shanghai-listed-companies"
+    }
+   ],
+   "inds": [
+    "macro",
+    "fin"
+   ],
+   "nodes": [
+    "macro/liquidity"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "가격",
+     "ind": "fin",
+     "k": "실제",
+     "node": "markets",
+     "t": "중국 증시 사상 최장 주간 연속 하락"
+    },
+    {
+     "dir": "up",
+     "f": "공급",
+     "ind": "macro",
+     "k": "실제",
+     "node": "liquidity",
+     "t": "국가대표 자금 개입으로 증시 떠받치기"
+    }
+   ]
+  },
+  "n-tg-0294": {
+   "title": "AI 거품론에 코스피 8% 폭락…국민연금 평가손 182조·반대매매 급증",
+   "one": "브로드컴 혹 탄 CEO의 자본 병목 경고 등 AI 거품론에 세계 반도체주 매도가 번지면서 코스피가 10월 15일 8% 폭락해 서킷브레이커가 발동됐고, 반대매매가 7월 이후 최대로 늘고 국민연금 보유 주식 평가액이 석 달 새 182조 원 줄었다",
+   "facts": [
+    "무엇이: 국민연금이 5% 이상 보유한 상장사 287곳의 평가액은 6월 말 515조 9,300억 원에서 10월 15일 333조 5,300억 원으로 약 182조 원(약 1,370억 달러) 줄었고 SK하이닉스·삼성전자가 감소분의 약 72%였으며, 국민의힘은 리밸런싱 유예를 비판했고 이재명 대통령은 한국 주식이 여전히 싸다고 했다 [사실]",
+    "배경: 혹 탄 브로드컴 CEO의 자본 병목·'카지노' 발언과 제프리스·골드만삭스의 AI 투자 경고 뒤 세계 반도체주 매도가 번졌고, 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했으며 코어위브는 한 주에 25% 넘게 떨어졌다 [채널]",
+    "급락: 10월 15일 코스피가 약 8% 떨어져 서킷브레이커로 거래가 20분간 멈췄고, 코스피는 6월 22일 사상 최고 종가 9,114.55에서 10월 15일까지 약 39% 하락했다 [사실]",
+    "수급: 외국인은 15일 코스피에서 하루 3조 7천억 원을 순매도했고, 반대매매는 10월 14일 893억 원·15일 805억 원으로 7월 31일(1,220억 원) 이후 가장 컸으며, 금융당국은 긴급회의를 열어 과도한 신용공급 자제와 시장 교란 엄벌을 주문했다 [채널]",
+    "전망: JP모건은 삼성전자 자사주 매입 종료로 매수세가 약해져 10월 말까지 위축을 예상하면서도 메모리 제외 선행 PER 8.4배를 저평가로 봤고, 골드만삭스는 코스피 12개월 목표 12,000을 유지했으며 젠슨 황은 AI 시장 혼란이 지나갈 것이라고 했다 [채널]"
+   ],
+   "check": "국민연금 평가액 감소(515조 9,300억→333조 5,300억 원)와 종목별 감소, 정치권 반응은 Futu(차이롄서)·PANews 등 검색 결과 요약으로 확인. 반대매매 805억 원과 JP모건 분석은 확인 못 함",
+   "basis": "partial",
+   "src": [
+    {
+     "k": "n-tg-0294#S1",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "u": "https://t.me/HANAchina/70427"
+    },
+    {
+     "k": "n-tg-0294#S2",
+     "o": "코리아헤럴드",
+     "d": "2026-10-15",
+     "u": "https://www.koreaherald.com/article/10903746"
+    },
+    {
+     "k": "n-tg-0294#S3",
+     "o": "서울경제",
+     "d": "2026-10-15",
+     "u": "https://en.sedaily.com/finance/2026/10/15/korea-halts-trading-as-kospi-kosdaq-plunge-8-percent-on"
+    },
+    {
+     "k": "n-tg-0294#S4",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "u": "https://t.me/HANAchina/70377"
+    },
+    {
+     "k": "n-tg-0294#S5",
+     "o": "파이낸셜뉴스",
+     "d": "2026-10-15",
+     "u": "https://www.fnnews.com/news/202610151818169515"
+    },
+    {
+     "k": "n-tg-0294#S6",
+     "o": "뉴스1",
+     "d": "2026-10-15",
+     "u": "https://www.news1.kr/finance/financial-policy/6321378"
+    },
+    {
+     "k": "n-tg-0294#S7",
+     "o": "글로벌이코노믹",
+     "d": "2026-10-15",
+     "u": "https://www.g-enews.com/article/Securities/2026/10/202610151550327170923c501012_1"
+    },
+    {
+     "k": "n-tg-0294#S8",
+     "o": "싱가포르 총리실",
+     "d": "2026-10-08",
+     "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+    },
+    {
+     "k": "n-tg-0294#S9",
+     "o": "CryptoBriefing",
+     "d": "2026-10-08",
+     "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+    },
+    {
+     "k": "n-tg-0294#S10",
+     "o": "Tradingpedia",
+     "d": "2026-10-12",
+     "u": "https://www.tradingpedia.com/2026/10/12/broadcom-chief-flags-casino-like-speculation-in-ai-stocks/"
+    },
+    {
+     "k": "n-tg-0294#S11",
+     "o": "Futu News",
+     "d": "2026-10-12",
+     "u": "https://news.futunn.com/en/post/1000898139/broadcom-ceo-many-ai-investors-are-like-casino-gamblers-capital"
+    },
+    {
+     "k": "n-tg-0294#S12",
+     "o": "Tiger Brokers",
+     "d": "2026-10-12",
+     "u": "https://www.itiger.com/news/1179263540"
+    },
+    {
+     "k": "n-tg-0294#S13",
+     "o": "Crypto Briefing",
+     "d": "2026-10-10",
+     "u": "https://cryptobriefing.com/jefferies-warns-us-ai-capital-destruction/"
+    },
+    {
+     "k": "n-tg-0294#S14",
+     "o": "Quartz",
+     "d": "2026-10-13",
+     "u": "https://qz.com/zuckerberg-meta-ai-spending-uncertainty-muse-wonder-101326"
+    },
+    {
+     "k": "n-tg-0294#S15",
+     "o": "The Next Web",
+     "d": "2026-10-13",
+     "u": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt"
+    },
+    {
+     "k": "n-tg-0294#S16",
+     "o": "Gartner",
+     "d": "2026-10-14",
+     "u": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030"
+    },
+    {
+     "k": "n-tg-0294#S17",
+     "o": "TechTarget",
+     "d": "2026-10-14",
+     "u": "https://www.techtarget.com/it-infrastructure/news/366652181/Gartner-forecasts-massive-AI-infrastructure-write-downs"
+    },
+    {
+     "k": "n-tg-0294#S18",
+     "o": "Hedgeweek",
+     "d": "2026-10-16",
+     "u": "https://hedgeweek.com/news/hedge-funds-hit-by-ai-sell-off-as-asia-focused-managers-lead-losses"
+    },
+    {
+     "k": "n-tg-0294#S19",
+     "o": "Finimize",
+     "d": "2026-10-16",
+     "u": "https://finimize.com/content/hedge-funds-felt-the-pain-of-an-ai-trade-unwind"
+    },
+    {
+     "k": "n-tg-0294#S20",
+     "o": "CNN",
+     "d": "2026-10-16",
+     "u": "https://www.cnn.com/2026/10/16/investing/tech-stocks-ai-coreweave"
+    },
+    {
+     "k": "n-tg-0294#S21",
+     "o": "CBS News",
+     "d": "2026-10-16",
+     "u": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+    },
+    {
+     "k": "n-tg-0294#S22",
+     "o": "Asianet Newsable",
+     "d": "2026-10-16",
+     "u": "https://newsable.asianetnews.com/markets/nasdaq-100-records-worst-week-in-18-months-as-investors-steer-clear-of-chipmakers-aapl-mstr-uber-soxx-in-focus-articleshow-xcdkcz2"
+    },
+    {
+     "k": "n-tg-0294#S23",
+     "o": "CNBC",
+     "d": "2026-10-17",
+     "u": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html"
+    },
+    {
+     "k": "n-tg-0294#S24",
+     "o": "Futu(차이롄서)",
+     "d": "2026-10-19",
+     "u": "https://news.futunn.com/en/post/1001507062/as-the-memory-chip-duo-faces-a-steep-decline-south"
+    },
+    {
+     "k": "n-tg-0294#S25",
+     "o": "PANews",
+     "d": "2026-10-19",
+     "u": "https://panews.io/articles/01a15258-0f6c-7145-87c6-3ddd2d6a86a4"
+    }
+   ],
+   "inds": [
+    "macro",
+    "fin",
+    "semis",
+    "tech"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/growth",
+    "macro/liquidity",
+    "macro/semis"
+   ],
+   "vc": [
+    {
+     "dir": "down",
+     "f": "공급",
+     "ind": "macro",
+     "k": "실제",
+     "node": "liquidity",
+     "t": "반대매매 이틀 연속 800억 원대, 자사주 매수 종료"
+    },
+    {
+     "dir": "down",
+     "f": "가격",
+     "ind": "fin",
+     "k": "실제",
+     "node": "assetmgmt",
+     "t": "국민연금 보유 주식 평가액 석 달 새 182조 원 감소"
+    }
+   ]
+  }
+ },
+ "clusters": [
+  {
+   "c": "G5-160",
+   "label": "높은 부채 속 개도국 새 개발 접근법 필요성 부각",
+   "docs": [
+    "n-tg-0277"
+   ],
+   "items": [
+    {
+     "t": "높은 부채·커지는 압박에 새로운 개발 접근법 필요성 부각",
+     "o": "로이터",
+     "d": "2026-10-18",
+     "s": "높은 부채와 커지는 재정 압박이 겹치면서 개도국 개발 자금을 마련하는 새로운 방식이 필요하다는 논의가 부각됐다 (제목 기준)",
+     "u": "https://www.reuters.com/world/high-debt-growing-strains-put-focus-need-new-development-approaches-2026-10-17/"
+    }
+   ]
+  },
+  {
+   "c": "G5-161",
+   "label": "IMF·세계은행 총회, 개도국에 답보다 질문 더 남겨",
+   "docs": [
+    "n-tg-0277"
+   ],
+   "items": [
+    {
+     "t": "IMF·세계은행 총회, 개도국에 답보다 질문 더 남겨",
+     "o": "로이터",
+     "d": "2026-10-18",
+     "s": "IMF·세계은행 연차총회가 끝났지만 개도국은 부채·자금 문제에서 답보다 질문을 더 많이 안게 됐다는 평가가 나왔다 (제목 기준)",
+     "u": "https://www.reuters.com/business/imfworld-bank-meetings-leave-developing-countries-with-more-questions-than-2026-10-18/"
+    }
+   ]
+  },
+  {
+   "c": "G3-094",
+   "label": "홍콩 강구퉁 본토 거래 비중 2년래 최저·본토 자금 유출",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "홍콩 강구퉁 본토 거래 비중 2년래 최저…본토 자금 순유출",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "s": "홍콩 증시에서 본토 투자자의 강구퉁 거래 비중이 2년 만에 최저로 떨어지면서, 본토 자금의 순유출이 이어지고 있다",
+     "u": "https://t.me/HANAchina/70375"
+    }
+   ]
+  },
+  {
+   "c": "G3-095",
+   "label": "하나증권 \"중국 주식, 채권 대비 투자 매력 우위\"",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "중국 주식 대 채권 투자 매력도…주식 우위 여전",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "s": "하나증권 중국전략이 중국 주식과 채권의 투자 매력도를 비교하면서, 주식의 상대 매력이 여전히 압도적이라는 평가를 전했다",
+     "u": "https://t.me/HANAchina/70376"
+    }
+   ]
+  },
+  {
+   "c": "G3-096",
+   "label": "UBS \"A주 기술주 쏠림 완화, 추가 하락 위험 제한적\"",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "UBS 'A주 기술주 쏠림 대폭 완화, 추가 하락 위험 제한적'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "UBS가 A주 기술주의 공모펀드 초과 비중이 고점 18.5%에서 내려오고 거래 비중이 37.2%로 떨어졌다고 보면서, 시장의 추가 하락 위험이 제한적이라고 판단했다",
+     "u": "https://t.me/HANAchina/70460"
+    }
+   ]
+  },
+  {
+   "c": "G3-097",
+   "label": "中 국가대표 자금, 지수형 ETF 대규모 매수로 증시 지지",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "中 오후장 지수형 ETF 거래액 급증…정부 개입 추정",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "창업판·과창50·CSI300 ETF 거래액이 오후 들어 전날 하루치를 넘어서면서, 채널은 정부 개입을 추정했지만 낙폭 축소는 제한적이었다고 전했다",
+     "u": "https://t.me/HANAchina/70474"
+    },
+    {
+     "t": "주식형 ETF 거래대금 40% 급증해 2개월 최고",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "중국 주식형 ETF 거래대금이 1,670억 위안을 넘어 전날보다 약 40% 늘고 E펀드 CSI300 ETF는 전일의 14배로 불어나면서, 2개월 만에 최대 거래가 몰렸다",
+     "u": "https://t.me/HANAchina/70478"
+    },
+    {
+     "t": "중국 국가대표 자금, 대규모 ETF 유입으로 복귀 신호",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "중국 국가대표 자금이 대규모 ETF 유입으로 증시 복귀 신호를 보내면서, 15일 급락 뒤 지수형 ETF에 지지 매수가 들어온 것으로 보인다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-s-national-team-signals-return-with-heavy-etf-inflows"
+    },
+    {
+     "t": "中 증시 사상 최장 주간 연속 하락 속 국가대표 자금 활발",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "중국 증시가 사상 최장 주간 연속 하락을 이어가는 가운데 국가대표 자금이 활발히 움직이면서, 당국의 증시 떠받치기가 본격화했다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/china-state-funds-active-as-stocks-post-record-weekly-losing-run"
+    }
+   ]
+  },
+  {
+   "c": "G3-098",
+   "label": "중국 당국, 매도 제한·자사주 매입으로 증시 떠받치기",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "중국, 매도 제한·자사주 매입으로 증시 떠받치기",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "중국 당국이 매도 제한과 자사주 매입으로 증시 부양에 나서면서, 주식 매도 물량을 줄여 주가 하락을 막으려 하고 있다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-moves-to-prop-up-stock-market-with-selling-curbs-buybacks"
+    }
+   ]
+  },
+  {
+   "c": "G3-099",
+   "label": "중국 반도체·IT 4개사, 한 시간 새 잇따라 자사주 매입안",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "중국 반도체·IT 기업 4곳, 한 시간 안에 잇따라 자사주 매입안 발표",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-18",
+     "s": "Sugon·Hygon·Shengyi·Montage가 2억~8억 위안 규모 자사주 매입안을 연달아 내면서 급락한 중국 기술주의 하단을 받치려는 움직임이 나왔다",
+     "u": "https://t.me/HANAchina/70606"
+    }
+   ]
+  },
+  {
+   "c": "G3-100",
+   "label": "중신증권 \"A주 시장 조정 막바지\"",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "중신증권 \"A주 시장 조정 막바지에 가까워져\"",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-18",
+     "s": "중신증권이 기관 비중 축소로 시작된 조정이 끝나 가고 있다고 보면서도 국채 ETF 유입으로 위험회피 성향은 여전히 높다고 진단했다",
+     "u": "https://t.me/HANAchina/70615"
+    }
+   ]
+  },
+  {
+   "c": "G3-101",
+   "label": "A주 3분기 실적 전망 159곳 중 132곳 호조 예고",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "中 실적시즌, AI·가격 상승이 동력…A주 132곳 3분기 실적 호조 예고",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-19",
+     "s": "3분기 실적 전망을 낸 A주 159곳 중 132곳이 호조를 예고하면서, AI 연산력 수요와 화학 등 경기순환 업종의 가격 회복이 중국 기업 이익을 끌어올리고 있다",
+     "u": "https://t.me/HANAchina/70632"
+    }
+   ]
+  },
+  {
+   "c": "G3-102",
+   "label": "中 증감회, 글로벌 위험 속 '시장 안정 최우선' 다짐",
+   "docs": [
+    "n-tg-0292"
+   ],
+   "items": [
+    {
+     "t": "中 증감회, 글로벌 위험 커지자 '시장 안정 최우선' 다짐",
+     "o": "로이터",
+     "d": "2026-10-20",
+     "s": "중국 증권감독관리위원회가 글로벌 위험이 커지는 가운데 시장 안정을 최우선하겠다고 다짐하면서, 추가 안정 조치가 나올 수 있다 (제목 기준)",
+     "u": "https://www.reuters.com/legal/government/chinas-securities-regulator-vows-prioritise-market-stability-global-risks-mount-2026-10-19/"
+    }
+   ]
+  },
+  {
+   "c": "G3-103",
+   "label": "싱가포르 포럼서 AI 거품·존재론적 위협 우려",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "싱가포르 포럼서 거품 우려에 존재론적 위협까지…AI 분위기 가라앉아",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "s": "",
+     "u": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "c": "G3-104",
+   "label": "노보그라츠, AI 거품론 가세하면서도 \"뛰어들라\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "노보그라츠도 AI 거품론 가세…그래도 \"뛰어들라\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/novogratz-says-ai-is-in-a-bubble-and-investors-should-pile-in"
+    }
+   ]
+  },
+  {
+   "c": "G3-105",
+   "label": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/robert-rubin-warns-ai-boom-carries-risks-for-us-economy-markets"
+    }
+   ]
+  },
+  {
+   "c": "G3-106",
+   "label": "전략가 \"AI 거품, 2008년 이후 최악 S&P500 폭락 위험\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "전략가 \"AI 거품, 2008년 이후 최악의 S&P500 폭락 위험\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-bubble-risks-worst-s-p-500-crash-since-2008-strategist-says"
+    }
+   ]
+  },
+  {
+   "c": "G3-107",
+   "label": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+    }
+   ]
+  },
+  {
+   "c": "G3-108",
+   "label": "제프리스 \"AI 사이클, 미 자본 대손실·2008년 모먼트\" 경고",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "제프리스 'AI 사이클 결말은 미국 자본 대손실·中 오픈소스로 점유율 이동'",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-11",
+     "s": "제프리스가 중국 모델 확산에 따른 토큰 가격 하락과 하이퍼스케일러 부채 증가를 지적하면서, 미국 AI 투자가 막대한 자본 손실로 끝날 수 있다고 경고했다",
+     "u": "https://t.me/The_MariTimes/63649"
+    },
+    {
+     "t": "제프리스 \"2008년 모먼트\" 경고…AI 하이퍼스케일러 수주잔고 절반이 OpenAI·앤트로픽",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://t.me/HANAchina/70247"
+    }
+   ]
+  },
+  {
+   "c": "G3-109",
+   "label": "CFO들, AI 지출에 지갑 끈 조여",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics"
+    }
+   ]
+  },
+  {
+   "c": "G3-110",
+   "label": "틱톡 추 CEO·MS 알트호프, AI 과열 경고",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/tiktok-s-chew-and-microsoft-s-althoff-warn-about-runaway-ai-hype"
+    }
+   ]
+  },
+  {
+   "c": "G3-111",
+   "label": "브로드컴 혹 탄 '자본이 최대 제약'·'카지노' 발언과 반도체주 하락",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "브로드컴 CEO \"AI 기술 성장의 최대 장애물은 메모리가 아닌 자본\"",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://www.reuters.com/world/asia-pacific/broadcom-ceo-says-biggest-hurdle-ai-fuelled-tech-growth-is-capital-not-memory-2026-10-12/"
+    },
+    {
+     "t": "브로드컴 혹 탄 \"AI 최대 제약은 메모리 아닌 자본\"…웨이퍼 부족은 극복 중",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://t.me/TNBfolio/71501"
+    },
+    {
+     "t": "브로드컴 CEO, 많은 AI 투자자를 카지노 도박꾼에 비유",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/broadcom-ceo-likens-many-ai-investors-to-casino-gamblers"
+    },
+    {
+     "t": "브로드컴 CEO \"AI 투자자는 카지노 도박꾼\"…인텔 립부 탄도 자금 조달 비용 우려",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "s": "",
+     "u": "https://t.me/HANAchina/70301"
+    },
+    {
+     "t": "혹 탄, 적자 AI 연구소 경제성에 의문…퍼머스 그리드 55억 달러 IPO 철회",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-13",
+     "s": "",
+     "u": "https://t.me/TNBfolio/71509"
+    },
+    {
+     "t": "JP모건 '혹 탄의 자금 병목 경고가 기술주 매도 직접 원인'",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-13",
+     "s": "혹 탄의 자금 조달 병목 경고와 최대 19GW 전력 부족 전망이 겹치면서 13일 기술주 매도세가 커졌다는 분석이 나왔다",
+     "u": "https://t.me/Trillion_labs/10399"
+    },
+    {
+     "t": "브로드컴 CEO '카지노' 발언 여파로 반도체주 하락(FT)",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-13",
+     "s": "브로드컴 혹 탄 CEO의 '카지노' 발언 여파로 반도체주가 하락했다고 FT가 전하면서, AI 투자 심리가 흔들리는 모습이 드러났다",
+     "u": "https://t.me/insidertracking/66116"
+    },
+    {
+     "t": "혹 탄 '카지노' 발언, 실제로는 단기 지표로 파는 투자자 겨냥",
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-13",
+     "s": "혹 탄이 실제로는 오픈AI 사업은 탄탄한데 매출 지표 하나로 주식을 파는 투자자를 카지노 도박꾼에 빗댔다는 보도가 나오면서, 기존 보도가 오역이었을 수 있다는 해석이 나왔다",
+     "u": "https://t.me/cahier_de_market/10976"
+    }
+   ]
+  },
+  {
+   "c": "G3-112",
+   "label": "골드만 \"AI 자본지출 사이클 전환점 임박\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "골드만삭스 'AI 자본지출 사이클 전환점 임박…3대 위험 신호 중 2개 점등'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-13",
+     "s": "골드만삭스 몰라비가 주가·이익 괴리와 신용시장의 AI 조달 위험 재평가로 경고 신호 3개 중 2개가 켜졌다며 클라우드 자본지출 증가율이 2026년 3분기에 정점을 찍는다고 봤다",
+     "u": "https://t.me/HANAchina/70365"
+    }
+   ]
+  },
+  {
+   "c": "G3-113",
+   "label": "골드만 \"메모리주 쏠림 거래, 추가 청산 위험\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "골드만 '메모리주 쏠림 거래, 추가 청산 위험 직면'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "s": "골드만삭스가 메모리주가 고점 대비 25% 빠진 뒤에도 자산운용사의 약 700억 달러 매수 포지션이 고점 근처라고 지적하면서, 추가 청산 위험을 경고했다",
+     "u": "https://t.me/HANAchina/70427"
+    }
+   ]
+  },
+  {
+   "c": "G3-114",
+   "label": "신흥국(중국 제외) 증시 외국인 매도·기록적 자금 유출",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "신흥국(중국 제외) 증시 외국인 매도 압력 심화",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "s": "중국을 제외한 신흥국 증시에서 외국인 매도 압력이 심해지면서 신흥국 주식시장의 수급 부담이 커지고 있다",
+     "u": "https://t.me/HANAchina/70377"
+    },
+    {
+     "t": "이번 주 신흥시장에서 기록적인 자금 유출이 나왔다는 평가",
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-18",
+     "s": "카이에가 이번 주를 기록적인 신흥시장 자금 유출 주간으로 짚으면서, 신흥국 증시 전반에서 외국인 자금 이탈이 컸음을 보여 줬다",
+     "u": "https://t.me/cahier_de_market/11024"
+    }
+   ]
+  },
+  {
+   "c": "G3-115",
+   "label": "AI 관련주 매도 세계 확산, AI·반도체 시총 1조 달러 증발",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "세계 금융시장을 휩쓴 AI 관련주 매도세 분석(그래픽)",
+     "o": "로이터",
+     "d": "2026-10-14",
+     "s": "AI 관련주 매도세가 세계 증시 전반으로 번지면서 AI 쏠림 위험이 시장 전체의 부담으로 떠올랐다 (제목 기준)",
+     "u": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/"
+    },
+    {
+     "t": "AI 투자 논리 변화…글로벌 반도체주 급락, Firmus IPO 보류",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-14",
+     "s": "투자자 관심이 AI 성장 기대에서 실제 투자 수익으로 옮겨 가면서 코스피가 5.5%, 키옥시아가 13% 급락하고 Firmus는 50억 달러 IPO를 보류했다",
+     "u": "https://t.me/HANAchina/70370"
+    },
+    {
+     "t": "투자자들 AI에서 물러나며 세계 반도체주 매도 심화",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "투자자들이 AI 관련 자산에서 물러나면서 반도체주 매도가 세계로 번져, 한국 밖 반도체주도 하락 압력을 받았다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/global-chip-selloff-deepens-as-investors-retreat-from-ai"
+    },
+    {
+     "t": "AI 투자 우려에 세계 AI·반도체 시총 이번 주 1조 달러 넘게 증발",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-16",
+     "s": "AI 투자 비용 우려와 연준 인상 기대가 겹치면서 세계 20대 AI·반도체 기업 시가총액이 이번 주 1조 달러 넘게 줄고 SK하이닉스가 하루 10% 넘게 급락했다",
+     "u": "https://t.me/w_compass/7344"
+    }
+   ]
+  },
+  {
+   "c": "G3-116",
+   "label": "저커버그, 메타 AI 투자 확신 없었다고 인정",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "저커버그, 메타의 2,000억 달러 AI 베팅에 확신 없었다고 인정",
+     "o": "블룸버그",
+     "d": "2026-10-14",
+     "s": "저커버그가 메타의 1,000억~2,000억 달러 AI 투자를 성공 확신 없이 결정했다고 인정하면서, 빅테크 AI 자본지출의 회수 불확실성이 부각됐다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet"
+    }
+   ]
+  },
+  {
+   "c": "G3-117",
+   "label": "메모리 선행 PER 삼성 3.5배·하이닉스 2.9배로 하락",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "메모리 4사 선행 PER, 삼성전자 3.5배·SK하이닉스 2.9배",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-15",
+     "s": "SK증권 추정치 기준 12개월 선행 PER이 삼성전자 3.5배, SK하이닉스 2.9배로 내려가면서, 주가 급락으로 메모리주의 이익 대비 주가가 크게 낮아졌다",
+     "u": "https://t.me/Badonions/7823"
+    }
+   ]
+  },
+  {
+   "c": "G3-118",
+   "label": "JP모건 \"메모리주, 기대치 재조정 국면\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "JP모건 '메모리주, 기대치 재조정 국면 진입'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "JP모건이 AI 지출 지속성을 둘러싼 인식 차이로 메모리주가 기대치 재조정 국면에 들어갔다고 보면서, 10월 19일 시작되는 한국 실적 시즌이 업황 지속 여부를 가를 전망이다",
+     "u": "https://t.me/HANAchina/70479"
+    }
+   ]
+  },
+  {
+   "c": "G3-119",
+   "label": "삼성·하이닉스 2022~2023년 바닥 PBR 0.8~1.0배 비교",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "삼성전자·SK하이닉스, 2022~2023년 바닥 PBR은 0.8~1.0배",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-15",
+     "s": "2022~2023년 다운사이클 바닥에서 삼성전자와 SK하이닉스의 PBR이 0.8~1.0배였다는 비교가 나오면서, 지금 주가를 과거 바닥과 견주는 시각이 등장했다",
+     "u": "https://t.me/Badonions/7828"
+    }
+   ]
+  },
+  {
+   "c": "G3-120",
+   "label": "골드만 \"코스피 급락은 매수 공백 탓\", 목표 12,000 유지",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "골드만 '코스피 7거래일 연속 하락…고점 대비 14% 넘게 급락'",
+     "o": "텔레그램 KK Kontemporaries",
+     "d": "2026-10-15",
+     "s": "골드만삭스가 코스피의 7거래일 연속 하락과 14% 넘는 낙폭을 2020년 3월·2011년 8월급 투매로 평가하면서 이번 조정이 통상 수준보다 훨씬 깊다고 진단했다",
+     "u": "https://t.me/kkkontemp/2741"
+    },
+    {
+     "t": "골드만 '코스피 급락은 매수 공백 탓'…12개월 목표 12,000 유지",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-16",
+     "s": "골드만삭스가 코스피 급락 원인을 삼성전자·SK하이닉스의 자사주 매입 중단에 따른 매수 공백으로 보고, 선행 PER 5.1배를 근거로 12개월 목표 12,000을 유지했다",
+     "u": "https://t.me/HANAchina/70515"
+    },
+    {
+     "t": "골드만 '한국 기업가치 극도로 낮아'…외국인 8일간 134억 달러 순매도",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-16",
+     "s": "외국인이 8거래일 동안 134억 달러를 순매도해 코스피가 최대 20% 가까이 밀렸지만, 골드만삭스는 밸류에이션이 과거 평균보다 2.7표준편차 낮다고 평가했다",
+     "u": "https://t.me/w_compass/7348"
+    }
+   ]
+  },
+  {
+   "c": "G3-121",
+   "label": "금융당국 증시 긴급 점검회의·과도한 신용공급 자제 주문",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "금융감독원, 주식시장 상황 점검 긴급회의 개최",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-15",
+     "s": "금융당국이 오후 2시 30분 주식시장 상황을 점검하는 긴급회의를 열면서 급락장에 대한 당국 대응이 시작됐다",
+     "u": "https://t.me/Badonions/7818"
+    },
+    {
+     "t": "한국 금융당국 긴급회의…과도한 신용공급 자제·시장 교란 엄벌",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "금융당국이 금융기관에 과도한 신용공급 자제와 리스크 관리를 주문하고 시장 교란 엄벌과 비상계획 가동 준비를 밝히면서 시장 안정 조치의 수위를 높였다",
+     "u": "https://t.me/HANAchina/70476"
+    },
+    {
+     "t": "금감원 「유관기관 증시상황 긴급 점검회의」 개최 공지",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-15",
+     "s": "금융감독원이 유관기관 증시상황 긴급 점검회의 개최 자료를 올리면서 급락장에 대한 당국의 시장 점검이 공식 발표로 확인됐다",
+     "u": "https://t.me/insidertracking/66349"
+    }
+   ]
+  },
+  {
+   "c": "G3-122",
+   "label": "외국인, 대만 사상 최대·코스피 하루 3.7조 원 순매도",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "대만 외국인 매도 사상 최대 12.5조원…코스피 외국인 하루 3.7조원 순매도",
+     "o": "텔레그램 KK Kontemporaries",
+     "d": "2026-10-15",
+     "s": "외국인이 대만에서 사상 최대인 12조 5천억 원을, 코스피에서 하루 3조 7천억 원을 순매도하면서 코스피는 7거래일 동안 20% 떨어졌다",
+     "u": "https://t.me/kkkontemp/2743"
+    },
+    {
+     "t": "대만은 국내 기관이 받아내 7일간 -5.7%…코스피는 -20%",
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-15",
+     "s": "같은 집계를 전하며 대만은 국내 기관이 사상 네 번째 규모의 순매수로 외국인 매도를 받아내 7일간 하락이 5.7%에 그쳤다는 점을 코스피와 대비했다",
+     "u": "https://t.me/cahier_de_market/11005"
+    }
+   ]
+  },
+  {
+   "c": "G3-123",
+   "label": "가트너 \"네오클라우드 80% 이상 2030년까지 독립 운영 중단\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "가트너 '네오클라우드 80% 이상, 2030년까지 독립 운영 중단'",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-15",
+     "s": "가트너가 비용 압박과 차별화된 사업모델 부재로 네오클라우드 80% 이상이 2030년까지 독립 운영을 멈출 것이라고 내다봤다",
+     "u": "https://t.me/Trillion_labs/10537"
+    }
+   ]
+  },
+  {
+   "c": "G3-124",
+   "label": "JP모건 \"이번 기술주 급락은 7월과 달리 반등 동력 고갈\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "JP모건 '이번 기술주 급락은 7월과 달라…반등 동력 고갈'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "JP모건이 개인 저가 매수와 숏 스퀴즈 동력이 사라지고 자사주 매입 지지도 일찍 끊겨 AI 인프라주 조정이 7월보다 위험하다고 경고했다",
+     "u": "https://t.me/HANAchina/70457"
+    }
+   ]
+  },
+  {
+   "c": "G3-125",
+   "label": "GMO \"주식 공급 과잉·AI 인프라 둔화가 버블 터뜨릴 것\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "GMO '주식 공급 과잉과 AI 인프라 둔화가 버블 터뜨릴 것'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "GMO 인커가 대형 상장으로 쏟아질 주식 공급과 AI 연산 공급 과잉 전환이 겹치면 시장이 35~50% 떨어질 수 있다고 경고했다",
+     "u": "https://t.me/HANAchina/70469"
+    }
+   ]
+  },
+  {
+   "c": "G3-126",
+   "label": "코어위브 하루 15.5% 급락·CDS 1,117bp",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "코어위브 하루 15.5% 급락·CDS 1,117bp…네오클라우드 재평가",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-15",
+     "s": "코어위브 주가가 하루 15.5% 급락하고 5년물 CDS가 1,117bp까지 오르면서 AI 연산 임대 업계의 부도 위험이 가격에 반영되고 있다",
+     "u": "https://t.me/HANAchina/70480"
+    }
+   ]
+  },
+  {
+   "c": "G3-127",
+   "label": "자금 조달 우려에 아시아 AI주 매도 심화",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "자금 조달 우려 커지며 아시아 AI주 매도 심화",
+     "o": "블룸버그",
+     "d": "2026-10-15",
+     "s": "AI 자금 조달에 대한 우려가 커지면서 아시아 증시의 AI 관련주 매도가 더 깊어졌다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-selloff-deepens-in-asia-as-funding-fears-mount"
+    }
+   ]
+  },
+  {
+   "c": "G3-128",
+   "label": "가트너 \"AI 인프라 투자 회수 못 해, 상각 4조 달러 넘을 수도\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "가트너 'AI 매출로 인프라 투자 회수 못 해…상각 4조 달러 넘을 수도'",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-15",
+     "s": "가트너가 2032년 이전엔 AI 설비투자를 수익성 있게 회수하기 어렵고 그때까지 자본 상각이 4조 달러를 넘을 수 있다고 분석했다",
+     "u": "https://t.me/TNBfolio/71562"
+    }
+   ]
+  },
+  {
+   "c": "G3-129",
+   "label": "AI 부채 우려에 블룸에너지 등 AI 에너지주 하락",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "AI 부채 우려에 블룸에너지 등 AI 에너지주 프리마켓 하락",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-15",
+     "s": "월가의 AI 부채 부담 우려가 번지면서 데이터센터 현장 전력을 공급하는 블룸에너지 등 AI 에너지주가 프리마켓에서도 내렸다",
+     "u": "https://t.me/insidertracking/66371"
+    }
+   ]
+  },
+  {
+   "c": "G3-130",
+   "label": "JP모건 \"코스피 고통 정점 근접·매수 주체 약화\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "JP모건 '코스피 고통 정점 근접'…반등 가능성 근거와 반론 정리",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-16",
+     "s": "JP모건이 코스피 10일 낙폭 21%가 코로나 저점 수준에 가깝고 200일선 위 종목이 18%뿐이라며 반등 가능성을 짚으면서도, 매수 주체 부재라는 약세 논거를 함께 제시했다",
+     "u": "https://t.me/w_compass/7350"
+    },
+    {
+     "t": "JP모건 '한국 증시 올해 세 번째 급락…매수 주체 약화'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-19",
+     "s": "JP모건이 삼성전자 자사주 매입 종료와 SK하이닉스 매입 마무리 임박으로 매수세가 약해졌다며 10월 말까지 위축을 예상하면서도, 메모리 제외 선행 PER 8.4배를 저평가로 봤다",
+     "u": "https://t.me/HANAchina/70692"
+    }
+   ]
+  },
+  {
+   "c": "G3-131",
+   "label": "코스피 고객예탁금 19.9% 감소, 7월보다 완충 여력 약화",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "코스피, 7월과 달리 유동성·투자심리 약화…예탁금 19.9% 감소",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-16",
+     "s": "고객예탁금이 6월 말 대비 19.9% 줄고 ETF 저가매수와 자사주 매입 지원도 약해지면서, 외국인 매도를 받아낼 국내 시장의 완충 여력이 줄었다",
+     "u": "https://t.me/w_compass/7367"
+    }
+   ]
+  },
+  {
+   "c": "G3-132",
+   "label": "AI 인프라 펀드 VARA 청산 루머",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "AI 인프라 펀드 VARA 청산 루머…'제2의 레오폴드?'",
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-16",
+     "s": "소셜미디어에 운용자산 91억 달러의 AI 인프라 펀드 VARA 청산설이 돌면서, 네비우스·코어위브 등 보유 종목 급락의 배경으로 거론되고 있다",
+     "u": "https://t.me/cahier_de_market/11016"
+    },
+    {
+     "t": "이번 AI주 하락 원인으로 VARA 펀드 청산설 확산",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-16",
+     "s": "AI 관련주를 많이 든 VARA 펀드의 청산이 이번 하락의 원인이라는 말이 돌면서, 7월 폭락 때 함께 타격받은 펀드라는 점이 다시 주목받고 있다",
+     "u": "https://t.me/Badonions/7850"
+    },
+    {
+     "t": "VARA 청산설 공식 확인 안 돼…13F도 3월 말 기준",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-16",
+     "s": "VARA 청산설은 공식 확인되지 않았고 돌아다니는 13F도 3월 31일 기준이어서, 현재 포트폴리오와 매도 영향은 알 수 없는 상태다",
+     "u": "https://t.me/Badonions/7851"
+    },
+    {
+     "t": "VARA AI 펀드 청산 루머 요약 재공유…'공식화되면 7월 말 랠리 재현할 수도'",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-16",
+     "s": "VARA AI 펀드 청산 루머 요약이 다시 공유되면서, 사실로 공식화되면 7월 말 같은 반등 랠리가 재현될 수 있다는 의견이 붙었다",
+     "u": "https://t.me/Badonions/7852"
+    }
+   ]
+  },
+  {
+   "c": "G3-133",
+   "label": "헤지펀드, 장기 AI 포지션 5거래일 연속 청산",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "헤지펀드, 장기 AI 포지션 청산…자금은 헬스케어·필수소비재로",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-16",
+     "s": "헤지펀드가 공매도보다 장기 AI 포지션 청산으로 방향성 위험을 줄이면서, 매도로 확보한 자금이 헬스케어와 필수소비재 종목으로 옮겨 갔다",
+     "u": "https://t.me/w_compass/7364"
+    },
+    {
+     "t": "헤지펀드 5거래일 연속 AI주 순매도…숏 스퀴즈 조건 무르익나",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-16",
+     "s": "헤지펀드들이 5거래일 연속 AI주를 순매도해 2025년 이후 쌓은 순매수를 모두 청산하면서, 공매도가 몰린 반도체·한국 증시에 반등 조건이 생기고 있다는 분석이 나왔다",
+     "u": "https://t.me/HANAchina/70530"
+    }
+   ]
+  },
+  {
+   "c": "G3-134",
+   "label": "AI 매도에 헤지펀드 손실, 아시아 롱숏 이달 6.8% 손실",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "AI 매도에 이번 주 헤지펀드 타격…아시아 운용사 손실 최대",
+     "o": "로이터",
+     "d": "2026-10-16",
+     "s": "AI 매도로 헤지펀드가 이번 주 큰 손실을 입고 아시아 운용사가 손실을 이끌면서, 글로벌 롱숏 펀드가 한 주 2.9%를 잃었다",
+     "u": "https://www.reuters.com/world/china/ai-selloff-hammers-hedge-funds-this-week-asia-managers-lead-losses-2026-10-16/"
+    },
+    {
+     "t": "골드만 '아시아 롱숏 펀드 이달 6.8% 손실…3대 전략 동반 급락 올해 세 번째'",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-16",
+     "s": "골드만 집계로 아시아 롱숏 펀드가 이달 상반월 6.8% 손실을 내고 3대 전략이 같은 날 80bp 넘게 빠진 일이 올해 세 번째가 되면서, AI 수익성에 대한 의문이 커졌다",
+     "u": "https://t.me/TNBfolio/71576"
+    }
+   ]
+  },
+  {
+   "c": "G3-135",
+   "label": "엔비디아 황과 브로드컴 탄의 AI 붐 시각차",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "엔비디아 황과 브로드컴 탄, AI 붐을 조금씩 다른 자리에서 본다",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "엔비디아 젠슨 황과 브로드컴 혹 탄 CEO가 AI 붐을 서로 조금 다른 자리에서 바라본다는 분석이 나오면서 두 칩 업체 수장의 시각차가 비교됐다 (제목 기준)",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/nvidia-s-huang-and-broadcom-s-tan-see-the-ai-boom-from-slightly-different-places"
+    }
+   ]
+  },
+  {
+   "c": "G3-136",
+   "label": "젠슨 황 \"AI 시장 혼란은 결국 지나갈 것\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "엔비디아 CEO, AI 시장 혼란에 '이 모든 것은 지나갈 것'",
+     "o": "블룸버그",
+     "d": "2026-10-17",
+     "s": "젠슨 황 엔비디아 CEO가 AI 시장 혼란은 결국 지나갈 것이라고 말하면서, 기술 발전은 계속되고 산업은 이제 시작 단계라며 투매에 반박했다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/nvidia-ceo-on-ai-market-turmoil-all-of-this-is-going-to-pass"
+    },
+    {
+     "t": "젠슨 황 'AI 변동성 결국 진정…하드웨어 투자가 수익 낼 것'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-17",
+     "s": "젠슨 황이 베를린 행사에서 차입 비용 상승에 따른 AI 지출 우려에도 대규모 하드웨어 투자가 결국 수익을 내 시장 불안을 누그러뜨릴 것이라고 전망했다",
+     "u": "https://t.me/insidertracking/66500"
+    }
+   ]
+  },
+  {
+   "c": "G3-137",
+   "label": "AI 인프라주 급락은 업종 로테이션, AI 매출 둔화가 계기",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "AI 인프라주 급락은 지수 붕괴 아닌 업종 로테이션…AI 매출 둔화가 계기",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-17",
+     "s": "앤트로픽 ARR 순증 둔화와 오픈AI 런레이트 기대 하회로 코어위브 등 차입 의존 기업의 상환 능력이 재평가되면서, 반도체가 14.7% 빠지고 자금이 필수소비재·에너지로 옮겨 갔다",
+     "u": "https://t.me/Badonions/7876"
+    }
+   ]
+  },
+  {
+   "c": "G3-138",
+   "label": "필라델피아 반도체지수 8일 연속 하락·S&P500 6월 이후 최악 주간",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "AI 우려에 반도체주 급락…S&P500 6월 이후 최악의 한 주",
+     "o": "블룸버그",
+     "d": "2026-10-16",
+     "s": "AI 우려로 반도체주가 무너지면서 S&P500이 6월 이후 최악의 한 주를 보냈고, 워시 의장 발언 뒤 10월 금리 인상 확률은 15% 아래로 내려갔다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
+    },
+    {
+     "t": "필라델피아 반도체지수 8일 연속 하락, 2008년 이후 최장",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-17",
+     "s": "필라델피아 반도체지수가 2008년 이후 최장인 8거래일 연속 하락하고 코어위브가 한 주에 25% 넘게 폭락하면서 AI 인프라 투자 열풍이 신뢰 위기를 맞았다",
+     "u": "https://t.me/HANAchina/70539"
+    }
+   ]
+  },
+  {
+   "c": "G3-139",
+   "label": "바클레이즈 \"AI 트레이딩 황금기 지나, 반도체 급락은 포지션 청산\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "바클레이즈 'AI 트레이딩 황금기 지나…반도체 급락은 포지션 청산 탓'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-17",
+     "s": "바클레이즈가 반도체주 폭락은 수요 붕괴가 아닌 포지션 청산 때문이지만 밸류에이션·자금조달·매출 지연이 AI주를 누른다고 보면서, 현금흐름과 매출 가시성을 따지라고 권했다",
+     "u": "https://t.me/HANAchina/70543"
+    }
+   ]
+  },
+  {
+   "c": "G3-140",
+   "label": "메모리 ETF 'DRAM' 주간 19% 급락·8주 연속 자금 유출",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "메모리 ETF 'DRAM' 이번 주 19% 급락…8주 연속 자금 유출",
+     "o": "텔레그램 TNBfolio",
+     "d": "2026-10-17",
+     "s": "삼성전자·SK하이닉스를 담은 메모리 ETF 'DRAM'이 상장 이후 최대인 주간 19% 급락하고 8주 연속 자금이 빠지면서, 메모리 랠리를 떠받친 자금이 이탈하고 있다",
+     "u": "https://t.me/TNBfolio/71586"
+    }
+   ]
+  },
+  {
+   "c": "G3-141",
+   "label": "씨티 \"2027년 글로벌 이익 증가 70%를 기술주가 기여\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "씨티 '2027년 글로벌 이익 증가의 약 70%를 기술주가 기여할 전망'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-17",
+     "s": "씨티가 2027년 글로벌 이익 증가의 약 70%를 기술주가 차지하고 전체 EPS 증가율은 35%에서 16%로 둔화한다고 보면서, AI 열기가 식으면 증시가 흔들릴 수 있다고 짚었다",
+     "u": "https://t.me/HANAchina/70553"
+    }
+   ]
+  },
+  {
+   "c": "G3-142",
+   "label": "반도체 지수 고점 뒤 가격·기간 조정 진입",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "반도체 지수 고점 뒤 가격·기간 조정…상승 기울기 낮아져",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-17",
+     "s": "채널이 AI·레거시 반도체 사이클이 겹친 역대급 사이클이지만 지수가 고점 뒤 가격·기간 조정에 들어갔다고 보면서 상승 속도 둔화를 짚었다",
+     "u": "https://t.me/w_compass/7372"
+    }
+   ]
+  },
+  {
+   "c": "G3-143",
+   "label": "제약·바이오·2차전지 신용잔고 2020년 이후 최저",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "제약·바이오·2차전지 신용잔고 2020년 이후 최저로 감소",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-18",
+     "s": "반도체가 주춤하면 시가총액 2·3위 업종이 살아났던 경험 속에 제약·바이오·2차전지 신용잔고가 2조 원 남짓으로 2020년 이후 최저까지 줄었다",
+     "u": "https://t.me/w_compass/7373"
+    }
+   ]
+  },
+  {
+   "c": "G3-144",
+   "label": "코스피 급락 뒤 반등 확률 통계(7일 10% 급락·RSI 과매도)",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "코스피 7거래일 10% 급락 뒤 1주일 반등 확률 83%",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-18",
+     "s": "과거 코스피가 7거래일 만에 10% 넘게 빠진 12차례 중 10차례는 1주일 뒤 평균 4.9% 반등해, 이번 급락 뒤 단기 반등 가능성을 가늠할 잣대가 됐다",
+     "u": "https://t.me/w_compass/7375"
+    },
+    {
+     "t": "코스피 RSI 30 미만 과매도 27회…반등 실패는 위기 국면",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-18",
+     "s": "코스피 RSI 30 미만 과매도 27차례 중 1주일 뒤 상승은 17차례였고, 반등 실패는 시스템 위기나 실적 전망 하향이 겹친 국면에 몰려 있었다",
+     "u": "https://t.me/w_compass/7376"
+    }
+   ]
+  },
+  {
+   "c": "G3-145",
+   "label": "한국 추종 ETF(EWY) 약 4억 달러 유입·청산 정점 관측",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "EWY 소폭 유입…패시브·자사주·증안펀드가 수급 촉매",
+     "o": "텔레그램 KK Kontemporaries",
+     "d": "2026-10-18",
+     "s": "KK가 미국 패시브 자금, 자사주, 증안펀드 같은 국가 백스톱을 꼬인 수급의 촉매로 꼽은 가운데 EWY에 자금이 소폭 들어왔지만 정부 대응은 미흡하다고 봤다",
+     "u": "https://t.me/kkkontemp/2747"
+    },
+    {
+     "t": "한국 추종 ETF 약 4억 달러 유입…다음 주 청산 정점 관측",
+     "o": "텔레그램 KK Kontemporaries",
+     "d": "2026-10-18",
+     "s": "EWY를 포함한 한국 추종 ETF로 약 4억 달러가 들어왔다는 추산 속에 대형 펀드 청산설이 돌면서 다음 주가 청산 정점이 될 수 있다는 관측이 나왔다",
+     "u": "https://t.me/kkkontemp/2748"
+    }
+   ]
+  },
+  {
+   "c": "G3-146",
+   "label": "신용잔고 33조 7,057억 원, 코스피 하루 새 4,589억 원 감소",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "신용잔고 33조 7,057억 원…코스피 하루 새 4,589억 원 감소",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-18",
+     "s": "10월 14일 신용잔고가 코스피 4,589억 원, 코스닥 882억 원 줄어 합산 33조 7,057억 원이 되면서 빚을 낸 주식 매수가 계속 정리되고 있다",
+     "u": "https://t.me/w_compass/7377"
+    }
+   ]
+  },
+  {
+   "c": "G3-147",
+   "label": "실리콘밸리 투자자들(All-In) \"AI 거품 아닌 GPU 공급 부족\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "All-In 팟캐스트 \"AI 버블 붕괴 아닌 변동성…공급 부족이 핵심\"",
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-18",
+     "s": "벤 호로위츠·데이비드 색스가 AI는 수요 부족이 아닌 공급 부족 상태이고 GPU 수명도 6~8년으로 늘었다고 보면서 이번 급락을 단순 변동성으로 해석했다",
+     "u": "https://t.me/cahier_de_market/11023"
+    },
+    {
+     "t": "실리콘밸리 투자자 4명 \"AI 거품 붕괴 아니다…GPU 부족 2028년 이후까지\"",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-18",
+     "s": "실리콘밸리 투자자 4명이 수요 악화는 없고 GPU 부족이 2028년 이후까지 간다고 보면서도, 투자 열기 지속은 금리와 투자 회수 기간에 달렸다고 했다",
+     "u": "https://t.me/HANAchina/70614"
+    }
+   ]
+  },
+  {
+   "c": "G3-148",
+   "label": "이형일 재무장관 \"반도체 호황 최소 2027년까지\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "이형일 재무장관 \"반도체 호황 최소 2027년까지 지속\"",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-18",
+     "s": "이형일 재무장관이 반도체 수급 격차가 여전히 크다며 호황이 최소 내년까지 간다고 하면서도 반도체주가 한국 증시 변동성을 키웠다고 지적했다",
+     "u": "https://t.me/insidertracking/66580"
+    }
+   ]
+  },
+  {
+   "c": "G3-149",
+   "label": "BofA 하트넷 \"매도 신호 종료, 기술주 복귀는 반도체 가격에\"",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "BofA 하트넷 \"매도 신호 종료, 11월 중순 기술주 복귀는 반도체 가격에 달려\"",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-18",
+     "s": "하트넷이 매도 신호는 끝났지만 저점 매수 신호는 아니라며 기술주 복귀 여부를 반도체 가격에 걸면서 당분간 방어적 포지션을 권했다",
+     "u": "https://t.me/HANAchina/70602"
+    }
+   ]
+  },
+  {
+   "c": "G3-150",
+   "label": "코스피 급락에 반대매매 이틀 연속 800억 원대",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "코스피 급락에 반대매매 7월 폭락장 수준으로 늘어",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-19",
+     "s": "빚내 주식을 산 개인의 반대매매가 10월 14일 893억 원, 15일 805억 원으로 이틀 연속 800억 원대를 넘으면서, 7월 31일 이후 가장 큰 강제 청산이 나왔다",
+     "u": "https://t.me/w_compass/7381"
+    }
+   ]
+  },
+  {
+   "c": "G3-151",
+   "label": "국민연금, 삼성·하이닉스 급락에 석 달 새 182조 원 평가손",
+   "docs": [
+    "n-tg-0294"
+   ],
+   "items": [
+    {
+     "t": "국민연금, 리밸런싱 유예 부메랑…석 달 새 182조 원 평가손",
+     "o": "텔레그램 부의 나침반",
+     "d": "2026-10-19",
+     "s": "국민연금이 5% 이상 보유한 상장사 287곳의 평가액이 석 달 만에 182조 원(35.3%) 줄면서, 급등장에서 리밸런싱을 미룬 결정이 부메랑이 됐다는 지적이 나왔다",
+     "u": "https://t.me/w_compass/7382"
+    },
+    {
+     "t": "삼성전자·SK하이닉스 급락에 국민연금 1,370억 달러 타격",
+     "o": "블룸버그",
+     "d": "2026-10-19",
+     "s": "삼성전자·SK하이닉스 주가 급락으로 국민연금 보유 주식 가치가 1,370억 달러 줄면서, 두 종목이 감소분의 약 72%를 차지했다",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/samsung-sk-hynix-slide-causes-137-billion-hit-to-korea-pension"
+    }
+   ]
+  }
+ ]
+}

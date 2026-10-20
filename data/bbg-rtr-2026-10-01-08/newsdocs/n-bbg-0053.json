@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0053",
+ "feed": "v5",
+ "format": "one1",
+ "num": 53,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1001-tsmc-texas-campus",
+ "published": "2026-10-01",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "TSMC, 텍사스에 수백억 달러 규모 AI 칩 공장 단지 검토",
+ "one": "TSMC가 텍사스에 공장 하나당 200억 달러 이상이 드는 반도체 공장 단지를 짓는 방안을 검토하면서, 애리조나에 이어 미국 내 첨단 칩 생산능력이 더 늘 수 있지만 연말이 착공 시한인 35% 세액공제의 연장 여부가 변수다",
+ "headline": "TSMC, 텍사스에 수백억 달러 규모 AI 칩 공장 단지 검토",
+ "facts": [
+  "무엇이: TSMC가 텍사스에 여러 공장으로 이뤄진 새 단지를 검토 중이라고 블룸버그가 관계자를 인용해 보도했고, TSMC는 시장 소문에 논평하지 않는다고 밝혔습니다. [사실]",
+  "얼마나: 공장 하나당 최소 200억 달러, 합계 수백억 달러 규모이며 함께 검토한 다른 후보지는 싱가포르였습니다. [사실]",
+  "왜: 35% 제조 세액공제를 받으려면 12월 말까지 착공해야 하는데, 올해 안에 연장 법안이 통과될 길이 보이지 않는 상황입니다. [사실]",
+  "배경: TSMC는 애리조나에 공장 10곳·패키징 공장 2곳·연구센터 등 2,650억 달러를 약정했고, 올해 웨이퍼 매출의 75% 이상이 북미에서 나왔습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — The Next Web(10/1)이 블룸버그를 인용해 쓴 자체 기사로 작성. 계획은 초기 단계이며 텍사스 내 위치와 공정은 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-01",
+   "u": "https://thenextweb.com/news/tsmc-texas-fabs-europe-gap"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "ind": "semis",
+ "origTitle": "TSMC Mulls Multibillion-Dollar Texas Site for More AI Chips"
+}

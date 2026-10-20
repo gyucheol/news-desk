@@ -1,0 +1,68 @@
+{
+ "basis": "verified",
+ "check": "CNBC 검색 결과 요약으로 평결 내용(계약 위반·메타 관계 방해 인정, 배상 2달러, 4개 청구 기각) 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 델라웨어 연방 배심이 10월 13일 암이 퀄컴과의 아키텍처 라이선스 계약을 위반하고 퀄컴과 메타의 관계를 고의로 방해했다고 판단했습니다 [사실]",
+  "배상: 배심은 인정한 2개 청구에 1달러씩 명목 배상 2달러를 정했고, 가격 조항 등 나머지 4개 청구는 암의 손을 들어줬습니다 [사실]",
+  "반응: 퀄컴은 혁신과 경쟁의 승리라고, 암은 자사 주장의 타당성이 확인됐다고 했고, CNBC 보도 기준 암 주가는 약 1% 내리고 퀄컴은 약 1% 올랐습니다 [사실]",
+  "배경: 양사의 2년 새 두 번째 재판으로, 퀄컴은 암이 칩 테스트 도구 등을 주지 않고 해지 위협으로 메타와의 협상을 해쳤다고 주장해 왔습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{美 배심}} \"{{암}}, {{퀄컴 라이선스 계약 위반}}\"…배상액은 {{2달러}}",
+ "id": "n-rtr-0264",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "t": "퀄컴과 암, 계약 위반 분쟁에서 배심 평결 받을 예정",
+   "u": "https://www.reuters.com/business/media-telecom/qualcomm-arm-set-jury-verdict-contract-breach-feud-2026-10-09/"
+  },
+  {
+   "t": "퀄컴 \"배심, 암의 라이선스 계약 위반 인정\"",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/litigation/qualcomm-says-jury-found-arm-breached-license-agreement-2026-10-13/",
+   "s": "{{배심}}이 {{암}}의 {{퀄컴 라이선스 계약 위반}}과 {{메타 관계 방해}}를 {{인정}}했지만 {{명목 배상 2달러}}만 정하면서 {{양사}}가 {{모두 승리를 주장}}했다"
+  }
+ ],
+ "key": "mix-C127-2026-10-13",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 264,
+ "one": "{{델라웨어 연방 배심}}이 {{암}}이 {{퀄컴과의 아키텍처 라이선스 계약}}을 {{어기고}} {{메타와의 관계}}를 {{고의로 방해}}했다고 {{평결}}했지만 {{가격 조항 등 나머지 4개 청구}}는 {{암}} 손을 들어주고 {{배상액}}을 {{2달러}}로 정하면서, {{양사}}가 {{모두 승리를 주장}}하는 엇갈린 결과가 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T06:25:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "Yahoo Finance",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-arm-trial-ends-hung-130049760.html"
+  },
+  {
+   "d": "2026-10",
+   "o": "Hoodline",
+   "u": "https://hoodline.com/2026/10/qualcomm-arm-return-to-delaware-court-over-billions-in-royalty-fight/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-13",
+   "u": "https://www.cnbc.com/2026/10/13/delaware-jury-qualcomm-arm-license-agreement.html"
+  }
+ ],
+ "tags": [],
+ "title": "{{美 배심}} \"{{암}}, {{퀄컴 라이선스 계약 위반}}\"…배상액은 {{2달러}}",
+ "url": "https://www.reuters.com/business/media-telecom/qualcomm-arm-set-jury-verdict-contract-breach-feud-2026-10-09/",
+ "added": "이번 로이터 1건으로 {{배심}}이 {{암의 계약 위반과 메타 관계 방해}}를 {{인정}}했지만 {{배상액}}은 {{2달러}}에 그쳤다는 {{평결 결과}}가 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

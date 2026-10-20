@@ -1,0 +1,28 @@
+# industrial research log
+## node plan v1 (8): materials(화학·코팅·산업용 가스), electrical(전기 장비), machinery(기계·장비), robotics(로봇·자동화·우주),
+##   shipbuild(조선), buildmat(건자재 제조·유통), construction(건설·엔지니어링·인프라), services(물류·우편·인력)
+## news map: 우주 투자/스페이스X->robotics | 자딘 개먼->construction | 니덱->electrical | 도이체포스트 요금->services | 英 수도 국유화->construction
+##   | BYD 휴머노이드->robotics | SIG CEO->buildmat | 인니 고속철->construction | 트레비/웨빌드->construction | 악조노벨·액설타->materials
+##   | 킹스팬 벌금->buildmat | 서클8/스리->services | 파이어플라이 직상장->robotics | 헤드램 법정관리->buildmat | CH로빈슨/RXO->services
+##   | 로열메일 감원->services | 보스턴다이내믹스 CEO->robotics | FTC 농기계->machinery
+## cross links needed from metals: industrial/construction, shipbuild, machinery, electrical, buildmat, robotics
+## desk-verified facts (newsdocs) reused: see industrial facts dump (Space Capital >$100bn; Jardine/Gammon £250m, EPS 5.50-5.65; Nidec PwC disclaimer, FY loss ¥564.6bn;
+##   BNetzA +20.35% letters 2027-28, parcels +10.72%; UK water £105bn (PF Global/Water UK), Defra ~£100bn; SIG CEO 2027-05-01, £100m cash, £50m EBIT; KCIC 60% to MoF, ~IDR1tn/yr x80y;
+##   Kingspan €40m fine (4 x €10m), appeal; CH Robinson-RXO $5.8bn, $300m synergies, close 1H27; Royal Mail 2,500 cuts (~2% of 131k), letters -70% from peak; FTC/USDA RFI Oct-7, Deere -5%, CNH -5.7%, AGCO -5.9%, comments due Dec-7
+## I1 electrical: ABB Q2 CY26 record orders ~$12.0bn (+28% comp), backlog ~$30bn (+27%), BtB 1.27, Electrification orders +60% to $7.23bn (data centres) https://new.abb.com/news/detail/137777/record-orders-robust-revenue-and-resilient-profitability-in-q2-cy2026 (Jul-2026)
+##   GE Vernova Q2-26 orders $24.2bn (+88% organic), backlog +$13.0bn seq https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gev2q2026form8-k.pdf ; Siemens Energy FQ2 (Jan-Mar) orders EUR17.7bn (+29.5%), backlog record EUR154bn, BtB 1.72
+## I2 shipbuilding: Jan-Sep 2026 global orders 70.71M CGT (+57%); China 76% (53.91M), Korea 15% (10.93M); orderbook China 151.03M (68%), Korea 38.17M (17%) https://www.steelorbis.com/steel-news/latest-news/china-claims-76-of-new-shipbuilding-orders-globally-in-september-2026-1482502.htm ; NB price index 185.15 end-Jun
+## I3 Deere FQ3 (Aug-20): NI $1.379bn, sales +5% $12.608bn, PPA -6% $3.998bn, FY NI $4.75-5.00bn, FY large ag -10%, US/Can -15~20%, 2026 = cycle bottom, C&F +18% https://www.sec.gov/Archives/edgar/data/0000315189/000110465926098904/de-20260820xex99d1.htm ; https://www.ttnews.com/articles/deere-earnings-q3-2026
+##   CAT Q2 (Aug-4): sales record $20.5bn (+24%), backlog record $72.1bn (+92%), some orders to 2030 https://qz.com/caterpillar-q2-2026-earnings-record-revenue-data-centers-080426
+## I4 IFR 2026-09-24: 2025 installs ~603k (+11%), stock ~5M (+9%); China 59% (~354k, +20%), domestic share 55%; US ~38.5k; Japan -19%; Europe -14%; 2026f 655k https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally
+## I5 Webuild-Trevi: offer raised EUR4.50->5.165 after 13.916% block (Oct-5); Trevi board: low end of EUR5.1-6.1; acceptance to Nov-20 https://en.ilsole24ore.com/art/trevi-webuild-buys-1392-per-cent-at-5165-euros-per-share-extended-takeover-bid-AJNhvIZB
+## I6 AkzoNobel Q2 (Jul-22): revenue EUR2,589m (-1%), organic +2%, volumes stable, Deco volumes -4% (W.Europe DIY), adj EBITDA margin 15.4% https://www.akzonobel.com/en/media/media-releases/q2-2026 ; EU approval may hinge on refinish sale (European Coatings); closing late-2026/early-2027 (Form 425)
+## I7 Headlam administration Sep-8; Likewise buys assets GBP14.9m (Oct-7) https://www.investegate.co.uk/announcement/rns/likewise-group--like/strategic-acquisition/9809941
+## I8 Cass Sep: TL linehaul 154.8 (+10.1% y/y, 4-yr high), shipments +1.9% (2nd rise after 3.5-yr downturn), expenditures +20.4%, diesel +68% y/y https://www.freightwaves.com/news/cass-tl-linehaul-rates-up-10-in-september-shipment-counts-remain-positive
+## I9 SThree: Circle8 improved cash proposal (price undisclosed), PUSU to Oct-21 5pm; KPMG/REC (Oct-8): perm placements 50.9 (highest since Sep-2022), demand still contracting https://kpmg.com/uk/en/media/press-releases/2026/10/kpmg-and-rec-uk-report-on-jobs-october-2026.html
+## I10 ISM Sep (Oct-1): PMI 54.5, new orders 55.3 (9th month expansion), backlog 56.4, prices 77.9 https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report-302894520.html ; JPM global mfg PMI 53.0 (55-month high)
+## I11 Korea big3 Q2 (Jul-29): HD KSOE OP 1.6451tn (+72.5%, record), Hanwha Ocean 736.1bn (+98%), SHI 325.0bn (+58.7%), total 2.7062tn https://www.g-enews.com/article/Industry/2026/07/202607291813014711cd0bfacc1c_1 ; backlog Jun-end $76.1bn/$35.5bn/$33.7bn https://m.ceoscoredaily.com/page/view/2026082009375268450
+## I12/F1 Linde (Nasdaq: LIN) Q2 Jul-31: sales $9,289m (+9%), underlying +4% (price 2, vol 2), EPS 4.15 (+11%), adj 4.50 (+10%), APAC vol +6%, EMEA lower mfg vols, backlog $11bn, FY adj EPS 17.70-17.90 https://www.sec.gov/Archives/edgar/data/0001707925/000165495426007052/lin_ex991.htm
+## I13 FireFly Robotics direct listing filed Oct-7 (FFLY), no new capital, 27.1M shares, H1 rev $30.5m, loss $9.1m https://www.fiercesensors.com/iot-connectivity/autonomous-mower-maker-firefly-robotics-pursues-stock-listing ; Unitree IPO priced 150.8 yuan, ~61bn yuan ($9.04bn), raise 6.1bn yuan https://www.cnbc.com/2026/08/06/chinese-humanoid-robot-maker-unitree-prices-ipo-at-9-billion-valuation.html
+## I14 Census Aug (Oct-1): data center construction ~$84.95bn SAAR (+73%), private mfg construction $168.2bn (-32% from peak, -20% y/y), total $2.203tn (-1.7% y/y) https://www.constructiondive.com/news/data-center-construction-spending-august/831954/
+## counts: WebSearch 14/14, WebFetch 1/5

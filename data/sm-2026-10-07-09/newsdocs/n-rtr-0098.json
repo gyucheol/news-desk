@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0098",
+ "num": 98,
+ "key": "bnd-C248-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:11:00+09:00",
+ "url": "https://www.reuters.com/world/india/india-eases-punitive-rules-under-gst-regime-2026-10-08/",
+ "origTitle": "",
+ "headline": "인도 GST 위원회, 세무 공무원 체포권 폐지·기소 기준 5천만 루피로 상향",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-08",
+   "u": "https://www.business-standard.com/amp/economy/news/gst-council-unveils-major-reforms-eases-penalties-and-speeds-up-refunds-126100801581_1.html"
+  },
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-08",
+   "u": "https://www.brecorder.com/news/40443285/india-eases-punitive-rules-under-gst-regime"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도, GST 체계의 징벌적 규정 완화",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/india/india-eases-punitive-rules-under-gst-regime-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "인도 GST 위원회, 세무 공무원 체포권 폐지·기소 기준 5천만 루피로 상향",
+ "one": "인도 GST 위원회가 세무 공무원의 체포 권한을 없애고 기소 기준을 1천만 루피에서 5천만 루피로 올리는 등 처벌 규정을 완화하면서, 내년 4월부터 기업의 세무 처벌 부담과 신고·환급 절차 부담이 줄어들 전망이다",
+ "facts": [
+  "무엇이: 인도 GST 위원회가 10월 8일 57차 회의에서 GST 체포권 폐지와 처벌 완화를 의결, 세율 변경은 없음 [사실]",
+  "처벌: 기소 기준을 1천만 루피에서 5천만 루피로 상향, 일반 벌금 2만 5천 루피에서 1만 루피로 인하 [사실]",
+  "절차: 환급 접수 확인 기간 15일에서 10일로 단축, 등록 변경 자동 승인 [사실]",
+  "시행: 시타라만 재무장관은 2027년 4월 1일부터 시행한다고 밝힘 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Business Standard·Business Recorder 검색 결과 요약으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "basis": "verified",
+ "check": "DBS CEO 발언과 250억 싱가포르달러 규모는 검색 결과 요약으로 확인. S&P 현금흐름 수치는 채널, 순환 금융 기사 내용은 제목 기준. 빅테크 AI 차입 해설 기사는 AI 자금 조달이라 items에서 뺌.",
+ "cycles": [],
+ "facts": [
+  "무엇이: DBS 탄수산 CEO는 투자자들이 AI 인프라 금융에 더 높은 수익과 구조 점검을 요구하며 위험을 재평가하고 있고, 약한 기업은 신용등급이 깎일 수 있다고 했습니다 [사실]",
+  "DBS 노출: DBS는 올해 칩·데이터센터 위주로 약 250억 싱가포르달러의 AI 거래를 주선했으나 자체 장부에는 일부만 보유했습니다 [사실]",
+  "현금흐름 격차: S&P 글로벌 집계로 5대 AI 반도체 기업 잉여현금흐름은 2026년 5,000억 달러를 넘는 반면, 5대 클라우드 기업 합계는 85억 달러 적자가 예상됩니다 [채널]",
+  "기존: 스페이스X·브로드컴·오라클이 일주일도 안 돼 1,500억 달러 넘는 조달에 나섰고, 오라클 2066년물 수익률은 8.45%였습니다 [사실]",
+  "구조 위험: AI를 떠받치는 세계적 순환 금융 고리와 AI 붐이 키우는 금융 위험을 다룬 분석이 나왔습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 금융 위험 재평가…DBS \"시장이 AI 대출 위험 다시 가격 매겨\", 순환 금융 경고",
+ "id": "n-bbg-0049",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그",
+   "t": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "오라클 신용부도스와프(CDS) 프리미엄 지속 상승",
+   "u": "https://t.me/insidertracking/65770"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "스페이스X·브로드컴·오라클 대규모 채권 발행에 美 채권시장 포화",
+   "u": "https://t.me/HANAchina/70108"
+  },
+  {
+   "t": "DBS CEO 탄 \"시장이 AI 금융 위험을 다시 가격 매기고 있다\"",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/dbs-ceo-tan-says-market-is-repricing-risks-on-ai-financing"
+  },
+  {
+   "t": "AI 반도체 현금흐름 5,000억 달러 급증, 클라우드 5사는 마이너스 전환 전망",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-12",
+   "u": "https://t.me/w_compass/7254"
+  },
+  {
+   "t": "AI 공급망 부담은 걱정거리 중 가장 작은 것일 수 있다",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-supply-chain-strains-may-be-the-least-of-our-worries"
+  },
+  {
+   "t": "AI를 떠받치는 거대한 세계 순환 금융 고리의 내막",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/inside-the-giant-global-circular-financing-loop-driving-ai"
+  },
+  {
+   "t": "AI 붐은 어떻게 세계 금융 위험을 키우고 있나",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/features/2026-10-12/how-the-ai-boom-is-fueling-global-financial-risks"
+  }
+ ],
+ "key": "bbg-1001-carlyle-ai-private-credit-concentration",
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates",
+  "macro/semis"
+ ],
+ "num": 49,
+ "one": "빅테크의 AI 차입이 채권시장을 포화시키고 오라클 CDS가 사상 최고권에 오른 가운데 DBS CEO가 시장이 AI 금융 위험을 다시 가격 매기고 있다고 밝히고 순환 금융 구조 경고가 이어져, 약한 차입자의 신용등급과 조달 비용이 악화될 수 있다",
+ "origTitle": "AI Buildout May Spur $1 Trillion in Private Credit, Carlyle White Paper Finds",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T06:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Briefs Finance",
+   "u": "https://www.briefs.co/news/carlyle-warns-private-credit-don-t-repeat-software-s-concent/"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "포브스(기고)",
+   "u": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/"
+  },
+  {
+   "d": "2026-09",
+   "o": "Sage Advisory",
+   "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+  },
+  {
+   "d": "2026",
+   "o": "Portfolio Adviser",
+   "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "24/7 Wall St.",
+   "u": "https://247wallst.com/investing/2026/10/08/spacex-broadcom-and-oracle-all-want-billions-in-ai-chip-debt-at-the-same-time/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Benzinga",
+   "u": "https://www.benzinga.com/markets/large-cap/26/10/62161704/highest-yielding-hyperscaler-bonds-october-2026-spacex-oracle"
+  },
+  {
+   "d": "2026-09",
+   "o": "Seeking Alpha",
+   "u": "https://seekingalpha.com/news/4646794-oracle-credit-default-swaps-hit-new-record-high-as-ai-debt-worries-mount"
+  },
+  {
+   "o": "Fintech Singapore",
+   "d": "2026-10-12",
+   "u": "https://fintechnews.sg/138858/ai/dbs-ai-financing-risk-repricing/"
+  },
+  {
+   "o": "The Edge Singapore",
+   "d": "2026-10-12",
+   "u": "https://www.theedgesingapore.com/news/tech/dbs-ceo-tan-says-market-repricing-risks-ai-financing"
+  }
+ ],
+ "tags": [],
+ "title": "AI 금융 위험 재평가…DBS \"시장이 AI 대출 위험 다시 가격 매겨\", 순환 금융 경고",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+}

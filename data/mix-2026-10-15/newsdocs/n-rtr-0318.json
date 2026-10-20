@@ -1,0 +1,73 @@
+{
+ "id": "n-rtr-0318",
+ "num": 318,
+ "key": "mix-G1-036-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T13:00:00+09:00",
+ "url": "https://www.reuters.com/markets/europe/german-economy-likely-slowed-third-quarter-ministry-says-2026-10-14/",
+ "origTitle": "",
+ "headline": "독일 경제부 '3분기 성장 둔화'…약한 산업 수요·에너지값이 내수 발목",
+ "src": [
+  {
+   "o": "신화통신",
+   "d": "2026-10-15",
+   "u": "https://english.news.cn/20261015/b0cb754992ce45f08cf0dc19807e5fce/c.html"
+  },
+  {
+   "o": "Ecopolitic",
+   "d": "2026-10-14",
+   "u": "https://ecopolitic.ro/germany-economy-slowed-in-third-quarter-of-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 경제부 '독일 경제 3분기에 둔화했을 가능성 높아'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/markets/europe/german-economy-likely-slowed-third-quarter-ministry-says-2026-10-14/",
+   "s": "독일 경제부가 월간 보고서에서 약한 산업·수출과 내수 부진으로 3분기 성장이 일시 둔화했을 것으로 보면서, 상반기 회복 흐름이 꺾였다"
+  },
+  {
+   "t": "독일 경기 회복, 메르츠 총리에겐 너무 늦을 수도",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/features/2026-10-15/germany-s-economic-recovery-may-be-too-late-for-friedrich-merz",
+   "s": "독일 경기 회복이 더디게 나타나면서, 프리드리히 메르츠 총리가 그 효과를 정치적으로 누리기엔 늦을 수 있다는 분석이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "독일 경제부 '3분기 성장 둔화'…약한 산업 수요·에너지값이 내수 발목",
+ "one": "독일 경제부가 약한 산업 수요와 수출 둔화, 에너지값·자금조달 비용에 눌린 내수로 3분기 성장이 일시 둔화했을 것이라고 밝히면서, 상반기 회복세가 꺾이고 메르츠 정부가 경기 회복 효과를 누리기 어려울 수 있다는 분석이 나왔다",
+ "facts": [
+  "무엇이: 독일 경제부는 10월 14일 월간 보고서에서 상반기보다 강했던 성장이 3분기에 일시 둔화했을 것으로 봤다 [사실]",
+  "산업: 8월 산업생산은 7월 1.2% 감소 뒤 2% 늘었지만 건설이 주도했고, 대형 수주를 빼면 봄 이후 하락 추세가 바뀌지 않았다 [사실]",
+  "내수: 높은 에너지값·불확실성·자금조달 비용이 단기적으로 소비와 기업 지출을 제약할 전망이다 [사실]",
+  "물가: 9월 물가 상승률은 3.3%였고, 10월 1일 시작된 한시 유류세 인하로 4분기 물가가 약 0.1%p 낮아질 전망이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "경제부 월간 보고서 내용은 검색 결과 요약(신화통신 등)으로 확인. 메르츠 정치 부담 분석은 제목만 근거",
+ "added": "이번 블룸버그 1건으로 독일 경기 회복이 너무 늦게 와 메르츠 총리가 그 효과를 정치적으로 누리기 어려울 수 있다는 분석이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "독일 3분기 성장 일시 둔화 전망"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

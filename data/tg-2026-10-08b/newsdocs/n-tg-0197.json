@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0197",
+ "feed": "v5",
+ "format": "one1",
+ "num": 197,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-10189",
+ "published": "2026-10-08T13:55:00+09:00",
+ "url": "https://t.me/Trillion_labs/10189",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "nodes": [
+  "macro/geo",
+  "petchem/feedstock"
+ ],
+ "title": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+ "one": "우크라이나 드론이 10월 7~8일 밤 러시아 바시코르토스탄의 가스프롬 네프테힘 살라바트 정유단지를 공격해 화재가 나면서, 러시아의 석유제품 생산·수출 차질이 더 커질 수 있다",
+ "headline": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+ "facts": [
+  "무엇이: 우크라이나 드론이 10월 7~8일 밤 가스프롬 네프테힘 살라바트 정유단지를 공격해 화재가 났습니다 [사실]",
+  "피해: 생산 라인을 받치는 설비와 배관이 손상됐다는 보도가 있으나 러시아 당국은 피해를 밝히지 않았습니다 [사실]",
+  "배경: 이 정유단지는 7월 피격으로 가동이 멈춘 적이 있고 8월에도 공격받았습니다 [사실]",
+  "배경: 젤렌스키 대통령은 10월 초 러시아 정유소 공격 확대를 예고했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "채널 글은 한 줄이며, 메두자·밀리타르니·PBS(2026-10-08) 기사로 확인했습니다(검색 결과 요약으로 확인). 피해 규모는 초기 보도입니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "o": "Meduza",
+   "d": "2026-10-08",
+   "u": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+  },
+  {
+   "o": "Militarnyi",
+   "d": "2026-10-08",
+   "u": "https://militarnyi.com/en/news/drones-strike-salavat-oil-refinery-in-bashkortostan-fire-erupts/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

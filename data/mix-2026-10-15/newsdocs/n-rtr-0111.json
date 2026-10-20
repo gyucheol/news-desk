@@ -1,0 +1,88 @@
+{
+ "added": "이번 블룸버그 1건으로 유럽 3분기 분쇄량이 3.2% 늘어 감소 예상을 뒤집고 아시아가 29.2% 급증해 분기 최대를 기록한 사실이 추가됐다",
+ "basis": "verified",
+ "check": "유럽·아시아 3분기 분쇄량과 증가율은 ADM Investor Services(10월 15일) 열람으로 확인, 블룸버그 설문 예상치와 유럽 누적치는 검색 결과 요약으로 확인. 북미 실제 수치는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유럽 3분기 코코아 분쇄량이 34만 8,215톤으로 1년 전보다 3.2% 늘어 2024년 2분기 이후 처음 전년 대비 증가했다 [사실]",
+  "아시아: 아시아 3분기 분쇄량은 23만 3,767톤으로 29.2% 늘어 적어도 2012년 이후 분기 기준 최대였다 [사실]",
+  "예상 대비: 발표 전 블룸버그 설문은 유럽 약 3.9% 감소, 북미 보합을 예상했다 [사실]",
+  "누적: 3분기까지 유럽 누적 분쇄량은 약 99만 톤으로 1년 전 같은 시점(102만 3,000톤)보다 적다 [사실]",
+  "가나: 가나 코코아위원회가 10월 5일 단기 국내 채권으로 33억 9,000만 세디(약 2억 8,800만 달러)를 조달해 수매 대금을 마련했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "초콜릿 수요 반등…유럽 3분기 코코아 분쇄 3.2%·아시아 29% 늘어 예상 상회",
+ "id": "n-rtr-0111",
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "가나 코코아 규제기관, 농가 수매용 2억8,800만 확보",
+   "u": "https://www.reuters.com/world/africa/ghanas-cocoa-regulator-secures-288-million-farmer-purchases-2026-10-08/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{아시아}}가 {{불확실한 시장}} 속에서도 {{코코아 수요 회복}}을 {{주도}}하는 자리를 {{굳히}}면서 {{세계 코코아 수요}}의 {{무게중심}}이 {{아시아}}로 옮겨 가고 있다 (제목 기준)",
+   "t": "불확실한 시장 속 아시아, 코코아 수요 회복 주도권 굳혀",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/asia-cements-lead-in-cocoa-demand-revival-in-uncertain-market"
+  },
+  {
+   "t": "초콜릿 수요 급반등…코코아 분쇄량 시장 예상 웃돌아",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-cocoa-grindings-post-first-third-quarter-gain-since-2021",
+   "s": "유럽 3분기 코코아 분쇄량이 3.2% 늘어 감소 예상을 뒤집고 아시아도 29.2% 급증하면서 초콜릿 수요 회복이 확인됐다"
+  }
+ ],
+ "key": "bnd-C261-2026-10-09",
+ "nodes": [],
+ "num": 111,
+ "one": "유럽 3분기 코코아 분쇄량이 34만 8,215톤으로 3.2% 늘어 감소 예상을 뒤집고 아시아도 29.2% 급증해 분기 최대를 기록하면서, 가나의 수매 자금 조달과 함께 아시아에 이어 유럽까지 초콜릿 수요 회복이 확인됐다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T16:43:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Nairametrics",
+   "u": "https://nairametrics.com/2026/10/08/ghana-raises-288-million-debt-to-finance-cocoa-purchases/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Africa Briefing",
+   "u": "https://africabriefing.com/ghana-raises-288m-to-fund-cocoa-purchases/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "GBC Ghana",
+   "u": "https://www.gbcghanaonline.com/news/cocobod-raises-gh%C2%A23-39-billion-to-boost-cocoa-purchases/2026/"
+  },
+  {
+   "o": "ADM Investor Services",
+   "d": "2026-10-15",
+   "u": "https://www.admis.com/europe-asia-post-strong-cocoa-grind/"
+  }
+ ],
+ "tags": [],
+ "title": "초콜릿 수요 반등…유럽 3분기 코코아 분쇄 3.2%·아시아 29% 늘어 예상 상회",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/africa/ghanas-cocoa-regulator-secures-288-million-farmer-purchases-2026-10-08/",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "softs",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "유럽·아시아 3분기 코코아 분쇄량 예상 상회"
+  }
+ ]
+}

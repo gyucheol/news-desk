@@ -1,0 +1,80 @@
+{
+ "basis": "verified",
+ "check": "10월 15일 시정안 제출, 차량 보수용 도료 매각, 기한 연장은 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 악조노벨과 액설타는 10월 15일 약 250억 달러 합병의 EU 승인을 얻기 위한 시정안을 냈다 [사실]",
+  "시정안: 시정안은 악조노벨의 유럽 차량 보수용 도료 사업 매각이며, 분체도료 중복 우려는 앞서 해소됐다 [사실]",
+  "일정: 시정안 제출로 집행위 심사 기한이 영업일 10일 자동 연장돼 11월로 넘어갔고, 집행위는 경쟁사·고객을 상대로 시정안을 시험한 뒤 승인·추가 수정 요구·본조사 개시 가운데 하나를 정한다 [사실]",
+  "기존: 합병 완료는 2026년 말~2027년 초로 예상됐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "악조노벨·액설타, EU에 차량 보수용 도료 매각 시정안 제출…심사 기한 연장",
+ "id": "n-rtr-0078",
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "소식통 \"악조노벨·액설타 합병, EU 반독점 조건부 승인 예상\"",
+   "u": "https://www.reuters.com/world/conditional-eu-antitrust-approval-expected-akzonobel-axalta-deal-sources-say-2026-10-08/"
+  },
+  {
+   "t": "악조노벨·액설타, 250억 달러 합병 EU 승인 위해 시정안 제출",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/akzonobel-axalta-offer-remedies-bid-eu-approval-25-billion-deal-2026-10-16/",
+   "s": "악조노벨과 액설타가 EU에 차량 보수용 도료 사업 매각 시정안을 내면서, 합병 심사 기한이 영업일 10일 늘어 11월로 넘어갔다"
+  }
+ ],
+ "key": "bnd-C226-2026-10-09",
+ "nodes": [],
+ "num": 78,
+ "one": "악조노벨과 액설타가 250억 달러 합병의 EU 승인을 위해 악조노벨 차량 보수용 도료 사업 매각 시정안을 10월 15일 내면서, 집행위 심사 기한이 영업일 10일 늘어 11월로 넘어가고 경쟁사·고객 검증을 거쳐 승인 여부가 정해질 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T00:55:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "PYMNTS",
+   "u": "https://www.pymnts.com/cpi-posts/akzonobel-axalta-near-eu-approval-for-25-billion-merger/"
+  },
+  {
+   "o": "MLex",
+   "d": "2026-10-16",
+   "u": "https://www.mlex.com/mlex/mergers-acquisitions/articles/2538287"
+  },
+  {
+   "o": "European Coatings",
+   "d": "2026-10",
+   "u": "https://www.european-coatings.com/news/markets-companies/akzo-nobel-axalta-merger-eu-approval-may-hinge-on-sale-of-akzonobels-vehicle-refinish-business/"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-16",
+   "u": "https://tradersunion.com/news/companies/show/3848182-akzonobel-axalta-eu-merger-review/"
+  }
+ ],
+ "tags": [],
+ "title": "악조노벨·액설타, EU에 차량 보수용 도료 매각 시정안 제출…심사 기한 연장",
+ "url": "https://www.reuters.com/world/conditional-eu-antitrust-approval-expected-akzonobel-axalta-deal-sources-say-2026-10-08/",
+ "added": "이번 로이터 1건으로 두 회사가 차량 보수용 도료 사업 매각 시정안을 실제로 제출해 EU 심사 기한이 연장됐다는 점이 추가됐다",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "악조노벨·액설타 합병으로 코팅 공급자 감소"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

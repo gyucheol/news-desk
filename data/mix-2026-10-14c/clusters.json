@@ -1,0 +1,635 @@
+{
+ "clusters": [
+  {
+   "cid": "C001",
+   "theme": "애플 홈뷰 스마트홈 신제품·시리 AI, 주가 반등 과제",
+   "field": "tech",
+   "attachTo": "n-tg-0221",
+   "lines": [
+    108,
+    280,
+    640,
+    648
+   ]
+  },
+  {
+   "cid": "C002",
+   "theme": "스텔란티스 전기차 전략·3분기 출하 감소",
+   "field": "auto",
+   "attachTo": "n-rtr-0198",
+   "lines": [
+    146,
+    156,
+    167,
+    182
+   ]
+  },
+  {
+   "cid": "C003",
+   "theme": "앤트로픽 상장 앞 투자자의 날·모델 증류 공격 방어",
+   "field": "ai",
+   "attachTo": "n-rtr-0044",
+   "lines": [
+    125,
+    157,
+    372
+   ]
+  },
+  {
+   "cid": "C004",
+   "theme": "유럽 대중차 업체 압박·EU 지원 요청(폭스바겐 CEO)",
+   "field": "auto",
+   "attachTo": "n-bbg-0112",
+   "lines": [
+    176,
+    232,
+    238
+   ]
+  },
+  {
+   "cid": "C005",
+   "theme": "LSEG, 옥터스 약 35억 달러 인수 협상",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    239,
+    300,
+    424
+   ]
+  },
+  {
+   "cid": "C006",
+   "theme": "인도 IPO 붐·SEBI 공모 규정(바클레이스 자문 복귀)",
+   "field": "fin",
+   "attachTo": "n-bbg-0231",
+   "lines": [
+    266,
+    332,
+    440
+   ]
+  },
+  {
+   "cid": "C007",
+   "theme": "로슈·질랜드 비만약 기술도입 계약",
+   "field": "pharma",
+   "attachTo": "n-rtr-0127",
+   "lines": [
+    334,
+    541,
+    583
+   ]
+  },
+  {
+   "cid": "C008",
+   "theme": "아다니 뭄바이 공항 겨울 감편 보류(항공사 반발)",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    96,
+    388
+   ]
+  },
+  {
+   "cid": "C009",
+   "theme": "유나이티드헬스 3분기 실적·연간 이익 전망 상향",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    162,
+    339
+   ]
+  },
+  {
+   "cid": "C010",
+   "theme": "J&J 3분기 실적·의료기기 부진, 정형외과 분사 검토",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    185,
+    487
+   ]
+  },
+  {
+   "cid": "C011",
+   "theme": "메타 Muse 등 AI 에이전트 마케팅·성인 대화 논란",
+   "field": "ai",
+   "attachTo": "n-tg-0217",
+   "lines": [
+    201,
+    407
+   ]
+  },
+  {
+   "cid": "C012",
+   "theme": "바이오엔텍 mRNA 두경부암 치료제 1차 목표 실패",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    225,
+    483
+   ]
+  },
+  {
+   "cid": "C013",
+   "theme": "범블, 이타카에 13억 달러 비상장 전환 합의",
+   "field": "tech",
+   "attachTo": "n-bbg-0241",
+   "lines": [
+    263,
+    426
+   ]
+  },
+  {
+   "cid": "C014",
+   "theme": "영국 FCA 내부자거래 체포·내부고발 제도 검토",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    338,
+    592
+   ]
+  },
+  {
+   "cid": "C015",
+   "theme": "현대차그룹, 2032년까지 인도에 155억 달러 투자",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    347,
+    433
+   ]
+  },
+  {
+   "cid": "C016",
+   "theme": "구글 제미나이 4 출시·바이브코딩 앱 플레이스토어 허용",
+   "field": "ai",
+   "attachTo": "n-tg-0214",
+   "lines": [
+    417,
+    455
+   ]
+  },
+  {
+   "cid": "C017",
+   "theme": "AT&T 멕시코 법인 20억 달러 매각(텔레비사 컨소시엄)",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    552,
+    608
+   ]
+  },
+  {
+   "cid": "C018",
+   "theme": "뉴로크린 프래더-윌리 치료제 안전성 논란·솔레노 상각 압박",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    636,
+    642
+   ]
+  },
+  {
+   "cid": "C019",
+   "theme": "NATO 혁신펀드, 드론 방어 기술 투자 집중",
+   "field": "aero",
+   "attachTo": "n-rtr-0200",
+   "lines": [
+    15
+   ]
+  },
+  {
+   "cid": "C020",
+   "theme": "머크 당뇨병성 황반부종 신약 브루넬로 2b/3상 1년 결과",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    17
+   ]
+  },
+  {
+   "cid": "C021",
+   "theme": "중남미 벤처투자 반등, 돌파하는 스타트업은 줄어",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    20
+   ]
+  },
+  {
+   "cid": "C022",
+   "theme": "아스트라제네카 골질환 신약 3상 실패, 임상 설계 탓",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    28
+   ]
+  },
+  {
+   "cid": "C023",
+   "theme": "핀에어, 수요 호조에 연간 전망 상향",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    58
+   ]
+  },
+  {
+   "cid": "C024",
+   "theme": "데일리미러 발행사 리치, 구글 트래픽 급감 타격",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    78
+   ]
+  },
+  {
+   "cid": "C025",
+   "theme": "미즈호 \"AI 쇼핑 에이전트, 비자·마스터카드 매출에 도움\"",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    83
+   ]
+  },
+  {
+   "cid": "C026",
+   "theme": "아시아 코코아 분쇄 수요 회복 주도",
+   "field": "agri",
+   "attachTo": "n-rtr-0111",
+   "lines": [
+    105
+   ]
+  },
+  {
+   "cid": "C027",
+   "theme": "국민연금 리밸런싱 제약, 급락장 매수 여력 제한",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    114
+   ]
+  },
+  {
+   "cid": "C028",
+   "theme": "알리바바, 450달러 AI 안경 공개",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    119
+   ]
+  },
+  {
+   "cid": "C029",
+   "theme": "BMW 3분기 인도 6.3% 감소(중국 부진)",
+   "field": "auto",
+   "attachTo": "n-rtr-0147",
+   "lines": [
+    127
+   ]
+  },
+  {
+   "cid": "C030",
+   "theme": "멜로즈 가든그로브 공장 4분기 재가동 예정",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    142
+   ]
+  },
+  {
+   "cid": "C031",
+   "theme": "인도 UPI 결제 수수료 도입 디왈리 뒤로 연기",
+   "field": "fin",
+   "attachTo": "n-rtr-0119",
+   "lines": [
+    153
+   ]
+  },
+  {
+   "cid": "C032",
+   "theme": "브라질 수수 생산 급증, 미 농가 새 경쟁",
+   "field": "agri",
+   "attachTo": "n-bbg-0250",
+   "lines": [
+    171
+   ]
+  },
+  {
+   "cid": "C033",
+   "theme": "지오 플랫폼스 IPO, 200억 달러 넘는 청약 수요",
+   "field": "tech",
+   "attachTo": "n-bbg-0122",
+   "lines": [
+    189
+   ]
+  },
+  {
+   "cid": "C034",
+   "theme": "레저, 9천만 달러 스파이웨어 탈취 뒤 지갑 판매 정책 재검토",
+   "field": "fin",
+   "attachTo": "n-bbg-0279",
+   "lines": [
+    200
+   ]
+  },
+  {
+   "cid": "C035",
+   "theme": "그랩, 틱톡과 소비자 관심 경쟁",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    209
+   ]
+  },
+  {
+   "cid": "C036",
+   "theme": "아프리카 첫 자연 임팩트 펀드 1억 달러 모집",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    234
+   ]
+  },
+  {
+   "cid": "C037",
+   "theme": "우버 로보택시 확장 총괄 임원 퇴사",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    255
+   ]
+  },
+  {
+   "cid": "C038",
+   "theme": "BYD 덴자, 유럽 자동차금융 법인 추진",
+   "field": "auto",
+   "attachTo": "n-tg-0225",
+   "lines": [
+    273
+   ]
+  },
+  {
+   "cid": "C039",
+   "theme": "힌두 단체, 머스크·암바니 갈등 속 스타링크 차단 촉구",
+   "field": "tech",
+   "attachTo": "n-bbg-0222",
+   "lines": [
+    275
+   ]
+  },
+  {
+   "cid": "C040",
+   "theme": "테일스케일, 캐나다 정체성 앞세워 유럽 고객 공략",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    279
+   ]
+  },
+  {
+   "cid": "C041",
+   "theme": "타타 엘렉시 분기 이익 증가(운송 부문)",
+   "field": "tech",
+   "attachTo": "n-bbg-0113",
+   "lines": [
+    288
+   ]
+  },
+  {
+   "cid": "C042",
+   "theme": "인도 ICICI생명 분기 이익 증가",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    298
+   ]
+  },
+  {
+   "cid": "C043",
+   "theme": "월마트, 직원 GLP-1·인슐린 일부 무상 보장",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    307
+   ]
+  },
+  {
+   "cid": "C044",
+   "theme": "민주당 중간선거 승리 시 월가·암호화폐 감독 강화",
+   "field": "fin",
+   "attachTo": "n-bbg-0136",
+   "lines": [
+    319
+   ]
+  },
+  {
+   "cid": "C045",
+   "theme": "메타, 영국 온라인안전 감독기구 수수료·벌금 산정에 이의",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    345
+   ]
+  },
+  {
+   "cid": "C046",
+   "theme": "위즈에어, 파산 위험 항공사 슬롯 인수 협의",
+   "field": "aero",
+   "attachTo": "n-rtr-0032",
+   "lines": [
+    348
+   ]
+  },
+  {
+   "cid": "C047",
+   "theme": "멕시코, 비바·볼라리스 항공 합병 연내 승인 전망",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    365
+   ]
+  },
+  {
+   "cid": "C048",
+   "theme": "스페이스X 텍사스 스타십 연 456회 발사 계획 심사",
+   "field": "aero",
+   "attachTo": "n-rtr-0167",
+   "lines": [
+    368
+   ]
+  },
+  {
+   "cid": "C049",
+   "theme": "블랙스톤 유럽 회수 60억 달러 사상 최대",
+   "field": "fin",
+   "attachTo": "n-bbg-0205",
+   "lines": [
+    380
+   ]
+  },
+  {
+   "cid": "C050",
+   "theme": "휴매나, 블랙록과 28억 달러 클리닉 합작",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    390
+   ]
+  },
+  {
+   "cid": "C051",
+   "theme": "아시아 투자자, 채권 대신 헤지펀드로",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    421
+   ]
+  },
+  {
+   "cid": "C052",
+   "theme": "허리케인 이사야스 보험 손실 최대 20억 달러",
+   "field": "fin",
+   "attachTo": "n-tg-0187",
+   "lines": [
+    437
+   ]
+  },
+  {
+   "cid": "C053",
+   "theme": "스위스 의회 위원회, UBS 공적 유동성 백스톱 수수료 지지",
+   "field": "fin",
+   "attachTo": "n-rtr-0193",
+   "lines": [
+    447
+   ]
+  },
+  {
+   "cid": "C054",
+   "theme": "애질런트, 병리 소프트웨어 프로시아 2억 4천만 달러 인수",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    459
+   ]
+  },
+  {
+   "cid": "C055",
+   "theme": "보잉 9월 57대 인도, 연중 최다",
+   "field": "aero",
+   "attachTo": "n-rtr-0053",
+   "lines": [
+    466
+   ]
+  },
+  {
+   "cid": "C056",
+   "theme": "기니비사우, 신생아 B형 간염 백신 임상 승인 부인",
+   "field": "pharma",
+   "attachTo": "n-rtr-0052",
+   "lines": [
+    494
+   ]
+  },
+  {
+   "cid": "C057",
+   "theme": "칠레 연기금, 미 금리 베팅 손실",
+   "field": "rates",
+   "attachTo": "n-tg-0140",
+   "lines": [
+    531
+   ]
+  },
+  {
+   "cid": "C058",
+   "theme": "CVS, 오피오이드 불법 처방 혐의 3억 1,500만 달러 합의",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    532
+   ]
+  },
+  {
+   "cid": "C059",
+   "theme": "루프트한자, 포르투갈 TAP 지분 입찰 승리 유력",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    538
+   ]
+  },
+  {
+   "cid": "C060",
+   "theme": "혼다, 프리미엄 8인승 대형 SUV 출시",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    598
+   ]
+  },
+  {
+   "cid": "C061",
+   "theme": "폴리마켓 토큰 출시 예고",
+   "field": "fin",
+   "attachTo": "n-rtr-0031",
+   "lines": [
+    604
+   ]
+  },
+  {
+   "cid": "C062",
+   "theme": "한국, 비싼 브라질산 계란 수입 보조금 논란",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    656
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 44,
+   "reason": "이미 다룸(n-bbg-0266)"
+  },
+  {
+   "line": 195,
+   "reason": "인물 피처(칼시 개인 트레이더), 투자 무관"
+  },
+  {
+   "line": 260,
+   "reason": "투자 무관(뉘른베르크 공항 납치 오경보, 피해 없음)"
+  },
+  {
+   "line": 277,
+   "reason": "연구 소개 기사(직장 AI 책임 인식), 투자 무관"
+  },
+  {
+   "line": 362,
+   "reason": "인사 단신(머니마켓 이코노미스트 은퇴), 투자 무관"
+  },
+  {
+   "line": 364,
+   "reason": "투자 무관(260과 같은 공항 오경보)"
+  },
+  {
+   "line": 454,
+   "reason": "이미 다룸(n-bbg-0233)"
+  },
+  {
+   "line": 456,
+   "reason": "해설 기사(가전·냉장 설비 해킹 위험), 새 사실 없음"
+  },
+  {
+   "line": 520,
+   "reason": "전망 발언(세일러 비트코인 강세론), 새 사실 없음"
+  },
+  {
+   "line": 567,
+   "reason": "뉴스 요약 모음(여러 종목 단신)"
+  },
+  {
+   "line": 625,
+   "reason": "이미 다룸(n-rtr-0043)"
+  }
+ ]
+}

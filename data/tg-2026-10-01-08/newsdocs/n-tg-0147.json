@@ -1,0 +1,46 @@
+{
+ "id": "n-tg-0147",
+ "feed": "v5",
+ "format": "one1",
+ "num": 147,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-cahier_de_market-10909",
+ "published": "2026-10-02T09:01:00+09:00",
+ "url": "https://t.me/cahier_de_market/10909",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "JP모건 'AI 서버 D램 비트 수요 연 92% 증가'…공급은 20%대에 그쳐",
+ "one": "JP모건이 2026~2028년 AI 서버용 D램 비트 수요가 연평균 92% 늘 것으로 추정한 반면 메모리 업체 비트 공급 증가율은 20% 안팎에 그쳐, 메모리 공급 부족과 가격 강세가 2028년까지 이어질 수 있다",
+ "headline": "JP모건 'AI 서버 D램 비트 수요 연 92% 증가'…공급은 20%대에 그쳐",
+ "facts": [
+  "무엇이: JP모건은 2026~2028년 AI 서버 D램·SOCAMM 비트 수요 연평균 증가율을 92%로 추정했습니다 [사실]",
+  "비교: 같은 추정에서 HBM은 63%, HBM 외 서버 D램은 37%, PC·모바일은 -3%입니다 [사실]",
+  "공급: 메모리 업체 비트 공급 증가율은 연 20% 수준이며, 마이크론도 2027~2028년 D램·낸드 공급 증가를 20~25% 미만으로 제시했습니다 [사실]",
+  "배경: 서버 D램이 메모리 매출의 60% 이상을 차지한다고 채널은 전했습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "채널 글(JP모건 추정 인용)로 들어온 소식이며, moomoo 기사(검색 결과 요약으로 확인)로 92% 수요 추정을 확인했습니다. 공급 20%는 JP모건이 아닌 마이크론 가이던스로만 확인했고, 서버 D램 매출 비중 60%는 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-02",
+   "u": "https://t.me/cahier_de_market/10909"
+  },
+  {
+   "o": "moomoo 뉴스",
+   "d": "2026-10",
+   "u": "https://www.moomoo.com/news/post/70859621/from-cyclical-commodities-to-strategic-core-assets-jpmorgan-this-storage"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "카이에 de market",
+ "ind": "semis"
+}

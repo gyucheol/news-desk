@@ -1,0 +1,174 @@
+{
+ "added": "이번 텔레그램·블룸버그·로이터 10건으로 AEP의 구글용 702MW 연료전지 40억 달러 사업과 가스터빈 매진·자가발전 수요, 오라클 가스관 분쟁 12개 주 가세가 추가됐다",
+ "basis": "partial",
+ "check": "AEP 702MW·40억 달러·20년 계약·2028년 말 가동은 AEP 보도자료 등 검색 결과 요약으로 확인. 12개 주 반발은 제목, 가스터빈 매진·대만 전력 전망·인도 정책·물 부족은 채널·제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: AEP는 10월 14일 와이오밍 샤이엔 인근에 블룸에너지 연료전지 702MW 발전소를 약 40억 달러에 짓고 구글에 20년 전력구매계약으로 공급한다고 발표했다. 2028년 말 완전 가동이 목표다 [사실]",
+  "가스관: 12개 주가 오라클 데이터센터용 천연가스관 분쟁에서 뉴멕시코주에 맞섰다 [제목]",
+  "발전설비: GE 베르노바 가스터빈은 2030년 물량까지 사실상 매진됐고 지멘스 에너지 가스터빈 수주잔고는 약 70GW이며, 미국 일부 지역 계통 접속 대기는 5년 이상이다 [채널]",
+  "대만: 대만전력은 반도체 산업 전력 소비가 올해 약 520억kWh에서 2035년 1,100억kWh로 늘어 전체의 30%를 차지할 것으로 봤다 [채널]",
+  "기존: 오라클은 13일 FERC에 뉴멕시코 데이터센터용 하루 약 4억 입방피트 그린칠리 가스관의 신속 승인을 요청했고, 완공은 2027년 2월로 밀렸다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 전력 병목에 자가발전…AEP 구글용 연료전지 702MW, 오라클 가스관 공방 확산",
+ "id": "n-rtr-0283",
+ "incentive": "",
+ "inds": [
+  "gas",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{AI 전력 수요 증가}}가 미국 {{간선 송전선 신설}}의 {{논거}}를 {{강화}}하면서 장거리 {{송전망 투자}}가 {{늘어날}} 수 있다 (제목 기준)",
+   "t": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+   "u": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{데이터센터 업체들}}이 {{전력과 인재}}를 AI의 {{최대 병목}}으로 꼽으면서 {{전력 확보}}가 데이터센터 {{가동 속도}}를 {{좌우할}} 전망이다 (제목 기준)",
+   "t": "데이터센터 업체들 '전력과 인재가 AI 최대 병목'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/power-and-talent-biggest-ai-bottlenecks-say-data-center-firms"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "{{오라클}}이 {{FERC}}에 {{뉴멕시코 데이터센터용 가스관}}의 {{신속 승인}}을 {{요청}}하면서 {{2027년 2월로 밀린 완공}}이 데이터센터 {{가동}}을 {{늦출}} 수 있다고 경고했다",
+   "t": "오라클, 데이터센터용 가스관 신속 승인 규제당국에 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/oracle-asks-regulators-to-expedite-gas-pipeline-for-data-center"
+  },
+  {
+   "t": "데이터센터 전력 병목 장기화…가스터빈 2030년분 매진, ESS 수요 확대",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-14",
+   "u": "https://t.me/w_compass/7296",
+   "s": "GE 베르노바 가스터빈이 2030년 물량까지 매진되고 계통 접속 대기가 5년 넘게 늘면서 데이터센터 조기 가동용 ESS 수요가 커지고 있다"
+  },
+  {
+   "t": "인도, 전력 사용 우려 커지는 가운데 데이터센터 정책 내놓는다",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/india/india-roll-out-data-centre-policy-concerns-grow-over-power-use-2026-10-14/",
+   "s": "인도가 데이터센터 전력 사용 우려가 커지는 가운데 데이터센터 정책을 내놓기로 하면서 전력 수급 관리가 정책 과제로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "AI의 폭발적 전력 수요가 또 다른 물 충격을 부르고 있다",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-s-rampant-power-demand-is-delivering-another-water-shock",
+   "s": "AI의 급증한 전력 수요가 물 수급에도 충격을 주면서 데이터센터 확장의 또 다른 제약이 되고 있다 (제목 기준)"
+  },
+  {
+   "t": "AEP, 구글 공급용 블룸에너지 702MW 연료전지에 40억 달러 투자",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66238",
+   "s": "AEP가 구글과의 20년 전력 공급 계약에 따라 와이오밍에 블룸에너지 연료전지 702MW를 약 40억 달러에 지어 데이터센터에 전기를 대기로 했다"
+  },
+  {
+   "t": "AEP, 연료전지에 40억 달러 투입해 구글에 전력 공급",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/aep-to-sell-power-to-google-from-4-billion-fuel-cell-project",
+   "s": "AEP가 아마존·콜로직스용에 이어 자사 최대 규모의 블룸 연료전지 설비를 구글용으로 짓기로 해 데이터센터 현장 발전 수요가 커졌다"
+  },
+  {
+   "t": "대만 반도체 전력 소비 10년 내 두 배…2035년 전체의 30%",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-14",
+   "u": "https://t.me/HANAchina/70429",
+   "s": "대만전력이 반도체 산업 전력 소비가 2035년 1,100억kWh로 두 배 넘게 늘 것으로 보면서 기업 입지 결정에서 즉시 전력 공급 여부가 최우선이 됐다"
+  },
+  {
+   "t": "아메리칸일렉트릭파워, 구글 전력용 연료전지 사업에 40억 달러 투자",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/american-electric-power-to-invest-4-billion-fuel-cell-project-power-google-2026-10-14/",
+   "s": "AEP가 2028년 말 가동을 목표로 구글용 연료전지 사업에 40억 달러를 투자하면서 블룸에너지의 최대 1GW 공급 계약 물량이 실제 발전소로 이어지게 됐다"
+  },
+  {
+   "t": "AI 연산력 확장, 전력 병목 직면…데이터센터 자가발전 수요 급증",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-15",
+   "u": "https://t.me/w_compass/7308",
+   "s": "AI 데이터센터 전력 소비가 급증해 공공 전력망 공급이 불확실해지면서 자가발전 설비와 전력망 복원력 강화가 대형 데이터센터의 필수 수요가 됐다"
+  },
+  {
+   "t": "데이터센터 자가발전·그리드 복원력 수요 급증(디지타임스)",
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-15",
+   "u": "https://t.me/Onionfarmer/18101",
+   "s": "디지타임스는 AI 경쟁이 칩 확보에서 전력 확보 경쟁으로 옮겨 가면서 데이터센터마다 자가발전 인프라 구축 수요가 늘고 있다고 전했다"
+  },
+  {
+   "t": "오라클 천연가스관 분쟁, 12개 주가 뉴멕시코에 반기",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/12-states-push-back-on-new-mexico-in-oracle-pipeline-fight",
+   "s": "12개 주가 오라클 데이터센터용 천연가스관 분쟁에서 뉴멕시코주에 맞서면서 가스관 인허가 갈등이 주 경계를 넘어 커졌다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C023-2026-10-14",
+ "nodes": [
+  "gas/demand",
+  "gas/midstream",
+  "power/demand",
+  "power/gen",
+  "power/grid"
+ ],
+ "num": 283,
+ "one": "AEP가 구글에 20년간 전기를 팔기 위해 와이오밍에 40억 달러 규모 702MW 연료전지 발전소를 짓고 오라클 가스관 분쟁에 12개 주가 가세하면서, 계통 접속이 막힌 데이터센터의 자가발전 수요와 발전설비 병목이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/oracle-gas-pipeline-new-mexico-data-center/"
+  },
+  {
+   "o": "AEP",
+   "d": "2026-10-14",
+   "u": "https://www.aep.com/news/stories/view/12314/"
+  },
+  {
+   "o": "PR Newswire",
+   "d": "2026-10-14",
+   "u": "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html"
+  },
+  {
+   "o": "DCD",
+   "d": "2026-10-14",
+   "u": "https://www.datacenterdynamics.com/en/news/google-signs-20-year-ppa-with-aep-for-702mw-wyoming-fuel-cell-project/"
+  }
+ ],
+ "tags": [],
+ "title": "AI 전력 병목에 자가발전…AEP 구글용 연료전지 702MW, 오라클 가스관 공방 확산",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "AEP 구글용 702MW 연료전지에 40억 달러"
+  },
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "오라클 데이터센터 가스관 놓고 12개 주 공방"
+  }
+ ]
+}

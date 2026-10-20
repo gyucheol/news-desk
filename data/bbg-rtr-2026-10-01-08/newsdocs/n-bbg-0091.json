@@ -1,0 +1,45 @@
+{
+ "id": "n-bbg-0091",
+ "feed": "v5",
+ "format": "one1",
+ "num": 91,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-germany-wind-solar-division",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/german-energy-ministry-dissolves-key-wind-and-solar-division",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind",
+  "power/modules"
+ ],
+ "title": "독일 경제에너지부, 풍력·태양광 산업 전담 부서 해체…재생에너지 약화 논란",
+ "one": "독일 경제에너지부가 에너지 전환에 중요한 조직으로 꼽히던 풍력·태양광 산업 전담 부서를 없애기로 한 사실이 10월 6일 알려지면서, 재생에너지 업계를 맡을 정부 내 창구가 약해진다는 비판이 나오고 있다",
+ "headline": "독일 경제에너지부, 풍력·태양광 산업 전담 부서 해체…재생에너지 약화 논란",
+ "facts": [
+  "무엇이: 독일 경제에너지부(BMWE)가 풍력·태양광 산업을 담당하던 과(Referat)를 해체하기로 했습니다 [사실]",
+  "반응: 비판하는 쪽은 이 조치를 재생에너지의 약화로 보고 있습니다 [사실]",
+  "미확인: 해체 시점, 업무를 넘겨받을 부서, 부처가 밝힌 이유는 읽은 출처가 유료 구간이라 확인하지 못했습니다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 독일 Table.Briefings(10월 6일) 기사의 제목·요약문으로 작성. 본문이 유료라 해체 시점·이유·후속 조직은 확인 못 함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/german-energy-ministry-dissolves-key-wind-and-solar-division"
+  },
+  {
+   "o": "Table.Briefings(Climate.Table)",
+   "d": "2026-10-06",
+   "u": "https://table.media/en/climate/news/ministry-of-economic-affairs-division-for-the-wind-and-solar-energy-industry-to-be-disbanded"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "German Energy Ministry Dissolves Key Wind and Solar Division"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0309",
+ "num": 309,
+ "key": "mix-C050-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:24:00+09:00",
+ "url": "https://www.reuters.com/legal/transactional/humana-strikes-28-billion-blackrock-clinic-venture-deal-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{휴매나}} 센터웰 {{클리닉 합작}}, {{블랙록}}이 {{28억 달러}} 지분 {{인수}}…{{매입 의무}} 해소",
+ "src": [
+  {
+   "o": "휴매나 보도자료(SEC 8-K)",
+   "d": "2026-10-13",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000060/blackrockstrategicjvpressr.htm"
+  },
+  {
+   "o": "헬스케어다이브",
+   "d": "2026-10-13",
+   "u": "https://www.healthcaredive.com/news/humana-enters-28b-primary-care-joint-venture-with-blackrock/832872/"
+  },
+  {
+   "o": "피어스헬스케어",
+   "d": "2026-10-13",
+   "u": "https://www.fiercehealthcare.com/payers/humana-blackrock-strike-28b-deal-manage-centerwell-clinics"
+  }
+ ],
+ "items": [
+  {
+   "t": "휴매나, 블랙록과 28억 달러 규모 클리닉 합작 계약",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/transactional/humana-strikes-28-billion-blackrock-clinic-venture-deal-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "{{휴매나}} 센터웰 {{클리닉 합작}}, {{블랙록}}이 {{28억 달러}} 지분 {{인수}}…{{매입 의무}} 해소",
+ "one": "{{휴매나}}가 {{센터웰 클리닉 약 150곳}}의 {{기존 사모펀드 지분}} {{약 28억 달러}}어치를 {{블랙록}}이 사들이는 {{새 합작 계약}}을 맺으면서, 블랙록의 {{지분 매수 청구권}}이 {{빠져}} 휴매나의 {{부채}}와 {{자본 비용}}이 {{낮아질}} 전망이다",
+ "facts": [
+  "무엇이: 휴매나가 10월 13일 블랙록 산하 HPS인베스트먼트파트너스 펀드들과 센터웰 노인 1차진료 클리닉 약 150곳을 운영할 새 합작 계약을 맺었다 [사실]",
+  "구조: 블랙록이 기존 투자자 WCAS의 지분(약 28억 달러)을 사들여 과반을 갖고, 센터웰은 소수 지분을 유지하며 클리닉 운영을 계속한다 [사실]",
+  "재무: 기존 계약과 달리 새 계약에는 투자자가 휴매나에 지분 매입을 강제할 권리가 없어, 부채가 줄고 자본 비용이 낮아질 것이라고 휴매나는 밝혔다 [사실]",
+  "일정: 센터웰은 2028년부터 클리닉을 되살 수 있고 2033년 말까지 다 사지 못하면 블랙록이 나머지 매각을 시작할 수 있으며, 거래는 규제 승인을 거쳐 4분기에 끝날 예정이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "합작 구조(HPS 펀드, 클리닉 약 150곳, WCAS 지분 약 28억 달러, 블랙록 과반·센터웰 소수 지분), 매입 강제권 삭제, 2028년 재매입·2033년 말 매각 조항, 4분기 마무리 예정은 검색 결과 요약(휴매나 8-K 보도자료·헬스케어다이브·피어스헬스케어)으로 확인."
+}

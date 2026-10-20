@@ -1,0 +1,82 @@
+{
+ "basis": "verified",
+ "channel": "카이에 de market",
+ "check": "실적 수치와 주가 반응은 Japan Times·Capital Brief 등 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 삼성전자 3분기 잠정 영업이익 107조 4,000억 원, 국내 기업 첫 분기 100조 원 돌파 [사실]",
+  "TSMC: 3분기 매출 1조 4,900억 대만달러(467억 1,000만 달러)로 전년 대비 50% 증가, 시장 예상 상회 [사실]",
+  "주가: 10월 8일 삼성 2.4% 하락·코스피 2.6% 하락, TSMC 대만 상장주 1.35% 하락 [사실]",
+  "원인: 부채로 키운 데이터센터 투자 붐의 지속성과 2027년 이익 하향 가능성에 대한 우려, 미국 금리 20년 만의 고점 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "삼성 영업익 107조·TSMC 매출 사상 최대에도 주가 하락…AI 호황 지속성 의문",
+ "id": "n-tg-0136",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-cahier_de_market-10946",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 136,
+ "one": "삼성전자가 분기 영업이익 107조 4,000억 원, TSMC가 분기 매출 1조 4,900억 대만달러로 나란히 사상 최대 실적을 냈지만 차입에 기댄 AI 호황이 이어질지 의문이 커지면서, 삼성 주가는 2.4% 떨어지고 코스피도 2.6% 밀렸다",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T07:54:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 카이에 de market",
+   "u": "https://t.me/cahier_de_market/10946"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/2026/10/08/20261008500012"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "아주경제",
+   "u": "https://www.ajunews.com/view/20261008081035333"
+  },
+  {
+   "o": "The Japan Times",
+   "d": "2026-10-08",
+   "u": "https://www.japantimes.co.jp/business/2026/10/08/samsung-tsmc-investors/"
+  },
+  {
+   "o": "Capital Brief",
+   "d": "2026-10-08",
+   "u": "https://www.capitalbrief.com/briefing/samsung-tsmc-shares-fall-as-investors-question-debt-fuelled-ai-chip-boom-deae1f31-17ac-405c-8e5f-d97a77b0197d/"
+  }
+ ],
+ "tags": [],
+ "title": "삼성 영업익 107조·TSMC 매출 사상 최대에도 주가 하락…AI 호황 지속성 의문",
+ "url": "https://t.me/cahier_de_market/10946",
+ "items": [
+  {
+   "t": "삼성전자 3분기 영업익 107조 4,000억 원…국내 첫 분기 100조 돌파",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-08",
+   "u": "https://t.me/cahier_de_market/10946"
+  },
+  {
+   "t": "삼성 투자자들, 이익 호황이 지속된다는 증거 원해",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/samsung-investors-want-evidence-profit-boom-has-staying-power"
+  },
+  {
+   "t": "삼성·TSMC, 가파른 AI 성장에 익숙한 투자자들 만족시키지 못해",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/samsung-reaches-new-profit-record-with-memory-chip-windfall"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

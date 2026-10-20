@@ -1,0 +1,207 @@
+{
+ "basis": "partial",
+ "check": "카니-트럼프 통화와 하루 100만 배럴 경유 공급은 캐나다 총리실 발표 요약으로 확인. 골드만삭스 선거 분석·젤렌스키 발언·토탈에너지스 인하는 확인 못 함",
+ "cycles": [],
+ "dupOf": "n-tg-0101",
+ "facts": [
+  "무엇이: 카니 캐나다 총리가 10월 11일 트럼프 대통령과 통화하고 대미 석유·경유 수출을 극대화해 하루 100만 배럴이 넘는 경유를 공급하겠다고 밝혔다 [사실]",
+  "선거: 골드만삭스는 휘발유값이 갤런당 3달러에서 5달러로 오르는 동안 민주당 지지율 우위가 5%p에서 9%p로 커졌다고 분석했고, 예측시장의 민주당 상·하원 장악 확률은 65%다 [채널]",
+  "공방: 젤렌스키 대통령은 경유값 상승이 중동 전쟁과 호르무즈 해협 봉쇄 탓이라며 트럼프 대통령의 책임 전가를 비판했다 [채널]",
+  "유럽: 토탈에너지스가 경유 급등 부담을 덜기 위한 추가 가격 인하를 약속했고, 우크라이나 업계는 물류난과 국제 가격 상승으로 경유 부족을 경고했다 [제목]",
+  "기존: G7은 10월 2일 비축유 1억 배럴 방출에 합의했고 트럼프 대통령은 적색 경유의 도로 사용을 연말까지 허용했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "경유값 정치 쟁점화…캐나다 '하루 100만 배럴 경유 공급', 토탈에너지스 추가 인하",
+ "id": "n-bbg-0058",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-02",
+   "o": "블룸버그",
+   "t": "트럼프 '경유 수출 금지 안 한다'…G7 비축유 1억 배럴 방출 합의 뒤",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그",
+   "t": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "골드만 \"경유 고가 2027년까지\"…경유·항공유 크랙 40달러 넘을 전망",
+   "u": "https://t.me/HANAchina/69942"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 Polaristimes",
+   "t": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+   "u": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "북동부 민주당 의원들, 난방유 급등에 트럼프 행정부 조치 촉구",
+   "u": "https://www.reuters.com/legal/litigation/northeast-democrats-urge-trump-administration-action-heating-oil-costs-surge-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "트럼프, 중간선거 전 휘발유·디젤 가격 낮출 수 있을까",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/can-trump-lower-gas-and-diesel-prices-before-the-midterms"
+  },
+  {
+   "t": "골드만 \"휘발유값이 미국 중간선거 결정\"…민주당 양원 장악 확률 65%",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70250"
+  },
+  {
+   "t": "젤렌스키, 경유값 상승 책임 돌린 트럼프 비판 \"중동 전쟁·호르무즈 봉쇄 탓\"",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10354"
+  },
+  {
+   "t": "카니 총리, 트럼프와 통화…\"대미 석유·경유 수출 극대화, 하루 100만 배럴 이상\"",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10360"
+  },
+  {
+   "t": "우크라이나 업계 \"물류난·국제 가격 상승에 경유 부족 올 수도\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/logistics-rising-global-prices-could-create-diesel-shortage-ukraine-industry-2026-10-12/"
+  },
+  {
+   "t": "토탈에너지스, 경유 급등 고통 덜려 추가 가격 인하 약속",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/totalenergies-pledges-more-price-cuts-to-ease-diesel-surge-pain"
+  }
+ ],
+ "key": "bbg-1002-trump-no-diesel-export-ban-g7",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "macro/inflation",
+  "petchem/commodity",
+  "petchem/policy"
+ ],
+ "num": 58,
+ "one": "G7 비축유 방출과 트럼프 대통령의 연료세 대책에도 경유 고가가 이어지자 캐나다가 대미 석유·경유 수출 극대화를 약속하고 토탈에너지스가 추가 가격 인하를 내놓았으며, 골드만삭스는 휘발유값이 미국 중간선거를 좌우하고 있다고 분석했다",
+ "origTitle": "Trump Says US to Hold Off on Diesel Export Ban After G7 Release",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T00:08:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "타운홀",
+   "u": "https://townhall.com/news/cameron-arcand/2026/10/02/trump-declines-diesel-export-ban-after-european-agreement-n2684049"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Rules-Out-More-Reserve-Releases-After-G7-Pledges-100-Million-Barrels.html"
+  },
+  {
+   "d": "",
+   "o": "LBC(게시일 표시 없음)",
+   "u": "https://www.lbc.co.uk/article/trump-us-diesel-ban-g7-5HjdjMt_2/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "백악관 설명자료",
+   "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일리노이대 팜폴리시뉴스",
+   "u": "https://farmpolicynews.illinois.edu/2026/10/trump-order-allows-tax-exempt-diesel-use-on-highways/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69942"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "d": "2026-10",
+   "o": "Transport Topics",
+   "u": "https://www.ttnews.com/articles/trump-gas-tax-suspension"
+  },
+  {
+   "d": "2026-10",
+   "o": "뉴스위크",
+   "u": "https://www.newsweek.com/trump-floats-gas-tax-cut-how-much-you-could-save-12533288"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "EIA",
+   "u": "https://www.eia.gov/pressroom/releases/press593.php"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"
+  },
+  {
+   "o": "캐나다 총리실",
+   "d": "2026-10-11",
+   "u": "https://www.pm.gc.ca/en/news/readouts/2026/10/11/prime-minister-carney-speaks-president-united-states-donald-j-trump"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-11",
+   "u": "https://www.newsquawk.com/headlines/canadian-pm-carneys-office-says-carney-spoke-with-us-president-trump-and-that-canada-will-maximize-exports-of-oil-and-diesel-to-the-us-with-all-exports-to-the-us-yielding-over-1mln-barrels-of-diesel-daily"
+  }
+ ],
+ "tags": [],
+ "title": "경유값 정치 쟁점화…캐나다 '하루 100만 배럴 경유 공급', 토탈에너지스 추가 인하",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-us-to-hold-off-on-diesel-export-ban-after-g7-release"
+}

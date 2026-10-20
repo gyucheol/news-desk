@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0124",
+ "feed": "v5",
+ "format": "one1",
+ "num": 124,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69981",
+ "published": "2026-10-07T11:31:00+09:00",
+ "url": "https://t.me/HANAchina/69981",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/cb"
+ ],
+ "title": "중국 인민은행, 23개월 연속 금 매입…9월 74만 온스로 3년 만의 최대",
+ "one": "중국 인민은행이 9월 금값이 6% 넘게 떨어지는 동안 오히려 금 보유량을 74만 온스 늘려 7,747만 온스로 23개월 연속 늘리면서, 금값 약세 속에서도 중앙은행의 금 매수가 이어지고 있다",
+ "headline": "중국 인민은행, 23개월 연속 금 매입…9월 74만 온스로 3년 만의 최대",
+ "facts": [
+  "무엇이: 인민은행 금 보유량이 9월 말 7,747만 온스로 8월 말 7,673만 온스보다 늘어 23개월 연속 증가했습니다 [사실]",
+  "얼마나: 한 달 증가량 74만 온스는 2023년 9월 이후 약 3년 만의 최대 폭입니다 [사실]",
+  "가격: 9월 금값이 6% 넘게 내려 금 보유액은 3,501억 달러에서 3,235억 달러로 줄었습니다 [사실]",
+  "배경: 같은 3분기 세계 금 ETF에는 사상 최대인 310억 달러가 들어왔다고 세계금협회가 집계했습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(인민은행 발표 전재)로 들어온 소식이며, China Daily·Mining Weekly(2026-10-07) 기사의 검색 결과 요약으로 보유량, 증가 폭, 달러 환산 보유액을 확인했습니다. 금 ETF 유입은 같은 채널의 다른 글에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/69981"
+  },
+  {
+   "o": "China Daily",
+   "d": "2026-10-07",
+   "u": "https://www.chinadaily.com.cn/a/202610/07/WS6ac5de0be4b06d4aa056185b.html"
+  },
+  {
+   "o": "Mining Weekly",
+   "d": "2026-10-07",
+   "u": "https://www.miningweekly.com/article/chinas-central-bank-adds-to-gold-reserves-for-twenty-third-consecutive-month-2026-10-07"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략"
+}

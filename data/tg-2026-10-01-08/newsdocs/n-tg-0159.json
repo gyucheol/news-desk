@@ -1,0 +1,48 @@
+{
+ "id": "n-tg-0159",
+ "feed": "v5",
+ "format": "one1",
+ "num": 159,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69766",
+ "published": "2026-10-02T21:32:00+09:00",
+ "url": "https://t.me/HANAchina/69766",
+ "inds": [
+  "gas",
+  "coal"
+ ],
+ "nodes": [
+  "gas/trade",
+  "gas/demand",
+  "coal/power"
+ ],
+ "title": "JERA 가니 CEO \"카타르 LNG 곧 안 돌아온다\"…현물가 작년의 두 배",
+ "one": "세계 최대 LNG 구매자 JERA의 가니 CEO가 호르무즈 차질로 카타르 LNG가 겨울 전에 돌아오기 어렵다고 밝히면서, 이미 전년의 두 배인 LNG 현물가가 더 오를 수 있다는 우려가 커졌다",
+ "headline": "JERA 가니 CEO \"카타르 LNG 곧 안 돌아온다\"…현물가 작년의 두 배",
+ "facts": [
+  "무엇이: JERA 가니 유키오 CEO가 10월 2일 \"카타르 LNG가 곧 시장에 돌아올 것으로 보지 않는다\"고 말했습니다 [사실]",
+  "얼마나: LNG 현물가는 1년 전의 두 배이며, 유럽의 낮은 가스 재고와 1월 러시아산 LNG 수입 금지로 더 오를 수 있다고 봤습니다 [사실]",
+  "배경: 9월 카타르·UAE의 호르무즈 LNG 통과량은 전쟁 이후 최대였지만 2월보다 80% 적었습니다(Kpler) [사실]",
+  "파급: 비싼 가스 탓에 발전소들이 석탄으로 돌아서고 있다는 설명이 채널 글에 있습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(블룸버그 TV 인터뷰 전재)로 들어온 소식이며, The National(2026-10-02) 자체 기사를 검색 결과 요약으로 확인했습니다. 석탄 전환 대목은 채널 글에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-02",
+   "u": "https://t.me/HANAchina/69766"
+  },
+  {
+   "o": "The National",
+   "d": "2026-10-02",
+   "u": "https://www.thenationalnews.com/business/energy/2026/10/02/worlds-top-lng-buyer-sees-qatar-supply-disruption-persisting-into-winter/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략"
+}

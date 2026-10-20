@@ -1,0 +1,149 @@
+{
+ "basis": "partial",
+ "channel": "카이에 de market",
+ "check": "검색 결과 요약으로 코스피 하반기 22% 하락과 외국인 1,310억 달러 순유출 확인(단일 출처, 날짜 미표기), 9월 외국인 5개월 연속 순매도도 확인. 한국은행 50bp 인상 확률 70%와 원화 2년 고점은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 코스피는 하반기 22% 떨어져 주요 지수 중 최악의 성과를 냈고, 외국인은 올해 한국 주식에서 1,310억 달러를 순유출해 아시아 최대였습니다 [사실]",
+  "거래 위축: 거래대금은 5월 말 고점보다 70% 줄었고, 코스피·코스닥 월간 거래대금은 3개월 연속 감소해 시가총액 대비 11% 수준까지 낮아졌습니다 [채널]",
+  "금리: 스왑시장은 향후 6개월 한국은행 누적 50bp 인상 확률을 약 70%로 반영했고, 국채 발행 축소에 따른 채권 반등은 오래가기 어렵다는 전망이 나왔습니다 [채널]",
+  "원화: 유가 하락과 달러 매도에 원화가 2년 만의 최고로 올랐습니다 [제목]",
+  "기존: 삼성전자 3분기 잠정 영업이익 107조 4,000억 원에도 자사주 매입 마무리와 옵션 청산이 겹쳐 코스피가 반도체지수와 따로 움직였습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 열기 식은 코스피 하반기 22% 급락…외국인 이탈 속 금리 인상 베팅",
+ "id": "n-tg-0136",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "삼성 투자자들, 이익 호황이 지속된다는 증거 원해",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/samsung-investors-want-evidence-profit-boom-has-staying-power"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 카이에 de market",
+   "t": "삼성전자 3분기 영업익 107조 4,000억 원…국내 첫 분기 100조 돌파",
+   "u": "https://t.me/cahier_de_market/10946"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "삼성·TSMC, 가파른 AI 성장에 익숙한 투자자들 만족시키지 못해",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/samsung-reaches-new-profit-record-with-memory-chip-windfall"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "코스피, 이동평균선 하회하며 반도체지수와 이례적 디커플링…자사주 매입 지지 약화",
+   "u": "https://t.me/HANAchina/70080"
+  },
+  {
+   "t": "한국 국채 랠리, 금리 인상 대비하는 트레이더들에 주춤할 듯",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/korean-bond-rally-seen-faltering-as-traders-brace-for-rate-hikes"
+  },
+  {
+   "t": "AI 열기 식자 한국 증시 매수세 실종…거래량 70% 급감, 외국인 1,310억 달러 이탈",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-12",
+   "u": "https://t.me/w_compass/7249"
+  },
+  {
+   "t": "코스피·코스닥 거래대금 3개월 연속 감소…시가총액 대비 11%까지 하락",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-12",
+   "u": "https://t.me/w_compass/7250"
+  },
+  {
+   "t": "AI 후광 약화에 한국 증시, 상반기 최강에서 하반기 최약으로",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70244"
+  },
+  {
+   "t": "유가 하락과 달러 매도에 한국 원화 2년 만에 최고",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/south-korean-won-hits-two-year-high-on-lower-oil-dollar-sales"
+  },
+  {
+   "t": "트레이더들, 6개월 내 한국은행 50bp 인상 확률 70%에 베팅",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70269"
+  },
+  {
+   "t": "외국인, 한국 주식 팔고 채권은 가파르게 사는 이례적 수급",
+   "o": "텔레그램 KK Kontemporaries",
+   "d": "2026-10-12",
+   "u": "https://t.me/kkkontemp/2733"
+  }
+ ],
+ "key": "tg-cahier_de_market-10946",
+ "nodes": [
+  "macro/fx",
+  "macro/liquidity",
+  "macro/rates",
+  "macro/semis"
+ ],
+ "num": 136,
+ "one": "메모리 호황 지속성 의문에 외국인이 올해 한국 주식에서 1,310억 달러를 빼고 코스피가 하반기 22% 떨어진 가운데, 스왑시장이 6개월 안 한국은행 50bp 인상 확률을 약 70%로 반영하면서 채권 강세도 꺾일 수 있다",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T14:10:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 카이에 de market",
+   "u": "https://t.me/cahier_de_market/10946"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/2026/10/08/20261008500012"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "아주경제",
+   "u": "https://www.ajunews.com/view/20261008081035333"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Japan Times",
+   "u": "https://www.japantimes.co.jp/business/2026/10/08/samsung-tsmc-investors/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Capital Brief",
+   "u": "https://www.capitalbrief.com/briefing/samsung-tsmc-shares-fall-as-investors-question-debt-fuelled-ai-chip-boom-deae1f31-17ac-405c-8e5f-d97a77b0197d/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "AllWeather Finance",
+   "u": "https://allweatherfinance.com/south-korean-stocks-have-broken-below-a-key-moving-average-a-rare-divergence-has-occurred-with-the-philadelphia-semiconductor-index-and-buyback-support-is-also-waning/"
+  },
+  {
+   "d": "2026-10",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/6007996e-e840-48b0-82be-5c2988eaa7a8"
+  },
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-01",
+   "u": "https://en.sedaily.com/finance/2026/10/01/foreign-investors-sell-korean-stocks-for-fifth-month-as-us"
+  }
+ ],
+ "tags": [],
+ "title": "AI 열기 식은 코스피 하반기 22% 급락…외국인 이탈 속 금리 인상 베팅",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://t.me/cahier_de_market/10946"
+}

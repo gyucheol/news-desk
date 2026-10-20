@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0095",
+ "num": 95,
+ "key": "bnd-C245-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:46:00+09:00",
+ "url": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/",
+ "origTitle": "",
+ "headline": "ASML·자이스 '차세대 반도체 노광기술, 10년 뒤에나 준비될 수도'",
+ "src": [],
+ "items": [
+  {
+   "t": "ASML·자이스 '차세대 반도체 제조 기술, 10년 뒤 준비될 수도'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "ASML·자이스 '차세대 반도체 노광기술, 10년 뒤에나 준비될 수도'",
+ "one": "네덜란드 ASML과 독일 광학업체 자이스가 차세대 반도체 노광기술이 실제로 쓰일 수 있으려면 10년가량 걸릴 수 있다고 밝히면서, 칩 제조사들은 당분간 현 세대 극자외선 장비로 미세화를 이어가야 할 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: ASML과 자이스가 차세대 칩 제조 기술이 10년 뒤에야 준비될 수 있다고 밝힘 [제목]",
+  "의미: 현 세대 노광장비의 사용 기간이 길어질 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 확인 못 함. 차세대 기술의 구체 명칭 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ]
+}

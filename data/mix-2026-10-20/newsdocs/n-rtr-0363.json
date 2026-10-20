@@ -1,0 +1,101 @@
+{
+ "id": "n-rtr-0363",
+ "num": 363,
+ "key": "mix-G2-025-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:11:00+09:00",
+ "url": "https://www.reuters.com/business/german-industry-has-lost-nearly-half-million-jobs-since-2019-ifo-says-2026-10-19/",
+ "origTitle": "",
+ "headline": "독일 산업 일자리 50만 개 감소·로슈 독일 투자 보류…메르츠는 투자 부양 약속",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-19",
+   "u": "https://www.globalbankingandfinance.com/german-industry-lost-nearly-half-million-jobs-since-2019-ifo/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-19",
+   "u": "https://www.indexbox.io/blog/german-industry-sheds-nearly-500000-jobs-since-2019-as-competitive-pressure-mounts/"
+  },
+  {
+   "o": "Mezha",
+   "d": "2026-10-20",
+   "u": "https://mezha.net/eng/news/mezha-b72faa744f385e7f846d6829_roche_puts_future"
+  }
+ ],
+ "items": [
+  {
+   "t": "ifo '독일 산업, 2019년 이후 일자리 50만 개 가까이 잃어'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/german-industry-has-lost-nearly-half-million-jobs-since-2019-ifo-says-2026-10-19/",
+   "s": "ifo가 독일 산업 일자리가 2019년 이후 약 49만 6,000개 줄었다고 집계하면서, 자동차·금속·기계 중심의 제조업 경쟁력 약화가 수치로 드러났다"
+  },
+  {
+   "t": "메르츠, 독일 경제 체력 활용해 투자 되살리겠다고 약속",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/merz-vows-to-tap-german-economic-strength-to-revive-investments",
+   "s": "메르츠 총리가 독일 경제의 강점을 동원해 투자를 되살리겠다고 약속하면서, 부진한 민간·공공 투자를 끌어올릴 정책이 뒤따를 수 있다 (제목 기준)"
+  },
+  {
+   "t": "로슈, 독일에서의 향후 투자 결정을 보류로 돌려",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/roche-moves-future-germany-investments-on-hold-2026-10-19/",
+   "s": "로슈가 건강보험 비용 억제 정책으로 신뢰가 무너졌다며 향후 독일 투자 결정을 보류하면서, 일라이 릴리에 이어 제약사의 독일 투자 축소가 이어졌다"
+  },
+  {
+   "t": "독일, 2035년까지 조 단위 투자 잠재력 추산",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/finance/germany-sees-up-46-trillion-investment-potential-by-2035-2026-10-19/",
+   "s": "독일 정부가 2035년까지 조 단위 투자 잠재력이 있다고 보면서, 투자 부양 정책의 근거로 삼을 전망이다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "pharma",
+  "industrial"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "독일 산업 일자리 50만 개 감소·로슈 독일 투자 보류…메르츠는 투자 부양 약속",
+ "one": "독일 산업 일자리가 2019년 이후 약 49만 6,000개 줄고 로슈가 정책 신뢰 훼손을 이유로 향후 독일 투자 결정을 보류한 가운데 메르츠 총리가 경제 체력을 동원해 투자를 되살리겠다고 약속하면서, 독일 제조업 공동화가 정책 시험대에 올랐다",
+ "facts": [
+  "무엇이: ifo 연구로 독일 산업 일자리는 2019년부터 2025년 말까지 약 49만 6,000개(7.1%) 줄었고, 자동차·부품 12만 3,500개, 금속제품 11만 5,600개, 기계 6만 4,500개가 감소분의 약 60%를 차지했다 [사실]",
+  "서비스: 같은 기간 서비스업 일자리는 보건·사회서비스와 공공행정을 중심으로 220만 개 넘게 늘었다 [사실]",
+  "로슈: 로슈 독일 대표는 정책 당국이 제약업계의 신뢰를 크게 무너뜨렸다며 향후 독일 투자 결정을 보류했고, 펜츠베르크 공장 6억 유로 넘는 확장 등 이미 계획된 투자는 영향받지 않는다고 했다 [사실]",
+  "정책: 메르츠 총리는 독일 경제의 강점을 활용해 투자를 되살리겠다고 약속했고, 독일은 2035년까지 조 단위 투자 잠재력이 있다고 봤다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "ifo의 산업 일자리 감소 규모·업종별 내역, 로슈의 독일 투자 결정 보류와 예외를 검색 결과 요약으로 확인. 메르츠 투자 부양 약속과 2035년 투자 잠재력(제목 수치의 단위 불명확)은 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "독일 산업 일자리 2019년 이후 49만 6,000개 감소"
+  },
+  {
+   "ind": "pharma",
+   "node": "production",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "로슈, 향후 독일 투자 결정 보류"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

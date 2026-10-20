@@ -1,0 +1,153 @@
+{
+ "added": "이번 블룸버그·로이터 2건으로 뉴욕연은 서비스업 조사의 판매가격 지수 4년 최고와 업황 지수 급락, 유가 충격 전이로 연준 정책 판단이 어려워진다는 분석이 추가됐다",
+ "basis": "verified",
+ "check": "뉴욕연은 서비스업 조사 수치는 검색 결과 요약으로 확인(연준 공식 페이지는 열지 않음). 유가 충격과 연준 정책 판단 분석은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 뉴욕연은 10월 기업 리더 조사(서비스업)에서 판매가격 지수는 3포인트 오른 36.3으로 4년 만의 최고였고, 구매가격 지수는 70.0 안팎을 유지했다 [사실]",
+  "경기: 업황 지수는 12포인트 떨어진 -20.7로 3월 이후 최저였고, 고용은 보합, 경기 여건 지수는 -35.0이었다 [사실]",
+  "베이지북: 연준은 14일 베이지북에서 모든 지역에 유가 상승 영향이 나타나고 기업들이 경유 유류할증료를 공급망 전반에 넘기고 있다고 밝혔다 [사실]",
+  "진단: 유가 충격이 경제 전반으로 번지면서 연준의 일이 더 어려워질 것이라는 분석이 나왔다 [제목]",
+  "시장: 10월 27~28일 FOMC의 금리 인상 확률은 보도 시점에 따라 37~44%로 전해졌다 [사실]"
+ ],
+ "fed": [
+  {
+   "d": "2026-10-15",
+   "k": "",
+   "kind": "조사·보고서",
+   "role": "연방준비제도",
+   "stance": "",
+   "t": "베이지북에서 12개 지역 모두 유가 상승 영향과 4개 지역 물가 가속을 보고했다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-beige-book-shows-intensifying-price-growth-in-some-areas",
+   "who": "연준"
+  },
+  {
+   "k": "",
+   "who": "연준",
+   "role": "유가 충격 경제 전이 분석",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "유가 충격이 경제 전반으로 번지며 연준의 정책 판단이 더 어려워진다는 분석이 나왔다",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/energy-shock-filtering-through-us-economy-complicates-fed-s-job"
+  },
+  {
+   "k": "",
+   "who": "뉴욕연은",
+   "role": "서비스업 기업 리더 조사",
+   "kind": "조사·보고서",
+   "stance": "",
+   "t": "서비스업 판매가격 지수가 36.3으로 4년 만의 최고를 기록했다",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "뉴욕연은 \"서비스업 판매가격 4년 최고\"…유가 충격 번지며 연준 셈법 복잡",
+ "id": "n-bbg-0312",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "연준 베이지북이 3개 지역은 물가 상승이 강하고 4개 지역은 속도가 빨라졌다고 보고하면서, 일부 지역의 물가 압력이 커졌다",
+   "t": "연준 베이지북, 일부 지역에서 물가 상승세 심화",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-beige-book-shows-intensifying-price-growth-in-some-areas"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "연준 조사에서 높은 경유값과 유류할증료가 공급망 전반으로 전가되면서, 기업들이 앞으로 가격이 더 오를 것으로 내다봤다",
+   "t": "연준 조사, 연료비 상승 속에 물가 압력 심화",
+   "u": "https://www.reuters.com/business/fed-survey-shows-price-pressures-intensifying-amid-rise-fuel-costs-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "베이지북이 절반가량 지역에서 물가 압력이 강하거나 심해졌다고 전하면서, 기업들이 가격 인상과 이익률 압박에 동시에 맞닥뜨렸다",
+   "t": "베이지북, 유가 급격한 충격 경고…절반 지역 물가 압력 강화",
+   "u": "https://t.me/HANAchina/70436"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 부의 나침반",
+   "s": "베이지북이 모든 지역에서 유가 상승 영향을 확인한 가운데 미국 경유 평균 소매가가 갤런당 6.5달러를 넘어 사상 최고를 기록해 물류비 부담이 커졌다",
+   "t": "베이지북 \"美 전역 유가 상승…경유값 공급망 비용 전가\"",
+   "u": "https://t.me/w_compass/7330"
+  },
+  {
+   "t": "유가 충격 경제 전반으로 번지며 연준 일 더 어려워져",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/energy-shock-filtering-through-us-economy-complicates-fed-s-job",
+   "s": "유가 충격이 미국 경제 전반으로 번지면서, 물가와 경기를 함께 살펴야 하는 연준의 금리 판단이 더 어려워지고 있다 (제목 기준)"
+  },
+  {
+   "t": "뉴욕연은 서비스업 조사, 뚜렷한 가격 압력 확인",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/",
+   "s": "뉴욕연은 서비스업 조사에서 판매가격 지수가 36.3으로 4년 만의 최고로 오르고 업황 지수는 -20.7로 떨어지면서, 서비스 물가 압력과 경기 둔화가 함께 드러났다"
+  }
+ ],
+ "key": "mix-G1-028-2026-10-15",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "num": 312,
+ "one": "연준 베이지북이 전 지역의 유가 상승 영향을 전한 데 이어 뉴욕연은 서비스업 조사에서 판매가격 지수가 36.3으로 4년 만의 최고로 오르고 업황 지수는 -20.7로 떨어지면서, 10월 말 FOMC의 금리 판단이 더 어려워질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T23:39:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "연준 이사회 베이지북 요약",
+   "u": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/77bebbc7-01ab-4847-802d-62928c39c2e7"
+  },
+  {
+   "o": "뉴욕연은 Business Leaders Survey",
+   "d": "2026-10-16",
+   "u": "https://www.newyorkfed.org/survey/business_leaders/bls_overview"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-16",
+   "u": "https://www.indexbox.io/blog/ny-fed-survey-service-sector-leaders-report-pricing-difficulties-and-pessimistic-october-outlook/"
+  }
+ ],
+ "tags": [],
+ "title": "뉴욕연은 \"서비스업 판매가격 4년 최고\"…유가 충격 번지며 연준 셈법 복잡",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-beige-book-shows-intensifying-price-growth-in-some-areas",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "유가 충격 물가 전이로 금리 인상 압력"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "뉴욕연은 서비스업 판매가격 지수 4년 최고"
+  }
+ ]
+}

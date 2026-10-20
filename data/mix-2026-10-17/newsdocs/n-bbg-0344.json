@@ -1,0 +1,91 @@
+{
+ "id": "n-bbg-0344",
+ "num": 344,
+ "key": "mix-G1-032-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T00:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/uk-watchdog-proposes-tougher-scrutiny-of-microsoft-software",
+ "origTitle": "",
+ "headline": "英 CMA, MS 업무용 SW에 전략적 시장지위 지정 제안…클라우드는 자율 개선 택해",
+ "src": [
+  {
+   "o": "Wired-Gov(CMA 보도자료)",
+   "d": "2026-10-16",
+   "u": "https://wired-gov.net/wg/news.nsf/articles/CMA+takes+first+steps+to+ensure+choice+in+business+software+16102026162000?open="
+  },
+  {
+   "o": "Tech Policy Press",
+   "d": "2026-10-16",
+   "u": "https://www.techpolicy.press/uk-cloud-regulator-opts-for-voluntary-commitments-launches-microsoft-investigation/"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-16",
+   "u": "https://thenextweb.com/news/cma-aws-microsoft-cloud-switching-barriers"
+  }
+ ],
+ "items": [
+  {
+   "t": "英 규제당국, MS 소프트웨어에 대한 감독 강화 제안",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/uk-watchdog-proposes-tougher-scrutiny-of-microsoft-software",
+   "s": "영국 CMA가 마이크로소프트 업무용 소프트웨어를 전략적 시장지위로 지정하자고 제안하면서, 윈도·오피스 라이선스 관행에 더 강한 감독이 붙을 전망이다"
+  },
+  {
+   "t": "英 경쟁당국, MS의 업무용 소프트웨어 장악력 겨냥",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/uk-competition-regulator-targets-microsofts-business-software-grip-2026-10-16/",
+   "s": "CMA가 경쟁 클라우드 업체에 대한 MS의 라이선스 방식과 코파일럿 외 AI 도구 선택권을 먼저 살피기로 하면서, MS 업무용 소프트웨어 판매 방식에 제약이 생길 수 있다"
+  },
+  {
+   "t": "英 경쟁당국 'AWS·MS, 클라우드 장벽 해소에 더 나설 수 있어'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/legal/litigation/aws-microsoft-can-do-more-address-cloud-services-barriers-uk-competition-2026-10-16/",
+   "s": "CMA가 AWS·MS에 클라우드 전환 장벽을 더 낮추라고 하면서, 두 회사가 데이터 반출 수수료 인하와 상호운용성 개선을 약속하고 6개월 뒤 점검을 받는다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "英 CMA, MS 업무용 SW에 전략적 시장지위 지정 제안…클라우드는 자율 개선 택해",
+ "one": "영국 경쟁시장청(CMA)이 마이크로소프트의 윈도·오피스 등 업무용 소프트웨어에 전략적 시장지위 지정을 제안하고 클라우드는 AWS·MS의 자율 개선 약속을 택하면서, MS의 경쟁 클라우드 대상 라이선스 조건과 데이터 반출 수수료가 손질될 전망이다",
+ "facts": [
+  "무엇이: CMA는 10월 16일 마이크로소프트의 업무용 소프트웨어 생태계를 전략적 시장지위(SMS)로 지정하자고 제안하고 의견 수렴에 들어갔으며, 지정이 위법 행위를 뜻하지는 않는다고 했다 [사실]",
+  "범위: 윈도·오피스·보안·서버 소프트웨어·데이터베이스가 대상이고 영국 기업·공공기관 100만 곳 이상이 쓰며, 초기 초점은 경쟁 클라우드 업체에 대한 라이선스와 코파일럿 외 AI 도구 선택권이다 [사실]",
+  "클라우드: AWS와 마이크로소프트는 데이터 반출(이그레스) 수수료를 없애거나 줄이고 멀티클라우드 상호운용성을 높이기로 했고, CMA 이사회는 6개월 뒤 진척을 점검한다 [사실]",
+  "반응: 마이크로소프트는 업무용 소프트웨어 제안에 동의하지 않는다면서도 클라우드 지정이 필요 없다는 판단은 반겼다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CMA의 SMS 지정 제안, 대상 제품, 클라우드 자율 개선과 6개월 점검은 검색 결과 요약으로 확인",
+ "added": "이번 로이터 2건으로 CMA가 MS의 업무용 소프트웨어 장악력을 겨냥하고 AWS·MS에 클라우드 전환 장벽을 더 낮추라고 요구한 내용이 추가됐다",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "CMA, MS의 경쟁 클라우드 대상 라이선스 손질 추진"
+  },
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "AWS·MS 데이터 반출 수수료 폐지·인하 약속"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

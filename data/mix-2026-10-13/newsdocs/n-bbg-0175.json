@@ -1,0 +1,70 @@
+{
+ "basis": "verified",
+ "check": "단전 시작일, 1만 410·1만 1천 고객, 12일 약 1만 고객 단전은 PG&E 발표와 지역 보도 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: PG&E가 10월 9일 금요일부터 공공안전 단전을 시작해 10월 11일 콜루사·글렌·섀스타·테하마·욜로 카운티 일부 약 1만 410 고객으로 범위를 넓혔습니다 [사실]",
+  "규모: 11일 늦게는 9개 카운티 일부 약 1만 1천 고객이 단전 상태였고, 12일에도 섀스타·테하마·글렌에서 약 1만 고객이 전기가 끊겨 있었습니다 [사실]",
+  "복구: 남부·센트럴밸리 일부 고객은 10일 복구됐고, 나머지는 기상 호전 뒤 설비 점검을 거쳐 복구됩니다 [사실]",
+  "기존: PG&E는 10월 8일 약 1만 2,200 고객, 17개 카운티 일부에 단전 가능성을 통보했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "PG&E, 산불 위험에 예방 단전 실행…캘리포니아 북부 약 1만 가구 전력 끊겨",
+ "id": "n-bbg-0175",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "PG&E, 강풍 속 주말 단전 가능성 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather"
+  },
+  {
+   "t": "PG&E, 캘리포니아 산불 위험 커지자 예방 단전 시작",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/pg-e-begins-preemptive-power-cuts-as-california-fire-risk-rises"
+  }
+ ],
+ "key": "bnd-C159-2026-10-09",
+ "nodes": [
+  "power/grid"
+ ],
+ "num": 175,
+ "one": "캘리포니아 최대 전력회사 PG&E가 건조한 강풍으로 산불 위험이 커지자 예고했던 공공안전 단전을 실제로 시행하면서, 주말 사이 북부 여러 카운티의 약 1만~1만 1천 고객이 전기를 쓰지 못하고 월요일에도 복구가 늦어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T05:12:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Insurance Journal",
+   "u": "https://www.insurancejournal.com/news/west/2026/10/09/888527.htm"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "ABC10",
+   "u": "https://www.abc10.com/article/news/local/california/potential-pge-power-shutoffs-could-affect-17-california-counties/103-28018f82-95ec-429e-b2f3-830a7de80690"
+  },
+  {
+   "o": "PG&E",
+   "d": "2026-10-11",
+   "u": "https://www.pge.com/en/newsroom/currents/safety/potential-public-safety-power-shutoff-could-impact-small-portion.html"
+  },
+  {
+   "o": "KRCR",
+   "d": "2026-10-12",
+   "u": "https://krcrtv.com/news/local/pge-confirms-wind-driven-shutoffs-nearly-10000-northstate-customers-affected-monday"
+  }
+ ],
+ "tags": [],
+ "title": "PG&E, 산불 위험에 예방 단전 실행…캘리포니아 북부 약 1만 가구 전력 끊겨",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

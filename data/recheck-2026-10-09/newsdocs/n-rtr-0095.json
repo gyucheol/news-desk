@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 테크진·더스타 등이 하이퍼 NA 명칭, 약 10년 일정, 생산 미결정, 초점 심도 문제를 전함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: ASML과 자이스 엔지니어들이 학술 논문에서 차세대 노광기술 '하이퍼 NA'가 약 10년 뒤 준비될 수 있다고 추정했다 [사실]",
+  "상태: ASML은 개발에 착수했지만 실제 장비 생산은 결정하지 않았다 [사실]",
+  "과제: 초점 심도가 약 절반으로 줄어 초점 제어와 더 얇은 감광제가 필요하다 [사실]",
+  "의미: 현 세대 하이 NA 장비의 사용 기간이 길어질 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ASML·자이스 '차세대 반도체 노광기술 하이퍼 NA, 10년 뒤에나 준비될 수도'",
+ "id": "n-rtr-0095",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "ASML·자이스 '차세대 반도체 제조 기술, 10년 뒤 준비될 수도'",
+   "u": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C245-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 95,
+ "one": "ASML과 자이스 엔지니어들이 논문에서 하이 NA 극자외선 장비의 후속인 하이퍼 NA가 약 10년 뒤 준비될 수 있다고 밝히면서, 칩 제조사들은 당분간 현 세대 극자외선 장비로 미세화를 이어가야 할 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:46:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Techzine",
+   "d": "2026-10-08",
+   "u": "https://www.techzine.eu/news/infrastructure/144861/asml-next-generation-chip-machine-hyper-na-in-ten-years/"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-08",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/08/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-in-10-years"
+  }
+ ],
+ "tags": [],
+ "title": "ASML·자이스 '차세대 반도체 노광기술 하이퍼 NA, 10년 뒤에나 준비될 수도'",
+ "url": "https://www.reuters.com/business/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years-2026-10-08/"
+}

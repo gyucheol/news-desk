@@ -1,0 +1,54 @@
+{
+ "id": "n-tg-0143",
+ "feed": "v5",
+ "format": "one1",
+ "num": 143,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69722",
+ "published": "2026-10-01T17:16:00+09:00",
+ "url": "https://t.me/HANAchina/69722",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/gen",
+  "gas/demand"
+ ],
+ "title": "JERA·델·아폴로, 5년간 AI 데이터센터 3~4GW에 1,400억 달러 구상",
+ "one": "JERA가 델·아폴로와 지바 400MW 데이터센터에 이어 5년 안에 가스발전을 붙인 AI 데이터센터 3~4GW를 짓겠다고 밝히면서, 투자 규모가 약 1,400억 달러에 이르고 일본 LNG 발전 수요가 늘 수 있다",
+ "headline": "JERA·델·아폴로, 5년간 AI 데이터센터 3~4GW에 1,400억 달러 구상",
+ "facts": [
+  "무엇이: JERA 가니 CEO는 5년 안에 가스발전과 함께 3~4GW 규모 AI 데이터센터를 짓겠다고 밝혔습니다 [사실]",
+  "얼마나: 1GW당 350억~450억 달러로 잡아 전체 약 1,400억 달러로 추산됩니다. 채널 글의 3,500억~4,500억 달러는 단위 오기로 보입니다 [사실]",
+  "배경: 첫 사업은 지바 화력발전소 옆 400MW·150억 달러 규모로 아폴로가 자금을 대고 전력망에 연결하지 않습니다 [사실]",
+  "연료: 가니 CEO는 연 3,500만 톤의 LNG 거래량으로 발전소 연료를 댈 수 있다고 설명했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(FT 보도를 중국 매체가 옮긴 것)로 들어온 소식이며, TechRadar·The Next Web 자체 기사를 검색 결과 요약으로 확인했습니다. 지바 400MW 사업은 n-rtr-0003에서 다뤘고 3~4GW·1,400억 달러가 새 사실입니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-01",
+   "u": "https://t.me/HANAchina/69722"
+  },
+  {
+   "o": "TechRadar",
+   "d": "2026-10",
+   "u": "https://www.techradar.com/pro/the-keyword-is-speed-to-power-dell-apollo-and-jera-launch-a-usd140b-plan-to-build-up-to-4gw-of-ai-data-centers-across-japan-and-asia"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10",
+   "u": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략",
+ "dupOf": "n-rtr-0003"
+}

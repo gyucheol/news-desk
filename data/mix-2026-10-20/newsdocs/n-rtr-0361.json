@@ -1,0 +1,85 @@
+{
+ "id": "n-rtr-0361",
+ "num": 361,
+ "key": "mix-G1-031-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T00:44:00+09:00",
+ "url": "https://www.reuters.com/business/world-at-work/vw-plans-freeze-salaries-until-2030-works-council-says-2026-10-19/",
+ "origTitle": "",
+ "headline": "완성차 노사 충돌…폭스바겐 2030년까지 임금 동결 추진, 스텔란티스 캐나다 파업 가결",
+ "src": [
+  {
+   "o": "heise online",
+   "d": "2026-10-19",
+   "u": "https://www.heise.de/en/news/Volkswagen-Internal-guidelines-reportedly-call-for-pay-freeze-through-2030-11492445.html"
+  },
+  {
+   "o": "Electric Vehicles",
+   "d": "2026-10-19",
+   "u": "https://eletric-vehicles.com/vw-group/vw-group-plans-pay-freeze-for-660000-staff-through-2030-union-says/"
+  }
+ ],
+ "items": [
+  {
+   "t": "노사협의회 '폭스바겐, 2030년까지 임금 동결 계획'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/world-at-work/vw-plans-freeze-salaries-until-2030-works-council-says-2026-10-19/",
+   "s": "폭스바겐 노사협의회가 회사가 2030년까지 임금을 동결하려 한다고 밝히면서 전 세계 66만 명 넘는 직원의 임금이 노사 쟁점으로 떠올랐다"
+  },
+  {
+   "t": "폭스바겐, 노조 협상 시작과 함께 임금 동결 압박",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/volkswagen-pushes-for-pay-freeze-as-union-talks-get-underway",
+   "s": "폭스바겐이 노조와 임금 협상을 시작하면서 동결을 요구해 5% 인상을 요구하는 IG메탈과 정면으로 맞서게 됐다"
+  },
+  {
+   "t": "스텔란티스 캐나다 노조, 파업 찬성 가결…생산 차질 우려",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/stellantis-canada-union-votes-in-favor-of-strike-action",
+   "s": "스텔란티스 캐나다 노조원 97.3%가 파업권을 승인하면서 윈저 등 캐나다 공장의 생산 차질 위험이 커졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "완성차 노사 충돌…폭스바겐 2030년까지 임금 동결 추진, 스텔란티스 캐나다 파업 가결",
+ "one": "폭스바겐이 전 세계 66만 명 넘는 직원의 임금을 2030년까지 2026년 수준에 묶는 방안을 추진하고 스텔란티스 캐나다 노조가 97.3% 찬성으로 파업권을 승인하면서, 유럽·북미 완성차 공장의 노사 갈등과 생산 차질 위험이 커지고 있다",
+ "facts": [
+  "무엇이: 폭스바겐 노사협의회는 이사회가 전 세계 인사 책임자들에게 2030년까지 임금을 2026년 수준으로 유지하도록 지시했다고 밝혔고, IG메탈은 66만 명 넘는 직원이 영향을 받는다고 했다 [사실]",
+  "협상: IG메탈은 5% 인상을 요구하고 있고, 폭스바겐은 대부분의 단체협약을 2026년 12월 31일자로 해지 통보해 1월 1일부터 파업 가능성이 거론된다 [사실]",
+  "캐나다: 스텔란티스 캐나다 공장의 유니포 노조원 9,000여 명을 대상으로 한 투표에서 97.3%가 파업권을 승인했지만, 아직 합법 파업 요건은 갖추지 않았다 [사실]",
+  "쟁점: 협상은 장갑차 업체 로셸이 토론토 인근 유휴 공장 인수 각서를 맺으면서 멈췄고, 스텔란티스는 윈저 조립공장 생산을 11월 2일 주까지 3주간 취소했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "폭스바겐 임금 동결 지시·66만 명·IG메탈 5% 요구와 스텔란티스 캐나다 97.3% 파업 찬성은 검색 결과 요약으로 확인. 폭스바겐은 추측에 논평하지 않는다는 입장",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "스텔란티스 캐나다 노조 파업 가결로 생산 차질 우려"
+  },
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "폭스바겐 2030년까지 임금 동결 추진"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

@@ -1,0 +1,83 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 마이닝위클리·MINING.COM 전재와 HDFC Sky 등이 최대 1,500만 톤 구매 협의, 재고 1,800만→550만 톤, 191곳 중 약 90곳 위험 수준을 전함.",
+ "cycles": [],
+ "dupOf": "n-bbg-0007",
+ "facts": [
+  "무엇이: 인도 최대 발전사 NTPC가 민간 업체와 최대 1,500만 톤의 석탄 구매를 협의 중이라고 소식통이 전했다 [사실]",
+  "기존: 석탄발전소 191곳 중 약 90곳(약 47%)의 재고가 위험 수준이다 [사실]",
+  "NTPC 재고: 발전소 석탄 재고가 4월 1,800만 톤에서 550만 톤으로 줄었다 [사실]",
+  "영향: 수력·풍력이 부진한 저녁 시간대 정전 위험이 커지고 있다 [사실]",
+  "남은 점: 수입탄 비중과 구매 단가는 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 석탄발전 재고 '위험 수준'…최대 발전사 NTPC, 민간 석탄 구매 확대",
+ "id": "n-bbg-0094",
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "인도 석탄발전소 절반 가까이 재고 '위험 수준'…정전 위험 커져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "인도 최대 발전사, 민간 석탄 구매 확대 계획",
+   "u": "https://www.reuters.com/business/energy/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-06/"
+  }
+ ],
+ "key": "bbg-1007-india-coal-reserves-blackout",
+ "nodes": [
+  "coal/power",
+  "coal/thermal"
+ ],
+ "num": 94,
+ "one": "인도 석탄발전소 191곳 중 절반 가까이의 재고가 위험 수준으로 떨어지자 최대 발전사 NTPC가 민간 상업 광산에서 최대 1,500만 톤의 석탄을 사들이려 하면서, 민간 석탄 공급처로 수요가 옮겨가고 있다",
+ "origTitle": "Indian Power Plants’ Depleted Coal Reserves Raise Blackout Risk",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T01:08:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Briefs(블룸버그·계통운영기관 자료 인용)",
+   "u": "https://www.briefs.co/news/india-s-power-shortfall-deepens-as-wind-slows-and-reservoirs/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "컨스트럭션월드",
+   "u": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/indias-peak-power-demand-eases-as-coal-stocks-stay-critical/98041"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "디스커버리얼러트",
+   "u": "https://discoveryalert.com/analysis/india-power-crunch-2026-grid-timing/"
+  },
+  {
+   "o": "Mining Weekly",
+   "d": "2026-10-07",
+   "u": "https://www.miningweekly.com/article/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-07"
+  },
+  {
+   "o": "HDFC Sky",
+   "d": "2026-10-07",
+   "u": "https://hdfcsky.com/news/ntpc-to-buy-10-15-mt-coal-from-commercial-miners-in-fy27"
+  }
+ ],
+ "tags": [],
+ "title": "인도 석탄발전 재고 '위험 수준'…최대 발전사 NTPC, 민간 석탄 구매 확대",
+ "updatedAt": "2026-10-09T15:22:03+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+}

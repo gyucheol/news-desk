@@ -1,0 +1,51 @@
+{
+  "basis": "verified",
+  "check": "법원 판단 내용과 범위는 검색 결과 요약으로 확인",
+  "cycles": [],
+  "facts": [
+    "무엇이: 암스테르담 항소법원 기업회의소가 10월 10일 필립스의 레스피로닉스 리콜 처리에 대한 주주들의 조사 요청을 기각했습니다 [사실]",
+    "판단: 필립스가 경고 훨씬 전에 문제를 알았다는 정황이 없고, 경영진이 더 일찍 개입했어야 한다고 볼 이유도 없다고 봤습니다 [사실]",
+    "한계: 이번 판단은 조사 개시 근거만 다뤘고 투자자 손해배상 여부는 정하지 않았습니다 [사실]",
+    "배경: 리콜로 필립스 주가는 약 3분의 2가 빠졌고, 프랑스 검찰 수사는 계속되고 있습니다 [사실]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "필립스, {{리콜 관련 주주 소송}}서 네덜란드 법원 승소",
+  "id": "n-rtr-0269",
+  "incentive": "",
+  "inds": [
+    "pharma"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-10",
+      "o": "로이터",
+      "t": "필립스, 리콜 둘러싼 주주들과의 네덜란드 법정 다툼에서 승소",
+      "u": "https://www.reuters.com/legal/litigation/philips-wins-dutch-court-battle-with-shareholders-over-recall-2026-10-10/"
+    }
+  ],
+  "key": "mix-C142-2026-10-13",
+  "nodes": [],
+  "num": 269,
+  "one": "{{네덜란드 암스테르담 항소법원 기업회의소}}가 {{필립스가 호흡기 리콜 문제를 미리 알았다는 정황}}이 없다며 {{주주들의 경영 조사 요청}}을 {{기각}}하면서, 필립스가 {{지배구조 조사 부담}}을 {{덜게 됐}}다",
+  "origTitle": "",
+  "processed": "2026-10-13",
+  "published": "2026-10-10T21:39:00+09:00",
+  "source": "로이터",
+  "src": [
+    {
+      "d": "2026-10-10",
+      "o": "Tekedia",
+      "u": "https://www.tekedia.com/dutch-court-rejects-shareholders-bid-to-investigate-philips-over-sleep-apnea-device-recall/"
+    },
+    {
+      "d": "2026-10-11",
+      "o": "Express Tribune",
+      "u": "https://tribune.com.pk/story/2634136/philips-wins-court-battle-over-devices-recall"
+    }
+  ],
+  "tags": [],
+  "title": "{{필립스}}, 리콜 관련 주주 소송서 {{네덜란드 법원 승소}}",
+  "url": "https://www.reuters.com/legal/litigation/philips-wins-dutch-court-battle-with-shareholders-over-recall-2026-10-10/"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0099",
+ "num": 99,
+ "key": "bnd-C249-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:01:00+09:00",
+ "url": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/",
+ "origTitle": "",
+ "headline": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+ "src": [],
+ "items": [
+  {
+   "t": "엔비디아 투자 받은 업스케일 AI, 경쟁 공급사 칩 잇는 플랫폼 출시",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "엔비디아 투자 받은 업스케일 AI, 경쟁사 칩끼리 잇는 연결 플랫폼 출시",
+ "one": "엔비디아가 투자한 스타트업 업스케일 AI가 서로 다른 공급업체의 AI 칩을 하나로 연결하는 플랫폼을 내놓으면서, 데이터센터 운영사가 특정 업체 칩에 묶이지 않고 여러 회사 칩을 섞어 쓸 길이 넓어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 엔비디아가 투자한 업스케일 AI가 경쟁 공급업체 칩들을 연결하는 플랫폼 출시 [제목]",
+  "의미: 칩 공급업체 간 상호 연결 선택지가 늘어날 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 독립 출처 확인 못 함. 제품명·출시 세부·투자 규모 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ]
+}

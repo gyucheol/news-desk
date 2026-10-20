@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0360",
+ "num": 360,
+ "key": "mix-G1-043-2026-10-18",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T19:59:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-2026-10-18/",
+ "origTitle": "",
+ "headline": "액센츄어, 중국 사업 최대 15억 달러에 매각 검토…JP모건 고용",
+ "src": [
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-18",
+   "u": "https://www.whalesbook.com/news/Hinglish/technology/Accenture-Reportedly-Weighs-dollar15-Billion-Sale-of-China-Unit/6ad4aa6979a16deaeaf5cff9"
+  },
+  {
+   "o": "Mezha",
+   "d": "2026-10-18",
+   "u": "https://mezha.net/eng/news/mezha-3e942c98c823a92a390361fb_accenture_weighs_sale"
+  }
+ ],
+ "items": [
+  {
+   "t": "액센츄어, 중국 사업 최대 15억 달러에 매각 추진…FT 보도",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/asia-pacific/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-2026-10-18/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "액센츄어, 중국 사업 최대 15억 달러에 매각 검토…JP모건 고용",
+ "one": "액센츄어가 원치 않은 인수 문의를 받은 뒤 JP모건을 고용해 중국 사업을 최대 15억 달러에 파는 방안을 검토하면서, 사모펀드와 소수 전략적 인수자 사이에 인수전이 벌어질 전망이다",
+ "facts": [
+  "무엇이: FT 보도에 따르면 액센츄어는 중국 사업을 최대 15억 달러에 매각하는 방안을 찾고 있다 [사실]",
+  "경과: 액센츄어는 지난 1년간 원치 않은 인수 문의를 받은 뒤 JP모건을 고용해 중국 사업 전략 검토에 나섰다 [사실]",
+  "구조: 매각에는 사모펀드와 소수의 전략적 인수자가 관심을 보일 것으로 보이며, 액센츄어가 상당한 소수 지분을 남길 수 있다 [사실]",
+  "범위: 액센츄어의 중화권 사업은 대만·홍콩·중국 본토를 포함한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 FT 보도 내용(최대 15억 달러, JP모건 전략 검토, 소수 지분 유지 가능) 확인. 액센츄어·JP모건은 논평하지 않음",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "액센츄어 중국 사업 최대 15억 달러 매각 검토"
+  }
+ ]
+}

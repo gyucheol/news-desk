@@ -1,0 +1,111 @@
+{
+ "id": "n-bbg-0313",
+ "num": 313,
+ "key": "mix-G1-029-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:38:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+ "origTitle": "",
+ "headline": "호주 9월 일자리 3만 9,300개 감소·실업률 4.7%…RBA 인상 베팅 후퇴",
+ "src": [
+  {
+   "o": "호주 통계청(ABS)",
+   "d": "2026-10-15",
+   "u": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-15",
+   "u": "https://www.abc.net.au/news/2026-10-15/unemployment-rate-september-2026-australia/107268870"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-15",
+   "u": "https://investinglive.com/central-banks/aud-lower-australian-jobs-fall-39-300-in-september-unemployment-at-five-year-high-of-4-7/"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 실업률 상승에 시장, RBA 금리 인상 베팅 축소",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+   "s": "호주 실업률이 5년 만의 최고 수준에 머물자 시장이 호주중앙은행의 추가 인상 베팅을 줄이면서 금리 기대가 낮아졌다"
+  },
+  {
+   "t": "호주 9월 취업자 3만 9,300명 감소…실업률 4.7%",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/australia-employment-slides-39300-september-jobless-47-2026-10-15/",
+   "s": "호주 9월 취업자가 3만 9,300명 줄고 시간제 일자리가 7만 3,700개 감소하면서 실업률이 4.7%에 머물러 노동시장 둔화가 확인됐다"
+  },
+  {
+   "t": "뉴질랜드중앙은행 수석이코노미스트 '다음 금리 결정 완전히 열려 있다'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open",
+   "s": "뉴질랜드중앙은행 수석이코노미스트가 다음 금리 결정이 완전히 열려 있다고 말하면서 뉴질랜드 금리 경로의 불확실성이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "RBA 인상 베팅 약해지며 호주달러 7월 이후 최저",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/aussie-dollar-falls-to-lowest-since-july-as-rba-hike-bets-fade",
+   "s": "고용 부진 뒤 호주중앙은행의 추가 인상 베팅이 약해지면서 호주달러가 7월 이후 가장 낮은 수준으로 떨어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/cb",
+  "macro/fx"
+ ],
+ "title": "호주 9월 일자리 3만 9,300개 감소·실업률 4.7%…RBA 인상 베팅 후퇴",
+ "one": "호주 9월 취업자가 예상과 달리 3만 9,300명 줄고 실업률이 5년 만의 최고인 4.7%에 머물면서, 시장이 호주중앙은행의 11월 추가 인상 베팅을 줄였고 호주달러는 7월 이후 최저로 떨어졌다",
+ "facts": [
+  "무엇이: 호주 통계청 발표로 9월 취업자가 계절조정 기준 3만 9,300명(0.3%) 줄었고 실업률은 4.7%로 유지됐으며, 시장은 약 2만 명 증가를 예상했다 [사실]",
+  "세부: 시간제 일자리가 7만 3,700개 줄고 전일제는 3만 4,400개 늘었으며, 경제활동참가율이 67.0%에서 66.8%로 내려 실업률 상승을 막았다 [사실]",
+  "통화정책: 호주중앙은행은 9월 말 기준금리를 4.60%로 올렸고, 시장은 11월 인상 베팅을 줄였으나 웨스트팩 등 일부는 여전히 11월 인상을 예상하며 10월 28일 3분기 CPI가 관건이다 [사실]",
+  "환율: 인상 베팅이 약해지면서 호주달러가 7월 이후 최저로 떨어졌다 [제목]",
+  "뉴질랜드: 뉴질랜드중앙은행 수석이코노미스트는 다음 금리 결정이 완전히 열려 있다고 말했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "취업자 감소·실업률·세부 내역·RBA 9월 인상과 시장 반응은 호주 통계청·ABC·investingLive 검색 결과 요약으로 확인. 호주달러 7월 이후 최저와 RBNZ 수석이코노미스트 발언은 제목 기준",
+ "added": "이번 블룸버그 1건으로 고용 부진 뒤 RBA 인상 베팅이 약해지며 호주달러가 7월 이후 최저로 떨어졌다는 시장 반응이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주 9월 취업자 3만 9,300명 감소"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "RBA 11월 추가 인상 베팅 후퇴"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주달러 7월 이후 최저로 하락"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

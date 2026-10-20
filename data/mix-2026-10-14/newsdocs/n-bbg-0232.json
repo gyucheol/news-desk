@@ -1,0 +1,117 @@
+{
+ "added": "이번 로이터 2건과 블룸버그 1건으로 {{블랙록의 미국 주식 중립 하향·단기 국채 선호}}와 {{씨티의 비중확대 철회}}, {{S&P 실적 모멘텀 둔화 분석}}이 추가됐다",
+ "basis": "partial",
+ "check": "InvestingLive·Fund Selector Asia 보도(검색 결과 요약으로 확인)로 블랙록의 미국 주식 중립·단기 국채 비중확대 확인. 씨티 내용은 로이터 전재 기사 검색 결과 요약으로 확인. S&P 이익 모멘텀 기사는 제목만 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블랙록 인베스트먼트 인스티튜트는 10월 13일 AI 관련 변동성을 이유로 미국 주식을 중립으로 낮추고, 금리 인상 기대가 과하다며 단기 국채를 비중확대로 올렸다 [사실]",
+  "씨티: 씨티그룹은 포지션·낙관·유동성·레버리지·스트레스를 보는 POLLS 지표가 과거 고점 수준에 이르자 미국 주식 비중확대를 접고 S&P 500 동일가중 매수 포지션을 정리했지만 약세 전환은 아니라고 했다 [사실]",
+  "실적: S&P 500의 가파른 이익 증가 모멘텀이 이어지기 어려워지고 있다는 분석이 나왔다 [제목]",
+  "기존: 골드만삭스는 10월 12일 글로벌 주식 3개월 전망을 중립에서 비중확대로 올리고 S&P 500 3분기 이익 증가율을 약 27%로 봤다 [사실]",
+  "금리: 블랙록 하향 당시 미 10년물 금리는 약 5.25%에 다가섰다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{골드만}}은 비중확대, {{블랙록·씨티}}는 {{美 주식 신중론}}…{{실적 모멘텀 둔화}} 우려",
+ "id": "n-bbg-0232",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{골드만삭스 전략가들}}이 {{이익 개선}}을 들어 {{글로벌 주식 3개월 전망}}을 {{중립에서 비중확대}}로 올리며 {{S&P 500 3분기 이익 증가율}}을 {{약 27%}}로 봤다",
+   "t": "골드만 전략가들, 이익 개선에 글로벌 주식 투자의견 상향",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "블룸버그는 {{비틀거리는 주식 랠리의 연말 상승}}이 {{실적에 달려 있다}}고 짚으며 {{3분기 실적}}이 {{증시 방향을 가를 수 있다}}고 봤다",
+   "t": "비틀거리는 주식 랠리, 연말 상승은 실적에 달려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/stumbling-equity-rally-hinges-on-earnings-for-year-end-boost"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{골드만}}이 {{실적 낙관}}을 근거로 {{글로벌 주식 투자의견}}을 올리면서 {{미국·아시아 비중확대}}와 {{유럽 비중축소}}, 국채 비중확대를 함께 제시했다",
+   "t": "골드만, 실적 낙관에 글로벌 주식 투자의견 상향",
+   "u": "https://www.reuters.com/business/goldman-upgrades-global-equities-earnings-optimism-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 TNBfolio",
+   "s": "{{미국 주식위험프리미엄}}이 {{24년 만의 최저로 마이너스 전환}}하면서 {{주식의 기대수익이 국채보다 낮아져}} {{위험자산 보유 보상}}이 {{사라졌다}}",
+   "t": "美 주식위험프리미엄 24년 만에 최저…마이너스 전환",
+   "u": "https://t.me/TNBfolio/71507"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{골드만삭스}}가 {{미국 기업의 2027년 자사주 매입}}을 {{사상 최대 1.7조 달러}}로 전망하며 {{6,000억 달러 규모 주식 발행에 따른 희석 압력}}을 덜 것으로 봤다",
+   "t": "골드만 \"美 기업 2027년 자사주 1.7조 달러 매입, 주식 공급 충격 완화\"",
+   "u": "https://t.me/HANAchina/70306"
+  },
+  {
+   "t": "블랙록, 미국 주식에 신중해지고 단기 국채에 강세 전환",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/blackrock-cools-us-stocks-turns-bullish-short-dated-treasuries-2026-10-13/",
+   "s": "{{블랙록}}이 {{AI 관련 변동성}}을 들어 {{미국 주식}}을 {{중립}}으로 낮추고 {{단기 국채}}를 {{비중확대}}하면서 {{금리 인상 기대가 과하다}}는 {{판단}}을 내비쳤다"
+  },
+  {
+   "t": "S&P의 가파른 이익 모멘텀, 유지하기 어려워져",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/s-p-500-record-rally-meets-risk-of-peaking-earnings-growth",
+   "s": "{{S&P 500}}의 {{가파른 이익 증가 모멘텀}}이 {{유지되기 어려워지}}면서 {{사상 최고 랠리}}를 받친 {{실적 동력}}이 {{정점}}에 이를 수 있다 (제목 기준)"
+  },
+  {
+   "t": "씨티그룹, 시장 과열 경고 신호에 미국 주식 신중론으로 전환",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/citigroup-turns-cautious-us-stocks-market-exuberance-flashes-warning-signs-2026-10-13/",
+   "s": "{{씨티그룹}}이 {{POLLS 과열 지표}}가 {{과거 고점 수준}}에 이르자 {{미국 주식 비중확대}}를 {{거두}}면서 {{약세 전환}}은 아니지만 {{추가 상승 기대}}를 {{낮췄다}}"
+  }
+ ],
+ "key": "mix-C031-2026-10-13",
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "num": 232,
+ "one": "{{골드만삭스}}가 {{글로벌 주식 비중확대}}로 올렸지만 {{블랙록}}이 {{AI 변동성}}을 들어 {{미국 주식}}을 {{중립}}으로 낮추고 {{단기 국채}}로 {{옮겼}}고 {{씨티}}도 {{과열 지표}}에 {{비중확대를 거두}}면서, {{주식위험프리미엄 마이너스}} 속 {{미국 주식 쏠림}}이 {{약해질}} 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:03:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Unusual Whales",
+   "u": "https://unusualwhales.com/news/goldman-sachs-bullish-stocks-overweight-equities"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "KuCoin News",
+   "u": "https://www.kucoin.com/news/flash/goldman-sachs-upgrades-global-stocks-to-overweight-forecasts-27-q3-earnings-growth-for-s-p-500"
+  },
+  {
+   "o": "InvestingLive",
+   "d": "2026-10-13",
+   "u": "https://investinglive.com/stocks/blackrock-cuts-us-stocks-to-neutral-and-buys-treasuries-as-10-year-yield-nears-5-25/"
+  },
+  {
+   "o": "Fund Selector Asia",
+   "d": "2026-10-13",
+   "u": "https://fundselectorasia.com/blackrock-cuts-us-stocks-to-neutral-upgrades-treasuries/"
+  }
+ ],
+ "tags": [],
+ "title": "{{골드만}}은 비중확대, {{블랙록·씨티}}는 {{美 주식 신중론}}…{{실적 모멘텀 둔화}} 우려",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost"
+}

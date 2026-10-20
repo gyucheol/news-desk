@@ -1,0 +1,87 @@
+{
+ "added": "이번 로이터 1건으로 {{10월 14일 호주 증시 거래 개시}}와 {{호주 상장으로 기업가치를 끌어올리려는 기대}}가 추가됐다",
+ "basis": "partial",
+ "check": "10월 14일 ASX 거래 개시(GLC, CDI, 신주 없음)와 지수 편입 기준을 검색 결과 요약으로 확인. 검색 시점이 개장 전이라 첫날 주가는 확인하지 못함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 글렌코어 CDI가 10월 14일 호주증권거래소에서 GLC로 거래를 시작하며, 신주 발행이나 자금 조달은 없습니다 [사실]",
+  "목표: 회사는 호주 상장으로 기업가치를 높이려 하고, 호주 4조 8,000억 달러 규모 슈퍼연금 자금 접근이 목적으로 거론됩니다 [사실]",
+  "지수: 베타셰어즈는 호주 CDI 가치가 약 55억 호주달러(38억 달러)에 이르러야 지수 편입이 가능하다고 봤습니다 [사실]",
+  "기존: 나글 CEO는 이익의 약 30%를 차지하는 구리의 전기화 수요로 투자자 관심이 강하다고 했고, 연료탄은 산업 부문 기초이익의 약 15%입니다 [사실]",
+  "첫날: 첫 거래일 주가와 거래 규모는 확인하지 못했습니다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{글렌코어}}, {{호주 증시 거래 개시}}…기업가치 {{재평가}}·{{슈퍼연금 자금}} 노려",
+ "id": "n-bbg-0123",
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "s": "{{글렌코어}}가 연료탄이 산업 부문 이익의 약 15%임에도 {{에너지 충격 뒤 석탄 보유 의향이 늘었}}다며 호주 상장을 앞두고 {{석탄 우려를 일축}}했다",
+   "t": "글렌코어, 호주 상장 앞두고 석탄 우려 일축",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{나글 CEO}}가 전기화 흐름에 투자하려는 수요로 {{호주 상장 인수 관심이 강하다}}고 밝히면서 {{12개월 안에 S&P/ASX 200 편입도 가능}}하다고 봤다",
+   "t": "글렌코어 '전기화 흐름이 호주 상장 수요 견인할 것'",
+   "u": "https://www.reuters.com/business/retail-consumer/glencore-sees-electrification-trend-driving-strong-uptake-australia-listing-2026-10-09/"
+  },
+  {
+   "t": "글렌코어, 호주서 거래 시작…기업가치 상승 기대",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/retail-consumer/glencore-shares-start-trading-australia-miner-hopes-boost-valuation-2026-10-13/",
+   "s": "{{글렌코어}}가 10월 14일 {{호주증권거래소}}에서 {{GLC 거래를 시작}}하면서 {{호주 자금 유입}}으로 {{기업가치를 끌어올리려}} 하고 있다"
+  }
+ ],
+ "key": "bnd-C079-2026-10-09",
+ "nodes": [
+  "coal/thermal",
+  "coal/trade"
+ ],
+ "num": 123,
+ "one": "{{글렌코어}}가 10월 14일 {{신주 발행 없이}} CDI 방식으로 {{호주증권거래소}}에서 {{GLC 거래를 시작}}하면서, 구리 전기화 수요를 앞세워 {{호주 슈퍼연금 자금}}을 {{끌어들이}}고 {{기업가치를 높이려}} 하지만 {{지수 편입}}에는 {{CDI 가치 약 55억 호주달러}}가 {{필요}}하다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T05:07:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "MINING.COM",
+   "u": "https://www.mining.com/web/glencores-planned-australian-debut-draws-interest-as-investors-look-past-coal/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/glencore-heads-to-the-asx-with-copper-in-the-lead"
+  },
+  {
+   "o": "Glencore",
+   "d": "2026-10",
+   "u": "https://www.glencore.com/media-and-insights/news/expected-asx-secondary-listing-date"
+  },
+  {
+   "o": "Grafa",
+   "d": "2026-10-13",
+   "u": "https://grafa.com/en/news/australia/glencore-debuts-on-asx-to-target-superannuation-funds"
+  },
+  {
+   "o": "Moneyweb",
+   "d": "2026-10-13",
+   "u": "https://www.moneyweb.co.za/news/companies-and-deals/glencore-set-for-sydney-debut-in-test-of-mining-giants-allure/"
+  }
+ ],
+ "tags": [],
+ "title": "{{글렌코어}}, {{호주 증시 거래 개시}}…기업가치 {{재평가}}·{{슈퍼연금 자금}} 노려",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing"
+}

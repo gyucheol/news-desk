@@ -1,0 +1,189 @@
+{
+ "added": "이번 블룸버그·로이터 6건과 텔레그램 1건으로 EU 정상회의의 단기 에너지 대책 논의, 이탈리아의 가스 가격 상한 합의 근접, 체코 정유업 횡재세, 집행위의 힘든 겨울 경고가 추가됐다",
+ "basis": "partial",
+ "check": "정상회의의 단기 대책 요구·초안 결론, 석유사 횡재세 비의제는 검색 결과 요약으로 확인. 멜로니의 가스 가격 상한 발언, 집행위 겨울 경고, 체코 횡재세, EDF·독일 저장량 소식은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 15~16일 EU 정상회의에서 정상들은 집행위에 시민과 기업의 에너지값 부담을 덜 단기 대책을 요구했고, 초안 결론에는 메탄 규제 수정, 국가보조 임시 체계 연장, 정유사 단기 체계, 자발적 수요 결집이 담겼다 [사실]",
+  "가스 상한·횡재세: 멜로니 총리는 이탈리아가 EU와 가스 가격 상한 합의에 근접했다고 말했고, 체코 하원은 정유업 횡재세를 1차 지지했다 [제목]",
+  "정상회의 의제: 석유사 횡재세는 정상회의 논의 대상이 아닌 것으로 전해졌고, 이탈리아·그리스의 재정 규칙 추가 예외 요구를 집행위는 거부해 왔다 [사실]",
+  "겨울 경고: 집행위는 높은 에너지 가격으로 매우 힘든 겨울이 될 것이라고 경고했다 [채널]",
+  "수급: 독일 규제당국은 가스 저장량이 낮지만 공급 위험은 없다고 밝혔고, EDF는 가스 공급 불확실성으로 에디슨 지분 매각 계획을 멈췄다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EU 정상회의, 에너지값 급등 대응 고심…伊 가스 가격 상한·체코 정유 횡재세",
+ "id": "n-rtr-0201",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas",
+  "oil",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{메르츠 총리}}가 {{지난해 접었던 전 소비자 전기세 인하}}를 다시 약속해, kWh당 2.05센트인 세율을 {{EU 최저 수준으로 낮추겠다고}} 밝혔다",
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{영국 송전망 운영사}}가 공급을 확보하려고 {{프랑스에 긴급 전력을 요청}}하면서, {{영국 전력 수급}}이 {{빠듯할}} 수 있다 (제목 기준)",
+   "t": "영국 송전망, 공급 확보 위해 프랑스에 긴급 전력 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-grid-seeks-emergency-french-power-to-secure-supplies"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{EU 훅스트라 집행위원}}이 {{석유·가스 기업 횡재세의 득실을 따질 작업반}}을 꾸리면서, {{2022년처럼 초과이익 과세}}가 다시 추진될 수 있다",
+   "t": "에너지 가격 급등에 EU, 석유·가스 횡재세 검토",
+   "u": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{독일}}이 새 {{비상 가스 비축}}을 {{소비자 부담금}}으로 충당하는 {{초안}}을 {{마련}}하면서, 가구가 {{2027년 10월부터 연 최대 7.20유로}}를 {{부담}}하게 될 수 있다",
+   "t": "독일, 새 비상 가스 비축 재원을 소비자 부담금으로 마련(초안)",
+   "u": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 Polaristimes",
+   "s": "유럽 각국 {{재무장관}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{석유·가스 기업 이익}}에 대한 {{과세 압력}}이 이어지고 있다",
+   "t": "유럽 각국 재무장관들, 에너지 기업 횡재세 또 촉구",
+   "u": "https://t.me/The_MariTimes/63696"
+  },
+  {
+   "t": "체코 하원, 정유 부문 횡재세 법안에 1차 지지",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/",
+   "s": "체코 하원이 정유업 횡재세 법안을 1차로 지지하면서, 높은 에너지값 속 정유사 이익에 대한 과세가 현실화될 수 있다 (제목 기준)"
+  },
+  {
+   "t": "멜로니 '이탈리아, EU와 가스 가격 상한 합의 근접'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/italy-is-nearing-deal-with-eu-on-gas-price-cap-meloni-says",
+   "s": "멜로니 총리가 이탈리아가 EU와 가스 가격 상한 합의에 다가섰다고 밝히면서, 가스값 급등에 상한을 두는 대응이 가시화될 수 있다 (제목 기준)"
+  },
+  {
+   "t": "EU 집행위 '높은 에너지 가격에 매우 힘든 겨울'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66223",
+   "s": "EU 집행위원회가 높은 에너지 가격 탓에 매우 힘든 겨울이 될 것이라고 경고하면서, 가계와 기업의 난방·전력 비용 부담 우려가 커졌다"
+  },
+  {
+   "t": "EDF, 가스 공급 불확실성에 에디슨 지분 매각 계획 중단",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/edf-pauses-edison-stake-sale-plan-gas-supply-uncertainty-clouds-outlook-2026-10-14/",
+   "s": "EDF가 가스 공급 불확실성으로 전망이 흐려지자 에디슨 지분 매각 계획을 멈추면서, 에너지 자산 매각 일정이 늦춰졌다 (제목 기준)"
+  },
+  {
+   "t": "유럽 정상들, 전쟁발 에너지 충격 누그러뜨릴 수단 부족",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-s-leaders-have-few-tools-to-ease-war-driven-energy-shock",
+   "s": "유럽 정상들이 전쟁으로 촉발된 에너지 충격을 누그러뜨릴 정책 수단을 마땅히 찾지 못하면서, 높은 에너지값이 겨울 내내 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "EU 정상회의서 에너지값 급등 논의…쉬운 해법 없어",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/no-easy-solutions-as-eu-leaders-discuss-energy-price-surge-at-summit",
+   "s": "EU 정상들이 정상회의에서 집행위에 단기 대책을 요구하는 데 무게를 두면서, 메탄 규제 수정과 국가보조 체계 연장 같은 한정된 조치가 거론되고 있다"
+  },
+  {
+   "t": "독일 규제당국 '가스 저장량 낮지만 공급 위험은 없어'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/germany-gas-storage-low-no-supply-risk-regulator-says-2026-10-15/",
+   "s": "독일 규제당국이 가스 저장량은 낮지만 공급 위험은 없다고 밝히면서, 겨울 가스 부족 우려를 진정시키려 했다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C061-2026-10-13",
+ "nodes": [
+  "gas/demand",
+  "gas/regas",
+  "gas/trade",
+  "macro/fiscal",
+  "power/market"
+ ],
+ "num": 201,
+ "one": "EU 정상들이 정상회의에서 집행위에 에너지값 부담을 덜 단기 대책을 요구하고 이탈리아가 가스 가격 상한 합의에 다가선 가운데 체코가 정유업 횡재세를 추진하면서, 독일 가스 비축 부담금에 이어 겨울 에너지 비용이 소비자와 에너지 기업에 나뉘어 지워지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Izvestia",
+   "u": "https://iz.ru/en/node/2183624"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/germanys-ministry-of-economic-affairs-reportedly-plans-to-finance-a-planned-national-crisis-gas-reserve-via-a-levy-handelsblatt-reports-citing-a-draft"
+  },
+  {
+   "d": "2026-08-23",
+   "o": "Euronews",
+   "u": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+  },
+  {
+   "d": "2026-09",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/eu-ministers-discuss-taxing-windfall-profits-energy/"
+  },
+  {
+   "o": "Agence Europe",
+   "d": "2026-10-15",
+   "u": "https://agenceurope.eu/en/bulletin/article/13960/1/heads-of-state-meeting-in-brussels-count-on-european-commission-to-tackle-soaring-energy-prices"
+  },
+  {
+   "o": "E3G",
+   "d": "2026-10",
+   "u": "https://www.e3g.org/news/euco-october2026-eu-leaders/"
+  }
+ ],
+ "tags": [],
+ "title": "EU 정상회의, 에너지값 급등 대응 고심…伊 가스 가격 상한·체코 정유 횡재세",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "이탈리아 EU와 가스 가격 상한 합의 근접"
+  },
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "체코 하원 정유업 횡재세 1차 지지"
+  }
+ ]
+}

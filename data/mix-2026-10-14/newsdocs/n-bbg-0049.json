@@ -1,0 +1,242 @@
+{
+ "added": "이번 블룸버그·텔레그램 각 1건으로 {{빅테크의 AI 차입}}이 {{신흥국 국채를 밀어낼 위험}}과 {{코어위브 채권 금리}}의 {{발행 4개월 만 15% 급등}} 전언이 추가됐다",
+ "basis": "partial",
+ "check": "briefs.co·CNBC 검색 결과 요약으로 BofA 경고, 신흥국 달러채 금리 상승, IMF의 발행 비중 10% 확인. 코어위브 채권 금리 15%는 확인 못 함(검색에선 2031년물 약 13.4% 보도)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 하이퍼스케일러 차입이 신흥국 국채를 밀어낼 수 있다는 뱅크오브아메리카 전략가의 경고가 나왔고, 신흥국 달러채 평균 금리는 하반기에 1%p 가까이 올랐다 [사실]",
+  "비중: IMF는 하이퍼스케일러의 세계 투자등급 회사채 발행 비중이 2024년 이후 1% 미만에서 10%로 커졌다고 했다 [사실]",
+  "코어위브: 만기가 6년 남은 코어위브 채권 금리가 발행 4개월 만에 9.625%에서 15%로 뛰었다는 전언이 나왔다 [채널]",
+  "기존: 오라클 5년물 CDS가 10월 8일 사상 최고인 261bp에 마감했다 [사실]",
+  "반론: 골드만삭스 전략가들은 AI 회사채 발행이 다른 채권시장에 번진 효과는 제한적이었다고 본다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{AI 빚잔치}}에 {{신흥국 채권}} 밀려날 위험…{{코어위브}} 채권 금리 {{15%로 급등}}",
+ "id": "n-bbg-0049",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그",
+   "t": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "오라클 신용부도스와프(CDS) 프리미엄 지속 상승",
+   "u": "https://t.me/insidertracking/65770"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "스페이스X·브로드컴·오라클 대규모 채권 발행에 美 채권시장 포화",
+   "u": "https://t.me/HANAchina/70108"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{오라클 5년물 CDS}}가 사상 최고 261bp로 오르고 모건스탠리가 {{2028년 자금 수요 집중}}을 경고하면서 부채 상환 부담 우려가 커졌다",
+   "t": "오라클 CDS 사상 최고 261bp…모건스탠리 '2028년 자본지출 집중이 부채 위기 촉발 가능'",
+   "u": "https://t.me/HANAchina/70159"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{엔비디아}}가 242개 기업 지분 투자를 잉여현금흐름에서 빼 상반기 수치가 {{약 70% 줄어든}} 것으로 드러나면서 자사주 매입 여력에 의문이 제기됐다",
+   "t": "엔비디아, 잉여현금흐름 산정 방식 재정의…상반기 FCF 699억→217억 달러",
+   "u": "https://t.me/HANAchina/70167"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 나쁜양파",
+   "s": "{{오라클 5년물 CDS}} 프리미엄이 {{260bp}}를 넘어서면서 오라클의 신용 위험을 반영하는 보험료가 계속 오르고 있다",
+   "t": "오라클 5년물 CDS 프리미엄 260bp 돌파 그래프 공유",
+   "u": "https://t.me/Badonions/7738"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{오라클 CDS}}가 {{240bp}}를 돌파한 그래프가 공유되면서 AI 인프라 차입이 큰 기업의 신용 위험이 부각됐다",
+   "t": "오라클 CDS 그래프, 240bp 돌파…크레딧 위험 부각",
+   "u": "https://t.me/The_MariTimes/63643"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{엔비디아 부외 약정}}이 전 분기보다 180% 넘게 늘어 {{5,300억 달러}}에 이르면서 AI 투자 둔화 시 재무 부담이 커질 수 있다",
+   "t": "엔비디아 부외 약정 5,300억 달러로 급증…세미애널리시스 '1조 달러 넘을 수도'",
+   "u": "https://t.me/HANAchina/70228"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "DBS CEO 탄 \"시장이 AI 금융 위험을 다시 가격 매기고 있다\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/dbs-ceo-tan-says-market-is-repricing-risks-on-ai-financing"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 부의 나침반",
+   "t": "AI 반도체 현금흐름 5,000억 달러 급증, 클라우드 5사는 마이너스 전환 전망",
+   "u": "https://t.me/w_compass/7254"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "AI 공급망 부담은 걱정거리 중 가장 작은 것일 수 있다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-supply-chain-strains-may-be-the-least-of-our-worries"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "AI를 떠받치는 거대한 세계 순환 금융 고리의 내막",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/inside-the-giant-global-circular-financing-loop-driving-ai"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "AI 붐은 어떻게 세계 금융 위험을 키우고 있나",
+   "u": "https://www.bloomberg.com/news/features/2026-10-12/how-the-ai-boom-is-fueling-global-financial-risks"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "AI 업계가 회사채·사모신용·ABS 등 {{부동산식 부채 조달}}로 옮겨가고 장부 외 부채가 {{약 3조 달러}}에 달해 금리 상승 속 유동성 시험에 직면할 전망이다",
+   "t": "AI 열풍, 인터넷·부동산 버블 특징 겸비…2008년 글로벌 자본순환과 유사",
+   "u": "https://t.me/HANAchina/70341"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{수낙}}이 빅테크가 장기 부채 발행에서 {{미국 정부를 앞지를 것}}이라고 말하면서 AI 차입이 장기 채권시장 수급을 흔들 수 있다는 시각이 나왔다 (제목 기준)",
+   "t": "수낙 '빅테크, 장기 부채 발행에서 미국 정부를 앞지를 것'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/tech-giants-to-outpace-us-in-issuing-long-term-debt-sunak-says"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{은행 감독당국}}이 금융안정 우려 속에 {{AI 관련 감시}}를 강화하면서 은행의 AI 대출·노출 점검이 깐깐해질 수 있다 (제목 기준)",
+   "t": "금융안정 우려 커지자 은행 감독당국들 AI 감시 강화…소식통",
+   "u": "https://www.reuters.com/legal/litigation/banking-watchdogs-ramp-up-ai-scrutiny-stability-fears-mount-sources-say-2026-10-13/"
+  },
+  {
+   "t": "AI 부채 폭식, 신흥국을 세계 시장에서 밀어낼 위험",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/ai-debt-binge-risks-crowding-out-em-nations-from-global-markets",
+   "s": "{{빅테크의 AI 차입 급증}}이 {{세계 채권 수요}}를 {{빨아들이}}면서, {{신흥국 국채}}가 조달 시장에서 {{밀려나}} {{차입 비용}}이 {{오를}} 수 있다"
+  },
+  {
+   "t": "코어위브 채권 금리, 발행 4개월 만에 9.625%에서 15%로",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-14",
+   "u": "https://t.me/The_MariTimes/63700",
+   "s": "{{코어위브}}의 {{만기 6년 남은 채권 금리}}가 {{발행 4개월 만에 9.625%에서 15%로 뛰}}면서, 오라클에 버금가는 {{AI 신용 위험}}이 {{부각}}되고 있다"
+  }
+ ],
+ "key": "bbg-1001-carlyle-ai-private-credit-concentration",
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates",
+  "macro/semis"
+ ],
+ "num": 49,
+ "one": "{{빅테크의 AI 차입}}이 {{신흥국 국채}}를 {{세계 채권시장에서 밀어낼}} 수 있다는 {{경고}}가 나오고 {{코어위브 채권 금리}}가 {{발행 4개월 만에 15%로 뛰었다}}는 전언까지 더해지면서, {{오라클 CDS 급등}}에 이은 {{AI발 신용 위험}}이 {{신흥국 조달 비용}}으로 {{번질}} 수 있다",
+ "origTitle": "AI Buildout May Spur $1 Trillion in Private Credit, Carlyle White Paper Finds",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:16:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Briefs Finance",
+   "u": "https://www.briefs.co/news/carlyle-warns-private-credit-don-t-repeat-software-s-concent/"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "포브스(기고)",
+   "u": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/"
+  },
+  {
+   "d": "2026-09",
+   "o": "Sage Advisory",
+   "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+  },
+  {
+   "d": "2026",
+   "o": "Portfolio Adviser",
+   "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "24/7 Wall St.",
+   "u": "https://247wallst.com/investing/2026/10/08/spacex-broadcom-and-oracle-all-want-billions-in-ai-chip-debt-at-the-same-time/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Benzinga",
+   "u": "https://www.benzinga.com/markets/large-cap/26/10/62161704/highest-yielding-hyperscaler-bonds-october-2026-spacex-oracle"
+  },
+  {
+   "d": "2026-09",
+   "o": "Seeking Alpha",
+   "u": "https://seekingalpha.com/news/4646794-oracle-credit-default-swaps-hit-new-record-high-as-ai-debt-worries-mount"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Fintech Singapore",
+   "u": "https://fintechnews.sg/138858/ai/dbs-ai-financing-risk-repricing/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "The Edge Singapore",
+   "u": "https://www.theedgesingapore.com/news/tech/dbs-ceo-tan-says-market-repricing-risks-ai-financing"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Futu News",
+   "u": "https://news.futunn.com/en/post/1000817904/oracle-s-cds-spreads-hit-a-record-high-morgan-stanley"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "TradingKey",
+   "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262209649-oracle-stock-forecast-ai-data-center-delays-debt-pressure-orcl-tradingkey"
+  },
+  {
+   "o": "briefs.co",
+   "d": "2026-10-13",
+   "u": "https://www.briefs.co/news/hyperscalers-borrowing-is-pushing-up-costs-for-emerging-mark/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-13",
+   "u": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10",
+   "u": "https://www.theglobeandmail.com/investing/article-dont-blame-us-bond-market-indigestion-on-ai-debt-binge/"
+  }
+ ],
+ "tags": [],
+ "title": "{{AI 빚잔치}}에 {{신흥국 채권}} 밀려날 위험…{{코어위브}} 채권 금리 {{15%로 급등}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+}

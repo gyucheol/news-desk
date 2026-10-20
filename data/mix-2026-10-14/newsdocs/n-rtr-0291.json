@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0291",
+ "num": 291,
+ "key": "mix-C097-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T21:39:00+09:00",
+ "url": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{탄자니아}}, {{420억 달러 LNG 합의}} '{{거의 마무리}}'…에퀴노르·셸 주도",
+ "src": [
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10",
+   "u": "https://www.intellinews.com/tanzania-nears-agreement-on-42bn-lng-project-after-years-of-delays-475624"
+  },
+  {
+   "o": "Africa Briefing",
+   "d": "2026-10",
+   "u": "https://africabriefing.com/tanzanias-42bn-lng-deal-nears-signing/"
+  }
+ ],
+ "items": [
+  {
+   "t": "탄자니아 재무장관 '420억 달러 LNG 합의 마무리 임박'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/upstream"
+ ],
+ "title": "{{탄자니아}}, {{420억 달러 LNG 합의}} '{{거의 마무리}}'…에퀴노르·셸 주도",
+ "one": "{{탄자니아 재무장관}}이 에퀴노르·셸 주도의 {{420억 달러 LNG 사업 합의}}를 {{몇 달 안에 마무리}}할 것이라고 밝히면서, 수년째 미뤄진 {{동아프리카 대형 LNG 수출 사업}}이 {{최종투자결정}}에 {{다가설}} 수 있다",
+ "facts": [
+  "무엇이: 하미스 무사 오마르 재무장관은 420억 달러 규모 LNG 협정 마무리에 거의 다 왔다며 몇 달 안 타결을 기대했습니다 [사실]",
+  "사업: 에퀴노르·셸이 주도하고 엑손모빌·파빌리온에너지·메드코에너지·TPDC가 참여해 약 47조 1,300억 입방피트의 가스를 개발합니다 [사실]",
+  "지연: 2022년 6월 기본 틀에 서명했지만 최종 협정은 아직이고, 2026년 6월 전 서명 목표도 넘겼습니다 [사실]",
+  "남은 일: 정부 승인 뒤에야 최종투자결정이 가능하며 자금 조달과 건설 일정은 정해지지 않았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "재무장관 발언과 사업 구성, 지연 경과를 검색 결과 요약(bne IntelliNews·Africa Briefing 등)으로 확인."
+}

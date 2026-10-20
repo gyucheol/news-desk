@@ -1,0 +1,274 @@
+{
+ "basis": "partial",
+ "channel": "미국 주식 인사이더",
+ "check": "공항 재공격·사상자·항공 차질·미 대사관 경보는 검색 결과 요약으로 확인. 영국 여행 권고 세부, 사바통신의 사우디군 격퇴 주장, 발사대 3기 파괴는 확인 못 함. 사망자 국적(사우디인/외국인)은 보도마다 다름",
+ "cycles": [],
+ "facts": [
+  "무엇이: 후티는 10월 8일 탄도미사일로 리야드 킹 칼리드 공항을 다시 공격했다고 주장했고, 목격자들은 공항 내 항공기에서 연기가 오르는 것을 봤습니다 [사실]",
+  "피해: 사우디 민간항공청은 아브하·리야드 공항 공격으로 3명이 숨지고 36명이 다쳤다고 밝혔으며, 사망자 국적은 보도마다 엇갈립니다 [사실]",
+  "여행경보: 미국이 사우디 여행경보를 냈고, 영국은 아시르·리야드·나즈란·지잔의 필수 외 여행과 예멘 국경 10km 이내 이동 자제를 권고했습니다 [채널]",
+  "전선: 사우디 연합군은 후티 미사일 발사대 3기를 파괴했다고 밝혔고, 후티 측 사바통신은 바브엘만데브 남쪽을 노린 사우디군 공격을 격퇴했다고 주장했습니다 [채널]",
+  "항공: 에어인디아가 10일까지 리야드 운항을 멈췄고, 사우디 당국은 공항 운영이 재개됐다고 밝혔습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "후티 리야드 공항 재공격·여객기 피격…美·英 사우디 여행경보, 국경 지상전 격화",
+ "id": "n-tg-0166",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-03",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "후티, 사우디 아람코 리야드 정유소 공격 주장…대형 화재 발생",
+   "u": "https://t.me/insidertracking/65264"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "예멘 정부군, 바브엘만데브·두밥 장악 주장…후티는 부인",
+   "u": "https://t.me/HANAchina/69881"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "사우디·파키스탄·튀르키예, 메카 방위협정 첫 발동…사우디에 병력 배치 합의",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "사우디-후티 적대 격화에 걸프 증시 부진",
+   "u": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-saudi-houthi-hostilities-escalate-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "사우디 주도의 후티 반군 상대 반격이 본격적으로 시작됐다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/saudi-led-fightback-against-the-houthis-begins"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+   "u": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "후티, 사우디 아브하·리야드 공항 공격…3명 사망·36명 부상",
+   "u": "https://t.me/insidertracking/65704"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+   "u": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "공항 공격 뒤 항공사들 사우디행 운항 중단",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/airlines-cancel-flights-to-riyadh-after-houthi-attack-on-airport"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "시리아, 예멘 전쟁 속 사우디 군사 지원 검토…소식통",
+   "u": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "후티 공격 뒤 루프트한자·에어인디아 리야드 운항 중단",
+   "u": "https://www.reuters.com/world/middle-east/lufthansa-air-india-suspend-flights-riyadh-after-houthi-attacks-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "튀르키예 외무장관 \"사우디 방위 지원 검토 중\"…일부 선택지는 배제",
+   "u": "https://www.reuters.com/world/asia-pacific/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "사우디 공항들 후티 공격받자 시리아, 예멘 전쟁 지원 검토",
+   "u": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "무니르의 군대가 걸프 역할 맡는데 파키스탄 의회는 배제돼",
+   "u": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/"
+  },
+  {
+   "t": "후티, 리야드 킹 칼리드 국제공항에서 민간 항공기 파괴 주장",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-09",
+   "u": "https://t.me/Trillion_labs/10217"
+  },
+  {
+   "t": "사우디 공습 뒤 미국 국무부, 사우디아라비아 여행경보 발령",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65778"
+  },
+  {
+   "t": "영국, 리야드·아시르 등 4개 지역 필수 외 여행 자제 권고",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65792"
+  },
+  {
+   "t": "후티 공격 격화 속 리야드 공항에서 사우디인 3명 사망",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/three-people-killed-in-attacks-on-riyadh-airport-on-thursday"
+  },
+  {
+   "t": "사우디 항공당국 \"리야드 공항 공격으로 3명 사망\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/middle-east/three-killed-attacks-riyadh-airport-saudi-aviation-authority-says-2026-10-09/"
+  },
+  {
+   "t": "사바통신 \"바브엘만데브 남쪽 노린 사우디군 공격 격퇴, 수십 명 사상\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65810"
+  },
+  {
+   "t": "사우디 주도 연합군, 후티 미사일 발사대 3기 파괴 발표",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65811"
+  },
+  {
+   "t": "전쟁 격화 속 후티의 리야드 공항 공격으로 사우디인 3명 사망",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/middle-east/houthi-strikes-riyadh-airport-killed-three-saudis-war-escalates-2026-10-09/"
+  }
+ ],
+ "key": "tg-insidertracking-65264",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo",
+  "petchem/feedstock"
+ ],
+ "num": 166,
+ "one": "예멘 후티가 리야드 킹 칼리드 공항을 다시 공격해 여객기에서 연기가 오르고 두 공항 공격 사망자가 3명으로 집계된 가운데, 미국·영국이 사우디 여행경보를 내고 사우디 연합군의 반격이 이어지면서 걸프 항공·석유시설 위험이 커지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T18:30:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-03",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65264"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "NBC뉴스",
+   "u": "https://www.nbcnews.com/world/middle-east/fire-smoke-seen-aramco-facility-riyadh-rcna601278"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "타임스오브이스라엘",
+   "u": "https://www.timesofisrael.com/liveblog_entry/iran-backed-houthis-say-they-targeted-riyadh-airport-aramco-refinery/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69881"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "알자지라",
+   "u": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "아랍타임스",
+   "u": "https://www.arabtimesonline.com/news/yemeni-forces-seize-dhubab-district-in-offensive-near-bab-el-mandeb/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65704"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "아나돌루(AA)",
+   "u": "https://www.aa.com.tr/en/middle-east/3-killed-36-injured-in-attacks-on-saudi-arabias-abha-riyadh-airports/4081390"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "The Tribune",
+   "u": "https://www.tribuneindia.com/news/abha-airport/3-killed-36-injured-in-houthi-attacks-on-abha-king-khalid-airports-saudi-gaca"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Gulf Business",
+   "u": "https://gulfbusiness.com/en/2026/saudi-arabia/lufthansa-indian-airlines-suspend-riyadh-flights-houthi-attacks/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "신화통신 영문판",
+   "u": "https://english.news.cn/20261006/5ff16640ca054b1098833b9a4a1676b0/c.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/booms-flight-disruptions-riyadh-saudi-houthi-war-escalates.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Middle East Eye",
+   "u": "https://www.middleeasteye.net/news/turkey-to-deploy-troops-and-air-defence-systems-saudi-arabia"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Daily Sabah",
+   "u": "https://www.dailysabah.com/world/mid-east/syria-mulls-military-aid-to-saudi-arabia-as-houthis-escalate-war"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-07",
+   "u": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports"
+  },
+  {
+   "o": "RTE",
+   "d": "2026-10-08",
+   "u": "https://www.rte.ie/news/world/2026/1008/1594501-saudi-houthis/"
+  },
+  {
+   "o": "NBC News",
+   "d": "2026-10-09",
+   "u": "https://nbcnews.com/world/saudi-arabia/houthi-strikes-riyadh-airport-killed-saudi-arabia-nationals-rcna602467"
+  }
+ ],
+ "tags": [],
+ "title": "후티 리야드 공항 재공격·여객기 피격…美·英 사우디 여행경보, 국경 지상전 격화",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://t.me/insidertracking/65264"
+}

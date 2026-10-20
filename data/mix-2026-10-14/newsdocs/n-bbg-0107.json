@@ -1,0 +1,111 @@
+{
+ "basis": "verified",
+ "check": "El Espectador 검색 결과 요약으로 빌라미사르 발언·물가 전망, Buenos Aires Times로 아르헨티나 9월 물가 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 콜롬비아 중앙은행 빌라미사르 위원은 엘니뇨, 이란 전쟁, 큰 재정적자를 물가 위험으로 들며 금리가 더 오래 높게 유지되고 필요하면 추가 인상도 검토한다고 했습니다 [사실]",
+  "콜롬비아 조건: 그는 10월 말 나올 수 있는 IMF 프로그램이 생겨도 재정 감축이 먼저 이행돼야 금리 인하가 가능하다고 했고, 중앙은행은 올해 말 물가를 7.2%로 봅니다 [사실]",
+  "아르헨티나: 9월 월간 물가는 1.9%로 8월 1.7%보다 올랐지만 두 달 연속 2%를 밑돌았고, 연간 물가는 33.4%로 내렸습니다 [사실]",
+  "기존: 페루는 10월 7일 기준금리를 4.25%로 동결했고, 우루과이는 10월 8일 6.00%로 0.25%p 올렸습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{콜롬비아 중앙은행}} \"{{고금리 장기화}}\"…{{아르헨티나}} 물가는 {{두 달 연속 2% 밑}}",
+ "id": "n-bbg-0107",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "페루, 2023년 이후 첫 금리 인상 전망: 결정 가이드",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/peru-seen-lifting-rate-for-first-time-since-2023-decision-guide"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "페루, 물가 급등 일시적 판단에 예상 깨고 금리 동결",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/peru-unexpectedly-holds-rate-as-inflation-jump-seen-as-temporary"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "칠레 소비자물가, 연료비 상승 속 소폭 상승",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/chile-consumer-prices-post-modest-gain-as-fuel-costs-rise-again"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "멕시코 물가 다시 상승…중앙은행 선택지 저울질",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/mexico-inflation-ticks-up-in-september-as-banxico-weighs-options"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "우루과이, 목표 웃도는 물가 대응해 금리 인상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/uruguay-raises-interest-rates-to-counter-above-target-inflation"
+  },
+  {
+   "t": "콜롬비아 중앙은행 위원 \"고금리 장기간 이어질 것\"",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/colombian-central-banker-sees-extended-period-of-high-rates",
+   "s": "{{콜롬비아 중앙은행 빌라미사르 위원}}이 {{엘니뇨·이란 전쟁·재정적자}}를 들어 {{고금리가 오래 유지}}되고 {{추가 인상}}도 배제하지 않는다고 밝히면서 {{조기 금리 인하 기대}}가 {{낮아졌}}다"
+  },
+  {
+   "t": "콜롬비아: 중앙은행 빌라미사르 \"고금리 장기화\" 전망(스페인어판)",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/colombia-villamizar-de-banrep-ve-periodo-prolongado-de-tasas-altas",
+   "s": "{{빌라미사르 위원}}이 {{IMF 프로그램}}이 나와도 {{재정 감축 이행}}이 먼저라며 {{곧바로 금리를 내리지 않겠다}}고 밝히면서 {{콜롬비아 금리 인하 시점}}이 {{늦춰질}} 수 있다"
+  },
+  {
+   "t": "아르헨티나, 두 달 연속 월간 물가 2% 밑돌아",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/argentina-posts-second-straight-month-of-inflation-below-2",
+   "s": "{{아르헨티나 9월 월간 물가}}가 {{1.9%}}로 8월 1.7%보다 올랐지만 {{두 달 연속 2% 아래}}에 머물고 {{연간 물가}}는 {{33.4%로 내려}} 물가 둔화 흐름이 {{이어졌}}다"
+  }
+ ],
+ "key": "bnd-C023-2026-10-09",
+ "nodes": [
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 107,
+ "one": "에너지발 물가 반등 속에 {{페루 동결}}·{{우루과이 인상}}에 이어 {{콜롬비아 빌라미사르 위원}}이 {{고금리 장기화}}와 {{추가 인상 가능성}}을 언급한 반면 {{아르헨티나}}는 {{9월 월간 물가 1.9%}}로 {{두 달 연속 2%를 밑돌면서}}, {{중남미 금리 경로}}가 {{나라별로 더 갈리고}} 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T04:14:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Central Banking",
+   "u": "https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7977297/peru-unexpectedly-holds-rates-amid-rising-inflation"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Rio Times",
+   "u": "https://www.riotimesonline.com/uruguay-inflation-september-2026/"
+  },
+  {
+   "o": "El Espectador",
+   "d": "2026-10-13",
+   "u": "https://www.elespectador.com/economia/mauricio-villamizar-del-banco-de-la-republica-preve-un-periodo-prolongado-de-tasas-altas/"
+  },
+  {
+   "o": "Buenos Aires Times",
+   "d": "2026-10-13",
+   "u": "https://batimes.com.ar/news/economy/argentina-inflation-ticks-up-19-in-september-lifting-annual-rate-to-334.phtml"
+  }
+ ],
+ "tags": [],
+ "title": "{{콜롬비아 중앙은행}} \"{{고금리 장기화}}\"…{{아르헨티나}} 물가는 {{두 달 연속 2% 밑}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/peru-seen-lifting-rate-for-first-time-since-2023-decision-guide",
+ "added": "이번 블룸버그 3건으로 {{콜롬비아 빌라미사르 위원의 고금리 장기화 발언}}과 {{아르헨티나 9월 물가 1.9%}}, {{두 달 연속 2% 미만}} 기록이 추가됐다"
+}

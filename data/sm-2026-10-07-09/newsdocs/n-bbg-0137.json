@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0137",
+ "num": 137,
+ "key": "bnd-C096-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/devon-to-sell-4-2-billon-shale-oil-assets-to-crescent-energy",
+ "origTitle": "",
+ "headline": "데본, 이글포드 셰일 자산 42억 달러에 크레센트에 매각…자사주 매입·부채 감축",
+ "src": [
+  {
+   "o": "Devon Energy 8-K(SEC)",
+   "d": "2026-10-08",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001090012/000119312526417944/d141547dex991.htm"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-08",
+   "u": "https://oilprice.com/Company-News/Devon-Energy-Exits-Eagle-Ford-in-42-Billion-Shale-Deal.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "데본, 셰일 원유 자산을 크레센트에 42억 달러에 매각",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/devon-to-sell-4-2-billon-shale-oil-assets-to-crescent-energy"
+  },
+  {
+   "t": "데본에너지, 이글포드 자산을 크레센트에너지에 42억 달러에 매각",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/transactional/devon-energy-sell-eagle-ford-assets-crescent-energy-42-billion-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "데본, 이글포드 셰일 자산 42억 달러에 크레센트에 매각…자사주 매입·부채 감축",
+ "one": "데본에너지가 하루 6만 8천 배럴(석유환산) 규모의 이글포드 셰일 자산을 크레센트에너지에 현금 42억 달러에 팔고 매각 대금을 자사주 매입과 부채 감축에 쓰기로 하면서, 미국 셰일 업계의 핵심 자산 집중과 규모 통합이 이어지고 있다",
+ "facts": [
+  "무엇이: 데본에너지가 10월 8일 이글포드 자산을 크레센트에너지에 현금 42억 달러에 매각하기로 합의 [사실]",
+  "자산: 순면적 약 9만 에이커, 하루 약 6만 8천 배럴(석유환산) 생산으로 데본 전체 생산의 약 4%, 기준일 2026년 7월 1일 [사실]",
+  "용도: 세후 매각 대금은 자사주 매입 가속과 부채 감축에 사용, 크레센트는 순매입가를 약 38억 5천만 달러로 추정 [사실]",
+  "일정: 연말 전후 거래 종결 예상, 크레센트는 600곳 넘는 시추 후보지 확보와 연 1억 4천만 달러 개선 효과를 기대 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 8-K·OilPrice 검색 결과 요약으로 확인",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

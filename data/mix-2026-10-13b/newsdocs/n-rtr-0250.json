@@ -1,0 +1,55 @@
+{
+ "id": "n-rtr-0250",
+ "num": 250,
+ "key": "mix-C104-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T22:00:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/china-issues-guidelines-new-productive-forces-including-ai-2026-10-09/",
+ "origTitle": "",
+ "headline": "중국, {{AI 플러스}} 담은 신품질 생산력 지침…'내권식 경쟁' 억제도 명시",
+ "src": [
+  {
+   "o": "중국 정부 영문 사이트",
+   "d": "2026-10-09",
+   "u": "https://english.www.gov.cn/policies/latestreleases/202610/09/content_WS6ac8d93ec6d00ca5f9a0d95c.html"
+  },
+  {
+   "o": "Xinhua",
+   "d": "2026-10-10",
+   "u": "https://english.news.cn/20261010/54694d03a83c4a739c7980b22d8626af/c.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, AI 포함한 신품질 생산력 발전 지침 발표",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/china-issues-guidelines-new-productive-forces-including-ai-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/growth"
+ ],
+ "ind": "semis",
+ "title": "중국, {{AI 플러스}} 담은 신품질 생산력 지침…'내권식 경쟁' 억제도 명시",
+ "one": "중국 공산당과 국무원이 AI 플러스 전면 시행과 출혈경쟁 억제를 담은 {{신품질 생산력 지침}} 19개 조치를 내놓으면서, {{AI의 전통 산업 적용}}과 {{내권식 경쟁}} 정리가 정책 우선순위로 굳어지고 있다",
+ "facts": [
+  "무엇이: 중국 공산당 중앙위원회와 국무원이 10월 9일 5개 분야 19개 핵심 조치로 된 신품질 생산력 발전 지침을 함께 발표했습니다 [사실]",
+  "AI: AI 플러스 이니셔티브를 전면 시행해 전통 산업을 바꾸고, AI 기술 감시·위험 조기경보·비상대응 체계를 세우도록 했습니다 [사실]",
+  "산업: 신흥 산업 지원과 함께 '내권식' 출혈경쟁을 피하는 조치를 담았고, 대학 연구 성과를 중소기업에 '먼저 쓰고 나중에 지불' 방식으로 허가하도록 했습니다 [사실]",
+  "배경: 지침은 15차 5개년 계획(2026~2030년)의 핵심 과제인 신품질 생산력 발전을 구체화한 것입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "지침 발표 주체·날짜·19개 조치·AI 플러스·내권 억제 내용은 검색 결과 요약으로 확인"
+}

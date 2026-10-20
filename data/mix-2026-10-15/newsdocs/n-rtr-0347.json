@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0347",
+ "num": 347,
+ "key": "mix-G4-049-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T22:15:00+09:00",
+ "url": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+ "origTitle": "",
+ "headline": "테슬라, 9년 지연 차세대 로드스터 공개…'플라잉카' 시연으로 부진 만회 노려",
+ "src": [
+  {
+   "o": "Electrek",
+   "d": "2026-10-13",
+   "u": "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-15",
+   "u": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "테슬라, 수년 지연 끝 차세대 로드스터 공개 예정",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
+   "s": "테슬라가 수년간 미뤄 온 차세대 로드스터 스포츠 전기차를 10월 15일 공개하기로 하면서, 양산 일정과 가격에 관심이 쏠렸다"
+  },
+  {
+   "t": "테슬라, 부진한 자동차 사업 띄우려 플라잉카 시연 준비",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/tesla-readies-flying-car-demo-to-pump-up-sluggish-auto-business",
+   "s": "테슬라가 부진한 자동차 사업에 활력을 주려고 플라잉카 시연을 준비하면서, 판매 둔화를 화제성으로 만회하려 한다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "테슬라, 9년 지연 차세대 로드스터 공개…'플라잉카' 시연으로 부진 만회 노려",
+ "one": "테슬라가 9년 가까이 미뤄 온 차세대 로드스터를 10월 15일 텍사스 스페이스X 시험장에서 공개하며 플라잉카 시연을 준비하면서, 부진한 자동차 사업에 관심을 되살리려 하지만 양산은 2027~2028년으로 잡혀 있다",
+ "facts": [
+  "무엇이: 테슬라는 10월 15일 오후 7시 55분(미 중부 시간) 텍사스 맥그레거의 스페이스X 시험장에서 차세대 로드스터 공개 행사를 생중계한다 [사실]",
+  "지연: 행사는 날씨를 이유로 10월 1일에서 미뤄졌고, 로드스터는 거의 9년 지연됐다 [사실]",
+  "시연: 테슬라는 부진한 자동차 사업을 띄우려 플라잉카 시연을 준비한다 [제목]",
+  "축소: 일렉트렉은 시연이 비행에서 짧은 공중 부양으로 줄었고 양산은 2027년 또는 2028년으로 안내돼 있다고 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Electrek·CNBC·Tesla Oracle): 10월 15일 공개 일정, 10월 1일에서 연기, 공중 부양 축소 보도, 양산 2027~2028년. 행사 결과는 검색 시점에 나오지 않음",
+ "added": "이번 블룸버그 1건으로 테슬라가 부진한 자동차 사업을 띄우려 로드스터 공개에 맞춰 플라잉카 시연을 준비한다는 점이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "테슬라 차세대 로드스터 공개, 양산은 2027~2028년"
+  },
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "테슬라 자동차 사업 부진에 시연으로 관심 끌기"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

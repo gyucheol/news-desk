@@ -1,0 +1,324 @@
+{
+ "agent": "A4",
+ "searches_used": 22,
+ "items": [
+  {
+   "key": "bbg-1007-germany-wind-solar-division",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/german-energy-ministry-dissolves-key-wind-and-solar-division",
+   "origTitle": "German Energy Ministry Dissolves Key Wind and Solar Division",
+   "published": "2026-10-07",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/wind",
+    "power/modules"
+   ],
+   "title": "독일 경제에너지부, 풍력·태양광 산업 전담 부서 해체…재생에너지 약화 논란",
+   "one": "독일 경제에너지부가 에너지 전환에 중요한 조직으로 꼽히던 풍력·태양광 산업 전담 부서를 없애기로 한 사실이 10월 6일 알려지면서, 재생에너지 업계를 맡을 정부 내 창구가 약해진다는 비판이 나오고 있다.",
+   "facts": [
+    "무엇이: 독일 경제에너지부(BMWE)가 풍력·태양광 산업을 담당하던 과(Referat)를 해체하기로 했습니다 [사실]",
+    "반응: 비판하는 쪽은 이 조치를 재생에너지의 약화로 보고 있습니다 [사실]",
+    "미확인: 해체 시점, 업무를 넘겨받을 부서, 부처가 밝힌 이유는 읽은 출처가 유료 구간이라 확인하지 못했습니다 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "블룸버그 원문 미확인 — 독일 Table.Briefings(10월 6일) 기사의 제목·요약문으로 작성. 본문이 유료라 해체 시점·이유·후속 조직은 확인 못 함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/german-energy-ministry-dissolves-key-wind-and-solar-division"
+    },
+    {
+     "o": "Table.Briefings(Climate.Table)",
+     "d": "2026-10-06",
+     "u": "https://table.media/en/climate/news/ministry-of-economic-affairs-division-for-the-wind-and-solar-energy-industry-to-be-disbanded"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "rtr-1006-europe-wind-solar-systems-exposed",
+   "source": "로이터",
+   "url": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N45S0LR:0-thousands-of-european-wind-and-solar-power-systems-exposed-online-dutch-researchers-say/",
+   "origTitle": "Thousands of European wind and solar power systems exposed online, Dutch researchers say",
+   "published": "2026-10-06",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/gen",
+    "power/wind",
+    "power/grid"
+   ],
+   "title": "유럽 풍력·태양광 관리 시스템 8,547개 인터넷에 노출…터빈 정지 화면까지 열려",
+   "one": "네덜란드 연구진이 유럽 35개국 풍력·태양광 단지의 관리 시스템 8,547개가 인터넷에 그대로 노출돼 있다고 밝히면서, 터빈을 멈출 수 있는 조작 화면까지 열려 있어 발전 설비가 원격 공작에 당할 위험이 드러났다.",
+   "facts": [
+    "무엇이: 인터넷 탐지 업체 모닷(MODAT)과 네덜란드 국가사이버보안센터가 10월 6일 헤이그 ONE 콘퍼런스에서 공동 보고서를 발표했습니다 [사실]",
+    "얼마나: 노출된 시스템은 8,547개로 태양광 7,942개·풍력 605개이며, 스페인 태양광 2,766개·그리스 1,860개·독일 태양광 672개와 풍력 212개 순입니다 [사실]",
+    "위험: 일부 화면에는 터빈의 시작·정지·초기화 버튼과 위치·실시간 출력이 보였고, 연구자는 약 180곳에서 완전한 제어가 가능했다고 말했습니다 [사실]",
+    "권고: 운영사는 관리 화면을 공용 인터넷에서 즉시 내려야 한다고 연구진은 권고했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "로이터 원문 미확인 — 헤이그시 뉴스룸(10월 6일) 발표와 로이터를 인용한 TechNadu 자체 기사로 작성. '약 180곳 완전 제어'는 로이터 인용 수치로 1차 보고서에서는 직접 확인 못 함.",
+   "src": [
+    {
+     "o": "로이터(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://in.tradingview.com/news/reuters.com,2026:newsml_L6N45S0LR:0-thousands-of-european-wind-and-solar-power-systems-exposed-online-dutch-researchers-say/"
+    },
+    {
+     "o": "헤이그시 뉴스룸(thehague.com)",
+     "d": "2026-10-06",
+     "u": "https://thehague.com/newsroom/en/news/how-solar-and-wind-farms-can-be-turned-and-anyone"
+    },
+    {
+     "o": "TechNadu",
+     "d": "2026-10-06",
+     "u": "https://www.technadu.com/researchers-find-8500-european-wind-and-solar-systems-exposed-online-with-full-control-possible-at-180-sites/640809/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "rtr-1006-eia-us-power-use-record",
+   "source": "로이터",
+   "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/",
+   "origTitle": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says",
+   "published": "2026-10-06",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/demand",
+    "power/market"
+   ],
+   "title": "미 EIA, 미국 전력 사용 2년 연속 최대 전망…PJM 도매가 41% 상승",
+   "one": "미국 에너지정보청이 10월 전망에서 미국 발전량이 2025년 4조 4,300억 kWh에서 2027년 4조 6,130억 kWh로 해마다 늘어난다고 보면서, 최대 전력망 PJM의 2026년 도매 전력값은 41% 오를 전망이다.",
+   "facts": [
+    "무엇이: 미국 에너지정보청(EIA)이 10월 6일 낸 단기 에너지 전망에서 미국 발전량을 2025년 4조 4,300억 kWh, 2026년 4조 5,450억 kWh, 2027년 4조 6,130억 kWh로 제시했습니다 [사실]",
+    "수요: 2027년 전력 판매는 데이터센터가 포함된 상업 부문이 2.8%, 산업 부문이 2.7% 늘고 가정용은 2026년 수준에 머물 것으로 봤습니다 [사실]",
+    "가격: 2026년 도매 전력값은 평균 MWh당 52달러로 2025년보다 11% 높고 PJM은 41% 오르며, 가정용 요금은 kWh당 18.2센트에서 2027년 18.7센트로 오를 전망입니다 [사실]",
+    "미확인: 로이터 제목의 '전력 사용량 사상 최대' 수치(소비량 기준)는 EIA 공개 화면에서 따로 확인하지 못했습니다 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "로이터 원문 미확인(주소는 Utility Dive 링크에서 확인) — EIA 단기 에너지 전망(10월 6일) 전력 부문 화면으로 작성. 소비량 기준 총량·기록 경신 수치는 확인 못 해 발전량·부문별 증가율로 대신함.",
+   "src": [
+    {
+     "o": "로이터(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+    },
+    {
+     "o": "미국 에너지정보청(EIA) 단기 에너지 전망",
+     "d": "2026-10-06",
+     "u": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-ls-power-6bn-fund",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/ls-power-gets-6-billion-for-largest-flagship-fund-amid-ai-boom",
+   "origTitle": "LS Power Gets $6 Billion for Largest Flagship Fund Amid AI Boom",
+   "published": "2026-10-06",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/gen",
+    "power/developers"
+   ],
+   "title": "LS파워, 6호 펀드 60억 달러로 마감…목표 40억 달러 크게 웃돌아",
+   "one": "미국 발전·송전 투자사 LS파워가 목표 40억 달러를 크게 넘는 약 60억 달러 규모의 6호 펀드를 마감하면서, 연기금·국부펀드 자금 가운데 약 17억 달러가 콘스텔레이션의 5GW 가스발전 자산 인수에 먼저 들어간다.",
+   "facts": [
+    "무엇이: LS파워가 10월 6일 'LS 파워 에쿼티 파트너스 6호'를 약 60억 달러 약정으로 마감했습니다 [사실]",
+    "얼마나: 2026년 1월 출시 때 목표는 40억 달러였고 7월에 상한까지 배정이 끝났으며, 2024년 5호 펀드는 27억 달러였습니다 [사실]",
+    "어디에: 약 17억 달러는 콘스텔레이션에서 사들이는 PJM·ERCOT의 5GW 가스발전 자산 인수에 이미 배정됐습니다 [사실]",
+    "해석: 직전 펀드의 두 배가 넘는 자금이 기존 발전 자산 인수로 몰린 것은 전력 자산으로 금융 자본 유입이 빨라졌다는 신호로 읽힙니다 [추론]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — LS파워 보도자료(10월 6일)로 작성. 제목의 'AI 붐' 배경은 보도자료에 없고 '안정적이고 저렴한 전력 수요 증가'로만 적혀 있음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/ls-power-gets-6-billion-for-largest-flagship-fund-amid-ai-boom"
+    },
+    {
+     "o": "LS파워 보도자료",
+     "d": "2026-10-06",
+     "u": "https://www.lspower.com/news/ls-power-closes-6-billion-fund-vi/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-trafigura-zambia-congo-power-link",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/trafigura-and-partners-back-300-million-zambia-congo-power-link",
+   "origTitle": "Trafigura and Partners Back $300 Million Zambia-Congo Power Link",
+   "published": "2026-10-06",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "title": "트라피구라 등, 잠비아–콩고 구리벨트 송전선에 3억 달러…최대 550MW 수입 길",
+   "one": "트라피구라·그리드웍스·콩고 전략투자기금이 잠비아 칼룸빌라와 콩고 콜웨지를 잇는 200km 송전선(건설비 약 3억 달러)을 짓기로 하면서, 전력이 1GW 넘게 모자란 구리벨트 광산에 최대 550MW를 들여올 길이 열린다.",
+   "facts": [
+    "무엇이: 콩고민주공화국 전략투자기금(FIS-RDC)·엔파워·트라피구라·그리드웍스가 10월 6일 킨샤사에서 칼룸빌라–콜웨지 연계선 사업 협약에 서명했습니다 [사실]",
+    "얼마나: 길이 200km, 건설비 약 3억 달러이며 열용량 700MW로 최대 550MW를 수입할 수 있고 1GW 이상으로 늘릴 수 있게 설계됐습니다 [사실]",
+    "왜: 콩고는 구조적으로 전력이 1GW 넘게 모자라 광산·제련 사업이 멈춰 있으며, 이 선로는 광산의 전력 구매 계약을 바탕으로 합니다 [사실]",
+    "자금: 영국 개발금융기관이 소유한 그리드웍스가 최대 주주로 지분 투자를 이끌고 트라피구라는 부채 조달의 상당 부분을 주선하며, 착공·준공 시점은 발표에 없습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 트라피구라 보도자료(10월 6일)로 작성. 착공·준공 일정과 전압은 발표에 없음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/trafigura-and-partners-back-300-million-zambia-congo-power-link"
+    },
+    {
+     "o": "트라피구라 보도자료",
+     "d": "2026-10-06",
+     "u": "https://www.trafigura.com/news-and-insights/press-releases/2026/fis-rdc-enpower-trafigura-and-gridworks-join-forces-to-deliver-landmark-power-interconnector-to-supply-the-drc-s-copperbelt/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1006-vietnam-lng-power-behind-schedule",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule",
+   "origTitle": "Vietnam’s LNG Power-Plant Ambitions Are Well Behind Schedule",
+   "published": "2026-10-06",
+   "inds": [
+    "power",
+    "gas"
+   ],
+   "nodes": [
+    "power/gen",
+    "gas/demand"
+   ],
+   "title": "베트남 LNG 발전 확대 계획 크게 지연…18개 사업 중 1곳만 일정 맞출 듯",
+   "one": "베트남 정부가 2030년까지 LNG 발전소 15곳 22.5GW를 가동하려 하지만 점검 대상 18개 사업 중 히엡프억 1곳만 일정을 맞출 수 있는 것으로 파악되면서, 전력 공급 확충과 LNG 수입 수요 증가가 계획보다 늦어질 수 있다.",
+   "facts": [
+    "무엇이: 베트남 산업무역부 집계로 정부가 점검하는 LNG 발전 사업 18개 가운데 일정을 맞출 수 있는 곳은 호찌민시의 히엡프억 1곳뿐입니다 [사실]",
+    "얼마나: 전력개발계획은 2030년까지 15개 사업 2만 2,524MW의 상업 운전을 목표로 하며, 18개 중 착공한 곳은 2곳이고 2곳은 투자자도 정해지지 않았습니다 [사실]",
+    "왜: 투자 준비, 토지 확보, 자금 조달, 전력 구매 계약이 걸림돌로 꼽혔고 한 고리가 늦으면 가스 발전 사슬 전체가 밀린다고 부처는 설명했습니다 [사실]",
+    "영향: 발전소 가동이 늦어지면 베트남의 LNG 수입 증가 시점도 뒤로 밀릴 수 있습니다 [추론]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 베트남 더인베스터(10월 2일, 산업무역부 자료)와 Gas to Power Journal(10월 6일) 보도로 작성. 블룸버그가 따로 쓴 수치는 확인 못 함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-06",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-06/vietnam-s-plan-to-expand-lng-fired-power-is-well-behind-schedule"
+    },
+    {
+     "o": "더인베스터(theinvestor.vn)",
+     "d": "2026-10-02",
+     "u": "https://theinvestor.vn/vietnams-lng-power-pipeline-faces-delays-only-one-seen-on-track-d20138.html"
+    },
+    {
+     "o": "Gas to Power Journal",
+     "d": "2026-10-06",
+     "u": "https://gastopowerjournal.com/news/projectsandfinance/vietnam-lng-to-power-plans-delayed-hiep-phuoc-stays-on-track/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1002-south-africa-grid-plan-delay",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/south-africa-delays-power-grid-expansion-plan-by-six-months",
+   "origTitle": "South Africa Delays Power-Grid Expansion Plan by Six Months",
+   "published": "2026-10-02",
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/grid"
+   ],
+   "title": "남아공, 첫 민간 송전망 입찰 6개월 연기…10억 달러 사업 2027년으로",
+   "one": "남아공 전력에너지부와 재무부가 민간이 짓는 첫 송전선 사업(1,164km, 약 10억 달러)의 최종 입찰 공고를 2026년 3분기에서 2027년 2분기로 미루면서, 남아공의 송전망 확충 일정이 반년가량 늦어지게 됐다.",
+   "facts": [
+    "무엇이: 남아공 전력에너지부와 재무부가 공동 성명으로 독립 송전 사업 1단계의 최종 입찰 제안 요청서 발행을 2027년 2분기로 늦췄습니다 [사실]",
+    "얼마나: 대상은 7개 구간 1,164km 송전선과 변전 설비로 투자액은 약 10억 달러이며, 원래 기한은 2026년 3분기였습니다 [사실]",
+    "왜: 사전 자격을 얻은 7개 컨소시엄과 대주단이 금융 조달 가능성 문제를 더 짚을 수 있도록 연말까지 2차 초안을 돌려 추가 협의하기로 했습니다 [사실]",
+    "다음 일정: 정부 보증을 대신할 신용보증기구는 8월 12일 설립됐고 구속력 있는 조건 합의 목표는 2027년 1분기 말입니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 남아공 엔지니어링뉴스(10월 1일) 보도로 작성.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-02",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-02/south-africa-delays-power-grid-expansion-plan-by-six-months"
+    },
+    {
+     "o": "엔지니어링뉴스(남아공)",
+     "d": "2026-10-01",
+     "u": "https://www.engineeringnews.co.za/article/south-africa-delays-rfp-for-1bn-inaugural-private-grid-procurement-to-2027-2026-10-01"
+    }
+   ],
+   "dupOf": ""
+  }
+ ],
+ "skipped": [
+  {
+   "title": "Google, Constellation Energy Strike Deal for Nuclear Power",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power",
+   "date": "2026-10-06",
+   "reason": "범위 밖(원전 — 다른 에이전트 담당)"
+  },
+  {
+   "title": "Google, Constellation near deal for nuclear power, Bloomberg News reports",
+   "url": "https://tradingview.com/news/reuters.com,2026:newsml_L6N45S03K:0-google-constellation-near-deal-for-nuclear-power-bloomberg-news-reports",
+   "date": "2026-10-06",
+   "reason": "범위 밖(원전 — 다른 에이전트 담당)"
+  },
+  {
+   "title": "Blue Energy Seeks Texas Grid Connection for Small Nuclear Reactors",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid",
+   "date": "2026-10-06",
+   "reason": "범위 밖(SMR — 다른 에이전트 담당)"
+  },
+  {
+   "title": "Weak Monsoon Drives India September Power Gap to Decade High",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/weak-monsoon-india-september-power-deficit",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(n-rtr-0004)"
+  },
+  {
+   "title": "Tata Power Says India Will Meet Surging AI Electricity Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/tata-power-says-india-will-meet-surging-ai-electricity-demand",
+   "date": "2026-10-01",
+   "reason": "예산"
+  },
+  {
+   "title": "Australia’s Energy Experiment Proved the Skeptics Wrong",
+   "url": "https://www.bloomberg.com/opinion/articles/2026-10-06/australia-s-energy-experiment-proved-the-skeptics-wrong",
+   "date": "2026-10-06",
+   "reason": "범위 밖(칼럼)"
+  },
+  {
+   "title": "ZAWYA: Africa set for record 17 GW solar installations in 2026",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-06:newsml_Zaw23XdMX:0-zawya-africa-set-for-record-17-gw-solar-installations-in-2026/",
+   "date": "2026-10-06",
+   "reason": "범위 밖(로이터 자체 기사가 아닌 Zawya 전재)"
+  },
+  {
+   "title": "UAE, Saudi Arabia to be biggest drivers of data centre growth in Middle East: S&P",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-05:newsml_ZawBpkjG:0-uae-saudi-arabia-to-be-biggest-drivers-of-data-centre-growth-in-middle-east-s-p/",
+   "date": "2026-10-05",
+   "reason": "범위 밖(로이터 자체 기사가 아닌 Zawya 전재)"
+  }
+ ]
+}

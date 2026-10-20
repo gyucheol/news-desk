@@ -1,0 +1,67 @@
+{
+ "id": "n-bbg-0117",
+ "num": 117,
+ "key": "bnd-C059-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T00:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-jobless-claims-eased-last-week-to-lowest-level-since-july",
+ "origTitle": "",
+ "headline": "미 신규 실업수당 청구 19만7000건, 7월 이후 최저…해고는 여전히 적어",
+ "src": [
+  {
+   "o": "Babypips",
+   "d": "2026-10-09",
+   "u": "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10-08",
+   "u": "https://tradingeconomics.com/united-states/jobless-claims"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 신규 실업수당 청구, 지난주 7월 이후 최저로 감소",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/us-jobless-claims-eased-last-week-to-lowest-level-since-july"
+  },
+  {
+   "t": "미국 8월 도매재고, 기존 발표보다 하향 수정",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/us-august-wholesale-inventories-revised-lower-2026-10-08/"
+  },
+  {
+   "t": "미 주간 실업수당 청구 감소…해고는 낮은 수준 유지",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/us-weekly-jobless-claims-fall-layoffs-remain-low-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미 신규 실업수당 청구 19만7000건, 7월 이후 최저…해고는 여전히 적어",
+ "one": "미국 신규 실업수당 청구가 10월 첫째 주 19만7000건으로 줄어 7월 중순 이후 최저를 기록하면서, 9월 일자리 증가가 2만9000개에 그친 '저채용·저해고' 노동시장에서 해고 급증 신호는 아직 보이지 않는다",
+ "facts": [
+  "무엇이: 10월 3일로 끝난 주 신규 실업수당 청구가 2000건 줄어 19만7000건, 예상치 20만 건 하회 [사실]",
+  "추세: 9월 둘째 주 이후 20만 건 아래 유지, 4주 평균 19만8000건으로 2022년 10월 이후 최저 [사실]",
+  "재취업 지표: 계속 청구는 1만7000건 늘어 171만6000건 [사실]",
+  "고용: 9월 비농업 일자리는 2만9000개 증가에 그침 [사실]",
+  "재고: 8월 도매재고는 하향 수정 [제목]"
+ ],
+ "basis": "verified",
+ "check": "실업수당 수치와 9월 고용은 US News·Babypips 등으로 확인(검색 결과 요약으로 확인). 도매재고 수정폭은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

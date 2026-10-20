@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0089",
+ "feed": "v5",
+ "format": "one1",
+ "num": 89,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-equinor-hammerfest-lng-cost",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/equinor-hikes-norway-lng-plant-upgrade-cost-amid-project-hurdles",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/upstream"
+ ],
+ "title": "에퀴노르, 함메르페스트 LNG 개조 비용 265억 크로네로 또 상향",
+ "one": "에퀴노르가 노르웨이 함메르페스트 LNG 공장 개조(스뇌비트 퓨처) 사업비를 2022년 계획의 약 두 배인 265억 크로네로 다시 올리면서, 합작사들의 비용 부담이 커졌지만 2029~2030년 가동 일정은 유지된다",
+ "headline": "에퀴노르, 함메르페스트 LNG 개조 비용 265억 크로네로 또 상향",
+ "facts": [
+  "무엇이: 에퀴노르가 10월 7일 연 430만 톤 규모 함메르페스트 LNG의 개조 사업(스뇌비트 퓨처) 비용 추정치를 265억 크로네(2026년 가치)로 올렸습니다. [사실]",
+  "얼마나: 2022년 계획은 132억 크로네(현재 가치 152억 크로네), 2025년 12월 추정은 200억 크로네 남짓이었습니다. [사실]",
+  "왜: 가동 중인 공장 안에서 공사하는 어려움, 날씨, 전력 케이블 터널의 암반 조건이 원인으로 제시됐습니다. [사실]",
+  "다음 일정: 공정률은 약 60%이고, 육상 압축 설비는 2029년, 전기화는 2030년 가동으로 일정은 바뀌지 않았습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 에퀴노르 보도자료 목록(10월 7일)과 애스크트레이더스(10월 7일), LNG 프라임(10월 7일, 앞부분만 공개) 보도로 작성. 달러 환산액은 확인 못 함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/equinor-hikes-norway-lng-plant-upgrade-cost-amid-project-hurdles"
+  },
+  {
+   "o": "에퀴노르 보도자료 목록",
+   "d": "2026-10-07",
+   "u": "https://www.equinor.com/news"
+  },
+  {
+   "o": "AskTraders",
+   "d": "2026-10-07",
+   "u": "https://www.asktraders.com/analysis/equinor-lifts-snohvit-future-cost-estimate-to-nok-26-5bn-but-keeps-timetable/"
+  },
+  {
+   "o": "LNG Prime",
+   "d": "2026-10-07",
+   "u": "https://lngprime.com/europe/equinor-says-hammerfest-lng-upgrade-costs-climb-further/198023/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Equinor Hikes Norway LNG Plant Upgrade Cost Amid Project Hurdles"
+}

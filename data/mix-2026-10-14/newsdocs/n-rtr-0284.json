@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0284",
+ "num": 284,
+ "key": "mix-C055-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T02:07:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/maldives-seeks-support-build-buffers-energy-costs-rise-minister-says-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{에너지값 급등}}에 {{신흥국 연료난}}…{{말라위}} 주유소 밤샘 줄, {{몰디브}}는 {{지원 요청}}",
+ "src": [
+  {
+   "o": "TimesLive",
+   "d": "2026-10-13",
+   "u": "https://www.timeslive.co.za/news/africa/2026-10-13-malawi-motorists-sleep-at-stations-as-fuel-runs-dry/"
+  },
+  {
+   "o": "allAfrica",
+   "d": "2026-10-05",
+   "u": "https://allafrica.com/stories/202610050295.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "몰디브 장관 \"에너지 비용 상승에 완충 재원 마련 지원 모색\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/maldives-seeks-support-build-buffers-energy-costs-rise-minister-says-2026-10-13/",
+   "s": "{{몰디브}}가 {{에너지 비용 상승}}에 대비한 {{완충 재원}}을 {{쌓기 위해}} {{외부 지원}}을 {{요청}}하면서 {{섬나라 재정}}의 {{에너지 수입 부담}}이 {{드러났}}다 (제목 기준)"
+  },
+  {
+   "t": "말라위 연료난 재발…운전자들 주유소에서 밤새워 대기",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/africa/malawi-motorists-sleep-petrol-stations-fuel-shortages-return-2026-10-13/",
+   "s": "{{말라위}}에서 {{외화 부족}}으로 {{연료가 다시 바닥나}} 운전자들이 {{주유소에서 밤을 새우고}} 택시 기사들이 {{일을 못 하면서}} {{교통·생계 부담}}이 {{커지고}} 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/fx"
+ ],
+ "title": "{{에너지값 급등}}에 {{신흥국 연료난}}…{{말라위}} 주유소 밤샘 줄, {{몰디브}}는 {{지원 요청}}",
+ "one": "이란 전쟁 뒤 {{에너지 비용}}이 {{치솟고}} {{외화가 바닥난}} 가운데 {{말라위}}에서 운전자들이 주유소에서 밤을 새우는 {{연료난이 재발}}하고 {{몰디브}}도 {{에너지 비용 완충 재원}} 마련에 {{지원을 요청}}하면서, {{연료 수입 신흥국}}의 {{외화·재정 압박}}이 {{커지고}} 있다",
+ "facts": [
+  "무엇이: 말라위 블랜타이어·릴롱궤에서 연료가 바닥나 운전자들이 주유소에서 밤을 새우며 줄을 서고, 택시·미니버스 운행이 멈추거나 요금이 올랐습니다 [사실]",
+  "원인: 말라위 정부는 외화 부족을 원인으로 들었고, IMF 보고서는 국제 은행들이 말라위 연료 수입 신용장 확인을 중단했다고 지적했습니다 [사실]",
+  "지원: 말라위는 IMF와 새 대출을 논의 중이지만 아직 합의하지 못했습니다 [사실]",
+  "몰디브: 몰디브 장관은 에너지 비용이 오르자 완충 재원 마련을 위한 지원을 구하고 있다고 했습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "TimesLive·allAfrica 등 검색 결과 요약으로 말라위 연료난, 외화 부족, 신용장 확인 중단 확인. 몰디브 지원 요청은 로이터 제목만 근거",
+ "added": "이번 로이터 말라위 기사로 {{몰디브}}에 이어 {{말라위}}에서도 {{연료 부족이 다시 나타나}} {{운전자들이 주유소에서 밤을 새운다}}는 사실이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

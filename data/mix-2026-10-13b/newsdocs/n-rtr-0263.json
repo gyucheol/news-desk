@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0263",
+ "num": 263,
+ "key": "mix-C123-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T05:05:00+09:00",
+ "url": "https://www.reuters.com/legal/government/lawmaker-calls-us-research-funding-curbs-more-chinese-schools-2026-10-09/",
+ "origTitle": "",
+ "headline": "미 의원, {{中 대학 연구자금 제한}} 확대 요구",
+ "src": [],
+ "items": [
+  {
+   "t": "미 의원, 연구자금 제한 대상 중국 대학 확대 촉구",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/legal/government/lawmaker-calls-us-research-funding-curbs-more-chinese-schools-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "미 의원, {{中 대학 연구자금 제한}} 확대 요구",
+ "one": "{{미국 의원}}이 연구자금 지원 제한 대상을 {{더 많은 중국 대학}}으로 넓히라고 요구하면서, 미중 학술 협력과 공동 연구가 더 좁아지고 {{기술 통제}}가 강화될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국 의원이 연구자금 제한을 더 많은 중국 학교로 넓히라고 촉구했습니다 [제목]",
+  "의미: 미중 기술 경쟁이 학술 연구 협력 분야로 넓어지고 있습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음. 제목만 근거"
+}

@@ -1,0 +1,135 @@
+{
+ "added": "이번 블룸버그 2건과 로이터 1건으로 아홀드 웹사이트·앱 닷새째 중단과 H&M 장애에 따른 주가 하락, 슈퍼마켓 공격이 식품 안보를 위협한다는 분석이 추가됐다",
+ "basis": "partial",
+ "check": "아홀드 온라인 중단·환불·재가동은 검색 결과 요약으로 확인. H&M 장애와 주가 영향, 식품 안보 분석은 확인 못 해 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아홀드 델레이즈는 11일 시작된 사이버보안 사고로 알버트 하인·델레이즈·스톱앤숍·푸드라이언 등 유럽·미국 브랜드의 웹사이트와 앱을 닷새째 내렸고, 매장·약국·주유소는 문을 열었다 [사실]",
+  "대응: 아홀드는 고객·직원 정보 유출 증거는 없다며 일부 시스템의 통제된 재가동을 시작했고, 미국 브랜드는 처리 못 한 온라인 주문을 환불하기로 했다 [사실]",
+  "H&M: H&M은 시스템 장애로 주가가 떨어졌고, 잇단 사이버공격이 트레이더들을 불안하게 했다 [제목]",
+  "식품 안보: 슈퍼마켓 사이버공격이 식품 안보 위협을 더한다는 분석이 나왔다 [제목]",
+  "기존: 프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격 피해를 입었고, 보험사들은 식품 폐기 같은 물리적 손실은 대개 보상하지 않는다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유럽 유통 사이버공격 확산…아홀드 온라인 5일째 중단, H&M도 장애에 주가 타격",
+ "id": "n-rtr-0230",
+ "incentive": "",
+ "inds": [
+  "consumer",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "佛 슈퍼마켓 체인 앵테르마르셰 사이버공격, 매장 150곳 표적",
+   "u": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{쿠페라티브 U}}가 {{매장 약 2,000곳 중 80곳}}이 {{사이버공격 피해}}를 입었다고 밝히면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 떠안았다",
+   "t": "佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해",
+   "u": "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "네덜란드 알버트 하인이 사이버 사고로 멈춘 물류센터가 곧 정상 가동될 것으로 예상하면서, 매장 공급 차질이 조만간 풀릴 수 있다 (제목 기준)",
+   "t": "알버트 하인, 사이버 사고 뒤 물류센터 곧 정상화 예상",
+   "u": "https://www.reuters.com/business/albert-heijn-expects-distribution-centres-be-operational-soon-after-cyber-2026-10-14/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "보험사들이 사이버보험은 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 밝히면서, 프랑스 슈퍼마켓이 손실을 떠안게 될 수 있다",
+   "t": "보험사 \"佛 슈퍼마켓 사이버보험, 식품 손실 보상 어려워\"",
+   "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/"
+  },
+  {
+   "t": "H&M 시스템 장애에 주가 하락…사이버공격에 트레이더들 긴장",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/h-m-outage-hits-stock-as-cyberattacks-spook-traders",
+   "s": "H&M의 시스템 장애가 주가를 끌어내리면서 잇단 사이버공격에 유통주 트레이더들의 경계가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "슈퍼마켓 사이버공격, 식품 안보 위협을 키운다",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/supermarket-cyberattacks-add-to-food-security-threats",
+   "s": "슈퍼마켓을 겨냥한 사이버공격이 이어지면서 이미 쌓여 있던 식품 안보 위협 요인이 하나 더 늘었다는 분석이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "슈퍼마켓 운영사 아홀드, 사이버 사고 5일 지나도 웹사이트·앱 중단",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/supermarket-operator-aholds-websites-app-remain-offline-5-days-after-cyber-2026-10-16/",
+   "s": "아홀드 델레이즈가 사이버 사고 뒤 닷새째 웹사이트와 앱을 열지 못하면서, 알버트 하인·스톱앤숍 등 유럽·미국 브랜드의 온라인 주문이 멈추고 환불이 이어졌다"
+  }
+ ],
+ "key": "mix-C164-2026-10-13",
+ "nodes": [],
+ "num": 230,
+ "one": "프랑스 슈퍼마켓 약 700곳을 덮친 냉장 관리 소프트웨어 해킹에 이어 아홀드 델레이즈의 웹사이트·앱이 11일부터 닷새째 멈추고 H&M 장애가 주가를 끌어내리면서, 보험 보상이 어려운 유통업체의 손실과 식품 공급 불안이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T22:12:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Washington Times(AP)",
+   "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Insurance Journal",
+   "u": "https://www.insurancejournal.com/news/international/2026/10/15/889037.htm"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "NBC News",
+   "u": "https://www.nbcnews.com/world/europe/hackers-heat-french-supermarket-fridges-sparking-fires-spoiling-food-rcna603151"
+  },
+  {
+   "o": "Grocery Dive",
+   "d": "2026-10-16",
+   "u": "https://www.grocerydive.com/news/ahold-delhaize-usa-sites-still-down/832900/"
+  },
+  {
+   "o": "Supermarket News",
+   "d": "2026-10-16",
+   "u": "https://www.supermarketnews.com/grocery-technology/ahold-delhaize-s-web-shutdown-enters-fifth-day"
+  },
+  {
+   "o": "BleepingComputer",
+   "d": "2026-10-13",
+   "u": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
+  }
+ ],
+ "tags": [],
+ "title": "유럽 유통 사이버공격 확산…아홀드 온라인 5일째 중단, H&M도 장애에 주가 타격",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "아홀드 웹사이트·앱 닷새째 중단"
+  },
+  {
+   "ind": "consumer",
+   "node": "apparel",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "H&M 시스템 장애에 주가 하락"
+  }
+ ]
+}

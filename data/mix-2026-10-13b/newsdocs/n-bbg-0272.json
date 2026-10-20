@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0272",
+ "num": 272,
+ "key": "mix-C171-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T09:05:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/australia-s-new-south-wales-backs-gas-power-as-coal-plants-shut",
+ "origTitle": "",
+ "headline": "호주 NSW, {{석탄발전 폐쇄}} 앞두고 가스발전 지원",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-13",
+   "u": "https://www.briefs.co/news/new-south-wales-tender-favors-gas-peakers-leaves-out-batteri/"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-01-20",
+   "u": "https://www.abc.net.au/news/2026-01-20/eraring-coal-fired-power-station-to-stay-open-until-2029/106247568"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 뉴사우스웨일스주, 석탄발전소 폐쇄에 가스발전 지원",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-s-new-south-wales-backs-gas-power-as-coal-plants-shut"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "gas",
+  "coal"
+ ],
+ "nodes": [
+  "power/gen",
+  "gas/demand",
+  "coal/power"
+ ],
+ "title": "호주 NSW, {{석탄발전 폐쇄}} 앞두고 가스발전 지원",
+ "one": "{{호주 NSW주}}가 노후 석탄발전소 폐쇄에 대비해 배터리를 뺀 {{1,500MW}} 규모 예비전력 입찰로 가스 피크발전을 지원하면서, {{가스발전 수요}}가 늘어날 수 있다",
+ "facts": [
+  "무엇이: 호주 뉴사우스웨일스주가 석탄발전소 폐쇄에 대비해 가스발전을 지원합니다 [제목]",
+  "입찰: NSW주는 1,500MW 규모 입찰에서 대부분을 가스 피크발전으로 채우려 하며 배터리 등 저장장치를 제외했습니다 [사실]",
+  "석탄: 호주 최대 석탄발전소 에라링은 폐쇄가 2029년 4월 30일로 미뤄졌고, NSW 남은 석탄발전소 4곳 중 3곳이 2033년까지 문을 닫습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "1,500MW 가스 피크발전 입찰과 석탄 폐쇄 일정은 검색 결과 요약으로 확인. 블룸버그 기사와 같은 발표인지는 확인 못 함"
+}

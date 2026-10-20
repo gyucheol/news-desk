@@ -1,0 +1,74 @@
+{
+ "basis": "verified",
+ "check": "셸 3분기 안내문을 다룬 StockTitan·DirectorsTalk 등의 검색 결과 요약으로 가스 생산 전망 수치까지 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 셸이 3분기 통합가스 생산 전망을 하루 74만~78만 배럴(석유환산)로 제시, 2분기 63만1000배럴보다 높다 [사실]",
+  "정제: 3분기 정제 마진 지표를 2분기 24달러에서 배럴당 42달러로 높여 안내 [사실]",
+  "화학: 화학 마진은 톤당 270달러에서 208달러로 하락 [사실]",
+  "주의: 이전 3분기 전망(57만~63만 배럴)은 ARC리소시스·카타르 물량을 뺀 수치라 직접 비교는 어렵다 [사실]",
+  "기타: 정제 가동률 93~97%로 하락(라인강 수위), 독일 배출권 관련 약 25억 달러 현금 유출 예상 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "셸, 3분기 정제 마진 75% 급등 예고에 가스 생산 전망도 상향",
+ "id": "n-bbg-0100",
+ "incentive": "",
+ "inds": [
+  "gas",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "셸, 3분기 가스 생산 전망 상향",
+   "u": "https://www.reuters.com/business/energy/shell-raises-q3-gas-output-forecast-2026-10-07/"
+  }
+ ],
+ "key": "bbg-1007-shell-q3-refining-margin",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/upstream",
+  "petchem/commodity"
+ ],
+ "num": 100,
+ "one": "셸이 3분기 정제 마진 지표를 배럴당 24달러에서 42달러로 높여 안내한 데 이어 통합가스 부문 생산 전망도 올리면서, 정유·가스 부문 이익은 늘지만 화학 마진은 톤당 208달러로 떨어져 석유화학 부진은 이어질 전망이다",
+ "origTitle": "Shell Sees Record Refining Margins as War Roils Fuel Markets",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T23:23:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "셸 3분기 안내문(GlobeNewswire)",
+   "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+  },
+  {
+   "o": "StockTitan(셸 안내문)",
+   "d": "2026-10-07",
+   "u": "https://www.stocktitan.net/news/SHEL/shell-third-quarter-2026-update-ip8be8zrdsz6.html"
+  },
+  {
+   "o": "DirectorsTalk",
+   "d": "2026-10-07",
+   "u": "https://www.directorstalkinterviews.com/shell-raises-q3-integrated-gas-outlook-as-refining-margins-improve/4121265558"
+  }
+ ],
+ "tags": [],
+ "title": "셸, 3분기 정제 마진 75% 급등 예고에 가스 생산 전망도 상향",
+ "updatedAt": "2026-10-09T15:22:03+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+}

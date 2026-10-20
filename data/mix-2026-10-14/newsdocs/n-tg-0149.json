@@ -1,0 +1,187 @@
+{
+ "added": "이번 텔레그램 2건으로 {{세레브라스 52주 신저가}}와 {{10월 14일 1,940만 주 보호예수 해제}}, {{오픈AI 매출 소식}}에 따른 {{반도체주 급락}}이 추가됐다",
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "세레브라스 52주 신저가, 오픈AI 엔비디아 GPU 보도, 10월 14일 1,940만 주 해제 예정을 검색 결과 요약으로 확인(해제 시점은 출처 간 차이 있음). 상장 첫 거래일 대비 58% 하락 수치는 직접 확인하지 못함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 세레브라스 주가가 10월 12일 약 10% 내려 52주 신저가(약 147달러)를 기록하며 공모가 185달러를 밑돌았습니다 [사실]",
+  "원인: 오픈AI GPT-6.1 Sol 초고속 추론이 세레브라스가 아닌 엔비디아 GPU에서 돌아간다는 보도가 나왔고, 세레브라스는 2028년까지 오픈AI에 750MW 컴퓨팅을 공급하는 100억 달러 넘는 계약을 맺고 있습니다 [사실]",
+  "물량: 10월 14일 약 1,940만 주가 매도 가능 물량으로 풀린다는 보도가 많지만 해제 시점은 출처마다 엇갈립니다 [사실]",
+  "기존: FT는 오픈AI 9월 말 연환산 매출을 순매출 약 500억 달러로 보도했고, 앞서 알려진 680억~700억 달러는 파트너 총매출을 포함한 수치였습니다 [사실]",
+  "시장: 채널은 이 소식이 반도체주 급락과 함께 최근 급등한 국채 금리를 식히는 효과도 냈다고 봤습니다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{오픈AI 매출 논란}}에 {{세레브라스 52주 신저가}}…14일 1,940만 주 {{보호예수 해제}}",
+ "id": "n-tg-0149",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "t": "소프트뱅크, 오픈AI에 마지막 100억 달러 납입…누적 646억 달러·지분 13%",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "오픈AI, 2026년 말 연환산 매출 700억 달러 예상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "FT \"오픈AI 연환산 매출, 앞서 알려진 것보다 200억 달러 적어\"",
+   "u": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 Polaristimes",
+   "t": "앤트로픽 연환산 매출 성장 정체 주장…중국산 저가 AI 잠식 지목",
+   "u": "https://t.me/The_MariTimes/63604"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 TNBfolio",
+   "t": "오픈AI 매출 200억 달러 적다는 보도에 필라델피아 반도체지수 3.66% 급락",
+   "u": "https://t.me/TNBfolio/71482"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 카이에 de market",
+   "t": "CNN, 오픈AI 매출 예상보다 낮다는 보도에 기술주 하락…회계 기준 차이 지목",
+   "u": "https://t.me/cahier_de_market/10950"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 카이에 de market",
+   "t": "TickerTrends, 오픈AI 연간 매출 추적치 약 504억 달러로 FT 보도와 부합",
+   "u": "https://t.me/cahier_de_market/10951"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{앤트로픽}}은 {{클라우드 판매를 총액}}으로, {{오픈AI}}는 {{분배분만 순액}}으로 잡는 차이가 {{드러나}}면서 {{연환산 매출 부풀림 논란}}이 {{기술주 하락}}을 {{불렀}}다",
+   "t": "오픈AI·앤트로픽 매출은 직접 비교 불가…총액 대 순액 '수치 산정 게임'",
+   "u": "https://t.me/HANAchina/70171"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 양파농장",
+   "s": "{{FT}}가 {{기사를 고쳐}} {{오픈AI 9월 연환산 매출}}을 {{순매출 500억·총매출 700억 달러}}로 {{구분}}하면서 {{매출 축소 논란}}이 {{회계 기준 차이}}로 {{정리}}됐다",
+   "t": "FT, 오픈AI 9월 연환산 순매출 500억·총매출 700억 달러로 기사 수정",
+   "u": "https://t.me/Onionfarmer/18057"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 양파농장",
+   "s": "{{오픈AI 연환산 매출의 전년 대비 성장률}}이 {{6월 131%에서 9월 229%로 높아졌}}다는 분석이 나오면서 {{AI 인프라 수요 둔화 우려를 반박하는 시각}}이 나왔다",
+   "t": "오픈AI 연환산 매출 성장률, 6월 131%에서 9월 229%로 재가속",
+   "u": "https://t.me/Onionfarmer/18061"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 TNBfolio",
+   "s": "{{오픈AI의 2026년 실제 매출}}이 {{약 350억 달러}}로 {{연말 연환산 전망치의 절반에 그칠}} 것이라는 분석이 나오면서 {{1조 달러 AI 밸류에이션의 근거}}가 {{흔들리}}고 있다",
+   "t": "오픈AI 2026년 실제 매출 350억 달러 예상…연말 연환산 전망의 절반",
+   "u": "https://t.me/TNBfolio/71492"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "{{오픈AI의 기업가치}}가 {{월마트와 비슷한 8,520억 달러}}지만 {{올해 약 140억 달러 순손실}}이 {{예상}}되면서 {{상장 과정에서 밸류에이션 재평가 압력}}이 {{커질}} 수 있다",
+   "t": "오픈AI·월마트 기업가치 비슷해도 순이익 210억 대 순손실 140억 달러",
+   "u": "https://t.me/insidertracking/65954"
+  },
+  {
+   "t": "세레브라스 52주 신저가…상장 첫날 대비 58% 하락, 보호예수 해제 부담",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66120",
+   "s": "{{세레브라스}}가 {{오픈AI와의 관계 우려}}와 10월 14일 {{1,940만 주 보호예수 해제}}에 {{52주 신저가}}로 떨어져 상장 첫 거래일 대비 {{약 58% 하락}}했다"
+  },
+  {
+   "t": "오픈AI 연율화 매출 500억 달러…투자자 제시치보다 200억 달러 낮아",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63688",
+   "s": "{{오픈AI 연율화 매출}}이 {{500억 달러}}로 투자자 제시치보다 {{200억 달러 낮다}}는 소식에 {{반도체주}}가 {{급락}}하고 {{국채 금리 급등}}도 {{식을}} 수 있다"
+  }
+ ],
+ "key": "tg-Trillion_labs-9903",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 149,
+ "one": "{{오픈AI 연환산 매출}}이 투자자 설명보다 {{200억 달러 낮은 500억 달러}}로 드러난 데 이어 {{오픈AI 신모델}}이 {{엔비디아 GPU로 돈다}}는 보도까지 나오면서, {{세레브라스}}가 {{52주 신저가}}로 떨어지고 14일 {{1,940만 주 보호예수 해제}}가 {{매도 압력}}을 {{키울}} 수 있다",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T22:06:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9903"
+  },
+  {
+   "d": "2026-10",
+   "o": "Neoteo",
+   "u": "https://www.neoteo.com/en/softbank-confirms-10b-openai-tranche-nvidia-payment-reported"
+  },
+  {
+   "d": "2026-03-31",
+   "o": "오픈AI",
+   "u": "https://openai.com/index/accelerating-the-next-phase-ai/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Investing.com",
+   "u": "https://www.investing.com/news/stock-market-news/openai-expects-to-reach-70-bln-revenue-by-end2026-bloomberg-reports-4940179"
+  },
+  {
+   "d": "2026-09-29",
+   "o": "Axios",
+   "u": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Investing.com(FT 인용)",
+   "u": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-at-50bn-far-below-reports--ft-4939530"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "TechCrunch",
+   "u": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Tech Times",
+   "u": "https://www.techtimes.com/articles/328836/20261009/investors-built-70b-openai-revenue-estimate-using-wrong-method-ai-stocks-fell-when-ft-corrected.htm"
+  },
+  {
+   "o": "StreetInsider",
+   "d": "2026-10-12",
+   "u": "https://www.streetinsider.com/Investing/Cerebras+Systems+hits+new+52-week+low+on+unlock+concerns/27174830.html"
+  },
+  {
+   "o": "CoinCentral",
+   "d": "2026-10-12",
+   "u": "https://coincentral.com/cerebras-cbrs-stock-falls-to-52-week-low-on-openai-report-microsoft-chip-news"
+  }
+ ],
+ "tags": [],
+ "title": "{{오픈AI 매출 논란}}에 {{세레브라스 52주 신저가}}…14일 1,940만 주 {{보호예수 해제}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://t.me/Trillion_labs/9903"
+}

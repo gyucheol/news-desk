@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0259",
+ "num": 259,
+ "key": "mix-C117-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T02:47:00+09:00",
+ "url": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/",
+ "origTitle": "",
+ "headline": "트럼프, 멕시코에 {{양국 에너지 기업 제휴}} 확대 압박",
+ "src": [],
+ "items": [
+  {
+   "t": "트럼프, 멕시코에 양국 에너지 기업 간 제휴 확대 압박 - FT",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "트럼프, 멕시코에 {{양국 에너지 기업 제휴}} 확대 압박",
+ "one": "{{트럼프 대통령}}이 멕시코에 양국 에너지 기업 간 제휴를 더 늘리라고 압박했다는 FT 보도가 나오면서, {{멕시코 에너지 시장}}에서 미국 기업의 참여가 넓어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 트럼프 대통령이 멕시코에 양국 에너지 기업 간 제휴를 늘리라고 압박하고 있다고 FT가 보도했습니다 [제목]",
+  "의미: 미국 에너지 기업의 멕시코 사업 확대로 이어질 수 있습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색하지 않음. 로이터 제목(FT 인용)만 근거"
+}

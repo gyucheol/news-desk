@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0178",
+ "num": 178,
+ "key": "bnd-C162-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:47:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/carlyle-says-deal-to-buy-lukoil-international-assets-has-expired",
+ "origTitle": "",
+ "headline": "칼라일의 루코일 해외자산 인수 계약 만료…美 OFAC 승인 못 받아",
+ "src": [
+  {
+   "o": "TASS",
+   "d": "2026-10-08",
+   "u": "https://tass.com/economy/2199365"
+  }
+ ],
+ "items": [
+  {
+   "t": "칼라일 \"루코일 해외자산 인수 계약 만료\"",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/carlyle-says-deal-to-buy-lukoil-international-assets-has-expired"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "칼라일의 루코일 해외자산 인수 계약 만료…美 OFAC 승인 못 받아",
+ "one": "칼라일이 연초 합의한 루코일 해외자산 인수 계약이 미국 해외자산통제실(OFAC) 승인을 받지 못해 7월 말 만료됐다고 밝히면서, 제재 대상 루코일은 해외자산을 넘길 다른 인수자를 찾아야 한다",
+ "facts": [
+  "무엇이: 칼라일이 1월 합의한 루코일 해외자산 인수 계약이 여름에 만료됐으며 적극 추진하지 않는다고 밝힘 [사실]",
+  "원인: 루코일 연차보고서에 따르면 OFAC가 승인하지 않아 7월 말 계약이 만료 [사실]",
+  "다음: 루코일은 다른 인수 희망자와 협상 중이며, 토드 보일리 주도 투자자 그룹이 지분 인수 협상 중이라는 보도도 있음 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(TASS·Bloomberg Tax 공개 요약)으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ]
+}

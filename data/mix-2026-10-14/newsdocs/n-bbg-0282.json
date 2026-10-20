@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0282",
+ "num": 282,
+ "key": "mix-C049-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:29:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/modi-says-india-offers-trust-as-globalization-becomes-coercion",
+ "origTitle": "",
+ "headline": "모디 '{{세계화가 강압으로 변질}}'…자이샨카르 '{{대미 무역협상 순항}}'",
+ "src": [
+  {
+   "o": "Foreign Policy",
+   "d": "2026-09-23",
+   "u": "https://foreignpolicy.com/2026/09/23/india-unga-jaishankar-us-sanctions-russia-oil/"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-09-24",
+   "u": "https://www.business-standard.com/external-affairs-defence-security/news/eam-jaishankar-rubio-discuss-impact-of-russia-linked-sanctions-on-india-126092400211_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "모디 '세계화가 강압이 되는 때 인도는 신뢰를 제공'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/modi-says-india-offers-trust-as-globalization-becomes-coercion",
+   "s": "{{모디 총리}}가 {{세계화가 강압이 되어 가는}} 때 인도는 {{신뢰를 제공한다}}고 하면서, 인도를 {{강압적 통상 질서의 대안}}으로 {{내세웠다}} (제목 기준)"
+  },
+  {
+   "t": "인도 외교장관, 미국과 협상에 고무적…러시아 관계는 옹호",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-us-trade-talks-heading-in-right-direction-jaishankar-says",
+   "s": "{{자이샨카르 외교장관}}이 {{미국과의 무역협상}}에 {{고무적}}이라고 하면서도 {{러시아와의 관계}}를 {{옹호}}해, {{러시아 관계를 지키며}} {{대미 합의}}를 {{추진}}할 뜻을 내비쳤다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "모디 '{{세계화가 강압으로 변질}}'…자이샨카르 '{{대미 무역협상 순항}}'",
+ "one": "{{모디 총리}}가 {{세계화가 강압으로 변하는}} 때 인도가 {{신뢰를 제공한다}}고 하고 {{자이샨카르 외교장관}}이 {{미국과의 무역협상}}이 {{올바른 방향}}이라며 {{러시아와의 관계}}를 {{옹호}}하면서, 인도가 {{러시아 관계를 지키며}} {{대미 합의}}를 {{추진}}할 뜻을 내비쳤다 (제목 기준)",
+ "facts": [
+  "무엇이: 자이샨카르 외교장관은 미국과의 무역협상이 올바른 방향으로 가고 있어 고무적이라고 했고, 러시아와의 관계를 옹호했다 [제목]",
+  "모디: 모디 총리는 세계화가 강압이 되어 가는 때 인도가 신뢰를 제공한다고 말했다 [제목]",
+  "배경: 미국의 러시아·이란 제재법(SRIA)은 러시아산 에너지를 사는 인도 수입품에 최대 100% 관세를 물릴 수 있어 협상의 걸림돌로 꼽힌다 [사실]",
+  "협상: 9월 23일 자이샨카르는 루비오 국무장관과 만나 제재법에 대한 인도의 우려를 전했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "10월 13일 모디·자이샨카르 발언 자체는 검색 2회로 찾지 못함. 제재법과 9월 루비오 회담 배경만 Foreign Policy·Business Standard 검색 결과 요약으로 확인.",
+ "added": "이번 블룸버그 1건으로 {{자이샨카르 외교장관}}의 {{미국과의 무역협상 진전 평가}}와 {{러시아와의 관계 옹호}} 발언이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

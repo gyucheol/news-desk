@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0332",
+ "num": 332,
+ "key": "mix-G4-041-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T10:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk",
+ "origTitle": "",
+ "headline": "앤트로픽, 국방부 '보안 위험' 지정 다툼 항소법원에 재심리 요청",
+ "src": [],
+ "items": [
+  {
+   "t": "앤트로픽, 보안 위험 지정 다툼 항소법원에 재심리 요청",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk",
+   "s": "앤트로픽이 보안 위험 지정을 둘러싼 다툼을 항소법원에서 다시 심리해 달라고 요청하면서 정부와의 법적 공방이 이어지게 됐다 (제목 기준)"
+  },
+  {
+   "t": "앤트로픽, 국방부 '보안 위험' 낙인 사건 재심리 요청",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/government/anthropic-seeks-rehearing-case-over-pentagons-security-risk-branding-2026-10-14/",
+   "s": "앤트로픽이 국방부의 보안 위험 낙인에 맞서 재심리를 구하면서 회사가 지정 철회를 계속 다투고 있음이 드러났다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "앤트로픽, 국방부 '보안 위험' 지정 다툼 항소법원에 재심리 요청",
+ "one": "앤트로픽이 미 국방부의 '보안 위험' 지정을 둘러싼 소송에서 항소법원에 재심리를 요청하면서, 국방부가 붙인 보안 위험 꼬리표를 둘러싼 법정 다툼이 더 길어지게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 앤트로픽이 국방부의 보안 위험 지정을 둘러싼 다툼에 대해 항소법원에 재심리를 요청했다 [제목]",
+  "영향: 지정이 유지되는 동안 앤트로픽의 미 국방 관련 사업 기회가 제한될 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도가 소진돼 재심리 신청 내용과 앞선 판결을 확인 못 함. 블룸버그·로이터 제목 근거",
+ "added": "이번 로이터 1건으로 앤트로픽이 다투는 대상이 국방부가 붙인 보안 위험 낙인이며 재심리를 정식으로 구했다는 점이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "국방부 보안 위험 지정 소송 재심리 요청"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

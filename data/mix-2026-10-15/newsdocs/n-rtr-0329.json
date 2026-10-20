@@ -1,0 +1,93 @@
+{
+ "id": "n-rtr-0329",
+ "num": 329,
+ "key": "mix-G3-014-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T23:14:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/japans-gpif-supporting-global-market-liquidity-mimura-says-2026-10-14/",
+ "origTitle": "",
+ "headline": "日 GPIF '세계 유동성 지탱'…국부펀드는 비달러 채권으로, 日 보험사 자금 귀환 채비",
+ "src": [
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-14",
+   "u": "https://finance.biggo.com/news/bf7875a0-9bf6-425e-9de8-323b87f2e9d2"
+  }
+ ],
+ "items": [
+  {
+   "t": "미무라 '日 GPIF가 세계 시장 유동성 지탱'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/japans-gpif-supporting-global-market-liquidity-mimura-says-2026-10-14/",
+   "s": "미무라 일본 재무관이 GPIF의 투자가 세계 금융시장 유동성을 받치고 있다고 말하면서, GPIF 자산배분 변화가 세계 시장에 미칠 파장이 다시 주목받았다"
+  },
+  {
+   "t": "MUFG, 정책 위험 주시하며 일본 국채 매수 재개",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/mufg-wades-back-into-japanese-bonds-with-eye-on-policy-risks",
+   "s": "미쓰비시UFJ가 정책 위험을 지켜보면서도 일본 국채 매수에 다시 나서면서, 일본 대형 금융사의 국내 채권 수요가 살아나고 있다 (제목 기준)"
+  },
+  {
+   "t": "씨티 'AI발 유동성 경색에 국부펀드, 비달러 채권으로'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/finance/sovereign-funds-turn-non-dollar-bonds-amid-ai-driven-liquidity-crunch-citi-2026-10-15/",
+   "s": "씨티 은행가가 AI발 유동성 경색 속에 국부펀드들이 위안·호주달러 등 비달러 채권으로 눈을 돌린다고 말하면서, 달러 채권에 몰리던 조달 수요가 분산되고 있다"
+  },
+  {
+   "t": "일본 보험사들, 해외 자금 서서히 본국으로 들여올 채비",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/finance/japanese-insurers-are-poised-bring-money-back-home-gradually-2026-10-15/",
+   "s": "일본 보험사들이 해외에 둔 자금을 점진적으로 국내로 되돌릴 준비를 하면서, 해외 채권 수요가 줄고 일본 국채 수요가 늘 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "jpins",
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "jpins/assets",
+  "macro/liquidity"
+ ],
+ "title": "日 GPIF '세계 유동성 지탱'…국부펀드는 비달러 채권으로, 日 보험사 자금 귀환 채비",
+ "one": "미무라 재무관이 GPIF가 세계 시장 유동성을 떠받친다고 말하고 씨티가 국부펀드의 비달러 채권 조달 확대를 전하는 가운데, MUFG가 일본 국채 매수를 재개하고 일본 보험사들도 자금을 서서히 국내로 들일 채비를 하면서 해외 채권 수요가 줄 수 있다",
+ "facts": [
+  "무엇이: 미무라 아쓰시 일본 재무관은 방콕 IMF 회의에서 세계 최대 기관투자가인 GPIF의 투자가 세계 금융시장 유동성을 지탱하고 있다고 말했습니다 [사실]",
+  "국부펀드: 씨티의 슈테파니 폰 프리데부르크는 AI발 유동성 경색 속에 국부펀드들이 위안·호주달러·홍콩달러·싱가포르달러 등 비달러 채권으로 자금을 조달하는 일이 늘고 있다고 말했습니다 [사실]",
+  "MUFG: 미쓰비시UFJ가 정책 위험을 지켜보며 일본 국채 매수를 재개했습니다 [제목]",
+  "보험사: 일본 보험사들이 해외 자금을 서서히 국내로 되돌릴 채비를 하고 있습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 미무라·씨티 발언 확인(로이터 기사 전재본 요약 기반이라 독립 확인은 약함). MUFG 국채 매수·일본 보험사 자금 귀환은 제목 기준",
+ "added": "이번 10월 15일 글 3건으로 MUFG의 일본 국채 매수 재개, 국부펀드의 비달러 채권 이동, 일본 보험사의 자금 국내 회귀 채비가 추가됐다",
+ "vc": [
+  {
+   "ind": "jpins",
+   "node": "assets",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본 보험사·MUFG 일본 국채로 자금 이동"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI발 유동성 경색에 국부펀드 비달러 채권 조달"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

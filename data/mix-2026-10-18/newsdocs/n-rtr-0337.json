@@ -1,0 +1,71 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 단독 순이익 1,080크로르(108억 루피, 전년 654크로르), 판결 미반영·추정 손실 5,217크로르, 감사인 한정 의견, CET1 약 250bp 하락 가능성 확인. 추가 상소 여부는 출처마다 표현이 달라 '검토 중'으로 씀",
+ "cycles": [],
+ "facts": [
+  "무엇이: 예스은행의 2분기(7~9월) 단독 순이익은 108억 루피로 1년 전 65억 4,000만 루피보다 65% 늘었다 [사실]",
+  "판결: 대법원은 10월 15일 예스은행이 2020년 3월 841억 5,000만 루피 규모 AT1 채권을 상각한 것이 위법하다는 봄베이 고등법원 판결을 유지했다 [사실]",
+  "미반영: 은행은 판결 영향을 실적에 반영하지 않았고, 반영하면 분기 521억 7,000만 루피 순손실이 된다는 추정치를 냈으며 감사인은 한정 의견을 냈다 [사실]",
+  "자본: 은행은 AT1 원금이 복원되면 보통주자본(CET1) 비율이 약 250bp 낮아질 수 있다고 했다 [사실]",
+  "다음 단계: 은행은 판결을 검토하며 법률 자문사와 대응을 논의 중이고, 추가 상소를 냈다는 확인은 없다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "예스은행 2분기 순이익 65% 증가…AT1 판결 반영 땐 521억 루피 적자",
+ "id": "n-rtr-0337",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "인도 대법원 '예스은행 AT1 채권 상각은 위법'",
+   "u": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/"
+  },
+  {
+   "t": "예스은행 2분기 이익 증가…AT1 판결 미반영, 추가 상소 검토",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/india/yes-bank-q2-profit-rises-at1-ruling-not-booked-further-appeal-weighed-2026-10-17/",
+   "s": "예스은행이 2분기 순이익 65% 증가를 냈지만 대법원 AT1 판결 영향은 반영하지 않고 추가 상소를 검토하면서, 판결 반영 시 손실과 자본 부담이 쟁점으로 남았다"
+  }
+ ],
+ "key": "mix-G3-035-2026-10-15",
+ "nodes": [],
+ "num": 337,
+ "one": "인도 대법원이 예스은행의 841억 루피 규모 AT1 채권 상각을 위법하다고 판결한 뒤 은행이 2분기 순이익 65% 증가를 발표했지만 판결 영향은 반영하지 않으면서, 반영 시 521억 루피 적자와 CET1 비율 약 250bp 하락 부담이 남았다",
+ "origTitle": "",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T00:19:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Lapaas Voice",
+   "d": "2026-10-17",
+   "u": "https://lapaasvoice.com/yes-bank-q2-profit-rises-65-to-%E2%82%B91080-crore-at1-bond-ruling-impact-remains-unaccounted-for"
+  },
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-17",
+   "u": "https://www.whalesbook.com/corporate-news/English/bankingfinance/Yes-Bank-Reports-Rs-1084-Cr-Q2-Profit-Amid-AT1-Bond-Litigation/6ad37d16b2eb76fd08c5f987"
+  }
+ ],
+ "tags": [],
+ "title": "예스은행 2분기 순이익 65% 증가…AT1 판결 반영 땐 521억 루피 적자",
+ "url": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AT1 원금 복원 시 CET1 비율 약 250bp 하락"
+  }
+ ],
+ "added": "로이터 1건 — 2분기 순이익 65% 증가, 판결 미반영과 반영 시 521억 루피 손실 추정, CET1 약 250bp 하락 가능성, 추가 상소 검토 내용이 추가됨",
+ "updatedAt": "2026-10-18T21:41:11+09:00"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0293",
+ "num": 293,
+ "key": "mix-C099-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T23:36:00+09:00",
+ "url": "https://www.reuters.com/legal/transactional/german-family-owned-firms-face-inheritance-tax-challenge-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{獨 헌재}}, {{가업 상속세 감면}} {{위헌 심리}} 착수…{{가족기업 승계 부담}} 커질 수도",
+ "src": [
+  {
+   "o": "The Local Germany",
+   "d": "2026-10-13",
+   "u": "https://www.thelocal.de/20261013/why-germanys-inheritance-tax-laws-are-being-challenged-in-federal-court"
+  },
+  {
+   "o": "BDI",
+   "d": "2026-10",
+   "u": "https://bdi.eu/en/articles/recht-und-steuern/erbschaftsteuer-vor-dem-bundesverfassungsgericht-warum-betriebsvermoegen-besonderen-schutz-braucht"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 가족기업, 상속세 위헌 심리로 도전 직면",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/legal/transactional/german-family-owned-firms-face-inheritance-tax-challenge-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "{{獨 헌재}}, {{가업 상속세 감면}} {{위헌 심리}} 착수…{{가족기업 승계 부담}} 커질 수도",
+ "one": "{{독일 연방헌법재판소}}가 {{가업 상속 자산의 최대 100% 상속세 감면}}이 {{위헌}}인지 {{심리}}에 {{들어가}}면서, {{감면이 줄면}} {{가족기업}}의 {{투자·승계 부담}}이 {{커질}} 수 있다고 산업계가 {{우려}}하고 있다",
+ "facts": [
+  "무엇이: 독일 연방헌법재판소가 10월 13일 상속받은 사업 자산에 대한 상속세 감면의 위헌 여부 심리를 시작했고, 판결은 몇 달 안에 나올 전망입니다 [사실]",
+  "현행: 사업 자산은 일정 조건에서 85%(기본) 또는 신청 시 100% 상속세가 면제됩니다 [사실]",
+  "쟁점: 사업 자산이 아닌 유산에 전액 과세된 상속인이 기업 상속인보다 차별받았다며 낸 헌법소원입니다 [사실]",
+  "이해: 독일산업연맹(BDI)은 감면 축소가 유동성·자본을 약화해 투자와 승계를 해칠 수 있다고 주장했고, 지난해 상속인 34명의 세금 감면으로 37억 유로 세수가 빠졌습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "심리 개시·현행 감면 구조·세수 손실은 검색 결과 요약으로 확인."
+}

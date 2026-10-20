@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0087",
+ "feed": "v5",
+ "format": "one1",
+ "num": 87,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-braskem-creditors-balk",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms",
+ "inds": [
+  "petchem"
+ ],
+ "nodes": [
+  "petchem/cracker",
+  "petchem/commodity"
+ ],
+ "title": "브라스켐 채권단, 구조조정안에 반발…10월 9일 합의 시한 앞두고 교착",
+ "one": "남미 최대 석유화학사 브라스켐의 채권단이 109억 달러 채무 조정안에 반발하며 대주주의 자본 투입을 요구하면서, 10월 9일로 잡힌 주요 조건 합의 시한을 넘기면 법정 회생으로 갈 가능성이 커질 수 있다",
+ "headline": "브라스켐 채권단, 구조조정안에 반발…10월 9일 합의 시한 앞두고 교착",
+ "facts": [
+  "무엇이: 블룸버그는 10월 7일 브라스켐 채권단이 시한을 앞두고 구조조정안에 반발한다고 제목으로 전했습니다(본문 내용은 확인하지 못했습니다). [미확인]",
+  "얼마나: 법정 밖 회생 절차로 조정하려는 채무는 109억 달러이고, 주요 조건 합의 시한은 10월 9일, 절차 종료 예정은 11월 22일입니다. [사실]",
+  "배경: 채권단은 9월에 대주주 페트로브라스·IG4에 30억 달러 자본 투입을 요구했고, 회사가 8월 말 낸 안(채권단 신규 자금 약 20억 달러)은 거부했습니다. [사실]",
+  "멕시코: 상파울루 법원은 9월 24일 채권단 요청으로 멕시코 자회사 브라스켐 이데사 추가 지원을 중단시켰고, 채권단은 최소 8억 달러 자산 훼손을 추정합니다. [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 타임스브라질(10월 6일, 발로르 인용)과 리우타임스(9월 18·22일, 블룸버그 인용) 보도로 작성. 10월 7일자에 새로 나온 반발의 구체 내용은 확인하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms"
+  },
+  {
+   "o": "타임스브라질(CNBC 제휴)",
+   "d": "2026-10-06",
+   "u": "https://timesbrasil.com.br/empresas-e-negocios/braskem-credores-pressionam-companhia-por-reestruturacao-no-mexico-e-estimam-impacto-de-us-800-milhoes"
+  },
+  {
+   "o": "리우타임스",
+   "d": "2026-09-22",
+   "u": "https://www.riotimesonline.com/braskem-creditors-us3-billion-owners-board-rejection-2026/"
+  },
+  {
+   "o": "리우타임스",
+   "d": "2026-09-18",
+   "u": "https://www.riotimesonline.com/braskem-creditors-reject-plan-petrobras-capital-2026/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Braskem Creditors Balk at Restructuring Plan as Deadline Looms",
+ "dupOf": "pf-rtr-028"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0323",
+ "num": 323,
+ "key": "mix-G2-040-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T17:41:00+09:00",
+ "url": "https://www.reuters.com/world/china/china-buys-8-10-us-soybean-cargoes-first-deals-since-trump-xi-summit-sources-say-2026-10-14/",
+ "origTitle": "",
+ "headline": "중국, 트럼프-시진핑 회담 뒤 첫 미국산 대두 8~10척 구매",
+ "src": [
+  {
+   "o": "Global Agriculture",
+   "d": "2026-10-14",
+   "u": "https://www.global-agriculture.com/global-agriculture/china-resumes-large-us-soybean-buying-after-trump-xi-summit/"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 트럼프-시진핑 회담 뒤 첫 미국산 대두 8~10척 구매",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/china/china-buys-8-10-us-soybean-cargoes-first-deals-since-trump-xi-summit-sources-say-2026-10-14/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "중국, 트럼프-시진핑 회담 뒤 첫 미국산 대두 8~10척 구매",
+ "one": "중국 국영 무역회사들이 9월 트럼프-시진핑 회담 뒤 처음으로 미국산 대두 파나맥스 8~10척을 12월 이후 선적분으로 사들이면서, 2026/27년 2,500만 톤 구매 목표 이행이 다시 속도를 낼 수 있다",
+ "facts": [
+  "무엇이: 중국 국영 무역회사들이 이번 주 미국산 대두 파나맥스 8~10척(척당 약 6만 5,000톤)을 샀고, 정상회담 뒤 첫 구매다 [사실]",
+  "가격: 시카고 1월물 대두 선물 대비 부셸당 3.10~3.20달러의 프리미엄을 냈고, 선적은 12월부터다 [사실]",
+  "목표: 이번 구매 전 중국의 미국산 대두 매입은 약 1,370만 톤으로 2026/27년 목표 2,500만 톤의 절반을 넘었다 [사실]",
+  "수입: 중국의 9월 대두 수입은 1,188만 톤으로 1년 전보다 7.7% 줄었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "구매 규모·프리미엄·선적 시기·누적 매입량은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 미국산 대두 8~10척 구매 재개"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "n-tg-0233",
+ "num": 233,
+ "key": "mix-C051-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T21:54:00+09:00",
+ "url": "https://t.me/HANAchina/70236",
+ "origTitle": "",
+ "headline": "칩·부품 가격 인상 확산…인텔·퀄컴 이어 AMD, 후공정 10~30%·유리섬유 천도 인상",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70236"
+  },
+  {
+   "o": "Wccftech",
+   "d": "2026-10",
+   "u": "https://wccftech.com/multiple-intel-cpu-families-witness-15-20-price-hike-while-amd-is-also-expected-to-raise-cpu-prices-soon/"
+  },
+  {
+   "o": "Hardware Busters",
+   "d": "2026-10",
+   "u": "https://hwbusters.com/news/intels-third-cpu-price-hike-in-a-year-hits-panther-lake-hardest-with-qualcomm-and-amd-close-behind/"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 열풍에 반도체 후공정 업계 사상 최대 가격 인상, 10~30%",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70236"
+  },
+  {
+   "t": "인텔·퀄컴 이어 AMD도 프로세서 가격 인상 전망…TSMC 비용 상승 여파",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/66035"
+  },
+  {
+   "t": "전자기판용 유리섬유 천 10월 가격 인상 확정, 박형 제품 인상폭 확대",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70295"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "title": "칩·부품 가격 인상 확산…인텔·퀄컴 이어 AMD, 후공정 10~30%·유리섬유 천도 인상",
+ "one": "TSMC 제조비 상승과 AI 칩 수요 쏠림으로 인텔·퀄컴에 이어 AMD도 가격 인상을 준비하고 대만 후공정 업체와 중국 전자기판용 유리섬유 천 업체까지 값을 올리면서, PC·전자기기 업체의 부품 원가 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 인텔이 9월 PC 프로세서 가격을 올려 팬서레이크 고성능 모델은 15~20%, 구형 제품군은 5~20% 인상했고, 퀄컴은 10월 1일부터 스냅드래곤 X 계열을 10% 올렸다 [사실]",
+  "AMD: 4분기 약 10% 인상을 협력사에 알렸다는 보도가 나왔으나 라이젠 포함 여부는 매체마다 엇갈린다 [사실]",
+  "후공정: AI 칩 테스트 시간 증가와 클라우드 기업의 자체 칩 확대로 대만 후공정 업계가 10~30% 인상 중이고, 소규모 고객 긴급 주문은 두 배까지 오를 수 있다 [채널]",
+  "유리섬유 천: 10월 7628 모델 미터당 1.5위안, 박형(2116·1080) 2.5위안, 전자사 G75 톤당 3,000위안 인상이 확정됐고 AI용 생산 전환으로 범용품이 부족하다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "인텔·퀄컴 인상폭과 AMD 인상 보도는 검색 결과 요약으로 확인(공식 발표 아님). 후공정·유리섬유 천 인상은 확인 못 함",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

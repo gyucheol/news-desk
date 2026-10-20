@@ -1,0 +1,51 @@
+{
+  "basis": "verified",
+  "check": "검색 결과 요약으로 회사 발표(주목표 실패, 개발 중단, 시험 설계)와 시간외 약 15% 하락 확인",
+  "cycles": [],
+  "facts": [
+    "무엇이: 신닥스는 10월 12일 악사틸리맙의 특발성 폐섬유증 2상(MAXPIRe)이 연간 노력성 폐활량 감소율이라는 주평가지표를 충족하지 못해 추가 개발을 하지 않겠다고 밝혔습니다 [사실]",
+    "임상: 14개국 62개 기관에서 환자 145명을 26주간 위약과 비교한 무작위 이중맹검 시험이었습니다 [사실]",
+    "안전성: 약은 위약과 비슷한 안전성을 보였고 새 안전성 신호는 없었습니다 [사실]",
+    "다른 적응증: 악사틸리맙은 만성 이식편대숙주병 치료제 니크팀보로 미국에서 승인돼 있으며, 회사는 이번 결과가 다른 개발에 영향이 없다고 했습니다 [사실]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "{{신닥스}}, 폐섬유증 2상 실패로 악사틸리맙 해당 적응증 {{개발 중단}}",
+  "id": "n-rtr-0227",
+  "incentive": "",
+  "inds": [
+    "pharma"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "t": "신닥스, 폐질환 치료제 중기 임상 주목표 실패로 개발 중단",
+      "u": "https://www.reuters.com/legal/litigation/syndax-says-mid-stage-trial-lung-disease-treatment-fails-main-goal-ends-2026-10-12/"
+    }
+  ],
+  "key": "mix-C160-2026-10-13",
+  "nodes": [],
+  "num": 227,
+  "one": "{{신닥스}}가 {{특발성 폐섬유증 환자 145명}}을 대상으로 한 {{악사틸리맙 2상}}에서 {{폐활량 감소 억제라는 주목표}}를 {{달성하지 못해}} 이 적응증 개발을 접으면서, {{시간외 거래에서 주가가 약 15% 떨어졌}}다",
+  "origTitle": "",
+  "processed": "2026-10-13",
+  "published": "2026-10-13T05:43:00+09:00",
+  "source": "로이터",
+  "src": [
+    {
+      "d": "2026-10-12",
+      "o": "GlobeNewswire(회사 발표)",
+      "u": "https://www.globenewswire.com/news-release/2026/10/12/3379220/0/en/syndax-announces-topline-results-from-maxpire-phase-2-trial-of-axatilimab-in-idiopathic-pulmonary-fibrosis.html"
+    },
+    {
+      "d": "2026-10-12",
+      "o": "GuruFocus",
+      "u": "https://www.gurufocus.com/news/9119831/syndax-pharmaceuticals-sndx-shares-drop-15-after-phase-2-trial-miss-in-ipf"
+    }
+  ],
+  "tags": [],
+  "title": "{{신닥스}}, {{폐섬유증 2상 실패}}로 {{악사틸리맙 해당 적응증 개발 중단}}",
+  "url": "https://www.reuters.com/legal/litigation/syndax-says-mid-stage-trial-lung-disease-treatment-fails-main-goal-ends-2026-10-12/"
+}

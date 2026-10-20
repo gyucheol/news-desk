@@ -1,0 +1,154 @@
+{
+ "basis": "partial",
+ "check": "가계지출·실질임금·단칸 수치는 검색 결과 요약으로 확인. 사토 위원 발언, 일은 물가 판단, 미·일 공동 개입, 30년물 입찰, 추경·지출 점검은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 일본 8월 가계지출이 전년 대비 3.1% 줄어 9개월 연속 감소했다(예상 약 -3.5%), 실질임금은 8개월째 올랐다 [사실]",
+  "일본은행: 사토 위원이 추가 인상 지지를 시사했고, 일은은 물가 압력이 넓어지고 있다고 봤다 [제목]",
+  "기업: 9월 단칸 대형 제조업 지수는 24로 8년 만의 최고였지만 비제조업은 35로 떨어졌다 [사실]",
+  "엔·재정: 미 연준이 재무부 자금으로 엔화 공동 개입에 참여했고, 다카이치 총리는 엔화·물가를 주시하겠다며 지출 점검과 재해 추경을 검토 중이다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "일본 가계지출 9개월째 감소에도 일은 '물가 압력 확산'…금리 인상 신호 이어져",
+ "id": "n-bbg-0082",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1006-ueda-no-october-signal",
+ "nodes": [
+  "macro/cb",
+  "macro/fx",
+  "macro/rates"
+ ],
+ "num": 82,
+ "one": "우에다 총재에 이어 사토 위원도 추가 인상 지지를 내비치고 일본은행이 물가 압력 확산을 짚었지만, 8월 가계지출이 3.1% 줄어 9개월째 감소하면서 10월 30일 회의를 앞두고 인상 근거와 소비 부진 신호가 함께 쌓이고 있다",
+ "origTitle": "Ueda Does Little to Challenge Bets Against October BOJ Hike",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T12:19:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/ueda-does-little-to-challenge-bets-against-october-boj-hike"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "일본은행 총재 전국증권대회 인사말",
+   "u": "https://www.boj.or.jp/about/press/koen_2026/data/ko261006a.pdf"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "FXStreet",
+   "u": "https://www.fxstreet.com/analysis/the-market-is-pricing-a-boj-pause-heres-why-uedas-keep-raising-rates-could-force-a-sharp-yen-repricing-202610061823"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "InvestingLive",
+   "u": "https://investinglive.com/central-banks/boj-s-ueda-in-focus-as-markets-weigh-a-back-to-back-october-rate-hike/"
+  },
+  {
+   "o": "신화통신",
+   "d": "2026-10-09",
+   "u": "https://english.news.cn/asiapacific/20261009/1cea8d4d7a414ce6aa15f2370d94d273/c.html"
+  },
+  {
+   "o": "Japan Times",
+   "d": "2026-10-01",
+   "u": "https://www.japantimes.co.jp/business/2026/10/01/companies/tankan-better-sentiment/"
+  }
+ ],
+ "tags": [],
+ "title": "일본 가계지출 9개월째 감소에도 일은 '물가 압력 확산'…금리 인상 신호 이어져",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/ueda-does-little-to-challenge-bets-against-october-boj-hike",
+ "items": [
+  {
+   "t": "우에다 총재 '금리 계속 올린다'…10월 인상 신호는 주지 않아",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/ueda-does-little-to-challenge-bets-against-october-boj-hike"
+  },
+  {
+   "t": "일본 제조업 심리 5년 만의 최고 근접…서비스업 심리는 급락",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-manufacturers-mood-hits-near-5-year-high-service-sector-sentiment-slumps-2026-10-06/"
+  },
+  {
+   "t": "일은 사토 위원, 추가 금리 인상 지지 시사…교도통신",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/bojs-sato-signals-support-future-rate-hikes-kyodo-reports-2026-10-06/"
+  },
+  {
+   "t": "일본, 재해 복구용 추가경정예산 또 검토…요미우리",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-considers-another-extra-budget-disaster-relief-yomiuri-says-2026-10-06/"
+  },
+  {
+   "t": "연준, 공동 개입서 재무부 자금으로 엔화 지지",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-used-treasury-funds-to-support-yen-in-joint-intervention"
+  },
+  {
+   "t": "일본 30년물 국채 입찰, 높은 금리에 수요 견조",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/japan-30-year-bond-sale-sees-firmer-demand-than-12-month-average-muyzkqpv"
+  },
+  {
+   "t": "도쿄금융거래소, 일은 정책 변화 빨라지자 새 금리 선물 상장",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/tokyo-financial-exchange-launches-new-boj-rate-futures-policy-shifts-accelerate-2026-10-08/"
+  },
+  {
+   "t": "리플레이션 이미지 벗으려는 다카이치 총리, 실체가 필요",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/japanese-pm-takaichis-campaign-shed-reflationist-image-needs-substance-behind-2026-10-08/"
+  },
+  {
+   "t": "일본은행, 인플레이션 압력 확산 진단",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/bank-japan-sees-broadening-inflationary-pressure-2026-10-08/"
+  },
+  {
+   "t": "일본 가계지출, 임금 상승에도 또 감소",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/japan-s-household-spending-falls-again-despite-wage-gains"
+  },
+  {
+   "t": "일본 가계지출 전년 대비 9개월 연속 감소",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/japanese-annual-household-spending-drops-9-straight-months-2026-10-08/"
+  },
+  {
+   "t": "IMF, 우에다 일은 총재를 11월 6일 연설에 초청",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-invites-boj-chief-ueda-speak-november-6-2026-10-08/"
+  },
+  {
+   "t": "일본, 재원 찾기 위해 DOGE식 지출 점검 재가동…다카이치 공약",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/"
+  },
+  {
+   "t": "일본 총리 '엔화·물가 움직임 계속 주의 깊게 지켜볼 것'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-pm-vows-keep-watching-yen-inflation-moves-carefully-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

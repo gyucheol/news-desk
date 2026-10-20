@@ -1,0 +1,258 @@
+{
+ "added": "텔레그램 4건 — 벤처글로벌의 720MW급 가스발전 최대 16기 계약, OCP의 랙당 200kW·800VDC 전환, 미국 가스발전 계획·전력장비 수입 증가 내용이 추가됨",
+ "basis": "verified",
+ "check": "벤처글로벌 계약(720MW·최대 16기·10GW·첫 발주 시점)을 회사 8-K와 검색 결과 요약으로 확인. 주가 5.8% 하락, OCP 내용, EIA 가스발전 계획·전력장비 수입 지표는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 벤처글로벌은 10월 15일 GE 베르노바·베이커휴즈와 각 720MW 용량의 독립형 가스복합 발전 설비(파워 아일랜드) 최대 16기와 변압기 장비 계약을 맺었고, 첫 발주는 2026년 말로 예상했다 [사실]",
+  "용도: 설비는 LNG 사업 전력과 함께 AI 데이터센터에 쓰일 수 있고, 고객 계약에 따라 2034년 말까지 최대 10GW 컴퓨팅을 지원할 수 있으며 기존 가스발전 4.5GW를 늘린다 [사실]",
+  "주가: 채널은 부채 비율이 높고 현금흐름이 마이너스인 벤처글로벌이 또 대규모 투자에 나서 주가가 5.8% 내렸다고 전했다 [채널]",
+  "랙 전력: OCP 글로벌 서밋에서 단일 랙 전력이 200kW를 넘어 800VDC 전원과 액체냉각 도입이 빨라지고 있다고 소개됐고, 델타전자·라이트온·AcBel이 관련 솔루션을 전시했다 [채널]",
+  "기존: 슈나이더 일렉트릭은 3분기 데이터센터 수요가 세 자릿수로 늘어 올해 두 번째로 연간 목표를 올렸다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "벤처글로벌, 720MW급 가스발전 최대 16기 계약…데이터센터 전력 기자재 수요 확산",
+ "id": "n-rtr-0283",
+ "incentive": "",
+ "inds": [
+  "gas",
+  "industrial",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{AI 전력 수요 증가}}가 미국 {{간선 송전선 신설}}의 {{논거}}를 {{강화}}하면서 장거리 {{송전망 투자}}가 {{늘어날}} 수 있다 (제목 기준)",
+   "t": "AI 수요 증가, 미국 간선 송전선 신설 논거 강화",
+   "u": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{데이터센터 업체들}}이 {{전력과 인재}}를 AI의 {{최대 병목}}으로 꼽으면서 {{전력 확보}}가 데이터센터 {{가동 속도}}를 {{좌우할}} 전망이다 (제목 기준)",
+   "t": "데이터센터 업체들 '전력과 인재가 AI 최대 병목'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/power-and-talent-biggest-ai-bottlenecks-say-data-center-firms"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "{{오라클}}이 {{FERC}}에 {{뉴멕시코 데이터센터용 가스관}}의 {{신속 승인}}을 {{요청}}하면서 {{2027년 2월로 밀린 완공}}이 데이터센터 {{가동}}을 {{늦출}} 수 있다고 경고했다",
+   "t": "오라클, 데이터센터용 가스관 신속 승인 규제당국에 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/oracle-asks-regulators-to-expedite-gas-pipeline-for-data-center"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 부의 나침반",
+   "s": "GE 베르노바 가스터빈이 2030년 물량까지 매진되고 계통 접속 대기가 5년 넘게 늘면서 데이터센터 조기 가동용 ESS 수요가 커지고 있다",
+   "t": "데이터센터 전력 병목 장기화…가스터빈 2030년분 매진, ESS 수요 확대",
+   "u": "https://t.me/w_compass/7296"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "인도가 데이터센터 전력 사용 우려가 커지는 가운데 데이터센터 정책을 내놓기로 하면서 전력 수급 관리가 정책 과제로 떠올랐다 (제목 기준)",
+   "t": "인도, 전력 사용 우려 커지는 가운데 데이터센터 정책 내놓는다",
+   "u": "https://www.reuters.com/world/india/india-roll-out-data-centre-policy-concerns-grow-over-power-use-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "AI의 급증한 전력 수요가 물 수급에도 충격을 주면서 데이터센터 확장의 또 다른 제약이 되고 있다 (제목 기준)",
+   "t": "AI의 폭발적 전력 수요가 또 다른 물 충격을 부르고 있다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-s-rampant-power-demand-is-delivering-another-water-shock"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "AEP가 구글과의 20년 전력 공급 계약에 따라 와이오밍에 블룸에너지 연료전지 702MW를 약 40억 달러에 지어 데이터센터에 전기를 대기로 했다",
+   "t": "AEP, 구글 공급용 블룸에너지 702MW 연료전지에 40억 달러 투자",
+   "u": "https://t.me/insidertracking/66238"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "AEP가 아마존·콜로직스용에 이어 자사 최대 규모의 블룸 연료전지 설비를 구글용으로 짓기로 해 데이터센터 현장 발전 수요가 커졌다",
+   "t": "AEP, 연료전지에 40억 달러 투입해 구글에 전력 공급",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/aep-to-sell-power-to-google-from-4-billion-fuel-cell-project"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "대만전력이 반도체 산업 전력 소비가 2035년 1,100억kWh로 두 배 넘게 늘 것으로 보면서 기업 입지 결정에서 즉시 전력 공급 여부가 최우선이 됐다",
+   "t": "대만 반도체 전력 소비 10년 내 두 배…2035년 전체의 30%",
+   "u": "https://t.me/HANAchina/70429"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "AEP가 2028년 말 가동을 목표로 구글용 연료전지 사업에 40억 달러를 투자하면서 블룸에너지의 최대 1GW 공급 계약 물량이 실제 발전소로 이어지게 됐다",
+   "t": "아메리칸일렉트릭파워, 구글 전력용 연료전지 사업에 40억 달러 투자",
+   "u": "https://www.reuters.com/business/energy/american-electric-power-to-invest-4-billion-fuel-cell-project-power-google-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 부의 나침반",
+   "s": "AI 데이터센터 전력 소비가 급증해 공공 전력망 공급이 불확실해지면서 자가발전 설비와 전력망 복원력 강화가 대형 데이터센터의 필수 수요가 됐다",
+   "t": "AI 연산력 확장, 전력 병목 직면…데이터센터 자가발전 수요 급증",
+   "u": "https://t.me/w_compass/7308"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 양파농장",
+   "s": "디지타임스는 AI 경쟁이 칩 확보에서 전력 확보 경쟁으로 옮겨 가면서 데이터센터마다 자가발전 인프라 구축 수요가 늘고 있다고 전했다",
+   "t": "데이터센터 자가발전·그리드 복원력 수요 급증(디지타임스)",
+   "u": "https://t.me/Onionfarmer/18101"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "12개 주가 오라클 데이터센터용 천연가스관 분쟁에서 뉴멕시코주에 맞서면서 가스관 인허가 갈등이 주 경계를 넘어 커졌다 (제목 기준)",
+   "t": "오라클 천연가스관 분쟁, 12개 주가 뉴멕시코에 반기",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/12-states-push-back-on-new-mexico-in-oracle-pipeline-fight"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 부의 나침반",
+   "s": "델타전자가 미국 전력회사 설비투자가 클라우드 업체 증가 속도를 못 따라간다며 마이크로그리드를 대안으로 내세우면서, 연료전지와 고체 변압기 판매를 늘리려 하고 있다",
+   "t": "델타전자 '전력 부족이 AI 확장의 중대 과제'…마이크로그리드 공략",
+   "u": "https://t.me/w_compass/7337"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "슈나이더 일렉트릭이 3분기 데이터센터 수요가 세 자릿수로 늘어 2027~2028년까지 가시성이 생겼다고 밝히면서, 전력 기자재 주문이 길게 이어질 수 있다",
+   "t": "슈나이더, 데이터센터 붐에 2028년까지 실적 가시성 확보",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/schneider-hikes-guidance-again-on-soaring-data-center-demand"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "인도 청정에너지 발전 업체들이 데이터센터발 전력 수요 급증에 대비하면서, 인도에서도 데이터센터가 전력 수요의 새 축으로 떠오르고 있다 (제목 기준)",
+   "t": "인도 청정에너지 업체들, 데이터센터 수요 급증에 대비",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/indian-clean-power-firms-brace-for-data-center-demand-surge"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "슈나이더 일렉트릭이 조정 이익 내생 성장 목표를 18~21%로, 매출 성장 목표를 12~14%로 올리면서 가격 결정력으로 원자재값과 관세 부담을 상쇄할 것으로 봤다",
+   "t": "슈나이더 일렉트릭, 데이터센터 주문에 연간 전망 재차 상향",
+   "u": "https://t.me/HANAchina/70521"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "슈나이더 일렉트릭이 3분기 매출 114억 6,000만 유로로 예상치 111억 3,000만 유로를 넘기고 2026년 목표를 다시 올리면서, 데이터센터 전력 장비 수요 강세가 확인됐다",
+   "t": "슈나이더 일렉트릭, 데이터센터 호황에 2026년 목표 다시 상향",
+   "u": "https://www.reuters.com/business/schneider-electric-raises-2026-targets-again-booming-data-centre-demand-2026-10-16/"
+  },
+  {
+   "t": "OCP, AI 데이터센터 4대 기술 트렌드 공개…전력·냉각 대만 기업 주목",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70576",
+   "s": "OCP 서밋에서 AI 데이터센터가 GW급으로 커지며 랙당 전력이 200kW를 넘어서면서, 800VDC 전원과 액체냉각 도입이 빨라지고 있다"
+  },
+  {
+   "t": "EIA 기준 미국 천연가스 발전용량 계획 가파르게 증가",
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-17",
+   "u": "https://t.me/Onionfarmer/18117",
+   "s": "채널이 EIA의 상업운전 전 명목 용량 기준 천연가스 발전 계획이 가파르게 늘고 있다고 짚으면서, 가스발전 설비 수요가 커지는 흐름을 보여 줬다"
+  },
+  {
+   "t": "벤처글로벌, LNG 터미널 발전 설비로 데이터센터 전력 공급 나서",
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-17",
+   "u": "https://t.me/Onionfarmer/18118",
+   "s": "벤처글로벌이 GE 베르노바·베이커휴즈에서 720MW급 발전 설비를 사들여 데이터센터 전력 사업에 나서면서, 가스터빈 수요가 늘지만 부채 부담에 주가는 5.8% 내렸다"
+  },
+  {
+   "t": "미국 전력장비 수입 꾸준히 증가…가스발전 확대 흐름과 맞물려",
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-17",
+   "u": "https://t.me/Onionfarmer/18120",
+   "s": "채널이 미국의 전력장비 수입이 꾸준히 늘고 있다고 짚으면서, 가스발전 확대와 함께 전력 기자재 수요가 커지는 흐름이 드러났다"
+  }
+ ],
+ "key": "mix-C023-2026-10-14",
+ "nodes": [
+  "gas/demand",
+  "gas/midstream",
+  "power/demand",
+  "power/gen",
+  "power/grid"
+ ],
+ "num": 283,
+ "one": "슈나이더가 데이터센터 주문에 연간 목표를 올린 데 이어 LNG 수출사 벤처글로벌이 GE 베르노바·베이커휴즈와 720MW급 가스발전 설비 최대 16기 계약을 맺고 데이터센터 전력 공급에 나서면서, 가스터빈 등 발전 기자재 수요가 전력망 밖 자가발전으로 넓어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T20:05:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/oracle-gas-pipeline-new-mexico-data-center/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "AEP",
+   "u": "https://www.aep.com/news/stories/view/12314/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "PR Newswire",
+   "u": "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "DCD",
+   "u": "https://www.datacenterdynamics.com/en/news/google-signs-20-year-ppa-with-aep-for-702mw-wyoming-fuel-cell-project/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Investing.com",
+   "u": "https://www.investing.com/news/earnings/schneider-electric-raises-2026-target-as-q3-sales-beat-forecasts-on-data-centres-4953142"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/schneider-electric-lifted-its-2026-targets-again"
+  },
+  {
+   "o": "벤처글로벌 8-K(SEC)",
+   "d": "2026-10-15",
+   "u": "https://www.sec.gov/Archives/edgar/data/0002007855/000200785526000081/frameagreementpressrelease.htm"
+  },
+  {
+   "o": "Transformer Magazine",
+   "d": "2026-10-15",
+   "u": "https://transformer-magazine.com/news/venture-global-signs-deals-with-ge-vernova-and-baker-hughes/"
+  }
+ ],
+ "tags": [],
+ "title": "벤처글로벌, 720MW급 가스발전 최대 16기 계약…데이터센터 전력 기자재 수요 확산",
+ "updatedAt": "2026-10-17T21:10:03+09:00",
+ "url": "https://www.reuters.com/business/energy/rising-ai-demand-boosts-case-new-us-trunk-power-lines--reeii-2026-10-13/",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "벤처글로벌 720MW급 가스발전 최대 16기 계약"
+  },
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "랙당 전력 200kW 넘어 800VDC·액체냉각 가속"
+  }
+ ]
+}

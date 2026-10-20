@@ -1,0 +1,112 @@
+{
+ "added": "이번 로이터 1건으로 멕시코의 조립 부품 5년 무관세 혜택과 그 대상을 현지 생산 시설을 갖춘 기존 완성차 11곳으로 한정한 조치가 추가됐다",
+ "basis": "verified",
+ "check": "부품 관세 10%→0% 5년 인하, 11개 완성차 한정, 중국 업체 배제 취지, 완성차 50% 관세는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 멕시코는 10월 13일 법령으로 SKD·CKD 등 일부 조립용 부품 수입관세를 5년간 10%에서 0%로 낮췄고, 경제부는 16일 혜택을 보세 조립 허가를 가진 11개 완성차로 한정한다고 밝혔다 [사실]",
+  "대상: 업계 자료상 아우디·BMW·포드·GM·혼다·기아·마쓰다·닛산·스텔란티스·도요타·폭스바겐이 수혜 후보로 꼽혔고, 경제부는 현지 생산 시설이 없는 업체의 부품 수입은 돕지 않는다고 했다 [사실]",
+  "중국: 분석가들은 GAC·JAC 같은 중국 업체가 혜택을 볼 수 있다고 봤으나, 무역협정이 없는 나라의 완성차는 여전히 50% 관세를 문다 [사실]",
+  "기존: 미-멕시코 관세 협상은 러트닉 상무장관이 자동차 25%, 철강·알루미늄 50% 관세의 대폭 인하에 반대하면서 멈췄다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "멕시코, 조립 부품 무관세 혜택 기존 완성차 11곳으로 제한…中업체 배제",
+ "id": "n-rtr-0259",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "t": "트럼프, 멕시코에 양국 에너지 기업 간 제휴 확대 압박 - FT",
+   "u": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "{{셰인바움}} 멕시코 대통령이 {{미국산 수입}}을 {{늘리고}} {{다른 나라 구매}}를 {{줄여}} {{대미 흑자}}를 {{줄이겠다}}고 밝히면서, {{철강·자동차 관세 완화}}를 끌어낼 {{협상 카드}}로 쓰려 한다",
+   "t": "셰인바움, 트럼프와 무역합의 위해 미국산 구매 확대 약속",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/sheinbaum-vows-to-buy-more-goods-from-the-us-to-sign-trade-deal"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "러트닉 상무장관이 자동차 25%, 철강·알루미늄 50% 관세의 대폭 인하에 반대하면서, 타결에 가까웠던 미-멕시코 관세 협상의 진전이 멈췄다",
+   "t": "미-멕시코 관세 합의 향한 진전 멈춰…WSJ 보도",
+   "u": "https://www.reuters.com/business/autos-transportation/progress-toward-us-mexico-tariff-deal-has-stalled-wsj-reports-2026-10-16/"
+  },
+  {
+   "t": "멕시코, 관세 혜택을 기존 현지 완성차 업체로 제한",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/autos-transportation/mexico-limits-tariffs-break-established-local-carmakers-2026-10-16/",
+   "s": "멕시코 경제부가 조립 부품 무관세 혜택을 현지 생산 시설을 갖춘 11개 완성차로 한정하면서 중국 업체의 부품 수입 우회로가 막혔다"
+  }
+ ],
+ "key": "mix-C117-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 259,
+ "one": "멕시코 경제부가 조립용 부품 수입관세를 5년간 10%에서 0%로 낮춘 혜택을 현지 생산 시설을 갖춘 완성차 11곳으로 한정하고 미-멕시코 관세 협상은 러트닉 반대로 멈추면서, 중국 업체의 우회 진출은 막히고 기존 완성차의 부품 원가 부담은 덜어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T04:06:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Transport Topics",
+   "u": "https://www.ttnews.com/articles/sheinbaum-mexico-trump-trade"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Quartz",
+   "u": "https://qz.com/mexico-us-trade-deal-goods-purchases-sheinbaum-101326"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "APA",
+   "u": "https://en.apa.az/america/us-mexico-trade-talks-stall-over-tariff-reductions-wsj-530381"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "SMM",
+   "u": "https://news.metal.com/newscontent/104161428-us-mexico-tariff-talks-stall-as-commerce-secretary-lutnick-opposes-concessions"
+  },
+  {
+   "o": "Forbes México",
+   "d": "2026-10-16",
+   "u": "https://forbes.com.mx/limitan-exencion-arancelaria-a-automotrices-ya-establecidas/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-16",
+   "u": "https://finimize.com/content/mexico-limits-its-zero-tariff-car-parts-break"
+  },
+  {
+   "o": "Mezha",
+   "d": "2026-10-16",
+   "u": "https://mezha.net/eng/news/mezha-73ffe7da870ba1d2e3842d3f_mexico_limits_five-year"
+  }
+ ],
+ "tags": [],
+ "title": "멕시코, 조립 부품 무관세 혜택 기존 완성차 11곳으로 제한…中업체 배제",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "멕시코 조립 부품 관세 5년간 10%에서 0%로"
+  }
+ ]
+}

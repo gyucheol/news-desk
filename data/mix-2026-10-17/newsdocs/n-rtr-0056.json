@@ -1,0 +1,86 @@
+{
+ "added": "이번 블룸버그 1건으로 펀드 위기가 1조 리라 규모 리라화 회사채 시장으로 번져 테라 야트름 은행 원리금 미지급과 중소 발행사 조달난이 드러난 점이 추가됐다",
+ "basis": "partial",
+ "check": "회사채 시장 1조 리라·펀드 보유 3분의 1·테라 원리금 미지급·대형사 발행은 검색 결과 요약(브리프스, 블룸버그 기사 요약)으로 확인했으나 독립 보도는 찾지 못함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 리라화 회사채 시장은 9월 말 1조 리라를 넘었고 뮤추얼펀드가 약 3분의 1을 갖고 있으며, 환매가 몰리자 운용사들이 팔기 쉬운 자산부터 팔아 거래가 어려운 회사채 비중이 커졌다 [사실]",
+  "부도: 테라 야트름 은행은 10월 5일 60억 5,000만 리라의 원리금을 갚지 못했고, 위기 기업과 얽힌 채권 약 350억 리라가 남아 있다 [사실]",
+  "발행: 가란티 BBVA 계열사는 10월 리라화 채권을 팔았고 투르크셀·악방크는 사모로 자금을 조달해, 대형 발행사는 시장 접근을 유지하고 있다 [사실]",
+  "기존: 자본시장위원회는 운용사 7곳의 펀드 131개(자산 약 183억 달러) 청산을 명령했고, 중앙은행은 금융 시스템 전염 위험은 없다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 펀드 위기 여파, 1조 리라 회사채 시장으로 번져",
+ "id": "n-rtr-0056",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{카라한 중앙은행 총재}}가 펀드 위기의 금융 시스템 전염 위험은 없지만 {{필요하면 다시 개입}}하겠다고 밝히면서, {{시장 불안}}을 {{진정시키려}} 했다",
+   "t": "튀르키예 중앙은행 \"펀드 위기 전염 위험 없어…개입 준비돼\"",
+   "u": "https://www.reuters.com/world/middle-east/turkeys-central-bank-says-no-contagion-risk-fund-crisis-is-ready-intervene-2026-10-06/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{집권 정의개발당 의원}}이 펀드 청산의 법적 틀을 담은 법안을 며칠 안에 {{국회에 내겠다}}고 밝히면서, {{투자자 약 45만6000명}}의 손실 처리 방식이 {{정해질}} 수 있다",
+   "t": "튀르키예, 펀드 청산 법안 곧 국회 제출…여당 의원 밝혀",
+   "u": "https://www.reuters.com/world/middle-east/turkey-submit-draft-fund-liquidation-bill-parliament-soon-lawmaker-says-2026-10-08/"
+  },
+  {
+   "t": "급성장한 튀르키예 회사채 시장, 펀드 위기 여파와 씨름",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/turkey-s-fast-growing-corporate-bond-market-grapples-with-funds-crisis-fallout",
+   "s": "펀드 환매 사태가 회사채로 번지면서 급성장한 튀르키예 회사채 시장이 유동성 부족과 발행사 부도 여파에 시달리고 있다"
+  }
+ ],
+ "key": "bnd-C137-2026-10-09",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 56,
+ "one": "튀르키예 펀드 위기로 환매가 몰리자 운용사들이 팔기 쉬운 자산부터 처분해 1조 리라가 넘는 리라화 회사채 시장에 거래가 어려운 채권이 쌓이고 테라 야트름 은행이 원리금 60억 5,000만 리라를 못 갚으면서, 중소 발행사의 자금 조달이 막힐 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T20:07:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "AGBI",
+   "u": "https://www.agbi.com/opinion/markets/2026/10/turkeys-fund-crisis-goes-beyond-borsa-istanbul/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Europe Says",
+   "u": "https://www.europesays.com/3294861/"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-16",
+   "u": "https://www.briefs.co/news/turkey-s-fund-turmoil-puts-corporate-bonds-and-small-issuers/"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예 펀드 위기 여파, 1조 리라 회사채 시장으로 번져",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/world/middle-east/turkeys-central-bank-says-no-contagion-risk-fund-crisis-is-ready-intervene-2026-10-06/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "펀드 위기에 튀르키예 회사채 유동성 위축"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "n-rtr-0021",
+ "num": 21,
+ "key": "bnd-C003-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:20:00+09:00",
+ "url": "https://www.reuters.com/world/africa/south-africa-central-bank-says-second-round-inflation-risks-rise-2026-10-06/",
+ "origTitle": "",
+ "headline": "아프리카 중앙은행들 물가 경계…케냐 8.75% 동결, 가나 물가 5.2%로 두 달째 상승",
+ "src": [
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10-07",
+   "u": "https://www.cnbcafrica.com/2026/kenya-central-bank-keeps-main-lending-rate-unchanged"
+  },
+  {
+   "o": "Graphic Online",
+   "d": "2026-10-07",
+   "u": "https://www.graphic.com.gh/business/business-news/ghanas-inflation-rises-to-5-2-in-september.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "남아공 중앙은행 '2차 물가 파급 위험 커져'",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/africa/south-africa-central-bank-says-second-round-inflation-risks-rise-2026-10-06/"
+  },
+  {
+   "t": "가나 물가 상승세 가팔라져 금리 동결 근거 강화",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ghana-s-inflation-rate-edges-higher-again-in-september"
+  },
+  {
+   "t": "가나 9월 소비자물가 전년 대비 5.2% 상승",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/africa/ghana-consumer-inflation-52-year-year-september-2026-10-07/"
+  },
+  {
+   "t": "케냐, 이란 전쟁발 물가 위험 주시하며 금리 동결",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/kenya-holds-rates-with-eye-on-inflationary-risks-from-iran-war"
+  },
+  {
+   "t": "케냐 중앙은행, 기준 대출금리 동결",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/africa/kenya-central-bank-keeps-main-lending-rate-unchanged-2026-10-07/"
+  },
+  {
+   "t": "아프리카 외환: 우간다 실링 강세 유지 전망",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/africa/africa-fx-ugandas-currency-expected-remain-ropes-2026-10-08/"
+  },
+  {
+   "t": "세계은행, 나이지리아 성장률 2028년까지 평균 4.4% 전망",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/africa/world-bank-sees-nigeria-growth-averaging-44-through-2028-2026-10-08/"
+  },
+  {
+   "t": "콩고 중앙은행, 기준금리 동결",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/africa/congo-central-bank-keeps-policy-rate-125-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "아프리카 중앙은행들 물가 경계…케냐 8.75% 동결, 가나 물가 5.2%로 두 달째 상승",
+ "one": "중동 전쟁발 유가 위험 속에 케냐 중앙은행이 기준금리를 8.75%로 네 번 연속 동결하고 가나 9월 물가가 5.2%로 두 달째 오르는 가운데 남아공도 2차 물가 파급 위험을 경고하면서, 아프리카 중앙은행들의 추가 완화 여지가 좁아지고 있다",
+ "facts": [
+  "무엇이: 케냐 중앙은행이 10월 7일 기준금리를 8.75%로 네 번 연속 동결, 9월 물가 6.8%(8월 6.6%), 올해 성장률 전망은 5.0%로 상향 [사실]",
+  "가나: 9월 소비자물가 5.2%로 8월 5.0%에서 두 달째 상승, 기준금리는 14% [사실]",
+  "남아공·콩고: 남아공 중앙은행은 2차 물가 파급 위험이 커졌다고 밝혔고 콩고 중앙은행은 기준금리를 동결 [제목]",
+  "기타: 세계은행은 나이지리아 성장률이 2028년까지 평균 4.4%일 것으로 전망, 우간다 실링은 강세 유지 예상 [제목]"
+ ],
+ "basis": "verified",
+ "check": "케냐·가나 수치는 검색 결과 요약으로 확인. 남아공·콩고·나이지리아·우간다는 기사 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/inflation"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

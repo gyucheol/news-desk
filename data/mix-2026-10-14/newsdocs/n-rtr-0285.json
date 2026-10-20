@@ -1,0 +1,71 @@
+{
+ "id": "n-rtr-0285",
+ "num": 285,
+ "key": "mix-C056-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:51:00+09:00",
+ "url": "https://www.reuters.com/business/energy/slovakia-connect-mochovce-nuclear-power-plants-fourth-unit-ramp-up-continues-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{모호프체 4호기}} 계통 연결 {{며칠 지연}}…{{EDF}}는 여름 원전 차질에 {{기후대책 서둘러}}",
+ "src": [
+  {
+   "o": "Energy News Pro",
+   "d": "2026-10-13",
+   "u": "https://energynews.pro/en/slovakia-announces-grid-synchronisation-of-mochovce-4-unit"
+  },
+  {
+   "o": "Montel",
+   "d": "2026-06-26",
+   "u": "https://montelnews.com/news/17fa06d7-e957-43e3-9e12-127fc24528e4/edf-slashes-10-of-nuclear-output-amid-record-breaking-heatwave"
+  },
+  {
+   "o": "Energy & Climate Index",
+   "d": "2026-07-30",
+   "u": "https://energyandclimateindex.com/en/edf-to-invest-e8-7-billion-in-climate-resilience/"
+  }
+ ],
+ "items": [
+  {
+   "t": "슬로바키아, 모호프체 원전 4호기 계통 연결 앞둬…출력 증강 계속",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/slovakia-connect-mochovce-nuclear-power-plants-fourth-unit-ramp-up-continues-2026-10-13/",
+   "s": "{{슬로바키아}}가 {{모호프체 원전 4호기}}의 {{계통 연결}}을 기술 시험 반복으로 {{며칠 늦추}}면서도 출력 증강을 {{이어가}} {{연말 완전 가동}}을 노린다"
+  },
+  {
+   "t": "기록적 여름 원전 차질에 EDF, 기후대책 신속 추진",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/record-summer-nuclear-disruptions-push-edf-fast-track-climate-measures-2026-10-13/",
+   "s": "{{EDF}}가 {{기록적인 여름 원전 가동 차질}}을 겪으면서 {{기후 적응 대책}}을 {{앞당겨}} 폭염기 {{출력 감소}}를 {{줄이려}} 하고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "uranium",
+  "power"
+ ],
+ "nodes": [
+  "uranium/operators",
+  "power/gen"
+ ],
+ "title": "{{모호프체 4호기}} 계통 연결 {{며칠 지연}}…{{EDF}}는 여름 원전 차질에 {{기후대책 서둘러}}",
+ "one": "{{슬로바키아}}가 {{모호프체 원전 4호기}}(471MW)의 {{계통 연결}}을 기술 시험 반복으로 {{며칠 미루}}고 {{EDF}}는 {{기록적인 여름 원전 가동 차질}}에 {{기후 대응책}}을 {{앞당기}}면서, 유럽 원전 공급의 {{계절 리스크}}가 {{부각되고}} 있다",
+ "facts": [
+  "무엇이: 슬로바키아 운영사 슬로벤스케 엘렉트라르네는 기술 시험을 반복해야 해 모호프체 4호기 계통 연결을 며칠 늦추고, 수일 안에 연결할 것으로 예상했다 [사실]",
+  "4호기: 471MW 규모로 출력 약 20%에서 계통 동기화를 하며, 상업운전 전 144시간 전출력 운전이 필요하고 연말 완전 가동이 목표다 [사실]",
+  "EDF 차질: 6월 말 폭염으로 강물 온도가 오르자 EDF는 원전 출력을 약 6.2~6.5GW(약 10%) 줄였다 [사실]",
+  "EDF 계획: EDF는 기후 적응 예산을 연 1억 5,000만 유로에서 15년 안에 연 6억 유로로 늘리는 87억 유로 계획을 상반기에 내놓았다 [사실]",
+  "가속: EDF가 기록적인 여름 원전 차질을 계기로 기후 대응 조치를 앞당긴다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "모호프체 4호기 연결 지연과 EDF 6월 출력 감축, 87억 유로 기후 적응 계획은 검색 결과 요약으로 확인. EDF가 이번에 앞당긴 구체 조치는 확인하지 못함",
+ "added": "이번 로이터 1건으로 {{EDF}}가 {{기록적인 여름 원전 차질}}을 계기로 {{폭염·가뭄에 대비한 기후 대응 조치}}를 {{앞당긴다}}는 내용이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

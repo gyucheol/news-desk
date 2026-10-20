@@ -1,0 +1,102 @@
+{
+ "added": "이번 로이터 2건으로 정상회의에서 순기여국 반발이 이어지고 스웨덴이 순분담금 약 60% 증가를 들어 거부했으며 코스타 상임의장이 협상을 넘겨받은 점이 추가됐다",
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 스웨덴 거부 사유(순분담금 약 60% 증가), 독일·네덜란드 반응, 유럽의회 요구액, 코스타 협상 인계·11월 말 특별 회의",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아일랜드 의장국은 2028~34년 EU 예산을 집행위안보다 1,410억 유로(8%) 줄인 약 1조 6,220억 유로로 제안했습니다 [사실]",
+  "반발: 크리스테르손 스웨덴 총리는 자국 순분담금이 약 60% 늘어난다며 거부했고, 메르츠 독일 총리는 옳은 방향이지만 여전히 크다고, 예텐 네덜란드 총리는 합의에 충분하지 않다고 했습니다 [사실]",
+  "의회와 격차: 유럽의회는 1조 9,380억 유로를 요구해 아일랜드안보다 16% 많습니다 [사실]",
+  "일정: 코스타 상임의장이 협상을 넘겨받아 11월 말 특별 회의를 추가했고, 결론 초안은 연내 합의 대신 적시 합의로 표현을 바꿨습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EU 7년 예산 정상회의서 충돌…스웨덴 '수용 불가', 코스타가 협상 넘겨받아",
+ "id": "n-rtr-0240",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{아일랜드 의장국}}이 {{2028~34년 EU 예산을 8% 줄인 약 1조 6천억 유로}}로 {{제시}}하면서, {{경쟁력·안보 지출}}이 {{13% 줄어들 수}} 있다",
+   "t": "EU 의장국 아일랜드, 2028~2034년 예산안 8% 삭감 요구",
+   "u": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{독일·네덜란드·스웨덴 등 6개국 정상}}이 {{수천억 유로 삭감이 없으면 합의를 보류}}하겠다고 하면서, {{EU 예산 협상}}이 {{길어질 수}} 있다",
+   "t": "독일 등 6개국 정상, 대규모 삭감 없으면 EU 예산 합의 보류 경고",
+   "u": "https://t.me/The_MariTimes/63652"
+  },
+  {
+   "t": "EU 정상들, 장기 예산 놓고 충돌…빠른 합의 안 보여",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/",
+   "s": "EU 정상들이 2028~34년 장기 예산 규모를 두고 맞서면서 아일랜드 의장국 삭감안으로도 빠른 합의가 보이지 않는다"
+  },
+  {
+   "t": "스웨덴, 아일랜드 의장국의 2028~34년 EU 예산안 거부",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/europe/sweden-reject-irish-eu-presidency-proposal-2028-2034-budget-plan-2026-10-15/",
+   "s": "스웨덴이 순분담금이 약 60% 늘어난다며 아일랜드 의장국 예산안을 거부하면서 연내 합의 가능성에 의문이 커졌다"
+  }
+ ],
+ "key": "mix-C081-2026-10-13",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 240,
+ "one": "아일랜드 의장국이 2028~34년 EU 예산을 8% 줄인 약 1조 6,220억 유로로 제시했지만 스웨덴이 순분담금 약 60% 증가를 들어 거부하고 독일·네덜란드도 부족하다고 하면서, 정상회의에서 빠른 합의가 보이지 않아 연내 타결이 늦어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T16:41:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-10",
+   "o": "Modern Diplomacy",
+   "u": "https://moderndiplomacy.eu/2026/10/10/eu-budget-showdown-irish-presidency-seeks-8-cut-to-2028-2034-spending-plan/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "Agence Europe",
+   "u": "https://agenceurope.eu/en/bulletin/article/13957/1/mff-2028-2034-irish-council-presidency-bets-on-cuts-mainly-affecting-eu-competitiveness-defence-and-external-action"
+  },
+  {
+   "o": "France 24",
+   "d": "2026-10-15",
+   "u": "https://france24.com/en/europe/20261015-eu-leaders-head-for-showdown-over-bloc-budget"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-15",
+   "u": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices"
+  },
+  {
+   "o": "A News",
+   "d": "2026-10-15",
+   "u": "https://www.anews.com.tr/european-union/2026/10/15/eu-leaders-divided-over-blocs-next-long-term-budget-ahead-of-summit"
+  }
+ ],
+ "tags": [],
+ "title": "EU 7년 예산 정상회의서 충돌…스웨덴 '수용 불가', 코스타가 협상 넘겨받아",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "순기여국 반발로 EU 장기 예산 추가 삭감 압박"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0167",
+ "feed": "v5",
+ "format": "one1",
+ "num": 167,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69791",
+ "published": "2026-10-03T17:27:00+09:00",
+ "url": "https://t.me/HANAchina/69791",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "머스크, TSMC·테라팹 텍사스 공장 협력 논의 확인…TSMC 소유·운영안 유력",
+ "one": "머스크가 TSMC와 테라팹의 텍사스 반도체 공장 협력 논의를 공개 확인하면서, TSMC가 새 공장을 소유·운영하고 스페이스X가 지분 투자나 구매 약정을 맡는 구조가 가장 유력하게 거론되고 있다",
+ "headline": "머스크, TSMC·테라팹 텍사스 공장 협력 논의 확인…TSMC 소유·운영안 유력",
+ "facts": [
+  "무엇이: 팀 컬판의 뉴스레터 Culpium이 TSMC의 테라팹 텍사스 공장 운영 협력 검토를 보도했고, 머스크가 10월 3일 X에서 '아직 논의 단계'라며 확인했습니다 [사실]",
+  "구조: TSMC가 공장을 보유·운영하고 스페이스X·테라팹이 지분 투자나 구매 약정을 하는 안이 가장 유력하며, 테라팹 과반 지분안도 검토 중입니다 [사실]",
+  "배경: 테라팹 1단계 규모는 약 168억 달러로 알려졌고 인텔은 4월부터 전략적 파트너로 참여 중입니다 [사실]",
+  "영향: 소식 이후 인텔 주가가 4% 하락했습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(대만경제일보·Culpium 보도 전재)로 들어온 소식이며, DigiTimes 자체 기사와 Culpium 원 보도(검색 결과 요약으로 확인)로 머스크의 확인과 협력 구조를 확인했습니다. TSMC 텍사스 단지 검토(n-bbg-0053)의 후속입니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-03",
+   "u": "https://t.me/HANAchina/69791"
+  },
+  {
+   "o": "DigiTimes",
+   "d": "2026-10-03",
+   "u": "https://www.digitimes.com/news/a20261003VL200/tsmc-texas-elon-musk-spacex-investment.html"
+  },
+  {
+   "o": "Culpium",
+   "d": "2026-10",
+   "u": "https://www.culpium.com/p/elon-musk-confirms-tsmc-terafab-talks"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "dupOf": "n-bbg-0053"
+}

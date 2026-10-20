@@ -1,0 +1,56 @@
+{
+ "id": "n-tg-0130",
+ "feed": "v5",
+ "format": "one1",
+ "num": 130,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-The_MariTimes-63563",
+ "published": "2026-10-07T22:10:00+09:00",
+ "url": "https://t.me/The_MariTimes/63563",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/commodity"
+ ],
+ "title": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+ "one": "트럼프 대통령이 갤런당 18.4센트인 연방 휘발유세 유예를 검토한다고 밝혔으나, 의회 입법이 필요한 데다 인하 효과는 갤런당 10~16센트에 그칠 것으로 추산돼 실제 휘발유값 부담 완화는 제한적일 수 있다",
+ "headline": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 6일 연방 휘발유세 유예 여부를 묻는 질문에 '검토하고 있다'고 답했지만 시점이나 절차는 밝히지 않았습니다 [사실]",
+  "왜: 10월 5일 미국 휘발유 평균가는 갤런당 4.37달러로 2월 말 이란 전쟁 시작 뒤 약 50% 올랐고, 중간선거를 앞두고 있습니다 [사실]",
+  "걸림돌: 갤런당 18.4센트 세금을 멈추려면 의회 입법이 필요한데 상·하원 모두 선거운동으로 워싱턴을 떠난 상태입니다 [사실]",
+  "효과: 초당적정책센터(BPC)는 유예 시 휘발유값이 갤런당 10~16센트 내린다고 추산했고, 연방 세수는 매달 수십억 달러 줄어듭니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(블룸버그 기사 링크)로 들어온 소식이며, Transport Topics·뉴스위크 기사의 검색 결과 요약으로 발언 내용, 휘발유 평균가, 세율, 추산 효과를 확인했습니다. 블룸버그 원문은 열지 않았습니다.",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-07",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "o": "Transport Topics",
+   "d": "2026-10",
+   "u": "https://www.ttnews.com/articles/trump-gas-tax-suspension"
+  },
+  {
+   "o": "뉴스위크",
+   "d": "2026-10",
+   "u": "https://www.newsweek.com/trump-floats-gas-tax-cut-how-much-you-could-save-12533288"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "Polaristimes"
+}

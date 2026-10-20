@@ -1,0 +1,94 @@
+{
+ "basis": "verified",
+ "channel": "미국 주식 인사이더",
+ "check": "검색 결과 요약으로 확인(CNBC, Raisin 등)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 연준이 9월 15~16일 회의에서 기준금리를 3.75~4.00%로 0.25%p 올렸고, 의사록에서 대다수 위원이 연말까지 추가 인상이 적절할 것으로 봤다 [사실]",
+  "이견: 일부는 에너지 충격 대응을, 매파 쪽은 수요발 물가를 인상 이유로 들어 논리가 갈렸고, 일부는 시장 스트레스 대비를 주문했다 [사실]",
+  "발언: 무살렘 세인트루이스 연은 총재는 물가를 2%로 낮추려면 6~9개월 안에 추가 인상이 필요할 수 있다고 했으나 10월 인상은 약속하지 않았다 [사실]",
+  "시장: 투자자들은 10월 회의 동결, 12월 8~9일 회의 인상을 예상하는 쪽으로 기대를 조정했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연준 의사록 \"대다수 연내 추가 인상\"…무살렘도 인상 필요, 10월은 쉬어갈 듯",
+ "id": "n-tg-0209",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-insidertracking-65727",
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "num": 209,
+ "one": "9월 0.25%p 인상을 결정한 연준 위원 대다수가 연내 추가 인상이 적절하다고 본 의사록이 공개되고 무살렘·월러 등이 추가 인상 필요성을 밝히면서, 시장은 10월 27~28일 동결 뒤 12월 인상 쪽으로 기대를 옮기고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T05:48:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "investingLive",
+   "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-07",
+   "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+  },
+  {
+   "o": "Raisin",
+   "d": "2026-10-08",
+   "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+  }
+ ],
+ "tags": [],
+ "title": "연준 의사록 \"대다수 연내 추가 인상\"…무살렘도 인상 필요, 10월은 쉬어갈 듯",
+ "url": "https://t.me/insidertracking/65727",
+ "items": [
+  {
+   "t": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "t": "데일리 연은 총재 \"추가 인상 필요성은 충격 전개에 달려\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/"
+  },
+  {
+   "t": "9월 의사록, 연준 위원들 금리 인상 논리 두고 의견 갈려",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/"
+  },
+  {
+   "t": "연준 의사록, 일부 위원은 시장 스트레스 대비 원해",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/fed-minutes-show-some-officials-want-prepare-market-stress-2026-10-07/"
+  },
+  {
+   "t": "무살렘 연은 총재 \"물가 낮추려면 추가 금리 인상 필요\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

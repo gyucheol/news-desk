@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0048",
+ "num": 48,
+ "key": "bnd-C106-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T08:58:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/lg-energy-solution-flags-26-rise-q3-operating-profit-2026-10-07/",
+ "origTitle": "",
+ "headline": "LG엔솔 3분기 영업익 7560억…북미 ESS 수요로 분기 최대 매출",
+ "src": [
+  {
+   "o": "글로벌이코노믹",
+   "d": "2026-10-08",
+   "u": "https://www.g-enews.com/article/Industry/2026/10/202610081654587373084322ec9_1"
+  },
+  {
+   "o": "Businesskorea",
+   "d": "2026-10-08",
+   "u": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278453"
+  }
+ ],
+ "items": [
+  {
+   "t": "LG에너지솔루션, 3분기 영업이익 26% 증가 예고",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/lg-energy-solution-flags-26-rise-q3-operating-profit-2026-10-07/"
+  },
+  {
+   "t": "LG에너지, ESS 수요에 사상 최대 분기 실적",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/lg-energy-profit-beats-estimates-on-energy-storage-system-demand"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "LG엔솔 3분기 영업익 7560억…북미 ESS 수요로 분기 최대 매출",
+ "one": "LG에너지솔루션이 북미 ESS용 배터리 생산을 늘리면서 3분기 매출 9조6434억원으로 분기 최대를 기록하고 영업이익도 7560억원으로 전년보다 25.7% 늘었지만, 미국 생산세액공제 4169억원을 빼면 영업이익률은 3.7%에 그친다",
+ "facts": [
+  "무엇이: LG에너지솔루션 3분기 잠정 매출 9조6434억원(전년 대비 59.0% 증가), 영업이익 7560억원(25.7% 증가) [사실]",
+  "예상 대비: 에프앤가이드 전망치(영업이익 3264억원)를 크게 웃돎 [사실]",
+  "원인: 북미 ESS 생산 확대로 출하가 늘고 가동률이 오르며 고정비 부담이 줄어듦 [사실]",
+  "질: 미국 IRA 45X 세액공제 4169억원이 영업이익의 약 55%, 이를 빼면 영업이익 3391억원 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 잠정실적 공시 보도(글로벌이코노믹·비즈니스코리아)로 확인(검색 결과 요약으로 확인)",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/storage"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

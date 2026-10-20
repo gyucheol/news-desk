@@ -1,0 +1,78 @@
+{
+ "id": "n-rtr-0331",
+ "num": 331,
+ "key": "mix-G3-019-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T03:09:00+09:00",
+ "url": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/",
+ "origTitle": "",
+ "headline": "FSB, 에이전트형 AI에 인간 감독 강화 요구…영란은행 'AI 위험에 복구 대비'",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-15",
+   "u": "https://www.globalbankingandfinance.com/global-financial-watchdog-calls-human-oversight-agentic-ai/"
+  },
+  {
+   "o": "The Asian Banker",
+   "d": "2026",
+   "u": "https://www.theasianbanker.com/updates-and-articles/financial-stability-board-points-banks-towards-ai-monitoring-ai-as-human-oversight-reaches-its-limits"
+  }
+ ],
+ "items": [
+  {
+   "t": "검토 보고서 'FSB, 진정한 시스템 위험에 집중해야'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/government/financial-stability-board-should-concentrate-genuinely-systemic-risks-review-2026-10-14/",
+   "s": "FSB를 검토한 보고서가 FSB가 진정으로 시스템적인 위험에 집중해야 한다고 권고하면서 국제 금융감독 기구의 역할 조정 논의가 불거졌다 (제목 기준)"
+  },
+  {
+   "t": "영란은행 브리든 '은행, AI 위험 대비해 베어메탈 복구 능력 갖춰야'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/",
+   "s": "영란은행 브리든이 AI 위험에 맞서 은행들이 시스템을 처음부터 다시 세우는 복구 능력을 갖춰야 한다고 말하면서 운영 복원력 요구가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "글로벌 금융감독기구, 에이전트형 AI에 인간 감독 강화 촉구",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/government/global-financial-watchdog-calls-more-human-oversight-agentic-ai-2026-10-15/",
+   "s": "FSB가 에이전트형 AI의 고위험 업무에 더 집중적인 인간 감독과 사람 승인 기준을 요구하면서 금융회사의 AI 도입 통제가 강화됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "FSB, 에이전트형 AI에 인간 감독 강화 요구…영란은행 'AI 위험에 복구 대비'",
+ "one": "금융안정위원회가 금융회사에 고위험 업무에서 AI 에이전트가 사람 승인을 받도록 위험 기반 기준을 두라는 최종 지침을 내고 영란은행 브리든이 AI 위험에 대비한 기초부터의 복구 능력을 주문하면서, 금융권의 AI 운영 통제 부담이 커질 전망이다",
+ "facts": [
+  "무엇이: 금융안정위원회(FSB)가 에이전트형 AI 최종 지침에서 고위험 업무일수록 더 집중적인 인간 감독이 필요하며 AI 에이전트가 사람 승인을 받아야 하는 위험 기반 기준을 정하라고 권고했다 [사실]",
+  "변화: 최종안은 6월 초안의 'AI를 합성 직원으로 보는' 개념을 빼고, AI 에이전트가 사람처럼 추론하지 않아 목표를 예상 밖으로 해석할 수 있다고 봤다 [사실]",
+  "영란은행: 브리든 영란은행 부총재는 은행들이 AI 위험에 맞서 시스템을 처음부터 되살리는 베어메탈 복구 능력을 갖춰야 한다고 말했다 [제목]",
+  "FSB 개편: FSB 운영 검토 보고서는 FSB가 진정으로 시스템적인 위험에 집중해야 한다고 권고했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "FSB 에이전트형 AI 최종 지침 내용과 초안 대비 변화는 Global Banking & Finance·The Asian Banker 검색 결과 요약으로 확인. 브리든 발언과 FSB 검토 보고서는 확인 못 함(제목 기준)",
+ "added": "이번 로이터 2건으로 FSB의 에이전트형 AI 인간 감독 강화 최종 지침과 브리든의 베어메탈 복구 능력 요구가 추가됐다",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "AI 감독 지침 강화로 수급보다 통제 부담 변화"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0037",
+ "num": 37,
+ "key": "bnd-C066-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T16:10:00+09:00",
+ "url": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/",
+ "origTitle": "",
+ "headline": "美 EPA 메탄 누출 규제 폐지 추진·EU 수입 메탄 규정 1년 연기…석유·가스 부담 완화",
+ "src": [
+  {
+   "o": "Source New Mexico",
+   "d": "2026-10-07",
+   "u": "https://sourcenm.com/2026/10/07/epa-head-announces-oil-and-gas-emission-rules-rollbacks-during-visit-to-santa-fe/"
+  },
+  {
+   "o": "EnergyNow",
+   "d": "2026-10-06",
+   "u": "https://energynow.com/2026/10/eu-to-delay-methane-emissions-rules-for-one-year-and-no-more-energy-chief-says/"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU 에너지 위원 '메탄 배출 규정 1년 연기, 그 이상은 없다'",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/"
+  },
+  {
+   "t": "트럼프 EPA, 석유·가스업체 메탄 규제 완화안 준비",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/trump-epa-readies-bid-to-weaken-methane-controls-for-oil-gas-companies"
+  },
+  {
+   "t": "EPA '바이든 정부 메탄 누출 정책 곧 폐지 조치'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/government/epa-says-will-soon-act-rescind-biden-policy-targeting-methane-leaks-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "美 EPA 메탄 누출 규제 폐지 추진·EU 수입 메탄 규정 1년 연기…석유·가스 부담 완화",
+ "one": "미국 EPA가 제3자가 감지한 대형 메탄 누출을 업체가 조사하도록 한 '슈퍼 배출원' 제도 폐지안을 며칠 안에 내놓겠다고 밝히고 EU도 2027년 1월 시행 예정이던 수입 석유·가스 메탄 보고 규정을 1년 미루기로 하면서, 대서양 양쪽 석유·가스 공급자의 규제 부담이 줄어들 전망이다",
+ "facts": [
+  "무엇이: 젤딘 EPA 청장이 10월 7일 바이든 정부의 메탄 '슈퍼 배출원' 제도 폐지안 발표가 '몇 주가 아닌 며칠' 남았다고 말했다 [사실]",
+  "규모: EPA는 일련의 규제 변경으로 450억 달러를 아낄 수 있다고 주장했다 [사실]",
+  "EU: 요르겐센 에너지 집행위원이 10월 6일 수입 관련 메탄 규정 시행을 1년 이내로 미루는 방안을 검토하라고 지시했다 [사실]",
+  "변수: 체코·이탈리아는 3년 연기를 요구하며, 연기안은 회원국과 유럽의회 승인이 필요하다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream",
+  "gas/trade"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

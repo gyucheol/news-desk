@@ -1,0 +1,134 @@
+{
+ "basis": "title",
+ "channel": "하나증권 중국전략",
+ "check": "이번 글(로이터)은 검색하지 않아 제목 기준. 가격·공급 내용은 기존 문서 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 신흥 아시아의 발전용 LNG 수요가 재생에너지 확대로 위험에 처했습니다 [제목]",
+  "가격: JERA CEO는 LNG 현물가가 1년 전의 두 배라고 했고, 페트로나스는 구매자들이 100만 BTU당 25~28달러에도 산다고 말했습니다 [사실]",
+  "공급: 9월 호르무즈 LNG 통과 화물은 21척으로 전쟁 전보다 75% 넘게 적었고, 카타르 노스필드이스트 첫 트레인(연 800만 톤)은 11월 가동 준비를 마쳤습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "신흥 아시아 발전용 LNG 수요, 재생에너지에 밀릴 위험…현물가 두 배 속",
+ "id": "n-tg-0159",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "JERA 가니 CEO \"카타르 LNG 곧 안 돌아온다\"…현물가 작년의 두 배",
+   "u": "https://t.me/HANAchina/69766"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그",
+   "t": "호르무즈 LNG 통과 회복세 이어져…그래도 전쟁 전보다 75% 넘게 적어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/lng-trade-through-hormuz-extends-rebound-despite-shipping-risks"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "로이터",
+   "t": "페트로나스 \"LNG 구매자들, 25~28달러에도 주저 없이 산다\"",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "카타르, 빈 LNG선을 걸프 안으로 불러들여…수출 확대 준비 신호",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "카타르에너지 NFE 프로젝트 첫 LNG 트레인 가동 준비 완료…소식통 2명",
+   "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "셸, 카타르 펄 가스액화연료(GTL) 공장 부분 재가동",
+   "u": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/"
+  },
+  {
+   "t": "신흥 아시아 발전용 LNG 수요, 재생에너지 약진에 위험",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/energy/emerging-asias-power-driven-lng-demand-risk-renewables-gain-ground-2026-10-12/"
+  }
+ ],
+ "key": "tg-HANAchina-69766",
+ "nodes": [
+  "coal/power",
+  "gas/demand",
+  "gas/liquefaction",
+  "gas/shipping",
+  "gas/trade"
+ ],
+ "num": 159,
+ "one": "호르무즈 통과 LNG가 전쟁 전보다 75% 넘게 줄고 현물가가 1년 전의 두 배로 뛴 가운데 카타르가 노스필드이스트 첫 트레인 가동을 준비하고 있지만, 신흥 아시아에서 재생에너지가 빠르게 늘면서 발전용 LNG 수요가 위협받고 있다 (제목 기준)",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T17:11:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69766"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "The National",
+   "u": "https://www.thenationalnews.com/business/energy/2026/10/02/worlds-top-lng-buyer-sees-qatar-supply-disruption-persisting-into-winter/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/lng-trade-through-hormuz-extends-rebound-despite-shipping-risks"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Oilprice.com 자체 기사",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "로이터(원문 미확인)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45R0T9:0-lng-buyers-are-paying-25-28-mmbtu-without-flinching-petronas-says/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Energy Intelligence(제목만 공개)",
+   "u": "https://energyintel.com/000001a1-11a4-d564-a5ef-77b467bc0000"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "1Arabia(아라비안 포스트)",
+   "u": "https://www.1arabia.com/2026/10/qatar-positions-empty-lng-fleet-for.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Zawya",
+   "u": "https://www.zawya.com/en/business/commodities/first-lng-train-at-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-1545253"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Upstream",
+   "u": "https://www.upstreamonline.com/energy-security/shell-partially-restarts-pearl-facility-in-qatar-after-attacks/2-1-2056091"
+  }
+ ],
+ "tags": [],
+ "title": "신흥 아시아 발전용 LNG 수요, 재생에너지에 밀릴 위험…현물가 두 배 속",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://t.me/HANAchina/69766"
+}

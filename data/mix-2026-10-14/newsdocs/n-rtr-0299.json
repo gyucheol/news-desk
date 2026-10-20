@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0299",
+ "num": 299,
+ "key": "mix-C108-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T03:22:00+09:00",
+ "url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{가이아나}}, 엑손 가스 재주입 수요에 {{LNG 계획 축소}} {{검토}}…{{연 300만 톤으로}}",
+ "src": [
+  {
+   "o": "EnergyNow",
+   "d": "2026-10-13",
+   "u": "https://energynow.com/2026/10/guyana-may-scale-back-lng-plans-as-exxon-needs-more-gas-for-its-wells-sources-say/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-13",
+   "u": "https://www.newsquawk.com/headlines/guyanas-government-reconsidering-lng-project-after-exxon-mobil-xom-told-guyana-it-will-need-more-gas-for-reinjection-according-to-reports-citing-sources"
+  }
+ ],
+ "items": [
+  {
+   "t": "가이아나, 엑손 유전에 가스 더 필요해 LNG 계획 축소 가능성…소식통",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream",
+  "gas/liquefaction"
+ ],
+ "title": "{{가이아나}}, 엑손 가스 재주입 수요에 {{LNG 계획 축소}} {{검토}}…{{연 300만 톤으로}}",
+ "one": "{{엑손 컨소시엄}}이 원유 목표를 맞추려면 {{하루 약 20억 입방피트의 가스}}를 {{유전에 재주입}}해야 한다고 보면서, {{가이아나}}가 {{연 600만 톤 LNG 사업}}을 {{최대 300만 톤으로 줄이}}거나 {{수출 포기}}까지 {{검토}}하고 있다",
+ "facts": [
+  "무엇이: 가이아나가 엑손모빌의 가스 수요 탓에 LNG 계획 축소를 검토하고 있으며 아직 최종 결정은 없다고 소식통 2명이 전했다 [사실]",
+  "가스 수요: 엑손·셰브런·CNOOC 컨소시엄은 승인된 사업의 원유 목표를 맞추려면 하루 약 20억 입방피트의 가스를 유전에 재주입해야 한다고 본다 [사실]",
+  "LNG 규모: 연 600만 톤으로 계획한 사업이 최대 300만 톤으로 시작해 나중에 늘릴 수 있고, 2024년 선정된 미국 풀크럼 LNG의 부유식 설비도 영향을 받는다 [사실]",
+  "대안: 정부는 수출을 접고 국내 발전·석유화학에 가스를 쓰는 방안도 따지며, 가스발전소 가동을 우선하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "EnergyNow·Newsquawk 검색 결과 요약으로 확인(원 보도는 로이터 단독)"
+}

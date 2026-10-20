@@ -1,0 +1,56 @@
+{
+ "id": "n-tg-0129",
+ "feed": "v5",
+ "format": "one1",
+ "num": 129,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-70019",
+ "published": "2026-10-07T21:10:00+09:00",
+ "url": "https://t.me/HANAchina/70019",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "title": "영국 30년물 국채금리 6.02%…1998년 이후 최고, 10년물도 5.5% 근접",
+ "one": "영국 30년물 국채금리가 하루 12bp 올라 6.02%로 1998년 이후 최고를 다시 쓰면서, 10월 28일 예산안을 앞둔 영국 정부의 차입 비용과 고정금리 주택담보대출 금리에 상승 압력이 커질 수 있다",
+ "headline": "영국 30년물 국채금리 6.02%…1998년 이후 최고, 10년물도 5.5% 근접",
+ "facts": [
+  "무엇이: 영국 30년물 국채금리가 10월 7일 장중 1998년 1월 이후 최고치로 올라, 10월 1일 처음 6%를 넘었을 때의 고점을 다시 넘어섰습니다 [사실]",
+  "얼마나: 하루 상승 폭은 12bp, 수준은 6.02%였습니다 [채널]",
+  "10년물: 10년물 금리도 5.51% 안팎으로 올라 2007년 이후 최고 수준입니다 [사실]",
+  "다음 일정: 10월 28일 가을 예산안과 11월 5일 영란은행 통화정책 결정이 이어집니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 글(화얼제젠원 인용)로 들어온 소식입니다. 10월 1일 첫 6% 돌파는 서울경제 영문판(2026-10-02)으로, 10월 7일 신고점과 10년물 5.51%(2007년 이후 최고), 예산안·영란은행 일정은 Global Banking & Finance Review·MPA 기사 검색 결과 요약으로 확인했습니다. 12bp·6.02%라는 정확한 수치는 채널 기준입니다(검색 요약에는 13bp·6.036%로 나옴).",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/70019"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-07",
+   "u": "https://www.globalbankingandfinance.com/uk-30-year-gilt-yields-hit-28-year-high-global-selloff/"
+  },
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-02",
+   "u": "https://en.sedaily.com/international/2026/10/02/uk-30-year-yield-tops-6-percent-for-first-time-since-1998"
+  },
+  {
+   "o": "Mortgage Professional (MPA)",
+   "d": "2026-10",
+   "u": "https://www.mpamag.com/uk/news/general/former-boe-economist-warns-on-gilts-as-budget-tests-uk-mortgage-rates/592613"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략"
+}

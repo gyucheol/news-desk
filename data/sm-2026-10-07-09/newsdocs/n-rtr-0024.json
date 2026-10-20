@@ -1,0 +1,74 @@
+{
+ "id": "n-rtr-0024",
+ "num": 24,
+ "key": "bnd-C024-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T06:34:00+09:00",
+ "url": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/",
+ "origTitle": "",
+ "headline": "플라비우 보우소나루 약진에 브라질 자산 랠리…재무장관 후보·감세 재검토 거론",
+ "src": [
+  {
+   "o": "Investing.com(재무장관 발언 보도 요약)",
+   "d": "2026-10-08",
+   "u": "https://www.investing.com/news/economy-news/brazil-finance-minister-calls-bolsonaro-trade-a-hollow-illusion-4939666"
+  }
+ ],
+ "items": [
+  {
+   "t": "브라질 보우소나루, 룰라 시대 세금의 광범위한 재검토 약속",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/"
+  },
+  {
+   "t": "브라질 대선: 플라비우 보우소나루 약진에 유력 재무장관 후보들 몰려",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-flavio-bolsonaro-surge-attracts-top-finance-minister-names"
+  },
+  {
+   "t": "보우소나루, 브라질 경제 운용에 크레디트스위스·BofA 출신 인사 검토",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bolsonaro-evalua-figuras-de-credit-suisse-y-bofa-para-manejar-economia-de-brasil"
+  },
+  {
+   "t": "브라질 선거 베팅으로 대박 난 헤지펀드들, 추가 상승에 베팅",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/hedge-funds-that-nailed-brazil-vote-bet-on-more-gains-ahead"
+  },
+  {
+   "t": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/environment/new-brazil-congress-poses-risk-environmental-legislation-campaign-group-says-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "플라비우 보우소나루 약진에 브라질 자산 랠리…재무장관 후보·감세 재검토 거론",
+ "one": "브라질 대선 1차 투표에서 플라비우 보우소나루가 예상보다 선전하면서 브라질 자산이 랠리했고, 보우소나루 측이 룰라 정부 세금의 전면 재검토를 약속하며 시장 친화 재무장관 후보를 물색해 정책 전환 기대가 커지고 있다",
+ "facts": [
+  "무엇이: 플라비우 보우소나루 상원의원이 1차 투표에서 룰라 대통령을 상대로 예상보다 강한 성적을 내 브라질 자산이 랠리 [사실]",
+  "정부 반응: 두리강 현 재무장관은 10월 8일 보우소나루 집권 기대 랠리를 '값싸고 공허한 환상'이라 일축 [사실]",
+  "정책: 보우소나루 측이 룰라 시대 세금의 광범위한 재검토를 약속, 크레디트스위스·BofA 출신 인사 등이 재무장관 후보로 거론 [제목]",
+  "시장: 선거 베팅으로 큰 수익을 낸 헤지펀드들이 추가 상승에 베팅, 환경단체는 새 의회가 환경 입법에 위험이라고 경고 [제목]"
+ ],
+ "basis": "partial",
+ "check": "1차 투표 선전·자산 랠리·두리강 발언은 검색 결과 요약으로 확인. 재무장관 후보 이름·세금 재검토·헤지펀드 포지션은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/fx"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

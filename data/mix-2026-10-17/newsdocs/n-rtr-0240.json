@@ -1,0 +1,127 @@
+{
+ "added": "이번 로이터 2건으로 아일랜드안도 현행보다 50% 많다는 메르츠의 추가 삭감 요구와 11월 추가 정상회의 전망, 마크롱의 연내 합의 압박이 추가됐다",
+ "basis": "partial",
+ "check": "메르츠의 추가 삭감 요구와 50% 발언, 11월 추가 회의 전망은 검색 결과 요약으로 확인. 마크롱 발언 세부는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 메르츠 총리는 1,410억 유로를 줄인 아일랜드안도 현행 다년도 재정계획보다 50% 많다며 더 깎아야 한다고 했다 [사실]",
+  "우선순위: 메르츠는 경쟁력·국방에 돈을 쓰고 결속·농업 정책 추가 지원은 거부한다고 했으며, 충분한 재원을 주장하는 프랑스와 맞서 있다 [사실]",
+  "프랑스: 마크롱 대통령은 EU 정상들에게 연말 전 예산 합의가 필요하다고 경고했다 [제목]",
+  "일정: 메르츠는 연내 합의를 바라지만 확신하지 못한다며 11월 추가 정상회의를 예상했고 만장일치가 필요하다고 강조했다 [사실]",
+  "기존: 스웨덴은 순분담금 약 60% 증가를 들어 거부했고, 유럽의회는 1조 9,380억 유로를 요구한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EU 7년 예산 줄다리기…메르츠 '더 깎아야', 마크롱 '연내 합의 필요'",
+ "id": "n-rtr-0240",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{아일랜드 의장국}}이 {{2028~34년 EU 예산을 8% 줄인 약 1조 6천억 유로}}로 {{제시}}하면서, {{경쟁력·안보 지출}}이 {{13% 줄어들 수}} 있다",
+   "t": "EU 의장국 아일랜드, 2028~2034년 예산안 8% 삭감 요구",
+   "u": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{독일·네덜란드·스웨덴 등 6개국 정상}}이 {{수천억 유로 삭감이 없으면 합의를 보류}}하겠다고 하면서, {{EU 예산 협상}}이 {{길어질 수}} 있다",
+   "t": "독일 등 6개국 정상, 대규모 삭감 없으면 EU 예산 합의 보류 경고",
+   "u": "https://t.me/The_MariTimes/63652"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "EU 정상들이 2028~34년 장기 예산 규모를 두고 맞서면서 아일랜드 의장국 삭감안으로도 빠른 합의가 보이지 않는다",
+   "t": "EU 정상들, 장기 예산 놓고 충돌…빠른 합의 안 보여",
+   "u": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "스웨덴이 순분담금이 약 60% 늘어난다며 아일랜드 의장국 예산안을 거부하면서 연내 합의 가능성에 의문이 커졌다",
+   "t": "스웨덴, 아일랜드 의장국의 2028~34년 EU 예산안 거부",
+   "u": "https://www.reuters.com/world/europe/sweden-reject-irish-eu-presidency-proposal-2028-2034-budget-plan-2026-10-15/"
+  },
+  {
+   "t": "마크롱, EU 정상들에 '연말 전 예산 합의 필요' 경고",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/frances-macron-warns-eu-leaders-they-need-budget-deal-before-year-end-say-2026-10-16/",
+   "s": "마크롱 대통령이 EU 정상들에게 연말 전 예산 합의가 필요하다고 경고하면서 협상 지연에 대한 압박을 키웠다 (제목 기준)"
+  },
+  {
+   "t": "독일 메르츠 총리 'EU 예산안 더 깎아야 한다'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/germanys-merz-says-eu-budget-proposal-must-be-cut-further-2026-10-16/",
+   "s": "메르츠 총리가 아일랜드안도 현행 예산보다 50% 많다며 추가 삭감과 경쟁력·국방 중심 배분을 요구하면서 연내 타결이 불투명해졌다"
+  }
+ ],
+ "key": "mix-C081-2026-10-13",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 240,
+ "one": "아일랜드 의장국의 1조 6,220억 유로 안을 두고 메르츠 독일 총리가 현행 예산보다 50% 많다며 추가 삭감을 요구하고 마크롱 프랑스 대통령은 연내 합의가 필요하다고 압박하면서, 2028~34년 EU 예산 타결이 11월 추가 정상회의 이후로 밀릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T00:03:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-10",
+   "o": "Modern Diplomacy",
+   "u": "https://moderndiplomacy.eu/2026/10/10/eu-budget-showdown-irish-presidency-seeks-8-cut-to-2028-2034-spending-plan/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "Agence Europe",
+   "u": "https://agenceurope.eu/en/bulletin/article/13957/1/mff-2028-2034-irish-council-presidency-bets-on-cuts-mainly-affecting-eu-competitiveness-defence-and-external-action"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "France 24",
+   "u": "https://france24.com/en/europe/20261015-eu-leaders-head-for-showdown-over-bloc-budget"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Euronews",
+   "u": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "A News",
+   "u": "https://www.anews.com.tr/european-union/2026/10/15/eu-leaders-divided-over-blocs-next-long-term-budget-ahead-of-summit"
+  },
+  {
+   "o": "Global Banking and Finance Review",
+   "d": "2026-10-16",
+   "u": "https://www.globalbankingandfinance.com/germanys-merz-eu-budget-proposal-cut/"
+  },
+  {
+   "o": "IEU Monitoring",
+   "d": "2026-10-16",
+   "u": "https://ieu-monitoring.com/editorial/german-chancellor-merz-demands-major-eu-budget-cuts-and-stronger-ukraine-support/1252397"
+  }
+ ],
+ "tags": [],
+ "title": "EU 7년 예산 줄다리기…메르츠 '더 깎아야', 마크롱 '연내 합의 필요'",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/business/finance/eus-irish-presidency-wants-8-cut-proposed-2028-2034-budget-plan-2026-10-10/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "메르츠, EU 7년 예산안 추가 삭감 요구"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "basis": "partial",
+ "check": "Crypto Briefing·Power Engineering·Canary Media 보도(검색 결과 요약으로 확인)로 증강 계약 규모와 남은 여력 추정 확인. 블룸버그 뉴스레터 본문은 열지 않아 그 안의 구체 수치는 확인 못 함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국 원전의 손쉬운 출력 증강 기회가 빠르게 소진되고 있다는 분석이 나왔다 [제목]",
+  "계약: 구글–콘스텔레이션의 원자로 11기 890MW 증강에 이어, 미 에너지부는 비스트라 원전 3곳 433MW 증강에 최대 42억 달러 대출을 조건부 약정했다 [사실]",
+  "남은 여력: 제프리스는 미국 전체 증강 여력을 3~5GW로 보며 PJM 계약들이 PJM 내 여력의 대부분을 차지한다고 했고, 2024년 에너지부 추정은 최대 8GW였다 [사실]",
+  "정책: 에너지부 UPRISE 계획은 2027년까지 2.5GW, 2029년까지 모두 5GW의 원전 설비 추가를 목표로 한다 [사실]",
+  "의미: 증강 여지가 줄면 기존 원전 전력의 희소성이 커지고 신규 원전·재가동 쪽으로 관심이 옮겨갈 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{미 원전 출력 증강}}, {{손쉬운 물량}} 빠르게 {{소진}}…남은 여력 {{3~5GW}} 추정",
+ "id": "n-bbg-0072",
+ "incentive": "",
+ "inds": [
+  "power",
+  "uranium"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그",
+   "t": "구글–콘스텔레이션 20년 원전 전력계약…원자로 11기 출력 890MW 늘린다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "구글–콘스텔레이션 전력계약에 호주 우라늄 채굴주 급등",
+   "u": "https://www.reuters.com/business/energy/australian-uranium-miners-rally-after-googles-power-deal-with-constellation-2026-10-07/"
+  },
+  {
+   "t": "미국 원전의 '낮게 달린 열매'가 빠르게 소진되고 있다",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/us-nuclear-s-low-hanging-fruit-is-being-gobbled-up",
+   "s": "원전 출력 증강 계약이 {{잇따르}}면서 {{미국 원전의 손쉬운 증강 기회}}가 {{빠르게 소진}}돼 {{남은 증강 여력}}이 {{3~5GW}} 수준으로 {{좁아지}}고 있다"
+  }
+ ],
+ "key": "bbg-1006-google-constellation-nuclear",
+ "nodes": [
+  "power/gen",
+  "uranium/mining",
+  "uranium/operators"
+ ],
+ "num": 72,
+ "one": "{{구글–콘스텔레이션 890MW}}와 {{비스트라 433MW}} 같은 원전 출력 증강 계약이 {{잇따르}}면서 {{미국의 손쉬운 증강 여력}}이 {{빠르게 소진}}되고 있어, {{기존 원전에서 더 짜낼 전력}}이 {{줄}}고 {{신규 원전·재가동}}의 필요가 {{커질}} 수 있다",
+ "origTitle": "Google, Constellation Energy Strike Deal for Nuclear Power",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T20:38:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "로이터(원문 미확인, 제목만)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S04O:0-google-enters-massive-3-6-gw-power-deal-with-constellation-energy/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "월드뉴클리어뉴스",
+   "u": "https://www.world-nuclear-news.org/articles/new-end-user-agreements-support-long-term-us-plant-operations"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-13",
+   "u": "https://cryptobriefing.com/big-tech-nuclear-uprates-sites-running-out/"
+  },
+  {
+   "o": "Power Engineering",
+   "d": "2026-10",
+   "u": "https://www.power-eng.com/nuclear/google-constellation-doe-nuclear-plant-investment/"
+  },
+  {
+   "o": "Canary Media",
+   "d": "2026-10",
+   "u": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates"
+  }
+ ],
+ "tags": [],
+ "title": "{{미 원전 출력 증강}}, {{손쉬운 물량}} 빠르게 {{소진}}…남은 여력 {{3~5GW}} 추정",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/google-constellation-near-billion-dollar-deal-for-nuclear-power",
+ "added": "이번 블룸버그 뉴스레터 1건으로 {{구글·비스트라 계약}} 뒤 {{미국 원전의 손쉬운 출력 증강 여력}}이 {{빠르게 소진}}되고 있다는 분석이 추가됐다"
+}

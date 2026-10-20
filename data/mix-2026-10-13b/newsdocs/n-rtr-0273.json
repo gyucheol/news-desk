@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0273",
+ "num": 273,
+ "key": "mix-C155-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T13:21:00+09:00",
+ "url": "https://www.reuters.com/world/india/india-unveils-steel-policy-aiming-604-million-tons-capacity-by-2047-2026-10-11/",
+ "origTitle": "",
+ "headline": "인도, 2047년 {{철강 생산능력 6억 400만 톤}} 목표 정책 초안",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-11",
+   "u": "https://www.business-standard.com/industry/news/govt-releases-draft-national-steel-policy-2047-targets-604-mt-capacity-126101100130_1.html"
+  },
+  {
+   "o": "ETV Bharat",
+   "d": "2026-10-12",
+   "u": "https://www.etvbharat.com/amp/en/business/india-targets-604-mt-steel-capacity-by-2047-seeks-to-cut-coking-coal-import-dependence-in-draft-steel-policy-enn26101202307"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도, 2047년 철강 생산능력 6억 400만 톤 목표 정책 공개",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/world/india/india-unveils-steel-policy-aiming-604-million-tons-capacity-by-2047-2026-10-11/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/met",
+  "coal/steel"
+ ],
+ "title": "인도, 2047년 {{철강 생산능력 6억 400만 톤}} 목표 정책 초안",
+ "one": "{{인도 정부}}가 조강 생산능력을 2047년까지 현재 약 2억 2천만 톤의 세 배인 {{6억 400만 톤}}으로 늘리는 철강정책 초안을 내놓으면서, 대부분 수입하는 {{제철용 원료탄}} 수요가 2억 3,600만 톤으로 커질 전망이다",
+ "facts": [
+  "무엇이: 인도 정부가 2047년까지 조강 생산능력을 약 2억 2천만 톤에서 6억 400만 톤으로 늘리는 국가철강정책 비전 2047 초안을 공개했습니다 [사실]",
+  "수요: 완제품 철강 수요 5억 500만 톤, 수출 4,500만 톤, 1인당 소비 302kg을 전망했습니다 [사실]",
+  "원료: 2047년 철광석 수요 7억 7,200만 톤, 원료탄 수요 2억 3,600만 톤을 예상했고 원료탄 수입 의존을 줄이려 합니다 [사실]",
+  "탄소: 조강 1톤당 탄소 배출을 약 2.54톤에서 1.54톤으로 약 39% 줄이는 목표를 담았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 최종안이 아닌 의견 수렴용 초안이며 재원 조달 방안은 없음"
+}

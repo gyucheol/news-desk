@@ -1,0 +1,90 @@
+{
+ "id": "n-bbg-0351",
+ "num": 351,
+ "key": "mix-G1-019-2026-10-18",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T19:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+ "origTitle": "",
+ "headline": "캐나다은행 매클럼 \"고유가에 물가 전망 크게 상향\"…10월 28일 결정 주목",
+ "src": [
+  {
+   "o": "글로브앤드메일",
+   "d": "2026-10-17",
+   "u": "https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/"
+  },
+  {
+   "o": "캐나디언 모기지 트렌즈",
+   "d": "2026-10-17",
+   "u": "https://www.canadianmortgagetrends.com/2026/10/macklem-sees-higher-oil-prices-boosting-growth-inflation/"
+  }
+ ],
+ "items": [
+  {
+   "t": "매클럼 \"고유가가 성장과 물가 함께 끌어올린다\"",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+   "s": "매클럼 총재가 에너지 순수출국인 캐나다에서 고유가가 성장과 물가를 함께 끌어올린다고 보면서 물가가 넓게 번질 위험이 커졌다고 경고했다"
+  },
+  {
+   "t": "캐나다은행 \"유가 급등에 물가 전망 크게 높아져\"…매클럼",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
+   "s": "매클럼 총재가 유가 급등으로 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝히면서 금리 인상 여부가 쟁점으로 떠올랐다"
+  },
+  {
+   "t": "카니의 송유관 추진, 캐나다 석유 일자리 호황 되살리기 어려워",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/carneys-pipeline-push-is-unlikely-bring-back-canadas-oil-jobs-boom-2026-10-18/",
+   "s": "카니 총리가 송유관 건설을 밀어붙이고 있지만 캐나다 석유 일자리 호황을 되살리기는 어려울 것이라는 분석이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "title": "캐나다은행 매클럼 \"고유가에 물가 전망 크게 상향\"…10월 28일 결정 주목",
+ "one": "매클럼 캐나다은행 총재가 브렌트유가 가정치 75달러를 크게 웃도는 110달러 안팎에 머물자 10월 28일 새 전망에서 물가 전망을 크게 올리겠다고 밝히면서, 금리 인상 여부가 쟁점으로 떠오르고 시장은 내년 1%포인트 인상을 반영하고 있다",
+ "facts": [
+  "무엇이: 매클럼 총재는 10월 17일 방콕에서 고유가로 물가 전망이 7월 전망보다 꽤 높아질 것이라고 했고, 7월 전망은 하반기 물가가 약 2.5%로 식는 것이었다 [사실]",
+  "유가: 브렌트유는 약 110달러로 캐나다은행이 3분기에 가정한 약 75달러를 크게 웃돌았고, 매클럼은 유가가 100달러 안팎에 머물면 현재 3%인 물가가 점차 오를 것이라고 했다 [사실]",
+  "금리: 시장은 10월 28일과 12월 결정에서 움직임을 반영하지 않았지만 내년 중 1%포인트 인상을 반영하고 있고, 9월 소비자물가는 10월 19일 나온다 [사실]",
+  "성장: 매클럼은 캐나다가 에너지 순수출국이라 고유가가 성장을 받쳐 주지만 높은 휘발유값은 소비자에게 부담이라고 했다 [사실]",
+  "송유관: 카니 총리의 송유관 추진이 캐나다 석유 일자리 호황을 되살리기는 어렵다는 분석이 나왔다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 물가 전망 상향·유가 가정·시장 금리 반영 확인(글로브앤드메일·CMT). 송유관 기사는 제목만 근거",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "고유가에 캐나다 물가 전망 크게 상향 예고"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "시장, 캐나다 내년 1%포인트 금리 인상 반영"
+  }
+ ],
+ "updatedAt": "2026-10-18T21:41:11+09:00"
+}

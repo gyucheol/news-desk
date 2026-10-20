@@ -1,0 +1,97 @@
+{
+ "basis": "partial",
+ "check": "JPM코인 이더리움 진출(키넥시스 10월 19일 발표, 기관 한정, 2025년 11월 베이스 출시)을 검색 결과 요약으로 확인했지만 가동 시점은 엇갈림. 블랙록·웨스턴유니온·머니그램·송금 시장 기사는 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: JP모건 블록체인 부문 키넥시스는 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝혔고, 실제 가동 시점은 보도마다 엇갈린다 [사실]",
+  "대상: 이더리움판 JPM코인은 온체인으로 결제하는 대형 암호화폐 기업과 토큰화 자산 거래의 결제·담보에 쓰려는 금융기관을 겨냥하며, 2025년 11월 베이스에서 처음 나왔다 [사실]",
+  "송금: 암호화폐가 송금 시장을 흔들자 웨스턴유니온·머니그램이 스테이블코인으로 돌아서고 있다 [제목]",
+  "운용: 블랙록은 토큰화 펀드가 월가 결제 인프라로 들어가고 있다고 본다 [제목]",
+  "기존: 토큰화 미국 주식·ETF의 약 94%를 청산 또는 수탁하는 알파카가 프라임 브로커리지에 진출한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "월가 토큰화·스테이블코인 확산…JPM코인 이더리움 진출, 송금사도 스테이블코인",
+ "id": "n-bbg-0280",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "토큰화 주식이 알파카의 프라임 브로커리지 진출 이끌어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage"
+  },
+  {
+   "t": "블랙록 '토큰화 펀드, 월가 결제 인프라로 들어간다'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing",
+   "s": "블랙록이 토큰화 펀드가 월가의 결제·담보 인프라로 들어가고 있다고 보면서, 토큰화 자산이 기관 금융의 기본 배관으로 쓰일 전망이다 (제목 기준)"
+  },
+  {
+   "t": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients",
+   "s": "JP모건이 JPM코인을 기관 고객용으로 공개 블록체인 이더리움에 올리면서, 암호화폐 기업과 토큰화 자산 거래의 결제·담보 수단이 넓어졌다"
+  },
+  {
+   "t": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/western-union-moneygram-turn-to-stablecoins-as-crypto-disrupts-money-transfers",
+   "s": "암호화폐가 송금 시장을 흔들자 웨스턴유니온·머니그램이 스테이블코인을 받아들이면서, 기존 송금사의 수수료 구조가 바뀔 수 있다 (제목 기준)"
+  },
+  {
+   "t": "빠른 송금 수단이 세계 해외송금 사업을 뒤흔든다",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/transferencias-rapidas-sacuden-el-negocio-global-de-remesas-mvffayeb",
+   "s": "빠른 송금 수단이 퍼지면서 세계 송금 사업이 흔들리고, 기존 송금 업체들이 새 결제 방식으로 대응을 서두르고 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C189-2026-10-13",
+ "nodes": [],
+ "num": 280,
+ "one": "알파카가 토큰화 주식 붐을 타고 프라임 브로커리지에 나선 데 이어 JP모건이 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 올리고 웨스턴유니온·머니그램이 스테이블코인으로 돌아서면서, 토큰화 자산과 블록체인 결제가 월가 결제망과 국제 송금으로 넓어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T00:42:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-07-16",
+   "o": "CoinDesk",
+   "u": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure"
+  },
+  {
+   "o": "Coin Insider",
+   "d": "2026-10-19",
+   "u": "https://www.coininsider.org/news/jpmorgan-jpm-coin-ethereum-institutional-clients/"
+  },
+  {
+   "o": "Unchained",
+   "d": "2026-10-19",
+   "u": "https://unchainedcrypto.com/jpmorgan-picks-ethereum-for-jpm-coin-citing-the-networks-liquidity-and-client-use/"
+  }
+ ],
+ "tags": [],
+ "title": "월가 토큰화·스테이블코인 확산…JPM코인 이더리움 진출, 송금사도 스테이블코인",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage",
+ "added": "블룸버그 4건 — 블랙록의 토큰화 펀드 결제망 진입 전망, JPM코인 기관용 이더리움 진출, 웨스턴유니온·머니그램의 스테이블코인 도입 내용이 추가됨",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "JPM코인 이더리움 진출·송금사 스테이블코인 도입"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

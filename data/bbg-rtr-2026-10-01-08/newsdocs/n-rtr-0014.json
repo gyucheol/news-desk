@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0014",
+ "feed": "v5",
+ "format": "one1",
+ "num": 14,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1001-iran-auto-rail-sanctions",
+ "published": "2026-10-01",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+ "one": "미 재무부가 이란 자동차 시장의 약 90%를 차지하는 이란 호드로·사이파와 국영 철도 등 30곳을 제재하면서, 해상 봉쇄로 원유 판매 수입이 끊긴 이란 정권이 기대던 자동차·철도 산업의 자금줄까지 조이고 있다",
+ "headline": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+ "facts": [
+  "무엇이: 미 재무부가 10월 1일 '경제적 고립 작전(Operation Economic Outcast)'의 하나로 이란 자동차·철도·중장비·철강 관련 기업 28곳과 개인 2명을 제재했습니다. [사실]",
+  "누구를: 이란 자동차 시장의 약 90%를 차지하는 이란 호드로·사이파, 국영 이란철도(RAI), 중장비사 HEPCO와 그 상하이 자회사, 홍콩의 유령회사 등이 포함됐습니다. [사실]",
+  "왜: 재무부는 미군의 해상 봉쇄로 이란의 원유 판매 수입이 0이 돼 정권이 철도·자동차 산업에 더 기대고 있다고 설명했습니다. [사실]",
+  "같은 날: 러시아와 연계돼 이란의 제재 회피에 쓰인 그림자 금융망 'A7 네트워크'도 제재하고 송금 금지 규칙을 제안했습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 원문 미확인 — 미 재무부 보도자료 2건(2026-10-01)으로 작성. 로이터 보도일은 재무부 발표일로 추정(newsml 코드 45N이 10월 1일자 다른 기사와 같음).",
+ "src": [
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-01",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/"
+  },
+  {
+   "o": "미 재무부 보도자료",
+   "d": "2026-10-01",
+   "u": "https://home.treasury.gov/news/press-releases/sb0643/"
+  },
+  {
+   "o": "미 재무부 보도자료",
+   "d": "2026-10-01",
+   "u": "https://home.treasury.gov/news/press-releases/sb0644/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes"
+}

@@ -1,0 +1,94 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 중국 9월 수입 수치·원인 확인. 뉴캐슬 2년여 만의 최고와 모건스탠리 전망은 확인 못 함(채널 전언)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국의 9월 석탄 수입은 4,337만 톤으로 1년 전보다 6% 줄었지만 8월 4,209만 톤보다는 늘었고, 1~9월 누계는 3억 5,354만 톤으로 2.2% 증가했습니다 [사실]",
+  "원인: 해안 발전사 재고가 예년보다 많았고, 인도네시아 생산계획 조정과 칼리만탄 강 수위 저하가 수출 물량을 줄였습니다 [사실]",
+  "국제 가격: 뉴캐슬 발전용 석탄값은 13일 2024년 8월 이후 최고로 올해 40% 넘게 올랐고, 모건스탠리는 장기 가격 전망을 4% 올린 톤당 125달러로 제시했습니다 [채널]",
+  "중국 가격: 친황다오 발전용 석탄 현물은 9월 말 톤당 986위안으로 3년 만의 최고였습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아시아 석탄값 2년여 만에 최고…中 9월 석탄 수입은 6% 감소",
+ "id": "n-bbg-0254",
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "중국 석탄값 3년 만에 최고…당분간 완화 조짐 없어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight"
+  },
+  {
+   "t": "중국 9월 석탄 수입 6% 감소…높은 재고·인도네시아 공급 제약",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/china-september-coal-imports-fall-6-high-inventories-indonesia-supply-2026-10-14/",
+   "s": "중국 발전사 재고가 넉넉하고 인도네시아 수출 물량이 줄면서 9월 석탄 수입이 4,337만 톤으로 1년 전보다 6% 줄었다"
+  },
+  {
+   "t": "아시아 석탄값 2년여 만에 최고…올해 40% 넘게 급등",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-14",
+   "u": "https://t.me/HANAchina/70431",
+   "s": "중국 감산·인도네시아 수출 제약에 겨울 재고 확보 수요가 겹치면서 뉴캐슬 발전용 석탄값이 2024년 8월 이후 최고로 올랐다"
+  }
+ ],
+ "key": "mix-C114-2026-10-13",
+ "nodes": [
+  "coal/power",
+  "coal/thermal",
+  "coal/trade"
+ ],
+ "num": 254,
+ "one": "중국 탄광 안전점검 감산과 인도네시아 수출 제약 속에 아시아 발전사들이 겨울 재고 확보에 나서면서 뉴캐슬 발전용 석탄값이 2년여 만의 최고로 올랐지만, 재고가 넉넉한 중국의 9월 석탄 수입은 4,337만 톤으로 6% 줄었다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T22:47:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "OilPrice",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Thermal-Coal-Prices-Surge-to-Three-Year-High.html"
+  },
+  {
+   "o": "Mining Weekly",
+   "d": "2026-10-14",
+   "u": "https://www.miningweekly.com/article/china-september-coal-imports-fall-6-on-high-inventories-indonesia-supply-constraints-2026-10-14"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-14",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Imports-Fall-6-as-Prices-Hit-Nearly-3-Year-High.html"
+  }
+ ],
+ "tags": [],
+ "title": "아시아 석탄값 2년여 만에 최고…中 9월 석탄 수입은 6% 감소",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight",
+ "added": "이번 로이터·텔레그램 2건으로 중국 9월 석탄 수입 6% 감소(4,337만 톤)와 뉴캐슬 발전용 석탄값의 2년여 만 최고, 올해 40% 넘는 상승이 추가됐다",
+ "vc": [
+  {
+   "ind": "coal",
+   "node": "trade",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "뉴캐슬 발전용 석탄값 2년여 만에 최고"
+  },
+  {
+   "ind": "coal",
+   "node": "trade",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "중국 9월 석탄 수입 6% 감소"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

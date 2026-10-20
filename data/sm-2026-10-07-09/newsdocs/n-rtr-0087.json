@@ -1,0 +1,39 @@
+{
+ "id": "n-rtr-0087",
+ "num": 87,
+ "key": "bnd-C236-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T00:29:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/coupang-files-lawsuits-over-462-million-south-korea-fines-over-data-breach-2026-10-08/",
+ "origTitle": "",
+ "headline": "쿠팡, 개인정보 유출 과징금 4억 6,200만 규모에 불복 소송",
+ "src": [],
+ "items": [
+  {
+   "t": "쿠팡, 데이터 유출 관련 한국 과징금 4억 6,200만에 소송 제기",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/litigation/coupang-files-lawsuits-over-462-million-south-korea-fines-over-data-breach-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "쿠팡, 개인정보 유출 과징금 4억 6,200만 규모에 불복 소송",
+ "one": "쿠팡이 개인정보 유출로 한국 당국에서 받은 4억 6,200만(제목상 단위 미표기) 규모 과징금에 불복해 소송을 내면서, 과징금 확정과 실적 반영 시점이 법원 판단 뒤로 미뤄질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 쿠팡이 데이터 유출에 따른 한국 정부의 과징금에 불복해 소송 제기 [제목]",
+  "규모: 기사 제목상 4억 6,200만, 통화 단위는 확인 못 함 [제목]",
+  "영향: 소송 결과에 따라 과징금 납부·회계 반영 시점이 달라질 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": []
+}

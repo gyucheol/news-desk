@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0358",
+ "num": 358,
+ "key": "mix-G1-059-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T19:55:00+09:00",
+ "url": "https://www.reuters.com/business/besi-shares-fall-report-asml-is-working-rival-hybrid-bonding-product-2026-10-16/",
+ "origTitle": "",
+ "headline": "ASML 하이브리드 본딩 장비 개발 보도에 베시 주가 약 3% 하락",
+ "src": [
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-16",
+   "u": "https://finance.biggo.com/news/aeeb7ea9-2962-419e-813f-c8347c958ab4"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-16",
+   "u": "https://finimize.com/content/besi-stumbled-after-a-report-linked-asml-to-hybrid-bonding"
+  }
+ ],
+ "items": [
+  {
+   "t": "ASML 경쟁 하이브리드 본딩 제품 개발 보도에 베시 주가 하락",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/besi-shares-fall-report-asml-is-working-rival-hybrid-bonding-product-2026-10-16/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "ASML 하이브리드 본딩 장비 개발 보도에 베시 주가 약 3% 하락",
+ "one": "세미애널리시스가 ASML이 경쟁 하이브리드 본딩 장비를 개발 중이라고 보도하면서, 이 장비를 양산 공급하는 유일한 업체인 베시 주가가 약 3% 내리고 첨단 패키징 장비 경쟁이 거세질 전망이다",
+ "facts": [
+  "무엇이: 10월 16일 세미애널리시스는 2022년 12월~2024년 11월 출원된 ASML 특허 27개 계열을 분석해 ASML이 다이-투-웨이퍼 하이브리드 본딩 장비를 개발 중이라고 보도했다 [사실]",
+  "주가: 암스테르담 장 초반 베시는 약 2.7% 내린 159.05유로, ASML은 1.1% 오른 1,480유로였다 [사실]",
+  "경쟁: 현재 하이브리드 본딩 장비를 양산 공급하는 곳은 베시뿐이며, 보고서는 첨단 로직 고객이 ASML 장비를 먼저 채택할 것으로 봤다 [사실]",
+  "HBM: 보고서는 HBM의 다이-투-웨이퍼 채택이 2029년 이후로 밀릴 것으로 봤고, ASML은 보도에 논평하지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "세미애널리시스 보고서 내용, 베시·ASML 주가, ASML 무논평은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "ASML 하이브리드 본딩 진출로 장비 공급자 증가"
+  }
+ ]
+}

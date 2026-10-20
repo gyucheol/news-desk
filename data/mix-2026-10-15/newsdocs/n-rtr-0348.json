@@ -1,0 +1,66 @@
+{
+ "id": "n-rtr-0348",
+ "num": 348,
+ "key": "mix-G4-055-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T01:41:00+09:00",
+ "url": "https://www.reuters.com/business/finance/easyjet-track-close-apollo-deal-by-first-quarter-2027-2026-10-15/",
+ "origTitle": "",
+ "headline": "이지젯 '아폴로 인수 2027년 1분기 마무리 순항'…11월 11일 주주 표결",
+ "src": [
+  {
+   "o": "easyJet",
+   "d": "2026-10-15",
+   "u": "https://www.easyjet.com/en/news/airline/article/acquisition-of-easyjet-updates"
+  },
+  {
+   "o": "ADVFN",
+   "d": "2026-10-15",
+   "u": "https://uk.advfn.com/market-news/article/24598/easyjet-shares-rise-as-5-7-billion-apollo-takeover-advances-towards-shareholder-vote"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-15",
+   "u": "https://qz.com/easyjet-apollo-takeover-completion-2027-100826"
+  }
+ ],
+ "items": [
+  {
+   "t": "이지젯, 아폴로 인수 2027년 1분기 마무리 순항",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/finance/easyjet-track-close-apollo-deal-by-first-quarter-2027-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "이지젯 '아폴로 인수 2027년 1분기 마무리 순항'…11월 11일 주주 표결",
+ "one": "이지젯이 아폴로의 57억 파운드 인수를 2027년 3월 말까지 마무리할 수 있다며 11월 11일 주주 표결 일정을 내놓으면서, 유럽 자본 지배 요건 심사와 노조 반대가 남은 변수로 떠올랐다",
+ "facts": [
+  "무엇이: 이지젯은 아폴로 인수가 2027년 1분기 마무리 일정대로 가고 있다며 10월 15일 계획서를 냈다 [사실]",
+  "조건: 주주는 주당 7.15파운드를 현금으로 받으며, 회사 가치는 약 57억 파운드다 [사실]",
+  "절차: 11월 11일 주주 표결에서 75% 찬성이 필요하고, 오스트리아·영국·프랑스 등에서 일부 승인을 받았지만 추가 승인이 남았다 [사실]",
+  "변수: 규제당국은 유럽 자본의 과반 지배 유지 여부를 보고 있고, 유럽 노조들은 소유 구조를 우려하며 반대했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "마무리 시점·주당 7.15파운드·주주 표결 일정·규제 승인 현황·노조 반대는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "아폴로 인수는 소유 구조 변경으로 공급 변화 없음"
+  }
+ ]
+}

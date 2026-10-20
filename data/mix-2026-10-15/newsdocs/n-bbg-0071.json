@@ -1,0 +1,121 @@
+{
+ "basis": "partial",
+ "check": "카이로스 6억 4,300만 달러 조달 구성과 헤르메스 2 일정은 검색 결과 요약으로 확인. 히타치 일본 SMR 검토, ACP100 고온 시험, 중신증권 전망은 확인 못 함",
+ "cycles": [],
+ "dupOf": "n-bbg-0005",
+ "facts": [
+  "무엇이: 카이로스 파워가 테네시 시범 원자로 사업에 민간 3억 6,800만 달러와 미 에너지부 2억 7,500만 달러 등 6억 4,300만 달러를 확보했다 [사실]",
+  "사업: 자금은 주로 2030년 가동 예정인 50MW 용융염 냉각 시범로 헤르메스 2에 쓰이고, 일부는 뉴멕시코 제조 능력 확대에 들어간다 [사실]",
+  "일본: 히타치는 전력비 상승 속에 일본에서 소형원전을 검토하고 있다 [제목]",
+  "중국: 창장 ACP100은 정상 운전 온도·압력을 모사하는 고온 기능시험을 진행하며 연내 연료 장전을 목표로 한다 [채널]",
+  "전력가격: 중신증권은 중국 연해 전력 수급이 개선되면서 원전이 2024~2026년 전력가격 하락 사이클에서 곧 벗어나 발전량과 전력가격이 함께 오를 것으로 봤다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "카이로스 6억 4,300만 달러 조달·히타치 日 SMR 검토…中 ACP100 시운전",
+ "id": "n-bbg-0071",
+ "incentive": "",
+ "inds": [
+  "power",
+  "uranium"
+ ],
+ "insight": {},
+ "key": "bbg-1006-blue-energy-ercot-smr",
+ "nodes": [
+  "power/grid",
+  "power/market",
+  "uranium/build"
+ ],
+ "num": 71,
+ "one": "카이로스가 테네시 50MW 시범로에 6억 4,300만 달러를 확보하고 히타치가 일본 소형원전을 검토하며 중국 ACP100이 연료 장전 전 고온 시험에 들어가면서, 블루 에너지에 이어 SMR 사업이 자금·시운전 단계로 속도를 내고 있다",
+ "origTitle": "Blue Energy Seeks Texas Grid Connection for Small Nuclear Reactors",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T09:33:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "빅에너지(블룸버그 인용)",
+   "u": "https://bigenergynews.com/2026/10/blue-energy-seeks-first-ercot-connection-for-small-modular-nuclear-reactors/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "컨스트럭션리뷰",
+   "u": "https://constructionreviewonline.com/2-5gw-port-of-victoria-project-6bn-texas-small-reactor-project-moves-toward-grid-connection/"
+  },
+  {
+   "o": "Runtime Wire",
+   "d": "2026-10-14",
+   "u": "https://runtimewire.com/article/kairos-power-643-million-tennessee-reactor-funding"
+  },
+  {
+   "o": "Construction Review Online",
+   "d": "2026-10-15",
+   "u": "https://constructionreviewonline.com/hermes-2-reactor-kairos-power-secures-643m-for-tennessee-project/"
+  }
+ ],
+ "tags": [],
+ "title": "카이로스 6억 4,300만 달러 조달·히타치 日 SMR 검토…中 ACP100 시운전",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid",
+ "items": [
+  {
+   "t": "블루 에너지, 텍사스 전력망에 소형원전 첫 연결 신청…300MW급 최대 5기",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/first-small-nuclear-reactors-seeking-to-connect-to-texas-grid"
+  },
+  {
+   "t": "히타치, 전력비 상승 속 일본에서 소형원전 사업 검토",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/hitachi-eyes-small-nuclear-reactors-in-japan-as-power-costs-rise",
+   "s": "히타치가 전력비 상승을 배경으로 일본에서 소형원전을 검토하면서, 일본에서도 SMR이 전력 공급 대안으로 거론되고 있다 (제목 기준)"
+  },
+  {
+   "t": "원전 스타트업 카이로스, 테네시 사업에 6억 4,300만 달러 조달",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/nuclear-startup-kairos-raises-643-million-for-tennessee-project",
+   "s": "카이로스가 민간과 미 에너지부에서 6억 4,300만 달러를 모으면서, 2030년 가동 목표인 50MW 헤르메스 2 시범로 건설 자금을 확보했다"
+  },
+  {
+   "t": "中 ACP100 SMR 고온 기능시험 진행…연내 연료 장전 목표",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-15",
+   "u": "https://t.me/PipeBeom/6712",
+   "s": "중국 창장 ACP100이 정상 운전 온도·압력을 모사하는 고온 기능시험에 들어가면서, 연료 장전 전 검증 단계를 밟으며 연내 장전을 노리고 있다"
+  },
+  {
+   "t": "중신증권 '전력가격 사이클 전환점…원전 실적 반등 국면'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-15",
+   "u": "https://t.me/HANAchina/70447",
+   "s": "중신증권이 중국 연해 전력 수급 개선으로 원전이 2024~2026년 전력가격 하락 사이클에서 곧 벗어나고 발전량과 전력가격이 함께 오를 것으로 전망했다"
+  }
+ ],
+ "added": "이번 블룸버그 2건·텔레그램 2건으로 카이로스의 6억 4,300만 달러 조달, 히타치의 일본 SMR 검토, 中 ACP100 고온 시험과 중국 원전 전력가격 반등 전망이 추가됐다",
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "카이로스 6억 4,300만 달러 조달·히타치 日 SMR 검토"
+  },
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "中 연해 원전 전력가격 하락 사이클 종료 전망"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

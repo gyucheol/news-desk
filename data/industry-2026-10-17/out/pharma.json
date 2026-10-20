@@ -1,0 +1,478 @@
+{
+ "id": "pharma",
+ "summary": "제약·바이오는 바이오텍·연구소가 찾은 후보물질이 임상 1~3상을 거쳐 기술이전·인수합병으로 대형 제약사에 넘어가고, FDA 같은 당국의 허가를 받아 자체 공장이나 CDMO에서 생산된 뒤 보험·PBM·정부가 값을 치르는 급여 단계를 거쳐 환자에게 이르는 사슬입니다. 2026년 가을 가장 빠듯한 곳은 여전히 특허 만료를 메울 검증된 신약 자산으로, 3분기 인수합병은 2분기보다 줄었지만 10월에도 길리어드-비어, 로슈-로나, 갈더마-ZO 같은 10억 달러대 거래가 이어졌습니다. 후보물질과 자금은 넉넉한 편이어서 미국 바이오텍 IPO가 9월 말까지 22건, 69억 달러로 지난해의 몇 배였고 10월 16일 시티 테라퓨틱스가 올해 26번째로 상장했지만, 3분기 벤처 투자는 64억 4,000만 달러로 2분기(101억 7,000만 달러)보다 줄었습니다. 생산은 미국 관세를 피하려는 GSK의 펜실베이니아 8억 달러 투자와 탈중국 고객이 인도 CDMO로 몰리는 흐름이 겹쳐 지역이 옮겨 가고 있습니다. 가격은 정책이 계속 누르고 있고, 비만약은 릴리 경구약 파운데이오의 EU 승인 권고와 바이킹 경구약 3상 착수로 경쟁 후보가 늘어 물량은 커지되 값은 더 내려갈 압력이 큽니다.",
+ "state": {
+  "biotech": [
+   {
+    "d": "2026-10-16",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-16/rnai-developer-city-therapeutics-jumps-28-after-upsized-us-ipo",
+    "nid": "n-rtr-0028",
+    "t": "RNAi 신약사 시티 테라퓨틱스가 공모 주식을 늘려 주당 18달러에 약 2억 달러를 모았고, 첫 거래가 23달러에 이뤄져 올해 26번째로 상장한 바이오텍이 됐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-09",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10290",
+    "nid": "n-tg-0264",
+    "t": "미국 바이오텍 롱숏 지표가 8월부터 거의 수직으로 떨어져 10월 9일 최저치 23.42를 기록했고, 손실 펀드의 위험 축소가 원인으로 꼽혔습니다 [채널]"
+   }
+  ],
+  "clinical": [
+   {
+    "d": "2026-10-12",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myers-lung-disease-drug-meets-main-goal-late-stage-trial-2026-10-12/",
+    "nid": "n-tg-0230",
+    "t": "BMS의 폐섬유증 신약 아드밀파란트는 3상에서 60mg만 52주 폐활량 1차 목표를 충족했고 120mg은 유의성을 얻지 못했으며, 회사는 허가 신청 협의에 들어갑니다 [사실]"
+   }
+  ],
+  "deals": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/galderma-buy-us-firm-zo-skin-health-15-billion-2026-10-14/",
+    "nid": "n-rtr-0342",
+    "t": "갈더마가 ZO스킨헬스를 기업가치 15억 달러에, 랩코프가 옵코 자산을 최대 8억 7,200만 달러에 사기로 했고, 길리어드는 비어와 선급금 9,000만 달러 포함 최대 18억 8,000만 달러 항암 제휴를 맺었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70562",
+    "nid": "n-bbg-0338",
+    "t": "중국이 제안한 기술 수출 통제 목록 40개(바이오의약 5개)는 세포·유전자 치료 플랫폼과 siRNA 등을 묶되 라이선스·제휴·위탁연구에는 적용하지 않습니다 [채널]"
+   }
+  ],
+  "regulatory": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/us-fda-takes-step-change-peptide-compounding-policy-2026-10-15/",
+    "nid": "n-bbg-0327",
+    "t": "HHS와 FDA가 일부 펩타이드 조제를 위한 임시 접근 정책을 백악관 OMB 검토에 보냈고, 앞서 7월 FDA 자문위는 BPC-157 등 6종을 조제용 원료 목록에 넣으라고 권고했습니다 [사실]"
+   }
+  ],
+  "production": [
+   {
+    "d": "2026-10-09",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/",
+    "nid": "n-rtr-0261",
+    "t": "GSK가 펜실베이니아 어퍼메리언에 8억 달러 넘게 들여 상업용 바이오의약품 생산시설과 파일럿 공장을 짓기로 했고 착공은 2027년, 주 내 투자 계획은 약 17억 달러입니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure",
+    "nid": "n-bbg-0289",
+    "t": "인도 CDMO 피라말은 중국 노출을 한 자릿수로 줄였고, 중국 대안을 찾는 고객의 인도 공장 원료·완제의약품 수요가 강하며 미국 생산은 채산이 맞지 않는 경우가 많다고 했습니다 [사실]"
+   }
+  ],
+  "bigpharma": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/liquidia-surges-after-381-million-settlement-with-united-therapeutics-lung-2026-10-14/",
+    "nid": "n-tg-0300",
+    "t": "리퀴디아가 유나이티드테라퓨틱스와의 소송 6건을 순 3억 8,070만 달러 분할 지급과 PH-ILD 적응증 포기로 끝내 유트레피아의 PAH 판매를 이어 가게 됐습니다 [사실]"
+   }
+  ],
+  "payers": [
+   {
+    "d": "2026-10-13",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-13/walmart-to-cover-some-glp-1s-insulin-at-no-cost-for-workers",
+    "nid": "n-bbg-0308",
+    "t": "월마트가 2027년부터 당뇨용 GLP-1과 인슐린 등 250개 넘는 처방약을 직원에게 무상 보장하지만, 체중 감량만을 위한 GLP-1 처방은 보장하지 않습니다 [사실]"
+   }
+  ],
+  "medtech": [
+   {
+    "d": "2026-10-14",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities",
+    "nid": "n-bbg-0336",
+    "t": "FDA가 품질관리 대응 미흡을 들어 올림푸스의 일본·독일·미국 6개 시설에 경고장을 보내 주가가 13.6% 내렸지만, 생산·판매 제한은 없었습니다 [사실]"
+   }
+  ],
+  "obesity": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/",
+    "nid": "n-bbg-0346",
+    "t": "EMA 자문위원회가 릴리의 하루 한 알 비만약 파운데이오를 체중 관리와 2형 당뇨에 승인하라고 권고했고, 이 약은 2분기 매출 9,800만 달러를 냈습니다 [사실]"
+   },
+   {
+    "d": "2026-10-14",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10493",
+    "nid": "n-tg-0304",
+    "t": "바이킹이 경구 비만약 VK2735의 3상 SUNRISE-1·2(각 약 560명, 68주)를 시작했고, 주사형 3상 VANQUISH는 약 5,500명 모집을 마쳤습니다 [사실]"
+   },
+   {
+    "d": "2026-10-12",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/66050",
+    "nid": "n-tg-0246",
+    "t": "노보 노디스크가 한국에서 위고비 건강보험 급여를 처음 신청했고, 앞서 마운자로 출시 때 위고비 공급가가 약 42% 내렸습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10",
+   "kind": "capex",
+   "o": "PwC(US Capital Markets Watch Q3 2026)",
+   "u": "https://www.pwc.com/us/en/services/consulting/deals/us-capital-markets-watch.html",
+   "t": "9월 30일까지 미국 바이오텍 IPO는 22건, 69억 달러로 2025년 한 해(7건, 14억 달러)를 크게 넘었고, 올해 상장 종목의 평균 수익률은 약 42%였습니다(검색 요약) [사실]"
+  },
+  {
+   "d": "2026-10",
+   "kind": "capex",
+   "o": "Citeline Scrip(Evaluate 집계)",
+   "u": "https://insights.citeline.com/scrip/business/financing/biopharma-vc-investment-slumps-in-q3-but-2026-still-on-track-for-growth-SENVGMMRMZAWFMZ57GCUKAOZJY/",
+   "t": "바이오제약 벤처 투자는 2분기 101억 7,000만 달러에서 3분기 64억 4,000만 달러로 줄었지만, 연초 이후 누적 245억 5,000만 달러로 2025년 한 해에 가까웠습니다(검색 요약) [사실]"
+  },
+  {
+   "d": "2026-10",
+   "kind": "demand",
+   "o": "William Blair(The Quarterly Rx Q3 2026)",
+   "u": "https://www.williamblair.com/Insights/The-Quarterly-Rx-Q3-2026-US-Biopharma-Recap",
+   "t": "3분기 미국 바이오제약 인수합병 발표액은 15건, 390억 달러였고 올해 10억 달러 넘는 거래가 이미 40건에 이르렀습니다(검색 요약) [사실]"
+  },
+  {
+   "d": "2026-10-09",
+   "kind": "capex",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/",
+   "nid": "n-rtr-0261",
+   "t": "GSK가 펜실베이니아에 8억 달러 넘는 바이오의약품 생산·연구 허브 투자를 밝혔고, 랭커스터 카운티를 합친 주 내 투자 계획은 약 17억 달러입니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-tg-0264",
+   "t": "재검토 필요: 바이오텍 롱숏 지표가 8월부터 급락해 최저치(23.42)라는 전언은 ④ 수익 악화·비관의 심리 신호를 가리키지만, 같은 기간 IPO가 이어져 아직 자본이 빠진다고 보기는 어렵습니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0127",
+   "t": "재검토 필요: 로슈·질랜드의 비만약 도입 계약과 바이킹 경구약 3상 착수, 파운데이오 EU 권고가 한 주에 겹쳐 인기 표적에 후보물질이 몰리는 ③ 공급 과잉을 가리킵니다. 다만 아직 가격이 무너진 근거는 없습니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "생산 사슬이 관세와 탈중국 압력으로 지역을 옮기고 있습니다. GSK는 펜실베이니아에 8억 달러 넘게 투자하고, 인도 CDMO 피라말은 중국 노출을 한 자릿수로 줄였으며 중국 대안을 찾는 고객 수요가 강하다고 했습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure"
+     }
+    ]
+   },
+   {
+    "t": "후보물질 조달은 중국 자산과 AI 설계 단백질로 넓어지고 있습니다. 로슈는 중국 로나와 최대 11억 6,000만 달러, 질랜드는 AI 설계 단백질 업체 제너레이트와 최대 약 12억 달러 계약을 맺었습니다 [제목]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/roche-strikes-obesity-drug-licensing-deal-worth-up-116-bln-with-chinese-rona-2026-10-13/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-14",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/zealand-pharma-makes-deal-with-generate-worth-up-to-1-2-billion"
+     }
+    ]
+   }
+  ],
+  "a1": [
+   {
+    "t": "미국 안 바이오의약품 공장과 인도 원료·완제의약품 설비에 일감이 늘고, 대형 제약사는 미국 생산 약속으로 관세 0% 조건을 맞추는 흐름이 이어질 가능성이 높습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/"
+     },
+     {
+      "o": "PharmaSource",
+      "d": "2026-09-29",
+      "u": "https://pharmasource.global/content/policy-briefing/section-232-pharma-tariffs-expand-today-what-manufacturers-need-to-know/"
+     }
+    ]
+   }
+  ],
+  "a2": [
+   {
+    "t": "피라말 말처럼 미국 생산은 채산이 맞지 않는 경우가 많고 GSK 공장도 2027년에야 착공해, 관세가 협상으로 낮아지면 미국 증설이 발표에 그치고 생산은 인도·유럽에 남을 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "비만약은 공급 쪽 경쟁자가 빠르게 늘고 있습니다. 릴리 경구약 파운데이오가 EU 승인 권고를 받았고, 바이킹은 경구 VK2735 3상을 시작했으며 주사형 3상은 약 5,500명 모집을 마쳤습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/legal/litigation/eli-lillys-weight-loss-pill-wins-backing-europe-2026-10-16/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-14",
+      "u": "https://t.me/Trillion_labs/10493"
+     }
+    ]
+   },
+   {
+    "t": "수요 쪽은 보장 범위가 갈립니다. 월마트는 2027년부터 당뇨용 GLP-1만 무상 보장하고 체중 감량용은 빼며, 한국에서는 위고비가 처음 급여를 신청했습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/walmart-to-cover-some-glp-1s-insulin-at-no-cost-for-workers"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-12",
+      "u": "https://t.me/insidertracking/66050"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "경구약과 후발 주자가 늘고 고용주 보장이 당뇨에 한정되면, 비만약은 물량이 늘어도 실현 가격은 더 내려가는 흐름이 이어질 가능성이 높습니다. 한국에서도 마운자로 출시 때 위고비 공급가가 약 42% 내렸습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-12",
+      "u": "https://t.me/insidertracking/66050"
+     },
+     {
+      "o": "일라이 릴리 실적 발표",
+      "d": "2026-08-05",
+      "u": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "바이킹 3상은 68주가 걸리고 새 후보 다수가 아직 전임상·초기 단계여서, 후발 주자가 늦어지거나 탈락하면 릴리·노보 두 회사가 값을 지키는 기간이 길어질 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-14",
+      "u": "https://t.me/Trillion_labs/10493"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-14",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/zealand-pharma-makes-deal-with-generate-worth-up-to-1-2-billion"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "자금 유입이 식는 신호도 있습니다. 3분기 바이오제약 벤처 투자는 64억 4,000만 달러로 2분기(101억 7,000만 달러)보다 줄었고, 미국 바이오텍 롱숏 지표는 10월 9일 최저치였다는 전언이 나왔습니다 [귀납]",
+    "src": [
+     {
+      "o": "Citeline Scrip(Evaluate 집계)",
+      "d": "2026-10",
+      "u": "https://insights.citeline.com/scrip/business/financing/biopharma-vc-investment-slumps-in-q3-but-2026-still-on-track-for-growth-SENVGMMRMZAWFMZ57GCUKAOZJY/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-09",
+      "u": "https://t.me/Trillion_labs/10290"
+     }
+    ]
+   },
+   {
+    "t": "후기 임상 차질도 이어졌습니다. 바이오엔텍 mRNA 치료제가 두경부암 2/3상 무진행생존 목표를 놓쳤고, 신닥스 폐섬유증 2상과 아스트라제네카 골질환 3상도 실패했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/legal/litigation/biontechs-mrna-cancer-therapy-misses-first-goal-head-neck-trial-2026-10-13/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-13",
+      "u": "https://t.me/Trillion_labs/10416"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지는 않습니다. 벤처 투자 누적은 245억 5,000만 달러로 2025년 한 해에 가깝고, 9월 말까지 IPO 22건·69억 달러에 10월에도 상장이 이어졌으며 3분기 인수합병도 390억 달러였습니다 [귀납]",
+    "src": [
+     {
+      "o": "PwC(US Capital Markets Watch Q3 2026)",
+      "d": "2026-10",
+      "u": "https://www.pwc.com/us/en/services/consulting/deals/us-capital-markets-watch.html"
+     },
+     {
+      "o": "William Blair(The Quarterly Rx Q3 2026)",
+      "d": "2026-10",
+      "u": "https://www.williamblair.com/Insights/The-Quarterly-Rx-Q3-2026-US-Biopharma-Recap"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "의료기기 쪽은 신약과 다른 국면처럼 보입니다. J&J 의료기기 매출은 2.5% 늘어 예상에 못 미쳤고 올림푸스는 FDA 경고장을 받았으며, 스테리스·애질런트는 소모품·소프트웨어 업체를 사들여 성장을 메우고 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/legal/litigation/jj-beats-earnings-estimates-middle-east-conflict-weighs-medical-device-sales-2026-10-13/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-12",
+      "u": "https://www.reuters.com/legal/transactional/steris-buys-surgical-products-maker-xodus-medical-21-billion-2026-10-12/"
+     }
+    ]
+   },
+   {
+    "t": "규제 쪽에서는 FDA가 펩타이드 조제를 사실상 허용하는 임시 정책을 추진해, 허가 약이 아닌 조제약이 비만·웰니스 수요 일부를 가져갈 길이 넓어질 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/legal/litigation/us-fda-takes-step-change-peptide-compounding-policy-2026-10-15/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "국면은 ② 그대로입니다. 미국 바이오텍 IPO가 9월 말까지 22건, 69억 달러로 2025년 한 해(7건, 14억 달러)를 크게 넘었고, 10월 16일 시티 테라퓨틱스가 증액 공모로 2억 달러를 모아 올해 26번째로 상장했습니다 [사실]",
+    "src": [
+     {
+      "o": "PwC(US Capital Markets Watch Q3 2026)",
+      "d": "2026-10",
+      "u": "https://www.pwc.com/us/en/services/consulting/deals/us-capital-markets-watch.html"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/rnai-developer-city-therapeutics-jumps-28-after-upsized-us-ipo"
+     }
+    ]
+   },
+   {
+    "t": "벤처 투자는 3분기 64억 4,000만 달러로 2분기보다 줄었지만 누적 245억 5,000만 달러로 2025년 한 해에 가까워, 자본 유입은 이어지되 속도가 꺾였습니다 [사실]",
+    "src": [
+     {
+      "o": "Citeline Scrip(Evaluate 집계)",
+      "d": "2026-10",
+      "u": "https://insights.citeline.com/scrip/business/financing/biopharma-vc-investment-slumps-in-q3-but-2026-still-on-track-for-growth-SENVGMMRMZAWFMZ57GCUKAOZJY/"
+     }
+    ]
+   },
+   {
+    "t": "인수합병은 3분기 발표액 390억 달러(15건)로 올해 10억 달러 넘는 거래가 40건에 이르렀고, 10월에도 길리어드-비어(최대 18억 8,000만 달러), 갈더마-ZO(15억 달러) 같은 거래가 이어졌습니다 [사실]",
+    "src": [
+     {
+      "o": "William Blair(The Quarterly Rx Q3 2026)",
+      "d": "2026-10",
+      "u": "https://www.williamblair.com/Insights/The-Quarterly-Rx-Q3-2026-US-Biopharma-Recap"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/legal/transactional/galderma-buy-us-firm-zo-skin-health-15-billion-2026-10-14/"
+     }
+    ]
+   },
+   {
+    "t": "가격은 반대로 눌려 26개 제약사(브랜드 시장 약 89%)가 최혜국 약가에 합의했고 릴리의 2분기 실현 가격도 13% 내려, ③으로 넘어갈 압력이 가격 쪽에서 먼저 보입니다 [귀납]",
+    "src": [
+     {
+      "o": "PharmaSource",
+      "d": "2026-09-29",
+      "u": "https://pharmasource.global/content/policy-briefing/section-232-pharma-tariffs-expand-today-what-manufacturers-need-to-know/"
+     },
+     {
+      "o": "일라이 릴리 실적 발표",
+      "d": "2026-08-05",
+      "u": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full"
+     }
+    ]
+   }
+  ],
+  "next": "IPO 자금과 중국발·AI 설계 후보물질이 비만 같은 인기 표적에 계속 몰리는데 최혜국 약가·2028년 메디케어 협상 가격으로 순가격이 더 내려가면 ③ 공급 과잉으로 넘어갑니다. 반대로 3분기에 줄어든 벤처 투자가 4분기에도 줄고 IPO가 멈추면 ② 후반의 열기가 식는 신호로 봅니다 [유추]",
+  "watch": [
+   "바이오텍 IPO·분기 벤처 투자액(3분기 64억 달러에서 반등 여부)",
+   "인수합병·기술이전 선급금",
+   "GLP-1 실현 가격(릴리·노보 3분기 실적)과 경구 비만약 출시",
+   "최혜국 약가·관세 적용 범위",
+   "메디케어 2028년 협상 가격 발표"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "10월 17일 업데이트는 웹 검색 2회(열람 0회)로 3분기 자금·인수합병 수치만 확인했고, 출처 세 곳(PwC, Citeline Scrip, William Blair)은 원문을 열지 않고 검색 요약에만 근거해 게재일을 2026-10으로 적었습니다. 확인하지 못한 것: (1) 3분기 IPO 건수는 집계마다 달라(Evaluate 3분기 9건·23억 9,000만 달러, PwC 9월 말까지 22건, 블룸버그 기사 기준 시티가 26번째) 기준을 맞추지 못했고, 3분기 인수합병도 집계마다 300억~390억 달러로 갈렸으며 2분기 770억 달러 수치는 출처를 특정하지 못해 쓰지 않았습니다. (2) 바이오텍 지수(XBI)의 3분기 수익률은 찾지 못했고, 롱숏 지표 최저(10월 9일)는 채널 전언이라 국면 근거로 쓰지 않고 재검토 신호로만 적었습니다. (3) 로슈-로나 계약의 선급금 1억 달러·ALK7 표적 RNAi라는 세부는 입력에서도 미확인이라 쓰지 않았습니다. (4) 중국 기술 수출 통제 목록의 바이오 예외는 텔레그램 전언에 근거합니다. (5) 기존 미확인 항목인 특허 절벽 규모, 바이오시큐어법 시행 상태, 론자·우시바이오로직스 실적, 노보 노디스크의 현재 연간 전망과 위고비 정가 인하 원문, 메디케어 비만약 정부 가격 원문은 여전히 확인하지 못했습니다.",
+ "note": "뉴스 33건 반영: 시티 테라퓨틱스 상장(올해 26번째)과 10월 헬스케어 인수합병, GSK 미국 생산 투자·인도 CDMO 탈중국 수요, 파운데이오 EU 권고 등 비만약 경쟁 확대. 국면 ② 그대로(근거를 3분기 IPO·벤처·인수합병 수치로 교체), 근거 14줄, 수치 4줄, 재검토 신호 2건, 인사이트 9칸 첫 작성, 검색 2회",
+ "applied": [
+  "n-rtr-0218",
+  "n-rtr-0222",
+  "n-rtr-0227",
+  "n-rtr-0237",
+  "n-rtr-0261",
+  "n-rtr-0269",
+  "n-tg-0230",
+  "n-tg-0238",
+  "n-tg-0245",
+  "n-tg-0246",
+  "n-tg-0258",
+  "n-tg-0264",
+  "n-bbg-0289",
+  "n-bbg-0299",
+  "n-bbg-0300",
+  "n-bbg-0308",
+  "n-rtr-0052",
+  "n-rtr-0127",
+  "n-rtr-0311",
+  "n-rtr-0312",
+  "n-tg-0282",
+  "n-tg-0283",
+  "n-tg-0284",
+  "n-bbg-0327",
+  "n-bbg-0336",
+  "n-rtr-0335",
+  "n-rtr-0342",
+  "n-tg-0300",
+  "n-tg-0303",
+  "n-tg-0304",
+  "n-bbg-0338",
+  "n-bbg-0346",
+  "n-rtr-0028"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

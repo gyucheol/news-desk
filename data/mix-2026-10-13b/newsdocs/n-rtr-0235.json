@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0235",
+ "num": 235,
+ "key": "mix-C059-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T22:45:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/lessor-avolon-orders-250-boeing-airbus-jets-with-option-100-more-2026-10-09/",
+ "origTitle": "",
+ "headline": "에이볼론 {{보잉·에어버스 250대}} 주문…칼리타도 {{에어버스 화물기}} 발주",
+ "src": [
+  {
+   "o": "Quartz",
+   "d": "2026-10-09",
+   "u": "https://qz.com/avolon-boeing-airbus-250-aircraft-order-100926"
+  },
+  {
+   "o": "Aviation Week",
+   "d": "2026-10-09",
+   "u": "https://aviationweek.com/air-transport/airlines-lessors/avolon-orders-250-airbus-boeing-aircraft"
+  }
+ ],
+ "items": [
+  {
+   "t": "리스사 에이볼론, 보잉·에어버스 항공기 250대 주문…100대 추가 옵션",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/aerospace-defense/lessor-avolon-orders-250-boeing-airbus-jets-with-option-100-more-2026-10-09/",
+   "s": "{{에이볼론}}이 보잉 737 MAX 140대 등 {{250대}}를 확정 주문하고 100대 옵션도 확보하면서 보잉·에어버스의 수주잔고가 늘게 됐다"
+  },
+  {
+   "t": "미국 칼리타항공, 에어버스 화물기 주문…소식통",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/aerospace-defense/us-based-kalitta-air-orders-airbus-freighter-jets-sources-say-2026-10-09/",
+   "s": "미국 화물항공사 {{칼리타항공}}이 {{에어버스 화물기}}를 주문했다고 소식통이 전하면서 화물기 수요가 이어지고 있음을 보여줬다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "에이볼론 {{보잉·에어버스 250대}} 주문…칼리타도 {{에어버스 화물기}} 발주",
+ "one": "항공기 리스사 {{에이볼론}}이 보잉 737 MAX 140대·에어버스 110대 등 {{250대}}를 확정 주문해 확정 주문 잔량이 749대로 늘고 칼리타항공도 에어버스 화물기를 주문하면서, {{보잉·에어버스}}의 수주가 늘어나게 됐다",
+ "facts": [
+  "무엇이: 에이볼론이 10월 9일 보잉 737 MAX 140대, A320neo 계열 75대, A330neo 35대 등 250대를 확정 주문했고 에어버스 100대 추가 옵션을 확보했습니다 [사실]",
+  "조건: 에이볼론 지분 약 70%를 가진 보하이리스의 승인이 필요하며 표결은 10월 말로 예상됩니다 [사실]",
+  "규모: 이번 주문으로 에이볼론의 확정 주문 잔량은 749대로 늘어납니다 [사실]",
+  "칼리타: 미국 칼리타항공이 에어버스 화물기를 주문했다고 소식통이 전했습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "에이볼론 주문 내역은 검색 결과 요약으로 확인. 칼리타항공 주문 규모·기종은 확인 못 함",
+ "added": "이번 로이터 후속 기사 1건으로 에이볼론 대량 주문에 이어 미 {{칼리타항공}}의 {{에어버스 화물기 주문}} 소식이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

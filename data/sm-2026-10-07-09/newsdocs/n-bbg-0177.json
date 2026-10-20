@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0177",
+ "num": 177,
+ "key": "bnd-C161-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:53:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work",
+ "origTitle": "",
+ "headline": "CBO 국장 '성장만으로 미 부채 안정 어려워…5~6% 성장 필요'",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/cbo-director-swagel-says-growth-estimates-for-debt-stabilisation-assume-4-5-rates-and-"
+  },
+  {
+   "o": "Saxo",
+   "d": "2026-10-09",
+   "u": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take--9-october-2026-09102026"
+  }
+ ],
+ "items": [
+  {
+   "t": "CBO 국장 '성장으로 미 부채 해결하는 방안은 통하기 어려워'",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "CBO 국장 '성장만으로 미 부채 안정 어려워…5~6% 성장 필요'",
+ "one": "스와겔 미 의회예산국장이 금리 4~5%를 전제로 성장만으로 부채를 안정시키려면 5~6% 성장이 필요하다고 밝히면서, 성장 중심 재정 전략에 의문을 던지고 재정 방향이 장기적으로 국채금리를 밀어 올릴 수 있다고 경고했다",
+ "facts": [
+  "무엇이: 필립 스와겔 CBO 국장이 10월 8일 성장만으로 부채를 안정시키려면 GDP가 5~6% 늘어야 한다고 말했다 [사실]",
+  "전제: 이 추정은 금리 4~5%를 가정한 것이다 [사실]",
+  "금리: 지금은 부채 우려가 국채금리에 큰 영향을 주지 않지만 재정 방향이 시간이 지나며 금리 상승 압력이 될 수 있다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "발언 내용은 검색 결과 요약(Newsquawk·Saxo·Bloomingbit)으로 확인. 베센트 장관 반응은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0110",
+ "num": 110,
+ "key": "bnd-C046-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T23:23:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/south-africa-to-establish-new-commission-to-oversee-state-firms",
+ "origTitle": "",
+ "headline": "남아공 8월 제조업 생산 4.3% 급감…국영기업 감독위 신설·흑인우대 규정 법원서 제동",
+ "src": [
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10-08",
+   "u": "https://www.cnbcafrica.com/2026/south-africas-august-manufacturing-output-falls-4-3-y-y"
+  },
+  {
+   "o": "Business Day",
+   "d": "2026-10-09",
+   "u": "https://www.businessday.co.za/economy/2026-10-09-factory-output-slumps-43-as-fuel-prices-surge/"
+  }
+ ],
+ "items": [
+  {
+   "t": "남아공, 국영기업들을 감독할 새 위원회 설립 추진",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/south-africa-to-establish-new-commission-to-oversee-state-firms"
+  },
+  {
+   "t": "남아공 8월 제조업 생산 전년 대비 4.3% 감소",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/africa/south-africas-august-manufacturing-output-falls-43-yy-2026-10-08/"
+  },
+  {
+   "t": "남아공 법원, 정부의 법률 부문 흑인경제력강화 규정 뒤집어",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/africa/south-african-court-overturns-governments-black-empowerment-code-legal-sector-2026-10-08/"
+  },
+  {
+   "t": "남아공 랜드화, 제조업 지표 앞두고 보합…달러 약세가 지지",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/africa/south-african-rand-steady-ahead-manufacturing-data-muted-dollar-offers-support-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "남아공 8월 제조업 생산 4.3% 급감…국영기업 감독위 신설·흑인우대 규정 법원서 제동",
+ "one": "남아공 8월 제조업 생산이 연료비 급등 속에 전년보다 4.3% 줄어 10개 부문 중 9개가 뒷걸음질하면서 3분기 성장률을 다시 끌어내릴 수 있는 가운데, 정부는 국영기업 감독위원회 신설을 추진하고 법원은 법률 부문 흑인우대 규정을 무효로 했다",
+ "facts": [
+  "무엇이: 남아공 통계청 발표 8월 제조업 생산이 전년 대비 4.3% 감소, 시장 예상(0.4% 증가)을 크게 밑돎 [사실]",
+  "폭: 전월 대비 3.1% 감소로 2024년 5월 이후 최대 낙폭, 10개 부문 중 9개 감소, 자동차·부품 8.8%·석유화학 5.0% 감소 [사실]",
+  "원인·전망: 비즈니스데이는 이란 전쟁발 연료비 급등에 따른 원가 상승을 원인으로 들며 3분기 성장을 다시 억누를 것으로 봄 [사실]",
+  "정책: 정부가 국영기업을 감독할 위원회 설립을 추진하고, 법원은 법률 부문 흑인경제력강화(BEE) 규정을 뒤집음 [제목]"
+ ],
+ "basis": "partial",
+ "check": "제조업 지표는 CNBC Africa·Business Day 등으로 확인(검색 결과 요약으로 확인). 국영기업 위원회·BEE 판결 내용은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

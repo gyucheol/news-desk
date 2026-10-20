@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0202",
+ "feed": "v5",
+ "format": "one1",
+ "num": 202,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-10193",
+ "published": "2026-10-08T14:57:00+09:00",
+ "url": "https://t.me/Trillion_labs/10193",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "title": "호르무즈 밖으로 번진 유조선 공격…카타르 북쪽·UAE 푸자이라 인근 피격",
+ "one": "호르무즈 해협 밖 카타르 북쪽 페르시아만과 UAE 푸자이라 인근에서 하루 새 유조선 두 척이 피격되면서, 봉쇄를 우회하던 걸프 원유 수출 항로의 운항 위험과 운임 부담이 커질 수 있다",
+ "headline": "호르무즈 밖으로 번진 유조선 공격…카타르 북쪽·UAE 푸자이라 인근 피격",
+ "facts": [
+  "무엇이: UKMTO는 10월 7일 저녁 카타르 마디낫 알샤말 북쪽 해상에서 유조선이 여러 발의 발사체에 맞아 사상자가 났다고 밝혔습니다 [사실]",
+  "추가 피격: 채널은 IRGC가 UAE 푸자이라 인근에서 UAE 유조선(VLCC)을 공격해 대형 화재가 났다고 전했습니다 [채널]",
+  "배경: UKMTO 집계로 10월 들어 호르무즈에서만 유조선 공격이 9건이며, 서쪽 걸프 해역 공격은 수주 만에 처음입니다 [사실]",
+  "의미: 채널은 봉쇄 돌파를 도운 선박이 걸프·오만만 전역에서 표적이 될 수 있다고 해석했습니다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "카타르 북쪽 피격은 알자지라(2026-10-08) 기사로 확인했습니다(검색 결과 요약으로 확인). 푸자이라 인근 피격과 IRGC 소행이라는 점은 독립 출처로 확인하지 못했고, 뉴스퀵에 푸자이라 동쪽 30해리 화재 감지 단신만 있었습니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10193"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-08",
+   "u": "https://www.aljazeera.com/amp/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/oil-tanker-assembly-site-reportedly-explodes-near-uae-mizan-reports"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

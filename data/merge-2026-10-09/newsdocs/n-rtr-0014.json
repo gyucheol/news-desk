@@ -1,0 +1,183 @@
+{
+ "basis": "verified",
+ "check": "미 재무부 보도자료(제재), 악시오스·미들이스트아이(패트리엇), 알자지라·타임스오브이스라엘(갈리바프 발언), CNBC(트럼프 발언·봉쇄 유지·밴스 요구) 문서 4건을 묶었고 검색 결과 요약으로 확인했습니다. 신규 제재 세부와 영국 기지 폭격기 철수는 제목 기준입니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 8일 '중간선거 전에는 이란을 공격하지 않겠다'며 이란과 생산적 논의 중이라고 밝혔지만 해상 봉쇄는 유지한다고 했고, 미국은 같은 날 이란 관련 신규 제재를 부과했습니다 [사실]",
+  "제재: 미 재무부가 10월 1일 이란 호드로·사이파, 국영 이란철도 등 기업 28곳과 개인 2명을 제재했습니다 [사실]",
+  "군사 대비: 악시오스는 최근 몇 주 사이 패트리엇 포대 2개가 사우디 석유시설과 카타르 가스시설에 배치됐다고 보도했습니다 [사실]",
+  "협상 조건: 갈리바프 이란 의회의장은 7개 조건 충족 전 호르무즈 재개방은 없다고 했고, 밴스 부통령은 이란의 우라늄 농축 능력 '의미 있는' 축소를 요구했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "트럼프 '중간선거 전 이란 공격 없다'…봉쇄·제재는 유지",
+ "id": "n-rtr-0014",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas"
+ ],
+ "insight": {},
+ "key": "rtr-1001-iran-auto-rail-sanctions",
+ "nodes": [
+  "gas/liquefaction",
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 14,
+ "one": "미 재무부가 이란 자동차·철도 등 30곳을 제재하고 미군이 사우디·카타르에 패트리엇을 더 배치한 가운데, 트럼프 대통령이 10월 8일 중간선거 전 이란 공격은 없다면서도 해상 봉쇄와 신규 제재를 유지해 이란 원유 공급 불안이 이어지고 있다",
+ "origTitle": "US sanctions target Iran's auto, rail sectors as blockade chokes ship lanes",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:05:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "로이터(원문 미확인)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "미 재무부 보도자료",
+   "u": "https://home.treasury.gov/news/press-releases/sb0643/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "미 재무부 보도자료",
+   "u": "https://home.treasury.gov/news/press-releases/sb0644/"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9911"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "악시오스",
+   "u": "https://www.axios.com/2026/10/02/patriot-missiles-iran-war-saudi-arabia-qatar"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "미들이스트아이",
+   "u": "https://www.middleeasteye.net/news/us-sends-additional-patriot-batteries-saudi-arabia-and-qatar-report"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69830"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "알자지라",
+   "u": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "타임스오브이스라엘",
+   "u": "https://www.timesofisrael.com/liveblog_entry/irans-parliament-speaker-says-strait-of-hormuz-wont-reopen-until-tehrans-7-conditions-met/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 TNBfolio",
+   "u": "https://t.me/TNBfolio/71471"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Express Tribune",
+   "u": "https://tribune.com.pk/story/2633651/trump-says-iran-deal-isnt-really-something-that-i-want-to-do"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://cnbc.com/2026/10/08/iran-war-trump-midterm-election.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they"
+  }
+ ],
+ "tags": [],
+ "title": "트럼프 '중간선거 전 이란 공격 없다'…봉쇄·제재는 유지",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/",
+ "items": [
+  {
+   "t": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+   "o": "로이터",
+   "d": "2026-10-01",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/"
+  },
+  {
+   "t": "미군, 사우디 석유·카타르 가스 시설에 패트리엇 포대 1개씩 추가 배치",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9911"
+  },
+  {
+   "t": "이란 의회의장 '7개 조건 충족 전 호르무즈 재개방 없다'…사찰 제안 보도는 부인",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-04",
+   "u": "https://t.me/HANAchina/69830"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "미 당국자 \"이란 드론 공격 음모 우려로 영국 기지 폭격기 철수\"",
+   "u": "https://www.reuters.com/world/uk/iran-drone-plot-fears-led-us-remove-bombers-uk-base-us-officials-say-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "트럼프 \"누가 이란을 이끌고 있는지 아무도 모른다\"",
+   "u": "https://www.reuters.com/world/middle-east/trump-says-nobody-knows-who-is-running-iran-2026-10-06/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "[인터뷰] 밴스 미 부통령 \"이란, 농축 줄이고 전쟁 끝내야\"",
+   "u": "https://www.reuters.com/world/interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war-2026-10-06/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 TNBfolio",
+   "t": "트럼프 '이란 합의, 내가 원하는 게 아니다'…공습 재개 준비 보도 직후",
+   "u": "https://t.me/TNBfolio/71471"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "영국, 트럼프의 폭격기 철수가 이란·러시아에 힘 실어준다고 판단",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/uk-sees-trump-s-bomber-jets-move-boosting-iran-and-russia"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "트럼프 \"미국, 중간선거 전에는 이란 공격하지 않을 것\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/trump-says-us-won-t-attack-iran-before-november-midterm-election"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "미국, 이란과 관련된 개인·단체에 신규 제재 부과",
+   "u": "https://www.reuters.com/world/middle-east/us-imposes-fresh-iran-related-sanctions-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "트럼프 \"이란이 LA를 칠 수 있다는 발언은 잘못 해석된 것\"",
+   "u": "https://www.reuters.com/world/us/trump-says-comment-that-iran-could-take-out-los-angeles-was-misinterpreted-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "트럼프 \"이란과 생산적 대화 중…미 선거 전 공격 안 해\"",
+   "u": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0166",
+ "feed": "v5",
+ "format": "one1",
+ "num": 166,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65264",
+ "published": "2026-10-03T15:38:00+09:00",
+ "url": "https://t.me/insidertracking/65264",
+ "inds": [
+  "petchem",
+  "macro"
+ ],
+ "nodes": [
+  "petchem/feedstock",
+  "macro/geo"
+ ],
+ "title": "후티, 사우디 아람코 리야드 정유소 공격 주장…대형 화재 발생",
+ "one": "예멘 후티 반군이 미사일·드론으로 하루 약 13만 배럴 규모의 아람코 리야드 정유소를 공격했다고 주장하고 현장 화재가 확인되면서, 지잔에 이어 사우디 내수용 정제설비까지 공격 대상이 넓어졌다",
+ "headline": "후티, 사우디 아람코 리야드 정유소 공격 주장…대형 화재 발생",
+ "facts": [
+  "무엇이: 10월 3일 리야드의 아람코 정유소에서 큰 화재와 연기가 관측됐고, 후티는 탄도미사일과 드론으로 공격했다고 주장했습니다 [사실]",
+  "얼마나: 리야드 정유소는 하루 약 13만 배럴 규모로 수도권에 석유제품을 공급하는 것으로 보도됐습니다 [사실]",
+  "배경: 앞서 후티는 하루 40만 배럴 규모의 지잔 정유소도 공격했습니다 [사실]",
+  "미확인: 사우디 당국은 공격 여부와 피해 규모를 확인하지 않았습니다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "NBC뉴스·타임스오브이스라엘 기사로 화재와 후티 주장을 확인했습니다(검색 결과 요약으로 확인). 사우디·아람코의 공식 확인과 피해 규모는 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-03",
+   "u": "https://t.me/insidertracking/65264"
+  },
+  {
+   "o": "NBC뉴스",
+   "d": "2026-10-03",
+   "u": "https://www.nbcnews.com/world/middle-east/fire-smoke-seen-aramco-facility-riyadh-rcna601278"
+  },
+  {
+   "o": "타임스오브이스라엘",
+   "d": "2026-10-03",
+   "u": "https://www.timesofisrael.com/liveblog_entry/iran-backed-houthis-say-they-targeted-riyadh-airport-aramco-refinery/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더"
+}

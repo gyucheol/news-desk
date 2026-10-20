@@ -1,0 +1,149 @@
+{
+ "basis": "verified",
+ "check": "BofA의 아이폰 500만 대·매출 60억 달러 추산과 보조금 경로는 검색 결과 요약으로 확인. 800MHz 14MHz 폭·V2 위성 1만 5,000기 승인은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: BofA는 미 3대 통신사 후불 가입자의 10%가 스페이스X로 옮기면 아이폰 판매가 약 500만 대, 애플 매출이 약 60억 달러 줄 수 있다고 추산했다 [사실]",
+  "경로: 3대 통신사를 통해 연간 약 5,300만 대의 아이폰이 대당 약 800달러 프로모션과 함께 팔리는데, 스타링크로 옮기는 가입자는 이 혜택을 잃는다 [사실]",
+  "한계: BofA는 단기 실적 위험은 제한적이고 실제 영향은 2028회계연도 이후로 봤으며, 스페이스X는 단말기를 발표하지 않았다 [사실]",
+  "스페이스X: 800MHz 대역에서 최대 14MHz 쌍방향 폭을 확보했고, FCC는 2세대 스타링크 모바일 위성 1만 5,000기 배치를 승인했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "BofA \"{{스타링크 모바일}}, 애플에 위협\"…가입자 10% 이탈 시 매출 60억 달러↓",
+ "id": "n-bbg-0103",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash",
+   "s": "{{스페이스X}}가 주파수 접근 확대를 밀어붙이면서 같은 대역을 쓰는 {{항공우주 업계}}의 반발을 사고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight",
+   "s": "{{머스크}}가 항공기 위성통신 경쟁에서 아직 잡지 못한 {{델타항공}}을 겨냥하면서 기내 인터넷 시장 판도가 바뀔 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+   "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/",
+   "s": "미 {{FCC}}가 {{직접-단말 서비스}} 확대를 위한 신규 주파수 경매 추진을 표결하면서 위성 휴대전화 직접 연결 사업자들이 쓸 주파수가 늘어날 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+   "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/",
+   "s": "{{인도}} 정부가 머스크의 '올리가르히' 비판 뒤 {{위성인터넷 승인}}에 편파가 있었다는 의혹을 부인하면서 머스크 측과의 공방이 이어졌다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service",
+   "s": "{{스페이스X}}가 스타링크 휴대전화 서비스에 쓸 {{주파수 인수}} 계약을 발표하면서 위성 직접 휴대전화 통신 사업을 넓힐 수 있게 됐다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/",
+   "s": "{{스페이스X}}가 {{스타링크 모바일}} 서비스를 가능케 할 주파수를 인수하면서 기존 이동통신사와 직접 경쟁할 길이 열릴 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "스페이스X 주파수 거래에 미국·유럽 통신주 동반 하락",
+   "u": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/",
+   "s": "스페이스X 주파수 거래가 업계를 흔들면서 미국·유럽 통신주가 동반 하락해 {{STOXX 600 통신지수}}가 3.3% 내린 {{2월 이후 최저}}로 떨어졌다"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "스페이스X 주파수 거래에 도이치텔레콤 주가 7% 하락",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-spectrum-deal-sends-deutsche-telekom-shares-falling-7-2026-10-09/",
+   "s": "스페이스X 주파수 거래 여파로 {{도이치텔레콤}} 주가가 {{7~8%}} 급락하면서 유럽 대형 통신사도 위성통신 경쟁 우려를 피하지 못했다"
+  },
+  {
+   "t": "스페이스X, 스타링크 모바일로 위성·지상망 통합…미 이통 3사에 도전",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65838",
+   "s": "{{스페이스X}}가 800MHz 저주파 대역을 확보해 위성·지상망 통합을 추진하면서, {{T모바일·AT&T·버라이즌}}과 직접 경쟁할 기반을 마련했다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "스페이스X 주파수 거래 뒤 호주·뉴질랜드 통신주 하락",
+   "u": "https://www.reuters.com/business/media-telecom/telecom-stocks-australia-nz-slide-after-spacex-spectrum-deal-2026-10-12/",
+   "s": "스페이스X 주파수 충격이 번지면서 12일 {{텔스트라}}가 2.5% 내린 6주 최저로, {{TPG텔레콤}}이 5% 가까이 떨어지는 등 호주·뉴질랜드 통신주가 하락했다"
+  },
+  {
+   "t": "BofA \"스타링크 모바일, 세 가지 측면에서 애플에 위협\"",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66100",
+   "s": "{{BofA}}가 스타링크 이동이 통신사 보조금 모델을 흔들 수 있다고 분석하면서, 후불 가입자 10% 이탈 시 {{아이폰 500만 대}} 감소를 추산했다"
+  }
+ ],
+ "key": "bnd-C011-2026-10-09",
+ "nodes": [],
+ "num": 103,
+ "one": "{{스페이스X}}가 800MHz 저주파 대역을 확보해 위성·지상망을 합친 스타링크 모바일로 미 3대 통신사와 경쟁에 나서고 {{BofA}}가 후불 가입자 10%가 옮기면 {{애플 매출 약 60억 달러}}가 줄 수 있다고 추산하면서, 통신사에 이어 아이폰 보조금 판매 구조도 흔들릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T09:46:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Via Satellite",
+   "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Investing.com",
+   "u": "https://uk.investing.com/news/stock-market-news/eu-telecom-stocks-fall-after-spacexs-move-to-become-a-wireless-carrier-4902338"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "ADVFN",
+   "u": "https://uk.advfn.com/market-news/article/24372/european-telecom-shares-fall-as-spacex-expands-plans-for-us-mobile-network"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Kalkine Media",
+   "u": "https://kalkinemedia.com/au/stocks/communication/why-did-telstra-asxtls-fall-after-spacexs-reported-us-spectrum-deal"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "NZ Herald",
+   "u": "https://www.nzherald.co.nz/business/companies/telecommunications/spark-shares-fall-after-elon-musks-spacex-spectrum-deal-rattles-telcos/premium/LQUL4S3N4JBUBBWRLD5TNYWWPA/"
+  },
+  {
+   "o": "Yahoo Finance(BofA 분석 보도)",
+   "d": "2026-10",
+   "u": "https://finance.yahoo.com/technology/article/spacexs-starlink-could-pose-3-big-risks-to-apple-bofa-warns-175500290.html"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10",
+   "u": "https://finance.biggo.com/news/bb116a77-9698-45bc-93ec-5a89946a9d39"
+  }
+ ],
+ "tags": [],
+ "title": "BofA \"{{스타링크 모바일}}, 애플에 위협\"…가입자 10% 이탈 시 매출 60억 달러↓",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash",
+ "added": "이번 텔레그램 2건으로 스타링크 모바일의 {{위성·지상망 통합}} 계획과 FCC의 2세대 위성 승인, {{애플 매출 60억 달러 감소}} 가능성을 짚은 BofA 분석이 추가됐다"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0163",
+ "num": 163,
+ "key": "bnd-C147-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:07:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/australia-to-release-final-plan-to-keep-more-lng-output-at-home",
+ "origTitle": "",
+ "headline": "호주, LNG 수출량 20% 국내 공급 의무화 최종안 공개 예정",
+ "src": [
+  {
+   "o": "호주 자원부 장관실",
+   "d": "2026",
+   "u": "https://www.minister.industry.gov.au/king/media/press-conference-announcing-the-gas-reservation-scheme"
+  },
+  {
+   "o": "Gadens",
+   "d": "2026",
+   "u": "https://www.gadens.com/legal-insights/the-new-domestic-gas-reservation-scheme-what-it-means-for-lng-and-gas-supply-in-australia/"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주, LNG 생산 국내 공급 확대 최종안 공개 예정",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/australia-to-release-final-plan-to-keep-more-lng-output-at-home"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "호주, LNG 수출량 20% 국내 공급 의무화 최종안 공개 예정",
+ "one": "호주 정부가 LNG 수출업체에 수출량의 20%를 국내에 실제 공급하도록 하는 가스 비축제 최종안을 내놓을 예정이어서, 시행되면 동부 해안 가스 수급은 나아지지만 아시아행 LNG 물량은 줄어들 수 있다",
+ "facts": [
+  "무엇이: 호주 정부가 국내에 LNG 생산을 더 남기기 위한 최종 계획을 발표할 예정 [제목]",
+  "설계: 초안 기준 모든 LNG 수출업체는 수출량의 20%를 국내 시장에 실제 공급해야 하며, 공급 의무 이행이 수출 허가 조건 [사실]",
+  "기존 계약: 기존 계약은 존중하기로 함 [사실]",
+  "시점: 제도 시행은 2027년 7월, 공급 의무 발효는 2028년 7월로 제시 [사실]",
+  "반발: 일부 생산업체는 '은밀한 국유화'라고 비판 [사실]"
+ ],
+ "basis": "partial",
+ "check": "제도 설계(20%·수출 허가 조건·시점)는 킹 자원장관 보도자료·Gadens 등으로 확인(검색 결과 요약으로 확인). 10월 최종안 내용은 확인 못 함. 아시아 물량 감소는 추론",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ]
+}

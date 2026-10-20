@@ -1,0 +1,168 @@
+{
+ "added": "이번 텔레그램 2건으로 {{트럼프의 인플레 통한 부채 상환 발언}}과 {{베선트의 적자 감축안 연내 처리 방침}}이 추가됐다",
+ "basis": "partial",
+ "check": "트럼프의 인플레 부채 상환 발언·CBO 경고 문서와 순이자 1조 달러 돌파·머스크 발언 문서를 묶었다. 트럼프 발언·부채 규모, 순이자 1조 500억 달러·GDP 대비 3.2%·10년물 5% 상회, 머스크 인터뷰 발언은 검색 결과 요약으로 확인했고 베선트의 적자 감축안 연내 처리는 미확인이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국 2026회계연도 순이자 비용은 1조 500억 달러로 전년 9,700억 달러보다 8% 넘게 늘어 처음 1조 달러를 넘었고, 재정적자는 약 1조 9,900억 달러로 2021년 이후 최대였다 [사실]",
+  "금리: 9월 이후 국채 금리가 올라 10년물이 5%를 넘으면서 부채 차환 비용을 끌어올리고 있다 [사실]",
+  "트럼프·CBO: 트럼프 대통령은 특정 수준의 인플레이션이 약 40조 달러 국가부채를 매우 빠르게 갚는 데 도움이 될 수 있다고 했고, 스와겔 CBO 국장은 성장만으로 부채를 안정시키려면 5~6% 성장이 필요하다고 했다 [사실]",
+  "머스크: 머스크는 DOGE 실험은 실패했고 정부 안에서는 적자를 해결할 수 없다며 부채의 유일한 해법은 AI와 로봇이라고 했다 [사실]",
+  "재무부: 베선트 장관은 중간선거에서 민주당이 상·하원 중 한 곳이라도 장악하면 적자 감축안을 연말까지 서둘러 통과시키겠다고 밝혔다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 순이자 비용 1조 달러 첫 돌파…머스크 'DOGE 실패, 해법은 AI'",
+ "id": "n-bbg-0177",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "CBO 국장 '성장으로 미 부채 해결하는 방안은 통하기 어려워'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 Polaristimes",
+   "s": "트럼프가 {{특정 수준의 인플레이션이 국가부채를 매우 빠르게 갚는}} {{데 도움}}이 된다고 공개 발언하면서, 채널은 이를 {{재정 지배의 공개 선언}}으로 봤다",
+   "t": "트럼프 '특정 수준의 인플레이션이 부채 빠르게 갚는 데 도움'",
+   "u": "https://t.me/The_MariTimes/63626"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{베선트}}가 {{민주당이 의회 한 곳이라도 장악하면}} {{적자 감축안을 연말까지 서둘러 통과시키}}겠다고 밝혔으나, 채널은 {{필리버스터 탓에 실현이 어렵}}다고 봤다",
+   "t": "베선트 '민주당이 한 곳이라도 장악하면 적자 감축안 연내 처리'",
+   "u": "https://t.me/The_MariTimes/63638"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "s": "미국 정부가 지출 증가로 2026회계연도에 1조 9,900억 달러 적자를 내면서, 사회보장·메디케어·이자 지출이 세수 증가를 앞질렀다",
+   "t": "미국, 지출 증가로 2026회계연도 재정적자 1조 9,900억 달러",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-posts-1-99-trillion-budget-gap-for-2026-as-spending-climbs"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "로이터",
+   "s": "미국 재정적자가 2,170억 달러 늘어난 1조 9,900억 달러로 5년 만에 가장 커지면서, 관세 환급과 이자 비용 증가가 적자를 키운 것으로 나타났다",
+   "t": "미 2026회계연도 재정적자 1조 9,900억 달러로 늘어 5년 만에 최대",
+   "u": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 TNBfolio",
+   "s": "미국 적자가 전년 1조 7,750억 달러에서 약 12% 늘고 순이자 비용이 1조 달러를 넘으면서, 25년 연속 적자 속 감세로 법인세 수입은 약 700억 달러 줄었다",
+   "t": "美 재정적자 1조 9,920억 달러…순이자 1조 달러 돌파, 부채 40조",
+   "u": "https://t.me/TNBfolio/71585"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "미국 총이자 지출이 1조 3,600억 달러로 사상 최고를 경신하면서, 추세가 이어지면 2028년 말 이전 이자가 사회보장을 넘어 최대 단일 지출 항목이 될 전망이다",
+   "t": "美 총이자 지출 1조 3,600억 달러 사상 최고…2028년 사회보장 추월 가능성",
+   "u": "https://t.me/HANAchina/70541"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "미국 부채가 40조 달러를 넘고 10년물 금리가 오르는 가운데 피델리티가 비트코인과 실질금리의 상관계수가 0.6을 넘었다며, 비트코인의 헤지 매력이 커질 수 있다고 봤다",
+   "t": "美 부채 40조 달러 돌파 속 피델리티 '비트코인·실질금리 상관 사상 최고'",
+   "u": "https://t.me/insidertracking/66514"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "s": "미국 순이자 비용이 2026회계연도에 1조 달러를 넘어 사상 최대를 기록하면서, 이자가 다시 빚을 늘리는 부채 눈덩이 위험이 커졌다",
+   "t": "미국 이자 비용 사상 최대 1조 달러…부채 눈덩이 위험",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "머스크가 DOGE 경험을 돌아보며 적자를 줄이려 하면 적을 많이 만든다고 인정하고 회사로 더 일찍 돌아가 AI에 집중했어야 했다고 하면서, 지출 삭감 경로에 회의론을 드러냈다",
+   "t": "머스크 'DOGE 돌아보니 정부 안에선 적자 해결 불가, AI·로봇뿐'",
+   "u": "https://t.me/HANAchina/70590"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "텔레그램 Polaristimes",
+   "s": "머스크가 아이잭슨 인터뷰에서 DOGE는 실패했고 대통령·의회·법원 누구도 지출 삭감을 원하지 않았다고 밝히면서, 긴축으로 부채를 줄이기 어렵다는 시각을 보탰다",
+   "t": "머스크 '국가 부채 해법은 AI·로봇뿐…DOGE는 실패작'",
+   "u": "https://t.me/The_MariTimes/63794"
+  }
+ ],
+ "key": "bnd-C161-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 177,
+ "one": "트럼프 대통령이 인플레이션이 부채 상환을 돕는다고 하고 CBO가 성장만으로는 부채 안정이 어렵다고 경고한 데 이어 2026회계연도 순이자 비용이 1조 500억 달러로 처음 1조 달러를 넘으면서, 10년물 금리가 5%를 넘은 가운데 부채 차환 부담이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T12:13:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/cbo-director-swagel-says-growth-estimates-for-debt-stabilisation-assume-4-5-rates-and-"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Saxo",
+   "u": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take--9-october-2026-09102026"
+  },
+  {
+   "d": "2026-10",
+   "o": "Hokanews",
+   "u": "https://www.hokanews.com/2026/10/trump-says-inflation-could-pay-down-40.html"
+  },
+  {
+   "d": "2026-10",
+   "o": "The Financial District",
+   "u": "https://www.thefinancialdistrict.com.ph/post/trump-says-certain-levels-of-inflation-could-help-pay-down-u-s-debt"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Fox Business",
+   "u": "https://www.foxbusiness.com/politics/federal-budget-deficit-hits-2t-national-debt-costs-surge"
+  },
+  {
+   "d": "2026-08-19",
+   "o": "NPR",
+   "u": "https://www.npr.org/2026/08/19/nx-s1-5937552/the-u-s-debt-tops-a-record-shattering-40-trillion-yes-with-a-t"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "포춘",
+   "u": "https://fortune.com/2026/10/17/us-debt-interest-payments-fiscal-2026-1-trillion-federal-spending-revenue-gdp-growth-treasury-yields/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "피터슨재단",
+   "u": "https://www.pgpf.org/programs-and-projects/fiscal-policy/monthly-interest-tracker-national-debt/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "The Next Web",
+   "u": "https://thenextweb.com/news/musk-tells-isaacson-only-ai-and-robots-can-fix-us-debt-axios-reports"
+  }
+ ],
+ "tags": [],
+ "title": "美 순이자 비용 1조 달러 첫 돌파…머스크 'DOGE 실패, 해법은 AI'",
+ "updatedAt": "2026-10-20T08:14:17+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0160",
+ "num": 160,
+ "key": "bnd-C144-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/why-ethiopia-eritrea-tensions-pose-another-threat-to-red-sea-shipping",
+ "origTitle": "",
+ "headline": "에티오피아·에리트레아 단교·충돌 위기…홍해 해운에 또 다른 위협",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-05",
+   "u": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+  },
+  {
+   "o": "Critical Threats",
+   "d": "2026-10-08",
+   "u": "https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+  }
+ ],
+ "items": [
+  {
+   "t": "에티오피아·에리트레아 긴장이 홍해 해운에 또 다른 위협인 이유",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/why-ethiopia-eritrea-tensions-pose-another-threat-to-red-sea-shipping"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "에티오피아·에리트레아 단교·충돌 위기…홍해 해운에 또 다른 위협",
+ "one": "에티오피아가 10월 1일 에리트레아와 외교 관계가 끊긴 뒤 아비 총리가 아사브 항구를 포함한 홍해 접근을 요구하며 무력도 배제하지 않으면서, 후티 반군 공격에 이어 홍해 해운에 새로운 위험 요인이 생기고 있다",
+ "facts": [
+  "무엇이: 에티오피아가 아스마라 대사관을 닫고 에리트레아 외교관 10명을 추방하자 에리트레아가 10월 1일 모든 관계를 끊었다 [사실]",
+  "요구: 아비 총리는 10월 5일 취임하며 홍해 항구 확보를 다짐했고, 아사브 장악을 포함한 무력 사용을 배제하지 않았다 [사실]",
+  "진영: 이집트·에리트레아·수단·소말리아가 10월 4일 홍해 관리는 연안국 몫이라고 밝혀 에티오피아에 맞섰다 [사실]",
+  "해운: 실제 상선 운항 차질 보도는 아직 없다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "단교·아비 총리 발언·4개국 회의는 검색 결과 요약(알자지라·Critical Threats)으로 확인. 해운 영향은 분석가 전망 수준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ]
+}

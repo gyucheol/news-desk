@@ -1,0 +1,66 @@
+{
+ "id": "n-bbg-0120",
+ "num": 120,
+ "key": "bnd-C070-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T21:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push",
+ "origTitle": "",
+ "headline": "그리어 '캐나다에 입장 고수'…공화당 로저스도 관세전쟁 중단 요구",
+ "src": [
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-08",
+   "u": "https://www.theglobeandmail.com/business/article-us-trade-stance-with-canada-jamieson-greer/"
+  },
+  {
+   "o": "The Detroit News",
+   "d": "2026-10-07",
+   "u": "https://www.detroitnews.com/story/news/politics/2026/10/07/trump-trade-war-canada-tariffs-mike-rogers-abdul-el-sayed-michigan-senate-race/92133762007/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 관세 덕에 카니, 캐나다 송유관·투자 추진 가속",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push"
+  },
+  {
+   "t": "미시간 공화당 로저스, 트럼프와 달리 캐나다 관세 싸움 중단 촉구",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/us/michigan-republican-rogers-calls-end-canada-tariff-fight-breaking-with-trump-2026-10-07/"
+  },
+  {
+   "t": "그리어 USTR '캐나다와 무역 입장 고수'",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "그리어 '캐나다에 입장 고수'…공화당 로저스도 관세전쟁 중단 요구",
+ "one": "그리어 USTR이 캐나다와의 무역 협상에서 미국 입장을 바꾸지 않겠다고 밝히고 미시간 공화당 상원 후보 로저스가 관세전쟁 중단을 요구하면서, 협상 교착 속에 카니 총리는 미국 관세를 계기로 송유관 등 자국 투자 사업을 서두르고 있다",
+ "facts": [
+  "무엇이: 그리어 USTR이 10월 8일 CNBC 인터뷰에서 캐나다와의 무역 입장을 고수하고 있으며 퀘벡 선거가 오타와를 붙잡고 있다고 말했다 [사실]",
+  "미 정치권: 미시간 상원 공화당 후보 마이크 로저스가 10월 7일 광고에서 '캐나다는 적이 아니다, 관세전쟁을 끝내야 한다'고 했다 [사실]",
+  "관세: 트럼프 행정부는 약 200억 달러어치 캐나다산 제품에 50% 관세를 매기고 있다 [사실]",
+  "캐나다: 카니 총리가 미국 관세를 계기로 송유관과 투자 사업 승인을 서두르고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "그리어 발언, 로저스 광고, 50% 관세는 검색 결과 요약(Globe and Mail·Detroit News·The Hill)으로 확인. 카니 총리의 송유관 신속 추진은 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

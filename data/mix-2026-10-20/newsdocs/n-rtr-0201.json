@@ -1,0 +1,410 @@
+{
+ "added": "블룸버그·로이터·텔레그램 9건 — 中 9월 석탄 생산 6.8% 감소, 日 전력값 4년 최고, 유럽 가스 4년 최고·카타르 LNG선 홍해 통과, 라스라판 복구 3년, 인도 석탄 수입 의무 보류 내용이 추가됨",
+ "basis": "verified",
+ "check": "중국 9월 석탄 생산·1~9월 누계·가격 상승률, 일본 전력 현물가, 카타르 라스라판 복구 3년, 유럽 저장률을 검색 결과 요약으로 확인. 유럽 가스 4년 최고는 채널과 저품질 집계 사이트에만 있어 수치는 쓰지 않음. 인도 석탄 수입 의무 보류, 中 에너지 완충력 시험은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 9월 석탄 생산은 3억 8,513만 톤으로 1년 전보다 6.8% 줄었고 1~9월은 34억 5,000만 톤으로 3.5% 감소했으며, 5월 산시성·8월 후난성 광산 사고 뒤 강화된 안전 점검이 원인이다 [사실]",
+  "석탄값: 중국 발전용 석탄값은 3년 만에 톤당 1,000위안을 넘었고(친황다오 5,500kcal 10월 10일 1,003위안) 7월 중순 이후 24% 올랐다 [사실]",
+  "일본: 일본전력거래소 전국 익일 현물 가격은 19일 kWh당 31.15엔으로 한 주 새 25% 넘게 올라 약 4년 만의 최고였고, LNG·석탄값 상승과 겨울 전 정기 보수가 겹쳤다 [사실]",
+  "유럽 가스: 9월 29일 유럽 가스 저장률은 71.5%로 2011년 집계 이후 같은 날 기준 최저였고, 카타르는 라스라판의 손상된 LNG 트레인 2기 복구에 3년이 걸린다고 밝혔다 [사실]",
+  "기존: 에너지 애스펙츠 추정으로 독일 갈탄 발전 수익성 지표가 MWh당 최대 72달러로 1년 전 0달러에서 뛰었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "겨울 연료난 심화…中 석탄 생산 6.8% 감소·日 전력값 4년 최고·유럽 가스 4년 최고",
+ "id": "n-rtr-0201",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "coal",
+  "gas",
+  "oil",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{메르츠 총리}}가 {{지난해 접었던 전 소비자 전기세 인하}}를 다시 약속해, kWh당 2.05센트인 세율을 {{EU 최저 수준으로 낮추겠다고}} 밝혔다",
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{영국 송전망 운영사}}가 공급을 확보하려고 {{프랑스에 긴급 전력을 요청}}하면서, {{영국 전력 수급}}이 {{빠듯할}} 수 있다 (제목 기준)",
+   "t": "영국 송전망, 공급 확보 위해 프랑스에 긴급 전력 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-grid-seeks-emergency-french-power-to-secure-supplies"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{EU 훅스트라 집행위원}}이 {{석유·가스 기업 횡재세의 득실을 따질 작업반}}을 꾸리면서, {{2022년처럼 초과이익 과세}}가 다시 추진될 수 있다",
+   "t": "에너지 가격 급등에 EU, 석유·가스 횡재세 검토",
+   "u": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{독일}}이 새 {{비상 가스 비축}}을 {{소비자 부담금}}으로 충당하는 {{초안}}을 {{마련}}하면서, 가구가 {{2027년 10월부터 연 최대 7.20유로}}를 {{부담}}하게 될 수 있다",
+   "t": "독일, 새 비상 가스 비축 재원을 소비자 부담금으로 마련(초안)",
+   "u": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 Polaristimes",
+   "s": "유럽 각국 {{재무장관}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{석유·가스 기업 이익}}에 대한 {{과세 압력}}이 이어지고 있다",
+   "t": "유럽 각국 재무장관들, 에너지 기업 횡재세 또 촉구",
+   "u": "https://t.me/The_MariTimes/63696"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "체코 하원이 정유업 횡재세 법안을 1차로 지지하면서, 높은 에너지값 속 정유사 이익에 대한 과세가 현실화될 수 있다 (제목 기준)",
+   "t": "체코 하원, 정유 부문 횡재세 법안에 1차 지지",
+   "u": "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "멜로니 총리가 이탈리아가 EU와 가스 가격 상한 합의에 다가섰다고 밝히면서, 가스값 급등에 상한을 두는 대응이 가시화될 수 있다 (제목 기준)",
+   "t": "멜로니 '이탈리아, EU와 가스 가격 상한 합의 근접'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/italy-is-nearing-deal-with-eu-on-gas-price-cap-meloni-says"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "EU 집행위원회가 높은 에너지 가격 탓에 매우 힘든 겨울이 될 것이라고 경고하면서, 가계와 기업의 난방·전력 비용 부담 우려가 커졌다",
+   "t": "EU 집행위 '높은 에너지 가격에 매우 힘든 겨울'",
+   "u": "https://t.me/insidertracking/66223"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "EDF가 가스 공급 불확실성으로 전망이 흐려지자 에디슨 지분 매각 계획을 멈추면서, 에너지 자산 매각 일정이 늦춰졌다 (제목 기준)",
+   "t": "EDF, 가스 공급 불확실성에 에디슨 지분 매각 계획 중단",
+   "u": "https://www.reuters.com/business/energy/edf-pauses-edison-stake-sale-plan-gas-supply-uncertainty-clouds-outlook-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "유럽 정상들이 전쟁으로 촉발된 에너지 충격을 누그러뜨릴 정책 수단을 마땅히 찾지 못하면서, 높은 에너지값이 겨울 내내 이어질 수 있다 (제목 기준)",
+   "t": "유럽 정상들, 전쟁발 에너지 충격 누그러뜨릴 수단 부족",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/europe-s-leaders-have-few-tools-to-ease-war-driven-energy-shock"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "EU 정상들이 정상회의에서 집행위에 단기 대책을 요구하는 데 무게를 두면서, 메탄 규제 수정과 국가보조 체계 연장 같은 한정된 조치가 거론되고 있다",
+   "t": "EU 정상회의서 에너지값 급등 논의…쉬운 해법 없어",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/no-easy-solutions-as-eu-leaders-discuss-energy-price-surge-at-summit"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "독일 규제당국이 가스 저장량은 낮지만 공급 위험은 없다고 밝히면서, 겨울 가스 부족 우려를 진정시키려 했다 (제목 기준)",
+   "t": "독일 규제당국 '가스 저장량 낮지만 공급 위험은 없어'",
+   "u": "https://www.reuters.com/business/energy/germany-gas-storage-low-no-supply-risk-regulator-says-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "독일 전력 공급사들이 잇따라 시장에서 빠지면서, 공급사 이탈이 소비자 요금과 공급 안정을 흔든 2022년 에너지 위기가 재연될 수 있다는 우려가 커졌다 (제목 기준)",
+   "t": "독일 전력 공급사 잇단 이탈, 2022년 에너지 위기 재현 우려 키워",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/german-power-supplier-exits-raise-specter-of-2022-energy-crisis"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "영국 오프젬이 2022~2024년에 썼던 시장안정 부담금을 이르면 11월 재가동하는 방안을 협의하면서, 에너지 공급사들을 도매가 급변동에서 보호하려 하고 있다",
+   "t": "영국 감독당국, 도매가 급변동에서 에너지 시장 보호 조치 착수",
+   "u": "https://www.reuters.com/business/energy/uk-watchdog-moves-protect-energy-market-wholesale-price-swings-2026-10-16/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "유럽 가스값이 치솟으면서 줄어든 석탄발전소들이 전력 판매에서 큰 이익을 거두고 있다 (제목 기준)",
+   "t": "가스값 급등에 유럽의 줄어든 석탄발전소들이 횡재",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/dwindling-coal-fleet-in-europe-reaps-windfall-from-gas-rally"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 트릴리온",
+   "s": "이탈리아 등 5개국이 배출권거래제 완화와 건물·운송 적용 연기를 밀었지만 독일·프랑스 등이 가격 신호 약화에 반대하면서, EU 기후정책 후퇴 여부가 쟁점이 됐다",
+   "t": "EU, 이탈리아 주도 배출권거래제 완화 시도에 저항…정상회의 에너지값 격론",
+   "u": "https://t.me/Trillion_labs/10631"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "에너지 가격 부담이 EU 정상회의 전반을 짓누르면서 정상들이 가계·기업 비용 대책 마련 압박을 받았다 (제목 기준)",
+   "t": "에너지 가격 부담, EU 정상회의 전반을 짓눌러",
+   "u": "https://www.reuters.com/sustainability/energy-prices-loom-over-eu-summit-2026-10-16/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "로이터",
+   "s": "이탈리아가 발전용 가스값이 전기요금에 번지는 것을 막는 조치에 집행위와 원칙 합의하면서, 정식 통보 뒤 우선 심사를 받게 됐다",
+   "t": "이탈리아, 가스값의 전기요금 영향 줄이는 조치로 EU와 합의",
+   "u": "https://www.reuters.com/business/italy-clinches-deal-with-eu-over-measures-limit-impact-gas-prices-electricity-2026-10-16/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "s": "유럽이 겨울 에너지 부담에 대비하는 가운데 영국은 재생에너지 덕에 상대적으로 유리한 위치에 있다 (제목 기준)",
+   "t": "겨울 대비하는 유럽 속 영국은 재생에너지 우위",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/britain-has-a-renewable-energy-edge-as-europe-braces-for-winter"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "친황다오 발전용 석탄값 상승세가 내년 연간 전력 계약 협상에도 반영될 전망인 가운데, 산시성 광산 사고로 석탄 생산이 연중 영향을 받았다",
+   "t": "친황다오 발전용 석탄값 상승…내년 장기계약에 반영 전망",
+   "u": "https://t.me/Trillion_labs/10723"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "중국 연구기관이 석탄 소비가 2027년 전후 49억 5,000만~51억 톤에서 정점을 찍고 2030년 전후 줄어들 것으로 내다보면서 석탄 수요의 장기 둔화가 예고됐다",
+   "t": "중국 석탄 소비 2027년 전후 49.5억~51억 톤서 정점 전망",
+   "u": "https://t.me/Trillion_labs/10725"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "메르츠 독일 총리가 이탈리아도 석탄발전소를 2035년까지 닫자는 독일·프랑스 제안에 대체로 동의한다고 밝히면서 유럽 석탄발전 축소 일정이 구체화되고 있다",
+   "t": "메르츠 \"이탈리아, 2035년 석탄발전 퇴출안에 대체로 동의\"",
+   "u": "https://t.me/Trillion_labs/10727"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "세계적 가스 부족으로 독일 갈탄 발전 수익성 지표가 1년 전 0달러에서 MWh당 최대 72달러로 뛰면서 유럽에 남은 석탄발전소들이 수익을 내고 있다",
+   "t": "세계 가스난에 유럽의 남은 석탄발전소 수익성 회복",
+   "u": "https://t.me/Trillion_labs/10728"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "이탈리아가 가스값이 MWh당 59유로를 넘으면 59유로로 고정하는 전기요금 인하 협약을 EU와 맺으면서 가스발전 수요와 보조금 부담이 늘 수 있다는 분석이 나왔다",
+   "t": "이탈리아, EU와 전기요금 인하 협약…가스값 59유로 상한",
+   "u": "https://t.me/Trillion_labs/10731"
+  },
+  {
+   "t": "中 발전용 석탄값 3년 만에 톤당 1,000위안 돌파…석탄 상장사 실적 개선",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-19",
+   "u": "https://t.me/HANAchina/70635",
+   "s": "겨울 비축 수요와 공급 부족으로 중국 발전용 석탄값이 3년 만에 톤당 1,000위안을 넘으면서, 상반기 80%가 실적이 개선된 석탄 상장사의 이익이 더 늘 전망이다"
+  },
+  {
+   "t": "겨울 공급 우려 커지는 가운데 중국 석탄 생산 감소",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-coal-output-drops-as-concerns-build-over-winter-supply",
+   "s": "중국 9월 석탄 생산이 안전 점검 여파로 1년 전보다 6.8% 줄면서, 난방·발전 수요가 늘어나는 겨울을 앞두고 공급 부족 우려가 커지고 있다"
+  },
+  {
+   "t": "야말 LNG 상반기 생산 95% 유럽행…EU 2027년 러시아 LNG 수입 중단",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10841",
+   "s": "노바텍 야말 LNG가 상반기 생산의 95%를 유럽에 보냈지만 EU가 2027년 1월부터 러시아산 LNG 수입을 끊기로 하면서, 이 물량의 새 행선지가 과제로 떠올랐다"
+  },
+  {
+   "t": "석탄·LNG 비용 상승에 일본 전력값 4년 만의 최고",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/japan-power-price-at-four-year-high-with-rising-coal-lng-costs",
+   "s": "LNG·석탄값 상승과 정기 보수가 겹쳐 일본 전국 익일 전력값이 kWh당 31.15엔으로 한 주 새 25% 넘게 뛰면서, 4년 만의 최고를 기록했다"
+  },
+  {
+   "t": "트릴리온, 유럽 가스 기준가 TTF 고점 차트 공유",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10844",
+   "s": "트릴리온 채널이 유럽 가스 기준가 TTF가 고점을 찍었다는 짧은 글을 올리면서, 유럽 가스값 급등 흐름을 짚었다"
+  },
+  {
+   "t": "카타르 '세계 최대 가스·헬륨 시설 라스라판 완전 가동까지 최소 3년'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-19",
+   "u": "https://t.me/Trillion_labs/10845",
+   "s": "카타르가 세계 최대 가스·헬륨 생산 시설인 라스라판을 완전 가동하는 데 최소 3년이 걸린다고 밝히면서, LNG·헬륨 공급 공백이 길어질 전망이다"
+  },
+  {
+   "t": "석탄 생산 부진 속 겨울 시험대 오른 중국의 에너지 완충력",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/china-s-energy-buffer-faces-winter-test-as-coal-production-falters",
+   "s": "중국 석탄 생산이 흔들리면서 그동안 에너지 수급을 받쳐 온 중국의 완충 능력이 겨울철 시험대에 올랐다 (제목 기준)"
+  },
+  {
+   "t": "인도, 발전소에 부과한 석탄 수입 의무 보류(블룸버그 보도)",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/energy/india-shelves-coal-import-mandate-power-plants-bloomberg-news-reports-2026-10-19/",
+   "s": "인도 정부가 발전소에 물렸던 석탄 수입 의무를 보류하면서, 발전사의 수입탄 구매 부담이 줄어들 수 있다 (제목 기준)"
+  },
+  {
+   "t": "유럽 가스 4년 최고 속 카타르 LNG선, 홍해 거쳐 폴란드행",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-20",
+   "u": "https://t.me/insidertracking/66732",
+   "s": "유럽 가스값이 4년 만의 최고이고 재고가 10여 년 만의 계절 최저인 가운데 카타르 LNG선이 총격 위험이 있는 홍해를 지나 폴란드로 향하면서, 중동 수출사들이 겨울 공급 경로 확보에 나섰다"
+  }
+ ],
+ "key": "mix-C061-2026-10-13",
+ "nodes": [
+  "coal/policy",
+  "coal/power",
+  "coal/thermal",
+  "coal/trade",
+  "gas/demand",
+  "gas/liquefaction",
+  "gas/regas",
+  "gas/trade",
+  "macro/fiscal",
+  "power/market"
+ ],
+ "num": 201,
+ "one": "중국 9월 석탄 생산이 6.8% 줄며 발전용 석탄값이 3년 만에 톤당 1,000위안을 넘고 일본 전력값과 유럽 가스값도 약 4년 만의 최고로 오르면서, 겨울을 앞둔 발전사의 연료비 부담과 석탄 공급자의 이익이 함께 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:03:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Izvestia",
+   "u": "https://iz.ru/en/node/2183624"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/germanys-ministry-of-economic-affairs-reportedly-plans-to-finance-a-planned-national-crisis-gas-reserve-via-a-levy-handelsblatt-reports-citing-a-draft"
+  },
+  {
+   "d": "2026-08-23",
+   "o": "Euronews",
+   "u": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+  },
+  {
+   "d": "2026-09",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/eu-ministers-discuss-taxing-windfall-profits-energy/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Agence Europe",
+   "u": "https://agenceurope.eu/en/bulletin/article/13960/1/heads-of-state-meeting-in-brussels-count-on-european-commission-to-tackle-soaring-energy-prices"
+  },
+  {
+   "d": "2026-10",
+   "o": "E3G",
+   "u": "https://www.e3g.org/news/euco-october2026-eu-leaders/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Eastern Daily Press(eastrennews)",
+   "u": "https://www.eastrennews.co.uk/news/national/26642133.ofgem-planning-action-cushion-energy-firms-wholesale-price-swings/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Montel News",
+   "u": "https://montelnews.com/news/4b1e7e0f-fb2e-4e2e-9e90-97ca48851020/ec-italy-near-power-market-reform-deal-to-curb-gas-costs"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Eunews",
+   "u": "https://www.eunews.it/en/2026/10/14/brussels-is-open-to-melonis-energy-bill-decree-broad-agreement-reached-between-italy-and-the-eu-technical-issues-remain/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Il Sole 24 Ore",
+   "u": "https://en.ilsole24ore.com/art/electricity-prices-the-eu-italia-agreement-ets-neutralisation-AJqKpejB"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Global-Gas-Crunch-Makes-Europes-Remaining-Coal-Plants-Profitable.html"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "진룽제",
+   "u": "https://finance.jrj.com.cn/2026/10/11230458672842.shtml"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "Geopolitika",
+   "u": "https://geopolitika.no/italia-far-eu-avtale-om-strompriser/"
+  },
+  {
+   "o": "Shanghai Metals Market",
+   "d": "2026-10-19",
+   "u": "https://news.metal.com/newscontent/104166456-smm-coal-flash-chinas-september-coal-output-falls-68-yoy-to-38513-million-tonnes"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-19",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Coal-Production-Slumps-68-as-Winter-Supply-Fears-Grow.html"
+  },
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10-19",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-25-as-LNG-and-Coal-Costs-Soar.html"
+  },
+  {
+   "o": "Oxford Institute for Energy Studies",
+   "d": "2026-10",
+   "u": "https://www.oxfordenergy.org/wpcms/wp-content/uploads/2026/10/OIES-Quarterly-Gas-Review-Issue-34.pdf"
+  },
+  {
+   "o": "LNG Global",
+   "d": "2026-10-19",
+   "u": "https://www.lngglobal.com/lng-themes-oct-13-19-2026/"
+  }
+ ],
+ "tags": [],
+ "title": "겨울 연료난 심화…中 석탄 생산 6.8% 감소·日 전력값 4년 최고·유럽 가스 4년 최고",
+ "updatedAt": "2026-10-20T08:26:01+09:00",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/",
+ "vc": [
+  {
+   "ind": "coal",
+   "node": "thermal",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "中 9월 석탄 생산 1년 전보다 6.8% 감소"
+  },
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "유럽 가스값 약 4년 만의 최고"
+  },
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "日 도매 전력값 kWh당 31.15엔, 4년 만의 최고"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "added": "이번 {{텔레그램 3건}}과 {{블룸버그·로이터 2건}}으로 {{골드만}}의 '{{AI 자본지출 전환점}}' {{경고}}, {{저커버그}}의 {{투자 불확실성 인정}}, {{혹 탄}} {{발언 오역}} 해석이 추가됐다",
+ "basis": "partial",
+ "check": "저커버그 발언과 메타 자본지출 전망은 검색 결과 요약으로 확인. 골드만 몰라비 발언은 검색에서 찾지 못함(다른 골드만 인사들의 AI 자본지출 경고만 확인). 혹 탄 발언 해석과 FT 보도는 채널 전언.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 골드만삭스 트레이더 몰라비는 주가와 실제 이익의 괴리, 신용시장의 AI 자금조달 위험 재평가로 AI 자본지출 3대 경고 신호 중 2개가 켜졌고 클라우드 업체 자본지출 증가율은 2026년 3분기에 정점을 찍을 것으로 봤습니다 [채널]",
+  "메타: 저커버그는 팟캐스트에서 1,000억~2,000억 달러 규모 AI 투자를 효과를 확신하지 못한 채 결정했다고 말했고, 메타의 2026년 자본지출 전망은 1,300억~1,450억 달러입니다 [사실]",
+  "혹 탄: 홍콩 경제지 보도에 따르면 혹 탄은 오픈AI 사업이 탄탄한데 시장이 매출을 잘못 읽었다며 단기 지표 하나로 파는 투자자를 카지노 도박꾼에 빗댔고, 발언이 잘못 전해졌다는 해석이 나왔습니다 [채널]",
+  "시장: 브로드컴 CEO의 카지노 발언 뒤 반도체주가 하락했다고 FT가 전했고, 로이터는 세계 시장의 AI 매도세를 분석했습니다 [채널]",
+  "기존: 제프리스 크리스 우드는 미국 AI 사이클의 가장 유력한 결말이 막대한 자본 파괴이며 점유율이 값싼 중국 오픈소스 모델로 넘어갈 것이라고 봤습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{골드만}} 'AI {{자본지출 전환점 임박}}'…{{저커버그}}도 '{{2,000억 달러}} 베팅 {{확신 없었다}}'",
+ "id": "n-rtr-0025",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "싱가포르 포럼서 거품 우려에 존재론적 위협까지…AI 분위기 가라앉아",
+   "u": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "노보그라츠도 AI 거품론 가세…그래도 \"뛰어들라\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/novogratz-says-ai-is-in-a-bubble-and-investors-should-pile-in"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "로버트 루빈 \"AI 붐, 미국 경제·시장에 위험\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/robert-rubin-warns-ai-boom-carries-risks-for-us-economy-markets"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "전략가 \"AI 거품, 2008년 이후 최악의 S&P500 폭락 위험\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-bubble-risks-worst-s-p-500-crash-since-2008-strategist-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "싱가포르 웡 총리 \"AI 기술 랠리 결국 조정 맞을 것\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-s-wong-warns-ai-tech-rally-faces-eventual-correction"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{제프리스}}가 중국 모델 확산에 따른 토큰 가격 하락과 하이퍼스케일러 부채 증가를 지적하면서, {{미국 AI 투자}}가 막대한 자본 손실로 끝날 수 있다고 경고했다",
+   "t": "제프리스 'AI 사이클 결말은 미국 자본 대손실·中 오픈소스로 점유율 이동'",
+   "u": "https://t.me/The_MariTimes/63649"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "제프리스 \"2008년 모먼트\" 경고…AI 하이퍼스케일러 수주잔고 절반이 OpenAI·앤트로픽",
+   "u": "https://t.me/HANAchina/70247"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "틱톡 추 CEO·MS 알트호프, 걷잡을 수 없는 AI 과열 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/tiktok-s-chew-and-microsoft-s-althoff-warn-about-runaway-ai-hype"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "브로드컴 CEO \"AI 기술 성장의 최대 장애물은 메모리가 아닌 자본\"",
+   "u": "https://www.reuters.com/world/asia-pacific/broadcom-ceo-says-biggest-hurdle-ai-fuelled-tech-growth-is-capital-not-memory-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 TNBfolio",
+   "t": "브로드컴 혹 탄 \"AI 최대 제약은 메모리 아닌 자본\"…웨이퍼 부족은 극복 중",
+   "u": "https://t.me/TNBfolio/71501"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "브로드컴 CEO, 많은 AI 투자자를 카지노 도박꾼에 비유",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/broadcom-ceo-likens-many-ai-investors-to-casino-gamblers"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "브로드컴 CEO \"AI 투자자는 카지노 도박꾼\"…인텔 립부 탄도 자금 조달 비용 우려",
+   "u": "https://t.me/HANAchina/70301"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 TNBfolio",
+   "t": "혹 탄, 적자 AI 연구소 경제성에 의문…퍼머스 그리드 55억 달러 IPO 철회",
+   "u": "https://t.me/TNBfolio/71509"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 트릴리온",
+   "s": "{{혹 탄}}의 자금 조달 병목 경고와 {{최대 19GW}} 전력 부족 전망이 겹치면서 13일 기술주 매도세가 커졌다는 분석이 나왔다",
+   "t": "JP모건 '혹 탄의 자금 병목 경고가 기술주 매도 직접 원인'",
+   "u": "https://t.me/Trillion_labs/10399"
+  },
+  {
+   "t": "브로드컴 CEO '카지노' 발언 여파로 반도체주 하락(FT)",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-13",
+   "u": "https://t.me/insidertracking/66116",
+   "s": "{{브로드컴 혹 탄 CEO}}의 {{'카지노' 발언}} 여파로 {{반도체주}}가 {{하락}}했다고 FT가 전하면서, {{AI 투자 심리}}가 {{흔들리}}는 모습이 {{드러났}}다"
+  },
+  {
+   "t": "혹 탄 '카지노' 발언, 실제로는 단기 지표로 파는 투자자 겨냥",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-13",
+   "u": "https://t.me/cahier_de_market/10976",
+   "s": "{{혹 탄}}이 실제로는 {{오픈AI 사업은 탄탄}}한데 {{매출 지표 하나로 주식을 파는 투자자}}를 {{카지노 도박꾼}}에 빗댔다는 보도가 나오면서, {{기존 보도}}가 {{오역}}이었을 수 있다는 해석이 {{나왔}}다"
+  },
+  {
+   "t": "골드만삭스 'AI 자본지출 사이클 전환점 임박…3대 위험 신호 중 2개 점등'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70365",
+   "s": "{{골드만삭스 몰라비}}가 {{주가·이익 괴리}}와 신용시장의 {{AI 조달 위험 재평가}}로 경고 신호 {{3개 중 2개}}가 {{켜졌}}다며 클라우드 {{자본지출 증가율}}이 {{2026년 3분기에 정점}}을 찍는다고 {{봤}}다"
+  },
+  {
+   "t": "세계 금융시장을 휩쓴 AI 관련주 매도세 분석(그래픽)",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/",
+   "s": "{{AI 관련주 매도세}}가 {{세계 증시 전반}}으로 {{번지}}면서 {{AI 쏠림 위험}}이 시장 전체의 {{부담}}으로 {{떠올랐}}다 (제목 기준)"
+  },
+  {
+   "t": "저커버그, 메타의 2,000억 달러 AI 베팅에 확신 없었다고 인정",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet",
+   "s": "{{저커버그}}가 메타의 {{1,000억~2,000억 달러 AI 투자}}를 {{성공 확신 없이}} {{결정}}했다고 {{인정}}하면서, 빅테크 AI 자본지출의 {{회수 불확실성}}이 {{부각}}됐다"
+  }
+ ],
+ "key": "bnd-C026-2026-10-09",
+ "nodes": [
+  "macro/growth",
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 25,
+ "one": "{{제프리스}}의 {{AI 자본 파괴}} 경고와 {{혹 탄 발언발 매도}}에 이어 {{골드만삭스}}가 AI {{자본지출 사이클 전환점}}을 {{경고}}하고 {{저커버그}}가 {{2,000억 달러 AI 투자}}의 {{불확실성}}을 {{인정}}하면서, AI 인프라 {{투자 회수}}에 대한 시장 {{의구심}}이 {{커지}}고 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T03:14:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "싱가포르 총리실",
+   "u": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-24th-forbes-global-ceo-conference-grand-finale-dinner"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CryptoBriefing",
+   "u": "https://cryptobriefing.com/lawrence-wong-warns-tech-rally-correction/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Tradingpedia",
+   "u": "https://www.tradingpedia.com/2026/10/12/broadcom-chief-flags-casino-like-speculation-in-ai-stocks/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Futu News",
+   "u": "https://news.futunn.com/en/post/1000898139/broadcom-ceo-many-ai-investors-are-like-casino-gamblers-capital"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Tiger Brokers",
+   "u": "https://www.itiger.com/news/1179263540"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/jefferies-warns-us-ai-capital-destruction/"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/zuckerberg-meta-ai-spending-uncertainty-muse-wonder-101326"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10-13",
+   "u": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt"
+  }
+ ],
+ "tags": [],
+ "title": "{{골드만}} 'AI {{자본지출 전환점 임박}}'…{{저커버그}}도 '{{2,000억 달러}} 베팅 {{확신 없었다}}'",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/existential-threats-join-bubble-fears-ai-mood-sobers-singapore-forums-2026-10-07/"
+}

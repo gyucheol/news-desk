@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0193",
+ "num": 193,
+ "key": "bnd-C179-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/environmental-groups-criticize-senate-permitting-deal-as-bad-bargain",
+ "origTitle": "",
+ "headline": "美 상원 초당적 인허가 개혁안에 환경단체 반발…\"석유·빅테크에 퍼주기\"",
+ "src": [
+  {
+   "o": "Grist",
+   "d": "2026-10",
+   "u": "https://grist.org/politics/permitting-reform-baaja-climate-debate-clean-energy-fossil-fuels"
+  },
+  {
+   "o": "Inside Climate News",
+   "d": "2026-10-02",
+   "u": "https://insideclimatenews.org/news/02102026/senate-introduces-energy-permitting-bill/"
+  }
+ ],
+ "items": [
+  {
+   "t": "환경단체들, 상원 인허가 합의안은 '나쁜 거래'라고 비판",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/environmental-groups-criticize-senate-permitting-deal-as-bad-bargain"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "美 상원 초당적 인허가 개혁안에 환경단체 반발…\"석유·빅테크에 퍼주기\"",
+ "one": "미 상원이 에너지·송전 사업 인허가를 앞당기는 초당적 합의안을 내놓자 환경단체들이 멸종위기종 보호 약화와 석유·가스 개발 가속을 이유로 반발하면서, 중간선거 뒤로 미뤄진 표결에서 민주당 표 확보가 난관이 될 전망이다",
+ "facts": [
+  "무엇이: 상원 협상단이 초당적 인허가 개혁안(Bipartisan American Affordability and Jobs Act of 2026) 합의 [사실]",
+  "반발: 오일체인지인터내셔널은 '석유·빅테크에 대한 노골적 선물', 생물다양성센터는 멸종위기종법 무력화라고 비판 [사실]",
+  "분열: NRDC는 송전 조항이 절실하다며 판단 보류, 시에라클럽 등 대형 단체는 반대 서한 불참 [사실]",
+  "일정: 표결은 중간선거 이후, 민주당 표 확보가 최대 과제 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Common Dreams·Grist·Inside Climate News 검색 결과 요약으로 확인",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0132",
+ "num": 132,
+ "key": "bnd-C089-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T00:22:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/india-regulator-presses-jane-street-to-respond-after-data-share",
+ "origTitle": "",
+ "headline": "인도 SEBI, 거래 기록 넘기며 제인스트리트에 답변 압박…조사 지연 공방",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-07",
+   "u": "https://www.business-standard.com/markets/news/sebi-shares-trade-data-with-jane-street-seeks-response-to-allegations-126100700677_1.html"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-08",
+   "u": "https://www.business-standard.com/markets/news/jane-street-accuses-sebi-of-shifting-goalposts-in-sat-hearing-on-documents-126100801282_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 규제당국, 데이터 공유 뒤 제인스트리트에 답변 압박",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-regulator-presses-jane-street-to-respond-after-data-share"
+  },
+  {
+   "t": "제인스트리트, 법원에 \"인도 조사 지연시킬 동기 없다\"",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/jane-street-tells-court-firm-has-no-motive-to-delay-india-probe"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "인도 SEBI, 거래 기록 넘기며 제인스트리트에 답변 압박…조사 지연 공방",
+ "one": "인도 증권거래위원회(SEBI)가 조작 혐의 판단에 쓴 거래 기록을 제인스트리트에 넘기고 답변을 요구하자 제인스트리트가 증권항소법원에서 조사를 늦출 동기가 없다며 추가 자료를 요구해, 약 484억 루피 규모 부당이득 혐의 사건의 결론이 미뤄지고 있다",
+ "facts": [
+  "무엇이: SEBI가 예비 명령의 근거인 거래 로그(시각·수량·가격)를 제인스트리트에 공유하고 혐의에 대한 답변을 요구 [사실]",
+  "공방: 제인스트리트는 SEBI와 NSE가 주고받은 이메일 최대 60건 등을 요구하며 SEBI가 사후에 기준을 바꿨다고 주장, SEBI는 끝없는 '낚시성' 요구라고 반박 [사실]",
+  "배경: SEBI는 2025년 7월 뱅크니프티 지수 조작으로 약 484억 루피(4843크로르) 부당이득 혐의를 제기했고, 제인스트리트는 부인하며 자금을 예치 [사실]",
+  "일정: 서면 제출 뒤 증권항소법원(SAT)이 10월 21일 다룰 수 있음 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Business Standard·BusinessToday)으로 확인. 부당이득은 4843크로르 루피(약 484억 루피)",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

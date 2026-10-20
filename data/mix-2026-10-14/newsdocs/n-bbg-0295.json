@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0295",
+ "num": 295,
+ "key": "mix-C106-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T02:18:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season",
+ "origTitle": "",
+ "headline": "{{美 전력망}}, 정비철 {{이상 고온}}에 {{비상}}…에너지부 {{PJM 긴급명령}}",
+ "src": [
+  {
+   "o": "미 에너지부",
+   "d": "2026-10-13",
+   "u": "https://energy.gov/articles/energy-secretary-secures-mid-atlantic-grid-ahead-anticipated-stressed-system-conditions"
+  },
+  {
+   "o": "Potomac Local",
+   "d": "2026-10-13",
+   "u": "https://potomaclocal.com/2026/10/13/energy-secretary-issues-emergency-order-for-mid-atlantic-grid"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 주요 전력망, 정비 성수기에 폭염으로 부담",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-grids-strain-under-heat-during-peak-repair-season"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/grid",
+  "power/market"
+ ],
+ "title": "{{美 전력망}}, 정비철 {{이상 고온}}에 {{비상}}…에너지부 {{PJM 긴급명령}}",
+ "one": "{{가을 정비철}}에 {{발전기·송전선이 대거 멈춘}} 채 이상 고온으로 {{전력 수요}}가 {{늘}}면서 {{미 에너지부}}가 {{PJM에 긴급명령}}을 내렸고, {{예비력}}이 필요 수준에 {{900MW까지 근접}}할 수 있다",
+ "facts": [
+  "무엇이: 미 에너지부는 높은 수요와 가을 정비철의 계획 발전 정지·송전 정지를 이유로 연방전력법 202(c)조 긴급명령을 내려 PJM이 10월 13~16일 지정 설비와 비상 발전을 쓸 수 있게 했습니다 [사실]",
+  "규모: PJM은 약 6만 1,591MW의 발전 설비가 멈춰 있고 필요 예비력에 900MW까지 다가설 수 있다고 했으며, 수요 예상은 약 11만 1,500MW였습니다 [사실]",
+  "범위: 13개 주에 걸친 PJM 권역에 전력망 비상 경보가 내려졌습니다 [사실]",
+  "배경: 데이터센터 부하로 용량·에너지 가격이 올라 올해 PJM 도매 전력 비용이 크게 뛰었다는 분석이 있습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(미 에너지부 발표 등)으로 PJM 긴급명령, 정지 설비 규모, 예비력 여유를 확인. MISO·ERCOT의 10월 상황은 확인 못 함. 명령일은 매체별 10월 12일·13일로 엇갈림."
+}

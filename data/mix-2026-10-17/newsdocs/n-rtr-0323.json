@@ -1,0 +1,82 @@
+{
+ "basis": "verified",
+ "check": "16일 10~13척 추가 구매, 주간 120만~150만 톤, 누적 약 1,500만 톤, 관세 차이는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 국영 무역회사들이 10월 16일 미국산 대두 10~13척을 추가로 샀고 선적은 12월~3월이다 [사실]",
+  "규모: 13일 8~10척을 합친 이번 주 구매량은 120만~150만 톤으로 추산되며, 블룸버그는 최소 20척, 약 130만 톤으로 전했다 [사실]",
+  "누적: 중국의 미국산 대두 누적 매입은 약 1,500만 톤으로 2026/27년 목표 2,500만 톤에 가까워졌다 [사실]",
+  "한계: 미국산 대두는 13% 관세(브라질산 3%)를 물어 민간 구매자에게 가격 경쟁력이 없고, 구매는 국영 기업이 주도한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중국, 미국산 대두 10~13척 추가 구매…이번 주 최대 150만 톤",
+ "id": "n-rtr-0323",
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "t": "중국, 트럼프-시진핑 회담 뒤 첫 미국산 대두 8~10척 구매",
+   "u": "https://www.reuters.com/world/china/china-buys-8-10-us-soybean-cargoes-first-deals-since-trump-xi-summit-sources-say-2026-10-14/"
+  },
+  {
+   "t": "중국, 미국산 대두 추가 구매…구매 행렬 속도 붙어",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-buys-more-us-soybeans-as-purchasing-spree-gathers-pace",
+   "s": "중국 국영 기업들이 미국산 대두를 최소 20척, 약 130만 톤 사들이면서, 미·중 정상회담 뒤 구매 속도가 빨라지고 있다"
+  },
+  {
+   "t": "중국 국영 구매자, 정상회담 뒤 미국산 대두 추가 확보",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/",
+   "s": "중국 국영 구매자들이 12~3월 선적분 미국산 대두 10~13척을 더 사면서, 누적 매입이 약 1,500만 톤으로 목표 2,500만 톤에 가까워졌다"
+  }
+ ],
+ "key": "mix-G2-040-2026-10-15",
+ "nodes": [],
+ "num": 323,
+ "one": "중국 국영 무역회사들이 13일 8~10척에 이어 16일 미국산 대두 10~13척을 12~3월 선적분으로 더 사들이면서, 이번 주 구매량이 120만~150만 톤에 이르고 누적 매입이 약 1,500만 톤으로 2026/27년 목표 2,500만 톤에 다가섰다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T19:47:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "Global Agriculture",
+   "u": "https://www.global-agriculture.com/global-agriculture/china-resumes-large-us-soybean-buying-after-trump-xi-summit/"
+  },
+  {
+   "o": "KXEL",
+   "d": "2026-10-16",
+   "u": "https://kxel.com/2026/10/16/chinese-buyers-book-another-large-round-of-u-s-soybeans/"
+  },
+  {
+   "o": "Farm Policy News",
+   "d": "2026-10",
+   "u": "https://farmpolicynews.illinois.edu/2026/10/china-buys-first-us-soybeans-since-trump-xi-meeting/"
+  }
+ ],
+ "tags": [],
+ "title": "중국, 미국산 대두 10~13척 추가 구매…이번 주 최대 150만 톤",
+ "url": "https://www.reuters.com/world/china/china-buys-8-10-us-soybean-cargoes-first-deals-since-trump-xi-summit-sources-say-2026-10-14/",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 국영사 미국산 대두 10~13척 추가 구매"
+  }
+ ],
+ "added": "이번 블룸버그·로이터 2건으로 16일 10~13척 추가 구매와 이번 주 120만~150만 톤, 누적 약 1,500만 톤 매입이 추가됐다",
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

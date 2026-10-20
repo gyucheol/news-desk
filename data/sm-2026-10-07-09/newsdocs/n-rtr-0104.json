@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0104",
+ "num": 104,
+ "key": "bnd-C254-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T20:03:00+09:00",
+ "url": "https://www.reuters.com/business/autos-transportation/mexican-auto-exports-slump-september-us-tariffs-take-toll-2026-10-08/",
+ "origTitle": "",
+ "headline": "美 25% 관세 직격탄…멕시코 9월 자동차 수출 12% 급감, 생산 15% 감소",
+ "src": [
+  {
+   "o": "MEXICO NOW",
+   "d": "2026-10-08",
+   "u": "https://mexico-now.com/car-production-in-mexico-drops-15-in-september/"
+  },
+  {
+   "o": "CBT News",
+   "d": "2026-10-08",
+   "u": "https://www.cbtnews.com/mexico-auto-exports-fall-12"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 관세 여파로 멕시코 9월 자동차 수출 급감",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/autos-transportation/mexican-auto-exports-slump-september-us-tariffs-take-toll-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "美 25% 관세 직격탄…멕시코 9월 자동차 수출 12% 급감, 생산 15% 감소",
+ "one": "미국이 멕시코산 차량에 매기는 25% 관세 영향으로 멕시코의 9월 경차량 수출이 27만 7,369대로 1년 전보다 12% 줄고 생산도 약 15% 감소하면서, 닛산·GM·포드 등 멕시코 생산 거점 업체들의 대미 수출 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 멕시코 통계청(INEGI) 기준 9월 경차량 수출 27만 7,369대, 전년 대비 12% 감소로 2025년 12월 이후 최대 낙폭 [사실]",
+  "생산·내수: 생산 약 15% 감소, 내수 판매 8% 증가, 1~9월 누적 수출 1.5% 감소 [사실]",
+  "관세: USMCA 재검토 중 25% 관세 유지, 원산지 규정 충족 시 실효 부담 10~12% [사실]",
+  "업체: 닛산 수출 33% 감소, 벤츠는 닛산 합작공장 폐쇄로 수출 0대 [사실]"
+ ],
+ "basis": "verified",
+ "check": "IndexBox·MEXICO NOW·CBT News 검색 결과 요약으로 확인",
+ "inds": [
+  "auto"
+ ],
+ "nodes": []
+}

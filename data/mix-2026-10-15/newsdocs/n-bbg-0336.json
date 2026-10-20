@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0336",
+ "num": 336,
+ "key": "mix-G4-057-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T10:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities",
+ "origTitle": "",
+ "headline": "올림푸스, FDA 6개 시설 경고장에 주가 13.6% 급락",
+ "src": [
+  {
+   "o": "MassDevice",
+   "d": "2026-10-13",
+   "u": "https://www.massdevice.com/olympus-receives-fda-warning-letter-after-international-inspections/"
+  },
+  {
+   "o": "Medical Device Network",
+   "d": "2026-10-14",
+   "u": "https://www.medicaldevice-network.com/news/olympus-shares-plunge-following-fda-warning-letter-over-manufacturing-failures/"
+  }
+ ],
+ "items": [
+  {
+   "t": "올림푸스 주가, FDA의 6개 시설 경고장에 급락",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "올림푸스, FDA 6개 시설 경고장에 주가 13.6% 급락",
+ "one": "미국 FDA가 품질관리 대응 미흡을 이유로 일본·독일·미국의 6개 시설에 경고장을 보내면서 올림푸스 주가가 13.6% 급락했지만, 회사는 생산·판매 제한이 없어 실적 영향도 없다고 밝혔다",
+ "facts": [
+  "무엇이: FDA는 10월 7일자 경고장에서 2025년 말 점검한 올림푸스 6개 시설의 Form 483 지적 사항 대응이 충분하지 않다고 했습니다 [사실]",
+  "대상: 하치오지·히노데 등 일본 4곳과 독일 함부르크 올림푸스 윈터앤이베, 미국 미네소타 자이러스 ACMI입니다 [사실]",
+  "영향: 회사는 생산·판매·유통 제한이나 리콜 요구가 없어 연결 실적 영향이 없다고 보고, 15영업일 안에 종합 답변을 내겠다고 했습니다 [사실]",
+  "주가: 올림푸스 주가는 13.6% 내린 1,756엔을 기록했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 경고장 날짜·대상 6개 시설, 생산·판매 제한 없음, 주가 13.6% 하락",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "FDA 경고장에 올림푸스 주가 13.6% 급락"
+  },
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "경고장에도 생산·판매 제한은 없어"
+  }
+ ]
+}

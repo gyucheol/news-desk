@@ -1,0 +1,105 @@
+{
+ "added": "이번 블룸버그·로이터 3건으로 베트남의 대미 협정 최종 문안 송부와 스위스·노르웨이 등 EFTA와의 자유무역협정 일요일 서명 일정이 추가됐다",
+ "basis": "partial",
+ "check": "EFTA-베트남 FTA 서명 일정·협상 경과·범위·노르웨이 자국민 구금 변수는 The Diplomat·SL Guardian 검색 결과 요약으로 확인(10월 18일은 10월 14일 보도의 '일요일'로 날짜 계산). 베트남의 대미 협정 최종 문안 송부는 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 베트남이 미국과의 무역협정이 거의 마무리됐으며 최종 문안을 보냈다고 밝혔다 [제목]",
+  "EFTA: 스위스·노르웨이 등 EFTA와 베트남이 일요일(10월 18일) 자유무역협정에 서명할 예정이며, 협상은 2012년 시작돼 7월 타결됐다 [사실]",
+  "범위: 협정은 원산지 규정·투자·지식재산권·경쟁·무역구제·정부조달을 담고, 노르웨이는 베트남에 구금된 자국민 문제를 제기할 예정이나 서명 계획은 바뀌지 않았다 [사실]",
+  "기존: 태국 아누틴 총리는 대미 무역협정이 '마지막 문단' 단계라며 11월 아세안 정상회의나 APEC 계기 서명을 희망했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "베트남, 美 무역협정 최종 문안 송부…스위스·노르웨이 등 EFTA와 FTA 서명",
+ "id": "n-rtr-0059",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{아누틴 태국 총리}}가 대미 무역협정이 {{마지막 문단}}에 와 있다며 {{11월 아세안 정상회의나 APEC}}을 계기로 서명하길 바란다고 밝혔다",
+   "t": "태국 총리 \"미국과 무역협정 마지막 문단에 와 있다\"",
+   "u": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{베트남}}이 {{미국과의 무역협정 협상}}이 {{대부분 끝났다}}고 밝히면서 베트남 수출품에 적용될 {{미국 관세 조건}}이 곧 {{확정될}} 수 있다 (제목 기준)",
+   "t": "베트남 \"미국과의 무역협정 협상 대부분 완료\"",
+   "u": "https://www.reuters.com/world/asia-pacific/vietnam-says-its-trade-deal-negotiations-with-us-are-largely-completed-2026-10-08/"
+  },
+  {
+   "t": "베트남 '미국과 무역협정 거의 마무리…최종 문안 송부'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/vietnam-says-us-trade-deal-nearly-done-with-final-comments-sent",
+   "s": "베트남이 미국과의 무역협정 최종 문안을 보냈다며 협상이 거의 끝났다고 밝히면서 대미 수출품 관세 조건 확정이 가까워졌다 (제목 기준)"
+  },
+  {
+   "t": "베트남 정부 '미국과의 무역협상 거의 완료 단계'…서명 임박",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/vietnam-says-trade-negotiations-with-us-almost-completed-2026-10-14/",
+   "s": "베트남 정부가 미국과의 무역협상이 거의 완료됐다고 공식 확인하면서 협정 서명 일정에 관심이 쏠렸다 (제목 기준)"
+  },
+  {
+   "t": "스위스·노르웨이·베트남, 일요일 자유무역협정 서명…관계자",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/switzerland-norway-vietnam-sign-free-trade-deal-sunday-officials-say-2026-10-14/",
+   "s": "스위스·노르웨이 등 EFTA와 베트남이 2012년 시작한 협상 끝에 일요일 자유무역협정에 서명하기로 하면서 유럽과의 관세 장벽이 낮아질 전망이다"
+  }
+ ],
+ "key": "bnd-C141-2026-10-09",
+ "nodes": [
+  "macro/geo",
+  "macro/growth"
+ ],
+ "num": 59,
+ "one": "태국에 이어 베트남이 미국과의 무역협정 최종 문안을 보내 협상이 거의 끝났다고 밝히고 스위스·노르웨이 등 EFTA와는 14년 협상 끝에 자유무역협정 서명에 나서면서, 동남아 수출품의 관세 조건이 잇달아 확정될 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T19:38:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "The Diplomat",
+   "u": "https://thediplomat.com/2026/10/trade-agreement-with-us-close-to-completion-thai-prime-minister-says"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Bangkok Post",
+   "u": "https://www.bangkokpost.com/business/general/3333009/thailand-at-last-paragraph-of-us-trade-deal-says-pm"
+  },
+  {
+   "o": "The Diplomat",
+   "d": "2026-10",
+   "u": "https://thediplomat.com/2026/10/vietnam-set-to-sign-free-trade-pact-with-european-bloc-this-week/"
+  },
+  {
+   "o": "SL Guardian",
+   "d": "2026-10-14",
+   "u": "https://slguardian.org/efta-and-vietnam-set-to-sign-free-trade-deal-after-14-years-of-talks/"
+  }
+ ],
+ "tags": [],
+ "title": "베트남, 美 무역협정 최종 문안 송부…스위스·노르웨이 등 EFTA와 FTA 서명",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "베트남 대미 협정·EFTA FTA로 관세 장벽 완화 전망"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0243",
+ "num": 243,
+ "key": "mix-C095-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T19:26:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/new-trump-rules-will-make-it-harder-farmers-access-us-funds-energy-projects-2026-10-09/",
+ "origTitle": "",
+ "headline": "美 농무부, 농가 태양광 보조금 문턱 높여…{{농지 지상형 설치}} 배제",
+ "src": [
+  {
+   "o": "Solar Power World",
+   "d": "2026-10",
+   "u": "https://www.solarpowerworldonline.com/2026/10/reap-grant-update-makes-solar-projects-on-farmland-ineligible/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10",
+   "u": "https://www.indexbox.io/blog/usda-revises-rural-energy-for-america-program-stricter-rules-for-solar-grants/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 새 규정, 농가의 연방 에너지 사업 자금 접근 어렵게 만들어",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/litigation/new-trump-rules-will-make-it-harder-farmers-access-us-funds-energy-projects-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers",
+  "power/modules"
+ ],
+ "title": "美 농무부, 농가 태양광 보조금 문턱 높여…{{농지 지상형 설치}} 배제",
+ "one": "{{미 농무부}}가 농촌에너지지원(REAP) 규정을 바꿔 12개월 가동 실적을 낸 뒤에야 보조금을 신청하게 하고 {{농지 지상형 태양광}}과 중국산 부품 설비를 배제하면서, {{농가 재생에너지 사업}}의 자금 조달이 어려워진다",
+ "facts": [
+  "무엇이: 농무부가 10월 1일 확정한 REAP 개정 규정이 10월 16일 시행되며, 설비를 먼저 완공·가동한 뒤 12개월 실측 자료로 신청해야 한다 [사실]",
+  "제한: 인증 농지의 지상형 태양광·풍력과 중국 등 적대국산 부품을 쓴 설비가 배제되고, 지붕형은 농지 금지 대상에서 빠진다 [사실]",
+  "지원 축소: 사업비 자기부담이 75% 이상으로 높아졌고, 재생에너지 설비 보조금 상한은 50만 달러다 [사실]",
+  "반발: 환경단체들이 새 자격 기준의 무효화를 요구하는 소송을 냈다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "REAP 개정 규정의 시행일·사후 신청·농지 지상형 배제·적대국 부품 배제는 검색 결과 요약으로 확인(일부 출처는 태양광 업계 블로그)"
+}

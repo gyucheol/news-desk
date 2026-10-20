@@ -1,0 +1,80 @@
+{
+ "basis": "partial",
+ "check": "질랜드–제너레이트 계약(10월 13일, 선급금 3,000만 달러·초기 마일스톤 최대 3,500만 달러·최대 약 12억 달러, 2개 프로그램, 역할 분담)은 두 회사 보도자료(글로브뉴스와이어) 검색 결과 요약으로 확인. 로슈–로나 계약은 로이터 전재본(야후·유로넥스트·KSL·마켓스크리너)만 검색돼 독립 출처로 확인 못 함(금액은 제목 근거, 선급금·ALK7 RNAi는 미확인).",
+ "cycles": [],
+ "facts": [
+  "무엇이: 질랜드파마가 10월 13일 제너레이트 바이오메디슨과 AI로 설계한 비만·대사질환용 다중특이 단백질 치료제를 개발하는 협력·라이선스 계약을 맺었고, 제너레이트가 후보 선정까지 연구를, 질랜드가 임상·허가·전 세계 판매를 맡는다 [사실]",
+  "조건: 제너레이트는 선급금 3,000만 달러와 초기 전임상 마일스톤 최대 3,500만 달러를 포함해 최대 약 12억 달러의 마일스톤과 단계별 로열티를 받으며, 대상은 2개 프로그램(3번째 추가 선택권)이다 [사실]",
+  "로슈: 로슈가 중국 로나 테라퓨틱스와 최대 11억 6,000만 달러 규모의 비만약 기술도입 계약을 맺었다 [제목]",
+  "로슈 세부: 선급금 1억 달러와 마일스톤 최대 10억 6,000만 달러, 대상은 ALK7을 겨냥한 RNAi 후보물질이라는 내용은 로이터 전재본에서만 봤다 [미확인]",
+  "기존: 질랜드·로슈의 페트렐린타이드는 2형 당뇨 환자 2상에서 28주간 체중을 최대 9.2% 줄였고, 두 회사는 3상 3건을 시작했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{로슈·질랜드}}, {{비만약}} 잇따라 {{도입}}…{{中 로나}}·{{제너레이트}}와 최대 {{11억~12억 달러}} 계약",
+ "id": "n-rtr-0127",
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "질랜드·로슈 비만약, 중기 임상서 체중 최대 9.2% 감량",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/zealand-roches-obesity-drug-helps-patients-lose-up-92-weight-mid-stage-trial-2026-10-07/"
+  },
+  {
+   "t": "로슈, 中 로나와 최대 11억 6,000만 달러 비만약 기술도입 계약",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/roche-strikes-obesity-drug-licensing-deal-worth-up-116-bln-with-chinese-rona-2026-10-13/",
+   "s": "{{로슈}}가 {{중국 로나 테라퓨틱스}}와 {{최대 11억 6,000만 달러}} 규모의 {{비만약 기술도입 계약}}을 맺으면서 비만 파이프라인에 {{중국 후보물질}}을 {{더한}}다 (제목 기준)"
+  },
+  {
+   "t": "질랜드파마, 제너레이트와 최대 12억 달러 규모 계약",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/zealand-pharma-makes-deal-with-generate-worth-up-to-1-2-billion",
+   "s": "{{질랜드파마}}가 {{제너레이트}}와 {{최대 약 12억 달러}} 규모 계약을 맺으면서 {{AI로 설계한 다중특이 단백질}}을 {{비만·대사질환}} 신약 후보로 {{확보}}하게 됐다"
+  },
+  {
+   "t": "질랜드파마·제너레이트, 최대 12억 달러 비만약 계약(블룸버그 인용)",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/litigation/zealand-pharma-generate-strike-obesity-drug-deal-worth-up-12-billion-bloomberg-2026-10-13/",
+   "s": "{{질랜드}}가 {{선급금 3,000만 달러}}를 내고 {{제너레이트}}는 {{후보 선정까지 연구}}를 맡는 구조여서, {{임상·허가·전 세계 판매}}는 {{질랜드}}가 {{전담}}한다"
+  }
+ ],
+ "key": "bnd-C279-2026-10-09",
+ "nodes": [],
+ "num": 127,
+ "one": "{{로슈}}가 {{中 로나 테라퓨틱스}}와 {{최대 11억 6,000만 달러}}, {{질랜드파마}}가 {{제너레이트}} 바이오메디슨과 {{최대 약 12억 달러}} 규모의 {{비만약 계약}}을 잇따라 맺으면서, {{페트렐린타이드}}를 함께 개발하는 두 회사의 {{비만 파이프라인}}이 {{중국 신약}}과 {{AI 설계 단백질}}로 {{넓어지고}} 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T05:44:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "질랜드파마 공시(GlobeNewswire)",
+   "u": "https://www.globenewswire.com/news-release/2026/10/07/3376750/0/en/zealand-pharma-announces-positive-phase-2-zupreme-2-topline-results-for-amylin-analog-petrelintide-in-people-with-overweight-or-obesity-and-type-2-diabetes.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "BioSpace",
+   "u": "https://www.biospace.com/drug-development/despite-zealand-assets-intriguing-weight-loss-analysts-underwhelmed-by-blood-sugar-numbers"
+  },
+  {
+   "o": "글로브뉴스와이어(제너레이트·질랜드 보도자료)",
+   "d": "2026-10-13",
+   "u": "https://www.globenewswire.com/news-release/2026/10/13/3380182/0/en/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases.html"
+  }
+ ],
+ "tags": [],
+ "title": "{{로슈·질랜드}}, {{비만약}} 잇따라 {{도입}}…{{中 로나}}·{{제너레이트}}와 최대 {{11억~12억 달러}} 계약",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/zealand-roches-obesity-drug-helps-patients-lose-up-92-weight-mid-stage-trial-2026-10-07/",
+ "added": "이번 로이터 2건·블룸버그 1건으로 {{로슈}}가 {{中 로나}}에서, {{질랜드}}가 {{제너레이트}}에서 각각 {{최대 11억 6,000만 달러}}·{{최대 약 12억 달러}} 규모로 {{비만약 후보를 들여오는 계약}}이 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

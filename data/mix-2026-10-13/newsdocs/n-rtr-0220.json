@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0220",
+ "num": 220,
+ "key": "mix-C140-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T23:57:00+09:00",
+ "url": "https://www.reuters.com/business/germanys-debt-to-gdp-ratio-expected-rise-7825-2030-2026-10-12/",
+ "origTitle": "",
+ "headline": "독일 국가부채 비율, 2030년 GDP 대비 78.25%로 상승 전망",
+ "src": [
+  {
+   "o": "The Standard (HK)",
+   "d": "2026-10-12",
+   "u": "https://www.thestandard.com.hk/finance/article/345270/Germanys-debt-to-GDP-ratio-expected-to-rise-to-7825pc-in-2030"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 부채비율, 2030년 78.25%로 상승 전망",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/germanys-debt-to-gdp-ratio-expected-rise-7825-2030-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "독일 국가부채 비율, 2030년 GDP 대비 78.25%로 상승 전망",
+ "one": "독일 안정위원회가 인프라 기금과 국방비 차입 완화로 국가부채 비율이 2025년 62.8%에서 2030년 78.25%로 오를 것으로 내다보면서, 독일 국채 공급 증가와 재정 여력 축소가 이어질 전망이다",
+ "facts": [
+  "무엇이: 연방·주 재정을 조율하는 독일 안정위원회는 10월 12일 국가부채가 2030년 GDP 대비 78.25%에 이를 것으로 전망했습니다 [사실]",
+  "추이: 2025년 부채비율은 62.8%였고, 재정적자는 지난해 2.9%에서 내년 5.25%로 늘고 2030년에도 4.5%로 예상됩니다 [사실]",
+  "원인: 5,000억 유로 인프라 기금과 국방비 차입 규정 완화가 부채 증가 요인으로 꼽힙니다 [사실]",
+  "기준: EU 기준(적자 3%, 부채 60%)을 크게 웃도는 수준입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "78.25%, 62.8%, 적자 경로는 검색 결과 요약으로 확인(로이터 보도를 옮긴 여러 매체 기준)."
+}

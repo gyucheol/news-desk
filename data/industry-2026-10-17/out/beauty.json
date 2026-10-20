@@ -1,0 +1,37 @@
+{
+ "id": "beauty",
+ "summary": "",
+ "state": {
+  "materials": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/givaudans-quarterly-organic-sales-beat-market-view-fragrance-strength-2026-10-13/",
+    "nid": "n-rtr-0276",
+    "t": "세계 향료 업체 지보단의 3분기 향수·뷰티 부문이 13.5% 성장해 예상(6.6%)과 상반기(6.5%)를 크게 넘었고, 비용 상승은 가격 인상으로 상쇄했습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-13",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/givaudans-quarterly-organic-sales-beat-market-view-fragrance-strength-2026-10-13/",
+   "nid": "n-rtr-0276",
+   "t": "지보단의 3분기 유기 매출은 8.6% 늘어 컨센서스(4.7%)를 웃돌았고, 향수·뷰티 부문은 13.5%, 맛·웰빙 부문은 3.5% 성장했습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 2건 반영: 지보단 3분기 향수·뷰티 부문 13.5% 성장(원료 노드 근거 첫 확보), EU의 중국 업종 수입 제한 예고는 화장품 직접 영향이 없어 반영할 내용 없음. 국면 ② 그대로, 근거 1줄, 수치 1줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-rtr-0276",
+  "n-tg-0132"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

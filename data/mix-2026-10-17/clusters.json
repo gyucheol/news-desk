@@ -1,0 +1,1275 @@
+{
+ "clusters": [
+  {
+   "cid": "G1-001",
+   "theme": "코어위브 신용 불안·AI 차입 우려",
+   "field": "ai",
+   "attachTo": "n-bbg-0049",
+   "lines": [
+    7,
+    43,
+    68,
+    82,
+    83,
+    122,
+    260,
+    275,
+    336,
+    347,
+    390,
+    475
+   ]
+  },
+  {
+   "cid": "G1-002",
+   "theme": "AI·반도체주 급락과 젠슨 황 '지나갈 것'",
+   "field": "ai",
+   "attachTo": "n-rtr-0025",
+   "lines": [
+    92,
+    119,
+    219,
+    471,
+    511,
+    518,
+    519,
+    532,
+    538,
+    545,
+    567
+   ]
+  },
+  {
+   "cid": "G1-003",
+   "theme": "러시아 경유 거래·대러 제재 면제 공방",
+   "field": "energy",
+   "attachTo": "n-bbg-0230",
+   "lines": [
+    194,
+    270,
+    302,
+    324,
+    371,
+    446,
+    583,
+    593
+   ]
+  },
+  {
+   "cid": "G1-004",
+   "theme": "우크라 러 정유시설·기반시설 타격",
+   "field": "geo",
+   "attachTo": "n-tg-0121",
+   "lines": [
+    69,
+    233,
+    285,
+    348,
+    385,
+    396,
+    400,
+    597
+   ]
+  },
+  {
+   "cid": "G1-005",
+   "theme": "스타실드 속도 제한·정유시설 공격 중단 조건 딜",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    13,
+    344,
+    352,
+    365,
+    368,
+    394,
+    395,
+    488
+   ]
+  },
+  {
+   "cid": "G1-006",
+   "theme": "MSCI 지수 경고: 인니·튀르키예·스트래티지",
+   "field": "fin",
+   "attachTo": "n-rtr-0181",
+   "lines": [
+    24,
+    30,
+    37,
+    39,
+    222,
+    312,
+    413,
+    476
+   ]
+  },
+  {
+   "cid": "G1-007",
+   "theme": "미국-이란 군사 긴장·해상 봉쇄",
+   "field": "geo",
+   "attachTo": "n-rtr-0014",
+   "lines": [
+    134,
+    171,
+    172,
+    173,
+    387,
+    496,
+    535
+   ]
+  },
+  {
+   "cid": "G1-008",
+   "theme": "유가 브렌트 110달러 돌파",
+   "field": "energy",
+   "attachTo": "n-bbg-0077",
+   "lines": [
+    140,
+    294,
+    341,
+    416,
+    420,
+    431,
+    540
+   ]
+  },
+  {
+   "cid": "G1-009",
+   "theme": "대만·중국 AI 칩·기술 수출 통제",
+   "field": "trade",
+   "attachTo": "n-bbg-0338",
+   "lines": [
+    2,
+    20,
+    130,
+    242,
+    244,
+    591
+   ]
+  },
+  {
+   "cid": "G1-010",
+   "theme": "유럽 에너지값·EU 정상회의 대응",
+   "field": "energy",
+   "attachTo": "n-rtr-0201",
+   "lines": [
+    1,
+    5,
+    198,
+    271,
+    295
+   ]
+  },
+  {
+   "cid": "G1-011",
+   "theme": "미 2026회계연도 재정적자 1.99조 달러·부채 40조",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    403,
+    424,
+    480,
+    524,
+    598
+   ]
+  },
+  {
+   "cid": "G1-012",
+   "theme": "유럽 국방 증강·튀르키예 군비 확대",
+   "field": "aero",
+   "attachTo": "n-rtr-0200",
+   "lines": [
+    63,
+    109,
+    307,
+    402,
+    412
+   ]
+  },
+  {
+   "cid": "G1-013",
+   "theme": "북미 철강: 美 가격 4년 최고·캐나다 스텔코",
+   "field": "metals",
+   "attachTo": "n-bbg-0317",
+   "lines": [
+    48,
+    66,
+    333,
+    398,
+    498
+   ]
+  },
+  {
+   "cid": "G1-014",
+   "theme": "경유 강세·정제마진·비축유 방출",
+   "field": "energy",
+   "attachTo": "n-bbg-0092",
+   "lines": [
+    146,
+    189,
+    206,
+    331,
+    516
+   ]
+  },
+  {
+   "cid": "G1-015",
+   "theme": "메모리 가격 급등·CXMT 흑자 전환",
+   "field": "semis",
+   "attachTo": "n-tg-0118",
+   "lines": [
+    32,
+    276,
+    470,
+    527
+   ]
+  },
+  {
+   "cid": "G1-016",
+   "theme": "EU·영국-중국 무역 갈등",
+   "field": "trade",
+   "attachTo": "n-tg-0132",
+   "lines": [
+    185,
+    257,
+    393,
+    550
+   ]
+  },
+  {
+   "cid": "G1-017",
+   "theme": "BofA 자금 흐름: 미 주식·국채 유입",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    25,
+    52,
+    123,
+    157
+   ]
+  },
+  {
+   "cid": "G1-018",
+   "theme": "IMF·유럽 부채 경고",
+   "field": "macro",
+   "attachTo": "n-tg-0277",
+   "lines": [
+    65,
+    89,
+    184,
+    378
+   ]
+  },
+  {
+   "cid": "G1-019",
+   "theme": "프랑스 정치·재정 위기",
+   "field": "macro",
+   "attachTo": "n-bbg-0111",
+   "lines": [
+    9,
+    55,
+    100,
+    138
+   ]
+  },
+  {
+   "cid": "G1-020",
+   "theme": "英 예산안 은행세·투자자 비자",
+   "field": "fin",
+   "attachTo": "n-bbg-0319",
+   "lines": [
+    47,
+    139,
+    220,
+    280
+   ]
+  },
+  {
+   "cid": "G1-021",
+   "theme": "소프트뱅크, 美 보안업체 얼라이드 유니버설 인수 검토",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    422,
+    500,
+    522,
+    586
+   ]
+  },
+  {
+   "cid": "G1-022",
+   "theme": "앤트로픽 AI 안전 법안·IPO 압박",
+   "field": "ai",
+   "attachTo": "n-rtr-0023",
+   "lines": [
+    205,
+    536,
+    551,
+    568
+   ]
+  },
+  {
+   "cid": "G1-023",
+   "theme": "브라질 부채·경기",
+   "field": "macro",
+   "attachTo": "n-rtr-0024",
+   "lines": [
+    155,
+    193,
+    254,
+    504
+   ]
+  },
+  {
+   "cid": "G1-024",
+   "theme": "북미 항공 노선 재편(멕시코시티·미-캐나다)",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    357,
+    419,
+    543,
+    566
+   ]
+  },
+  {
+   "cid": "G1-025",
+   "theme": "연준 인사 발언(워시 의장 IMF 대담)",
+   "field": "fed",
+   "attachTo": "",
+   "lines": [
+    99,
+    116,
+    213
+   ]
+  },
+  {
+   "cid": "G1-026",
+   "theme": "미 9월 수입물가·물가 전망",
+   "field": "macro",
+   "attachTo": "n-bbg-0052",
+   "lines": [
+    31,
+    308,
+    562
+   ]
+  },
+  {
+   "cid": "G1-027",
+   "theme": "미 국채 장기물 발행·해외 보유",
+   "field": "rates",
+   "attachTo": "n-tg-0140",
+   "lines": [
+    319,
+    537,
+    564
+   ]
+  },
+  {
+   "cid": "G1-028",
+   "theme": "워시 발언 뒤 달러·유로·금 반응",
+   "field": "fed",
+   "attachTo": "n-bbg-0311",
+   "lines": [
+    35,
+    317,
+    410
+   ]
+  },
+  {
+   "cid": "G1-029",
+   "theme": "유럽 유통 사이버공격",
+   "field": "consumer",
+   "attachTo": "n-rtr-0230",
+   "lines": [
+    61,
+    90,
+    187
+   ]
+  },
+  {
+   "cid": "G1-030",
+   "theme": "자율주행: 테슬라·웨이모",
+   "field": "auto",
+   "attachTo": "n-rtr-0041",
+   "lines": [
+    135,
+    246,
+    436
+   ]
+  },
+  {
+   "cid": "G1-031",
+   "theme": "佛·獨 자동차 배출 협정",
+   "field": "auto",
+   "attachTo": "n-rtr-0349",
+   "lines": [
+    40,
+    278,
+    288
+   ]
+  },
+  {
+   "cid": "G1-032",
+   "theme": "英 CMA, 마이크로소프트 업무 SW·클라우드 규제",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    17,
+    259,
+    262
+   ]
+  },
+  {
+   "cid": "G1-033",
+   "theme": "AI 자본지출 지속성·하이퍼스케일러 현금흐름",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    121,
+    145,
+    531
+   ]
+  },
+  {
+   "cid": "G1-034",
+   "theme": "구리 확보 경쟁·콩고 광산",
+   "field": "metals",
+   "attachTo": "n-bbg-0085",
+   "lines": [
+    64,
+    111,
+    218
+   ]
+  },
+  {
+   "cid": "G1-035",
+   "theme": "우크라 겨울 에너지: 정전·가스 비축",
+   "field": "power",
+   "attachTo": "n-tg-0162",
+   "lines": [
+    104,
+    191,
+    557
+   ]
+  },
+  {
+   "cid": "G1-036",
+   "theme": "젤렌스키·EU 결집, 우크라 지원",
+   "field": "geo",
+   "attachTo": "n-rtr-0321",
+   "lines": [
+    29,
+    151,
+    178
+   ]
+  },
+  {
+   "cid": "G1-037",
+   "theme": "유조선 운임·미국산 원유 유럽 도착 감소",
+   "field": "shipping",
+   "attachTo": "n-rtr-0282",
+   "lines": [
+    180,
+    238,
+    401
+   ]
+  },
+  {
+   "cid": "G1-038",
+   "theme": "FAA·관제사 노조 28% 임금 인상 합의",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    494,
+    514,
+    561
+   ]
+  },
+  {
+   "cid": "G1-039",
+   "theme": "유가 충격 물가 전이·뉴욕연은 서비스업 조사",
+   "field": "fed",
+   "attachTo": "n-bbg-0312",
+   "lines": [
+    46,
+    249
+   ]
+  },
+  {
+   "cid": "G1-040",
+   "theme": "이란 정밀타격 걸프 인프라 피해(EGA 알루미늄)",
+   "field": "geo",
+   "attachTo": "n-rtr-0322",
+   "lines": [
+    335,
+    338
+   ]
+  },
+  {
+   "cid": "G1-041",
+   "theme": "후티 아덴 공항 미사일",
+   "field": "geo",
+   "attachTo": "n-tg-0166",
+   "lines": [
+    482,
+    578
+   ]
+  },
+  {
+   "cid": "G1-042",
+   "theme": "미 대형 청정에너지 사상 최대·세액공제 절벽",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    126,
+    169
+   ]
+  },
+  {
+   "cid": "G1-043",
+   "theme": "릴리 경구 비만약 파운데이오 EU 승인",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    87,
+    282
+   ]
+  },
+  {
+   "cid": "G1-044",
+   "theme": "보잉 737 맥스10 FAA 승인 임박",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    438,
+    443
+   ]
+  },
+  {
+   "cid": "G1-045",
+   "theme": "홍콩 2028년 하반기 T+1 결제",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    71,
+    101
+   ]
+  },
+  {
+   "cid": "G1-046",
+   "theme": "미 9월 산업생산 반등",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    190,
+    229
+   ]
+  },
+  {
+   "cid": "G1-047",
+   "theme": "킴벌리클라크-켄뷰 인수: 채권·타이레놀 소송",
+   "field": "consumer",
+   "attachTo": "n-rtr-0295",
+   "lines": [
+    241,
+    510
+   ]
+  },
+  {
+   "cid": "G1-048",
+   "theme": "요격미사일 재고·안두릴 유럽 생산",
+   "field": "aero",
+   "attachTo": "n-bbg-0236",
+   "lines": [
+    427,
+    576
+   ]
+  },
+  {
+   "cid": "G1-049",
+   "theme": "아이폰 듀오 수요",
+   "field": "tech",
+   "attachTo": "n-tg-0234",
+   "lines": [
+    170,
+    197
+   ]
+  },
+  {
+   "cid": "G1-050",
+   "theme": "인도 외환 규정·루피·무역적자",
+   "field": "macro",
+   "attachTo": "n-tg-0125",
+   "lines": [
+    21,
+    588
+   ]
+  },
+  {
+   "cid": "G1-051",
+   "theme": "아시아 채권 외국인 유출·대만달러 약세",
+   "field": "macro",
+   "attachTo": "n-rtr-0315",
+   "lines": [
+    42,
+    544
+   ]
+  },
+  {
+   "cid": "G1-052",
+   "theme": "ECB·글로벌 중앙은행 인상론",
+   "field": "rates",
+   "attachTo": "n-bbg-0104",
+   "lines": [
+    53,
+    328
+   ]
+  },
+  {
+   "cid": "G1-053",
+   "theme": "중국 미국산 대두 추가 구매",
+   "field": "agri",
+   "attachTo": "n-rtr-0323",
+   "lines": [
+    23,
+    81
+   ]
+  },
+  {
+   "cid": "G1-054",
+   "theme": "EU 예산 협상",
+   "field": "macro",
+   "attachTo": "n-rtr-0240",
+   "lines": [
+    234,
+    266
+   ]
+  },
+  {
+   "cid": "G1-055",
+   "theme": "히스로 3활주로",
+   "field": "industrial",
+   "attachTo": "n-rtr-0176",
+   "lines": [
+    512,
+    521
+   ]
+  },
+  {
+   "cid": "G1-056",
+   "theme": "러시아발 흑해·몰도바 드론 피해",
+   "field": "geo",
+   "attachTo": "n-bbg-0197",
+   "lines": [
+    115,
+    552
+   ]
+  },
+  {
+   "cid": "G1-057",
+   "theme": "이탈리아 은행 M&A·MPS 인수전",
+   "field": "fin",
+   "attachTo": "n-rtr-0054",
+   "lines": [
+    258,
+    313
+   ]
+  },
+  {
+   "cid": "G1-058",
+   "theme": "사모신용 균열: 오크트리 A-Cap 무산·ABS",
+   "field": "fin",
+   "attachTo": "n-bbg-0116",
+   "lines": [
+    176,
+    376
+   ]
+  },
+  {
+   "cid": "G1-059",
+   "theme": "ASML 하이브리드 본딩 진출설에 베시 급락",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    85
+   ]
+  },
+  {
+   "cid": "G1-060",
+   "theme": "BOJ 우에다 기조물가 발언",
+   "field": "rates",
+   "attachTo": "n-bbg-0082",
+   "lines": [
+    149
+   ]
+  },
+  {
+   "cid": "G1-061",
+   "theme": "美 지역은행 3분기 대출 견조",
+   "field": "fin",
+   "attachTo": "n-rtr-0043",
+   "lines": [
+    351
+   ]
+  },
+  {
+   "cid": "G1-062",
+   "theme": "칼라일, 트루이스트 소비자대출 77억 달러 매입",
+   "field": "fin",
+   "attachTo": "n-rtr-0326",
+   "lines": [
+    72
+   ]
+  },
+  {
+   "cid": "G1-063",
+   "theme": "모기지 채권 발행 보류",
+   "field": "rates",
+   "attachTo": "n-bbg-0234",
+   "lines": [
+    377
+   ]
+  },
+  {
+   "cid": "G1-064",
+   "theme": "튀르키예 회사채 시장 펀드 위기 여파",
+   "field": "fin",
+   "attachTo": "n-rtr-0056",
+   "lines": [
+    94
+   ]
+  },
+  {
+   "cid": "G1-065",
+   "theme": "세네갈 재정적자 감축 계획",
+   "field": "macro",
+   "attachTo": "n-rtr-0022",
+   "lines": [
+    114
+   ]
+  },
+  {
+   "cid": "G1-066",
+   "theme": "세계은행 베네수엘라 대출 최대 50억 달러",
+   "field": "macro",
+   "attachTo": "n-rtr-0317",
+   "lines": [
+    144
+   ]
+  },
+  {
+   "cid": "G1-067",
+   "theme": "폴란드 중앙은행 교착",
+   "field": "macro",
+   "attachTo": "n-bbg-0225",
+   "lines": [
+    158
+   ]
+  },
+  {
+   "cid": "G1-068",
+   "theme": "코스피 유동성 약화",
+   "field": "macro",
+   "attachTo": "n-tg-0291",
+   "lines": [
+    112
+   ]
+  },
+  {
+   "cid": "G1-069",
+   "theme": "탄산리튬 가격 하락",
+   "field": "metals",
+   "attachTo": "n-tg-0227",
+   "lines": [
+    4
+   ]
+  },
+  {
+   "cid": "G1-070",
+   "theme": "철광석 원가 부담(발레)",
+   "field": "metals",
+   "attachTo": "n-bbg-0124",
+   "lines": [
+    28
+   ]
+  },
+  {
+   "cid": "G1-071",
+   "theme": "노르트스트림 재가동 미·러 논의",
+   "field": "energy",
+   "attachTo": "n-rtr-0115",
+   "lines": [
+    272
+   ]
+  },
+  {
+   "cid": "G1-072",
+   "theme": "카타르 아시아 LNG 수출 중단·북미 대체",
+   "field": "energy",
+   "attachTo": "n-bbg-0254",
+   "lines": [
+    361
+   ]
+  },
+  {
+   "cid": "G1-073",
+   "theme": "앙골라 연료보조금 40억 달러",
+   "field": "energy",
+   "attachTo": "n-rtr-0284",
+   "lines": [
+    391
+   ]
+  },
+  {
+   "cid": "G1-074",
+   "theme": "美 민주당 공세 대비 빅테크",
+   "field": "tech",
+   "attachTo": "n-bbg-0136",
+   "lines": [
+    88
+   ]
+  },
+  {
+   "cid": "G1-075",
+   "theme": "베트남항공 에어버스 25대",
+   "field": "aero",
+   "attachTo": "n-rtr-0343",
+   "lines": [
+    26
+   ]
+  },
+  {
+   "cid": "G1-076",
+   "theme": "단고테 IPO 상장 확산",
+   "field": "fin",
+   "attachTo": "n-rtr-0159",
+   "lines": [
+    105
+   ]
+  },
+  {
+   "cid": "G1-077",
+   "theme": "중국 금융시장 대외 개방",
+   "field": "fin",
+   "attachTo": "n-tg-0212",
+   "lines": [
+    293
+   ]
+  },
+  {
+   "cid": "G1-078",
+   "theme": "템스워터 B급 채권단 합의",
+   "field": "fin",
+   "attachTo": "n-bbg-0252",
+   "lines": [
+    477
+   ]
+  },
+  {
+   "cid": "G1-079",
+   "theme": "악조노벨·액설타 EU 시정안",
+   "field": "industrial",
+   "attachTo": "n-rtr-0078",
+   "lines": [
+    292
+   ]
+  },
+  {
+   "cid": "G1-080",
+   "theme": "시티 테라퓨틱스 IPO 급등",
+   "field": "pharma",
+   "attachTo": "n-rtr-0028",
+   "lines": [
+    304
+   ]
+  },
+  {
+   "cid": "G1-081",
+   "theme": "미 연말 쇼핑 고소득층",
+   "field": "consumer",
+   "attachTo": "n-rtr-0332",
+   "lines": [
+    186
+   ]
+  },
+  {
+   "cid": "G1-082",
+   "theme": "EU 대러 제재 우회 추가 제재",
+   "field": "trade",
+   "attachTo": "n-rtr-0034",
+   "lines": [
+    485
+   ]
+  },
+  {
+   "cid": "G1-083",
+   "theme": "멕시코 자동차 관세",
+   "field": "trade",
+   "attachTo": "n-rtr-0259",
+   "lines": [
+    430
+   ]
+  },
+  {
+   "cid": "G1-084",
+   "theme": "북한 AI 어뢰 시험",
+   "field": "geo",
+   "attachTo": "n-tg-0226",
+   "lines": [
+    553
+   ]
+  },
+  {
+   "cid": "G1-085",
+   "theme": "멕시코 재생에너지 125억 달러 승인",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    517
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 27,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 38,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 41,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 51,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 56,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 57,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 58,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 62,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 67,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 70,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 73,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 76,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 84,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 86,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 98,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 108,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 124,
+   "reason": "이미 다룸(n-rtr-0352)"
+  },
+  {
+   "line": 147,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 156,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 161,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 167,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 175,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 177,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 181,
+   "reason": "이미 다룸(n-rtr-0226)"
+  },
+  {
+   "line": 183,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 196,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 200,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 209,
+   "reason": "이미 다룸(n-bbg-0325)"
+  },
+  {
+   "line": 210,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 212,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 216,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 221,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 230,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 232,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 235,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 247,
+   "reason": "이미 다룸(n-rtr-0044)"
+  },
+  {
+   "line": 252,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 253,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 263,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 265,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 268,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 269,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 279,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 283,
+   "reason": "이미 다룸(n-rtr-0035)"
+  },
+  {
+   "line": 289,
+   "reason": "이미 다룸(n-bbg-0103)"
+  },
+  {
+   "line": 291,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 298,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 299,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 309,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 310,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 315,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 318,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 329,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 345,
+   "reason": "잡담"
+  },
+  {
+   "line": 353,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 373,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 382,
+   "reason": "중복(275 스페인어판)"
+  },
+  {
+   "line": 386,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 421,
+   "reason": "이미 다룸(n-tg-0293)"
+  },
+  {
+   "line": 429,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 433,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 435,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 440,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 444,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 456,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 467,
+   "reason": "투자 무관(순매수 순위)"
+  },
+  {
+   "line": 468,
+   "reason": "투자 무관(순매수 순위)"
+  },
+  {
+   "line": 469,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 478,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 483,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 490,
+   "reason": "이미 다룸(n-rtr-0267)"
+  },
+  {
+   "line": 492,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 493,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 499,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 501,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 508,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 526,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 547,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 560,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 587,
+   "reason": "AI 자금 조달"
+  },
+  {
+   "line": 589,
+   "reason": "AI 자금 조달"
+  },
+  {
+   "line": 590,
+   "reason": "AI 자금 조달"
+  },
+  {
+   "line": 603,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 606,
+   "reason": "예정 연설"
+  },
+  {
+   "line": 607,
+   "reason": "예정 연설"
+  }
+ ]
+}

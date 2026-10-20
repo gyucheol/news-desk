@@ -1,0 +1,109 @@
+{
+ "added": "이번 로이터 1건·텔레그램 1건으로 {{독일 가스 비축 부담금 초안}}과 {{가구당 연 최대 7.20유로}} 부담, {{재무장관들의 횡재세 재촉구}}가 추가됐다",
+ "basis": "partial",
+ "check": "독일 가스 비축 부담금 초안(연 7.20유로, 2027년 10월 징수, 30억 8,000만 유로)은 Izvestia·Newsquawk 검색 결과 요약으로 확인. 10월 13일 재무장관들의 횡재세 재촉구는 확인 못 하고 4~9월 경과만 Euronews 등으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 독일이 국가 비상 가스 비축 재원을 가구당 연 최대 7.20유로 부담금으로 걷는 초안을 마련했고, 징수는 2027년 10월 1일 시작된다 [사실]",
+  "규모: 첫 10년 비용은 약 30억 8,000만 유로, 일반 가구 부담은 연 3.77~7.20유로로 추산됐고, 경제부는 7월 저장용량의 약 10%인 약 24TWh 비축 계획을 밝혔다 [사실]",
+  "횡재세: 유럽 각국 재무장관들이 에너지 기업 횡재세를 다시 촉구했다 [채널]",
+  "경과: 4월 5개국, 8월 6개국 재무장관이 서한으로 횡재세를 요구했고, 9월 클링바일 독일 재무장관은 10월 에코핀 회의까지 집행위 제안을 요구했다 [사실]",
+  "기존: 메르츠 총리는 10월 12일 전 소비자 전기세를 EU 최저 수준으로 낮추겠다고 약속했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{獨}}, {{비상 가스 비축}}에 {{가구 부담금}} 초안…EU는 {{횡재세 요구 재점화}}",
+ "id": "n-rtr-0201",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{메르츠 총리}}가 {{지난해 접었던 전 소비자 전기세 인하}}를 다시 약속해, kWh당 2.05센트인 세율을 {{EU 최저 수준으로 낮추겠다고}} 밝혔다",
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{영국 송전망 운영사}}가 공급을 확보하려고 {{프랑스에 긴급 전력을 요청}}하면서, {{영국 전력 수급}}이 {{빠듯할}} 수 있다 (제목 기준)",
+   "t": "영국 송전망, 공급 확보 위해 프랑스에 긴급 전력 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-grid-seeks-emergency-french-power-to-secure-supplies"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{EU 훅스트라 집행위원}}이 {{석유·가스 기업 횡재세의 득실을 따질 작업반}}을 꾸리면서, {{2022년처럼 초과이익 과세}}가 다시 추진될 수 있다",
+   "t": "에너지 가격 급등에 EU, 석유·가스 횡재세 검토",
+   "u": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/"
+  },
+  {
+   "t": "독일, 새 비상 가스 비축 재원을 소비자 부담금으로 마련(초안)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/",
+   "s": "{{독일}}이 새 {{비상 가스 비축}}을 {{소비자 부담금}}으로 충당하는 {{초안}}을 {{마련}}하면서, 가구가 {{2027년 10월부터 연 최대 7.20유로}}를 {{부담}}하게 될 수 있다"
+  },
+  {
+   "t": "유럽 각국 재무장관들, 에너지 기업 횡재세 또 촉구",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63696",
+   "s": "유럽 각국 {{재무장관}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{석유·가스 기업 이익}}에 대한 {{과세 압력}}이 이어지고 있다"
+  }
+ ],
+ "key": "mix-C061-2026-10-13",
+ "nodes": [
+  "gas/demand",
+  "macro/fiscal",
+  "power/market"
+ ],
+ "num": 201,
+ "one": "{{독일}}이 전기세를 {{EU 최저로 낮추겠다}}고 약속한 데 이어 {{비상 가스 비축 재원}}을 {{가구당 연 최대 7.20유로 부담금}}으로 걷는 {{초안}}을 {{마련}}하고 {{유럽 재무장관들}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{에너지값 부담}}이 {{소비자와 에너지 기업}}에 나뉘어 {{지워질}} 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T23:41:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  },
+  {
+   "o": "Izvestia",
+   "d": "2026-10-13",
+   "u": "https://iz.ru/en/node/2183624"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-13",
+   "u": "https://www.newsquawk.com/headlines/germanys-ministry-of-economic-affairs-reportedly-plans-to-finance-a-planned-national-crisis-gas-reserve-via-a-levy-handelsblatt-reports-citing-a-draft"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-08-23",
+   "u": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-09",
+   "u": "https://www.globalbankingandfinance.com/eu-ministers-discuss-taxing-windfall-profits-energy/"
+  }
+ ],
+ "tags": [],
+ "title": "{{獨}}, {{비상 가스 비축}}에 {{가구 부담금}} 초안…EU는 {{횡재세 요구 재점화}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+}

@@ -1,0 +1,152 @@
+{
+ "basis": "partial",
+ "check": "젤렌스키 '생일 선물' 발언, 약 6개월 임시 일반허가, 트럼프의 새 대통령 발언은 Axios·The Hill 검색 결과 요약으로 확인. 독일 제재 고수, 핀란드 발언, 2,500억 달러 주장은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 재무부는 러시아산 경유의 세계 시장 공급을 허용하는 약 6개월짜리 임시 일반허가를 냈고, 트럼프는 푸틴이 경유를 공급하기로 했다고 밝혔다 [사실]",
+  "우크라이나: 젤렌스키는 악시오스 인터뷰에서 이 거래가 푸틴에게 주는 생일 선물 같다며 공정하지도 정직하지도 않다고 했고, 트럼프는 우크라이나에 새 대통령이 필요하다고 맞받았다 [사실]",
+  "유럽: 독일은 경유 발표 뒤에도 대러 제재를 고수했고, 핀란드 외무장관은 미국의 러시아 석유 구매가 좋은 생각이 아니라고 했다 [제목]",
+  "트럼프: 트루스소셜에서 유럽이 러시아에 에너지 대금으로 2,500억 달러를 지급했다며 결정을 옹호했다 [채널]",
+  "의회: 공화당 틸리스 상원의원은 이 거래가 2022년 러시아산 석유 수입금지법과 충돌할 수 있다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "젤렌스키 \"{{푸틴 생일 선물}}\"…독일·핀란드도 美의 러 경유 거래에 거리 둬",
+ "id": "n-bbg-0230",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "젤렌스키 \"러시아 경유 판매 허용은 미국의 전쟁 투자\"",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/zelenskiy-says-letting-russia-sell-diesel-us-is-investment-war-2026-10-09/",
+   "s": "{{젤렌스키}}가 미국이 러시아의 경유 판매를 허용한 것은 {{전쟁에 대한 투자}}라고 비판하면서, 경유 거래를 둘러싼 미국·우크라이나 갈등이 커졌다"
+  },
+  {
+   "t": "젤렌스키 \"푸틴에게 행복한 생일 선물\"…유럽도 충격",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-10",
+   "u": "https://t.me/Trillion_labs/10266",
+   "s": "{{젤렌스키}}가 대러 제재 해제와 경유 수출 허용을 '푸틴에게 주는 생일 선물'이라 비난하고 유럽 관계자들도 충격을 표하면서, 미국과 서방 동맹 사이에 {{새 위기}}가 생겼다"
+  },
+  {
+   "t": "독일, 트럼프의 경유 발표 뒤에도 대러 제재 고수",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/germany-sticks-russia-sanctions-after-trump-announcement-diesel-2026-10-10/",
+   "s": "{{독일}}이 트럼프의 러시아산 경유 발표 뒤에도 {{대러 제재}}를 고수하기로 하면서, 미국과 유럽의 제재 공조가 엇갈리고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "트럼프의 러시아 경유 거래, 푸틴의 전쟁 돕는다고 유럽 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/eu-s-kallas-urges-trump-to-sanction-russia-and-shun-diesel-deal",
+   "s": "EU의 {{칼라스}} 고위대표가 트럼프의 {{러시아 경유 거래}}가 푸틴의 전쟁을 돕는다고 경고하면서, 대러 제재를 둘러싼 미-유럽 갈등이 커질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 Polaristimes",
+   "t": "베센트 '러시아 경유 거래는 국익…모든 법적 권한 동원해 이행'",
+   "u": "https://t.me/The_MariTimes/63673",
+   "s": "{{베센트}} 재무장관이 러시아와의 경유 거래를 미국의 {{국익}}이라고 규정하고, 정부가 가진 모든 법적 권한을 동원해 이행하겠다고 밝혔다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "트럼프, 러시아 경유 거래 옹호…양당 의원들 불만",
+   "u": "https://www.reuters.com/business/energy/trump-defends-russia-diesel-deal-lawmakers-both-parties-complain-2026-10-12/",
+   "s": "{{트럼프}}가 러시아 경유 거래를 옹호했지만 {{양당 의원들}}이 불만을 드러내면서, 거래를 둘러싼 의회 반발이 커지고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "공화당 중진 상원의원 '트럼프의 러시아 경유 거래 불법일 수 있다'",
+   "u": "https://www.reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/",
+   "s": "공화당 중진 {{틸리스}} 상원의원이 러시아 경유 거래가 2022년 {{러시아산 석유 수입 금지법}}과 충돌해 불법일 수 있다고 지적했다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "트럼프의 대푸틴 경유 거래, 선거 앞둔 공화당에 속앓이",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-s-diesel-deal-with-putin-causes-gop-heartburn-before-vote",
+   "s": "트럼프의 대푸틴 {{경유 거래}}가 선거를 앞둔 {{공화당}}에 속앓이를 안기면서, 여당 후보들의 표심 관리에 부담이 될 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "노박 '미-러 경유 공급 협상 중'…쿠슈너 '러시아 태도 누그러뜨리려는 거래'",
+   "u": "https://t.me/insidertracking/66059",
+   "s": "러시아 {{노박}} 부총리가 미-러 경유 공급 협상이 진행 중이며 연말까지 수출이 {{300만~350만 톤}}이라고 밝혔고, 쿠슈너는 러시아 태도를 누그러뜨리려는 거래라고 설명했다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "트럼프의 대푸틴 경유 거래, 중간선거 앞둔 공화당 흔들어",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/trump-s-diesel-deal-with-putin-rattles-midterm-republicans",
+   "s": "트럼프의 대푸틴 경유 거래가 {{중간선거}}를 앞둔 {{공화당}} 의원들을 흔들면서, 당내 이탈 움직임이 커질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "트럼프의 대푸틴 경유 거래에 공화당 짜증…블룸버그 미주 이브닝 브리핑",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/trump-diesel-deal-with-putin-irks-gop-evening-briefing-americas",
+   "s": "블룸버그 미주 이브닝 브리핑이 트럼프의 대푸틴 {{경유 거래}}에 {{공화당}}이 짜증을 내고 있다고 전하면서, 여당 내 불만이 이어지고 있다 (제목 기준)"
+  },
+  {
+   "t": "트럼프 \"유럽이 러시아에 에너지 대금 2,500억 달러 지급\"",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63681",
+   "s": "{{트럼프}}가 유럽이 러시아에 에너지 대금으로 {{2,500억 달러}}를 냈다며 자신의 결정을 옹호하면서, 유럽의 비판에 정면으로 맞서고 있다"
+  },
+  {
+   "t": "핀란드 외무장관 \"미국의 러시아 석유 구매는 좋은 생각 아냐\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/finnish-foreign-minister-says-us-oil-purchases-russia-not-good-idea-2026-10-13/",
+   "s": "{{핀란드 외무장관}}이 미국의 러시아 석유 구매가 좋은 생각이 아니라고 밝히면서, 북유럽도 경유 거래 반대 대열에 합류했다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C012-2026-10-13",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 230,
+ "one": "트럼프 행정부가 러시아산 경유 수출을 허용하자 {{젤렌스키}}가 '푸틴에게 주는 생일 선물'이라고 비난하고 {{독일·핀란드}}도 제재 유지와 반대 입장을 밝히면서, 경유 공급 확대를 노린 거래가 {{미국과 유럽 동맹}}의 균열로 번지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T13:19:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-11",
+   "o": "알자지라",
+   "u": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "뉴스위크",
+   "u": "https://www.newsweek.com/gop-pushback-trump-putin-diesel-deal-12551264"
+  },
+  {
+   "o": "Axios",
+   "d": "2026-10-09",
+   "u": "https://www.axios.com/2026/10/09/exclusive-zelensky-putin-trump-diesel-deal"
+  },
+  {
+   "o": "The Hill",
+   "d": "2026-10-10",
+   "u": "https://thehill.com/policy/international/6141224-zelensky-criticizes-us-russia-diesel-deal/"
+  }
+ ],
+ "tags": [],
+ "title": "젤렌스키 \"{{푸틴 생일 선물}}\"…독일·핀란드도 美의 러 경유 거래에 거리 둬",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/eu-s-kallas-urges-trump-to-sanction-russia-and-shun-diesel-deal",
+ "added": "이번 로이터·텔레그램 5건으로 {{젤렌스키의 '생일 선물' 비난}}과 독일의 제재 고수, 핀란드의 반대, 유럽이 러시아에 {{2,500억 달러}}를 냈다는 트럼프의 반박이 추가됐다"
+}

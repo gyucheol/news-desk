@@ -1,0 +1,85 @@
+{
+ "basis": "verified",
+ "check": "명칭 변경·독일 교통부 요구·EU 표결 연기는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 테슬라가 독일·네덜란드·스페인·슬로바키아 등 유럽 사이트에서 FSD(감독형) 명칭을 'Tesla Assisted Driving'으로 바꿨다 [사실]",
+  "이유: 독일 교통부는 기존 명칭이 오해를 부른다고 봤고, 새 명칭은 9월 협의에서 테슬라가 제안했다 [사실]",
+  "기능: 이름만 바뀌었을 뿐 운전자의 상시 감시가 필요한 보조 기능은 그대로이며, 미국에선 월 99달러 FSD로 판매된다 [사실]",
+  "승인: EU 전체 표결은 10월 6일 이뤄지지 않아 12월이 가장 빠르고, 이탈리아·스웨덴 당국도 명칭 오인 가능성을 문제 삼았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "테슬라, 유럽서 {{FSD}}를 'Tesla {{Assisted Driving}}'으로 개명",
+ "id": "n-rtr-0041",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "테슬라의 EU 자율주행 승인 압박, 효과 보고 있다",
+   "u": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/",
+   "s": "{{테슬라}}가 EU에 {{FSD 승인}}을 거세게 압박하면서 그 압박이 실제로 효과를 내고 있다고 로이터 탐사 보도가 전했다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "머스크, 독일의 테슬라 운전보조 기술 지지 환영…EU 승인 추진",
+   "u": "https://www.reuters.com/business/musk-welcomes-german-backing-tesla-driver-assistance-tech-group-chases-eu-2026-10-07/",
+   "s": "{{머스크}}가 독일 교통부의 제한 속도 {{10% 이내}} 초과 허용 등 합의를 환영하면서 테슬라가 EU 전체 승인을 계속 추진하고 있다"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "슬로바키아, 테슬라 자율주행 기술 승인 예정",
+   "u": "https://www.reuters.com/business/slovakia-approve-teslas-self-driving-tech-2026-10-08/",
+   "s": "{{슬로바키아}} 교통장관이 네덜란드 형식승인을 인정해 테슬라 FSD를 승인하겠다고 밝히면서 {{9번째 EU 국가}}가 될 전망이다"
+  },
+  {
+   "t": "테슬라, 유럽 승인 노리며 '완전자율주행' 명칭을 '보조 주행'으로 변경",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/",
+   "s": "{{테슬라}}가 유럽 승인을 얻으려 FSD 명칭을 {{보조 주행}}으로 바꾸면서, 규제 당국이 문제 삼은 자율주행 오인 소지를 줄이려 했다"
+  }
+ ],
+ "key": "bnd-C076-2026-10-09",
+ "nodes": [],
+ "num": 41,
+ "one": "{{테슬라}}가 독일 교통부가 오해 소지를 지적한 '완전자율주행(FSD)' 명칭을 유럽에서 'Tesla {{Assisted Driving}}'으로 바꾸면서, 국가별 승인이 늘어나는 가운데 {{EU 전체 승인}} 확보에 속도를 내고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T13:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Drive Tesla Canada",
+   "u": "https://driveteslacanada.ca/news/tesla-fsd-slovakia-approval-ninth-eu-country/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Tesla North",
+   "u": "https://teslanorth.com/2026/10/08/tesla-assisted-driving-europe/"
+  },
+  {
+   "o": "TechCrunch",
+   "d": "2026-10-09",
+   "u": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-09",
+   "u": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html"
+  }
+ ],
+ "tags": [],
+ "title": "테슬라, 유럽서 {{FSD}}를 'Tesla {{Assisted Driving}}'으로 개명",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/",
+ "added": "이번 로이터 1건으로 테슬라가 유럽에서 FSD 명칭을 Tesla {{Assisted Driving}}으로 실제로 바꿨다는 사실이 추가됐다"
+}

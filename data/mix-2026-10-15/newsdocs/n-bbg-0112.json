@@ -1,0 +1,185 @@
+{
+ "added": "이번 블룸버그 1건으로 폭스바겐이 중국 이익 감소를 메우려 미국에서 트럭·SUV 중심 공략에 나선다는 전략이 추가됐다 (제목 기준)",
+ "basis": "partial",
+ "check": "14일 블룸버그 기사 자체는 제목만 근거. 이익률 전망 하향·인도량·스카우트 2028년 판매는 이전 보도를 담은 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 폭스바겐은 중국 이익이 줄자 미국 시장을 뚫기 위해 트럭·SUV에 승부를 걸고 있다 [제목]",
+  "스카우트: 폭스바겐의 스카우트 브랜드는 2028년 판매를 시작할 예정이다 [사실]",
+  "수익성: 폭스바겐은 2026년 이익률 전망을 4~5.5%에서 최저 1%로 낮췄고, 포르쉐·중국·구조조정 관련 약 100억 유로 특별비용을 이유로 들었다 [사실]",
+  "인도량: 3분기 글로벌 인도량은 14.3% 줄었고 중국은 38.5% 급감했다 [사실]",
+  "기존: 블루메 CEO는 유럽 대중차 업체들이 중국 경쟁에 엄청난 압박을 받고 있다며 EU에 규제 완화와 현지 생산 지원을 요구했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "폭스바겐, 中 이익 감소에 미국 트럭·SUV로 승부…스카우트 2028년 판매",
+ "id": "n-bbg-0112",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{포르쉐}}가 {{최상위 스포츠카 가격을 약 20% 인상}}하는 {{가치 중심 전략}}을 내놓으면서 {{판매량보다 수익성}}을 {{앞세우}}는 방향으로 {{돌아섰}}다",
+   "t": "포르쉐, 최상위 스포츠카 가격 20% 인상 목표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/porsche-s-ceo-to-chase-returns-with-fresh-lineup-of-pricier-cars"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{포르쉐}}가 {{장기 이익률 목표 15%}}를 {{제시}}하면서 {{판매 감소 속에서도 수익성 회복}}을 {{겨냥한 중장기 목표}}를 {{내놨}}다 (제목 기준)",
+   "t": "포르쉐, 장기 이익률 목표 15% 제시",
+   "u": "https://www.reuters.com/business/porsche-sets-long-term-margin-target-15-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "로이터가 {{포르쉐 회생 계획의 핵심 내용}}을 정리하며 {{판매 부진에 맞선 포르쉐의 대응 방향}}을 짚었다 (제목 기준)",
+   "t": "포르쉐 회생 계획의 핵심 내용",
+   "u": "https://www.reuters.com/business/key-elements-porsches-turnaround-plan-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{판매 감소 시대에 대비하는 포르쉐}}가 {{초고가 전략에서 활로}}를 찾으면서 {{물량 대신 고가 모델 중심으로 수익}}을 지키려 한다 (제목 기준)",
+   "t": "판매 감소 시대 대비하는 포르쉐, 초고가 전략에서 활로 모색",
+   "u": "https://www.reuters.com/business/autos-transportation/porsche-braces-lower-sales-era-seeks-lifeline-luxury-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{포르쉐의 1~9월 인도}}가 {{17만 8,532대로 16% 감소}}하자 중국 부진 속에서 {{물량보다 가치를 중시하는 전략}}을 내세웠다",
+   "t": "포르쉐 9개월 판매 16% 감소…중국 부진 속 물량보다 가치 중시",
+   "u": "https://www.reuters.com/world/china/porsches-nine-month-sales-slide-16-on-weak-china-demand-focus-value-over-volume-2026-10-09/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "로이터",
+   "s": "{{폭스바겐 CEO}}가 {{전환은 공동의 책임}}이라며 {{EU에 호소}}하면서 {{완성차 업계의 전환 비용 분담 논의}}를 {{꺼냈}}다 (제목 기준)",
+   "t": "폭스바겐 CEO '전환은 공동의 책임'이라며 EU에 호소",
+   "u": "https://www.reuters.com/business/autos-transportation/volkswagen-ceo-says-transformation-is-shared-responsibility-appeal-eu-2026-10-11/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{폭스바겐그룹의 3분기 인도량}}이 {{중국 38.5% 급감 여파로 14.3% 줄어든}} 약 189만 대에 그쳐 {{2022년 2분기 이후 최대 분기 감소}}를 기록했다",
+   "t": "폭스바겐그룹, 3분기 차량 인도량 14% 감소 발표",
+   "u": "https://www.reuters.com/business/volkswagen-reports-14-drop-third-quarter-deliveries-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{블루메 폭스바겐 CEO}}가 {{유럽 대중차 업체}}들이 {{중국 경쟁}}과 {{수요 변화}}로 {{엄청난 압박}}을 받고 있다며 {{더 유연한 규제}}와 {{현지 생산 지원책}}을 {{요구}}했다",
+   "t": "폭스바겐 CEO \"유럽 대중차 업체들, 엄청난 압박 받고 있다\"",
+   "u": "https://www.reuters.com/business/autos-transportation/europes-mass-market-carmakers-under-enormous-pressure-volkswagen-ceo-says-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{유럽 완성차 업체}}들이 {{지원}}을 {{촉구}}하고 {{폭스바겐}}은 {{업계가 받는 엄청난 압박}}을 {{경고}}하면서 {{정책 지원 요구}}가 {{업계 전반}}으로 {{번졌}}다 (제목 기준)",
+   "t": "유럽 완성차 업계 지원 촉구…폭스바겐 \"엄청난 압박\" 경고",
+   "u": "https://www.reuters.com/business/autos-transportation/european-automakers-urge-support-vw-warns-enormous-pressure-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{기존 완성차 업체}}들이 {{중국 경쟁사}}에 {{대중차 시장}}을 {{내줄}} 위험에 {{놓였다}}는 {{분석}}이 나오면서 {{대중차 판도}}가 {{중국 쪽}}으로 {{기울}} 수 있다 (제목 기준)",
+   "t": "기존 완성차 업체들, 대중차 시장을 중국 경쟁사에 내줄 위기",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/legacy-carmakers-seen-losing-mass-market-to-chinese-rivals"
+  },
+  {
+   "t": "폭스바겐, 中 이익 감소에 미국 시장 뚫으려 트럭·SUV에 베팅",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/features/2026-10-14/volkswagen-bets-on-trucks-suvs-to-crack-us-market-as-china-profits-slide",
+   "s": "폭스바겐이 중국 이익이 줄자 미국 시장 공략의 무게를 트럭과 SUV로 옮기면서 미국 라인업 확대가 실적 방어 수단으로 떠올랐다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C048-2026-10-09",
+ "nodes": [],
+ "num": 112,
+ "one": "폭스바겐이 중국 인도량 38.5% 급감과 이익률 전망 하향 속에 미국 시장을 뚫기 위해 트럭·SUV에 승부를 걸면서, 2028년 판매를 시작할 스카우트 브랜드 등 미국 사업이 중국 부진을 메울 수 있을지가 실적의 변수가 될 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T06:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Porsche Newsroom",
+   "u": "https://newsroom.porsche.com/en/2026/company/porsche-capital-markets-day-strategy-sportwagenschmiede-35-43419.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "finews.asia",
+   "u": "https://www.finews.asia/high-end/45127-porsche-capital-markets-day-2026-new-ceo-michael-leiters-mission-s-sports-car-strategy"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Porsche Newsroom",
+   "u": "https://newsroom.porsche.com/en/2026/company/porsche-deliveries-third-quarter-2026-43480.html"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "TimesLIVE",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-09-porsches-nine-month-sales-slide-on-weak-chinese-demand/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "RTE",
+   "u": "https://www.rte.ie/news/business/2026/1012/1594972-volkswagen-quarterly-deliveries/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Quartz",
+   "u": "https://qz.com/volkswagen-deliveries-decline-china-sales-third-quarter-101226"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "RTTNews",
+   "u": "https://www.rttnews.com/3698112/volkswagen-q3-deliveries-fall-14-3.aspx"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "폴탄(paultan.org)",
+   "u": "https://paultan.org/2026/10/14/europes-mass-market-carmakers-under-enormous-pressure-from-chinese-competition-volkswagen-ceo/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "소웨탄",
+   "u": "https://www.sowetan.co.za/motoring/2026-10-14-vw-ceo-warns-europes-mass-market-carmakers-face-enormous-pressure/"
+  },
+  {
+   "o": "Autoblog",
+   "d": "2026-10",
+   "u": "https://www.autoblog.com/news/volkswagen-faces-11-5-billion-in-charges-as-profit-outlook-falls-to-1"
+  },
+  {
+   "o": "Just Auto",
+   "d": "2026-10-12",
+   "u": "https://www.just-auto.com/news/volkswagen-group-deliveries-fall-14-3-q3/"
+  },
+  {
+   "o": "LIGA.net",
+   "d": "2026-10",
+   "u": "https://biz.liga.net/en/transport/news/volkswagen-wants-to-revive-the-scout-brand-to-capture-the-us-market"
+  }
+ ],
+ "tags": [],
+ "title": "폭스바겐, 中 이익 감소에 미국 트럭·SUV로 승부…스카우트 2028년 판매",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/porsche-s-ceo-to-chase-returns-with-fresh-lineup-of-pricier-cars",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "중국 이익 감소에 미국 트럭·SUV 공략 추진"
+  }
+ ]
+}

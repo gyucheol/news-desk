@@ -1,0 +1,55 @@
+{
+ "basis": "verified",
+ "check": "Capital Brief·IndexBox 보도의 검색 결과 요약으로 발언자(조너선 컨스)와 주장 내용 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: RBA 출신 조너선 컨스 챌린저 수석이코노미스트가 AI 투자 붐이 높아진 금리에도 단기적으로 호주 물가를 끌어올릴 것이라고 말했다 [사실]",
+  "근거: 초기 기술·인프라 투자가 국내 물가를 밀어 올리는 반면 생산성 효과는 천천히 나타나고, 물가가 4~5년째 목표를 웃돌아 RBA가 이를 넘겨 볼 여지가 적다고 봤다 [사실]",
+  "완충: 데이터센터 지출의 약 4분의 3이 수입 장비라 물가 영향이 일부 줄어든다고 추정 [사실]",
+  "전망: 컨스는 RBA가 올해 한 차례 더 금리를 올릴 것으로 예상, RBA는 9월 올해 네 번째 인상으로 기준금리를 4.6%로 올렸다 [사실]",
+  "의미: 긴축 부담이 가계·환율·비AI 기업 투자에 더 쏠릴 수 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "전 RBA 인사 \"AI 붐, 금리 올라도 호주 물가 자극할 것\"",
+ "id": "n-rtr-0102",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "전 RBA 인사 \"AI 붐, 금리 인상에도 호주 물가 부추길 것\"",
+   "u": "https://www.reuters.com/world/asia-pacific/ai-boom-fuel-australia-inflation-despite-higher-rates-ex-rba-official-says-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C252-2026-10-09",
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "num": 102,
+ "one": "호주중앙은행(RBA) 전직 인사가 AI 붐이 금리 인상에도 불구하고 호주 인플레이션을 부추길 것이라고 밝히면서, RBA의 긴축이 길어지거나 추가 인상 압력이 생길 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T20:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Capital Brief",
+   "d": "2026-10-08",
+   "u": "https://www.capitalbrief.com/briefing/ex-rba-official-says-australias-ai-boom-will-fuel-short-term-inflation-9cb438cf-6783-460a-bf27-74e7933034e6/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-08",
+   "u": "https://www.indexbox.io/blog/australias-ai-investment-boom-to-push-inflation-higher-says-former-rba-official/"
+  }
+ ],
+ "tags": [],
+ "title": "전 RBA 인사 \"AI 붐, 금리 올라도 호주 물가 자극할 것\"",
+ "url": "https://www.reuters.com/world/asia-pacific/ai-boom-fuel-australia-inflation-despite-higher-rates-ex-rba-official-says-2026-10-08/"
+}

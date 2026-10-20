@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0243",
+ "num": 243,
+ "key": "mix-C066-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T18:40:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/belgium-s-premier-cancels-policy-speech-citing-budget-deadlock",
+ "origTitle": "",
+ "headline": "벨기에 예산 교착에 총리 시정연설 취소…공공부문 파업으로 철도·학교 마비",
+ "src": [
+  {
+   "o": "RTBF",
+   "d": "2026-10-12",
+   "u": "https://www.rtbf.be/article/greve-des-services-publics-ce-lundi-12-octobre-forte-mobilisation-de-nombreux-secteurs-contre-les-economies-annoncees-11798656"
+  },
+  {
+   "o": "RTBF",
+   "d": "2026-10-11",
+   "u": "https://rtbf.be/article/budget-federal-bart-de-wever-declare-qu-il-n-y-aura-pas-de-declaration-de-politique-generale-mardi-et-qu-il-n-acceptera-pas-un-scenario-de-douziemes-provisoires-11798596"
+  }
+ ],
+ "items": [
+  {
+   "t": "벨기에 총리, 예산 교착 이유로 시정연설 취소",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/belgium-s-premier-cancels-policy-speech-citing-budget-deadlock"
+  },
+  {
+   "t": "벨기에 파업으로 공공부문 일부 마비…예산 합의는 지연",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/belgium-strike-partly-shuts-public-sector-budget-deal-delayed-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "벨기에 예산 교착에 총리 시정연설 취소…공공부문 파업으로 철도·학교 마비",
+ "one": "벨기에 연립정부가 예산안 합의에 실패해 데베버 총리가 13일 시정연설을 취소한 가운데 긴축에 반대하는 공공부문 전국 파업이 12일 철도·대중교통·학교를 멈춰 세우면서, 예산 합의가 10월 말이나 11월 초로 늦어질 수 있다",
+ "facts": [
+  "무엇이: 벨기에 연정이 예산안에 합의하지 못해 데베버 총리가 10월 13일 예정된 시정연설을 취소했습니다 [사실]",
+  "파업: 10월 12일 예산 삭감에 반대하는 두 번째 공공부문 전국 파업으로 철도·대중교통·공영방송·학교가 차질을 빚었습니다 [사실]",
+  "전망: 데베버 총리는 임시 월별 예산 집행은 선택지가 아니라고 했고, 현지 언론은 합의가 10월 말이나 11월 초로 늦어질 수 있다고 보도했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "시정연설 취소·12일 파업·합의 지연 전망은 검색 결과 요약(RTBF, Euronews 등)으로 확인",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

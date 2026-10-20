@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0215",
+ "num": 215,
+ "key": "mix-C024-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T16:21:00+09:00",
+ "url": "https://t.me/HANAchina/70118",
+ "origTitle": "",
+ "headline": "ASML·SK '반도체 수요 빠르게 증가'…최태원, 광주 팹 조기 건설 시사",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-09",
+   "u": "https://t.me/HANAchina/70118"
+  },
+  {
+   "o": "Korea Times",
+   "d": "2026-10-09",
+   "u": "https://www.koreatimes.co.kr/business/20261009/sk-chief-vows-to-speed-up-construction-of-new-chip-cluster-in-southwest"
+  },
+  {
+   "o": "Korea JoongAng Daily",
+   "d": "2026-10-09",
+   "u": "https://www.koreajoongangdaily.com/business/sk-chief-vows-to-accelerate-honam-chip-cluster-construction-as-semiconductor-demand-surges-worldwide/12912920"
+  }
+ ],
+ "items": [
+  {
+   "t": "ASML CEO '6개월 전 성장 정체 예상했지만 이후 주문 폭증'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-09",
+   "u": "https://t.me/HANAchina/70118"
+  },
+  {
+   "t": "최태원 SK 회장 '반도체 수요 계속 빠르게 늘 것'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/sk-chairman-chey-says-chip-demand-keep-growing-fast-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "title": "ASML·SK '반도체 수요 빠르게 증가'…최태원, 광주 팹 조기 건설 시사",
+ "one": "최태원 SK 회장이 반도체 수요가 빠르게 늘어 공급 속도를 더 높여야 한다며 광주 팹을 용인 클러스터와 동시에 지을 수도 있다고 밝히고 ASML CEO도 지난 6개월 새 주문이 폭증했다고 말하면서, 반도체 상승 사이클이 2027~2028년 이후까지 이어질 수 있다",
+ "facts": [
+  "무엇이: 최태원 SK 회장은 10월 9일 광주 후보지를 찾아 반도체 수요가 빠르게 늘고 있어 공급 속도를 더 높여야 한다고 말했습니다 [사실]",
+  "증설: 광주 계획은 용인의 약 3분의 2 규모로 용인과 동시 건설 가능성도 언급했지만, 용수·전력 등 인프라 조율이 필요하다며 착공일은 밝히지 않았습니다 [사실]",
+  "장비 주문: 크리스토프 푸케 ASML CEO는 6개월 전엔 2026~2027년 시장 정체를 예상했으나 이후 주문이 폭발적으로 늘었다고 말했습니다 [채널]",
+  "전망: 푸케 CEO는 AI 인프라 상승 사이클이 2027~2028년, 그 이후까지 이어질 수 있다고 봤습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "최태원 회장 발언·광주 팹 계획은 검색 결과 요약으로 확인. ASML CEO의 주문 폭증 발언은 확인 못 함(채널 전언)",
+ "updatedAt": "2026-10-09T19:13:39+09:00"
+}

@@ -1,0 +1,76 @@
+{
+ "basis": "verified",
+ "check": "연 456회 발사·912회 착륙 요청, 현재 25회·50회 허가, 2단계 구성, 11월 30일 의견 마감·공청회, SPCX 4.2% 하락은 검색 결과 요약(Teslarati·FinanceFeeds·Houston Chronicle 등)으로 확인. 최종 결론까지 걸리는 기간(18~24개월, 법정 기한 2년)은 보도의 추정. 기존 문서 내용은 기존 한줄 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: FAA가 스타베이스에서 연 최대 456회 발사·912회 착륙을 하겠다는 스페이스X 요청에 대해 계획적 환경영향평가(PEIS) 절차를 시작했습니다. 현재 허가는 연 궤도 발사 25회·착륙 50회입니다 [사실]",
+  "단계: 1단계는 연 최대 100회 발사·200회 착륙, 2단계는 수년 안에 456회까지 늘리되 평일에만 발사하는 방안입니다 [사실]",
+  "일정: 의견 접수는 11월 30일까지이고 11월 중순 브라운스빌·포트이사벨에서 공청회를 열며, 초안 공개 시점은 정해지지 않았습니다 [사실]",
+  "시장: 심사 착수 소식에 스페이스X 주가(SPCX)는 4.2% 내린 156.54달러를 기록했습니다 [사실]",
+  "앞선 내용: FAA는 10월 6일 상업 발사·재진입 규정 5건 간소화안을 내놨고, 2030년까지 연 1,000회 상업 발사를 목표로 합니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{美 FAA}}, {{발사 규제 간소화}} 이어 {{스페이스X 스타십 연 456회}} 발사 {{심사 착수}}",
+ "id": "n-rtr-0167",
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "미 FAA, 상업 우주발사 규정 간소화 모색",
+   "u": "https://www.reuters.com/business/media-telecom/us-faa-looks-streamline-rules-commercial-space-launches-2026-10-06/"
+  },
+  {
+   "t": "스페이스X의 텍사스 스타십 연 456회 발사 계획, 당국 심사 중",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/spacex-plan-to-launch-456-starships-a-year-in-texas-under-review",
+   "s": "{{FAA}}가 {{스페이스X}}의 {{텍사스 스타십 발사}}를 {{연 25회에서 456회}}로 늘리는 계획을 {{심사}}하기 시작하면서 {{발사 확대}}가 {{환경영향평가}}의 {{시험대}}에 올랐다"
+  }
+ ],
+ "key": "bnd-C326-2026-10-09",
+ "nodes": [],
+ "num": 167,
+ "one": "{{미 연방항공청(FAA)}}이 {{상업 발사 인허가 규정 5건 간소화안}}을 낸 데 이어 {{스페이스X}}의 {{텍사스 스타베이스 발사}}를 {{연 25회에서 최대 456회}}로 늘리는 계획의 {{환경영향 심사}}에 {{착수}}하면서, {{발사 빈도}}가 크게 늘 길이 열렸지만 {{최종 결론}}까지는 {{2년 안팎}}이 걸릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T23:55:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "ExecutiveGov",
+   "u": "https://www.executivegov.com/articles/duffy-faa-proposed-rules-commercial-space-licensing"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "FAA",
+   "u": "https://www.faa.gov/newsroom/faa-rule-would-streamline-commercial-space-launch-and-reentry-requirements?newsId=93306"
+  },
+  {
+   "o": "Teslarati",
+   "d": "2026-10-14",
+   "u": "https://www.teslarati.com/faa-review-spacex-starship-launches/"
+  },
+  {
+   "o": "FinanceFeeds",
+   "d": "2026-10-14",
+   "u": "https://financefeeds.com/spacex-drops-4-as-faa-launches-sweeping-starbase/"
+  },
+  {
+   "o": "Houston Chronicle",
+   "d": "2026-10-14",
+   "u": "https://www.chron.com/culture/article/spacex-starship-launches-south-texas-22475240.php"
+  }
+ ],
+ "tags": [],
+ "title": "{{美 FAA}}, {{발사 규제 간소화}} 이어 {{스페이스X 스타십 연 456회}} 발사 {{심사 착수}}",
+ "url": "https://www.reuters.com/business/media-telecom/us-faa-looks-streamline-rules-commercial-space-launches-2026-10-06/",
+ "added": "이번 블룸버그 1건으로 {{스페이스X}}가 {{텍사스 스타베이스 발사}}를 {{연 최대 456회}}로 늘리려는 계획과 {{FAA의 환경영향 심사 착수}}가 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

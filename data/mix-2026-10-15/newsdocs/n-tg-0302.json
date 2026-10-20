@@ -1,0 +1,103 @@
+{
+ "id": "n-tg-0302",
+ "num": 302,
+ "key": "mix-G4-034-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T02:46:00+09:00",
+ "url": "https://t.me/insidertracking/66201",
+ "origTitle": "",
+ "headline": "미 육군, 안두릴과 최대 18억 달러 계약…극초음속 미사일 배치는 3년 지연",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66201"
+  },
+  {
+   "o": "DefenseScoop",
+   "d": "2026-10-06",
+   "u": "https://defensescoop.com/2026/10/06/army-awards-anduril-1-8b-contract-expand-ngc2/"
+  },
+  {
+   "o": "GovConWire",
+   "d": "2026-10-06",
+   "u": "https://www.govconwire.com/articles/anduril-army-ngc2-contract-i-corps"
+  },
+  {
+   "o": "Interesting Engineering",
+   "d": "2026-10-15",
+   "u": "https://interestingengineering.com/military/us-armys-first-hypersonic-missile-remains-delayed"
+  },
+  {
+   "o": "의회조사국(CRS)",
+   "d": "2026-10-15",
+   "u": "https://www.congress.gov/crs-product/IF11991"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 육군, 안두릴과 5년간 최대 18억 달러 NGC2 계약",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66201",
+   "s": "미 육군이 안두릴에 5년간 최대 18억 달러 계약을 줘 래티스 기반 차세대 지휘통제체계를 시제품에서 실제 야전 배치 단계로 넘기게 됐다"
+  },
+  {
+   "t": "안두릴, 기업가치 약 900억 달러에 내부자 지분 매각 협의",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/anduril-in-talks-to-sell-insider-shares-at-roughly-90-billion-valuation",
+   "s": "안두릴이 기업가치 약 900억 달러로 내부자 지분 매각을 협의하면서 기존 주주 지분이 이 가치로 거래될 전망이다 (제목 기준)"
+  },
+  {
+   "t": "미 육군 극초음속 미사일 배치, 원래 일정보다 3년 늦어져",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-army-now-three-years-late-fielding-hypersonic-missile",
+   "s": "미 육군이 생산 결함 속에 다크이글 극초음속 미사일 배치 완료 시점을 내놓지 못하면서 배치가 원래 일정보다 3년 넘게 늦어졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "channel": "미국 주식 인사이더",
+ "title": "미 육군, 안두릴과 최대 18억 달러 계약…극초음속 미사일 배치는 3년 지연",
+ "one": "미 육군이 안두릴에 차세대 지휘통제체계 배치용 최대 18억 달러 계약을 맡기고 안두릴은 약 900억 달러 가치로 내부자 지분 매각을 논의하는 반면, 생산 결함 속 극초음속 미사일 다크이글 배치는 3년 넘게 늦어지고 있다",
+ "facts": [
+  "무엇이: 미 육군은 안두릴에 5년간 최대 18억 달러 규모로 차세대 지휘통제체계(NGC2) 공통 데이터 계층을 1군단부터 배치하는 계약을 줬고, 기본 물량은 1억 6,280만 달러다 [사실]",
+  "시점: 이 계약은 10월 6일 전후 처음 보도됐고, 안두릴은 6월 록히드마틴을 제치고 기준 체계로 뽑혔다 [사실]",
+  "안두릴 지분: 안두릴은 기업가치 약 900억 달러에 내부자 지분을 파는 방안을 논의 중이다 [제목]",
+  "극초음속: 육군은 10월 14일 장거리 극초음속 무기 다크이글의 배치 활동을 이어가고 있다면서도 완료 시점을 내놓지 못해, 원래 일정보다 3년 넘게 늦어졌다 [사실]",
+  "원인: 육군 미사일 책임자는 7월 록히드마틴 생산 라인의 품질 결함을 해결 중이라고 했고, GAO는 두 번째 포대 배치가 2027회계연도 2분기로 밀린다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "NGC2 계약 규모·기본 물량, 다크이글 지연·생산 결함은 검색 결과 요약으로 확인. NGC2 계약은 10월 6일 전후 이미 보도된 사건이라 새 사실은 지분 매각 협의와 극초음속 지연. 안두릴 지분 매각은 제목만 근거",
+ "added": "이번 블룸버그 15일 글 2건으로 안두릴의 약 900억 달러 가치 내부자 지분 매각 협의와 다크이글 극초음속 미사일 배치 3년 지연이 추가됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "다크이글 극초음속 미사일 배치 3년 넘게 지연"
+  },
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "육군, 안두릴에 최대 18억 달러 NGC2 계약"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

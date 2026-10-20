@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0297",
+ "num": 297,
+ "key": "mix-C103-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:07:00+09:00",
+ "url": "https://www.reuters.com/business/energy/shell-sell-its-nigeria-gas-business-vaaris-energy-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{셸}}, 나이지리아 {{국내 가스 유통사업}} {{바리스에너지에 매각}}…심해·LNG {{집중}}",
+ "src": [
+  {
+   "o": "ThisDay",
+   "d": "2026-10-13",
+   "u": "https://www.thisdaylive.com/2026/10/13/shell-quits-domestic-gas-distribution-sells-sng-to-nigerian-firm-vaaris-energy/"
+  },
+  {
+   "o": "Energy Focus Report",
+   "d": "2026-10-13",
+   "u": "https://www.energyfocusreport.com/shell-signs-agreement-to-sell-nigeria-domestic-gas-business-to-vaaris-energy/"
+  }
+ ],
+ "items": [
+  {
+   "t": "셸, 나이지리아 국내 가스 사업 바리스에너지에 매각",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/shell-sell-its-nigeria-gas-business-vaaris-energy-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/midstream"
+ ],
+ "title": "{{셸}}, 나이지리아 {{국내 가스 유통사업}} {{바리스에너지에 매각}}…심해·LNG {{집중}}",
+ "one": "{{셸}}이 {{약 170km 가스관}}을 운영하는 {{나이지리아 국내 가스 유통 자회사}}를 현지 업체 {{바리스에너지}}에 {{팔기로}} 하면서, 나이지리아 사업을 {{심해 유전과 통합가스(LNG)}}에 {{집중}}하게 된다",
+ "facts": [
+  "무엇이: 셸은 10월 13일 셸 나이지리아 가스 그룹 지분 전부를 나이지리아 에너지 기업 바리스에너지에 팔기로 합의했다 [사실]",
+  "사업: 1998년 설립된 셸 나이지리아 가스는 오군·아비아·리버스주에서 약 170km 가스관으로 산업·상업 고객에 가스를 공급한다 [사실]",
+  "조건·전략: 거래는 규제 승인 등을 거쳐 완료되며 금액은 공개되지 않았고, 셸은 나이지리아에서 심해와 통합가스에 집중한다고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "매각 합의·사업 규모·셸 전략 설명은 검색 결과 요약(ThisDay, Energy Focus Report)으로 확인. 거래 금액은 공개되지 않음"
+}

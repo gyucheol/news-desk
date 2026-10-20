@@ -1,0 +1,80 @@
+{
+ "basis": "verified",
+ "check": "3개 당국 합동조사와 시험·회사 대응은 검색 결과 요약으로 확인. 파손 원인은 아직 밝혀지지 않음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 공업정보화부가 이끌고 인터넷정보판공실·시장감독총국이 함께하는 합동조사팀이 10월 15일 마에스트로 V800 브레이크 페달 브래킷 파손 조사에 나섰다 [사실]",
+  "발단: 둥처디는 10월 8일 V800 3대가 시속 100km 급제동에서 모두 브래킷 뿌리 부분이 부러진 영상을 공개했고, 부품은 유리섬유 강화 폴리프로필렌이었다 [사실]",
+  "회사 대응: 마에스트로는 비표준 극한 시험이라며 실사용 파손은 없다고 했고 재설계·무상 업그레이드를 약속했지만 정식 리콜은 하지 않았다 [사실]",
+  "규제 흐름: 공업정보화부는 신차 개발·시험 검증 절차 감독을 강화하는 규정안도 내놨다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "中 당국, 화웨이·JAC 마에스트로 브레이크 결함 합동 조사 착수",
+ "id": "n-bbg-0179",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "마에스트로, 시험 보고서에 주가 하락하자 브레이크 재설계 약속",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/maextro-pledges-brake-redesign-after-stock-slides-on-test-report"
+  },
+  {
+   "t": "중국, 화웨이 지원 마에스트로 브레이크 페달 브래킷 파손 조사",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/china-investigates-reported-brake-pedal-bracket-fracture-huawei-backed-maextro-2026-10-15/",
+   "s": "중국 공업정보화부 등 3개 당국이 합동조사팀을 꾸려 마에스트로 V800의 브레이크 페달 브래킷 파손 보도를 조사하기 시작했다"
+  }
+ ],
+ "key": "bnd-C163-2026-10-09",
+ "nodes": [],
+ "num": 179,
+ "one": "중국 공업정보화부·인터넷정보판공실·시장감독총국이 합동조사팀을 꾸려 마에스트로 V800의 브레이크 페달 브래킷 파손을 조사하기 시작하면서, 재설계·무상 교체로 수습하려던 화웨이·JAC 합작 브랜드가 당국의 정식 조사를 받게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T23:53:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "CnEVPost",
+   "u": "https://cnevpost.com/2026/10/08/maextro-v800-brake-test-controversy-jac-shares-fall/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "CarNewsChina",
+   "u": "https://carnewschina.com/2026/10/08/huawei-jacs-maextro-v800-faces-safety-scrutiny-following-brake-pedal-failure-reports/"
+  },
+  {
+   "o": "CnEVPost",
+   "d": "2026-10-15",
+   "u": "https://cnevpost.com/2026/10/15/china-joint-probe-maextro-v800-brake-pedal-bracket-failures/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-15",
+   "u": "https://finimize.com/content/china-opens-probe-into-huawei-backed-maextros-luxury-ev-brakes"
+  }
+ ],
+ "tags": [],
+ "title": "中 당국, 화웨이·JAC 마에스트로 브레이크 결함 합동 조사 착수",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/maextro-pledges-brake-redesign-after-stock-slides-on-test-report",
+ "added": "이번 로이터 1건으로 중국 공업정보화부 등 3개 당국이 합동조사팀을 꾸려 마에스트로 V800 브레이크 파손 조사에 착수했다는 사실이 추가됐다",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "당국 합동 조사 착수로 수급 영향은 아직 미정"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

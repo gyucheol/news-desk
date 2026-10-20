@@ -1,0 +1,331 @@
+{
+ "added": "이번 블룸버그·로이터 3건으로 워시 발언 뒤 달러의 한 달여 만의 최대 주간 하락, 유로의 5주 연속 하락 탈출, 금의 주간 약세가 추가됐다",
+ "basis": "verified",
+ "check": "달러의 9월 초 이후 최악 주간, 유로의 5주 연속 하락 탈출, 금 주간 0.2~0.4% 하락, 10월 인상 확률 약 20%를 검색 결과 요약으로 확인(달러 낙폭 표현은 출처마다 다름)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 워시 의장이 IMF 방콕 회의에서 남은 회의 결과를 예단하지 않겠다며 금리 경로에 힌트를 주지 않자 달러는 9월 초 이후 가장 나쁜 주간 성적을 냈다 [사실]",
+  "유로: 유로는 17개월 저점에서 반등하며 5주 연속 주간 하락을 끊었다 [사실]",
+  "금: 금은 16일 달러 약세로 올랐지만 주간으로는 0.2~0.4% 내렸고, 트레이더들은 4년 반 만의 최대폭 생산자물가 상승과 연준 금리 경로를 살폈다 [사실]",
+  "금리 기대: 10월 인상 확률은 기존 문서의 27.7%보다 낮은 약 20%까지 내려갔다는 보도가 나왔다 [사실]",
+  "기존: 워시는 AI 생산성·고용 태스크포스의 11월 16일 현장 청문회를 예고했고, 굴스비 시카고 연은 총재는 이번 주 물가 지표가 실망스럽다고 했다 [사실]"
+ ],
+ "fed": [
+  {
+   "d": "2026-10-15",
+   "k": "Warsh",
+   "kind": "연설",
+   "role": "연준 의장",
+   "stance": "",
+   "t": "물가 재급등 속 IMF 방콕 대담을 앞두고 10월 인상 베팅이 커졌다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-warsh-to-get-final-word-in-bangkok-as-inflation-roars-back",
+   "who": "케빈 워시"
+  },
+  {
+   "d": "2026-10-15",
+   "k": "Warsh",
+   "kind": "관련 뉴스",
+   "role": "연준 의장",
+   "stance": "",
+   "t": "발언을 줄이려는 '조용한 연준' 방식에 연준 인사들이 공개 반발했다",
+   "u": "https://www.reuters.com/markets/us/warshs-quest-quiet-fed-gets-vocal-pushback-2026-10-15/",
+   "who": "케빈 워시"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Goolsbee",
+   "kind": "인터뷰",
+   "role": "시카고 연은 총재",
+   "stance": "중립",
+   "t": "이번 주 물가 지표는 실망스럽지만 일시 요인이면 낙관할 여지가 있다고 했다",
+   "u": "https://www.reuters.com/markets/us/feds-goolsbee-inflation-discouraging-still-some-optimism-2026-10-15/",
+   "who": "오스턴 굴스비"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "",
+   "kind": "관련 뉴스",
+   "role": "워시 발언 뒤 시장 반응",
+   "stance": "",
+   "t": "워시 발언 뒤 10월 인상 베팅이 줄며 금값이 보합을 보였다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus",
+   "who": "연준"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Warsh",
+   "kind": "발언",
+   "role": "연준 의장",
+   "stance": "",
+   "t": "11월 16일 AI의 생산성·고용 영향을 다룰 태스크포스 청문회 개최를 발표했다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/fed-s-warsh-says-announces-productivity-jobs-task-force-hearing",
+   "who": "케빈 워시"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Warsh",
+   "kind": "인터뷰",
+   "role": "연준 의장",
+   "stance": "중립",
+   "t": "물가 안정을 약속하면서도 남은 회의 결과를 예단하지 않겠다며 10월 결정에 힌트를 주지 않았다",
+   "u": "https://t.me/insidertracking/66433",
+   "who": "케빈 워시"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "",
+   "kind": "관련 뉴스",
+   "role": "워시 발언 뒤 시장 반응",
+   "stance": "",
+   "t": "워시 발언에 시장의 10월 금리 동결 기대가 커졌다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/warsh-boosts-market-expectations-of-fed-hold-in-october",
+   "who": "연준"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Warsh",
+   "kind": "관련 뉴스",
+   "role": "연준 의장",
+   "stance": "",
+   "t": "한미 재정·통화 당국 첫 2+2 회의에 참석해 금융 충격 공조 체계를 논의했다",
+   "u": "https://t.me/insidertracking/66450",
+   "who": "케빈 워시"
+  },
+  {
+   "k": "Warsh",
+   "who": "케빈 워시",
+   "role": "연준 의장",
+   "kind": "발언",
+   "stance": "중립",
+   "t": "금리 경로에 힌트를 주지 않자 달러가 약세로 돌고 유로가 반등했다",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/euro-set-to-end-five-week-losing-run-as-warsh-remarks-hit-dollar"
+  },
+  {
+   "k": "",
+   "who": "연준",
+   "role": "워시 발언 뒤 시장 반응",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "트레이더들이 연준 신호를 가늠하는 가운데 금이 주간 하락을 앞뒀다",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/gold-set-weekly-drop-traders-assess-fed-signals-2026-10-16/"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "워시 침묵에 달러 한 달 만에 최악의 주…유로 5주 연속 하락 끊고 금은 주간 약세",
+ "id": "n-bbg-0311",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "metals"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "물가가 다시 뛰면서 워시 의장이 방콕에서 내놓을 마지막 발언이 10월 금리 결정을 앞둔 시장의 단서로 무게가 커졌다",
+   "t": "물가 재급등에 커진 워시 의장 방콕 발언의 무게",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-warsh-to-get-final-word-in-bangkok-as-inflation-roars-back"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "9월 소비자물가가 3.7% 오르며 10월 인상 확률이 반반까지 높아진 가운데 워시 의장이 IMF 대담에 나선다",
+   "t": "뜨거운 물가에 인상 베팅 커진 가운데 워시, IMF 무대에",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/warsh-takes-imf-stage-as-hot-inflation-spurs-rate-hike-bets"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "워시 의장이 연준 인사들의 공개 발언을 줄이려 하자 동료들이 공개적으로 이견을 내며 소통 방식 갈등이 커졌다",
+   "t": "'조용한 연준' 추구하는 워시, 공개 반발에 부딪혀",
+   "u": "https://www.reuters.com/markets/us/warshs-quest-quiet-fed-gets-vocal-pushback-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "미국 주식 인사이더가 한국시간 16일 새벽 1시 원유재고 발표와 낮 12시 30분 워시 연준 의장 연설을 주요 일정으로 꼽았다",
+   "t": "한국시간 16일 일정: 원유재고 발표·워시 연준 의장 연설",
+   "u": "https://t.me/insidertracking/66395"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "미 국채금리가 내리고 이란 공습 검토로 국제유가가 96달러를 넘은 가운데 시장이 낮 12시 30분 워시 의장 연설을 기다린다",
+   "t": "미 증시 브리핑: 국채금리 하락·유가 96달러 돌파·워시 연설 대기",
+   "u": "https://t.me/insidertracking/66411"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "굴스비 시카고 연은 총재가 이번 주 물가 지표를 실망스럽다고 하면서도 일시 요인이면 낙관할 여지가 있다고 밝혀, AI발 수요 과열이면 대응해야 한다는 조건을 달았다",
+   "t": "연준 굴스비 '물가 실망스럽지만 여전히 낙관할 여지 있어'",
+   "u": "https://www.reuters.com/markets/us/feds-goolsbee-inflation-discouraging-still-some-optimism-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "워시 의장의 발언으로 10월 금리 인상 베팅이 줄어들면서 금값이 보합세를 유지했다 (제목 기준)",
+   "t": "워시 발언에 10월 금리 인상 베팅 줄며 금값 보합",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "워시 의장이 생산성·고용 태스크포스가 11월 16일 샌프란시스코 베이 지역에서 현장 청문회를 연다고 발표해, AI의 경제·고용 영향 점검이 연준 의제로 올라섰다",
+   "t": "워시, 생산성·고용 태스크포스 청문회 개최 발표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/fed-s-warsh-says-announces-productivity-jobs-task-force-hearing"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "워시 의장이 물가 안정을 확고한 약속이라 하면서도 10월·12월 FOMC 결정을 미리 정하지 않겠다고 밝혀, 남은 두 차례 회의에서 정책 방향이 정해지게 됐다",
+   "t": "워시 IMF 대담 정리…'남은 회의 결정 예단 안 해', AI는 수요에 먼저 영향",
+   "u": "https://t.me/insidertracking/66433"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "워시 의장이 결정을 예단하지 않겠다는 입장을 유지한 뒤 미 주가 선물이 0.2% 안팎 오르고 VIX가 17.10으로 내렸지만, 9월 PPI 6.3% 상승은 금리 부담 요인으로 꼽혔다",
+   "t": "워시 발언 뒤 미 주가 선물 소폭 상승…9월 PPI 6.3%는 부담 요인",
+   "u": "https://t.me/insidertracking/66438"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "워시 의장이 10월 결정에 단서를 주지 않으면서 시장의 10월 금리 동결 기대가 커졌고, CME 페드워치 기준 인상 확률은 27.7%까지 낮아졌다",
+   "t": "워시 발언에 10월 연준 금리 동결 기대 커져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/warsh-boosts-market-expectations-of-fed-hold-in-october"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 TNBfolio",
+   "s": "워시 의장이 AI가 먼저 수요를 자극한 뒤 중기적으로 긍정적 공급 충격이 된다고 평가하고, 세계적 고물가가 미 국채와 달러 가치에 영향을 줄 수 있다고 경고했다",
+   "t": "워시 'AI가 통화정책 수행 방식 근본적으로 바꿀 것'",
+   "u": "https://t.me/TNBfolio/71575"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "워시 의장이 IMF 방콕 대담에서 물가 안정을 이루겠다고만 밝히고 10월 결정에 힌트를 주지 않아, 27~28일 FOMC 결과를 가늠할 단서가 나오지 않았다",
+   "t": "연준 워시, 10월 정책 결정에 힌트 주지 않아",
+   "u": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "한국 재경부 장관·한은 총재와 워시 의장·미 재무부 부장관이 첫 2+2 회의를 열어, 외부 금융 충격 때 양국 재정·통화 당국이 신속히 공조할 협력 체계를 마련했다",
+   "t": "한미 재정·통화 당국, 방콕서 첫 '2+2 회의' 개최",
+   "u": "https://t.me/insidertracking/66450"
+  },
+  {
+   "t": "워시 발언에 달러 밀리며 유로, 5주 연속 하락 끊어",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/euro-set-to-end-five-week-losing-run-as-warsh-remarks-hit-dollar",
+   "s": "워시 의장 발언이 달러를 끌어내리면서 유로가 17개월 저점에서 반등해 5주 연속 주간 하락을 끊었다"
+  },
+  {
+   "t": "워시가 금리 경로에 침묵하자 달러, 한 달 만에 최악의 주",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/dollar-heads-for-worst-week-in-over-a-month-as-warsh-stays-quiet",
+   "s": "워시 의장이 금리 경로에 대해 말을 아끼면서 10월 인상 기대가 줄고 달러가 한 달여 만에 가장 나쁜 주간 성적을 냈다"
+  },
+  {
+   "t": "트레이더들 연준 신호 가늠하는 가운데 금, 주간 하락 앞둬",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/gold-set-weekly-drop-traders-assess-fed-signals-2026-10-16/",
+   "s": "금이 달러 약세로 하루는 올랐지만 생산자물가 급등과 연준 금리 경로를 따지는 트레이더들 속에 주간으로는 소폭 내렸다"
+  }
+ ],
+ "key": "mix-G1-023-2026-10-15",
+ "nodes": [
+  "macro/cb",
+  "macro/fx",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 311,
+ "one": "워시 의장이 IMF 방콕 대담에서 금리 경로에 힌트를 주지 않아 10월 인상 기대가 줄자 달러가 한 달여 만에 가장 큰 주간 하락을 보였고 유로는 17개월 저점에서 반등해 5주 연속 하락을 끊었으며, 금은 달러 약세에도 주간으로는 소폭 내렸다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T03:20:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "investingLive",
+   "u": "https://investinglive.com/central-banks/warsh-speaks-in-bangkok-after-hot-cpi-is-a-second-fed-hike-coming-in-october/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/ef42b448-79e6-4ffe-8a0d-5ed7be3b12b3"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "SBS",
+   "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008801177"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "NBC News",
+   "u": "https://www.nbcnews.com/business/economy/will-fed-raise-interest-rates-kevin-warsh-offer-clues-rcna603661"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Phemex",
+   "u": "https://phemex.com/news/article/fed-chair-warsh-announces-november-hearing-on-ais-economic-impact-100108"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Yahoo Finance",
+   "u": "https://finance.yahoo.com/economy/policy/article/chicago-feds-goolsbee-calls-september-inflation-discouraging-but-favors-waiting-on-more-data-185843740.html"
+  },
+  {
+   "o": "Stocktwits",
+   "d": "2026-10-16",
+   "u": "https://stocktwits.com/news-articles/markets/equity/stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week-1/cZxjAkARBt3"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-16",
+   "u": "https://www.cnbc.com/amp/2026/10/16/gold-gains-on-softer-dollar-but-heads-for-weekly-fall.html"
+  }
+ ],
+ "tags": [],
+ "title": "워시 침묵에 달러 한 달 만에 최악의 주…유로 5주 연속 하락 끊고 금은 주간 약세",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-warsh-to-get-final-word-in-bangkok-as-inflation-roars-back",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "워시 의장 금리 경로에 힌트 주지 않아"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "달러 한 달여 만에 가장 큰 주간 하락"
+  },
+  {
+   "ind": "metals",
+   "node": "precious",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "금 달러 약세에도 주간 소폭 하락"
+  }
+ ]
+}

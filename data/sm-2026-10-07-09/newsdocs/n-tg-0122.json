@@ -1,0 +1,107 @@
+{
+ "basis": "verified",
+ "channel": "하나증권 중국전략",
+ "check": "검색 결과 요약(Focus Taiwan, bne IntelliNews, WTO 전망 보도)으로 확인. 미 9월 컨테이너 수입 기록은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: WTO가 2026년 상품교역량 증가율 전망을 3월 1.9%에서 3.9%로, 2027년은 2.6%에서 4.1%로 상향 [사실]",
+  "동력: 반도체·서버 등 AI 관련 상품이 상반기 세계 상품교역 증가분(금액)의 47%를 차지, 교역액은 전년보다 67% 증가 [사실]",
+  "대만: 9월 수출 872억 2천만 달러로 60.9% 늘어 사상 최대, 대미 수출은 106.2% 증가한 274억 6천만 달러 [사실]",
+  "위험: WTO는 호르무즈 차질에 따른 연료·비료 비용, AI 투자 둔화 가능성을 위험으로 꼽고 서비스교역 전망은 3.3%로 낮춤 [사실]",
+  "미국: 8월 수입액 4,208억 달러 사상 최대, 9월 해상 컨테이너 수입도 기록 경신 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 장비가 세계 교역 견인…WTO 성장률 3.9%로 상향, 대만 9월 수출 61% 급증",
+ "id": "n-tg-0122",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-HANAchina-69978",
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "num": 122,
+ "one": "반도체·서버 등 AI 장비 교역이 상반기 67% 늘면서 WTO가 올해 상품교역 증가율 전망을 1.9%에서 3.9%로 올리고 대만 9월 수출이 사상 최대인 872억 달러를 기록해, 미국 수입 급증과 무역적자 확대로도 이어지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T22:05:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69978"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+  },
+  {
+   "d": "2026-10",
+   "o": "Cranberry Journal",
+   "u": "https://cranberryjournal.com/business/the-record-is-hardware/"
+  },
+  {
+   "o": "Focus Taiwan",
+   "d": "2026-10-08",
+   "u": "https://focustaiwan.tw/business/202610080020"
+  },
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10-08",
+   "u": "https://www.intellinews.com/taiwan-exports-hit-record-87-22bn-on-ai-demand-474694/"
+  },
+  {
+   "o": "Global Banking and Finance Review",
+   "d": "2026-10-08",
+   "u": "https://www.globalbankingandfinance.com/wto-upgrades-goods-trade-forecast-ai-boom-offsets-middle/"
+  }
+ ],
+ "tags": [],
+ "title": "AI 장비가 세계 교역 견인…WTO 성장률 3.9%로 상향, 대만 9월 수출 61% 급증",
+ "url": "https://t.me/HANAchina/69978",
+ "items": [
+  {
+   "t": "미국 8월 무역적자 1,056억 달러…AI 장비 수입에 수입액 사상 최대",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/69978"
+  },
+  {
+   "t": "트럼프 관세·전쟁 역풍 속 AI가 세계 상품교역 견인",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ai-drives-global-goods-trade-facing-trump-tariffs-war-headwinds"
+  },
+  {
+   "t": "WTO 사무총장 \"세계 분열 속 공급망 강화 시급\"",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/wto-chief-sees-urgent-need-to-harden-supply-lines-as-world-frays"
+  },
+  {
+   "t": "데카르트 \"미국 9월 해상 컨테이너 수입 사상 최대\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/china/us-ocean-container-imports-set-new-record-september-descartes-says-2026-10-08/"
+  },
+  {
+   "t": "대만 9월 수출, AI 수요에 월간 최대 경신…미국이 견인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/taiwan-september-exports-hit-fresh-monthly-record-ai-demand-us-leads-2026-10-08/"
+  },
+  {
+   "t": "WTO, AI 붐이 중동 차질 상쇄하며 상품교역 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/wto-upgrades-goods-trade-forecast-ai-boom-offsets-middle-east-disruption-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

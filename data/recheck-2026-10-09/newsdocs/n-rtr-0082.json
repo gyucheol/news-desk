@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 더선·밴가드·이코노미포스트 등 나이지리아 매체가 리터당 1,350나이라 원가 상한, 월별 재검토, NNPC 30일 할인을 전함. 1,350나이라가 원가 상한인지 판매가인지 보도가 엇갈림.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 나이지리아 재무장관이 10월 8일 휘발유 출하·도입 원가에 리터당 약 1,350나이라 상한을 두는 방안을 발표했다 [사실]",
+  "구조: 주유소 판매가가 아닌 정유·수입 원가 상한이며 매달 재검토한다 [사실]",
+  "병행: NNPC 휘발유를 30일간 원가에 팔고 대중교통을 우선하는 할인도 추진한다 [사실]",
+  "배경: 중동 긴장에 따른 국제 유가 상승으로 연료비가 사상 최고 수준이 됐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "나이지리아, 연료비 변동 줄이려 휘발유 공급원가 상한제 제안",
+ "id": "n-rtr-0082",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "나이지리아, 연료비 변동 억제 위해 휘발유 가격 상한제 제안",
+   "u": "https://www.reuters.com/business/energy/nigeria-proposes-petrol-price-cap-curb-fuel-cost-volatility-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C231-2026-10-09",
+ "nodes": [
+  "macro/commodity"
+ ],
+ "num": 82,
+ "one": "나이지리아 정부가 정유·수입 휘발유의 공급원가에 리터당 약 1,350나이라의 상한을 두는 방안을 제안하면서, 상한을 넘는 비용을 정유·수입업체가 먼저 떠안고 나중에 회수하는 구조가 될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:43:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "The Sun Nigeria",
+   "d": "2026-10-08",
+   "u": "https://thesun.ng/updated-fg-moves-to-cap-petrol-landing-cost-at-n1350-litre/"
+  },
+  {
+   "o": "Vanguard",
+   "d": "2026-10-09",
+   "u": "https://www.vanguardngr.com/2026/10/fg-offers-petrol-at-n1350-for-next-30-days/"
+  }
+ ],
+ "tags": [],
+ "title": "나이지리아, 연료비 변동 줄이려 휘발유 공급원가 상한제 제안",
+ "url": "https://www.reuters.com/business/energy/nigeria-proposes-petrol-price-cap-curb-fuel-cost-volatility-2026-10-08/"
+}

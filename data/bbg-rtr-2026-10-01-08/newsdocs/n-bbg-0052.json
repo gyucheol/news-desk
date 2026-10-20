@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0052",
+ "feed": "v5",
+ "format": "one1",
+ "num": 52,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1001-trump-warsh-should-have-opposed",
+ "published": "2026-10-01",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+ "one": "트럼프 대통령이 타임 인터뷰에서 워시 연준 의장이 9월 금리 인상에 반대표를 던졌어야 했다고 말하면서도 책임은 이사회에 돌리면서, 연내 한 번 더 인상을 예고한 연준에 대한 백악관의 공개 압박이 이어지고 있다",
+ "headline": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+ "facts": [
+  "무엇이: 10월 1일 공개된 타임 인터뷰에서 트럼프 대통령은 '워시를 탓하지 않는다. 내가 그였다면 아마 이사회에 반대표를 던졌을 것'이라고 말했습니다. [사실]",
+  "배경: 연준은 9월 16일 워시 의장을 포함한 12대 0으로 금리를 0.25%p 올렸고, 연내 한 번 더 인상을 시사했습니다. [사실]",
+  "앞선 발언: 인상 당일 트럼프 대통령은 금리가 1% 이하여야 한다고 했고 FOMC를 '정치인 무리'라고 부르면서도 워시 의장은 여전히 신임한다고 말했습니다. [사실]",
+  "미확인: 블룸버그 제목의 '정치적 이사회' 표현에 해당하는 인터뷰 원문 인용은 직접 확인하지 못했습니다. [미확인]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — Quartz(2026-10-01)와 야후파이낸스 자체 기사(2026-09-16)로 작성. 같은 타임 인터뷰의 다른 발언은 기존 카드(n-tg-0096)에서 다룸.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-01",
+   "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+  },
+  {
+   "o": "야후파이낸스",
+   "d": "2026-09-16",
+   "u": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board",
+ "dupOf": "n-tg-0096"
+}

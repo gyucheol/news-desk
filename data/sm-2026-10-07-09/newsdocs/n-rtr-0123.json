@@ -1,0 +1,39 @@
+{
+ "id": "n-rtr-0123",
+ "num": 123,
+ "key": "bnd-C274-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T08:06:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/webull-sinks-after-cnbc-reports-us-house-panel-flagged-china-ties-2026-10-07/",
+ "origTitle": "",
+ "headline": "웨불 주가 급락…\"美 하원 위원회, 중국 연계 문제 제기\" CNBC 보도",
+ "src": [],
+ "items": [
+  {
+   "t": "CNBC \"美 하원 위원회 중국 연계 지적\" 보도에 웨불 급락",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/webull-sinks-after-cnbc-reports-us-house-panel-flagged-china-ties-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "웨불 주가 급락…\"美 하원 위원회, 중국 연계 문제 제기\" CNBC 보도",
+ "one": "미 하원 위원회가 온라인 증권사 웨불의 중국 연계를 문제 삼았다는 CNBC 보도가 나오면서 웨불 주가가 급락해, 중국 연계 핀테크 기업에 대한 미국 의회의 규제·안보 압박이 주가 위험으로 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: CNBC가 미 하원 위원회가 웨불의 중국 연계를 지적했다고 보도 [제목]",
+  "시장: 보도 뒤 웨불 주가 급락 [제목]",
+  "영향: 중국 연계 미국 상장 핀테크에 대한 의회 감시 강화 가능성 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 하락폭·위원회 명칭 미확인",
+ "inds": [
+  "fin"
+ ],
+ "nodes": []
+}

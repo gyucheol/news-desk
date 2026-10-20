@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0280",
+ "num": 280,
+ "key": "mix-C189-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T13:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage",
+ "origTitle": "",
+ "headline": "토큰화 주식 붐에 {{알파카}}, 프라임 브로커리지 진출",
+ "src": [
+  {
+   "o": "CoinDesk",
+   "d": "2026-07-16",
+   "u": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure"
+  }
+ ],
+ "items": [
+  {
+   "t": "토큰화 주식이 알파카의 프라임 브로커리지 진출 이끌어",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/tokenized-stocks-spur-alpaca-s-push-into-prime-brokerage"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "토큰화 주식 붐에 {{알파카}}, 프라임 브로커리지 진출",
+ "one": "토큰화 미국 주식의 약 {{94%}}를 청산·수탁하는 알파카가 헤지펀드 등에 자금 조달·수탁·대차를 제공하는 {{프라임 브로커리지}}에 나서면서, 토큰화 주식이 기관 금융 서비스로 넓어지고 있다",
+ "facts": [
+  "무엇이: 토큰화 주식이 알파카의 프라임 브로커리지 진출을 이끌고 있다 [제목]",
+  "계획: 알파카는 2027년 1분기 헤지펀드 등에 자금 조달·수탁·증권 대차를 제공하는 프라임 브로커리지를 출시할 계획이다 [미확인]",
+  "위상: 알파카는 토큰화 미국 주식·ETF의 약 94%를 청산 또는 수탁한다 [사실]",
+  "자금: 7월 피크XV 주도로 1억 3,500만 달러 지분 투자를 받았고 부채를 합쳐 4억 3,500만 달러를 조달했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "94% 점유율과 조달 규모는 CoinDesk 검색 결과 요약으로 확인. 프라임 브로커리지 출시 시점·서비스 내용은 블룸버그 인용 보도만 있어 독립 확인 못 함"
+}

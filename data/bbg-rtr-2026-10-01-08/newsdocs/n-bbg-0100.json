@@ -1,0 +1,47 @@
+{
+ "id": "n-bbg-0100",
+ "feed": "v5",
+ "format": "one1",
+ "num": 100,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-shell-q3-refining-margin",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings",
+ "inds": [
+  "petchem",
+  "gas"
+ ],
+ "nodes": [
+  "petchem/commodity",
+  "gas/liquefaction"
+ ],
+ "title": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+ "one": "셸이 3분기 정제 마진 지표를 2분기 24달러에서 배럴당 42달러로 높여 안내하면서, 정유 부문 이익은 크게 늘어나지만 화학 마진은 톤당 208달러로 떨어져 석유화학 부문 부진은 이어질 전망이다",
+ "headline": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+ "facts": [
+  "무엇이: 셸이 10월 7일 3분기 실적 사전 안내문에서 정제 마진 지표를 배럴당 42달러(2분기 24달러)로 제시했습니다. [사실]",
+  "화학: 화학 마진 지표는 톤당 208달러(2분기 270달러)로 낮아지고, 화학 설비 가동률은 81~85%로 안내했습니다. [사실]",
+  "가동률: 정유 가동률은 93~97%(2분기 102%)로 내려가며, 라인강 저수위가 독일 라인란트 정유소 가동에 영향을 줬다고 밝혔습니다. [사실]",
+  "그 밖에: LNG 액화 물량은 720만~760만 톤, 탐사정 손실 처리는 약 3억 달러로 예상했고 3분기 실적은 10월 29일에 발표합니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 셸 공식 안내문(GlobeNewswire, 10월 7일)으로 작성. '사상 최고 정제 마진'과 전쟁 요인은 블룸버그 제목의 표현으로 안내문에는 없음.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+  },
+  {
+   "o": "셸 3분기 안내문(GlobeNewswire)",
+   "d": "2026-10-07",
+   "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Shell Sees Record Refining Margins as War Roils Fuel Markets"
+}

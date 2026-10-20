@@ -1,0 +1,164 @@
+{
+ "added": "이번 텔레그램 2건과 로이터·블룸버그 3건으로 튀르키예의 2027년 국방비 약 450억 달러·조달 229% 증액, 폴란드의 방산 구매 연계 병력 제안, EU 북극 감시 계획이 추가됐다",
+ "basis": "partial",
+ "check": "튀르키예 국방 445억 달러·국내 안보 252억 달러·조달 229%와 폴란드 병력 제안은 검색 결과 요약으로 확인. 총액 710억 달러, 이스라엘 대응 목적, 불가리아·EU 북극 감시 계획 세부는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 의회 승인을 앞둔 튀르키예 2027년 예산안은 국방에 2조 2,060억 리라(약 445억 달러), 국내 안보에 약 252억 달러를 배정했고 무기·탄약·장비 조달은 229% 늘렸다 [사실]",
+  "의도: 이스라엘 군 소식통은 이번 증액이 동지중해와 시리아에서 이스라엘군에 맞설 능력을 키우려는 것이라고 봤고, 5세대 전투기와 전투함 확보가 우선이라고 전해졌다 [채널]",
+  "폴란드: 코시니아크카미시 국방장관은 폴란드 방산업체와 계약하는 동맹국에 평시 파견 병력을 더 보내겠다고 했다 [사실]",
+  "동유럽·북극: 불가리아는 NATO 대드론 체계 확보를 추진하고, EU는 러시아와 트럼프를 의식해 북극 감시 프로그램을 계획하고 있다 [제목]",
+  "기존: EU는 1억 1,500만 유로 AGILE 방산혁신 프로그램을 확정했고, 10억 유로 NATO 혁신펀드는 드론 탐지·무력화와 우주 정찰을 가장 시급한 투자처로 꼽았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 내년 국방비 450억 달러·조달 229% 증액…유럽은 대드론·북극 감시 강화",
+ "id": "n-rtr-0200",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{EU 회원국들}}이 {{1억 1,500만 유로 규모 AGILE 프로그램}}을 최종 승인하면서 {{중소 방산기업의 AI·드론 시제품}}이 {{더 빨리 실전에 투입될}} 수 있다",
+   "t": "EU, 신속 방산 혁신 위한 1억 1,500만 유로 AGILE 프로그램 채택",
+   "u": "https://www.reuters.com/business/eu-adopts-115-million-agile-programme-rapid-defence-innovation-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{에어버스}}가 {{크라토스와 개발하는 발키리 무인전투기}}를 유럽에서 시험 비행하며 {{2029년까지 독일용 실전 준비}}를 {{목표로 내걸었다}}",
+   "t": "에어버스, 발키리 드론 시험…유럽은 2029년 실전 준비 계획",
+   "u": "https://www.reuters.com/business/aerospace-defense/airbus-tests-valkyrie-drone-europe-plans-2029-combat-readiness-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 나쁜양파",
+   "s": "채널은 {{유럽 방산주가 강세인}} 반면 {{현대로템}}은 {{페루·이라크 수주 지연}}에 {{주가가 많이 빠졌}}다며 {{계약이 내년으로 넘어갈 가능성}}이 높다고 짚었다",
+   "t": "유럽 방산주 강세 속 한국 방산주는 수주 지연에 4거래일 조정",
+   "u": "https://t.me/Badonions/7752"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{MBDA CEO}}가 {{유럽이 방산 장비 역내 구매를 두고 여전히 분열돼 있다}}고 밝히면서 {{유럽 방산 조달 통합}}이 {{더딜}} 수 있다 (제목 기준)",
+   "t": "MBDA CEO '유럽, 방산 역내 구매 두고 여전히 분열'",
+   "u": "https://www.reuters.com/business/aerospace-defense/europe-still-divided-buying-locally-defence-mbda-ceo-says-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{NATO 혁신펀드}}가 {{우크라이나 전쟁}}으로 {{투자 우선순위}}를 {{바꿔}} {{드론 탐지·무력화 기술}}과 {{우주 정찰}}에 {{집중}}하면서 {{대드론 기술 기업}}으로 {{자금}}이 {{몰릴}} 수 있다",
+   "t": "NATO 펀드, 우크라이나 전쟁에 우선순위 바뀌며 드론 방어 기술 겨냥",
+   "u": "https://www.reuters.com/business/finance/nato-fund-targets-drone-defence-technologies-ukraine-reshapes-priorities-2026-10-13/"
+  },
+  {
+   "t": "불가리아 국방장관 'NATO 대드론 체계 확보 추진'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/aerospace-defense/bulgaria-seeks-nato-anti-drone-systems-says-defence-minister-2026-10-16/",
+   "s": "불가리아 국방장관이 NATO 대드론 체계를 확보하려 한다고 밝히면서 동유럽의 드론 방어 장비 수요가 늘고 있다 (제목 기준)"
+  },
+  {
+   "t": "폴란드, 동맹국이 자국 방산 제품 사면 NATO 병력 더 보내겠다",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/poland-offers-more-nato-troops-if-allies-buy-from-its-defense-industry",
+   "s": "폴란드가 자국 방산업체와 계약하는 동맹국에 평시 파견 병력을 더 보내겠다고 하면서 병력 지원을 무기 수출과 묶었다"
+  },
+  {
+   "t": "EU, 러시아·트럼프 의식해 북극 감시 프로그램 계획",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/eu-plans-arctic-surveillance-program-as-russia-and-trump-loom",
+   "s": "EU가 러시아와 트럼프 변수를 의식해 북극 감시 프로그램을 계획하면서 역내 정찰·감시 장비 수요가 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "튀르키예, 2027년 국방비 450억 달러…무기 조달 예산 229% 급증",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10673",
+   "s": "에르도안 정부가 2027년 국방비 450억 달러와 국내 안보비 260억 달러를 잡고 무기 조달을 229% 늘리면서 전투기·전투함 확보에 속도를 낸다"
+  },
+  {
+   "t": "이스라엘 군 소식통 '튀르키예 군비 증액은 이스라엘 견제용'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10680",
+   "s": "이스라엘 군 소식통이 튀르키예의 군비 증액을 동지중해·시리아에서 이스라엘군에 맞서려는 것으로 보면서 두 나라의 군사 긴장이 부각되고 있다"
+  }
+ ],
+ "key": "mix-C042-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 200,
+ "one": "튀르키예가 2027년 예산안에 국방비 약 450억 달러와 무기 조달 229% 증액을 담고 폴란드가 자국 방산 구매국에 병력 추가를 내건 데다 EU가 드론·우주 혁신 자금에 이어 북극 감시까지 추진하면서, 유럽 주변의 무기 수요가 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T03:24:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026",
+   "o": "European Commission",
+   "u": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_687"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Democrata",
+   "u": "https://www.democrata.es/en/international/the-eu-approves-the-fund-of-115-million-to-boost-innovation-in-the-defense-industry/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Migflug",
+   "u": "https://migflug.com/afterburner/airbus-u740-valkyrie-first-flight-europe-kratos-cca/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "디펜스매터스",
+   "u": "https://defencematters.eu/natos-e1-billion-innovation-fund-moves-into-poland/"
+  },
+  {
+   "o": "Anadolu Agency",
+   "d": "2026-10-16",
+   "u": "https://aa.com.tr/en/turkiye/turkiye-raises-defense-equipment-procurement-by-229-in-2027/4091132"
+  },
+  {
+   "o": "TRT World",
+   "d": "2026-10-16",
+   "u": "https://www.trtworld.com/article/74c166604e0e"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-16",
+   "u": "https://www.briefs.co/news/poland-ties-extra-nato-troop-deployments-to-allies-buying-po/"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예 내년 국방비 450억 달러·조달 229% 증액…유럽은 대드론·북극 감시 강화",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/business/eu-adopts-115-million-agile-programme-rapid-defence-innovation-2026-10-12/",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "튀르키예 2027년 무기 조달 예산 229% 증액"
+  },
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "불가리아 NATO 대드론 체계 확보 추진"
+  }
+ ]
+}

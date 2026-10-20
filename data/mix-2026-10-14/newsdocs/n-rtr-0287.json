@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0287",
+ "num": 287,
+ "key": "mix-C085-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T16:06:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/chinas-exports-seen-growing-faster-pace-september-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{中 9월 수출}} {{25.5% 증가}} 전망…AI 수요에 {{증가세 소폭 가속}}",
+ "src": [
+  {
+   "o": "Gurutrade",
+   "d": "2026-10-13",
+   "u": "https://www.gurutrade.com/news/china-s-exports-seen-growing-at-faster-pace-in-september-1791891063.html"
+  },
+  {
+   "o": "YourNews",
+   "d": "2026-10-13",
+   "u": "https://yournews.com/2026/10/13/7224084/chinas-exports-set-to-gain-momentum-as-ai-demand-boosts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 9월 수출, 증가 속도 빨라졌을 전망(로이터 조사)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/chinas-exports-seen-growing-faster-pace-september-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "{{中 9월 수출}} {{25.5% 증가}} 전망…AI 수요에 {{증가세 소폭 가속}}",
+ "one": "이코노미스트들이 {{중국 9월 수출}}이 {{AI 관련 첨단 제품 수요}}에 힘입어 {{전년 대비 25.5%}} {{늘어}} {{8월(25%)보다 빨라졌을}} 것으로 보면서, {{과잉생산·무역흑자}}를 둘러싼 {{미·EU 압박}}이 {{커질}} 수 있다",
+ "facts": [
+  "무엇이: 로이터 조사에서 이코노미스트들은 중국 9월 수출이 달러 기준 전년 대비 25.5% 늘어 8월 25%보다 빨라졌을 것으로 봤다 [사실]",
+  "수입·흑자: 수입 증가율은 8월 28.2%에서 24.5%로 둔화하고, 무역흑자는 1,190억 9,000만 달러에서 1,181억 달러로 조금 줄 것으로 예상됐다 [사실]",
+  "배경: AI 관련 첨단 제품의 해외 수요가 내수 부진 속 생산을 떠받쳤고, 2분기 성장률은 3년여 만의 최저인 4.3%였다 [사실]",
+  "일정: 실제 9월 무역 통계는 10월 14일 발표된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Gurutrade·YourNews 등 보도(검색 결과 요약으로 확인)로 조사 수치(수출 25.5%, 수입 24.5%, 흑자 1,181억 달러) 확인. 실제 발표치는 아직 나오지 않음."
+}

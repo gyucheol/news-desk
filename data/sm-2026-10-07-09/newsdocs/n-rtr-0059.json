@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0059",
+ "num": 59,
+ "key": "bnd-C141-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T13:39:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07/",
+ "origTitle": "",
+ "headline": "태국 \"美 무역협정 마지막 문단\"…베트남도 협상 대부분 마무리",
+ "src": [
+  {
+   "o": "The Diplomat",
+   "d": "2026-10-07",
+   "u": "https://thediplomat.com/2026/10/trade-agreement-with-us-close-to-completion-thai-prime-minister-says"
+  },
+  {
+   "o": "Bangkok Post",
+   "d": "2026-10-07",
+   "u": "https://www.bangkokpost.com/business/general/3333009/thailand-at-last-paragraph-of-us-trade-deal-says-pm"
+  }
+ ],
+ "items": [
+  {
+   "t": "태국 총리 \"미국과 무역협정 마지막 문단에 와 있다\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07/"
+  },
+  {
+   "t": "베트남 \"미국과의 무역협정 협상 대부분 완료\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/vietnam-says-its-trade-deal-negotiations-with-us-are-largely-completed-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "태국 \"美 무역협정 마지막 문단\"…베트남도 협상 대부분 마무리",
+ "one": "태국 아누틴 총리가 미국과의 상호무역협정이 '마지막 문단' 단계라며 11월 트럼프의 아시아 방문 때 서명을 희망하고 베트남도 대미 협상이 대부분 끝났다고 밝히면서, 동남아 수출품에 붙는 미국 관세 조건이 곧 확정될 전망이다",
+ "facts": [
+  "무엇이: 아누틴 태국 총리가 10월 7일 싱가포르 포럼에서 대미 무역협정이 '마지막 문단'에 와 있다고 언급, 지난주 트럼프로부터 최종 단계 확인 서한을 받았다고 밝힘 [사실]",
+  "일정: 11월 16~18일 마닐라 아세안 정상회의나 11월 18~19일 선전 APEC 계기 서명을 희망 [사실]",
+  "베트남: 베트남이 미국과의 무역협상이 대부분 완료됐다고 밝힘 [제목]"
+ ],
+ "basis": "partial",
+ "check": "태국 발언·서명 일정은 검색 결과 요약(The Diplomat·Bangkok Post)으로 확인. 베트남 협상 완료 발언은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

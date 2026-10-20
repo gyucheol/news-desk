@@ -1,0 +1,65 @@
+{
+ "id": "n-tg-0309",
+ "num": 309,
+ "key": "mix-G1-033-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T21:15:00+09:00",
+ "url": "https://t.me/insidertracking/66461",
+ "origTitle": "",
+ "headline": "BofA \"향후 12개월 잉여현금흐름 플러스 하이퍼스케일러는 MS뿐\"",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-16",
+   "u": "https://t.me/insidertracking/66461"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-16",
+   "u": "https://seekingalpha.com/news/4653946-microsoft-is-the-only-hyperscaler-not-forecast-to-dip-into-negative-fcf-in-the-next-year"
+  }
+ ],
+ "items": [
+  {
+   "t": "BofA '향후 12개월 FCF 마이너스 피할 하이퍼스케일러는 MS뿐'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-16",
+   "u": "https://t.me/insidertracking/66461"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis",
+ "title": "BofA \"향후 12개월 잉여현금흐름 플러스 하이퍼스케일러는 MS뿐\"",
+ "one": "뱅크오브아메리카가 마이크로소프트를 향후 12개월 잉여현금흐름이 마이너스로 돌지 않을 유일한 하이퍼스케일러로 꼽으면서, 아마존·알파벳·오라클·메타는 2027년까지 잉여현금흐름이 마이너스로 떨어질 수 있다",
+ "facts": [
+  "무엇이: BofA는 마이크로소프트가 주요 하이퍼스케일러 가운데 향후 12개월 잉여현금흐름이 마이너스로 돌지 않을 것으로 예상되는 유일한 곳이라고 봤다 [사실]",
+  "경쟁사: 아마존·알파벳·오라클·메타는 2027년까지 잉여현금흐름이 마이너스로 떨어질 것으로 예상된다는 보도가 나왔다 [사실]",
+  "회복: 업종 전반의 현금흐름은 2027년 하반기 전까지 폭넓게 회복되지 않을 것이라는 전망이 함께 전해졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BofA 판단은 검색 결과 요약(2차 보도)으로 확인, BofA 원문은 보지 못함. 묶음의 모건스탠리 2027년 AI 투자 전망 상향(HANAchina/70533)과 AWS CFO의 투자 확대 계획(insidertracking/66503)은 AI 투자 증액이라 items에서 뺌",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "MS 뺀 하이퍼스케일러 잉여현금흐름 마이너스 전망"
+  }
+ ]
+}

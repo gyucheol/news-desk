@@ -1,0 +1,94 @@
+{
+ "id": "n-rtr-0344",
+ "num": 344,
+ "key": "mix-G4-026-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T00:42:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/renk-wins-130-million-leopard-2-contract-extension-knds-2026-10-14/",
+ "origTitle": "",
+ "headline": "독일 정부, KNDS 지분 50% 인수 협상…EU는 레오나르도의 이베코 방산 인수 승인",
+ "src": [
+  {
+   "o": "Adria Defense",
+   "d": "2026-10-14",
+   "u": "https://www.adriadefense.com/germany-in-talks-to-acquire-50-of-knds-as-ipo-plans-stall/"
+  },
+  {
+   "o": "Euronext 뉴스",
+   "d": "2026-10-14",
+   "u": "https://live.euronext.com/en/financial-news/german-government-talks-buy-50-knds-source-says-0"
+  }
+ ],
+ "items": [
+  {
+   "t": "렝크, KNDS와 1억 3,000만 규모 레오파르트2 계약 연장",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/aerospace-defense/renk-wins-130-million-leopard-2-contract-extension-knds-2026-10-14/",
+   "s": "렝크가 KNDS로부터 레오파르트2 관련 1억 3,000만 규모 계약 연장을 따내 전차 부품 수요가 이어지고 있음을 보였다 (제목 기준)"
+  },
+  {
+   "t": "독일 정부, KNDS 지분 50% 인수 협상 중",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/aerospace-defense/german-government-talks-buy-50-knds-source-says-2026-10-14/",
+   "s": "독일 정부가 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상하면서 KNDS 상장 계획이 보류됐다"
+  },
+  {
+   "t": "EU 집행위, 레오나르도의 이베코 방산 부문 인수 승인",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/eu-commission-clears-leonardo-acquisition-ivecos-defence-unit-2026-10-14/",
+   "s": "EU 집행위원회가 레오나르도의 이베코 방산 부문 인수를 승인해 레오나르도의 지상 방산 사업이 커지게 됐다 (제목 기준)"
+  },
+  {
+   "t": "독일 정부, KNDS 지분 50% 인수 협상 중(증시면)",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/markets/europe/german-government-talks-buy-50-knds-source-says-2026-10-14/",
+   "s": "독일 정부와 KNDS 주주 간 매입 가격 차이가 크지 않아 결정이 몇 주 안에 나올 수 있다는 보도가 이어졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "독일 정부, KNDS 지분 50% 인수 협상…EU는 레오나르도의 이베코 방산 인수 승인",
+ "one": "독일 정부가 전차 업체 KNDS 지분 50%를 독일 가문 주주들에게서 사들이는 협상에 나서 상장 계획이 보류되고, EU가 레오나르도의 이베코 방산 부문 인수를 승인하면서 유럽 지상 방산 업계의 재편이 빨라지고 있다",
+ "facts": [
+  "무엇이: 독일 정부가 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상 중이며 매입 가격 차이가 크지 않다고 소식통이 전했다 [사실]",
+  "상장 보류: KNDS 상장 계획은 일단 보류됐고, 독일 경제부는 핵심 방산 기술을 지키려 프랑스와 같은 지분으로 참여하는 방안을 검토한다고 했다 [사실]",
+  "가치: 한델스블라트는 독일 주주들이 기업가치 약 150억 유로를 원했고 결정이 몇 주 안에 나올 것이라고 전했다 [사실]",
+  "레오나르도: EU 집행위원회가 레오나르도의 이베코 방산 부문 인수를 승인했다 [제목]",
+  "렝크: 렝크가 KNDS와 1억 3,000만 규모의 레오파르트2 계약 연장을 따냈다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "KNDS 지분 협상·상장 보류·150억 유로는 검색 결과 요약으로 확인. 레오나르도 인수 승인, 렝크 계약(통화 단위 포함)은 확인 못 함",
+ "added": "이번 로이터 2건으로 EU의 레오나르도 이베코 방산 인수 승인과 독일 정부·KNDS 주주 간 가격 차이가 크지 않다는 전언이 추가됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "EU, 레오나르도의 이베코 방산 인수 승인"
+  },
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "렝크, KNDS 레오파르트2 계약 연장 수주"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

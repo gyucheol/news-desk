@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0286",
+ "num": 286,
+ "key": "mix-C084-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T15:55:00+09:00",
+ "url": "https://www.reuters.com/business/energy/indias-ntpc-seeks-overseas-buyers-green-ammonia-low-carbon-fuels-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{인도 NTPC}}, 日·韓·獨 구매자와 {{그린 암모니아 판매}} {{협의}}",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-13",
+   "u": "https://www.business-standard.com/companies/news/ntpc-in-talks-with-japan-south-korea-germany-for-sale-of-green-fuel-126101300454_1.html"
+  },
+  {
+   "o": "BW Businessworld",
+   "d": "2026-10-13",
+   "u": "https://www.businessworld.in/article/ntpc-eyes-overseas-buyers-for-green-ammonia-low-carbon-fuels-628334"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 NTPC, 그린 암모니아·저탄소 연료 해외 구매자 물색",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/indias-ntpc-seeks-overseas-buyers-green-ammonia-low-carbon-fuels-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers"
+ ],
+ "title": "{{인도 NTPC}}, 日·韓·獨 구매자와 {{그린 암모니아 판매}} {{협의}}",
+ "one": "{{인도 최대 발전사 NTPC}}가 안드라프라데시 {{그린수소 허브}}에서 만들 {{그린 암모니아·메탄올}}을 두고 {{일본·한국·독일 구매자}}와 {{협의}}에 나서면서, {{장기 구매계약 확보}}가 {{사업화}}의 {{관건}}이 될 전망이다",
+ "facts": [
+  "무엇이: 구르딥 싱 NTPC 회장은 10월 13일 일본·한국·독일의 잠재 구매자와 그린 암모니아 등 저탄소 연료 판매를 협의 중이라고 했다 [사실]",
+  "사업: 안드라프라데시에 추진하는 그린수소 허브가 수소보다 운송·교역이 쉬운 그린 암모니아와 그린 메탄올을 생산한다 [사실]",
+  "조건: 싱 회장은 시범 사업을 넘어 상업화하려면 장기 구매계약이 필요하다고 했고, 공개된 수출 계약은 아직 없다 [사실]",
+  "정책: 인도는 2030년 그린수소 연 500만 톤 생산을 목표로 약 21억 달러 보조금을 둔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Business Standard·BW Businessworld 검색 결과 요약으로 확인"
+}

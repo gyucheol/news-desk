@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0215",
+ "num": 215,
+ "key": "mix-C123-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T20:03:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/norway-fines-microsofts-xandr-96-million-over-grindr-data-sharing-2026-10-12/",
+ "origTitle": "",
+ "headline": "노르웨이, MS 광고 자회사 잔드르에 사상 최대 960만 달러 벌금…그라인더 정보 공유",
+ "src": [
+  {
+   "o": "BleepingComputer",
+   "d": "2026-10-12",
+   "u": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/"
+  },
+  {
+   "o": "The Local Norway",
+   "d": "2026-10-12",
+   "u": "https://www.thelocal.no/20261012/norway-fines-microsoft-subsidiary-for-sharing-grindr-user-data"
+  }
+ ],
+ "items": [
+  {
+   "t": "노르웨이, 그라인더 정보 공유로 MS 잔드르에 960만 달러 벌금",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/legal/litigation/norway-fines-microsofts-xandr-96-million-over-grindr-data-sharing-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "노르웨이, MS 광고 자회사 잔드르에 사상 최대 960만 달러 벌금…그라인더 정보 공유",
+ "one": "노르웨이 개인정보보호청이 그라인더 이용자의 성적 지향을 드러낼 수 있는 정보를 광고 경매로 넘긴 마이크로소프트 자회사 잔드르에 9,200만 크로네의 역대 최대 벌금을 매기면서, 광고기술 업체도 동의 확인 책임을 지게 됐다",
+ "facts": [
+  "무엇이: 노르웨이 데이터보호청이 10월 12일 마이크로소프트 광고기술 자회사 잔드르에 9,200만 크로네(약 960만 달러) 벌금을 부과했고, 이 기관 사상 최대다 [사실]",
+  "위반: 2018년 7월~2020년 4월 실시간 광고 경매로 그라인더 이용자의 성적 지향을 드러낼 수 있는 정보를 광고주에게 넘겼다 [사실]",
+  "판단: 당국은 잔드르를 그라인더와 공동 관리자로 보고, 그라인더의 동의 확보를 확인하지 않은 책임을 물었다 [사실]",
+  "대응: 마이크로소프트는 인수 전 행위라며 결정을 검토 중이고, 잔드르는 3주 안에 항소할 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "벌금액·위반 기간·공동 관리자 판단·MS 반응은 BleepingComputer·The Local 검색 결과 요약으로 확인"
+}

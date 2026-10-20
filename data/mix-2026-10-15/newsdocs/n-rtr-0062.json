@@ -1,0 +1,90 @@
+{
+ "basis": "verified",
+ "check": "MAS 동결 결정은 MAS 성명 검색 결과 요약으로 확인. 3분기 성장률 수치는 공식 출처로 확인 못 해 쓰지 않음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 싱가포르통화청(MAS)은 10월 14일 싱가포르달러 정책밴드의 절상 속도와 폭·중심을 바꾸지 않기로 했다 [사실]",
+  "예상 대비: 로이터 설문 이코노미스트 10명 전원이 긴축을 예상했던 만큼 시장에는 뜻밖의 결정이었다 [사실]",
+  "배경: DBS는 올해 물가가 기존 전망보다 낮게 나온 점을 동결 이유로 봤고, MAS 근원물가는 7~8월 전년 대비 2.1%였다 [사실]",
+  "성장·물가: AI 호황이 누그러지면서 물가가 진정됐다는 평가가 나왔다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "싱가포르통화청, 긴축 예상 깨고 통화정책 동결…AI 호황 둔화에 물가 진정",
+ "id": "n-rtr-0062",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "싱가포르, 강한 성장·물가 상승 위험 속 통화정책 긴축 채비",
+   "u": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/"
+  },
+  {
+   "t": "싱가포르통화청 동결…AI 호황 둔화가 물가 진정시켜",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/singapore-holds-monetary-policy-as-economy-expands-5-4-on-ai",
+   "s": "싱가포르통화청이 AI 호황이 누그러지며 물가가 진정되자 정책밴드의 기울기·폭·중심을 그대로 두며 통화정책을 동결했다"
+  },
+  {
+   "t": "싱가포르, 통화정책 동결로 분석가들 긴축 예상 빗나가",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/singapore-keeps-monetary-policy-unchanged-surprising-analysts-2026-10-14/",
+   "s": "로이터 설문 응답자 10명 전원이 긴축을 예상했지만 싱가포르통화청이 동결을 택하면서 분석가들의 예상이 빗나갔다"
+  }
+ ],
+ "key": "bnd-C210-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "num": 62,
+ "one": "싱가포르통화청이 로이터 설문 응답자 10명 전원의 긴축 예상과 달리 10월 14일 정책밴드의 기울기·폭·중심을 모두 유지하면서, 4월·7월에 이어진 긴축이 멈추고 싱가포르달러 절상 속도도 지금 수준에 머물게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T16:00:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "MAS 발표 일정",
+   "u": "https://www.mas.gov.sg/monetary-policy/advance-release-calendar"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "1027 WBOW(로이터 전재 요약)",
+   "u": "https://1027wbow.com/2026/10/09/singapore-poised-to-tighten-monetary-policy-amid-strong-growth-and-rising-inflation-risks/"
+  },
+  {
+   "o": "싱가포르통화청 통화정책 성명",
+   "d": "2026-10-14",
+   "u": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26"
+  },
+  {
+   "o": "Tradingpedia",
+   "d": "2026-10-14",
+   "u": "https://www.tradingpedia.com/2026/10/14/mas-holds-sgd-policy-steady-as-inflation-outlook-cools/"
+  }
+ ],
+ "tags": [],
+ "title": "싱가포르통화청, 긴축 예상 깨고 통화정책 동결…AI 호황 둔화에 물가 진정",
+ "url": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/",
+ "added": "이번 블룸버그·로이터 2건으로 싱가포르통화청이 긴축 예상을 깨고 10월 14일 통화정책을 동결했다는 결정이 추가됐다",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "MAS 싱가포르달러 정책밴드 절상 속도 동결"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

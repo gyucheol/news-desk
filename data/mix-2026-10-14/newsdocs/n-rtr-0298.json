@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0298",
+ "num": 298,
+ "key": "mix-C104-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:09:00+09:00",
+ "url": "https://www.reuters.com/business/energy/engie-build-biomethane-plant-france-fuel-cma-cgms-fleet-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{엔지}}, {{르아브르 바이오메탄 공장}} 추진…{{CMA CGM LNG선}}에 연료 공급",
+ "src": [
+  {
+   "o": "엔지 공시(WebDisclosure)",
+   "d": "2026-10-13",
+   "u": "https://www.webdisclosure.com/press-release/engie-epa-engi-engie-and-cma-cgm-join-forces-to-invest-in-biomethane-production-in-le-havre-YXtXdI0c2IV"
+  },
+  {
+   "o": "gCaptain",
+   "d": "2026-10-13",
+   "u": "https://gcaptain.com/cma-cgm-and-engie-to-produce-biomethane-fuel-for-shipping-in-france/"
+  },
+  {
+   "o": "LNG Prime",
+   "d": "2026-10-13",
+   "u": "https://lngprime.com/contracts-and-tenders/cma-cgm-and-engie-working-on-new-french-biomethane-production-project/56104/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엔지, CMA CGM 선대 연료용 바이오메탄 공장 프랑스에 건설",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/engie-build-biomethane-plant-france-fuel-cma-cgms-fleet-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/demand"
+ ],
+ "title": "{{엔지}}, {{르아브르 바이오메탄 공장}} 추진…{{CMA CGM LNG선}}에 연료 공급",
+ "one": "{{엔지}}가 {{CMA CGM}}을 소수 주주로 {{르아브르에 바이오메탄 공장}}을 {{짓기로}} 하면서, 최종 투자 결정이 나면 {{2029~2030년부터 연 7,000톤}}(100GWh)을 {{CMA CGM LNG 추진선}}에 {{공급}}할 전망이다",
+ "facts": [
+  "무엇이: 엔지가 10월 13일 르아브르 바이오메탄 생산 사업을 발표했고, CMA CGM은 소수 지분을 갖는다 [사실]",
+  "규모: 최종 투자 결정 뒤 2029~2030년부터 연 약 7,000톤(100GWh)을 CMA CGM 선대에 공급할 예정이다 [사실]",
+  "연료: 가축분뇨·음식물·농업 잔재가 원료이며, LNG 추진선이 엔진·설비 변경 없이 쓸 수 있고 전 과정 온실가스를 67% 이상 줄인다 [사실]",
+  "목표: 엔지는 유럽 바이오메탄 생산능력을 현재 1.2TWh에서 2035년 연 10TWh로 늘릴 계획이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "사업 구조·공급량·시기·엔지 목표는 엔지 공시·gCaptain·LNG Prime 검색 결과 요약으로 확인. 연간 CO2 감축량은 2만 3,000톤과 1만 8,000톤으로 출처마다 달라 쓰지 않음."
+}

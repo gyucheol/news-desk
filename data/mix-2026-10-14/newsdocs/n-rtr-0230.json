@@ -1,0 +1,56 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약(AP 등)으로 쿠페라티브 U 80곳 피해, 손실 추정, 전국 700곳 영향, 댄포스 소프트웨어를 확인. 기존 문서의 앵테르마르셰 150곳은 여전히 제목 기준.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 쿠페라티브 U의 셸셰르 CEO는 매장 약 2,000곳 중 80곳이 사이버공격 피해를 입었고, 대부분 냉장 차질을 막았지만 일부는 식품을 버려야 했다고 밝혔습니다 [사실]",
+  "손실: 그는 작은 매장은 수만 유로, 대형 하이퍼마켓은 최대 20만 유로의 손실을 추정했습니다 [사실]",
+  "범위: 레스퀴르 재무장관은 프랑스 슈퍼마켓 약 1만 곳 중 약 700곳이 영향을 받았다고 했고, 냉장 관리 소프트웨어를 공급한 덴마크 댄포스는 피해 시스템 대부분이 보안 업데이트가 끊긴 구형 제품이라고 했습니다 [사실]",
+  "수사: 공격 주체를 자처한 곳은 없고 파리 검찰 사이버범죄 부서가 수사 중입니다 [사실]",
+  "기존: 앵테르마르셰도 매장 150곳이 표적이 된 사이버공격을 받았습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{佛 슈퍼마켓}} 냉장 시스템 {{해킹}}…{{쿠페라티브 U 80곳}} 등 {{700곳}} 피해",
+ "id": "n-rtr-0230",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "佛 슈퍼마켓 체인 앵테르마르셰 사이버공격, 매장 150곳 표적",
+   "u": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/"
+  },
+  {
+   "t": "佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/",
+   "s": "{{쿠페라티브 U}}가 {{매장 약 2,000곳 중 80곳}}이 {{사이버공격 피해}}를 입었다고 밝히면서 {{일부 매장}}이 {{식품을 버리는}} {{손실}}을 떠안았다"
+  }
+ ],
+ "key": "mix-C164-2026-10-13",
+ "nodes": [],
+ "num": 230,
+ "one": "{{냉장 관리 소프트웨어}}를 겨냥한 {{사이버공격}}으로 앵테르마르셰에 이어 {{쿠페라티브 U 매장 80곳}}이 피해를 입고 {{프랑스 슈퍼마켓 약 700곳}}이 영향을 받으면서, {{식품 폐기}} 등 매장당 {{최대 20만 유로}} {{손실}}이 생기고 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T15:08:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Washington Times(AP)",
+   "d": "2026-10-13",
+   "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"
+  }
+ ],
+ "tags": [],
+ "title": "{{佛 슈퍼마켓}} 냉장 시스템 {{해킹}}…{{쿠페라티브 U 80곳}} 등 {{700곳}} 피해",
+ "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+ "added": "이번 로이터 1건으로 {{쿠페라티브 U 매장 80곳}}의 {{피해}}와 {{대형 매장당 최대 20만 유로}}에 이르는 {{손실 추정}}이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

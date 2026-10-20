@@ -1,0 +1,153 @@
+{
+ "added": "이번 로이터·블룸버그 각 1건으로 {{석탄발전 증설 목표}}의 {{최대 150GW 상향 가능성}}과 {{모디 총리}}의 {{300GW 친환경 설비 확충}}이 추가됐다",
+ "basis": "verified",
+ "check": "MINING.COM·Free Press Journal·Oilprice 검색 결과 요약으로 CEA 청장 발언과 수요 수치 확인. 150GW는 공식 목표가 아닌 가능성으로 보도됨. 모디의 300GW 발언 내용은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 간샴 프라사드 인도 중앙전력청(CEA) 청장은 2035년까지 97GW로 잡은 석탄발전 증설 계획이 105GW, 많게는 150GW까지 늘 수 있다고 했다 [사실]",
+  "수요: 피크 수요가 1년 전보다 약 45~50GW 늘었고, 9월 전력 부족량은 5억 6,000만kWh로 2023년 8월 이후 가장 많았다 [사실]",
+  "재생: 인도는 지난해 재생에너지 약 50GW를 늘렸고 해마다 50GW 넘게 더할 전망이며, 모디 총리는 COP31을 앞두고 300GW 친환경 설비 확충을 내세웠다 [제목]",
+  "기존: 10월 10일 기준 석탄발전소 절반 가까이의 연료 재고가 필요량의 4분의 1 미만이었고, 소형 철강공장은 하루 10~12시간 정전을 겪었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{인도}}, 석탄난 속 {{석탄발전 증설 상향}} {{검토}}…2035년 {{97GW서 최대 150GW로}}",
+ "id": "n-rtr-0013",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-01",
+   "o": "로이터",
+   "s": "{{콜인디아}}가 {{9월 석탄 공급}}을 {{6,120만 톤으로 12.5% 늘렸}}지만 {{발전소 재고}}는 여전히 {{바닥}}이어서 {{전력 수급 부담}}이 {{이어지}}고 있다 (제목 기준)",
+   "t": "콜인디아 9월 석탄 공급 6,120만 톤…12.5% 늘려도 발전소 재고는 바닥",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{인도 석탄발전소 절반 가까이의 재고}}가 {{위험 수준으로 떨어지}}면서 {{대규모 정전 위험}}이 {{커지}}고 있다 (제목 기준)",
+   "t": "인도 석탄발전소 절반 가까이 재고 '위험 수준'…정전 위험 커져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{인도 최대 발전사}}가 {{민간 석탄 구매}}를 {{늘리기로}} 하면서 {{국영 공급 부족}}을 {{메우려는 발전사들의 조달 경쟁}}이 {{커질}} 수 있다 (제목 기준)",
+   "t": "인도 최대 발전사, 민간 석탄 구매 확대 계획",
+   "u": "https://www.reuters.com/business/energy/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-06/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{콜인디아}}가 {{계통 발전사에 우선 공급}}하면서 {{자가발전 연료를 못 구한 차티스가르주 철강공장}} 등이 {{하루 10~12시간 정전}}으로 {{감산}}에 들어가 {{석탄난}}이 {{산업으로 번졌}}다",
+   "t": "석탄난이 경제로 번지며 인도 공장들 정전 피해",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/blackouts-hit-indian-factories-as-coal-crunch-feeds-into-economy"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{7~8월 전력난}} 속에서도 {{인도 태양광 발전의 4%}}가 {{버려졌}}다는 보고서가 나오면서 {{공급 부족과 발전 낭비}}가 {{함께 나타난}} 것으로 {{드러났}}다 (제목 기준)",
+   "t": "인도, 7~8월 전력난 속 태양광 발전 4% 버려져…보고서",
+   "u": "https://www.reuters.com/business/energy/india-wastes-4-solar-power-amid-power-shortages-july-august-report-shows-2026-10-12/"
+  },
+  {
+   "t": "인도 관리 \"수요 급증에 석탄발전 설비 늘려야 할 수도\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/india-may-need-raise-coal-power-capacity-demand-surges-official-says-2026-10-13/",
+   "s": "{{인도 중앙전력청장}}이 {{전력 수요 급증}}에 2035년 {{석탄발전 증설 계획 97GW}}를 {{최대 150GW로 늘릴}} 수 있다고 밝혀, 인도의 {{석탄 수요}}가 {{더 커질}} 수 있다"
+  },
+  {
+   "t": "모디, COP31 앞두고 인도의 300GW 친환경 설비 확충 내세워",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/modi-touts-india-s-300-gigawatt-green-buildout-ahead-of-cop31",
+   "s": "{{모디 총리}}가 {{COP31}}을 앞두고 {{인도의 300GW 친환경 설비 확충}}을 {{내세우}}면서, {{석탄 증설 검토}}와 {{재생 확대}}가 {{함께 진행}}되는 인도 전력 정책이 {{부각}}되고 있다 (제목 기준)"
+  }
+ ],
+ "key": "rtr-1001-coal-india-sept-supply",
+ "nodes": [
+  "coal/power",
+  "coal/thermal",
+  "power/demand",
+  "power/gen",
+  "power/grid"
+ ],
+ "num": 13,
+ "one": "{{인도 중앙전력청장}}이 {{피크 수요가 1년 새 45~50GW 늘}}자 2035년까지 {{97GW로 잡은 석탄발전 증설}}을 {{최대 150GW로 늘려야}} 할 수 있다고 밝히면서, {{석탄 재고 부족·공장 정전}}에 시달리는 {{인도의 석탄 수요}}가 {{더 커질}} 전망이다",
+ "origTitle": "Coal India Augmented Coal Supplies By 12.5% To 61.20 MT In September FY 2026-27",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T18:08:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "로이터(원문 미확인, 제목만)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "웨일스북",
+   "u": "https://www.whalesbook.com/news/English/energy/India-Thermal-Plants-Face-Coal-Shortage-Demand-Hits-269-GW/6ac516a65aacb956d08e2aef"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Briefs(블룸버그·계통운영기관 자료 인용)",
+   "u": "https://www.briefs.co/news/india-s-power-shortfall-deepens-as-wind-slows-and-reservoirs/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "컨스트럭션월드",
+   "u": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/indias-peak-power-demand-eases-as-coal-stocks-stay-critical/98041"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "디스커버리얼러트",
+   "u": "https://discoveryalert.com/analysis/india-power-crunch-2026-grid-timing/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Mining Weekly",
+   "u": "https://www.miningweekly.com/article/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-07"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "HDFC Sky",
+   "u": "https://hdfcsky.com/news/ntpc-to-buy-10-15-mt-coal-from-commercial-miners-in-fy27"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "OilPrice.com",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Small-Indian-Factories-Face-Blackouts-as-Coal-Stocks-Plunge.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Engineering News",
+   "u": "https://www.engineeringnews.co.za/article/blackouts-hit-indian-factories-as-coal-crunch-feeds-into-economy-2026-10-12"
+  },
+  {
+   "o": "Free Press Journal",
+   "d": "2026-10-13",
+   "u": "https://www.freepressjournal.in/business/india-may-need-up-to-150-gw-additional-coal-power-capacity-by-2035-central-electricity-authority-chief"
+  },
+  {
+   "o": "Oilprice.com",
+   "d": "2026-10-13",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Indias-97-GW-Coal-Expansion-Plan-Looks-Too-Small-Senior-Official-Says.html"
+  }
+ ],
+ "tags": [],
+ "title": "{{인도}}, 석탄난 속 {{석탄발전 증설 상향}} {{검토}}…2035년 {{97GW서 최대 150GW로}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45N07O:0-coal-india-augmented-coal-supplies-by-12-5-to-61-20-mt-in-september-fy-2026-27/"
+}

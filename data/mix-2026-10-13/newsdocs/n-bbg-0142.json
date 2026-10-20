@@ -1,0 +1,101 @@
+{
+ "basis": "partial",
+ "check": "마스 시총 감소·제프리스 하향·노출 규모는 검색 결과 요약으로 확인. 아시아 AI 거래 영향은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: Firmus가 10월 9일 시장 변동성을 이유로 ASX 상장 신청을 철회하고 비공개 자금 조달로 방향을 틀었습니다 [사실]",
+  "파장: 마스 그룹 시총이 5거래일 연속 하락으로 10억 호주달러(6억 9,900만 달러) 넘게 줄었고, 제프리스는 투자의견을 낮추며 Firmus 지분 가치를 4억 1,000만에서 3억 호주달러로 깎았습니다 [사실]",
+  "노출: 마스는 Firmus에 누적 4억 1,000만 호주달러를 넣었고, 자회사 JLE가 Firmus AI 사업 관련 11억 호주달러 공사 주문을 갖고 있습니다 [사실]",
+  "배경: 공모가 기준 몸값 약 306억 달러는 두 달 전 투자 유치 때 105억 달러의 약 세 배였고, 약속한 데이터센터 용량 대부분이 아직 지어지지 않았다는 지적이 나왔습니다 [사실]",
+  "아시아: 이번 실패로 아시아에서 대기 중인 AI 거래의 기준이 높아졌다는 평가입니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "Firmus IPO 무산 여파…마스 시총 7억 달러 증발, 아시아 AI 상장 문턱↑",
+ "id": "n-bbg-0142",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "엔비디아 투자 Firmus, 대형 IPO 난항에 수요예측 마감 소식",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "엔비디아 투자 Firmus 50억 달러 IPO 보류에 호주 마스 거래정지",
+   "u": "https://www.reuters.com/business/australias-maas-enters-trading-halt-after-nvidia-backed-firmus-shelves-5-billion-2026-10-09/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "Firmus 50억 달러 상장 실패, 위축되는 호주 증시에 타격",
+   "u": "https://www.reuters.com/legal/transactional/firmus-5-bln-float-failure-deals-blow-australias-shrinking-share-market-2026-10-09/"
+  },
+  {
+   "t": "Firmus 상장 실패로 초기 투자자 마스 시총 7억 달러 증발",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/firmus-fiasco-wipes-out-700-million-of-early-backer-maas-value"
+  },
+  {
+   "t": "Firmus IPO 실패, 대기 중인 아시아 AI 거래의 문턱 높여",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/firmus-ipo-debacle-raises-the-bar-for-asia-ai-deals-in-pipeline"
+  },
+  {
+   "t": "Firmus IPO 무산 파장 아시아 확산…마스 주가 급락",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/failed-firmus-ipo-ripples-across-asia-maas-shares-slump-treasury-wine-estates"
+  }
+ ],
+ "key": "bnd-C105-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 142,
+ "one": "엔비디아가 투자한 Firmus가 50억 달러 호주 IPO를 접은 뒤 지분 3.2%와 대규모 공사 주문을 가진 마스 그룹의 시가총액이 10억 호주달러(6억 9,900만 달러) 넘게 사라지면서, 아시아에서 대기 중인 AI 인프라 거래의 상장 문턱도 높아졌다는 평가가 나온다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T06:39:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Inside AI News",
+   "u": "https://insideai.news/news/ai-in-business/firmus-ipo-shelved-maas-trading-halt/13932/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Tradingpedia",
+   "u": "https://www.tradingpedia.com/2026/10/09/firmus-halts-australia-ipo-as-ai-market-risks-mount/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Tradingkey",
+   "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207581-firmus-australia-ipo-shelved-openai-private-funding-tradingkey"
+  },
+  {
+   "o": "Mugglehead",
+   "d": "2026-10-12",
+   "u": "https://mugglehead.com/maas-group-holdings-firmus-ipo-work-orders-funding/"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-12",
+   "u": "https://cryptobriefing.com/maas-group-firmus-grid-ipo-selloff/"
+  }
+ ],
+ "tags": [],
+ "title": "Firmus IPO 무산 여파…마스 시총 7억 달러 증발, 아시아 AI 상장 문턱↑",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles"
+}

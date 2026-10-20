@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0215",
+ "num": 215,
+ "key": "bnd-C204-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T18:35:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/hong-kong-tech-index-expands-members-to-50-in-major-ai-overhaul",
+ "origTitle": "",
+ "headline": "항셍테크 지수 30→50종목 확대…AI·하드웨어 중심 대개편, 12월 7일 시행",
+ "src": [
+  {
+   "o": "Hang Seng Indexes",
+   "d": "2026-10-07",
+   "u": "https://www.hsi.com.hk/content/dam/wpb/hsil/en_hk/consultations/content/20261007T161500.pdf"
+  },
+  {
+   "o": "Caixin Global",
+   "d": "2026-10-08",
+   "u": "https://www.caixinglobal.com/2026-10-08/hong-kongs-hang-seng-tech-index-to-expand-to-50-stocks-102491229.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "홍콩 기술주 지수, AI 중심 대개편으로 구성 종목 50개로 확대",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/hong-kong-tech-index-expands-members-to-50-in-major-ai-overhaul"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "항셍테크 지수 30→50종목 확대…AI·하드웨어 중심 대개편, 12월 7일 시행",
+ "one": "항셍지수회사가 항셍테크 지수 구성 종목을 30개에서 50개로 늘리고 매출 성장 기준과 AI·첨단 하드웨어 테마를 새로 넣기로 하면서, 올해 약 24% 떨어진 이 지수를 추종하는 약 371억 달러 자금의 편입 종목이 12월부터 바뀐다",
+ "facts": [
+  "무엇이: 항셍지수회사가 10월 7일 항셍테크 지수를 12월 7일부터 50종목으로 확대 확정, 명단은 11월 20일 발표 [사실]",
+  "방식: 시가총액 상위 40개와 최근 12개월 매출 성장 상위 10개로 구성, 업종 요건 폐지, 하위 테마 16→24개 [사실]",
+  "비중: 기존 30종목이 지수 비중 90%, 신규 편입분 10% [사실]",
+  "배경: 지수가 올해 약 24% 하락, 핵심 AI 하드웨어 기업 부재가 부진 요인으로 지적, 추종 자산 약 371억 달러(9월) [사실]"
+ ],
+ "basis": "verified",
+ "check": "항셍지수회사 협의 결과 문서·Caixin 검색 결과 요약으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ]
+}

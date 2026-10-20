@@ -1,0 +1,40 @@
+{"searches_used":8,"fetches_used":0,"items":[
+{"cid":"C053","attachTo":"","title":"TCS 2분기 순이익 15% 늘었지만…인도 IT, 지정학·AI 탓 4년째 저성장 전망",
+"one":"인도 최대 IT 서비스 기업 TCS가 9월 분기 순이익 1조 3,884억 루피(13,884크로르)로 전년 대비 약 15% 늘리고 AI 서비스 연환산 매출을 31억 달러로 키웠지만, 고정환율 기준 분기 매출 증가는 0.5%에 그쳐 인도 IT 업종은 지정학·AI 위험 속에 4년째 약한 성장이 예상된다",
+"facts":["무엇이: TCS 9월 분기 지배주주 순이익 13,884크로르 루피, 전년 대비 약 15%·전분기 대비 4% 증가 [사실]","매출: 루피 기준 전년 대비 11.2%, 전분기 대비 1.3% 증가, 고정환율 기준 전분기 대비 0.5% 증가, 영업이익률 24% [사실]","AI: AI 서비스 연환산 매출 31억 달러로 전분기 26억 달러에서 증가, 주당 12루피 중간배당 [사실]","업종: 인도 IT가 지정학·AI 위험으로 4년째 약한 성장 예상, 수주 흐름은 서서히 회복 [제목]"],
+"basis":"verified","check":"TCS 실적 수치는 검색 결과 요약으로 확인. 순이익의 시장 예상 상회 여부는 매체마다 달라(Zee Business 예상 대비 1% 하회) 제목 표현을 쓰지 않음. 업종 4년째 저성장은 제목 기준",
+"src":[{"o":"Zee Business","d":"2026-10-08","u":"https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609"},{"o":"Kotak Neo","d":"2026-10-08","u":"https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/"}],
+"inds":["tech"],"nodes":[],
+"items":[
+{"t":"TCS, IT 수주 서서히 회복하며 순이익 예상 상회","o":"블룸버그","d":"2026-10-08","u":"https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up"},
+{"t":"인도 IT, 지정학·AI 위험에 4년째 약한 성장 예상","o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/news/articles/2026-10-09/india-it-set-for-fourth-year-of-weak-growth-on-geopolitics-ai-risks"},
+{"t":"인도 TCS 주가 상승…해외 사업·AI 관련 성장에 투자자 환호","o":"로이터","d":"2026-10-09","u":"https://www.reuters.com/world/india/indias-tcs-rises-investors-cheer-growth-international-business-ai-related-2026-10-09/"}]},
+{"cid":"C067","attachTo":"n-tg-0130","title":"휘발유세 유예 검토 이어 난방유 21% 상승 전망…트럼프, 중간선거 앞 연료비 압박",
+"one":"트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예를 검토하는 가운데 미 에너지정보청(EIA)이 올겨울 난방유 가구 지출이 21% 늘 것으로 전망하고 북동부 민주당 의원들이 대책을 요구하면서, 중간선거 앞 연료비가 정치 부담으로 커지고 있다",
+"facts":["무엇이: 트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예 검토, 입법 필요·인하 효과 갤런당 10~16센트 추산 [사실]","난방유: EIA 겨울 전망에서 난방유 평균 가격 갤런당 5.26달러로 34% 상승, 가구 지출 2,115달러로 21% 증가 [사실]","다른 연료: 천연가스 가구 지출 9% 감소, 프로판 3% 감소, 전기 4% 증가 [사실]","원인: 세계 정제 생산 감소, 동부 해안 중간유분 재고 9월 5년 평균보다 32% 적음, 4분기 브렌트 평균 105달러 전망 [사실]","정치: 북동부 민주당 의원들이 난방유 급등에 행정부 조치 촉구 [제목]"],
+"basis":"verified","check":"EIA 수치는 EIA 보도자료(검색 결과 요약)로 확인. 휘발유세 내용은 기존 한줄 근거",
+"src":[{"o":"EIA","d":"2026-10-06","u":"https://www.eia.gov/pressroom/releases/press593.php"},{"o":"CNBC","d":"2026-10-07","u":"https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"}],
+"inds":["macro"],"nodes":["macro/inflation","macro/commodity"],
+"items":[
+{"t":"EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망","o":"로이터","d":"2026-10-07","u":"https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"},
+{"t":"북동부 민주당 의원들, 난방유 급등에 트럼프 행정부 조치 촉구","o":"로이터","d":"2026-10-07","u":"https://www.reuters.com/legal/litigation/northeast-democrats-urge-trump-administration-action-heating-oil-costs-surge-2026-10-06/"},
+{"t":"트럼프, 중간선거 전 휘발유·디젤 가격 낮출 수 있을까","o":"블룸버그","d":"2026-10-07","u":"https://www.bloomberg.com/news/articles/2026-10-07/can-trump-lower-gas-and-diesel-prices-before-the-midterms"}]},
+{"cid":"C080","attachTo":"","title":"포테스큐, 中 CMRG 분쟁에 판매 차질…철광석은 공급 과잉·수요 부진에 주간 하락",
+"one":"포테스큐가 중국 국영 구매사 CMRG와의 가격 분쟁으로 9월 분기 철광석 판매량이 4,290만 톤으로 선적량 4,680만 톤에 못 미치고 순부채가 28억 달러로 늘었다고 밝히는 가운데, 철광석 가격도 공급 과잉·수요 부진에 주간 하락을 이어가고 있다",
+"facts":["무엇이: 포테스큐 9월 분기 선적 4,680만 톤으로 전년 대비 6% 감소, 판매는 4,290만 톤 [사실]","원인: 중국 국영 CMRG와의 연간 공급 협상 갈등, CMRG가 제철소에 포테스큐 주력 제품 인수 자제 요청 [사실]","재무: 현금 51억→32억 달러, 순부채 9억→28억 달러, 적철광 실현가격 톤당 80달러(플래츠 지수의 82%) [사실]","가격: 철광석이 공급 과잉·수요 부진으로 주간 하락 확대 [제목]"],
+"basis":"verified","check":"포테스큐 수치는 검색 결과 요약으로 확인. 철광석 가격 하락폭은 미확인",
+"src":[{"o":"MINING.COM","d":"2026-10-08","u":"https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/"},{"o":"Kalkine","d":"2026-10-08","u":"https://kalkine.com.au/news/announcements/fortescue-ships-468mt-of-iron-ore-in-q1-fy27-six-per-cent-below-prior-year"}],
+"inds":["metals"],"nodes":[],
+"items":[
+{"t":"포테스큐 \"중국과의 분쟁이 철광석 판매에 부담\"","o":"블룸버그","d":"2026-10-08","u":"https://www.bloomberg.com/news/articles/2026-10-07/fortescue-flags-lower-iron-ore-sales-as-china-dispute-drags-on"},
+{"t":"철광석, 공급 과잉·수요 부진에 주간 하락 확대","o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/news/articles/2026-10-09/iron-ore-extends-weekly-drop-as-excess-supply-weak-demand-weigh"}]},
+{"cid":"C091","attachTo":"","title":"스타벅스, 시총 390억 달러 치폴레 인수 검토…성사 땐 외식업 사상 최대",
+"one":"스타벅스가 자문사와 함께 시가총액 약 390억 달러인 치폴레 인수를 검토했다는 FT 보도가 나오면서, 치폴레 주가는 장중 최대 8.6% 뛰고 스타벅스는 6.7% 떨어져 차입·신주 발행 부담과 턴어라운드 차질 우려가 커졌다",
+"facts":["무엇이: FT가 10월 8일 스타벅스가 최근 몇 달 자문사와 치폴레 인수안을 검토했다고 보도, 공식 제안 여부는 불분명 [사실]","주가: 치폴레 장중 최대 8.6% 상승, 스타벅스 최대 6.7% 하락 후 일부 회복 [사실]","규모: 치폴레 시총 약 390억 달러, 성사 시 2014년 버거킹의 팀호튼스 인수(114억 달러)를 넘는 외식업 최대 거래 [사실]","우려: 인수 시 대규모 차입이나 신주 발행 필요, 니콜 CEO의 '백 투 스타벅스' 회복 전략과 상충한다는 분석 [사실]"],
+"basis":"verified","check":"검색 결과 요약(CBS·Forbes·Ad Age)으로 확인",
+"src":[{"o":"CBS News","d":"2026-10-08","u":"https://www.cbsnews.com/news/chipotle-stock-starbucks-takeover-ceo-brian-niccol/"},{"o":"Forbes","d":"2026-10-08","u":"https://www.forbes.com/sites/zacharyfolk/2026/10/08/chipotle-shares-rise-on-report-of-potential-starbucks-acquisition/"}],
+"inds":["consumer"],"nodes":[],
+"items":[
+{"t":"스타벅스의 인수 검토 보도에 치폴레 급등","o":"블룸버그","d":"2026-10-08","u":"https://www.bloomberg.com/news/articles/2026-10-08/chipotle-jumps-after-report-that-starbucks-has-explored-takeover"},
+{"t":"스타벅스, 치폴레 인수 검토…FT 보도","o":"로이터","d":"2026-10-09","u":"https://www.reuters.com/business/starbucks-explored-chipotle-takeover-ft-reports-2026-10-08/"}]}
+]}

@@ -1,0 +1,90 @@
+{
+ "basis": "partial",
+ "channel": "미국 주식 인사이더",
+ "check": "검색 결과 요약으로 확인: UMC 월 3,000장에서 6,000장 확대, TSMC·GF 20억 달러 5년 계약과 2028년 상반기 증산(테크소다·트렌드포스, 단 UMC 기존 능력 수치는 출처마다 다름). 스미토모 베이클라이트 증설과 PSMC 세부는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 글로벌파운드리스가 TSMC와 약 20억 달러 규모 5년 계약을 맺고 뉴욕주 몰타 공장에서 CoWoS용 실리콘 인터포저를 생산하며, 2028년 상반기부터 물량을 늘림 [사실]",
+  "대만: UMC가 인터포저 월 생산능력을 3,000장에서 6,000장으로 두 배 늘리고 딥 트렌치 커패시터를 적용한 2.5D 솔루션을 확대 [사실]",
+  "PSMC: 기존 공장 자원을 활용해 인터포저·고밀도 실리콘 커패시터·3D 웨이퍼 적층을 결합해 첨단 패키징에 진입 [채널]",
+  "소재: 스미토모 베이클라이트가 쑤저우·싱가포르에서 패키징용 몰드 언더필 생산능력을 2배, 압축 성형용 과립 소재를 3배로 늘릴 계획 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "TSMC·GF 인터포저 계약 뒤 UMC·PSMC 증설 경쟁…패키징 소재도 확충",
+ "id": "n-tg-0220",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 미국 주식 인사이더",
+   "t": "글로벌파운드리스, TSMC 첨단 AI 칩용 실리콘 부품 뉴욕서 생산…5년 계약",
+   "u": "https://t.me/insidertracking/65769"
+  },
+  {
+   "t": "스미토모 베이클라이트, 쑤저우·싱가포르서 첨단 패키징 소재 증설",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-12",
+   "u": "https://t.me/insidertracking/65982"
+  },
+  {
+   "t": "TSMC 인터포저 GF 위탁에 대만 UMC·PSMC도 인터포저 사업 확대",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70239"
+  },
+  {
+   "t": "TSMC·GF 20억 달러 인터포저 계약, UMC 월 생산능력 6,000장으로 확대",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10359"
+  },
+  {
+   "t": "TSMC, CoWoS 핵심 부품 실리콘 인터포저 첫 미국 생산을 GF에 맡겨",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70267"
+  }
+ ],
+ "key": "mix-C045-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 220,
+ "one": "글로벌파운드리스가 TSMC의 20억 달러 규모 실리콘 인터포저 5년 계약을 따내 뉴욕에서 생산하기로 한 가운데 UMC가 인터포저 월 생산능력을 3,000장에서 6,000장으로 늘리고 스미토모 베이클라이트도 패키징 소재를 증설하면서, AI 칩 첨단 패키징 공급망 경쟁이 넓어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T13:08:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/65769"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/globalfoundries-tsmc-2-billion-interposer-deal/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Yahoo Finance",
+   "u": "https://finance.yahoo.com/technology/ai/articles/tsmc-taps-globalfoundries-2b-ai-150525238.html"
+  },
+  {
+   "o": "Techsoda",
+   "d": "2026-10-12",
+   "u": "https://techsoda.substack.com/p/global-market-watch-tsmc-is-localizing"
+  }
+ ],
+ "tags": [],
+ "title": "TSMC·GF 인터포저 계약 뒤 UMC·PSMC 증설 경쟁…패키징 소재도 확충",
+ "url": "https://t.me/insidertracking/65769",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

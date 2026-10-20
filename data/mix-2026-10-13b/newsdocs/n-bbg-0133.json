@@ -1,0 +1,102 @@
+{
+ "basis": "verified",
+ "check": "인포시스의 '실질적 영향 없음' 공시는 검색 결과 요약으로 확인. 구글의 인도 사업장 확대 주장은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인포시스는 10월 10일 거래소 공시에서 미국 정부의 PERM 신청 중단이 실질적 영향을 주지 않을 것으로 본다고 밝혔다 [사실]",
+  "근거: 인포시스는 미국 내 탄탄한 현지 인력과 기술·혁신 허브를 이유로 들었고, 필요하면 추가 공시하겠다고 했다 [사실]",
+  "기존: 인도 외교부는 10월 9일 미국 조치가 양국 공동 목표에 도움이 되지 않는다고 반발했고, PERM 중단은 기존 H-1B 소지자 신분에는 영향이 없다 [사실]",
+  "구글: 한 채널은 비자 규제로 인도 인력을 미국에 데려오기 어려워지자 구글이 인도 내 사업장을 넓히고 있다고 주장했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{인포시스}} \"美 영주권 노동인증 중단, 실질적 영향 없어\"…인도 반발 속 진화",
+ "id": "n-bbg-0133",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "美, 마이크로소프트·인도 기업을 비자 프로그램에서 배제",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft",
+   "s": "미국이 {{마이크로소프트}}와 인도 기업들을 {{비자 프로그램}}에서 배제하면서 이들 회사 외국인 직원의 미국 체류 절차에 차질이 생길 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "밴스 '마이크로소프트의 영주권 프로그램 참여 중단'",
+   "u": "https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/",
+   "s": "{{밴스}}가 마이크로소프트의 {{영주권 프로그램}} 참여를 중단시켰다고 밝히면서 미국 빅테크도 외국인 인력 영주권 지원에 제약을 받게 됐다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "인도 '미국의 영주권 노동인증 조치, 양국 목표 진전에 도움 안 돼'",
+   "u": "https://www.reuters.com/world/india/india-says-us-steps-permanent-labour-certification-programme-do-not-advance-2026-10-09/",
+   "s": "{{인도 외교부}}가 미국의 {{PERM 중단}}이 양국 목표에 도움이 안 된다며 밴스의 표현을 모욕적이라 했고, H-1B 효력엔 영향이 없지만 영주권 절차엔 영향이 있을 수 있다고 했다"
+  },
+  {
+   "t": "구글, 미국 H-1B 비자 개혁에 인도 내 사업장 확대 시도",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63610",
+   "s": "미국의 {{H-1B 비자}} 개혁으로 인도 인력을 데려오기 어려워지면서, {{구글}}이 아예 인도 내 사업장을 넓히는 쪽으로 움직인다는 주장이 나왔다"
+  },
+  {
+   "t": "인도 인포시스 \"미국 PERM 중단, 실질적 영향 없을 것\"",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/world/us/indias-infosys-does-not-expect-material-impact-us-perm-suspension-2026-10-10/",
+   "s": "{{인포시스}}가 미국의 PERM 신청 중단에도 {{실질적 영향}}이 없을 것으로 본다고 밝히면서, 현지 인력 중심 운영으로 충격을 흡수할 수 있다는 입장을 냈다"
+  }
+ ],
+ "key": "bnd-C090-2026-10-09",
+ "nodes": [],
+ "num": 133,
+ "one": "미국이 인포시스·TCS·마이크로소프트 등의 {{영주권 노동인증(PERM)}} 신청을 중단해 인도 정부가 반발한 가운데 {{인포시스}}가 미국 내 현지 인력과 기술 거점을 들어 {{실질적 영향}}이 없을 것이라고 밝히면서, 인도 IT 기업의 실적 타격 우려가 줄어들 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T02:43:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/economy/2026/10/8/us-suspends-microsoft-and-adobe-from-visa-programme-amid-fraud-claims"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Forbes",
+   "u": "https://www.forbes.com/sites/conormurray/2026/10/08/trump-administration-will-suspend-microsoft-from-permanent-residency-program-vance-says/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Business Standard",
+   "u": "https://www.business-standard.com/amp/india-news/perm-programme-s-suspension-won-t-affect-existing-h-1b-visas-clarifies-mea-126100900539_1.html"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "ANI",
+   "u": "https://aninews.in/news/business/steps-by-us-dont-advance-shared-ambitions-mea-responds-to-us-barring-tech-majors-from-green-card-program20261009125434/"
+  },
+  {
+   "o": "The Hans India",
+   "d": "2026-10-10",
+   "u": "https://www.thehansindia.com/tech/infosys-doesnt-see-material-impact-from-us-governments-perm-suspension-1131249"
+  },
+  {
+   "o": "Zee Business",
+   "d": "2026-10-10",
+   "u": "https://www.zeebiz.com/companies/news-infosys-responds-to-us-perm-suspension-says-operations-unlikely-to-be-hit-403734"
+  }
+ ],
+ "tags": [],
+ "title": "{{인포시스}} \"美 영주권 노동인증 중단, 실질적 영향 없어\"…인도 반발 속 진화",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft",
+ "added": "이번 텔레그램·로이터 2건으로 {{인포시스의 영향 제한}} 공시와 비자 규제에 맞선 {{구글의 인도 사업장 확대}} 주장이 기존 인도 정부 반발에 추가됐다"
+}

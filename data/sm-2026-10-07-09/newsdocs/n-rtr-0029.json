@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0029",
+ "num": 29,
+ "key": "bnd-C036-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:24:00+09:00",
+ "url": "https://www.reuters.com/business/environment/un-weather-body-says-el-nio-set-intensify-last-until-february-2027-2026-10-08/",
+ "origTitle": "",
+ "headline": "관측 사상 최강 엘니뇨 온다…내년 2월까지 지속, 인도 설탕 생산 전망 하향",
+ "src": [
+  {
+   "o": "WMO",
+   "d": "2026-10-08",
+   "u": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-08",
+   "u": "https://abcnews.com/International/warns-strong-el-nino-year-carrying-threat-severe/story?id=136165987"
+  }
+ ],
+ "items": [
+  {
+   "t": "유엔 기상기구 \"엘니뇨 더 강해져 2027년 2월까지 지속\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/environment/un-weather-body-says-el-nio-set-intensify-last-until-february-2027-2026-10-08/"
+  },
+  {
+   "t": "미 예보기관 \"2027년 초까지 매우 강한 엘니뇨 확률 83% 이상\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/environment/us-forecaster-says-more-than-83-chance-very-strong-el-nio-through-early-2027-2026-10-08/"
+  },
+  {
+   "t": "미 농무부, 엘니뇨 타격에 인도 설탕 생산 전망 대폭 하향",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/environment/india-sugar-production-view-slashed-el-nino-hits-usda-says-2026-10-08/"
+  },
+  {
+   "t": "올해 엘니뇨, 관측 사상 가장 강력한 수준이 될 전망",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/this-year-s-el-nino-is-set-to-be-the-most-intense-ever-recorded"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "관측 사상 최강 엘니뇨 온다…내년 2월까지 지속, 인도 설탕 생산 전망 하향",
+ "one": "세계기상기구가 엘니뇨가 12월 정점까지 세지고 2027년 2월까지 이어질 확률이 거의 100%라고 밝히면서, 미국 농무부가 인도 설탕 생산 전망을 크게 낮추는 등 아시아 작황과 농산물 가격에 부담이 커질 수 있다",
+ "facts": [
+  "무엇이: 세계기상기구(WMO)가 10월 8일 엘니뇨가 12월 정점까지 강해지고 2027년 2월까지 지속될 확률이 거의 100%라고 발표 [사실]",
+  "강도: 10~12월 열대 태평양 중·동부 해수면 온도가 평년보다 3.7도 높아 기존 기록(2015~16년 2.6도)을 넘을 전망, 1950년 이후 가장 강한 수준 가능성 [사실]",
+  "미국 예보: 미 기상당국은 2027년 초까지 매우 강한 엘니뇨 확률을 83% 이상으로 봄 [제목]",
+  "작황: 미 농무부가 엘니뇨 영향으로 인도 설탕 생산 전망을 대폭 하향 [제목]"
+ ],
+ "basis": "verified",
+ "check": "WMO 발표·3.7도 전망은 WMO·ABC 등으로 확인(검색 결과 요약으로 확인). NOAA 83%와 인도 설탕 하향 폭은 확인 못 함",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

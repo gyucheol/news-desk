@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0296",
+ "num": 296,
+ "key": "mix-C107-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T03:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/saudi-owned-refinery-was-buyer-of-oil-on-cyberattacked-tanker",
+ "origTitle": "",
+ "headline": "{{사이버공격}} 받은 {{유조선 원유}}, 매수자는 {{사우디 소유 정유사}}",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10",
+   "u": "https://gcaptain.com/hackers-breached-propulsion-system-of-us-bound-oil-tanker/"
+  },
+  {
+   "o": "CBS News",
+   "d": "2026",
+   "u": "https://www.cbsnews.com/news/coast-guard-fbi-board-oil-tanker-texas/"
+  }
+ ],
+ "items": [
+  {
+   "t": "사우디 소유 정유사, 사이버공격 받은 유조선 원유의 매수자였다",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/saudi-owned-refinery-was-buyer-of-oil-on-cyberattacked-tanker"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "title": "{{사이버공격}} 받은 {{유조선 원유}}, 매수자는 {{사우디 소유 정유사}}",
+ "one": "{{해커}}가 {{추진 장치}}에 {{침입}}한 텍사스행 {{초대형 유조선}}의 {{원유 매수자}}가 {{사우디 소유 정유사}}로 {{드러나}}면서, 미국행 {{원유 수송}}의 {{사이버 보안 위험}}이 다시 {{부각}}되고 있다",
+ "facts": [
+  "무엇이: 사이버공격을 받은 유조선에 실린 원유의 매수자가 사우디 소유 정유사였다는 보도가 나왔습니다 [제목]",
+  "사건: FBI와 미 해안경비대는 올여름 텍사스 해안에 접근하던 만재 초대형 유조선의 추진 장치에 해커가 접근한 증거를 찾았고, 8월 21일 배에 올라 조사했습니다 [사실]",
+  "행선지: 이 배는 갤버스턴으로 향하던 VL 프로스페리티호로 전해졌습니다 [사실]",
+  "미확인: 해안경비대는 운항 차질·환경 피해 보고가 없다고 했고, 공격 주체는 아직 특정되지 않았습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "유조선 해킹 사건은 검색 결과 요약으로 확인. 매수자가 어느 사우디 소유 정유사인지는 확인 못 함(제목만 근거)."
+}

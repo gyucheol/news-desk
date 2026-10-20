@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0060",
+ "feed": "v5",
+ "format": "one1",
+ "num": 60,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1003-petrobras-refining-plan",
+ "published": "2026-10-03",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-03/global-diesel-crisis-boosts-petrobras-hot-button-refining-plan",
+ "inds": [
+  "petchem"
+ ],
+ "nodes": [
+  "petchem/commodity",
+  "petchem/policy"
+ ],
+ "title": "세계 경유난에 힘 받는 페트로브라스 정유 증설 구상…브라질 대선이 변수",
+ "one": "세계적인 경유 부족으로 수입 의존 부담이 커지자 브라질 페트로브라스가 경유 자급을 위한 정유 증설을 2027~2031년 계획에 넣으려 하면서, 국내 수요의 약 30%를 채우는 미국산 중심의 수입 경유 물량이 줄어들 수 있다",
+ "headline": "세계 경유난에 힘 받는 페트로브라스 정유 증설 구상…브라질 대선이 변수",
+ "facts": [
+  "무엇이: 페트로브라스가 국내 경유 수요 전부를 자체 공급하는 투자를 검토 중이며, 최고경영자는 2027~2031년 사업계획에 담길 가능성이 크다고 말했습니다. [사실]",
+  "얼마나: 페트로브라스가 국내 경유의 약 70%를 공급하고 나머지는 수입이며, 10월 수입 예약은 하루 약 17만 배럴로 그중 약 68%가 미국산입니다. [사실]",
+  "변수: 10월 4일 대선에서 룰라 대통령은 정유 증설을 지지하고, 야권 플라비우 보우소나루 후보는 민간 투자와 일부 민영화 쪽에 섰습니다. [사실]",
+  "배경: 증설 후보로는 헤네스트 정유소와 보아벤투라 단지가 거론되지만, 투자액과 증설 규모는 공개되지 않았습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 브리프스 파이낸스(10월 3일, 블룸버그 기사 연결)와 리우타임스(8월 8일) 보도로 작성. 수입 물량이 줄어든다는 부분은 자급 목표에서 끌어낸 해석임.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-03",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-03/global-diesel-crisis-boosts-petrobras-hot-button-refining-plan"
+  },
+  {
+   "o": "브리프스 파이낸스",
+   "d": "2026-10-03",
+   "u": "https://www.briefs.co/news/diesel-squeeze-puts-petrobras-self-sufficiency-push-in-the-s/"
+  },
+  {
+   "o": "리우타임스",
+   "d": "2026-08-08",
+   "u": "https://www.riotimesonline.com/petrobras-diesel-self-sufficiency-2027-2031/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Global Diesel Crisis Boosts Petrobras’ Hot-Button Refining Plan"
+}

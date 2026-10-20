@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0200",
+ "feed": "v5",
+ "format": "one1",
+ "num": 200,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65716",
+ "published": "2026-10-08T14:37:00+09:00",
+ "url": "https://t.me/insidertracking/65716",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "백악관 AI 과학 정상회의…AMD·오픈AI·앤트로픽 10억 달러 이상 투자 약속",
+ "one": "미국 정부가 AI 과학 정상회의에서 AMD·오픈AI·앤트로픽 등 기업의 10억 달러 이상 투자 약속과 남동부 10개 주를 잇는 AI 컴퓨팅 허브를 내놓으면서, 정부 연구비 삭감분을 민간 AI 연산 투자가 메우는 구도가 짜이고 있다",
+ "headline": "백악관 AI 과학 정상회의…AMD·오픈AI·앤트로픽 10억 달러 이상 투자 약속",
+ "facts": [
+  "무엇이: 백악관이 10월 8일 AI 과학 정상회의에서 제네시스 미션에 대한 AMD·오픈AI·앤트로픽 등의 10억 달러 이상 투자 약속을 발표합니다 [사실]",
+  "허브: 미국 남동부 10개 주, 14개 이상 기관을 연결하는 AI 컴퓨팅 네트워크를 만들며 조지아주는 10억 달러를 내놓습니다 [사실]",
+  "정부: 국립과학재단과 에너지부가 AI 기반 과학 도구에 1억 달러 이상을 투자합니다 [사실]",
+  "배경: 트럼프 행정부가 과학 연구개발 예산을 줄이는 가운데 민간 참여를 끌어들이려는 것입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(악시오스 보도 인용)로 들어온 소식이며, 악시오스(2026-10-07) 자체 기사와 Crypto Briefing 등 검색 결과 요약으로 확인했습니다. 조지아주 10억 달러의 용도는 매체마다 설명이 다릅니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65716"
+  },
+  {
+   "o": "Axios",
+   "d": "2026-10-07",
+   "u": "https://www.axios.com/2026/10/07/exclusive-inside-trumps-ai-science-summit"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-08",
+   "u": "https://cryptobriefing.com/trump-genesis-mission-ai-science-summit/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

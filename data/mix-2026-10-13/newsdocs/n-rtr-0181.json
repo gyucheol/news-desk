@@ -1,0 +1,58 @@
+{
+ "basis": "partial",
+ "check": "지수 약 2.5% 하락·5,936 마감은 검색 결과 요약으로 확인. 규제 벌금 추측이라는 원인은 확인 못 함(제목만). 낙폭은 보도마다 2.47~2.59%로 다름.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 자카르타종합지수가 10월 12일 약 2.5% 하락해 5,936 안팎에 마감했고, 하락 종목이 632개에 달했습니다 [사실]",
+  "업종: 인프라·금융·농업 업종에서 낙폭이 컸습니다 [사실]",
+  "원인: 블룸버그는 규제 벌금을 둘러싼 추측을 급락 원인으로 들었으나, 다른 보도에서는 벌금 관련 내용을 찾지 못했습니다 [제목]",
+  "기존: 다난타라는 일시적 외부 충격으로 밸류에이션이 매력적이면 개입할 수 있다고 했고, 다음 달 MSCI 검토에서 강등 우려가 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도네시아 증시 2.5% 급락해 석 달 최저…규제 벌금설·MSCI 강등 우려",
+ "id": "n-rtr-0181",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "인도네시아 다난타라 \"밸류에이션 매력 있으면 급락장에 개입할 수도\"",
+   "u": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/"
+  },
+  {
+   "t": "인도네시아 증시, 규제 당국 벌금 추측에 급락",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/indonesian-stocks-plunge-sending-benchmark-to-three-month-low"
+  }
+ ],
+ "key": "mix-C060-2026-10-09",
+ "nodes": [],
+ "num": 181,
+ "one": "국부펀드 다난타라가 급락 시 매수 가능성을 열어둔 가운데 인도네시아 증시가 10월 12일 규제 벌금 추측 속에 2.5% 넘게 떨어져 석 달 만의 최저로 밀리면서, MSCI 강등 우려 속 세계 최약체 시장의 하방 압력이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T16:42:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/danantara-signals-it-could-step-in-when-indonesia-stocks-slide"
+  },
+  {
+   "o": "Rancak Media",
+   "d": "2026-10-12",
+   "u": "https://rancakmedia.com/finance/101920/ihsg-plunges-2-59-to-5936-ptro-cuan-dssa-shares-tumble"
+  }
+ ],
+ "tags": [],
+ "title": "인도네시아 증시 2.5% 급락해 석 달 최저…규제 벌금설·MSCI 강등 우려",
+ "url": "https://www.reuters.com/world/asia-pacific/indonesias-danantara-says-it-could-step-during-market-selloffs-if-valuations-2026-10-09/",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

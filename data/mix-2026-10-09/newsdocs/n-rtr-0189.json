@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0189",
+ "num": 189,
+ "key": "mix-C071-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T17:11:00+09:00",
+ "url": "https://www.reuters.com/business/european-majors-strong-earnings-growth-expected-have-continued-q3-2026-10-09/",
+ "origTitle": "",
+ "headline": "유럽 석유 메이저 3분기도 이익 강세 전망…셸 정제마진 배럴당 42달러로 급등",
+ "src": [
+  {
+   "o": "Shell",
+   "d": "2026-10-07",
+   "u": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2026/shell-third-quarter-2026-update-note/_jcr_content/root/main/section/simple_copy/call_to_action/links/item0.stream/1791349231897/c8861121920e47d0e80c3ff047537e15e0580dae/q3-2026-quarterly-update-note.pdf"
+  },
+  {
+   "o": "Rigzone",
+   "d": "2026-10-07",
+   "u": "https://www.rigzone.com/news/shell_expects_strong_trading_results_for_q3-07-oct-2026-184789-article"
+  }
+ ],
+ "items": [
+  {
+   "t": "유럽 석유 메이저, 3분기에도 강한 이익 증가세 이어갔을 듯",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/european-majors-strong-earnings-growth-expected-have-continued-q3-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "petchem/commodity"
+ ],
+ "title": "유럽 석유 메이저 3분기도 이익 강세 전망…셸 정제마진 배럴당 42달러로 급등",
+ "one": "유럽 석유 메이저의 3분기 이익이 강한 증가세를 이어갈 것으로 보이는 가운데, 셸이 3분기 지표 정제마진을 2분기 24달러에서 42달러로 제시하고 브렌트 분기 평균이 90달러를 넘어 정유·트레이딩 이익이 커질 전망이다",
+ "facts": [
+  "무엇이: 유럽 석유 메이저들의 강한 이익 증가세가 3분기에도 이어졌을 것으로 예상됩니다 [제목]",
+  "셸: 3분기 지표 정제마진은 배럴당 42달러로 2분기 24달러에서 크게 뛰었고, 정제설비 가동률은 93~97%로 제시했습니다 [사실]",
+  "반대 흐름: 셸의 지표 화학 마진은 톤당 270달러에서 208달러로 떨어졌고, 마케팅 이익도 2분기보다 낮을 전망입니다 [사실]",
+  "BP: 3분기 생산은 중동 차질과 멕시코만 기상 영향을 반영해 하루 210만~225만 배럴(석유환산)로 제시했고, 정제마진은 높게 유지될 것으로 봤습니다 [사실]",
+  "일정: 셸은 10월 29일 3분기 실적을 발표합니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "셸 3분기 업데이트(정제마진 42달러, 화학 마진 하락, 브렌트 90달러 이상)와 BP 가이던스는 검색 결과 요약으로 확인. 토탈에너지 등 다른 메이저의 3분기 전망은 확인 못 함"
+}

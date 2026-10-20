@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 중앙은행 경고, 적자 경로(2028년 수치는 3.2%와 3.3%로 엇갈림), 2025년 적자 3.1% 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 이탈리아 중앙은행은 10월 12일 2027·2028년 재정적자가 GDP 3%를 넘는 계획이 EU 과다적자 절차 졸업을 어렵게 할 수 있다고 경고했습니다 [사실]",
+  "적자 경로: 정부는 적자가 올해 2.9%에서 내년 3.4%로 늘었다가 2028년 3.2~3.3%로 소폭 줄 것으로 봤습니다 [사실]",
+  "규정: 중앙은행은 EU 국가별 예외조항이 새 절차 개시는 막지만 이미 절차에 있는 나라의 졸업 규정은 없다고 지적했습니다 [사실]",
+  "현황: 2025년 적자가 3.1%로 확정돼 올해 조기 졸업은 무산됐습니다 [사실]",
+  "EU 입장: 돔브로우스키스 집행위원은 10월 8일 이탈리아·그리스의 유연성 확대 요구에 '새 유연성을 계속 줄 수는 없다'며 재정 신중을 강조했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "이탈리아 중앙은행 '적자 3% 초과로 EU 과다적자 절차 졸업 위태'…EU도 재정 신중",
+ "id": "n-rtr-0030",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "이탈리아 'EU는 예산 이탈 평가 때 인플레이션 감안해야'",
+   "u": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "이탈리아, 2027년 예산 분담 놓고 은행·에너지 기업과 협의",
+   "u": "https://www.reuters.com/business/energy/italy-talking-banks-energy-groups-over-contribution-2027-budget-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "EU, 이탈리아·그리스 재량 요구에 재정 신중 압박",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-pushes-for-fiscal-prudence-as-italy-and-greece-seek-leeway"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "EU 집행위, 그리스·이탈리아의 재정준칙 유연성 확대 요구 거부",
+   "u": "https://www.reuters.com/business/eu-exec-rejects-greek-italian-requests-more-fiscal-rules-flexibility-2026-10-08/"
+  },
+  {
+   "t": "이탈리아 중앙은행, 적자 확대로 EU 재정 절차 졸업 위태롭다고 경고",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/italy-exit-eu-budget-procedure-risk-due-deficit-increase-central-bank-warns-2026-10-12/"
+  }
+ ],
+ "key": "bnd-C037-2026-10-09",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 30,
+ "one": "이탈리아 정부가 내년 재정적자를 GDP의 3.4%로 늘려 잡자 중앙은행이 EU 과다적자 절차 졸업이 어려워질 수 있다고 경고했고, EU 집행위도 추가 유연성 요구에 재정 신중으로 선을 그어 내년 예산 운용 여지가 더 좁아지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T01:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Democrata",
+   "u": "https://www.democrata.es/en/economy/brussels-cools-the-demand-of-italy-and-greece-to-expand-fiscal-flexibility-in-the-face-of-the-energy-crisis/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Rapporteur",
+   "u": "https://www.rapporteur.com/news/brussels-casts-doubt-on-italy-greeces-call-for-more-budget-wiggle-room/"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-12",
+   "u": "https://www.globalbankingandfinance.com/italy-exit-eu-budget-procedure-risk-due-deficit-increase/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-12",
+   "u": "https://www.newsquawk.com/headlines/bank-of-italy-say-the-budget-deficit-exceeding-3-of-gdp-in-2027-28-could-affect-the-countrys-exit-from-eus-excessive-deficit-procedure"
+  }
+ ],
+ "tags": [],
+ "title": "이탈리아 중앙은행 '적자 3% 초과로 EU 과다적자 절차 졸업 위태'…EU도 재정 신중",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/"
+}

@@ -1,0 +1,84 @@
+{
+ "basis": "verified",
+ "check": "마감 연장 날짜, 공모 조건, 연장 이유는 검색 결과 요약으로 확인. 씨티 분석과 청약 배수는 미확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 나이지리아 증권거래위원회 승인으로 단고테 정유 IPO 청약 마감이 10월 13일에서 10월 27일로 연장됐다 [사실]",
+  "이유: 회사는 아프리카 다른 나라의 판매 채널과 국경 간 투자, 계좌 개설과 본인 확인 시간을 늘리기 위한 것이라고 밝혔다 [사실]",
+  "규모: 41억 주를 주당 525나이라에 팔아 약 16억 달러, 초과배정 시 최대 21억 달러를 조달한다 [사실]",
+  "수요: 단고테 측은 청약이 원래 목표의 3~4배를 넘었다고 했지만 독립적으로 확인된 수치는 아니다 [사실]",
+  "파급: 씨티는 단고테 IPO 열기가 아프리카 자본시장을 깊게 할 수 있다고 봤다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "단고테 정유 16억 달러 IPO, 수요 강세에 10월 27일로 2주 연장",
+ "id": "n-rtr-0159",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "우간다, 단고테 정유 주식의 자국 투자자 판매 승인",
+   "u": "https://www.reuters.com/business/energy/uganda-approves-sale-dangote-refinery-shares-domestic-investors-2026-10-07/"
+  },
+  {
+   "t": "씨티 '단고테 IPO 열기, 아프리카 자본시장 심화시킬 수 있어'",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/africa/dangote-ipo-fever-could-deepen-africas-capital-markets-citi-says-2026-10-12/"
+  },
+  {
+   "t": "단고테 정유, 강한 수요에 IPO 2주 연장",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/dangote-refinery-to-extend-ipo-by-two-weeks-to-add-more-nations"
+  },
+  {
+   "t": "나이지리아 단고테 정유 IPO 10일 연장 예정…자문역",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/nigerias-dangote-oil-refinery-ipo-be-extended-by-10-days-executive-adviser-say-2026-10-12/"
+  }
+ ],
+ "key": "bnd-C318-2026-10-09",
+ "nodes": [
+  "petchem/feedstock"
+ ],
+ "num": 159,
+ "one": "나이지리아 단고테 정유가 강한 청약 수요를 이유로 16억 달러 규모 IPO 마감을 10월 13일에서 27일로 2주 늘리면서, 우간다·케냐 등 아프리카 다른 나라 투자자의 참여가 넓어지고 상장 일정도 뒤로 밀릴 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T01:11:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Africanews",
+   "u": "https://www.africanews.com/2026/10/07/after-kenya-uganda-opens-dangote-refinery-ipo-to-domestic-investors/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "People Daily",
+   "u": "https://peopledaily.digital/business/uganda-restricts-dangote-refinery-ipo-to-wealthy-professional-investors"
+  },
+  {
+   "o": "Vanguard",
+   "d": "2026-10-12",
+   "u": "https://www.vanguardngr.com/2026/10/dangote-refinery-extends-ipo/"
+  },
+  {
+   "o": "Channels Television",
+   "d": "2026-10-12",
+   "u": "https://www.channelstv.com/2026/10/12/ipo-dangote-refinery-extends-offer-period-by-two-weeks/"
+  }
+ ],
+ "tags": [],
+ "title": "단고테 정유 16억 달러 IPO, 수요 강세에 10월 27일로 2주 연장",
+ "url": "https://www.reuters.com/business/energy/uganda-approves-sale-dangote-refinery-shares-domestic-investors-2026-10-07/",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

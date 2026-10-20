@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0354",
+ "num": 354,
+ "key": "mix-G1-052-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T11:37:00+09:00",
+ "url": "https://www.reuters.com/legal/government/us-appeals-court-invalidates-federal-9-billion-telecom-subsidy-fund-2026-10-16/",
+ "origTitle": "",
+ "headline": "美 항소법원, 연 90억 달러 통신 보조금 기금 운영기관 설립 무효 판결",
+ "src": [
+  {
+   "o": "Mezha",
+   "d": "2026-10-16",
+   "u": "https://mezha.net/eng/news/mezha-b6fc943f93e352e47b3b852b_us_appeals_court"
+  },
+  {
+   "o": "Wiley",
+   "d": "2025-06",
+   "u": "https://www.wiley.law/alert-Supreme-Court-Declares-Universal-Service-Fund-Constitutional-Reversing-Fifth-Circuit-Opinion"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 항소법원, 연방 90억 달러 통신 보조금 기금 무효화",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/government/us-appeals-court-invalidates-federal-9-billion-telecom-subsidy-fund-2026-10-16/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "美 항소법원, 연 90억 달러 통신 보조금 기금 운영기관 설립 무효 판결",
+ "one": "미 제5순회 항소법원이 FCC에 연 90억 달러 규모 보편적 서비스 기금의 운영기관(USAC)을 세울 권한이 없었다고 판결하면서, 통신 보조금 지원 체계가 흔들릴 수 있다",
+ "facts": [
+  "무엇이: 제5순회 항소법원 재판부(이디스 브라운 클레멘트 판사)는 FCC가 1997년 USAC를 만든 것이 의회의 구체적 승인 없이 이뤄져 정부기업통제법을 어겼다고 판결했다 [사실]",
+  "규모: 기금은 해마다 약 90억 달러를 거두며, 판결은 기금 자체보다 운영기관 설립을 겨냥했다 [사실]",
+  "시점: FCC는 판결이 최소 두 달간 효력을 내지 않으며 모든 대응 방안을 검토 중이라고 밝혔다 [사실]",
+  "배경: 대법원은 2025년 6월 보편적 서비스 기금 조달 방식이 위헌이 아니라고 판결해 제5순회 전원합의체 결정을 뒤집은 바 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "판결 요지와 FCC 반응은 검색 결과 요약으로 확인(보도 대부분이 로이터 전재), 2025년 대법원 판결은 로펌 자료로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "연 90억 달러 통신 보조금 기금 운영 차질 우려"
+  }
+ ]
+}

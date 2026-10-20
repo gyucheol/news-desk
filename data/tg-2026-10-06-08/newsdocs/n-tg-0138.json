@@ -1,0 +1,53 @@
+{
+ "id": "n-tg-0138",
+ "feed": "v5",
+ "format": "one1",
+ "num": 138,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-w_compass-7218",
+ "published": "2026-10-08T08:23:00+09:00",
+ "url": "https://t.me/w_compass/7218",
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/demand",
+  "macro/semis"
+ ],
+ "title": "중국, 남는 전력·싼 땅으로 내륙 AI 데이터센터 건설 가속(FT)",
+ "one": "첨단 AI 칩 확보가 막힌 중국이 풍력 설비가 남아도는 내몽골 등 내륙에 데이터센터를 몰아 지으면서, 가동 중인 24GW에 더해 50GW가 건설 중이거나 계획돼 미국(56GW)과의 용량 격차를 좁히려 하고 있다",
+ "headline": "중국, 남는 전력·싼 땅으로 내륙 AI 데이터센터 건설 가속(FT)",
+ "facts": [
+  "무엇이: 중국이 남는 전력과 싼 토지를 앞세워 에너지 자원이 풍부한 내륙 지역에 데이터센터 건설을 크게 늘리고 있다고 FT가 8일 보도했습니다(한국경제 인용 보도) [사실]",
+  "얼마나: 중국의 가동 중 데이터센터 용량은 24GW로 미국 56GW의 절반에 못 미치며, 50GW가 추가로 건설 중이거나 계획 발표 단계입니다 [사실]",
+  "어디서: 내몽골 울란차부에 데이터센터 89곳이 지어졌거나 계획돼 있고, 내몽골 풍력 설비는 6월 기준 117GW로 중국 최대입니다 [사실]",
+  "변수: 추가 50GW가 실제 연산 능력이 되려면 반도체 확보가 필요하고, 서부 일부 시설은 가동률이 20~30%에 그친다는 분석(ASPI)도 있습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "부의 나침반 글(한국경제 10월 8일 기사, FT 보도 인용)로 들어온 소식이며, 한국경제 기사 검색 결과 요약으로 24GW·56GW·50GW·울란차부 89곳 수치를 확인했습니다. FT 원문은 직접 확인하지 못했고, 가동률 20~30%는 ASPI 분석 검색 결과 요약으로 확인했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-08",
+   "u": "https://t.me/w_compass/7218"
+  },
+  {
+   "o": "한국경제(FT 인용)",
+   "d": "2026-10-08",
+   "u": "https://www.hankyung.com/article/202610089838i"
+  },
+  {
+   "o": "ASPI The Strategist",
+   "d": "2026",
+   "u": "https://www.aspistrategist.org.au/abundant-electricity-isnt-enough-chinas-overbuilt-ai-computing-power-is-underused/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "부의 나침반",
+ "ind": "semis"
+}

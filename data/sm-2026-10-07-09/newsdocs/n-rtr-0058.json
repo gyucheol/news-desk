@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0058",
+ "num": 58,
+ "key": "bnd-C140-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T15:53:00+09:00",
+ "url": "https://www.reuters.com/business/energy/equinor-says-trading-profit-will-top-guidance-third-quarter-2026-10-07/",
+ "origTitle": "",
+ "headline": "에퀴노르, 정제마진·LNG 트레이딩 호조에 3분기 마케팅 이익 가이던스 상회",
+ "src": [
+  {
+   "o": "Equinor",
+   "d": "2026-10-08",
+   "u": "https://www.equinor.com/news/20261008-gas-discovery-gullfaks-field"
+  },
+  {
+   "o": "energynews.pro",
+   "d": "2026-10-07",
+   "u": "https://energynews.pro/en/equinor-expects-its-mmp-segment-to-exceed-the-400-million-guidance"
+  }
+ ],
+ "items": [
+  {
+   "t": "에퀴노르 \"3분기 트레이딩 이익 가이던스 웃돌 것\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/equinor-says-trading-profit-will-top-guidance-third-quarter-2026-10-07/"
+  },
+  {
+   "t": "에퀴노르, 노르웨이 북해 해역에서 새로운 가스 매장지를 발견",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/equinor-makes-gas-discovery-north-sea-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "에퀴노르, 정제마진·LNG 트레이딩 호조에 3분기 마케팅 이익 가이던스 상회",
+ "one": "에퀴노르가 유럽 정제마진 급등과 LNG 트레이딩 최적화로 3분기 마케팅·미드스트림 부문 이익이 분기 가이던스 4억 달러를 넘을 것이라고 밝히고 북해 굴팍스 남부에서 가스를 새로 발견하면서, 유럽 연료 공급난이 노르웨이 생산자의 이익으로 이어지고 있다",
+ "facts": [
+  "무엇이: 에퀴노르가 3분기 MMP(마케팅·미드스트림·가공) 부문 이익이 4억 달러 가이던스를 웃돌 것이라고 10월 7일 밝혔다. 2분기에는 7억 7,700만 달러였다 [사실]",
+  "원인: 이례적으로 강한 유럽 정제마진과 자사·제3자 LNG 트레이딩 최적화를 들었고, 3분기 실적은 10월 28일 발표된다 [사실]",
+  "발견: 베르겐 북서쪽 190km 굴팍스 남부에서 회수 가능량 330만~1,030만 배럴(석유환산)의 가스를 발견했으며 개발 일정은 아직 없다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(에퀴노르 발표, Offshore Energy, energynews.pro)",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream",
+  "gas/trade"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

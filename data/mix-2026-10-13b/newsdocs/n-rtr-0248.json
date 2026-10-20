@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0248",
+ "num": 248,
+ "key": "mix-C102-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T21:52:00+09:00",
+ "url": "https://www.reuters.com/business/energy/shell-take-30-stake-equinors-bay-du-nord-oil-project-canada-2026-10-09/",
+ "origTitle": "",
+ "headline": "셸, 에퀴노르 {{베이 뒤 노르}} 해양 유전 지분 30% 인수",
+ "src": [
+  {
+   "o": "World Oil",
+   "d": "2026-10-09",
+   "u": "https://www.worldoil.com/news/2026/10/9/shell-to-acquire-30-stake-in-equinor-s-bay-du-nord-offshore-oil-project/"
+  },
+  {
+   "o": "BOE Report",
+   "d": "2026-10-09",
+   "u": "https://boereport.com/2026/10/09/shell-to-take-30-stake-in-equinors-bay-du-nord-oil-project-in-canada/"
+  }
+ ],
+ "items": [
+  {
+   "t": "셸, 에퀴노르의 캐나다 베이 뒤 노르 유전 사업 지분 30% 인수",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/shell-take-30-stake-equinors-bay-du-nord-oil-project-canada-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "title": "셸, 에퀴노르 {{베이 뒤 노르}} 해양 유전 지분 30% 인수",
+ "one": "{{셸 캐나다}}가 캐나다 뉴펀들랜드 앞바다의 140억 캐나다달러 규모 베이 뒤 노르 사업 지분 {{30%}}를 인수하기로 하면서, BP가 빠진 이 사업의 {{2027년 초 최종투자결정}}에 힘이 실릴 수 있다",
+ "facts": [
+  "무엇이: 셸 캐나다가 뉴펀들랜드 앞바다 약 500km의 베이 뒤 노르 사업 비운영 지분 30%를 인수하기로 했고, 에퀴노르는 70%를 보유하며 운영을 맡습니다 [사실]",
+  "규모: 1단계 회수 가능 자원은 4억 배럴 이상, 개발비는 140억 캐나다달러로 추정되며 인수 금액은 공개되지 않았습니다 [사실]",
+  "일정: 에퀴노르는 2027년 초 최종투자결정, 2031년 첫 생산을 목표로 합니다 [사실]",
+  "배경: BP는 7월 보유 지분 37.2%를 매각했습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "지분 30%·운영 구조·개발비·일정은 검색 결과 요약으로 확인"
+}

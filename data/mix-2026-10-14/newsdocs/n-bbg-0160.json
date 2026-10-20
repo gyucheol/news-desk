@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "Arab News·New Arab 등 로이터 전재본 검색 결과 요약과 알자지라로 확인. 도시 장악 여부는 공식 확인 없음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 주민 연락처·외교관·분쟁 전문가 등 6명의 소식통은 10월 13일 에티오피아군이 에리트레아 국경의 인구 약 1만5천 명 도시 잘람베사에 도달했다고 전했습니다 [사실]",
+  "미확인: 친정부 민병대 대변인은 도시 장악을 확인하지 않았고, 에티오피아군과 총리실은 답하지 않았습니다 [사실]",
+  "에리트레아: 에리트레아군이 앞선 주 반군 지원을 위해 잘람베사로 넘어왔다는 증언이 있고, 에리트레아는 침공을 부인하며 에티오피아의 비난을 선전포고로 규정했습니다 [사실]",
+  "외교: 유엔 안보리는 13일 아프리카의 뿔 위기를 다루는 비공개 회의를 열 예정이었습니다 [사실]",
+  "기존: 에티오피아는 에리트레아군이 최대 60km 들어왔다며 자위권을 밝혔고, 양국은 10월 1일 외교 관계가 끊겼습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{에티오피아군}}, 에리트레아 {{국경 도시 잘람베사}} {{진입}}…{{전쟁 우려}} 고조",
+ "id": "n-bbg-0160",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "에티오피아·에리트레아 긴장이 홍해 해운에 또 다른 위협인 이유",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/why-ethiopia-eritrea-tensions-pose-another-threat-to-red-sea-shipping"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "에티오피아 \"에리트레아의 전면 침공에 맞서 스스로 방어해야\"",
+   "u": "https://www.reuters.com/world/africa/ethiopia-says-it-must-defend-itself-against-eritreas-all-out-invasion-2026-10-09/"
+  },
+  {
+   "t": "에티오피아군, 에리트레아 접경 도시 진입…전쟁 우려 고조",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/africa/ethiopian-troops-enter-town-border-with-eritrea-stoking-war-fears-2026-10-13/",
+   "s": "{{에티오피아군}}이 {{에리트레아 접경 도시 잘람베사}}에 {{진입}}했다는 증언이 나오면서 {{양국 전면전 우려}}가 {{커지}}고 {{안보리}}가 {{비공개 회의}}에 {{나섰}}다"
+  }
+ ],
+ "key": "bnd-C144-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 160,
+ "one": "{{에리트레아군의 북부 침공}}을 {{주장}}해 온 {{에티오피아}}의 {{정부군}}이 {{국경 도시 잘람베사}}에 {{들어갔다}}는 증언이 나오고 {{에리트레아}}가 {{에티오피아의 비난}}을 {{선전포고}}로 {{규정}}하면서, {{단교}}로 번진 {{양국 갈등}}이 {{홍해 인접 전쟁}}으로 {{커질}} 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:27:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Critical Threats",
+   "u": "https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "ThePrint",
+   "u": "https://theprint.in/world/ethiopia-says-it-must-defend-itself-against-eritreas-all-out-invasion/3066516/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "BusinessDay",
+   "u": "https://www.businessday.co.za/world/africa/2026-10-09-ethiopia-says-it-must-defend-itself-against-eritreas-all-out-invasion/"
+  },
+  {
+   "o": "Arab News",
+   "d": "2026-10-13",
+   "u": "https://www.arabnews.com/world/ethiopian-troops-enter-town-on-border-with-eritrea-stoking-war-fears-3006143"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-11",
+   "u": "https://www.aljazeera.com/news/2026/10/11/ethiopia-eritrea-ramp-up-rhetoric-are-they-inching-towards-war"
+  }
+ ],
+ "tags": [],
+ "title": "{{에티오피아군}}, 에리트레아 {{국경 도시 잘람베사}} {{진입}}…{{전쟁 우려}} 고조",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/why-ethiopia-eritrea-tensions-pose-another-threat-to-red-sea-shipping",
+ "added": "이번 로이터 1건으로 {{에티오피아군}}이 {{국경 도시 잘람베사}}에 {{진입}}했다는 {{소식통 6명의 증언}}과 {{안보리 비공개 회의}} 소집이 추가됐다"
+}

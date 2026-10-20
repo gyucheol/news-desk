@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0337",
+ "num": 337,
+ "key": "mix-G4-063-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/toyota-commits-to-making-cars-in-canada-as-us-rivals-downsize",
+ "origTitle": "",
+ "headline": "도요타, 美 경쟁사 감산 속 캐나다 생산 유지 약속",
+ "src": [
+  {
+   "o": "CBC News",
+   "d": "2026",
+   "u": "https://www.cbc.ca/news/canada/london/toyota-signals-commitment-to-ontario-auto-workers-as-new-generation-rav4-rolls-out-9.7058580"
+  }
+ ],
+ "items": [
+  {
+   "t": "도요타, 미국 경쟁사 축소 속 캐나다 자동차 생산 약속",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/toyota-commits-to-making-cars-in-canada-as-us-rivals-downsize"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "도요타, 美 경쟁사 감산 속 캐나다 생산 유지 약속",
+ "one": "도요타가 미국 경쟁 완성차 업체들이 캐나다 생산을 줄이는 가운데 캐나다에서 자동차를 계속 만들겠다고 약속하면서, 캐나다 자동차 산업의 생산 기반 축소 우려가 일부 누그러질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 도요타가 캐나다에서 자동차 생산을 이어가겠다고 약속했다 [제목]",
+  "대비: 미국 경쟁 완성차 업체들은 캐나다 사업을 줄이고 있다 [제목]",
+  "배경: 도요타는 온타리오주 3개 공장에서 약 8,500명을 고용하고 있으며, 새 RAV4 생산에 11억 달러를 들였다고 밝힌 바 있다 [사실]"
+ ],
+ "basis": "title",
+ "check": "10월 약속 내용은 찾지 못함(CBC 기사 열람 403). 온타리오 3개 공장·약 8,500명·RAV4 11억 달러는 올해 초 CBC 보도의 검색 결과 요약으로 확인한 배경",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "도요타 캐나다 생산 유지 약속, 미 경쟁사는 축소"
+  }
+ ]
+}

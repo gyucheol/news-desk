@@ -1,0 +1,53 @@
+{
+ "id": "n-tg-0121",
+ "feed": "v5",
+ "format": "one1",
+ "num": 121,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-10063",
+ "published": "2026-10-07T08:44:00+09:00",
+ "url": "https://t.me/Trillion_labs/10063",
+ "inds": [
+  "petchem",
+  "macro"
+ ],
+ "nodes": [
+  "petchem/commodity",
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "title": "러 볼고그라드 정유소 드론 피해로 전면 중단…베네수엘라 카르돈도 화재로 멈춰",
+ "one": "루코일 볼고그라드 정유소(하루 약 28만 배럴)가 드론 공격으로 10월 2일 원유 처리를 전부 멈춘 데 이어 베네수엘라 카르돈 정유소도 6일 화재로 서면서, 이미 연료난을 겪는 러시아의 경유·휘발유 공급이 더 빠듯해질 수 있다",
+ "headline": "러 볼고그라드 정유소 드론 피해로 전면 중단…베네수엘라 카르돈도 화재로 멈춰",
+ "facts": [
+  "무엇이: 루코일 볼고그라드 정유소가 드론 공격으로 장비가 손상돼 10월 2일 원유 처리를 완전히 중단했다고 업계 소식통 2명이 전했습니다 [사실]",
+  "얼마나: 처리능력은 연 약 1,400만 톤(하루 약 28만 배럴)으로 러시아 전체 정제량의 약 5%이며, 복구 시점은 알려지지 않았습니다 [사실]",
+  "카르돈: 베네수엘라 PDVSA의 카르돈 정유소(처리능력 하루 31만 배럴)가 10월 6일 보일러용 가스관 파열 화재로 가동 중이던 설비를 멈췄습니다 [사실]",
+  "단서: 카르돈은 올해 내내 능력을 크게 밑돌아 가동해 실제 감산량은 31만 배럴보다 적고, 영향은 주로 베네수엘라 내수에 그칠 것이라는 분석입니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(로이터 보도 전재)로 들어온 소식이며, 볼고그라드 중단은 Meduza(2026-10-06) 기사를 검색 결과 요약으로 확인했고(원 출처는 로이터 업계 소식통), 카르돈 화재는 The Deep Dive(2026-10-07) 기사로 확인했습니다. 카르돈 화재 지점은 PDVSA(보일러 가스관)와 소식통(경유 수소처리 설비 가스관) 설명이 다릅니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-07",
+   "u": "https://t.me/Trillion_labs/10063"
+  },
+  {
+   "o": "Meduza",
+   "d": "2026-10-06",
+   "u": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports"
+  },
+  {
+   "o": "The Deep Dive",
+   "d": "2026-10-07",
+   "u": "https://thedeepdive.ca/gas-line-rupture-idles-venezuelas-cardon-refinery/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0046",
+ "num": 46,
+ "key": "bnd-C099-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:13:00+09:00",
+ "url": "https://www.reuters.com/business/energy/hungary-plans-renewable-energy-push-curb-prices-import-needs-2026-10-08/",
+ "origTitle": "",
+ "headline": "헝가리, 유럽 최고 전기요금 낮추려 에너지 개편…풍력 동결 해제·저장장치 3GW",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-08",
+   "u": "https://www.globalbankingandfinance.com/hungary-plans-renewable-energy-push-curb-prices-import-needs/"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-08",
+   "u": "https://www.briefs.co/news/hungary-plots-big-energy-reboot-to-tame-some-of-europe-s-pri/"
+  }
+ ],
+ "items": [
+  {
+   "t": "헝가리, 전기요금과 수입 의존 줄이려 재생에너지 확대 추진",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/hungary-plans-renewable-energy-push-curb-prices-import-needs-2026-10-08/"
+  },
+  {
+   "t": "헝가리, 유럽 최고 수준 전력 비용 낮추려 에너지 체계 개편 계획",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/hungary-plans-energy-overhaul-to-cut-europe-s-highest-power-cost"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "헝가리, 유럽 최고 전기요금 낮추려 에너지 개편…풍력 동결 해제·저장장치 3GW",
+ "one": "헝가리 정부가 유럽에서 가장 비싼 기업용 전기요금과 80%가 넘는 에너지 수입 의존을 줄이려 신규 풍력 동결을 풀고 2028년까지 저장장치 3GW, 풍력 4GW를 늘리는 개편안을 내놓으면서, 풍력·저장장치 발주와 팍시 원전 수명 연장 수요가 생길 전망이다",
+ "facts": [
+  "무엇이: 마자르 총리 정부가 재생에너지 확대로 기업 전기요금과 수입 의존을 낮추는 에너지 개편 계획을 10월 8일 내놨다 [사실]",
+  "내용: 신규 풍력 동결 폐지, 풍력 4GW 확대(목표 시점 2030년 또는 2032년으로 보도 엇갈림), 2028년까지 저장장치 3GW 이상, 2GW 팍시 원전 수명 연장이 담겼다 [사실]",
+  "배경: 헝가리는 연료의 80% 이상을 수입하고, 여름 가뭄으로 다뉴브 수위가 내려가 8월 팍시 원전이 정지 직전까지 갔다 [사실]",
+  "가격: 정부는 도매가격이 현 체계의 MWh당 약 128유로에서 2040년 약 50유로로 60% 넘게 내려갈 수 있다고 본다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Global Banking & Finance, Briefs). 풍력 목표 연도는 출처마다 다름",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market",
+  "power/wind",
+  "power/storage"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0330",
+ "num": 330,
+ "key": "mix-G4-033-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T06:51:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/rocket-lab-delays-debut-of-larger-neutron-rocket-to-next-year",
+ "origTitle": "",
+ "headline": "로켓랩, 뉴트론 첫 발사 2027년으로 연기…탱크 돔 결함에 주가 급락",
+ "src": [
+  {
+   "o": "Proactive Investors",
+   "d": "2026-10-15",
+   "u": "https://www.proactiveinvestors.com/companies/news/1100179/rocket-lab-shares-slump-13-as-neutron-rocket-launch-delayed-to-2027-1100179.html"
+  },
+  {
+   "o": "FinanceFeeds",
+   "d": "2026-10-15",
+   "u": "https://financefeeds.com/rocket-lab-stock-falls-after-neutron-delay-to-2027-as-keybanc-cuts-target-to-100/"
+  }
+ ],
+ "items": [
+  {
+   "t": "뉴트론 데뷔 2027년으로 미룬 로켓랩 주가 하락",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/rocket-lab-delays-debut-of-larger-neutron-rocket-to-next-year",
+   "s": "로켓랩이 대형 발사체 뉴트론 데뷔를 2027년으로 미루자 시간외 거래에서 주가가 6~8% 떨어졌다"
+  },
+  {
+   "t": "로켓랩, 뉴트론 첫 발사 2027년 연기…시간외 추가 하락",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-15",
+   "u": "https://t.me/insidertracking/66299",
+   "s": "미국 주식 인사이더가 로켓랩의 뉴트론 첫 발사 연기 소식에 애프터마켓에서 주가가 추가로 내렸다고 전했다"
+  },
+  {
+   "t": "로켓랩, 뉴트론 첫 비행 2027년으로 미뤄…주가 하락",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/rocket-lab-pushes-neutron-rockets-debut-flight-2027-shares-fall-2026-10-14/",
+   "s": "로켓랩이 1단 탱크 돔의 제조 결함을 이유로 첫 비행을 미루면서 교체 돔 제작과 시험이 2027년 1분기까지 이어질 전망이다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "로켓랩, 뉴트론 첫 발사 2027년으로 연기…탱크 돔 결함에 주가 급락",
+ "one": "로켓랩이 1단 추진제 탱크 돔 제조 결함으로 대형 발사체 뉴트론의 첫 발사를 2026년 4분기에서 2027년으로 미루면서, 주가가 장중 최대 13% 떨어지고 키뱅크가 목표가를 135달러에서 100달러로 낮췄다",
+ "facts": [
+  "무엇이: 로켓랩은 새로 만든 1단 전방 추진제 돔의 탄소복합 층에서 빈 공간을 발견해 뉴트론 첫 발사를 2027년으로 미뤘다 [사실]",
+  "일정: 교체 돔 제작과 필요한 시험은 2027년 1분기 안에 끝날 것으로 보고, 그 뒤 새 발사일을 정한다 [사실]",
+  "지연 이력: 뉴트론은 2021년 공개 때 2024년 첫 비행이 목표였고 이후 2025년 중반, 2026년으로 밀렸다 [사실]",
+  "주가: 주가는 10월 14일 시간외에서 6~8%, 15일 장중 최대 13% 떨어졌고 키뱅크는 목표가를 135달러에서 100달러로 낮췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "연기 원인·일정·주가·목표가는 검색 결과 요약으로 확인",
+ "added": "이번 텔레그램·로이터 2건으로 시간외 추가 하락과 1단 탱크 돔 결함이라는 지연 원인, 2027년 1분기 시험 완료 일정이 추가됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "space",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "뉴트론 첫 발사 2027년으로 연기"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

@@ -1,0 +1,74 @@
+{
+ "id": "n-bbg-0350",
+ "num": 350,
+ "key": "mix-G1-022-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T13:50:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops",
+ "origTitle": "",
+ "headline": "인도, 엘니뇨 작황 피해에 설탕 에탄올 전용 중단…옥수수·쌀로 대체",
+ "src": [
+  {
+   "o": "Free Press Journal",
+   "d": "2026-10-17",
+   "u": "https://www.freepressjournal.in/business/india-halts-sugar-diversion-for-ethanol-in-2026-27-invites-bids-for-11-billion-litres-amid-rising-prices"
+  },
+  {
+   "o": "Channel IAM",
+   "d": "2026-10-17",
+   "u": "https://en.channeliam.com/2026/10/17/india-ethanol-procurement-sugar-diversion-zero/"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-17",
+   "u": "https://www.gurufocus.com/news/9128891/indias-ethanol-procurement-policy-aims-to-stabilize-sugar-prices"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도, 엘니뇨 작황 피해에 설탕의 에탄올 전용 중단",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "인도, 엘니뇨 작황 피해에 설탕 에탄올 전용 중단…옥수수·쌀로 대체",
+ "one": "인도가 엘니뇨 영향의 몬순 부진으로 설탕 생산이 줄 것으로 보이자 2026~27년 설탕의 에탄올 전용을 막고 옥수수·쌀 원료 에탄올 110억 리터를 입찰하면서, 국내 설탕 가격 안정을 노리고 있다",
+ "facts": [
+  "무엇이: 인도 국영 석유회사들은 10월 16일 약 110억 리터 에탄올 입찰을 내면서 사탕수수즙·설탕시럽·B-헤비 당밀 원료를 빼고 옥수수·싸라기·인도식량공사 잉여 쌀 원료로만 조달하기로 했다 [사실]",
+  "원인: 마하라슈트라·카르나타카 등 주요 설탕 산지의 몬순 강우가 부진해 생산 우려가 커졌다 [사실]",
+  "생산: 인도설탕협회(ISMA)는 2026~27년 순 설탕 생산을 약 2,800만 톤으로 전년 3,100만 톤보다 적게 예상했다 [사실]",
+  "가격: 옥수수 에탄올 장려금은 리터당 5.79루피에서 2.79루피로 줄어 조달가가 71.86루피에서 68.86루피로 낮아졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "설탕 원료 제외한 110억 리터 에탄올 입찰, 몬순 부진, ISMA 생산 전망, 옥수수 에탄올 조달가 인하는 검색 결과 요약으로 확인. 시행 시점(11월 1일 등)은 보도마다 다름",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "weather",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "몬순 부진에 2026~27년 설탕 생산 감소 전망"
+  },
+  {
+   "ind": "agri",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "설탕의 에탄올 전용 중단, 곡물 원료로 대체"
+  }
+ ]
+}

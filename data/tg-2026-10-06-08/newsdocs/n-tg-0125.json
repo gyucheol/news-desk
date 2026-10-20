@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0125",
+ "feed": "v5",
+ "format": "one1",
+ "num": 125,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69997",
+ "published": "2026-10-07T13:51:00+09:00",
+ "url": "https://t.me/HANAchina/69997",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "title": "인도 중앙은행, 약 4년 만에 금리 인상…5.50%로 올리고 '조정된 긴축' 전환",
+ "one": "인도중앙은행(RBI)이 물가 압력이 넓게 번지자 기준금리를 5.25%에서 5.50%로 약 4년 만에 올리고 기조를 '조정된 긴축'으로 바꾸면서, 인도의 대출금리와 국채금리에 상승 압력이 커졌다",
+ "headline": "인도 중앙은행, 약 4년 만에 금리 인상…5.50%로 올리고 '조정된 긴축' 전환",
+ "facts": [
+  "무엇이: RBI 통화정책위원회가 10월 7일 만장일치로 레포금리를 25bp 올려 5.50%로 정했고, 2023년 2월 이후 첫 인상입니다 [사실]",
+  "기조: 정책 기조를 '중립'에서 '조정된 긴축'으로 바꿨고, 말호트라 총재는 가까운 시기의 인하 가능성을 배제했습니다 [사실]",
+  "전망: 2027회계연도 물가 전망을 5.0%에서 5.2%로 올리고 성장률 전망 7.1%는 유지했습니다 [사실]",
+  "시장: 인도 10년물 국채금리는 7.265%까지 올라 2023년 12월 이후 최고를 기록했습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(하나증권 신흥국전략 자료 포함)로 들어온 소식이며, The Week·Business Today(2026-10-07) 기사의 검색 결과 요약으로 인상 폭, 기조 전환, 물가·성장 전망을 확인했습니다. 10년물 7.265%는 채널 글에만 있습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/69997"
+  },
+  {
+   "o": "The Week",
+   "d": "2026-10-07",
+   "u": "https://www.theweek.in/news/biz-tech/2026/10/07/india-monetary-policy-update-rbi-oct.html"
+  },
+  {
+   "o": "Business Today",
+   "d": "2026-10-07",
+   "u": "https://www.businesstoday.in/personal-finance/investment/story/rbi-hikes-repo-rate-your-fd-could-pay-more-but-bonds-may-take-a-hit-what-investors-should-know-560071-2026-10-07"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략"
+}

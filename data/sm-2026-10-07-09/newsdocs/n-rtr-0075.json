@@ -1,0 +1,42 @@
+{
+ "id": "n-rtr-0075",
+ "num": 75,
+ "key": "bnd-C223-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:46:00+09:00",
+ "url": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/",
+ "origTitle": "",
+ "headline": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+ "src": [],
+ "items": [
+  {
+   "t": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/venture-global-breached-lng-supply-deal-with-galp-tribunal-rules-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "중재재판부 '벤처글로벌, 갈프와의 LNG 공급 계약 위반'",
+ "one": "국제 중재재판부가 미국 LNG 수출업체 벤처글로벌이 포르투갈 에너지기업 갈프와 맺은 LNG 공급 계약을 위반했다고 판정하면서, 벤처글로벌이 갈프에 배상 책임을 질 수 있게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 중재재판부가 벤처글로벌이 갈프와의 LNG 공급 계약을 위반했다고 판정했다 [제목]",
+  "의미: 같은 쟁점으로 벤처글로벌과 다투는 다른 장기 구매자 분쟁에 참고가 될 수 있다 [추론]",
+  "남은 점: 배상 규모와 대상 물량은 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 독립 출처 확인 못 함. 기사 제목만 근거",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ]
+}

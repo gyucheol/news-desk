@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0172",
+ "feed": "v5",
+ "format": "one1",
+ "num": 172,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-9991",
+ "published": "2026-10-04T16:01:00+09:00",
+ "url": "https://t.me/Trillion_labs/9991",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "petchem/feedstock"
+ ],
+ "title": "포텐 'VLCC 운임이 원유 도착비용의 27%'…고운임발 수요 위축 경고",
+ "one": "중동~아시아 VLCC 운임이 하루 약 130만 달러로 1월의 43배까지 오르면서 운송비가 배럴당 약 33달러, 원유 도착비용의 27%로 커져 정유사의 원유 선택과 원유 수요를 억누를 수 있다",
+ "headline": "포텐 'VLCC 운임이 원유 도착비용의 27%'…고운임발 수요 위축 경고",
+ "facts": [
+  "무엇이: 포텐앤파트너스가 10월 2일 탱커 오피니언에서 고운임이 원유 수요를 꺾을 수 있는지 분석했습니다 [사실]",
+  "얼마나: 1월 하루 약 3만 달러(배럴당 약 1.73달러, 도착비용의 약 3%)였던 VLCC 운임이 약 130만 달러로 올라 배럴당 약 33달러, 약 27%가 됐습니다 [사실]",
+  "왜: 전쟁 위험에 따른 보험료 급등, 제재로 인한 가용 선박 감소, VLCC 소유 집중이 겹쳤습니다 [채널]",
+  "전망: 포텐은 원유 공급이 풀리면 운임이 빠르게 떨어질 수 있어 2027년 최대 변수로 봤습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "채널이 포텐 탱커 오피니언을 번역해 옮긴 글이며, 마리타임 이그제큐티브에 실린 포텐 글과 에너지뉴스비트 기사로 숫자를 확인했습니다(검색 결과 요약으로 확인).",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-04",
+   "u": "https://t.me/Trillion_labs/9991"
+  },
+  {
+   "o": "마리타임 이그제큐티브(포텐 기고)",
+   "d": "2026-10",
+   "u": "https://maritime-executive.com/editorials/poten-vlcc-rates-hit-unprecedented-levels-amidst-mideast-conflict"
+  },
+  {
+   "o": "에너지뉴스비트",
+   "d": "2026-10",
+   "u": "https://energynewsbeat.co/crude-oil/1-3-million-a-day-when-freight-forces-paper-oil-to-meet-the-physical-barrel/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

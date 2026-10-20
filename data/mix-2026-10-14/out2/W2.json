@@ -1,0 +1,313 @@
+{"agent": "W2", "searches_used": 16, "fetches_used": 0,
+ "items": [
+  {"cid": "C002", "attachTo": "n-bbg-0052",
+   "title": "연준 인사들 '{{연내 1회 추가 인상}}' {{무게}}…{{윌리엄스}} '{{2027년엔 불필요}}'",
+   "one": "{{9월 CPI}}가 {{전년 대비 3.6%로 오를 전망}}인 가운데 {{윌리엄스·콜린스}} 총재가 {{연내 추가 인상}}에 {{무게}}를 싣고 {{굴스비}} 총재가 {{AI발 물가 확산}}을 {{경고}}했지만, {{윌리엄스}}가 {{2027년 인상은 불필요}}하다고 보면서 2027년 인상을 반영한 {{선물시장}}과의 {{간극}}이 {{벌어지고}} 있다",
+   "facts": [
+    "무엇이: 윌리엄스 뉴욕 연은 총재는 연내 1회 추가 인상은 적절하지만 현재로선 2027년 추가 인상은 필요 없다고 봤다 [사실]",
+    "콜린스: 보스턴 연은 콜린스 총재는 중동 전쟁발 에너지값·관세·AI 인프라 구축을 물가 압력으로 들며 연말 전 완만한 추가 인상이 적절할 것으로 봤다 [사실]",
+    "굴스비: 시카고 연은 굴스비 총재는 AI발 물가가 데이터센터 공급망 밖으로 번지고 있다며 일시적 공급 충격보다 수요발 과열에 가깝다고 했다 [사실]",
+    "시장: 연준은 9월 금리를 3.75~4.00%로 올렸고, 선물시장은 2027년에도 최소 1회 인상을 반영해 윌리엄스 전망과 엇갈린다 [사실]",
+    "CPI: 10월 14일 발표될 9월 CPI는 전년 대비 3.6%로 8월 3.4%에서 오를 전망이며, 10월 27~28일 FOMC 전 마지막 물가 지표다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "윌리엄스·콜린스 발언과 선물시장 반영은 CNBC·investingLive 검색 결과 요약으로 확인, 굴스비 발언은 Semafor 검색 결과 요약으로 확인. 바킨 발언과 2년물 금리 반납폭, 실질 중립금리 1% 추정은 채널 글에만 있음.",
+   "src": [
+    {"o": "CNBC", "d": "2026-10-13", "u": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html"},
+    {"o": "investingLive", "d": "2026-10-13", "u": "https://investinglive.com/central-banks/fed-s-collins-backs-another-rate-hike-by-year-end-flags-three-inflation-pressures/"},
+    {"o": "Semafor", "d": "2026-10-13", "u": "https://www.semafor.com/article/10/12/2026/ai-is-an-inflation-problem-feds-goolsbee-says"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/cb", "macro/rates", "macro/inflation"],
+   "added": "이번 텔레그램 3건·블룸버그 2건·로이터 3건으로 {{윌리엄스의 2027년 인상 불필요}}, {{콜린스의 연말 전 추가 인상}}, {{굴스비의 AI발 물가 확산 경고}}가 추가됐다",
+   "items": [
+    {"t": "굴스비 '물가 오를 때 금리 동결은 실질적 인하…투자는 놀라운 강세'", "o": "텔레그램 Polaristimes", "d": "2026-10-13", "u": "https://t.me/The_MariTimes/63686",
+     "s": "{{굴스비}} 총재가 목표를 웃도는 {{물가가 더 오를 때 금리 동결}}은 {{실질 인하와 같다}}고 하면서, {{강한 기업 투자}}를 들어 {{현 금리가 긴축적이지 않다}}는 시각을 드러냈다"},
+    {"t": "굴스비 'AI발 인플레이션, 제 영역 벗어나 번져'(세마포)", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/goolsbee-says-ai-induced-inflation-is-jumping-out-its-lane-semafor-reports-2026-10-13/",
+     "s": "{{굴스비 총재}}가 {{AI발 인플레이션}}이 {{데이터센터 공급망 밖으로 번지고}} 있다고 {{경고}}하면서, {{되돌리기 어려운 수요발 물가}}가 될 수 있다는 {{우려}}를 키웠다"},
+    {"t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'", "o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-williams-currently-sees-no-need-for-rate-hike-in-2027",
+     "s": "{{윌리엄스}} 총재가 현재로선 {{2027년 금리 인상이 필요 없다}}고 보면서, {{2027년 인상을 점치는 선물시장}}과 {{다른 금리 경로}}를 {{제시}}했다"},
+    {"t": "윌리엄스 '현재로선 2027년 금리 인상 필요 없어'(블룸버그 보도)", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/feds-williams-currently-sees-no-need-rate-hike-2027-bloomberg-news-reports-2026-10-13/",
+     "s": "로이터도 {{윌리엄스}} 총재의 {{연내 1회 추가 인상은 적절}}하다는 발언을 전하면서, {{연내 인상 뒤 멈추는}} {{뉴욕 연은의 경로}}가 {{재확인}}됐다"},
+    {"t": "콜린스 '물가 잡으려면 올해 금리 더 오를 가능성 커'", "o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices",
+     "s": "{{콜린스}} 총재가 {{물가를 잡으려면}} {{올해 금리가 더 오를 가능성이 크다}}고 보면서, 10월 말·12월 회의의 {{추가 인상 가능성}}이 {{살아 있다}}"},
+    {"t": "콜린스 '2026년 말 전 추가 금리 인상 논의 대상'", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/feds-collins-sees-another-rate-hike-table-before-end-2026-2026-10-13/",
+     "s": "{{콜린스}} 총재가 {{에너지값·관세·AI 구축}}을 {{물가 압력}}으로 꼽으며 {{연말 전 추가 인상}}을 {{열어 두면서}}, {{완만한 추가 인상}}이 {{적절}}하다는 판단을 내놨다"},
+    {"t": "윌리엄스 '경제 과열 아냐', 콜린스·바킨은 물가 대응 강조", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-14", "u": "https://t.me/insidertracking/66135",
+     "s": "{{윌리엄스}}가 AI 인프라 투자가 {{반도체값·건설비}}를 {{올리지만}} 경제 전반 {{과열은 아니라}}고 했고 {{콜린스·바킨}}은 {{물가 압력 지속}}을 들어 {{통화정책 대응}}을 {{강조}}했다"},
+    {"t": "윌리엄스 '실질 중립금리 1% 안팎'…2년물 금리 상승폭 반납", "o": "텔레그램 TNBfolio", "d": "2026-10-14", "u": "https://t.me/TNBfolio/71530",
+     "s": "{{윌리엄스}}가 실질 {{중립금리를 1% 안팎}}으로 보며 {{현 금리가 중립에서 멀지 않다}}고 하자 {{2년물 금리}}가 {{장중 3bp 상승폭}}을 {{모두 반납}}하면서, {{해먹·로건}} 등 {{추가 인상론}}과의 차이가 드러났다"}
+   ]},
+
+  {"cid": "C015", "attachTo": "n-tg-0211",
+   "title": "BofA 10월 설문…{{기술주 비중 2020년 이후 최고}}, {{경기소비재}}는 {{08년 이후 최악}}",
+   "one": "BofA 10월 펀드매니저 설문에서 {{기술주 비중확대 응답}}이 {{37%로 2020년 8월 이후 최고}}를 기록하고 {{반도체 롱}}이 {{가장 쏠린 거래}}로 꼽힌 반면 {{경기소비재 비중축소}}는 {{2008년 이후 최대}}가 되면서, 현금 쏠림 속 {{AI 포지션}}의 {{되돌림 위험}}이 {{커질}} 수 있다",
+   "facts": [
+    "무엇이: BofA 10월 설문(10월 2~8일)에서 기술주 비중확대 응답이 9월 30%에서 37%로 올라 2020년 8월 이후 최고였다 [사실]",
+    "쏠림: 가장 붐비는 거래는 반도체 롱(45%, 9월 53%), 미국채 숏(27%), M7 롱(16%) 순이었고, 최대 꼬리위험은 무질서한 채권금리 상승, 다음이 AI 거품이었다 [사실]",
+    "소비재: 경기소비재 순비중이 약 -35%로 2008년 7월 이후 가장 낮았고, 은행주는 2023년 3월 이후 가장 가파르게 정리됐다 [채널]",
+    "현금·채권: 현금 비중은 3.9%로 매도 신호 구간이고, 장기금리 추가 상승 예측은 순 1%로 9월 15%에서 급감했다 [채널]",
+    "기존: 10월 7일까지 한 주 머니마켓펀드 유입은 1,664억 달러로 2020년 4월 이후 최대였다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "기술주 비중 37%·반도체 롱 45%·꼬리위험은 investingLive·Investing.com·Seeking Alpha 검색 결과 요약으로 확인. 경기소비재 -35%, 현금 3.9%, 장기금리 전망은 채널 글에만 있음(10년물 전환 기준은 채널 6%, 다른 보도 5.9%로 엇갈림).",
+   "src": [
+    {"o": "investingLive", "d": "2026-10-13", "u": "https://investinglive.com/news/long-global-semiconductors-remains-the-most-crowded-trade-followed-by-short-us-treasuries-according-to-bank-of-america/"},
+    {"o": "Investing.com", "d": "2026-10-13", "u": "https://www.investing.com/news/stock-market-news/bofa-poll-shows-tech-overweight-hits-highest-since-august-2020-4946224"},
+    {"o": "Seeking Alpha", "d": "2026-10-13", "u": "https://seekingalpha.com/news/4652462-long-semiconductors-is-still-the-most-crowded-trade-as-conviction-cools"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/liquidity", "macro/semis"],
+   "added": "이번 블룸버그 2건·텔레그램 3건으로 {{기술주 비중 2020년 8월 이후 최고}}(37%), {{반도체 롱 최대 쏠림}}(45%), {{경기소비재 2008년 이후 최대 비중축소}}가 추가됐다",
+   "items": [
+    {"t": "BofA 설문, 투자자 기술주 노출 2020년 이후 최대", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/bofa-poll-shows-investors-most-exposed-to-tech-stocks-since-2020",
+     "s": "BofA 설문에서 {{투자자들의 기술주 노출}}이 {{2020년 이후 최대}}로 {{높아지면서}}, AI 랠리를 좇는 {{포지션}}이 {{한쪽으로 쏠리고}} 있다"},
+    {"t": "기술주 비중확대 37%로 2020년 이후 최고…반도체주 가장 쏠린 거래", "o": "텔레그램 하나증권 중국전략", "d": "2026-10-13", "u": "https://t.me/HANAchina/70361",
+     "s": "{{기술주 비중확대 응답}}이 {{30%에서 37%}}로 {{오르고}} 응답자 약 45%가 {{2027년 AI 거품}}을 {{예상}}하면서, {{글로벌 반도체주}}가 {{가장 쏠린 거래}}로 꼽혔다"},
+    {"t": "AI 투자 노출, 투자자 기대와 함께 나란히 급증", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/ai-exposure-surges-along-with-investor-expectations",
+     "s": "{{투자자들의 AI 노출}}이 {{기대}}와 함께 {{급증}}하면서, {{AI 관련 종목}}에 기대와 {{포지션}}이 {{함께 쌓이고}} 있다 (제목 기준)"},
+    {"t": "펀드매니저 경기소비재 비중축소, 2008년 7월 이후 최대", "o": "텔레그램 미국 주식 인사이더", "d": "2026-10-13", "u": "https://t.me/insidertracking/66125",
+     "s": "글로벌 펀드매니저의 {{경기소비재 순비중}}이 {{약 -35%}}로 {{2008년 7월 이후 최저}}로 {{떨어지면서}}, 소비 업종 {{심리}}가 {{금융위기 이후 가장 부정적}}인 수준이 됐다"},
+    {"t": "BofA 설문, 현금 3.9%로 매도 신호…장기금리 상승 예측 급감", "o": "텔레그램 Polaristimes", "d": "2026-10-13", "u": "https://t.me/The_MariTimes/63687",
+     "s": "{{현금 비중 3.9%}}로 {{매도 신호}}가 이어지고 {{장기금리 추가 상승 예측}}이 9월 15%에서 {{순 1%}}로 {{급감}}하면서, {{10년물 6%}}가 {{채권으로 옮길 분기점}}으로 꼽혔다"}
+   ]},
+
+  {"cid": "C024", "attachTo": "n-tg-0125",
+   "title": "RBI 총재 '{{외환 규제는 투기 억제용}}'…{{루피}}, {{사상 최저 뒤 반등}}",
+   "one": "{{RBI}}가 {{달러 공급·파생상품 규제}}에 이어 {{국채 매각·지준 강화}}로 {{유동성}}까지 {{죄는}} 가운데 {{말호트라 총재}}가 {{규제는 투기 억제용}}이라며 필요한 {{모든 조치}}를 {{예고}}하면서, {{사상 최저 96.96}}까지 밀렸던 {{루피}}가 {{95.28로 반등}}했다",
+   "facts": [
+    "무엇이: 말호트라 총재는 10월 10일 규제가 투자가 아닌 위험 거래를 겨냥한 것이며, 외환 파생거래의 약 3분의 1이 당일 취소·청산되는 것을 보고 조치했다고 밝혔다 [사실]",
+    "조치: 10월 10일 대책은 국영 정유사 3곳 달러 직접 공급, 200만 달러 넘는 파생거래 금액의 20%를 RBI에 현금으로 두는 외환위험준비금, 비거주자 역외 루피 파생상품의 헤지 한정을 담았다 [사실]",
+    "루피: 루피는 10월 13일 달러당 95.28로 전일 95.77에서 올랐고, 직전 금요일 사상 최저 96.96을 찍었다 [사실]",
+    "이견: 정부 측은 RBI의 변동성 억제 노력이 이어질 것이라 했고, 억만장자 코탁은 루피가 스스로 수준을 찾게 둬야 한다고 했다 [제목]",
+    "기존: RBI는 10월 13일 2,500억 루피 국채를 팔고 일일 지준 유지 비율을 90%에서 99%로 올렸다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "총재 발언·조치 내용·루피 종가는 Business Standard·NewsBytes 등 검색 결과 요약으로 확인. 장관의 '변동성 억제 지속' 발언과 코탁 발언은 블룸버그 제목으로만 확인, 일부 은행의 유동성 우려 외 세부는 확인 못 함.",
+   "src": [
+    {"o": "Business Standard", "d": "2026-10-13", "u": "https://business-standard.com/industry/banking/no-price-stability-without-financial-stability-rbi-governor-malhotra-126101301217_1.html"},
+    {"o": "NewsBytes", "d": "2026-10-13", "u": "https://www.newsbytesapp.com/news/business/rbis-sanjay-malhotra-says-forex-rules-curb-speculation-not-investments/tldr"},
+    {"o": "Aman Shanti News", "d": "2026-10-13", "u": "https://amanshantinews.com/rupee-up-49-paise-rbi-governor-says-curbs-to-halt-speculation/"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/cb", "macro/fx"],
+   "added": "이번 블룸버그 2건·로이터 1건으로 {{말호트라 총재의 '투기 억제용' 해명}}, {{정부의 변동성 억제 지속 시사}}, {{코탁의 개입 반대론}}이 추가됐다",
+   "items": [
+    {"t": "RBI의 루피 변동성 억제 노력 이어질 듯(장관)", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/rbi-efforts-to-curb-rupee-volatility-to-continue-minister-says",
+     "s": "인도 {{정부 장관}}이 {{RBI의 루피 변동성 억제 노력}}이 {{이어질 것}}이라고 하면서, 외환시장 {{개입 기조}}가 {{당분간 유지}}될 수 있다 (제목 기준)"},
+    {"t": "억만장자 코탁 '인도, 루피가 스스로 수준 찾게 둬야'", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/billionaire-kotak-says-india-should-let-rupee-find-its-own-level",
+     "s": "억만장자 {{코탁}}이 인도가 {{루피를 스스로 수준을 찾게 둬야}} 한다고 하면서, {{RBI의 루피 방어 개입}}에 {{반대 목소리}}가 나왔다 (제목 기준)"},
+    {"t": "RBI 총재 '외환 규제는 투기 억제용…금리는 금융 안정도 고려'", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/india/rbi-governor-says-fx-curbs-quell-speculation-rates-financial-stability-2026-10-13/",
+     "s": "{{말호트라 총재}}가 {{외환 규제}}는 {{투기}}를 누르기 위한 것이고 {{금융 안정 없이는 물가 안정도 없다}}고 하면서, {{루피}}가 {{95.28로 반등}}해 마감했다"}
+   ]},
+
+  {"cid": "C028", "attachTo": "n-rtr-0201",
+   "title": "{{獨}}, {{비상 가스 비축}}에 {{가구 부담금}} 초안…EU는 {{횡재세 요구 재점화}}",
+   "one": "{{독일}}이 전기세를 {{EU 최저로 낮추겠다}}고 약속한 데 이어 {{비상 가스 비축 재원}}을 {{가구당 연 최대 7.20유로 부담금}}으로 걷는 {{초안}}을 {{마련}}하고 {{유럽 재무장관들}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{에너지값 부담}}이 {{소비자와 에너지 기업}}에 나뉘어 {{지워질}} 수 있다",
+   "facts": [
+    "무엇이: 독일이 국가 비상 가스 비축 재원을 가구당 연 최대 7.20유로 부담금으로 걷는 초안을 마련했고, 징수는 2027년 10월 1일 시작된다 [사실]",
+    "규모: 첫 10년 비용은 약 30억 8,000만 유로, 일반 가구 부담은 연 3.77~7.20유로로 추산됐고, 경제부는 7월 저장용량의 약 10%인 약 24TWh 비축 계획을 밝혔다 [사실]",
+    "횡재세: 유럽 각국 재무장관들이 에너지 기업 횡재세를 다시 촉구했다 [채널]",
+    "경과: 4월 5개국, 8월 6개국 재무장관이 서한으로 횡재세를 요구했고, 9월 클링바일 독일 재무장관은 10월 에코핀 회의까지 집행위 제안을 요구했다 [사실]",
+    "기존: 메르츠 총리는 10월 12일 전 소비자 전기세를 EU 최저 수준으로 낮추겠다고 약속했다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "독일 가스 비축 부담금 초안(연 7.20유로, 2027년 10월 징수, 30억 8,000만 유로)은 Izvestia·Newsquawk 검색 결과 요약으로 확인. 10월 13일 재무장관들의 횡재세 재촉구는 확인 못 하고 4~9월 경과만 Euronews 등으로 확인.",
+   "src": [
+    {"o": "Izvestia", "d": "2026-10-13", "u": "https://iz.ru/en/node/2183624"},
+    {"o": "Newsquawk", "d": "2026-10-13", "u": "https://www.newsquawk.com/headlines/germanys-ministry-of-economic-affairs-reportedly-plans-to-finance-a-planned-national-crisis-gas-reserve-via-a-levy-handelsblatt-reports-citing-a-draft"},
+    {"o": "Euronews", "d": "2026-08-23", "u": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"},
+    {"o": "Global Banking & Finance Review", "d": "2026-09", "u": "https://www.globalbankingandfinance.com/eu-ministers-discuss-taxing-windfall-profits-energy/"}
+   ],
+   "inds": ["gas", "power", "macro"], "nodes": ["gas/demand", "power/market", "macro/fiscal"],
+   "added": "이번 로이터 1건·텔레그램 1건으로 {{독일 가스 비축 부담금 초안}}과 {{가구당 연 최대 7.20유로}} 부담, {{재무장관들의 횡재세 재촉구}}가 추가됐다",
+   "items": [
+    {"t": "독일, 새 비상 가스 비축 재원을 소비자 부담금으로 마련(초안)", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/",
+     "s": "{{독일}}이 새 {{비상 가스 비축}}을 {{소비자 부담금}}으로 충당하는 {{초안}}을 {{마련}}하면서, 가구가 {{2027년 10월부터 연 최대 7.20유로}}를 {{부담}}하게 될 수 있다"},
+    {"t": "유럽 각국 재무장관들, 에너지 기업 횡재세 또 촉구", "o": "텔레그램 Polaristimes", "d": "2026-10-13", "u": "https://t.me/The_MariTimes/63696",
+     "s": "유럽 각국 {{재무장관}}이 {{에너지 기업 횡재세}}를 {{다시 촉구}}하면서, {{석유·가스 기업 이익}}에 대한 {{과세 압력}}이 이어지고 있다"}
+   ]},
+
+  {"cid": "C033", "attachTo": "n-rtr-0029",
+   "title": "사상 최강 {{엘니뇨}}에 {{아시아 겨울 온난}} 전망…잠비아는 {{성장률 전망 하향}}",
+   "one": "세계·일본·중국 {{기상당국}}이 {{관측 사상 최강 엘니뇨}}를 {{확인}}한 가운데 {{아시아 겨울}}이 {{평년보다 따뜻할}} 전망이 나오고 {{잠비아}}가 {{2027년 성장률 전망}}을 {{6%에서 4.9%로 낮추}}면서, {{아시아 LNG 수요}}는 {{줄고}} 남부 아프리카 {{성장·구리 생산}}은 {{압박}}받을 수 있다",
+   "facts": [
+    "무엇이: 유럽중기예보센터 모델은 11~2월 일본·한국 기온이 평년보다 1~2도 높을 것으로 봤고, 따뜻한 겨울로 아시아 LNG 화물이 저장률이 낮은 유럽으로 풀릴 수 있다는 전망이 나왔다 [사실]",
+    "반론: 번스타인은 강한 엘니뇨에도 아시아 LNG 수입 감소가 세계 수입의 1% 미만에 그칠 것으로 봤다 [사실]",
+    "잠비아: 무소코트와네 재무장관은 엘니뇨와 이란 전쟁 여파로 2027·2028년 성장률 전망을 6%·7.5%에서 4.9%·5%로 낮췄다 [사실]",
+    "구리: 소시에테제네랄은 가뭄발 수력 부족으로 잠비아·콩고 구리벨트 생산이 2027년 상반기까지 기껏해야 정체할 것으로 봤다 [사실]",
+    "기존: 일본 기상청은 9월 감시해역 수온 편차가 +4.0도로 1949년 관측 이후 최고라고 밝혔다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "아시아 겨울 온난·LNG 영향은 BusinessMirror·Oilprice·IndexBox 검색 결과 요약으로 확인. 잠비아 성장률 하향 수치는 Investing.com의 블룸버그 인용 요약으로만 확인(정부 원문 미확인), 구리 전망은 FXStreet 검색 결과 요약으로 확인.",
+   "src": [
+    {"o": "BusinessMirror", "d": "2026-10-13", "u": "https://businessmirror.com.ph/2026/10/13/el-nino-warmth-offers-asia-relief-from-winter-energy-strain/"},
+    {"o": "Oilprice", "d": "2026-10-13", "u": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Ease-Asias-LNG-Supply-Concerns.html"},
+    {"o": "IndexBox", "d": "2026-10", "u": "https://www.indexbox.io/blog/super-el-nino-2026-27-unlikely-to-dent-global-lng-demand-bernstein-says/"},
+    {"o": "FXStreet", "d": "2026-10-13", "u": "https://www.fxstreet.com/news/copper-el-nino-risks-cap-african-supply-growth-societe-generale-202610131231"}
+   ],
+   "inds": ["macro", "gas"], "nodes": ["macro/growth", "macro/commodity", "gas/demand"],
+   "added": "이번 블룸버그 2건으로 {{아시아 겨울 온난}}에 따른 {{에너지 수요 둔화}} 전망과 {{잠비아의 2027·2028년 성장률 하향}}이 추가됐다",
+   "items": [
+    {"t": "엘니뇨로 아시아 겨울 따뜻해져 에너지 수요 줄 듯", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/el-nino-to-bring-warmer-asian-winter-easing-energy-demand",
+     "s": "{{엘니뇨}}로 {{아시아 겨울}}이 {{따뜻해질 전망}}이 나오면서, 일본·한국·중국의 {{난방 에너지 수요}}가 {{줄어}} {{LNG 화물}}이 {{유럽으로 풀릴}} 수 있다"},
+    {"t": "잠비아, 엘니뇨 위협 커지자 경제성장 전망 하향 조정", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/zambia-cuts-economic-growth-outlook-as-el-nino-threat-builds",
+     "s": "{{잠비아}}가 {{엘니뇨 위협}}과 {{이란 전쟁 여파}}로 {{2027년 성장률 전망}}을 {{4.9%}}로 {{낮추면서}}, 가뭄발 {{수력 부족}}이 {{구리 생산}}에도 부담이 될 수 있다"}
+   ]},
+
+  {"cid": "C041", "attachTo": "n-rtr-0021",
+   "title": "우간다 {{실링 사상 최저}}에 중앙은행, {{10월 14일 긴급 통화정책회의}}",
+   "one": "{{외환보유고}}가 {{67억 달러로 늘었}}는데도 {{우간다 실링}}이 {{자본 유출}}과 수입업체 {{달러 수요}}로 {{사상 최저}}로 {{밀리자}} {{우간다 중앙은행}}이 {{10월 14일 긴급 통화정책회의}}를 {{소집}}하면서, 2년째 9.75%인 {{기준금리}}와 {{환율 방어 기조}}가 {{바뀔}} 수 있다",
+   "facts": [
+    "무엇이: 우간다 중앙은행이 실링이 사상 최저로 밀리자 10월 14일(수) 긴급 통화정책회의를 소집했고, 최근 몇 년 새 두 번째 특별회의다 [사실]",
+    "실링: 실링은 8월부터 급락해 올해 달러 대비 11% 넘게 떨어졌고, 시티는 최근 2주 약 2억 달러가 빠져나간 것으로 추정했다 [사실]",
+    "정책: 기준금리는 2024년 10월부터 9.75%로 묶여 있고, 지급준비율은 두 차례 올려 9월 24일부터 13.5%다 [사실]",
+    "이견: 무세베니 대통령이 외환보유고로 실링을 떠받치자는 아팅기에고 총재의 제안을 거부했다는 보도가 나왔다 [사실]",
+    "기존: 외환보유고는 6월까지 1년간 56% 늘어 약 67억 달러지만 수입 3.7개월분으로 목표 4개월에 못 미친다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "긴급회의 소집·실링 하락폭·자금 유출·기준금리는 Kenyan Wall Street·CNBC Africa 검색 결과 요약으로 확인. 대통령의 개입 제안 거부는 Pulse Uganda 한 곳 보도. 회의 결과는 아직 알 수 없음.",
+   "src": [
+    {"o": "Kenyan Wall Street", "d": "2026-10-13", "u": "https://kenyanwallstreet.com/bank-of-uganda-calls-emergency-mpc-meeting-following-shillings-slide-to-record-lows"},
+    {"o": "CNBC Africa", "d": "2026-10-13", "u": "https://www.cnbcafrica.com/2026/ugandan-central-bank-calls-emergency-policy-meeting-for-wednesday"},
+    {"o": "Pulse Uganda", "d": "2026-10-09", "u": "https://www.pulse.ug/story/museveni-rejects-bank-of-uganda-dollar-reserve-intervention-2026100910123730122"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/cb", "macro/fx"],
+   "added": "이번 로이터·블룸버그 2건으로 {{실링 사상 최저}}에 따른 {{우간다 중앙은행}}의 {{10월 14일 긴급 통화정책회의 소집}}이 추가됐다",
+   "items": [
+    {"t": "우간다 중앙은행, 수요일 긴급 통화정책회의 소집", "o": "로이터", "d": "2026-10-13", "u": "https://www.reuters.com/world/africa/ugandan-central-bank-calls-emergency-policy-meeting-wednesday-2026-10-13/",
+     "s": "{{우간다 중앙은행}}이 {{10월 14일 긴급 통화정책회의}}를 {{소집}}하면서, 8월부터 {{급락한 실링}}을 {{막을 조치}}가 나올 수 있다"},
+    {"t": "우간다 실링 가라앉자 중앙은행, 통화정책 특별회의 소집", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/ugandan-central-bank-calls-special-meeting-after-shilling-sinks",
+     "s": "{{실링}}이 {{33년 만의 최저}}로 {{가라앉자}} 중앙은행이 {{특별회의}}를 {{열기로}} 하면서, {{기준금리 9.75% 동결}} 기조가 {{시험대}}에 올랐다"}
+   ]},
+
+  {"cid": "C049", "attachTo": "",
+   "title": "모디 '{{세계화가 강압으로 변질}}'…자이샨카르 '{{대미 무역협상 순항}}'",
+   "one": "{{모디 총리}}가 {{세계화가 강압으로 변하는}} 때 인도가 {{신뢰를 제공한다}}고 하고 {{자이샨카르 외교장관}}이 {{미국과의 무역협상}}이 {{올바른 방향}}이라며 {{러시아와의 관계}}를 {{옹호}}하면서, 인도가 {{러시아 관계를 지키며}} {{대미 합의}}를 {{추진}}할 뜻을 내비쳤다 (제목 기준)",
+   "facts": [
+    "무엇이: 자이샨카르 외교장관은 미국과의 무역협상이 올바른 방향으로 가고 있어 고무적이라고 했고, 러시아와의 관계를 옹호했다 [제목]",
+    "모디: 모디 총리는 세계화가 강압이 되어 가는 때 인도가 신뢰를 제공한다고 말했다 [제목]",
+    "배경: 미국의 러시아·이란 제재법(SRIA)은 러시아산 에너지를 사는 인도 수입품에 최대 100% 관세를 물릴 수 있어 협상의 걸림돌로 꼽힌다 [사실]",
+    "협상: 9월 23일 자이샨카르는 루비오 국무장관과 만나 제재법에 대한 인도의 우려를 전했다 [사실]"
+   ],
+   "basis": "title",
+   "check": "10월 13일 모디·자이샨카르 발언 자체는 검색 2회로 찾지 못함. 제재법과 9월 루비오 회담 배경만 Foreign Policy·Business Standard 검색 결과 요약으로 확인.",
+   "src": [
+    {"o": "Foreign Policy", "d": "2026-09-23", "u": "https://foreignpolicy.com/2026/09/23/india-unga-jaishankar-us-sanctions-russia-oil/"},
+    {"o": "Business Standard", "d": "2026-09-24", "u": "https://www.business-standard.com/external-affairs-defence-security/news/eam-jaishankar-rubio-discuss-impact-of-russia-linked-sanctions-on-india-126092400211_1.html"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/geo"],
+   "added": "이번 블룸버그 1건으로 {{자이샨카르 외교장관}}의 {{미국과의 무역협상 진전 평가}}와 {{러시아와의 관계 옹호}} 발언이 추가됐다 (제목 기준)",
+   "items": [
+    {"t": "모디 '세계화가 강압이 되는 때 인도는 신뢰를 제공'", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/modi-says-india-offers-trust-as-globalization-becomes-coercion",
+     "s": "{{모디 총리}}가 {{세계화가 강압이 되어 가는}} 때 인도는 {{신뢰를 제공한다}}고 하면서, 인도를 {{강압적 통상 질서의 대안}}으로 {{내세웠다}} (제목 기준)"},
+    {"t": "인도 외교장관, 미국과 협상에 고무적…러시아 관계는 옹호", "o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-us-trade-talks-heading-in-right-direction-jaishankar-says",
+     "s": "{{자이샨카르 외교장관}}이 {{미국과의 무역협상}}에 {{고무적}}이라고 하면서도 {{러시아와의 관계}}를 {{옹호}}해, {{러시아 관계를 지키며}} {{대미 합의}}를 {{추진}}할 뜻을 내비쳤다 (제목 기준)"}
+   ]},
+
+  {"cid": "C072", "attachTo": "n-rtr-0033",
+   "title": "{{코인베이스 공동창업자}}, {{베네수엘라 유전}}에 베팅…하루 {{10만 배럴}} 목표",
+   "one": "PDVSA가 {{연내 석유계약 105건}}을 {{추진}}하는 가운데 {{코인베이스 공동창업자 에르삼}}의 {{프리마베라}}가 {{PDVSA와 생산분배계약}}을 {{맺고}} 단기 {{하루 10만 배럴 생산}}을 {{목표}}로 내걸면서, 하루 120만 배럴에 {{머문 베네수엘라 증산}}에 {{민간 자본}}이 {{더해질}} 수 있다",
+   "facts": [
+    "무엇이: 코인베이스 공동창업자 프레드 에르삼이 개인 자금으로 세운 프리마베라가 PDVSA와 생산분배계약을 맺었고, 단기 목표를 하루 10만 배럴로 잡았다 [사실]",
+    "대상: 프리마베라는 오리노코 벨트의 보카·기코·과라 유전 운영권 확보를 추진해 왔다 [사실]",
+    "시각: 에르삼은 베네수엘라를 한 세대에 한 번 오는 투자 기회에 견줬다 [사실]",
+    "기존: PDVSA는 12월까지 105건 계약을 목표로 61건을 서명했고, 생산량은 하루 약 120만 배럴이다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "프리마베라의 PDVSA 계약·하루 10만 배럴 목표·대상 유전은 La República·Crypto Briefing 검색 결과 요약으로 확인. 계약 금액은 확인 못 함.",
+   "src": [
+    {"o": "La República", "d": "2026-10-13", "u": "https://larepublica.co/globoeconomia/cofundador-de-coinbase-apuesta-fortuna-a-reactivar-campos-petroleros-de-venezuela-4501851"},
+    {"o": "Crypto Briefing", "d": "2026-10-13", "u": "https://cryptobriefing.com/fred-ehrsam-primavera-venezuela-oil-investment"}
+   ],
+   "inds": ["drilling", "macro"], "nodes": ["drilling/capex", "macro/commodity"],
+   "added": "이번 블룸버그 1건으로 {{코인베이스 공동창업자 에르삼의 프리마베라}}가 {{PDVSA와 생산분배계약}}을 맺고 {{하루 10만 배럴}}을 {{목표}}로 한다는 내용이 추가됐다",
+   "items": [
+    {"t": "암호화폐에서 원유로: 코인베이스 억만장자 '베네수엘라는 최고의 기회'", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/crypto-to-crude-coinbase-billionaire-sees-superlative-opening-in-venezuela",
+     "s": "코인베이스 억만장자 {{에르삼}}이 {{베네수엘라}}를 {{최고의 투자 기회}}로 보고 {{PDVSA와 계약}}하면서, {{암호화폐 자본}}이 베네수엘라 {{원유 생산}}으로 {{옮겨 가고}} 있다"}
+   ]},
+
+  {"cid": "C080", "attachTo": "",
+   "title": "{{SK하이닉스}}, {{MARS·HBF 공개}}…HBF 용량 {{HBM의 14배}}, 2028년 초 샘플",
+   "one": "{{SK하이닉스}}가 OCP 글로벌 서밋에서 첫 토큰 생성 시간을 {{3~5배 개선하는 MARS}}와 {{HBM보다 용량이 14배 큰 HBF}}를 {{공개}}하면서, {{AI 메모리 병목}}을 푸는 {{제품군}}이 {{2028년 초 샘플}}부터 {{넓어질}} 전망이다",
+   "facts": [
+    "무엇이: SK하이닉스가 10월 12~15일 미국 새너제이 OCP 글로벌 서밋에서 메모리 중심 AI 랙 MARS와 고대역폭 플래시 HBF를 소개했다 [사실]",
+    "MARS: 메모리 분리로 여러 차례 추론할 때 첫 토큰 생성 시간(TTFT)을 3~5배 개선할 수 있다고 했다 [사실]",
+    "HBF: 대역폭은 HBM의 약 절반이지만 용량은 약 14배이며, HBF 샘플은 2028년 초 나올 예정이다 [사실]",
+    "표준: HBF는 샌디스크와 OCP에서 표준화 중이며 7월 사양 0.7판을 냈고 1.0판은 내년 초 나올 예정이다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "MARS 3~5배, HBF 용량 14배, 2028년 초 샘플은 서울경제·Futu 등 검색 결과 요약으로 확인. 회사 서밋 보도자료 원문은 확인 못 함.",
+   "src": [
+    {"o": "서울경제(영문)", "d": "2026-10-13", "u": "https://en.sedaily.com/international/2026/10/13/sk-hynix-pitches-memory-centric-ai-rack-to-break-bottleneck"},
+    {"o": "Futu", "d": "2026-10-13", "u": "https://news.futunn.com/en/post/1001001339/new-innovations-beyond-hbm-sk-hynix-unveils-two-major-technologies"}
+   ],
+   "inds": ["macro"], "nodes": ["macro/semis"],
+   "items": [
+    {"t": "SK하이닉스, MARS로 속도 최대 5배…HBF 용량은 HBM의 14배", "o": "텔레그램 하나증권 중국전략", "d": "2026-10-13", "u": "https://t.me/HANAchina/70363"}
+   ]},
+
+  {"cid": "C088", "attachTo": "",
+   "title": "{{프랑스 정부}}, {{에라멧 지분 최대 49%}}로 확대…5억 유로 증자로 {{최대주주}}",
+   "one": "{{프랑스 정부}}가 {{에라멧 5억 유로 증자}}에서 듀발 가문 {{신주인수권}}까지 {{사들여}} {{지분을 27%에서 최대 49%}}로 {{늘리면서}}, 니켈·리튬·망간 등 {{핵심 광물 공급}}에 {{국가 영향력}}이 {{커질}} 전망이다",
+   "facts": [
+    "무엇이: 에라멧이 10월 12일 5억 유로 증자 계획을 확정했고, 프랑스 정부 지분은 27%에서 최대 49%로 늘어 최대주주가 된다 [사실]",
+    "방식: 정부는 지분율만큼 신주를 인수하고 37%를 가진 듀발 가문 지주사의 신주인수권을 이론가 대비 5% 할인에 사들인다 [사실]",
+    "배경: 인도네시아 니켈 채굴 할당 삭감과 광물값 하락으로 2025년 손실을 냈고, 손실과 부채로 은행 약정을 위반했다 [사실]",
+    "조건: 증자는 10월 29일 3분기 매출 발표 뒤 연말 전 진행되며, 조정 레버리지가 1.0배 아래로 내려갈 때까지 배당을 재개하지 않는다 [사실]",
+    "경쟁: 미국·아부다비 국부펀드가 지원하는 오리온 핵심광물 컨소시엄도 지분 인수에 관심을 보였다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "지분 27%→최대 49%, 5억 유로 증자, 신주인수권 매입 조건, 배당 중단은 Mining Weekly·MINING.COM·회사 공시 검색 결과 요약으로 확인. 오리온 컨소시엄 관심은 FT 인용 채널 글에만 있음.",
+   "src": [
+    {"o": "Mining Weekly", "d": "2026-10-13", "u": "https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13"},
+    {"o": "MINING.COM", "d": "2026-10-13", "u": "https://www.mining.com/web/france-to-become-eramets-top-shareholder-via-miners-capital-hike"},
+    {"o": "에라멧 공시(WebDisclosure)", "d": "2026-10-12", "u": "https://www.webdisclosure.com/press-release/eramet-epa-era-eramet-confirms-its-2026-capital-increase-project-backed-by-the-support-of-its-reference-shareholders-and-by-a-strategic-investment-by-the-french-state-SA6POMLJnk6"}
+   ],
+   "inds": ["metals"], "nodes": [],
+   "items": [
+    {"t": "프랑스, 경영난 에라멧 지분 최대 49%로 확대해 최대주주로", "o": "텔레그램 트릴리온", "d": "2026-10-13", "u": "https://t.me/Trillion_labs/10427"}
+   ]},
+
+  {"cid": "C096", "attachTo": "",
+   "title": "{{캐나다 석탄 부활}}, 에너지 중심지를 {{환경 우려로 분열}}시켜",
+   "one": "{{앨버타 정부}}가 로키·구릉지 노천 탄광을 막던 {{1976년 석탄 정책}}을 {{폐지}}하고 {{광산 확장}}을 {{승인}}하면서, {{셀레늄 수질 오염 우려}}를 둘러싼 {{지역 갈등}}이 {{석탄 개발 속도}}를 {{좌우할}} 수 있다",
+   "facts": [
+    "무엇이: 캐나다 에너지 중심지에서 석탄 부활이 환경 우려를 둘러싸고 지역을 갈라놓고 있다 [제목]",
+    "정책: 앨버타는 로키·구릉지 노천 탄광을 막아 온 1976년 석탄 정책을 폐지하고 있으며, 주정부는 대규모 신규 투자 유치를 이유로 든다 [사실]",
+    "승인: 힌턴 인근 비스타 광산 확장이 공청회 없이 승인됐고(7월 20일), 2030년까지 발전용 석탄 수출을 없애려는 연방 계획과 충돌한다는 비판을 받는다 [사실]",
+    "쟁점: 크로우스네스트패스의 그래시마운틴 사업은 일자리 기대와 셀레늄 유출 우려로 주민이 갈려 있다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "블룸버그 뉴스레터 본문과 10월의 새 사건은 확인 못 함. 앨버타 석탄 정책 폐지·비스타 확장 승인·그래시마운틴 갈등 배경은 The Narwhal·CBC·EHN 검색 결과 요약으로 확인.",
+   "src": [
+    {"o": "The Narwhal", "d": "2026", "u": "https://thenarwhal.ca/alberta-coal-mining-2026/"},
+    {"o": "CBC", "d": "2026-07", "u": "https://www.cbc.ca/news/canada/edmonton/alberta-coal-vista-mine-coalspur-environment-trout-9.7292037"},
+    {"o": "EHN", "d": "2026", "u": "https://www.ehn.org/alberta-town-faces-deep-divide-over-proposed-coal-mine-revival-2669451396.html"}
+   ],
+   "inds": ["coal"], "nodes": ["coal/policy", "coal/met"],
+   "items": [
+    {"t": "석탄 부활, 환경 우려로 캐나다 에너지 중심지 분열", "o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/coal-s-revival-is-dividing-canada-s-energy-heartland-over-environmental-concerns"}
+   ]},
+
+  {"cid": "C104", "attachTo": "",
+   "title": "{{엔지}}, {{르아브르 바이오메탄 공장}} 추진…{{CMA CGM LNG선}}에 연료 공급",
+   "one": "{{엔지}}가 {{CMA CGM}}을 소수 주주로 {{르아브르에 바이오메탄 공장}}을 {{짓기로}} 하면서, 최종 투자 결정이 나면 {{2029~2030년부터 연 7,000톤}}(100GWh)을 {{CMA CGM LNG 추진선}}에 {{공급}}할 전망이다",
+   "facts": [
+    "무엇이: 엔지가 10월 13일 르아브르 바이오메탄 생산 사업을 발표했고, CMA CGM은 소수 지분을 갖는다 [사실]",
+    "규모: 최종 투자 결정 뒤 2029~2030년부터 연 약 7,000톤(100GWh)을 CMA CGM 선대에 공급할 예정이다 [사실]",
+    "연료: 가축분뇨·음식물·농업 잔재가 원료이며, LNG 추진선이 엔진·설비 변경 없이 쓸 수 있고 전 과정 온실가스를 67% 이상 줄인다 [사실]",
+    "목표: 엔지는 유럽 바이오메탄 생산능력을 현재 1.2TWh에서 2035년 연 10TWh로 늘릴 계획이다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "사업 구조·공급량·시기·엔지 목표는 엔지 공시·gCaptain·LNG Prime 검색 결과 요약으로 확인. 연간 CO2 감축량은 2만 3,000톤과 1만 8,000톤으로 출처마다 달라 쓰지 않음.",
+   "src": [
+    {"o": "엔지 공시(WebDisclosure)", "d": "2026-10-13", "u": "https://www.webdisclosure.com/press-release/engie-epa-engi-engie-and-cma-cgm-join-forces-to-invest-in-biomethane-production-in-le-havre-YXtXdI0c2IV"},
+    {"o": "gCaptain", "d": "2026-10-13", "u": "https://gcaptain.com/cma-cgm-and-engie-to-produce-biomethane-fuel-for-shipping-in-france/"},
+    {"o": "LNG Prime", "d": "2026-10-13", "u": "https://lngprime.com/contracts-and-tenders/cma-cgm-and-engie-working-on-new-french-biomethane-production-project/56104/"}
+   ],
+   "inds": ["gas"], "nodes": ["gas/demand"],
+   "items": [
+    {"t": "엔지, CMA CGM 선대 연료용 바이오메탄 공장 프랑스에 건설", "o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/energy/engie-build-biomethane-plant-france-fuel-cma-cgms-fleet-2026-10-13/"}
+   ]}
+ ],
+ "skipped": [
+  {"cid": "C057", "reason": "범위 밖"}
+ ]}

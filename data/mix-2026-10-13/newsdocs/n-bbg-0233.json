@@ -1,0 +1,75 @@
+{
+ "id": "n-bbg-0233",
+ "num": 233,
+ "key": "mix-C032-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T00:23:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/morgan-stanley-traders-pitch-travelodge-s-unloved-bonds-as-a-buy",
+ "origTitle": "",
+ "headline": "CCC 스프레드 1,000bp 돌파…지수 고점 속 취약 차입자 신용 경고음",
+ "src": [
+  {
+   "o": "Tech Times",
+   "d": "2026-10-01",
+   "u": "https://www.techtimes.com/articles/328402/20261001/junk-bonds-cross-distressed-territory-high-yield-funds-now-hold-bankruptcy-bets.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "모건스탠리 트레이더들, 외면받는 트래블로지 채권을 매수 대상으로 제시",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/morgan-stanley-traders-pitch-travelodge-s-unloved-bonds-as-a-buy"
+  },
+  {
+   "t": "모건스탠리, CCC 스프레드 1,000bp 돌파·은행주 33년 만의 과매도 경고",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70288"
+  },
+  {
+   "t": "크레디아그리콜, 자동차 딜러 SRT로 위험 부채 헤지 검토",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/credit-agricole-weighs-hedging-risky-debt-in-car-dealer-srt"
+  },
+  {
+   "t": "사모펀드, 배당 리캡에 쓸 여력 410억 유로 남아",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/private-equity-has-41-billion-of-headroom-for-dividend-recaps"
+  },
+  {
+   "t": "버진미디어 채권 두고 골드만·모건스탠리 트레이더 의견 엇갈려",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-morgan-stanley-traders-are-split-over-virgin-media-debt"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "title": "CCC 스프레드 1,000bp 돌파…지수 고점 속 취약 차입자 신용 경고음",
+ "one": "CCC 등급 회사채 스프레드가 1,000bp를 넘어 2023년 이후 가장 크게 벌어지고 미 10년물 금리가 5.30%까지 오른 가운데, 모건스탠리는 은행주가 33년 만에 가장 과매도됐다고 봐 취약 차입자의 자금 조달 부담이 커지고 있다",
+ "facts": [
+  "무엇이: CCC 등급 스프레드는 9월 30일 약 1,007bp로 SVB 사태 이후 처음 1,000bp를 넘었습니다 [사실]",
+  "은행주: 모건스탠리는 은행주 RSI와 S&P 500의 격차가 33년 만에 최대인 극심한 과매도라고 봤고, 10년물 미 국채금리가 5.30%로 2002년 이후 최고라고 전했습니다 [채널]",
+  "개별 신용: 모건스탠리 트레이더들은 외면받던 트래블로지 채권을 매수 대상으로 제시했고, 버진미디어 채권을 두고는 골드만삭스와 모건스탠리 트레이더 의견이 갈렸습니다 [제목]",
+  "레버리지: 유럽 사모펀드의 배당 리캡 여력은 410억 유로로 추산됐고, 크레디아그리콜은 자동차 딜러 위험 부채를 SRT로 헤지하는 방안을 검토 중입니다 [제목]",
+  "일정: 이번 주 화요일 시작하는 은행 실적 시즌이 견조한 펀더멘털과 투자자 우려 사이 괴리를 가늠할 계기로 꼽힙니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 CCC 스프레드 1,000bp 돌파(9월 30일 약 1,007bp) 확인, 다른 집계는 1,200bp로 엇갈림. 은행주 33년 만의 과매도와 모건스탠리 분석 자체는 확인 못 함",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

@@ -1,0 +1,35 @@
+{"items": [
+{"cid": "C181", "attachTo": "", "title": "핼러도어, 메롬 석탄발전소 전력 6.9억 달러 6년 계약…선도 판매 30억 달러",
+ "one": "핼러도어가 인디애나 메롬 석탄발전소의 용량 225MW와 전력을 2029~2035년 한 전력회사에 파는 약 6억9천만 달러 계약을 맺으면서, 메롬 용량의 약 95%가 2035년까지 팔려 기존 석탄발전 설비의 장기 수익이 확보됐다",
+ "facts": ["무엇이: 핼러도어 자회사가 10월 7일 MISO 6구역의 투자등급 전력회사와 2029년 6월~2035년 5월 메롬 발전소 전력·용량 계약을 맺었다 [사실]",
+   "규모: 용량 수입 약 2억7,100만 달러와 선도 전력가 기준 전력 수입 약 4억2,200만 달러이며, 연평균 225MW 용량을 판다 [사실]",
+   "판매 현황: 메롬 인증 용량의 약 95%가 2035년까지 계약됐고 부문 선도 판매액은 약 30억 달러다 [사실]",
+   "상대방: 회사는 이름을 밝히지 않았고 일부 매체가 듀크에너지 인디애나로 보도했다 [미확인]"],
+ "basis": "verified", "check": "계약 기간·금액·용량은 검색 결과 요약(StockTitan·Benzinga 회사 발표)으로 확인. 계약 상대 전력회사 이름은 확인 못 함",
+ "src": [{"o": "StockTitan(회사 발표)", "d": "2026-10-07", "u": "https://www.stocktitan.net/news/HNRG/hallador-executes-700m-sale-record-price-lifts-forward-sales-to-3-413n6id2qo74.html"}, {"o": "Benzinga", "d": "2026-10-07", "u": "https://www.benzinga.com/markets/small-cap/26/10/62256058/hallador-energy-secures-record-capacity-pricing-for-merom-station-boosts-sales-book-to-3-billion"}],
+ "inds": ["coal", "power"], "nodes": ["coal/power", "power/market"],
+ "items": [
+  {"t": "핼러도어, 인디애나 전력회사와 6억9,300만 달러 전력 계약", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-08/hallador-signs-711-million-power-deal-with-indiana-utility"}]},
+{"cid": "C191", "attachTo": "", "title": "AMC, 39.7억 달러 차입금 재조달 마무리…만기 2031·2033년으로",
+ "one": "AMC엔터테인먼트가 도이체방크 특수상황그룹의 11억2천만 달러 2순위 대출을 포함한 39억7천만 달러 재조달을 마치면서, 부채의 약 97% 만기가 2031년과 2033년으로 밀려 당분간 만기 압박을 덜었다",
+ "facts": ["무엇이: AMC가 10월 5일 기존 부채 39억7천만 달러의 재조달을 마무리했다 [사실]",
+   "구성: 2031년 만기 1순위 채권 20억 달러, 1순위 신규 대출 8억5천만 달러, 도이체방크 특수상황그룹의 2순위 대출 11억2천만 달러 [사실]",
+   "만기: 부채의 약 97%가 2031년 10월과 2033년 10월 만기로 늦춰졌다 [사실]"],
+ "basis": "verified", "check": "재조달 규모·구성·만기는 검색 결과 요약(AMC 발표·Morningstar Business Wire)으로 확인. 채권 금리는 확인 못 함",
+ "src": [{"o": "Business Wire(AMC 발표)", "d": "2026-10-05", "u": "https://www.morningstar.com/news/business-wire/20261005927504/amc-entertainment-holdings-inc-announces-results-of-tender-offer-the-closing-of-first-lien-notes-offering-and-new-term-loan-facilities-totaling-a-397-billion-refinancing-of-existing-debt"}],
+ "inds": ["consumer"], "nodes": [],
+ "items": [
+  {"t": "도이체방크 '카사블랑카 프로젝트'로 AMC 대규모 부채 재조정 마무리", "o": "블룸버그", "d": "2026-10-08", "u": "https://www.bloomberg.com/news/articles/2026-10-07/deutsche-bank-s-project-casablanca-seals-amc-s-big-debt-revamp"}]},
+{"cid": "C201", "attachTo": "", "title": "남아공 경쟁위, 통조림 공장 폐쇄 은폐 이유로 프리미어-RFG 합병 승인 취소 신청",
+ "one": "남아공 경쟁위원회가 프리미어와 RFG가 심사 중 툴바흐 과일 통조림 공장 폐쇄 계획을 숨겼다며 약 60억 랜드 규모 합병 승인 취소를 신청하면서, 받아들여지면 프리미어가 RFG 인수를 되돌리거나 자산을 팔아야 할 수 있다",
+ "facts": ["무엇이: 경쟁위원회가 경쟁법 16조 3항에 따라 경쟁심판소에 프리미어의 RFG 인수 승인 취소를 신청했다 [사실]",
+   "이유: 두 회사가 공장 폐쇄·통합 계획이 없다고 했지만 RFG의 툴바흐 과일 통조림 공장 폐쇄 계획을 알리지 않았다는 것이다 [사실]",
+   "영향: 이 공장은 남아공 두 곳뿐인 과일 통조림 공장 중 하나로, 400명 넘는 직원이 일한다 [사실]",
+   "반론: 프리미어는 폐쇄가 세계 과일 통조림 업계의 경영난 때문이라며 반박했다 [사실]"],
+ "basis": "verified", "check": "신청 내용·공장·프리미어 반론은 검색 결과 요약(BusinessDay·Bowmans·EWN)으로 확인. 거래 규모는 매체별 56억~65억 랜드로 엇갈림",
+ "src": [{"o": "BusinessDay", "d": "2026-10-07", "u": "https://www.businessday.co.za/companies/2026-10-07-why-the-competition-watchdog-wants-r6bn-premier-rfg-merger-revoked/"}, {"o": "Bowmans", "d": "2026-10", "u": "https://bowmanslaw.com/insights/south-africa-competition-commission-seeks-revocation-of-merger-approval-in-premier-rfg-transaction/"}],
+ "inds": ["consumer"], "nodes": [],
+ "items": [
+  {"t": "남아공 경쟁당국, 프리미어-RFG 거래 승인 취소 추진", "o": "블룸버그", "d": "2026-10-07", "u": "https://www.bloomberg.com/news/articles/2026-10-07/south-african-antitrust-body-seeks-to-revoke-premier-rfg-deal"}]}
+],
+"skipped": []}

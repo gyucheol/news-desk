@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0328",
+ "num": 328,
+ "key": "mix-G4-030-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T21:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+ "origTitle": "",
+ "headline": "오픈AI CFO '중국 AI 모델 쓰는 기업은 안전 위험 감수'",
+ "src": [
+  {
+   "o": "Cyber Kendra",
+   "d": "2026-09",
+   "u": "https://www.cyberkendra.com/2026/09/anthropic-says-kimi-users-were-secretly.html"
+  },
+  {
+   "o": "Ynet News",
+   "d": "2026-10",
+   "u": "https://www.ynetnews.com/tech-and-digital/article/sjkfr8zcmg"
+  }
+ ],
+ "items": [
+  {
+   "t": "오픈AI CFO '중국 AI 모델 쓰는 기업은 안전 위험 감수'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "오픈AI CFO '중국 AI 모델 쓰는 기업은 안전 위험 감수'",
+ "one": "오픈AI의 최고재무책임자가 중국 AI 모델을 쓰는 기업들이 안전 위험을 떠안고 있다고 경고하면서, 기업 고객이 중국 AI 모델을 채택할 때 보안 검토 부담이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 오픈AI 최고재무책임자가 중국 AI 모델을 쓰는 기업들이 안전 위험을 감수하고 있다고 말했습니다 [제목]",
+  "배경: 앤트로픽은 9월 10일 위협 보고서에서 문샷(키미)과 딥시크가 사용자 요청을 몰래 클로드로 넘겼다고 주장했고, 중국 인터넷정보판공실은 두 회사를 조사하고 있습니다 [사실]"
+ ],
+ "basis": "title",
+ "check": "오픈AI CFO 발언은 확인 못 해 제목 기준. 함께 묶인 텔레그램 2건(카이에 de market/11007, 나쁜양파/7829의 '오늘 클로드 보안 보고서')은 검색 결과 요약으로 9월 10일 앤트로픽 보고서의 재탕임을 확인해 items에서 뺌",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국 AI 모델 쓰는 기업에 안전 위험 경고"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0190",
+ "num": 190,
+ "key": "bnd-C176-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T19:29:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/bahrain-bond-selloff-revives-memory-of-2018-rescue-by-gulf-peers",
+ "origTitle": "",
+ "headline": "바레인 국채 급락에 2018년 걸프 구제금융 기억 소환",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-08",
+   "u": "https://www.briefs.co/news/bahrain-bond-pain-returns-to-crisis-era-levels-as-war-and-ri/"
+  },
+  {
+   "o": "AGBI",
+   "d": "2026-09",
+   "u": "https://www.agbi.com/analysis/economy/2026/09/bahrain-debt-pressures-mount-as-oil-revenue-dwindles/"
+  }
+ ],
+ "items": [
+  {
+   "t": "바레인 국채 매도세, 2018년 걸프 이웃국 구제 기억 되살려",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bahrain-bond-selloff-revives-memory-of-2018-rescue-by-gulf-peers"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "바레인 국채 급락에 2018년 걸프 구제금융 기억 소환",
+ "one": "호르무즈 봉쇄로 원유 수입이 줄고 미 국채 금리가 뛰면서 바레인 2028년물 달러채 금리가 6년 만의 최고인 8.99%로 오르자, 투자자들이 2018년 사우디·UAE·쿠웨이트의 100억 달러 구제를 다시 떠올리고 있다",
+ "facts": [
+  "무엇이: 바레인 2028년 만기 달러채 금리가 8월 말 이후 약 160bp 올라 8.99%로 6년 만의 최고 [사실]",
+  "원인: 이란 전쟁과 호르무즈 해협 사실상 봉쇄로 원유 생산·재정이 악화되고 미 국채 금리도 상승 [사실]",
+  "전례: 2018년 사우디·UAE·쿠웨이트가 무이자 장기대출 100억 달러로 구제, 다만 2020년엔 지원을 보류 [사실]",
+  "전망: 분석가들은 걸프 지원이 개혁 조건부로 나올 수 있다고 보지만 10월 새 지원 발표는 없음 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Briefs, AGBI)으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/geo"
+ ]
+}

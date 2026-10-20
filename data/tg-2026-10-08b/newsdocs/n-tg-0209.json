@@ -1,0 +1,50 @@
+{
+ "id": "n-tg-0209",
+ "feed": "v5",
+ "format": "one1",
+ "num": 209,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65727",
+ "published": "2026-10-08T17:41:00+09:00",
+ "url": "https://t.me/insidertracking/65727",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+ "one": "월러 연준 이사가 추가 금리 인상은 필요하지만 회의마다 연속으로 올릴 필요는 없다고 밝히면서, 10월 27~28일 회의에서는 인상을 쉬어 갈 여지가 생겼다",
+ "headline": "월러 연준 이사 \"추가 인상 필요하지만 매 회의 연속 인상은 불필요\"",
+ "facts": [
+  "무엇이: 월러 이사가 10월 8일 이스탄불 경제포럼 연설에서 추가 인상이 필요하나 연속 회의마다 올릴 필요는 없고 인상 속도는 유연하게 조정할 수 있다고 말했습니다 [사실]",
+  "왜: 인플레이션이 약 5년 반째 목표를 웃돌고 AI 인프라 투자와 에너지 충격이 기대인플레이션을 위협한다고 지적했습니다 [사실]",
+  "배경: 9월 노동시장은 견고하고 안정적이며 하반기 경제가 강해지고 있다고 평가했습니다 [채널]",
+  "다음 일정: 시장은 10월 회의 인상 가능성을 약 20%로 반영하고 있으며 다음 주 CPI가 변수로 꼽힙니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글로 들어온 소식이며, investingLive·Finimize 자체 기사(검색 결과 요약으로 확인)로 발언 요지를 확인했습니다. 10월 동결·12월 인상 경로는 매체 해석입니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65727"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-08",
+   "u": "https://investinglive.com/central-banks/fed-s-waller-says-more-hikes-are-needed-but-can-be-flexible-about-the-pace-downplays-september-nfp-weakness/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-08",
+   "u": "https://finimize.com/content/feds-waller-signals-more-rate-hikes-but-not-every-meeting"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더"
+}

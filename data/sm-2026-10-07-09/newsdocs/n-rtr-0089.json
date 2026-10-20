@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0089",
+ "num": 89,
+ "key": "bnd-C238-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T23:48:00+09:00",
+ "url": "https://www.reuters.com/business/finance/us-farm-debt-is-record-official-data-might-be-undercounting-it-2026-10-08/",
+ "origTitle": "",
+ "headline": "미국 농가 부채 6,050억 달러로 사상 최대…공식 통계가 과소 집계 가능성",
+ "src": [
+  {
+   "o": "Western Producer",
+   "d": "2026-10-08",
+   "u": "https://www.producer.com/daily/u-s-farm-debt-is-at-a-record-official-data-might-be-undercounting-it/"
+  },
+  {
+   "o": "USDA ERS",
+   "d": "2026",
+   "u": "https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/highlights-from-the-farm-income-forecast"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국 농가 부채 사상 최대…공식 통계는 과소 집계 가능성",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/us-farm-debt-is-record-official-data-might-be-undercounting-it-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "미국 농가 부채 6,050억 달러로 사상 최대…공식 통계가 과소 집계 가능성",
+ "one": "농가 파산 증가로 은행들이 대출을 조이자 미국 농민들이 농자재 업체·장비 제조사·핀테크 등 비전통 대출처로 몰리면서, 사상 최대인 6,050억 달러 농가 부채가 공식 통계보다 더 클 수 있다는 지적이 나왔다",
+ "facts": [
+  "무엇이: 미 농무부 추정 올해 농가 부채가 6,051억 달러로 4.6% 늘어 사상 최대 [사실]",
+  "과소 집계: 농무부는 은행·팜크레딧 보고 자료에 의존해 공급업체·장비사·핀테크 대출을 다 잡지 못함, 판매자 신용 조사 응답률은 2009년 68%에서 2025년 33%로 하락 [사실]",
+  "추정: 캔자스주립대 연구자는 '개인·기타' 항목(2025년 450억 달러)의 실제 규모가 2~3배일 수 있다고 추정 [사실]",
+  "배경: 이란 전쟁으로 비료·연료값이 올랐고 농가 파산이 늘며 일부 은행이 대출을 조임 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Western Producer 등 전재 및 USDA ERS)",
+ "inds": [
+  "agri"
+ ],
+ "nodes": []
+}

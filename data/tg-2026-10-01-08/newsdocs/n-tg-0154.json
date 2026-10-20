@@ -1,0 +1,46 @@
+{
+ "id": "n-tg-0154",
+ "feed": "v5",
+ "format": "one1",
+ "num": 154,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-w_compass-7161",
+ "published": "2026-10-02T11:22:00+09:00",
+ "url": "https://t.me/w_compass/7161",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/storage",
+  "power/grid"
+ ],
+ "title": "미국 2027~2031년 가동 예정 BESS 293건…1년 새 75%↑",
+ "one": "미국 에너지정보청에 보고된 2027~2031년 가동 예정 배터리저장(BESS) 사업이 293건으로 1년 전보다 75% 늘면서, 전력망 연계 병목이 풀리는 만큼 ESS 수요가 빠르게 늘 수 있다 (채널 전언)",
+ "headline": "미국 2027~2031년 가동 예정 BESS 293건…1년 새 75%↑",
+ "facts": [
+  "무엇이: 2026년 6월 말 EIA 집계 기준 2027~2031년 가동 계획 BESS 사업은 293건으로 1년 전 167건보다 75% 많습니다 [채널]",
+  "얼마나: 같은 기간 계획 용량은 45% 늘었다고 채널은 전했습니다 [채널]",
+  "배경: EIA 8월 자료로는 운영사들이 2027년 26GW, 2028년 14GW의 배터리 추가를 계획하고 있습니다 [사실]",
+  "해석: 대기 물량이 연계 절차 병목에 묶여 있다는 것은 채널의 해석입니다 [추론]"
+ ],
+ "basis": "channel",
+ "check": "채널 글만으로 작성했습니다. 293건·167건·45% 숫자는 독립 출처를 찾지 못했고, EIA 8월 용량 계획만 Energy-Storage.News 검색 결과 요약으로 확인했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-02",
+   "u": "https://t.me/w_compass/7161"
+  },
+  {
+   "o": "Energy-Storage.News",
+   "d": "2026-08",
+   "u": "https://www.energy-storage.news/us-double-bess-capacity-2028-eia-reports/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "부의 나침반"
+}

@@ -1,0 +1,82 @@
+{
+ "basis": "partial",
+ "channel": "카이에 de market",
+ "check": "송유관 수송량 회복(파이프라인 저널·시킹알파)과 펌프장 재피격(프리말레이시아투데이·비즈니스레코더의 AFP 기사) 문서 2건을 묶었습니다. 정상 가동 여부와 브렌트 가격 움직임은 확인하지 못했습니다.",
+ "cycles": [],
+ "dupOf": "bbg-065",
+ "facts": [
+  "무엇이: 사우디 에너지 업계 소식통은 AFP에 리야드 동쪽 쿠라이스 인근 펌프장이 새 공격으로 크게 부서져 송유가 다시 멈췄다고 말했고, 이후 정상 가동 중이라는 전언이 나왔지만 정부 공식 확인은 없습니다 [사실]",
+  "직전 수송량: 동서 송유관 수송량은 하루 약 600만 배럴(능력 700만 배럴)로 80%를 넘었고, 수출 가능 물량은 하루 약 450만 배럴로 2월 말 전쟁 뒤 최고였습니다 [사실]",
+  "배경: 송유관은 9월 피격으로 멈췄다가 9월 22일 줄어든 양으로 재개됐습니다 [사실]",
+  "유가: 중단 보도에 브렌트유가 배럴당 102.31달러까지 올랐다가 정상 가동 소식에 101.81달러로 내렸습니다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사우디 동서 송유관 80% 회복 뒤 펌프장 또 피격…'정상 가동' 엇갈려",
+ "id": "n-tg-0161",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-cahier_de_market-10912",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 161,
+ "one": "사우디 동서 송유관 수송량이 하루 약 600만 배럴로 능력의 80%를 넘어 홍해 수출 여력이 전쟁 뒤 최고로 올라섰지만, 리야드 동쪽 펌프장이 다시 공격받아 송유가 멈췄다는 AFP 보도가 나오면서 호르무즈를 피하는 수출로가 다시 흔들렸다",
+ "processed": "2026-10-09",
+ "published": "2026-10-05T17:38:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 카이에 de market",
+   "u": "https://t.me/cahier_de_market/10912"
+  },
+  {
+   "d": "2026-10",
+   "o": "파이프라인 저널",
+   "u": "https://www.pipeline-journal.net/news/saudi-arabia-ramps-east-west-pipeline-flows-over-80-following-repairs-after-attacks"
+  },
+  {
+   "d": "2026-10",
+   "o": "시킹알파",
+   "u": "https://seekingalpha.com/news/4650566-saudi-east-west-pipeline-flowing-at-5_8m-bbl-day-as-middle-east-oil-exports-recover"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69878"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Free Malaysia Today(AFP)",
+   "u": "https://www.freemalaysiatoday.com/category/world/2026/10/05/saudi-s-east-west-oil-pipeline-pumping-halted-after-new-attack"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Business Recorder(AFP)",
+   "u": "https://www.brecorder.com/news/40442740/east-west-oil-pipeline-pumping-halted-after-new-attack-saudi-energy-sector-source"
+  }
+ ],
+ "tags": [],
+ "title": "사우디 동서 송유관 80% 회복 뒤 펌프장 또 피격…'정상 가동' 엇갈려",
+ "url": "https://t.me/cahier_de_market/10912",
+ "items": [
+  {
+   "t": "사우디 동서 송유관 수송량 능력의 80% 넘어…홍해 수출 여력 전쟁 뒤 최고",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-02",
+   "u": "https://t.me/cahier_de_market/10912"
+  },
+  {
+   "t": "사우디 동서 송유관 펌프장 또 피격…중단 보도 뒤 '정상 가동' 엇갈려",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-05",
+   "u": "https://t.me/HANAchina/69878"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

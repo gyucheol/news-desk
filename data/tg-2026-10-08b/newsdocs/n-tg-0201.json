@@ -1,0 +1,50 @@
+{
+ "id": "n-tg-0201",
+ "feed": "v5",
+ "format": "one1",
+ "num": 201,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65719",
+ "published": "2026-10-08T14:47:00+09:00",
+ "url": "https://t.me/insidertracking/65719",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "FT '이란 전쟁, 영국 재정에 120억 파운드 구멍'…재정 여력 반토막",
+ "one": "이란 전쟁발 물가 상승과 차입 비용 급등이 영국 재정에 약 120억 파운드의 구멍을 내면서, 힐리 재무장관의 재정 여력이 절반으로 줄어 예산안에서 증세와 지출 삭감 압박이 커질 전망이다",
+ "headline": "FT '이란 전쟁, 영국 재정에 120억 파운드 구멍'…재정 여력 반토막",
+ "facts": [
+  "무엇이: FT는 이란 전쟁으로 영국 공공재정에 약 120억 파운드의 구멍이 생겼다고 추산했습니다 [사실]",
+  "왜: 물가 상승과 차입 비용 급등이 원인으로 꼽혔습니다 [사실]",
+  "영향: 존 힐리 재무장관의 재정 여력(헤드룸)이 절반으로 줄었다는 추산입니다 [사실]",
+  "다음 일: 생활비 대책 재원을 예산안의 증세·지출 삭감에 기대야 할 수 있다는 관측입니다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(FT 보도 전재)로 들어온 소식이며, FT 공식 X 게시물과 Digg·뉴스퀵 요약(2026-10-08)으로 확인했습니다(검색 결과 요약으로 확인). FT 본문은 읽지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65719"
+  },
+  {
+   "o": "Financial Times(X 게시물)",
+   "d": "2026-10-08",
+   "u": "https://x.com/FT/status/2107926187213209839"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/the-iran-war-has-blown-a-near-gbp-12bln-hole-in-uk-public-finances-according-to-ft-estimates-slashing-chancellor-healeys-headroom-in-half-and-forcing-him-to-lean-on-budget-tax-rises-and-spending-cuts-to-fund-efforts-to-ease-the-cost-of-living"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더"
+}

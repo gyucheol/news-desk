@@ -7,7 +7,7 @@ def it(t, o, u, s=None):
     return x
 def vc(ind, node, f, d, k, t):
     return {"ind": ind, "node": node, "f": f, "dir": d, "k": k, "t": t}
-J = lambda *L: '\n'.join(L)
+J = lambda *L: '\n'.join(l[:-1] if l.endswith('.') else l for l in L)
 B, R = '블룸버그', '로이터'
 out = []
 
@@ -224,7 +224,7 @@ out.append({"cid": "G2-007", "attachTo": "n-tg-0326",
  "items": [
   it("중국 LPR 고시 동결…1년물 3.0%·5년물 3.5%", TG("하나증권 중국전략"), "https://t.me/HANAchina/70726",
      "인민은행이 1년물 LPR 3.0%, 5년물 3.5%를 그대로 고시하면서 시장 예상대로 동결이 이어져 가계·기업 대출금리 부담이 유지됐다"),
-  it("중국, 대출우대금리 17개월 연속 동결", R, "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/",
+  it("중국, 기준 대출금리(LPR) 17개월 연속 동결", R, "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/",
      "중국이 기준 대출금리인 LPR을 17개월 연속 동결하면서, 3분기 GDP가 4.5% 성장한 가운데 추가 부양보다 금리 체계 개편에 무게가 실렸다"),
   it("분석가들 '인민은행 정책금리 전환 계획, 차입 비용 낮출 것'", B, "https://www.bloomberg.com/news/articles/2026-10-20/pboc-rate-shift-plan-would-lower-borrowing-costs-analysts",
      "분석가들이 인민은행의 정책금리 기준 전환 계획이 차입 비용을 낮출 것으로 보면서, 익일물 전환이 사실상 완화 효과를 낼 수 있다는 해석이 나왔다 (제목 기준)"),

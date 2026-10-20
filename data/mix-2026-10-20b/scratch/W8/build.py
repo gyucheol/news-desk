@@ -273,9 +273,9 @@ items.append({"cid": "G2-012", "attachTo": "",
  "items": [
   it("구글 클라우드 전력 장애, 레볼루트 등 온라인 서비스 마비", "블룸버그", B+"articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk",
      "구글 클라우드 런던 리전의 전력 장애로 레볼루트와 영국 은행 등 온라인 서비스가 멈추면서 클라우드 의존 금융사의 운영 위험이 드러났다"),
-  it("영국 구글 클라우드 서비스 대부분 복구", "로이터", R+"business/google-cloud-services-largely-back-up-uk-2026-10-20/",
+  it("영국 구글 클라우드 서비스, 장애 뒤 대부분 다시 가동", "로이터", R+"business/google-cloud-services-largely-back-up-uk-2026-10-20/",
      "구글이 영국 클라우드 서비스를 대부분 되살리면서 레볼루트 등 피해 기업의 서비스도 단계적으로 정상화됐다"),
-  it("구글 클라우드, 유럽서 서비스 장애", "로이터", R+"world/europe/google-cloud-services-experience-outage-europe-2026-10-20/",
+  it("구글 클라우드, 유럽 지역에서 서비스 장애 겪어", "로이터", R+"world/europe/google-cloud-services-experience-outage-europe-2026-10-20/",
      "구글 클라우드가 유럽에서 장애를 겪으면서 로이즈·HSBC 고객 접속 문제가 생기고 영국 금융행위감독청이 대응에 나섰다"),
  ]})
 
@@ -430,6 +430,9 @@ items.append({"cid": "G2-078", "attachTo": "",
  "vc": [{"ind": "fin", "node": "insurance", "f": "-", "dir": "flat", "k": "실제", "t": "프루덴셜 중남미 보험 사업 CNP에 매각해 주인만 바뀜"}],
  "items": [it("프루덴셜 파이낸셜, 브라질·멕시코 사업 40억 달러에 매각", "로이터", R+"world/americas/prudential-financial-sell-brazil-mexico-units-4-billion-2026-10-20/")]})
 
+import re
+for x in items:
+    x["one"] = re.sub(r"다\.(?=\n| \(|$)", "다", x["one"])
 out = {"agent": "W8", "searches_used": 14, "fetches_used": 2, "items": items, "skipped": []}
 json.dump(out, open('/home/user/news-desk/data/mix-2026-10-20b/out2/W8.json', 'w'), ensure_ascii=False, indent=1)
 print(len(items))

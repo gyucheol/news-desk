@@ -1,0 +1,146 @@
+{
+ "summary": "",
+ "state": {
+  "deals": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/",
+    "nid": "n-bbg-0430",
+    "t": "한소제약은 로슈와 ADC 포트폴리오 계약을 맺어 선급금 4억 달러와 1주년 1억 1천만 달러, 최대 150억 달러 마일스톤과 로열티를 받을 수 있고 중화권 밖 개발권은 로슈로 넘어갑니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/germanys-merck-buys-silence-therapeutics-13-billion-2026-10-19/",
+    "nid": "n-rtr-0342",
+    "t": "머크KGaA는 siRNA 개발사 사일런스를 ADS당 현금 20달러, 지분가치 약 13억 달러에 사기로 했고, 이는 10월 16일 종가 대비 130% 프리미엄입니다 [사실]"
+   }
+  ],
+  "clinical": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/eyepoint-cut-workforce-by-half-after-experimental-drug-fails-second-late-stage-2026-10-19/",
+    "nid": "n-tg-0324",
+    "t": "디스크 메디슨 비토퍼틴은 EPP 3상에서 모든 1·2차 평가변수를 충족해 주가가 약 38% 올랐고, 아이포인트는 습성 황반변성 3상 실패 뒤 인력 약 53%를 줄였습니다 [사실]"
+   }
+  ],
+  "production": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/roche-moves-future-germany-investments-on-hold-2026-10-19/",
+    "nid": "n-rtr-0568",
+    "t": "로슈 독일 대표는 건강보험 비용 억제 정책으로 업계 신뢰가 무너졌다며 향후 독일 투자 결정을 보류했고, 펜츠베르크 6억 유로 넘는 확장 등 기존 계획은 유지합니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-20",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/",
+   "nid": "n-bbg-0430",
+   "t": "한소제약–로슈 ADC 계약은 선급금 4억 달러에 최대 150억 달러 마일스톤이고, METiS–릴리 LNP 전달 기술 계약은 최대 약 11억 달러 마일스톤입니다 [사실]"
+  },
+  {
+   "d": "2026-10-19",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/litigation/germanys-merck-buys-silence-therapeutics-13-billion-2026-10-19/",
+   "nid": "n-rtr-0342",
+   "t": "머크KGaA의 사일런스 인수는 지분가치 약 13억 달러(기업가치 11억 달러), 종가 대비 130% 프리미엄으로 2027년 1분기 마무리 예정입니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "a": [
+   {
+    "t": "생산 사슬이 관세와 탈중국 압력으로 지역을 옮기고 있습니다. GSK는 펜실베이니아에 8억 달러 넘게 투자하고, 인도 CDMO 피라말은 중국 노출을 한 자릿수로 줄였으며, 로슈는 약가 억제를 이유로 향후 독일 투자 결정을 보류했습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/legal/litigation/roche-moves-future-germany-investments-on-hold-2026-10-19/"
+     }
+    ]
+   },
+   {
+    "t": "후보물질 조달은 중국 자산과 플랫폼 기술로 더 넓어집니다. 로슈는 한소제약 ADC에 선급금 4억 달러·최대 150억 달러, 릴리는 METiS LNP 기술에 최대 약 11억 달러를 걸었고, 중국은 플랫폼의 외국 인수는 막되 라이선스는 열어 두는 안을 냈습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-19",
+      "u": "https://t.me/Trillion_labs/10856"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "자금 유입이 식는 신호도 있습니다. 3분기 바이오제약 벤처 투자는 64억 4,000만 달러로 2분기(101억 7,000만 달러)보다 줄었고, 미국 바이오텍 롱숏 지표는 10월 9일 최저치였다는 전언이 나왔습니다 [귀납]",
+    "src": [
+     {
+      "o": "Citeline Scrip(Evaluate 집계)",
+      "d": "2026-10",
+      "u": "https://insights.citeline.com/scrip/business/financing/biopharma-vc-investment-slumps-in-q3-but-2026-still-on-track-for-growth-SENVGMMRMZAWFMZ57GCUKAOZJY/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-09",
+      "u": "https://t.me/Trillion_labs/10290"
+     }
+    ]
+   },
+   {
+    "t": "후기 임상 차질도 이어졌습니다. 아이포인트는 습성 황반변성 3상 실패로 인력 약 53%를 줄였고, 노바티스가 인수한 아비디티의 근이영양증 약도 3상에서 실망스러운 결과를 냈습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/legal/litigation/eyepoint-cut-workforce-by-half-after-experimental-drug-fails-second-late-stage-2026-10-19/"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지는 않습니다. 10월에도 한소제약–로슈(최대 150억 달러), 머크KGaA–사일런스(프리미엄 130%) 같은 거래가 이어졌고, 디스크 메디슨처럼 3상 성공 기업에는 주가가 크게 반응합니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/legal/litigation/germanys-merck-buys-silence-therapeutics-13-billion-2026-10-19/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/disc-medicines-rare-disease-drug-succeeds-late-stage-trial-2026-10-19/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "gaps": "",
+ "note": "뉴스 13건 반영: 한소제약–로슈 ADC 최대 150억 달러·머크KGaA의 사일런스 13억 달러 인수, 로슈 독일 투자 보류, 디스크 3상 성공·아이포인트 실패. 국면 ② 그대로, 근거 4줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+ "searches": 0,
+ "fetches": 0
+}

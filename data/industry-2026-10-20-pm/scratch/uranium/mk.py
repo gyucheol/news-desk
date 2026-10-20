@@ -1,0 +1,34 @@
+import json
+B5='https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana'
+BC='https://www.bloomberg.com/news/articles/2026-09-08/bluecore-energy-raises-50-million-for-maritime-nuclear-system'
+CW='https://t.me/insidertracking/66690'
+SEC='https://www.sec.gov/Archives/edgar/data/0001065059/000162828026053433/ex991-10q2026_08x05.htm'
+DE='https://t.me/Trillion_labs/10739'
+KR='https://t.me/PipeBeom/6095'
+x={"id":"uranium","summary":"",
+"state":{
+ "build":[
+  {"d":"2026-10-19","o":"블룸버그","u":B5,"nid":"n-bbg-0005","t":"아마존·AEP·X-에너지가 인디애나 옛 석탄발전소 부지에 80MW 소형원자로 12기, 모두 960MW 원전을 짓는 방안을 검토하며, 진행 여부는 2029년 말까지 정합니다 [사실]"},
+  {"d":"2026-09-08","o":"블룸버그","u":BC,"nid":"n-bbg-0014","t":"블루코어 에너지가 바지선 위 약 10MWe 경수로 개발에 실버턴 파트너스 주도 시드 5,000만 달러(누적 6,000만 달러)를 받았고, 아직 시제품 모듈 단계입니다 [사실]"}],
+ "enrichment":[
+  {"d":"2026-10-19","o":"텔레그램 미국 주식 인사이더","u":CW,"nid":"n-tg-0013","t":"센트러스가 원심분리기 케이싱 등 핵심 부품 업체 웨스터먼을 현금 약 9,500만 달러와 주식 2,100만 달러, 모두 1억 1,600만 달러에 인수해 농축 확장용 부품을 내재화합니다 [채널]"}],
+ "policy":[
+  {"d":"2026-10-17","o":"텔레그램 트릴리온","u":DE,"nid":"n-tg-0666","t":"독일이 원전 전기로 만든 수소도 저탄소로 인정했다고 채널이 전했으나, 다른 출처로는 아직 확인되지 않았습니다 [채널]"}]},
+"industryState":[
+  {"d":"2026-10-19","kind":"capex","o":"블룸버그","u":B5,"nid":"n-bbg-0005","t":"아마존·AEP·X-에너지는 80MW 소형원자로 12기(960MW) 건설을 검토하며 아마존이 개발 자금을 대고 전력을 장기 계약으로 살 계획입니다 [사실]"},
+  {"d":"2026-10-19","kind":"capex","o":"텔레그램 미국 주식 인사이더","u":CW,"nid":"n-tg-0013","t":"센트러스는 농축 확장을 위해 부품 업체 웨스터먼을 1억 1,600만 달러에 인수하기로 했고, 2026년 설비투자 계획은 3.5억~5억 달러입니다 [채널]"},
+  {"d":"2026-08-20","kind":"demand","o":"텔레그램","u":KR,"nid":"n-bbg-0013","t":"한국 12차 전력수급기본계획 총괄위원회는 2040년 최대전력수요를 기존 전망보다 약 20%(27GW) 높게 재산정했고, 기사는 이를 원전 19기 용량으로 표현했습니다 [사실]"}],
+"flags":[
+  {"nid":"n-bbg-0005","t":"재검토 필요: 아마존·AEP 960MW 소형원전 검토와 블루코어 시드 5,000만 달러는 건설 노드가 2국면(자본 유입·증설)을 가리키며, 투자 결정 전에도 자금이 먼저 붙기 때문입니다 [유추]"}],
+"insight":{
+ "a":[
+  {"t":"공급 병목이 광산에서 농축·변환·신형 연료(HALEU·TRISO)로 옮겨 가고 정부 자금이 그 빈자리를 메우고 있습니다. 센트러스는 DOE 9억 달러 HALEU 계약에 이어 웨스터먼(1억 1,600만 달러) 인수로 원심분리기 부품까지 내재화합니다 [채널]",
+   "src":[{"o":"센트러스 실적 공시(SEC 8-K)","d":"2026-08-05","u":SEC},{"o":"텔레그램 미국 주식 인사이더","d":"2026-10-19","u":CW}]},
+  {"t":"원전 건설은 발표의 시대로 들어섰습니다. 웨스팅하우스 IPO 추진, NRC의 14개월 BWRX-300 허가에 이어 아마존·AEP·X-에너지가 960MW 소형원전을 검토하지만, 진행 여부는 2029년 말까지 정합니다 [사실]",
+   "src":[{"o":"World Nuclear News","d":"2026-09-30","u":"https://world-nuclear-news.org/articles/first-construction-permit-issued-for-bwrx300-smr-in-us"},{"o":"블룸버그","d":"2026-10-19","u":B5}]},
+  {"t":"SMR 쪽은 자금이 몰리면서 걸러지는 단계입니다. 핵분열 스타트업 VC는 2025년 29억 달러였고 JP모건은 시장이 받아 줄 SMR 업체를 3~6곳으로 봤지만, 아틀라스(약 4억 달러)·블루코어(5,000만 달러) 같은 초기 자금 유입은 이어집니다 [사실]",
+   "src":[{"o":"텔레그램","d":"2026-08-27","u":"https://t.me/TNBfolio/71072"},{"o":"블룸버그","d":"2026-10-09","u":"https://www.bloomberg.com/news/articles/2026-10-08/vivek-ramaswamy-s-nuclear-startup-raises-at-1-9-billion-value"},{"o":"블룸버그","d":"2026-09-08","u":BC}]}]},
+"cycle":None,"nodeStage":{},"gaps":"",
+"note":"뉴스 6건 반영: 아마존·AEP 960MW 소형원전 검토, 센트러스 웨스터먼 1억 1,600만 달러 인수, 한국 2040년 최대전력 27GW 상향. 국면 그대로(⑧ 회복 초기), 근거 4줄, 수치 3줄, 인사이트 a 고침, 재검토 신호 1건, 검색 0회",
+"applied":[json.loads(l)['id'] for l in open('news/uranium.jsonl')],"searches":0,"fetches":0}
+json.dump(x,open('out/uranium.json','w'),ensure_ascii=False,indent=1)

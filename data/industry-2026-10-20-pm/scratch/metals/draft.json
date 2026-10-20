@@ -1,0 +1,233 @@
+{
+ "summary": "금속·광물 산업은 광산에서 철광석·구리·리튬·금 같은 광석을 캐 제련·정련을 거쳐 철강·전기동·알루미늄·배터리 소재로 만들고 건설·전력망·자동차·배터리 업체에 파는 사슬이며, 가격은 거래소와 가격 지수가, 공급은 광산 리드타임과 자원국 정책이 정합니다. 10월 하순에도 가장 빠듯한 곳은 구리 광산입니다. BHP의 7~9월 구리 생산이 에스콘디다 부진으로 19% 줄고 칠레 1~8월 생산도 7.7% 줄었으며, 정광 TC가 톤당 마이너스 300달러대로 내려가자 중국 제련소들이 감산에 들어갔습니다. 희토류·핵심광물에는 세계은행·개발은행·미국 비축기구 자금이 더 몰리고, 알루미늄은 걸프 제련소 정상화가 2027년으로 밀립니다. 반면 철광석은 2년 만에 톤당 90달러 밑으로 내려 남고, 리튬은 중국 9월 신에너지 승용차 내수가 16.7% 줄며 2027년 과잉 전망이 나오며, 철강은 세계 수요가 정체한 가운데 미국만 관세로 열연값이 높습니다.",
+ "state": {
+  "copper": [
+   {
+    "d": "2026-10-20",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/bhp-copper-production-falls-by-a-fifth-on-lower-chile-output",
+    "nid": "n-tg-0655",
+    "t": "BHP의 7~9월 구리 생산은 40만 700톤으로 1년 전보다 19% 줄어 시장 예상을 밑돌았고, 에스콘디다는 23% 줄어든 25만 2,600톤이었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/trump-tariff-threat-built-us-copper-mountain-effects-are-fading-2026-10-14/",
+    "nid": "n-tg-0662",
+    "t": "관세 위협으로 미국에 쌓인 구리는 160만 톤으로 세계 가시재고의 약 70%이지만, 미국향 차익이 톤당 3,000달러 이상에서 약 310달러로 줄었습니다 [채널]"
+   }
+  ],
+  "smelting": [
+   {
+    "d": "2026-10-20",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10888",
+    "nid": "n-tg-0682",
+    "t": "구리 정광 TC가 톤당 마이너스 300달러대, RC가 파운드당 마이너스 33센트까지 내려가자 중국 구리 제련업체들이 10월 20일 감산에 들어갔습니다 [채널]"
+   }
+  ],
+  "battery": [
+   {
+    "d": "2026-10-18",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70616",
+    "nid": "n-tg-0505",
+    "t": "중국 9월 신에너지 승용차 내수 판매가 108만 4천 대로 16.7% 줄고 중신증권이 2027년 리튬 3.8만 톤 공급 과잉을 예상하며 리튬 선물 낙폭이 커졌습니다 [채널]"
+   }
+  ],
+  "critical": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/china-september-rare-earth-exports-rise-67-year-earlier-2026-10-14/",
+    "nid": "n-rtr-0610",
+    "t": "중국의 9월 희토류 수출은 4,269.8톤으로 1년 전보다 6.7% 늘었지만 전월보다 9.8% 줄어, 수출 통제 아래 공급 회복이 제한적입니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/cme-plans-tungsten-futures-as-us-europe-seek-price-stability",
+    "nid": "n-bbg-0592",
+    "t": "CME그룹은 패스트마켓 APT 가격으로 현금 정산하는 텅스텐 선물을 2027년 1분기 초 코멕스에 상장할 계획이고, 프로젝트 볼트 운영사는 최대 10억 달러 초기 대출을 준비합니다 [사실]"
+   }
+  ],
+  "precious": [
+   {
+    "d": "2026-10-19",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63836",
+    "nid": "n-bbg-0458",
+    "t": "프랑스는 뉴욕의 금 129톤을 팔고 유럽에서 같은 양을 사 파리에 뒀고, 네덜란드는 약 86톤을 런던으로 옮기는 등 중앙은행 금 보관처가 유럽으로 재편됩니다 [사실]"
+   }
+  ],
+  "steel": [
+   {
+    "d": "2026-10-19",
+    "o": "텔레그램 상상인 김진범",
+    "u": "https://t.me/PipeBeom/6750",
+    "nid": "n-bbg-0010",
+    "t": "미국 50% 관세 뒤 캐나다의 대미 철강 출하는 2025년 60% 줄었고, 캐나다 철강사들은 내수로 돌아 자국산 비중을 41%에서 51%로 올렸습니다 [채널]"
+   }
+  ],
+  "policy": [
+   {
+    "d": "2026-10-14",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-14/canada-s-doug-ford-says-trump-tariffs-on-steel-autos-may-last-permanently",
+    "nid": "n-bbg-0529",
+    "t": "트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했고, 포드 온타리오 주지사는 232조 관세가 영구화될 수 있다고 경고했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/china/eu-seeks-closer-vietnam-ties-critical-minerals-china-hedge-documents-show-2026-10-14/",
+    "nid": "n-rtr-0611",
+    "t": "EU는 내부 문서에서 베트남과 핵심광물 관계 강화를 추진했고, 재무장용 희토류·텅스텐 확보를 위해 베트남 광산에 차관·보조금을 계획합니다(지원 계획은 채널 전언) [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-20",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/bhp-copper-production-falls-by-a-fifth-on-lower-chile-output",
+   "nid": "n-tg-0655",
+   "t": "BHP의 7~9월 구리 생산은 40만 700톤으로 19% 줄었고(시장 예상 42만 3,600톤), 에스콘디다는 23% 줄어든 25만 2,600톤이었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "price",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10888",
+   "nid": "n-tg-0682",
+   "t": "중국 구리 정광 TC는 톤당 마이너스 300달러대, RC는 파운드당 마이너스 33센트였고 양산 구리 프리미엄은 톤당 137달러였습니다 [채널]"
+  },
+  {
+   "d": "2026-10-14",
+   "kind": "supply",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/asia-pacific/china-september-rare-earth-exports-rise-67-year-earlier-2026-10-14/",
+   "nid": "n-rtr-0610",
+   "t": "중국의 9월 희토류 수출은 4,269.8톤으로 1년 전보다 6.7% 늘고 전월보다 9.8% 줄었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-18",
+   "kind": "demand",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70616",
+   "nid": "n-tg-0505",
+   "t": "중국 9월 신에너지 승용차 내수 판매는 108만 4천 대로 16.7% 줄었고, 신에너지차 수출 환급세율은 10월 12일 13%에서 9%로 낮아졌습니다 [채널]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-tg-0682",
+   "t": "재검토 필요: 중국 구리 제련업체들의 감산 착수가 제련 노드의 ⑥ 공급 파괴·통합 국면을 가리키며, TC 마이너스가 깊어지면 제련 설비가 실제로 줄 수 있기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b": [
+   {
+    "t": "구리는 광산 생산 자체가 줄고 있습니다. BHP의 7~9월 생산이 19% 줄고 칠레 1~8월 생산이 7.7% 줄었으며, BHP는 2028년경부터 구조적 부족이 시작된다고 봤습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-20",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/bhp-copper-production-falls-by-a-fifth-on-lower-chile-output"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-19",
+      "u": "https://t.me/Trillion_labs/10820"
+     }
+    ]
+   },
+   {
+    "t": "공급 쪽에 비용 충격이 겹칩니다. 중동 분쟁으로 에너지·운임이 올라 해상 철광석의 약 10%가 적자가 됐고, 걸프 알루미늄 제련소는 2027년 1분기에야 완전 회복을 노립니다 [귀납]",
+    "src": [
+     {
+      "o": "MINING.COM",
+      "d": "2026-10-16",
+      "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/"
+     },
+     {
+      "o": "텔레그램 상상인 김진범",
+      "d": "2026-10-16",
+      "u": "https://t.me/PipeBeom/6722"
+     }
+    ]
+   },
+   {
+    "t": "정광 부족의 부담은 제련으로 넘어갑니다. TC가 톤당 마이너스 300달러대로 내려가자 중국 제련소들이 감산에 들어가 이익이 광산 쪽으로 옮겨 갑니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-20",
+      "u": "https://t.me/Trillion_labs/10888"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "구리 쪽 반대 신호가 늘었습니다. 미국에 쌓인 160만 톤이 세계 가시재고의 약 70%인데 미국향 차익은 약 310달러로 줄었고, 높은 값에 칠레 노후 광산 증산이 나오며, 구리는 10월 13~15일 사흘 연속 내렸습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/asia-pacific/trump-tariff-threat-built-us-copper-mountain-effects-are-fading-2026-10-14/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-15",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff"
+     }
+    ]
+   },
+   {
+    "t": "금은 CPI 충격에 약 4,073달러까지 밀렸고, 상상인증권은 고려아연 3분기 영업이익이 46.7% 줄 것으로 봤습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/world/india/gold-set-weekly-drop-traders-assess-fed-signals-2026-10-16/"
+     },
+     {
+      "o": "텔레그램 상상인 김진범",
+      "d": "2026-10-11",
+      "u": "https://t.me/PipeBeom/6659"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지 않습니다. 미국 재고는 관세 불확실성 때문에 미국 안에 머물 수 있고, 에스콘디다 파업은 피했지만 BHP 생산은 이미 19% 줄었으며 LME 현물은 앞서 톤당 1만 4,822달러로 사상 최고에 마감했습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-19",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-20",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/bhp-copper-production-falls-by-a-fifth-on-lower-chile-output"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 37건 반영: BHP 7~9월 구리 생산 19% 감소, 중국 제련소 TC 마이너스 300달러대에 감산, 중국 9월 희토류 수출 4,269.8톤. 국면 ② 그대로, 근거 10줄, 수치 4줄, 재검토 신호 1건, 검색 0회",
+ "searches": 0,
+ "fetches": 0
+}

@@ -1,0 +1,495 @@
+{
+ "id": "fin",
+ "summary": "금융은 예금·보험료·연금·펀드 자금을 모아 가계·기업·정부에 빌려주거나(은행·사모 신용) 주식·채권 발행을 주선하고(투자은행) 거래·운용·결제를 대신해 주며 이자와 수수료를 받는 사슬입니다. 2026년 3분기 미국 대형 은행·투자은행은 주식 거래와 발행 붐으로 고수익을 냈고, 인도 지오 플랫폼스 IPO 앵커 물량에 약 250억 달러가 몰리는 등 발행 창구도 아직 열려 있습니다. 남는 곳은 사모 신용입니다: 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었고, CCC 스프레드는 12.78%로 넓어졌으며 골드만삭스·UBS가 호주 사모신용 펀드 대출을 줄이고 영란은행이 바클레이스의 사모신용 장부를 점검합니다. AI 인프라 차입은 코어위브 2032년물 80센트 밑, 오라클 CDS 260bp 전언으로 빠듯해졌고, 아시아 증시는 코스피가 고점 대비 약 39%, 인도네시아가 MSCI 강등 검토에 한때 11% 빠져 헤지펀드 손실과 신용 축소가 이어집니다.",
+ "state": {
+  "banks": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/finance/barclays-defends-15-billion-private-credit-book-after-reported-boe-scrutiny-2026-10-19/",
+    "nid": "n-rtr-0532",
+    "t": "영란은행 건전성감독청이 바클레이스가 사모신용 대출 자금용 총수익스와프를 트레이딩 포지션으로 분류해 필요 자본을 줄였다는 신고를 점검하자, 150억 파운드 장부가 적법하다는 반박에도 주가가 2~3% 내렸습니다 [사실]"
+   },
+   {
+    "d": "2026-10-17",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70570",
+    "nid": "n-tg-0631",
+    "t": "씨티·BofA·JP모건이 외부 AI 에이전트의 고객 계좌 접근을 막았고, 대형 3개 은행이 무이자 예금 1조 6,000억 달러에 3%를 주면 연 470억 달러 비용이 는다는 추산이 나왔습니다 [채널]"
+   }
+  ],
+  "pcredit": [
+   {
+    "d": "2026-10-14",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-14/banks-pull-back-from-financing-australian-private-credit-funds",
+    "nid": "n-bbg-0525",
+    "t": "골드만삭스·UBS 등 글로벌 은행이 절반이 부동산에 묶인 2,000억 호주달러 규모 호주 사모신용 펀드에 대한 딜 집행·환매 대응용 대출을 줄여 소형 운용사부터 자금줄이 좁아집니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-regulator-halts-another-credit-fund-amid-crackdown",
+    "nid": "n-bbg-0116",
+    "t": "호주 ASIC가 ASCF 사모신용 펀드 3개(2억 5,180만 호주달러)에 이어 10월 13일 운용자산 7억 9,990만 호주달러의 아레스 신용펀드에도 21일간 판매 중지를 명령했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-10",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63627",
+    "nid": "n-tg-0629",
+    "t": "미국 BDC 운용자산의 22%에 달하는 대출이 2.5년 안에 만기를 맞아 사상 최고 비중이 됐고, 금리 상승기에 차환 부담이 한꺼번에 커질 수 있습니다 [채널]"
+   }
+  ],
+  "ib": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/indias-jio-ipo-anchor-investor-quota-nearly-30-times-oversubscribed-source-says-2026-10-19/",
+    "nid": "n-bbg-0122",
+    "t": "기업가치 약 1,060억 달러로 인도 사상 최대 IPO인 지오 플랫폼스의 앵커 물량에 GIC·블랙록·피델리티 등 약 250억 달러가 몰려 배정분의 약 30배였고 상장은 28일입니다 [사실]"
+   }
+  ],
+  "markets": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
+    "nid": "n-bbg-0439",
+    "t": "코스피는 10월 15일 삼성전자·SK하이닉스 급락에 약 8% 떨어져 서킷브레이커로 거래가 20분 멈췄고, 6월 22일 사상 최고 종가 9,114.55에서 약 39% 내려왔습니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/frail-indonesian-markets-reel-after-msci-shock-warning-2026-10-19/",
+    "nid": "n-rtr-0181",
+    "t": "MSCI가 인도네시아 독자시장 강등을 검토하자 증시는 16일 8% 급락해 30분 멈췄다가 한때 11% 빠졌고, 거래소는 지수 비중 약 18%인 지분 집중 종목을 지수 산출에서 빼기로 했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/tradeweb-buy-trumid-197-billion-2026-10-19/",
+    "nid": "n-rtr-0539",
+    "t": "트레이드웹이 미 달러 회사채 전자거래 플랫폼 트루미드를 약 19억 7천만 달러에 인수해 채권 신규 발행·장외 거래로 영역을 넓히며, 마무리는 2027년 상반기가 목표입니다 [사실]"
+   }
+  ],
+  "assetmgmt": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/china/ai-selloff-hammers-hedge-funds-this-week-asia-managers-lead-losses-2026-10-16/",
+    "nid": "n-rtr-0479",
+    "t": "AI 매도로 글로벌 롱숏 헤지펀드가 한 주에 2.9%를 잃었고, 골드만 집계로 헤지펀드는 10월 15일까지 5거래일 동안 기술주를 2016년 집계 이래 가장 빠르게 줄였습니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
+    "nid": "n-bbg-0553",
+    "t": "튀르키예 자본시장위원회가 운용사 7곳 펀드 131개(자산 약 170억~183억 달러) 청산을 명령해 개인투자자 약 45만 5,000명이 얽혔고, 위원장은 10월 19일 사임했습니다 [사실]"
+   }
+  ],
+  "insurance": [
+   {
+    "d": "2026-10-18",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/australias-challenger-gets-takeover-bid-unit-japans-daiichi-life-2026-10-18/",
+    "nid": "n-bbg-0360",
+    "t": "다이이치생명 호주 자회사가 지분 20.36%를 가진 연금 운용사 챌린저의 나머지 79.5%를 주당 11.80호주달러(약 44억 달러, 직전 종가 대비 약 20% 할증)에 사겠다고 제안했습니다 [사실]"
+   }
+  ],
+  "payments": [
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients",
+    "nid": "n-bbg-0537",
+    "t": "JP모건 블록체인 부문 키넥시스가 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓기로 해, 2025년 11월 베이스에 이어 결제 망을 넓힙니다 [사실]"
+   }
+  ],
+  "regulation": [
+   {
+    "d": "2026-10-08",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/government/uk-watchdog-proposes-90-day-redemption-notice-period-illiquid-assets-2026-10-08/",
+    "nid": "n-rtr-0530",
+    "t": "영국 FCA는 비유동자산 50% 이상인 개인용 펀드에 최소 90일 환매 예고와 월 1회 이하 환매를 제안했고, 시행되면 17개 펀드 약 72억 2,000만 파운드가 영향을 받습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-15",
+   "kind": "price",
+   "o": "텔레그램 TNBfolio",
+   "u": "https://t.me/TNBfolio/71611",
+   "nid": "n-bbg-0233",
+   "t": "10월 15일 CCC 회사채 옵션조정 스프레드는 12.78%로 4주간 202bp 넓어졌고 BB는 41bp 확대에 그쳤으며, 9월 30일 약 1,007bp로 SVB 사태 이후 처음 1,000bp를 넘었습니다 [채널]"
+  },
+  {
+   "d": "2026-10-19",
+   "kind": "price",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/",
+   "nid": "n-bbg-0322",
+   "t": "S&P글로벌이 상위 하이퍼스케일러의 숨은 AI 관련 부채를 경고한 가운데 오라클 5년 CDS가 260bp를 넘었다는 전언이 나왔고, 골드만은 코어위브를 매수로 올렸습니다(목표가 106달러) [채널]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "supply",
+   "o": "Private Equity Wire(Preqin·PitchBook LCD 집계)",
+   "u": "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/",
+   "nid": "n-rtr-0531",
+   "t": "직접대출 펀드 모금은 2026년 1~9월 1,291억 5,000만 달러(+35%)로 2016년 집계 이래 최대였지만, 3분기 직접대출 집행은 497억 7,000만 달러로 28% 줄었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/samsung-sk-hynix-slide-causes-137-billion-hit-to-korea-pension",
+   "nid": "n-tg-0585",
+   "t": "국민연금이 5% 이상 보유한 상장사 287곳 평가액은 6월 말 515조 9,300억 원에서 10월 15일 333조 5,300억 원으로 약 182조 원 줄었고 약 72%가 삼성전자·SK하이닉스 몫입니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0525",
+   "t": "재검토 필요: 글로벌 은행의 호주 사모신용 펀드 대출 축소, 호주 ASIC 판매 중지, 영란은행의 바클레이스 사모신용 장부 점검은 사모 신용 노드가 ③ 공급 과잉에서 ⑤ 자본 철수 쪽으로 가는 신호이며, 모금은 사상 최대인데 은행 레버리지와 판매 창구가 먼저 좁아지기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0439",
+   "t": "재검토 필요: 코스피 고점 대비 약 39% 하락과 한국 증시 거래량 70% 감소, 신용잔고 축소는 증권·거래소 노드의 한국 부분이 ① 고수익이 아니라 ④ 수익 악화·비관 쪽에 있음을 가리키며, 거래대금과 신용융자가 함께 줄기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a2": [
+   {
+    "t": "반대로 사모 신용의 위험이 은행 장부로 되돌아올 수 있습니다. 영란은행은 바클레이스의 150억 파운드 사모신용 장부 처리 방식을 점검하고, 골드만삭스·UBS는 호주 사모신용 펀드 대출을 줄이고 있어 은행이 넘긴 위험의 자본 산정이 다시 도마에 올랐습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/business/finance/boe-scrutinises-barclays-over-claim-traders-misrepresented-private-credit-2026-10-19/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-14",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-14/banks-pull-back-from-financing-australian-private-credit-funds"
+     }
+    ]
+   },
+   {
+    "t": "트라이컬러는 활성 대출 7만 건 중 약 2만 9,000건이 창고 대출과 증권화에 이중 담보로 잡힌 것으로 전해졌고, 아일랜드은행의 위험이전거래 부실 사례도 나와 위험이전 구조 전반의 경계가 커질 수 있습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/bny-targets-blind-spots-in-abs-after-tricolor-mess-rocked-market"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-08",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-ireland-s-soured-deals-show-hazard-in-risk-transfer-boom"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "투자자 돈이 채권 대신 주식·헤지펀드로 옮겨 갑니다. 2024년 말 이후 MSCI 세계지수는 약 36% 올랐고 FTSE 세계국채 지수는 7% 내렸으며, 세계 헤지펀드 자산은 사상 최대 5조 6,000억 달러입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/finance/hedge-funds-are-top-draw-asia-investors-look-beyond-bonds-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "맨그룹 운용자산은 사상 최대 2,709억 달러, 블랙록 3분기 순유입은 2,050억 달러로 운용사로 돈이 계속 들어옵니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/man-groups-assets-under-management-hit-record-2709-billion-volatility-drives-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "사모 신용은 돈이 남고 빌려 갈 곳이 모자랍니다. 직접대출 펀드 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대였지만 3분기 집행은 28% 줄었고, 차입자들은 직접대출을 신디케이트론으로 갈아타고 있습니다 [사실]",
+    "src": [
+     {
+      "o": "Private Equity Wire(Preqin·PitchBook LCD 집계)",
+      "d": "2026-10-15",
+      "u": "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/legal/transactional/private-credit-faces-deployment-squeeze-fundraising-hits-record-2026-10-15/"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "주식 쪽 유입이 되돌기 시작한 곳이 나옵니다. 코스피는 6월 고점 대비 약 39% 내려 10월 15일 서킷브레이커가 걸렸고, 골드만 집계로 헤지펀드는 기술주를 2016년 이래 가장 빠르게 줄였으며 글로벌 롱숏 펀드는 한 주 2.9%를 잃었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/china/ai-selloff-hammers-hedge-funds-this-week-asia-managers-lead-losses-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "신흥시장에서는 지수 규칙이 자금을 빼냅니다. MSCI가 인도네시아 강등을 검토하고 튀르키예 지수 변경을 동결했으며, 비영업기업 제외 규칙으로 스트래티지는 약 28억 달러 패시브 매도 위험을 안았습니다. 이런 흐름이 넓어지면 거래·운용 수수료 증가가 꺾일 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/world/asia-pacific/frail-indonesian-markets-reel-after-msci-shock-warning-2026-10-19/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/asia-pacific/strategy-faces-msci-ouster-under-new-rules-billions-passive-holdings-risk-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지는 않습니다. S&P 자료로 하이퍼스케일러 관련 채권 발행은 올해 4,000억 달러 속도이고 시장이 지금까지 흡수했지만, 10년물 하이퍼스케일러 바스켓 스프레드가 40~75bp에서 90bp 넘게 벌어지고 투자자 피로 신호가 나옵니다 [사실]",
+    "src": [
+     {
+      "o": "CPR AM(하이퍼스케일러 채권 발행 분석)",
+      "d": "2026-10-13",
+      "u": "https://cpram.com/fra/en/individual/publications/experts/article/what-impact-is-hyperscaler-bond-issuance-having-on-bond-markets"
+     }
+    ]
+   },
+   {
+    "t": "골드만이 코어위브를 매수로 올리고 JP모건이 사업은 건전하다고 한 반면 S&P는 숨은 AI 부채를 경고해, 발행 창구가 닫히는지는 아직 엇갈립니다. 9월 이후 AI 채권 발행이 얼어붙었다는 채널 전언은 확인하지 못했습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-19",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/coreweave-upgraded-to-buy-at-goldman-on-overblown-debt-worries"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "돈은 여전히 자본시장으로 몰립니다. 2026년 1~9월 글로벌 IPO 조달액은 사상 최대 2,875억 달러였고, 인도 지오 플랫폼스 IPO 앵커 물량에는 약 250억 달러가 몰려 배정분의 약 30배였습니다 [사실]",
+    "src": [
+     {
+      "o": "EY(스위스 IPO 바로미터)",
+      "d": "2026-10-01",
+      "u": "https://www.ey.com/en_ch/newsroom/2026/10/fewer-ipos-more-capital-global-market-remains-robust-initial-signs-of-an-upturn-in-switzerland"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/legal/transactional/indias-jio-ipo-anchor-investor-quota-nearly-30-times-oversubscribed-source-says-2026-10-19/"
+     }
+    ]
+   },
+   {
+    "t": "은행·투자은행은 아직 고수익입니다. 모건스탠리 3분기 주식 매출은 58억 달러(+41%), 뱅크오브아메리카 순이자이익은 164억 달러(+8%)였고, 인도 ICICI은행 순이익도 20.1% 늘었습니다 [사실]",
+    "src": [
+     {
+      "o": "CNBC(모건스탠리 3분기 실적)",
+      "d": "2026-10-14",
+      "u": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+     },
+     {
+      "o": "뱅크오브아메리카 3분기 실적(SEC 8-K)",
+      "d": "2026-10-14",
+      "u": "https://www.sec.gov/Archives/edgar/data/0000070858/000007085826000481/bac-09302026ex993.htm"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/world/india/indias-axis-bank-slides-after-quarterly-profit-falls-short-expectations-2026-10-19/"
+     }
+    ]
+   },
+   {
+    "t": "사모 신용은 과잉이 뚜렷합니다. 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었고, 무디스 PIK 포함 부도율은 5.8%, CCC 스프레드는 12.78%로 4주간 202bp 넓어졌습니다 [사실]",
+    "src": [
+     {
+      "o": "Private Equity Wire(Preqin·PitchBook LCD 집계)",
+      "d": "2026-10-15",
+      "u": "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/"
+     },
+     {
+      "o": "Private Equity Wire(무디스 보고서)",
+      "d": "2026-10-14",
+      "u": "https://www.privateequitywire.co.uk/pik-amendments-mask-us-private-credit-stress-moodys-warns/"
+     },
+     {
+      "o": "텔레그램 TNBfolio",
+      "d": "2026-10-20",
+      "u": "https://t.me/TNBfolio/71611"
+     }
+    ]
+   },
+   {
+    "t": "손해보험은 자본이 남아 상업보험 요율이 8분기 연속 내려 이미 ③ 공급 과잉에 들어섰습니다 [귀납]",
+    "src": [
+     {
+      "o": "Insurance Journal(마시 글로벌 보험시장 지수)",
+      "d": "2026-07-23",
+      "u": "https://www.insurancejournal.com/news/national/2026/07/23/878716.htm"
+     }
+    ]
+   }
+  ],
+  "next": "AI 인프라 채권 약세와 아시아 증시 급락이 대형 IPO와 하이퍼스케일러 채권 발행으로 번져 발행 창구가 닫히면 ③ 공급 과잉으로 넘어갑니다. 은행이 사모 신용 펀드 대출을 더 줄이고 감독 당국이 은행의 사모 신용 노출 자본을 높이면 사모 신용 노드가 먼저 ⑤ 자본 철수로 갈 수 있습니다 [유추]",
+  "watch": [
+   "사모 신용 부도율(Fitch·무디스 PIK 포함)과 직접대출 집행액",
+   "AI 인프라 채권 가격과 하이퍼스케일러 채권 스프레드",
+   "은행의 사모 신용 펀드 대출(펀드 파이낸싱) 축소와 감독 점검",
+   "CCC 회사채 스프레드",
+   "글로벌 IPO 조달액과 상장 철회 건수(EY), 지오 IPO 상장 성과"
+  ],
+  "split": [
+   {
+    "stage": 1,
+    "label": "고수익(은행·IB·거래소)",
+    "nodes": [
+     "banks",
+     "ib",
+     "markets"
+    ]
+   },
+   {
+    "stage": 3,
+    "label": "공급 과잉(사모 신용·손보)",
+    "nodes": [
+     "pcredit",
+     "insurance"
+    ]
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "웹 검색 누적 19회(이번 2회), 열람 5회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 씨티·웰스파고 3분기 수치는 2차 매체 요약만 봤고, 모건스탠리 수치는 CNBC 검색 요약 기준입니다. (2) 한국 4대 금융지주 3분기 실적(10월 23~29일 발표 예정), 일본 3대 은행 4~9월 실적(11월), DBS·OCBC 실적(11월 5~6일). (3) 사모 신용 부도율은 무디스 5.8%를 2차 매체로 봤고, 직접대출 모금·집행 수치는 Private Equity Wire 검색 요약(Preqin·PitchBook LCD)이며 원 보고서는 열지 않았습니다. (4) 코어위브 2032년물 80센트·CDS 1,117bp, 오라클 CDS 260bp, '9월 이후 AI 채권 발행 동결'은 텔레그램 전언이며, 검색에서는 발행 동결 보도를 찾지 못하고 연 4,000억 달러 발행 속도 분석만 봤습니다. (5) 예스은행의 추가 상소 여부와 인도 다른 은행 AT1 영향. (6) 한국 신용잔고·반대매매·외국인 순매도·거래량 70% 감소와 CCC 스프레드는 채널 집계입니다. (7) 바클레이스 점검의 결론과 다른 영국 은행으로의 확대 여부, 호주 사모신용 펀드 대출 축소 규모. (8) 2026년 재보험 갱신 요율, 이사야스 최종 보험 손실, 비자·마스터카드 결제액, 스테이블코인 공급. (9) 데스크 뉴스로 표시한 내용은 데스크 뉴스 요약 기준이며 원문(로이터·블룸버그)은 열지 않았습니다.",
+ "note": "뉴스 96건 반영: 사모 신용 자금줄 축소(호주 은행 대출·ASIC·바클레이스 점검), 지오 IPO 30배 청약, 코스피·인도네시아 급락. 국면 ② 그대로(why 근거 교체), 근거 14줄, 수치 4줄, 재검토 신호 2건, 검색 2회",
+ "applied": [
+  "n-bbg-0116",
+  "n-bbg-0122",
+  "n-bbg-0233",
+  "n-bbg-0280",
+  "n-bbg-0322",
+  "n-bbg-0360",
+  "n-bbg-0431",
+  "n-bbg-0432",
+  "n-bbg-0439",
+  "n-bbg-0441",
+  "n-bbg-0444",
+  "n-bbg-0445",
+  "n-bbg-0482",
+  "n-bbg-0484",
+  "n-bbg-0502",
+  "n-bbg-0506",
+  "n-bbg-0517",
+  "n-bbg-0518",
+  "n-bbg-0519",
+  "n-bbg-0520",
+  "n-bbg-0521",
+  "n-bbg-0522",
+  "n-bbg-0523",
+  "n-bbg-0524",
+  "n-bbg-0525",
+  "n-bbg-0526",
+  "n-bbg-0527",
+  "n-bbg-0532",
+  "n-bbg-0533",
+  "n-bbg-0534",
+  "n-bbg-0535",
+  "n-bbg-0536",
+  "n-bbg-0537",
+  "n-bbg-0543",
+  "n-bbg-0545",
+  "n-bbg-0552",
+  "n-bbg-0553",
+  "n-bbg-0591",
+  "n-rtr-0024",
+  "n-rtr-0056",
+  "n-rtr-0181",
+  "n-rtr-0217",
+  "n-rtr-0331",
+  "n-rtr-0337",
+  "n-rtr-0372",
+  "n-rtr-0375",
+  "n-rtr-0469",
+  "n-rtr-0470",
+  "n-rtr-0471",
+  "n-rtr-0472",
+  "n-rtr-0479",
+  "n-rtr-0517",
+  "n-rtr-0521",
+  "n-rtr-0528",
+  "n-rtr-0530",
+  "n-rtr-0531",
+  "n-rtr-0532",
+  "n-rtr-0539",
+  "n-rtr-0551",
+  "n-rtr-0553",
+  "n-rtr-0554",
+  "n-rtr-0555",
+  "n-rtr-0556",
+  "n-rtr-0557",
+  "n-rtr-0558",
+  "n-rtr-0559",
+  "n-rtr-0560",
+  "n-rtr-0564",
+  "n-rtr-0565",
+  "n-rtr-0604",
+  "n-rtr-0622",
+  "n-tg-0118",
+  "n-tg-0135",
+  "n-tg-0292",
+  "n-tg-0307",
+  "n-tg-0322",
+  "n-tg-0535",
+  "n-tg-0538",
+  "n-tg-0539",
+  "n-tg-0552",
+  "n-tg-0553",
+  "n-tg-0554",
+  "n-tg-0557",
+  "n-tg-0565",
+  "n-tg-0566",
+  "n-tg-0567",
+  "n-tg-0570",
+  "n-tg-0574",
+  "n-tg-0575",
+  "n-tg-0576",
+  "n-tg-0577",
+  "n-tg-0581",
+  "n-tg-0585",
+  "n-tg-0620",
+  "n-tg-0629",
+  "n-tg-0631"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

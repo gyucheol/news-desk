@@ -1,0 +1,135 @@
+{
+ "summary": "",
+ "state": {
+  "weather": [
+   {
+    "d": "2026-10-19",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10840",
+    "nid": "n-bbg-0350",
+    "t": "엘니뇨로 파나마운하 하루 통과 선박이 36척에서 32척으로 줄고 갑문 경매가는 약 80만 달러에서 250만 달러로 뛰었으며, 인도 몬순은 13% 부족했습니다 [채널]"
+   }
+  ],
+  "grains": [
+   {
+    "d": "2026-10-19",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70677",
+    "nid": "n-bbg-0354",
+    "t": "흑해 통로 재개가 어려워지자 구매자가 대체 공급처로 몰려 호주 주요 5개 항구 평균 밀값이 2024년 6월 이후 최고로 올랐다는 전언입니다 [채널]"
+   }
+  ],
+  "livestock": [
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds",
+    "nid": "n-bbg-0399",
+    "t": "가뭄으로 미국 소 사육두수가 줄어 소고기 공급이 빠듯해지면서 소비자 소고기값이 계속 오르고 있습니다 [제목]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/brazil-detects-newcastle-disease-turkey-farm-southern-state-2026-10-19/",
+    "nid": "n-bbg-0400",
+    "t": "세계 최대 닭고기 수출국 브라질에서 MBRF 납품 농장 가금 질병에 이어 남부 주 칠면조 농장에서 뉴캐슬병이 확인돼 가금류 수출 제한 우려가 커졌습니다 [제목]"
+   }
+  ],
+  "policy": [
+   {
+    "d": "2026-10-19",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10842",
+    "nid": "n-bbg-0354",
+    "t": "젤렌스키 대통령은 농산물 수출을 위한 흑해 민간 항행 개방과 곡물 회랑을 튀르키예·이집트·인도와 협의 중이라고 밝혔습니다 [채널]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-19",
+   "kind": "supply",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10840",
+   "nid": "n-bbg-0350",
+   "t": "엘니뇨로 파나마운하 하루 통과 선박은 36척에서 32척으로 줄었고 최대형 갑문 경매가는 약 80만 달러에서 250만 달러로 올랐습니다 [채널]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0354",
+   "t": "재검토 필요: 흑해 불안에 호주 밀값이 2024년 6월 이후 최고로 오르고 엘니뇨 피해가 번지는 것이 ⑧ 회복 초기를 가리키며, 공급 충격이 재고 감소로 이어질 수 있기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "c": [
+   {
+    "t": "흐름과 반대되는 정보도 있습니다. 중국은 미국산 대두를 한 주 120만~150만 톤 더 샀고, 유엔 기구는 호르무즈발 비료난이 수확에 타격을 주기 시작했다고 밝혔습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/asia-pacific/china-state-buyers-snap-up-more-us-soybeans-latest-post-summit-purchases-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/middle-east/hormuz-shipping-disruption-is-starting-hit-harvests-un-agency-says-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "공급 충격도 쌓입니다. 엘니뇨로 인도 몬순이 13% 부족해 설탕 생산 전망이 2,800만 톤으로 줄고, 흑해 불안에 호주 밀값이 2024년 6월 이후 최고로 올랐으며, 미국 소 사육두수 감소와 브라질 가금 질병이 겹쳤습니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-17",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-19",
+      "u": "https://t.me/HANAchina/70677"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-19",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 흐름을 덮을 만큼은 아니라고 봅니다. 중국 구매는 국영사 중심이고 미국 옥수수 기말재고 전망은 18억 4,900만 부셸로 올라 있으며, 공급 충격은 설탕·밀·축산처럼 일부 품목과 지역에 몰려 있습니다 [유추]",
+    "src": [
+     {
+      "o": "Pro Farmer",
+      "d": "2026-10-14",
+      "u": "https://www.profarmer.com/news/first-thing-today/first-thing-today-soybeans-lifted-renewed-china-purchases"
+     },
+     {
+      "o": "Trifacta Data(세계은행 핑크시트 인용)",
+      "d": "2026-10-14",
+      "u": "https://www.trifactadata.com/insights/fertilizer-prices-2026-forecast-vs-actual"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "gaps": "",
+ "note": "뉴스 6건 반영: 엘니뇨발 파나마운하 통과 36→32척·인도 몬순 13% 부족, 흑해 불안 속 호주 밀값 2024년 6월 이후 최고, 미국 소 사육두수 감소·브라질 가금 질병. 국면 ④ 그대로, 근거 5줄, 수치 1줄, 재검토 신호 1건, 검색 0회",
+ "searches": 0,
+ "fetches": 0,
+ "id": "agri",
+ "applied": [
+  "n-bbg-0350",
+  "n-bbg-0354",
+  "n-bbg-0399",
+  "n-bbg-0400",
+  "n-rtr-0424",
+  "n-tg-0162"
+ ],
+ "nodeStage": {}
+}

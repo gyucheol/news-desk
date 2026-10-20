@@ -1,0 +1,258 @@
+{
+ "id": "utilities",
+ "summary": "규제 유틸리티는 규제당국이 허용 수익률과 투자 계획을 정하면 회사가 빚과 주식으로 돈을 모아 수도관·하수처리장·송배전망·가스관을 짓고, 그 비용과 이익을 고객 요금으로 나눠 받는 사슬입니다. 2026년 가을 미국과 영국 전력망 쪽은 투자가 몰리는 쪽입니다. 미국 투자자 소유 전력회사의 2026년 설비투자는 2,388억 달러(+17%)로 예상되고, 전력·가스 회사들은 1~3분기에 요금 인상 231억 달러를 요청했습니다. 다만 늘어난 비용을 누가 낼지가 새 병목이 됐습니다. 미 에너지부는 대형 부하의 망 비용을 가정 요금에 넘기지 말라는 의견서를 FERC에 냈고, 텍사스는 데이터센터에 망 비용 전액 부담을 추진하며, 버지니아는 넥스트에라의 도미니언 인수 조건으로 6년 요금 동결을 요구했습니다. 영국 수도는 돈이 빠듯한 쪽으로, 템스워터 B급 채권 보유자가 약 10억 파운드 탕감(회수율 약 5.9%)에 합의했고 페넌은 5억 5,000만 파운드 유상증자와 배당 약 30% 삭감을 발표했습니다. 유럽에서는 유니퍼 지분 매각에 사모 자본이 몰렸지만, EDF는 가스 공급 불확실성에 에디슨 지분 매각을 멈췄습니다.",
+ "state": {
+  "regulator": [
+   {
+    "d": "2026-10-20",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal",
+    "nid": "n-bbg-0605",
+    "t": "버지니아주는 넥스트에라의 도미니언 인수 승인 조건으로 6년간 전력요금 동결을 원하며, 합병 회사의 요금 인상 여지가 좁아질 수 있습니다 [제목]"
+   },
+   {
+    "d": "2026-10-12",
+    "o": "텔레그램 부의 나침반",
+    "u": "https://t.me/w_compass/7246",
+    "nid": "n-tg-0656",
+    "t": "미 에너지부는 데이터센터 등 대형 부하로 생기는 망 신설·보강 비용을 가정·소상공인 요금에 넘기지 말라는 의견서를 FERC에 내 PJM을 압박했습니다 [사실]"
+   }
+  ],
+  "customers": [
+   {
+    "d": "2026-09-21",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show",
+    "nid": "n-bbg-0026",
+    "t": "텍사스는 데이터센터에 망 구축 비용 전액 부담과 세제 혜택 폐지를 추진하고, 펜실베이니아 주지사는 지역사회 승인 의무와 개발사의 전력 비용 부담을 담은 행정명령에 서명했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-09",
+    "o": "텔레그램 양파농장",
+    "u": "https://t.me/Onionfarmer/18054",
+    "nid": "n-tg-0648",
+    "t": "미 전력업계 단체들은 데이터센터 대응 인프라 투자와 비용 상승이 불가피하고 신규 가스터빈은 2032년 전 확보가 어렵다며, 비용을 누가 낼지가 핵심 쟁점이라고 했습니다 [채널]"
+   }
+  ],
+  "water": [
+   {
+    "d": "2026-10-12",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas",
+    "nid": "n-bbg-0584",
+    "t": "블룸버그는 가뭄에 시달리는 지역에서 AI 데이터센터의 물 사용이 늘고 있다고 전해, 물 부족 지역사회와 데이터센터의 자원 갈등이 커질 수 있습니다 [제목]"
+   }
+  ],
+  "euutil": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/edf-pauses-edison-stake-sale-plan-gas-supply-uncertainty-clouds-outlook-2026-10-14/",
+    "nid": "n-rtr-0434",
+    "t": "EDF는 가스 공급 불확실성으로 전망이 흐려지자 이탈리아 에디슨 지분 매각 계획을 멈췄고, 9월 29일 유럽 가스 저장률은 71.5%로 2011년 이후 같은 날 기준 최저였습니다 [제목]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-09-21",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show",
+   "nid": "n-bbg-0026",
+   "t": "데이터센터워치 집계로 2026년 2분기 미국 데이터센터 45곳·680억 달러 규모 사업이 지역 반대로 막히거나 지연됐고, 1분기에는 75곳·약 1,300억 달러 사업이 분쟁에 휘말렸습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0605",
+   "t": "재검토 필요: 버지니아의 6년 요금 동결 요구는 투자는 계속되는데 요금으로 회수하기 어려워지는 ③ 공급 과잉(투자 대비 이익 부진) 쪽을 가리키지만, 합병 승인 조건이라는 개별 사안이고 평균 허용 ROE가 아직 유지돼 판정을 바꾸지 않습니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "미국 규제 유틸리티의 성장이 데이터센터 대형 부하에 묶이면서, 투자 규모보다 비용 배분이 사슬의 핵심 규칙이 되고 있습니다. 미 에너지부는 대형 부하의 망 비용을 가정·소상공인 요금에 넘기지 말라고 FERC에 의견서를 냈고, 텍사스는 데이터센터의 망 비용 전액 부담을 추진합니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-12",
+      "u": "https://t.me/w_compass/7246"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-09-21",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
+     }
+    ]
+   },
+   {
+    "t": "영국 수도는 규제 자산의 손실이 주주를 넘어 채권단까지 내려왔습니다. 템스워터 B급 채권 보유자는 약 10억 파운드를 탕감해 약 5.9%만 회수하고, 페넌은 투자를 늘리려고 5억 5,000만 파운드 유상증자와 배당 삭감을 택했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/uk/uks-thames-water-reaches-deal-with-key-class-b-creditors-recapitalisation-2026-10-16/"
+     },
+     {
+      "o": "UK Investor Magazine",
+      "d": "2026-10-07",
+      "u": "https://ukinvestormagazine.co.uk/pennon-shares-sink-17-after-launching-rights-issue-cuts-dividend-to-fund-water-investment/"
+     }
+    ]
+   }
+  ],
+  "a1": [
+   {
+    "t": "데이터센터에 망 비용을 직접 물리는 요금·계약이 늘고, 가계 요금 인상 요청은 정치적 저항에 부딪혀 승인 속도가 느려질 가능성이 큽니다. 1~3분기 요금 인상 요청이 231억 달러로 쌓인 가운데 평균 가정용 전기요금은 1년 새 약 7.3% 올랐습니다 [유추]",
+    "src": [
+     {
+      "o": "Utility Dive(PowerLines)",
+      "d": "2026-10-09",
+      "u": "https://www.utilitydive.com/news/q3-electric-gas-rate-requests-powerlines-analysis/832609/"
+     }
+    ]
+   }
+  ],
+  "a2": [
+   {
+    "t": "반대로 데이터센터가 망 비용을 직접 내는 규칙이 자리 잡으면 가계 요금 부담이 줄어 규제 반발이 누그러지고, 유틸리티는 요금 동결 같은 조건 없이 투자 계획을 키울 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-12",
+      "u": "https://t.me/w_compass/7246"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-20",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "수요는 데이터센터의 전력과 물로 늘고, 공급은 설비에 막혔습니다. 미 전력업계는 신규 가스터빈을 2032년 전에 확보하기 어렵다고 했고, 가뭄 지역에서는 AI 데이터센터의 물 사용이 늘고 있습니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 양파농장",
+      "d": "2026-10-09",
+      "u": "https://t.me/Onionfarmer/18054"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-12",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "설비가 늦게 들어오는 만큼 망 보강·임시 전원 비용이 커져 요금 기반(규제 자산)은 계속 불어나고, 그 비용을 데이터센터와 가계 중 누가 낼지 다투는 요금 사건이 늘어날 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 양파농장",
+      "d": "2026-10-09",
+      "u": "https://t.me/Onionfarmer/18054"
+     },
+     {
+      "o": "Utility Dive(PowerLines)",
+      "d": "2026-10-09",
+      "u": "https://www.utilitydive.com/news/q3-electric-gas-rate-requests-powerlines-analysis/832609/"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "반대로 데이터센터 수요가 지역 반대로 꺾이면, 2분기에만 45곳·680억 달러 규모 사업이 막히거나 늦어진 것처럼 예상 부하가 오지 않아 이미 승인된 망 투자가 남는 자산이 되고 그 비용이 가계 요금에 남을 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-09-21",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "투자 확대 흐름과 반대되는 정보입니다. 버지니아는 넥스트에라의 도미니언 인수 조건으로 6년 요금 동결을 요구했고, 미국 유권자 61%는 거주지 근처 데이터센터 건설에 반대합니다 [제목]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-20",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-09-21",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼은 아닙니다. 요금 동결 요구는 합병 승인이라는 개별 사안이고, 2026년 상반기 평균 허용 ROE는 전력 9.84%로 2025년과 같았습니다. 다만 동결 조건이 다른 주의 합병·요금 사건으로 번지면 투자 회수 속도가 느려집니다 [유추]",
+    "src": [
+     {
+      "o": "S&P Global Market Intelligence(RRA)",
+      "d": "2026-09",
+      "u": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/average-gas-roe-edges-down-as-electric-holds-firm-in-h1-2026"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-20",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "물의 각도로 보면, AI 데이터센터가 가뭄 지역에서 물 사용을 늘리면서 수도회사는 새 대형 고객과 지역 갈등을 함께 떠안게 됩니다. 전력망이 겪은 비용 배분 논쟁이 수도 요금으로 옮겨 갈 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-12",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-14",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-s-rampant-power-demand-is-delivering-another-water-shock"
+     }
+    ]
+   },
+   {
+    "t": "유럽 유틸리티 자산 거래를 가스 수급에 묶인 옵션으로 보면, 유럽 가스 저장률이 같은 날 기준 2011년 이후 최저(9월 29일 71.5%)인 가운데 EDF가 에디슨 매각을 멈춰 거래 일정이 가스값에 따라 움직입니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/energy/edf-pauses-edison-stake-sale-plan-gas-supply-uncertainty-clouds-outlook-2026-10-14/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "이번 업데이트(10월 20일)는 검색·열람 없이 입력 뉴스 8건으로 반영했습니다(첫 작성 때 WebSearch 14회, WebFetch 5회). 버지니아의 넥스트에라-도미니언 6년 요금 동결 요구, EDF의 에디슨 지분 매각 중단, AI 데이터센터 물 사용 증가는 기사 제목 수준만 봐서 동결 조건의 범위, 거래 일정, 물 사용량은 확인하지 못했습니다. 미 에너지부의 FERC 의견서 제출일과 펜실베이니아 행정명령 세부, 텍사스 망 비용 전액 부담안의 입법 단계는 채널 전언만 있습니다. 템스워터 B급 채권 탕감 합의(약 10억 파운드, 회수 약 5.9%)의 회사 원문, 선순위 A급 채권단의 재자본화 조건, 오프왓 공개 협의 개시 시점, 2027년 3월 만기 대응 거래는 확인 못 했습니다. 영국 수도 개혁 법안의 의회 단계와 새 규제기관 이름은 자료끼리 엇갈립니다. 미국 요금 요청의 실제 승인 비율, 영국 수도회사 채권 스프레드, 가스 배전 회사별 요금 요청 금액도 확인 못 했습니다. 상트페테르부르크 330kV 변전소 피격은 러시아 전력망 피해라 규제 유틸리티 근거로 쓰지 않았습니다.",
+ "note": "뉴스 8건 반영: 버지니아의 넥스트에라-도미니언 6년 요금 동결 요구, 미 에너지부의 대형 부하 망 비용 가계 전가 반대, EDF 에디슨 지분 매각 중단과 AI 데이터센터 물 사용 증가. 국면 그대로(②, 영국 수도 ④·부채 ⑥), 근거 6줄, 수치 1줄, 재검토 신호 1건, 인사이트 9칸 첫 작성, 검색 0회",
+ "applied": [
+  "n-bbg-0026",
+  "n-bbg-0417",
+  "n-bbg-0584",
+  "n-bbg-0605",
+  "n-rtr-0434",
+  "n-tg-0492",
+  "n-tg-0648",
+  "n-tg-0656"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

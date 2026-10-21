@@ -1,0 +1,29 @@
+{"id": "agri", "summary": "",
+ "state": {
+  "livestock": [{"d": "2026-10-19", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/mexico-suspends-brazil-poultry-imports-after-newcastle-disease-outbreak-2026-10-20/", "nid": "n-bbg-0400", "t": "멕시코는 10월 19일 산타카타리나주 칠면조 농장 뉴캐슬병을 이유로 브라질산 가금 수입을 전면 중단했지만, 중국은 제한을 그 주로 한정했고 분석가들은 장기 영향이 크지 않을 것으로 봤습니다 [사실]"}],
+  "inputs": [
+   {"d": "2026-10-20", "o": "텔레그램 트릴리온", "u": "https://t.me/Trillion_labs/10955", "nid": "n-tg-0701", "t": "중국 내수 황 가격은 톤당 약 1,600달러까지 오른 뒤 약 900달러로 내렸고, 황값 급등으로 채산성이 나빠져 9월 MAP 가동률은 48.06%, DAP는 47.68%였다고 채널이 전했습니다 [채널]"},
+   {"d": "2026-10-19", "o": "로이터", "u": "https://www.reuters.com/world/us/us-launch-8-billion-support-program-farmers-offset-diesel-costs-trump-says-2026-10-20/", "nid": "n-bbg-0613", "t": "트럼프 대통령은 경유가 갤런당 약 6.32달러로 높은 가운데 수확기 디젤 비용을 보전하는 80억 달러 일회성 농가 지원을 발표했고, 품목별 단가는 11월에 나옵니다 [사실]"}],
+  "demand": [{"d": "2026-10-20", "o": "로이터", "u": "https://www.reuters.com/world/china/chinas-september-us-soybean-imports-rebound-zero-year-earlier-data-shows-2026-10-20/", "nid": "n-rtr-0323", "t": "중국 9월 미국산 대두 수입은 36만 878톤으로 1년 전 0톤에서 늘었지만, 전체 수입은 7.7% 줄어든 1,188만 톤이고 1~9월 미국산은 34% 줄어든 1,106만 톤입니다 [사실]"}],
+  "weather": [{"d": "2026-10-20", "o": "로이터", "u": "https://www.reuters.com/business/environment/indonesias-burned-land-doubles-september-fires-rage-data-shows-2026-10-20/", "nid": "n-tg-0694", "t": "인도네시아 산불 누적 피해 면적은 9월 말 192만ha로 8월 말의 두 배이고, 서부 칼리만탄 카푸아스강 수위가 낮아 팜유 바지선이 묶였다는 전언입니다 [사실]"}]
+ },
+ "industryState": [
+  {"d": "2026-10-19", "kind": "policy", "o": "로이터", "u": "https://www.reuters.com/world/us/us-launch-8-billion-support-program-farmers-offset-diesel-costs-trump-says-2026-10-20/", "nid": "n-bbg-0613", "t": "미국 농무부는 상품신용공사 재원으로 수확기 디젤 비용 80억 달러를 일회성 지급하며, 앞서 농가 가교 지원으로 120억 달러가 지급됐습니다 [사실]"},
+  {"d": "2026-10-20", "kind": "demand", "o": "로이터", "u": "https://www.reuters.com/world/china/chinas-september-us-soybean-imports-rebound-zero-year-earlier-data-shows-2026-10-20/", "nid": "n-rtr-0323", "t": "중국 9월 대두 수입은 1,188만 톤(-7.7%)으로 브라질산 1,070만 톤(-2.4%), 미국산 36만 878톤(1년 전 0톤)이었습니다 [사실]"},
+  {"d": "2026-10-20", "kind": "supply", "o": "로이터", "u": "https://www.reuters.com/business/environment/indonesias-burned-land-doubles-september-fires-rage-data-shows-2026-10-20/", "nid": "n-tg-0694", "t": "인도네시아 산불 누적 피해 면적은 8월 말 89만 5,650ha에서 9월 말 192만ha로 늘어 2019년 같은 시점보다 38% 많습니다 [사실]"},
+  {"d": "2026-10-20", "kind": "price", "o": "텔레그램 트릴리온", "u": "https://t.me/Trillion_labs/10955", "nid": "n-tg-0701", "t": "중국 내수 황 가격은 톤당 약 1,600달러 고점에서 약 900달러로 내렸고, 브라질 칼륨비료(MOP)는 톤당 약 350~400달러로 안정적입니다 [채널]"}
+ ],
+ "flags": [],
+ "insight": {
+  "a1": [
+   {"t": "미국 농가는 정부 직접 지급과 중국 국영사의 정책성 구매에 기대고 상업 수출에서는 브라질과 경쟁하게 돼, 미국 곡물 가격 약세와 농가 소득 압박이 이어질 가능성이 높습니다. 정부는 가교 지원 120억 달러에 이어 수확기 디젤 비용 80억 달러를 더 내놓았습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-20", "u": "https://www.reuters.com/world/us/us-launch-8-billion-support-program-farmers-offset-diesel-costs-trump-says-2026-10-20/"}]}
+  ],
+  "b2": [
+   {"t": "비료난으로 수입국 수확이 줄고 커피 ICE 재고가 적어 늘어난 물량이 재고 보충에 먼저 쓰이면, 공급 과잉 전망에도 가격이 높게 머물 수 있습니다 [유추]", "src": [{"o": "텔레그램 트릴리온", "d": "2026-10-20", "u": "https://t.me/Trillion_labs/10955"}]},
+   {"t": "엘니뇨 가뭄으로 인도네시아 산불 피해가 9월 말 192만ha로 두 배가 됐고, 건조한 날씨는 9~12개월 뒤 팜유 감산으로 이어질 수 있어 유지작물 공급이 2027년에 빠듯해질 수 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-20", "u": "https://www.reuters.com/business/environment/indonesias-burned-land-doubles-september-fires-rage-data-shows-2026-10-20/"}]}
+  ]
+ },
+ "cycle": null, "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 5건 반영: 미국 수확기 디젤 비용 80억 달러 농가 지원, 중국 9월 미국산 대두 수입 36만 톤(전체 -7.7%), 인도네시아 산불 192만ha·팜유 운송 차질, 중국 황값 급락과 인산비료 가동률 48% 안팎, 멕시코의 브라질 가금 수입 중단. 국면 ④ 그대로, 근거 5줄, 수치 4줄, 재검토 신호 0건, 인사이트 a1·b2 갱신, 검색 0회",
+ "applied": ["n-bbg-0400", "n-bbg-0613", "n-rtr-0323", "n-tg-0694", "n-tg-0701"], "searches": 0, "fetches": 0}

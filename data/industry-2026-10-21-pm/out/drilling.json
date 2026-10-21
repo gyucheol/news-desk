@@ -1,0 +1,53 @@
+{
+ "id": "drilling",
+ "summary": "",
+ "state": {
+  "services": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/halliburton-tops-third-quarter-profit-estimates-international-oilfield-demand-2026-10-20/",
+    "nid": "n-rtr-0189",
+    "t": "핼리버튼의 3분기 조정 영업이익은 7억 3,100만 달러로 예상을 웃돌았고, 중동·아시아 매출은 사우디·쿠웨이트 작업 증가로 전분기보다 8% 늘어난 14억 달러였습니다 [사실]"
+   }
+  ],
+  "capex": [
+   {
+    "d": "2026-10-20",
+    "o": "텔레그램 TNBfolio",
+    "u": "https://t.me/TNBfolio/71627",
+    "nid": "n-rtr-0189",
+    "t": "서방 5대 메이저의 3분기 이익은 약 500억 달러로 1년 전의 두 배가 예상되지만, BP는 부채 감축을, 셸은 분기당 30억 달러 자사주 매입을 이어 가 횡재 현금이 상류 투자로 갈지는 미지수입니다 [채널]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/eu-still-committed-keeping-oil-coal-gas-ground-arctic-new-strategy-says-2026-10-20/",
+    "nid": "n-tg-0315",
+    "t": "EU는 10월 20일 최종 북극 전략에서 화석연료를 땅속에 두겠다는 약속은 유지하면서 극지 탄화수소 개발을 막는 다자 법적 의무 추진은 빼, 북극 해양 탐사 제약이 법적 금지로 가지는 않았습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-20",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/energy/halliburton-tops-third-quarter-profit-estimates-international-oilfield-demand-2026-10-20/",
+   "nid": "n-rtr-0189",
+   "t": "핼리버튼 중동·아시아 매출은 3분기 14억 달러로 전분기보다 8% 늘었고, 3분기 조정 영업이익은 7억 3,100만 달러(예상 7억 2,990만 달러)였습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 2건 반영: 핼리버튼 3분기 이익 예상 상회·중동·아시아 매출 8% 증가와 중동 재건 수요, 메이저 3분기 이익 두 배 전망 속 현금 사용, EU 북극 전략 최종본. 국면 ⑧ 그대로, 근거 3줄, 수치 1줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-rtr-0189",
+  "n-tg-0315"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

@@ -1,0 +1,6 @@
+# large or re-downloadable files (setup.sh fetches them)
+venv/
+models/
+fonts/*.otf
+work/
+__pycache__/

@@ -1,0 +1,67 @@
+{
+ "fade_in": 0.3,
+ "fade_out": 0.5,
+ "scenes": [
+  {
+   "id": "001",
+   "type": "photo",
+   "image": "images/I01.png",
+   "from": "U1",
+   "z0": 1.0,
+   "z1": 1.035,
+   "cx0": 0.5,
+   "cx1": 0.5,
+   "cy0": 0.5,
+   "cy1": 0.53
+  },
+  {
+   "id": "002",
+   "type": "photo",
+   "image": "images/I02.png",
+   "from": "U2",
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.4,
+   "cx1": 0.62,
+   "cy0": 0.5,
+   "cy1": 0.55
+  },
+  {
+   "id": "003",
+   "type": "card",
+   "from": "U4"
+  }
+ ],
+ "subs": [
+  {
+   "unit": "U1",
+   "text": "주말 내내 분명 푹 잤는데,"
+  },
+  {
+   "unit": "U2",
+   "text": "월요일 아침 알람을 끄고"
+  },
+  {
+   "unit": "U3",
+   "text": "또 그대로 눕게 됩니다."
+  },
+  {
+   "unit": "U4",
+   "text": "'이번 주말엔 진짜 아무것도",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U5",
+   "text": "안 하고 쉬었는데,",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U6",
+   "text": "왜 몸이 그대로지?'",
+   "pos": "center",
+   "italic": true
+  }
+ ]
+}

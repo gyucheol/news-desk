@@ -39,7 +39,7 @@
 
 ## 3. 다시 만드는 순서 (video/burnout 폴더에서)
 
-1. `full/fetch_stock.sh` (스톡 영상 67개와 음악 8곡을 work/stock/에 받음)
+1. `full/fetch_stock.sh` (스톡 영상 66개와 음악 8곡을 work/stock/에 받음)
 2. 녹음 다듬기(녹음 원본은 운영자가 다시 줘야 함):
    `venv/bin/python scripts/polish_voice.py work/rec.m4a work/narration.wav --section 25.42,67.8,158.08,196.02,234.1,272.84,307.62,365.86,405.02,458.36 --report work/polish.json`
    - --section은 단락이 바뀌는 쉼의 녹음 원본 시각입니다.
@@ -49,17 +49,18 @@
 6. 배경음악: `venv/bin/python scripts/bgm_sequence.py full/bgm_segments.json 498.39 work/bgm.wav --lufs -32`
 7. 섞기: `venv/bin/python scripts/mix_audio.py work/narration_end.wav work/bgm.wav work/final_audio.wav`
 8. 타임라인: `venv/bin/python scripts/build_timeline.py full/spec.json full/align_refined.json work/final_audio.wav work/timeline.json` 다음 `venv/bin/python scripts/fit_clips.py work/timeline.json` (짧은 스톡의 시작점을 당김: 장면 051, 082, 113, 114)
-9. 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/burnout_full.mp4` (8분 18초에 약 40~50분)
+9. 렌더링 전 글자 검사: `venv/bin/python scripts/ocr_scan.py work/timeline.json work/ocr` (tesseract, 약 2분)
+10. 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/burnout_full.mp4` (8분 18초에 약 36분)
 
 ---
 
 ## 4. 전체 해상도 점검에서 고친 것 (2026-10-22)
 
-스톡 장면 86개의 가운데 화면을 모두 뽑아 보고, 의심되는 곳은 원래 크기로 확대해 확인했습니다(지침: 로고·읽히는 글자·실존 인물로 오해될 얼굴 금지).
+스톡 장면 86개의 가운데 화면을 모두 뽑아 보고, 의심되는 곳은 원래 크기로 확대해 확인했습니다(지침: 로고·읽히는 글자·실존 인물로 오해될 얼굴 금지). 그 뒤 모든 스톡 장면을 초당 2장씩(610장) 글자 인식기(scripts/ocr_scan.py)로 검사했고, 걸린 것은 창문·불빛 무늬 같은 잡음뿐이었습니다. 글자 인식기는 흐린 글자를 사람보다 못 읽으므로(4번 신문 예), 흐림을 쓴 장면과 글자가 있을 만한 장면의 처음·끝 화면은 눈으로 다시 봤습니다.
 1. 장면 044(4766): 가운데의 나이 든 의사가 프로이덴버거 본인으로 보일 수 있어 강하게 흐리게(blur 16) 했습니다. "동료들을 떠올렸어요"에 맞는 기억 속 장면처럼 보입니다.
 2. 장면 038(4701): 프로이덴버거 이야기 구간이라 옆얼굴이 보이는 부분 대신 두 손으로 얼굴을 가린 0~2.4초를 씁니다.
 3. 장면 073(42666): 회의실 유리벽의 공간 이름과 TV 화면의 채널 로고 → 흐림 5
-4. 장면 109(41192): 신문 기사 제목이 읽힘 → 흐림 6
+4. 장면 109: 41192(신문)는 흐림 6으로도 실제 정치 기사 제목이 읽혔습니다(첫 완성본의 전체 점검에서 발견). 144(휴대폰을 든 손 실루엣)로 바꿔 다시 렌더링했습니다.
 5. 장면 058, 101(914): 모니터 상표 → 흐림 3
 6. 장면 065(50753): 시계 밑 책 제목 → 아래쪽을 잘라 냄(crop)
 7. 장면 077: 99904(카페 간판 로고, 칠판 글씨) → 4872(동료 둘이 웃으며 이야기)
@@ -67,7 +68,9 @@
 9. 장면 101: 50726(책 제목) → 914(사무실, "일터")
 10. 장면 121(99910): 수첩 표지의 회사 로고가 나오지 않는 6.5초부터 씁니다.
 11. 장면 057: 4779가 장면 033과 같은 화면이라 검은 화면 카드("개인의 질병으로")로 바꿨습니다.
-12. 마지막 장면들: 100831(3.9초)이 짧아 0.6배속으로 느려지던 것을 바꿨습니다. 100831은 7:44(0.9배속), 4397은 7:56, 1086은 8:03부터 끝까지입니다.
+12. 장면 029(10395): 타자기 오른쪽 끝의 제조사 로고 → 가장자리를 잘라 냄(crop)
+13. 장면 129(50112): 앞부분에 상표가 찍힌 형광펜이 보여 4.3초부터 씁니다.
+14. 마지막 장면들: 100831(3.9초)이 짧아 0.6배속으로 느려지던 것을 바꿨습니다. 100831은 7:44(0.9배속), 4397은 7:56, 1086은 8:03부터 끝까지입니다.
 
 ---
 
@@ -84,9 +87,10 @@ chapters.txt에 있습니다. 시각은 각 단락 첫 자막 시각을 초 단�
 
 ---
 
-## 7. 스톡 영상 (67개, Mixkit)
+## 7. 스톡 영상 (66개, Mixkit)
 
 모두 영상 페이지의 copyrightNotice가 "Free"(Mixkit Stock Video Free License)인 것을 확인했습니다(2026-10-22, 받아 둔 페이지 기준). 유튜브·상업 이용이 가능하고 출처 표기는 필요 없습니다. 시각은 영상 안에서 장면이 시작하는 때입니다.
+
 
 1. 31411 Sleeping boy moves in bed — https://mixkit.co/free-stock-video/sleeping-boy-moves-in-bed-31411/
    - 장면 001 0:00 (0.2초부터); 장면 113 6:17 (5.06초부터)
@@ -105,7 +109,7 @@ chapters.txt에 있습니다. 시각은 각 단락 첫 자막 시각을 초 단�
 8. 4333 View inside a wagon in motion — https://mixkit.co/free-stock-video/view-inside-a-wagon-in-motion-4333/
    - 장면 011 0:25 (5.0초부터)
 9. 144 Hands shown texting on a smartphone — https://mixkit.co/free-stock-video/hands-shown-texting-on-a-smartphone-144/
-   - 장면 012 0:26 (4.0초부터)
+   - 장면 012 0:26 (4.0초부터); 장면 109 6:06 (8.0초부터)
 10. 1623 People getting into the subway train — https://mixkit.co/free-stock-video/people-getting-into-the-subway-train-1623/
    - 장면 013 0:27 (1.0초부터); 장면 106 5:56 (8.0초부터)
 11. 4872 Two coworkers talking and laughing — https://mixkit.co/free-stock-video/two-coworkers-talking-and-laughing-4872/
@@ -127,7 +131,7 @@ chapters.txt에 있습니다. 시각은 각 단락 첫 자막 시각을 초 단�
 19. 4513 Worried and sad woman hugging a cushion — https://mixkit.co/free-stock-video/worried-and-sad-woman-hugging-a-cushion-4513/
    - 장면 025 0:58 (1.0초부터)
 20. 10395 Close-up view of a typewriter while a man works on it — https://mixkit.co/free-stock-video/close-up-view-of-a-typewriter-while-a-man-works-on-10395/
-   - 장면 029 1:10 (1.0초부터)
+   - 장면 029 1:10 (1.0초부터, 가장자리 잘라 냄)
 21. 42343 Movement in a city at night in an aerial shot — https://mixkit.co/free-stock-video/movement-in-a-city-at-night-in-an-aerial-shot-42343/
    - 장면 030 1:12 (1.0초부터)
 22. 3429 City street with trolleybus at night — https://mixkit.co/free-stock-video/city-street-with-trolleybus-at-night-3429/
@@ -173,7 +177,7 @@ chapters.txt에 있습니다. 시각은 각 단락 첫 자막 시각을 초 단�
 42. 4915 Hands of a person typing on a cell phone — https://mixkit.co/free-stock-video/hands-of-a-person-typing-on-a-cell-phone-4915/
    - 장면 059 3:01 (1.0초부터)
 43. 50753 A young man turns off the alarm clock by the bedside — https://mixkit.co/free-stock-video/a-young-man-turns-off-the-alarm-clock-by-the-50753/
-   - 장면 065 3:22 (1.0초부터, 아래 잘라 냄)
+   - 장면 065 3:22 (1.0초부터, 가장자리 잘라 냄)
 44. 50754 A young man slowly wakes up in bed — https://mixkit.co/free-stock-video/a-young-man-slowly-wakes-up-in-bed-50754/
    - 장면 066 3:27 (2.0초부터)
 45. 26090 Table in a living room with fast food while a man watches television — https://mixkit.co/free-stock-video/table-in-a-living-room-with-fast-food-while-a-26090/
@@ -202,23 +206,21 @@ chapters.txt에 있습니다. 시각은 각 단락 첫 자막 시각을 초 단�
    - 장면 095 5:17 (1.0초부터)
 57. 100252 Pouring Tea into a Cup on a Rustic Table Setting — https://mixkit.co/free-stock-video/pouring-tea-into-a-cup-on-a-rustic-table-setting-100252/
    - 장면 104 5:51 (1.0초부터)
-58. 41192 POV flipping through a newspaper — https://mixkit.co/free-stock-video/pov-flipping-through-a-newspaper-41192/
-   - 장면 109 6:06 (1.0초부터, 흐림 6)
-59. 31415 Frustrated boy in his bed for not being able to sleep — https://mixkit.co/free-stock-video/frustrated-boy-in-his-bed-for-not-being-able-to-31415/
+58. 31415 Frustrated boy in his bed for not being able to sleep — https://mixkit.co/free-stock-video/frustrated-boy-in-his-bed-for-not-being-able-to-31415/
    - 장면 110 6:11 (1.0초부터)
-60. 26089 Man watching TV and eating fast food — https://mixkit.co/free-stock-video/man-watching-tv-and-eating-fast-food-26089/
+59. 26089 Man watching TV and eating fast food — https://mixkit.co/free-stock-video/man-watching-tv-and-eating-fast-food-26089/
    - 장면 111 6:14 (1.0초부터)
-61. 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen — https://mixkit.co/free-stock-video/beside-a-modern-laptop-the-hands-write-a-note-on-99910/
+60. 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen — https://mixkit.co/free-stock-video/beside-a-modern-laptop-the-hands-write-a-note-on-99910/
    - 장면 121 6:54 (6.5초부터)
-62. 3977 View of a window with a curtain — https://mixkit.co/free-stock-video/view-of-a-window-with-a-curtain-3977/
+61. 3977 View of a window with a curtain — https://mixkit.co/free-stock-video/view-of-a-window-with-a-curtain-3977/
    - 장면 125 7:07 (1.0초부터)
-63. 50112 Student hand takes a stiky note to paste it on the notebook — https://mixkit.co/free-stock-video/student-hand-takes-a-stiky-note-to-paste-it-on-50112/
-   - 장면 129 7:25 (1.0초부터)
-64. 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway. — https://mixkit.co/free-stock-video/gliding-along-a-quiet-asphalt-road-at-dawn-the-soft-52452/
+62. 50112 Student hand takes a stiky note to paste it on the notebook — https://mixkit.co/free-stock-video/student-hand-takes-a-stiky-note-to-paste-it-on-50112/
+   - 장면 129 7:25 (4.3초부터)
+63. 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway. — https://mixkit.co/free-stock-video/gliding-along-a-quiet-asphalt-road-at-dawn-the-soft-52452/
    - 장면 130 7:30 (1.0초부터)
-65. 100831 Sky Transitioning from Night to Sunrise — https://mixkit.co/free-stock-video/sky-transitioning-from-night-to-sunrise-100831/
+64. 100831 Sky Transitioning from Night to Sunrise — https://mixkit.co/free-stock-video/sky-transitioning-from-night-to-sunrise-100831/
    - 장면 133 7:44 (0.0초부터, 0.9배속)
-66. 4397 The silhouette of a woman at sunrise — https://mixkit.co/free-stock-video/the-silhouette-of-a-woman-at-sunrise-4397/
+65. 4397 The silhouette of a woman at sunrise — https://mixkit.co/free-stock-video/the-silhouette-of-a-woman-at-sunrise-4397/
    - 장면 136 7:56 (0.5초부터)
-67. 1086 Sunrise on the ocean — https://mixkit.co/free-stock-video/sunrise-on-the-ocean-1086/
+66. 1086 Sunrise on the ocean — https://mixkit.co/free-stock-video/sunrise-on-the-ocean-1086/
    - 장면 137 8:03 (0.5초부터)

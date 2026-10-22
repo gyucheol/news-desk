@@ -26,7 +26,9 @@ DARK = {"sat": 0.85, "black": 0.05, "gamma": 1.3, "vignette": 0.5}
 
 # (from unit, kind, arg, extra) — kind: v = stock video id, card, icon
 # full-res check (2026-10-22): a heavy blur turns 4766's staff photo (an older doctor who could pass for
-# Freudenberger) into a hazy memory; light blur hides readable text/logos (42666 room name + TV logo, 41192 newspaper);
+# Freudenberger) into a hazy memory; light blur hides readable text/logos (42666 room name + TV logo);
+# 41192 (newspaper: a real political headline stayed readable even with blur 6) -> 144; 10395 crop cuts the
+# typewriter maker's logo at the right edge; 50112 starts at 4.3 s, after a branded highlighter leaves the frame;
 # crop cuts a book title (50753); swapped out 99904 (cafe logo), 50726 (book titles) and 4701's profile in the story;
 # 99910 starts after its logo notebook leaves; 39789 (logo on the phone back) -> 31413; 914 gets blur 3 (monitor logos).
 PLAN = [
@@ -51,7 +53,7 @@ PLAN = [
  ("U040", "v", "4513", {"in": 1.0, "grade": DARK}), ("U042", "card", None, {}), ("U043", "icon", "clock6", {}),
  # ③ the name and Freudenberger's story (no faces that could be taken for him)
  ("U046", "card", None, {}),
- ("U048", "v", "10395", {"in": 1.0, "grade": PAST}), ("U049", "v", "42343", {"in": 1.0, "grade": PAST}),
+ ("U048", "v", "10395", {"in": 1.0, "grade": PAST, "crop": [0.0, 0.0, 0.94, 0.94]}), ("U049", "v", "42343", {"in": 1.0, "grade": PAST}),
  ("U051", "v", "3429", {"in": 1.0, "grade": PAST}), ("U054", "v", "28886", {"in": 1.0, "grade": PAST}),
  ("U056", "v", "4779", {"in": 1.0, "grade": PAST}), ("U058", "icon", "clock2", {}),
  ("U059", "v", "39841", {"in": 1.0, "grade": PAST}),
@@ -93,7 +95,7 @@ PLAN = [
  ("U224", "v", "100252", {"in": 1.0, "grade": DARK}), ("U225", "icon", "battery", {}),
  ("U227", "v", "1623", {"in": 8.0, "grade": DARK}), ("U229", "card", None, {}),
  # ⑥ a real story (potato character comes later; stock and cards for now)
- ("U231", "card", None, {}), ("U233", "v", "41192", {"in": 1.0, "grade": DARK, "blur": 6}),
+ ("U231", "card", None, {}), ("U233", "v", "144", {"in": 8.0, "grade": DARK}),
  ("U236", "v", "31415", {"in": 1.0, "grade": DARK}), ("U238", "v", "26089", {"in": 1.0, "grade": DARK}),
  ("U239", "v", "26090", {"in": 8.0, "grade": DARK}), ("U240", "v", "31411", {"in": 8.0}),
  ("U242", "v", "4720", {"in": 8.0, "grade": DARK}), ("U244", "card", None, {}), ("U248", "card", None, {}),
@@ -102,7 +104,7 @@ PLAN = [
  ("U256", "card", None, {}), ("U261", "icon", "memo10", {}), ("U264", "v", "99910", {"in": 6.5, "grade": DARK}),
  ("U267", "card", None, {}), ("U268", "icon", "week", {}), ("U271", "icon", "week3", {}),
  ("U273", "v", "3977", {"in": 1.0}), ("U277", "icon", "six", {}), ("U280", "icon", "six_pick", {}),
- ("U282", "icon", "six_seq", {}), ("U285", "v", "50112", {"in": 1.0, "grade": DARK}),
+ ("U282", "icon", "six_seq", {}), ("U285", "v", "50112", {"in": 4.3, "grade": DARK}),
  ("U289", "v", "52452", {"in": 1.0, "grade": DARK}),
  # ⑧ closing
  ("U292", "v", "28899", {"in": 1.0, "grade": DARK}), ("U294", "icon", "battery", {}),

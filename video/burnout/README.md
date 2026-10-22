@@ -7,7 +7,7 @@
 - full/: 번아웃 본편 8분 18초(2026-10-22). 운영자 녹음, 장면 137개(스톡 86, 아이콘 26, 카드 25), 배경음악 8곡(흐름이 바뀌는 곳마다 바꿈). 영상과 녹음은 운영자 목소리라 커밋하지 않았습니다. 기록과 다시 만드는 순서는 full/credits.md, 유튜브 챕터는 full/chapters.txt
 - HANDOFF_VIDEO.md: 확정된 제작 방식 전체 핸드오프(다른 대화창에서 같은 영상을 만들 때 이 문서부터)
 - thumbnail/: 번아웃 편 썸네일 시안. 「F의 연애」 썸네일 틀, 가운데 그림은 좌절하거나 지친 사람, 그림은 효과 없이 원본 그대로, 배경 살린 판과 사람만 남긴 판 두 가지(2026-10-22 사용자 지시). 만드는 법은 HANDOFF_VIDEO.md 18장, 도구는 scripts/thumb.py·cutout.py
-- 새 도구(2026-10-22): estimate_timing.py(녹음 전 글자 수로 시각 추정), make_bgm.py(배경음악 자르기·음량), mix_audio.py(녹음+배경음악 섞기, -14 LUFS), polish_voice.py(녹음 다듬기: 숨소리·쉼 간격·입소리, -14 LUFS), icons.py(아이콘 화면 모음), bgm_sequence.py(구간마다 곡을 바꾸는 배경음악), fit_clips.py(짧은 스톡의 시작점·속도 맞추기). setup.sh는 기본 설치에서 AI 모델을 빼고 WITH_AI=1일 때만 받습니다.
+- 새 도구(2026-10-22): estimate_timing.py(녹음 전 글자 수로 시각 추정), make_bgm.py(배경음악 자르기·음량), mix_audio.py(녹음+배경음악 섞기, -14 LUFS), polish_voice.py(녹음 다듬기: 숨소리·쉼 간격·입소리, -14 LUFS), icons.py(아이콘 화면 모음), bgm_sequence.py(구간마다 곡을 바꾸는 배경음악), fit_clips.py(짧은 스톡의 시작점·속도 맞추기), ocr_scan.py(렌더링 전 스톡 글자·로고 검사, tesseract). setup.sh는 기본 설치에서 AI 모델을 빼고 WITH_AI=1일 때만 받습니다.
 
 작업 규칙(2026-10-22 사용자 지시): 임시 음성(합성 음성)은 만들지 않습니다. 녹음 전에 자막 시각이 필요하면 글자 수로 추정합니다(분당 약 527자). 녹음본이 오면 align.py·refine.py로 그 녹음에 맞춥니다.
 
@@ -50,7 +50,7 @@
    - 장면별 색 보정 grade(sat, black, gamma, vignette). 밝은 스톡 영상은 gamma를 높여 다른 장면과 맞춥니다.
    - 검은 화면 위 하단 자막은 "box": false(지침 6-1의 7번)
 6. `venv/bin/python scripts/build_timeline.py spec.json work/align_refined.json work/narration.wav work/timeline.json` 다음 `venv/bin/python scripts/fit_clips.py work/timeline.json`(짧은 스톡 맞추기). 배경음악을 섞는 경우는 narration.wav 대신 섞은 파일을 넣습니다(HANDOFF_VIDEO.md 7장 7번).
-7. `venv/bin/python scripts/render.py work/timeline.json out.mp4` (점검용 정지 화면: `--frames-only 1.5,3.0`)
+7. 글자 검사 `venv/bin/python scripts/ocr_scan.py work/timeline.json work/ocr` 다음 `venv/bin/python scripts/render.py work/timeline.json out.mp4` (점검용 정지 화면: `--frames-only 1.5,3.0`)
 8. 점검: `venv/bin/python scripts/contact.py out.mp4 sheet.png 0.5,2.5,4.0`
 
 이미지 생성: `venv/bin/python scripts/gen.py I02 301,302 "<장면 지시문>"` (장면 지시문 + 기본 스타일 문구가 77토큰을 넘으면 뒤가 잘립니다. 실행 때 토큰 수를 출력합니다.)

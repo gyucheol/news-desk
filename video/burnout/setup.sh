@@ -13,6 +13,8 @@ command -v ffmpeg >/dev/null || { echo "ffmpeg not found"; exit 1; }
 ./venv/bin/pip install -q --upgrade pip
 ./venv/bin/pip install -q pillow numpy faster-whisper huggingface_hub rembg onnxruntime   # rembg: thumbnail cut-outs (MIT)
 mkdir -p fonts models work
+command -v rubberband >/dev/null || { (apt-get update -qq && apt-get install -y -qq rubberband-cli) >/dev/null 2>&1 \
+  || echo "warning: rubberband-cli not installed (needed only for polish_voice.py --tempo)"; }
 for w in Medium SemiBold Bold ExtraBold; do
   [ -s "fonts/Pretendard-$w.otf" ] || curl -sSf -o "fonts/Pretendard-$w.otf" \
     "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/public/static/Pretendard-$w.otf"

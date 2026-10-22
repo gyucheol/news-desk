@@ -11,6 +11,15 @@
 # ㅎ/ㅅ/ㅆ/ㅊ/ㅋ/ㅌ/ㅍ is treated as that consonant (on 2026-10-22 the strongest "breath" was the ㅎ of 혹시).
 # Gap types come from faster-whisper punctuation (word ending in . ? ! = sentence end); --section marks section breaks.
 # usage: polish_voice.py IN(m4a/wav) OUT.wav [--section 20.6,...] [--denoise 12] [--deess 0.3] [--report r.json] [--words w.json]
+#                        [--soft 0.4] [--breath-rel -22] [--tempo 1.3]
+#   --tempo T: speed up first, pitch kept (Rubber Band R3 'finer' engine, `rubberband -3`; apt package rubberband-cli).
+#             On 2026-10-22 R3 kept voicing clarity and consonants closer to the original than ffmpeg atempo.
+#             --section and --words are given in the ORIGINAL file's time; they are divided by T.
+#   --soft K: shorten a long gap only part of the way (target + K x the excess), so the speaker's own rhythm stays
+#             (used for the ElevenLabs file on 2026-10-22: equal gaps everywhere sound machine-made)
+#   --breath-rel D: judge breaths against the speech level instead of the noise floor (turn down only breaths
+#             louder than speech p95 + D dB). Needed for AI/studio audio whose silence is digital (-61 dB floor)
+#   If speech starts right at 0 s, 0.2 s of silence is put in front (a fade-in would eat the first consonant).
 import json, os, re, subprocess, sys
 import numpy as np
 
@@ -85,8 +94,16 @@ def main():
     a = sys.argv[1:]
     opt = lambda k, d=None: a[a.index(k) + 1] if k in a else d
     src, out = a[0], a[1]
-    sections = [float(v) for v in opt("--section", "").split(",") if v]
+    tempo = float(opt("--tempo", "1"))
+    sections = [float(v) / tempo for v in opt("--section", "").split(",") if v]
+    if tempo != 1:                                           # speed up first, then polish the faster audio
+        wav_in, sped = out + ".in.wav", out + ".tempo.wav"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-ac", "1", "-ar", str(SR), "-c:a", "pcm_f32le", wav_in], check=True)
+        subprocess.run(["rubberband", "-q", "-3", f"-T{tempo}", wav_in, sped], check=True)
+        os.remove(wav_in); src = sped
     deess = float(opt("--deess", "0"))
+    soft = float(opt("--soft", "0"))
+    breath_rel = opt("--breath-rel")
     x = decode(src, "highpass=f=75")
     db, floor, pauses = analyse(x)
     nr = float(opt("--denoise", "0"))
@@ -95,10 +112,12 @@ def main():
         xd = np.concatenate([xd[1200:], np.zeros(1200)])
     else:
         xd = x
-    words = json.load(open(opt("--words"))) if opt("--words") else transcribe(src)
+    words = ([{**w, "s": w["s"] / tempo, "e": w["e"] / tempo} for w in json.load(open(opt("--words")))]
+             if opt("--words") else transcribe(src))
     n_fr = len(db)
     gain_db = np.zeros(len(x))
-    keep_cuts, report = [], {"floor_db": round(floor, 1), "pauses": []}
+    speech_p95 = float(np.percentile(db, 95))
+    keep_cuts, report = [], {"floor_db": round(floor, 1), "speech_p95_db": round(speech_p95, 1), "pauses": []}
     first, last = pauses[0], pauses[-1]
     lead_start = first["b"] if first["a"] == 0 else 0           # frame where the first speech region starts
     for p in pauses:
@@ -118,7 +137,7 @@ def main():
                 blocked.append((cs, B)); continue                # onset consonant, not a breath
             cs, ce = max(A + 0.06, cs - 0.07), min(B - 0.04, ce + 0.07)
             blocked.append((cs, ce))                             # a breath stays (natural), only loud ones go down
-            att = float(np.clip(lv - 10, 0, 12))
+            att = float(np.clip((floor + lv) - (speech_p95 + float(breath_rel)) if breath_rel else lv - 10, 0, 12))
             if att >= 3:
                 breaths.append([cs, ce, att])
                 s0, s1, r = int(cs * SR), int(ce * SR), int(0.025 * SR)
@@ -155,9 +174,9 @@ def main():
                  "clicks_turned_down": [round(float(t), 3) for t in clicks],
                  "breaths_turned_down": [[round(u, 2), round(v, 2), round(g, 1)] for u, v, g in breaths]}
         if not edge:
-            kind = ("section" if any(abs(A - t) < 0.5 for t in sections) else
+            kind = ("section" if any(abs(A - t) < 0.3 for t in sections) else
                     "sentence" if prv and re.search(r"[.?!]$", prv["w"]) else "comma")
-            need = (B - A + 0.16) - TARGET_GAP[kind]
+            need = ((B - A + 0.16) - TARGET_GAP[kind]) * (1 - soft)
             entry["type"] = kind
             if need > 0.05:
                 lo, hi = A + 0.10, B - 0.06
@@ -195,6 +214,10 @@ def main():
         tail = outbuf[-xf:] * fade[::-1] + seg[:xf] * fade       # equal-power crossfade inside silence
         outbuf = np.concatenate([outbuf[:-xf], tail, seg[xf:]])
     fi, fo = int(0.03 * SR), int(0.06 * SR)
+    pad = 0.0
+    if first["a"] != 0 or first["b"] * 0.01 < 0.15:              # speech starts at once: put silence in front
+        pad = 0.2
+        outbuf = np.concatenate([np.zeros(int(pad * SR)), outbuf])
     outbuf[:fi] *= np.linspace(0, 1, fi); outbuf[-fo:] *= np.linspace(1, 0, fo)
     tmp = out + ".tmp.wav"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-"]
@@ -202,8 +225,10 @@ def main():
                    input=outbuf.astype(np.float32).tobytes(), check=True)
     subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "prep_audio.py"), tmp, out], check=True)
     os.remove(tmp)
-    report.update({"in_sec": round(len(x) / SR, 2), "out_sec": round(len(outbuf) / SR, 2),
-                   "lead_in_trim": round(t_start, 2), "cuts": [[round(s, 2), round(e, 2)] for s, e in sorted(keep_cuts)]})
+    if tempo != 1:
+        os.remove(src)
+    report.update({"tempo": tempo, "in_sec": round(len(x) * tempo / SR, 2), "out_sec": round(len(outbuf) / SR, 2),
+                   "lead_in_trim": round(t_start, 2), "lead_in_pad": pad, "cuts": [[round(s, 2), round(e, 2)] for s, e in sorted(keep_cuts)]})
     if opt("--report"):
         json.dump(report, open(opt("--report"), "w"), ensure_ascii=False, indent=1)
     for p in report["pauses"]:

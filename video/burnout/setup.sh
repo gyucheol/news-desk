@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-time setup in a fresh cloud session (run from video/burnout/).
-#   default : Python env (pillow, numpy, faster-whisper), Pretendard fonts (OFL),
+#   default : Python env (pillow, numpy, faster-whisper), Pretendard + Noto Sans KR fonts (OFL),
 #             faster-whisper large-v3 (MIT, ~2.9 GB) for syncing the owner's recording
 #   WITH_AI=1 ./setup.sh : also torch/diffusers + RealVisXL V5.0 Lightning (openrail++, ~6.5 GB)
 #             only needed for AI object images (slow without AMX: check `grep -o amx_bf16 /proc/cpuinfo`)
@@ -17,6 +17,8 @@ for w in Medium SemiBold Bold ExtraBold; do
   [ -s "fonts/Pretendard-$w.otf" ] || curl -sSf -o "fonts/Pretendard-$w.otf" \
     "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/public/static/Pretendard-$w.otf"
 done
+[ -s fonts/NotoSansKR-VF.ttf ] || curl -sSf -o fonts/NotoSansKR-VF.ttf \
+  "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"   # thumbnails (OFL)
 ./venv/bin/python - <<'PY'
 from huggingface_hub import snapshot_download
 snapshot_download('Systran/faster-whisper-large-v3', local_dir='models/fw-large-v3')

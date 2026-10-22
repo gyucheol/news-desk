@@ -1,0 +1,93 @@
+--- a/scripts/render.py
++++ b/scripts/render.py
+@@ -4,7 +4,7 @@
+ # usage: render.py timeline.json out.mp4 [--frames-only N]
+ import json, math, os, subprocess, sys
+ import numpy as np
+-from PIL import Image, ImageDraw, ImageFilter, ImageFont
++from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
+ 
+ W, H, FPS = 1920, 1080, 30
+ ROOT = os.environ.get("VIDEO_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+@@ -181,6 +181,28 @@
+     return tuple(round(a + (b - a) * u) for a, b in zip(c1, c2))
+ 
+ 
++_ICON_CACHE = {}
++
++
++def _ifont(size, weight="ExtraBold"):
++    key = ("font", size, weight)
++    if key not in _ICON_CACHE:
++        _ICON_CACHE[key] = ImageFont.truetype(f"{ROOT}/fonts/Pretendard-{weight}.otf", size)
++    return _ICON_CACHE[key]
++
++
++def _outline(key, size, draw_fn, k):
++    """Cached outline mask (width k) of a filled shape drawn by draw_fn: shape minus its erosion."""
++    if key not in _ICON_CACHE:
++        m = Image.new("L", size, 0)
++        draw_fn(ImageDraw.Draw(m))
++        inner = m
++        for _ in range(k):
++            inner = inner.filter(ImageFilter.MinFilter(3))
++        _ICON_CACHE[key] = ImageChops.subtract(m, inner)
++    return _ICON_CACHE[key]
++
++
+ def icon_frame(kind, t, dur):
+     """Icon screens (guide 6-3): black background, white line icon, drawn at 2x then downsampled."""
+     SS = 2
+@@ -241,6 +263,52 @@
+             sc = (0.6 + 0.4 * k) * SS
+             bolt = [(18, -70), (-30, 8), (2, 8), (-14, 70), (34, -10), (2, -10), (18, -70)]
+             d.polygon([(cx - 14 * SS + x * sc, cy + y * sc) for x, y in bolt], fill=_mix((0, 0, 0), YELLOW[:3], k))
++    elif kind == "chat":
++        # F의 연애 01편: my message bubble (tail at top right) with the unread "1" beside it.
++        # The bubble fades in, the "1" pops in at 0.45 s and then simply stays (nobody reads it).
++        bw, bh, rad = 620 * SS, 250 * SS, 72 * SS
++        x1 = cx + bw / 2 + 70 * SS; x0 = x1 - bw
++        y0 = cy - bh / 2; y1 = y0 + bh
++        def shape(d):
++            d.rounded_rectangle([x0, y0, x1, y1], radius=rad, fill=255)
++            d.polygon([(x1 - 60 * SS, y0 + 10 * SS), (x1 + 44 * SS, y0 - 2 * SS), (x1 - 2 * SS, y0 + 84 * SS)], fill=255)
++        mask = _outline(("chat", SS), img.size, shape, lw)   # MinFilter(3) erodes 1 px per pass -> outline width lw
++        a = smooth(min(t / 0.3, 1))
++        img.paste((255, 255, 255), (0, 0), mask.point(lambda v: round(v * a)))
++        d = ImageDraw.Draw(img)
++        col = _mix((0, 0, 0), (255, 255, 255), a)
++        for i, frac in enumerate((0.64, 0.40)):                  # two lines of 'text' (not readable on purpose)
++            ly = cy - 34 * SS + i * 68 * SS
++            d.rounded_rectangle([x0 + 70 * SS, ly - 13 * SS, x0 + 70 * SS + bw * frac, ly + 13 * SS], radius=13 * SS, fill=col)
++        if t >= 0.45:
++            k = smooth(min((t - 0.45) / 0.2, 1))
++            f = _ifont(round((150 + 40 * (1 - k)) * SS))
++            d.text((x0 - 34 * SS, y1 + 4 * SS), "1", font=f, fill=_mix((0, 0, 0), YELLOW[:3], k), anchor="rs")
++    elif kind == "siren":
++        # F의 연애 01편 '마음속 경보 장치': a warning lamp that keeps going off (smooth pulse, not a flicker)
++        on = smooth(min(t / 0.25, 1))
++        p = 0.5 - 0.5 * math.cos(2 * math.pi * 1.25 * max(t - 0.25, 0))
++        lit = on * (0.3 + 0.7 * p)
++        r = 125 * SS
++        top, base_y = cy - r * 1.05, cy + 85 * SS
++        glow = Image.new("L", img.size, 0)
++        ImageDraw.Draw(glow).ellipse([cx - r * 1.9, top - r * 0.5, cx + r * 1.9, base_y + r * 0.5], fill=round(190 * lit))
++        glow = glow.filter(ImageFilter.GaussianBlur(85 * SS))
++        img = Image.composite(Image.new("RGB", img.size, RED), img, glow)
++        d = ImageDraw.Draw(img)
++        d.rounded_rectangle([cx - r, top, cx + r, base_y], radius=r, corners=(True, True, False, False),
++                            fill=_mix((60, 8, 10), RED, lit), outline=(255, 255, 255), width=lw)
++        d.arc([cx - r * 0.66, top + r * 0.32, cx + r * 0.30, top + r * 1.30], start=195, end=250,
++              fill=_mix((150, 150, 150), (255, 255, 255), lit), width=round(lw * 0.8))
++        d.rounded_rectangle([cx - r * 1.42, base_y + 4 * SS, cx + r * 1.42, base_y + 64 * SS], radius=16 * SS,
++                            fill=(255, 255, 255))
++        rc = (cx, top + r * 0.95)
++        for sx in (-1, 1):
++            for dy in (-0.42, 0.0, 0.42):
++                vx, vy = sx * math.sqrt(1 - dy * dy), dy
++                r1, r2 = r * 1.5, r * (1.5 + 0.22 + 0.30 * p)
++                d.line([(rc[0] + vx * r1, rc[1] + vy * r1), (rc[0] + vx * r2, rc[1] + vy * r2)],
++                       fill=_mix((0, 0, 0), RED, on * (0.45 + 0.55 * p)), width=lw)
+     return img.resize((W, H), Image.LANCZOS)
+ 
+ 

@@ -1,0 +1,230 @@
+{
+ "fade_in": 0.3,
+ "fade_out": 0.5,
+ "scenes": [
+  {
+   "id": "001",
+   "type": "video",
+   "src": "../work/stock/full/4915.mp4",
+   "in": 2.0,
+   "from": "U01",
+   "note": "Mixkit 4915 Hands of a person typing on a cell phone"
+  },
+  {
+   "id": "002",
+   "type": "icon",
+   "icon": "chat",
+   "from": "U02",
+   "note": "icon screen: my message bubble and the unread 1 that stays"
+  },
+  {
+   "id": "003",
+   "type": "video",
+   "src": "../work/stock/full/42741.mp4",
+   "in": 3.0,
+   "from": "U03",
+   "note": "Mixkit 42741 Girl reading a book sitting near a window",
+   "grade": {
+    "sat": 0.82,
+    "black": 0.05,
+    "gamma": 1.38,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "004",
+   "type": "video",
+   "src": "../work/stock/full/28893.mp4",
+   "in": 2.0,
+   "speed": 2.0,
+   "from": "U04",
+   "note": "Mixkit 28893 Black analog clock in a very close shot",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.06,
+    "gamma": 1.6,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "005",
+   "type": "video",
+   "src": "../work/stock/full/51395.mp4",
+   "in": 1.5,
+   "from": "U05",
+   "note": "Mixkit 51395 Girl using her cell phone in her bed waiting to sleep"
+  },
+  {
+   "id": "006",
+   "type": "card",
+   "from": "U06"
+  },
+  {
+   "id": "007",
+   "type": "video",
+   "src": "../work/stock/full/51394.mp4",
+   "in": 12.0,
+   "from": "U07",
+   "note": "Mixkit 51394 Woman with insomnia lying in her bed trying to sleep"
+  },
+  {
+   "id": "008",
+   "type": "video",
+   "src": "../work/stock/full/42973.mp4",
+   "in": 2.5,
+   "from": "U08",
+   "note": "Mixkit 42973 Upset man and sad woman"
+  },
+  {
+   "id": "009",
+   "type": "video",
+   "src": "../work/stock/full/4511.mp4",
+   "in": 0.5,
+   "from": "U10",
+   "note": "Mixkit 4511 Sad girl looking out the window",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.35,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "010",
+   "type": "photo",
+   "image": "images/R01.png",
+   "from": "U12",
+   "z0": 1.0,
+   "z1": 1.04,
+   "cx0": 0.5,
+   "cx1": 0.53,
+   "cy0": 0.5,
+   "cy1": 0.5,
+   "note": "AI image (RealVisXL V5.0 Lightning, seed 301): old books, reading glasses and a desk lamp on a dark desk. Stock 21591 (bright red library) clashed with the dark tone"
+  },
+  {
+   "id": "011",
+   "type": "icon",
+   "icon": "siren",
+   "from": "U15",
+   "note": "icon screen: warning lamp keeps going off"
+  },
+  {
+   "id": "012",
+   "type": "video",
+   "src": "../work/stock/full/99909.mp4",
+   "in": 0.5,
+   "from": "U17",
+   "note": "Mixkit 99909 Close up of a hand writing to do list on a yellow paper notebook"
+  },
+  {
+   "id": "013",
+   "type": "video",
+   "src": "../work/stock/full/41375.mp4",
+   "in": 3.0,
+   "from": "U19",
+   "note": "Mixkit 41375 Tour high above a city at dusk"
+  },
+  {
+   "id": "014",
+   "type": "video",
+   "src": "../work/stock/full/4808.mp4",
+   "in": 3.0,
+   "from": "U20",
+   "note": "Mixkit 4808 Silhouette of a man texting during the sunset",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.4,
+    "vignette": 0.55
+   }
+  }
+ ],
+ "subs": [
+  {
+   "unit": "U01",
+   "text": "카톡을 보냈는데"
+  },
+  {
+   "unit": "U02",
+   "text": "[30분째] 1이 안 사라져요.",
+   "box": false
+  },
+  {
+   "unit": "U03",
+   "text": "처음엔 바쁜가 보다 했죠."
+  },
+  {
+   "unit": "U04",
+   "text": "그런데 [한 시간]이 지나면"
+  },
+  {
+   "unit": "U05",
+   "text": "생각이 달라져요."
+  },
+  {
+   "unit": "U06",
+   "text": "'내가 뭘 잘못했나?'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U07",
+   "text": "[두 시간]이 지나면,"
+  },
+  {
+   "unit": "U08",
+   "text": "머릿속에서 이별 장면까지"
+  },
+  {
+   "unit": "U09",
+   "text": "그려 보게 되죠."
+  },
+  {
+   "unit": "U10",
+   "text": "오늘은 그 한 시간 동안"
+  },
+  {
+   "unit": "U11",
+   "text": "[머릿속]에서 무슨 일이 벌어지는지"
+  },
+  {
+   "unit": "U12",
+   "text": "알려 드릴게요."
+  },
+  {
+   "unit": "U13",
+   "text": "[연구]를 보면, 이건 예민해서"
+  },
+  {
+   "unit": "U14",
+   "text": "그런 게 아니에요."
+  },
+  {
+   "unit": "U15",
+   "text": "마음속 [경보 장치]가",
+   "box": false
+  },
+  {
+   "unit": "U16",
+   "text": "열심히 울리고 있는 거예요.",
+   "box": false
+  },
+  {
+   "unit": "U17",
+   "text": "마지막엔 그럴 때 해 볼 수 있는"
+  },
+  {
+   "unit": "U18",
+   "text": "[작은 방법]도 알려 드릴게요."
+  },
+  {
+   "unit": "U19",
+   "text": "금요일 저녁 일곱 시,"
+  },
+  {
+   "unit": "U20",
+   "text": "썸 타는 사람에게 메시지를 보냅니다."
+  }
+ ]
+}

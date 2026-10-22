@@ -1,9 +1,10 @@
 # 「F의 연애」 썸네일: 채팅 확대판 (2026-10-22 사용자 지시)
 # 휴대폰 몸체 없이 대화 내용만 크게 확대해, 썸네일을 작게 봐도 노란 말풍선과 읽지 않은 '1'이 눈에 들어오게 한다.
-# 실제 화면을 가까이서 찍은 사진처럼 보이게: 살짝 기운 원근, 가장자리 초점 흐림, 말풍선 빛 번짐, 은은한 화면 반사.
+# 실제 화면을 가까이서 찍은 사진처럼 보이게: 가장자리 초점 흐림, 말풍선 빛 번짐, 은은한 화면 반사.
+# 화면은 기울이지 않고 똑바로 세운다(2026-10-22 사용자 지시: 삐뚤어 보인다).
 # 배경은 검은색으로 사라지고, 아래에 주제 단어(thumb.py와 같은 글꼴·위치).
 #
-# usage: thumb_chat.py OUT.jpg --word 불안 --color red [--msgs "a|b|c"] [--name "그 사람"]
+# usage: thumb_chat.py OUT.jpg --word 불안 --color red [--msgs "a|b|c"]
 import os, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -15,19 +16,21 @@ S = 2                       # draw at 2x, then downsample
 SCREEN = (22, 24, 30)       # dark-mode chat background
 
 
-def chat_panel(msgs, name):
-    """Flat dark-mode chat panel at 2x. Bubbles are big: about 88 px tall in the final 1280x720 thumbnail."""
+def chat_panel(msgs, name, header=False):
+    """Flat dark-mode chat panel at 2x. Bubbles are big: about 90 px tall in the final 1280x720 thumbnail.
+    header=False (default): no contact-name bar, so no text gets cut at the top edge (channel rule 5)."""
     pw, ph = 1180 * S, 700 * S
     img = Image.new("RGB", (pw, ph), SCREEN)
     d = ImageDraw.Draw(img)
-    hy = 62 * S                                                     # header (ends up soft and partly cropped)
-    d.line([(70 * S, hy - 22 * S), (52 * S, hy), (70 * S, hy + 22 * S)], fill=(225, 225, 230), width=6 * S, joint="curve")
-    d.ellipse([96 * S, hy - 32 * S, 160 * S, hy + 32 * S], fill=(92, 98, 112))
-    d.text((182 * S, hy), name, font=font("SemiBold", 42 * S), fill=(235, 235, 240), anchor="lm")
-    d.line([(0, 128 * S), (pw, 128 * S)], fill=(44, 47, 56), width=2 * S)
+    if header:
+        hy = 62 * S
+        d.line([(70 * S, hy - 22 * S), (52 * S, hy), (70 * S, hy + 22 * S)], fill=(225, 225, 230), width=6 * S, joint="curve")
+        d.ellipse([96 * S, hy - 32 * S, 160 * S, hy + 32 * S], fill=(92, 98, 112))
+        d.text((182 * S, hy), name, font=font("SemiBold", 42 * S), fill=(235, 235, 240), anchor="lm")
+        d.line([(0, 128 * S), (pw, 128 * S)], fill=(44, 47, 56), width=2 * S)
     fb, f1 = font("SemiBold", 46 * S), font("Bold", 54 * S)
     y = 168 * S
-    right = pw - 320 * S
+    right = pw - 350 * S
     for i, m in enumerate(msgs):
         tw = fb.getlength(m)
         bw, bh = tw + 72 * S, 92 * S
@@ -50,17 +53,15 @@ def perspective_coeffs(dst, src):
 
 
 def photo_look(panel):
-    """Place the panel with a mild 3D tilt (left side farther away), then add depth of field, glow and glare."""
+    """Place the panel straight (no tilt), then add a shallow depth of field, glow and glare."""
     CW, CH = W * S, H * S
     pw, ph = panel.size
-    # target quad (2x canvas): right edge nearer/taller than the left edge, slight downward tilt
-    dst = [(40 * S, 40 * S), (1270 * S, -10 * S), (1290 * S, 650 * S), (60 * S, 560 * S)]
-    src = [(0, 0), (pw, 0), (pw, ph), (0, ph)]
-    img = panel.transform((CW, CH), Image.PERSPECTIVE, perspective_coeffs(dst, src), Image.BICUBIC, fillcolor=SCREEN)
+    img = Image.new("RGB", (CW, CH), SCREEN)
+    img.paste(panel, ((CW - pw) // 2, -46 * S))           # header partly above the frame
     a = np.asarray(img, np.float32)
-    # depth of field: sharp around the bubbles, softer toward the far (left) side and the top header
+    # depth of field: sharp around the bubbles, softer toward the edges and the top header
     yy, xx = np.mgrid[0:CH, 0:CW].astype(np.float32)
-    cx, cy = 760 * S, 300 * S
+    cx, cy = 640 * S, 270 * S
     dist = np.sqrt(((xx - cx) / (560 * S)) ** 2 + ((yy - cy) / (300 * S)) ** 2)
     wgt = np.clip((dist - 0.75) / 0.6, 0, 1)
     soft = np.asarray(img.filter(ImageFilter.GaussianBlur(9 * S)), np.float32)
@@ -76,7 +77,7 @@ def photo_look(panel):
     sm = np.asarray(sm.filter(ImageFilter.GaussianBlur(6 * S)), np.float32) / 255
     a += (band * (6 + 16 * np.clip((sm - 0.45) * 3, 0, 1)))[..., None]
     # light falls off toward the frame edges (dark room): fade to pure black
-    r = np.sqrt(((xx - 0.55 * CW) / (0.62 * CW)) ** 2 + ((yy - 0.40 * CH) / (0.62 * CH)) ** 2)
+    r = np.sqrt(((xx - 0.50 * CW) / (0.62 * CW)) ** 2 + ((yy - 0.40 * CH) / (0.62 * CH)) ** 2)
     v = np.clip(1 - (r - 0.55) / 0.5, 0, 1)
     a *= (v * v * (3 - 2 * v))[..., None]
     a += np.random.default_rng(3).normal(0, 1.6, a.shape)          # faint sensor noise

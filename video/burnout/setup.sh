@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-time setup in a fresh cloud session (run from video/burnout/).
-#   default : Python env (pillow, numpy, faster-whisper), Pretendard + Noto Sans KR fonts (OFL),
+#   default : Python env (pillow, numpy, faster-whisper, rembg), Pretendard + Noto Sans KR fonts (OFL),
 #             faster-whisper large-v3 (MIT, ~2.9 GB) for syncing the owner's recording
 #   WITH_AI=1 ./setup.sh : also torch/diffusers + RealVisXL V5.0 Lightning (openrail++, ~6.5 GB)
 #             only needed for AI object images (slow without AMX: check `grep -o amx_bf16 /proc/cpuinfo`)
@@ -11,7 +11,7 @@ cd "$ROOT"
 command -v ffmpeg >/dev/null || { echo "ffmpeg not found"; exit 1; }
 [ -x venv/bin/python ] || python3 -m venv venv
 ./venv/bin/pip install -q --upgrade pip
-./venv/bin/pip install -q pillow numpy faster-whisper huggingface_hub
+./venv/bin/pip install -q pillow numpy faster-whisper huggingface_hub rembg onnxruntime   # rembg: thumbnail cut-outs (MIT)
 mkdir -p fonts models work
 for w in Medium SemiBold Bold ExtraBold; do
   [ -s "fonts/Pretendard-$w.otf" ] || curl -sSf -o "fonts/Pretendard-$w.otf" \

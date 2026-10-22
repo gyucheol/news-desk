@@ -4,7 +4,7 @@
 # and on videos (a video is sped up by the same factor so picture and sound stay in sync).
 #
 # Usage: speedup_voice.sh [options] -o OUTDIR INPUT
-#   -s SPEED      tempo factor (default 1.2; 0.5-2.0)
+#   -s SPEED      tempo factor (default 1.1, the user's choice since 2026-10-22; was 1.2; 0.5-2.0)
 #   -t LUFS       final loudness, measured as stereo playback (default -14)
 #   --clean       add clean-up (denoise / high-pass / compression). Off by default:
 #                 the user chose speed + loudness only (no tone or noise changes).
@@ -18,7 +18,7 @@ set -euo pipefail
 BIN_DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
 POLISH="$BIN_DIR/polish_voice.sh"
 
-SPEED=1.2; TARGET=-14; PLAIN=1; ENGINE=atempo; PRESET=veryfast; OUTDIR=""; EXTRA_AF=""
+SPEED=1.1; TARGET=-14; PLAIN=1; ENGINE=atempo; PRESET=veryfast; OUTDIR=""; EXTRA_AF=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -s) SPEED="$2"; shift 2;;
@@ -36,7 +36,7 @@ while [[ $# -gt 0 ]]; do
 done
 IN="${1:-}"
 if [[ -z "$IN" || ! -f "$IN" || -z "$OUTDIR" ]]; then
-  echo "usage: $(basename "$0") [-s 1.2] [-t -14] [--plain] [--rb] -o OUTDIR INPUT" >&2; exit 2
+  echo "usage: $(basename "$0") [-s 1.1] [-t -14] [--plain] [--rb] -o OUTDIR INPUT" >&2; exit 2
 fi
 awk -v s="$SPEED" 'BEGIN{exit !(s>=0.5 && s<=2.0)}' || { echo "speed must be 0.5-2.0" >&2; exit 2; }
 

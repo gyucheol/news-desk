@@ -5,7 +5,7 @@
 # Noto Sans KR(OFL) 굵기 450을 쓴다(너비 98.9%, 획 굵기 102.8%).
 # 말풍선은 기울이지 않고 똑바로 둔다. 아래에 주제 단어(thumb.py와 같은 글꼴·위치, 기본 흰색).
 #
-# usage: thumb_chat.py OUT.jpg [--theme light|dark] [--word 불안] [--color white|red]
+# usage: thumb_chat.py OUT.jpg [--theme dark|light] [--word 불안] [--color white|red]   (기본: dark, white)
 #                              [--msgs "a|b|c"] [--time "오후 11:52"]
 #   light: 카톡 기본 테마(하늘색 배경) 화면 조각을 검은 배경 위에 둔다
 #   dark : 카톡 다크 테마처럼 검은 화면에 노란 말풍선만
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     opt = lambda k, dflt: a[a.index(k) + 1] if k in a else dflt
     msgs = opt("--msgs", "오늘 하루 어땠어요?|바빠요? ㅎㅎ|자요..?").split("|")
     time = opt("--time", "오후 11:52")
-    img = (make_dark if opt("--theme", "light") == "dark" else make_light)(msgs, time)
+    img = (make_light if opt("--theme", "dark") == "light" else make_dark)(msgs, time)   # 기본 다크(2026-10-22 사용자 결정)
     img = bottom_fade(img, 488, 600)
     put_word(img, opt("--word", "불안"), opt("--color", "white")).save(a[0], quality=93)
     print(a[0])

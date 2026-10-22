@@ -4,7 +4,7 @@
 # 화면은 기울이지 않고 똑바로 세운다(2026-10-22 사용자 지시: 삐뚤어 보인다).
 # 배경은 검은색으로 사라지고, 아래에 주제 단어(thumb.py와 같은 글꼴·위치).
 #
-# usage: thumb_chat.py OUT.jpg --word 불안 --color red [--msgs "a|b|c"]
+# usage: thumb_chat.py OUT.jpg --word 불안 [--color white|red] [--msgs "a|b|c"]   (기본 흰색, 2026-10-22 사용자 결정)
 import os, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -103,5 +103,5 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     opt = lambda k, dflt: a[a.index(k) + 1] if k in a else dflt
     make(a[0], opt("--msgs", "오늘 하루 어땠어요?|바빠요? ㅎㅎ|자요..?").split("|"), opt("--name", "그 사람"),
-         opt("--word", "불안"), opt("--color", "red"))
+         opt("--word", "불안"), opt("--color", "white"))
     print(a[0])

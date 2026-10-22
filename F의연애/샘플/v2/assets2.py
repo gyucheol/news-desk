@@ -12,7 +12,8 @@ FONTS = {
     'codeB': '8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsU.ttf', 'code': '8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6Q.ttf',
     'my': '9Btx3DZF0dXLMZlywRbVRNhxy1Lr.ttf', 'myEB': '9Bty3DZF0dXLMZlywRbVRNhxy2pLVFA0.ttf',
     'elite': 'XLYgIZbkc4JPUL5CVArUVL0nhnc.ttf', 'pen': 'daaDSSYiLGqEal3MvdA_FOL_3FkN2z4.ttf',
-    'sansB': 'PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzg01eLQ.ttf', 'serifB': '3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgBf852.ttf',
+    'sansB': 'PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzg01eLQ.ttf', 'gaegu': 'TuGSUVB6Up9NU573jvw7.ttf',
+    'hahm': 'BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RiUP9jo.ttf', 'hahmEB': 'BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKP9jo.ttf', 'serifB': '3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgBf852.ttf',
 }
 def font(k, s): return ImageFont.truetype(F + FONTS[k], s)
 META = {}
@@ -236,33 +237,28 @@ CORPUS = ("카톡을 보냈는데 삼십 분째 일이 안 사라집니다 처�
           "메시지를 보냅니다 오늘 하루 어땠어요 삼십 분이 지납니다 프로필 사진을 눌러 봅니다 어제 나눈 대화를 처음부터 다시 "
           "읽습니다 그때 그 농담 별로였나 내가 너무 자주 연락했나 애착은 위협을 느낄 때 소중한 사람 곁으로 가게 만드는 마음의 "
           "경보 장치입니다 ").split()
-def news_fragment(w, h, seed, headline, kicker='F의 연애 레터'):
+def news_fragment(w, h, seed, headline):
     rng = np.random.default_rng(seed)
     bg = Image.fromarray(newsprint(w, h, seed)).convert('RGBA')
-    items = []
-    y = 40
-    items.append(((40, y), kicker + '  ·  제1호', 'code', 22, None)); y += 40
-    items.append(((40, y), headline, 'song', 66, None)); y += 96
-    cols = max(1, (w - 60) // 300)
-    colw = (w - 40 - 40) // cols
+    y = 44
+    head = text_layer((w, h), [((40, y), headline, 'song', 70, None)], seed, ink=(40, 36, 33)) if headline else None; y += 112 if headline else 20
+    body = []
+    cols = max(1, (w - 60) // 300); colw = (w - 80) // cols
     for ci in range(cols):
-        yy = y
-        x = 40 + ci * colw
+        yy = y; x = 40 + ci * colw
         while yy < h - 50:
             line = ''
-            while len(line) < colw // 23:
-                line += CORPUS[rng.integers(len(CORPUS))] + ' '
-            items.append(((x, yy), line[: colw // 23], 'my', 21, None)); yy += 31
-    layer = text_layer((w, h), items, seed, ink=(40, 36, 33))
-    dr = ImageDraw.Draw(layer)
-    dr.line([(40, 84), (w - 40, 84)], fill=(40, 36, 33, 200), width=3)
-    dr.line([(40, y - 14), (w - 40, y - 14)], fill=(40, 36, 33, 160), width=2)
-    for ci in range(1, cols):
-        x = 40 + ci * colw - 12
-        dr.line([(x, y), (x, h - 50)], fill=(40, 36, 33, 110), width=1)
-    bg.alpha_composite(layer)
+            while len(line) < colw // 23: line += CORPUS[rng.integers(len(CORPUS))] + ' '
+            body.append(((x, yy), line[: colw // 23], 'my', 21, None)); yy += 31
+    bl = text_layer((w, h), body, seed + 1, ink=(70, 64, 58))
+    a = np.asarray(bl, np.float32); a[..., 3] *= 0.5; bl = Image.fromarray(a.astype(np.uint8), 'RGBA')
+    bg.alpha_composite(bl)
+    if head: bg.alpha_composite(head)
+    dr = ImageDraw.Draw(bg)
+    dr.line([(40, 34), (w - 40, 34)], fill=(40, 36, 33, 200), width=3)
+    dr.line([(40, y - 16), (w - 40, y - 16)], fill=(40, 36, 33, 150), width=2)
     return cutout(bg, rough=7, seed=seed)
-for i, (w, h, hl) in enumerate([(760, 980, '답장 없는 밤'), (980, 620, '마음 읽기'), (640, 720, '주간 연애 심리'), (860, 760, '기다림에 관하여')]):
+for i, (w, h, hl) in enumerate([(760, 980, ''), (980, 620, ''), (640, 720, ''), (860, 760, '')]):
     save(news_fragment(w, h, 40 + i, hl), f'news{i + 1}')
 
 # ---------- printed phone clipping ----------
@@ -273,13 +269,12 @@ def phone_clip():
     x0, y0, x1, y1 = 60, 50, 540, 890
     d.rounded_rectangle([x0, y0, x1, y1], radius=62, outline=255, width=11)
     d.line([(x0 + 6, y0 + 120), (x1 - 6, y0 + 120)], fill=255, width=4)
-    d.text((x0 + 40, y0 + 55), '‹  그 사람', font=font('sansB', 34), fill=255)
-    d.rounded_rectangle([210, 230, 390, 268], radius=19, outline=255, width=3)
-    d.text((228, 233), '10월 24일 금요일', font=font('sansB', 21), fill=255)
-    bub = [196, 312, 512, 384]
+    d.text((x0 + 36, y0 + 48), '‹  그 사람', font=font('sansB', 42), fill=255)
+    d.rounded_rectangle([170, 214, 430, 262], radius=24, outline=255, width=3)
+    d.text((190, 218), '10월 24일 금요일', font=font('sansB', 28), fill=255)
+    bub = [150, 300, 520, 392]
     d.rounded_rectangle(bub, radius=26, outline=255, width=5)
-    d.text((222, 328), '오늘 하루 어땠어요?', font=font('sansB', 30), fill=255)
-    d.text((112, 352), '오후 7:02', font=font('sansB', 19), fill=255)
+    d.text((174, 322), '오늘 하루 어땠어요?', font=font('sansB', 36), fill=255)
     d.rounded_rectangle([x0 + 30, y1 - 86, x1 - 110, y1 - 36], radius=25, outline=255, width=3)
     a = ink_texture(np.asarray(ink, np.float32) / 255, 52)
     # yellow bubble fill as halftone dots (printed), slightly misregistered
@@ -290,39 +285,36 @@ def phone_clip():
     col = np.asarray(base, np.float32)
     yel = np.array([226, 186, 62], np.float32)
     col[..., :3] = col[..., :3] * (1 - dots[..., None] * 0.85) + yel * dots[..., None] * 0.85
-    one = Image.new('L', (W, H), 0); ImageDraw.Draw(one).text((150, 318), '1', font=font('sansB', 32), fill=255)
+    one = Image.new('L', (W, H), 0); ImageDraw.Draw(one).text((112, 300), '1', font=font('sansB', 46), fill=255)
     oa = ink_texture(np.asarray(one, np.float32) / 255, 53)
     col[..., :3] = col[..., :3] * (1 - oa[..., None]) + np.array([206, 112, 34]) * oa[..., None]
     col[..., :3] = col[..., :3] * (1 - a[..., None] * 0.92) + np.array(INK) * a[..., None] * 0.92
     img = Image.fromarray(np.clip(col, 0, 255).astype(np.uint8), 'RGBA')
-    img = shade_multiply(img, 54, contrast=0.55)
-    return cutout(img.convert('RGB'), rough=3, seed=55), dict(one=[158, 337])
+    img = shade_multiply(img, 54, contrast=0.55).crop((0, 0, W, 600))
+    return cutout(img.convert('RGB'), rough=5, seed=55), dict(one=[126, 330])
 img, m = phone_clip(); save(img, 'phone', **m)
 
 # ---------- notes / strips / headline clippings ----------
-def note(text, w, h, seed, base=(236, 224, 170), pen_px=96, ink=(34, 40, 62), rough=5, xy=None, fk='pen'):
-    bg = Image.fromarray(paper(w, h, seed, base=base, contrast=0.55, stains=0, edge=0.18, n=60, creases=3, scale=3)).convert('RGBA')
-    f = font(fk, pen_px); bb = f.getbbox(text)
-    x = (w - (bb[2] - bb[0])) // 2 - bb[0] if xy is None else xy[0]
-    y = (h - (bb[3] - bb[1])) // 2 - bb[1] if xy is None else xy[1]
-    bg.alpha_composite(text_layer((w, h), [((x, y), text, fk, pen_px, None)], seed, ink=ink))
-    return cutout(bg, rough=rough, seed=seed)
-save(note('바쁜가 보다~', 620, 250, 61), 'note_busy')
-for i, t in enumerate(['프로필 사진 그대로', '어제 대화 다시 읽기', '그 농담, 별로였나?', '너무 자주 연락했나?']):
-    save(note(t, 470, 150, 70 + i, base=[(238, 230, 205), (236, 224, 170), (232, 214, 204), (226, 230, 214)][i], pen_px=66), f'clue{i + 1}')
-save(note('예민한 성격 탓?', 560, 170, 80, base=(238, 230, 205), pen_px=78), 'note_sensitive')
-
-def headline(text, w, h, seed, px=150, fk='song', kicker=None):
-    bg = Image.fromarray(newsprint(w, h, seed)).convert('RGBA')
+def note(text, seed, base=(236, 224, 170), px=64, ink=(30, 36, 58), rough=5, fk='gaegu', pad=(46, 34)):
     f = font(fk, px); bb = f.getbbox(text)
-    x = (w - (bb[2] - bb[0])) // 2 - bb[0]; y = (h - (bb[3] - bb[1])) // 2 - bb[1] + (14 if kicker else 0)
-    items = [((x, y), text, fk, px, None)]
-    if kicker: items.append(((34, 18), kicker, 'code', 22, None))
-    bg.alpha_composite(text_layer((w, h), items, seed, ink=(26, 23, 20)))
+    w, h = bb[2] - bb[0] + 2 * pad[0], bb[3] - bb[1] + 2 * pad[1]
+    bg = Image.fromarray(paper(w, h, seed, base=base, contrast=0.55, stains=0, edge=0.18, n=60, creases=3, scale=3)).convert('RGBA')
+    bg.alpha_composite(text_layer((w, h), [((pad[0] - bb[0], pad[1] - bb[1]), text, fk, px, None)], seed, ink=ink))
+    return cutout(bg, rough=rough, seed=seed)
+save(note('바쁜가 보다~', 61, px=96), 'note_busy')
+for i, t in enumerate(['프로필 사진 또 눌러 봄', '어제 대화 처음부터 다시 읽음', '그 농담, 별로였나?', '내가 너무 자주 연락했나?']):
+    save(note(t, 70 + i, base=[(238, 230, 205), (236, 224, 170), (232, 214, 204), (226, 230, 214)][i], px=58), f'clue{i + 1}')
+save(note('예민한 성격 탓?', 80, base=(238, 230, 205), px=72), 'note_sensitive')
+
+def headline(text, seed, px=150, fk='song', pad=(56, 40)):
+    f = font(fk, px); bb = f.getbbox(text)
+    w, h = bb[2] - bb[0] + 2 * pad[0], bb[3] - bb[1] + 2 * pad[1]
+    bg = Image.fromarray(newsprint(w, h, seed)).convert('RGBA')
+    bg.alpha_composite(text_layer((w, h), [((pad[0] - bb[0], pad[1] - bb[1]), text, fk, px, None)], seed, ink=(24, 21, 18)))
     return cutout(bg, rough=5, seed=seed)
-save(headline('30분째 무소식', 1000, 250, 90, px=150, kicker='F의 연애 레터 · 제1호 · 사회면'), 'hl_30')
-save(headline('머릿속에서 일어나는 일', 1180, 210, 91, px=110, kicker='특집 · 답장을 기다리는 동안'), 'hl_head')
-save(headline('마음의 경보 장치', 980, 210, 92, px=128, kicker='용어 해설'), 'hl_alarm')
+save(headline('30분째 답장 없음', 90, px=132), 'hl_30')
+save(headline('머릿속에서 일어나는 일', 91, px=104), 'hl_head')
+save(headline('마음의 경보 장치', 92, px=120), 'hl_alarm')
 
 def typed_strip(text, seed, px=40, fk='codeB', pad=(28, 16), base=(240, 236, 226)):
     f = font(fk, px); bb = f.getbbox(text)
@@ -330,12 +322,10 @@ def typed_strip(text, seed, px=40, fk='codeB', pad=(28, 16), base=(240, 236, 226
     bg = Image.fromarray(paper(w, h, seed, base=base, contrast=0.4, stains=0, edge=0.1, n=30, creases=2, scale=2)).convert('RGBA')
     bg.alpha_composite(text_layer((w, h), [((pad[0] - bb[0], pad[1] - bb[1] + 3), text, fk, px, None)], seed, ink=(30, 27, 25)))
     return cutout(bg, rough=1.5, seed=seed, rim=False)
-save(typed_strip('경과 시간', 100, px=30), 'lab_elapsed')
-save(typed_strip('애착 체계 = 위협을 느끼면 켜지는 경보', 101, px=34), 'lab_attach')
-save(typed_strip('Bowlby (1969/1982) · Mikulincer & Shaver (2003)', 102, px=26, fk='elite'), 'lab_cite7')
-save(typed_strip('사건 메모 No.01', 103, px=30), 'lab_case')
+save(typed_strip("심리학에선 '애착'이라고 불러요", 101, px=42), 'lab_attach')
+save(typed_strip('볼비 (1969) · 미쿨린서 & 셰이버 (2003)', 102, px=36), 'lab_cite7')
 # blank ticket for the running clock (digits drawn live in HTML)
-tk = Image.fromarray(paper(330, 92, 104, base=(240, 236, 226), contrast=0.4, stains=0, edge=0.1, n=30, creases=2, scale=2))
+tk = Image.fromarray(paper(440, 110, 104, base=(240, 236, 226), contrast=0.4, stains=0, edge=0.1, n=30, creases=2, scale=2))
 save(cutout(tk, rough=1.5, seed=104, rim=False), 'ticket')
 
 # ---------- stamps (red ink, worn) ----------
@@ -349,13 +339,12 @@ def stamp(text, seed, px=86, fk='bhs', color=RED, pad=24, border=7, rot=0):
     a = np.asarray(m, np.float32) / 255
     rng = np.random.default_rng(seed)
     n = gblur(rng.random((H, W)).astype(np.float32), 3)
-    a = a * np.clip((n - 0.36) * 6, 0, 1) * (rng.random((H, W)) > 0.05) * 0.9
+    a = a * np.clip((n - 0.2) * 4, 0.5, 1) * (rng.random((H, W)) > 0.03) * 0.96
     out = np.zeros((H, W, 4), np.uint8); out[..., :3] = color; out[..., 3] = (np.clip(a, 0, 1) * 255).astype(np.uint8)
     return Image.fromarray(out, 'RGBA').rotate(rot, expand=True, resample=Image.BICUBIC)
 save(stamp('읽지 않음', 110, px=70, rot=-8), 'st_unread')
-save(stamp('1시간 경과', 111, px=78, rot=6), 'st_1h')
-save(stamp('공개 예정', 112, px=90, rot=-5), 'st_soon')
-save(stamp('검토 완료', 113, px=58, rot=4), 'st_checked')
+save(stamp('1시간째', 111, px=84, rot=6), 'st_1h')
+save(stamp('끝에서 공개', 112, px=88, rot=-5), 'st_soon')
 
 # ---------- tape, pin, marker ----------
 def tape(w, h, seed, color=(222, 210, 178), alpha=0.8):
@@ -399,7 +388,6 @@ def clock(size=700):
         a = i / 12 * 2 * math.pi - math.pi / 2; t = str(i); bb = f.getbbox(t)
         x = c + math.cos(a) * R * 0.66 - (bb[2] + bb[0]) / 2; y = c + math.sin(a) * R * 0.66 - (bb[3] + bb[1]) / 2
         d.text((x, y), t, font=f, fill=255)
-    d.text((c - 62, c + R * 0.32), 'F·LETTER', font=font('elite', 26), fill=255)
     a = ink_texture(np.asarray(m, np.float32) / 255, 131)
     col = np.asarray(img, np.float32)
     yy, xx = np.mgrid[0:size, 0:size]; rr = np.sqrt((xx - c) ** 2 + (yy - c) ** 2) / R
@@ -427,35 +415,32 @@ img, piv = hand(176, 32, 134); save(img, 'hand_hour', pivot=piv)
 
 # ---------- "1" clipping for the evidence board ----------
 def one_clip():
-    W, H = 300, 300
+    W, H = 320, 330
     bg = Image.fromarray(newsprint(W, H, 140, base=(236, 230, 214))).convert('RGBA')
-    bg.alpha_composite(text_layer((W, H), [((92, 18), '1', 'bhs', 230, None)], 141, ink=(206, 112, 34)))
-    bg.alpha_composite(text_layer((W, H), [((60, 252), '읽지 않음', 'codeB', 28, None)], 142))
+    bg.alpha_composite(text_layer((W, H), [((100, 14), '1', 'bhs', 230, None)], 141, ink=(206, 112, 34)))
+    bg.alpha_composite(text_layer((W, H), [((50, 256), '읽지 않음', 'gaegu', 56, None)], 142))
     return cutout(bg, rough=4, seed=143)
 save(one_clip(), 'one_clip')
 
 # ---------- research cards (photocopy look) ----------
-def card(lines, w, h, seed, hl=None):
-    bg = Image.fromarray(paper(w, h, seed, base=(238, 234, 224), contrast=0.5, stains=0, edge=0.14, n=70, creases=3, scale=3)).convert('RGBA')
-    items = []; y = 30; boxes = []
-    for t, fk, px, gap in lines:
-        items.append(((34, y), t, fk, px, None))
-        if hl is not None and t in hl:
-            bb = font(fk, px).getbbox(t); boxes.append([34 + bb[0] - 6, y + bb[1] - 4, 34 + bb[2] + 6, y + bb[3] + 8])
-        y += gap
-    bg.alpha_composite(text_layer((w, h), items, seed, ink=(30, 28, 26)))
-    rng = np.random.default_rng(seed)
-    a = np.asarray(bg, np.float32)
-    toner = rng.random(a.shape[:2]) > 0.9985
-    a[toner, :3] *= 0.4
-    return cutout(Image.fromarray(np.clip(a, 0, 255).astype(np.uint8), 'RGBA').convert('RGB'), rough=1.6, seed=seed, rim=False), boxes
-img, b = card([('Hazan & Shaver (1987)', 'elite', 36, 56), ('Romantic love conceptualized', 'my', 27, 36), ('as an attachment process', 'my', 27, 44), ('J. of Personality and Social Psychology', 'my', 20, 30)], 620, 230, 150)
+def card(lines, seed, hl=None, pad=(40, 32)):
+    """lines: (text, fontkey, px, line_height). Card size follows the longest line."""
+    ws = [font(fk, px).getbbox(t) for t, fk, px, g in lines]
+    w = max(b[2] - b[0] for b in ws) + 2 * pad[0]; h = sum(g for _, _, _, g in lines) + 2 * pad[1] - 8
+    bg = Image.fromarray(paper(w, h, seed, base=(239, 235, 225), contrast=0.5, stains=0, edge=0.12, n=70, creases=3, scale=3)).convert('RGBA')
+    items = []; y = pad[1]; boxes = []
+    for (t, fk, px, g), bb in zip(lines, ws):
+        items.append(((pad[0] - bb[0], y - bb[1] + 4), t, fk, px, None))
+        if hl is not None and t in hl: boxes.append([pad[0] - 10, y - 2, pad[0] + bb[2] - bb[0] + 10, y + bb[3] - bb[1] + 14])
+        y += g
+    bg.alpha_composite(text_layer((w, h), items, seed, ink=(26, 24, 22)))
+    return cutout(bg.convert('RGB'), rough=1.6, seed=seed, rim=False), boxes
+img, b = card([('헤이잔 & 셰이버, 1987', 'song', 46, 72), ("어른의 연애에도 '애착'이 있다", 'hahm', 42, 56)], 150)
 save(img, 'card_hazan')
-img, b = card([('Mikulincer & Shaver (2003)', 'elite', 36, 56), ('The attachment behavioral system', 'my', 27, 36), ('in adulthood', 'my', 27, 44), ('Advances in Experimental Social Psychology', 'my', 20, 30)], 640, 230, 151)
+img, b = card([('미쿨린서 & 셰이버, 2003', 'song', 46, 72), ('불안할수록 위협을 더 크게 본다', 'hahm', 42, 56)], 151)
 save(img, 'card_mik')
-L1, L2 = '“Anxious people desired more frequent', 'messages than they received”'
-img, b = card([('Patel, Mahar & Webster (2022)', 'elite', 36, 52), ('Adult romantic attachment, electronic messaging,', 'my', 23, 31), ('and relationship quality', 'my', 23, 52),
-               (L1, 'myEB', 33, 46), (L2, 'myEB', 33, 54), ('불안이 높은 사람은 실제로 받는 것보다 더 자주 메시지를 받고 싶어 했다', 'my', 22, 30)], 900, 380, 152, hl=[L1, L2])
+L1, L2 = '불안이 큰 사람일수록', '실제보다 더 자주 메시지를 바랐다'
+img, b = card([('파텔 외, 2022 · 연애 중인 대학생 302명', 'song', 42, 76), (L1, 'hahm', 50, 68), (L2, 'hahm', 50, 64)], 152, hl=[L1, L2])
 save(img, 'card_patel', hl=b)
 
 # ---------- index cards for the teaser ----------
@@ -466,7 +451,7 @@ def index_card(n, seed):
     d.line([(0, 62), (w, 62)], fill=(190, 70, 64, 200), width=3)
     for y in range(96, h - 20, 34): d.line([(0, y), (w, y)], fill=(120, 150, 190, 120), width=2)
     d.ellipse([w / 2 - 12, h - 34, w / 2 + 12, h - 10], fill=(90, 80, 70, 255))
-    bg.alpha_composite(text_layer((w, h), [((24, 14), f'No. {n}', 'elite', 40, None)], seed))
+    bg.alpha_composite(text_layer((w, h), [((24, 6), f'방법 {n}', 'song', 50, None)], seed))
     rng = np.random.default_rng(seed)
     for y in (78, 112, 146):
         x1 = 30 + rng.integers(0, 20); x2 = w - 40 - rng.integers(0, 120)
@@ -481,8 +466,8 @@ def masthead():
     items = [((0, 0), '', 'code', 20, None)]
     f = font('song', 190); t = 'F의 연애 레터'; bb = f.getbbox(t)
     items.append((((w - (bb[2] - bb[0])) // 2 - bb[0], 150 - bb[1]), t, 'song', 190, None))
-    f2 = font('my', 36); t2 = '제1호  ·  2026년 10월  ·  근거로 풀어 주는 연애 심리'; bb2 = f2.getbbox(t2)
-    items.append((((w - (bb2[2] - bb2[0])) // 2 - bb2[0], 452), t2, 'my', 36, None))
+    f2 = font('hahm', 46); t2 = '제1호  ·  2026년 10월  ·  근거로 풀어 주는 연애 심리'; bb2 = f2.getbbox(t2)
+    items.append((((w - (bb2[2] - bb2[0])) // 2 - bb2[0], 446), t2, 'hahm', 46, None))
     bg.alpha_composite(text_layer((w, h), items, 171, ink=(26, 23, 20)))
     d = ImageDraw.Draw(bg)
     for y, wd in ((118, 6), (130, 2), (420, 2), (432, 6), (528, 2)):
@@ -521,12 +506,10 @@ arr = np.asarray(src, np.float32); al = arr[..., 3] / 255; lum = arr[..., :3].me
 pot_ink = np.clip((150 - lum) / 50, 0, 1) * al
 S = 320
 canvas = np.zeros((S, S), np.float32)
-ox, oy = (S - src.size[0]) // 2, 34
+ox, oy = (S - src.size[0]) // 2, 62
 canvas[oy:oy + src.size[1], ox:ox + src.size[0]] = np.maximum(canvas[oy:oy + src.size[1], ox:ox + src.size[0]], pot_ink)
 ring = Image.new('L', (S, S), 0); d = ImageDraw.Draw(ring)
 d.ellipse([8, 8, S - 9, S - 9], outline=255, width=10); d.ellipse([24, 24, S - 25, S - 25], outline=255, width=3)
-f = font('bhs', 36); t = 'F의 연애'; bb = f.getbbox(t)
-d.text(((S - (bb[2] - bb[0])) // 2 - bb[0], 236), t, font=f, fill=255)
 canvas = np.maximum(canvas, np.asarray(ring, np.float32) / 255)
 a = ink_texture(canvas, 190)
 out = np.zeros((S, S, 4), np.uint8); out[..., :3] = RED; out[..., 3] = (a * 235).astype(np.uint8)

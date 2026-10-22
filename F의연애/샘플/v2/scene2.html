@@ -16,7 +16,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#111}
 #grainwrap img{position:absolute;inset:0;width:1920px;height:1080px;mix-blend-mode:overlay;opacity:.20;display:none}
 #vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(0,0,0,0) 52%,rgba(20,10,0,.42) 100%);pointer-events:none}
 #flick{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
-.tk{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'NanumGothicCoding',monospace;font-weight:700;font-size:34px;color:#2a2521;letter-spacing:.04em}
+.tk{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'NanumGothicCoding',monospace;font-weight:700;font-size:40px;color:#221e1b;letter-spacing:.02em}
 .hl{position:absolute;background:#f0cf45;mix-blend-mode:multiply;opacity:.62;border-radius:3px}
 #think{position:absolute;left:0;right:0;top:470px;text-align:center;font-family:'Hahmlet',serif;font-weight:600;font-size:68px;color:#efe6d2;transform:skewX(-9deg);text-shadow:0 0 1.5px rgba(239,230,210,.55)}
 #think span{display:inline-block;visibility:hidden}
@@ -50,26 +50,26 @@ const hash=n=>{const s=Math.sin(n*12.9898+78.233)*43758.5453;return s-Math.floor
 // kind: 'place' = put down by hand, 'stamp' = slammed, 'still' = already there
 const E=[
  ['s1','n1','news1',1260,-140,700,7,-1,'still'],['s1','n3','news3',-150,600,560,-9,-1,'still'],
- ['s1','phone','phone',330,95,520,-3,-1,'still'],['s1','tp1','tape1',500,72,210,-5,-1,'still'],
- ['s1','tick1','ticket',1520,60,330,2,-1,'still'],['s1','pk1','pin',1528,52,46,0,-1,'still'],
- ['s1','hl30','hl_30',930,370,880,2,1.9,'place'],['s1','stU','st_unread',440,430,270,-8,2.7,'stamp'],
+ ['s1','phone','phone',280,60,640,-3,-1,'still'],['s1','tp1','tape1',480,38,210,-5,-1,'still'],
+ ['s1','tick1','ticket',1430,50,440,2,-1,'still'],['s1','pk1','pin',1440,42,46,0,-1,'still'],
+ ['s1','hl30','hl_30',930,360,880,2,1.9,'place'],['s1','stU','st_unread',430,500,300,-8,2.7,'stamp'],
  ['s2','n2','news2',1000,600,880,5,-1,'still'],['s2','n4','news4',-120,-150,600,-6,-1,'still'],
- ['s2','tick2','ticket',1520,60,330,2,-1,'still'],['s2','pk2','pin',1528,52,46,0,-1,'still'],
- ['s2','p2','pot_basic',1090,150,440,3,4.0,'place'],['s2','nb','note_busy',260,330,620,-5,4.3,'place'],['s2','tp3','tape3',470,306,220,3,4.3,'place'],
- ['s3','n3b','news3',1300,650,600,-4,-1,'still'],['s3','tick3','ticket',1520,60,330,2,-1,'still'],['s3','pk3','pin',1528,52,46,0,-1,'still'],
- ['s3','clk','clock',300,140,640,-2,6.6,'place'],['s3','p3','pot_basic',1200,200,420,-3,6.75,'place'],['s3','st1h','st_1h',720,660,350,6,8.05,'stamp'],
- ['s5','one','one_clip',850,420,220,3,11.65,'place'],
- ['s5','c1','clue1',230,330,430,-6,12.0,'place'],['s5','c2','clue2',1250,300,440,5,12.3,'place'],['s5','c3','clue3',1230,650,430,-3,12.6,'place'],['s5','c4','clue4',330,690,440,4,12.9,'place'],
- ['s5','hh','hl_head',370,50,1180,-1,13.35,'place'],
- ['s6','n4b','news4',-100,560,680,-6,-1,'still'],['s6','cH','card_hazan',110,100,600,-4,15.85,'place'],['s6','tH','tape1',62,80,170,-38,15.85,'place'],
- ['s6','cM','card_mik',1190,80,620,3,16.15,'place'],['s6','tM','tape2',1700,62,170,36,16.15,'place'],
- ['s6','cP','card_patel',490,330,900,-1,16.45,'place'],['s6','nS','note_sensitive',1270,640,520,4,17.7,'place'],
- ['s7','p7','pot_anx_siren',330,270,480,-2,20.0,'place'],['s7','la','lab_attach',900,300,720,-1,20.6,'place'],
- ['s7','ha','hl_alarm',880,390,940,-1.5,20.95,'place'],['s7','lc','lab_cite7',905,650,700,1,22.0,'place'],
+ ['s2','tick2','ticket',1430,50,440,2,-1,'still'],['s2','pk2','pin',1440,42,46,0,-1,'still'],
+ ['s2','p2','pot_basic',1100,170,440,3,4.0,'place'],['s2','nb','note_busy',240,360,640,-5,4.3,'place'],['s2','tp3','tape3',450,338,220,3,4.3,'place'],
+ ['s3','n3b','news3',1300,650,600,-4,-1,'still'],['s3','tick3','ticket',1430,50,440,2,-1,'still'],['s3','pk3','pin',1440,42,46,0,-1,'still'],
+ ['s3','clk','clock',300,140,640,-2,6.6,'place'],['s3','p3','pot_basic',1200,200,420,-3,6.75,'place'],['s3','st1h','st_1h',740,660,330,6,8.05,'stamp'],
+ ['s5','one','one_clip',820,420,280,3,11.65,'place'],
+ ['s5','c1','clue1',120,280,525,-5,12.0,'place'],['s5','c2','clue2',1180,270,640,4,12.3,'place'],['s5','c3','clue3',1230,640,470,-3,12.6,'place'],['s5','c4','clue4',150,660,560,3,12.9,'place'],
+ ['s5','hh','hl_head',425,40,1069,-1,13.35,'place'],
+ ['s6','n4b','news4',-100,560,680,-6,-1,'still'],['s6','cH','card_hazan',110,110,620,-4,15.85,'place'],['s6','tH','tape1',70,88,170,-38,15.85,'place'],
+ ['s6','cM','card_mik',1170,90,640,3,16.15,'place'],['s6','tM','tape2',1700,70,170,36,16.15,'place'],
+ ['s6','cP','card_patel',470,340,900,-1,16.45,'place'],['s6','nS','note_sensitive',1250,680,560,4,17.7,'place'],
+ ['s7','p7','pot_anx_siren',330,270,480,-2,20.0,'place'],['s7','la','lab_attach',920,300,700,-1,20.6,'place'],
+ ['s7','ha','hl_alarm',900,400,900,-1.5,20.95,'place'],['s7','lc','lab_cite7',930,640,720,1,22.0,'place'],
  ['s8','n2b','news2',-200,650,700,3,-1,'still'],['s8','i1','icard1',230,250,400,-4,24.1,'place'],['s8','i2','icard2',760,220,400,2,24.35,'place'],['s8','i3','icard3',1290,260,400,-2,24.6,'place'],
  ['s8','t81','tape4',350,232,180,-3,24.1,'place'],['s8','t82','tape1',880,200,180,4,24.35,'place'],['s8','t83','tape2',1410,242,180,-2,24.6,'place'],
  ['s8','p8','pot_smile',1610,600,230,4,25.2,'place'],['s8','stS','st_soon',660,430,560,-6,25.7,'stamp'],
- ['s9','mh','masthead',210,210,1500,-1,28.42,'place'],['s9','pst','potato_stamp',1470,560,230,8,28.95,'stamp']
+ ['s9','mh','masthead',210,210,1500,-1,28.42,'place'],['s9','pst','potato_stamp',1560,720,220,8,28.95,'stamp']
 ];
 const EL={};
 for(const [sc,id,src,x,y,w,rot,t0,kind] of E){
@@ -84,7 +84,7 @@ for(const [sc,id,src,x,y,w,rot,t0,kind] of E){
 [['c1',.5],['c2',.5],['c3',.5],['c4',.5],['one',.5]].forEach(([id,fx])=>{const e=EL[id];const p=document.createElement('img');p.src='assets/pin.png';Object.assign(p.style,{position:'absolute',left:(e.w*fx-23)+'px',top:'-14px',width:'46px'});e.d.appendChild(p);});
 [['cP',.08],['cP',.92]].forEach(([id,fx])=>{const e=EL[id];const p=document.createElement('img');p.src='assets/pin.png';Object.assign(p.style,{position:'absolute',left:(e.w*fx-23)+'px',top:'-12px',width:'46px'});e.d.appendChild(p);});
 // ticket digits
-['tick1','tick2','tick3'].forEach(id=>{const t=document.createElement('div');t.className='tk';t.innerHTML='경과 <span style="margin-left:14px">00:30:00</span>';EL[id].d.appendChild(t);});
+['tick1','tick2','tick3'].forEach(id=>{const t=document.createElement('div');t.className='tk';t.innerHTML='기다린 지 <span style="margin-left:12px">30분</span>';EL[id].d.appendChild(t);});
 // red marker ring around the unread "1" (phone coords scaled)
 (function(){const e=EL.phone,s=e.w/META.phone.w,[ox,oy]=META.phone.one;const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
  svg.setAttribute('width',e.w);svg.setAttribute('height',e.h);svg.classList.add('boil');Object.assign(svg.style,{position:'absolute',left:0,top:0,overflow:'visible'});
@@ -99,7 +99,7 @@ for(const [sc,id,src,x,y,w,rot,t0,kind] of E){
  Object.assign(d.style,{left:(b[0]*s)+'px',top:(b[1]*s+4)+'px',width:((b[2]-b[0])*s)+'px',height:((b[3]-b[1])*s-6)+'px'});e.d.appendChild(d);});})();
 // red strike over "예민한 성격 탓?"
 (function(){const e=EL.nS;const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',e.w);svg.setAttribute('height',e.h);svg.classList.add('boil');Object.assign(svg.style,{position:'absolute',left:0,top:0,overflow:'visible'});
- svg.innerHTML=`<path id="strike" d="M${e.w*.08} ${e.h*.58} C${e.w*.3} ${e.h*.46} ${e.w*.62} ${e.h*.62} ${e.w*.93} ${e.h*.44}" fill="none" stroke="#b5241c" stroke-width="10" stroke-linecap="round"/><path id="strike2" d="M${e.w*.12} ${e.h*.70} C${e.w*.4} ${e.h*.58} ${e.w*.7} ${e.h*.72} ${e.w*.9} ${e.h*.58}" fill="none" stroke="#b5241c" stroke-width="8" stroke-linecap="round"/>`;e.d.appendChild(svg);})();
+ svg.innerHTML=`<path id="strike" d="M${e.w*.05} ${e.h*.66} C${e.w*.3} ${e.h*.62} ${e.w*.62} ${e.h*.67} ${e.w*.95} ${e.h*.60}" fill="none" stroke="#b5241c" stroke-width="5" stroke-linecap="round" opacity=".85"/>`;e.d.appendChild(svg);})();
 // alarm glow + ink rings on the siren potato (sticker coords: lamp at 424,146)
 (function(){const e=EL.p7,s=e.w/META.pot_anx_siren.w,lx=424*s,ly=146*s;
  const g=document.createElement('div');g.id='glow7';Object.assign(g.style,{position:'absolute',left:(lx-170)+'px',top:(ly-170)+'px',width:'340px',height:'340px',borderRadius:'50%',background:'radial-gradient(circle,rgba(220,60,40,.55),rgba(220,60,40,0) 65%)',mixBlendMode:'screen'});e.d.insertBefore(g,e.d.firstChild);
@@ -121,9 +121,9 @@ function dash(el,p){const L=el.getTotalLength();el.style.strokeDasharray=L;el.st
 // ---------- timeline ----------
 const SC=[['s1',0,4],['s2',4,6.6],['s3',6.6,9.6],['s4',9.6,11.6],['s5',11.6,15.8],['s6',15.8,20],['s7',20,24],['s8',24,28.4],['s9',28.4,30]];
 const CAM={s1:[0,0,1,-26,-12,1.035],s2:[-40,-20,1.03,-10,0,1.0],s3:[20,10,1.0,-10,-20,1.04],s4:[0,0,1.02,0,0,1.0],s5:[0,20,1.0,0,0,1.05],s6:[-20,0,1.02,10,-10,1.0],s7:[10,0,1.0,-20,-10,1.04],s8:[0,-10,1.04,0,0,1.0],s9:[0,0,1.0,0,0,1.03]};
-const SUB=[[0,1.9,'카톡을 보냈는데'],[1.9,4,'<span class=y>30분째</span> 1이 안 사라집니다'],[4,6.6,'처음엔 바쁜가 보다 했죠'],[6.6,8,'그런데 <span class=y>한 시간</span>이 지나면'],[8,9.6,'생각이 바뀝니다'],
- [11.6,13.6,'오늘은 그 한 시간 동안'],[13.6,15.8,'<span class=y>머릿속</span>에서 벌어지는 일을 풀어 보겠습니다'],[15.8,17.6,'심리학 <span class=y>연구</span>로 보면'],[17.6,20,'성격이 예민해서 생기는 일이 <span class=y>아닙니다</span>'],
- [20,21.8,'마음속 <span class=y>경보 장치</span>가'],[21.8,24,'열심히 일하고 있는 겁니다'],[24,26.2,'영상 끝에는 그 순간 해 볼 수 있는'],[26.2,28.4,'<span class=y>작은 방법</span>도 준비했습니다']];
+const SUB=[[0,1.9,'카톡을 보냈는데'],[1.9,4,'<span class=y>30분째</span> 1이 안 사라져요'],[4,6.6,'처음엔 바쁜가 보다 했죠'],[6.6,8,'그런데 <span class=y>한 시간</span>이 지나면'],[8,9.6,'생각이 달라져요'],
+ [11.6,13.6,'오늘은 그 한 시간 동안'],[13.6,15.8,'<span class=y>머릿속</span>에서 무슨 일이 벌어지는지 알려 드릴게요'],[15.8,17.6,'<span class=y>연구</span>를 보면'],[17.6,20,'이건 예민해서 그런 게 <span class=y>아니에요</span>'],
+ [20,21.8,'마음속 <span class=y>경보 장치</span>가'],[21.8,24,'열심히 울리고 있는 거예요'],[24,26.2,'마지막엔 그럴 때 해 볼 수 있는'],[26.2,28.4,'<span class=y>작은 방법</span>도 알려 드릴게요']];
 window.DURATION=30;
 let lastSub=null;
 function setFace(id,name){const im=EL[id].d.querySelector('img');const src=`assets/${name}.png`;if(!im.src.endsWith(src))im.src=src;}
@@ -154,7 +154,7 @@ window.renderFrame=function(t){
   if(sb){if(lastSub!==sb){sub.innerHTML=sb[2];lastSub=sb;}sub.style.display='block';}else{sub.style.display='none';lastSub=null;}
   // running ticket (minutes elapsed)
   let m=tq<2.2?30*eo(tq/2.2):tq<6.6?30+15*(tq-2.2)/4.4:tq<8.4?45+15*eo((tq-6.6)/1.8):60;
-  const sec=Math.floor(m*60),txt=[Math.floor(sec/3600),Math.floor(sec/60)%60,sec%60].map(v=>String(v).padStart(2,'0')).join(':');
+  const mi=Math.floor(m),txt=mi>=60?'1시간':mi+'분';
   document.querySelectorAll('.tk span').forEach(x=>x.textContent=txt);
   // scene specifics
   if(sid==='s1'){dash($('ring1'),eo(prog(tq,2.25,2.75)));}
@@ -165,7 +165,7 @@ window.renderFrame=function(t){
   if(sid==='s4'){const n=Math.floor(eo(prog(tq,9.75,10.6))*THINK.length);$('think').querySelectorAll('span').forEach((s,i)=>s.style.visibility=i<n?'visible':'hidden');}
   if(sid==='s5'){for(const [pth,t0] of S5)dash(pth,eo(prog(tq,t0,t0+.3)));}
   if(sid==='s6'){[0,1].forEach(i=>{const q=eo(prog(tq,16.95+i*.33,17.3+i*.33));$('hl'+i).style.clipPath=`inset(0 ${100-100*q}% 0 0)`;});
-    dash($('strike'),eo(prog(tq,18.3,18.6)));dash($('strike2'),eo(prog(tq,18.6,18.9)));}
+    dash($('strike'),eo(prog(tq,18.3,18.7)));}
   if(sid==='s7'){setFace('p7',tq<22.6?'pot_anx_siren':'pot_aha_siren');
     const bl=(step%6)<3?1:.35;$('glow7').style.opacity=bl;
     const e=EL.p7,[lx,ly]=e.lamp;

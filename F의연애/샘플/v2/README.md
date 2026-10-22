@@ -9,7 +9,7 @@
 - potato_render.js: 감자 캐릭터를 표정별 투명 PNG로 뽑는 스크립트(Playwright)
 
 ## 다시 만드는 순서
-1. 글꼴 설치(모두 Google Fonts, 상업적 이용 가능): Hahmlet, Song Myung, Black Han Sans, Nanum Gothic Coding, Nanum Myeongjo, Nanum Pen Script, Special Elite, Noto Sans KR
+1. 글꼴 설치(모두 Google Fonts, 상업적 이용 가능): Hahmlet, Song Myung, Black Han Sans, Nanum Gothic Coding, Nanum Myeongjo, Gaegu, Noto Sans KR
 2. CC0 종이 질감 내려받기(ambientCG, 출처 표기 의무 없음): Paper003, Paper004, Paper006의 2K-JPG zip을 받아 각각 `cc0tex/<ID>/` 폴더에 풉니다.
    - https://ambientcg.com/get?file=Paper003_2K-JPG.zip
    - https://ambientcg.com/get?file=Paper004_2K-JPG.zip

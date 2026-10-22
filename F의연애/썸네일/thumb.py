@@ -16,7 +16,7 @@ W, H = 1280, 720
 FONT_DIR = os.environ.get("FONT_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts"))
 COLORS = {"white": (255, 255, 255), "red": (230, 40, 48)}   # 맑은 빨강(채도 높고 분홍기 없음)
 YEL = (242, 201, 76)                                       # #F2C94C, 채널 강조색
-WORD_SIZE, WORD_BASE, WORD_WEIGHT = 186, 672, 800          # 주제 단어 크기, 글자 바닥선(y), 굵기
+WORD_SIZE, WORD_BASE, WORD_WEIGHT = 236, 680, 800          # 주제 단어 크기, 글자 바닥선(y), 굵기 (2026-10-22: 186 → 236, 사용자 요청)
 
 
 def font(weight, size):

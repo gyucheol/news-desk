@@ -90,7 +90,7 @@ def make_light(msgs, time, h=100):
     return finish(img)
 
 
-def make_dark(msgs, time, h=104):
+def make_dark(msgs, time, h=100):
     """Dark-theme chat: black screen, only my yellow bubbles, a soft glow like a lit screen in a dark room."""
     CW, CH = W * S, H * S
     hh = h * S
@@ -98,7 +98,7 @@ def make_dark(msgs, time, h=104):
     bw = CW - bx[0]
     right = (CW + bw) / 2
     img = Image.new("RGB", (CW, CH), THEMES["dark"]["bg"])
-    draw_chat(ImageDraw.Draw(img), msgs, right, 42 * S, hh, "dark", time)
+    draw_chat(ImageDraw.Draw(img), msgs, right, 34 * S, hh, "dark", time)
     a = np.asarray(img, np.float32)
     lum = a.mean(2)
     bright = Image.fromarray(np.clip((lum - 120) * 2, 0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(26 * S))
@@ -124,6 +124,6 @@ if __name__ == "__main__":
     msgs = opt("--msgs", "오늘 하루 어땠어요?|바빠요? ㅎㅎ|자요..?").split("|")
     time = opt("--time", "오후 11:52")
     img = (make_light if opt("--theme", "dark") == "light" else make_dark)(msgs, time)   # 기본 다크(2026-10-22 사용자 결정)
-    img = bottom_fade(img, 430, 560)
+    img = bottom_fade(img, 405, 520)
     put_word(img, opt("--word", "불안"), opt("--color", "white")).save(a[0], quality=93)
     print(a[0])

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>F의 연애 샘플 v2</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#111}
+#stage{position:absolute;inset:0;overflow:hidden}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.cam{position:absolute;inset:0;transform-origin:50% 50%}
+.bg{position:absolute;left:-96px;top:-54px;width:2112px;height:1188px}
+.el{position:absolute;transform-origin:50% 50%;will-change:transform,filter}
+.el>img{display:block;width:100%}
+.boil{filter:url(#boil)}
+#sub{position:absolute;left:50%;bottom:78px;transform:translateX(-50%);background:rgba(0,0,0,.92);color:#fff;font-family:'Hahmlet',serif;font-weight:600;font-size:54px;line-height:1.25;padding:10px 28px 12px;white-space:nowrap;display:none;letter-spacing:-.01em}
+.y{color:#F2C94C}
+#grainwrap img{position:absolute;inset:0;width:1920px;height:1080px;mix-blend-mode:overlay;opacity:.20;display:none}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(0,0,0,0) 52%,rgba(20,10,0,.42) 100%);pointer-events:none}
+#flick{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
+.tk{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'NanumGothicCoding',monospace;font-weight:700;font-size:34px;color:#2a2521;letter-spacing:.04em}
+.hl{position:absolute;background:#f0cf45;mix-blend-mode:multiply;opacity:.62;border-radius:3px}
+#think{position:absolute;left:0;right:0;top:470px;text-align:center;font-family:'Hahmlet',serif;font-weight:600;font-size:68px;color:#efe6d2;transform:skewX(-9deg);text-shadow:0 0 1.5px rgba(239,230,210,.55)}
+#think span{display:inline-block;visibility:hidden}
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><filter id="boil" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence id="turb" type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="1"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter></svg>
+<div id="stage">
+  <div id="s1" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png"></div></div>
+  <div id="s2" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png" style="transform:scaleX(-1)"></div></div>
+  <div id="s3" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png" style="transform:scaleY(-1)"></div></div>
+  <div id="s4" class="scene"><div class="cam"><img class="bg" src="assets/bg_dark.png"><div id="think"></div></div></div>
+  <div id="s5" class="scene"><div class="cam"><img class="bg" src="assets/bg_kraft.png"><svg id="strings5" class="boil" style="position:absolute;left:0;top:0;overflow:visible" width="1920" height="1080"></svg></div></div>
+  <div id="s6" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png" style="transform:scale(-1,-1)"></div></div>
+  <div id="s7" class="scene"><div class="cam"><img class="bg" src="assets/bg_dark.png" style="transform:scaleX(-1)"><svg id="thread7" class="boil" style="position:absolute;left:0;top:0;overflow:visible" width="1920" height="1080"></svg></div></div>
+  <div id="s8" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png"></div></div>
+  <div id="s9" class="scene"><div class="cam"><img class="bg" src="assets/bg_paper.png" style="transform:scaleY(-1)"></div></div>
+  <div id="grainwrap"><img src="../sample/tex/grain0.png"><img src="../sample/tex/grain1.png"><img src="../sample/tex/grain2.png"><img src="../sample/tex/grain3.png"></div>
+  <div id="vig"></div><div id="flick"></div>
+  <div id="sub"></div>
+</div>
+<script>
+const META=__META__;
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const prog=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+const eb=x=>{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const hash=n=>{const s=Math.sin(n*12.9898+78.233)*43758.5453;return s-Math.floor(s);};
+
+// ---------- element table: [scene, id, asset, x, y, w, rot, t0, kind] ----------
+// kind: 'place' = put down by hand, 'stamp' = slammed, 'still' = already there
+const E=[
+ ['s1','n1','news1',1260,-140,700,7,-1,'still'],['s1','n3','news3',-150,600,560,-9,-1,'still'],
+ ['s1','phone','phone',330,95,520,-3,-1,'still'],['s1','tp1','tape1',500,72,210,-5,-1,'still'],
+ ['s1','tick1','ticket',1520,60,330,2,-1,'still'],['s1','pk1','pin',1528,52,46,0,-1,'still'],
+ ['s1','hl30','hl_30',930,370,880,2,1.9,'place'],['s1','stU','st_unread',440,430,270,-8,2.7,'stamp'],
+ ['s2','n2','news2',1000,600,880,5,-1,'still'],['s2','n4','news4',-120,-150,600,-6,-1,'still'],
+ ['s2','tick2','ticket',1520,60,330,2,-1,'still'],['s2','pk2','pin',1528,52,46,0,-1,'still'],
+ ['s2','p2','pot_basic',1090,150,440,3,4.0,'place'],['s2','nb','note_busy',260,330,620,-5,4.3,'place'],['s2','tp3','tape3',470,306,220,3,4.3,'place'],
+ ['s3','n3b','news3',1300,650,600,-4,-1,'still'],['s3','tick3','ticket',1520,60,330,2,-1,'still'],['s3','pk3','pin',1528,52,46,0,-1,'still'],
+ ['s3','clk','clock',300,140,640,-2,6.6,'place'],['s3','p3','pot_basic',1200,200,420,-3,6.75,'place'],['s3','st1h','st_1h',720,660,350,6,8.05,'stamp'],
+ ['s5','one','one_clip',850,420,220,3,11.65,'place'],
+ ['s5','c1','clue1',230,330,430,-6,12.0,'place'],['s5','c2','clue2',1250,300,440,5,12.3,'place'],['s5','c3','clue3',1230,650,430,-3,12.6,'place'],['s5','c4','clue4',330,690,440,4,12.9,'place'],
+ ['s5','hh','hl_head',370,50,1180,-1,13.35,'place'],
+ ['s6','n4b','news4',-100,560,680,-6,-1,'still'],['s6','cH','card_hazan',110,100,600,-4,15.85,'place'],['s6','tH','tape1',62,80,170,-38,15.85,'place'],
+ ['s6','cM','card_mik',1190,80,620,3,16.15,'place'],['s6','tM','tape2',1700,62,170,36,16.15,'place'],
+ ['s6','cP','card_patel',490,330,900,-1,16.45,'place'],['s6','nS','note_sensitive',1270,640,520,4,17.7,'place'],
+ ['s7','p7','pot_anx_siren',330,270,480,-2,20.0,'place'],['s7','la','lab_attach',900,300,720,-1,20.6,'place'],
+ ['s7','ha','hl_alarm',880,390,940,-1.5,20.95,'place'],['s7','lc','lab_cite7',905,650,700,1,22.0,'place'],
+ ['s8','n2b','news2',-200,650,700,3,-1,'still'],['s8','i1','icard1',230,250,400,-4,24.1,'place'],['s8','i2','icard2',760,220,400,2,24.35,'place'],['s8','i3','icard3',1290,260,400,-2,24.6,'place'],
+ ['s8','t81','tape4',350,232,180,-3,24.1,'place'],['s8','t82','tape1',880,200,180,4,24.35,'place'],['s8','t83','tape2',1410,242,180,-2,24.6,'place'],
+ ['s8','p8','pot_smile',1610,600,230,4,25.2,'place'],['s8','stS','st_soon',660,430,560,-6,25.7,'stamp'],
+ ['s9','mh','masthead',210,210,1500,-1,28.42,'place'],['s9','pst','potato_stamp',1470,560,230,8,28.95,'stamp']
+];
+const EL={};
+for(const [sc,id,src,x,y,w,rot,t0,kind] of E){
+  const d=document.createElement('div');d.className='el';d.id=id;
+  const m=META[src];const h=w*m.h/m.w;
+  Object.assign(d.style,{left:x+'px',top:y+'px',width:w+'px',height:h+'px'});
+  d.innerHTML=`<img src="assets/${src}.png">`;
+  $(sc).querySelector('.cam').appendChild(d);
+  EL[id]={d,x,y,w,h,rot,t0,kind,src,k:Object.keys(EL).length};
+}
+// pins on clues / cards
+[['c1',.5],['c2',.5],['c3',.5],['c4',.5],['one',.5]].forEach(([id,fx])=>{const e=EL[id];const p=document.createElement('img');p.src='assets/pin.png';Object.assign(p.style,{position:'absolute',left:(e.w*fx-23)+'px',top:'-14px',width:'46px'});e.d.appendChild(p);});
+[['cP',.08],['cP',.92]].forEach(([id,fx])=>{const e=EL[id];const p=document.createElement('img');p.src='assets/pin.png';Object.assign(p.style,{position:'absolute',left:(e.w*fx-23)+'px',top:'-12px',width:'46px'});e.d.appendChild(p);});
+// ticket digits
+['tick1','tick2','tick3'].forEach(id=>{const t=document.createElement('div');t.className='tk';t.innerHTML='경과 <span style="margin-left:14px">00:30:00</span>';EL[id].d.appendChild(t);});
+// red marker ring around the unread "1" (phone coords scaled)
+(function(){const e=EL.phone,s=e.w/META.phone.w,[ox,oy]=META.phone.one;const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+ svg.setAttribute('width',e.w);svg.setAttribute('height',e.h);svg.classList.add('boil');Object.assign(svg.style,{position:'absolute',left:0,top:0,overflow:'visible'});
+ const cx=ox*s,cy=oy*s;svg.innerHTML=`<path id="ring1" d="M${cx-46} ${cy+6} C${cx-48} ${cy-40} ${cx+40} ${cy-50} ${cx+48} ${cy-6} C${cx+54} ${cy+38} ${cx-30} ${cy+52} ${cx-44} ${cy+16} C${cx-48} ${cy+2} ${cx-36} ${cy-20} ${cx-16} ${cy-30}" fill="none" stroke="#b5241c" stroke-width="7" stroke-linecap="round" opacity=".92"/>`;
+ e.d.appendChild(svg);})();
+// clock hands
+(function(){const e=EL.clk;const s=e.w/META.clock.w;
+ [['hand_hour','hh_h'],['hand_min','hh_m']].forEach(([src,id])=>{const m=META[src];const im=document.createElement('img');im.src=`assets/${src}.png`;im.id=id;
+  const w=m.w*s,h=m.h*s,pv=m.pivot*s;Object.assign(im.style,{position:'absolute',width:w+'px',height:h+'px',left:(e.w/2-w/2)+'px',top:(e.h/2-pv)+'px',transformOrigin:`50% ${pv}px`,filter:'drop-shadow(3px 5px 3px rgba(0,0,0,.35))'});e.d.appendChild(im);});})();
+// highlighter on the Patel card (card coords)
+(function(){const e=EL.cP,s=e.w/META.card_patel.w;META.card_patel.hl.forEach((b,i)=>{const d=document.createElement('div');d.className='hl boil';d.id='hl'+i;
+ Object.assign(d.style,{left:(b[0]*s)+'px',top:(b[1]*s+4)+'px',width:((b[2]-b[0])*s)+'px',height:((b[3]-b[1])*s-6)+'px'});e.d.appendChild(d);});})();
+// red strike over "예민한 성격 탓?"
+(function(){const e=EL.nS;const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',e.w);svg.setAttribute('height',e.h);svg.classList.add('boil');Object.assign(svg.style,{position:'absolute',left:0,top:0,overflow:'visible'});
+ svg.innerHTML=`<path id="strike" d="M${e.w*.08} ${e.h*.58} C${e.w*.3} ${e.h*.46} ${e.w*.62} ${e.h*.62} ${e.w*.93} ${e.h*.44}" fill="none" stroke="#b5241c" stroke-width="10" stroke-linecap="round"/><path id="strike2" d="M${e.w*.12} ${e.h*.70} C${e.w*.4} ${e.h*.58} ${e.w*.7} ${e.h*.72} ${e.w*.9} ${e.h*.58}" fill="none" stroke="#b5241c" stroke-width="8" stroke-linecap="round"/>`;e.d.appendChild(svg);})();
+// alarm glow + ink rings on the siren potato (sticker coords: lamp at 424,146)
+(function(){const e=EL.p7,s=e.w/META.pot_anx_siren.w,lx=424*s,ly=146*s;
+ const g=document.createElement('div');g.id='glow7';Object.assign(g.style,{position:'absolute',left:(lx-170)+'px',top:(ly-170)+'px',width:'340px',height:'340px',borderRadius:'50%',background:'radial-gradient(circle,rgba(220,60,40,.55),rgba(220,60,40,0) 65%)',mixBlendMode:'screen'});e.d.insertBefore(g,e.d.firstChild);
+ const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('width',e.w);svg.setAttribute('height',e.h);svg.classList.add('boil');Object.assign(svg.style,{position:'absolute',left:0,top:0,overflow:'visible'});
+ svg.innerHTML=[0,1,2].map(k=>`<path id="rg${k}" fill="none" stroke="#c8392b" stroke-width="5" stroke-linecap="round" d=""/>`).join('');e.d.appendChild(svg);e.lamp=[lx,ly];})();
+// strings on the evidence board (from clue pins to the "1" pin)
+const S5=['c1','c2','c3','c4'].map((id,i)=>{const a=EL[id],b=EL.one;const x1=a.x+a.w/2,y1=a.y+2,x2=b.x+b.w/2,y2=b.y+2;
+ const mx=(x1+x2)/2,my=(y1+y2)/2+Math.hypot(x2-x1,y2-y1)*.12;
+ const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',`M${x1} ${y1} Q${mx} ${my} ${x2} ${y2}`);p.setAttribute('fill','none');p.setAttribute('stroke','#a3221b');p.setAttribute('stroke-width','4.5');p.setAttribute('stroke-linecap','round');
+ p.style.filter='drop-shadow(2px 4px 2px rgba(0,0,0,.45))';$('strings5').appendChild(p);return [p,12.15+i*.3];});
+// thread from the siren to the label (scene 7)
+const TH=(function(){const e=EL.p7,[lx,ly]=e.lamp;const x1=e.x+lx,y1=e.y+ly,x2=EL.la.x+6,y2=EL.la.y+EL.la.h/2;
+ const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',`M${x1} ${y1} Q${(x1+x2)/2} ${(y1+y2)/2+40} ${x2} ${y2}`);p.setAttribute('fill','none');p.setAttribute('stroke','#b02a20');p.setAttribute('stroke-width','4');p.style.filter='drop-shadow(2px 4px 2px rgba(0,0,0,.5))';$('thread7').appendChild(p);return p;})();
+// typed inner thought
+const THINK="'내가 뭘 잘못했나?'";
+$('think').innerHTML=[...THINK].map((c,i)=>`<span style="transform:translateY(${((hash(i+3)-.5)*6).toFixed(1)}px);opacity:${(.86+hash(i+9)*.14).toFixed(2)}">${c===' '?'&nbsp;':c}</span>`).join('');
+function dash(el,p){const L=el.getTotalLength();el.style.strokeDasharray=L;el.style.strokeDashoffset=L*(1-p);}
+
+// ---------- timeline ----------
+const SC=[['s1',0,4],['s2',4,6.6],['s3',6.6,9.6],['s4',9.6,11.6],['s5',11.6,15.8],['s6',15.8,20],['s7',20,24],['s8',24,28.4],['s9',28.4,30]];
+const CAM={s1:[0,0,1,-26,-12,1.035],s2:[-40,-20,1.03,-10,0,1.0],s3:[20,10,1.0,-10,-20,1.04],s4:[0,0,1.02,0,0,1.0],s5:[0,20,1.0,0,0,1.05],s6:[-20,0,1.02,10,-10,1.0],s7:[10,0,1.0,-20,-10,1.04],s8:[0,-10,1.04,0,0,1.0],s9:[0,0,1.0,0,0,1.03]};
+const SUB=[[0,1.9,'카톡을 보냈는데'],[1.9,4,'<span class=y>30분째</span> 1이 안 사라집니다'],[4,6.6,'처음엔 바쁜가 보다 했죠'],[6.6,8,'그런데 <span class=y>한 시간</span>이 지나면'],[8,9.6,'생각이 바뀝니다'],
+ [11.6,13.6,'오늘은 그 한 시간 동안'],[13.6,15.8,'<span class=y>머릿속</span>에서 벌어지는 일을 풀어 보겠습니다'],[15.8,17.6,'심리학 <span class=y>연구</span>로 보면'],[17.6,20,'성격이 예민해서 생기는 일이 <span class=y>아닙니다</span>'],
+ [20,21.8,'마음속 <span class=y>경보 장치</span>가'],[21.8,24,'열심히 일하고 있는 겁니다'],[24,26.2,'영상 끝에는 그 순간 해 볼 수 있는'],[26.2,28.4,'<span class=y>작은 방법</span>도 준비했습니다']];
+window.DURATION=30;
+let lastSub=null;
+function setFace(id,name){const im=EL[id].d.querySelector('img');const src=`assets/${name}.png`;if(!im.src.endsWith(src))im.src=src;}
+window.renderFrame=function(t){
+  const step=Math.floor(t*12+1e-6),tq=step/12;              // stop-motion: 12 drawings per second
+  $('turb').setAttribute('seed',String(step%9+1));
+  let cur=null;
+  for(const [id,a,b] of SC){const on=tq>=a&&tq<b;$(id).style.display=on?'block':'none';if(on)cur=[id,a,b];}
+  const [sid,a,b]=cur,p=(tq-a)/(b-a),c=CAM[sid];
+  const cx=c[0]+(c[3]-c[0])*p+(hash(step*1.3)-.5)*2.2,cy=c[1]+(c[4]-c[1])*p+(hash(step*2.1)-.5)*2.2,cs=c[2]+(c[5]-c[2])*p;
+  $(sid).querySelector('.cam').style.transform=`translate(${cx}px,${cy}px) scale(${cs})`;
+  // paper pieces
+  for(const id in EL){const e=EL[id];if(e.d.parentNode.parentNode.id!==sid)continue;
+    if(tq<e.t0){e.d.style.visibility='hidden';continue;}e.d.style.visibility='visible';
+    const jx=(hash(e.k*7.1+step)-.5)*2.4,jy=(hash(e.k*3.7+step)-.5)*2.4,jr=(hash(e.k*5.3+step)-.5)*.5;
+    let s=1,oy=0,ox=0,r=e.rot,sh=1,op=1;
+    if(e.kind==='place'){const q=cl((tq-e.t0)/.34);const k=eb(q);s=1.07-.07*k;oy=-34*(1-k);ox=10*(1-k);r=e.rot+5*(1-k);sh=1+1.6*(1-q);}
+    if(e.kind==='stamp'){const q=(tq-e.t0);s=q<.09?1.32:1;op=q<.09?.55:Math.min(1,.8+q);sh=0;}
+    e.d.style.transform=`translate(${ox+jx}px,${oy+jy}px) rotate(${r+jr}deg) scale(${s})`;
+    e.d.style.opacity=op;
+    e.d.style.filter=sh?`drop-shadow(${(5*sh).toFixed(1)}px ${(9*sh).toFixed(1)}px ${(5*sh).toFixed(1)}px rgba(18,10,4,.42))`:'none';
+  }
+  // grain + flicker
+  document.querySelectorAll('#grainwrap img').forEach((im,i)=>im.style.display=(i===step%4)?'block':'none');
+  $('flick').style.opacity=(hash(step*9.7)*.035).toFixed(3);
+  // subtitles
+  const sb=SUB.find(x=>t>=x[0]&&t<x[1]);const sub=$('sub');
+  if(sb){if(lastSub!==sb){sub.innerHTML=sb[2];lastSub=sb;}sub.style.display='block';}else{sub.style.display='none';lastSub=null;}
+  // running ticket (minutes elapsed)
+  let m=tq<2.2?30*eo(tq/2.2):tq<6.6?30+15*(tq-2.2)/4.4:tq<8.4?45+15*eo((tq-6.6)/1.8):60;
+  const sec=Math.floor(m*60),txt=[Math.floor(sec/3600),Math.floor(sec/60)%60,sec%60].map(v=>String(v).padStart(2,'0')).join(':');
+  document.querySelectorAll('.tk span').forEach(x=>x.textContent=txt);
+  // scene specifics
+  if(sid==='s1'){dash($('ring1'),eo(prog(tq,2.25,2.75)));}
+  if(sid==='s3'){const mm=tq<6.9?32:tq<8.4?32+30*eo(prog(tq,6.9,8.4)):62;
+    $('hh_m').style.transform=`rotate(${mm*6}deg)`;$('hh_h').style.transform=`rotate(${(7+mm/60)*30}deg)`;
+    if(tq>=8.0)setFace('p3','pot_anx');else setFace('p3','pot_basic');
+    if(tq>=8.0&&tq<8.45)EL.p3.d.style.transform+=` translateX(${(step%2?1:-1)*9}px)`;}
+  if(sid==='s4'){const n=Math.floor(eo(prog(tq,9.75,10.6))*THINK.length);$('think').querySelectorAll('span').forEach((s,i)=>s.style.visibility=i<n?'visible':'hidden');}
+  if(sid==='s5'){for(const [pth,t0] of S5)dash(pth,eo(prog(tq,t0,t0+.3)));}
+  if(sid==='s6'){[0,1].forEach(i=>{const q=eo(prog(tq,16.95+i*.33,17.3+i*.33));$('hl'+i).style.clipPath=`inset(0 ${100-100*q}% 0 0)`;});
+    dash($('strike'),eo(prog(tq,18.3,18.6)));dash($('strike2'),eo(prog(tq,18.6,18.9)));}
+  if(sid==='s7'){setFace('p7',tq<22.6?'pot_anx_siren':'pot_aha_siren');
+    const bl=(step%6)<3?1:.35;$('glow7').style.opacity=bl;
+    const e=EL.p7,[lx,ly]=e.lamp;
+    for(let k=0;k<3;k++){const ph=((tq-20+k*.4)%1.2)/1.2,r=40+230*ph,el=$('rg'+k);
+      let d='';for(let i=0;i<=24;i++){const an=i/24*Math.PI*2,rr=r*(1+(hash(k*31+i+step)-.5)*.06);d+=(i?'L':'M')+(lx+Math.cos(an)*rr).toFixed(1)+' '+(ly+Math.sin(an)*rr*.92).toFixed(1);}
+      el.setAttribute('d',d);el.style.opacity=(.85*(1-ph)).toFixed(2);}
+    dash(TH,eo(prog(tq,20.45,20.85)));}
+};
+window.renderFrame(0);
+</script>
+</body></html>

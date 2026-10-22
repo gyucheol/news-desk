@@ -6,16 +6,17 @@
 #       나만 보내고 답이 없는 채팅 화면의 휴대폰을 직접 그린다(앱 로고·상표 없음).
 #   thumb.py photo OUT.jpg IMAGE --word 불안 --color red [--crop x0,y0,x1,y1] [--gamma 1.3]
 #       사진(스톡 영상의 한 장면 등)을 가운데에 두고 가장자리를 검게 감싼다.
-# env FONT_DIR: Pretendard-Black/Bold/SemiBold.otf 가 있는 폴더 (OFL, https://github.com/orioncactus/pretendard)
+# env FONT_DIR: Pretendard-Bold/SemiBold.otf(OFL)와 NotoSansKR-VF.ttf(Noto Sans KR 가변 글꼴, OFL)가 있는 폴더
+# 주제 단어 글꼴(2026-10-22 갱신): Noto Sans KR 800(ExtraBold). Pretendard Black은 사용자가 촌스럽다고 해서 바꿈.
 import math, os, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H = 1280, 720
 FONT_DIR = os.environ.get("FONT_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts"))
-COLORS = {"white": (255, 255, 255), "red": (229, 72, 77)}   # red = 영상 아이콘의 경고 빨강과 같은 값
+COLORS = {"white": (255, 255, 255), "red": (230, 40, 48)}   # 맑은 빨강(채도 높고 분홍기 없음)
 YEL = (242, 201, 76)                                       # #F2C94C, 채널 강조색
-WORD_SIZE, WORD_BASE = 210, 688                            # 주제 단어 크기와 글자 바닥선(y)
+WORD_SIZE, WORD_BASE, WORD_WEIGHT = 186, 672, 800          # 주제 단어 크기, 글자 바닥선(y), 굵기
 
 
 def font(weight, size):
@@ -85,10 +86,20 @@ def bottom_fade(img, y0, y1):
     return Image.fromarray(a.round().astype(np.uint8), "RGB")
 
 
+def word_font(size=WORD_SIZE, weight=WORD_WEIGHT):
+    f = ImageFont.truetype(f"{FONT_DIR}/NotoSansKR-VF.ttf", size)
+    f.set_variation_by_axes([weight])
+    return f
+
+
 def put_word(img, word, color):
-    d = ImageDraw.Draw(img)
-    f = font("Black", WORD_SIZE)
-    d.text((W / 2, WORD_BASE), word, font=f, fill=COLORS.get(color, color), anchor="ms")
+    """Topic word: clean heavy gothic, centered, with a soft dark shadow underneath for depth."""
+    f = word_font()
+    sh = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(sh).text((W / 2, WORD_BASE + 6), word, font=f, fill=235, anchor="ms")
+    sh = sh.filter(ImageFilter.GaussianBlur(14))
+    img = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), img, sh)
+    ImageDraw.Draw(img).text((W / 2, WORD_BASE), word, font=f, fill=COLORS.get(color, color), anchor="ms")
     return img
 
 

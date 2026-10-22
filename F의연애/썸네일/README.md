@@ -1,6 +1,8 @@
-# 썸네일 틀 (초안, 2026-10-22)
+# 썸네일 틀 (2026-10-22)
 
 사용자 지시(2026-10-22): 뒷배경은 검은색. VOX 느낌으로 내용의 핵심이 되는 물체를 가운데 두고, 그 밑에 영상 주제 단어를 크게 쓴다(빨간색 또는 흰색).
+
+갱신(2026-10-22): 사용자가 시안 B(휴대폰 + 빨간 글씨)를 골랐다. 첫 시안 글씨(Pretendard Black)가 촌스럽다고 해서, 사용자가 보여 준 참고 썸네일처럼 깔끔한 본고딕 계열로 바꿨다.
 
 ---
 
@@ -10,9 +12,11 @@
 2. 배경: 순검정
 3. 물체: 가운데 위쪽에 둡니다. 휴대폰은 위 끝 y=24, 너비 425px입니다. 아래쪽은 y=450~590에서 검게 사라져 글자 뒤를 비웁니다.
 4. 주제 단어
-   - 글꼴: Pretendard Black(OFL) 210px, 가운데 정렬, 글자 바닥선 y=688
-   - 색: 흰색(255, 255, 255) 또는 빨간색(229, 72, 77). 빨간색은 영상 속 경고 아이콘과 같은 값입니다.
+   - 글꼴: Noto Sans KR(본고딕 계열, OFL) 굵기 800(ExtraBold), 186px, 가운데 정렬, 글자 바닥선 y=672
+   - 글자 아래에 은은한 검은 그림자(아래로 6px, 흐림 14px)를 깔아 물체와 떼어 줍니다.
+   - 색: 빨간색(230, 40, 48) 또는 흰색(255, 255, 255)
    - 한 단어(2~3글자)를 권합니다. 길어지면 크기를 줄여야 합니다.
+   - 참고 썸네일의 글꼴 이름은 이미지만으로 확정할 수 없었습니다. 글자 모양을 나란히 비교해 보니 본고딕(Source Han Sans, Noto Sans KR) 계열과 가장 비슷했습니다(유추 추론).
 5. 휴대폰 화면의 말풍선과 '1'은 채널 강조색 노랑(#F2C94C)입니다.
 
 ---
@@ -27,18 +31,19 @@
 
 ---
 
-## 3. 01편 시안 (01_불안형_답장/)
+## 3. 01편 (01_불안형_답장/)
 
-1. A_휴대폰_흰글씨.jpg: 나만 보낸 채팅 화면(말풍선 3개마다 읽지 않은 '1') + 흰 글씨 "불안"
-2. B_휴대폰_빨간글씨.jpg: A와 같은 그림 + 빨간 글씨 "불안"
-3. C_손사진_빨간글씨.jpg: 어두운 곳에서 휴대폰을 쥔 손(Mixkit 4915, Free 확인, 1.0초 장면) + 빨간 글씨 "불안"
+1. 썸네일_빨간글씨.jpg: 사용자가 고른 B안을 새 글꼴로 다시 만든 것. 나만 보낸 채팅 화면(말풍선 3개마다 읽지 않은 '1') + 빨간 글씨 "불안"
+2. 썸네일_흰글씨.jpg: 같은 그림 + 흰 글씨(참고 썸네일과 같은 색, 비교용)
+3. 초안/: 첫 시안 A(휴대폰 + 흰 글씨), B(휴대폰 + 빨간 글씨), C(손 사진 + 빨간 글씨). 글꼴은 Pretendard Black
 
 ---
 
 ## 4. 만드는 법
 
-1. 글꼴: Pretendard Black·Bold·SemiBold(OFL)를 fonts/에 둡니다(또는 FONT_DIR 환경 변수로 위치 지정).
-   - https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/public/static/Pretendard-Black.otf (Bold, SemiBold도 같은 형식)
+1. 글꼴을 fonts/에 둡니다(또는 FONT_DIR 환경 변수로 위치 지정).
+   - 주제 단어: Noto Sans KR 가변 글꼴(OFL)을 NotoSansKR-VF.ttf라는 이름으로 저장합니다. https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf
+   - 휴대폰 화면 글자: Pretendard Bold·SemiBold(OFL). https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/public/static/Pretendard-Bold.otf (SemiBold도 같은 형식)
 2. 휴대폰 물체
    - `python3 thumb.py phone out.jpg --word 불안 --color white --msgs "오늘 하루 어땠어요?|바빠요? ㅎㅎ|자요..?" --name "그 사람"`
 3. 사진 물체

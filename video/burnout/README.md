@@ -5,6 +5,8 @@
 - sample/: 초반 11.6초, AI 이미지 + 임시 음성 (2026-10-21)
 - sample30/: 30초 예시, 스톡 영상 + 아이콘 화면, 빠른 템포, 목소리 자리 비움 (2026-10-22, 사용자 요청 반영: 본인 목소리, 더 빠른 템포, AI만 쓰면 이질감 → 스톡 섞기). 자세한 기록은 sample30/credits.md
 
+작업 규칙(2026-10-22 사용자 지시): 임시 음성(합성 음성)은 만들지 않습니다. 녹음 전에 자막 시각이 필요하면 글자 수로 추정합니다(분당 약 527자). 녹음본이 오면 align.py·refine.py로 그 녹음에 맞춥니다.
+
 ---
 
 ## 1. 샘플 (sample/)
@@ -49,7 +51,7 @@
 이미지 생성: `venv/bin/python scripts/gen.py I02 301,302 "<장면 지시문>"` (장면 지시문 + 기본 스타일 문구가 77토큰을 넘으면 뒤가 잘립니다. 실행 때 토큰 수를 출력합니다.)
 화면 부분 수정 예: `venv/bin/python scripts/screen_glow.py work/img/I02B_s402.png work/img/I02D 1089,439,1159,579 503`
 
-임시 음성으로 미리 보기: `venv/bin/python scripts/tts.py sample/sentences.json work/narration_raw.wav` 후 2번부터 같습니다.
+(사용하지 않음, 위 작업 규칙) 임시 음성으로 미리 보기: `venv/bin/python scripts/tts.py sample/sentences.json work/narration_raw.wav` 후 2번부터 같습니다.
 
 ### 2-1. 스톡 영상 고르기 (Mixkit)
 1. 검색: `venv/bin/python scripts/mixkit_search.py work/stock/search alarm sleeping tired` (검색어마다 한 페이지, 2초 간격)

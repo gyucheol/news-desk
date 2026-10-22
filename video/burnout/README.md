@@ -1,6 +1,9 @@
 # 번아웃 편 영상 제작 도구 (채널 「INFJ입니다.」)
 
-작성 2026-10-21. 핸드오프 문서의 9장(영상 제작·편집 지침)과 10장(번아웃 편 장면 설계표)을 따라 영상을 만드는 스크립트입니다. 첫 결과물은 초반 약 11.6초 샘플(장면 001~003)입니다.
+작성 2026-10-21, 갱신 2026-10-22. 핸드오프 문서의 9장(영상 제작·편집 지침)과 10장(번아웃 편 장면 설계표)을 따라 영상을 만드는 스크립트입니다.
+
+- sample/: 초반 11.6초, AI 이미지 + 임시 음성 (2026-10-21)
+- sample30/: 30초 예시, 스톡 영상 + 아이콘 화면, 빠른 템포, 목소리 자리 비움 (2026-10-22, 사용자 요청 반영: 본인 목소리, 더 빠른 템포, AI만 쓰면 이질감 → 스톡 섞기). 자세한 기록은 sample30/credits.md
 
 ---
 
@@ -32,7 +35,13 @@
 4. 말한 시각 찾기
    - `venv/bin/python scripts/align.py work/narration.wav units.json work/align.json`
    - `venv/bin/python scripts/refine.py work/narration.wav work/align.json work/align_refined.json`
-5. 장면 명세(spec.json): 장면마다 유형(photo/card), 이미지, 시작 자막, 확대 방향(sample/spec.json 참고)
+5. 장면 명세(spec.json): 장면마다 유형과 시작 자막(sample30/spec.json 참고)
+   - video: 스톡 영상 src, 시작 지점 in(초), 재생 속도 speed, 자막 안에서 자를 때 offset(초)
+   - photo: 이미지 image, 확대 z0→z1, 초점 이동 cx/cy
+   - icon: 지침 6-3 아이콘 화면(bulb, battery)
+   - card: 검은 화면 카드
+   - 장면별 색 보정 grade(sat, black, gamma, vignette). 밝은 스톡 영상은 gamma를 높여 다른 장면과 맞춥니다.
+   - 검은 화면 위 하단 자막은 "box": false(지침 6-1의 7번)
 6. `venv/bin/python scripts/build_timeline.py spec.json work/align_refined.json work/narration.wav work/timeline.json`
 7. `venv/bin/python scripts/render.py work/timeline.json out.mp4` (점검용 정지 화면: `--frames-only 1.5,3.0`)
 8. 점검: `venv/bin/python scripts/contact.py out.mp4 sheet.png 0.5,2.5,4.0`
@@ -41,6 +50,16 @@
 화면 부분 수정 예: `venv/bin/python scripts/screen_glow.py work/img/I02B_s402.png work/img/I02D 1089,439,1159,579 503`
 
 임시 음성으로 미리 보기: `venv/bin/python scripts/tts.py sample/sentences.json work/narration_raw.wav` 후 2번부터 같습니다.
+
+### 2-1. 스톡 영상 고르기 (Mixkit)
+1. 검색: `venv/bin/python scripts/mixkit_search.py work/stock/search alarm sleeping tired` (검색어마다 한 페이지, 2초 간격)
+2. 눈으로 고르기: `scripts/thumbsheet.py`(썸네일 모음), 미리보기 영상을 받아 `scripts/filmstrip.py`(영상당 6장면)
+3. 라이선스 확인(필수): `venv/bin/python scripts/mixkit_license_check.py work/stock/search/index.json work/stock/items 31411,28899`
+   - 결과가 Free인 것만 씁니다. "Mixkit Restricted License"는 수익화 유튜브 영상에 쓸 수 없습니다. 검색 결과에는 표시되지 않습니다.
+4. 고른 영상만 1080p로 받습니다(sample30/fetch_stock.sh 참고). 사이트 약관은 라이브러리 전체를 긁어 가는 대량 다운로드를 금지합니다.
+5. 사람·상황 장면은 스톡 영상, 상징 장면은 아이콘 화면이나 사물 위주의 AI 이미지를 씁니다(AI의 어색함은 주로 사람·손에서 생깁니다).
+
+참고: 2026-10-22 세션 재시작 뒤 CPU가 AMX(bf16)를 지원하지 않는 기종으로 바뀌어 gen.py가 매우 느려졌습니다(장당 10분 이상). 이미지 생성 전에 `grep -o amx_bf16 /proc/cpuinfo`로 확인하십시오.
 
 ---
 

@@ -1,9 +1,10 @@
-# Render a timeline (JSON) to MP4: photo scenes with slow zoom, black cards,
-# bottom subtitle boxes per the channel guide (9장 6절), narration audio.
+# Render a timeline (JSON) to MP4: stock video scenes (in-point, speed), photo scenes with slow zoom,
+# black cards, bottom subtitle boxes per the channel guide (9장 6절), and the audio track.
+# All picture sources get the same grade so stock footage and AI images look like one piece.
 # usage: render.py timeline.json out.mp4 [--frames-only N]
 import json, math, os, subprocess, sys
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H, FPS = 1920, 1080, 30
 ROOT = os.environ.get("VIDEO_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -82,7 +83,8 @@ def render_text_layer(sub):
     box_top = BOX_BOTTOM - box_h
     box_w = max(widths) + 2 * PAD_X
     d = ImageDraw.Draw(layer)
-    d.rectangle([round((W - box_w) / 2), box_top, round((W + box_w) / 2), BOX_BOTTOM], fill=BOX_RGBA)
+    if sub.get("box", True):   # black card / icon screens: text only (guide 6-1 #7)
+        d.rectangle([round((W - box_w) / 2), box_top, round((W + box_w) / 2), BOX_BOTTOM], fill=BOX_RGBA)
     mid0 = box_top + (BOX_BOTTOM - BOX_TOP_1) / 2
     txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     for i, (segs, w) in enumerate(zip(lines, widths)):
@@ -94,20 +96,65 @@ def render_text_layer(sub):
     return layer
 
 
-def grade(im, g):
-    """Common low-key look so all scenes match: mute colors, darker mids, vignette."""
+_VIGNETTE = {}
+
+
+def grade_arr(a8, g):
+    """Common low-key look so all scenes match: mute colors, darker mids, vignette (uint8 HxWx3)."""
     if not g:
-        return im
-    a = np.asarray(im, dtype=np.float32) / 255
+        return a8
+    a = a8.astype(np.float32) / 255
     lum = a @ np.array([0.2126, 0.7152, 0.0722], np.float32)
     a = lum[..., None] + (a - lum[..., None]) * g.get("sat", 0.88)
     a = np.clip((a - g.get("black", 0.02)) / (1 - g.get("black", 0.02)), 0, 1) ** g.get("gamma", 1.12)
     h, w = lum.shape
-    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
-    r = np.sqrt(((xx - w / 2) / (w / 2)) ** 2 + ((yy - h / 2) / (h / 2)) ** 2) / math.sqrt(2)
-    u = np.clip((r - 0.35) / 0.65, 0, 1)
-    a *= (1 - g.get("vignette", 0.35) * u * u * (3 - 2 * u))[..., None]
-    return Image.fromarray((np.clip(a, 0, 1) * 255).round().astype(np.uint8))
+    key = (h, w, g.get("vignette", 0.35))
+    if key not in _VIGNETTE:
+        yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
+        r = np.sqrt(((xx - w / 2) / (w / 2)) ** 2 + ((yy - h / 2) / (h / 2)) ** 2) / math.sqrt(2)
+        u = np.clip((r - 0.35) / 0.65, 0, 1)
+        _VIGNETTE[key] = (1 - key[2] * u * u * (3 - 2 * u))[..., None].astype(np.float32)
+    a *= _VIGNETTE[key]
+    return (np.clip(a, 0, 1) * 255 + 0.5).astype(np.uint8)
+
+
+def grade(im, g):
+    return Image.fromarray(grade_arr(np.asarray(im.convert("RGB")), g))
+
+
+class VideoSource:
+    """Stock video scene: ffmpeg decodes from `in` (s) at `speed`, resampled to 30 fps and cropped to fill 16:9.
+    Frames are read in order; if the clip runs out, the last frame is held."""
+
+    def __init__(self, sc):
+        self.sc, self.proc, self.k, self.last = sc, None, -1, None
+        self.zoom = not (sc.get("z0", 1.0) == 1.0 and sc.get("z1", 1.0) == 1.0)
+        self.size = (round(W * MAX_ZOOM), round(H * MAX_ZOOM)) if self.zoom else (W, H)
+
+    def _start(self):
+        w, h = self.size
+        vf = (f"setpts=PTS/{self.sc.get('speed', 1.0)},fps={FPS},"
+              f"scale={w}:{h}:force_original_aspect_ratio=increase:flags=lanczos,crop={w}:{h}")
+        self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", str(self.sc.get("in", 0)), "-i", self.sc["src"],
+                                      "-vf", vf, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                     stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)  # closing early is normal
+        self.k = -1
+
+    def frame(self, k):
+        if self.proc is None or k < self.k:
+            self.close(); self._start()
+        n = self.size[0] * self.size[1] * 3
+        while self.k < k:
+            buf = self.proc.stdout.read(n)
+            if len(buf) < n:
+                break
+            self.last = np.frombuffer(buf, np.uint8).reshape(self.size[1], self.size[0], 3)
+            self.k += 1
+        return self.last
+
+    def close(self):
+        if self.proc:
+            self.proc.stdout.close(); self.proc.kill(); self.proc.wait(); self.proc = None
 
 
 DEFAULT_GRADE = {"sat": 0.88, "black": 0.02, "gamma": 1.12, "vignette": 0.35}
@@ -125,6 +172,76 @@ def prep_image(path, crop=None, g=DEFAULT_GRADE):
     x0 = (w - tw) // 2; y0 = (h - th) // 2
     im = grade(im.crop((x0, y0, x0 + tw, y0 + th)), g)   # grade after crop: vignette stays centered
     return im.resize((round(W * MAX_ZOOM), round(H * MAX_ZOOM)), Image.LANCZOS)
+
+
+GRAY, RED = (110, 110, 110), (229, 72, 77)
+
+
+def _mix(c1, c2, u):
+    return tuple(round(a + (b - a) * u) for a, b in zip(c1, c2))
+
+
+def icon_frame(kind, t, dur):
+    """Icon screens (guide 6-3): black background, white line icon, drawn at 2x then downsampled."""
+    SS = 2
+    img = Image.new("RGB", (W * SS, H * SS), (0, 0, 0))
+    cx, cy = W * SS / 2, H * SS * 0.42
+    lw = 12 * SS
+    if kind == "bulb":
+        on = smooth(min(max((t - 0.45) / 0.7, 0), 1))           # switches on, then stays lit
+        on *= 1 - 0.06 * (1 - math.cos(max(t - 1.2, 0) * 2.4)) / 2  # faint flicker so it is alive
+        r = 118 * SS
+        if on > 0:
+            glow = Image.new("L", img.size, 0)
+            ImageDraw.Draw(glow).ellipse([cx - r * 1.5, cy - r * 1.5, cx + r * 1.5, cy + r * 1.5], fill=round(170 * on))
+            glow = glow.filter(ImageFilter.GaussianBlur(70 * SS))
+            img = Image.composite(Image.new("RGB", img.size, YELLOW[:3]), img, glow)
+        d = ImageDraw.Draw(img)
+        col = _mix(GRAY, (255, 255, 255), on)
+        d.arc([cx - r, cy - r, cx + r, cy + r], start=135, end=405, fill=col, width=lw)
+        a1, a2 = math.radians(135), math.radians(45)
+        base_top, neck = cy + r * 1.28, r * 0.42
+        d.line([(cx + r * math.cos(a1), cy + r * math.sin(a1)), (cx - neck, base_top)], fill=col, width=lw)
+        d.line([(cx + r * math.cos(a2), cy + r * math.sin(a2)), (cx + neck, base_top)], fill=col, width=lw)
+        for k in range(3):
+            y = base_top + 10 * SS + k * 30 * SS
+            w2 = neck - k * 10 * SS
+            d.rounded_rectangle([cx - w2, y, cx + w2, y + 16 * SS], radius=8 * SS, fill=col)
+        fil = _mix(GRAY, YELLOW[:3], on)
+        pts = [(cx - 44 * SS, cy + 30 * SS), (cx - 22 * SS, cy - 18 * SS), (cx, cy + 22 * SS),
+               (cx + 22 * SS, cy - 18 * SS), (cx + 44 * SS, cy + 30 * SS)]
+        d.line(pts, fill=fil, width=8 * SS, joint="curve")
+        if on > 0.05:                                          # short rays around the top
+            for ang in range(-150, -20, 26):
+                a = math.radians(ang)
+                r1, r2 = r * 1.32, r * (1.32 + 0.30 * on)
+                d.line([(cx + r1 * math.cos(a), cy + r1 * math.sin(a)), (cx + r2 * math.cos(a), cy + r2 * math.sin(a))],
+                       fill=_mix((0, 0, 0), YELLOW[:3], on), width=9 * SS)
+    elif kind == "battery":
+        bw, bh = 420 * SS, 200 * SS
+        x0, y0 = cx - bw / 2 - 14 * SS, cy - bh / 2
+        d = ImageDraw.Draw(img)
+        d.rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=34 * SS, outline=(255, 255, 255), width=lw)
+        d.rounded_rectangle([x0 + bw + 10 * SS, cy - 42 * SS, x0 + bw + 34 * SS, cy + 42 * SS], radius=10 * SS,
+                            fill=(255, 255, 255))
+        # level: plugged in, creeps up, then drains below where it started (charging but not filling)
+        if t < 0.45:
+            lvl = 0.12
+        elif t < 1.55:
+            lvl = 0.12 + 0.11 * smooth((t - 0.45) / 1.1)
+        else:
+            lvl = 0.23 - 0.16 * smooth(min((t - 1.55) / 0.9, 1))
+        blink = 1.0 if t < 2.45 else (0.35 if int((t - 2.45) * 4) % 2 else 1.0)
+        pad = 26 * SS
+        inner_w = bw - 2 * pad
+        d.rounded_rectangle([x0 + pad, y0 + pad, x0 + pad + max(inner_w * lvl, 18 * SS), y0 + bh - pad],
+                            radius=14 * SS, fill=_mix((0, 0, 0), RED, blink))
+        if t >= 0.4:                                           # charging bolt pops in
+            k = min((t - 0.4) / 0.18, 1)
+            sc = (0.6 + 0.4 * k) * SS
+            bolt = [(18, -70), (-30, 8), (2, 8), (-14, 70), (34, -10), (2, -10), (18, -70)]
+            d.polygon([(cx - 14 * SS + x * sc, cy + y * sc) for x, y in bolt], fill=_mix((0, 0, 0), YELLOW[:3], k))
+    return img.resize((W, H), Image.LANCZOS)
 
 
 def kenburns(src, z, cx, cy):
@@ -154,16 +271,33 @@ def main():
         frames_only = [float(x) for x in sys.argv[sys.argv.index("--frames-only") + 1].split(",")]
     dur = tl["duration"]
     nfr = round(dur * FPS)
-    srcs = {}
-    for sc in tl["scenes"]:
+    srcs, vids = {}, {}
+    for i, sc in enumerate(tl["scenes"]):
         if sc["type"] == "photo" and sc["image"] not in srcs:
             srcs[sc["image"]] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE))
+        elif sc["type"] == "video":
+            vids[i] = VideoSource(sc)
     layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
     black = Image.new("RGB", (W, H), (0, 0, 0))
 
     def frame_at(t):
-        sc = next((s for s in tl["scenes"] if s["start"] <= t < s["end"]), tl["scenes"][-1])
-        if sc["type"] == "photo":
+        si = next((i for i, s in enumerate(tl["scenes"]) if s["start"] <= t < s["end"]), len(tl["scenes"]) - 1)
+        sc = tl["scenes"][si]
+        for j, v in vids.items():          # free decoders of scenes already passed
+            if j < si and not frames_only:
+                v.close()
+        if sc["type"] == "video":
+            u = min(max((t - sc["start"]) / (sc["end"] - sc["start"]), 0), 1)
+            arr = grade_arr(vids[si].frame(int(round((t - sc["start"]) * FPS))), sc.get("grade", DEFAULT_GRADE))
+            im = Image.fromarray(arr)
+            if vids[si].zoom:
+                z = sc.get("z0", 1.0) * (sc.get("z1", 1.0) / sc.get("z0", 1.0)) ** u
+                im = kenburns(im, z, lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u),
+                              lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u))
+            img = im.convert("RGBA")
+        elif sc["type"] == "icon":
+            img = icon_frame(sc["icon"], t - sc["start"], sc["end"] - sc["start"]).convert("RGBA")
+        elif sc["type"] == "photo":
             u = min(max((t - sc["start"]) / (sc["end"] - sc["start"]), 0), 1)
             # exponential zoom = constant perceived speed
             z = sc.get("z0", 1.0) * (sc.get("z1", 1.04) / sc.get("z0", 1.0)) ** u
@@ -205,6 +339,8 @@ def main():
     for i in range(nfr):
         p.stdin.write(frame_at(i / FPS).tobytes())
     p.stdin.close(); p.wait()
+    for v in vids.values():
+        v.close()
     print("wrote", out, nfr, "frames")
 
 

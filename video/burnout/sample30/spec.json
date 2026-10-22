@@ -1,0 +1,205 @@
+{
+ "fade_in": 0.3,
+ "fade_out": 0.5,
+ "scenes": [
+  {
+   "id": "001",
+   "type": "video",
+   "src": "../work/stock/full/31411.mp4",
+   "in": 0.2,
+   "from": "U01",
+   "note": "Mixkit 31411 Sleeping boy moves in bed"
+  },
+  {
+   "id": "002",
+   "type": "video",
+   "src": "../work/stock/full/28899.mp4",
+   "in": 6.4,
+   "speed": 1.6,
+   "from": "U02",
+   "note": "Mixkit 28899 Woman turning off her alarm clock in the morning"
+  },
+  {
+   "id": "003",
+   "type": "card",
+   "from": "U04"
+  },
+  {
+   "id": "004a",
+   "type": "video",
+   "src": "../work/stock/full/4548.mp4",
+   "in": 2.0,
+   "from": "U07",
+   "note": "Mixkit 4548 Woman lying on a sofa",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "004b",
+   "type": "video",
+   "src": "../work/stock/full/51394.mp4",
+   "in": 8.0,
+   "from": "U09",
+   "note": "Mixkit 51394 Woman with insomnia lying in her bed"
+  },
+  {
+   "id": "005",
+   "type": "video",
+   "src": "../work/stock/full/4701.mp4",
+   "in": 0.4,
+   "from": "U10",
+   "note": "Mixkit 4701 Worried and sad man with his head down",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.03,
+    "gamma": 1.22,
+    "vignette": 0.45
+   }
+  },
+  {
+   "id": "006",
+   "type": "icon",
+   "from": "U12",
+   "note": "icon screen (guide 6-3): bulb switches on",
+   "icon": "bulb"
+  },
+  {
+   "id": "007",
+   "type": "icon",
+   "from": "U14",
+   "note": "icon screen (guide 6-3): charging but the level drops",
+   "icon": "battery"
+  },
+  {
+   "id": "008a",
+   "type": "video",
+   "src": "../work/stock/full/4511.mp4",
+   "in": 0.0,
+   "from": "U16",
+   "note": "Mixkit 4511 Sad girl looking out the window",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.35,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "008b",
+   "type": "video",
+   "src": "../work/stock/full/99909.mp4",
+   "in": 0.5,
+   "from": "U18",
+   "note": "Mixkit 99909 Close up of a hand writing to do list"
+  },
+  {
+   "id": "009a",
+   "type": "video",
+   "src": "../work/stock/full/4333.mp4",
+   "in": 5.0,
+   "from": "U19",
+   "note": "Mixkit 4333 View inside a wagon in motion"
+  },
+  {
+   "id": "009b",
+   "type": "video",
+   "src": "../work/stock/full/144.mp4",
+   "in": 4.0,
+   "from": "U19",
+   "offset": 1.2,
+   "note": "Mixkit 144 Hands shown texting on a smartphone"
+  }
+ ],
+ "subs": [
+  {
+   "unit": "U01",
+   "text": "주말 내내 분명 푹 잤는데,"
+  },
+  {
+   "unit": "U02",
+   "text": "월요일 아침 알람을 끄고"
+  },
+  {
+   "unit": "U03",
+   "text": "또 그대로 눕게 됩니다."
+  },
+  {
+   "unit": "U04",
+   "text": "'이번 주말엔 진짜 아무것도",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U05",
+   "text": "안 하고 쉬었는데,",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U06",
+   "text": "왜 몸이 그대로지?'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U07",
+   "text": "번아웃을 이겨 내 보려고"
+  },
+  {
+   "unit": "U08",
+   "text": "나름대로 쉬어 봤는데도"
+  },
+  {
+   "unit": "U09",
+   "text": "좀처럼 나아지질 않아서,"
+  },
+  {
+   "unit": "U10",
+   "text": "혹시 '내가 그냥 게을러서 그런가' 하고"
+  },
+  {
+   "unit": "U11",
+   "text": "자책하고 계셨나요?"
+  },
+  {
+   "unit": "U12",
+   "text": "그렇다면 오늘 이야기가",
+   "box": false
+  },
+  {
+   "unit": "U13",
+   "text": "작은 힌트가 될지도 모르겠습니다.",
+   "box": false
+  },
+  {
+   "unit": "U14",
+   "text": "분명 쉬었는데도 피로가",
+   "box": false
+  },
+  {
+   "unit": "U15",
+   "text": "왜 잘 풀리지 않는지,",
+   "box": false
+  },
+  {
+   "unit": "U16",
+   "text": "그리고 그게 왜 내 게으름 탓이"
+  },
+  {
+   "unit": "U17",
+   "text": "아닐 수 있는지 하나씩"
+  },
+  {
+   "unit": "U18",
+   "text": "차근차근 이야기해 볼게요."
+  },
+  {
+   "unit": "U19",
+   "text": "출근길에 업무 메일 알림이 하나 뜹니다."
+  }
+ ]
+}

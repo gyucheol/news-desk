@@ -1,6 +1,6 @@
 # Scene spec (장면 설계표 as JSON) + aligned unit times -> render timeline.
 # Each subtitle shows from (unit onset - LEAD) until the next subtitle starts (VREW-style, no gaps);
-# a scene cuts at the start of its first subtitle. Image paths are relative to the spec file.
+# a scene cuts at the start of its first subtitle (+ optional offset). Image/video paths are relative to the spec.
 # usage: build_timeline.py spec.json align_refined.json narration.wav out.json
 import json, os, subprocess, sys
 
@@ -17,9 +17,11 @@ for i, s in enumerate(subs):
 start_of = {s["unit"]: s["start"] for s in subs}
 scenes = []
 for i, sc in enumerate(spec["scenes"]):
-    sc = dict(sc, start=0.0 if i == 0 else start_of[sc["from"]])
-    if sc.get("image"):
-        sc["image"] = os.path.join(base, sc["image"])
+    # a scene starts with its first subtitle, or `offset` seconds after it (cuts inside one subtitle)
+    sc = dict(sc, start=0.0 if i == 0 else round(start_of[sc["from"]] + sc.get("offset", 0.0), 3))
+    for k in ("image", "src"):
+        if sc.get(k):
+            sc[k] = os.path.join(base, sc[k])
     scenes.append(sc)
 for i, sc in enumerate(scenes):
     sc["end"] = scenes[i + 1]["start"] if i + 1 < len(scenes) else round(dur, 3)

@@ -133,8 +133,13 @@ class VideoSource:
 
     def _start(self):
         w, h = self.size
-        vf = (f"setpts=PTS/{self.sc.get('speed', 1.0)},fps={FPS},"
-              f"scale={w}:{h}:force_original_aspect_ratio=increase:flags=lanczos,crop={w}:{h}")
+        # optional per scene: "crop" [x0, y0, x1, y1] (0..1 of the source; keep it 16:9) cuts text or a logo off an edge,
+        # "blur" (gaussian sigma in px) softens a shot whose readable text or face can't be cropped away
+        c = self.sc.get("crop")
+        pre = f"crop=iw*{c[2] - c[0]:.4f}:ih*{c[3] - c[1]:.4f}:iw*{c[0]:.4f}:ih*{c[1]:.4f}," if c else ""
+        post = f",gblur=sigma={self.sc['blur']}" if self.sc.get("blur") else ""
+        vf = (f"{pre}setpts=PTS/{self.sc.get('speed', 1.0)},fps={FPS},"
+              f"scale={w}:{h}:force_original_aspect_ratio=increase:flags=lanczos,crop={w}:{h}{post}")
         self.proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", str(self.sc.get("in", 0)), "-i", self.sc["src"],
                                       "-vf", vf, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                      stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)  # closing early is normal
@@ -183,6 +188,9 @@ def _mix(c1, c2, u):
 
 def icon_frame(kind, t, dur):
     """Icon screens (guide 6-3): black background, white line icon, drawn at 2x then downsampled."""
+    if kind not in ("bulb", "battery"):                      # the other icons live in icons.py
+        import icons
+        return icons.draw(kind, t, dur)
     SS = 2
     img = Image.new("RGB", (W * SS, H * SS), (0, 0, 0))
     cx, cy = W * SS / 2, H * SS * 0.42
@@ -279,6 +287,7 @@ def main():
             vids[i] = VideoSource(sc)
     layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
     black = Image.new("RGB", (W, H), (0, 0, 0))
+    labels, label_font = {}, ImageFont.truetype(FONT_PATH, 44)
 
     def frame_at(t):
         si = next((i for i, s in enumerate(tl["scenes"]) if s["start"] <= t < s["end"]), len(tl["scenes"]) - 1)
@@ -304,6 +313,12 @@ def main():
             cx = lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u)
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
             img = kenburns(srcs[sc["image"]], z, cx, cy).convert("RGBA")
+        elif sc.get("label"):                  # item card: small "1 / 3" above the centred line (scene table 항목카드)
+            if sc["label"] not in labels:
+                lab = black.copy()
+                ImageDraw.Draw(lab).text((W / 2, H * 0.33), sc["label"], font=label_font, fill=(150, 150, 150), anchor="mm")
+                labels[sc["label"]] = lab.convert("RGBA")
+            img = labels[sc["label"]].copy()
         else:
             img = black.convert("RGBA")
         for s0, s1, lay in layers:

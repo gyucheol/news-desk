@@ -1,0 +1,2777 @@
+{
+ "fade_in": 0.3,
+ "fade_out": 1.5,
+ "last_sub_hold": 1.0,
+ "scenes": [
+  {
+   "id": "001",
+   "from": "U001",
+   "type": "video",
+   "src": "../work/stock/full/31411.mp4",
+   "in": 0.2,
+   "note": "Mixkit 31411 Sleeping boy moves in bed"
+  },
+  {
+   "id": "002",
+   "from": "U002",
+   "type": "video",
+   "src": "../work/stock/full/28899.mp4",
+   "in": 6.4,
+   "speed": 1.6,
+   "note": "Mixkit 28899 Woman turning off her alarm clock in the morning"
+  },
+  {
+   "id": "003",
+   "from": "U004",
+   "type": "card"
+  },
+  {
+   "id": "004",
+   "from": "U007",
+   "type": "video",
+   "src": "../work/stock/full/4548.mp4",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4548 Woman lying on a sofa"
+  },
+  {
+   "id": "005",
+   "from": "U009",
+   "type": "video",
+   "src": "../work/stock/full/51394.mp4",
+   "in": 8.0,
+   "note": "Mixkit 51394 Woman with insomnia lying in her bed trying to sleep"
+  },
+  {
+   "id": "006",
+   "from": "U010",
+   "type": "video",
+   "src": "../work/stock/full/4701.mp4",
+   "in": 0.4,
+   "grade": {
+    "sat": 0.88,
+    "black": 0.03,
+    "gamma": 1.22,
+    "vignette": 0.45
+   },
+   "note": "Mixkit 4701 Worried and sad man with his head down"
+  },
+  {
+   "id": "007",
+   "from": "U012",
+   "type": "icon",
+   "icon": "bulb"
+  },
+  {
+   "id": "008",
+   "from": "U014",
+   "type": "icon",
+   "icon": "battery"
+  },
+  {
+   "id": "009",
+   "from": "U016",
+   "type": "video",
+   "src": "../work/stock/full/4511.mp4",
+   "in": 0.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.35,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4511 Sad girl looking out the window"
+  },
+  {
+   "id": "010",
+   "from": "U018",
+   "type": "video",
+   "src": "../work/stock/full/99909.mp4",
+   "in": 0.5,
+   "note": "Mixkit 99909 Close up of a hand writing to do list on a yellow paper notebook"
+  },
+  {
+   "id": "011",
+   "from": "U019",
+   "type": "video",
+   "src": "../work/stock/full/4333.mp4",
+   "in": 5.0,
+   "note": "Mixkit 4333 View inside a wagon in motion"
+  },
+  {
+   "id": "012",
+   "from": "U019",
+   "type": "video",
+   "src": "../work/stock/full/144.mp4",
+   "in": 4.0,
+   "offset": 1.2,
+   "note": "Mixkit 144 Hands shown texting on a smartphone"
+  },
+  {
+   "id": "013",
+   "from": "U020",
+   "type": "video",
+   "src": "../work/stock/full/1623.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 1623 People getting into the subway train"
+  },
+  {
+   "id": "014",
+   "from": "U022",
+   "type": "video",
+   "src": "../work/stock/full/4872.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 4872 Two coworkers talking and laughing"
+  },
+  {
+   "id": "015",
+   "from": "U024",
+   "type": "video",
+   "src": "../work/stock/full/3428.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 3428 Street with people walking at dusk"
+  },
+  {
+   "id": "016",
+   "from": "U027",
+   "type": "card"
+  },
+  {
+   "id": "017",
+   "from": "U029",
+   "type": "video",
+   "src": "../work/stock/full/26091.mp4",
+   "in": 1.0,
+   "note": "Mixkit 26091 Man eats watching television on a rainy night"
+  },
+  {
+   "id": "018",
+   "from": "U031",
+   "type": "video",
+   "src": "../work/stock/full/31413.mp4",
+   "in": 2.0,
+   "note": "Mixkit 31413 Young man lying on his bed checking his smartphone"
+  },
+  {
+   "id": "019",
+   "from": "U033",
+   "type": "video",
+   "src": "../work/stock/full/42653.mp4",
+   "in": 0.5,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 42653 Woman finishes working on her computer"
+  },
+  {
+   "id": "020",
+   "from": "U034",
+   "type": "video",
+   "src": "../work/stock/full/100050.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 100050 Woman smiling at her phone on a cozy couch"
+  },
+  {
+   "id": "021",
+   "from": "U036",
+   "type": "video",
+   "src": "../work/stock/full/50931.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 50931 A young man slowly wakes up on a clean white bed"
+  },
+  {
+   "id": "022",
+   "from": "U037",
+   "type": "video",
+   "src": "../work/stock/full/4548.mp4",
+   "in": 9.0,
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4548 Woman lying on a sofa"
+  },
+  {
+   "id": "023",
+   "from": "U038",
+   "type": "video",
+   "src": "../work/stock/full/42896.mp4",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 42896 Young woman laying on a white soft bed slowly wakes up in the morning"
+  },
+  {
+   "id": "024",
+   "from": "U039",
+   "type": "card"
+  },
+  {
+   "id": "025",
+   "from": "U040",
+   "type": "video",
+   "src": "../work/stock/full/4513.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4513 Worried and sad woman hugging a cushion"
+  },
+  {
+   "id": "026",
+   "from": "U042",
+   "type": "card"
+  },
+  {
+   "id": "027",
+   "from": "U043",
+   "type": "icon",
+   "icon": "clock6"
+  },
+  {
+   "id": "028",
+   "from": "U046",
+   "type": "card"
+  },
+  {
+   "id": "029",
+   "from": "U048",
+   "type": "video",
+   "src": "../work/stock/full/10395.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 10395 Close-up view of a typewriter while a man works on it"
+  },
+  {
+   "id": "030",
+   "from": "U049",
+   "type": "video",
+   "src": "../work/stock/full/42343.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 42343 Movement in a city at night in an aerial shot"
+  },
+  {
+   "id": "031",
+   "from": "U051",
+   "type": "video",
+   "src": "../work/stock/full/3429.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 3429 City street with trolleybus at night"
+  },
+  {
+   "id": "032",
+   "from": "U054",
+   "type": "video",
+   "src": "../work/stock/full/28886.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 28886 Analog wall clock on a black background in a closed socket"
+  },
+  {
+   "id": "033",
+   "from": "U056",
+   "type": "video",
+   "src": "../work/stock/full/4779.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4779 Doctor walking down a hospital hallway"
+  },
+  {
+   "id": "034",
+   "from": "U058",
+   "type": "icon",
+   "icon": "clock2"
+  },
+  {
+   "id": "035",
+   "from": "U059",
+   "type": "video",
+   "src": "../work/stock/full/39841.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 39841 Young man working in an office overtime"
+  },
+  {
+   "id": "036",
+   "from": "U061",
+   "type": "video",
+   "src": "../work/stock/full/44579.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 44579 Close view of a Christmas tree"
+  },
+  {
+   "id": "037",
+   "from": "U064",
+   "type": "video",
+   "src": "../work/stock/full/3461.mp4",
+   "in": 1.0,
+   "note": "Mixkit 3461 Lighting candles in the dark"
+  },
+  {
+   "id": "038",
+   "from": "U065",
+   "type": "video",
+   "src": "../work/stock/full/4701.mp4",
+   "in": 0.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4701 Worried and sad man with his head down"
+  },
+  {
+   "id": "039",
+   "from": "U067",
+   "type": "video",
+   "src": "../work/stock/full/31414.mp4",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 31414 Man lying down moving a lot because of not being able to sleep"
+  },
+  {
+   "id": "040",
+   "from": "U071",
+   "type": "video",
+   "src": "../work/stock/full/425.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 425 Moving needle on retro audio tape recorder"
+  },
+  {
+   "id": "041",
+   "from": "U074",
+   "type": "video",
+   "src": "../work/stock/full/28893.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 28893 Black analog clock in a very close shot"
+  },
+  {
+   "id": "042",
+   "from": "U076",
+   "type": "video",
+   "src": "../work/stock/full/425.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 425 Moving needle on retro audio tape recorder"
+  },
+  {
+   "id": "043",
+   "from": "U078",
+   "type": "video",
+   "src": "../work/stock/full/1967.mp4",
+   "in": 1.0,
+   "note": "Mixkit 1967 Smoke effect over black background"
+  },
+  {
+   "id": "044",
+   "from": "U081",
+   "type": "video",
+   "src": "../work/stock/full/4766.mp4",
+   "in": 6.5,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "blur": 16,
+   "note": "Mixkit 4766 Clinic staff at a hospital reception"
+  },
+  {
+   "id": "045",
+   "from": "U083",
+   "type": "video",
+   "src": "../work/stock/full/4607.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4607 Bored young office workers in an office"
+  },
+  {
+   "id": "046",
+   "from": "U087",
+   "type": "video",
+   "src": "../work/stock/full/8744.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 8744 Young man upset and frustrated receiving a message"
+  },
+  {
+   "id": "047",
+   "from": "U089",
+   "type": "video",
+   "src": "../work/stock/full/2707.mp4",
+   "in": 1.0,
+   "note": "Mixkit 2707 A fireplace lit at Christmas time"
+  },
+  {
+   "id": "048",
+   "from": "U091",
+   "type": "video",
+   "src": "../work/stock/full/21587.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 21587 Stacked and piled books taken close up"
+  },
+  {
+   "id": "049",
+   "from": "U092",
+   "type": "video",
+   "src": "../work/stock/full/50956.mp4",
+   "in": 1.0,
+   "note": "Mixkit 50956 Soft and traslucent smoke flows up on a dark background"
+  },
+  {
+   "id": "050",
+   "from": "U095",
+   "type": "card"
+  },
+  {
+   "id": "051",
+   "from": "U097",
+   "type": "video",
+   "src": "../work/stock/full/39841.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 39841 Young man working in an office overtime"
+  },
+  {
+   "id": "052",
+   "from": "U100",
+   "type": "video",
+   "src": "../work/stock/full/50133.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 50133 A young man wearing a hoodie studying at night in the library with a calculator"
+  },
+  {
+   "id": "053",
+   "from": "U102",
+   "type": "video",
+   "src": "../work/stock/full/1964.mp4",
+   "in": 1.0,
+   "note": "Mixkit 1964 Smoke in motion"
+  },
+  {
+   "id": "054",
+   "from": "U103",
+   "type": "video",
+   "src": "../work/stock/full/4835.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 4835 Office workers hands typing on their devices"
+  },
+  {
+   "id": "055",
+   "from": "U105",
+   "type": "card"
+  },
+  {
+   "id": "056",
+   "from": "U108",
+   "type": "icon",
+   "icon": "gauge"
+  },
+  {
+   "id": "057",
+   "from": "U111",
+   "type": "card"
+  },
+  {
+   "id": "058",
+   "from": "U115",
+   "type": "video",
+   "src": "../work/stock/full/914.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "blur": 3,
+   "note": "Mixkit 914 Open office space"
+  },
+  {
+   "id": "059",
+   "from": "U118",
+   "type": "video",
+   "src": "../work/stock/full/4915.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4915 Hands of a person typing on a cell phone"
+  },
+  {
+   "id": "060",
+   "from": "U120",
+   "type": "icon",
+   "icon": "battery"
+  },
+  {
+   "id": "061",
+   "from": "U123",
+   "type": "icon",
+   "icon": "phone_off"
+  },
+  {
+   "id": "062",
+   "from": "U126",
+   "type": "icon",
+   "icon": "apps"
+  },
+  {
+   "id": "063",
+   "from": "U128",
+   "type": "card"
+  },
+  {
+   "id": "064",
+   "from": "U130",
+   "type": "card",
+   "label": "1 / 3"
+  },
+  {
+   "id": "065",
+   "from": "U132",
+   "type": "video",
+   "src": "../work/stock/full/50753.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "crop": [
+    0.06,
+    0.0,
+    0.94,
+    0.88
+   ],
+   "note": "Mixkit 50753 A young man turns off the alarm clock by the bedside"
+  },
+  {
+   "id": "066",
+   "from": "U135",
+   "type": "video",
+   "src": "../work/stock/full/50754.mp4",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 50754 A young man slowly wakes up in bed"
+  },
+  {
+   "id": "067",
+   "from": "U138",
+   "type": "video",
+   "src": "../work/stock/full/31413.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 31413 Young man lying on his bed checking his smartphone"
+  },
+  {
+   "id": "068",
+   "from": "U141",
+   "type": "icon",
+   "icon": "battery2"
+  },
+  {
+   "id": "069",
+   "from": "U146",
+   "type": "card"
+  },
+  {
+   "id": "070",
+   "from": "U147",
+   "type": "video",
+   "src": "../work/stock/full/26090.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 26090 Table in a living room with fast food while a man watches television"
+  },
+  {
+   "id": "071",
+   "from": "U148",
+   "type": "icon",
+   "icon": "fuel"
+  },
+  {
+   "id": "072",
+   "from": "U153",
+   "type": "card",
+   "label": "2 / 3"
+  },
+  {
+   "id": "073",
+   "from": "U156",
+   "type": "video",
+   "src": "../work/stock/full/42666.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "blur": 5,
+   "note": "Mixkit 42666 Presentation during a work team meeting"
+  },
+  {
+   "id": "074",
+   "from": "U158",
+   "type": "video",
+   "src": "../work/stock/full/4607.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 4607 Bored young office workers in an office"
+  },
+  {
+   "id": "075",
+   "from": "U160",
+   "type": "video",
+   "src": "../work/stock/full/4908.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4908 Person working while scrolling on social networks"
+  },
+  {
+   "id": "076",
+   "from": "U162",
+   "type": "video",
+   "src": "../work/stock/full/4720.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4720 Lonely boy on a park bench"
+  },
+  {
+   "id": "077",
+   "from": "U163",
+   "type": "video",
+   "src": "../work/stock/full/4872.mp4",
+   "in": 9.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 4872 Two coworkers talking and laughing"
+  },
+  {
+   "id": "078",
+   "from": "U165",
+   "type": "card"
+  },
+  {
+   "id": "079",
+   "from": "U168",
+   "type": "video",
+   "src": "../work/stock/full/99909.mp4",
+   "in": 6.0,
+   "note": "Mixkit 99909 Close up of a hand writing to do list on a yellow paper notebook"
+  },
+  {
+   "id": "080",
+   "from": "U171",
+   "type": "video",
+   "src": "../work/stock/full/31412.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 31412 Boy puts his cell phone aside so he can go to sleep"
+  },
+  {
+   "id": "081",
+   "from": "U173",
+   "type": "video",
+   "src": "../work/stock/full/4893.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4893 Footsteps of a young man walking down the street"
+  },
+  {
+   "id": "082",
+   "from": "U175",
+   "type": "video",
+   "src": "../work/stock/full/4511.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.35,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4511 Sad girl looking out the window"
+  },
+  {
+   "id": "083",
+   "from": "U177",
+   "type": "card",
+   "label": "3 / 3"
+  },
+  {
+   "id": "084",
+   "from": "U180",
+   "type": "video",
+   "src": "../work/stock/full/313.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 313 Colleagues reading a report together"
+  },
+  {
+   "id": "085",
+   "from": "U182",
+   "type": "video",
+   "src": "../work/stock/full/39841.mp4",
+   "in": 4.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 39841 Young man working in an office overtime"
+  },
+  {
+   "id": "086",
+   "from": "U184",
+   "type": "card"
+  },
+  {
+   "id": "087",
+   "from": "U185",
+   "type": "video",
+   "src": "../work/stock/full/4500.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4500 Upset woman sitting on the floor"
+  },
+  {
+   "id": "088",
+   "from": "U187",
+   "type": "card"
+  },
+  {
+   "id": "089",
+   "from": "U190",
+   "type": "video",
+   "src": "../work/stock/full/99890.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 99890 Close up a hand writing notes on a notebook with a pen"
+  },
+  {
+   "id": "090",
+   "from": "U192",
+   "type": "video",
+   "src": "../work/stock/full/42655.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 42655 A woman writing in her spiral notebook"
+  },
+  {
+   "id": "091",
+   "from": "U194",
+   "type": "icon",
+   "icon": "bulb_dim"
+  },
+  {
+   "id": "092",
+   "from": "U197",
+   "type": "card"
+  },
+  {
+   "id": "093",
+   "from": "U198",
+   "type": "video",
+   "src": "../work/stock/full/1958.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 1958 Virgin lonely beach with a palapa"
+  },
+  {
+   "id": "094",
+   "from": "U201",
+   "type": "icon",
+   "icon": "docs7"
+  },
+  {
+   "id": "095",
+   "from": "U204",
+   "type": "video",
+   "src": "../work/stock/full/1013.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "Mixkit 1013 Feet walking on the beach"
+  },
+  {
+   "id": "096",
+   "from": "U205",
+   "type": "icon",
+   "icon": "graph"
+  },
+  {
+   "id": "097",
+   "from": "U207",
+   "type": "icon",
+   "icon": "docs_many"
+  },
+  {
+   "id": "098",
+   "from": "U210",
+   "type": "icon",
+   "icon": "calendar"
+  },
+  {
+   "id": "099",
+   "from": "U212",
+   "type": "icon",
+   "icon": "bars"
+  },
+  {
+   "id": "100",
+   "from": "U214",
+   "type": "card"
+  },
+  {
+   "id": "101",
+   "from": "U215",
+   "type": "video",
+   "src": "../work/stock/full/914.mp4",
+   "in": 10.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "blur": 3,
+   "note": "Mixkit 914 Open office space"
+  },
+  {
+   "id": "102",
+   "from": "U218",
+   "type": "icon",
+   "icon": "six"
+  },
+  {
+   "id": "103",
+   "from": "U222",
+   "type": "icon",
+   "icon": "six_off"
+  },
+  {
+   "id": "104",
+   "from": "U224",
+   "type": "video",
+   "src": "../work/stock/full/100252.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 100252 Pouring Tea into a Cup on a Rustic Table Setting"
+  },
+  {
+   "id": "105",
+   "from": "U225",
+   "type": "icon",
+   "icon": "battery"
+  },
+  {
+   "id": "106",
+   "from": "U227",
+   "type": "video",
+   "src": "../work/stock/full/1623.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 1623 People getting into the subway train"
+  },
+  {
+   "id": "107",
+   "from": "U229",
+   "type": "card"
+  },
+  {
+   "id": "108",
+   "from": "U231",
+   "type": "card"
+  },
+  {
+   "id": "109",
+   "from": "U233",
+   "type": "video",
+   "src": "../work/stock/full/41192.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "blur": 6,
+   "note": "Mixkit 41192 POV flipping through a newspaper"
+  },
+  {
+   "id": "110",
+   "from": "U236",
+   "type": "video",
+   "src": "../work/stock/full/31415.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 31415 Frustrated boy in his bed for not being able to sleep"
+  },
+  {
+   "id": "111",
+   "from": "U238",
+   "type": "video",
+   "src": "../work/stock/full/26089.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 26089 Man watching TV and eating fast food"
+  },
+  {
+   "id": "112",
+   "from": "U239",
+   "type": "video",
+   "src": "../work/stock/full/26090.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 26090 Table in a living room with fast food while a man watches television"
+  },
+  {
+   "id": "113",
+   "from": "U240",
+   "type": "video",
+   "src": "../work/stock/full/31411.mp4",
+   "in": 8.0,
+   "note": "Mixkit 31411 Sleeping boy moves in bed"
+  },
+  {
+   "id": "114",
+   "from": "U242",
+   "type": "video",
+   "src": "../work/stock/full/4720.mp4",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4720 Lonely boy on a park bench"
+  },
+  {
+   "id": "115",
+   "from": "U244",
+   "type": "card"
+  },
+  {
+   "id": "116",
+   "from": "U248",
+   "type": "card"
+  },
+  {
+   "id": "117",
+   "from": "U251",
+   "type": "video",
+   "src": "../work/stock/full/3461.mp4",
+   "in": 6.0,
+   "note": "Mixkit 3461 Lighting candles in the dark"
+  },
+  {
+   "id": "118",
+   "from": "U254",
+   "type": "video",
+   "src": "../work/stock/full/50956.mp4",
+   "in": 8.0,
+   "note": "Mixkit 50956 Soft and traslucent smoke flows up on a dark background"
+  },
+  {
+   "id": "119",
+   "from": "U256",
+   "type": "card"
+  },
+  {
+   "id": "120",
+   "from": "U261",
+   "type": "icon",
+   "icon": "memo10"
+  },
+  {
+   "id": "121",
+   "from": "U264",
+   "type": "video",
+   "src": "../work/stock/full/99910.mp4",
+   "in": 6.5,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen"
+  },
+  {
+   "id": "122",
+   "from": "U267",
+   "type": "card"
+  },
+  {
+   "id": "123",
+   "from": "U268",
+   "type": "icon",
+   "icon": "week"
+  },
+  {
+   "id": "124",
+   "from": "U271",
+   "type": "icon",
+   "icon": "week3"
+  },
+  {
+   "id": "125",
+   "from": "U273",
+   "type": "video",
+   "src": "../work/stock/full/3977.mp4",
+   "in": 1.0,
+   "note": "Mixkit 3977 View of a window with a curtain"
+  },
+  {
+   "id": "126",
+   "from": "U277",
+   "type": "icon",
+   "icon": "six"
+  },
+  {
+   "id": "127",
+   "from": "U280",
+   "type": "icon",
+   "icon": "six_pick"
+  },
+  {
+   "id": "128",
+   "from": "U282",
+   "type": "icon",
+   "icon": "six_seq"
+  },
+  {
+   "id": "129",
+   "from": "U285",
+   "type": "video",
+   "src": "../work/stock/full/50112.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 50112 Student hand takes a stiky note to paste it on the notebook"
+  },
+  {
+   "id": "130",
+   "from": "U289",
+   "type": "video",
+   "src": "../work/stock/full/52452.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway."
+  },
+  {
+   "id": "131",
+   "from": "U292",
+   "type": "video",
+   "src": "../work/stock/full/28899.mp4",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 28899 Woman turning off her alarm clock in the morning"
+  },
+  {
+   "id": "132",
+   "from": "U294",
+   "type": "icon",
+   "icon": "battery"
+  },
+  {
+   "id": "133",
+   "from": "U298",
+   "type": "video",
+   "src": "../work/stock/full/100831.mp4",
+   "in": 0.0,
+   "speed": 0.9,
+   "note": "Mixkit 100831 Sky Transitioning from Night to Sunrise"
+  },
+  {
+   "id": "134",
+   "from": "U301",
+   "type": "video",
+   "src": "../work/stock/full/4548.mp4",
+   "in": 14.0,
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "Mixkit 4548 Woman lying on a sofa"
+  },
+  {
+   "id": "135",
+   "from": "U304",
+   "type": "card"
+  },
+  {
+   "id": "136",
+   "from": "U306",
+   "type": "video",
+   "src": "../work/stock/full/4397.mp4",
+   "in": 0.5,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 4397 The silhouette of a woman at sunrise"
+  },
+  {
+   "id": "137",
+   "from": "U310",
+   "type": "video",
+   "src": "../work/stock/full/1086.mp4",
+   "in": 0.5,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "note": "Mixkit 1086 Sunrise on the ocean"
+  }
+ ],
+ "subs": [
+  {
+   "unit": "U001",
+   "text": "주말 내내 분명 푹 잤는데,"
+  },
+  {
+   "unit": "U002",
+   "text": "월요일 아침 알람을 끄고"
+  },
+  {
+   "unit": "U003",
+   "text": "또 그대로 눕게 됩니다."
+  },
+  {
+   "unit": "U004",
+   "text": "'이번 주말엔 진짜 아무것도",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U005",
+   "text": "안 하고 쉬었는데,",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U006",
+   "text": "왜 몸이 그대로지?'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U007",
+   "text": "번아웃을 이겨 내 보려고"
+  },
+  {
+   "unit": "U008",
+   "text": "나름대로 쉬어 봤는데도"
+  },
+  {
+   "unit": "U009",
+   "text": "좀처럼 나아지질 않아서,"
+  },
+  {
+   "unit": "U010",
+   "text": "혹시 '내가 그냥 게을러서 그런가' 하고"
+  },
+  {
+   "unit": "U011",
+   "text": "자책하고 계셨나요?"
+  },
+  {
+   "unit": "U012",
+   "text": "그렇다면 오늘 이야기가",
+   "box": false
+  },
+  {
+   "unit": "U013",
+   "text": "작은 힌트가 될지도 모르겠습니다.",
+   "box": false
+  },
+  {
+   "unit": "U014",
+   "text": "분명 쉬었는데도 피로가",
+   "box": false
+  },
+  {
+   "unit": "U015",
+   "text": "왜 잘 풀리지 않는지,",
+   "box": false
+  },
+  {
+   "unit": "U016",
+   "text": "그리고 그게 왜 내 게으름 탓이"
+  },
+  {
+   "unit": "U017",
+   "text": "아닐 수 있는지 하나씩"
+  },
+  {
+   "unit": "U018",
+   "text": "차근차근 이야기해 볼게요."
+  },
+  {
+   "unit": "U019",
+   "text": "출근길에 업무 메일 알림이 하나 뜹니다."
+  },
+  {
+   "unit": "U020",
+   "text": "아직 열어 보지도 않았는데"
+  },
+  {
+   "unit": "U021",
+   "text": "한숨부터 푹 나오죠."
+  },
+  {
+   "unit": "U022",
+   "text": "회사에서 동료가 말을 걸어와도"
+  },
+  {
+   "unit": "U023",
+   "text": "맞장구칠 힘이 잘 나질 않습니다."
+  },
+  {
+   "unit": "U024",
+   "text": "퇴근길엔 아침까지만 해도"
+  },
+  {
+   "unit": "U025",
+   "text": "가려고 했던 운동을"
+  },
+  {
+   "unit": "U026",
+   "text": "슬그머니 접어요."
+  },
+  {
+   "unit": "U027",
+   "text": "'아, 오늘은 너무 피곤하니까",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U028",
+   "text": "내일 하자.'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U029",
+   "text": "집에 와서는 아무 영상이나 틀어 놓고"
+  },
+  {
+   "unit": "U030",
+   "text": "휴대폰 화면만 멍하니 들여다보는데,"
+  },
+  {
+   "unit": "U031",
+   "text": "한참을 보고 나서도"
+  },
+  {
+   "unit": "U032",
+   "text": "방금 뭘 봤는지 기억이 잘 안 납니다."
+  },
+  {
+   "unit": "U033",
+   "text": "그렇게 겨우 금요일이 오면,"
+  },
+  {
+   "unit": "U034",
+   "text": "'그래도 이번 주말엔 푹 쉬면"
+  },
+  {
+   "unit": "U035",
+   "text": "괜찮아지겠지' 하고 기대하게 되죠."
+  },
+  {
+   "unit": "U036",
+   "text": "토요일엔 늦잠을 자고,"
+  },
+  {
+   "unit": "U037",
+   "text": "일요일엔 하루 종일 누워만 있었습니다."
+  },
+  {
+   "unit": "U038",
+   "text": "정말 아무것도 안 하고 쉬기만 했어요."
+  },
+  {
+   "unit": "U039",
+   "text": "그런데 참 이상하죠.",
+   "pos": "center"
+  },
+  {
+   "unit": "U040",
+   "text": "일요일 저녁만 되면 마음이"
+  },
+  {
+   "unit": "U041",
+   "text": "다시 쿵 무거워집니다."
+  },
+  {
+   "unit": "U042",
+   "text": "'아, 내일 또 출근이네.'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U043",
+   "text": "혹시 여러분도 일요일",
+   "box": false
+  },
+  {
+   "unit": "U044",
+   "text": "저녁 6시쯤만 되면",
+   "box": false
+  },
+  {
+   "unit": "U045",
+   "text": "이런 기분이 슬슬 올라오지 않으시나요?",
+   "box": false
+  },
+  {
+   "unit": "U046",
+   "text": "바로 이런 상태를 부르는 이름이",
+   "pos": "center"
+  },
+  {
+   "unit": "U047",
+   "text": "우리가 잘 아는 '[번아웃]'입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U048",
+   "text": "심리학에서 이 말을 처음 쓴 사람은"
+  },
+  {
+   "unit": "U049",
+   "text": "미국의 심리학자"
+  },
+  {
+   "unit": "U050",
+   "text": "허버트 프로이덴버거인데요."
+  },
+  {
+   "unit": "U051",
+   "text": "1970년대 뉴욕에서 일하던 그는"
+  },
+  {
+   "unit": "U052",
+   "text": "누구보다 열정과 사명감이"
+  },
+  {
+   "unit": "U053",
+   "text": "넘치는 사람이었습니다."
+  },
+  {
+   "unit": "U054",
+   "text": "낮에는 자기 상담실에서"
+  },
+  {
+   "unit": "U055",
+   "text": "12시간 동안 환자들을 돌보고,"
+  },
+  {
+   "unit": "U056",
+   "text": "밤이 되면 형편이 어려운 사람들을 돕겠다며"
+  },
+  {
+   "unit": "U057",
+   "text": "무료 진료소로 건너가"
+  },
+  {
+   "unit": "U058",
+   "text": "새벽 2시까지 일하곤 했죠.",
+   "box": false
+  },
+  {
+   "unit": "U059",
+   "text": "몸이 부서져라 일하면서도"
+  },
+  {
+   "unit": "U060",
+   "text": "본인은 괜찮다고 생각했습니다."
+  },
+  {
+   "unit": "U061",
+   "text": "그러다 사단이 난 건,"
+  },
+  {
+   "unit": "U062",
+   "text": "모처럼 가족들과 크리스마스 여행을"
+  },
+  {
+   "unit": "U063",
+   "text": "떠나기로 한 아침이었어요."
+  },
+  {
+   "unit": "U064",
+   "text": "일에서 손을 놓고 긴장이 풀리자마자,"
+  },
+  {
+   "unit": "U065",
+   "text": "그동안 쌓였던 피로가"
+  },
+  {
+   "unit": "U066",
+   "text": "한꺼번에 덮친 겁니다."
+  },
+  {
+   "unit": "U067",
+   "text": "그는 그날 아침 침대에서"
+  },
+  {
+   "unit": "U068",
+   "text": "손가락 하나 까딱하지 못했고,"
+  },
+  {
+   "unit": "U069",
+   "text": "결국 약속했던 여행을 가지 못한 채"
+  },
+  {
+   "unit": "U070",
+   "text": "며칠 내내 앓아누웠습니다."
+  },
+  {
+   "unit": "U071",
+   "text": "충격을 받은 그는"
+  },
+  {
+   "unit": "U072",
+   "text": "자신이 왜 이렇게 무너졌는지"
+  },
+  {
+   "unit": "U073",
+   "text": "알아내기 위해 녹음기를 켰습니다."
+  },
+  {
+   "unit": "U074",
+   "text": "매일 1~2시간씩"
+  },
+  {
+   "unit": "U075",
+   "text": "지금 자기가 느끼는 피로감과 짜증,"
+  },
+  {
+   "unit": "U076",
+   "text": "공허함을 있는 그대로 녹음한 뒤"
+  },
+  {
+   "unit": "U077",
+   "text": "다시 돌려 들어 본 거예요."
+  },
+  {
+   "unit": "U078",
+   "text": "거기엔 평소 따뜻하던 자신의 모습 대신,"
+  },
+  {
+   "unit": "U079",
+   "text": "완전히 지쳐서 날이 서 있는"
+  },
+  {
+   "unit": "U080",
+   "text": "낯선 목소리가 담겨 있었습니다."
+  },
+  {
+   "unit": "U081",
+   "text": "그는 진료소에서 함께 일하던"
+  },
+  {
+   "unit": "U082",
+   "text": "동료들을 떠올렸어요."
+  },
+  {
+   "unit": "U083",
+   "text": "가만히 돌아보니,"
+  },
+  {
+   "unit": "U084",
+   "text": "처음에 가장 뜨겁게 헌신하던"
+  },
+  {
+   "unit": "U085",
+   "text": "동료들일수록 가장 먼저"
+  },
+  {
+   "unit": "U086",
+   "text": "지치고, 예민해지고,"
+  },
+  {
+   "unit": "U087",
+   "text": "결국엔 차갑고 냉소적으로"
+  },
+  {
+   "unit": "U088",
+   "text": "변해 가고 있었던 겁니다."
+  },
+  {
+   "unit": "U089",
+   "text": "마치 연료를 끝까지 다 태워버리고"
+  },
+  {
+   "unit": "U090",
+   "text": "잿더미만 남은 것처럼요."
+  },
+  {
+   "unit": "U091",
+   "text": "그는 1974년 논문에서,"
+  },
+  {
+   "unit": "U092",
+   "text": "이렇게 열정을 다 태우고"
+  },
+  {
+   "unit": "U093",
+   "text": "텅 비어버린 상태를"
+  },
+  {
+   "unit": "U094",
+   "text": "처음으로 '[번아웃]'이라고 불렀습니다."
+  },
+  {
+   "unit": "U095",
+   "text": "여기서 우리가",
+   "pos": "center"
+  },
+  {
+   "unit": "U096",
+   "text": "꼭 눈여겨봐야 할 점이 있어요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U097",
+   "text": "번아웃이라는 말을 만든 사람도,"
+  },
+  {
+   "unit": "U098",
+   "text": "그가 지켜본 동료들도"
+  },
+  {
+   "unit": "U099",
+   "text": "결코 게으른 사람들이 아니었다는 겁니다."
+  },
+  {
+   "unit": "U100",
+   "text": "오히려 누구보다 책임감이 강하고,"
+  },
+  {
+   "unit": "U101",
+   "text": "가장 열심히 애쓰던 사람들이"
+  },
+  {
+   "unit": "U102",
+   "text": "제일 먼저 번아웃에 빠졌다는 거죠."
+  },
+  {
+   "unit": "U103",
+   "text": "그로부터 한참 뒤인 2019년,"
+  },
+  {
+   "unit": "U104",
+   "text": "세계보건기구는 번아웃을"
+  },
+  {
+   "unit": "U105",
+   "text": "'제대로 관리되지 않은",
+   "pos": "center"
+  },
+  {
+   "unit": "U106",
+   "text": "만성적인 [직장 스트레스]에서 생기는",
+   "pos": "center"
+  },
+  {
+   "unit": "U107",
+   "text": "증후군'이라고 정의했습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U108",
+   "text": "쉽게 말해, 일 때문에 쌓인 스트레스가",
+   "box": false
+  },
+  {
+   "unit": "U109",
+   "text": "오랫동안 풀리지 못해서",
+   "box": false
+  },
+  {
+   "unit": "U110",
+   "text": "생긴 상태라는 거예요.",
+   "box": false
+  },
+  {
+   "unit": "U111",
+   "text": "흥미로운 건,",
+   "pos": "center"
+  },
+  {
+   "unit": "U112",
+   "text": "세계보건기구가 번아웃을",
+   "pos": "center"
+  },
+  {
+   "unit": "U113",
+   "text": "개인의 [질병]으로",
+   "pos": "center"
+  },
+  {
+   "unit": "U114",
+   "text": "분류하지 않았다는 점입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U115",
+   "text": "대신 일과 관련된 현상으로 분류했고,"
+  },
+  {
+   "unit": "U116",
+   "text": "[직장]이라는 맥락에서만 쓰는 말이라고"
+  },
+  {
+   "unit": "U117",
+   "text": "분명히 선을 그어 두었죠."
+  },
+  {
+   "unit": "U118",
+   "text": "저는 이 번아웃을 휴대폰에"
+  },
+  {
+   "unit": "U119",
+   "text": "한 번 비유해 보고 싶습니다."
+  },
+  {
+   "unit": "U120",
+   "text": "충전하는 속도보다",
+   "box": false
+  },
+  {
+   "unit": "U121",
+   "text": "[배터리]가 닳는 속도가 더 빠른",
+   "box": false
+  },
+  {
+   "unit": "U122",
+   "text": "휴대폰 말이에요.",
+   "box": false
+  },
+  {
+   "unit": "U123",
+   "text": "이런 휴대폰은",
+   "box": false
+  },
+  {
+   "unit": "U124",
+   "text": "하룻밤 충전기를 꽂아 둔다고 해서",
+   "box": false
+  },
+  {
+   "unit": "U125",
+   "text": "문제가 해결되지 않습니다.",
+   "box": false
+  },
+  {
+   "unit": "U126",
+   "text": "보이지 않는 곳에서 배터리를 빼 가는",
+   "box": false
+  },
+  {
+   "unit": "U127",
+   "text": "[무언가]가 여전히 켜져 있으니까요.",
+   "box": false
+  },
+  {
+   "unit": "U128",
+   "text": "세계보건기구는 번아웃의 특징을",
+   "pos": "center"
+  },
+  {
+   "unit": "U129",
+   "text": "크게 [3가지]로 설명합니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U130",
+   "text": "먼저 번아웃의 첫 번째 신호는",
+   "pos": "center"
+  },
+  {
+   "unit": "U131",
+   "text": "[에너지]가 바닥나는 겁니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U132",
+   "text": "토요일에 10시간을 자고"
+  },
+  {
+   "unit": "U133",
+   "text": "일요일엔 낮잠까지 잤는데도,"
+  },
+  {
+   "unit": "U134",
+   "text": "월요일 아침이면 몸이 여전히 무겁습니다."
+  },
+  {
+   "unit": "U135",
+   "text": "'이 정도 쉬었으면"
+  },
+  {
+   "unit": "U136",
+   "text": "괜찮아야 하는데' 싶다가도,"
+  },
+  {
+   "unit": "U137",
+   "text": "어느새 자책이 따라오죠."
+  },
+  {
+   "unit": "U138",
+   "text": "'남들은 주말에"
+  },
+  {
+   "unit": "U139",
+   "text": "운동도 하고 공부도 한다는데,"
+  },
+  {
+   "unit": "U140",
+   "text": "나는 왜 누워만 있지?'"
+  },
+  {
+   "unit": "U141",
+   "text": "보통의 피로는 푹 쉬고 나면",
+   "box": false
+  },
+  {
+   "unit": "U142",
+   "text": "어느 정도 풀리지만,",
+   "box": false
+  },
+  {
+   "unit": "U143",
+   "text": "번아웃의 피로는 아무리 쉬어도",
+   "box": false
+  },
+  {
+   "unit": "U144",
+   "text": "잘 채워지지 않는다고",
+   "box": false
+  },
+  {
+   "unit": "U145",
+   "text": "느끼는 경우가 많습니다.",
+   "box": false
+  },
+  {
+   "unit": "U146",
+   "text": "그럼 게으름과는 뭐가 다를까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "U147",
+   "text": "게으름이 '하기 싫은 마음'에 가깝다면,"
+  },
+  {
+   "unit": "U148",
+   "text": "번아웃은 '하고 싶어도",
+   "box": false
+  },
+  {
+   "unit": "U149",
+   "text": "[꺼내 쓸 힘]이 남아 있지 않은 상태'에",
+   "box": false
+  },
+  {
+   "unit": "U150",
+   "text": "가깝습니다.",
+   "box": false
+  },
+  {
+   "unit": "U151",
+   "text": "그러니까 이건 마음가짐의 문제가 아니라,",
+   "box": false
+  },
+  {
+   "unit": "U152",
+   "text": "바닥난 [연료]의 문제인 거죠.",
+   "box": false
+  },
+  {
+   "unit": "U153",
+   "text": "번아웃의 두 번째 신호는",
+   "pos": "center"
+  },
+  {
+   "unit": "U154",
+   "text": "일과 내 마음 사이의 [거리]가",
+   "pos": "center"
+  },
+  {
+   "unit": "U155",
+   "text": "점점 멀어지는 겁니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U156",
+   "text": "회의에서 새로운 의견이 나오면,"
+  },
+  {
+   "unit": "U157",
+   "text": "예전 같았으면 같이 고민했을 텐데"
+  },
+  {
+   "unit": "U158",
+   "text": "요즘은 '어차피 해도 안 바뀌어'라는"
+  },
+  {
+   "unit": "U159",
+   "text": "생각부터 듭니다."
+  },
+  {
+   "unit": "U160",
+   "text": "메신저에 팀장님 이름만 떠도"
+  },
+  {
+   "unit": "U161",
+   "text": "가슴이 답답해지고,"
+  },
+  {
+   "unit": "U162",
+   "text": "점심은 그냥 혼자 먹고 싶어지죠."
+  },
+  {
+   "unit": "U163",
+   "text": "예전엔 즐겁던 동료들의 수다조차"
+  },
+  {
+   "unit": "U164",
+   "text": "요즘은 시끄럽게만 들리고요."
+  },
+  {
+   "unit": "U165",
+   "text": "세계보건기구는 이런 모습을",
+   "pos": "center"
+  },
+  {
+   "unit": "U166",
+   "text": "일에 대한 '[심리적 거리감]',",
+   "pos": "center"
+  },
+  {
+   "unit": "U167",
+   "text": "혹은 '[냉소]'라고 설명합니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U168",
+   "text": "이게 게으름과 다른 건,"
+  },
+  {
+   "unit": "U169",
+   "text": "처음부터 일에 관심이 없었던 게"
+  },
+  {
+   "unit": "U170",
+   "text": "아니라는 점이에요."
+  },
+  {
+   "unit": "U171",
+   "text": "너무 오랫동안 애쓰다 보니,"
+  },
+  {
+   "unit": "U172",
+   "text": "지친 마음이 상처받지 않으려고"
+  },
+  {
+   "unit": "U173",
+   "text": "스스로 한 발 물러나 버린"
+  },
+  {
+   "unit": "U174",
+   "text": "쪽에 가깝습니다."
+  },
+  {
+   "unit": "U175",
+   "text": "원래 무관심했던 게 아니라,"
+  },
+  {
+   "unit": "U176",
+   "text": "지친 마음이 스스로 [거리]를 두는 거죠."
+  },
+  {
+   "unit": "U177",
+   "text": "번아웃의 세 번째 신호는",
+   "pos": "center"
+  },
+  {
+   "unit": "U178",
+   "text": "내가 일을 잘 해내고 있다는 [느낌]이",
+   "pos": "center"
+  },
+  {
+   "unit": "U179",
+   "text": "부쩍 줄어드는 겁니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U180",
+   "text": "분명 작년엔 칭찬까지 받았던 보고서인데,"
+  },
+  {
+   "unit": "U181",
+   "text": "올해는 쓰는 내내 자신이 없어요."
+  },
+  {
+   "unit": "U182",
+   "text": "빈 파일을 열어 놓고"
+  },
+  {
+   "unit": "U183",
+   "text": "1시간째 첫 문장만 고치고 있죠."
+  },
+  {
+   "unit": "U184",
+   "text": "'나 원래 이 일 잘하던 사람 맞나?'",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "U185",
+   "text": "싶고, 작은 실수 하나에도"
+  },
+  {
+   "unit": "U186",
+   "text": "내가 무능한 사람처럼 느껴집니다."
+  },
+  {
+   "unit": "U187",
+   "text": "세계보건기구는 이걸 '[직업적 효능감]',",
+   "pos": "center"
+  },
+  {
+   "unit": "U188",
+   "text": "그러니까 내가 해낼 수 있다는 믿음이",
+   "pos": "center"
+  },
+  {
+   "unit": "U189",
+   "text": "줄어드는 거라고 표현합니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U190",
+   "text": "그런데 이것도 내 능력이 없어서"
+  },
+  {
+   "unit": "U191",
+   "text": "생기는 일이 아니에요."
+  },
+  {
+   "unit": "U192",
+   "text": "오히려 잘하고 싶은 마음이"
+  },
+  {
+   "unit": "U193",
+   "text": "아직 남아 있으니까 더 괴로운 겁니다."
+  },
+  {
+   "unit": "U194",
+   "text": "내 능력이 사라진 게 아니라,",
+   "box": false
+  },
+  {
+   "unit": "U195",
+   "text": "내 능력을 느끼고 발휘할 [힘]이",
+   "box": false
+  },
+  {
+   "unit": "U196",
+   "text": "줄어든 거예요.",
+   "box": false
+  },
+  {
+   "unit": "U197",
+   "text": "그렇다면 번아웃은 푹 쉬면 나아질까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "U198",
+   "text": "흔히들 그렇게 생각하지만,"
+  },
+  {
+   "unit": "U199",
+   "text": "휴가에 관한 연구들은"
+  },
+  {
+   "unit": "U200",
+   "text": "조금 다른 이야기를 들려줍니다."
+  },
+  {
+   "unit": "U201",
+   "text": "2009년, 한 연구진이",
+   "box": false
+  },
+  {
+   "unit": "U202",
+   "text": "휴가의 효과를 다룬 연구 [7편]을",
+   "box": false
+  },
+  {
+   "unit": "U203",
+   "text": "모아서 분석했는데요.",
+   "box": false
+  },
+  {
+   "unit": "U204",
+   "text": "휴가는 분명 건강과 행복감을 높여 줬지만,"
+  },
+  {
+   "unit": "U205",
+   "text": "일터로 돌아가자마자",
+   "box": false
+  },
+  {
+   "unit": "U206",
+   "text": "그 효과는 금방 [사라졌습니다].",
+   "box": false
+  },
+  {
+   "unit": "U207",
+   "text": "같은 연구진이 더 많은 연구를",
+   "box": false
+  },
+  {
+   "unit": "U208",
+   "text": "모아 다시 분석했을 때도",
+   "box": false
+  },
+  {
+   "unit": "U209",
+   "text": "결과는 비슷했어요.",
+   "box": false
+  },
+  {
+   "unit": "U210",
+   "text": "직장에 복귀하고 [첫 주]가 지나면",
+   "box": false
+  },
+  {
+   "unit": "U211",
+   "text": "휴가 전과 큰 차이가 없었고,",
+   "box": false
+  },
+  {
+   "unit": "U212",
+   "text": "휴가를 길게 다녀온다고 해서",
+   "box": false
+  },
+  {
+   "unit": "U213",
+   "text": "그 효과가 더 커지지도 않았습니다.",
+   "box": false
+  },
+  {
+   "unit": "U214",
+   "text": "도대체 왜 그럴까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "U215",
+   "text": "매슬랙과 동료 연구자 마이클 라이터는"
+  },
+  {
+   "unit": "U216",
+   "text": "번아웃의 진짜 원인을"
+  },
+  {
+   "unit": "U217",
+   "text": "개인보다 [일터]에서 찾았습니다."
+  },
+  {
+   "unit": "U218",
+   "text": "업무량,",
+   "box": false
+  },
+  {
+   "unit": "U219",
+   "text": "일을 내 방식대로 해 나갈 수 있는 정도,",
+   "box": false
+  },
+  {
+   "unit": "U220",
+   "text": "보상, 함께 일하는 사람들,",
+   "box": false
+  },
+  {
+   "unit": "U221",
+   "text": "공정함, 그리고 가치관.",
+   "box": false
+  },
+  {
+   "unit": "U222",
+   "text": "이 6가지가 나와 계속 [어긋날 때]",
+   "box": false
+  },
+  {
+   "unit": "U223",
+   "text": "번아웃이 생기기 쉽다고 본 거죠.",
+   "box": false
+  },
+  {
+   "unit": "U224",
+   "text": "물론 지쳤을 때 쉬는 건 꼭 필요합니다."
+  },
+  {
+   "unit": "U225",
+   "text": "하지만 배터리를 닳게 하는",
+   "box": false
+  },
+  {
+   "unit": "U226",
+   "text": "원인이 일터에 그대로 있다면,",
+   "box": false
+  },
+  {
+   "unit": "U227",
+   "text": "다시 돌아가는 순간 배터리는"
+  },
+  {
+   "unit": "U228",
+   "text": "또 닳기 시작할 거예요."
+  },
+  {
+   "unit": "U229",
+   "text": "바로 이 때문에 번아웃을 개인의",
+   "pos": "center"
+  },
+  {
+   "unit": "U230",
+   "text": "[의지]만의 문제로 보기는 어렵습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "U231",
+   "text": "이쯤에서 한 사람의 실제",
+   "pos": "center"
+  },
+  {
+   "unit": "U232",
+   "text": "이야기를 들려드릴게요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U233",
+   "text": "작년 12월, 한 언론 기사에"
+  },
+  {
+   "unit": "U234",
+   "text": "26살 직장인"
+  },
+  {
+   "unit": "U235",
+   "text": "박 모 씨의 이야기가 실렸습니다."
+  },
+  {
+   "unit": "U236",
+   "text": "그는 처음엔 자기 상태가"
+  },
+  {
+   "unit": "U237",
+   "text": "번아웃이라는 걸 몰랐다고 해요."
+  },
+  {
+   "unit": "U238",
+   "text": "폭식을 하다가도"
+  },
+  {
+   "unit": "U239",
+   "text": "갑자기 입맛이 싹 사라지는 날이 반복됐고,"
+  },
+  {
+   "unit": "U240",
+   "text": "화장실 갈 기운도 없어"
+  },
+  {
+   "unit": "U241",
+   "text": "잠만 자는 날이 이어졌다고 합니다."
+  },
+  {
+   "unit": "U242",
+   "text": "그리고 기사에서 당시의 마음을"
+  },
+  {
+   "unit": "U243",
+   "text": "이렇게 말했어요."
+  },
+  {
+   "unit": "U244",
+   "text": "\"열심히 살고 있는데도",
+   "pos": "center"
+  },
+  {
+   "unit": "U245",
+   "text": "늘 부족하다고 느끼는 감정이 쌓이다,",
+   "pos": "center"
+  },
+  {
+   "unit": "U246",
+   "text": "결국 감당이 안 되는 지점이",
+   "pos": "center"
+  },
+  {
+   "unit": "U247",
+   "text": "오는 것 같다.\"",
+   "pos": "center"
+  },
+  {
+   "unit": "U248",
+   "text": "저는 이 말 중에서",
+   "pos": "center"
+  },
+  {
+   "unit": "U249",
+   "text": "'[열심히 살고 있는데도]'라는",
+   "pos": "center"
+  },
+  {
+   "unit": "U250",
+   "text": "부분이 유독 마음에 오래 남더라고요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U251",
+   "text": "번아웃은 게을러서 오는 게 아니라,"
+  },
+  {
+   "unit": "U252",
+   "text": "열심히 사는 사람에게도"
+  },
+  {
+   "unit": "U253",
+   "text": "찾아올 수 있다는 말처럼 들렸거든요."
+  },
+  {
+   "unit": "U254",
+   "text": "번아웃이라는 이름을 처음 붙인"
+  },
+  {
+   "unit": "U255",
+   "text": "프로이덴버거가 그랬던 것처럼요."
+  },
+  {
+   "unit": "U256",
+   "text": "혹시 지금 이 이야기가",
+   "pos": "center"
+  },
+  {
+   "unit": "U257",
+   "text": "본인의 얘기처럼 들리셨다면,",
+   "pos": "center"
+  },
+  {
+   "unit": "U258",
+   "text": "이어서 말씀드릴",
+   "pos": "center"
+  },
+  {
+   "unit": "U259",
+   "text": "번아웃을 극복하는 작은 방법 [2가지]를",
+   "pos": "center"
+  },
+  {
+   "unit": "U260",
+   "text": "가볍게 기억해 주세요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U261",
+   "text": "첫 번째는,",
+   "box": false
+  },
+  {
+   "unit": "U262",
+   "text": "오늘 내 에너지가 [10점 만점]에",
+   "box": false
+  },
+  {
+   "unit": "U263",
+   "text": "몇 점인지 메모해 보는 거예요.",
+   "box": false
+  },
+  {
+   "unit": "U264",
+   "text": "아침에 한 번,"
+  },
+  {
+   "unit": "U265",
+   "text": "퇴근하고 한 번이면 충분하고,"
+  },
+  {
+   "unit": "U266",
+   "text": "이유를 길게 적을 필요도 없습니다."
+  },
+  {
+   "unit": "U267",
+   "text": "그냥 [숫자 하나]면 돼요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U268",
+   "text": "이렇게 며칠만 적어 봐도",
+   "box": false
+  },
+  {
+   "unit": "U269",
+   "text": "유독 점수가 낮아지는 날이",
+   "box": false
+  },
+  {
+   "unit": "U270",
+   "text": "눈에 들어오기 시작합니다.",
+   "box": false
+  },
+  {
+   "unit": "U271",
+   "text": "'아, 월요일 회의가 있는 날은",
+   "box": false
+  },
+  {
+   "unit": "U272",
+   "text": "늘 3점이네' 하고요.",
+   "box": false
+  },
+  {
+   "unit": "U273",
+   "text": "이런 흐름이 눈에 보이면,"
+  },
+  {
+   "unit": "U274",
+   "text": "정체를 알 수 없던 막연한 피로가"
+  },
+  {
+   "unit": "U275",
+   "text": "조금씩 다룰 수 있는"
+  },
+  {
+   "unit": "U276",
+   "text": "구체적인 문제로 바뀝니다."
+  },
+  {
+   "unit": "U277",
+   "text": "두 번째는,",
+   "box": false
+  },
+  {
+   "unit": "U278",
+   "text": "아까 말씀드린 6가지 일터의 조건을",
+   "box": false
+  },
+  {
+   "unit": "U279",
+   "text": "떠올려 보고,",
+   "box": false
+  },
+  {
+   "unit": "U280",
+   "text": "그중 지금 나와 가장 크게 어긋나 있는 것",
+   "box": false
+  },
+  {
+   "unit": "U281",
+   "text": "[하나만] 골라 적어 보는 거예요.",
+   "box": false
+  },
+  {
+   "unit": "U282",
+   "text": "업무량인지, 보상인지,",
+   "box": false
+  },
+  {
+   "unit": "U283",
+   "text": "아니면 함께 일하는",
+   "box": false
+  },
+  {
+   "unit": "U284",
+   "text": "사람인지 짚어 보는 거죠.",
+   "box": false
+  },
+  {
+   "unit": "U285",
+   "text": "나를 지치게 하는 원인을"
+  },
+  {
+   "unit": "U286",
+   "text": "딱 하나만 짚어 봐도,"
+  },
+  {
+   "unit": "U287",
+   "text": "이게 내 의지 탓만은"
+  },
+  {
+   "unit": "U288",
+   "text": "아니라는 걸 알게 됩니다."
+  },
+  {
+   "unit": "U289",
+   "text": "그리고 저는 그걸 아는 것부터가"
+  },
+  {
+   "unit": "U290",
+   "text": "자책을 멈추고 회복을 고민하는"
+  },
+  {
+   "unit": "U291",
+   "text": "첫걸음이 될 수 있다고 생각해요."
+  },
+  {
+   "unit": "U292",
+   "text": "주말 내내 자고도"
+  },
+  {
+   "unit": "U293",
+   "text": "알람을 끄고 다시 눕게 되는 아침."
+  },
+  {
+   "unit": "U294",
+   "text": "그 무거운 아침은 어쩌면 게으름이 아니라,",
+   "box": false
+  },
+  {
+   "unit": "U295",
+   "text": "그동안 오래 닳아 온",
+   "box": false
+  },
+  {
+   "unit": "U296",
+   "text": "내 마음의 [배터리]를",
+   "box": false
+  },
+  {
+   "unit": "U297",
+   "text": "보여 주는 건지도 모릅니다.",
+   "box": false
+  },
+  {
+   "unit": "U298",
+   "text": "지금 번아웃을 이겨 내려고"
+  },
+  {
+   "unit": "U299",
+   "text": "애쓰는 중이시라면"
+  },
+  {
+   "unit": "U300",
+   "text": "이 말을 꼭 전하고 싶습니다."
+  },
+  {
+   "unit": "U301",
+   "text": "주말 내내 쉬었는데도 그대로인 건,"
+  },
+  {
+   "unit": "U302",
+   "text": "여러분이 극복을 못 해서가"
+  },
+  {
+   "unit": "U303",
+   "text": "아닐 수 있다고요."
+  },
+  {
+   "unit": "U304",
+   "text": "당신은 게을러진 게 아니라,",
+   "pos": "center"
+  },
+  {
+   "unit": "U305",
+   "text": "그만큼 오랫동안 [애써 온] 거라고요.",
+   "pos": "center"
+  },
+  {
+   "unit": "U306",
+   "text": "쉬어도 풀리지 않는 피로가"
+  },
+  {
+   "unit": "U307",
+   "text": "왜 의지의 문제가 아닐 수 있는지,"
+  },
+  {
+   "unit": "U308",
+   "text": "그리고 지금 내 상태를"
+  },
+  {
+   "unit": "U309",
+   "text": "어떻게 점검해 볼 수 있는지,"
+  },
+  {
+   "unit": "U310",
+   "text": "오늘 이야기가 그걸 아는 데"
+  },
+  {
+   "unit": "U311",
+   "text": "작은 도움이 되었으면 좋겠습니다."
+  }
+ ]
+}

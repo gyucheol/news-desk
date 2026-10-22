@@ -174,7 +174,7 @@ def main():
                  "clicks_turned_down": [round(float(t), 3) for t in clicks],
                  "breaths_turned_down": [[round(u, 2), round(v, 2), round(g, 1)] for u, v, g in breaths]}
         if not edge:
-            kind = ("section" if any(abs(A - t) < 0.3 for t in sections) else
+            kind = ("section" if any(A - 0.3 <= t <= B + 0.1 for t in sections) else   # t falls in this pause
                     "sentence" if prv and re.search(r"[.?!]$", prv["w"]) else "comma")
             need = ((B - A + 0.16) - TARGET_GAP[kind]) * (1 - soft)
             entry["type"] = kind

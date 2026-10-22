@@ -8,7 +8,7 @@ res = []
 for vid in ids:
     url = idx[vid]["url"]; p = f"{out}/item_{vid}.html"
     if not os.path.exists(p):
-        subprocess.run(["curl", "-s", "-L", "-m", "30", "-A", "Mozilla/5.0", "-o", p, url], check=False); time.sleep(1.5)
+        subprocess.run(["curl", "-s", "-L", "-m", "30", "-A", "Mozilla/5.0", "-o", p, url], check=False); time.sleep(3)
     s = open(p, encoding="utf-8", errors="ignore").read()
     notice, lic, content = None, None, None
     for blk in re.findall(r'<script[^>]*ld\+json[^>]*>(.*?)</script>', s, flags=re.S):

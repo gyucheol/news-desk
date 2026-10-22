@@ -14,6 +14,8 @@ dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=d
 subs = [dict(s, start=round(max(al[s["unit"]]["start"] - LEAD, 0.0), 3)) for s in spec["subs"]]
 for i, s in enumerate(subs):
     s["end"] = subs[i + 1]["start"] if i + 1 < len(subs) else round(dur, 3)
+if "last_sub_hold" in spec:     # audio runs on past the narration (end screen): last subtitle leaves this long after speech
+    subs[-1]["end"] = round(min(al[subs[-1]["unit"]]["end"] + spec["last_sub_hold"], dur), 3)
 start_of = {s["unit"]: s["start"] for s in subs}
 scenes = []
 for i, sc in enumerate(spec["scenes"]):

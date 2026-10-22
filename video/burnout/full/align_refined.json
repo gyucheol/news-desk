@@ -1,0 +1,3112 @@
+[
+ {
+  "id": "U001",
+  "text": "주말 내내 분명 푹 잤는데,",
+  "start": 0.22,
+  "end": 1.72,
+  "first_word_end": 0.44,
+  "match": 1.0,
+  "start_asr": 0.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U002",
+  "text": "월요일 아침 알람을 끄고",
+  "start": 1.72,
+  "end": 3.42,
+  "first_word_end": 2.46,
+  "match": 1.0,
+  "start_asr": 1.72,
+  "pause_expected": true
+ },
+ {
+  "id": "U003",
+  "text": "또 그대로 눕게 됩니다.",
+  "start": 3.42,
+  "end": 4.36,
+  "first_word_end": 3.68,
+  "match": 1.0,
+  "start_asr": 3.42,
+  "pause_expected": false
+ },
+ {
+  "id": "U004",
+  "text": "'이번 주말엔 진짜 아무것도",
+  "start": 4.83,
+  "end": 5.98,
+  "first_word_end": 4.9,
+  "match": 1.0,
+  "start_asr": 4.58,
+  "pause_expected": true
+ },
+ {
+  "id": "U005",
+  "text": "안 하고 쉬었는데,",
+  "start": 5.98,
+  "end": 6.54,
+  "first_word_end": 6.12,
+  "match": 1.0,
+  "start_asr": 5.98,
+  "pause_expected": false
+ },
+ {
+  "id": "U006",
+  "text": "왜 몸이 그대로지?'",
+  "start": 6.54,
+  "end": 7.8,
+  "first_word_end": 7.1,
+  "match": 1.0,
+  "start_asr": 6.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U007",
+  "text": "번아웃을 이겨 내 보려고",
+  "start": 8.32,
+  "end": 9.22,
+  "first_word_end": 8.68,
+  "match": 1.0,
+  "start_asr": 8.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U008",
+  "text": "나름대로 쉬어 봤는데도",
+  "start": 9.22,
+  "end": 10.44,
+  "first_word_end": 9.68,
+  "match": 1.0,
+  "start_asr": 9.22,
+  "pause_expected": false
+ },
+ {
+  "id": "U009",
+  "text": "좀처럼 나아지질 않아서,",
+  "start": 10.44,
+  "end": 11.7,
+  "first_word_end": 10.98,
+  "match": 1.0,
+  "start_asr": 10.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U010",
+  "text": "혹시 '내가 그냥 게을러서 그런가' 하고",
+  "start": 11.7,
+  "end": 14.04,
+  "first_word_end": 12.12,
+  "match": 1.0,
+  "start_asr": 11.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U011",
+  "text": "자책하고 계셨나요?",
+  "start": 14.04,
+  "end": 14.9,
+  "first_word_end": 14.54,
+  "match": 1.0,
+  "start_asr": 14.04,
+  "pause_expected": false
+ },
+ {
+  "id": "U012",
+  "text": "그렇다면 오늘 이야기가",
+  "start": 15.32,
+  "end": 16.42,
+  "first_word_end": 15.6,
+  "match": 1.0,
+  "start_asr": 15.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U013",
+  "text": "작은 힌트가 될지도 모르겠습니다.",
+  "start": 16.42,
+  "end": 17.86,
+  "first_word_end": 16.74,
+  "match": 1.0,
+  "start_asr": 16.42,
+  "pause_expected": false
+ },
+ {
+  "id": "U014",
+  "text": "분명 쉬었는데도 피로가",
+  "start": 18.48,
+  "end": 19.72,
+  "first_word_end": 18.66,
+  "match": 1.0,
+  "start_asr": 18.22,
+  "pause_expected": true
+ },
+ {
+  "id": "U015",
+  "text": "왜 잘 풀리지 않는지,",
+  "start": 19.72,
+  "end": 20.72,
+  "first_word_end": 19.9,
+  "match": 1.0,
+  "start_asr": 19.72,
+  "pause_expected": false
+ },
+ {
+  "id": "U016",
+  "text": "그리고 그게 왜 내 게으름 탓이",
+  "start": 21.14,
+  "end": 22.72,
+  "first_word_end": 21.22,
+  "match": 1.0,
+  "start_asr": 20.72,
+  "pause_expected": true
+ },
+ {
+  "id": "U017",
+  "text": "아닐 수 있는지 하나씩",
+  "start": 22.72,
+  "end": 24.08,
+  "first_word_end": 23.02,
+  "match": 1.0,
+  "start_asr": 22.72,
+  "pause_expected": false
+ },
+ {
+  "id": "U018",
+  "text": "차근차근 이야기해 볼게요.",
+  "start": 24.08,
+  "end": 25.22,
+  "first_word_end": 24.68,
+  "match": 1.0,
+  "start_asr": 24.08,
+  "pause_expected": false
+ },
+ {
+  "id": "U019",
+  "text": "출근길에 업무 메일 알림이 하나 뜹니다.",
+  "start": 25.71,
+  "end": 27.46,
+  "first_word_end": 26.18,
+  "match": 1.0,
+  "start_asr": 25.5,
+  "pause_expected": true
+ },
+ {
+  "id": "U020",
+  "text": "아직 열어 보지도 않았는데",
+  "start": 27.93,
+  "end": 28.92,
+  "first_word_end": 28.02,
+  "match": 1.0,
+  "start_asr": 27.46,
+  "pause_expected": true
+ },
+ {
+  "id": "U021",
+  "text": "한숨부터 푹 나오죠.",
+  "start": 28.92,
+  "end": 30.3,
+  "first_word_end": 29.62,
+  "match": 1.0,
+  "start_asr": 28.92,
+  "pause_expected": false
+ },
+ {
+  "id": "U022",
+  "text": "회사에서 동료가 말을 걸어와도",
+  "start": 30.68,
+  "end": 32.06,
+  "first_word_end": 31.0,
+  "match": 1.0,
+  "start_asr": 30.38,
+  "pause_expected": true
+ },
+ {
+  "id": "U023",
+  "text": "맞장구칠 힘이 잘 나질 않습니다.",
+  "start": 32.06,
+  "end": 33.78,
+  "first_word_end": 32.68,
+  "match": 1.0,
+  "start_asr": 32.06,
+  "pause_expected": false
+ },
+ {
+  "id": "U024",
+  "text": "퇴근길엔 아침까지만 해도",
+  "start": 34.23,
+  "end": 35.52,
+  "first_word_end": 34.66,
+  "match": 1.0,
+  "start_asr": 34.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U025",
+  "text": "가려고 했던 운동을",
+  "start": 35.52,
+  "end": 36.46,
+  "first_word_end": 35.8,
+  "match": 1.0,
+  "start_asr": 35.52,
+  "pause_expected": false
+ },
+ {
+  "id": "U026",
+  "text": "슬그머니 접어요.",
+  "start": 36.46,
+  "end": 37.26,
+  "first_word_end": 36.9,
+  "match": 1.0,
+  "start_asr": 36.46,
+  "pause_expected": false
+ },
+ {
+  "id": "U027",
+  "text": "'아, 오늘은 너무 피곤하니까",
+  "start": 37.56,
+  "end": 38.94,
+  "first_word_end": 37.64,
+  "match": 1.0,
+  "start_asr": 37.46,
+  "pause_expected": true
+ },
+ {
+  "id": "U028",
+  "text": "내일 하자.'",
+  "start": 38.94,
+  "end": 39.58,
+  "first_word_end": 39.3,
+  "match": 1.0,
+  "start_asr": 38.94,
+  "pause_expected": false
+ },
+ {
+  "id": "U029",
+  "text": "집에 와서는 아무 영상이나 틀어 놓고",
+  "start": 40.01,
+  "end": 41.64,
+  "first_word_end": 40.1,
+  "match": 1.0,
+  "start_asr": 39.74,
+  "pause_expected": true
+ },
+ {
+  "id": "U030",
+  "text": "휴대폰 화면만 멍하니 들여다보는데,",
+  "start": 41.64,
+  "end": 43.6,
+  "first_word_end": 42.22,
+  "match": 1.0,
+  "start_asr": 41.64,
+  "pause_expected": false
+ },
+ {
+  "id": "U031",
+  "text": "한참을 보고 나서도",
+  "start": 43.93,
+  "end": 44.8,
+  "first_word_end": 44.36,
+  "match": 1.0,
+  "start_asr": 43.6,
+  "pause_expected": true
+ },
+ {
+  "id": "U032",
+  "text": "방금 뭘 봤는지 기억이 잘 안 납니다.",
+  "start": 44.8,
+  "end": 46.78,
+  "first_word_end": 45.36,
+  "match": 1.0,
+  "start_asr": 44.8,
+  "pause_expected": false
+ },
+ {
+  "id": "U033",
+  "text": "그렇게 겨우 금요일이 오면,",
+  "start": 47.26,
+  "end": 48.38,
+  "first_word_end": 47.36,
+  "match": 1.0,
+  "start_asr": 47.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U034",
+  "text": "'그래도 이번 주말엔 푹 쉬면",
+  "start": 48.81,
+  "end": 49.98,
+  "first_word_end": 48.9,
+  "match": 0.91,
+  "start_asr": 48.38,
+  "pause_expected": true
+ },
+ {
+  "id": "U035",
+  "text": "괜찮아지겠지' 하고 기대하게 되죠.",
+  "start": 49.98,
+  "end": 51.9,
+  "first_word_end": 50.78,
+  "match": 1.0,
+  "start_asr": 49.98,
+  "pause_expected": false
+ },
+ {
+  "id": "U036",
+  "text": "토요일엔 늦잠을 자고,",
+  "start": 52.14,
+  "end": 53.04,
+  "first_word_end": 52.46,
+  "match": 1.0,
+  "start_asr": 52.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U037",
+  "text": "일요일엔 하루 종일 누워만 있었습니다.",
+  "start": 53.37,
+  "end": 55.0,
+  "first_word_end": 53.72,
+  "match": 1.0,
+  "start_asr": 53.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U038",
+  "text": "정말 아무것도 안 하고 쉬기만 했어요.",
+  "start": 55.31,
+  "end": 56.92,
+  "first_word_end": 55.46,
+  "match": 1.0,
+  "start_asr": 55.18,
+  "pause_expected": true
+ },
+ {
+  "id": "U039",
+  "text": "그런데 참 이상하죠.",
+  "start": 57.4,
+  "end": 58.16,
+  "first_word_end": 57.48,
+  "match": 1.0,
+  "start_asr": 56.92,
+  "pause_expected": true
+ },
+ {
+  "id": "U040",
+  "text": "일요일 저녁만 되면 마음이",
+  "start": 58.6,
+  "end": 59.92,
+  "first_word_end": 58.78,
+  "match": 1.0,
+  "start_asr": 58.32,
+  "pause_expected": true
+ },
+ {
+  "id": "U041",
+  "text": "다시 쿵 무거워집니다.",
+  "start": 59.92,
+  "end": 61.1,
+  "first_word_end": 60.04,
+  "match": 1.0,
+  "start_asr": 59.92,
+  "pause_expected": false
+ },
+ {
+  "id": "U042",
+  "text": "'아, 내일 또 출근이네.'",
+  "start": 61.44,
+  "end": 62.8,
+  "first_word_end": 61.46,
+  "match": 1.0,
+  "start_asr": 61.18,
+  "pause_expected": true
+ },
+ {
+  "id": "U043",
+  "text": "혹시 여러분도 일요일",
+  "start": 63.27,
+  "end": 64.32,
+  "first_word_end": 63.36,
+  "match": 1.0,
+  "start_asr": 63.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U044",
+  "text": "저녁 6시쯤만 되면",
+  "start": 64.32,
+  "end": 65.38,
+  "first_word_end": 64.58,
+  "match": 1.0,
+  "start_asr": 64.32,
+  "pause_expected": false
+ },
+ {
+  "id": "U045",
+  "text": "이런 기분이 슬슬 올라오지 않으시나요?",
+  "start": 65.38,
+  "end": 67.3,
+  "first_word_end": 65.8,
+  "match": 1.0,
+  "start_asr": 65.38,
+  "pause_expected": false
+ },
+ {
+  "id": "U046",
+  "text": "바로 이런 상태를 부르는 이름이",
+  "start": 67.7,
+  "end": 69.08,
+  "first_word_end": 67.76,
+  "match": 1.0,
+  "start_asr": 67.48,
+  "pause_expected": true
+ },
+ {
+  "id": "U047",
+  "text": "우리가 잘 아는 '번아웃'입니다.",
+  "start": 69.08,
+  "end": 70.66,
+  "first_word_end": 69.4,
+  "match": 1.0,
+  "start_asr": 69.08,
+  "pause_expected": false
+ },
+ {
+  "id": "U048",
+  "text": "심리학에서 이 말을 처음 쓴 사람은",
+  "start": 71.07,
+  "end": 72.66,
+  "first_word_end": 71.48,
+  "match": 1.0,
+  "start_asr": 71.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U049",
+  "text": "미국의 심리학자",
+  "start": 72.66,
+  "end": 73.62,
+  "first_word_end": 73.12,
+  "match": 1.0,
+  "start_asr": 72.66,
+  "pause_expected": false
+ },
+ {
+  "id": "U050",
+  "text": "허버트 프로이덴버거인데요.",
+  "start": 73.62,
+  "end": 74.82,
+  "first_word_end": 74.14,
+  "match": 1.0,
+  "start_asr": 73.62,
+  "pause_expected": false
+ },
+ {
+  "id": "U051",
+  "text": "1970년대 뉴욕에서 일하던 그는",
+  "start": 75.38,
+  "end": 77.12,
+  "first_word_end": 76.14,
+  "match": 1.0,
+  "start_asr": 75.38,
+  "pause_expected": true
+ },
+ {
+  "id": "U052",
+  "text": "누구보다 열정과 사명감이",
+  "start": 77.12,
+  "end": 78.86,
+  "first_word_end": 77.8,
+  "match": 1.0,
+  "start_asr": 77.12,
+  "pause_expected": false
+ },
+ {
+  "id": "U053",
+  "text": "넘치는 사람이었습니다.",
+  "start": 78.86,
+  "end": 79.78,
+  "first_word_end": 79.22,
+  "match": 1.0,
+  "start_asr": 78.86,
+  "pause_expected": false
+ },
+ {
+  "id": "U054",
+  "text": "낮에는 자기 상담실에서",
+  "start": 80.23,
+  "end": 81.34,
+  "first_word_end": 80.44,
+  "match": 1.0,
+  "start_asr": 80.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U055",
+  "text": "12시간 동안 환자들을 돌보고,",
+  "start": 81.34,
+  "end": 83.0,
+  "first_word_end": 81.98,
+  "match": 1.0,
+  "start_asr": 81.34,
+  "pause_expected": false
+ },
+ {
+  "id": "U056",
+  "text": "밤이 되면 형편이 어려운 사람들을 돕겠다며",
+  "start": 83.0,
+  "end": 85.44,
+  "first_word_end": 83.52,
+  "match": 1.0,
+  "start_asr": 83.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U057",
+  "text": "무료 진료소로 건너가",
+  "start": 85.44,
+  "end": 86.7,
+  "first_word_end": 85.86,
+  "match": 1.0,
+  "start_asr": 85.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U058",
+  "text": "새벽 2시까지 일하곤 했죠.",
+  "start": 86.7,
+  "end": 88.16,
+  "first_word_end": 87.06,
+  "match": 1.0,
+  "start_asr": 86.7,
+  "pause_expected": false
+ },
+ {
+  "id": "U059",
+  "text": "몸이 부서져라 일하면서도",
+  "start": 88.46,
+  "end": 89.56,
+  "first_word_end": 88.64,
+  "match": 1.0,
+  "start_asr": 88.22,
+  "pause_expected": true
+ },
+ {
+  "id": "U060",
+  "text": "본인은 괜찮다고 생각했습니다.",
+  "start": 89.56,
+  "end": 91.08,
+  "first_word_end": 90.12,
+  "match": 1.0,
+  "start_asr": 89.56,
+  "pause_expected": false
+ },
+ {
+  "id": "U061",
+  "text": "그러다 사단이 난 건,",
+  "start": 91.59,
+  "end": 92.4,
+  "first_word_end": 91.76,
+  "match": 1.0,
+  "start_asr": 91.36,
+  "pause_expected": true
+ },
+ {
+  "id": "U062",
+  "text": "모처럼 가족들과 크리스마스 여행을",
+  "start": 92.4,
+  "end": 94.44,
+  "first_word_end": 92.96,
+  "match": 1.0,
+  "start_asr": 92.4,
+  "pause_expected": true
+ },
+ {
+  "id": "U063",
+  "text": "떠나기로 한 아침이었어요.",
+  "start": 94.44,
+  "end": 95.58,
+  "first_word_end": 94.8,
+  "match": 1.0,
+  "start_asr": 94.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U064",
+  "text": "일에서 손을 놓고 긴장이 풀리자마자,",
+  "start": 95.93,
+  "end": 97.78,
+  "first_word_end": 96.1,
+  "match": 1.0,
+  "start_asr": 95.72,
+  "pause_expected": true
+ },
+ {
+  "id": "U065",
+  "text": "그동안 쌓였던 피로가",
+  "start": 98.06,
+  "end": 98.96,
+  "first_word_end": 98.22,
+  "match": 1.0,
+  "start_asr": 97.78,
+  "pause_expected": true
+ },
+ {
+  "id": "U066",
+  "text": "한꺼번에 덮친 겁니다.",
+  "start": 98.96,
+  "end": 99.92,
+  "first_word_end": 99.52,
+  "match": 1.0,
+  "start_asr": 98.96,
+  "pause_expected": false
+ },
+ {
+  "id": "U067",
+  "text": "그는 그날 아침 침대에서",
+  "start": 100.45,
+  "end": 101.74,
+  "first_word_end": 100.58,
+  "match": 1.0,
+  "start_asr": 100.32,
+  "pause_expected": true
+ },
+ {
+  "id": "U068",
+  "text": "손가락 하나 까딱하지 못했고,",
+  "start": 101.74,
+  "end": 103.3,
+  "first_word_end": 102.24,
+  "match": 1.0,
+  "start_asr": 101.74,
+  "pause_expected": false
+ },
+ {
+  "id": "U069",
+  "text": "결국 약속했던 여행을 가지 못한 채",
+  "start": 103.57,
+  "end": 105.44,
+  "first_word_end": 103.76,
+  "match": 1.0,
+  "start_asr": 103.3,
+  "pause_expected": true
+ },
+ {
+  "id": "U070",
+  "text": "며칠 내내 앓아누웠습니다.",
+  "start": 105.44,
+  "end": 106.84,
+  "first_word_end": 105.88,
+  "match": 0.91,
+  "start_asr": 105.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U071",
+  "text": "충격을 받은 그는",
+  "start": 107.28,
+  "end": 108.02,
+  "first_word_end": 107.56,
+  "match": 1.0,
+  "start_asr": 107.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U072",
+  "text": "자신이 왜 이렇게 무너졌는지",
+  "start": 108.02,
+  "end": 109.48,
+  "first_word_end": 108.58,
+  "match": 1.0,
+  "start_asr": 108.02,
+  "pause_expected": false
+ },
+ {
+  "id": "U073",
+  "text": "알아내기 위해 녹음기를 켰습니다.",
+  "start": 109.48,
+  "end": 111.06,
+  "first_word_end": 109.88,
+  "match": 1.0,
+  "start_asr": 109.48,
+  "pause_expected": false
+ },
+ {
+  "id": "U074",
+  "text": "매일 한두 시간씩",
+  "start": 111.48,
+  "end": 112.34,
+  "first_word_end": 111.7,
+  "match": 1.0,
+  "start_asr": 111.32,
+  "pause_expected": true
+ },
+ {
+  "id": "U075",
+  "text": "지금 자기가 느끼는 피로감과 짜증,",
+  "start": 112.34,
+  "end": 114.52,
+  "first_word_end": 112.74,
+  "match": 1.0,
+  "start_asr": 112.34,
+  "pause_expected": false
+ },
+ {
+  "id": "U076",
+  "text": "공허함을 있는 그대로 녹음한 뒤",
+  "start": 114.79,
+  "end": 116.4,
+  "first_word_end": 115.24,
+  "match": 1.0,
+  "start_asr": 114.6,
+  "pause_expected": true
+ },
+ {
+  "id": "U077",
+  "text": "다시 돌려 들어 본 거예요.",
+  "start": 116.4,
+  "end": 117.54,
+  "first_word_end": 116.76,
+  "match": 1.0,
+  "start_asr": 116.4,
+  "pause_expected": false
+ },
+ {
+  "id": "U078",
+  "text": "거기엔 평소 따뜻하던 자신의 모습 대신,",
+  "start": 117.99,
+  "end": 120.02,
+  "first_word_end": 118.24,
+  "match": 1.0,
+  "start_asr": 117.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U079",
+  "text": "완전히 지쳐서 날이 서 있는",
+  "start": 120.36,
+  "end": 121.76,
+  "first_word_end": 120.72,
+  "match": 1.0,
+  "start_asr": 120.02,
+  "pause_expected": true
+ },
+ {
+  "id": "U080",
+  "text": "낯선 목소리가 담겨 있었습니다.",
+  "start": 121.76,
+  "end": 123.34,
+  "first_word_end": 122.24,
+  "match": 1.0,
+  "start_asr": 121.76,
+  "pause_expected": false
+ },
+ {
+  "id": "U081",
+  "text": "그는 진료소에서 함께 일하던",
+  "start": 123.79,
+  "end": 125.14,
+  "first_word_end": 123.9,
+  "match": 1.0,
+  "start_asr": 123.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U082",
+  "text": "동료들을 떠올렸어요.",
+  "start": 125.14,
+  "end": 126.08,
+  "first_word_end": 125.54,
+  "match": 1.0,
+  "start_asr": 125.14,
+  "pause_expected": false
+ },
+ {
+  "id": "U083",
+  "text": "가만히 돌아보니,",
+  "start": 126.46,
+  "end": 127.1,
+  "first_word_end": 126.68,
+  "match": 1.0,
+  "start_asr": 126.22,
+  "pause_expected": true
+ },
+ {
+  "id": "U084",
+  "text": "처음에 가장 뜨겁게 헌신하던",
+  "start": 127.43,
+  "end": 128.88,
+  "first_word_end": 127.72,
+  "match": 1.0,
+  "start_asr": 127.1,
+  "pause_expected": true
+ },
+ {
+  "id": "U085",
+  "text": "동료들일수록 가장 먼저",
+  "start": 128.88,
+  "end": 130.2,
+  "first_word_end": 129.58,
+  "match": 1.0,
+  "start_asr": 128.88,
+  "pause_expected": false
+ },
+ {
+  "id": "U086",
+  "text": "지치고, 예민해지고,",
+  "start": 130.2,
+  "end": 131.52,
+  "first_word_end": 130.74,
+  "match": 1.0,
+  "start_asr": 130.2,
+  "pause_expected": false
+ },
+ {
+  "id": "U087",
+  "text": "결국엔 차갑고 냉소적으로",
+  "start": 131.52,
+  "end": 133.34,
+  "first_word_end": 132.2,
+  "match": 1.0,
+  "start_asr": 131.52,
+  "pause_expected": true
+ },
+ {
+  "id": "U088",
+  "text": "변해 가고 있었던 겁니다.",
+  "start": 133.34,
+  "end": 134.26,
+  "first_word_end": 133.86,
+  "match": 1.0,
+  "start_asr": 133.34,
+  "pause_expected": false
+ },
+ {
+  "id": "U089",
+  "text": "마치 연료를 끝까지 다 태워버리고",
+  "start": 134.78,
+  "end": 136.56,
+  "first_word_end": 135.02,
+  "match": 1.0,
+  "start_asr": 134.5,
+  "pause_expected": true
+ },
+ {
+  "id": "U090",
+  "text": "잿더미만 남은 것처럼요.",
+  "start": 136.56,
+  "end": 137.92,
+  "first_word_end": 137.26,
+  "match": 1.0,
+  "start_asr": 136.56,
+  "pause_expected": false
+ },
+ {
+  "id": "U091",
+  "text": "그는 1974년 논문에서,",
+  "start": 138.14,
+  "end": 139.7,
+  "first_word_end": 138.26,
+  "match": 1.0,
+  "start_asr": 138.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U092",
+  "text": "이렇게 열정을 다 태우고",
+  "start": 139.7,
+  "end": 141.32,
+  "first_word_end": 140.18,
+  "match": 1.0,
+  "start_asr": 139.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U093",
+  "text": "텅 비어버린 상태를",
+  "start": 141.32,
+  "end": 142.44,
+  "first_word_end": 141.64,
+  "match": 1.0,
+  "start_asr": 141.32,
+  "pause_expected": false
+ },
+ {
+  "id": "U094",
+  "text": "처음으로 '번아웃'이라고 불렀습니다.",
+  "start": 142.44,
+  "end": 144.36,
+  "first_word_end": 143.08,
+  "match": 1.0,
+  "start_asr": 142.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U095",
+  "text": "여기서 우리가",
+  "start": 144.76,
+  "end": 145.14,
+  "first_word_end": 144.88,
+  "match": 1.0,
+  "start_asr": 144.5,
+  "pause_expected": true
+ },
+ {
+  "id": "U096",
+  "text": "꼭 눈여겨봐야 할 점이 있어요.",
+  "start": 145.14,
+  "end": 146.58,
+  "first_word_end": 145.28,
+  "match": 1.0,
+  "start_asr": 145.14,
+  "pause_expected": false
+ },
+ {
+  "id": "U097",
+  "text": "번아웃이라는 말을 만든 사람도,",
+  "start": 146.99,
+  "end": 148.44,
+  "first_word_end": 147.44,
+  "match": 1.0,
+  "start_asr": 146.78,
+  "pause_expected": true
+ },
+ {
+  "id": "U098",
+  "text": "그가 지켜본 동료들도",
+  "start": 148.44,
+  "end": 149.76,
+  "first_word_end": 148.82,
+  "match": 1.0,
+  "start_asr": 148.44,
+  "pause_expected": true
+ },
+ {
+  "id": "U099",
+  "text": "결코 게으른 사람들이 아니었다는 겁니다.",
+  "start": 149.76,
+  "end": 151.76,
+  "first_word_end": 150.34,
+  "match": 1.0,
+  "start_asr": 149.76,
+  "pause_expected": false
+ },
+ {
+  "id": "U100",
+  "text": "오히려 누구보다 책임감이 강하고,",
+  "start": 152.25,
+  "end": 153.88,
+  "first_word_end": 152.44,
+  "match": 1.0,
+  "start_asr": 151.98,
+  "pause_expected": true
+ },
+ {
+  "id": "U101",
+  "text": "가장 열심히 애쓰던 사람들이",
+  "start": 153.88,
+  "end": 155.44,
+  "first_word_end": 154.24,
+  "match": 1.0,
+  "start_asr": 153.88,
+  "pause_expected": true
+ },
+ {
+  "id": "U102",
+  "text": "제일 먼저 번아웃에 빠졌다는 거죠.",
+  "start": 155.44,
+  "end": 157.36,
+  "first_word_end": 155.92,
+  "match": 1.0,
+  "start_asr": 155.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U103",
+  "text": "그로부터 한참 뒤인 2019년,",
+  "start": 157.8,
+  "end": 159.48,
+  "first_word_end": 158.0,
+  "match": 1.0,
+  "start_asr": 157.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U104",
+  "text": "세계보건기구는 번아웃을",
+  "start": 159.73,
+  "end": 161.22,
+  "first_word_end": 160.5,
+  "match": 1.0,
+  "start_asr": 159.48,
+  "pause_expected": true
+ },
+ {
+  "id": "U105",
+  "text": "'제대로 관리되지 않은",
+  "start": 161.22,
+  "end": 162.38,
+  "first_word_end": 161.62,
+  "match": 1.0,
+  "start_asr": 161.22,
+  "pause_expected": false
+ },
+ {
+  "id": "U106",
+  "text": "만성적인 직장 스트레스에서 생기는",
+  "start": 162.38,
+  "end": 164.38,
+  "first_word_end": 163.12,
+  "match": 1.0,
+  "start_asr": 162.38,
+  "pause_expected": false
+ },
+ {
+  "id": "U107",
+  "text": "증후군'이라고 정의했습니다.",
+  "start": 164.38,
+  "end": 165.68,
+  "first_word_end": 165.18,
+  "match": 1.0,
+  "start_asr": 164.38,
+  "pause_expected": false
+ },
+ {
+  "id": "U108",
+  "text": "쉽게 말해, 일 때문에 쌓인 스트레스가",
+  "start": 166.26,
+  "end": 168.1,
+  "first_word_end": 166.46,
+  "match": 1.0,
+  "start_asr": 166.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U109",
+  "text": "오랫동안 풀리지 못해서",
+  "start": 168.1,
+  "end": 169.48,
+  "first_word_end": 168.76,
+  "match": 1.0,
+  "start_asr": 168.1,
+  "pause_expected": false
+ },
+ {
+  "id": "U110",
+  "text": "생긴 상태라는 거예요.",
+  "start": 169.48,
+  "end": 170.36,
+  "first_word_end": 169.8,
+  "match": 1.0,
+  "start_asr": 169.48,
+  "pause_expected": false
+ },
+ {
+  "id": "U111",
+  "text": "흥미로운 건,",
+  "start": 170.78,
+  "end": 171.26,
+  "first_word_end": 171.1,
+  "match": 1.0,
+  "start_asr": 170.56,
+  "pause_expected": true
+ },
+ {
+  "id": "U112",
+  "text": "세계보건기구가 번아웃을",
+  "start": 171.26,
+  "end": 172.98,
+  "first_word_end": 172.34,
+  "match": 1.0,
+  "start_asr": 171.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U113",
+  "text": "개인의 질병으로",
+  "start": 172.98,
+  "end": 173.9,
+  "first_word_end": 173.42,
+  "match": 1.0,
+  "start_asr": 172.98,
+  "pause_expected": false
+ },
+ {
+  "id": "U114",
+  "text": "분류하지 않았다는 점입니다.",
+  "start": 173.9,
+  "end": 175.06,
+  "first_word_end": 174.32,
+  "match": 1.0,
+  "start_asr": 173.9,
+  "pause_expected": false
+ },
+ {
+  "id": "U115",
+  "text": "대신 일과 관련된 현상으로 분류했고,",
+  "start": 175.51,
+  "end": 177.52,
+  "first_word_end": 175.74,
+  "match": 1.0,
+  "start_asr": 175.14,
+  "pause_expected": true
+ },
+ {
+  "id": "U116",
+  "text": "직장이라는 맥락에서만 쓰는 말이라고",
+  "start": 177.52,
+  "end": 179.48,
+  "first_word_end": 178.22,
+  "match": 1.0,
+  "start_asr": 177.52,
+  "pause_expected": true
+ },
+ {
+  "id": "U117",
+  "text": "분명히 선을 그어 두었죠.",
+  "start": 179.48,
+  "end": 180.9,
+  "first_word_end": 180.1,
+  "match": 1.0,
+  "start_asr": 179.48,
+  "pause_expected": false
+ },
+ {
+  "id": "U118",
+  "text": "저는 이 번아웃을 휴대폰에",
+  "start": 181.21,
+  "end": 182.78,
+  "first_word_end": 181.28,
+  "match": 1.0,
+  "start_asr": 180.96,
+  "pause_expected": true
+ },
+ {
+  "id": "U119",
+  "text": "한 번 비유해 보고 싶습니다.",
+  "start": 182.78,
+  "end": 183.88,
+  "first_word_end": 182.92,
+  "match": 1.0,
+  "start_asr": 182.78,
+  "pause_expected": false
+ },
+ {
+  "id": "U120",
+  "text": "충전하는 속도보다",
+  "start": 184.28,
+  "end": 185.1,
+  "first_word_end": 184.62,
+  "match": 1.0,
+  "start_asr": 184.08,
+  "pause_expected": true
+ },
+ {
+  "id": "U121",
+  "text": "배터리가 닳는 속도가 더 빠른",
+  "start": 185.1,
+  "end": 186.88,
+  "first_word_end": 185.66,
+  "match": 1.0,
+  "start_asr": 185.1,
+  "pause_expected": false
+ },
+ {
+  "id": "U122",
+  "text": "휴대폰 말이에요.",
+  "start": 186.88,
+  "end": 187.46,
+  "first_word_end": 187.2,
+  "match": 1.0,
+  "start_asr": 186.88,
+  "pause_expected": false
+ },
+ {
+  "id": "U123",
+  "text": "이런 휴대폰은",
+  "start": 187.86,
+  "end": 188.46,
+  "first_word_end": 187.96,
+  "match": 1.0,
+  "start_asr": 187.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U124",
+  "text": "하룻밤 충전기를 꽂아 둔다고 해서",
+  "start": 188.46,
+  "end": 190.12,
+  "first_word_end": 188.92,
+  "match": 1.0,
+  "start_asr": 188.46,
+  "pause_expected": false
+ },
+ {
+  "id": "U125",
+  "text": "문제가 해결되지 않습니다.",
+  "start": 190.12,
+  "end": 191.42,
+  "first_word_end": 190.56,
+  "match": 1.0,
+  "start_asr": 190.12,
+  "pause_expected": false
+ },
+ {
+  "id": "U126",
+  "text": "보이지 않는 곳에서 배터리를 빼 가는",
+  "start": 191.83,
+  "end": 193.48,
+  "first_word_end": 192.0,
+  "match": 1.0,
+  "start_asr": 191.66,
+  "pause_expected": true
+ },
+ {
+  "id": "U127",
+  "text": "무언가가 여전히 켜져 있으니까요.",
+  "start": 193.48,
+  "end": 195.28,
+  "first_word_end": 194.12,
+  "match": 1.0,
+  "start_asr": 193.48,
+  "pause_expected": false
+ },
+ {
+  "id": "U128",
+  "text": "세계보건기구는 번아웃의 특징을",
+  "start": 195.61,
+  "end": 197.4,
+  "first_word_end": 196.34,
+  "match": 1.0,
+  "start_asr": 195.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U129",
+  "text": "크게 세 가지로 설명합니다.",
+  "start": 197.4,
+  "end": 198.56,
+  "first_word_end": 197.6,
+  "match": 1.0,
+  "start_asr": 197.4,
+  "pause_expected": false
+ },
+ {
+  "id": "U130",
+  "text": "먼저 번아웃의 첫 번째 신호는",
+  "start": 198.98,
+  "end": 200.48,
+  "first_word_end": 199.12,
+  "match": 1.0,
+  "start_asr": 198.84,
+  "pause_expected": true
+ },
+ {
+  "id": "U131",
+  "text": "에너지가 바닥나는 겁니다.",
+  "start": 200.48,
+  "end": 201.7,
+  "first_word_end": 201.04,
+  "match": 1.0,
+  "start_asr": 200.48,
+  "pause_expected": false
+ },
+ {
+  "id": "U132",
+  "text": "토요일에 10시간을 자고",
+  "start": 202.2,
+  "end": 203.32,
+  "first_word_end": 202.5,
+  "match": 1.0,
+  "start_asr": 202.02,
+  "pause_expected": true
+ },
+ {
+  "id": "U133",
+  "text": "일요일엔 낮잠까지 잤는데도,",
+  "start": 203.32,
+  "end": 204.88,
+  "first_word_end": 203.92,
+  "match": 1.0,
+  "start_asr": 203.32,
+  "pause_expected": false
+ },
+ {
+  "id": "U134",
+  "text": "월요일 아침이면 몸이 여전히 무겁습니다.",
+  "start": 204.88,
+  "end": 207.02,
+  "first_word_end": 205.44,
+  "match": 1.0,
+  "start_asr": 204.88,
+  "pause_expected": true
+ },
+ {
+  "id": "U135",
+  "text": "'이 정도 쉬었으면",
+  "start": 207.35,
+  "end": 208.0,
+  "first_word_end": 207.36,
+  "match": 1.0,
+  "start_asr": 207.22,
+  "pause_expected": true
+ },
+ {
+  "id": "U136",
+  "text": "괜찮아야 하는데' 싶다가도,",
+  "start": 208.0,
+  "end": 209.62,
+  "first_word_end": 208.56,
+  "match": 1.0,
+  "start_asr": 208.0,
+  "pause_expected": false
+ },
+ {
+  "id": "U137",
+  "text": "어느새 자책이 따라오죠.",
+  "start": 209.62,
+  "end": 210.94,
+  "first_word_end": 210.12,
+  "match": 1.0,
+  "start_asr": 209.62,
+  "pause_expected": true
+ },
+ {
+  "id": "U138",
+  "text": "'남들은 주말에",
+  "start": 211.31,
+  "end": 211.94,
+  "first_word_end": 211.56,
+  "match": 1.0,
+  "start_asr": 211.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U139",
+  "text": "운동도 하고 공부도 한다는데,",
+  "start": 211.94,
+  "end": 213.38,
+  "first_word_end": 212.32,
+  "match": 1.0,
+  "start_asr": 211.94,
+  "pause_expected": false
+ },
+ {
+  "id": "U140",
+  "text": "나는 왜 누워만 있지?'",
+  "start": 213.38,
+  "end": 214.62,
+  "first_word_end": 213.88,
+  "match": 1.0,
+  "start_asr": 213.38,
+  "pause_expected": true
+ },
+ {
+  "id": "U141",
+  "text": "보통의 피로는 푹 쉬고 나면",
+  "start": 215.11,
+  "end": 216.52,
+  "first_word_end": 215.36,
+  "match": 1.0,
+  "start_asr": 214.88,
+  "pause_expected": true
+ },
+ {
+  "id": "U142",
+  "text": "어느 정도 풀리지만,",
+  "start": 216.52,
+  "end": 217.34,
+  "first_word_end": 216.7,
+  "match": 1.0,
+  "start_asr": 216.52,
+  "pause_expected": false
+ },
+ {
+  "id": "U143",
+  "text": "번아웃의 피로는 아무리 쉬어도",
+  "start": 217.74,
+  "end": 219.28,
+  "first_word_end": 218.08,
+  "match": 1.0,
+  "start_asr": 217.34,
+  "pause_expected": true
+ },
+ {
+  "id": "U144",
+  "text": "잘 채워지지 않는다고",
+  "start": 219.28,
+  "end": 220.5,
+  "first_word_end": 219.58,
+  "match": 1.0,
+  "start_asr": 219.28,
+  "pause_expected": false
+ },
+ {
+  "id": "U145",
+  "text": "느끼는 경우가 많습니다.",
+  "start": 220.5,
+  "end": 221.48,
+  "first_word_end": 220.82,
+  "match": 1.0,
+  "start_asr": 220.5,
+  "pause_expected": false
+ },
+ {
+  "id": "U146",
+  "text": "그럼 게으름과는 뭐가 다를까요?",
+  "start": 221.95,
+  "end": 223.38,
+  "first_word_end": 222.04,
+  "match": 1.0,
+  "start_asr": 221.72,
+  "pause_expected": true
+ },
+ {
+  "id": "U147",
+  "text": "게으름이 '하기 싫은 마음'에 가깝다면,",
+  "start": 223.81,
+  "end": 225.54,
+  "first_word_end": 224.16,
+  "match": 1.0,
+  "start_asr": 223.56,
+  "pause_expected": true
+ },
+ {
+  "id": "U148",
+  "text": "번아웃은 '하고 싶어도",
+  "start": 225.54,
+  "end": 227.1,
+  "first_word_end": 226.38,
+  "match": 1.0,
+  "start_asr": 225.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U149",
+  "text": "꺼내 쓸 힘이 남아 있지 않은 상태'에",
+  "start": 227.1,
+  "end": 229.0,
+  "first_word_end": 227.66,
+  "match": 0.86,
+  "start_asr": 227.1,
+  "pause_expected": false
+ },
+ {
+  "id": "U150",
+  "text": "가깝습니다.",
+  "start": 229.0,
+  "end": 229.46,
+  "first_word_end": 229.46,
+  "match": 1.0,
+  "start_asr": 229.0,
+  "pause_expected": false
+ },
+ {
+  "id": "U151",
+  "text": "그러니까 이건 마음가짐의 문제가 아니라,",
+  "start": 229.74,
+  "end": 231.5,
+  "first_word_end": 229.88,
+  "match": 1.0,
+  "start_asr": 229.62,
+  "pause_expected": true
+ },
+ {
+  "id": "U152",
+  "text": "바닥난 연료의 문제인 거죠.",
+  "start": 231.88,
+  "end": 233.1,
+  "first_word_end": 232.22,
+  "match": 1.0,
+  "start_asr": 231.5,
+  "pause_expected": true
+ },
+ {
+  "id": "U153",
+  "text": "번아웃의 두 번째 신호는",
+  "start": 233.5,
+  "end": 234.6,
+  "first_word_end": 233.82,
+  "match": 1.0,
+  "start_asr": 233.32,
+  "pause_expected": true
+ },
+ {
+  "id": "U154",
+  "text": "일과 내 마음 사이의 거리가",
+  "start": 234.6,
+  "end": 236.36,
+  "first_word_end": 235.16,
+  "match": 1.0,
+  "start_asr": 234.6,
+  "pause_expected": false
+ },
+ {
+  "id": "U155",
+  "text": "점점 멀어지는 겁니다.",
+  "start": 236.36,
+  "end": 237.42,
+  "first_word_end": 236.84,
+  "match": 1.0,
+  "start_asr": 236.36,
+  "pause_expected": false
+ },
+ {
+  "id": "U156",
+  "text": "회의에서 새로운 의견이 나오면,",
+  "start": 237.88,
+  "end": 239.22,
+  "first_word_end": 238.18,
+  "match": 1.0,
+  "start_asr": 237.66,
+  "pause_expected": true
+ },
+ {
+  "id": "U157",
+  "text": "예전 같았으면 같이 고민했을 텐데",
+  "start": 239.22,
+  "end": 241.14,
+  "first_word_end": 239.72,
+  "match": 1.0,
+  "start_asr": 239.22,
+  "pause_expected": true
+ },
+ {
+  "id": "U158",
+  "text": "요즘은 '어차피 해도 안 바뀌어'라는",
+  "start": 241.14,
+  "end": 243.44,
+  "first_word_end": 241.86,
+  "match": 1.0,
+  "start_asr": 241.14,
+  "pause_expected": false
+ },
+ {
+  "id": "U159",
+  "text": "생각부터 듭니다.",
+  "start": 243.44,
+  "end": 244.22,
+  "first_word_end": 243.84,
+  "match": 1.0,
+  "start_asr": 243.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U160",
+  "text": "메신저에 팀장님 이름만 떠도",
+  "start": 244.52,
+  "end": 246.06,
+  "first_word_end": 244.94,
+  "match": 1.0,
+  "start_asr": 244.44,
+  "pause_expected": true
+ },
+ {
+  "id": "U161",
+  "text": "가슴이 답답해지고,",
+  "start": 246.06,
+  "end": 247.1,
+  "first_word_end": 246.5,
+  "match": 1.0,
+  "start_asr": 246.06,
+  "pause_expected": false
+ },
+ {
+  "id": "U162",
+  "text": "점심은 그냥 혼자 먹고 싶어지죠.",
+  "start": 247.1,
+  "end": 249.16,
+  "first_word_end": 247.9,
+  "match": 1.0,
+  "start_asr": 247.1,
+  "pause_expected": true
+ },
+ {
+  "id": "U163",
+  "text": "예전엔 즐겁던 동료들의 수다조차",
+  "start": 249.36,
+  "end": 251.12,
+  "first_word_end": 249.66,
+  "match": 1.0,
+  "start_asr": 249.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U164",
+  "text": "요즘은 시끄럽게만 들리고요.",
+  "start": 251.12,
+  "end": 252.42,
+  "first_word_end": 251.64,
+  "match": 0.92,
+  "start_asr": 251.12,
+  "pause_expected": false
+ },
+ {
+  "id": "U165",
+  "text": "세계보건기구는 이런 모습을",
+  "start": 252.54,
+  "end": 254.04,
+  "first_word_end": 253.22,
+  "match": 0.92,
+  "start_asr": 252.42,
+  "pause_expected": true
+ },
+ {
+  "id": "U166",
+  "text": "일에 대한 '심리적 거리감',",
+  "start": 254.04,
+  "end": 255.56,
+  "first_word_end": 254.42,
+  "match": 1.0,
+  "start_asr": 254.04,
+  "pause_expected": false
+ },
+ {
+  "id": "U167",
+  "text": "혹은 '냉소'라고 설명합니다.",
+  "start": 255.87,
+  "end": 257.36,
+  "first_word_end": 256.02,
+  "match": 0.91,
+  "start_asr": 255.56,
+  "pause_expected": true
+ },
+ {
+  "id": "U168",
+  "text": "이게 게으름과 다른 건,",
+  "start": 257.85,
+  "end": 258.84,
+  "first_word_end": 257.92,
+  "match": 1.0,
+  "start_asr": 257.6,
+  "pause_expected": true
+ },
+ {
+  "id": "U169",
+  "text": "처음부터 일에 관심이 없었던 게",
+  "start": 258.84,
+  "end": 260.82,
+  "first_word_end": 259.54,
+  "match": 1.0,
+  "start_asr": 258.84,
+  "pause_expected": true
+ },
+ {
+  "id": "U170",
+  "text": "아니라는 점이에요.",
+  "start": 260.82,
+  "end": 261.5,
+  "first_word_end": 261.16,
+  "match": 1.0,
+  "start_asr": 260.82,
+  "pause_expected": false
+ },
+ {
+  "id": "U171",
+  "text": "너무 오랫동안 애쓰다 보니,",
+  "start": 261.8,
+  "end": 263.06,
+  "first_word_end": 261.9,
+  "match": 1.0,
+  "start_asr": 261.64,
+  "pause_expected": true
+ },
+ {
+  "id": "U172",
+  "text": "지친 마음이 상처받지 않으려고",
+  "start": 263.06,
+  "end": 264.84,
+  "first_word_end": 263.56,
+  "match": 1.0,
+  "start_asr": 263.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U173",
+  "text": "스스로 한 발 물러나 버린",
+  "start": 264.84,
+  "end": 266.52,
+  "first_word_end": 265.52,
+  "match": 1.0,
+  "start_asr": 264.84,
+  "pause_expected": false
+ },
+ {
+  "id": "U174",
+  "text": "쪽에 가깝습니다.",
+  "start": 266.52,
+  "end": 267.2,
+  "first_word_end": 266.74,
+  "match": 1.0,
+  "start_asr": 266.52,
+  "pause_expected": false
+ },
+ {
+  "id": "U175",
+  "text": "원래 무관심했던 게 아니라,",
+  "start": 267.46,
+  "end": 268.56,
+  "first_word_end": 267.6,
+  "match": 1.0,
+  "start_asr": 267.3,
+  "pause_expected": true
+ },
+ {
+  "id": "U176",
+  "text": "지친 마음이 스스로 거리를 두는 거죠.",
+  "start": 269.04,
+  "end": 270.9,
+  "first_word_end": 269.26,
+  "match": 1.0,
+  "start_asr": 268.56,
+  "pause_expected": true
+ },
+ {
+  "id": "U177",
+  "text": "번아웃의 세 번째 신호는",
+  "start": 271.44,
+  "end": 272.5,
+  "first_word_end": 271.76,
+  "match": 1.0,
+  "start_asr": 271.14,
+  "pause_expected": true
+ },
+ {
+  "id": "U178",
+  "text": "내가 일을 잘 해내고 있다는 느낌이",
+  "start": 272.5,
+  "end": 274.34,
+  "first_word_end": 272.92,
+  "match": 1.0,
+  "start_asr": 272.5,
+  "pause_expected": false
+ },
+ {
+  "id": "U179",
+  "text": "부쩍 줄어드는 겁니다.",
+  "start": 274.34,
+  "end": 275.5,
+  "first_word_end": 274.94,
+  "match": 1.0,
+  "start_asr": 274.34,
+  "pause_expected": false
+ },
+ {
+  "id": "U180",
+  "text": "분명 작년엔 칭찬까지 받았던 보고서인데,",
+  "start": 276.02,
+  "end": 278.06,
+  "first_word_end": 276.22,
+  "match": 1.0,
+  "start_asr": 275.82,
+  "pause_expected": true
+ },
+ {
+  "id": "U181",
+  "text": "올해는 쓰는 내내 자신이 없어요.",
+  "start": 278.48,
+  "end": 280.0,
+  "first_word_end": 278.74,
+  "match": 1.0,
+  "start_asr": 278.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U182",
+  "text": "빈 파일을 열어 놓고",
+  "start": 280.41,
+  "end": 281.18,
+  "first_word_end": 280.52,
+  "match": 1.0,
+  "start_asr": 280.24,
+  "pause_expected": true
+ },
+ {
+  "id": "U183",
+  "text": "한 시간째 첫 문장만 고치고 있죠.",
+  "start": 281.395,
+  "end": 283.16,
+  "first_word_end": 282.04,
+  "match": 0.92,
+  "start_asr": 281.395,
+  "pause_expected": false
+ },
+ {
+  "id": "U184",
+  "text": "'나 원래 이 일 잘하던 사람 맞나?'",
+  "start": 283.49,
+  "end": 285.2,
+  "first_word_end": 283.52,
+  "match": 0.92,
+  "start_asr": 283.32,
+  "pause_expected": true
+ },
+ {
+  "id": "U185",
+  "text": "싶고, 작은 실수 하나에도",
+  "start": 285.47,
+  "end": 286.9,
+  "first_word_end": 285.74,
+  "match": 1.0,
+  "start_asr": 285.24,
+  "pause_expected": true
+ },
+ {
+  "id": "U186",
+  "text": "내가 무능한 사람처럼 느껴집니다.",
+  "start": 286.9,
+  "end": 288.66,
+  "first_word_end": 287.32,
+  "match": 1.0,
+  "start_asr": 286.9,
+  "pause_expected": false
+ },
+ {
+  "id": "U187",
+  "text": "세계보건기구는 이걸 '직업적 효능감',",
+  "start": 289.03,
+  "end": 291.24,
+  "first_word_end": 289.74,
+  "match": 1.0,
+  "start_asr": 288.98,
+  "pause_expected": true
+ },
+ {
+  "id": "U188",
+  "text": "그러니까 내가 해낼 수 있다는 믿음이",
+  "start": 291.57,
+  "end": 293.5,
+  "first_word_end": 291.62,
+  "match": 1.0,
+  "start_asr": 291.24,
+  "pause_expected": true
+ },
+ {
+  "id": "U189",
+  "text": "줄어드는 거라고 표현합니다.",
+  "start": 293.5,
+  "end": 294.7,
+  "first_word_end": 293.98,
+  "match": 1.0,
+  "start_asr": 293.5,
+  "pause_expected": false
+ },
+ {
+  "id": "U190",
+  "text": "그런데 이것도 내 능력이 없어서",
+  "start": 295.15,
+  "end": 296.72,
+  "first_word_end": 295.26,
+  "match": 1.0,
+  "start_asr": 294.88,
+  "pause_expected": true
+ },
+ {
+  "id": "U191",
+  "text": "생기는 일이 아니에요.",
+  "start": 296.72,
+  "end": 297.54,
+  "first_word_end": 297.06,
+  "match": 1.0,
+  "start_asr": 296.72,
+  "pause_expected": false
+ },
+ {
+  "id": "U192",
+  "text": "오히려 잘하고 싶은 마음이",
+  "start": 298.03,
+  "end": 299.4,
+  "first_word_end": 298.22,
+  "match": 1.0,
+  "start_asr": 297.78,
+  "pause_expected": true
+ },
+ {
+  "id": "U193",
+  "text": "아직 남아 있으니까 더 괴로운 겁니다.",
+  "start": 299.4,
+  "end": 301.16,
+  "first_word_end": 299.58,
+  "match": 1.0,
+  "start_asr": 299.4,
+  "pause_expected": false
+ },
+ {
+  "id": "U194",
+  "text": "내 능력이 사라진 게 아니라,",
+  "start": 301.64,
+  "end": 302.68,
+  "first_word_end": 301.68,
+  "match": 1.0,
+  "start_asr": 301.46,
+  "pause_expected": true
+ },
+ {
+  "id": "U195",
+  "text": "내 능력을 느끼고 발휘할 힘이",
+  "start": 302.68,
+  "end": 304.98,
+  "first_word_end": 303.14,
+  "match": 1.0,
+  "start_asr": 302.68,
+  "pause_expected": true
+ },
+ {
+  "id": "U196",
+  "text": "줄어든 거예요.",
+  "start": 304.98,
+  "end": 305.54,
+  "first_word_end": 305.38,
+  "match": 1.0,
+  "start_asr": 304.98,
+  "pause_expected": false
+ },
+ {
+  "id": "U197",
+  "text": "그렇다면 번아웃은 푹 쉬면 나아질까요?",
+  "start": 305.95,
+  "end": 308.06,
+  "first_word_end": 306.2,
+  "match": 0.94,
+  "start_asr": 305.8,
+  "pause_expected": true
+ },
+ {
+  "id": "U198",
+  "text": "흔히들 그렇게 생각하지만,",
+  "start": 308.48,
+  "end": 309.5,
+  "first_word_end": 308.7,
+  "match": 1.0,
+  "start_asr": 308.28,
+  "pause_expected": true
+ },
+ {
+  "id": "U199",
+  "text": "휴가에 관한 연구들은",
+  "start": 309.5,
+  "end": 310.76,
+  "first_word_end": 310.08,
+  "match": 1.0,
+  "start_asr": 309.5,
+  "pause_expected": true
+ },
+ {
+  "id": "U200",
+  "text": "조금 다른 이야기를 들려줍니다.",
+  "start": 310.76,
+  "end": 312.26,
+  "first_word_end": 311.04,
+  "match": 1.0,
+  "start_asr": 310.76,
+  "pause_expected": false
+ },
+ {
+  "id": "U201",
+  "text": "2009년, 한 연구진이",
+  "start": 312.64,
+  "end": 314.06,
+  "first_word_end": 313.2,
+  "match": 1.0,
+  "start_asr": 312.46,
+  "pause_expected": true
+ },
+ {
+  "id": "U202",
+  "text": "휴가의 효과를 다룬 연구 7편을",
+  "start": 314.06,
+  "end": 316.02,
+  "first_word_end": 314.52,
+  "match": 1.0,
+  "start_asr": 314.06,
+  "pause_expected": false
+ },
+ {
+  "id": "U203",
+  "text": "모아서 분석했는데요.",
+  "start": 316.02,
+  "end": 316.9,
+  "first_word_end": 316.24,
+  "match": 1.0,
+  "start_asr": 316.02,
+  "pause_expected": false
+ },
+ {
+  "id": "U204",
+  "text": "휴가는 분명 건강과 행복감을 높여 줬지만,",
+  "start": 317.27,
+  "end": 319.7,
+  "first_word_end": 317.46,
+  "match": 1.0,
+  "start_asr": 317.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U205",
+  "text": "일터로 돌아가자마자",
+  "start": 319.7,
+  "end": 321.14,
+  "first_word_end": 320.46,
+  "match": 1.0,
+  "start_asr": 319.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U206",
+  "text": "그 효과는 금방 사라졌습니다.",
+  "start": 321.14,
+  "end": 322.7,
+  "first_word_end": 321.4,
+  "match": 1.0,
+  "start_asr": 321.14,
+  "pause_expected": false
+ },
+ {
+  "id": "U207",
+  "text": "같은 연구진이 더 많은 연구를",
+  "start": 323.1,
+  "end": 324.72,
+  "first_word_end": 323.18,
+  "match": 1.0,
+  "start_asr": 323.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U208",
+  "text": "모아 다시 분석했을 때도",
+  "start": 324.72,
+  "end": 325.92,
+  "first_word_end": 324.98,
+  "match": 1.0,
+  "start_asr": 324.72,
+  "pause_expected": false
+ },
+ {
+  "id": "U209",
+  "text": "결과는 비슷했어요.",
+  "start": 325.92,
+  "end": 327.14,
+  "first_word_end": 326.6,
+  "match": 1.0,
+  "start_asr": 325.92,
+  "pause_expected": false
+ },
+ {
+  "id": "U210",
+  "text": "직장에 복귀하고 첫 주가 지나면",
+  "start": 327.47,
+  "end": 329.06,
+  "first_word_end": 327.76,
+  "match": 1.0,
+  "start_asr": 327.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U211",
+  "text": "휴가 전과 큰 차이가 없었고,",
+  "start": 329.06,
+  "end": 330.74,
+  "first_word_end": 329.48,
+  "match": 1.0,
+  "start_asr": 329.06,
+  "pause_expected": false
+ },
+ {
+  "id": "U212",
+  "text": "휴가를 길게 다녀온다고 해서",
+  "start": 331.0,
+  "end": 332.28,
+  "first_word_end": 331.2,
+  "match": 1.0,
+  "start_asr": 330.74,
+  "pause_expected": true
+ },
+ {
+  "id": "U213",
+  "text": "그 효과가 더 커지지도 않았습니다.",
+  "start": 332.28,
+  "end": 334.12,
+  "first_word_end": 332.6,
+  "match": 1.0,
+  "start_asr": 332.28,
+  "pause_expected": false
+ },
+ {
+  "id": "U214",
+  "text": "도대체 왜 그럴까요?",
+  "start": 334.5,
+  "end": 335.46,
+  "first_word_end": 334.78,
+  "match": 1.0,
+  "start_asr": 334.34,
+  "pause_expected": true
+ },
+ {
+  "id": "U215",
+  "text": "매슬랙과 동료 연구자 마이클 라이터는",
+  "start": 335.89,
+  "end": 337.9,
+  "first_word_end": 336.34,
+  "match": 0.88,
+  "start_asr": 335.935,
+  "pause_expected": true
+ },
+ {
+  "id": "U216",
+  "text": "번아웃의 진짜 원인을",
+  "start": 337.9,
+  "end": 339.3,
+  "first_word_end": 338.6,
+  "match": 1.0,
+  "start_asr": 337.9,
+  "pause_expected": false
+ },
+ {
+  "id": "U217",
+  "text": "개인보다 일터에서 찾았습니다.",
+  "start": 339.3,
+  "end": 341.12,
+  "first_word_end": 340.04,
+  "match": 1.0,
+  "start_asr": 339.3,
+  "pause_expected": false
+ },
+ {
+  "id": "U218",
+  "text": "업무량,",
+  "start": 341.57,
+  "end": 341.92,
+  "first_word_end": 341.92,
+  "match": 1.0,
+  "start_asr": 341.42,
+  "pause_expected": true
+ },
+ {
+  "id": "U219",
+  "text": "일을 내 방식대로 해 나갈 수 있는 정도,",
+  "start": 342.23,
+  "end": 344.02,
+  "first_word_end": 342.44,
+  "match": 1.0,
+  "start_asr": 342.0,
+  "pause_expected": true
+ },
+ {
+  "id": "U220",
+  "text": "보상, 함께 일하는 사람들,",
+  "start": 344.41,
+  "end": 345.74,
+  "first_word_end": 344.66,
+  "match": 1.0,
+  "start_asr": 344.2,
+  "pause_expected": true
+ },
+ {
+  "id": "U221",
+  "text": "공정함, 그리고 가치관.",
+  "start": 346.15,
+  "end": 347.62,
+  "first_word_end": 346.58,
+  "match": 1.0,
+  "start_asr": 345.98,
+  "pause_expected": true
+ },
+ {
+  "id": "U222",
+  "text": "이 여섯 가지가 나와 계속 어긋날 때",
+  "start": 347.89,
+  "end": 349.86,
+  "first_word_end": 347.9,
+  "match": 1.0,
+  "start_asr": 347.62,
+  "pause_expected": true
+ },
+ {
+  "id": "U223",
+  "text": "번아웃이 생기기 쉽다고 본 거죠.",
+  "start": 349.86,
+  "end": 351.54,
+  "first_word_end": 350.5,
+  "match": 1.0,
+  "start_asr": 349.86,
+  "pause_expected": false
+ },
+ {
+  "id": "U224",
+  "text": "물론 지쳤을 때 쉬는 건 꼭 필요합니다.",
+  "start": 351.91,
+  "end": 353.88,
+  "first_word_end": 352.04,
+  "match": 1.0,
+  "start_asr": 351.66,
+  "pause_expected": true
+ },
+ {
+  "id": "U225",
+  "text": "하지만 배터리를 닳게 하는",
+  "start": 354.26,
+  "end": 355.52,
+  "first_word_end": 354.38,
+  "match": 1.0,
+  "start_asr": 354.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U226",
+  "text": "원인이 일터에 그대로 있다면,",
+  "start": 355.52,
+  "end": 357.04,
+  "first_word_end": 355.88,
+  "match": 1.0,
+  "start_asr": 355.52,
+  "pause_expected": false
+ },
+ {
+  "id": "U227",
+  "text": "다시 돌아가는 순간 배터리는",
+  "start": 357.04,
+  "end": 358.84,
+  "first_word_end": 357.48,
+  "match": 1.0,
+  "start_asr": 357.04,
+  "pause_expected": true
+ },
+ {
+  "id": "U228",
+  "text": "또 닳기 시작할 거예요.",
+  "start": 358.84,
+  "end": 359.92,
+  "first_word_end": 359.08,
+  "match": 1.0,
+  "start_asr": 358.84,
+  "pause_expected": false
+ },
+ {
+  "id": "U229",
+  "text": "바로 이 때문에 번아웃을 개인의",
+  "start": 360.32,
+  "end": 362.18,
+  "first_word_end": 360.4,
+  "match": 1.0,
+  "start_asr": 360.1,
+  "pause_expected": true
+ },
+ {
+  "id": "U230",
+  "text": "의지만의 문제로 보기는 어렵습니다.",
+  "start": 362.18,
+  "end": 363.8,
+  "first_word_end": 362.66,
+  "match": 1.0,
+  "start_asr": 362.18,
+  "pause_expected": false
+ },
+ {
+  "id": "U231",
+  "text": "이쯤에서 한 사람의 실제",
+  "start": 364.18,
+  "end": 365.54,
+  "first_word_end": 364.48,
+  "match": 1.0,
+  "start_asr": 363.98,
+  "pause_expected": true
+ },
+ {
+  "id": "U232",
+  "text": "이야기를 들려드릴게요.",
+  "start": 365.54,
+  "end": 366.4,
+  "first_word_end": 365.78,
+  "match": 1.0,
+  "start_asr": 365.54,
+  "pause_expected": false
+ },
+ {
+  "id": "U233",
+  "text": "작년 12월, 한 언론 기사에",
+  "start": 366.82,
+  "end": 368.42,
+  "first_word_end": 367.04,
+  "match": 1.0,
+  "start_asr": 366.64,
+  "pause_expected": true
+ },
+ {
+  "id": "U234",
+  "text": "26살 직장인",
+  "start": 368.42,
+  "end": 369.72,
+  "first_word_end": 369.26,
+  "match": 1.0,
+  "start_asr": 368.42,
+  "pause_expected": false
+ },
+ {
+  "id": "U235",
+  "text": "박 모 씨의 이야기가 실렸습니다.",
+  "start": 369.72,
+  "end": 371.14,
+  "first_word_end": 370.12,
+  "match": 1.0,
+  "start_asr": 369.72,
+  "pause_expected": false
+ },
+ {
+  "id": "U236",
+  "text": "그는 처음엔 자기 상태가",
+  "start": 371.55,
+  "end": 372.9,
+  "first_word_end": 371.68,
+  "match": 1.0,
+  "start_asr": 371.36,
+  "pause_expected": true
+ },
+ {
+  "id": "U237",
+  "text": "번아웃이라는 걸 몰랐다고 해요.",
+  "start": 372.9,
+  "end": 374.4,
+  "first_word_end": 373.48,
+  "match": 1.0,
+  "start_asr": 372.9,
+  "pause_expected": false
+ },
+ {
+  "id": "U238",
+  "text": "폭식을 하다가도",
+  "start": 374.75,
+  "end": 375.44,
+  "first_word_end": 375.04,
+  "match": 1.0,
+  "start_asr": 374.54,
+  "pause_expected": true
+ },
+ {
+  "id": "U239",
+  "text": "갑자기 입맛이 싹 사라지는 날이 반복됐고,",
+  "start": 375.44,
+  "end": 377.8,
+  "first_word_end": 375.92,
+  "match": 1.0,
+  "start_asr": 375.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U240",
+  "text": "화장실 갈 기운도 없어",
+  "start": 378.09,
+  "end": 379.08,
+  "first_word_end": 378.38,
+  "match": 1.0,
+  "start_asr": 377.8,
+  "pause_expected": true
+ },
+ {
+  "id": "U241",
+  "text": "잠만 자는 날이 이어졌다고 합니다.",
+  "start": 379.08,
+  "end": 380.74,
+  "first_word_end": 379.66,
+  "match": 1.0,
+  "start_asr": 379.08,
+  "pause_expected": false
+ },
+ {
+  "id": "U242",
+  "text": "그리고 기사에서 당시의 마음을",
+  "start": 381.05,
+  "end": 382.8,
+  "first_word_end": 381.14,
+  "match": 1.0,
+  "start_asr": 380.9,
+  "pause_expected": true
+ },
+ {
+  "id": "U243",
+  "text": "이렇게 말했어요.",
+  "start": 382.8,
+  "end": 383.52,
+  "first_word_end": 383.0,
+  "match": 1.0,
+  "start_asr": 382.8,
+  "pause_expected": false
+ },
+ {
+  "id": "U244",
+  "text": "\"열심히 살고 있는데도",
+  "start": 383.89,
+  "end": 384.88,
+  "first_word_end": 384.04,
+  "match": 1.0,
+  "start_asr": 383.62,
+  "pause_expected": true
+ },
+ {
+  "id": "U245",
+  "text": "늘 부족하다고 느끼는 감정이 쌓이다,",
+  "start": 384.88,
+  "end": 386.98,
+  "first_word_end": 385.26,
+  "match": 1.0,
+  "start_asr": 384.88,
+  "pause_expected": false
+ },
+ {
+  "id": "U246",
+  "text": "결국 감당이 안 되는 지점이",
+  "start": 387.36,
+  "end": 388.8,
+  "first_word_end": 387.48,
+  "match": 1.0,
+  "start_asr": 387.08,
+  "pause_expected": true
+ },
+ {
+  "id": "U247",
+  "text": "오는 것 같다.\"",
+  "start": 388.8,
+  "end": 389.42,
+  "first_word_end": 388.96,
+  "match": 1.0,
+  "start_asr": 388.8,
+  "pause_expected": false
+ },
+ {
+  "id": "U248",
+  "text": "저는 이 말 중에서",
+  "start": 389.75,
+  "end": 390.44,
+  "first_word_end": 389.84,
+  "match": 1.0,
+  "start_asr": 389.48,
+  "pause_expected": true
+ },
+ {
+  "id": "U249",
+  "text": "'열심히 살고 있는데도'라는",
+  "start": 390.44,
+  "end": 392.32,
+  "first_word_end": 391.04,
+  "match": 1.0,
+  "start_asr": 390.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U250",
+  "text": "부분이 유독 마음에 오래 남더라고요.",
+  "start": 392.32,
+  "end": 394.08,
+  "first_word_end": 392.62,
+  "match": 1.0,
+  "start_asr": 392.32,
+  "pause_expected": false
+ },
+ {
+  "id": "U251",
+  "text": "번아웃은 게을러서 오는 게 아니라,",
+  "start": 394.55,
+  "end": 395.96,
+  "first_word_end": 394.96,
+  "match": 1.0,
+  "start_asr": 394.36,
+  "pause_expected": true
+ },
+ {
+  "id": "U252",
+  "text": "열심히 사는 사람에게도",
+  "start": 395.96,
+  "end": 397.44,
+  "first_word_end": 396.54,
+  "match": 1.0,
+  "start_asr": 395.96,
+  "pause_expected": true
+ },
+ {
+  "id": "U253",
+  "text": "찾아올 수 있다는 말처럼 들렸거든요.",
+  "start": 397.44,
+  "end": 399.14,
+  "first_word_end": 397.9,
+  "match": 1.0,
+  "start_asr": 397.44,
+  "pause_expected": false
+ },
+ {
+  "id": "U254",
+  "text": "번아웃이라는 이름을 처음 붙인",
+  "start": 399.54,
+  "end": 401.14,
+  "first_word_end": 400.0,
+  "match": 1.0,
+  "start_asr": 399.36,
+  "pause_expected": true
+ },
+ {
+  "id": "U255",
+  "text": "프로이덴버거가 그랬던 것처럼요.",
+  "start": 401.14,
+  "end": 402.84,
+  "first_word_end": 401.94,
+  "match": 1.0,
+  "start_asr": 401.14,
+  "pause_expected": false
+ },
+ {
+  "id": "U256",
+  "text": "혹시 지금 이 이야기가",
+  "start": 403.11,
+  "end": 404.32,
+  "first_word_end": 403.26,
+  "match": 1.0,
+  "start_asr": 402.92,
+  "pause_expected": true
+ },
+ {
+  "id": "U257",
+  "text": "본인의 얘기처럼 들리셨다면,",
+  "start": 404.32,
+  "end": 405.76,
+  "first_word_end": 404.88,
+  "match": 1.0,
+  "start_asr": 404.32,
+  "pause_expected": false
+ },
+ {
+  "id": "U258",
+  "text": "이어서 말씀드릴",
+  "start": 406.16,
+  "end": 406.96,
+  "first_word_end": 406.36,
+  "match": 1.0,
+  "start_asr": 405.76,
+  "pause_expected": true
+ },
+ {
+  "id": "U259",
+  "text": "번아웃을 극복하는 작은 방법 두 가지를",
+  "start": 406.96,
+  "end": 409.42,
+  "first_word_end": 407.54,
+  "match": 0.94,
+  "start_asr": 406.96,
+  "pause_expected": false
+ },
+ {
+  "id": "U260",
+  "text": "가볍게 기억해 주세요.",
+  "start": 409.42,
+  "end": 410.44,
+  "first_word_end": 409.98,
+  "match": 1.0,
+  "start_asr": 409.42,
+  "pause_expected": false
+ },
+ {
+  "id": "U261",
+  "text": "첫 번째는,",
+  "start": 410.85,
+  "end": 411.3,
+  "first_word_end": 410.9,
+  "match": 1.0,
+  "start_asr": 410.68,
+  "pause_expected": true
+ },
+ {
+  "id": "U262",
+  "text": "오늘 내 에너지가 10점 만점에",
+  "start": 411.76,
+  "end": 413.22,
+  "first_word_end": 411.78,
+  "match": 1.0,
+  "start_asr": 411.76,
+  "pause_expected": true
+ },
+ {
+  "id": "U263",
+  "text": "몇 점인지 메모해 보는 거예요.",
+  "start": 413.22,
+  "end": 414.66,
+  "first_word_end": 413.36,
+  "match": 1.0,
+  "start_asr": 413.22,
+  "pause_expected": false
+ },
+ {
+  "id": "U264",
+  "text": "아침에 한 번,",
+  "start": 415.07,
+  "end": 415.64,
+  "first_word_end": 415.38,
+  "match": 1.0,
+  "start_asr": 414.82,
+  "pause_expected": true
+ },
+ {
+  "id": "U265",
+  "text": "퇴근하고 한 번이면 충분하고,",
+  "start": 415.91,
+  "end": 417.14,
+  "first_word_end": 416.24,
+  "match": 1.0,
+  "start_asr": 415.7,
+  "pause_expected": true
+ },
+ {
+  "id": "U266",
+  "text": "이유를 길게 적을 필요도 없습니다.",
+  "start": 417.14,
+  "end": 418.88,
+  "first_word_end": 417.7,
+  "match": 1.0,
+  "start_asr": 417.14,
+  "pause_expected": true
+ },
+ {
+  "id": "U267",
+  "text": "그냥 숫자 하나면 돼요.",
+  "start": 419.33,
+  "end": 420.38,
+  "first_word_end": 419.44,
+  "match": 1.0,
+  "start_asr": 419.14,
+  "pause_expected": true
+ },
+ {
+  "id": "U268",
+  "text": "이렇게 며칠만 적어 봐도",
+  "start": 420.72,
+  "end": 421.8,
+  "first_word_end": 420.8,
+  "match": 1.0,
+  "start_asr": 420.52,
+  "pause_expected": true
+ },
+ {
+  "id": "U269",
+  "text": "유독 점수가 낮아지는 날이",
+  "start": 421.8,
+  "end": 423.5,
+  "first_word_end": 422.28,
+  "match": 1.0,
+  "start_asr": 421.8,
+  "pause_expected": false
+ },
+ {
+  "id": "U270",
+  "text": "눈에 들어오기 시작합니다.",
+  "start": 423.5,
+  "end": 424.5,
+  "first_word_end": 423.76,
+  "match": 1.0,
+  "start_asr": 423.5,
+  "pause_expected": false
+ },
+ {
+  "id": "U271",
+  "text": "'아, 월요일 회의가 있는 날은",
+  "start": 424.66,
+  "end": 426.24,
+  "first_word_end": 424.8,
+  "match": 1.0,
+  "start_asr": 424.66,
+  "pause_expected": true
+ },
+ {
+  "id": "U272",
+  "text": "늘 3점이네' 하고요.",
+  "start": 426.24,
+  "end": 427.48,
+  "first_word_end": 426.42,
+  "match": 1.0,
+  "start_asr": 426.24,
+  "pause_expected": false
+ },
+ {
+  "id": "U273",
+  "text": "이런 흐름이 눈에 보이면,",
+  "start": 427.79,
+  "end": 428.68,
+  "first_word_end": 427.88,
+  "match": 1.0,
+  "start_asr": 427.56,
+  "pause_expected": true
+ },
+ {
+  "id": "U274",
+  "text": "정체를 알 수 없던 막연한 피로가",
+  "start": 428.68,
+  "end": 430.78,
+  "first_word_end": 429.36,
+  "match": 1.0,
+  "start_asr": 428.68,
+  "pause_expected": true
+ },
+ {
+  "id": "U275",
+  "text": "조금씩 다룰 수 있는",
+  "start": 430.78,
+  "end": 432.04,
+  "first_word_end": 431.46,
+  "match": 1.0,
+  "start_asr": 430.78,
+  "pause_expected": false
+ },
+ {
+  "id": "U276",
+  "text": "구체적인 문제로 바뀝니다.",
+  "start": 432.04,
+  "end": 433.5,
+  "first_word_end": 432.72,
+  "match": 1.0,
+  "start_asr": 432.04,
+  "pause_expected": false
+ },
+ {
+  "id": "U277",
+  "text": "두 번째는,",
+  "start": 433.85,
+  "end": 434.26,
+  "first_word_end": 433.86,
+  "match": 1.0,
+  "start_asr": 433.64,
+  "pause_expected": true
+ },
+ {
+  "id": "U278",
+  "text": "아까 말씀드린 6가지 일터의 조건을",
+  "start": 434.26,
+  "end": 436.62,
+  "first_word_end": 434.62,
+  "match": 0.93,
+  "start_asr": 434.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U279",
+  "text": "떠올려 보고,",
+  "start": 436.62,
+  "end": 437.06,
+  "first_word_end": 437.06,
+  "match": 1.0,
+  "start_asr": 436.62,
+  "pause_expected": false
+ },
+ {
+  "id": "U280",
+  "text": "그중 지금 나와 가장 크게 어긋나 있는 것",
+  "start": 437.42,
+  "end": 439.64,
+  "first_word_end": 437.64,
+  "match": 1.0,
+  "start_asr": 437.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U281",
+  "text": "하나만 골라 적어 보는 거예요.",
+  "start": 439.64,
+  "end": 441.08,
+  "first_word_end": 440.1,
+  "match": 1.0,
+  "start_asr": 439.64,
+  "pause_expected": false
+ },
+ {
+  "id": "U282",
+  "text": "업무량인지, 보상인지,",
+  "start": 441.38,
+  "end": 442.6,
+  "first_word_end": 441.92,
+  "match": 1.0,
+  "start_asr": 441.08,
+  "pause_expected": true
+ },
+ {
+  "id": "U283",
+  "text": "아니면 함께 일하는",
+  "start": 442.98,
+  "end": 443.92,
+  "first_word_end": 443.1,
+  "match": 1.0,
+  "start_asr": 442.6,
+  "pause_expected": true
+ },
+ {
+  "id": "U284",
+  "text": "사람인지 짚어 보는 거죠.",
+  "start": 443.92,
+  "end": 445.2,
+  "first_word_end": 444.4,
+  "match": 1.0,
+  "start_asr": 443.92,
+  "pause_expected": false
+ },
+ {
+  "id": "U285",
+  "text": "나를 지치게 하는 원인을",
+  "start": 445.35,
+  "end": 446.4,
+  "first_word_end": 445.5,
+  "match": 1.0,
+  "start_asr": 445.24,
+  "pause_expected": true
+ },
+ {
+  "id": "U286",
+  "text": "딱 하나만 짚어 봐도,",
+  "start": 446.4,
+  "end": 447.52,
+  "first_word_end": 446.66,
+  "match": 1.0,
+  "start_asr": 446.4,
+  "pause_expected": false
+ },
+ {
+  "id": "U287",
+  "text": "이게 내 의지 탓만은",
+  "start": 447.84,
+  "end": 449.02,
+  "first_word_end": 447.96,
+  "match": 1.0,
+  "start_asr": 447.52,
+  "pause_expected": true
+ },
+ {
+  "id": "U288",
+  "text": "아니라는 걸 알게 됩니다.",
+  "start": 449.02,
+  "end": 450.06,
+  "first_word_end": 449.34,
+  "match": 1.0,
+  "start_asr": 449.02,
+  "pause_expected": false
+ },
+ {
+  "id": "U289",
+  "text": "그리고 저는 그걸 아는 것부터가",
+  "start": 450.49,
+  "end": 452.1,
+  "first_word_end": 450.56,
+  "match": 1.0,
+  "start_asr": 450.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U290",
+  "text": "자책을 멈추고 회복을 고민하는",
+  "start": 452.1,
+  "end": 454.08,
+  "first_word_end": 452.7,
+  "match": 1.0,
+  "start_asr": 452.1,
+  "pause_expected": false
+ },
+ {
+  "id": "U291",
+  "text": "첫걸음이 될 수 있다고 생각해요.",
+  "start": 454.08,
+  "end": 455.68,
+  "first_word_end": 454.68,
+  "match": 1.0,
+  "start_asr": 454.08,
+  "pause_expected": false
+ },
+ {
+  "id": "U292",
+  "text": "주말 내내 자고도",
+  "start": 456.01,
+  "end": 456.92,
+  "first_word_end": 456.2,
+  "match": 1.0,
+  "start_asr": 455.84,
+  "pause_expected": true
+ },
+ {
+  "id": "U293",
+  "text": "알람을 끄고 다시 눕게 되는 아침.",
+  "start": 456.92,
+  "end": 458.86,
+  "first_word_end": 457.5,
+  "match": 1.0,
+  "start_asr": 456.92,
+  "pause_expected": false
+ },
+ {
+  "id": "U294",
+  "text": "그 무거운 아침은 어쩌면 게으름이 아니라,",
+  "start": 459.27,
+  "end": 461.34,
+  "first_word_end": 459.28,
+  "match": 1.0,
+  "start_asr": 459.06,
+  "pause_expected": true
+ },
+ {
+  "id": "U295",
+  "text": "그동안 오래 닳아 온",
+  "start": 461.34,
+  "end": 462.66,
+  "first_word_end": 461.94,
+  "match": 0.88,
+  "start_asr": 461.34,
+  "pause_expected": true
+ },
+ {
+  "id": "U296",
+  "text": "내 마음의 배터리를",
+  "start": 462.66,
+  "end": 463.7,
+  "first_word_end": 462.9,
+  "match": 1.0,
+  "start_asr": 462.66,
+  "pause_expected": false
+ },
+ {
+  "id": "U297",
+  "text": "보여 주는 건지도 모릅니다.",
+  "start": 463.7,
+  "end": 464.88,
+  "first_word_end": 464.16,
+  "match": 1.0,
+  "start_asr": 463.7,
+  "pause_expected": false
+ },
+ {
+  "id": "U298",
+  "text": "지금 번아웃을 이겨 내려고",
+  "start": 465.01,
+  "end": 466.28,
+  "first_word_end": 465.14,
+  "match": 1.0,
+  "start_asr": 464.98,
+  "pause_expected": true
+ },
+ {
+  "id": "U299",
+  "text": "애쓰는 중이시라면",
+  "start": 466.28,
+  "end": 467.12,
+  "first_word_end": 466.64,
+  "match": 1.0,
+  "start_asr": 466.28,
+  "pause_expected": false
+ },
+ {
+  "id": "U300",
+  "text": "이 말을 꼭 전하고 싶습니다.",
+  "start": 467.12,
+  "end": 468.68,
+  "first_word_end": 467.52,
+  "match": 1.0,
+  "start_asr": 467.12,
+  "pause_expected": false
+ },
+ {
+  "id": "U301",
+  "text": "주말 내내 쉬었는데도 그대로인 건,",
+  "start": 469.06,
+  "end": 470.72,
+  "first_word_end": 469.26,
+  "match": 1.0,
+  "start_asr": 468.84,
+  "pause_expected": true
+ },
+ {
+  "id": "U302",
+  "text": "여러분이 극복을 못 해서가",
+  "start": 470.72,
+  "end": 472.38,
+  "first_word_end": 471.42,
+  "match": 1.0,
+  "start_asr": 470.72,
+  "pause_expected": true
+ },
+ {
+  "id": "U303",
+  "text": "아닐 수 있다고요.",
+  "start": 472.38,
+  "end": 473.22,
+  "first_word_end": 472.72,
+  "match": 1.0,
+  "start_asr": 472.38,
+  "pause_expected": false
+ },
+ {
+  "id": "U304",
+  "text": "당신은 게을러진 게 아니라,",
+  "start": 473.5,
+  "end": 474.62,
+  "first_word_end": 473.8,
+  "match": 1.0,
+  "start_asr": 473.24,
+  "pause_expected": true
+ },
+ {
+  "id": "U305",
+  "text": "그만큼 오랫동안 애써 온 거라고요.",
+  "start": 475.05,
+  "end": 477.04,
+  "first_word_end": 475.4,
+  "match": 1.0,
+  "start_asr": 474.62,
+  "pause_expected": true
+ },
+ {
+  "id": "U306",
+  "text": "쉬어도 풀리지 않는 피로가",
+  "start": 477.08,
+  "end": 478.36,
+  "first_word_end": 477.4,
+  "match": 1.0,
+  "start_asr": 477.08,
+  "pause_expected": true
+ },
+ {
+  "id": "U307",
+  "text": "왜 의지의 문제가 아닐 수 있는지,",
+  "start": 478.36,
+  "end": 480.38,
+  "first_word_end": 478.74,
+  "match": 1.0,
+  "start_asr": 478.36,
+  "pause_expected": false
+ },
+ {
+  "id": "U308",
+  "text": "그리고 지금 내 상태를",
+  "start": 480.38,
+  "end": 481.7,
+  "first_word_end": 480.6,
+  "match": 1.0,
+  "start_asr": 480.38,
+  "pause_expected": true
+ },
+ {
+  "id": "U309",
+  "text": "어떻게 점검해 볼 수 있는지,",
+  "start": 481.7,
+  "end": 483.26,
+  "first_word_end": 482.02,
+  "match": 1.0,
+  "start_asr": 481.7,
+  "pause_expected": false
+ },
+ {
+  "id": "U310",
+  "text": "오늘 이야기가 그걸 아는 데",
+  "start": 483.52,
+  "end": 484.84,
+  "first_word_end": 483.58,
+  "match": 1.0,
+  "start_asr": 483.26,
+  "pause_expected": true
+ },
+ {
+  "id": "U311",
+  "text": "작은 도움이 되었으면 좋겠습니다.",
+  "start": 484.84,
+  "end": 486.32,
+  "first_word_end": 485.18,
+  "match": 1.0,
+  "start_asr": 484.84,
+  "pause_expected": false
+ }
+]

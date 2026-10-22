@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>F의 연애 VOX 샘플</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#000}
+body{font-family:'Noto Sans KR',sans-serif;color:#1f1f1f}
+#stage{position:absolute;inset:0;overflow:hidden}
+.scene{position:absolute;inset:0;display:none;transform-origin:50% 45%}
+.paper{background:url(tex/paper.png)}
+.dark{background:url(tex/dark.png)}
+.black{background:#000}
+.mat{background-color:#3e584b;background-image:linear-gradient(rgba(255,255,255,.14) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.14) 2px,transparent 2px),linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);background-size:300px 300px,300px 300px,60px 60px,60px 60px;background-position:-2px -2px}
+.abs{position:absolute}
+.pot{position:absolute;filter:drop-shadow(0 14px 18px rgba(0,0,0,.28))}
+.pot .ex,.pot .siren{display:none}
+.serif{font-family:'Noto Serif KR',serif}
+.pen{font-family:'Nanum Pen','Nanum Pen Script',cursive}
+/* subtitle (handoff 6-1) */
+#sub{position:absolute;left:50%;bottom:78px;transform:translateX(-50%);background:rgba(0,0,0,.92);color:#fff;font-weight:700;font-size:56px;line-height:1.22;padding:9px 26px;white-space:nowrap;display:none}
+.y{color:#F2C94C}
+/* HUD */
+#hud{position:absolute;top:40px;left:50%;transform:translateX(-50%);text-align:center;display:none}
+#hud .lab{font-size:24px;font-weight:700;letter-spacing:.42em;color:#6a6a6a;margin-left:.42em}
+#hud .cnt{font-size:46px;font-weight:900;letter-spacing:.06em;color:#1f1f1f;font-variant-numeric:tabular-nums}
+#hud .bar{width:330px;height:6px;background:rgba(0,0,0,.12);margin:8px auto 0;border-radius:3px;overflow:hidden}
+#hud .bar i{display:block;height:100%;width:0;background:#F2C94C}
+#grainwrap img{position:absolute;inset:0;width:1920px;height:1080px;mix-blend-mode:overlay;opacity:.17;display:none}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(0,0,0,0) 58%,rgba(0,0,0,.30) 100%);pointer-events:none}
+/* phone (line-drawn generic messenger) */
+.phone{position:absolute;width:500px;height:780px;border:9px solid #1d1d1d;border-radius:58px;background:#fbfaf7;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.ph-head{height:96px;border-bottom:3px solid #1d1d1d;display:flex;align-items:center;padding:14px 26px 0;font-size:30px;font-weight:700}
+.ph-head .back{font-size:46px;margin-right:16px;font-weight:500}
+.ph-body{padding:26px 22px}
+.date{margin:6px auto 34px;width:max-content;font-size:20px;color:#666;border:2px solid #bbb;border-radius:20px;padding:4px 16px}
+.row{display:flex;justify-content:flex-end;align-items:flex-end;gap:10px}
+.meta{display:flex;flex-direction:column;align-items:flex-end;font-size:18px;color:#777;line-height:1.25}
+.unread{position:relative;color:#d99a1c;font-size:24px;font-weight:900}
+.unread svg{position:absolute;left:-36px;top:-34px;width:96px;height:96px;overflow:visible}
+.bub{background:#F5D565;border:3px solid #1d1d1d;border-radius:22px;padding:14px 18px;font-size:28px;font-weight:500;transform-origin:100% 100%}
+.ph-input{position:absolute;left:0;right:0;bottom:0;height:86px;border-top:3px solid #1d1d1d;background:#f1efe9}
+.ph-input i{position:absolute;left:24px;right:90px;top:20px;height:44px;border:2px solid #aaa;border-radius:22px}
+.big{position:absolute;font-weight:900;font-size:230px;line-height:1;letter-spacing:-.02em;color:#1f1f1f}
+.ybox{position:absolute;left:-14px;right:-18px;bottom:18px;height:46%;background:#F2C94C;transform-origin:0 50%;z-index:-1}
+.note{position:absolute;background:#fbf8f1;box-shadow:0 12px 26px rgba(0,0,0,.18);padding:34px 46px}
+.tape{position:absolute;width:150px;height:46px;background:rgba(222,210,180,.75);top:-20px;left:50%;margin-left:-75px;transform:rotate(-3deg)}
+.card{position:absolute;background:#f8f5ee;box-shadow:0 16px 34px rgba(0,0,0,.33);padding:30px 34px}
+.card .cite{font-weight:900;font-size:32px;letter-spacing:.01em}
+.card .ttl{font-family:'Noto Serif KR',serif;font-weight:700;font-size:28px;line-height:1.35;margin-top:10px;color:#2a2a2a}
+.card .jr{font-size:21px;color:#666;margin-top:12px;font-style:italic}
+.quote{font-family:'Noto Serif KR',serif;font-weight:700;font-size:38px;line-height:1.38;margin-top:22px}
+.hl{background:linear-gradient(#F2C94C,#F2C94C) no-repeat 0 82%/0% 44%}
+.ko{font-size:25px;color:#555;margin-top:12px}
+.label{position:absolute;background:#fff;box-shadow:0 10px 22px rgba(0,0,0,.28);padding:16px 34px;font-size:80px;line-height:1}
+.ring{position:absolute;border-radius:50%;border:5px solid #e2533b}
+</style></head>
+<body><div id="stage">
+
+<!-- S1: phone + 30분째 -->
+<div id="s1" class="scene paper">
+  <div class="phone" style="left:250px;top:150px">
+    <div class="ph-head"><span class="back">‹</span>그 사람</div>
+    <div class="ph-body">
+      <div class="date">10월 24일 금요일</div>
+      <div class="row"><div class="meta"><b class="unread" id="one">1<svg viewBox="0 0 96 96"><path id="ring1" d="M14 50 C10 20 78 8 86 42 C92 74 24 86 14 56 C10 44 20 30 36 24" fill="none" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/></svg></b><span>오후 7:02</span></div><div class="bub" id="bub1">오늘 하루 어땠어요?</div></div>
+    </div>
+    <div class="ph-input"><i></i></div>
+  </div>
+  <div class="big" id="big30" style="left:900px;top:330px"><span class="ybox" id="ybox30"></span>30분째</div>
+  <div class="abs pen" id="unr" style="left:920px;top:600px;font-size:76px;color:#555">아직 안 읽음…</div>
+</div>
+
+<!-- S2: potato + note -->
+<div id="s2" class="scene paper">
+  <div class="note pen" id="note2" style="left:300px;top:250px;transform:rotate(-5deg)"><div class="tape"></div><span style="font-size:118px;color:#2c2c2c">바쁜가 보다~</span></div>
+  <div class="pot" id="p2" style="left:1110px;top:250px;width:440px"></div>
+  <div class="abs" style="left:1050px;top:560px;width:96px;height:176px;border:7px solid #1d1d1d;border-radius:20px;background:#fbfaf7;transform:rotate(-9deg);box-shadow:0 10px 18px rgba(0,0,0,.2)"><div style="margin:40px 10px 0 auto;width:46px;height:20px;background:#F5D565;border:2px solid #1d1d1d;border-radius:8px"></div></div>
+</div>
+
+<!-- S3: timer -->
+<div id="s3" class="scene paper">
+  <svg class="abs" id="timer" style="left:300px;top:180px" width="640" height="640" viewBox="-320 -320 640 640"></svg>
+  <div class="pot" id="p3" style="left:1180px;top:250px;width:400px"></div>
+</div>
+
+<!-- S4: black card (inner thought) -->
+<div id="s4" class="scene black">
+  <div class="abs" id="think" style="left:0;right:0;top:500px;text-align:center;color:#fff;font-size:64px;font-weight:500;font-style:italic"></div>
+</div>
+
+<!-- S5: inside the head -->
+<div id="s5" class="scene paper">
+  <div class="abs serif" id="t5" style="left:0;right:0;top:70px;text-align:center;font-weight:900;font-size:96px;line-height:1.1"><span class="hl" id="hl5">머릿속</span>에서 일어나는 일</div>
+  <div class="pot" id="p5" style="left:330px;top:360px;width:460px"></div>
+  <svg class="abs" style="left:0;top:0" width="1920" height="1080"><circle id="zc" cx="563" cy="539" r="30" fill="rgba(242,201,76,.25)" stroke="#1d1d1d" stroke-width="5"/><line id="zl1" x1="563" y1="509" x2="1250" y2="300" stroke="#1d1d1d" stroke-width="4"/><line id="zl2" x1="563" y1="569" x2="1250" y2="880" stroke="#1d1d1d" stroke-width="4"/></svg>
+  <div class="abs" id="cut" style="left:960px;top:300px;width:580px;height:580px;border-radius:50%;background:#171717;border:10px solid #fff;box-shadow:0 0 0 5px #1d1d1d,0 20px 40px rgba(0,0,0,.35);overflow:hidden;transform-origin:50% 50%">
+    <svg id="loop" width="560" height="560" viewBox="-280 -280 560 560" style="position:absolute;left:0;top:0"></svg>
+  </div>
+</div>
+
+<!-- S6: research cards on cutting mat -->
+<div id="s6" class="scene mat">
+  <div class="card" id="cA" style="left:150px;top:120px;width:600px"><div class="cite">Hazan &amp; Shaver (1987)</div><div class="ttl">Romantic love conceptualized as an attachment process</div><div class="jr">Journal of Personality and Social Psychology</div></div>
+  <div class="card" id="cB" style="left:1150px;top:110px;width:620px"><div class="cite">Mikulincer &amp; Shaver (2003)</div><div class="ttl">The attachment behavioral system in adulthood</div><div class="jr">Advances in Experimental Social Psychology</div></div>
+  <div class="card" id="cC" style="left:420px;top:330px;width:900px"><div class="cite">Patel, Mahar &amp; Webster (2022)</div><div class="ttl" style="font-size:26px">Adult romantic attachment, electronic messaging, and relationship quality</div><div class="quote">“<span class="hl" id="hl6">Anxious people desired more frequent messages than they received</span>”</div><div class="ko">불안이 높은 사람은 실제로 받는 것보다 더 자주 메시지를 받고 싶어 했다</div></div>
+  <div class="label pen" id="lab6" style="left:1290px;top:640px;transform:rotate(4deg)">예민한 성격 탓?<svg class="abs" style="left:10px;top:30px;overflow:visible" width="420" height="60"><path id="strike" d="M0 34 C90 22 200 40 300 26 S400 30 420 22" fill="none" stroke="#d9412b" stroke-width="11" stroke-linecap="round"/></svg></div>
+</div>
+
+<!-- S7: alarm metaphor on dark -->
+<div id="s7" class="scene dark">
+  <div id="glow" class="abs" style="left:613px;top:364px;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;background:radial-gradient(circle,rgba(255,96,64,.55),rgba(255,96,64,0) 65%)"></div>
+  <div class="ring" id="r0"></div><div class="ring" id="r1"></div><div class="ring" id="r2"></div>
+  <div class="pot" id="p7" style="left:380px;top:300px;width:460px"></div>
+  <svg class="abs" style="left:0;top:0" width="1920" height="1080"><line id="lead" x1="640" y1="364" x2="985" y2="364" stroke="#e8e4da" stroke-width="3"/><circle id="leadDot" cx="640" cy="364" r="7" fill="#e8e4da"/></svg>
+  <div class="abs" id="lab7" style="left:1000px;top:342px;font-size:32px;font-weight:700;letter-spacing:.36em;color:#b9b6ae">애착 체계</div>
+  <div class="abs serif" id="big7" style="left:995px;top:400px;font-weight:900;font-size:104px;color:#f4f1ea;line-height:1.15">마음의<br><span style="position:relative">경보 장치<i id="ul7" style="position:absolute;left:0;bottom:-6px;height:14px;width:100%;background:#F2C94C;transform-origin:0 50%"></i></span></div>
+  <div class="abs" id="cite7" style="left:1000px;top:700px;font-size:25px;color:#8f8c86">Bowlby (1969/1982) · Mikulincer &amp; Shaver (2003)</div>
+</div>
+
+<!-- S8: 3 small methods teaser -->
+<div id="s8" class="scene paper">
+  <div class="abs pen" id="tag8" style="left:0;right:0;top:56px;text-align:center;font-size:86px;color:#2c2c2c">영상 끝에서 공개</div>
+  <div class="card" id="m1" style="left:300px;top:200px;width:380px;height:460px"></div>
+  <div class="card" id="m2" style="left:770px;top:190px;width:380px;height:460px"></div>
+  <div class="card" id="m3" style="left:1240px;top:200px;width:380px;height:460px"></div>
+  <div class="pot" id="p8" style="left:1600px;top:560px;width:250px"></div>
+</div>
+
+<!-- S9: series card -->
+<div id="s9" class="scene dark">
+  <div class="pot" id="p9" style="left:560px;top:360px;width:190px"></div>
+  <div class="abs serif" id="t9" style="left:790px;top:378px;font-weight:900;font-size:170px;color:#f3efe6;line-height:1">F의 연애</div>
+  <i class="abs" id="ul9" style="left:796px;top:572px;width:560px;height:12px;background:#F2C94C;transform-origin:0 50%"></i>
+  <div class="abs" id="s9sub" style="left:798px;top:610px;font-size:40px;color:#a9a7a1;letter-spacing:.08em">근거로 풀어 주는 연애 심리</div>
+</div>
+
+<div id="grainwrap"><img src="tex/grain0.png"><img src="tex/grain1.png"><img src="tex/grain2.png"><img src="tex/grain3.png"></div>
+<div id="vig"></div>
+<div id="hud"><div class="lab">답장 대기</div><div class="cnt" id="cnt">00:00:00</div><div class="bar"><i id="hbar"></i></div></div>
+<div id="sub"></div>
+</div>
+
+<script>
+// ---------- potato character (doodle, sticker border) ----------
+const BODY="M152 16 C196 12 236 30 258 66 C276 96 270 122 278 150 C288 190 276 236 256 270 C232 312 188 332 146 328 C104 326 66 306 44 270 C24 236 22 196 30 160 C36 128 30 100 48 70 C72 34 110 18 152 16 Z";
+const S='stroke="#5a4128" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"';
+const EX={
+ basic:`<circle cx="118" cy="160" r="10" fill="#2b1d10"/><circle cx="186" cy="158" r="10" fill="#2b1d10"/><path d="M130 214 Q154 220 178 212" fill="none" ${S}/>`,
+ anx:`<circle cx="118" cy="158" r="9" fill="#2b1d10"/><circle cx="186" cy="156" r="9" fill="#2b1d10"/><path d="M104 132 L132 140 M200 138 L172 140" fill="none" ${S}/><path d="M122 218 q8 -9 16 0 t16 0 t16 0 t16 0" fill="none" ${S}/><path d="M250 92 q16 24 0 34 q-16 -10 0 -34z" fill="#a9dcf5" stroke="#5a4128" stroke-width="4"/>`,
+ aha:`<circle cx="118" cy="158" r="12" fill="#2b1d10"/><circle cx="186" cy="156" r="12" fill="#2b1d10"/><path d="M100 124 Q118 112 136 122 M168 120 Q186 110 204 120" fill="none" ${S}/><ellipse cx="154" cy="214" rx="11" ry="14" fill="#4a2c1a"/><path d="M262 4 l8 20 l20 8 l-20 8 l-8 20 l-8 -20 l-20 -8 l20 -8z" fill="#F2C94C" stroke="#5a4128" stroke-width="4" stroke-linejoin="round"/>`,
+ smile:`<path d="M104 166 q14 -16 28 0 M172 164 q14 -16 28 0" fill="none" ${S}/><path d="M124 204 Q154 252 186 204 Z" fill="#4a2c1a" stroke="#5a4128" stroke-width="5" stroke-linejoin="round"/><path d="M140 224 Q154 238 170 224 Q160 216 150 220Z" fill="#e58a8a"/>`
+};
+function potatoSVG(){
+  let g='';for(const k in EX)g+=`<g class="ex ex-${k}">${EX[k]}</g>`;
+  return `<svg viewBox="-30 -80 360 420" width="100%" style="display:block;overflow:visible">
+  <g class="siren"><rect x="112" y="-8" width="80" height="22" rx="5" fill="#2e2e2e" stroke="#111" stroke-width="4"/><path d="M122 -8 Q152 -70 182 -8 Z" fill="#e2533b" stroke="#5a1e14" stroke-width="5" stroke-linejoin="round"/><ellipse cx="140" cy="-34" rx="7" ry="12" fill="#fff" opacity=".75"/></g>
+  <path d="${BODY}" fill="#fff" stroke="#fff" stroke-width="26" stroke-linejoin="round"/>
+  <path d="${BODY}" fill="#d8b47a" ${S}/>
+  <ellipse cx="92" cy="108" rx="10" ry="6" fill="#b88f55"/><ellipse cx="212" cy="252" rx="12" ry="7" fill="#b88f55"/><ellipse cx="232" cy="120" rx="7" ry="5" fill="#b88f55"/><ellipse cx="80" cy="232" rx="8" ry="5" fill="#b88f55"/>
+  ${g}</svg>`;
+}
+document.querySelectorAll('.pot').forEach(p=>p.innerHTML=potatoSVG());
+function face(id,k,siren){const p=document.getElementById(id);p.querySelectorAll('.ex').forEach(e=>e.style.display=e.classList.contains('ex-'+k)?'inline':'none');p.querySelector('.siren').style.display=siren?'inline':'none';}
+
+// ---------- helpers ----------
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const prog=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+const eb=x=>{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+function dash(el,p){const L=el.getTotalLength();el.style.strokeDasharray=L;el.style.strokeDashoffset=L*(1-p);}
+
+// ---------- timer graphic ----------
+(function(){let s='<circle r="300" fill="#fbfaf7" stroke="#1d1d1d" stroke-width="9"/><path id="wedge" fill="#F2C94C"/>';
+ for(let i=0;i<60;i++){const a=i/60*2*Math.PI-Math.PI/2,r1=i%5?276:258;s+=`<line x1="${Math.cos(a)*r1}" y1="${Math.sin(a)*r1}" x2="${Math.cos(a)*292}" y2="${Math.sin(a)*292}" stroke="#1d1d1d" stroke-width="${i%5?3:6}"/>`;}
+ [[0,'0'],[15,'15'],[30,'30'],[45,'45']].forEach(([m,l])=>{const a=m/60*2*Math.PI-Math.PI/2;s+=`<text x="${Math.cos(a)*222}" y="${Math.sin(a)*222+14}" text-anchor="middle" font-size="40" font-weight="700" fill="#444" font-family="Noto Sans KR">${l}</text>`;});
+ s+='<circle r="150" fill="#fbfaf7" stroke="#1d1d1d" stroke-width="5"/><text id="tlab" y="30" text-anchor="middle" font-size="84" font-weight="900" fill="#1f1f1f" font-family="Noto Sans KR">30분째</text>';
+ $('timer').innerHTML=s;})();
+function wedge(m){const a=Math.min(m,59.999)/60*2*Math.PI-Math.PI/2,r=300,x=Math.cos(a)*r,y=Math.sin(a)*r,big=m>30?1:0;
+ $('wedge').setAttribute('d',`M0 0 L0 ${-r} A${r} ${r} 0 ${big} 1 ${x} ${y} Z`);}
+
+// ---------- loop diagram inside the head ----------
+(function(){const R=150,nodes=[[-90,'경보 켜짐',0,-196],[30,'크게 읽기',182,136],[150,'계속 확인',-182,136]];
+ let s='<defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#F2C94C"/></marker></defs>';
+ for(let i=0;i<3;i++){const a1=(nodes[i][0]+20)*Math.PI/180,a2=(nodes[(i+1)%3][0]-20)*Math.PI/180;
+  s+=`<path id="arc${i}" d="M${Math.cos(a1)*R} ${Math.sin(a1)*R} A${R} ${R} 0 0 1 ${Math.cos(a2)*R} ${Math.sin(a2)*R}" fill="none" stroke="#F2C94C" stroke-width="7" stroke-linecap="round" marker-end="url(#ah)"/>`;}
+ nodes.forEach((n,i)=>{const a=n[0]*Math.PI/180;s+=`<g id="nd${i}"><circle cx="${Math.cos(a)*R}" cy="${Math.sin(a)*R}" r="22" fill="#232323" stroke="#F2C94C" stroke-width="6"/><text x="${n[2]}" y="${n[3]}" text-anchor="middle" font-size="31" font-weight="700" fill="#fff" font-family="Noto Sans KR">${n[1]}</text></g>`;});
+ $('loop').innerHTML=s;})();
+
+// ---------- method cards ----------
+['m1','m2','m3'].forEach((id,i)=>{$(id).innerHTML=`<div class="serif" style="font-weight:900;font-size:150px;line-height:1">${i+1}</div><div style="filter:blur(7px);margin-top:40px">${'<div style="height:26px;background:#9a958b;margin:18px 0;border-radius:6px;width:'+[92,76,84][i]+'%"></div>'.repeat(3)}</div>`;});
+
+// ---------- timeline ----------
+const SC=[['s1',0,4],['s2',4,6.6],['s3',6.6,9.6],['s4',9.6,11.6],['s5',11.6,15.8],['s6',15.8,20],['s7',20,24],['s8',24,28.4],['s9',28.4,30]];
+const SUB=[[0,1.9,'카톡을 보냈는데'],[1.9,4,'<span class=y>30분째</span> 1이 안 사라집니다'],[4,6.6,'처음엔 바쁜가 보다 했죠'],[6.6,8,'그런데 <span class=y>한 시간</span>이 지나면'],[8,9.6,'생각이 바뀝니다'],
+ [11.6,13.6,'오늘은 그 한 시간 동안'],[13.6,15.8,'<span class=y>머릿속</span>에서 벌어지는 일을 풀어 보겠습니다'],[15.8,17.6,'심리학 <span class=y>연구</span>로 보면'],[17.6,20,'성격이 예민해서 생기는 일이 <span class=y>아닙니다</span>'],
+ [20,21.8,'마음속 <span class=y>경보 장치</span>가'],[21.8,24,'열심히 일하고 있는 겁니다'],[24,26.2,'영상 끝에는 그 순간 해 볼 수 있는'],[26.2,28.4,'<span class=y>작은 방법</span>도 준비했습니다']];
+const THINK="'내가 뭘 잘못했나?'";
+window.DURATION=30;
+let lastSub=null;
+window.renderFrame=function(t){
+  const fi=Math.round(t*30);
+  // scenes + slow push-in
+  for(const [id,a,b] of SC){const on=t>=a&&t<b,el=$(id);el.style.display=on?'block':'none';
+    if(on){const p=(t-a)/(b-a),k=(id==='s4')?0:(id==='s6'?.025:.035);el.style.transform=`scale(${1+k*p})`;}}
+  // grain
+  document.querySelectorAll('#grainwrap img').forEach((im,i)=>im.style.display=(i===fi%4)?'block':'none');
+  // subtitles
+  const s=SUB.find(x=>t>=x[0]&&t<x[1]);const sub=$('sub');
+  if(s){if(lastSub!==s){sub.innerHTML=s[2];lastSub=s;}sub.style.display='block';}else{sub.style.display='none';lastSub=null;}
+  // HUD (scenes 1-3)
+  const hud=$('hud');hud.style.display=t<9.6?'block':'none';
+  let m=t<2.2?30*eo(t/2.2):t<6.6?30+15*(t-2.2)/4.4:t<8.4?45+15*eo((t-6.6)/1.8):60;
+  const sec=Math.floor(m*60),hh=Math.floor(sec/3600),mm=Math.floor(sec/60)%60,ss=sec%60;
+  $('cnt').textContent=[hh,mm,ss].map(v=>String(v).padStart(2,'0')).join(':');$('hbar').style.width=(m/60*100)+'%';
+
+  // S1
+  if(t<4){const pb=eb(prog(t,.25,.6));$('bub1').style.transform=`scale(${.82+.18*pb})`;$('bub1').style.opacity=prog(t,.25,.4);
+    const pulse=prog(t,2.2,2.6);$('one').style.display='inline-block';$('one').style.transform=`scale(${1+.35*Math.sin(pulse*Math.PI)})`;
+    dash($('ring1'),eo(prog(t,2.55,3.25)));
+    const r=eo(prog(t,1.9,2.25));$('big30').style.clipPath=`inset(0 ${100-100*r}% 0 0)`;$('ybox30').style.transform=`scaleX(${eo(prog(t,2.0,2.35))})`;
+    const u=eo(prog(t,2.9,3.3));$('unr').style.opacity=u;$('unr').style.transform=`translateY(${(1-u)*24}px)`;}
+  // S2
+  if(t>=4&&t<6.6){face('p2','basic');const pp=eb(prog(t,4,4.35));$('p2').style.transform=`translateY(${Math.sin(t*2.4)*5}px) scale(${.9+.1*pp})`;
+    $('note2').style.clipPath=`inset(-40px ${100-100*eo(prog(t,4.3,5.2))}% -40px -40px)`;}
+  // S3
+  if(t>=6.6&&t<9.6){const mm3=t<6.8?30:t<8.4?30+30*eo(prog(t,6.8,8.4)):60;wedge(mm3);
+    $('tlab').textContent=t<8.0?'30분째':'1시간째';
+    const anx=t>=8.0;face('p3',anx?'anx':'basic');
+    const sh=anx&&t<8.5?Math.sin(t*60)*7:0;$('p3').style.transform=`translate(${sh}px,${Math.sin(t*2.4)*5}px)`;}
+  // S4 typewriter
+  if(t>=9.6&&t<11.6){const n=Math.floor(eo(prog(t,9.75,10.45))*THINK.length);$('think').textContent=THINK.slice(0,n);}
+  // S5
+  if(t>=11.6&&t<15.8){face('p5','anx');$('p5').style.transform=`translateY(${Math.sin(t*2.4)*5}px)`;
+    $('zc').style.opacity=prog(t,11.8,11.95);const zl=eo(prog(t,11.95,12.35));
+    [['zl1',509,300],['zl2',569,880]].forEach(([id,y1,y2])=>{$(id).setAttribute('x2',563+(1250-563)*zl);$(id).setAttribute('y2',y1+(y2-y1)*zl);});
+    const r=eb(prog(t,12.2,12.7));const c=$('cut');c.style.transform=`scale(${Math.max(r,0.001)})`;c.style.display=r>0.01?'block':'none';
+    for(let i=0;i<3;i++){const ap=eo(prog(t,12.7+i*.6,12.95+i*.6));$('nd'+i).style.opacity=ap;$('nd'+i).style.transform=`scale(${.6+.4*ap})`;$('nd'+i).style.transformOrigin='center';
+      const ar=eo(prog(t,12.9+i*.6,13.3+i*.6));dash($('arc'+i),ar);$('arc'+i).setAttribute('marker-end',ar>.97?'url(#ah)':'');$('arc'+i).style.opacity=ar>0?1:0;}
+    const tt=eo(prog(t,13.3,13.7));$('t5').style.opacity=tt;$('t5').style.transform=`translateY(${(1-tt)*-20}px)`;
+    $('hl5').style.backgroundSize=`${eo(prog(t,13.7,14.2))*100}% 44%`;}
+  // S6
+  if(t>=15.8&&t<20){[['cA',15.85,-6],['cB',16.15,5],['cC',16.45,-1.5]].forEach(([id,a,rot])=>{const p=eb(prog(t,a,a+.45));$(id).style.transform=`translateY(${(1-p)*820}px) rotate(${rot+(1-p)*8}deg)`;});
+    $('hl6').style.backgroundSize=`${eo(prog(t,16.95,17.6))*100}% 44%`;
+    const lp=eb(prog(t,17.7,18.0));$('lab6').style.transform=`rotate(4deg) scale(${lp})`;$('lab6').style.opacity=prog(t,17.7,17.8);
+    dash($('strike'),eo(prog(t,18.3,18.8)));}
+  // S7
+  if(t>=20&&t<24){face('p7',t<22.6?'anx':'aha',true);$('p7').style.transform=`translateY(${Math.sin(t*2.4)*5}px)`;
+    const b=Math.pow(.5+.5*Math.sin(t*2*Math.PI*1.6),2);$('glow').style.opacity=.25+.75*b;
+    for(let k=0;k<3;k++){const ph=((t-20+k*.4)%1.2)/1.2,sz=60+520*ph,r=$('r'+k);r.style.width=r.style.height=sz+'px';r.style.left=(613-sz/2)+'px';r.style.top=(364-sz/2)+'px';r.style.opacity=.6*(1-ph);}
+    const lp=eo(prog(t,20.5,20.9));$('lead').setAttribute('x2',640+345*lp);$('leadDot').style.opacity=prog(t,20.5,20.6);
+    $('lab7').style.opacity=prog(t,20.7,21.0);const bp=eo(prog(t,20.9,21.3));$('big7').style.opacity=bp;$('big7').style.transform=`translateY(${(1-bp)*30}px)`;
+    $('ul7').style.transform=`scaleX(${eo(prog(t,21.4,21.9))})`;$('cite7').style.opacity=prog(t,22.0,22.4);}
+  // S8
+  if(t>=24&&t<28.4){[['m1',24.1,-4],['m2',24.35,2],['m3',24.6,-2]].forEach(([id,a,rot])=>{const p=eb(prog(t,a,a+.45));$(id).style.transform=`translateY(${(1-p)*820}px) rotate(${rot}deg)`;});
+    $('tag8').style.clipPath=`inset(0 ${100-100*eo(prog(t,25.0,25.8))}% 0 0)`;
+    face('p8','smile');const pp=eb(prog(t,25.2,25.55));$('p8').style.transform=`translateY(${Math.sin(t*2.4)*5}px) scale(${pp})`;}
+  // S9
+  if(t>=28.4){const f=eo(prog(t,28.4,28.75));$('s9').style.opacity=f;face('p9','basic');const pp=eb(prog(t,28.55,28.9));$('p9').style.transform=`scale(${pp}) rotate(-6deg)`;
+    $('ul9').style.transform=`scaleX(${eo(prog(t,28.8,29.3))})`;$('s9sub').style.opacity=prog(t,29.0,29.3);}
+};
+window.renderFrame(0);
+</script>
+</body></html>

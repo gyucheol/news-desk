@@ -1,9 +1,13 @@
-# Scene images with RealVisXL V5.0 Lightning on CPU (bf16, about 2 min per image on 4 cores).
+# Scene images with RealVisXL V5.0 Lightning on CPU (bf16).
+#   Needs a CPU with AMX (grep amx_bf16 /proc/cpuinfo): about 2 min per image on 4 cores.
+#   Without AMX, bf16 is emulated (over 10 min per image) and fp32 does not fit in this environment's
+#   ~14 GB memory limit (killed twice on 2026-10-22, even at guidance 1.0). So without AMX the script stops;
+#   set GEN_FORCE=1 to run slowly anyway.
 # usage: gen.py <image_id> <seed[,seed...]> "<scene prompt>" [steps=5] [cfg=1.5] [WxH=1344x768]
 # env NEG_EXTRA: extra negative terms for this image (e.g. "alarm clock, two hands")
 # Output: work/img/<image_id>_s<seed>.png. Keep scene prompt short: prompt + STYLE must fit 77 CLIP tokens.
 import os, sys, time, torch
-from diffusers import StableDiffusionXLPipeline, DPMSolverSDEScheduler
+from diffusers import StableDiffusionXLPipeline, DPMSolverSDEScheduler, DDIMScheduler
 
 ROOT = os.environ.get("VIDEO_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # 장면 설계표 3-1의 기본 스타일 문구 (no text / no logo 는 부정 문구로 옮김)
@@ -25,20 +29,26 @@ W, H = (int(x) for x in (sys.argv[6] if len(sys.argv) > 6 else "1344x768").split
 os.makedirs(f"{ROOT}/work/img", exist_ok=True)
 
 t0 = time.time()
-pipe = StableDiffusionXLPipeline.from_pretrained(f"{ROOT}/models/realvisxl5l", torch_dtype=torch.bfloat16,
-                                                 variant="fp16", use_safetensors=True)
-# model card: 5 steps, DPM++ SDE Karras, CFG 1.0-2.0
-pipe.scheduler = DPMSolverSDEScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-pipe.set_progress_bar_config(disable=True)
+M = f"{ROOT}/models/realvisxl5l"
+if "amx_bf16" not in open("/proc/cpuinfo").read() and not os.environ.get("GEN_FORCE"):
+    sys.exit("This CPU has no AMX (amx_bf16): one image would take over 10 minutes. "
+             "Use an icon screen, ask the owner for an image, or set GEN_FORCE=1 to run slowly.")
 full = f"{prompt}, {STYLE}"
-print(f"load {time.time()-t0:.1f}s | prompt tokens {len(pipe.tokenizer(full)['input_ids'])}/77"
-      f" | negative tokens {len(pipe.tokenizer(NEG)['input_ids'])}/77", flush=True)
+from transformers import CLIPTokenizer
+_tok = CLIPTokenizer.from_pretrained(M, subfolder="tokenizer")
+print(f"prompt tokens {len(_tok(full)['input_ids'])}/77 | negative tokens {len(_tok(NEG)['input_ids'])}/77 "
+      "(beyond 77 is cut off)", flush=True)
+pipe = StableDiffusionXLPipeline.from_pretrained(M, torch_dtype=torch.bfloat16, variant="fp16", use_safetensors=True)
+pipe.scheduler = DPMSolverSDEScheduler.from_config(DDIMScheduler.load_config(M, subfolder="scheduler"),
+                                                   use_karras_sigmas=True)   # model card: DPM++ SDE Karras
+pipe.set_progress_bar_config(disable=True)
+kw = dict(prompt=full, negative_prompt=NEG)
+print(f"load {time.time()-t0:.1f}s", flush=True)
 for seed in seeds:
     t1 = time.time()
     g = torch.Generator("cpu").manual_seed(seed)
     with torch.inference_mode():
-        img = pipe(prompt=full, negative_prompt=NEG, num_inference_steps=steps, guidance_scale=cfg,
-                   width=W, height=H, generator=g).images[0]
+        img = pipe(num_inference_steps=steps, guidance_scale=cfg, width=W, height=H, generator=g, **kw).images[0]
     out = f"{ROOT}/work/img/{iid}_s{seed}.png"
     img.save(out)
     print(f"{out} {time.time()-t1:.1f}s", flush=True)

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>F의 연애 샘플 v3</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#111}
+#stage{position:absolute;inset:0;overflow:hidden}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.bg{position:absolute;left:-96px;top:-54px;width:2112px;height:1188px}
+.el{position:absolute;filter:drop-shadow(3px 6px 6px rgba(30,20,10,.28))}
+.el>img{display:block;width:100%}
+.txt{position:absolute;font-family:'Hahmlet',serif;color:#f4f0e6}
+#sub{position:absolute;left:50%;bottom:78px;transform:translateX(-50%);background:rgba(0,0,0,.92);color:#fff;font-family:'Hahmlet',serif;font-weight:600;font-size:54px;line-height:1.25;padding:10px 28px 12px;white-space:nowrap;display:none;letter-spacing:-.01em}
+.y{color:#F2C94C}
+.hl{position:absolute;background:#f2cf45;mix-blend-mode:multiply;opacity:.7;border-radius:4px}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 46%,rgba(0,0,0,0) 60%,rgba(30,18,6,.22) 100%);pointer-events:none}
+</style></head>
+<body>
+<div id="stage">
+  <div id="s1" class="scene"><img class="bg" src="assets3/bg_paper.png"></div>
+  <div id="s2" class="scene"><img class="bg" src="assets3/bg_paper.png" style="transform:scaleX(-1)"></div>
+  <div id="s3" class="scene"><img class="bg" src="assets3/bg_paper.png" style="transform:scaleY(-1)"></div>
+  <div id="s4" class="scene"><img class="bg" src="assets3/bg_dark.png"><div class="txt" id="think" style="left:0;right:0;top:470px;text-align:center;font-weight:600;font-size:74px;transform:skewX(-8deg)">'내가 뭘 잘못했나?'</div></div>
+  <div id="s5" class="scene"><img class="bg" src="assets3/bg_paper.png" style="transform:scale(-1,-1)"><svg id="lines5" style="position:absolute;left:0;top:0" width="1920" height="1080"></svg></div>
+  <div id="s6" class="scene"><img class="bg" src="assets3/bg_paper.png"></div>
+  <div id="s7" class="scene"><img class="bg" src="assets3/bg_dark.png" style="transform:scaleX(-1)"><svg id="fx7" style="position:absolute;left:0;top:0" width="1920" height="1080"></svg>
+    <div class="txt" id="t7a" style="left:990px;top:330px;font-weight:600;font-size:42px;color:#d9d3c7">심리학에선 '애착'이라고 불러요</div>
+    <div class="txt" id="t7b" style="left:985px;top:395px;font-weight:800;font-size:116px;line-height:1.2">마음의<br><span style="position:relative">경보 장치<i id="ul7" style="position:absolute;left:0;bottom:-2px;height:14px;width:100%;background:#F2C94C;transform-origin:0 50%"></i></span></div>
+    <div class="txt" id="t7c" style="left:992px;top:720px;font-weight:600;font-size:32px;color:#b3ada2">볼비 (1969) · 미쿨린서 &amp; 셰이버 (2003)</div></div>
+  <div id="s8" class="scene"><img class="bg" src="assets3/bg_paper.png" style="transform:scaleY(-1)"></div>
+  <div id="s9" class="scene"><img class="bg" src="assets3/bg_paper.png" style="transform:scaleX(-1)"></div>
+  <div id="vig"></div>
+  <div id="sub"></div>
+</div>
+<script>
+const META=__META__;
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const prog=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+// [scene, id, asset, x, y, width, rotation, appear time, kind] ; kind: 'in' (slide+fade), 'pop' (stamp), 'on' (already there)
+const E=[
+ // text-bearing images are shown at (or below) their native pixel size and never rotated by CSS, so they stay sharp
+ ['s1','phone','phone',220,100,720,0,-1,'on'],['s1','hl30','hl_30',1020,380,820,0,1.9,'in'],['s1','stU','st_unread',425,610,313,0,2.7,'pop'],
+ ['s2','nb','note_busy',220,440,666,0,4.25,'in'],['s2','p2','pot_basic',1160,210,440,0,4.0,'in'],
+ ['s3','clk','clock',320,140,620,0,6.6,'in'],['s3','p3','pot_basic',1190,230,420,0,6.7,'in'],['s3','st1h','st_1h',770,640,323,0,8.05,'pop'],
+ ['s5','hh','hl_head',452,60,1016,0,11.6,'in'],['s5','one','one_clip',830,400,260,0,11.75,'in'],
+ ['s5','c1','clue1',150,300,520,0,12.05,'in'],['s5','c2','clue2',1150,300,620,0,12.35,'in'],['s5','c3','clue3',1250,690,460,0,12.65,'in'],['s5','c4','clue4',170,690,560,0,12.95,'in'],
+ ['s6','cP','card_patel',433,200,1054,0,15.85,'in'],['s6','nS','note_sensitive',687,640,546,0,17.7,'in'],
+ ['s7','p7','pot_anx_siren',360,290,460,0,20.0,'in'],
+ ['s8','i1','icard1',200,190,480,0,24.1,'in'],['s8','i2','icard2',720,190,480,0,24.35,'in'],['s8','i3','icard3',1240,190,480,0,24.6,'in'],
+ ['s8','stS','st_soon',698,540,523,0,25.7,'pop'],['s8','p8','pot_smile',1500,520,300,0,25.2,'in'],
+ ['s9','mh','masthead',210,200,1500,0,28.42,'in']
+];
+const EL={};
+for(const [sc,id,src,x,y,w,rot,t0,kind] of E){
+  const d=document.createElement('div');d.className='el';d.id=id;const m=META[src];const h=Math.round(w*m.h/m.w);
+  Object.assign(d.style,{left:x+'px',top:y+'px',width:w+'px',height:h+'px'});
+  d.innerHTML=`<img src="assets3/${src}.png">`;$(sc).appendChild(d);
+  EL[id]={d,x,y,w,h,rot,t0,kind,src};
+}
+const SVGNS='http://www.w3.org/2000/svg';
+function svgIn(e){const s=document.createElementNS(SVGNS,'svg');s.setAttribute('width',e.w);s.setAttribute('height',e.h);Object.assign(s.style,{position:'absolute',left:0,top:0,overflow:'visible'});e.d.appendChild(s);return s;}
+// red circle around the unread "1"
+(function(){const e=EL.phone,k=e.w/META.phone.w,[ox,oy]=META.phone.one;const s=svgIn(e);
+ s.innerHTML=`<ellipse id="ring1" cx="${ox*k+2}" cy="${oy*k}" rx="${48*k}" ry="${46*k}" fill="none" stroke="#c0281f" stroke-width="6"/>`;})();
+// clock hands
+(function(){const e=EL.clk,k=e.w/META.clock.w;
+ [['hand_hour','hh_h'],['hand_min','hh_m']].forEach(([src,id])=>{const m=META[src];const im=document.createElement('img');im.src=`assets3/${src}.png`;im.id=id;
+  const w=m.w*k,h=m.h*k,pv=m.pivot*k;Object.assign(im.style,{position:'absolute',width:w+'px',height:h+'px',left:(e.w/2-w/2)+'px',top:(e.h/2-pv)+'px',transformOrigin:`50% ${pv}px`});e.d.appendChild(im);});})();
+// yellow highlighter on the study card
+(function(){const e=EL.cP,k=e.w/META.card_patel.w;META.card_patel.hl.forEach((b,i)=>{const d=document.createElement('div');d.className='hl';d.id='hl'+i;
+ Object.assign(d.style,{left:(b[0]*k)+'px',top:(b[1]*k+6)+'px',width:((b[2]-b[0])*k)+'px',height:((b[3]-b[1])*k-8)+'px'});e.d.appendChild(d);});})();
+// thin red strike over "예민한 성격 탓?"
+(function(){const e=EL.nS;const s=svgIn(e);s.innerHTML=`<line id="strike" x1="${e.w*.07}" y1="${e.h*.62}" x2="${e.w*.94}" y2="${e.h*.58}" stroke="#c0281f" stroke-width="5" stroke-linecap="round"/>`;})();
+// red strings from each clue to the "1" (centre to centre; both ends hide under the paper)
+const L5=['c1','c2','c3','c4'].map((id,i)=>{const a=EL[id],b=EL.one;
+ const x1=a.x+a.w/2,y1=a.y+a.h/2,x2=b.x+b.w/2,y2=b.y+b.h/2;
+ const p=document.createElementNS(SVGNS,'line');Object.entries({x1,y1,x2,y2,stroke:'#c0281f','stroke-width':4,'stroke-linecap':'round'}).forEach(([k,v])=>p.setAttribute(k,v));
+ $('lines5').appendChild(p);return [p,12.2+i*.3];});
+// alarm glow + rings on the siren potato (sticker coords: lamp at 424,146)
+const LAMP=(function(){const e=EL.p7,k=e.w/META.pot_anx_siren.w;return [e.x+424*k,e.y+146*k];})();
+$('fx7').innerHTML=`<defs><radialGradient id="gl"><stop offset="0" stop-color="#ff5a3c" stop-opacity=".55"/><stop offset="1" stop-color="#ff5a3c" stop-opacity="0"/></radialGradient></defs>
+ <circle id="glow" cx="${LAMP[0]}" cy="${LAMP[1]}" r="170" fill="url(#gl)"/>`+[0,1,2].map(k=>`<circle id="rg${k}" cx="${LAMP[0]}" cy="${LAMP[1]}" r="10" fill="none" stroke="#d9452f" stroke-width="4"/>`).join('')+
+ `<line id="lead" x1="${LAMP[0]+30}" y1="${LAMP[1]}" x2="${LAMP[0]+30}" y2="${LAMP[1]}" stroke="#e8e2d6" stroke-width="3"/>`;
+function dashLine(el,p){const L=el.getTotalLength();el.style.strokeDasharray=L;el.style.strokeDashoffset=L*(1-p);}
+
+const SC=[['s1',0,4],['s2',4,6.6],['s3',6.6,9.6],['s4',9.6,11.6],['s5',11.6,15.8],['s6',15.8,20],['s7',20,24],['s8',24,28.4],['s9',28.4,30]];
+const SUB=[[0,1.9,'카톡을 보냈는데'],[1.9,4,'<span class=y>30분째</span> 1이 안 사라져요'],[4,6.6,'처음엔 바쁜가 보다 했죠'],[6.6,8,'그런데 <span class=y>한 시간</span>이 지나면'],[8,9.6,'생각이 달라져요'],
+ [11.6,13.6,'오늘은 그 한 시간 동안'],[13.6,15.8,'<span class=y>머릿속</span>에서 무슨 일이 벌어지는지 알려 드릴게요'],[15.8,17.6,'<span class=y>연구</span>를 보면'],[17.6,20,'이건 예민해서 그런 게 <span class=y>아니에요</span>'],
+ [20,21.8,'마음속 <span class=y>경보 장치</span>가'],[21.8,24,'열심히 울리고 있는 거예요'],[24,26.2,'마지막엔 그럴 때 해 볼 수 있는'],[26.2,28.4,'<span class=y>작은 방법</span>도 알려 드릴게요']];
+window.DURATION=30;
+let lastSub=null;
+function setImg(id,name){const im=EL[id].d.querySelector('img');const src=`assets3/${name}.png`;if(!im.src.endsWith(src))im.src=src;}
+window.renderFrame=function(t){
+  let sid=null;
+  for(const [id,a,b] of SC){const on=t>=a&&t<b;$(id).style.display=on?'block':'none';if(on)sid=id;}
+  for(const id in EL){const e=EL[id];if(e.d.parentNode.id!==sid)continue;
+    if(t<e.t0){e.d.style.opacity=0;continue;}
+    if(e.kind==='in'){const q=eo(prog(t,e.t0,e.t0+.4));e.d.style.opacity=q;e.d.style.transform=`translateY(${Math.round(24*(1-q))}px) rotate(${e.rot}deg)`;}
+    else if(e.kind==='pop'){const q=eo(prog(t,e.t0,e.t0+.18));e.d.style.opacity=q;e.d.style.transform=`rotate(${e.rot}deg) scale(${1.2-.2*q})`;}
+    else{e.d.style.opacity=1;e.d.style.transform=`rotate(${e.rot}deg)`;}
+  }
+  const sb=SUB.find(x=>t>=x[0]&&t<x[1]);const sub=$('sub');
+  if(sb){if(lastSub!==sb){sub.innerHTML=sb[2];lastSub=sb;}sub.style.display='block';}else{sub.style.display='none';lastSub=null;}
+  if(sid==='s1'){dashLine($('ring1'),eo(prog(t,2.2,2.65)));}
+  if(sid==='s3'){const mm=t<6.9?32:t<8.4?32+30*eo(prog(t,6.9,8.4)):62;$('hh_m').style.transform=`rotate(${mm*6}deg)`;$('hh_h').style.transform=`rotate(${(7+mm/60)*30}deg)`;
+    setImg('p3',t>=8.0?'pot_anx':'pot_basic');}
+  if(sid==='s4'){$('think').style.opacity=eo(prog(t,9.75,10.25));}
+  if(sid==='s5'){for(const [ln,t0] of L5)dashLine(ln,eo(prog(t,t0,t0+.35)));}
+  if(sid==='s6'){[0,1].forEach(i=>{const q=eo(prog(t,16.6+i*.35,16.95+i*.35));$('hl'+i).style.clipPath=`inset(0 ${100-100*q}% 0 0)`;});dashLine($('strike'),eo(prog(t,18.3,18.65)));}
+  if(sid==='s7'){setImg('p7',t<22.6?'pot_anx_siren':'pot_aha_siren');
+    $('glow').style.opacity=(.55+.45*Math.sin((t-20)*Math.PI*2*.9)).toFixed(3);
+    for(let k=0;k<3;k++){const ph=((t-20+k*.5)%1.5)/1.5;$('rg'+k).setAttribute('r',(30+220*ph).toFixed(1));$('rg'+k).style.opacity=(.7*(1-ph)).toFixed(3);}
+    const lp=eo(prog(t,20.4,20.8));$('lead').setAttribute('x2',(LAMP[0]+30+(975-LAMP[0]-30)*lp).toFixed(1));$('lead').setAttribute('y2',(LAMP[1]+(355-LAMP[1])*lp).toFixed(1));
+    $('t7a').style.opacity=eo(prog(t,20.6,21.0));const bp=eo(prog(t,20.9,21.3));$('t7b').style.opacity=bp;$('t7b').style.transform=`translateY(${Math.round(20*(1-bp))}px)`;
+    $('ul7').style.transform=`scaleX(${eo(prog(t,21.4,21.9))})`;$('t7c').style.opacity=eo(prog(t,22.0,22.4));}
+  if(sid==='s9'){$('s9').style.opacity=eo(prog(t,28.4,28.7));}
+};
+window.renderFrame(0);
+</script>
+</body></html>

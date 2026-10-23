@@ -4,6 +4,8 @@
 # v7 (2026-10-23): subtitles can be lines of their own (full/lines.json, times in lines_align.json from align_v7.py);
 # scene cuts and photo overlays stay on the unit times (align_refined.json), so the picture does not move when the
 # subtitle lines change.
+# v8: a centre subtitle can have steps (rows that appear when spoken) and a scene can tie its title to a point in
+# lines_align.json (title_at); both get their times here.
 # usage: build_timeline.py spec.json align_refined.json narration.wav out.json [lines_align.json]
 import json, os, subprocess, sys
 
@@ -23,6 +25,11 @@ for i, s in enumerate(subs):
     s["end"] = subs[i + 1]["start"] if i + 1 < len(subs) else round(dur, 3)
 if "last_sub_hold" in spec:     # audio runs on past the narration (end screen): last subtitle leaves this long after speech
     subs[-1]["end"] = round(min(sal[key(subs[-1])]["end"] + spec["last_sub_hold"], dur), 3)
+for s in subs:                  # v8 steps: later rows of a centre sentence, shown from their own voice onset
+    for st in s.get("steps", []):
+        st["start"] = round(max(sal[st["id"]]["start"] - LEAD, 0.0), 3)
+    times = [s["start"]] + [st["start"] for st in s.get("steps", [])] + [s["end"]]
+    assert all(a < b for a, b in zip(times, times[1:])), (key(s), times)
 start_of = {k: round(max(u["start"] - LEAD, 0.0), 3) for k, u in al.items()}   # = the unit's subtitle start until v6
 scenes = []
 for i, sc in enumerate(spec["scenes"]):
@@ -31,6 +38,9 @@ for i, sc in enumerate(spec["scenes"]):
     for k in ("image", "src"):
         if sc.get(k):
             sc[k] = os.path.join(base, sc[k])
+    if "title_at" in sc:        # v8: the title fades in from a moment in the speech (e.g. the word it shows)
+        sc["title_delay"] = round(sal[sc["title_at"]]["start"] - LEAD - sc["start"], 3)
+        assert sc["title_delay"] >= 0, (sc["id"], sc["title_delay"])
     scenes.append(sc)
 for i, sc in enumerate(scenes):
     sc["end"] = scenes[i + 1]["start"] if i + 1 < len(scenes) else round(dur, 3)

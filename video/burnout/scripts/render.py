@@ -66,8 +66,9 @@ def slant(layer, baseline):
                            resample=Image.BICUBIC)
 
 
-def render_text_layer(sub):
-    """Return a full-frame RGBA overlay for one subtitle unit."""
+def render_text_layer(sub, upto=None):
+    """Return a full-frame RGBA overlay for one subtitle unit. upto: centre text shows only its first `upto` rows,
+    laid out as the whole sentence (v8 steps: the rows already shown never move)."""
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     lines = [parse_markup(l) for l in sub["text"].split("\n")]
     widths = [text_width(l) for l in lines]
@@ -80,6 +81,8 @@ def render_text_layer(sub):
         first_base = mid - GLYPH_MID * k - (n - 1) * LINE_GAP * k / 2
         txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         for i, (segs, w) in enumerate(zip(lines, widths)):
+            if upto is not None and i >= upto:
+                break
             base = first_base + i * LINE_GAP * k
             draw_line(txt, segs, (W - w) / 2, base, center_font)
         if sub.get("italic"):
@@ -320,7 +323,13 @@ def main():
             srcs[photo_key(sc)] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0))
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
-    layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
+    layers = []
+    for s in tl["subs"]:             # v8 steps: one layer per step, each adding the rows spoken by then
+        st = s.get("steps", [])
+        times = [s["start"]] + [x["start"] for x in st] + [s["end"]]
+        rows = [x["row"] for x in st] + [None]
+        for k in range(len(times) - 1):
+            layers.append((times[k], times[k + 1], render_text_layer(s, rows[k])))
     # unit start times for overlays (v7 timelines carry them; subtitle lines no longer match the units)
     sub_start = tl.get("unit_start") or {s["unit"]: s["start"] for s in tl["subs"]}
     black = Image.new("RGB", (W, H), (0, 0, 0))

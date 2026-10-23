@@ -2033,7 +2033,7 @@
   "id": "L245",
   "from": "U271",
   "at": 0,
-  "start": 427.38,
+  "start": 427.65,
   "how": "v6 unit start",
   "end": 430.41
  },
@@ -2334,5 +2334,201 @@
   "start": 490.13,
   "how": "v6 unit start",
   "end": 491.363
+ },
+ {
+  "id": "L004.2",
+  "from": "U006",
+  "at": 0,
+  "start": 7.1,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L004",
+  "row": 1
+ },
+ {
+  "id": "L050.2",
+  "from": "U047",
+  "at": 0,
+  "start": 71.15,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L050",
+  "row": 1
+ },
+ {
+  "id": "L108.2",
+  "from": "U107",
+  "at": 0,
+  "start": 166.95,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L108",
+  "row": 2
+ },
+ {
+  "id": "L113.2",
+  "from": "U112",
+  "at": 0,
+  "start": 173.39,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L113",
+  "row": 1
+ },
+ {
+  "id": "L113.3",
+  "from": "U112",
+  "at": 7,
+  "start": 174.38,
+  "how": "ctc",
+  "start_ctc": 174.38,
+  "after_word": "세계보건기구가",
+  "kind": "step",
+  "line": "L113",
+  "row": 2
+ },
+ {
+  "id": "L127.2",
+  "from": "U131",
+  "at": 0,
+  "start": 202.59,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L127",
+  "row": 1
+ },
+ {
+  "id": "L148.2",
+  "from": "U154",
+  "at": 0,
+  "start": 236.76,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L148",
+  "row": 1
+ },
+ {
+  "id": "L156.2",
+  "from": "U166",
+  "at": 0,
+  "start": 254.54,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L156",
+  "row": 1
+ },
+ {
+  "id": "L165.2",
+  "from": "U178",
+  "at": 0,
+  "start": 273.11,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L165",
+  "row": 1
+ },
+ {
+  "id": "L173.2",
+  "from": "U187",
+  "at": 7,
+  "start": 290.25,
+  "how": "ctc",
+  "start_ctc": 290.25,
+  "after_word": "세계보건기구는",
+  "kind": "step",
+  "line": "L173",
+  "row": 1
+ },
+ {
+  "id": "L173.3",
+  "from": "U188",
+  "at": 4,
+  "start": 292.51,
+  "how": "after pause (0.25 s)",
+  "start_ctc": 292.54,
+  "after_word": "그러니까",
+  "kind": "step",
+  "line": "L173",
+  "row": 2
+ },
+ {
+  "id": "L214.2",
+  "from": "U231b",
+  "at": 0,
+  "start": 365.05,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L214",
+  "row": 1
+ },
+ {
+  "id": "L214.3",
+  "from": "U232b",
+  "at": 0,
+  "start": 366.29,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L214",
+  "row": 2
+ },
+ {
+  "id": "L228.2",
+  "from": "U249",
+  "at": 0,
+  "start": 392.87,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L228",
+  "row": 1
+ },
+ {
+  "id": "L228.3",
+  "from": "U250b",
+  "at": 0,
+  "start": 394.99,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L228",
+  "row": 2
+ },
+ {
+  "id": "L234.2",
+  "from": "U257",
+  "at": 0,
+  "start": 406.74,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L234",
+  "row": 1
+ },
+ {
+  "id": "L234.3",
+  "from": "U258",
+  "at": 0,
+  "start": 408.48,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L234",
+  "row": 2
+ },
+ {
+  "id": "L234.4",
+  "from": "U259",
+  "at": 0,
+  "start": 409.42,
+  "how": "v6 unit start",
+  "kind": "step",
+  "line": "L234",
+  "row": 3
+ },
+ {
+  "id": "title_U092",
+  "from": "U094",
+  "at": 4,
+  "start": 145.25,
+  "how": "after pause (0.23 s)",
+  "start_ctc": 145.24,
+  "after_word": "처음으로'",
+  "kind": "point"
  }
 ]

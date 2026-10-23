@@ -21,6 +21,9 @@
 # sentence at a time, and the other subtitles split through the whole script like the owner's example: subtitles are
 # now the lines of lines.json (subtitles_v7.txt -> make_lines_v7.py; yellow words marked there), timed by align_v7.py.
 # Scenes stay on the units as in v6 (same cuts); without lines.json the subtitles are the units, as up to v6.
+# v8 (2026-10-23): in 12 centre sentences the owner marked, the later rows appear when they are spoken (lines.json
+# "steps" from subtitles_v8.txt; the layout of the whole sentence is fixed from the start); the big title 번아웃 on
+# the U092 photo fades in from the voice onset of 번아웃 (title_at: a point in lines_align.json, align_v8.py).
 # usage: build_spec.py <folder with units.json [lines.json]> [stock search index.json, adds clip titles as notes]
 #        -> <folder>/spec.json
 import json, os, re, sys
@@ -110,7 +113,8 @@ PLAN = [
  ("U087", "v", "8744", {"in": 1.0, "grade": PAST}),
  ("U089", "v", "2707", {"in": 1.0}),
  ("U091", "v", "21587", {"in": 1.0, "grade": PAST}),
- ("U092", "photo", "S92", {"grade": PAST, **ZOOM, "title": "번아웃", "title_size": 230, "title_delay": 1.2}),  # stock (v6)
+ ("U092", "photo", "S92", {"grade": PAST, **ZOOM, "title": "번아웃", "title_size": 230,   # stock (v6)
+                          "title_at": "title_U092"}),     # v8: on the word 번아웃 (owner), was 1.2 s after the cut
  ("U095", "card", None, {}), ("U097", "v", "39841", {"in": 8.0, "grade": PAST}),
  # v2: runs on through U102 (owner). The crop cuts the word on the hoodie (Artisan), readable in v1 too.
  ("U100", "v", "50133", {"in": 1.0, "grade": DARK, "crop": [0.0, 0.0, 1.0, 0.74]}),
@@ -199,7 +203,7 @@ for i, (fu, kind, arg, ex) in enumerate(PLAN):
         else:
             sc.update({"type": "photo", "image": PHOTO_FILES[arg], "note": f"owner photo {arg}"})
         for k in ("grade", "blur", "z0", "z1", "zoom_rate", "cx0", "cx1", "cy0", "cy1", "title", "title_sub", "title_size",
-                  "title_color", "title_delay", "center_subs", "overlay"):
+                  "title_color", "title_delay", "title_at", "center_subs", "overlay"):
             if k in ex: sc[k] = ex[k]
     else:
         sc.update({"type": "card"})
@@ -241,7 +245,10 @@ if os.path.exists(LINES):                    # v7: subtitle lines
             t = t.replace(a, b)
         k = kind_of.get(l["from"])
         assert l["center"] == (k in CENTRE), (l["id"], l["from"], k)
-        subs.append(sub_style({"line": l["id"], "unit": l["from"], "text": t}, k, l["from"]))
+        sub = sub_style({"line": l["id"], "unit": l["from"], "text": t}, k, l["from"])
+        if l.get("steps"):                   # v8: later rows of a centre sentence appear when spoken
+            sub["steps"] = [{"id": st["id"], "row": st["row"]} for st in l["steps"]]
+        subs.append(sub)
 for u in ([] if subs else units):
     t = u["text"]
     for a, b in DIGITS:

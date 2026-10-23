@@ -32,7 +32,9 @@ for q in queries:
                   "url": "https://mixkit.co" + link.group(1) if link else "",
                   "thumb": thumb.group(1) if thumb else "",
                   "preview": video.group(1) if video else f"https://assets.mixkit.co/videos/{vid}/{vid}-360.mp4",
-                  "vertical": "item-grid-video-player--vertical" in c[:600]})
+                  # portrait clips: old cards carry a --vertical class, new ones only a tall thumbnail (460x818)
+                  "vertical": "item-grid-video-player--vertical" in c[:600] or bool(
+                      (d := re.search(r'<img [^>]*width="(\d+)" height="(\d+)"', c)) and int(d.group(2)) > int(d.group(1)))})
         if q not in v["queries"]:
             v["queries"].append(q)
 json.dump(list(allv.values()), open(idx_path, "w"), ensure_ascii=False, indent=1)

@@ -14,6 +14,9 @@
 # Scenes the owner asked for: a stock news photo behind the 작년 12월 / 31살 직장인 / 박 모 씨 text, zooming in very
 # slowly (U233); stock clips that show the new line (U238 phone instead of work, U239 trying the guitar, U241-U241b
 # going to sleep and asleep; the same young man as U236); the quote photo (A16) slowly zooms in.
+# v6 (2026-10-23): the owner asked for stock photos instead of the AI images at U067 (a sick person lying in bed) and
+# U092 (the 번아웃 picture; the big title stays), and for photos that only zoom in very slowly (no left-right drift):
+# U067 and U092 are now frames of Mixkit Free clips 25596 and 25585 (one actor, face hidden), all photos use ZOOM.
 # usage: build_spec.py <folder with units.json> [stock search index.json, adds clip titles as notes] -> <folder>/spec.json
 import json, re, sys
 F = sys.argv[1]
@@ -50,9 +53,11 @@ AI_FILES = {}                                      # filled in below from the ch
 # photos the owner supplied (2026-10-23, permission per the owner); not in the repository: put them in work/photos/
 PHOTO_FILES = {"F01": "../work/photos/freudenberger.png"}
 # stills cut from Mixkit Free clips (fetch_stock.sh makes them): id -> (clip, second)
-STILLS = {"N01": ("41192", 7.4)}                   # an open newspaper; blurred so no headline or masthead can be read
+STILLS = {"N01": ("41192", 7.4),                  # an open newspaper; blurred so no headline or masthead can be read
+          "S67": ("25596", 11.6),                  # a man collapsed face down on an unmade bed (sick, cannot move)
+          "S92": ("25585", 0.5)}                   # a man slumped at a work desk, hand over his eyes (face hidden)
 NEWS = {"sat": 0.6, "black": 0.08, "gamma": 1.9, "vignette": 0.6}         # dark enough for the white text on top
-AI_SEED = {"A01": 1, "A02": 1, "A07": 21, "A11": 1, "A12": 1, "A16": 1}
+AI_SEED = {"A01": 1, "A02": 1, "A12": 1, "A16": 1}  # A07 (seed 21) and A11 (seed 1) were used through v5 (full/images/)
 for k, sd in AI_SEED.items():
     AI_FILES[k] = f"{k}_s{sd}.png"
 # photos only zoom in, very slowly, about the centre (v6, owner: the left-right drift was distracting); the same speed
@@ -92,7 +97,7 @@ PLAN = [
  ("U059", "v", "39841", {"in": 1.0, "grade": PAST}),
  ("U061", "v", "44579", {"in": 1.0, "grade": PAST}), ("U064", "v", "3461", {"in": 1.0}),
  ("U065", "v", "4701", {"in": 0.0, "grade": PAST}),
- ("U067", "photo", "A07", {"grade": PAST, **ZOOM}),          # bedridden, cannot move (owner)
+ ("U067", "photo", "S67", {"grade": PAST, **ZOOM}),          # bedridden, cannot move: stock photo (owner, v6)
  ("U071", "v", "425", {"in": 1.0, "grade": PAST}),
  ("U074", "v", "28893", {"in": 1.0, "grade": PAST}),
  ("U076", "v", "425", {"in": 8.0, "grade": PAST}), ("U078", "v", "1967", {"in": 1.0}),
@@ -100,7 +105,7 @@ PLAN = [
  ("U087", "v", "8744", {"in": 1.0, "grade": PAST}),
  ("U089", "v", "2707", {"in": 1.0}),
  ("U091", "v", "21587", {"in": 1.0, "grade": PAST}),
- ("U092", "photo", "A11", {"grade": PAST, **ZOOM, "title": "번아웃", "title_size": 230, "title_delay": 1.2}),
+ ("U092", "photo", "S92", {"grade": PAST, **ZOOM, "title": "번아웃", "title_size": 230, "title_delay": 1.2}),  # stock (v6)
  ("U095", "card", None, {}), ("U097", "v", "39841", {"in": 8.0, "grade": PAST}),
  # v2: runs on through U102 (owner). The crop cuts the word on the hoodie (Artisan), readable in v1 too.
  ("U100", "v", "50133", {"in": 1.0, "grade": DARK, "crop": [0.0, 0.0, 1.0, 0.74]}),

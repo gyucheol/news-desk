@@ -292,9 +292,7 @@
     "vignette": 0.6
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.48,
-   "cx1": 0.52
+   "zoom_rate": 0.008
   },
   {
    "id": "029",
@@ -309,11 +307,7 @@
     "vignette": 0.6
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.52,
-   "cx1": 0.56,
-   "cy0": 0.5,
-   "cy1": 0.42
+   "zoom_rate": 0.008
   },
   {
    "id": "030",
@@ -328,9 +322,7 @@
     "vignette": 0.6
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.52,
-   "cx1": 0.48,
+   "zoom_rate": 0.008,
    "title": "1970년대",
    "title_sub": "뉴욕"
   },
@@ -442,8 +434,8 @@
    "id": "039",
    "from": "U067",
    "type": "photo",
-   "image": "images/A07_s21.png",
-   "note": "AI image A07",
+   "image": "../work/stock/stills/25596_11.6.png",
+   "note": "Mixkit 25596 Young man lays on a bed with a strong stomach ache (still at 11.6 s)",
    "grade": {
     "sat": 0.35,
     "black": 0.06,
@@ -451,9 +443,7 @@
     "vignette": 0.6
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.48,
-   "cx1": 0.52
+   "zoom_rate": 0.008
   },
   {
    "id": "040",
@@ -574,8 +564,8 @@
    "id": "049",
    "from": "U092",
    "type": "photo",
-   "image": "images/A11_s1.png",
-   "note": "AI image A11",
+   "image": "../work/stock/stills/25585_0.5.png",
+   "note": "Mixkit 25585 Frustrated boy throws a tantrum while working on his computer (still at 0.5 s)",
    "grade": {
     "sat": 0.35,
     "black": 0.06,
@@ -583,9 +573,7 @@
     "vignette": 0.6
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.48,
-   "cx1": 0.52,
+   "zoom_rate": 0.008,
    "title": "번아웃",
    "title_size": 230,
    "title_delay": 1.2
@@ -1030,9 +1018,7 @@
     "vignette": 0.5
    },
    "z0": 1.0,
-   "z1": 1.05,
-   "cx0": 0.48,
-   "cx1": 0.52
+   "zoom_rate": 0.008
   },
   {
    "id": "093",
@@ -1168,7 +1154,7 @@
    },
    "blur": 12,
    "z0": 1.0,
-   "z1": 1.04,
+   "zoom_rate": 0.008,
    "overlay": {
     "kind": "news_card",
     "at": [
@@ -1264,7 +1250,7 @@
    },
    "blur": 9,
    "z0": 1.0,
-   "z1": 1.05,
+   "zoom_rate": 0.008,
    "center_subs": true
   },
   {

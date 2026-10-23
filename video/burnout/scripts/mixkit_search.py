@@ -13,20 +13,25 @@ for q in queries:
                         f"https://mixkit.co/free-stock-video/discover/{q}/"], check=False)
         time.sleep(2)
     s = open(p, encoding="utf-8", errors="ignore").read()
-    cards = s.split('<div class="item-grid-card"')[1:]
+    # cards are <div class="item-grid-card"> or, on newer pages, <div class="item-grid-card item-grid-card--show-meta">
+    # (2026-10-23: splitting on the first form only dropped every card of those pages, e.g. exhausted, nap, sofa)
+    cards = re.split(r'<div class="item-grid-card(?: [^"_]*)?"', s)[1:]
     for c in cards:
         m = re.search(r'data-algolia-analytics-object-id="video-(\d+)"', c)
         if not m:
             continue
         vid = m.group(1)
-        title = re.search(r'overlay-video-title">\s*(.*?)\s*</span>', c, flags=re.S)
+        title = (re.search(r'overlay-video-title">\s*(.*?)\s*</span>', c, flags=re.S)
+                 or re.search(r'item-grid-card__title">\s*<a [^>]*>(.*?)</a>', c, flags=re.S)
+                 or re.search(r'overlay-link">\s*(.*?)\s*</a>', c, flags=re.S))
         link = re.search(r'href="(/free-stock-video/[^"]+)"', c)
         thumb = re.search(r'<img src="([^"]+)"', c)
+        video = re.search(r'<video src="([^"]+)"', c)          # newer cards carry a hashed preview address
         v = allv.setdefault(vid, {"id": vid, "queries": []})
         v.update({"title": html.unescape(title.group(1).strip()) if title else "",
                   "url": "https://mixkit.co" + link.group(1) if link else "",
                   "thumb": thumb.group(1) if thumb else "",
-                  "preview": f"https://assets.mixkit.co/videos/{vid}/{vid}-360.mp4",
+                  "preview": video.group(1) if video else f"https://assets.mixkit.co/videos/{vid}/{vid}-360.mp4",
                   "vertical": "item-grid-video-player--vertical" in c[:600]})
         if q not in v["queries"]:
             v["queries"].append(q)

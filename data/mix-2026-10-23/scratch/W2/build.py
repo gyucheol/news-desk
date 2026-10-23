@@ -695,6 +695,9 @@ items.append({
     ],
 })
 
+for x in items:
+    x["one"] = "\n".join(l.rstrip().rstrip(".") for l in x["one"].split("\n"))
+
 out = {"agent": "W2", "searches_used": 18, "fetches_used": 1, "items": items, "skipped": skipped}
 json.dump(out, open("/home/user/news-desk/data/mix-2026-10-23/out2/W2.json", "w"), ensure_ascii=False, indent=1)
 print(len(items))

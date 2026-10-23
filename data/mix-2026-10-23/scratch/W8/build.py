@@ -4,7 +4,7 @@ R = lambda u: u
 items = []
 
 def add(cid, title, one, facts, basis, check, src, inds, nodes, vc, its, attach="", added=None, fed=None):
-    x = {"cid": cid, "attachTo": attach, "title": title, "one": "\n".join(one), "facts": facts, "basis": basis,
+    x = {"cid": cid, "attachTo": attach, "title": title, "one": "\n".join(l.rstrip(".") for l in one), "facts": facts, "basis": basis,
          "check": check, "src": src, "inds": inds, "nodes": nodes, "vc": vc}
     if fed: x["fed"] = fed
     if added: x["added"] = added
@@ -73,7 +73,7 @@ add("G1-015", "블룸에너지 3분기 매출 12.36억 달러 138%↑ 사상 최
      "· 매출은 전년보다 138% 늘었고 제품 매출은 179% 증가한 10억 7,400만 달러였다.",
      "· GAAP 영업이익은 2억 2,540만 달러, 비GAAP EPS는 0.94달러였다.",
      "· 연간 매출 전망을 39억~42억 달러에서 44억~46억 달러로 올려 올해 세 번째로 상향했다.",
-     "· 운전자본 증가와 설비투자 탓에 3분기 잉여현금흐름은 1억 8,100만 달러 유출이었다. (채널 전언)"],
+     "· 운전자본 증가와 설비투자 탓에 3분기 잉여현금흐름은 1억 8,100만 달러 유출이었다 (채널 전언)"],
     ["무엇이: 블룸에너지 3분기 매출은 12억 3,580만 달러(약 12.36억 달러)로 전년 대비 138% 늘어 분기 사상 최대였다 [채널]",
      "수익성: 제품 매출 179% 증가, GAAP 영업이익 2억 2,540만 달러, 비GAAP EPS 0.94달러, 조정 EBITDA 2억 9,900만 달러로 컨센서스(매출 10억 8,200만 달러)를 웃돌았다 [채널]",
      "전망: 연간 매출 전망을 44억~46억 달러, 비GAAP 영업이익 9억 6,000만~10억 3,000만 달러로 올려 올해 세 번째로 상향했다 [채널]",
@@ -235,7 +235,7 @@ add("G1-102", "인도 타타모터스 2분기 흑자 전환…상용차 도매 �
      {"o": "Kotak Neo", "d": D, "u": "https://www.kotakneo.com/news/stocks/tata-motors-q2-fy-27-results-share-price-in-focus/"}],
     ["auto"], [],
     [{"ind": "auto", "node": "oem", "f": "수요", "dir": "up", "k": "실제", "t": "타타모터스 상용차 도매 판매 42% 증가"}],
-    [("인도 타타모터스, 2분기 이익 기록", "로이터", "https://www.reuters.com/world/india/indias-tata-motors-posts-second-quarter-profit-2026-10-23/", None)])
+    [("인도 타타모터스, 7~9월 2분기에 순이익 기록하며 흑자", "로이터", "https://www.reuters.com/world/india/indias-tata-motors-posts-second-quarter-profit-2026-10-23/", None)])
 
 add("G2-005", "영국 9월 소매판매 0.4%↓·소비자신뢰 코로나 이후 최대 급락…10월 PMI 2월 이후 최고",
     ["영국 소비 지표는 크게 나빠졌지만 10월 기업 활동은 2월 이후 가장 강해 경기가 두 갈래로 갈렸다.",
@@ -264,7 +264,7 @@ add("G2-005", "영국 9월 소매판매 0.4%↓·소비자신뢰 코로나 이�
       "영국 기업들이 소비 부진 속에서도 비관론을 딛고 성장을 이어가면서, 가계와 기업 경기가 두 갈래로 갈렸다 (제목 기준)"),
      ("영국 기업들, PMI서 2월 이후 가장 강한 한 달 기록", "로이터", "https://www.reuters.com/world/uk/uk-businesses-report-strongest-month-since-february-pmi-shows-2026-10-23/",
       "영국 기업들이 10월 PMI에서 2월 이후 가장 강한 활동을 보고하면서, 소비 지표와 달리 기업 경기는 개선됐다 (제목 기준)"),
-     ("영국 9월 소매판매 0.4% 감소", "로이터", "https://www.reuters.com/world/uk/british-retail-sales-fall-by-04-september-2026-10-23/",
+     ("영국 9월 소매판매 0.4% 감소…예상보다 큰 폭", "로이터", "https://www.reuters.com/world/uk/british-retail-sales-fall-by-04-september-2026-10-23/",
       "영국 9월 소매판매가 0.4% 줄었지만 연료 판매가 2.2% 늘어 일부를 상쇄했고, 3분기 전체로는 0.7% 늘었다"),
      ("파운드, 영국 지표 뒤 유로 대비 17개월 고점 경신", "로이터", "https://www.reuters.com/world/uk/sterling-edges-up-fresh-17-month-high-versus-euro-after-uk-data-2026-10-23/",
       "파운드가 영국 경제지표 발표 뒤 유로 대비 소폭 올라 17개월 만의 고점을 새로 쓰면서 강세를 이어갔다 (제목 기준)")])
@@ -315,7 +315,7 @@ add("G2-033", "면역 신약 경쟁…길리어드 펩스타 12.8억 달러 인�
       "애브비의 피부질환 신약이 임상에서 병변을 줄인 가운데 회사가 비만 치료제 시장 진출을 모색하면서 파이프라인을 넓히려 하고 있다 (제목 기준)"),
      ("길리어드, 펩스타 염증 신약 프로그램 12.8억 달러에 인수", "로이터", "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/",
       "길리어드가 펩스타의 경구 IL-23R 억제제 프로그램을 12억 7,500만 달러에 사들이면서, J&J가 앞선 경구 염증성 장질환 치료제 경쟁에 뛰어들었다"),
-     ("영국, J&J 경구 건선 치료제 승인", "로이터", "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-approves-jjs-oral-psoriasis-pill-2026-10-23/",
+     ("영국 당국, J&J의 먹는 건선 치료제 승인", "로이터", "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-approves-jjs-oral-psoriasis-pill-2026-10-23/",
       "영국 당국이 J&J의 먹는 건선 치료제를 승인하면서, J&J가 영국 건선 치료 시장에 경구 신약을 내놓을 수 있게 됐다 (제목 기준)")])
 
 FEDB = "https://www.bloomberg.com/news/articles/2026-10-23/federal-reserve-interest-rate-decision-faces-challenges-from-ai-inflation-war"
@@ -380,9 +380,9 @@ add("G2-059", "캐나다 8월 소매판매 1.2% 증가…신차 판매 주도, 9
      {"o": "The Globe and Mail", "d": D, "u": "https://www.theglobeandmail.com/business/article-canadian-retail-sales-up-12-in-august-2026/"}],
     ["macro"], ["macro/growth"],
     [{"ind": "macro", "node": "growth", "f": "수요", "dir": "up", "k": "실제", "t": "캐나다 8월 소매판매 1.2% 증가"}],
-    [("캐나다 소매판매 반등, 9월에도 이어질 듯", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-23/canada-retail-sales-rebound-set-to-continue-in-september",
+    [("캐나다 소매판매 반등세, 9월에도 이어질 듯", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-23/canada-retail-sales-rebound-set-to-continue-in-september",
       "캐나다 소매판매 반등이 9월에도 이어질 것으로 보이면서, 통계청 속보치는 9월에 0.7% 더 늘었을 것으로 가리켰다"),
-     ("캐나다 8월 소매판매 1.2% 증가", "로이터", "https://www.reuters.com/world/americas/canada-august-retail-sales-rise-12-2026-10-23/",
+     ("캐나다 8월 소매판매 전월 대비 1.2% 증가", "로이터", "https://www.reuters.com/world/americas/canada-august-retail-sales-rise-12-2026-10-23/",
       "캐나다 8월 소매판매가 신차 판매에 힘입어 1.2% 늘어 약 746억 캐나다달러를 기록하면서, 7월 감소에서 반등했다")])
 
 add("G2-066", "J&J 정형외과 분사 추진 속 스미스앤드네퓨 합병 협상, CEO 문제로 결렬…사업 가치 최대 220억 달러",

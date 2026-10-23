@@ -24,6 +24,9 @@
 # v8 (2026-10-23): in 12 centre sentences the owner marked, the later rows appear when they are spoken (lines.json
 # "steps" from subtitles_v8.txt; the layout of the whole sentence is fixed from the start); the big title 번아웃 on
 # the U092 photo fades in from the voice onset of 번아웃 (title_at: a point in lines_align.json, align_v8.py).
+# v9 (2026-10-23): the owner meant the marked centre sentences to change part by part in the same centre place ("그
+# 다음 읽을 대본이 그 자리에 올라가있게"), not to build up: they are now separate centre lines (subtitles_v9.txt,
+# make_lines_v9.py), so no line has steps (the steps code stays for rebuilding v8).
 # usage: build_spec.py <folder with units.json [lines.json]> [stock search index.json, adds clip titles as notes]
 #        -> <folder>/spec.json
 import json, os, re, sys

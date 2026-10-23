@@ -1,0 +1,73 @@
+{
+ "id": "n-rtr-0690",
+ "num": 690,
+ "key": "mix-G1-076-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T09:12:00+09:00",
+ "url": "https://www.reuters.com/business/energy/uk-gas-power-grids-ready-winter-despite-global-turmoil-operators-say-2026-10-23/",
+ "origTitle": "",
+ "headline": "영국 가스·전력망 '겨울 대비 완료'…가스 여유 일 9,900만 m³·전력 예비력 5.9GW",
+ "src": [
+  {
+   "o": "Energy Live News",
+   "d": "2026-10-23",
+   "u": "https://www.energylivenews.com/2026/10/23/britain-will-have-sufficient-gas-supply-this-winter/"
+  },
+  {
+   "o": "Drax",
+   "d": "2026-10-23",
+   "u": "https://energy.drax.com/intelligence/neso-winter-outlook-report-2026-2027/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 가스·전력망 운영사 '세계 혼란에도 겨울 대비 완료'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/uk-gas-power-grids-ready-winter-despite-global-turmoil-operators-say-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas",
+  "power"
+ ],
+ "nodes": [
+  "gas/demand",
+  "power/market"
+ ],
+ "title": "영국 가스·전력망 '겨울 대비 완료'…가스 여유 일 9,900만 m³·전력 예비력 5.9GW",
+ "one": "영국 가스·전력망 운영사가 세계 공급 혼란에도 이번 겨울 수급에 문제가 없다고 밝혔다\n· 내셔널가스는 최대 가스 수요 일 4억 9,300만 m³에 공급능력이 5억 9,200만 m³라고 밝혔다\n· NESO는 전력 예비력을 최대 수요의 9.5%인 5.9GW로 6월 전망보다 높여 잡았다",
+ "facts": [
+  "무엇이: 영국 가스·전력망 운영사들은 호르무즈 해협 봉쇄 등 세계 혼란에도 2026/27년 겨울 수요를 맞출 수 있다고 밝혔다 [사실]",
+  "가스: 최대 수요는 하루 4억 9,300만 m³로 2% 늘고 공급능력은 5억 9,200만 m³로, 여유는 9,900만 m³이지만 최대 설비 고장 시 1,800만 m³로 준다 [사실]",
+  "전력: 일반적인 한파 때 예비력은 5.9GW(최대 수요의 9.5%)로 6월 전망 5.5GW보다 높고, 12월·1월 일부 날은 빠듯할 수 있다 [사실]",
+  "가격: 이란 전쟁 이후 영국 근월물 가스·전력 가격은 각각 약 180%, 120% 올랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 내셔널가스·NESO 겨울 전망 수치 확인",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 겨울 최대 가스 수요 2% 증가 전망"
+  },
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 겨울 전력 예비력 5.9GW로 6월보다 확대"
+  }
+ ]
+}

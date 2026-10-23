@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0722",
+ "num": 722,
+ "key": "mix-G2-051-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:29:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-torrent-pharmas-profit-slips-rd-costs-outweigh-domestic-demand-2026-10-23/",
+ "origTitle": "",
+ "headline": "인도 제약 실적 엇갈려…닥터레디스 이익 36%↓에도 예상 상회, 토렌트 이익 9.6%↓",
+ "src": [
+  {
+   "o": "Finimize",
+   "d": "2026-10-23",
+   "u": "https://finimize.com/content/dr-reddys-beat-profit-estimates-even-as-us-sales-slid"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-23",
+   "u": "https://www.business-standard.com/companies/quarterly-results/torrent-pharma-q2-profit-falls-9-6-to-534-crore-revenue-rises-51-126102301344_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 토렌트제약, R&D 비용이 내수 호조 압도해 이익 감소",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-torrent-pharmas-profit-slips-rd-costs-outweigh-domestic-demand-2026-10-23/",
+   "s": "토렌트제약이 매출을 50.8% 늘렸지만 연구개발비 등 비용이 내수 호조를 웃돌면서 순이익이 9.6% 줄어든 53억 4,000만 루피에 그쳤다"
+  },
+  {
+   "t": "인도 닥터레디스, 분기 이익이 시장 예상을 웃돌아",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-dr-reddys-beats-quarterly-profit-estimate-2026-10-23/",
+   "s": "닥터레디스가 북미 매출 감소로 순이익이 36% 줄었지만 92억 5,000만 루피로 시장 예상 74억 9,000만 루피를 웃돌았다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "인도 제약 실적 엇갈려…닥터레디스 이익 36%↓에도 예상 상회, 토렌트 이익 9.6%↓",
+ "one": "인도 제약사 닥터레디스와 토렌트제약의 7~9월 분기 순이익이 나란히 줄었다\n· 닥터레디스 순이익은 92억 5,000만 루피로 36% 줄었지만 시장 예상 74억 9,000만 루피를 웃돌았다\n· 닥터레디스의 북미 매출은 약 23% 줄었고 인도 매출은 17.2% 늘었다\n· 토렌트제약 순이익은 53억 4,000만 루피로 9.6% 줄었고 매출은 50.8% 늘었다\n· 토렌트의 매출 대비 연구개발비 비중은 4.2%로 직전 분기 3.5%에서 높아졌다",
+ "facts": [
+  "무엇이: 닥터레디스 7~9월 순이익이 약 92억 5,000만 루피로 36% 줄었지만 LSEG 집계 예상치 74억 9,000만 루피를 웃돌았다 [사실]",
+  "닥터레디스 지역: 북미 매출이 약 23% 줄었고 인도 매출은 17.2% 늘어 185억 루피였다 [사실]",
+  "토렌트: 순이익 53억 4,000만 루피(9.6%↓), 매출 497억 9,000만 루피(50.8%↑)로 예상치에 못 미쳤고 연구개발비 비중은 4.2%로 높아졌다 [사실]",
+  "원인 차이: 로이터 제목은 연구개발비 부담을 들었고 비즈니스스탠더드는 금융비용·감가상각 증가를 꼽았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Finimize·Business Standard·Investing.com 콜 기록)으로 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "bigpharma",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "닥터레디스 북미 매출 약 23% 감소"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

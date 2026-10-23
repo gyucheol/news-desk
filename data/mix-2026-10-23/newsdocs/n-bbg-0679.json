@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0679",
+ "num": 679,
+ "key": "mix-G2-042-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/retail-traders-loaded-up-on-ai-spending-winners-before-selloff",
+ "origTitle": "",
+ "headline": "AI 매도 앞서 개인은 AI 수혜주 대량 매수…캘퍼스는 M7 줄이고 사모펀드 확대",
+ "src": [],
+ "items": [
+  {
+   "t": "개인투자자, 매도세 직전 AI 지출 수혜주 대거 매수",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/retail-traders-loaded-up-on-ai-spending-winners-before-selloff",
+   "s": "개인투자자들이 매도세 직전 AI 지출 수혜주를 대거 사들이면서 AI 관련주 급락의 손실을 고스란히 떠안게 됐다 (제목 기준)"
+  },
+  {
+   "t": "캘퍼스, M7 빅테크 비중 줄이고 사모펀드 투자 확대",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-23",
+   "u": "https://t.me/The_MariTimes/63942",
+   "s": "미국 대형 연기금 캘퍼스가 M7 빅테크 투자를 줄이고 사모펀드 투자를 늘리면서 대형 기술주 집중 위험을 덜어 내고 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "AI 매도 앞서 개인은 AI 수혜주 대량 매수…캘퍼스는 M7 줄이고 사모펀드 확대",
+ "one": "AI 관련주 매도세를 전후해 개인투자자와 대형 연기금의 포지션이 서로 엇갈렸다\n· 개인투자자들은 매도세 직전 AI 지출 수혜주를 대거 사들였다\n· 캘리포니아 공무원연금 캘퍼스는 M7 빅테크 투자를 줄이고 사모펀드 투자를 늘리고 있다고 밝혔다 (채널 전언)",
+ "facts": [
+  "무엇이: 개인투자자들이 AI 관련주 매도 직전 AI 지출 수혜주를 대거 사들였다 [제목]",
+  "연기금: 캘퍼스가 M7 빅테크 투자를 줄이고 사모펀드 투자를 늘리고 있다고 FT가 전했다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "검색 한도로 독립 확인 못 함. 캘퍼스 내용은 텔레그램 원문(FT 인용) 기준",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "캘퍼스 M7 줄이고 사모펀드 투자 확대"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0726",
+ "num": 726,
+ "key": "mix-G2-078-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T00:28:00+09:00",
+ "url": "https://www.reuters.com/markets/europe/germany-expects-434-billion-more-tax-revenues-2026-2030-2026-10-22/",
+ "origTitle": "",
+ "headline": "독일, 2026~2030년 세수 434억 유로 추가 전망…연방 몫은 33억 유로",
+ "src": [
+  {
+   "o": "US News",
+   "d": "2026-10-22",
+   "u": "https://money.usnews.com/investing/news/articles/2026-10-22/germany-expects-43-4-billion-more-in-tax-revenues-from-2026-to-2030"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-22",
+   "u": "https://www.indexbox.io/blog/germanys-updated-tax-estimates-offer-no-extra-fiscal-room-for-federal-government/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일, 2026~2030년 세수 434억 유로 추가 예상",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/markets/europe/germany-expects-434-billion-more-tax-revenues-2026-2030-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "독일, 2026~2030년 세수 434억 유로 추가 전망…연방 몫은 33억 유로",
+ "one": "독일 조세추계위원회가 2026~2030년 세수를 5월 전망보다 434억 유로 늘려 잡았다\n· 이 가운데 연방정부 몫은 5년간 약 33억 유로이고 대부분 주·지방정부로 간다\n· 클링바일 재무장관은 새 재정 여력은 없으며 2028년 220억 유로 부족은 남는다고 했다",
+ "facts": [
+  "무엇이: 독일 조세추계위원회는 2026~2030년 전체 세수가 5월 전망보다 434억 유로 많을 것으로 봤다 [사실]",
+  "배분: 연방정부 몫은 약 33억 유로이고 주·지방정부가 대부분을 받는다 [사실]",
+  "재정: 클링바일 장관은 새 재정 여력은 없다고 했고 2028년 예산 부족 220억 유로는 남아 있다 [사실]",
+  "숫자 정정: 묶음 핵심의 '4,340억 유로'는 434억 유로(43.4 billion)의 오기다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(US News·인덱스박스)으로 확인. 제목의 434는 434억 유로",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "세수 434억 유로 추가에도 새 재정 여력 없음"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0676",
+ "num": 676,
+ "key": "mix-G1-028-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:53:00+09:00",
+ "url": "https://www.reuters.com/world/romania-speed-up-development-black-sea-capabilities-after-cargo-ship-attacks-2026-10-22/",
+ "origTitle": "",
+ "headline": "흑해 상선 공격 격화…러 드론에 화물선 침몰 1명 사망·3명 실종, 루마니아 방어 강화",
+ "src": [
+  {
+   "o": "Kyiv Independent",
+   "d": "2026-10-23",
+   "u": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-23",
+   "u": "https://abcnews.com/Business/wireStory/drone-hit-sank-cargo-vessel-new-black-sea-137505770"
+  }
+ ],
+ "items": [
+  {
+   "t": "루마니아, 화물선 피격 뒤 흑해 방어 역량 확충 가속",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/romania-speed-up-development-black-sea-capabilities-after-cargo-ship-attacks-2026-10-22/",
+   "s": "루마니아가 잇단 화물선 공격 뒤 흑해 방어 역량 개발을 앞당기기로 하면서 자국 수역 해상 안보 대응을 강화하고 있다 (제목 기준)"
+  },
+  {
+   "t": "우크라, 러 드론 피해 통관 검사 EU 역내 이전 추진…FT",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/ukraine-seeks-move-customs-checks-inside-eu-avoid-russian-drones-ft-reports-2026-10-23/",
+   "s": "우크라이나가 러시아 드론 공격을 피하려 통관 검사를 EU 역내로 옮기는 방안을 추진하면서 국경 물류 경로가 바뀔 수 있다 (제목 기준)"
+  },
+  {
+   "t": "루마니아 '러 드론에 화물선 침몰'…1명 사망·3명 실종",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/romania-blames-russia-drone-that-sinks-cargo-ship-1-killed-3-missing-2026-10-23/",
+   "s": "루마니아가 콘스탄차 앞바다에서 화물선을 침몰시킨 드론의 배후로 러시아를 지목하면서 1명 사망·3명 실종 피해가 확인됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "흑해 상선 공격 격화…러 드론에 화물선 침몰 1명 사망·3명 실종, 루마니아 방어 강화",
+ "one": "러시아 드론이 루마니아 앞바다에서 화물선을 침몰시키며 흑해 해상 물류 위험이 커졌다\n· 코모로 선적 화물선 호리우호가 콘스탄차항 앞 13해리에서 피격돼 1명이 숨지고 3명이 실종됐다\n· 루마니아는 잇단 화물선 공격 뒤 흑해 방어 역량 확충을 서두르기로 했다\n· 우크라이나는 러시아 드론을 피하려 통관 검사를 EU 역내로 옮기는 방안을 추진한다\n· 최근 몇 주 흑해에서 상선 11척이 드론에 맞았고 이 가운데 7척이 루마니아 인근이었다",
+ "facts": [
+  "무엇이: 10월 23일 코모로 선적 화물선 호리우(Khoryv)호가 콘스탄차 앞 13해리에서 드론에 맞아 침몰해 1명이 숨지고 3명이 실종됐다 [사실]",
+  "책임: 니쿠쇼르 단 루마니아 대통령과 폰데어라이엔 EU 집행위원장이 러시아를 지목하고 규탄했다 [사실]",
+  "대응: 루마니아는 흑해 방어 역량 개발을 앞당기고, 우크라이나는 통관 검사를 EU 안으로 옮기려 한다(FT 보도) [제목]",
+  "규모: 최근 몇 주간 흑해에서 상선 11척이 드론 피해를 입었고 7척이 루마니아 인근이었다는 보도가 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "화물선 침몰·사상자는 검색 결과 요약(키이우인디펜던트·ABC 등)으로 확인. 루마니아 방어 확충, 우크라 통관 이전은 제목만 근거",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "러 드론 화물선 침몰로 흑해 항로 운항 위험 확대"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "n-bbg-0676",
+ "num": 676,
+ "key": "mix-G2-030-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:51:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/infosys-lowers-sales-forecast-after-companies-curb-it-spending",
+ "origTitle": "",
+ "headline": "인도 IT서비스 실적 엇갈려…인포시스 매출 예상 상회에도 연간 전망 하향, 코포지는 40%↑",
+ "src": [
+  {
+   "o": "Investing.com(코포지 실적 자료)",
+   "d": "2026-10-23",
+   "u": "https://ph.investing.com/news/stock-market-news/coforge-q2-fy27-slides-margins-upgraded-as-order-intake-tops-1b-93CH-2646925"
+  },
+  {
+   "o": "BusinessToday",
+   "d": "2026-10-23",
+   "u": "https://www.businesstoday.in/markets/stocks/story/infosys-dividend-q2-results-preview-profit-sales-deal-wins-fy27-guidance-ai-led-deflation-563179-2026-10-23"
+  }
+ ],
+ "items": [
+  {
+   "t": "인포시스, 기업 IT 지출 억제에 매출 전망 하향",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/infosys-lowers-sales-forecast-after-companies-curb-it-spending",
+   "s": "기업들이 IT 지출을 줄이면서 인포시스가 연간 매출 전망을 낮춰, 인도 IT서비스 수요 둔화가 드러났다 (제목 기준)"
+  },
+  {
+   "t": "인도 코포지, 엔코라 통합·수주 호조에 분기 고성장",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-coforge-posts-strong-quarterly-growth-encora-integration-deal-momentum-2026-10-23/",
+   "s": "코포지가 엔코라 통합과 10억 4,000만 달러 수주에 힘입어 분기 매출을 전년 대비 40.1% 늘리면서, EBIT 마진 목표도 16%로 높였다"
+  },
+  {
+   "t": "인도 인포시스, 2분기 매출 시장 예상치 웃돌아",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-infosys-beats-second-quarter-revenue-view-2026-10-23/",
+   "s": "인포시스의 2분기 매출이 시장 예상을 웃돌았지만, 같은 날 연간 매출 전망은 낮춰 성장 둔화 우려가 남았다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "인도 IT서비스 실적 엇갈려…인포시스 매출 예상 상회에도 연간 전망 하향, 코포지는 40%↑",
+ "one": "인도 IT서비스 업체 실적이 엇갈려 인포시스는 연간 매출 전망을 낮추고 코포지는 고성장했다\n· 인포시스는 2분기 매출이 시장 예상을 웃돌았다\n· 인포시스는 기업들의 IT 지출 억제로 연간 매출 전망을 낮췄다\n· 코포지 2분기 매출은 6억 5,220만 달러로 전년 대비 40.1%, 전 분기 대비 10.1% 늘었다\n· 코포지는 엔코라 인수 효과 속에 수주 10억 4,000만 달러를 올리고 EBIT 마진 목표를 16%로 높였다",
+ "facts": [
+  "무엇이: 인포시스는 2분기 매출이 예상을 웃돌았지만 기업들의 IT 지출 억제로 연간 매출 전망을 낮췄다 [제목]",
+  "기존 전망: 인포시스의 기존 FY27 매출 성장 전망은 고정환율 기준 1.5~3.0%, 영업이익률 20~22%였고 시장은 하향을 예상했다 [사실]",
+  "코포지: 2분기 매출은 6억 5,220만 달러로 전년 대비 40.1%, 전 분기 대비 10.1% 늘었고, 대부분 엔코라 인수 효과이며 유기적 성장은 전 분기 대비 3.8%였다 [사실]",
+  "수주·마진: 코포지 수주는 10억 4,000만 달러로 전 분기 대비 50.6% 늘었고, 연간 EBIT 마진 목표를 15.5%에서 16%로 올렸다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "코포지 실적은 검색 결과 요약으로 확인, 인포시스 실제 실적과 새 전망 수치는 확인 못 함(검색엔 실적 전 프리뷰만)",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "기업 IT 지출 억제로 인포시스 연간 전망 하향"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

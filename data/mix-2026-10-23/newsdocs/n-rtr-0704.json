@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0704",
+ "num": 704,
+ "key": "mix-G1-095-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T17:05:00+09:00",
+ "url": "https://www.reuters.com/business/sodexo-beats-expectations-signals-progress-turnaround-2026-10-23/",
+ "origTitle": "",
+ "headline": "소덱소, 2026 회계연도 유기적 성장 2.0%로 가이던스 상회…턴어라운드 진전",
+ "src": [
+  {
+   "o": "소덱소 실적 발표(글로브뉴스와이어)",
+   "d": "2026-10-23",
+   "u": "https://www.manilatimes.net/2026/10/23/tmt-newswire/globenewswire/sodexo-fiscal-2026-results-organic-growth-above-guidance-fiscal-2027-outlook-confirmed/2452502/amp"
+  }
+ ],
+ "items": [
+  {
+   "t": "소덱소, 실적 예상 상회하며 턴어라운드 진전 신호",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/sodexo-beats-expectations-signals-progress-turnaround-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "소덱소, 2026 회계연도 유기적 성장 2.0%로 가이던스 상회…턴어라운드 진전",
+ "one": "소덱소가 2026 회계연도 유기적 매출 성장률 2.0%로 회사 가이던스를 넘으며 턴어라운드 진전을 보였다\n· 4분기 유기적 성장은 2.6%로 빨라졌지만 기초 영업이익률은 3.4%로 130bp 떨어졌다\n· 2027 회계연도 유기적 성장 2~3% 전망을 재확인했다",
+ "facts": [
+  "무엇이: 소덱소의 2026 회계연도 유기적 매출 성장률이 2.0%로 7월 가이던스 1.2~1.5%를 넘었다 [사실]",
+  "수익성: 기초 영업이익률은 3.4%로 130bp 하락했고 기초 영업이익은 약 29% 줄어 8억 1,000만 유로였다 [사실]",
+  "지역: 북미 -1.0%, 유럽 2.1%, 기타 지역 9.7%의 유기적 성장을 기록했다 [사실]",
+  "전망: 2027 회계연도 유기적 성장 2~3% 전망을 재확인하고 주당 1.74유로 배당을 제안했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 실적 발표(검색 결과 요약)로 확인. 애널리스트 컨센서스 대비 상회 여부는 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "dining",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "소덱소 유기적 성장 2.0%로 가이던스 상회"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "n-rtr-0670",
+ "num": 670,
+ "key": "mix-G1-020-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:06:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/heineken-document-reveals-worries-over-weight-loss-drugs-beer-sales-2026-10-23/",
+ "origTitle": "",
+ "headline": "비만약 확산에 식음료 업계 대응…하이네켄 맥주 판매 우려·단백질 식품 붐·허쉬 단백질 초콜릿 검토",
+ "src": [
+  {
+   "o": "키프로스메일",
+   "d": "2026-10-23",
+   "u": "https://cyprus-mail.com/2026/10/23/heineken-warns-weight-loss-drugs-could-hit-beer-sales-in-british-pubs"
+  },
+  {
+   "o": "ESM매거진",
+   "d": "2026-10-23",
+   "u": "https://www.esmmagazine.com/drinks/heineken-document-reveals-worries-over-weight-loss-drugs-and-beer-sales-324410"
+  }
+ ],
+ "items": [
+  {
+   "t": "하이네켄 내부 문서, 비만약이 맥주 판매에 미칠 영향 우려 드러나",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/litigation/heineken-document-reveals-worries-over-weight-loss-drugs-beer-sales-2026-10-23/",
+   "s": "하이네켄이 영국 펍 고객용 자료에서 GLP-1 약물이 맥주·사이다 판매를 줄일 수 있다고 경고하면서, 하프 파인트·저알코올 음료 판촉을 권했다"
+  },
+  {
+   "t": "허쉬 CEO, 마스에 맞서 단백질·건강 지향 초콜릿 검토",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/features/2026-10-23/hershey-ceo-fights-back-mars-mulls-protein-and-better-for-you-chocolates",
+   "s": "허쉬 CEO가 마스와의 경쟁에 맞서 단백질·건강 지향 초콜릿을 검토하면서, 건강 수요에 맞춰 과자 제품 구성을 바꿀 수 있다 (제목 기준)"
+  },
+  {
+   "t": "비만약이 단백질 식품 붐 불러…소비자 검증도 한층 강화",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/litigation/weight-loss-drugs-fuel-protein-boom-with-more-consumer-scrutiny-2026-10-23/",
+   "s": "비만약 확산이 단백질 식품 붐을 일으키면서, 소비자들이 단백질 제품의 성분과 효과를 더 꼼꼼히 따지기 시작했다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer",
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "비만약 확산에 식음료 업계 대응…하이네켄 맥주 판매 우려·단백질 식품 붐·허쉬 단백질 초콜릿 검토",
+ "one": "비만약(GLP-1) 확산이 맥주와 과자 같은 식음료 수요를 바꾸면서 업체들이 대응에 나섰다\n· 하이네켄은 영국 펍 고객용 자료에서 GLP-1 약물이 포만감과 주문 감소로 맥주 판매를 압박할 수 있다고 경고했다\n· 하이네켄은 펍들에 하프 파인트와 저알코올·무알코올 음료 판촉을 권했다\n· 비만약 확산으로 단백질 식품 붐이 일면서 소비자 검증도 강해지고 있다\n· 허쉬 CEO는 마스에 맞서 단백질·건강 지향 초콜릿을 검토하고 있다",
+ "facts": [
+  "무엇이: 하이네켄이 이달 영국 외식업 고객에게 보낸 자료에서 GLP-1 약물이 맥주·사이다 판매를 압박할 수 있다며 하프 파인트·저알코올 음료 판촉을 권했다 [사실]",
+  "업계 시각: 디아지오는 GLP-1 영향이 관리 가능하다고 했고, 칼스버그는 기존 데이터가 아직 약물을 맥주 소비 추세의 뚜렷한 원인으로 뒷받침하지 않는다고 봤다 [사실]",
+  "규모: JP모건 조사로는 지난해 미국에서 약 1,000만 명이 오젬픽·위고비 같은 약을 썼다 [사실]",
+  "식품: 비만약이 단백질 식품 붐을 불러 소비자 검증이 강화되고 있으며, 허쉬 CEO는 마스에 맞서 단백질·건강 지향 초콜릿을 검토한다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "하이네켄 자료 내용은 키프로스메일·ESM 등 검색 결과 요약으로 확인, 단백질 식품 붐과 허쉬 검토는 제목만 근거",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "alcohol",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "비만약 확산에 맥주 판매 감소 우려"
+  },
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "비만약 확산에 단백질 식품 붐"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

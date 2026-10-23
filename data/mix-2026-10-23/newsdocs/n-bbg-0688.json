@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0688",
+ "num": 688,
+ "key": "mix-G2-063-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T03:11:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/peru-government-to-seek-higher-fiscal-deficits-to-shield-economy",
+ "origTitle": "",
+ "headline": "페루, 엘니뇨 대응 180억 솔 부양…2027년 재정적자 상한 GDP 2.4%로 확대 추진",
+ "src": [
+  {
+   "o": "신화통신",
+   "d": "2026-10-23",
+   "u": "https://english.news.cn/20261023/80349f632e5e4783a8a016d56388d14d/c.html"
+  },
+  {
+   "o": "Rio Times",
+   "d": "",
+   "u": "https://www.riotimesonline.com/peru-el-nino-stimulus-us-5-2-billion-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "페루 정부, 경기 방어 위해 재정적자 확대 추진",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/peru-government-to-seek-higher-fiscal-deficits-to-shield-economy",
+   "s": "페루 정부가 경기를 지키려 2027년 재정적자 상한을 GDP의 2.4%로 높이려 하면서, 재정 규칙 완화에 의회 처리가 필요해졌다"
+  },
+  {
+   "t": "페루, 엘니뇨 피해 영향에 맞선 경제 대책 발표",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/environment/peru-rolls-out-economic-measures-counter-el-nio-impact-2026-10-22/",
+   "s": "페루가 엘니뇨 피해 기업에 유동성 지원과 세금 유예를 내놓고 2027년 지출을 약 180억 솔 늘리면서, 인프라에 130억 솔을 배정했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "페루, 엘니뇨 대응 180억 솔 부양…2027년 재정적자 상한 GDP 2.4%로 확대 추진",
+ "one": "페루 정부가 엘니뇨 피해에 맞서 경기 대책을 내놓고 재정적자 상한을 높이기로 했다\n· 정부는 2027년 지출을 약 180억 솔(52억 달러) 늘리고 이 가운데 130억 솔을 인프라에 쓴다\n· 정부는 2027년 재정적자 상한을 GDP의 1.4%에서 2.4%로 높이려 한다\n· 엘니뇨 피해 기업에는 유동성 지원과 세금 납부 유예가 제공된다",
+ "facts": [
+  "무엇이: 페루 정부는 10월 22일 엘니뇨 피해 대응을 위해 피해 기업 유동성 지원·세금 유예와 재정 규칙 완화를 발표했다 [사실]",
+  "규모: 2027년 추가 지출은 약 180억 솔(52억 달러)로 인프라 130억 솔, 취약계층 현금 지원 25억 솔, 연료 보조금 5억 솔이다 [사실]",
+  "적자: 2027년 재정적자 상한을 GDP의 1.4%에서 2.4%로 올린 뒤 임기 말까지 약 1%로 되돌린다는 계획이며 의회 처리가 남았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(신화통신·Rio Times 등)으로 지출 규모·적자 상한 상향 계획 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "페루, 2027년 지출 180억 솔 확대·적자 상한 2.4%"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

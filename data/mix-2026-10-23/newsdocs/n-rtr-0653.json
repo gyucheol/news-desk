@@ -1,0 +1,113 @@
+{
+ "basis": "channel",
+ "check": "기존 로이터 조사 사실은 기존 문서 근거 유지. 이번 블룸버그 기사 내용과 텔레그램 차트는 검색 한도로 독립 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 16~20일 로이터 조사에서 이코노미스트 100명 중 94명이 10월 27~28일 회의의 3.75~4.00% 동결을 예상했다 [사실]",
+  "12월: 100명 전원이 12월 인상을 예상해 지난달 조사의 절반 미만에서 크게 늘었다 [사실]",
+  "정점: 약 60%는 금리 정점을 4.00~4.25%로 봤고 92명 중 38명은 최소 두 차례 추가 인상을 예상했으며, 연준 선호 물가지표는 2028년 이전 목표 복귀가 어려울 것으로 나타났다 [사실]",
+  "변수: 블룸버그는 연준의 10월 금리 결정이 AI·인플레이션·전쟁이라는 변수에 직면했다고 보도했다 [제목]",
+  "시장 괴리: 9월 FOMC 점도표와 10월 9일 기준 OIS 금리 선도곡선 가격이 어긋나 있다는 지적이 나왔다 [채널]"
+ ],
+ "fed": [
+  {
+   "d": "2026-10-20",
+   "k": "",
+   "kind": "관련 뉴스",
+   "role": "연방공개시장위원회",
+   "stance": "",
+   "t": "이코노미스트 거의 전원이 연준의 10월 동결 뒤 12월 인상을 예상했다",
+   "u": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/",
+   "who": "FOMC"
+  },
+  {
+   "k": "",
+   "who": "FOMC",
+   "role": "연방공개시장위원회",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "9월 점도표와 10월 9일 OIS 금리 선도곡선이 어긋났다는 지적이 나왔다",
+   "d": "2026-10-23",
+   "u": "https://t.me/The_MariTimes/63932"
+  },
+  {
+   "k": "",
+   "who": "FOMC",
+   "role": "연방공개시장위원회",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "10월 금리 결정이 AI·인플레이션·전쟁 변수로 시험대에 올랐다",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/federal-reserve-interest-rate-decision-faces-challenges-from-ai-inflation-war"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연준 10월 동결·12월 인상 전망…이코노미스트 100명 전원 12월 인상·AI·물가·전쟁 변수 시험대",
+ "id": "n-rtr-0653",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "t": "이코노미스트 거의 전원 '연준 10월 건너뛰고 12월 다시 인상'",
+   "u": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/"
+  },
+  {
+   "t": "9월 FOMC 점도표와 10월 9일 OIS 금리 선도곡선 괴리",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63932",
+   "s": "Polaristimes가 9월 FOMC 점도표와 10월 9일 기준 OIS 금리 선도곡선을 비교하면서, 시장 금리 경로와 연준 전망이 어긋난 포지셔닝을 짚었다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "연준 금리 결정, AI·인플레이션·전쟁 변수에 시험대",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/federal-reserve-interest-rate-decision-faces-challenges-from-ai-inflation-war",
+   "s": "연준의 10월 금리 결정이 AI, 인플레이션, 전쟁이라는 세 변수에 부딪히면서 정책 판단이 한층 어려워졌다는 분석이 나왔다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "key": "mix-G2-055-2026-10-21",
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "num": 653,
+ "one": "연준이 10월 27~28일 회의에서 금리를 동결하고 12월에 다시 올릴 것이라는 전망이 굳어졌다\n· 로이터 조사에서 100명 중 94명이 10월 3.75~4.00% 동결을, 100명 전원이 12월 인상을 예상했다\n· 약 60%는 금리 정점을 4.00~4.25%로 봤고 물가는 2028년 전에 목표로 돌아오기 어렵다고 봤다\n· 블룸버그는 연준의 10월 결정이 AI·인플레이션·전쟁 변수로 시험대에 올랐다고 짚었다\n· 9월 FOMC 점도표와 10월 9일 기준 OIS 금리 선도곡선 사이에 괴리가 있다는 지적이 나왔다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:00:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "러프킨데일리뉴스",
+   "u": "https://lufkindailynews.com/news_reuters/business/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters/article_ca47be28-f51e-5b9e-9d64-b7442da5a1fb.html"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "포렉스팩토리",
+   "u": "https://www.forexfactory.com/news/1432322-fed-to-skip-october-but-raise-rates-again"
+  }
+ ],
+ "tags": [],
+ "title": "연준 10월 동결·12월 인상 전망…이코노미스트 100명 전원 12월 인상·AI·물가·전쟁 변수 시험대",
+ "url": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "이코노미스트 100명 전원 12월 인상 예상"
+  }
+ ],
+ "added": "블룸버그·텔레그램 2건 — 10월 결정의 AI·인플레·전쟁 변수, 9월 점도표와 10월 9일 OIS 선도곡선 괴리 내용이 추가됨",
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0735",
+ "num": 735,
+ "key": "mix-G2-097-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T17:48:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23/",
+ "origTitle": "",
+ "headline": "일본은행 금융시스템보고서, AI 기대 꺾일 때 시장 충격·사이버공격 위험 경고",
+ "src": [
+  {
+   "o": "일본은행",
+   "d": "2026-10-23",
+   "u": "https://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본은행, AI발 시장 충격·사이버공격 위험 경고",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/liquidity"
+ ],
+ "title": "일본은행 금융시스템보고서, AI 기대 꺾일 때 시장 충격·사이버공격 위험 경고",
+ "one": "일본은행이 10월 23일 금융시스템보고서에서 AI발 시장 충격과 사이버공격을 금융 위험으로 경고했다\n· AI 투자 수익 기대가 꺾이면 해외 비은행 금융기관의 포트폴리오 조정으로 충격이 커져 일본에 번질 수 있다\n· 다만 일본 은행들은 AI·유가·금리 복합 충격에도 견딜 자본을 갖췄다고 평가했다",
+ "facts": [
+  "무엇이: 일본은행은 10월 금융시스템보고서에서 AI 투자 수익 기대 하락이 해외 비은행 금융기관을 통해 시장 충격을 키워 일본에 번질 수 있다고 경고했다 [사실]",
+  "사이버: 첨단 AI가 사이버공격의 속도와 규모를 키울 수 있어 사이버 사고를 거시건전성 위험으로 다뤘다 [사실]",
+  "건전성: 큰 금융 불균형은 없고 일본 은행들은 AI·유가·금리 복합 충격을 견딜 자본을 갖췄다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "일본은행 금융시스템보고서 페이지 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "일본은행 AI발 시장 충격·사이버공격 위험 경고"
+  }
+ ]
+}

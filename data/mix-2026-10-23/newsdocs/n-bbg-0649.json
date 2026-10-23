@@ -1,0 +1,85 @@
+{
+ "id": "n-bbg-0649",
+ "num": 649,
+ "key": "mix-G1-031-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T11:41:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/australia-s-flagship-hydro-project-now-costs-11-times-original-estimate",
+ "origTitle": "",
+ "headline": "호주 스노위 2.0 수력 비용 최대 250억 호주달러로 폭증…당초 추정의 11배·완공 2029년",
+ "src": [
+  {
+   "o": "Snowy Hydro",
+   "d": "2026-10-22",
+   "u": "https://www.snowyhydro.com.au/news/snowy-2-0-cost-reassessment-complete/"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-22",
+   "u": "https://www.abc.net.au/news/2026-10-22/cost-of-snowy-hydro-expansion-doubles/107276162"
+  },
+  {
+   "o": "Proactive Investors",
+   "d": "2026-10-22",
+   "u": "https://www.proactiveinvestors.com.au/a/defdacc4/snowy-2-0-cost-blows-out-to-as-much-as-a-25-billion-as-completion-slips-"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 대표 수력 사업, 비용이 당초 추정의 11배로",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/australia-s-flagship-hydro-project-now-costs-11-times-original-estimate",
+   "s": "호주 스노위 2.0 수력 사업 비용이 당초 추정의 11배로 불어나면서 정부 주도 에너지 사업의 비용 부담이 크게 늘었다"
+  },
+  {
+   "t": "호주 스노위 수력 사업 비용 폭증…추정 180억 달러",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/australias-snowy-hydro-project-cost-blows-out-estimated-18-billion-2026-10-23/",
+   "s": "스노위 하이드로가 사업비를 최대 250억 호주달러(180억 달러)로 재산정하고 완공을 2029년 말로 미루면서 비용 초과가 굳어졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/storage"
+ ],
+ "title": "호주 스노위 2.0 수력 비용 최대 250억 호주달러로 폭증…당초 추정의 11배·완공 2029년",
+ "one": "호주 대표 수력 사업 스노위 2.0의 비용이 최대 250억 호주달러(180억 달러)로 불어났다\n· 블룸버그는 비용이 당초 추정의 11배가 됐다고 전했고, 당초 예산은 20억 호주달러였다\n· 스노위 하이드로는 재산정 목표 비용을 222억 호주달러로 잡고 250억 호주달러 시나리오도 대비한다\n· 완공 시점은 2029년 말로 밀렸고, 회사는 설계 변경·지질 악조건·인건비 상승을 원인으로 꼽았다",
+ "facts": [
+  "무엇이: 스노위 2.0 비용이 최대 250억 호주달러(약 180억 달러)로 불어나 당초 추정의 11배(로이터 기준 약 12배)가 됐다 [사실]",
+  "재산정: 시공사 재산정 뒤 목표 비용은 222억 호주달러이고 250억 호주달러 시나리오를 대비하며, 회사는 222억 호주달러 전부를 납세자가 대는 것은 아니라고 밝혔다 [사실]",
+  "일정·원인: 당초 20억 호주달러에 2021년 가동 예정이었으나 완공은 2029년 말로 밀렸고, 설계 변경·지질 악조건·시장·인건비 상승이 원인으로 꼽혔다 [사실]",
+  "효과: GHD 연구는 이 사업이 2075년까지 도매 전력비를 70억 호주달러 넘게 낮출 것으로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(스노위 하이드로 발표·ABC·Proactive)으로 확인; core의 '180억 호주달러'는 미 달러 환산액이라 글에 맞춰 '최대 250억 호주달러(180억 달러)'로 고침",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "스노위 2.0 비용 최대 250억 호주달러로 폭증"
+  },
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "스노위 2.0 완공 2029년 말로 지연"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

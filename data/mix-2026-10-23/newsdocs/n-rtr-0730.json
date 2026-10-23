@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0730",
+ "num": 730,
+ "key": "mix-G2-084-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T02:03:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/uae-greece-announce-1275-billion-deals-abu-dhabi-plans-further-15-billion-2026-10-22/",
+ "origTitle": "",
+ "headline": "UAE·그리스 127.5억 유로 협정 체결…아부다비, 그리스에 150억 유로 추가 투자 계획",
+ "src": [
+  {
+   "o": "그리크헤럴드",
+   "d": "2026-10-23",
+   "u": "https://greekherald.com.au/news/uae-and-greece-announce-e12-75bn-in-deals-as-plans-for-further-e15bn-investment/"
+  },
+  {
+   "o": "아라비안포스트",
+   "d": "2026-10-23",
+   "u": "https://thearabianpost.com/uae-and-greece-unveil-e12-75-billion-partnership-package/"
+  }
+ ],
+ "items": [
+  {
+   "t": "UAE·그리스 127.5억 유로 협정, 아부다비는 150억 유로 추가 투자 계획",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/middle-east/uae-greece-announce-1275-billion-deals-abu-dhabi-plans-further-15-billion-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "UAE·그리스 127.5억 유로 협정 체결…아부다비, 그리스에 150억 유로 추가 투자 계획",
+ "one": "UAE와 그리스가 아테네 전략 포럼에서 대규모 투자·사업 협정을 잇따라 맺었다\n· 양국은 18건, 127.5억 유로(약 143억 달러) 규모 협정과 사업 제휴를 발표했다\n· 아부다비는 그리스에 150억 유로를 추가로 투자할 계획이라고 밝혔다",
+ "facts": [
+  "무엇이: UAE와 그리스는 10월 22일 아테네 전략 포럼에서 127.5억 유로(약 143억 달러) 규모 협정·사업 제휴 18건을 발표했다 [사실]",
+  "추가 계획: 아부다비는 그리스에 150억 유로를 더 투자할 계획이며, 2022년 약속한 40억 유로에 더해진다 [사실]",
+  "분야: 협정은 디지털 인프라·재생에너지·교통·항만·보건·식량안보 등에 걸치지만 사업별 내역은 공개되지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "그리크헤럴드·아라비안포스트 검색 결과 요약으로 확인, 금액 단위는 달러가 아닌 유로(묶음 core의 '달러'와 다름)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "아부다비, 그리스에 150억 유로 추가 투자 계획"
+  }
+ ]
+}

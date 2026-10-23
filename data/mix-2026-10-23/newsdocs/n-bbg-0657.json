@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0657",
+ "num": 657,
+ "key": "mix-G1-069-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:00:00+09:00",
+ "url": "https://www.bloomberg.com/features/2026-vietnam-railway/",
+ "origTitle": "",
+ "headline": "베트남 650억 달러 남북 고속철 계획, 투자 방식 미정·착공 지연 등 큰 난관 직면",
+ "src": [
+  {
+   "o": "Viet Nam News",
+   "d": "2026",
+   "u": "https://vietnamnews.vn/economy/1764384/ministry-of-construction-responds-to-13-firms-on-67-billion-railway-project.html"
+  },
+  {
+   "o": "VietNamNet",
+   "d": "2026",
+   "u": "https://vietnamnet.vn/en/vietnam-unveils-timeline-for-67-billion-high-speed-railway-2517429.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "베트남 650억 달러 고속철 계획, 큰 난관에 직면",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/features/2026-vietnam-railway/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "베트남 650억 달러 남북 고속철 계획, 투자 방식 미정·착공 지연 등 큰 난관 직면",
+ "one": "베트남의 650억 달러 규모 남북 고속철 계획이 큰 난관에 부딪혔다는 분석이 나왔다\n· 투자 방식이 아직 확정되지 않았고 2026년 말 착공 목표가 2027년 말로 밀렸다는 보도도 나왔다",
+ "facts": [
+  "무엇이: 베트남의 650억 달러 규모 고속철 계획이 큰 난관에 직면했다 [제목]",
+  "자금: 최종 투자 모델은 국회·정부 승인 뒤에야 발표되며, 관심을 보인 13개 기업에는 확정 뒤 통보하기로 했다 [사실]",
+  "일정: 2026년 말 착공 목표가 2027년 말로 밀렸다는 보도가 있다 [미확인]",
+  "부지: 약 1만 800헥타르 토지와 약 12만 836명 이주가 필요하고, 부지 정리는 2028년 4분기 완료가 목표다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "투자 모델 미확정·부지 규모는 검색 결과 요약으로 확인. 블룸버그 글이 꼽은 난관의 구체 내용과 착공 연기는 확인 못 함",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "construction",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "베트남 650억 달러 고속철 계획 난관 직면"
+  }
+ ]
+}

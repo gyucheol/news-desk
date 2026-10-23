@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0653",
+ "num": 653,
+ "key": "mix-G1-047-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-punts-on-wind-turbine-tariffs-allows-180-days-for-talks",
+ "origTitle": "",
+ "headline": "트럼프, 풍력터빈 관세 부과 미루고 180일 협상 지시…철강·구리 관세는 유지",
+ "src": [
+  {
+   "o": "GHY International",
+   "d": "2026-10-23",
+   "u": "https://www.ghy.com/trade-compliance/section-232-wind-turbine-imports"
+  },
+  {
+   "o": "HNGN",
+   "d": "2026-10-23",
+   "u": "https://www.hngn.com/articles/273576/20261023/trump-signs-housing-order-delays-wind-tariffs-mortgage-rates-top-7.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 풍력터빈 관세 미루고 180일 협상 기간 부여",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-punts-on-wind-turbine-tariffs-allows-180-days-for-talks",
+   "s": "트럼프 대통령이 풍력터빈 관세 결정을 미루고 180일 협상 기간을 주면서, 터빈 수입 관세 부과 여부가 협상 결과 뒤로 밀렸다"
+  },
+  {
+   "t": "트럼프, 행정명령으로 풍력터빈 수입 무역협상 지시",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/trump-directs-trade-negotiations-wind-turbine-imports-executive-order-2026-10-22/",
+   "s": "트럼프 대통령이 232조 조사를 근거로 풍력터빈 수입에 관한 무역협상을 지시하면서, 상무장관과 USTR이 180일 안에 결과를 보고하게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind"
+ ],
+ "title": "트럼프, 풍력터빈 관세 부과 미루고 180일 협상 지시…철강·구리 관세는 유지",
+ "one": "트럼프 대통령이 풍력터빈 수입에 새 관세를 매기지 않고 180일 협상을 지시했다\n· 러트닉 상무장관과 그리어 USTR 대표는 협상을 벌여 180일 안에 결과를 보고해야 한다\n· 상무부 조사는 외산 인버터의 사이버보안 취약성과 레이더 간섭 우려를 근거로 들었다\n· 일부 터빈 부품에 붙는 철강·알루미늄·구리 232조 관세는 그대로 유지된다\n· 협상이 무산되면 트럼프 대통령이 다른 수입 조정 조치를 검토할 수 있다",
+ "facts": [
+  "무엇이: 트럼프 대통령은 10월 22일 232조 포고문에 서명해 풍력터빈 수입에 새 관세를 매기지 않고 무역 협상을 지시했다 [사실]",
+  "시한: 러트닉 상무장관과 그리어 USTR 대표는 협상을 추진해 180일 안에 보고해야 하며, 결과에 따라 다른 조치가 검토될 수 있다 [사실]",
+  "근거: 2025년 8월 13일 시작된 상무부 조사는 외산 인버터의 사이버보안 취약성, 레이더 간섭, 부품 수입 증가, 미국 블레이드 생산 부족을 지적했다 [사실]",
+  "기존 관세: 일부 터빈 부품에 적용되는 철강·알루미늄·구리 232조 관세는 그대로 유지된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "180일 협상 지시·새 관세 없음·조사 근거·기존 232조 관세 유지는 검색 결과 요약(GHY International·HNGN)으로 확인",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "wind",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "풍력터빈 수입 관세 미루고 180일 협상"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

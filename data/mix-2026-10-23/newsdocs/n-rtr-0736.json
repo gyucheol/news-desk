@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0736",
+ "num": 736,
+ "key": "mix-G2-100-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T06:49:00+09:00",
+ "url": "https://www.reuters.com/business/finance/brazils-bradesco-meets-profit-estimates-despite-slower-credit-revenue-2026-10-22/",
+ "origTitle": "",
+ "headline": "브라질 브라데스코, 신용 수익 둔화에도 이익 예상 부합",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 브라데스코, 신용 수익 둔화에도 이익 예상 부합",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/finance/brazils-bradesco-meets-profit-estimates-despite-slower-credit-revenue-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "브라질 브라데스코, 신용 수익 둔화에도 이익 예상 부합",
+ "one": "브라질 대형 은행 브라데스코의 분기 이익이 신용 수익 둔화에도 시장 예상에 부합했다\n· 다만 대출 등 신용 부문 수익 증가세는 둔화했다 (제목 기준)",
+ "facts": [
+  "무엇이: 브라데스코의 이익이 시장 예상에 부합했다 [제목]",
+  "신용: 신용 부문 수익 증가가 둔화했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "브라데스코 신용 수익 증가 둔화"
+  }
+ ]
+}

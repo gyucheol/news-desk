@@ -1,0 +1,80 @@
+{
+ "id": "n-rtr-0672",
+ "num": 672,
+ "key": "mix-G1-023-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:49:00+09:00",
+ "url": "https://www.reuters.com/world/us-blocks-two-devices-with-chinese-made-surveillance-chips-2026-10-22/",
+ "origTitle": "",
+ "headline": "미 FCC, 하이실리콘 감시칩 탑재 기기 2종 첫 시장 차단…중국 '연구 차별 중단하라'",
+ "src": [
+  {
+   "o": "Light Reading",
+   "d": "2026-10-22",
+   "u": "https://www.lightreading.com/regulatory-politics/fcc-blocks-two-devices-powered-by-huawei-silicon-subsidiary"
+  },
+  {
+   "o": "DroneXL",
+   "d": "2026-10-22",
+   "u": "https://dronexl.co/2026/10/22/fcc-hisilicon-chips-dash-cam-video-transmitter-first-component-ban/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 중국산 감시칩 탑재 기기 2종 시장 차단",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/us-blocks-two-devices-with-chinese-made-surveillance-chips-2026-10-22/",
+   "s": "미국 FCC가 중국산 감시칩이 든 기기 2종을 막으면서, 하이실리콘 칩을 쓴 대시캠·영상 송신기의 미국 판매 길이 끊겼다"
+  },
+  {
+   "t": "미 FCC, 하이실리콘 감시칩 탑재 기기 2종 시장 진입 첫 차단",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-23",
+   "u": "https://t.me/HANAchina/70864",
+   "s": "FCC가 새 규정에 따른 차단 권한을 처음 행사하면서, 얼굴 인식 감시칩을 쓴 중국 기술 제품에 대한 미국 규제가 한층 강해졌다"
+  },
+  {
+   "t": "중국 '미국은 중국 연구에 대한 차별 조치 멈춰야'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/china/china-says-us-should-stop-discriminatory-measures-against-chinese-research-2026-10-23/",
+   "s": "중국이 미국에 중국 연구를 겨냥한 차별적 조치를 멈추라고 요구하면서, 미국의 중국 기술 규제에 맞선 반발을 드러냈다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "미 FCC, 하이실리콘 감시칩 탑재 기기 2종 첫 시장 차단…중국 '연구 차별 중단하라'",
+ "one": "미국 FCC가 새 규정으로 화웨이 자회사 하이실리콘 칩이 든 기기 2종의 미국 시장 진입을 처음 막았다\n· 차단 대상은 차량용 대시보드 카메라와 무선 영상 송신기로, 얼굴 인식 기능의 감시용 칩이 들어갔다\n· 브렌던 카 FCC 위원장은 국가안보에 명백하고 받아들일 수 없는 위험이라고 밝혔다\n· 10월 13일 발효된 규정은 커버드 리스트 기업의 스마트 부품을 쓴 기기의 장비 인증을 금지한다\n· 중국은 미국이 중국 연구에 대한 차별적 조치를 멈춰야 한다고 반발했다",
+ "facts": [
+  "무엇이: FCC는 10월 22일 하이실리콘 감시칩이 탑재된 대시보드 카메라·무선 영상 송신기 2종의 미국 시장 진입을 막았고, 새 규정에 따른 첫 차단이다 [사실]",
+  "규정: 10월 13일 발효된 규정은 커버드 리스트 기업의 스마트 부품이 든 기기의 장비 인증을 금지하며, 그 전에 인증된 장비에는 소급되지 않는다 [사실]",
+  "이유: 카 위원장은 커버드 리스트 기업 감시칩이 든 영상 기기가 국가와 국민에게 받아들일 수 없는 위험이라고 했다 [사실]",
+  "중국 반응: 중국은 미국이 중국 연구에 대한 차별적 조치를 멈춰야 한다고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "FCC 차단과 규정은 검색 결과 요약으로 확인, 중국의 '연구 차별' 발언의 주체·맥락은 확인 못 함",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "하이실리콘 칩 탑재 기기 2종 미국 시장 차단"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

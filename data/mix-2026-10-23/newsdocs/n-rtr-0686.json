@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0686",
+ "num": 686,
+ "key": "mix-G1-067-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T02:14:00+09:00",
+ "url": "https://www.reuters.com/business/accor-lifts-outlook-middle-east-rebounds-2026-10-22/",
+ "origTitle": "",
+ "headline": "아코르, 중동 회복에 연간 EBITDA 전망 상향…3분기 RevPAR 4.9%↑",
+ "src": [
+  {
+   "o": "아코르 보도자료",
+   "d": "2026-10-22",
+   "u": "https://press.accor.com/third-quarter-2026-accor-upgrades-its-ebitda-guidance/?lang=eng"
+  },
+  {
+   "o": "Business Travel News",
+   "d": "2026-10-22",
+   "u": "https://www.businesstravelnews.com/Intelligence/accor-q3-revpar-rises-as-middle-east-impact-eases"
+  }
+ ],
+ "items": [
+  {
+   "t": "호텔그룹 아코르, 중동 회복에 연간 실적 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/accor-lifts-outlook-middle-east-rebounds-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "아코르, 중동 회복에 연간 EBITDA 전망 상향…3분기 RevPAR 4.9%↑",
+ "one": "프랑스 호텔그룹 아코르가 3분기 중동 부진이 줄어들자 연간 이익 전망을 올렸다\n· 3분기 객실당 매출(RevPAR)은 4.9% 늘었고 매출은 15억 300만 유로였다\n· 연간 반복 EBITDA 목표는 12억 7,000만~12억 8,500만 유로로 하단을 올렸다",
+ "facts": [
+  "무엇이: 아코르는 10월 22일 3분기 RevPAR 4.9% 증가와 함께 연간 반복 EBITDA 전망을 12억 7,000만~12억 8,500만 유로로 높였다(종전 하단 12억 6,000만 유로) [사실]",
+  "실적: 3분기 매출은 15억 300만 유로로 고정환율 기준 7.7% 늘었고, 럭셔리·라이프스타일 RevPAR는 8.3% 늘었다 [사실]",
+  "중동: UAE RevPAR는 여전히 전년보다 약 20% 낮지만 사우디·이집트·튀르키예는 늘었다 [사실]",
+  "신중: 중국 호텔 폐점이 빨라 순객실 증가 목표를 3~3.5%로 낮췄고, 4분기 중동 RevPAR 약 12% 감소를 가정했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아코르 3분기 발표 자료와 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "아코르 3분기 RevPAR 4.9% 증가, 중동 회복"
+  }
+ ]
+}

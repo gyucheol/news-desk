@@ -1,0 +1,22 @@
+[
+{
+"op": "set",
+"collection": "meta",
+"doc_id": "progressV4",
+"file_path": "/home/user/news-desk/data/mix-2026-10-23/meta_out/progressV4.json",
+"if_version": 30
+},
+{
+"op": "set",
+"collection": "meta",
+"doc_id": "newsSeen",
+"file_path": "/home/user/news-desk/data/mix-2026-10-23/meta_out/newsSeen.json",
+"if_version": 25
+},
+{
+"op": "set",
+"collection": "meta",
+"doc_id": "newsSeenOld5",
+"file_path": "/home/user/news-desk/data/mix-2026-10-23/meta_out/newsSeenOld5.json"
+}
+]

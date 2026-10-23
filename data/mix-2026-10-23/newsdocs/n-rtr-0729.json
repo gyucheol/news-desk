@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0729",
+ "num": 729,
+ "key": "mix-G2-082-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:53:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/south-korean-economys-growth-likely-picked-up-q3-chip-exports-2026-10-23/",
+ "origTitle": "",
+ "headline": "한국 3분기 성장률 0.7% 예상…9월 반도체 수출 262.8% 급증에 개선 전망",
+ "src": [
+  {
+   "o": "Yahoo Finance",
+   "d": "2026-10-23",
+   "u": "https://finance.yahoo.com/economy/articles/south-korean-economys-growth-likely-054144476.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "한국 경제, 반도체 수출에 3분기 성장 개선 전망",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korean-economys-growth-likely-picked-up-q3-chip-exports-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "한국 3분기 성장률 0.7% 예상…9월 반도체 수출 262.8% 급증에 개선 전망",
+ "one": "로이터 조사에서 한국 3분기 성장률이 반도체 수출에 힘입어 전 분기보다 높아졌을 것으로 예상됐다\n· 이코노미스트 16명은 3분기 전기 대비 0.7% 성장을 예상해 2분기 0.6%보다 조금 높게 봤다\n· 9월 수출은 반도체가 262.8% 늘어난 데 힘입어 84% 급증한 1,209억 달러로 최대였다",
+ "facts": [
+  "무엇이: 로이터 조사에서 이코노미스트 16명은 한국 3분기 성장률을 전기 대비 0.7%로 예상해 2분기 0.6%보다 높게 봤다(전망 범위 0.5~1.6%) [사실]",
+  "전년 대비: 3분기 성장률은 3.0%로 2분기 3.7%보다 둔화할 것으로 예상됐다 [사실]",
+  "수출: 9월 수출은 1,209억 달러로 84% 늘어 최대였고, 반도체 수출은 262.8% 늘어난 603억 달러였다 [사실]",
+  "발표: 3분기 GDP 속보치는 10월 27일 나온다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(로이터 조사를 전한 US News·Yahoo 요약)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "한국 3분기 성장률 0.7%로 개선 전망"
+  }
+ ]
+}

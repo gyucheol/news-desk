@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0687",
+ "num": 687,
+ "key": "mix-G1-070-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:17:00+09:00",
+ "url": "https://www.reuters.com/business/newmont-beats-quarterly-profit-estimates-higher-gold-prices-2026-10-22/",
+ "origTitle": "",
+ "headline": "뉴몬트 3분기 조정 주당순이익 2.20달러로 예상 상회…금값 상승에 매출 15%↑",
+ "src": [
+  {
+   "o": "뉴몬트 8-K(SEC)",
+   "d": "2026-10-22",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001164727/000116472726000041/newmontq32026earningsrelea.htm"
+  },
+  {
+   "o": "인베스팅닷컴",
+   "d": "2026-10-23",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-newmont-beats-q3-2026-estimates-as-cash-flow-hits-record-93CH-4967771"
+  }
+ ],
+ "items": [
+  {
+   "t": "뉴몬트, 금값 상승에 힘입어 분기 이익 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/newmont-beats-quarterly-profit-estimates-higher-gold-prices-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "뉴몬트 3분기 조정 주당순이익 2.20달러로 예상 상회…금값 상승에 매출 15%↑",
+ "one": "미국 금광업체 뉴몬트가 금값 상승에 힘입어 3분기 이익이 시장 예상을 웃돌았다\n· 조정 순이익은 23억 1,000만 달러, 주당 2.20달러로 예상치 1.95달러를 넘었다\n· 매출은 63억 6,000만 달러로 15% 늘었고 잉여현금흐름은 19억 1,000만 달러였다",
+ "facts": [
+  "무엇이: 뉴몬트는 10월 22일 3분기 조정 순이익 23억 1,000만 달러, 주당 2.20달러를 발표했다 [사실]",
+  "예상 대비: 인베스팅닷컴 집계 예상치 주당 1.95달러를 웃돌았다 [사실]",
+  "매출·현금: 매출은 63억 6,000만 달러로 전년 55억 2,000만 달러보다 15% 늘었고 잉여현금흐름은 19억 1,000만 달러였다 [사실]",
+  "금값: 실현 금값은 온스당 평균 4,317달러였고 회사는 연간 생산 목표 달성을 유지했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "뉴몬트 SEC 8-K·인베스팅닷컴 실적 기사 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "precious",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "실현 금값 온스당 4,317달러로 이익 예상 상회"
+  }
+ ]
+}

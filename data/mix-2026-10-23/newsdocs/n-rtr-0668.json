@@ -1,0 +1,92 @@
+{
+ "id": "n-rtr-0668",
+ "num": 668,
+ "key": "mix-G1-017-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:49:00+09:00",
+ "url": "https://www.reuters.com/world/india/indias-jsw-steel-posts-higher-quarterly-profit-strong-flat-steel-demand-higher-2026-10-23/",
+ "origTitle": "",
+ "headline": "인도 철강 실적 호조…JSW스틸 이익 3배 넘게↑·진달 21%↑, 4~9월 완제 철강 순수입 지속",
+ "src": [
+  {
+   "o": "BusinessToday",
+   "d": "2026-10-23",
+   "u": "https://www.businesstoday.in/markets/stocks/story/2-jsw-steel-jindal-steel-q2-results-revenue-profit-rise-margins-tell-different-stories-563334-2026-10-23"
+  },
+  {
+   "o": "Zee Business",
+   "d": "2026-10-23",
+   "u": "https://www.zeebiz.com/market-news/news-jsw-steel-q2-results-profit-more-than-triples-to-rs-5279-crore-revenue-climbs-21-404433"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 JSW스틸, 강판 수요·가격 강세에 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-jsw-steel-posts-higher-quarterly-profit-strong-flat-steel-demand-higher-2026-10-23/",
+   "s": "JSW스틸이 강판 수요와 가격 강세로 7~9월 분기 순이익을 크게 늘리면서 인도 판재 시황이 견조함을 보여 줬다"
+  },
+  {
+   "t": "JSW스틸, 가격 상승에 이익 3배 이상 증가",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/jsw-steel-s-profit-more-than-triples-on-higher-prices",
+   "s": "JSW스틸 순이익이 판가 상승에 힘입어 535억 9,000만 루피로 1년 전의 3배를 넘으면서 EBITDA 마진도 18.6%로 높아졌다"
+  },
+  {
+   "t": "인도 진달스틸, 판매 호조에 힘입어 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-jindal-steel-quarterly-profit-rises-strong-sales-2026-10-23/",
+   "s": "진달스틸이 판매 호조로 순이익을 21% 늘렸지만 EBITDA 마진은 15.4%로 2.4%p 낮아지면서 JSW와 수익성이 엇갈렸다"
+  },
+  {
+   "t": "인도, 4~9월 완제 철강 순수입국 유지…정부 자료",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/china/india-stays-net-finished-steel-importer-april-september-government-data-shows-2026-10-23/",
+   "s": "인도 정부 자료에서 4~9월 완제 철강 수입이 수출을 웃돌면서 국내 철강사가 수입재와 경쟁하는 구도가 이어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "인도 철강 실적 호조…JSW스틸 이익 3배 넘게↑·진달 21%↑, 4~9월 완제 철강 순수입 지속",
+ "one": "인도 철강사들이 7~9월 분기에 강판 판매와 판가 강세로 이익을 크게 늘렸다\n· JSW스틸 순이익은 535억 9,000만 루피로 1년 전의 3배를 넘었고 매출은 약 21% 늘었다\n· 진달스틸 순이익은 77억 4,000만 루피로 21% 늘었고 매출은 43% 증가했다\n· 진달스틸 EBITDA 마진은 15.4%로 2.4%p 낮아져 18.6%로 오른 JSW와 엇갈렸다\n· 정부 자료에서 인도는 4~9월에도 완제 철강 순수입국에 머물렀다",
+ "facts": [
+  "무엇이: JSW스틸의 7~9월 연결 순이익이 535억 9,000만 루피로 1년 전 164억 6,000만 루피의 3배를 넘었다 [사실]",
+  "JSW 세부: 매출은 5,448억 6,000만 루피(20.7%↑), EBITDA 마진은 18.6%(2.8%p↑)였고, 순이익을 527억 9,000만 루피로 전한 보도도 있다 [사실]",
+  "진달스틸: 순이익 77억 4,000만 루피(21%↑), 매출 1,667억 9,000만 루피(43%↑), EBITDA 마진 15.4%(2.4%p↓)였고 판재 비중 확대로 평균 판매가가 올랐다 [사실]",
+  "수급: 인도는 4~9월 완제 철강 순수입국을 유지했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "JSW·진달 실적은 BusinessToday 열람과 검색 결과 요약으로 확인. 4~9월 순수입 수치는 확인 못 함",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "steel",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 강판 수요 호조에 철강사 판매 증가"
+  },
+  {
+   "ind": "metals",
+   "node": "steel",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "판가 상승에 JSW스틸 이익 3배 넘게 증가"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

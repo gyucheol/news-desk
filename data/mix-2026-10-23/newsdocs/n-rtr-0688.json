@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0688",
+ "num": 688,
+ "key": "mix-G1-071-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:30:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/australias-rio-tinto-invest-19-billion-queensland-bauxite-project-2026-10-22/",
+ "origTitle": "",
+ "headline": "리오틴토, 퀸즐랜드 캉위난 보크사이트 사업에 19억 달러 투자…연 2,000만 톤 추가",
+ "src": [
+  {
+   "o": "International Mining",
+   "d": "2026-10-23",
+   "u": "https://im-mining.com/2026/10/23/rio-tinto-to-boost-weipa-operations-with-kangwinan-bauxite-project-development"
+  },
+  {
+   "o": "Splash247",
+   "d": "2026-10-23",
+   "u": "https://splash247.com/rio-tinto-targets-larger-capesizes-in-1-9bn-australian-bauxite-push"
+  }
+ ],
+ "items": [
+  {
+   "t": "호주 리오틴토, 퀸즐랜드 보크사이트 사업에 19억 달러 투자",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/australias-rio-tinto-invest-19-billion-queensland-bauxite-project-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "리오틴토, 퀸즐랜드 캉위난 보크사이트 사업에 19억 달러 투자…연 2,000만 톤 추가",
+ "one": "리오틴토가 호주 퀸즐랜드 캉위난 보크사이트 사업에 19억 달러를 투자하기로 했다\n· 연 2,000만 톤 생산을 더해 웨이파 생산능력을 약 4,400만 톤으로 늘리고 2029년 첫 생산을 노린다\n· 노후한 앤둠 광산을 대체하는 사업으로 내부수익률은 약 22%로 제시됐다",
+ "facts": [
+  "무엇이: 리오틴토가 퀸즐랜드 웨스턴 케이프요크의 캉위난 보크사이트 사업에 19억 달러(2025년 승인된 초기 공사비 1.5억 달러 포함)를 투자한다 [사실]",
+  "생산: 연 2,000만 톤의 생산을 더해 웨이파 능력을 약 3,800만 톤에서 약 4,400만 톤으로 늘리며, 첫 생산은 2029년, 완전 가동은 2032년이 목표다 [사실]",
+  "설비: 15km 컨베이어로 기존 암런 부두와 잇고, 부두는 케이프사이즈 선박을 받을 수 있게 개량한다 [사실]",
+  "수익성: 노후한 앤둠 광산 생산을 대체하며 내부수익률은 약 22%로 제시됐고, 건설에 1,300개 이상의 일자리가 필요하다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "19억 달러 투자·연 2,000만 톤 추가·2029년 첫 생산·IRR 약 22%는 검색 결과 요약(International Mining·Splash247·Investing News)으로 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "aluminum",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "웨이파 보크사이트 연 2,000만 톤 추가 생산 계획"
+  }
+ ]
+}

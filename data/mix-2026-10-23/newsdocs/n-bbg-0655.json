@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0655",
+ "num": 655,
+ "key": "mix-G1-065-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T01:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/pg-e-weighs-gas-business-separation-over-california-fire-rules",
+ "origTitle": "",
+ "headline": "PG&E, 캘리포니아 산불 책임 규정 탓에 가스 사업 분리·매각 검토",
+ "src": [
+  {
+   "o": "모틀리풀 어닝콜",
+   "d": "2026-10-22",
+   "u": "https://www.fool.com/earnings/call-transcripts/2026/10/22/pge-pcg-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "o": "후드라인",
+   "d": "2026-10-23",
+   "u": "https://hoodline.com/2026/10/pg-e-might-spin-off-gas-unit-as-california-fire-rules-stall-ceo-says/"
+  }
+ ],
+ "items": [
+  {
+   "t": "PG&E, 캘리포니아 산불 규정 때문에 가스 사업 분리 검토",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/pg-e-weighs-gas-business-separation-over-california-fire-rules"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "utilities"
+ ],
+ "nodes": [],
+ "title": "PG&E, 캘리포니아 산불 책임 규정 탓에 가스 사업 분리·매각 검토",
+ "one": "PG&E가 캘리포니아 산불 책임 제도 개편이 무산되자 가스 사업 분리를 검토하고 있다\n· 패티 포피 CEO는 실적 발표에서 가스 사업 분사나 매각 가능성을 밝혔다\n· 약 400만 가스 고객이 모회사 산불 위험 탓에 투자등급 미만 차입비용을 낸다는 이유다",
+ "facts": [
+  "무엇이: PG&E가 주 의회가 산불 책임 법안을 처리하지 않자 가스 사업 분사·매각 등 분리를 검토한다고 밝혔다 [사실]",
+  "이유: 약 400만 가스 고객이 모회사의 산불 책임 노출 탓에 투자등급 미만 차입비용을 부담하고 있다고 회사는 주장했다 [사실]",
+  "일정: 링펜싱·자산 매각·사업 분리를 아우르는 검토 결과를 늦어도 내년 여름까지 내놓고, 11월 1일 나올 CPUC 보고서를 지켜본다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "가스 사업 분리 검토·400만 고객·검토 일정은 3분기 어닝콜 보도(검색 결과 요약)로 확인",
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "capital",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "산불 위험에 가스 고객 차입비용 투자등급 미만 수준"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0699",
+ "num": 699,
+ "key": "mix-G1-090-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:17:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/uks-debenhams-returns-profit-after-five-years-expects-further-cost-cuts-2026-10-23/",
+ "origTitle": "",
+ "headline": "英 데버넘스 그룹, 5년 만에 세전 흑자 2,830만 파운드…추가 비용 절감 예고",
+ "src": [
+  {
+   "o": "리테일가제트",
+   "d": "2026-10-23",
+   "u": "https://www.retailgazette.co.uk/blog/2026/10/debenhams-group-returns-to-profit-for-first-time-in-five-years-as-turnaround-accelerates/"
+  },
+  {
+   "o": "드레이퍼스",
+   "d": "2026-10-23",
+   "u": "https://www.drapersonline.com/news/debenhams-group-swings-to-first-pre-tax-profit-in-five-years"
+  }
+ ],
+ "items": [
+  {
+   "t": "英 데버넘스, 5년 만에 흑자 전환…추가 비용 절감 예상",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/retail-consumer/uks-debenhams-returns-profit-after-five-years-expects-further-cost-cuts-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "英 데버넘스 그룹, 5년 만에 세전 흑자 2,830만 파운드…추가 비용 절감 예고",
+ "one": "옛 부후 그룹인 데버넘스 그룹이 8월까지 6개월 동안 5년 만에 세전 흑자를 냈다\n· 세전이익은 2,830만 파운드였지만 약 4,000만 파운드의 일회성 리스 이익이 포함됐다\n· 매출은 3% 줄었고, 회사는 다음 회계연도에 추가로 큰 비용 절감을 예고했다",
+ "facts": [
+  "무엇이: 데버넘스 그룹은 8월 31일까지 6개월 세전이익 2,830만 파운드로 전년 1,790만 파운드 손실에서 2021년 이후 첫 흑자를 냈다 [사실]",
+  "일회성: 미국 물류센터 관련 약 4,000만 파운드 비현금 리스 이익을 빼면 세전손실은 약 5,200만 파운드에서 1,200만 파운드로 줄었다 [사실]",
+  "영업: 매출은 3% 줄어 4억 960만 파운드였고 조정 EBITDA는 14.6% 늘어 2,400만 파운드였다 [사실]",
+  "비용·부채: 고정비 1억 파운드 절감을 추진하며 다음 회계연도 추가 비용 절감을 예상하고, 순부채는 9,850만 파운드로 줄었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "리테일가제트·드레이퍼스 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "데버넘스 그룹 매출 3% 감소 속 비용 절감으로 흑자"
+  }
+ ]
+}

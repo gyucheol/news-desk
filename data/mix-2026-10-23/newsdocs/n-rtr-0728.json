@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0728",
+ "num": 728,
+ "key": "mix-G2-080-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T08:14:00+09:00",
+ "url": "https://www.reuters.com/world/africa/libyas-eastern-parliament-accepts-central-bank-governor-resignation-spokesperson-2026-10-22/",
+ "origTitle": "",
+ "headline": "리비아 동부 의회, 중앙은행 총재 사임 수용",
+ "src": [],
+ "items": [
+  {
+   "t": "리비아 동부 의회, 중앙은행 총재 사임 수용(대변인)",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/africa/libyas-eastern-parliament-accepts-central-bank-governor-resignation-spokesperson-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "리비아 동부 의회, 중앙은행 총재 사임 수용",
+ "one": "리비아 동부 의회가 중앙은행 총재의 사임을 공식 수용했다고 의회 대변인이 밝혔다\n· 이에 따라 리비아 중앙은행 수장 자리가 바뀌게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 리비아 동부 의회가 중앙은행 총재의 사임을 수용했다고 대변인이 밝혔다 [제목]",
+  "의미: 중앙은행 수장 교체로 후임 인선이 과제로 남았다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "리비아 중앙은행 총재 사임 수용으로 수장 교체"
+  }
+ ]
+}

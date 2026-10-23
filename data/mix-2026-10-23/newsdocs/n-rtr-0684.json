@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0684",
+ "num": 684,
+ "key": "mix-G1-064-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T00:31:00+09:00",
+ "url": "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/",
+ "origTitle": "",
+ "headline": "그리스·이집트, 해양경계 동쪽 확장 협상…리비아 동부의 터키 협정 비준에 대응",
+ "src": [
+  {
+   "o": "Al-Monitor",
+   "d": "2026-10-22",
+   "u": "https://www.al-monitor.com/originals/2026/10/greece-egypt-talks-extend-maritime-zone-further-east"
+  },
+  {
+   "o": "MarineLink",
+   "d": "2026-10-22",
+   "u": "https://www.marinelink.com/news/greece-egypt-discuss-extending-eez-543847"
+  }
+ ],
+ "items": [
+  {
+   "t": "그리스·이집트, 해양경계를 동쪽으로 넓히는 협상",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "그리스·이집트, 해양경계 동쪽 확장 협상…리비아 동부의 터키 협정 비준에 대응",
+ "one": "그리스와 이집트가 동지중해 배타적경제수역 경계를 키프로스 쪽 동쪽으로 넓히는 협상을 벌이고 있다\n· 리비아 동부 의회가 2019년 터키·리비아 해양 양해각서를 비준한 데 맞선 움직임이다\n· 그리스 외무장관은 확장이 국제법과 유엔해양법협약에 맞을 것이라고 밝혔다",
+ "facts": [
+  "무엇이: 그리스와 이집트가 2020년 맺은 배타적경제수역 경계 합의를 키프로스 쪽 동쪽으로 넓히는 방안을 논의하고 있다 [사실]",
+  "배경: 리비아 동부 의회가 이번 주 2019년 터키·리비아 해양 양해각서를 비준했고 두 나라 외무장관은 이를 거부한다고 재확인했다 [사실]",
+  "의미: 동지중해 해역 권리를 둘러싼 터키와의 갈등이 커질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(알모니터·마린링크)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "동지중해 해양경계 협상, 수급 영향은 아직 없음"
+  }
+ ]
+}

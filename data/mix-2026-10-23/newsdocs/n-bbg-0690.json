@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0690",
+ "num": 690,
+ "key": "mix-G2-069-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T04:19:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/hims-seeks-dismissal-of-ftc-suit-over-user-data-subscriptions",
+ "origTitle": "",
+ "headline": "힘스앤허스, 이용자 데이터·구독 관행 문제 삼은 FTC 소송 기각 요청",
+ "src": [],
+ "items": [
+  {
+   "t": "힘스앤허스, 이용자 데이터·구독 문제 FTC 소송 기각 요청",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/hims-seeks-dismissal-of-ftc-suit-over-user-data-subscriptions"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "힘스앤허스, 이용자 데이터·구독 관행 문제 삼은 FTC 소송 기각 요청",
+ "one": "힘스앤허스가 이용자 데이터와 구독 관행을 문제 삼은 미 연방거래위원회 소송의 기각을 요청했다\n· FTC 소송은 힘스앤허스의 이용자 데이터 처리와 구독 방식을 겨냥하고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 힘스앤허스가 미 연방거래위원회(FTC) 소송의 기각을 요청했다 [제목]",
+  "쟁점: FTC 소송은 이용자 데이터와 구독 관행을 다룬다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 독립 확인 못 함",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "힘스앤허스 FTC 소송 기각 요청으로 공방 진행"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0721",
+ "num": 721,
+ "key": "mix-G2-048-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:37:00+09:00",
+ "url": "https://www.reuters.com/legal/government/indias-markets-regulator-proposes-easing-approval-rules-some-exchange-2026-10-22/",
+ "origTitle": "",
+ "headline": "인도 금융규제…SEBI 거래소 승인 규정 완화 제안·RBI 2027년 4월 1일 은행 레버리지 규제",
+ "src": [
+  {
+   "o": "NewsBytes",
+   "d": "2026-10-23",
+   "u": "https://www.newsbytesapp.com/news/business/rbi-sets-minimum-bank-leverage-ratios-effective-april-2027/tldr"
+  },
+  {
+   "o": "Corplaw Updates",
+   "d": "2026-08-07",
+   "u": "https://www.corplawupdates.in/updates/rbi-eleventh-amendment-directions-2026-leverage-ratio-basel"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 SEBI, 일부 거래소 관련 승인 규정 완화 제안",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/government/indias-markets-regulator-proposes-easing-approval-rules-some-exchange-2026-10-22/",
+   "s": "인도 SEBI가 일부 거래소 관련 승인 규정을 완화하자고 제안하면서, 거래소 관련 절차 부담이 줄어들 수 있다 (제목 기준)"
+  },
+  {
+   "t": "인도 중앙은행, 2027년 4월 1일부터 은행 레버리지 새 규제",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/india-central-bank-impose-new-leverage-rules-banks-april-1-2027-2026-10-23/",
+   "s": "RBI가 2027년 4월 1일부터 은행에 바젤 기준 레버리지 규제를 적용하기로 하면서, 은행들은 레버리지 비율과 완충을 함께 관리해야 하게 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "인도 금융규제…SEBI 거래소 승인 규정 완화 제안·RBI 2027년 4월 1일 은행 레버리지 규제",
+ "one": "인도 금융당국이 거래소 관련 승인 절차는 완화하고 은행 레버리지 규제는 새로 정비하고 있다\n· SEBI는 일부 거래소 관련 승인 규정을 완화하자고 제안했다\n· RBI는 2027년 4월 1일부터 은행에 새 레버리지 규제를 적용한다\n· 최소 레버리지 비율은 시스템상 중요 은행 4%, 그 밖의 은행 3.5%로 유지된다",
+ "facts": [
+  "무엇이: RBI가 2027년 4월 1일부터 상업은행에 바젤 기준에 맞춘 새 레버리지 규제를 적용한다 [사실]",
+  "비율: 최소 레버리지 비율은 D-SIB 4%, 그 밖의 은행 3.5%이고, 외국 G-SIB 지점에는 3.5%에 본점 완충을 더하는 안이 제시됐다 [사실]",
+  "배분 제한: 자본 배분 제한을 CET1과 레버리지 완충 준수 모두에 연동하고 공시 양식을 바꾼다 [사실]",
+  "SEBI: 인도 시장 규제기관 SEBI가 일부 거래소 관련 승인 규정 완화를 제안했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "RBI 레버리지 규제 시행일·최소 비율은 검색 결과 요약(NewsBytes·Corplaw Updates)으로 확인, SEBI 승인 규정 완화 제안은 확인 못 함",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "SEBI 승인 완화 제안·RBI 레버리지 규제 확정"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

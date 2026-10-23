@@ -1,0 +1,80 @@
+{
+ "id": "n-rtr-0673",
+ "num": 673,
+ "key": "mix-G1-024-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:48:00+09:00",
+ "url": "https://www.reuters.com/world/us-treasury-drops-venezuela-countries-facing-outbound-us-investment-restrictions-2026-10-22/",
+ "origTitle": "",
+ "headline": "美 재무부 COINS법 규칙안…AI 투자 금지 확대·HBM 등 반도체·바이오 추가, 베네수엘라 제외",
+ "src": [
+  {
+   "o": "미 재무부",
+   "d": "2026-10-22",
+   "u": "https://home.treasury.gov/news/press-releases/sb0667/"
+  },
+  {
+   "o": "바이오팜인터내셔널",
+   "d": "2026-10-22",
+   "u": "https://www.biopharminternational.com/view/treasury-proposes-adding-biotech-to-outbound-investment-restrictions-under-coins-act"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 재무부, 대외투자 제한 대상국 명단에서 베네수엘라 제외",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/us-treasury-drops-venezuela-countries-facing-outbound-us-investment-restrictions-2026-10-22/",
+   "s": "미국 재무부가 대외투자 제한 대상국에서 베네수엘라를 빼면서, 미국인의 베네수엘라 첨단기술 투자는 이 규제를 받지 않게 된다"
+  },
+  {
+   "t": "글로벌 브리핑: 美 재무부, 우려국 AI·반도체 투자 제한 규정 제안",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-23",
+   "u": "https://t.me/insidertracking/67088",
+   "s": "미국 재무부가 특정 외국의 AI·반도체 산업에 대한 미국인 투자를 제한하는 새 규정을 제안하면서, 대중국 기술 투자 통제가 넓어질 수 있다"
+  },
+  {
+   "t": "COINS법 규칙안, AI 금지 확대·HBM 등 반도체·생명공학 규제 추가",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-23",
+   "u": "https://t.me/insidertracking/67111",
+   "s": "재무부 COINS법 규칙안이 일부 AI 투자를 금지 거래로 바꾸고 HBM·광자 칩과 생명공학을 규제에 넣으면서, 투자자의 실사 의무도 무거워진다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "美 재무부 COINS법 규칙안…AI 투자 금지 확대·HBM 등 반도체·바이오 추가, 베네수엘라 제외",
+ "one": "미국 재무부가 COINS법 시행 규칙안을 내고 우려국 첨단기술 대외투자 제한을 넓히기로 했다\n· AI 분야는 신고 후 가능하던 일부 투자까지 금지 거래로 바뀐다\n· 반도체는 HBM·광자 칩·방사선 내성 칩이 더 엄격한 규제 대상에 들어간다\n· 생명공학이 새 규제 분야로 추가돼 뇌·컴퓨터 인터페이스 등이 포함된다\n· 재무부는 마두로 정부가 더는 없다며 제한 대상국에서 베네수엘라를 뺐다\n· 규칙안은 12월 7일까지 의견을 받으며 아직 발효되지 않았다",
+ "facts": [
+  "무엇이: 미국 재무부는 10월 22일 COINS법 시행 규칙안을 내고 반도체·양자·AI·고성능 컴퓨팅·극초음속·생명공학 분야 우려국 투자 규제를 제안했다 [사실]",
+  "AI: 현행 규정상 신고 후 진행할 수 있던 일부 AI 투자까지 금지 거래로 바뀐다 [사실]",
+  "반도체·바이오: HBM·광자 칩·방사선 내성 칩이 더 엄격한 규제 대상이 되고 뇌·컴퓨터 인터페이스·자동화 실험실 소프트웨어가 새로 포함되며, 투자자 실사 의무도 강화된다 [채널]",
+  "대상국: 재무부는 1월 마두로 체포 뒤 그 정부가 더는 없다며 베네수엘라를 제한 대상국에서 뺐다 [사실]",
+  "일정: 의견 수렴은 12월 7일까지이며 발효일은 최종 규칙에서 정한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "규칙안 발표·AI 금지·바이오 추가·베네수엘라 제외·의견 기한은 재무부 보도자료·바이오팜인터내셔널 검색 결과 요약으로 확인, HBM 등 세부 칩은 채널 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI·반도체·바이오 대외투자 제한 확대안"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

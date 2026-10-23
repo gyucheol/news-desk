@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0696",
+ "num": 696,
+ "key": "mix-G1-087-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T15:55:00+09:00",
+ "url": "https://www.reuters.com/business/finance/german-home-prices-stagnate-interest-rates-pressure-market-iw-data-show-2026-10-23/",
+ "origTitle": "",
+ "headline": "독일 집값, 금리 부담에 3분기 정체…IW '2022년 고점보다 약 10% 낮아'",
+ "src": [
+  {
+   "o": "Newsworm",
+   "d": "2026-10-23",
+   "u": "https://www.newsworm.de/news/property-prices-in-germany-stagnate-while-rents-rise"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-23",
+   "u": "https://tradersunion.com/news/economic-data/show/3938449-german-home-prices-flat-rates/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 집값, 금리 부담에 시장 짓눌려 정체…IW 자료",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/finance/german-home-prices-stagnate-interest-rates-pressure-market-iw-data-show-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "독일 집값, 금리 부담에 3분기 정체…IW '2022년 고점보다 약 10% 낮아'",
+ "one": "독일경제연구소(IW)는 금리 부담으로 3분기 독일 집값이 사실상 제자리였다고 밝혔다\n· 아파트값은 전년 대비 약 0.3%, 단독·2세대 주택은 약 0.4% 오르는 데 그쳤다\n· 반면 호가 임대료는 전국 4.5%, 함부르크는 약 7% 올랐다",
+ "facts": [
+  "무엇이: IW는 10월 23일 3분기 독일 집값이 금리 부담에 따른 매매 수요 감소로 거의 변하지 않았다고 밝혔다 [사실]",
+  "수치: 아파트값은 전년 대비 약 0.3%, 단독·2세대 주택은 약 0.4% 올랐고, 집값은 2023년 이후 횡보하며 2022년 고점보다 약 10% 낮다 [사실]",
+  "임대료: 호가 임대료는 전국 4.5%, 함부르크 약 7% 올랐고, IW는 고금리로 여유 있는 가계가 임대로 돌아와 추가 상승을 예상했다 [사실]",
+  "다음: 독일 통계청의 3분기 공식 집값 통계는 12월 23일 나온다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(IW 3분기 자료)",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "독일 3분기 집값 금리 부담에 정체"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "n-rtr-0677",
+ "num": 677,
+ "key": "mix-G1-035-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T02:03:00+09:00",
+ "url": "https://www.reuters.com/business/energy/us-refiners-have-run-harder-2026-tight-diesel-supplies-boost-margins-eia-says-2026-10-22/",
+ "origTitle": "",
+ "headline": "美 정유 가동률 5~9월 95% 넘어 1998년 이후 최고…디젤 부족에 마진 확대, 발레로 '마진 다시 상승'",
+ "src": [
+  {
+   "o": "EIA Today in Energy",
+   "d": "2026-10-22",
+   "u": "https://www.eia.gov/todayinenergy/detail.php?id=68344"
+  },
+  {
+   "o": "EnergyNow",
+   "d": "2026-10-22",
+   "u": "https://energynow.com/2026/10/us-refiners-have-run-harder-in-2026-as-tight-diesel-supplies-boost-margins-eia-says/"
+  },
+  {
+   "o": "Stock Titan",
+   "d": "2026-10-23",
+   "u": "https://www.stocktitan.net/articles/valero-q3-2026-earnings-diesel-margin-tops-2022"
+  }
+ ],
+ "items": [
+  {
+   "t": "EIA '美 정유사 올해 가동 강화…디젤 공급 부족에 마진 확대'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/us-refiners-have-run-harder-2026-tight-diesel-supplies-boost-margins-eia-says-2026-10-22/",
+   "s": "EIA가 디젤 공급 부족으로 미국 정유사들이 5~9월 가동률 95% 이상으로 설비를 돌려 정제마진이 커졌다고 밝히면서, 미국산 경유 수출 수요가 커졌음을 보여 줬다"
+  },
+  {
+   "t": "발레로, 가격 인하 노력에도 연료 마진 다시 상승 전망",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/valero-sees-fuel-margins-rising-again-despite-price-cut-efforts",
+   "s": "발레로가 연료 가격 인하 노력에도 정제마진이 다시 오를 것으로 보면서, 디젤 부족 속 정유사 수익 강세가 이어질 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "美 정유 가동률 5~9월 95% 넘어 1998년 이후 최고…디젤 부족에 마진 확대, 발레로 '마진 다시 상승'",
+ "one": "디젤 공급 부족으로 미국 정유사들이 올해 설비를 최대한 돌리면서 정제마진이 커졌다\n· EIA는 5~9월 정유 가동률이 평균 95%를 넘어 같은 기간 1998년 이후 최고였다고 밝혔다\n· 9월 말 미국 중간유분 재고는 5년 계절 평균보다 약 13% 적었다\n· 발레로는 가격 인하 노력에도 연료 마진이 다시 오를 것으로 봤다\n· EIA는 호르무즈 운송이 정상화되면 2027년 디젤 마진이 누그러질 수 있다고 봤다",
+ "facts": [
+  "무엇이: EIA는 세계 중간유분 공급 부족으로 미국산 수출 수요가 늘면서 미국 정유 가동률이 5~9월 평균 95%를 넘어 같은 기간 1998년 이후 최고였다고 밝혔다 [사실]",
+  "재고: 9월 말 미국 중간유분 재고는 5년 계절 평균보다 약 13% 적었고, 미국 정제 능력은 2019년 이후 4% 줄었다 [사실]",
+  "발레로 실적: 3분기 순이익은 68억 달러로 보도됐고 정제마진은 배럴당 39.24달러로 거의 3배가 됐다 [사실]",
+  "발레로 전망: 가격 인하 노력에도 연료 마진이 다시 오를 것으로 봤다 [제목]",
+  "전망: EIA는 호르무즈 운송이 정상화되고 해외 정제가 회복되면 2027년 디젤 마진이 누그러질 것으로 본다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "EIA 가동률·재고는 EIA 원문 검색 결과 요약으로 확인, 발레로 3분기 수치는 2차 보도 요약, 마진 재상승 전망은 제목 기준",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "디젤 부족에 미국 정제마진 확대"
+  },
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "미 정유 가동률 5~9월 평균 95% 넘어"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

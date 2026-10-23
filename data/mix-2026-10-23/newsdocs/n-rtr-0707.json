@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0707",
+ "num": 707,
+ "key": "mix-G1-102-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:51:00+09:00",
+ "url": "https://www.reuters.com/world/india/indias-tata-motors-posts-second-quarter-profit-2026-10-23/",
+ "origTitle": "",
+ "headline": "인도 타타모터스 2분기 흑자 전환…상용차 도매 판매 42%↑·EBITDA 마진 10.9%로 하락",
+ "src": [
+  {
+   "o": "The Week",
+   "d": "2026-10-23",
+   "u": "https://www.theweek.in/news/biz-tech/2026/10/23/tata-motors-q2-financial-results-fy27.html"
+  },
+  {
+   "o": "Kotak Neo",
+   "d": "2026-10-23",
+   "u": "https://www.kotakneo.com/news/stocks/tata-motors-q2-fy-27-results-share-price-in-focus/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 타타모터스, 7~9월 2분기에 순이익 기록하며 흑자",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/india/indias-tata-motors-posts-second-quarter-profit-2026-10-23/",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "인도 타타모터스 2분기 흑자 전환…상용차 도매 판매 42%↑·EBITDA 마진 10.9%로 하락",
+ "one": "인도 타타모터스(상용차 부문)가 7~9월 분기에 전년 손실에서 흑자로 돌아섰다\n· 상용차 도매 판매는 약 42% 늘어난 약 13만 5,100대였고 수출은 약 177% 늘었다\n· EBITDA 마진은 철강·고무 원가 상승으로 11.3%에서 10.9%로 낮아졌다",
+ "facts": [
+  "무엇이: 타타모터스는 2027회계연도 2분기(7~9월)에 전년 손실에서 흑자로 돌아섰다 [사실]",
+  "판매: 상용차 도매 판매는 약 42% 늘어난 약 13만 5,100대로 내수 약 30%, 수출 약 177% 늘었다 [사실]",
+  "원가·주가: EBITDA 마진은 철강·고무 원가 상승으로 11.3%에서 10.9%로 낮아졌고, 주가는 10월 23일 약 4.4% 내린 396루피였다 [사실]",
+  "순이익 규모: 출처마다 약 125억 루피와 약 206억 루피로 엇갈려 확인하지 못했다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "흑자 전환·판매·마진은 검색 결과 요약으로 확인. 순이익·매출 금액은 출처마다 달라 확인 못 함",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "타타모터스 상용차 도매 판매 42% 증가"
+  }
+ ]
+}

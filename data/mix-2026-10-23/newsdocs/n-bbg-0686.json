@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0686",
+ "num": 686,
+ "key": "mix-G2-061-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:07:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-s-core-inflation-for-september-unexpectedly-cools",
+ "origTitle": "",
+ "headline": "싱가포르 9월 근원물가 2%로 둔화…예상 2.2~2.3% 밑돌아",
+ "src": [
+  {
+   "o": "AsiaOne",
+   "d": "2026-10-23",
+   "u": "https://www.asiaone.com/money/singapore-core-inflation-2026-september"
+  },
+  {
+   "o": "Xinhua",
+   "d": "2026-10-23",
+   "u": "https://english.news.cn/20261023/7ed4494f788149498c349721913be1ba/c.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 9월 근원물가 상승률, 예상 밖 둔화",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-s-core-inflation-for-september-unexpectedly-cools",
+   "s": "싱가포르 9월 근원물가가 서비스·소매 물가 둔화로 2%에 그치면서 시장 예상보다 낮게 나왔다"
+  },
+  {
+   "t": "싱가포르 9월 근원물가 2%로 상승…예상치 하회",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/singapores-core-inflation-rate-rises-2-september-below-forecast-2026-10-23/",
+   "s": "싱가포르 9월 근원물가 상승률이 2%로 예상치를 밑돌면서 통화청은 근원물가가 2027년 중반부터 완화될 것으로 내다봤다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "title": "싱가포르 9월 근원물가 2%로 둔화…예상 2.2~2.3% 밑돌아",
+ "one": "싱가포르의 9월 근원물가 상승률이 2%로 낮아지며 시장 예상치를 밑돌았다\n· 8월 2.2%에서 내려왔으며 서비스 물가가 1.7%, 소매·기타 상품이 1.2%로 둔화했다\n· 헤드라인 물가 상승률은 2.3%에서 2.2%로 낮아졌다\n· 통화청은 근원물가가 2027년 중반부터 완화되고 위험은 에너지·식품 쪽 상방이라고 봤다",
+ "facts": [
+  "무엇이: 싱가포르 9월 근원물가 상승률이 2%로 8월 2.2%보다 낮아졌고 예상치 2.2~2.3%를 밑돌았다 [사실]",
+  "세부: 서비스 물가 1.7%, 소매·기타 상품 1.2%로 둔화했고 헤드라인은 2.2%였다 [사실]",
+  "전망: 통화청·통상산업부는 2026년 근원물가 1.5~2%, 2027년 1.5~2.5%를 예상하고 위험은 상방이라고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(아시아원·신화·트레이딩이코노믹스)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "싱가포르 9월 근원물가 2%로 예상 밑돌아"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "n-rtr-0675",
+ "num": 675,
+ "key": "mix-G1-027-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T13:40:00+09:00",
+ "url": "https://www.reuters.com/world/india/india-extends-duty-free-raw-sugar-import-deadline-december-31-2026-10-22/",
+ "origTitle": "",
+ "headline": "밀 선물 8주 연속 하락 1997년 이후 최장…中 호주 카놀라 100만 톤 구매·인도 원당 무관세 연장",
+ "src": [
+  {
+   "o": "Ukragroconsult",
+   "d": "2026-10-23",
+   "u": "https://ukragroconsult.com/en/news/wheat-futures-fall-for-eighth-consecutive-week-for-first-time-since-1997/"
+  },
+  {
+   "o": "CME Group",
+   "d": "2026-10-21",
+   "u": "https://www.cmegroup.com/videos/2026/10/21/soybean-and-wheat-futures-fall-as-harvest-pressure-and-supply-ri.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도, 원당 무관세 수입 기한 12월 31일로 연장",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/india-extends-duty-free-raw-sugar-import-deadline-december-31-2026-10-22/",
+   "s": "인도가 원당 무관세 수입 기한을 12월 31일까지 늘리면서 연말까지 인도 정제업체의 원당 수입 길이 열려 있게 됐다 (제목 기준)"
+  },
+  {
+   "t": "중국, 호주산 카놀라 약 100만 톤 대량 구매",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11137",
+   "s": "중국 구매자들이 관계 개선과 관세 인하 속에 호주산 카놀라 약 100만 톤을 톤당 약 695~705달러에 사들이면서 호주산 수출 길이 넓어졌다"
+  },
+  {
+   "t": "밀 8주 연속 하락, 1997년 이후 최장 약세",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/wheat-slides-for-eighth-week-in-longest-losing-streak-since-1997",
+   "s": "밀 선물이 흑해 위험 프리미엄 축소와 남반구 수확 증가로 8주 연속 내리면서 1997년 이후 가장 긴 하락을 기록했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "밀 선물 8주 연속 하락 1997년 이후 최장…中 호주 카놀라 100만 톤 구매·인도 원당 무관세 연장",
+ "one": "밀 선물이 8주 연속 내리는 가운데 중국과 인도는 유지작물·설탕 수입을 늘리는 조치를 내놨다\n· 시카고 밀 선물은 8주 연속 하락해 1997년 이후 최장 약세를 이어갔다\n· 흑해 위험 프리미엄이 빠지고 호주·아르헨티나 수확이 늘면서 이번 주에만 4.7% 내렸다\n· 중국 구매자들은 호주산 카놀라 약 100만 톤을 톤당 약 695~705달러에 사들였다\n· 인도는 원당 무관세 수입 기한을 12월 31일까지 늘렸다",
+ "facts": [
+  "무엇이: 시카고 밀 선물이 8주 연속 하락해 1997년 이후 최장 연속 하락을 기록했다 [사실]",
+  "하락 배경: 최근월물은 23일까지 주간 4.7% 내렸고 흑해 위험 프리미엄 축소, 미국 수출 판매 부진, 호주·아르헨티나 수확이 꼽혔다 [사실]",
+  "카놀라: 중국 국영·민간 구매자들이 관계 개선·관세 인하·가공 마진 개선 속에 2027년 초 도착분 호주산 카놀라 약 100만 톤을 톤당 약 695~705달러(C&F)에 샀다 [채널]",
+  "설탕: 인도가 원당 무관세 수입 기한을 12월 31일로 연장했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "밀 8주 연속·1997년 이후 최장·주간 4.7% 하락은 Ukragroconsult·CME 검색 결과 요약으로 확인. 카놀라는 로이터 인용 채널 글, 인도 원당은 제목만 근거",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "grains",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "밀 선물 8주 연속 하락 1997년 이후 최장"
+  },
+  {
+   "ind": "agri",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 호주산 카놀라 약 100만 톤 구매"
+  },
+  {
+   "ind": "agri",
+   "node": "softs",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "인도 원당 무관세 수입 기한 12월 31일로 연장"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0693",
+ "num": 693,
+ "key": "mix-G1-084-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:54:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/japan-arrange-private-investments-worth-636-billion-bangladesh-nikkei-reports-2026-10-22/",
+ "origTitle": "",
+ "headline": "일본, 방글라데시에 5년간 1조 엔(63억 6,000만 달러) 민간 투자 주선…닛케이",
+ "src": [
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-10-23",
+   "u": "https://asia.nikkei.com/politics/international-relations/japan-to-arrange-6bn-in-private-sector-investment-in-bangladesh"
+  },
+  {
+   "o": "The Daily Star",
+   "d": "2026-10-23",
+   "u": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/japan-arrange-private-investments-worth-636-billion-bangladesh-nikkei-reports-4305186"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본, 방글라데시에 63억 6,000만 달러 민간 투자 주선…닛케이",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-arrange-private-investments-worth-636-billion-bangladesh-nikkei-reports-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "일본, 방글라데시에 5년간 1조 엔(63억 6,000만 달러) 민간 투자 주선…닛케이",
+ "one": "일본이 방글라데시에 5년간 1조 엔 규모 민간 투자를 주선할 계획이라고 닛케이가 보도했다\n· 10월 27일 다카이치 총리와 타리크 라흐만 방글라데시 총리 회담 뒤 공동성명에 담길 예정이다\n· 자동차 제조·산업·에너지 인프라와 스미토모상사가 개발하는 경제특구가 대상이다",
+ "facts": [
+  "무엇이: 일본이 5년간 1조 엔(63억 6,000만 달러) 규모 방글라데시 민간 투자를 주선할 계획이라고 닛케이가 보도했다 [사실]",
+  "일정: 10월 27일 도쿄 정상회담 뒤 공동성명에 포함될 전망이다 [사실]",
+  "분야: 자동차 제조·산업·에너지 인프라, 스미토모상사가 참여하는 방글라데시 경제특구가 대상이다 [사실]",
+  "숫자 정정: 묶음 핵심의 '6,360억 엔'은 63억 6,000만 달러를 잘못 옮긴 것으로 보이며 엔화 기준은 1조 엔이다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(닛케이아시아·데일리스타)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본, 방글라데시 민간 투자 1조 엔 주선 계획"
+  }
+ ]
+}

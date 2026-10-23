@@ -1,0 +1,88 @@
+{
+ "id": "n-bbg-0677",
+ "num": 677,
+ "key": "mix-G2-032-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:04:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/india-s-activity-see-mild-pick-up-in-october-flash-pmis-show",
+ "origTitle": "",
+ "headline": "인도 10월 PMI 56.7로 4개월 최고·고용은 정체…안전자산 선호·유가에 루피 시험대",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-23",
+   "u": "https://www.newsquawk.com/headlines/indian-hsbc-composite-pmi-flash-oct-567-prev-559"
+  },
+  {
+   "o": "The Hans India",
+   "d": "2026-10-23",
+   "u": "https://www.thehansindia.com/business/market-compass/indias-business-activity-hits-4-month-high-in-october-pmi-data-1134936"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 기업활동 소폭 개선…10월 PMI 속보치",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/india-s-activity-see-mild-pick-up-in-october-flash-pmis-show",
+   "s": "인도 10월 합성 PMI 속보치가 56.7로 오르면서, 서비스업을 중심으로 기업활동이 완만하게 개선됐다"
+  },
+  {
+   "t": "인도 10월 기업활동 4개월 최고…고용은 정체, PMI",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/india-october-business-growth-hits-4-month-high-hiring-stalls-pmi-shows-2026-10-23/",
+   "s": "인도 민간 경기가 4개월 만의 최고로 확대됐지만 고용이 정체되면서, 경기 개선이 일자리 증가로 이어지지 못했다"
+  },
+  {
+   "t": "안전자산 선호·유가 상승, 루피 회복세 시험대에",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/flight-safety-rising-oil-put-rupees-recovery-test-2026-10-23/",
+   "s": "안전자산 선호와 유가 상승이 겹치면서, 최근 회복하던 루피가 다시 약세 압력을 받을 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/fx"
+ ],
+ "title": "인도 10월 PMI 56.7로 4개월 최고·고용은 정체…안전자산 선호·유가에 루피 시험대",
+ "one": "인도 10월 민간 경기가 4개월 만의 최고로 확대됐지만 기업 고용은 정체됐다\n· HSBC 합성 PMI 속보치는 56.7로 9월 55.9보다 올라 6월 이후 가장 높았다\n· 서비스 PMI는 56.2로 올랐고 제조업 PMI는 54.9로 9월 55.1보다 소폭 내렸다\n· 신규 고용은 정체돼 경기 확대가 일자리로 이어지지 않았다\n· 안전자산 선호와 유가 상승이 루피 회복세를 시험대에 올리고 있다",
+ "facts": [
+  "무엇이: 인도 10월 HSBC 합성 PMI 속보치는 56.7로 9월 55.9에서 올라 4개월 만의 최고였다 [사실]",
+  "부문: 서비스는 55.2에서 56.2로 올랐고 제조업은 55.1에서 54.9로 내렸으며, 신규 수출주문은 2025년 6월 이후 가장 빠르게 늘었다 [사실]",
+  "고용: 경기 확대에도 기업들의 고용 증가는 멈춘 것으로 나타났다 [제목]",
+  "루피: 안전자산 선호와 유가 상승이 루피 회복세를 시험하고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "합성 PMI 56.7·서비스 56.2·제조업 54.9는 검색 결과 요약(Newsquawk·The Hans India·Sahi)으로 확인, 고용 정체와 루피 흐름은 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 10월 합성 PMI 56.7로 4개월 최고"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "안전자산 선호·유가 상승에 루피 회복 시험대"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "n-rtr-0702",
+ "num": 702,
+ "key": "mix-G1-093-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:51:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/safran-posts-slightly-higher-than-expected-q3-sales-2026-10-23/",
+ "origTitle": "",
+ "headline": "사프란 3분기 매출 90억 유로로 예상 소폭 상회…애프터마켓 둔화 우려에 주가 약 6%↓",
+ "src": [
+  {
+   "o": "Securities.io",
+   "d": "2026-10-23",
+   "u": "https://www.securities.io/safran-third-quarter-revenue-climbs-14-7-as-leap-deliveries-rise/"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-23",
+   "u": "https://www.investing.com/news/company-news/safran-q3-2026-slides-strong-revenue-growth-shares-fall-6-93CH-4968234"
+  }
+ ],
+ "items": [
+  {
+   "t": "사프란, 3분기 매출 시장 예상 소폭 웃돌아",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/aerospace-defense/safran-posts-slightly-higher-than-expected-q3-sales-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "사프란 3분기 매출 90억 유로로 예상 소폭 상회…애프터마켓 둔화 우려에 주가 약 6%↓",
+ "one": "사프란의 3분기 조정 매출이 90억 300만 유로로 14.7% 늘어 예상을 소폭 웃돌았다\n· LEAP 엔진 인도는 535대였고 2026년 실적 목표는 그대로 유지했다\n· 고유가에 항공사 감편으로 애프터마켓 성장이 둔화할 수 있다는 우려에 주가는 약 6% 내렸다",
+ "facts": [
+  "무엇이: 사프란의 3분기 조정 매출은 90억 300만 유로로 14.7%(유기 13.4%) 늘었고 9개월 매출은 265억 7,400만 유로였다 [사실]",
+  "부문: 추진 부문 46억 3천만 유로, 장비·방산 약 36억 2천만 유로였고 LEAP 엔진은 535대 인도했다 [사실]",
+  "전망·반응: 2026년 목표(매출 10%대 중반 성장, 경상 영업이익 64억~65억 유로)를 유지했고, 애프터마켓 둔화 우려에 주가가 약 6% 내렸다 [사실]",
+  "예상 대비: 컨센서스를 88억 8천만 유로로 보면 소폭 상회, 회사 집계 89억 9천만 유로로 보면 부합이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Securities.io·Investing.com 검색 결과 요약으로 확인. 예상 상회 여부는 컨센서스 기준에 따라 엇갈림",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "oem",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "LEAP 엔진 인도 535대·3분기 매출 14.7% 증가"
+  },
+  {
+   "ind": "aero",
+   "node": "leasing",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "항공사 감편에 애프터마켓 성장 둔화 우려"
+  }
+ ]
+}

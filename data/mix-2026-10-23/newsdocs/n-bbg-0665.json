@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0665",
+ "num": 665,
+ "key": "mix-G1-105-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/barilla-paid-750-million-for-goodles-in-an-all-cash-deal",
+ "origTitle": "",
+ "headline": "바릴라, 미국 맥앤치즈 브랜드 굿을스 7.5억 달러 전액 현금 인수",
+ "src": [
+  {
+   "o": "밀라노피난차",
+   "d": "2026-10-23",
+   "u": "https://milanofinanza.it/news/barilla-750-milioni-di-dollari-per-goodles-la-scommessa-sul-mac-cheese-202610231445168274"
+  },
+  {
+   "o": "비즈니스와이어",
+   "d": "2026-09-02",
+   "u": "https://www.businesswire.com/news/home/20260902759486/en/This-is-HUGE.-GOODLES-Finds-Its-Perfect-Match-With-Barilla-Group-for-a-New-Chapter-of-Growth."
+  }
+ ],
+ "items": [
+  {
+   "t": "바릴라, 굿을스 인수에 7억 5,000만 달러 전액 현금 지급",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/barilla-paid-750-million-for-goodles-in-an-all-cash-deal"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "바릴라, 미국 맥앤치즈 브랜드 굿을스 7.5억 달러 전액 현금 인수",
+ "one": "바릴라가 미국 맥앤치즈 브랜드 굿을스를 7억 5,000만 달러에 전액 현금으로 인수했다\n· 실적 목표에 따라 최소 1억 달러를 더 지급하는 조건이 붙었다고 밀라노피난차가 전했다\n· 굿을스의 최근 12개월 순매출은 1억 9,000만 달러로 인수가는 매출의 약 3.9배다",
+ "facts": [
+  "무엇이: 바릴라가 굿을스 인수 대금 7억 5,000만 달러를 전액 현금으로 치렀다 [제목]",
+  "조건: 실적 연동 추가 지급 최소 1억 달러가 붙었고 거래는 이번 주 마무리됐으며 바릴라는 금액 언급을 거절했다 [사실]",
+  "규모: 굿을스의 최근 12개월 순매출은 1억 9,000만 달러다 [사실]",
+  "배경: 양사는 9월 초 인수에 합의하며 금액을 공개하지 않았고 굿을스는 독립 브랜드로 남는다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "인수 합의·완료와 추가 지급 조건은 밀라노피난차·비즈니스와이어로 확인. 7.5억 달러는 밀라노피난차도 블룸버그를 인용해 독립 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "바릴라 굿을스 인수로 맥앤치즈 경쟁사 흡수"
+  }
+ ]
+}

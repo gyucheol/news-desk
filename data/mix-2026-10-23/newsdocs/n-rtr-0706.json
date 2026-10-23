@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0706",
+ "num": 706,
+ "key": "mix-G1-100-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:27:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study-says-2026-10-23/",
+ "origTitle": "",
+ "headline": "사우디 알두와드미 미사일 공장 확장…연구진 '더 강력한 고체연료 미사일 생산 가능'",
+ "src": [
+  {
+   "o": "타임스오브이스라엘",
+   "d": "2026-10-23",
+   "u": "https://www.timesofisrael.com/liveblog_entry/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-researchers-say"
+  },
+  {
+   "o": "bdnews24",
+   "d": "2026-10-23",
+   "u": "https://bdnews24.com/world/middle-east/tqrbo1v3p9"
+  }
+ ],
+ "items": [
+  {
+   "t": "연구 '사우디 미사일 공장 확장, 더 강력한 미사일 생산 가능'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/middle-east/saudi-missile-plant-expansion-may-produce-more-powerful-missiles-study-says-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "사우디 알두와드미 미사일 공장 확장…연구진 '더 강력한 고체연료 미사일 생산 가능'",
+ "one": "미국 연구진이 사우디가 미사일 공장을 넓혀 더 강력한 미사일을 만들 수 있다고 분석했다\n· 리야드 서쪽 약 200km 알두와드미 공장에 기존의 두 배 이상인 새 주조 시설이 들어서고 있다\n· 연구진은 이르면 연말 생산이 가능하다고 봤고, 사우디는 그런 계획을 부인했다",
+ "facts": [
+  "무엇이: 외교정책연구소(FPRI) 연구진은 2025년 4월~2026년 9월 위성사진을 분석해 사우디가 알두와드미 탄도미사일 공장을 더 큰 고체연료 미사일용으로 넓히고 있다고 봤다 [사실]",
+  "규모: 새 건물은 연료 주조 피트를 담은 것으로 보이며 기존 주조 건물의 최소 두 배 크기다 [사실]",
+  "시점: 연구진은 이르면 올해 말 생산 준비가 될 수 있다고 봤다 [사실]",
+  "반응: 사우디는 그런 계획이 없다고 부인했고, 미·사우디 민간 원자력 협정에 대한 미 의회 반대 가능성도 거론된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "타임스오브이스라엘·bdnews24 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "사우디 고체연료 미사일 생산 확대 가능성"
+  }
+ ]
+}

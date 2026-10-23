@@ -212,7 +212,7 @@ items.append({"cid": "G1-060", "attachTo": "n-tg-0662",
 items.append({"cid": "G1-070", "attachTo": "",
  "title": "뉴몬트 3분기 조정 주당순이익 2.20달러로 예상 상회…금값 상승에 매출 15%↑",
  "one": "\n".join([
-  "뉴몬트가 금값 상승에 힘입어 3분기 이익이 시장 예상을 웃돌았다.",
+  "미국 금광업체 뉴몬트가 금값 상승에 힘입어 3분기 이익이 시장 예상을 웃돌았다.",
   "· 조정 순이익은 23억 1,000만 달러, 주당 2.20달러로 예상치 1.95달러를 넘었다.",
   "· 매출은 63억 6,000만 달러로 15% 늘었고 잉여현금흐름은 19억 1,000만 달러였다."]),
  "facts": [
@@ -310,14 +310,14 @@ items.append({"cid": "G2-003", "attachTo": "",
         {"ind": "macro", "node": "cb", "f": "가격", "dir": "up", "k": "예상", "t": "ECB 동결 뒤 12월 금리 인상 전망"}],
  "items": [
   it("ECB 파네타 '국채금리 상승이 경기를 억제할 것'", B, "https://www.bloomberg.com/news/articles/2026-10-22/ecb-s-panetta-says-rising-bond-yields-will-restrain-economy",
-     "파네타 ECB 위원이 국채금리 상승이 경기를 억제할 것이라고 말하면서, 시장금리가 추가 긴축 일부를 대신할 수 있다는 시각을 드러냈다 (제목 기준)"),
+     "파네타 ECB 위원이 국채금리 상승이 경기를 억제할 것이라고 말하면서, 유로존 경기에 대한 금리 상승 부담을 경고했다 (제목 기준)"),
   it("이코노미스트들 'ECB, 동결 뒤 12월에 금리 인상할 것'", B, "https://www.bloomberg.com/news/articles/2026-10-23/ecb-set-to-raise-rates-in-december-after-pause-economists-say",
      "이코노미스트들이 ECB가 이번 동결 뒤 12월에 금리를 올릴 것으로 보면서, 유로존 긴축 재개 기대가 이어졌다 (제목 기준)"),
   it("독일 기업활동, 서비스업 탓에 예상보다 크게 둔화", B, "https://www.bloomberg.com/news/articles/2026-10-23/german-business-activity-slows-more-than-expected-on-services",
      "독일 10월 기업활동이 서비스업 부진으로 예상보다 크게 둔화하면서, 종합 PMI가 52.8로 예상치 53.3을 밑돌았다"),
   it("독일 10월 기업활동 성장세 약화, PMI 조사 결과", R, "https://www.reuters.com/world/europe/german-business-activity-growth-softens-october-pmi-shows-2026-10-23/",
      "독일 10월 PMI에서 제조업과 서비스업 성장이 함께 느려지면서, 서비스 PMI는 51.7로 예상치 52.5에 못 미쳤다"),
-  it("프랑스 소요 여파에 유로존 기업활동 둔화", B, "https://www.bloomberg.com/news/articles/2026-10-23/euro-zone-business-activity-slowed-as-france-unrest-weighs",
+  it("프랑스 소요가 발목 잡으며 유로존 기업활동 둔화", B, "https://www.bloomberg.com/news/articles/2026-10-23/euro-zone-business-activity-slowed-as-france-unrest-weighs",
      "프랑스 파업·소요가 서비스업을 끌어내리면서 유로존 종합 PMI가 51.9로 떨어졌고, 프랑스 민간 산출은 수축으로 돌아섰다"),
   it("ECB '9월 소비자 기대인플레이션 소폭 상승'", B, "https://www.bloomberg.com/news/articles/2026-10-23/ecb-says-consumers-inflation-expectations-edge-up-in-september",
      "ECB 소비자 기대 조사에서 9월 기대인플레이션이 소폭 오르면서, 12월 인상론에 힘을 보탤 수 있다 (제목 기준)"),
@@ -496,7 +496,7 @@ items.append({"cid": "G2-074", "attachTo": "n-rtr-0551",
 items.append({"cid": "G2-084", "attachTo": "",
  "title": "UAE·그리스 127.5억 유로 협정 체결…아부다비, 그리스에 150억 유로 추가 투자 계획",
  "one": "\n".join([
-  "UAE와 그리스가 아테네 전략 포럼에서 대규모 투자·사업 협정을 맺었다.",
+  "UAE와 그리스가 아테네 전략 포럼에서 대규모 투자·사업 협정을 잇따라 맺었다.",
   "· 양국은 18건, 127.5억 유로(약 143억 달러) 규모 협정과 사업 제휴를 발표했다.",
   "· 아부다비는 그리스에 150억 유로를 추가로 투자할 계획이라고 밝혔다."]),
  "facts": [
@@ -528,6 +528,9 @@ items.append({"cid": "G2-094", "attachTo": "",
  "inds": ["jpins", "semis"], "nodes": ["jpins/securities"],
  "vc": [{"ind": "semis", "node": "memory", "f": "가격", "dir": "down", "k": "예상", "t": "키옥시아 신용잔고 9,200억 엔 매물 부담"}],
  "items": [it("도쿄증권거래소 데이터 정정에 키옥시아 신용잔고 우려 재부상", B, "https://www.bloomberg.com/news/articles/2026-10-23/tokyo-bourse-data-fix-revives-kioxia-margin-position-concerns")]})
+
+for x in items:
+    x['one'] = '\n'.join(l[:-1] if l.endswith('.') else l for l in x['one'].split('\n'))
 
 skipped = [{"cid": "G2-064", "reason": "범위 밖(9월 2일 연준 감찰관 경고·9월 5일 보우먼·파월 블랙아웃 접촉 보도의 재탕)"}]
 

@@ -5,6 +5,8 @@
 # a passionate person, bedridden, burnout title, 2019/WHO, research papers, news, interview background); turning the
 # other abstract scenes into AI images comes later (owner, same day). U163-U164 cut; U105-U107, U229-U232 split as the
 # owner marked; U188 shows no 그러니까; subtitles start on the voice onset (sub_lead 0, onsets.py + ctc_align.py).
+# v3 (2026-10-23): the owner changed one line near the start and re-recorded it; U012 / U012b / U013 now read
+# "그렇다면 오늘 이야기가 / 그 질문의 답을 찾는 데 / 작은 힌트가 될지도 모르겠습니다." (the bulb screen covers all three).
 # usage: build_spec.py <folder with units.json> [stock search index.json, adds clip titles as notes] -> <folder>/spec.json
 import json, re, sys
 F = sys.argv[1]

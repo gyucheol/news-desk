@@ -11,7 +11,11 @@
 # ㅎ/ㅅ/ㅆ/ㅊ/ㅋ/ㅌ/ㅍ is treated as that consonant (on 2026-10-22 the strongest "breath" was the ㅎ of 혹시).
 # Gap types come from faster-whisper punctuation (word ending in . ? ! = sentence end); --section marks section breaks.
 # usage: polish_voice.py IN(m4a/wav) OUT.wav [--section 20.6,...] [--denoise 12] [--deess 0.3] [--report r.json] [--words w.json]
-#                        [--soft 0.4] [--breath-rel -22] [--tempo 1.3]
+#                        [--soft 0.4] [--breath-rel -22] [--tempo 1.3] [--cuts-from earlier_report.json]
+#   --cuts-from R: cut exactly the gaps an earlier run cut (its report's "cuts"), so the timing and every subtitle time
+#             stay the same; used on 2026-10-23 to repair the levels of the narration without moving anything.
+#             --drop-cuts t1,t2 leaves out the earlier cuts starting at those times (one cut ate 0.15 s of "...거죠.")
+#   --keep-levels: no breath or click edits at all (owner's recordings since 2026-10-23)
 #   --tempo T: speed up first, pitch kept (Rubber Band R3 'finer' engine, `rubberband -3`; apt package rubberband-cli).
 #             On 2026-10-22 R3 kept voicing clarity and consonants closer to the original than ffmpeg atempo.
 #             --section and --words are given in the ORIGINAL file's time; they are divided by T.
@@ -102,6 +106,9 @@ def main():
         subprocess.run(["rubberband", "-q", "-3", f"-T{tempo}", wav_in, sped], check=True)
         os.remove(wav_in); src = sped
     deess = float(opt("--deess", "0"))
+    # --keep-levels: turn nothing down (no breath or click edits); on 2026-10-23 every checked "breath" of the owner's
+    # recordings was speech (a soft 다/죠 ending, or the start of the next word the voiced test missed)
+    keep_levels = "--keep-levels" in a
     soft = float(opt("--soft", "0"))
     breath_rel = opt("--breath-rel")
     x = decode(src, "highpass=f=75")
@@ -129,16 +136,32 @@ def main():
         prv = words[prv_i] if prv_i is not None and abs(words[prv_i]["e"] - A) <= 0.6 else None
         nxt = words[0] if p["a"] == 0 else (words[prv_i + 1] if prv_i is not None and prv_i + 1 < len(words) else None)
         breaths, blocked = [], []                                # blocked: never cut (breaths, onsets, tails)
+        # the dying end of the previous word is not a breath (2026-10-23: soft 다/죠 endings that faded, dipped for a few
+        # tens of ms and went on were turned down up to 12 dB; the owner heard the ends of sentences as strange). From
+        # the last voiced frame the level is followed until it has stayed within 4 dB of this pause's own background
+        # (its quietest fifth) for 80 ms. Everything before that is the word's tail: not turned down, no click repair.
+        tail_end = A
+        if p["a"] > 0:
+            bg = float(np.percentile(db[p["a"]:p["b"]], 20))
+            k, quiet = max(p["a"] - DIL, 0), 0
+            while k < p["b"] and quiet < 8:
+                if db[k] > bg + 4:
+                    tail_end, quiet = k * 0.01 + WIN / SR, 0
+                else:
+                    quiet += 1
+                k += 1
+            if tail_end > A:
+                blocked.append((A, tail_end))
         for c, d, lv in p["cands"]:
             cs, ce = c * 0.01, d * 0.01
-            if cs - A < 0.06 and p["a"] > 0:
-                blocked.append((A, ce)); continue                # tail of the previous word
+            if p["a"] > 0 and (cs - A < 0.06 or cs < tail_end):
+                blocked.append((A, max(ce, tail_end))); continue  # tail of the previous word
             if nxt and initial_index(nxt["w"]) in PROTECT_INITIALS and B - ce < 0.12:
                 blocked.append((cs, B)); continue                # onset consonant, not a breath
             cs, ce = max(A + 0.06, cs - 0.07), min(B - 0.04, ce + 0.07)
             blocked.append((cs, ce))                             # a breath stays (natural), only loud ones go down
             att = float(np.clip((floor + lv) - (speech_p95 + float(breath_rel)) if breath_rel else lv - 10, 0, 12))
-            if att >= 3:
+            if att >= 3 and not keep_levels:
                 breaths.append([cs, ce, att])
                 s0, s1, r = int(cs * SR), int(ce * SR), int(0.025 * SR)
                 env = np.full(s1 - s0, -att)
@@ -150,7 +173,7 @@ def main():
         za = max([A + 0.03] + [v for u, v in blocked if u <= A + 0.001]) if p["a"] > 0 else A
         zb = min([B - 0.03] + [u for u, v in blocked if v >= B - 0.001])   # plosive bursts can start here
         i0, i1 = int(za * SR), int(zb * SR)
-        if i1 - i0 > int(0.05 * SR):
+        if i1 - i0 > int(0.05 * SR) and not keep_levels:
             h = np.abs(np.diff(x[i0:i1], 2)); n = len(h)
             c2 = np.concatenate([[0.0], np.cumsum(h ** 2)])
             k = np.arange(n)
@@ -170,7 +193,7 @@ def main():
                 env = np.full(c1 - c0, -20.0); ramp = np.linspace(0, -20, r)
                 env[:r] = ramp; env[-r:] = ramp[::-1]
                 gain_db[c0:c1] = np.minimum(gain_db[c0:c1], env)
-        entry = {"start": round(A, 2), "end": round(B, 2), "gap": round(B - A + 0.16, 2),
+        entry = {"start": round(A, 2), "end": round(B, 2), "gap": round(B - A + 0.16, 2), "tail_end": round(tail_end, 2),
                  "clicks_turned_down": [round(float(t), 3) for t in clicks],
                  "breaths_turned_down": [[round(u, 2), round(v, 2), round(g, 1)] for u, v, g in breaths]}
         if not edge:
@@ -199,9 +222,47 @@ def main():
                     entry["cut"] = [round(float(best[0]), 2), round(float(best[1]), 2)]
                     entry["gap_after"] = round(entry["gap"] - float(best[1] - best[0]), 2)
         report["pauses"].append(entry)
-    # timeline: lead-in 0.25 s before the first speech, tail 0.35 s after the last
+    if opt("--cuts-from"):                                       # same cuts as an earlier run: timing stays identical
+        auto = sorted(keep_cuts)
+        report["cuts_from"] = opt("--cuts-from")
+        report["cuts_auto"] = [[round(s, 2), round(e, 2)] for s, e in auto]
+        # a cut that reaches into a word's tail moves later inside the same pause with the same length, so nothing
+        # outside that pause moves; if the pause has no room after the tail the cut stays where it was
+        moved, keep_cuts, stuck = [], [], []
+        drop = [float(v) for v in opt("--drop-cuts", "").split(",") if v]   # earlier cuts to leave out (start times)
+        report["cuts_dropped"] = []
+        for s, e in (tuple(c) for c in json.load(open(opt("--cuts-from")))["cuts"]):
+            if any(abs(s - d) < 0.006 for d in drop):
+                report["cuts_dropped"].append([round(s, 2), round(e, 2)]); continue
+            pp = next((q for q in report["pauses"] if q["start"] - 0.01 <= s and e <= q["end"] + 0.01), None)
+            if pp and s < pp["tail_end"] + 0.03:
+                ns = pp["tail_end"] + 0.03
+                if ns + (e - s) <= pp["end"] - 0.10:
+                    moved.append([round(s, 2), round(ns, 2)]); s, e = ns, ns + (e - s)
+                else:
+                    stuck.append([round(s, 2), round(e, 2)])
+            keep_cuts.append((s, e))
+        report["cuts_moved_after_tail"], report["cuts_into_tails"] = moved, stuck
+    # timeline: lead-in 0.25 s before the first speech; at the end at least 0.35 s after the last voiced frame, and never
+    # inside a sound that is still dying away. A soft last syllable (다, 요) falls below the voiced test while it decays,
+    # and the old fixed 0.35 s cut 0.1-0.3 s of it in three re-recordings (owner heard it, 2026-10-23). So the level is
+    # followed until it has stayed within 3 dB of the noise floor for 150 ms (at most 1 s), and 0.1 s is kept after that.
     t_start = max(0.0, lead_start * 0.01 + 0.08 - 0.25)
-    t_end = min(len(x) / SR, (last["a"] * 0.01 - 0.08 + 0.35) if last["b"] >= n_fr - 1 else len(x) / SR)
+    if last["b"] >= n_fr - 1:
+        v_end = last["a"] * 0.01 - 0.08                          # end of the last voiced frame
+        k, quiet, tail_end = int(round(v_end * 100)), 0, v_end
+        while k < n_fr and k * 0.01 < v_end + 1.0 and quiet < 15:
+            if db[k] > floor + 6:
+                tail_end, quiet = k * 0.01 + WIN / SR, 0
+            elif db[k] < floor + 3:
+                quiet += 1
+            else:
+                quiet = 0
+            k += 1
+        t_end = min(len(x) / SR, max(v_end + 0.35, tail_end + 0.10))
+        report["tail_end"] = round(tail_end, 2)
+    else:
+        t_end = len(x) / SR
     y = xd[:len(gain_db)] * 10 ** (gain_db[:len(xd)] / 20)
     pieces, cur = [], t_start
     for s, e in sorted(keep_cuts):

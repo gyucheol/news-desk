@@ -1,0 +1,53 @@
+{
+ "floor_db": -50.7,
+ "speech_p95_db": -12.2,
+ "pauses": [
+  {
+   "start": 2.57,
+   "end": 2.77,
+   "gap": 0.36,
+   "tail_end": 2.79,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 3.07,
+   "end": 3.32,
+   "gap": 0.41,
+   "tail_end": 3.15,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 6.75,
+   "end": 6.95,
+   "gap": 0.36,
+   "tail_end": 6.82,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 7.65,
+   "end": 8.17,
+   "gap": 0.68,
+   "tail_end": 8.08,
+   "clicks_turned_down": [],
+   "breaths_turned_down": []
+  }
+ ],
+ "cuts_from": "v2 report of re1",
+ "cuts_auto": [],
+ "cuts_dropped": [],
+ "cuts_moved_after_tail": [],
+ "cuts_into_tails": [],
+ "tail_end": 8.04,
+ "tempo": 1.0,
+ "in_sec": 8.19,
+ "out_sec": 8.34,
+ "lead_in_trim": 0.0,
+ "lead_in_pad": 0.2,
+ "cuts": []
+}

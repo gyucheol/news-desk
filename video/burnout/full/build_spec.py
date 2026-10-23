@@ -7,6 +7,8 @@
 # owner marked; U188 shows no 그러니까; subtitles start on the voice onset (sub_lead 0, onsets.py + ctc_align.py).
 # v3 (2026-10-23): the owner changed one line near the start and re-recorded it; U012 / U012b / U013 now read
 # "그렇다면 오늘 이야기가 / 그 질문의 답을 찾는 데 / 작은 힌트가 될지도 모르겠습니다." (the bulb screen covers all three).
+# v4 (2026-10-23): U049-U050 show the owner's photo of Freudenberger instead of the name card (the owner says the
+# copyright holder allowed it); the 2019/WHO screen shows the WHO emblem cut from the owner's image (icons.py).
 # usage: build_spec.py <folder with units.json> [stock search index.json, adds clip titles as notes] -> <folder>/spec.json
 import json, re, sys
 F = sys.argv[1]
@@ -40,6 +42,8 @@ DARK = {"sat": 0.85, "black": 0.05, "gamma": 1.3, "vignette": 0.5}
 # AI images: images/ next to spec.json (full/images/ in the repo, the 6 PNGs rendered in v2; gen_batch.py with
 # full/ai_images.json makes them again into work/img/, slightly different on other library versions)
 AI_FILES = {}                                      # filled in below from the chosen seeds
+# photos the owner supplied (2026-10-23, permission per the owner); not in the repository: put them in work/photos/
+PHOTO_FILES = {"F01": "../work/photos/freudenberger.png"}
 AI_SEED = {"A01": 1, "A02": 1, "A07": 21, "A11": 1, "A12": 1, "A16": 1}
 for k, sd in AI_SEED.items():
     AI_FILES[k] = f"{k}_s{sd}.png"
@@ -67,7 +71,7 @@ PLAN = [
  # ③ the name and Freudenberger's story
  ("U046", "card", None, {}),
  ("U048", "photo", "A01", {"grade": PAST, **KB(1)}),          # psychology: a therapy room (owner)
- ("U049", "icon", "freud_card", {}),                          # no freely licensed photo of him: profile card
+ ("U049", "photo", "F01", {"grade": PAST, "z0": 1.0, "z1": 1.05, "cx0": 0.52, "cx1": 0.56, "cy0": 0.5, "cy1": 0.42}),  # owner's photo
  ("U051", "photo", "A02", {"grade": PAST, **KB(-1), "title": "1970년대", "title_sub": "뉴욕"}),
  # passionate, dedicated (owner): hands typing late by candlelight, no face; the AI try showed two faces that could pass
  # for him (2026-10-23). The crop cuts the typewriter maker's logo, as in v1.
@@ -162,7 +166,10 @@ for i, (fu, kind, arg, ex) in enumerate(PLAN):
     elif kind == "icon":
         sc.update({"type": "icon", "icon": arg})
     elif kind == "photo":
-        sc.update({"type": "photo", "image": f"images/{AI_FILES[arg]}", "note": f"AI image {arg}"})
+        if arg in AI_FILES:
+            sc.update({"type": "photo", "image": f"images/{AI_FILES[arg]}", "note": f"AI image {arg}"})
+        else:
+            sc.update({"type": "photo", "image": PHOTO_FILES[arg], "note": f"owner photo {arg}"})
         for k in ("grade", "blur", "z0", "z1", "cx0", "cx1", "cy0", "cy1", "title", "title_sub", "title_size",
                   "title_color", "title_delay", "center_subs"):
             if k in ex: sc[k] = ex[k]

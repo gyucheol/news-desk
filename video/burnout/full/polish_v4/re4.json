@@ -1,0 +1,35 @@
+{
+ "floor_db": -47.1,
+ "speech_p95_db": -12.3,
+ "pauses": [
+  {
+   "start": 1.46,
+   "end": 1.59,
+   "gap": 0.29,
+   "tail_end": 1.52,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 4.46,
+   "end": 5.06,
+   "gap": 0.76,
+   "tail_end": 4.92,
+   "clicks_turned_down": [],
+   "breaths_turned_down": []
+  }
+ ],
+ "cuts_from": "v3 report of re4",
+ "cuts_auto": [],
+ "cuts_dropped": [],
+ "cuts_moved_after_tail": [],
+ "cuts_into_tails": [],
+ "tail_end": 4.78,
+ "tempo": 1.0,
+ "in_sec": 5.08,
+ "out_sec": 5.08,
+ "lead_in_trim": 0.0,
+ "lead_in_pad": 0.2,
+ "cuts": []
+}

@@ -442,11 +442,26 @@ def globe(d, x, y, r, col, w, k):
         d.line([(x - hw, yy), (x + hw, yy)], fill=col, width=max(2, w // 2))
 
 
+# WHO emblem cut out of the owner's image (2026-10-23, the owner's decision; WHO restricts the use of its emblem).
+# Not in the repository: work/photos/who_emblem.png. Without it the screen draws a line globe instead.
+WHO_MARK = f"{ROOT}/work/photos/who_emblem.png"
+_who = {}
+
+
 def who2019(t, dur):
-    """Year and organisation as text only: the WHO emblem needs WHO's written permission (checked 2026-10-23)."""
+    """Year and organisation, with the WHO emblem (or a line globe when the emblem file is missing)."""
     img, d = canvas()
     k = sm(t / 0.5)
-    globe(d, CX - 380 * SS, CY, 150 * SS, mix((0, 0, 0), WHITE, k), LW, k)
+    if os.path.exists(WHO_MARK):
+        if "m" not in _who:
+            m = Image.open(WHO_MARK).convert("RGBA"); h = int(330 * SS)
+            _who["m"] = m.resize((round(m.width * h / m.height), h), Image.LANCZOS)
+        m = _who["m"]
+        if k < 1:
+            m = m.copy(); m.putalpha(m.getchannel("A").point(lambda v: round(v * k)))
+        img.paste(m, (int(CX - 380 * SS - m.width / 2), int(CY - m.height / 2)), m)
+    else:
+        globe(d, CX - 380 * SS, CY, 150 * SS, mix((0, 0, 0), WHITE, k), LW, k)
     k2 = sm((t - 0.2) / 0.5)
     tx = CX - 150 * SS
     d.text((tx, CY - 10 * SS), "2019년", font=font_b(150), fill=mix((0, 0, 0), YEL, k2), anchor="ls")

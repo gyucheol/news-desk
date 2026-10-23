@@ -1,0 +1,117 @@
+{
+ "floor_db": -48.7,
+ "speech_p95_db": -12.1,
+ "pauses": [
+  {
+   "start": 1.75,
+   "end": 1.97,
+   "gap": 0.38,
+   "tail_end": 1.89,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 3.98,
+   "end": 4.38,
+   "gap": 0.56,
+   "tail_end": 4.0,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 4.78,
+   "end": 5.09,
+   "gap": 0.47,
+   "tail_end": 4.87,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 6.75,
+   "end": 7.12,
+   "gap": 0.53,
+   "tail_end": 6.71,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 7.3,
+   "end": 7.95,
+   "gap": 0.81,
+   "tail_end": 7.32,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "sentence",
+   "cut": [
+    7.73,
+    7.89
+   ],
+   "gap_after": 0.65
+  },
+  {
+   "start": 9.68,
+   "end": 9.85,
+   "gap": 0.33,
+   "tail_end": 9.63,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 10.75,
+   "end": 11.1,
+   "gap": 0.51,
+   "tail_end": 10.88,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 11.6,
+   "end": 11.89,
+   "gap": 0.45,
+   "tail_end": 11.62,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 12.39,
+   "end": 12.61,
+   "gap": 0.38,
+   "tail_end": 12.62,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 12.78,
+   "end": 13.06,
+   "gap": 0.44,
+   "tail_end": 12.98,
+   "clicks_turned_down": [],
+   "breaths_turned_down": []
+  }
+ ],
+ "cuts_from": "no cuts (empty list)",
+ "cuts_auto": [
+  [
+   7.73,
+   7.89
+  ]
+ ],
+ "cuts_dropped": [],
+ "cuts_moved_after_tail": [],
+ "cuts_into_tails": [],
+ "tail_end": 12.86,
+ "tempo": 1.0,
+ "in_sec": 13.08,
+ "out_sec": 13.25,
+ "lead_in_trim": 0.0,
+ "lead_in_pad": 0.2,
+ "cuts": []
+}

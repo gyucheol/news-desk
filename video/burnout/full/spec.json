@@ -299,8 +299,21 @@
   {
    "id": "029",
    "from": "U049",
-   "type": "icon",
-   "icon": "freud_card"
+   "type": "photo",
+   "image": "../work/photos/freudenberger.png",
+   "note": "owner photo F01",
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.52,
+   "cx1": 0.56,
+   "cy0": 0.5,
+   "cy1": 0.42
   },
   {
    "id": "030",
@@ -1644,13 +1657,11 @@
   },
   {
    "unit": "U049",
-   "text": "미국의 심리학자",
-   "box": false
+   "text": "미국의 심리학자"
   },
   {
    "unit": "U050",
-   "text": "허버트 프로이덴버거인데요.",
-   "box": false
+   "text": "허버트 프로이덴버거인데요."
   },
   {
    "unit": "U051",

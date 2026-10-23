@@ -1,0 +1,82 @@
+{
+ "floor_db": -47.2,
+ "speech_p95_db": -13.1,
+ "pauses": [
+  {
+   "start": 3.26,
+   "end": 3.88,
+   "gap": 0.78,
+   "tail_end": 3.61,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma",
+   "cut": [
+    3.66,
+    3.82
+   ],
+   "gap_after": 0.62
+  },
+  {
+   "start": 4.29,
+   "end": 4.56,
+   "gap": 0.43,
+   "tail_end": 4.52,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 6.95,
+   "end": 7.27,
+   "gap": 0.48,
+   "tail_end": 7.01,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 9.78,
+   "end": 10.16,
+   "gap": 0.54,
+   "tail_end": 10.01,
+   "clicks_turned_down": [],
+   "breaths_turned_down": [],
+   "type": "comma"
+  },
+  {
+   "start": 10.33,
+   "end": 10.67,
+   "gap": 0.5,
+   "tail_end": 10.61,
+   "clicks_turned_down": [],
+   "breaths_turned_down": []
+  }
+ ],
+ "cuts_from": "v2 report of re3",
+ "cuts_auto": [
+  [
+   3.66,
+   3.82
+  ]
+ ],
+ "cuts_dropped": [],
+ "cuts_moved_after_tail": [],
+ "cuts_into_tails": [
+  [
+   3.55,
+   3.82
+  ]
+ ],
+ "tail_end": 10.53,
+ "tempo": 1.0,
+ "in_sec": 10.69,
+ "out_sec": 10.54,
+ "lead_in_trim": 0.0,
+ "lead_in_pad": 0.2,
+ "cuts": [
+  [
+   3.55,
+   3.82
+  ]
+ ]
+}

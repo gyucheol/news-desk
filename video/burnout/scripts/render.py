@@ -344,8 +344,10 @@ def main():
             img = icon_frame(sc["icon"], t - sc["start"], sc["end"] - sc["start"]).convert("RGBA")
         elif sc["type"] == "photo":
             u = min(max((t - sc["start"]) / (sc["end"] - sc["start"]), 0), 1)
-            # exponential zoom = constant perceived speed
-            z = sc.get("z0", 1.0) * (sc.get("z1", 1.04) / sc.get("z0", 1.0)) ** u
+            # exponential zoom = constant perceived speed; zoom_rate (per second) gives every photo the same slow speed
+            z0 = sc.get("z0", 1.0)
+            z1 = min(MAX_ZOOM, z0 * (1 + sc["zoom_rate"] * (sc["end"] - sc["start"]))) if "zoom_rate" in sc else sc.get("z1", 1.04)
+            z = z0 * (z1 / z0) ** u
             cx = lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u)
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
             img = kenburns(srcs[photo_key(sc)], z, cx, cy).convert("RGBA")

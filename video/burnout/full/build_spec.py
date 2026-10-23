@@ -55,7 +55,9 @@ NEWS = {"sat": 0.6, "black": 0.08, "gamma": 1.9, "vignette": 0.6}         # dark
 AI_SEED = {"A01": 1, "A02": 1, "A07": 21, "A11": 1, "A12": 1, "A16": 1}
 for k, sd in AI_SEED.items():
     AI_FILES[k] = f"{k}_s{sd}.png"
-KB = lambda d: {"z0": 1.0, "z1": 1.05, "cx0": 0.5 - 0.02 * d, "cx1": 0.5 + 0.02 * d}   # slow push-in with a small pan
+# photos only zoom in, very slowly, about the centre (v6, owner: the left-right drift was distracting); the same speed
+# everywhere: 0.8% per second (render.py zoom_rate), at most 1.05x
+ZOOM = {"z0": 1.0, "zoom_rate": 0.008}
 PLAN = [
  # ① hook: the 30-second example the owner approved (sample30)
  ("U001", "v", "31411", {"in": 0.2}), ("U002", "v", "28899", {"in": 6.4, "speed": 1.6}), ("U004", "card", None, {}),
@@ -78,9 +80,9 @@ PLAN = [
  ("U040", "v", "4513", {"in": 1.0, "grade": DARK}), ("U042", "card", None, {}), ("U043", "icon", "clock6", {}),
  # ③ the name and Freudenberger's story
  ("U046", "card", None, {}),
- ("U048", "photo", "A01", {"grade": PAST, **KB(1)}),          # psychology: a therapy room (owner)
- ("U049", "photo", "F01", {"grade": PAST, "z0": 1.0, "z1": 1.05, "cx0": 0.52, "cx1": 0.56, "cy0": 0.5, "cy1": 0.42}),  # owner's photo
- ("U051", "photo", "A02", {"grade": PAST, **KB(-1), "title": "1970년대", "title_sub": "뉴욕"}),
+ ("U048", "photo", "A01", {"grade": PAST, **ZOOM}),          # psychology: a therapy room (owner)
+ ("U049", "photo", "F01", {"grade": PAST, **ZOOM}),  # owner's photo
+ ("U051", "photo", "A02", {"grade": PAST, **ZOOM, "title": "1970년대", "title_sub": "뉴욕"}),
  # passionate, dedicated (owner): hands typing late by candlelight, no face; the AI try showed two faces that could pass
  # for him (2026-10-23). The crop cuts the typewriter maker's logo, as in v1.
  ("U052", "v", "10395", {"in": 1.0, "grade": PAST, "crop": [0.0, 0.0, 0.94, 0.94]}),
@@ -90,7 +92,7 @@ PLAN = [
  ("U059", "v", "39841", {"in": 1.0, "grade": PAST}),
  ("U061", "v", "44579", {"in": 1.0, "grade": PAST}), ("U064", "v", "3461", {"in": 1.0}),
  ("U065", "v", "4701", {"in": 0.0, "grade": PAST}),
- ("U067", "photo", "A07", {"grade": PAST, **KB(1)}),          # bedridden, cannot move (owner)
+ ("U067", "photo", "A07", {"grade": PAST, **ZOOM}),          # bedridden, cannot move (owner)
  ("U071", "v", "425", {"in": 1.0, "grade": PAST}),
  ("U074", "v", "28893", {"in": 1.0, "grade": PAST}),
  ("U076", "v", "425", {"in": 8.0, "grade": PAST}), ("U078", "v", "1967", {"in": 1.0}),
@@ -98,7 +100,7 @@ PLAN = [
  ("U087", "v", "8744", {"in": 1.0, "grade": PAST}),
  ("U089", "v", "2707", {"in": 1.0}),
  ("U091", "v", "21587", {"in": 1.0, "grade": PAST}),
- ("U092", "photo", "A11", {"grade": PAST, **KB(1), "title": "번아웃", "title_size": 230, "title_delay": 1.2}),
+ ("U092", "photo", "A11", {"grade": PAST, **ZOOM, "title": "번아웃", "title_size": 230, "title_delay": 1.2}),
  ("U095", "card", None, {}), ("U097", "v", "39841", {"in": 8.0, "grade": PAST}),
  # v2: runs on through U102 (owner). The crop cuts the word on the hoodie (Artisan), readable in v1 too.
  ("U100", "v", "50133", {"in": 1.0, "grade": DARK, "crop": [0.0, 0.0, 1.0, 0.74]}),
@@ -128,7 +130,7 @@ PLAN = [
  ("U194", "icon", "bulb_dim", {}),
  # ⑤ does rest fix it
  ("U197", "card", None, {}), ("U198", "v", "1958", {"in": 1.0, "grade": BRIGHT}),
- ("U199", "photo", "A12", {"grade": DARK, **KB(1)}),          # research papers (owner)
+ ("U199", "photo", "A12", {"grade": DARK, **ZOOM}),          # research papers (owner)
  ("U201", "icon", "docs7", {}),
  ("U204", "v", "1013", {"in": 1.0, "grade": BRIGHT}), ("U205", "icon", "graph", {}), ("U207", "icon", "docs_many", {}),
  ("U210", "icon", "calendar", {}), ("U212", "icon", "bars", {}), ("U214", "card", None, {}),
@@ -137,7 +139,7 @@ PLAN = [
  ("U227", "v", "1623", {"in": 8.0, "grade": DARK}), ("U229", "card", None, {}),
  # ⑥ a real story (potato character comes later)
  ("U231", "card", None, {}),
- ("U233", "photo", "N01", {"grade": NEWS, "blur": 12, "z0": 1.0, "z1": 1.04,     # news photo, very slow push-in (owner)
+ ("U233", "photo", "N01", {"grade": NEWS, "blur": 12, **ZOOM,                    # news photo, very slow push-in (owner)
                            "overlay": {"kind": "news_card", "at": ["U233", "U234", "U235"]}}),  # lines appear as spoken
  ("U236", "v", "31415", {"in": 1.0, "grade": DARK}),
  ("U238", "v", "4801", {"in": 0.2, "grade": DARK}),           # 출근하면 일할 의욕이 없고: phone instead of work, from above
@@ -146,7 +148,7 @@ PLAN = [
  ("U241b", "v", "31411", {"in": 8.0}),                        # 계속 이어졌다고 합니다: asleep (same man as U236)
  ("U242", "v", "4720", {"in": 8.0, "grade": DARK}),
  ("U244", "photo", "A16", {"grade": {"sat": 0.7, "black": 0.08, "gamma": 1.9, "vignette": 0.6}, "blur": 9,
-                           "z0": 1.0, "z1": 1.05, "center_subs": True}),    # the quote over the blurred, darkened interview,
+                           **ZOOM, "center_subs": True}),                   # the quote over the blurred, darkened interview,
                                                                             # slowly zooming in (owner, v5)
  ("U248", "card", None, {}),
  ("U251", "v", "3461", {"in": 6.0}), ("U254", "v", "50956", {"in": 8.0}),
@@ -186,7 +188,7 @@ for i, (fu, kind, arg, ex) in enumerate(PLAN):
                        "note": f"Mixkit {vid} {idx[vid]['title'] if vid in idx else ''} (still at {at} s)".replace("  ", " ")})
         else:
             sc.update({"type": "photo", "image": PHOTO_FILES[arg], "note": f"owner photo {arg}"})
-        for k in ("grade", "blur", "z0", "z1", "cx0", "cx1", "cy0", "cy1", "title", "title_sub", "title_size",
+        for k in ("grade", "blur", "z0", "z1", "zoom_rate", "cx0", "cx1", "cy0", "cy1", "title", "title_sub", "title_size",
                   "title_color", "title_delay", "center_subs", "overlay"):
             if k in ex: sc[k] = ex[k]
     else:

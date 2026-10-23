@@ -86,7 +86,7 @@
 8. 섞기: `venv/bin/python scripts/mix_audio.py work/narration_v2.wav work/bgm.wav work/final_audio.wav`
 9. 타임라인: `venv/bin/python scripts/build_timeline.py full/spec.json full/align_refined.json work/final_audio.wav work/timeline.json` 다음 `venv/bin/python scripts/fit_clips.py work/timeline.json` (짧은 스톡의 시작점을 당김: 장면 080, 112, 113)
 10. 렌더링 전 글자 검사: `venv/bin/python scripts/ocr_scan.py work/timeline.json work/ocr` (tesseract, 약 2분)
-11. 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/burnout_v2.mp4` (8분 9초에 약 40분)
+11. 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/burnout_v2.mp4` (8분 9초에 약 50분, 2026-10-23)
 
 ---
 

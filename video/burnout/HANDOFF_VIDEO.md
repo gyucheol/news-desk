@@ -354,7 +354,7 @@ WITH_AI=1 ./setup.sh     # AI 이미지가 필요할 때(추가 약 6.5GB, 15장
    venv/bin/python scripts/render.py work/timeline.json work/out.mp4 --frames-only 1.0,5.0,9.0   # 정지 화면만 빠르게
    ```
    - fit_clips.py가 "WARNING freezes"를 내면 그 장면의 스톡을 더 긴 것으로 바꿉니다. 0.6배 근처로 느려진 장면도 어색하면 바꿉니다.
-9. 전체 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/out.mp4`를 백그라운드로 돌립니다. 번아웃 본편(8분 18초)은 약 36분 걸렸습니다(2026-10-22). 렌더링 전에 글자 검사를 돌립니다: `venv/bin/python scripts/ocr_scan.py work/timeline.json work/ocr`(약 2분, 9장 7번).
+9. 전체 렌더링: `venv/bin/python scripts/render.py work/timeline.json work/out.mp4`를 백그라운드로 돌립니다. 번아웃 본편(8분 18초)은 약 36분, 2차 수정본(8분 9초)은 약 50분 걸렸습니다(2026-10-22, 23). 렌더링 전에 글자 검사를 돌립니다: `venv/bin/python scripts/ocr_scan.py work/timeline.json work/ocr`(약 2분, 9장 7번).
 10. 점검(9장) → SendUserFile로 전달 → episodes/<편 이름>/에 spec.json, units.json, align_refined.json, bgm_segments.json, build_spec.py(장면 계획), fetch_stock.sh, credits.md, chapters.txt를 커밋합니다. 영상과 녹음은 운영자 목소리가 들어 있어 커밋하지 않습니다.
 
 ---

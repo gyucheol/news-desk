@@ -1,0 +1,74 @@
+[
+ {
+  "id": "A01",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "vintage 1970s psychotherapy office, empty leather therapy couch and armchair, notepad on a small side table, bookshelves, warm lamp light, vintage film photo",
+  "steps": 5,
+  "unit": "U048",
+  "use": "심리학에서 이 말을 처음 쓴 사람은: 1970년대 상담실"
+ },
+ {
+  "id": "A02",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "1970s New York City street, yellow taxi cabs and old cars, brick buildings with fire escapes, pedestrians seen from behind, overcast daylight, vintage film photo",
+  "steps": 5,
+  "unit": "U051",
+  "use": "1970년대 뉴욕에서 일하던 그는: 1970년대 뉴욕 거리 (글자 '1970년대 / 뉴욕'은 render.py가 얹음)"
+ },
+ {
+  "id": "A07",
+  "seeds": [
+   21
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "back view of a man lying motionless in bed facing away from the camera under a thick blanket, only the back of his head on the pillow, pale morning light through curtains, 1970s bedroom, vintage film photo",
+  "steps": 5,
+  "unit": "U067",
+  "use": "그는 그날 아침 침대에서 ... 앓아누웠습니다: 침대에 누운 사람, 뒷모습"
+ },
+ {
+  "id": "A11",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "exhausted office worker sitting on the floor against a wall with his head down on his knees, dim empty office at night, scattered papers on the floor",
+  "steps": 5,
+  "unit": "U092",
+  "use": "열정을 다 태우고 ... '번아웃'이라고 불렀습니다: 벽에 기대 고개를 묻은 사람 (큰 글자 '번아웃'은 render.py)"
+ },
+ {
+  "id": "A12",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "stacks of research papers and scientific journals on a wooden desk, printed charts and bar graphs, reading glasses, soft daylight",
+  "steps": 5,
+  "unit": "U199",
+  "use": "휴가에 관한 연구들은: 연구 논문과 그래프"
+ },
+ {
+  "id": "A16",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "prompt": "young korean man in office clothes being interviewed on a city street at dusk, a reporter holding a microphone toward him, side view",
+  "steps": 5,
+  "unit": "U244",
+  "use": "\"열심히 살고 있는데도 ...\" 인용 뒤 배경: 거리 인터뷰 (흐림 9, 어둡게)"
+ }
+]

@@ -398,6 +398,140 @@ def bulb_dim(t, dur):
     return img
 
 
+
+# --- v2 graphics (2026-10-23 user feedback: show the script literally) ------------------------------------------------
+FONT_B = f"{ROOT}/fonts/Pretendard-ExtraBold.otf"
+_fb = {}
+
+
+def font_b(px):
+    if px not in _fb:
+        _fb[px] = ImageFont.truetype(FONT_B, px * SS)
+    return _fb[px]
+
+
+def bust(d, x, y, r, col, w):
+    """Line-art head and shoulders inside a circle (a person whose photo we do not show)."""
+    d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=w)
+    hr = r * 0.30
+    d.ellipse([x - hr, y - r * 0.52 - hr, x + hr, y - r * 0.52 + hr], outline=col, width=w)
+    d.arc([x - r * 0.62, y - r * 0.02, x + r * 0.62, y + r * 1.22], start=200, end=340, fill=col, width=w)
+
+
+def freud_card(t, dur):
+    """Profile card for Herbert Freudenberger: no freely licensed photo of him exists (checked 2026-10-23)."""
+    img, d = canvas()
+    k = sm(t / 0.45)
+    x, y, r = CX - 420 * SS, CY, 170 * SS
+    bust(d, x, y, r, mix((0, 0, 0), WHITE, k), LW)
+    tx = CX - 180 * SS
+    k2 = sm((t - 0.25) / 0.45)
+    d.text((tx, y - 70 * SS), "허버트 프로이덴버거", font=font_b(86), fill=mix((0, 0, 0), WHITE, k2), anchor="ls")
+    d.text((tx, y + 6 * SS), "Herbert J. Freudenberger", font=font(44), fill=mix((0, 0, 0), (170, 170, 170), k2), anchor="ls")
+    d.text((tx, y + 80 * SS), "1926–1999 · 미국의 심리학자", font=font(44), fill=mix((0, 0, 0), (170, 170, 170), k2), anchor="ls")
+    return img
+
+
+def globe(d, x, y, r, col, w, k):
+    d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=w)
+    for e in (0.36, 0.72):                                     # meridians
+        d.ellipse([x - r * e, y - r, x + r * e, y + r], outline=col, width=max(2, w // 2))
+    d.line([(x, y - r), (x, y + r)], fill=col, width=max(2, w // 2))
+    for f in (-0.5, 0, 0.5):                                   # parallels
+        yy = y + r * f; hw = r * math.sqrt(1 - f * f)
+        d.line([(x - hw, yy), (x + hw, yy)], fill=col, width=max(2, w // 2))
+
+
+def who2019(t, dur):
+    """Year and organisation as text only: the WHO emblem needs WHO's written permission (checked 2026-10-23)."""
+    img, d = canvas()
+    k = sm(t / 0.5)
+    globe(d, CX - 380 * SS, CY, 150 * SS, mix((0, 0, 0), WHITE, k), LW, k)
+    k2 = sm((t - 0.2) / 0.5)
+    tx = CX - 150 * SS
+    d.text((tx, CY - 10 * SS), "2019년", font=font_b(150), fill=mix((0, 0, 0), YEL, k2), anchor="ls")
+    k3 = sm((t - 0.45) / 0.5)
+    d.text((tx + 6 * SS, CY + 92 * SS), "세계보건기구 (WHO)", font=font_b(64), fill=mix((0, 0, 0), WHITE, k3), anchor="ls")
+    return img
+
+
+def news(t, dur):
+    """A newspaper and the person in the article (작년 12월, 26살 직장인 박 모 씨)."""
+    img, d = canvas()
+    k = sm(t / 0.45)
+    col = mix((0, 0, 0), WHITE, k)
+    x, y, w, h = CX - 420 * SS, CY, 300 * SS, 380 * SS
+    x0, y0 = x - w / 2, y - h / 2
+    d.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=14 * SS, outline=col, width=LW)
+    d.text((x, y0 + 62 * SS), "뉴스", font=font_b(58), fill=col, anchor="mm")
+    d.line([(x0 + 26 * SS, y0 + 104 * SS), (x0 + w - 26 * SS, y0 + 104 * SS)], fill=col, width=6 * SS)
+    d.rectangle([x0 + 30 * SS, y0 + 130 * SS, x0 + w * 0.48, y0 + 250 * SS], outline=col, width=5 * SS)
+    for i in range(7):
+        yy = y0 + 140 * SS + i * 30 * SS
+        xa = x0 + w * 0.56 if i < 4 else x0 + 30 * SS
+        d.line([(xa, yy), (x0 + w - 30 * SS, yy)], fill=mix((0, 0, 0), GRAY, k), width=6 * SS)
+    tx = CX - 160 * SS
+    k2 = sm((t - 0.3) / 0.45)
+    d.text((tx, CY - 70 * SS), "작년 12월", font=font(52), fill=mix((0, 0, 0), (170, 170, 170), k2), anchor="ls")
+    k3 = sm((t - 0.9) / 0.45)
+    d.text((tx, CY + 30 * SS), "26살 직장인", font=font_b(96), fill=mix((0, 0, 0), WHITE, k3), anchor="ls")
+    d.text((tx, CY + 120 * SS), "박 모 씨", font=font_b(72), fill=mix((0, 0, 0), YEL, k3), anchor="ls")
+    return img
+
+
+def messenger(t, dur):
+    """메신저에 팀장님 이름만 떠도: notifications from 팀장님 drop onto a phone screen."""
+    img, d = canvas()
+    pw, ph = 470 * SS, 640 * SS
+    x, y = CX, CY - 10 * SS
+    phone_shape(d, x, y, pw, ph)
+    for i, (t0, line) in enumerate([(0.25, "확인 부탁드립니다"), (1.3, "잠깐 통화 가능할까요?")]):
+        k = sm((t - t0) / 0.35)
+        if k <= 0:
+            continue
+        by = y - ph / 2 + 110 * SS + i * 150 * SS - (1 - k) * 60 * SS
+        bx0, bx1 = x - pw / 2 + 22 * SS, x + pw / 2 - 22 * SS
+        d.rounded_rectangle([bx0, by, bx1, by + 126 * SS], radius=22 * SS, fill=mix((0, 0, 0), (58, 58, 58), k))
+        d.ellipse([bx0 + 18 * SS, by + 30 * SS, bx0 + 84 * SS, by + 96 * SS], fill=mix((0, 0, 0), YEL, k))
+        d.text((bx0 + 104 * SS, by + 52 * SS), "팀장님", font=font_b(40), fill=mix((0, 0, 0), WHITE, k), anchor="ls")
+        d.text((bx0 + 104 * SS, by + 100 * SS), line, font=font(30), fill=mix((0, 0, 0), (190, 190, 190), k), anchor="ls")
+    return img
+
+
+def blank_doc(t, dur):
+    """빈 파일을 열어 놓고 1시간째 첫 문장만: the first line is typed and erased again; a timer runs."""
+    img, d = canvas()
+    w, h = 560 * SS, 640 * SS
+    x0, y0 = CX - w / 2, CY - h / 2 + 10 * SS
+    d.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=18 * SS, outline=WHITE, width=LW)
+    cyc = (t % 1.6) / 1.6
+    frac = sm(cyc / 0.55) if cyc < 0.55 else (1 - sm((cyc - 0.65) / 0.3) if cyc > 0.65 else 1.0)
+    lx0, ly = x0 + 60 * SS, y0 + 110 * SS
+    lw = (w - 120 * SS) * 0.85 * frac
+    if lw > 4 * SS:
+        d.rounded_rectangle([lx0, ly - 14 * SS, lx0 + lw, ly + 14 * SS], radius=8 * SS, fill=(150, 150, 150))
+    if int(t * 2.5) % 2 == 0:
+        d.rectangle([lx0 + lw + 8 * SS, ly - 28 * SS, lx0 + lw + 16 * SS, ly + 28 * SS], fill=WHITE)
+    for i in range(6):                                          # the rest of the page stays empty
+        yy = ly + 90 * SS + i * 70 * SS
+        d.line([(lx0, yy), (x0 + w - 60 * SS, yy)], fill=(40, 40, 40), width=4 * SS)
+    secs = 3600 + int(t * 7)
+    d.text((x0 + w + 40 * SS, y0 + 40 * SS), f"{secs // 3600}:{secs % 3600 // 60:02d}:{secs % 60:02d}",
+           font=font_b(64), fill=YEL, anchor="ls")
+    return img
+
+
+def paper1974(t, dur):
+    """그는 1974년 논문에서: a paper with the year."""
+    img, d = canvas()
+    k = sm(t / 0.4)
+    page(d, CX - 400 * SS, CY, 330 * SS, mix((0, 0, 0), WHITE, k))
+    k2 = sm((t - 0.2) / 0.4)
+    tx = CX - 170 * SS
+    d.text((tx, CY - 10 * SS), "1974년", font=font_b(150), fill=mix((0, 0, 0), YEL, k2), anchor="ls")
+    d.text((tx + 6 * SS, CY + 92 * SS), "논문", font=font_b(64), fill=mix((0, 0, 0), WHITE, k2), anchor="ls")
+    return img
+
 KINDS = {
     "clock2": lambda t, d: clock(t, d, 2), "clock6": lambda t, d: clock(t, d, 6),
     "gauge": gauge, "fuel": fuel, "battery2": battery2, "apps": apps, "phone_off": phone_off,
@@ -407,6 +541,8 @@ KINDS = {
     "six_pick": lambda t, d: six(t, d, "pick"), "six_seq": lambda t, d: six(t, d, "seq"),
     "week": lambda t, d: week(t, d, "dots"), "week3": lambda t, d: week(t, d, "focus"),
     "memo10": memo10, "bulb_dim": bulb_dim,
+    "freud_card": freud_card, "who2019": who2019, "news": news, "messenger": messenger, "blank_doc": blank_doc,
+    "paper1974": paper1974,
 }
 
 

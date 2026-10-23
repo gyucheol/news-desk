@@ -1,4 +1,4 @@
-# Stock text check: OCR every stock scene of a timeline (2 frames/s, with render.py's crop/scale/blur; no colour grade or subtitles)
+# Stock text check: OCR every stock scene (and AI photo) of a timeline (2 frames/s, with render.py's crop/scale/blur; no colour grade or subtitles)
 # to catch readable text or logos before the full render. Needs tesseract (setup.sh). Prints words found per scene and writes
 # outdir/hits.json. It misses blurred text a person can still read and low-contrast text (glass, screens), so look too.
 # usage: ocr_scan.py timeline.json outdir
@@ -7,7 +7,11 @@ from concurrent.futures import ThreadPoolExecutor
 tl, out = json.load(open(sys.argv[1])), sys.argv[2]
 os.makedirs(out, exist_ok=True)
 jobs = []
+photos = []
 for sc in tl["scenes"]:
+    if sc["type"] == "photo":                 # AI images can carry fake lettering or logo-like marks
+        photos.append((sc["id"], sc["image"]))
+        continue
     if sc["type"] != "video":
         continue
     sp = sc.get("speed", 1.0); dur = (sc["end"] - sc["start"]) * sp
@@ -22,6 +26,9 @@ def extract(j):
                     f"{out}/{sid}_%03d.jpg"], check=True)
 with ThreadPoolExecutor(4) as ex:
     list(ex.map(extract, jobs))
+for sid, img in photos:
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", img, "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,"
+                    "crop=1920:1080", "-q:v", "3", f"{out}/{sid}_001.jpg"], check=True)
 frames = sorted(f for f in os.listdir(out) if f.endswith(".jpg"))
 def ocr(f):
     # one OpenMP thread per tesseract: 4 processes x default threads made each frame take 20-85 s instead of 0.3 s

@@ -21,6 +21,11 @@ ITALIC_SLANT = math.tan(math.radians(12))
 MAX_ZOOM = 1.05
 
 font = ImageFont.truetype(FONT_PATH, FONT_SIZE)
+# centre text (black cards, text over a dimmed photo): 70px since 2026-10-23 (owner: "1point씩 키워줘"; 64->65px would
+# not be visible, so one step is taken as in a document going 10pt->11pt, about +9%). Bottom subtitles stay 64px.
+CENTER_SIZE = 70
+center_font = ImageFont.truetype(FONT_PATH, CENTER_SIZE)
+TITLE_FONT_PATH = f"{ROOT}/fonts/Pretendard-ExtraBold.otf"
 # Hangul glyph box relative to baseline (measured): top -51, bottom +5 -> visual center at -23
 GLYPH_TOP, GLYPH_BOTTOM = -51, 5
 GLYPH_MID = (GLYPH_TOP + GLYPH_BOTTOM) / 2
@@ -41,16 +46,17 @@ def parse_markup(text):
     return segs
 
 
-def text_width(segs):
-    return font.getlength("".join(s for s, _ in segs))
+def text_width(segs, f=None):
+    return (f or font).getlength("".join(s for s, _ in segs))
 
 
-def draw_line(layer, segs, x_left, baseline):
+def draw_line(layer, segs, x_left, baseline, f=None):
+    f = f or font
     d = ImageDraw.Draw(layer)
     x = x_left
     for s, emph in segs:
-        d.text((x, baseline), s, font=font, fill=YELLOW if emph else WHITE, anchor="ls")
-        x += font.getlength(s)
+        d.text((x, baseline), s, font=f, fill=YELLOW if emph else WHITE, anchor="ls")
+        x += f.getlength(s)
 
 
 def slant(layer, baseline):
@@ -68,14 +74,20 @@ def render_text_layer(sub):
     n = len(lines)
     if sub.get("pos", "bottom") == "center":
         # black card: centered, no box (guide 6-2)
+        k = CENTER_SIZE / FONT_SIZE
+        widths = [text_width(l, center_font) for l in lines]
         mid = H / 2
-        first_base = mid - GLYPH_MID - (n - 1) * LINE_GAP / 2
+        first_base = mid - GLYPH_MID * k - (n - 1) * LINE_GAP * k / 2
         txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         for i, (segs, w) in enumerate(zip(lines, widths)):
-            base = first_base + i * LINE_GAP
-            draw_line(txt, segs, (W - w) / 2, base)
+            base = first_base + i * LINE_GAP * k
+            draw_line(txt, segs, (W - w) / 2, base, center_font)
         if sub.get("italic"):
             txt = slant(txt, H / 2)
+        if sub.get("shadow"):                  # text over a dimmed photo: soft dark halo for legibility
+            sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            sh.putalpha(txt.getchannel("A").filter(ImageFilter.GaussianBlur(9)).point(lambda v: min(255, v * 2)))
+            layer.alpha_composite(sh)
         layer.alpha_composite(txt)
         return layer
     # bottom subtitle box (guide 6-1): bottom edge fixed at 92.8%, grows upward
@@ -165,8 +177,8 @@ class VideoSource:
 DEFAULT_GRADE = {"sat": 0.88, "black": 0.02, "gamma": 1.12, "vignette": 0.35}
 
 
-def prep_image(path, crop=None, g=DEFAULT_GRADE):
-    """Crop to 16:9, grade, and upscale so that MAX_ZOOM maps 1:1 to output pixels."""
+def prep_image(path, crop=None, g=DEFAULT_GRADE, blur=0):
+    """Crop to 16:9, grade, and upscale so that MAX_ZOOM maps 1:1 to output pixels (optional blur after)."""
     im = Image.open(path).convert("RGB")
     w, h = im.size
     if crop:  # [x0, y0, x1, y1] in source pixels
@@ -176,7 +188,30 @@ def prep_image(path, crop=None, g=DEFAULT_GRADE):
         th = h; tw = round(h * 16 / 9)
     x0 = (w - tw) // 2; y0 = (h - th) // 2
     im = grade(im.crop((x0, y0, x0 + tw, y0 + th)), g)   # grade after crop: vignette stays centered
-    return im.resize((round(W * MAX_ZOOM), round(H * MAX_ZOOM)), Image.LANCZOS)
+    im = im.resize((round(W * MAX_ZOOM), round(H * MAX_ZOOM)), Image.LANCZOS)
+    return im.filter(ImageFilter.GaussianBlur(blur)) if blur else im
+
+
+def photo_key(sc):
+    return json.dumps([sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0)], sort_keys=True)
+
+
+def title_layer(sc):
+    """Big centred words over a scene (e.g. 번아웃, 1970년대) with a soft shadow; an optional smaller line below."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    size = sc.get("title_size", 170)
+    f = ImageFont.truetype(TITLE_FONT_PATH, size)
+    y = H * sc.get("title_y", 0.42)
+    col = YELLOW if sc.get("title_color") == "yellow" else WHITE
+    d.text((W / 2, y), sc["title"], font=f, fill=col, anchor="mm")
+    if sc.get("title_sub"):
+        d.text((W / 2, y + size * 0.78), sc["title_sub"], font=ImageFont.truetype(TITLE_FONT_PATH, round(size * 0.36)),
+               fill=WHITE, anchor="mm")
+    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sh.putalpha(layer.getchannel("A").filter(ImageFilter.GaussianBlur(14)).point(lambda v: min(255, round(v * 1.6))))
+    sh.alpha_composite(layer)
+    return sh
 
 
 GRAY, RED = (110, 110, 110), (229, 72, 77)
@@ -281,13 +316,13 @@ def main():
     nfr = round(dur * FPS)
     srcs, vids = {}, {}
     for i, sc in enumerate(tl["scenes"]):
-        if sc["type"] == "photo" and sc["image"] not in srcs:
-            srcs[sc["image"]] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE))
+        if sc["type"] == "photo" and photo_key(sc) not in srcs:
+            srcs[photo_key(sc)] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0))
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
     layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
     black = Image.new("RGB", (W, H), (0, 0, 0))
-    labels, label_font = {}, ImageFont.truetype(FONT_PATH, 44)
+    labels, label_font, titles = {}, ImageFont.truetype(FONT_PATH, 44), {}
 
     def frame_at(t):
         si = next((i for i, s in enumerate(tl["scenes"]) if s["start"] <= t < s["end"]), len(tl["scenes"]) - 1)
@@ -312,7 +347,7 @@ def main():
             z = sc.get("z0", 1.0) * (sc.get("z1", 1.04) / sc.get("z0", 1.0)) ** u
             cx = lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u)
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
-            img = kenburns(srcs[sc["image"]], z, cx, cy).convert("RGBA")
+            img = kenburns(srcs[photo_key(sc)], z, cx, cy).convert("RGBA")
         elif sc.get("label"):                  # item card: small "1 / 3" above the centred line (scene table 항목카드)
             if sc["label"] not in labels:
                 lab = black.copy()
@@ -321,6 +356,15 @@ def main():
             img = labels[sc["label"]].copy()
         else:
             img = black.convert("RGBA")
+        if sc.get("title"):                     # big words over the scene, fading in at its start
+            if si not in titles:
+                titles[si] = title_layer(sc)
+            a = smooth(min(max((t - sc["start"] - sc.get("title_delay", 0.0)) / 0.35, 0), 1))
+            if a > 0:
+                lay = titles[si] if a >= 1 else titles[si].copy()
+                if a < 1:
+                    lay.putalpha(lay.getchannel("A").point(lambda v: round(v * a)))
+                img.alpha_composite(lay)
         for s0, s1, lay in layers:
             if s0 <= t < s1:
                 a = 1.0

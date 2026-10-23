@@ -5,8 +5,10 @@
 import json, os, subprocess, sys
 
 spec_path, al_path, audio, outp = sys.argv[1:5]
-LEAD = 0.10
 spec = json.load(open(spec_path))
+# subtitles (and the scene cuts tied to them) lead the voice by this much; v2 (2026-10-23) uses 0 so nothing changes
+# before the next voice starts (owner feedback), with starts on real voice onsets from onsets.py
+LEAD = spec.get("sub_lead", 0.10)
 al = {u["id"]: u for u in json.load(open(al_path))}
 base = os.path.dirname(os.path.abspath(spec_path))
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", audio],

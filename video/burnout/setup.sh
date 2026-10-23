@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # One-time setup in a fresh cloud session (run from video/burnout/).
-#   default : Python env (pillow, numpy, faster-whisper, rembg), Pretendard + Noto Sans KR fonts (OFL),
-#             faster-whisper large-v3 (MIT, ~2.9 GB) for syncing the owner's recording
+#   default : Python env (pillow, numpy, faster-whisper, rembg, torch, transformers), Pretendard + Noto Sans KR fonts
+#             (OFL), faster-whisper large-v3 (MIT, ~2.9 GB) and kresnik/wav2vec2-large-xlsr-korean (Apache-2.0, 1.27 GB,
+#             syllable-level subtitle timing in ctc_align.py) for syncing the owner's recording
 #   WITH_AI=1 ./setup.sh : also torch/diffusers + RealVisXL V5.0 Lightning (openrail++, ~6.5 GB)
 #             only needed for AI object images (slow without AMX: check `grep -o amx_bf16 /proc/cpuinfo`)
 # ffmpeg must exist (it does in Claude Code cloud sessions).
@@ -26,6 +27,14 @@ done
 ./venv/bin/python - <<'PY'
 from huggingface_hub import snapshot_download
 snapshot_download('Systran/faster-whisper-large-v3', local_dir='models/fw-large-v3')
+PY
+./venv/bin/pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+./venv/bin/pip install -q transformers safetensors
+./venv/bin/python - <<'PY'
+from huggingface_hub import snapshot_download
+snapshot_download('kresnik/wav2vec2-large-xlsr-korean', local_dir='models/w2v_ko', allow_patterns=[
+    'config.json', 'vocab.json', 'preprocessor_config.json', 'tokenizer_config.json', 'special_tokens_map.config',
+    'model.safetensors'])
 PY
 if [ "${WITH_AI:-0}" = "1" ]; then
   ./venv/bin/pip install -q torch --index-url https://download.pytorch.org/whl/cpu

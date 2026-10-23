@@ -3,7 +3,7 @@
 # Segments overlap by XF seconds and cross-fade (equal power). Each segment is evened out first (ffmpeg dynaudnorm,
 # so a track that builds up does not climb over the narration) and set to the same loudness, then the whole bed
 # gets fades at both ends and is normalised to the target LUFS (-32 under narration, mix_audio.py makes -14 overall).
-# usage: bgm_sequence.py segments.json total_seconds out.wav [--lufs -32]
+# usage: bgm_sequence.py segments.json total_seconds out.wav [--lufs -32] [--fade-out 4]
 # segments.json: [{"track": "work/stock/music/614.mp3", "start": 0, "end": 68.2, "offset": 0}, ...]
 import json, re, subprocess, sys
 import numpy as np
@@ -12,6 +12,7 @@ SR, XF = 48000, 3.0
 a = sys.argv[1:]
 segs, total, out = json.load(open(a[0])), float(a[1]), a[2]
 lufs = a[a.index("--lufs") + 1] if "--lufs" in a else "-32"
+fade_out = float(a[a.index("--fade-out") + 1]) if "--fade-out" in a else 4.0   # v2 ends 3 s after the last word
 
 
 def render(seg, first):
@@ -46,7 +47,7 @@ for i, seg in enumerate(segs):
     if a1 > a0:
         bed[a0:a1] += x[a0 - s0:a1 - s0]
 bed = bed[:int(total * SR)]
-k1, k2 = int(1.0 * SR), int(4.0 * SR)
+k1, k2 = int(1.0 * SR), int(fade_out * SR)
 bed[:k1] *= np.linspace(0, 1, k1)[:, None]
 bed[-k2:] *= np.linspace(1, 0, k2)[:, None]
 tmp = out + ".tmp.wav"

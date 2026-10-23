@@ -2,6 +2,7 @@
  "fade_in": 0.3,
  "fade_out": 1.5,
  "last_sub_hold": 1.0,
+ "sub_lead": 0.0,
  "scenes": [
   {
    "id": "001",
@@ -163,20 +164,18 @@
    "id": "017",
    "from": "U029",
    "type": "video",
-   "src": "../work/stock/full/26091.mp4",
-   "in": 1.0,
-   "note": "Mixkit 26091 Man eats watching television on a rainy night"
-  },
-  {
-   "id": "018",
-   "from": "U031",
-   "type": "video",
    "src": "../work/stock/full/31413.mp4",
-   "in": 2.0,
+   "in": 0.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
    "note": "Mixkit 31413 Young man lying on his bed checking his smartphone"
   },
   {
-   "id": "019",
+   "id": "018",
    "from": "U033",
    "type": "video",
    "src": "../work/stock/full/42653.mp4",
@@ -190,7 +189,7 @@
    "note": "Mixkit 42653 Woman finishes working on her computer"
   },
   {
-   "id": "020",
+   "id": "019",
    "from": "U034",
    "type": "video",
    "src": "../work/stock/full/100050.mp4",
@@ -204,7 +203,7 @@
    "note": "Mixkit 100050 Woman smiling at her phone on a cozy couch"
   },
   {
-   "id": "021",
+   "id": "020",
    "from": "U036",
    "type": "video",
    "src": "../work/stock/full/50931.mp4",
@@ -218,7 +217,7 @@
    "note": "Mixkit 50931 A young man slowly wakes up on a clean white bed"
   },
   {
-   "id": "022",
+   "id": "021",
    "from": "U037",
    "type": "video",
    "src": "../work/stock/full/4548.mp4",
@@ -232,7 +231,7 @@
    "note": "Mixkit 4548 Woman lying on a sofa"
   },
   {
-   "id": "023",
+   "id": "022",
    "from": "U038",
    "type": "video",
    "src": "../work/stock/full/42896.mp4",
@@ -246,12 +245,12 @@
    "note": "Mixkit 42896 Young woman laying on a white soft bed slowly wakes up in the morning"
   },
   {
-   "id": "024",
+   "id": "023",
    "from": "U039",
    "type": "card"
   },
   {
-   "id": "025",
+   "id": "024",
    "from": "U040",
    "type": "video",
    "src": "../work/stock/full/4513.mp4",
@@ -265,24 +264,66 @@
    "note": "Mixkit 4513 Worried and sad woman hugging a cushion"
   },
   {
-   "id": "026",
+   "id": "025",
    "from": "U042",
    "type": "card"
   },
   {
-   "id": "027",
+   "id": "026",
    "from": "U043",
    "type": "icon",
    "icon": "clock6"
   },
   {
-   "id": "028",
+   "id": "027",
    "from": "U046",
    "type": "card"
   },
   {
-   "id": "029",
+   "id": "028",
    "from": "U048",
+   "type": "photo",
+   "image": "images/A01_s1.png",
+   "note": "AI image A01",
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.48,
+   "cx1": 0.52
+  },
+  {
+   "id": "029",
+   "from": "U049",
+   "type": "icon",
+   "icon": "freud_card"
+  },
+  {
+   "id": "030",
+   "from": "U051",
+   "type": "photo",
+   "image": "images/A02_s1.png",
+   "note": "AI image A02",
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.52,
+   "cx1": 0.48,
+   "title": "1970년대",
+   "title_sub": "뉴욕"
+  },
+  {
+   "id": "031",
+   "from": "U052",
    "type": "video",
    "src": "../work/stock/full/10395.mp4",
    "in": 1.0,
@@ -299,34 +340,6 @@
     0.94
    ],
    "note": "Mixkit 10395 Close-up view of a typewriter while a man works on it"
-  },
-  {
-   "id": "030",
-   "from": "U049",
-   "type": "video",
-   "src": "../work/stock/full/42343.mp4",
-   "in": 1.0,
-   "grade": {
-    "sat": 0.35,
-    "black": 0.06,
-    "gamma": 1.3,
-    "vignette": 0.6
-   },
-   "note": "Mixkit 42343 Movement in a city at night in an aerial shot"
-  },
-  {
-   "id": "031",
-   "from": "U051",
-   "type": "video",
-   "src": "../work/stock/full/3429.mp4",
-   "in": 1.0,
-   "grade": {
-    "sat": 0.35,
-    "black": 0.06,
-    "gamma": 1.3,
-    "vignette": 0.6
-   },
-   "note": "Mixkit 3429 City street with trolleybus at night"
   },
   {
    "id": "032",
@@ -415,16 +428,19 @@
   {
    "id": "039",
    "from": "U067",
-   "type": "video",
-   "src": "../work/stock/full/31414.mp4",
-   "in": 2.0,
+   "type": "photo",
+   "image": "images/A07_s21.png",
+   "note": "AI image A07",
    "grade": {
     "sat": 0.35,
     "black": 0.06,
     "gamma": 1.3,
     "vignette": 0.6
    },
-   "note": "Mixkit 31414 Man lying down moving a lot because of not being able to sleep"
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.48,
+   "cx1": 0.52
   },
   {
    "id": "040",
@@ -544,10 +560,22 @@
   {
    "id": "049",
    "from": "U092",
-   "type": "video",
-   "src": "../work/stock/full/50956.mp4",
-   "in": 1.0,
-   "note": "Mixkit 50956 Soft and traslucent smoke flows up on a dark background"
+   "type": "photo",
+   "image": "images/A11_s1.png",
+   "note": "AI image A11",
+   "grade": {
+    "sat": 0.35,
+    "black": 0.06,
+    "gamma": 1.3,
+    "vignette": 0.6
+   },
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.48,
+   "cx1": 0.52,
+   "title": "번아웃",
+   "title_size": 230,
+   "title_delay": 1.2
   },
   {
    "id": "050",
@@ -580,48 +608,38 @@
     "gamma": 1.3,
     "vignette": 0.5
    },
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.74
+   ],
    "note": "Mixkit 50133 A young man wearing a hoodie studying at night in the library with a calculator"
   },
   {
    "id": "053",
-   "from": "U102",
-   "type": "video",
-   "src": "../work/stock/full/1964.mp4",
-   "in": 1.0,
-   "note": "Mixkit 1964 Smoke in motion"
+   "from": "U103",
+   "type": "icon",
+   "icon": "who2019"
   },
   {
    "id": "054",
-   "from": "U103",
-   "type": "video",
-   "src": "../work/stock/full/4835.mp4",
-   "in": 1.0,
-   "grade": {
-    "sat": 0.8,
-    "black": 0.06,
-    "gamma": 1.45,
-    "vignette": 0.55
-   },
-   "note": "Mixkit 4835 Office workers hands typing on their devices"
-  },
-  {
-   "id": "055",
    "from": "U105",
    "type": "card"
   },
   {
-   "id": "056",
+   "id": "055",
    "from": "U108",
    "type": "icon",
    "icon": "gauge"
   },
   {
-   "id": "057",
+   "id": "056",
    "from": "U111",
    "type": "card"
   },
   {
-   "id": "058",
+   "id": "057",
    "from": "U115",
    "type": "video",
    "src": "../work/stock/full/914.mp4",
@@ -636,7 +654,7 @@
    "note": "Mixkit 914 Open office space"
   },
   {
-   "id": "059",
+   "id": "058",
    "from": "U118",
    "type": "video",
    "src": "../work/stock/full/4915.mp4",
@@ -650,36 +668,36 @@
    "note": "Mixkit 4915 Hands of a person typing on a cell phone"
   },
   {
-   "id": "060",
+   "id": "059",
    "from": "U120",
    "type": "icon",
    "icon": "battery"
   },
   {
-   "id": "061",
+   "id": "060",
    "from": "U123",
    "type": "icon",
    "icon": "phone_off"
   },
   {
-   "id": "062",
+   "id": "061",
    "from": "U126",
    "type": "icon",
    "icon": "apps"
   },
   {
-   "id": "063",
+   "id": "062",
    "from": "U128",
    "type": "card"
   },
   {
-   "id": "064",
+   "id": "063",
    "from": "U130",
    "type": "card",
    "label": "1 / 3"
   },
   {
-   "id": "065",
+   "id": "064",
    "from": "U132",
    "type": "video",
    "src": "../work/stock/full/50753.mp4",
@@ -699,7 +717,7 @@
    "note": "Mixkit 50753 A young man turns off the alarm clock by the bedside"
   },
   {
-   "id": "066",
+   "id": "065",
    "from": "U135",
    "type": "video",
    "src": "../work/stock/full/50754.mp4",
@@ -713,7 +731,7 @@
    "note": "Mixkit 50754 A young man slowly wakes up in bed"
   },
   {
-   "id": "067",
+   "id": "066",
    "from": "U138",
    "type": "video",
    "src": "../work/stock/full/31413.mp4",
@@ -727,18 +745,18 @@
    "note": "Mixkit 31413 Young man lying on his bed checking his smartphone"
   },
   {
-   "id": "068",
+   "id": "067",
    "from": "U141",
    "type": "icon",
    "icon": "battery2"
   },
   {
-   "id": "069",
+   "id": "068",
    "from": "U146",
    "type": "card"
   },
   {
-   "id": "070",
+   "id": "069",
    "from": "U147",
    "type": "video",
    "src": "../work/stock/full/26090.mp4",
@@ -752,19 +770,19 @@
    "note": "Mixkit 26090 Table in a living room with fast food while a man watches television"
   },
   {
-   "id": "071",
+   "id": "070",
    "from": "U148",
    "type": "icon",
    "icon": "fuel"
   },
   {
-   "id": "072",
+   "id": "071",
    "from": "U153",
    "type": "card",
    "label": "2 / 3"
   },
   {
-   "id": "073",
+   "id": "072",
    "from": "U156",
    "type": "video",
    "src": "../work/stock/full/42666.mp4",
@@ -779,7 +797,7 @@
    "note": "Mixkit 42666 Presentation during a work team meeting"
   },
   {
-   "id": "074",
+   "id": "073",
    "from": "U158",
    "type": "video",
    "src": "../work/stock/full/4607.mp4",
@@ -793,7 +811,7 @@
    "note": "Mixkit 4607 Bored young office workers in an office"
   },
   {
-   "id": "075",
+   "id": "074",
    "from": "U160",
    "type": "video",
    "src": "../work/stock/full/4908.mp4",
@@ -807,7 +825,7 @@
    "note": "Mixkit 4908 Person working while scrolling on social networks"
   },
   {
-   "id": "076",
+   "id": "075",
    "from": "U162",
    "type": "video",
    "src": "../work/stock/full/4720.mp4",
@@ -821,26 +839,12 @@
    "note": "Mixkit 4720 Lonely boy on a park bench"
   },
   {
-   "id": "077",
-   "from": "U163",
-   "type": "video",
-   "src": "../work/stock/full/4872.mp4",
-   "in": 9.0,
-   "grade": {
-    "sat": 0.8,
-    "black": 0.06,
-    "gamma": 1.45,
-    "vignette": 0.55
-   },
-   "note": "Mixkit 4872 Two coworkers talking and laughing"
-  },
-  {
-   "id": "078",
+   "id": "076",
    "from": "U165",
    "type": "card"
   },
   {
-   "id": "079",
+   "id": "077",
    "from": "U168",
    "type": "video",
    "src": "../work/stock/full/99909.mp4",
@@ -848,7 +852,7 @@
    "note": "Mixkit 99909 Close up of a hand writing to do list on a yellow paper notebook"
   },
   {
-   "id": "080",
+   "id": "078",
    "from": "U171",
    "type": "video",
    "src": "../work/stock/full/31412.mp4",
@@ -862,7 +866,7 @@
    "note": "Mixkit 31412 Boy puts his cell phone aside so he can go to sleep"
   },
   {
-   "id": "081",
+   "id": "079",
    "from": "U173",
    "type": "video",
    "src": "../work/stock/full/4893.mp4",
@@ -876,7 +880,7 @@
    "note": "Mixkit 4893 Footsteps of a young man walking down the street"
   },
   {
-   "id": "082",
+   "id": "080",
    "from": "U175",
    "type": "video",
    "src": "../work/stock/full/4511.mp4",
@@ -890,13 +894,13 @@
    "note": "Mixkit 4511 Sad girl looking out the window"
   },
   {
-   "id": "083",
+   "id": "081",
    "from": "U177",
    "type": "card",
    "label": "3 / 3"
   },
   {
-   "id": "084",
+   "id": "082",
    "from": "U180",
    "type": "video",
    "src": "../work/stock/full/313.mp4",
@@ -910,7 +914,7 @@
    "note": "Mixkit 313 Colleagues reading a report together"
   },
   {
-   "id": "085",
+   "id": "083",
    "from": "U182",
    "type": "video",
    "src": "../work/stock/full/39841.mp4",
@@ -924,12 +928,12 @@
    "note": "Mixkit 39841 Young man working in an office overtime"
   },
   {
-   "id": "086",
+   "id": "084",
    "from": "U184",
    "type": "card"
   },
   {
-   "id": "087",
+   "id": "085",
    "from": "U185",
    "type": "video",
    "src": "../work/stock/full/4500.mp4",
@@ -943,12 +947,12 @@
    "note": "Mixkit 4500 Upset woman sitting on the floor"
   },
   {
-   "id": "088",
+   "id": "086",
    "from": "U187",
    "type": "card"
   },
   {
-   "id": "089",
+   "id": "087",
    "from": "U190",
    "type": "video",
    "src": "../work/stock/full/99890.mp4",
@@ -962,7 +966,7 @@
    "note": "Mixkit 99890 Close up a hand writing notes on a notebook with a pen"
   },
   {
-   "id": "090",
+   "id": "088",
    "from": "U192",
    "type": "video",
    "src": "../work/stock/full/42655.mp4",
@@ -976,18 +980,18 @@
    "note": "Mixkit 42655 A woman writing in her spiral notebook"
   },
   {
-   "id": "091",
+   "id": "089",
    "from": "U194",
    "type": "icon",
    "icon": "bulb_dim"
   },
   {
-   "id": "092",
+   "id": "090",
    "from": "U197",
    "type": "card"
   },
   {
-   "id": "093",
+   "id": "091",
    "from": "U198",
    "type": "video",
    "src": "../work/stock/full/1958.mp4",
@@ -1001,13 +1005,30 @@
    "note": "Mixkit 1958 Virgin lonely beach with a palapa"
   },
   {
-   "id": "094",
+   "id": "092",
+   "from": "U199",
+   "type": "photo",
+   "image": "images/A12_s1.png",
+   "note": "AI image A12",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "z0": 1.0,
+   "z1": 1.05,
+   "cx0": 0.48,
+   "cx1": 0.52
+  },
+  {
+   "id": "093",
    "from": "U201",
    "type": "icon",
    "icon": "docs7"
   },
   {
-   "id": "095",
+   "id": "094",
    "from": "U204",
    "type": "video",
    "src": "../work/stock/full/1013.mp4",
@@ -1021,36 +1042,36 @@
    "note": "Mixkit 1013 Feet walking on the beach"
   },
   {
-   "id": "096",
+   "id": "095",
    "from": "U205",
    "type": "icon",
    "icon": "graph"
   },
   {
-   "id": "097",
+   "id": "096",
    "from": "U207",
    "type": "icon",
    "icon": "docs_many"
   },
   {
-   "id": "098",
+   "id": "097",
    "from": "U210",
    "type": "icon",
    "icon": "calendar"
   },
   {
-   "id": "099",
+   "id": "098",
    "from": "U212",
    "type": "icon",
    "icon": "bars"
   },
   {
-   "id": "100",
+   "id": "099",
    "from": "U214",
    "type": "card"
   },
   {
-   "id": "101",
+   "id": "100",
    "from": "U215",
    "type": "video",
    "src": "../work/stock/full/914.mp4",
@@ -1065,19 +1086,19 @@
    "note": "Mixkit 914 Open office space"
   },
   {
-   "id": "102",
+   "id": "101",
    "from": "U218",
    "type": "icon",
    "icon": "six"
   },
   {
-   "id": "103",
+   "id": "102",
    "from": "U222",
    "type": "icon",
    "icon": "six_off"
   },
   {
-   "id": "104",
+   "id": "103",
    "from": "U224",
    "type": "video",
    "src": "../work/stock/full/100252.mp4",
@@ -1091,13 +1112,13 @@
    "note": "Mixkit 100252 Pouring Tea into a Cup on a Rustic Table Setting"
   },
   {
-   "id": "105",
+   "id": "104",
    "from": "U225",
    "type": "icon",
    "icon": "battery"
   },
   {
-   "id": "106",
+   "id": "105",
    "from": "U227",
    "type": "video",
    "src": "../work/stock/full/1623.mp4",
@@ -1111,31 +1132,23 @@
    "note": "Mixkit 1623 People getting into the subway train"
   },
   {
-   "id": "107",
+   "id": "106",
    "from": "U229",
    "type": "card"
   },
   {
-   "id": "108",
+   "id": "107",
    "from": "U231",
    "type": "card"
   },
   {
-   "id": "109",
+   "id": "108",
    "from": "U233",
-   "type": "video",
-   "src": "../work/stock/full/144.mp4",
-   "in": 8.0,
-   "grade": {
-    "sat": 0.85,
-    "black": 0.05,
-    "gamma": 1.3,
-    "vignette": 0.5
-   },
-   "note": "Mixkit 144 Hands shown texting on a smartphone"
+   "type": "icon",
+   "icon": "news"
   },
   {
-   "id": "110",
+   "id": "109",
    "from": "U236",
    "type": "video",
    "src": "../work/stock/full/31415.mp4",
@@ -1149,7 +1162,7 @@
    "note": "Mixkit 31415 Frustrated boy in his bed for not being able to sleep"
   },
   {
-   "id": "111",
+   "id": "110",
    "from": "U238",
    "type": "video",
    "src": "../work/stock/full/26089.mp4",
@@ -1163,7 +1176,7 @@
    "note": "Mixkit 26089 Man watching TV and eating fast food"
   },
   {
-   "id": "112",
+   "id": "111",
    "from": "U239",
    "type": "video",
    "src": "../work/stock/full/26090.mp4",
@@ -1177,7 +1190,7 @@
    "note": "Mixkit 26090 Table in a living room with fast food while a man watches television"
   },
   {
-   "id": "113",
+   "id": "112",
    "from": "U240",
    "type": "video",
    "src": "../work/stock/full/31411.mp4",
@@ -1185,7 +1198,7 @@
    "note": "Mixkit 31411 Sleeping boy moves in bed"
   },
   {
-   "id": "114",
+   "id": "113",
    "from": "U242",
    "type": "video",
    "src": "../work/stock/full/4720.mp4",
@@ -1199,17 +1212,29 @@
    "note": "Mixkit 4720 Lonely boy on a park bench"
   },
   {
-   "id": "115",
+   "id": "114",
    "from": "U244",
-   "type": "card"
+   "type": "photo",
+   "image": "images/A16_s1.png",
+   "note": "AI image A16",
+   "grade": {
+    "sat": 0.7,
+    "black": 0.08,
+    "gamma": 1.9,
+    "vignette": 0.6
+   },
+   "blur": 9,
+   "z0": 1.05,
+   "z1": 1.05,
+   "center_subs": true
   },
   {
-   "id": "116",
+   "id": "115",
    "from": "U248",
    "type": "card"
   },
   {
-   "id": "117",
+   "id": "116",
    "from": "U251",
    "type": "video",
    "src": "../work/stock/full/3461.mp4",
@@ -1217,7 +1242,7 @@
    "note": "Mixkit 3461 Lighting candles in the dark"
   },
   {
-   "id": "118",
+   "id": "117",
    "from": "U254",
    "type": "video",
    "src": "../work/stock/full/50956.mp4",
@@ -1225,18 +1250,18 @@
    "note": "Mixkit 50956 Soft and traslucent smoke flows up on a dark background"
   },
   {
-   "id": "119",
+   "id": "118",
    "from": "U256",
    "type": "card"
   },
   {
-   "id": "120",
+   "id": "119",
    "from": "U261",
    "type": "icon",
    "icon": "memo10"
   },
   {
-   "id": "121",
+   "id": "120",
    "from": "U264",
    "type": "video",
    "src": "../work/stock/full/99910.mp4",
@@ -1250,24 +1275,24 @@
    "note": "Mixkit 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen"
   },
   {
-   "id": "122",
+   "id": "121",
    "from": "U267",
    "type": "card"
   },
   {
-   "id": "123",
+   "id": "122",
    "from": "U268",
    "type": "icon",
    "icon": "week"
   },
   {
-   "id": "124",
+   "id": "123",
    "from": "U271",
    "type": "icon",
    "icon": "week3"
   },
   {
-   "id": "125",
+   "id": "124",
    "from": "U273",
    "type": "video",
    "src": "../work/stock/full/3977.mp4",
@@ -1275,25 +1300,25 @@
    "note": "Mixkit 3977 View of a window with a curtain"
   },
   {
-   "id": "126",
+   "id": "125",
    "from": "U277",
    "type": "icon",
    "icon": "six"
   },
   {
-   "id": "127",
+   "id": "126",
    "from": "U280",
    "type": "icon",
    "icon": "six_pick"
   },
   {
-   "id": "128",
+   "id": "127",
    "from": "U282",
    "type": "icon",
    "icon": "six_seq"
   },
   {
-   "id": "129",
+   "id": "128",
    "from": "U285",
    "type": "video",
    "src": "../work/stock/full/50112.mp4",
@@ -1307,7 +1332,7 @@
    "note": "Mixkit 50112 Student hand takes a stiky note to paste it on the notebook"
   },
   {
-   "id": "130",
+   "id": "129",
    "from": "U289",
    "type": "video",
    "src": "../work/stock/full/52452.mp4",
@@ -1321,7 +1346,7 @@
    "note": "Mixkit 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway."
   },
   {
-   "id": "131",
+   "id": "130",
    "from": "U292",
    "type": "video",
    "src": "../work/stock/full/28899.mp4",
@@ -1335,13 +1360,13 @@
    "note": "Mixkit 28899 Woman turning off her alarm clock in the morning"
   },
   {
-   "id": "132",
+   "id": "131",
    "from": "U294",
    "type": "icon",
    "icon": "battery"
   },
   {
-   "id": "133",
+   "id": "132",
    "from": "U298",
    "type": "video",
    "src": "../work/stock/full/100831.mp4",
@@ -1350,7 +1375,7 @@
    "note": "Mixkit 100831 Sky Transitioning from Night to Sunrise"
   },
   {
-   "id": "134",
+   "id": "133",
    "from": "U301",
    "type": "video",
    "src": "../work/stock/full/4548.mp4",
@@ -1364,12 +1389,12 @@
    "note": "Mixkit 4548 Woman lying on a sofa"
   },
   {
-   "id": "135",
+   "id": "134",
    "from": "U304",
    "type": "card"
   },
   {
-   "id": "136",
+   "id": "135",
    "from": "U306",
    "type": "video",
    "src": "../work/stock/full/4397.mp4",
@@ -1383,7 +1408,7 @@
    "note": "Mixkit 4397 The silhouette of a woman at sunrise"
   },
   {
-   "id": "137",
+   "id": "136",
    "from": "U310",
    "type": "video",
    "src": "../work/stock/full/1086.mp4",
@@ -1614,11 +1639,13 @@
   },
   {
    "unit": "U049",
-   "text": "미국의 심리학자"
+   "text": "미국의 심리학자",
+   "box": false
   },
   {
    "unit": "U050",
-   "text": "허버트 프로이덴버거인데요."
+   "text": "허버트 프로이덴버거인데요.",
+   "box": false
   },
   {
    "unit": "U051",
@@ -1833,11 +1860,13 @@
   },
   {
    "unit": "U103",
-   "text": "그로부터 한참 뒤인 2019년,"
+   "text": "그로부터 한참 뒤인 2019년,",
+   "box": false
   },
   {
    "unit": "U104",
-   "text": "세계보건기구는 번아웃을"
+   "text": "세계보건기구는 번아웃을",
+   "box": false
   },
   {
    "unit": "U105",
@@ -1846,12 +1875,12 @@
   },
   {
    "unit": "U106",
-   "text": "만성적인 [직장 스트레스]에서 생기는",
+   "text": "만성적인 [직장 스트레스]에서 생기는 증후군'",
    "pos": "center"
   },
   {
    "unit": "U107",
-   "text": "증후군'이라고 정의했습니다.",
+   "text": "이라고 정의했습니다.",
    "pos": "center"
   },
   {
@@ -2108,14 +2137,6 @@
    "text": "점심은 그냥 혼자 먹고 싶어지죠."
   },
   {
-   "unit": "U163",
-   "text": "예전엔 즐겁던 동료들의 수다조차"
-  },
-  {
-   "unit": "U164",
-   "text": "요즘은 시끄럽게만 들리고요."
-  },
-  {
    "unit": "U165",
    "text": "세계보건기구는 이런 모습을",
    "pos": "center"
@@ -2218,7 +2239,7 @@
   },
   {
    "unit": "U188",
-   "text": "그러니까 내가 해낼 수 있다는 믿음이",
+   "text": "내가 해낼 수 있다는 믿음이",
    "pos": "center"
   },
   {
@@ -2409,35 +2430,58 @@
   },
   {
    "unit": "U229",
-   "text": "바로 이 때문에 번아웃을 개인의",
+   "text": "바로 이 때문에",
+   "pos": "center"
+  },
+  {
+   "unit": "U229b",
+   "text": "번아웃을",
    "pos": "center"
   },
   {
    "unit": "U230",
-   "text": "[의지]만의 문제로 보기는 어렵습니다.",
+   "text": "개인의 [의지]만의 문제로 보기는",
+   "pos": "center"
+  },
+  {
+   "unit": "U230b",
+   "text": "어렵습니다.",
    "pos": "center"
   },
   {
    "unit": "U231",
-   "text": "이쯤에서 한 사람의 실제",
+   "text": "이쯤에서",
+   "pos": "center"
+  },
+  {
+   "unit": "U231b",
+   "text": "한 사람의",
    "pos": "center"
   },
   {
    "unit": "U232",
-   "text": "이야기를 들려드릴게요.",
+   "text": "실제 이야기를",
+   "pos": "center"
+  },
+  {
+   "unit": "U232b",
+   "text": "들려드릴게요.",
    "pos": "center"
   },
   {
    "unit": "U233",
-   "text": "작년 12월, 한 언론 기사에"
+   "text": "작년 12월, 한 언론 기사에",
+   "box": false
   },
   {
    "unit": "U234",
-   "text": "26살 직장인"
+   "text": "26살 직장인",
+   "box": false
   },
   {
    "unit": "U235",
-   "text": "박 모 씨의 이야기가 실렸습니다."
+   "text": "박 모 씨의 이야기가 실렸습니다.",
+   "box": false
   },
   {
    "unit": "U236",
@@ -2474,22 +2518,30 @@
   {
    "unit": "U244",
    "text": "\"열심히 살고 있는데도",
-   "pos": "center"
+   "pos": "center",
+   "box": false,
+   "shadow": true
   },
   {
    "unit": "U245",
    "text": "늘 부족하다고 느끼는 감정이 쌓이다,",
-   "pos": "center"
+   "pos": "center",
+   "box": false,
+   "shadow": true
   },
   {
    "unit": "U246",
    "text": "결국 감당이 안 되는 지점이",
-   "pos": "center"
+   "pos": "center",
+   "box": false,
+   "shadow": true
   },
   {
    "unit": "U247",
    "text": "오는 것 같다.\"",
-   "pos": "center"
+   "pos": "center",
+   "box": false,
+   "shadow": true
   },
   {
    "unit": "U248",

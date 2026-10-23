@@ -315,7 +315,7 @@ add("G2-033", "면역 신약 경쟁…길리어드 펩스타 12.8억 달러 인�
       "애브비의 피부질환 신약이 임상에서 병변을 줄인 가운데 회사가 비만 치료제 시장 진출을 모색하면서 파이프라인을 넓히려 하고 있다 (제목 기준)"),
      ("길리어드, 펩스타 염증 신약 프로그램 12.8억 달러에 인수", "로이터", "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/",
       "길리어드가 펩스타의 경구 IL-23R 억제제 프로그램을 12억 7,500만 달러에 사들이면서, J&J가 앞선 경구 염증성 장질환 치료제 경쟁에 뛰어들었다"),
-     ("영국 당국, J&J의 먹는 건선 치료제 승인", "로이터", "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-approves-jjs-oral-psoriasis-pill-2026-10-23/",
+     ("영국 당국, 존슨앤드존슨의 먹는 건선 치료제 승인", "로이터", "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-approves-jjs-oral-psoriasis-pill-2026-10-23/",
       "영국 당국이 J&J의 먹는 건선 치료제를 승인하면서, J&J가 영국 건선 치료 시장에 경구 신약을 내놓을 수 있게 됐다 (제목 기준)")])
 
 FEDB = "https://www.bloomberg.com/news/articles/2026-10-23/federal-reserve-interest-rate-decision-faces-challenges-from-ai-inflation-war"
@@ -380,7 +380,7 @@ add("G2-059", "캐나다 8월 소매판매 1.2% 증가…신차 판매 주도, 9
      {"o": "The Globe and Mail", "d": D, "u": "https://www.theglobeandmail.com/business/article-canadian-retail-sales-up-12-in-august-2026/"}],
     ["macro"], ["macro/growth"],
     [{"ind": "macro", "node": "growth", "f": "수요", "dir": "up", "k": "실제", "t": "캐나다 8월 소매판매 1.2% 증가"}],
-    [("캐나다 소매판매 반등세, 9월에도 이어질 듯", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-23/canada-retail-sales-rebound-set-to-continue-in-september",
+    [("캐나다 소매판매 반등세, 9월에도 계속 이어질 듯", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-23/canada-retail-sales-rebound-set-to-continue-in-september",
       "캐나다 소매판매 반등이 9월에도 이어질 것으로 보이면서, 통계청 속보치는 9월에 0.7% 더 늘었을 것으로 가리켰다"),
      ("캐나다 8월 소매판매 전월 대비 1.2% 증가", "로이터", "https://www.reuters.com/world/americas/canada-august-retail-sales-rise-12-2026-10-23/",
       "캐나다 8월 소매판매가 신차 판매에 힘입어 1.2% 늘어 약 746억 캐나다달러를 기록하면서, 7월 감소에서 반등했다")])

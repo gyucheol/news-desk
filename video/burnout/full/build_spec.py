@@ -17,8 +17,13 @@
 # v6 (2026-10-23): the owner asked for stock photos instead of the AI images at U067 (a sick person lying in bed) and
 # U092 (the 번아웃 picture; the big title stays), and for photos that only zoom in very slowly (no left-right drift):
 # U067 and U092 are now frames of Mixkit Free clips 25596 and 25585 (one actor, face hidden), all photos use ZOOM.
-# usage: build_spec.py <folder with units.json> [stock search index.json, adds clip titles as notes] -> <folder>/spec.json
-import json, re, sys
+# v7 (2026-10-23): the owner asked for centre subtitles (black cards, the quote over the photo) never split, one whole
+# sentence at a time, and the other subtitles split through the whole script like the owner's example: subtitles are
+# now the lines of lines.json (subtitles_v7.txt -> make_lines_v7.py; yellow words marked there), timed by align_v7.py.
+# Scenes stay on the units as in v6 (same cuts); without lines.json the subtitles are the units, as up to v6.
+# usage: build_spec.py <folder with units.json [lines.json]> [stock search index.json, adds clip titles as notes]
+#        -> <folder>/spec.json
+import json, os, re, sys
 F = sys.argv[1]
 units = json.load(open(f"{F}/units.json"))
 TXT = {u["id"]: u["text"] for u in units}
@@ -208,24 +213,43 @@ for k, (pos, s) in enumerate(starts):
         continue
     for j in range(pos, max(end, pos + 1)):
         kind_of.setdefault(order[j], "photo_center" if s.get("center_subs") else s["type"])
+LINES = f"{F}/lines.json"
+CENTRE = ("card", "photo_center")
+
+
+def sub_style(s, k, uid):
+    if k == "photo_center":                  # quote over a dimmed photo: centred like a card, no box, soft shadow
+        s.update({"pos": "center", "box": False, "shadow": True})
+    elif k == "card":
+        s["pos"] = "center"
+        if uid in ITALIC: s["italic"] = True
+    elif k == "icon":
+        s["box"] = False
+    return s
+
+
 subs = []
-for u in units:
+if os.path.exists(LINES):                    # v7: subtitle lines
+    lines = json.load(open(LINES))
+    line_at = {l["from"] for l in lines if l["at"] == 0}
+    for pos, sc in starts:                   # centre text never runs over a scene cut: its scenes start and end on lines
+        if kind_of.get(order[pos]) in CENTRE or (pos and kind_of.get(order[pos - 1]) in CENTRE):
+            assert sc["from"] in line_at, ("centre scene boundary inside a subtitle line", sc["from"])
+    for l in lines:
+        t = l["text"]
+        for a, b in DIGITS:
+            t = t.replace(a, b)
+        k = kind_of.get(l["from"])
+        assert l["center"] == (k in CENTRE), (l["id"], l["from"], k)
+        subs.append(sub_style({"line": l["id"], "unit": l["from"], "text": t}, k, l["from"]))
+for u in ([] if subs else units):
     t = u["text"]
     for a, b in DIGITS:
         t = t.replace(a, b)
     if u["id"] in EMPH and EMPH[u["id"]] in t:
         t = t.replace(EMPH[u["id"]], f"[{EMPH[u['id']]}]", 1)
     t = DISPLAY.get(u["id"], t)
-    s = {"unit": u["id"], "text": t}
-    k = kind_of.get(u["id"])
-    if k == "photo_center":                  # quote over a dimmed photo: centred like a card, no box, soft shadow
-        s.update({"pos": "center", "box": False, "shadow": True})
-    elif k == "card":
-        s["pos"] = "center"
-        if u["id"] in ITALIC: s["italic"] = True
-    elif k == "icon":
-        s["box"] = False
-    subs.append(s)
+    subs.append(sub_style({"unit": u["id"], "text": t}, kind_of.get(u["id"]), u["id"]))
 # v2: the video ends about 3 s after the last word (owner); the last subtitle leaves 1 s after speech ends
 spec = {"fade_in": 0.3, "fade_out": 1.5, "last_sub_hold": 1.0, "sub_lead": 0.0, "scenes": scenes, "subs": subs}
 json.dump(spec, open(f"{F}/spec.json", "w"), ensure_ascii=False, indent=1)
@@ -233,4 +257,9 @@ print(len(scenes), "scenes |", sum(1 for s in scenes if s["type"] == "video"), "
       sum(1 for s in scenes if s["type"] == "photo"), "AI photo,",
       sum(1 for s in scenes if s["type"] == "icon"), "icon,", sum(1 for s in scenes if s["type"] == "card"), "card")
 print("clips:", ",".join(sorted({x[2] for x in PLAN if x[1] == "v"}, key=int)))
-print("emphasis not found:", [k for k, w in EMPH.items() if f"[{w}]" not in next(s["text"] for s in subs if s["unit"] == k)])
+if "line" in subs[0]:
+    emph = [w for s in subs for w in re.findall(r"\[([^]]*)\]", s["text"])]
+    print(len(subs), "subtitle lines,", sum(s.get("pos") == "center" for s in subs), "centre |", len(emph),
+          "yellow words; v6 words not found:", sorted(set(EMPH.values()) - set(emph)))
+else:
+    print("emphasis not found:", [k for k, w in EMPH.items() if f"[{w}]" not in next(s["text"] for s in subs if s["unit"] == k)])

@@ -321,7 +321,8 @@ def main():
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
     layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
-    sub_start = {s["unit"]: s["start"] for s in tl["subs"]}
+    # unit start times for overlays (v7 timelines carry them; subtitle lines no longer match the units)
+    sub_start = tl.get("unit_start") or {s["unit"]: s["start"] for s in tl["subs"]}
     black = Image.new("RGB", (W, H), (0, 0, 0))
     labels, label_font, titles = {}, ImageFont.truetype(FONT_PATH, 44), {}
 

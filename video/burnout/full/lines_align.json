@@ -1,0 +1,2338 @@
+[
+ {
+  "id": "L001",
+  "from": "U001",
+  "at": 0,
+  "start": 0.3,
+  "how": "v6 unit start",
+  "end": 1.72
+ },
+ {
+  "id": "L002",
+  "from": "U002",
+  "at": 0,
+  "start": 2.26,
+  "how": "v6 unit start",
+  "end": 3.42
+ },
+ {
+  "id": "L003",
+  "from": "U003",
+  "at": 0,
+  "start": 3.64,
+  "how": "v6 unit start",
+  "end": 4.36
+ },
+ {
+  "id": "L004",
+  "from": "U004",
+  "at": 0,
+  "start": 4.85,
+  "how": "v6 unit start",
+  "end": 7.8
+ },
+ {
+  "id": "L005",
+  "from": "U007",
+  "at": 0,
+  "start": 8.34,
+  "how": "v6 unit start",
+  "end": 9.22
+ },
+ {
+  "id": "L006",
+  "from": "U008",
+  "at": 0,
+  "start": 9.43,
+  "how": "v6 unit start",
+  "end": 10.44
+ },
+ {
+  "id": "L007",
+  "from": "U009",
+  "at": 0,
+  "start": 10.76,
+  "how": "v6 unit start",
+  "end": 11.7
+ },
+ {
+  "id": "L008",
+  "from": "U010",
+  "at": 0,
+  "start": 12.04,
+  "how": "v6 unit start",
+  "end": 13.65
+ },
+ {
+  "id": "L009",
+  "from": "U010",
+  "at": 13,
+  "start": 13.98,
+  "how": "after pause (0.20 s)",
+  "start_ctc": 13.93,
+  "after_word": "그런가'",
+  "end": 14.9
+ },
+ {
+  "id": "L010",
+  "from": "U012",
+  "at": 0,
+  "start": 15.37,
+  "how": "v6 unit start",
+  "end": 16.52
+ },
+ {
+  "id": "L011",
+  "from": "U012b",
+  "at": 0,
+  "start": 16.88,
+  "how": "v6 unit start",
+  "end": 18.02
+ },
+ {
+  "id": "L012",
+  "from": "U013",
+  "at": 0,
+  "start": 18.39,
+  "how": "v6 unit start",
+  "end": 19.72
+ },
+ {
+  "id": "L013",
+  "from": "U014",
+  "at": 0,
+  "start": 20.33,
+  "how": "v6 unit start",
+  "end": 21.1
+ },
+ {
+  "id": "L014",
+  "from": "U014",
+  "at": 7,
+  "start": 21.36,
+  "how": "ctc",
+  "start_ctc": 21.36,
+  "after_word": "쉬었는데도",
+  "end": 22.555
+ },
+ {
+  "id": "L015",
+  "from": "U016",
+  "at": 0,
+  "start": 22.99,
+  "how": "v6 unit start",
+  "end": 23.68
+ },
+ {
+  "id": "L016",
+  "from": "U016",
+  "at": 6,
+  "start": 23.92,
+  "how": "ctc",
+  "start_ctc": 23.92,
+  "after_word": "왜",
+  "end": 25.3
+ },
+ {
+  "id": "L017",
+  "from": "U017",
+  "at": 6,
+  "start": 25.68,
+  "how": "after pause (0.25 s)",
+  "start_ctc": 25.66,
+  "after_word": "있는지",
+  "end": 27.055
+ },
+ {
+  "id": "L018",
+  "from": "U019",
+  "at": 0,
+  "start": 27.57,
+  "how": "v6 unit start",
+  "end": 27.98
+ },
+ {
+  "id": "L019",
+  "from": "U019",
+  "at": 4,
+  "start": 28.16,
+  "how": "ctc",
+  "start_ctc": 28.16,
+  "after_word": "출근길에",
+  "end": 29.295
+ },
+ {
+  "id": "L020",
+  "from": "U020",
+  "at": 0,
+  "start": 29.77,
+  "how": "v6 unit start",
+  "end": 30.755
+ },
+ {
+  "id": "L021",
+  "from": "U021",
+  "at": 0,
+  "start": 31.08,
+  "how": "v6 unit start",
+  "end": 32.135
+ },
+ {
+  "id": "L022",
+  "from": "U022",
+  "at": 0,
+  "start": 32.54,
+  "how": "v6 unit start",
+  "end": 33.895
+ },
+ {
+  "id": "L023",
+  "from": "U023",
+  "at": 0,
+  "start": 34.21,
+  "how": "v6 unit start",
+  "end": 35.615
+ },
+ {
+  "id": "L024",
+  "from": "U024",
+  "at": 0,
+  "start": 36.07,
+  "how": "v6 unit start",
+  "end": 36.44
+ },
+ {
+  "id": "L025",
+  "from": "U024",
+  "at": 4,
+  "start": 36.7,
+  "how": "ctc",
+  "start_ctc": 36.7,
+  "after_word": "퇴근길엔",
+  "end": 38.295
+ },
+ {
+  "id": "L026",
+  "from": "U026",
+  "at": 0,
+  "start": 38.46,
+  "how": "v6 unit start",
+  "end": 39.095
+ },
+ {
+  "id": "L027",
+  "from": "U027",
+  "at": 0,
+  "start": 39.4,
+  "how": "v6 unit start",
+  "end": 41.415
+ },
+ {
+  "id": "L028",
+  "from": "U029",
+  "at": 0,
+  "start": 41.87,
+  "how": "v6 unit start",
+  "end": 42.31
+ },
+ {
+  "id": "L029",
+  "from": "U029",
+  "at": 5,
+  "start": 42.55,
+  "how": "ctc",
+  "start_ctc": 42.55,
+  "after_word": "와서는",
+  "end": 43.475
+ },
+ {
+  "id": "L030",
+  "from": "U030",
+  "at": 0,
+  "start": 43.63,
+  "how": "v6 unit start",
+  "end": 45.435
+ },
+ {
+  "id": "L031",
+  "from": "U031",
+  "at": 0,
+  "start": 45.94,
+  "how": "v6 unit start",
+  "end": 46.635
+ },
+ {
+  "id": "L032",
+  "from": "U032",
+  "at": 0,
+  "start": 47.03,
+  "how": "v6 unit start",
+  "end": 47.81
+ },
+ {
+  "id": "L033",
+  "from": "U032",
+  "at": 6,
+  "start": 48.01,
+  "how": "ctc",
+  "start_ctc": 48.01,
+  "after_word": "봤는지",
+  "end": 48.615
+ },
+ {
+  "id": "L034",
+  "from": "U033",
+  "at": 0,
+  "start": 49.1,
+  "how": "v6 unit start",
+  "end": 50.215
+ },
+ {
+  "id": "L035",
+  "from": "U034",
+  "at": 0,
+  "start": 50.65,
+  "how": "v6 unit start",
+  "end": 52.53
+ },
+ {
+  "id": "L036",
+  "from": "U035",
+  "at": 6,
+  "start": 52.92,
+  "how": "after pause (0.25 s)",
+  "start_ctc": 52.87,
+  "after_word": "괜찮아지겠지'",
+  "end": 53.735
+ },
+ {
+  "id": "L037",
+  "from": "U036",
+  "at": 0,
+  "start": 53.98,
+  "how": "v6 unit start",
+  "end": 54.875
+ },
+ {
+  "id": "L038",
+  "from": "U037",
+  "at": 0,
+  "start": 55.22,
+  "how": "v6 unit start",
+  "end": 55.49
+ },
+ {
+  "id": "L039",
+  "from": "U037",
+  "at": 4,
+  "start": 55.67,
+  "how": "ctc",
+  "start_ctc": 55.67,
+  "after_word": "일요일엔",
+  "end": 56.835
+ },
+ {
+  "id": "L040",
+  "from": "U038",
+  "at": 0,
+  "start": 57.16,
+  "how": "v6 unit start",
+  "end": 58.19
+ },
+ {
+  "id": "L041",
+  "from": "U038",
+  "at": 9,
+  "start": 58.35,
+  "how": "ctc",
+  "start_ctc": 58.35,
+  "after_word": "하고",
+  "end": 58.755
+ },
+ {
+  "id": "L042",
+  "from": "U039",
+  "at": 0,
+  "start": 59.24,
+  "how": "v6 unit start",
+  "end": 59.995
+ },
+ {
+  "id": "L043",
+  "from": "U040",
+  "at": 0,
+  "start": 60.44,
+  "how": "v6 unit start",
+  "end": 61.25
+ },
+ {
+  "id": "L044",
+  "from": "U040",
+  "at": 8,
+  "start": 61.55,
+  "how": "ctc",
+  "start_ctc": 61.55,
+  "after_word": "되면",
+  "end": 62.935
+ },
+ {
+  "id": "L045",
+  "from": "U042",
+  "at": 0,
+  "start": 63.31,
+  "how": "v6 unit start",
+  "end": 64.635
+ },
+ {
+  "id": "L046",
+  "from": "U043",
+  "at": 0,
+  "start": 65.14,
+  "how": "v6 unit start",
+  "end": 65.7
+ },
+ {
+  "id": "L047",
+  "from": "U043",
+  "at": 6,
+  "start": 65.96,
+  "how": "ctc",
+  "start_ctc": 65.96,
+  "after_word": "여러분도",
+  "end": 67.215
+ },
+ {
+  "id": "L048",
+  "from": "U045",
+  "at": 0,
+  "start": 67.54,
+  "how": "v6 unit start",
+  "end": 68.04
+ },
+ {
+  "id": "L049",
+  "from": "U045",
+  "at": 5,
+  "start": 68.18,
+  "how": "ctc",
+  "start_ctc": 68.18,
+  "after_word": "기분이",
+  "end": 69.135
+ },
+ {
+  "id": "L050",
+  "from": "U046",
+  "at": 0,
+  "start": 69.56,
+  "how": "v6 unit start",
+  "end": 72.495
+ },
+ {
+  "id": "L051",
+  "from": "U048",
+  "at": 0,
+  "start": 72.92,
+  "how": "v6 unit start",
+  "end": 74.495
+ },
+ {
+  "id": "L052",
+  "from": "U049",
+  "at": 0,
+  "start": 74.75,
+  "how": "v6 unit start",
+  "end": 76.655
+ },
+ {
+  "id": "L053",
+  "from": "U051",
+  "at": 0,
+  "start": 77.17,
+  "how": "v6 unit start",
+  "end": 78.955
+ },
+ {
+  "id": "L054",
+  "from": "U052",
+  "at": 0,
+  "start": 79.32,
+  "how": "v6 unit start",
+  "end": 79.64
+ },
+ {
+  "id": "L055",
+  "from": "U052",
+  "at": 4,
+  "start": 79.8,
+  "how": "ctc",
+  "start_ctc": 79.8,
+  "after_word": "누구보다",
+  "end": 81.615
+ },
+ {
+  "id": "L056",
+  "from": "U054",
+  "at": 0,
+  "start": 82.07,
+  "how": "v6 unit start",
+  "end": 82.34
+ },
+ {
+  "id": "L057",
+  "from": "U054",
+  "at": 3,
+  "start": 82.52,
+  "how": "ctc",
+  "start_ctc": 82.52,
+  "after_word": "낮에는",
+  "end": 83.175
+ },
+ {
+  "id": "L058",
+  "from": "U055",
+  "at": 0,
+  "start": 83.4,
+  "how": "v6 unit start",
+  "end": 84.835
+ },
+ {
+  "id": "L059",
+  "from": "U056",
+  "at": 0,
+  "start": 85.21,
+  "how": "v6 unit start",
+  "end": 85.56
+ },
+ {
+  "id": "L060",
+  "from": "U056",
+  "at": 4,
+  "start": 85.8,
+  "how": "ctc",
+  "start_ctc": 85.8,
+  "after_word": "되면",
+  "end": 87.275
+ },
+ {
+  "id": "L061",
+  "from": "U057",
+  "at": 0,
+  "start": 87.56,
+  "how": "v6 unit start",
+  "end": 88.535
+ },
+ {
+  "id": "L062",
+  "from": "U058",
+  "at": 0,
+  "start": 88.75,
+  "how": "v6 unit start",
+  "end": 89.995
+ },
+ {
+  "id": "L063",
+  "from": "U059",
+  "at": 0,
+  "start": 90.3,
+  "how": "v6 unit start",
+  "end": 91.395
+ },
+ {
+  "id": "L064",
+  "from": "U060",
+  "at": 0,
+  "start": 91.77,
+  "how": "v6 unit start",
+  "end": 92.915
+ },
+ {
+  "id": "L065",
+  "from": "U061",
+  "at": 0,
+  "start": 93.44,
+  "how": "v6 unit start",
+  "end": 94.235
+ },
+ {
+  "id": "L066",
+  "from": "U062",
+  "at": 0,
+  "start": 94.58,
+  "how": "v6 unit start",
+  "end": 95.42
+ },
+ {
+  "id": "L067",
+  "from": "U062",
+  "at": 7,
+  "start": 95.6,
+  "how": "ctc",
+  "start_ctc": 95.6,
+  "after_word": "가족들과",
+  "end": 97.415
+ },
+ {
+  "id": "L068",
+  "from": "U064",
+  "at": 0,
+  "start": 97.77,
+  "how": "v6 unit start",
+  "end": 99.615
+ },
+ {
+  "id": "L069",
+  "from": "U065",
+  "at": 0,
+  "start": 99.9,
+  "how": "v6 unit start",
+  "end": 100.795
+ },
+ {
+  "id": "L070",
+  "from": "U066",
+  "at": 0,
+  "start": 100.98,
+  "how": "v6 unit start",
+  "end": 101.755
+ },
+ {
+  "id": "L071",
+  "from": "U067",
+  "at": 0,
+  "start": 102.29,
+  "how": "v6 unit start",
+  "end": 103.575
+ },
+ {
+  "id": "L072",
+  "from": "U068",
+  "at": 0,
+  "start": 103.82,
+  "how": "v6 unit start",
+  "end": 105.135
+ },
+ {
+  "id": "L073",
+  "from": "U069",
+  "at": 0,
+  "start": 105.47,
+  "how": "v6 unit start",
+  "end": 107.275
+ },
+ {
+  "id": "L074",
+  "from": "U070",
+  "at": 0,
+  "start": 107.52,
+  "how": "v6 unit start",
+  "end": 108.675
+ },
+ {
+  "id": "L075",
+  "from": "U071",
+  "at": 0,
+  "start": 109.13,
+  "how": "v6 unit start",
+  "end": 109.855
+ },
+ {
+  "id": "L076",
+  "from": "U072",
+  "at": 0,
+  "start": 110.14,
+  "how": "v6 unit start",
+  "end": 111.315
+ },
+ {
+  "id": "L077",
+  "from": "U073",
+  "at": 0,
+  "start": 111.48,
+  "how": "v6 unit start",
+  "end": 112.895
+ },
+ {
+  "id": "L078",
+  "from": "U074",
+  "at": 0,
+  "start": 113.32,
+  "how": "v6 unit start",
+  "end": 114.175
+ },
+ {
+  "id": "L079",
+  "from": "U075",
+  "at": 0,
+  "start": 114.49,
+  "how": "v6 unit start",
+  "end": 116.99
+ },
+ {
+  "id": "L080",
+  "from": "U076",
+  "at": 4,
+  "start": 117.23,
+  "how": "ctc",
+  "start_ctc": 117.23,
+  "after_word": "공허함을",
+  "end": 118.235
+ },
+ {
+  "id": "L081",
+  "from": "U077",
+  "at": 0,
+  "start": 118.54,
+  "how": "v6 unit start",
+  "end": 119.375
+ },
+ {
+  "id": "L082",
+  "from": "U078",
+  "at": 0,
+  "start": 119.83,
+  "how": "v6 unit start",
+  "end": 120.08
+ },
+ {
+  "id": "L083",
+  "from": "U078",
+  "at": 3,
+  "start": 120.32,
+  "how": "ctc",
+  "start_ctc": 120.32,
+  "after_word": "거기엔",
+  "end": 121.855
+ },
+ {
+  "id": "L084",
+  "from": "U079",
+  "at": 0,
+  "start": 122.21,
+  "how": "v6 unit start",
+  "end": 124.56
+ },
+ {
+  "id": "L085",
+  "from": "U080",
+  "at": 6,
+  "start": 124.64,
+  "how": "ctc",
+  "start_ctc": 124.64,
+  "after_word": "목소리가",
+  "end": 125.175
+ },
+ {
+  "id": "L086",
+  "from": "U081",
+  "at": 0,
+  "start": 125.63,
+  "how": "v6 unit start",
+  "end": 127.42
+ },
+ {
+  "id": "L087",
+  "from": "U082",
+  "at": 4,
+  "start": 127.52,
+  "how": "ctc",
+  "start_ctc": 127.52,
+  "after_word": "동료들을",
+  "end": 127.915
+ },
+ {
+  "id": "L088",
+  "from": "U083",
+  "at": 0,
+  "start": 128.3,
+  "how": "v6 unit start",
+  "end": 128.935
+ },
+ {
+  "id": "L089",
+  "from": "U084",
+  "at": 0,
+  "start": 129.28,
+  "how": "v6 unit start",
+  "end": 131.39
+ },
+ {
+  "id": "L090",
+  "from": "U085",
+  "at": 6,
+  "start": 131.69,
+  "how": "after pause (0.22 s)",
+  "start_ctc": 131.71,
+  "after_word": "동료들일수록",
+  "end": 133.355
+ },
+ {
+  "id": "L091",
+  "from": "U087",
+  "at": 0,
+  "start": 133.75,
+  "how": "v6 unit start",
+  "end": 133.99
+ },
+ {
+  "id": "L092",
+  "from": "U087",
+  "at": 3,
+  "start": 134.29,
+  "how": "ctc",
+  "start_ctc": 134.29,
+  "after_word": "결국엔",
+  "end": 136.095
+ },
+ {
+  "id": "L093",
+  "from": "U089",
+  "at": 0,
+  "start": 136.62,
+  "how": "v6 unit start",
+  "end": 138.395
+ },
+ {
+  "id": "L094",
+  "from": "U090",
+  "at": 0,
+  "start": 138.71,
+  "how": "v6 unit start",
+  "end": 139.755
+ },
+ {
+  "id": "L095",
+  "from": "U091",
+  "at": 0,
+  "start": 139.98,
+  "how": "v6 unit start",
+  "end": 141.535
+ },
+ {
+  "id": "L096",
+  "from": "U092",
+  "at": 0,
+  "start": 141.93,
+  "how": "v6 unit start",
+  "end": 143.155
+ },
+ {
+  "id": "L097",
+  "from": "U093",
+  "at": 0,
+  "start": 143.37,
+  "how": "v6 unit start",
+  "end": 144.275
+ },
+ {
+  "id": "L098",
+  "from": "U094",
+  "at": 0,
+  "start": 144.55,
+  "how": "v6 unit start",
+  "end": 146.195
+ },
+ {
+  "id": "L099",
+  "from": "U095",
+  "at": 0,
+  "start": 146.61,
+  "how": "v6 unit start",
+  "end": 148.415
+ },
+ {
+  "id": "L100",
+  "from": "U097",
+  "at": 0,
+  "start": 148.84,
+  "how": "v6 unit start",
+  "end": 150.275
+ },
+ {
+  "id": "L101",
+  "from": "U098",
+  "at": 0,
+  "start": 150.58,
+  "how": "v6 unit start",
+  "end": 151.595
+ },
+ {
+  "id": "L102",
+  "from": "U099",
+  "at": 0,
+  "start": 151.97,
+  "how": "v6 unit start",
+  "end": 153.595
+ },
+ {
+  "id": "L103",
+  "from": "U100",
+  "at": 0,
+  "start": 154.1,
+  "how": "v6 unit start",
+  "end": 155.715
+ },
+ {
+  "id": "L104",
+  "from": "U101",
+  "at": 0,
+  "start": 156.02,
+  "how": "v6 unit start",
+  "end": 157.275
+ },
+ {
+  "id": "L105",
+  "from": "U102",
+  "at": 0,
+  "start": 157.64,
+  "how": "v6 unit start",
+  "end": 159.195
+ },
+ {
+  "id": "L106",
+  "from": "U103",
+  "at": 0,
+  "start": 159.64,
+  "how": "v6 unit start",
+  "end": 161.315
+ },
+ {
+  "id": "L107",
+  "from": "U104",
+  "at": 0,
+  "start": 161.59,
+  "how": "v6 unit start",
+  "end": 163.055
+ },
+ {
+  "id": "L108",
+  "from": "U105",
+  "at": 0,
+  "start": 163.33,
+  "how": "v6 unit start",
+  "end": 167.515
+ },
+ {
+  "id": "L109",
+  "from": "U108",
+  "at": 0,
+  "start": 168.11,
+  "how": "v6 unit start",
+  "end": 168.5
+ },
+ {
+  "id": "L110",
+  "from": "U108",
+  "at": 4,
+  "start": 168.82,
+  "how": "after pause (0.13 s)",
+  "start_ctc": 168.82,
+  "after_word": "말해,",
+  "end": 169.935
+ },
+ {
+  "id": "L111",
+  "from": "U109",
+  "at": 0,
+  "start": 170.22,
+  "how": "v6 unit start",
+  "end": 171.315
+ },
+ {
+  "id": "L112",
+  "from": "U110",
+  "at": 0,
+  "start": 171.48,
+  "how": "v6 unit start",
+  "end": 172.195
+ },
+ {
+  "id": "L113",
+  "from": "U111",
+  "at": 0,
+  "start": 172.63,
+  "how": "v6 unit start",
+  "end": 176.895
+ },
+ {
+  "id": "L114",
+  "from": "U115",
+  "at": 0,
+  "start": 177.36,
+  "how": "v6 unit start",
+  "end": 179.355
+ },
+ {
+  "id": "L115",
+  "from": "U116",
+  "at": 0,
+  "start": 179.68,
+  "how": "v6 unit start",
+  "end": 181.315
+ },
+ {
+  "id": "L116",
+  "from": "U117",
+  "at": 0,
+  "start": 181.68,
+  "how": "v6 unit start",
+  "end": 182.735
+ },
+ {
+  "id": "L117",
+  "from": "U118",
+  "at": 0,
+  "start": 183.06,
+  "how": "v6 unit start",
+  "end": 183.97
+ },
+ {
+  "id": "L118",
+  "from": "U118",
+  "at": 7,
+  "start": 184.25,
+  "how": "ctc",
+  "start_ctc": 184.25,
+  "after_word": "번아웃을",
+  "end": 185.715
+ },
+ {
+  "id": "L119",
+  "from": "U120",
+  "at": 0,
+  "start": 186.15,
+  "how": "v6 unit start",
+  "end": 186.935
+ },
+ {
+  "id": "L120",
+  "from": "U121",
+  "at": 0,
+  "start": 187.2,
+  "how": "v6 unit start",
+  "end": 189.295
+ },
+ {
+  "id": "L121",
+  "from": "U123",
+  "at": 0,
+  "start": 189.71,
+  "how": "v6 unit start",
+  "end": 190.295
+ },
+ {
+  "id": "L122",
+  "from": "U124",
+  "at": 0,
+  "start": 190.48,
+  "how": "v6 unit start",
+  "end": 191.955
+ },
+ {
+  "id": "L123",
+  "from": "U125",
+  "at": 0,
+  "start": 192.26,
+  "how": "v6 unit start",
+  "end": 193.255
+ },
+ {
+  "id": "L124",
+  "from": "U126",
+  "at": 0,
+  "start": 193.68,
+  "how": "v6 unit start",
+  "end": 195.91
+ },
+ {
+  "id": "L125",
+  "from": "U127",
+  "at": 4,
+  "start": 196.13,
+  "how": "ctc",
+  "start_ctc": 196.13,
+  "after_word": "무언가가",
+  "end": 197.115
+ },
+ {
+  "id": "L126",
+  "from": "U128",
+  "at": 0,
+  "start": 197.47,
+  "how": "v6 unit start",
+  "end": 200.395
+ },
+ {
+  "id": "L127",
+  "from": "U130",
+  "at": 0,
+  "start": 200.82,
+  "how": "v6 unit start",
+  "end": 203.535
+ },
+ {
+  "id": "L128",
+  "from": "U132",
+  "at": 0,
+  "start": 204.04,
+  "how": "v6 unit start",
+  "end": 205.155
+ },
+ {
+  "id": "L129",
+  "from": "U133",
+  "at": 0,
+  "start": 205.43,
+  "how": "v6 unit start",
+  "end": 206.715
+ },
+ {
+  "id": "L130",
+  "from": "U134",
+  "at": 0,
+  "start": 207.06,
+  "how": "v6 unit start",
+  "end": 207.71
+ },
+ {
+  "id": "L131",
+  "from": "U134",
+  "at": 7,
+  "start": 207.95,
+  "how": "ctc",
+  "start_ctc": 207.95,
+  "after_word": "아침이면",
+  "end": 208.855
+ },
+ {
+  "id": "L132",
+  "from": "U135",
+  "at": 0,
+  "start": 209.19,
+  "how": "v6 unit start",
+  "end": 210.73
+ },
+ {
+  "id": "L133",
+  "from": "U136",
+  "at": 7,
+  "start": 211.07,
+  "how": "after pause (0.20 s)",
+  "start_ctc": 211.07,
+  "after_word": "하는데'",
+  "end": 212.775
+ },
+ {
+  "id": "L134",
+  "from": "U138",
+  "at": 0,
+  "start": 213.17,
+  "how": "v6 unit start",
+  "end": 215.215
+ },
+ {
+  "id": "L135",
+  "from": "U140",
+  "at": 0,
+  "start": 215.66,
+  "how": "v6 unit start",
+  "end": 216.455
+ },
+ {
+  "id": "L136",
+  "from": "U141",
+  "at": 0,
+  "start": 216.97,
+  "how": "v6 unit start",
+  "end": 218.355
+ },
+ {
+  "id": "L137",
+  "from": "U142",
+  "at": 0,
+  "start": 218.5,
+  "how": "v6 unit start",
+  "end": 219.175
+ },
+ {
+  "id": "L138",
+  "from": "U143",
+  "at": 0,
+  "start": 219.59,
+  "how": "v6 unit start",
+  "end": 221.115
+ },
+ {
+  "id": "L139",
+  "from": "U144",
+  "at": 0,
+  "start": 221.38,
+  "how": "v6 unit start",
+  "end": 222.335
+ },
+ {
+  "id": "L140",
+  "from": "U145",
+  "at": 0,
+  "start": 222.46,
+  "how": "v6 unit start",
+  "end": 223.315
+ },
+ {
+  "id": "L141",
+  "from": "U146",
+  "at": 0,
+  "start": 223.8,
+  "how": "v6 unit start",
+  "end": 225.215
+ },
+ {
+  "id": "L142",
+  "from": "U147",
+  "at": 0,
+  "start": 225.66,
+  "how": "v6 unit start",
+  "end": 227.375
+ },
+ {
+  "id": "L143",
+  "from": "U148",
+  "at": 0,
+  "start": 227.81,
+  "how": "v6 unit start",
+  "end": 228.19
+ },
+ {
+  "id": "L144",
+  "from": "U148",
+  "at": 4,
+  "start": 228.49,
+  "how": "after pause (0.16 s)",
+  "start_ctc": 228.49,
+  "after_word": "번아웃은'",
+  "end": 230.835
+ },
+ {
+  "id": "L145",
+  "from": "U150",
+  "at": 0,
+  "start": 230.91,
+  "how": "v6 unit start",
+  "end": 231.295
+ },
+ {
+  "id": "L146",
+  "from": "U151",
+  "at": 0,
+  "start": 231.58,
+  "how": "v6 unit start",
+  "end": 233.335
+ },
+ {
+  "id": "L147",
+  "from": "U152",
+  "at": 0,
+  "start": 233.72,
+  "how": "v6 unit start",
+  "end": 234.935
+ },
+ {
+  "id": "L148",
+  "from": "U153",
+  "at": 0,
+  "start": 235.35,
+  "how": "v6 unit start",
+  "end": 239.255
+ },
+ {
+  "id": "L149",
+  "from": "U156",
+  "at": 0,
+  "start": 239.74,
+  "how": "v6 unit start",
+  "end": 241.175
+ },
+ {
+  "id": "L150",
+  "from": "U157",
+  "at": 0,
+  "start": 241.67,
+  "how": "v6 unit start",
+  "end": 243.435
+ },
+ {
+  "id": "L151",
+  "from": "U158",
+  "at": 0,
+  "start": 243.98,
+  "how": "v6 unit start",
+  "end": 244.21
+ },
+ {
+  "id": "L152",
+  "from": "U158",
+  "at": 3,
+  "start": 244.66,
+  "how": "after pause (0.25 s)",
+  "start_ctc": 244.65,
+  "after_word": "요즘은'",
+  "end": 246.875
+ },
+ {
+  "id": "L153",
+  "from": "U160",
+  "at": 0,
+  "start": 247.67,
+  "how": "v6 unit start",
+  "end": 249.115
+ },
+ {
+  "id": "L154",
+  "from": "U161",
+  "at": 0,
+  "start": 249.38,
+  "how": "v6 unit start",
+  "end": 250.215
+ },
+ {
+  "id": "L155",
+  "from": "U162",
+  "at": 0,
+  "start": 250.74,
+  "how": "v6 unit start",
+  "end": 252.355
+ },
+ {
+  "id": "L156",
+  "from": "U165",
+  "at": 0,
+  "start": 252.83,
+  "how": "v6 unit start",
+  "end": 257.625
+ },
+ {
+  "id": "L157",
+  "from": "U168",
+  "at": 0,
+  "start": 258.12,
+  "how": "v6 unit start",
+  "end": 259.105
+ },
+ {
+  "id": "L158",
+  "from": "U169",
+  "at": 0,
+  "start": 259.44,
+  "how": "v6 unit start",
+  "end": 259.89
+ },
+ {
+  "id": "L159",
+  "from": "U169",
+  "at": 4,
+  "start": 260.03,
+  "how": "ctc",
+  "start_ctc": 260.03,
+  "after_word": "처음부터",
+  "end": 261.765
+ },
+ {
+  "id": "L160",
+  "from": "U171",
+  "at": 0,
+  "start": 262.07,
+  "how": "v6 unit start",
+  "end": 263.325
+ },
+ {
+  "id": "L161",
+  "from": "U172",
+  "at": 0,
+  "start": 263.64,
+  "how": "v6 unit start",
+  "end": 265.105
+ },
+ {
+  "id": "L162",
+  "from": "U173",
+  "at": 0,
+  "start": 265.53,
+  "how": "v6 unit start",
+  "end": 267.465
+ },
+ {
+  "id": "L163",
+  "from": "U175",
+  "at": 0,
+  "start": 267.74,
+  "how": "v6 unit start",
+  "end": 268.825
+ },
+ {
+  "id": "L164",
+  "from": "U176",
+  "at": 0,
+  "start": 269.32,
+  "how": "v6 unit start",
+  "end": 271.165
+ },
+ {
+  "id": "L165",
+  "from": "U177",
+  "at": 0,
+  "start": 271.71,
+  "how": "v6 unit start",
+  "end": 275.765
+ },
+ {
+  "id": "L166",
+  "from": "U180",
+  "at": 0,
+  "start": 276.31,
+  "how": "v6 unit start",
+  "end": 278.325
+ },
+ {
+  "id": "L167",
+  "from": "U181",
+  "at": 0,
+  "start": 278.79,
+  "how": "v6 unit start",
+  "end": 280.265
+ },
+ {
+  "id": "L168",
+  "from": "U182",
+  "at": 0,
+  "start": 280.68,
+  "how": "v6 unit start",
+  "end": 281.445
+ },
+ {
+  "id": "L169",
+  "from": "U183",
+  "at": 0,
+  "start": 281.56,
+  "how": "v6 unit start",
+  "end": 283.425
+ },
+ {
+  "id": "L170",
+  "from": "U184",
+  "at": 0,
+  "start": 283.77,
+  "how": "v6 unit start",
+  "end": 285.465
+ },
+ {
+  "id": "L171",
+  "from": "U185",
+  "at": 0,
+  "start": 285.78,
+  "how": "v6 unit start",
+  "end": 287.165
+ },
+ {
+  "id": "L172",
+  "from": "U186",
+  "at": 0,
+  "start": 287.55,
+  "how": "v6 unit start",
+  "end": 288.925
+ },
+ {
+  "id": "L173",
+  "from": "U187",
+  "at": 0,
+  "start": 289.32,
+  "how": "v6 unit start",
+  "end": 294.965
+ },
+ {
+  "id": "L174",
+  "from": "U190",
+  "at": 0,
+  "start": 295.43,
+  "how": "v6 unit start",
+  "end": 295.94
+ },
+ {
+  "id": "L175",
+  "from": "U190",
+  "at": 6,
+  "start": 296.28,
+  "how": "ctc",
+  "start_ctc": 296.28,
+  "after_word": "이것도",
+  "end": 297.805
+ },
+ {
+  "id": "L176",
+  "from": "U192",
+  "at": 0,
+  "start": 298.3,
+  "how": "v6 unit start",
+  "end": 299.665
+ },
+ {
+  "id": "L177",
+  "from": "U193",
+  "at": 0,
+  "start": 299.75,
+  "how": "v6 unit start",
+  "end": 301.425
+ },
+ {
+  "id": "L178",
+  "from": "U194",
+  "at": 0,
+  "start": 301.92,
+  "how": "v6 unit start",
+  "end": 302.945
+ },
+ {
+  "id": "L179",
+  "from": "U195",
+  "at": 0,
+  "start": 303.38,
+  "how": "v6 unit start",
+  "end": 305.245
+ },
+ {
+  "id": "L180",
+  "from": "U196",
+  "at": 0,
+  "start": 305.42,
+  "how": "v6 unit start",
+  "end": 305.805
+ },
+ {
+  "id": "L181",
+  "from": "U197",
+  "at": 0,
+  "start": 306.22,
+  "how": "v6 unit start",
+  "end": 308.325
+ },
+ {
+  "id": "L182",
+  "from": "U198",
+  "at": 0,
+  "start": 308.76,
+  "how": "v6 unit start",
+  "end": 309.765
+ },
+ {
+  "id": "L183",
+  "from": "U199",
+  "at": 0,
+  "start": 310.11,
+  "how": "v6 unit start",
+  "end": 311.025
+ },
+ {
+  "id": "L184",
+  "from": "U200",
+  "at": 0,
+  "start": 311.25,
+  "how": "v6 unit start",
+  "end": 312.525
+ },
+ {
+  "id": "L185",
+  "from": "U201",
+  "at": 0,
+  "start": 312.92,
+  "how": "v6 unit start",
+  "end": 314.325
+ },
+ {
+  "id": "L186",
+  "from": "U202",
+  "at": 0,
+  "start": 314.61,
+  "how": "v6 unit start",
+  "end": 316.285
+ },
+ {
+  "id": "L187",
+  "from": "U203",
+  "at": 0,
+  "start": 316.37,
+  "how": "v6 unit start",
+  "end": 317.165
+ },
+ {
+  "id": "L188",
+  "from": "U204",
+  "at": 0,
+  "start": 317.55,
+  "how": "v6 unit start",
+  "end": 319.965
+ },
+ {
+  "id": "L189",
+  "from": "U205",
+  "at": 0,
+  "start": 320.44,
+  "how": "v6 unit start",
+  "end": 321.405
+ },
+ {
+  "id": "L190",
+  "from": "U206",
+  "at": 0,
+  "start": 321.65,
+  "how": "v6 unit start",
+  "end": 322.965
+ },
+ {
+  "id": "L191",
+  "from": "U207",
+  "at": 0,
+  "start": 323.37,
+  "how": "v6 unit start",
+  "end": 324.985
+ },
+ {
+  "id": "L192",
+  "from": "U208",
+  "at": 0,
+  "start": 325.09,
+  "how": "v6 unit start",
+  "end": 326.185
+ },
+ {
+  "id": "L193",
+  "from": "U209",
+  "at": 0,
+  "start": 326.63,
+  "how": "v6 unit start",
+  "end": 327.405
+ },
+ {
+  "id": "L194",
+  "from": "U210",
+  "at": 0,
+  "start": 327.75,
+  "how": "v6 unit start",
+  "end": 329.325
+ },
+ {
+  "id": "L195",
+  "from": "U211",
+  "at": 0,
+  "start": 329.66,
+  "how": "v6 unit start",
+  "end": 331.005
+ },
+ {
+  "id": "L196",
+  "from": "U212",
+  "at": 0,
+  "start": 331.29,
+  "how": "v6 unit start",
+  "end": 332.545
+ },
+ {
+  "id": "L197",
+  "from": "U213",
+  "at": 0,
+  "start": 332.86,
+  "how": "v6 unit start",
+  "end": 334.385
+ },
+ {
+  "id": "L198",
+  "from": "U214",
+  "at": 0,
+  "start": 334.77,
+  "how": "v6 unit start",
+  "end": 335.725
+ },
+ {
+  "id": "L199",
+  "from": "U215",
+  "at": 0,
+  "start": 336.16,
+  "how": "v6 unit start",
+  "end": 338.165
+ },
+ {
+  "id": "L200",
+  "from": "U216",
+  "at": 0,
+  "start": 338.5,
+  "how": "v6 unit start",
+  "end": 339.565
+ },
+ {
+  "id": "L201",
+  "from": "U217",
+  "at": 0,
+  "start": 339.93,
+  "how": "v6 unit start",
+  "end": 341.385
+ },
+ {
+  "id": "L202",
+  "from": "U218",
+  "at": 0,
+  "start": 341.85,
+  "how": "v6 unit start",
+  "end": 342.185
+ },
+ {
+  "id": "L203",
+  "from": "U219",
+  "at": 0,
+  "start": 342.5,
+  "how": "v6 unit start",
+  "end": 344.285
+ },
+ {
+  "id": "L204",
+  "from": "U220",
+  "at": 0,
+  "start": 344.72,
+  "how": "v6 unit start",
+  "end": 346.005
+ },
+ {
+  "id": "L205",
+  "from": "U221",
+  "at": 0,
+  "start": 346.43,
+  "how": "v6 unit start",
+  "end": 347.885
+ },
+ {
+  "id": "L206",
+  "from": "U222",
+  "at": 0,
+  "start": 348.16,
+  "how": "v6 unit start",
+  "end": 350.125
+ },
+ {
+  "id": "L207",
+  "from": "U223",
+  "at": 0,
+  "start": 350.44,
+  "how": "v6 unit start",
+  "end": 351.805
+ },
+ {
+  "id": "L208",
+  "from": "U224",
+  "at": 0,
+  "start": 352.18,
+  "how": "v6 unit start",
+  "end": 354.145
+ },
+ {
+  "id": "L209",
+  "from": "U225",
+  "at": 0,
+  "start": 354.54,
+  "how": "v6 unit start",
+  "end": 356.21
+ },
+ {
+  "id": "L210",
+  "from": "U226",
+  "at": 3,
+  "start": 356.39,
+  "how": "ctc",
+  "start_ctc": 356.39,
+  "after_word": "원인이",
+  "end": 357.305
+ },
+ {
+  "id": "L211",
+  "from": "U227",
+  "at": 0,
+  "start": 357.67,
+  "how": "v6 unit start",
+  "end": 359.105
+ },
+ {
+  "id": "L212",
+  "from": "U228",
+  "at": 0,
+  "start": 359.35,
+  "how": "v6 unit start",
+  "end": 360.185
+ },
+ {
+  "id": "L213",
+  "from": "U229",
+  "at": 0,
+  "start": 360.62,
+  "how": "v6 unit start",
+  "end": 364.085
+ },
+ {
+  "id": "L214",
+  "from": "U231",
+  "at": 0,
+  "start": 364.45,
+  "how": "v6 unit start",
+  "end": 366.625
+ },
+ {
+  "id": "L215",
+  "from": "U233",
+  "at": 0,
+  "start": 367.13,
+  "how": "v6 unit start",
+  "end": 369.11
+ },
+ {
+  "id": "L216",
+  "from": "U234",
+  "at": 0,
+  "start": 369.52,
+  "how": "v6 unit start",
+  "end": 371.95
+ },
+ {
+  "id": "L217",
+  "from": "U236",
+  "at": 0,
+  "start": 372.39,
+  "how": "v6 unit start",
+  "end": 372.92
+ },
+ {
+  "id": "L218",
+  "from": "U236",
+  "at": 5,
+  "start": 373.2,
+  "how": "ctc",
+  "start_ctc": 373.2,
+  "after_word": "처음엔",
+  "end": 375.23
+ },
+ {
+  "id": "L219",
+  "from": "U238",
+  "at": 0,
+  "start": 375.55,
+  "how": "v6 unit start",
+  "end": 375.96
+ },
+ {
+  "id": "L220",
+  "from": "U238",
+  "at": 4,
+  "start": 376.24,
+  "how": "ctc",
+  "start_ctc": 376.24,
+  "after_word": "출근하면",
+  "end": 376.915
+ },
+ {
+  "id": "L221",
+  "from": "U239",
+  "at": 0,
+  "start": 377.54,
+  "how": "v6 unit start",
+  "end": 377.9
+ },
+ {
+  "id": "L222",
+  "from": "U239",
+  "at": 4,
+  "start": 378.14,
+  "how": "ctc",
+  "start_ctc": 378.14,
+  "after_word": "퇴근해서",
+  "end": 379.315
+ },
+ {
+  "id": "L223",
+  "from": "U241",
+  "at": 0,
+  "start": 379.91,
+  "how": "v6 unit start",
+  "end": 381.535
+ },
+ {
+  "id": "L224",
+  "from": "U241b",
+  "at": 0,
+  "start": 381.77,
+  "how": "v6 unit start",
+  "end": 382.595
+ },
+ {
+  "id": "L225",
+  "from": "U242",
+  "at": 0,
+  "start": 383.08,
+  "how": "v6 unit start",
+  "end": 384.805
+ },
+ {
+  "id": "L226",
+  "from": "U243",
+  "at": 0,
+  "start": 384.92,
+  "how": "v6 unit start",
+  "end": 385.525
+ },
+ {
+  "id": "L227",
+  "from": "U244",
+  "at": 0,
+  "start": 385.9,
+  "how": "v6 unit start",
+  "end": 391.425
+ },
+ {
+  "id": "L228",
+  "from": "U248",
+  "at": 0,
+  "start": 391.78,
+  "how": "v6 unit start",
+  "end": 396.085
+ },
+ {
+  "id": "L229",
+  "from": "U251",
+  "at": 0,
+  "start": 396.58,
+  "how": "v6 unit start",
+  "end": 397.965
+ },
+ {
+  "id": "L230",
+  "from": "U252",
+  "at": 0,
+  "start": 398.39,
+  "how": "v6 unit start",
+  "end": 399.445
+ },
+ {
+  "id": "L231",
+  "from": "U253",
+  "at": 0,
+  "start": 399.59,
+  "how": "v6 unit start",
+  "end": 401.145
+ },
+ {
+  "id": "L232",
+  "from": "U254",
+  "at": 0,
+  "start": 401.58,
+  "how": "v6 unit start",
+  "end": 403.98
+ },
+ {
+  "id": "L233",
+  "from": "U255",
+  "at": 7,
+  "start": 404.14,
+  "how": "ctc",
+  "start_ctc": 404.14,
+  "after_word": "프로이덴버거가",
+  "end": 404.845
+ },
+ {
+  "id": "L234",
+  "from": "U256",
+  "at": 0,
+  "start": 405.19,
+  "how": "v6 unit start",
+  "end": 412.955
+ },
+ {
+  "id": "L235",
+  "from": "U261",
+  "at": 0,
+  "start": 413.37,
+  "how": "v6 unit start",
+  "end": 413.8
+ },
+ {
+  "id": "L236",
+  "from": "U262",
+  "at": 0,
+  "start": 414.11,
+  "how": "v6 unit start",
+  "end": 416.33
+ },
+ {
+  "id": "L237",
+  "from": "U263",
+  "at": 4,
+  "start": 416.55,
+  "how": "ctc",
+  "start_ctc": 416.55,
+  "after_word": "점인지",
+  "end": 417.16
+ },
+ {
+  "id": "L238",
+  "from": "U264",
+  "at": 0,
+  "start": 417.57,
+  "how": "v6 unit start",
+  "end": 418.14
+ },
+ {
+  "id": "L239",
+  "from": "U265",
+  "at": 0,
+  "start": 418.46,
+  "how": "v6 unit start",
+  "end": 419.64
+ },
+ {
+  "id": "L240",
+  "from": "U266",
+  "at": 0,
+  "start": 420.03,
+  "how": "v6 unit start",
+  "end": 421.38
+ },
+ {
+  "id": "L241",
+  "from": "U267",
+  "at": 0,
+  "start": 421.9,
+  "how": "v6 unit start",
+  "end": 422.88
+ },
+ {
+  "id": "L242",
+  "from": "U268",
+  "at": 0,
+  "start": 423.23,
+  "how": "v6 unit start",
+  "end": 424.3
+ },
+ {
+  "id": "L243",
+  "from": "U269",
+  "at": 0,
+  "start": 424.64,
+  "how": "v6 unit start",
+  "end": 426.0
+ },
+ {
+  "id": "L244",
+  "from": "U270",
+  "at": 0,
+  "start": 426.13,
+  "how": "v6 unit start",
+  "end": 427.43
+ },
+ {
+  "id": "L245",
+  "from": "U271",
+  "at": 0,
+  "start": 427.38,
+  "how": "v6 unit start",
+  "end": 430.41
+ },
+ {
+  "id": "L246",
+  "from": "U273",
+  "at": 0,
+  "start": 430.72,
+  "how": "v6 unit start",
+  "end": 431.61
+ },
+ {
+  "id": "L247",
+  "from": "U274",
+  "at": 0,
+  "start": 431.99,
+  "how": "v6 unit start",
+  "end": 433.71
+ },
+ {
+  "id": "L248",
+  "from": "U275",
+  "at": 0,
+  "start": 434.08,
+  "how": "v6 unit start",
+  "end": 436.43
+ },
+ {
+  "id": "L249",
+  "from": "U277",
+  "at": 0,
+  "start": 436.82,
+  "how": "v6 unit start",
+  "end": 437.19
+ },
+ {
+  "id": "L250",
+  "from": "U278",
+  "at": 0,
+  "start": 437.51,
+  "how": "v6 unit start",
+  "end": 439.55
+ },
+ {
+  "id": "L251",
+  "from": "U279",
+  "at": 0,
+  "start": 439.63,
+  "how": "v6 unit start",
+  "end": 439.99
+ },
+ {
+  "id": "L252",
+  "from": "U280",
+  "at": 0,
+  "start": 440.4,
+  "how": "v6 unit start",
+  "end": 442.99
+ },
+ {
+  "id": "L253",
+  "from": "U281",
+  "at": 3,
+  "start": 443.29,
+  "how": "after pause (0.18 s)",
+  "start_ctc": 443.25,
+  "after_word": "하나만",
+  "end": 444.01
+ },
+ {
+  "id": "L254",
+  "from": "U282",
+  "at": 0,
+  "start": 444.33,
+  "how": "v6 unit start",
+  "end": 445.53
+ },
+ {
+  "id": "L255",
+  "from": "U283",
+  "at": 0,
+  "start": 445.92,
+  "how": "v6 unit start",
+  "end": 447.38
+ },
+ {
+  "id": "L256",
+  "from": "U284",
+  "at": 4,
+  "start": 447.62,
+  "how": "after pause (0.12 s)",
+  "start_ctc": 447.62,
+  "after_word": "사람인지",
+  "end": 448.13
+ },
+ {
+  "id": "L257",
+  "from": "U285",
+  "at": 0,
+  "start": 448.51,
+  "how": "v6 unit start",
+  "end": 449.538
+ },
+ {
+  "id": "L258",
+  "from": "U286",
+  "at": 0,
+  "start": 449.78,
+  "how": "v6 unit start",
+  "end": 450.658
+ },
+ {
+  "id": "L259",
+  "from": "U287",
+  "at": 0,
+  "start": 451.05,
+  "how": "v6 unit start",
+  "end": 452.7
+ },
+ {
+  "id": "L260",
+  "from": "U288",
+  "at": 5,
+  "start": 452.88,
+  "how": "ctc",
+  "start_ctc": 452.88,
+  "after_word": "걸",
+  "end": 453.198
+ },
+ {
+  "id": "L261",
+  "from": "U289",
+  "at": 0,
+  "start": 453.67,
+  "how": "v6 unit start",
+  "end": 455.238
+ },
+ {
+  "id": "L262",
+  "from": "U290",
+  "at": 0,
+  "start": 455.52,
+  "how": "v6 unit start",
+  "end": 457.86
+ },
+ {
+  "id": "L263",
+  "from": "U291",
+  "at": 4,
+  "start": 457.94,
+  "how": "ctc",
+  "start_ctc": 457.94,
+  "after_word": "첫걸음이",
+  "end": 458.808
+ },
+ {
+  "id": "L264",
+  "from": "U292",
+  "at": 0,
+  "start": 459.19,
+  "how": "v6 unit start",
+  "end": 460.138
+ },
+ {
+  "id": "L265",
+  "from": "U293",
+  "at": 0,
+  "start": 460.56,
+  "how": "v6 unit start",
+  "end": 462.198
+ },
+ {
+  "id": "L266",
+  "from": "U294",
+  "at": 0,
+  "start": 462.61,
+  "how": "v6 unit start",
+  "end": 463.38
+ },
+ {
+  "id": "L267",
+  "from": "U294",
+  "at": 7,
+  "start": 463.81,
+  "how": "after pause (0.19 s)",
+  "start_ctc": 463.78,
+  "after_word": "아침은",
+  "end": 464.738
+ },
+ {
+  "id": "L268",
+  "from": "U295",
+  "at": 0,
+  "start": 465.44,
+  "how": "v6 unit start",
+  "end": 467.478
+ },
+ {
+  "id": "L269",
+  "from": "U297",
+  "at": 0,
+  "start": 467.65,
+  "how": "v6 unit start",
+  "end": 468.558
+ },
+ {
+  "id": "L270",
+  "from": "U298",
+  "at": 0,
+  "start": 469.24,
+  "how": "v6 unit start",
+  "end": 470.473
+ },
+ {
+  "id": "L271",
+  "from": "U299",
+  "at": 0,
+  "start": 470.61,
+  "how": "v6 unit start",
+  "end": 471.313
+ },
+ {
+  "id": "L272",
+  "from": "U300",
+  "at": 0,
+  "start": 471.74,
+  "how": "v6 unit start",
+  "end": 472.873
+ },
+ {
+  "id": "L273",
+  "from": "U301",
+  "at": 0,
+  "start": 473.29,
+  "how": "v6 unit start",
+  "end": 474.913
+ },
+ {
+  "id": "L274",
+  "from": "U302",
+  "at": 0,
+  "start": 475.27,
+  "how": "v6 unit start",
+  "end": 477.413
+ },
+ {
+  "id": "L275",
+  "from": "U304",
+  "at": 0,
+  "start": 477.71,
+  "how": "v6 unit start",
+  "end": 481.223
+ },
+ {
+  "id": "L276",
+  "from": "U306",
+  "at": 0,
+  "start": 481.39,
+  "how": "v6 unit start",
+  "end": 482.663
+ },
+ {
+  "id": "L277",
+  "from": "U307",
+  "at": 0,
+  "start": 483.08,
+  "how": "v6 unit start",
+  "end": 484.823
+ },
+ {
+  "id": "L278",
+  "from": "U308",
+  "at": 0,
+  "start": 485.01,
+  "how": "v6 unit start",
+  "end": 486.283
+ },
+ {
+  "id": "L279",
+  "from": "U309",
+  "at": 0,
+  "start": 486.52,
+  "how": "v6 unit start",
+  "end": 487.903
+ },
+ {
+  "id": "L280",
+  "from": "U310",
+  "at": 0,
+  "start": 488.42,
+  "how": "v6 unit start",
+  "end": 489.843
+ },
+ {
+  "id": "L281",
+  "from": "U311",
+  "at": 0,
+  "start": 490.13,
+  "how": "v6 unit start",
+  "end": 491.363
+ }
+]

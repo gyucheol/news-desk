@@ -321,6 +321,7 @@ def main():
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
     layers = [(s["start"], s["end"], render_text_layer(s)) for s in tl["subs"]]
+    sub_start = {s["unit"]: s["start"] for s in tl["subs"]}
     black = Image.new("RGB", (W, H), (0, 0, 0))
     labels, label_font, titles = {}, ImageFont.truetype(FONT_PATH, 44), {}
 
@@ -348,6 +349,11 @@ def main():
             cx = lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u)
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
             img = kenburns(srcs[photo_key(sc)], z, cx, cy).convert("RGBA")
+            if sc.get("overlay"):              # text drawn over the photo (icons.py OVERLAYS), lines timed to units
+                import icons
+                ov = sc["overlay"]
+                at = [sub_start[u] - sc["start"] for u in ov.get("at", []) if u in sub_start]
+                img.alpha_composite(icons.overlay(ov["kind"], t - sc["start"], sc["end"] - sc["start"], at))
         elif sc.get("label"):                  # item card: small "1 / 3" above the centred line (scene table 항목카드)
             if sc["label"] not in labels:
                 lab = black.copy()

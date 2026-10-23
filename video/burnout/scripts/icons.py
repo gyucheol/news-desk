@@ -563,3 +563,29 @@ KINDS = {
 
 def draw(kind, t, dur):
     return KINDS[kind](t, dur).resize((W, H), Image.LANCZOS)
+
+
+# --- v5 overlays (2026-10-23): text drawn over a photo scene (render.py, scene key "overlay") -------------------------
+def news_card(t, dur, at):
+    """Over the news photo: 작년 12월 / 31살 직장인 / 박 모 씨, each line fading in when it is spoken (at: three times in
+    seconds from the scene start), centred, with a soft shadow so it reads on the darkened photo."""
+    at = list(at) + [0.0, 0.9, 0.9][len(at):]
+    img = Image.new("RGBA", (W * SS, H * SS), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    lines = [("작년 12월", font(52), (215, 215, 215), CY - 70 * SS), ("31살 직장인", font_b(96), WHITE, CY + 30 * SS),
+             ("박 모 씨", font_b(72), YEL, CY + 120 * SS)]
+    for (s, f, col, y), t0 in zip(lines, at):
+        k = sm((t - t0) / 0.35)
+        if k > 0:
+            d.text((CX, y), s, font=f, fill=col + (round(255 * k),), anchor="ms")
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    sh.putalpha(img.getchannel("A").filter(ImageFilter.GaussianBlur(14 * SS)).point(lambda v: min(255, round(v * 1.6))))
+    sh.alpha_composite(img)
+    return sh.resize((W, H), Image.LANCZOS)
+
+
+OVERLAYS = {"news_card": news_card}
+
+
+def overlay(kind, t, dur, at):
+    return OVERLAYS[kind](t, dur, at)

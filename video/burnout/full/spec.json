@@ -1157,8 +1157,26 @@
   {
    "id": "108",
    "from": "U233",
-   "type": "icon",
-   "icon": "news"
+   "type": "photo",
+   "image": "../work/stock/stills/41192_7.4.png",
+   "note": "Mixkit 41192 POV flipping through a newspaper (still at 7.4 s)",
+   "grade": {
+    "sat": 0.6,
+    "black": 0.08,
+    "gamma": 1.9,
+    "vignette": 0.6
+   },
+   "blur": 12,
+   "z0": 1.0,
+   "z1": 1.04,
+   "overlay": {
+    "kind": "news_card",
+    "at": [
+     "U233",
+     "U234",
+     "U235"
+    ]
+   }
   },
   {
    "id": "109",
@@ -1178,40 +1196,48 @@
    "id": "110",
    "from": "U238",
    "type": "video",
-   "src": "../work/stock/full/26089.mp4",
-   "in": 1.0,
+   "src": "../work/stock/full/4801.mp4",
+   "in": 0.2,
    "grade": {
     "sat": 0.85,
     "black": 0.05,
     "gamma": 1.3,
     "vignette": 0.5
    },
-   "note": "Mixkit 26089 Man watching TV and eating fast food"
+   "note": "Mixkit 4801 Young man sitting scrolling on his cell phone"
   },
   {
    "id": "111",
    "from": "U239",
    "type": "video",
-   "src": "../work/stock/full/26090.mp4",
-   "in": 8.0,
+   "src": "../work/stock/full/42834.mp4",
+   "in": 4.8,
    "grade": {
     "sat": 0.85,
     "black": 0.05,
     "gamma": 1.3,
     "vignette": 0.5
    },
-   "note": "Mixkit 26090 Table in a living room with fast food while a man watches television"
+   "note": "Mixkit 42834 Hands of a guitarist changing chords"
   },
   {
    "id": "112",
-   "from": "U240",
+   "from": "U241",
+   "type": "video",
+   "src": "../work/stock/full/31416.mp4",
+   "in": 4.4,
+   "note": "Mixkit 31416 Young man turns off the light to lie down to sleep"
+  },
+  {
+   "id": "113",
+   "from": "U241b",
    "type": "video",
    "src": "../work/stock/full/31411.mp4",
    "in": 8.0,
    "note": "Mixkit 31411 Sleeping boy moves in bed"
   },
   {
-   "id": "113",
+   "id": "114",
    "from": "U242",
    "type": "video",
    "src": "../work/stock/full/4720.mp4",
@@ -1225,7 +1251,7 @@
    "note": "Mixkit 4720 Lonely boy on a park bench"
   },
   {
-   "id": "114",
+   "id": "115",
    "from": "U244",
    "type": "photo",
    "image": "images/A16_s1.png",
@@ -1237,17 +1263,17 @@
     "vignette": 0.6
    },
    "blur": 9,
-   "z0": 1.05,
+   "z0": 1.0,
    "z1": 1.05,
    "center_subs": true
   },
   {
-   "id": "115",
+   "id": "116",
    "from": "U248",
    "type": "card"
   },
   {
-   "id": "116",
+   "id": "117",
    "from": "U251",
    "type": "video",
    "src": "../work/stock/full/3461.mp4",
@@ -1255,7 +1281,7 @@
    "note": "Mixkit 3461 Lighting candles in the dark"
   },
   {
-   "id": "117",
+   "id": "118",
    "from": "U254",
    "type": "video",
    "src": "../work/stock/full/50956.mp4",
@@ -1263,18 +1289,18 @@
    "note": "Mixkit 50956 Soft and traslucent smoke flows up on a dark background"
   },
   {
-   "id": "118",
+   "id": "119",
    "from": "U256",
    "type": "card"
   },
   {
-   "id": "119",
+   "id": "120",
    "from": "U261",
    "type": "icon",
    "icon": "memo10"
   },
   {
-   "id": "120",
+   "id": "121",
    "from": "U264",
    "type": "video",
    "src": "../work/stock/full/99910.mp4",
@@ -1288,24 +1314,24 @@
    "note": "Mixkit 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen"
   },
   {
-   "id": "121",
+   "id": "122",
    "from": "U267",
    "type": "card"
   },
   {
-   "id": "122",
+   "id": "123",
    "from": "U268",
    "type": "icon",
    "icon": "week"
   },
   {
-   "id": "123",
+   "id": "124",
    "from": "U271",
    "type": "icon",
    "icon": "week3"
   },
   {
-   "id": "124",
+   "id": "125",
    "from": "U273",
    "type": "video",
    "src": "../work/stock/full/3977.mp4",
@@ -1313,25 +1339,25 @@
    "note": "Mixkit 3977 View of a window with a curtain"
   },
   {
-   "id": "125",
+   "id": "126",
    "from": "U277",
    "type": "icon",
    "icon": "six"
   },
   {
-   "id": "126",
+   "id": "127",
    "from": "U280",
    "type": "icon",
    "icon": "six_pick"
   },
   {
-   "id": "127",
+   "id": "128",
    "from": "U282",
    "type": "icon",
    "icon": "six_seq"
   },
   {
-   "id": "128",
+   "id": "129",
    "from": "U285",
    "type": "video",
    "src": "../work/stock/full/50112.mp4",
@@ -1345,7 +1371,7 @@
    "note": "Mixkit 50112 Student hand takes a stiky note to paste it on the notebook"
   },
   {
-   "id": "129",
+   "id": "130",
    "from": "U289",
    "type": "video",
    "src": "../work/stock/full/52452.mp4",
@@ -1359,7 +1385,7 @@
    "note": "Mixkit 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway."
   },
   {
-   "id": "130",
+   "id": "131",
    "from": "U292",
    "type": "video",
    "src": "../work/stock/full/28899.mp4",
@@ -1373,13 +1399,13 @@
    "note": "Mixkit 28899 Woman turning off her alarm clock in the morning"
   },
   {
-   "id": "131",
+   "id": "132",
    "from": "U294",
    "type": "icon",
    "icon": "battery"
   },
   {
-   "id": "132",
+   "id": "133",
    "from": "U298",
    "type": "video",
    "src": "../work/stock/full/100831.mp4",
@@ -1388,7 +1414,7 @@
    "note": "Mixkit 100831 Sky Transitioning from Night to Sunrise"
   },
   {
-   "id": "133",
+   "id": "134",
    "from": "U301",
    "type": "video",
    "src": "../work/stock/full/4548.mp4",
@@ -1402,12 +1428,12 @@
    "note": "Mixkit 4548 Woman lying on a sofa"
   },
   {
-   "id": "134",
+   "id": "135",
    "from": "U304",
    "type": "card"
   },
   {
-   "id": "135",
+   "id": "136",
    "from": "U306",
    "type": "video",
    "src": "../work/stock/full/4397.mp4",
@@ -1421,7 +1447,7 @@
    "note": "Mixkit 4397 The silhouette of a woman at sunrise"
   },
   {
-   "id": "136",
+   "id": "137",
    "from": "U310",
    "type": "video",
    "src": "../work/stock/full/1086.mp4",
@@ -2486,18 +2512,15 @@
   },
   {
    "unit": "U233",
-   "text": "작년 12월, 한 언론 기사에",
-   "box": false
+   "text": "작년 12월, 한 언론 기사에"
   },
   {
    "unit": "U234",
-   "text": "26살 직장인",
-   "box": false
+   "text": "31살 직장인"
   },
   {
    "unit": "U235",
-   "text": "박 모 씨의 이야기가 실렸습니다.",
-   "box": false
+   "text": "박 모 씨의 이야기가 실렸습니다."
   },
   {
    "unit": "U236",
@@ -2509,19 +2532,23 @@
   },
   {
    "unit": "U238",
-   "text": "폭식을 하다가도"
+   "text": "출근하면 일할 의욕이 없고,"
   },
   {
    "unit": "U239",
-   "text": "갑자기 입맛이 싹 사라지는 날이 반복됐고,"
+   "text": "퇴근해서 취미를 하나"
   },
   {
    "unit": "U240",
-   "text": "화장실 갈 기운도 없어"
+   "text": "만들어보려고 해도"
   },
   {
    "unit": "U241",
-   "text": "잠만 자는 날이 이어졌다고 합니다."
+   "text": "너무 피곤해서 잠만 자는 날이"
+  },
+  {
+   "unit": "U241b",
+   "text": "계속 이어졌다고 합니다."
   },
   {
    "unit": "U242",
@@ -2566,12 +2593,17 @@
   },
   {
    "unit": "U249",
-   "text": "'[열심히 살고 있는데도]'라는",
+   "text": "'[열심히 살고 있는데도]'",
    "pos": "center"
   },
   {
    "unit": "U250",
-   "text": "부분이 유독 마음에 오래 남더라고요.",
+   "text": "라는 부분이",
+   "pos": "center"
+  },
+  {
+   "unit": "U250b",
+   "text": "유독 마음에 오래 남더라고요.",
    "pos": "center"
   },
   {

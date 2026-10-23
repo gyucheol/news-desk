@@ -9,6 +9,11 @@
 # "그렇다면 오늘 이야기가 / 그 질문의 답을 찾는 데 / 작은 힌트가 될지도 모르겠습니다." (the bulb screen covers all three).
 # v4 (2026-10-23): U049-U050 show the owner's photo of Freudenberger instead of the name card (the owner says the
 # copyright holder allowed it); the 2019/WHO screen shows the WHO emblem cut from the owner's image (icons.py).
+# v5 (2026-10-23): the owner re-recorded U233-U235 (now 서른한 살) and U238-U241 (new wording, five units U238-U241b)
+# and split U249-U250 into 저는 이 말 중에서 / '열심히 살고 있는데도' / 라는 부분이 / 유독 마음에 오래 남더라고요.
+# Scenes the owner asked for: a stock news photo behind the 작년 12월 / 31살 직장인 / 박 모 씨 text, zooming in very
+# slowly (U233); stock clips that show the new line (U238 phone instead of work, U239 trying the guitar, U241-U241b
+# going to sleep and asleep; the same young man as U236); the quote photo (A16) slowly zooms in.
 # usage: build_spec.py <folder with units.json> [stock search index.json, adds clip titles as notes] -> <folder>/spec.json
 import json, re, sys
 F = sys.argv[1]
@@ -19,7 +24,7 @@ TXT = {u["id"]: u["text"] for u in units}
 DIGITS = [("여섯 시쯤", "6시쯤"), ("천구백칠십 년대", "1970년대"), ("열두 시간", "12시간"), ("새벽 두 시", "새벽 2시"),
           ("한두 시간씩", "1~2시간씩"), ("천구백칠십사 년", "1974년"), ("이천십구 년", "2019년"), ("세 가지", "3가지"),
           ("열 시간", "10시간"), ("한 시간째", "1시간째"), ("이천구 년", "2009년"), ("일곱 편", "7편"),
-          ("여섯 가지", "6가지"), ("십이월", "12월"), ("스물여섯 살", "26살"), ("두 가지", "2가지"),
+          ("여섯 가지", "6가지"), ("십이월", "12월"), ("스물여섯 살", "26살"), ("서른한 살", "31살"), ("두 가지", "2가지"),
           ("십 점", "10점"), ("삼 점", "3점")]
 EMPH = {"U047": "번아웃", "U094": "번아웃", "U106": "직장 스트레스", "U113": "질병", "U116": "직장", "U121": "배터리",
         "U127": "무언가", "U129": "3가지", "U131": "에너지", "U149": "꺼내 쓸 힘", "U152": "연료", "U154": "거리",
@@ -44,6 +49,9 @@ DARK = {"sat": 0.85, "black": 0.05, "gamma": 1.3, "vignette": 0.5}
 AI_FILES = {}                                      # filled in below from the chosen seeds
 # photos the owner supplied (2026-10-23, permission per the owner); not in the repository: put them in work/photos/
 PHOTO_FILES = {"F01": "../work/photos/freudenberger.png"}
+# stills cut from Mixkit Free clips (fetch_stock.sh makes them): id -> (clip, second)
+STILLS = {"N01": ("41192", 7.4)}                   # an open newspaper; blurred so no headline or masthead can be read
+NEWS = {"sat": 0.6, "black": 0.08, "gamma": 1.9, "vignette": 0.6}         # dark enough for the white text on top
 AI_SEED = {"A01": 1, "A02": 1, "A07": 21, "A11": 1, "A12": 1, "A16": 1}
 for k, sd in AI_SEED.items():
     AI_FILES[k] = f"{k}_s{sd}.png"
@@ -129,13 +137,17 @@ PLAN = [
  ("U227", "v", "1623", {"in": 8.0, "grade": DARK}), ("U229", "card", None, {}),
  # ⑥ a real story (potato character comes later)
  ("U231", "card", None, {}),
- ("U233", "icon", "news", {}),                                # news graphic (owner: 뉴스, 기사)
- ("U236", "v", "31415", {"in": 1.0, "grade": DARK}), ("U238", "v", "26089", {"in": 1.0, "grade": DARK}),
- ("U239", "v", "26090", {"in": 8.0, "grade": DARK}),
- ("U240", "v", "31411", {"in": 8.0}),
+ ("U233", "photo", "N01", {"grade": NEWS, "blur": 12, "z0": 1.0, "z1": 1.04,     # news photo, very slow push-in (owner)
+                           "overlay": {"kind": "news_card", "at": ["U233", "U234", "U235"]}}),  # lines appear as spoken
+ ("U236", "v", "31415", {"in": 1.0, "grade": DARK}),
+ ("U238", "v", "4801", {"in": 0.2, "grade": DARK}),           # 출근하면 일할 의욕이 없고: phone instead of work, from above
+ ("U239", "v", "42834", {"in": 4.8, "grade": DARK}),          # 퇴근해서 취미를 하나 만들어보려고 해도: guitar chords
+ ("U241", "v", "31416", {"in": 4.4}),                         # 너무 피곤해서 잠만 자는 날이: eye mask on, lying down
+ ("U241b", "v", "31411", {"in": 8.0}),                        # 계속 이어졌다고 합니다: asleep (same man as U236)
  ("U242", "v", "4720", {"in": 8.0, "grade": DARK}),
  ("U244", "photo", "A16", {"grade": {"sat": 0.7, "black": 0.08, "gamma": 1.9, "vignette": 0.6}, "blur": 9,
-                           "z0": 1.05, "z1": 1.05, "center_subs": True}),   # the quote over the blurred, darkened interview (owner)
+                           "z0": 1.0, "z1": 1.05, "center_subs": True}),    # the quote over the blurred, darkened interview,
+                                                                            # slowly zooming in (owner, v5)
  ("U248", "card", None, {}),
  ("U251", "v", "3461", {"in": 6.0}), ("U254", "v", "50956", {"in": 8.0}),
  # ⑦ two small things to try
@@ -168,10 +180,14 @@ for i, (fu, kind, arg, ex) in enumerate(PLAN):
     elif kind == "photo":
         if arg in AI_FILES:
             sc.update({"type": "photo", "image": f"images/{AI_FILES[arg]}", "note": f"AI image {arg}"})
+        elif arg in STILLS:
+            vid, at = STILLS[arg]
+            sc.update({"type": "photo", "image": f"../work/stock/stills/{vid}_{at}.png",
+                       "note": f"Mixkit {vid} {idx[vid]['title'] if vid in idx else ''} (still at {at} s)".replace("  ", " ")})
         else:
             sc.update({"type": "photo", "image": PHOTO_FILES[arg], "note": f"owner photo {arg}"})
         for k in ("grade", "blur", "z0", "z1", "cx0", "cx1", "cy0", "cy1", "title", "title_sub", "title_size",
-                  "title_color", "title_delay", "center_subs"):
+                  "title_color", "title_delay", "center_subs", "overlay"):
             if k in ex: sc[k] = ex[k]
     else:
         sc.update({"type": "card"})

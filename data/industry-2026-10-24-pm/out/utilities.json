@@ -1,0 +1,51 @@
+{
+ "id": "utilities",
+ "summary": "",
+ "state": {
+  "gasnet": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-22/pg-e-weighs-gas-business-separation-over-california-fire-rules",
+    "nid": "n-bbg-0655",
+    "t": "PG&E는 주 의회가 산불 책임 법안을 처리하지 않자 가스 사업 분사·매각을 검토하며, 약 400만 가스 고객이 투자등급 미만 차입비용을 낸다고 주장했습니다 [사실]"
+   }
+  ],
+  "capital": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-22/pg-e-weighs-gas-business-separation-over-california-fire-rules",
+    "nid": "n-bbg-0655",
+    "t": "PG&E는 링펜싱·자산 매각·사업 분리 검토 결과를 늦어도 내년 여름까지 내놓고 11월 1일 나올 CPUC 보고서를 지켜본다고 밝혀, 산불 책임이 자본 비용을 좌우합니다 [사실]"
+   }
+  ],
+  "water": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-22/argentina-seals-water-deal-in-win-for-milei-s-privatization-push",
+    "nid": "n-bbg-0695",
+    "t": "아르헨티나 정부가 수도 사업 매각 계약을 체결해 밀레이 대통령의 민영화 추진이 성과를 냈다고 블룸버그가 전했습니다 [제목]"
+   }
+  ]
+ },
+ "industryState": [],
+ "flags": [
+  {
+   "nid": "n-bbg-0655",
+   "t": "재검토 필요: PG&E의 가스 사업 분리 검토는 산불 책임 탓에 자본 조달 비용이 투자등급 미만으로 오르는 ④ 수익 악화·비관 쪽 신호를 캘리포니아에서 가리키지만, 회사 단위 사안이라 미국 가스망 전체 판정은 바꾸지 않습니다 [유추]"
+  }
+ ],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 2건 반영: PG&E 산불 책임 탓 가스 사업 분리 검토, 아르헨티나 수도 사업 매각 계약. 국면 ② 그대로(분할 유지), 근거 3줄, 수치 0줄, 재검토 신호 1건, 검색 0회",
+ "applied": [
+  "n-bbg-0655",
+  "n-bbg-0695"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

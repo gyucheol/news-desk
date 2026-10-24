@@ -1,0 +1,120 @@
+[
+ {
+  "id": "B01",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "vintage 16mm film projector casting a bright beam of light across a dark room, dust in the beam",
+  "style": "black and white documentary photo, 1950s, soft natural light, realistic",
+  "use": "1952년 영국에서 공개된, 한 흑백 기록 영화 (영사기 스톡 4개가 모두 제한 라이선스)"
+ },
+ {
+  "id": "B05",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "close-up of the white iron bars of an old hospital crib, crumpled small blanket inside, dramatic window light",
+  "style": "black and white documentary photo, 1950s Britain, realistic",
+  "use": "침대 난간을 붙잡고 엄마를 부르며 (아이는 그리지 않음: 실존 인물)"
+ },
+ {
+  "id": "B02",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "1950s hospital children's ward, rows of empty white iron cribs with folded blankets, tall windows, polished floor, no people",
+  "style": "black and white documentary photo, 1950s Britain, soft natural light, realistic",
+  "use": "로라는 작은 수술을 받기 위해, 8일 동안 병원에 입원 (병동, 사람 없음)"
+ },
+ {
+  "id": "B06",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a small worn teddy bear sitting alone in a white iron hospital crib, empty ward, quiet afternoon light",
+  "style": "black and white documentary photo, 1950s Britain, soft natural light, realistic",
+  "use": "로라는 더 이상 울지도 않고, 멍하니 앉아 있습니다 (아이 대신 인형)"
+ },
+ {
+  "id": "B07",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a 1950s nurse in a white uniform and cap walking away down a long hospital ward, seen from behind, iron beds",
+  "style": "black and white documentary photo, 1950s Britain, soft natural light, realistic",
+  "use": "간호사들 눈에는, 병원 생활에 잘 적응한 아이처럼"
+ },
+ {
+  "id": "B08",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a 1950s nurse in uniform and cap gently leaning over a white iron crib, seen from behind, warm window light",
+  "style": "black and white documentary photo, 1950s Britain, soft natural light, realistic",
+  "use": "간호사가 다정하게 다가와 말을 걸자 — 쓰지 않음: 지시문은 뒷모습인데 옆얼굴이 또렷이 나옴(기록 영화 속 실제 간호사로 오해될 수 있음), B08b로 바꿈"
+ },
+ {
+  "id": "B09",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a person seen from behind sitting on a chair facing a large computer screen in a dim psychology lab, cables on the desk",
+  "use": "지금 여러분은, 실험실 의자에 앉아 있습니다 (스톡 48503 제한 라이선스) — 쓰지 않음: 오른쪽 모니터에 해골 같은 이상한 그림이 나옴, B09b로 바꿈"
+ },
+ {
+  "id": "B08b",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "back view of a 1950s nurse in a white uniform and cap, her back to the camera, bending over a white iron crib in a hospital ward, warm window light",
+  "style": "black and white documentary photo, 1950s Britain, soft natural light, realistic",
+  "use": "간호사가 다정하게 다가와 말을 걸자 (B08을 다시 만듦: 뒷모습)"
+ },
+ {
+  "id": "B09b",
+  "seeds": [
+   1
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a person seen from behind sitting on a chair in a dim psychology lab, facing one large monitor that shows a photograph of grey rocks on the ground, thin electrode wire on the desk",
+  "use": "지금 여러분은, 실험실 의자에 앉아 있습니다 (B09를 다시 만듦: 화면에 바위 사진) — 쓰지 않음: 사람이 빠지고 의자가 일그러짐"
+ },
+ {
+  "id": "B09c",
+  "seeds": [
+   1,
+   2
+  ],
+  "cfg": 1.0,
+  "size": "1152x648",
+  "steps": 5,
+  "prompt": "a person seen from behind sitting on a chair facing a large computer screen in a dim psychology lab, the screen shows a photo of two grey rocks, cables on the desk",
+  "use": "지금 여러분은, 실험실 의자에 앉아 있습니다 (B09 지시문에 화면의 바위를 더함)"
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "part1": {
+  "from": 0.0,
+  "to": 428.928,
+  "source": "part1 0..end"
+ },
+ "gap": {
+  "from": 428.928,
+  "to": 429.078,
+  "seconds": 0.15
+ },
+ "part2": {
+  "from": 429.078,
+  "to": 676.298,
+  "source": "part2 0..247.22"
+ },
+ "part3": {
+  "from": 676.298,
+  "to": 720.799,
+  "source": "part3 0..end",
+  "gain_db": 0.3,
+  "old_end_lufs": -13.9,
+  "part3_lufs": -14.2
+ },
+ "last_word_end": 720.608,
+ "silence_after": 2.809,
+ "total": 723.608,
+ "final_gain_db": 0.1,
+ "lufs_before_gain": -14.1,
+ "lufs": -14.0,
+ "peak_dbfs": 1.27
+}

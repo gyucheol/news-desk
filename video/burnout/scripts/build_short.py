@@ -3,7 +3,11 @@
 # usage: build_short.py <episode timeline.json> <short spec.json> <narration.wav> <bgm.wav> <out dir>
 #   episode timeline: from scripts/build_timeline.py + fit_clips.py (credits.md 3장 8번); narration/bgm: the stems that
 #   were mixed into it (mix_audio.py). Writes <out>/<id>_timeline.json and <out>/<id>_audio.wav.
-import json, os, subprocess, sys
+# Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size}, fade_out, scenes {id: {vcx}},
+#   hi_res {dir}, one_line_times (chunk times from split_subs.py: every subtitle line becomes one-line chunks),
+#   sub_style (passed to render_short.py), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
+#   the music is that file from "offset", brought to the loudness the episode's music has over the same stretch.
+import json, os, re, subprocess, sys
 
 tl_path, spec_path, nar, bgm, out = sys.argv[1:6]
 tl, sp = json.load(open(tl_path)), json.load(open(spec_path))
@@ -43,32 +47,54 @@ for sc in tl["scenes"]:
     scenes.append(s)
 scenes.append({"id": "end", "type": "card", "start": main, "end": total})
 
+chunks = {}
+if sp.get("one_line_times"):
+    for c in json.load(open(os.path.join(os.path.dirname(os.path.abspath(spec_path)), sp["one_line_times"]))):
+        chunks.setdefault(c["line"], []).append(c)
 subs = []
 for su in tl["subs"]:
     if not inside(su):
         continue
-    s = dict(su)
-    s["start"], s["end"] = max(su["start"], a0) - a0, min(su["end"], a1) - a0
-    if su["line"] in sp["subs"]:
-        s["text"] = sp["subs"][su["line"]]
-    s.pop("steps", None)
-    subs.append(s)
-subs.append({"line": "end", "unit": "end", "text": sp["end_card"]["text"], "pos": "center", "start": main, "end": total})
+    parts = chunks.get(su["line"]) or [{"chunk": 0, "start": su["start"], "text": su["text"]}]
+    for i, c in enumerate(parts):
+        s = dict(su)
+        s.pop("steps", None)
+        end = parts[i + 1]["start"] if i + 1 < len(parts) else su["end"]
+        s["start"], s["end"] = max(c["start"], a0) - a0, min(end, a1) - a0
+        s["text"] = c["text"]
+        if len(parts) > 1:
+            s["line"] = f"{su['line']}.{c['chunk']}"
+        subs.append(s)
+ec = sp["end_card"]
+subs.append({"line": "end", "unit": "end", "text": ec["text"], "pos": "center", "start": main, "end": total,
+             **({"size": ec["size"]} if ec.get("size") else {})})
+
+
+def lufs(path, ss, t):
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-ss", f"{ss:.3f}", "-t", f"{t:.3f}", "-i", path,
+                        "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True)
+    return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr)[-1])
+
 
 audio = f"{out}/{sp['id']}_audio.wav"
 m = sp["music"]
+music, mss, mgain = bgm, a0, 0.0
+if m.get("track"):
+    music, mss = os.path.join(root, m["track"]), m.get("offset", 0.0)
+    mgain = lufs(bgm, a0, total) - lufs(music, mss, total)
+    print(f"music {os.path.basename(music)} from {mss} s, {mgain:+.2f} dB to the episode music's loudness here")
 fc = (f"[0:a]aformat=channel_layouts=stereo,aresample=48000,afade=t=out:st={main - 0.06:.3f}:d=0.06,"
       f"apad=whole_dur={total:.3f}[n];"
-      f"[1:a]aresample=48000,afade=t=in:d={m['fade_in']},"
+      f"[1:a]aformat=channel_layouts=stereo,aresample=48000,volume={mgain:.3f}dB,afade=t=in:d={m['fade_in']},"
       f"afade=t=out:st={main + m['fade_out_after']:.3f}:d={card - m['fade_out_after']:.3f}[b];"
       f"[n][b]amix=inputs=2:duration=longest:normalize=0,volume={m['gain_db']}dB,"
       f"alimiter=limit={10 ** (-1.5 / 20):.5f}:attack=5:release=80:level=false:latency=true[m]")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{a0:.3f}", "-t", f"{main:.3f}", "-i", nar,
-                "-ss", f"{a0:.3f}", "-t", f"{total:.3f}", "-i", bgm, "-filter_complex", fc, "-map", "[m]",
+                "-ss", f"{mss:.3f}", "-t", f"{total:.3f}", "-i", music, "-filter_complex", fc, "-map", "[m]",
                 "-t", f"{total:.3f}", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", audio], check=True)
 
 short = {"duration": round(total, 3), "audio": audio, "fade_in": 0.0, "fade_out": sp.get("fade_out", 0.0),
-         "scenes": scenes, "subs": subs, "unit_start": {}}
+         "sub_style": sp.get("sub_style", {}), "scenes": scenes, "subs": subs, "unit_start": {}}
 p = f"{out}/{sp['id']}_timeline.json"
 json.dump(short, open(p, "w"), ensure_ascii=False, indent=1)
 print(f"{p}: {len(scenes)} scenes, {len(subs)} subtitles, {total:.2f} s (speech {main:.2f} s + end card {card} s)")

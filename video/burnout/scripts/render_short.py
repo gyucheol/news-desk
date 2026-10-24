@@ -9,6 +9,9 @@
 #   bottom 672, left 48, right 192 px (right: like/dislike/comment/share/remix; bottom: channel, title, sound).
 #   Meta (Reels ads): top 14% (270), bottom 35% (672), sides 6% (65 px).
 #   Text is kept inside x 65..888, y 288..1248, the area clear on both.
+# Subtitle style comes from the timeline's "sub_style" (full/shorts/<id>.json): without it, the episode's boxed
+# subtitles sit above y 1220. S1 v2 (owner, 2026-10-24): no box, white text with a dark outline, one line only, its
+# middle at y 1280 (the lower-third point the owner asked for; 32 px below the ad-guidance line 1248 above).
 import json, math, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -26,7 +29,33 @@ IC.CX, IC.CY = W * IC.SS / 2, H * IC.SS * 0.40
 FONT, CFONT = RD.font, RD.center_font
 FS, CS, GAP, PAD = RD.FONT_SIZE, RD.CENTER_SIZE, RD.LINE_GAP, RD.PAD_X
 ONE_LINE_BOX = 84            # same as the episode (918..1002 at 1080p)
+STYLE = {}                   # the timeline's sub_style, read in __main__
 shifts = []
+_fonts = {}
+
+
+def sized_font(px):
+    if px not in _fonts:
+        _fonts[px] = RD.ImageFont.truetype(RD.FONT_PATH, px)
+    return _fonts[px]
+
+
+def draw_outlined(layer, lines, xs, bases, f, stroke):
+    """Text with a dark outline and a soft shadow, for subtitles without a box: outlines first, then all the fills,
+    so an outline never covers the letter next to it (the yellow word and its particle touch)."""
+    out = Image.new("RGBA", layer.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(out)
+    for segs, x0, base in zip(lines, xs, bases):
+        x = x0
+        for s, _ in segs:
+            d.text((x, base), s, font=f, fill=(0, 0, 0, 255), anchor="ls", stroke_width=stroke, stroke_fill=(0, 0, 0, 255))
+            x += f.getlength(s)
+    sh = Image.new("RGBA", layer.size, (0, 0, 0, 0))
+    sh.putalpha(out.getchannel("A").filter(ImageFilter.GaussianBlur(6)).point(lambda v: round(v * 0.55)))
+    layer.alpha_composite(sh)
+    layer.alpha_composite(out)
+    for segs, x0, base in zip(lines, xs, bases):
+        RD.draw_line(layer, segs, x0, base, f)
 
 
 def centre_x(w):
@@ -41,14 +70,19 @@ def text_layer(sub, upto=None):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     lines = [RD.parse_markup(l) for l in sub["text"].split("\n")]
     n = len(lines)
+    if STYLE.get("one_line") and n > 1:
+        raise SystemExit(f"{sub['line']}: two lines on screen ({sub['text']!r}); the owner wants one line only")
     if sub.get("pos", "bottom") == "center":
-        k = CS / FS
-        widths = [RD.text_width(l, CFONT) for l in lines]
+        f = sized_font(sub["size"]) if sub.get("size") else CFONT
+        k = (sub.get("size") or CS) / FS
+        widths = [RD.text_width(l, f) for l in lines]
         cx = centre_x(max(widths))
+        if cx != W / 2:
+            shifts.append((sub["line"], round(W / 2 - cx)))
         first = H / 2 - RD.GLYPH_MID * k - (n - 1) * GAP * k / 2
         txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         for i, (segs, w) in enumerate(zip(lines, widths)):
-            RD.draw_line(txt, segs, cx - w / 2, first + i * GAP * k, CFONT)
+            RD.draw_line(txt, segs, cx - w / 2, first + i * GAP * k, f)
         if sub.get("italic"):
             txt = RD.slant(txt, H / 2)
         if sub.get("shadow"):
@@ -58,6 +92,19 @@ def text_layer(sub, upto=None):
         layer.alpha_composite(txt)
         return layer
     widths = [RD.text_width(l) for l in lines]
+    if STYLE.get("box") is False:             # no box: outlined text, middle of the (single) line at y_center
+        stroke = STYLE.get("outline", 3)
+        block = max(widths) + 2 * stroke
+        cx = centre_x(block)
+        if cx != W / 2:
+            shifts.append((sub["line"], round(W / 2 - cx)))
+        base0 = STYLE.get("y_center", SUB_BOTTOM - ONE_LINE_BOX / 2) - RD.GLYPH_MID - (n - 1) * GAP / 2
+        txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        draw_outlined(txt, lines, [cx - w / 2 for w in widths], [base0 + i * GAP for i in range(n)], FONT, stroke)
+        if sub.get("italic"):
+            txt = RD.slant(txt, STYLE.get("y_center", H / 2))
+        layer.alpha_composite(txt)
+        return layer
     boxed = sub.get("box", True)
     block = max(widths) + (2 * PAD if boxed else 0)
     cx = centre_x(block)
@@ -153,6 +200,7 @@ if __name__ == "__main__":
         def save(self, fp, *a, **k):
             return real(guides(self), fp, *a, **k)
         Image.Image.save = save
+    STYLE.update(json.load(open(sys.argv[1])).get("sub_style", {}))
     RD.main()
     if shifts:
         print("moved left to clear the buttons:", sorted(set(shifts)))

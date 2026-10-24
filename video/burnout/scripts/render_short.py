@@ -85,14 +85,25 @@ def text_layer(sub, upto=None):
         raise SystemExit(f"{sub['line']}: two lines on screen ({sub['text']!r}); the owner wants one line only")
     if sub.get("pos") == "header":            # black band over the top of the picture with a big title
         ImageDraw.Draw(layer).rectangle([0, 0, W, sub["height"]], fill=(0, 0, 0, 255))
-        f = header_font(sub["size"], sub.get("weight", 800))
-        gap = sub.get("gap") or round(sub["size"] * 1.15)
+        texts = ["".join(s for s, _ in segs) for segs in lines]
+        px, weight = sub["size"], sub.get("weight", 800)
+        if px == "fit":                       # the largest size whose widest line fits between the side margins
+            room = sub.get("max_width", W - 2 * SAFE_L)
+            px = next(p for p in range(sub.get("max_size", 160), 10, -1)
+                      if max(header_font(p, weight).getlength(t) for t in texts) <= room)
+            fitted.append(("header", px))
+        f = header_font(px, weight)
+        gap = sub.get("gap") or round(px * sub.get("leading", 1.15))
+        boxes = [f.getbbox(t, anchor="ls")[1::2] for t in texts]
+        if "bottom" in sub:                   # the last line's letters end at y = bottom
+            c0 = sub["bottom"] - (boxes[-1][1] - boxes[-1][0]) / 2 - (n - 1) * gap
+        else:                                 # the two lines' middle at y_center
+            c0 = sub["y_center"] - (n - 1) * gap / 2
         d = ImageDraw.Draw(layer)
         for i, segs in enumerate(lines):
-            text = "".join(s for s, _ in segs)
-            top, bottom = f.getbbox(text, anchor="ls")[1::2]
-            cy = sub["y_center"] + (i - (n - 1) / 2) * gap      # middle of this line's letters
-            base, x = cy - (top + bottom) / 2, W / 2 - f.getlength(text) / 2
+            top, bottom = boxes[i]
+            cy = c0 + i * gap                                    # middle of this line's letters
+            base, x = cy - (top + bottom) / 2, W / 2 - f.getlength(texts[i]) / 2
             for s_, emph in segs:
                 d.text((x, base), s_, font=f, fill=RD.YELLOW if emph else RD.WHITE, anchor="ls")
                 x += f.getlength(s_)

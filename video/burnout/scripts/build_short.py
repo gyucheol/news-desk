@@ -5,7 +5,7 @@
 #   were mixed into it (mix_audio.py). Writes <out>/<id>_timeline.json and <out>/<id>_audio.wav.
 # Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size (px or "fit"), lines_ok}, fade_out, scenes {id: {vcx}},
 #   hi_res {dir}, one_line_times (chunk times from split_subs.py: every subtitle line becomes one-line chunks),
-#   sub_style (passed to render_short.py), header {text, height, size, weight, y_center, gap} (title band on top), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
+#   sub_style (passed to render_short.py), header {text, height, size (px or "fit"), weight, leading, bottom or y_center} (title band on top), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
 #   the music is that file from "offset", brought to the loudness the episode's music has over the same stretch.
 import json, os, re, subprocess, sys
 
@@ -69,7 +69,7 @@ ec = sp["end_card"]
 if sp.get("header"):                      # a black band over the top with the title, for the whole Short
     h = sp["header"]
     subs.append({"line": "header", "unit": "header", "pos": "header", "text": h["text"], "start": 0.0, "end": total,
-                 "lines_ok": True, **{k: h[k] for k in ("height", "size", "weight", "y_center", "gap") if k in h}})
+                 "lines_ok": True, **{k: h[k] for k in ("height", "size", "weight", "y_center", "gap", "leading", "bottom", "max_width", "max_size") if k in h}})
 subs.append({"line": "end", "unit": "end", "text": ec["text"], "pos": "center", "start": main, "end": total,
              **({"size": ec["size"]} if ec.get("size") else {}), **({"lines_ok": True} if ec.get("lines_ok") else {})})
 

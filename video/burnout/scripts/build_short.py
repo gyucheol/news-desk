@@ -5,6 +5,7 @@
 #   were mixed into it (mix_audio.py). Writes <out>/<id>_timeline.json and <out>/<id>_audio.wav.
 # Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size (px or "fit"), lines_ok}, fade_out, scenes {id: {vcx}},
 #   hi_res {dir}, one_line_times (chunk times from split_subs.py: every subtitle line becomes one-line chunks),
+#   split {until_line, band_top, gap, grade, top/bottom {src, in, speed, zoom, vcx, vcy}, bottom.appear_line},
 #   sub_style (passed to render_short.py), header {text, height, size (px or "fit"), weight, leading, bottom or y_center} (title band on top), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
 #   the music is that file from "offset", brought to the loudness the episode's music has over the same stretch.
 import json, os, re, subprocess, sys
@@ -46,6 +47,54 @@ for sc in tl["scenes"]:
     s.pop("why", None)
     scenes.append(s)
 scenes.append({"id": "end", "type": "card", "start": main, "end": total})
+
+
+def probe(path):
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height",
+                        "-of", "csv=p=0", path], capture_output=True, text=True, check=True)
+    return tuple(int(v) for v in r.stdout.strip().split(","))
+
+
+def fit(part, w, h):
+    """ffmpeg filters that speed up a clip, fill w x h (zoom > 1 goes closer) and keep (vcx, vcy) of it in view."""
+    iw, ih = probe(os.path.join(root, part["src"]))
+    k = max(w / iw, h / ih) * part.get("zoom", 1.0)
+    sw, sh = max(w, round(iw * k / 2) * 2), max(h, round(ih * k / 2) * 2)
+    x = min(max(part.get("vcx", 0.5) * sw - w / 2, 0), sw - w)
+    y = min(max(part.get("vcy", 0.5) * sh - h / 2, 0), sh - h)
+    return (f"setpts=(PTS-STARTPTS)/{part.get('speed', 1.0)},fps=30,scale={sw}:{sh}:flags=lanczos,"
+            f"crop={w}:{h}:{round(x)}:{round(y)},setsar=1")
+
+
+if sp.get("split"):     # owner's hook (S1 v6): the frame below the title band split in two, top first, bottom later
+    c = sp["split"]
+    starts = {su["line"]: su["start"] for su in tl["subs"]}
+    t_end = starts[c["until_line"]] - a0                     # back to one picture when this line is spoken
+    t_app = starts[c["bottom"]["appear_line"]] - a0          # the lower half appears when this line is spoken
+    band, gap = c.get("band_top", 384), c.get("gap", 6)
+    half = (1920 - band) // 2
+    clip = f"{out}/{sp['id']}_split.mp4"
+    fc = (f"[0:v]{fit(c['top'], 1080, half)}[t];"
+          f"[1:v]{fit(c['bottom'], 1080, half)},tpad=start_duration={t_app:.3f}:color=black[b];"
+          f"[t][b]vstack=inputs=2,drawbox=x=0:y={half - gap // 2}:w=1080:h={gap}:color=black:t=fill,"
+          f"pad=1080:1920:0:{band}:color=black,format=yuv420p[v]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(c["top"]["in"]), "-i", os.path.join(root, c["top"]["src"]),
+                    "-ss", str(c["bottom"]["in"]), "-i", os.path.join(root, c["bottom"]["src"]), "-filter_complex", fc,
+                    "-map", "[v]", "-t", f"{t_end:.3f}", "-r", "30", "-c:v", "libx264", "-crf", "10", "-preset", "veryfast",
+                    clip], check=True)
+    kept = []
+    for s in scenes:
+        if s["id"] != "end" and s["end"] <= t_end:
+            continue                                         # wholly under the split
+        if s["start"] < t_end:
+            moved, s["start"] = t_end - s["start"], t_end
+            if s["type"] == "video":
+                s["in"] = s.get("in_after_split", s.get("in", 0) + moved * s.get("speed", 1.0))
+        s.pop("in_after_split", None)
+        kept.append(s)
+    scenes = [{"id": "split", "type": "video", "src": clip, "in": 0.0, "start": 0.0, "end": t_end,
+               "grade": c.get("grade", {}), "note": "split screen (build_short.py)"}] + kept
+    print(f"split screen 0-{t_end:.2f} s, lower half from {t_app:.2f} s -> {clip}")
 
 chunks = {}
 if sp.get("one_line_times"):

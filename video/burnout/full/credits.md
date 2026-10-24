@@ -420,3 +420,9 @@ RealVisXL V5.0 Lightning(SG161222, openrail++ 라이선스, 상업 이용 가능
    - 씨앗 1, 1152x648, 5단계, CFG 1.0
 
 사용자 제공: 프로이덴버거 사진(work/photos/freudenberger.png, 1240×620) — 장면 029 1:14, 사용자가 저작권자 허락을 받았다고 알려 줌(2026-10-23). 커밋하지 않음.
+
+## 9. 쇼츠 S1에만 쓴 스톡 (2026-10-24)
+
+1. 3213 Woman falls asleep in her bed — https://mixkit.co/free-stock-video/woman-falls-asleep-in-her-bed-3213/ — 영상 페이지의 copyrightNotice "Free"(Mixkit Stock Video Free License, 2026-10-24 확인). 4K 판의 13.2초부터, 쇼츠 S1 6차의 첫 3초 위아래 화면 중 아래 칸(일요일 낮잠). full/shorts/S1.json의 split.
+2. 같은 날 찾은 낮잠·잠 후보 중 48731, 48732, 33550, 33455, 24862, 24847은 제한 라이선스(Restricted)라 쓰지 않았습니다. 4413, 3210, 3180(커플), 41506, 4548(눈을 뜨고 있음)은 무료지만 내용과 맞지 않아 쓰지 않았습니다.
+3. 쇼츠 세로판은 같은 Mixkit 영상의 4K 판을 씁니다(50753, 50754, 31413, 26090, 3213; 라이선스는 영상마다 하나라 1080p 판과 같음). 31411(위 칸, 토요일 밤잠)은 1080p 판입니다.

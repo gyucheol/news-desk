@@ -50,7 +50,7 @@ if bad:
 
 print("\n## AI 사진\n")
 print("RealVisXL V5.0 Lightning(SG161222, openrail++ 라이선스, 상업 이용 가능), scripts/gen_batch.py, 지시문은 ai_images.json. "
-      "실존 인물(로라, 연구자)은 그리지 않았고, 사람은 뒷모습만 넣었습니다.\n")
+      "실존 인물(로라, 연구자)은 그리지 않았고, 사람은 뒷모습만 넣었습니다(B07 뒤쪽의 작은 두 사람은 얼굴을 알아볼 수 없을 만큼 작고 흐림).\n")
 ai = {j["id"]: j for j in json.load(open(f"{F}/ai_images.json"))}
 ph = {}
 for sc in tl["scenes"]:

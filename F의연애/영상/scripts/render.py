@@ -352,8 +352,18 @@ def main():
             srcs[photo_key(sc)] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0))
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
+    # F의 연애 (2026-10-24): a --range part or --frames-only builds only the subtitle layers it shows. Each layer is a
+    # full-frame RGBA image (about 8 MB); all 460 of 01편 in each of 3 processes nearly filled the memory (3.9 GB each).
+    want = None
+    if "--range" in sys.argv:
+        a_, b_ = [int(x) for x in sys.argv[sys.argv.index("--range") + 1].split(",")]
+        want = lambda s: s["end"] >= a_ / FPS - 1.0 and s["start"] <= b_ / FPS + 1.0
+    elif frames_only:
+        want = lambda s: any(s["start"] - 1.0 <= t <= s["end"] + 1.0 for t in frames_only)
     layers = []
     for s in tl["subs"]:             # v8 steps: one layer per step, each adding the rows spoken by then
+        if want and not want(s):
+            continue
         st = s.get("steps", [])
         times = [s["start"]] + [x["start"] for x in st] + [s["end"]]
         rows = [x["row"] for x in st] + [None]

@@ -100,13 +100,13 @@ PLAN = [
  # ③ 원인 1: 유니버시티 칼리지 런던, 뱀과 바위
  ("그 이유를 찾기 위해,", "v", "4457", {"in": 1.0, "grade": DARK, "title": "영국", "title_sub": "유니버시티 칼리지 런던",
      "title_size": 150, "title_at": "영국 유니버시티 칼리지 런던의"}),
- ("지금 여러분은,", "ai", "B09b", {"grade": DARK}),   # B09: odd skull-like picture on a monitor
+ ("지금 여러분은,", "ai", "B09c_s2", {"grade": DARK}),   # B09: odd skull-like picture on a monitor; B09b: no person
  ("여러분의 왼쪽 손등에는,", "icon", "hand_electrode", {"at": ["꽤나 따끔한 전기가 흐르는 장치죠."]}),
  ("눈앞의 큰 화면에", "icon", "rocks2", {"at": ["밑에 뱀이 없는 바위를 골라야 합니다."]}),
  ("만약 바위 밑에서 뱀이 나오면,", "icon", "rock_snake", {"at": ["만약 바위 밑에서 뱀이 나오면,",
      "손등에 따끔한 전기가 흐릅니다."], "at_shift": [0.9, 0.0]}),
  ("이 과정을 무려,", "icon", "counter320", {}),
- ("연구진은", "ai", "B09b", {"grade": DARK, "z0": 1.03}),
+ ("연구진은", "ai", "B09c_s2", {"grade": DARK, "z0": 1.03}),
  ("긴장할 때 저절로 커지는", "icon", "measures3", {"at": ["긴장할 때 저절로 커지는", "손끝에 맺히는",
      "그리고 참가자들이 스스로 매긴"]}),
  ("과연 참가자들은,", "card", None, {}),

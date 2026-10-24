@@ -31,6 +31,7 @@ FS, CS, GAP, PAD = RD.FONT_SIZE, RD.CENTER_SIZE, RD.LINE_GAP, RD.PAD_X
 ONE_LINE_BOX = 84            # same as the episode (918..1002 at 1080p)
 STYLE = {}                   # the timeline's sub_style, read in __main__
 shifts = []
+fitted = []
 _fonts = {}
 
 
@@ -70,11 +71,16 @@ def text_layer(sub, upto=None):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     lines = [RD.parse_markup(l) for l in sub["text"].split("\n")]
     n = len(lines)
-    if STYLE.get("one_line") and n > 1:
+    if STYLE.get("one_line") and n > 1 and not sub.get("lines_ok"):
         raise SystemExit(f"{sub['line']}: two lines on screen ({sub['text']!r}); the owner wants one line only")
     if sub.get("pos", "bottom") == "center":
-        f = sized_font(sub["size"]) if sub.get("size") else CFONT
-        k = (sub.get("size") or CS) / FS
+        px = sub.get("size") or CS
+        if px == "fit":                       # the largest size whose widest line fits centred, left of the buttons
+            px = next(p for p in range(sub.get("max_size", CS), 10, -1)
+                      if max(RD.text_width(l, sized_font(p)) for l in lines) <= 2 * (SAFE_R - W / 2))
+            fitted.append((sub["line"], px))
+        f = sized_font(px) if px != CS else CFONT
+        k = px / FS
         widths = [RD.text_width(l, f) for l in lines]
         cx = centre_x(max(widths))
         if cx != W / 2:
@@ -204,3 +210,5 @@ if __name__ == "__main__":
     RD.main()
     if shifts:
         print("moved left to clear the buttons:", sorted(set(shifts)))
+    if fitted:
+        print("font size fitted to the width:", sorted(set(fitted)))

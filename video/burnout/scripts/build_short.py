@@ -3,7 +3,7 @@
 # usage: build_short.py <episode timeline.json> <short spec.json> <narration.wav> <bgm.wav> <out dir>
 #   episode timeline: from scripts/build_timeline.py + fit_clips.py (credits.md 3장 8번); narration/bgm: the stems that
 #   were mixed into it (mix_audio.py). Writes <out>/<id>_timeline.json and <out>/<id>_audio.wav.
-# Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size}, fade_out, scenes {id: {vcx}},
+# Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size (px or "fit"), lines_ok}, fade_out, scenes {id: {vcx}},
 #   hi_res {dir}, one_line_times (chunk times from split_subs.py: every subtitle line becomes one-line chunks),
 #   sub_style (passed to render_short.py), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
 #   the music is that file from "offset", brought to the loudness the episode's music has over the same stretch.
@@ -67,7 +67,7 @@ for su in tl["subs"]:
         subs.append(s)
 ec = sp["end_card"]
 subs.append({"line": "end", "unit": "end", "text": ec["text"], "pos": "center", "start": main, "end": total,
-             **({"size": ec["size"]} if ec.get("size") else {})})
+             **({"size": ec["size"]} if ec.get("size") else {}), **({"lines_ok": True} if ec.get("lines_ok") else {})})
 
 
 def lufs(path, ss, t):

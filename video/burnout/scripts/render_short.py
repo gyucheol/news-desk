@@ -12,6 +12,7 @@
 # Subtitle style comes from the timeline's "sub_style" (full/shorts/<id>.json): without it, the episode's boxed
 # subtitles sit above y 1220. S1 v2 (owner, 2026-10-24): no box, white text with a dark outline, one line only, its
 # middle at y 1280 (the lower-third point the owner asked for; 32 px below the ad-guidance line 1248 above).
+# S1 v4: a black band over the top fifth (384 px) with the title in two big lines (timeline sub with pos "header").
 import json, math, os, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -33,6 +34,15 @@ STYLE = {}                   # the timeline's sub_style, read in __main__
 shifts = []
 fitted = []
 _fonts = {}
+
+
+def header_font(px, weight):
+    """The thumbnail's title font: Noto Sans KR variable, weight 800 (HANDOFF_VIDEO.md 18장)."""
+    key = ("noto", px, weight)
+    if key not in _fonts:
+        _fonts[key] = RD.ImageFont.truetype(f"{RD.ROOT}/fonts/NotoSansKR-VF.ttf", px)
+        _fonts[key].set_variation_by_axes([weight])
+    return _fonts[key]
 
 
 def sized_font(px):
@@ -73,6 +83,20 @@ def text_layer(sub, upto=None):
     n = len(lines)
     if STYLE.get("one_line") and n > 1 and not sub.get("lines_ok"):
         raise SystemExit(f"{sub['line']}: two lines on screen ({sub['text']!r}); the owner wants one line only")
+    if sub.get("pos") == "header":            # black band over the top of the picture with a big title
+        ImageDraw.Draw(layer).rectangle([0, 0, W, sub["height"]], fill=(0, 0, 0, 255))
+        f = header_font(sub["size"], sub.get("weight", 800))
+        gap = sub.get("gap") or round(sub["size"] * 1.15)
+        d = ImageDraw.Draw(layer)
+        for i, segs in enumerate(lines):
+            text = "".join(s for s, _ in segs)
+            top, bottom = f.getbbox(text, anchor="ls")[1::2]
+            cy = sub["y_center"] + (i - (n - 1) / 2) * gap      # middle of this line's letters
+            base, x = cy - (top + bottom) / 2, W / 2 - f.getlength(text) / 2
+            for s_, emph in segs:
+                d.text((x, base), s_, font=f, fill=RD.YELLOW if emph else RD.WHITE, anchor="ls")
+                x += f.getlength(s_)
+        return layer
     if sub.get("pos", "bottom") == "center":
         px = sub.get("size") or CS
         if px == "fit":                       # the largest size whose widest line fits centred, left of the buttons

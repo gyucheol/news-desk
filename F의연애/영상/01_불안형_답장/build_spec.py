@@ -85,7 +85,7 @@ PLAN = [
  ("바쁘세요??", "icon", "kakao", {"args": {"msgs": [
      {"me": True, "text": "오늘 하루 어땠어요?", "time": "오후 6:30"},
      {"me": True, "text": "바쁘세요??", "time": "오후 9:00", "show": 0}]}, "at": ["바쁘세요??"]}),
- ("전송 버튼을 누르자마자,", "v", "4708", {"in": 1.0, "grade": BRIGHT}),
+ ("전송 버튼을 누르자마자,", "v", "4708", {"in": 2.5, "grade": BRIGHT}),   # 2.2-2.35 s: blocky compression patch in the Mixkit file (hand across the face)
  ("'아, 내가 연락을 너무", "card", None, {}),
  ("9시 반이 되자,", "v", "39789p", {"in": 0.0}),   # 39789 from 0 s (neutral face; she laughs from ~7 s), logo painted out
  ("'어제 내가 한 그 농담이,", "card", None, {}),
@@ -254,7 +254,7 @@ PLAN = [
  ("예상치 못하게 길어진 회의,", "v", "4547", {"in": 1.0, "grade": BRIGHT}),
  ("발 디딜 틈 없는 퇴근길 지하철,", "v", "1623", {"in": 1.0, "grade": DARK}),
  ("갑자기 꺼져 버린 휴대폰 배터리 같은,", "icon", "phone_off", {}),
- ("일상의 바람 말이에요.", "v", "4231", {"in": 1.0, "grade": DARK}),
+ ("일상의 바람 말이에요.", "v", "4231", {"in": 11.3, "grade": DARK}),   # 0-3.5 s and ~10.7 s: a T-shirt with "FUCK OFF" in view
  ("물론, 때로는 아무리 기다려도,", "v", "25592", {"in": 1.0, "grade": BRIGHT}),
  ("하지만 그건,", "v", "51395", {"in": 8.0}),
  ("어쩌면 답장 하나에,", "v", "4664", {"in": 1.0, "grade": {"sat": 0.7, "black": 0.1, "gamma": 1.9, "vignette": 0.7},

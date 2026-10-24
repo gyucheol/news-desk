@@ -1,6 +1,6 @@
 # 01편 「불안형 답장」 본편 기록
 
-작성 2026-10-24. 결과 파일: 01_불안형_답장.mp4 (1920×1080, 30fps, H.264 + AAC 48kHz 스테레오, 12분 3.6초). 운영자 목소리가 들어 있어 영상과 녹음은 저장소에 커밋하지 않았습니다(SendUserFile로 전달). 스톡 원본, AI 사진, 모델도 커밋하지 않았습니다(다시 만드는 법은 3장).
+작성 2026-10-24. 결과 파일: 01_불안형_답장.mp4 (1920×1080, 30fps, H.264 + AAC 48kHz 스테레오, 12분 3.6초, 283MB, 소리 크기 -14.1 LUFS, 최고점 -1.3dBFS). 운영자 목소리가 들어 있어 영상과 녹음은 저장소에 커밋하지 않았습니다(SendUserFile로 전달). 스톡 원본, AI 사진, 모델도 커밋하지 않았습니다(다시 만드는 법은 3장).
 
 사용자 요청: "이제 첫번째 영상을 만들어보자. INFJ입니다 채널에서 영상 만들 때 피드백했던 내용까지 다 적용시켜서 롱폼 가로 영상으로 만들어줘." 작업 중에 최종 대본과 '바뀜' 녹음을 받았습니다: "기존 대본에 있는 해당 부분을 "음성2_1.1배속_10월24일_2차" 녹음 파일에서 지워주고, 해당 부분에 "바뀜" 녹음 파일을 넣어주면 돼." 대본은 F의연애/대본/01_불안형_답장_v3_최종.md에 그대로 옮겼습니다.
 
@@ -52,6 +52,9 @@
    - 0:51 "5분마다 습관처럼"(원래 39789) → 51397(침대에 누워 휴대폰을 드는 장면, 무료). 같은 클립이 70초 뒤에 또 나오지 않도록
    - 9:33 잠든 사람 옆 휴대폰(39780): 잠금 화면 알림 글자("Are you awake ?" 등)가 원래 크기에서 읽힘 → 휴대폰 자리만 흐림(render.py의 새 옵션 blur_box, sigma 8)
    - 대신 고른 후보 중 39773(침대에서 채팅)은 스페인어 대화와 이름이 또렷이 읽혀서, 16140·47972·36425는 제한 라이선스라 쓰지 않았습니다.
+   - 11:33 "일상의 바람 말이에요."(4231 밤거리): 완성본을 원래 크기로 다시 보니 1.0초부터 쓴 구간에 욕설이 적힌 티셔츠("FUCK OFF")가 읽힘 → 11.3초부터(우산 쓴 사람들)
+   - 1:56 "전송 버튼을 누르자마자, 후회가 밀려옵니다."(4708): 손이 얼굴을 지나가는 2.2~2.35초에 Mixkit 파일 자체의 네모난 압축 깨짐이 있음 → 2.5초부터(두 손을 이마에 댄 모습)
+   - 이 두 장면은 전체 렌더링 뒤에 고쳤습니다. 그 장면만 render.py --range로 다시 그려(장면 시작마다 키프레임이 있음) 나머지는 다시 압축하지 않고 이어 붙였고, 나머지 화면은 전체 렌더링과 픽셀까지 같습니다(7곳에서 확인). 지금 timeline으로 전체를 다시 렌더링해도 같은 장면이 나옵니다(압축 차이만 있음).
 2. AI 사진
    - B08(간호사): 지시문은 뒷모습인데 옆얼굴이 또렷이 나와, 기록 영화 속 실제 간호사로 오해될 수 있어 B08b(뒷모습)로 다시 만듦
    - B09(실험실): 오른쪽 모니터에 해골 같은 이상한 그림이 나옴 → B09b(화면에 바위 사진을 요청)는 사람이 빠지고 의자가 일그러짐 → B09c 두 장 중 씨앗 2(뒷모습 두 사람이 큰 화면의 바위를 봄)를 씀. 씨앗 1은 사람이 화면 속에 들어가 쓰지 않음
@@ -113,7 +116,7 @@
 16. 43381 Woman at night lying down using her cell phone — https://mixkit.co/free-stock-video/woman-at-night-lying-down-using-her-cell-phone-43381/
    - 장면 034 1:54 (8초부터); 장면 108 7:01 (1초부터)
 17. 4708 Girl regretting regret and sad — https://mixkit.co/free-stock-video/girl-regretting-regret-and-sad-4708/
-   - 장면 036 1:56 (1초부터); 장면 164 10:35 (6초부터)
+   - 장면 036 1:56 (2.5초부터); 장면 164 10:35 (6초부터)
 18. 39789 Girl lying down chatting on her cell phone before sleeping — https://mixkit.co/free-stock-video/girl-lying-down-chatting-on-her-cell-phone-before-sleeping-39789/
    - 장면 038 2:02 (0초부터, 휴대폰 뒷면 로고를 지운 판(logo_patch.py))
 19. 4457 Tower Bridge in London during sunset — https://mixkit.co/free-stock-video/tower-bridge-in-london-during-sunset-4457/
@@ -201,7 +204,7 @@
 60. 1623 People getting into the subway train — https://mixkit.co/free-stock-video/people-getting-into-the-subway-train-1623/
    - 장면 177 11:29 (1초부터)
 61. 4231 Pedestrian walk in Tokyo — https://mixkit.co/free-stock-video/pedestrian-walk-in-tokyo-4231/
-   - 장면 179 11:33 (1초부터)
+   - 장면 179 11:33 (11.3초부터)
 62. 25592 Young stressed woman with headache — https://mixkit.co/free-stock-video/young-stressed-woman-with-headache-25592/
    - 장면 180 11:35 (1초부터)
 63. 4664 Lovers holding each other on a romantic sunset — https://mixkit.co/free-stock-video/lovers-holding-each-other-on-a-romantic-sunset-4664/

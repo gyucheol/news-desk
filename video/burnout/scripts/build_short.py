@@ -38,6 +38,8 @@ for sc in tl["scenes"]:
         if s["type"] == "video":
             s["in"] = sc.get("in", 0) - (sc["start"] - a0) * sc.get("speed", 1.0)
     s.update(sp["scenes"].get(sc["id"], {}))
+    if s.get("src") and not os.path.isabs(s["src"]):      # a replacement clip named in the spec (relative to root)
+        s["src"] = os.path.join(root, s["src"])
     if s["type"] == "video" and sp.get("hi_res"):
         hi = os.path.join(root, sp["hi_res"]["dir"], os.path.basename(s["src"]))
         if os.path.exists(hi):

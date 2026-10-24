@@ -425,4 +425,5 @@ RealVisXL V5.0 Lightning(SG161222, openrail++ 라이선스, 상업 이용 가능
 
 1. 3213 Woman falls asleep in her bed — https://mixkit.co/free-stock-video/woman-falls-asleep-in-her-bed-3213/ — 영상 페이지의 copyrightNotice "Free"(Mixkit Stock Video Free License, 2026-10-24 확인). 4K 판의 13.2초부터, 쇼츠 S1 6차의 첫 3초 위아래 화면 중 아래 칸(일요일 낮잠). full/shorts/S1.json의 split.
 2. 같은 날 찾은 낮잠·잠 후보 중 48731, 48732, 33550, 33455, 24862, 24847은 제한 라이선스(Restricted)라 쓰지 않았습니다. 4413, 3210, 3180(커플), 41506, 4548(눈을 뜨고 있음)은 무료지만 내용과 맞지 않아 쓰지 않았습니다.
-3. 쇼츠 세로판은 같은 Mixkit 영상의 4K 판을 씁니다(50753, 50754, 31413, 26090, 3213; 라이선스는 영상마다 하나라 1080p 판과 같음). 31411(위 칸, 토요일 밤잠)은 1080p 판입니다.
+3. 쇼츠 세로판은 같은 Mixkit 영상의 4K 판을 씁니다(50754, 31413, 26090, 3213, 31402; 라이선스는 영상마다 하나라 1080p 판과 같음). 31411(위 칸, 토요일 밤잠)은 1080p 판입니다. 50753(알람시계)은 8차부터 쓰지 않습니다.
+4. 31402 Young woman wakes up quickly and restlessly in her bed — https://mixkit.co/free-stock-video/young-woman-wakes-up-quickly-and-restlessly-in-her-bed-31402/ — copyrightNotice "Free"(2026-10-24 확인). 4K 판의 4.0~6.13초, 쇼츠 S1 8차의 "월요일 아침이면 / 몸이 여전히 무겁습니다"(3.09~5.22초). 일어나기 힘들어하는 장면 후보 중 24683, 29966, 24684, 9054, 24682는 제한 라이선스라 빼고, 39786은 머리가 화면 맨 위라 제목 띠에 가려져 빼고, 50752·4749·31401·42897은 덜 맞아서 뺐습니다.

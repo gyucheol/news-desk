@@ -7,6 +7,8 @@
    - 글꼴은 썸네일 주제 단어와 같은 Noto Sans KR 굵기 800(OFL)입니다.
 2. 2_bulb.png: 영상의 '작은 힌트' 아이콘 화면(scripts/render.py의 bulb, 켜진 상태)에서 전구 둘레를 정사각형으로 자른 그림
 3. review_sheet.png: 두 시안을 원형으로 잘라 300px, 98px, 40px로 줄여 밝은 화면과 어두운 화면 위에 놓고 비교한 그림
+4. profile.png: 최종 프로필 사진. 1번에서 노란 마침표만 빼고, 글자 크기(232px, 800px 기준)는 그대로 두고 "INFJ" 글자 덩어리를 가운데에 놓았습니다(글자 너비는 화면의 56%).
+5. profile_preview.png: profile.png를 원형으로 잘라 300px, 98px, 40px로 줄인 미리보기
 
 규격
 - 800×800 PNG입니다. 유튜브는 원형으로 잘라 보여 주므로 글자와 그림을 가운데 원 안에 두었습니다.
@@ -16,5 +18,5 @@
 - `venv/bin/python scripts/profile_pic.py channel/profile` (fonts/NotoSansKR-VF.ttf 필요, setup.sh가 받습니다. 글꼴이 다른 폴더에 있으면 VIDEO_ROOT로 그 폴더를 줍니다)
 
 남은 것
-- 사용자 선택: 아직 없습니다.
+- 사용자 선택(2026-10-24): "그냥 INFJ로 깔끔하게 프로필 사진 만들어주라. 뒤에 온점은 빼줘." → profile.png
 - 감자 캐릭터 INFJ를 프로필로 쓰는 안은 캐릭터를 사용자와 함께 만든 뒤에 만들 수 있습니다(HANDOFF_VIDEO.md 16장).

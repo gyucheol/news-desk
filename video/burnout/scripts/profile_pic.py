@@ -3,6 +3,8 @@
 #               글꼴은 썸네일 주제 단어와 같은 Noto Sans KR 굵기 800(OFL).
 #   2_bulb.png: 영상의 '작은 힌트' 아이콘 화면(render.py icon_frame "bulb", 켜진 상태)에서 전구 둘레를 정사각형으로 자름.
 #   review_sheet.png: 두 시안을 원형으로 잘라 큰 크기, 98px(유튜브 도움말의 표시 크기), 40px로 밝은·어두운 배경 위에 나란히.
+#   profile.png: 최종(2026-10-24 사용자: "그냥 INFJ로 깔끔하게 … 뒤에 온점은 빼 줘"). 1_text.png에서 마침표만 빼고
+#               글자 크기는 그대로, 글자 덩어리를 가운데에 둠. profile_preview.png: 같은 방식의 원형 미리보기.
 # 유튜브 도움말(2026-10-24 확인): 98 x 98 px로 보임, JPG·GIF·BMP·PNG(움직이는 GIF 제외), 15MB 이하, 정사각형이나 원형 권장.
 # 그림은 원형으로 잘려 보이므로 글자·그림을 가운데 원 안에 둡니다. 800 x 800으로 저장합니다.
 # usage: VIDEO_ROOT=<fonts/가 있는 폴더> python scripts/profile_pic.py <out folder>
@@ -24,22 +26,27 @@ def noto(weight, size):
     return f
 
 
-def text_logo(width_frac=0.70):
-    """White "INFJ" + yellow ".", ink centred, ink width = width_frac of the canvas (drawn at 2x)."""
+def text_logo(main="INFJ", dot=True, width_frac=0.70, size1x=None):
+    """White `main` (+ yellow "." when dot), ink centred (drawn at 2x). The font size makes the ink width
+    width_frac of the canvas, or is size1x when given."""
     SS = 2
     M = N * SS
+    full = main + ("." if dot else "")
     img = Image.new("RGB", (M, M), (0, 0, 0))
     d = ImageDraw.Draw(img)
     size = 400
     for _ in range(4):                                         # scale the font until the ink width fits
         f = noto(800, size)
-        x0, y0, x1, y1 = d.textbbox((0, 0), "INFJ.", font=f, anchor="ls")
+        x0, y0, x1, y1 = d.textbbox((0, 0), full, font=f, anchor="ls")
         size = round(size * width_frac * M / (x1 - x0))
+    if size1x:
+        size = size1x * SS
     f = noto(800, size)
-    x0, y0, x1, y1 = d.textbbox((0, 0), "INFJ.", font=f, anchor="ls")
+    x0, y0, x1, y1 = d.textbbox((0, 0), full, font=f, anchor="ls")
     ox, oy = (M - (x1 - x0)) / 2 - x0, (M - (y1 - y0)) / 2 - y0
-    d.text((ox, oy), "INFJ", font=f, fill=(255, 255, 255), anchor="ls")
-    d.text((ox + d.textlength("INFJ", font=f), oy), ".", font=f, fill=YEL, anchor="ls")
+    d.text((ox, oy), main, font=f, fill=(255, 255, 255), anchor="ls")
+    if dot:
+        d.text((ox + d.textlength(main, font=f), oy), ".", font=f, fill=YEL, anchor="ls")
     return img.resize((N, N), Image.LANCZOS), size // SS
 
 
@@ -84,9 +91,12 @@ def sheet(drafts, path):
     out.save(path)
 
 
-t, size = text_logo()
+t, size = text_logo("INFJ", dot=True)
 t.save(f"{OUT}/1_text.png")
 b = bulb()
 b.save(f"{OUT}/2_bulb.png")
 sheet([("1  INFJ.", t), ("2  전구", b)], f"{OUT}/review_sheet.png")
-print("text font size", size, "| saved 1_text.png, 2_bulb.png, review_sheet.png in", OUT)
+final, _ = text_logo("INFJ", dot=False, size1x=size)           # final: no period, same letter size as draft 1
+final.save(f"{OUT}/profile.png")
+sheet([("INFJ (최종)", final)], f"{OUT}/profile_preview.png")
+print("text font size", size, "| saved 1_text.png, 2_bulb.png, review_sheet.png, profile.png, profile_preview.png in", OUT)

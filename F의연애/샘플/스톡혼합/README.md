@@ -21,4 +21,4 @@
    - `venv/bin/python scripts/make_bgm.py work/stock/music/614.mp3 31.06 work/bgm_fy.wav --lufs -22`
    - `venv/bin/python scripts/build_timeline.py fy/spec.json fy/timing_estimate.json work/bgm_fy.wav work/timeline_fy.json`
    - `venv/bin/python scripts/render.py work/timeline_fy.json out.mp4`
-4. 녹음이 생기면 핸드오프 7장 순서(prep_audio → align → refine)로 시각을 다시 잡고, 배경음악은 -32 LUFS로 낮춥니다.
+4. 녹음이 생기면 핸드오프 7장 순서(prep_audio → align → refine)로 시각을 다시 잡고, 배경음악은 -36 LUFS로 낮춥니다(2026-10-24 HANDOFF_FEEDBACK.md 6장, 이전 값 -32). 최신 순서와 도구는 HANDOFF_VIDEO.md 최신판 7장과 HANDOFF_FEEDBACK.md를 따릅니다(CLAUDE.md 영상 제작 절).

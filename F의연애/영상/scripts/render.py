@@ -372,7 +372,9 @@ def main():
     # unit start times for overlays (v7 timelines carry them; subtitle lines no longer match the units)
     sub_start = tl.get("unit_start") or {s["unit"]: s["start"] for s in tl["subs"]}
     black = Image.new("RGB", (W, H), (0, 0, 0))
-    labels, label_font, titles = {}, ImageFont.truetype(FONT_PATH, 44), {}
+    # F의 연애 01 v2 (2026-10-24): the "1 / 3" item label is white and larger (owner on the grey 첫 번째 labels: "폰트를
+    # 약간 더 키우고 흰색으로 만들어줘. 잘 안보임"; the same holds for this grey label)
+    labels, label_font, titles = {}, ImageFont.truetype(FONT_PATH, 54), {}
 
     def frame_at(t):
         si = next((i for i, s in enumerate(tl["scenes"]) if s["start"] <= t < s["end"]), len(tl["scenes"]) - 1)
@@ -415,7 +417,7 @@ def main():
         elif sc.get("label"):                  # item card: small "1 / 3" above the centred line (scene table 항목카드)
             if sc["label"] not in labels:
                 lab = black.copy()
-                ImageDraw.Draw(lab).text((W / 2, H * 0.33), sc["label"], font=label_font, fill=(150, 150, 150), anchor="mm")
+                ImageDraw.Draw(lab).text((W / 2, H * 0.33), sc["label"], font=label_font, fill=(255, 255, 255), anchor="mm")
                 labels[sc["label"]] = lab.convert("RGBA")
             img = labels[sc["label"]].copy()
         else:

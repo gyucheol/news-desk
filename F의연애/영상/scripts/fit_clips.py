@@ -17,9 +17,26 @@ def clip_len(p):
     return dur_cache[p]
 
 
+prev = None
 for sc in tl["scenes"]:
     if sc["type"] != "video":
+        prev = None
         continue
+    if sc.get("cont"):
+        # F의 연애 01 v2 (2026-10-24): "cont" = the previous scene's shot runs on (e.g. the same clip blurred under centre
+        # text, owner: "스톡 영상이 그대로 뒷 배경화면으로 이어지게"). The in-point follows on from the previous scene; if
+        # the clip runs out, only this part plays slower (moving the in-point would break the continuity).
+        assert prev is not None and prev["src"] == sc["src"], ("cont needs the same clip just before", sc["id"])
+        sp = prev.get("speed", 1.0)
+        sc["in"] = round(prev.get("in", 0.0) + (sc["start"] - prev["start"]) * sp, 3)
+        sc["speed"] = sp
+        L, dur = clip_len(sc["src"]), sc["end"] - sc["start"]
+        if sc["in"] + dur * sp + 0.1 > L:
+            sc["speed"] = round(max(min_speed, (L - 0.15 - sc["in"]) / dur), 3)
+        print(f'{sc["id"]} {sc["src"].split("/")[-1]}: continues at {sc["in"]} s, speed {sc["speed"]}')
+        prev = sc
+        continue
+    prev = sc
     L, need = clip_len(sc["src"]), (sc["end"] - sc["start"]) * sc.get("speed", 1.0) + 0.1
     before = (sc.get("in", 0.0), sc.get("speed", 1.0))
     if sc.get("in", 0.0) + need > L:

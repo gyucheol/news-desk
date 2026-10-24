@@ -1,6 +1,7 @@
 # F의 연애 chat screens (2026-10-24): the dark-theme chat look of the 01 thumbnail (bubble colours measured on the owner's
 # Galaxy KakaoTalk screen, F의연애/썸네일/thumb_chat.py), drawn on black like the other icon screens. No app name or logo.
-# Bubbles pop in when their line is spoken (at = voice onsets of the listed lines, seconds from the scene start).
+# A bubble appears when its line is spoken (at = voice onsets of the listed lines, seconds from the scene start);
+# v2 (2026-10-24, owner): no pop, scale or fade on the bubbles, the unread 1 or the times.
 import math
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 from fy_common import *
@@ -11,31 +12,39 @@ TIME = (150, 152, 156)
 BH = 118                        # bubble height at output scale (px); text = 0.37 h like the thumbnail
 
 
-def _bubble(img, x0, y, text, me, k, h, f):
-    """One pill bubble with its text; k = 0..1 appearance (pop + fade). x0 = left edge, y = top. Returns (x0, x1)."""
+def _bubble(img, x0, y, text, me, k, h, f, lines=None, lh=None):
+    """One chat bubble with its text, drawn at full size (v2: no pop-in; the owner asked for no entrance effect).
+    k is kept for the colour (always 1 in v2). lines/lh: several text rows (panels3). Returns (x0, x1)."""
     d = ImageDraw.Draw(img)
-    bb = f.getbbox(text)
-    bw = (bb[2] - bb[0]) + 0.68 * h
-    s = 0.86 + 0.14 * k
-    cx, cy = x0 + bw / 2, y + h / 2
-    w2, h2 = bw * s / 2, h * s / 2
+    rows = lines or [text]
+    lh = lh or h
+    wmax = max(f.getlength(r) for r in rows)
+    bw = wmax + 0.68 * (h if lines is None else 0.9 * lh)
+    bh = h if lines is None else lh * len(rows) + 0.55 * lh
+    cx, cy = x0 + bw / 2, y + bh / 2
+    w2, h2 = bw / 2, bh / 2
     fill = mix((0, 0, 0), KAKAO if me else THEIR, k)
-    d.rounded_rectangle([cx - w2, cy - h2, cx + w2, cy + h2], radius=0.40 * h * s, fill=fill)
+    r = 0.40 * (h if lines is None else 1.15 * lh)
+    d.rounded_rectangle([cx - w2, cy - h2, cx + w2, cy + h2], radius=r, fill=fill)
+    tail = h if lines is None else 1.1 * lh
     if me:   # tail at the top right, as on the real screen
         x1 = cx + w2
-        d.polygon([(x1 - 0.30 * h, cy - h2), (x1 + 0.13 * h, cy - h2 + 0.02 * h), (x1 - 0.02 * h, cy - h2 + 0.26 * h)], fill=fill)
+        d.polygon([(x1 - 0.30 * tail, cy - h2), (x1 + 0.13 * tail, cy - h2 + 0.02 * tail), (x1 - 0.02 * tail, cy - h2 + 0.26 * tail)], fill=fill)
     else:
         xa = cx - w2
-        d.polygon([(xa + 0.30 * h, cy - h2), (xa - 0.13 * h, cy - h2 + 0.02 * h), (xa + 0.02 * h, cy - h2 + 0.26 * h)], fill=fill)
-    if k > 0.05:
-        d.text((cx - (bb[2] - bb[0]) / 2 - bb[0], cy), text, font=f,
-               fill=mix(fill, KAKAO_TEXT if me else THEIR_TEXT, k), anchor="lm")
+        d.polygon([(xa + 0.30 * tail, cy - h2), (xa - 0.13 * tail, cy - h2 + 0.02 * tail), (xa + 0.02 * tail, cy - h2 + 0.26 * tail)], fill=fill)
+    tc = mix(fill, KAKAO_TEXT if me else THEIR_TEXT, k)
+    for i, row in enumerate(rows):
+        ry = cy - (len(rows) - 1) * lh / 2 + i * lh
+        d.text((cx - wmax / 2, ry), row, font=f, fill=tc, anchor="lm")
     return cx - bw / 2, cx + bw / 2
 
 
 def kakao(t, dur, args, at):
     """Chat screen. args: msgs=[{me, text, time, show, read}], show/read = index into at (None = from the start /
-    never read), title (small label at the top), glow_one = index into at when the unread 1s get a soft yellow ring."""
+    never read), title (label at the top). v2 (2026-10-24, owner): no entrance effect (a message is simply there from
+    the moment its line is spoken), the title is white and larger, and no yellow glow behind the unread 1
+    (glow_one is ignored)."""
     img, d = canvas()
     h = BH * SS
     f = noto(BH * 0.37, 450)
@@ -44,18 +53,15 @@ def kakao(t, dur, args, at):
     msgs = args.get("msgs", [])
     gap = 0.30 * h
     title = args.get("title")
-    top_pad = 120 * SS if title else 0
+    top_pad = 130 * SS if title else 0
     total = len(msgs) * h + (len(msgs) - 1) * gap
     y = CY - total / 2 + top_pad / 2
     if title:
-        k = fade(t, 0.0, 0.3)
-        d.text((CX, y - 120 * SS), title, font=font(60, "ExtraBold"), fill=mix((0, 0, 0), LIGHT, k), anchor="mm")
+        text(d, (CX, y - 135 * SS), title, 76, WHITE, weight="ExtraBold")
     right, left = CX + 560 * SS, CX - 560 * SS
-    glow_t = at_or(at, args["glow_one"], None) if "glow_one" in args else None
     for m in msgs:
         t_show = 0.0 if m.get("show") is None else at_or(at, m["show"], 0.0)
-        k = fade(t, t_show, 0.25)
-        if k <= 0:
+        if t < t_show:
             y += h + gap
             continue
         me = m.get("me", True)
@@ -66,76 +72,108 @@ def kakao(t, dur, args, at):
         else:
             av = 0.86 * h                               # round avatar (no photo) left of the bubble
             ax = left + av / 2
-            d.ellipse([ax - av / 2, y, ax + av / 2, y + av], fill=mix((0, 0, 0), (90, 90, 96), k))
+            d.ellipse([ax - av / 2, y, ax + av / 2, y + av], fill=(90, 90, 96))
             hr = av * 0.2
-            d.ellipse([ax - hr, y + av * 0.22, ax + hr, y + av * 0.22 + 2 * hr], fill=mix((0, 0, 0), (150, 150, 156), k))
-            d.chord([ax - av * 0.34, y + av * 0.58, ax + av * 0.34, y + av * 1.2], 180, 360,
-                    fill=mix((0, 0, 0), (150, 150, 156), k))
+            d.ellipse([ax - hr, y + av * 0.22, ax + hr, y + av * 0.22 + 2 * hr], fill=(150, 150, 156))
+            d.chord([ax - av * 0.34, y + av * 0.58, ax + av * 0.34, y + av * 1.2], 180, 360, fill=(150, 150, 156))
             x0 = left + av + 0.18 * h
-        bx0, bx1 = _bubble(img, x0, y, m["text"], me, k, h, f)
+        bx0, bx1 = _bubble(img, x0, y, m["text"], me, 1.0, h, f)
         d = ImageDraw.Draw(img)
         # unread 1 and time: left of my bubble, right of theirs
-        read_k = 0.0
-        if me and m.get("read") is not None:
-            read_k = fade(t, at_or(at, m["read"], 1e9), 0.2)
+        read = me and m.get("read") is not None and t >= at_or(at, m["read"], 1e9)
         if me:
             xr = bx0 - 0.12 * h
-            if read_k < 1:
-                c1 = mix((0, 0, 0), KAKAO_ONE, k * (1 - read_k))
-                if glow_t is not None and t >= glow_t:
-                    g = fade(t, glow_t, 0.4)
-                    img = glow(img, [xr - 70 * SS, y + h * 0.1 - 50 * SS, xr + 30 * SS, y + h * 0.1 + 60 * SS], YEL, 0.9 * g, 26)
-                    d = ImageDraw.Draw(img)
-                d.text((xr, y + h - (0.42 if m.get("time") else 0.10) * h), "1", font=f1, fill=c1, anchor="rs")
+            if not read:
+                d.text((xr, y + h - (0.42 if m.get("time") else 0.10) * h), "1", font=f1, fill=KAKAO_ONE, anchor="rs")
             if m.get("time"):
-                d.text((xr, y + h - 0.06 * h), m["time"], font=fm, fill=mix((0, 0, 0), TIME, k), anchor="rs")
+                d.text((xr, y + h - 0.06 * h), m["time"], font=fm, fill=TIME, anchor="rs")
         elif m.get("time"):
-            d.text((bx1 + 0.12 * h, y + h - 0.06 * h), m["time"], font=fm, fill=mix((0, 0, 0), TIME, k), anchor="ls")
+            d.text((bx1 + 0.12 * h, y + h - 0.06 * h), m["time"], font=fm, fill=TIME, anchor="ls")
         y += h + gap
     return finish(img)
 
 
-def _mini_chat(d, x0, y0, w, hh, kind, k, focus, dim):
-    """One small panel of panels3 (bubbles with blank text bars; the readable label sits under the panel)."""
-    col = lambda c: mix((0, 0, 0), mix(c, (40, 40, 40), dim), k)
-    d.rounded_rectangle([x0, y0, x0 + w, y0 + hh], radius=34 * SS,
-                        outline=col(YEL if focus else (120, 120, 120)), width=(10 if focus else 6) * SS)
-    bh = 92 * SS
-    bx1 = x0 + w - 40 * SS; bx0 = bx1 - w * 0.62
-    by = y0 + 70 * SS
-    d.rounded_rectangle([bx0, by, bx1, by + bh], radius=0.4 * bh, fill=col(KAKAO))
-    d.rounded_rectangle([bx0 + 30 * SS, by + bh / 2 - 9 * SS, bx1 - 50 * SS, by + bh / 2 + 9 * SS], radius=9 * SS,
-                        fill=col((120, 105, 0)))
-    if kind in (0, 1):
-        ry = by + bh + 70 * SS
-        rx0 = x0 + 40 * SS; rx1 = rx0 + w * 0.66
-        d.rounded_rectangle([rx0, ry, rx1, ry + bh], radius=0.4 * bh, fill=col(THEIR))
-        d.rounded_rectangle([rx0 + 30 * SS, ry + bh / 2 - 9 * SS, rx1 - 60 * SS, ry + bh / 2 + 9 * SS], radius=9 * SS,
-                            fill=col((120, 120, 126)))
-    else:
-        d.text((bx0 - 16 * SS, by + bh * 0.95), "1", font=noto(64, 700), fill=col(KAKAO_ONE), anchor="rs")
+def _wrap_rows(s, f, maxw):
+    """Split chat text into rows no wider than maxw (at spaces when possible)."""
+    rows, cur = [], ""
+    for word in s.split(" "):
+        cand = (cur + " " + word).strip()
+        if f.getlength(cand) <= maxw or not cur:
+            cur = cand
+        else:
+            rows.append(cur); cur = word
+    rows.append(cur)
+    out = []
+    for r in rows:                                   # a single word wider than maxw: cut by characters
+        while f.getlength(r) > maxw and len(r) > 1:
+            k = len(r)
+            while k > 1 and f.getlength(r[:k]) > maxw:
+                k -= 1
+            out.append(r[:k]); r = r[k:]
+        out.append(r)
+    return out
+
+
+PANEL_CHATS = [   # v2 (owner): the panels show the real messages of the three situations
+    {"reply": "뭐 할껀 없어, 같이 저녁 먹을까?", "label": "5분 만에 답장"},
+    {"reply": "헉 미안해..ㅜ회식 와서 연락을 이제 봤네", "label": "3시간 뒤 답장"},
+    {"reply": None, "label": ""},                  # owner: no "3시간째 1" under the third panel
+]
+MY_MSG = "오늘 퇴근하고 뭐할꺼야?"
+
+
+def _panel_chat(img, x0, y0, w, hh, i, chat, focus, my_msg):
+    """One panel of panels3: outline, my message (unread 1 only when there is no reply) and the reply, readable."""
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([x0, y0, x0 + w, y0 + hh], radius=34 * SS, outline=YEL if focus else (150, 150, 150),
+                        width=(10 if focus else 6) * SS)
+    f = noto(38, 500)
+    lh = 50 * SS
+    pad = 30 * SS
+    my_rows = _wrap_rows(my_msg, f, w * 0.55)
+    bw_me = max(f.getlength(r) for r in my_rows) + 0.68 * 0.9 * lh
+    bx0 = x0 + w - pad - bw_me
+    by = y0 + 44 * SS
+    _bubble(img, bx0, by, my_msg, True, 1.0, lh, f, lines=my_rows, lh=lh)
+    my_h = lh * len(my_rows) + 0.55 * lh
+    d = ImageDraw.Draw(img)
+    if not chat["reply"]:
+        d.text((bx0 - 14 * SS, by + my_h - 4 * SS), "1", font=noto(56, 700), fill=KAKAO_ONE, anchor="rs")
+        return
+    av = 64 * SS                                    # the other person: round avatar + gray bubble
+    ry = by + my_h + 40 * SS
+    ax = x0 + pad
+    d.ellipse([ax, ry, ax + av, ry + av], fill=(90, 90, 96))
+    hr = av * 0.2
+    d.ellipse([ax + av / 2 - hr, ry + av * 0.22, ax + av / 2 + hr, ry + av * 0.22 + 2 * hr], fill=(150, 150, 156))
+    d.chord([ax + av / 2 - av * 0.34, ry + av * 0.58, ax + av / 2 + av * 0.34, ry + av * 1.2], 180, 360, fill=(150, 150, 156))
+    rx0 = ax + av + 14 * SS
+    rows = _wrap_rows(chat["reply"], f, (x0 + w - pad) - rx0 - 0.68 * 0.9 * lh)
+    _bubble(img, rx0, ry, chat["reply"], False, 1.0, lh, f, lines=rows, lh=lh)
 
 
 def panels3(t, dur, args, at):
-    """Three situations side by side (reply in 5 min / reply after 3 h / still 1); args.focus=[[at_index, panel], ...]."""
+    """Three situations side by side with their real messages (v2): replied in 5 min / replied after 3 h / still 1.
+    args.focus=[[at_index, panel], ...] outlines one panel in yellow. No entrance effect; labels white and larger."""
     img, d = canvas()
-    w, hh, gap = 500 * SS, 420 * SS, 70 * SS
+    w, hh, gap = 520 * SS, 390 * SS, 40 * SS              # panels span x 140..1780 px
     x = CX - (3 * w + 2 * gap) / 2
-    y0 = CY - hh / 2 - 40 * SS
+    y0 = 270 * SS
     cur = None
     for ai, p in args.get("focus", []):
         if t >= at_or(at, ai, 1e9):
             cur = p
-    labels = args.get("labels", ["5분 만에 답장", "3시간 뒤 답장", "3시간째 1"])
+    chats = args.get("chats", PANEL_CHATS)
+    my_msg = args.get("my_msg", MY_MSG)
     for i in range(3):
-        k = fade(t, 0.15 * i, 0.3)
         focus = cur == i
-        dim = 0.55 if (cur is not None and not focus) else 0.0
-        _mini_chat(d, x + i * (w + gap), y0, w, hh, i, k, focus, dim)
-        tc = mix((0, 0, 0), mix(YEL if focus else WHITE, (60, 60, 60), dim), k)
-        d.text((x + i * (w + gap) + w / 2, y0 - 50 * SS), ["첫 번째", "두 번째", "세 번째"][i], font=font(52, "ExtraBold"),
-               fill=tc, anchor="mm")
-        d.text((x + i * (w + gap) + w / 2, y0 + hh + 60 * SS), labels[i], font=font(48), fill=tc, anchor="mm")
+        xi = x + i * (w + gap)
+        _panel_chat(img, xi, y0, w, hh, i, chats[i], focus, my_msg)
+        d = ImageDraw.Draw(img)
+        col = YEL if focus else WHITE
+        text(d, (xi + w / 2, y0 - 62 * SS), ["첫 번째", "두 번째", "세 번째"][i], 66, col, weight="ExtraBold")
+        if chats[i].get("label"):
+            text(d, (xi + w / 2, y0 + hh + 66 * SS), chats[i]["label"], 54, col, weight="Bold")
     return finish(img)
 
 
@@ -266,7 +304,7 @@ def film_camera(t, dur, args, at):
     img, d = canvas()
     k = fade(t, 0.0, 0.3)
     col = mix((0, 0, 0), WHITE, k)
-    bx0, by0, bw, bh = CX - 260 * SS, CY - 40 * SS, 440 * SS, 240 * SS
+    bx0, by0, bw, bh = CX - 260 * SS, CY - 80 * SS, 440 * SS, 240 * SS      # v2: raised, tripod ends at y 804 px
     d.rounded_rectangle([bx0, by0, bx0 + bw, by0 + bh], radius=28 * SS, outline=col, width=LW)
     d.polygon([(bx0 + bw, by0 + 70 * SS), (bx0 + bw + 150 * SS, by0 + 20 * SS), (bx0 + bw + 150 * SS, by0 + bh - 20 * SS),
                (bx0 + bw, by0 + bh - 70 * SS)], outline=col, width=LW)
@@ -281,7 +319,7 @@ def film_camera(t, dur, args, at):
                     (cx + 82 * SS * math.cos(a), cy + 82 * SS * math.sin(a))], fill=col, width=LW // 2 + 2 * SS)
     lx = bx0 + bw / 2
     for dx in (-150, 0, 150):                                # tripod
-        d.line([(lx, by0 + bh), (lx + dx * SS, by0 + bh + 230 * SS)], fill=mix((0, 0, 0), GRAY, k), width=LW)
+        d.line([(lx, by0 + bh), (lx + dx * SS, by0 + bh + 190 * SS)], fill=mix((0, 0, 0), GRAY, k), width=LW)
     return finish(img)
 
 

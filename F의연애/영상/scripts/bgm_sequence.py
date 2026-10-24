@@ -3,7 +3,7 @@
 # Segments overlap by XF seconds and cross-fade (equal power). Each segment is evened out first (ffmpeg dynaudnorm,
 # so a track that builds up does not climb over the narration) and set to the same loudness, then the whole bed
 # gets fades at both ends and is normalised to the target LUFS (-32 under narration, mix_audio.py makes -14 overall).
-# usage: bgm_sequence.py segments.json total_seconds out.wav [--lufs -32] [--fade-out 4]
+# usage: bgm_sequence.py segments.json total_seconds out.wav [--lufs -32] [--fade-out 4] [--constant]
 # segments.json: [{"track": "work/stock/music/614.mp3", "start": 0, "end": 68.2, "offset": 0}, ...]
 import json, re, subprocess, sys
 import numpy as np
@@ -13,13 +13,26 @@ a = sys.argv[1:]
 segs, total, out = json.load(open(a[0])), float(a[1]), a[2]
 lufs = a[a.index("--lufs") + 1] if "--lufs" in a else "-32"
 fade_out = float(a[a.index("--fade-out") + 1]) if "--fade-out" in a else 4.0   # v2 ends 3 s after the last word
+# --constant (F의 연애 01 v2, 2026-10-24): each segment and the whole bed get one constant gain each, no dynaudnorm or
+# loudnorm. dynaudnorm rides the gain every half second, so the music swells in every pause of the voice and dips
+# under it (pumping); the v2 tracks were chosen for steady loudness instead (bgm_plan_v2.json).
+constant = "--constant" in a
+
+
+def integrated(x):
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
+                        "-af", "ebur128", "-f", "null", "-"], input=x.astype(np.float32).tobytes(), capture_output=True)
+    return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr.decode())[-1])
 
 
 def render(seg, first):
     length = seg["end"] - seg["start"] + (0 if first else XF)       # later segments start XF early (overlap)
+    af = [] if constant else ["-af", "dynaudnorm=f=500:g=31:m=8,loudnorm=I=-20:TP=-2:LRA=7"]
     cmd = ["ffmpeg", "-v", "error", "-ss", str(seg.get("offset", 0)), "-t", f"{length:.3f}", "-i", seg["track"],
-           "-af", "dynaudnorm=f=500:g=31:m=8,loudnorm=I=-20:TP=-2:LRA=7", "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"]
+           *af, "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"]
     x = np.frombuffer(subprocess.run(cmd, capture_output=True, check=True).stdout, np.float32).reshape(-1, 2).astype(np.float64)
+    if constant:                                        # the same loudness for every track, one gain per segment
+        x = x * 10 ** ((-20.0 - integrated(x)) / 20)
     need = int(length * SR)
     if len(x) < need:                                   # track shorter than the segment: loop it with a cross-fade
         loops = [x]
@@ -50,6 +63,13 @@ bed = bed[:int(total * SR)]
 k1, k2 = int(1.0 * SR), int(fade_out * SR)
 bed[:k1] *= np.linspace(0, 1, k1)[:, None]
 bed[-k2:] *= np.linspace(1, 0, k2)[:, None]
+if constant:
+    bed = bed * 10 ** ((float(lufs) - integrated(bed)) / 20)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-", "-c:a", "pcm_f32le",
+                    out], input=bed.astype(np.float32).tobytes(), check=True)
+    print(out, f"{total:.1f}s", len(segs), "segments | constant gains, integrated", integrated(bed), "LUFS, peak",
+          round(20 * np.log10(np.abs(bed).max() + 1e-12), 1), "dBFS")
+    sys.exit(0)
 tmp = out + ".tmp.wav"
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-", "-c:a", "pcm_f32le", tmp],
                input=bed.astype(np.float32).tobytes(), check=True)

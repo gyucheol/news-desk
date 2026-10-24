@@ -1,13 +1,19 @@
 # F의 연애 subtitles (2026-10-24): subtitles.txt -> lines.json (one subtitle per line, also the timing units).
-# Text file: "◎ " = centre subtitle (black card, one whole sentence), "◇ " = centre subtitle in italics (inner thoughts,
-# other people's words), "◆ " = words shown only inside a picture (chat bubble, memo), no subtitle box;
-# " / " = row break on screen, [ ] = yellow word, ( ) = spoken but not shown (kept at the end of a line).
+# Text file: "◎ " = centre subtitle, "◇ " = centre subtitle in italics (inner thoughts, other people's words),
+# "◆ " = words shown only inside a picture (chat bubble, memo), no subtitle box;
+# " / " = row break on screen, [ ] = yellow word, ( ) = spoken but not shown (at the start or the end of a line),
+# { } = what the recording actually says when it differs from the shown words (v2: the bubble "…봤네" is read "…받네").
 # Each line gets "say": the words as spoken in Hangul (digits read out), used by the syllable aligner (ctc_align.py
-# only knows Hangul syllables) and by align.py's matching against the recognised words.
-# usage: make_lines.py <episode folder with subtitles.txt>  -> <folder>/lines.json, <folder>/units_say.json
+# only knows Hangul syllables) and by the matching against the recognised words, and "lead": the Hangul syllables of
+# hidden words at the start (v2, 2026-10-24: "(하며) 대수롭지 않게 넘깁니다." shows from the voice of 대수롭지; the
+# previous subtitle stays while 하며 is spoken).
+# usage: make_lines.py <episode folder> [subtitles file = subtitles.txt] [out = lines.json]
+#        -> <folder>/<out>, <folder>/units_say.json (or units_say_<suffix>.json for another out name)
 import json, re, sys
 
 F = sys.argv[1]
+SRC = sys.argv[2] if len(sys.argv) > 2 else "subtitles.txt"
+OUT = sys.argv[3] if len(sys.argv) > 3 else "lines.json"
 SAY = [  # display -> spoken (longest first); readings checked against the recording (Whisper words, CTC: 삼삼일공)
     ("1~2시간", "한두 시간"), ("6시 30분", "여섯 시 삼십 분"), ("11시 50분", "열한 시 오십 분"), ("9시 반", "아홉 시 반"),
     ("5명 중 1명", "다섯 명 중 한 명"), ("2년 5개월", "이 년 오 개월"), ("2004년", "이천사 년"), ("1952년", "천구백오십이 년"),
@@ -26,21 +32,29 @@ def say(t):
     return t
 
 
-rows = [l.rstrip("\n") for l in open(f"{F}/subtitles.txt", encoding="utf-8")]
+rows = [l.rstrip("\n") for l in open(f"{F}/{SRC}", encoding="utf-8")]
 rows = [l for l in rows if l.strip() and not l.startswith("#")]
 out = []
 for i, l in enumerate(rows):
     kind = {"◎ ": "center", "◇ ": "italic", "◆ ": "bubble"}.get(l[:2], "bottom")
     t = l[2:] if kind != "bottom" else l
+    override = re.search(r"\{([^}]*)\}", t)
+    t = re.sub(r"\s*\{[^}]*\}\s*", " ", t).strip()
+    lead = re.match(r"\(([^)]*)\)\s*", t)
     shown = re.sub(r"\s*\([^)]*\)\s*", " ", t).strip()
-    spoken = t.replace(" / ", " ").replace("(", "").replace(")", "")
+    spoken = override.group(1) if override else t.replace(" / ", " ").replace("(", "").replace(")", "")
     plain = spoken.replace("[", "").replace("]", "")
     if kind == "bottom":
         assert " / " not in t and len(shown.replace("[", "").replace("]", "")) <= 25, (i + 1, l)
-    out.append({"id": f"L{i + 1:03d}", "kind": kind, "text": shown.replace(" / ", "\n"), "spoken": plain, "say": say(plain)})
-json.dump(out, open(f"{F}/lines.json", "w"), ensure_ascii=False, indent=1)
-json.dump([{"id": o["id"], "text": o["say"]} for o in out], open(f"{F}/units_say.json", "w"), ensure_ascii=False, indent=1)
+    o = {"id": f"L{i + 1:03d}", "kind": kind, "text": shown.replace(" / ", "\n"), "spoken": plain, "say": say(plain)}
+    if lead:
+        o["lead"] = say(lead.group(1))
+    out.append(o)
+json.dump(out, open(f"{F}/{OUT}", "w"), ensure_ascii=False, indent=1)
+us = "units_say.json" if OUT == "lines.json" else f"units_say_{OUT[6:-5] or 'x'}.json"
+json.dump([{"id": o["id"], "text": o["say"]} for o in out], open(f"{F}/{us}", "w"), ensure_ascii=False, indent=1)
 emph = sum("[" in o["text"] for o in out)
 print(len(out), "lines |", sum(o["kind"] == "bottom" for o in out), "bottom |",
       sum(o["kind"] in ("center", "italic") for o in out), "centre |", sum(o["kind"] == "bubble" for o in out),
-      "in pictures |", emph, "with a yellow word |", sum(len(re.sub(r"[^가-힣0-9A-Za-z]", "", o["spoken"])) for o in out), "syllables")
+      "in pictures |", emph, "with a yellow word |", sum("lead" in o for o in out), "with hidden leading words |",
+      sum(len(re.sub(r"[^가-힣0-9A-Za-z]", "", o["spoken"])) for o in out), "syllables")

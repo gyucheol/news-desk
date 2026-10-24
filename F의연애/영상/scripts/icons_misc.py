@@ -4,6 +4,8 @@
 # args = dict from the scene spec (may be {}), at = voice start times in seconds from the scene start (may be []).
 # Rules kept here: text >= 40 px, everything inside x 120..1800 and above y 860 (output px), no shake/flicker/blinking,
 # only smooth fades, pops and growth; schematic charts carry no numbers.
+# v2 (2026-10-24, owner): labels white (yellow only for the key item), larger (50-72 px), in the graphic font of
+# fy_common.font() (Gmarket Sans); running digits use tabular cells (tab_text) because that font has none.
 from fy_common import *
 import math
 from PIL import Image, ImageDraw, ImageFilter
@@ -27,11 +29,16 @@ def _px(v):
     return round(v * 2) / 2
 
 
-def _ctext(d, xy, s, px, fill, weight="SemiBold", ha="m", f=None, features=None):
-    """Text whose Hangul body is vertically centred on y (ha = l/m/r horizontal anchor)."""
+def _ctext(d, xy, s, px, fill, weight="SemiBold", ha="m", f=None, tab=False):
+    """Text whose Hangul body is vertically centred on y (ha = l/m/r horizontal anchor); tab=True: digits in equal
+    cells (a running clock or timer does not wobble sideways)."""
     f = f or font(px, weight)
     _, top, _, bot = f.getbbox("한", anchor="ls")
-    d.text((xy[0], xy[1] - (top + bot) / 2), s, font=f, fill=fill, anchor=ha + "s", features=features)
+    y = xy[1] - (top + bot) / 2
+    if tab:
+        tab_text(d, (xy[0], y), s, f, fill, ha + "s")
+    else:
+        d.text((xy[0], y), s, font=f, fill=fill, anchor=ha + "s")
 
 
 def _ink(d, xy, s, f, fill, features=None):
@@ -227,6 +234,19 @@ def _time_label(minutes, night=False):
     return f"{word} {hh % 12 or 12}:{mm:02d}"
 
 
+def _colon_label(d, cx, y, s, final, f, fill):
+    """Clock label ('밤 9:30') with its colon at a fixed x: where the colon of `final` (the label at the end) sits when
+    that label is centred on cx. The hour grows to the left and the minutes to the right, so the label does not slide
+    while the clock runs, and the last frame is centred with the font's own digit spacing (equal digit cells would
+    open a gap in '11' with Gmarket Sans's narrow 1)."""
+    _, top, _, bot = f.getbbox("한", anchor="ls")
+    yb = y - (top + bot) / 2
+    xc = cx - f.getlength(final) / 2 + f.getlength(final.split(":", 1)[0])
+    hh, mm = s.split(":", 1)
+    d.text((xc, yb), hh, font=f, fill=fill, anchor="rs")
+    d.text((xc, yb), ":" + mm, font=f, fill=fill, anchor="ls")
+
+
 def clock_run(t, dur, args, at):
     """Clock running args['from'] -> args['to'] (24 h, 19.0 -> 23.0) with a '오후 7:00' label; the rim turns red."""
     args = _args(args)
@@ -251,8 +271,8 @@ def clock_run(t, dur, args, at):
     q = (h - h0) * 60 / step
     q = math.floor(q + 1e-6) if q >= 0 else math.ceil(q - 1e-6)
     shown = h1 * 60 if p >= 1 else h0 * 60 + q * step
-    _ctext(d, (cx, cy + r + 92 * SS), _time_label(shown, bool(args.get("night_word"))), 64, w, weight="Bold",
-           features=["tnum"])
+    night = bool(args.get("night_word"))
+    _colon_label(d, cx, cy + r + 96 * SS, _time_label(shown, night), _time_label(h1 * 60, night), font(72, "Bold"), w)
     return finish(img)
 
 
@@ -293,7 +313,7 @@ def bell_off(t, dur, args, at):
         e = (a[0] + (b[0] - a[0]) * ks, a[1] + (b[1] - a[1]) * ks)
         _cap_line(d, a, e, BLACK, 60 * SS)
         _cap_line(d, a, e, RED, 28 * SS)
-        _ctext(d, (bx, by + 335 * SS), "알림 끄기", 56, _c(WHITE, ks), weight="Bold")
+        _ctext(d, (bx, by + 338 * SS), "알림 끄기", 64, _c(WHITE, ks), weight="Bold")
     return finish(img)
 
 
@@ -334,7 +354,7 @@ def clocks3(t, dur, args, at):
         x, y, r = CX + (i - 1) * 500 * SS, CY - 30 * SS, 150 * SS * s
         _mini_clock(d, x, y, r, hour, _c(WHITE, k))
         _bell_badge(d, x + r * 0.76, y - r * 0.76, 48 * SS * s, _c(YEL, k))
-        _ctext(d, (x, CY - 30 * SS + 150 * SS + 82 * SS), label, 52, _c(WHITE, k), weight="Bold")
+        _ctext(d, (x, CY - 30 * SS + 150 * SS + 88 * SS), label, 60, _c(WHITE, k), weight="Bold")
     return finish(img)
 
 
@@ -343,16 +363,16 @@ def _rule_box(d, x, y, bw, bh, tag, body, col, tagcol, k):
     if k <= 0:
         return
     d.rounded_rectangle([x - bw / 2, y - bh / 2, x + bw / 2, y + bh / 2], radius=36 * SS, outline=_c(col, k), width=10 * SS)
-    f, size, lines = _fit(body, 56, "Bold", bw - 96 * SS)
+    f, size, lines = _fit(body, 64, "Bold", bw - 96 * SS, min_px=50)
     lh = size * 1.32 * SS
     y0 = y + 14 * SS - (len(lines) - 1) * lh / 2
     for i, ln in enumerate(lines):
         _ctext(d, (x, y0 + i * lh), ln, size, _c(WHITE, k), f=f)
-    tf = font(44, "Bold")
-    tw = tf.getlength(tag) + 56 * SS
-    d.rounded_rectangle([x - tw / 2, y - bh / 2 - 36 * SS, x + tw / 2, y - bh / 2 + 36 * SS], radius=36 * SS,
-                        fill=BLACK, outline=_c(tagcol, k), width=6 * SS)
-    _ctext(d, (x, y - bh / 2), tag, 44, _c(tagcol, k), f=tf)
+    tf = font(50, "Bold")
+    tw = tf.getlength(tag) + 64 * SS
+    d.rounded_rectangle([x - tw / 2, y - bh / 2 - 41 * SS, x + tw / 2, y - bh / 2 + 41 * SS], radius=41 * SS,
+                        fill=BLACK, outline=_c(tagcol, k), width=7 * SS)
+    _ctext(d, (x, y - bh / 2), tag, 50, _c(tagcol, k), f=tf)
 
 
 def ifthen(t, dur, args, at):
@@ -362,7 +382,7 @@ def ifthen(t, dur, args, at):
     t1 = at_or(at, 0, 1.0)
     bw, bh, y = 600 * SS, 300 * SS, CY + 10 * SS
     xl, xr = CX - 440 * SS, CX + 440 * SS
-    _rule_box(d, xl, y, bw, bh, "만약", str(args.get("if", "1이 그대로면")), WHITE, LIGHT, fade(t, 0.2, 0.35))
+    _rule_box(d, xl, y, bw, bh, "만약", str(args.get("if", "1이 그대로면")), WHITE, WHITE, fade(t, 0.2, 0.35))
     _arrow(d, xl + bw / 2 + 34 * SS, y, xr - bw / 2 - 34 * SS, _c(WHITE, fade(t, t1, 0.25)), sm((t - t1) / 0.3))
     _rule_box(d, xr, y, bw, bh, "그러면", str(args.get("then", "휴대폰을 서랍에")), YEL, YEL, fade(t, t1 + 0.12, 0.35))
     return finish(img)
@@ -386,24 +406,24 @@ def bars_mood(t, dur, args, at):
     axis = _c(LIGHT, ka)
     _poly(d, [(ax, ytop + 20 * SS), (ax, yb), (1480 * SS, yb)], axis, 7 * SS)
     d.polygon([(ax, ytop - 6 * SS), (ax - 20 * SS, ytop + 30 * SS), (ax + 20 * SS, ytop + 30 * SS)], fill=axis)
-    _ctext(d, (ax, ytop - 52 * SS), "기분 회복", 48, _c(WHITE, ka), weight="Bold")
+    _ctext(d, (ax, ytop - 56 * SS), "기분 회복", 56, _c(WHITE, ka), weight="Bold")
     kl = fade(t, 0.2, 0.35)
-    _ctext(d, (gx, yb + 62 * SS), "다른 사람 사진", 48, _c(LIGHT, kl))
-    _ctext(d, (yx, yb + 62 * SS), "어머니 사진", 48, _c(YEL, kl), weight="Bold")
+    _ctext(d, (gx, yb + 66 * SS), "다른 사람 사진", 56, _c(WHITE, kl), weight="Bold")
+    _ctext(d, (yx, yb + 66 * SS), "어머니 사진", 56, _c(YEL, kl), weight="Bold")
     return finish(img)
 
 
 # --- 8. order matters --------------------------------------------------------------------------------------------------
 def _chip(d, x, y, w, h, s, k, col=WHITE):
     d.rounded_rectangle([x - w / 2, y - h / 2, x + w / 2, y + h / 2], radius=h / 2, outline=_c(col, k), width=8 * SS)
-    _ctext(d, (x, y), s, 52, _c(col, k))
+    _ctext(d, (x, y), s, 56, _c(col, k))
 
 
 def order2(t, dur, args, at):
     """Row 1 '속상한 기억 -> 사진' with a yellow check (0.2 s), row 2 '사진 -> 속상한 기억' with a gray X (at[0], 1.2 s)."""
     img, d = canvas()
-    cw, ch = 380 * SS, 116 * SS
-    xa, xb, xm = CX - 400 * SS, CX + 200 * SS, CX + 560 * SS
+    cw, ch = 400 * SS, 116 * SS
+    xa, xb, xm = CX - 410 * SS, CX + 190 * SS, CX + 560 * SS
     rows = [(CY - 125 * SS, "속상한 기억", "사진", True, 0.2), (CY + 145 * SS, "사진", "속상한 기억", False, at_or(at, 0, 1.2))]
     for y, a, b, ok, t0 in rows:
         ka, kr, kb, km = (fade(t, t0 + o, 0.35) for o in (0.0, 0.15, 0.3, 0.5))
@@ -463,7 +483,7 @@ def medkit(t, dur, args, at):
         mm = m if k0 >= 1 else m.point(lambda v: round(v * k0))
         img.paste(Image.new("RGB", m.size, mix(WHITE, GRAY, kd)), (round(sx - m.width / 2), round(y - m.height / 2)), mm)
     sc = _c(mix(WHITE, GRAY, kd), k0)
-    _ctext(d, (sx, 735 * SS), "예방주사", 56, sc, weight="Bold")
+    _ctext(d, (sx, 738 * SS), "예방주사", 60, sc, weight="Bold")
     kc = _c(mix(WHITE, YEL, ky), k0)                                                        # right: first-aid box
     bw, bh = 420 * SS, 300 * SS
     d.rounded_rectangle([kx - 85 * SS, y - bh / 2 - 66 * SS, kx + 85 * SS, y - bh / 2 + 30 * SS], radius=26 * SS,
@@ -475,7 +495,7 @@ def medkit(t, dur, args, at):
     if ky > 0:
         d.polygon(plus, fill=_c(YEL, ky))
     _poly(d, plus, kc, 10 * SS, closed=True)
-    _ctext(d, (kx, 735 * SS), "마음의 응급약", 56, kc, weight="Bold")
+    _ctext(d, (kx, 738 * SS), "마음의 응급약", 60, kc, weight="Bold")
     return finish(img)
 
 
@@ -496,15 +516,15 @@ def profile(t, dur, args, at):
     args = _args(args)
     name, l1, l2 = (str(args.get(k, "")) for k in ("name", "line1", "line2"))
     img, d = canvas()
-    fn, f1 = font(86, "ExtraBold"), font(44)
+    fn, f1 = font(92, "ExtraBold"), font(56)
     r, gap = 170 * SS, 80 * SS
     tw = max([fn.getlength(name), f1.getlength(l1), f1.getlength(l2), 1])
     x = CX - (2 * r + gap + tw) / 2 + r
     tx, y = x + r + gap, CY
     _bust(d, x, y, r, _c(WHITE, fade(t, 0, 0.4)), LW, bool(args.get("kid")))
-    d.text((tx, y - 64 * SS), name, font=fn, fill=_c(WHITE, fade(t, 0.25, 0.4)), anchor="ls")
-    d.text((tx, y + 14 * SS), l1, font=f1, fill=_c(LIGHT, fade(t, 0.5, 0.4)), anchor="ls")
-    d.text((tx, y + 88 * SS), l2, font=f1, fill=_c(LIGHT, fade(t, 0.75, 0.4)), anchor="ls")
+    d.text((tx, y - 70 * SS), name, font=fn, fill=_c(WHITE, fade(t, 0.25, 0.4)), anchor="ls")
+    d.text((tx, y + 24 * SS), l1, font=f1, fill=_c(WHITE, fade(t, 0.5, 0.4)), anchor="ls")
+    d.text((tx, y + 108 * SS), l2, font=f1, fill=_c(WHITE, fade(t, 0.75, 0.4)), anchor="ls")
     return finish(img)
 
 
@@ -636,8 +656,8 @@ def oldphone(t, dur, args, at):
         total = _timer_secs(args["timer"])
         u = sm(min(max(t / max(0.85 * dur, 0.5), 0.0), 1.0))
         secs = total if u >= 1 else int(total * u)
-        _ctext(ld, (sw / 2, 150 * SS), f"{secs // 60}:{secs % 60:02d}", 120, LCD_FG, weight="Bold", features=["tnum"])
-        _ctext(ld, (sw / 2, 252 * SS), "새 메시지 없음", 42, LCD_FG)
+        _ctext(ld, (sw / 2, 146 * SS), f"{secs // 60}:{secs % 60:02d}", 120, LCD_FG, weight="Bold", tab=True)
+        _ctext(ld, (sw / 2, 250 * SS), "새 메시지 없음", 50, LCD_FG, weight="Bold")
     else:
         _sms(lcd, t, [str(s) for s in (args.get("lines") or [])], at, sw, sh)
     if k0 < 1:
@@ -660,8 +680,54 @@ def oldphone(t, dur, args, at):
     return finish(img)
 
 
+# --- 13. pressure gauge, phone that stays dark (v2 versions of icons.gauge / icons.phone_off) -----------------------
+# render.py looks in these KINDS before icons.py, so these replace the burnout-episode versions, whose needle trembles
+# and whose battery blinks hard; this channel's rule is no shake and no flicker, so here they move smoothly.
+def _dial(d, r, ticks=10):
+    """Half dial (as icons.dial); returns the y of its centre."""
+    cy = CY + r * 0.30
+    d.arc([CX - r, cy - r, CX + r, cy + r], start=180, end=360, fill=WHITE, width=LW)
+    for k in range(ticks + 1):
+        a = math.radians(180 + 180 * k / ticks)
+        d.line([(CX + r * 0.82 * math.cos(a), cy + r * 0.82 * math.sin(a)),
+                (CX + r * 0.94 * math.cos(a), cy + r * 0.94 * math.sin(a))], fill=WHITE, width=7 * SS)
+    return cy
+
+
+def gauge(t, dur, args, at):
+    """Pressure gauge: the needle climbs into the red zone within 1.3 s and turns red, then creeps on slowly
+    (icons.gauge made it tremble there)."""
+    img, d = canvas()
+    r = 300 * SS
+    cy = _dial(d, r)
+    d.arc([CX - r, cy - r, CX + r, cy + r], start=324, end=360, fill=RED, width=LW + 10 * SS)
+    frac = 0.08 + 0.84 * sm(t / 1.3) + 0.03 * sm((t - 1.3) / max(dur - 1.3, 1.0))
+    a = math.radians(180 + 180 * frac)
+    col = mix(WHITE, RED, sm((t - 0.9) / 0.5))
+    d.line([(CX, cy), (CX + r * 0.78 * math.cos(a), cy + r * 0.78 * math.sin(a))], fill=col, width=12 * SS)
+    d.ellipse([CX - 22 * SS, cy - 22 * SS, CX + 22 * SS, cy + 22 * SS], fill=col)
+    return finish(img)
+
+
+def phone_off(t, dur, args, at):
+    """Phone on the charger whose screen stays dark: an almost empty red battery that pulses slowly (smooth, about
+    0.7 Hz; icons.phone_off blinked it on and off)."""
+    img, d = canvas()
+    pw, ph = 330 * SS, 600 * SS
+    _phone(d, CX, CY - 10 * SS, pw, ph, WHITE)
+    lvl = 0.30 + 0.70 * (0.5 + 0.5 * math.cos(2 * math.pi * 0.7 * t))
+    x, y, bw, bh = CX - 10 * SS, CY - 10 * SS, 150 * SS, 72 * SS
+    d.rounded_rectangle([x - bw / 2, y - bh / 2, x + bw / 2, y + bh / 2], radius=bh * 0.17, outline=WHITE, width=LW)
+    d.rounded_rectangle([x + bw / 2 + 8 * SS, y - bh * 0.2, x + bw / 2 + 26 * SS, y + bh * 0.2], radius=8 * SS, fill=WHITE)
+    pad = bh * 0.13
+    d.rounded_rectangle([x - bw / 2 + pad, y - bh / 2 + pad, x - bw / 2 + pad + max((bw - 2 * pad) * 0.06, 14 * SS),
+                         y + bh / 2 - pad], radius=bh * 0.07, fill=mix(BLACK, RED, lvl))
+    d.line([(CX, CY + ph / 2 - 10 * SS), (CX, CY + ph / 2 + 70 * SS)], fill=GRAY, width=10 * SS)   # cable
+    return finish(img)
+
+
 KINDS = {
     "brain_q": brain_q, "clock_run": clock_run, "three": three, "bell_off": bell_off, "clocks3": clocks3,
     "ifthen": ifthen, "bars_mood": bars_mood, "order2": order2, "medkit": medkit, "profile": profile,
-    "memo": memo, "oldphone": oldphone,
+    "memo": memo, "oldphone": oldphone, "gauge": gauge, "phone_off": phone_off,
 }

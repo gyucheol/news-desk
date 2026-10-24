@@ -3,13 +3,14 @@
 # affect labelling. Same look as icons.py: black background, white line art (LW, rounded joints), gray = off,
 # yellow (#F2C94C) = the key element, red only for warning. Drawn at 2x (SS) and downsampled; every drawing stays above
 # y 860 px and inside x 120..1800 px. Every kind: fn(t, dur, args, at) -> 1920x1080 RGB image (see fy_common.py).
+# v2 (2026-10-24, owner): text white (yellow only for the key item) and larger (50-80 px), in the graphic font of
+# fy_common.font() (Gmarket Sans); the 320 counter keeps its digits in equal cells (tab_text).
 import math
-from PIL import Image, ImageDraw, ImageFilter, features
+from PIL import Image, ImageDraw, ImageFilter
 from fy_common import *
 
 BLACK = (0, 0, 0)
 UNLIT = (72, 72, 72)                                   # an unlit lamp
-TNUM = ["tnum"] if features.check("raqm") else None    # equal-width digits for the counter (needs libraqm)
 
 
 # --- small drawing helpers ------------------------------------------------------------------------------------------
@@ -30,8 +31,12 @@ def _line(d, pts, col, w=LW, closed=False, caps=True):
             d.ellipse([x - r, y - r, x + r, y + r], fill=col)
 
 
-def _txt(d, xy, s, px, col, weight="SemiBold", anchor="mm", features=None):
-    d.text(xy, s, font=font(px, weight), fill=col, anchor=anchor, features=features)
+def _txt(d, xy, s, px, col, weight="SemiBold", anchor="mm"):
+    """Graphic text (fy_common.font); anchor-'m' text is moved to its true middle (mm_dy)."""
+    x, y = xy
+    if anchor[1] == "m":
+        y += mm_dy(px)
+    d.text((x, y), s, font=font(px, weight), fill=col, anchor=anchor)
 
 
 def _times(at, defaults):
@@ -253,7 +258,7 @@ def _bolt(d, x, y, s, col, ang=0.0):
 
 # --- 1. rocks on a screen ---------------------------------------------------------------------------------------------
 def rocks2(t, dur, args, at):
-    """Two different rocks on a big screen, each under a gray '?'; the left rock turns yellow (chosen) at at[0]."""
+    """Two different rocks on a big screen, each under a white '?'; the left rock turns yellow (chosen) at at[0]."""
     img, d = canvas()
     k0, kr, ks = fade(t, 0, 0.3), fade(t, 0.2), fade(t, at_or(at, 0, 1.6))
     sw, sh = 1100 * SS, 560 * SS
@@ -267,7 +272,7 @@ def rocks2(t, dur, args, at):
                                (CX + 255 * SS, "b", 380 * SS, 215 * SS, False)):
         _line(d, [(x - w / 2 - 40 * SS, yg), (x + w / 2 + 40 * SS, yg)], _k(GRAY, kr), 8 * SS)
         _rock(d, x, yg, w, h, kind, _k(mix(WHITE, YEL, ks) if sel else WHITE, kr))
-        _txt(d, (x, yg - h - 76 * SS), "?", 110, _k(GRAY, kr), "Bold")
+        _txt(d, (x, yg - h - 80 * SS), "?", 120, _k(WHITE, kr), "Bold")
     return finish(img)
 
 
@@ -332,14 +337,14 @@ def counter320(t, dur, args, at):
     n = 1 + round(319 * (1 - (1 - u) ** 3))
     t320 = T * (1 - (0.5 / 319) ** (1 / 3))                 # the moment the rounded count first shows 320
     k0, kd = fade(t, 0, 0.3), fade(t, t320, 0.3)
-    fn, fb = font(220, "ExtraBold"), font(90, "Bold")
-    wn = d.textlength("320", font=fn, features=TNUM)
+    fn, fb = font(220, "ExtraBold"), font(96, "Bold")
+    wn = tab_len("320", fn)                                 # digits in equal cells: the count does not wobble
     gap = 22 * SS
     total = wn + gap + d.textlength("번", font=fb)
     xr = CX - total / 2 + wn
     top = fn.getbbox("320", anchor="ls")[1]
     yb = CY - top / 2
-    d.text((xr, yb), str(n), font=fn, fill=_k(mix(WHITE, YEL, kd), k0), anchor="rs", features=TNUM)
+    tab_text(d, (xr, yb), str(n), fn, _k(mix(WHITE, YEL, kd), k0), "rs")
     d.text((xr + gap, yb), "번", font=fb, fill=_k(WHITE, k0), anchor="ls")
     return finish(img)
 
@@ -381,8 +386,8 @@ def _scale10(d, x, y, k, pos):
         xx = x0 + (x1 - x0) * i / 10
         h = (26 if i in (0, 5, 10) else 16) * SS
         _line(d, [(xx, y - h), (xx, y + h)], col, 6 * SS)
-    _txt(d, (x0, y + 70 * SS), "0", 48, _k(LIGHT, k))
-    _txt(d, (x1, y + 70 * SS), "10", 48, _k(LIGHT, k))
+    _txt(d, (x0, y + 72 * SS), "0", 52, _k(WHITE, k))
+    _txt(d, (x1, y + 72 * SS), "10", 52, _k(WHITE, k))
     xm = x0 + (x1 - x0) * pos
     d.polygon([(xm - 28 * SS, y - 92 * SS), (xm + 28 * SS, y - 92 * SS), (xm, y - 40 * SS)], fill=_k(YEL, k))
     _line(d, [(xm - 28 * SS, y - 92 * SS), (xm + 28 * SS, y - 92 * SS), (xm, y - 40 * SS)], _k(YEL, k), 8 * SS,
@@ -406,7 +411,7 @@ def measures3(t, dur, args, at):
             _fingertip(d, x, y, k, fade(t, t0 + 0.3))
         else:
             _scale10(d, x, y + 20 * SS, k, 0.15 + 0.55 * sm((t - t0 - 0.1) / 0.9))
-        _txt(d, (x, ly), labels[i], 48, _k(LIGHT, k))
+        _txt(d, (x, ly), labels[i], 60, _k(WHITE, k), "Bold")
     return finish(img)
 
 
@@ -426,13 +431,13 @@ def choice2(t, dur, args, at):
             continue
         x = CX + (i * 2 - 1) * 330 * SS
         if i == 0:
-            line_c, big_c, cap_c = mix(WHITE, GRAY, hl), mix(WHITE, GRAY, hl), mix(LIGHT, GRAY, hl)
+            line_c, big_c, cap_c = mix(WHITE, GRAY, hl), mix(WHITE, GRAY, hl), mix(WHITE, GRAY, hl)
         else:
-            line_c, big_c, cap_c = mix(WHITE, YEL, hl), mix(WHITE, YEL, hl), mix(LIGHT, YEL, hl)
+            line_c, big_c, cap_c = mix(WHITE, YEL, hl), mix(WHITE, YEL, hl), mix(WHITE, YEL, hl)
         d.rounded_rectangle([x - bw / 2, CY - bh / 2, x + bw / 2, CY + bh / 2], radius=40 * SS, outline=_k(line_c, k),
                             width=LW)
-        _txt(d, (x, CY - 46 * SS), big, 130, _k(big_c, k), "ExtraBold")
-        _txt(d, (x, CY + 106 * SS), cap, 52, _k(cap_c, k))
+        _txt(d, (x, CY - 46 * SS), big, 120, _k(big_c, k), "ExtraBold")
+        _txt(d, (x, CY + 110 * SS), cap, 60, _k(cap_c, k), "Bold")
     return finish(img)
 
 
@@ -440,7 +445,7 @@ def choice2(t, dur, args, at):
 def _axes(d, x0, x1, yt, yb, k, ytitle):
     col = _k(GRAY, k)
     _line(d, [(x0, yt), (x0, yb), (x1, yb)], col, 7 * SS)
-    _txt(d, (x0, yt - 50 * SS), ytitle, 46, _k(LIGHT, k))
+    _txt(d, (x0, yt - 56 * SS), ytitle, 56, _k(WHITE, k), "Bold")
 
 
 def _partial(pts, q):
@@ -466,8 +471,8 @@ def curve(t, dur, args, at):
     for p, lab in ((0, "0%"), (0.5, "50%"), (1, "100%")):
         xx = xa + (xb - xa) * p
         _line(d, [(xx, yb), (xx, yb + 18 * SS)], _k(GRAY, k), 7 * SS)
-        _txt(d, (xx, yb + 56 * SS), lab, 46, _k(LIGHT, k))
-    _txt(d, (CX, yb + 136 * SS), "뱀이 나올 확률", 48, _k(LIGHT, k))
+        _txt(d, (xx, yb + 58 * SS), lab, 50, _k(WHITE, k))
+    _txt(d, (CX, yb + 140 * SS), "뱀이 나올 확률", 58, _k(WHITE, k), "Bold")
     lo, hi = yb - 0.25 * (yb - yt), yb - 0.92 * (yb - yt)
     pts = [(xa + (xb - xa) * i / 80, lo + (hi - lo) * math.sin(math.pi * i / 80)) for i in range(81)]
     q = sm((t - 0.3) / 1.5)
@@ -501,14 +506,14 @@ def drops3(t, dur, args, at):
     ts = _times(at, (0.4, 2.4, 4.0))
     for i, (lab, t0) in enumerate(zip(("소속감", "통제감", "자존감"), ts)):
         x = CX + (i - 1) * 500 * SS
-        _txt(d, (x, CY - 226 * SS), lab, 64, _k(WHITE, k0), "Bold")
+        _txt(d, (x, CY - 230 * SS), lab, 72, _k(WHITE, k0), "ExtraBold")
         ka = fade(t, t0)
         if ka > 0:
             _down_arrow(d, x, CY - 150 * SS + 96 * SS * sm((t - t0) / 0.7), _k(WHITE, ka))
         if i == 0:
             kc = fade(t, t0 + 0.55)
             if kc > 0:
-                _txt(d, (x, CY + 262 * SS), "절반 이하", 48, _k(YEL, kc), "Bold")
+                _txt(d, (x, CY + 266 * SS), "절반 이하", 60, _k(YEL, kc), "Bold")
     return finish(img)
 
 
@@ -543,7 +548,7 @@ def people5(t, dur, args, at):
         _person(d, x, y, _k(mix(WHITE, YEL, k1) if i == 3 else WHITE, k0))
     if k1 > 0:
         _alarm_lamp(d, CX + sp, y - 58 * SS - 26 * SS + 14 * SS * (1 - k1), k1)
-        _txt(d, (CX, CY + 250 * SS), "5명 중 1명", 64, _k(WHITE, k1), "Bold")
+        _txt(d, (CX, CY + 254 * SS), "5명 중 1명", 72, _k(WHITE, k1), "ExtraBold")
     return finish(img)
 
 
@@ -557,8 +562,8 @@ def graph_down(t, dur, args, at):
     xa, xb = x0 + 70 * SS, x1 - 70 * SS
     for xx, lab in ((xa, "10대"), (xb, "70대")):
         _line(d, [(xx, yb), (xx, yb + 18 * SS)], _k(GRAY, k), 7 * SS)
-        _txt(d, (xx, yb + 56 * SS), lab, 46, _k(LIGHT, k))
-    _txt(d, (CX, yb + 136 * SS), "나이", 48, _k(LIGHT, k))
+        _txt(d, (xx, yb + 58 * SS), lab, 50, _k(WHITE, k))
+    _txt(d, (CX, yb + 140 * SS), "나이", 58, _k(WHITE, k), "Bold")
     hi, lo = yb - 0.84 * (yb - yt), yb - 0.24 * (yb - yt)
 
     def yv(p):
@@ -643,7 +648,7 @@ def spider_60(t, dur, args, at):
         _line(d, [(xm - half, y), (xm + half, y)], col, 7 * SS)
         for xx in (xm - half, xm + half):
             _line(d, [(xx, y - 30 * SS), (xx, y + 30 * SS)], col, 7 * SS)
-        _txt(d, (xm, y - 80 * SS), "60cm", 72, _k(YEL, km), "ExtraBold")
+        _txt(d, (xm, y - 84 * SS), "60cm", 80, _k(YEL, km), "ExtraBold")
     return finish(img)
 
 

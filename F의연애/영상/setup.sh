@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # One-time setup in a fresh cloud session (run from video/burnout/).
-#   default : Python env (pillow, numpy, faster-whisper, rembg, torch, transformers), Pretendard + Noto Sans KR fonts
-#             (OFL), faster-whisper large-v3 (MIT, ~2.9 GB) and kresnik/wav2vec2-large-xlsr-korean (Apache-2.0, 1.27 GB,
+#   default : Python env (pillow, numpy, faster-whisper, rembg, torch, transformers), Pretendard + Noto Sans KR +
+#             Gmarket Sans fonts (OFL), faster-whisper large-v3 (MIT, ~2.9 GB) and kresnik/wav2vec2-large-xlsr-korean (Apache-2.0, 1.27 GB,
 #             syllable-level subtitle timing in ctc_align.py) for syncing the owner's recording
 #   WITH_AI=1 ./setup.sh : also torch/diffusers + RealVisXL V5.0 Lightning (openrail++, ~6.5 GB)
 #             only needed for AI object images (slow without AMX: check `grep -o amx_bf16 /proc/cpuinfo`)
@@ -24,6 +24,21 @@ for w in Medium SemiBold Bold ExtraBold; do
 done
 [ -s fonts/NotoSansKR-VF.ttf ] || curl -sSf -o fonts/NotoSansKR-VF.ttf \
   "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"   # thumbnails (OFL)
+# Icon-screen lettering (v2, 2026-10-24, scripts/fy_common.py): Gmarket Sans Medium + Bold by Gmarket, SIL Open Font
+# License: free for personal and commercial use, video included; the font files themselves may not be sold. Official
+# zip from the Gmarket design system site (gds.gmarket.co.kr, "누구나 아무 제약 없이 쉽게 사용할 수 있습니다");
+# fallback: the jsDelivr copy (github fonts-archive), byte-identical to the official OTFs on 2026-10-24.
+if [ ! -s fonts/GmarketSansMedium.otf ] || [ ! -s fonts/GmarketSansBold.otf ]; then
+  gz=$(mktemp)
+  if curl -sSfL -o "$gz" "https://gds.gmarket.co.kr/file/GmarketSans.zip" && command -v unzip >/dev/null; then
+    for w in Medium Bold; do unzip -p "$gz" "GmarketSans/OTF/GmarketSans$w.otf" > "fonts/GmarketSans$w.otf" || true; done
+  fi
+  rm -f "$gz"
+  for w in Medium Bold; do
+    [ -s "fonts/GmarketSans$w.otf" ] || curl -sSf -o "fonts/GmarketSans$w.otf" \
+      "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans/GmarketSans$w.otf"
+  done
+fi
 ./venv/bin/python - <<'PY'
 from huggingface_hub import snapshot_download
 snapshot_download('Systran/faster-whisper-large-v3', local_dir='models/fw-large-v3')

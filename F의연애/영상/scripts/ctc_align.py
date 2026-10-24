@@ -60,6 +60,7 @@ for k in starts[1:]:
         chunks.append((cur, k)); cur = k
 chunks.append((cur, len(units)))
 res = {}
+syl = {}                                       # v2 (2026-10-24): every syllable's first frame per unit, for onsets_v2.py
 for a, b in chunks:
     t0 = max(units[a]["start"] - 0.25, 0.0)
     t1 = units[b]["start"] - 0.03 if b < len(units) else len(x) / SR
@@ -77,10 +78,12 @@ for a, b in chunks:
     for i, (tk, k) in enumerate(zip(toks, owner)):
         if k is not None and k not in res:
             res[k] = t0 + first[i] * FR
+        if k is not None and tk[1] is not None:
+            syl.setdefault(k, []).append([tk[1], round(t0 + first[i] * FR, 3)])
 out = []
 for k, u in enumerate(units):
     c = res.get(k)
-    v = dict(u, start_ctc=None if c is None else round(c, 3))
+    v = dict(u, start_ctc=None if c is None else round(c, 3), syl=syl.get(k, []))
     if u["onset"] == "after pause":
         # after a real pause the measured voice onset wins: CTC fires at the vowel, 0.2-0.25 s late after a pause in
         # 4 of 183 units (자책하고: ㅈ starts before the spike)

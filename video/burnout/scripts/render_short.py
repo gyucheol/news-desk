@@ -83,6 +83,26 @@ def text_layer(sub, upto=None):
     n = len(lines)
     if STYLE.get("one_line") and n > 1 and not sub.get("lines_ok"):
         raise SystemExit(f"{sub['line']}: two lines on screen ({sub['text']!r}); the owner wants one line only")
+    if sub.get("pos") == "notify":            # a phone notification card (S3 hook: "업무 메일 알림이 하나 뜹니다")
+        x0, x1, y0, h = sub.get("x0", 80), sub.get("x1", SAFE_R), sub.get("y", 410), sub.get("h", 180)
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(sh).rounded_rectangle([x0, y0 + 10, x1, y0 + h + 10], radius=40, fill=(0, 0, 0, 130))
+        layer.alpha_composite(sh.filter(ImageFilter.GaussianBlur(16)))
+        d = ImageDraw.Draw(layer)
+        d.rounded_rectangle([x0, y0, x1, y0 + h], radius=40, fill=(248, 248, 248, 242))
+        isz = 96
+        ix, iy = x0 + 30, y0 + (h - isz) / 2
+        d.rounded_rectangle([ix, iy, ix + isz, iy + isz], radius=24, fill=(59, 130, 246, 255))
+        ex0, ey0, ex1, ey1 = ix + 20, iy + 30, ix + isz - 20, iy + isz - 30          # envelope
+        d.rectangle([ex0, ey0, ex1, ey1], outline=(255, 255, 255, 255), width=5)
+        d.line([(ex0 + 2, ey0 + 2), ((ex0 + ex1) / 2, (ey0 + ey1) / 2 + 4), (ex1 - 2, ey0 + 2)], fill=(255, 255, 255, 255), width=5)
+        tx = ix + isz + 28
+        bold, small, body = (RD.ImageFont.truetype(f"{RD.ROOT}/fonts/Pretendard-Bold.otf", 44),
+                             RD.ImageFont.truetype(RD.FONT_PATH, 32), RD.ImageFont.truetype(RD.FONT_PATH, 38))
+        d.text((tx, y0 + 74), sub.get("title", ""), font=bold, fill=(20, 20, 20, 255), anchor="ls")
+        d.text((x1 - 32, y0 + 74), sub.get("time", ""), font=small, fill=(125, 125, 125, 255), anchor="rs")
+        d.text((tx, y0 + 136), sub.get("body", ""), font=body, fill=(55, 55, 55, 255), anchor="ls")
+        return layer
     if sub.get("pos") == "header":            # black band over the top of the picture with a big title
         ImageDraw.Draw(layer).rectangle([0, 0, W, sub["height"]], fill=(0, 0, 0, 255))
         texts = ["".join(s for s, _ in segs) for segs in lines]

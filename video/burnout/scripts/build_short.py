@@ -5,6 +5,7 @@
 #   were mixed into it (mix_audio.py). Writes <out>/<id>_timeline.json and <out>/<id>_audio.wav.
 # Spec keys (full/shorts/<id>.json): audio_start, end, end_card {text, dur, size (px or "fit"), lines_ok}, fade_out, scenes {id: {vcx}},
 #   hi_res {dir}, one_line_times (chunk times from split_subs.py: every subtitle line becomes one-line chunks),
+#   custom [{from, to, src, in, vcx, grade}] (scenes replacing the episode's), overlays [{kind: notify, from, to, ...}],
 #   split {until_line, band_top, gap, grade, top/bottom {src, in, speed, zoom, vcx, vcy}, bottom.appear_line},
 #   sub_style (passed to render_short.py), header {text, height, size (px or "fit"), weight, leading, bottom or y_center} (title band on top), music {fade_in, fade_out_after, gain_db, track?, offset?}: with "track"
 #   the music is that file from "offset", brought to the loudness the episode's music has over the same stretch.
@@ -68,6 +69,39 @@ def fit(part, w, h):
             f"crop={w}:{h}:{round(x)}:{round(y)},setsar=1")
 
 
+def hires(path):
+    """The spec's clip (relative to root), or its 4K version when one was downloaded (hi_res)."""
+    path = path if os.path.isabs(path) else os.path.join(root, path)
+    if sp.get("hi_res"):
+        hi = os.path.join(root, sp["hi_res"]["dir"], os.path.basename(path))
+        if os.path.exists(hi):
+            return hi
+    return path
+
+
+if sp.get("custom"):    # scenes the Short uses instead of the episode's, from the start of one line to another
+    starts = {su["line"]: su["start"] for su in tl["subs"]}
+    for i, c in enumerate(sp["custom"]):
+        t0 = starts[c["from"]] - a0
+        t0 = 0.0 if t0 < MIN else t0                         # the audio starts just before the first word
+        t1 = starts[c["to"]] - a0 if c.get("to") else main
+        kept = []
+        for s in scenes:
+            if s["id"] != "end" and s["start"] >= t0 - 1e-6 and s["end"] <= t1 + 1e-6:
+                continue                                     # wholly replaced
+            if s["start"] < t0 < s["end"]:
+                s["end"] = t0
+            if s["start"] < t1 < s["end"] and s["id"] != "end":
+                if s["type"] == "video":
+                    s["in"] = s.get("in", 0) + (t1 - s["start"]) * s.get("speed", 1.0)
+                s["start"] = t1
+            kept.append(s)
+        new = {k: v for k, v in c.items() if k not in ("from", "to", "why")}
+        new.update(id=f"c{i}", type="video", src=hires(c["src"]), start=t0, end=t1)
+        scenes = sorted(kept + [new], key=lambda s: s["start"])
+        print(f"custom scene c{i}: {os.path.basename(c['src'])} from {t0:.2f} to {t1:.2f} s")
+
+
 if sp.get("split"):     # owner's hook (S1 v6): the frame below the title band split in two, top first, bottom later
     c = sp["split"]
     starts = {su["line"]: su["start"] for su in tl["subs"]}
@@ -117,6 +151,11 @@ for su in tl["subs"]:
             s["line"] = f"{su['line']}.{c['chunk']}"
         subs.append(s)
 ec = sp["end_card"]
+starts_all = {su["line"]: su["start"] for su in tl["subs"]}
+for ov in sp.get("overlays", []):         # drawn over the picture from one line to another (render_short.py)
+    t0, t1 = max(starts_all[ov["from"]] - a0, 0.0), starts_all[ov["to"]] - a0
+    subs.append({"line": ov["kind"], "unit": ov["kind"], "pos": ov["kind"], "text": ov.get("title", ""),
+                 "start": t0, "end": t1, "lines_ok": True, **{k: v for k, v in ov.items() if k not in ("from", "to", "why")}})
 if sp.get("header"):                      # a black band over the top with the title, for the whole Short
     h = sp["header"]
     subs.append({"line": "header", "unit": "header", "pos": "header", "text": h["text"], "start": 0.0, "end": total,

@@ -11,17 +11,21 @@
 # sfx_log_v4.json). It also lists the owner's second set of AI photos (work/owner_v5/NN.png, make_photos_v5.py).
 # v6 (2026-10-25): --v6 reads work/v6/timeline.json, lines_v6.json, bgm_segments_v6.json and sfx_log_v6.json (the
 # owner's new recordings; the pictures are v5's).
-# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3 | --v4 | --v5 | --v6] > lists.md
+# v7 (2026-10-25): --v7 reads work/v7/timeline.json, lines_v7.json, bgm_segments_v7.json and sfx_log_v7.json; photo 7
+# of the first set is listed with its v7 copy (work/owner_v7/07.png, the typed words softened, make_photos_v7.py), and
+# the reply sound 2357 is left out of the list (v7 has no reply pop).
+# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3 | --v4 | --v5 | --v6 | --v7] > lists.md
 import json, os, sys
 
 F, VR = sys.argv[1], sys.argv[2]
-V6 = "--v6" in sys.argv
+V7 = "--v7" in sys.argv
+V6 = "--v6" in sys.argv or V7
 V5 = "--v5" in sys.argv or V6
 V4 = "--v4" in sys.argv or V5
 V3 = "--v3" in sys.argv or V4
 V2 = "--v2" in sys.argv or V3
-VER = "v6" if V6 else ("v5" if V5 else ("v4" if V4 else ("v3" if V3 else "v2")))
-SND = "v6" if V6 else ("v4" if V5 else VER)    # v5 kept the v4 sound; v6 has its own
+VER = "v7" if V7 else "v6" if V6 else ("v5" if V5 else ("v4" if V4 else ("v3" if V3 else "v2")))
+SND = VER if V6 else ("v4" if V5 else VER)    # v5 kept the v4 sound; v6 and v7 have their own
 W = f"{VR}/work"
 tl = json.load(open(f"{W}/{VER}/timeline.json" if V2 else f"{W}/timeline.json"))
 lic, notices = {}, {}
@@ -77,9 +81,10 @@ ph, own, own5 = {}, {}, {}
 line_text = {o["id"]: o["text"].replace("\n", " ").replace("[", "").replace("]", "")
              for o in json.load(open(f"{F}/lines_{VER}.json"))} if V2 else {}
 for sc in tl["scenes"]:
-    if sc["type"] == "photo" and ("/owner_v3/" in sc["image"] or "/owner_v5/" in sc["image"]):
+    if sc["type"] == "photo" and any(f"/owner_{v}/" in sc["image"] for v in ("v3", "v5", "v7")):
         (own5 if "/owner_v5/" in sc["image"] else own).setdefault(os.path.basename(sc["image"])[:2], []).append(
-            f"장면 {sc['id']} {mmss(sc['start'])} \"{line_text.get(sc['from'], '')}\"부터")
+            f"장면 {sc['id']} {mmss(sc['start'])} \"{line_text.get(sc['from'], '')}\"부터"
+            + (" (입력창 글자를 흐린 v7 판, make_photos_v7.py)" if "/owner_v7/" in sc["image"] else ""))
     elif sc["type"] == "photo":
         fn = os.path.basename(sc["image"])
         ph.setdefault(fn.split("_")[0], []).append(f"장면 {sc['id']} {mmss(sc['start'])} ({fn})")
@@ -135,6 +140,8 @@ names = {"2354": "Message pop alert", "2357": "Bubble pop up alert notification"
          "1050": "Slow tick-tock clock timer", "2365": "Electric pop"}
 if V2:                                   # v2: no clock ticks, no typing (make_sfx_v2.py)
     names = {i: n for i, n in names.items() if i in ("2354", "2357", "2365")}
+if V7:                                   # v7: no reply pop left (make_sfx_v7.py)
+    names = {i: n for i, n in names.items() if i != "2357"}
 for k, (i, n) in enumerate(names.items(), 1):
     print(f"{k}. {i} {n}")
 sl = f"sfx_log_{SND}.json" if V2 else "sfx_log.json"

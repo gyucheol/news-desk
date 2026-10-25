@@ -1,0 +1,32 @@
+{
+ "cut_v6_clock": [
+  123.66,
+  131.63
+ ],
+ "cut_seconds": 7.97,
+ "removed_lines": [
+  "L094 밤 11시 50분",
+  "L095 지우는 마지막으로",
+  "L096 카톡을 하나 더 보냅니다.",
+  "L097 자요..?",
+  "L098 그렇게 보낸 3줄의 메시지 옆에",
+  "L099 숫자 '1' 3개가",
+  "L100 나란히 떠 있습니다."
+ ],
+ "pause_before_first_cut": [
+  123.55,
+  123.76
+ ],
+ "pause_before_first_kept": [
+  131.53,
+  131.73
+ ],
+ "pause_kept_seconds": 0.21,
+ "join_level_db_under_speech": 63.2,
+ "lufs_before_gain": -14.0,
+ "gain_db": 0.0,
+ "lufs": -14.0,
+ "old_duration": 711.6353,
+ "new_duration": 703.6653,
+ "map": "t < cut[0]: t; t >= cut[1]: t - cut_seconds (v6 clock -> v7 clock)"
+}

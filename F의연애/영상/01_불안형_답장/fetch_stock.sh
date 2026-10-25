@@ -6,9 +6,11 @@
 # v4 (2026-10-25): "fetch_stock.sh v4" takes the clips of spec_v4.json and, as v3, the music of bgm_plan_v3.json.
 # v5 (2026-10-25): "fetch_stock.sh v5" takes the clips of spec_v5.json (all of them v4 clips) and the v3 music.
 # v6 (2026-10-25): "fetch_stock.sh v6" takes the clips of spec_v6.json (the same clips as v5) and the v3 music.
+# v7 (2026-10-25): "fetch_stock.sh v7" takes the clips of spec_v7.json (v6 clips; 31413 and 51394 are used in fewer
+#   scenes) and the v3 music.
 set -euo pipefail
 VR="${VIDEO_ROOT:?set VIDEO_ROOT}"; E="$(cd "$(dirname "$0")" && pwd)"
-SPEC="$E/spec.json"; [ "${1:-}" = v2 ] && SPEC="$E/spec_v2.json"; [ "${1:-}" = v3 ] && SPEC="$E/spec_v3.json"; [ "${1:-}" = v4 ] && SPEC="$E/spec_v4.json"; [ "${1:-}" = v5 ] && SPEC="$E/spec_v5.json"; [ "${1:-}" = v6 ] && SPEC="$E/spec_v6.json"
+SPEC="$E/spec.json"; [ "${1:-}" = v2 ] && SPEC="$E/spec_v2.json"; [ "${1:-}" = v3 ] && SPEC="$E/spec_v3.json"; [ "${1:-}" = v4 ] && SPEC="$E/spec_v4.json"; [ "${1:-}" = v5 ] && SPEC="$E/spec_v5.json"; [ "${1:-}" = v6 ] && SPEC="$E/spec_v6.json"; [ "${1:-}" = v7 ] && SPEC="$E/spec_v7.json"
 mkdir -p "$VR/work/stock/full" "$VR/work/stock/music" "$VR/work/stock/sfx"
 get() {  # get <file> <url> [fallback url]
   [ -s "$1" ] && return 0
@@ -32,7 +34,7 @@ print(' '.join(sorted({s['src'].split('/')[-1][:-4].rstrip('p') for s in sp['sce
 done
 MUSIC="493 41 615 168 681 310 713 682 1081"
 [ "${1:-}" = v2 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(p['mixkit'] for p in json.load(open('$E/bgm_plan_v2.json'))))")
-[ "${1:-}" = v3 -o "${1:-}" = v4 -o "${1:-}" = v5 -o "${1:-}" = v6 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(sorted({p['mixkit'] for p in json.load(open('$E/bgm_plan_v3.json'))})))")
+[ "${1:-}" = v3 -o "${1:-}" = v4 -o "${1:-}" = v5 -o "${1:-}" = v6 -o "${1:-}" = v7 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(sorted({p['mixkit'] for p in json.load(open('$E/bgm_plan_v3.json'))})))")
 for id in $MUSIC; do
   get "$VR/work/stock/music/$id.mp3" "https://assets.mixkit.co/music/$id/$id.mp3"
 done

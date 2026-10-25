@@ -9,16 +9,19 @@
 # v3's 29 (the photos the owner attached to the v4 list were files they had already sent).
 # v5 (2026-10-25): --v5 reads work/v5/timeline.json and lines_v5.json; the sound is v4's (bgm_segments_v4.json,
 # sfx_log_v4.json). It also lists the owner's second set of AI photos (work/owner_v5/NN.png, make_photos_v5.py).
-# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3 | --v4 | --v5] > lists.md
+# v6 (2026-10-25): --v6 reads work/v6/timeline.json, lines_v6.json, bgm_segments_v6.json and sfx_log_v6.json (the
+# owner's new recordings; the pictures are v5's).
+# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3 | --v4 | --v5 | --v6] > lists.md
 import json, os, sys
 
 F, VR = sys.argv[1], sys.argv[2]
-V5 = "--v5" in sys.argv
+V6 = "--v6" in sys.argv
+V5 = "--v5" in sys.argv or V6
 V4 = "--v4" in sys.argv or V5
 V3 = "--v3" in sys.argv or V4
 V2 = "--v2" in sys.argv or V3
-VER = "v5" if V5 else ("v4" if V4 else ("v3" if V3 else "v2"))
-SND = "v4" if V5 else VER                # v5 keeps the v4 sound
+VER = "v6" if V6 else ("v5" if V5 else ("v4" if V4 else ("v3" if V3 else "v2")))
+SND = "v6" if V6 else ("v4" if V5 else VER)    # v5 kept the v4 sound; v6 has its own
 W = f"{VR}/work"
 tl = json.load(open(f"{W}/{VER}/timeline.json" if V2 else f"{W}/timeline.json"))
 lic, notices = {}, {}

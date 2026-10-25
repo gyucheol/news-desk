@@ -1,0 +1,6 @@
+{
+ "note": "The sigh '하..' before '내가 연락을 너무 재촉하는 것처럼' in the new recordings (recording 2, 53.212-53.719 s; the recogniser heard it as '아...'). Measured on 4 ms windows: the floor is -70 dB until 53.217 s, the sigh rises at 53.219 s (peak -18.7 dB), decays to -48 dB at 53.718-53.722 s, and '내가' rises from 53.744 s. The cut ends at that minimum, before any sound of '내'. Times below are on the joined clock (join_log.json: recording 2 starts at 67.153 s).",
+ "recording": 2,
+ "in_recording": [53.212, 53.719],
+ "cut": [120.365, 120.872]
+}

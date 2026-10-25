@@ -5,8 +5,9 @@
 # 4-15 kHz band of the owner's voice (error/signal median -21 dB, 48 bad frames; at 320 kbps -32 dB, 2 frames).
 # --video-only (F의 연애 01 v3, 2026-10-25): join the parts without sound, so the picture can be made while the music is
 # still being chosen (the frames do not depend on the sound); add the sound later with the same AAC settings:
-#   ffmpeg -i video.mp4 -i final_audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -ar 48000 -ac 2 -shortest
+#   ffmpeg -i video.mp4 -i final_audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -ar 48000 -ac 2
 #          -movflags +faststart out.mp4
+# (no -shortest there: the sound ends a few ms before the last frame does, and -shortest dropped that frame in 01 v3)
 # usage: render_parallel.py timeline.json out.mp4 [parts=3] [--video-only]
 import json, os, subprocess, sys
 here = os.path.dirname(os.path.abspath(__file__))

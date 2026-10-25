@@ -54,7 +54,11 @@ def kakao(t, dur, args, at):
     gap = 0.30 * h
     title = args.get("title")
     top_pad = 130 * SS if title else 0
-    total = len(msgs) * h + (len(msgs) - 1) * gap
+    # v4 (2026-10-25, owner: "첫번째, 두번째, 세번째에 나오는 카톡 위치와 자막 위치가 동일하게"): "slots" lays the
+    # screen out as if it had that many messages, so a screen with one message puts its title and bubble where the
+    # two-message screens put theirs
+    n = max(len(msgs), int(args.get("slots", 0)))
+    total = n * h + (n - 1) * gap
     y = CY - total / 2 + top_pad / 2
     if title:
         text(d, (CX, y - 135 * SS), title, 76, WHITE, weight="ExtraBold")
@@ -165,14 +169,17 @@ def panels3(t, dur, args, at):
             cur = p
     chats = args.get("chats", PANEL_CHATS)
     my_msg = args.get("my_msg", MY_MSG)
+    # v4 (2026-10-25, owner: "5분 만에 답장, 3시간 뒤 답장 이라는 자막 지워줘. 첫번째, 두번째, 세번째도 지워줘"):
+    # "titles": False / "labels": False leave out the words above and under the panels
     for i in range(3):
         focus = cur == i
         xi = x + i * (w + gap)
         _panel_chat(img, xi, y0, w, hh, i, chats[i], focus, my_msg)
         d = ImageDraw.Draw(img)
         col = YEL if focus else WHITE
-        text(d, (xi + w / 2, y0 - 62 * SS), ["첫 번째", "두 번째", "세 번째"][i], 66, col, weight="ExtraBold")
-        if chats[i].get("label"):
+        if args.get("titles", True):
+            text(d, (xi + w / 2, y0 - 62 * SS), ["첫 번째", "두 번째", "세 번째"][i], 66, col, weight="ExtraBold")
+        if chats[i].get("label") and args.get("labels", True):
             text(d, (xi + w / 2, y0 + hh + 66 * SS), chats[i]["label"], 54, col, weight="Bold")
     return finish(img)
 

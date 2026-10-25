@@ -3,9 +3,10 @@
 # credits.md). Individual files for this one video, not a bulk download. Run with VIDEO_ROOT set.
 # v2 (2026-10-24): "fetch_stock.sh v2" takes the clips of spec_v2.json and the music of bgm_plan_v2.json (run_v2.sh).
 # v3 (2026-10-25): "fetch_stock.sh v3" takes the clips of spec_v3.json and the music of bgm_plan_v3.json (run_v3.sh).
+# v4 (2026-10-25): "fetch_stock.sh v4" takes the clips of spec_v4.json and, as v3, the music of bgm_plan_v3.json.
 set -euo pipefail
 VR="${VIDEO_ROOT:?set VIDEO_ROOT}"; E="$(cd "$(dirname "$0")" && pwd)"
-SPEC="$E/spec.json"; [ "${1:-}" = v2 ] && SPEC="$E/spec_v2.json"; [ "${1:-}" = v3 ] && SPEC="$E/spec_v3.json"
+SPEC="$E/spec.json"; [ "${1:-}" = v2 ] && SPEC="$E/spec_v2.json"; [ "${1:-}" = v3 ] && SPEC="$E/spec_v3.json"; [ "${1:-}" = v4 ] && SPEC="$E/spec_v4.json"
 mkdir -p "$VR/work/stock/full" "$VR/work/stock/music" "$VR/work/stock/sfx"
 get() {  # get <file> <url> [fallback url]
   [ -s "$1" ] && return 0
@@ -29,7 +30,7 @@ print(' '.join(sorted({s['src'].split('/')[-1][:-4].rstrip('p') for s in sp['sce
 done
 MUSIC="493 41 615 168 681 310 713 682 1081"
 [ "${1:-}" = v2 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(p['mixkit'] for p in json.load(open('$E/bgm_plan_v2.json'))))")
-[ "${1:-}" = v3 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(sorted({p['mixkit'] for p in json.load(open('$E/bgm_plan_v3.json'))})))")
+[ "${1:-}" = v3 -o "${1:-}" = v4 ] && MUSIC=$(python3 -I -c "import json; print(' '.join(sorted({p['mixkit'] for p in json.load(open('$E/bgm_plan_v3.json'))})))")
 for id in $MUSIC; do
   get "$VR/work/stock/music/$id.mp3" "https://assets.mixkit.co/music/$id/$id.mp3"
 done

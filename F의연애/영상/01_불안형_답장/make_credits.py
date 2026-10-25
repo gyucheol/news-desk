@@ -5,13 +5,16 @@
 # check of its page says Free.
 # v3 (2026-10-25): --v3 reads work/v3/timeline.json, bgm_segments_v3.json and sfx_log_v3.json and also lists the
 # owner's v3 photos (work/owner_v3/NN.png) with the scenes that show them, split-screen panels included.
-# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3] > lists.md
+# v4 (2026-10-25): --v4 reads work/v4/timeline.json, bgm_segments_v4.json and sfx_log_v4.json; the owner's photos are
+# v3's 29 (the photos the owner attached to the v4 list were files they had already sent).
+# usage: make_credits.py <episode folder> <VIDEO_ROOT> [--v2 | --v3 | --v4] > lists.md
 import json, os, sys
 
 F, VR = sys.argv[1], sys.argv[2]
-V3 = "--v3" in sys.argv
+V4 = "--v4" in sys.argv
+V3 = "--v3" in sys.argv or V4
 V2 = "--v2" in sys.argv or V3
-VER = "v3" if V3 else "v2"
+VER = "v4" if V4 else ("v3" if V3 else "v2")
 W = f"{VR}/work"
 tl = json.load(open(f"{W}/{VER}/timeline.json" if V2 else f"{W}/timeline.json"))
 lic, notices = {}, {}
@@ -93,7 +96,7 @@ if V2:
     for k, who in enumerate(("bowlby", "ariely"), 1):
         print(f"{k}. {who}_v2.png — {', '.join(ph.get(who, ['쓰지 않음']))}: 운영자가 보낸 사진(make_photos_v2.py로 16:9 화면에 맞춤, 커밋하지 않음)")
 if V3:
-    print("\n## 운영자 AI 사진 (v3)\n")
+    print(f"\n## 운영자 AI 사진 ({VER})\n")
     print("운영자가 직접 만들어 보낸 사진 29장(번호는 대본의 <대사>(번호)). 오른쪽 아래 별 모양 표시를 지우고"
           "(scripts/owner_wm_remove.py), 위아래 검은 띠를 잘라 냄(make_photos_v3.py). 커밋하지 않음.\n")
     for n in range(1, 31):

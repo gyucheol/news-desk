@@ -491,12 +491,13 @@ def curve(t, dur, args, at):
 
 
 # --- 8. three scores drop -------------------------------------------------------------------------------------------
-def _down_arrow(d, x, top, col):
-    sw, L, hw, hh = 64 * SS, 140 * SS, 160 * SS, 110 * SS
+def _down_arrow(d, x, top, col, s=1.0):
+    """A thick down arrow from top; s scales it (v4, 2026-10-25: smaller over a photo with centre subtitles)."""
+    sw, L, hw, hh = 64 * SS * s, 140 * SS * s, 160 * SS * s, 110 * SS * s
     pts = [(x - sw / 2, top), (x + sw / 2, top), (x + sw / 2, top + L), (x + hw / 2, top + L), (x, top + L + hh),
            (x - hw / 2, top + L), (x - sw / 2, top + L)]
     d.polygon(pts, fill=col)
-    _line(d, pts, col, 10 * SS, closed=True)
+    _line(d, pts, col, round(10 * SS * s), closed=True)
 
 
 def drops3(t, dur, args, at):
@@ -504,16 +505,21 @@ def drops3(t, dur, args, at):
     img, d = canvas()
     k0 = fade(t, 0, 0.3)
     ts = _times(at, (0.4, 2.4, 4.0))
+    # v4 (2026-10-25): over a photo with the subtitles in the middle (render.py "icon_overlay"), "lift" (output px)
+    # moves the words and arrows up, "drop" (output px) shortens the arrows' slide and "arrow" scales the arrows, so
+    # nothing is drawn where the centre subtitles are; "note": False leaves out '절반 이하' ("note_y", output px, moves it)
+    lift, drop = args.get("lift", 0) * SS, args.get("drop", 96) * SS
     for i, (lab, t0) in enumerate(zip(("소속감", "통제감", "자존감"), ts)):
         x = CX + (i - 1) * 500 * SS
-        _txt(d, (x, CY - 230 * SS), lab, 72, _k(WHITE, k0), "ExtraBold")
+        _txt(d, (x, CY - 230 * SS - lift), lab, 72, _k(WHITE, k0), "ExtraBold")
         ka = fade(t, t0)
         if ka > 0:
-            _down_arrow(d, x, CY - 150 * SS + 96 * SS * sm((t - t0) / 0.7), _k(WHITE, ka))
-        if i == 0:
+            _down_arrow(d, x, CY - 150 * SS - lift + drop * sm((t - t0) / 0.7), _k(WHITE, ka), args.get("arrow", 1.0))
+        if i == 0 and args.get("note", True):
             kc = fade(t, t0 + 0.55)
             if kc > 0:
-                _txt(d, (x, CY + 266 * SS), "절반 이하", 60, _k(YEL, kc), "Bold")
+                ny = args["note_y"] * SS if "note_y" in args else CY + 266 * SS
+                _txt(d, (x, ny), "절반 이하", 60, _k(YEL, kc), "Bold")
     return finish(img)
 
 
@@ -548,7 +554,8 @@ def people5(t, dur, args, at):
         _person(d, x, y, _k(mix(WHITE, YEL, k1) if i == 3 else WHITE, k0))
     if k1 > 0:
         _alarm_lamp(d, CX + sp, y - 58 * SS - 26 * SS + 14 * SS * (1 - k1), k1)
-        _txt(d, (CX, CY + 254 * SS), "5명 중 1명", 72, _k(WHITE, k1), "ExtraBold")
+        if args.get("caption", True):       # v4 (2026-10-25, owner): "5명 중 1명이라는 자막 없애줘"
+            _txt(d, (CX, CY + 254 * SS), "5명 중 1명", 72, _k(WHITE, k1), "ExtraBold")
     return finish(img)
 
 

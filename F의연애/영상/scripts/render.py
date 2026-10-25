@@ -220,6 +220,28 @@ def mix_source(sc):
             "grade": mx.get("grade", sc.get("grade", DEFAULT_GRADE)), "blur": mx.get("blur", sc.get("blur", 0))}
 
 
+def mix_weight(mx, t, sub_start):
+    """How far a scene's "mix" has gone at time t (0..1, smooth). It starts at the voice onset of mx["at"] (+ "shift"
+    seconds, negative = earlier) and takes "dur" seconds; v4 (2026-10-25): with "until" (a unit) it goes back over the
+    same time from that unit's onset (+ "until_shift"), e.g. a shot softened only under one centre line."""
+    if mx["at"] not in sub_start:
+        return 0.0
+    d = mx.get("dur", 0.5)
+    k = smooth(min(max((t - sub_start[mx["at"]] - mx.get("shift", 0.0)) / d, 0), 1))
+    if mx.get("until") in sub_start:
+        k *= 1 - smooth(min(max((t - sub_start[mx["until"]] - mx.get("until_shift", 0.0)) / d, 0), 1))
+    return k
+
+
+def luma_key(icon):
+    """F의 연애 01 v4 (2026-10-25): an icon screen (white and coloured lines on black) as a transparent layer, so the
+    drawing can sit on a picture: alpha = the brightest channel, colour = the pixel brought back to full strength."""
+    a = np.asarray(icon.convert("RGB"), dtype=np.float32)
+    al = a.max(axis=2)
+    rgb = np.clip(a * (255.0 / np.maximum(al, 1.0))[..., None], 0, 255)
+    return Image.fromarray(np.dstack([rgb, al]).round().astype(np.uint8), "RGBA")
+
+
 SPLIT_GAP = 8                    # black line between the two halves of a split screen
 
 
@@ -445,12 +467,23 @@ def main():
                 v.close()
         if sc["type"] == "video":
             u = min(max((t - sc["start"]) / (sc["end"] - sc["start"]), 0), 1)
-            arr = grade_arr(vids[si].frame(int(round((t - sc["start"]) * FPS))), sc.get("grade", DEFAULT_GRADE))
-            im = Image.fromarray(arr)
-            if vids[si].zoom:
-                z = sc.get("z0", 1.0) * (sc.get("z1", 1.0) / sc.get("z0", 1.0)) ** u
-                im = kenburns(im, z, lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u),
-                              lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u))
+            raw = vids[si].frame(int(round((t - sc["start"]) * FPS)))
+            versions = [(Image.fromarray(grade_arr(raw, sc.get("grade", DEFAULT_GRADE))), 0)]
+            # F의 연애 01 v4 (2026-10-25): "mix" on a stock shot = the same shot, graded and blurred as the background of
+            # centre text, faded in at a line (and out again with "until"); the owner: "바로 앞 장면에서 사용한 사진을
+            # 그대로 이어받아서 화면 중앙에 대본 적는 걸로"
+            km = mix_weight(sc["mix"], t, sub_start) if sc.get("mix") else 0.0
+            if km > 0:
+                versions.append((Image.fromarray(grade_arr(raw, sc["mix"].get("grade", sc.get("grade", DEFAULT_GRADE)))),
+                                 sc["mix"].get("blur", 0)))
+            outs = []
+            for im, bl in versions:
+                if vids[si].zoom:
+                    z = sc.get("z0", 1.0) * (sc.get("z1", 1.0) / sc.get("z0", 1.0)) ** u
+                    im = kenburns(im, z, lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u),
+                                  lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u))
+                outs.append(im.filter(ImageFilter.GaussianBlur(bl)) if bl else im)
+            im = outs[0] if km <= 0 else (outs[1] if km >= 1 else Image.blend(outs[0], outs[1], km))
             img = im.convert("RGBA")
         elif sc["type"] == "icon":
             if sc["icon"] in fy_kinds():
@@ -471,8 +504,7 @@ def main():
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
             src = srcs[photo_key(sc)]
             if sc.get("mix") and sc["mix"]["at"] in sub_start:
-                mx = sc["mix"]
-                k = smooth(min(max((t - sub_start[mx["at"]] - mx.get("shift", 0.0)) / mx.get("dur", 0.5), 0), 1))
+                k = mix_weight(sc["mix"], t, sub_start)
                 if k >= 1:
                     src = srcs[photo_key(mix_source(sc))]
                 elif k > 0:
@@ -512,6 +544,15 @@ def main():
             img = labels[sc["label"]].copy()
         else:
             img = black.convert("RGBA")
+        if sc.get("icon_overlay"):
+            # F의 연애 01 v4 (2026-10-25): an icon screen drawn over the picture (luma_key), from the voice onset of the
+            # unit "from"; its "at" units are timed from there. The owner on 소속감/통제감/자존감: "바로 앞 장면에서 사용한
+            # 사진을 그대로 이어받아서 화면 중앙에 대본 적는 걸로 편집. + ai자료도 그대로 중앙에 배치"
+            ov = sc["icon_overlay"]
+            t0 = sub_start.get(ov.get("from"), sc["start"])
+            if t >= t0:
+                at = [sub_start[u] - t0 for u in ov.get("at", []) if u in sub_start]
+                img.alpha_composite(luma_key(fy_kinds()[ov["kind"]](t - t0, sc["end"] - t0, ov.get("args", {}), at)))
         if sc.get("title"):                     # big words over the scene, fading in at its start
             if si not in titles:
                 titles[si] = title_layer(sc)

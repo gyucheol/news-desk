@@ -211,6 +211,54 @@ def photo_key(sc):
     return json.dumps([sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0)], sort_keys=True)
 
 
+def mix_source(sc):
+    """F의 연애 01 v3 (2026-10-25): a photo scene's "mix" {"at": unit, "dur": s, and any of image/crop/grade/blur}
+    cross-fades the photo into a second version of it from the voice onset of that unit, e.g. the brain turning red at
+    '위협적으로', or a photo coming into focus when the centre text gives way to a bottom subtitle."""
+    mx = sc["mix"]
+    return {"image": mx.get("image", sc["image"]), "crop": mx.get("crop", sc.get("crop")),
+            "grade": mx.get("grade", sc.get("grade", DEFAULT_GRADE)), "blur": mx.get("blur", sc.get("blur", 0))}
+
+
+SPLIT_GAP = 8                    # black line between the two halves of a split screen
+
+
+def panel_size():
+    return (W - SPLIT_GAP) // 2, H
+
+
+def panel_key(p):
+    return json.dumps(["panel", p["image"], p.get("crop"), p.get("grade", DEFAULT_GRADE)], sort_keys=True)
+
+
+def prep_panel(p):
+    """Split-screen panel (F의 연애 01 v3): "crop" [x0, y0, x1, y1] in source pixels with the panel's aspect (about
+    956 x 1080), graded, scaled so that MAX_ZOOM maps 1:1 to output pixels."""
+    im = Image.open(p["image"]).convert("RGB")
+    if p.get("crop"):
+        im = im.crop(p["crop"])
+    pw, ph = panel_size()
+    im = grade(im, p.get("grade", DEFAULT_GRADE))
+    return im.resize((round(pw * MAX_ZOOM), round(ph * MAX_ZOOM)), Image.LANCZOS)
+
+
+_FYO = None
+
+
+def fy_overlays():
+    """F의 연애 drawings over a photo (icons_photo.py OVERLAYS): fn(t, dur, args, at, view) -> RGBA 1920x1080; view =
+    the visible window of the photo as (x0, y0, w, h) in 0..1 of the photo, so a drawing can stay on the photo's
+    subject while the photo slowly zooms."""
+    global _FYO
+    if _FYO is None:
+        import importlib
+        try:
+            _FYO = importlib.import_module("icons_photo").OVERLAYS
+        except ImportError:
+            _FYO = {}
+    return _FYO
+
+
 def title_layer(sc):
     """Big centred words over a scene (e.g. 번아웃, 1970년대) with a soft shadow; an optional smaller line below."""
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -319,15 +367,21 @@ def icon_frame(kind, t, dur):
     return img.resize((W, H), Image.LANCZOS)
 
 
-def kenburns(src, z, cx, cy):
-    """z: 1.0 (full source) .. MAX_ZOOM; (cx, cy): focus as 0..1 of source."""
+def kenburns_view(src, z, cx, cy):
+    """The window of the source seen at zoom z with focus (cx, cy): (x0, y0, vw, vh) in source pixels."""
     sw, sh = src.size
     vw, vh = sw / z, sh / z
     # keep the view window inside the source
     x0 = min(max(cx * sw - vw / 2, 0), sw - vw)
     y0 = min(max(cy * sh - vh / 2, 0), sh - vh)
-    a = vw / W; e = vh / H
-    return src.transform((W, H), Image.AFFINE, (a, 0, x0, 0, e, y0), resample=Image.BICUBIC)
+    return x0, y0, vw, vh
+
+
+def kenburns(src, z, cx, cy, size=(W, H)):
+    """z: 1.0 (full source) .. MAX_ZOOM; (cx, cy): focus as 0..1 of source; size: output (split-screen panels)."""
+    x0, y0, vw, vh = kenburns_view(src, z, cx, cy)
+    a = vw / size[0]; e = vh / size[1]
+    return src.transform(size, Image.AFFINE, (a, 0, x0, 0, e, y0), resample=Image.BICUBIC)
 
 
 def lerp(a, b, u):
@@ -348,8 +402,15 @@ def main():
     nfr = round(dur * FPS)
     srcs, vids = {}, {}
     for i, sc in enumerate(tl["scenes"]):
-        if sc["type"] == "photo" and photo_key(sc) not in srcs:
-            srcs[photo_key(sc)] = prep_image(sc["image"], sc.get("crop"), sc.get("grade", DEFAULT_GRADE), sc.get("blur", 0))
+        if sc["type"] == "photo":
+            for ps in [sc] + ([mix_source(sc)] if sc.get("mix") else []):
+                if photo_key(ps) not in srcs:
+                    srcs[photo_key(ps)] = prep_image(ps["image"], ps.get("crop"), ps.get("grade", DEFAULT_GRADE),
+                                                     ps.get("blur", 0))
+        elif sc["type"] == "split":
+            for p in sc["panels"]:
+                if panel_key(p) not in srcs:
+                    srcs[panel_key(p)] = prep_panel(p)
         elif sc["type"] == "video":
             vids[i] = VideoSource(sc)
     # F의 연애 (2026-10-24): a --range part or --frames-only builds only the subtitle layers it shows. Each layer is a
@@ -408,12 +469,41 @@ def main():
             z = z0 * (z1 / z0) ** u
             cx = lerp(sc.get("cx0", 0.5), sc.get("cx1", 0.5), u)
             cy = lerp(sc.get("cy0", 0.5), sc.get("cy1", 0.5), u)
-            img = kenburns(srcs[photo_key(sc)], z, cx, cy).convert("RGBA")
-            if sc.get("overlay"):              # text drawn over the photo (icons.py OVERLAYS), lines timed to units
-                import icons
+            src = srcs[photo_key(sc)]
+            if sc.get("mix") and sc["mix"]["at"] in sub_start:
+                mx = sc["mix"]
+                k = smooth(min(max((t - sub_start[mx["at"]] - mx.get("shift", 0.0)) / mx.get("dur", 0.5), 0), 1))
+                if k >= 1:
+                    src = srcs[photo_key(mix_source(sc))]
+                elif k > 0:
+                    src = Image.blend(src, srcs[photo_key(mix_source(sc))], k)
+            img = kenburns(src, z, cx, cy).convert("RGBA")
+            if sc.get("overlay"):              # drawn over the photo, timed to units (icons_photo.py, then icons.py)
                 ov = sc["overlay"]
                 at = [sub_start[u] - sc["start"] for u in ov.get("at", []) if u in sub_start]
-                img.alpha_composite(icons.overlay(ov["kind"], t - sc["start"], sc["end"] - sc["start"], at))
+                if ov["kind"] in fy_overlays():
+                    x0, y0, vw, vh = kenburns_view(src, z, cx, cy)
+                    view = (x0 / src.width, y0 / src.height, vw / src.width, vh / src.height)
+                    img.alpha_composite(fy_overlays()[ov["kind"]](t - sc["start"], sc["end"] - sc["start"],
+                                                                  ov.get("args", {}), at, view))
+                else:
+                    import icons
+                    img.alpha_composite(icons.overlay(ov["kind"], t - sc["start"], sc["end"] - sc["start"], at))
+        elif sc["type"] == "split":
+            # F의 연애 01 v3 (2026-10-25): two photos side by side, each appearing (fade) when its line is spoken; the
+            # owner: "화면을 반으로 나누어서 … 오른쪽에 15번 사진이 먼저 나오고 … 13번 사진이 그 이후에 왼쪽에"
+            pw, ph = panel_size()
+            img = Image.new("RGBA", (W, H), (0, 0, 0, 255))
+            for p in sc["panels"]:
+                t_on = sub_start.get(p["at"], sc["start"]) if p.get("at") else sc["start"]
+                k = smooth(min(max((t - t_on) / p.get("fade", 0.35), 0), 1))
+                if k <= 0:
+                    continue
+                zp = min(MAX_ZOOM, p.get("z0", 1.0) * (1 + p.get("zoom_rate", 0.006) * max(t - t_on, 0)))
+                pim = kenburns(srcs[panel_key(p)], zp, p.get("cx", 0.5), p.get("cy", 0.5), (pw, ph))
+                if k < 1:
+                    pim = Image.blend(Image.new("RGB", (pw, ph), (0, 0, 0)), pim, k)
+                img.paste(pim, (0 if p["side"] == "left" else W - pw, 0))
         elif sc.get("label"):                  # item card: small "1 / 3" above the centred line (scene table 항목카드)
             if sc["label"] not in labels:
                 lab = black.copy()

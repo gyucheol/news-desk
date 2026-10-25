@@ -1,0 +1,4548 @@
+{
+ "note": "paths are relative to VIDEO_ROOT (venv/, models/, work/); build_spec_v3.py also writes work/v3/spec_abs.json",
+ "fade_in": 0.3,
+ "fade_out": 0.5,
+ "sub_lead": 0.017,
+ "scenes": [
+  {
+   "id": "001",
+   "from": "L001",
+   "type": "video",
+   "src": "work/stock/full/4822.mp4",
+   "note": "Mixkit 4822",
+   "in": 1.0
+  },
+  {
+   "id": "002",
+   "from": "L002",
+   "type": "video",
+   "src": "work/stock/full/4915.mp4",
+   "note": "Mixkit 4915",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "003",
+   "from": "L003",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 퇴근하고 뭐할꺼야?",
+      "time": "오후 7:00",
+      "show": 0
+     }
+    ]
+   },
+   "at": [
+    "L003"
+   ]
+  },
+  {
+   "id": "004",
+   "from": "L007",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "title": "첫 번째",
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 퇴근하고 뭐할꺼야?",
+      "time": "오후 7:00",
+      "read": 0
+     },
+     {
+      "me": false,
+      "text": "뭐 할껀 없어, 같이 저녁 먹을까?",
+      "time": "오후 7:05",
+      "show": 1
+     }
+    ]
+   },
+   "at": [
+    "L010",
+    "L011"
+   ]
+  },
+  {
+   "id": "005",
+   "from": "L012",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "title": "두 번째",
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 퇴근하고 뭐할꺼야?",
+      "time": "오후 7:00",
+      "read": 0
+     },
+     {
+      "me": false,
+      "text": "헉 미안해..ㅜ회식 와서 연락을 이제 봤네",
+      "time": "오후 10:14",
+      "show": 1
+     }
+    ]
+   },
+   "at": [
+    "L014",
+    "L015"
+   ]
+  },
+  {
+   "id": "006",
+   "from": "L016",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "title": "세 번째",
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 퇴근하고 뭐할꺼야?",
+      "time": "오후 7:00"
+     }
+    ]
+   }
+  },
+  {
+   "id": "007",
+   "from": "L020",
+   "type": "card"
+  },
+  {
+   "id": "008",
+   "from": "L021",
+   "type": "icon",
+   "icon": "panels3",
+   "args": {
+    "focus": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   "at": [
+    "L021",
+    "L023",
+    "L025"
+   ]
+  },
+  {
+   "id": "009",
+   "from": "L028",
+   "type": "card"
+  },
+  {
+   "id": "010",
+   "from": "L030",
+   "type": "video",
+   "src": "work/stock/full/4548.mp4",
+   "note": "Mixkit 4548",
+   "in": 2.0,
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "011",
+   "from": "L031",
+   "type": "card"
+  },
+  {
+   "id": "012",
+   "from": "L033",
+   "type": "video",
+   "src": "work/stock/full/26092.mp4",
+   "note": "Mixkit 26092",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "013",
+   "from": "L034",
+   "type": "photo",
+   "image": "work/owner_v3/01.png",
+   "note": "owner's photo 1 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "014",
+   "from": "L036",
+   "type": "photo",
+   "image": "work/owner_v3/02.png",
+   "note": "owner's photo 2 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "015",
+   "from": "L038",
+   "type": "card"
+  },
+  {
+   "id": "016",
+   "from": "L041",
+   "type": "video",
+   "src": "work/stock/full/51394.mp4",
+   "note": "Mixkit 51394",
+   "in": 12.0
+  },
+  {
+   "id": "017",
+   "from": "L042",
+   "type": "video",
+   "src": "work/stock/full/51399.mp4",
+   "note": "Mixkit 51399",
+   "in": 0.0
+  },
+  {
+   "id": "018",
+   "from": "L045",
+   "type": "photo",
+   "image": "work/owner_v3/03.png",
+   "note": "owner's photo 3 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "blur": 6,
+   "mix": {
+    "at": "L048",
+    "grade": {
+     "sat": 0.95,
+     "black": 0.01,
+     "gamma": 1.05,
+     "vignette": 0.3
+    },
+    "blur": 0,
+    "dur": 0.5
+   }
+  },
+  {
+   "id": "019",
+   "from": "L049",
+   "type": "card"
+  },
+  {
+   "id": "020",
+   "from": "L052",
+   "type": "photo",
+   "image": "work/owner_v3/04.png",
+   "note": "owner's photo 4 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "cy0": 0.47,
+   "cy1": 0.47,
+   "overlay": {
+    "kind": "brain_unknown",
+    "at": [
+     "L053",
+     "L055",
+     "L056"
+    ]
+   },
+   "mix": {
+    "at": "L056",
+    "image": "work/owner_v3/04_red.png",
+    "dur": 0.6
+   }
+  },
+  {
+   "id": "021",
+   "from": "L058",
+   "type": "video",
+   "src": "work/stock/full/4733.mp4",
+   "note": "Mixkit 4733",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "022",
+   "from": "L061",
+   "type": "video",
+   "src": "work/stock/full/4897.mp4",
+   "note": "Mixkit 4897",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "023",
+   "from": "L065",
+   "type": "photo",
+   "image": "work/owner_v3/05.png",
+   "note": "owner's photo 5 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "024",
+   "from": "L067",
+   "type": "photo",
+   "image": "work/owner_v3/06.png",
+   "note": "owner's photo 6 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "025",
+   "from": "L069",
+   "type": "photo",
+   "image": "work/owner_v3/07.png",
+   "note": "owner's photo 7 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "026",
+   "from": "L071",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 하루 어땠어요?",
+      "time": "오후 6:30",
+      "show": 0
+     }
+    ]
+   },
+   "at": [
+    "L071"
+   ]
+  },
+  {
+   "id": "027",
+   "from": "L072",
+   "type": "photo",
+   "image": "work/owner_v3/08.png",
+   "note": "owner's photo 8 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "028",
+   "from": "L073",
+   "type": "video",
+   "src": "work/stock/full/39826.mp4",
+   "note": "Mixkit 39826",
+   "in": 0.0,
+   "crop": [
+    0.15,
+    0.3,
+    0.85,
+    1.0
+   ]
+  },
+  {
+   "id": "029",
+   "from": "L074",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 하루 어땠어요?",
+      "time": "오후 6:30"
+     }
+    ]
+   }
+  },
+  {
+   "id": "030",
+   "from": "L075",
+   "type": "photo",
+   "image": "work/owner_v3/09.png",
+   "note": "owner's photo 9 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "031",
+   "from": "L080",
+   "type": "photo",
+   "image": "work/owner_v3/10.png",
+   "note": "owner's photo 10 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "032",
+   "from": "L082",
+   "type": "video",
+   "src": "work/stock/full/43381.mp4",
+   "note": "Mixkit 43381",
+   "in": 8.0
+  },
+  {
+   "id": "033",
+   "from": "L083",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 하루 어땠어요?",
+      "time": "오후 6:30"
+     },
+     {
+      "me": true,
+      "text": "바쁘세요??",
+      "time": "오후 9:00",
+      "show": 0
+     }
+    ]
+   },
+   "at": [
+    "L083"
+   ]
+  },
+  {
+   "id": "034",
+   "from": "L084",
+   "type": "video",
+   "src": "work/stock/full/4708.mp4",
+   "note": "Mixkit 4708",
+   "in": 2.5,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "035",
+   "from": "L086",
+   "type": "card"
+  },
+  {
+   "id": "036",
+   "from": "L088",
+   "type": "video",
+   "src": "work/stock/full/39789p.mp4",
+   "note": "Mixkit 39789, phone logo painted out (logo_patch.py via prep_patches.sh)",
+   "in": 0.0
+  },
+  {
+   "id": "037",
+   "from": "L092",
+   "type": "card"
+  },
+  {
+   "id": "038",
+   "from": "L094",
+   "type": "video",
+   "src": "work/stock/full/51394.mp4",
+   "note": "Mixkit 51394",
+   "in": 3.0
+  },
+  {
+   "id": "039",
+   "from": "L097",
+   "type": "icon",
+   "icon": "kakao",
+   "args": {
+    "msgs": [
+     {
+      "me": true,
+      "text": "오늘 하루 어땠어요?",
+      "time": "오후 6:30"
+     },
+     {
+      "me": true,
+      "text": "바쁘세요??",
+      "time": "오후 9:00"
+     },
+     {
+      "me": true,
+      "text": "자요..?",
+      "time": "오후 11:50",
+      "show": 0
+     }
+    ]
+   },
+   "at": [
+    "L097"
+   ]
+  },
+  {
+   "id": "040",
+   "from": "L101",
+   "type": "video",
+   "src": "work/stock/full/51399.mp4",
+   "note": "Mixkit 51399",
+   "in": 7.8
+  },
+  {
+   "id": "041",
+   "from": "L104",
+   "type": "card"
+  },
+  {
+   "id": "042",
+   "from": "L108",
+   "type": "video",
+   "src": "work/stock/full/4457.mp4",
+   "note": "Mixkit 4457",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "title": "영국",
+   "title_sub": "유니버시티 칼리지 런던",
+   "title_size": 150,
+   "title_at": "L109"
+  },
+  {
+   "id": "043",
+   "from": "L111",
+   "type": "photo",
+   "image": "work/owner_v3/11.png",
+   "note": "owner's photo 11 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "044",
+   "from": "L113",
+   "type": "photo",
+   "image": "work/owner_v3/12.png",
+   "note": "owner's photo 12 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "045",
+   "from": "L115",
+   "type": "card"
+  },
+  {
+   "id": "046",
+   "from": "L118",
+   "type": "photo",
+   "image": "work/owner_v3/13.png",
+   "note": "owner's photo 13 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.005
+  },
+  {
+   "id": "047",
+   "from": "L120",
+   "type": "photo",
+   "image": "work/owner_v3/14.png",
+   "note": "owner's photo 14 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.012,
+   "zoom_rate": 0.005
+  },
+  {
+   "id": "048",
+   "from": "L122",
+   "type": "photo",
+   "image": "work/owner_v3/15.png",
+   "note": "owner's photo 15 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0279,
+   "zoom_rate": 0.005
+  },
+  {
+   "id": "049",
+   "from": "L124",
+   "type": "icon",
+   "icon": "counter320"
+  },
+  {
+   "id": "050",
+   "from": "L126",
+   "type": "photo",
+   "image": "work/img/B09c_s2.png",
+   "note": "AI B09c_s2 (ai_images.json)",
+   "z0": 1.03,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "051",
+   "from": "L130",
+   "type": "photo",
+   "image": "work/owner_v3/17.png",
+   "note": "owner's photo 17 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "052",
+   "from": "L132",
+   "type": "photo",
+   "image": "work/owner_v3/18.png",
+   "note": "owner's photo 18 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "053",
+   "from": "L134",
+   "type": "photo",
+   "image": "work/owner_v3/19.png",
+   "note": "owner's photo 19 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "054",
+   "from": "L137",
+   "type": "card"
+  },
+  {
+   "id": "055",
+   "from": "L139",
+   "type": "split",
+   "panels": [
+    {
+     "side": "right",
+     "crop": [
+      502,
+      0,
+      1490,
+      1116
+     ],
+     "cx": 0.5,
+     "cy": 0.32,
+     "image": "work/owner_v3/15.png",
+     "grade": {
+      "sat": 0.95,
+      "black": 0.01,
+      "gamma": 1.05,
+      "vignette": 0.3
+     }
+    },
+    {
+     "side": "left",
+     "crop": [
+      502,
+      0,
+      1490,
+      1116
+     ],
+     "cx": 0.5,
+     "cy": 0.32,
+     "image": "work/owner_v3/13.png",
+     "grade": {
+      "sat": 0.95,
+      "black": 0.01,
+      "gamma": 1.05,
+      "vignette": 0.3
+     },
+     "at": "L142"
+    }
+   ],
+   "note": "owner's photos 15 + 13"
+  },
+  {
+   "id": "056",
+   "from": "L144",
+   "type": "card"
+  },
+  {
+   "id": "057",
+   "from": "L146",
+   "type": "icon",
+   "icon": "curve",
+   "at": [
+    "L150"
+   ]
+  },
+  {
+   "id": "058",
+   "from": "L152",
+   "type": "card"
+  },
+  {
+   "id": "059",
+   "from": "L157",
+   "type": "video",
+   "src": "work/stock/full/51390.mp4",
+   "note": "Mixkit 51390",
+   "in": 5.0,
+   "grade": {
+    "sat": 0.9,
+    "black": 0.0,
+    "gamma": 0.85,
+    "vignette": 0.3
+   },
+   "title": "불확실성",
+   "title_size": 200,
+   "title_at": "L160"
+  },
+  {
+   "id": "060",
+   "from": "L161",
+   "type": "video",
+   "src": "work/stock/full/43381.mp4",
+   "note": "Mixkit 43381",
+   "in": 10.0
+  },
+  {
+   "id": "061",
+   "from": "L164",
+   "type": "photo",
+   "image": "work/owner_v3/13.png",
+   "note": "owner's photo 13 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "062",
+   "from": "L166",
+   "type": "video",
+   "src": "work/stock/full/4809.mp4",
+   "note": "Mixkit 4809",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "063",
+   "from": "L168",
+   "type": "video",
+   "src": "work/stock/full/101412.mp4",
+   "note": "Mixkit 101412",
+   "in": 1.0
+  },
+  {
+   "id": "064",
+   "from": "L171",
+   "type": "video",
+   "src": "work/stock/full/51429.mp4",
+   "note": "Mixkit 51429",
+   "in": 2.0
+  },
+  {
+   "id": "065",
+   "from": "L173",
+   "type": "video",
+   "src": "work/stock/full/31413.mp4",
+   "note": "Mixkit 31413",
+   "in": 1.0
+  },
+  {
+   "id": "066",
+   "from": "L175",
+   "type": "video",
+   "src": "work/stock/full/51389.mp4",
+   "note": "Mixkit 51389",
+   "in": 0.0
+  },
+  {
+   "id": "067",
+   "from": "L177",
+   "type": "video",
+   "src": "work/stock/full/51390.mp4",
+   "note": "Mixkit 51390",
+   "in": 16.0
+  },
+  {
+   "id": "068",
+   "from": "L180",
+   "type": "video",
+   "src": "work/stock/full/42088.mp4",
+   "note": "Mixkit 42088",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "title": "2004년",
+   "title_sub": "호주 매쿼리 대학교",
+   "title_size": 170,
+   "title_at": "L180"
+  },
+  {
+   "id": "069",
+   "from": "L183",
+   "type": "photo",
+   "image": "work/owner_v3/20.png",
+   "note": "owner's photo 20 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "070",
+   "from": "L188",
+   "type": "video",
+   "src": "work/stock/full/100530.mp4",
+   "note": "Mixkit 100530",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "071",
+   "from": "L190",
+   "type": "video",
+   "src": "work/stock/full/51121.mp4",
+   "note": "Mixkit 51121",
+   "in": 0.5
+  },
+  {
+   "id": "072",
+   "from": "L192",
+   "type": "video",
+   "src": "work/stock/full/28321.mp4",
+   "note": "Mixkit 28321",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "073",
+   "from": "L195",
+   "type": "icon",
+   "icon": "oldphone",
+   "args": {
+    "timer": "8:00"
+   }
+  },
+  {
+   "id": "074",
+   "from": "L198",
+   "type": "video",
+   "src": "work/stock/full/39958.mp4",
+   "note": "Mixkit 39958",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "075",
+   "from": "L201",
+   "type": "video",
+   "src": "work/stock/full/8757.mp4",
+   "note": "Mixkit 8757",
+   "in": 0.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "076",
+   "from": "L204",
+   "type": "video",
+   "src": "work/stock/full/4560.mp4",
+   "note": "Mixkit 4560",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "077",
+   "from": "L205",
+   "type": "icon",
+   "icon": "drops3",
+   "at": [
+    "L206",
+    "L209",
+    "L211"
+   ]
+  },
+  {
+   "id": "078",
+   "from": "L213",
+   "type": "card"
+  },
+  {
+   "id": "079",
+   "from": "L214",
+   "type": "video",
+   "src": "work/stock/full/99890.mp4",
+   "note": "Mixkit 99890",
+   "in": 1.0
+  },
+  {
+   "id": "080",
+   "from": "L217",
+   "type": "photo",
+   "image": "work/owner_v3/21.png",
+   "note": "owner's photo 21 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "081",
+   "from": "L219",
+   "type": "photo",
+   "image": "work/owner_v3/22.png",
+   "note": "owner's photo 22 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "blur": 6
+  },
+  {
+   "id": "082",
+   "from": "L220",
+   "type": "video",
+   "src": "work/stock/full/4701.mp4",
+   "note": "Mixkit 4701",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "083",
+   "from": "L222",
+   "type": "video",
+   "src": "work/stock/full/8743.mp4",
+   "note": "Mixkit 8743",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "084",
+   "from": "L225",
+   "type": "video",
+   "src": "work/stock/full/8739.mp4",
+   "note": "Mixkit 8739",
+   "in": 1.0
+  },
+  {
+   "id": "085",
+   "from": "L228",
+   "type": "video",
+   "src": "work/stock/full/51395.mp4",
+   "note": "Mixkit 51395",
+   "in": 15.0
+  },
+  {
+   "id": "086",
+   "from": "L231",
+   "type": "video",
+   "src": "work/stock/full/4513.mp4",
+   "note": "Mixkit 4513",
+   "in": 6.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "087",
+   "from": "L233",
+   "type": "card"
+  },
+  {
+   "id": "088",
+   "from": "L236",
+   "type": "photo",
+   "image": "work/img/B01_s1.png",
+   "note": "AI B01 (ai_images.json)",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.06,
+    "gamma": 1.25,
+    "vignette": 0.6
+   },
+   "title": "1952년",
+   "title_sub": "영국",
+   "title_size": 170,
+   "title_at": "L237"
+  },
+  {
+   "id": "089",
+   "from": "L240",
+   "type": "photo",
+   "image": "work/owner_v3/23.png",
+   "note": "owner's photo 23 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "090",
+   "from": "L243",
+   "type": "photo",
+   "image": "work/img/B02_s1.png",
+   "note": "AI B02 (ai_images.json)",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.06,
+    "gamma": 1.25,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "091",
+   "from": "L245",
+   "type": "photo",
+   "image": "work/owner_v3/24.png",
+   "note": "owner's photo 24 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "092",
+   "from": "L248",
+   "type": "photo",
+   "image": "work/img/bowlby_v2.png",
+   "note": "owner's photo of John Bowlby (make_photos_v2.py, not committed)",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.06,
+    "gamma": 1.25,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "093",
+   "from": "L250",
+   "type": "photo",
+   "image": "work/owner_v3/25.png",
+   "note": "owner's photo 25 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "094",
+   "from": "L253",
+   "type": "photo",
+   "image": "work/owner_v3/23.png",
+   "note": "owner's photo 23 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "095",
+   "from": "L257",
+   "type": "photo",
+   "image": "work/owner_v3/27.png",
+   "note": "owner's photo 27 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "096",
+   "from": "L260",
+   "type": "photo",
+   "image": "work/img/B07_s1.png",
+   "note": "AI B07 (ai_images.json)",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.06,
+    "gamma": 1.25,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "097",
+   "from": "L263",
+   "type": "photo",
+   "image": "work/img/B02_s1.png",
+   "note": "AI B02 (ai_images.json)",
+   "z0": 1.03,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.06,
+    "gamma": 1.25,
+    "vignette": 0.6
+   }
+  },
+  {
+   "id": "098",
+   "from": "L264",
+   "type": "photo",
+   "image": "work/img/B02_s1.png",
+   "note": "AI B02 (ai_images.json)",
+   "z0": 1.045,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.0,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.65
+   },
+   "blur": 10
+  },
+  {
+   "id": "099",
+   "from": "L267",
+   "type": "photo",
+   "image": "work/owner_v3/28.png",
+   "note": "owner's photo 28 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "100",
+   "from": "L271",
+   "type": "video",
+   "src": "work/stock/full/40421.mp4",
+   "note": "Mixkit 40421",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "title": "애착",
+   "title_size": 230,
+   "title_at": "L273"
+  },
+  {
+   "id": "101",
+   "from": "L274",
+   "type": "icon",
+   "icon": "siren"
+  },
+  {
+   "id": "102",
+   "from": "L277",
+   "type": "video",
+   "src": "work/stock/full/939.mp4",
+   "note": "Mixkit 939",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "103",
+   "from": "L280",
+   "type": "icon",
+   "icon": "siren"
+  },
+  {
+   "id": "104",
+   "from": "L281",
+   "type": "video",
+   "src": "work/stock/full/51429.mp4",
+   "note": "Mixkit 51429",
+   "in": 8.0
+  },
+  {
+   "id": "105",
+   "from": "L284",
+   "type": "video",
+   "src": "work/stock/full/4500.mp4",
+   "note": "Mixkit 4500",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "106",
+   "from": "L287",
+   "type": "card"
+  },
+  {
+   "id": "107",
+   "from": "L292",
+   "type": "video",
+   "src": "work/stock/full/4549.mp4",
+   "note": "Mixkit 4549",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "108",
+   "from": "L295",
+   "type": "video",
+   "src": "work/stock/full/4624.mp4",
+   "note": "Mixkit 4624",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "109",
+   "from": "L297",
+   "type": "video",
+   "src": "work/stock/full/51394.mp4",
+   "note": "Mixkit 51394",
+   "in": 20.0
+  },
+  {
+   "id": "110",
+   "from": "L299",
+   "type": "video",
+   "src": "work/stock/full/25586.mp4",
+   "note": "Mixkit 25586",
+   "in": 0.5,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "111",
+   "from": "L301",
+   "type": "icon",
+   "icon": "siren"
+  },
+  {
+   "id": "112",
+   "from": "L304",
+   "type": "card"
+  },
+  {
+   "id": "113",
+   "from": "L305",
+   "type": "video",
+   "src": "work/stock/full/4401.mp4",
+   "note": "Mixkit 4401",
+   "in": 2.65,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   },
+   "crop": [
+    0.075,
+    0.15,
+    0.925,
+    1.0
+   ]
+  },
+  {
+   "id": "114",
+   "from": "L308",
+   "type": "video",
+   "src": "work/stock/full/26091.mp4",
+   "note": "Mixkit 26091",
+   "in": 1.0
+  },
+  {
+   "id": "115",
+   "from": "L309",
+   "type": "video",
+   "src": "work/stock/full/51394.mp4",
+   "note": "Mixkit 51394",
+   "in": 32.5
+  },
+  {
+   "id": "116",
+   "from": "L311",
+   "type": "card"
+  },
+  {
+   "id": "117",
+   "from": "L314",
+   "type": "icon",
+   "icon": "people5",
+   "at": [
+    "L315"
+   ]
+  },
+  {
+   "id": "118",
+   "from": "L318",
+   "type": "video",
+   "src": "work/stock/full/8739.mp4",
+   "note": "Mixkit 8739",
+   "in": 6.0
+  },
+  {
+   "id": "119",
+   "from": "L321",
+   "type": "icon",
+   "icon": "gauge"
+  },
+  {
+   "id": "120",
+   "from": "L323",
+   "type": "video",
+   "src": "work/stock/full/51394.mp4",
+   "note": "Mixkit 51394",
+   "in": 28.0
+  },
+  {
+   "id": "121",
+   "from": "L325",
+   "type": "card"
+  },
+  {
+   "id": "122",
+   "from": "L327",
+   "type": "icon",
+   "icon": "siren"
+  },
+  {
+   "id": "123",
+   "from": "L329",
+   "type": "card"
+  },
+  {
+   "id": "124",
+   "from": "L331",
+   "type": "video",
+   "src": "work/stock/full/4700.mp4",
+   "note": "Mixkit 4700",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "125",
+   "from": "L333",
+   "type": "card"
+  },
+  {
+   "id": "126",
+   "from": "L335",
+   "type": "icon",
+   "icon": "graph_down"
+  },
+  {
+   "id": "127",
+   "from": "L339",
+   "type": "photo",
+   "image": "work/owner_v3/29.png",
+   "note": "owner's photo 29 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "128",
+   "from": "L340",
+   "type": "video",
+   "src": "work/stock/full/4764.mp4",
+   "note": "Mixkit 4764",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "129",
+   "from": "L343",
+   "type": "video",
+   "src": "work/stock/full/4800.mp4",
+   "note": "Mixkit 4800",
+   "in": 1.0
+  },
+  {
+   "id": "130",
+   "from": "L345",
+   "type": "video",
+   "src": "work/stock/full/4897.mp4",
+   "note": "Mixkit 4897",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "131",
+   "from": "L347",
+   "type": "video",
+   "src": "work/stock/full/31413.mp4",
+   "note": "Mixkit 31413",
+   "in": 7.5
+  },
+  {
+   "id": "132",
+   "from": "L350",
+   "type": "video",
+   "src": "work/stock/full/42904.mp4",
+   "note": "Mixkit 42904",
+   "in": 6.0
+  },
+  {
+   "id": "133",
+   "from": "L352",
+   "type": "card"
+  },
+  {
+   "id": "134",
+   "from": "L355",
+   "type": "card",
+   "label": "1 / 3"
+  },
+  {
+   "id": "135",
+   "from": "L359",
+   "type": "video",
+   "src": "work/stock/full/43846.mp4",
+   "note": "Mixkit 43846",
+   "in": 0.0
+  },
+  {
+   "id": "136",
+   "from": "L362",
+   "type": "icon",
+   "icon": "spider_60",
+   "at": [
+    "L364"
+   ]
+  },
+  {
+   "id": "137",
+   "from": "L365",
+   "type": "card"
+  },
+  {
+   "id": "138",
+   "from": "L367",
+   "type": "video",
+   "src": "work/stock/full/43396.mp4",
+   "note": "Mixkit 43396",
+   "in": 2.0
+  },
+  {
+   "id": "139",
+   "from": "L369",
+   "type": "video",
+   "src": "work/stock/full/43404.mp4",
+   "note": "Mixkit 43404",
+   "in": 0.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "140",
+   "from": "L373",
+   "type": "video",
+   "src": "work/stock/full/42903.mp4",
+   "note": "Mixkit 42903",
+   "in": 17.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "141",
+   "from": "L377",
+   "type": "video",
+   "src": "work/stock/full/3110.mp4",
+   "note": "Mixkit 3110",
+   "in": 7.9,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "142",
+   "from": "L381",
+   "type": "video",
+   "src": "work/stock/full/3132.mp4",
+   "note": "Mixkit 3132",
+   "in": 0.0
+  },
+  {
+   "id": "143",
+   "from": "L382",
+   "type": "video",
+   "src": "work/stock/full/8736.mp4",
+   "note": "Mixkit 8736",
+   "in": 0.0
+  },
+  {
+   "id": "144",
+   "from": "L385",
+   "type": "video",
+   "src": "work/stock/full/42904.mp4",
+   "note": "Mixkit 42904",
+   "in": 9.8
+  },
+  {
+   "id": "145",
+   "from": "L386",
+   "type": "video",
+   "src": "work/stock/full/26090.mp4",
+   "note": "Mixkit 26090",
+   "in": 8.4
+  },
+  {
+   "id": "146",
+   "from": "L387",
+   "type": "card"
+  },
+  {
+   "id": "147",
+   "from": "L390",
+   "type": "icon",
+   "icon": "siren_calm",
+   "at": [
+    "L391"
+   ]
+  },
+  {
+   "id": "148",
+   "from": "L394",
+   "type": "video",
+   "src": "work/stock/full/42270.mp4",
+   "note": "Mixkit 42270",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "149",
+   "from": "L396",
+   "type": "video",
+   "src": "work/stock/full/4915.mp4",
+   "note": "Mixkit 4915",
+   "in": 14.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "150",
+   "from": "L399",
+   "type": "card"
+  },
+  {
+   "id": "151",
+   "from": "L403",
+   "type": "card",
+   "label": "2 / 3"
+  },
+  {
+   "id": "152",
+   "from": "L406",
+   "type": "photo",
+   "image": "work/img/ariely_v2.png",
+   "note": "owner's photo of Dan Ariely (make_photos_v2.py, not committed)",
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "153",
+   "from": "L408",
+   "type": "video",
+   "src": "work/stock/full/39780.mp4",
+   "note": "Mixkit 39780",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "blur_box": [
+    [
+     0.75,
+     0.24,
+     0.935,
+     0.67,
+     8
+    ]
+   ]
+  },
+  {
+   "id": "154",
+   "from": "L411",
+   "type": "icon",
+   "icon": "bell_off",
+   "at_shift": [
+    0.8
+   ],
+   "at": [
+    "L411"
+   ]
+  },
+  {
+   "id": "155",
+   "from": "L414",
+   "type": "video",
+   "src": "work/stock/full/8744.mp4",
+   "note": "Mixkit 8744",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "156",
+   "from": "L417",
+   "type": "icon",
+   "icon": "clocks3",
+   "at_shift": [
+    0.3,
+    0,
+    0
+   ],
+   "at": [
+    "L417",
+    "L418",
+    "L419"
+   ]
+  },
+  {
+   "id": "157",
+   "from": "L422",
+   "type": "video",
+   "src": "work/stock/full/4938.mp4",
+   "note": "Mixkit 4938",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "158",
+   "from": "L424",
+   "type": "video",
+   "src": "work/stock/full/4761.mp4",
+   "note": "Mixkit 4761",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "159",
+   "from": "L428",
+   "type": "video",
+   "src": "work/stock/full/41638.mp4",
+   "note": "Mixkit 41638",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "160",
+   "from": "L430",
+   "type": "video",
+   "src": "work/stock/full/100053.mp4",
+   "note": "Mixkit 100053",
+   "in": 6.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "161",
+   "from": "L432",
+   "type": "card"
+  },
+  {
+   "id": "162",
+   "from": "L434",
+   "type": "video",
+   "src": "work/stock/full/4517.mp4",
+   "note": "Mixkit 4517",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "163",
+   "from": "L435",
+   "type": "card"
+  },
+  {
+   "id": "164",
+   "from": "L437",
+   "type": "icon",
+   "icon": "ifthen",
+   "at": [
+    "L438"
+   ]
+  },
+  {
+   "id": "165",
+   "from": "L439",
+   "type": "video",
+   "src": "work/stock/full/42655.mp4",
+   "note": "Mixkit 42655",
+   "in": 0.0
+  },
+  {
+   "id": "166",
+   "from": "L440",
+   "type": "video",
+   "src": "work/stock/full/42655.mp4",
+   "note": "Mixkit 42655",
+   "cont": true,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "167",
+   "from": "L444",
+   "type": "card",
+   "label": "3 / 3"
+  },
+  {
+   "id": "168",
+   "from": "L448",
+   "type": "video",
+   "src": "work/stock/full/4560.mp4",
+   "note": "Mixkit 4560",
+   "in": 8.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "title": "코넬 대학교",
+   "title_size": 150,
+   "title_at": "L448"
+  },
+  {
+   "id": "169",
+   "from": "L450",
+   "type": "video",
+   "src": "work/stock/full/4708.mp4",
+   "note": "Mixkit 4708",
+   "in": 6.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "170",
+   "from": "L452",
+   "type": "video",
+   "src": "work/stock/full/41180.mp4",
+   "note": "Mixkit 41180",
+   "in": 1.0
+  },
+  {
+   "id": "171",
+   "from": "L454",
+   "type": "icon",
+   "icon": "bars_mood",
+   "at": [
+    "L456"
+   ]
+  },
+  {
+   "id": "172",
+   "from": "L459",
+   "type": "icon",
+   "icon": "order2",
+   "at": [
+    "L461"
+   ]
+  },
+  {
+   "id": "173",
+   "from": "L464",
+   "type": "icon",
+   "icon": "medkit",
+   "at": [
+    "L466",
+    "L469"
+   ]
+  },
+  {
+   "id": "174",
+   "from": "L471",
+   "type": "video",
+   "src": "work/stock/full/4511.mp4",
+   "note": "Mixkit 4511",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "175",
+   "from": "L473",
+   "type": "video",
+   "src": "work/stock/full/4911.mp4",
+   "note": "Mixkit 4911",
+   "in": 8.0
+  },
+  {
+   "id": "176",
+   "from": "L475",
+   "type": "video",
+   "src": "work/stock/full/4656.mp4",
+   "note": "Mixkit 4656",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "177",
+   "from": "L476",
+   "type": "video",
+   "src": "work/stock/full/101233.mp4",
+   "note": "Mixkit 101233",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "178",
+   "from": "L477",
+   "type": "video",
+   "src": "work/stock/full/4644.mp4",
+   "note": "Mixkit 4644",
+   "in": 1.0
+  },
+  {
+   "id": "179",
+   "from": "L481",
+   "type": "video",
+   "src": "work/stock/full/4840.mp4",
+   "note": "Mixkit 4840",
+   "in": 1.0
+  },
+  {
+   "id": "180",
+   "from": "L484",
+   "type": "video",
+   "src": "work/stock/full/52419.mp4",
+   "note": "Mixkit 52419",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "181",
+   "from": "L487",
+   "type": "video",
+   "src": "work/stock/full/4547.mp4",
+   "note": "Mixkit 4547",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "182",
+   "from": "L488",
+   "type": "video",
+   "src": "work/stock/full/1623.mp4",
+   "note": "Mixkit 1623",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.85,
+    "black": 0.05,
+    "gamma": 1.3,
+    "vignette": 0.5
+   }
+  },
+  {
+   "id": "183",
+   "from": "L489",
+   "type": "photo",
+   "image": "work/owner_v3/30.png",
+   "note": "owner's photo 30 (make_photos_v3.py, not committed)",
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "z0": 1.0,
+   "zoom_rate": 0.008
+  },
+  {
+   "id": "184",
+   "from": "L491",
+   "type": "video",
+   "src": "work/stock/full/25592.mp4",
+   "note": "Mixkit 25592",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   }
+  },
+  {
+   "id": "185",
+   "from": "L494",
+   "type": "video",
+   "src": "work/stock/full/51395.mp4",
+   "note": "Mixkit 51395",
+   "in": 8.0
+  },
+  {
+   "id": "186",
+   "from": "L498",
+   "type": "card"
+  },
+  {
+   "id": "187",
+   "from": "L503",
+   "type": "video",
+   "src": "work/stock/full/100067.mp4",
+   "note": "Mixkit 100067",
+   "in": 1.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  },
+  {
+   "id": "188",
+   "from": "L505",
+   "type": "video",
+   "src": "work/stock/full/100050.mp4",
+   "note": "Mixkit 100050",
+   "in": 6.0,
+   "grade": {
+    "sat": 0.8,
+    "black": 0.07,
+    "gamma": 1.65,
+    "vignette": 0.6
+   },
+   "blur": 14,
+   "use": "blurred background under centre text"
+  }
+ ],
+ "subs": [
+  {
+   "unit": "L001",
+   "text": "금요일 저녁 7시 퇴근길에"
+  },
+  {
+   "unit": "L002",
+   "text": "당신은 애인에게 카톡을 보냅니다."
+  },
+  {
+   "unit": "L003",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L004",
+   "text": "이 메시지를 보낸 뒤",
+   "box": false
+  },
+  {
+   "unit": "L005",
+   "text": "돌아올 [3가지] 반응을",
+   "box": false
+  },
+  {
+   "unit": "L006",
+   "text": "상상해 봅시다.",
+   "box": false
+  },
+  {
+   "unit": "L007",
+   "text": "먼저 첫 번째",
+   "box": false
+  },
+  {
+   "unit": "L008",
+   "text": "당신이 카톡을 보낸 지",
+   "box": false
+  },
+  {
+   "unit": "L009",
+   "text": "[5분] 만에",
+   "box": false
+  },
+  {
+   "unit": "L010",
+   "text": "상대방의 답장이 옵니다.",
+   "box": false
+  },
+  {
+   "unit": "L011",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L012",
+   "text": "두 번째",
+   "box": false
+  },
+  {
+   "unit": "L013",
+   "text": "[3시간]이 훌쩍 지나서야",
+   "box": false
+  },
+  {
+   "unit": "L014",
+   "text": "뒤늦게 답장이 도착합니다.",
+   "box": false
+  },
+  {
+   "unit": "L015",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L016",
+   "text": "그리고 마지막 세 번째",
+   "box": false
+  },
+  {
+   "unit": "L017",
+   "text": "3시간이 훌쩍 지났는데도",
+   "box": false
+  },
+  {
+   "unit": "L018",
+   "text": "메시지 옆의 노란 숫자 '[1]'이",
+   "box": false
+  },
+  {
+   "unit": "L019",
+   "text": "그대로 있습니다.",
+   "box": false
+  },
+  {
+   "unit": "L020",
+   "text": "여러분은 어떤 상황에\n가장 마음이 쓰이셨나요?",
+   "pos": "center"
+  },
+  {
+   "unit": "L021",
+   "text": "아마 대부분",
+   "box": false
+  },
+  {
+   "unit": "L022",
+   "text": "세 번째였을 겁니다.",
+   "box": false
+  },
+  {
+   "unit": "L023",
+   "text": "두 번째는",
+   "box": false
+  },
+  {
+   "unit": "L024",
+   "text": "늦게나마 답장을 받았지만",
+   "box": false
+  },
+  {
+   "unit": "L025",
+   "text": "세 번째는",
+   "box": false
+  },
+  {
+   "unit": "L026",
+   "text": "지금 이 순간에도",
+   "box": false
+  },
+  {
+   "unit": "L027",
+   "text": "기약 없이 연락을 기다리고 있으니까요.",
+   "box": false
+  },
+  {
+   "unit": "L028",
+   "text": "문제는",
+   "pos": "center"
+  },
+  {
+   "unit": "L029",
+   "text": "이 [침묵]이 길어질 때입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L030",
+   "text": "처음 1~2시간은"
+  },
+  {
+   "unit": "L031",
+   "text": "야근이 길어지나?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L032",
+   "text": "배터리가 없나?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L033",
+   "text": "대수롭지 않게 넘깁니다."
+  },
+  {
+   "unit": "L034",
+   "text": "하지만 3시간 [4시간]이 넘어가면"
+  },
+  {
+   "unit": "L035",
+   "text": "슬슬 애가 타기 시작하죠."
+  },
+  {
+   "unit": "L036",
+   "text": "5분마다 습관처럼"
+  },
+  {
+   "unit": "L037",
+   "text": "휴대폰 화면을 켜보며"
+  },
+  {
+   "unit": "L038",
+   "text": "이제 퇴근해서 집 갔을 텐데",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L039",
+   "text": "뭐 하고 있지?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L040",
+   "text": "요즘 나한테 마음이 식었나?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L041",
+   "text": "온갖 부정적인 상상을 펼칩니다."
+  },
+  {
+   "unit": "L042",
+   "text": "그러다 문득"
+  },
+  {
+   "unit": "L043",
+   "text": "카톡창만 붙잡고 있는 스스로가"
+  },
+  {
+   "unit": "L044",
+   "text": "한심해져서"
+  },
+  {
+   "unit": "L045",
+   "text": "고작 연락 몇 시간 안 된다고",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L046",
+   "text": "내가 너무 예민한가?",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L047",
+   "text": "내가 지금 집착하는 건가?",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L048",
+   "text": "자신을 탓합니다."
+  },
+  {
+   "unit": "L049",
+   "text": "하지만 이게 정말",
+   "pos": "center"
+  },
+  {
+   "unit": "L050",
+   "text": "내 성격이 유독 예민하고 못나서일까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "L051",
+   "text": "심리학은 [아니라고] 대답합니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L052",
+   "text": "원래 인간의 뇌는"
+  },
+  {
+   "unit": "L053",
+   "text": "'알 수 없는 상태'를"
+  },
+  {
+   "unit": "L054",
+   "text": "우리가 생각하는 것보다"
+  },
+  {
+   "unit": "L055",
+   "text": "훨씬 더 무겁고"
+  },
+  {
+   "unit": "L056",
+   "text": "[위협적]으로 받아들이도록"
+  },
+  {
+   "unit": "L057",
+   "text": "설계되어 있거든요."
+  },
+  {
+   "unit": "L058",
+   "text": "오늘은 답장이 늦어질 때"
+  },
+  {
+   "unit": "L059",
+   "text": "우리 마음이 왜 이토록 요동치는지"
+  },
+  {
+   "unit": "L060",
+   "text": "과학적인 실험들을 통해 알아보고"
+  },
+  {
+   "unit": "L061",
+   "text": "답장을 기다리는 시간을"
+  },
+  {
+   "unit": "L062",
+   "text": "한결 가볍게 보낼 수 있는"
+  },
+  {
+   "unit": "L063",
+   "text": "[3가지] 현실적인 방법을"
+  },
+  {
+   "unit": "L064",
+   "text": "알려드리겠습니다."
+  },
+  {
+   "unit": "L065",
+   "text": "지우는 2주째"
+  },
+  {
+   "unit": "L066",
+   "text": "설레는 썸을 타고 있습니다."
+  },
+  {
+   "unit": "L067",
+   "text": "오후 6시 30분"
+  },
+  {
+   "unit": "L068",
+   "text": "퇴근길 지하철 안에서"
+  },
+  {
+   "unit": "L069",
+   "text": "휴대폰을 꺼내"
+  },
+  {
+   "unit": "L070",
+   "text": "상대방에게 카톡을 보냅니다."
+  },
+  {
+   "unit": "L071",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L072",
+   "text": "집에 도착해 저녁을 먹고"
+  },
+  {
+   "unit": "L073",
+   "text": "[7시]가 훌쩍 넘었는데도"
+  },
+  {
+   "unit": "L074",
+   "text": "메시지 옆 숫자 '1'은 그대로입니다.",
+   "box": false
+  },
+  {
+   "unit": "L075",
+   "text": "8시가 되자"
+  },
+  {
+   "unit": "L076",
+   "text": "지우는 괜히 카톡창을 열어"
+  },
+  {
+   "unit": "L077",
+   "text": "이미 수십 번은 본"
+  },
+  {
+   "unit": "L078",
+   "text": "상대방의 프로필 사진을"
+  },
+  {
+   "unit": "L079",
+   "text": "다시 눌러 확대해 봅니다."
+  },
+  {
+   "unit": "L080",
+   "text": "그렇게 [9시]가 되고"
+  },
+  {
+   "unit": "L081",
+   "text": "결국 참지 못한 채"
+  },
+  {
+   "unit": "L082",
+   "text": "메시지 하나를 더 보냅니다."
+  },
+  {
+   "unit": "L083",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L084",
+   "text": "전송 버튼을 누르자마자"
+  },
+  {
+   "unit": "L085",
+   "text": "[후회]가 밀려옵니다."
+  },
+  {
+   "unit": "L086",
+   "text": "내가 연락을 너무 재촉하는 것처럼",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L087",
+   "text": "보이면 어떡하지.",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L088",
+   "text": "9시 반이 되자"
+  },
+  {
+   "unit": "L089",
+   "text": "침대에 누워"
+  },
+  {
+   "unit": "L090",
+   "text": "지난 2주 동안 나눈 대화를"
+  },
+  {
+   "unit": "L091",
+   "text": "맨 위부터 다시 내려 읽습니다."
+  },
+  {
+   "unit": "L092",
+   "text": "어제 내가 한 그 농담이",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L093",
+   "text": "좀 별로였나?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L094",
+   "text": "밤 [11시 50분]"
+  },
+  {
+   "unit": "L095",
+   "text": "지우는 마지막으로"
+  },
+  {
+   "unit": "L096",
+   "text": "카톡을 하나 더 보냅니다."
+  },
+  {
+   "unit": "L097",
+   "text": "",
+   "box": false
+  },
+  {
+   "unit": "L098",
+   "text": "그렇게 보낸 3줄의 메시지 옆에",
+   "box": false
+  },
+  {
+   "unit": "L099",
+   "text": "숫자 '[1]' 3개가",
+   "box": false
+  },
+  {
+   "unit": "L100",
+   "text": "나란히 떠 있습니다.",
+   "box": false
+  },
+  {
+   "unit": "L101",
+   "text": "아마 많은 분들이"
+  },
+  {
+   "unit": "L102",
+   "text": "지우와 비슷한 밤을"
+  },
+  {
+   "unit": "L103",
+   "text": "보내본 적 있으실 겁니다."
+  },
+  {
+   "unit": "L104",
+   "text": "도대체 왜",
+   "pos": "center"
+  },
+  {
+   "unit": "L105",
+   "text": "작은 숫자 1 하나에",
+   "pos": "center"
+  },
+  {
+   "unit": "L106",
+   "text": "우리의 평온했던 일상이",
+   "pos": "center"
+  },
+  {
+   "unit": "L107",
+   "text": "이토록 쉽게 무너져 내리는 걸까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "L108",
+   "text": "그 이유를 찾기 위해"
+  },
+  {
+   "unit": "L109",
+   "text": "영국 유니버시티 칼리지 런던의"
+  },
+  {
+   "unit": "L110",
+   "text": "한 실험실로 가 보겠습니다."
+  },
+  {
+   "unit": "L111",
+   "text": "지금 여러분은"
+  },
+  {
+   "unit": "L112",
+   "text": "실험실 의자에 앉아 있습니다."
+  },
+  {
+   "unit": "L113",
+   "text": "여러분의 왼쪽 손등에는"
+  },
+  {
+   "unit": "L114",
+   "text": "차가운 [전극]이 붙어 있고"
+  },
+  {
+   "unit": "L115",
+   "text": "이건 실험 전에",
+   "pos": "center"
+  },
+  {
+   "unit": "L116",
+   "text": "미리 작동 테스트를 끝낸",
+   "pos": "center"
+  },
+  {
+   "unit": "L117",
+   "text": "꽤나 따끔한 전기가 흐르는 장치죠.",
+   "pos": "center"
+  },
+  {
+   "unit": "L118",
+   "text": "눈앞의 큰 화면에"
+  },
+  {
+   "unit": "L119",
+   "text": "바위 2개가 나타나면"
+  },
+  {
+   "unit": "L120",
+   "text": "여러분은 그중"
+  },
+  {
+   "unit": "L121",
+   "text": "밑에 [뱀]이 없는 바위를 골라야 합니다."
+  },
+  {
+   "unit": "L122",
+   "text": "만약 바위 밑에서 뱀이 나오면"
+  },
+  {
+   "unit": "L123",
+   "text": "손등에 따끔한 [전기]가 흐릅니다."
+  },
+  {
+   "unit": "L124",
+   "text": "이 과정을 무려",
+   "box": false
+  },
+  {
+   "unit": "L125",
+   "text": "[320번]이나 반복하는 동안",
+   "box": false
+  },
+  {
+   "unit": "L126",
+   "text": "연구진은"
+  },
+  {
+   "unit": "L127",
+   "text": "참가자들의 몸에서 일어나는"
+  },
+  {
+   "unit": "L128",
+   "text": "미세한 변화를"
+  },
+  {
+   "unit": "L129",
+   "text": "빠짐없이 기록했습니다."
+  },
+  {
+   "unit": "L130",
+   "text": "긴장할 때 저절로 커지는"
+  },
+  {
+   "unit": "L131",
+   "text": "[동공]의 크기"
+  },
+  {
+   "unit": "L132",
+   "text": "손끝에 맺히는"
+  },
+  {
+   "unit": "L133",
+   "text": "미세한 [땀] 반응"
+  },
+  {
+   "unit": "L134",
+   "text": "그리고 참가자들이 스스로 매긴"
+  },
+  {
+   "unit": "L135",
+   "text": "[스트레스] 점수를"
+  },
+  {
+   "unit": "L136",
+   "text": "계속해서 측정한 거죠."
+  },
+  {
+   "unit": "L137",
+   "text": "과연 참가자들은",
+   "pos": "center"
+  },
+  {
+   "unit": "L138",
+   "text": "언제 가장 심하게 긴장했을까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "L139",
+   "text": "뱀이 나와서"
+  },
+  {
+   "unit": "L140",
+   "text": "전기 충격을 받을 게"
+  },
+  {
+   "unit": "L141",
+   "text": "[100%] 확실할 때였을까요"
+  },
+  {
+   "unit": "L142",
+   "text": "아니면 나올지 안 나올지"
+  },
+  {
+   "unit": "L143",
+   "text": "반반이라고 느낄 때였을까요?"
+  },
+  {
+   "unit": "L144",
+   "text": "놀랍게도 정답은",
+   "pos": "center"
+  },
+  {
+   "unit": "L145",
+   "text": "[반반]이라고 느낄 때였습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L146",
+   "text": "우리 몸의 긴장도는",
+   "box": false
+  },
+  {
+   "unit": "L147",
+   "text": "확률이 정확히 반반일 때",
+   "box": false
+  },
+  {
+   "unit": "L148",
+   "text": "가장 높게 치솟았고",
+   "box": false
+  },
+  {
+   "unit": "L149",
+   "text": "반대로 뱀이 나오는 게",
+   "box": false
+  },
+  {
+   "unit": "L150",
+   "text": "100% 확실할 때는",
+   "box": false
+  },
+  {
+   "unit": "L151",
+   "text": "오히려 [낮아졌습니다].",
+   "box": false
+  },
+  {
+   "unit": "L152",
+   "text": "한마디로 우리의 뇌는",
+   "pos": "center"
+  },
+  {
+   "unit": "L153",
+   "text": "확실한 고통보다",
+   "pos": "center"
+  },
+  {
+   "unit": "L154",
+   "text": "아플지 안 아플지 모르는 상태를",
+   "pos": "center"
+  },
+  {
+   "unit": "L155",
+   "text": "훨씬 더 끔찍한 공포로",
+   "pos": "center"
+  },
+  {
+   "unit": "L156",
+   "text": "받아들인다는 뜻입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L157",
+   "text": "심리학에서는 이처럼"
+  },
+  {
+   "unit": "L158",
+   "text": "결과를 알 수 없어"
+  },
+  {
+   "unit": "L159",
+   "text": "애가 타는 상태를"
+  },
+  {
+   "unit": "L160",
+   "text": "'[불확실성]'이라고 부릅니다."
+  },
+  {
+   "unit": "L161",
+   "text": "비록 카톡을 주고받는 실험은 아니었지만"
+  },
+  {
+   "unit": "L162",
+   "text": "지우가 숫자 '1'만 바라보며"
+  },
+  {
+   "unit": "L163",
+   "text": "흘려보낸 시간은"
+  },
+  {
+   "unit": "L164",
+   "text": "이 실험 속 바위와"
+  },
+  {
+   "unit": "L165",
+   "text": "놀랍도록 닮아 있습니다."
+  },
+  {
+   "unit": "L166",
+   "text": "상대가 그저"
+  },
+  {
+   "unit": "L167",
+   "text": "바빠서 못 보는 걸 수도 있고"
+  },
+  {
+   "unit": "L168",
+   "text": "나에 대한 마음이"
+  },
+  {
+   "unit": "L169",
+   "text": "식어버린 걸 수도 있는"
+  },
+  {
+   "unit": "L170",
+   "text": "[반반]의 상태."
+  },
+  {
+   "unit": "L171",
+   "text": "답장을 기다리는 우리는"
+  },
+  {
+   "unit": "L172",
+   "text": "밑에 뱀이 있을지 없을지 모르는 바위를"
+  },
+  {
+   "unit": "L173",
+   "text": "몇 시간 내내"
+  },
+  {
+   "unit": "L174",
+   "text": "홀로 들여다보고 있는 셈입니다."
+  },
+  {
+   "unit": "L175",
+   "text": "게다가 이렇게"
+  },
+  {
+   "unit": "L176",
+   "text": "알 수 없는 침묵이 길어지면"
+  },
+  {
+   "unit": "L177",
+   "text": "우리의 뇌는"
+  },
+  {
+   "unit": "L178",
+   "text": "아주 고약한 방식으로"
+  },
+  {
+   "unit": "L179",
+   "text": "그 [빈칸]을 채우기 시작합니다."
+  },
+  {
+   "unit": "L180",
+   "text": "2004년"
+  },
+  {
+   "unit": "L181",
+   "text": "호주 매쿼리 대학교에서 진행한"
+  },
+  {
+   "unit": "L182",
+   "text": "흥미로운 실험이 하나 있습니다."
+  },
+  {
+   "unit": "L183",
+   "text": "실험에 참가한 학생은"
+  },
+  {
+   "unit": "L184",
+   "text": "처음 보는 두 사람과"
+  },
+  {
+   "unit": "L185",
+   "text": "당시 유행하던 '노키아 3310' 휴대폰으로"
+  },
+  {
+   "unit": "L186",
+   "text": "문자 대화를 나눕니다."
+  },
+  {
+   "unit": "L187",
+   "text": "처음에는"
+  },
+  {
+   "unit": "L188",
+   "text": "운동은 얼마나 자주 해요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L189",
+   "text": "같은 가벼운 질문이 몇 번 오가더니"
+  },
+  {
+   "unit": "L190",
+   "text": "곧 편하게 이야기를 나누는"
+  },
+  {
+   "unit": "L191",
+   "text": "자유 대화가 시작됩니다."
+  },
+  {
+   "unit": "L192",
+   "text": "그런데 어떤 학생들에게는"
+  },
+  {
+   "unit": "L193",
+   "text": "바로 그 순간부터"
+  },
+  {
+   "unit": "L194",
+   "text": "기묘한 침묵이 찾아옵니다."
+  },
+  {
+   "unit": "L195",
+   "text": "장장 [8분] 동안",
+   "box": false
+  },
+  {
+   "unit": "L196",
+   "text": "두 사람 중 누구에게서도",
+   "box": false
+  },
+  {
+   "unit": "L197",
+   "text": "연락이 오지 않은 건데요.",
+   "box": false
+  },
+  {
+   "unit": "L198",
+   "text": "사실 대화 상대였던 두 사람은"
+  },
+  {
+   "unit": "L199",
+   "text": "연구진과 미리 입을 맞춰 둔"
+  },
+  {
+   "unit": "L200",
+   "text": "실험 [도우미]들이었습니다."
+  },
+  {
+   "unit": "L201",
+   "text": "그 정적 같은 8분이 흐른 뒤",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L202",
+   "text": "답장을 받지 못한 학생들의 마음은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L203",
+   "text": "어떻게 변했을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L204",
+   "text": "계속 대화를 이어 간 학생들에 비해"
+  },
+  {
+   "unit": "L205",
+   "text": "무리에 받아들여졌다는",
+   "box": false
+  },
+  {
+   "unit": "L206",
+   "text": "'[소속감]' 점수가",
+   "box": false
+  },
+  {
+   "unit": "L207",
+   "text": "절반 이하로 뚝 떨어진 건 물론이고",
+   "box": false
+  },
+  {
+   "unit": "L208",
+   "text": "상황을 내 뜻대로 이끌 수 있다는",
+   "box": false
+  },
+  {
+   "unit": "L209",
+   "text": "'[통제감]'",
+   "box": false
+  },
+  {
+   "unit": "L210",
+   "text": "스스로를 가치 있게 여기는",
+   "box": false
+  },
+  {
+   "unit": "L211",
+   "text": "'[자존감]'까지",
+   "box": false
+  },
+  {
+   "unit": "L212",
+   "text": "모두 큰 폭으로 무너져 내렸습니다.",
+   "box": false
+  },
+  {
+   "unit": "L213",
+   "text": "더 눈여겨볼 점은 그다음입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L214",
+   "text": "실험이 끝난 뒤"
+  },
+  {
+   "unit": "L215",
+   "text": "왜 답장이 안 왔을지"
+  },
+  {
+   "unit": "L216",
+   "text": "이유를 적어 보라고 했더니"
+  },
+  {
+   "unit": "L217",
+   "text": "'휴대폰 고장' 같은"
+  },
+  {
+   "unit": "L218",
+   "text": "바깥의 문제를 의심하기보다"
+  },
+  {
+   "unit": "L219",
+   "text": "내가 말을 재미없게 했나?",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L220",
+   "text": "자기 자신을 [탓한] 학생이"
+  },
+  {
+   "unit": "L221",
+   "text": "가장 많았습니다."
+  },
+  {
+   "unit": "L222",
+   "text": "생판 처음 본 사람에게"
+  },
+  {
+   "unit": "L223",
+   "text": "고작 8분 동안"
+  },
+  {
+   "unit": "L224",
+   "text": "답장을 못 받았을 뿐인데도"
+  },
+  {
+   "unit": "L225",
+   "text": "사람의 마음은"
+  },
+  {
+   "unit": "L226",
+   "text": "이렇게나 쉽게 흔들리고"
+  },
+  {
+   "unit": "L227",
+   "text": "작아졌습니다."
+  },
+  {
+   "unit": "L228",
+   "text": "지우가 지난 대화창을"
+  },
+  {
+   "unit": "L229",
+   "text": "다시 올려 보며"
+  },
+  {
+   "unit": "L230",
+   "text": "'어제 내 농담이 별로였나?'"
+  },
+  {
+   "unit": "L231",
+   "text": "하고 자책했던 것과"
+  },
+  {
+   "unit": "L232",
+   "text": "똑같은 모습이죠."
+  },
+  {
+   "unit": "L233",
+   "text": "도대체 왜 우리의 뇌는",
+   "pos": "center"
+  },
+  {
+   "unit": "L234",
+   "text": "단순히 연락이 끊긴 상태를",
+   "pos": "center"
+  },
+  {
+   "unit": "L235",
+   "text": "이토록 커다란 위협으로 받아들이는 걸까요?",
+   "pos": "center"
+  },
+  {
+   "unit": "L236",
+   "text": "그 깊은 뿌리를 따라가 보면"
+  },
+  {
+   "unit": "L237",
+   "text": "[1952년] 영국에서 공개된"
+  },
+  {
+   "unit": "L238",
+   "text": "한 흑백 기록 영화와"
+  },
+  {
+   "unit": "L239",
+   "text": "만나게 됩니다."
+  },
+  {
+   "unit": "L240",
+   "text": "영화의 주인공은"
+  },
+  {
+   "unit": "L241",
+   "text": "태어난 지 2년 5개월 된 여자아이"
+  },
+  {
+   "unit": "L242",
+   "text": "[로라]입니다."
+  },
+  {
+   "unit": "L243",
+   "text": "로라는 작은 수술을 받기 위해"
+  },
+  {
+   "unit": "L244",
+   "text": "[8일] 동안 병원에 입원하게 되는데요."
+  },
+  {
+   "unit": "L245",
+   "text": "당시 병원들은"
+  },
+  {
+   "unit": "L246",
+   "text": "감염을 막는다는 이유로"
+  },
+  {
+   "unit": "L247",
+   "text": "부모의 면회를 엄격하게 금지했습니다."
+  },
+  {
+   "unit": "L248",
+   "text": "심리학자 [존 볼비] 연구팀은"
+  },
+  {
+   "unit": "L249",
+   "text": "매일 병실을 찾아가"
+  },
+  {
+   "unit": "L250",
+   "text": "엄마와 연락이 완전히 끊긴 채"
+  },
+  {
+   "unit": "L251",
+   "text": "홀로 남겨진 로라의 모습을"
+  },
+  {
+   "unit": "L252",
+   "text": "카메라에 담았습니다."
+  },
+  {
+   "unit": "L253",
+   "text": "입원 첫날"
+  },
+  {
+   "unit": "L254",
+   "text": "로라는 침대 난간을 붙잡고"
+  },
+  {
+   "unit": "L255",
+   "text": "엄마를 부르며"
+  },
+  {
+   "unit": "L256",
+   "text": "목이 터져라 울었습니다."
+  },
+  {
+   "unit": "L257",
+   "text": "그런데 [사흘째]가 되자"
+  },
+  {
+   "unit": "L258",
+   "text": "로라는 더 이상 울지도 않고"
+  },
+  {
+   "unit": "L259",
+   "text": "멍하니 앉아 있습니다."
+  },
+  {
+   "unit": "L260",
+   "text": "간호사들 눈에는"
+  },
+  {
+   "unit": "L261",
+   "text": "병원 생활에 잘 적응한 아이처럼"
+  },
+  {
+   "unit": "L262",
+   "text": "보일 정도였죠."
+  },
+  {
+   "unit": "L263",
+   "text": "하지만 그건 적응한 게 아니라"
+  },
+  {
+   "unit": "L264",
+   "text": "아무리 불러도 엄마가 오지 않자",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L265",
+   "text": "깊은 [절망]에 빠져",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L266",
+   "text": "마음을 닫아버린 상태였습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L267",
+   "text": "실제로 간호사가 다정하게 다가와 말을 걸자"
+  },
+  {
+   "unit": "L268",
+   "text": "억눌러 왔던 설움이 터져 나오듯"
+  },
+  {
+   "unit": "L269",
+   "text": "다시 엄마를 찾으며"
+  },
+  {
+   "unit": "L270",
+   "text": "서럽게 울음을 터뜨렸거든요."
+  },
+  {
+   "unit": "L271",
+   "text": "존 볼비는"
+  },
+  {
+   "unit": "L272",
+   "text": "로라가 보여 준 이 애타는 반응을"
+  },
+  {
+   "unit": "L273",
+   "text": "'[애착]'이라는 개념으로 설명했습니다."
+  },
+  {
+   "unit": "L274",
+   "text": "인간의 마음속에는",
+   "box": false
+  },
+  {
+   "unit": "L275",
+   "text": "생존을 위한 일종의",
+   "box": false
+  },
+  {
+   "unit": "L276",
+   "text": "'[안전 경보 장치]'가 심어져 있습니다.",
+   "box": false
+  },
+  {
+   "unit": "L277",
+   "text": "내가 의지하는 사람이"
+  },
+  {
+   "unit": "L278",
+   "text": "시야에서 사라지거나"
+  },
+  {
+   "unit": "L279",
+   "text": "연결이 끊어지면"
+  },
+  {
+   "unit": "L280",
+   "text": "뇌는 즉시 [비상벨]을 울립니다.",
+   "box": false
+  },
+  {
+   "unit": "L281",
+   "text": "처음에는 로라가 울부짖었듯"
+  },
+  {
+   "unit": "L282",
+   "text": "상대를 찾으며"
+  },
+  {
+   "unit": "L283",
+   "text": "초조하게 안절부절못하다가"
+  },
+  {
+   "unit": "L284",
+   "text": "침묵이 길어지면"
+  },
+  {
+   "unit": "L285",
+   "text": "결국 깊은 무기력과 [우울함]에"
+  },
+  {
+   "unit": "L286",
+   "text": "빠지게 되는 거죠."
+  },
+  {
+   "unit": "L287",
+   "text": "문제는",
+   "pos": "center"
+  },
+  {
+   "unit": "L288",
+   "text": "우리가 몸도 마음도",
+   "pos": "center"
+  },
+  {
+   "unit": "L289",
+   "text": "다 자란 어른이 되어서도",
+   "pos": "center"
+  },
+  {
+   "unit": "L290",
+   "text": "이 마음속 경보 장치가",
+   "pos": "center"
+  },
+  {
+   "unit": "L291",
+   "text": "[사라지지 않는다]는 데 있습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L292",
+   "text": "성인이 된 후에는"
+  },
+  {
+   "unit": "L293",
+   "text": "어린 시절 부모님을 향했던"
+  },
+  {
+   "unit": "L294",
+   "text": "그 경보 장치가"
+  },
+  {
+   "unit": "L295",
+   "text": "고스란히 '[연인]'이나"
+  },
+  {
+   "unit": "L296",
+   "text": "'마음이 가는 상대'에게로 옮겨가거든요."
+  },
+  {
+   "unit": "L297",
+   "text": "지우가 줄어들지 않는 숫자 '1'을 보며"
+  },
+  {
+   "unit": "L298",
+   "text": "밤새 카톡창을 들락날락하고"
+  },
+  {
+   "unit": "L299",
+   "text": "결국 불 꺼진 방에서"
+  },
+  {
+   "unit": "L300",
+   "text": "우울함에 잠겼던 건"
+  },
+  {
+   "unit": "L301",
+   "text": "어릴 적 로라의 마음속에서",
+   "box": false
+  },
+  {
+   "unit": "L302",
+   "text": "울렸던 것과",
+   "box": false
+  },
+  {
+   "unit": "L303",
+   "text": "똑같은 [비상벨]이 울렸기 때문입니다.",
+   "box": false
+  },
+  {
+   "unit": "L304",
+   "text": "그런데 참 신기하죠.",
+   "pos": "center"
+  },
+  {
+   "unit": "L305",
+   "text": "모든 사람에게"
+  },
+  {
+   "unit": "L306",
+   "text": "이 경보 장치가 있다면"
+  },
+  {
+   "unit": "L307",
+   "text": "왜 똑같이 답장을 못 받았을 때"
+  },
+  {
+   "unit": "L308",
+   "text": "누군가는 편하게 쉬며 일상을 보내고"
+  },
+  {
+   "unit": "L309",
+   "text": "누군가는 지우처럼 피 말리는 밤을"
+  },
+  {
+   "unit": "L310",
+   "text": "보내는 걸까요?"
+  },
+  {
+   "unit": "L311",
+   "text": "그 이유는",
+   "pos": "center"
+  },
+  {
+   "unit": "L312",
+   "text": "사람마다 이 경보 장치의",
+   "pos": "center"
+  },
+  {
+   "unit": "L313",
+   "text": "[예민함]이 다르기 때문입니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L314",
+   "text": "심리학 연구들을 살펴보면",
+   "box": false
+  },
+  {
+   "unit": "L315",
+   "text": "성인 [5명 중 1명]꼴로는",
+   "box": false
+  },
+  {
+   "unit": "L316",
+   "text": "남들보다 이 경보 장치가 유독 예민한",
+   "box": false
+  },
+  {
+   "unit": "L317",
+   "text": "'[불안형 애착]' 성향을 가지고 있습니다.",
+   "box": false
+  },
+  {
+   "unit": "L318",
+   "text": "이런 분들은"
+  },
+  {
+   "unit": "L319",
+   "text": "연인과 연락이 원활하지 않을 때"
+  },
+  {
+   "unit": "L320",
+   "text": "단순히 기분만 우울해지는 게 아니라"
+  },
+  {
+   "unit": "L321",
+   "text": "실제로 몸속 [스트레스 호르몬] 수치가",
+   "box": false
+  },
+  {
+   "unit": "L322",
+   "text": "급격히 치솟고",
+   "box": false
+  },
+  {
+   "unit": "L323",
+   "text": "밤잠까지 설치는"
+  },
+  {
+   "unit": "L324",
+   "text": "생리적인 고통을 겪습니다."
+  },
+  {
+   "unit": "L325",
+   "text": "상대의 의도를 알 수 없는",
+   "pos": "center"
+  },
+  {
+   "unit": "L326",
+   "text": "침묵이나 공백이 생기면",
+   "pos": "center"
+  },
+  {
+   "unit": "L327",
+   "text": "예민한 경보 장치가",
+   "box": false
+  },
+  {
+   "unit": "L328",
+   "text": "즉각 비상벨을 울리며",
+   "box": false
+  },
+  {
+   "unit": "L329",
+   "text": "왜 연락이 없지?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L330",
+   "text": "나한테 마음이 식었나?",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L331",
+   "text": "최악의 [시나리오]를"
+  },
+  {
+   "unit": "L332",
+   "text": "써 내려가기 때문이죠."
+  },
+  {
+   "unit": "L333",
+   "text": "하지만",
+   "pos": "center"
+  },
+  {
+   "unit": "L334",
+   "text": "[괜찮습니다].",
+   "pos": "center"
+  },
+  {
+   "unit": "L335",
+   "text": "수십 년간",
+   "box": false
+  },
+  {
+   "unit": "L336",
+   "text": "사람들의 애착 변화를 추적한",
+   "box": false
+  },
+  {
+   "unit": "L337",
+   "text": "심리학 연구들에 따르면",
+   "box": false
+  },
+  {
+   "unit": "L338",
+   "text": "이 예민한 경보 장치는",
+   "box": false
+  },
+  {
+   "unit": "L339",
+   "text": "나이가 들고 경험이 쌓일수록"
+  },
+  {
+   "unit": "L340",
+   "text": "또 나와 잘 맞는"
+  },
+  {
+   "unit": "L341",
+   "text": "안정적인 관계를 경험할수록"
+  },
+  {
+   "unit": "L342",
+   "text": "서서히 [잦아든다]고 합니다."
+  },
+  {
+   "unit": "L343",
+   "text": "타고난 마음의 경보 장치가"
+  },
+  {
+   "unit": "L344",
+   "text": "하루아침에 바뀌지는 않지만"
+  },
+  {
+   "unit": "L345",
+   "text": "우리가 어떻게 다루느냐에 따라"
+  },
+  {
+   "unit": "L346",
+   "text": "얼마든지 [다독여] 나갈 수 있다는 뜻입니다."
+  },
+  {
+   "unit": "L347",
+   "text": "자 그렇다면"
+  },
+  {
+   "unit": "L348",
+   "text": "당장 오늘 밤"
+  },
+  {
+   "unit": "L349",
+   "text": "줄어들지 않는 숫자 '1' 앞에서"
+  },
+  {
+   "unit": "L350",
+   "text": "요동치는 우리 마음을"
+  },
+  {
+   "unit": "L351",
+   "text": "어떻게 다독여야 할까요?"
+  },
+  {
+   "unit": "L352",
+   "text": "과학적으로 검증된",
+   "pos": "center"
+  },
+  {
+   "unit": "L353",
+   "text": "[3가지] 현실적인 방법을",
+   "pos": "center"
+  },
+  {
+   "unit": "L354",
+   "text": "알려드리겠습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L355",
+   "text": "첫째",
+   "pos": "center"
+  },
+  {
+   "unit": "L356",
+   "text": "애써 괜찮아라고 본인을 다독이는 대신",
+   "pos": "center"
+  },
+  {
+   "unit": "L357",
+   "text": "차라리 [나 지금 불안해]라고",
+   "pos": "center"
+  },
+  {
+   "unit": "L358",
+   "text": "솔직하게 인정해 보세요.",
+   "pos": "center"
+  },
+  {
+   "unit": "L359",
+   "text": "2012년 키르칸스키 연구팀은"
+  },
+  {
+   "unit": "L360",
+   "text": "거미를 끔찍이 무서워하는 참가자"
+  },
+  {
+   "unit": "L361",
+   "text": "[88명]을 모았습니다."
+  },
+  {
+   "unit": "L362",
+   "text": "그리고는 살아 움직이는 거대한 독거미",
+   "box": false
+  },
+  {
+   "unit": "L363",
+   "text": "타란툴라에서",
+   "box": false
+  },
+  {
+   "unit": "L364",
+   "text": "불과 [60cm] 떨어진 자리에 앉혔죠.",
+   "box": false
+  },
+  {
+   "unit": "L365",
+   "text": "참가자들에게",
+   "pos": "center"
+  },
+  {
+   "unit": "L366",
+   "text": "거미를 마주 보게 하면서",
+   "pos": "center"
+  },
+  {
+   "unit": "L367",
+   "text": "그룹마다 각기 다른 말을"
+  },
+  {
+   "unit": "L368",
+   "text": "소리 내어 읽게 했습니다."
+  },
+  {
+   "unit": "L369",
+   "text": "첫 번째 그룹은"
+  },
+  {
+   "unit": "L370",
+   "text": "자기 감정에 솔직하게 [이름 붙이기].",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L371",
+   "text": "저 징그러운 타란툴라가",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L372",
+   "text": "나한테 뛰어오를까 봐 불안해.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L373",
+   "text": "두 번째 그룹은"
+  },
+  {
+   "unit": "L374",
+   "text": "스스로 [달래기].",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L375",
+   "text": "저 작은 거미는 날 해치지 않아",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L376",
+   "text": "위험하지 않아.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L377",
+   "text": "세 번째 그룹은"
+  },
+  {
+   "unit": "L378",
+   "text": "아예 [딴생각하기].",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L379",
+   "text": "우리 집 거실 소파 앞에는",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L380",
+   "text": "텔레비전이 있어.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "unit": "L381",
+   "text": "일주일 뒤"
+  },
+  {
+   "unit": "L382",
+   "text": "참가자들이 다시 거미를 마주했을 때"
+  },
+  {
+   "unit": "L383",
+   "text": "가장 놀라운 변화를 보인 쪽은"
+  },
+  {
+   "unit": "L384",
+   "text": "어디였을까요?"
+  },
+  {
+   "unit": "L385",
+   "text": "스스로를 달랜 그룹도"
+  },
+  {
+   "unit": "L386",
+   "text": "딴생각을 한 그룹도 아닌"
+  },
+  {
+   "unit": "L387",
+   "text": "[불안해]라고",
+   "pos": "center"
+  },
+  {
+   "unit": "L388",
+   "text": "자신의 감정을 있는 그대로 말한",
+   "pos": "center"
+  },
+  {
+   "unit": "L389",
+   "text": "그룹이었습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L390",
+   "text": "내 감정에 정확한 이름을 붙이는 순간",
+   "box": false
+  },
+  {
+   "unit": "L391",
+   "text": "흥분해 있던 뇌의 경보 장치가",
+   "box": false
+  },
+  {
+   "unit": "L392",
+   "text": "비로소 이성적인 [통제]를",
+   "box": false
+  },
+  {
+   "unit": "L393",
+   "text": "되찾기 때문입니다.",
+   "box": false
+  },
+  {
+   "unit": "L394",
+   "text": "답장이 없어 마음이 요동칠 땐"
+  },
+  {
+   "unit": "L395",
+   "text": "애써 쿨한 척 넘기려 하지 말고"
+  },
+  {
+   "unit": "L396",
+   "text": "휴대폰 [메모장]을 열어"
+  },
+  {
+   "unit": "L397",
+   "text": "내 감정에 정확히 이름을 붙여"
+  },
+  {
+   "unit": "L398",
+   "text": "적어 보세요."
+  },
+  {
+   "unit": "L399",
+   "text": "6시 30분에 보낸 카톡이",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L400",
+   "text": "아직 안 읽혀서",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L401",
+   "text": "지금 내가 많이 불안하구나.",
+   "pos": "center",
+   "italic": true
+  },
+  {
+   "unit": "L402",
+   "text": "하고요.",
+   "pos": "center"
+  },
+  {
+   "unit": "L403",
+   "text": "둘째",
+   "pos": "center"
+  },
+  {
+   "unit": "L404",
+   "text": "휴대폰을 언제 확인할지",
+   "pos": "center"
+  },
+  {
+   "unit": "L405",
+   "text": "[주도권]을 내가 쥐세요.",
+   "pos": "center"
+  },
+  {
+   "unit": "L406",
+   "text": "행동경제학자"
+  },
+  {
+   "unit": "L407",
+   "text": "[댄 애리얼리]는"
+  },
+  {
+   "unit": "L408",
+   "text": "스마트폰 사용자를 대상으로"
+  },
+  {
+   "unit": "L409",
+   "text": "알림 받는 방식을 바꾸는"
+  },
+  {
+   "unit": "L410",
+   "text": "실험을 했습니다."
+  },
+  {
+   "unit": "L411",
+   "text": "흔히 알림을 아예 꺼 두면",
+   "box": false
+  },
+  {
+   "unit": "L412",
+   "text": "마음이 편할 것 같지만",
+   "box": false
+  },
+  {
+   "unit": "L413",
+   "text": "결과는 [정반대]였습니다.",
+   "box": false
+  },
+  {
+   "unit": "L414",
+   "text": "알림을 완전히 끈 사람들은"
+  },
+  {
+   "unit": "L415",
+   "text": "중요한 연락을 놓칠까 봐"
+  },
+  {
+   "unit": "L416",
+   "text": "오히려 더 [불안]해했거든요."
+  },
+  {
+   "unit": "L417",
+   "text": "대신 오전 9시",
+   "box": false
+  },
+  {
+   "unit": "L418",
+   "text": "오후 3시",
+   "box": false
+  },
+  {
+   "unit": "L419",
+   "text": "밤 9시.",
+   "box": false
+  },
+  {
+   "unit": "L420",
+   "text": "이렇게 하루 딱 3번만",
+   "box": false
+  },
+  {
+   "unit": "L421",
+   "text": "알림을 몰아서 받도록 한 사람들은",
+   "box": false
+  },
+  {
+   "unit": "L422",
+   "text": "휴대폰 화면을 열어 보는 횟수가"
+  },
+  {
+   "unit": "L423",
+   "text": "눈에 띄게 [줄었습니다]."
+  },
+  {
+   "unit": "L424",
+   "text": "일상에 더 깊이 집중할 수 있었고"
+  },
+  {
+   "unit": "L425",
+   "text": "휴대폰에 이리저리"
+  },
+  {
+   "unit": "L426",
+   "text": "끌려다닌다는 느낌도"
+  },
+  {
+   "unit": "L427",
+   "text": "훨씬 덜 받았죠."
+  },
+  {
+   "unit": "L428",
+   "text": "하지만 막상 시간을 정해 둬도"
+  },
+  {
+   "unit": "L429",
+   "text": "그사이에 슬쩍"
+  },
+  {
+   "unit": "L430",
+   "text": "휴대폰을 확인하고 싶은 유혹이"
+  },
+  {
+   "unit": "L431",
+   "text": "불쑥불쑥 찾아오기 마련입니다."
+  },
+  {
+   "unit": "L432",
+   "text": "이럴 땐",
+   "pos": "center"
+  },
+  {
+   "unit": "L433",
+   "text": "[만약-그러면] 공식을 사용해 보세요.",
+   "pos": "center"
+  },
+  {
+   "unit": "L434",
+   "text": "막연하게 '참아야지' 다짐하는 것보다"
+  },
+  {
+   "unit": "L435",
+   "text": "만약 어떤 상황이 오면",
+   "pos": "center"
+  },
+  {
+   "unit": "L436",
+   "text": "그때는 이렇게 행동한다",
+   "pos": "center"
+  },
+  {
+   "unit": "L437",
+   "text": "구체적인 규칙을 미리 정해 두면",
+   "box": false
+  },
+  {
+   "unit": "L438",
+   "text": "성공 확률이 비약적으로 높아집니다.",
+   "box": false
+  },
+  {
+   "unit": "L439",
+   "text": "예를 들어 이렇게 정해 두는 겁니다."
+  },
+  {
+   "unit": "L440",
+   "text": "만약 30분이 지나도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L441",
+   "text": "카톡 숫자 1이 그대로면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L442",
+   "text": "일단 휴대폰을 서랍에 넣고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L443",
+   "text": "밤 9시 정각에 다시 확인한다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L444",
+   "text": "셋째",
+   "pos": "center"
+  },
+  {
+   "unit": "L445",
+   "text": "이미 마음이 무겁게 가라앉았다면",
+   "pos": "center"
+  },
+  {
+   "unit": "L446",
+   "text": "나를 무조건적으로 편안하게 해 주는",
+   "pos": "center"
+  },
+  {
+   "unit": "L447",
+   "text": "존재의 [사진]을 보세요.",
+   "pos": "center"
+  },
+  {
+   "unit": "L448",
+   "text": "코넬 대학교에서"
+  },
+  {
+   "unit": "L449",
+   "text": "대학생 [138명]을 대상으로"
+  },
+  {
+   "unit": "L450",
+   "text": "과거에 속상했던 기억을"
+  },
+  {
+   "unit": "L451",
+   "text": "떠올리게 한 뒤"
+  },
+  {
+   "unit": "L452",
+   "text": "화면에 띄운 사진을"
+  },
+  {
+   "unit": "L453",
+   "text": "[90초] 동안 바라보게 했습니다."
+  },
+  {
+   "unit": "L454",
+   "text": "그 결과",
+   "box": false
+  },
+  {
+   "unit": "L455",
+   "text": "다른 사람의 사진을 본 학생들보다",
+   "box": false
+  },
+  {
+   "unit": "L456",
+   "text": "자신의 [어머니] 사진을 본 학생들의",
+   "box": false
+  },
+  {
+   "unit": "L457",
+   "text": "가라앉은 기분이",
+   "box": false
+  },
+  {
+   "unit": "L458",
+   "text": "훨씬 더 빠르고 크게 회복되었습니다.",
+   "box": false
+  },
+  {
+   "unit": "L459",
+   "text": "여기서 주목할 점은",
+   "box": false
+  },
+  {
+   "unit": "L460",
+   "text": "속상한 기억을 떠올리기 전에",
+   "box": false
+  },
+  {
+   "unit": "L461",
+   "text": "사진을 [먼저] 본 그룹에서는",
+   "box": false
+  },
+  {
+   "unit": "L462",
+   "text": "이런 기분 회복 효과가",
+   "box": false
+  },
+  {
+   "unit": "L463",
+   "text": "나타나지 않았다는 겁니다.",
+   "box": false
+  },
+  {
+   "unit": "L464",
+   "text": "즉 이 방법은",
+   "box": false
+  },
+  {
+   "unit": "L465",
+   "text": "불안을 미리 막아주는",
+   "box": false
+  },
+  {
+   "unit": "L466",
+   "text": "예방주사가 아니라",
+   "box": false
+  },
+  {
+   "unit": "L467",
+   "text": "이미 상처받고 가라앉은 마음을",
+   "box": false
+  },
+  {
+   "unit": "L468",
+   "text": "달래주는",
+   "box": false
+  },
+  {
+   "unit": "L469",
+   "text": "'[마음의 응급약]'으로 써야",
+   "box": false
+  },
+  {
+   "unit": "L470",
+   "text": "효과가 있다는 뜻입니다.",
+   "box": false
+  },
+  {
+   "unit": "L471",
+   "text": "만약 기다림에 지쳐"
+  },
+  {
+   "unit": "L472",
+   "text": "마음이 무겁게 가라앉은 뒤라면"
+  },
+  {
+   "unit": "L473",
+   "text": "답장 없는 그 사람의 프로필 사진을"
+  },
+  {
+   "unit": "L474",
+   "text": "확대해 보는 대신"
+  },
+  {
+   "unit": "L475",
+   "text": "부모님이나 오랜 친구"
+  },
+  {
+   "unit": "L476",
+   "text": "혹은 반려동물처럼"
+  },
+  {
+   "unit": "L477",
+   "text": "내 마음을 무조건적으로"
+  },
+  {
+   "unit": "L478",
+   "text": "든든하게 만들어 주는"
+  },
+  {
+   "unit": "L479",
+   "text": "존재의 사진을"
+  },
+  {
+   "unit": "L480",
+   "text": "꺼내 보시길 바랍니다."
+  },
+  {
+   "unit": "L481",
+   "text": "생각해 보면"
+  },
+  {
+   "unit": "L482",
+   "text": "상대방의 답장이 유독 늦어지는 날엔"
+  },
+  {
+   "unit": "L483",
+   "text": "나를 향한 마음이 변해서가 아니라"
+  },
+  {
+   "unit": "L484",
+   "text": "어쩌면"
+  },
+  {
+   "unit": "L485",
+   "text": "내가 모르는 그 사람의 하루에"
+  },
+  {
+   "unit": "L486",
+   "text": "거센 [바람]이 불고 있는 건지도 모릅니다."
+  },
+  {
+   "unit": "L487",
+   "text": "예상치 못하게 길어진 회의"
+  },
+  {
+   "unit": "L488",
+   "text": "발 디딜 틈 없는 퇴근길 지하철"
+  },
+  {
+   "unit": "L489",
+   "text": "갑자기 꺼져 버린 휴대폰 배터리 같은"
+  },
+  {
+   "unit": "L490",
+   "text": "일상의 [바람] 말이에요."
+  },
+  {
+   "unit": "L491",
+   "text": "물론 때로는 아무리 기다려도"
+  },
+  {
+   "unit": "L492",
+   "text": "끝내 답장이 돌아오지 않는 날도"
+  },
+  {
+   "unit": "L493",
+   "text": "있겠죠."
+  },
+  {
+   "unit": "L494",
+   "text": "하지만 그건"
+  },
+  {
+   "unit": "L495",
+   "text": "내가 휴대폰만 붙잡고"
+  },
+  {
+   "unit": "L496",
+   "text": "밤새 애를 태운다고 해서"
+  },
+  {
+   "unit": "L497",
+   "text": "바뀔 수 있는 일이 아닙니다."
+  },
+  {
+   "unit": "L498",
+   "text": "어쩌면 답장 하나에",
+   "pos": "center"
+  },
+  {
+   "unit": "L499",
+   "text": "이토록 쉽게 불안해지는 마음은",
+   "pos": "center"
+  },
+  {
+   "unit": "L500",
+   "text": "내가 나약하고 못나서가 아니라",
+   "pos": "center"
+  },
+  {
+   "unit": "L501",
+   "text": "지금 내 삶에서 그 사람이 그만큼 [소중]하다는",
+   "pos": "center"
+  },
+  {
+   "unit": "L502",
+   "text": "아주 솔직한 신호인지도 모르겠습니다.",
+   "pos": "center"
+  },
+  {
+   "unit": "L503",
+   "text": "여러분들만의",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L504",
+   "text": "마음의 안정을 찾는 방법이 있다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "unit": "L505",
+   "text": "[댓글]로 공유해 주세요.",
+   "pos": "center",
+   "shadow": true
+  }
+ ]
+}

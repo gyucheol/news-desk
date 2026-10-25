@@ -10,3 +10,4 @@
   - render.py는 같은 폴더의 아이콘 모듈을 불러오므로 python -I 없이 실행합니다. 나머지는 -I로 실행합니다.
 - 01_불안형_답장/: 01편 본편(2026-10-24, 12분 3.6초). 기록과 다시 만드는 순서는 credits.md
   - v2(2026-10-24, 사용자 수정 목록 반영, 11분 50.6초): credits_v2.md, 한 번에 다시 만드는 run_v2.sh. v2에서 더한 도구: onsets_v2.py(음절 위치 + 실제 소리로 자막 시작), map_words.py(쉼을 줄인 녹음의 시각으로 낱말 옮기기), fit_clips.py의 cont(앞 장면 영상이 이어짐), bgm_sequence.py --constant(곡마다 고정 크기), render_parallel.py AAC 320kbps, 아이콘 화면 글꼴 G마켓 산스(fy_common.py, setup.sh가 받음)
+  - v3(2026-10-25, 사용자 v3 요청: 사용자가 만든 AI 사진 29장, 뇌 사진 설명 화면, 화면 반 나누기, 긴장감 있고 차분한 배경음악): credits_v3.md, run_v3.sh. v3에서 더한 도구: owner_wm_remove.py(사용자 사진 오른쪽 아래 별 표시 지우기), icons_photo.py(사진 위에 그리는 그림: 뇌 위 물음표), render.py의 split(화면 반 나누기)·mix(사진이 다른 판으로 서서히 바뀜)·사진 위 그림이 확대를 따라감, render_parallel.py --video-only(소리 없이 화면만 먼저)

@@ -69,7 +69,7 @@ line_text = {o["id"]: o["text"].replace("\n", " ").replace("[", "").replace("]",
 for sc in tl["scenes"]:
     if sc["type"] == "photo" and "/owner_v3/" in sc["image"]:
         own.setdefault(os.path.basename(sc["image"])[:2], []).append(
-            f"장면 {sc['id']} {mmss(sc['start'])} '{line_text.get(sc['from'], '')}'부터")
+            f"장면 {sc['id']} {mmss(sc['start'])} \"{line_text.get(sc['from'], '')}\"부터")
     elif sc["type"] == "photo":
         fn = os.path.basename(sc["image"])
         ph.setdefault(fn.split("_")[0], []).append(f"장면 {sc['id']} {mmss(sc['start'])} ({fn})")
@@ -78,7 +78,7 @@ for sc in tl["scenes"]:
             first = p.get("at", sc["from"])
             own.setdefault(os.path.basename(p["image"])[:2], []).append(
                 f"장면 {sc['id']} {mmss(sc['start'])} 화면 {'오른쪽' if p['side'] == 'right' else '왼쪽'}, "
-                f"'{line_text.get(first, '')}'부터")
+                f"\"{line_text.get(first, '')}\"부터")
 k = 0
 for aid, j in ai.items():
     if V2 and aid not in ph:
@@ -106,7 +106,7 @@ print("\n## 배경음악 (Mixkit Stock Music Free License, -36 LUFS, 곡이 바�
 for k, s in enumerate(json.load(open(f"{F}/bgm_segments_{VER}.json" if V2 else f"{F}/bgm_segments.json")), 1):
     end = s.get("end", tl["duration"])
     off = f", 곡 {s['offset']:g}초부터" if s.get("offset") else ""
-    print(f"{k}. {mmss(s['start'])}~{mmss(end)} {s['name']} (Mixkit {s['mixkit']}{off}, https://mixkit.co/free-stock-music/) — {s['why']}"
+    print(f"{k}. {mmss(s['start'])}~{mmss(end)} {s['name']} (Mixkit {s.get('mixkit', s.get('id'))}{off}, https://mixkit.co/free-stock-music/) — {s['why']}"
           + (f" [{VER} 시각에 맞춘 조정: {s['note']}]" if s.get("note") else ""))
 
 print("\n## 효과음 (Mixkit Sound Effects Free License)\n")

@@ -6,7 +6,8 @@
 # 말풍선은 기울이지 않고 똑바로 둔다. 아래에 주제 단어(thumb.py와 같은 글꼴·위치, 기본 흰색).
 #
 # usage: thumb_chat.py OUT.jpg [--theme dark|light] [--word 불안] [--color white|red]   (기본: dark, white)
-#                              [--msgs "a|b|c"] [--times "오후 6:12|오후 8:43|오후 11:50"]
+#                              [--msgs "a|b|c"] [--times "오후 6:12|오후 8:43|오후 11:50"] [--size 262]
+#   --size : 주제 단어 글자 크기(px, 기본 262). 01편 '불안형'은 259(2026-10-26 사용자: "3p만 줄이자").
 #   --times: 메시지마다 보낸 시각. 분이 다르면 카톡은 말풍선마다 꼬리를 새로 달고, 왼쪽에 '1'과 시간을 위아래로 둔다.
 #   light: 카톡 기본 테마(하늘색 배경) 화면 조각을 검은 배경 위에 둔다
 #   dark : 카톡 다크 테마처럼 검은 화면에 노란 말풍선만
@@ -15,7 +16,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from thumb import W, H, FONT_DIR, bottom_fade, put_word   # noqa: E402
+from thumb import W, H, FONT_DIR, WORD_SIZE, bottom_fade, put_word   # noqa: E402
 
 S = 2                                   # draw at 2x, then downsample
 BUBBLE = (253, 229, 0)                  # measured on the Galaxy screenshot
@@ -134,5 +135,5 @@ if __name__ == "__main__":
         times = ["오후 6:12", "오후 8:43", "오후 11:50"]
     img = (make_light if opt("--theme", "dark") == "light" else make_dark)(msgs, times)   # 기본 다크(2026-10-22 사용자 결정)
     img = bottom_fade(img, 405, 520)
-    put_word(img, opt("--word", "불안"), opt("--color", "white")).save(a[0], quality=93)
+    put_word(img, opt("--word", "불안"), opt("--color", "white"), int(opt("--size", WORD_SIZE))).save(a[0], quality=93)
     print(a[0])

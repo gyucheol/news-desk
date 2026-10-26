@@ -93,9 +93,10 @@ def word_font(size=WORD_SIZE, weight=WORD_WEIGHT):
     return f
 
 
-def put_word(img, word, color):
-    """Topic word: clean heavy gothic, centered, with a soft dark shadow underneath for depth."""
-    f = word_font()
+def put_word(img, word, color, size=WORD_SIZE):
+    """Topic word: clean heavy gothic, centered, with a soft dark shadow underneath for depth.
+    size: 글자 크기(px). 기본 262, 01편 '불안형'은 259(2026-10-26 사용자: "3p만 줄이자")."""
+    f = word_font(size)
     sh = Image.new("L", (W, H), 0)
     ImageDraw.Draw(sh).text((W / 2, WORD_BASE + 6), word, font=f, fill=235, anchor="ms")
     sh = sh.filter(ImageFilter.GaussianBlur(14))

@@ -227,11 +227,11 @@ R.append(dict(cid="G2-003", attachTo="",
     "앤트로픽의 상장 신청이 AI 기업 자금 조달 불안을 덜면서 아시아 반도체주 등 AI 관련주가 이틀간의 매도를 딛고 반등했다"),
   I("토큰 소비 72%가 지출 비중 27%…AI 강세론·약세론 쟁점", TG+"하나증권 중국전략", "https://t.me/HANAchina/71077",
     "오픈라우터 데이터에서 토큰 수요가 250배 늘었지만 지출 비중은 27%에 그치면서 골드만이 AI 자본 순환 구조의 취약성을 짚었다"),
-  I("앤트로픽 상장 신청으로 기술주 랠리 연장", "블룸버그", "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-s-ipo-filing-extends-tech-rally",
+  I("앤트로픽 상장 신청으로 기술주 랠리 하루 더 연장", "블룸버그", "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-s-ipo-filing-extends-tech-rally",
     "앤트로픽의 상장 서류 제출이 기술주 랠리를 하루 더 이어가게 하면서 AI 관련주 매수세가 다시 살아났다 (제목 기준)"),
   I("골드만 데스크 'TMT 200억 달러 이탈은 디레버리징'", TG+"하나증권 중국전략", "https://t.me/HANAchina/71092",
     "골드만삭스 트레이딩 데스크가 TMT 200억 달러 이탈을 수요 둔화가 아닌 헤지펀드 디레버리징으로 분석하면서 AI 혼잡 포지션이 크게 정리됐다고 봤다"),
-  I("앤트로픽 상장 신청 뒤 AI 거래 탄력 둔화", "블룸버그", "https://www.bloomberg.com/news/newsletters/2026-10-27/ai-trade-starts-to-lose-momentum-after-anthropic-filing",
+  I("앤트로픽 상장 신청 뒤 AI 거래 탄력 둔화하기 시작", "블룸버그", "https://www.bloomberg.com/news/newsletters/2026-10-27/ai-trade-starts-to-lose-momentum-after-anthropic-filing",
     "앤트로픽 상장 신청으로 살아났던 AI 거래가 동력을 잃기 시작하면서 반등의 지속성에 다시 의문이 생겼다 (제목 기준)")]))
 
 R.append(dict(cid="G2-005", attachTo="",
@@ -293,7 +293,7 @@ R.append(dict(cid="G2-008", attachTo="",
     "중국 AI·반도체주가 고평가와 수출 제한 우려로 무너지면서 STAR50이 40% 떨어지고 시총 약 4,800억 달러가 사라졌다"),
   I("CICC, 중국 클라우드 ROIC 11.9%로 미국 19.9% 하회", TG+"하나증권 중국전략", "https://t.me/HANAchina/71078",
     "CICC가 중국 클라우드 기업 ROIC를 11.9%로 추산하면서 AI 투자가 미국보다 빨리 중국 내수를 위축시킬 수 있다고 분석했다"),
-  I("중국 주식형 펀드 포지션 2년래 최저", TG+"하나증권 중국전략", "https://t.me/HANAchina/71083",
+  I("중국 주식형 펀드 포지션 2년래 최저…투심은 신중", TG+"하나증권 중국전략", "https://t.me/HANAchina/71083",
     "중국 주식형 펀드 포지션이 2년래 최저로 내려가면서 수급 조정은 마무리 국면이지만 투자심리는 여전히 신중한 상태다"),
   I("중국 증시 마감 직전 급락, 국가대표 자금 의존 드러내", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/chinese-stocks-final-hour-slide-shows-reliance-on-national-team",
     "중국 증시가 마감 한 시간 동안 급락하면서 시장이 국가대표 자금의 지지에 기대고 있다는 점이 드러났다")]))
@@ -318,11 +318,11 @@ R.append(dict(cid="G2-014", attachTo="",
  inds=["fin"], nodes=[],
  vc=[V("fin", "payments", "공급", "up", "실제", "리플 미 국가신탁은행 최종 인가")],
  items=[
-  I("레드닷페이, 연내 비공개 IPO 신청 준비", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-26/redotpay-said-to-prepare-confidential-ipo-filing-by-year-end",
+  I("결제 핀테크 레드닷페이, 연내 비공개 IPO 신청 준비", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-26/redotpay-said-to-prepare-confidential-ipo-filing-by-year-end",
     "결제 핀테크 레드닷페이가 연내 비공개 상장 신청을 준비하면서 암호화폐 결제 기업의 상장 행렬에 합류하려 하고 있다 (제목 기준)"),
   I("네덜란드 투자자, 부유세 예외 제외에 암호화폐 이탈 조짐", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-26/dutch-investors-poised-to-flee-crypto-over-wealth-tax-carveout",
     "네덜란드가 부유세 개편에서 암호화폐를 예외 대상에서 빼면서 현지 투자자들이 암호화폐 자산을 떠날 채비를 하고 있다 (제목 기준)"),
-  I("리플, 미 국가신탁은행 최종 인가 획득", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/ripple-gets-final-us-approval-for-national-trust-bank",
+  I("리플, 미 통화감독청서 국가신탁은행 최종 인가 획득", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/ripple-gets-final-us-approval-for-national-trust-bank",
     "리플이 미 통화감독청 최종 인가를 받으면서 RLUSD 준비금 관리와 디지털자산 수탁을 맡는 국가신탁은행을 열 수 있게 됐다"),
   I("노보그라츠의 갤럭시, 매출 예상 상회에 주가 상승", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/novogratz-s-galaxy-tops-revenue-estimates-shares-rise",
     "갤럭시디지털이 3분기 순이익 3억 2,300만 달러를 내고 매출이 예상을 웃돌면서 주가가 올랐다")]))
@@ -464,7 +464,7 @@ R.append(dict(cid="G2-040", attachTo="",
 R.append(dict(cid="G2-046", attachTo="",
  title="노바티스, 신약 성장에 연간 핵심 영업이익 전망 상향…3분기 핵심 EPS 2.46달러",
  one="\n".join([
-  "노바티스가 신약 성장에 힘입어 올해 핵심 영업이익 전망을 높였다",
+  "스위스 제약사 노바티스가 신약 성장에 힘입어 3분기 실적과 함께 올해 핵심 영업이익 전망을 높였다",
   "· 연간 핵심 영업이익 전망은 한 자릿수 초반 감소에서 보합~한 자릿수 초반 증가로 바뀌었다",
   "· 3분기 핵심 EPS는 2.46달러로 예상을 웃돌았지만 19억 달러 손상 반영으로 순이익은 약 70% 줄었다"]),
  facts=[
@@ -479,7 +479,7 @@ R.append(dict(cid="G2-046", attachTo="",
  inds=["pharma"], nodes=[],
  vc=[V("pharma", "bigpharma", "수요", "up", "실제", "신약 성장에 연간 핵심 영업이익 전망 상향")],
  items=[
-  I("노바티스, 신약 성장에 연간 이익 전망 상향", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/novartis-raises-profit-outlook-on-growth-of-new-medicines")]))
+  I("노바티스, 신약 성장에 힘입어 연간 이익 전망 상향", "블룸버그", "https://www.bloomberg.com/news/articles/2026-10-27/novartis-raises-profit-outlook-on-growth-of-new-medicines")]))
 
 R.append(dict(cid="G2-052", attachTo="",
  title="CIMB 필리핀 법인 매각에 BPI·메트로뱅크 관심…최대 2억 달러 거래 거론",
@@ -504,7 +504,7 @@ R.append(dict(cid="G2-052", attachTo="",
 R.append(dict(cid="G2-058", attachTo="",
  title="피치, 남아공 부채 전망서 재무부와 엇갈려…부채비율 2028/29년 79%로 상승 전망",
  one="\n".join([
-  "신용평가사 피치가 남아공 정부부채 전망에서 재무부와 다른 시각을 내놨다",
+  "신용평가사 피치가 남아공 정부부채 전망에서 재무부와 다른 시각을 내놓으며 부채비율 상승을 예상했다",
   "· 피치는 부채비율이 GDP 대비 약 78%를 유지하다 2028/29회계연도에 79%로 오를 것으로 봤다",
   "· 재무부는 부채비율이 2025/26년 78.4%로 정점을 찍고 2029/30년 76.6%로 내려간다고 밝혔다"]),
  facts=[

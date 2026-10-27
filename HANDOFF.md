@@ -4,6 +4,15 @@
 
 ---
 
+## 0-1. 추가(10월 27일 밤) — 10월 27일 회차(data/mix-2026-10-27)
+
+- 사용자: "오늘자 뉴스 ㄱㄱ" + 답변은 질문·결과·Claude 질문만(규칙 30). 범위 질문에 '오늘만' 선택.
+- 기간 10월 27일 0시~21시 KST. 10월 23일 23시~26일 24시 글은 건너뜀(범위는 backlog.json, 후보 전체는 all_full.tsv). 로이터 사이트맵이 HTTP 401로 막혀 로이터는 이번 회차에 없음(backlog.json rtr_gap). 다음 회차 전에 tools/sitemap_list.py rtr가 되는지 확인할 것.
+- 후보 493(텔레그램 284, 블룸버그 209) → 거르기 Haiku 3개 남김 304 → 묶기 Opus 2개 114묶음(붙이기 25, drop 29) → 작성 Opus 6개 → 문서 113(새 88, 더함 25), 기사 270, 건너뜀 1(어플라이드 BESI 지분 확대, 반도체 투자 증액). basis verified 65, partial 41, channel 7.
+- 고친 것: W6 G2-021 fed 줄(원문은 워시 의장 '매파적 일성'이지 금리 인상이 아님 → 문구 수정), W1 G2-029 요약 4줄 → 3줄(1건 문서), mk_mix_ml 노드 검사가 DB 사본에 chains가 없어 실패 → chains 받아 다시 실행.
+- newsSeen에서 옮긴 287줄은 newsSeenOld5에 덧붙임(v2, 약 142KB).
+- 저장 batch 4개(50·50·13, meta 3), 붙일 25건 버전 대조 후 저장, 다시 받아 113건·meta 3건 대조 일치(work/live43after). DB: news 1,989, progressV4 v32, newsSeen v27, newsSeenOld5 v2.
+
 ## 0. 추가(10월 23일 밤, 세션 '뉴스 묶음 강도 조정', 브랜치 claude/news-bundling-adjustment-rnbqdl — ccr-f6c3aa6e-x81m7v를 앞으로 감아 이어 씀)
 
 사용자 요청: "지금까지 안읽음 표시한 뉴스들은 전부 읽음처리해주고, 오늘자 뉴스들만 일단 ㄱㄱ해주라."

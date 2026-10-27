@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0713",
+ "num": 713,
+ "key": "mix-G1-039-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T06:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/dubai-s-dp-world-signs-mou-for-canada-s-57-billion-churchill-port-project",
+ "origTitle": "",
+ "headline": "DP월드, 캐나다 570억 달러 규모 처칠항 개발 사업 MOU 체결",
+ "src": [
+  {
+   "o": "글로브앤메일",
+   "d": "2026-10-27",
+   "u": "https://www.theglobeandmail.com/business/article-dp-world-mou-port-of-churchill-development/"
+  },
+  {
+   "o": "gCaptain",
+   "d": "2026-10-27",
+   "u": "https://gcaptain.com/dubais-dp-world-in-talks-on-alliance-with-northern-canada-port/"
+  }
+ ],
+ "items": [
+  {
+   "t": "두바이 DP월드, 캐나다 570억 달러 처칠항 사업 MOU 체결",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/dubai-s-dp-world-signs-mou-for-canada-s-57-billion-churchill-port-project"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "DP월드, 캐나다 570억 달러 규모 처칠항 개발 사업 MOU 체결",
+ "one": "두바이 DP월드가 570억 달러로 추산되는 캐나다 처칠항 확장 사업에 참여하는 MOU를 맺었다\n· 처칠항 소유주 아크틱게이트웨이·센터포트캐나다와 맺은 구속력 없는 협약으로 투자액은 정하지 않았다\n· 처칠항은 LNG·곡물·칼륨·핵심광물을 유럽·중동에 실어 낼 관문 후보지만 만이 연중 대부분 얼어 있다",
+ "facts": [
+  "무엇이: DP월드가 처칠항 소유주 아크틱게이트웨이그룹·센터포트캐나다와 처칠항·허드슨베이 철도·위니펙 내륙 물류기지를 잇는 회랑 개발 MOU를 맺었다 [사실]",
+  "규모: 570억 달러는 9월 캐나다 투자 정상회의 정부 자료의 처칠항 확장 사업비 추산이며 초기 투자 요청액은 39억 달러다 [사실]",
+  "조건: MOU는 구속력이 없고 투자 약정액과 건설 일정을 정하지 않았다 [사실]",
+  "정책: 연방정부는 주요사업청을 통해 처칠항 확장을 국가 이익 사업으로 신속 추진하려 한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "글로브앤메일·gCaptain 등 검색 결과 요약으로 MOU 체결과 570억 달러 사업비 추산 확인",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "ports",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "DP월드 캐나다 처칠항 개발 MOU 체결"
+  }
+ ]
+}

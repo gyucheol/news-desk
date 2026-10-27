@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0707",
+ "num": 707,
+ "key": "mix-G1-025-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T16:34:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/alibaba-wins-challenge-to-pentagon-s-chinese-army-blacklisting",
+ "origTitle": "",
+ "headline": "알리바바, 美 국방부 블랙리스트 연계 로비 제한 집행 중단 가처분 승소",
+ "src": [
+  {
+   "o": "더뉴스(파키스탄)",
+   "d": "2026-10-27",
+   "u": "https://www.thenews.com.pk/latest/1421443-alibaba-secures-us-court-injunction-against-pentagon-contract-restrictions-linked-to-china-blacklist"
+  },
+  {
+   "o": "AI Weekly",
+   "d": "2026-10-27",
+   "u": "https://aiweekly.co/alerts/alibaba-wins-us-injunction-against-pentagon-lobbying-rule"
+  }
+ ],
+ "items": [
+  {
+   "t": "알리바바, 美 블랙리스트 연계 로비 금지 규정 소송서 승소",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/alibaba-wins-challenge-to-pentagon-s-chinese-army-blacklisting",
+   "s": "알리바바가 국방부 블랙리스트와 연계된 로비 금지 규정에 대한 판결에서 이기면서 미국 로비스트를 다시 쓸 길이 열렸다"
+  },
+  {
+   "t": "알리바바, 국방부 블랙리스트 제한 집행 중단 판결 확보",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67470",
+   "s": "미국 법원이 알리바바 관련 국방부 사업 제한 집행을 중단시키면서 당장의 규제 장벽은 풀렸지만 향후 소송 불확실성은 남았다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "알리바바, 美 국방부 블랙리스트 연계 로비 제한 집행 중단 가처분 승소",
+ "one": "미국 연방법원이 알리바바 요청을 받아들여 국방부 블랙리스트와 연계된 로비 제한 집행을 막았다\n· 산호세 연방판사는 알리바바 로비 업체와 거래하는 기업의 국방부 계약 배제를 금지하는 예비 가처분을 내렸다\n· 블랙리스트 지정 자체는 유지돼 알리바바는 본안 소송을 이어 간다\n· 지정 기업은 국방부 계약이 제한되고 2027년부터 제3자를 통한 구매도 막힌다",
+ "facts": [
+  "무엇이: 산호세 연방판사가 10월 26일 알리바바를 위해 로비하는 업체와 거래하는 기업의 국방부 계약을 막는 규정의 집행을 중단시키는 예비 가처분을 내렸다 [사실]",
+  "한계: 판결은 알리바바를 국방부 중국군 연계 기업 명단에서 빼지 않으며, 알리바바는 6월 제기한 소송에서 지정 자체를 다투고 있다 [사실]",
+  "제재 내용: 명단 지정은 공식 제재는 아니지만 국방부 계약을 제한하고 2027년부터 제3자를 통한 제품·서비스 구매도 막는다 [사실]",
+  "여파: 알리바바는 국방부 계약업체를 함께 대리하는 미국 로비스트를 다시 쓸 수 있게 됐으나 규제·소송 불확실성은 남아 있다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "가처분 판결 내용·블랙리스트 유지는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "법원 판결로 국방부 블랙리스트 연계 로비 제한만 중단"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

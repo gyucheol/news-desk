@@ -1,0 +1,82 @@
+{
+ "id": "n-bbg-0735",
+ "num": 735,
+ "key": "mix-G2-016-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T08:39:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/intel-to-buy-israeli-startup-classiq-in-quantum-computing-push",
+ "origTitle": "",
+ "headline": "인텔, 이스라엘 양자 SW 클래시크 인수…22억~23억 달러 보도, 2027년 상반기 완료 예정",
+ "src": [
+  {
+   "o": "Intel 보도자료",
+   "d": "2026-10-27",
+   "u": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum"
+  },
+  {
+   "o": "Ynetnews",
+   "d": "2026-10-27",
+   "u": "https://www.ynetnews.com/business/article/rkd8qnanme"
+  },
+  {
+   "o": "SiliconANGLE",
+   "d": "2026-10-27",
+   "u": "https://siliconangle.com/2026/10/26/intel-buys-quantum-software-pioneer-classiq-for-2-2b/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인텔, 양자컴퓨팅 확대 위해 스타트업 클래시크 인수",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/intel-to-buy-israeli-startup-classiq-in-quantum-computing-push",
+   "s": "인텔이 양자컴퓨팅 사업을 키우려 이스라엘 스타트업 클래시크를 사들이면서 하드웨어 중심이던 양자 사업에 소프트웨어를 더한다"
+  },
+  {
+   "t": "인텔, 클래시크 인수 합의…BMW·AT&T 고객사, 금액 비공개",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67406",
+   "s": "인텔이 BMW·AT&T를 고객으로 둔 직원 약 130명의 클래시크 인수에 합의하면서 립부 탄 CEO가 풀스택 양자 사업 전환을 선언했다"
+  },
+  {
+   "t": "인텔, 이스라엘 유니콘 클래시크 인수 발표…2027년 상반기 완료",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71057",
+   "s": "인텔이 클래시크 인수를 2027년 상반기 마무리할 계획을 밝히면서 실리콘 큐비트와 양자 알고리즘 소프트웨어를 묶어 약점을 보완한다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "인텔, 이스라엘 양자 SW 클래시크 인수…22억~23억 달러 보도, 2027년 상반기 완료 예정",
+ "one": "인텔이 이스라엘 양자컴퓨팅 소프트웨어 스타트업 클래시크를 인수하기로 합의했다\n· 인텔은 거래 조건을 밝히지 않았지만 이스라엘 언론은 인수가를 22억~23억 달러로 보도했다\n· 인텔은 클래시크 플랫폼과 실리콘 스핀 큐비트 하드웨어를 묶어 풀스택 양자 사업을 만든다고 밝혔다\n· 거래는 규제 승인을 거쳐 2027년 상반기에 완료될 예정이다\n· 클래시크는 BMW·AT&T를 고객으로 두고 2억 달러 이상을 유치했으며 직원은 약 130명이다",
+ "facts": [
+  "무엇이: 인텔이 이스라엘 양자 소프트웨어 기업 클래시크 인수에 합의했고 규제 승인을 거쳐 2027년 상반기 완료를 예상한다 [사실]",
+  "가격: 인텔은 금액을 공개하지 않았으나 글로브스는 22억 달러, 칼칼리스트는 현금·주식 23억 달러로 보도했으며 2017년 모빌아이(153억 달러) 이후 두 번째 큰 인수로 전해졌다 [사실]",
+  "전략: 클래시크 합성 플랫폼과 인텔 스핀 큐비트 제조 역량을 결합해 풀스택 양자컴퓨팅 플랫폼을 만들고 다른 양자 플랫폼 연동은 유지한다 [사실]",
+  "클래시크: BMW·AT&T를 고객으로 두고 지금까지 2억 달러 이상을 유치했으며 직원은 약 130명이다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "인수 합의·2027년 상반기 완료·보도 인수가를 검색 결과 요약(인텔 보도자료 포함)으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "인텔 클래시크 인수로 독립 양자 SW 업체 감소"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

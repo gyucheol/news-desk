@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0705",
+ "num": 705,
+ "key": "mix-G1-021-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T19:04:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/pop-mart-s-quarterly-sales-drop-on-high-base-sluggish-demand",
+ "origTitle": "",
+ "headline": "팝마트 3분기 매출 45~50% 급감…라부부 열기 식어 미주 70~75%↓",
+ "src": [
+  {
+   "o": "SCMP",
+   "d": "2026-10-27",
+   "u": "https://www.scmp.com/business/china-business/article/3372313/pop-mart-reports-45-50-revenue-decline-labubu-sales-weaken-across-major-markets"
+  },
+  {
+   "o": "닛케이아시아",
+   "d": "2026-10-27",
+   "u": "https://asia.nikkei.com/business/consumer/pop-mart-s-revenue-halves-in-q3-as-labubu-craze-cools"
+  }
+ ],
+ "items": [
+  {
+   "t": "팝마트 3분기 매출 최대 50% 감소…라부부 열풍 식어",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/pop-mart-s-quarterly-sales-drop-on-high-base-sluggish-demand",
+   "s": "팝마트가 라부부 열풍이 식으면서 3분기 매출이 최대 50% 줄어 캐릭터 완구 수요 둔화가 해외 시장을 중심으로 실적에 드러났다"
+  },
+  {
+   "t": "팝마트 COO '3분기 급감에도 연간 매출 플러스 성장 가능'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71097",
+   "s": "팝마트 COO가 3분기 매출 45~50% 감소에도 중국 실적은 안정적이라며 4분기 성수기를 발판으로 연간 매출 플러스 성장이 가능하다고 밝혔다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "팝마트 3분기 매출 45~50% 급감…라부부 열기 식어 미주 70~75%↓",
+ "one": "팝마트의 3분기 매출이 라부부 열기가 식으면서 전년 같은 분기보다 45~50% 줄었다\n· 지역별로 중국 25~30%, 아시아태평양 65~70%, 미주 70~75%, 유럽 등 50~55% 감소했다\n· 중국 본토 온라인 매출은 45~50% 줄었지만 오프라인은 5~10% 감소에 그쳤다\n· 최고운영책임자는 중국 실적이 안정적이라며 연간 매출이 전년보다 늘 수 있다고 밝혔다",
+ "facts": [
+  "무엇이: 팝마트는 2026년 3분기 매출(미감사)이 전년 같은 분기보다 45~50% 줄었다고 홍콩거래소 공시로 밝혔다 [사실]",
+  "지역: 중국 25~30%, 아시아태평양 65~70%, 미주 70~75%, 유럽·기타 50~55% 감소했다 [사실]",
+  "채널별: 중국 본토 오프라인 매출은 5~10%, 온라인은 45~50% 줄었고 JP모건 예상(약 37% 감소)보다 낙폭이 컸다 [사실]",
+  "전망: COO는 4분기 성수기를 활용해 연간 매출 전년비 플러스 성장이 가능하다고 했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "SCMP·닛케이아시아·체인캐처 검색 결과 요약으로 3분기 매출 45~50% 감소와 지역별 감소율 확인. COO 연간 성장 발언은 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "durables",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "팝마트 3분기 매출 45~50% 감소"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

@@ -1,0 +1,83 @@
+{
+ "basis": "partial",
+ "channel": "트릴리온",
+ "check": "표결일·납부 방식·유동성 논란은 검색 결과 요약으로 확인, 블룸버그 뉴스레터 본문과 싱거먼 주장은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 캘리포니아는 억만장자에게 일회성 5% 세금을 부과하는 주민투표안 40호를 11월 3일 표결한다(10월 23일 채널 글 기준 12일 앞) [사실]",
+  "현금 문제: 억만장자 자산은 비상장 지분 등 비유동 자산이 많아 주식을 팔거나 담보 대출 없이 세금을 내기 어렵다는 지적이 나왔다 [사실]",
+  "납부 방식: 2027년 일시 납부 또는 5년간 매년 재산의 1% 분할 납부를 고를 수 있고 비상장 지분은 납부를 미룰 수 있다 [사실]",
+  "반론: 브라이언 싱거먼은 억만장자가 떠나면 더 낮은 소득층에 과세하는 조항이 있어 중산층 부담이 더 클 수 있다고 주장했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "캘리포니아 억만장자 일회성 5% 부유세 11월 3일 표결…현금 부족·중산층 부담 논란",
+ "id": "n-tg-0749",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 트릴리온",
+   "t": "캘리포니아 억만장자 5% 일회성 과세 주민투표 12일 앞",
+   "u": "https://t.me/Trillion_labs/11153"
+  },
+  {
+   "t": "캘리포니아 억만장자들, Prop 40 부유세 낼 현금 부족 문제",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/california-billionaires-have-cash-problem-with-prop-40-wealth-tax",
+   "s": "캘리포니아 억만장자들이 Prop 40 부유세를 낼 현금이 부족한 문제에 부딪히면서 주식 매각이나 담보 대출 부담이 거론됐다"
+  }
+ ],
+ "key": "mix-G2-086-2026-10-23",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 749,
+ "one": "캘리포니아가 억만장자에게 일회성 5% 세금을 물리는 주민투표안 40호 표결을 앞두고 있다\n· 표결일은 11월 3일이며 10월 23일 채널 글은 투표를 12일 앞두고 반대론을 전했다\n· 블룸버그는 억만장자들이 Prop 40 부유세를 낼 현금이 부족한 문제를 짚었다\n· 주식 부자인 창업자는 세금을 내려면 주식을 팔거나 담보 대출을 받아야 한다는 지적이 나왔다\n· 브라이언 싱거먼은 억만장자가 떠나면 더 낮은 소득층에 과세하는 조항이 있다고 주장했다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T03:02:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/11153"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-22",
+   "u": "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html"
+  },
+  {
+   "o": "Tax Foundation",
+   "d": "2026-10-27",
+   "u": "https://taxfoundation.org/research/all/state/california-proposition-40-wealth-tax-constitutional-legal-issues/"
+  },
+  {
+   "o": "California Budget & Policy Center",
+   "d": "2026-10-27",
+   "u": "https://calbudgetcenter.org/resources/billionaire-tax-explained-what-proposition-40-would-mean-for-california/"
+  }
+ ],
+ "tags": [],
+ "title": "캘리포니아 억만장자 일회성 5% 부유세 11월 3일 표결…현금 부족·중산층 부담 논란",
+ "url": "https://t.me/Trillion_labs/11153",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "부유세 표결 앞두고 납부 현금 부족 논란"
+  }
+ ],
+ "added": "블룸버그 1건 — 억만장자들이 Prop 40 부유세를 낼 현금이 부족하다는 유동성 문제 제기 내용이 추가됨",
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

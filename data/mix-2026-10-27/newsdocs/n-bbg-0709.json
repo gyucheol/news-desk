@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0709",
+ "num": 709,
+ "key": "mix-G1-034-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T00:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/germany-warns-of-difficulty-in-blocking-property-seizure-plans",
+ "origTitle": "",
+ "headline": "독일 정부 '재산 몰수 계획 저지 어려워'…베를린 주택 공유화에 연방 투자보호법으로 제동 추진",
+ "src": [
+  {
+   "o": "The Local",
+   "d": "2026-10-27",
+   "u": "https://www.thelocal.de/20261026/germanys-interior-ministry-puts-forward-plan-to-block-housing-socialisation-in-berlin"
+  },
+  {
+   "o": "European Business Magazine",
+   "d": "2026-10-27",
+   "u": "https://europeanbusinessmagazine.com/germanys-landlord-faces-8bn-hit/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일, 재산 몰수 계획 저지에 어려움 있다고 경고",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/germany-warns-of-difficulty-in-blocking-property-seizure-plans"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "독일 정부 '재산 몰수 계획 저지 어려워'…베를린 주택 공유화에 연방 투자보호법으로 제동 추진",
+ "one": "독일 연방정부가 베를린의 대형 임대주택 몰수(공유화) 계획을 막기 어렵다고 경고했다\n· 도브린트 내무장관은 시가 현금 보상 등 요건을 담은 연방 투자보호법으로 계획에 제동을 걸려 한다\n· 최대 임대업체 보노비아는 최대 80억 유로 타격 우려 속에 베를린 신규 주택사업을 멈췄다",
+ "facts": [
+  "무엇이: 독일 정부가 재산 몰수 계획을 막기 어렵다고 경고했다 [제목]",
+  "배경: 베를린은 기본법 15조를 근거로 대형 임대업체 주택 공유화를 추진하고 있고, 도브린트 내무장관은 다른 수단 소진 입증과 시가 현금 보상을 요구하는 연방 투자보호법으로 제동을 추진했다 [사실]",
+  "비용: 베를린 계획은 약 160억 유로를 상정했지만 시가 매입 시 500억~600억 유로가 든다는 추정이 있다 [사실]",
+  "업계: 보노비아는 최대 80억 유로 타격 가능성 속에 베를린 신규 주택사업을 멈췄고 계획이 위헌이라고 본다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "베를린 주택 공유화 계획, 연방정부의 투자보호법 제동안, 보노비아 영향은 검색 결과 요약으로 확인. 블룸버그 기사의 '저지 어렵다' 경고 내용 자체는 확인 못 함",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "베를린 공유화 추진에 보노비아 신규 주택사업 중단"
+  }
+ ]
+}

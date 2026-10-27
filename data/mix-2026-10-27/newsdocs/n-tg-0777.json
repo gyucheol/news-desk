@@ -1,0 +1,95 @@
+{
+ "id": "n-tg-0777",
+ "num": 777,
+ "key": "mix-G2-017-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T16:34:00+09:00",
+ "url": "https://t.me/HANAchina/71053",
+ "origTitle": "",
+ "headline": "TSMC, CoWoS 가격 최대 20% 인상 추진·장비 납기 8개월…엔비디아 광학 인터포저 공개",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71053"
+  },
+  {
+   "o": "Wccftech",
+   "d": "2026-10-27",
+   "u": "https://wccftech.com/tsmc-cowos-price-hike-20-percent-ai-gpu-asic-demand/"
+  },
+  {
+   "o": "TipRanks",
+   "d": "2026-10-27",
+   "u": "https://www.tipranks.com/news/tsmcs-ai-chip-packaging-prices-could-jump-20"
+  }
+ ],
+ "items": [
+  {
+   "t": "엔비디아 광학 인터포저(OOI) 공개…UMC·PSMC 주목",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71053",
+   "s": "엔비디아가 연산 칩과 광학 엔진을 한 인터포저에 올린 OOI 시제품을 공개하면서 인터포저 수요 기대에 UMC·PSMC가 주목받았다"
+  },
+  {
+   "t": "TSMC, CoWoS 가격 최대 20% 인상 추진…공급 부족 심화",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71056",
+   "s": "TSMC가 AI GPU·ASIC 패키징 수요 급증에 CoWoS 가격을 10~20% 올릴 전망이면서 장비 납기도 6~8개월로 늘어났다"
+  },
+  {
+   "t": "TSMC, CoWoS 추가 20% 인상 계획…장비 납기 최대 8개월",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67472",
+   "s": "TSMC가 CoWoS 가격을 20% 더 올릴 계획으로 알려지면서 가격 결정력은 강해지고 AI 반도체 생산 확대 속도는 제약받을 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "title": "TSMC, CoWoS 가격 최대 20% 인상 추진·장비 납기 8개월…엔비디아 광학 인터포저 공개",
+ "one": "AI 칩 첨단 패키징 공급이 부족해지면서 TSMC가 CoWoS 가격을 최대 20% 올리는 방안을 추진하고 있다\n· 인상 폭은 10~20%로 전해졌고 AI GPU·서버 CPU·맞춤형 ASIC 패키징 수요가 함께 늘었다\n· 반도체 장비 납기는 3~6개월에서 6~8개월로 늘어났다\n· 리소그래피·다이 본딩 등 병목 공정과 부품 제약으로 공급 확대 속도에는 한계가 있다\n· 엔비디아는 연산 칩과 광학 엔진을 한 인터포저에 올린 광학 인터포저(OOI) 시제품을 공개했다\n· 인터포저 사용량이 크게 늘 수 있다는 분석에 UMC와 PSMC가 주목받고 있다",
+ "facts": [
+  "무엇이: TSMC가 CoWoS 패키징 가격을 10~20% 올리는 방안을 추진한다고 대만 공상시보가 보도했고 TSMC는 확인하지 않았다 [사실]",
+  "납기: AI 반도체 패키징 수요가 공급을 넘어서며 장비 납기가 3~6개월에서 6~8개월로 늘었고, TSMC는 올해 장비 가격 재협상을 요구하지 않았다 [사실]",
+  "영향: 한 분석은 가격 인상이 AI 가속기 부품원가를 약 2~4.5% 높일 것으로 추정했다 [사실]",
+  "광학 인터포저: 엔비디아가 광학 인터포저(OOI) 시제품을 공개해 인터포저 면적·사용량이 크게 늘 수 있다는 분석 속에 UMC·PSMC가 주목받았다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "CoWoS 10~20% 인상 추진 보도와 장비 납기 6~8개월은 검색 결과 요약으로 확인. 엔비디아 OOI·UMC·PSMC 관련 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "packaging",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "TSMC CoWoS 가격 최대 20% 인상 추진"
+  },
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "반도체 장비 납기 6~8개월로 늘어"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

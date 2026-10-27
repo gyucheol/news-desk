@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0703",
+ "num": 703,
+ "key": "mix-G1-014-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:04:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/trump-to-ease-oil-well-methane-curbs-in-bid-to-lower-costs",
+ "origTitle": "",
+ "headline": "트럼프, 석유·가스 시추 메탄 배출 규제 완화 발표 예정…EPA 450억 달러 절감 주장",
+ "src": [
+  {
+   "o": "The Hill",
+   "d": "2026-10-07",
+   "u": "https://thehill.com/policy/energy-environment/6134812-trump-epa-methane-oil-and-gas-industry/"
+  },
+  {
+   "o": "Colorado Public Radio",
+   "d": "2026-10-07",
+   "u": "https://www.cpr.org/2026/10/07/trump-loosen-oil-gas-methane-standards/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 비용 절감 위해 유정 메탄 규제 완화 추진",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/trump-to-ease-oil-well-methane-curbs-in-bid-to-lower-costs",
+   "s": "트럼프가 비용을 낮추려 유정 메탄 배출 규제를 풀기로 하면서 석유·가스 생산업체의 규제 준수 부담이 줄어들 수 있다 (제목 기준)"
+  },
+  {
+   "t": "트럼프, 러벅 유세서 석유·가스 메탄 규제 완화 발표 예정",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-27",
+   "u": "https://t.me/Trillion_labs/11269",
+   "s": "트럼프가 텍사스 러벅 유세에서 메탄 규제 완화를 발표할 예정이며 EPA는 이를 생산 부담 완화와 난방·운전비 절감책으로 내세웠다"
+  },
+  {
+   "t": "트럼프, 석유·가스 메탄 규제 겨냥한 새 기후 규제 후퇴",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/trump-targets-methane-curbs-on-oil-and-gas-in-a-new-climate-rollback",
+   "s": "트럼프 정부가 석유·가스 메탄 규제를 새 기후 규제 후퇴 대상으로 삼으면서 미국 기후 정책 후퇴가 이어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil",
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream"
+ ],
+ "title": "트럼프, 석유·가스 시추 메탄 배출 규제 완화 발표 예정…EPA 450억 달러 절감 주장",
+ "one": "트럼프 대통령이 석유·가스 시추 시설의 메탄 배출 규제를 완화하는 방안을 발표할 예정이다\n· 트럼프는 화요일 텍사스주 러벅 유세에서 비용 절감을 내세워 이 방안을 밝힐 예정이다\n· 젤딘 EPA 청장은 10월 초 산타페에서 규제가 석유·가스 생산의 불필요한 부담이라고 했다\n· EPA는 슈퍼 이미터 프로그램 폐지와 저생산 유정 별도 기준을 내세우며 450억 달러 절감을 주장했다\n· 블룸버그는 이번 조치를 트럼프 정부의 새 기후 규제 후퇴로 평가했다",
+ "facts": [
+  "무엇이: 트럼프 대통령은 석유·가스 시추 메탄 배출 연방 규제 완화안을 텍사스주 러벅 유세에서 발표할 예정이다 [채널]",
+  "EPA: 리 젤딘 청장은 10월 7일 산타페 뉴멕시코 석유가스협회 회의에서 메탄 규제 완화를 예고했다 [사실]",
+  "내용: 슈퍼 이미터 프로그램 폐지, 저생산 유정 별도 기준, 수반가스 소각 규제 재검토가 거론됐고 젤딘은 450억 달러 절감을 주장했다 [사실]",
+  "반발: 환경단체가 반대했고 뉴멕시코·콜로라도는 주 차원의 메탄 규제를 유지한다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 EPA 메탄 규제 완화 계획, 450억 달러 절감 주장, 슈퍼 이미터 폐지 확인. 러벅 유세 발표 일정은 확인 못 함",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "메탄 규제 완화로 석유·가스 생산 부담 축소 추진"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

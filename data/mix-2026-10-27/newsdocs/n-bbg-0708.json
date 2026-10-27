@@ -1,0 +1,77 @@
+{
+ "id": "n-bbg-0708",
+ "num": 708,
+ "key": "mix-G1-029-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T19:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-maps-path-for-venezuela-to-hold-fresh-presidential-election",
+ "origTitle": "",
+ "headline": "베네수엘라 재선거 로드맵…美, 대법원·선관위 개편 뒤 6개월 내 대선 구상, 마차도 귀국에 흔들",
+ "src": [
+  {
+   "o": "Washington Times",
+   "d": "2026-10-27",
+   "u": "https://www.washingtontimes.com/news/2026/oct/26/us-told-venezuelan-authorities-opposition-leader-machado-allowed/"
+  },
+  {
+   "o": "Todo Alicante",
+   "d": "2026-10-27",
+   "u": "https://www.todoalicante.es/english/trump-plan-venezuela-supreme-20261027101032-nt.html"
+  },
+  {
+   "o": "Yahoo News",
+   "d": "2026-10-27",
+   "u": "https://www.yahoo.com/news/politics/articles/machado-return-rubio-warns-venezuela-204121233.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 베네수엘라 새 대통령 선거 실시 경로 마련",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/us-maps-path-for-venezuela-to-hold-fresh-presidential-election",
+   "s": "미국이 대법원과 선관위를 먼저 개편한 뒤 6개월 안에 새 대선을 치르는 경로를 마련하면서 베네수엘라 정권 이행 일정이 구체화됐다"
+  },
+  {
+   "t": "마차도 귀국에 트럼프 행정부의 베네수엘라 구상 흔들",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/machado-s-return-roils-trump-s-plans-for-dealing-with-venezuela",
+   "s": "야당 지도자 마차도가 귀국해 2027년 대선을 요구하면서 단계적 협상을 앞세운 트럼프 행정부의 베네수엘라 구상이 흔들렸다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "베네수엘라 재선거 로드맵…美, 대법원·선관위 개편 뒤 6개월 내 대선 구상, 마차도 귀국에 흔들",
+ "one": "미국이 베네수엘라 새 대선 경로를 마련한 가운데 야당 지도자 마차도가 귀국해 트럼프 구상이 흔들렸다\n· 미국 일정표는 12월 중순까지 대법원을 새로 꾸리고 이어 국가선거관리위원회를 교체하는 순서다\n· 로드리게스 권한대행이 대통령 궐위를 선언하면 6개월 안에 새 선거를 치르며 날짜는 정해지지 않았다\n· 마차도는 약 1년 만인 25일 귀국해 2027년 대선을 주장했고 정부는 귀국을 인정하지 않았다\n· 루비오 국무장관은 귀국 허용을 몇 주 전 요구했다며 협상을 끄는 것은 허용하지 않겠다고 밝혔다",
+ "facts": [
+  "무엇이: 미국은 베네수엘라가 새 대선을 치르도록 대법원 재구성(12월 중순 목표)과 국가선거관리위원회 교체를 먼저 하는 일정을 마련했다 [사실]",
+  "선거 시점: 델시 로드리게스 권한대행이 대통령 영구 궐위를 선언하면 6개월 선거 기간이 시작되며 정확한 날짜는 개편된 선관위가 정한다 [사실]",
+  "마차도: 야당 지도자 마차도는 25일 약 1년 만에 귀국해 2027년 대선을 요구했고, 분석가들은 빠른 선거 요구가 미국 구상을 흔들 수 있다고 봤다 [사실]",
+  "미국 입장: 루비오 국무장관은 몇 주 전 귀국 허용을 요구했다며 임시정부가 트럼프 행정부 임기 끝까지 협상을 끌지 못하게 하겠다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "새 대선 경로(대법원·선관위 개편, 6개월 선거 기간)와 마차도 귀국을 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "베네수엘라 선거 일정 공방, 수급 영향은 아직 불명"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "n-bbg-0740",
+ "num": 740,
+ "key": "mix-G2-031-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-27/california-s-next-insurance-commissioner-faces-a-climate-dystopian-future",
+ "origTitle": "",
+ "headline": "美 기후위험 보험·평가 논란…플로리다, 퍼스트스트리트 제소·캘리포니아 보험감독관 과제",
+ "src": [
+  {
+   "o": "Florida Phoenix",
+   "d": "2026-10-27",
+   "u": "https://floridaphoenix.com/2026/10/26/uthmeier-property-risk-assessment-company-is-marketing-fear-to-advance-a-climate-activism-agenda/"
+  },
+  {
+   "o": "Tampa Free Press",
+   "d": "2026-10-27",
+   "u": "https://www.tampafp.com/florida-sues-tech-firm-over-real-estate-climate-scores-alleging-exaggerated-flood-risks-hurt-homeowners/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캘리포니아 차기 보험감독관, 기후 디스토피아 같은 미래 직면",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/features/2026-10-27/california-s-next-insurance-commissioner-faces-a-climate-dystopian-future",
+   "s": "캘리포니아 차기 보험감독관이 커지는 기후 재난 속에서 보험 시장을 지켜야 하는 과제를 떠안으면서 보험 공급 위축이 쟁점이 됐다 (제목 기준)"
+  },
+  {
+   "t": "플로리다, 주택 위험점수 문제로 기후 모델업체 퍼스트스트리트 제소",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/florida-sues-climate-modeler-first-street-over-home-risk-scores",
+   "s": "플로리다가 퍼스트스트리트의 침수 위험 점수가 FEMA 지도와 어긋나 집값과 보험료에 피해를 준다며 소송을 내 기후 위험 평가가 법정에 섰다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin",
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "美 기후위험 보험·평가 논란…플로리다, 퍼스트스트리트 제소·캘리포니아 보험감독관 과제",
+ "one": "미국에서 기후 재난 위험이 보험과 주택 위험 평가를 둘러싼 갈등으로 번지고 있다\n· 플로리다 법무장관은 퍼스트스트리트의 침수 위험 점수가 FEMA 지도와 어긋나 소비자를 오도한다며 제소했다\n· 플로리다는 높은 위험 점수가 주택 매매를 늦추고 보험료를 올린다고 주장했다\n· 캘리포니아 차기 보험감독관은 기후 재난으로 흔들리는 보험 시장이라는 과제를 떠안게 됐다",
+ "facts": [
+  "무엇이: 플로리다 법무장관은 퍼스트스트리트의 홍수·기후 위험 점수가 FEMA 지도와 어긋나 매수자와 매도자를 오도한다며 폴크카운티 법원에 소송을 냈다 [사실]",
+  "사례·주장: FEMA가 최소 위험(X구역)으로 본 올즈마 주택에 10점 만점 7점(주요 위험)을 매겼다며, 높은 점수가 매매 지연과 보험료 상승을 부른다고 주장했다 [사실]",
+  "배경: 네브래스카도 8월 비슷한 이유로 제소했고, 퍼스트스트리트는 8월 MSCI에 1억 2천만 달러에 인수됐으며 모델이 동료 검토를 거쳤다고 반박했다 [사실]",
+  "캘리포니아: 차기 보험감독관은 기후 재난이 커지는 환경에서 보험 시장 위기에 맞서야 한다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "플로리다의 퍼스트스트리트 제소 내용은 검색 결과 요약으로 확인, 캘리포니아 보험감독관 기사는 제목 기준",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "기후 위험 점수가 보험료 올린다는 플로리다 주장"
+  },
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "높은 침수 위험 점수에 주택 매매 지연 주장"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

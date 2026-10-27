@@ -1,0 +1,93 @@
+{
+ "id": "n-tg-0767",
+ "num": 767,
+ "key": "mix-G1-038-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T05:27:00+09:00",
+ "url": "https://t.me/insidertracking/67417",
+ "origTitle": "",
+ "headline": "美 국방부 '포트리스' 계획…본토 기지 90일 자립 운영, 이동식 원자로·ESS·마이크로그리드",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67417"
+  },
+  {
+   "o": "Fox News",
+   "d": "2026-10-27",
+   "u": "https://www.foxnews.com/politics/inside-pentagons-doomsday-plan-keep-america-fighting-global-war-erupts"
+  },
+  {
+   "o": "Snopes",
+   "d": "2026-10-27",
+   "u": "https://www.snopes.com/fact-check/pentagon-fortress-initiative-90-days/"
+  },
+  {
+   "o": "The War Zone",
+   "d": "2026-10-27",
+   "u": "https://www.twz.com/nuclear/90-days-no-help-fortress-americas-goal-to-make-bases-resilient-bastions-in-a-crisis"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 국방부, 기지 90일 독립 운영 '포트리스 아메리카' 공개",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67417"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero",
+  "power",
+  "uranium"
+ ],
+ "nodes": [
+  "power/storage",
+  "uranium/build"
+ ],
+ "channel": "미국 주식 인사이더",
+ "title": "美 국방부 '포트리스' 계획…본토 기지 90일 자립 운영, 이동식 원자로·ESS·마이크로그리드",
+ "one": "미 국방부가 전시에 본토 주요 기지가 외부 지원 없이 최소 90일 버티도록 하는 '포트리스' 계획을 추진한다\n· 이동식 원자로·대형 배터리 저장장치·마이크로그리드로 기지를 민간 전력망에서 떼어 내는 방안이 담겼다\n· 탄약·연료·핵심 광물·전자부품 비축과 민간 공장의 전시 무기 생산 전환 준비도 포함됐다",
+ "facts": [
+  "무엇이: 폭스뉴스가 입수한 내부 문서에 따르면 미 본토 주요 기지는 전기·물·연료·통신을 최소 90일 독립적으로 유지해야 한다 [사실]",
+  "수단: 이동식 원자로, 대형 배터리 에너지 저장장치, 마이크로그리드와 함께 탄약·연료·핵심 광물·전자부품·의료 물자 비축, 대체 공급업체 확보가 담겼다 [채널]",
+  "규모·일정: 헤그세스 국방장관이 9월 30일 발표한 계획으로 약 500개 기지 수요를 평가 중이며, 비용·일정은 공개되지 않았고 목표 달성에 수십 년이 걸릴 수 있다 [사실]",
+  "신중론: 숀 파넬 대변인은 보도를 공유했지만 90일 기준을 공식 확인하지는 않았다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "90일 자립 요구·원자로·ESS·마이크로그리드는 검색 결과 요약으로 확인, 90일 기준은 내부 문서 보도로 국방부 공식 확인은 없음",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "본토 기지 90일 자립 위한 비축 수요"
+  },
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "기지용 배터리 저장장치·마이크로그리드 수요"
+  },
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "기지용 이동식 원자로 도입 추진"
+  }
+ ]
+}

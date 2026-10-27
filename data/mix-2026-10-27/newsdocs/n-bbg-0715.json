@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0715",
+ "num": 715,
+ "key": "mix-G1-045-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T10:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets",
+ "origTitle": "",
+ "headline": "인도 바이오연료 의무화에 폐식용유 확보 경쟁…트럭에서 항공기 연료까지",
+ "src": [
+  {
+   "o": "아거스미디어",
+   "d": "2026",
+   "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2836514-india-readies-for-2027-saf-blending-mandate"
+  },
+  {
+   "o": "미 농무부 FAS",
+   "d": "2026-07",
+   "u": "https://www.fas.usda.gov/data/gain-report/2026/07/Biofuels%20Annual_New%20Delhi_India_IN2026-0039.pdf"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 바이오연료 의무화, 트럭·항공기 연료용 폐식용유 쟁탈전 불러",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/india-s-biofuel-mandate-spurs-rush-for-waste-cooking-oil-to-fuel-trucks-to-jets"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "인도 바이오연료 의무화에 폐식용유 확보 경쟁…트럭에서 항공기 연료까지",
+ "one": "인도의 바이오연료 의무화로 트럭·항공기 연료 원료인 폐식용유 확보 경쟁이 붙었다\n· 인도는 국제선 항공유에 SAF를 2027년 1%, 2028년 2%, 2030년 5% 섞게 할 계획이다\n· 국영 정유사들이 폐식용유 수집을 늘리고 망갈로르 정유소는 3만 5,000톤 구매 입찰을 냈다",
+ "facts": [
+  "무엇이: 인도의 바이오연료 의무화로 바이오디젤과 항공유(SAF) 원료인 폐식용유 확보 경쟁이 벌어지고 있다 [사실]",
+  "의무: 국제선 SAF 혼합 목표는 2027년 1%, 2028년 2%, 2030년 5%다 [사실]",
+  "조달: 인도석유·HPCL·BPCL이 폐식용유 수집을 늘리고 있고 망갈로르 정유소는 2026년 9월~2027년 8월 인도 폐식용유 3만 5,000톤 입찰을 냈다 [사실]",
+  "제약: 2030년 바이오디젤 5% 목표는 원료 부족으로 달성이 어렵고 인도는 혼합용 바이오연료 수입을 금지한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아거스·미 농무부(USDA) 보고서 검색 결과 요약으로 SAF 의무와 폐식용유 확보 경쟁 확인",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 바이오연료 의무화로 폐식용유 확보 경쟁"
+  }
+ ]
+}

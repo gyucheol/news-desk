@@ -1,0 +1,84 @@
+{
+ "basis": "partial",
+ "check": "세마포·시티즌디지털 검색 결과 요약으로 예산 교착·재정위 부결·파스테프 130석·총리의 헌법 수단 언급 확인. '며칠 내 해소' 기대 발언은 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아마두 알 아미누 로 총리는 예산 교착이 며칠 안에 해소될 것으로 기대했다 [제목]",
+  "대치: 손코 국회의장(파스테프, 165석 중 130석)이 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안에 반대했고 재정위원회가 수정안을 부결했다 [사실]",
+  "가격: 10월 20일 세네갈 유로·달러 표시 국채는 모두 1센트 넘게 떨어졌고 장기물 낙폭이 컸으며 2037년물은 약 48.9센트였다 [사실]",
+  "정부 대응: 로 총리는 교착이 이어지면 헌법상 모든 수단을 쓰겠다고 했고 헌법 68조 등이 거론된다 [사실]",
+  "IMF: 9월 초 실무 합의한 22억 달러, 36개월 확대신용제도는 이사회 승인을 기다리며 예산 승인이 늦으면 채무조정 전략 전체가 지연될 수 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "세네갈 예산 교착…총리 '며칠 내 해소' 기대, 손코 반대에 국채 급락·22억 달러 IMF 위태",
+ "id": "n-bbg-0635",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "t": "세네갈 국채 급락…예산 대치로 IMF 합의 위태",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk"
+  },
+  {
+   "t": "세네갈 총리 '예산 교착, 며칠 안에 해소될 것'",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/senegal-premier-expects-budget-impasse-to-resolve-within-days",
+   "s": "세네갈 총리가 국회의장 반대로 막힌 2026년 수정 예산안 교착이 며칠 안에 풀릴 것으로 기대한다고 밝혀 IMF 프로그램 진척 여부가 주목된다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-058-2026-10-21",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 635,
+ "one": "세네갈 총리가 국회의장의 반대로 막힌 예산 교착이 며칠 안에 풀릴 것으로 기대했다\n· 손코 국회의장은 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안에 반대했다\n· 유로·달러 표시 국채가 모두 1센트 넘게 떨어졌고 2037년물은 약 48.9센트까지 밀렸다\n· 의회 재정위원회가 수정 예산안을 부결했고 손코의 파스테프는 165석 중 130석을 쥐고 있다\n· 로 총리는 교착이 이어지면 헌법이 허용하는 모든 수단을 쓰겠다고 밝혔다\n· 9월 실무 합의한 22억 달러 IMF 프로그램은 예산 승인이 늦으면 지연될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T16:47:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "Zawya",
+   "u": "https://www.zawya.com/en/economy/bonds/senegal-bonds-fall-after-sonko-opposes-budget-bills-1799246"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "Finwire",
+   "u": "https://finwire.io/news/stock-markets-news/senegal-bonds-drop-as-assembly-president-rejects-budget-plan"
+  },
+  {
+   "o": "세마포",
+   "d": "2026-10-26",
+   "u": "https://www.semafor.com/article/10/26/2026/senegal-grapples-with-13-billion-budget-deadlock"
+  },
+  {
+   "o": "시티즌디지털",
+   "d": "2026-10-26",
+   "u": "https://citizen.digital/article/senegal-pm-calls-for-dialogue-after-opposition-rejects-budget-n392756"
+  }
+ ],
+ "tags": [],
+ "title": "세네갈 예산 교착…총리 '며칠 내 해소' 기대, 손코 반대에 국채 급락·22억 달러 IMF 위태",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "세네갈 예산 교착 해소 기대, 승인 전이라 판단 보류"
+  }
+ ],
+ "added": "블룸버그 1건 — 세네갈 총리가 국회의장 반대로 막힌 예산 교착이 며칠 안에 풀릴 것으로 기대한다는 내용이 추가됨 (제목 기준)",
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

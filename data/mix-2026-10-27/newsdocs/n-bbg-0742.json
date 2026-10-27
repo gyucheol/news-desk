@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0742",
+ "num": 742,
+ "key": "mix-G2-045-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T05:43:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year",
+ "origTitle": "",
+ "headline": "월풀, 올해 세 번째 실적 전망 하향…연간 조정 EPS 적자 전환에 주가 급락",
+ "src": [
+  {
+   "o": "벤징가",
+   "d": "2026-10-27",
+   "u": "https://www.benzinga.com/markets/earnings/26/10/62612116/why-is-whirlpool-stock-falling-tuesday"
+  },
+  {
+   "o": "토큰포스트",
+   "d": "2026-10-27",
+   "u": "https://www.tokenpost.com/news/business/41673"
+  }
+ ],
+ "items": [
+  {
+   "t": "월풀, 올해 세 번째 실적 전망 하향에 주가 급락",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "월풀, 올해 세 번째 실적 전망 하향…연간 조정 EPS 적자 전환에 주가 급락",
+ "one": "월풀이 3분기 매출 감소 뒤 올해 세 번째로 연간 실적 전망을 낮추자 주가가 급락했다\n· 3분기 매출은 8.8% 줄어든 36억 8,000만 달러였고 조정 주당손실은 0.21달러였다\n· 연간 조정 EPS 전망은 2.50~3.00달러 이익에서 약 1.30달러 손실로, 매출 전망은 약 145억 달러로 낮아졌다",
+ "facts": [
+  "무엇이: 월풀이 10월 26일 3분기 실적과 함께 올해 세 번째로 연간 전망을 낮췄고 주가는 시간외·개장 전 7~15% 떨어져 52주 최저를 기록했다 [사실]",
+  "실적: 3분기 매출은 36억 8,000만 달러로 8.8% 줄었고 조정 주당손실 0.21달러, 북미 가전 영업이익은 44.7% 감소했다 [사실]",
+  "전망: 연간 조정 EPS 전망을 2.50~3.00달러에서 약 -1.30달러로, 매출은 약 150억 달러에서 약 145억 달러로 낮췄다 [사실]",
+  "대응: 4분기 주요 가전 가격을 올리고, 비처 CEO는 회복이 예상보다 느려 마진 개선은 2027년에 올 것으로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "벤징가·토큰포스트·스톡트윗 검색 결과 요약으로 세 번째 전망 하향·매출 8.8% 감소·주가 급락 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "durables",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "월풀 3분기 매출 8.8% 감소·연간 전망 하향"
+  }
+ ]
+}

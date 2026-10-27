@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0745",
+ "num": 745,
+ "key": "mix-G2-048-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T10:40:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/china-s-industrial-profits-jump-most-in-three-months-on-oil-ai",
+ "origTitle": "",
+ "headline": "중국 9월 공업이익 14.4% 증가, 3개월 만의 최대…유가·AI 관련 제조업이 견인",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-27",
+   "u": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-27",
+   "u": "https://in.investing.com/news/economic-indicators/china-industrial-profits-rise-144-in-september-on-ai-demand-5655572"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 공업이익, 유가 덕에 3개월 만의 최대 증가",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-s-industrial-profits-jump-most-in-three-months-on-oil-ai"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/inflation"
+ ],
+ "title": "중국 9월 공업이익 14.4% 증가, 3개월 만의 최대…유가·AI 관련 제조업이 견인",
+ "one": "중국 9월 공업이익이 유가 상승과 AI 관련 제조업에 힘입어 3개월 만에 가장 크게 늘었다\n· 9월 공업이익은 1년 전보다 14.4% 늘어 8월 4.2%에서 증가폭이 커졌다\n· 1~9월 누적 이익은 15.5% 늘었고 9월 생산자물가는 5% 올라 2022년 이후 가장 빨랐다",
+ "facts": [
+  "무엇이: 중국 국가통계국은 10월 27일 9월 공업이익이 전년보다 14.4% 늘었다고 발표했다(8월 4.2%, 블룸버그 이코노믹스 예상 12%) [사실]",
+  "누적: 1~9월 공업이익은 15.5% 늘어 1~8월 15.7%보다 소폭 둔화했다 [사실]",
+  "동인: 전자·AI 관련 제조업과 중동 분쟁에 따른 에너지값 상승이 이익을 끌어올렸고 9월 생산자물가는 5% 올랐다 [사실]",
+  "한계: 9월 소매판매는 1.1% 증가에 그쳐 소비는 약했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "9월 공업이익 증가율과 누적 수치는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 9월 공업이익 14.4% 증가"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 9월 생산자물가 5% 상승"
+  }
+ ]
+}

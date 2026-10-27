@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0711",
+ "num": 711,
+ "key": "mix-G1-036-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T02:21:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/conocophillips-plans-job-cuts-in-canada-for-second-straight-year",
+ "origTitle": "",
+ "headline": "코노코필립스, 2년 연속 캐나다 감원…캘거리·서몬트·몬트니 인력에 통보",
+ "src": [
+  {
+   "o": "CTV News",
+   "d": "2026-10-26",
+   "u": "https://www.ctvnews.ca/calgary/article/conocophillips-confirms-layoffs-coming-tuesday-in-alberta/"
+  },
+  {
+   "o": "Oil & Gas 360",
+   "d": "2026-10-27",
+   "u": "https://www.oilandgas360.com/conocophillips-announces-canadian-job-cuts-as-restructuring-continues/"
+  }
+ ],
+ "items": [
+  {
+   "t": "코노코필립스, 2년 연속 캐나다 인력 감축 계획",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/conocophillips-plans-job-cuts-in-canada-for-second-straight-year"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "코노코필립스, 2년 연속 캐나다 감원…캘거리·서몬트·몬트니 인력에 통보",
+ "one": "코노코필립스가 2년 연속 캐나다 인력 감축에 나서 10월 27일부터 대상자에게 통보한다\n· 직원과 계약직이 모두 대상이며 캘거리와 서몬트·몬트니 사업장 인력에 통보가 간다\n· 감원 규모는 공개되지 않았고 캐나다 생산 목표나 투자 계획을 바꾼다는 언급은 없다",
+ "facts": [
+  "무엇이: 코노코필립스는 10월 27일부터 캐나다에서 직원과 계약직 인력을 줄인다고 확인했다 [사실]",
+  "범위: 캘거리 직원은 재택 중 화상으로, 서몬트·몬트니 사업장 직원은 전화로 통보받으며 감원 규모는 밝히지 않았다 [사실]",
+  "배경: 코노코필립스는 마라톤오일 인수 뒤 전 세계 인력 20~25% 감축 구조조정을 발표했고, 2025년 말 캐나다 인력은 전체 약 9,900명의 약 8%였다 [사실]",
+  "연속성: 블룸버그 제목은 2년 연속 캐나다 감원이라고 했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "감원 착수·통보 방식은 검색 결과 요약으로 확인, '2년 연속' 여부와 감원 규모는 확인 못 함",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "nonopec",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "캐나다 감원에도 생산 목표 변경 언급 없음"
+  }
+ ]
+}

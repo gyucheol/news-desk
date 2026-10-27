@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0744",
+ "num": 744,
+ "key": "mix-G2-047-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T15:31:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/orange-boosts-profit-outlook-after-africa-middle-east-growth",
+ "origTitle": "",
+ "headline": "오렌지, 아프리카·중동 매출 14.2%↑에 올해 EBITDAaL 성장 전망 4.5% 초과로 상향",
+ "src": [
+  {
+   "o": "오렌지 보도자료(글로브뉴스와이어)",
+   "d": "2026-10-27",
+   "u": "https://www.globenewswire.com/news-release/2026/10/27/3388699/0/en/orange-orange-maintains-solid-revenue-growth-in-the-third-quarter-and-raises-its-full-year-ebitdaal-growth-target.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "오렌지, 아프리카·중동 성장에 이익 전망 상향",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/orange-boosts-profit-outlook-after-africa-middle-east-growth"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "오렌지, 아프리카·중동 매출 14.2%↑에 올해 EBITDAaL 성장 전망 4.5% 초과로 상향",
+ "one": "프랑스 통신사 오렌지가 아프리카·중동 성장에 힘입어 올해 이익 전망을 올렸다\n· 3분기 매출은 3.6% 늘어 121억 9,000만 유로였고 아프리카·중동 매출은 14.2% 늘었다\n· 2026년 EBITDAaL 성장률 전망을 4% 초과에서 4.5% 초과로 높였다",
+ "facts": [
+  "무엇이: 오렌지가 2026년 EBITDAaL 성장률 전망을 4% 초과에서 4.5% 초과로 올렸다 [사실]",
+  "3분기: 매출은 3.6% 늘어 121억 9,000만 유로, EBITDAaL은 4.6% 늘었고 설비투자는 2.5% 줄었다 [사실]",
+  "아프리카·중동: 매출이 14.2% 늘어 24억 100만 유로로 14분기 연속 두 자릿수 성장했고, 10개국이 두 자릿수 성장했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 발표(글로브뉴스와이어) 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "오렌지 아프리카·중동 매출 14.2% 증가"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0743",
+ "num": 743,
+ "key": "mix-G2-046-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T15:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/novartis-raises-profit-outlook-on-growth-of-new-medicines",
+ "origTitle": "",
+ "headline": "노바티스, 신약 성장에 연간 핵심 영업이익 전망 상향…3분기 핵심 EPS 2.46달러",
+ "src": [
+  {
+   "o": "노바티스 보도자료",
+   "d": "2026-10-27",
+   "u": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-27",
+   "u": "https://qz.com/novartis-raises-profit-outlook-trial-failure-charge-102726"
+  }
+ ],
+ "items": [
+  {
+   "t": "노바티스, 신약 성장에 힘입어 연간 이익 전망 상향",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/novartis-raises-profit-outlook-on-growth-of-new-medicines"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "노바티스, 신약 성장에 연간 핵심 영업이익 전망 상향…3분기 핵심 EPS 2.46달러",
+ "one": "스위스 제약사 노바티스가 신약 성장에 힘입어 3분기 실적과 함께 올해 핵심 영업이익 전망을 높였다\n· 연간 핵심 영업이익 전망은 한 자릿수 초반 감소에서 보합~한 자릿수 초반 증가로 바뀌었다\n· 3분기 핵심 EPS는 2.46달러로 예상을 웃돌았지만 19억 달러 손상 반영으로 순이익은 약 70% 줄었다",
+ "facts": [
+  "무엇이: 노바티스가 10월 27일 3분기 실적과 함께 2026년 핵심 영업이익 전망을 한 자릿수 초반 감소에서 보합~한 자릿수 초반 증가로 높였고 매출 전망은 유지했다 [사실]",
+  "3분기: 핵심 영업이익은 고정환율 기준 약 10% 늘어 약 60억 달러, 핵심 EPS는 8% 늘어 2.46달러로 예상을 웃돌았다 [사실]",
+  "손상: 후기 임상 실패로 델데시란 자산에 19억 달러 부분 손상을 반영해 영업이익은 약 61%, 순이익은 약 70% 줄었다 [사실]",
+  "매출: 매출은 시장 예상을 소폭 밑돌았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "연간 핵심 영업이익 전망 상향, 핵심 EPS 2.46달러, 19억 달러 손상은 노바티스 발표·검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "bigpharma",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "신약 성장에 연간 핵심 영업이익 전망 상향"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "n-bbg-0732",
+ "num": 732,
+ "key": "mix-G2-012-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/french-banks-to-face-investor-scrutiny-over-risks-from-turmoil",
+ "origTitle": "",
+ "headline": "ECB '은행 기업대출 기준 강화·대출 수요 감소'…프랑스 소비자신뢰 소요 뒤 13년 최저",
+ "src": [
+  {
+   "o": "ECB",
+   "d": "2026-10-27",
+   "u": "https://www.ecb.europa.eu/stats/ecb_surveys/bank_lending_survey/html/ecb.blssurvey2026q3~c6a731e213.en.html"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-27",
+   "u": "https://investinglive.com/news/france-consumer-confidence-plunges-to-lowest-since-2013-as-fiscal-worries-deepen/"
+  },
+  {
+   "o": "A News",
+   "d": "2026-10-27",
+   "u": "https://www.anews.com.tr/world/2026/10/27/french-consumer-confidence-sinks-to-13-year-low-in-october-amid-protests"
+  }
+ ],
+ "items": [
+  {
+   "t": "프랑스 은행들, 소요 위험 놓고 투자자 점검 직면",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/french-banks-to-face-investor-scrutiny-over-risks-from-turmoil",
+   "s": "프랑스 은행들이 최근 소요에서 비롯된 위험을 두고 투자자들의 집중 점검을 받게 되면서 은행 건전성이 시험대에 올랐다 (제목 기준)"
+  },
+  {
+   "t": "프랑스 소비자신뢰, 소요 뒤 13년 만의 최저",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/french-consumer-confidence-hits-lowest-since-2013-after-riots",
+   "s": "프랑스 10월 소비자신뢰지수가 소요 여파로 85에서 80으로 떨어져 2013년 이후 최저를 기록하면서 가계 심리 위축이 뚜렷해졌다"
+  },
+  {
+   "t": "ECB '은행들 신용 여건 강화, 대출 수요 감소'",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/ecb-says-banks-tighten-credit-conditions-see-loan-demand-fall",
+   "s": "ECB 대출조사에서 은행들이 기업대출 기준을 순 9%, 소비자신용을 순 14% 조였고 주택대출 수요는 순 27% 줄었다"
+  },
+  {
+   "t": "미국·프랑스 모두 큰 적자…그러나 한 가지 큰 차이",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/both-the-us-and-france-have-big-deficits-but-there-s-one-big-difference",
+   "s": "미국과 프랑스가 모두 큰 재정 적자를 안고 있지만 둘 사이에 한 가지 큰 차이가 있다는 분석이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/growth"
+ ],
+ "title": "ECB '은행 기업대출 기준 강화·대출 수요 감소'…프랑스 소비자신뢰 소요 뒤 13년 최저",
+ "one": "유로존 은행 신용 여건이 조여지는 가운데 프랑스는 소요 여파로 소비 심리가 꺾였다\n· ECB 대출조사에서 3분기 기업대출 기준은 순 9%, 소비자신용은 순 14% 강화됐다\n· 기업 대출 수요는 순 6%, 주택 대출 수요는 순 27% 줄었다\n· 프랑스 10월 소비자신뢰지수는 80으로 2013년 이후 13년 만의 최저였다\n· 프랑스 은행들은 소요 관련 위험을 두고 투자자 점검을 받게 됐다\n· 블룸버그는 미국과 프랑스가 모두 큰 적자를 내지만 한 가지 큰 차이가 있다고 짚었다",
+ "facts": [
+  "무엇이: ECB 3분기 은행대출조사에서 기업대출 기준은 순 9%(2분기 7%), 소비자신용은 순 14% 강화됐다 [사실]",
+  "수요: 기업 대출 수요는 순 6%, 주택 대출 수요는 순 27% 줄었고 은행들은 4분기 추가 강화를 예상했다 [사실]",
+  "프랑스: 10월 소비자신뢰지수는 85에서 80으로 떨어져 2013년 6월 이후 최저였다 [사실]",
+  "은행·재정: 프랑스 은행은 소요 관련 위험에 대한 투자자 점검을 받게 됐고, 미국과 프랑스는 둘 다 큰 적자지만 한 가지 큰 차이가 있다는 분석이 나왔다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "ECB 대출조사 수치와 프랑스 소비자신뢰지수는 검색 결과 요약으로 확인, 은행 점검·적자 비교는 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "ECB 조사서 은행 기업대출 기준 순 9% 강화"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스 소비자신뢰 80으로 13년 만의 최저"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

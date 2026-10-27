@@ -1,7 +1,7 @@
 import json
 OUT = '/home/user/news-desk/data/mix-2026-10-27/out2/W1.json'
 BB = 'https://www.bloomberg.com/news/'
-J = '\n'.join
+J = lambda L: '\n'.join(l.rstrip('.') for l in L)
 items = []
 
 items.append({
@@ -309,7 +309,7 @@ items.append({
    "s": "블룸버그가 힐리 재무장관이 버넘 총리 취임 뒤 첫 예산에 담을 구상을 정리하면서 발표를 앞둔 영국 재정의 쟁점을 짚었다 (제목 기준)"},
   {"t": "되살아난 영국 증시 매력, 어려운 예산 시험대에 서", "o": "블룸버그", "d": "2026-10-27", "u": BB + "articles/2026-10-27/uk-s-renewed-appeal-runs-into-a-tough-budget-test-taking-stock",
    "s": "투자자 사이에서 되살아난 영국 자산 매력이 버넘 정부 첫 예산이라는 까다로운 시험대에 오르면서 예산 내용에 따라 흐름이 갈릴 수 있다 (제목 기준)"},
-  {"t": "영국 예산 긴축에 파운드가 대가 치를 수도", "o": "블룸버그", "d": "2026-10-27", "u": BB + "articles/2026-10-27/pound-may-have-to-pay-the-price-for-britain-s-budget-restraint",
+  {"t": "영국의 예산 긴축에 파운드화가 대가를 치를 수도", "o": "블룸버그", "d": "2026-10-27", "u": BB + "articles/2026-10-27/pound-may-have-to-pay-the-price-for-britain-s-budget-restraint",
    "s": "영국 예산이 지출을 억제하는 쪽으로 짜이면서 파운드화가 그 대가로 약세 압력을 받을 수 있다는 전망이 나왔다 (제목 기준)"}]})
 
 items.append({
@@ -465,7 +465,7 @@ items.append({
  "inds": ["consumer"], "nodes": [],
  "vc": [{"ind": "consumer", "node": "durables", "f": "수요", "dir": "down", "k": "실제", "t": "월풀 3분기 매출 8.8% 감소·연간 전망 하향"}],
  "items": [
-  {"t": "월풀, 올해 세 번째 전망 하향에 주가 급락", "o": "블룸버그", "d": "2026-10-27", "u": BB + "articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year"}]})
+  {"t": "월풀, 올해 세 번째 실적 전망 하향에 주가 급락", "o": "블룸버그", "d": "2026-10-27", "u": BB + "articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year"}]})
 
 items.append({
  "cid": "G2-051", "attachTo": "",

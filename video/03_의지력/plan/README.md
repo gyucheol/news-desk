@@ -6,6 +6,7 @@
 - plan_gen.py: 번호 매기기(처음 나오는 순서), 25자·쉼표·따옴표·같은 화면 이어짐 점검, 장면 길이와 흐림 구간 계산, 목록 만들기
 - doc_build.py + doc_template.md + fact.md: 03_의지력_장면표시.md 만들기
 - extra.json: 자막 조각마다 녹음에서 시작하는 시각(음절 맞춤 결과), 영상 끝 시각, 숫자를 소리 내 읽은 말
+- stock_plan.json: 고른 Mixkit 영상(번호, 링크, 쓸 구간, 무료 라이선스 확인 날짜, 대안). 영상 파일은 올리지 않습니다.
 
 다시 만들기: 이 폴더에서 python3 -I plan_gen.py, 그다음 python3 -I doc_build.py ../03_의지력_장면표시.md
 (plan_gen.py가 만드는 scene_list.md, ai_list.md, stock_list.md, graphics_list.md, summary.json, shots_v2.json은 저장소에 올리지 않습니다.)

@@ -8,8 +8,9 @@ def load(name):
 data, scn, reg = load('plan_data'), load('plan_scenes'), load('plan_registry')
 EXTRA = json.load(open(os.path.join(D, 'extra.json'), encoding='utf-8'))
 STOCKPICK = {}
-if EXTRA.get('stock_plan') and os.path.exists(EXTRA['stock_plan']):
-    STOCKPICK = {x['shot']: x for x in json.load(open(EXTRA['stock_plan'], encoding='utf-8'))}
+SP = os.path.join(D, EXTRA['stock_plan']) if EXTRA.get('stock_plan') else None
+if SP and os.path.exists(SP):
+    STOCKPICK = {x['shot']: x for x in json.load(open(SP, encoding='utf-8'))}
 START, END = EXTRA['piece_start'], EXTRA['video_end']
 KEEP_BLUR = 2.0   # 가운데 자막 사이(또는 장면 끝)의 아래 자막이 이보다 짧으면 흐림을 풀지 않음
 MARK = {'b': '(아래) ', 'c': '(가운데) ', 'i': '(기울임) '}
@@ -177,11 +178,21 @@ def where(kind, key, with_dur=False):
 
 # 6. AI 사진 목록 (묶음별, 묶음 안에서는 번호 순, 맨 앞이 기준 사진)
 ai_out, person_in = [], []
-for gid, gname, gset, person, same_people in reg.GROUPS:
+for gid, gname, gset, person, same_people, standalone in reg.GROUPS:
     keys = sorted([k for k in num['A'] if reg.AI[k][0] == gid], key=lambda k: num['A'][k])
     if not keys: continue
     ref = keys[0]
     ai_out.append(f"### 묶음 {gid[1:]}. {gname} ({', '.join(num['A'][k] for k in keys)})")
+    if standalone:   # 장소가 서로 다른 한 장씩: 요청문마다 장소를 다 적음
+        ai_out.append(f"- 한 장씩 따로 만드는 묶음입니다. 주인공이 나오는 사진은 묶음 1의 주인공 사진({num['A']['sit_by_guitar']})을 함께 올리고 \"이 사진과 같은 사람으로\"를 앞에 붙여 주세요.")
+        for k in keys:
+            has_person = '사람 없음' not in reg.AI[k][2]
+            prompt = f"{reg.LOOK} " + (f"{reg.PERSON} " if (person and has_person) else '') + reg.AI[k][2]
+            if reg.PERSON in prompt: person_in.append(f"묶음 {gid[1:]}의 {num['A'][k]}")
+            ai_out.append(f"- {num['A'][k]} {reg.AI[k][1]} (쓰는 곳: {where('A', k)})")
+            ai_out.append(f"  - 요청문: {prompt}")
+        ai_out.append('')
+        continue
     ai_out.append(f"- 공통 설정: {gset}")
     ai_out.append(f"- 기준 사진: {num['A'][ref]} (이 묶음에서 가장 먼저 만들어 주세요)")
     seen = False   # 이 묶음에서 사람이 나온 사진이 이미 있는지
@@ -209,10 +220,12 @@ for k in sorted(num['S'], key=lambda k: num['S'][k]):
     pick = STOCKPICK.get(k)
     if pick and pick.get('id'):
         seg = pick.get('segment') or []
-        segtxt = f", 쓸 구간 {seg[0]}~{seg[1]}초" if len(seg) == 2 else ''
+        segtxt = f", {seg[0]}~{seg[1]}초 사용" if len(seg) == 2 else ''
+        day = re.search(r'\d{4}-\d\d-\d\d', pick.get('license') or '')
+        lic = f"무료 라이선스 확인 {day.group(0)}" if (day and 'Free' in pick['license']) else pick.get('license', '')
         alt = f", 대안 {pick['alt_id']}" if pick.get('alt_id') else ''
-        note = f" ({pick['notes']})" if pick.get('notes') else ''
-        st_out.append(f"{base}: Mixkit {pick['id']} {pick.get('title', '')} {pick.get('url', '')}{segtxt}, {pick.get('license', '')}{alt}{note}")
+        note = f" {reg.STOCK_NOTE[k]}." if k in reg.STOCK_NOTE else ''
+        st_out.append(f"{base}: Mixkit {pick['id']}{segtxt}.{note} {pick.get('url', '')} ({lic}{alt})")
     else:
         st_out.append(f"{base}: 고르는 중")
     shots.append({'shot': k, 'num': n, 'desc': reg.STOCK[k], 'need_s': round(need, 1),

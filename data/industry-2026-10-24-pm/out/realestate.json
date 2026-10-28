@@ -1,0 +1,162 @@
+{
+ "id": "realestate",
+ "summary": "부동산은 땅에서 개발·건설을 거쳐 집·오피스·물류창고·데이터센터가 지어지고, 가계·기업이 이를 사거나 빌리며, 리츠·펀드가 보유하고 은행·CMBS·사모 신용이 돈을 대는 사슬입니다. 2026년 10월 하순 빠듯한 곳은 여전히 데이터센터로 북미 주요 시장 공실률이 1.4%이지만, 샌프란시스코·뉴욕주·시카고가 신규 승인을 멈추고 호주 대형 데이터센터 40여 곳 중 전력 연결을 확인한 곳이 23%뿐일 만큼 인허가와 전력이 공급을 막는 병목이 됐습니다. 남는 곳은 미국·영국 주택과 오피스입니다: 미국 30년 모기지 금리는 7.4~7.5%로 2023년 11월 이후 최고이고, 9월 잠정주택판매지수는 66.0으로 2001년 집계 이후 최저였으며 주택 착공도 5.2% 줄었습니다. 런던에서는 브리티시랜드가 캐나다워터 개발을 멈췄고, 독일 집값은 2022년 고점보다 약 10% 낮은 채 제자리인 반면 임대료는 오릅니다. CMBS 오피스 연체율은 12.16%이고 리츠는 행동주의 펀드와 인수 제안으로 자산 매각 압박을 받습니다. 미국 정부는 모기지 보험료 자동 종료와 대형 투자자의 단독주택 추가 매입 금지안으로 주거비를 누르려 하지만 금리 부담은 그대로이고, 중국은 1선 도시만 소폭 올랐을 뿐 S&P는 바닥을 2028년 3분기로 봅니다.",
+ "state": {
+  "develop": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-23/british-land-halts-canada-water-project-amid-london-development-crisis",
+    "nid": "n-bbg-0661",
+    "t": "브리티시랜드가 런던 개발 위기 속에 2027년부터 다음 단계 착공이 예정됐던 대형 재개발 단지 캐나다워터 사업을 멈췄습니다 [제목]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/india/indias-godrej-properties-reports-profit-slump-soaring-construction-costs-2026-10-23/",
+    "nid": "n-rtr-0700",
+    "t": "인도 고드레지 프로퍼티스는 건설 관련 지출이 31% 늘어 9월 분기 순이익이 62% 줄어든 15억 4,000만 루피였지만, 예약 판매액은 800억 8,000만 루피였습니다 [사실]"
+   }
+  ],
+  "housing": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023",
+    "nid": "n-bbg-0658",
+    "t": "싱가포르 3분기 민간 집값은 1.4%, 임대료는 1.3% 올라 2023년 이후 가장 크게 뛰었고 임대 계약은 2만 8,423건으로 1995년 집계 이후 최대였지만 신규 판매는 부진했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/finance/german-home-prices-stagnate-interest-rates-pressure-market-iw-data-show-2026-10-23/",
+    "nid": "n-rtr-0696",
+    "t": "독일 IW 집계로 3분기 아파트값은 1년 전보다 약 0.3% 오르는 데 그쳐 2022년 고점보다 약 10% 낮았고, 호가 임대료는 전국 4.5% 올랐습니다 [사실]"
+   }
+  ],
+  "datacenter": [
+   {
+    "d": "2026-10-22",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-22/ai-data-center-backlash-threatens-australia-s-70-billion-dream",
+    "nid": "n-rtr-0715",
+    "t": "시드니·멜버른의 대형 데이터센터 40여 곳(약 1,000억 호주달러) 중 전력 연결을 공개 확인한 곳은 23%뿐이고, 한 개발사는 12억 호주달러 사업을 접었습니다 [사실]"
+   }
+  ],
+  "policy": [
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/us/trump-signs-executive-order-aimed-reducing-housing-costs-2026-10-22/",
+    "nid": "n-tg-0725",
+    "t": "트럼프 대통령은 FHFA에 시가 기준 자기자본이 차면 모기지 보험료를 자동 종료하는 시범사업과 조립식 주택 TF를 지시했지만, 시범사업은 새 대출에만 적용됩니다 [사실]"
+   },
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/us/trump-signs-executive-order-aimed-reducing-housing-costs-2026-10-22/",
+    "nid": "n-tg-0725",
+    "t": "미 재무부는 단독주택 350채 이상을 가진 기관투자자의 추가 매입을 2027년 1월 7일부터 원칙적으로 막는 규정안을 냈고, 임대용 신축 등은 예외로 둡니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-23",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023",
+   "nid": "n-bbg-0658",
+   "t": "싱가포르 URA 임대료 지수는 3분기 1.3% 올라 2분기 0.7%보다 빨라졌고, 민간 임대 계약은 2분기보다 25.6% 늘어난 2만 8,423건이었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-23",
+   "kind": "price",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/finance/german-home-prices-stagnate-interest-rates-pressure-market-iw-data-show-2026-10-23/",
+   "nid": "n-rtr-0696",
+   "t": "독일 3분기 집값은 아파트 약 0.3%, 단독·2세대 주택 약 0.4% 올라 사실상 제자리였고, 함부르크 호가 임대료는 약 7% 올랐습니다 [사실]"
+  },
+  {
+   "d": "2026-10-22",
+   "kind": "policy",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/us/trump-signs-executive-order-aimed-reducing-housing-costs-2026-10-22/",
+   "nid": "n-tg-0725",
+   "t": "미 재무부 규정안은 2027년 1월 7일부터 단독주택 350채 이상을 지배하는 기관투자자의 추가 매입을 막습니다 [사실]"
+  },
+  {
+   "d": "2026-10-22",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/ai-data-center-backlash-threatens-australia-s-70-billion-dream",
+   "nid": "n-rtr-0715",
+   "t": "호주 대형 데이터센터 40여 곳, 약 1,000억 호주달러(약 700억 달러) 계획 중 전력 연결을 공개 확인한 곳은 23%입니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "b": [
+   {
+    "t": "주택은 수요가 금리로 줄고(9월 잠정주택판매지수 66.0으로 2001년 집계 이후 최저, 10월 NAHB 지수 29) 건설사가 값을 내리고 착공을 줄이며(9월 착공 5.2% 감소), 영국은 대출기관이 3년 만에 처음 모기지 공급을 줄였습니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-10-20",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/us-pending-home-sales-tumble-record-low-september-2026-10-20/"
+     },
+     {
+      "d": "2026-10-20",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/us/us-single-family-housing-starts-building-permits-tumble-september-2026-10-20/"
+     },
+     {
+      "d": "2026-10-19",
+      "o": "텔레그램 트릴리온",
+      "u": "https://t.me/Trillion_labs/10865"
+     },
+     {
+      "d": "2026-10-08",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/uk/uk-lenders-scale-back-mortgage-supply-first-time-3-years-2026-10-08/"
+     }
+    ]
+   },
+   {
+    "t": "데이터센터는 공실 1.4%로 수요가 빠듯하지만, 샌프란시스코·뉴욕주·시카고의 승인 중단과 전력 지연(마이크로소프트 영국 50MW 임차 철회, 호주 대형 사업 중 전력 연결 확인 23%)이 공급을 막고 있습니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-10-18",
+      "o": "텔레그램 트릴리온",
+      "u": "https://t.me/Trillion_labs/10747"
+     },
+     {
+      "d": "2026-10-19",
+      "o": "텔레그램 미국 주식 인사이더",
+      "u": "https://t.me/insidertracking/66622"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-22",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/ai-data-center-backlash-threatens-australia-s-70-billion-dream"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 웹 검색 3회, 열람 0회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 중국 9월 70개 도시 집값은 데스크 뉴스(채널·블룸버그·로이터 요약)로만 확인했고 전국 평균 하락률 수치는 확인하지 못했습니다. 상위 100개 개발사 9월 판매와 비구이위안 등 다른 개발사 구조조정 현황도 확인하지 못했습니다. (2) 미국 3분기 전국 오피스 공실률과 착공·용도 전환·철거 물량(뉴마크 2분기 말 19.9%는 검색 요약 기준), 미국 8월 주택 착공. (3) 데이터센터 상장 철회·연기(에어트렁크·퍼머스·SB에너지)는 텔레그램 글 기준이며, 코어위브 5년물 CDS는 자료에 따라 643bp에서 1,000bp 이상까지 엇갈려 쓰지 않았습니다. (4) 한국 하반기 대출 규제·공급 대책, PF 부실 현황과 건설사 실적. (5) 사모 부동산 펀드 환매·수익률, 유럽·일본 상업용 부동산 가격, 리츠 3분기 실적, 리츠 평균 할인(약 10%, 호야캐피털 인용 CRE Daily 기준). (6) 블룸버그·로이터 기사는 데스크 뉴스 요약 기준이며 원문은 열지 않았습니다. (7) 10월 21일 저녁 업데이트는 검색·열람 없이 입력 뉴스 2건으로만 반영했고, 두바이 1,000만 달러 이상 주택 판매(86채, 17% 감소)는 미확인 집계라 쓰지 않았으며, 9월 단독주택 허가 감소 폭은 기사 제목만 봤습니다. (8) 10월 24일 저녁 업데이트는 검색·열람 없이 입력 뉴스 7건으로만 반영했습니다. 브리티시랜드의 캐나다워터 중단과 프라하 100억 달러 재개발은 기사 제목만 봤고, 고드레지 순이익은 기준(단독·연결)에 따라 15억 4,000만 루피와 14억 5,000만 루피로 갈립니다. 트럼프 행정명령이 모기지 금리에 미칠 영향은 채널 평가뿐이라 쓰지 않았습니다.",
+ "note": "뉴스 7건 반영: 트럼프 주거비 행정명령·대형 투자자 단독주택 매입 금지안, 브리티시랜드 캐나다워터 중단·독일 집값 정체, 호주 데이터센터 전력 연결 확인 23%. 국면 ⑥ 그대로, 근거 7줄, 수치 4줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0654",
+  "n-bbg-0658",
+  "n-bbg-0661",
+  "n-rtr-0696",
+  "n-rtr-0700",
+  "n-rtr-0715",
+  "n-tg-0725"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

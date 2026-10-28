@@ -1,0 +1,61 @@
+{"id": "pharma",
+"summary": "제약·바이오는 바이오텍·연구소가 찾은 후보물질이 임상 1~3상을 거쳐 기술이전·인수합병으로 대형 제약사에 넘어가고, FDA 같은 당국의 허가를 받아 자체 공장이나 CDMO에서 생산된 뒤 보험·PBM·정부가 값을 치르는 급여 단계를 거쳐 환자에게 이르는 사슬입니다. 2026년 가을 가장 빠듯한 곳은 여전히 특허 만료를 메울 검증된 신약 자산으로, 10월에도 머크KGaA-사일런스(약 13억 달러), 길리어드-펩스타(현금 12억 7,500만 달러) 같은 10억 달러대 거래가 이어졌고 ESMO에서는 레볼루션 췌장암 약처럼 생존을 크게 늘린 자산과 기대에 못 미친 모더나 흑색종 백신이 갈렸습니다. 후보물질과 자금은 넉넉한 편이어서 미국 바이오텍 IPO가 9월 말까지 22건, 69억 달러로 지난해의 몇 배였지만, 3분기 벤처 투자는 64억 4,000만 달러로 2분기보다 줄었고 미 재무부는 중국 바이오 기업에 대한 미국 자본의 지분 투자를 막는 안을 냈습니다. 생산은 관세와 탈중국으로 미국·인도 쪽으로 옮겨 가고 있고, 가격은 최혜국 약가 같은 정책과 오젬픽 제네릭, 말라리아 백신값 40% 인하처럼 값이 내려가는 쪽으로 계속 눌리고 있습니다. 의료기기는 J&J 의료기기 매출이 예상에 못 미치고 스미스앤드네퓨와의 정형외과 합병 협상이 깨져 신약과 따로 움직입니다.",
+"state": {
+ "medtech": [
+  {"d": "2026-10-23", "o": "로이터", "u": "https://www.reuters.com/legal/transactional/smith-nephew-merger-talks-with-jj-orthopaedics-unit-collapse-over-ceo-role-ft-2026-10-23/", "nid": "n-bbg-0299", "t": "스미스앤드네퓨와 J&J 정형외과 사업(최대 220억 달러 평가)의 합병 협상은 재무 조건에 합의하고도 통합 회사 CEO 문제로 깨졌다고 FT가 보도했습니다 [사실]"}
+ ],
+ "regulatory": [
+  {"d": "2026-10-22", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-22/rfk-jr-s-peptide-plan-makes-compounders-report-side-effects", "nid": "n-bbg-0327", "t": "케네디 장관의 펩타이드 조제 허용 계획은 그동안 의무가 아니던 조제업체의 부작용 보고를 의무로 바꾸는 내용을 담았습니다 [제목]"},
+  {"d": "2026-10-22", "o": "로이터", "u": "https://www.reuters.com/world/us/top-rfk-jr-adviser-calley-means-quits-trump-administration-wsj-reports-2026-10-22/", "nid": "n-rtr-0052", "t": "케네디 장관의 핵심 고문 캘리 민스가 10월 22일 사임했고, 항소법원이 ACIP 위원 13명의 직무 정지를 심리하면서 백신 권고가 묶여 있습니다 [사실]"}
+ ],
+ "clinical": [
+  {"d": "2026-10-22", "o": "텔레그램 미국 주식 인사이더", "u": "https://t.me/insidertracking/67110", "nid": "n-rtr-0627", "t": "유출된 모더나·머크 흑색종 백신 3상(1,137명)은 재발·사망 위험 42% 감소로 2b상(49%)에 못 미쳤고, 모더나 주가는 장중 26% 떨어졌습니다 [채널]"},
+  {"d": "2026-10-23", "o": "텔레그램 미국 주식 인사이더", "u": "https://t.me/insidertracking/67110", "nid": "n-rtr-0627", "t": "레볼루션 RASONQUE는 전이성 췌장암 3상에서 전체생존 중앙값 13.2개월로 화학요법 6.7개월의 약 두 배(위험비 0.40)였습니다 [채널]"},
+  {"d": "2026-10-22", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/vor-bio-says-its-experimental-drug-slowed-loss-kidney-function-late-stage-study-2026-10-22/", "nid": "n-tg-0748", "t": "보르바이오 텔리타시셉트는 IgA 신병증 3상 2년 결과에서 신기능 30% 저하 위험을 89% 줄였고, 연간 eGFR 기울기는 -0.6으로 위약(-5.7)보다 완만했습니다 [사실]"}
+ ],
+ "deals": [
+  {"d": "2026-10-22", "o": "로이터", "u": "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/", "nid": "n-rtr-0718", "t": "길리어드는 초기 임상 단계인 펩스타의 경구 IL-23R 억제제 프로그램을 현금 12억 7,500만 달러에 사기로 했고, 거래는 4분기에 마무리됩니다 [사실]"},
+  {"d": "2026-10-22", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-22/us-proposes-curbs-on-investment-in-chinese-biotech-firms", "nid": "n-bbg-0689", "t": "미 재무부는 중국 등 우려국 바이오 기술에 대한 지분 투자·합작투자를 막는 안을 냈지만 기술이전 계약은 명시하지 않았고, 의견은 12월 7일까지 받습니다 [사실]"}
+ ],
+ "obesity": [
+  {"d": "2026-10-23", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/glp-1-boom-china-india-brazil-could-create-22-bln-market-by-2035-jp-morgan-says-2026-10-23/", "nid": "n-rtr-0647", "t": "JP모건은 중국·인도·브라질 GLP-1 시장이 지금 66억 달러에서 2035년 220억 달러(연 15%)로 커지고 중국이 2035년 137억 달러에 이를 것으로 봤습니다 [사실]"},
+  {"d": "2026-10-23", "o": "로이터", "u": "https://www.reuters.com/legal/litigation/dr-reddys-rolls-out-new-generic-ozempic-brands-amid-obeda-supply-disruption-2026-10-23/", "nid": "n-rtr-0647", "t": "닥터레디스가 오베다 공급 차질 속에 오젬픽 제네릭 새 브랜드를 내놓아 신흥국 세마글루타이드 제네릭 경쟁이 넓어지고 있습니다 [제목]"}
+ ],
+ "payers": [
+  {"d": "2026-10-22", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/", "nid": "n-rtr-0724", "t": "유니세프·가비는 모스키릭스 말라리아 백신값을 약 40% 내린 도스당 5.5유로로 합의했고, 2027년 초부터 적용해 2029년까지 약 5,000만 달러를 아낍니다 [사실]"}
+ ],
+ "production": [
+  {"d": "2026-10-22", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/", "nid": "n-rtr-0724", "t": "모스키릭스 생산은 GSK에서 인도 바라트바이오텍으로 2028년까지 넘어가고, GSK는 보조제만 계속 공급하며 새 공장의 WHO 인증이 조건입니다 [사실]"}
+ ],
+ "bigpharma": [
+  {"d": "2026-10-23", "o": "로이터", "u": "https://www.reuters.com/world/india/indias-dr-reddys-beats-quarterly-profit-estimate-2026-10-23/", "nid": "n-rtr-0722", "t": "닥터레디스의 7~9월 순이익은 92억 5,000만 루피로 36% 줄었고 북미 매출이 약 23% 줄어든 반면 인도 매출은 17.2% 늘었습니다 [사실]"}
+ ]
+},
+"industryState": [
+ {"d": "2026-10-22", "kind": "demand", "o": "로이터", "u": "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/", "nid": "n-rtr-0718", "t": "길리어드의 펩스타 경구 염증약 프로그램 인수는 현금 12억 7,500만 달러로, 초기 임상 자산에도 10억 달러 넘는 값이 붙었습니다 [사실]"},
+ {"d": "2026-10-22", "kind": "price", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/", "nid": "n-rtr-0724", "t": "모스키릭스 말라리아 백신 조달가가 약 40% 내려 도스당 5.5유로(약 6.16달러)가 되고, 2027~2029년 약 5,000만 달러가 절감될 전망입니다 [사실]"},
+ {"d": "2026-10-23", "kind": "demand", "o": "로이터", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/glp-1-boom-china-india-brazil-could-create-22-bln-market-by-2035-jp-morgan-says-2026-10-23/", "nid": "n-rtr-0647", "t": "JP모건 추정으로 중국·인도·브라질 GLP-1 시장은 66억 달러에서 2035년 220억 달러로 연 15%씩 커질 수 있습니다 [사실]"},
+ {"d": "2026-10-23", "kind": "supply", "o": "로이터", "u": "https://www.reuters.com/legal/transactional/smith-nephew-merger-talks-with-jj-orthopaedics-unit-collapse-over-ceo-role-ft-2026-10-23/", "nid": "n-bbg-0299", "t": "J&J 3분기 메드테크 매출은 2.5% 늘어난 약 86억 4,000만 달러로 예상 87억 1,000만 달러에 못 미쳤고, 최대 220억 달러로 평가된 정형외과 합병 협상은 깨졌습니다 [사실]"}
+],
+"flags": [],
+"insight": {
+ "a": [
+  {"t": "생산 사슬이 관세와 탈중국 압력으로 지역을 옮기고 있습니다. GSK는 펜실베이니아에 8억 달러 넘게 투자하고, 인도 CDMO 피라말은 중국 노출을 한 자릿수로 줄였으며, 모스키릭스 생산도 GSK에서 인도 바라트바이오텍으로 넘어갑니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-09", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/pennsylvania-says-gsk-invest-more-than-800-million-biopharma-hub-create-300-jobs-2026-10-09/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/india-contract-drugmaker-piramal-says-focused-on-cutting-china-exposure"}, {"o": "로이터", "d": "2026-10-22", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/"}]},
+  {"t": "후보물질 조달은 중국 자산과 플랫폼 기술로 넓어졌지만 규제의 선이 그어지고 있습니다. 로슈는 한소제약 ADC에 최대 150억 달러를 걸었고, 미 재무부는 중국 바이오 기업 지분 투자·합작투자를 막되 기술이전 계약은 명시하지 않은 안을 냈습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-20", "u": "https://www.reuters.com/legal/transactional/chinas-hansoh-pharma-strikes-drug-deal-with-roche-worth-over-15-billion-2026-10-19/"}, {"o": "블룸버그", "d": "2026-10-22", "u": "https://www.bloomberg.com/news/articles/2026-10-22/us-proposes-curbs-on-investment-in-chinese-biotech-firms"}]}
+ ],
+ "b1": [
+  {"t": "경구약과 후발 주자가 늘고 고용주 보장이 당뇨에 한정되면, 비만약은 물량이 늘어도 실현 가격은 더 내려가는 흐름이 이어질 가능성이 높습니다. 신흥국에서는 닥터레디스 같은 오젬픽 제네릭이 나오며 JP모건이 본 220억 달러 시장의 상당 부분을 낮은 값의 약이 채울 수 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-23", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/glp-1-boom-china-india-brazil-could-create-22-bln-market-by-2035-jp-morgan-says-2026-10-23/"}, {"o": "로이터", "d": "2026-10-23", "u": "https://www.reuters.com/legal/litigation/dr-reddys-rolls-out-new-generic-ozempic-brands-amid-obeda-supply-disruption-2026-10-23/"}]}
+ ],
+ "c1": [
+  {"t": "아직 덮을 만큼 크지는 않습니다. 10월에도 머크KGaA–사일런스(프리미엄 130%), 길리어드–펩스타(현금 12억 7,500만 달러) 같은 거래가 이어졌고, 레볼루션 췌장암 약처럼 생존을 두 배로 늘린 자산이 나오는 한 검증된 자산 쟁탈은 계속됩니다. 다만 모더나 급락처럼 기대에 못 미친 데이터에는 시장이 크게 벌을 줍니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-22", "u": "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/"}, {"o": "로이터", "d": "2026-10-23", "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/revolutions-rasonque-improves-survival-across-subgroups-pancreatic-cancer-2026-10-23/"}, {"o": "텔레그램 미국 주식 인사이더", "d": "2026-10-23", "u": "https://t.me/insidertracking/67110"}]}
+ ],
+ "d": [
+  {"t": "의료기기 쪽은 신약과 다른 국면처럼 보입니다. J&J 메드테크 매출은 2.5% 늘어 예상에 못 미쳤고, 정형외과 분리 대안이던 스미스앤드네퓨 합병 협상은 CEO 문제로 깨졌으며, 스테리스·애질런트는 소모품·소프트웨어 업체를 사들여 성장을 메우고 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-23", "u": "https://www.reuters.com/legal/transactional/smith-nephew-merger-talks-with-jj-orthopaedics-unit-collapse-over-ceo-role-ft-2026-10-23/"}, {"o": "로이터", "d": "2026-10-12", "u": "https://www.reuters.com/legal/transactional/steris-buys-surgical-products-maker-xodus-medical-21-billion-2026-10-12/"}]},
+  {"t": "비만약은 제약 밖 수요도 바꾸고 있습니다. 하이네켄은 GLP-1이 맥주 판매를 압박할 수 있다고 펍에 알렸고 식품업계에는 단백질 제품 붐이 일어, 비만약 보급 속도가 다른 산업의 수요 지표가 되고 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-23", "u": "https://www.reuters.com/legal/litigation/heineken-document-reveals-worries-over-weight-loss-drugs-beer-sales-2026-10-23/"}]}
+ ]
+},
+"cycle": null, "nodeStage": {},
+"gaps": "10월 17일 업데이트는 웹 검색 2회(열람 0회)로 3분기 자금·인수합병 수치만 확인했고, 출처 세 곳(PwC, Citeline Scrip, William Blair)은 원문을 열지 않고 검색 요약에만 근거해 게재일을 2026-10으로 적었습니다. 확인하지 못한 것: (1) 3분기 IPO 건수는 집계마다 달라 기준을 맞추지 못했고, 3분기 인수합병도 집계마다 300억~390억 달러로 갈렸습니다. (2) 바이오텍 지수(XBI)의 3분기 수익률은 찾지 못했고, 롱숏 지표 최저(10월 9일)는 채널 전언이라 재검토 신호로만 적었습니다. (3) 특허 절벽 규모, 바이오시큐어법 시행 상태, 론자·우시바이오로직스 실적, 노보 노디스크의 현재 연간 전망, 메디케어 비만약 정부 가격 원문은 여전히 확인하지 못했습니다. 10월 24일 저녁 업데이트는 검색·열람 없이 입력 뉴스 13건으로만 반영했습니다. 모더나 흑색종 백신 3상 수치와 레볼루션 RASONQUE의 생존 수치·FDA 승인은 텔레그램 전언에 근거하고, 펩타이드 조제업체 부작용 보고 의무는 기사 제목에만 근거합니다. 미 재무부 중국 바이오 투자 제한안이 기술이전 계약을 실제로 빼는지는 최종 규칙이 나와야 알 수 있습니다.",
+"note": "뉴스 13건 반영: 길리어드-펩스타 12억 7,500만 달러 인수·미 재무부 중국 바이오 투자 제한안, ESMO 모더나 급락·레볼루션 생존 2배, J&J-스미스앤드네퓨 합병 결렬. 국면 ② 그대로, 근거 13줄, 수치 4줄, 재검토 신호 0건, 검색 0회",
+"applied": ["n-bbg-0299","n-bbg-0327","n-bbg-0689","n-bbg-0690","n-rtr-0052","n-rtr-0359","n-rtr-0627","n-rtr-0647","n-rtr-0670","n-rtr-0718","n-rtr-0722","n-rtr-0724","n-tg-0748"],
+"searches": 0, "fetches": 0}

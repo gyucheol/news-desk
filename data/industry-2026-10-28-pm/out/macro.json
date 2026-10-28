@@ -1,0 +1,332 @@
+{
+ "id": "macro",
+ "summary": "매크로는 8개 산업 모두에 걸리는 자본비용·물가·환율·유동성의 배경입니다. 10월 하순 현재 미국은 아직 뜨겁고, 시장은 연준이 10월 27~28일 회의에서 동결한 뒤 12월에 올린다고 봅니다(FedWatch 동결 90%). 아시아의 AI 수출국 성장도 예상을 넘어 한국 3분기 성장률은 1.0%(예상 0.7%), 중국 9월 공업이익은 14.4% 늘었고, 일본은행 기조물가 지표는 3%를 넘었습니다. 물가 압력은 공급 쪽에서 더 커져 라스타누라 공격 뒤 브렌트가 116.5달러 안팎, 미국 휘발유가 갤런당 4.286달러입니다. 빠듯한 곳은 신용입니다. ECB 조사에서 은행 기업대출 기준이 순 9% 강화됐고 프랑스 소비자신뢰는 2013년 이후 최저이며, 브라질·인도네시아처럼 정치·지위 충격을 받은 신흥 시장에서 돈이 빠집니다. 앤트로픽 S-1로 AI 주식 조달 창구가 다시 열렸지만 데이터센터 채권 스프레드는 더 벌어질 것으로 보입니다. 성장·물가 4국면으로는 ② 과열·긴축을 유지하되 ③ 쪽 신호가 미국 밖에서 쌓여 확신도는 낮습니다. 여기의 국면은 자본순환 8국면과 별개이며, 각 산업 판정의 배경 변수로만 씁니다.",
+ "state": {
+  "cb": [
+   {
+    "d": "2026-10-27",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/71046",
+    "nid": "n-rtr-0653",
+    "t": "연준 10월 27~28일 회의를 앞두고 CME FedWatch는 동결 확률을 90%, 예측시장 칼시는 93%로 집계했고, 시장은 워시 의장이 12월 인상 여지를 남길지를 봅니다 [채널]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case",
+    "nid": "n-bbg-0729",
+    "t": "일본은행 기조물가 지표가 3%를 넘어 인상 근거가 커졌고, 10월 29~30일 회의는 1.25% 동결이 예상되며 조사 대상들은 12월 또는 1월 인상을 내다봅니다 [사실]"
+   }
+  ],
+  "rates": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-10-year-yield-at-four-year-high-on-msci-risk-oil",
+    "nid": "n-bbg-0687",
+    "t": "MSCI 지위 하향 우려와 유가 부담에 인도네시아 10년물 금리가 10월 19일 7.16%에서 26일 7.45%로 올라 4년 만의 최고였고, 미국채와의 차이는 228.6bp로 벌어졌습니다 [사실]"
+   }
+  ],
+  "fiscal": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/south-korea-s-ai-fund-offers-fiscal-dam-against-higher-yields",
+    "nid": "n-bbg-0440",
+    "t": "한국 정부는 AI 세수로 만드는 미래대응기금(내년 162.3조 원)을 금리 급등 때 국채 발행을 줄이는 '재정 댐'으로 쓰고, 내년 국채 발행 12.5조 원 감축을 유지합니다 [사실]"
+   }
+  ],
+  "inflation": [
+   {
+    "d": "2026-10-25",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-26/ny-s-mta-faces-95-6-million-fuel-hit-this-year-from-iran-war",
+    "nid": "n-bbg-0702",
+    "t": "미국 휘발유 전국 평균은 10월 25일 갤런당 4.286달러로 전쟁 직전 2.98달러에서 올랐고, 경유는 9월 6.53달러로 사상 최고였으며 뉴욕 MTA는 연료비 9,560만 달러를 더 씁니다 [사실]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-s-industrial-profits-jump-most-in-three-months-on-oil-ai",
+    "nid": "n-bbg-0745",
+    "t": "중국 9월 생산자물가가 5% 올라 2022년 이후 가장 빨랐고, 중동 분쟁에 따른 에너지값 상승과 AI 관련 제조업이 공업이익을 끌어올렸습니다 [사실]"
+   }
+  ],
+  "growth": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
+    "nid": "n-rtr-0729",
+    "t": "한국 3분기 성장률은 전기 대비 1.0%로 예상 0.7%를 넘었고 반도체가 성장의 약 절반을 차지했지만, 민간소비는 0.2% 줄어 2022년 4분기 이후 처음 감소했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/french-consumer-confidence-hits-lowest-since-2013-after-riots",
+    "nid": "n-bbg-0732",
+    "t": "프랑스 10월 소비자신뢰지수는 소요 여파로 85에서 80으로 떨어져 2013년 6월 이후 최저였습니다 [사실]"
+   }
+  ],
+  "semis": [
+   {
+    "d": "2026-10-26",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending",
+    "nid": "n-bbg-0723",
+    "t": "앤트로픽 S-1에서 2025년 말 이후 신규 컴퓨팅 약정이 최소 4,170억 달러로 드러났고, 상반기 매출은 162억 9,000만 달러, 6월 말 현금·단기투자는 약 1,320억 달러였습니다 [사실]"
+   }
+  ],
+  "fx": [
+   {
+    "d": "2026-10-26",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67442",
+    "nid": "n-bbg-0727",
+    "t": "룰라 재선 뒤 보베스파가 장중 17.34% 급락했고 헤알은 하루 약 8% 떨어져 1999년 이후 최대 일일 낙폭을 기록했으며 재무부는 국채 입찰을 취소했다고 전해졌습니다 [채널]"
+   }
+  ],
+  "liquidity": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/ecb-says-banks-tighten-credit-conditions-see-loan-demand-fall",
+    "nid": "n-bbg-0732",
+    "t": "ECB 3분기 은행대출조사에서 기업대출 기준은 순 9%(2분기 7%), 소비자신용은 순 14% 강화됐고 주택대출 수요는 순 27% 줄었으며 은행들은 4분기 추가 강화를 예상했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "텔레그램 카이에 de market",
+    "u": "https://t.me/cahier_de_market/11138",
+    "nid": "n-bbg-0724",
+    "t": "모건스탠리는 데이터센터 ABS 스프레드가 AAA 약 200bp에서도 더 벌어질 수 있다고 봤고, 한국은행은 부외금융과 순환거래로 AI 산업의 금융 위험이 과소평가될 수 있다고 경고했습니다 [채널]"
+   }
+  ],
+  "commodity": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/saudi-arabia-contains-fire-near-ras-tanura-oil-hub-after-attack",
+    "nid": "n-bbg-0700",
+    "t": "후티 공격 뒤 사우디가 최대 원유 수출터미널이 있는 라스타누라 인근 화재를 진압했고, 소식에 브렌트유는 배럴당 116.5달러 안팎에서 거래됐습니다 [사실]"
+   }
+  ],
+  "geo": [
+   {
+    "d": "2026-10-26",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/11274",
+    "nid": "n-tg-0754",
+    "t": "사우디·튀르키예·파키스탄 고위급이 10월 26일 테헤란에서 이란과 첫 공동 안보 회담을 했지만 구체 조치는 없었고, 하메네이는 이란 권익이 보장돼야 종전할 수 있다고 했습니다 [채널]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-25",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/ny-s-mta-faces-95-6-million-fuel-hit-this-year-from-iran-war",
+   "nid": "n-bbg-0702",
+   "t": "미국 휘발유 전국 평균은 10월 25일 갤런당 4.286달러로 8개월간 43% 올랐고, 경유는 9월 6.53달러로 사상 최고였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-s-industrial-profits-jump-most-in-three-months-on-oil-ai",
+   "nid": "n-bbg-0745",
+   "t": "중국 9월 공업이익은 14.4% 늘어 8월 4.2%와 예상 12%를 웃돌았고 1~9월 누적은 15.5%였지만, 9월 소매판매는 1.1% 증가에 그쳤습니다 [사실]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "policy",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-5-year-yield-hits-record-low-on-pboc-s-cash-injection",
+   "nid": "n-tg-0776",
+   "t": "인민은행은 10월 27일 7일물·익일물 역레포로 하루 1조 140억 위안을 순공급해 하루 기준 사상 최대였고, 5년물 국채 금리는 장중 1.34%로 내렸습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0732",
+   "t": "재검토 필요: ECB 조사의 기업대출 기준 순 9% 강화·주택대출 수요 순 27% 감소와 프랑스 소비자신뢰 13년 최저가 ③ 스태그플레이션 쪽을 가리킵니다. 고물가 속에 유럽 신용과 소비가 함께 식기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0702",
+   "t": "재검토 필요: 미국 휘발유 4.286달러·경유 사상 최고와 택배 유류할증 30% 근접이 ③ 스태그플레이션 쪽을 가리킵니다. 수요가 아닌 전쟁발 연료 공급 충격이 물가를 끌어올려 실질 소득을 깎기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b1": [
+   {
+    "t": "신용시장이 AI 차입에 매기는 값이 더 올랐습니다. 메타 5년 CDS는 약 119.3bp로 거래 시작 이래 최고였고 코어위브 무담보 채권 수익률은 약 15%이며, 모건스탠리는 데이터센터 ABS 스프레드가 AAA 약 200bp에서도 더 벌어질 수 있다고 봤습니다. 빚으로 짓는 연산 설비의 속도가 금리에 묶일 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 카이에 de market",
+      "d": "2026-10-27",
+      "u": "https://t.me/cahier_de_market/11138"
+     }
+    ]
+   },
+   {
+    "t": "주식 조달 창구는 앤트로픽 S-1로 다시 열렸습니다. 상반기 매출 162억 9,000만 달러, 현금·단기투자 약 1,320억 달러, 신규 컴퓨팅 약정 최소 4,170억 달러가 공개됐지만, AI주 반등은 곧 힘을 잃었고 골드만 데스크는 TMT 200억 달러 이탈을 디레버리징으로 봤습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/ai-trade-starts-to-lose-momentum-after-anthropic-filing"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-27",
+      "u": "https://t.me/HANAchina/71092"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "미국 밖 성장과 신용이 식고 있습니다. 유로존 10월 종합 PMI는 51.9로 4개월 최저였고, ECB 조사에서 기업대출 기준은 순 9% 강화되고 주택대출 수요는 순 27% 줄었으며, 프랑스 소비자신뢰는 80으로 2013년 이후 최저입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/ecb-says-banks-tighten-credit-conditions-see-loan-demand-fall"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/french-consumer-confidence-hits-lowest-since-2013-after-riots"
+     }
+    ]
+   },
+   {
+    "t": "시장은 물가보다 AI발 성장 위험을 값에 넣기 시작했습니다. 미 10년물은 22일 17bp 내려 약 4.97%로 5% 아래로 떨어졌고, 중국 STAR50지수는 4개월이 채 안 돼 40% 떨어져 시총 약 4,800억 달러가 사라졌습니다 [사실]",
+    "src": [
+     {
+      "o": "CNBC",
+      "d": "2026-10-23",
+      "u": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/chinese-stocks-final-hour-slide-shows-reliance-on-national-team"
+     }
+    ]
+   },
+   {
+    "t": "충격을 받은 신흥 시장에서 돈이 빠집니다. 룰라 재선 뒤 헤알은 하루 약 8% 떨어졌고, 인도네시아 10년물 금리는 MSCI 위험과 유가에 7.45%로 4년 만의 최고였으며 회사채 발행이 보류됐습니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-27",
+      "u": "https://t.me/insidertracking/67442"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-10-year-yield-at-four-year-high-on-msci-risk-oil"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮지는 못한다고 봅니다. 미국은 10월 PMI 57.6과 실업수당 4주 평균 1969년 이후 최저로 뜨겁고, AI 수출국 성장도 예상을 넘어 한국 3분기 1.0%(예상 0.7%), 중국 9월 공업이익 14.4%가 나왔으며 일본은행 기조물가 지표는 3%를 넘었습니다. 다만 미국 10월 고용과 소비까지 꺾이면 ③으로 옮길 근거가 됩니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-s-industrial-profits-jump-most-in-three-months-on-oil-ai"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) 10월 27~28일 FOMC와 10월 28일 캐나다·뉴질랜드 결정 결과는 이번 입력에 없어 확인하지 못했고, 미국 3분기 GDP·ISM·10월 고용보고서·9월 PCE도 아직 보지 못했습니다. 성장 판단은 실업수당 청구·S&P글로벌 PMI·주택 지표와 아시아 GDP에 기대고 있습니다. (2) 미 10년물 22일 약 4.97%와 무디스의 프랑스 등급 유지는 CNBC·유로뉴스 검색 요약으로만 확인했고, 달러 지수 수치는 확인하지 못했습니다. (3) 헤알 하루 약 8% 하락, FedWatch 동결 90%, 데이터센터 ABS AAA 약 200bp, 한국은행의 AI 부외금융 경고, TSMC CoWoS 10~20% 인상, 엔화 156.2엔, 코스피 선행 PER 4.2배는 텔레그램 채널 전언입니다. (4) 투자등급·하이일드 지수 스프레드와 연준 대차대조표·자금시장 금리는 확인하지 못했습니다. (5) 블룸버그·로이터 기사는 본문을 열 수 없어 입력 요약과 다른 매체로만 썼습니다. (6) 한국은행 10월 22일 결정 결과는 확인하지 못했고(입력은 동결 전망까지만), 한국 3분기 성장률 1.0%는 입력 뉴스로만 썼습니다. (7) 4국면은 성장과 물가 두 축만 쓰는 단순한 틀이라, 재정과 유동성 변화는 축 설명에 따로 적었습니다. (8) 메모리 가격과 AI 설비투자 수치는 기업 공시와 채널 전언에 기대고 있습니다. (9) 라스타누라 피해 규모와 호르무즈 관련 주장은 독립 확인을 하지 못했습니다.",
+ "note": "뉴스 46건 반영: 한국 3분기 성장률 1.0%·중국 9월 공업이익 14.4%·일본은행 기조물가 3% 돌파, 라스타누라 공격 뒤 브렌트 116.5달러·미 휘발유 4.286달러, ECB 대출기준 강화·프랑스 소비자신뢰 13년 최저와 헤알·인니 국채 급락 — 국면 ② 그대로, 근거 14줄, 수치 3줄, 재검토 신호 2건, 검색 0회",
+ "applied": [
+  "n-bbg-0106",
+  "n-bbg-0233",
+  "n-bbg-0440",
+  "n-bbg-0635",
+  "n-bbg-0680",
+  "n-bbg-0687",
+  "n-bbg-0699",
+  "n-bbg-0700",
+  "n-bbg-0702",
+  "n-bbg-0707",
+  "n-bbg-0708",
+  "n-bbg-0717",
+  "n-bbg-0719",
+  "n-bbg-0723",
+  "n-bbg-0724",
+  "n-bbg-0725",
+  "n-bbg-0727",
+  "n-bbg-0729",
+  "n-bbg-0731",
+  "n-bbg-0732",
+  "n-bbg-0736",
+  "n-bbg-0737",
+  "n-bbg-0745",
+  "n-bbg-0751",
+  "n-bbg-0752",
+  "n-bbg-0753",
+  "n-bbg-0754",
+  "n-bbg-0755",
+  "n-rtr-0452",
+  "n-rtr-0474",
+  "n-rtr-0534",
+  "n-rtr-0653",
+  "n-rtr-0729",
+  "n-tg-0507",
+  "n-tg-0513",
+  "n-tg-0515",
+  "n-tg-0724",
+  "n-tg-0728",
+  "n-tg-0749",
+  "n-tg-0754",
+  "n-tg-0758",
+  "n-tg-0759",
+  "n-tg-0775",
+  "n-tg-0776",
+  "n-tg-0777",
+  "n-tg-0784"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

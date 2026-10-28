@@ -1,0 +1,52 @@
+{
+ "id": "industrial",
+ "summary": "",
+ "state": {
+  "construction": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/webuild-odebrecht-in-line-to-build-key-african-copper-rail-line",
+    "nid": "n-bbg-0716",
+    "t": "웨빌드·오데브레시트가 속한 우선협상 컨소시엄이 앙골라 로비토 회랑 철도 830km 구간을 맡을 유력 후보가 됐고, 이 구간은 중앙아프리카 구리·코발트 광산 지대와 대서양 연안을 잇습니다 [사실]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "텔레그램 상상인 김진범",
+    "u": "https://t.me/PipeBeom/6877",
+    "nid": "n-tg-0769",
+    "t": "대우건설 3분기 영업이익은 1,832억 원으로 예상을 14% 웃돌았지만 매출은 1조 8,424억 원으로 예상을 7% 밑돌았고, 영업이익은 1분기 2,556억 원에서 계속 줄었습니다 [채널]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-27",
+   "kind": "demand",
+   "o": "텔레그램 상상인 김진범",
+   "u": "https://t.me/PipeBeom/6877",
+   "nid": "n-tg-0769",
+   "t": "대우건설 3분기 매출은 1조 8,424억 원(예상 대비 -7%), 순이익은 816억 원(예상 대비 -17%)이었습니다 [채널]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "capex",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/webuild-odebrecht-in-line-to-build-key-african-copper-rail-line",
+   "nid": "n-bbg-0716",
+   "t": "로비토 회랑 철도 830km 구간 건설은 웨빌드·오데브레시트가 포함된 컨소시엄이 우선협상 대상이며, 계약 확정 보도는 아직 없습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 2건 반영: 웨빌드·오데브레시트 로비토 회랑 철도 830km 우선협상, 대우건설 3분기 매출 예상 하회, 국면 그대로(②, 분할 유지), 근거 2줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0716",
+  "n-tg-0769"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

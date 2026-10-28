@@ -1,4 +1,5 @@
-import json, os, importlib.util, sys
+# 03_의지력_장면표시.md 만들기 (2판): doc_template.md의 @@…@@ 자리를 summary.json과 목록 파일로 채움
+import json, os, re, importlib.util, sys
 D = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[1]
 def load(name):
@@ -7,30 +8,38 @@ def load(name):
 data, reg = load('plan_data'), load('plan_registry')
 s = json.load(open(os.path.join(D, 'summary.json'), encoding='utf-8'))
 rd = lambda n: open(os.path.join(D, n), encoding='utf-8').read().strip()
-blacks, n = [], 0
-for sec in data.SECTIONS:
-    for pcs in sec['sents']:
-        n += 1
-        if any(p[1] == 'K' for p in pcs):
-            blacks.append(f'[{n}] ' + ' '.join(p[0] for p in pcs if p[1] == 'K'))
-sc = s['scene_counts']; total = sum(sc.values())
-dur = 557.0
-groups_used = [g for g, lst in s['groups'].items() if lst]
-fact = rd('fact.md') if os.path.exists(os.path.join(D, 'fact.md')) else '확인 중입니다.'
+V1 = {'ai': 44, 'stock': 54, 'graphics': 13}   # 1판 숫자(비교용)
+sents = [' '.join(p[0] for p in s_) for sec in data.SECTIONS for s_ in sec['sents']]
+blacks = ' / '.join(f'[{n}] {sents[n - 1]}' for n in s['black_sents'])
+scene_of = {}
+for r in s['scene_rows']:
+    for n in range(r['sents'][0], r['sents'][1] + 1): scene_of[n] = r['no']
+stock_list = rd('stock_list.md')
 rep = {
- '@@N_AI@@': str(s['ai']), '@@N_GROUPS@@': str(len(groups_used)), '@@N_STOCK@@': str(s['stock']), '@@N_G@@': str(s['graphics']),
- '@@N_BLACK_SENT@@': str(len(blacks)), '@@N_SCENES@@': str(total), '@@AVG@@': f'{dur/total:.1f}',
- '@@N_SUB@@': str(sum(s['subtitle_counts'].values())), '@@N_B@@': str(s['subtitle_counts']['아래']),
- '@@N_C@@': str(s['subtitle_counts']['가운데']), '@@N_I@@': str(s['subtitle_counts']['가운데 기울임']),
- '@@FACT@@': fact, '@@SCENES@@': rd('scene_list.md'), '@@AI@@': rd('ai_list.md'), '@@STOCK@@': rd('stock_list.md'),
- '@@GRAPHICS@@': rd('graphics_list.md'), '@@BLACKS@@': ' / '.join(blacks), '@@LOOK@@': reg.LOOK, '@@PERSON@@': reg.PERSON,
- '@@ROOMREF@@': s['ai_map']['pack_bag'], '@@BAG@@': s['ai_map']['bag_floor'],
- '@@STOCKNOTE@@': ('Mixkit에서 장면마다 알맞은 영상을 고르고, 영상 페이지에서 무료 라이선스를 확인하는 중입니다. 끝나는 대로 영상 번호, 링크, 쓸 구간을 이 장에 채워 다시 보내 드립니다. 지금은 어떤 장면이 들어가는지만 적었습니다.'
-                  if '고르는 중' in rd('stock_list.md') else '영상 페이지에서 무료 라이선스를 확인한 날짜를 적었습니다. 쓸 구간은 작은 미리보기로 고른 것이라, 영상을 만들 때 원래 크기로 다시 보고(로고, 글자, 빨리 감긴 구간) 바꿀 수 있습니다.'),
+ '@@N_AI@@': s['ai'], '@@N_GROUPS@@': sum(1 for v in s['groups'].values() if v), '@@N_STOCK@@': s['stock'], '@@N_G@@': s['graphics'],
+ '@@N_BLACK_SENT@@': len(s['black_sents']), '@@N_BLACK_SCENES@@': s['scene_kinds']['K'], '@@N_SPLIT@@': s['scene_kinds']['SPLIT'],
+ '@@N_SCENES@@': s['scenes'], '@@AVG@@': s['avg_s'],
+ '@@N_SUB@@': sum(s['subtitle_counts'].values()), '@@N_B@@': s['subtitle_counts']['아래'],
+ '@@N_C@@': s['subtitle_counts']['가운데'], '@@N_I@@': s['subtitle_counts']['가운데 기울임'],
+ '@@D_AI@@': V1['ai'] - s['ai'], '@@D_STOCK@@': V1['stock'] - s['stock'], '@@D_G@@': V1['graphics'] - s['graphics'],
+ '@@FACT@@': rd('fact.md'), '@@SCENES@@': rd('scene_list.md'), '@@AI@@': rd('ai_list.md'), '@@STOCK@@': stock_list,
+ '@@GRAPHICS@@': rd('graphics_list.md'), '@@BLACKS@@': blacks, '@@LOOK@@': reg.LOOK, '@@PERSON@@': reg.PERSON,
+ '@@ROOMREF@@': s['groups']['g1'][0],
+ '@@PERSON_IN@@': ', '.join(s['person_in']),
+ '@@STOCKNOTE@@': ('2판에서 장면이 길어져 스톡을 @@N_STOCK@@개로 줄였고, 쓰는 곳마다 화면에 나오는 시간을 괄호 안에 적었습니다. '
+                  'Mixkit에서 그 시간 이상 끊김 없이 쓸 수 있는 영상을 고르고, 영상 페이지에서 무료 라이선스를 확인하는 중입니다. '
+                  '끝나는 대로 영상 번호, 링크, 쓸 구간을 이 장에 채워 다시 보내 드립니다. 지금은 어떤 장면이 들어가는지만 적었습니다.')
+                 if '고르는 중' in stock_list else
+                 ('영상 페이지에서 무료 라이선스를 확인한 날짜를 적었습니다. 쓸 구간은 작은 미리보기로 고른 것이라, '
+                  '영상을 만들 때 원래 크기로 다시 보고(로고, 글자, 빨리 감긴 구간) 바꿀 수 있습니다.'),
 }
 t = open(os.path.join(D, 'doc_template.md'), encoding='utf-8').read()
-for k, v in rep.items():
-    t = t.replace(k, v)
+for _ in range(2):   # 채운 글 안의 자리(예: 1-1의 @@A:…@@)까지
+    for k, v in rep.items():
+        t = t.replace(k, str(v))
+    t = re.sub(r'@@([ASG]):([A-Za-z0-9_]+)@@', lambda m: {'A': s['ai_map'], 'S': s['stock_map'], 'G': s['graphics_map']}[m.group(1)][m.group(2)], t)
+    t = re.sub(r'@@SC:([A-Za-z0-9_]+)@@', lambda m: '장면 ' + ', '.join(str(x) for x in s['ai_uses'][m.group(1)]), t)
+    t = re.sub(r'@@SCN:(\d+)@@', lambda m: str(scene_of[int(m.group(1))]), t)
 assert '@@' not in t, [l for l in t.split('\n') if '@@' in l][:5]
 open(OUT, 'w', encoding='utf-8').write(t)
-print('written', OUT, len(t), 'chars;', 'scenes', total, 'avg', f'{dur/total:.1f}')
+print('written', OUT, len(t), 'chars,', t.count('\n'), 'lines; scenes', s['scenes'], 'avg', s['avg_s'])

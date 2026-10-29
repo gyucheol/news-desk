@@ -105,7 +105,7 @@ items.append({
      "후티 반군이 사우디 라스타누라 정유시설 공격을 주장하면서 중동 공급 불안에 브렌트유가 1.2% 오른 115.19달러를 기록했다"),
   it("캐나다산 원유 할인폭, 멕시코만 압박 속 배럴당 30달러 넘어", BB, "https://www.bloomberg.com/news/articles/2026-10-28/canadian-oil-discount-exceeds-30-amid-gulf-coast-pressures",
      "캐나다산 원유 할인폭이 미 멕시코만 연안의 압박 속에 배럴당 30달러를 넘어서며 크게 벌어졌다 (제목 기준)"),
-  it("이란 둘러싼 새 외교 신호 따지며 유가 하락", BB, "https://www.bloomberg.com/news/articles/2026-10-28/oil-declines-as-traders-parse-signs-of-fresh-diplomacy-on-iran",
+  it("트레이더들이 이란 둘러싼 새 외교 신호 따지며 유가 하락", BB, "https://www.bloomberg.com/news/articles/2026-10-28/oil-declines-as-traders-parse-signs-of-fresh-diplomacy-on-iran",
      "트레이더들이 이란을 둘러싼 새 외교 신호를 따져 보면서 유가가 상승을 접고 하락으로 돌아섰다 (제목 기준)"),
   it("이란 전쟁이 원유시장 뒤흔든 가운데 페트로브라스 생산 사상 최대", BB, "https://www.bloomberg.com/news/articles/2026-10-28/petrobras-pumps-at-record-as-iran-war-upends-oil-markets",
      "페트로브라스가 이란 전쟁으로 원유시장이 뒤흔들린 가운데 3분기 원유·가스 생산을 하루 351만 2,000배럴로 사상 최대로 늘렸다"),
@@ -205,7 +205,7 @@ items.append({
      "캐나다은행의 금리 인상이 이미 침체에 빠진 캐나다 주택시장을 더 짓누르면서 주택 수요 부담이 커졌다 (제목 기준)"),
   it("매클럼 캐나다은행 총재, 미국 재정적자 비용 크고 지속 불가능 경고", BB, "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
      "매클럼 캐나다은행 총재가 미국 재정적자는 비용이 크고 지속 불가능하다고 경고하면서 미 재정 위험을 짚었다 (제목 기준)"),
-  it("매클럼 총재 인터뷰: 금리를 올린 이유 설명", BB, "https://www.bloomberg.com/news/newsletters/2026-10-28/bank-of-canada-governor-interview-tiff-macklem-explains-why-he-hiked-rates",
+  it("캐나다은행 총재 인터뷰: 매클럼이 금리를 올린 이유 설명", BB, "https://www.bloomberg.com/news/newsletters/2026-10-28/bank-of-canada-governor-interview-tiff-macklem-explains-why-he-hiked-rates",
      "매클럼 총재가 인터뷰에서 금리 인상 배경을 설명하면서 에너지발 물가가 전반적 인플레이션으로 번질 위험을 줄이겠다고 했다"),
  ],
 })
@@ -479,7 +479,7 @@ items.append({
  "cid": "G-052", "attachTo": "",
  "title": "일본 신용위험 2022년 이후 최대폭 상승…국채시장에 압박",
  "one": "\n".join([
-  "일본의 신용위험 지표가 2022년 이후 가장 크게 뛰었다.",
+  "일본 신용위험이 2022년 이후 가장 큰 폭으로 뛰었고 10년물 국채금리는 2.8%대에 머물렀다.",
   "· 신용위험 상승은 일본 국채시장을 압박하고 있다. (제목 기준)",
  ]),
  "facts": [
@@ -554,7 +554,7 @@ items.append({
   {"ind": "agri", "node": "livestock", "f": "공급", "dir": "down", "k": "예상", "t": "나선구더기 애리조나 확산에 가축 이동 통제"},
  ],
  "items": [
-  it("나선구더기, 확산 속 애리조나서 처음 발견", BB, "https://www.bloomberg.com/news/articles/2026-10-28/screwworm-detected-for-first-time-in-arizona-as-outbreak-spreads"),
+  it("나선구더기, 확산 이어지며 애리조나서 처음으로 발견돼", BB, "https://www.bloomberg.com/news/articles/2026-10-28/screwworm-detected-for-first-time-in-arizona-as-outbreak-spreads"),
  ],
 })
 

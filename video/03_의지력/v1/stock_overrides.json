@@ -1,0 +1,448 @@
+{
+ "st50": {
+  "in": 4.0,
+  "grade": {
+   "sat": 0.78,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6
+  },
+  "why": "4~9초는 컵을 입에 대고 마셔서 컵 글씨가 안 보임(2.5초부터는 컵 글씨가 보임), 밝은 창가라 많이 어둡게"
+ },
+ "st54": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st56": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st60": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st61": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st63": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st65": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st66": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st71": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st70": {
+  "crop": [
+   0.08,
+   0.25,
+   0.83,
+   1.0
+  ],
+  "blur_box": [
+   [
+    0.03,
+    0.6,
+    0.11,
+    0.73,
+    6
+   ]
+  ],
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  },
+  "why": "위쪽 벽의 신문 제목이 읽혀 위 25%를 잘라 냄, 노트북 덮개의 사과 로고는 흐림"
+ },
+ "st72": {
+  "blur_box": [
+   [
+    0.42,
+    0.59,
+    0.52,
+    0.68,
+    6
+   ]
+  ],
+  "why": "후드티 가슴의 글씨 흐림"
+ },
+ "st01": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st07": {
+  "id": "50723",
+  "title": "A young student woman searches for a book in the library",
+  "url": "https://mixkit.co/free-stock-video/a-young-student-woman-searches-for-a-book-in-the-50723/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-10-29",
+  "in": 10.5,
+  "speed": 1.0,
+  "notes": "책이 가득한 헌책방에서 책을 고르는 사람의 뒷모습(10.5초부터, 얼굴 안 보임). 책 제목은 작아서 읽히지 않음",
+  "why": "처음 고른 50714는 책등 제목(WHY CIVIL RESISTANCE, PSICOLOGÍA 등)이 크게 읽혀서 바꿈"
+ },
+ "st08": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st12": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st20": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st21": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st18": {
+  "blur_box": [
+   [
+    0.4,
+    0.72,
+    0.6,
+    0.9,
+    8
+   ],
+   [
+    0.0,
+    0.82,
+    0.05,
+    0.95,
+    6
+   ]
+  ],
+  "why": "후드티 가슴 글씨와 왼쪽 끝 책 표지 숫자 흐림"
+ },
+ "st06": {
+  "id": "42834",
+  "title": "Hands of a guitarist changing chords",
+  "url": "https://mixkit.co/free-stock-video/hands-of-a-guitarist-changing-chords-42834/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-10-29",
+  "in": 1.0,
+  "speed": 1.0,
+  "notes": "기타 지판 위에서 코드를 잡는 손 클로즈업(컬러, 어두운 배경)",
+  "why": "처음 고른 42845는 흑백이라 다른 장면과 색이 맞지 않아 같은 내용의 컬러 영상으로 바꿈"
+ },
+ "st73": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st75": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st76": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st77": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st80": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st81": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st92": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st85": {
+  "grade": {
+   "sat": 0.78,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6
+  },
+  "why": "낮 창가의 실루엣이라 많이 어둡게(가운데 자막 뒤라 흐림)"
+ },
+ "st86": {
+  "grade": {
+   "sat": 0.78,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6
+  },
+  "why": "한낮 거리라 많이 어둡게(가운데 자막 뒤라 흐림)"
+ },
+ "st87": {
+  "blur": 3,
+  "blur_box": [
+   [
+    0.12,
+    0.45,
+    0.8,
+    0.85,
+    14
+   ],
+   [
+    0.15,
+    0.5,
+    0.75,
+    0.72,
+    30
+   ]
+  ],
+  "why": "달력의 손글씨 HOLIDAY가 가운데 자막 뒤 흐림으로도 읽혀서 그 자리를 따로 더 흐림"
+ },
+ "st84": {
+  "blur": 2,
+  "why": "책 글씨 몇 줄과 BIB 도장이 원래 크기에서 거의 읽혀 살짝 흐림"
+ },
+ "st89": {
+  "grade": {
+   "sat": 0.45,
+   "black": 0.04,
+   "gamma": 1.25,
+   "vignette": 0.5
+  },
+  "why": "보라색 조명이 강해 채도를 낮춤"
+ },
+ "st25": {
+  "grade": {
+   "sat": 0.78,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6
+  },
+  "why": "흰 배경 스튜디오(흑백)라 많이 어둡게"
+ },
+ "st26": {
+  "grade": {
+   "sat": 0.78,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6
+  },
+  "why": "흰 배경 스튜디오(흑백)라 많이 어둡게"
+ },
+ "st27": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st28": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st33": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st45": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  }
+ },
+ "st29": {
+  "blur_box": [
+   [
+    0.58,
+    0.19,
+    0.98,
+    0.66,
+    8
+   ]
+  ],
+  "why": "모니터 화면(바탕화면과 아이콘 줄) 흐림"
+ },
+ "st32": {
+  "blur_box": [
+   [
+    0.24,
+    0.6,
+    0.38,
+    0.76,
+    6
+   ]
+  ],
+  "why": "운동화의 상표 꼬리표 흐림"
+ },
+ "st37": {
+  "blur_box": [
+   [
+    0.5,
+    0.4,
+    0.9,
+    0.85,
+    9
+   ]
+  ],
+  "why": "티셔츠 가슴의 상표 흐림"
+ },
+ "st38": {
+  "blur_box": [
+   [
+    0.85,
+    0.42,
+    1.0,
+    0.56,
+    5
+   ]
+  ],
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  },
+  "why": "러닝머신 계기판 위 작은 상표 흐림"
+ },
+ "st42": {
+  "blur_box": [
+   [
+    0.78,
+    0.4,
+    1.0,
+    0.52,
+    5
+   ]
+  ],
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55
+  },
+  "why": "러닝머신 계기판 위 작은 상표 흐림"
+ },
+ "st46": {
+  "blur_box": [
+   [
+    0.26,
+    0.82,
+    0.4,
+    0.98,
+    6
+   ]
+  ],
+  "why": "휴대폰 뒷면의 빛나는 표시 흐림"
+ },
+ "st41": {
+  "id": "42845",
+  "title": "Man playing guitar in the dark",
+  "url": "https://mixkit.co/free-stock-video/man-playing-guitar-in-the-dark-42845/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-10-29",
+  "in": 1.0,
+  "speed": 1.0,
+  "notes": "어두운 방에서 기타를 치는 손(흑백), 가운데 자막 뒤라 흐림",
+  "why": "42834는 st06에서 같은 구간을 써서 겹치지 않게 바꿈"
+ }
+}

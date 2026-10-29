@@ -1,6 +1,6 @@
 import json
 OUT = '/home/user/news-desk/data/mix-2026-10-30/out2/W3.json'
-J = '\n'.join
+J = lambda L: '\n'.join(l.replace('다. (', '다 (').rstrip('.') for l in L)
 TG = 'https://t.me/'
 BB = 'https://www.bloomberg.com/news/'
 

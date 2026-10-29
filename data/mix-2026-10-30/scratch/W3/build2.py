@@ -1,6 +1,6 @@
 import json
 OUT = '/home/user/news-desk/data/mix-2026-10-30/out2/W3.json'
-J = '\n'.join
+J = lambda L: '\n'.join(l.replace('다. (', '다 (').rstrip('.') for l in L)
 TG = 'https://t.me/'
 BB = 'https://www.bloomberg.com/news/'
 items = json.load(open('/home/user/news-desk/data/mix-2026-10-30/scratch/W3/part1.json'))['items']
@@ -57,7 +57,7 @@ items.append({
      "바클레이즈가 클라우드 103% 성장을 높이 평가하면서도 기존 링크 검색 쿼리 증가율 둔화와 AI 검색 수익화 불확실성을 들어 단기 주가 하방 압력을 경고했다"),
   it("JP모건, 알파벳 목표주가 425달러→375달러로 하향", "텔레그램 하나증권 중국전략", "2026-10-29", TG + "HANAchina/71221",
      "JP모건이 알파벳 목표주가를 425달러에서 375달러로 낮추면서 실적 발표 직후 증권가의 눈높이 조정이 시작됐다"),
-  it("AI 시대 구글 클라우드의 존재감 확대", "블룸버그", "2026-10-29", BB + "newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era",
+  it("AI 시대에 알파벳 안에서 구글 클라우드의 존재감 확대", "블룸버그", "2026-10-29", BB + "newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era",
      "구글 클라우드가 AI 수요로 매출이 103% 늘면서 알파벳 안에서 차지하는 비중과 존재감이 커지고 있다 (제목 기준)"),
   it("골드만·JP모건, 알파벳 목표가 하향…골드만 2027년 FCF -405억 달러 전망", "텔레그램 하나증권 중국전략", "2026-10-29", TG + "HANAchina/71224",
      "골드만삭스가 목표가를 435달러에서 385달러로 낮추고 2027년 FCF 전망을 약 -405억 달러로 내리면서 투자와 현금흐름 괴리 우려가 커졌다"),
@@ -101,13 +101,13 @@ items.append({
   vc("fin", "markets", "공급", "down", "실제", "폴리마켓 국제 플랫폼 거래 일시 중단"),
  ],
  "items": [
-  it("유타주, 예측시장 칼시 형사 기소", "블룸버그", "2026-10-29", BB + "articles/2026-10-29/utah-files-criminal-charges-against-prediction-market-kalshi",
+  it("유타주, 예측시장 업체 칼시를 형사 기소…불법 도박 혐의", "블룸버그", "2026-10-29", BB + "articles/2026-10-29/utah-files-criminal-charges-against-prediction-market-kalshi",
      "유타주가 칼시와 공동창업자를 온라인 도박 홍보 혐의로 형사 기소하면서 예측시장 관할을 둘러싼 주와 연방의 충돌이 커졌다"),
-  it("폴리마켓, 이스라엘 총선 의심 거래 조사", "블룸버그", "2026-10-29", BB + "articles/2026-10-29/polymarket-investigating-suspicious-trades-on-israeli-election",
+  it("폴리마켓, 이스라엘 총선 관련 의심 거래 조사 착수", "블룸버그", "2026-10-29", BB + "articles/2026-10-29/polymarket-investigating-suspicious-trades-on-israeli-election",
      "폴리마켓이 이스라엘 총선 관련 의심 거래를 조사하면서 선거 예측시장의 내부자 거래 위험이 다시 부각됐다 (제목 기준)"),
-  it("SEC, 예측시장 시세조종·내부자 위험 주시", "블룸버그", "2026-10-30", BB + "articles/2026-10-29/sec-eyes-manipulation-insider-risk-in-prediction-markets",
+  it("SEC, 예측시장의 시세조종·내부자 거래 위험 주시", "블룸버그", "2026-10-30", BB + "articles/2026-10-29/sec-eyes-manipulation-insider-risk-in-prediction-markets",
      "SEC 집행국장이 예측시장의 시세조종과 내부자 거래 위험을 감시한다고 밝히면서 CFTC에 이어 증권 당국도 감독에 나섰다"),
-  it("폴리마켓, 자금 도난 보도 뒤 거래 중단", "블룸버그", "2026-10-30", BB + "articles/2026-10-29/polymarket-halts-trading-after-reports-of-customers-losing-money",
+  it("폴리마켓, 고객 자금 도난 보도 뒤 거래 중단", "블룸버그", "2026-10-30", BB + "articles/2026-10-29/polymarket-halts-trading-after-reports-of-customers-losing-money",
      "폴리마켓이 고객 자금 도난 보도 뒤 외부 협력업체 침해를 이유로 국제 플랫폼 거래를 일시 중단하면서 이용자 자금 안전 우려가 커졌다"),
  ],
 })

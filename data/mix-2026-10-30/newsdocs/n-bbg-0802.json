@@ -1,0 +1,66 @@
+{
+ "id": "n-bbg-0802",
+ "num": 802,
+ "key": "mix-G1-045-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T15:31:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/adidas-revenue-surges-apparel-performance-sports-sneakers-samba",
+ "origTitle": "",
+ "headline": "아디다스 3분기 매출 72.5억 유로 사상 최대…의류 19%↑·연간 이익 전망 25억 유로로 상향",
+ "src": [
+  {
+   "o": "adidas Group",
+   "d": "2026-10-29",
+   "u": "https://www.adidas-group.com/en/media/press-releases/adidas-achieves-record-results-in-the-third-quarter-of-2026-and-increases-full-year-profit-outlook"
+  },
+  {
+   "o": "MarketBeat",
+   "d": "2026-10-29",
+   "u": "https://www.marketbeat.com/instant-alerts/transcript-adidas-q3-earnings-call-highlights-2026-10-29/"
+  },
+  {
+   "o": "RetailBoss",
+   "d": "2026-10-29",
+   "u": "https://retailboss.co/adidas-reports-record-e7-25-billion-q3-revenue-and-raises-2026-profit-outlook/"
+  }
+ ],
+ "items": [
+  {
+   "t": "아디다스, 의류·퍼포먼스 스포츠 성장 지속",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/adidas-revenue-surges-apparel-performance-sports-sneakers-samba"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "아디다스 3분기 매출 72.5억 유로 사상 최대…의류 19%↑·연간 이익 전망 25억 유로로 상향",
+ "one": "아디다스의 3분기 매출이 72억 5,200만 유로로 9% 늘며 분기 사상 최대를 기록했다\n· 의류 매출이 환율 중립 기준 19% 늘었고 영업이익은 37% 늘어 10억 800만 유로였다\n· 회사는 연간 영업이익 전망을 약 23억 유로에서 약 25억 유로로 높였다",
+ "facts": [
+  "무엇이: 아디다스 3분기 매출은 72억 5,200만 유로로 유로 기준 9%, 환율 중립 기준 7% 늘었다 [사실]",
+  "이익: 영업이익은 10억 800만 유로로 37%, 순이익은 7억 1,100만 유로로 48% 늘었고 매출총이익률은 미국 관세 환급 약 2억 유로를 포함해 54.3%(기초 약 51.5%)였다 [사실]",
+  "부문·지역: 의류는 환율 중립 19%, 직판은 17% 늘었고 유럽은 4% 줄어 유일하게 두 자릿수 성장을 하지 못했다 [사실]",
+  "전망: 연간 환율 중립 매출 증가율 9~10%는 유지하고 영업이익 전망은 약 25억 유로로 높였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아디다스 그룹 보도자료·MarketBeat·RetailBoss 검색 결과 요약으로 매출 72.52억 유로, 영업이익 37%↑, 의류 19%↑, 이익 전망 25억 유로 상향을 확인. 10월 20일 잠정 실적과 같은 수치.",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "apparel",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "아디다스 의류 매출 환율 중립 19% 증가"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0840",
+ "num": 840,
+ "key": "mix-G2-066-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T01:20:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/toast-accused-by-ftc-of-misleading-customers-on-subscriptions",
+ "origTitle": "",
+ "headline": "FTC·8개 주, 숨은 수수료·구독 기만 혐의로 식당 결제 업체 토스트 제소",
+ "src": [
+  {
+   "o": "Nation's Restaurant News",
+   "d": "2026-10-29",
+   "u": "https://www.nrn.com/restaurant-technology/toast-is-sued-by-the-ftc-over-alleged-hidden-fees-24-7-support-claims"
+  },
+  {
+   "o": "Payments Dive",
+   "d": "2026-10-29",
+   "u": "https://www.paymentsdive.com/news/ftc-states-sue-toast-over-fees-restaurant-dining-online-food/873225/"
+  }
+ ],
+ "items": [
+  {
+   "t": "FTC, 구독 관련 고객 기만 혐의로 토스트 제소",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/toast-accused-by-ftc-of-misleading-customers-on-subscriptions"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "FTC·8개 주, 숨은 수수료·구독 기만 혐의로 식당 결제 업체 토스트 제소",
+ "one": "미 연방거래위원회(FTC)와 8개 주가 숨은 수수료와 기만적 구독 관행 혐의로 토스트를 제소했다\n· 월 0달러 요금제 광고와 달리 0달러 상품은 없었고 중도 해지 수수료는 5,000~1만 7,000달러에 달했다는 주장이다\n· 토스트는 혐의에 강하게 반박하며 기업 간 계약에 ROSCA를 적용한 법원 판단이 없다고 밝혔다",
+ "facts": [
+  "무엇이: FTC와 캘리포니아·콜로라도 등 8개 주가 10월 29일 북부 캘리포니아 연방법원에 토스트를 숨은 수수료·원치 않는 부가 서비스·해지 어려운 구독 혐의로 제소했다 [사실]",
+  "혐의: 월 0달러 요금제 광고와 달리 0달러 상품은 없었고 중도 해지 수수료가 5,000~1만 7,000달러에 이르렀으며, 10달러 넘는 온라인 주문에 붙인 99센트 수수료는 식당이 아닌 토스트에 돌아갔다 [사실]",
+  "청구: FTC법·ROSCA 위반을 근거로 관행 중단과 손해배상·민사 제재금을 요구한다 [사실]",
+  "토스트 입장: 혐의에 강하게 반박하며 기업 간 협상 계약에 ROSCA를 적용한 법원 판단은 없다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "FTC·8개 주 제소와 주요 혐의, 토스트 반박은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "FTC가 토스트 숨은 수수료 관행 중단 요구"
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "basis": "verified",
+ "check": "예산 뒤 길트 반응이 차분했고(10년물 약 2bp 하락, 5.32%) 어려운 선택이 미뤄졌다는 평가는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: OBR은 공공부문 순차입(재정적자)을 2026~27 회계연도 GDP 대비 4.2%, 2027~28 회계연도 3.4%로 전망했고 부채는 GDP 대비 83.8%에서 정점을 찍는다고 봤다 [사실]",
+  "길트 발행: DMO는 2026~27 회계연도 길트 발행을 2,506억 파운드로 44억 파운드 늘렸고 시장 예상 범위(2,480억~2,520억 파운드) 안이었으며, 길트 금리는 2~3bp 내려 10년물이 5.32% 안팎이었다 [사실]",
+  "만기 구성: 단기채(1~7년) 977억 파운드(+27억), 중기채 535억 파운드(-25억), 장기채(15년 이상) 23억 파운드(-51억), 물가연동채 156억 파운드, T-bill 순발행 80억 파운드(+30억)다 [채널]",
+  "평가: 예산은 채권 친화적이지만 힐리 재무장관은 어려운 결정이 남았다고 경고했고, BOE의 금리 인상 압력은 거의 덜지 못했다 [제목]",
+  "엇갈린 전언: 적자 전망이 기존 전망을 웃돌고 발행량이 로이터 컨센서스를 넘었다는 채널 전언은 시장 예상 범위 안이었다는 분석과 엇갈려 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "영국 예산 길트 친화적 평가…적자 GDP 4.2%·발행 2,506억 파운드, 힐리 '어려운 결정' 경고",
+ "id": "n-bbg-0766",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "영국 예산이 물가와 재정 부담을 크게 덜지 못하면서 BOE가 받는 금리 인상 압력이 그대로 남았다 (제목 기준)",
+   "t": "영국 예산, BOE 금리 인상 압력 거의 덜지 못해",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "텔레그램 Polaristimes",
+   "s": "OBR이 재정적자를 4.2%·3.4%로 전망하고 DMO가 길트 발행을 2,506억 파운드로 늘리면서 발행이 단기채 위주로 쏠리고 장기채는 51억 파운드 줄었다",
+   "t": "OBR 적자 4.2%·3.4% 전망, DMO 길트 발행 2,506억 파운드",
+   "u": "https://t.me/The_MariTimes/64053"
+  },
+  {
+   "t": "영국 예산 채권 친화적, 힐리는 '앞으로 어려운 결정' 경고",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/uk-budget-is-bond-friendly-but-healey-warns-of-hard-decisions-ahead",
+   "s": "영국 예산이 길트 시장에 우호적이라는 평가를 받았지만 힐리 재무장관이 어려운 결정이 남았다고 경고해 재정 부담이 해소되지 않았음을 드러냈다"
+  }
+ ],
+ "key": "mix-G-018-2026-10-29",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 766,
+ "one": "영국 예산이 길트 시장에 우호적이라는 평가를 받았지만 힐리 재무장관은 어려운 결정이 남았다고 경고했다\n· OBR은 재정적자가 2026~27 회계연도 GDP 대비 4.2%, 2027~28 회계연도 3.4%가 될 것으로 내다봤다\n· DMO는 2026~27 회계연도 길트 발행을 2,506억 파운드로 4월 계획보다 늘렸다\n· 발행은 단기채가 977억 파운드로 27억 파운드 늘고 15년 이상 장기채는 51억 파운드 줄었다\n· 길트 금리는 2~3bp 내리는 데 그쳤고 10년물은 5.32% 안팎이었다\n· 예산이 BOE의 금리 인상 압력은 거의 덜지 못했다는 평가도 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T16:32:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-28",
+   "o": "OBR 경제·재정 전망",
+   "u": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/"
+  },
+  {
+   "d": "2026-10-28",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/market-analysis-uk-budget-2026-no-fireworks-from-chancellor-healey-major-reform-kicked-to-2027-dmo-skewed-away-from-the-long-end-once-again"
+  },
+  {
+   "d": "2026-10-28",
+   "o": "MUFG Research",
+   "u": "https://www.mufgresearch.com/macro/european-macro-28-october-2026/"
+  },
+  {
+   "o": "City AM",
+   "d": "2026-10-29",
+   "u": "https://www.cityam.com/healey-avoids-bond-market-backlash-with-placeholder-budget/"
+  }
+ ],
+ "tags": [],
+ "title": "영국 예산 길트 친화적 평가…적자 GDP 4.2%·발행 2,506억 파운드, 힐리 '어려운 결정' 경고",
+ "updatedAt": "2026-10-30T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "예산 뒤 길트 금리 2~3bp 하락"
+  },
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "길트 발행 2,506억 파운드로 확대"
+  }
+ ],
+ "added": "블룸버그 1건 — 예산이 채권 친화적이라는 평가와 함께 힐리 재무장관이 앞으로 어려운 결정이 남았다고 경고한 내용이 추가됨"
+}

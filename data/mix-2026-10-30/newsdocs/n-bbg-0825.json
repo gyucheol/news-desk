@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0825",
+ "num": 825,
+ "key": "mix-G2-046-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T00:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/fed-s-path-to-a-repo-based-framework-faces-a-familiar-roadblock",
+ "origTitle": "",
+ "headline": "연준 레포 기반 운영체계 전환, 익숙한 걸림돌에 막혀",
+ "src": [
+  {
+   "o": "연준 이사회 FEDS 논문",
+   "d": "2026",
+   "u": "https://www.federalreserve.gov/econres/feds/files/2026019pap.pdf"
+  }
+ ],
+ "items": [
+  {
+   "t": "연준의 레포 기반 체계 전환, 익숙한 장애물에 직면",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/fed-s-path-to-a-repo-based-framework-faces-a-familiar-roadblock"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/liquidity"
+ ],
+ "title": "연준 레포 기반 운영체계 전환, 익숙한 걸림돌에 막혀",
+ "one": "연준이 레포 기반 운영체계로 옮겨 가는 길이 다시 익숙한 걸림돌에 부딪혔다\n· 연준 이사회 논문은 상설 레포 운영 이용에 낙인 효과가 따른다고 지적했다 (제목 기준)",
+ "facts": [
+  "무엇이: 연준의 레포 기반 운영체계 전환이 익숙한 장애물에 부딪혔다 [제목]",
+  "배경: 연준 이사회 FEDS 논문은 상설 레포 운영 이용에 낙인이 따르며 일상 도구로 알리는 소통이 중요하다고 지적했다 [사실]",
+  "장애물: 기사가 말한 '익숙한 장애물'이 상설 레포 이용 낙인 문제인지는 확인하지 못했다 [추론]"
+ ],
+ "basis": "title",
+ "check": "기사 내용은 찾지 못함(제목 기준). 상설 레포 낙인 문제는 연준 이사회 FEDS 논문 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "연준 레포 기반 운영체계 전환에 걸림돌"
+  }
+ ],
+ "fed": [
+  {
+   "k": "",
+   "who": "연준",
+   "role": "연방준비제도",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "레포 기반 운영체계 전환이 익숙한 장애물에 부딪혔다",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/fed-s-path-to-a-repo-based-framework-faces-a-familiar-roadblock"
+  }
+ ]
+}

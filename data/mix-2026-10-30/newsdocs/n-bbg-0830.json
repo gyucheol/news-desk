@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0830",
+ "num": 830,
+ "key": "mix-G2-056-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T05:11:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/reddit-to-limit-access-for-logged-out-users-in-strategy-shift",
+ "origTitle": "",
+ "headline": "레딧, 비로그인 접근 제한 전환·4분기 매출 전망 미달에 급락…검색 유입 감소",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-29",
+   "u": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
+  },
+  {
+   "o": "TechCrunch",
+   "d": "2026-10-29",
+   "u": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  }
+ ],
+ "items": [
+  {
+   "t": "레딧, 접근 제한 계획·매출 전망 미달에 급락",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/reddit-to-limit-access-for-logged-out-users-in-strategy-shift"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "레딧, 비로그인 접근 제한 전환·4분기 매출 전망 미달에 급락…검색 유입 감소",
+ "one": "레딧이 비로그인 이용자 접근을 제한하는 전략 전환과 기대에 못 미친 매출 전망을 내놓자 주가가 급락했다\n· 4분기 매출 전망은 10억~10.3억 달러로 중간값이 시장 예상 10.5억 달러를 밑돌았다\n· 검색 유입이 크게 줄어 4분기 일일 순방문자가 두 자릿수 초반 % 줄 수 있다고 경고했다",
+ "facts": [
+  "무엇이: 레딧이 4분기 매출 전망을 10억~10.3억 달러로 내 중간값 10.15억 달러가 시장 예상 10.5억 달러를 밑돌았다 [사실]",
+  "3분기: 매출은 8억 9,500만 달러로 53% 늘어 예상 약 8억 7,500만 달러를 웃돌았지만 미국 이용자는 5,320만 명에서 5,070만 명으로 줄었다 [사실]",
+  "접근 제한: 로그인 중심으로 전환해 4분기 미국 밖 일부 시장에서 시험하며, 검색 유입 감소가 이어지면 4분기 일일 순방문자가 두 자릿수 초반 % 줄 수 있다고 했다 [사실]",
+  "주가: 하락폭은 8.5%(Investing.com)에서 시간외 약 16%(ChartMill)까지 보도마다 엇갈린다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CNBC·TechCrunch·Investing.com·ChartMill 검색 결과 요약으로 4분기 매출 전망 미달, 로그인 중심 전환, 검색 유입 감소, 3분기 매출 53%↑, 주가 급락을 확인.",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "검색 유입 감소로 4분기 일일 방문자 감소 경고"
+  }
+ ]
+}

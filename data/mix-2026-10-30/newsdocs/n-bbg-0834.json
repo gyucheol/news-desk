@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0834",
+ "num": 834,
+ "key": "mix-G2-060-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T19:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/anwar-cuts-a-deal-with-opposition-to-clear-a-2027-budget-hurdle",
+ "origTitle": "",
+ "headline": "말레이시아 2027년 예산안 하원 정책 단계 통과…안와르, 야당 의원 13명과 신임·공급 합의",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-29",
+   "u": "https://www.thestar.com.my/news/nation/2026/10/29/dewan-rakyat-passes-supply-bill-2027-at-policy-stage"
+  },
+  {
+   "o": "Malaysiakini",
+   "d": "2026-10-29",
+   "u": "https://www.malaysiakini.com/news/888129-budget-2027-breezes-through-dewan-rakyat-after-csa-signing"
+  },
+  {
+   "o": "The Edge Malaysia",
+   "d": "2026-10-29",
+   "u": "https://theedgemalaysia.com/node/823792"
+  }
+ ],
+ "items": [
+  {
+   "t": "안와르, 야당과 합의해 2027년 예산 관문 넘어",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/anwar-cuts-a-deal-with-opposition-to-clear-a-2027-budget-hurdle"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "말레이시아 2027년 예산안 하원 정책 단계 통과…안와르, 야당 의원 13명과 신임·공급 합의",
+ "one": "안와르 총리가 야당 의원들과 합의한 뒤 2027년 예산안이 하원 정책 단계를 음성 표결로 통과했다\n· 정부는 베르사투 의원 6명 등 13명과 신임·공급 협약을 맺어 임기 말까지 지지를 확보했다\n· 예산안은 11월 2~26일 위원회 심의를 거쳐 3독회와 상원으로 넘어간다",
+ "facts": [
+  "무엇이: 10월 9일 제출된 2027년 예산안이 10월 29일 하원 정책 단계를 음성 표결로 통과했고, 지난해와 달리 야당의 기록 표결 요구가 없었다 [사실]",
+  "합의: 정부는 베르사투 의원 6명과 전 베르사투 의원 6명, 사이드 사딕 의원 등 13명과 신임·공급 협약을 맺었다 [사실]",
+  "조건: 의원들은 정부 측과 같은 지역구 개발 예산을 원했고, 총리 임기 최대 2회 제한과 법무장관 권한 분리도 조건으로 거론됐다 [사실]",
+  "다음 단계: 위원회 심의는 11월 2~26일이며 이후 3독회와 상원 심의를 거친다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "The Star·Malaysiakini·The Edge 검색 결과 요약으로 정책 단계 통과·13명 협약·위원회 일정 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "말레이시아 2027년 예산안 하원 정책 단계 통과"
+  }
+ ]
+}

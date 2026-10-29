@@ -1,0 +1,101 @@
+{
+ "added": "블룸버그 1건 — 예산 갈등이 세네갈의 채무 재조정과 22억 달러 IMF 합의에 그림자를 드리운다는 내용이 추가됨 (제목 기준)",
+ "basis": "verified",
+ "check": "예산 미승인 시 IMF 프로그램과 채무조정 전략 지연 위험, 10월 27일 재정위 재심의, 성장률·적자 수정치는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 손코 국회의장(파스테프, 165석 중 130석)이 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안에 반대해 재정위원회가 수정안을 부결했고, 10월 27일 재무장관 요청으로 재심의에 들어갔다 [사실]",
+  "정부 대응: 로 총리는 교착이 이어지면 헌법 68조 등 헌법상 모든 수단을 쓰겠다고 했다 [사실]",
+  "가격: 10월 20일 유로·달러 표시 국채는 모두 1센트 넘게 떨어졌고 2037년물은 약 48.9센트였으며, 여러 만기 유로본드가 9월 1일 이후 처음 50센트 아래로 내려갔다 [사실]",
+  "IMF: 9월 초 실무 합의한 22억 달러, 36개월 확대신용제도는 이사회 승인을 기다리며 예산 승인이 늦으면 채무조정 전략 전체가 지연될 수 있다 [사실]",
+  "재정 전망: 수정 예산은 실질 성장률을 약 5%에서 2.7%로 낮추고 재정적자를 GDP 대비 5.4%에서 7.6%로 넓혔으며, 손코는 G20 공동프레임워크 채무 재조정에 반대했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "세네갈 예산 갈등에 채무 재조정·22억 달러 IMF 합의 차질 우려…수정 예산안 재심의",
+ "id": "n-bbg-0635",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "t": "세네갈 국채 급락…예산 대치로 IMF 합의 위태",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "세네갈 총리가 국회의장 반대로 막힌 2026년 수정 예산안 교착이 며칠 안에 풀릴 것으로 기대한다고 밝혀 IMF 프로그램 진척 여부가 주목된다 (제목 기준)",
+   "t": "세네갈 총리 '예산 교착, 며칠 안에 해소될 것'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/senegal-premier-expects-budget-impasse-to-resolve-within-days"
+  },
+  {
+   "t": "넥스트 아프리카: 예산 갈등, 세네갈 채무 재조정·IMF 합의에 먹구름",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/next-africa-budget-feud-casts-pall-over-senegal-s-debt-rework-imf-deal",
+   "s": "세네갈 정부와 의회의 예산 갈등이 이어지면서 22억 달러 IMF 프로그램과 이를 바탕으로 한 채무 재조정이 늦어질 수 있다는 우려가 커졌다"
+  }
+ ],
+ "key": "mix-G2-058-2026-10-21",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 635,
+ "one": "세네갈 정부와 손코 국회의장의 예산 갈등이 채무 재조정과 IMF 합의를 늦출 수 있다는 우려가 커졌다\n· 손코 국회의장은 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안에 반대했다\n· 의회 재정위원회가 수정안을 부결했고 손코의 파스테프는 165석 중 130석을 쥐고 있다\n· 10월 27일 재무장관 요청으로 수정 예산안이 재정위원회 재심의로 돌아갔다\n· 로 총리는 교착이 며칠 안에 풀릴 것으로 기대했고 이어지면 헌법상 모든 수단을 쓰겠다고 했다\n· 유로·달러 표시 국채가 모두 1센트 넘게 떨어졌고 2037년물은 약 48.9센트까지 밀렸다\n· 9월 실무 합의한 22억 달러 IMF 프로그램은 예산 승인이 늦으면 지연될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T22:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "Zawya",
+   "u": "https://www.zawya.com/en/economy/bonds/senegal-bonds-fall-after-sonko-opposes-budget-bills-1799246"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "Finwire",
+   "u": "https://finwire.io/news/stock-markets-news/senegal-bonds-drop-as-assembly-president-rejects-budget-plan"
+  },
+  {
+   "d": "2026-10-26",
+   "o": "세마포",
+   "u": "https://www.semafor.com/article/10/26/2026/senegal-grapples-with-13-billion-budget-deadlock"
+  },
+  {
+   "d": "2026-10-26",
+   "o": "시티즌디지털",
+   "u": "https://citizen.digital/article/senegal-pm-calls-for-dialogue-after-opposition-rejects-budget-n392756"
+  },
+  {
+   "o": "Africanews",
+   "d": "2026-10-28",
+   "u": "https://www.africanews.com/2026/10/28/senegals-finance-committee-to-review-revised-budget-key-to-imf-deal/"
+  },
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10",
+   "u": "https://www.cnbcafrica.com/2026/senegal-bonds-fall-after-sonko-opposes-budget-bills"
+  }
+ ],
+ "tags": [],
+ "title": "세네갈 예산 갈등에 채무 재조정·22억 달러 IMF 합의 차질 우려…수정 예산안 재심의",
+ "updatedAt": "2026-10-30T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "예산 갈등에 세네갈 유로본드 50센트 아래로"
+  }
+ ]
+}

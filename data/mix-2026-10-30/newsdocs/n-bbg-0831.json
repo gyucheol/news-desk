@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0831",
+ "num": 831,
+ "key": "mix-G2-057-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T05:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/roblox-users-miss-estimates-despite-hit-game-steal-an-egg",
+ "origTitle": "",
+ "headline": "로블록스 3분기 이용자, 히트작 스틸 언 에그에도 예상 하회…일일 이용자 1억 3,800만 명",
+ "src": [
+  {
+   "o": "SEC 8-K(로블록스 3분기 자료)",
+   "d": "2026-10-29",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026068235/ex991-q32026earningsshar.htm"
+  },
+  {
+   "o": "Investing.com 어닝콜 기록",
+   "d": "2026-10-29",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-roblox-beats-q3-2026-estimates-but-shares-sink-93CH-4985340"
+  }
+ ],
+ "items": [
+  {
+   "t": "로블록스 이용자, 히트작 스틸 언 에그에도 예상 하회",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/roblox-users-miss-estimates-despite-hit-game-steal-an-egg"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "로블록스 3분기 이용자, 히트작 스틸 언 에그에도 예상 하회…일일 이용자 1억 3,800만 명",
+ "one": "로블록스의 3분기 이용자 수가 히트 게임 스틸 언 에그에도 시장 예상에 못 미쳤다\n· 3분기 평균 일일활성이용자(DAU)는 1억 3,800만 명, 이용 시간은 340억 시간이었다\n· 매출은 예상을 웃돌았지만 4분기 부킹 전망이 약해 주가가 떨어졌다",
+ "facts": [
+  "무엇이: 로블록스 3분기 이용자 수가 히트작 스틸 언 에그에도 예상에 못 미쳤다 [제목]",
+  "이용자: 3분기 평균 일일활성이용자는 1억 3,800만 명, 이용 시간은 340억 시간이었다 [사실]",
+  "주가: 손실이 예상보다 적고 매출이 예상을 웃돌았지만 4분기 부킹 가이던스가 약해 주가가 내렸다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "3분기 DAU 1억 3,800만 명과 4분기 부킹 가이던스에 따른 주가 하락은 검색 결과로 확인. 이용자 수 예상 하회와 스틸 언 에그는 확인 못 함",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "games",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "로블록스 3분기 이용자 수 예상 하회"
+  }
+ ]
+}

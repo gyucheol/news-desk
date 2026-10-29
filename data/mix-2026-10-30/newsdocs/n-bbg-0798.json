@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0798",
+ "num": 798,
+ "key": "mix-G1-035-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T10:58:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/vietnam-to-retain-state-stakes-in-strategic-sectors-through-2030",
+ "origTitle": "",
+ "headline": "베트남, 2030년까지 전략 부문 기업의 국가 지분 유지 방침",
+ "src": [],
+ "items": [
+  {
+   "t": "베트남, 2030년까지 전략 부문 국가 지분 유지",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/vietnam-to-retain-state-stakes-in-strategic-sectors-through-2030"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "베트남, 2030년까지 전략 부문 기업의 국가 지분 유지 방침",
+ "one": "베트남이 2030년까지 전략 부문 기업에 대한 국가 지분을 유지하기로 했다\n· 대상은 전략 부문이며 유지 기간은 2030년까지로 제시됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 베트남이 2030년까지 전략 부문의 국가 지분을 유지한다 [제목]",
+  "범위: 대상 업종과 지분율, 나머지 국영기업 지분 매각 계획은 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 별도 확인 안 함, 블룸버그 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "베트남 전략 부문 국가 지분 2030년까지 유지 방침"
+  }
+ ]
+}

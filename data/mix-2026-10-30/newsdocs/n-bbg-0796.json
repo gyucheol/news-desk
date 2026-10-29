@@ -1,0 +1,67 @@
+{
+ "id": "n-bbg-0796",
+ "num": 796,
+ "key": "mix-G1-033-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T09:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/shapoorji-seeks-to-raise-up-to-200-million-to-repay-debt",
+ "origTitle": "",
+ "headline": "샤푸르지 팔론지, 부채 상환 위해 최대 2억 달러 조달 추진…루피 채권 추가 발행",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-29",
+   "u": "https://www.business-standard.com/amp/companies/news/how-shapoorji-pallonji-s-debt-mounted-and-why-repayment-is-a-challenge-126102900485_1.html"
+  },
+  {
+   "o": "Kotak Neo",
+   "d": "2026-10-29",
+   "u": "https://www.kotakneo.com/news/market-news/shapoorji-pallonji-group-200-million-debt-repayment-tata-sons-stake/"
+  },
+  {
+   "o": "Indian Opinion",
+   "d": "2026-10-29",
+   "u": "https://indianopinion.org/shapoorji-pallonji-seeks-150-to-200-million-to-repay-debt/"
+  }
+ ],
+ "items": [
+  {
+   "t": "샤푸르지, 부채 상환 위해 최대 2억 달러 조달 추진",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/shapoorji-seeks-to-raise-up-to-200-million-to-repay-debt"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial",
+  "fin"
+ ],
+ "nodes": [],
+ "title": "샤푸르지 팔론지, 부채 상환 위해 최대 2억 달러 조달 추진…루피 채권 추가 발행",
+ "one": "인도 샤푸르지 팔론지 그룹이 부채를 갚기 위해 최대 2억 달러 조달을 추진하고 있다\n· 조달 규모는 1.5억~2억 달러로 자회사 에키젠 인베스트먼트가 루피 채권을 더 발행하는 방식이다\n· 약 절반은 계열사 포트이스트 인베스트먼트 채권자 상환에 쓰이며 11월 중순 마무리가 목표다",
+ "facts": [
+  "무엇이: 샤푸르지 팔론지 그룹이 부채 상환을 위해 1.5억~2억 달러 조달을 추진하며 협의는 초기 단계여서 규모와 조건이 바뀔 수 있다 [사실]",
+  "방식: 7월 처음 루피채를 판 자회사 에키젠 인베스트먼트를 통해 루피 채권을 추가 발행하고 11월 중순까지 마무리할 계획이다 [사실]",
+  "용도: 약 절반은 계열사 포트이스트 인베스트먼트 채권자에게, 나머지는 다른 그룹 부채 상환에 쓴다 [사실]",
+  "담보: 미스트리 가문의 타타선스 지분 18.4%가 그룹 차입의 담보 역할을 해 왔지만 지분 현금화는 상장 결정 지연으로 막혀 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Business Standard·Kotak Neo·Indian Opinion 검색 결과 요약으로 1.5억~2억 달러 조달 추진, 에키젠 루피채 추가 발행, 포트이스트 채권자 상환, 11월 중순 목표, 타타선스 지분 18.4% 담보를 확인.",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "샤푸르지 부채 상환용 최대 2억 달러 조달 추진"
+  }
+ ]
+}

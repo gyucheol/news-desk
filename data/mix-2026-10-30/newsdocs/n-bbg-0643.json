@@ -1,0 +1,118 @@
+{
+ "basis": "verified",
+ "check": "국방부 감찰관의 조사 거부(10월 27일자 서한, 상원의원 9명, 공군·우주군 소관)와 정보 공유 중단 조사 거부를 검색 결과로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 국방부 감찰관 플랫 모링 3세가 10월 27일자 서한에서 초당파 상원의원 9명에게 스타링크·스타실드 차단과 우크라이나 정보 공유 중단을 조사하지 않겠다며 공군·우주군 소관 계약 문제라고 답했다 [사실]",
+  "배경: WSJ는 트럼프 대통령이 머스크에게 전화해 우크라이나 스타실드 제한 해제를 요청했다고 보도했고, 트럼프는 통화 여부 언급을 피하며 머스크가 서비스를 되돌렸다고 말했다 [사실]",
+  "현지 상황: 해제 발표 뒤에도 시속 약 161km를 넘는 드론의 통신이 끊기고 있으며, 우크라이나 당국자도 161km 제한이 여전하다고 말했다 [사실]",
+  "조사 요구: 블루먼솔 상원의원이 머스크와 헤그세스 국방장관에게 서한을 보내 경위 조사에 나섰고, 샤힌 상원의원은 감찰관 결정이 우려스럽다며 독립 검토를 촉구했다 [사실]",
+  "피해: 자포리자의 한 드론 조종사는 목요일 밤 작전 한 번에 드론 10대 중 5대를 잃었다고 말했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우크라 스타링크 제한 논란…미 국방부 감찰관 조사 거부·시속 161km 제한 지속",
+ "id": "n-bbg-0643",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "트럼프 대통령이 머스크에게 직접 전화해 우크라이나 스타링크 제한을 풀어 달라고 했다고 WSJ가 전하면서, 백악관이 해제에 직접 나선 정황이 드러났다 (제목 기준)",
+   "t": "WSJ '트럼프, 머스크에 전화해 우크라 스타링크 제한 해제 요청'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "블루먼솔 민주당 상원의원이 우크라이나의 스타실드 서비스 상실 경위 조사에 나서면서, 머스크와 헤그세스 국방장관이 의회 질의를 받게 됐다",
+   "t": "美 민주당 상원의원, 우크라 스타실드 서비스 상실 경위 조사 착수",
+   "u": "https://www.reuters.com/legal/government/us-democratic-senator-probes-ukraines-loss-starshield-service-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "마크 카니 캐나다 총리가 우크라이나 전쟁에서의 스타링크 조작이 우려스럽다고 밝히면서, 동맹국 안에서도 미국 위성통신 의존 위험이 거론됐다 (제목 기준)",
+   "t": "카니 캐나다 총리 '우크라 전쟁 속 스타링크 조작이 우려스럽다'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/mark-carney-says-starlink-manipulation-in-ukraine-war-worries-canada"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "트럼프의 해제 발표에도 우크라이나 대부분 부대에서 시속 약 161km를 넘는 드론 통신이 끊기면서, 한 조종사는 작전 한 번에 드론 10대 중 5대를 잃었다",
+   "t": "해제 발표에도 우크라 스타실드 제한 지속…시속 161km 넘으면 드론 끊겨",
+   "u": "https://t.me/insidertracking/67119"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "트럼프가 머스크에게 우크라이나 스타링크 제한 해제를 요청했다는 WSJ 보도를 로이터가 전하면서, 해제 뒤에도 제한이 남았는지가 쟁점으로 떠올랐다 (제목 기준)",
+   "t": "WSJ '트럼프, 머스크에 우크라 스타링크 제한 해제 요청' 로이터 전재",
+   "u": "https://www.reuters.com/business/media-telecom/trump-asks-musk-lift-ukraine-starlink-restrictions-wsj-reports-2026-10-22/"
+  },
+  {
+   "t": "미 국방부 감찰관, 우크라 정보·스타링크 차단 조사 거부",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/pentagon-watchdog-declines-to-probe-ukraine-intel-starlink-cuts",
+   "s": "미 국방부 감찰관이 우크라이나 정보 공유 중단과 스타링크 차단 조사를 거부하면서 스타실드 제한의 책임 규명이 공군·우주군으로 넘어갔다"
+  }
+ ],
+ "key": "mix-G1-005-2026-10-23",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 643,
+ "one": "우크라이나 스타링크·스타실드 제한이 이어지는 가운데 미 국방부 감찰관이 조사 요구를 거부했다\n· 감찰관은 상원의원 9명에게 계약 문제라며 공군·우주군이 다룰 사안이라고 답했다\n· 감찰관은 우크라이나 정보 공유 중단 문제도 조사하지 않기로 했다\n· WSJ는 트럼프가 수요일 머스크에게 전화해 제한 해제를 요청했다고 전했고 트럼프는 서비스가 복구됐다고 말했다\n· 해제 발표 뒤에도 시속 약 161km를 넘는 드론 통신이 끊겨 한 조종사는 드론 10대 중 5대를 잃었다\n· 블루먼솔 상원의원은 경위 조사에 나섰고 카니 캐나다 총리는 스타링크 조작이 우려스럽다고 밝혔다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:39:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html"
+  },
+  {
+   "d": "2026-10-22",
+   "o": "키이우인디펜던트",
+   "u": "https://kyivindependent.com/us-senator-blumenthal-opens-probe-into-ukraine-starshield-restrictions/"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-29",
+   "u": "https://abcnews.com/International/pentagon-inspector-general-declines-investigate-starlink-disruptions-ukraine/story?id=137662539"
+  },
+  {
+   "o": "Washington Examiner",
+   "d": "2026-10-29",
+   "u": "https://www.washingtonexaminer.com/policy/defense/4783958/pentagon-inspector-general-declines-starlink-investigation/"
+  },
+  {
+   "o": "Meduza",
+   "d": "2026-10-29",
+   "u": "https://meduza.io/en/news/2026/10/29/pentagon-watchdog-declines-to-investigate-starlink-outages-in-ukraine"
+  }
+ ],
+ "tags": [],
+ "title": "우크라 스타링크 제한 논란…미 국방부 감찰관 조사 거부·시속 161km 제한 지속",
+ "updatedAt": "2026-10-30T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "우크라 스타실드 시속 161km 제한 지속"
+  }
+ ],
+ "added": "블룸버그 1건 — 미 국방부 감찰관이 우크라이나 정보 공유 중단과 스타링크 차단 조사를 거부하고 공군·우주군 소관이라고 답한 내용이 추가됨"
+}

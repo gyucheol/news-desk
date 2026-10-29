@@ -1,0 +1,80 @@
+{
+ "id": "n-tg-0832",
+ "num": 832,
+ "key": "mix-G2-048-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:26:00+09:00",
+ "url": "https://t.me/insidertracking/67720",
+ "origTitle": "",
+ "headline": "KLA 분기 매출 41.4억 달러 사상 최대·EPS 1.22달러…영업이익률 첫 46% 돌파",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67720"
+  },
+  {
+   "o": "SEC(KLA 8-K 실적 발표)",
+   "d": "2026-10-29",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-29",
+   "u": "https://www.gurufocus.com/news/9149646/kla-corp-klac-q1-2027-earnings-call-highlights-record-414-billion-revenue-firstever-46-operating-margin-and-a-bullish-47-billion-december-outlook"
+  }
+ ],
+ "items": [
+  {
+   "t": "KLA FQ1 매출 41.4억 달러 사상 최대·영업이익률 46% 돌파",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67720"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis",
+ "title": "KLA 분기 매출 41.4억 달러 사상 최대·EPS 1.22달러…영업이익률 첫 46% 돌파",
+ "one": "KLA의 2027회계연도 1분기 매출이 41.4억 달러로 사상 최대를 기록했다\n· 조정 EPS는 1.22달러였고 영업이익률은 처음으로 46%를 넘었다\n· 다음 분기 매출 전망은 약 47억 달러였고 메모리 가격 상승은 원가 부담으로 꼽혔다",
+ "facts": [
+  "무엇이: KLA의 9월 분기 매출은 41.4억 달러로 가이던스 중간값(40억 달러)을 넘어 사상 최대였고 조정 EPS 1.22달러, GAAP EPS 1.18달러였다 [사실]",
+  "수익성: 매출총이익률 62.7%, 영업이익률 46.1%로 사상 처음 46%를 넘었고 잉여현금흐름은 13.4억 달러였다 [사실]",
+  "전망: 12월 분기 매출은 약 47억 달러(±2억 달러), 조정 EPS는 1.44달러 안팎으로 제시했다 [사실]",
+  "첨단 패키징: 2026년 첨단 패키징 공정제어 매출은 약 11억 달러로 70% 넘게 늘 전망이다 [사실]",
+  "위험: 메모리 가격 상승에 따른 원재료비 부담, 핵심 부품 조달 기간 약 12개월, 중국 매출 비중 감소가 꼽혔다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "매출 41.4억 달러·EPS 1.22달러·영업이익률 46.1%·12월 분기 전망은 검색 결과 요약(회사 실적 발표)으로 확인. 위험 요인은 채널만",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "KLA 분기 매출 41.4억 달러로 사상 최대"
+  },
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "메모리 가격 상승으로 장비 원재료비 부담"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "n-tg-0826",
+ "num": 826,
+ "key": "mix-G2-024-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T03:50:00+09:00",
+ "url": "https://t.me/insidertracking/67762",
+ "origTitle": "",
+ "headline": "젠슨 황, 중국 스파이 공작 표적 보도…대만선 엔비디아 직원 대중 칩 밀수 혐의 구속",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67762"
+  },
+  {
+   "o": "Yahoo Finance",
+   "d": "2026-10-29",
+   "u": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-huang-caught-reported-135330027.html"
+  },
+  {
+   "o": "Fox Business",
+   "d": "2026-10-29",
+   "u": "https://www.foxbusiness.com/business-leaders/suspected-chinese-intelligence-asset-gained-access-nvidia-ceo-jensen-huang-report"
+  },
+  {
+   "o": "DCD",
+   "d": "2026-07-28",
+   "u": "https://www.datacenterdynamics.com/en/news/nvidia-employee-detained-in-taiwan-as-part-of-ongoing-chip-smuggling-investigation/"
+  }
+ ],
+ "items": [
+  {
+   "t": "젠슨 황, 중국 스파이 공작의 표적으로 지목돼",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67762",
+   "s": "젠슨 황 엔비디아 CEO가 중국 스파이 공작의 표적이 됐다는 보도가 나오면서 엔비디아의 대중 거래에 대한 의심이 커졌다"
+  },
+  {
+   "t": "대만 검찰, 엔비디아 직원 대중 반도체 밀수 혐의 구속",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64094",
+   "s": "대만 검찰이 엔비디아 직원을 대중국 반도체 밀수 혐의로 구속했다고 전해지면서 워싱턴에서 엔비디아의 발언권이 약해질 수 있다는 평가가 나왔다"
+  },
+  {
+   "t": "젠슨 황 '스파이 수사 대상 회사와 관계는 정상적'",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-ceo-says-ties-to-company-under-spying-probe-were-normal",
+   "s": "젠슨 황이 스파이 수사 대상 회사와의 관계를 정상적인 거래라고 해명하면서 개인 연루 의혹 진화에 나섰다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "semis",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/geo"
+ ],
+ "channel": "미국 주식 인사이더",
+ "ind": "semis",
+ "title": "젠슨 황, 중국 스파이 공작 표적 보도…대만선 엔비디아 직원 대중 칩 밀수 혐의 구속",
+ "one": "엔비디아 젠슨 황 CEO가 중국 스파이 공작의 표적이 됐다는 보도가 나오며 대중 칩 유출 의혹이 커졌다\n· 뉴욕타임스는 싱가포르 데이터센터 업체 메가스피드 임원이 중국을 위해 정보를 모았다고 보도했다\n· 대만 검찰이 엔비디아 직원을 대중국 반도체 밀수 혐의로 구속했다는 소식도 전해졌다\n· 젠슨 황은 스파이 수사 대상 회사와의 관계가 정상적이었다고 해명했다",
+ "facts": [
+  "무엇이: 뉴욕타임스는 10월 29일 미 정보당국이 메가스피드 임원 앨리스 황을 중국 정보 수집원으로 판단했고 그가 젠슨 황과 가까운 관계를 맺었다고 보도했다 [사실]",
+  "한계: 보도는 젠슨 황이 알고 도왔다는 근거는 없다고 했고 아무도 기소되지 않았으며, 중국 대사관은 근거 없는 비방이라고 반박했다 [사실]",
+  "대만 수사: 대만 검찰의 엔비디아 직원 구속은 7월 슈퍼마이크로 서버 약 50대 대중 밀수 수사 때 이미 보도됐고, 이번 '속보'가 새 구속인지는 확인하지 못했다 [미확인]",
+  "해명: 젠슨 황은 스파이 수사 대상 회사와의 관계가 '정상적'이었다고 말했고, 엔비디아는 고객과의 만남은 CEO 업무의 일부라고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "Yahoo Finance·Fox Business 검색 결과 요약으로 NYT 스파이 표적 보도 확인. 대만 엔비디아 직원 구금은 7월 보도만 찾아 이번 구속 시점은 미확인. 젠슨 황 '정상적' 발언은 제목 기준",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "엔비디아 대중 칩 밀수·스파이 의혹으로 수사 압박"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

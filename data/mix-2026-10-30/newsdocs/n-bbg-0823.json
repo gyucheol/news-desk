@@ -1,0 +1,81 @@
+{
+ "id": "n-bbg-0823",
+ "num": 823,
+ "key": "mix-G2-032-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T21:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-29/bolivia-ajuste-economico-entusiasma-a-inversionistas-y-golpea-a-la-ciudadania-mvtiai8p",
+ "origTitle": "",
+ "headline": "볼리비아 경제개혁에 금융시장 강세…경유값 83%↑·IMF 19억 달러 속 서민 고통에 지지 시험대",
+ "src": [
+  {
+   "o": "Bretton Woods Project",
+   "d": "2026-10",
+   "u": "https://www.brettonwoodsproject.org/2026/10/imf-approves-programme-for-bolivia-as-opposition-to-linked-reforms-grows/"
+  },
+  {
+   "o": "Mondaq",
+   "d": "2026-10",
+   "u": "https://www.mondaq.com/fiscal-monetary-policy/1852444/bolivia-braces-for-renewed-unrest-as-imf-loan-arrangement-advances"
+  }
+ ],
+ "items": [
+  {
+   "t": "볼리비아 경제 조정, 투자자 환호·시민엔 타격(스페인어판)",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/bolivia-ajuste-economico-entusiasma-a-inversionistas-y-golpea-a-la-ciudadania-mvtiai8p",
+   "s": "볼리비아 경제 조정이 투자자들을 들뜨게 했지만 연료값 급등 등으로 시민들에게 타격을 주면서 개혁 지지가 흔들리고 있다"
+  },
+  {
+   "t": "볼리비아 경제개혁에 시장 강세, 서민 고통은 지지 시험대",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/bolivia-economic-reforms-lift-markets-as-pain-tests-public-support",
+   "s": "볼리비아 경제개혁이 금융시장을 끌어올렸지만 경유값 83% 인상 등 고통이 커지면서 노동계 파업 속에 국민 지지가 시험받고 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/inflation"
+ ],
+ "title": "볼리비아 경제개혁에 금융시장 강세…경유값 83%↑·IMF 19억 달러 속 서민 고통에 지지 시험대",
+ "one": "볼리비아 파스 정부의 경제개혁이 금융시장을 끌어올렸지만 서민 고통이 커지며 국민 지지가 시험대에 올랐다\n· 경유 보조금을 없앤 법령 5716으로 경유값이 리터당 9.80볼리비아노에서 17.95볼리비아노로 83% 뛰었다\n· IMF 이사회는 10월 2일 36개월 19억 달러 프로그램을 승인했다\n· 노동총연맹(COB)이 10월 15일 비상사태를 선포했고 교원노조는 23일 24시간 총파업을 벌였다",
+ "facts": [
+  "무엇이: 볼리비아 경제개혁이 투자자를 들뜨게 하며 금융시장을 끌어올렸지만 서민 고통이 국민 지지를 시험하고 있다 [제목]",
+  "보조금: 법령 5716으로 남은 경유 보조금이 폐지돼 경유값이 리터당 9.80볼리비아노에서 17.95볼리비아노로 83% 올랐고, 정부는 2027년부터 모든 연료 보조금을 없애기로 했다 [사실]",
+  "IMF: IMF 이사회가 10월 2일 36개월 19억 달러 프로그램을 승인했고 세계은행 등에서 50억 달러 넘는 추가 자금을 끌어낼 것으로 기대되며, 정부는 변동환율 도입에도 나섰다 [사실]",
+  "반발: COB가 10월 15일 비상사태를 선포했고 교원노조가 23일 24시간 총파업을 벌였으며, 정부는 6월 2일부터 시행한 예외상태를 연말까지 연장했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "경유 보조금 폐지·IMF 19억 달러 승인·노동계 반발은 검색 결과 요약으로 확인. 채권 등 금융시장 강세 폭은 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "볼리비아 경유 보조금 폐지로 재정 지출 축소"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "볼리비아 경유값 리터당 83% 상승"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

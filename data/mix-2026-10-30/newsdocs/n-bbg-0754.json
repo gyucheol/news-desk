@@ -1,0 +1,106 @@
+{
+ "basis": "partial",
+ "check": "GDP 개편(약 5% 확대·명목 GDP 8.04조 랜드)과 부채비율 74.5% 하락 추정은 검색 결과 요약으로 확인. 지표금리 법안 예비안·통화정책 기조 평가는 제목만 근거(core의 '물가목표 법안'은 제목상 benchmark rate law라 지표금리 법안으로 씀)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 통계청이 기준연도를 2015년에서 2022년으로 바꾼 GDP 개편으로 남아공 경제는 기존 추정보다 약 5% 커졌고 지난해 명목 GDP는 7.64조 랜드에서 8.04조 랜드로 높아졌다 [사실]",
+  "부채비율: 개편으로 올해 총부채비율 추정치는 78.2%에서 74.5%로, 재정적자는 3.9%에서 3.7%로 낮아지지만 실제 부채 금액은 그대로다 [사실]",
+  "피치·재무부: 피치는 약한 성장 탓에 부채비율이 약 78%에 머문 뒤 2028/29년 79%로 오른다고 봤고, 재무부는 2025/26년 78.4% 정점 뒤 2029/30년 76.6%로 내린다고 밝혔다 [사실]",
+  "등급 일정: 피치는 6월 BB(안정적)로 올렸고, 무디스·S&P는 11월 27일, 피치는 12월 11일 평가를 내놓는다 [사실]",
+  "통화정책: 남아공은 지표금리 법안 지연에 대비한 예비안을 준비했고, 현 통화정책 기조가 물가 억제에 충분하다는 평가가 나왔다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "남아공 GDP 개편에 부채비율 하락 전망…피치는 2028/29년 79% 상승 전망·지표금리 법안 예비안",
+ "id": "n-bbg-0754",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "피치, 남아공 부채 전망에서 재무부와 엇갈린 시각",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/fitch-diverges-from-south-africa-s-treasury-on-debt-outlook"
+  },
+  {
+   "t": "남아공, 지표금리 법안 지연 대비 예비안 마련",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/south-africa-readies-backup-plan-for-benchmark-rate-law-delay",
+   "s": "남아공이 지표금리 관련 법안 처리가 늦어질 경우에 대비한 예비안을 마련하면서 금리 지표 전환 차질에 대비했다 (제목 기준)"
+  },
+  {
+   "t": "남아공, GDP 통계 개편 뒤 부채비율 하락 전망",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/south-african-economy-4-9-bigger-than-reported-after-rebasing",
+   "s": "GDP 기준연도 개편으로 남아공 경제 규모가 약 5% 커지면서 부채비율 추정치가 78.2%에서 74.5%로 낮아질 전망이다"
+  },
+  {
+   "t": "남아공 통화정책 기조, 물가 억제에 충분하다는 평가",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/south-africa-policy-stance-seen-as-sufficient-to-curb-inflation",
+   "s": "남아공의 현 통화정책 기조가 물가를 억제하기에 충분하다는 평가가 나오면서 추가 긴축 필요성이 낮게 읽혔다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-058-2026-10-27",
+ "nodes": [
+  "macro/cb",
+  "macro/fiscal"
+ ],
+ "num": 754,
+ "one": "남아공 GDP 통계 개편으로 부채비율이 낮아질 전망이 나와 피치의 부채비율 상승 전망과 엇갈렸다\n· 기준연도를 2022년으로 바꾼 개편으로 경제 규모가 약 5% 커져 지난해 명목 GDP는 8.04조 랜드가 됐다\n· 올해 총부채비율 추정치는 78.2%에서 약 74.5%로 내려간다\n· 피치는 부채비율이 GDP 대비 약 78%를 유지하다 2028/29회계연도에 79%로 오를 것으로 봤다\n· 재무부는 부채비율이 2025/26년 78.4%로 정점을 찍고 2029/30년 76.6%로 내려간다고 밝혔다\n· 남아공은 지표금리 법안 처리가 늦어질 경우에 대비한 예비안을 마련했다\n· 현 통화정책 기조가 물가를 억제하기에 충분하다는 평가가 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:30:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "Ghanamma",
+   "u": "https://www.ghanamma.com/2026/10/27/fitch-diverges-from-national-treasury-on-debt-outlook/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "EWN",
+   "u": "https://www.ewn.co.za/fitch-says-mtbps-supports-sas-debt-stability-while-flagging-growth-risks"
+  },
+  {
+   "o": "FA News",
+   "d": "2026-10-29",
+   "u": "https://www.fanews.co.za/article/economy/43/general/1198/revised-gdp-figures-released-by-stats-sa/45101"
+  },
+  {
+   "o": "Sowetan",
+   "d": "2026-10-29",
+   "u": "https://www.sowetan.co.za/news/business/2026-10-29-sa-economy-5-bigger-after-rebasing-moving-further-ahead-of-nigeria/"
+  }
+ ],
+ "tags": [],
+ "title": "남아공 GDP 개편에 부채비율 하락 전망…피치는 2028/29년 79% 상승 전망·지표금리 법안 예비안",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/fitch-diverges-from-south-africa-s-treasury-on-debt-outlook",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "GDP 개편으로 부채비율만 낮아지고 부채 금액은 그대로"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "남아공 통화정책 기조 물가 억제에 충분 평가"
+  }
+ ],
+ "added": "블룸버그 3건 — GDP 개편 뒤 부채비율 하락 전망(경제 규모 약 5%↑·부채비율 74.5%), 지표금리 법안 지연 대비 예비안, 통화정책 기조가 물가 억제에 충분하다는 평가 내용이 추가됨",
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

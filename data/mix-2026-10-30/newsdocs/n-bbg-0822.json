@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0822",
+ "num": 822,
+ "key": "mix-G2-023-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:19:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/healey-defends-scale-of-uk-budget-and-warns-hard-decisions-ahead",
+ "origTitle": "",
+ "headline": "힐리, 英 예산 규모 방어하며 '어려운 결정' 경고…복지 삭감 보류·세 부담 한계 논란",
+ "src": [
+  {
+   "o": "City AM",
+   "d": "2026-10-29",
+   "u": "https://www.cityam.com/healey-avoids-bond-market-backlash-with-placeholder-budget/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-28",
+   "u": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "힐리, 영국 예산 규모 방어하며 '앞으로 어려운 결정' 경고",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/healey-defends-scale-of-uk-budget-and-warns-hard-decisions-ahead",
+   "s": "힐리 재무장관이 예산 규모를 방어하면서도 앞으로 어려운 결정이 남았다고 경고해 지출·세금 조정이 뒤로 미뤄졌음을 드러냈다 (제목 기준)"
+  },
+  {
+   "t": "힐리, 복지 삭감 보류해 영국 지출 계획에 의문",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/healey-holds-off-on-welfare-cuts-sparking-uk-spending-questions",
+   "s": "힐리 재무장관이 복지 삭감을 내년 개혁안으로 미루면서 늘어나는 복지 지출을 어떻게 감당할지 정부 지출 계획에 의문이 커졌다"
+  },
+  {
+   "t": "노동당 힐리 재무장관 아래 영국 세 부담 한계 도달 가능성",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/britain-s-tax-burden-may-reach-its-limit-under-labour-chancellor-healey",
+   "s": "노동당 정부에서 영국 세 부담이 한계에 이를 수 있다는 분석이 나오면서 추가 증세로 재정을 메울 여지가 좁아졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "힐리, 英 예산 규모 방어하며 '어려운 결정' 경고…복지 삭감 보류·세 부담 한계 논란",
+ "one": "영국 힐리 재무장관이 예산 규모를 방어하면서도 앞으로 어려운 결정이 남았다고 경고했다\n· 힐리는 복지 삭감을 미뤄 지출 계획에 의문을 키웠고 복지 개혁안은 내년 초 내놓겠다고 했다\n· 재정 준칙 대비 여유분은 봄 236억 파운드에서 145억 파운드로 줄었다\n· 분석가들은 지출·국방·세금의 어려운 선택이 미뤄져 내년 최대 400억 파운드 구멍이 남았다고 봤다\n· 노동당 정부에서 영국 세 부담이 한계에 이를 수 있다는 분석이 나왔다",
+ "facts": [
+  "무엇이: 힐리 재무장관이 영국 예산 규모를 방어하며 앞으로 어려운 결정이 남았다고 경고했다 [제목]",
+  "복지: 힐리는 복지 삭감을 보류했고 복지 지출 축소를 약속하며 개혁안을 내년 초 내놓겠다고 했으나, 복지 지출은 계속 늘 것이라는 지적이 나왔다 [사실]",
+  "여유분: 재정 준칙 대비 여유분은 봄 236억 파운드에서 145억 파운드로 줄었고 주로 금리 상승에 따른 이자 비용 증가 때문이다 [사실]",
+  "세금: 임금·배당 세율 인상은 없었고 은행·도박업체·전자담배 가게에서 세수를 걷으며, ING는 결국 주요 세금 인상이나 복지 삭감, 재정 준칙 완화가 필요할 수 있다고 봤다 [사실]",
+  "세 부담: 노동당 정부에서 영국 세 부담이 한계에 이를 수 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "복지 개혁 연기·여유분 145억 파운드·어려운 선택 연기는 검색 결과 요약으로 확인. 세 부담 한계 분석은 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "복지 삭감 보류로 영국 지출 계획 의문"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

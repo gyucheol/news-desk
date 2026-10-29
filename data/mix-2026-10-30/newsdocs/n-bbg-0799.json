@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0799",
+ "num": 799,
+ "key": "mix-G1-041-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/tesla-wins-lawsuit-in-south-korea-over-fsd-feature-delays",
+ "origTitle": "",
+ "headline": "테슬라, 한국 FSD 옵션 환불 소송 1심 승소…법원 '완전자율주행 보장 계약 아냐'",
+ "src": [
+  {
+   "o": "한국경제",
+   "d": "2026-10-29",
+   "u": "https://www.hankyung.com/article/202610293067i"
+  },
+  {
+   "o": "뉴스1",
+   "d": "2026-10-29",
+   "u": "https://www.news1.kr/society/court-prosecution/6336278"
+  }
+ ],
+ "items": [
+  {
+   "t": "테슬라, 한국서 FSD 기능 지연 관련 소송 승소",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/tesla-wins-lawsuit-in-south-korea-over-fsd-feature-delays"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "테슬라, 한국 FSD 옵션 환불 소송 1심 승소…법원 '완전자율주행 보장 계약 아냐'",
+ "one": "서울중앙지법이 테슬라 FSD 옵션 대금 반환 소송에서 차주들의 청구를 모두 기각했다\n· 법원은 FSD가 운전자 개입을 전제한 부분 자동화 기능이며 레벨5 완전자율주행을 보장한 계약이 아니라고 봤다\n· 기능 제공 지연은 국내외 규제 준수 때문이어서 테슬라 책임이 인정되지 않는다고 판단했다",
+ "facts": [
+  "무엇이: 서울중앙지법 민사30부가 10월 29일 테슬라 FSD 옵션 구매대금 반환 소송에서 원고 청구를 모두 기각해 테슬라코리아가 1심에서 이겼다 [사실]",
+  "쟁점: 2019~2022년 FSD 옵션을 산 차주들은 HW3.0으로는 약속한 기능을 구현할 수 없다며 계약 해제와 대금 반환을 요구했다 [사실]",
+  "판단: 추가 기능은 규제 승인과 기술 발전 시 제공하기로 한 불확정기한부 계약으로 봤고, 지연 책임과 하자담보책임도 인정하지 않았다 [사실]",
+  "원고 수: 보도마다 88명·89명·98명으로 엇갈린다 [미확인]"
+ ],
+ "basis": "verified",
+ "check": "1심 원고 청구 기각과 판결 요지는 검색 결과 요약(국내 다수 매체)으로 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "autonomy",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "FSD 환불 소송 1심 테슬라 승소로 수급 영향 불분명"
+  }
+ ]
+}

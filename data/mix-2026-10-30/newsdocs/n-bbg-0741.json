@@ -1,0 +1,71 @@
+{
+ "basis": "partial",
+ "check": "희망퇴직 규모·대상·일정·앞선 감원은 기존 문서(검색 확인) 근거. 이번 블룸버그 뉴스레터의 'AI 시대 감원 모델' 평가는 검색 한도로 확인 못 함(제목 기준).",
+ "cycles": [],
+ "facts": [
+  "무엇이: 마이크로소프트가 10월 26일 직원 약 6만 명(전체 인력의 약 4분의 1)에게 자발적 희망퇴직을 제안했다 [사실]",
+  "대상: 미국·캐나다·인도·영국 참여 팀의 부사장급 이하 직원으로 엑스박스·윈도·코파일럿·재무가 전면 참여하고 데이터센터·영업·마케팅·보안·양자컴퓨팅 일부는 빠졌다 [사실]",
+  "일정: 12월 초까지 결정하고 수락하면 12월 31일 퇴사하며 통상 퇴직금과 비슷한 혜택을 받는다 [사실]",
+  "앞선 감원: 올해 초 미국 인력 약 7%에 희망퇴직을 제안해 대상자 약 8,750명 중 30% 이상이 수락했고, 7월에는 4,800명(약 2.1%) 감원을 발표했다 [사실]",
+  "평가: 블룸버그는 이번 희망퇴직이 AI 시대 감원의 모델이 될 수 있다고 봤다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "마이크로소프트 직원 약 6만 명 희망퇴직 제안…AI 시대 감원 모델로 거론",
+ "id": "n-bbg-0741",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "마이크로소프트, 직원 6만 명에 희망퇴직 제안…추가 비용 절감",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut"
+  },
+  {
+   "t": "마이크로소프트 희망퇴직, AI 시대 감원의 모델 될 수도",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/microsoft-s-employee-buyout-could-be-a-model-for-layoffs-in-the-ai-age",
+   "s": "마이크로소프트의 직원 약 6만 명 희망퇴직 제안이 AI 시대 기업 감원의 본보기로 거론되면서 다른 기업의 인력 감축 방식에 영향을 줄 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-040-2026-10-27",
+ "nodes": [],
+ "num": 741,
+ "one": "마이크로소프트가 비용 절감을 위해 직원 약 6만 명에게 자발적 희망퇴직을 제안했다\n· 대상은 전체 인력의 약 4분의 1로 미국·캐나다·인도·영국 일부 팀의 부사장급 이하 직원이다\n· 직원들은 12월 초까지 결정하며 수락하면 12월 31일 퇴사하고 통상 퇴직금 수준의 혜택을 받는다\n· 블룸버그는 이번 희망퇴직이 AI 시대 감원의 본보기가 될 수 있다고 짚었다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T23:03:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "TechCrunch",
+   "u": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/"
+  }
+ ],
+ "tags": [],
+ "title": "마이크로소프트 직원 약 6만 명 희망퇴직 제안…AI 시대 감원 모델로 거론",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "MS 직원 약 6만 명에 희망퇴직 제안"
+  }
+ ],
+ "added": "블룸버그 1건 — 이번 희망퇴직이 AI 시대 감원의 본보기가 될 수 있다는 분석 내용이 추가됨 (제목 기준)",
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

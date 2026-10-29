@@ -1,0 +1,89 @@
+{
+ "id": "n-bbg-0820",
+ "num": 820,
+ "key": "mix-G2-017-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T00:02:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+ "origTitle": "",
+ "headline": "AI 부채 경계 확산…테크 CDS 거래 사상 최대·HSBC 데이터센터 대출 신용보험 헤지 추진",
+ "src": [
+  {
+   "o": "Traders Union",
+   "d": "2026-10-29",
+   "u": "https://tradersunion.com/news/institutions/show/4012975-hsbc-credit-risk-data-center-loans/"
+  },
+  {
+   "o": "Longbridge",
+   "d": "2026-10-29",
+   "u": "https://longbridge.com/en/news/299450624"
+  }
+ ],
+ "items": [
+  {
+   "t": "투자자, 감당할 수 있는 AI 채권 이미 다 샀을 수도",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+   "s": "투자자들이 감당할 수 있는 AI 채권을 이미 다 사들였을 수 있다는 진단이 나오면서 AI 기업들의 채권 조달 여건이 빡빡해질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "HSBC, 데이터센터 대출을 신용위험 보험으로 헤지 추진",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/hsbc-seeks-to-hedge-data-center-debt-with-credit-risk-insurance",
+   "s": "HSBC가 AI 데이터센터 관련 대출의 신용위험을 보험사로 넘기는 방안을 협의하면서 은행들이 데이터센터 부채 노출을 줄이려 하고 있다"
+  },
+  {
+   "t": "테크 기업 CDS 거래 사상 최대, AI 채권 공급 우려",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/google-debt-risk-gauge-rises-as-earnings-revive-ai-debt-jitters",
+   "s": "AI 채권 공급이 늘어날 것이라는 우려에 테크 기업 신용부도스와프 거래가 사상 최대로 늘면서 빅테크 부채 위험 지표가 올랐다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "title": "AI 부채 경계 확산…테크 CDS 거래 사상 최대·HSBC 데이터센터 대출 신용보험 헤지 추진",
+ "one": "AI 관련 회사채 공급이 쌓이면서 신용시장에서 테크 기업 부채 위험을 덜려는 움직임이 커졌다\n· 공급 우려 속에 테크 기업 신용부도스와프(CDS) 거래가 사상 최대를 기록했다\n· HSBC는 AI 데이터센터 대출 등 프로젝트 금융의 신용위험을 보험사로 넘기는 방안을 협의하고 있다\n· 투자자들이 감당할 수 있는 AI 채권을 이미 다 샀을 수 있다는 진단이 나왔다\n· 최상위 등급 데이터센터 채권 금리는 연초 5% 아래에서 7% 가까이로 올랐다는 보도가 있다",
+ "facts": [
+  "무엇이: 테크 기업 신용부도스와프(CDS) 거래가 AI 채권 공급 우려 속에 사상 최대를 기록했다 [제목]",
+  "HSBC: AI 데이터센터 관련 대출을 포함한 프로젝트 금융 대출의 신용위험을 보험사에 넘기는 방안을 초기 협의 중이다 [사실]",
+  "채권 수요: 투자자들이 감당할 수 있는 AI 채권을 이미 다 샀을 수 있다는 진단이 나왔다 [제목]",
+  "금리: 최상위 등급 데이터센터 채권 금리가 2026년 초 5% 아래에서 7% 가까이로 올랐다는 보도가 있다 [사실]",
+  "거래 규모: HSBC 위험 이전 대상이 10억 달러가 넘는 AI 인프라 대출이라는 보도가 있으나 규모·조건은 협상 중 바뀔 수 있다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "HSBC의 데이터센터 대출 신용위험 보험 이전 협의는 검색 결과 요약으로 확인. 테크 CDS 거래 '사상 최대'는 확인 못 함. 블루아울의 AI 거래용 보험 자본 조달 기사는 AI 자금 조달이라 items에서 뺌",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "테크 CDS 거래 사상 최대·데이터센터 채권 금리 상승"
+  },
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "HSBC 데이터센터 대출 신용위험 보험사 이전 추진"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

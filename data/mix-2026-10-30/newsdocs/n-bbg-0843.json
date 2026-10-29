@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0843",
+ "num": 843,
+ "key": "mix-G2-071-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T06:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-29/china-s-speed-in-clinical-trials-draws-drugmakers-roche-astrazeneca-novartis",
+ "origTitle": "",
+ "headline": "로슈·아스트라제네카·노바티스, 중국 임상 속도에 몰려…규제 개편에 개발 기간 단축",
+ "src": [
+  {
+   "o": "BioSpace",
+   "d": "2026",
+   "u": "https://www.biospace.com/drug-development/clinical-trials-are-increasingly-going-global-with-china-a-main-beneficiary"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-02",
+   "u": "https://www.cnbc.com/2026/10/02/novartis-abogen-china-biotech-deal.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국의 임상 속도에 로슈·아스트라제네카·노바티스 몰려",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/china-s-speed-in-clinical-trials-draws-drugmakers-roche-astrazeneca-novartis"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "로슈·아스트라제네카·노바티스, 중국 임상 속도에 몰려…규제 개편에 개발 기간 단축",
+ "one": "로슈·아스트라제네카·노바티스 등 대형 제약사가 중국의 빠른 임상 속도에 이끌려 몰려들고 있다\n· 노바티스 임원은 중국 의약품 당국이 최근 몇 년 새 제도를 전면 개편했다고 말했다\n· 맥킨지는 중국이 초기 발견에서 임상시험 신청까지 기간을 50~70% 줄였다고 봤다",
+ "facts": [
+  "무엇이: 로슈·아스트라제네카·노바티스가 중국의 빠른 임상 속도에 이끌려 중국으로 몰린다 [제목]",
+  "배경: 노바티스 임원은 중국 NMPA가 최근 몇 년 새 제도를 전면 개편했다고 했고, 맥킨지는 중국이 초기 발견부터 임상시험계획(IND) 신청까지 기간을 50~70% 줄였다고 봤다 [사실]",
+  "거래: 노바티스는 10월 2일 중국 아보젠의 mRNA 치료제 권리를 선급금 5억 7,500만 달러, 최대 78억 달러에 사들이기로 했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "중국 규제 개편에 따른 개발 기간 단축과 노바티스-아보젠 계약은 검색 결과로 확인. 이번 기사 자체 내용은 제목만 근거",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "빅파마, 중국의 빠른 임상 속도에 몰려"
+  }
+ ]
+}

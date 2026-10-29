@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0805",
+ "num": 805,
+ "key": "mix-G1-050-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T20:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/eu-must-act-to-curb-power-bills-as-costs-surge-trade-body-says",
+ "origTitle": "",
+ "headline": "유럽 업계단체 'EU, 급등하는 전기요금 억제 나서야'…비용 급증 경고",
+ "src": [],
+ "items": [
+  {
+   "t": "업계단체 'EU, 비용 급증 속 전기요금 억제 나서야'",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/eu-must-act-to-curb-power-bills-as-costs-surge-trade-body-says"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "title": "유럽 업계단체 'EU, 급등하는 전기요금 억제 나서야'…비용 급증 경고",
+ "one": "유럽 업계단체가 전기 비용 급증을 이유로 EU가 전기요금 억제에 나서야 한다고 촉구했다\n· 업계는 치솟는 전기 비용이 부담이 되고 있다며 EU 차원의 대응을 요구했다 (제목 기준)",
+ "facts": [
+  "무엇이: 한 유럽 업계단체가 비용 급증 속에 EU가 전기요금 억제에 나서야 한다고 했다 [제목]",
+  "세부: 단체 이름과 요금 수준, 요구한 구체 조치는 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인 못 함, 제목만 근거",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "EU 전기 비용 급증에 업계 요금 억제 요구"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0809",
+ "num": 809,
+ "key": "mix-G1-056-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T01:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/hungary-us-sign-agreement-on-trump-peace-pipeline-framework",
+ "origTitle": "",
+ "headline": "헝가리·미국, '트럼프 평화 파이프라인 프레임워크' 양해각서 서명…에너지 다변화 약속",
+ "src": [
+  {
+   "o": "미 국무부",
+   "d": "2026-10-29",
+   "u": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-rubio-and-hungarian-fm-orban-at-a-mou-signing-ceremony-on-energy-infrastructure-and-regional-energy-security-and-on-law-enforcement-cooperation-and-information-exchange"
+  },
+  {
+   "o": "Daily News Hungary",
+   "d": "2026-10-29",
+   "u": "https://dailynewshungary.com/hungary-us-sign-deals-energy-and-law/"
+  }
+ ],
+ "items": [
+  {
+   "t": "헝가리·미국, '트럼프 평화 파이프라인 프레임워크' 합의 서명",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/hungary-us-sign-agreement-on-trump-peace-pipeline-framework"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas",
+  "macro"
+ ],
+ "nodes": [
+  "gas/regas",
+  "macro/geo"
+ ],
+ "title": "헝가리·미국, '트럼프 평화 파이프라인 프레임워크' 양해각서 서명…에너지 다변화 약속",
+ "one": "미국과 헝가리가 10월 29일 워싱턴에서 '트럼프 평화 파이프라인 프레임워크' 양해각서에 서명했다\n· 이 틀은 중동부 유럽의 미국산 LNG 수입 능력을 늘리려는 미국 주도 구상으로 4월 출범했다\n· 양측은 구체 노선·투자액·완공 시한·신규 구매 약속은 밝히지 않았다",
+ "facts": [
+  "무엇이: 루비오 국무장관과 아니타 오르반 헝가리 외무장관이 10월 29일 트럼프 평화 파이프라인 프레임워크 양해각서에 서명해 헝가리의 에너지 다변화 약속을 문서화했다 [사실]",
+  "구상: 미 에너지부가 4월 크로아티아 두브로브니크 3해 정상회의에서 출범시킨 틀로, 역내 미국산 LNG 수입 능력 확대가 목표다 [사실]",
+  "빈칸: 구체 파이프라인 노선·투자액·완공 시한·신규 에너지 구매 약속은 공개되지 않았다 [사실]",
+  "함께: 양국은 극좌 폭력 단체 대응을 위한 법 집행 협력 양해각서에도 서명했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "미 국무부 발표·Daily News Hungary 검색 결과 요약으로 서명·LNG 수입 확대 목적·세부 미공개 확인",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "regas",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "헝가리, 미국산 LNG 수입 다변화 틀에 서명"
+  }
+ ]
+}

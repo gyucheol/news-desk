@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0833",
+ "num": 833,
+ "key": "mix-G2-059-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/hk-dollar-peg-architect-says-narrower-band-may-ease-speculation",
+ "origTitle": "",
+ "headline": "홍콩달러 페그 설계자 그린우드 '밴드 7.79~7.81로 좁히면 투기 완화 가능'",
+ "src": [
+  {
+   "o": "The Standard",
+   "d": "2026-10",
+   "u": "https://www.thestandard.com.hk/finance/article/346913/HKs-yuan-push-would-not-undermine-local-dollar-peg-Greenwood-says"
+  },
+  {
+   "o": "AAStocks",
+   "d": "2026-10",
+   "u": "https://www.aastocks.com/en/stocks/news/aafn-con/now.1551765/latest-news"
+  }
+ ],
+ "items": [
+  {
+   "t": "홍콩달러 페그 설계자 '밴드 좁히면 투기 완화 가능'",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/hk-dollar-peg-architect-says-narrower-band-may-ease-speculation"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "title": "홍콩달러 페그 설계자 그린우드 '밴드 7.79~7.81로 좁히면 투기 완화 가능'",
+ "one": "홍콩달러 페그 설계자 존 그린우드가 거래 밴드를 좁히면 환율 투기를 줄일 수 있다고 말했다\n· 그는 현행 7.75~7.85홍콩달러 밴드를 7.79~7.81홍콩달러로 좁히는 안을 학술적 논의라며 제시했다\n· 그린우드는 현재 연동환율제 변경에 관한 공식 논의는 없다고 밝혔다",
+ "facts": [
+  "무엇이: 홍콩달러 페그 설계자 존 그린우드가 거래 밴드를 좁히면 투기를 줄이고 연동환율제 안정성을 높일 수 있다고 말했다 [사실]",
+  "제안: 밴드를 7.75~7.85에서 7.79~7.81로 좁히는 안이며 순수 학술적 논의라고 강조했다 [사실]",
+  "공식 입장: HKMA 통화위원회 소위원회 위원인 그린우드는 현재 제도 변경에 관한 공식 논의는 없다고 했다 [사실]",
+  "배경: 홍콩달러는 1983년부터 7.80에 묶여 있고 7.75~7.85 밴드는 2005년 도입됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "밴드 축소(7.79~7.81) 발언과 공식 논의 없음은 검색 결과 요약(The Standard·AAStocks)으로 확인, 인터뷰 날짜는 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "그린우드 홍콩달러 밴드 축소 제안, 공식 논의 없음"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0838",
+ "num": 838,
+ "key": "mix-G2-064-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T17:57:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/bank-assets-in-india-hub-that-competes-with-singapore-jump-60",
+ "origTitle": "",
+ "headline": "싱가포르와 경쟁하는 인도 GIFT시티 은행 자산 60%↑…9월 말 1,930억 달러",
+ "src": [
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-29",
+   "u": "https://www.whalesbook.com/news/English/bankingfinance/GIFT-City-Banking-Assets-Hit-dollar193-Billion-Tax-Clarity-Key/6ae33b824fc30694db523f0e"
+  },
+  {
+   "o": "The Tribune",
+   "d": "2026-03",
+   "u": "https://www.tribuneindia.com/news/business/gift-citys-ifsc-banking-assets-surge-over-7x-in-five-years-cross-usd-106-billion/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르와 경쟁하는 인도 금융허브 은행 자산 60% 급증",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/bank-assets-in-india-hub-that-competes-with-singapore-jump-60"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "싱가포르와 경쟁하는 인도 GIFT시티 은행 자산 60%↑…9월 말 1,930억 달러",
+ "one": "싱가포르와 경쟁하는 인도 금융특구 GIFT시티의 은행 자산이 석 달 새 60% 늘었다\n· 은행 자산은 6월 1,206억 9,000만 달러에서 9월 말 1,930억 달러로 불어났다\n· 외화 대출과 글로벌 은행 참여 확대가 증가를 이끈 것으로 전해졌다",
+ "facts": [
+  "무엇이: 싱가포르와 경쟁하는 인도 GIFT시티의 은행 자산이 60% 늘었다 [제목]",
+  "규모: GIFT시티 은행 자산은 9월 말 1,930억 달러로 6월 1,206억 9,000만 달러에서 늘었고 외화 대출과 글로벌 은행 참여가 증가를 이끌었다 [사실]",
+  "앞선 수치: 은행 자산은 2026년 2월 1,067억 달러, 3월 1,110억 달러였고 3월 외부상업차입 노출은 410억 달러를 넘었다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "9월 말 1,930억 달러(6월 1,206억 9,000만 달러 대비 약 60% 증가)는 검색 결과의 단일 보도로 확인. 공식 IFSCA 자료로는 확인 못 함",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "GIFT시티 은행 자산 석 달 새 60% 증가"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "n-bbg-0821",
+ "num": 821,
+ "key": "mix-G2-019-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T20:06:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump",
+ "origTitle": "",
+ "headline": "AI 업계 중간선거 역풍 위험…트럼프와 밀착한 빅테크, 선거 뒤 AI 규제 싸움 대비",
+ "src": [
+  {
+   "o": "The Intercept",
+   "d": "2026-10-29",
+   "u": "https://theintercept.com/2026/10/29/midterms-election-money-ai-super-pac/"
+  },
+  {
+   "o": "Transformer",
+   "d": "2026-10",
+   "u": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프와 손잡은 AI 업계, 중간선거에서 잃을 처지",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump",
+   "s": "AI 업계가 트럼프와 손잡은 뒤 중간선거에서 정치적 입지를 잃을 수 있다는 분석이 나오면서 규제 환경 변화 위험이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "빅테크, 미 중간선거 뒤 AI 규제 싸움 대비",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/big-tech-prepares-for-ai-regulation-fight-after-us-midterms",
+   "s": "빅테크가 중간선거 뒤 의회 구도 변화에 맞춰 AI 규제 싸움을 준비하면서 연방·주 단위 규제 공방이 다시 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "트럼프에 건 AI 업계의 큰 베팅, 중간선거 뒤 역효과 위험",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/ai-s-big-bet-on-trump-risks-backfiring-after-the-midterms",
+   "s": "AI 업계가 트럼프에 크게 건 정치적 베팅이 중간선거 뒤 역효과를 낼 수 있다는 지적이 나오면서 업계의 정치 전략이 시험대에 올랐다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "AI 업계 중간선거 역풍 위험…트럼프와 밀착한 빅테크, 선거 뒤 AI 규제 싸움 대비",
+ "one": "트럼프 행정부와 밀착한 AI 업계가 미국 중간선거 뒤 정치적 역풍을 맞을 수 있다는 분석이 나왔다\n· 빅테크는 중간선거 뒤 벌어질 AI 규제 싸움에 대비하고 있다\n· AI 슈퍼팩들은 데이터센터·일자리 반발 속에 본선 경합 지역 지출을 크게 줄였다\n· 유권자 약 4분의 3은 AI 슈퍼팩 지원을 받은 후보를 덜 지지한다는 여론조사가 나왔다",
+ "facts": [
+  "무엇이: 트럼프와 손잡은 AI 업계가 중간선거에서 잃을 수 있고 빅테크는 선거 뒤 AI 규제 싸움에 대비한다 [제목]",
+  "정치자금: 데이터센터·일자리 우려로 여론이 나빠지자 AI 슈퍼팩들은 직접 지출의 5%만 본선 경합 지역에 썼고, 리딩더퓨처는 계열 단체를 통해 뉴욕 예비선거에서 830만 달러를 썼다 [사실]",
+  "여론: 데이터포프로그레스 조사에서 유권자 약 4분의 3이 AI 슈퍼팩 지원을 받은 후보를 덜 지지하게 된다고 답했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "AI 슈퍼팩의 본선 지출 축소와 유권자 반감 여론조사는 검색 결과로 확인. 중간선거 뒤 규제 싸움 대비는 제목 근거",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "중간선거 뒤 AI 규제 강화 싸움 예고"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

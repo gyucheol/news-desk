@@ -1,0 +1,158 @@
+{
+ "id": "auto",
+ "summary": "",
+ "state": {
+  "oem": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/ford-raises-outlook-even-as-war-inflation-exact-mounting-toll",
+    "nid": "n-bbg-0779",
+    "t": "포드의 3분기 조정 EBIT은 27억 달러로 3% 늘어 연간 전망 하단을 105억 달러로 올렸지만, 포드 블루 EBIT은 중동 분쟁과 원자재 비용에 10%, 포드 프로는 16% 줄었습니다 [사실]"
+   }
+  ],
+  "sales": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/carvana-reports-stronger-income-as-vehicles-sales-hit-record",
+    "nid": "n-bbg-0780",
+    "t": "카바나의 3분기 소매 판매는 21만 7,385대로 39% 늘어 분기 최대였고, 매출 80억 4,000만 달러와 순이익 4억 8,300만 달러도 모두 최대였습니다 [사실]"
+   }
+  ],
+  "autonomy": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/aurora-s-autonomous-trucks-on-track-for-2027-after-missing-goals",
+    "nid": "n-bbg-0782",
+    "t": "오로라는 무인 트럭을 20대 남짓 만들어 연말 200대 이상 목표에 크게 못 미쳤고 초기 생산 문제로 확대가 약 6주 늦어졌지만, 2027년 계획은 유지했습니다 [사실]"
+   }
+  ],
+  "battery": [
+   {
+    "d": "2026-10-29",
+    "o": "텔레그램 부의 나침반",
+    "u": "https://t.me/w_compass/7541",
+    "nid": "n-tg-0800",
+    "t": "삼성SDI의 3분기 잠정 영업이익은 4,078억 원으로 예상 1,901억 원의 2배를 넘었고 매출은 4조 6,856억 원이었지만, 순이익은 2,946억 원으로 예상보다 62% 적었습니다 [채널]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-28",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/carvana-reports-stronger-income-as-vehicles-sales-hit-record",
+   "nid": "n-bbg-0780",
+   "t": "카바나의 3분기 소매 판매는 21만 7,385대로 39% 늘었고 매출은 80억 4,000만 달러로 42% 늘었으며, 2026년 조정 EBITDA는 27억~30억 달러 범위 상단을 예상했습니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/ford-raises-outlook-even-as-war-inflation-exact-mounting-toll",
+   "nid": "n-bbg-0779",
+   "t": "포드의 3분기 매출은 495억 달러로 2% 줄었고 포드 블루 EBIT은 원자재 비용 상승 등으로 10% 줄었으며, 모델 e 손실은 11억 달러로 줄었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/aurora-s-autonomous-trucks-on-track-for-2027-after-missing-goals",
+   "nid": "n-bbg-0782",
+   "t": "오로라의 무인 트럭은 연말 200대 이상 목표에 견줘 20대 남짓만 만들어졌고, 12월 초 주당 20대 생산 속도에 이를 전망이며 3분기 영업손실은 2억 5,700만 달러였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-29",
+   "kind": "demand",
+   "o": "텔레그램 부의 나침반",
+   "u": "https://t.me/w_compass/7541",
+   "nid": "n-tg-0800",
+   "t": "삼성SDI 영업이익은 2025년 3분기 5,913억 원 손실에서 2026년 2분기 2,038억 원, 3분기 4,078억 원으로 늘었다는 전언입니다 [채널]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "c": [
+   {
+    "t": "수익 악화와 반대되는 투자도 나옵니다. 현대차그룹은 2032년까지 인도에 155억 달러를 투자하고 2028년부터 아틀라스 로봇을 조지아 공장에 투입할 계획이며, 도요타는 캐나다 생산을 유지하기로 했습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/asia-pacific/hyundai-motor-group-invest-155-billion-india-through-2032-2026-10-13/"
+     },
+     {
+      "d": "2026-10-15",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-15/toyota-commits-to-making-cars-in-canada-as-us-rivals-downsize"
+     },
+     {
+      "d": "2026-10-15",
+      "o": "로이터",
+      "u": "https://www.reuters.com/legal/transactional/penske-automotive-agrees-be-taken-private-by-penske-mitsui-2026-10-15/"
+     },
+     {
+      "d": "2026-10-19",
+      "o": "텔레그램 TNBfolio",
+      "u": "https://t.me/TNBfolio/71596"
+     }
+    ]
+   },
+   {
+    "t": "중국 수출 길이 막히는 신호도 쌓입니다. EU는 하이브리드 수입을 연 35만 대로 묶은 데 이어 중국이 대EU 하이브리드 수출을 절반으로 줄이기로 했다고 밝혔고, 미군은 가데나 기지에서 BYD 차량을 금지합니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-12",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/autos-transportation/eu-eyes-december-trade-initiatives-after-china-car-import-deal-2026-10-12/"
+     },
+     {
+      "d": "2026-10-23",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/china/eu-ministers-vow-tackle-china-shock-20-through-talks-with-beijing-2026-10-23/"
+     },
+     {
+      "d": "2026-10-23",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/asia-pacific/us-military-bans-byd-vehicles-strategic-air-base-japan-2026-10-23/"
+     }
+    ]
+   },
+   {
+    "t": "관세로 보호된 북미와 상용차는 이익이 버팁니다. GM은 3분기 조정 EBIT이 약 22% 늘어 200억 달러 자사주 매입을 승인했고, 포드도 조정 EBIT이 3% 늘어 연간 전망 하단을 105억 달러로 올렸으며, 볼보그룹은 북미 매출이 22% 늘었습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-20",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/autos-transportation/gms-core-profit-rises-22-strength-pickup-truck-business-2026-10-20/"
+     },
+     {
+      "d": "2026-10-23",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/volvo-profit-rises-truck-demand-north-america-europe"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/ford-raises-outlook-even-as-war-inflation-exact-mounting-toll"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) CATL의 상반기 가동률과 건설 중 설비는 검색 요약에서만 봤고, 포스코퓨처엠의 CATL 음극재 시험과 중국 밖 배터리 점유율(CATL 33.7%, 한국 3사 26.8%)은 텔레그램 전언으로만 확인했습니다. (2) BYD 상반기 실적은 2차 출처 요약으로만 확인했습니다. (3) 미국 232조 관세의 국가별 세율과 USMCA 검토 결과, 캐나다산 자동차 50% 관세가 실제로 2027년 1월 시행될지는 확인하지 못했습니다. (4) 피치 서브프라임 연체율은 7월에 산출 방식이 바뀌어 최신치 비교가 어렵습니다. (5) 프랑스·독일 배출 합의의 EU 의회·이사회 최종 결정, 중국의 가격 경쟁 억제(반내권) 정책 집행 상황, 도요타·포드·스텔란티스의 3분기 실적(10월 말 발표, GM은 10월 20일 발표분 반영), 미국 중고차 가격과 딜러 재고 일수는 확인하지 못했습니다. (6) 탄산리튬 현물·선물 값은 출처마다 날짜·수치가 조금씩 달라 Mining Weekly의 10월 12일 선물 종가만 썼고, 폭스바겐 이익률 전망 하향은 9월 18일 발표로 보도됐습니다. 이베코 응모율(10월 초 약 28.4%)은 미확인 보도입니다. (7) 이번 반영분 가운데 5대 배터리 업체 10월 생산 증가율과 JP모건 의견, 폭스콘-미쓰비시 합작 조건, 테슬라 3세대 옵티머스 양산 준비는 텔레그램 전언이고, 스카니아의 중국 전기트럭 확대는 기사 제목뿐입니다. 웨이모 2만 대 계획은 세마포 보도를 옮긴 것이며, 유럽의회 87.5% 합의는 회원국 협상 전 단계입니다. 데스크 뉴스(로이터·블룸버그)를 근거로 쓴 줄은 원문을 열지 않았고, 10월 21일 업데이트의 웹 조회는 검색 0회, 열람 0회였습니다. 10월 24일 저녁 업데이트도 검색·열람 없이 입력 뉴스 12건으로만 반영했습니다. 타타모터스 순이익 규모는 출처마다 약 125억 루피와 약 206억 루피로 엇갈려 쓰지 않았고, 테슬라의 호주·뉴질랜드 사이버트럭 취소와 스페이스X 합병 제안은 텔레그램 전언이라 쓰지 않았으며, 중국의 대EU 하이브리드 수출 절반 감축은 EU 최종 승인 전 단계이고 체리의 캐나다 생산 검토는 기사 제목뿐입니다. 10월 28일 저녁 업데이트는 검색·열람 없이 입력 뉴스 3건으로만 반영했습니다. 중국 브랜드 유럽 점유율 12.7%는 채널 전언(데이터포스 자료)이고, 포르쉐 이익 유지와 스텔란티스 주가·채권 급락은 기사 제목만 봤으며, 테슬라·스페이스X 합병의 반독점 쟁점과 사이버트럭 호주·뉴질랜드 중단은 텔레그램 전언입니다. 10월 29일 저녁 업데이트도 검색·열람 없이 입력 뉴스 4건으로만 반영했습니다. 삼성SDI 3분기 잠정 실적과 예상치는 텔레그램 전언이며 순이익이 예상을 크게 밑돈 이유와 사업부별(ESS·전기차) 이익은 확인하지 못했습니다. 포드 블루 EBIT 감소 중 중동 분쟁 영향의 크기와 오로라·볼보 1,000대 양해각서의 구속력도 확인하지 못했습니다.",
+ "note": "뉴스 4건 반영: 포드 연간 EBIT 전망 하단 105억 달러로 상향(포드 블루 10%↓), 카바나 3분기 소매 판매 39%↑ 사상 최대, 오로라 무인 트럭 목표 미달·삼성SDI 영업익 예상 2배(채널). 국면 ④ 그대로, 근거 4줄, 수치 4줄, 인사이트 c 고침, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0779",
+  "n-bbg-0780",
+  "n-bbg-0782",
+  "n-tg-0800"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

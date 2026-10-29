@@ -1,0 +1,243 @@
+{
+ "id": "consumer",
+ "summary": "",
+ "state": {
+  "dining": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/chipotle-sales-beat-as-new-chicken-chips-bring-diners-back",
+    "nid": "n-bbg-0768",
+    "t": "치폴레 3분기 매출은 32억 9,300만 달러로 9.6% 늘고 거래량이 0.8% 늘어 3개 분기 연속 증가했지만, 영업이익률은 13.7%로 1년 전보다 220bp 떨어졌습니다 [사실]"
+   },
+   {
+    "d": "2026-10-29",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67673",
+    "nid": "n-tg-0794",
+    "t": "윙스탑의 3분기 미국 동일매장 매출은 5.4% 줄어 연간 전망을 약 6.5~7% 감소로 낮췄지만, 2026년 순신규 매장 목표는 440~450개로 올렸습니다 [채널]"
+   }
+  ],
+  "retail": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales",
+    "nid": "n-bbg-0784",
+    "t": "스프라우츠의 3분기 동일점 매출은 거래 건수가 3.3% 줄며 0.9% 감소했고, 4분기 동일점 매출 전망을 -2~-4%로 내놓자 주가가 시간외에서 15~21% 급락했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/shein-warns-of-online-shopping-chaos-over-permit-delay-in-mexico",
+    "nid": "n-bbg-0777",
+    "t": "셰인은 멕시코의 인허가 지연으로 온라인 쇼핑에 혼란이 생길 수 있다고 경고했지만, 어떤 인허가가 늦어지는지와 영향 규모는 밝혀지지 않았습니다 [제목]"
+   }
+  ],
+  "alcohol": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/jose-cuervo-maker-posts-sharp-drop-in-sales-at-flagship-brand",
+    "nid": "n-bbg-0786",
+    "t": "베클레의 3분기 호세 쿠에르보 판매량은 11%, 전체 판매량은 9% 줄어 570만 상자였고, 매출은 15% 줄어든 92억 5,000만 페소, 순이익은 85% 줄었습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-28",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales",
+   "nid": "n-bbg-0784",
+   "t": "스프라우츠는 연간 동일점 매출 전망을 약 -1.7%, 희석 EPS를 약 4.80달러로 낮췄고, 3분기 매출은 약 5% 늘어난 23억 달러였지만 거래 건수는 3.3% 줄었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/jose-cuervo-maker-posts-sharp-drop-in-sales-at-flagship-brand",
+   "nid": "n-bbg-0786",
+   "t": "베클레의 3분기 판매량은 570만 상자(9리터)로 9% 줄었고 미국·캐나다는 3%, 멕시코는 12% 줄었으며, 순이익은 6억 3,300만 페소로 예상 10억 7,000만 페소를 밑돌았습니다 [사실]"
+  },
+  {
+   "d": "2026-10-29",
+   "kind": "supply",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/67673",
+   "nid": "n-tg-0794",
+   "t": "윙스탑은 3분기 순신규 매장 76개로 전 세계 3,331개가 됐고 2026년 순신규 목표를 440~450개(단위 성장 14.4~14.7%)로 올렸습니다 [채널]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/chipotle-sales-beat-as-new-chicken-chips-bring-diners-back",
+   "nid": "n-bbg-0768",
+   "t": "치폴레의 3분기 레스토랑 이익률은 23.3%로 1년 전 24.5%보다 낮아졌고 인건비 비중은 25.7%로 올랐으며, 객단가는 1.3% 늘었습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0778",
+   "t": "재검토 필요: 지분 약 20%를 쥔 코블러스 코브·아크하우스의 다인브랜즈 주당 39달러 인수 제안은 외식 노드가 ⑥ 공급 파괴·통합(인수합병) 쪽으로 가는 신호를 가리키며, 행동주의 압박을 받던 가맹 브랜드가 인수 대상이 되고 있기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-tg-0794",
+   "t": "재검토 필요: 윙스탑이 미국 동일매장 매출 5.4% 감소에도 순신규 매장 목표를 440~450개로 올린 것은 외식 노드 일부가 ③ 공급 과잉(수요보다 빠른 출점) 쪽에 있음을 가리키며, 매장이 늘수록 점포당 매출이 더 눌릴 수 있기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b1": [
+   {
+    "t": "점포·브랜드·식당 정리가 외식과 식료품 유통으로 넓어지면 남은 업체의 객수와 마진이 먼저 안정되는 ⑥ 공급 파괴·통합으로 옮겨 갈 가능성이 높습니다 [유추]",
+    "src": [
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/premier-inn-owner-whitbread-urges-shareholders-reject-corvexs-board-seat-demand-2026-10-13/"
+     },
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/us-grocer-albertsons-suspends-full-year-forecasts-amid-business-review-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "외식에서는 통합이 인수 제안으로 나타나기 시작했습니다. 지분 약 20%를 쥔 코블러스 코브·아크하우스가 애플비·IHOP 모회사 다인브랜즈에 주당 39달러 현금 인수를 제안했고 주가는 9.3% 올랐습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/applebee-s-owner-said-to-get-buyout-bid-from-cobblers-arkhouse"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "필수재 물량이 버틴다는 정보가 이어집니다. 코카콜라는 3분기 매출이 7% 늘어 연간 유기적 매출 성장 전망을 5% 이상으로 올렸고, 앞서 P&G의 1분기 유기적 매출도 판매량 주도로 4% 늘었습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/coca-cola-raises-full-year-guidance-buoyed-by-soda-sales"
+     },
+     {
+      "d": "2026-10-22",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/retail-consumer/pg-flags-bigger-hit-annual-profit-higher-commodity-costs-beats-revenue-estimates-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "여행 수요도 버팁니다. 힐튼의 3분기 객실당 매출은 5.8% 늘었고 로열캐리비안은 조정 EPS 6.57달러로 14% 늘려 연간 가이던스를 올렸으며, 앞서 아코르도 3분기 RevPAR가 4.9% 늘었습니다 [채널]",
+    "src": [
+     {
+      "d": "2026-10-27",
+      "o": "텔레그램 미국 주식 인사이더",
+      "u": "https://t.me/insidertracking/67490"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "텔레그램 미국 주식 인사이더",
+      "u": "https://t.me/insidertracking/67495"
+     },
+     {
+      "d": "2026-10-22",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/accor-lifts-outlook-middle-east-rebounds-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "외식 일부는 객수가 돌아옵니다. 치폴레의 3분기 거래량은 0.8% 늘어 3개 분기 연속 증가했고 매출은 9.6% 늘어 예상을 넘었습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/chipotle-sales-beat-as-new-chicken-chips-bring-diners-back"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "덮을 만큼 크지는 않습니다. 치폴레도 영업이익률이 220bp 떨어졌고, 같은 날 스프라우츠는 거래 건수 3.3% 감소로 연간 전망을 낮췄으며, 윙스탑 미국 동일매장 매출은 5.4%, 호세 쿠에르보 판매량은 11% 줄었습니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/chipotle-sales-beat-as-new-chicken-chips-bring-diners-back"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-29",
+      "u": "https://t.me/insidertracking/67673"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/jose-cuervo-maker-posts-sharp-drop-in-sales-at-flagship-brand"
+     }
+    ]
+   },
+   {
+    "t": "덮을 만큼 크지는 않습니다. 같은 주에 월풀은 올해 세 번째로 전망을 낮춰 연간 조정 EPS 적자를 제시했고 팝마트 매출은 45~50% 줄었으며, 레킷도 성장 전망을 낮춰 재량 소비재와 일부 생활용품의 약세가 이어집니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-10-26",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/pop-mart-s-quarterly-sales-drop-on-high-base-sluggish-demand"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/reckitt-lowers-outlook-as-supply-constraints-hit-us-sales"
+     }
+    ]
+   },
+   {
+    "t": "가계 쪽 바탕도 약합니다. 미국 9월 소매판매 증가분의 약 71%가 휘발유값이었고, 한국 3분기 민간소비는 0.2% 줄어 2022년 4분기 이후 처음 감소했습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-15",
+      "o": "미국 인구조사국(9월 소매판매 속보)",
+      "u": "https://www.census.gov/retail/sales.html"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "10월 17일 업데이트는 웹 검색 2회(열람 0회)로 미국 9월 소매판매(10월 15일)와 9월 CPI(10월 14일)만 확인했고, 두 수치는 기관 원문을 열지 않고 검색 요약에 근거합니다. 확인하지 못한 것: (1) 9월 CPI 전체·근원 상승률과 미시간대 10월 확정치는 확인하지 않아 소비자심리 근거는 10월 예비치(46.3)에 머물러 있습니다. (2) 블랙박스의 3분기 외식 객수, 월마트·코스트코·맥도날드의 최신 분기 실적은 아직 찾지 못했습니다. (3) 복서의 새 CEO와 이익 수치, XXX루츠 독일 거래의 대상·규모, 우버의 아프리카 후퇴 범위, 엉클 니어리스트 매각 조건, 엔테인 실적 세부, KFC 음료 교체와 펩시코 인도 공급 경고는 제목 수준입니다. (4) DJI·인스타360 점유율과 중국 전자상거래 가격 경쟁 시정은 텔레그램 전언입니다. (5) 위스키 재고 과잉·증류소 가동 중단, 2026년 캘리포니아 추가 포도밭 철거 면적, IEEPA 판결 뒤 소비재 실제 관세율은 여전히 공식 수치로 확인하지 못했습니다. (6) 노드 국면은 일부 기업 실적과 업계 집계에서 귀납한 것으로, 하위 업종 전체의 자본수익률·설비투자 자료로는 확인하지 못했습니다. (7) 10월 21일 저녁 업데이트는 검색·열람 없이 입력 뉴스 5건으로만 반영했고, 하스브로 조정 영업이익 52% 증가는 채널 전언이며, 아메리카나스 회생 종료 결정에 대한 항소 여부는 확인하지 못했습니다. (8) 10월 24일 저녁 업데이트는 검색·열람 없이 입력 뉴스 18건으로만 반영했습니다. P&G 원자재 비용 부담 약 14억 달러와 FCF 전망은 채널 전언이고, 치폴레 매출 둔화·셰인 FTC 합의·허쉬 단백질 초콜릿은 제목 수준이며, 유럽 명품 밸류에이션 10년 최저는 수치를 확인하지 못했습니다. (9) 10월 28일 저녁 업데이트는 검색·열람 없이 입력 뉴스 9건만으로 반영했고 블룸버그·로이터 기사는 열지 않았습니다. 힐튼 실적과 로열캐리비안 실적·가이던스 상향 폭은 채널 전언이며, 코카콜라 글로벌 판매량 5% 증가도 채널 수치입니다. 스카이댄스 감원 규모와 머스크 투자 조건, 달러제너럴 소송의 배상 청구액은 밝혀지지 않았고, 레킷 라이솔 공급 정상화 시점도 확인하지 못했습니다. (10) 10월 29일 저녁 업데이트는 검색·열람 없이 입력 뉴스 6건만으로 반영했고 블룸버그 기사는 열지 않았습니다. 윙스탑 실적·출점 목표와 치폴레의 2026년 출점·동일점 전망 유지는 채널 전언이고, 셰인의 멕시코 인허가 지연은 기사 제목뿐이라 어떤 인허가인지와 영향 규모를 확인하지 못했습니다. 다인브랜즈 이사회의 답과, 스프라우츠 사이클로스포라 영향(CFO의 60bp와 분기보고서의 \"크지 않다\"가 엇갈림)도 확인하지 못했습니다.",
+ "note": "뉴스 6건 반영: 스프라우츠 거래 건수 3.3% 감소·연간 전망 하향, 윙스탑 미국 동일매장 매출 5.4% 감소·쿠에르보 판매량 11% 감소, 다인브랜즈 주당 39달러 인수 제안. 국면 ④ 그대로, 근거 5줄, 수치 4줄, 인사이트 b1·c·c1 고침, 재검토 신호 2건, 검색 0회",
+ "applied": [
+  "n-bbg-0768",
+  "n-bbg-0777",
+  "n-bbg-0778",
+  "n-bbg-0784",
+  "n-bbg-0786",
+  "n-tg-0794"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

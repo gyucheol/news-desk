@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0788",
+ "num": 788,
+ "key": "mix-G-060-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T08:28:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/screwworm-detected-for-first-time-in-arizona-as-outbreak-spreads",
+ "origTitle": "",
+ "headline": "나선구더기 애리조나서 첫 확인…코치스 카운티 개에서 발견, 확산 지속",
+ "src": [
+  {
+   "o": "미 농무부 동식물검역소",
+   "d": "2026-10-28",
+   "u": "https://www.aphis.usda.gov/news/agency-announcements/usda-confirms-new-world-screwworm-arizona"
+  },
+  {
+   "o": "KJZZ",
+   "d": "2026-10-28",
+   "u": "https://www.kjzz.org/fronteras-desk/2026-10-28/arizona-reports-1st-new-world-screwworm-case-in-an-infected-dog-in-cochise-county"
+  }
+ ],
+ "items": [
+  {
+   "t": "나선구더기, 확산 이어지며 애리조나서 처음으로 발견돼",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/screwworm-detected-for-first-time-in-arizona-as-outbreak-spreads"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "나선구더기 애리조나서 첫 확인…코치스 카운티 개에서 발견, 확산 지속",
+ "one": "미 농무부가 10월 28일 애리조나에서 처음으로 나선구더기 감염을 확인했다\n· 감염은 코치스 카운티의 개에서 나왔고 당국은 반경 20km 감염 구역과 가축 이동 통제를 추진한다\n· 나선구더기는 뉴멕시코와 멕시코 소노라주에서 확산하고 있다",
+ "facts": [
+  "무엇이: 미 농무부 동식물검역소가 10월 28일 애리조나 코치스 카운티의 개에서 나선구더기 감염을 확인했고, 애리조나 첫 사례다 [사실]",
+  "대응: 당국은 20km 감염 구역 설정과 가축 이동 통제, 감시·포획 강화, 불임 파리 방사를 추진하며 약 100만 마리가 풀린 것으로 전해졌다 [사실]",
+  "확산: 나선구더기는 애리조나 남쪽 뉴멕시코와 멕시코 소노라주에서 퍼지고 있고, 멕시코산 생우 수입은 8월 더글러스에서 재개됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "미 농무부 동식물검역소 발표와 현지 언론 검색 결과 요약으로 애리조나 첫 확인, 코치스 카운티 개 감염, 20km 감염 구역 대응을 확인.",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "나선구더기 애리조나 확산에 가축 이동 통제"
+  }
+ ]
+}

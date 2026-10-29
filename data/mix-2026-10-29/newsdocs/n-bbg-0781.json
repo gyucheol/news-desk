@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0781",
+ "num": 781,
+ "key": "mix-G-047-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:11:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/fedex-boosts-outlook-as-momentum-builds-ahead-of-holiday-season",
+ "origTitle": "",
+ "headline": "페덱스, 연말 성수기 앞두고 연간 조정 EPS 전망 18~18.60달러로 상향",
+ "src": [
+  {
+   "o": "Transport Topics",
+   "d": "2026-10-28",
+   "u": "https://www.ttnews.com/articles/fedex-earnings-q3-2026-2"
+  }
+ ],
+ "items": [
+  {
+   "t": "페덱스, 연말 성수기 앞두고 탄력 붙어 전망 상향",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/fedex-boosts-outlook-as-momentum-builds-ahead-of-holiday-season"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "페덱스, 연말 성수기 앞두고 연간 조정 EPS 전망 18~18.60달러로 상향",
+ "one": "페덱스가 연말 성수기를 앞두고 연간 조정 EPS 전망을 주당 18~18.60달러로 올렸다\n· 9월로 끝난 분기 조정 EPS는 3.74달러였고 연간 매출은 약 12% 늘 것으로 내다봤다\n· 경영진은 강한 흐름 속에 성수기에 들어간다고 했지만 주가는 시간외 약 2.2% 내렸다",
+ "facts": [
+  "무엇이: 페덱스가 2026년 조정 EPS 전망을 주당 18~18.60달러로 올리고 매출 증가율을 약 12%로 제시했다 [사실]",
+  "실적: 9월 30일로 끝난 3개월 조정 EPS는 3.74달러였고, 회계연도 변경에 따라 2027 회계연도 1분기 실적으로 불린다 [사실]",
+  "성수기: 경영진은 강한 흐름과 서비스 경쟁력을 안고 성수기에 들어간다고 했으며 분석가들은 높은 가격에도 배송 수요가 견조하다고 봤다 [사실]",
+  "부담: 주가는 정규장 뒤 약 2.2% 내렸고, 그라운드 이코노미 물량의 한 자릿수 중반 감소와 국제 국내 물량 두 자릿수 감소가 예상된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "조정 EPS 전망 18~18.60달러 상향·분기 3.74달러·시간외 2.2% 하락은 트랜스포트토픽스·인덱스박스 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "ports",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "성수기 앞 페덱스 연간 실적 전망 상향"
+  }
+ ]
+}

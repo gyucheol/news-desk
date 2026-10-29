@@ -1,0 +1,87 @@
+{
+ "id": "n-bbg-0766",
+ "num": 766,
+ "key": "mix-G-018-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T02:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes",
+ "origTitle": "",
+ "headline": "영국 예산…재정적자 GDP 4.2%·3.4% 전망·길트 발행 2,506억 파운드로 증가, BOE 인상 압력 여전",
+ "src": [
+  {
+   "o": "OBR 경제·재정 전망",
+   "d": "2026-10-28",
+   "u": "https://obr.uk/efo/economic-and-fiscal-outlook-october-2026/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-28",
+   "u": "https://www.newsquawk.com/headlines/market-analysis-uk-budget-2026-no-fireworks-from-chancellor-healey-major-reform-kicked-to-2027-dmo-skewed-away-from-the-long-end-once-again"
+  },
+  {
+   "o": "MUFG Research",
+   "d": "2026-10-28",
+   "u": "https://www.mufgresearch.com/macro/european-macro-28-october-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 예산, BOE 금리 인상 압력 거의 덜지 못해",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes",
+   "s": "영국 예산이 물가와 재정 부담을 크게 덜지 못하면서 BOE가 받는 금리 인상 압력이 그대로 남았다 (제목 기준)"
+  },
+  {
+   "t": "OBR 적자 4.2%·3.4% 전망, DMO 길트 발행 2,506억 파운드",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64053",
+   "s": "OBR이 재정적자를 4.2%·3.4%로 전망하고 DMO가 길트 발행을 2,506억 파운드로 늘리면서 발행이 단기채 위주로 쏠리고 장기채는 51억 파운드 줄었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "title": "영국 예산…재정적자 GDP 4.2%·3.4% 전망·길트 발행 2,506억 파운드로 증가, BOE 인상 압력 여전",
+ "one": "영국 예산이 길트 발행을 늘렸지만 BOE의 금리 인상 압력은 덜지 못했다는 평가가 나왔다\n· OBR은 재정적자가 2026~27 회계연도 GDP 대비 4.2%, 2027~28 회계연도 3.4%가 될 것으로 내다봤다\n· DMO는 2026~27 회계연도 길트 발행을 2,506억 파운드로 4월 계획보다 늘렸다\n· 발행은 단기채가 977억 파운드로 27억 파운드 늘고 15년 이상 장기채는 51억 파운드 줄었다\n· 길트 금리는 2~3bp 내리는 데 그쳐 시장 반응은 크지 않았다",
+ "facts": [
+  "무엇이: OBR은 공공부문 순차입(재정적자)을 2026~27 회계연도 GDP 대비 4.2%, 2027~28 회계연도 3.4%로 전망했고 부채는 GDP 대비 83.8%에서 정점을 찍는다고 봤다 [사실]",
+  "길트 발행: DMO는 2026~27 회계연도 길트 발행을 2,506억 파운드로 44억 파운드 늘렸고, 시장 예상 범위(2,480억~2,520억 파운드) 안이었으며 길트 금리는 2~3bp 내렸다 [사실]",
+  "만기 구성: 단기채(1~7년) 977억 파운드(+27억), 중기채 535억 파운드(-25억), 장기채(15년 이상) 23억 파운드(-51억), 물가연동채 156억 파운드, T-bill 순발행 80억 파운드(+30억)다 [채널]",
+  "엇갈린 전언: 적자 전망이 기존 전망을 웃돌고 발행량이 로이터 컨센서스를 넘었다는 채널 전언은 시장 예상 범위 안이었다는 분석과 엇갈려 확인하지 못했다 [미확인]",
+  "BOE: 이번 예산은 BOE의 금리 인상 압력을 거의 덜지 못했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: OBR 적자 4.2%(2026~27)·3.4%(2027~28), DMO 길트 2,506억 파운드(+44억), 길트 금리 2~3bp 하락. '기존 전망 상회·컨센서스 상회'는 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "길트 발행 2,506억 파운드로 4월보다 증가"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "예산이 BOE 금리 인상 압력 덜지 못해"
+  }
+ ],
+ "updatedAt": "2026-10-29T09:40:10+09:00"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "n-bbg-0764",
+ "num": 764,
+ "key": "mix-G-016-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T07:10:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump",
+ "origTitle": "",
+ "headline": "캐나다은행 2.5%로 0.25%p 인상…주택시장 타격·매클럼 '미 재정적자 지속 불가능'",
+ "src": [
+  {
+   "o": "CBC",
+   "d": "2026-10-28",
+   "u": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140"
+  },
+  {
+   "o": "CP24",
+   "d": "2026-10-28",
+   "u": "https://www.cp24.com/news/canada/2026/10/28/bank-of-canada-raises-key-interest-rate-says-another-hike-possible/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐나다은행 금리 인상, 이미 침체된 주택시장에 타격",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump",
+   "s": "캐나다은행의 금리 인상이 이미 침체에 빠진 캐나다 주택시장을 더 짓누르면서 주택 수요 부담이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "매클럼 캐나다은행 총재, 미국 재정적자 비용 크고 지속 불가능 경고",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
+   "s": "매클럼 캐나다은행 총재가 미국 재정적자는 비용이 크고 지속 불가능하다고 경고하면서 미 재정 위험을 짚었다 (제목 기준)"
+  },
+  {
+   "t": "캐나다은행 총재 인터뷰: 매클럼이 금리를 올린 이유 설명",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-28/bank-of-canada-governor-interview-tiff-macklem-explains-why-he-hiked-rates",
+   "s": "매클럼 총재가 인터뷰에서 금리 인상 배경을 설명하면서 에너지발 물가가 전반적 인플레이션으로 번질 위험을 줄이겠다고 했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "realestate"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "캐나다은행 2.5%로 0.25%p 인상…주택시장 타격·매클럼 '미 재정적자 지속 불가능'",
+ "one": "캐나다은행이 10월 28일 기준금리를 2.5%로 0.25%p 올려 2023년 7월 이후 첫 인상에 나섰다\n· 매클럼 총재는 높은 에너지 가격이 전반적 인플레이션으로 번질 위험을 줄이려 올렸다고 설명했다\n· 캐나다은행은 2027년 물가 전망을 3.1%로 올렸고 추가 인상 가능성도 열어 뒀다\n· 금리 인상은 이미 침체에 빠진 캐나다 주택시장을 더 짓누르고 있다\n· 매클럼 총재는 미국 재정적자가 비용이 크고 지속 불가능하다고 경고했다",
+ "facts": [
+  "무엇이: 캐나다은행이 10월 28일 기준금리를 0.25%p 올린 2.5%로 정해 7회 연속 동결을 끝내고 2023년 7월 이후 처음 인상했다 [사실]",
+  "배경·전망: 매클럼은 에너지값 상승이 전반적 인플레이션으로 번질 위험을 이유로 들었고, 2027년 물가 전망을 3.1%(7월 2.0%)로 올리며 추가 인상 가능성을 열어 뒀다. 다음 결정은 12월 9일이다 [사실]",
+  "주택: 금리 인상이 이미 침체된 캐나다 주택시장에 타격을 주고 있다 [제목]",
+  "미국 재정: 매클럼은 미국 재정적자가 비용이 크고 지속 불가능하다고 경고했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "CBC·CP24 검색 결과 요약으로 10월 28일 2.5%로 0.25%p 인상, 2023년 7월 이후 첫 인상, 2027년 물가 전망 3.1% 확인. 주택시장 타격·미 재정적자 경고는 제목 기준.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "캐나다은행 기준금리 2.5%로 0.25%p 인상"
+  },
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "금리 인상에 침체된 캐나다 주택시장 타격"
+  }
+ ],
+ "updatedAt": "2026-10-29T09:40:10+09:00"
+}

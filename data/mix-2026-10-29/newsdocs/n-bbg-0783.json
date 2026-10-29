@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0783",
+ "num": 783,
+ "key": "mix-G-049-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears",
+ "origTitle": "",
+ "headline": "서비스나우, 분기 매출 전망에 AI 우려 재점화…3분기 EPS 예상 하회에 주가 하락",
+ "src": [
+  {
+   "o": "서비스나우 뉴스룸",
+   "d": "2026-10-28",
+   "u": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+  },
+  {
+   "o": "Investing.com 컨콜 전문",
+   "d": "2026-10-28",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-q3-2026-revenue-beats-shares-sink-after-hours-93CH-4981127"
+  }
+ ],
+ "items": [
+  {
+   "t": "서비스나우, 분기 매출 전망에 AI 우려 되살아나며 하락",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "서비스나우, 분기 매출 전망에 AI 우려 재점화…3분기 EPS 예상 하회에 주가 하락",
+ "one": "서비스나우가 분기 매출 전망을 내놓은 뒤 AI 우려가 다시 불거지며 주가가 떨어졌다\n· 3분기 구독 매출은 39억 8,800만 달러로 21% 늘었지만 조정 EPS 1.00달러는 예상 1.02달러에 못 미쳤다\n· 4분기 구독 매출 전망은 42억 4,500만~42억 5,500만 달러로 22.5~23% 증가 수준이다",
+ "facts": [
+  "무엇이: 서비스나우 주가가 3분기 실적과 4분기 전망 발표 뒤 시간외에서 크게 떨어졌다 [사실]",
+  "실적: 3분기 구독 매출은 39억 8,800만 달러로 21%, 총매출은 41억 1,000만 달러로 예상 40억 9,000만 달러를 조금 웃돌았지만 조정 EPS 1.00달러는 예상 1.02달러에 못 미쳤다 [사실]",
+  "전망: 4분기 구독 매출 전망은 42억 4,500만~42억 5,500만 달러(22.5~23% 증가)이며 잔여수행의무는 297억 달러로 22% 늘었다 [사실]",
+  "AI: 2026년 AI 연간계약가치 목표를 17억 달러로 올렸고 AI 순신규 계약가치는 65% 늘었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(서비스나우 실적 발표·컨콜)으로 구독 매출 21%↑, EPS 1.00달러(예상 1.02달러), 4분기 전망, 시간외 하락 확인. 'AI 우려 재점화' 해석은 제목 기준",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "분기 매출 전망에 AI 대체 우려 재점화"
+  }
+ ]
+}

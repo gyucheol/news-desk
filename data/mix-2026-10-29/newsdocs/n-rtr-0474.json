@@ -1,0 +1,118 @@
+{
+ "added": "텔레그램 1건 — HP·에이서(닛케이 보도상 에이수스 포함)가 AI발 부품값 급등에 태국·베트남 PC 생산 일부를 중국으로 되돌리는 내용이 추가됨",
+ "basis": "verified",
+ "check": "이번 새 글(HP·에이서 중국 생산 회귀)은 검색 결과 요약(닛케이 아시아 보도, 2026-10-28)으로 확인. 닛케이는 에이수스도 포함. 기존 사실·꼬리표는 기존 문서 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 메모리 부족 속에 세계 3분기 스마트폰 출하가 1년 전보다 약 20% 줄어 14년 만의 최악이었고 샤오미 출하는 30% 넘게 줄었으며, 중국 출하는 IDC 기준 15.4%, 옴디아 기준 12% 줄었다 [사실]",
+  "삼성: ET뉴스에 따르면 삼성은 4분기 부품 주문을 연초 계획보다 약 20% 줄여 갤럭시 A 생산을 연간 약 1,000만 대 축소하며, 삼성은 확인하기 어렵다고 했다 [사실]",
+  "아마존: 내부 문서는 2026년 디바이스 매출총손실을 목표 4억 3,800만 달러보다 큰 6억 1,200만 달러로 보고 메모리 가격 급등을 원인으로 들었다 [채널]",
+  "PC 생산: 닛케이 보도에 따르면 HP·에이수스·에이서가 AI발 메모리·저장장치 부품값 급등에 태국·베트남 PC 생산 일부를 중국으로 되돌리고 있으며 물량은 럭스셰어 등 중국 신생 위탁생산사로 간다 [사실]",
+  "해석: 메모리 가격 상승이 기기 값 인상과 생산지 재조정으로 이어지면서 기기 수요 위축이 길어질 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "메모리 부족 기기 타격…스마트폰 출하 20%↓·삼성 갤럭시A 20% 감산·HP·에이서 中 생산 회귀",
+ "id": "n-rtr-0474",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "메모리 부족 속 세계 스마트폰 출하, 14년 만의 최악 3분기",
+   "u": "https://www.reuters.com/business/retail-consumer/global-smartphone-shipments-record-worst-third-quarter-14-years-amid-memory-2026-10-12/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "삼성전자가 메모리 공급 부족과 가격 상승에 갤럭시 A 생산을 약 20%, 연간 약 1,000만 대 줄이면서 보급형 스마트폰 공급이 줄게 됐다",
+   "t": "삼성, 메모리 부족에 갤럭시 A 생산 약 20% 감축",
+   "u": "https://t.me/insidertracking/67407"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "아마존이 메모리 가격 급등으로 올해 디바이스 매출총손실이 6억 1,200만 달러로 커질 것으로 보면서 에코·킨들·파이어 TV 값을 올렸다",
+   "t": "아마존, 메모리 값 급등에 디바이스 손실 6억 1,200만 달러 전망",
+   "u": "https://t.me/insidertracking/67514"
+  },
+  {
+   "t": "HP·에이서, AI발 부품값 폭등에 동남아서 중국으로 생산 유턴",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-29",
+   "u": "https://t.me/HANAchina/71177",
+   "s": "HP·에이서가 AI발 부품값 폭등을 견디지 못하고 동남아 생산 일부를 중국으로 되돌리면서 PC 공급망의 탈중국 흐름이 뒤집히고 있다"
+  }
+ ],
+ "key": "split-G3-082-2026-10-20",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 474,
+ "one": "메모리 부족과 AI발 부품값 급등이 스마트폰·PC·가전 기기의 판매와 생산, 수익성을 끌어내리고 있다\n· 세계 3분기 스마트폰 출하가 약 20% 줄어 14년 만의 최악이었고 샤오미는 30% 넘게 줄었다\n· 삼성전자는 갤럭시 A 생산을 약 20%, 연간 약 1,000만 대 줄이고 플래그십에 집중할 계획이다\n· 삼성은 중급형 폰 원가의 약 50%가 메모리·칩셋이라며 내년 갤럭시 A를 10% 이상 더 줄일 계획이다\n· 아마존은 올해 디바이스 매출총손실이 목표 4억 3,800만 달러보다 큰 6억 1,200만 달러로 늘 것으로 봤다\n· 아마존은 이미 에코·킨들·파이어 TV 기기 값을 올렸다\n· HP·에이서 등 PC 업체는 AI발 부품값 급등에 태국·베트남 생산 일부를 중국으로 되돌리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T07:31:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Developing Telecoms",
+   "u": "https://www.developingtelecoms.com/telecom-technology/telecom-devices-platforms/20954-global-smartphone-shipments-fall-20-as-memory-costs-push-up-prices.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Analytics Insight",
+   "u": "https://www.analyticsinsight.net/news/global-smartphone-market-slumps-as-memory-chip-shortage-drives-up-prices"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "GSMArena",
+   "u": "https://www.gsmarena.com/samsung_is_reportedly_making_20_fewer_galaxy_a_phones_this_quarter-news-75211.php"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "Digital Trends",
+   "u": "https://www.digitaltrends.com/phones/buying-a-cheap-samsung-galaxy-phone-could-soon-get-a-lot-harder/"
+  },
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-10-28",
+   "u": "https://asia.nikkei.com/business/technology/tech-asia/hp-and-asus-shift-some-pc-making-back-to-china-due-to-ai-driven-cost-hikes"
+  },
+  {
+   "o": "Tom's Hardware",
+   "d": "2026-10-28",
+   "u": "https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain"
+  }
+ ],
+ "tags": [],
+ "title": "메모리 부족 기기 타격…스마트폰 출하 20%↓·삼성 갤럭시A 20% 감산·HP·에이서 中 생산 회귀",
+ "updatedAt": "2026-10-29T09:40:10+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/global-smartphone-shipments-record-worst-third-quarter-14-years-amid-memory-2026-10-12/",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "AI발 메모리 부품값 급등에 PC 생산 중국 회귀"
+  },
+  {
+   "ind": "tech",
+   "node": "devices",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "메모리 부족에 갤럭시 A 생산 약 20% 감축"
+  }
+ ]
+}

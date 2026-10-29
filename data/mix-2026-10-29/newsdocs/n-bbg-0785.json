@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0785",
+ "num": 785,
+ "key": "mix-G-052-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T07:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/japan-credit-risk-jumps-most-since-2022-pressuring-bond-market",
+ "origTitle": "",
+ "headline": "일본 신용위험 2022년 이후 최대폭 상승…국채시장에 압박",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-09-24",
+   "u": "https://www.cnbc.com/2026/09/24/japan-jgb-bond-yield-treasurys.html"
+  },
+  {
+   "o": "트레이딩이코노믹스",
+   "d": "2026-10-28",
+   "u": "https://tradingeconomics.com/japan/government-bond-yield"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본 신용위험 2022년 이후 최대폭 상승, 국채시장 압박",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/japan-credit-risk-jumps-most-since-2022-pressuring-bond-market"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "title": "일본 신용위험 2022년 이후 최대폭 상승…국채시장에 압박",
+ "one": "일본 신용위험이 2022년 이후 가장 큰 폭으로 뛰었고 10년물 국채금리는 2.8%대에 머물렀다\n· 신용위험 상승은 일본 국채시장을 압박하고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 일본 신용위험이 2022년 이후 가장 크게 올랐다 [제목]",
+  "국채시장: 신용위험 상승이 일본 국채시장을 압박하고 있다 [제목]",
+  "배경: 일본 10년물 국채금리는 9월 24일 3.055%로 1996년 8월 이후 최고였고, 10월 28일에는 2.83% 안팎이었다 [사실]"
+ ],
+ "basis": "title",
+ "check": "일본 CDS 급등을 다룬 독립 출처를 찾지 못함. 배경의 10년물 금리 수준만 CNBC·트레이딩이코노믹스 검색 결과 요약으로 확인.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "일본 신용위험 2022년 이후 최대폭 상승"
+  }
+ ]
+}

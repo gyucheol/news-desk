@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0777",
+ "num": 777,
+ "key": "mix-G-042-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T04:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/shein-warns-of-online-shopping-chaos-over-permit-delay-in-mexico",
+ "origTitle": "",
+ "headline": "셰인, 멕시코 인허가 지연에 온라인 쇼핑 혼란 경고",
+ "src": [],
+ "items": [
+  {
+   "t": "셰인, 멕시코 인허가 지연에 온라인 쇼핑 대혼란 경고",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/shein-warns-of-online-shopping-chaos-over-permit-delay-in-mexico"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "셰인, 멕시코 인허가 지연에 온라인 쇼핑 혼란 경고",
+ "one": "셰인이 멕시코의 인허가 지연으로 온라인 쇼핑에 혼란이 생길 수 있다고 경고했다\n· 인허가 지연이 길어지면 셰인의 멕시코 온라인 판매와 배송에 차질이 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 셰인이 멕시코 인허가 지연으로 온라인 쇼핑에 혼란이 올 수 있다고 경고했다 [제목]",
+  "세부: 어떤 인허가가 늦어지는지와 영향 규모는 검색에서 찾지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색에서 셰인 멕시코 인허가 지연 보도를 찾지 못함(관련 결과는 2024~2025년 수입 과세·배송 문제뿐). 제목 기준",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "멕시코 인허가 지연에 온라인 쇼핑 차질 우려"
+  }
+ ]
+}

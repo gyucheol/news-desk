@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0771",
+ "num": 771,
+ "key": "mix-G-036-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T01:07:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/california-leads-84-billion-slate-of-midterm-muni-bond-measures",
+ "origTitle": "",
+ "headline": "미 중간선거 지방채 발의 840억 달러…캘리포니아가 주도",
+ "src": [
+  {
+   "o": "캘매터스",
+   "d": "2026-10",
+   "u": "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/"
+  },
+  {
+   "o": "California Today",
+   "d": "2026-10",
+   "u": "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캘리포니아 주도로 840억 달러 규모 중간선거 지방채 발의안",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/california-leads-84-billion-slate-of-midterm-muni-bond-measures"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "미 중간선거 지방채 발의 840억 달러…캘리포니아가 주도",
+ "one": "미 중간선거에서 캘리포니아를 필두로 840억 달러 규모의 지방채 발행안이 표결에 부쳐진다\n· 캘리포니아 투표에는 주택 112억 5,000만 달러, 주택 구입 대출 250억 달러 채권안이 올랐다\n· 면역학 연구용 84억 달러 채권안도 11월 3일 캘리포니아 주민투표에 함께 부쳐진다",
+ "facts": [
+  "무엇이: 캘리포니아가 주도하는 840억 달러 규모의 중간선거 지방채 발의안이 표결에 오른다 [제목]",
+  "캘리포니아: 11월 3일 주민투표에 주택채권 112억 5,000만 달러(1호), 중산층 주택 구입 대출 지원 채권 최대 250억 달러(37호), 면역학 연구 채권 84억 달러(38호)가 올라 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "캘리포니아 11월 3일 주민투표 채권안 3건(합계 약 446억 5,000만 달러)은 캘매터스 등 검색 결과 요약으로 확인. 전국 합계 840억 달러는 확인 못 함.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "캘리포니아 주도 840억 달러 지방채 발행안 표결"
+  }
+ ]
+}

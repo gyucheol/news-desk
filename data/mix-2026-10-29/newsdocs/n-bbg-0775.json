@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0775",
+ "num": 775,
+ "key": "mix-G-040-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T04:14:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says",
+ "origTitle": "",
+ "headline": "미 법무부, 엔비디아의 129억 달러 허깅페이스 인수에 반독점 문의",
+ "src": [
+  {
+   "o": "더넥스트웹",
+   "d": "2026-10-28",
+   "u": "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry"
+  },
+  {
+   "o": "AI Weekly",
+   "d": "2026-10-28",
+   "u": "https://aiweekly.co/alerts/nvidias-1293b-hugging-face-deal-draws-doj-antitrust-probe"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 법무부, 엔비디아의 허깅페이스 인수 거래 문의…로이터 보도",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "미 법무부, 엔비디아의 129억 달러 허깅페이스 인수에 반독점 문의",
+ "one": "미 법무부가 엔비디아의 129억 3,000만 달러 허깅페이스 인수를 두고 반독점 문의에 나섰다\n· 법무부는 인수로 엔비디아가 AI 모델 배포의 핵심 통로를 쥐고 경쟁사를 해칠 수 있는지 살피고 있다\n· 엔비디아는 2027년 상반기 거래 종결을 예상하며 경쟁 칩·클라우드에도 문을 열어 두겠다는 입장이다",
+ "facts": [
+  "무엇이: 미 법무부 반독점 담당자들이 엔비디아의 129억 3,000만 달러 허깅페이스 인수가 AI 배포의 핵심 지점을 장악하게 하는지, 경쟁사를 해칠 수 있는지 묻고 있다고 로이터가 전했다 [사실]",
+  "범위: 이번 문의는 바이든 정부 때 시작된 엔비디아 판매 관행·전략 투자·과거 인수(Run:ai, SchedMD, 2025년 그록 라이선스 계약) 조사의 연장선이다 [사실]",
+  "입장: 엔비디아는 2027년 상반기 거래 종결을 예상하고 허깅페이스가 경쟁 칩·클라우드·소프트웨어를 계속 지원한다고 밝혀 왔으며, 양사는 이번 보도에 논평하지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "더넥스트웹·AI Weekly 검색 결과 요약으로 법무부 문의, 인수가 129억 3,000만 달러, 2027년 상반기 종결 예상, 조사 범위를 확인.",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "엔비디아 허깅페이스 인수로 AI 배포 경쟁 위축 우려"
+  }
+ ]
+}

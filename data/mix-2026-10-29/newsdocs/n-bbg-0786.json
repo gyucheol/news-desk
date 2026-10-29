@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0786",
+ "num": 786,
+ "key": "mix-G-055-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T07:43:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/jose-cuervo-maker-posts-sharp-drop-in-sales-at-flagship-brand",
+ "origTitle": "",
+ "headline": "호세 쿠에르보 제조사 베클레, 주력 브랜드 판매량 11%↓…3분기 순이익 85% 급감",
+ "src": [
+  {
+   "o": "1027 WBOW(로이터 전재)",
+   "d": "2026-10-28",
+   "u": "https://1027wbow.com/2026/10/28/sobering-quarter-for-jose-cuervo-distiller-as-profit-slumps/"
+  }
+ ],
+ "items": [
+  {
+   "t": "호세 쿠에르보 제조사, 주력 브랜드 매출 급감",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/jose-cuervo-maker-posts-sharp-drop-in-sales-at-flagship-brand"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "호세 쿠에르보 제조사 베클레, 주력 브랜드 판매량 11%↓…3분기 순이익 85% 급감",
+ "one": "호세 쿠에르보 제조사 베클레의 3분기 순이익이 85% 급감하며 주력 브랜드 판매 부진이 드러났다\n· 쿠에르보 판매량은 11% 줄었고 전체 판매량은 9% 감소한 570만 상자(9리터)였다\n· 매출은 15% 줄어든 92억 5,000만 페소, 순이익은 6억 3,300만 페소로 예상을 밑돌았다",
+ "facts": [
+  "무엇이: 베클레의 주력 브랜드 호세 쿠에르보 판매량이 3분기에 1년 전보다 11% 줄었다 [사실]",
+  "실적: 순이익은 85% 줄어든 6억 3,300만 페소로 예상 10억 7,000만 페소를 밑돌았고, 매출은 15% 줄어든 92억 5,000만 페소였다 [사실]",
+  "지역: 전체 판매량은 9% 감소한 570만 상자였고 미국·캐나다는 3%, 멕시코는 에너지음료 브랜드 매각 영향으로 12% 줄었다 [사실]",
+  "환율: 페소 강세가 해외 매출의 페소 환산액을 줄였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "순이익 85% 감소·매출 15% 감소·쿠에르보 판매량 11% 감소는 로이터 기사 전재본을 담은 검색 결과 요약으로 확인(원문은 열지 않음)",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "alcohol",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호세 쿠에르보 판매량 11% 감소"
+  }
+ ]
+}

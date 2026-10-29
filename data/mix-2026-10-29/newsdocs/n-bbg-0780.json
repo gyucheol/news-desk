@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0780",
+ "num": 780,
+ "key": "mix-G-046-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/carvana-reports-stronger-income-as-vehicles-sales-hit-record",
+ "origTitle": "",
+ "headline": "카바나 3분기 소매 판매 21만 7,385대 사상 최대…순이익 4억 8,300만 달러로 84%↑",
+ "src": [
+  {
+   "o": "StockTitan(카바나 보도자료)",
+   "d": "2026-10-28",
+   "u": "https://www.stocktitan.net/news/CVNA/carvana-announces-record-third-quarter-2026-4exvkfshf6p5.html"
+  },
+  {
+   "o": "Automotive News",
+   "d": "2026-10-28",
+   "u": "https://www.autonews.com/retail/an-carvana-q3-earnings-1028/"
+  }
+ ],
+ "items": [
+  {
+   "t": "카바나, 차량 판매 사상 최대에 이익 증가 발표",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/carvana-reports-stronger-income-as-vehicles-sales-hit-record"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "카바나 3분기 소매 판매 21만 7,385대 사상 최대…순이익 4억 8,300만 달러로 84%↑",
+ "one": "카바나가 3분기 소매 판매 대수와 매출에서 분기 사상 최대를 기록하고 이익도 크게 늘렸다\n· 소매 판매는 21만 7,385대로 39% 늘었고 매출은 80억 4,000만 달러로 42% 증가했다\n· 순이익은 4억 8,300만 달러로 1년 전 2억 6,300만 달러에서 늘었고 조정 EBITDA는 8억 달러였다",
+ "facts": [
+  "무엇이: 카바나가 10월 28일 3분기 소매 판매 21만 7,385대(전년 대비 39%↑)로 분기 최대를 발표했다 [사실]",
+  "실적: 매출 80억 4,000만 달러(42%↑, 예상 77억 달러 상회), 순이익 4억 8,300만 달러(전년 2억 6,300만 달러), 조정 EBITDA 8억 달러로 모두 최대다 [사실]",
+  "전망: 4분기 소매 판매가 전 분기보다 늘고 2026년 조정 EBITDA는 27억~30억 달러 범위 상단을 예상했다 [사실]",
+  "반응: 주당순이익은 예상에 못 미쳤지만 시간외 주가가 8.13% 올랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "카바나 실적 보도자료(StockTitan)·Automotive News·Investing.com 검색 결과 요약으로 소매 판매 21만 7,385대, 매출 80억 4,000만 달러, 순이익 4억 8,300만 달러, 조정 EBITDA 8억 달러, 연간 전망 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "카바나 3분기 소매 판매 39% 늘어 사상 최대"
+  }
+ ]
+}

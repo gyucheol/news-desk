@@ -1,0 +1,111 @@
+{
+ "basis": "partial",
+ "check": "대형 보험사 대출 재개 기사 자체는 검색으로 찾지 못함. 메이지야스다생명의 하반기 사모대출(펀드 대출) 신규 투자 재개는 BigGo Finance 요약으로, 10대 생보 중 9곳 장기금리 3% 이상 전망·다이이치생명 국채 1조 엔 이상 교체는 시사통신 보도(nippon.com) 요약으로 확인. 나머지는 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 일본 대형 보험사들이 금리 상승으로 수익이 늘자 대출을 재개하고 있다 [제목]",
+  "메이지야스다: 미국 일부 펀드의 신용 우려로 상반기에 멈췄던 사모대출(펀드 대출) 신규 투자를 2026회계연도 하반기에 재개하며, 위험 점검 결과 회사에 미칠 영향은 제한적이라고 봤다 [사실]",
+  "금리 전망: 10대 생보 중 9곳이 하반기 운용계획에서 내년 3월 말 장기금리 3% 이상을 예상했고, 다이이치생명은 초장기물 중심 일본 국채 1조 엔 이상을 교체할 계획이다 [사실]",
+  "국내 자금: 일본 보험사들이 해외 자금을 서서히 국내로 되돌릴 채비를 하고, 미쓰비시UFJ는 정책 위험을 지켜보며 일본 국채 매수를 재개했다 [제목]",
+  "유동성: 미무라 아쓰시 재무관은 방콕 IMF 회의에서 GPIF 투자가 세계 금융시장 유동성을 지탱한다고 말했고, 씨티의 슈테파니 폰 프리데부르크는 AI발 유동성 경색 속에 국부펀드들이 위안·호주달러·홍콩달러·싱가포르달러 등 비달러 채권 조달을 늘린다고 말했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "日 대형 보험사, 금리 상승에 대출 재개…생보 9곳 장기금리 3% 전망·MUFG 국채 매수·GPIF '유동성 지탱'",
+ "id": "n-rtr-0329",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "jpins"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "미무라 일본 재무관이 GPIF의 투자가 세계 금융시장 유동성을 받치고 있다고 말하면서, GPIF 자산배분 변화가 세계 시장에 미칠 파장이 다시 주목받았다",
+   "t": "미무라 '日 GPIF가 세계 시장 유동성 지탱'",
+   "u": "https://www.reuters.com/world/asia-pacific/japans-gpif-supporting-global-market-liquidity-mimura-says-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "미쓰비시UFJ가 정책 위험을 지켜보면서도 일본 국채 매수에 다시 나서면서, 일본 대형 금융사의 국내 채권 수요가 살아나고 있다 (제목 기준)",
+   "t": "MUFG, 정책 위험 주시하며 일본 국채 매수 재개",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/mufg-wades-back-into-japanese-bonds-with-eye-on-policy-risks"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "씨티 은행가가 AI발 유동성 경색 속에 국부펀드들이 위안·호주달러 등 비달러 채권으로 눈을 돌린다고 말하면서, 달러 채권에 몰리던 조달 수요가 분산되고 있다",
+   "t": "씨티 'AI발 유동성 경색에 국부펀드, 비달러 채권으로'",
+   "u": "https://www.reuters.com/business/finance/sovereign-funds-turn-non-dollar-bonds-amid-ai-driven-liquidity-crunch-citi-2026-10-15/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "일본 보험사들이 해외에 둔 자금을 점진적으로 국내로 되돌릴 준비를 하면서, 해외 채권 수요가 줄고 일본 국채 수요가 늘 수 있다 (제목 기준)",
+   "t": "일본 보험사들, 해외 자금 서서히 본국으로 들여올 채비",
+   "u": "https://www.reuters.com/business/finance/japanese-insurers-are-poised-bring-money-back-home-gradually-2026-10-15/"
+  },
+  {
+   "t": "일본 대형 보험사, 금리 상승에 수익 늘자 대출 재개",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/japan-s-top-insurers-revive-lending-as-rates-boost-returns",
+   "s": "일본 대형 보험사들이 금리 상승으로 운용 수익이 늘자 대출을 재개하면서 국채 밖 대출 자산으로도 운용 자금이 다시 흘러가고 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G3-014-2026-10-15",
+ "nodes": [
+  "jpins/assets",
+  "jpins/rates",
+  "macro/liquidity"
+ ],
+ "num": 329,
+ "one": "일본 대형 보험사들이 금리 상승으로 운용 수익이 좋아지자 대출을 되살리고 국내로 자금을 들일 채비를 하고 있다\n· 메이지야스다생명은 미국 일부 펀드 신용 우려로 멈췄던 사모대출 신규 투자를 하반기에 재개한다\n· 일본 10대 생보 중 9곳은 내년 3월 말 장기금리가 3% 이상일 것으로 내다봤다\n· 일본 보험사들은 해외에 둔 자금을 서서히 국내로 되돌릴 채비를 하고 있다\n· 미쓰비시UFJ는 정책 위험을 지켜보면서 일본 국채 매수를 재개했다\n· 미무라 재무관은 세계 최대 연기금 GPIF의 투자가 세계 금융시장 유동성을 지탱한다고 말했다\n· 씨티는 AI발 유동성 경색 속에 국부펀드들이 비달러 채권 조달을 늘리고 있다고 전했다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T11:25:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/bf7875a0-9bf6-425e-9de8-323b87f2e9d2"
+  },
+  {
+   "o": "Nippon.com(시사통신)",
+   "d": "2026-10-27",
+   "u": "https://www.nippon.com/en/articles/-/56365"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10",
+   "u": "https://finance.biggo.com/news/5877f4b0-a500-4a11-98f6-9e80fadd61ec"
+  }
+ ],
+ "tags": [],
+ "title": "日 대형 보험사, 금리 상승에 대출 재개…생보 9곳 장기금리 3% 전망·MUFG 국채 매수·GPIF '유동성 지탱'",
+ "updatedAt": "2026-10-30T12:33:44+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/japans-gpif-supporting-global-market-liquidity-mimura-says-2026-10-14/",
+ "vc": [
+  {
+   "ind": "jpins",
+   "node": "assets",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "일본 대형 보험사, 금리 상승에 대출 재개"
+  },
+  {
+   "ind": "jpins",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "10대 생보 중 9곳, 내년 3월 장기금리 3% 이상 예상"
+  }
+ ],
+ "added": "블룸버그 1건 — 일본 대형 보험사들이 금리 상승으로 수익이 늘자 대출을 재개하는 내용이 추가됨 (제목 기준)"
+}

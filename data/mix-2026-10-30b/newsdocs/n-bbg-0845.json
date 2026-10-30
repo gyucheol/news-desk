@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0845",
+ "num": 845,
+ "key": "mix-G1-026-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T08:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/topix-overhaul-kicks-off-three-things-investors-need-to-know",
+ "origTitle": "",
+ "headline": "토픽스 사상 최대 개편 시작…683개 종목 비중 단계 축소·패시브 매매 약 600억 달러",
+ "src": [
+  {
+   "o": "investingLive",
+   "d": "2026-10",
+   "u": "https://investinglive.com/stock-market-update/topix-explained-why-japan-s-biggest-ever-index-overhaul-will-cull-683-stocks-by-2028/"
+  },
+  {
+   "o": "Business Insider Japan",
+   "d": "2026-10",
+   "u": "https://www.businessinsider.jp/article/2610-topix-reform-2026/"
+  },
+  {
+   "o": "Medusa Japan",
+   "d": "2026-10",
+   "u": "https://medusajapan.net/blog/topix-cull-683-companies-foreign-partners-ai-screening-japan-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본 토픽스 개편 시작…투자자가 알아야 할 세 가지",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/topix-overhaul-kicks-off-three-things-investors-need-to-know"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "jpins"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "jpins/securities"
+ ],
+ "title": "토픽스 사상 최대 개편 시작…683개 종목 비중 단계 축소·패시브 매매 약 600억 달러",
+ "one": "일본 대표 주가지수 토픽스의 사상 최대 개편이 시작돼 683개 종목이 단계적으로 지수에서 빠진다\n· 제외 종목의 비중은 2028년 7월까지 8차례에 걸쳐 분기마다 줄고 35개 종목이 새로 들어간다\n· 토픽스를 따르는 패시브 자금은 약 166조 엔이고 개편 직전 29일 종가에 약 600억 달러 매매가 예상됐다",
+ "facts": [
+  "무엇이: 토픽스 2단계 개편이 10월 30일 시행돼 유동성 등 더 엄격한 편입 기준에 못 미친 683개 종목이 빠지고 35개가 새로 들어가며, 구성 종목은 약 1,636~1,669개에서 2028년 중반 약 986개로 줄 수 있다 [사실]",
+  "방식: 제외 종목은 한꺼번에 빠지지 않고 2028년 7월까지 8차례 분기별로 비중이 줄며(일부는 2028년 10월로 봄), 2027년 10월 재심사에서 기준을 다시 맞추면 축소가 멈춘다 [사실]",
+  "자금: 29일 종가에 약 600억 달러(골드만삭스 추산 총 약 620억 달러)의 패시브 매매가 예상됐고, 토픽스를 따르는 패시브 자금은 약 166조 엔(다이와증권)~155조 엔(UBS)으로 추산된다 [사실]",
+  "블룸버그: 블룸버그는 개편 시작에 맞춰 투자자가 알아야 할 세 가지를 짚었다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "investingLive·Business Insider Japan·Medusa Japan 등 검색 결과 요약으로 10월 30일 시행, 683개 제외(35개 편입), 2028년 7월까지 8차례 분기별 비중 축소, 29일 종가 약 600억 달러 패시브 매매, 패시브 자금 약 155조~166조 엔을 확인. 종료 시점(7월·10월)과 현재 구성 종목 수는 출처마다 다름. 블룸버그가 꼽은 세 가지는 제목 기준. 10월 7일 개편 발표를 다룬 n-bbg-0114는 10월 30일 금융 정리 때 지워졌고 이번은 시행 시작이라 새 문서로 씀",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "토픽스 제외 683개 종목에서 패시브 자금 단계적 이탈"
+  }
+ ]
+}

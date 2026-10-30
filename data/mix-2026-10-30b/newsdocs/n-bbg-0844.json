@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0844",
+ "num": 844,
+ "key": "mix-G1-025-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T09:35:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/dollar-s-rate-fueled-rally-set-to-ride-out-us-midterm-gridlock",
+ "origTitle": "",
+ "headline": "금리 우위 달러 랠리, 미 중간선거 뒤 의회 교착에도 이어질 전망…12월 인상 확률 82.6%",
+ "src": [
+  {
+   "o": "Vantage Markets",
+   "d": "2026-10-29",
+   "u": "https://www.vantagemarkets.com/market-analysis/why-us-dollar-index-slipped-december-hike-odds-rose-usdx-october-29-2026/"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-21",
+   "u": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
+  }
+ ],
+ "items": [
+  {
+   "t": "금리에 힘입은 달러 랠리, 미 중간선거 교착에도 이어질 전망",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/dollar-s-rate-fueled-rally-set-to-ride-out-us-midterm-gridlock"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "title": "금리 우위 달러 랠리, 미 중간선거 뒤 의회 교착에도 이어질 전망…12월 인상 확률 82.6%",
+ "one": "금리 우위에 기댄 달러 랠리가 11월 3일 미국 중간선거 뒤 의회 교착에도 이어질 것이라는 전망이 나왔다\n· 10월 29일 시장은 12월 금리 인상 확률을 약 82.6%로 반영했지만 달러지수는 101.97로 소폭 밀렸다\n· 의회가 갈리면 서로 법안을 막아 대규모 지출·세제 변화가 어려워진다는 분석이 나왔다",
+ "facts": [
+  "무엇이: 금리 우위에 힘입은 달러 랠리가 미국 중간선거 뒤 의회 교착에도 살아남을 것이라는 전망이 나왔다 [제목]",
+  "금리 기대: 10월 29일 시장은 12월 금리 인상 확률을 약 82.6%로 반영했지만 대부분 이미 가격에 반영됐고 2년물 금리가 4.72%로 내리며 달러지수는 고점 102.32에서 101.97로 밀렸다 [사실]",
+  "흐름: 9월 소비자물가가 높게 나온 뒤 달러지수는 102.94까지 올랐다가 10월 인상 기대가 꺾이며 상승분을 일부 반납했다 [사실]",
+  "선거 변수: 11월 3일 중간선거에서 의회가 갈리면 서로 법안을 막아 대규모 지출·세제 변화가 어려워지고, 공화당이 상·하원을 모두 지킬 때만 차입 확대로 장기금리와 달러가 오를 수 있다는 분석이 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "Vantage Markets·FXStreet·OFX 검색 결과 요약으로 10월 29일 12월 인상 확률 약 82.6%, 달러지수 101.97(고점 102.32, 9월 CPI 뒤 102.94), 분점 의회 시 재정 변화 제한 분석 확인. 금리 우위 달러 랠리가 중간선거 교착에도 이어진다는 전망 자체는 확인 못 함(제목 기준)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "금리 우위 달러 랠리, 중간선거 교착에도 지속 전망"
+  }
+ ]
+}

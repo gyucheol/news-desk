@@ -1,0 +1,120 @@
+{
+ "basis": "verified",
+ "check": "엔비디아의 엔스케일 신용보증 논의(수십억 달러·웨스트버지니아·앤트로픽용·서명 전·우발채무 위험)는 검색 결과 요약으로 확인. 앤트로픽 450억 달러 두 번째 계약 협의는 검색 결과 제목에도 보이나 날짜를 확인하지 못해 채널 꼬리표 유지. 엔스케일 IPO 반발·퍼머스 IPO 철회·엘리스 상장 부진·젠슨 황의 24시간 작업 주문은 채널 전언. AI 투자 증액이 아니라 칩 공급사가 고객 신용위험을 떠안는 AI 부채 경계 흐름으로 보고 씀. 기존 사실은 기존 문서 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 엔비디아가 앤트로픽이 쓸 엔스케일의 웨스트버지니아 AI 데이터센터 부채 조달을 받치려고 수십억 달러 신용보증을 주는 방안을 논의하고 있으며, 보증은 전력 설비·건설 비용용이고 아직 서명 전이다 [사실]",
+  "엔스케일·네오클라우드: 엔스케일은 같은 캠퍼스 두 번째 건물을 두고 앤트로픽과 450억 달러 규모 두 번째 계약을 논의해 왔고 300억 달러 IPO 목표에는 일부 투자자가 반발하며, 엔비디아가 투자한 호주 퍼머스는 IPO를 철회했다 [채널]",
+  "신용시장: 테크 기업 CDS 거래가 AI 채권 공급 우려 속에 사상 최대를 기록했고, 투자자들이 감당할 수 있는 AI 채권을 이미 다 샀을 수 있다는 진단이 나왔다 [제목]",
+  "HSBC: AI 데이터센터 관련 대출을 포함한 프로젝트 금융 대출의 신용위험을 보험사에 넘기는 방안을 초기 협의 중이다(대상이 10억 달러가 넘는 AI 인프라 대출이라는 보도는 미확인) [사실]",
+  "금리: 최상위 등급 데이터센터 채권 금리가 2026년 초 5% 아래에서 7% 가까이로 올랐다는 보도가 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 부채 경계 확산…엔비디아, 엔스케일 DC에 수십억 달러 신용보증 논의·테크 CDS 거래 사상 최대",
+ "id": "n-bbg-0820",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "투자자들이 감당할 수 있는 AI 채권을 이미 다 사들였을 수 있다는 진단이 나오면서 AI 기업들의 채권 조달 여건이 빡빡해질 수 있다 (제목 기준)",
+   "t": "투자자, 감당할 수 있는 AI 채권 이미 다 샀을 수도",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "HSBC가 AI 데이터센터 관련 대출의 신용위험을 보험사로 넘기는 방안을 협의하면서 은행들이 데이터센터 부채 노출을 줄이려 하고 있다",
+   "t": "HSBC, 데이터센터 대출을 신용위험 보험으로 헤지 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/hsbc-seeks-to-hedge-data-center-debt-with-credit-risk-insurance"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "s": "AI 채권 공급이 늘어날 것이라는 우려에 테크 기업 신용부도스와프 거래가 사상 최대로 늘면서 빅테크 부채 위험 지표가 올랐다 (제목 기준)",
+   "t": "테크 기업 CDS 거래 사상 최대, AI 채권 공급 우려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/google-debt-risk-gauge-rises-as-earnings-revive-ai-debt-jitters"
+  },
+  {
+   "t": "엔비디아, 엔스케일 프로젝트에 신용보증 제공 협의",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-in-talks-to-offer-credit-support-for-nscale-project",
+   "s": "엔비디아가 엔스케일 데이터센터 사업의 부채 조달에 신용보증을 주는 방안을 협의하면서 칩 공급사가 고객사 데이터센터 부채 위험까지 떠안을 수 있다"
+  },
+  {
+   "t": "엔비디아, 앤트로픽용 엔스케일 데이터센터에 수십억 달러 신용보증 논의",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-30",
+   "u": "https://t.me/TNBfolio/71770",
+   "s": "엔비디아가 엔스케일 데이터센터 전력·건설 비용에 수십억 달러 보증을 검토하는 사이 퍼머스 IPO 철회 등 네오클라우드 혼란이 겹치면서 AI 인프라 신용위험이 엔비디아로 모이고 있다"
+  }
+ ],
+ "key": "mix-G2-017-2026-10-30",
+ "nodes": [
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 820,
+ "one": "AI 데이터센터 부채가 쌓이면서 은행은 신용위험을 덜어내고 엔비디아는 고객사 신용을 떠받치는 쪽으로 움직였다\n· 엔비디아는 앤트로픽이 쓸 엔스케일의 웨스트버지니아 데이터센터에 수십억 달러 신용보증을 논의하고 있다\n· 보증은 전력·건설 비용 조달을 받치는 용도로 아직 서명 전이며, 사업이 부진하면 엔비디아의 우발채무가 될 수 있다\n· 테크 기업 신용부도스와프(CDS) 거래는 AI 채권 공급 우려 속에 사상 최대를 기록했다\n· HSBC는 AI 데이터센터 대출 등 프로젝트 금융의 신용위험을 보험사로 넘기는 방안을 협의하고 있다\n· 최상위 등급 데이터센터 채권 금리는 연초 5% 아래에서 7% 가까이로 올랐다는 보도가 있다\n· 투자자들이 감당할 수 있는 AI 채권을 이미 다 샀을 수 있다는 진단도 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T09:13:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-29",
+   "o": "Traders Union",
+   "u": "https://tradersunion.com/news/institutions/show/4012975-hsbc-credit-risk-data-center-loans/"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "Longbridge",
+   "u": "https://longbridge.com/en/news/299450624"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10",
+   "u": "https://finimize.com/content/nvidia-looks-to-backstop-nscales-ai-data-center-debt"
+  },
+  {
+   "o": "AI Weekly",
+   "d": "2026-10",
+   "u": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10",
+   "u": "https://cryptobriefing.com/nvidia-credit-support-nscale-anthropic-deal/"
+  }
+ ],
+ "tags": [],
+ "title": "AI 부채 경계 확산…엔비디아, 엔스케일 DC에 수십억 달러 신용보증 논의·테크 CDS 거래 사상 최대",
+ "updatedAt": "2026-10-30T12:33:44+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "최상위 데이터센터 채권 금리 연초 5% 아래서 7% 근처로"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "엔비디아, 엔스케일 데이터센터 부채에 수십억 달러 보증 논의"
+  }
+ ],
+ "added": "블룸버그·텔레그램 2건 — 엔비디아가 앤트로픽용 엔스케일 데이터센터 부채에 수십억 달러 신용보증을 논의하고 네오클라우드 IPO 철회·반발이 이어진 내용이 추가됨",
+ "ind": "semis"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0846",
+ "num": 846,
+ "key": "mix-G1-028-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T09:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/bayer-wins-st-louis-roundup-trial-bolstering-settlement-push",
+ "origTitle": "",
+ "headline": "바이엘, 세인트루이스 라운드업 재판 승소…대법원 판결 뒤 첫 재판, 72.5억 달러 합의 추진에 힘",
+ "src": [
+  {
+   "o": "Otago Daily Times",
+   "d": "2026-10-30",
+   "u": "https://www.odt.co.nz/news/world/bayer-wins-roundup-cancer-trial-as-725b-settlement-awaits-i0diga3q"
+  },
+  {
+   "o": "Miller & Zois",
+   "d": "2026-10-06",
+   "u": "https://www.millerandzois.com/products-liability/roundup-cancer-lawsuits/"
+  }
+ ],
+ "items": [
+  {
+   "t": "바이엘, 세인트루이스 라운드업 재판 승소…합의 추진에 힘",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/bayer-wins-st-louis-roundup-trial-bolstering-settlement-push"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "바이엘, 세인트루이스 라운드업 재판 승소…대법원 판결 뒤 첫 재판, 72.5억 달러 합의 추진에 힘",
+ "one": "바이엘 자회사 몬산토가 10월 29일 세인트루이스 라운드업 발암 소송 재판에서 배심원 평결로 이겼다\n· 6월 연방대법원이 원고 청구 범위를 좁힌 뒤 처음 열린 재판으로, 원고는 림프종을 앓은 여성 3명이었다\n· 바이엘이 추진하는 72억 5,000만 달러 집단 합의안은 미주리주 법원의 승인 심사가 이어지고 있다",
+ "facts": [
+  "무엇이: 세인트루이스 배심원단이 10월 29일 라운드업이 비호지킨 림프종을 일으켰다며 여성 3명이 2020년 몬산토를 상대로 낸 소송에서 바이엘 측 손을 들어줬다 [사실]",
+  "의미: 6월 25일 연방대법원이 7대 2로 연방 농약법이 주법상 경고 의무 위반 청구를 선점한다고 판결한 뒤 열린 첫 재판이며, 바이엘은 이 판결이 설계 결함·과실 청구도 막는다고 주장하고 원고 측은 반박한다 [사실]",
+  "합의: 수만 건을 정리할 72억 5,000만 달러 집단 합의안은 3월 4일 예비 승인을 받았고 세인트루이스 순회법원 티모시 보이어 판사가 9월 최종 승인 심리 뒤 결정을 미루고 있으며, 이번 원고 3명은 합의에 참여하지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "ODT·KSEV 등 검색 결과 요약으로 10월 29일 세인트루이스 평결, 원고 3명, 6월 대법원 판결 뒤 첫 재판, 72억 5,000만 달러 합의 심사 중 확인. Miller & Zois 열람으로 6월 25일 대법원 7대 2 판결, 3월 4일 예비 승인, 9월 최종 승인 심리 뒤 보이어 판사 결정 대기 확인",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "라운드업 재판 승소, 소송 부담 문제로 수급 변화 없음"
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "basis": "verified",
+ "check": "워싱턴타임스·TNW·레드스테이트 검색 결과 요약으로 미군 기지 최소 7곳 매점 냉동고 이상(8월 말)과 국방부의 해킹 의심 조사, 프랑스 350곳 이상 피해와 덴포스 장비 공통점을 확인. 해킹 여부·공격 주체와 두 사건의 연관성은 미확인. 기존 문서 사실은 기존 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인터넷에 연결된 냉동고 제어장치가 제상 모드로 바뀌어 프랑스 슈퍼마켓 350곳 이상에서 육류·냉동식품·채소를 버렸고 일부 냉장 설비는 과열돼 불이 났으며, 냉장 관리 소프트웨어 공격을 받은 곳은 약 700곳으로 집계됐다 [사실]",
+  "프랑스 체인: 앵테르마르셰는 매장 150곳이 표적이 됐고 쿠페라티브 U는 약 2,000곳 중 80곳이 피해를 입었으며, 보험사들은 사이버보험이 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 했다 [사실]",
+  "미군 기지: 미 국방부는 8월 말 포트 후아추카·포트 어윈·홀로먼 공군기지 등 미군 기지 최소 7곳의 매점 냉장·냉동고가 제상 모드로 바뀐 일을 해킹 의심 사건으로 보고 있고, 사이버사령부 부대와 육군 범죄수사대가 프랑스 경찰과 공조하지만 해킹 여부는 확인하지 않았다 [사실]",
+  "공통점: 프랑스 매장 다수가 덴마크 덴포스의 제어장치를 썼고 엘센트로 해군 항공시설 매점 기록에도 덴포스 제어 시스템이 있으나, 두 사건의 연관성과 공격 주체·침입 경로는 밝혀지지 않았다 [사실]",
+  "연관성: 네덜란드 국가사이버보안센터는 아홀드 사고가 다른 나라 공격과 직접 연결됐다고 볼 이유는 없다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "냉동고 제어장치 이상에 미군 기지 7곳·佛 슈퍼마켓 350곳 넘게 식품 상해…국방부 해킹 의심 조사",
+ "id": "n-rtr-0604",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "프랑스 슈퍼마켓 체인 앵테르마르셰가 사이버공격을 받아 매장 150곳이 표적이 되면서, 냉장 관리 시스템을 노린 공격이 프랑스 유통업계로 번졌다",
+   "t": "佛 슈퍼마켓 체인 앵테르마르셰 사이버공격, 매장 150곳 표적",
+   "u": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "쿠페라티브 U가 매장 약 2,000곳 중 80곳이 사이버공격 피해를 입었다고 밝히면서 일부 매장이 식품을 버리는 손실을 떠안았다",
+   "t": "佛 슈퍼마켓 체인 쿠페라티브 U, 사이버공격에 매장 80곳 피해",
+   "u": "https://www.reuters.com/business/cyberattack-affected-80-stores-french-supermarket-chain-co-operative-u-2026-10-13/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "보험사들이 사이버보험은 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 밝히면서, 프랑스 슈퍼마켓이 손실을 떠안게 될 수 있다",
+   "t": "보험사 \"佛 슈퍼마켓 사이버보험, 식품 손실 보상 어려워\"",
+   "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/"
+  },
+  {
+   "t": "냉동고 제어장치 이상에 미군 기지 7곳·佛 매장 350곳 식품 상해",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-10-30",
+   "u": "https://t.me/habit4117/86928",
+   "s": "인터넷에 연결된 냉동고 제어 박스가 제상 모드로 바뀌면서 미군 기지 7곳과 프랑스 대형 슈퍼마켓 350곳 이상에서 보관 식품이 모두 상했다"
+  }
+ ],
+ "key": "split-G6-079-2026-10-20",
+ "nodes": [],
+ "num": 604,
+ "one": "인터넷에 연결된 냉동고 제어장치가 제상 모드로 바뀌어 미군 기지 7곳과 프랑스 슈퍼마켓 350곳 이상의 식품이 상했다\n· 프랑스에서는 앵테르마르셰 매장 150곳이 표적이 됐고 쿠페라티브 U는 약 2,000곳 중 80곳이 피해를 입었다\n· 미 국방부는 8월 말 미군 기지 매점 냉동고가 제상 모드로 바뀐 일을 해킹 의심 사건으로 조사하고 있다\n· 프랑스 매장 다수는 덴마크 덴포스의 제어장치를 썼고 미군 매점 한 곳에도 덴포스 시스템 기록이 있다\n· 보험사들은 사이버보험이 식품 폐기 같은 물리적 손실을 대개 보상하지 않는다고 밝혀 손실을 업체가 떠안을 수 있다\n· 공격 주체와 침입 경로, 두 사건의 연관성은 아직 밝혀지지 않았다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T10:07:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Washington Times(AP)",
+   "u": "https://www.washingtontimes.com/news/2026/oct/13/cyberattack-targeting-refrigeration-systems-strikes-700-supermarkets/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Insurance Journal",
+   "u": "https://www.insurancejournal.com/news/international/2026/10/15/889037.htm"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "NBC News",
+   "u": "https://www.nbcnews.com/world/europe/hackers-heat-french-supermarket-fridges-sparking-fires-spoiling-food-rcna603151"
+  },
+  {
+   "o": "워싱턴타임스",
+   "d": "2026-10-29",
+   "u": "https://washingtontimes.com/news/2026/oct/29/pentagon-treats-military-base-freezer-failures-suspected-hack"
+  },
+  {
+   "o": "The Next Web",
+   "d": "2026-10",
+   "u": "https://thenextweb.com/news/pentagon-military-base-freezer-failures-suspected-cyberattack"
+  },
+  {
+   "o": "위키백과",
+   "d": "2026-10",
+   "u": "https://en.wikipedia.org/wiki/2026_French_supermarket_refrigerator_hack"
+  }
+ ],
+ "tags": [],
+ "title": "냉동고 제어장치 이상에 미군 기지 7곳·佛 슈퍼마켓 350곳 넘게 식품 상해…국방부 해킹 의심 조사",
+ "updatedAt": "2026-10-30T12:33:44+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "냉동고 제어장치 이상에 佛 매장 350곳 넘게 식품 폐기"
+  }
+ ],
+ "added": "텔레그램 1건 — 미군 기지 7곳 매점 냉동고도 제상 모드로 바뀌어 식품이 상했고 미 국방부가 해킹 의심 사건으로 조사하는 내용이 추가됨"
+}

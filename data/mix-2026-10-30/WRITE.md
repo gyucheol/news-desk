@@ -13,7 +13,11 @@
 - 종목 추천·매수 의견을 쓰지 않습니다.
 - 사용자 기준: 'AI 투자를 늘렸다'류(투자 약속·증액·데이터센터 건설·AI 자금 조달)는 쓰지 않고 skipped("AI 투자 증액"). 'AI 투자를 줄였다'류는 씁니다. 묶음 안 일부 글만 그런 것이면 그 글만 items에서 뺍니다.
 - 사용자 기준: '반도체 투자를 늘린다'류(반도체 공장 신설·증설·설비투자 확대, AI 칩 대량 구매, 반도체 기업 투자 유치)도 쓰지 않고 skipped("반도체 투자 증액"). 반도체 투자 축소·연기, 칩 공급·가격은 씁니다(10월 14일 지시).
-- 사용자 기준: 산업으로는 거르지 않습니다(10월 14일 저녁 지시). 제약·바이오(임상·허가·기술이전·실적·인수합병 포함), 기술·통신, 금융업(나라 무관 은행, 증권·운용·보험·핀테크·암호화폐), 항공·방산, 자동차, 농산물 뉴스도 씁니다.
+- 사용자 기준: 산업으로는 거르지 않습니다(10월 14일 저녁 지시). 기술·통신, 항공·방산, 자동차, 농산물 뉴스도 씁니다.
+- 사용자 기준(2026-10-30): 금융업(나라 무관 은행, 증권·운용·보험·핀테크·거래소·암호화폐, 금융 규제, IPO·펀드 자금 흐름)은 쓰지 않고 skipped("금융"). 미국·일본의 신용시장·유동성은 매크로로, 일본 보험·금융은 jpins로 씁니다.
+- 사용자 기준(2026-10-30): 제약·바이오(임상·허가·기술이전·실적·인수합병·보건 정책)는 쓰지 않고 skipped("제약·바이오"). 의약품 관세처럼 나라 사이 무역 조치는 매크로(geo)로 씁니다.
+- 사용자 기준(2026-10-30): 매크로는 지정학이 아니면 미국·일본 내용만 씁니다. 다른 나라의 거시(중앙은행·금리·물가·성장·재정·예산·환율·증시)는 skipped("매크로 다른 나라"). 전쟁·분쟁·제재·나라 사이 무역 분쟁·수출 통제·해상 통로는 나라와 상관없이 씁니다.
+- 사용자 기준(2026-10-30): AI는 부정적인 내용만 씁니다. AI 모델·제품 출시, 매출·이용자 증가, 제휴 같은 긍정·중립 AI 뉴스는 skipped("AI 긍정"). 묶음 안 일부 글만 그런 것이면 그 글만 items에서 뺍니다.
 
 ## 1. 묶음마다 할 일
 1. 글들을 읽고 묶음 전체를 꿰는 흐름을 정합니다.
@@ -66,7 +70,7 @@
 - 시각 순서(오래된 것 먼저). 기존 문서의 기사는 넣지 않습니다(합칠 때 자동으로 앞에 붙음). 묶음 파일의 주소만 씁니다.
 
 ## 3. 산업·노드
-- inds에는 산업 id를 씁니다(tools/industry/nodes.md의 산업: macro uranium drilling gas coal power petchem jpins beauty oil metals agri shipping industrial aero auto semis tech fin realestate consumer pharma). nodes는 예전 9개 산업(아래 목록)의 노드만 씁니다. 9개 산업에 해당이 없으면 inds에 산업 id 하나만 넣고 nodes는 빈 배열.
+- inds에는 산업 id를 씁니다(tools/industry/nodes.md의 산업: macro uranium drilling gas coal power petchem jpins beauty oil metals agri shipping industrial aero auto semis tech realestate consumer. fin·pharma는 2026-10-30에 없앰). nodes는 예전 9개 산업(아래 목록)의 노드만 씁니다. 9개 산업에 해당이 없으면 inds에 산업 id 하나만 넣고 nodes는 빈 배열.
 - uranium: mining conversion enrichment fabrication physical operators build policy / drilling: rigs capex services subsea fpso osv octg yards / gas: upstream midstream liquefaction shipping regas trade demand / coal: thermal met logistics trade power steel policy / power: demand gen grid storage wind modules polysilicon developers market / petchem: feedstock cracker commodity specialty demand policy / jpins: underwriting reinsurance assets rates capital securities regulation demand / beauty: brands odm materials packaging channels exports / macro: cb rates fiscal inflation growth fx liquidity commodity geo semis
 - nodes는 "macro/rates"처럼. 반도체·AI는 inds ["macro"], nodes ["macro/semis"]. inds에는 nodes에 쓴 산업을 모두 넣습니다.
 
@@ -76,7 +80,7 @@
 
 ## 3-2. 연준 인사 발언(fed) — 사용자 지시(10월 15일): 매크로에 연준 인사 발언과 관련 뉴스를 꼭 담음
 - 묶음의 field가 "fed"이거나, 묶음 안에 연준 의장·부의장·이사·지역 연은 총재(뉴욕연은 포함)의 발언, FOMC 성명·의사록, 연준 조사·보고서, 연준 인사·독립성 공방, 연준 감독·규제 발표가 있으면:
-  - inds에 "macro"를 넣고 nodes에 "macro/cb"를 넣습니다(다른 산업, 예: 은행 감독이면 "fin"도 함께).
+  - inds에 "macro"를 넣고 nodes에 "macro/cb"를 넣습니다(다른 산업이 있으면 함께. 금융 산업 fin은 2026-10-30에 없앰).
   - vc에 macro/cb 항목을 하나 넣습니다(발언이 인상 쪽이면 f "가격" dir "up" k "예상", 인하 쪽이면 "down", 방향이 없으면 f "-" dir "flat").
   - fed 배열을 씁니다. 연준 관련 원문(items)마다 하나, 같은 사람의 같은 발언을 여러 출처가 전했으면 하나로 합칩니다(u는 가장 이른 원문).
     {"k": 발언자 영문 성(예 "Williams", 사람이 아니면 ""), "who": 한국어 이름(예 "존 윌리엄스", 사람이 아니면 "FOMC"·"뉴욕연은" 같은 기관),

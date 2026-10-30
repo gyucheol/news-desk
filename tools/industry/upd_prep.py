@@ -5,6 +5,10 @@
 import json, glob, os, re, sys, collections
 DB, W, SINCE = sys.argv[1:4]
 app = json.load(open(f'{DB}/meta/chainsLog.json'))['applied']
+# 2026-10-30 사용자 지시: 없앤 산업(fin·pharma)과, 읽음 처리한 다른 나라 매크로·긍정 AI 뉴스는 해당 산업 입력에서 뺌(tools/industry/skip_news.json)
+_sk = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'skip_news.json')
+SK = json.load(open(_sk)) if os.path.exists(_sk) else {}
+REMOVED, SKIP = set(SK.get('removed_industries', [])), SK.get('skip', {})
 pages = {os.path.basename(p)[:-5] for p in glob.glob(f'{DB}/chains/*.json')}
 P = lambda s: re.sub(r'\{\{|\}\}', '', s or '')
 out = collections.defaultdict(list)
@@ -17,7 +21,7 @@ for p in glob.glob(f'{DB}/news/*.json'):
     inds = set(d.get('inds') or []) | {v.get('ind') for v in vc if v.get('ind')}
     src = [{'o': it.get('o', ''), 'u': it.get('u', ''), 'd': it.get('d', '')} for it in (d.get('items') or [])][-3:] or [{'o': d.get('source', ''), 'u': d.get('url', ''), 'd': pr}]
     for i in inds:
-        if i not in pages: continue
+        if i not in pages or i in REMOVED or i in SKIP.get(d['id'], []): continue
         out[i].append({'id': d['id'], 'd': pr, 'title': P(d.get('title')), 'one': P(d.get('one')), 'added': P(d.get('added')),
                        'facts': [P(f) for f in (d.get('facts') or [])[:4]], 'vc': [v for v in vc if v.get('ind') == i], 'src': src,
                        'upd': d['id'] in app})

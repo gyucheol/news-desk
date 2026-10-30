@@ -11,7 +11,7 @@ DB, TODAY, DUMP, SPAN = sys.argv[1:5]
 NOW = now_kst()
 prog = json.load(open(f'{DB}/meta/progressV4.json')); seen = json.load(open(f'{DB}/meta/newsSeen.json'))
 NODES = {os.path.basename(p)[:-5]: [n['id'] for n in json.load(open(p))['nodes']] for p in glob.glob(f'{DB}/chains/*.json')}
-NEWIND = {'pharma', 'fin', 'tech', 'auto', 'aero', 'agri', 'consumer', 'shipping', 'realestate', 'industrial', 'metals', 'oil'}
+NEWIND = {'tech', 'auto', 'aero', 'agri', 'consumer', 'shipping', 'realestate', 'industrial', 'metals', 'oil'}   # fin·pharma는 2026-10-30 사용자 지시로 없앰
 # 밸류체인 한 줄(vc, 2026-10-14 사용자 요청): 산업·노드는 tools/industry/nodes.json(산업 한 페이지 목록)과 DB 사본 chains 기준.
 # 이번 회차 작성 결과에 vc를 쓰지 않았으면 NO_VC=1 로 실행합니다(나중에 vc를 따로 붙일 때).
 VCN = dict(NODES)

@@ -1,0 +1,179 @@
+{
+ "note": "2026-10-30 사용자 지시: 매크로는 지정학이 아니면 미국·일본만, AI는 부정적인 내용만, 금융·제약·바이오 섹터 삭제. skip은 그날 읽음 처리한 문서와 그 문서를 빼야 하는 산업(data/sector-rules-2026-10-30/decisions.json).",
+ "removed_industries": [
+  "fin",
+  "pharma"
+ ],
+ "skip": {
+  "n-bbg-0530": [
+   "macro"
+  ],
+  "n-bbg-0542": [
+   "macro"
+  ],
+  "n-bbg-0548": [
+   "macro"
+  ],
+  "n-bbg-0621": [
+   "macro"
+  ],
+  "n-bbg-0630": [
+   "macro"
+  ],
+  "n-bbg-0635": [
+   "macro"
+  ],
+  "n-bbg-0636": [
+   "macro"
+  ],
+  "n-bbg-0668": [
+   "macro"
+  ],
+  "n-bbg-0669": [
+   "macro"
+  ],
+  "n-bbg-0677": [
+   "macro"
+  ],
+  "n-bbg-0684": [
+   "macro"
+  ],
+  "n-bbg-0686": [
+   "macro"
+  ],
+  "n-bbg-0688": [
+   "macro"
+  ],
+  "n-bbg-0691": [
+   "macro"
+  ],
+  "n-bbg-0692": [
+   "macro"
+  ],
+  "n-bbg-0693": [
+   "macro"
+  ],
+  "n-bbg-0694": [
+   "macro"
+  ],
+  "n-bbg-0727": [
+   "macro"
+  ],
+  "n-bbg-0754": [
+   "macro"
+  ],
+  "n-bbg-0766": [
+   "macro"
+  ],
+  "n-bbg-0798": [
+   "macro"
+  ],
+  "n-bbg-0803": [
+   "macro"
+  ],
+  "n-bbg-0813": [
+   "macro"
+  ],
+  "n-bbg-0822": [
+   "macro"
+  ],
+  "n-bbg-0823": [
+   "macro"
+  ],
+  "n-bbg-0826": [
+   "macro"
+  ],
+  "n-bbg-0833": [
+   "macro"
+  ],
+  "n-bbg-0834": [
+   "macro"
+  ],
+  "n-bbg-0835": [
+   "macro"
+  ],
+  "n-bbg-0674": [
+   "macro"
+  ],
+  "n-rtr-0723": [
+   "macro"
+  ],
+  "n-rtr-0024": [
+   "macro"
+  ],
+  "n-rtr-0654": [
+   "macro"
+  ],
+  "n-rtr-0655": [
+   "macro"
+  ],
+  "n-rtr-0681": [
+   "macro"
+  ],
+  "n-rtr-0711": [
+   "macro"
+  ],
+  "n-rtr-0725": [
+   "macro"
+  ],
+  "n-rtr-0726": [
+   "macro"
+  ],
+  "n-rtr-0727": [
+   "macro"
+  ],
+  "n-rtr-0728": [
+   "macro"
+  ],
+  "n-rtr-0730": [
+   "macro"
+  ],
+  "n-tg-0742": [
+   "macro"
+  ],
+  "n-tg-0745": [
+   "macro"
+  ],
+  "n-tg-0825": [
+   "macro"
+  ],
+  "n-tg-0827": [
+   "macro"
+  ],
+  "n-bbg-0673": [
+   "macro",
+   "tech",
+   "semis"
+  ],
+  "n-tg-0214": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0312": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0713": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0752": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-rtr-0732": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0780": [
+   "semis",
+   "tech",
+   "macro"
+  ]
+ }
+}

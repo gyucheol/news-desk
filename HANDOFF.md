@@ -4,6 +4,17 @@
 
 ---
 
+## 0-5. 추가(10월 30일 낮) — 10월 30일 2차 회차, 텔레그램 8개 채널로 바꿈(data/mix-2026-10-30b)
+
+- 사용자: "그리고 텔레그램 채널들은 내가 다시 알려줄께. 앞으로도 이 채널들만 가지고 해주면 돼. 이 채널들을 가지고 오늘자 뉴스 업데이트 요청" + 채널 8개(규칙 35).
+- 범위: 새 채널(재야의 괴수들·Verte Research·습관이 부자를 만든다)은 10월 30일 0시 KST부터, 이어 받는 채널(TNBfolio·부의 나침반·Polaristimes·트릴리온)은 progressV4.telegram.new 다음 번호부터, 블룸버그는 아침 회차 마지막 글(7시 8분) 뒤부터 11시 30분 무렵까지. sunstudy1111은 웹 미리보기가 막혀 받지 못함. 로이터는 계속 401. 연준 공식 3건은 11월 예정 연설이라 drop.
+- 수집 work/collect20.sh(덤프 work/dump20, 목록 work/sm20) → 후보 97(텔레그램 63: 습관이 부자를 만든다 48·트릴리온 5·TNBfolio 4·재야의 괴수들 2·Polaristimes 2·부의 나침반 1·Verte 1, 블룸버그 31, 연준 3).
+- 거르기 Haiku 2개 → 남김 43(바로잡은 4건은 overrides.tsv: 엔비디아 신용보증 K, 알파벳·팔란티어 긍정 의견 D, BofA 과열 경고 K) → 묶기 Opus 1개 28묶음(drop 9) → 작성 Opus 3개(검색 12회씩) → 문서 28(새 6, 기존 문서에 더함 22), 기사 34, 건너뜀 0. basis verified 20, partial 7, title 1.
+- 새 규칙(31~34) 첫 적용: 다른 나라 매크로 11, 금융 7, 반도체·AI 긍정 6(바로잡은 2 포함), 제약 1을 거르기에서 뺌.
+- 저장 batch 1개(뉴스 28, meta progressV4·newsSeen), 붙일 22건은 저장 전 query로 받아 사본과 대조(바뀐 것 0), 저장 뒤 다시 받아 30건 대조 일치(work/live47after). progressV4.telegram에 channels(8개)·channelsNote를 넣음(new의 예전 채널 번호는 기록으로 남김).
+- newsSeen이 회전 한도(240,000바이트)에 닿기 직전(239,404). 다음 회차에 옮길 줄은 새 문서 newsSeenOld6에 넣을 것(newsSeenOld5는 약 225KB).
+- DB 현재: news 1,970, chains 21, progressV4 v35, newsSeen v30, reads v1308. 안 읽음 328(기존 문서에 기사를 더한 22건 중 읽음 표시가 있던 12건이 다시 안 읽음).
+
 ## 0-4. 추가(10월 30일) — 섹터 정리: 매크로는 미국·일본·지정학, 금융·제약·바이오 삭제, AI는 부정적인 내용만(data/sector-rules-2026-10-30)
 
 - 세션 ccr-1818b982-ozofkq(영상 작업 세션)에서 처리. 이 브랜치에 claude/news-bundling-adjustment-rnbqdl(10월 30일 회차)과 ccr-f6c3aa6e-x81m7v(저녁 업데이트 기록)를 합친 뒤 고침.

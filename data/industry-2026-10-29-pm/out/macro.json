@@ -1,0 +1,440 @@
+{
+ "id": "macro",
+ "summary": "매크로는 8개 산업 모두에 걸리는 자본비용·물가·환율·유동성의 배경입니다. 10월 28일 연준은 3.75~4.00%로 동결했지만 두 명이 인상을 주장했고 12월 인상 확률은 82.6%, 미 10년물은 5.05%로 다시 5% 위이며, 캐나다은행은 2023년 7월 이후 처음 금리를 올렸습니다. 물가 압력은 공급 쪽에서 이어져 라스타누라 공격 뒤 브렌트가 116.5달러 안팎이고, 미국은 중간선거 뒤 대이란 공습 가능성을 걸프국에 통보했습니다. 가장 빠듯한 곳은 AI 신용으로, 네비우스는 AI 인프라 부채·ABS 창구가 일시 닫혔다고 했고 앤트로픽 관련 데이터센터 대출의 채권 매각이 미뤄졌으며 알파벳 잉여현금흐름은 -91억 달러였습니다. 성장·물가 4국면으로는 미국 수요가 아직 강해 ② 과열·긴축을 유지하되, ③ 쪽 신호가 신용과 미국 밖에서 쌓여 확신도는 낮습니다. 여기의 국면은 자본순환 8국면과 별개이며, 각 산업 판정의 배경 변수로만 씁니다.",
+ "state": {
+  "cb": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+    "nid": "n-bbg-0762",
+    "t": "연준은 10월 28일 기준금리를 3.75~4.00%로 동결했지만 쿡 이사와 해맥 총재가 0.25%p 인상을 주장해 10대 2였고, 회의 뒤 CME 페드워치 12월 인상 확률은 82.6%로 올랐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump",
+    "nid": "n-bbg-0764",
+    "t": "캐나다은행이 10월 28일 기준금리를 2.5%로 0.25%p 올려 2023년 7월 이후 첫 인상에 나섰고, 2027년 물가 전망을 3.1%(7월 2.0%)로 올리며 추가 인상 여지를 열어 뒀습니다 [사실]"
+   }
+  ],
+  "rates": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+    "nid": "n-bbg-0762",
+    "t": "FOMC 뒤 미 단기 국채금리는 내렸지만 10년물은 5.05%로 마감해 다시 5% 위에 섰고, JPM 고객은 회의 전 장기채 숏커버링을 2월 이후 최대 규모로 벌였습니다 [사실]"
+   }
+  ],
+  "fiscal": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes",
+    "nid": "n-bbg-0766",
+    "t": "영국 OBR은 재정적자를 2026~27 회계연도 GDP 대비 4.2%, 2027~28 회계연도 3.4%로 봤고, DMO는 길트 발행을 2,506억 파운드로 44억 파운드 늘렸지만 길트 금리는 2~3bp 내리는 데 그쳤습니다 [사실]"
+   }
+  ],
+  "inflation": [
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/64069",
+    "nid": "n-tg-0788",
+    "t": "워시 의장은 인플레이션이 여전히 너무 높다며 근원 PCE 2% 초과 물가를 용인하지 않겠다고 했고, 절사평균 CPI 등 기존 지표 대신 새 물가지표를 찾겠다고 했습니다 [채널]"
+   }
+  ],
+  "growth": [
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 상상인 김진범",
+    "u": "https://t.me/PipeBeom/6899",
+    "nid": "n-tg-0790",
+    "t": "미국 9월 핵심 자본재 출하는 1.2% 늘었고 3분기 장비 투자는 연율 약 20% 증가로 추정되지만, 수주는 0.5%로 예상 0.7%에 못 미쳤고 신규 단독주택 판매는 0.6% 줄었습니다 [채널]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/64069",
+    "nid": "n-tg-0788",
+    "t": "워시 의장은 미국 3분기 GDP 성장률이 3%를 웃돌 가능성이 크지만 위원 대다수는 과열로 보지 않는다고 했고, 성명은 경제활동이 강한 속도로 확장한다고 표현을 올렸습니다 [채널]"
+   }
+  ],
+  "semis": [
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67697",
+    "nid": "n-bbg-0756",
+    "t": "알파벳 3분기 잉여현금흐름은 -91억 달러로 2분기 -59억 달러보다 적자가 커졌고, 클라우드 매출은 103% 늘어난 307억 달러였지만 매출 1,276억 달러는 예상을 밑돌았습니다 [사실]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/71177",
+    "nid": "n-rtr-0474",
+    "t": "메모리 부족에 세계 3분기 스마트폰 출하가 약 20% 줄어 14년 만의 최악이었고, HP·에이서 등은 AI발 부품값 급등에 태국·베트남 PC 생산 일부를 중국으로 되돌리고 있습니다 [사실]"
+   }
+  ],
+  "fx": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/features/2026-10-28/lula-s-brazil-election-win-deepens-latin-america-stock-fund-collapse",
+    "nid": "n-bbg-0727",
+    "t": "룰라 재선 뒤 중남미 주식펀드 붕괴가 깊어져 중남미 ETF(ILF)가 하루 11.19% 내렸고, 은행들이 준비하던 60억 달러 규모 브라질 주식 발행도 무산됐습니다 [채널]"
+   }
+  ],
+  "liquidity": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+    "nid": "n-bbg-0759",
+    "t": "네비우스는 지난주부터 AI 인프라의 자산담보 금융·부채 시장이 일시적으로 닫혔다고 했고, 은행들은 앤트로픽 관련 텍사스 데이터센터 대출 150억 달러 중 50억~70억 달러 채권 매각을 미뤘습니다 [사실]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67698",
+    "nid": "n-tg-0785",
+    "t": "워시 의장은 크레딧 상황이 타이트해지고 자본 배분이 신중해졌지만 금융 여건이 긴축적이라고 말할 수는 없다고 했고, 채널은 AI 업계가 기대한 정책 구제는 없다는 신호로 읽었습니다 [채널]"
+   }
+  ],
+  "geo": [
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67686",
+    "nid": "n-tg-0787",
+    "t": "WSJ 보도로 미국은 걸프 아랍국들에 11월 3일 중간선거 뒤 단기·고강도 대이란 군사작전에 대비하라고 통보했고, 이란은 카타르 중재안을 받아들일 수 없다며 거부했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/trump-delays-robotics-machinery-tariffs-in-favor-of-more-talks",
+    "nid": "n-bbg-0653",
+    "t": "트럼프 대통령은 10월 28일 232조 포고문으로 수입 로봇·산업기계가 안보를 위협한다고 봤지만 관세 대신 180일 협상을 지시했고, 철강·알루미늄·구리 관세는 유지됩니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-28",
+   "kind": "policy",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+   "nid": "n-bbg-0762",
+   "t": "FOMC는 10월 28일 기준금리를 3.75~4.00%로 동결(10대 2)했고, 회의 뒤 CME 페드워치 12월 0.25%p 인상 확률은 82.6%였으며 미 10년물은 5.05%로 마감했습니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "policy",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump",
+   "nid": "n-bbg-0764",
+   "t": "캐나다은행은 10월 28일 기준금리를 2.25%에서 2.5%로 올렸고 2027년 물가 전망을 7월 2.0%에서 3.1%로 높였으며, 다음 결정은 12월 9일입니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "capex",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/67704",
+   "nid": "n-bbg-0757",
+   "t": "마이크로소프트 상업 RPO는 73% 늘어난 6,770억 달러였고, 외부 업체 용량 인도 지연으로 1분기 설비투자는 리스 포함 452억 달러, 현금 기준 394억 달러로 예상을 밑돌았습니다 [사실]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/uk-budget-does-little-to-ease-pressure-on-boe-for-rate-hikes",
+   "nid": "n-bbg-0766",
+   "t": "영국 DMO는 2026~27 회계연도 길트 발행을 2,506억 파운드로 44억 파운드 늘렸고, OBR은 재정적자를 GDP 대비 4.2%, 부채 정점을 83.8%로 봤습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0759",
+   "t": "재검토 필요: AI 인프라 부채·ABS 창구 일시 폐쇄와 앤트로픽 관련 데이터센터 대출 채권 매각 보류가 ③ 스태그플레이션 쪽을 가리킵니다. 성장을 받치던 AI 투자가 조달 단계에서 막히기 시작했기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0764",
+   "t": "재검토 필요: 캐나다은행이 이미 침체한 주택시장 속에 에너지발 물가 때문에 금리를 올린 것이 ③ 스태그플레이션 쪽을 가리킵니다. 공급발 물가가 성장이 식는 나라에서도 긴축을 부르기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "주요 중앙은행이 다시 금리를 올리는 국면으로 돌아섰습니다. 연준은 9월 2023년 7월 이후 첫 인상(3.75~4.00%)을 했고, 캐나다은행도 10월 28일 2.5%로 올려 2023년 7월 이후 처음 인상했습니다 [사실]",
+    "src": [
+     {
+      "o": "폭스비즈니스",
+      "d": "2026-09-16",
+      "u": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump"
+     }
+    ]
+   },
+   {
+    "t": "연준 안에서 인상 요구가 표결로 드러났습니다. 10월 FOMC는 동결했지만 쿡 이사와 해맥 총재가 0.25%p 인상을 주장해 10대 2였고, 쿡 이사의 반대는 처음입니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
+     }
+    ]
+   },
+   {
+    "t": "연준의 소통 방식도 바뀝니다. 워시 의장은 2027년 8회 중 1회를 금리 표결 없는 전략회의로 돌리고 2028년 금리 결정 회의를 6회로 줄이며, 사전 정책 안내에 반대한다고 했습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/warsh-says-fomc-schedule-will-change-as-of-next-fall"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "AI 차입의 조달 창구가 실제로 좁아졌습니다. 네비우스는 AI 인프라 부채·ABS 시장이 일시 닫혀 고객 선수금으로 자금을 댄다고 했고, 은행들은 앤트로픽 관련 데이터센터 대출 50억~70억 달러 채권 매각을 미뤘습니다. 빚으로 짓는 연산 설비의 속도가 금리와 스프레드에 묶일 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     }
+    ]
+   },
+   {
+    "t": "차입을 줄이겠다는 약속은 신용에서 보상받습니다. 오라클이 설비투자를 2029회계연도부터 줄이고 2027~2030회계연도 추가 자본시장 조달을 200억 달러로 묶겠다고 하자 선순위 채권 금리가 내렸습니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029"
+     }
+    ]
+   },
+   {
+    "t": "주식 조달 창구는 앤트로픽 S-1로 열렸습니다. 상반기 매출 162억 9,000만 달러, 현금·단기투자 약 1,320억 달러, 신규 컴퓨팅 약정 최소 4,170억 달러가 공개됐고, 엔스케일은 기업가치 300억 달러 IPO를 추진합니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/features/2026-10-29/nscale-s-unproven-ceo-braves-ai-turmoil-in-bid-for-30-billion-neocloud-ipo"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "미국 밖 성장과 신용이 식고 있습니다. 유로존 10월 종합 PMI는 51.9로 4개월 최저였고, ECB 조사에서 기업대출 기준은 순 9% 강화되고 주택대출 수요는 순 27% 줄었으며, 캐나다은행은 침체한 주택시장 속에 금리를 올렸습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump"
+     }
+    ]
+   },
+   {
+    "t": "AI 투자의 현금과 신용이 함께 빠듯해졌습니다. 알파벳 3분기 잉여현금흐름은 -91억 달러로 적자가 커졌고, AI 인프라 부채·ABS 창구는 일시 닫혔으며 워시 의장은 정책 구제를 내놓지 않았습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-28",
+      "u": "https://t.me/insidertracking/67697"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-28",
+      "u": "https://t.me/insidertracking/67698"
+     }
+    ]
+   },
+   {
+    "t": "충격을 받은 신흥 시장에서 돈이 빠집니다. 룰라 재선 뒤 헤알은 하루 약 8% 떨어졌고 중남미 ETF(ILF)는 하루 11.19% 내렸으며, 인도네시아 10년물 금리는 7.45%로 4년 만의 최고였습니다 [채널]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/features/2026-10-28/lula-s-brazil-election-win-deepens-latin-america-stock-fund-collapse"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-27",
+      "u": "https://t.me/insidertracking/67442"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮지는 못한다고 봅니다. 워시 의장은 3분기 성장률이 3%를 웃돌 수 있다고 했고 연준 성명은 경제활동이 강하다고 표현을 올렸으며, 미국 9월 핵심 자본재 출하는 1.2% 늘고 마이크로소프트 상업 RPO는 6,770억 달러로 수요가 남아 있습니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 Polaristimes",
+      "d": "2026-10-28",
+      "u": "https://t.me/The_MariTimes/64069"
+     },
+     {
+      "o": "텔레그램 상상인 김진범",
+      "d": "2026-10-28",
+      "u": "https://t.me/PipeBeom/6899"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-28",
+      "u": "https://t.me/insidertracking/67704"
+     }
+    ]
+   },
+   {
+    "t": "다만 AI 신용 창구 폐쇄가 길어져 설비투자 계획이 줄거나, 11월 초 미국 10월 고용과 소비까지 꺾이면 ③으로 옮길 근거가 됩니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "낮음",
+  "why": [
+   {
+    "t": "국면은 ② 그대로이고 근거를 FOMC 결과로 바꿨습니다. 연준은 10월 28일 3.75~4.00%로 동결했지만 쿡·해맥이 인상을 주장해 10대 2였고, 성명은 경제활동이 강하다고 했으며 12월 인상 확률은 82.6%로 올랐습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
+     }
+    ]
+   },
+   {
+    "t": "미국 10월 종합 PMI는 57.6으로 확장을 이어 갔고 판매가격 지수는 59.8로 2022년 8월 이후 최고였으며, 신규 실업수당 청구 4주 평균은 19만 7,750건으로 1969년 이후 최저라 성장과 물가가 아직 함께 뜨겁습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "긴축이 여러 나라로 넓어집니다. 캐나다은행은 10월 28일 2.5%로 올려 2023년 7월 이후 첫 인상을 했고 2027년 물가 전망을 3.1%로 올렸으며, 일본은 근원 물가 2.1%로 12월 인상 전망이 80%를 넘었습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/world/asia-pacific/japan-core-inflation-exceeds-boj-target-cements-near-term-rate-hike-chance-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "반대 신호는 신용과 미국 밖 성장에서 쌓입니다. 네비우스는 AI 인프라 부채·ABS 창구가 일시 닫혔다고 했고, 유로존 PMI는 51.9로 4개월 최저, 호주 실업률은 4.7%로 5년 만의 최고입니다. ③ 쪽 근거라 확신도는 낮게 둡니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices"
+     }
+    ]
+   }
+  ],
+  "next": "브렌트가 110달러 위에 머무는데 11월 초 미국 10월 고용과 소비가 꺾이거나 AI 신용 창구 폐쇄가 설비투자 축소로 번지면 ③ 스태그플레이션으로 옮깁니다. 유가와 물가가 함께 꺾이고 연준이 12월 인상을 접으면 ① 쪽으로, AI 신용 경색이 실업 증가로 번지면 ④를 봅니다 [유추]",
+  "watch": [
+   "10월 29일 ECB·10월 30일 일본은행 결정, 12월 9일 캐나다은행과 12월 FOMC",
+   "미국 3분기 GDP·9월 PCE·10월 고용보고서",
+   "브렌트유와 미국 중간선거(11월 3일) 뒤 대이란 공습 여부, 11월 아부다비 러·우·미 회담",
+   "미 10년물 5% 선과 11월 4일 재무부 리펀딩의 단기채 비중",
+   "AI 인프라 부채·ABS 창구 재개 여부(앤트로픽 관련 대출 채권 매각, 네비우스·엔스케일 조달)"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) 10월 29일 ECB와 10월 30일 일본은행 결정, 뉴질랜드 10월 결정 결과는 이번 입력에 없어 확인하지 못했고, 미국 3분기 GDP·ISM·10월 고용보고서·9월 PCE도 아직 보지 못했습니다. 3분기 성장률 3% 상회는 워시 의장 발언의 채널 전언입니다. (2) FOMC 결과·12월 인상 확률 82.6%·10년물 5.05%는 입력 뉴스로만 썼고 독립 출처로 따로 확인하지 않았습니다. 달러 지수 수치는 확인하지 못했습니다. (3) 네비우스의 AI 부채 시장 폐쇄 발언과 앤트로픽 관련 대출 채권 매각 보류는 블룸버그 입력 요약에 기대며, 투자등급·하이일드·데이터센터 ABS 스프레드 수치는 확인하지 못했습니다. (4) 헤알 하루 약 8% 하락, 중남미 ETF 11.19% 하락, 마이크로소프트 RPO·알파벳 설비투자 가이던스, 미 25대 은행 C&I 대출 증가는 텔레그램 채널 전언입니다. (5) 영국 예산의 길트 만기 구성과 적자 전망이 기존 예상을 넘었는지는 전언이 엇갈려 확인하지 못했고, 일본 신용위험 급등은 기사 제목으로만 봤습니다. (6) 블룸버그·로이터 기사는 본문을 열 수 없어 입력 요약과 다른 매체로만 썼습니다. (7) 4국면은 성장과 물가 두 축만 쓰는 단순한 틀이라, 재정과 유동성 변화는 축 설명에 따로 적었습니다. (8) 라스타누라 피해 규모, 호르무즈 유조선 기름 유출 원인, 미국의 대이란 공습 통보는 독립 확인을 하지 못했습니다.",
+ "note": "뉴스 27건 반영: 연준 10대 2 동결·12월 인상 확률 82.6%·10년물 5.05%, 캐나다은행 2023년 이후 첫 인상, AI 인프라 부채·ABS 창구 일시 폐쇄와 알파벳 FCF -91억 달러 — 국면 ② 그대로(why 3줄 교체), 근거 14줄, 수치 4줄, 재검토 신호 2건, 검색 0회",
+ "applied": [
+  "n-bbg-0425",
+  "n-bbg-0653",
+  "n-bbg-0727",
+  "n-bbg-0756",
+  "n-bbg-0757",
+  "n-bbg-0758",
+  "n-bbg-0759",
+  "n-bbg-0760",
+  "n-bbg-0761",
+  "n-bbg-0762",
+  "n-bbg-0763",
+  "n-bbg-0764",
+  "n-bbg-0765",
+  "n-bbg-0766",
+  "n-bbg-0771",
+  "n-bbg-0773",
+  "n-bbg-0775",
+  "n-bbg-0785",
+  "n-rtr-0474",
+  "n-tg-0214",
+  "n-tg-0549",
+  "n-tg-0758",
+  "n-tg-0785",
+  "n-tg-0787",
+  "n-tg-0788",
+  "n-tg-0790",
+  "n-tg-0792"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

@@ -1,0 +1,60 @@
+{
+ "id": "jpins",
+ "summary": "",
+ "state": {
+  "rates": [
+   {
+    "d": "2026-10-27",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/71095",
+    "nid": "n-bbg-0729",
+    "t": "일본은행 9월 근원물가 지표가 3.2%로 3년 만의 최고였고, 금융기관 80% 이상이 이번 주 1.25% 동결 뒤 12월 인상을 예상한다고 채널이 전했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case",
+    "nid": "n-bbg-0729",
+    "t": "UA젠센 노조가 2027년 임금협상에서 6% 인상을 요구하기로 해, 임금 쪽에서도 추가 금리 인상 근거가 더해졌습니다 [제목]"
+   }
+  ],
+  "assets": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case",
+    "nid": "n-bbg-0729",
+    "t": "일본 생보사들은 수익률을 높이려 고금리 채권으로 갈아타고 있고, 가타야마 재무상은 연기금 국내 자산 투자와 개인용 국채 보급 확대를 추진합니다 [제목]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-27",
+   "kind": "price",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/71095",
+   "nid": "n-bbg-0729",
+   "t": "일본은행 기조물가 지표는 9월 3.2%로 3%를 넘어 3년 만의 최고였습니다 [채널]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "policy",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case",
+   "nid": "n-bbg-0729",
+   "t": "10월 29~30일 회의는 정책금리 1.25% 동결이 예상되고, 조사 대상들은 12월 또는 1월 인상을 내다봤습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 1건 반영: BOJ 기조물가 3.2%·12월 인상 전망, UA젠센 6% 임금 요구, 생보 고금리 채권 교체, 국면 그대로(①), 근거 3줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0729"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

@@ -1,0 +1,375 @@
+{
+ "id": "fin",
+ "summary": "금융은 예금·보험료·연금·펀드 자금을 모아 가계·기업·정부에 빌려주거나(은행·사모 신용) 주식·채권 발행을 주선하고(투자은행) 거래·운용·결제를 대신해 주며 이자와 수수료를 받는 사슬입니다. 대형·우량 발행 창구는 아직 열려 지오 플랫폼스가 공모가보다 21.36% 높게 상장했고 홍콩 IPO 조달액은 10월 28일까지 4,013.92억 홍콩달러로 2011년 이후 최고입니다. 은행은 고수익이지만 기대에 못 미치기 시작했고, 그러면서도 3분기 미국 25대 은행 기업대출은 데이터센터 수요로 10년 만에 가장 빠르게 늘었습니다. 남는 곳은 사모 신용으로, 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었습니다. 막히는 곳은 하위 등급·신흥국과 AI 인프라 부채로, 네비우스는 AI 인프라 부채·ABS 시장이 일시적으로 닫혔다고 했고 은행들은 앤트로픽 관련 데이터센터 대출 채권 매각을 미뤘으며, 룰라 재선 뒤 보베스파는 13.88% 내렸습니다.",
+ "state": {
+  "pcredit": [
+   {
+    "d": "2026-10-29",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+    "nid": "n-bbg-0759",
+    "t": "네비우스 CEO는 지난주부터 AI 인프라 기업의 자산담보 금융·부채 시장이 일시적으로 닫혔다고 했고, 회사는 2026년 고객 선수금으로 90억 달러 넘게 자금을 댈 계획입니다 [사실]"
+   }
+  ],
+  "ib": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+    "nid": "n-bbg-0759",
+    "t": "모건스탠리 주도 은행들은 텍사스가 전력망 점검으로 신규 승인을 멈추자 앤트로픽 관련 데이터센터 대출 150억 달러 중 50억~70억 달러 채권 매각을 미루고 1년 분할 매각을 검토합니다 [사실]"
+   }
+  ],
+  "banks": [
+   {
+    "d": "2026-10-29",
+    "o": "텔레그램 상상인 김진범",
+    "u": "https://t.me/PipeBeom/6901",
+    "nid": "n-tg-0790",
+    "t": "3분기 미국 25대 은행의 C&I 대출은 팬데믹 시기를 빼면 10년 만에 가장 빠르게 늘었고, 대형은행은 데이터센터 개발사에 대되 보유 한도와 헤지를 두고 있다고 채널이 전했습니다 [채널]"
+   }
+  ],
+  "markets": [
+   {
+    "d": "2026-10-28",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/71181",
+    "nid": "n-tg-0796",
+    "t": "홍콩 IPO 조달액은 10월 28일까지 4,013.92억 홍콩달러로 83.59% 늘어 2011년 이후 최고였지만, 상위 10건이 45%를 차지했고 둥산정밀은 첫날 공모가를 밑돌았습니다 [채널]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/67442",
+    "nid": "n-bbg-0727",
+    "t": "룰라 재선 뒤 보베스파는 13.88% 내린 17만 6,608로 마감했고 헤알은 약 8% 떨어져 1999년 이후 최대 일일 낙폭이었으며, 중남미 ETF(ILF)는 하루 11.19% 내렸습니다 [채널]"
+   }
+  ],
+  "regulation": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/bankers-in-failed-firmus-ipo-probed-by-australian-regulator-asic",
+    "nid": "n-bbg-0787",
+    "t": "호주 ASIC는 무산된 퍼머스 IPO의 JP모건·모건스탠리·BofA·모건스 파이낸셜을 상대로 주당 11달러 수요 제시와 데이터센터 계약 해지 미공개를 살피는 표적 조사를 확인했습니다 [사실]"
+   }
+  ],
+  "payments": [
+   {
+    "d": "2026-10-28",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-28/crypto-perp-trades-during-oil-frenzy-raise-spoofing-specter",
+    "nid": "n-bbg-0772",
+    "t": "솔리더스 랩스는 3월 8~10일 한 트레이더의 두 계정이 하이퍼리퀴드 원유 무기한 선물에 1억 7,000만 달러 넘는 이상 주문을 냈다고 했지만, 조작 의도는 확인되지 않았습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-28",
+   "kind": "demand",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/71181",
+   "nid": "n-tg-0796",
+   "t": "홍콩 IPO 조달액은 10월 28일까지 4,013.92억 홍콩달러(+83.59%)로 2011년 이후 최고였고, 상장사는 118곳, 코너스톤 투자자 비중은 80%를 넘었습니다 [채널]"
+  },
+  {
+   "d": "2026-10-28",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center",
+   "nid": "n-bbg-0759",
+   "t": "앤트로픽 관련 텍사스 데이터센터 대출 150억 달러 가운데 50억~70억 달러 채권 매각이 미뤄졌고, 은행들은 향후 1년 분할 매각을 검토합니다 [사실]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "price",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/67442",
+   "nid": "n-bbg-0727",
+   "t": "보베스파는 장중 17.34% 떨어진 뒤 13.88% 내린 17만 6,608로 마감했고 헤알은 약 8% 떨어졌으며, 브라질 재무부는 국채 입찰을 취소했습니다 [채널]"
+  },
+  {
+   "d": "2026-10-29",
+   "kind": "demand",
+   "o": "텔레그램 상상인 김진범",
+   "u": "https://t.me/PipeBeom/6899",
+   "nid": "n-tg-0790",
+   "t": "미 9월 핵심 자본재 수주는 0.5%(예상 0.7%), 출하는 1.2% 늘었고, 경제학자들은 3분기 장비 투자가 연율 약 20% 늘었다고 추정했습니다 [채널]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0759",
+   "t": "재검토 필요: AI 인프라 부채·ABS 시장 일시 폐쇄와 데이터센터 대출 채권 매각 보류는 발행이 수요를 앞지르는 ③ 공급 과잉(이름: 공급 과잉)을 가리키지만, 오라클 채권 금리 하락과 메타 증자처럼 하이퍼스케일러 창구는 열려 있어 판정은 그대로 둡니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0787",
+   "t": "재검토 필요: ASIC의 퍼머스 IPO 주관사 표적 조사는 실패한 상장의 책임을 묻는 단계로 IB 노드의 ④ 수익 악화·비관(이름: 수익 악화·비관) 쪽을 가리키며, 데이터센터 상장 실패가 규제 비용으로 번지기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a2": [
+   {
+    "t": "반대로 사모 신용의 위험이 은행 장부로 되돌아올 수 있습니다. 영란은행은 바클레이스의 150억 파운드 사모신용 장부 처리 방식을 점검하고, 골드만삭스·UBS는 호주 사모신용 펀드 대출을 줄이고 있어 은행이 넘긴 위험의 자본 산정이 다시 도마에 올랐습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-19",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/finance/boe-scrutinises-barclays-over-claim-traders-misrepresented-private-credit-2026-10-19/"
+     },
+     {
+      "d": "2026-10-14",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-14/banks-pull-back-from-financing-australian-private-credit-funds"
+     }
+    ]
+   },
+   {
+    "t": "트라이컬러는 활성 대출 7만 건 중 약 2만 9,000건이 창고 대출과 증권화에 이중 담보로 잡힌 것으로 전해졌고, 아일랜드은행의 위험이전거래 부실 사례도 나와 위험이전 구조 전반의 경계가 커질 수 있습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-16",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/bny-targets-blind-spots-in-abs-after-tricolor-mess-rocked-market"
+     },
+     {
+      "d": "2026-10-08",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-ireland-s-soured-deals-show-hazard-in-risk-transfer-boom"
+     }
+    ]
+   },
+   {
+    "t": "은행이 AI 인프라 대출을 직접 늘리고 있습니다. 3분기 미국 25대 은행 C&I 대출은 10년 만에 가장 빠르게 늘었고 대형은행은 데이터센터 개발사에 돈을 댔으며, 앤트로픽 관련 대출 채권 매각이 미뤄져 은행이 위험을 더 오래 안게 됐습니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 상상인 김진범",
+      "d": "2026-10-29",
+      "u": "https://t.me/PipeBeom/6901"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-29",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "신흥국과 하위 등급에서는 발행 창구가 실제로 닫혔습니다. 룰라 재선 뒤 보베스파는 13.88% 내려 마감했고 60억 달러 주식 발행이 무산되고 국채 입찰이 취소됐으며, 인도네시아는 MSCI 여파로 회사채 발행이 보류됐습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-29",
+      "u": "https://www.bloomberg.com/news/features/2026-10-28/lula-s-brazil-election-win-deepens-latin-america-stock-fund-collapse"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-27",
+      "u": "https://t.me/insidertracking/67442"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/msci-indonesian-corporate-bond-sale-kb-bank-moodys-ratings-fitch-prabowo"
+     }
+    ]
+   },
+   {
+    "t": "AI 인프라 부채도 막히기 시작했습니다. 네비우스는 지난주부터 부채·ABS 시장이 일시적으로 닫혔다고 했고, 은행들은 앤트로픽 관련 데이터센터 대출 50억~70억 달러 채권 매각을 미뤘으며, CCC 스프레드는 12.97%포인트로 BBB의 약 12배입니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-29",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-29",
+      "u": "https://t.me/HANAchina/71180"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "텔레그램 Polaristimes",
+      "u": "https://t.me/The_MariTimes/64025"
+     }
+    ]
+   },
+   {
+    "t": "은행 쪽에도 꺾임이 보입니다. HSBC는 세전이익이 32% 늘고도 예상을 밑돌아 주가가 6.5% 내렸고, ECB 조사에서 기업대출 기준이 순 9% 강화되고 주택 대출 수요는 순 27% 줄었습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/hsbc-earnings-profit-jump-and-1-billion-buyback-fall-short-of-investors-hopes"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/ecb-says-banks-tighten-credit-conditions-see-loan-demand-fall"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지는 않습니다. 지오 플랫폼스는 공모가보다 21.36% 높게 상장했고 홍콩 IPO 조달액은 2011년 이후 최고이며, 오라클은 추가 조달을 200억 달러로 묶겠다고 밝힌 뒤 선순위 채권 금리가 내렸습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-28",
+      "o": "HDFC Sky",
+      "u": "https://hdfcsky.com/news/jio-platforms-shares-debut-at-rs-1358-on-nse-and-bse-against-rs-1119-issue-price"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-29",
+      "u": "https://t.me/HANAchina/71181"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-28",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029"
+     }
+    ]
+   },
+   {
+    "t": "우량 차입자의 대안도 열려 있습니다. 메타의 증자 계획은 메타 CDS를 낮추는 데 도움이 됐고, 삼성생명 15억 달러 신종자본증권은 6.875%로 금리가 낮아졌습니다. 다만 막힌 창구가 앤트로픽 가격 결정 전 우량 쪽으로 넓어지는지가 판정을 가릅니다 [귀납]",
+    "src": [
+     {
+      "o": "CNBC(검색 요약)",
+      "d": "2026-10-27",
+      "u": "https://www.cnbc.com/2026/10/27/ai-debt-hyperscaler-earnings.html"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "국면은 ② 자본 유입·증설로 둡니다. 지오 플랫폼스는 10월 28일 공모가보다 21.36% 높게 상장했고, 앤트로픽은 S-1을 냈으며, 홍콩 IPO 조달액은 10월 28일까지 4,013.92억 홍콩달러(+83.59%)로 2011년 이후 최고였습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-28",
+      "o": "HDFC Sky",
+      "u": "https://hdfcsky.com/news/jio-platforms-shares-debut-at-rs-1358-on-nse-and-bse-against-rs-1119-issue-price"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-28",
+      "u": "https://t.me/HANAchina/71181"
+     }
+    ]
+   },
+   {
+    "t": "은행·투자은행은 아직 고수익이지만 기대에는 못 미치기 시작했습니다. 모건스탠리 3분기 주식 매출은 58억 달러(+41%)였고, HSBC 세전이익은 32% 늘었지만 예상을 밑돌아 주가가 6.5% 내렸습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-14",
+      "o": "CNBC(모건스탠리 3분기 실적)",
+      "u": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/hsbc-earnings-profit-jump-and-1-billion-buyback-fall-short-of-investors-hopes"
+     }
+    ]
+   },
+   {
+    "t": "사모 신용은 과잉이 뚜렷합니다. 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었고, CCC 스프레드는 12.97%포인트로 BBB의 약 12배까지 벌어졌습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-15",
+      "o": "Private Equity Wire(Preqin·PitchBook LCD 집계)",
+      "u": "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/"
+     },
+     {
+      "d": "2026-10-27",
+      "o": "텔레그램 Polaristimes",
+      "u": "https://t.me/The_MariTimes/64025"
+     }
+    ]
+   },
+   {
+    "t": "발행 창구의 가장자리는 닫히고 있습니다. 룰라 재선 뒤 브라질 60억 달러 주식 발행이 무산됐고, 네비우스는 AI 인프라 부채·ABS 시장이 일시적으로 닫혔다고 했으며, 은행들은 앤트로픽 관련 데이터센터 대출 채권 매각을 미뤘습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-29",
+      "u": "https://www.bloomberg.com/news/features/2026-10-28/lula-s-brazil-election-win-deepens-latin-america-stock-fund-collapse"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-29",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+     }
+    ]
+   },
+   {
+    "t": "손해보험은 자본이 남아 상업보험 요율이 8분기 연속 내려 이미 ③ 공급 과잉에 들어섰습니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-07-23",
+      "o": "Insurance Journal(마시 글로벌 보험시장 지수)",
+      "u": "https://www.insurancejournal.com/news/national/2026/07/23/878716.htm"
+     }
+    ]
+   }
+  ],
+  "next": "앤트로픽이 공모가를 낮추거나 상장 뒤 공모가를 밑돌고, AI 인프라 부채·ABS 폐쇄가 하이퍼스케일러 채권 발행까지 번지면 ③ 공급 과잉으로 넘어갑니다. 은행이 사모 신용 펀드 대출을 더 줄이고 감독 당국이 노출 자본을 높이면 사모 신용 노드가 먼저 ⑤ 자본 철수로 갈 수 있습니다 [유추]",
+  "watch": [
+   "사모 신용 부도율(Fitch·무디스 PIK 포함)과 직접대출 집행액",
+   "AI 인프라 부채·데이터센터 ABS 시장 재개와 하이퍼스케일러 채권 발행",
+   "은행의 데이터센터 대출 보유 한도·채권 매각, SRT 발행과 감독 점검",
+   "앤트로픽 공모가 범위·상장 성과와 홍콩 신규 상장 첫날 성과",
+   "신흥국 발행 창구(브라질 재무장관 인선·국채 입찰)와 상장 철회 건수"
+  ],
+  "split": [
+   {
+    "label": "고수익(은행·IB·거래소)",
+    "nodes": [
+     "banks",
+     "ib",
+     "markets"
+    ],
+    "stage": 1
+   },
+   {
+    "label": "공급 과잉(사모 신용·손보)",
+    "nodes": [
+     "pcredit",
+     "insurance"
+    ],
+    "stage": 3
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "웹 검색 누적 23회(10월 28일·29일 각 1회), 열람 5회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 씨티·웰스파고 3분기 수치는 2차 매체 요약만 봤고, 모건스탠리 수치는 CNBC 검색 요약 기준입니다. (2) 한국 4대 금융지주 3분기 실적, BNP파리바 3분기 실적(10월 28일), 일본 3대 은행 4~9월 실적(11월), DBS·OCBC 실적(11월 5~6일). (3) 사모 신용 부도율은 무디스 5.8%를 2차 매체로 봤고, 직접대출 모금·집행 수치는 Private Equity Wire 검색 요약(Preqin·PitchBook LCD)입니다. (4) 코어위브 채권·CDS 수치, CCC 스프레드 12.97%포인트, 모건스탠리의 데이터센터 ABS 전망과 한국은행 AI 금융 위험 보고서는 텔레그램 전언입니다. (5) 예스은행 추가 상소 여부와 인도 다른 은행 AT1 영향, 바클레이스 사모신용 장부 점검의 결론. (6) 한국 신용잔고·거래량·코스피 선행 PER은 채널 집계입니다. (7) 2026년 재보험 갱신 요율, 비자·마스터카드 결제액, 스테이블코인 공급. (8) 데스크 뉴스로 표시한 내용은 데스크 뉴스 요약 기준이며 원문(로이터·블룸버그)은 열지 않았습니다. (9) 10월 28일 확인하지 못한 것: 지오 청약 배율은 상장 보도마다 16.36배·21.36배·22.19배로 엇갈려 기존 22.19배(NSE 집계 인용)를 유지했고, 앤트로픽 공모가 범위·규모는 S-1에 비어 있습니다. 브라질 60억 달러 발행 무산과 바클레이즈 약 5,000명 감원은 기사 제목·채널 수준이고, CIMB 필리핀 법인 매각(최대 2억 달러)과 CPPIB 네드히아 지분 매각은 초기 단계라 근거로 쓰지 않았습니다. (10) 10월 29일 확인하지 못한 것: 하이퍼스케일러의 10월 신규 채권 발행은 검색에서 확인되지 않았고 메타 증자·CDS 하락은 CNBC 검색 요약 기준입니다. 25대 은행 C&I 대출 증가율 수치, 홍콩 IPO 집계(상해증권보 인용), 브라질 헤알 장중 12% 하락과 XP 48% 하락은 채널 전언이며, 중남미 주식펀드 붕괴는 기사 제목 수준입니다.",
+ "note": "뉴스 6건 반영: 네비우스 AI 인프라 부채·ABS 시장 일시 폐쇄와 앤트로픽 데이터센터 채권 매각 보류, 홍콩 IPO 조달 2011년 이후 최고, 25대 은행 C&I 대출 10년 만 최고 증가. 국면 ② 그대로(why 2줄 교체), 근거 7줄, 수치 4줄, 재검토 신호 2건, 인사이트 a2·c·c1 고침, 검색 1회",
+ "applied": [
+  "n-bbg-0727",
+  "n-bbg-0759",
+  "n-bbg-0772",
+  "n-bbg-0787",
+  "n-tg-0790",
+  "n-tg-0796"
+ ],
+ "searches": 1,
+ "fetches": 0
+}

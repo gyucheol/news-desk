@@ -1,0 +1,192 @@
+{
+ "id": "auto",
+ "summary": "",
+ "state": {
+  "oem": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/mercedes-joins-bmw-vw-to-cut-outlook-on-china-market-slump",
+    "nid": "n-tg-0756",
+    "t": "메르세데스는 3분기 중국 판매가 31% 줄자 2026년 승용차 조정 매출이익률 전망을 3~5%에서 2~3%로 낮춰, BMW·폭스바겐에 이어 독일 3사가 모두 전망을 내렸습니다 [사실]"
+   },
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins",
+    "nid": "n-bbg-0721",
+    "t": "마루티 스즈키는 7~9월 판매가 26.5% 늘어 분기 최대(69만 6,654대)였지만 원자재·부품 비용이 48% 늘어 단독 순이익이 27% 줄었습니다 [사실]"
+   }
+  ],
+  "chinaoem": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-27/mercedes-joins-bmw-vw-to-cut-outlook-on-china-market-slump",
+    "nid": "n-tg-0756",
+    "t": "데이터포스 자료로 3분기 중국 브랜드의 유럽 등록 대수가 약 2배로 늘어 점유율 12.7%를 기록해, 일본 브랜드(11.9%)를 분기 기준 처음 앞질렀습니다 [채널]"
+   }
+  ],
+  "autonomy": [
+   {
+    "d": "2026-10-27",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-26/tesla-spacex-merger-hopes-send-bearish-ratings-to-11-year-low",
+    "nid": "n-tg-0732",
+    "t": "머스크가 트럼프 퇴임 전 테슬라·스페이스X 합병을 추진하고 두 회사 이사회가 특별위원회를 꾸렸으며, 테슬라 매도 의견은 애널리스트 60명 중 5명으로 2015년 초 이후 최저입니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-27",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins",
+   "nid": "n-bbg-0721",
+   "t": "마루티 스즈키의 7~9월 원자재·부품 비용은 3,748억 8,400만 루피로 48% 늘었고, 판매량은 69만 6,654대로 26.5% 늘었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-27",
+   "kind": "demand",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/mercedes-joins-bmw-vw-to-cut-outlook-on-china-market-slump",
+   "nid": "n-tg-0756",
+   "t": "중국 브랜드의 3분기 유럽 점유율은 12.7%로 일본 브랜드 11.9%를 앞질렀고, 메르세데스의 3분기 중국 판매는 31% 줄었습니다 [채널]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "c1": [
+   {
+    "t": "지금은 덮을 만큼 크지 않습니다. 투자는 인도·북미처럼 보호된 시장과 트럭에 몰리고, 메르세데스까지 이익률 전망을 2~3%로 낮춰 독일 3사가 모두 전망을 내렸으며, 판매가 사상 최대인 마루티 스즈키조차 원가 48% 상승에 순이익이 27% 줄어 승용차 기존 업체의 이익 악화가 그대로입니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/mercedes-joins-bmw-vw-to-cut-outlook-on-china-market-slump"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 4,
+  "conf": "중간",
+  "why": [
+   {
+    "src": [
+     {
+      "d": "2026-10-12",
+      "o": "CnEVPost(중국승용차협회 확정치)",
+      "u": "https://cnevpost.com/2026/10/12/china-sept-2026-nev-retail-cpca/"
+     },
+     {
+      "d": "2026-10-14",
+      "o": "텔레그램 하나증권 중국전략",
+      "u": "https://t.me/HANAchina/70422"
+     }
+    ],
+    "t": "중국은 공급이 내수를 앞질러 9월 승용차 소매가 28% 줄고, 중국자동차공업협회 기준 자동차 내수는 6개월 연속 20% 넘게 줄었으며, 승용차 수출이 64~74% 늘어 남는 물량을 해외로 밀어내고 있습니다 [사실]"
+   },
+   {
+    "t": "기존 업체의 이익이 더 눌렸습니다. 메르세데스가 승용차 조정 매출이익률 전망을 3~5%에서 2~3%로 낮춰 BMW·폭스바겐에 이어 독일 3사가 모두 전망을 내렸고(3분기 중국 판매 31% 감소), 볼보카는 3분기 조정 영업손실 37억 크로나로 돌아서 2,500명을 더 줄입니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-27",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-27/mercedes-joins-bmw-vw-to-cut-outlook-on-china-market-slump"
+     },
+     {
+      "d": "2026-10-23",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/china/volvo-cars-swings-third-quarter-loss-plans-job-cuts-2026-10-23/"
+     }
+    ]
+   },
+   {
+    "src": [
+     {
+      "d": "2026-10-08",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/china/audi-plant-facing-closure-needs-viable-solutions-ceo-tells-workers-2026-10-08/"
+     },
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/china/volkswagen-stellantis-show-ev-confidence-with-lessons-china-2026-10-13/"
+     }
+    ],
+    "t": "전기차 투자가 거둬지고 공장 감축이 거론되지만 실제 폐쇄는 드뭅니다. 아우디는 네카르줄름 공장 해법을 2027년 중반까지 요구했고, 스텔란티스는 남는 유럽 공장을 닫지 않고 중국 업체와 나눠 쓰겠다고 했습니다 [사실]"
+   },
+   {
+    "src": [
+     {
+      "d": "2026-07-28",
+      "o": "Caixin Global",
+      "u": "https://www.caixinglobal.com/2026-07-28/energy-insider-catl-profit-surges-plans-record-share-buyback-102468755.html"
+     },
+     {
+      "d": "2026-10-16",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/googles-waymo-plans-first-canada-robotaxi-service-toronto-2028-2026-10-16/"
+     },
+     {
+      "d": "2026-10-12",
+      "o": "Mining Weekly",
+      "u": "https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12"
+     }
+    ],
+    "t": "반대로 ESS 배터리와 로보택시에는 돈이 몰려 CATL은 상반기 이익 급증과 최대 규모 자사주 매입을, 웨이모는 주당 유료 운행 50만 건과 2028년 토론토 진출을 발표했습니다. 다만 탄산리튬 값은 5월 고점의 절반으로 내렸습니다 [사실]"
+   }
+  ],
+  "next": "기존 업체가 공장 폐쇄·합병으로 생산능력을 실제로 줄이고 중국이 가격 경쟁 억제·업체 정리에 나서면 ⑤ 자본 철수를 지나 ⑥ 공급 파괴·통합으로 넘어갑니다. 반대로 중국 수출이 관세에 막혀 내수로 되돌아오면 가격 경쟁이 길어집니다 [유추]",
+  "watch": [
+   "중국 승용차 소매·수출(CPCA·CAAM 월간)과 중국 업체의 해외 현지 생산 비중",
+   "폭스바겐·스텔란티스 등 3분기 영업이익률(10월 말 발표)과 IG메탈 1월 파업 여부",
+   "유럽 공장 폐쇄·공유와 인수합병, 감원 규모",
+   "탄산리튬 값과 중국 배터리 수출",
+   "유가와 미국·유럽 전기차 판매 비중"
+  ],
+  "split": [
+   {
+    "label": "ESS 배터리·로보택시 투자",
+    "nodes": [
+     "battery",
+     "autonomy"
+    ],
+    "stage": 2
+   },
+   {
+    "label": "중국 과잉·수출",
+    "nodes": [
+     "chinaoem"
+    ],
+    "stage": 3
+   },
+   {
+    "label": "기존 업체·부품 이익 악화",
+    "nodes": [
+     "oem",
+     "parts"
+    ],
+    "stage": 4
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) CATL의 상반기 가동률과 건설 중 설비는 검색 요약에서만 봤고, 포스코퓨처엠의 CATL 음극재 시험과 중국 밖 배터리 점유율(CATL 33.7%, 한국 3사 26.8%)은 텔레그램 전언으로만 확인했습니다. (2) BYD 상반기 실적은 2차 출처 요약으로만 확인했습니다. (3) 미국 232조 관세의 국가별 세율과 USMCA 검토 결과, 캐나다산 자동차 50% 관세가 실제로 2027년 1월 시행될지는 확인하지 못했습니다. (4) 피치 서브프라임 연체율은 7월에 산출 방식이 바뀌어 최신치 비교가 어렵습니다. (5) 프랑스·독일 배출 합의의 EU 의회·이사회 최종 결정, 중국의 가격 경쟁 억제(반내권) 정책 집행 상황, 도요타·포드·스텔란티스의 3분기 실적(10월 말 발표, GM은 10월 20일 발표분 반영), 미국 중고차 가격과 딜러 재고 일수는 확인하지 못했습니다. (6) 탄산리튬 현물·선물 값은 출처마다 날짜·수치가 조금씩 달라 Mining Weekly의 10월 12일 선물 종가만 썼고, 폭스바겐 이익률 전망 하향은 9월 18일 발표로 보도됐습니다. 이베코 응모율(10월 초 약 28.4%)은 미확인 보도입니다. (7) 이번 반영분 가운데 5대 배터리 업체 10월 생산 증가율과 JP모건 의견, 폭스콘-미쓰비시 합작 조건, 테슬라 3세대 옵티머스 양산 준비는 텔레그램 전언이고, 스카니아의 중국 전기트럭 확대는 기사 제목뿐입니다. 웨이모 2만 대 계획은 세마포 보도를 옮긴 것이며, 유럽의회 87.5% 합의는 회원국 협상 전 단계입니다. 데스크 뉴스(로이터·블룸버그)를 근거로 쓴 줄은 원문을 열지 않았고, 10월 21일 업데이트의 웹 조회는 검색 0회, 열람 0회였습니다. 10월 24일 저녁 업데이트도 검색·열람 없이 입력 뉴스 12건으로만 반영했습니다. 타타모터스 순이익 규모는 출처마다 약 125억 루피와 약 206억 루피로 엇갈려 쓰지 않았고, 테슬라의 호주·뉴질랜드 사이버트럭 취소와 스페이스X 합병 제안은 텔레그램 전언이라 쓰지 않았으며, 중국의 대EU 하이브리드 수출 절반 감축은 EU 최종 승인 전 단계이고 체리의 캐나다 생산 검토는 기사 제목뿐입니다. 10월 28일 저녁 업데이트는 검색·열람 없이 입력 뉴스 3건으로만 반영했습니다. 중국 브랜드 유럽 점유율 12.7%는 채널 전언(데이터포스 자료)이고, 포르쉐 이익 유지와 스텔란티스 주가·채권 급락은 기사 제목만 봤으며, 테슬라·스페이스X 합병의 반독점 쟁점과 사이버트럭 호주·뉴질랜드 중단은 텔레그램 전언입니다.",
+ "note": "뉴스 3건 반영: 메르세데스 이익률 전망 2~3%로 하향(독일 3사 모두 하향)·중국차 유럽 점유율 12.7%로 일본 추월, 마루티 원가 48%↑에 순이익 27%↓, 테슬라·스페이스X 합병 추진. 국면 ④ 그대로(근거 1줄 교체), 근거 4줄, 수치 2줄, 재검토 신호 0건, 인사이트 c1 갱신, 검색 0회",
+ "applied": [
+  "n-bbg-0721",
+  "n-tg-0732",
+  "n-tg-0756"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

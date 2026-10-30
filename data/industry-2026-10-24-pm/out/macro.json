@@ -1,0 +1,510 @@
+{
+ "id": "macro",
+ "summary": "매크로는 8개 산업 모두에 걸리는 자본비용·물가·환율·유동성의 배경입니다. 10월 하순 현재 미국은 아직 뜨겁습니다. 10월 PMI는 57.6으로 확장을 이어 가고 판매가격 지수는 2022년 8월 이후 최고이며, 실업수당 4주 평균은 1969년 이후 최저라 연준 12월 인상 전망이 굳고 캐나다·뉴질랜드·일본도 인상 쪽으로 기웁니다. 반면 미국 밖 성장은 꺾여 유로존 PMI 51.9, 프랑스 48.4, 영국 소비자신뢰 -24, 호주 실업률 4.7%가 나왔습니다. 가장 빠듯한 곳은 여전히 AI 자금입니다. 메타 CDS가 사상 최고로 오르고 AI 데이터센터 상장이 잇달아 밀렸으며, 돈은 미 국채로 몰려 10년물이 한때 5% 아래로 내려갔습니다. 브렌트는 114달러대로 다시 올라 물가 압력은 남습니다. 성장·물가 4국면으로는 ② 과열·긴축을 유지하되 ③ 스태그플레이션 쪽 신호가 미국 밖에서 더 쌓여 확신도는 낮습니다. 여기의 국면은 자본순환 8국면과 별개이며, 각 산업 판정의 배경 변수로만 씁니다.",
+ "state": {
+  "cb": [
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/japan-core-inflation-exceeds-boj-target-cements-near-term-rate-hike-chance-2026-10-22/",
+    "nid": "n-tg-0740",
+    "t": "일본 9월 근원 소비자물가가 2.1%로 2025년 12월 이후 처음 일본은행 목표 2%를 넘었고, 이코노미스트 80% 이상이 12월 인상을 예상합니다 [사실]"
+   }
+  ],
+  "rates": [
+   {
+    "d": "2026-10-23",
+    "o": "CNBC",
+    "u": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+    "nid": "n-bbg-0670",
+    "t": "AI 부채 우려에 미 10년물 금리가 22일 17bp 내린 약 4.97%로 한 달 만에 5% 아래로 내려갔고, 2023년 3월 이후 하루 최대 낙폭이었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-23/french-bond-risk-nears-biggest-weekly-rise-as-crisis-deepens",
+    "nid": "n-rtr-0711",
+    "t": "프랑스·독일 10년물 금리차가 약 170bp로 2011년 이후 최대로 벌어졌고, 프랑스 10년물 금리는 2002년 이후 처음 5%를 넘었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "유로뉴스",
+    "u": "https://www.euronews.com/2026/10/24/debt-moodys-spares-france-a-brief-respite-not-a-vote-of-confidence",
+    "nid": "n-rtr-0711",
+    "t": "강등이 널리 예상됐지만 무디스는 23일 프랑스 등급을 Aa3·부정적 전망으로 유지했고, 2027년 적자 감축 예산 채택을 전제로 삼았습니다 [사실]"
+   }
+  ],
+  "fiscal": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-22/doubleline-s-sherman-stays-underweight-on-long-term-treasuries",
+    "nid": "n-bbg-0678",
+    "t": "미 국채 가운데 단기채 비중은 8월 22.2%로 TBAC 권고 상한 약 20%를 이미 넘었고, 시장은 11월 4일 리펀딩에서 단기채 확대를 예상합니다 [사실]"
+   }
+  ],
+  "inflation": [
+   {
+    "d": "2026-10-23",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
+    "nid": "n-bbg-0685",
+    "t": "미국 10월 PMI 판매가격 지수는 59.8로 2022년 8월 이후 최고였고, 공급망 병목과 주문 적체로 기업이 비용을 넘기기 쉬워졌습니다 [사실]"
+   }
+  ],
+  "growth": [
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/",
+    "nid": "n-bbg-0117",
+    "t": "10월 17일 주간 미국 신규 실업수당 청구는 19만 4,000건으로 줄었고 4주 평균 19만 7,750건은 1969년 이후 최저였습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/europe/french-business-activity-contracts-october-amid-political-financial-pressures-2026-10-23/",
+    "nid": "n-rtr-0711",
+    "t": "프랑스 10월 종합 PMI 속보치는 48.4로 9월 51.1에서 위축으로 돌아섰고(예상 약 50.5), 기업 12개월 전망은 6년 반 만의 최저였습니다 [사실]"
+   }
+  ],
+  "semis": [
+   {
+    "d": "2026-10-23",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70893",
+    "nid": "n-tg-0741",
+    "t": "세미애널리시스는 GPU가 이미 일정 수준 공급 과잉이고 2028년 데이터센터 과잉 위험이 있다고 봤고, 화타이는 2030년까지 자금 1조 3,000억 달러 부족을 봤습니다 [채널]"
+   }
+  ],
+  "fx": [
+   {
+    "d": "2026-10-23",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70910",
+    "nid": "n-bbg-0670",
+    "t": "안전자산 회귀에 엔화가 달러당 156.2엔까지 올랐고, 골드만 FICC는 엔화가 40% 저평가됐으며 2년 내재변동성 9.9로 헤지 비용이 낮다고 봤습니다 [채널]"
+   }
+  ],
+  "liquidity": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/",
+    "nid": "n-bbg-0448",
+    "t": "메타 5년 CDS가 실적 뒤 약 119.3bp로 거래 시작 이래 최고였고, 리스·계약 지출 약정은 7월 약 7,000억 달러에서 약 8,250억 달러로 늘었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-22",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout",
+    "nid": "n-rtr-0479",
+    "t": "22일 헤지펀드 롱숏 1.4%, 시스템 1.3%, 멀티전략 1.9%가 빠져 3대 전략이 코로나 이후 처음 같은 날 1% 넘게 떨어졌습니다 [사실]"
+   }
+  ],
+  "commodity": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+    "nid": "n-tg-0723",
+    "t": "사우디 에너지시설 공격과 미국의 이란 재공습 우려에 브렌트유가 23일 장중 114.72달러로 5월 이후 최고를 기록했습니다 [사실]"
+   }
+  ],
+  "geo": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/",
+    "nid": "n-tg-0721",
+    "t": "크렘린은 러·우·미 3자 평화회담을 11월 상반기 아부다비에서 연다고 했고, 백악관은 10월 29일부터 올레슈키 국지 휴전이 발효된다고 밝혔습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-23",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
+   "nid": "n-bbg-0685",
+   "t": "미국 10월 종합 PMI 속보치는 57.6으로 9월 58.4에서 낮아졌지만, 판매가격 지수는 59.8로 2022년 8월 이후 최고이고 투입가격 지수는 64.9였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-22",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/",
+   "nid": "n-bbg-0117",
+   "t": "미국 신규 실업수당 청구는 10월 17일 주간 19만 4,000건으로 6주 연속 20만 건 아래였고, 계속 청구는 172만 8,000건으로 2만 5,000건 늘었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-23",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/",
+   "nid": "n-bbg-0668",
+   "t": "유로존 10월 종합 PMI 속보치는 51.9로 9월 53.1과 예상 52.7을 밑돌아 4개월 최저였고, 독일은 52.8, 프랑스는 48.4였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-23",
+   "kind": "policy",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/macklem-ensnared-by-market-pricing-and-will-hike-economists-say",
+   "nid": "n-bbg-0530",
+   "t": "시장은 캐나다은행의 10월 28일 인상(2.25%→2.50%) 확률을 약 80%로 반영했고, 캐나다 소비자 5년 기대물가는 3.91%로 2022년 2분기 이후 최고였습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0668",
+   "t": "재검토 필요: 유로존 PMI 51.9(4개월 최저)와 프랑스 48.4 위축 속에 투입 비용은 더 오르고 판매가는 둔화한 조합이 ③ 스태그플레이션 쪽을 가리킵니다. 비용은 오르는데 활동과 마진이 식기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0669",
+   "t": "재검토 필요: 영국 GfK 소비자신뢰가 -24로 코로나 초기 이후 최대 폭으로 떨어지고 9월 소매판매가 0.4% 줄어든 것이 ③ 스태그플레이션 쪽을 가리킵니다. 고물가·고금리 속에 소비부터 꺾이기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0693",
+   "t": "재검토 필요: 호주 실업률이 4.7%로 5년 만의 최고인데 기준금리는 4.6%까지 올랐고 추가 인상 확률이 64%인 조합이 ③ 스태그플레이션(길게는 ④) 쪽을 가리킵니다. 유가발 물가 때문에 고용이 식어도 긴축이 이어지기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b1": [
+   {
+    "t": "신용시장이 AI 차입에 매기는 값이 더 올랐습니다. 메타 5년 CDS는 약 119.3bp로 거래 시작 이래 최고였고 지출 약정은 약 8,250억 달러로 늘었으며, 코어위브 무담보 채권 수익률은 약 15%입니다. 빚으로 짓는 연산 설비의 속도가 금리에 묶일 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-23",
+      "u": "https://t.me/HANAchina/70899"
+     }
+    ]
+   },
+   {
+    "t": "주식시장 조달 창구도 좁아졌습니다. Switch·Nscale·SB에너지·엘리스가 상장을 미루고 AirTrunk 리츠·Firmus는 공모를 접어 앤트로픽만 11월 상장을 추진하며, 오픈AI는 조달 몸값 목표를 1조 4,000억 달러에서 1조 2,500억 달러로 낮췄다고 전해졌습니다 [채널]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/legal/transactional/anthropic-ipo-stands-alone-ai-market-jitters-sideline-others-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 TNBfolio",
+      "d": "2026-10-23",
+      "u": "https://t.me/TNBfolio/71677"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "미국 밖 성장이 지표로 꺾였습니다. 유로존 10월 종합 PMI는 51.9로 4개월 최저, 프랑스는 48.4로 위축이었고, 영국 소비자신뢰는 -24로 코로나 초기 이후 최대 폭으로 떨어졌으며 호주 실업률은 4.7%로 5년 만의 최고입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/uk/british-retail-sales-fall-by-04-september-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices"
+     }
+    ]
+   },
+   {
+    "t": "시장은 물가보다 AI발 성장 위험을 값에 넣기 시작했습니다. 미 10년물은 22일 17bp 내려 약 4.97%로 5% 아래로 떨어졌고, 헤지펀드 3대 전략이 코로나 이후 처음 같은 날 1% 넘게 빠졌습니다 [사실]",
+    "src": [
+     {
+      "o": "CNBC",
+      "d": "2026-10-23",
+      "u": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-22",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout"
+     }
+    ]
+   },
+   {
+    "t": "위험 회피가 아시아 주식으로 번졌습니다. 코스피 12개월 선행 PER은 4.2배로 시총 1조 달러 이상 시장 가운데 2006년 이후 처음 5배를 밑돌았고, BofA 하트넷 팀은 위험 회피가 11월 중순까지 간다고 봤습니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-23",
+      "u": "https://t.me/w_compass/7448"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/legal/transactional/us-equity-funds-post-inflows-second-straight-week-2026-10-23/"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮지는 못한다고 봅니다. 미국은 10월 PMI 57.6으로 확장을 이어 가고 판매가격 지수는 2022년 8월 이후 최고이며, 실업수당 4주 평균은 1969년 이후 최저입니다. 캐나다·뉴질랜드·일본도 인상 쪽이라 물가 축이 여전히 앞섭니다. 다만 미국 10월 고용과 소비까지 꺾이면 ③으로 옮길 근거가 됩니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-22",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/new-zealand-likely-facing-pre-election-rate-hike-economists-say"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "이 국면을 긴축이 아니라 재정이 앞서고 중앙은행이 뒤따르는 국면으로 볼 수도 있습니다. 대통령이 인플레이션으로 부채를 줄일 수 있다고 말했고 재무부는 장기금리에 직접 손을 댑니다. 그렇다면 명목 금리보다 실질 금리와 실물 자산의 공급 제약이 더 중요한 변수가 됩니다 [유추]",
+    "src": [
+     {
+      "d": "2026-10-01",
+      "o": "타임 인터뷰 전문",
+      "u": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+     },
+     {
+      "d": "2026-08-19",
+      "o": "미 재무부 발표(Mondo Visione 게재)",
+      "u": "https://mondovisione.com/media-and-resources/news/us-treasury-announces-increased-sizes-of-nominal-long-end-liquidity-support-buyb-2026819"
+     }
+    ]
+   },
+   {
+    "t": "장기금리를 만기 구성으로 다루는 흐름이 미국과 영국에서 함께 보입니다. 미 국채 단기채 비중은 8월 22.2%로 TBAC 권고 상한 약 20%를 넘었고, 영국 딜러들은 단기물 비중을 DMO 4월 전망 39%보다 높은 42.7%로 봅니다 [귀납]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/doubleline-s-sherman-stays-underweight-on-long-term-treasuries"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/business/bond-dealers-see-small-rise-uk-debt-issuance-after-budget-more-2027-2026-10-23/"
+     }
+    ]
+   },
+   {
+    "t": "재정 압박이 중앙은행 독립성을 건드리는 사례가 늘었습니다. 백악관은 쿡 연준 이사 해임을 다시 추진하고, 폴란드 중앙은행 이사회는 11월 5일부터 정족수 미달로 멈출 수 있습니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-10-14",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/us/lawyer-feds-cook-denounces-trumps-latest-attempt-remove-her-2026-10-13/"
+     },
+     {
+      "d": "2026-10-16",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/polish-president-seeks-way-out-of-deadlock-at-the-central-bank"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "낮음",
+  "why": [
+   {
+    "t": "국면은 ② 그대로이고 근거를 새 지표로 바꿨습니다. 미국 10월 종합 PMI는 57.6으로 확장을 이어 갔고 판매가격 지수는 59.8로 2022년 8월 이후 최고였으며, 신규 실업수당 청구 4주 평균은 19만 7,750건으로 1969년 이후 최저라 성장과 물가가 아직 함께 뜨겁습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "긴축이 여러 나라로 넓어집니다. 이코노미스트 100명 전원이 연준 12월 인상을 예상했고, 캐나다(인상 확률 약 80%)·뉴질랜드(81%)가 10월 28일 인상 쪽이며, 일본은 근원 물가 2.1%로 12월 인상 전망이 80%를 넘었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/macklem-ensnared-by-market-pricing-and-will-hike-economists-say"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-22",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/new-zealand-likely-facing-pre-election-rate-hike-economists-say"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/world/asia-pacific/japan-core-inflation-exceeds-boj-target-cements-near-term-rate-hike-chance-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "반대 신호는 미국 밖 성장에서 더 쌓였습니다. 유로존 PMI는 51.9로 4개월 최저, 프랑스는 48.4로 위축이었고, 영국 소비자신뢰는 -24로 급락했으며 호주 실업률은 4.7%로 5년 만의 최고입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/europe/french-business-activity-contracts-october-amid-political-financial-pressures-2026-10-23/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/uk/british-retail-sales-fall-by-04-september-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices"
+     }
+    ]
+   },
+   {
+    "t": "금융시장은 AI발 성장 위험을 먼저 값에 넣습니다. 미 10년물은 22일 17bp 내려 약 4.97%로 5% 아래로 떨어졌고 메타 CDS는 사상 최고였으며 헤지펀드가 동반 손실을 냈습니다. ③ 쪽 근거라 확신도는 낮게 둡니다 [귀납]",
+    "src": [
+     {
+      "o": "CNBC",
+      "d": "2026-10-23",
+      "u": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-22",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout"
+     }
+    ]
+   }
+  ],
+  "next": "브렌트가 110달러 위에 머무는데 11월 초 미국 10월 고용과 소비가 주택처럼 꺾이면 ③ 스태그플레이션으로 옮깁니다. 유가와 물가가 함께 꺾이고 연준이 12월 인상을 접으면 ① 쪽으로, AI 신용 경색이 실업 증가로 번지면 ④를 봅니다 [추측]",
+  "watch": [
+   "10월 27~28일 FOMC·10월 28일 캐나다·뉴질랜드·10월 29일 ECB·10월 30일 일본은행 결정",
+   "미국 10월 고용보고서·주간 실업수당 청구·9월 PCE",
+   "브렌트유와 미국 선거(11월 3일) 뒤 이란 재공습 여부, 11월 아부다비 러·우·미 회담",
+   "미 10년물 5% 선과 11월 4일 재무부 리펀딩의 단기채 비중",
+   "메타·코어위브 신용, 앤트로픽 상장, 프랑스 금리차·영국 10월 28일 예산"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) 미국 3분기 GDP와 ISM은 이번에도 열어 보지 못했고, 성장 판단은 실업수당 청구·S&P글로벌 PMI·주택 지표에 기대고 있습니다. 미국 10월 고용보고서와 9월 PCE는 아직 나오지 않았습니다. (2) 미 10년물 22일 약 4.97%와 무디스의 프랑스 등급 유지는 CNBC·유로뉴스 검색 요약으로만 확인했고, 달러 지수 수치는 확인하지 못했습니다. (3) 엔화 156.2엔·골드만 엔화 40% 저평가, 코어위브 자금 부족 추정, 오픈AI 몸값 하향, 코스피 선행 PER 4.2배, 하이퍼스케일러 합산 FCF 적자는 텔레그램 채널 전언입니다. (4) 투자등급·하이일드 지수 스프레드와 연준 대차대조표·자금시장 금리는 확인하지 못했습니다. (5) 블룸버그·로이터 기사는 본문을 열 수 없어 입력 요약과 다른 매체로만 썼습니다. (6) 한국은행 10월 22일 결정과 한국 3분기 GDP(10월 27일 발표) 결과는 확인하지 못했습니다. (7) 4국면은 성장과 물가 두 축만 쓰는 단순한 틀이라, 재정과 유동성 변화는 축 설명에 따로 적었습니다. (8) 메모리 가격과 AI 설비투자 수치는 기업 공시와 채널 전언에 기대고 있습니다. (9) 호르무즈 기뢰 보고 조작 주장과 이란의 보복 위협은 독립 확인을 하지 못했습니다.",
+ "note": "뉴스 76건 반영: 미 10월 PMI 판매가격 2022년 이후 최고·실업수당 4주 평균 1969년 이후 최저, 유로존·프랑스 PMI 위축과 영국 소비심리 급락, AI 부채 우려 속 10년물 5% 하회·메타 CDS 최고 — 국면 ② 그대로(why 4줄 교체), 근거 14줄, 수치 4줄, 재검토 신호 3건, 검색 2회",
+ "applied": [
+  "n-bbg-0106",
+  "n-bbg-0117",
+  "n-bbg-0448",
+  "n-bbg-0453",
+  "n-bbg-0530",
+  "n-bbg-0542",
+  "n-bbg-0548",
+  "n-bbg-0613",
+  "n-bbg-0630",
+  "n-bbg-0643",
+  "n-bbg-0668",
+  "n-bbg-0669",
+  "n-bbg-0670",
+  "n-bbg-0671",
+  "n-bbg-0673",
+  "n-bbg-0674",
+  "n-bbg-0677",
+  "n-bbg-0678",
+  "n-bbg-0679",
+  "n-bbg-0680",
+  "n-bbg-0684",
+  "n-bbg-0685",
+  "n-bbg-0686",
+  "n-bbg-0687",
+  "n-bbg-0688",
+  "n-bbg-0691",
+  "n-bbg-0692",
+  "n-bbg-0693",
+  "n-bbg-0694",
+  "n-rtr-0024",
+  "n-rtr-0356",
+  "n-rtr-0410",
+  "n-rtr-0430",
+  "n-rtr-0479",
+  "n-rtr-0569",
+  "n-rtr-0633",
+  "n-rtr-0653",
+  "n-rtr-0671",
+  "n-rtr-0672",
+  "n-rtr-0673",
+  "n-rtr-0676",
+  "n-rtr-0679",
+  "n-rtr-0681",
+  "n-rtr-0684",
+  "n-rtr-0693",
+  "n-rtr-0706",
+  "n-rtr-0711",
+  "n-rtr-0714",
+  "n-rtr-0715",
+  "n-rtr-0719",
+  "n-rtr-0723",
+  "n-rtr-0725",
+  "n-rtr-0726",
+  "n-rtr-0727",
+  "n-rtr-0728",
+  "n-rtr-0729",
+  "n-rtr-0730",
+  "n-rtr-0735",
+  "n-tg-0121",
+  "n-tg-0135",
+  "n-tg-0401",
+  "n-tg-0631",
+  "n-tg-0721",
+  "n-tg-0723",
+  "n-tg-0724",
+  "n-tg-0728",
+  "n-tg-0729",
+  "n-tg-0740",
+  "n-tg-0741",
+  "n-tg-0742",
+  "n-tg-0743",
+  "n-tg-0744",
+  "n-tg-0745",
+  "n-tg-0749",
+  "n-tg-0751",
+  "n-tg-0752"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

@@ -1,0 +1,443 @@
+{
+ "id": "fin",
+ "summary": "금융은 예금·보험료·연금·펀드 자금을 모아 가계·기업·정부에 빌려주거나(은행·사모 신용) 주식·채권 발행을 주선하고(투자은행) 거래·운용·결제를 대신해 주며 이자와 수수료를 받는 사슬입니다. 2026년 3분기 미국 대형 은행·투자은행과 아멕스·뮌헨리는 고수익을 냈고, 인도 지오 플랫폼스 IPO는 증시 급락 속에도 22.19배 청약돼 대형 발행 창구는 아직 열려 있습니다. 남는 곳은 사모 신용입니다: 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었고, 영란은행·FCA가 사모 신용 장부와 운용사 이해상충을 점검합니다. 발행 창구의 가장자리는 닫히고 있어 나스닥 3분기 신규 상장은 167건(1년 전 205건)으로 줄고 홍콩 신규 상장 67.5%가 공모가를 밑돌며 AI 인프라 상장은 앤트로픽을 빼고 잇따라 미뤄졌고, 헤지펀드는 코로나 이후 최대 동반 손실 속에 디레버리징하고 코스피 선행 PER은 4.2배까지 내려갔습니다.",
+ "state": {
+  "markets": [
+   {
+    "d": "2026-10-23",
+    "o": "HDFC Sky(NSE 집계 인용)",
+    "u": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day",
+    "nid": "n-bbg-0122",
+    "t": "지오 플랫폼스 IPO는 10월 23일 마감까지 22.19배 청약됐고 기관(QIB) 몫은 70.55배였으며, 인도 증시 급락에도 마지막 날 청약이 몰렸습니다 [사실]"
+   },
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/nasdaq-ceo-flags-modest-softening-ipo-market-macro-uncertainty-hits-debuts-2026-10-22/",
+    "nid": "n-bbg-0453",
+    "t": "나스닥 프리드먼 CEO는 IPO 시장이 소폭 둔화해 일부 기업이 상장 시기를 다시 따진다고 했고, 3분기 신규 상장은 167건으로 1년 전 205건보다 줄었습니다 [사실]"
+   }
+  ],
+  "ib": [
+   {
+    "d": "2026-10-22",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70890",
+    "nid": "n-bbg-0674",
+    "t": "홍콩은 1~3분기 IPO가 116건·3,911억 홍콩달러로 늘었지만 올해 신규 상장 117개 중 79개(67.5%)가 공모가를 밑돌아 평균 36.69% 하락했다고 채널이 전했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/transactional/anthropic-ipo-stands-alone-ai-market-jitters-sideline-others-2026-10-22/",
+    "nid": "n-bbg-0671",
+    "t": "Switch·Nscale·SB에너지·엘리스가 상장을 미루고 AirTrunk 리츠·Firmus가 공모를 접은 가운데, 앤트로픽만 10월 말 신고서 공개와 11월 중순 상장을 추진합니다 [사실]"
+   }
+  ],
+  "banks": [
+   {
+    "d": "2026-10-23",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70570",
+    "nid": "n-tg-0631",
+    "t": "씨티·BofA·JP모건이 외부 AI 에이전트의 계좌 접근을 막고 있으며, 대형 3개 은행이 무이자 예금 1조 6,000억 달러에 3%를 주면 연 470억 달러 비용이 는다는 추산이 있습니다 [사실]"
+   },
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/india/yes-bank-unlikely-pay-at1-bond-coupons-despite-bond-holders-demand-sources-say-2026-10-22/",
+    "nid": "n-rtr-0337",
+    "t": "예스은행은 841억 5,000만 루피 AT1 상각 위법 판결 뒤에도 채권 복원 전까지 올해 AT1 쿠폰을 주지 않을 것으로 소식통들이 봤고, 10월 18일 쿠폰도 지급되지 않았습니다 [사실]"
+   }
+  ],
+  "pcredit": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/finance/uk-watchdog-restricts-six-private-credit-firms-over-anti-money-laundering-2026-10-23/",
+    "nid": "n-rtr-0716",
+    "t": "FCA는 자금세탁 방지 통제 우려로 대출업체 6곳의 신규 고객·신규 대출을 막았고, 사모주식·사모신용 운용사에 펀드 간 이전 등 이해상충 관리를 성장 속도에 맞추라고 촉구했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70899",
+    "nid": "n-rtr-0714",
+    "t": "코어위브 무담보채 수익률은 약 15%로 올랐고 자금 부족분 추정은 골드만삭스 230억 달러, 번스타인 760억 달러로 엇갈렸으며, 네오클라우드 공매도는 10월 60억 달러 평가이익을 냈습니다 [채널]"
+   }
+  ],
+  "assetmgmt": [
+   {
+    "d": "2026-10-22",
+    "o": "로이터",
+    "u": "https://www.reuters.com/markets/wealth/hedge-fund-returns-worsen-this-week-tech-selloff-deepens-2026-10-23/",
+    "nid": "n-rtr-0479",
+    "t": "골드만 프라임 자료로 22일 롱숏 1.4%, 시스템 1.3%, 멀티전략 1.9%가 빠져 3대 전략이 코로나 이후 처음 같은 날 1% 넘게 하락했고 넷 포지션 축소가 3월·7월 수준에 육박했습니다 [사실]"
+   }
+  ],
+  "insurance": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/munich-re-raises-full-year-profit-guidance-after-stronger-than-expected-quarter-2026-10-23/",
+    "nid": "n-rtr-0733",
+    "t": "뮌헨리 3분기 잠정 순이익은 약 17억 유로로 예상 14.79억 유로를 웃돌았고, 재보험 대형 손실이 예상보다 적어 연간 순이익 전망을 63억 유로에서 66억 유로로 올렸습니다 [사실]"
+   }
+  ],
+  "payments": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/american-express-raises-2026-profit-forecast-affluent-customers-keep-spending-2026-10-23/",
+    "nid": "n-tg-0746",
+    "t": "아멕스 카드 결제액은 4,540억 달러로 8% 늘고 조정 주당순이익 4.68달러로 예상을 웃돌았지만, 전체 인력의 약 5%인 3,500명을 줄입니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/government/australias-zip-tumbles-50-after-fraud-incident-dents-first-quarter-customer-2026-10-23/",
+    "nid": "n-bbg-0683",
+    "t": "Zip은 미국 조직적 사기로 720만 달러 비용이 들고 순대손율이 1.97%(1년 전 1.65%)로 올랐다고 밝혀 주가가 장중 50.5% 떨어졌다가 29.5% 내려 마감했습니다 [사실]"
+   }
+  ],
+  "regulation": [
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23/",
+    "nid": "n-rtr-0735",
+    "t": "일본은행 금융시스템보고서는 AI 투자 수익 기대가 꺾이면 해외 비은행 금융기관의 포트폴리오 조정이 시장 충격을 키워 일본에 번질 수 있다고 경고했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-23",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/india/india-central-bank-impose-new-leverage-rules-banks-april-1-2027-2026-10-23/",
+    "nid": "n-rtr-0721",
+    "t": "RBI는 2027년 4월 1일부터 바젤 기준 레버리지 규제를 적용해 최소 비율을 시스템상 중요 은행 4%, 그 밖의 은행 3.5%로 두고 자본 배분 제한을 레버리지 완충에도 연동합니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-23",
+   "kind": "demand",
+   "o": "HDFC Sky(NSE 집계 인용)",
+   "u": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day",
+   "nid": "n-bbg-0122",
+   "t": "지오 플랫폼스 IPO(약 32억 달러, 기업가치 약 1,060억 달러)는 22.19배 청약됐고 기관 70.55배, 비기관 14배, 개인 2.72배였으며 상장 예정일은 10월 28일입니다 [사실]"
+  },
+  {
+   "d": "2026-10-22",
+   "kind": "supply",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/transactional/nasdaq-ceo-flags-modest-softening-ipo-market-macro-uncertainty-hits-debuts-2026-10-22/",
+   "nid": "n-bbg-0453",
+   "t": "나스닥 3분기 신규 상장은 167건으로 1년 전 205건보다 줄었고, 엘리스그룹은 상장 첫날 장중 6만 1,000원까지 밀려 공모가 9만 500원 대비 32% 떨어졌습니다 [사실]"
+  },
+  {
+   "d": "2026-10-22",
+   "kind": "price",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70890",
+   "nid": "n-bbg-0674",
+   "t": "홍콩 올해 신규 상장 117개 중 79개(67.5%)가 공모가를 밑돌아 평균 36.69% 내렸고, A+H 동시 상장은 39개 중 34개(87.2%)가 공모가를 밑돌았습니다 [채널]"
+  },
+  {
+   "d": "2026-10-23",
+   "kind": "price",
+   "o": "텔레그램 부의 나침반",
+   "u": "https://t.me/w_compass/7448",
+   "nid": "n-tg-0742",
+   "t": "코스피 12개월 선행 PER은 4.2배로 2006년 이후 시총 1조 달러 이상 시장 중 처음 5배를 밑돌았고, 투자자예탁금은 90조 원 아래로 줄었습니다 [채널]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0674",
+   "t": "재검토 필요: 홍콩 신규 상장 67.5%가 공모가를 밑돈 것은 발행이 수요를 앞지른 ③ 공급 과잉(이름: 공급 과잉)을 가리키며, IPO 건수·조달액이 크게 늘어난 뒤 상장 뒤 수익이 무너지고 있기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0479",
+   "t": "재검토 필요: 헤지펀드 3대 전략의 코로나 이후 최대 동반 손실과 넷 포지션 축소는 자산운용 노드의 ④ 수익 악화·비관 쪽을 가리키며, 손실이 디레버리징으로 번지고 있기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b2": [
+   {
+    "t": "주식 쪽 유입이 되돌기 시작한 곳이 넓어집니다. 22일 롱숏·시스템·멀티전략 펀드가 코로나 이후 처음 같은 날 1% 넘게 빠져 넷 포지션 축소가 3월·7월 수준에 육박했고, 인도는 신용매매 청산으로 소형주가 5개월 만에 가장 크게 떨어졌습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/markets/wealth/hedge-fund-returns-worsen-this-week-tech-selloff-deepens-2026-10-23/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-23",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-23/margin-trade-liquidation-speeds-indian-small-cap-stock-decline"
+     }
+    ]
+   },
+   {
+    "t": "코스피는 6월 고점 대비 약 40% 내려 선행 PER 4.2배가 됐고 투자자예탁금은 90조 원 아래로 줄었으며, BofA 하트넷 팀은 위험 회피가 11월 중순까지 간다고 봤습니다. 이런 흐름이 넓어지면 거래·운용 수수료 증가가 꺾일 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-23",
+      "u": "https://t.me/w_compass/7448"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/legal/transactional/us-equity-funds-post-inflows-second-straight-week-2026-10-23/"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "AI 인프라 차입과 발행의 금이 넓어졌습니다. 코어위브 무담보채 수익률은 약 15%로 올랐고 자금 부족분 추정은 230억~760억 달러로 엇갈리며, Switch·Nscale·SB에너지·엘리스가 상장을 미루고 AirTrunk 리츠·Firmus는 공모를 접었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/legal/transactional/anthropic-ipo-stands-alone-ai-market-jitters-sideline-others-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-23",
+      "u": "https://t.me/HANAchina/70899"
+     }
+    ]
+   },
+   {
+    "t": "발행 창구 전반도 식습니다. 나스닥 3분기 신규 상장은 167건으로 1년 전 205건보다 줄었고, 홍콩은 신규 상장 67.5%가 공모가를 밑돌며, 인도 제트워크는 상장 첫날 약 16% 떨어졌습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/legal/transactional/nasdaq-ceo-flags-modest-softening-ipo-market-macro-uncertainty-hits-debuts-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-22",
+      "u": "https://t.me/HANAchina/70890"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/india/indias-zetwerk-rises-over-5-trading-debut-after-518-million-ipo-2026-10-23/"
+     }
+    ]
+   },
+   {
+    "t": "시장 심리도 극단으로 갔습니다. S&P 500 풋옵션이 명목 약 3조 3천억~3조 4천억 달러로 사상 최대였고, GS 헤지펀드 VIP 바스켓의 75일 상대성과는 -13%로 리먼 이후 가장 나빴다고 채널이 전했습니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 카이에 de market",
+      "d": "2026-10-16",
+      "u": "https://t.me/cahier_de_market/11049"
+     },
+     {
+      "o": "텔레그램 카이에 de market",
+      "d": "2026-10-23",
+      "u": "https://t.me/cahier_de_market/11107"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮을 만큼 크지는 않습니다. JP모건은 미국 대형은행·MUFG의 코어위브 노출을 합계 10억~30억 달러로 봤고, 일본은행도 일본 은행들이 AI·유가·금리 복합 충격을 견딜 자본을 갖췄다고 평가해 은행 장부로 번지는 경로는 좁습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-20",
+      "u": "https://t.me/HANAchina/70771"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23/"
+     }
+    ]
+   },
+   {
+    "t": "대형 발행은 아직 소화됩니다. 지오 플랫폼스 IPO는 22.19배 청약됐고 뮌헨리·아멕스는 연간 이익 전망을 올렸습니다. 다만 상장 뒤 수익이 얇아지는 곳이 늘고 있어 지오·앤트로픽 상장 성과가 판정을 가를 것입니다 [귀납]",
+    "src": [
+     {
+      "o": "HDFC Sky(NSE 집계 인용)",
+      "d": "2026-10-23",
+      "u": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-23",
+      "u": "https://www.reuters.com/business/munich-re-raises-full-year-profit-guidance-after-stronger-than-expected-quarter-2026-10-23/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "돈은 여전히 대형 발행으로 몰립니다. 지오 플랫폼스 IPO는 인도 증시 급락 속에도 22.19배(기관 70.55배) 청약됐고, 앤트로픽은 다른 AI 상장이 미뤄지는 중에도 11월 중순 상장을 추진합니다. 1~9월 글로벌 IPO 조달액은 사상 최대 2,875억 달러였습니다 [사실]",
+    "src": [
+     {
+      "o": "HDFC Sky(NSE 집계 인용)",
+      "d": "2026-10-23",
+      "u": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/legal/transactional/anthropic-ipo-stands-alone-ai-market-jitters-sideline-others-2026-10-22/"
+     },
+     {
+      "o": "EY(스위스 IPO 바로미터)",
+      "d": "2026-10-01",
+      "u": "https://www.ey.com/en_ch/newsroom/2026/10/fewer-ipos-more-capital-global-market-remains-robust-initial-signs-of-an-upturn-in-switzerland"
+     }
+    ]
+   },
+   {
+    "t": "은행·투자은행은 아직 고수익입니다. 모건스탠리 3분기 주식 매출은 58억 달러(+41%), 뱅크오브아메리카 순이자이익은 164억 달러(+8%)였고, 인도 ICICI은행 순이익도 20.1% 늘었습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-14",
+      "o": "CNBC(모건스탠리 3분기 실적)",
+      "u": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+     },
+     {
+      "d": "2026-10-14",
+      "o": "뱅크오브아메리카 3분기 실적(SEC 8-K)",
+      "u": "https://www.sec.gov/Archives/edgar/data/0000070858/000007085826000481/bac-09302026ex993.htm"
+     },
+     {
+      "d": "2026-10-19",
+      "o": "로이터",
+      "u": "https://www.reuters.com/world/india/indias-axis-bank-slides-after-quarterly-profit-falls-short-expectations-2026-10-19/"
+     }
+    ]
+   },
+   {
+    "t": "사모 신용은 과잉이 뚜렷합니다. 직접대출 모금은 1~9월 1,291억 5,000만 달러(+35%)로 최대인데 3분기 집행은 28% 줄었고, 무디스 PIK 포함 부도율은 5.8%, CCC 스프레드는 12.78%로 4주간 202bp 넓어졌습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-15",
+      "o": "Private Equity Wire(Preqin·PitchBook LCD 집계)",
+      "u": "https://www.privateequitywire.co.uk/private-credit-fundraising-hits-record-129bn-despite-28-decline-in-lending/"
+     },
+     {
+      "d": "2026-10-14",
+      "o": "Private Equity Wire(무디스 보고서)",
+      "u": "https://www.privateequitywire.co.uk/pik-amendments-mask-us-private-credit-stress-moodys-warns/"
+     },
+     {
+      "d": "2026-10-20",
+      "o": "텔레그램 TNBfolio",
+      "u": "https://t.me/TNBfolio/71611"
+     }
+    ]
+   },
+   {
+    "t": "다만 발행 창구의 가장자리는 닫히고 있습니다. 나스닥 3분기 신규 상장은 167건(1년 전 205건)으로 줄었고, 홍콩 신규 상장 67.5%가 공모가를 밑돌며, SK하이닉스는 솔리다임 약 100억 달러 미국 IPO를 철회했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-22",
+      "u": "https://www.reuters.com/legal/transactional/nasdaq-ceo-flags-modest-softening-ipo-market-macro-uncertainty-hits-debuts-2026-10-22/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-22",
+      "u": "https://t.me/HANAchina/70890"
+     },
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-23",
+      "u": "https://t.me/w_compass/7446"
+     }
+    ]
+   },
+   {
+    "t": "손해보험은 자본이 남아 상업보험 요율이 8분기 연속 내려 이미 ③ 공급 과잉에 들어섰습니다 [귀납]",
+    "src": [
+     {
+      "d": "2026-07-23",
+      "o": "Insurance Journal(마시 글로벌 보험시장 지수)",
+      "u": "https://www.insurancejournal.com/news/national/2026/07/23/878716.htm"
+     }
+    ]
+   }
+  ],
+  "next": "앤트로픽·지오 같은 대형 IPO가 상장 뒤 공모가를 밑돌거나 연기되고 하이퍼스케일러 채권 발행까지 막혀 발행 창구가 닫히면 ③ 공급 과잉으로 넘어갑니다. 은행이 사모 신용 펀드 대출을 더 줄이고 감독 당국이 노출 자본을 높이면 사모 신용 노드가 먼저 ⑤ 자본 철수로 갈 수 있습니다 [유추]",
+  "watch": [
+   "사모 신용 부도율(Fitch·무디스 PIK 포함)과 직접대출 집행액",
+   "AI 인프라 채권 가격과 하이퍼스케일러 채권 스프레드",
+   "은행의 사모 신용 펀드 대출 축소와 감독 점검(영란은행·FCA)",
+   "헤지펀드 디레버리징과 CCC 회사채 스프레드",
+   "지오(10월 28일)·앤트로픽(11월 중순) 상장 성과와 상장 철회 건수"
+  ],
+  "split": [
+   {
+    "label": "고수익(은행·IB·거래소)",
+    "nodes": [
+     "banks",
+     "ib",
+     "markets"
+    ],
+    "stage": 1
+   },
+   {
+    "label": "공급 과잉(사모 신용·손보)",
+    "nodes": [
+     "pcredit",
+     "insurance"
+    ],
+    "stage": 3
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "웹 검색 누적 21회(10월 24일 1회), 열람 5회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 씨티·웰스파고 3분기 수치는 2차 매체 요약만 봤고, 모건스탠리 수치는 CNBC 검색 요약 기준입니다. (2) 한국 4대 금융지주 3분기 실적(10월 23~29일 발표 예정), 일본 3대 은행 4~9월 실적(11월), DBS·OCBC 실적(11월 5~6일). (3) 사모 신용 부도율은 무디스 5.8%를 2차 매체로 봤고, 직접대출 모금·집행 수치는 Private Equity Wire 검색 요약(Preqin·PitchBook LCD)이며 원 보고서는 열지 않았습니다. (4) 코어위브 2032년물 80센트·CDS 1,117bp, 오라클 CDS 260bp, '9월 이후 AI 채권 발행 동결'은 텔레그램 전언이며, 검색에서는 발행 동결 보도를 찾지 못하고 연 4,000억 달러 발행 속도 분석만 봤습니다. (5) 예스은행의 추가 상소 여부와 인도 다른 은행 AT1 영향. (6) 한국 신용잔고·반대매매·외국인 순매도·거래량 70% 감소와 CCC 스프레드는 채널 집계입니다. (7) 바클레이스 점검의 결론과 다른 영국 은행으로의 확대 여부, 호주 사모신용 펀드 대출 축소 규모. (8) 2026년 재보험 갱신 요율, 이사야스 최종 보험 손실, 비자·마스터카드 결제액, 스테이블코인 공급. (9) 데스크 뉴스로 표시한 내용은 데스크 뉴스 요약 기준이며 원문(로이터·블룸버그)은 열지 않았습니다. (10) 이번에 확인하지 못한 것: 10월 24일 확인하지 못한 것: 지오 상장 뒤 주가, 앤트로픽 신고서의 실제 공개 여부와 공모 규모, 홍콩 공모가 하회 집계의 원 출처(채널 전언), 미국 생보사 AI 익스포저 24% 증가의 기준(기사 제목 수준), 나비엔트 CDS·AT1 조달비용(기사 제목 수준). 이전에 확인하지 못한 것: 엔스케일 IPO 가격 확정 여부, 엘리스그룹 상장 이후 주가, 파트너스그룹 보수 인하 폭(기사 제목 수준), 영란은행 AI 스트레스 테스트의 범위·시점(기사 제목 수준), 이탈리아 금융권 추가 분담이 기존 107억 유로에 더해지는지 여부. PLDT 데이터센터 리츠 연기와 홀텍 IPO 연기는 검색 결과 요약 기준입니다.",
+ "note": "뉴스 31건 반영: 지오 IPO 22.19배 청약, 나스닥 신규 상장 감소·홍콩 신규 상장 67.5% 공모가 하회, 헤지펀드 동반 손실. 국면 그대로(②, why 근거 교체), 근거 14줄, 수치 4줄, 재검토 신호 2건, 검색 1회",
+ "applied": [
+  "n-bbg-0122",
+  "n-bbg-0453",
+  "n-bbg-0640",
+  "n-bbg-0671",
+  "n-bbg-0672",
+  "n-bbg-0674",
+  "n-bbg-0675",
+  "n-bbg-0679",
+  "n-bbg-0683",
+  "n-bbg-0698",
+  "n-rtr-0024",
+  "n-rtr-0337",
+  "n-rtr-0356",
+  "n-rtr-0479",
+  "n-rtr-0551",
+  "n-rtr-0678",
+  "n-rtr-0714",
+  "n-rtr-0716",
+  "n-rtr-0717",
+  "n-rtr-0720",
+  "n-rtr-0721",
+  "n-rtr-0723",
+  "n-rtr-0733",
+  "n-rtr-0734",
+  "n-rtr-0735",
+  "n-rtr-0736",
+  "n-tg-0135",
+  "n-tg-0631",
+  "n-tg-0742",
+  "n-tg-0746",
+  "n-tg-0753"
+ ],
+ "searches": 1,
+ "fetches": 0
+}

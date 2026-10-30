@@ -103,7 +103,7 @@
 
 ## 4. 이어서 하는 절차 (Claude Code)
 
-1. 지정 브랜치를 받고(필요하면 ccr-f6c3aa6e-x81m7v로 앞으로 감기), 압축 파일의 work/를 풀거나 DB를 새로 받음(meta·chains list 100, news list 1000 두 번 이상, 가능하면 data/users/me reads·detailReq). 그 뒤 python3 -I tools/mk_seen.py <사본>.
+1. 지정 브랜치를 받고(필요하면 가장 최근 뉴스 브랜치로 앞으로 감기 — 10월 30일 섹터 정리(0-4절, 규칙 31~34)가 들어 있는 ccr-1818b982-ozofkq 또는 그 뒤 브랜치), 압축 파일의 work/를 풀거나 DB를 새로 받음(meta·chains list 100, news list 1000 두 번 이상, 가능하면 data/users/me reads·detailReq). 그 뒤 python3 -I tools/mk_seen.py <사본>.
 2. 저장소를 /home/user/news-desk가 아닌 곳에 받았으면 ln -sfn <클론> /home/user/news-desk (도구 경로가 박혀 있음).
 3. 안 읽음 판단: reads.ids[id] >= updatedAt(ms)일 때만 읽음. 보호(P) = detail·insight2가 있거나 detailReq ids·sent에 있음.
 4. 데이터를 페이지보다 먼저 바꾸지 말 것(데스크 페이지는 이번에 바꾸지 않았음).

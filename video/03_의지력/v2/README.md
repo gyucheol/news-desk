@@ -26,7 +26,7 @@
 - merge_onsets_r2.py -> onsets_r2.json: 줄 시작 시각(앞뒤는 v1 시각, 새 구간만 새로 맞춤, V213 손으로 고침), check_align_r2.py, find_late_r2.py: 점검
 - add_line_ends_r2.py: 줄 끝 시각, bgm_r2.py -> audio/bgm_segments_r2.json: 배경음악 구간
 - lines_r2.json, segments_r2.json, spec_r2.json: 자막 줄(위치 바꿈 반영), 장면 계획, 장면 명세
-- pos_r2.py: lines_v3.json(v1) -> lines_r2.json, 자막 위치 바꾸기
+- pos_r2.py: lines_base_r2.json(build_lines_r2.py 출력, v1 lines_v3.json과 글자 같음) -> lines_r2.json, 자막 위치 바꾸기
 - seg_plan_r2.py, build_segments_r2.py: 장면 계획(v1 + st94)
 - build_spec_r2.py: 장면 명세(v1 build_spec_v3.py + 인자, 밝기 낮춤)
 - music/: 후보 찾기(parse_music.py, lic_music.py), 소리 특성 측정(feat.py), 미리듣기 만들기(make_previews.py)

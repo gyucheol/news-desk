@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 10월 7일 펀드매니저들이 이익의 20% 성과보수로는 만족하지 않고 그보다 높은 슈퍼 캐리를 추구한다고 전했다 [제목]",
+  "영향: 성과보수 비율이 오르면 투자자가 내는 운용 보수 부담이 커질 수 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "성과보수 20%로는 부족…펀드매니저들 \"슈퍼 캐리\" 추구",
+ "id": "n-bbg-0517",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "성과보수 20%로는 부족…펀드매니저들 '슈퍼 캐리' 추구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/when-20-of-profits-won-t-do-fund-managers-seek-super-carry"
+  }
+ ],
+ "key": "split-G5-001-2026-10-20",
+ "nodes": [],
+ "num": 517,
+ "one": "블룸버그가 10월 7일 펀드매니저들이 통상 20%인 성과보수로는 부족하다며 이를 넘는 이른바 슈퍼 캐리를 추구하고 있다고 전하면서, 사모펀드 투자자가 내는 운용 보수 부담이 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "성과보수 20%로는 부족…펀드매니저들 \"슈퍼 캐리\" 추구",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/when-20-of-profits-won-t-do-fund-managers-seek-super-carry",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "fin",
+   "k": "예상",
+   "node": "assetmgmt",
+   "t": "펀드매니저, 성과보수 20% 넘는 슈퍼 캐리 추구"
+  }
+ ]
+}

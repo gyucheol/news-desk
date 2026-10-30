@@ -1,0 +1,85 @@
+{
+ "basis": "partial",
+ "check": "SBI카드·인더스인드은행은 APAC뉴스네트워크·비즈니스투데이 검색 결과 요약으로 확인, 슈리람파이낸스는 검색에 나오지 않아 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: SBI카드의 2분기(7~9월) 연결 순이익은 77억 8,000만 루피로 전년보다 약 75% 늘었고 총신용손실률은 5.6%로 개선됐다 [사실]",
+  "인더스인드: 순이익 124억 2,000만 루피로 전년 43억 7,000만 루피 손실에서 흑자 전환했고 순이자이익은 3.62% 늘었다 [사실]",
+  "건전성: 인더스인드은행 총부실채권비율은 2.73%로 전년 3.60%에서 낮아졌다 [사실]",
+  "슈리람: 슈리람파이낸스는 이익이 예상을 웃돌았지만 금 담보 대출 연체가 늘었다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 금융사 2분기 실적…SBI카드 이익 75%↑·인더스인드은행 흑자 전환·슈리람 금 담보 연체 증가",
+ "id": "n-rtr-0717",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "SBI카드가 신용비용 감소로 2분기 순이익을 약 75% 늘린 77억 8,000만 루피로 기록하면서, 총신용손실률이 5.6%로 낮아졌다",
+   "t": "인도 SBI카드, 자산건전성 개선에 분기 이익 증가",
+   "u": "https://www.reuters.com/world/india/indias-sbi-card-posts-higher-quarterly-profit-improving-asset-quality-2026-10-23/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "슈리람파이낸스가 시장 예상을 웃도는 이익을 냈지만 금 담보 대출 연체가 늘면서, 비은행 대출의 건전성 부담이 드러났다 (제목 기준)",
+   "t": "인도 슈리람파이낸스, 이익 예상 상회…금 담보 대출 연체는 증가",
+   "u": "https://www.reuters.com/world/india/indias-shriram-finance-beats-profit-view-gold-loan-delinquencies-rise-2026-10-23/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "인더스인드은행이 2분기 순이익 124억 2,000만 루피로 흑자 전환하면서, 총부실채권비율이 2.73%로 낮아지고 대출도 늘었다",
+   "t": "인도 인더스인드은행, 대출 증가·건전성 개선에 분기 흑자",
+   "u": "https://www.reuters.com/world/india/indias-indusind-bank-posts-quarterly-profit-loan-growth-asset-quality-boost-2026-10-23/"
+  }
+ ],
+ "key": "mix-G2-031-2026-10-23",
+ "nodes": [],
+ "num": 717,
+ "one": "인도 카드사·은행·비은행 금융사들이 2분기 이익을 늘렸지만 일부 대출에서는 연체가 늘었다\n· SBI카드 순이익은 신용비용 감소로 약 75% 늘어 77억 8,000만 루피를 기록했다\n· 인더스인드은행은 순이익 124억 2,000만 루피로 전년 손실에서 흑자로 돌아섰다\n· 인더스인드은행 총부실채권비율은 2.73%로 전년 3.60%에서 낮아졌다\n· 슈리람파이낸스는 이익이 예상을 웃돌았지만 금 담보 대출 연체가 늘었다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:07:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "APAC뉴스네트워크",
+   "u": "https://apacnewsnetwork.com/2026/10/sbi-card-q2-results-net-profit-778-crore/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "비즈니스투데이",
+   "u": "https://www.businesstoday.in/markets/stocks/story/indusind-bank-q2-profit-at-rs-1242-crore-nii-up-4-yoy-563338-2026-10-23"
+  }
+ ],
+ "tags": [],
+ "title": "인도 금융사 2분기 실적…SBI카드 이익 75%↑·인더스인드은행 흑자 전환·슈리람 금 담보 연체 증가",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/world/india/indias-sbi-card-posts-higher-quarterly-profit-improving-asset-quality-2026-10-23/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "banks",
+   "t": "인더스인드은행 대출 증가 속 흑자 전환"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "pcredit",
+   "t": "슈리람 금 담보 대출 연체 증가"
+  }
+ ]
+}

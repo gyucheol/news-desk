@@ -1,0 +1,38 @@
+{
+ "basis": "title",
+ "check": "검색 한도 안에서 확인하지 못함, 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 싱가포르가 새 아시아 채권선물 거래 창구로 역외 트레이더를 끌어들이려 함 [제목]",
+  "의미: 역외 투자자의 아시아 채권 헤지·거래 접근성이 높아질 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{싱가포르}}, 아시아 채권선물 새 거래 창구 열어 {{해외 트레이더 유치}}",
+ "id": "n-bbg-0253",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "싱가포르, 새 아시아 채권선물 거래 창구로 역외 트레이더 유치",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/singapore-woos-offshore-traders-with-new-asian-bond-futures-window"
+  }
+ ],
+ "key": "mix-C110-2026-10-13",
+ "nodes": [],
+ "num": 253,
+ "one": "{{싱가포르}}가 {{아시아 채권선물에 새로운 거래 시간 창구를 열어}} {{역외 트레이더 유치}}에 나서면서, {{해외 투자자}}가 {{아시아 채권 금리 위험을 거래할 수 있는 시간대}}가 {{넓어질}} 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T16:54:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "{{싱가포르}}, {{아시아 채권선물 새 거래 창구}} 열어 {{해외 트레이더}} 유치",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/singapore-woos-offshore-traders-with-new-asian-bond-futures-window"
+}

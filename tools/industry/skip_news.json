@@ -1,5 +1,5 @@
 {
- "note": "2026-10-30 사용자 지시: 매크로는 지정학이 아니면 미국·일본만, AI는 부정적인 내용만, 금융·제약·바이오 섹터 삭제. skip은 그날 읽음 처리한 문서와 그 문서를 빼야 하는 산업(data/sector-rules-2026-10-30/decisions.json).",
+ "note": "2026-10-30 사용자 지시: 매크로는 지정학이 아니면 미국·일본만, AI는 부정적인 내용만, 금융·제약·바이오 섹터 삭제. skip은 그날 읽음 처리한 문서와 그 문서를 빼야 하는 산업(data/sector-rules-2026-10-30/decisions.json). 반도체 긍정 뉴스(semis_read)도 같은 날 사용자 답으로 추가.",
  "removed_industries": [
   "fin",
   "pharma"
@@ -171,6 +171,51 @@
    "macro"
   ],
   "n-tg-0780": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-bbg-0761": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0549": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0714": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0715": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0716": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0717": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0822": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0829": [
+   "semis",
+   "tech",
+   "macro"
+  ],
+  "n-tg-0832": [
    "semis",
    "tech",
    "macro"

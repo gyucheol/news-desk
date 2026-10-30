@@ -1,0 +1,71 @@
+{
+ "added": "로이터 1건 — 국회가 10월 22일 최대 100만 리라 중간 지급법을 통과시켰고 497억 리라 지급·청산 펀드 47개로 감소, 다수는 여전히 대기 내용이 추가됨",
+ "basis": "verified",
+ "check": "데일리사바·후리예트데일리뉴스 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 튀르키예 국회는 10월 22일 청산 펀드 투자자에게 최대 100만 리라를 중간 지급하는 법을 통과시켰고, 대통령 승인과 관보 게재 뒤 시행된다 [사실]",
+  "대상: 9월 17일 자본시장위원회가 청산을 명령한 펀드 투자자와 환매 주문이 묶인 투자자가 포함되며, 시장 조작 가담자는 제외된다 [사실]",
+  "규모: 위원회는 운용사 7곳 펀드 131개(자산 약 170억~183억 달러) 청산을 명령했고 피해 투자자는 약 45만 6,000명이다 [사실]",
+  "진행: 지금까지 5만 5,755개 계좌에 497억 리라가 지급·이전됐고 청산 중인 펀드는 131개에서 47개로 줄었다 [사실]",
+  "전망: 당국은 지급 뒤 보상을 기다리는 투자자가 10만 명 아래로 줄 것으로 본다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 펀드 청산법 국회 통과…최대 100만 리라 중간 지급, 예금자 다수 여전히 대기",
+ "id": "n-rtr-0551",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "튀르키예, 펀드 청산 법안 곧 국회 제출…여당 의원 밝혀",
+   "u": "https://www.reuters.com/world/middle-east/turkey-submit-draft-fund-liquidation-bill-parliament-soon-lawmaker-says-2026-10-08/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "튀르키예가 펀드 청산법을 통과시켜 최대 100만 리라 중간 지급 길을 열었지만, 많은 예금자가 여전히 돈을 찾지 못하고 기다리고 있다",
+   "t": "튀르키예 펀드 청산법 통과…예금자 다수는 여전히 인출 대기",
+   "u": "https://www.reuters.com/world/middle-east/turkey-passes-fund-liquidation-law-many-savers-still-await-access-money-2026-10-23/"
+  }
+ ],
+ "key": "split-G5-073-2026-10-20",
+ "nodes": [],
+ "num": 551,
+ "one": "튀르키예 국회가 부실 펀드 청산법을 통과시켰지만 다수 예금자는 아직 돈을 찾지 못하고 있다\n· 자본시장위원회는 운용사 7곳의 펀드 131개 청산을 명령했고 얽힌 투자자는 약 45만 6,000명이다\n· 국회는 10월 22일 투자자에게 최대 100만 리라를 중간 지급하는 법을 통과시켰다\n· 지금까지 5만 5,755개 계좌에 497억 리라가 지급·이전됐고 청산 중인 펀드는 47개로 줄었다\n· 당국은 지급 뒤 보상을 기다리는 투자자가 10만 명 아래로 줄 것으로 본다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:34:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "데일리사바",
+   "u": "https://www.dailysabah.com/business/economy/turkish-parliament-passes-fund-liquidation-law"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "후리예트데일리뉴스",
+   "u": "https://www.hurriyetdailynews.com/parliament-passes-law-on-fund-repayments-228493"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예 펀드 청산법 국회 통과…최대 100만 리라 중간 지급, 예금자 다수 여전히 대기",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/world/middle-east/turkey-submit-draft-fund-liquidation-bill-parliament-soon-lawmaker-says-2026-10-08/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "assetmgmt",
+   "t": "청산 펀드 투자자에 최대 100만 리라 중간 지급"
+  }
+ ]
+}

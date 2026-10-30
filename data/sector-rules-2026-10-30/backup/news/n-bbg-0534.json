@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 12일). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 크레디아그리콜이 자동차 딜러 관련 위험 부채를 SRT로 헤지하는 방안을 검토하고 있다 [제목]",
+  "영향: 거래가 이뤄지면 대출 위험 일부가 외부 투자자에게 넘어갈 수 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "크레디아그리콜, 자동차 딜러 위험 부채 SRT로 헤지 검토",
+ "id": "n-bbg-0534",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "크레디아그리콜, 자동차 딜러 SRT로 위험 부채 헤지 검토",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/credit-agricole-weighs-hedging-risky-debt-in-car-dealer-srt"
+  }
+ ],
+ "key": "split-G5-032-2026-10-20",
+ "nodes": [],
+ "num": 534,
+ "one": "크레디아그리콜이 자동차 딜러 관련 위험 부채를 SRT로 헤지하는 방안을 검토하면서, 은행이 들고 있는 딜러 대출 위험 일부를 외부 투자자에게 넘겨 신용 위험 부담을 덜 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:50:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "크레디아그리콜, 자동차 딜러 위험 부채 SRT로 헤지 검토",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/credit-agricole-weighs-hedging-risky-debt-in-car-dealer-srt",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "자동차 딜러 위험 부채 SRT로 외부 이전 검토"
+  }
+ ]
+}

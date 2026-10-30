@@ -1,0 +1,67 @@
+{
+ "basis": "verified",
+ "check": "위원회 보고서 공개일, 윤리위 권한 변경, 캐터필러 배경, 핵무기 배제 변경 영향은 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 노르웨이 국부펀드 윤리 규정을 검토한 위원회가 10월 15일 보고서에서 대대적인 개편을 권고했고, 정부는 2027년 봄 백서에서 자체안을 낼 예정입니다 [사실]",
+  "배경: 트럼프 행정부가 가자지구·서안에서 쓰인 불도저를 이유로 한 국부펀드의 캐터필러 지분 매각에 항의한 뒤 윤리 규정 적용이 멈췄고, 정부는 미국을 의식한 조치라는 해석을 부인했습니다 [사실]",
+  "윤리위: 윤리위원회는 위험 평가 역할은 유지하지만 투자배제 권고 권한을 잃고 노르웨이 중앙은행 투자관리(NBIM)가 대응을 정하며, 보고서도 자동 공개되지 않습니다 [사실]",
+  "방산: 핵무기 배제 기준이 바뀌면 방산기업에 수백억 달러가 투자될 수 있지만, 노르웨이 적십자와 국제앰네스티는 반대하고 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "노르웨이 국부펀드 윤리 규정 대수술 권고…윤리위 투자배제 권한 없애",
+ "id": "n-rtr-0340",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "t": "노르웨이 국부펀드, 미국 압박 뒤 윤리 규정 대폭 개편 예정",
+   "u": "https://www.reuters.com/legal/government/norways-wealth-fund-set-overhaul-ethical-rules-after-us-scrutiny-2026-10-15/"
+  }
+ ],
+ "key": "mix-G3-048-2026-10-15",
+ "nodes": [],
+ "num": 340,
+ "one": "노르웨이 정부위원회가 미국의 캐터필러 매각 항의 뒤 국부펀드 윤리 규정 개편안을 내고 윤리위원회의 투자배제 권고 권한을 없애자고 하면서, 핵무기 배제가 풀리면 방산기업에 수백억 달러가 투자될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T22:08:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "Amnesty International",
+   "u": "https://www.amnesty.org/en/latest/news/2026/10/norway-investment-fund-human-rights-safeguards-weakened/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "ArcticToday",
+   "u": "https://www.arctictoday.com/norways-sovereign-wealth-fund-should-invest-in-major-defence-groups-commission-concludes/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "MyJoyOnline",
+   "u": "https://www.myjoyonline.com/norways-wealth-fund-set-to-overhaul-ethical-rules-after-us-scrutiny/"
+  }
+ ],
+ "tags": [],
+ "title": "노르웨이 국부펀드 윤리 규정 대수술 권고…윤리위 투자배제 권한 없애",
+ "url": "https://www.reuters.com/legal/government/norways-wealth-fund-set-overhaul-ethical-rules-after-us-scrutiny-2026-10-15/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "aero",
+   "k": "예상",
+   "node": "defspend",
+   "t": "핵무기 배제 해제 시 방산주에 수백억 달러 투자 가능"
+  }
+ ]
+}

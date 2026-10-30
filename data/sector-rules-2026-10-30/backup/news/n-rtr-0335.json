@@ -1,0 +1,76 @@
+{
+ "basis": "partial",
+ "check": "보조금 중단 규모·내역·절감 추산액은 AJMC·Insurance Business 검색 결과 요약으로 확인. KFF의 6월까지 205만 명 감소 수치는 확인 못 함(제목 기준), 검색에서는 2월 기준 약 300만 명 감소(약 1,920만 명) 보도가 확인됨",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 보건복지부와 CMS가 메디케어·메디케이드·CHIP와 중복 가입됐거나 사망자로 등재된 약 18만 9,000명의 오바마케어 보조금을 끊고 30일 이의 제기 기간을 줬다 [사실]",
+  "내역: 메디케이드 중복 약 12만 명, 메디케어 중복 약 5만 8,000명, 사망 등재 약 1만 1,000명이며, 정부는 올해 약 7억 3,800만 달러 지급을 막는다고 추산했다 [사실]",
+  "가입자: KFF는 오바마케어 가입자가 6월까지 205만 명 줄었다고 밝혔다 [제목]",
+  "배경: KFF 헬스뉴스는 올해 가입자가 약 300만 명 줄어 약 1,920만 명이 됐다며 보험료 급등과 강화된 보조금 미연장을 주된 원인으로 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 오바마케어 18만 9,000명 보조금 중단…가입자 6월까지 205만 명 감소",
+ "id": "n-rtr-0335",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "미 정부가 다른 공적보험 중복 가입자와 사망 등재자 18만 9,000명의 보조금을 끊으면서 올해 약 7억 3,800만 달러 지급을 막는다고 추산했다",
+   "t": "미 정부, 오바마케어 가입자 18만 9,000명 보조금 중단",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-cuts-subsidies-189000-obamacare-enrollees-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "KFF가 오바마케어 가입자가 6월까지 205만 명 줄었다고 밝히면서 개인 건강보험 시장의 가입 감소가 수치로 드러났다 (제목 기준)",
+   "t": "KFF '오바마케어 가입자 6월까지 205만 명 감소'",
+   "u": "https://www.reuters.com/legal/litigation/obamacare-enrollment-fell-205-million-people-june-kff-says-2026-10-14/"
+  }
+ ],
+ "key": "mix-G3-028-2026-10-15",
+ "nodes": [],
+ "num": 335,
+ "one": "미국 정부가 다른 공적보험 중복 가입자와 사망 등재자 18만 9,000명의 오바마케어 보조금을 끊고 KFF 집계로 가입자가 6월까지 205만 명 줄면서, 보험료 급등과 보조금 축소 속에 개인 건강보험 시장이 쪼그라들고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T04:18:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "AJMC",
+   "u": "https://www.ajmc.com/view/aca-subsidies-end-for-189-000-duplicate-or-deceased-enrollees"
+  },
+  {
+   "d": "2026-10",
+   "o": "Insurance Business",
+   "u": "https://insurancebusinessmag.com/us/news/industry-news/aca-subsidies-halted-for-189000-enrollees-in-duplicate-coverage-593509.aspx"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "NPR",
+   "u": "https://www.npr.org/2026/10/15/nx-s1-6002957/aca-fraud-trump-health-insurance"
+  }
+ ],
+ "tags": [],
+ "title": "美 오바마케어 18만 9,000명 보조금 중단…가입자 6월까지 205만 명 감소",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-cuts-subsidies-189000-obamacare-enrollees-2026-10-14/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "insurance",
+   "t": "오바마케어 보조금 중단·가입자 감소"
+  }
+ ]
+}

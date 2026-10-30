@@ -1,0 +1,61 @@
+{
+ "basis": "verified",
+ "check": "블룸버그로 전재본을 뺀 텔레보르사·프랑스에파르뉴·애드혹뉴스 검색 결과 요약으로 160억 유로·최초손실 5%·레조넌스 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: BNP파리바가 약 160억 유로 대기업 대출에 연계한 합성 SRT를 준비하고 있다고 10월 26일 보도됐다 [사실]",
+  "구조: 포트폴리오의 약 5%인 최초손실 구간을 투자자에게 넘기며 기업 신용위험 헤지에 쓰는 레조넌스 프로그램으로 발행한다 [사실]",
+  "추가 거래: 약 15억 유로 규모 중견기업 LBO 대출 연계 SRT도 따로 검토 중이다 [사실]",
+  "배경: 유럽 대형 은행들이 대출을 장부에 둔 채 자본 부담을 줄이려 SRT를 늘리고 있으며 BNP는 10월 28일 3분기 실적을 낸다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "BNP파리바, 160억 유로 기업대출 연계 대형 SRT 추진…최초손실 5% 넘겨",
+ "id": "n-bbg-0747",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "BNP파리바, 160억 유로 기업대출 연계 초대형 SRT 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/bnp-paribas-plans-jumbo-srt-tied-to-16-billion-of-company-loans"
+  }
+ ],
+ "key": "mix-G2-051-2026-10-27",
+ "nodes": [],
+ "num": 747,
+ "one": "BNP파리바가 160억 유로 규모 대기업 대출에 연계한 대형 합성 위험이전(SRT)을 추진한다\n· 포트폴리오의 약 5%인 최초손실 구간을 넘기는 구조로 레조넌스 프로그램을 통해 발행한다\n· 별도로 약 15억 유로 규모 중견기업 LBO 대출에 연계한 SRT도 검토 중이다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T01:07:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-26",
+   "o": "텔레보르사",
+   "u": "https://www.teleborsa.it/News/2026/10/26/bnp-paribas-rumours-pianifica-trasferimento-significativo-del-rischio-srt-su-16-miliardi-di-prestiti-a-grandi-imprese-207.html"
+  },
+  {
+   "d": "2026-10-26",
+   "o": "프랑스에파르뉴",
+   "u": "https://www.france-epargne.fr/news/bnp-paribas-prepare-un-transfert-de-risque-geant-sur-16-milliards-deuros-de-prets-aux-entreprises"
+  }
+ ],
+ "tags": [],
+ "title": "BNP파리바, 160억 유로 기업대출 연계 대형 SRT 추진…최초손실 5% 넘겨",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/bnp-paribas-plans-jumbo-srt-tied-to-16-billion-of-company-loans",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "pcredit",
+   "t": "BNP 160억 유로 대출 연계 SRT 추진"
+  }
+ ]
+}

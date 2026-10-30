@@ -1,0 +1,60 @@
+{
+ "basis": "partial",
+ "channel": "하나증권 중국전략",
+ "check": "텔레그램 하나증권 중국전략 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 이동평균선 하회와 반도체지수 디커플링·자사주 지지 약화는 원 문서 출처 목록의 AllWeather Finance 보도로 뒷받침, 골드만 해석은 채널 전언",
+ "cycles": [],
+ "facts": [
+  "무엇이: 코스피가 주요 이동평균선을 밑돌며 반도체지수와 이례적으로 디커플링했다 [사실]",
+  "수급: 자사주 매입 축소와 옵션 청산이 겹쳐 지지력이 약해졌다 [채널]",
+  "시각: 골드만삭스는 이를 포지션 조정으로 봤다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "코스피, 이동평균선 하회…반도체지수와 이례적 디커플링",
+ "id": "n-tg-0535",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "코스피, 이동평균선 하회하며 반도체지수와 이례적 디커플링…자사주 매입 지지 약화",
+   "u": "https://t.me/HANAchina/70080"
+  }
+ ],
+ "key": "split-G3-068-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 535,
+ "one": "코스피가 8일 주요 이동평균선을 밑돌며 반도체지수와 이례적으로 엇갈리고 자사주 매입 축소와 옵션 청산이 겹치면서 지수를 받치던 힘이 약해졌지만, 골드만삭스는 이를 포지션 조정으로 봤다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T16:29:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "AllWeather Finance",
+   "u": "https://allweatherfinance.com/south-korean-stocks-have-broken-below-a-key-moving-average-a-rare-divergence-has-occurred-with-the-philadelphia-semiconductor-index-and-buyback-support-is-also-waning/"
+  }
+ ],
+ "tags": [],
+ "title": "코스피, 이동평균선 하회…반도체지수와 이례적 디커플링",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://t.me/HANAchina/70080",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "코스피 이동평균선 하회, 자사주 매입 지지 약화"
+  }
+ ]
+}

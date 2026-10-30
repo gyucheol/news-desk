@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 12일). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 사모펀드들이 배당 리캡에 쓸 수 있는 여력이 410억 유로 남아 있다 [제목]",
+  "전망: 차입을 늘려 배당을 챙기는 거래가 더 나올 수 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사모펀드, 배당 리캡 여력 410억 유로 남아…차입 배당 거래 늘 수도",
+ "id": "n-bbg-0535",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "사모펀드, 배당 리캡에 쓸 여력 410억 유로 남아",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/private-equity-has-41-billion-of-headroom-for-dividend-recaps"
+  }
+ ],
+ "key": "split-G5-033-2026-10-20",
+ "nodes": [],
+ "num": 535,
+ "one": "사모펀드들이 배당 리캡에 쓸 수 있는 여력이 410억 유로 남아 있는 것으로 나타나면서, 차입을 늘려 배당을 챙기는 거래가 앞으로 더 나오고 관련 대출 수요도 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:50:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "사모펀드, 배당 리캡 여력 410억 유로 남아…차입 배당 거래 늘 수도",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/private-equity-has-41-billion-of-headroom-for-dividend-recaps",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "예상",
+   "node": "pcredit",
+   "t": "배당 리캡 여력 410억 유로, 차입 거래 늘 수도"
+  }
+ ]
+}

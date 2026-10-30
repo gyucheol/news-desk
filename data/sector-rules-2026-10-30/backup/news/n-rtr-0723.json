@@ -1,0 +1,87 @@
+{
+ "basis": "partial",
+ "check": "듄 370억 달러는 검색 결과 요약으로 확인, 릭스방크의 이번 e-크로나 논의 재개 내용은 확인 못 함(릭스방크 사이트에서 2026 지급결제 보고서의 e-크로나 조사 권고 항목만 확인)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 듄은 3분기 토큰화 주식·ETF 온체인 거래가 370억 달러를 넘었고 월간 거래량이 1월 대비 약 18배가 됐다고 밝혔다 [사실]",
+  "범위: 집계는 200여 거래처·12개 블록체인을 포괄하며, 총 거래대금이라 새로 들어온 자본과는 다르다는 지적이 있다 [사실]",
+  "파생: 같은 분기 하이퍼리퀴드의 주식·ETF·지수 무기한 선물 명목 거래는 2,010억 달러였다 [사실]",
+  "스웨덴: 릭스방크는 디지털 유로와 스테이블코인 위협이 커지자 e-크로나 논의를 되살렸다 [제목]",
+  "기존: 릭스방크 2026 지급결제 보고서는 의회와 정부에 e-크로나 조사 착수를 권고했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "토큰화 주식·ETF 온체인 거래 지난 분기 370억 달러…스웨덴 중앙은행은 e-크로나 논의 재개",
+ "id": "n-rtr-0723",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "스웨덴 릭스방크가 디지털 유로와 스테이블코인의 위협이 커지자 e-크로나 논의를 되살리면서, 중앙은행 디지털화폐 도입 검토가 다시 떠올랐다 (제목 기준)",
+   "t": "스웨덴 중앙은행, 디지털 유로·스테이블코인 위협에 e-크로나 논의 재개",
+   "u": "https://www.reuters.com/business/finance/swedish-central-bank-revives-e-krona-debate-digital-euro-stablecoin-threat-grows-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "듄 집계에서 토큰화 주식·ETF 온체인 거래가 3분기 370억 달러로 불어나면서, 월간 거래량이 1월보다 약 18배 늘었다",
+   "t": "토큰화 주식·ETF 온체인 거래, 지난 분기 370억 달러로 급증…듄",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/tokenized-stocks-etf-onchain-trading-surged-to-37-billion-last-quarter-dune"
+  }
+ ],
+ "key": "mix-G2-054-2026-10-23",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 723,
+ "one": "토큰화 주식 거래가 급증하고 스테이블코인 위협이 커지며 중앙은행 디지털화폐 논의가 되살아났다\n· 듄에 따르면 토큰화 주식·ETF 온체인 거래는 3분기 370억 달러를 넘었다\n· 월간 거래량은 1월보다 약 18배로 늘었고, 집계는 200여 거래처·12개 블록체인을 아우른다\n· 같은 분기 하이퍼리퀴드의 주식·ETF·지수 무기한 선물 거래는 2,010억 달러였다\n· 스웨덴 중앙은행은 디지털 유로와 스테이블코인 위협이 커지자 e-크로나 논의를 재개했다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T02:26:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "PANews(듄 보고서)",
+   "u": "https://panews.io/articles/01a16670-9101-7081-822d-b995063b6226"
+  },
+  {
+   "d": "2026-10",
+   "o": "SpendNode",
+   "u": "https://www.spendnode.io/blog/tokenized-stocks-etfs-37b-q3-volume-october-2026/"
+  },
+  {
+   "d": "2026",
+   "o": "릭스방크",
+   "u": "https://www.riksbank.se/en-gb/press-and-published/"
+  }
+ ],
+ "tags": [],
+ "title": "토큰화 주식·ETF 온체인 거래 지난 분기 370억 달러…스웨덴 중앙은행은 e-크로나 논의 재개",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/business/finance/swedish-central-bank-revives-e-krona-debate-digital-euro-stablecoin-threat-grows-2026-10-22/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "토큰화 주식·ETF 온체인 거래 3분기 370억 달러"
+  },
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "macro",
+   "k": "예상",
+   "node": "cb",
+   "t": "스웨덴 중앙은행 e-크로나 논의 재개, 정책 방향과 무관"
+  }
+ ]
+}

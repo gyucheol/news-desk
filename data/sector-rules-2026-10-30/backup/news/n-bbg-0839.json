@@ -1,0 +1,61 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 레버리지 ETF 폐쇄(63개, 레버리지셰어즈 13개, 연중 217개) 확인. 메타버스·ESG ETF 폐쇄의 구체 사실은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 레버리지·메타버스·ESG ETF의 폐쇄가 잇따르고 있다 [제목]",
+  "레버리지: 모닝스타 집계로 올해 미국 레버리지 단일종목 ETF 63개가 문을 닫아 2025년 3개에서 급증했고, 레버리지 ETF 평균 자산은 2024년 말 2억 7,220만 달러에서 6,330만 달러로 줄었다 [사실]",
+  "사례: 레버리지셰어즈는 투자자산을 충분히 모으지 못한 ETF 13개를 10월 19일 거래 중단하고 22일께 청산한다 [사실]",
+  "전체: 8월 중순까지 미국 ETF 217개가 폐쇄돼 전년 같은 기간 119개를 크게 넘었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ETF 폐쇄 급증…레버리지 단일종목 ETF 올해 63개 폐쇄, 메타버스·ESG도 정리",
+ "id": "n-bbg-0839",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "t": "ETF 무덤: 레버리지·메타버스·ESG ETF 폐쇄 잇따라",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/the-etf-graveyard-closures-in-leveraged-etfs-metaverse-and-esgs"
+  }
+ ],
+ "key": "mix-G2-065-2026-10-30",
+ "nodes": [],
+ "num": 839,
+ "one": "레버리지·메타버스·ESG ETF가 잇따라 문을 닫으며 ETF 폐쇄가 크게 늘었다\n· 모닝스타 집계로 올해 미국 레버리지 단일종목 ETF 63개가 폐쇄돼 2025년 3개에서 급증했다\n· 레버리지셰어즈는 자산을 모으지 못한 ETF 13개를 10월 19일 거래 중단한 뒤 청산한다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T01:05:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/leveraged-etfs-surge-record-shutdowns-2026/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Nasdaq(보도자료)",
+   "u": "https://www.nasdaq.com/press-release/leverage-shares-close-13-etfs-2026-10-09"
+  }
+ ],
+ "tags": [],
+ "title": "ETF 폐쇄 급증…레버리지 단일종목 ETF 올해 63개 폐쇄, 메타버스·ESG도 정리",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/the-etf-graveyard-closures-in-leveraged-etfs-metaverse-and-esgs",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "assetmgmt",
+   "t": "레버리지 단일종목 ETF 올해 63개 폐쇄"
+  }
+ ]
+}

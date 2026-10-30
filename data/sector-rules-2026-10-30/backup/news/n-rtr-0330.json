@@ -1,0 +1,83 @@
+{
+ "basis": "verified",
+ "check": "OCC 보고서 내용(9곳·기간·검토 규모·후속 조치)은 OCC 발표와 검색 결과 요약으로 확인. SEB 3,300만 달러는 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 통화감독청(OCC)은 10월 14일 감독 대상 대형 국법은행 9곳 모두가 2020년부터 2025년 9월까지 정치·종교 신념이나 합법 사업을 이유로 금융 서비스 접근을 제한할 수 있는 정책을 갖고 있었다고 발표했다 [사실]",
+  "대상: TD뱅크와 BMO가 9곳에 포함됐고, OCC는 불만 약 10만 건과 문서 약 42만 쪽을 검토했다 [사실]",
+  "업종: 석유·가스, 석탄, 총기 같은 업종 제한이 기준이 모호한 평판위험 정책의 사례로 지적됐다 [사실]",
+  "조치: OCC는 벌금·제재는 발표하지 않았지만 차별 방지 추가 규정을 검토하고, 자금세탁방지 준수가 디뱅킹을 낳았는지도 들여다보고 있다 [사실]",
+  "SEB: 스웨덴 SEB는 발트 지역 자금세탁 점검과 관련해 뉴욕 금융당국에 3,300만 달러를 낸다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 OCC '대형은행 9곳 디뱅킹 정책'…TD·BMO 포함, SEB도 제재금",
+ "id": "n-rtr-0330",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "미 통화감독청이 대형은행 9곳이 정치·종교 성향을 이유로 고객 거래를 제한할 수 있는 정책을 뒀다고 지적해 추가 규정 도입 가능성이 커졌다",
+   "t": "미 은행 감독당국, 디뱅킹 관행으로 대형은행 여러 곳 지적",
+   "u": "https://www.reuters.com/legal/transactional/us-bank-regulator-faults-several-large-lenders-over-debanking-practices-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "트럼프 정부의 디뱅킹 조사가 캐나다계 TD·BMO를 포함한 은행 9곳을 대상으로 삼아, 캐나다 대형은행도 미국 내 평판위험 정책 시정 압박을 받게 됐다",
+   "t": "트럼프 정부 디뱅킹 조사, TD·BMO 등 은행 9곳 겨냥",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/trump-s-debanking-probe-targets-td-bmo-7-other-banks"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "스웨덴 SEB가 발트 지역 자금세탁 점검과 관련해 뉴욕 금융당국에 3,300만 달러를 내면서 유럽 은행의 미국 내 규제 비용이 늘었다 (제목 기준)",
+   "t": "SEB, 발트 자금세탁 점검 관련 뉴욕 당국에 3,300만 달러 납부",
+   "u": "https://www.reuters.com/legal/government/seb-pays-33-million-new-york-regulator-over-baltic-money-laundering-review-2026-10-15/"
+  }
+ ],
+ "key": "mix-G3-017-2026-10-15",
+ "nodes": [],
+ "num": 330,
+ "one": "미 통화감독청이 TD·BMO 등 대형은행 9곳이 정치·종교 성향이나 합법 업종을 이유로 금융 접근을 막을 수 있는 정책을 뒀다고 지적하고 SEB가 뉴욕 당국에 3,300만 달러를 내면서, 은행의 고객 거절 규정에 대한 규제 압박이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:09:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "OCC",
+   "u": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-90.html"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "The Globe and Mail",
+   "u": "https://www.theglobeandmail.com/business/article-td-and-bmo-among-nine-us-banks-accused-of-debanking-customers/"
+  }
+ ],
+ "tags": [],
+ "title": "美 OCC '대형은행 9곳 디뱅킹 정책'…TD·BMO 포함, SEB도 제재금",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/legal/transactional/us-bank-regulator-faults-several-large-lenders-over-debanking-practices-2026-10-14/",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "regulation",
+   "t": "OCC 디뱅킹 조사 결과 발표, 벌금 없이 규정 검토"
+  }
+ ]
+}

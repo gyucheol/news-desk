@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 로이터는 10월 15일 사모신용 자금 모집이 사상 최대를 기록했지만 집행처 부족에 직면했다고 전했다 [제목]",
+  "영향: 집행 압박이 커지면 대출 경쟁과 조건 완화 압력이 커질 수 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사모신용, 자금 모집 사상 최대에도 집행처 부족",
+ "id": "n-rtr-0531",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "사모신용, 자금 모집 사상 최대에도 집행처 부족",
+   "u": "https://www.reuters.com/legal/transactional/private-credit-faces-deployment-squeeze-fundraising-hits-record-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-013-2026-10-20",
+ "nodes": [],
+ "num": 531,
+ "one": "로이터가 10월 15일 사모신용 자금 모집이 사상 최대를 기록했지만 돈을 집행할 곳이 모자란다고 전하면서, 운용사들 사이의 대출 경쟁이 커지고 대출 조건이 느슨해질 압력이 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "사모신용, 자금 모집 사상 최대에도 집행처 부족",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/transactional/private-credit-faces-deployment-squeeze-fundraising-hits-record-2026-10-15/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "pcredit",
+   "t": "사모신용 자금 모집 사상 최대, 집행처는 부족"
+  }
+ ]
+}

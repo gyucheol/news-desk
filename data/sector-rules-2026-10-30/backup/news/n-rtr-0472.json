@@ -1,0 +1,61 @@
+{
+ "basis": "verified",
+ "check": "로이터 기사 1건. 비영업 기업 제외 규칙과 스트래티지의 패시브 매도 위험은 검색 결과 요약(Invezz, Cryptopolitan)으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: MSCI는 비영업 기업을 11월 30일 장 마감 뒤 지수에서 빼는 규칙을 확정했다 [사실]",
+  "영향: 스트래티지는 이 규칙으로 MSCI 퇴출 위기에 놓였고 약 28억 달러 패시브 매도 위험이 생겼다 [사실]",
+  "같은 주: MSCI는 같은 시기 인도네시아 강등 협의와 튀르키예 지수 변경 동결도 발표했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "MSCI 비영업기업 제외 규칙 확정…스트래티지 약 28억 달러 패시브 매도 위험",
+ "id": "n-rtr-0472",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-17",
+   "o": "로이터",
+   "t": "스트래티지, 새 규칙에 MSCI 퇴출 위기…수십억 달러 패시브 보유분 위험",
+   "u": "https://www.reuters.com/world/asia-pacific/strategy-faces-msci-ouster-under-new-rules-billions-passive-holdings-risk-2026-10-16/"
+  }
+ ],
+ "key": "split-G3-036-2026-10-20",
+ "nodes": [],
+ "num": 472,
+ "one": "MSCI가 비영업 기업을 11월 30일 장 마감 뒤 지수에서 빼는 규칙을 확정하면서, 스트래티지가 MSCI 지수에서 퇴출돼 약 28억 달러 규모의 패시브 보유분이 매도될 위험에 놓였다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T21:31:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "Invezz",
+   "u": "https://invezz.com/news/2026/10/16/strategy-stock-mstr-falls-as-msci-index-exclusion-threatens-passive-investments/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Cryptopolitan",
+   "u": "https://www.cryptopolitan.com/msci-rules-could-eject-strategy-metaplanet/"
+  }
+ ],
+ "tags": [],
+ "title": "MSCI 비영업기업 제외 규칙 확정…스트래티지 약 28억 달러 패시브 매도 위험",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/strategy-faces-msci-ouster-under-new-rules-billions-passive-holdings-risk-2026-10-16/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "fin",
+   "k": "예상",
+   "node": "payments",
+   "t": "스트래티지, MSCI 퇴출로 약 28억 달러 매도 위험"
+  }
+ ]
+}

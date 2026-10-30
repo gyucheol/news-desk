@@ -1,0 +1,56 @@
+{
+ "basis": "verified",
+ "check": "로이터 기사 1건. 지오파이낸셜 매출 증가·이익 감소는 원 문서 사실 줄과 Upstox 실적 라이브 블로그로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 지오파이낸셜의 9월 분기 이익이 줄었다 [사실]",
+  "매출: 매출은 약 1,699크로르 루피로 늘었다 [사실]",
+  "비교: 같은 시기 엔젤원 순이익은 334.9크로르 루피로 늘어 인도 금융사 실적이 회사별로 엇갈렸다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "릴라이언스 계열 지오파이낸셜, 매출 늘고도 9월 분기 이익 감소",
+ "id": "n-rtr-0560",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "t": "릴라이언스 계열 인도 지오파이낸셜, 9월 분기 이익 감소",
+   "u": "https://www.reuters.com/world/india/indias-jio-financial-posts-drop-quarterly-profit-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-085-2026-10-20",
+ "nodes": [],
+ "num": 560,
+ "one": "릴라이언스 계열 인도 지오파이낸셜이 9월 분기 매출을 약 1,699크로르 루피로 늘렸지만 이익은 줄면서, 대형 은행과 증권사들이 대체로 이익을 늘린 인도 금융사 가운데 드물게 부진한 실적을 냈다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "Upstox",
+   "u": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
+  }
+ ],
+ "tags": [],
+ "title": "릴라이언스 계열 지오파이낸셜, 매출 늘고도 9월 분기 이익 감소",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indias-jio-financial-posts-drop-quarterly-profit-2026-10-15/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "payments",
+   "t": "매출 늘었지만 지오파이낸셜 분기 이익 감소"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 사실 줄에 인수 무산이 사실로 적혀 있으나 원 문서 확인 기록과 독립 출처 목록에서 무산을 직접 뒷받침하는 출처를 고르지 못해 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 오크트리의 A-Cap 보험사 인수 거래가 무산됐다 [사실]",
+  "이후: 블룸버그는 거래 무산 뒤 새 협상이 시작됐다고 전했다 [제목]",
+  "영향: 사모신용과 얽힌 부실 보험사 정리 작업이 다시 불확실해졌다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "오크트리의 A-Cap 보험사 인수 무산…새 협상 시작",
+ "id": "n-bbg-0527",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "t": "오크트리의 A-Cap 보험사 인수 무산…새 협상 시작",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/oaktree-s-deal-to-buy-a-cap-insurer-crumbles-spawning-new-talks"
+  }
+ ],
+ "key": "split-G5-015-2026-10-20",
+ "nodes": [],
+ "num": 527,
+ "one": "오크트리의 A-Cap 보험사 인수 거래가 10월 16일 무산되고 새 협상이 시작됐다고 블룸버그가 전하면서, 사모신용과 얽힌 부실 보험사의 정리 작업이 다시 불확실해졌다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "오크트리의 A-Cap 보험사 인수 무산…새 협상 시작",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/oaktree-s-deal-to-buy-a-cap-insurer-crumbles-spawning-new-talks",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "insurance",
+   "t": "오크트리 A-Cap 보험사 인수 무산, 새 협상"
+  }
+ ]
+}

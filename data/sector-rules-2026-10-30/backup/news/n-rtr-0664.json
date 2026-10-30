@@ -1,0 +1,58 @@
+{
+ "basis": "verified",
+ "check": "승인 사실·다이와 지분 인수는 검색 결과 요약(재팬타임스)으로 확인, 중국 증감회는 공식 확인 안 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그 보도에 따르면 다이와·미즈호는 중국 본토 100% 자회사 증권 사업의 최종 규제 관문을 통과했고, 미즈호증권은 이를 확인했다 [사실]",
+  "다이와: 다이와는 51%를 가진 합작사의 중국 측 지분을 약 1억 달러에 사들이기로 4월 합의했고, 지난주 소유 변경 승인을 받았다 [사실]",
+  "미국 업체: 씨티그룹은 2021년 말부터, 시타델증권은 2025년 초 신청 뒤 아직 승인을 기다리고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "다이와·미즈호, 중국 증권 법인 설립 최종 관문 통과…씨티 등 미국 업체는 대기",
+ "id": "n-rtr-0664",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "jpins"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "t": "다이와·미즈호, 중국 증권 자회사 출범 최종 관문 통과",
+   "u": "https://www.reuters.com/business/finance/daiwa-mizuho-clear-final-hurdles-launch-china-securities-units-bloomberg-says-2026-10-20/"
+  }
+ ],
+ "key": "mix-G2-079-2026-10-21",
+ "nodes": [
+  "jpins/securities"
+ ],
+ "num": 664,
+ "one": "다이와증권그룹과 미즈호금융그룹이 중국 본토 독자 증권 법인 설립의 마지막 규제 관문을 넘었다\n· 다이와는 4월 약 1억 달러에 중국 측 지분을 사들이기로 했고 지난주 소유 변경 승인을 받았다\n· 2021년 말부터 기다린 씨티그룹 등 서방 경쟁사는 아직 허가를 받지 못했다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T15:14:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "재팬타임스",
+   "u": "https://www.japantimes.co.jp/business/2026/10/20/companies/daiwa-mizuho-securities-business-china-approval/"
+  }
+ ],
+ "tags": [],
+ "title": "다이와·미즈호, 중국 증권 법인 설립 최종 관문 통과…씨티 등 미국 업체는 대기",
+ "url": "https://www.reuters.com/business/finance/daiwa-mizuho-clear-final-hurdles-launch-china-securities-units-bloomberg-says-2026-10-20/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "jpins",
+   "k": "실제",
+   "node": "securities",
+   "t": "다이와·미즈호 중국 증권 법인 설립 승인"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 온라인 증권사 그로우가 고객 수 증가 속에 이익을 늘렸다 [제목]",
+  "의미: 개인 투자자의 주식 거래 수요가 이어지고 있다는 신호로 읽힌다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 온라인 증권사 그로우, 고객 증가 속 이익 증가",
+ "id": "n-rtr-0554",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "t": "인도 증권사 그로우, 고객 증가 속 이익 증가",
+   "u": "https://www.reuters.com/world/india/indian-brokerage-groww-posts-higher-profit-customer-rises-2026-10-14/"
+  }
+ ],
+ "key": "split-G5-079-2026-10-20",
+ "nodes": [],
+ "num": 554,
+ "one": "인도 온라인 증권사 그로우가 고객 수 증가에 힘입어 이익을 늘리면서, 개인 투자자의 주식 거래 수요가 이어지고 있고 고객 기반이 커질수록 증권 중개사 이익이 늘 수 있음을 보여 줬다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "인도 온라인 증권사 그로우, 고객 증가 속 이익 증가",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indian-brokerage-groww-posts-higher-profit-customer-rises-2026-10-14/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "그로우 고객 증가 속 이익 증가"
+  }
+ ]
+}

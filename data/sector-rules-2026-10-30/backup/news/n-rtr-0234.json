@@ -1,0 +1,61 @@
+{
+ "added": "이번 텔레그램 1건으로 {{차기 CEO로 거론되는 월드론 COO}}가 {{10월 9일}} {{판궁성 인민은행 총재와 만나 거시 현안을 논의}}한 사실이 추가됐다",
+ "basis": "verified",
+ "check": "월드론 차기 CEO·솔로몬 의장 논의 보도는 검색 결과 요약으로 확인(이사회 승인·공식 발표는 없음). 판궁성 총재 회동은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 골드만삭스 이사회가 월드론을 차기 CEO로, 솔로몬을 1~2년간 의장으로 두는 방안을 논의 중이라는 보도가 나왔고 회사는 공식 확인하지 않았다 [사실]",
+  "시기: 교체 시기는 내년 말~2028년 초 등 보도마다 다르며, 회사 대변인은 시기 관측을 추측이라고 했다 [사실]",
+  "파장: 월드론의 부상이 사내에서 다른 임원들의 후계 계획에 연쇄 영향을 준다는 이야기가 나온다 [제목]",
+  "회동: 판궁성 인민은행 총재가 10월 9일 월드론 COO와 만나 거시 현안을 논의했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "골드만 {{월드론}} 차기 CEO 부상…판궁성 인민은행 총재와 회동",
+ "id": "n-rtr-0234",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{월드론의 CEO 승진}}이 {{예상}}되면서, 골드만 내부에서 {{다른 임원들의 후계 계획에 미칠 연쇄 영향}}을 두고 {{말이 나오}}고 있다 (제목 기준)",
+   "t": "월드론 부상 예상에 골드만 내부 술렁…후계 계획에 연쇄 영향",
+   "u": "https://www.reuters.com/legal/transactional/waldrons-expected-rise-stirs-talk-inside-goldman-knock-on-succession-plans-2026-10-09/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "텔레그램 Polaristimes",
+   "s": "{{차기 CEO로 거론되는 월드론 COO}}가 {{판궁성 인민은행 총재}}를 만나 {{거시 현안을 논의}}하면서, {{후계 부상과 맞물린 회동 시점}}이 {{주목받았}}다",
+   "t": "골드만 차기 CEO 후보 월드론, 판궁성 인민은행 총재와 회동",
+   "u": "https://t.me/The_MariTimes/63625"
+  }
+ ],
+ "key": "mix-C053-2026-10-13",
+ "nodes": [],
+ "num": 234,
+ "one": "{{골드만삭스 이사회}}가 {{존 월드론 사장 겸 COO를 차기 CEO로}}, 데이비드 솔로몬을 의장으로 두는 방안을 {{논의}}하는 가운데 {{월드론}}이 판궁성 인민은행 총재와 {{만나}}면서, {{골드만 후계 구도와 다른 임원 거취}}에 {{관심}}이 {{쏠리}}고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T23:49:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "Fortune",
+   "u": "https://fortune.com/2026/10/01/john-waldron-goldman-sachs-next-ceo-wall-street-succession/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "RIABiz",
+   "u": "https://riabiz.com/a/2026/10/9/david-solomon-eyeing-near-term-goldman-sachs-ceo-exit-reports-say-and-his-heir-apparent-looks-ria-friendly-dfa-search-for-ma-partner-went-quiet-and-complex-factors-could-prolong-the-process"
+  }
+ ],
+ "tags": [],
+ "title": "{{골드만 월드론 차기 CEO 부상}}…판궁성 인민은행 총재와 {{회동}}",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.reuters.com/legal/transactional/waldrons-expected-rise-stirs-talk-inside-goldman-knock-on-succession-plans-2026-10-09/"
+}

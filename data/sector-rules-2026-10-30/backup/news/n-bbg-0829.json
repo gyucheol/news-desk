@@ -1,0 +1,61 @@
+{
+ "basis": "partial",
+ "check": "이사회 분쟁(연임·상장 대립) 배경은 검색 결과 요약으로 확인. 정치 공방으로 번진 내용은 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 타타그룹의 이사회 분쟁이 인도에서 정치적 공방을 불렀다 [제목]",
+  "연임: 9월 17일 타타선스 이사회는 찬드라세카란 회장의 5년 연임을 승인했고 노엘 타타만 반대했으며, 타타트러스트는 연임이 불법이라고 주장한다 [사실]",
+  "상장: 인도중앙은행은 9월 타타선스의 핵심투자회사 등록 반납 신청을 거부해 상장 압박이 커졌고, 노엘 타타는 상장이 자선 목적을 희석한다며 반대한다 [사실]",
+  "일정: 두 사람은 11월 7일 타타스틸 이사회에서 만날 예정이며 노엘 타타는 70세가 되는 11월 12일 일부 이사직에서 물러난다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "타타그룹 이사회 분쟁, 인도 정치 공방으로 번져…찬드라세카란 연임·타타선스 상장 놓고 대립",
+ "id": "n-bbg-0829",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "t": "타타그룹 이사회 분쟁, 인도에서 정치적 공방으로 번져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/tata-group-s-boardroom-battle-sparks-political-spat-in-india"
+  }
+ ],
+ "key": "mix-G2-055-2026-10-30",
+ "nodes": [],
+ "num": 829,
+ "one": "타타그룹 지주사 타타선스의 회장 연임·상장을 둘러싼 이사회 분쟁이 인도 정치권 공방으로 번졌다\n· 이사회는 9월 17일 찬드라세카란 회장의 연임을 승인했지만 노엘 타타 타타트러스트 회장은 반대했다\n· 이사회는 인도중앙은행 규정에 따른 타타선스 상장을 추진하고 있고 노엘 타타는 이에 반대한다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T17:57:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-26",
+   "o": "Business Today",
+   "u": "https://www.businesstoday.in/latest/corporate/story/chandrasekaran-noel-tata-likely-to-meet-in-november-amid-tata-boardroom-tussle-563542-2026-10-26"
+  },
+  {
+   "d": "",
+   "o": "Outlook Business",
+   "u": "https://www.outlookbusiness.com/corporate/tata-trusts-66-stake-in-tata-sons-masks-a-tighter-voting-battle"
+  }
+ ],
+ "tags": [],
+ "title": "타타그룹 이사회 분쟁, 인도 정치 공방으로 번져…찬드라세카란 연임·타타선스 상장 놓고 대립",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/tata-group-s-boardroom-battle-sparks-political-spat-in-india",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "regulation",
+   "t": "타타선스 상장 둘러싼 이사회 분쟁이 정치 공방으로 번짐"
+  }
+ ]
+}

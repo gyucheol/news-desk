@@ -1,0 +1,50 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: HDFC은행 계열 여신사 HDB파이낸셜이 대출 수요 둔화에도 분기 이익을 늘렸다 [제목]",
+  "반대 신호: 같은 시기 바자즈 파이낸스는 강한 대출 증가에 힘입어 분기 이익이 늘었다 [제목]",
+  "의미: 비은행 대출 수요가 회사별로 엇갈리고 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 HDB파이낸셜, 대출 수요 둔화에도 분기 이익 증가",
+ "id": "n-rtr-0555",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "t": "인도 HDB파이낸셜, 대출 수요 둔화에도 분기 이익 증가",
+   "u": "https://www.reuters.com/world/india/indias-hdb-financial-services-posts-quarterly-profit-rise-loan-demand-lower-2026-10-14/"
+  }
+ ],
+ "key": "split-G5-080-2026-10-20",
+ "nodes": [],
+ "num": 555,
+ "one": "HDFC은행 계열 여신사 HDB파이낸셜이 대출 수요가 줄었는데도 분기 이익을 늘리면서, 외형 성장보다 수익성 관리가 실적을 받쳤고 바자즈 파이낸스와 달리 비은행 대출 수요가 회사별로 엇갈리고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "인도 HDB파이낸셜, 대출 수요 둔화에도 분기 이익 증가",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indias-hdb-financial-services-posts-quarterly-profit-rise-loan-demand-lower-2026-10-14/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "pcredit",
+   "t": "HDB파이낸셜 대출 수요 둔화에도 이익 증가"
+  }
+ ]
+}

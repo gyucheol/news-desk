@@ -1,0 +1,79 @@
+{
+ "added": "로이터 1건 — 머디워터스가 에디슨의 이턴 산불 고의적 과실을 주장하며 책임액 약 200억 달러를 제시했고 주가가 3% 넘게 내렸다는 내용 내용이 추가됨",
+ "basis": "verified",
+ "check": "Insurance Journal 검색 결과 요약과 머디워터스 보고서 목록으로 주장 내용, 주가 하락, 책임 제도 확인. 구상권 영향은 추론",
+ "cycles": [],
+ "facts": [
+  "무엇이: 에디슨을 공매도한 머디워터스가 10월 13일 보고서에서 에디슨이 이턴 산불에서 의식적·고의적으로 안전을 무시했다며 책임액이 최소 40억 달러, 약 200억 달러여야 한다고 주장했습니다 [사실]",
+  "근거: 머디워터스는 에디슨의 화재 위험 지수가 풍속 입력을 시속 29마일로 묶어 강풍을 구분하지 못했다고 주장했고, 에디슨은 송전 운영이 합리적이었다는 입장입니다 [사실]",
+  "주가: 에디슨 인터내셔널 주가는 13일 3% 넘게 내렸습니다 [사실]",
+  "제도: 캘리포니아 산불 책임 제도에서 일반 과실이면 에디슨의 상환 부담은 약 43억 달러로 제한되지만, 고의적 무시로 판단되면 이 보호가 사라질 수 있습니다 [사실]",
+  "구상권: 고의적 과실이 인정되면 1달러당 55~60센트에 거래되는 이턴 산불 구상권의 회수 가능성이 높아질 수 있습니다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{머디워터스}} \"{{에디슨}}, {{이턴 산불 고의적 과실}}\"…책임 {{200억 달러}} 주장에 {{주가 하락}}",
+ "id": "n-bbg-0267",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-11",
+   "o": "블룸버그",
+   "t": "정치권 반발 시들해지자 헤지펀드들 LA 산불 관련 거래 매입",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/hedge-funds-snap-up-la-fire-deals-as-political-backlash-sputters"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{머디워터스}}가 이턴 산불에서 {{에디슨의 고의적 과실}}을 {{주장}}하며 {{책임액 약 200억 달러}}를 제시하자 {{에디슨 주가}}가 {{3% 넘게 내렸}}다",
+   "t": "머디워터스 \"이턴 산불 고의적 과실\" 주장에 에디슨 주가 하락",
+   "u": "https://www.reuters.com/legal/government/edison-drops-muddy-waters-alleges-willful-misconduct-eaton-fire-case-2026-10-13/"
+  }
+ ],
+ "key": "mix-C146-2026-10-13",
+ "nodes": [
+  "power/grid"
+ ],
+ "num": 267,
+ "one": "공매도 업체 {{머디워터스}}가 {{에디슨}}이 {{이턴 산불}}에서 {{고의로 안전을 무시}}했고 {{책임액이 약 200억 달러}}에 이를 수 있다고 주장해 {{주가가 3% 넘게 내리면서}}, 헤지펀드들이 사들인 {{이턴 산불 구상권}}의 {{회수 가능성}}이 {{높아질}} 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T06:47:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-11",
+   "o": "Briefs",
+   "u": "https://www.briefs.co/news/hedge-funds-pounce-on-la-wildfire-claims-as-crackdown-stalls/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Insurance Journal",
+   "u": "https://www.insurancejournal.com/news/west/2026/10/13/888798.htm"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Muddy Waters Research",
+   "u": "https://muddywatersresearch.com/research/2026/oct-13/"
+  }
+ ],
+ "tags": [],
+ "title": "{{머디워터스}} \"{{에디슨}}, {{이턴 산불 고의적 과실}}\"…책임 {{200억 달러}} 주장에 {{주가 하락}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/hedge-funds-snap-up-la-fire-deals-as-political-backlash-sputters",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "power",
+   "k": "실제",
+   "node": "grid",
+   "t": "머디워터스 산불 책임 약 200억 달러 주장에 에디슨 주가 3% 넘게 하락"
+  }
+ ]
+}

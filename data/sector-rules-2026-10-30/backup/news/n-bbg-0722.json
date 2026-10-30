@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "이전 일정과 사유는 GM 8-K와 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: GM은 10월 27일 보통주 상장을 뉴욕증권거래소에서 나스닥으로 옮긴다고 발표했다 [사실]",
+  "일정: 뉴욕증권거래소 거래는 11월 16일 장 마감으로 끝나고 11월 17일부터 나스닥에서 GM 종목 코드로 거래된다 [사실]",
+  "이유: 제이콥슨 CFO는 나스닥이 성장하는 GM에 자연스러운 상장처라고 했고, 나스닥 상장은 나스닥100 편입 자격을 준다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "GM, 뉴욕증권거래소 떠나 나스닥으로 상장 이전…11월 17일부터 거래",
+ "id": "n-bbg-0722",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "GM, 뉴욕증권거래소 떠나 기술주 중심 나스닥에 상장",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/gm-to-move-stock-listing-to-tech-focused-nasdaq-leaving-nyse"
+  }
+ ],
+ "key": "mix-G1-054-2026-10-27",
+ "nodes": [],
+ "num": 722,
+ "one": "GM이 보통주 상장을 뉴욕증권거래소에서 나스닥 글로벌 셀렉트 마켓으로 옮긴다고 밝혔다\n· 뉴욕증권거래소 거래는 11월 16일 마감으로 끝나고 11월 17일부터 나스닥에서 GM 코드로 거래된다\n· 나스닥 상장으로 GM은 나스닥100 지수 편입 자격을 얻게 된다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T19:45:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "SEC(GM 8-K)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001467858/000119312526432602/d53522dex991.htm"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "GuruFocus",
+   "u": "https://www.gurufocus.com/news/9144218/general-motors-gm-to-move-stock-listing-from-nyse-to-nasdaq"
+  }
+ ],
+ "tags": [],
+ "title": "GM, 뉴욕증권거래소 떠나 나스닥으로 상장 이전…11월 17일부터 거래",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/gm-to-move-stock-listing-to-tech-focused-nasdaq-leaving-nyse",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "GM 뉴욕증권거래소 떠나 나스닥 상장 이전"
+  }
+ ]
+}

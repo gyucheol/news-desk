@@ -1,0 +1,97 @@
+{
+ "basis": "verified",
+ "check": "내각 승인, 지분율, 인수가·주가 하락, 지분 제한, 계열사 통합 계획은 검색 결과 요약으로 확인. 유가 100달러 완충 해석은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 내각 경제위원회가 10월 14일 페어팩스의 IDBI은행 지분 60.72% 인수를 승인했고 인수가는 약 5,288억 루피(약 56억 달러)입니다 [사실]",
+  "가격: 주당 81루피로 직전 종가 90.44루피보다 약 10% 낮아 IDBI 주가는 장 초반 약 7% 떨어졌습니다 [사실]",
+  "지분: 정부 지분은 45.5%에서 15%로, LIC는 49.2%에서 19%로 줄고, 페어팩스 의결권은 26%로 제한되며 15년 안에 지분을 26%로 낮춰야 합니다 [사실]",
+  "남은 절차: 구속력 있는 최종 계약은 아직 없고 RBI·SEBI·IRDAI 승인이 필요하며, 페어팩스는 단일 대주주 규정에 맞추려 고디지트·IIFL캐피털을 IDBI은행에 합칠 계획입니다 [사실]",
+  "의미: 블룸버그는 이번 지분 매각이 유가 100달러 상황에서 인도 재정에 완충재가 된다고 짚었습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "페어팩스, 인도 IDBI은행 지분 60.72% 56억 달러에 인수…주가 하락",
+ "id": "n-rtr-0327",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "인도 정부가 IDBI은행 구조조정안을 승인하면서, 정부와 LIC가 가진 지분 60.72%를 민간에 넘기는 매각이 본궤도에 올랐다",
+   "t": "인도 정부, IDBI은행 구조조정(지분 매각) 승인",
+   "u": "https://www.reuters.com/world/india/indian-government-approves-restructuring-idbi-bank-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "페어팩스가 약 60억 달러에 인도 IDBI은행 경영권을 사들이면서, 해외 금융자본의 인도 자산 선호가 드러났다 (제목 기준)",
+   "t": "페어팩스의 60억 달러 은행 인수, 인도 자산 향한 열의 보여줘",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/fairfax-s-6-billion-bank-deal-signals-zest-for-indian-assets"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "인도 정부가 IDBI 지분 매각으로 대규모 매각 대금을 확보하면서, 유가 100달러에 따른 재정 부담을 덜 완충재를 얻었다 (제목 기준)",
+   "t": "IDBI 지분 매각, 유가 100달러 앞 인도에 때맞춘 완충재",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/india-s-idbi-stake-sale-brings-timely-buffer-against-100-oil"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "페어팩스가 IDBI은행 경영권을 55억 6,000만 달러에 사기로 했지만 인수가가 직전 종가보다 약 10% 낮아, IDBI 주가가 장중 약 7% 떨어졌다",
+   "t": "페어팩스 55억 6천만 달러 경영권 인수에 IDBI은행 주가 하락",
+   "u": "https://www.reuters.com/world/india/idbi-bank-drops-after-fairfax-buys-controlling-stake-556-billion-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "페어팩스가 고디지트 보험·IIFL캐피털 등 인도 금융 계열사를 IDBI은행 아래로 합칠 계획을 밝히면서, RBI의 단일 대주주 규정에 맞추려 한다",
+   "t": "페어팩스, 인도 금융 계열사들을 IDBI은행에 통합 계획",
+   "u": "https://www.reuters.com/world/india/fairfax-plans-fold-indian-financial-holdings-into-idbi-bank-2026-10-15/"
+  }
+ ],
+ "key": "mix-G3-007-2026-10-15",
+ "nodes": [],
+ "num": 327,
+ "one": "인도 정부가 IDBI은행 지분 60.72%를 페어팩스에 주당 81루피, 약 56억 달러에 넘기기로 승인하면서 할인된 인수가에 IDBI 주가가 7% 안팎 떨어졌고, 페어팩스는 고디지트·IIFL캐피털을 IDBI은행으로 합칠 계획이다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:06:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "The Globe and Mail",
+   "u": "https://www.theglobeandmail.com/business/article-fairfax-financial-buys-majority-stake-in-indias-idbi-bank-for-556/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Business Standard",
+   "u": "https://www.business-standard.com/companies/news/idbi-bank-fairfax-deal-what-rbi-rules-say-on-foreign-ownership-and-control-126101500482_1.html"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "INDmoney",
+   "u": "https://www.indmoney.com/blog/stocks/idbi-bank-shares-fall-fairfax-stake-sale"
+  }
+ ],
+ "tags": [],
+ "title": "페어팩스, 인도 IDBI은행 지분 60.72% 56억 달러에 인수…주가 하락",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/india/indian-government-approves-restructuring-idbi-bank-2026-10-14/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "banks",
+   "t": "인수가 10% 할인에 IDBI 주가 약 7% 하락"
+  }
+ ]
+}

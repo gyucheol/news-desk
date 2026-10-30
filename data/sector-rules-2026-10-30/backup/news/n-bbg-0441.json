@@ -1,0 +1,53 @@
+{
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다. 18일 자사주 매입안은 원 문서 사실 줄을 따랐다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 16일 중국 당국이 매도 제한과 자사주 매입으로 증시를 떠받치고 있다고 전했다 [제목]",
+  "앞선 개입: 15일 주식형 ETF 거래대금이 1,670억 위안을 넘어 전날보다 약 40% 늘어 정부 개입이 추정됐다 [채널]",
+  "자사주: 18일에는 Sugon·Hygon·Shengyi·Montage 4곳이 한 시간 안에 2억~8억 위안 규모 자사주 매입안을 냈다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중국 당국, 매도 제한·자사주 매입으로 증시 떠받치기",
+ "id": "n-bbg-0441",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "t": "중국, 매도 제한·자사주 매입으로 증시 떠받치기",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-moves-to-prop-up-stock-market-with-selling-curbs-buybacks"
+  }
+ ],
+ "key": "split-G3-098-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 441,
+ "one": "중국 당국이 매도 제한과 자사주 매입으로 증시 부양에 나서면서 주식 매도 물량을 줄여 주가 하락을 막으려 하고 있고, 이는 15일 주식형 ETF 거래대금이 약 40% 급증한 정부 개입 추정에 이어 나왔다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T04:29:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "중국 당국, 매도 제한·자사주 매입으로 증시 떠받치기",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-moves-to-prop-up-stock-market-with-selling-curbs-buybacks",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "매도 제한으로 주식 매도 물량 축소"
+  }
+ ]
+}

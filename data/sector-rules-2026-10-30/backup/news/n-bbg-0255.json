@@ -1,0 +1,38 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 확인 못 함. 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 영란은행의 브리든이 브릿코인 출시를 서두르지 않는다는 입장입니다 [제목]",
+  "의미: 영국 중앙은행 디지털화폐 도입 일정이 급하게 당겨지지는 않을 것으로 보입니다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{영란은행}} 브리든 '{{브릿코인}} 출시 서두르지 않아'",
+ "id": "n-bbg-0255",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "영란은행 브리든, '브릿코인' 출시 서두르지 않아",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/bank-of-england-s-breeden-in-no-rush-to-launch-britcoin"
+  }
+ ],
+ "key": "mix-C122-2026-10-13",
+ "nodes": [],
+ "num": 255,
+ "one": "{{영란은행의 브리든}}이 {{디지털 파운드(브릿코인) 출시를 서두르지 않겠다는 입장}}을 밝히면서, {{영국 중앙은행 디지털화폐 도입}}이 {{신중하게 진행될}} 전망이다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T19:58:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "{{영란은행 브리든}} '{{브릿코인 출시 서두르지 않아}}'",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/bank-of-england-s-breeden-in-no-rush-to-launch-britcoin"
+}

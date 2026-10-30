@@ -1,0 +1,66 @@
+{
+ "basis": "verified",
+ "check": "공모 규모·구조·일정은 검색 결과 요약으로 확인, 몇 분 만의 청약 충족은 블룸버그 인용 보도로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: DIP 홀딩의 최대 5.43억 달러(5억 4,300만 달러) IPO가 청약 개시 몇 분 만에 모집 물량을 채웠다 [사실]",
+  "구조: 두바이 인베스트먼츠가 두바이 인베스트먼츠 파크를 소유한 자회사 지분 20%를 파는 구주 매출로, 공모가 범위는 주당 1.10~1.15디르함이다 [사실]",
+  "일정: 청약은 11월 3일 마감, 공모가는 11월 4일 확정되고 거래는 11월 11일 시작될 예정이다 [사실]",
+  "배경: 이란 전쟁으로 역내 상장이 둔화한 가운데 올해 UAE 첫 IPO다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "두바이 DIP 홀딩 5억 4,300만 달러 IPO, 전쟁에도 몇 분 만에 청약 충족…올해 UAE 첫 상장",
+ "id": "n-bbg-0750",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "두바이 기업 5억 4,300만 달러 IPO, 전쟁에도 몇 분 만에 청약 충족",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/dubai-investments-pjsc-dip-543-million-first-uae-listing-2026"
+  }
+ ],
+ "key": "mix-G2-054-2026-10-27",
+ "nodes": [],
+ "num": 750,
+ "one": "두바이 인베스트먼츠 자회사 DIP 홀딩의 IPO가 이란 전쟁에도 청약 시작 몇 분 만에 모두 채워졌다\n· 공모 규모는 최대 5억 4,300만 달러로 모회사가 지분 20%를 파는 구주 매출이다\n· 올해 UAE 첫 IPO로 11월 3일 청약 마감, 11월 11일 거래 시작이 예정돼 있다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T13:36:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "The National",
+   "u": "https://www.thenationalnews.com/business/markets/2026/10/27/dubai-investments-seeks-to-raise-543m-from-first-uae-ipo-this-year/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "Economy Middle East",
+   "u": "https://economymiddleeast.com/news/dip-holding-to-raise-up-to-543-million-in-uaes-first-ipo-of-2026/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "Zawya",
+   "u": "https://www.zawya.com/en/press-release/dip-holding-announces-offer-price-range-and-start-of-subscription-period-for-its-initial-public-offering-1852132"
+  }
+ ],
+ "tags": [],
+ "title": "두바이 DIP 홀딩 5억 4,300만 달러 IPO, 전쟁에도 몇 분 만에 청약 충족…올해 UAE 첫 상장",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/dubai-investments-pjsc-dip-543-million-first-uae-listing-2026",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "DIP 홀딩 IPO 몇 분 만에 청약 충족"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 16일 사모 자본이 위기에 빠진 프랑스에 대한 신뢰를 유지하고 있다고 전했다 [제목]",
+  "대비: 같은 시기 프랑스 국채는 금리차가 10월 5일 145bp를 넘는 등 압박을 받았다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사모 자본, 위기에 빠진 프랑스에 여전히 신뢰 유지",
+ "id": "n-bbg-0482",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "t": "사모 자본, 위기에 빠진 프랑스에 여전히 신뢰 유지",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/private-capital-keeps-faith-in-crisis-hit-france"
+  }
+ ],
+ "key": "split-G4-081-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 482,
+ "one": "블룸버그가 10월 16일 정치·재정 위기에도 사모 자본이 프랑스 투자를 이어가고 있다고 전하면서, 국채 시장 불안과 달리 프랑스로 향하는 민간 투자 자금 흐름은 아직 흔들리지 않고 있다는 점이 드러났다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T04:22:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "사모 자본, 위기에 빠진 프랑스에 여전히 신뢰 유지",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/private-capital-keeps-faith-in-crisis-hit-france",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "assetmgmt",
+   "t": "사모 자본, 위기의 프랑스 투자 유지"
+  }
+ ]
+}

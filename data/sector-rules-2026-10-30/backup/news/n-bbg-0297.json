@@ -1,0 +1,91 @@
+{
+ "basis": "verified",
+ "check": "협상 확인, 약 35억 달러, 최종 합의 없음·규제 승인 필요, 인수 논리, 2022년 기업가치 13억 달러 인수, EBITDA 전망, 주가 낙폭 4.7%는 검색 결과 요약(Private Equity Wire·FX News Group·TipRanks 등)으로 확인. EBITDA 전망과 다른 인수 후보 협의는 익명 소식통 전언.",
+ "cycles": [],
+ "facts": [
+  "무엇이: LSEG가 10월 13일 퍼미라로부터 옥터스를 약 35억 달러에 인수하는 협상을 하고 있다고 확인했으나, 최종 합의는 없고 거래에는 규제 승인이 필요하다고 밝혔습니다 [사실]",
+  "옥터스: 퍼미라가 2022년 워버그핀커스에게서 기업가치 13억 달러에 경영권 지분을 샀고, 옥터스의 EBITDA는 올해 약 1억 4,500만 달러에서 내년 약 2억 달러로 늘 것으로 예상된다고 소식통이 전했습니다 [사실]",
+  "인수 논리: LSEG는 옥터스가 자사 채권 데이터·분석과 사모시장 솔루션을 보완하고 데이터·분석 부문과 그룹 매출 성장에 곧바로 보탬이 된다고 밝혔습니다 [사실]",
+  "주가: LSEG 주가는 협상 보도 뒤 2% 넘게 떨어졌고 장중 낙폭이 4.7%까지 커졌습니다 [사실]",
+  "매각 과정: 퍼미라는 지난해부터 옥터스 매각을 준비했고 다른 잠재 인수자와도 협의했다고 소식통이 전했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{LSEG}}, 퍼미라 소유 {{신용정보업체 옥터스}} {{35억 달러}}에 {{인수 협상}}…{{주가 4.7% 하락}}",
+ "id": "n-bbg-0297",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{LSEG}}가 퍼미라 소유 {{신용정보업체 옥터스}} {{인수 협상}}에 나서면서 {{채권 데이터·사모시장 사업}}을 {{넓힐}} 수 있게 됐다",
+   "t": "LSEG, 퍼미라 소유 신용정보업체 옥터스 인수 협상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/lseg-in-talks-to-buy-permira-owned-credit-firm-octus"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{LSEG}}가 {{옥터스}}를 {{약 35억 달러}}에 사는 {{협상}}을 {{확인}}했지만 {{최종 합의}}는 {{없다}}고 밝혀 {{거래 성사}}는 {{규제 승인}} 등에 {{달려}} 있다",
+   "t": "LSEG, 옥터스를 약 35억 달러에 인수하는 협상 진행",
+   "u": "https://www.reuters.com/business/lseg-talks-buy-octus-about-35-billion-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{소식통}}들에 따르면 {{LSEG}}가 {{금융 데이터 그룹 옥터스}}에 대한 {{인수 제안}}을 {{검토}}하고 있어 {{옥터스}}가 {{LSEG 데이터 사업}}에 {{편입}}될 수 있다 (제목 기준)",
+   "t": "LSEG, 금융 데이터 그룹 옥터스 인수 제안 검토…소식통",
+   "u": "https://www.reuters.com/business/lseg-considers-bid-octus-financial-data-group-sources-say-2026-10-13/"
+  }
+ ],
+ "key": "mix-C005-2026-10-14",
+ "nodes": [],
+ "num": 297,
+ "one": "{{런던증권거래소그룹(LSEG)}}이 퍼미라 소유 {{신용 데이터 업체 옥터스}}를 {{약 35억 달러}}에 사는 {{협상}}을 {{확인}}하며 {{데이터·분석 매출 성장}}에 곧바로 {{보탬}}이 된다고 밝혔지만, {{최종 합의}}는 아직 {{없고}} {{LSEG 주가}}는 장중 {{4.7%까지 밀렸}}다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:16:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Private Equity Wire",
+   "u": "https://www.privateequitywire.co.uk/lseg-in-talks-to-acquire-permira-backed-octus-for-3-5bn/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "FX News Group",
+   "u": "https://fxnewsgroup.com/forex-news/exchanges/lseg-confirms-discussions-with-permira-regarding-3-5bn-purchase-of-octus/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "TipRanks",
+   "u": "https://www.tipranks.com/news/company-announcements/lseg-confirms-talks-on-3-5bn-octus-deal-to-boost-credit-data-franchise"
+  }
+ ],
+ "tags": [],
+ "title": "{{LSEG}}, 퍼미라 소유 {{신용정보업체 옥터스}} {{35억 달러}}에 {{인수 협상}}…{{주가 4.7% 하락}}",
+ "updatedAt": "2026-10-15T07:54:15+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/lseg-in-talks-to-buy-permira-owned-credit-firm-octus",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "markets",
+   "t": "LSEG 신용정보업체 옥터스 약 35억 달러 인수 협상"
+  },
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "인수 협상 보도 뒤 LSEG 주가 장중 4.7%까지 하락"
+  }
+ ]
+}

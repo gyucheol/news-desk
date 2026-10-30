@@ -1,0 +1,53 @@
+{
+ "basis": "title",
+ "check": "로이터 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 15일 영국 증시는 필수소비재·방산주 강세 속에 올랐고, 예산 차입 보도가 투자심리를 개선했다 [제목]",
+  "재료: FT는 힐리 재무장관이 새 예산 조치의 재원을 마련해 2029/30년 기준 차입을 늘리지 않을 것이라고 전했다 [사실]",
+  "해석: 국채 추가 발행 우려가 줄어든 것이 위험자산 심리에 보탬이 된 것으로 보인다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "추가 차입 없는 예산 보도에 영국 증시 상승…필수소비재·방산 강세",
+ "id": "n-rtr-0528",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "t": "필수소비재·방산 강세에 英 증시 상승…예산 차입 보도로 심리 개선",
+   "u": "https://www.reuters.com/world/uk/uk-stocks-gain-consumer-staples-defence-budget-borrowing-report-lifts-sentiment-2026-10-14/"
+  }
+ ],
+ "key": "split-G4-155-2026-10-20",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 528,
+ "one": "필수소비재·방산주가 오르고 예산 조치를 추가 차입 없이 메운다는 보도가 투자심리를 끌어올리면서 10월 15일 영국 증시가 상승했고, 힐리 재무장관은 2029/30년 기준 차입을 늘리지 않을 계획인 것으로 전해졌다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:35:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "추가 차입 없는 예산 보도에 영국 증시 상승…필수소비재·방산 강세",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/uk/uk-stocks-gain-consumer-staples-defence-budget-borrowing-report-lifts-sentiment-2026-10-14/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "추가 차입 없는 예산 보도에 영국 증시 상승"
+  }
+ ]
+}

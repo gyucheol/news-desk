@@ -1,0 +1,52 @@
+{
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 호르무즈 유조선 공격이 전시 최고치에 이르며 걸프 증시가 후퇴했다 [제목]",
+  "의미: 해협 위험이 걸프 금융시장에도 영향을 주고 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호르무즈 유조선 공격 전시 최고치에 걸프 증시 후퇴",
+ "id": "n-rtr-0375",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "호르무즈 유조선 공격 전시 최고치에 걸프 증시 후퇴",
+   "u": "https://www.reuters.com/world/middle-east/gulf-stocks-retreat-hormuz-tanker-attacks-hit-wartime-high-2026-10-08/"
+  }
+ ],
+ "key": "split-G1-033-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 375,
+ "one": "호르무즈 유조선 공격이 8일 이란 전쟁 기간 중 최고치에 이르면서 걸프 지역 증시가 하락하며 뒤로 물러났고, 해협의 수송 위험이 걸프 산유국 금융시장으로도 번지고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T13:51:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "호르무즈 유조선 공격 전시 최고치에 걸프 증시 후퇴",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/middle-east/gulf-stocks-retreat-hormuz-tanker-attacks-hit-wartime-high-2026-10-08/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "호르무즈 공격 최고치에 걸프 증시 하락"
+  }
+ ]
+}

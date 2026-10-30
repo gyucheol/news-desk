@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 복구 시점과 규제 대응은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 나스닥은 10월 15일 오전 11시 27분(미 동부시각) 카터릿 시설 네트워크 장애로 미국 주식시장 데이터에 간헐적 공백이 생겼다고 공지했습니다 [사실]",
+  "범위: 나스닥·나스닥 텍사스·나스닥 PSX의 여러 멀티캐스트 그룹과 하드웨어·소프트웨어 피드, 카터릿의 1차(A)·2차(B) 피드가 모두 영향을 받았습니다 [사실]",
+  "대응: 나스닥은 영향을 받지 않은 시카고 피드로 옮기고 누락 데이터 복구를 요청하라고 안내했으며 원인을 조사하고 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "나스닥 뉴저지 카터릿 네트워크 장애…미 주식 시세 데이터 간헐적 끊김",
+ "id": "n-rtr-0338",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "나스닥, 네트워크 장애로 미 주식 데이터 피드 차질",
+   "u": "https://www.reuters.com/business/nasdaq-reports-network-disruption-us-equities-data-feeds-impacted-2026-10-15/"
+  }
+ ],
+ "key": "mix-G3-037-2026-10-15",
+ "nodes": [],
+ "num": 338,
+ "one": "나스닥이 뉴저지 카터릿 시설의 네트워크 장애로 나스닥·나스닥 텍사스·PSX 시세 데이터가 간헐적으로 끊겼다고 알리면서, 이용자들은 시카고 피드로 옮기고 누락 데이터 복구를 요청해야 했다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T03:25:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "AdvisorHub",
+   "u": "https://www.advisorhub.com/nasdaq-warns-network-disruption-is-impacting-equity-markets/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Breaking The News",
+   "u": "https://breakingthenews.net/Article/Nasdaq-reports-network-disruption/67317607"
+  }
+ ],
+ "tags": [],
+ "title": "나스닥 뉴저지 카터릿 네트워크 장애…미 주식 시세 데이터 간헐적 끊김",
+ "url": "https://www.reuters.com/business/nasdaq-reports-network-disruption-us-equities-data-feeds-impacted-2026-10-15/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "카터릿 장애로 나스닥 시세 데이터 간헐적 끊김"
+  }
+ ]
+}

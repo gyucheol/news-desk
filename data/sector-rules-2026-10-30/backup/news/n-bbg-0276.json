@@ -1,0 +1,38 @@
+{
+ "basis": "title",
+ "check": "검색하지 않음. 블룸버그 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 연기금 PGGM이 ING 대출 50억 유로에 연계된 SRT를 지원하기로 합의했습니다 [제목]",
+  "의미: SRT는 은행이 대출 위험 일부를 투자자에게 넘겨 자본 부담을 줄이는 거래입니다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연기금 PGGM, {{ING 대출 50억 유로}} 연계 SRT 참여",
+ "id": "n-bbg-0276",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "연기금 PGGM, ING 대출 50억 유로 연계 SRT 지원 합의",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/pension-pggm-agrees-to-back-srt-tied-to-5-billion-of-ing-loans"
+  }
+ ],
+ "key": "mix-C182-2026-10-13",
+ "nodes": [],
+ "num": 276,
+ "one": "{{네덜란드 연기금 운용사 PGGM}}이 {{ING 대출 50억 유로}}와 연계된 {{위험이전거래(SRT)}}를 {{떠받치기로}} 하면서, {{ING}}가 {{대출 위험 일부를 덜어}} {{자본 부담}}을 {{줄일}} 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T12:30:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "{{연기금 PGGM}}, ING 대출 50억 유로 연계 {{SRT 참여}}",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/pension-pggm-agrees-to-back-srt-tied-to-5-billion-of-ing-loans"
+}

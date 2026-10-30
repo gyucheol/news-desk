@@ -1,0 +1,75 @@
+{
+ "basis": "verified",
+ "check": "NL Times·Finimize 검색 결과 요약으로 ING 이익 18억 5,000만 유로·예상 19억 7,000만 유로·400명 감원 확인, 로이즈 3분기 IMS로 전망 유지·고금리 자산 성장 둔화 언급 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: ING 3분기 순이익은 18억 5,000만 유로로 3.5% 늘었지만 예상 19억 7,000만 유로를 밑돌았고, 대손비용 증가와 수익 부진이 원인이었다 [사실]",
+  "ING 감원·환원: 2027년 도매금융 재편으로 약 400명을 줄이고(3월 1,250명에 추가) 4분기 1억 7,500만 유로 구조조정 충당금을 쌓으며, 16억 5,000만 유로 자사주 매입과 2억 5,000만 유로 현금 배당을 발표했다 [사실]",
+  "로이즈: 9개월 법정 세후이익은 48억 3,500만 파운드, 3분기 유형자기자본이익률은 19.5%였고 연간 순이자이익 149억 파운드 초과 등 전망을 유지했다 [사실]",
+  "금리 부담: 로이즈는 높은 금리가 지속되면 자산 성장이 둔화하기 시작할 수 있다고 밝혔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ING 3분기 이익 18.5억 유로 예상 하회·400명 감원…로이즈는 이익 웃돌았지만 전망 유지",
+ "id": "n-bbg-0824",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "ING가 대손비용 증가로 3분기 순이익이 예상에 못 미치면서 도매금융 재편으로 약 400명을 줄이기로 했다",
+   "t": "ING, 분기 이익 예상 하회 속 인력 감원 발표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/ing-dutch-netherlands-job-cuts-quarterly-profit-misses-estimates"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "로이즈가 수수료·이자이익 증가로 예상을 웃돌았지만 금리 상승 속에 연간 전망을 올리지 않으면서 주가 반응이 식었다",
+   "t": "로이즈 이익 예상 상회, 금리 상승 속 전망 보합에 빛바래",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/lloyds-beats-estimates-on-rise-in-fees-and-interest-income"
+  }
+ ],
+ "key": "mix-G2-033-2026-10-30",
+ "nodes": [],
+ "num": 824,
+ "one": "유럽 은행 실적이 엇갈린 가운데 ING는 이익이 예상에 못 미쳤고 로이즈는 금리 상승 속 전망을 유지했다\n· ING 3분기 순이익은 18억 5,000만 유로로 3.5% 늘었지만 예상 19억 7,000만 유로에 못 미쳤다\n· ING는 도매금융 재편으로 약 400명을 줄이고 16억 5,000만 유로 자사주 매입을 발표했다\n· 로이즈는 이익이 예상을 웃돌았지만 연간 전망은 그대로 유지했다\n· 로이즈는 높은 금리가 이어지면 자산 성장이 둔화할 수 있다고 밝혔다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T16:24:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-29",
+   "o": "NL Times",
+   "u": "https://nltimes.nl/2026/10/29/ing-planning-cut-hundreds-jobs-despite-eu19-billion-profit-last-quarter"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/ing-rolls-out-165-billion-buyback-even-as-profit-misses"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "로이즈 3분기 IMS",
+   "u": "https://www.lloydsbankinggroup.com/assets/pdfs/investors/financial-performance/lloyds-banking-group-plc/2026/q3/2026-lbg-q3-ims.pdf"
+  }
+ ],
+ "tags": [],
+ "title": "ING 3분기 이익 18.5억 유로 예상 하회·400명 감원…로이즈는 이익 웃돌았지만 전망 유지",
+ "updatedAt": "2026-10-30T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/ing-dutch-netherlands-job-cuts-quarterly-profit-misses-estimates",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "로이즈, 고금리 지속 시 자산 성장 둔화 경고"
+  }
+ ]
+}

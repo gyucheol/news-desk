@@ -1,0 +1,189 @@
+{
+ "added": "텔레그램 6건과 블룸버그 2건 — 개인 AI주 순매수 15년 만의 최대, S&P 500 종목 60% 약세장, AAII 약세 우위 전환, 골드만의 수급 복귀 전망 내용이 추가됨",
+ "basis": "partial",
+ "check": "AAII 수치는 AAII 공식 페이지로 확인, 시타델·BTIG·골드만 수급 분석과 폴 튜더 존스 발언은 확인 못 함. 야데니의 S&P 500 목표 7,900 하향은 9월 16일 사건의 재탕이라 items에서 뺌",
+ "cycles": [],
+ "facts": [
+  "무엇이: AAII 조사에서 10월 14일 기준 6개월 약세 전망이 41.6%로 장기 평균 31.5%를 웃돌았고 강세-약세 스프레드는 -2.9%포인트로 다시 약세 우위가 됐다 [사실]",
+  "쏠림: 시타델증권 집계로 개인투자자 주간 순매수가 91억 달러로 15년 만에 최대였고 반도체·AI 인프라에 몰렸다 [채널]",
+  "내부: BTIG는 S&P 500 종목 60%가 기술적 약세장에 들어갔고 지수를 웃도는 종목 비중이 30%로 1991년 이후 최저라고 지적했다 [채널]",
+  "수급: 골드만삭스 자금흐름팀은 10월 말~11월 자사주 매입 재개와 개인·외국인의 계절적 매수로 매수 동력이 돌아올 것으로 봤다 [채널]",
+  "기존: 블랙록은 AI 변동성을 들어 미국 주식을 중립으로 낮췄고 씨티는 과열 지표에 미국 주식 비중확대를 접었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "개인 AI주 순매수 15년 만에 최대에도 AAII 약세 우위…美 증시 쏠림 경고",
+ "id": "n-bbg-0232",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{골드만삭스 전략가들}}이 {{이익 개선}}을 들어 {{글로벌 주식 3개월 전망}}을 {{중립에서 비중확대}}로 올리며 {{S&P 500 3분기 이익 증가율}}을 {{약 27%}}로 봤다",
+   "t": "골드만 전략가들, 이익 개선에 글로벌 주식 투자의견 상향",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "블룸버그는 {{비틀거리는 주식 랠리의 연말 상승}}이 {{실적에 달려 있다}}고 짚으며 {{3분기 실적}}이 {{증시 방향을 가를 수 있다}}고 봤다",
+   "t": "비틀거리는 주식 랠리, 연말 상승은 실적에 달려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/stumbling-equity-rally-hinges-on-earnings-for-year-end-boost"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{골드만}}이 {{실적 낙관}}을 근거로 {{글로벌 주식 투자의견}}을 올리면서 {{미국·아시아 비중확대}}와 {{유럽 비중축소}}, 국채 비중확대를 함께 제시했다",
+   "t": "골드만, 실적 낙관에 글로벌 주식 투자의견 상향",
+   "u": "https://www.reuters.com/business/goldman-upgrades-global-equities-earnings-optimism-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 TNBfolio",
+   "s": "{{미국 주식위험프리미엄}}이 {{24년 만의 최저로 마이너스 전환}}하면서 {{주식의 기대수익이 국채보다 낮아져}} {{위험자산 보유 보상}}이 {{사라졌다}}",
+   "t": "美 주식위험프리미엄 24년 만에 최저…마이너스 전환",
+   "u": "https://t.me/TNBfolio/71507"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{골드만삭스}}가 {{미국 기업의 2027년 자사주 매입}}을 {{사상 최대 1.7조 달러}}로 전망하며 {{6,000억 달러 규모 주식 발행에 따른 희석 압력}}을 덜 것으로 봤다",
+   "t": "골드만 \"美 기업 2027년 자사주 1.7조 달러 매입, 주식 공급 충격 완화\"",
+   "u": "https://t.me/HANAchina/70306"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{블랙록}}이 {{AI 관련 변동성}}을 들어 {{미국 주식}}을 {{중립}}으로 낮추고 {{단기 국채}}를 {{비중확대}}하면서 {{금리 인상 기대가 과하다}}는 {{판단}}을 내비쳤다",
+   "t": "블랙록, 미국 주식에 신중해지고 단기 국채에 강세 전환",
+   "u": "https://www.reuters.com/business/blackrock-cools-us-stocks-turns-bullish-short-dated-treasuries-2026-10-13/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{S&P 500}}의 {{가파른 이익 증가 모멘텀}}이 {{유지되기 어려워지}}면서 {{사상 최고 랠리}}를 받친 {{실적 동력}}이 {{정점}}에 이를 수 있다 (제목 기준)",
+   "t": "S&P의 가파른 이익 모멘텀, 유지하기 어려워져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/s-p-500-record-rally-meets-risk-of-peaking-earnings-growth"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{씨티그룹}}이 {{POLLS 과열 지표}}가 {{과거 고점 수준}}에 이르자 {{미국 주식 비중확대}}를 {{거두}}면서 {{약세 전환}}은 아니지만 {{추가 상승 기대}}를 {{낮췄다}}",
+   "t": "씨티그룹, 시장 과열 경고 신호에 미국 주식 신중론으로 전환",
+   "u": "https://www.reuters.com/business/citigroup-turns-cautious-us-stocks-market-exuberance-flashes-warning-signs-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "시타델증권 집계에서 개인투자자가 반도체·AI 인프라주를 집중 매수해 주간 순매수가 91억 달러로 15년 만에 최대였고 매수 쏠림도 1년 중 상위 10%에 이르렀다",
+   "t": "개인투자자 AI주 저가 매수…주간 순매수 91억 달러로 15년 만에 최대",
+   "u": "https://t.me/HANAchina/70380"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "S&P 500 종목 60%가 약세장에 들어가고 지수를 웃도는 종목이 30%로 1991년 이후 최저가 되면서 BTIG는 실적 시즌 작은 충격에도 지수가 흔들릴 수 있다고 경고했다",
+   "t": "S&P500 종목 60% 약세장 진입…BTIG '작은 충격에도 무너질 수 있어'",
+   "u": "https://t.me/HANAchina/70387"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "전략가들이 유럽 주식의 이번 실적 시즌 성적을 크게 좋게 내다보면서 미국 밖 시장의 이익 기대가 높아지고 있다 (제목 기준)",
+   "t": "전략가들 '유럽 주식, 이번 실적 시즌 호조 보일 것'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/strategists-see-european-stocks-posting-a-bumper-earnings-season"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "단기 매매 퀀트 자금과 펀더멘털 주식 투자자의 방향이 엇갈리면서 주식시장 수급 신호가 서로 다르게 나타나고 있다 (제목 기준)",
+   "t": "단기 매매 퀀트, 펀더멘털 주식 투자자와 엇갈린 포지션",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fast-money-quants-are-at-odds-with-fundamental-stock-investors"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "골드만삭스 자금흐름팀이 10월 말 자사주 매입 재개와 할로윈 뒤 펀드 매도 완화, 개인·외국인 계절 매수를 들면서 심리 저점의 미국 증시 수급이 나아질 수 있다고 봤다",
+   "t": "골드만 '자사주 매입·개인·외국인 세 매수 동력 곧 복귀'",
+   "u": "https://t.me/HANAchina/70461"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 부의 나침반",
+   "s": "같은 골드만삭스 분석을 전하며 시장 심리가 4월 상호관세 발표 당시 저점까지 떨어졌지만 기술적 흐름은 조용히 바뀌고 있다는 점을 강조했다",
+   "t": "골드만 '심리는 4월 저점 수준이나 기술적 흐름은 바뀌는 중'",
+   "u": "https://t.me/w_compass/7322"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 트릴리온",
+   "s": "헤지펀드 매니저 폴 튜더 존스가 2027년 한 해 동안 주식 공매도를 이어가겠다고 밝히면서 대형 투자자의 약세 시각이 더해졌다",
+   "t": "폴 튜더 존스 '2027년 내내 주식 공매도 이어갈 것'",
+   "u": "https://t.me/Trillion_labs/10578"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "AAII 조사에서 6개월 하락 전망이 41.6%로 늘고 강세-약세 스프레드가 -2.9%포인트로 돌아서면서 개인 심리가 일주일 만에 다시 약세 우위가 됐다",
+   "t": "AAII 약세 전망 41.6%로 늘어…개인 투자심리 다시 약세 우위",
+   "u": "https://t.me/insidertracking/66365"
+  }
+ ],
+ "key": "mix-C031-2026-10-13",
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "num": 232,
+ "one": "블랙록·씨티가 미국 주식 비중을 낮춘 데 이어 개인투자자 주간 순매수가 15년 만에 최대로 AI주에 몰리는 사이 S&P 500 종목 60%가 약세장에 들어가고 AAII 약세 전망이 41.6%로 늘면서, 소수 대형주에 기댄 미국 증시가 실적 시즌 충격에 취약해질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T20:08:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Unusual Whales",
+   "u": "https://unusualwhales.com/news/goldman-sachs-bullish-stocks-overweight-equities"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "KuCoin News",
+   "u": "https://www.kucoin.com/news/flash/goldman-sachs-upgrades-global-stocks-to-overweight-forecasts-27-q3-earnings-growth-for-s-p-500"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "InvestingLive",
+   "u": "https://investinglive.com/stocks/blackrock-cuts-us-stocks-to-neutral-and-buys-treasuries-as-10-year-yield-nears-5-25/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Fund Selector Asia",
+   "u": "https://fundselectorasia.com/blackrock-cuts-us-stocks-to-neutral-upgrades-treasuries/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "AAII 투자심리 조사",
+   "u": "https://www.aaii.com/sentimentsurvey"
+  }
+ ],
+ "tags": [],
+ "title": "개인 AI주 순매수 15년 만에 최대에도 AAII 약세 우위…美 증시 쏠림 경고",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+ "vc": [
+  {
+   "dir": "mixed",
+   "f": "공급",
+   "ind": "macro",
+   "k": "실제",
+   "node": "liquidity",
+   "t": "개인 AI주 순매수 최대 속 AAII 약세 전망 41.6%"
+  }
+ ]
+}

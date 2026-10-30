@@ -1,0 +1,131 @@
+{
+ "added": "로이터·블룸버그 2건 — 조르제티 재무장관의 은행은 사냥꾼이 돼야 한다는 발언과 MPS 10대 주주 골드스톤의 인테사 인수안 지지 내용이 추가됨",
+ "basis": "partial",
+ "check": "조르제티 발언은 검색 결과 요약(피니마이즈)으로 확인. 골드스톤의 인테사 지지는 검색에서 찾지 못해 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 조르제티 재무장관은 이탈리아·독일 은행권을 바꾸는 인수합병 물결에서 이탈리아 은행이 표적이 아닌 인수자가 돼야 하고, 인수자는 이탈리아 은행이 낫다고 했다 [사실]",
+  "주주: MPS 상위 10대 주주인 골드스톤이 인테사의 인수 제안을 지지했다 [제목]",
+  "기존: ISS와 글래스루이스는 MPS의 방코BPM·방카제네랄리 인수안과 40억 유로 특별배당에 반대를 권고했다 [사실]",
+  "기존: 인테사는 MPS 주주가 방어안을 부결할 때만 현금 8억 유로를 얹겠다고 했고, 주총은 10월 29일 열린다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "伊 재무장관 '은행은 사냥꾼 돼야'…MPS 10대 주주 골드스톤, 인테사 인수 지지",
+ "id": "n-rtr-0054",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{제네랄리}}가 {{방카제네랄리 인수}}를 추진할 수 있다는 보도에 {{방카제네랄리 주가}}가 오르면서, {{이탈리아 금융권 재편 움직임}}이 주가에 반영됐다 (제목 기준)",
+   "t": "제네랄리 인수 추진 보도에 방카제네랄리 주가 상승",
+   "u": "https://www.reuters.com/legal/transactional/banca-generali-shares-rise-report-generali-may-bid-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{칼타지로네}}(지분 10.26%)가 {{인테사를 겨냥한 MPS의 방코BPM·방카제네랄리 인수안}}에 {{반대표}}를 던지기로 하면서, {{방어안 통과}}가 {{어려워졌}}다",
+   "t": "이탈리아 칼타지로네, 인테사 겨냥한 몬테데이파스키 방어책에 반대표",
+   "u": "https://www.reuters.com/business/finance/italys-caltagirone-vote-against-monte-dei-paschi-defence-moves-against-intesa-2026-10-08/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{몬테데이파스키}}가 {{월요일 이사회}}를 열어 인수합병 상황을 {{점검}}하기로 하면서, {{인테사 상향안에 대한 대응}}을 논의하게 됐다 (제목 기준)",
+   "t": "몬테데이파스키, 월요일 이사회 열어 인수합병 상황 점검",
+   "u": "https://www.reuters.com/business/finance/monte-dei-paschi-hold-board-meeting-ma-situation-monday-2026-10-11/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{MPS}}가 인테사의 상향안이 {{주주를 여러 불확실성에 노출}}시키고 대안 계획을 포기하게 한다며, {{기대 수익이 실현된다는 보장}}이 없다고 밝혔다",
+   "t": "伊 MPS \"인테사 상향 제안에도 의문 남아\"",
+   "u": "https://www.reuters.com/business/finance/italys-mps-says-question-marks-remain-over-higher-intesa-bid-2026-10-12/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "의결권 자문사 ISS가 MPS의 방코BPM·방카제네랄리 인수안과 40억 유로 특별배당에 반대를 권고하면서, MPS 방어안 통과가 더 어려워졌다",
+   "t": "ISS \"MPS 주주, 쌍둥이 인수안·특별배당 거부해야\"",
+   "u": "https://www.reuters.com/business/finance/mps-investors-should-reject-twin-bids-special-dividend-proxy-adviser-iss-says-2026-10-14/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "조르제티 재무장관이 이탈리아 은행이 인수합병 물결에서 인수자가 돼야 한다고 하면서 해외 은행의 국내 은행 인수에 거리를 뒀다",
+   "t": "伊 재무장관 '인수합병 물결 속 이탈리아 은행은 먹잇감 아닌 사냥꾼 돼야'",
+   "u": "https://www.reuters.com/legal/transactional/italian-banks-should-be-predators-not-prey-ma-wave-economy-minister-says-2026-10-16/"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "블룸버그",
+   "s": "MPS 상위 10대 주주인 골드스톤이 인테사의 인수 제안을 지지하면서 MPS 경영진의 방어안이 주주 지지를 잃을 수 있다 (제목 기준)",
+   "t": "MPS 10대 주주 골드스톤, 인테사 인수 제안 지지",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/paschi-top-10-investor-goldstone-backs-intesa-takeover-bid"
+  }
+ ],
+ "key": "bnd-C135-2026-10-09",
+ "nodes": [],
+ "num": 54,
+ "one": "조르제티 재무장관이 이탈리아 은행은 인수합병 물결에서 먹잇감이 아닌 사냥꾼이 돼야 한다고 하고 MPS 10대 주주 골드스톤이 인테사 인수안 지지를 밝히면서, 10월 29일 MPS 주총의 방어안 표 대결이 인테사 쪽으로 기울 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T01:13:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/italys-caltagirone-vote-against-monte-dei-paschi-defence/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Il Giornale d'Italia",
+   "u": "https://www.ilgiornaleditalia.it/news/economia/828265/banca-generali-sale-dell-1-5-a-piazza-affari-in-calo-dello-0-7-sull-ipotesi-di-opa-totalitaria-da-parte-del-leone.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/italys-mps-question-marks-remain-over-higher-intesa-bid/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Retail Banker International",
+   "u": "https://www.retailbankerinternational.com/news/intesa-sweetens-monte-paschi-bid/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "ANSA",
+   "u": "https://ansa.it/sito/notizie/topnews/2026/10/13/iss-bocciare-le-offerte-di-mps-e-la-cedola-da-4-miliardi_ae0a92f2-8299-44c1-8a9a-ba687062b27d.html"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Il Sole 24 Ore",
+   "u": "https://en.ilsole24ore.com/art/mps-iss-versus-bpm-ops-and-banca-generali-AJy1YpiB"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/italys-finance-minister-wants-banks-hunting-not-being-hunted"
+  }
+ ],
+ "tags": [],
+ "title": "伊 재무장관 '은행은 사냥꾼 돼야'…MPS 10대 주주 골드스톤, 인테사 인수 지지",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/legal/transactional/banca-generali-shares-rise-report-generali-may-bid-2026-10-08/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "MPS 주주 인테사 지지로 은행 통합 가능성 커져"
+  }
+ ]
+}

@@ -10,8 +10,8 @@
 - 이 작업이 바꾸는 것은 DB의 chains(산업 페이지)와 meta/chainsLog뿐입니다. news·다른 meta·data/users·데스크 페이지(Artifact)·예약 작업·메모리는 바꾸지 않습니다. PR은 만들지 않습니다.
 - 중간에 막히면 쓰다 만 상태로 저장하지 않습니다. 저장하지 않은 산업의 뉴스는 chainsLog.applied에 들어가지 않으므로 다음 실행이 다시 집어 갑니다.
 - 데스크 주소(ArtifactData의 url): https://claude.ai/artifact/1QxhURJDYUkJG1Je8g9ARB
-- 사용자 지시(2026-10-30): 금융(fin)·제약·바이오(pharma) 산업 페이지는 지웠습니다(다시 만들지 않음). 매크로 페이지에는 지정학이 아니면 미국·일본 내용만, AI는 부정적인 내용만 반영합니다.
-  upd_prep.py가 tools/industry/skip_news.json의 문서(그날 읽음 처리한 다른 나라 매크로·긍정 AI 뉴스)를 해당 산업 입력에서 뺍니다.
+- 사용자 지시(2026-10-30): 금융(fin)·제약·바이오(pharma) 산업 페이지는 지웠습니다(다시 만들지 않음). 매크로 페이지에는 지정학이 아니면 미국·일본 내용만, '반도체·AI 투자'(AI와 반도체)는 부정적인 내용만 반영합니다.
+  upd_prep.py가 tools/industry/skip_news.json의 문서(그날 읽음 처리한 다른 나라 매크로·긍정 반도체·AI 뉴스)를 해당 산업 입력에서 뺍니다.
 
 ## 1. 준비
 1. TODAY=$(TZ=Asia/Seoul date +%F). 작업 폴더 W=data/industry-$TODAY-pm(이미 있으면 -pm2). DB 사본 DB=work/nightly-$TODAY(work/는 .gitignore 대상).

@@ -1,0 +1,38 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 말레이시아 1MDB가 도이체방크와 합의 협상을 진행 중이라는 보도가 나왔다 [제목]",
+  "출처: 로이터가 다른 매체 보도를 인용했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{말레이시아 1MDB}}, 도이체방크와 {{합의 협상}}…보도",
+ "id": "n-rtr-0224",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "말레이시아 1MDB, 도이체방크와 합의 협상…보도",
+   "u": "https://www.reuters.com/legal/government/malaysias-1mdb-settlement-talks-with-deutsche-bank-report-says-2026-10-12/"
+  }
+ ],
+ "key": "mix-C149-2026-10-13",
+ "nodes": [],
+ "num": 224,
+ "one": "{{말레이시아 1MDB}}가 {{도이체방크와 합의 협상}}을 {{벌이고 있다는}} 보도가 나오면서, {{1MDB 스캔들과 관련된}} {{글로벌 은행의 법적 책임 처리}}와 {{자금 회수 절차}}가 {{이어지고}} 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T02:29:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "{{말레이시아 1MDB}}, {{도이체방크와 합의 협상}}…보도",
+ "url": "https://www.reuters.com/legal/government/malaysias-1mdb-settlement-talks-with-deutsche-bank-report-says-2026-10-12/"
+}

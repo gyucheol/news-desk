@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "로이터 기사 1건. RBL은행 순이익 급증은 Business Standard·Kotak Neo 검색 결과로 확인(원 문서는 제목 기준으로 분류)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 RBL은행의 분기 순이익이 약 3배로 늘었다 [사실]",
+  "원인: 대출 증가가 이익 급증을 이끌었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 RBL은행 분기 순이익 약 3배…대출 증가 덕",
+ "id": "n-rtr-0553",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "인도 RBL은행 분기 순이익 약 3배, 대출 증가 덕",
+   "u": "https://www.reuters.com/world/india/indias-rbl-bank-quarterly-profit-nearly-triples-higher-loan-growth-2026-10-12/"
+  }
+ ],
+ "key": "split-G5-078-2026-10-20",
+ "nodes": [],
+ "num": 553,
+ "one": "인도 RBL은행이 대출 증가에 힘입어 분기 순이익을 약 3배로 늘리면서, 인도 은행권에서 대출 성장이 이익을 끌어올리는 흐름이 확인됐고 대형 은행들의 이어진 실적 발표에도 관심이 쏠렸다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Business Standard",
+   "u": "https://www.business-standard.com/industry/banking/rbl-bank-q2fy27-results-net-profit-rises-2-7-fold-to-482-crore-126101200815_1.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Kotak Neo",
+   "u": "https://www.kotakneo.com/news/stocks/rbl-bank-q2-fy27-results-profit-income-deposits/"
+  }
+ ],
+ "tags": [],
+ "title": "인도 RBL은행 분기 순이익 약 3배…대출 증가 덕",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indias-rbl-bank-quarterly-profit-nearly-triples-higher-loan-growth-2026-10-12/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "banks",
+   "t": "RBL은행 대출 증가에 분기 순이익 약 3배"
+  }
+ ]
+}

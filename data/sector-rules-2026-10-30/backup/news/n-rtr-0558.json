@@ -1,0 +1,61 @@
+{
+ "basis": "verified",
+ "check": "로이터 기사 1건. 엔젤원 순이익 334.9크로르 루피는 NewsBytes·Upstox 검색 결과로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 엔젤원의 9월 분기 순이익은 334.9크로르 루피로 늘었다 [사실]",
+  "매출: 매출은 약 17.8% 늘었다 [사실]",
+  "원인: 고객 수 증가가 이익을 끌어올렸다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 엔젤원, 고객 증가에 분기 순이익 334.9크로르 루피",
+ "id": "n-rtr-0558",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "t": "인도 증권사 엔젤원, 고객 수 증가에 분기 이익 증가",
+   "u": "https://www.reuters.com/world/india/indian-brokerage-angel-one-posts-higher-quarterly-profit-customer-numbers-climb-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-083-2026-10-20",
+ "nodes": [],
+ "num": 558,
+ "one": "인도 증권사 엔젤원이 고객 수 증가로 9월 분기 순이익을 334.9크로르 루피로 늘리고 매출도 약 17.8% 키우면서, 인도 개인 투자자의 증권 중개 수요가 회복되고 있음을 보여 줬다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "NewsBytes",
+   "u": "https://www.newsbytesapp.com/news/business/angel-one-posts-strong-september-quarter-rs3349cr-profit-interim-dividend/tldr"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Upstox",
+   "u": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
+  }
+ ],
+ "tags": [],
+ "title": "인도 엔젤원, 고객 증가에 분기 순이익 334.9크로르 루피",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indian-brokerage-angel-one-posts-higher-quarterly-profit-customer-numbers-climb-2026-10-15/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "고객 증가에 엔젤원 순이익 334.9크로르 루피"
+  }
+ ]
+}

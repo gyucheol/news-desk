@@ -1,0 +1,58 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 사실 줄의 부도율 4%→5.8%를 따르고, 원 문서 독립 출처 Private Equity Wire(10월 14일, PIK 변경이 미국 사모신용 스트레스를 가린다는 무디스 경고)를 근거로 삼음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 무디스는 10월 14일 PIK 변경·만기 연장을 포함하면 사모신용 차입자 부도율이 4%에서 5.8%로 오른다고 밝혔다 [사실]",
+  "경고: 무디스는 늘어난 PIK 사용이 미국 사모신용의 스트레스를 가리고 있다고 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "무디스 \"PIK 포함하면 사모신용 부도율 4%→5.8%\"",
+ "id": "n-bbg-0524",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "t": "무디스 \"늘어난 PIK가 美 사모신용 스트레스 가려\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-private-credit-stress-masked-by-growing-pik-use-moody-s-says"
+  }
+ ],
+ "key": "split-G5-011-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 524,
+ "one": "무디스가 10월 14일 PIK 변경과 만기 연장을 포함하면 미국 사모신용 차입자 부도율이 4%에서 5.8%로 오른다고 밝히면서, 늘어난 PIK가 표면 지표보다 큰 부실을 가리고 있다는 경고가 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "Private Equity Wire",
+   "u": "https://www.privateequitywire.co.uk/pik-amendments-mask-us-private-credit-stress-moodys-warns/"
+  }
+ ],
+ "tags": [],
+ "title": "무디스 \"PIK 포함하면 사모신용 부도율 4%→5.8%\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/us-private-credit-stress-masked-by-growing-pik-use-moody-s-says",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "pcredit",
+   "t": "PIK 포함 시 사모신용 부도율 4%에서 5.8%로 상승"
+  }
+ ]
+}

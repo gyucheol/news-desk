@@ -1,0 +1,50 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 손해보험사 ICICI롬바드의 이익이 늘었다 [제목]",
+  "원인: 세제 혜택으로 자동차·건강보험 판매가 늘었다 [제목]",
+  "의미: 감세가 보험 수요를 끌어올리고 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 ICICI롬바드, 세제 혜택에 자동차·건강보험 호조로 이익 증가",
+ "id": "n-rtr-0556",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "t": "인도 ICICI롬바드, 세제 혜택에 자동차·건강보험 호조로 이익 증가",
+   "u": "https://www.reuters.com/legal/litigation/indias-icici-lombard-posts-higher-profit-tax-breaks-lift-motor-health-insurance-2026-10-14/"
+  }
+ ],
+ "key": "split-G5-081-2026-10-20",
+ "nodes": [],
+ "num": 556,
+ "one": "인도 손해보험사 ICICI롬바드가 세제 혜택으로 자동차·건강보험 판매가 늘면서 이익을 키워, 감세가 인도 보험 수요를 끌어올리고 있음을 보여 줬고 보험 판매 증가세가 이어질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "인도 ICICI롬바드, 세제 혜택에 자동차·건강보험 호조로 이익 증가",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/litigation/indias-icici-lombard-posts-higher-profit-tax-breaks-lift-motor-health-insurance-2026-10-14/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "insurance",
+   "t": "세제 혜택에 자동차·건강보험 판매 증가"
+  }
+ ]
+}

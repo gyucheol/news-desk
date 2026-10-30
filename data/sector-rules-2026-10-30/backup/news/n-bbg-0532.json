@@ -1,0 +1,50 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, IPO 일정은 원 문서 사실 줄에서 가져옴",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 10월 15일 암바니의 지오가 인도 사상 최대 IPO를 앞두고 암호화폐 결제망에 진출했다고 전했다 [제목]",
+  "일정: 지오 IPO의 일반 청약은 10월 21~23일, 상장은 28일이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "암바니의 지오, 사상 최대 IPO 앞두고 암호화폐 결제망 진출",
+ "id": "n-bbg-0532",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "t": "암바니의 지오, 사상 최대 인도 IPO 앞두고 암호화폐 결제망 진출",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ambani-s-jio-hits-crypto-rails-ahead-of-record-india-ipo"
+  }
+ ],
+ "key": "split-G5-029-2026-10-20",
+ "nodes": [],
+ "num": 532,
+ "one": "지오가 10월 15일 인도 사상 최대 IPO를 앞두고 암호화폐 결제 인프라에 발을 들였다고 블룸버그가 전하면서, 통신 회사인 지오가 21일 일반 청약을 앞두고 디지털 금융 사업으로 영역을 넓히고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T03:15:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "암바니의 지오, 사상 최대 IPO 앞두고 암호화폐 결제망 진출",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/ambani-s-jio-hits-crypto-rails-ahead-of-record-india-ipo",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "payments",
+   "t": "지오, 암호화폐 결제망 진출"
+  }
+ ]
+}

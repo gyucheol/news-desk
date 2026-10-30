@@ -1,0 +1,104 @@
+{
+ "added": "텔레그램 1건 — 슈나벨 ECB 집행이사의 '스테이블코인 확산이 달러 지배력을 키워 통화정책 능력과 유로 역할을 약화' 경고 내용이 추가됨",
+ "basis": "channel",
+ "check": "검색 생략(한도). 슈나벨 발언은 채널 원문 기준, 기존 사실은 기존 문서 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: JP모건 블록체인 부문 키넥시스는 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝혔고, JPM코인은 2025년 11월 베이스에서 처음 나왔다 [사실]",
+  "블랙록·송금사: 블랙록은 토큰화 펀드가 월가의 결제·담보 인프라로 들어간다고 봤고, 웨스턴유니온·머니그램은 스테이블코인으로 돌아서고 있다 [제목]",
+  "ECB 경고: 슈나벨 ECB 집행이사는 스테이블코인 사용 증가가 달러 지배력을 강화해 각국 당국의 통화정책 결정 능력을 약화시키고 유로의 역할도 제한할 수 있다고 말했다 [채널]",
+  "발언 배경: 이 발언은 며칠 전 한국은행이 주최한 콘퍼런스에서 나왔고, 자국 통화 신뢰가 높은 지역도 스테이블코인 확산으로 통화 주권을 잃을 수 있다는 뜻을 내비쳤다 [채널]",
+  "영향: 기존 송금사의 수수료 구조와 송금 방식이 바뀌고 송금 수수료 사업이 줄어들 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "토큰화·스테이블코인 확산…JPM코인 이더리움 도입·슈나벨 '달러 지배력 키워 통화정책 약화'",
+ "id": "n-bbg-0537",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "블랙록이 토큰화 펀드가 월가의 결제·담보 인프라로 들어가고 있다고 보면서, 토큰화 자산이 시험 단계를 넘어 기관 금융의 기본 배관으로 쓰일 전망이다 (제목 기준)",
+   "t": "블랙록 '토큰화 펀드, 월가 결제 인프라로 들어간다'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "JP모건 블록체인 부문 키넥시스가 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝히면서, 암호화폐 기업과 토큰화 자산 거래의 결제·담보 수단이 넓어졌다",
+   "t": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "암호화폐가 국제 송금 시장을 흔들자 웨스턴유니온과 머니그램이 스테이블코인을 받아들이고 있어, 기존 송금사의 수수료 구조와 송금 방식이 바뀔 수 있다 (제목 기준)",
+   "t": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/western-union-moneygram-turn-to-stablecoins-as-crypto-disrupts-money-transfers"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "s": "빠른 송금 수단이 퍼지면서 세계 해외송금 사업이 흔들리고, 기존 송금 업체들이 새 결제 방식을 들이며 대응을 서두르고 있어 송금 수수료 사업이 줄어들 수 있다 (제목 기준)",
+   "t": "빠른 송금 수단이 세계 해외송금 사업을 뒤흔든다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/transferencias-rapidas-sacuden-el-negocio-global-de-remesas-mvffayeb"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 Polaristimes",
+   "s": "슈나벨 ECB 집행이사가 스테이블코인 확산이 달러 지배력을 키워 각국 통화정책 능력과 유로의 역할을 약화시킬 수 있다고 경고하면서 달러 스테이블코인 경계를 드러냈다",
+   "t": "슈나벨 ECB 이사 '스테이블코인 확산, 달러 지배력 키워 통화정책 약화'",
+   "u": "https://t.me/The_MariTimes/63862"
+  }
+ ],
+ "key": "split-G5-036-2026-10-20",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 537,
+ "one": "토큰화 자산과 스테이블코인이 월가 결제망과 해외송금으로 번지자 ECB가 통화 주권 약화를 경고했다\n· 블랙록은 토큰화 펀드가 월가의 결제·담보 인프라로 들어가고 있다고 봤다\n· JP모건 키넥시스는 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝혔다\n· JPM코인은 2025년 11월 베이스에서 처음 나온 예금 토큰이다\n· 웨스턴유니온·머니그램은 빠른 송금 수단에 흔들리자 스테이블코인을 받아들이고 있다\n· 슈나벨 ECB 집행이사는 스테이블코인 확산이 달러 지배력을 키워 각국 통화정책 능력을 약화시킨다고 경고했다\n· 그는 스테이블코인이 유로의 역할까지 제한할 수 있다고 말했다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:48:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-19",
+   "o": "Coin Insider",
+   "u": "https://www.coininsider.org/news/jpmorgan-jpm-coin-ethereum-institutional-clients/"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "Unchained",
+   "u": "https://unchainedcrypto.com/jpmorgan-picks-ethereum-for-jpm-coin-citing-the-networks-liquidity-and-client-use/"
+  }
+ ],
+ "tags": [],
+ "title": "토큰화·스테이블코인 확산…JPM코인 이더리움 도입·슈나벨 '달러 지배력 키워 통화정책 약화'",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "fin",
+   "k": "실제",
+   "node": "payments",
+   "t": "스테이블코인·토큰화 결제 월가·송금으로 확산"
+  },
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "macro",
+   "k": "예상",
+   "node": "cb",
+   "t": "슈나벨, 스테이블코인 확산의 통화정책 약화 경고"
+  }
+ ]
+}

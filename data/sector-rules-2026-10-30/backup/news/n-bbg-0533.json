@@ -1,0 +1,52 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, CCC 스프레드 배경은 원 문서에서 검색 결과 요약으로 확인된 사실",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 10월 12일 모건스탠리 트레이더들이 외면받는 트래블로지 채권을 매수 대상으로 제시했다고 전했다 [제목]",
+  "배경: 9월 30일 CCC 등급 스프레드는 약 1,007bp로 SVB 사태 이후 처음 1,000bp를 넘었고, 10월 15일에는 CCC 옵션조정 스프레드가 12.78%로 4주간 202bp 넓어졌다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "모건스탠리 트레이더들, 외면받던 트래블로지 채권 매수 대상으로 제시",
+ "id": "n-bbg-0533",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "모건스탠리 트레이더들, 외면받는 트래블로지 채권을 매수 대상으로 제시",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/morgan-stanley-traders-pitch-travelodge-s-unloved-bonds-as-a-buy"
+  }
+ ],
+ "key": "split-G5-030-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 533,
+ "one": "모건스탠리 트레이더들이 10월 12일 시장에서 외면받던 트래블로지 채권을 매수 대상으로 제시했다고 블룸버그가 전하면서, CCC 등급 스프레드가 급격히 벌어진 가운데 소외된 하이일드 채권에 관심이 생길 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:50:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "모건스탠리 트레이더들, 외면받던 트래블로지 채권 매수 대상으로 제시",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/morgan-stanley-traders-pitch-travelodge-s-unloved-bonds-as-a-buy",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "macro",
+   "k": "예상",
+   "node": "liquidity",
+   "t": "모건스탠리, 외면받던 트래블로지 채권 매수 제시"
+  }
+ ]
+}

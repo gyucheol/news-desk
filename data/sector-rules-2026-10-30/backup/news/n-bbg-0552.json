@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 회사채 시장 규모, 펀드 보유 비중, 테라 야트름 은행 미상환은 검색 결과 요약(Briefs 등)으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 리라화 회사채 시장은 9월 말 1조 리라를 넘었고, 뮤추얼펀드가 약 3분의 1을 가져 환매가 몰리자 팔기 어려운 채권 비중이 커졌다 [사실]",
+  "부도: 테라 야트름 은행은 10월 5일 원리금 60억 5,000만 리라를 갚지 못했다 [사실]",
+  "버팀목: 가란티 BBVA 계열사·투르크셀·악방크 등 대형 발행사는 시장 접근을 유지하고 있다 [사실]",
+  "중앙은행: 중앙은행은 금융 시스템 전염 위험이 없다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 1조 리라 회사채 시장, 펀드 환매 여파에 유동성 부족",
+ "id": "n-bbg-0552",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "t": "급성장한 튀르키예 회사채 시장, 펀드 위기 여파와 씨름",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/turkey-s-fast-growing-corporate-bond-market-grapples-with-funds-crisis-fallout"
+  }
+ ],
+ "key": "split-G5-074-2026-10-20",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 552,
+ "one": "펀드 환매 사태가 9월 말 1조 리라를 넘긴 튀르키예 회사채 시장으로 번지면서, 뮤추얼펀드가 약 3분의 1을 가진 회사채에서 팔기 어려운 채권 비중이 커지고 은행 원리금 미상환까지 나오는 등 유동성 부족과 부도 여파가 이어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T23:29:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "Briefs",
+   "u": "https://www.briefs.co/news/turkey-s-fund-turmoil-puts-corporate-bonds-and-small-issuers/"
+  }
+ ],
+ "tags": [],
+ "title": "튀르키예 1조 리라 회사채 시장, 펀드 환매 여파에 유동성 부족",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/turkey-s-fast-growing-corporate-bond-market-grapples-with-funds-crisis-fallout",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "macro",
+   "k": "실제",
+   "node": "liquidity",
+   "t": "펀드 환매로 1조 리라 회사채 시장 유동성 부족"
+  }
+ ]
+}

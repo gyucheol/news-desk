@@ -1,0 +1,54 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서에 중앙은행의 전염 위험 부인이 사실 줄로 있으나 이를 직접 뒷받침하는 독립 출처를 고르지 못해 제목 기준으로 낮췄다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 카라한 중앙은행 총재는 펀드 위기의 금융 시스템 전염 위험은 없지만 필요하면 다시 개입하겠다고 밝혔다 [사실]",
+  "버팀목: 가란티 BBVA 계열사·투르크셀·악방크 등 대형 발행사는 시장 접근을 유지하고 있다 [사실]",
+  "위기 규모: 자본시장위원회는 운용사 7곳의 펀드 131개 청산을 명령했고 피해 개인투자자는 약 45만 5,000명이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "튀르키예 중앙은행 \"펀드 위기 전염 위험 없어…필요하면 개입\"",
+ "id": "n-rtr-0056",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "튀르키예 중앙은행 \"펀드 위기 전염 위험 없어…개입 준비돼\"",
+   "u": "https://www.reuters.com/world/middle-east/turkeys-central-bank-says-no-contagion-risk-fund-crisis-is-ready-intervene-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C137-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/liquidity"
+ ],
+ "num": 56,
+ "one": "카라한 튀르키예 중앙은행 총재가 운용사 펀드 위기가 금융 시스템으로 번질 위험은 없지만 필요하면 다시 개입하겠다고 밝히면서, 펀드 환매 사태로 흔들리는 시장 불안을 진정시키려 했다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T23:29:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "튀르키예 중앙은행 \"펀드 위기 전염 위험 없어…필요하면 개입\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/middle-east/turkeys-central-bank-says-no-contagion-risk-fund-crisis-is-ready-intervene-2026-10-06/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "macro",
+   "k": "예상",
+   "node": "liquidity",
+   "t": "중앙은행, 필요하면 다시 개입하겠다며 진화"
+  }
+ ]
+}

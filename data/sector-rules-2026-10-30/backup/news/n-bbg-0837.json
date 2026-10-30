@@ -1,0 +1,61 @@
+{
+ "basis": "verified",
+ "check": "ANSA·Il Sole 24 Ore·Global Banking and Finance 검색 결과 요약으로 반코BPM 인수안 91.1% 반대, 방카제네랄리 90.9% 반대, 메디오방카 합병 부결, 인테사 인수 길 열림을 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 몬테데이파스키 주주들이 10월 29일 시에나 주총에서 로바글리오 CEO의 반코BPM·방카제네랄리 인수안을 부결했다 [사실]",
+  "표결: 반코BPM 인수안은 출석 자본 91.1% 반대(찬성 6.47%), 방카제네랄리 인수안은 90.9% 반대였고, 메디오방카 합병안은 63.65% 반대로 3분의 2 요건을 채우지 못했다 [사실]",
+  "반대 주도: 델핀과 칼타지로네 그룹이 반대를 이끌었고 메디오방카 분리·상장폐지 제안도 거부됐다 [사실]",
+  "인테사: 약 330억 유로 규모 적대적 인수를 제안한 인테사상파올로는 두 인수안 부결을 상향 제안의 조건으로 걸어 왔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "몬테파스키 주주, 반코BPM·방카제네랄리 인수안 91% 반대…CEO 방어책 무산·인테사 승리",
+ "id": "n-bbg-0837",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "t": "파스키 투자자, CEO에 치명타…인테사 승리",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/monte-paschi-investors-reject-banco-bpm-bid-in-win-for-intesa"
+  }
+ ],
+ "key": "mix-G2-063-2026-10-30",
+ "nodes": [],
+ "num": 837,
+ "one": "몬테데이파스키 주주들이 로바글리오 CEO의 방어책을 부결해 인테사상파올로의 인수에 길이 열렸다\n· 반코BPM 교환 인수안은 출석 자본의 91.1%, 방카제네랄리 인수안은 90.9%가 반대했다\n· 메디오방카 합병안도 63.65%가 반대해 필요한 3분의 2 찬성을 얻지 못했다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T23:43:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-29",
+   "o": "ANSA",
+   "u": "https://www.ansa.it/toscana/notizie/2026/10/29/soci-mps-bocciano-lofferta-su-bpm-primo-stop-al-piano-lovaglio_b7d11825-be24-4b36-8d4e-8ea626d1e603.html"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "Il Sole 24 Ore",
+   "u": "https://www.ilsole24ore.com/art/mps-via-l-assemblea-votare-due-ops-bancobpm-e-banca-generali-AJyfvGxB"
+  }
+ ],
+ "tags": [],
+ "title": "몬테파스키 주주, 반코BPM·방카제네랄리 인수안 91% 반대…CEO 방어책 무산·인테사 승리",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/monte-paschi-investors-reject-banco-bpm-bid-in-win-for-intesa",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "인테사의 몬테파스키 인수 길 열려"
+  }
+ ]
+}

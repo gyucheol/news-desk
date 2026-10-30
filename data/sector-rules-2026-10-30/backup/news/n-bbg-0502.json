@@ -1,0 +1,51 @@
+{
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 8일 블룸버그는 영란은행 자료에서 영국 카드 연체 증가가 17년 만에 최장 기간 이어졌다고 전했다 [제목]",
+  "금리 배경: 10월 7일 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였다 [사실]",
+  "해석: 연체 증가가 길어지면 은행의 카드 대출 충당금 부담이 커지고 가계 소비 여력은 줄어들 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "영국 카드 연체 증가 17년 만에 최장 기간 지속…영란은행 자료",
+ "id": "n-bbg-0502",
+ "incentive": "",
+ "inds": [
+  "fin",
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "영국 카드 연체 증가 17년 만에 최장 기간 이어져…영란은행",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/uk-card-defaults-rise-for-longest-period-in-17-years-boe-says"
+  }
+ ],
+ "key": "split-G4-134-2026-10-20",
+ "nodes": [],
+ "num": 502,
+ "one": "영란은행 자료에서 영국 카드 연체 증가가 17년 만에 가장 긴 기간 이어진 것으로 나타나 가계의 상환 부담이 커지고 있음을 보여 줬고, 장기금리 급등이 이어지면 소비와 은행 대출 건전성에 부담이 될 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:35:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "영국 카드 연체 증가 17년 만에 최장 기간 지속…영란은행 자료",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/uk-card-defaults-rise-for-longest-period-in-17-years-boe-says",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "consumer",
+   "k": "실제",
+   "node": "demand",
+   "t": "영국 카드 연체 증가 17년 만에 최장 지속"
+  }
+ ]
+}

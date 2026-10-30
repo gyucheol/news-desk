@@ -1,0 +1,70 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약(램프 보도자료·테크크런치)으로 조달액·가치·매출 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 램프는 10월 15일 드래고니어 주도로 18억 5,000만 달러 신주 투자를 받아 기업가치 600억 달러를 인정받았고, 스라이브캐피털·파운더스펀드 등이 공동 주도했다 [사실]",
+  "매출: 연환산 매출이 20억 달러를 넘어 6월 약 15억 달러에서 늘었다 [사실]",
+  "가치: 6월 7억 5,000만 달러를 440억 달러 가치에 조달한 뒤 약 4개월 만에 가치가 약 36% 올랐고, 600억 달러는 투자 전 가치다 [사실]",
+  "누적: 이번 조달로 누적 지분 투자액은 약 50억 달러가 됐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "핀테크 램프, 18억 5,000만 달러 조달…기업가치 600억 달러로 36% 올라",
+ "id": "n-bbg-0321",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "램프가 연환산 매출이 20억 달러를 넘는 급성장 속에 600억 달러 가치로 투자 유치를 마치면서, 핀테크 비상장사 몸값을 끌어올렸다",
+   "t": "램프, 매출 급증 속 600억 달러 가치로 투자 유치 완료",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ramp-completes-funding-at-60-billion-value-as-revenue-surges"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "램프가 드래고니어 주도로 18억 5,000만 달러를 조달하면서, 6월 440억 달러였던 기업가치가 600억 달러로 약 36% 뛰었다",
+   "t": "핀테크 램프, 600억 달러 가치에 18억 5,000만 달러 조달",
+   "u": "https://www.reuters.com/technology/fintech-firm-ramp-raises-185-billion-60-billion-valuation-2026-10-15/"
+  }
+ ],
+ "key": "mix-G3-031-2026-10-15",
+ "nodes": [],
+ "num": 321,
+ "one": "지출관리 핀테크 램프가 드래고니어 주도로 18억 5,000만 달러를 조달하며 기업가치 600억 달러를 인정받고 연환산 매출이 20억 달러를 넘었다고 밝히면서, 4개월 전 440억 달러였던 몸값이 약 36% 뛰었다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T21:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "PR Newswire(램프 보도자료)",
+   "u": "https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "TechCrunch",
+   "u": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/"
+  }
+ ],
+ "tags": [],
+ "title": "핀테크 램프, 18억 5,000만 달러 조달…기업가치 600억 달러로 36% 올라",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/ramp-completes-funding-at-60-billion-value-as-revenue-surges",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "payments",
+   "t": "램프 기업가치 440억에서 600억 달러로 상승"
+  }
+ ]
+}

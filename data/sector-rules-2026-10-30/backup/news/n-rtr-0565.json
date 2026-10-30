@@ -1,0 +1,61 @@
+{
+ "basis": "verified",
+ "check": "로이터 1건(10월 16일)이다. FSB의 인간 감독 권고는 Global Banking & Finance Review·The Asian Banker 보도로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: FSB는 에이전트형 AI에 더 집중적인 인간 감독을 촉구했다(10월 16일 로이터) [사실]",
+  "권고 내용: 고위험 업무에서 AI 에이전트가 사람 승인을 받도록 금융회사가 위험 기반 기준을 정하라고 권고했다 [사실]",
+  "같은 흐름: 이후 씨티·BofA·JP모건이 외부 AI 에이전트의 고객 계좌 접근을 잇달아 막았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "FSB, 에이전트형 AI 고위험 업무에 인간 감독·사람 승인 기준 촉구",
+ "id": "n-rtr-0565",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "글로벌 금융감독기구, 에이전트형 AI에 인간 감독 강화 촉구",
+   "u": "https://www.reuters.com/legal/government/global-financial-watchdog-calls-more-human-oversight-agentic-ai-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-094-2026-10-20",
+ "nodes": [],
+ "num": 565,
+ "one": "금융안정위원회(FSB)가 10월 15일 에이전트형 AI의 고위험 업무에 더 집중적인 인간 감독과 사람 승인 기준을 요구하면서, 금융회사의 AI 도입 통제가 강화되고 운영 부담이 커질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-17T17:39:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/global-financial-watchdog-calls-human-oversight-agentic-ai/"
+  },
+  {
+   "d": "2026",
+   "o": "The Asian Banker",
+   "u": "https://www.theasianbanker.com/updates-and-articles/financial-stability-board-points-banks-towards-ai-monitoring-ai-as-human-oversight-reaches-its-limits"
+  }
+ ],
+ "tags": [],
+ "title": "FSB, 에이전트형 AI 고위험 업무에 인간 감독·사람 승인 기준 촉구",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/government/global-financial-watchdog-calls-more-human-oversight-agentic-ai-2026-10-15/",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "regulation",
+   "t": "FSB 에이전트형 AI 고위험 업무에 사람 승인 요구"
+  }
+ ]
+}

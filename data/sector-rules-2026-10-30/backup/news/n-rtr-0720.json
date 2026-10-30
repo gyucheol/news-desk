@@ -1,0 +1,69 @@
+{
+ "basis": "partial",
+ "check": "씨티 인가는 씨티 보도자료·파이뉴스 검색 결과 요약으로 확인(5월 카이신 보도와 시점이 엇갈림), 모건스탠리 판다본드는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 증권감독관리위원회가 씨티의 100% 소유 증권사 씨티그룹증권(중국) 설립을 승인했다 [사실]",
+  "세부: 상하이에 등록자본 12억 위안으로 세워지며 인수·주식 중개·리서치·자문 업무를 하고, 외국계로는 7번째 단독 소유 증권사다 [사실]",
+  "판다본드: 모건스탠리가 미국 은행은 물론 미국 기업 가운데 처음으로 위안화 표시 판다본드를 발행했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "외국 금융사 중국 진출…씨티, 100% 소유 증권사 인가·모건스탠리, 미 은행 첫 판다본드 발행",
+ "id": "n-rtr-0720",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "씨티가 중국에서 100% 소유 증권사 설립 인가를 받으면서, 외국계로는 7번째로 본토 인수·중개 업무를 단독으로 하게 된다",
+   "t": "씨티, 중국 100% 소유 증권사 설립 인가 획득",
+   "u": "https://www.reuters.com/world/china/citi-wins-licence-set-up-fully-owned-china-securities-unit-2026-10-23/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 Polaristimes",
+   "s": "모건스탠리가 미국 은행과 기업을 통틀어 처음으로 위안화 표시 판다본드를 발행하면서, 미국 금융사의 위안화 조달 창구가 열렸다",
+   "t": "모건스탠리, 미국 은행·기업 가운데 첫 판다본드 발행",
+   "u": "https://t.me/The_MariTimes/63950"
+  }
+ ],
+ "key": "mix-G2-047-2026-10-23",
+ "nodes": [],
+ "num": 720,
+ "one": "미국 대형 금융사들이 중국 본토 증권업과 위안화 채권 시장으로 발을 넓히고 있다\n· 씨티는 중국 증감회로부터 100% 소유 증권사 씨티그룹증권(중국) 설립 인가를 받았다\n· 새 증권사는 상하이에 등록자본 12억 위안으로 세워지며 외국계 7번째 단독 소유 증권사가 된다\n· 모건스탠리는 미국 은행 가운데 처음으로 위안화 표시 판다본드를 발행했다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:14:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "씨티그룹",
+   "u": "https://www.citigroup.com/global/news/press-release/2026/citi-receives-approval-establish-wholly-owned-securities-venture-china"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "파이뉴스 아시아",
+   "u": "https://www.finews.asia/finance/45152-citi-approval-china-security-firm"
+  }
+ ],
+ "tags": [],
+ "title": "외국 금융사 중국 진출…씨티, 100% 소유 증권사 인가·모건스탠리, 미 은행 첫 판다본드 발행",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/world/china/citi-wins-licence-set-up-fully-owned-china-securities-unit-2026-10-23/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "ib",
+   "t": "씨티 중국 100% 소유 증권사 설립 인가"
+  }
+ ]
+}

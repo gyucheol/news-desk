@@ -1,0 +1,56 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 10월 12일 지수 급락은 검색 결과 요약(Rancak Media)으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도네시아 증시는 규제 당국 벌금 추측에 급락해 지수가 석 달 최저로 밀렸다 [사실]",
+  "업종: 인프라·금융·농업 업종의 낙폭이 컸다 [사실]",
+  "이후: 규제당국은 16일 MSCI 경고 직후 상장사 3곳 제재와 1억 1,700만 달러 벌금을 발표했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도네시아 증시, 규제 벌금 추측에 급락…지수 석 달 최저",
+ "id": "n-bbg-0431",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "인도네시아 증시, 규제 당국 벌금 추측에 급락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/indonesian-stocks-plunge-sending-benchmark-to-three-month-low"
+  }
+ ],
+ "key": "split-G3-027-2026-10-20",
+ "nodes": [],
+ "num": 431,
+ "one": "인도네시아 증시가 규제 당국의 벌금 부과 추측에 급락해 대표 지수가 석 달 최저로 밀리면서, 인프라·금융·농업 업종의 낙폭이 컸고 MSCI 경고를 앞두고 시장 불안이 커졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T21:31:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Rancak Media",
+   "u": "https://rancakmedia.com/finance/101920/ihsg-plunges-2-59-to-5936-ptro-cuan-dssa-shares-tumble"
+  }
+ ],
+ "tags": [],
+ "title": "인도네시아 증시, 규제 벌금 추측에 급락…지수 석 달 최저",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/indonesian-stocks-plunge-sending-benchmark-to-three-month-low",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "규제 벌금 추측에 지수 석 달 최저"
+  }
+ ]
+}

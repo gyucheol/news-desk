@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "로이터 1건(10월 16일)이다. 원 문서 확인 기록에 브리든 발언 부분이 없어 기사 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 브리든 영란은행 부총재는 은행들이 AI 위험에 대비해 베어메탈 복구 능력을 갖춰야 한다고 말했다(10월 16일 로이터) [제목]",
+  "같은 흐름: FSB도 에이전트형 AI의 고위험 업무에 사람 승인을 받는 위험 기반 기준을 정하라고 권고했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "영란은행 브리든 \"은행, AI 위험 대비해 베어메탈 복구 능력 갖춰야\"",
+ "id": "n-rtr-0564",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "영란은행 브리든 '은행, AI 위험 대비해 베어메탈 복구 능력 갖춰야'",
+   "u": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-093-2026-10-20",
+ "nodes": [],
+ "num": 564,
+ "one": "브리든 영란은행 부총재가 AI 위험에 맞서 은행들이 시스템을 처음부터 다시 세우는 베어메탈 복구 능력을 갖춰야 한다고 말하면서, 은행권에 대한 운영 복원력 요구가 한층 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-17T17:39:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "영란은행 브리든 \"은행, AI 위험 대비해 베어메탈 복구 능력 갖춰야\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "예상",
+   "node": "regulation",
+   "t": "AI 위험 대비 은행 베어메탈 복구 능력 요구"
+  }
+ ]
+}

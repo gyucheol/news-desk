@@ -1,0 +1,184 @@
+{
+ "added": "이번 블룸버그·로이터·텔레그램 6건으로 콘핀두스트리아의 에너지 충격발 성장 소멸 경고와 금융권에서 3년간 107억 유로를 걷는 예산 계획이 추가됐다",
+ "basis": "partial",
+ "check": "금융권 0.44%·약 107억 유로 조달은 검색 결과 요약으로 확인. 콘핀두스트리아 유가·가스 시나리오 수치와 정치 리스크 기사는 독립 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 이탈리아 예산 문서는 2027~2029년 금융권에서 GDP의 0.44%(2027년 0.21%, 2028년 0.13%, 2029년 0.1%), 약 107억 유로를 조달한다고 밝혔다 [사실]",
+  "기존 부담: 이는 정부가 2026년 예산 등으로 2028년까지 은행·보험사에서 걷기로 한 120억 유로에 더해진다 [사실]",
+  "성장 경고: 콘핀두스트리아는 브렌트유 평균 약 126달러, 또는 유가 115달러에 유럽 가스 MWh당 89유로면 정부의 내년 성장 전망 0.6%가 모두 사라질 수 있다고 봤다 [채널]",
+  "기존 흐름: 조르제티 장관은 EU 예외조항의 재정 여력을 에너지값 가계 지원에도 쓰려 집행위와 협상 중이고, 중앙은행은 적자 3% 초과를 경고했다 [사실]",
+  "정치 리스크: 채권시장 혼란 속 정치 리스크가 이탈리아의 부채 감축 기대를 흐리고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "이탈리아, 예산 위해 금융권서 107억 유로…산업계는 '에너지 충격' 경고",
+ "id": "n-rtr-0030",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{이탈리아}}가 {{EU는 예산 이탈을 평가할 때 인플레이션을 감안해야}} 한다고 {{주장}}하면서 {{재정준칙 적용을 완화}}해 달라고 {{요구}}했다 (제목 기준)",
+   "t": "이탈리아 'EU는 예산 이탈 평가 때 인플레이션 감안해야'",
+   "u": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{이탈리아 정부}}가 {{2027년 예산 재원 분담}}을 놓고 {{은행·에너지 기업}}과 {{협의}}하면서 {{이들 기업}}이 {{추가 부담을 질}} 수 있다 (제목 기준)",
+   "t": "이탈리아, 2027년 예산 분담 놓고 은행·에너지 기업과 협의",
+   "u": "https://www.reuters.com/business/energy/italy-talking-banks-energy-groups-over-contribution-2027-budget-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "s": "{{EU}}가 {{이탈리아·그리스의 재량 확대 요구}}에 {{재정 신중}}을 {{압박}}하면서 {{두 나라의 예산 확대 여지}}가 {{좁아질}} 수 있다 (제목 기준)",
+   "t": "EU, 이탈리아·그리스 재량 요구에 재정 신중 압박",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-pushes-for-fiscal-prudence-as-italy-and-greece-seek-leeway"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{돔브로우스키스 집행위원}}이 {{이탈리아·그리스의 재정준칙 유연성 확대 요구}}에 새 유연성을 계속 줄 수는 없다며 거부해 {{두 나라 예산 운용 폭}}이 좁아졌다",
+   "t": "EU 집행위, 그리스·이탈리아의 재정준칙 유연성 확대 요구 거부",
+   "u": "https://www.reuters.com/business/eu-exec-rejects-greek-italian-requests-more-fiscal-rules-flexibility-2026-10-08/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{이탈리아 중앙은행}}이 {{2027·2028년 적자가 GDP 3%를 넘는 계획}}은 {{EU 과다적자 절차 졸업}}을 {{어렵게}} 할 수 있다고 {{경고}}하며 {{정부 예산안에 제동}}을 {{걸었}}다",
+   "t": "이탈리아 중앙은행, 적자 확대로 EU 재정 절차 졸업 위태롭다고 경고",
+   "u": "https://www.reuters.com/business/italy-exit-eu-budget-procedure-risk-due-deficit-increase-central-bank-warns-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{조르제티}} 이탈리아 경제장관이 {{EU 예외조항의 재정 여력}}을 에너지값에 시달리는 {{가계·기업 지원}}에도 쓰게 해 달라고 {{EU와 협상}}하면서, {{10월 20일 목표 예산안}}이 {{늦어질}} 수 있다",
+   "t": "이탈리아, 재정 여력을 녹색 전환 아닌 가계 지원에도 쓰도록 EU 승인 요청",
+   "u": "https://www.reuters.com/business/italy-seeks-eu-nod-use-fiscal-leeway-help-families-not-just-green-transition-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "콘핀두스트리아가 브렌트유가 평균 126달러 안팎이면 정부의 내년 성장 전망 0.6%가 모두 사라질 수 있다고 경고했다",
+   "t": "이탈리아 산업계 '에너지 충격이 성장 지워버릴 수도'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/italy-industry-lobby-says-energy-shock-could-wipe-out-growth"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "콘핀두스트리아가 올해 이탈리아 성장률을 1%로 보면서도 2027년에는 0.6%로 둔화할 것으로 내다봤다",
+   "t": "이탈리아 성장 전망 밝아졌지만 둔화 다가와…산업계",
+   "u": "https://www.reuters.com/business/italian-growth-outlook-brightens-slowdown-ahead-business-lobby-says-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 TNBfolio",
+   "s": "콘핀두스트리아가 1~9월 이탈리아 전기요금이 독일보다 35% 높았고 탄소 무상배출권 폐지로 제조업체 18%는 비용이 영업이익을 넘을 수 있다고 지적했다",
+   "t": "콘핀두스트리아 '유가 126달러면 내년 성장 0.6% 전부 상쇄'",
+   "u": "https://t.me/TNBfolio/71544"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "이탈리아 정부가 2027~2029년 예산 재원으로 금융권에서 GDP의 0.44%를 걷기로 하면서 은행·보험사 부담이 커지게 됐다",
+   "t": "이탈리아, 예산 재원으로 2029년까지 금융권서 GDP 0.44% 조달",
+   "u": "https://www.reuters.com/business/italy-raise-044-gdp-financial-sector-through-2029-fund-budget-2026-10-15/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "이탈리아의 정치 리스크가 채권시장 혼란과 맞물리면서 정부의 부채 감축 기대를 흐리고 있다 (제목 기준)",
+   "t": "채권시장 혼란 속 정치 리스크가 이탈리아 부채 감축 기대 흐려",
+   "u": "https://www.reuters.com/business/italys-political-risks-cloud-debt-reduction-hopes-amid-bond-turmoil-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "이탈리아 3개년 예산안이 금융권에서 107억 유로를 끌어오도록 짜이면서 2027년에만 약 50억 유로를 은행·보험사가 부담하게 됐다",
+   "t": "이탈리아 3개년 예산, 금융권에서 107억 유로 끌어내",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/italy-three-year-budget-draws-10-7-billion-from-finance-sector"
+  }
+ ],
+ "key": "bnd-C037-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/growth"
+ ],
+ "num": 30,
+ "one": "이탈리아 정부가 2027~2029년 예산 재원으로 금융권에서 GDP의 0.44%인 약 107억 유로를 걷기로 한 가운데, 콘핀두스트리아가 유가 126달러면 내년 성장 전망 0.6%가 사라질 수 있다고 경고해 은행·보험사 부담과 성장 둔화 우려가 함께 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T01:43:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Democrata",
+   "u": "https://www.democrata.es/en/economy/brussels-cools-the-demand-of-italy-and-greece-to-expand-fiscal-flexibility-in-the-face-of-the-energy-crisis/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Rapporteur",
+   "u": "https://www.rapporteur.com/news/brussels-casts-doubt-on-italy-greeces-call-for-more-budget-wiggle-room/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/italy-exit-eu-budget-procedure-risk-due-deficit-increase/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/bank-of-italy-say-the-budget-deficit-exceeding-3-of-gdp-in-2027-28-could-affect-the-countrys-exit-from-eus-excessive-deficit-procedure"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Devdiscourse",
+   "u": "https://www.devdiscourse.com/article/international/3991411-italy-seeks-eu-nod-to-use-fiscal-leeway-to-help-families-not-just-green-transition"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Archyde",
+   "u": "https://www.archyde.com/giancarlo-giorgetti-warns-eu-against-rejecting-italy-budget-flexibility/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Global Banking and Finance Review",
+   "u": "https://www.globalbankingandfinance.com/italy-raise-0-44-gdp-financial-sector-through-2029-fund/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "IndexBox",
+   "u": "https://www.indexbox.io/blog/italy-to-raise-107-billion-from-financial-sector-to-fund-2027-2029-budget/"
+  }
+ ],
+ "tags": [],
+ "title": "이탈리아, 예산 위해 금융권서 107억 유로…산업계는 '에너지 충격' 경고",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/business/italy-says-eu-has-weigh-inflation-when-assessing-budget-deviations-2026-10-07/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "금융권 3년간 107억 유로 부담에 이익 압박"
+  },
+  {
+   "dir": "down",
+   "f": "수요",
+   "ind": "macro",
+   "k": "예상",
+   "node": "growth",
+   "t": "에너지 충격에 내년 성장 0.6% 소멸 우려"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "added": "블룸버그 1건 — 외국계 은행에 대한 감독이 한층 깊어지면서 채권 발행이 지연되고 있다는 소식 내용이 추가됨 (제목 기준)",
+ "basis": "partial",
+ "check": "롯데렌탈 사례와 구두 지도 방식은 BigGo Finance(9월 29일) 열람과 검색 결과 요약으로 확인. 이번 블룸버그 기사의 지연 발행 건이 어느 회사인지와 감독 강화의 새 내용은 확인 못 함(제목 기준)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 한국의 외국계 은행 감독이 깊어지면서 채권 발행이 지연됐다 [제목]",
+  "사례: 롯데렌탈의 3억 달러 채권 발행은 기획재정부가 면허 없는 역외 투자은행을 주관사단에서 빼라고 지도한 뒤 한 달 넘게 멈췄다가 씨티·HSBC·크레디아그리콜·미즈호로 주관사단을 바꿔 진행됐다 [사실]",
+  "방식: 제한은 법령이 아니라 구두 지도로 전달된 것으로 알려졌고, 정부는 국내 면허 증권사와의 공정성을 근거로 든다 [사실]",
+  "대상: 국내 증권 면허가 없는 MUFG·ANZ 등 해외채 주선 상위 은행이 규제 대상이 될 수 있다 [사실]",
+  "규모: 한국 기업의 올해 상반기 외화채 발행은 531억 달러로 전년보다 33% 늘었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "한국의 외국계 은행 채권 주선 감독 강화…발행 지연 사례 이어져",
+ "id": "n-bbg-0141",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "기획재정부가 {{국내 면허 없는 외국계 은행의}} {{해외채권 주선을 막는 규제}}를 검토하면서, {{MUFG·ANZ 같은 상위 주선 은행}}이 대상이 될 수 있다",
+   "t": "한국, 면허 없는 외국계 은행의 채권 거래 금지 검토",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/korea-mulls-banning-unlicensed-foreign-banks-global-bond-deals"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "로이터가 블룸버그 보도를 인용해 {{한국}}이 {{외국계 은행의 해외채권 주선을 금지}}할 수 있다고 전하면서, {{한국물 주관 구도가 바뀔}} 수 있다",
+   "t": "한국, 외국계 은행의 해외채권 주선 금지할 수도…블룸버그 보도",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korea-may-ban-foreign-banks-arranging-global-bond-deals-bloomberg-news-2026-10-08/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "한국 당국의 외국계 은행 채권 주선 감독이 깊어지면서 채권 발행이 지연되는 사례가 나와 한국물 발행 일정에 차질이 생겼다 (제목 기준)",
+   "t": "한국의 외국계 은행 감독 강화…채권 발행 지연까지",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed"
+  }
+ ],
+ "key": "bnd-C104-2026-10-09",
+ "nodes": [],
+ "num": 141,
+ "one": "한국 기획재정부가 국내 면허 없는 외국계 은행의 해외채권 주선을 막는 쪽으로 감독을 강화하면서 채권 발행 지연 사례가 나오고 있어, 올해 상반기 531억 달러로 늘어난 한국물 발행에서 MUFG·ANZ 같은 역외 은행이 밀려날 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T13:15:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/36f24f92-cacf-4837-81d4-e4fde0ef9e07"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Retail News Asia",
+   "u": "https://retailnews.asia/south-korea-may-ban-unlicensed-foreign-banks-from-arranging-global-bonds"
+  }
+ ],
+ "tags": [],
+ "title": "한국의 외국계 은행 채권 주선 감독 강화…발행 지연 사례 이어져",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/korea-mulls-banning-unlicensed-foreign-banks-global-bond-deals",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "ib",
+   "t": "면허 없는 외국계 은행 해외채 주선 제한 강화"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약(Rask Media·The420·Traders Union)으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: Zip 주가는 23일 미국 사기 사건 공개 뒤 장중 50.5% 떨어져 1.025호주달러까지 밀렸다가 29.5% 내린 1.46호주달러에 마감했다 [사실]",
+  "사건: 조직적 사기범들이 정상 인증정보로 새 계좌를 열어 대금을 갚지 않았고, 7~8월 거래액·신규 고객 증가가 둔화됐으며 현금 영업비용 720만 달러(1,010만 호주달러)가 들었다 [사실]",
+  "건전성: 그룹 순대손율은 거래액의 1.97%(1년 전 1.65%), 미국은 1.93%였다 [사실]",
+  "전망: Zip은 2027 회계연도 현금 EBTDA 가이던스 3.4억 호주달러를 유지했고, 9월 미국 거래액은 41% 늘었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 Zip, 미국 사기 사건 비용 공개에 주가 장중 50% 폭락…종가 29.5% 하락",
+ "id": "n-bbg-0683",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "Zip이 미국 사기 사건 관련 비용을 공개하자 주가가 장중 50% 넘게 떨어지면서 후불결제 업체의 고객 심사 통제에 대한 우려가 커졌다",
+   "t": "Zip, 미국 사기 사건 비용 경고에 주가 급락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/zip-shares-slide-50-after-flagging-costs-tied-to-us-fraud-event"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "Zip은 미국 사기 사건이 1분기 거래액과 신규 고객 증가를 깎았다고 밝혔고, 주가는 2년 반 만의 최저로 떨어졌다",
+   "t": "호주 Zip, 사기 사건에 1분기 고객 증가 타격…주가 50% 급락",
+   "u": "https://www.reuters.com/legal/government/australias-zip-tumbles-50-after-fraud-incident-dents-first-quarter-customer-2026-10-23/"
+  }
+ ],
+ "key": "mix-G2-055-2026-10-23",
+ "nodes": [],
+ "num": 683,
+ "one": "호주 후불결제 기업 Zip이 미국 사기 사건 비용을 공개하자 주가가 장중 50% 넘게 폭락했다\n· Zip은 1분기 미국에서 정상 인증정보로 계좌를 연 조직적 사기로 720만 달러 비용이 들었다고 밝혔다\n· 그룹 순대손율은 거래액의 1.97%로 1년 전 1.65%에서 올랐다\n· 주가는 2년 반 만의 최저인 1.025호주달러까지 떨어졌다가 29.5% 내린 1.46호주달러에 마감했다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T09:25:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "Rask Media",
+   "u": "https://www.raskmedia.com.au/2026/10/23/zip-asxzip-share-price-sinks-29-on-weak-fy27-first-quarter-fraud-event/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "The420.in",
+   "u": "https://the420.in/zip-shares-plunge-us-fraud-bad-debt/"
+  }
+ ],
+ "tags": [],
+ "title": "호주 Zip, 미국 사기 사건 비용 공개에 주가 장중 50% 폭락…종가 29.5% 하락",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/zip-shares-slide-50-after-flagging-costs-tied-to-us-fraud-event",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "payments",
+   "t": "Zip 주가 미국 사기 사건에 장중 50% 폭락"
+  }
+ ]
+}

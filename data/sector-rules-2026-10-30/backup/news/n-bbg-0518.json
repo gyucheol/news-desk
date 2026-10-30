@@ -1,0 +1,60 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 독립 출처 Private Equity Wire·Benzinga(10월 8일)가 아폴로의 350억 달러 사모신용 거래를 다뤄 이를 근거로 삼음. 원 문서 확인 기록에는 이 사건 부분이 없음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아폴로는 사모신용 트레이딩 데스크 출범 이후 약 500개 자산, 350억 달러 넘는 사모신용을 160곳 상대방과 거래했다 [사실]",
+  "의미: 아폴로는 이 거래로 사모신용 유통시장 개방에 나섰다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아폴로, 사모신용 350억 달러 거래하며 유통시장 개방 추진",
+ "id": "n-bbg-0518",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "아폴로, 사모신용 350억 달러 거래하며 시장 개방 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/apollo-trades-35-billion-private-credit-in-push-to-open-market"
+  }
+ ],
+ "key": "split-G5-002-2026-10-20",
+ "nodes": [],
+ "num": 518,
+ "one": "아폴로가 사모신용 트레이딩 데스크 출범 이후 약 500개 자산, 350억 달러 넘는 대출을 160곳 상대방과 거래했다고 10월 7일 알려지면서, 사고팔기 어렵던 사모신용 대출의 유통시장이 열리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Private Equity Wire",
+   "u": "https://www.privateequitywire.co.uk/apollo-trades-more-than-35bn-of-private-credit/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Benzinga",
+   "u": "https://www.benzinga.com/markets/private-markets/26/10/62234094/a-third-of-apollos-35-billion-in-private-credit-trades-involved-other-firms-loans"
+  }
+ ],
+ "tags": [],
+ "title": "아폴로, 사모신용 350억 달러 거래하며 유통시장 개방 추진",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/apollo-trades-35-billion-private-credit-in-push-to-open-market",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "pcredit",
+   "t": "아폴로 사모신용 350억 달러 거래로 유통시장 개방"
+  }
+ ]
+}

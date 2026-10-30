@@ -1,0 +1,38 @@
+{
+ "basis": "title",
+ "check": "검색 한도 안에서 확인하지 못함, 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 커맨더스의 새 NFL 경기장 계획에 따라 워싱턴DC가 지방채 매각을 저울질 [제목]",
+  "의미: 스포츠 시설 재원 조달에 공공 부채가 쓰일 수 있음 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "커맨더스 새 NFL 경기장 계획에 {{워싱턴DC}}, {{지방채 발행 검토}}",
+ "id": "n-bbg-0260",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "워싱턴 커맨더스 새 NFL 경기장 계획에 DC, 지방채 발행 검토",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/washington-commanders-new-nfl-stadium-plan-prompts-dc-to-weigh-muni-bond-sale"
+  }
+ ],
+ "key": "mix-C150-2026-10-13",
+ "nodes": [],
+ "num": 260,
+ "one": "{{워싱턴 커맨더스의 새 NFL 경기장 건설 계획}}을 계기로 {{워싱턴DC}}가 {{지방채 발행}}을 {{검토}}하면서, {{경기장 재원을 공공 부채로 조달하는 지방채 공급}}이 {{늘어날}} 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T02:50:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "{{커맨더스 새 NFL 경기장 계획}}에 워싱턴DC, {{지방채 발행}} 검토",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/washington-commanders-new-nfl-stadium-plan-prompts-dc-to-weigh-muni-bond-sale"
+}

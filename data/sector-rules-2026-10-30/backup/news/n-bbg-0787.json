@@ -1,0 +1,56 @@
+{
+ "basis": "verified",
+ "check": "Capital Brief·news.com.au·grafa 검색 결과 요약으로 ASIC의 주관사 4곳 표적 조사, 11달러 수요 제시·CDC 계약 해지 쟁점, 정식 수사 아님 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: ASIC 사라 코트 위원장이 데이브 샤마 상원의원에게 보낸 서한에서 퍼머스 IPO 공동 주관사에 대한 표적 조사를 확인했다 [사실]",
+  "대상·쟁점: JP모건·모건스탠리·뱅크오브아메리카·모건스 파이낸셜이 대상이며 주당 11달러 수요 제시와 CDC 데이터센터 계약 해지 미공개가 쟁점이다 [사실]",
+  "한계: ASIC는 정식 수사가 아니며 IPO 관련 권한이 제한적이라고 밝혔다 [사실]",
+  "배경: 퍼머스는 10월 8~9일께 ASX 상장 신청을 철회했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 ASIC, 퍼머스 IPO 실패 관련 JP모건·모건스탠리 등 주관사 조사",
+ "id": "n-bbg-0787",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "t": "호주 ASIC, 실패한 퍼머스 IPO 주관 은행가들 조사",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/bankers-in-failed-firmus-ipo-probed-by-australian-regulator-asic"
+  }
+ ],
+ "key": "mix-G-058-2026-10-29",
+ "nodes": [],
+ "num": 787,
+ "one": "호주 증권투자위원회(ASIC)가 무산된 퍼머스 IPO의 주관 은행들을 상대로 표적 조사에 나섰다\n· 조사 대상은 JP모건·모건스탠리·뱅크오브아메리카·모건스 파이낸셜이다\n· ASIC는 주당 11달러 수요 제시와 CDC 데이터센터 계약 해지 미공개를 살피지만 정식 수사는 아니라고 밝혔다",
+ "origTitle": "",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T08:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-28",
+   "o": "Capital Brief",
+   "u": "https://www.capitalbrief.com/briefing/asic-making-targeted-inquiries-into-firmus-ipo-bankers-5566e825-d331-4a6e-816e-f9dfd436833f/"
+  }
+ ],
+ "tags": [],
+ "title": "호주 ASIC, 퍼머스 IPO 실패 관련 JP모건·모건스탠리 등 주관사 조사",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/bankers-in-failed-firmus-ipo-probed-by-australian-regulator-asic",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "regulation",
+   "t": "ASIC, 퍼머스 IPO 주관사 조사 착수로 방향 없음"
+  }
+ ]
+}

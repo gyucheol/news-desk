@@ -1,0 +1,69 @@
+{
+ "basis": "verified",
+ "check": "IPO 규모·공모가·장중 고가·시총을 검색 결과 요약으로 확인. 종가는 공모가와 같다는 보도와 소폭 상승 보도가 엇갈림",
+ "cycles": [],
+ "facts": [
+  "무엇이: GCash 운영사 민트가 10월 20일 필리핀증권거래소에 상장하며 609억 페소를 조달해 2021년 몬데니신(558억 9천만 페소)을 넘는 사상 최대 IPO를 기록했다 [사실]",
+  "주가: 공모가 6.60페소에서 장중 6.76페소까지 올랐다가 공모가 부근으로 돌아왔고, 로이터는 아시아 증시 매도 속 소폭 상승을 전했다 [사실]",
+  "구성: 신주는 106억 페소, 기존 주주 구주 매출은 503억 페소였고 신주 자금의 60%는 신용기술 사업 확대에 쓴다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "GCash 운영사 민트, 필리핀 사상 최대 609억 페소 IPO…첫날 상승분 반납 뒤 소폭 반등",
+ "id": "n-bbg-0634",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "s": "민트가 609억 페소 규모 사상 최대 IPO로 상장했지만 첫날 장중 6.76페소까지 오른 뒤 상승분을 반납하면서, 공모가 부근으로 돌아왔다",
+   "t": "GCash 운영사, 필리핀 사상 최대 IPO 뒤 첫날 상승분 반납",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/mynt-s-record-ipo-brings-a-new-heavyweight-to-philippine-stocks"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "s": "로이터는 아시아 증시 매도 속에서도 민트 주가가 공모가 6.60페소보다 소폭 올랐다고 전하면서, 대형 상장의 첫 거래가 무난했다고 봤다",
+   "t": "GCash 운영사 민트, 필리핀 최대 IPO 뒤 소폭 상승",
+   "u": "https://www.reuters.com/world/asia-pacific/gcash-owner-mynt-edges-higher-after-record-philippine-ipo-2026-10-20/"
+  }
+ ],
+ "key": "mix-G2-037-2026-10-21",
+ "nodes": [],
+ "num": 634,
+ "one": "GCash 운영사 민트가 필리핀 사상 최대 IPO로 상장했지만 첫날 상승분을 대부분 반납했다\n· 민트는 공모가 6.60페소에 609억 페소, 약 9억 6,700만 달러를 조달해 2021년 몬데니신 기록을 넘었다\n· 주가는 장중 6.76페소까지 올랐다가 상승분을 반납했고 로이터는 소폭 오름세를 전했다\n· 시가총액은 약 4,415억 페소로 필리핀 증시 7위 규모가 됐다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:19:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "BusinessWorld",
+   "u": "https://bworldonline.com/top-stories/2026/10/20/788198/mynt-makes-market-debut-after-record-philippine-ipo/"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "Philstar",
+   "u": "https://www.philstar.com/business/2026/10/20/2564545/mynt-raises-nearly-1b-record-philippine-ipo"
+  }
+ ],
+ "tags": [],
+ "title": "GCash 운영사 민트, 필리핀 사상 최대 609억 페소 IPO…첫날 상승분 반납 뒤 소폭 반등",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/mynt-s-record-ipo-brings-a-new-heavyweight-to-philippine-stocks",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "payments",
+   "t": "민트 상장 첫날 상승분 반납해 공모가 부근"
+  }
+ ]
+}

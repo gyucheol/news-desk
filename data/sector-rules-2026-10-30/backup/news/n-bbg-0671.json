@@ -1,0 +1,105 @@
+{
+ "basis": "partial",
+ "check": "10월 말 신고서·11월 중순 상장·IFR의 10월 26일 신고와 11월 9일 로드쇼는 IFR·SBS 검색 결과 요약으로 확인. 아이코닉 등 차익과 다른 AI 기업 상장 연기는 확인 못 함(제목·채널)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 앤트로픽은 이르면 10월 말 증권신고서를 공개하고 11월 중순 상장을 추진하며, 일정은 바뀔 수 있다 [사실]",
+  "일정: IFR은 10월 26일 공개 신고, 11월 9일 로드쇼 시작을 전했고 목표 기업가치를 2조 달러로 보도했다 [사실]",
+  "다른 AI 상장: 금리 상승과 AI 지출 지속성 의문 속에 Switch·Nscale은 IPO를 하반기 후반으로 미뤘고 SB에너지·엘리스도 상장을 미뤘으며 AirTrunk 리츠·Firmus는 공모를 철회·중단했다 [채널]",
+  "투자자: 앤트로픽 IPO로 아이코닉·스파크·GIC가 대규모 차익을 거둘 전망이다 [제목]",
+  "위험: 블룸버그는 앤트로픽의 2조 달러 기업가치가 주요 위험을 안고 있다고 짚었다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 상장 잇단 연기 속 앤트로픽만 11월 중순 IPO 추진…2조 달러 몸값 위험 지적",
+ "id": "n-bbg-0671",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "tech",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "앤트로픽 상장이 다가오면서 초기 투자자인 아이코닉·스파크·GIC가 막대한 평가 차익을 거둘 것으로 보인다 (제목 기준)",
+   "t": "앤트로픽 IPO로 아이코닉·스파크·GIC 대박 차익 전망",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/anthropic-ipo-to-drive-blockbuster-gains-for-iconiq-spark-gic"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 TNBfolio",
+   "s": "AI 인프라·데이터센터 기업들이 금리 상승에 상장을 잇달아 미루면서 앤트로픽만 10월 말 신고서 공개와 11월 중순 상장을 추진하게 됐다",
+   "t": "가을 IPO 시장에 앤트로픽만 남아…10월 말 신고서 공개",
+   "u": "https://t.me/TNBfolio/71678"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "AI 시장 불안으로 다른 기업들이 상장을 접으면서 앤트로픽 IPO가 사실상 유일한 대형 AI 상장으로 남았다",
+   "t": "AI 시장 불안에 다른 기업 물러나고 앤트로픽 IPO만 홀로",
+   "u": "https://www.reuters.com/legal/transactional/anthropic-ipo-stands-alone-ai-market-jitters-sideline-others-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "앤트로픽이 최대 1조 5,000억 달러 기업가치를 내세워 11월 중순 상장을 추진하면서 기관 청약 수요와 시장 유동성이 시험대에 오를 전망이다",
+   "t": "동종 기업 IPO 철회 속 앤트로픽은 11월 중순 상장 추진",
+   "u": "https://t.me/HANAchina/70904"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "블룸버그가 앤트로픽의 2조 달러 기업가치가 안은 주요 위험을 짚으면서 공모가 산정에 대한 경계론이 나왔다 (제목 기준)",
+   "t": "앤트로픽 IPO, 2조 달러 몸값이 안은 주요 위험",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks"
+  }
+ ],
+ "key": "mix-G2-011-2026-10-23",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 671,
+ "one": "AI 인프라 기업들이 금리 상승 속 상장을 잇달아 미루는 가운데 앤트로픽만 11월 중순 IPO를 추진하고 있다\n· 앤트로픽은 10월 말 증권신고서를 공개하고 11월 9일 주간 투자자 마케팅에 나설 것으로 알려졌다\n· Switch·Nscale·SB에너지와 한국 엘리스가 상장을 미뤘고 AirTrunk 리츠·Firmus는 공모를 접었다\n· 일부 투자자는 앤트로픽 기업가치를 최대 1조 5,000억 달러로 거론하고 있다\n· 상장이 이뤄지면 아이코닉·스파크·GIC 등 기존 투자자가 대규모 차익을 거둘 전망이다\n· 블룸버그는 2조 달러 기업가치가 큰 위험을 안고 있다고 지적했다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T17:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "IFR",
+   "u": "https://www.ifre.com/equities/2499407/anthropic-pushes-ahead-with-mid-november-ipo"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "SBS",
+   "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008811298"
+  }
+ ],
+ "tags": [],
+ "title": "AI 상장 잇단 연기 속 앤트로픽만 11월 중순 IPO 추진…2조 달러 몸값 위험 지적",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/anthropic-ipo-to-drive-blockbuster-gains-for-iconiq-spark-gic",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "markets",
+   "t": "AI 인프라 기업 IPO 잇단 연기·철회"
+  },
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "tech",
+   "k": "예상",
+   "node": "ai",
+   "t": "앤트로픽 2조 달러 몸값 거론"
+  }
+ ]
+}

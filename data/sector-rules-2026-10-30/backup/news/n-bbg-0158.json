@@ -1,0 +1,62 @@
+{
+ "added": "이번 로이터 1건으로 {{BofA증권유럽을 통한 장내 매각 방식}}과 {{발표 당일 주가 약 2.4% 하락}} 소식이 추가됐다",
+ "basis": "verified",
+ "check": "NL Times·Euronext 등으로 확인(검색 결과 요약으로 확인)",
+ "cycles": [],
+ "facts": [
+  "무엇이: ABN암로가 10월 7일 네덜란드 정부 지분을 20.7%에서 10.5%로 줄인다고 발표 [사실]",
+  "방식: NLFI의 다섯 번째 매매 계획으로 BofA증권유럽이 장내에서 매각, 최저 가격 조건이 있으며 중단 가능 [사실]",
+  "이전 매각: 7월 완료된 직전 매각으로 정부는 약 25억 유로를 회수 [사실]",
+  "시장 반응: 발표 당일 주가 약 2.4% 하락 [사실]",
+  "장기 목표: NLFI는 정부 지분을 최종적으로 0으로 줄이는 것이 목표 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "네덜란드 정부, ABN암로 지분 {{20.7%→10.5%}}로 {{절반 축소}}",
+ "id": "n-bbg-0158",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "네덜란드 정부가 {{ABN암로 지분을 20.7%에서 10.5%로}} {{절반가량 줄일 계획}}을 내놓으면서 {{지분을 결국 0으로 줄이려는 민영화}}가 {{한 단계 나아갔}}다",
+   "t": "네덜란드 정부, ABN암로 지분 10.5%로 절반 축소 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/dutch-government-plans-to-cut-abn-amro-stake-to-10-5-from-20-7"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "ABN암로는 NLFI가 {{BofA증권유럽을 통한 장내 매매 계획}}으로 {{정부 지분을 10.5%로 줄인다}}고 밝혔고, {{발표 당일 주가는 약 2.4% 내렸}}다",
+   "t": "ABN암로 \"네덜란드 정부, 지분 10.5%로 축소\"",
+   "u": "https://www.reuters.com/business/finance/abn-amro-says-dutch-state-will-cut-stake-105-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C127-2026-10-09",
+ "nodes": [],
+ "num": 158,
+ "one": "{{네덜란드 정부 지주기관 NLFI}}가 {{BofA를 통한 장내 매매 계획}}으로 {{ABN암로 지분을 20.7%에서 10.5%로}} {{절반가량 줄이}}기로 하면서, {{지분을 결국 0으로 줄이려는 민영화}}가 한 단계 더 나아가고 시장 매물 부담에 {{주가는 발표 당일 2%대 내렸}}다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T00:30:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "NL Times",
+   "u": "https://nltimes.nl/2026/10/07/dutch-state-reduce-stake-abn-amro-105-percent"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Euronext",
+   "u": "https://live.euronext.com/en/financial-news/abn-amro-says-dutch-state-will-cut-stake-105"
+  }
+ ],
+ "tags": [],
+ "title": "{{네덜란드 정부}}, {{ABN암로 지분 20.7%→10.5%로}} {{절반 축소}}",
+ "updatedAt": "2026-10-09T15:22:03+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/dutch-government-plans-to-cut-abn-amro-stake-to-10-5-from-20-7"
+}

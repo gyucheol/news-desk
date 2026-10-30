@@ -1,0 +1,49 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그는 10월 8일 아일랜드은행의 SRT 거래가 부실해지면서 위험이전 붐의 위험이 드러났다고 전했다 [제목]",
+  "영향: 이 사례로 SRT 거래 구조 전반에 대한 경계가 커질 수 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "아일랜드은행 부실 거래가 보여준 위험이전(SRT) 붐의 위험",
+ "id": "n-bbg-0521",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "아일랜드은행 부실 거래가 보여준 위험이전(SRT) 붐의 위험",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-ireland-s-soured-deals-show-hazard-in-risk-transfer-boom"
+  }
+ ],
+ "key": "split-G5-005-2026-10-20",
+ "nodes": [],
+ "num": 521,
+ "one": "블룸버그가 10월 8일 아일랜드은행의 위험이전(SRT) 거래가 부실해진 사례를 전하면서, 은행들이 자본 부담을 덜려 늘려 온 SRT 붐에 숨은 위험이 드러나 이런 거래 구조 전반에 대한 경계가 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T02:01:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "아일랜드은행 부실 거래가 보여준 위험이전(SRT) 붐의 위험",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/bank-of-ireland-s-soured-deals-show-hazard-in-risk-transfer-boom",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "banks",
+   "t": "아일랜드은행 SRT 부실로 위험이전 거래 경계"
+  }
+ ]
+}

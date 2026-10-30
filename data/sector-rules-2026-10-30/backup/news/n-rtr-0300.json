@@ -1,0 +1,116 @@
+{
+ "added": "로이터·블룸버그 3건 — 은행의 동의명령 이행 해명, 주가 8% 급락과 시가총액 220억 달러 증발, M&A 뱅커 피콕의 이탈 내용이 추가됨",
+ "basis": "partial",
+ "check": "동의명령 해명과 장 초반 8% 하락은 검색 결과 요약으로 확인. 시가총액 감소분은 한 해설이 약 190억 달러로 제시해 220억 달러와 다름, 피콕 퇴사는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: BofA 부회장은 동의명령이 요구한 작업을 상당 부분 마쳤다고 했고, CEO는 관련 비용이 이미 비용 기준선에 들어 있다고 밝혔다 [사실]",
+  "주가: 벌금 발표 뒤 주가는 장 초반 8% 떨어져 5월 이후 최저로 밀렸다 [사실]",
+  "시가총액: 오랜 관리 부실이 드러나며 시가총액 220억 달러가 사라졌다 [제목]",
+  "남은 과제: 은행은 과거 거래를 외부 제3자가 재검토하라는 동의명령 아래 있어 명령 기간과 추가 시정 비용이 쟁점이다 [사실]",
+  "인력: 소비재·유통 M&A 담당 뱅커 피콕이 회사를 떠난다고 소식통이 전했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "BofA 시총 220억 달러 증발…'동의명령 작업 상당 부분 마쳐' 해명 속 뱅커 이탈",
+ "id": "n-rtr-0300",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{뱅크오브아메리카}}가 {{투자은행 뱅커들을 잃은}} 가운데 {{직원들}}에게 {{큰 야망}}과 {{채용 지속}} 방침을 밝히면서 {{인력 이탈 우려}}를 {{달래려}} 하고 있다 (제목 기준)",
+   "t": "뱅크오브아메리카, 뱅커 잃자 직원들에 큰 야망·채용 지속 강조",
+   "u": "https://www.reuters.com/world/bank-america-loses-bankers-tells-staff-big-ambition-continued-hiring-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{미 정부}}가 {{의심거래 감시 실패}}를 이유로 {{BofA}}에 {{약 12억 달러 벌금}}을 매기면서 {{3분기 이익}}이 {{주당 약 17센트 줄어들}} 전망이다",
+   "t": "BofA, 의심거래 감시 실패로 미 정부에 12억 달러 벌금",
+   "u": "https://www.reuters.com/legal/legalindustry/bofa-fined-12-billion-by-us-government-failing-police-suspicious-activity-2026-10-13/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "BofA가 자금세탁방지 동의명령이 요구한 작업을 상당 부분 마쳤고 비용도 이미 반영돼 있다며 추가 부담 우려 진화에 나섰다",
+   "t": "BofA '동의명령 요구 작업 상당 부분 마쳤다'",
+   "u": "https://www.reuters.com/legal/government/bank-america-says-it-has-completed-lot-work-consent-order-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "오랜 준법 부실이 드러나면서 BofA 주가가 장 초반 8% 떨어져 시가총액 220억 달러가 사라졌다",
+   "t": "관리 부실 드러난 BofA, 시가총액 220억 달러 증발",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-sheds-30-billion-in-value-as-years-of-lapses-come-to-light"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "BofA의 소비재·유통 M&A 담당 뱅커 피콕이 회사를 떠나면서 투자은행 부문 인력 이탈이 이어졌다 (제목 기준)",
+   "t": "BofA 소비재·유통 M&A 담당 뱅커 피콕 퇴사",
+   "u": "https://www.reuters.com/legal/transactional/bank-america-consumer-retail-ma-banker-peacock-leave-sources-say-2026-10-14/"
+  }
+ ],
+ "key": "mix-C002-2026-10-14",
+ "nodes": [],
+ "num": 300,
+ "one": "뱅크오브아메리카가 12억 1,000만 달러 자금세탁방지 벌금 뒤 동의명령 이행 작업을 상당 부분 마쳤다고 해명했지만 주가가 장 초반 8% 급락해 시가총액 약 220억 달러가 사라졌고, 소비재·유통 M&A 뱅커까지 떠나며 인력 이탈이 이어지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T06:45:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "CNN",
+   "u": "https://www.cnn.com/2026/10/13/investing/bank-of-america-billion-dollar-fine"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "워싱턴포스트",
+   "u": "https://www.washingtonpost.com/business/2026/10/13/bank-america-fined-12-billion-by-treasury-department/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "WMBD",
+   "u": "https://wmbdradio.com/2026/10/14/bank-of-america-says-it-has-completed-a-lot-of-work-on-consent-order/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Disruption Banking",
+   "u": "https://www.disruptionbanking.com/2026/10/14/bank-of-america-drops-8-after-1-21bn-fine-as-investors-price-in-more-than-the-penalty/"
+  }
+ ],
+ "tags": [],
+ "title": "BofA 시총 220억 달러 증발…'동의명령 작업 상당 부분 마쳐' 해명 속 뱅커 이탈",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/bank-america-loses-bankers-tells-staff-big-ambition-continued-hiring-2026-10-13/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "실제",
+   "node": "banks",
+   "t": "벌금 뒤 주가 장 초반 8% 급락"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "fin",
+   "k": "예상",
+   "node": "ib",
+   "t": "BofA 소비재·유통 M&A 뱅커 이탈"
+  }
+ ]
+}

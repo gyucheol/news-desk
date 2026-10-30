@@ -1,0 +1,78 @@
+{
+ "basis": "partial",
+ "check": "CFTC 조사·발언자·대상 거래 시점은 검색 결과 요약(EnergyNow·Deccan Herald·Prediction News)으로 확인, 개인 투자자 24시간 원유 거래는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 데이비드 밀러 CFTC 집행국장은 10월 22일 뉴욕 콘퍼런스에서 이란 관련 의심 원유 거래 조사가 진행 중이라고 밝혔다 [사실]",
+  "대상: 3월 23일·4월 7일 등 미국의 대이란 정책 발표 직전에 이뤄진, 시점이 이례적인 거래가 조사 대상이다 [사실]",
+  "배경: CFTC 정무직 인사가 감시 직원에게 3월 거래 관련 집행 의뢰를 철회하라고 지시했다는 보도가 앞서 나왔다 [사실]",
+  "24시간 거래: 개인 투자자들이 우회 경로로 원유를 24시간 거래하고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "원유 거래 감시·접근 확대…CFTC 이란 관련 의심 거래 조사·개인 투자자 24시간 원유 거래",
+ "id": "n-rtr-0678",
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "CFTC가 미국의 대이란 정책 발표 직전에 이뤄진 원유 거래를 조사하고 있다고 밝히면서, 정책 정보를 이용한 거래 의혹이 다시 부각됐다",
+   "t": "美 규제당국, 이란 관련 의심스러운 원유 거래 조사 중…당국자",
+   "u": "https://www.reuters.com/business/energy/us-regulator-is-probing-suspicious-iran-oil-trading-official-says-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "개인 투자자들이 우회 경로를 찾아 원유를 24시간 거래하기 시작하면서, 정규 장 밖에서도 원유 가격 베팅이 이어지고 있다 (제목 기준)",
+   "t": "개인 투자자, 원유 24시간 거래할 우회 경로 찾아",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-23/retail-traders-find-a-back-door-to-24-7-oil-trading"
+  }
+ ],
+ "key": "mix-G1-037-2026-10-23",
+ "nodes": [],
+ "num": 678,
+ "one": "미 상품선물거래위원회(CFTC)가 이란 관련 의심스러운 원유 거래를 조사하고 있다고 밝혔다\n· 데이비드 밀러 CFTC 집행국장은 10월 22일 조사가 처음부터 진행돼 왔고 아직 열려 있다고 말했다\n· 조사는 3월 23일·4월 7일 등 미국의 대이란 정책 발표 직전에 이뤄진 거래에 맞춰져 있다\n· 개인 투자자들은 우회 경로를 찾아 원유를 24시간 거래하고 있다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:52:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "EnergyNow",
+   "u": "https://energynow.com/2026/10/us-regulator-is-probing-suspicious-iran-oil-trading-official-says/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Prediction News",
+   "u": "https://predictionnews.com/story/cftc-iran-trade-probe-raises-prediction-market-oversight-questions"
+  }
+ ],
+ "tags": [],
+ "title": "원유 거래 감시·접근 확대…CFTC 이란 관련 의심 거래 조사·개인 투자자 24시간 원유 거래",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/business/energy/us-regulator-is-probing-suspicious-iran-oil-trading-official-says-2026-10-22/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "수요",
+   "ind": "oil",
+   "k": "실제",
+   "node": "price",
+   "t": "개인 투자자 우회 경로로 원유 24시간 거래"
+  },
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "fin",
+   "k": "실제",
+   "node": "regulation",
+   "t": "CFTC 이란 관련 의심 원유 거래 조사 진행"
+  }
+ ]
+}

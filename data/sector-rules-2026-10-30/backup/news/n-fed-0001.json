@@ -1,0 +1,261 @@
+{
+ "added": "이번 로이터 1건으로 해맥 클리블랜드 연은 총재가 기대 인플레이션이 악화하면 연준이 더 강하게 대응해야 할 수 있다고 경고한 내용이 추가됐다",
+ "basis": "verified",
+ "check": "콜린스·보우먼 연설은 연준 공식 페이지로 확인, 해맥·데일리·굴스비 발언과 9월 CPI 3.7%는 검색 결과 요약으로 확인. 보우먼의 '지켜볼 시간' 발언은 로이터 제목·채널 근거이고 근원 CPI 2.6%는 채널 전언",
+ "cycles": [],
+ "facts": [
+  "무엇이: 수전 콜린스 보스턴 연은 총재는 10월 13일 연설에서 연말 전에 금리를 조금 더 올리는 것이 적절할 것으로 예상한다고 밝혔다 [사실]",
+  "물가: 9월 소비자물가는 전년 대비 3.7% 올라 시장 예상 3.6%를 웃돌았고, 이후 10월 인상 확률이 33%로 높아졌다 [사실]",
+  "데일리·굴스비: 데일리 총재는 추가 인상이 필요할 가능성이 크지만 10월 회의에서 서두를 필요는 없다고 했고, 굴스비 총재는 9월 물가가 실망스럽다면서도 데이터를 더 보겠다고 했다 [사실]",
+  "해맥: 베스 해맥 클리블랜드 연은 총재는 10월 15일 기대 인플레이션이 악화하면 더 공격적인 대응이 필요할 수 있다며 지금 금융여건은 긴축적으로 보이지 않는다고 했다 [사실]",
+  "보우먼: 미셸 보우먼 감독 담당 부의장은 10월 14일 방콕 연설에서 SVB 사태 뒤 감독 의사결정의 권한과 책임을 명확히 하는 틀을 검토 중이라고 밝혔다 [사실]"
+ ],
+ "fed": [
+  {
+   "d": "2026-10-13",
+   "k": "Collins",
+   "kind": "연설",
+   "role": "보스턴 연은 총재",
+   "stance": "매파",
+   "t": "연말 전에 금리를 조금 더 올리는 것이 적절할 것으로 본다고 밝혔다",
+   "u": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx",
+   "who": "수전 콜린스"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Collins",
+   "kind": "발언",
+   "role": "보스턴 연은 총재",
+   "stance": "중립",
+   "t": "2% 물가 목표를 재검토하지 않으며 높은 금리가 경제에 부담이 될 수 있음도 안다고 했다",
+   "u": "https://t.me/insidertracking/66190",
+   "who": "수전 콜린스"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Bowman",
+   "kind": "발언",
+   "role": "감독 담당 부의장",
+   "stance": "중립",
+   "t": "추가 통화정책 조치에 앞서 경제를 지켜볼 시간이 있다고 했다",
+   "u": "https://www.reuters.com/business/feds-bowman-says-theres-time-wait-see-before-any-more-action-2026-10-14/",
+   "who": "미셸 보우먼"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Bowman",
+   "kind": "감독·규제",
+   "role": "감독 담당 부의장",
+   "stance": "",
+   "t": "SVB 사태 뒤 감독 의사결정 권한과 책임을 명확히 하는 개편을 검토 중이라고 밝혔다",
+   "u": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+   "who": "미셸 보우먼"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Goolsbee",
+   "kind": "인터뷰",
+   "role": "시카고 연은 총재",
+   "stance": "중립",
+   "t": "9월 물가가 실망스럽다면서도 데이터를 더 보겠다며 데이터센터발 경기 과열을 경고했다",
+   "u": "https://t.me/insidertracking/66253",
+   "who": "오스턴 굴스비"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Barkin",
+   "kind": "발언",
+   "role": "리치먼드 연은 총재",
+   "stance": "중립",
+   "t": "9월 CPI가 예상보다 높았다며 PPI를 더 확인하겠다고 했고 10월 FOMC 판단은 미뤘다",
+   "u": "https://t.me/insidertracking/66253",
+   "who": "토머스 바킨"
+  },
+  {
+   "d": "2026-10-14",
+   "k": "Daly",
+   "kind": "발언",
+   "role": "샌프란시스코 연은 총재",
+   "stance": "매파",
+   "t": "추가 금리 인상이 필요할 가능성이 매우 높지만 10월 회의에서 서두를 필요는 없다고 했다",
+   "u": "https://t.me/insidertracking/66306",
+   "who": "메리 데일리"
+  },
+  {
+   "d": "2026-10-15",
+   "k": "Hammack",
+   "kind": "발언",
+   "role": "클리블랜드 연은 총재",
+   "stance": "매파",
+   "t": "기대 인플레이션이 악화하면 연준이 더 공격적으로 대응해야 할 수 있다고 경고했다",
+   "u": "https://www.reuters.com/markets/us/feds-hammack-warns-inflation-expectations-deterioration-could-require-fed-2026-10-15/",
+   "who": "베스 해맥"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연준 인사들 \"추가 인상 가능성\"…9월 CPI 3.7%에 콜린스·데일리·해맥 매파 신호",
+ "id": "n-fed-0001",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "연준 공식 보스턴연은",
+   "s": "콜린스 총재가 지역 은행 회의 연설에서 연말 전 금리를 조금 더 올리는 것이 적절하다고 밝히면서 연내 추가 인상 가능성이 커졌다",
+   "t": "콜린스 보스턴 연은 총재, 경제와 은행 환경에 대한 견해 연설",
+   "u": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "콜린스 총재가 2% 물가 목표를 재검토하지 않는다고 하면서도 높은 금리의 경제 부담과 큰 불확실성을 함께 언급해 긴축 속도 조절 여지를 남겼다",
+   "t": "콜린스 '2% 물가 목표 재검토 안 해…높은 금리의 경제 부담도 인식'",
+   "u": "https://t.me/insidertracking/66190"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "보우먼 부의장이 추가 조치에 앞서 상황을 지켜볼 시간이 있다고 밝히면서 당장의 추가 인상에는 신중한 입장을 보였다 (제목 기준)",
+   "t": "연준 보우먼 '추가 조치 전 지켜볼 시간 있다'",
+   "u": "https://www.reuters.com/business/feds-bowman-says-theres-time-wait-see-before-any-more-action-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "보우먼 부의장이 추가 정책 조치 전 경제를 평가할 시간이 있다고 하고 SVB 파산 때 드러난 감독 문제를 고치려 연준 조직 개편을 추진한다고 밝혔다",
+   "t": "보우먼 '추가 조치 전 평가할 시간'…SVB 이후 연준 감독 조직 개편 추진",
+   "u": "https://t.me/insidertracking/66234"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "9월 CPI가 3.7%로 예상을 웃돈 가운데 굴스비가 서비스 물가와 관세 영향을 우려하고 바킨이 PPI를 더 보겠다고 하면서 추가 인상 가능성이 커졌다",
+   "t": "9월 CPI 3.7%로 예상 상회…굴스비 '실망스럽다', 바킨 'PPI 더 봐야'",
+   "u": "https://t.me/insidertracking/66253"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "굴스비 총재가 물가 흐름이 실망스럽다며 데이터센터 건설발 경기 과열 위험을 경고하면서 물가 대응 필요성을 강조했다",
+   "t": "연준 굴스비 '인플레이션 실망스러워'…경기 과열 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-goolsbee-says-inflation-discouraging-warns-of-overheating"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "굴스비 총재가 야후 파이낸스 인터뷰에서 9월 CPI가 실망스럽다고 하면서도 현재 금리로 충분한지는 아직 모른다며 데이터를 더 보겠다고 했다",
+   "t": "연준 굴스비 '9월 CPI 실망스러웠다'(야후 파이낸스 인터뷰)",
+   "u": "https://www.reuters.com/markets/us/feds-goolsbee-says-september-cpi-data-was-discouraging-yahoo-finance-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "데일리 총재가 추가 조정이 필요할 가능성이 매우 높다면서도 10월 27~28일 회의에서 서둘러 결정할 필요는 없다고 해 인상 시점을 열어 뒀다",
+   "t": "데일리 '추가 인상 가능성 매우 높지만 10월 회의서 서두를 필요 없어'",
+   "u": "https://t.me/insidertracking/66306"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "데일리 총재가 금리 인상이 필요할 것 같지만 급하지 않다고 밝히면서 다수 위원이 10월보다 12월 인상을 염두에 두는 흐름이 드러났다",
+   "t": "연준 데일리 '금리 인상 필요할 듯하나 급하지 않아'",
+   "u": "https://www.reuters.com/business/finance/feds-daly-says-rate-hikes-likely-needed-not-urgently-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "연준 공식 이사회",
+   "s": "보우먼 부의장이 SVB 위험을 감독당국이 9개월 넘게 알고도 늦게 대응했다며 검사팀과 감독 지도부의 결정 권한과 책임을 명확히 하는 틀을 제시했다",
+   "t": "보우먼 부의장 'SVB 사태 이후의 감독 현대화' 연설",
+   "u": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "데일리 총재가 에너지 가격이 헤드라인 물가를 자극하고 근원 물가도 높다고 평가하면서도 고용이 안정적이라 인상 시점은 신중히 보겠다고 했다",
+   "t": "데일리 '에너지발 물가 압력 지속…인상 시점은 신중히 검토'",
+   "u": "https://t.me/insidertracking/66342"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "해맥 총재가 골드만삭스 행사에서 가계와 기업의 인플레이션 심리가 굳어지면 연준이 더 긴축해야 할 수 있다고 경고했다",
+   "t": "연준 해맥 '기대 인플레이션 악화하면 연준 대응 필요할 수도'",
+   "u": "https://www.reuters.com/markets/us/feds-hammack-warns-inflation-expectations-deterioration-could-require-fed-2026-10-15/"
+  }
+ ],
+ "key": "mix-G1-002-2026-10-15",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "num": 1,
+ "one": "9월 소비자물가가 3.7% 올라 예상을 웃돈 뒤 콜린스·데일리 총재가 연내 추가 금리 인상 가능성을 시사하고 해맥 총재가 기대 인플레이션이 나빠지면 더 강한 대응이 필요하다고 경고하면서, 10월 27~28일 FOMC를 앞두고 추가 긴축 기대가 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:39:00+09:00",
+ "source": "연준 공식",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "연준 공식 보스턴연은",
+   "u": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "보스턴 연은(콜린스 연설)",
+   "u": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "연준 이사회(보우먼 연설)",
+   "u": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "investingLive(데일리)",
+   "u": "https://investinglive.com/central-banks/fed-s-daly-more-rate-hikes-likely-needed-but-no-urgency-to-move-in-october/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Yahoo Finance(굴스비)",
+   "u": "https://finance.yahoo.com/economy/policy/article/chicago-feds-goolsbee-calls-september-inflation-discouraging-but-favors-waiting-on-more-data-185843740.html"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "investingLive(해맥)",
+   "u": "https://investinglive.com/central-banks/fed-s-hammack-questions-whether-fed-policy-is-tight-enough-as-inflation-risks-build/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
+  }
+ ],
+ "tags": [],
+ "title": "연준 인사들 \"추가 인상 가능성\"…9월 CPI 3.7%에 콜린스·데일리·해맥 매파 신호",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "예상",
+   "node": "cb",
+   "t": "콜린스·데일리·해맥, 추가 금리 인상 가능성 시사"
+  },
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "실제",
+   "node": "inflation",
+   "t": "9월 소비자물가 3.7% 올라 예상 상회"
+  }
+ ]
+}

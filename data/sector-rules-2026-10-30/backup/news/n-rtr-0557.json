@@ -1,0 +1,50 @@
+{
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 은행 예금이 9월 3조 규모로 사상 최대를 기록했다 [제목]",
+  "원인: 달러 예금 증가가 예금 확대를 이끌었다 [제목]",
+  "의미: 예금이 늘면 은행의 대출 재원이 넉넉해진다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 은행 예금, 달러 예금 힘입어 9월 사상 최대 3조 기록",
+ "id": "n-rtr-0557",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "t": "인도 은행 예금, 달러 예금 힘입어 9월 사상 최대 3조 기록",
+   "u": "https://www.reuters.com/world/india/indian-bank-deposits-hit-record-3-trillion-september-boosted-by-dollar-deposits-2026-10-15/"
+  }
+ ],
+ "key": "split-G5-082-2026-10-20",
+ "nodes": [],
+ "num": 557,
+ "one": "인도 은행 예금이 달러 예금 증가에 힘입어 9월 3조 규모로 사상 최대를 기록하면서, 은행의 대출 재원이 넉넉해졌고 대출 증가세를 이어 갈 여력이 커질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [],
+ "tags": [],
+ "title": "인도 은행 예금, 달러 예금 힘입어 9월 사상 최대 3조 기록",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indian-bank-deposits-hit-record-3-trillion-september-boosted-by-dollar-deposits-2026-10-15/",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "fin",
+   "k": "실제",
+   "node": "banks",
+   "t": "달러 예금 힘입어 9월 예금 사상 최대"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 별도 확인 안 함, 블룸버그 뉴스레터 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 사모펀드의 '심한 과대평가' 시대가 저물고 좀비 펀드가 늘고 있다 [제목]",
+  "범위: 평가 하락 폭과 좀비 펀드 수는 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사모펀드 '심한 과대평가' 시대 퇴조…좀비 펀드는 늘어",
+ "id": "n-bbg-0841",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "t": "사모펀드 '심한 과대평가' 시대 퇴조, 좀비 펀드 증가",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/heard-on-y-all-street-way-over-marked-pe-era-fades-while-zombies-rise"
+  }
+ ],
+ "key": "mix-G2-067-2026-10-30",
+ "nodes": [],
+ "num": 841,
+ "one": "사모펀드 자산을 크게 부풀려 평가하던 시대가 저물고 좀비 펀드가 늘고 있다는 진단이 나왔다\n· 블룸버그 뉴스레터는 이를 '심하게 과대평가된' 사모펀드 시대의 퇴조로 표현했다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T01:30:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "사모펀드 '심한 과대평가' 시대 퇴조…좀비 펀드는 늘어",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/heard-on-y-all-street-way-over-marked-pe-era-fades-while-zombies-rise",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "fin",
+   "k": "예상",
+   "node": "assetmgmt",
+   "t": "사모펀드 과대평가 시대 퇴조·좀비 펀드 증가"
+  }
+ ]
+}

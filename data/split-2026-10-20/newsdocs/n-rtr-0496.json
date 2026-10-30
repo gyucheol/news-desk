@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0496",
+ "num": 496,
+ "key": "split-G4-042-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI 붐발 자금 쟁탈에 각국 중앙은행 금리 인상 저울질",
+ "headline": "AI 붐발 자금 쟁탈에 각국 중앙은행 금리 인상 저울질",
+ "one": "로이터에 따르면 AI 붐이 투자 자금 쟁탈을 부추기며 금리를 밀어 올리자 각국 중앙은행이 금리 인상을 저울질하고 있어, 기업과 정부의 차입 비용이 더 오를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: AI 붐이 자금 쟁탈을 부추기면서 각국 중앙은행이 금리 인상을 저울질하고 있다(10월 17일 로이터) [제목]",
+  "영향: 기업과 정부의 차입 비용이 더 오를 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 17일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "AI 붐발 자금 쟁탈에 중앙은행들 금리 인상 저울질",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI 붐발 자금 쟁탈에 중앙은행들 인상 저울질"
+  }
+ ],
+ "ind": "semis"
+}

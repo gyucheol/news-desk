@@ -1,0 +1,81 @@
+{
+ "basis": "verified",
+ "check": "레저의 판매 정책·변조 방지 재검토, 동남아·홍콩 재판매상 판매 중단 요청과 재고·반품 지침, 직판 피해 없음, Genuine Check 한계, 미디어마크트 철수, 원키·트레저 대응은 검색 결과 요약(쿼츠·톰스하드웨어·코인데스크·PYMNTS·크립토브리핑)으로 확인. 피해액은 7,200만~9,320만 달러로 출처마다 다르고 레저는 총액을 확인하지 않음.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 레저가 약 9,000만 달러 피해를 낸 하드웨어 이식 공격 뒤 재판매상·판매 통제와 변조 방지 장치를 재검토하고 있다 [사실]",
+  "판매 중단: 레저는 인도네시아·싱가포르·태국·필리핀·베트남·말레이시아·홍콩 재판매상에 판매 중단을 요청하고 공식 경로로만 재고를 들이며 반품 기기를 다시 팔지 말라고 했고, 직접 판매 기기는 피해가 없다고 밝혔다 [사실]",
+  "한계: 레저는 정품 인증 기능(Genuine Check)이 보안칩을 건드리지 않고 덧붙인 하드웨어는 잡아내도록 설계되지 않았다고 인정했다 [사실]",
+  "확산: 독일 미디어마크트가 레저 제품을 매장·온라인에서 내렸고, 원키·트레저도 일부 판매처와의 관계를 중단하거나 재검토하고 있다 [사실]",
+  "기존: 원키는 10월 12일 변조 기기를 판 크립토빌리스의 판매 권한을 취소하고 3월 1일~10월 12일 구매 기기를 12월 31일까지 무상 교체하기로 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{레저}}, {{9,000만 달러}} 스파이칩 피해에 {{동남아·홍콩 재판매 중단}}…{{지갑 유통망}} {{재정비}} 확산",
+ "id": "n-bbg-0279",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "암호화폐 지갑 변조 파장 확산…원키, 재판매상과 거래 중단",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/crypto-wallet-tampering-fallout-widens-as-onekey-drops-reseller"
+  },
+  {
+   "t": "9,000만 달러 스파이웨어 해킹에 암호화폐 지갑 판매 방식 재검토",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/ledger-to-review-sale-policies-after-crypto-spyware-attack",
+   "s": "약 {{9,000만 달러}} {{스파이웨어 해킹}}이 {{레저}}의 {{판매 정책 재검토}}로 이어지면서 {{동남아·홍콩 재판매상}}의 레저 {{판매}}가 {{멈췄}}다"
+  }
+ ],
+ "key": "mix-C186-2026-10-13",
+ "nodes": [],
+ "num": 279,
+ "one": "{{레저}}가 {{약 9,000만 달러 피해}}를 낸 스파이칩 이식 사건 뒤 {{동남아·홍콩 재판매상}}에 {{판매 중단}}을 요청하고 {{변조 방지 대책}}을 {{재검토}}하는 가운데 {{원키·트레저}}도 판매처 관계를 {{끊거나 점검}}하면서, {{하드웨어 지갑 유통}}이 {{공식 경로 중심}}으로 {{재편될}} 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T20:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "The Crypto Times",
+   "u": "https://www.cryptotimes.io/2026/10/12/onekey-drops-cryptobilis-replaces-wallets-sold-since-march-1-after-ledger-implant-find/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/onekey-cuts-off-cryptobilis-free-replacements/"
+  },
+  {
+   "o": "쿼츠",
+   "d": "2026-10-14",
+   "u": "https://qz.com/ledger-reseller-controls-spy-chip-crypto-theft-101426"
+  },
+  {
+   "o": "톰스하드웨어",
+   "d": "2026-10",
+   "u": "https://www.tomshardware.com/tech-industry/cryptocurrency/ledger-to-review-sales-and-anti-tamper-policies-after-usd93-million-hardware-wallet-supply-chain-attack-rogue-lte-implants-reportedly-stole-users-recovery-phrases"
+  },
+  {
+   "o": "코인데스크",
+   "d": "2026-10-13",
+   "u": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network"
+  },
+  {
+   "o": "PYMNTS",
+   "d": "2026-10",
+   "u": "https://www.pymnts.com/cryptocurrency/2026/ledger-suspends-southeast-asian-resellers-during-90-million-crypto-wallet-hack-investigation/"
+  }
+ ],
+ "tags": [],
+ "title": "{{레저}}, {{9,000만 달러}} 스파이칩 피해에 {{동남아·홍콩 재판매 중단}}…{{지갑 유통망}} {{재정비}} 확산",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/crypto-wallet-tampering-fallout-widens-as-onekey-drops-reseller",
+ "added": "이번 블룸버그 1건으로 {{레저}}가 {{약 9,000만 달러 피해}} 뒤 {{동남아·홍콩 재판매상 판매}}를 {{멈추게}} 하고 {{판매 정책·변조 방지 대책}}을 {{재검토}}한다는 내용이 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "basis": "channel",
+ "check": "검색 아낌(텔레그램 1건, 원문 구체적). ASML 양산 시기·2027년 경쟁 구도·베시 3개월 46.8% 하락은 채널만",
+ "cycles": [],
+ "facts": [
+  "무엇이: 채널이 전한 분석은 특허·공급망 보도·기술 로드맵을 근거로 ASML이 다이-투-웨이퍼 하이브리드 본딩 장비를 개발 중이라고 봤다 [채널]",
+  "시기: ASML 양산은 2030년 이전에는 어렵고, 2027년 실제 경쟁은 베시·한화·세메스·중국 장비업체 사이에서 벌어질 것으로 봤다 [채널]",
+  "주가: 분석은 하이브리드 본딩이 후공정에서 전공정 장비로 재정의되는 것이 베시 주가가 3개월간 46.8% 내린 이유라고 했다 [채널]",
+  "중국: 하이브리드 본딩 장비 본체의 중국 국산화율은 아직 5% 미만이다 [채널]",
+  "기존: 10월 16일 암스테르담 장 초반 베시는 약 2.7% 내린 159.05유로였고, 보고서는 HBM의 다이-투-웨이퍼 채택이 2029년 이후로 밀릴 것으로 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "ASML 하이브리드 본딩 진출 관측…2027년엔 베시·한화·세메스 격전 전망",
+ "id": "n-rtr-0358",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "ASML 경쟁 하이브리드 본딩 제품 개발 보도에 베시 주가 하락",
+   "u": "https://www.reuters.com/business/besi-shares-fall-report-asml-is-working-rival-hybrid-bonding-product-2026-10-16/"
+  },
+  {
+   "t": "ASML 하이브리드 본딩 진출 확정…2027년 업계 격전, 밸류에이션 깎이나",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70605",
+   "s": "ASML 진출로 하이브리드 본딩이 전공정 장비로 재정의되면서 베시 주가가 3개월간 46.8% 내렸고 2027년엔 베시·한화·세메스가 경쟁할 전망이다"
+  }
+ ],
+ "key": "mix-G1-059-2026-10-17",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 358,
+ "one": "세미애널리시스 보도로 ASML의 하이브리드 본딩 장비 개발이 알려진 뒤 ASML 양산은 2030년 전엔 어렵고 2027년 경쟁은 베시·한화·세메스·중국 업체 사이에서 벌어진다는 분석이 나오면서, 유일한 양산 공급사인 베시의 밸류에이션이 흔들리고 있다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T16:17:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/aeeb7ea9-2962-419e-813f-c8347c958ab4"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/besi-stumbled-after-a-report-linked-asml-to-hybrid-bonding"
+  }
+ ],
+ "tags": [],
+ "title": "ASML 하이브리드 본딩 진출 관측…2027년엔 베시·한화·세메스 격전 전망",
+ "url": "https://www.reuters.com/business/besi-shares-fall-report-asml-is-working-rival-hybrid-bonding-product-2026-10-16/",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "ASML 진출로 하이브리드 본딩 장비 경쟁사 늘어남"
+  }
+ ],
+ "added": "텔레그램 1건 — ASML 양산 2030년 이후 관측, 2027년 베시·한화·세메스·중국 업체 경쟁 구도, 베시 3개월 46.8% 하락 분석 내용이 추가됨",
+ "updatedAt": "2026-10-18T21:41:11+09:00"
+}

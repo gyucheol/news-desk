@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0801",
+ "num": 801,
+ "key": "mix-G1-043-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:59:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/biggest-pharmacy-chain-in-malaysia-plans-565-million-share-sale",
+ "origTitle": "",
+ "headline": "말레이시아 최대 약국 체인 빅케어링, 5.65억 달러 주식 매각…11월 19일 상장 목표",
+ "src": [
+  {
+   "o": "The Edge Malaysia",
+   "d": "2026-10-29",
+   "u": "https://theedgemalaysia.com/node/823732"
+  },
+  {
+   "o": "Business Today",
+   "d": "2026-10-29",
+   "u": "https://businesstoday.com.my/2026/10/29/big-caring-targets-rm8-billion-valuation-in-ipo-listing-set-for-nov-19"
+  }
+ ],
+ "items": [
+  {
+   "t": "말레이시아 최대 약국 체인, 5.65억 달러 주식 매각 계획",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/biggest-pharmacy-chain-in-malaysia-plans-565-million-share-sale"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer",
+  "fin"
+ ],
+ "nodes": [],
+ "title": "말레이시아 최대 약국 체인 빅케어링, 5.65억 달러 주식 매각…11월 19일 상장 목표",
+ "one": "말레이시아 최대 약국 체인 빅케어링이 5.65억 달러 규모 주식 매각(IPO)에 나섰다\n· 공모가 상단은 주당 1.08링깃이며 11월 19일 상장 뒤 시가총액 약 80억 링깃을 노린다\n· 신주 대금의 89.5%는 은행 차입 상환에 쓰고 기존 주주들은 구주 매출로 14억 링깃을 가져간다",
+ "facts": [
+  "무엇이: 말레이시아 최대 약국 체인이 5.65억 달러 주식 매각을 계획한다 [제목]",
+  "조건: 빅케어링은 신주 5.905억 주(약 6.378억 링깃)와 구주 13억 주를 주당 최대 1.08링깃에 팔아 11월 19일 부르사 말레이시아 메인마켓에 상장하고 시가총액 약 80억 링깃을 목표로 한다 [사실]",
+  "자금·수요: 신주 대금의 89.5%는 상장 3개월 안에 은행 차입 상환에 쓰고, 사모펀드 크레아도르(9.33억 링깃) 등 기존 주주가 14억 링깃을 받으며, 코너스톤 투자자 19곳이 기관 물량의 96.2%를 약정했다 [사실]",
+  "엇갈린 규모: 현지 보도의 총조달액은 20.3억 링깃과 24.5억 링깃(6억 달러)으로 엇갈린다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 빅케어링 IPO 조건(주당 1.08링깃·11월 19일 상장·시총 80억 링깃) 확인. 5.65억 달러 환산액은 확인 못 함",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "빅케어링 5.65억 달러 주식 매각으로 공모 물량 증가"
+  }
+ ]
+}

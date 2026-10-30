@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0349",
+ "num": 349,
+ "key": "mix-G4-062-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T05:51:00+09:00",
+ "url": "https://www.reuters.com/business/environment/france-germany-near-deal-car-emissions-britain-made-eu-status-2026-10-15/",
+ "origTitle": "",
+ "headline": "佛·獨, 차 배출가스 규제 완화·영국 '메이드 인 EU' 편입 합의 근접",
+ "src": [
+  {
+   "o": "France24(AFP)",
+   "d": "2026-10-15",
+   "u": "https://www.france24.com/en/live-news/20261015-france-germany-reach-deal-on-future-of-car-industry-1"
+  },
+  {
+   "o": "Global Banking and Finance",
+   "d": "2026-10-15",
+   "u": "https://www.globalbankingandfinance.com/france-germany-near-deal-car-emissions-britain-made-eu/"
+  }
+ ],
+ "items": [
+  {
+   "t": "佛·獨, 차 배출가스·영국 '메이드 인 EU' 지위 합의 근접",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/environment/france-germany-near-deal-car-emissions-britain-made-eu-status-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "佛·獨, 차 배출가스 규제 완화·영국 '메이드 인 EU' 편입 합의 근접",
+ "one": "프랑스와 독일이 2035년 차 CO2 감축 목표를 90%로 낮추고 조건부로 영국을 '메이드 인 유럽' 자동차 정의에 넣는 안에 합의를 앞두면서, EU 승인을 거치면 유럽 완성차의 2035년 배출 규제 부담이 줄 수 있다",
+ "facts": [
+  "무엇이: 프랑스와 독일이 자동차 배출가스와 영국의 '메이드 인 EU' 지위에 관한 합의에 근접했다 [사실]",
+  "배출: 안은 2035년 차 CO2 감축 목표를 추가 상쇄 없이 90%로 정하는 것이다 [사실]",
+  "영국: 영국 편입은 완전한 상호주의와 제3국 투자 조건·EU 무역보호 조치에 대한 동적 정렬이 조건이어서, 영국이 중국산 하이브리드·전기차 수입 제한을 따라야 할 수 있다 [사실]",
+  "절차: 시행되려면 다른 EU 회원국과 유럽의회를 설득해야 한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(France24·KFGO·Global Banking and Finance): 2035년 목표 90%, 영국 편입 조건, EU 승인 필요. 로이터는 '근접', AFP는 독일 최종 승인 전 합의로 표현",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "佛·獨, 2035년 차 CO2 감축 목표 90%로 완화 추진"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0703",
+ "num": 703,
+ "key": "mix-G1-094-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:52:00+09:00",
+ "url": "https://www.reuters.com/world/africa/south-africas-pick-n-pay-withdraws-restructuring-process-sees-narrower-interim-2026-10-22/",
+ "origTitle": "",
+ "headline": "남아공 픽앤페이, 2만 2,000명 대상 구조조정 철회…상반기 주당 손실 25~35% 축소",
+ "src": [
+  {
+   "o": "BusinessDay",
+   "d": "2026-10-22",
+   "u": "https://www.businessday.co.za/companies/2026-10-22-pick-n-pay-drops-restructuring-plan-as-interim-loss-narrows/"
+  },
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10-22",
+   "u": "https://www.cnbcafrica.com/2026/south-africas-pick-n-pay-withdraws-restructuring-process-sees-narrower-interim-loss"
+  }
+ ],
+ "items": [
+  {
+   "t": "남아공 픽앤페이, 구조조정 절차 철회…중간 적자 축소 전망",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/africa/south-africas-pick-n-pay-withdraws-restructuring-process-sees-narrower-interim-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "남아공 픽앤페이, 2만 2,000명 대상 구조조정 철회…상반기 주당 손실 25~35% 축소",
+ "one": "남아공 유통업체 픽앤페이가 노조와 합의한 뒤 대규모 구조조정 절차를 철회했다\n· 5월 4일 시작한 매장 직원 약 2만 2,000명 대상 감원 협의를 주 노조와 합의하며 끝냈다\n· 8월 30일까지 26주 주당 헤드라인 손실은 25~35% 줄어든 38.85~44.83센트로 예상된다",
+ "facts": [
+  "무엇이: 픽앤페이가 노동관계법 189A조에 따른 대규모 감원 협의를 노조 사카우와 합의한 뒤 철회했다 [사실]",
+  "실적 전망: 상반기 주당 헤드라인 손실이 25~35% 줄어 38.85~44.83센트가 될 것으로 내다봤다 [사실]",
+  "요인: 할인점 박서의 영업이익 증가와 본업 픽앤페이 부문 영업손실 축소가 손실을 줄였다 [사실]",
+  "일정: 상반기 실적은 10월 26일 발표하고 2027년 2월 1일 스펜서 손이 CEO를 맡는다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(BusinessDay·CNBC아프리카)으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "할인점 박서 이익 증가로 상반기 손실 축소"
+  }
+ ]
+}

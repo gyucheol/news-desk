@@ -1,0 +1,66 @@
+{
+ "id": "n-tg-0334",
+ "num": 334,
+ "key": "split-G1-029-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10193",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "혁명수비대, 카타르 북쪽·UAE 푸자이라 인근 유조선 공격",
+ "headline": "혁명수비대, 카타르 북쪽·UAE 푸자이라 인근 유조선 공격",
+ "one": "이란 혁명수비대가 8일 24시간 사이 UAE 푸자이라 인근 VLCC와 카타르 북쪽 해역 선박을 잇달아 공격하면서, 호르무즈 밖 페르시아만·오만만을 지나는 선박도 공격 대상이 될 수 있게 됐다",
+ "facts": [
+  "무엇이: 카타르 북쪽과 UAE 푸자이라 인근에서 유조선이 공격받아 호르무즈 밖으로 공격이 번졌다 [사실]",
+  "주체: 채널은 이란 혁명수비대가 24시간 새 UAE 인근 VLCC와 카타르 인근 선박을 공격했다고 전했다 [채널]",
+  "의미: 호르무즈 밖 페르시아만·오만만 선박도 공격 대상이 될 수 있다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 트릴리온 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 카타르 북쪽 유조선 피격과 UAE 인근 사건은 원 문서 출처 목록의 알자지라·Newsquawk 보도로 뒷받침, 혁명수비대 소행은 채널 전언",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-08",
+   "u": "https://www.aljazeera.com/amp/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/oil-tanker-assembly-site-reportedly-explodes-near-uae-mizan-reports"
+  }
+ ],
+ "items": [
+  {
+   "t": "호르무즈 밖으로 번진 유조선 공격…카타르 북쪽·UAE 푸자이라 인근 피격",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10193"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "호르무즈 밖 카타르·푸자이라 인근 유조선 피격"
+  }
+ ],
+ "channel": "트릴리온"
+}

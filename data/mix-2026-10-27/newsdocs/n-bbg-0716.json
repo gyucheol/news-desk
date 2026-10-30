@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0716",
+ "num": 716,
+ "key": "mix-G1-046-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T14:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/webuild-odebrecht-in-line-to-build-key-african-copper-rail-line",
+ "origTitle": "",
+ "headline": "웨빌드·오데브레시트, 아프리카 구리 철도 건설 유력…앙골라 로비토 회랑 830km 구간",
+ "src": [
+  {
+   "o": "Mining Weekly",
+   "d": "2026-10-27",
+   "u": "https://www.miningweekly.com/?al_id=3371681"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-27",
+   "u": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---27th-october-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "웨빌드·오데브레시트, 아프리카 핵심 구리 철도 건설 유력",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/webuild-odebrecht-in-line-to-build-key-african-copper-rail-line"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "웨빌드·오데브레시트, 아프리카 구리 철도 건설 유력…앙골라 로비토 회랑 830km 구간",
+ "one": "이탈리아 웨빌드와 브라질 오데브레시트가 아프리카 핵심 구리 철도 건설을 맡을 유력 후보로 떠올랐다\n· 두 회사가 속한 우선협상 컨소시엄은 앙골라 로비토 회랑 철도 830km 구간을 짓게 된다\n· 이 구간은 중앙아프리카 구리·코발트 광산 지대와 앙골라 대서양 연안을 잇는다",
+ "facts": [
+  "무엇이: 웨빌드와 오데브레시트가 아프리카 핵심 구리 철도 건설의 유력 후보가 됐다 [제목]",
+  "사업: 두 회사가 포함된 우선협상 컨소시엄이 로비토 회랑 철도 830km 구간을 맡아 중앙아프리카 구리·코발트 광산 지대와 앙골라 대서양 연안을 잇는다 [사실]",
+  "단계: 계약 확정 보도는 아직 없고 우선협상 대상 단계다 [사실]",
+  "시장: 웨빌드 주가는 0.41% 오른 1.95유로였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로비토 회랑 830km 구간 우선협상 컨소시엄 참여와 웨빌드 주가는 검색 결과 요약으로 확인. 최종 계약은 확인 못 함",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "construction",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "로비토 회랑 구리 철도 830km 구간 우선협상 선정"
+  }
+ ]
+}

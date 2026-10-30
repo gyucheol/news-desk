@@ -1,0 +1,704 @@
+{
+ "id": "macro",
+ "summary": "매크로는 8개 산업 모두에 걸리는 자본비용·물가·환율·유동성의 배경입니다. 10월 중순 현재 미국 9월 소비자물가가 3.7%로 예상을 웃돌고 브렌트유가 5월 이후 처음 110달러에 닿아 물가 쪽 압력이 다시 커졌고, 일본은행·ECB의 추가 인상론도 이어집니다. 성장은 AI 투자(아시아 수출, 반도체 생산)와 낮은 실업수당 청구가 받치지만, 미국 9월 일자리 2만 9,000명, 뉴욕연은 서비스업 업황 -20.7, 캐나다·호주 고용 감소처럼 식는 신호가 늘었습니다. 지금 가장 빠듯한 곳은 자금입니다. 코어위브 채권 16%, CCC 스프레드 1,000bp, 모기지 금리 7.5%로 빚에 기대는 AI 인프라와 주택부터 조달 비용이 오릅니다. 성장·물가 4국면으로는 ② 과열·긴축을 유지하되 ③ 스태그플레이션 쪽 신호가 더 쌓여 확신도는 낮습니다. 여기의 국면은 자본순환 8국면과 별개이며, 각 산업 판정의 배경 변수로만 씁니다.",
+ "state": {
+  "cb": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63748",
+    "nid": "n-bbg-0343",
+    "t": "워시 연준 의장은 10월 16일 IMF 대담에서 남은 회의 결정을 예단하지 않겠다며 금리 경로 가이던스를 내지 않았고, 블룸버그는 이로써 동결 베팅이 커졌다고 전했습니다 [제목]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-16/boj-s-ueda-can-t-tolerate-underlying-inflation-further-over-2",
+    "nid": "n-bbg-0082",
+    "t": "우에다 일본은행 총재는 기조 인플레이션이 2%에 거의 다가와 더 빨라지는 것은 용인할 수 없다며 금리 인상을 이어 가겠다고 했습니다 [사실]"
+   }
+  ],
+  "rates": [
+   {
+    "d": "2026-10-16",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield",
+    "nid": "n-bbg-0234",
+    "t": "투자자들이 더 높은 수익률을 요구해 3억 4,600만 달러 주택저당증권 발행이 보류됐고, 30년 모기지 금리는 2023년 11월 이후 최고인 7.50%입니다 [사실]"
+   }
+  ],
+  "fiscal": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/66514",
+    "nid": "n-bbg-0340",
+    "t": "미국 2026회계연도 재정적자가 1조 9,900억 달러로 2021년 이후 최대였고, 총이자 지출은 1조 3,600억 달러로 사상 최고입니다 [사실]"
+   }
+  ],
+  "inflation": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70556",
+    "nid": "n-bbg-0052",
+    "t": "미국 9월 수입물가가 전월 대비 1.1%, 전년 대비 8.1% 올라 2022년 7월 이후 최대폭이었고, 수입 연료는 1년 새 34.5% 올랐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/",
+    "nid": "n-bbg-0312",
+    "t": "뉴욕연은 10월 서비스업 조사에서 판매가격 지수가 36.3으로 4년 만의 최고였고, 업황 지수는 -20.7로 3월 이후 최저였습니다 [사실]"
+   }
+  ],
+  "growth": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/us-manufacturing-output-rises-september-2026-10-16/",
+    "nid": "n-bbg-0348",
+    "t": "미국 9월 제조업 생산은 0.3%, 전체 산업생산은 0.7% 늘었고 반도체·전자부품은 2.1% 늘었지만 자동차 생산은 3개월 연속 줄었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-09",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/canadian-dollar-hits-18-month-low-jobs-data-clips-rate-hike-bets-2026-10-09/",
+    "nid": "n-rtr-0236",
+    "t": "캐나다 9월 일자리가 약 6만 8,000개 줄어(예상 약 9,000개 증가) 두 달 연속 감소했고 실업률은 6.5%로 올랐습니다 [사실]"
+   }
+  ],
+  "semis": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/retail-consumer/asmls-sold-out-outlook-forces-investors-look-beyond-demand-2026-10-15/",
+    "nid": "n-bbg-0324",
+    "t": "ASML 3분기 매출은 사상 최대인 117억 유로였고, 고객들은 최소 2028년까지 수요가 장비 공급을 웃돌 것이라며 일부는 2028년 주문을 냈습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70553",
+    "nid": "n-rtr-0025",
+    "t": "필라델피아 반도체지수가 16일까지 8거래일 연속 떨어져 2008년 이후 최장 하락이었고 주간 낙폭은 11.4%였습니다 [사실]"
+   }
+  ],
+  "liquidity": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/government/coreweaves-ceo-sold-nearly-1-billion-stock-since-ipo-filings-show-2026-10-16/",
+    "nid": "n-bbg-0049",
+    "t": "코어위브 2031년 만기 달러채 수익률이 10월 15일 한때 16%를 넘고 부도보험료가 1,000bp를 넘어 사상 최고였습니다 [사실]"
+   },
+   {
+    "d": "2026-09-30",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-morgan-stanley-traders-are-split-over-virgin-media-debt",
+    "nid": "n-bbg-0233",
+    "t": "CCC 등급 회사채 스프레드가 9월 30일 약 1,007bp로 SVB 사태 이후 처음 1,000bp를 넘었습니다 [사실]"
+   }
+  ],
+  "fx": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70551",
+    "nid": "n-rtr-0315",
+    "t": "외국인이 9월 아시아 5개국 채권을 82억 1,000만 달러 순매도해 2020년 3월 이후 최대 유출이었고, 한국에서 약 63억 달러가 빠졌습니다 [사실]"
+   }
+  ],
+  "commodity": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70548",
+    "nid": "n-bbg-0077",
+    "t": "브렌트유가 16일 5월 이후 처음 배럴당 110달러에 닿은 뒤 109.86달러에, WTI는 9월 17일 이후 최고인 101.41달러에 마감했습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-14",
+   "kind": "price",
+   "o": "뉴욕타임스",
+   "u": "https://www.nytimes.com/live/2026/10/14/business/inflation-cpi-report-september",
+   "nid": "n-fed-0001",
+   "t": "미국 9월 소비자물가가 전년 대비 3.7% 올라 시장 예상 3.6%를 웃돌았고, 발표 뒤 10월 인상 확률은 33%로 높아졌습니다 [사실]"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70423",
+   "nid": "n-bbg-0310",
+   "t": "중국 9월 생산자물가가 전년 대비 5.0% 올라 2022년 6월 이후 최고였고, 소비자물가는 0.9%에 그쳤습니다 [사실]",
+   "kind": "price"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/retail-consumer/this-chinese-export-boom-really-has-legs-wings-2026-10-15/",
+   "nid": "n-rtr-0287",
+   "t": "중국 9월 수출이 전년 대비 36.3% 늘어 4,471억 8,000만 달러였고, 무역흑자는 1,335억 달러, 1~9월 누적 흑자는 9,381억 달러였습니다 [사실]",
+   "kind": "demand"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10603",
+   "nid": "n-tg-0161",
+   "t": "IEA 기준 9월 걸프 원유 수출은 하루 1,390만 배럴로 전쟁 전의 75%를 넘었고, UAE 생산은 하루 530만 배럴로 사상 최대였습니다 [사실]",
+   "kind": "supply"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0312",
+   "t": "재검토 필요: 서비스업 판매가격은 4년 만의 최고인데 업황 지수가 -20.7로 떨어진 조합이 ③ 스태그플레이션 쪽을 가리키며, 물가는 오르고 활동은 식는 모습이기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0236",
+   "t": "재검토 필요: 캐나다(-6만 8,000개)와 호주(-3만 9,300명)의 9월 고용 감소가 ③ 스태그플레이션(길게는 ④) 쪽을 가리키며, 에너지 물가 속에 미국 밖 성장부터 꺾이기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0049",
+   "t": "재검토 필요: 코어위브 채권 16%와 데이터센터 채권 약세가 ③ 스태그플레이션 쪽을 가리키며, 성장을 받치던 AI 투자가 조달 비용에 막힐 수 있기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a2": [
+   {
+    "t": "월러 연준 이사는 장기금리 상승이 주택·자동차 수요를 눌러 긴축의 일을 일부 하고 있고 기대인플레이션은 잘 고정됐다고 말했습니다. 금리가 대신 조여 주면 추가 인상 폭이 줄 수 있습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-13",
+      "u": "https://t.me/insidertracking/66122"
+     }
+    ]
+   },
+   {
+    "t": "BIS 사무총장과 베일리 영란은행 총재가 에너지 충격의 2차 물가 효과가 아직 완만하다고 했고, 워시 의장은 가이던스를 내지 않았습니다. 2차 효과가 끝내 약하면 중앙은행이 인상을 멈추고 장기금리가 되돌려질 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/world/middle-east/bis-chief-sees-moderate-second-round-inflation-effects-iran-war-so-far-2026-10-09/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/uk/bank-englands-bailey-says-second-round-inflation-pressures-look-subdued-so-far-2026-10-16/"
+     },
+     {
+      "o": "텔레그램 Polaristimes",
+      "d": "2026-10-16",
+      "u": "https://t.me/The_MariTimes/63748"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "AI 투자의 돈줄이 현금에서 빚으로 넘어가고 있습니다. BofA는 앞으로 12개월 잉여현금흐름이 플러스로 남을 하이퍼스케일러를 마이크로소프트 한 곳으로 봤고, 아마존·알파벳·오라클·메타는 2027년까지 마이너스가 될 수 있다고 봤습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-16",
+      "u": "https://t.me/insidertracking/66461"
+     }
+    ]
+   },
+   {
+    "t": "AI 장비 수요는 여전히 공급을 웃돕니다. ASML 고객들은 최소 2028년까지 수요가 공급을 넘는다고 했고, TSMC 회장은 수요·공급 격차가 크며 후공정 능력이 모자란다고 인정했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/retail-consumer/asmls-sold-out-outlook-forces-investors-look-beyond-demand-2026-10-15/"
+     },
+     {
+      "o": "텔레그램 Polaristimes",
+      "d": "2026-10-16",
+      "u": "https://t.me/The_MariTimes/63739"
+     }
+    ]
+   },
+   {
+    "t": "AI 수요가 아시아 교역 물량으로 이어집니다. 중국 9월 수출은 36.3%, 싱가포르 비석유 수출은 68.4% 늘었고 한국 9월 수출은 1,209억 달러로 사상 최대였습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/retail-consumer/this-chinese-export-boom-really-has-legs-wings-2026-10-15/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/asia-pacific/malaysias-economy-grows-53-year-q3-official-advance-estimate-shows-2026-10-16/"
+     },
+     {
+      "o": "뉴스핌",
+      "d": "2026-10-01",
+      "u": "https://www.newspim.com/news/view/20261001000310"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "신용시장이 AI 차입에 값을 매기고 있습니다. 코어위브 채권 수익률이 16%를 넘고 데이터센터 채권이 87~92센트로 밀려, 빚으로 짓는 연산 설비의 속도가 금리에 묶일 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/legal/government/coreweaves-ceo-sold-nearly-1-billion-stock-since-ipo-filings-show-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "은행도 위험을 덜 떠안습니다. JP모건·골드만은 볼타의 50억 달러 AI 대출을 이끌면서 자체 인수 물량을 13억 달러로 묶었고, 앤트로픽은 투자적격 바로 아래인 BB+를 받아 후순위채를 8.5%에 팔았습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-12/jpmorgan-goldman-curb-exposure-on-5-billion-volta-ai-loan-sale"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-16",
+      "u": "https://t.me/HANAchina/70522"
+     }
+    ]
+   },
+   {
+    "t": "레버리지 국채 포지션이 되감기를 키우는 장치가 될 수 있습니다. 헤지펀드의 미 국채 비중이 9%로 커졌고 ECB도 비은행 강제 디레버리징을 경고했습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터 새 #169",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/business/finance/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny-2026-10-06/"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "기존 판단과 반대 신호: 미국 9월 일자리가 2만 9,000명 증가에 그쳤고 뉴욕연은 서비스업 업황 지수는 -20.7로 떨어졌습니다. 물가는 오르는데 활동이 식는 조합입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
+     },
+     {
+      "o": "블룸버그(원문 미확인)",
+      "d": "2026-10-08",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-02/us-firms-add-just-29-000-jobs-unemployment-rate-ticks-up"
+     }
+    ]
+   },
+   {
+    "t": "미국 밖 성장은 더 먼저 꺾입니다. 캐나다 9월 일자리는 6만 8,000개, 호주는 3만 9,300명 줄었고, 독일 경제부는 3분기 성장이 둔화했다고 봤습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-10",
+      "u": "https://www.reuters.com/business/canadian-dollar-hits-18-month-low-jobs-data-clips-rate-hike-bets-2026-10-09/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-15/aussie-dollar-falls-to-lowest-since-july-as-rba-hike-bets-fade"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-15",
+      "u": "https://www.bloomberg.com/news/features/2026-10-15/germany-s-economic-recovery-may-be-too-late-for-friedrich-merz"
+     }
+    ]
+   },
+   {
+    "t": "수요 위축 신호도 늘었습니다. 미시간대 소비자심리는 46.3으로 5개월 최저, NFIB 소상공인 낙관지수는 97.9로 52년 평균을 밑돌았습니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-13",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-small-business-optimism-falls-on-dimmer-economic-outlook"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직 덮지는 못한다고 봅니다. 미국 9월 산업생산은 0.7% 늘었고 실업수당 청구는 5주째 20만 건 아래이며, 지역은행 대출도 견조합니다. 다만 유가 110달러가 이어지며 활동 지표가 더 식으면 ③으로 옮길 근거가 됩니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/us-manufacturing-output-rises-september-2026-10-16/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/entry-level-hiring-may-be-making-a-comeback"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/markets/us/us-regional-banks-join-bigger-peers-signaling-resilient-economy-lending-holds-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "이 국면을 긴축이 아니라 재정이 앞서고 중앙은행이 뒤따르는 국면으로 볼 수도 있습니다. 대통령이 인플레이션으로 부채를 줄일 수 있다고 말했고 재무부는 장기금리에 직접 손을 댑니다. 그렇다면 명목 금리보다 실질 금리와 실물 자산의 공급 제약이 더 중요한 변수가 됩니다 [유추]",
+    "src": [
+     {
+      "o": "타임 인터뷰 전문",
+      "d": "2026-10-01",
+      "u": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+     },
+     {
+      "o": "미 재무부 발표(Mondo Visione 게재)",
+      "d": "2026-08-19",
+      "u": "https://mondovisione.com/media-and-resources/news/us-treasury-announces-increased-sizes-of-nominal-long-end-liquidity-support-buyb-2026819"
+     }
+    ]
+   },
+   {
+    "t": "이자 비용이 재정의 두 번째 지출이 됐습니다. 미국 총이자 지출이 1조 3,600억 달러로 사상 최고이고, 씨티는 재무부가 20·30년물 입찰을 줄이고 단기물을 늘릴 것으로 봅니다. 장기금리를 만기 구성으로 다루는 국면일 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-17",
+      "u": "https://t.me/insidertracking/66514"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-17",
+      "u": "https://t.me/HANAchina/70557"
+     }
+    ]
+   },
+   {
+    "t": "재정 압박이 중앙은행 독립성을 건드리는 사례가 늘었습니다. 백악관은 쿡 연준 이사 해임을 다시 추진하고, 폴란드 중앙은행 이사회는 11월 5일부터 정족수 미달로 멈출 수 있습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/world/us/lawyer-feds-cook-denounces-trumps-latest-attempt-remove-her-2026-10-13/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/polish-president-seeks-way-out-of-deadlock-at-the-central-bank"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "낮음",
+  "why": [
+   {
+    "t": "국면은 ② 그대로이고 근거를 새 지표로 바꿨습니다. 미국 9월 소비자물가는 3.7%로 예상(3.6%)을 웃돌았고, 9월 수입물가는 전년 대비 8.1%로 2022년 7월 이후 최대폭이라 물가가 다시 빨라졌습니다 [사실]",
+    "src": [
+     {
+      "o": "뉴욕타임스",
+      "d": "2026-10-14",
+      "u": "https://www.nytimes.com/live/2026/10/14/business/inflation-cpi-report-september"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-17",
+      "u": "https://t.me/HANAchina/70556"
+     }
+    ]
+   },
+   {
+    "t": "연준이 9월 16일 3.75~4.00%로 올린 데 이어 일본은행 총재는 기조물가 가속을 용인할 수 없다고 했고, IMF는 ECB가 연내 최소 한 차례 더 올릴 것으로 봤습니다. 긴축 쪽 정책이 이어집니다 [사실]",
+    "src": [
+     {
+      "d": "2026-09-16",
+      "o": "연준 FOMC 성명",
+      "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-16/boj-s-ueda-can-t-tolerate-underlying-inflation-further-over-2"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "성장은 아직 받칩니다. 미국 9월 산업생산은 0.7%, 반도체·전자부품 생산은 2.1% 늘었고 실업수당 청구는 5주째 20만 건 아래이며, 중국 9월 수출은 36.3% 늘었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/us-manufacturing-output-rises-september-2026-10-16/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-16",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/entry-level-hiring-may-be-making-a-comeback"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/retail-consumer/this-chinese-export-boom-really-has-legs-wings-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "반대 신호가 더 쌓였습니다. 브렌트가 5월 이후 처음 110달러에 닿았고 뉴욕연은 서비스업 업황은 -20.7, 캐나다·호주 고용은 줄었습니다. 공급 충격이 성장을 깎는 ③ 쪽 근거라 확신도를 낮게 둡니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-17",
+      "u": "https://t.me/HANAchina/70548"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-10",
+      "u": "https://www.reuters.com/business/canadian-dollar-hits-18-month-low-jobs-data-clips-rate-hike-bets-2026-10-09/"
+     }
+    ]
+   }
+  ],
+  "next": "유가가 110달러대에 머무는데 미국 고용과 서비스업 업황이 더 꺾이면 ③ 스태그플레이션으로 옮깁니다. 유가와 물가가 함께 꺾이고 연준이 10월 27~28일 회의 뒤 인상을 멈추면 ① 쪽으로, 실업 증가와 신용 경색이 겹치면 ④를 봅니다 [추측]",
+  "watch": [
+   "미국 10월 고용보고서·9월 PCE",
+   "브렌트유와 호르무즈 통항",
+   "10월 27~28일 FOMC·10월 29일 ECB 회의",
+   "AI 인프라 회사채·CCC 스프레드",
+   "미국 2년·10년 금리차"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) 미국 3분기 GDP·ISM·소매판매는 이번에도 열어 보지 못했고, 성장 판단은 산업생산·실업수당 청구·뉴욕연은 조사·은행 실적 보도에 기대고 있습니다. (2) 9월 근원 소비자물가는 확인하지 못했고, 헤드라인 3.7%만 여러 보도로 확인했습니다. (3) 달러 지수와 달러·원, 달러·엔의 현재 수치는 확인하지 못했고 달러가 18개월 고점에서 내려왔다는 전언만 있습니다. (4) 프라임브로커 포지션과 코어위브 부도보험료 일부 수치는 텔레그램 채널 전언입니다. (5) 투자등급·하이일드 지수 스프레드와 연준 대차대조표·자금시장 금리는 확인하지 못했습니다. (6) 블룸버그·로이터 기사는 본문을 열 수 없어 입력 요약과 다른 매체로만 썼습니다. (7) 한국은행 10월 22일 결정과 중국인민은행의 최근 결정은 넣지 못했습니다. (8) 4국면은 성장과 물가 두 축만 쓰는 단순한 틀이라, 재정과 유동성 변화는 축 설명에 따로 적었습니다. (9) 메모리 가격과 AI 설비투자 수치는 기업 공시(CXMT·ASML·TSMC)와 채널 전언에 기대고 있습니다.",
+ "note": "뉴스 203건 반영: 미 9월 소비자물가 3.7%·수입물가 8.1%, 브렌트 110달러, 코어위브 채권 16%·CCC 스프레드 1,000bp, 반도체지수 8일 연속 하락, 미 재정적자 1.99조 달러, 캐나다·호주 고용 감소 — 국면 ② 그대로(근거 교체), 근거 14줄, 수치 4줄, 재검토 신호 3건, 검색 3회",
+ "applied": [
+  "n-bbg-0064",
+  "n-bbg-0102",
+  "n-bbg-0110",
+  "n-bbg-0142",
+  "n-bbg-0150",
+  "n-bbg-0169",
+  "n-bbg-0177",
+  "n-bbg-0229",
+  "n-bbg-0233",
+  "n-bbg-0243",
+  "n-bbg-0246",
+  "n-bbg-0247",
+  "n-bbg-0264",
+  "n-rtr-0115",
+  "n-rtr-0118",
+  "n-rtr-0162",
+  "n-rtr-0211",
+  "n-rtr-0216",
+  "n-rtr-0220",
+  "n-rtr-0223",
+  "n-rtr-0226",
+  "n-rtr-0231",
+  "n-rtr-0236",
+  "n-rtr-0242",
+  "n-rtr-0244",
+  "n-rtr-0250",
+  "n-rtr-0256",
+  "n-rtr-0257",
+  "n-rtr-0263",
+  "n-rtr-0278",
+  "n-rtr-0280",
+  "n-tg-0122",
+  "n-tg-0135",
+  "n-tg-0153",
+  "n-tg-0192",
+  "n-tg-0204",
+  "n-tg-0220",
+  "n-tg-0222",
+  "n-tg-0229",
+  "n-tg-0231",
+  "n-tg-0239",
+  "n-tg-0242",
+  "n-tg-0243",
+  "n-tg-0244",
+  "n-tg-0247",
+  "n-tg-0248",
+  "n-tg-0249",
+  "n-tg-0251",
+  "n-tg-0252",
+  "n-tg-0260",
+  "n-tg-0261",
+  "n-tg-0262",
+  "n-tg-0268",
+  "n-tg-0269",
+  "n-tg-0271",
+  "n-tg-0274",
+  "n-bbg-0070",
+  "n-bbg-0106",
+  "n-bbg-0107",
+  "n-bbg-0160",
+  "n-bbg-0242",
+  "n-bbg-0286",
+  "n-bbg-0290",
+  "n-bbg-0292",
+  "n-bbg-0296",
+  "n-rtr-0029",
+  "n-rtr-0033",
+  "n-rtr-0210",
+  "n-rtr-0232",
+  "n-rtr-0233",
+  "n-rtr-0264",
+  "n-rtr-0268",
+  "n-rtr-0290",
+  "n-rtr-0293",
+  "n-rtr-0296",
+  "n-tg-0136",
+  "n-tg-0149",
+  "n-tg-0205",
+  "n-tg-0211",
+  "n-tg-0214",
+  "n-tg-0279",
+  "n-tg-0281",
+  "n-tg-0286",
+  "n-bbg-0058",
+  "n-bbg-0078",
+  "n-bbg-0093",
+  "n-bbg-0100",
+  "n-bbg-0108",
+  "n-bbg-0117",
+  "n-bbg-0120",
+  "n-bbg-0232",
+  "n-bbg-0238",
+  "n-bbg-0282",
+  "n-bbg-0287",
+  "n-bbg-0310",
+  "n-bbg-0313",
+  "n-bbg-0315",
+  "n-bbg-0316",
+  "n-bbg-0322",
+  "n-bbg-0324",
+  "n-bbg-0328",
+  "n-bbg-0333",
+  "n-fed-0001",
+  "n-rtr-0021",
+  "n-rtr-0030",
+  "n-rtr-0059",
+  "n-rtr-0062",
+  "n-rtr-0173",
+  "n-rtr-0202",
+  "n-rtr-0275",
+  "n-rtr-0287",
+  "n-rtr-0316",
+  "n-rtr-0318",
+  "n-rtr-0319",
+  "n-rtr-0320",
+  "n-rtr-0329",
+  "n-rtr-0345",
+  "n-tg-0124",
+  "n-tg-0128",
+  "n-tg-0157",
+  "n-tg-0161",
+  "n-tg-0182",
+  "n-tg-0187",
+  "n-tg-0201",
+  "n-tg-0210",
+  "n-tg-0217",
+  "n-tg-0276",
+  "n-tg-0288",
+  "n-tg-0290",
+  "n-tg-0293",
+  "n-tg-0294",
+  "n-tg-0295",
+  "n-tg-0297",
+  "n-tg-0298",
+  "n-tg-0305",
+  "n-bbg-0323",
+  "n-bbg-0325",
+  "n-rtr-0038",
+  "n-rtr-0044",
+  "n-rtr-0314",
+  "n-rtr-0351",
+  "n-rtr-0355",
+  "n-tg-0206",
+  "n-tg-0228",
+  "n-tg-0233",
+  "n-tg-0254",
+  "n-tg-0292",
+  "n-tg-0296",
+  "n-bbg-0049",
+  "n-bbg-0052",
+  "n-bbg-0077",
+  "n-bbg-0082",
+  "n-bbg-0092",
+  "n-bbg-0104",
+  "n-bbg-0111",
+  "n-bbg-0116",
+  "n-bbg-0136",
+  "n-bbg-0197",
+  "n-bbg-0225",
+  "n-bbg-0230",
+  "n-bbg-0234",
+  "n-bbg-0311",
+  "n-bbg-0312",
+  "n-bbg-0319",
+  "n-bbg-0338",
+  "n-bbg-0340",
+  "n-bbg-0343",
+  "n-bbg-0348",
+  "n-rtr-0014",
+  "n-rtr-0022",
+  "n-rtr-0023",
+  "n-rtr-0024",
+  "n-rtr-0025",
+  "n-rtr-0034",
+  "n-rtr-0043",
+  "n-rtr-0056",
+  "n-rtr-0159",
+  "n-rtr-0181",
+  "n-rtr-0200",
+  "n-rtr-0201",
+  "n-rtr-0240",
+  "n-rtr-0259",
+  "n-rtr-0282",
+  "n-rtr-0284",
+  "n-rtr-0315",
+  "n-rtr-0317",
+  "n-rtr-0321",
+  "n-rtr-0322",
+  "n-rtr-0356",
+  "n-rtr-0358",
+  "n-tg-0118",
+  "n-tg-0121",
+  "n-tg-0125",
+  "n-tg-0132",
+  "n-tg-0140",
+  "n-tg-0162",
+  "n-tg-0166",
+  "n-tg-0212",
+  "n-tg-0226",
+  "n-tg-0277",
+  "n-tg-0291",
+  "n-tg-0308",
+  "n-tg-0309"
+ ],
+ "searches": 3,
+ "fetches": 1
+}

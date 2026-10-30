@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0446",
+ "num": 446,
+ "key": "split-G3-109-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+ "headline": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+ "one": "기업 재무책임자(CFO)들이 AI 지출에 지갑 끈을 조이기 시작했다는 블룸버그 보도가 나오면서, AI 투자 회수에 대한 의문이 기업 예산 단계로 번져 AI 관련 지출이 둔화할 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 12일 CFO들이 AI 지출에 지갑 끈을 조이고 있다고 전하며 WK·WRBY·MTCH·PICS를 거론했다 [제목]",
+  "배경: 같은 시기 혹 탄 브로드컴 CEO의 자본 병목·'카지노' 발언과 제프리스·골드만삭스의 AI 투자 경고 뒤 세계 반도체주 매도가 번졌다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건으로 원문 한줄이 없어 제목을 근거로 썼다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "CFO들, AI 지출에 지갑 끈 조인다(WK·WRBY·MTCH·PICS)",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-11/cfos-tighten-the-purse-strings-on-ai-wk-wrby-mtch-pics"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "CFO들, AI 지출에 지갑 끈 조이기"
+  }
+ ],
+ "ind": "semis"
+}

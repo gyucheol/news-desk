@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0379",
+ "num": 379,
+ "key": "split-G1-100-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/saudis-ability-to-supply-energy-is-resilient-minister-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디 에너지장관 '에너지 공급 능력은 견고'",
+ "headline": "사우디 에너지장관 '에너지 공급 능력은 견고'",
+ "one": "사우디 에너지장관이 10월 12일 후티의 공항·석유 시설 공격이 이어지는 가운데 사우디의 에너지 공급 능력은 견고하다고 밝히면서, 원유 공급 차질 우려를 진화하고 나섰다 (제목 기준)",
+ "facts": [
+  "무엇이: 사우디 에너지장관은 사우디의 에너지 공급 능력이 견고하다고 말했다 [제목]",
+  "이튿날: 13일 아람코 다흐란 본사 상층 3개 층이 손상됐지만 사업은 정상 운영됐다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디 에너지장관 \"에너지 공급 능력은 견고\"",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/saudis-ability-to-supply-energy-is-resilient-minister-says"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "사우디 에너지장관 에너지 공급 능력 견고 강조"
+  }
+ ]
+}

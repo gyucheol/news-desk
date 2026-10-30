@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0719",
+ "num": 719,
+ "key": "mix-G1-049-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T16:31:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/merz-pitches-closer-ties-with-asia-warns-on-pressure-from-china",
+ "origTitle": "",
+ "headline": "메르츠, 싱가포르서 EU·아시아 중견국 동맹 제안…중국 압박 경고하면서도 디커플링엔 반대",
+ "src": [
+  {
+   "o": "Euronext 뉴스",
+   "d": "2026-10-27",
+   "u": "https://live.euronext.com/en/financial-news/germanys-merz-proposes-wider-eu-asia-market-access-counter-trade-restrictions"
+  },
+  {
+   "o": "Devdiscourse",
+   "d": "2026-10-27",
+   "u": "https://www.devdiscourse.com/article/international/3997963-germanys-merz-proposes-wider-eu-asia-market-access-to-counter-trade-restrictions"
+  }
+ ],
+ "items": [
+  {
+   "t": "메르츠, EU·아시아 관계 강화 제안하며 중국 압박 경고",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/merz-pitches-closer-ties-with-asia-warns-on-pressure-from-china"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "메르츠, 싱가포르서 EU·아시아 중견국 동맹 제안…중국 압박 경고하면서도 디커플링엔 반대",
+ "one": "메르츠 독일 총리가 10월 27일 싱가포르 연설에서 유럽·아시아 중견국의 무역·기술·안보 동맹을 제안했다\n· CPTPP 12개국과의 지역 간 협정과 아세안 협력 확대를 거론하며 일방적 의존을 줄이자고 했다\n· 중국의 압박을 경고하면서도 중국과의 완전한 경제 디커플링은 실수라고 말했다",
+ "facts": [
+  "무엇이: 메르츠 총리는 싱가포르 연설에서 유럽·아시아 중견국이 무역·기술·안보에서 전략적 동맹을 맺자고 제안했다 [사실]",
+  "구상: 일본·영국·캐나다·싱가포르가 속한 CPTPP 12개국과 지역 간 협정, 아세안과 협력 확대를 거론했고 공급망·기술·원자재의 일방적 의존 축소를 촉구했다 [사실]",
+  "중국: 완전한 디커플링은 실수라면서 경쟁이 왜곡된 곳에는 대응이 필요하다고 했고 이후 일본·한국을 차례로 방문한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 싱가포르 연설의 중견국 동맹·CPTPP 협정 제안·디커플링 반대 발언 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "EU·아시아 협정 제안 단계라 수급 변화 없음"
+  }
+ ]
+}

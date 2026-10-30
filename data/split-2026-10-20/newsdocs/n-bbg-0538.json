@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0538",
+ "num": 538,
+ "key": "split-G5-037-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+ "headline": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+ "one": "JP모건 블록체인 부문 키넥시스가 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝히면서, 암호화폐 기업과 토큰화 자산 거래의 결제·담보 수단이 넓어졌다",
+ "facts": [
+  "무엇이: JP모건 블록체인 부문 키넥시스는 10월 19일 예금 토큰 JPM코인을 기관 고객용으로 이더리움에 내놓는다고 밝혔고, 실제 가동 시점은 보도마다 엇갈린다 [사실]",
+  "대상: 이더리움판 JPM코인은 온체인으로 결제하는 대형 암호화폐 기업과 토큰화 자산 거래의 결제·담보에 쓰려는 금융기관을 겨냥하며, 2025년 11월 베이스에서 처음 나왔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(10월 19일). 키넥시스 10월 19일 발표, 기관 한정, 2025년 11월 베이스 출시를 Coin Insider·Unchained 검색 결과로 확인했지만 가동 시점은 엇갈림",
+ "src": [
+  {
+   "o": "Coin Insider",
+   "d": "2026-10-19",
+   "u": "https://www.coininsider.org/news/jpmorgan-jpm-coin-ethereum-institutional-clients/"
+  },
+  {
+   "o": "Unchained",
+   "d": "2026-10-19",
+   "u": "https://unchainedcrypto.com/jpmorgan-picks-ethereum-for-jpm-coin-citing-the-networks-liquidity-and-client-use/"
+  }
+ ],
+ "items": [
+  {
+   "t": "JP모건, 예금 토큰 JPM코인 기관 고객용으로 이더리움에 도입",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/jpmorgan-brings-deposit-token-jpm-coin-to-ethereum-for-institutional-clients"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "JPM코인 기관 고객용으로 이더리움 진출"
+  }
+ ]
+}

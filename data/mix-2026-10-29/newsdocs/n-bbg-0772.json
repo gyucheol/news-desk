@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0772",
+ "num": 772,
+ "key": "mix-G-037-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T01:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/crypto-perp-trades-during-oil-frenzy-raise-spoofing-specter",
+ "origTitle": "",
+ "headline": "유가 급등기 하이퍼리퀴드 원유 무기한 선물 스푸핑 의혹…이상 주문 1억 7,000만 달러 넘어",
+ "src": [
+  {
+   "o": "crypto.news",
+   "d": "2026-10-28",
+   "u": "https://crypto.news/hyperliquid-oil-orders-solidus-spoofing/"
+  },
+  {
+   "o": "TokenPost",
+   "d": "2026-10-28",
+   "u": "https://www.tokenpost.com/news/investing/43047"
+  }
+ ],
+ "items": [
+  {
+   "t": "유가 급등기 암호화폐 무기한 선물 거래, 스푸핑 의혹 불러",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/crypto-perp-trades-during-oil-frenzy-raise-spoofing-specter"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "유가 급등기 하이퍼리퀴드 원유 무기한 선물 스푸핑 의혹…이상 주문 1억 7,000만 달러 넘어",
+ "one": "이란 충돌로 유가가 급등하던 시기 암호화폐 무기한 선물 거래에서 스푸핑 의혹이 제기됐다\n· 솔리더스 랩스는 3월 8~10일 한 트레이더의 두 계정이 1억 7,000만 달러 넘는 이상 주문을 냈다고 분석했다\n· 거래는 주로 하이퍼리퀴드 브렌트유 무기한 선물에 몰렸고 추정 이익은 약 11만 9,000달러였다",
+ "facts": [
+  "무엇이: 솔리더스 랩스는 이란 충돌로 유가가 출렁인 3월 8~10일 한 트레이더의 두 계정이 하이퍼리퀴드 원유 무기한 선물에 1억 7,000만 달러 넘는 이상 주문을 냈다고 밝혔다 [사실]",
+  "수법: 한쪽 호가에 대량 주문을 냈다가 곧 취소하고 반대쪽에서 체결하는 방식으로, 약 1,700만 달러 매도 주문을 취소하며 약 42만 5,000달러 매수를 체결한 사례가 있었다 [사실]",
+  "반론: 조작 의도는 확인되지 않았고 하이퍼리퀴드는 모든 주문·취소·체결이 블록체인에 공개 기록된다고, 계약 발행사 Trade.xyz는 주문 한도와 감시 장치가 있다고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 솔리더스 랩스 분석, 3월 8~10일, 1억 7,000만 달러 이상 이상 주문, 추정 이익 약 11만 9,000달러, 브렌트유 무기한 선물 중심",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "하이퍼리퀴드 원유 무기한 선물 스푸핑 의혹 제기"
+  }
+ ]
+}

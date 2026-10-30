@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0519",
+ "num": 519,
+ "key": "split-G5-003-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/partners-group-gets-creative-to-fix-funds-hit-by-redemption-wave",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "환매 몰린 펀드 수습 위해 묘수 짜내는 파트너스그룹",
+ "headline": "환매 몰린 펀드 수습 위해 묘수 짜내는 파트너스그룹",
+ "one": "파트너스그룹이 10월 7일 환매 요청이 몰린 펀드를 수습하려 새로운 방안을 짜내고 있다고 블룸버그가 전하면서, 사모시장 펀드의 환매 압박이 운용사의 펀드 구조 변화로 이어지고 있다는 점이 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 7일 파트너스그룹이 환매 물결을 맞은 펀드를 고치려 창의적인 방안을 내놓고 있다고 전했다 [제목]",
+  "의미: 환매 압박이 운용사의 펀드 구조 변화로 이어지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "환매 몰린 펀드 수습 위해 묘수 짜내는 파트너스그룹",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/partners-group-gets-creative-to-fix-funds-hit-by-redemption-wave"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "파트너스그룹 펀드에 환매 몰려 수습책 마련"
+  }
+ ]
+}

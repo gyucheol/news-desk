@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0537",
+ "num": 537,
+ "key": "split-G5-036-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "블랙록 \"토큰화 펀드, 월가 결제·담보 인프라로 들어간다\"",
+ "headline": "블랙록 \"토큰화 펀드, 월가 결제·담보 인프라로 들어간다\"",
+ "one": "블랙록이 토큰화 펀드가 월가의 결제·담보 인프라로 들어가고 있다고 보면서, 토큰화 자산이 시험 단계를 넘어 기관 금융의 기본 배관으로 쓰일 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 블랙록은 토큰화 펀드가 월가 결제 인프라로 들어가고 있다고 본다 [제목]",
+  "전망: 토큰화 자산이 기관 금융의 결제·담보 배관으로 쓰일 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록에서도 블랙록 내용은 제목 기준이어서 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "블랙록 '토큰화 펀드, 월가 결제 인프라로 들어간다'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/blackrock-sees-tokenized-funds-moving-into-wall-street-plumbing"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "토큰화 펀드 월가 결제·담보 인프라로 진입"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0698",
+ "num": 698,
+ "key": "mix-G2-098-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T03:40:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-and-crypto-firm-sued-for-profiting-from-foreign-government",
+ "origTitle": "",
+ "headline": "트럼프·월드리버티파이낸셜, UAE 거래로 외국 정부 이익 취득 혐의 피소",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-22",
+   "u": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html"
+  },
+  {
+   "o": "Spectrum News",
+   "d": "2026-10-22",
+   "u": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/circle-crypto-trump-lawsuit-foreign-emoluments"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프·암호화폐 기업, 외국 정부 통한 이익 혐의로 피소",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-and-crypto-firm-sued-for-profiting-from-foreign-government"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "트럼프·월드리버티파이낸셜, UAE 거래로 외국 정부 이익 취득 혐의 피소",
+ "one": "트럼프 대통령과 가족 암호화폐 기업 월드리버티파이낸셜이 외국 정부로부터 이익을 얻은 혐의로 피소됐다\n· 원고는 UAE 연계 펀드의 지분 49% 5억 달러 매입과 MGX의 20억 달러 거래를 문제 삼았다\n· 백악관은 소송이 경솔하다고 했고 월드리버티는 근거 없는 주장이라고 반박했다",
+ "facts": [
+  "무엇이: 서클 주주 J. 벤저민 그린버그가 10월 22일 워싱턴 연방법원에 트럼프·월드리버티파이낸셜·스티브 위트코프를 상대로 소송을 냈다 [사실]",
+  "혐의: 셰이크 타흐눈 연계 펀드의 월드리버티 지분 49% 5억 달러 매입과 아부다비 MGX가 USD1 스테이블코인으로 치른 20억 달러 바이낸스 거래가 외국 보수 조항 위반이라는 주장이다 [사실]",
+  "청구: 수익의 위헌 선언, 회계 공개, 의회 동의 없는 외국 지급 금지를 요구했다 [사실]",
+  "반응: 서클은 소송과 무관하다고 했고 백악관과 월드리버티는 근거 없는 소송이라고 반박했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(CNBC·스펙트럼뉴스)으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "외국 보수 소송 제기, 수급 영향은 아직 없음"
+  }
+ ]
+}

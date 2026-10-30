@@ -1,0 +1,55 @@
+{
+ "basis": "verified",
+ "check": "로이터 1건(10월 18일)이다. 케냐 확진 7명과 감염 경로는 알자지라 보도로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 케냐 보건부는 에볼라 추가 감염 4명을 확인해 확진자가 7명이 됐고, 이 가운데 3명은 첫 환자를 돌본 의료진, 1명은 숨진 첫 환자의 친척이다 [사실]",
+  "접촉자: 케냐는 접촉자 130명 가운데 128명을 추적해 격리했고 일반인 위험은 낮다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "케냐 에볼라 신규 확진 4명…의료진 감염에 누적 7명",
+ "id": "n-rtr-0359",
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "케냐, 에볼라 신규 확진 4명 확인…누적 7명",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-confirms-four-new-ebola-cases-bringing-total-number-seven-2026-10-17/"
+  }
+ ],
+ "key": "mix-G1-026-2026-10-18",
+ "nodes": [],
+ "num": 359,
+ "one": "케냐 보건부가 첫 환자를 돌본 의료진 3명과 숨진 첫 환자의 친척 1명의 추가 감염을 확인해 확진자가 7명으로 늘면서, 2차 감염이 현실화했지만 접촉자 128명을 격리해 일반인 위험은 낮다고 했다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T19:04:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "알자지라",
+   "d": "2026-10-17",
+   "u": "https://www.aljazeera.com/news/2026/10/17/kenya-confirms-four-more-ebola-cases-bringing-total-to-seven"
+  }
+ ],
+ "tags": [],
+ "title": "케냐 에볼라 신규 확진 4명…의료진 감염에 누적 7명",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-confirms-four-new-ebola-cases-bringing-total-number-seven-2026-10-17/",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "케냐 에볼라 확진 7명, 산업 영향 언급 없음"
+  }
+ ]
+}

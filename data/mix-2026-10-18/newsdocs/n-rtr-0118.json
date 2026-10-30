@@ -1,0 +1,91 @@
+{
+ "added": "텔레그램 1건 — 지난주 도쿄 두 번째 비공개 회담, 미얀마의 세계 중희토류 공급 약 3분의 2·중국 희토류 수입 52.8% 비중과 매장지 통제 장애물 내용이 추가됨",
+ "basis": "verified",
+ "check": "검색 결과 요약(로이터발 보도를 실은 사이프러스 메일·타임스라이브 등)으로 도쿄 2차 회담, 밴스 차관보, 희토류 의제와 장애물 확인. 세계 중희토류 3분의 2, 중국 수입 52.8% 수치는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국과 미얀마 군부 정부는 지난주 도쿄에서 한 달 새 두 번째 비공개 회담을 했고, 미국 측은 마이클 밴스 국무부 정보조사 담당 차관보가 이끌었다 [사실]",
+  "의제: 9월 중순 네피도 첫 회담은 억류 미국인 석방과 사기 단지 폐쇄에 집중했지만, 미국은 미얀마 중희토류 매장지 접근도 거론했다 [사실]",
+  "비중: 채널은 미얀마가 세계 중희토류 공급의 약 3분의 2를, 2025년 중국 희토류 수입량의 52.8%를 차지한다고 전했다 [채널]",
+  "장애물: 주요 매장지 대부분이 군부와 싸우는 소수민족 무장단체 통제 지역에 있고, 최대 구매국 중국이 미국 개입에 반대할 수 있다 [사실]",
+  "제재: 미국은 앞서 미얀마 군부 연계 사업가의 딸에 대한 제재를 해제했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美, 미얀마 군부와 도쿄서 두 번째 비공개 회담…중희토류 접근 거론",
+ "id": "n-rtr-0118",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "metals"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "미국, 미얀마 군부와 직접 대화 시작…수년간 고립 정책 뒤집어",
+   "u": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "로이터",
+   "s": "{{미국}}이 {{미얀마 군부 연계 사업가의 딸}}을 제재 명단에서 빼면서 {{군부와의 대화}}가 {{제재 완화 조치}}로 이어지기 시작했다 (제목 기준)",
+   "t": "미국, 미얀마 군부 연계 사업가의 딸 제재 해제",
+   "u": "https://www.reuters.com/world/asia-pacific/us-lifts-sanctions-daughter-myanmar-military-linked-businessman-2026-10-09/"
+  },
+  {
+   "t": "트럼프 정부, 미얀마 군부와 한 달 새 두 차례 비공개 회담…중희토류 거론",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-18",
+   "u": "https://t.me/insidertracking/66573",
+   "s": "트럼프 행정부가 미얀마 군부 정부와 한 달 새 네피도·도쿄에서 두 차례 비공개 회담을 하면서, 세계 중희토류 공급의 약 3분의 2를 차지하는 매장지 접근이 의제로 떠올랐다"
+  }
+ ],
+ "key": "bnd-C268-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 118,
+ "one": "미국이 미얀마 군부 연계 사업가의 딸 제재를 푼 데 이어 군부 정부와 9월 네피도에 이어 지난주 도쿄에서 두 번째 비공개 회담을 하며 중희토류 매장지 접근을 거론하면서, 최대 구매국 중국과의 희토류 확보 경쟁이 미얀마로 번질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T08:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Bangkok Post",
+   "u": "https://www.bangkokpost.com/world/3333614/us-opens-direct-talks-with-myanmar"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Modern Diplomacy",
+   "u": "https://moderndiplomacy.eu/2026/10/08/why-is-washington-talking-directly-to-myanmars-military-government/"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-16",
+   "u": "https://tradersunion.com/news/geopolitics-trade/show/3840670-us-myanmar-talks-scams-minerals/"
+  },
+  {
+   "o": "Daily Sun",
+   "d": "2026-10-16",
+   "u": "https://www.daily-sun.com/world/903831"
+  }
+ ],
+ "tags": [],
+ "title": "美, 미얀마 군부와 도쿄서 두 번째 비공개 회담…중희토류 접근 거론",
+ "updatedAt": "2026-10-18T21:41:11+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "critical",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "미국, 미얀마 중희토류 매장지 접근 모색"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "n-rtr-0027",
+ "num": 27,
+ "key": "bnd-C032-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T09:20:00+09:00",
+ "url": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/",
+ "origTitle": "",
+ "headline": "AI 앞세운 감원 확산…FICO 15% 감축, HSBC 자산관리·아마존 소매 인력도 줄여",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/amazon-makes-fresh-job-cuts-mainly-in-retail-division.html"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-06",
+   "u": "https://www.gurufocus.com/news/9113404/fair-isaac-corp-fico-announces-15-workforce-reduction-amid-ai-restructuring"
+  }
+ ],
+ "items": [
+  {
+   "t": "HSBC, AI 추진 속 영국 자산관리 사업 전반 감원 계획…FT 보도",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/"
+  },
+  {
+   "t": "HSBC, 영국 자산관리 사업 전반 감원 계획 중인 것으로 알려져",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/hsbc-reportedly-planning-job-cuts-across-uk-wealth-management-business"
+  },
+  {
+   "t": "FICO, AI 중심 구조조정으로 인력 15% 감축",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/world-at-work/fico-cuts-workforce-by-15-ai-driven-restructuring-2026-10-06/"
+  },
+  {
+   "t": "아마존, 소매 부문 중심으로 새로운 일자리 감축 단행",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/"
+  },
+  {
+   "t": "AI 감시 스타트업 플록 세이프티, 반발 속 수백 명 감원",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "AI 앞세운 감원 확산…FICO 15% 감축, HSBC 자산관리·아마존 소매 인력도 줄여",
+ "one": "FICO가 AI 중심 구조조정으로 인력 15%를 줄이고 HSBC가 영국 자산관리 부문, 아마존이 소매 부문에서 1천 명 미만을 감원하면서, AI 도입과 비용 절감을 명분으로 한 사무직 일자리 축소가 금융·유통 전반으로 번지고 있다",
+ "facts": [
+  "무엇이: FICO가 AI를 제품 개발에 녹이는 구조조정으로 인력의 약 15%를 줄이고 4분기에 약 2,700만 달러의 세전 비용을 반영한다 [사실]",
+  "아마존: 10월 7일 주력 전자상거래를 맡는 스토어 부문을 중심으로 1천 명 미만의 사무직을 추가 감원했다(비공식 수치) [사실]",
+  "HSBC: AI 도입을 추진하며 영국 자산관리 사업 전반의 감원을 계획 중이라고 FT가 보도했다 [제목]",
+  "플록 세이프티: 반발 여론 속에 AI 감시 스타트업 플록 세이프티가 수백 명을 감원했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "FICO·아마존은 검색 결과 요약으로 확인(CNBC 등). HSBC·플록 세이프티는 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "n-bbg-0567",
+ "num": 567,
+ "key": "split-G5-139-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/world-economy-holds-up-but-nears-limits-of-resilience-imf-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF, 올해 세계성장률 3.1%로 상향…'회복력 한계 근접' 경고",
+ "headline": "IMF, 올해 세계성장률 3.1%로 상향…'회복력 한계 근접' 경고",
+ "one": "IMF가 13일 세계경제전망에서 올해 세계성장률을 3.1%로 올리고 물가 4.7%, 평균 유가 96달러를 전망했지만, 회복력이 한계에 가까워져 유가 130달러가 이어지면 2027년 성장률이 0.5%포인트 깎일 수 있다고 경고했다",
+ "facts": [
+  "무엇이: IMF는 10월 13일 올해 세계성장률 전망을 3.1%로 올리고 물가 4.7%, 평균 유가 96달러를 전망했다 [채널]",
+  "위험 시나리오: IMF는 유가 130달러가 이어지면 2027년 성장률이 0.5%포인트 깎일 수 있다고 봤다 [채널]",
+  "진단: IMF는 세계경제가 버티고 있지만 회복력의 한계에 가까워져 추가 충격이 오면 성장 둔화로 이어질 수 있다고 했다 [사실]",
+  "버팀목: IMF는 AI 투자가 세계성장을 떠받치지만 전쟁과 부채가 전망을 위협한다고 밝혀 성장의 버팀목이 AI 한쪽에 쏠려 있음을 드러냈다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그·텔레그램 하나증권·로이터 기사(13일)를 묶었다. 3.1% 상향은 독립 출처(Newsquawk)로 뒷받침되지만 물가·유가 수치는 원 문서에서 채널 근거다.",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-13",
+   "u": "https://www.newsquawk.com/headlines/imf-raises-2026-global-real-gdp-growth-forecast-to-31--from-30-citing-ai-investment-tempering-energy-price-shock-in-key-economies-while-it-maintains-2027-global-growth-view-at-34"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF \"세계경제 버티지만 회복력 한계에 근접\"",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/world-economy-holds-up-but-nears-limits-of-resilience-imf-says",
+   "s": "IMF가 세계경제가 버티고는 있지만 회복력의 한계에 가까워졌다고 진단하면서, 추가 충격이 오면 성장 둔화로 이어질 수 있다는 경고를 내놨다"
+  },
+  {
+   "t": "IMF, 올해 세계성장률 3.1%로 상향…평균 유가 96달러 전망",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70335",
+   "s": "IMF가 올해 세계성장률을 3.1%로 올리고 물가 4.7%, 평균 유가 96달러를 전망하면서, 유가 130달러가 이어지면 2027년 성장률이 0.5%p 깎일 수 있다고 봤다"
+  },
+  {
+   "t": "IMF \"AI 투자가 세계성장 떠받쳐…전쟁·부채가 전망 위협\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/",
+   "s": "IMF가 AI 투자가 세계성장을 떠받치고 있지만 전쟁과 부채가 전망을 위협한다고 밝히면서, 성장의 버팀목이 AI 한쪽에 쏠려 있음이 드러났다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "IMF, 올해 세계성장률 전망 3.1%로 상향"
+  }
+ ]
+}

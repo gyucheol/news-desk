@@ -1,0 +1,94 @@
+{
+ "id": "n-tg-0477",
+ "num": 477,
+ "key": "split-G2-139-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10063",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "우크라 드론, 러 정유소 한 주 4곳 타격…볼고그라드 원유 처리 전면 중단",
+ "headline": "우크라 드론, 러 정유소 한 주 4곳 타격…볼고그라드 원유 처리 전면 중단",
+ "one": "우크라이나가 드론으로 볼고그라드·살라바트·러시아 최대 정유소·우흐타 정유시설을 한 주 새 잇달아 때려 볼고그라드 정유소가 원유 처리를 전면 중단하면서, 러시아 정제능력 손실과 연료 부족이 커질 수 있다",
+ "facts": [
+  "무엇이: 루코일 소유 볼고그라드 정유소가 우크라이나 드론 피해로 10월 2일부터 원유 처리를 전면 중단했다 [사실]",
+  "규모: 채널은 볼고그라드 정유소가 러시아 정제능력의 약 5%를 맡아 연료 부족이 더 심해질 수 있다고 봤다 [채널]",
+  "살라바트: 8일 바슈코르토스탄 주의 가스프롬 살라바트 정유단지가 드론에 맞아 불이 났다 [사실]",
+  "최대 정유소: 우크라이나는 9일 러시아 최대 정유소를 타격했다고 밝혔다 [제목]",
+  "우흐타: 10일에는 루코일 우흐타 정유공장이 공격받아 한 주 새 네 번째 러시아 정유시설 피격이 됐다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "트릴리온 텔레그램 3건과 로이터 1건을 묶음. 볼고그라드 전면 중단은 src Meduza, 살라바트 피격은 src Meduza·Militarnyi 제목으로 뒷받침되고, 최대 정유소 타격은 제목 기준, 우흐타·5% 비중은 채널 기준",
+ "src": [
+  {
+   "o": "Meduza",
+   "d": "2026-10-06",
+   "u": "https://meduza.io/en/news/2026/10/06/another-russian-refinery-goes-offline-volgograd-plant-shuts-down-completely-after-ukrainian-drone-attack-reuters-reports"
+  },
+  {
+   "o": "Meduza",
+   "d": "2026-10-08",
+   "u": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+  },
+  {
+   "o": "Militarnyi",
+   "d": "2026-10-08",
+   "u": "https://militarnyi.com/en/news/drones-strike-salavat-oil-refinery-in-bashkortostan-fire-erupts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "러 볼고그라드 정유소 드론 피해로 전면 중단…베네수엘라 카르돈도 화재로 멈춰",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-07",
+   "u": "https://t.me/Trillion_labs/10063",
+   "s": "루코일 소유 볼고그라드 정유소가 드론 공격으로 10월 2일 원유 처리를 전면 중단하면서, 러시아 정제능력의 약 5%가 멈춰 연료 부족이 더 심해질 수 있다"
+  },
+  {
+   "t": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10189",
+   "s": "우크라이나 드론이 바슈코르토스탄 주의 살라바트 정유시설을 공격하면서, 러시아 정유시설을 겨냥한 우크라이나의 드론 타격이 이어졌다"
+  },
+  {
+   "t": "우크라이나 '러시아 최대 정유소 타격'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/ukraine-says-it-hit-russias-largest-oil-refinery-2026-10-08/",
+   "s": "우크라이나가 러시아 최대 정유소를 타격했다고 밝히면서, 러시아 정제 설비의 피해와 연료 공급 차질이 더 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "우크라, 루코일 우흐타 정유공장 공격…이번 주 네 번째",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-10",
+   "u": "https://t.me/Trillion_labs/10256",
+   "s": "우크라이나가 루코일 우흐타 정유공장을 공격해 한 주 새 네 번째 러 정유시설을 때리면서 러시아 정제 능력 손실이 쌓이고 있다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "볼고그라드 정유소 원유 처리 전면 중단"
+  }
+ ],
+ "channel": "트릴리온"
+}

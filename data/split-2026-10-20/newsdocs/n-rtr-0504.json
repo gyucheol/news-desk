@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0504",
+ "num": 504,
+ "key": "split-G4-071-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/ecbs-lagarde-says-solution-french-debt-woes-is-home-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라가르드 ECB 총재 \"프랑스 부채 문제의 해법은 국내에 있다\"",
+ "headline": "라가르드 ECB 총재 \"프랑스 부채 문제의 해법은 국내에 있다\"",
+ "one": "라가르드 ECB 총재가 10월 14일 프랑스 부채는 국내 재정정책으로 풀어야 한다고 말하면서, ECB가 프랑스 국채를 받쳐 줄 것이라는 시장 기대가 낮아지고 예산 처리 부담이 프랑스 정부로 돌아갔다",
+ "facts": [
+  "무엇이: 라가르드 ECB 총재는 10월 14일 프랑스 부채 문제의 해법은 국내에 있다고 말했다 [사실]",
+  "반응: 이 발언으로 ECB가 프랑스 국채를 받쳐 줄 것이라는 시장 기대가 낮아졌다 [사실]",
+  "프랑스·유로존: 프랑스은행 총재는 현재로선 ECB 지원이 필요 없다고 했고, 유로존 장관들은 시장 진정을 위해 2027년 예산 통과를 요구했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 독립 출처 RTÉ·CNN(10월 14일)이 라가르드의 같은 발언을 다뤄 이를 근거로 삼음. 프랑스은행 총재·유로존 장관 부분은 원 문서의 제목 근거 사실 줄",
+ "src": [
+  {
+   "o": "RTÉ",
+   "d": "2026-10-14",
+   "u": "https://www.rte.ie/news/business/2026/1014/1595322-lagarde-says-solution-to-french-debt-woes-is-at-home/"
+  },
+  {
+   "o": "CNN",
+   "d": "2026-10-14",
+   "u": "https://www.cnn.com/2026/10/14/markets/ecb-christine-lagarde-france-intl-hnk"
+  }
+ ],
+ "items": [
+  {
+   "t": "ECB 라가르드 '프랑스 부채 문제의 해법은 국내에 있다'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/ecbs-lagarde-says-solution-french-debt-woes-is-home-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "라가르드, 프랑스 부채 해법은 국내 재정에 있다고 선 그어"
+  }
+ ]
+}

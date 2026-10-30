@@ -1,0 +1,99 @@
+{
+ "basis": "verified",
+ "check": "칼시의 대변인 지명 관련 베팅 조사·베팅 금액은 검색 결과 요약으로 확인. 블룸버그 NFL 붐 기사는 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: WSJ에 따르면 칼시가 트럼프의 케이티 자카리아 백악관 대변인 지명이 알려지기 전 걸린 베팅 최소 3건을 조사 중이며, 확률 약 1%일 때 19달러를 건 베팅은 1,896달러를 받을 것으로 보입니다 [사실]",
+  "배경: 앞서 CFTC는 8월 트럼프 연설 관련 칼시 시장에서 거래한 전 프롬프터 운영자와 합의했고, 백악관은 직원들에게 미공개 정보 이용 금지를 경고했습니다 [사실]",
+  "NFL: 예측시장의 NFL 거래 붐이 스포츠 도박 규정을 시험하고 있습니다 [제목]",
+  "기존: NFL이 39개 주와 함께 예측시장 스포츠 계약을 주 도박법으로 규제하게 해달라고 대법원에 요청했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "칼시, 백악관 대변인 지명 {{사전 베팅 의혹}} 조사…NFL 붐에 스포츠 도박 규제 시험대",
+ "id": "n-rtr-0031",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "칼시, 주가지수 무기한 선물 출시하며 상품군 확대",
+   "u": "https://www.reuters.com/business/kalshi-launches-stock-index-perpetual-future-expand-product-suite-2026-10-06/",
+   "s": "예측시장 {{칼시}}가 {{주가지수 무기한 선물}}을 출시하면서 이벤트 계약을 넘어 금융 상품으로 거래 범위를 넓혔다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "칼시, 만기 없는 무기한형 원유 계약을 CFTC에 신청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/kalshi-files-proposal-for-never-expiring-oil-contract-with-cftc",
+   "s": "{{칼시}}가 만기 없는 {{무기한형 원유 계약}}을 CFTC에 신청하면서 원자재 파생상품으로 사업 확장을 시도하고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "NFL, 대법원에 주정부의 이벤트 시장 규제 허용 요청",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nfl-asks-supreme-court-to-let-states-regulate-prediction-markets",
+   "s": "{{NFL}}이 39개 주와 함께 대법원에 예측시장 스포츠 계약을 {{주 도박법}}으로 규제하게 해 달라고 요청하면서 CFTC 관할을 내세운 칼시와 맞섰다"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "NFL, 베팅 감독 사건의 대법원 심리 지지",
+   "u": "https://www.reuters.com/legal/government/nfl-backs-supreme-court-review-betting-oversight-case-2026-10-08/",
+   "s": "{{NFL}}이 엇갈린 항소법원 판결을 정리해 달라며 {{대법원 심리}}를 지지했고, 시즌 첫 일요일 예측시장 거래 33억 달러 중 18억~20억 달러가 NFL 관련이었다"
+  },
+  {
+   "t": "칼시, 트럼프 대변인 지명 관련 수상한 거래 조사…WSJ",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/finance/kalshi-probes-suspicious-trades-tied-trump-press-secretary-pick-wsj-reports-2026-10-09/",
+   "s": "{{칼시}}가 대변인 지명 발표 전 확률 1%에 걸린 베팅 3건을 조사하면서 {{예측시장 내부자 거래}} 논란이 다시 커지고 있다"
+  },
+  {
+   "t": "예측시장의 NFL 붐, 스포츠 도박 규정 시험대에",
+   "o": "블룸버그",
+   "d": "2026-10-11",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/prediction-markets-nfl-boom-tests-sports-betting-rules",
+   "s": "예측시장에서 {{NFL 계약 거래}}가 급증하면서 기존 {{스포츠 도박 규정}}이 이를 어떻게 다룰지 시험받고 있다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C038-2026-10-09",
+ "nodes": [],
+ "num": 31,
+ "one": "칼시가 트럼프의 백악관 대변인 지명 직전 나온 {{수상한 베팅}}을 조사하고 NFL 경기 계약 거래가 급증해 스포츠 도박 규정을 시험하면서, NFL·39개 주의 대법원 요청과 맞물려 {{예측시장 규제}} 압박이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T22:30:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "The Block",
+   "u": "https://www.theblock.co/news/regulation/2026-10-08-nfl-amicus-brief-supreme-court-kalshi-new-jersey-prediction-markets-418064"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "UPI",
+   "u": "https://www.upi.com/Top_News/US/2026/10/08/nfl-supreme-court-prediction-markets/7601791479351"
+  },
+  {
+   "o": "The Block",
+   "d": "2026-10-10",
+   "u": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222"
+  },
+  {
+   "o": "The Hill",
+   "d": "2026-10-10",
+   "u": "https://thehill.com/policy/technology/6140504-kalshi-investigates-press-secretary-bets/"
+  }
+ ],
+ "tags": [],
+ "title": "칼시, 백악관 대변인 지명 {{사전 베팅 의혹}} 조사…NFL 붐에 스포츠 도박 규제 시험대",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.reuters.com/business/kalshi-launches-stock-index-perpetual-future-expand-product-suite-2026-10-06/",
+ "added": "이번 로이터·블룸버그 2건으로 칼시의 {{대변인 지명 베팅}} 내부자 거래 의혹 조사와 {{NFL 거래 붐}}이 스포츠 도박 규정을 시험한다는 점이 추가됐다"
+}

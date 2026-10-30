@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0636",
+ "num": 636,
+ "key": "mix-G1-060-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:05:00+09:00",
+ "url": "https://www.reuters.com/business/uk-listed-gulf-keystone-norways-shamaran-agree-601-million-merger-kurdistan-2026-10-20/",
+ "origTitle": "",
+ "headline": "걸프키스톤·샤마란, 쿠르디스탄 6억 100만 달러 전액 주식 합병 합의",
+ "src": [
+  {
+   "o": "Kalkine Media(회사 발표)",
+   "d": "2026-10-20",
+   "u": "https://kalkinemedia.com/uk/news/announcements/gulf-keystone-petroleum-and-shamaran-seal-601m-all-share-merger-to-form-leading-kurdistan-oil-producer"
+  },
+  {
+   "o": "AGBI",
+   "d": "2026-10-20",
+   "u": "https://www.agbi.com/energy/2026/10/iraq-oilfield-operators-agree-to-600m-merger/"
+  }
+ ],
+ "items": [
+  {
+   "t": "걸프키스톤·샤마란, 쿠르디스탄 6억 100만 달러 합병 합의",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/uk-listed-gulf-keystone-norways-shamaran-agree-601-million-merger-kurdistan-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "걸프키스톤·샤마란, 쿠르디스탄 6억 100만 달러 전액 주식 합병 합의",
+ "one": "영국 상장 걸프키스톤과 노르웨이 샤마란이 쿠르디스탄 석유 사업을 합치는 6억 100만 달러 규모 합병에 합의했다\n· 합병사는 매장량 3억 2,300만 배럴, 하루 생산 5만 3,000배럴로 추정되며 2027년 중반 완료가 목표다\n· 걸프키스톤은 거래 종료 때 5,000만 달러 특별배당을 계획하고 주 상장을 오슬로로 옮긴다",
+ "facts": [
+  "무엇이: 걸프키스톤은 샤마란을 약 6억 100만 달러로 평가하는 전액 주식 합병에 합의했고, 양사 기존 주주가 합병사를 약 절반씩 갖는다 [사실]",
+  "자산: 걸프키스톤의 샤이칸 유전과 샤마란의 아트루시·사르상 지분을 합치며, 합병사는 매장량 3억 2,300만 배럴, 하루 생산 5만 3,000배럴로 추정된다 [사실]",
+  "일정: 주주총회는 12월 22일께 열리고, 쿠르디스탄 정부 승인 등을 거쳐 2027년 중반 완료가 목표다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "합병 규모 6억 100만 달러·구조·일정은 검색 결과 요약(회사 발표 인용 보도)으로 확인",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "쿠르디스탄 생산사 두 곳 합병 합의"
+  }
+ ]
+}

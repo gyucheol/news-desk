@@ -1,0 +1,65 @@
+{
+ "id": "n-tg-0333",
+ "num": 333,
+ "key": "split-G1-014-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/PipeBeom/6620",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "호르무즈 원유 통과 전쟁 전 76% 회복…석유제품은 11%로 경유난",
+ "headline": "호르무즈 원유 통과 전쟁 전 76% 회복…석유제품은 11%로 경유난",
+ "one": "Kpler 집계로 호르무즈 원유 물동량이 7일 전쟁 전의 76%까지 회복했지만 석유제품은 전체의 11%에 그치면서, 미국 경유값이 사상 최고를 찍는 등 경유난이 이어지고 있다",
+ "facts": [
+  "무엇이: Kpler 집계로 호르무즈 원유 물동량이 전쟁 전의 76%까지 회복했다 [사실]",
+  "석유제품: 석유제품은 전체 물동량의 11%에 그쳐 경유난이 이어지고 있다 [사실]",
+  "경유값: 미국 경유값은 사상 최고를 찍었다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 상상인 김진범 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원유 76% 회복과 경유난 지속은 원 문서 출처 목록의 investingLive 보도로 뒷받침",
+ "src": [
+  {
+   "o": "investingLive",
+   "d": "2026-10-06",
+   "u": "https://investinglive.com/commodities/reports-that-hormuz-crude-flows-near-76-of-prewar-levels-diesel-shortage-persists"
+  }
+ ],
+ "items": [
+  {
+   "t": "호르무즈 원유 통과 전쟁 전 76%로 회복…석유제품은 11%에 그쳐 경유난 지속",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-07",
+   "u": "https://t.me/PipeBeom/6620"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "호르무즈 원유 물동량 전쟁 전 76% 회복"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "석유제품 통과 11%에 그쳐 미국 경유값 사상 최고"
+  }
+ ],
+ "channel": "상상인 김진범"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0472",
+ "num": 472,
+ "key": "split-G4-059-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-09/how-france-s-debt-crisis-is-testing-japan-s-145-billion-bond-bet",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 부채 위기, 일본의 1,450억 달러 채권 투자 시험대",
+ "headline": "프랑스 부채 위기, 일본의 1,450억 달러 채권 투자 시험대",
+ "one": "블룸버그가 10월 9일 프랑스 부채 위기가 일본의 1,450억 달러 규모 채권 투자를 시험하고 있다고 짚으면서, 프랑스 국채 불안이 해외 투자자의 자금 흐름으로 번질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 프랑스 부채 위기가 일본의 1,450억 달러 채권 투자를 시험하고 있다고 분석했다(10월 9일) [제목]",
+  "의미: 프랑스 국채 불안이 해외 투자자 자금 흐름에 영향을 줄 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 9일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 부채 위기가 일본의 1,450억 달러 채권 투자를 시험하는 방식",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-09/how-france-s-debt-crisis-is-testing-japan-s-145-billion-bond-bet"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "프랑스 부채 위기, 일본 1,450억 달러 채권 투자 시험"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0681",
+ "num": 681,
+ "key": "mix-G1-048-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:46:00+09:00",
+ "url": "https://www.reuters.com/world/uk/uk-government-promises-save-businesses-800-million-paperwork-tariffs-2026-10-23/",
+ "origTitle": "",
+ "headline": "영국, 서류 간소화·관세 유예 연장으로 기업 비용 8억 파운드 절감…EU 기술주권 규정 예외 요구",
+ "src": [
+  {
+   "o": "GOV.UK",
+   "d": "2026-10-23",
+   "u": "https://www.gov.uk/government/news/government-slashes-red-tape-and-tariffs-to-give-businesses-breathing-space"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 정부, 서류·관세 부담 줄여 기업 비용 8억 파운드 절감 약속",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/uk/uk-government-promises-save-businesses-800-million-paperwork-tariffs-2026-10-23/",
+   "s": "영국 정부가 서류 간소화와 250개 품목 관세 유예 연장으로 기업 비용을 연간 약 8억 파운드 줄이겠다고 밝히면서, 기업의 행정·통관 부담이 줄 전망이다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "영국, EU 새 기술주권 규정에서 예외 적용 요구",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/uk-pushes-for-carve-out-from-new-eu-tech-sovereignty-rules",
+   "s": "영국이 EU가 새로 만드는 기술주권 규정에서 자국을 예외로 해 달라고 요구하면서, EU 기술 시장 접근 조건이 협상 쟁점이 됐다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "영국, 서류 간소화·관세 유예 연장으로 기업 비용 8억 파운드 절감…EU 기술주권 규정 예외 요구",
+ "one": "영국 정부가 서류 간소화와 관세 유예 연장으로 기업 비용을 연간 약 8억 파운드 줄이겠다고 밝혔다\n· 소기업 규정 안내 간소화로 2억 9,000만 파운드, 250개 품목 관세 유예 연장으로 1억 5,500만 파운드를 아낀다\n· 정부는 의회 임기 말까지 규제 행정 부담을 25% 줄이는 목표를 내세웠다\n· 영국은 EU의 새 기술주권 규정에서 예외를 적용받으려 하고 있다",
+ "facts": [
+  "무엇이: 영국 정부는 서류 축소와 관세 유예 연장으로 기업이 연간 약 8억 파운드를 아낄 것이라고 밝혔다 [사실]",
+  "세부: 소기업 규정 안내 간소화 2억 9,000만 파운드, 250개 품목 수입관세 유예 연장 1억 5,500만 파운드, 자산운용사 중복 보고 축소 1억 500만 파운드, 주택 거래 비용 1억 1,600만 파운드다 [사실]",
+  "목표: 의회 임기 말까지 규제 행정 부담을 25% 줄이는 목표의 일부이며, 나머지 조치는 예산안에서 밝힌다 [사실]",
+  "EU 규정: 영국은 EU의 새 기술주권 규정에서 예외 적용을 요구하고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "8억 파운드 절감과 세부 항목은 영국 정부 발표(검색 결과 요약)로 확인. EU 기술주권 규정 예외 요구는 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "관세 유예 연장·서류 축소로 기업 비용 8억 파운드 절감"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

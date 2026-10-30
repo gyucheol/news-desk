@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0412",
+ "num": 412,
+ "key": "split-G1-188-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/solvay-cuts-2026-forecast-after-middle-east-conflict-hits-q3-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "솔베이, 사다라 과산화수소 공장 중단에 2026년 EBITDA 전망 하향",
+ "headline": "솔베이, 사다라 과산화수소 공장 중단에 2026년 EBITDA 전망 하향",
+ "one": "솔베이가 중동 분쟁으로 사우디 사다라 과산화수소 공장이 멈춰 3분기 기초 EBITDA가 약 2,500만 유로 깎이자, 올해 전망을 7억 7,000만~8억 5,000만 유로에서 7억 2,000만~7억 4,000만 유로로 낮췄다",
+ "facts": [
+  "무엇이: 솔베이는 중동 분쟁과 사우디 사다라 단지 과산화수소 공장 가동 중단으로 2026년 기초 EBITDA 전망을 7억 7,000만~8억 5,000만 유로에서 7억 2,000만~7억 4,000만 유로로 낮췄다 [사실]",
+  "현금흐름: 잉여현금흐름 전망도 2억 유로 이상에서 1억 2,000만~1억 5,000만 유로로 낮췄다 [사실]",
+  "3분기: 분쟁은 3분기 기초 EBITDA를 약 2,500만 유로(2분기 약 2,000만 유로) 깎았고, 3분기 기초 EBITDA는 1억 7,300만 유로, 매출은 10억 3,000만 유로였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건(10월 20일). 전망 하향 수치와 3분기 실적은 솔베이 발표(GlobeNewswire)로 확인",
+ "src": [
+  {
+   "o": "Solvay 발표(GlobeNewswire)",
+   "d": "2026-10-19",
+   "u": "https://www.globenewswire.com/news-release/2026/10/19/3383709/0/en/solvay-reports-preliminary-q3-2026-results-and-updates-full-year-2026-guidance.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "솔베이, 중동 분쟁에 3분기 타격…2026년 전망 하향",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/solvay-cuts-2026-forecast-after-middle-east-conflict-hits-q3-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "사다라 과산화수소 공장 가동 중단 지속"
+  }
+ ]
+}

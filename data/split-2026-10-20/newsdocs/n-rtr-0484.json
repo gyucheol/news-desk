@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0484",
+ "num": 484,
+ "key": "split-G4-016-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/citi-turns-hawkish-fed-after-inflation-surprise-expects-december-rate-hike-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "씨티, 9월 물가 서프라이즈에 매파 전환…'연준 12월 금리 인상' 예상",
+ "headline": "씨티, 9월 물가 서프라이즈에 매파 전환…'연준 12월 금리 인상' 예상",
+ "one": "씨티가 9월 물가 서프라이즈를 계기로 연준 전망을 매파 쪽으로 바꿔 12월 금리 인상을 예상하기 시작하면서, 월가의 연준 경로 전망이 추가 인상 쪽으로 옮겨 가고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 씨티가 9월 물가 서프라이즈를 계기로 연준 전망을 매파 쪽으로 바꿔 12월 금리 인상을 예상하기 시작했다고 로이터가 10월 14일 전했다 [제목]",
+  "의미: 9월 CPI 뒤 주요 은행의 연준 전망이 인상 쪽으로 이동하는 흐름이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "씨티, 물가 서프라이즈에 매파로 전환…12월 금리 인상 예상",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/citi-turns-hawkish-fed-after-inflation-surprise-expects-december-rate-hike-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "씨티, 연준 12월 금리 인상 예상으로 전환"
+  }
+ ]
+}

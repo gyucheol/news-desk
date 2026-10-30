@@ -1,0 +1,65 @@
+{
+ "id": "n-tg-0528",
+ "num": 528,
+ "key": "split-G3-059-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70468",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "CXMT 시총 3조 위안 붕괴…상장 두 달 반 만에 A주 1위 공상은행에",
+ "headline": "CXMT 시총 3조 위안 붕괴…상장 두 달 반 만에 A주 1위 공상은행에",
+ "one": "CXMT 주가가 15일 장중 5% 넘게 빠져 시가총액 3조 위안이 무너지면서 상장 두 달 반 만에 A주 시총 1위 자리를 공상은행에 넘겨줬고, 시총은 이후 고점 4.13조 위안에서 2.82조 위안까지 줄었다",
+ "facts": [
+  "무엇이: CXMT 주가가 15일 장중 5% 넘게 빠져 시가총액 3조 위안이 무너졌다 [채널]",
+  "순위: CXMT는 상장 두 달 반 만에 A주 시총 1위 자리를 공상은행에 내줬고, 시총은 고점 4.13조 위안에서 2.82조 위안으로 줄었다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "하나증권 텔레그램 1건. 원 문서는 시총 축소와 A주 1위 상실을 BigGo·SCMP 검색 결과 요약으로 확인한 사실 줄에 넣었고, 15일 장중 5% 하락·3조 위안 붕괴 자체는 채널 기준",
+ "src": [
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-16",
+   "u": "https://finance.biggo.com/news/09ccf926-1af4-4bb1-9ace-fe1a44ed99fa"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-19",
+   "u": "https://finance.biggo.com/news/fd2602f8-65b1-4f5e-b1e9-9ed22f91d7dc"
+  }
+ ],
+ "items": [
+  {
+   "t": "CXMT 시총 3조 위안 붕괴…A주 1위 공상은행에 내줘",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-15",
+   "u": "https://t.me/HANAchina/70468"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "CXMT 시총 3조 위안 붕괴·A주 1위 상실"
+  }
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis"
+}

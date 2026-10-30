@@ -1,0 +1,92 @@
+{
+ "id": "n-bbg-0645",
+ "num": 645,
+ "key": "mix-G1-010-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T18:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/oil-tankers-plying-the-us-china-route-command-60-million-it-s-crushing-demand",
+ "origTitle": "",
+ "headline": "유조선 운임 급등…미·중 항로 6,000만 달러·VLCC 운임선물 1분기 17%↑, 시노코르 호르무즈 독식",
+ "src": [
+  {
+   "o": "Lloyd's List",
+   "d": "2026-10-23",
+   "u": "https://www.lloydslist.com/LL1158759/Sinokor-takes-centre-stage-in-high-risk-Hormuz-tanker-trade-as-security-risks-mount"
+  },
+  {
+   "o": "Seatrade Maritime",
+   "d": "2026-10-23",
+   "u": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks"
+  }
+ ],
+ "items": [
+  {
+   "t": "미·중 항로 유조선 운임 6,000만 달러…수요 짓눌러",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/oil-tankers-plying-the-us-china-route-command-60-million-it-s-crushing-demand",
+   "s": "미·중 항로를 오가는 유조선 운임이 6,000만 달러에 이르면서 이 항로의 원유 구매 수요가 크게 위축되고 있다 (제목 기준)"
+  },
+  {
+   "t": "VLCC TD3C 운임선물 11월·12월·1분기 8%·6%·17% 상승",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11166",
+   "s": "VLCC TD3C 운임선물이 11월 8%, 12월 6%, 1분기 17% 오르면서 시장이 내년 초까지 유조선 운임 강세를 반영하고 있다"
+  },
+  {
+   "t": "선주 시노코르, 원유 흐름 회복 속 호르무즈 통항 장악",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/shipowner-sinokor-dominates-hormuz-transits-as-oil-flows-rebound",
+   "s": "한국 선주 시노코르가 9월 호르무즈 VLCC 통항의 47%를 차지하면서 원유 흐름이 회복되는 위험 항로 운송을 사실상 독식하고 있다"
+  },
+  {
+   "t": "운임 할인에 인도 HPCL, 원유를 도착도 조건으로 구매",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/freight-discounts-prompt-indias-hpcl-buy-oil-delivered-basis-2026-10-23/",
+   "s": "인도 정유사 HPCL이 운임 할인을 계기로 원유를 도착도 조건으로 사들이면서 높은 운임 부담을 덜려 하고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "유조선 운임 급등…미·중 항로 6,000만 달러·VLCC 운임선물 1분기 17%↑, 시노코르 호르무즈 독식",
+ "one": "미·중 항로 유조선 운임이 6,000만 달러에 이르며 원유 구매 수요를 짓누르고 있다\n· VLCC TD3C 운임선물(FFA)은 11월 8%, 12월 6%, 내년 1분기 17% 올랐다\n· 한국 선주 시노코르는 9월 호르무즈 VLCC 통항의 47%를 차지하며 원유 흐름 회복을 주도했다\n· 인도 정유사 HPCL은 운임 할인을 계기로 원유를 도착도 조건으로 사들였다",
+ "facts": [
+  "무엇이: 미·중 항로를 오가는 유조선 운임이 6,000만 달러에 이르러 원유 수요를 위축시키고 있다 [제목]",
+  "운임선물: VLCC TD3C FFA가 11월 8%, 12월 6%, 1분기 17% 올랐다 [채널]",
+  "호르무즈: 시노코르 선박이 9월 호르무즈 VLCC 통항의 47%, 10월 첫 열흘의 절반 이상을 차지했고 6척은 이란 측 블랙리스트에 올라 있다 [사실]",
+  "인도: HPCL이 운임 할인을 계기로 원유를 도착도 조건으로 구매했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "시노코르 통항 비중은 검색 결과 요약(로이즈리스트·시트레이드)으로 확인. 미·중 항로 6,000만 달러 운임과 HPCL 구매 조건은 확인 못 함",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "미·중 항로 유조선 운임 6,000만 달러로 급등"
+  },
+  {
+   "ind": "oil",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "높은 운임에 미·중 항로 원유 수요 위축"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

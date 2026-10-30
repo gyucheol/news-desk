@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0559",
+ "num": 559,
+ "key": "split-G5-114-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/china-state-media-warns-eu-against-new-tricks-after-car-deal",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 관영매체, 자동차 합의 뒤 EU에 '새 술수' 경고",
+ "headline": "중국 관영매체, 자동차 합의 뒤 EU에 '새 술수' 경고",
+ "one": "중국 관영매체가 13일 EU와의 자동차 합의 뒤 EU에 새 술수를 쓰지 말라고 경고하면서, 합의 직후에도 EU의 추가 무역 조치를 둘러싼 양측의 긴장이 이어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국 관영매체가 자동차 합의 뒤 EU에 새 술수를 쓰지 말라고 경고했다 [제목]",
+  "이후: 폰데어라이엔 집행위원장은 하이브리드차 합의로는 구조적 불균형을 고치지 못한다며 다른 중국 업종에도 수입 제한을 제안하겠다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국 관영매체, 자동차 합의 뒤 EU에 '새 술수' 경고",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/china-state-media-warns-eu-against-new-tricks-after-car-deal"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "관영매체 경고로 긴장 지속, 수급 변화는 없음"
+  }
+ ]
+}

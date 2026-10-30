@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0514",
+ "num": 514,
+ "key": "split-G4-114-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/big-uk-firms-focus-cost-cutting-inflation-bites-deloitte-survey-shows-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "딜로이트 조사 \"영국 대기업, 물가 압박에 비용 절감 집중\"",
+ "headline": "딜로이트 조사 \"영국 대기업, 물가 압박에 비용 절감 집중\"",
+ "one": "딜로이트 조사에서 영국 대기업들이 물가 압박이 커지자 비용 절감에 초점을 맞추는 것으로 나타나면서, 기업 부문의 긴축 경영이 두드러지고 가격 전가보다 비용 관리 쪽으로 대응이 쏠리고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 딜로이트 조사에서 영국 대기업들이 물가 압박에 비용 절감에 집중하는 것으로 나타났다(10월 14일 로이터) [제목]",
+  "같은 진단: 베일리 영란은행 총재도 기업들이 가격 전가보다 비용 절감에 집중해 2차 물가 효과가 아직 미미하다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 14일)이다. 원 문서 확인 기록에 딜로이트 조사 부분이 없어 기사 제목 기준이고, 베일리 발언은 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "딜로이트 조사: 영국 대기업, 물가 압박에 비용 절감에 집중",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/uk/big-uk-firms-focus-cost-cutting-inflation-bites-deloitte-survey-shows-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "영국 대기업 물가 압박에 비용 절감 집중"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0597",
+ "num": 597,
+ "key": "split-G5-161-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/imfworld-bank-meetings-leave-developing-countries-with-more-questions-than-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF·세계은행 총회, 개도국에 답보다 질문 더 남겨…지원 확대 촉구",
+ "headline": "IMF·세계은행 총회, 개도국에 답보다 질문 더 남겨…지원 확대 촉구",
+ "one": "IMF·세계은행 연차총회가 끝났지만 개도국은 부채·자금 문제에서 답보다 질문을 더 많이 안게 됐다는 평가가 나왔고, 회원국들은 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다",
+ "facts": [
+  "무엇이: 로이터는 10월 18일 IMF·세계은행 연차총회가 끝났지만 개도국은 부채·자금 문제에서 답보다 질문을 더 많이 안게 됐다고 평가했다 [제목]",
+  "지원 촉구: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]",
+  "이라크: 이라크가 IMF 프로그램을 요청하자 게오르기에바 총재는 확고한 지원을 약속했다 [사실]",
+  "위험: IMF는 유가 130달러가 이어지면 2027년 세계 성장률이 0.5%포인트 깎일 수 있다고 했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "로이터 총회 평가 기사 1건은 제목 기준이다. 원 문서 확인 기록상 개도국 평가 기사는 제목만 근거이고, 지원 확대 촉구와 이라크 지원 약속은 원 문서의 [사실] 줄을 따라 Al Jazeera·The National 출처를 붙였다.",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-17",
+   "u": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns"
+  },
+  {
+   "o": "The National",
+   "d": "2026-10-17",
+   "u": "https://www.thenationalnews.com/business/economy/2026/10/17/imf-to-accelerate-talks-with-iraq-and-lebanon-as-mena-support-grows/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF·세계은행 총회, 개도국에 답보다 질문 더 남겨",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/imfworld-bank-meetings-leave-developing-countries-with-more-questions-than-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "전쟁 파급·고유가로 개도국 단기 자금난"
+  }
+ ]
+}

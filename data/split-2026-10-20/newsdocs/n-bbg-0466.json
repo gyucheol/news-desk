@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0466",
+ "num": 466,
+ "key": "split-G4-046-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/german-inflation-risks-clearly-tilted-to-upside-bundesbank-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "분데스방크 \"독일 물가 위험 뚜렷이 위쪽으로…2021~22년 재연은 어려워\"",
+ "headline": "분데스방크 \"독일 물가 위험 뚜렷이 위쪽으로…2021~22년 재연은 어려워\"",
+ "one": "분데스방크가 원자재 가격과 식품·비에너지 상품·서비스 비용 상승을 들어 독일 물가 위험이 뚜렷이 위쪽으로 기울었다고 경고하면서, 2021~22년 같은 고물가 재연은 어렵다고 봤지만 ECB 추가 인상 논거는 강해졌다",
+ "facts": [
+  "무엇이: 분데스방크는 10월 19일 원자재 가격과 식품·비에너지 상품·서비스 비용 상승으로 독일 물가 위험이 뚜렷이 위쪽으로 기울었다고 했다 [사실]",
+  "단서: 충격의 조합이 달라 2021~22년 같은 고물가 재연은 어려워 보인다고 했다 [사실]",
+  "배경: 독일 9월 소비자물가는 3.3%로 2023년 12월 이후 최고였고, 나겔 분데스방크 총재도 추가 인상 가능성을 배제하지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건(10월 19일)이다. 원 문서 확인 기록대로 분데스방크의 물가 위험 상방 판단, 2021~22년 재연 가능성 낮음, 원자재와 식품·서비스 비용 요인을 검색 결과 요약(Biznob·Briefs)으로 확인했다.",
+ "src": [
+  {
+   "o": "Biznob",
+   "d": "2026-10-19",
+   "u": "https://www.biznob.com/german-inflation-risks-clearly-tilted-to-upside-bundesbank-says/"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-19",
+   "u": "https://www.briefs.co/news/bundesbank-says-repeat-of-2021-22-price-surge-is-unlikely-bu/"
+  }
+ ],
+ "items": [
+  {
+   "t": "분데스방크 '독일 물가 위험 뚜렷이 위쪽으로 기울어'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/german-inflation-risks-clearly-tilted-to-upside-bundesbank-says"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "분데스방크, 독일 물가 위험 위쪽으로 기울어"
+  }
+ ]
+}

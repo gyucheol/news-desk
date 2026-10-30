@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0543",
+ "num": 543,
+ "key": "split-G5-058-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질 보우소나루, 룰라 시대 세금 광범위 재검토 약속",
+ "headline": "브라질 보우소나루, 룰라 시대 세금 광범위 재검토 약속",
+ "one": "보우소나루 측이 대선 결선을 앞두고 룰라 시대에 만들어진 세금을 광범위하게 다시 검토하겠다고 약속하면서, 집권하면 브라질 납세자와 기업의 세 부담 구조가 바뀔 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 보우소나루 측은 룰라 시대 세금을 광범위하게 재검토하겠다고 약속했다 [제목]",
+  "일정: 대선 결선은 10월 25일 룰라 대통령과 치른다 [사실]",
+  "영향: 공약이 실행되면 브라질 납세자와 기업의 세 부담 구조가 바뀔 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서에서 세금 재검토 약속은 제목 근거로만 다뤘고, 결선 날짜만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 보우소나루, 룰라 시대 세금의 광범위한 재검토 약속",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "보우소나루, 룰라 시대 세금 광범위 재검토 약속"
+  }
+ ]
+}

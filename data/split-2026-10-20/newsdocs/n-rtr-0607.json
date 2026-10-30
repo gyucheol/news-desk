@@ -1,0 +1,66 @@
+{
+ "id": "n-rtr-0607",
+ "num": 607,
+ "key": "split-G6-085-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/vir-gilead-team-up-solid-tumor-cancer-therapies-up-19-billion-deal-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "길리어드, 비어와 고형암 치료제 최대 19억 달러 공동개발…선급금 9천만 달러",
+ "headline": "길리어드, 비어와 고형암 치료제 최대 19억 달러 공동개발…선급금 9천만 달러",
+ "one": "길리어드가 비어에 선급금 9천만 달러를 주고 고형암 T세포 인게이저 3개를 함께 개발하기로 하면서, 계약 규모가 최대 약 19억 달러에 이르러 대형 제약사의 외부 신약 자산 확보가 이어졌다",
+ "facts": [
+  "무엇이: 길리어드는 10월 14일 비어에 선급금 9천만 달러를 주고 고형암 T세포 인게이저 3개를 공동개발하기로 했다 [사실]",
+  "규모: 계약 규모는 최대 약 19억 달러로, 앞선 보도 기록에는 18억 8천만 달러로 적혀 있다 [사실]",
+  "흐름: 같은 주 갈더마·랩코프·머크KGaA·로슈 등의 제약 거래가 잇따랐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 14일)이다. 계약 규모와 선급금은 Medical Dialogues·Benzinga·Quartz 보도로 확인했고, 출처에 따라 18억 8천만 달러로 적힌 곳이 있다.",
+ "src": [
+  {
+   "o": "Medical Dialogues",
+   "d": "2026-10-14",
+   "u": "https://medicaldialogues.in/news/industry/pharma/gilead-vir-biotechnology-sign-usd-188-billion-deal-to-develop-cancer-treatments-181355"
+  },
+  {
+   "o": "Benzinga",
+   "d": "2026-10-14",
+   "u": "https://www.benzinga.com/markets/biotech/26/10/62362938/vir-biotechnology-gilead-strike-deal-for-novel-tumor-treatments"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-14",
+   "u": "https://qz.com/gilead-vir-biotechnology-solid-tumor-cancer-deal-101526"
+  }
+ ],
+ "items": [
+  {
+   "t": "비어·길리어드, 고형암 치료제 최대 19억 달러 공동개발 계약",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/litigation/vir-gilead-team-up-solid-tumor-cancer-therapies-up-19-billion-deal-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "길리어드 비어 고형암 최대 19억 달러 공동개발"
+  }
+ ]
+}

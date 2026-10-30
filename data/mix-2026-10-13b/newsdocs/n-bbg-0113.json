@@ -1,0 +1,109 @@
+{
+ "basis": "partial",
+ "check": "TCS 고위직 성과급 미지급, HCL테크 주가 약 6% 상승·수주·전망 상향은 Traders Union·Goodreturns 검색 결과 요약으로 확인. 마진 수치와 소프트웨어 부진 내용은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: TCS는 9월 분기 내부 목표에 못 미쳐 C3A 등급 이상 고위직에게 분기 성과급을 주지 않기로 했고, 하위 직원은 전액 받는다 [사실]",
+  "TCS 실적: 9월 분기 순차 매출 증가율은 3년 만에 가장 약했지만 AI 관련 매출은 약 20% 늘었다 [사실]",
+  "HCL테크: 실적 발표 뒤 주가가 장중 약 6% 올랐고, 신규 수주는 32억 5,800만 달러, 연간 매출 증가율 전망 하단은 1%에서 2.5%로 올렸다 [사실]",
+  "평가: 마진이 예상을 웃돌고 수주가 소프트웨어 부진을 상쇄했다는 평가가 나왔다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "TCS 고위직 {{성과급 미지급}}…HCL테크는 수주 호조에 주가 6% 상승",
+ "id": "n-bbg-0113",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "TCS, IT 수주 서서히 회복하며 순이익 예상 상회",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up",
+   "s": "{{TCS}}가 IT 수주가 서서히 회복되면서 순이익이 약 1,388억 루피로 {{15%}} 늘어 시장 예상을 웃돌았다"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "인도 IT, 지정학·AI 위험에 4년째 약한 성장 예상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/india-it-set-for-fourth-year-of-weak-growth-on-geopolitics-ai-risks",
+   "s": "인도 IT 업종이 지정학과 {{AI 위험}}에 {{4년째}} 약한 성장을 이어갈 것으로 예상되면서, 업체들의 매출 증가세가 더딜 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "인도 TCS 주가 상승…해외 사업·AI 관련 성장에 투자자 환호",
+   "u": "https://www.reuters.com/world/india/indias-tcs-rises-investors-cheer-growth-international-business-ai-related-2026-10-09/",
+   "s": "인도 {{TCS}} 주가가 해외 사업과 {{AI 관련 성장}}에 투자자들이 환호하면서 올라, 실적 발표 뒤 시장 반응이 긍정적이었다 (제목 기준)"
+  },
+  {
+   "t": "TCS 고위직, 9월 분기 변동 성과급 못 받아…내부 메모",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/world/india/indias-tcs-senior-staff-will-miss-out-variable-pay-september-quarter-memo-shows-2026-10-09/",
+   "s": "{{TCS}}가 9월 분기 목표 미달로 고위직 {{변동 성과급}}을 주지 않기로 하면서, 3년 만에 가장 약한 매출 성장이 인건비 억제로 이어지고 있다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "인도 HCL테크, 2분기 매출 예상치 소폭 하회",
+   "u": "https://www.reuters.com/world/india/indias-hcltech-marginally-misses-second-quarter-revenue-estimates-2026-10-12/",
+   "s": "{{HCL테크}}의 9월 분기 매출이 3,562억 루피로 11.5% 늘었지만 예상을 소폭 밑돌았고, 고급 {{AI 매출}}은 78% 늘었다"
+  },
+  {
+   "t": "인도 HCL테크, 마진 호조·수주가 소프트웨어 부진 상쇄하며 주가 급등",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/india/indias-hcltech-jumps-margin-beat-deal-wins-outweigh-software-weakness-2026-10-13/",
+   "s": "{{HCL테크}}의 마진이 예상을 웃돌고 신규 수주가 소프트웨어 부진을 상쇄하면서, 주가가 장중 {{약 6%}} 올랐다"
+  }
+ ],
+ "key": "bnd-C053-2026-10-09",
+ "nodes": [],
+ "num": 113,
+ "one": "TCS가 9월 분기 내부 목표 미달로 고위직 {{성과급}}을 주지 않기로 한 반면 HCL테크는 신규 수주 32억 5,800만 달러와 연간 전망 하단 상향에 주가가 장중 {{6%}} 가까이 오르면서, 인도 IT 업체들의 성적이 크게 갈리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T13:34:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Zee Business",
+   "u": "https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Kotak Neo",
+   "u": "https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Kotak Neo",
+   "u": "https://www.kotakneo.com/news/stocks/hcltech-q2-fy27-results-revenue-profit-and-deal-wins/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "InfotechLead",
+   "u": "https://infotechlead.com/software/hcltech-q2-fy27-results-ai-revenue-jumps-78-orders-reach-3-26-billion-as-hiring-rebounds-98785"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-10",
+   "u": "https://tradersunion.com/news/financial-news/show/3748828-tcs-withholds-variable-pay-senior-growth/"
+  },
+  {
+   "o": "Goodreturns",
+   "d": "2026-10-13",
+   "u": "https://www.goodreturns.in/news/hcl-tech-shares-jump-6-after-q1-results-how-to-get-rs-1-20-000-or-rs-12-share-hcl-dividend-buy-avoid-1540991.html"
+  }
+ ],
+ "tags": [],
+ "title": "TCS 고위직 {{성과급 미지급}}…HCL테크는 수주 호조에 주가 6% 상승",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up",
+ "added": "이번 로이터 2건으로 TCS의 {{고위직 성과급 미지급}}과 HCL테크의 마진 호조·수주에 따른 {{주가 급등}}이 추가됐다"
+}

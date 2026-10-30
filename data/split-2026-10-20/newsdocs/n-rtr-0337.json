@@ -1,0 +1,70 @@
+{
+ "basis": "verified",
+ "check": "로이터 1건(10월 16일)과 블룸버그 1건(10월 19일)을 묶었다. 판결 미반영 시 추정 손실과 CET1 약 250bp 하락 가능성은 Lapaas Voice·Whalesbook 검색 결과 요약으로 확인했고, 은행권 파장은 블룸버그 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도 대법원은 10월 15일 예스은행이 2020년 3월 841억 5,000만 루피 규모 AT1 채권을 상각한 것이 위법하다는 봄베이 고등법원 판결을 유지했다 [사실]",
+  "은행 영향: 판결을 반영하면 2분기 521억 7,000만 루피 순손실이 되고, AT1 원금이 복원되면 CET1 비율이 약 250bp 낮아질 수 있다 [사실]",
+  "파장: 블룸버그는 10월 19일 이 판결이 인도 은행들에 주는 의미를 짚었다 [제목]",
+  "다음 단계: 은행은 판결을 검토하며 법률 자문사와 대응을 논의 중이고, 추가 상소를 냈다는 확인은 없다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 대법원 \"예스은행 841억 루피 AT1 상각 위법\"…은행권 파장",
+ "id": "n-rtr-0337",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "인도 대법원 '예스은행 AT1 채권 상각은 위법'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/",
+   "s": "인도 대법원이 10월 15일 예스은행의 2020년 3월 841억 5,000만 루피 규모 AT1 채권 상각이 위법하다는 봄베이 고등법원 판결을 유지했다"
+  },
+  {
+   "t": "예스은행 대법원 판결이 인도 은행들에 주는 의미",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/what-the-supreme-court-ruling-on-yes-bank-means-for-india-s-lenders",
+   "s": "블룸버그가 대법원의 예스은행 판결이 인도 은행들에 미칠 영향을 짚으면서 은행권 자본증권 투자 판단에 변수가 생겼다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G3-035-2026-10-15",
+ "nodes": [],
+ "num": 337,
+ "one": "인도 대법원이 10월 15일 예스은행의 2020년 3월 841억 5,000만 루피 규모 AT1 채권 상각이 위법하다는 판결을 유지하면서, 은행은 원금 복원 시 CET1 비율이 약 250bp 낮아질 수 있고 인도 은행권 자본증권 투자 판단에도 변수가 생겼다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T00:19:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Lapaas Voice",
+   "d": "2026-10-17",
+   "u": "https://lapaasvoice.com/yes-bank-q2-profit-rises-65-to-%E2%82%B91080-crore-at1-bond-ruling-impact-remains-unaccounted-for"
+  },
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-17",
+   "u": "https://www.whalesbook.com/corporate-news/English/bankingfinance/Yes-Bank-Reports-Rs-1084-Cr-Q2-Profit-Amid-AT1-Bond-Litigation/6ad37d16b2eb76fd08c5f987"
+  }
+ ],
+ "tags": [],
+ "title": "인도 대법원 \"예스은행 841억 루피 AT1 상각 위법\"…은행권 파장",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/india-supreme-court-rules-yes-banks-at1-bond-write-off-illegal-2026-10-15/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AT1 상각 위법 판결로 예스은행 자본 부담"
+  }
+ ]
+}

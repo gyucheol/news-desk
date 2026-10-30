@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0554",
+ "num": 554,
+ "key": "split-G5-089-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/nifty-bank-heavyweights-hdfc-icici-in-focus-after-weekend-earnings",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "주말 실적 뒤 HDFC·ICICI 등 니프티 은행 대형주 주목",
+ "headline": "주말 실적 뒤 HDFC·ICICI 등 니프티 은행 대형주 주목",
+ "one": "주말 사이 HDFC은행과 ICICI은행 실적이 나오면서 니프티 은행지수 대형주의 주가 반응에 관심이 쏠렸고, ICICI은행은 예상을 웃돈 반면 HDFC은행은 근소하게 밑돌아 두 은행 주가가 엇갈릴 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 주말 실적 발표 뒤 HDFC은행·ICICI은행 등 니프티 은행지수 대형주가 주목받는다고 전했다 [제목]",
+  "ICICI: 9월 분기 단독 순이익이 20.1% 늘어 예상치 1,425억 루피를 웃돌았다 [사실]",
+  "HDFC: 분기 이익은 4.7% 늘었지만 트레저리 영향으로 예상을 근소하게 밑돌았다 [제목]",
+  "액시스: 같은 19일 액시스은행 주가는 이익 예상 하회로 장중 최대 5% 떨어졌다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. ICICI·액시스 수치는 원 문서가 검색 결과로 확인한 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "주말 실적 발표 뒤 HDFC·ICICI 등 니프티 은행 대형주 주목",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/nifty-bank-heavyweights-hdfc-icici-in-focus-after-weekend-earnings"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "주말 실적 뒤 니프티 은행 대형주 주가 반응 주목"
+  }
+ ]
+}

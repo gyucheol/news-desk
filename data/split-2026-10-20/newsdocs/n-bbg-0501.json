@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0501",
+ "num": 501,
+ "key": "split-G4-130-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fear-of-rising-interest-rates-puts-off-britain-s-housebuyers",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "금리 인상 우려에 영국 주택 구매자 발길 끊겨…RICS 조사",
+ "headline": "금리 인상 우려에 영국 주택 구매자 발길 끊겨…RICS 조사",
+ "one": "블룸버그는 금리 인상 공포에 영국 주택 구매자들의 발길이 끊겼다고, 로이터는 RICS 조사에서 금리 인상 우려가 주택시장을 짓누르고 있다고 전하면서, 30년물 금리가 1998년 이후 최고로 뛴 영국에서 주택 수요와 집값 흐름이 약해질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 8일 로이터는 RICS 조사에서 금리 인상 우려가 영국 주택시장을 짓누르고 있다고 전했다 [제목]",
+  "블룸버그: 같은 날 블룸버그는 금리 인상 공포에 영국 주택 구매자들이 발길을 끊었다고 보도했다 [제목]",
+  "금리 배경: 10월 7일 30년물 국채금리는 6.02%로 1998년 이후 최고였고, 8일 10년물 차입 비용도 유가 급등에 19년 만의 최고로 올랐다 [사실]",
+  "해석: 시장 금리 상승이 주택담보대출 금리로 번지면 거래 위축이 길어질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 각 1건을 묶음, 둘 다 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "금리 인상 공포에 영국 주택 구매자들 발길 끊어",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fear-of-rising-interest-rates-puts-off-britain-s-housebuyers",
+   "s": "금리 인상 공포가 커지면서 영국 주택 구매자들의 발길이 끊겨 주택 거래가 위축될 수 있다 (제목 기준)"
+  },
+  {
+   "t": "금리 인상 우려가 영국 주택시장 짓눌러…RICS 조사",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/rate-hike-fears-weigh-uk-housing-market-rics-says-2026-10-07/",
+   "s": "RICS 조사에서 금리 인상 우려가 영국 주택시장을 짓누르는 것으로 나타나 주택 수요와 가격 흐름이 약해질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "금리 인상 우려에 영국 주택 구매 수요 위축"
+  }
+ ]
+}

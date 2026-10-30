@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0638",
+ "num": 638,
+ "key": "mix-G2-065-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T08:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/z-ai-founders-worked-on-research-funded-by-china-institute-uk-tied-to-spies",
+ "origTitle": "",
+ "headline": "Z.AI 창업자 4명, 영국 MI5가 간첩 연계로 지목한 中 기관 자금 연구 참여",
+ "src": [
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-20",
+   "u": "https://en.sedaily.com/international/2026/10/20/four-zhipu-ai-founders-worked-with-institute-uk-calls-a-spy"
+  },
+  {
+   "o": "Startup Fortune",
+   "d": "2026-10-20",
+   "u": "https://startupfortune.com/zai-founders-built-models-on-research-tied-to-an-alleged-chinese-spy-front/"
+  }
+ ],
+ "items": [
+  {
+   "t": "Z.AI 창업자들, 영국이 간첩 연계로 본 中 기관 자금 연구 참여",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/z-ai-founders-worked-on-research-funded-by-china-institute-uk-tied-to-spies"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "Z.AI 창업자 4명, 영국 MI5가 간첩 연계로 지목한 中 기관 자금 연구 참여",
+ "one": "중국 AI 기업 Z.AI(즈푸) 창업자 4명이 영국이 정보기관 연계로 지목한 중국 기관의 자금 연구에 참여했다\n· 연구는 2018~2021년 중국통용기술연구원(CGTRI)과 국가자연과학기금이 함께 자금을 댔다\n· MI5는 9월 30일 CGTRI가 국가안전부와 강하게 연계됐다며 이후 연구 참여는 기소될 수 있다고 경고했다",
+ "facts": [
+  "무엇이: Z.AI(즈푸) 창업자 4명이 영국 MI5가 중국 국가안전부와 강하게 연계됐다고 지목한 중국통용기술연구원(CGTRI)이 일부 자금을 댄 연구에 참여했다 [사실]",
+  "연구: 2018년 1월~2021년 12월 진행됐고 칭화대 리쥐안쯔 교수(공동창업자)가 이끌었으며, 탕제·쉬빈·장펑 CEO도 논문·특허 등에 참여했다 [사실]",
+  "경고: MI5는 9월 30일 간첩 경보에서 이후에도 CGTRI 자금 연구를 하면 형사 기소될 수 있다고 했으나 즈푸 자체는 언급하지 않았다 [사실]",
+  "반박: 주영 중국대사관은 MI5의 주장을 근거 없다고 일축했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "창업자 4명의 CGTRI 자금 연구 참여와 MI5 9월 30일 경보는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "Z.AI 창업자 간첩 연계 기관 연구 참여 드러남"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0582",
+ "num": 582,
+ "key": "split-G6-055-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/oracle-moves-gas-by-trucks-to-avoid-data-center-power-delays",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "오라클, 데이터센터 전력 지연 피하려 트럭으로 가스 운송",
+ "headline": "오라클, 데이터센터 전력 지연 피하려 트럭으로 가스 운송",
+ "one": "블룸버그가 10월 9일 전한 바로는 오라클이 데이터센터 전력 공급 지연을 피하려고 트럭으로 가스를 실어 나르면서, 전력망 연결을 기다리지 않고 자체 전원을 확보하는 방식이 나타났다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 오라클이 데이터센터 전력 지연을 피하려고 트럭으로 가스를 옮기고 있다고 전했다 [제목]",
+  "의미: 전력망 연결을 기다리기 어려운 데이터센터가 가스를 쓰는 자체 전원에 기대고 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 9일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "오라클, 데이터센터 전력 지연 피하려 트럭으로 가스 운송",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/oracle-moves-gas-by-trucks-to-avoid-data-center-power-delays"
+  }
+ ],
+ "inds": [
+  "gas",
+  "power"
+ ],
+ "nodes": [
+  "gas/demand",
+  "power/gen"
+ ],
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "오라클, 데이터센터 전원용 가스 트럭 운송"
+  }
+ ]
+}

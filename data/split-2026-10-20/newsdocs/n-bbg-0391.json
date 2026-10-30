@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0391",
+ "num": 391,
+ "key": "split-G2-026-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/totalenergies-pledges-more-price-cuts-to-ease-diesel-surge-pain",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "토탈에너지스, 경유 급등 고통 덜려 추가 가격 인하 약속",
+ "headline": "토탈에너지스, 경유 급등 고통 덜려 추가 가격 인하 약속",
+ "one": "프랑스 토탈에너지스가 경유 가격 급등에 따른 소비자 고통을 덜기 위해 추가 가격 인하를 약속하면서, 정유·판매사가 소매가 일부를 떠안는 움직임이 유럽에서도 나타났다 (제목 기준)",
+ "facts": [
+  "무엇이: 토탈에너지스가 10월 12일 경유 가격 급등의 고통을 덜기 위해 추가 가격 인하를 약속했다 [제목]",
+  "의미: 정유·판매사가 소매가를 낮춰 경유 소비자 부담을 일부 흡수하려는 움직임이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "토탈에너지스, 경유 급등 고통 덜려 추가 가격 인하 약속",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/totalenergies-pledges-more-price-cuts-to-ease-diesel-surge-pain"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "토탈에너지스, 경유 추가 가격 인하 약속"
+  }
+ ]
+}

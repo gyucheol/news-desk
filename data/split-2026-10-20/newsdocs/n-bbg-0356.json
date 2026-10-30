@@ -1,0 +1,51 @@
+{
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록에서도 유럽 전력 수요 반등은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유럽 전력 수요가 수년간의 부진 끝에 다시 늘고 있다 [제목]",
+  "원인: 데이터센터와 전기화 전환이 유럽 전력 수요를 되살리고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유럽 전력 수요, 데이터센터·전기화에 수년 부진 끝내고 다시 증가",
+ "id": "n-bbg-0356",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "수년간 부진하던 유럽 전력 수요, 데이터센터·전환에 다시 증가",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/data-centers-and-green-shift-are-reviving-europe-s-power-demand"
+  }
+ ],
+ "key": "mix-G1-022-2026-10-20",
+ "nodes": [
+  "power/demand"
+ ],
+ "num": 356,
+ "one": "수년간 부진하던 유럽 전력 수요가 데이터센터와 전기화 등 녹색 전환에 힘입어 다시 늘기 시작하면서, 유럽 전력 시장의 오랜 수요 감소 흐름이 바뀌고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:42:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "유럽 전력 수요, 데이터센터·전기화에 수년 부진 끝내고 다시 증가",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/data-centers-and-green-shift-are-reviving-europe-s-power-demand",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "유럽 전력 수요 수년 부진 뒤 반등"
+  }
+ ]
+}

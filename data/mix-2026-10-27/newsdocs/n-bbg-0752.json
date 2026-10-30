@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0752",
+ "num": 752,
+ "key": "mix-G2-056-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T13:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/oil-shock-ai-boom-asian-dollar-philippine-peso-korean-won-thai-baht-ringgit",
+ "origTitle": "",
+ "headline": "유가 충격·AI 붐에 아시아 신흥국 통화 격차 확대…원유 수입국 통화에 압박",
+ "src": [
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-10-27",
+   "u": "https://asia.nikkei.com/business/markets/currencies/ai-and-oil-worries-rattle-asian-currencies-from-taiwan-to-philippines"
+  },
+  {
+   "o": "Yahoo Finance",
+   "d": "2026-10-27",
+   "u": "https://finance.yahoo.com/markets/currencies/articles/goldman-bullish-three-asian-currencies-125514672.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "유가 충격·AI 붐에 아시아 신흥국 통화 격차 확대",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/oil-shock-ai-boom-asian-dollar-philippine-peso-korean-won-thai-baht-ringgit"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "title": "유가 충격·AI 붐에 아시아 신흥국 통화 격차 확대…원유 수입국 통화에 압박",
+ "one": "유가 충격과 AI 붐이 겹치면서 아시아 신흥국 통화 사이의 격차가 커졌다\n· 닛케이아시아는 AI 과잉 투자 우려와 비싸진 유가가 대만에서 필리핀까지 아시아 통화를 흔들었다고 전했다\n· 원화와 루피는 중앙은행 방어 조치 덕에 상대적으로 버틴 것으로 전해졌다",
+ "facts": [
+  "무엇이: 유가 충격과 AI 붐이 아시아 신흥국 통화의 격차를 키우고 있다 [제목]",
+  "시장: 닛케이아시아는 AI 과잉 투자 우려와 비싸진 유가가 대만에서 필리핀까지 아시아 통화를 흔들었고 일부 나라는 중앙은행 방어 조치로 흐름을 거슬렀다고 전했다 [사실]",
+  "전망: 골드만삭스는 올해 아시아 시장의 두 축으로 에너지 공급 충격과 AI 투자 붐을 꼽고 원화·대만달러·링깃은 강세, 바트·루피아는 약세로 봤다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "흐름은 닛케이아시아·골드만삭스 관련 검색 결과 요약으로 확인, 통화별 최신 수치는 출처마다 달라 쓰지 않음",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "실제",
+   "t": "유가 충격·AI 붐에 아시아 통화 격차 확대"
+  }
+ ]
+}

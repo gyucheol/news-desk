@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0656",
+ "num": 656,
+ "key": "mix-G2-070-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:30:00+09:00",
+ "url": "https://www.reuters.com/business/qualcomm-cut-jobs-worldwide-performance-focused-layoffs-internal-memo-shows-2026-10-20/",
+ "origTitle": "",
+ "headline": "퀄컴, 성과 중심 전 세계 감원 착수…11월부터 통보(내부 메모)",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-20",
+   "u": "https://www.cnbc.com/2026/10/20/qualcomm-performance-focused-layoffs-reuters.html"
+  },
+  {
+   "o": "Detroit News",
+   "d": "2026-10-20",
+   "u": "https://www.detroitnews.com/story/business/2026/10/20/performance-based-layoffs-on-tap-at-qualcomm-internal-memo-says/92345012007/"
+  }
+ ],
+ "items": [
+  {
+   "t": "퀄컴, 성과 중심 전 세계 감원 단행…내부 메모",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/qualcomm-cut-jobs-worldwide-performance-focused-layoffs-internal-memo-shows-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "semis",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "퀄컴, 성과 중심 전 세계 감원 착수…11월부터 통보(내부 메모)",
+ "one": "퀄컴이 성과 중심의 전 세계 감원에 나서며 11월부터 대상 직원에게 통보한다고 내부 메모가 밝혔다\n· 아몬 CEO는 연례 평가에 따라 성과 문화를 강화하려는 조치라고 했고 감원 규모는 밝히지 않았다\n· 퀄컴 회계 3분기 매출은 메모리값 상승에 따른 소비자 기기 부진 속에 4% 줄어든 99억 5천만 달러였다",
+ "facts": [
+  "무엇이: 크리스티아노 아몬 CEO는 내부 메모에서 연례 평가에 따른 '성과 중심 감원'을 전 세계에서 하며 11월부터 통보한다고 밝혔다 [사실]",
+  "규모: 감원 인원은 공개되지 않았고 퀄컴 직원은 2025년 9월 기준 약 5만 2천 명이었다 [사실]",
+  "배경: 6월 28일 끝난 회계 3분기 매출은 전년 대비 4% 줄어든 99억 5천만 달러였고, 메모리값 상승이 소비자 기기 수요를 깎았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(CNBC·디트로이트뉴스 등)으로 내부 메모, 11월 통보, 규모 미공개, 3분기 매출 확인",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "design",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "퀄컴 성과 중심 전 세계 감원 착수"
+  }
+ ]
+}

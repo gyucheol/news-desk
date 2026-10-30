@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0244",
+ "num": 244,
+ "key": "mix-C096-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T19:47:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/bis-chief-sees-moderate-second-round-inflation-effects-iran-war-so-far-2026-10-09/",
+ "origTitle": "",
+ "headline": "BIS 총재 \"이란전 에너지 충격, {{2차 물가 효과}} 아직 완만\"",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-09",
+   "u": "https://www.indexbox.io/blog/biss-hernandez-de-cos-iran-war-energy-shock-has-only-moderate-second-round-inflation-effects/"
+  },
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-05",
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/fiscal-policy-response-to-iran-war-risks-worsening-inflation-bis-chief"
+  }
+ ],
+ "items": [
+  {
+   "t": "BIS 총재 \"이란전 2차 물가 효과, 지금까지 완만\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/middle-east/bis-chief-sees-moderate-second-round-inflation-effects-iran-war-so-far-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "title": "BIS 총재 \"이란전 에너지 충격, {{2차 물가 효과}} 아직 완만\"",
+ "one": "{{BIS 총재}}가 이란전으로 뛴 에너지 가격이 임금·물가로 번지는 {{2차 효과}}가 아직 완만하다고 밝히면서, 중앙은행들이 공급 충격에 서둘러 긴축할 압박이 다소 줄 수 있다",
+ "facts": [
+  "무엇이: 파블로 에르난데스 데 코스 BIS 사무총장이 10월 9일 이스탄불 경제포럼에서 에너지 가격 급등의 2차 물가 효과가 지금까지 완만하다고 말했습니다 [사실]",
+  "진단: 그는 전쟁을 부정적 공급 충격으로 규정하고, 중앙은행들이 국내 수요 여건에 따라 서로 다른 속도로 대응해 왔다고 했습니다 [사실]",
+  "비교: 5월에는 과도한 재정 대응이 이란전의 물가 효과를 키울 수 있다며 대응 준비를 촉구한 바 있어 이번 발언은 그보다 차분합니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BIS 사무총장 발언 내용·장소·날짜는 검색 결과 요약으로 확인"
+}

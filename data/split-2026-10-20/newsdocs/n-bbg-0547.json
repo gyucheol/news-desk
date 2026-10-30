@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0547",
+ "num": 547,
+ "key": "split-G5-059-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-flavio-bolsonaro-surge-attracts-top-finance-minister-names",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "보우소나루 약진에 재무장관 후보 몰려…크레디트스위스·BofA 출신 검토",
+ "headline": "보우소나루 약진에 재무장관 후보 몰려…크레디트스위스·BofA 출신 검토",
+ "one": "플라비우 보우소나루가 대선 1차 투표에서 약진하면서 유력 재무장관 후보들이 몰린 데 이어 크레디트스위스·BofA 출신 인사를 경제 운용 책임자로 검토하면서, 시장 친화적 경제팀이 꾸려질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 플라비우 보우소나루가 대선 1차 투표에서 약진하면서 유력 재무장관 후보들이 몰렸다 [제목]",
+  "인선: 보우소나루는 브라질 경제 운용을 맡길 인물로 크레디트스위스·BofA 출신 인사를 검토하고 있다 [제목]",
+  "전망: 시장 친화적 경제팀이 꾸려지면 브라질의 정책 전환 기대가 커질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 2건(10월 8일, 9일 스페인어판)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 대선: 플라비우 보우소나루 약진에 유력 재무장관 후보들 몰려",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-flavio-bolsonaro-surge-attracts-top-finance-minister-names",
+   "s": "플라비우 보우소나루가 대선 1차 투표에서 약진하면서 유력 재무장관 후보들이 몰려, 브라질의 정책 전환 기대가 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "보우소나루, 브라질 경제 운용에 크레디트스위스·BofA 출신 인사 검토",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bolsonaro-evalua-figuras-de-credit-suisse-y-bofa-para-manejar-economia-de-brasil",
+   "s": "보우소나루가 브라질 경제 운용을 맡길 인물로 크레디트스위스·BofA 출신 인사를 검토하면서, 시장 친화적 경제팀이 꾸려질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "보우소나루, 월가 출신 재무장관 후보 검토"
+  }
+ ]
+}

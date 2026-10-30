@@ -1,0 +1,73 @@
+{
+ "id": "n-rtr-0479",
+ "num": 479,
+ "key": "split-G3-134-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/ai-selloff-hammers-hedge-funds-this-week-asia-managers-lead-losses-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "AI 매도에 헤지펀드 타격…글로벌 롱숏 주간 2.9%·아시아 이달 6.8% 손실",
+ "headline": "AI 매도에 헤지펀드 타격…글로벌 롱숏 주간 2.9%·아시아 이달 6.8% 손실",
+ "one": "AI 매도로 헤지펀드가 이번 주 큰 손실을 입고 아시아 운용사가 손실을 이끌면서 글로벌 롱숏 펀드가 한 주 2.9%를 잃었고, 골드만 집계로 아시아 롱숏 펀드는 이달 상반월 6.8% 손실을 냈다",
+ "facts": [
+  "무엇이: 로이터는 16일 AI 매도로 헤지펀드가 이번 주 큰 손실을 입었고 아시아 운용사가 손실을 이끌었다고 전했다 [사실]",
+  "수치: 글로벌 롱숏 펀드는 한 주에 2.9%를 잃었다 [사실]",
+  "아시아: 골드만 집계로 아시아 롱숏 펀드는 이달 상반월 6.8% 손실을 냈고, 3대 전략이 같은 날 80bp 넘게 빠진 일이 올해 세 번째였다 [채널]",
+  "의미: 이번 손실로 AI 수익성에 대한 의문이 커졌다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "로이터 1건과 TNBfolio 텔레그램 1건을 묶었다. 원 문서 확인 기록에 이 사건 부분은 없으나 로이터 내용은 원 문서 출처 Hedgeweek·Finimize 기사와 맞아 붙였고, 골드만 집계 6.8%는 채널 전언이다.",
+ "src": [
+  {
+   "o": "Hedgeweek",
+   "d": "2026-10-16",
+   "u": "https://hedgeweek.com/news/hedge-funds-hit-by-ai-sell-off-as-asia-focused-managers-lead-losses"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-16",
+   "u": "https://finimize.com/content/hedge-funds-felt-the-pain-of-an-ai-trade-unwind"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 매도에 이번 주 헤지펀드 타격…아시아 운용사 손실 최대",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/china/ai-selloff-hammers-hedge-funds-this-week-asia-managers-lead-losses-2026-10-16/",
+   "s": "AI 매도로 헤지펀드가 이번 주 큰 손실을 입고 아시아 운용사가 손실을 이끌면서, 글로벌 롱숏 펀드가 한 주 2.9%를 잃었다"
+  },
+  {
+   "t": "골드만 '아시아 롱숏 펀드 이달 6.8% 손실…3대 전략 동반 급락 올해 세 번째'",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-16",
+   "u": "https://t.me/TNBfolio/71576",
+   "s": "골드만 집계로 아시아 롱숏 펀드가 이달 상반월 6.8% 손실을 내고 3대 전략이 같은 날 80bp 넘게 빠진 일이 올해 세 번째가 되면서, AI 수익성에 대한 의문이 커졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "글로벌 롱숏 펀드 한 주 2.9% 손실"
+  }
+ ]
+}

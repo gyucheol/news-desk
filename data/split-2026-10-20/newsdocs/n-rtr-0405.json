@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0405",
+ "num": 405,
+ "key": "split-G1-156-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/south-korea-reviews-expanding-military-mission-middle-east-report-says-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "한국, 중동 파견 부대 임무 확대 검토 중…로이터 보도",
+ "headline": "한국, 중동 파견 부대 임무 확대 검토 중…로이터 보도",
+ "one": "한국이 중동에 파견한 부대의 임무 확대를 검토하고 있다는 보도를 로이터가 10월 16일 전하면서, 미국·이란 사이 긴장이 동맹국의 군사 대응으로까지 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 한국이 중동 파견 부대의 임무 확대를 검토 중이라는 보도가 나왔다(로이터, 10월 16일) [제목]",
+  "의미: 미국·이란 긴장이 동맹국의 군사 대응으로 번지고 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "보도 '한국, 중동 파견 부대 임무 확대 검토 중'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korea-reviews-expanding-military-mission-middle-east-report-says-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "한국, 중동 파견 부대 임무 확대 검토"
+  }
+ ]
+}

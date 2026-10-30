@@ -1,0 +1,68 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 베네수엘라 의회 수장 제재 해제는 검색 결과 요약(Anadolu)으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 재무부는 베네수엘라 의회 수장에 대한 제재를 해제해 미국 내 자산 동결을 풀었다 [사실]",
+  "관계: 블룸버그는 이번 해제를 양국 관계 해빙의 연장선으로 전했다 [사실]",
+  "석유법: 제재 해제로 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다 [사실]",
+  "다른 지원: 세계은행도 2년간 최대 50억 달러 대출을 검토하고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 재무부, 베네수엘라 국회의장 제재 해제…관계 해빙 한 걸음 더",
+ "id": "n-rtr-0033",
+ "incentive": "",
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "미국, 관계 해빙 속 베네수엘라 최고위 입법자 제재 해제",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
+   "s": "미국이 관계 해빙 속에 베네수엘라 국회의장의 제재를 해제하면서, 양국 관계 정상화가 한 걸음 더 나아갔다"
+  },
+  {
+   "t": "美 재무부, 베네수엘라 의회 수장에 대한 제재 해제",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/us-lifts-sanctions-head-venezuela-legislature-2026-10-14/",
+   "s": "미국 재무부가 베네수엘라 의회 수장의 미국 내 자산 동결을 풀면서, 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다"
+  }
+ ],
+ "key": "bnd-C044-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 33,
+ "one": "미국이 관계 해빙 속에 베네수엘라 국회의장의 제재를 해제한 데 이어 재무부가 그의 미국 내 자산 동결을 풀면서, 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T07:53:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Anadolu/aNews",
+   "d": "2026-10-14",
+   "u": "https://www.anews.com.tr/americas/2026/10/14/us-removes-head-of-venezuelas-national-assembly-from-sanctions-list"
+  }
+ ],
+ "tags": [],
+ "title": "美 재무부, 베네수엘라 국회의장 제재 해제…관계 해빙 한 걸음 더",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "국회의장 제재 해제로 석유법 개정 추진 탄력"
+  }
+ ]
+}

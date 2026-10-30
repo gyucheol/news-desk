@@ -1,0 +1,71 @@
+{
+ "basis": "verified",
+ "check": "10월 13일 상원 경제·조세위원회의 PLB 사전 수수료 지지, 수수료 대상 제한(사실상 UBS만), 산정 기준 확대·1bp 상한, 은행협회 반대, 겨울 회기 일정은 검색 결과 요약(피나디움·애드혹뉴스 등, 로이터 보도 포함)으로 확인. 위원회 표결 결과는 보도마다 달라 쓰지 않음. FSB 평가·배경은 기존 문서 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 스위스 상원 경제·조세위원회가 10월 13일 시스템적으로 중요한 은행에 사전 수수료를 물리는 정부의 공적 유동성 백스톱(PLB) 안을 지지했고, 수수료 대상을 국제 영업 비중이 큰 대형은행으로 좁혀 사실상 UBS만 해당됩니다 [사실]",
+  "산정 기준: 위원회는 베일인 채권, 해외 중앙은행에 미리 맡긴 담보, 커버드본드 등 장기 조달까지 수수료 산정 기준에 넣고 요율 상한을 1bp로 법에 정하자고 했습니다 [사실]",
+  "반발: 스위스은행협회는 사전 수수료가 UBS에 대한 특별세나 다름없다며 반대했고, 상원 본회의 논의는 겨울 회기로 예정돼 있습니다 [사실]",
+  "FSB 평가: FSB는 10월 9일 동료 평가에서 공적 백스톱 장치를 제대로 갖춘 관할권이 절반에 못 미친다며 EU 은행연합과 스위스를 중대한 미준수로 평가했습니다 [사실]",
+  "배경: 2023년 크레디트스위스 구제 때 긴급 유동성, 정부 백스톱, AT1 채권 상각이 동원된 경험이 계기입니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{스위스 상원 위원회}}, {{UBS에 공적 유동성 백스톱 수수료}} {{지지}}…{{FSB}}는 {{스위스 미흡}} 판정",
+ "id": "n-rtr-0193",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "글로벌 감독기구, 부실은행 긴급자금 공백 메우라고 당국에 촉구",
+   "u": "https://www.reuters.com/business/finance/global-watchdog-urges-authorities-close-gaps-emergency-funding-failing-banks-2026-10-09/"
+  },
+  {
+   "t": "스위스 의회 위원회, UBS 공적 유동성 백스톱 수수료 지지",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/swiss-parliamentary-committee-backs-fee-ubs-public-liquidity-backstop-2026-10-13/",
+   "s": "{{스위스 상원 경제위원회}}가 {{공적 유동성 백스톱}}에 {{사전 수수료}}를 물리는 안을 {{지지}}하고 {{대상}}을 {{국제 영업 대형은행}}으로 {{좁히}}면서 사실상 {{UBS}}가 {{비용}}을 {{떠안을}} 전망이다"
+  }
+ ],
+ "key": "mix-C075-2026-10-09",
+ "nodes": [],
+ "num": 193,
+ "one": "{{금융안정위원회}}가 {{스위스}}를 {{공적 백스톱 장치 중대 미준수}}로 판정한 가운데 {{스위스 상원 경제위원회}}가 {{공적 유동성 백스톱}}에 {{사전 수수료}}를 물리되 {{대상}}을 {{국제 영업 비중이 큰 대형은행}}으로 {{좁히는}} 안을 {{지지}}하면서, 사실상 {{UBS}}만 {{새 비용}}을 {{떠안을}} 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T01:51:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Central Banking",
+   "u": "https://www.centralbanking.com/central-banks/financial-stability/7977296/fsb-calls-for-urgent-action-on-public-liquidity-backstops"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/fsb-warns-bank-backstops-arent-ready-for-the-next-crisis"
+  },
+  {
+   "o": "피나디움",
+   "d": "",
+   "u": "https://finadium.com/switzerland-committee-backs-fee-for-public-liquidity-backstop-access/"
+  },
+  {
+   "o": "애드혹뉴스",
+   "d": "",
+   "u": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/ubs-faces-a-swiss-only-liquidity-levy-as-earnings-momentum-meets-regulatory-headwinds/70323633"
+  }
+ ],
+ "tags": [],
+ "title": "{{스위스 상원 위원회}}, {{UBS에 공적 유동성 백스톱 수수료}} {{지지}}…{{FSB}}는 {{스위스 미흡}} 판정",
+ "url": "https://www.reuters.com/business/finance/global-watchdog-urges-authorities-close-gaps-emergency-funding-failing-banks-2026-10-09/",
+ "added": "이번 로이터 1건으로 {{스위스 상원 경제위원회}}가 {{PLB 사전 수수료}}를 {{지지}}하고 {{대상}}을 {{국제 영업 대형은행}}으로 {{좁혀}} 사실상 {{UBS만}} {{수수료를 물게 된다}}는 내용이 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

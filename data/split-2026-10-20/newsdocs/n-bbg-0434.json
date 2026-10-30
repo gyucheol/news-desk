@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0434",
+ "num": 434,
+ "key": "split-G3-033-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-said-to-meet-monday-with-msci-over-shock-index-threat",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도네시아 당국·거래소, 강등 경고 해명 요구하러 19일 MSCI 면담",
+ "headline": "인도네시아 당국·거래소, 강등 경고 해명 요구하러 19일 MSCI 면담",
+ "one": "인도네시아 당국과 증권거래소가 강등 경고의 근거를 묻기 위해 19일 월요일 MSCI와 만나기로 하면서 시장 접근성 개선 요구에 대한 대응이 시작됐고, 시장은 해명과 대응책에 주목했다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도네시아 당국은 19일 월요일 MSCI와 만나 지수 강등 경고를 논의하기로 했다 [제목]",
+  "거래소: 인도네시아증권거래소는 강등 경고의 근거를 묻기 위해 MSCI와 면담했다 [제목]",
+  "결과: 거래소는 면담 뒤 지수 비중 약 18%인 지분 집중 종목을 자카르타종합지수 산출에서 빼겠다고 밝혔다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 면담 예정 보도는 제목 기준이고, 면담 뒤 나온 지수 산출 제외 방침만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "인도네시아, 충격적 지수 경고 놓고 월요일 MSCI와 면담",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-said-to-meet-monday-with-msci-over-shock-index-threat",
+   "s": "인도네시아 당국이 월요일 MSCI와 만나 지수 강등 경고를 논의하기로 하면서, 시장은 해명과 대응책에 주목하고 있다 (제목 기준)"
+  },
+  {
+   "t": "인니 증권거래소, 강등 해명 요구하러 월요일 MSCI 면담",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/indonesia-stock-exchange-meet-msci-monday-seeking-clarification-downgrade-2026-10-19/",
+   "s": "인도네시아증권거래소가 강등 경고의 근거를 묻기 위해 MSCI와 만나기로 하면서, 시장 접근성 개선 요구에 대한 대응이 시작됐다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "거래소·당국, 강등 경고 놓고 MSCI 면담"
+  }
+ ]
+}

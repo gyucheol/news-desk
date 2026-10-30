@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0567",
+ "num": 567,
+ "key": "split-G5-100-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:11:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/german-industry-has-lost-nearly-half-million-jobs-since-2019-ifo-says-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "ifo \"독일 산업, 2019년 이후 일자리 49만 6,000개 잃어\"",
+ "headline": "ifo \"독일 산업, 2019년 이후 일자리 49만 6,000개 잃어\"",
+ "one": "ifo가 독일 산업 일자리가 2019년부터 2025년 말까지 약 49만 6,000개(7.1%) 줄었다고 집계하면서, 자동차·금속·기계가 감소분의 약 60%를 차지해 제조업 경쟁력 약화가 수치로 드러났다",
+ "facts": [
+  "무엇이: ifo 연구로 독일 산업 일자리는 2019년부터 2025년 말까지 약 49만 6,000개(7.1%) 줄었다(10월 19일 로이터) [사실]",
+  "업종: 자동차·부품 12만 3,500개, 금속제품 11만 5,600개, 기계 6만 4,500개가 줄어 감소분의 약 60%를 차지했다 [사실]",
+  "서비스: 같은 기간 서비스업 일자리는 보건·사회서비스와 공공행정을 중심으로 220만 개 넘게 늘었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 19일)이다. 산업 일자리 감소 규모와 업종별 내역은 Global Banking & Finance Review·IndexBox 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-19",
+   "u": "https://www.globalbankingandfinance.com/german-industry-lost-nearly-half-million-jobs-since-2019-ifo/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-19",
+   "u": "https://www.indexbox.io/blog/german-industry-sheds-nearly-500000-jobs-since-2019-as-competitive-pressure-mounts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "ifo '독일 산업, 2019년 이후 일자리 50만 개 가까이 잃어'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/german-industry-has-lost-nearly-half-million-jobs-since-2019-ifo-says-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "industrial",
+  "auto"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "독일 산업 일자리 2019년 이후 49만 6,000개 감소"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "n-bbg-0793",
+ "num": 793,
+ "key": "mix-G1-024-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T06:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/indigo-posts-a-lower-than-expected-loss-boosted-by-higher-fares",
+ "origTitle": "",
+ "headline": "항공유 급등에 인디고 또 분기 적자·연료비 67%↑…에어캐나다 이익 전망 재차 하향",
+ "src": [
+  {
+   "o": "Free Press Journal",
+   "d": "2026-10-29",
+   "u": "https://www.freepressjournal.in/business/indigo-posts-1879-crore-net-loss-in-q2-fy27-amid-high-fuel-costs-revenue-up-259"
+  },
+  {
+   "o": "GlobeNewswire(에어캐나다 발표)",
+   "d": "2026-10-29",
+   "u": "https://www.globenewswire.com/news-release/2026/10/29/3391886/0/en/air-canada-reports-third-quarter-2026-financial-results.html"
+  },
+  {
+   "o": "FlightGlobal",
+   "d": "2026-10-29",
+   "u": "https://www.flightglobal.com/airlines/2026/10/air-canada-cuts-outlook-as-margins-fall/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 최대 항공사 인디고, 연료비 급등에 또 분기 적자",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/indigo-posts-a-lower-than-expected-loss-boosted-by-higher-fares",
+   "s": "인디고가 연료비 67.2% 급증으로 7~9월 분기 187억 9,000만 루피 순손실을 내면서 2분기 연속 적자를 기록했다"
+  },
+  {
+   "t": "에어캐나다, 항공유 비용에 이익 전망 재차 하향",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/air-canada-reduces-profit-outlook-again-on-jet-fuel-costs",
+   "s": "에어캐나다가 4분기 항공유 가정을 리터당 1.72캐나다달러로 올리면서 2026년 조정 EBITDA 전망을 24억~27억 캐나다달러로 낮췄다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "항공유 급등에 인디고 또 분기 적자·연료비 67%↑…에어캐나다 이익 전망 재차 하향",
+ "one": "항공유 가격 급등으로 인디고가 또 분기 적자를 냈고 에어캐나다는 이익 전망을 다시 내렸다\n· 인디고는 7~9월 분기 순손실 187억 9,000만 루피를 내 2분기 연속 적자를 기록했다\n· 인디고의 연료비는 67.2% 늘어 매출 증가율 25.9%를 크게 웃돌았다\n· 에어캐나다는 2026년 조정 EBITDA 전망을 24억~27억 캐나다달러로 낮췄다\n· 에어캐나다는 4분기 항공유 가정을 리터당 1.29캐나다달러에서 1.72캐나다달러로 올렸다\n· 에어캐나다는 4분기 추가 연료비의 약 70%만 운임으로 회수할 수 있다고 봤다",
+ "facts": [
+  "무엇이: 인디고는 7~9월 분기 순손실 187억 9,000만 루피를 내 전년 258억 2,000만 루피보다 줄었지만 직전 분기에 이어 2분기 연속 적자다 [사실]",
+  "인디고 비용: 연료비가 67.2% 늘어 996억 6,800만 루피가 됐고 매출은 25.9% 늘었으며, 환율 영향을 빼면 손실은 약 72억 4,000만 루피였다 [사실]",
+  "에어캐나다 전망: 2026년 조정 EBITDA 전망을 29억~32억에서 24억~27억 캐나다달러로, 잉여현금흐름 전망을 손익분기(±1억 5,000만 캐나다달러)로 낮췄다 [사실]",
+  "연료: 4분기 항공유 가정을 리터당 1.29에서 1.72캐나다달러로 올렸고, 추가 연료비 회수율 예상은 100%에서 약 70%로 낮췄다 [사실]",
+  "3분기: 에어캐나다 3분기 매출은 사상 최대 69억 8,000만 캐나다달러, 조정 EPS는 0.75캐나다달러로 예상을 웃돌았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "인디고는 Free Press Journal·ETV Bharat 검색 결과 요약으로 순손실 1,879크로르 루피·연료비 67.2% 확인, 에어캐나다는 회사 발표(GlobeNewswire)·FlightGlobal 요약으로 EBITDA 전망·연료 가정 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "항공유 비용 급등에 인디고 적자·에어캐나다 전망 하향"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

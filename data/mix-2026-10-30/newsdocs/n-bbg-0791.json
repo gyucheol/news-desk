@@ -1,0 +1,84 @@
+{
+ "id": "n-bbg-0791",
+ "num": 791,
+ "key": "mix-G1-018-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/copper-sold-out-everywhere-as-key-china-gauge-flashes-warning",
+ "origTitle": "",
+ "headline": "상하이선물거래소, 구리·알루미늄 선물 보세 인도 즉시 중단…일반 인도는 유지",
+ "src": [
+  {
+   "o": "SMM(Shanghai Metals Market)",
+   "d": "2026-10-29",
+   "u": "https://news.metal.com/newscontent/104186520-shfe-suspends-bonded-delivery-of-copper-cathode-and-aluminum-futures"
+  },
+  {
+   "o": "SP Angel(share-talk)",
+   "d": "2026-10-29",
+   "u": "https://www.share-talk.com/sp-angel-todays-market-view-thursday-29th-october-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "상하이선물거래소, 선물 인도용 보세 금속 인도 중단",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/copper-sold-out-everywhere-as-key-china-gauge-flashes-warning",
+   "s": "상하이선물거래소가 선물 결제에 보세 금속을 넘겨주는 길을 막으면서 보세 창고 물량이 선물 인도에서 빠지게 됐다 (제목 기준)"
+  },
+  {
+   "t": "상하이선물거래소, 보세 구리·알루미늄 선물 인도 중단",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/shanghai-exchange-halts-bonded-copper-aluminium-deliveries",
+   "s": "상하이선물거래소가 정련 구리·알루미늄 선물의 보세 인도를 공고일부터 멈추면서 두 금속의 수입 보세 물량 인도가 끊겼다"
+  },
+  {
+   "t": "상하이선물거래소, 선물 인도용 보세 금속 인도 중단(갱신)",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/shanghai-exchange-halts-duty-free-metal-delivery-against-futures",
+   "s": "상하이선물거래소의 보세 금속 인도 중단 소식이 갱신되면서 일반 구리·알루미늄 선물 인도는 그대로 이어진다는 점이 함께 확인됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "상하이선물거래소, 구리·알루미늄 선물 보세 인도 즉시 중단…일반 인도는 유지",
+ "one": "상하이선물거래소가 10월 29일 정련 구리·알루미늄 선물의 보세 인도 업무를 즉시 중단했다\n· 거래소 공고 371호에 따라 두 금속의 보세 인도가 공고일부터 멈췄다\n· SMM은 BC 구리와 일반 구리·알루미늄 선물 인도에는 영향이 없다고 전했다\n· SP 엔젤은 이번 조치를 거래소의 지정 창고 재편과 연결해 해석했다",
+ "facts": [
+  "무엇이: 상하이선물거래소가 10월 29일 공고(2026년 371호)로 정련 구리·알루미늄 선물의 보세 인도 업무를 공고일부터 중단했다 [사실]",
+  "영향 범위: BC 구리와 상하이 구리·알루미늄 선물의 일반 인도에는 영향이 없다 [사실]",
+  "배경: 거래소는 지정 창고 업무를 재편해 일부 기존 창고를 없애고 큰 인도 체계로 모으고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "SMM(상하이유색금속망) 검색 결과 요약으로 공고 371호·즉시 중단·일반 인도 영향 없음 확인, SP 엔젤 요약으로 창고 재편 배경 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "상하이 거래소 보세 구리 선물 인도 중단"
+  },
+  {
+   "ind": "metals",
+   "node": "aluminum",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "상하이 거래소 보세 알루미늄 선물 인도 중단"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

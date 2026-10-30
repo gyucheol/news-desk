@@ -1,0 +1,108 @@
+{
+"id": "metals",
+"summary": "금속·광물 산업은 광산에서 철광석·구리·리튬·금 같은 광석을 캐 제련·정련을 거쳐 철강·전기동·알루미늄·배터리 소재로 만들고 건설·전력망·자동차·배터리 업체에 파는 사슬이며, 가격은 거래소와 가격 지수가, 공급은 광산 리드타임과 자원국 정책이 정합니다. 10월 중순에도 가장 빠듯한 곳은 구리 광산입니다. 칠레의 1~8월 구리 생산이 7.7% 줄고 콩고가 구리 벨트 불법 채굴 단속에 나선 가운데 정광 TC는 사상 최저권이고, 희토류·핵심광물에는 세계은행과 각국 정부 자금이 더 몰립니다. 알루미늄은 EGA 알타윌라 제련소가 8월 말까지 전해조의 4분의 1만 다시 돌려 걸프 공급 정상화가 2027년으로 밀립니다. 반면 철광석은 2년 만에 톤당 90달러 밑으로 내려 발레가 해상 공급의 약 10%를 적자로 볼 만큼 남고, 리튬은 5월 이후 약 50% 떨어졌으며, 철강은 세계 수요가 정체한 가운데 미국만 관세로 열연값이 4년 최고입니다.",
+"state": {
+ "ironore": [
+  {"d": "2026-10-15", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-15/iron-ore-trades-below-90-a-ton-for-first-time-since-2024", "nid": "n-bbg-0124", "t": "싱가포르 철광석 선물이 이번 주 2년 만에 처음 톤당 90달러 밑으로 내려 올해 약 15% 떨어졌고, 16일에는 90.85달러로 소폭 올랐습니다 [사실]"},
+  {"d": "2026-10-16", "o": "MINING.COM", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/", "nid": "n-bbg-0124", "t": "발레 CEO는 에너지·운임 비용 상승으로 해상 철광석 공급의 약 10%인 1억 6,000만 톤이 적자이고 약 1,500만 톤은 이미 멈췄다고 밝혔습니다 [사실]"}
+ ],
+ "steel": [
+  {"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/cleveland-cliffs-faces-forced-sale-threat-over-stelco-layoffs", "nid": "n-bbg-0317", "t": "미국 열연코일 가격이 10월 16일 숏톤당 1,255달러로 1년 새 52% 올라 2022년 5월 이후 최고였고, 1~9월 완제 철강 수입은 약 14% 줄었습니다 [사실]"},
+  {"d": "2026-10-13", "o": "텔레그램 상상인 김진범", "u": "https://t.me/PipeBeom/6690", "nid": "n-tg-0257", "t": "상상인증권은 철스크랩·니켈 원가 상승과 판가 하락으로 세아베스틸지주 3분기 영업이익이 전분기보다 58.4% 줄 것으로 봤고, 중국산 특수강 봉강에는 25.08~27.96% 잠정 반덤핑관세가 결정됐습니다 [채널]"}
+ ],
+ "copper": [
+  {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/", "nid": "n-bbg-0085", "t": "칠레의 1~8월 구리 생산은 325만 톤으로 1년 전보다 7.7% 줄었고, 센티넬라 파업과 엘테니엔테 부분 중단이 겹쳤습니다 [사실]"},
+  {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/zambia-cuts-economic-growth-outlook-as-el-nino-threat-builds", "nid": "n-rtr-0029", "t": "소시에테제네랄은 엘니뇨 가뭄에 따른 수력 부족으로 잠비아·콩고 구리벨트 생산이 2027년 상반기까지 기껏해야 정체할 것으로 봤습니다 [사실]"}
+ ],
+ "aluminum": [
+  {"d": "2026-10-16", "o": "텔레그램 상상인 김진범", "u": "https://t.me/PipeBeom/6722", "nid": "n-rtr-0322", "t": "이란 공격으로 멈춘 EGA 알타윌라 제련소는 8월 말까지 전해조 1,262개 중 315개만 다시 돌렸고, 약 4억 달러를 들여 2027년 1분기 완전 회복을 목표로 합니다 [사실]"}
+ ],
+ "battery": [
+  {"d": "2026-10-16", "o": "텔레그램 하나증권 중국전략", "u": "https://t.me/HANAchina/70507", "nid": "n-tg-0227", "t": "중국 리튬 가격은 5월 이후 50% 떨어졌고, 탄산리튬 현물은 16일 톤당 10만 2,500위안으로 더 밀려 10만 위안선 공방이 이어졌습니다 [채널]"}
+ ],
+ "critical": [
+  {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/", "nid": "n-tg-0254", "t": "세계은행 방가 총재는 리튬·니켈·코발트·갈륨·희토류 채굴·가공 사업 금융을 5년 안에 5배로 늘리겠다며 협력할 20개국을 꼽았습니다 [사실]"},
+  {"d": "2026-10-13", "o": "텔레그램 상상인 김진범", "u": "https://t.me/PipeBeom/6681", "nid": "n-tg-0250", "t": "라이너스가 브라질 정부 지원으로 희토류 공장을 추진하고, 메테오릭 칼데이라는 연 약 1만 2,500톤 산화물 생산을 계획하지만 초기 개발비 약 4억 9,800만 달러에 분리시설은 빠져 있습니다 [채널]"}
+ ],
+ "precious": [
+  {"d": "2026-10-15", "o": "텔레그램 Polaristimes", "u": "https://t.me/The_MariTimes/63725", "nid": "n-tg-0124", "t": "금 현물은 10월 14일 미국 CPI 발표 뒤 약 4,073달러로 8월 초 이후 처음 4,100달러 밑으로 내려갔다가 15일 4,150~4,160달러대로 반등했습니다 [사실]"},
+  {"d": "2026-10-12", "o": "텔레그램 하나증권 중국전략", "u": "https://t.me/HANAchina/70229", "nid": "n-tg-0232", "t": "노릴스크니켈 몬체고르스크 공장이 세계 팔라듐 정제의 약 40%를 맡아 드론 사거리 안이라는 지적이 나왔지만, 팔라듐 현물은 연초보다 약 30% 낮습니다 [채널]"}
+ ],
+ "policy": [
+  {"d": "2026-10-16", "o": "로이터", "u": "https://www.reuters.com/business/canada-exploring-stelco-nationalization-industry-minister-says-2026-10-16/", "nid": "n-bbg-0317", "t": "캐나다 졸리 산업장관은 감원을 강행하는 스텔코에 대해 투자캐나다법 40조 법원 절차를 통한 국유화까지 검토한다고 했고, 클리블랜드클리프스 CEO는 이를 일축했습니다 [사실]"},
+  {"d": "2026-10-12", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/state-backed-shanghai-port-talks-buy-lme-warehouse-firm-sources-say-2026-10-12/", "nid": "n-rtr-0214", "t": "중국 국영 상하이국제항무그룹이 정부 승인 아래 LME 지정 창고업체 H&M메탈웨어하우징 인수를 협상 중이며, 주로 창고 재고 정보를 노린다고 소식통이 전했습니다 [사실]"}
+ ]
+},
+"industryState": [
+ {"d": "2026-10-16", "kind": "price", "o": "MINING.COM", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/", "nid": "n-bbg-0124", "t": "싱가포르 철광석 선물이 2024년 이후 처음 톤당 90달러 밑으로 내려 올해 약 15% 떨어졌고, 발레는 해상 공급의 약 10%(1억 6,000만 톤)가 적자라고 밝혔습니다 [사실]"},
+ {"d": "2026-10-16", "kind": "price", "o": "블룸버그", "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/cleveland-cliffs-faces-forced-sale-threat-over-stelco-layoffs", "nid": "n-bbg-0317", "t": "미국 열연코일은 10월 16일 숏톤당 1,255달러로 1년 새 52% 올랐고, 섹션 232 철강 관세는 2025년 6월 50%로 올라 있습니다 [사실]"},
+ {"d": "2026-10-16", "kind": "supply", "o": "로이터", "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/", "nid": "n-bbg-0085", "t": "칠레의 1~8월 구리 생산은 325만 톤으로 1년 전보다 7.7% 줄었습니다 [사실]"},
+ {"d": "2026-10-16", "kind": "capex", "o": "로이터", "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/", "nid": "n-tg-0254", "t": "세계은행이 핵심광물 채굴·가공 금융을 5년 안에 5배로 늘리고 협력할 20개국을 꼽았습니다 [사실]"}
+],
+"flags": [
+ {"nid": "n-bbg-0124", "t": "재검토 필요: 발레가 고원가 철광석 약 1,500만 톤이 이미 멈췄다고 밝혀 철광석이 ④ 수익 악화에서 ⑤ 자본 철수·⑥ 공급 파괴 쪽으로 옮겨 가는 신호이며, 다만 원인이 운임·연료비라 비용이 내리면 되돌아올 수 있습니다 [유추]"},
+ {"nid": "n-bbg-0317", "t": "재검토 필요: 미국 열연이 관세로 4년 최고(숏톤당 1,255달러)라 철강의 ④ 국면과 달리 미국 시장은 ① 고수익 국면을 가리키며, 철강은 지역별로 국면이 갈립니다 [유추]"},
+ {"nid": "n-tg-0227", "t": "재검토 필요: 리튬값이 5월 이후 약 50% 떨어져 배터리 금속이 ⑥ 공급 파괴보다 ③ 공급 과잉·④ 수익 악화 쪽을 가리키며, 감산이 아직 가격을 받치지 못한다는 뜻일 수 있습니다 [유추]"}
+],
+"insight": {
+ "a": [
+  {"t": "국가·국제기구 자본이 핵심광물 사슬의 지분과 금융으로 직접 들어옵니다. 세계은행의 금융 5배 목표, 프랑스 정부의 에라멧 지분 최대 49%, 브라질 정부의 라이너스 공장 지원이 한 주 사이에 나왔습니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/"}, {"o": "텔레그램 트릴리온", "d": "2026-10-13", "u": "https://t.me/Trillion_labs/10427"}, {"o": "텔레그램 상상인 김진범", "d": "2026-10-13", "u": "https://t.me/PipeBeom/6681"}]},
+  {"t": "거래 인프라도 지정학의 대상이 됩니다. 중국 국영 상하이국제항무그룹이 LME 지정 창고업체 인수를 협상하며 재고 정보를 노리고, 캐나다는 스텔코 국유화까지 검토합니다 [귀납]", "src": [{"o": "로이터", "d": "2026-10-12", "u": "https://www.reuters.com/world/asia-pacific/state-backed-shanghai-port-talks-buy-lme-warehouse-firm-sources-say-2026-10-12/"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/canada-exploring-stelco-nationalization-industry-minister-says-2026-10-16/"}]}
+ ],
+ "a1": [
+  {"t": "공적 자금이 위험을 나눠 지면서 중국 밖 희토류·리튬 채굴·분리 사업의 자금 조달과 승인이 늘고, 핵심광물 노드는 ② 자본 유입 국면에 더 오래 머물 가능성이 큽니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/"}]}
+ ],
+ "a2": [
+  {"t": "반대로 흐른다면 가격 때문입니다. 리튬은 5월 이후 약 50% 떨어졌고 칼데이라는 분리시설 비용이 빠진 채 최종투자결정을 기다려, 공적 자금이 들어와도 사업성이 안 나와 착공이 미뤄질 수 있습니다 [유추]", "src": [{"o": "텔레그램 하나증권 중국전략", "d": "2026-10-16", "u": "https://t.me/HANAchina/70507"}, {"o": "텔레그램 상상인 김진범", "d": "2026-10-13", "u": "https://t.me/PipeBeom/6681"}]}
+ ],
+ "b": [
+  {"t": "공급 쪽에 비용 충격이 겹칩니다. 중동 분쟁으로 에너지·운임이 올라 해상 철광석의 약 10%가 적자가 됐고, 걸프 알루미늄 제련소는 2027년 1분기에야 완전 회복을 노립니다 [귀납]", "src": [{"o": "MINING.COM", "d": "2026-10-16", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/"}, {"o": "텔레그램 상상인 김진범", "d": "2026-10-16", "u": "https://t.me/PipeBeom/6722"}]},
+  {"t": "구리는 광산 생산 자체가 줄고 있습니다. 칠레 1~8월 생산이 7.7% 줄었고, 잠비아·콩고 구리벨트는 가뭄발 전력 부족으로 2027년 상반기까지 정체 전망이 나왔습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/zambia-cuts-economic-growth-outlook-as-el-nino-threat-builds"}]}
+ ],
+ "b1": [
+  {"t": "고원가 철광석이 빠지면 90달러 부근이 바닥 역할을 할 수 있고, 구리 광산 병목은 2027년 상반기까지 이어져 정광 TC 약세와 제련소 마진 압박이 길어질 가능성이 큽니다 [유추]", "src": [{"o": "MINING.COM", "d": "2026-10-16", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/"}, {"o": "Fastmarkets", "d": "2026-10-14", "u": "https://fastmarkets.com/insights/base-metals-head-to-lme-week-2026-with-record-low-tcs-war-hit-supply-chains"}]}
+ ],
+ "b2": [
+  {"t": "반대라면 시만두 증량과 중국 성수기 철강 수요 약세가 감산 효과를 덮거나, 운임·연료비가 내려 멈춘 1,500만 톤이 다시 돌아오는 경우입니다. 발레 스스로 원인을 수급이 아닌 비용으로 봤습니다 [유추]", "src": [{"o": "블룸버그", "d": "2026-10-15", "u": "https://www.bloomberg.com/news/articles/2026-10-15/iron-ore-trades-below-90-a-ton-for-first-time-since-2024"}, {"o": "MINING.COM", "d": "2026-10-16", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/"}]}
+ ],
+ "c": [
+  {"t": "가격 쪽 반대 신호도 있습니다. 금은 CPI 충격에 약 4,073달러까지 밀린 뒤 주간으로 소폭 내렸고, 투기자금은 한 주 새 은 16억 달러어치를 팔았으며, 상상인증권은 고려아연 3분기 영업이익이 46.7% 줄 것으로 봤습니다 [귀납]", "src": [{"o": "텔레그램 Polaristimes", "d": "2026-10-15", "u": "https://t.me/The_MariTimes/63725"}, {"o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/world/india/gold-set-weekly-drop-traders-assess-fed-signals-2026-10-16/"}, {"o": "텔레그램 상상인 김진범", "d": "2026-10-11", "u": "https://t.me/PipeBeom/6659"}]}
+ ],
+ "c1": [
+  {"t": "아직 덮을 만큼 크지 않습니다. 귀금속 조정과 제련 이익 감소는 원료 쪽이 빠듯하다는 결과이기도 하고, 구리는 10월 16일 LME 공식가 톤당 1만 4,595달러로 사상 최고(1만 4,875달러) 가까이에 있습니다 [유추]", "src": [{"o": "KME(LME 공식가 게시)", "d": "2026-10-16", "u": "https://www.kme.com/en/services/metal-prices"}, {"o": "Fastmarkets", "d": "2026-10-14", "u": "https://fastmarkets.com/insights/base-metals-head-to-lme-week-2026-with-record-low-tcs-war-hit-supply-chains"}]}
+ ],
+ "d": [
+  {"t": "공급 집중을 보면 다릅니다. 세계 팔라듐 정제의 약 40%가 드론 사거리 안 한 공장에 있는데 값은 연초보다 약 30% 낮아, 시장이 수급보다 꼬리 위험을 덜 반영하는 금속이 있습니다 [유추]", "src": [{"o": "텔레그램 하나증권 중국전략", "d": "2026-10-12", "u": "https://t.me/HANAchina/70229"}]}
+ ]
+},
+"cycle": {
+ "stage": 2,
+ "conf": "중간",
+ "why": [
+  {"t": "구리 광산은 계속 빠듯합니다. 칠레 1~8월 생산이 7.7% 줄고 콩고가 구리 벨트에서 중국인 약 300명을 구금했으며, 10월 16일 LME 공식가는 톤당 1만 4,595달러, 정광 TC 지수는 10월 9일 -272.20달러였습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/energy/austrian-investor-rushes-boost-copper-production-old-chile-mine-2026-10-16/"}, {"o": "KME(LME 공식가 게시)", "d": "2026-10-16", "u": "https://www.kme.com/en/services/metal-prices"}, {"o": "Fastmarkets", "d": "2026-10-14", "u": "https://fastmarkets.com/insights/base-metals-head-to-lme-week-2026-with-record-low-tcs-war-hit-supply-chains"}]},
+  {"t": "신규 진입자와 국가 자금이 핵심광물로 몰립니다. EU 전략사업 46곳(약 211억 유로), 프랑스 정부의 에라멧 지분 최대 49%에 이어 세계은행이 핵심광물 금융을 5년 안에 5배로 늘리겠다고 했습니다 [귀납]", "src": [{"o": "Bruxelles2", "d": "2026-10-09", "u": "https://www.bruxelles2.eu/en/article/321145"}, {"o": "Mining Weekly", "d": "2026-10-13", "u": "https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/"}]},
+  {"t": "반면 철강·철광석은 남습니다. 2026년 세계 철강 수요는 17억 2,200만 톤으로 정체하고, 철광석은 2년 만에 톤당 90달러 밑으로 내려 발레가 해상 공급의 약 10%를 적자로 봤습니다 [사실]", "src": [{"o": "세계철강협회(worldsteel)", "d": "2026-10-12", "u": "https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/"}, {"o": "MINING.COM", "d": "2026-10-16", "u": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/"}]},
+  {"t": "ICSG는 4월에 2026년 정제 구리 수급을 9만 6,000톤 공급 과잉으로 바꿔 잡았습니다(스크랩 증가·수요 둔화 반영). 광산 병목이 정제품 부족으로 그대로 이어지지는 않을 수 있습니다 [사실]", "src": [{"o": "Mining Weekly(ICSG 4월 전망)", "d": "2026-04-23", "u": "https://www.miningweekly.com/article/global-refined-copper-market-to-swing-to-surplus-in-2026-group-says-2026-04-23"}]}
+ ],
+ "next": "구리·핵심광물에서 신규 광산 승인과 상장, 공적 금융이 더 몰리면 ② 후반 과열로, 시만두 증량과 중국 수요 감소가 철광석을 넘어 구리 수요까지 꺾으면 ③ 공급 과잉으로 넘어갑니다 [유추]",
+ "watch": [
+  "LME 구리 가격·재고와 정광 TC",
+  "철광석 톤당 90달러선과 고원가 광산 감산 확대",
+  "탄산리튬 10만 위안선과 중단 광산 재가동",
+  "중국 희토류 수출 통제 유예 만료(11월 10일)",
+  "금 ETF 자금과 미국 금리·달러"
+ ],
+ "split": [
+  {"stage": 1, "label": "구리·귀금속·알루미늄(고가)", "nodes": ["copper", "precious", "aluminum"]},
+  {"stage": 2, "label": "희토류·핵심광물(자본 유입)", "nodes": ["critical"]},
+  {"stage": 4, "label": "철광석·철강·제련(과잉·마진 압박)", "nodes": ["ironore", "steel", "smelting"]},
+  {"stage": 6, "label": "배터리 금속(정책 감산·자산 정리)", "nodes": ["battery"]}
+ ]
+},
+"nodeStage": {},
+"gaps": "확인하지 못한 것: (1) 2026년 중국 조강 생산량의 1차 자료, (2) 은 가격 수준(투기자금 16억 달러 매도는 채널 전언), (3) 10월 LME 알루미늄 가격과 EGA 알타윌라의 9월 이후 재가동 진척(8월 말 315개 수치뿐), (4) 인도네시아 2026년 니켈 채굴 할당 최종치, (5) NdPr·APT·팔라듐·주석 가격 수준(채널 전언 또는 출처 충돌), (6) 미국 정제 구리 관세의 최종 결정과 앵글로–테크 합병 종결 시점, (7) 10월 16일 LME 구리 가격은 출처마다 1만 4,480~1만 4,595달러로 엇갈려 KME 게시 공식가를 썼고, 트레이더들의 구리 확보 지출 규모는 기사 제목뿐입니다, (8) 세계은행 2026~2030년 금융 목표 190억 달러는 미확인 보도이고, 캐나다 스텔코 국유화와 트럼프의 캐나다산 철강 관세 50% 인상은 검토·위협 단계입니다. 발레의 적자 물량 1억 6,000만 톤은 회사 추정이며 독립 검증은 없습니다. 고려아연·세아베스틸지주 3분기 수치는 증권사 예상(채널 전언)입니다.",
+"note": "뉴스 18건 반영: 철광석 2년 만의 90달러 하회와 발레 고원가 감산, 칠레 구리 생산 7.7% 감소, 세계은행 핵심광물 금융 5배 목표; 국면 ② 그대로(근거 갱신), 근거 14줄, 수치 4줄, 재검토 신호 3건, 인사이트 9칸 첫 작성, 검색 2회",
+"applied": ["n-rtr-0214", "n-tg-0232", "n-tg-0250", "n-tg-0257", "n-rtr-0029", "n-tg-0280", "n-bbg-0120", "n-rtr-0294", "n-rtr-0325", "n-tg-0124", "n-tg-0254", "n-bbg-0085", "n-bbg-0124", "n-bbg-0311", "n-bbg-0317", "n-rtr-0322", "n-tg-0125", "n-tg-0227"],
+"searches": 2,
+"fetches": 0
+}

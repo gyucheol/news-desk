@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0583",
+ "num": 583,
+ "key": "split-G5-133-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/uk-finance-minister-call-big-economies-get-borrowing-under-control-imf-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 재무장관, IMF서 대형 경제국에 차입 통제 촉구",
+ "headline": "영국 재무장관, IMF서 대형 경제국에 차입 통제 촉구",
+ "one": "영국 재무장관이 12일 IMF 회의에서 대형 경제국들에 차입을 통제하라고 촉구하면서, IMF가 선진국 재정적자를 2026년 GDP의 5.2%로 본 가운데 주요국의 재정 적자 관리 압박이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 영국 재무장관은 10월 12일 IMF 회의에서 대형 경제국들에 차입을 통제하라고 촉구했다 [제목]",
+  "배경: IMF는 선진국 재정적자가 2026년 GDP의 5.2%, 미국 일반정부 적자가 8.5%에 이를 것으로 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 배경 수치는 원 문서의 재정점검 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "영국 재무장관, IMF에서 대형 경제국에 차입 통제 촉구",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/uk/uk-finance-minister-call-big-economies-get-borrowing-under-control-imf-2026-10-11/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "영국 재무장관, 대형 경제국에 차입 통제 촉구"
+  }
+ ]
+}

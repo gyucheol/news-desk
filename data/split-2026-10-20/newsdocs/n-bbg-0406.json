@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0406",
+ "num": 406,
+ "key": "split-G2-070-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/world-bank-sees-up-to-5-billion-in-possible-loans-to-venezuela",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "세계은행, 베네수엘라에 2년간 최대 50억 달러 대출 검토",
+ "headline": "세계은행, 베네수엘라에 2년간 최대 50억 달러 대출 검토",
+ "one": "세계은행이 베네수엘라에 2년간 최대 50억 달러 대출을 검토하면서 첫해 최대 20억 달러는 다른 다자은행 연체 해소를 조건으로 걸어, 2005년 이후 끊긴 국제 개발 자금이 다시 들어갈 길이 열렸다",
+ "facts": [
+  "무엇이: 세계은행은 베네수엘라에 2년간 최대 50억 달러 대출을 검토하고 있다 [사실]",
+  "조건: 첫해 최대 20억 달러는 다른 다자은행 연체 해소가 조건이다 [사실]",
+  "의미: 2005년 이후 끊긴 국제 개발 자금이 다시 들어갈 길이 열렸다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 세계은행의 최대 50억 달러 대출 검토와 첫해 조건은 검색 결과 요약(La República, El Informador, InvestNews)으로 확인했다.",
+ "src": [
+  {
+   "o": "La República",
+   "d": "2026-10-16",
+   "u": "https://www.larepublica.co/globoeconomia/el-banco-mundial-preve-posibles-prestamos-de-hasta-us-5-000-millones-a-venezuela-4504285"
+  },
+  {
+   "o": "El Informador Venezuela",
+   "d": "2026-10-16",
+   "u": "https://elinformadorve.com/16/10/2026/actualidad/banco-mundial-evalua-prestamos-de-hasta-5-000-millones-de-dolares-para-venezuela-en-dos-anos/"
+  },
+  {
+   "o": "InvestNews",
+   "d": "2026-10-16",
+   "u": "https://investnews.com.br/economia/banco-mundial-preve-emprestar-ate-us-5-bilhoes-a-venezuela/"
+  }
+ ],
+ "items": [
+  {
+   "t": "세계은행, 베네수엘라에 최대 50억 달러 대출 가능성",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/world-bank-sees-up-to-5-billion-in-possible-loans-to-venezuela"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "세계은행, 2년간 최대 50억 달러 대출 검토"
+  }
+ ]
+}

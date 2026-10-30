@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0233",
+ "num": 233,
+ "key": "mix-C042-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T22:00:00+09:00",
+ "url": "https://www.reuters.com/business/finance/fed-says-household-income-wealth-debt-stress-rose-2022-2025-2026-10-09/",
+ "origTitle": "",
+ "headline": "美 소비자심리 {{46.3}} 5개월 최저…{{소비 여력 고갈}}에 월가 랠리 종료 우려",
+ "src": [
+  {
+   "o": "Advisor Perspectives",
+   "d": "2026-10-09",
+   "u": "https://www.advisorperspectives.com/dshort/updates/2026/10/09/consumer-sentiment-falls-again-in-october"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-09",
+   "u": "https://www.fxstreet.com/news/uom-consumer-sentiment-index-expected-to-decline-in-october-amid-high-oil-prices-202610091000"
+  }
+ ],
+ "items": [
+  {
+   "t": "연준, 2022~2025년 가계 소득·자산·부채 스트레스 상승 발표",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/finance/fed-says-household-income-wealth-debt-stress-rose-2022-2025-2026-10-09/",
+   "s": "{{연준}}이 2022~2025년 가계의 소득·자산과 함께 {{부채 스트레스}}도 높아졌다고 밝히면서 소비 여력 약화 우려가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "미국 10월 소비자심리 한층 더 악화…미시간대 지수 하락",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/us-consumer-sentiment-deteriorates-further-october-2026-10-09/",
+   "s": "미시간대 10월 소비자심리지수가 46.3으로 떨어지고 {{현재 여건 지수}}가 사상 최저인 44.7을 기록하면서 {{가계 소비}} 둔화 우려가 커졌다"
+  },
+  {
+   "t": "소비자 여력 바닥…월가는 증시 랠리 끝낼 요인으로 우려",
+   "o": "블룸버그",
+   "d": "2026-10-11",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/consumers-are-tapped-and-wall-street-fears-that-s-a-rally-killer",
+   "s": "{{미국 소비자}}의 지출 여력이 바닥났다는 진단 속에 월가가 이를 {{증시 랠리를 끝낼 요인}}으로 우려하고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "美 소비자심리 {{46.3}} 5개월 최저…{{소비 여력 고갈}}에 월가 랠리 종료 우려",
+ "one": "미시간대 10월 소비자심리지수가 {{46.3}}으로 5개월 만의 최저로 떨어지고 현재 여건 지수가 사상 최저를 기록한 가운데 연준도 가계 부채 스트레스 상승을 짚으면서, {{소비 여력 약화}}가 {{증시 랠리}}를 꺾을 수 있다는 우려가 커지고 있다",
+ "facts": [
+  "무엇이: 미시간대 10월 소비자심리 예비치가 46.3으로 9월 48.1에서 내려 5월 이후 최저였고 시장 예상 47.6을 밑돌았습니다 [사실]",
+  "세부: 현재 여건 지수는 50.9에서 44.7로 떨어져 사상 최저였고, 1년 기대 인플레이션은 4.7%, 장기 기대 인플레이션은 3.5%로 올랐습니다 [사실]",
+  "가계: 연준은 2022~2025년 가계의 소득·자산·부채 스트레스가 높아졌다고 밝혔습니다 [제목]",
+  "시장: 월가는 소비 여력 고갈이 증시 랠리를 끝낼 수 있다고 우려하고 있습니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "소비자심리 수치는 검색 결과 요약으로 확인. 연준 가계 보고서 내용과 월가 우려는 확인 못 해 제목 기준",
+ "added": "이번 블룸버그 기사 1건으로 월가가 미국 {{소비 여력 고갈}}을 {{증시 랠리 종료 요인}}으로 우려하고 있다는 진단이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

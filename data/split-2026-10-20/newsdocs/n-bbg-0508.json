@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0508",
+ "num": 508,
+ "key": "split-G4-141-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/britain-s-mansion-tax-shows-the-difficulty-of-targeting-wealth",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 고가주택세가 보여주는 부유층 과세의 어려움",
+ "headline": "영국 고가주택세가 보여주는 부유층 과세의 어려움",
+ "one": "블룸버그가 영국 고가주택세 사례를 들어 부유층 과세가 어렵다고 짚으면서, IFS가 약 350억 파운드의 증세·복지 축소 필요를 추산한 10월 28일 예산안에서 부유세로 세수를 늘리는 방안의 한계가 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 12일 블룸버그는 영국의 고가주택세가 부유층 과세의 어려움을 보여 준다고 짚었다 [제목]",
+  "재정 배경: 같은 날 IFS는 힐리 재무장관이 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "해석: 고가 주택 과세로 거둘 수 있는 세수가 크지 않으면 증세 부담이 다른 세목으로 옮겨 갈 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(IFS 추산은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "영국 고가주택세가 보여주는 부유층 과세의 어려움",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/britain-s-mansion-tax-shows-the-difficulty-of-targeting-wealth"
+  }
+ ],
+ "inds": [
+  "realestate",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "고가주택세로 본 부유층 과세 세수 한계"
+  }
+ ]
+}

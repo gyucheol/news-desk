@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0667",
+ "num": 667,
+ "key": "mix-G1-107-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:11:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/vietjet-faces-aircraft-cash-seizures-in-fitzwalter-debt-fight",
+ "origTitle": "",
+ "headline": "비엣젯, 피츠월터 채무 분쟁에 항공기·현금 압류 위기…영국 법원 2.5억 달러 자산 동결",
+ "src": [
+  {
+   "o": "DealStreetAsia",
+   "d": "2026-10",
+   "u": "https://www.dealstreetasia.com/stories/uk-high-court-freezes-vietjet-overseas-assets-498632"
+  },
+  {
+   "o": "LoyaltyLobby",
+   "d": "2026-10-20",
+   "u": "https://loyaltylobby.com/2026/10/20/vietjet-hit-with-global-asset-freeze-by-uk-court-over-250m-unpaid-leases-on-four-airbus-jets/"
+  }
+ ],
+ "items": [
+  {
+   "t": "비엣젯, 피츠월터 채무 분쟁에 항공기·현금 압류 위기",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/vietjet-faces-aircraft-cash-seizures-in-fitzwalter-debt-fight"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "비엣젯, 피츠월터 채무 분쟁에 항공기·현금 압류 위기…영국 법원 2.5억 달러 자산 동결",
+ "one": "베트남 비엣젯항공이 리스 채권자 피츠월터와의 채무 분쟁으로 항공기·현금 압류 위기에 놓였다\n· 영국 고등법원은 10월 15일 최대 2억 5,160만 달러 규모의 비엣젯 해외 자산을 동결했다\n· 동결 대상에는 인도 전 에어버스기 주문, 엔진, 정비 적립금, 티켓 대리점 미수금이 들어갔다",
+ "facts": [
+  "무엇이: 블룸버그는 비엣젯이 피츠월터와의 채무 분쟁에서 항공기·현금 압류에 직면했다고 보도했다 [제목]",
+  "동결: 영국 고등법원은 10월 15일 FW 에비에이션의 청구로 최대 2억 5,160만 달러 규모 비엣젯 해외 자산을 동결했으며, 이는 운항 중단이 아닌 처분 제한이다 [사실]",
+  "채무: 팬데믹 중 항공기 4대 리스료 미납에서 시작된 채무는 2억 5,000만 달러를 넘었고 비엣젯이 갚은 돈은 200만 달러뿐이다 [사실]",
+  "집행: FW는 5월 싱가포르에서 비엣젯 항공기 9대 압류 명령을 받았고, 영국 법원은 9월 해외 자산 관리인 선임을 원칙적으로 승인했으며 11월 13일 추가 심리가 잡혔다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "자산 동결과 채무 경과는 검색 결과 요약으로 확인, 이번 보도의 새 압류 조치 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "비엣젯 항공기·현금 압류 위기"
+  }
+ ]
+}

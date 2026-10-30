@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0373",
+ "num": 373,
+ "key": "split-G1-026-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+ "headline": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+ "one": "튀르키예가 10월 7일 후티와 싸우는 사우디에 기술·방어 지원을 보내기로 했고, 이틀 뒤 외무장관이 사우디 방위 지원을 검토하되 일부 선택지는 배제한다고 밝히면서 튀르키예의 군사 지원 범위가 정해지고 있다",
+ "facts": [
+  "무엇이: 튀르키예는 후티와 싸우는 사우디에 기술·방어 지원을 파견한다고 밝혔다 [제목]",
+  "범위: 튀르키예 외무장관은 사우디 방위 지원을 검토 중이지만 일부 선택지는 배제한다고 했다 [제목]",
+  "배경: 사우디는 요격탄 재고 부족 속 튀르키예·파키스탄·유럽에 방공 지원을 요청했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "로이터 기사 2건을 묶음. 튀르키예의 병력·방공 시스템 배치는 Middle East Eye 출처가 뒷받침하고, 세부 범위는 로이터 제목 기준",
+ "src": [
+  {
+   "o": "Middle East Eye",
+   "d": "2026-10-08",
+   "u": "https://www.middleeasteye.net/news/turkey-to-deploy-troops-and-air-defence-systems-saudi-arabia"
+  }
+ ],
+ "items": [
+  {
+   "t": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/",
+   "s": "튀르키예가 후티와 싸우는 사우디에 기술·방어 지원을 보내기로 하면서 사우디 방공을 돕는 역내 지원이 시작됐다"
+  },
+  {
+   "t": "튀르키예 외무장관 \"사우디 방위 지원 검토 중\"…일부 선택지는 배제",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out-2026-10-08/",
+   "s": "튀르키예 외무장관이 사우디 방위 지원을 검토하고 있지만 일부 선택지는 배제한다고 밝혀 지원 범위에 선을 그었다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "튀르키예 사우디에 기술·방어 지원 파견"
+  }
+ ]
+}

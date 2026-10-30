@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0051",
+ "num": 51,
+ "key": "bnd-C131-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:26:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
+ "origTitle": "",
+ "headline": "美, 중국 시험소 전자기기 인증 배제 표결·中 해킹업체 인프라 차단",
+ "src": [
+  {
+   "o": "Tom's Hardware",
+   "d": "2026-10-08",
+   "u": "https://www.tomshardware.com/tech-industry/fcc-votes-to-ban-all-chinese-labs-from-certifying-electronics-sold-in-the-us"
+  },
+  {
+   "o": "BleepingComputer",
+   "d": "2026-10-08",
+   "u": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 FCC, 중국 시험소의 미국 전자기기 시험 금지안 표결 예정",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/"
+  },
+  {
+   "t": "미국, 중국 인테그리티 테크가 운영하는 해킹 인프라 무력화 착수",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/technology/us-announces-effort-disrupt-hacking-infrastructure-run-by-chinas-integrity-tech-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "美, 중국 시험소 전자기기 인증 배제 표결·中 해킹업체 인프라 차단",
+ "one": "미국 FCC가 미국행 전자기기 인증 시험에서 중국 시험소를 모두 배제하는 안을 10월 29일 표결하기로 하고 법무부·FBI가 중국 인테그리티 테크의 해킹 도구 도메인 7개를 압류하면서, 기기 제조사의 시험 비용과 미중 기술 갈등이 커질 수 있다",
+ "facts": [
+  "무엇이: FCC가 상호주의를 거부하는 국가의 시험소·인증기관을 배제하는 안을 10월 29일 표결, 승인 시 2028년 12월 시행 [사실]",
+  "영향: 2025년 기준 기기의 82%가 중국에서 시험됐고, 중국 시험비는 400~1300달러로 미국(3000~4000달러)보다 훨씬 싸 중소 제조사 부담이 커질 수 있음 [사실]",
+  "해킹: 미 당국이 '플랙스 타이푼' 활동에 쓰인 인테그리티 테크 연계 도구 'Microscan'·'FishHub' 도메인 7개를 압류 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Tom's Hardware·technology.org·BleepingComputer·법무부 보도자료)으로 확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/semis"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

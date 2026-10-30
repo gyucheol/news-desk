@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0570",
+ "num": 570,
+ "key": "split-G5-105-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/china-pushes-equal-dialogue-resolving-trade-differences-with-eu-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국, EU에 무역 이견 해소 위한 대등한 대화 촉구",
+ "headline": "중국, EU에 무역 이견 해소 위한 대등한 대화 촉구",
+ "one": "중국이 8일 EU와의 무역협의를 앞두고 무역 이견을 풀기 위한 대등한 대화를 촉구하며 동등한 협상 지위를 요구하면서, 하루 10억 유로를 넘는 대중 무역적자를 문제 삼는 EU와의 협의가 팽팽하게 시작될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국이 8일 EU와의 무역 이견 해소를 위해 대등한 대화를 촉구했다 [제목]",
+  "요구: 중국은 협의를 앞두고 동등한 협상 지위를 요구했다 [제목]",
+  "배경: EU의 대중 상품 무역적자는 하루 10억 유로를 넘는다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국, EU와 무역 이견 해소 위한 대등한 대화 촉구",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/china/china-pushes-equal-dialogue-resolving-trade-differences-with-eu-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중국 대화 촉구, 협상 지위 요구로 수급 변화 없음"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 확인(코리아헤럴드·코리아타임스·코리아중앙데일리): 정보 접근 제한 경위, 강경화 대사 발언, 잠수함 협의 정체. '최저점' 평가는 블룸버그 제목에만 있고 동맹 전반 균열로 보기 어렵다는 전문가 의견도 있음",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국과 한국의 관계가 정보 공유 갈등으로 최저점에 이르렀다는 보도가 나왔다 [제목]",
+  "발단: 정동영 통일부 장관이 3월 북한 구성의 우라늄 농축시설을 공개한 뒤 미국은 한국의 북한 관련 정보 접근을 일부 제한했다 [사실]",
+  "현황: 강경화 주미대사는 10월 12일 진전이 있었다면서도 백악관과의 고위급 소통에 한계가 있다고 인정했고, 군 당국자는 원자료 공유는 계속되지만 일부 분석 정보는 제한된다고 했다 [사실]",
+  "다른 마찰: 3,500억 달러 투자 합의에도 핵추진 잠수함 안보 협의가 멈춰 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "한미 관계, 정보 공유 갈등에 최저점…美, 북한 정보 접근 일부 제한",
+ "id": "n-rtr-0275",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "한국 \"미국, 정보 협력 관련 우려 제기\"…연합뉴스",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korea-says-us-raises-intelligence-cooperation-concerns-yonhap-says-2026-10-13/"
+  },
+  {
+   "t": "미국과 한국의 관계, 정보 공유 갈등으로 최저점",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/south-korea-us-ties-hit-lowest-ebb-in-years-on-intelligence-row",
+   "s": "미국과 한국의 관계가 정보 공유를 둘러싼 갈등으로 최저점에 떨어지면서, 동맹 공조에 부담이 커졌다는 보도가 나왔다 (제목 기준)"
+  }
+ ],
+ "key": "mix-C179-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 275,
+ "one": "미국이 정동영 통일부 장관의 북한 구성 우라늄 농축시설 공개 뒤 한국의 북한 관련 정보 접근을 일부 제한하고 핵추진 잠수함 협의도 멈춰 한미 관계가 최저점으로 떨어졌다는 평가가 나오면서, 대북 대응 공조에 부담이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T03:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "코리아헤럴드",
+   "d": "2026-10-14",
+   "u": "https://www.koreaherald.com/article/10901291"
+  },
+  {
+   "o": "코리아중앙데일리",
+   "d": "2026-10-14",
+   "u": "https://www.koreajoongangdaily.com/korea/seoulwashington-intelligence-ties-appear-strained-as-security-talks-continue-to-stall/12913275"
+  },
+  {
+   "o": "코리아타임스",
+   "d": "2026-10-13",
+   "u": "https://www.koreatimes.co.kr/foreignaffairs/20261013/s-korean-envoy-says-progress-made-in-intelligence-cooperation-with-us-amid-friction-concerns"
+  }
+ ],
+ "tags": [],
+ "title": "한미 관계, 정보 공유 갈등에 최저점…美, 북한 정보 접근 일부 제한",
+ "url": "https://www.reuters.com/world/asia-pacific/south-korea-says-us-raises-intelligence-cooperation-concerns-yonhap-says-2026-10-13/",
+ "added": "이번 블룸버그 1건으로 한미 관계가 정보 공유 갈등으로 최저점에 이르렀다는 평가와 미국의 북한 정보 일부 제한 경위가 추가됐다",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "한미 정보 공유 갈등은 수급과 직접 무관한 동맹 마찰"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

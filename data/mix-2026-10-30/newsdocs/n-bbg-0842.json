@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0842",
+ "num": 842,
+ "key": "mix-G2-069-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T05:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/stryker-cuts-outlook-as-cyberattack-impact-on-supply-lingers",
+ "origTitle": "",
+ "headline": "스트라이커, 사이버공격 여파 공급 차질에 연간 전망 하향…조정 EPS 14.80~14.90달러",
+ "src": [
+  {
+   "o": "SEC(스트라이커 8-K 실적 발표)",
+   "d": "2026-10-29",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm"
+  },
+  {
+   "o": "MedTech Dive",
+   "d": "",
+   "u": "https://www.medtechdive.com/news/stryker-catching-up-on-orders-manufacturing-after-cyberattack/826725/"
+  }
+ ],
+ "items": [
+  {
+   "t": "스트라이커, 사이버공격 공급 차질 이어져 전망 하향",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/stryker-cuts-outlook-as-cyberattack-impact-on-supply-lingers"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "스트라이커, 사이버공격 여파 공급 차질에 연간 전망 하향…조정 EPS 14.80~14.90달러",
+ "one": "스트라이커가 사이버공격으로 생긴 공급 차질이 이어지자 올해 실적 전망을 낮췄다\n· 연간 조정 EPS 전망은 14.95~15.10달러에서 14.80~14.90달러로, 유기적 매출 성장률은 6.5~7%로 내렸다\n· 3분기 매출은 65억 달러로 7.7% 늘었지만 시장 예상 66.2억 달러에 못 미쳤다",
+ "facts": [
+  "무엇이: 스트라이커는 3분기 실적 발표에서 연간 조정 EPS 전망을 14.95~15.10달러에서 14.80~14.90달러로, 유기적 매출 성장률을 8.3~9.3%에서 6.5~7%로 낮췄다 [사실]",
+  "원인: 고관절·무릎 수술 부진, 공급 제약, 사이버공격·SAP 도입에 따른 차질을 꼽았다 [사실]",
+  "실적: 3분기 매출은 65억 달러로 7.7% 늘었고 조정 EPS 3.52달러는 예상(3.55달러)을 밑돌았다 [사실]",
+  "배경: 3월 11일 처음 알려진 사이버공격으로 주문 처리·배송·생산이 한 달 가까이 멈췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "전망 하향 폭과 사이버공격·공급 제약 원인은 검색 결과 요약(회사 실적 발표·보도)으로 확인. 하향분 중 사이버공격 몫은 확인 못 함",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "사이버공격·SAP 차질로 공급 제약 지속"
+  },
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "고관절·무릎 수술 부진"
+  }
+ ]
+}

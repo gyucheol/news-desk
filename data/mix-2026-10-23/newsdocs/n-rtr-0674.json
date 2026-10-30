@@ -1,0 +1,88 @@
+{
+ "id": "n-rtr-0674",
+ "num": 674,
+ "key": "mix-G1-026-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:22:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/us-nuclear-power-regulator-allows-applicants-include-data-agency-projects-2026-10-22/",
+ "origTitle": "",
+ "headline": "美 NRC, 원전 신청에 정부 실증 데이터 허용…아트킨스레알리스 튀르키예 후보·로사톰 팍스 유지 기대",
+ "src": [
+  {
+   "o": "Mezha",
+   "d": "2026-10-23",
+   "u": "https://mezha.net/eng/news/mezha-cc2318210dfc60ae2f90f0ef_us_nuclear_regulator"
+  },
+  {
+   "o": "The Express Tribune",
+   "d": "2026-10-23",
+   "u": "https://tribune.com.pk/story/2636496/carney-says-atkinsrealis-is-a-contender-to-build-nuclear-power-plant-in-turkiye"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 원자력규제위, 원전 신청에 정부기관 사업 데이터 포함 허용",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/litigation/us-nuclear-power-regulator-allows-applicants-include-data-agency-projects-2026-10-22/",
+   "s": "NRC가 원전 신청자가 에너지부·국방부 실증로 데이터를 쓸 수 있게 규정을 확정하면서, 신형 원자로 인허가에 정부 실증 자료를 활용할 길이 열렸다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "카니 '아트킨스레알리스, 튀르키예 원전 건설 후보'",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/middle-east/carney-says-atkinsrealis-is-contender-build-nuclear-power-plant-turkey-2026-10-23/",
+   "s": "카니 캐나다 총리가 아트킨스레알리스를 튀르키예 세 번째 원전 건설 후보로 꼽으면서, 연내 결정에 따라 캐나다 원전 기술 수출 기회가 열릴 수 있다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "로사톰 '헝가리가 팍스 원전에서 자사 유지 결정하길 기대'",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/russias-rosatom-says-it-hopes-hungary-decides-stick-with-it-nuclear-plant-2026-10-23/",
+   "s": "러시아 로사톰이 헝가리가 팍스 원전 사업을 자사와 계속하길 바란다고 밝히면서, 헝가리의 원전 사업자 선택이 변수로 떠올랐다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "nodes": [
+  "uranium/policy",
+  "uranium/build"
+ ],
+ "title": "美 NRC, 원전 신청에 정부 실증 데이터 허용…아트킨스레알리스 튀르키예 후보·로사톰 팍스 유지 기대",
+ "one": "미국 원자력규제위원회(NRC)가 원전 인허가 신청에 정부기관 실증 사업 데이터를 쓸 수 있게 했다\n· NRC는 10월 22일 에너지부·국방부 실증로 데이터를 활용하는 규정을 확정했다\n· 호 니 위원장은 지름길이 아니라고 했지만 비판론자들은 NRC의 독자 안전 판단을 요구했다\n· 카니 캐나다 총리는 아트킨스레알리스가 튀르키예 세 번째 원전 건설 후보라고 밝혔다\n· 로사톰은 헝가리가 팍스 원전 사업을 자사와 계속하길 기대한다고 밝혔다",
+ "facts": [
+  "무엇이: NRC는 10월 22일 원전 신청자가 에너지부·국방부 실증로 사업 데이터를 활용할 수 있게 하는 규정을 확정했다 [사실]",
+  "반론: 호 니 위원장은 지름길이나 타협이 아니라고 했고, 우려과학자연맹의 에드윈 라이먼은 NRC가 독자 안전 판단 권한을 지켜야 한다고 했다 [사실]",
+  "튀르키예: 카니 총리는 아트킨스레알리스가 튀르키예 세 번째 원전 건설 후보이며 연내 결정이 나올 수 있다고 했다 [사실]",
+  "헝가리: 로사톰은 헝가리가 팍스 원전 사업에서 자사를 계속 쓰기로 하길 바란다고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "NRC 규정과 카니 발언은 검색 결과 요약으로 확인. 로사톰의 팍스 관련 발언은 확인 못 함",
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "NRC, 정부 실증 데이터 허용으로 인허가 길 넓혀"
+  },
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "튀르키예 세 번째 원전 건설사 연내 결정 가능"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

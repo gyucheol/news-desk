@@ -1,0 +1,518 @@
+[
+ {
+  "cid": "C007",
+  "attachTo": "",
+  "title": "독일 8월 산업생산 17개월 만에 최대폭 증가…정부, 올해 성장 전망 두 배로 상향",
+  "one": "독일 8월 산업생산이 건설 9.3% 급증에 힘입어 전월보다 2.0% 늘고 정부가 2026년 성장률 전망을 두 배 넘게 올렸지만, 같은 달 수출은 예상과 달리 줄고 업계는 개혁 없이는 반등이 짧을 수 있다고 경고했다",
+  "facts": [
+   "무엇이: 독일 8월 산업생산이 전월 대비 2.0% 늘어 시장 예상(약 0.5%)을 크게 웃돌았다 [사실]",
+   "원인: 건설이 9.3% 늘었고 에너지·건설 제외 제조업은 0.6% 증가, 자동차는 공장 휴가 영향 등으로 5.4% 감소했다 [사실]",
+   "전망: 독일 정부는 4월 1%에서 반으로 낮췄던 2026년 성장 전망을 상반기 호조에 두 배 넘게 올렸다 [사실]",
+   "무역: 8월 수출은 예상과 달리 감소했고, 무역업계는 2026년 수출 증가 전망을 높였다 [제목]",
+   "경계: 상공회의소(DIHK)는 실질적인 경제 개혁 없이는 회복이 오래가지 못할 것이라고 밝혔다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인. 정부의 2027년 전망 수치와 8월 수출 감소폭, 무역업계 전망치는 확인 못 함",
+  "src": [
+   {
+    "o": "The Local Germany",
+    "d": "2026-10-07",
+    "u": "https://www.thelocal.de/20261007/factory-production-in-germany-hits-highest-level-in-18-months"
+   },
+   {
+    "o": "Admiral Markets",
+    "d": "2026-10-07",
+    "u": "https://admiralmarkets.com/analytics/traders-blog/germany-industrial-production-august-2026"
+   }
+  ],
+  "inds": [
+   "macro"
+  ],
+  "nodes": [
+   "macro/growth"
+  ],
+  "items": [
+   {
+    "t": "독일 산업생산, 건설 호황에 17개월 만에 최대폭 증가",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/german-production-jumps-most-in-17-months-on-construction-boom"
+   },
+   {
+    "t": "독일 8월 산업생산, 예상보다 크게 증가",
+    "o": "로이터",
+    "d": "2026-10-07",
+    "u": "https://www.reuters.com/business/german-industrial-output-rises-more-than-expected-august-2026-10-07/"
+   },
+   {
+    "t": "독일 무역업계, 2026년 수출 증가 전망 상향",
+    "o": "로이터",
+    "d": "2026-10-07",
+    "u": "https://www.reuters.com/world/china/german-trade-industry-raises-2026-export-growth-forecast-1-2026-10-07/"
+   },
+   {
+    "t": "독일 연립정부, 민주주의 역사적 시험대 속 개혁 의제 재확인",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/business/finance/german-coalition-affirms-reform-agenda-amid-historic-test-democracy-2026-10-08/"
+   },
+   {
+    "t": "독일 8월 수출, 예상 밖 감소",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/world/china/german-exports-unexpectedly-fall-august-2026-10-08/"
+   },
+   {
+    "t": "독일, 제조업 반등에 2026년 성장 전망 두 배로 상향",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/germany-doubles-2026-growth-outlook-as-manufacturing-rallies"
+   },
+   {
+    "t": "독일 정부, 2026·2027년 성장률 전망 상향",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/business/german-government-raises-growth-forecasts-2026-2027-2026-10-08/"
+   }
+  ]
+ },
+ {
+  "cid": "C014",
+  "attachTo": "",
+  "title": "ECB 의사록 '비례적 인상'에 단기 추가 인상 기대 후퇴…슈나벨 후임 후보 28일 마감",
+  "one": "ECB가 9월 0.25%p 인상을 '비례적 대응'으로 설명한 의사록과 레인 수석 이코노미스트의 신중론으로 단기 추가 인상 기대가 꺾였지만, 돌렌츠 등 일부 위원은 인플레이션 상방 위험을 들어 추가 인상 가능성을 열어 두면서 유로존 금리 경로의 불확실성이 이어지고 있다",
+  "facts": [
+   "무엇이: ECB가 9월 9~10일 회의에서 3대 정책금리를 0.25%p 올렸고(예금금리 2.50%) 10월 8일 공개된 의사록에 위원 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 본 것으로 나타났다 [사실]",
+   "시장: 의사록과 위원 발언이 단기 금리 인상 기대를 누그러뜨렸다 [제목]",
+   "매파 발언: 슬로베니아 중앙은행 총재 돌렌츠는 인플레이션 상방 위험 속에 추가 인상이 필요할 수 있다고 했다 [사실]",
+   "레인: 이란 전쟁에 대해 절제된 대응을 유지할 수 있고, 2027년에는 재정 지원이 줄어 성장·물가 압력이 약해질 것이라고 했다 [사실]",
+   "인사: 유로그룹이 2027년 1월 3일 물러나는 슈나벨 이사 후임 후보 제출 마감을 10월 28일로 정했다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(ECB 의사록, 유로그룹 일정). 라가르드 총재 거취와 지그만 발언 내용은 제목 기준",
+  "src": [
+   {
+    "o": "ECB 통화정책회의 의사록",
+    "d": "2026-10-08",
+    "u": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+   },
+   {
+    "o": "ECB 보도자료(슈나벨 사임)",
+    "d": "2026-09-24",
+    "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
+   },
+   {
+    "o": "Newsquawk",
+    "d": "2026-10-08",
+    "u": "https://www.newsquawk.com/headlines/eurogroup-sets-october-28th-deadline-for-ecb-nominations-and-expects-to-decide-on-a-successor-to-ecbs-schnabel-as-soon-as-next-month"
+   }
+  ],
+  "inds": [
+   "macro"
+  ],
+  "nodes": [
+   "macro/cb",
+   "macro/rates"
+  ],
+  "items": [
+   {
+    "t": "ECB 돌렌츠 '현 금리가 다음 결정에 유연성 제공'",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/ecb-s-dolenc-says-rate-give-flexibility-for-next-decisions"
+   },
+   {
+    "t": "ECB 총재 경쟁: 라가르드 후임은 누구인가",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/ecb-president-race-who-will-replace-christine-lagarde"
+   },
+   {
+    "t": "돌렌츠 'ECB 금리로 가격 충격 확산 막을 수 있다'",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-rates-can-prevent-price-shock-from-spreading-dolenc-says"
+   },
+   {
+    "t": "ECB 정책위원 돌렌츠 로이터 인터뷰",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/markets/us/reuters-interview-with-ecb-policymaker-dolenc-2026-10-08/"
+   },
+   {
+    "t": "돌렌츠 '인플레이션 상방 위험에 ECB 추가 인상 필요할 수도'",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/world/europe/with-inflation-risks-upside-ecb-may-need-hike-more-dolenc-says-2026-10-08/"
+   },
+   {
+    "t": "ECB 지그만 '다음 회의에서 매우 치열한 논의 예상'",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-s-zigman-sees-very-intensive-discussion-at-next-meeting"
+   },
+   {
+    "t": "레인 'ECB, 이란 전쟁에 절제된 대응 유지 가능'",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-can-stick-with-measured-response-to-iran-war-lane-says"
+   },
+   {
+    "t": "ECB 위원들, 지난 인상 때 '비례적' 조치 추구",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-officials-took-proporionate-step-with-last-month-s-hike"
+   },
+   {
+    "t": "ECB 정책위원 발언·의사록, 단기 금리 인상 기대 약화",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/world/europe/ecb-policymakers-accounts-dampen-near-term-rate-hike-bets-2026-10-08/"
+   },
+   {
+    "t": "ECB, 물가 목표 2배 근접에 12월 다시 인상할 듯",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/business/ecb-hike-rates-again-december-inflation-almost-doubles-2-target-2026-10-08/"
+   },
+   {
+    "t": "슈나벨 후임 ECB 자리 마감 확정…라가르드 거취는 불투명",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/schnabel-ecb-job-deadline-is-set-as-lagarde-plans-stay-unclear"
+   },
+   {
+    "t": "유로그룹, ECB 슈나벨 후임 후보 제출 마감 10월 28일로 설정",
+    "o": "로이터",
+    "d": "2026-10-09",
+    "u": "https://www.reuters.com/business/eurogroup-sets-deadline-submit-candidates-replace-ecbs-schnabel-oct-28-2026-10-08/"
+   }
+  ]
+ },
+ {
+  "cid": "C025",
+  "attachTo": "",
+  "title": "폴란드·루마니아·세르비아 금리 동결…에너지발 물가·정치 불안에 중동부 유럽 긴축 유지",
+  "one": "폴란드(3.75%)·루마니아(6.50%)·세르비아(5.75%) 중앙은행이 중동 전쟁발 에너지 물가와 정치 불안 속에 금리를 일제히 동결하면서, 폴란드 물가가 4%로 오른 가운데 시장은 내년 인상 가능성을 반영하기 시작했다",
+  "facts": [
+   "무엇이: 폴란드 중앙은행이 10월 7일 기준금리를 3.75%로 동결했다. 9월 물가상승률은 4%로 8월 3.4%에서 올랐다 [사실]",
+   "폴란드 전망: 연료가격 상한이 물가를 누르고 있지만 시장은 약 1%p 인상을 반영하고 있다 [사실]",
+   "루마니아: 금리를 EU 최고 수준인 6.50%로 유지했고, 정치 불안으로 레우화가 약세다 [사실]",
+   "세르비아: 선거를 앞두고 5.75% 동결을 기록적으로 이어갔다 [사실]",
+   "헝가리: 성장 반등 전망과 유로 도입 기대에 국채가 강세다 [제목]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인. 세르비아 10월 결정은 출처 날짜 혼선이 있어 블룸버그 제목과 함께 판단, 폴란드 총재 조사 건은 제목 기준",
+  "src": [
+   {
+    "o": "Poland Insight",
+    "d": "2026-10-07",
+    "u": "https://polandinsight.com/poland-interest-rates-375-investors-price-in-hikes-19771/"
+   },
+   {
+    "o": "Central Banking",
+    "d": "2026-10-08",
+    "u": "https://www.centralbanking.com/central-banks/monetary-policy/7976610/national-bank-of-romania-holds-rates-amid-political-instability"
+   },
+   {
+    "o": "Briefs",
+    "d": "2026-10-08",
+    "u": "https://www.briefs.co/news/serbia-keeps-key-rate-steady-for-25th-straight-month-ahead-o/"
+   }
+  ],
+  "inds": [
+   "macro"
+  ],
+  "nodes": [
+   "macro/cb",
+   "macro/rates"
+  ],
+  "items": [
+   {
+    "t": "헝가리, 성장 반등 전망…유로 도입 기대에 국채 강세",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/hungary-sees-economic-growth-upswing-bond-rally-on-euro-path"
+   },
+   {
+    "t": "폴란드, 연료가격 상한이 물가 억제하자 금리 동결",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/poland-keeps-rates-unchanged-as-fuel-price-cap-curbs-inflation"
+   },
+   {
+    "t": "루마니아, 정치 불안에 레우 약세 속 EU 최고 금리 유지 전망",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/romania-to-keep-eu-s-highest-rates-as-political-woes-weaken-leu"
+   },
+   {
+    "t": "세르비아, 중대 선거 앞두고 기록적 금리 동결 연장",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/serbia-extends-record-rate-pause-in-run-up-to-pivotal-election"
+   },
+   {
+    "t": "폴란드 글라핀스키 총재 '본인 행위 조사는 근거 없다'",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/polish-central-bank-chief-calls-probe-into-his-conduct-baseless"
+   }
+  ]
+ },
+ {
+  "cid": "C039",
+  "attachTo": "",
+  "title": "항공유 고공행진에 항공사 압박…라이언에어 '2028년까지 고비용', 제트블루 채권 부실",
+  "one": "이란 전쟁 이후 항공유가 전쟁 전보다 약 50% 비싸진 상태가 2028년까지 이어질 수 있다고 라이언에어 CEO가 경고하면서, 노르세는 감편을 유지하고 가루다는 추가 차입에 나서는 등 재무가 약한 항공사의 부담이 커지고 있다",
+  "facts": [
+   "무엇이: 라이언에어 오리어리 CEO가 10월 8일 항공유가 이란 전쟁 전보다 약 50% 비싸고 12~18개월 지속될 것으로 봤다 [사실]",
+   "헤지: 항공사들의 2027년 연료 헤지 비율이 낮아 내년 부담이 커지고, 비용은 운임 인상으로 전가될 것이라고 했다 [사실]",
+   "노르세: 연료를 헤지하지 않는 노르세 애틀랜틱은 감편을 유지하며 승객 수가 지난해보다 약 3분의 1 줄었다 [사실]",
+   "가루다·제트블루: 가루다 인도네시아는 비용 상승에 추가 차입을 추진하고, 제트블루 채권은 공매도가 몰리며 부실 구간으로 더 밀렸다 [제목]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(라이언에어, 노르세). 가루다·제트블루는 제목 기준",
+  "src": [
+   {
+    "o": "RTÉ",
+    "d": "2026-10-08",
+    "u": "https://www.rte.ie/news/business/2026/1008/1594530-ryanairs-oleary-on-fuel-prices/"
+   },
+   {
+    "o": "AeroTime",
+    "d": "2026-10-08",
+    "u": "https://www.aerotime.aero/articles/ryanairs-oleary-warns-jet-fuel-costs-could-stay-high-until-2028-report"
+   },
+   {
+    "o": "Euronext 뉴스",
+    "d": "2026-10-07",
+    "u": "https://live.euronext.com/en/financial-news/norse-atlantic-airways-keeps-reduced-capacity-high-fuel-costs-weigh"
+   }
+  ],
+  "inds": [
+   "aero"
+  ],
+  "nodes": [],
+  "items": [
+   {
+    "t": "노르세 애틀랜틱, 높은 연료비에 감편 유지",
+    "o": "로이터",
+    "d": "2026-10-07",
+    "u": "https://www.reuters.com/business/aerospace-defense/norse-atlantic-airways-keeps-reduced-capacity-high-fuel-costs-weigh-2026-10-07/"
+   },
+   {
+    "t": "가루다 인도네시아, 비용·연료비 부담에 추가 차입 모색",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/garuda-indonesia-seeks-more-financing-as-rising-costs-fuel-bite"
+   },
+   {
+    "t": "라이언에어 오리어리 '항공유 비용 2028년까지 높을 것'",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/business/energy/ryanairs-oleary-says-jet-fuel-cost-will-stay-high-into-2028-2026-10-08/"
+   },
+   {
+    "t": "제트블루 채권, 공매도 몰리며 부실 구간 더 깊이 하락",
+    "o": "블룸버그",
+    "d": "2026-10-09",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/jetblue-bonds-fall-deeper-into-distress-as-short-sellers-pile-in"
+   }
+  ]
+ },
+ {
+  "cid": "C052",
+  "attachTo": "n-bbg-0085",
+  "title": "칠레 센티넬라 구리광산 파업 돌입…공급 우려·중국 복귀에 구리값 주간 상승",
+  "one": "안토파가스타 칠레 센티넬라 광산 노조 약 700명이 정부 중재 결렬 뒤 10월 7일 파업에 들어가 채굴·운반이 차질을 빚으면서, 중국 연휴 뒤 재고 확충 기대와 맞물려 LME 구리값이 톤당 1만4600달러대로 올라 주간 상승이 예상된다",
+  "facts": [
+   "무엇이: 센티넬라 광산 노조 약 700명이 10월 7일 파업에 들어갔다. 이 광산은 그룹 생산의 약 3분의 1을 맡는다 [사실]",
+   "차질: BMO는 파업으로 채굴·운반·광산 개발이 차질을 빚지만 선광장은 당분간 가동할 수 있다고 봤고, 회사는 2026년 생산 전망을 유지했다 [사실]",
+   "가격: LME 3개월물 구리는 10월 8일 약 1% 올라 톤당 1만4614.5달러로 2주 만에 최고였고, 사상 최고치는 9월 10일 1만4875달러다 [사실]",
+   "재고: LME 창고 재고는 6월 초 이후 36% 줄었고 중국 국경절 연휴 뒤 매수 복귀 기대가 가격을 받쳤다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(MINING.COM, Northern Miner). 주간 상승 마감은 제목 기준",
+  "src": [
+   {
+    "o": "The Northern Miner",
+    "d": "2026-10-08",
+    "u": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/"
+   },
+   {
+    "o": "MINING.COM",
+    "d": "2026-10-08",
+    "u": "https://www.mining.com/antofagastas-centinela-strike-adds-copper-supply-risk/"
+   }
+  ],
+  "inds": [
+   "metals"
+  ],
+  "nodes": [],
+  "items": [
+   {
+    "t": "칠레 광산 파업이 공급 위험 더하며 구리 소폭 상승",
+    "o": "블룸버그",
+    "d": "2026-10-07",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/copper-stable-as-ai-driven-tech-stock-rally-holds-near-record"
+   },
+   {
+    "t": "칠레 센티넬라 구리광산 노동자, 협상 결렬 뒤 파업",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/business/world-at-work/workers-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07/"
+   },
+   {
+    "t": "구리, 중국 복귀와 공급 우려에 주간 상승 앞둬",
+    "o": "블룸버그",
+    "d": "2026-10-09",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-09/copper-set-for-weekly-gain-on-china-s-return-and-supply-concerns"
+   }
+  ]
+ },
+ {
+  "cid": "C066",
+  "attachTo": "",
+  "title": "美 EPA 메탄 누출 규제 폐지 추진·EU 수입 메탄 규정 1년 연기…석유·가스 부담 완화",
+  "one": "미국 EPA가 제3자가 감지한 대형 메탄 누출을 업체가 조사하도록 한 '슈퍼 배출원' 제도 폐지안을 며칠 안에 내놓겠다고 밝히고 EU도 2027년 1월 시행 예정이던 수입 석유·가스 메탄 보고 규정을 1년 미루기로 하면서, 대서양 양쪽 석유·가스 공급자의 규제 부담이 줄어들 전망이다",
+  "facts": [
+   "무엇이: 젤딘 EPA 청장이 10월 7일 바이든 정부의 메탄 '슈퍼 배출원' 제도 폐지안 발표가 '몇 주가 아닌 며칠' 남았다고 말했다 [사실]",
+   "규모: EPA는 일련의 규제 변경으로 450억 달러를 아낄 수 있다고 주장했다 [사실]",
+   "EU: 요르겐센 에너지 집행위원이 10월 6일 수입 관련 메탄 규정 시행을 1년 이내로 미루는 방안을 검토하라고 지시했다 [사실]",
+   "변수: 체코·이탈리아는 3년 연기를 요구하며, 연기안은 회원국과 유럽의회 승인이 필요하다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인",
+  "src": [
+   {
+    "o": "Source New Mexico",
+    "d": "2026-10-07",
+    "u": "https://sourcenm.com/2026/10/07/epa-head-announces-oil-and-gas-emission-rules-rollbacks-during-visit-to-santa-fe/"
+   },
+   {
+    "o": "EnergyNow",
+    "d": "2026-10-06",
+    "u": "https://energynow.com/2026/10/eu-to-delay-methane-emissions-rules-for-one-year-and-no-more-energy-chief-says/"
+   }
+  ],
+  "inds": [
+   "gas"
+  ],
+  "nodes": [
+   "gas/upstream",
+   "gas/trade"
+  ],
+  "items": [
+   {
+    "t": "EU 에너지 위원 '메탄 배출 규정 1년 연기, 그 이상은 없다'",
+    "o": "로이터",
+    "d": "2026-10-07",
+    "u": "https://www.reuters.com/business/energy/eu-delay-methane-emissions-rules-one-year-no-more-energy-chief-says-2026-10-06/"
+   },
+   {
+    "t": "트럼프 EPA, 석유·가스업체 메탄 규제 완화안 준비",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-07/trump-epa-readies-bid-to-weaken-methane-controls-for-oil-gas-companies"
+   },
+   {
+    "t": "EPA '바이든 정부 메탄 누출 정책 곧 폐지 조치'",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/legal/government/epa-says-will-soon-act-rescind-biden-policy-targeting-methane-leaks-2026-10-07/"
+   }
+  ]
+ },
+ {
+  "cid": "C079",
+  "attachTo": "",
+  "title": "글렌코어, 14일 호주 증시 2차 상장…'전기화 수요에 투자자 관심 강해'",
+  "one": "글렌코어가 10월 14일 호주증권거래소 2차 상장을 앞두고 이익의 약 30%를 차지하는 구리의 전기화 수요를 내세워 투자자 관심이 강하다고 밝히면서, 세계 최대 연료탄 수출사라는 석탄 우려를 넘어 호주 자금 유입을 노리고 있다",
+  "facts": [
+   "무엇이: 글렌코어가 10월 14일 CDI 방식으로 ASX에 2차 상장하며 신주 발행은 없고 1차 상장은 런던에 남는다 [사실]",
+   "주장: 나글 CEO는 전기화 흐름에 투자하려는 수요로 인수 관심이 강하다고 말했다 [사실]",
+   "석탄: 연료탄이 산업 부문 기초이익의 약 15%로, 일부 투자자 반발 가능성이 거론되지만 회사는 에너지 충격 뒤 석탄 보유 의향이 늘었다고 본다 [사실]",
+   "지수: 나글은 12개월 안에 S&P/ASX 200 편입이 가능하다고 했다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(MINING.COM, Finimize 등)",
+  "src": [
+   {
+    "o": "MINING.COM",
+    "d": "2026-10",
+    "u": "https://www.mining.com/web/glencores-planned-australian-debut-draws-interest-as-investors-look-past-coal/"
+   },
+   {
+    "o": "Finimize",
+    "d": "2026-10",
+    "u": "https://finimize.com/content/glencore-heads-to-the-asx-with-copper-in-the-lead"
+   }
+  ],
+  "inds": [
+   "coal"
+  ],
+  "nodes": [
+   "coal/thermal",
+   "coal/trade"
+  ],
+  "items": [
+   {
+    "t": "글렌코어, 호주 상장 앞두고 석탄 우려 일축",
+    "o": "블룸버그",
+    "d": "2026-10-09",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-09/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing"
+   },
+   {
+    "t": "글렌코어 '전기화 흐름이 호주 상장 수요 견인할 것'",
+    "o": "로이터",
+    "d": "2026-10-09",
+    "u": "https://www.reuters.com/business/retail-consumer/glencore-sees-electrification-trend-driving-strong-uptake-australia-listing-2026-10-09/"
+   }
+  ]
+ },
+ {
+  "cid": "C090",
+  "attachTo": "",
+  "title": "美, 마이크로소프트·인도 IT기업 영주권 노동인증서 신청 중단…'제도 남용' 제재",
+  "one": "미국 정부가 마이크로소프트·어도비와 인포시스·타타·위프로 등 IT 서비스 기업의 영주권 노동인증(PERM) 신청 접수와 처리를 중단하면서, 이들 기업이 H-1B 인력을 영주권으로 전환해 붙잡아 두기 어려워질 수 있다",
+  "facts": [
+   "무엇이: 밴스 부통령과 손더링 노동장관이 10월 8일 마이크로소프트·어도비·코그니전트·인포시스·타타·위프로·HCL·캡제미니를 PERM 프로그램에서 배제한다고 밝혔다 [사실]",
+   "범위: 노동부는 이들 기업이 관련된 신규 신청을 받지 않고 대기 중인 신청도 처리하지 않는다 [사실]",
+   "배경: 밴스는 마이크로소프트를 가장 심한 제도 남용 기업으로 지목했고, 여러 연방 조사가 진행 중이다 [사실]",
+   "반론: 마이크로소프트는 비자의 80%가 기존 직원의 체류 연장·변경용이라고 반박했다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(Al Jazeera, Forbes, The National)",
+  "src": [
+   {
+    "o": "Al Jazeera",
+    "d": "2026-10-08",
+    "u": "https://www.aljazeera.com/economy/2026/10/8/us-suspends-microsoft-and-adobe-from-visa-programme-amid-fraud-claims"
+   },
+   {
+    "o": "Forbes",
+    "d": "2026-10-08",
+    "u": "https://www.forbes.com/sites/conormurray/2026/10/08/trump-administration-will-suspend-microsoft-from-permanent-residency-program-vance-says/"
+   }
+  ],
+  "inds": [
+   "tech"
+  ],
+  "nodes": [],
+  "items": [
+   {
+    "t": "美, 마이크로소프트·인도 기업을 비자 프로그램에서 배제",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft"
+   },
+   {
+    "t": "밴스 '마이크로소프트의 영주권 프로그램 참여 중단'",
+    "o": "로이터",
+    "d": "2026-10-09",
+    "u": "https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/"
+   }
+  ]
+ }
+]

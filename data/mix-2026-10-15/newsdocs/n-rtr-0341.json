@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0341",
+ "num": 341,
+ "key": "mix-G3-049-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T15:32:00+09:00",
+ "url": "https://www.reuters.com/world/south-korea-finds-hacking-incidents-total-16-financial-firms-2026-10-14/",
+ "origTitle": "",
+ "headline": "韓 금융사 16곳 해킹 피해 확인…개인정보 약 10만 건 유출",
+ "src": [
+  {
+   "o": "The Korea Times",
+   "d": "2026-10-14",
+   "u": "https://www.koreatimes.co.kr/business/banking-finance/20261014/ai-driven-cyberattacks-hit-16-financial-firms-expose-100000-records"
+  },
+  {
+   "o": "Aju Press",
+   "d": "2026-10-14",
+   "u": "https://www.ajupress.com/view/20261014155603996"
+  },
+  {
+   "o": "Digital Today",
+   "d": "2026-10-14",
+   "u": "https://www.digitaltoday.co.kr/en/view/114620/financial-sector-hacking-leaks-100000-records-fsc-tightens-ceo-security-accountability"
+  }
+ ],
+ "items": [
+  {
+   "t": "한국, 해킹 피해 입은 금융사 총 16곳으로 확인",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/south-korea-finds-hacking-incidents-total-16-financial-firms-2026-10-14/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "韓 금융사 16곳 해킹 피해 확인…개인정보 약 10만 건 유출",
+ "one": "금융위원회가 은행·저축은행·여신금융사·가상자산사업자 등 금융사 16곳에서 해킹으로 개인정보 약 10만 건이 새어 나간 사실을 확인하면서, 금융사 CEO·이사회의 보안 책임이 무거워질 전망이다",
+ "facts": [
+  "무엇이: 금융위원회는 10월 14일 금융사 16곳이 해킹 피해를 입어 약 10만 건의 개인정보가 유출됐다고 밝혔다 [사실]",
+  "대상: 신한·KB국민·BNK부산·하나 등 은행 4곳, 저축은행 4곳, 현대캐피탈·KDB캐피탈 등 여신금융사, 가상자산사업자 스트리미 등이 포함됐다 [사실]",
+  "유출 정보: 이름·연락처·주민등록번호가 포함됐으나 계좌·카드 번호 유출 정황은 아직 없다 [사실]",
+  "점검·대응: 555개 금융사 점검에서 130곳이 보안 미흡을 보고했고, 금융위는 CEO·이사회의 보안 책임을 높이고 대형사에 연 2회 이상 취약점 점검을 요구할 계획이다 [사실]",
+  "미확인: AI 에이전트를 활용한 공격이라는 의심이 제기됐으나 확인되지 않았고, 피해 회사 수는 더 늘 수 있다 [미확인]"
+ ],
+ "basis": "verified",
+ "check": "피해 금융사 16곳, 약 10만 건 유출, 피해사 명단, 점검 결과와 대응책은 검색 결과 요약으로 확인. AI 활용 공격 여부는 출처마다 엇갈려 확인 못 함",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "금융사 16곳 해킹 피해로 보안 책임 강화 예고"
+  }
+ ]
+}

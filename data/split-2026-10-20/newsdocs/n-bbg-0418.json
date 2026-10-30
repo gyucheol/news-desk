@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0418",
+ "num": 418,
+ "key": "split-G2-115-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T20:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/schneider-hikes-guidance-again-on-soaring-data-center-demand",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "슈나이더 3분기 매출 114.6억 유로로 예상 상회…데이터센터 호황에 연간 목표 재상향",
+ "headline": "슈나이더 3분기 매출 114.6억 유로로 예상 상회…데이터센터 호황에 연간 목표 재상향",
+ "one": "슈나이더 일렉트릭이 3분기 매출 114억 6,000만 유로로 예상치 111억 3,000만 유로를 넘고 데이터센터 수요가 세 자릿수로 늘자 올해 두 번째로 연간 목표를 올리면서, 2027~2028년까지 전력 기자재 주문 가시성이 생겼다",
+ "facts": [
+  "무엇이: 슈나이더 일렉트릭은 10월 16일 3분기 매출 114억 6,000만 유로로 예상 111억 3,000만 유로를 넘기고 올해 두 번째로 2026년 목표를 올렸다 [사실]",
+  "데이터센터: 3분기 데이터센터 수요가 세 자릿수로 늘었고, 회사는 2027~2028년까지 실적 가시성이 생겼다고 밝혔다 [사실]",
+  "새 목표: 조정 이익 내생 성장 목표를 18~21%로, 매출 성장 목표를 12~14%로 올렸다 [채널]",
+  "원가: 회사는 가격 결정력으로 원자재값과 관세 부담을 상쇄할 것으로 봤다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터·텔레그램 하나증권 중국전략 3건을 묶었다. 매출 114억 6,000만 유로와 목표 재상향은 Investing.com·Finimize 보도로 확인했고, 세부 목표치와 원가 언급은 채널 전언이다.",
+ "src": [
+  {
+   "o": "Investing.com",
+   "d": "2026-10-16",
+   "u": "https://www.investing.com/news/earnings/schneider-electric-raises-2026-target-as-q3-sales-beat-forecasts-on-data-centres-4953142"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-16",
+   "u": "https://finimize.com/content/schneider-electric-lifted-its-2026-targets-again"
+  }
+ ],
+ "items": [
+  {
+   "t": "슈나이더, 데이터센터 붐에 2028년까지 실적 가시성 확보",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/schneider-hikes-guidance-again-on-soaring-data-center-demand",
+   "s": "슈나이더 일렉트릭이 3분기 데이터센터 수요가 세 자릿수로 늘어 2027~2028년까지 가시성이 생겼다고 밝히면서, 전력 기자재 주문이 길게 이어질 수 있다"
+  },
+  {
+   "t": "슈나이더 일렉트릭, 데이터센터 주문에 연간 전망 재차 상향",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-16",
+   "u": "https://t.me/HANAchina/70521",
+   "s": "슈나이더 일렉트릭이 조정 이익 내생 성장 목표를 18~21%로, 매출 성장 목표를 12~14%로 올리면서 가격 결정력으로 원자재값과 관세 부담을 상쇄할 것으로 봤다"
+  },
+  {
+   "t": "슈나이더 일렉트릭, 데이터센터 호황에 2026년 목표 다시 상향",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/schneider-electric-raises-2026-targets-again-booming-data-centre-demand-2026-10-16/",
+   "s": "슈나이더 일렉트릭이 3분기 매출 114억 6,000만 유로로 예상치 111억 3,000만 유로를 넘기고 2026년 목표를 다시 올리면서, 데이터센터 전력 장비 수요 강세가 확인됐다"
+  }
+ ],
+ "inds": [
+  "industrial",
+  "power"
+ ],
+ "nodes": [
+  "power/demand"
+ ],
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "데이터센터 수요 세 자릿수 증가에 연간 목표 재상향"
+  }
+ ]
+}

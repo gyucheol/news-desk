@@ -1,0 +1,94 @@
+{
+ "added": "이번 블룸버그 1건으로 {{NFIB 9월 낙관지수 97.9}}와 {{인플레이션을 최대 문제로 꼽은 비율 20%}}, 확장 적기 응답 7%가 추가됐다",
+ "basis": "verified",
+ "check": "NFIB 9월 보고서와 보도자료, TD이코노믹스, ABA 데이터뱅크 내용을 검색 결과 요약으로 확인.",
+ "cycles": [],
+ "facts": [
+  "무엇이: NFIB 9월 소상공인 낙관지수가 97.9로 0.8포인트 내려 3개월 최저였고 52년 평균 98.0과 예상치 98.2를 밑돌았습니다 [사실]",
+  "전망: 향후 6개월 경기 개선을 기대하는 순비율은 6%로 떨어졌고, 지금이 확장 적기라는 응답은 5포인트 내린 7%였습니다 [사실]",
+  "물가: 인플레이션을 최대 문제로 꼽은 비율이 4포인트 오른 20%였고, 3개월 안 가격 인상 계획 순비율은 31%였습니다 [사실]",
+  "불확실성: 불확실성 지수는 1포인트 오른 90으로 역사 평균 68을 크게 웃돌았습니다 [사실]",
+  "기존: 미시간대 10월 소비자심리 예비치는 46.3으로 5월 이후 최저였고 현재 여건 지수는 사상 최저였습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{美 소상공인 낙관지수}} {{97.9로 하락}}…소비자심리 이어 {{소기업 체감}}도 {{위축}}",
+ "id": "n-rtr-0233",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{연준}}이 {{2022~2025년 가계의 소득·자산}}과 함께 {{부채 스트레스}}도 {{높아졌}}다고 밝히면서 {{소비 여력 약화 우려}}가 {{커졌}}다 (제목 기준)",
+   "t": "연준, 2022~2025년 가계 소득·자산·부채 스트레스 상승 발표",
+   "u": "https://www.reuters.com/business/finance/fed-says-household-income-wealth-debt-stress-rose-2022-2025-2026-10-09/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{미시간대 10월 소비자심리지수}}가 {{46.3}}으로 떨어지고 {{현재 여건 지수가 사상 최저인 44.7}}을 {{기록}}하면서 {{가계 소비 둔화 우려}}가 {{커졌}}다",
+   "t": "미국 10월 소비자심리 한층 더 악화…미시간대 지수 하락",
+   "u": "https://www.reuters.com/business/us-consumer-sentiment-deteriorates-further-october-2026-10-09/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "블룸버그",
+   "s": "{{미국 소비자의 지출 여력이 바닥났다는 진단}} 속에 {{월가}}가 {{이를 증시 랠리를 끝낼 요인}}으로 {{우려}}하고 있다 (제목 기준)",
+   "t": "소비자 여력 바닥…월가는 증시 랠리 끝낼 요인으로 우려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/consumers-are-tapped-and-wall-street-fears-that-s-a-rally-killer"
+  },
+  {
+   "t": "미국 소상공인 낙관지수, 경기 전망 어두워지며 하락",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-small-business-optimism-falls-on-dimmer-economic-outlook",
+   "s": "{{미국 소상공인 낙관지수}}가 9월 {{97.9}}로 {{0.8포인트 내리}}면서 소기업의 {{경기 전망과 확장 의욕}}이 {{약해졌}}다"
+  }
+ ],
+ "key": "mix-C042-2026-10-13",
+ "nodes": [
+  "macro/growth",
+  "macro/inflation"
+ ],
+ "num": 233,
+ "one": "미국 {{NFIB 소상공인 낙관지수}}가 9월 {{97.9}}로 {{0.8포인트 내려}} {{52년 평균을 밑돌}}고 {{인플레이션을 최대 문제로 꼽은 비율}}이 {{20%}}로 오른 가운데 {{미시간대 소비자심리}}도 {{46.3으로 5개월 최저}}를 기록하면서, {{가계와 소기업의 경기 체감}}이 함께 {{식}}고 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T19:00:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Advisor Perspectives",
+   "u": "https://www.advisorperspectives.com/dshort/updates/2026/10/09/consumer-sentiment-falls-again-in-october"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "FXStreet",
+   "u": "https://www.fxstreet.com/news/uom-consumer-sentiment-index-expected-to-decline-in-october-amid-high-oil-prices-202610091000"
+  },
+  {
+   "o": "NFIB",
+   "d": "2026-10-13",
+   "u": "https://www.nfib.com/news/press-release/new-nfib-survey-uncertainty-grows-and-optimism-fades-slightly-on-main-street-in-september-2/"
+  },
+  {
+   "o": "TD Economics",
+   "d": "2026-10-13",
+   "u": "https://economics.td.com/us-nfib-small-business-optimism"
+  },
+  {
+   "o": "ABA Banking Journal",
+   "d": "2026-10-13",
+   "u": "http://bankingjournal.aba.com/2026/10/aba-databank-nfib-small-business-optimism-index-ticks-down-in-september/"
+  }
+ ],
+ "tags": [],
+ "title": "{{美 소상공인 낙관지수}} {{97.9로 하락}}…소비자심리 이어 {{소기업 체감}}도 {{위축}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.reuters.com/business/finance/fed-says-household-income-wealth-debt-stress-rose-2022-2025-2026-10-09/"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0376",
+ "num": 376,
+ "key": "split-G1-038-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+ "headline": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+ "one": "후티가 10월 8일 교전이 격화하는 가운데 예멘 아덴 공항에 미사일을 쏘면서, 같은 날 사우디 아브하·리야드 공항 공격과 함께 공항을 겨냥한 공격이 예멘 안팎으로 넓어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 후티는 교전이 격화하는 가운데 예멘 아덴 공항에 미사일을 발사했다 [제목]",
+  "같은 시기: 후티는 8일 사우디 아브하·리야드 공항도 공격해 3명이 숨졌다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "교전 격화 속 후티, 예멘 아덴 공항에 미사일 발사",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "후티 예멘 아덴 공항에 미사일 발사"
+  }
+ ]
+}

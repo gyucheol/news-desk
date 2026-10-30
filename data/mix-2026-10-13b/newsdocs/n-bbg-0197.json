@@ -1,0 +1,114 @@
+{
+ "basis": "verified",
+ "check": "Euronews·TVP World 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 라데프 불가리아 총리는 10월 13일 흑해 연안 약 24km 앞에서 선박 2척이 드론에 맞아 1척이 침몰했다고 밝혔다 [사실]",
+  "미상: 총리는 선박의 출처와 화물, 드론의 발진지를 밝히지 않았다 [사실]",
+  "앞선 공격: 10월 6일에는 불가리아 배타적경제수역에서 유조선 2척이 피격돼 알파 와탄호가 침몰했고, 소치 앞에서도 유조선이 불탔다 [사실]",
+  "곡물: 이번 시즌 우크라이나 곡물 수출은 26% 줄었고 아시아 제분업체들은 밀 선매입을 12월분 이내로 줄였다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "불가리아 앞바다서 또 {{드론 공격}}…선박 2척 피격, 1척 침몰",
+ "id": "n-bbg-0197",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "agri"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "러시아 \"흑해서 공격받아 불탄 유조선 선원 구조\"",
+   "u": "https://www.reuters.com/world/russia-says-tanker-crew-rescued-black-sea-after-attack-set-ship-ablaze-2026-10-06/",
+   "s": "{{러시아}}가 10월 6일 소치 앞에서 무인정 공격으로 불탄 라이베리아 선적 유조선 리오호의 {{선원을 구조}}했다고 밝혔다"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "전쟁에 시장 요동치자 아시아 밀 수입사들 선매입 축소",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/asian-wheat-buyers-cut-forward-purchases-as-war-whipsaws-markets",
+   "s": "{{아시아 밀 수입사}}들이 전쟁으로 밀 시장이 요동치자 보통 최대 6개월 앞서 사던 밀을 {{12월분}} 이내로만 확보하면서 가격 위험에 더 노출되고 있다"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "상선 공격 재개되자 인도, 흑해 운항 합의 모색",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-seeks-black-sea-deal-as-merchant-ships-face-fresh-attacks",
+   "s": "{{인도}}가 흑해 상선 공격이 재개되자 {{흑해 운항 합의}}를 모색하면서 자국행 화물의 안전한 통항을 확보하려 하고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "전쟁이 러시아 수출 막아 인도행 해바라기유 화물 취소·지연 위기",
+   "u": "https://www.reuters.com/business/energy/india-bound-sunflower-oil-cargoes-face-cancellation-delays-war-disrupts-russian-2026-10-07/",
+   "s": "전쟁이 러시아 수출을 막으면서 {{인도행 해바라기유}} 화물이 {{취소·지연}} 위기에 놓여 인도 식용유 수입에 차질이 생길 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "튀르키예 \"러·우크라, 겨울 앞두고 흑해 공격 늘려\"",
+   "u": "https://www.reuters.com/world/middle-east/turkey-says-russia-ukraine-increasing-attacks-black-sea-ahead-winter-2026-10-08/",
+   "s": "{{튀르키예}}가 러시아와 우크라이나가 겨울을 앞두고 {{흑해 공격}}을 늘리고 있다고 밝히면서 흑해 해운의 위험이 커지고 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "시리아, 흑해 선박 침몰에 독립 조사 요구",
+   "u": "https://www.reuters.com/world/middle-east/syria-calls-independent-probe-into-sinking-ship-black-sea-2026-10-08/",
+   "s": "{{시리아}}가 흑해에서 침몰한 선박에 대해 {{독립 조사}}를 요구하면서 침몰 경위를 둘러싼 논란이 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "불가리아 총리 \"드론 공격에 연안서 선박 침몰\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/",
+   "s": "{{드론}}이 불가리아 앞바다에서 선박을 침몰시켰다고 총리가 밝히면서, 흑해를 오가는 상선의 {{운항 위험}}이 다시 커졌다"
+  }
+ ],
+ "key": "bnd-C183-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 197,
+ "one": "불가리아 해안 약 24km 앞 흑해에서 선박 2척이 드론에 맞아 1척이 침몰했다고 라데프 총리가 밝히면서, 10월 초 유조선 침몰에 이어 {{흑해 상선 공격}}이 잇따라 곡물·유류 수송의 {{해상 위험}}이 더 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:27:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "BusinessMirror",
+   "u": "https://businessmirror.com.ph/2026/10/08/asian-wheat-buyers-cut-forward-purchases-as-war-whipsaws-markets/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "ABC News",
+   "u": "https://www.abc.net.au/news/2026-10-07/oil-tanker-attack-in-black-sea-off-sochi-sparks-giant-fire/107238536"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Semafor",
+   "u": "https://www.semafor.com/article/10/06/2026/bulgarian-tankers-struck-in-black-sea-as-shipping-fears-mount"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-13",
+   "u": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says"
+  },
+  {
+   "o": "TVP World",
+   "d": "2026-10-13",
+   "u": "https://tvpworld.com/95902882/drone-sinks-ship-off-bulgaria-coast-says-pm-radev"
+  }
+ ],
+ "tags": [],
+ "title": "불가리아 앞바다서 또 {{드론 공격}}…선박 2척 피격, 1척 침몰",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/asian-wheat-buyers-cut-forward-purchases-as-war-whipsaws-markets",
+ "added": "이번 로이터 1건으로 10월 13일 불가리아 앞바다 약 24km에서 {{선박 2척이 드론에 피격}}돼 {{1척이 침몰}}한 추가 공격 사실이 추가됐다"
+}

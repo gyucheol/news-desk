@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0594",
+ "num": 594,
+ "key": "split-G6-105-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/congo-arrests-hundreds-of-chinese-miners-in-copper-heartland",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "콩고, 구리 벨트서 불법 채굴 중국인 약 300명 구금",
+ "headline": "콩고, 구리 벨트서 불법 채굴 중국인 약 300명 구금",
+ "one": "콩고 당국이 콜웨지 등 구리 벨트에서 남의 광구를 캔 혐의로 중국인 약 300명을 구금하면서, 그동안 불법 채굴로 시장에 흘러나오던 구리 공급이 줄어들 수 있다",
+ "facts": [
+  "무엇이: 콩고가 콜웨지 등 구리 벨트에서 남의 광구를 캔 혐의로 중국인 약 300명을 구금했다(10월 16일 블룸버그) [사실]",
+  "영향: 불법 채굴로 나오던 구리 물량이 줄면 구리 공급이 더 빠듯해질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건(10월 16일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 같은 날 MiningMX의 불법 채굴 단속 보도를 출처로 붙였다.",
+ "src": [
+  {
+   "o": "MiningMX",
+   "d": "2026-10-16",
+   "u": "http://www.miningmx.com/2026-10-16-congo-detains-300-chinese-in-illegal-mining-crackdown/"
+  }
+ ],
+ "items": [
+  {
+   "t": "콩고, 구리 중심지에서 중국인 광부 수백 명 체포",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/congo-arrests-hundreds-of-chinese-miners-in-copper-heartland"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "콩고, 불법 채굴 중국인 약 300명 구금"
+  }
+ ]
+}

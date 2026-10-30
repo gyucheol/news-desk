@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0423",
+ "num": 423,
+ "key": "split-G2-049-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/environment/el-nio-powered-drought-leaves-indonesian-palm-farmers-high-dry-river-recedes-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "엘니뇨 가뭄에 강물 말라…인도네시아 팜 농가 고립",
+ "headline": "엘니뇨 가뭄에 강물 말라…인도네시아 팜 농가 고립",
+ "one": "엘니뇨가 몰고 온 가뭄으로 강물이 줄어 인도네시아 팜 농가가 고립되면서, 팜유 생산과 운송에 차질이 생기고 세계 식물성 기름 공급에도 부담이 될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 엘니뇨 가뭄으로 강물이 줄어 인도네시아 팜 농가가 고립됐다 [제목]",
+  "영향: 팜유 생산과 운송에 차질이 생길 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(10월 19일). 원 문서 확인 기록은 이 부분을 확인 못 해 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "엘니뇨 가뭄에 강물 말라…인도네시아 팜 농가 고립",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/environment/el-nio-powered-drought-leaves-indonesian-palm-farmers-high-dry-river-recedes-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "weather",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "엘니뇨 가뭄에 강물 말라 인니 팜 농가 고립"
+  }
+ ]
+}

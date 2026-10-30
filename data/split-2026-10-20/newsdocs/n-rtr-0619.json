@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0619",
+ "num": 619,
+ "key": "split-G6-110-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:57:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "세계은행 방가 총재, 핵심광물 금융 5년 내 5배 확대 목표",
+ "headline": "세계은행 방가 총재, 핵심광물 금융 5년 내 5배 확대 목표",
+ "one": "방가 세계은행 총재가 핵심광물 사업을 5년 안에 5배로 늘리겠다며 협력 가능 국가 20곳을 제시하면서, 리튬·니켈·코발트·희토류 등 중국 밖 광물 채굴·가공의 자금줄이 커질 전망이다",
+ "facts": [
+  "무엇이: 방가 세계은행 총재는 핵심광물 사업을 5년 안에 5배로 늘리겠다는 목표를 제시했다 [사실]",
+  "대상: 협력 가능 국가 20곳과 리튬·니켈·코발트·희토류 채굴·가공 사업에 대한 대출·보증이 대상이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 5년 내 5배 목표와 협력 가능 국가 20곳은 Business Recorder·Bangkok Post·CNBC Africa 출처로 확인",
+ "src": [
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-16",
+   "u": "https://www.brecorder.com/news/40444511/world-banks-banga-sets-goal-of-quintupling-critical-minerals-financing-in-five-years"
+  },
+  {
+   "o": "Bangkok Post",
+   "d": "2026-10-16",
+   "u": "https://www.bangkokpost.com/business/general/3338163/world-bank-chief-sets-goal-of-quintupling-critical-minerals-financing-in-five-years"
+  },
+  {
+   "o": "CNBC Africa",
+   "d": "2026-10-16",
+   "u": "https://www.cnbcafrica.com/2026/world-banks-banga-sets-goal-of-quintupling-critical-minerals-financing-in-five-years"
+  }
+ ],
+ "items": [
+  {
+   "t": "세계은행 방가 총재, 5년 내 핵심광물 금융 5배 확대 목표 제시",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/finance/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-five-years-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "세계은행 핵심광물 금융 5년 내 5배 확대"
+  }
+ ]
+}

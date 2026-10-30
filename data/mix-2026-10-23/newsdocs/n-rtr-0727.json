@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0727",
+ "num": 727,
+ "key": "mix-G2-079-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T01:29:00+09:00",
+ "url": "https://www.reuters.com/world/americas/venezuela-eyes-qatar-bridge-loan-clear-idb-arrears-sources-say-2026-10-22/",
+ "origTitle": "",
+ "headline": "베네수엘라, 20억 달러 넘는 IDB 연체 해소 위해 카타르 브리지론 모색",
+ "src": [
+  {
+   "o": "인덱스박스",
+   "d": "2026-10-23",
+   "u": "https://www.indexbox.io/blog/venezuela-weighs-qatar-bridge-loan-to-clear-2-billion-idb-arrears/"
+  },
+  {
+   "o": "베네수엘라애널리시스",
+   "d": "2026-10-06",
+   "u": "https://venezuelanalysis.com/news/venezuela-qatari-fund-to-unblock-access-to-idb-loans/"
+  }
+ ],
+ "items": [
+  {
+   "t": "베네수엘라, IDB 연체 해소 위해 카타르 브리지론 모색",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/americas/venezuela-eyes-qatar-bridge-loan-clear-idb-arrears-sources-say-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "title": "베네수엘라, 20억 달러 넘는 IDB 연체 해소 위해 카타르 브리지론 모색",
+ "one": "베네수엘라가 미주개발은행 연체금을 갚기 위해 카타르에서 브리지론을 빌리는 방안을 검토하고 있다\n· 연체금은 20억 달러를 넘으며 IDB는 2018년 5월부터 신규 대출을 멈춘 상태다\n· 연체를 해소하면 IDB 자금을 다시 받아 카타르에 갚는 구조가 거론된다",
+ "facts": [
+  "무엇이: 베네수엘라가 20억 달러가 넘는 IDB 연체금을 갚기 위해 미국의 지원 아래 카타르 브리지론을 검토하고 있다고 소식통 6명이 전했다 [사실]",
+  "배경: IDB는 2018년 5월 베네수엘라 신규 대출을 중단했고 연체를 해소하면 대출 재개가 가능하다 [사실]",
+  "구조: 연체 해소 뒤 IDB의 첫 지급금으로 카타르에 상환하는 방안이며 관련 승인이 필요하다 [사실]",
+  "참고: 앞서 10월 6일 보도는 카타르가 약 25억 달러 IDB 부채 해소용 기금을 마련하고 최대 80억 달러 신용선이 열릴 수 있다고 했다 [미확인]"
+ ],
+ "basis": "verified",
+ "check": "카타르 브리지론·20억 달러 이상 연체·2018년 대출 중단은 인덱스박스·베네수엘라애널리시스 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "베네수엘라 IDB 연체 해소용 카타르 브리지론 검토"
+  }
+ ]
+}

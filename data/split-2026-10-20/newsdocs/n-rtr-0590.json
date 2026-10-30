@@ -1,0 +1,67 @@
+{
+ "id": "n-rtr-0590",
+ "num": 590,
+ "key": "split-G5-151-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/imf-warns-slowing-asian-growth-spillover-rising-yields-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF, 아시아 성장률 올해 4.8%·내년 4.4% 둔화…금리 전이 경고",
+ "headline": "IMF, 아시아 성장률 올해 4.8%·내년 4.4% 둔화…금리 전이 경고",
+ "one": "IMF가 15일 아시아 성장률이 올해 4.8%, 내년 4.4%로 둔화하고 주요국 국채금리 상승이 아시아 채권시장으로 번질 수 있다고 경고하면서, 아시아 국가들의 차입 비용 부담이 커질 수 있다",
+ "facts": [
+  "무엇이: IMF는 10월 15일 아시아 성장률이 올해 4.8%, 내년 4.4%로 둔화할 것으로 봤다 [사실]",
+  "전이: IMF는 주요국 국채금리 상승이 아시아 채권시장으로 번질 수 있다고 경고했다 [사실]",
+  "배경: IMF는 국채금리 급등을 금융시스템 최대 위험으로 지목했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건이다. 원 문서 확인 기록에 이 사건 부분은 없지만 독립 출처(The Star, 15일)가 아시아 성장 둔화와 금리 전이 경고를 뒷받침한다.",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-15",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/15/imf-warns-of-slowing-asian-growth-spillover-from-rising-yields"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF, 아시아 성장 둔화·금리 상승 전이 경고",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/china/imf-warns-slowing-asian-growth-spillover-rising-yields-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 아시아 성장률 올해 4.8%·내년 4.4%로 둔화"
+  },
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "주요국 국채금리 상승의 아시아 채권시장 전이 경고"
+  }
+ ]
+}

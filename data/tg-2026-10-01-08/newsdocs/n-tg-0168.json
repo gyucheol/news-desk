@@ -1,0 +1,47 @@
+{
+ "id": "n-tg-0168",
+ "feed": "v5",
+ "format": "one1",
+ "num": 168,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65278",
+ "published": "2026-10-03T21:54:00+09:00",
+ "url": "https://t.me/insidertracking/65278",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/geo"
+ ],
+ "title": "중국, ASML 액침 DUV 약 343대 비축…미 싱크탱크 '전면 금수' 촉구",
+ "one": "중국 기업들이 2026년 초까지 ASML 액침 DUV 노광장비 약 343대를 확보해 7나노 AI 칩을 양산할 기반을 갖췄다는 미국 싱크탱크 보고서가 나오면서, 액침 DUV 전면 금수 요구가 커지고 있다",
+ "headline": "중국, ASML 액침 DUV 약 343대 비축…미 싱크탱크 '전면 금수' 촉구",
+ "facts": [
+  "무엇이: 기술·국정센터(CTS)는 중국 기업 소유 공장이 2026년 초 기준 액침 DUV 약 343대를 확보했고 그중 약 270대가 NXT:1980i라고 추정했습니다 [사실]",
+  "얼마나: 2024년 약 90대, 2025년 약 89대를 사들여 130억 달러 이상을 쓴 것으로 추산됩니다 [사실]",
+  "배경: ASML 순수 시스템 매출 중 중국 비중은 2024년 41%에서 2026년 2분기 14%로 낮아졌습니다 [채널]",
+  "다음 일정: 보고서는 액침 DUV 추가 공급 금지와 첨단 공장 유지보수 제한을 촉구했으나 아직 채택되지 않았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(CTS 보고서 요약)로 들어온 소식이며, Tom's Hardware 자체 기사(검색 결과 요약으로 확인)로 343대·270대·연 90대/89대·130억 달러·금수 권고를 확인했습니다. 보고서 공개는 9월 말로 보이며 국내 보도(글로벌이코노믹)는 10월 3일입니다. ASML 중국 매출 비중 수치는 확인하지 않았습니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-03",
+   "u": "https://t.me/insidertracking/65278"
+  },
+  {
+   "o": "Tom's Hardware",
+   "d": "2026-10",
+   "u": "https://www.tomshardware.com/tech-industry/semiconductors/china-stockpiled-343-immersion-duv-tools-for-advanced-chipmaking-report-claims-270-asml-scanners-can-produce-7nm-processors-without-sanctioned-euv-tools"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

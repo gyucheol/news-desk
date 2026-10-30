@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0721",
+ "num": 721,
+ "key": "mix-G1-052-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T19:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins",
+ "origTitle": "",
+ "headline": "마루티 스즈키 분기 순이익 27% 감소…원자재·부품비 48%↑에 판매 최대에도 마진 압박",
+ "src": [
+  {
+   "o": "Autocar Professional",
+   "d": "2026-10-27",
+   "u": "https://www.autocarpro.in/news/maruti-suzuki-q2-net-profit-drops-27-percent-to-rs-2415-crore-amid-input-cost-inflation-135496"
+  },
+  {
+   "o": "Business Today",
+   "d": "2026-10-27",
+   "u": "https://www.businesstoday.in/markets/stocks/story/maruti-suzuki-q2-profit-falls-26-to-rs-2466-crore-revenue-rises-26-563972-2026-10-27"
+  }
+ ],
+ "items": [
+  {
+   "t": "마루티 스즈키, 원가 부담에 이익 27% 감소",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "마루티 스즈키 분기 순이익 27% 감소…원자재·부품비 48%↑에 판매 최대에도 마진 압박",
+ "one": "인도 최대 완성차업체 마루티 스즈키의 7~9월 분기 순이익이 원가 부담에 27% 줄었다\n· 단독 순이익은 241억 4,900만 루피로 원자재·부품 비용이 48% 늘어난 탓이 컸다\n· 판매량은 69만 6,654대로 26.5% 늘어 분기 최대였고 매출도 약 26% 늘었다",
+ "facts": [
+  "무엇이: 마루티 스즈키의 2027회계연도 2분기(7~9월) 단독 순이익이 241억 4,900만 루피로 전년보다 27% 줄었다 [사실]",
+  "원인: 원자재·부품 비용이 3,748억 8,400만 루피로 48% 늘었고 투자자산 평가손실도 부담이 됐으며, 서아시아 긴장에 따른 공급망 문제가 원가 압박 배경으로 꼽혔다 [사실]",
+  "판매: 판매량은 69만 6,654대로 26.5% 늘었고 매출은 5,335억 5,500만 루피로 약 26% 늘었다 [사실]",
+  "연결: 연결 순이익은 26.4% 줄어든 246억 6,100만 루피였고 영업이익(EBIT)은 17.1% 줄었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "단독 순이익 27% 감소(2,414.9크로르 루피)·원자재비 48% 증가·판매 69만 6,654대는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "원가 48% 상승에 마루티 순이익 27% 감소"
+  }
+ ]
+}

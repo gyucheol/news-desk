@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0457",
+ "num": 457,
+ "key": "split-G4-007-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/us-bond-traders-await-cpi-warsh-for-insight-on-fed-s-rate-path",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미 채권 트레이더, 연준 금리 경로 단서로 9월 CPI·워시 의장 발언 주목",
+ "headline": "미 채권 트레이더, 연준 금리 경로 단서로 9월 CPI·워시 의장 발언 주목",
+ "one": "미국 채권 트레이더들이 연준 금리 경로의 단서를 얻으려 9월 CPI 발표와 워시 의장 발언을 주목하면서, 두 변수가 10월 FOMC를 앞둔 국채 금리 방향을 가를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국 채권 트레이더들이 연준 금리 경로의 단서를 찾으려 9월 CPI와 워시 의장 발언을 주목하고 있다고 블룸버그가 10월 12일 전했다 [제목]",
+  "의미: 물가 지표와 의장 발언이 10월 FOMC를 앞둔 금리 기대를 움직일 변수로 꼽혔다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "미 채권 트레이더, 연준 금리 경로 단서로 CPI·워시 주목",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/us-bond-traders-await-cpi-warsh-for-insight-on-fed-s-rate-path"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "CPI·워시 발언 앞두고 채권시장 관망"
+  }
+ ]
+}

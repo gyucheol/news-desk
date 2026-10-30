@@ -1,0 +1,191 @@
+{
+ "added": "이번 블룸버그·로이터 4건으로 SME IPO 이익 요건 강화와 기관 배정 확대 제안, 파생상품 만기 결제의 마지막 30분 VWAP 방식 환원이 추가됐다",
+ "basis": "verified",
+ "check": "SME IPO 협의문 내용과 파생 결제 방식 환원을 검색 결과 요약으로 확인. 결제 변경 시행 시점(10월 말 또는 12월 7일)은 출처마다 엇갈림",
+ "cycles": [],
+ "facts": [
+  "무엇이: SEBI는 10월 14일 협의문에서 SME 상장 요건을 직전 3년 평균 영업이익 3크로르 루피 이상으로 높이고, 미달 기업도 공모의 75% 이상을 적격기관투자자에 배정하면 상장할 수 있게 하자고 제안했다 [사실]",
+  "소액 청약: 최소 청약액은 20만 루피에서 10만 루피로 낮추고 최소 배정 인원은 200명에서 500명으로 늘리며, 의견 수렴은 11월 4일까지다 [사실]",
+  "파생 결제: SEBI는 만기일 결제가격 산정에 쓰던 종가 경매를 최소 1년 중단하고 마지막 30분 거래량가중평균가격 방식으로 되돌리기로 했으며, 시행 시점은 보도마다 다르다 [사실]",
+  "배경: 유동성이 얇은 만기일에 단일 경매 가격으로 결제되는 지수옵션 가격이 크게 튀었다 [사실]",
+  "기존: SEBI는 IPO 신주 규모를 최대 50% 바꿀 수 있는 완화를 2027년 3월까지 연장하고 모든 주식 발행에 자금 감시기관 지정 의무화를 제안했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 SEBI, 소형 IPO 규정 개편 제안…파생 만기 결제는 옛 VWAP 방식 복원",
+ "id": "n-bbg-0231",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "인도에서 {{IPO 붐}}이 이어지면서 {{여러 위험 요인에도}} {{월가 투자자들}}이 {{인도 증시에 거는 베팅}}을 {{키우고 있다}} (제목 기준)",
+   "t": "위험에도 IPO 붐이 월가의 인도 베팅을 부추긴다",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/ipo-boom-fuels-wall-street-s-india-bets-despite-risks"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{아문디 계열사}}가 {{이란 전쟁 종료를 인도의 전환점}}으로 꼽으면서 {{종전}}이 {{인도 시장 흐름}}을 {{바꿀 수 있다}}고 봤다 (제목 기준)",
+   "t": "아문디 계열사 \"이란 전쟁 종료가 인도의 전환점 될 것\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/iran-war-s-end-will-be-turning-point-for-india-amundi-arm-says"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{투자자들}}이 {{저가 매수에 나서면서}} 9월 인도 주식형 펀드 순유입이 {{약 31% 늘었고}} {{소형주·중형주 펀드}}가 유입을 이끌었다",
+   "t": "저가 매수에 인도 주식형 펀드로 자금 유입 확대",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/india-equity-fund-flows-draw-more-cash-as-investors-buy-the-dip"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{니프티 부진}}에도 9월 인도 주식형 펀드 유입이 {{5개월 만에 최대}}였고 SIP 납입액도 사상 최대였지만 {{채권형 환매}}로 전체 운용자산은 {{5.1% 줄었}}다",
+   "t": "니프티 부진에도 인도 주식형 펀드 9월 유입 5개월 만에 최대",
+   "u": "https://www.reuters.com/world/india/india-equity-mutual-fund-inflows-hit-5-month-high-september-despite-nifty-slump-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{인도 제트웍}}이 {{5억 1,800만 달러 IPO 공모가}}를 {{주당 143~151루피}}로 정하면서 인도 상장 붐에 대형 공모가 하나 더해졌다 (제목 기준)",
+   "t": "인도 제트웍, 5억 1,800만 달러 IPO 공모가 주당 143~151루피로 확정",
+   "u": "https://www.reuters.com/world/india/indias-zetwerk-sets-price-band-143-151-rupees-per-share-518-million-ipo-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{인도}}가 {{성장 야망을 뉴델리 논의의 중심 의제}}로 올리면서 {{경제 성장 전략}}이 {{정책 논의의 핵심}}으로 떠올랐다 (제목 기준)",
+   "t": "성장 야망이 뉴델리 논의의 중심 무대에 오르다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/growth-ambitions-take-center-stage-in-new-delhi"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{모디 총리}}가 {{자유무역 확대}}를 {{추진}}하면서 {{인도 GDP가 1,400억 달러 늘어날 수 있다}}는 분석이 나왔다 (제목 기준)",
+   "t": "모디의 자유무역 추진, 인도 GDP 1,400억 달러 늘릴 수 있어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/modi-s-free-trade-push-could-lead-to-140-billion-gdp-gain-for-india"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{바클레이스}}가 {{인도 IPO 붐}}을 계기로 {{10년 만에}} {{인도 자문 사업 복귀}}를 {{계획}}하면서 {{인도 공모 주관 경쟁}}이 {{치열해질}} 수 있다 (제목 기준)",
+   "t": "바클레이스, IPO 붐에 10년 만에 인도 자문 사업 복귀 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/barclays-plans-india-advisory-return-after-a-decade-as-ipos-boom"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{SEBI}}가 {{IPO 신주 규모}}를 새 신고서 없이 {{최대 50%까지 조정}}할 수 있게 한 완화를 {{2027년 3월까지 연장}}하면서 {{발행사}}가 {{변동성 장세}}에도 {{공모 규모}}를 {{계속 유연하게}} 정할 수 있게 됐다",
+   "t": "인도 SEBI, 완화된 IPO 규정 2027년 3월까지 연장…투자은행 협회 밝혀",
+   "u": "https://www.reuters.com/legal/government/indias-sebi-extends-easier-ipo-rules-till-march-2027-bankers-lobby-says-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{SEBI 실무그룹}}이 규모와 상관없이 {{모든 주식 발행}}에 {{자금 사용 감시기관 지정}}을 {{의무화}}하자고 {{권고}}하면서 {{비협조 기업}}은 {{벌금}}과 {{최대주주 계좌 동결}}까지 {{당할}} 수 있다",
+   "t": "인도 증시 감독기구 실무그룹, 주식 발행 자금 감시 강화 요구",
+   "u": "https://www.reuters.com/legal/government/india-markets-regulator-panel-seeks-tighter-monitoring-equity-fundraises-2026-10-13/"
+  },
+  {
+   "t": "인도 규제당국, 초소형 상장 늘릴 규정 개편 추진",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/india-regulator-plans-easier-listing-rules-for-micro-caps",
+   "s": "SEBI가 초소형 기업 상장을 늘리려는 규정 개편을 추진하면서 상장 기준이 납입자본에서 상장 후 시가총액으로 바뀌는 등 SME IPO 경로가 달라질 전망이다"
+  },
+  {
+   "t": "인도, 소형 기업 IPO 개편 제안…기관투자자 역할 확대",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/government/india-proposes-small-firm-ipo-overhaul-expands-role-institutional-investors-2026-10-14/",
+   "s": "SEBI가 이익 요건 미달 기업도 공모 75% 이상을 기관에 배정하면 상장을 허용하고 앵커 배정을 넓히는 안을 내면서 SME IPO의 기관 비중이 커질 전망이다"
+  },
+  {
+   "t": "인도, 경매 가격 급변 뒤 옛 파생상품 결제 방식 복원",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/india-s-sebi-said-to-restore-prior-derivatives-settlement-method",
+   "s": "SEBI가 만기일 종가 경매 가격이 크게 튀자 파생상품 결제를 이전 방식으로 되돌리면서 지수옵션 만기 결제 가격의 급변을 줄이려 한다"
+  },
+  {
+   "t": "인도 시장 규제당국, 파생상품 결제 규정 일부 철회",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/india/india-markets-regulator-partly-reverses-derivative-settlement-rules-after-2026-10-15/",
+   "s": "SEBI가 유동성 낮은 현물 종목 종가 산정에는 경매를 남기고 파생 결제만 30분 VWAP로 돌리면서 결제 규정을 일부만 되돌렸다"
+  }
+ ],
+ "key": "mix-C016-2026-10-13",
+ "nodes": [],
+ "num": 231,
+ "one": "인도 SEBI가 SME 상장의 이익 요건을 높이고 기관투자자 배정을 넓히는 소형 IPO 개편안을 내놓는 한편 경매 가격이 크게 튄 파생상품 만기 결제를 마지막 30분 VWAP 방식으로 되돌리면서, IPO 붐 속 상장·파생시장 규칙이 다시 짜이고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T03:08:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Upstox",
+   "u": "https://upstox.com/news/personal-finance/mutual-funds/amfi-september-2026-data-equity-inflows-jump-31-small-mid-caps-lead-gold-and-silver-et-fs-gain/article-201686/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Outlook Money",
+   "u": "https://www.outlookmoney.com/invest/amfi-data-september-2026-equity-mf-inflows-38307-crore-rupees"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "비즈니스투데이",
+   "u": "https://www.businesstoday.in/markets/ipo-corner/story/sebi-extends-ipo-issue-size-relaxation-until-march-2027-561578-2026-10-14"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "비즈니스스탠더드",
+   "u": "https://www.business-standard.com/markets/ipo/sebi-extends-relaxation-to-revise-fresh-issue-size-till-march-2027-126101300928_1.html"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "비즈니스스탠더드",
+   "u": "https://www.business-standard.com/amp/markets/news/sebi-proposes-tighter-ipo-proceeds-monitoring-fines-for-defaulting-firms-126101301204_1.html"
+  },
+  {
+   "o": "TaxGuru",
+   "d": "2026-10-15",
+   "u": "https://taxguru.in/sebi/sebi-proposes-major-sme-ipo-reforms-eligibility-profitability-allotment-migration.html"
+  },
+  {
+   "o": "Outlook Money(SME IPO)",
+   "d": "2026-10-15",
+   "u": "https://www.outlookmoney.com/invest/sebi-sme-ipo-rules-rs-1-lakh-minimum-investment-one-share-trading"
+  },
+  {
+   "o": "Outlook Money(파생 결제)",
+   "d": "2026-10-15",
+   "u": "https://www.outlookmoney.com/invest/sebi-likely-to-suspend-closing-auction-session-mechanism-for-derivatives-settlement-revert-to-vwap-for-a-year"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-15",
+   "u": "https://www.briefs.co/news/sebi-brings-back-old-expiry-day-settlement-to-cool-auction-d/"
+  }
+ ],
+ "tags": [],
+ "title": "인도 SEBI, 소형 IPO 규정 개편 제안…파생 만기 결제는 옛 VWAP 방식 복원",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/ipo-boom-fuels-wall-street-s-india-bets-despite-risks",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "SME 상장 이익 요건 강화와 기관 배정 확대 제안"
+  }
+ ]
+}

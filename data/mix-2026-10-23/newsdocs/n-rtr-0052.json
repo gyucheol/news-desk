@@ -1,0 +1,120 @@
+{
+ "added": "블룸버그·로이터 3건 — 케네디 핵심 고문 캘리 민스의 10월 22일 사임과 새 B형간염 백신 지침의 영아 무방비 우려 내용이 추가됨",
+ "basis": "partial",
+ "check": "민스 사임은 ABC·The Hill·PBS 검색 결과 요약으로 확인. 새 B형간염 지침 내용은 검색으로 찾지 못해 제목만 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 케네디 장관의 핵심 고문이자 MAHA 운동을 이끈 캘리 민스가 10월 22일 사임했고, 이유는 밝히지 않았지만 식품 의제 지연에 대한 불만이 보도됐다 [사실]",
+  "B형간염 지침: 새 미국 B형간염 백신 지침이 많은 영아를 무방비 상태로 둘 수 있다는 우려가 나왔다 [제목]",
+  "기니비사우 임상: 기니비사우 과도정부와 미 보건부는 10월 13일 신생아 약 1만 4,000명 대상, 미 CDC 160만 달러 지원 B형간염 백신 임상이 승인되지 않았다고 밝혔다 [사실]",
+  "백신 정책: 보건부는 10월 8일 백신 부작용 연구 사업과 NIH 진료소를 시작했고, 제1순회 항소법원은 케네디가 임명한 ACIP 위원 13명의 직무 정지 명령을 심리 중이다 [사실]",
+  "영향: ACIP는 하급심 판결 뒤 회의 두 번을 취소했고 정족수 부족으로 독감 백신 등 권고를 내지 못하고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "케네디 보건부 백신 논란…핵심 고문 민스 사임·새 B형간염 지침에 영아 무방비 우려",
+ "id": "n-rtr-0052",
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{제1순회 항소법원}}이 {{케네디가 임명한 ACIP 위원 13명의 직무}}를 정지한 {{하급심 명령}}을 심리하면서 {{정족수 부족}}으로 {{백신 권고}}가 묶여 있다",
+   "t": "美 항소법원, 케네디의 백신자문위 임명 차단 여부 심리",
+   "u": "https://www.reuters.com/legal/government/us-appeals-court-weighs-block-kennedys-vaccine-panel-appointments-2026-10-06/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{케네디 보건장관}}이 NIH 진료소를 열고 {{VAERS 부작용 신고 확대와 개편}}을 추진하면서 백신 접종 뒤 건강 문제를 {{부처 차원에서 연구·기록하기 시작}}했다",
+   "t": "케네디 美 보건장관, 백신 부작용 대응 새 추진",
+   "u": "https://www.reuters.com/legal/litigation/us-health-secretary-kennedy-launches-new-push-vaccine-injuries-2026-10-08/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{기니비사우 정부}}가 미국 지원 {{신생아 B형 간염 백신 임상}}의 {{수정안 승인 보도}}를 {{부인}}하면서 {{미 CDC}}가 {{160만 달러}}를 댄 이 연구의 {{진행}}이 다시 {{막혔}}다",
+   "t": "기니비사우 '신생아 대상 B형 간염 백신 임상 승인하지 않았다'",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/guinea-bissau-says-it-has-not-approved-hepatitis-b-vaccine-trial-newborns-2026-10-13/"
+  },
+  {
+   "t": "케네디 핵심 고문 캘리 민스 사임, MAHA 의제에 타격",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/top-rfk-jr-adviser-calley-means-resigns-in-blow-to-maha-agenda",
+   "s": "MAHA를 이끈 캘리 민스가 케네디 장관 고문직에서 물러나면서 보건부의 식품·건강 개혁 의제 추진력이 약해졌다"
+  },
+  {
+   "t": "케네디 핵심 고문 캘리 민스, 트럼프 행정부 떠나…WSJ",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/us/top-rfk-jr-adviser-calley-means-quits-trump-administration-wsj-reports-2026-10-22/",
+   "s": "WSJ 보도로 캘리 민스의 행정부 이탈이 알려지면서 중간선거를 앞두고 MAHA 진영 내부 불만이 드러났다"
+  },
+  {
+   "t": "새 미국 B형간염 백신 지침, 다수 영아 무방비 우려",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/new-us-hepatitis-b-vaccine-guidelines-likely-leave-many-infants-vulnerable-2026-10-23/",
+   "s": "새 미국 B형간염 백신 지침이 많은 영아를 감염 위험에 노출시킬 수 있다는 분석이 나오면서 신생아 접종 정책 논란이 커졌다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C132-2026-10-09",
+ "nodes": [],
+ "num": 52,
+ "one": "케네디 장관의 보건부에서 MAHA 핵심 고문 캘리 민스가 사임하고 새 B형간염 백신 지침 논란이 커졌다\n· 민스는 10월 22일 사임했고 식품 정책 지연에 대한 불만이 배경으로 거론됐다\n· 새 미국 B형간염 백신 지침은 많은 영아를 감염 위험에 노출시킬 수 있다는 지적이 나왔다\n· 기니비사우 정부는 미 CDC가 160만 달러를 댄 신생아 B형간염 백신 임상을 승인하지 않았다고 밝혔다\n· 보건부는 10월 8일 백신 부작용 연구 사업과 NIH 진료소를 시작했다\n· 항소법원이 ACIP 위원 13명 직무 정지를 심리하면서 독감 백신 등 권고가 묶여 있다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:18:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "CNN",
+   "u": "https://cnn.com/2026/10/08/health/hhs-vaccine-injury-initiative"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "The Hill",
+   "u": "https://thehill.com/policy/healthcare/6132695-appeals-court-considers-kennedy-acip-block/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "Africa Briefing",
+   "u": "https://africabriefing.com/guinea-bissau-hepatitis-b-trial-not-cleared/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "CIDRAP",
+   "u": "https://www.cidrap.umn.edu/hepatitis/guinea-bissau-officials-stop-cdc-funded-hepatitis-b-vaccine-trial"
+  },
+  {
+   "o": "ABC News",
+   "d": "2026-10-22",
+   "u": "https://abcnews.com/US/wireStory/calley-means-key-maha-advocate-resigns-top-rfk-137492720"
+  },
+  {
+   "o": "PBS",
+   "d": "2026-10-22",
+   "u": "https://www.pbs.org/newshour/politics/rfk-jr-adviser-calley-means-resigns-amid-growing-maha-discontent-over-lack-of-progress"
+  }
+ ],
+ "tags": [],
+ "title": "케네디 보건부 백신 논란…핵심 고문 민스 사임·새 B형간염 지침에 영아 무방비 우려",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/legal/government/us-appeals-court-weighs-block-kennedys-vaccine-panel-appointments-2026-10-06/",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "새 B형간염 지침에 영아 다수 무방비 우려"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "basis": "partial",
+ "check": "헤그세스 지침은 CBS·ABC 검색 결과 요약으로 확인. 베팅 금액은 텔레그램 원문, 칼시 CPI 선물·15분 비트코인 베팅은 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 헤그세스 장관이 10월 20일자 지침으로 군사작전 관련 비공개 정보를 이용한 폴리마켓·칼시 등 예측시장 베팅을 전 인력에 금지하고 위반 시 군법·연방법 처벌을 경고했다 [사실]",
+  "배경: 마두로 축출 작전 정보를 이용해 폴리마켓에 베팅한 혐의로 미군 특수부대원이 체포됐으며 3만 3,000달러 이상을 걸어 40만 9,000달러 이상을 번 혐의를 받는다 [채널]",
+  "칼시: 칼시는 CPI 선물로 월가를 끌어들여 '인플레이션 거래소'가 되려 한다 [제목]",
+  "상품: 15분 단위 비트코인 예측시장 베팅이 확산하고 있다 [제목]",
+  "경쟁: 폴리마켓 투자자들은 칼시가 입지를 넓히자 쿠플란 CEO에게 변화를 요구하고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "예측시장 규제·경쟁…헤그세스, 군 내부정보 베팅 금지·칼시 CPI 선물로 월가 공략",
+ "id": "n-bbg-0640",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "t": "폴리마켓 투자자들, 칼시 추격에 쿠플란 CEO에 변화 요구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground"
+  },
+  {
+   "t": "15분 단위 예측시장 베팅, 비트코인 투기 수요 흡수",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-22/fifteen-minute-prediction-market-bets-scratch-the-bitcoin-itch",
+   "s": "15분 단위로 결과가 나는 예측시장 비트코인 베팅이 늘면서 단기 투기 수요가 예측시장으로 옮겨 가고 있다 (제목 기준)"
+  },
+  {
+   "t": "헤그세스, 군사작전 내부정보 이용한 예측시장 베팅 금지",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-23",
+   "u": "https://t.me/insidertracking/67081",
+   "s": "헤그세스 장관이 군사작전 비공개 정보를 이용한 폴리마켓·칼시 베팅을 금지하면서 위반 시 형사처벌까지 경고해 예측시장 이용에 제동을 걸었다"
+  },
+  {
+   "t": "칼시, CPI 선물로 월가 공략하며 '인플레이션 거래소' 노려",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/kalshi-courts-wall-street-in-bid-to-be-the-inflation-exchange-with-cpi-futures",
+   "s": "칼시가 CPI 선물을 내세워 월가 기관을 끌어들이면서 예측시장을 인플레이션 헤지 거래소로 넓히려 하고 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-083-2026-10-21",
+ "nodes": [],
+ "num": 640,
+ "one": "예측시장이 군 내부정보 베팅 금지와 상품 확대, 경영 압박이 겹치며 규제와 경쟁의 시험대에 올랐다\n· 헤그세스 장관은 군사작전 비공개 정보를 이용한 폴리마켓·칼시 베팅을 전 인력에 금지했다\n· 마두로 축출 작전 참가 군인이 3만 3,000달러를 걸어 40만 9,000달러를 번 혐의 사건이 배경이다\n· 칼시는 CPI 선물로 월가를 공략하며 '인플레이션 거래소'가 되려 한다\n· 15분 단위 비트코인 예측시장 베팅이 투기 수요를 끌어들이고 있다\n· 폴리마켓 투자자들은 칼시의 추격에 쿠플란 CEO에게 변화를 요구하고 있다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "CBS뉴스",
+   "d": "2026-10-22",
+   "u": "https://www.cbsnews.com/news/hegseth-betting-ban-military-operations/"
+  },
+  {
+   "o": "ABC뉴스",
+   "d": "2026-10-22",
+   "u": "https://abcnews.com/US/wireStory/new-pentagon-directive-bans-troops-nonpublic-info-bet-137493082"
+  }
+ ],
+ "tags": [],
+ "title": "예측시장 규제·경쟁…헤그세스, 군 내부정보 베팅 금지·칼시 CPI 선물로 월가 공략",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "칼시 CPI 선물로 월가 공략 추진"
+  },
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "군 인력 내부정보 예측시장 베팅 금지"
+  }
+ ],
+ "added": "블룸버그·텔레그램 3건 — 헤그세스의 군 내부정보 예측시장 베팅 금지, 칼시 CPI 선물 추진, 15분 단위 비트코인 베팅 확산 내용이 추가됨",
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0201",
+ "num": 201,
+ "key": "bnd-C187-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T04:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/ups-worker-missed-security-email-letting-china-get-f-35-parts",
+ "origTitle": "",
+ "headline": "UPS 직원 경고메일 놓쳐 F-35 부품 홍콩 경유…중국 당국 손에",
+ "src": [
+  {
+   "o": "AeroTime",
+   "d": "2026-10",
+   "u": "https://www.aerotime.aero/articles/ups-missed-warning-email-f35-parts-china"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-09-24",
+   "u": "https://www.aljazeera.com/news/2026/9/24/has-china-received-us-f-35-parts-by-diverting-an-australian-shipment"
+  }
+ ],
+ "items": [
+  {
+   "t": "UPS 직원 보안 메일 놓쳐 중국이 F-35 부품 입수",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/ups-worker-missed-security-email-letting-china-get-f-35-parts"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "UPS 직원 경고메일 놓쳐 F-35 부품 홍콩 경유…중국 당국 손에",
+ "one": "UPS 직원이 미국 수출규제상 특정국 경유 금지 경고 메일을 놓친 채 호주 F-35의 조종석 캐노피와 무장창 문을 홍콩으로 돌려 보내면서, 레이더 흡수 코팅이 된 스텔스 부품이 중국 당국 손에 들어가 미 국방부·국무부가 조사에 나섰다",
+ "facts": [
+  "무엇이: 5월 말 미국으로 수리·폐기차 보내던 호주 F-35 조종석 캐노피·무장창 문이 홍콩을 거치다 중국 당국에 넘어감 [사실]",
+  "경위: 물류업체 DSV가 특정국 경유 금지 경고 메일을 보냈으나 UPS 직원이 놓치고 배송을 서두르려 홍콩으로 경로 변경 [사실]",
+  "대응: 미 국방부는 부품이 '사용 불가 상태'라 했고 국방부·국무부가 조사 중, 록히드마틴은 악용 위험이 낮다고 봄 [사실]",
+  "유의: 경위는 블룸버그 익명 소식통 기반이며 중국 외교부는 '알지 못한다'고 밝힘 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Tom's Hardware·AeroTime·Al Jazeera 등 검색 결과 요약으로 확인. UPS·DSV는 논평 거부",
+ "inds": [
+  "aero"
+ ],
+ "nodes": []
+}

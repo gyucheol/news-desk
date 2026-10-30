@@ -1,0 +1,120 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 확인: 느린 쓰나미 발언, 일자리 40%, 세수 압박, 아시아 성장 효과(아이리시타임스·CNBC). 영국 재무장관 발언, 국채 매도, 세계 성장 3% 평가는 제목만으로 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 게오르기에바 총재가 10월 12일 방콕 IMF·세계은행 연차총회에서 AI가 반복 업무 수요를 줄이고 소득을 노동에서 자본으로 옮겨 세수를 압박할 수 있다며 '느린 쓰나미'라고 경고 [사실]",
+  "규모: IMF는 세계 일자리의 약 40%가 AI로 보완·격하·소멸될 것으로 보며, AI 도입이 아시아 선진국 성장률을 0.5~1%포인트, 신흥 아시아를 0.2~0.8%포인트 높일 수 있다고 봄 [사실]",
+  "부채: 영국 재무장관이 대형 경제국의 차입 통제를 촉구했고 선진국 국채 매도로 선진국 재정이 IMF의 관심 대상이 됨 [제목]",
+  "성장: IMF는 AI 투자가 세계 성장률을 3% 안팎으로 지탱하며 아시아가 큰 혜택을 본다고 평가 [제목]",
+  "기존: 10월 7일 총재가 유가 100달러 안팎의 에너지 충격, 2030년 전 GDP 100%를 넘을 공공부채, AI 실적 실망 위험이 겹쳤다며 재정 건전화를 촉구 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IMF 총재 \"AI는 느린 쓰나미\"…부채·선진국 국채 매도도 방콕 총회 화두",
+ "id": "n-bbg-0093",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "IMF 총재, 워시의 '물가 안정 우선' 칭찬…미·일 등에 부채 대응 촉구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "IMF 총재 '세계, AI·석유·부채의 위험 칵테일에 직면'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/world-faces-risk-cocktail-from-ai-oil-and-debt-says-imf-chief"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "IMF 총재, 에너지 충격·부채 증가·AI 위험이 세계 성장 위협한다고 경고",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-chief-warns-energy-shock-growing-debt-ai-risks-threaten-global-growth-2026-10-07/"
+  },
+  {
+   "t": "IMF 총재, AI가 일자리·세수에 미칠 '느린 쓰나미'에 경각심",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes"
+  },
+  {
+   "t": "영국 재무장관, IMF에서 대형 경제국에 차입 통제 촉구",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/uk/uk-finance-minister-call-big-economies-get-borrowing-under-control-imf-2026-10-11/"
+  },
+  {
+   "t": "IMF \"AI 생산성 향상이 아시아 고령화 문제 상쇄할 수 있어\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/"
+  },
+  {
+   "t": "선진국 국채 매도로 선진 경제가 IMF의 주목 대상에",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/rich-world-bond-selloff-puts-advanced-economies-in-imf-spotlight"
+  },
+  {
+   "t": "IMF \"AI 투자가 세계 성장 3% 안팎 지탱…아시아 혜택 커\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
+  }
+ ],
+ "key": "bbg-1007-imf-georgieva-praises-warsh",
+ "nodes": [
+  "macro/commodity",
+  "macro/fiscal",
+  "macro/growth",
+  "macro/rates"
+ ],
+ "num": 93,
+ "one": "게오르기에바 IMF 총재가 방콕 연차총회에서 AI를 일자리와 세수를 위협하는 '느린 쓰나미'로 규정하고 영국 재무장관이 주요국에 차입 통제를 촉구하면서, 고유가·고부채에 선진국 국채 매도까지 겹친 재정 위험이 회의의 핵심 의제로 떠올랐다",
+ "origTitle": "Fed’s Warsh Earns IMF Praise for Focusing on Price Stability",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T22:37:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Briefs(블룸버그TV 인용)",
+   "u": "https://www.briefs.co/news/imf-chief-cheers-fed-s-focus-on-price-stability-as-debt-worr/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Quartz",
+   "u": "https://qz.com/imf-georgieva-energy-ai-debt-global-growth-warning-100726"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Manila Times",
+   "u": "https://www.manilatimes.net/2026/10/08/business/top-business/energy-shock-debt-and-ai-risks-threaten-global-growth/2441223"
+  },
+  {
+   "o": "Irish Times",
+   "d": "2026-10-12",
+   "u": "https://www.irishtimes.com/business/work/2026/10/12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-12",
+   "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+  }
+ ],
+ "tags": [],
+ "title": "IMF 총재 \"AI는 느린 쓰나미\"…부채·선진국 국채 매도도 방콕 총회 화두",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-s-warsh-earns-imf-praise-for-focusing-on-price-stability"
+}

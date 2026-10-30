@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0520",
+ "num": 520,
+ "key": "split-G5-004-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/private-credit-shorts-rebound-as-bond-selloff-continues",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "채권 매도세 이어지자 사모신용 공매도 다시 늘어",
+ "headline": "채권 매도세 이어지자 사모신용 공매도 다시 늘어",
+ "one": "블룸버그가 10월 7일 채권 매도세가 이어지자 사모신용 관련 자산에 대한 공매도가 다시 늘고 있다고 전하면서, 금리 상승기에 사모신용 관련 자산의 가격 부담이 커질 수 있다는 경계가 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 7일 채권 매도세가 이어지면서 사모신용 공매도가 다시 늘었다고 전했다 [제목]",
+  "영향: 공매도 증가로 사모신용 관련 자산의 가격 부담이 커질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "채권 매도세 이어지자 사모신용 공매도 다시 늘어",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/private-credit-shorts-rebound-as-bond-selloff-continues"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "채권 매도세 속 사모신용 공매도 다시 증가"
+  }
+ ]
+}

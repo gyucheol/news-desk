@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0507",
+ "num": 507,
+ "key": "split-G4-139-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/healey-plans-short-term-uk-budget-giveaways-to-limit-fiscal-pain",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "힐리 재무장관, 재정 고통 줄일 단기 예산 지원책 계획",
+ "headline": "힐리 재무장관, 재정 고통 줄일 단기 예산 지원책 계획",
+ "one": "힐리 재무장관이 재정 고통을 줄이려 단기 예산 지원책을 준비하면서 10월 28일 예산안의 재정 신뢰도가 시험받을 수 있고, 생계비 지원 재원으로는 은행 부담금이 거론되고 있다",
+ "facts": [
+  "무엇이: 10월 11일 블룸버그는 힐리 재무장관이 재정 고통을 줄이려 단기 예산 지원책을 계획하고 있다고 전했다 [제목]",
+  "재원: 생계비 지원 재원으로는 은행 부담금이 거론됐다 [사실]",
+  "제약: FT는 이란 전쟁이 영국 재정에 약 120억 파운드 구멍을 냈다고 추산했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 1건, 지원책 계획은 제목 기준. 원 문서 확인 기록상 은행 부담금 방안은 검색 결과 요약으로 확인(출처 목록의 City AM)",
+ "src": [
+  {
+   "o": "City AM",
+   "d": "2026-10",
+   "u": "https://www.cityam.com/uk-bank-bosses-and-john-healey-set-for-tax-showdown/"
+  }
+ ],
+ "items": [
+  {
+   "t": "힐리, 재정 고통 줄이려 단기 예산 지원책 계획",
+   "o": "블룸버그",
+   "d": "2026-10-11",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/healey-plans-short-term-uk-budget-giveaways-to-limit-fiscal-pain"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "힐리, 재정 고통 덜 단기 예산 지원책 계획"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0617",
+ "num": 617,
+ "key": "mix-G1-033-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:23:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/amazon-to-hire-over-300-000-in-holiday-season-up-20-from-2025",
+ "origTitle": "",
+ "headline": "아마존, 연말 30만 명 이상 채용…2025년보다 20% 늘려 3년 만에 첫 증가",
+ "src": [
+  {
+   "o": "About Amazon",
+   "d": "2026-10-20",
+   "u": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-20",
+   "u": "https://qz.com/amazon-holiday-hiring-300000-workers-seasonal-healthcare-102026"
+  }
+ ],
+ "items": [
+  {
+   "t": "아마존, 연말 30만 명 이상 채용…2025년보다 20% 증가",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/amazon-to-hire-over-300-000-in-holiday-season-up-20-from-2025",
+   "s": "아마존이 연말 성수기 채용을 30만 명 이상으로 2025년보다 20% 늘리면서, 연말 물류 인력 수요가 커졌다"
+  },
+  {
+   "t": "아마존, 연말 30만 명 넘게 채용…3년 만에 첫 증가",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+   "s": "아마존이 3년 만에 처음 연말 채용을 늘려 30만 명 넘게 뽑기로 하면서, 계절직 평균 시급 20달러와 의료보험 혜택도 내걸었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "아마존, 연말 30만 명 이상 채용…2025년보다 20% 늘려 3년 만에 첫 증가",
+ "one": "아마존이 연말 성수기를 앞두고 미국에서 30만 명 이상을 채용한다고 밝혔다\n· 채용 규모는 2025년 계획 25만 명보다 20% 많아 3년 만에 처음 늘었다\n· 계절직 시급은 평균 20달러이고 정규 운영직 평균 시급은 약 24달러다\n· 주 30시간 이상 일한 계절직에는 2027년 1월 1일부터 의료보험을 준다",
+ "facts": [
+  "무엇이: 아마존은 20일 미국에서 계절직·시간제·정규직 30만 명 이상을 채용한다고 발표했다 [사실]",
+  "규모: 2025년 계획 25만 명보다 약 20% 많고, 3년 만에 처음 늘어난 연말 채용이다 [사실]",
+  "임금: 계절직 평균 시급은 20달러, 정규 운영직은 최저 20달러·평균 약 24달러다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아마존 발표문과 보도로 30만 명 이상·20% 증가·시급 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "아마존 연말 채용 30만 명 이상으로 20% 증가"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

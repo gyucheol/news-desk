@@ -1,0 +1,94 @@
+{
+ "basis": "verified",
+ "check": "협상 결렬과 CEO 이견, 220억 달러 가치는 검색 결과 요약(FT 인용 보도)으로 확인. 기존 실적 사실은 기존 문서 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 스미스앤드네퓨와 J&J 정형외과 사업부(디퓨이 신테스)의 합병 협상이 통합 회사 CEO 문제로 결렬됐다고 FT가 보도했다 [사실]",
+  "결렬 이유: 양측은 핵심 재무 조건과 구조에 합의했지만 J&J는 전 스미스앤드네퓨 CEO 나말 나와나를, 스미스앤드네퓨는 현 CEO 딥팍 나스를 원했다 [사실]",
+  "규모: J&J 정형외과 사업은 최대 220억 달러로 평가돼 스미스앤드네퓨 시가총액(약 94억 파운드)의 두 배 가까이였다 [사실]",
+  "J&J 3분기: 매출은 5.9% 늘어난 253억 9,900만 달러, 조정 EPS는 2.59달러로 예상을 넘고 연간 전망을 올렸지만, 메드테크 매출은 2.5% 늘어난 약 86억 4,000만 달러로 예상(87억 1,000만 달러)에 못 미쳤고 주가는 떨어졌다 [사실]",
+  "정형외과: 정형외과 매출은 23억 5,000만 달러로 3.2% 늘었고, J&J는 의료기기 매출 실망 속 디퓨이 신테스 분사 쪽으로 기울어 있었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "J&J 정형외과 분사 추진 속 스미스앤드네퓨 합병 협상, CEO 문제로 결렬…사업 가치 최대 220억 달러",
+ "id": "n-bbg-0299",
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{J&J}}의 {{의료기기 매출}}이 {{2.5% 증가}}에 그쳐 {{예상을 밑돌}}면서 {{회사}}가 {{정형외과 사업 분사}} 쪽으로 {{기울}}어 {{의료기기 부문 재편}}에 {{무게}}가 실렸다",
+   "t": "J&J, 의료기기 매출 실망 속 정형외과 분사 쪽으로 기울어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/j-j-lifts-earnings-outlook-after-jump-in-quarterly-drug-sales"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{J&J}}가 {{조정 EPS 2.59달러}}로 {{예상을 넘었}}지만 {{중동 분쟁}}이 {{의료기기 매출}}을 {{눌러}} {{메드테크 매출}}이 {{예상}}(87억 1,000만 달러)에 {{못 미쳤}}다",
+   "t": "J&J, 이익 예상 웃돌았지만 중동 분쟁에 의료기기 매출 타격",
+   "u": "https://www.reuters.com/legal/litigation/jj-beats-earnings-estimates-middle-east-conflict-weighs-medical-device-sales-2026-10-13/"
+  },
+  {
+   "t": "스미스앤드네퓨-J&J 정형외과 합병 협상, CEO 문제로 결렬(FT)",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/transactional/smith-nephew-merger-talks-with-jj-orthopaedics-unit-collapse-over-ceo-role-ft-2026-10-23/",
+   "s": "스미스앤드네퓨와 J&J 정형외과 사업부의 합병 협상이 통합 회사 CEO 자리를 두고 결렬되면서, 최대 220억 달러로 평가된 정형외과 사업의 진로가 다시 불투명해졌다",
+   "d": "2026-10-23"
+  }
+ ],
+ "key": "mix-C010-2026-10-14",
+ "nodes": [],
+ "num": 299,
+ "one": "의료기기 부진 속 정형외과 분사를 추진하던 J&J와 스미스앤드네퓨의 합병 협상이 CEO 문제로 깨졌다\n· J&J는 3분기 조정 EPS 2.59달러로 예상을 넘었지만 의료기기 매출은 2.5% 증가에 그쳤다\n· 메드테크 매출은 약 86억 4,000만 달러로 예상 87억 1,000만 달러에 못 미쳤고 주가는 떨어졌다\n· FT에 따르면 양측은 핵심 재무 조건에 합의했지만 통합 회사 CEO를 두고 갈라섰다\n· J&J 정형외과 사업 가치는 최대 220억 달러로 스미스앤드네퓨 시가총액의 두 배 가까이였다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "J&J 투자자 공시",
+   "u": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "MedTech Dive",
+   "u": "https://www.medtechdive.com/news/jjs-medtech-business-slows-again-in-q3/832861/"
+  },
+  {
+   "o": "Euronext",
+   "d": "2026-10-23",
+   "u": "https://live.euronext.com/en/financial-news/smith-nephew-merger-talks-jj-orthopaedics-unit-collapse-over-ceo-role-ft-reports"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-23",
+   "u": "https://finimize.com/content/smith-nephew-and-jj-let-a-22-billion-deal-slip"
+  }
+ ],
+ "tags": [],
+ "title": "J&J 정형외과 분사 추진 속 스미스앤드네퓨 합병 협상, CEO 문제로 결렬…사업 가치 최대 220억 달러",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/j-j-lifts-earnings-outlook-after-jump-in-quarterly-drug-sales",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "medtech",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "스미스앤드네퓨·J&J 정형외과 합병 무산"
+  }
+ ],
+ "added": "로이터 1건 — 스미스앤드네퓨와 J&J 정형외과의 합병 협상이 CEO 문제로 결렬, 사업 가치 최대 220억 달러 내용이 추가됨"
+}

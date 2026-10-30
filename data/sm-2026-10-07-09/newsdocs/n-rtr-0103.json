@@ -1,0 +1,39 @@
+{
+ "id": "n-rtr-0103",
+ "num": 103,
+ "key": "bnd-C253-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T20:26:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/italy-launches-eu-backed-probe-into-microsoft-owned-gaming-companies-2026-10-08/",
+ "origTitle": "",
+ "headline": "이탈리아, EU 지원 받아 마이크로소프트 게임 자회사 조사 착수",
+ "src": [],
+ "items": [
+  {
+   "t": "이탈리아, EU 지원 속 마이크로소프트 소유 게임사 조사 착수",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/legal/litigation/italy-launches-eu-backed-probe-into-microsoft-owned-gaming-companies-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "이탈리아, EU 지원 받아 마이크로소프트 게임 자회사 조사 착수",
+ "one": "이탈리아 당국이 EU의 지원을 받아 마이크로소프트가 소유한 게임 회사들에 대한 조사에 나서면서, 마이크로소프트 게임 사업이 유럽에서 새로운 규제 위험을 안게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 이탈리아가 EU 지원 아래 마이크로소프트 소유 게임 회사들을 조사하기 시작했다 [제목]",
+  "의미: 마이크로소프트 게임 사업이 유럽에서 추가 규제 위험을 안게 됐다 [추론]",
+  "남은 점: 조사 대상 회사와 혐의 내용은 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 소진으로 독립 출처 확인 못 함. 기사 제목만 근거",
+ "inds": [
+  "tech"
+ ],
+ "nodes": []
+}

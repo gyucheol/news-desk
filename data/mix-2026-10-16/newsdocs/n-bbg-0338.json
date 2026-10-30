@@ -1,0 +1,95 @@
+{
+ "id": "n-bbg-0338",
+ "num": 338,
+ "key": "mix-G1-018-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T17:43:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+ "origTitle": "",
+ "headline": "대만, 대중 AI 칩 수출 통제 강화…중국도 AI·바이오·태양광 기술 40개 통제 추진",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-16",
+   "u": "https://cryptobriefing.com/taiwan-curbs-ai-chip-exports-china/"
+  },
+  {
+   "o": "Startup Fortune",
+   "d": "2026-10-16",
+   "u": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/"
+  },
+  {
+   "o": "MLex",
+   "d": "2026-10-16",
+   "u": "https://www.mlex.com/mlex/trade/articles/2538790"
+  }
+ ],
+ "items": [
+  {
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 칩 수출 억제",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+   "s": "대만이 미국과의 무역협정 약속의 하나로 AI 칩의 대중 수출을 억제하기로 하면서, 대만산 첨단 칩이 중국으로 흘러가는 길이 좁아질 전망이다"
+  },
+  {
+   "t": "대만, AI 서버·첨단 칩 통제 품목 추가…무단 대중 선적 형사 처벌",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-16",
+   "u": "https://t.me/HANAchina/70519",
+   "s": "대만이 첨단 칩의 중국 밀수를 막으려는 트럼프 행정부 단속에 동참해 AI 서버와 첨단 반도체를 통제 품목에 넣으면서, 무단 대중 선적이 형사 처벌 대상이 된다"
+  },
+  {
+   "t": "중국, AI·바이오·태양광 기술 40개 수출 통제 목록 추가 제안",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+   "s": "중국이 AI·바이오의약·태양광 기술 40개를 수출 금지·제한 목록에 넣자고 제안하면서, 11월 15일까지 의견을 받는 동안 등록 의무가 곧바로 시행된다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/geo"
+ ],
+ "ind": "semis",
+ "title": "대만, 대중 AI 칩 수출 통제 강화…중국도 AI·바이오·태양광 기술 40개 통제 추진",
+ "one": "대만이 미국과의 무역협정에 따라 AI 서버·첨단 반도체를 통제 품목에 넣어 무단 대중 반출을 형사 처벌하기로 하고 중국도 AI·바이오·태양광 기술 40개를 수출 통제 목록에 넣자고 제안하면서, 첨단 기술 교역의 문턱이 양쪽에서 높아지고 있다",
+ "facts": [
+  "무엇이: 대만 경제부 장관은 AI 서버와 첨단 반도체를 통제 품목에 넣겠다고 확인했고, 시행되면 제한된 하드웨어를 무단으로 중국에 보내는 것은 대외무역법상 범죄가 된다 [사실]",
+  "배경: 이번 조치는 미국과의 상호무역협정 약속에 따른 것이며, 부처 간 조율 단계로 아직 법제화되지 않았다 [사실]",
+  "범위: 대만은 통제 대상을 명단에 오른 기업에서 모든 중국 구매자로 넓힐 계획이다 [사실]",
+  "중국: 중국 당국은 AI·바이오의약·태양광 기술 40개를 수출 금지·제한 기술 목록에 넣자고 제안했고, 의견 수렴은 11월 15일까지이며 공개된 AI 기술은 제외된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "대만 통제 계획은 Crypto Briefing·Startup Fortune, 중국 40개 기술 제안은 MLex 검색 결과 요약으로 확인",
+ "added": "이번 로이터 1건으로 중국이 AI·바이오·태양광 기술 40개를 수출 통제 목록에 넣자고 제안하고 11월 15일까지 의견을 받는다는 사실이 추가됐다",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "대만, AI 서버·첨단 칩 대중 수출 통제 추진"
+  },
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국, AI·바이오·태양광 기술 40개 수출 통제 제안"
+  }
+ ],
+ "updatedAt": "2026-10-16T18:17:05+09:00"
+}

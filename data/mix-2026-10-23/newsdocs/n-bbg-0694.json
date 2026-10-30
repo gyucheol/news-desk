@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0694",
+ "num": 694,
+ "key": "mix-G2-083-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T17:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/uk-makes-quiet-shift-to-prepare-for-supply-chain-shortages",
+ "origTitle": "",
+ "headline": "영국, 공급망·사이버 충격 대비 가정에 '3일치 물·식량' 비상물자 준비 권고",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-23",
+   "u": "https://www.thenationalnews.com/news/uk/2026/10/23/uk-government-advises-stockpiling-water-and-food/"
+  },
+  {
+   "o": "IBTimes UK",
+   "d": "2026-10-23",
+   "u": "https://www.ibtimes.co.uk/uk-households-prepare-three-days-disruption-1827455"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국, 공급 부족 대비 국민에 비상물자 비축 조용히 권고",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/uk-makes-quiet-shift-to-prepare-for-supply-chain-shortages"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "영국, 공급망·사이버 충격 대비 가정에 '3일치 물·식량' 비상물자 준비 권고",
+ "one": "영국 정부가 공급망 충격 등 비상 상황에 대비해 가정에 3일치 비상물자를 갖추라고 권고했다\n· 1인당 하루 3리터의 식수와 조리가 필요 없는 식량, 손전등·라디오·현금 등을 갖추라고 했다\n· 스트리팅 국방장관은 적대 국가나 테러가 공급망을 위협할 수 있다며 경계하되 불안해하지 말라고 했다",
+ "facts": [
+  "무엇이: 영국 정부는 10월 22일 'Be Ready' 캠페인을 시작해 가정에 3일간의 차질에 대비한 물·식량 준비를 권고했다 [사실]",
+  "내용: 1인당 하루 3리터 식수, 냉장·조리가 필요 없는 식량, 손전등·라디오·보조배터리·현금·상비약을 평소 장보기 때 조금씩 갖추라고 했다 [사실]",
+  "이유: 악천후와 전력·수도·통신 차질에 더해, 웨스 스트리팅 국방장관은 적대 국가나 테러가 공급망을 위협할 수 있다고 했다 [사실]",
+  "성격: 명령이 아닌 권고이며 3년 캠페인의 첫 단계로, 실제 품귀가 시작됐다는 근거는 아니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Be Ready 캠페인 권고 내용은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "영국, 공급망 충격 대비 3일치 비상물자 권고"
+  }
+ ]
+}

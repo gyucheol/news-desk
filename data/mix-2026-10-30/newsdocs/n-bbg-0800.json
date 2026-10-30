@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0800",
+ "num": 800,
+ "key": "mix-G1-042-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:55:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/hello-kitty-owner-sanrio-axes-japan-show-ties-after-china-furor",
+ "origTitle": "",
+ "headline": "헬로키티 산리오, 중국 반발에 일본 첩보 드라마 '비반트' 협업 철회·사과",
+ "src": [
+  {
+   "o": "NBC News",
+   "d": "2026-10-29",
+   "u": "https://www.nbcnews.com/world/asia/hello-kitty-maker-sanrio-cuts-ties-tv-spy-show-china-backlash-rcna606285"
+  },
+  {
+   "o": "France 24(AFP)",
+   "d": "2026-10-29",
+   "u": "https://www.france24.com/en/live-news/20261029-hello-kitty-firm-apologises-scraps-japan-tv-tie-up-after-china-anger"
+  }
+ ],
+ "items": [
+  {
+   "t": "헬로키티 소유사, 중국 반발에 일본 드라마 협업 철회",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/hello-kitty-owner-sanrio-axes-japan-show-ties-after-china-furor"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "헬로키티 산리오, 중국 반발에 일본 첩보 드라마 '비반트' 협업 철회·사과",
+ "one": "헬로키티 소유사 산리오가 중국 반발에 일본 TBS 드라마 '비반트'와의 상품 협업을 철회했다\n· 중국 비판론자들은 드라마가 중국 요원이 일본 요원을 고문하는 장면으로 진실을 왜곡한다고 했다\n· 산리오는 1분기 중국 매출이 98억 엔으로 25% 가까이 늘 만큼 중국 의존도가 높다",
+ "facts": [
+  "무엇이: 산리오 중국 자회사가 TBS 첩보 드라마 '비반트'와의 상품 협업과 이후 판촉을 모두 중단한다고 밝혔다 [사실]",
+  "대응: 산리오는 협업에 그룹 철학과 맞지 않는 표현이 있었다고 사과하고 협업 검토 절차를 강화하겠다고 했다 [사실]",
+  "배경: 다카이치 총리의 대만 발언 이후 중일 긴장이 이어지는 가운데 나온 일로, TBS는 드라마가 완전한 허구라고 밝혔다 [사실]",
+  "중국 매출: 산리오의 1분기 중국 매출은 98억 엔으로 전년보다 25% 가까이 늘었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "NBC·France24 검색 결과 요약으로 비반트 협업 철회·사과·중국 매출 98억 엔 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국 반발로 산리오 일본 드라마 협업 철회"
+  }
+ ]
+}

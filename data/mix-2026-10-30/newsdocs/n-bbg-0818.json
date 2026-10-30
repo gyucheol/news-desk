@@ -1,0 +1,90 @@
+{
+ "id": "n-bbg-0818",
+ "num": 818,
+ "key": "mix-G2-015-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T04:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/utah-files-criminal-charges-against-prediction-market-kalshi",
+ "origTitle": "",
+ "headline": "예측시장 규제·사고 잇따라…유타주 칼시 형사 기소·SEC 시세조종 점검·폴리마켓 거래 중단",
+ "src": [
+  {
+   "o": "Deseret News",
+   "d": "2026-10-28",
+   "u": "https://www.deseret.com/sports/2026/10/28/utah-files-criminal-charges-kalshi-illegal-gambling-promotion-cftc-sues-utah-block-laws/"
+  },
+  {
+   "o": "NBC News",
+   "d": "2026-10-29",
+   "u": "https://www.nbcnews.com/business/business-news/utah-charges-kalshi-founders-escalating-fight-can-regulate-prediction-rcna606303"
+  },
+  {
+   "o": "Prediction News",
+   "d": "2026-10-29",
+   "u": "https://predictionnews.com/story/sec-eyes-manipulation-and-insider-risk-in-prediction-markets-c47649b2"
+  }
+ ],
+ "items": [
+  {
+   "t": "유타주, 예측시장 업체 칼시를 형사 기소…불법 도박 혐의",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/utah-files-criminal-charges-against-prediction-market-kalshi",
+   "s": "유타주가 칼시와 공동창업자를 온라인 도박 홍보 혐의로 형사 기소하면서 예측시장 관할을 둘러싼 주와 연방의 충돌이 커졌다"
+  },
+  {
+   "t": "폴리마켓, 이스라엘 총선 관련 의심 거래 조사 착수",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/polymarket-investigating-suspicious-trades-on-israeli-election",
+   "s": "폴리마켓이 이스라엘 총선 관련 의심 거래를 조사하면서 선거 예측시장의 내부자 거래 위험이 다시 부각됐다 (제목 기준)"
+  },
+  {
+   "t": "SEC, 예측시장의 시세조종·내부자 거래 위험 주시",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/sec-eyes-manipulation-insider-risk-in-prediction-markets",
+   "s": "SEC 집행국장이 예측시장의 시세조종과 내부자 거래 위험을 감시한다고 밝히면서 CFTC에 이어 증권 당국도 감독에 나섰다"
+  },
+  {
+   "t": "폴리마켓, 고객 자금 도난 보도 뒤 거래 중단",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/polymarket-halts-trading-after-reports-of-customers-losing-money",
+   "s": "폴리마켓이 고객 자금 도난 보도 뒤 외부 협력업체 침해를 이유로 국제 플랫폼 거래를 일시 중단하면서 이용자 자금 안전 우려가 커졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "예측시장 규제·사고 잇따라…유타주 칼시 형사 기소·SEC 시세조종 점검·폴리마켓 거래 중단",
+ "one": "미국 예측시장에서 주 정부의 형사 기소와 SEC 감시, 폴리마켓 거래 중단이 하루 사이 잇따랐다\n· 유타주는 칼시와 공동창업자 2명을 온라인 도박 홍보 12건 등의 혐의로 형사 기소했다\n· CFTC는 유타주의 도박 금지법 집행을 막으려고 주 정부를 상대로 소송을 냈다\n· SEC 집행국장은 예측시장의 시세조종과 내부자 거래 위험을 감시하고 있다고 밝혔다\n· 폴리마켓은 이스라엘 총선 관련 의심 거래를 조사하고 있다\n· 폴리마켓은 고객 자금 도난 보도 뒤 외부 협력업체 침해를 이유로 국제 플랫폼 거래를 일시 중단했다",
+ "facts": [
+  "무엇이: 유타주는 제3지방법원에 칼시엑스를 불법 활동 패턴, 온라인 도박 홍보 12건, 경범죄 1건 혐의로 기소했고, 타렉 만수르 CEO와 루아나 로페스 라라 COO를 공동 피고로 올렸다(위장 수사관이 스포츠 베팅 12건을 함) [사실]",
+  "연방 대응: CFTC는 유타주의 도박 금지법 집행을 막는 소송을 냈고, 칼시는 기소를 '터무니없는 월권'이라고 했다 [사실]",
+  "SEC: SEC 집행국장은 예측시장의 시세조종과 내부자 거래 위험을 CFTC와 함께 감시하고 있다고 했다 [사실]",
+  "폴리마켓 중단: 폴리마켓은 제3자 협력업체가 침해돼 국제 플랫폼 거래를 일시 중단했고 문제를 고쳐 수사기관에 넘겼다고 했지만, 도난 액수는 확인되지 않았다 [사실]",
+  "이스라엘 총선: 폴리마켓이 이스라엘 총선 관련 의심 거래를 조사하고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 유타주 칼시 기소·SEC 감시·폴리마켓 일시 중단 확인. 자금 도난 규모와 이스라엘 총선 의심 거래는 확인 못 함",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "폴리마켓 국제 플랫폼 거래 일시 중단"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0324",
+ "num": 324,
+ "key": "mix-G2-041-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:46:00+09:00",
+ "url": "https://www.reuters.com/business/india-sets-windfall-tax-petrol-exports-25-rupees-per-litre-2026-10-15/",
+ "origTitle": "",
+ "headline": "인도, 휘발유 수출 횡재세 리터당 2.5루피로 인상…경유는 8.5루피로 인하",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-15",
+   "u": "https://www.newsquawk.com/headlines/india-order-sets-windfall-tax-on-diesel-exports-at-85-rupeeslitre-sets-windfall-tax-on-petrol-exports-at-25-rupeeslitre-both-orders-effective-october-16th"
+  },
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-15",
+   "u": "https://www.whalesbook.com/news/English/energy/Govt-Cuts-Diesel-Export-Tax-to-indian-rupee85-Hikes-Petrol-to-indian-rupee25/6ad11a3579a16deaeaf354e1"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도, 휘발유 수출에 리터당 2.5루피 횡재세 부과",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/india-sets-windfall-tax-petrol-exports-25-rupees-per-litre-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "인도, 휘발유 수출 횡재세 리터당 2.5루피로 인상…경유는 8.5루피로 인하",
+ "one": "인도 정부가 10월 16일부터 휘발유 수출 횡재세를 리터당 2.5루피로 올리고 경유 수출세는 16루피에서 8.5루피로 낮추면서, 인도 정유사의 경유 수출 부담은 줄고 휘발유 수출 부담은 늘어난다",
+ "facts": [
+  "무엇이: 인도 간접세·관세위원회(CBIC) 고시에 따라 휘발유 수출 횡재세가 리터당 2.5루피로 오르고 경유는 16루피에서 8.5루피로 내려 10월 16일 시행됩니다 [사실]",
+  "배경: 직전 15일 원유값 흐름에 맞춰 2주마다 수출세를 조정하는 정례 점검이며, 수출세는 서아시아 분쟁 속 국내 재고를 지키려 3월 27일 처음 도입됐습니다 [사실]",
+  "내수: 국내에서 파는 휘발유·경유의 소비세는 바뀌지 않았습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 휘발유 2.5루피·경유 8.5루피, 10월 16일 시행 확인. 로이터 주소의 '25 rupees'는 소수점이 빠진 2.5루피",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "실제",
+   "t": "휘발유 수출세 2.5루피로 인상, 경유는 8.5루피로 인하"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0512",
+ "num": 512,
+ "key": "split-G4-111-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:12:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/frances-unrest-lays-bare-slow-agony-macrons-twilight-months-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "佛 소요가 드러낸 마크롱 임기 말 국정 장악력 약화",
+ "headline": "佛 소요가 드러낸 마크롱 임기 말 국정 장악력 약화",
+ "one": "프랑스 전국 시위와 폭동이 임기 말 마크롱 정부의 국정 장악력 약화를 드러내면서, 예산이 빈 상태에서 남은 임기 동안 개혁과 예산 추진이 더 어려워질 수 있다는 분석이 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 프랑스 소요 사태가 임기 말 마크롱 정부의 느린 고통을 드러냈다고 짚었다 [제목]",
+  "배경: 토요일 전국 110개 행진에 약 55만 명이 참여해 약 2,400명이 체포됐다 [사실]",
+  "전망: 예산이 빈 상태에서 시위가 이어지고 있어 남은 임기 동안 개혁·예산 추진이 더 어려워질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 분석 기사 1건. 원 문서 확인 기록에 이 분석 부분이 없어 기사 요약 기준이며, 배경의 시위 규모만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 소요가 드러낸 마크롱 임기 말의 느린 고통",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/frances-unrest-lays-bare-slow-agony-macrons-twilight-months-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "임기 말 국정 장악력 약화로 예산 추진 난항 우려"
+  }
+ ]
+}

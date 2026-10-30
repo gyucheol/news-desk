@@ -1,0 +1,88 @@
+{
+ "id": "n-rtr-0715",
+ "num": 715,
+ "key": "mix-G2-022-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T09:42:00+09:00",
+ "url": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/",
+ "origTitle": "",
+ "headline": "AI 반발 확산…METR '오픈AI 감시 결함'·플로리다 SNS AI 제한 법안·호주 700억 달러 데이터센터 차질",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-23",
+   "u": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-23",
+   "u": "https://www.business-standard.com/amp/world-news/ai-data-centre-backlash-threatens-australia-s-70-billion-investment-boom-126102300178_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 안전단체 METR, 오픈AI 내부 감시 시스템 결함 발견",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/",
+   "s": "METR가 오픈AI 내부 감시 시스템에서 에이전트 행동 수백 건을 감시망 밖으로 빼낼 수 있는 결함을 찾으면서, AI 에이전트 통제의 허점이 드러났다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "앤트로픽·오픈AI·머스크, AI 반발 속 기부 약속",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-22/anthropic-openai-musk-pledge-donations-amid-ai-backlash",
+   "s": "앤트로픽·오픈AI·머스크가 커지는 AI 반발 속에 기부를 약속하면서, AI 기업들이 여론 달래기에 나섰다 (제목 기준)",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "AI 데이터센터 반발, 호주 700억 달러 구상 위협",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/ai-data-center-backlash-threatens-australia-s-70-billion-dream",
+   "s": "호주 대형 데이터센터 40여 곳 중 23%만 전력 연결을 확인한 가운데 주민 반발이 커지면서, 약 700억 달러 규모 AI 데이터센터 구상이 흔들렸다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "플로리다 법무장관, SNS AI 기능 제한 법안 제안",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/government/florida-attorney-general-proposes-bill-that-limits-social-media-ai-features-2026-10-22/",
+   "s": "플로리다 법무장관이 SNS의 AI 기능을 제한하는 법안을 제안하면서, 미국 주 차원의 AI 규제 움직임이 하나 더 늘었다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "AI 반발 확산…METR '오픈AI 감시 결함'·플로리다 SNS AI 제한 법안·호주 700억 달러 데이터센터 차질",
+ "one": "AI 안전 결함과 지역 반발, 규제 움직임이 겹치면서 AI 업계를 둘러싼 반발이 커졌다\n· METR·레드우드는 3주 시험에서 오픈AI 내부 감시 시스템의 새 취약점을 찾아냈다\n· 한 취약점은 최근 에이전트 행동 수백 건을 감시에서 빼낼 수 있었고, 오픈AI는 고쳤다고 밝혔다\n· 앤트로픽·오픈AI·머스크는 AI 반발 속에 기부를 약속했다\n· 플로리다 법무장관은 SNS의 AI 기능을 제한하는 법안을 제안했다\n· 약 700억 달러 규모 호주 대형 데이터센터 40여 곳 중 전력 연결을 확인한 곳은 23%뿐이다",
+ "facts": [
+  "무엇이: METR와 레드우드 리서치는 7월 21일~8월 11일 시험에서 오픈AI 내부 감시 시스템의 취약점을 찾았고, 오픈AI는 운영 안전장치 문제를 고쳤다고 했지만 평가기관은 검증하지 않았다 [사실]",
+  "기부: 앤트로픽·오픈AI·머스크가 AI 반발 속에 기부를 약속했다 [제목]",
+  "규제: 플로리다 법무장관은 SNS의 AI 기능을 제한하는 법안을 제안했다 [제목]",
+  "호주: 시드니·멜버른에 계획·건설 중인 대형 데이터센터 40여 곳(약 1,000억 호주달러, 약 700억 달러) 중 전력 연결을 공개 확인한 곳은 23%이고, 한 개발사는 12억 호주달러 사업을 접었다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "METR 평가와 호주 데이터센터 반발은 검색 결과 요약으로 확인. 기부 약속과 플로리다 법안 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "datacenter",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "주민 반발에 호주 AI 데이터센터 사업 차질 우려"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

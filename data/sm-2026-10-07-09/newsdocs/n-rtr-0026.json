@@ -1,0 +1,78 @@
+{
+ "id": "n-rtr-0026",
+ "num": 26,
+ "key": "bnd-C031-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T22:58:00+09:00",
+ "url": "https://www.reuters.com/world/russia-says-tanker-crew-rescued-black-sea-after-attack-set-ship-ablaze-2026-10-06/",
+ "origTitle": "",
+ "headline": "흑해 상선 공격 잇따라…소치 앞 유조선 화재, 인도행 해바라기유 차질",
+ "src": [
+  {
+   "o": "ABC News",
+   "d": "2026-10-07",
+   "u": "https://www.abc.net.au/news/2026-10-07/oil-tanker-attack-in-black-sea-off-sochi-sparks-giant-fire/107238536"
+  },
+  {
+   "o": "Semafor",
+   "d": "2026-10-06",
+   "u": "https://www.semafor.com/article/10/06/2026/bulgarian-tankers-struck-in-black-sea-as-shipping-fears-mount"
+  }
+ ],
+ "items": [
+  {
+   "t": "러시아 \"흑해서 공격받아 불탄 유조선 선원 구조\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/russia-says-tanker-crew-rescued-black-sea-after-attack-set-ship-ablaze-2026-10-06/"
+  },
+  {
+   "t": "상선 공격 재개되자 인도, 흑해 운항 합의 모색",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-seeks-black-sea-deal-as-merchant-ships-face-fresh-attacks"
+  },
+  {
+   "t": "전쟁이 러시아 수출 막아 인도행 해바라기유 화물 취소·지연 위기",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/india-bound-sunflower-oil-cargoes-face-cancellation-delays-war-disrupts-russian-2026-10-07/"
+  },
+  {
+   "t": "튀르키예 \"러·우크라, 겨울 앞두고 흑해 공격 늘려\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/turkey-says-russia-ukraine-increasing-attacks-black-sea-ahead-winter-2026-10-08/"
+  },
+  {
+   "t": "시리아, 흑해 선박 침몰에 독립 조사 요구",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/syria-calls-independent-probe-into-sinking-ship-black-sea-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "흑해 상선 공격 잇따라…소치 앞 유조선 화재, 인도행 해바라기유 차질",
+ "one": "러시아와 우크라이나가 겨울을 앞두고 흑해 상선 공격을 늘리면서 소치 앞바다에서 인도인 선원 23명이 탄 유조선이 무인정 공격에 불타고 불가리아 수역에서도 유조선이 침몰해, 인도행 해바라기유 화물이 취소·지연되는 등 흑해 해상 물류 차질이 커지고 있다",
+ "facts": [
+  "무엇이: 라이베리아 선적 유조선 아프라맥스 리오호가 10월 6일 소치 앞에서 무인정 공격으로 화재, 인도인 선원 23명 전원 구조 [사실]",
+  "확산: 같은 날 불가리아 배타적경제수역에서 유조선 2척 피격, 토고 선적 알파 와탄호 침몰 [사실]",
+  "반응: 인도는 흑해 운항 합의를 모색, 튀르키예는 양국 공격이 늘고 있다고 언급, 시리아는 침몰 선박 독립 조사 요구 [제목]",
+  "교역: 인도행 러시아산 해바라기유 화물이 취소·지연 위기 [제목]"
+ ],
+ "basis": "partial",
+ "check": "리오호 피격·불가리아 수역 유조선 침몰은 검색 결과 요약으로 확인. 해바라기유 차질, 튀르키예·시리아 발언은 확인 못 함(제목 근거)",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

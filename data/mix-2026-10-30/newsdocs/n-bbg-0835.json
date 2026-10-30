@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0835",
+ "num": 835,
+ "key": "mix-G2-061-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:05:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/ontario-delays-balancing-books-again-as-economic-growth-slows",
+ "origTitle": "",
+ "headline": "온타리오, 성장 둔화에 균형재정 2029~30년으로 또 연기…올해 적자 169억 캐나다달러",
+ "src": [
+  {
+   "o": "CP24",
+   "d": "2026-10-29",
+   "u": "https://www.cp24.com/politics/queens-park/2026/10/29/ontario-deficit-grows-to-169-billion-as-trade-war-with-us-drags-on/"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-10-29",
+   "u": "https://www.cbc.ca/news/canada/toronto/ontario-fall-mini-budget-deficit-9.7401193"
+  }
+ ],
+ "items": [
+  {
+   "t": "온타리오, 경제 성장 둔화에 균형재정 또 연기",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/ontario-delays-balancing-books-again-as-economic-growth-slows"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "온타리오, 성장 둔화에 균형재정 2029~30년으로 또 연기…올해 적자 169억 캐나다달러",
+ "one": "캐나다 온타리오주가 성장 둔화와 미국 관세 여파로 균형재정 달성 시점을 또 1년 미뤘다\n· 2026~27회계연도 적자 전망은 169억 캐나다달러로 봄 예산의 138억 캐나다달러보다 커졌다\n· 균형재정 목표는 2028~29년에서 2029~30년으로 밀렸고 2024년 이후 네 번째 연기다",
+ "facts": [
+  "무엇이: 온타리오주는 10월 29일 가을 경제성명에서 2026~27회계연도 적자 전망을 169억 캐나다달러(3월 예산 138억)로 늘렸고, 예비비를 38억 캐나다달러 더 쌓았다 [사실]",
+  "경로: 적자는 2027~28년 127억, 2028~29년 67억 캐나다달러로 줄고 2029~30년 2억 캐나다달러 흑자로 돌아서는 계획이며, 균형 목표 연기는 2024년 이후 네 번째다 [사실]",
+  "원인: 정부는 미국 관세와 이란 전쟁에 따른 불확실성을 들었고, 부동산 양도세 수입은 32.8억 캐나다달러로 예산보다 4.97억 캐나다달러 적을 전망이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(CP24·CBC 등)으로 적자 169억 캐나다달러·균형재정 2029~30년 연기 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "온타리오 적자 169억 캐나다달러로 확대"
+  }
+ ]
+}

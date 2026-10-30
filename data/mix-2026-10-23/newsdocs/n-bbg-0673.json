@@ -1,0 +1,87 @@
+{
+ "id": "n-bbg-0673",
+ "num": 673,
+ "key": "mix-G2-021-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:28:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/deepseek-minimax-win-approval-for-global-use-state-media-says",
+ "origTitle": "",
+ "headline": "중국 AI 해외로…딥시크·미니맥스 해외 사용 승인·딥시크 오픈소스 공개, 일자리 대체 완화 지시",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-23",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/23/deepseek-minimax-win-approval-for-global-use-state-media-says"
+  },
+  {
+   "o": "Analytics Insight",
+   "d": "2026-10-23",
+   "u": "https://www.analyticsinsight.net/news/china-clears-deepseek-minimax-for-overseas-ai-rollout"
+  }
+ ],
+ "items": [
+  {
+   "t": "딥시크·미니맥스, 해외 사용 승인 획득…중국 관영매체",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/deepseek-minimax-win-approval-for-global-use-state-media-says",
+   "s": "딥시크·미니맥스가 중국 당국의 해외 사용 승인을 받으면서, 중국 오픈소스 AI 모델의 해외 서비스 길이 열렸다"
+  },
+  {
+   "t": "중국 딥시크·미니맥스, AI 해외 사용 승인…관영매체 계열",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/media-telecom/chinas-deepseek-minimax-win-approval-ai-global-use-state-media-affiliated-entity-2026-10-23/",
+   "s": "관영매체 계열 위위안탄톈이 두 회사의 등록·해외 사용 절차 완료를 전하면서, 다른 중국 오픈소스 모델도 뒤따르라는 해외 요구가 있다고 했다"
+  },
+  {
+   "t": "중국, 정부기관에 AI 일자리 대체 완화 촉구",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/world-at-work/china-urges-government-agencies-mitigate-ai-job-displacement-2026-10-23/",
+   "s": "중국 정부가 정부기관에 AI로 인한 일자리 대체를 완화하라고 촉구하면서, AI 확산에 따른 고용 충격 관리에 나섰다 (제목 기준)"
+  },
+  {
+   "t": "딥시크, 미중 기술 상호 제한 속 AI 모델 오픈소스 공개",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-23/deepseek-open-sources-ai-model-as-china-us-restrict-each-other-s-tech",
+   "s": "딥시크가 미중이 서로의 기술을 제한하는 와중에 AI 모델을 오픈소스로 내놓으면서, 중국 AI의 해외 확산 시도가 이어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "중국 AI 해외로…딥시크·미니맥스 해외 사용 승인·딥시크 오픈소스 공개, 일자리 대체 완화 지시",
+ "one": "중국 당국이 딥시크·미니맥스의 AI 모델 해외 사용을 승인하며 중국 AI의 해외 확장 길을 열었다\n· CCTV 계열 위위안탄톈은 두 회사가 등록과 오픈소스·해외 사용 승인 절차를 마쳤다고 밝혔다\n· 중국은 10월 16일 모델·에이전트·연산 클러스터 등 AI 기술 23개에 대한 수출 통제안을 내놨다\n· 딥시크는 미중이 서로 기술을 제한하는 가운데 AI 모델을 오픈소스로 공개했다\n· 중국 정부는 정부기관에 AI로 인한 일자리 대체를 완화하라고 촉구했다",
+ "facts": [
+  "무엇이: CCTV 계열 위위안탄톈은 10월 22일 딥시크·미니맥스가 등록과 오픈소스·해외 사용 승인 절차를 마쳤다고 밝혔다 [사실]",
+  "배경: 중국은 10월 16일 AI 기술 23개 수출 통제안을 냈지만 API·웹앱·SaaS 제공은 제한하지 않고 오픈소스 수출 허가는 간소화한다 [사실]",
+  "오픈소스: 딥시크는 미중이 서로의 기술을 제한하는 가운데 AI 모델을 오픈소스로 공개했다 [제목]",
+  "고용: 중국은 정부기관에 AI로 인한 일자리 대체를 완화하라고 촉구했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "해외 사용 승인과 수출 통제안은 검색 결과 요약으로 확인, 딥시크 새 오픈소스 모델과 일자리 대체 지침 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "딥시크·미니맥스 AI 모델 해외 사용 승인"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

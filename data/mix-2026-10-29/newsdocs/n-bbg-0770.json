@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0770",
+ "num": 770,
+ "key": "mix-G-035-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T00:17:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/adani-said-to-weigh-deal-for-3-billion-energy-storage-firm-vtti",
+ "origTitle": "",
+ "headline": "아다니, 30억 유로 규모 네덜란드 탱크 저장사 VTTI 인수 검토",
+ "src": [
+  {
+   "o": "Indian Opinion",
+   "d": "2026-10-28",
+   "u": "https://indianopinion.org/adani-group-explores-e3-billion-vtti-energy-storage-deal/"
+  }
+ ],
+ "items": [
+  {
+   "t": "아다니, 30억 유로 에너지 저장사 VTTI 인수 검토",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/adani-said-to-weigh-deal-for-3-billion-energy-storage-firm-vtti"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "아다니, 30억 유로 규모 네덜란드 탱크 저장사 VTTI 인수 검토",
+ "one": "인도 아다니그룹이 30억 유로 가치로 거론되는 로테르담의 에너지 탱크 저장사 VTTI 인수를 검토하고 있다\n· VTTI는 14개국에 탄화수소 저장 터미널 15곳, 총 6,000만 배럴 저장 능력을 갖고 있다\n· 지분은 IFM·비톨이 약 45%씩, ADNOC가 10%를 가졌고 ADNOC는 전량 매각을 검토 중이다",
+ "facts": [
+  "무엇이: 아다니그룹이 기업 가치 약 30억 유로로 거론되는 VTTI 인수를 검토 중이며 여러 인수 후보 중 하나다 [사실]",
+  "자산: VTTI는 14개국에 탄화수소 저장 터미널 15곳, 총 6,000만 배럴 저장 능력을 갖고 있다 [사실]",
+  "지분: IFM 인베스터스와 비톨이 약 45%씩, ADNOC가 10%를 갖고 있으며 ADNOC는 전량 매각을 검토 중이다 [사실]",
+  "배경: 공급 차질로 저장 시설의 에너지 트레이딩 가치가 높아졌다는 분석이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "아다니의 30억 유로 VTTI 인수 검토, 지분 구조·터미널 규모는 인디언오피니언·inkl 등 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "stocks",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "공급 차질로 저장 시설 가치 상승"
+  }
+ ]
+}

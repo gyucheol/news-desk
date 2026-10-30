@@ -1,0 +1,71 @@
+{
+ "id": "n-rtr-0346",
+ "num": 346,
+ "key": "mix-G4-047-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T00:01:00+09:00",
+ "url": "https://www.reuters.com/world/africa/south-africa-stop-subsidizing-imported-vehicle-kits-pushing-automakers-build-2026-10-15/",
+ "origTitle": "",
+ "headline": "남아공, 수입 반조립 키트 조립 지원 끊어…완성차 현지 생산 압박",
+ "src": [
+  {
+   "o": "TimesLIVE",
+   "d": "2026-10-15",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-15-south-africa-to-stop-subsidising-imported-vehicle-kits-pushing-carmakers-to-build-locally/"
+  },
+  {
+   "o": "TechCentral",
+   "d": "2026-10-15",
+   "u": "https://techcentral.co.za/south-africa-screwdriver-car-plants-skd/287355/"
+  }
+ ],
+ "items": [
+  {
+   "t": "남아공, 수입 자동차 키트 지원 중단…완성차 현지 생산 압박",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/africa/south-africa-stop-subsidizing-imported-vehicle-kits-pushing-automakers-build-2026-10-15/",
+   "s": "남아공이 수입 반조립(SKD) 키트 조립 공장에 대한 정책 지원을 끊기로 하면서 완성차 업체들에 현지 생산 전환을 압박했다"
+  },
+  {
+   "t": "남아공, 수입 자동차 키트 조립 제한 방침 내놔",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/south-africa-to-restrict-assembly-of-imported-car-kits",
+   "s": "남아공 정부가 수입 키트 조립을 제한하면서 기존 SKD 공장을 단계적으로 없애고 신규 공장에는 지원을 주지 않기로 했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "남아공, 수입 반조립 키트 조립 지원 끊어…완성차 현지 생산 압박",
+ "one": "남아공 파크스 타우 통상장관이 차체·부품 대부분을 키트로 들여와 조립하는 SKD 공장을 단계적으로 없애고 신규 공장에는 정책 지원을 주지 않겠다고 밝히면서, 수입 키트에 기대온 완성차 업체들이 현지 부품 생산 체제로 옮겨 가야 할 처지가 됐다",
+ "facts": [
+  "무엇이: 타우 통상장관은 10월 15일 남아공 오토위크에서 수입 키트에 의존하는 SKD 조립을 단계적으로 없애고 새 SKD 시설엔 정책 지원을 주지 않겠다고 밝혔다 [사실]",
+  "범위: 중·대형 상용차는 이번 조치에서 빠지고, 완전분해조립(CKD)의 법적 정의는 더 엄격해진다 [사실]",
+  "픽업: 픽업트럭 등 래더프레임 경상용차의 추가 지원 여부는 국제무역관리위원회(ITAC) 조사 뒤 정한다 [사실]",
+  "목표: 자동차 마스터플랜은 현지 부품 비율을 평균 38%에서 60%로 높이고 2035년 세계 생산 비중 1%를 목표로 한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "SKD 지원 중단·범위·ITAC 조사·마스터플랜 목표는 검색 결과 요약으로 확인. 단계적 폐지 일정은 확인 못 함",
+ "added": "이번 블룸버그 1건으로 기존 SKD 공장은 단계적으로 없애고 신규 공장 지원은 주지 않는 수입 키트 조립 제한 방침이 추가됐다",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "수입 키트 조립 지원 중단으로 SKD 공장 축소"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

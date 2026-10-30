@@ -1,0 +1,94 @@
+{
+ "added": "로이터 1건 — 게티이미지의 10월 21일 챕터11 신청과 2억 달러 넘는 워런트 소송 판결이 파산을 앞당겼다는 내용이 추가됨",
+ "basis": "verified",
+ "check": "챕터11 신청일은 CNBC, 소송 금액·워런트 분쟁은 IBTimes·PPC Land(공시 문서 요약) 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 게티이미지가 10월 21일 사전조정형 챕터11을 신청했고, 파산 담당 변호인은 투자자 소송이 신청을 앞당겼다고 밝혔다 [사실]",
+  "소송: 공시 문서는 워런트 소송 관련 불리한 판결·이자가 2억 달러를 넘고 약 4년간 법률 비용이 3,500만 달러였다고 적었으며, 투자자들은 주당 11.50달러 매수권을 주장했다 [사실]",
+  "자금: 지분 투자자들은 최대 5억 3,300만 달러의 신규 자본을 대고 재건 회사 지분 100%를 가지며, 코크 에쿼티 디벨롭먼트는 별도로 최대 1억 4,300만 달러를 지원한다 [사실]",
+  "부채: 무담보채권자들은 2억 7천만 달러 채권 소각에, 담보 대출자들은 이자 경감·만기 연장에 동의했으며 6월 말 총부채는 약 21억 달러였다 [사실]",
+  "배경: 셔터스톡 합병 무산과 남은 부채, 뉴욕증권거래소의 9월 말 상장폐지 절차가 겹쳤고 회사는 연말 완료를 목표로 한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "게티이미지 챕터11 신청…'2억 달러 넘는 워런트 소송 판결이 파산 앞당겨'",
+ "id": "n-rtr-0203",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{게티이미지}}가 {{사전조정형 챕터11}}을 거쳐 {{비상장 회사로 전환하는 구조조정}}에 합의하면서 {{무담보채 2억 7천만 달러}}가 {{소각되고}} 대출 만기가 {{연장}}된다",
+   "t": "게티이미지, 구조조정 합의 뒤 비상장 회사로 전환",
+   "u": "https://www.reuters.com/business/getty-images-go-private-after-restructuring-deal-2026-10-12/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{코크와 게티 가문}}이 {{파산 거래로 게티이미지 비상장화}}에 손잡고 투자자들이 {{최대 5억 3,300만 달러의 신규 자본}}을 대면서 {{재건 회사 지분 100%}}를 갖게 된다",
+   "t": "코크·게티 가문, 파산 거래로 게티이미지 비상장화에 손잡아",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/koch-getty-families-team-up-to-take-getty-images-private-in-bankruptcy-deal"
+  },
+  {
+   "t": "게티이미지 '투자자 소송이 파산으로 내몰았다'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/litigation/getty-images-says-investor-litigation-helped-push-it-bankruptcy-2026-10-22/",
+   "s": "게티이미지가 2억 달러가 넘는 워런트 소송 판결 부담이 파산 신청을 앞당겼다고 밝히면서 합병 무산에 이은 법적 비용이 재무를 압박했음이 드러났다"
+  }
+ ],
+ "key": "mix-C083-2026-10-13",
+ "nodes": [],
+ "num": 203,
+ "one": "게티이미지가 10월 21일 챕터11을 신청하며 투자자 워런트 소송이 파산을 앞당겼다고 밝혔다\n· 워런트 소송의 불리한 판결과 이자는 2억 달러를 넘고 약 4년간 법률 비용도 3,500만 달러였다\n· 투자자들은 주당 11.50달러 매수권을 주장했지만 회사는 주가가 32달러일 때 행사를 막았다\n· 셔터스톡 합병 무산과 그에 따른 부채도 파산 원인으로 꼽혔다\n· 코크·게티 가문 등 투자자는 최대 5억 3,300만 달러를 대고 재건 회사 지분 100%를 갖는다\n· 무담보채 2억 7천만 달러가 소각되고 약 21억 달러 부채 구조가 재편된다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:01:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "The Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com/business/business-news/getty-images-to-file-for-bankruptcy-go-private-1236727902/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Quartz",
+   "u": "https://qz.com/getty-images-bankruptcy-private-koch-equity-101226"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-21",
+   "u": "https://www.cnbc.com/2026/10/21/getty-images-files-for-bankruptcy-advances-restructuring-plan.html"
+  },
+  {
+   "o": "IBTimes UK",
+   "d": "2026-10-23",
+   "u": "https://www.ibtimes.co.uk/getty-images-bankruptcy-ai-competition-investor-litigation-1827335"
+  },
+  {
+   "o": "PPC Land",
+   "d": "2026-10-23",
+   "u": "https://ppc.land/getty-images-files-chapter-11-to-cut-more-than-500m-of-debt/"
+  }
+ ],
+ "tags": [],
+ "title": "게티이미지 챕터11 신청…'2억 달러 넘는 워런트 소송 판결이 파산 앞당겨'",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/business/getty-images-go-private-after-restructuring-deal-2026-10-12/",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "media",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "투자자 소송 부담에 게티이미지 챕터11 신청"
+  }
+ ]
+}

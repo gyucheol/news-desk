@@ -1,0 +1,253 @@
+{
+ "added": "텔레그램·로이터 3건 — AI 기술 23개 통제와 진행 중 거래 임시 등록 의무, 폴리실리콘 증설 기준 강화, 터널굴착기 11월 18일 수출 통제 내용이 추가됨",
+ "basis": "partial",
+ "check": "터널굴착기 수출 통제(11월 18일 시행)와 드론·준설선 부품 조정은 신화통신·닛케이아시아 등 검색 결과 요약으로 확인. AI 기술 23개 통제와 임시 등록 의무, 신만굉원증권의 증설 분석은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 상무부는 10월 19일 토압식·이수식 쉴드와 암반 터널굴착기, 그 부품을 이중용도 품목으로 지정해 11월 18일부터 수출을 통제하고, 같은 날 드론·준설선 부품 통제도 조정했다 [사실]",
+  "AI: 40개 기술 수출 금지·제한 목록 개정 초안에는 LLM·AI 에이전트·칩 설계·컴퓨팅 클러스터 등 AI 기술 23개가 들어갔고, 논문·오픈소스로 공개된 기술은 빠졌으며 진행 중인 기술 이전·해외 라이선스 거래에도 임시 등록 의무가 적용된다 [채널]",
+  "태양광: 개정안은 박막 웨이퍼·페로브스카이트·탠덤 셀 기술 수출을 금지하고 TOPCon·HJT·XBC 셀 기술은 제한하며, 의견 수렴은 11월 15일까지다 [사실]",
+  "증설: 신만굉원증권은 신규 폴리실리콘 설비의 전력·용수 기준이 크게 강화돼 해외·2~3위 업체의 증설 기회가 줄고, 중국 내 셀·모듈 증설은 이번 규범의 적용을 받지 않는다고 분석했다 [채널]",
+  "기타: 개정안은 세포·유전자 치료 플랫폼의 외국 기업 인수 차단도 담았고, 중국은 10월 12일 신에너지차 수출 환급세율을 13%에서 9%로 낮췄다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "中 수출통제 전방위 확대…AI 기술 23개·터널굴착기 통제, 태양광 증설 문턱도 높여",
+ "id": "n-bbg-0338",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "industrial",
+  "pharma",
+  "power",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "대만이 미국과의 무역협정 약속의 하나로 AI 칩의 대중 수출을 억제하기로 하면서, 대만산 첨단 칩이 중국으로 흘러가는 길이 좁아질 전망이다",
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 칩 수출 억제",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "대만이 첨단 칩의 중국 밀수를 막으려는 트럼프 행정부 단속에 동참해 AI 서버와 첨단 반도체를 통제 품목에 넣으면서, 무단 대중 선적이 형사 처벌 대상이 된다",
+   "t": "대만, AI 서버·첨단 칩 통제 품목 추가…무단 대중 선적 형사 처벌",
+   "u": "https://t.me/HANAchina/70519"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "중국이 AI·바이오의약·태양광 기술 40개를 수출 금지·제한 목록에 넣자고 제안하면서, 11월 15일까지 의견을 받는 동안 등록 의무가 곧바로 시행된다",
+   "t": "중국, AI·바이오·태양광 기술 40개 수출 통제 목록 추가 제안",
+   "u": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "중국이 AI 모델·칩 관련 기술 23개 등을 수출 금지·제한 목록에 넣자고 제안하면서 중국산 AI 기술의 해외 이전이 까다로워질 전망이다",
+   "t": "중국, 핵심 기술 통제 위해 AI 수출 규제 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "중국이 세포·유전자 치료와 siRNA 기술의 수출을 묶되 라이선스·제휴는 통제에서 빼면서 중국 바이오의 해외 기술이전 거래는 이어질 수 있다",
+   "t": "중국, 바이오 기술 수출 제한 추진하되 기술이전 계약은 허용",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-looks-to-tighten-biotech-exports-allows-licensing-deals"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "대만이 미국 수출 제한 대상 AI 부품의 대중 공급을 형사범죄로 만들고 통제를 미국 체계에 맞추기로 하면서 중국의 첨단 칩 조달 길이 좁아질 전망이다",
+   "t": "대만, 대중 AI 칩 공급 통제 강화…미 수출 규정 위반 형사처벌",
+   "u": "https://t.me/insidertracking/66456"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 Polaristimes",
+   "s": "대만이 미국과의 무역협정에 따라 대중 AI 반도체 수출 통제를 강화하면서 중국의 대만 압박이 거세질 수 있다는 관측이 나왔다",
+   "t": "대만, 미국과 무역협정 일환으로 대중 AI 반도체 수출 통제 강화",
+   "u": "https://t.me/The_MariTimes/63754"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 Polaristimes",
+   "s": "중국이 AI·태양광·바이오의약 기술 40종을 새 수출 금지·제한 품목에 넣기로 하면서 이 분야 기술의 해외 반출 문턱이 높아진다",
+   "t": "중국, AI·태양광·바이오 기술 40종 수출 금지·제한 목록에 등재",
+   "u": "https://t.me/The_MariTimes/63755"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "대만 경제부장이 허가 없는 AI 서버·첨단 칩 대중 반출을 무역법으로 처벌하겠다면서도 시행 시기를 밝히지 않아 암시장 단속 효과는 지켜봐야 한다",
+   "t": "대만 경제부장 '첨단 칩 중국 밀수출하면 형사처벌'",
+   "u": "https://t.me/HANAchina/70562"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "중국 상무부·과학기술부가 AI·바이오·태양광 40개 기술을 수출하기 전 등록하도록 하면서, 해당 기술의 해외 이전 절차가 까다로워졌다",
+   "t": "중국 상무부·과기부, 40개 기술 '수출 전 등록' 시행",
+   "u": "https://t.me/HANAchina/70573"
+  },
+  {
+   "d": "2026-10-17",
+   "o": "텔레그램 트릴리온",
+   "s": "중국이 세포·유전자 치료와 siRNA 플랫폼의 외국 인수를 막는 안을 내면서도 라이선스는 열어 두어, 바이오 기술이전 거래 영향은 제한적일 수 있다",
+   "t": "중국, 핵심 바이오 제약 플랫폼의 외국 기업 인수 금지 추진",
+   "u": "https://t.me/Trillion_labs/10714"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "로이터",
+   "s": "중국 상무부가 박막 웨이퍼·페로브스카이트 셀 등 태양광 제조 기술 12개의 수출 금지·제한을 제안하면서 해외 공장의 기술 확보가 어려워질 수 있다",
+   "t": "중국, 태양광 제조 기술에 대한 수출 통제 도입 제안",
+   "u": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "로이터",
+   "s": "중국의 태양광 패널 수출이 9월에도 부진을 이어 가면서 생산능력 조정기에 놓인 중국 태양광 업계의 해외 판매 둔화가 계속됐다 (제목 기준)",
+   "t": "중국 태양광 패널 수출, 9월에도 부진 이어져",
+   "u": "https://www.reuters.com/business/energy/chinas-solar-panel-exports-extend-slump-september-2026-10-18/"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "중국이 배터리·신에너지차 수출 환급세율을 낮추면서 2026~2027년 환급이 약 330억·720억 위안 줄고, 환급 의존도 높은 업종의 수익이 줄 수 있다",
+   "t": "화타이증권 \"중국 수출 환급세 인하, 노동집약 업종에 더 큰 부담\"",
+   "u": "https://t.me/HANAchina/70616"
+  },
+  {
+   "t": "中, LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진(WSJ)",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-19",
+   "u": "https://t.me/PipeBeom/6743",
+   "s": "중국 상무부가 LLM·AI 에이전트·칩 설계 등 AI 기술 23개를 수출 통제 목록 초안에 넣고 임시 등록 의무부터 도입하면서, 중국 AI 기술의 해외 이전이 규제를 받게 됐다"
+  },
+  {
+   "t": "신만굉원 '中 정책으로 태양광 공급 축소 가속'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-19",
+   "u": "https://t.me/HANAchina/70664",
+   "s": "신만굉원증권이 신규 폴리실리콘 설비의 전력·용수 기준 강화로 해외·후발 업체 증설 기회가 줄 것으로 보면서, 중국 태양광 공급 축소가 빨라질 수 있다고 분석했다"
+  },
+  {
+   "t": "중국 상무부, 터널굴착기에 대한 수출 통제 발표",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/china-commerce-ministry-announces-export-controls-tunnel-boring-machines-2026-10-19/",
+   "s": "중국 상무부가 터널굴착기와 부품을 이중용도 품목으로 묶어 11월 18일부터 수출 허가를 받게 하면서, 중국 장비에 기대는 인도 등 해외 인프라 사업에 차질이 생길 수 있다"
+  }
+ ],
+ "key": "mix-G1-018-2026-10-16",
+ "nodes": [
+  "macro/geo",
+  "macro/semis",
+  "power/modules",
+  "power/polysilicon"
+ ],
+ "num": 338,
+ "one": "중국이 40개 기술 수출 통제 개정안에 태양광 셀 기술과 대규모 언어모델·AI 에이전트·칩 설계 등 AI 기술 23개를 넣고 11월 18일부터 터널굴착기 수출에도 허가제를 도입하면서, 중국 기술·장비를 들여오던 해외 기업과 인프라 사업의 조달 문턱이 높아지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T17:40:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/taiwan-curbs-ai-chip-exports-china/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Startup Fortune",
+   "u": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "MLex",
+   "u": "https://www.mlex.com/mlex/trade/articles/2538790"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Geopolitechs",
+   "u": "https://www.geopolitechs.org/p/china-imposes-temporary-export-registration"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "Quartz",
+   "u": "https://qz.com/china-biotech-export-controls-licensing-deals-exemption-101626"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "중국 상무부 공고 2026년 제48호",
+   "u": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "중국 상무부 대변인 문답",
+   "u": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "증권시보",
+   "u": "https://www.stcn.com/article/detail/4222659.html"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "IndexBox",
+   "u": "https://indexbox.io/blog/china-proposes-export-controls-on-12-solar-manufacturing-technologies"
+  },
+  {
+   "d": "2026-10-18",
+   "o": "URKU",
+   "u": "https://urku.org/article/china-proposes-new-solar-export-controls-what-it-means-for-global-energy"
+  },
+  {
+   "o": "신화통신",
+   "d": "2026-10-19",
+   "u": "https://english.news.cn/20261019/fda010dc392047b29cfc6631d468ec4b/c.html"
+  },
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-10-19",
+   "u": "https://asia.nikkei.com/economy/china-announces-export-controls-for-tunnel-boring-machines"
+  }
+ ],
+ "tags": [],
+ "title": "中 수출통제 전방위 확대…AI 기술 23개·터널굴착기 통제, 태양광 증설 문턱도 높여",
+ "updatedAt": "2026-10-20T08:26:01+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "machinery",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "터널굴착기 11월 18일부터 수출 허가제"
+  },
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "LLM·AI 에이전트 등 AI 기술 23개 수출 통제 추진"
+  },
+  {
+   "ind": "power",
+   "node": "polysilicon",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "전력·용수 기준 강화로 폴리실리콘 증설 기회 축소"
+  }
+ ]
+}

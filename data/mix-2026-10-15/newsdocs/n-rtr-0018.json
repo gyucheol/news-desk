@@ -1,0 +1,80 @@
+{
+ "basis": "channel",
+ "check": "검색으로 15%·47%·117달러 수치를 독립 출처에서 찾지 못함(채널 전언). 민간·공영 전력사 요금 격차는 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 블룸버그 분석을 전한 채널에 따르면 미국 주거용 전기요금 전국 월평균이 2025년 1월부터 2026년 7월까지 명목 기준 15% 올랐습니다 [채널]",
+  "PJM: 2026년 1~7월 PJM 관할 지역 도매 전력값은 1년 전보다 47% 올라 MWh당 약 117달러에 이르렀고, PJM 시장감시기관은 데이터센터 수요가 없었다면 약 10달러 낮았을 것으로 봤습니다 [채널]",
+  "격차: 민간(투자자 소유) 전력사의 전기요금이 공영 전력사보다 빠르게 오르고 있습니다 [제목]",
+  "기존: EIA는 10월 전망에서 2026년 도매 전력값이 평균 MWh당 52달러로 2025년보다 11% 높고 PJM은 41% 오를 것으로 봤습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 주거용 전기요금 15%↑…민간 전력사가 공영보다 빨리 올라, PJM 도매가 47%↑",
+ "id": "n-rtr-0018",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "key": "rtr-1006-eia-us-power-use-record",
+ "nodes": [
+  "power/demand",
+  "power/market"
+ ],
+ "num": 18,
+ "one": "미국 주거용 전기요금이 2025년 1월부터 올해 7월까지 15% 오르고 데이터센터가 몰린 PJM의 1~7월 도매 전력값이 47% 뛰면서, 민간 전력사 고객의 요금 부담이 공영 전력사보다 빠르게 커지고 있다 (채널 전언)",
+ "origTitle": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T05:16:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "로이터(원문 미확인)",
+   "u": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "미국 에너지정보청(EIA) 단기 에너지 전망",
+   "u": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php"
+  }
+ ],
+ "tags": [],
+ "title": "美 주거용 전기요금 15%↑…민간 전력사가 공영보다 빨리 올라, PJM 도매가 47%↑",
+ "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/",
+ "items": [
+  {
+   "t": "미 EIA, 미국 전력 사용 2년 연속 최대 전망…PJM 도매가 41% 상승",
+   "o": "로이터",
+   "d": "2026-10-06",
+   "u": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+  },
+  {
+   "t": "전기요금, 공영보다 민간 전력사에서 더 빠르게 올라",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/graphics/2026-electricity-price-utility-gap/",
+   "s": "미국 민간 전력사의 전기요금이 공영 전력사보다 빠르게 오르면서, 투자자 소유 전력사 고객의 요금 부담이 더 크게 늘고 있다 (제목 기준)"
+  },
+  {
+   "t": "美 주거용 전기요금 15% 상승…PJM 도매가 47% 뛰어",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-15",
+   "u": "https://t.me/insidertracking/66268",
+   "s": "블룸버그 분석에서 미국 주거용 전기요금이 2025년 1월 이후 15% 오르고 PJM 도매가가 47% 뛰면서, 데이터센터 수요가 전기요금을 끌어올린 요인으로 지목됐다"
+  }
+ ],
+ "added": "이번 블룸버그·텔레그램 2건으로 주거용 전기요금 15% 상승과 PJM 1~7월 도매가 47% 상승, 민간 전력사 요금이 공영보다 빠르게 오른다는 분석이 추가됐다",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "PJM 1~7월 도매 전력값 47% 상승"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

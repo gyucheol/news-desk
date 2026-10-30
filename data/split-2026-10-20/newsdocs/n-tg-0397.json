@@ -1,0 +1,78 @@
+{
+ "id": "n-tg-0397",
+ "num": 397,
+ "key": "split-G1-134-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66186",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란, 美 중간선거 앞두고 선박 공격 강화로 전술 전환",
+ "headline": "이란, 美 중간선거 앞두고 선박 공격 강화로 전술 전환",
+ "one": "이란 관계자들이 미국 선거 전 선박 공격을 늘리는 쪽으로 전술을 바꿨다고 밝힌 가운데 이란 지도부가 유가를 끌어올리고 중간선거에 영향을 주려 약 10일 전부터 공격 빈도와 방식을 바꾸면서, 오만만까지 작전이 넓어질 전망이다",
+ "facts": [
+  "무엇이: 로이터는 10월 14일 이란 관계자들을 인용해 이란이 미국 선거 전 선박 공격을 늘리는 쪽으로 전술을 바꿨다고 전했다 [사실]",
+  "목적·시점: 이란 지도부는 유가를 높이고 미국 중간선거에 영향을 주려 약 10일 전부터 선박 공격 빈도와 방식을 바꿨다 [채널]",
+  "범위: 이란은 작전 범위를 오만만까지 넓히려 한다 [채널]",
+  "영향: 전술 전환으로 호르무즈 운항 위험이 커졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램·로이터 2건(10월 14일)을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준. 원 문서 출처 목록의 The National 10월 13일 보도가 이란의 대선박 공격 강화를 다룸.",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-13",
+   "u": "https://www.thenationalnews.com/news/gulf/2026/10/13/strait-of-hormuz-attacks-surge-as-iran-steps-up-campaign-against-us-backed-oil-shipping/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란, 美 중간선거 앞두고 호르무즈 선박 공격 새 전술 도입",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66186",
+   "s": "이란 지도부가 유가를 높이고 미국 중간선거에 영향을 주려 약 10일 전부터 선박 공격 빈도와 방식을 바꾸면서 오만만까지 작전을 넓히려 한다"
+  },
+  {
+   "t": "이란, 미국 선거 앞 선박 공격 강화로 전술 전환…관계자들",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/",
+   "s": "이란 관계자들이 미국 선거 전 선박 공격을 늘리는 쪽으로 전술을 바꿨다고 밝히면서 호르무즈 운항 위험이 커졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "이란, 중간선거 앞 선박 공격 강화로 전술 전환"
+  },
+  {
+   "ind": "oil",
+   "node": "price",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "이란, 유가 끌어올리려 공격 빈도 높여"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

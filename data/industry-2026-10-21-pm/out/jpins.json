@@ -1,0 +1,22 @@
+{"id": "jpins", "summary": "",
+ "state": {
+  "assets": [{"d": "2026-10-20", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record", "nid": "n-rtr-0497", "t": "10월 20일 일본 20년물 국채 입찰 응찰배율은 5.84배로 1987년 도입 이후 최고였고(직전 4.01배, 12개월 평균 3.73배), 입찰 뒤 20년물 금리는 장중 6bp 내린 3.71%였습니다 [사실]"}],
+  "rates": [{"d": "2026-10-20", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/", "nid": "n-rtr-0652", "t": "소식통 4명에 따르면 일본은행은 10월 30일 끝나는 회의에서 금리를 1.25%로 동결하고 고유가를 이유로 다음 회계연도 물가 전망을 소폭 올릴 수 있으며, 12월 인상 여지는 남습니다 [사실]"}],
+  "securities": [{"d": "2026-10-20", "o": "로이터", "u": "https://www.reuters.com/business/finance/daiwa-mizuho-clear-final-hurdles-launch-china-securities-units-bloomberg-says-2026-10-20/", "nid": "n-rtr-0664", "t": "다이와·미즈호가 중국 본토 100% 자회사 증권 사업의 최종 규제 관문을 넘었고, 다이와는 합작사 중국 측 지분을 약 1억 달러에 사들이기로 4월 합의했습니다 [사실]"}]
+ },
+ "industryState": [
+  {"d": "2026-10-20", "kind": "demand", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record", "nid": "n-rtr-0497", "t": "일본 20년물 국채 입찰 응찰배율이 10월 20일 5.84배로 1987년 이후 최고였고, 20년물 금리는 장중 6bp 내린 3.71%였습니다 [사실]"},
+  {"d": "2026-10-20", "kind": "policy", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/", "nid": "n-rtr-0652", "t": "일본은행은 10월 회의에서 정책금리 1.25%를 동결할 가능성이 크고, 성장 전망은 2026 회계연도 0.6%·2027 회계연도 0.8%로 거의 유지될 전망입니다(소식통) [사실]"}
+ ],
+ "flags": [],
+ "insight": {
+  "a1": [
+   {"t": "우에다 총재가 10월 19일 기조물가가 2%에 꽤 가까워졌다고 했고, 소식통은 10월 동결·물가 전망 상향과 12월 인상 여지를 전했습니다. 인상이 이어지면 생보의 신규 운용 수익률이 오르고 손보 요율 인상이 2027년까지 이익에 반영될 가능성이 큽니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-20", "u": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/"}]},
+   {"t": "닛케이가 이번 국면 최종 기준금리를 1.75~2%로 보고 IMF도 물가가 전망을 웃돌면 더 빨리 긴축해야 할 수 있다고 해, 생보의 신규 채권 수익률이 지금보다 더 오를 여지가 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-17", "u": "https://www.reuters.com/world/asia-pacific/boj-may-need-tighten-faster-if-inflation-beats-forecast-imf-says-2026-10-17/"}]},
+   {"t": "20년물 입찰 응찰배율이 5.84배로 사상 최고를 기록하고 금리가 6bp 내린 것처럼 3%대 후반 초장기 금리에서 매수세가 붙어, 생보의 평가손실 부담이 커지기만 하지 않고 신규 매수로 운용 수익을 고정하는 흐름이 가능합니다 [유추]", "src": [{"o": "블룸버그", "d": "2026-10-20", "u": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record"}]}
+  ]
+ },
+ "cycle": null, "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 3건 반영: 20년물 입찰 응찰배율 5.84배 사상 최고·금리 3.71%로 하락, 일본은행 10월 동결·물가 전망 상향 가능(소식통), 다이와·미즈호 중국 증권 법인 최종 승인; 10년물 2.93%·닛케이 최종금리 1.75~2%는 이미 반영. 국면 ① 그대로, 근거 3줄, 수치 2줄, 재검토 신호 0건, 인사이트 a1 갱신, 검색 0회",
+ "applied": ["n-rtr-0497", "n-rtr-0652", "n-rtr-0664"], "searches": 0, "fetches": 0}

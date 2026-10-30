@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0183",
+ "feed": "v5",
+ "format": "one1",
+ "num": 183,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-The_MariTimes-63513",
+ "published": "2026-10-05T22:27:00+09:00",
+ "url": "https://t.me/The_MariTimes/63513",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "title": "프랑스-독일 10년물 금리차 145bp 넘어…유로존 위기 이후 최대",
+ "one": "프랑스 10년물 국채 금리가 독일보다 145bp 넘게 높아져 유로존 위기 이후 가장 벌어지면서, 프랑스 국채를 많이 든 일본 투자자 매도와 유럽 국채 전염 우려가 커지고 있다",
+ "headline": "프랑스-독일 10년물 금리차 145bp 넘어…유로존 위기 이후 최대",
+ "facts": [
+  "무엇이: 프랑스-독일 10년물 금리차가 10월 2일 약 147bp로 2012년 이후 최대까지 벌어졌고 5일에도 140bp대를 유지했습니다 [사실]",
+  "얼마나: 프랑스 10년물 금리는 3분기에 21세기 들어 가장 큰 분기 상승률을 기록했다고 채널은 전했습니다 [채널]",
+  "배경: 모건스탠리자산운용 제프 뮬러는 유럽 국채에서 전염의 초기 징후가 나타나기 시작했다고 말했습니다 [채널]",
+  "누가 들고: 일본 투자자의 프랑스 국채 보유액은 7월 기준 약 23조 엔(1,450억 달러)으로 해외채권 보유액의 6.6%라 추가 매도 위험이 거론됩니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "금리차 수준은 FXStreet(10월 2일 약 147bp)와 ideal-investisseur 일별 표(10월 5일 143.4bp)를 검색 결과 요약으로 확인했습니다. 제공처마다 수치가 127~160bp로 엇갈립니다. 모건스탠리 발언과 일본 투자자 보유액(블룸버그 보도 전재)은 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-05",
+   "u": "https://t.me/The_MariTimes/63513"
+  },
+  {
+   "o": "FXStreet",
+   "d": "2026-10-02",
+   "u": "https://www.fxstreet.com/analysis/us-jobs-report-day-french-german-10-year-spread-nears-150bps-202610021014"
+  },
+  {
+   "o": "ideal-investisseur",
+   "d": "2026-10-07",
+   "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "Polaristimes"
+}

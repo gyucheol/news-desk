@@ -1,0 +1,101 @@
+{
+ "basis": "verified",
+ "check": "아레스 그라프의 스트레스 경고, 금리 4.6%, 부동산 대출 금리 8~9%→11~12%는 검색 결과 요약(Private Equity Wire·Capital Brief)으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아레스의 피터 그라프 파트너는 시드니 씨티 콘퍼런스에서 금리 상승으로 호주 사모신용, 특히 부동산 대출의 스트레스가 커지고 있다며 자산 건전성 점검을 강조했고, 시스템 전반의 신용경색은 예상하지 않았다 [사실]",
+  "금리: 호주중앙은행은 올해 네 차례 금리를 올려 4.6%가 됐고, 선순위 부동산 대출 금리는 6개월 전 8~9%에서 11~12%로 올랐다 [사실]",
+  "단속: ASIC는 공시 미흡을 이유로 운용자산 2억 5,180만 호주달러 ASCF 펀드 3개에, 10월 13일에는 7억 9,990만 호주달러 아레스 신용펀드에 21일간 판매 중지를 명령했다 [사실]",
+  "시장: 약 2,000억 호주달러 사모 대출 시장의 절반가량이 부동산에 묶여 있고, 골드만삭스·UBS는 사모신용 운용사 대출을 더 까다롭게 하고 있다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "호주 사모신용 압박…아레스 '금리 4.6%로 스트레스 주시', ASIC 펀드 판매 중지 잇따라",
+ "id": "n-bbg-0116",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "호주 ASIC가 공시 미흡을 이유로 ASCF 사모신용 펀드 3개에 임시 판매 중지를 명령해 운용자산 2억 5,180만 호주달러 규모 펀드의 자금 모집이 멈췄다",
+   "t": "호주 ASIC, ASCF 사모신용 펀드 3개 자금 모집 중단시켜",
+   "u": "https://www.reuters.com/legal/government/australias-asic-halts-fundraising-by-three-ascf-private-credit-funds-2026-10-07/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "호주 ASIC가 목표시장 결정이 부적절하다며 운용자산 7억 9,990만 호주달러의 아레스 신용펀드에 21일 판매 중지 명령을 내렸다",
+   "t": "호주의 사모신용 단속에 아레스 펀드 판매 제동",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/australia-regulator-halts-another-credit-fund-amid-crackdown"
+  },
+  {
+   "t": "아레스, 금리 상승 속 호주 사모신용 스트레스 주시",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/ares-warns-of-australian-private-credit-stress-from-rising-rates",
+   "s": "아레스가 금리 상승으로 호주 사모신용 시장의 스트레스를 주시한다고 밝히면서, 부동산 대출 비중이 큰 사모신용 펀드의 부실 우려가 커졌다"
+  }
+ ],
+ "key": "bnd-C057-2026-10-09",
+ "nodes": [],
+ "num": 116,
+ "one": "호주 사모신용 시장에서 당국 단속에 이어 금리 상승에 따른 스트레스 경고까지 나왔다\n· ASIC는 10월 초 공시 미흡을 이유로 2억 5,180만 호주달러 규모 ASCF 펀드 3개에 판매 중지를 명령했다\n· 13일에는 7억 9,990만 호주달러의 아레스 신용펀드에도 21일간 판매 중지를 내렸다\n· 아레스의 피터 그라프는 기준금리가 올해 네 번 올라 4.6%가 되며 부동산 차주 부담이 커졌다고 경고했다\n· 6개월 전 8~9%였던 선순위 부동산 대출 금리는 11~12% 수준으로 올랐다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T13:34:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Private Equity Wire",
+   "u": "https://www.privateequitywire.co.uk/asic-suspends-fundraising-for-three-ascf-private-credit-funds/"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "ASIC",
+   "u": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-241mr-asic-issues-ddo-stop-order-against-fidante-partners-limited-for-tmd-deficiencies"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Money Management",
+   "u": "https://www.moneymanagement.com.au/asic-issues-interim-stop-order-on-800m-credit-income-fund/"
+  },
+  {
+   "o": "Private Equity Wire",
+   "d": "2026-10-20",
+   "u": "https://www.privateequitywire.co.uk/ares-warns-australian-private-credit-faces-further-stress-as-rates-hit-4-6/"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-16",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/16/australian-private-credit-hit-by-big-banks-retreat"
+  }
+ ],
+ "tags": [],
+ "title": "호주 사모신용 압박…아레스 '금리 4.6%로 스트레스 주시', ASIC 펀드 판매 중지 잇따라",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.reuters.com/legal/government/australias-asic-halts-fundraising-by-three-ascf-private-credit-funds-2026-10-07/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "ASIC 사모신용 펀드 판매 중지 잇따라"
+  },
+  {
+   "ind": "fin",
+   "node": "pcredit",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "부동산 선순위 대출 금리 11~12%로 상승"
+  }
+ ],
+ "added": "블룸버그 1건 — 아레스의 금리 4.6% 상승기 호주 사모신용 스트레스 경고와 부동산 대출 금리 8~9%→11~12% 상승 내용이 추가됨"
+}

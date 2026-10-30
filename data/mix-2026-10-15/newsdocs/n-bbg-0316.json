@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0316",
+ "num": 316,
+ "key": "mix-G2-038-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T07:18:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/carney-heads-to-alberta-days-before-canada-separation-vote",
+ "origTitle": "",
+ "headline": "카니 총리, 10월 19일 앨버타 분리 투표 앞두고 현지서 잔류 호소",
+ "src": [
+  {
+   "o": "CBC",
+   "d": "2026-10-14",
+   "u": "https://www.cbc.ca/news/canada/edmonton/carney-alberta-rallies-canadian-unity-9.7379637"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-10-15",
+   "u": "https://www.cbc.ca/news/canada/calgary/mark-carney-no-to-the-nine-alberta-referendum-9.7382226"
+  }
+ ],
+ "items": [
+  {
+   "t": "카니 총리, 캐나다 분리 투표 며칠 앞두고 앨버타行",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/carney-heads-to-alberta-days-before-canada-separation-vote"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "카니 총리, 10월 19일 앨버타 분리 투표 앞두고 현지서 잔류 호소",
+ "one": "카니 캐나다 총리가 10월 19일 앨버타 분리 주민투표를 며칠 앞두고 캘거리·에드먼턴 집회에 나서 잔류를 호소하면서, 분리 지지율이 22% 안팎인 가운데 산유 주의 이탈 논란이 투표 결과에 쏠리고 있다",
+ "facts": [
+  "무엇이: 카니 총리는 10월 19일 앨버타 주민투표를 앞두고 캘거리(목요일)·에드먼턴(금요일)에서 열리는 잔류 집회에 참석한다 [사실]",
+  "투표 성격: 이번 투표는 독립을 바로 정하지 않고, 두 번째 구속력 있는 분리 투표를 위한 헌법 절차를 밟을지를 묻는다 [사실]",
+  "여론: 스미스 앨버타 주총리는 최근 여론조사에서 분리 지지가 약 22%라고 밝혔다 [사실]",
+  "카니 발언: 카니는 이민·헌법 개정을 다룬 9개 문항에도 반대표를 던지라고 촉구했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(CBC·ABC 뉴스)으로 일정과 투표 성격 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "앨버타 분리 투표 앞둬, 수급 영향은 아직 판단 어려움"
+  }
+ ]
+}

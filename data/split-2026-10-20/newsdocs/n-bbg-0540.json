@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0540",
+ "num": 540,
+ "key": "split-G5-039-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/transferencias-rapidas-sacuden-el-negocio-global-de-remesas-mvffayeb",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "빠른 송금 수단 확산에 세계 해외송금 사업 흔들려",
+ "headline": "빠른 송금 수단 확산에 세계 해외송금 사업 흔들려",
+ "one": "빠른 송금 수단이 퍼지면서 세계 해외송금 사업이 흔들리고, 기존 송금 업체들이 새 결제 방식을 들이며 대응을 서두르고 있어 송금 수수료 사업이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 빠른 송금 수단이 퍼지면서 세계 해외송금 사업이 흔들리고 있다 [제목]",
+  "대응: 기존 송금 업체들이 새 결제 방식으로 대응을 서두르고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 20일, 스페인어 분석). 원 문서 확인 기록에서도 송금 시장 기사는 제목 기준이어서 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "빠른 송금 수단이 세계 해외송금 사업을 뒤흔든다",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/transferencias-rapidas-sacuden-el-negocio-global-de-remesas-mvffayeb"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "빠른 송금 수단 확산에 기존 송금 사업 위축"
+  }
+ ]
+}

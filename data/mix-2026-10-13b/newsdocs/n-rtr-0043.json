@@ -1,0 +1,97 @@
+{
+ "basis": "channel",
+ "check": "새 텔레그램 글은 검색하지 않음. 골드만삭스 등 일부 은행주의 약세장 진입은 확인 못 함. 지수 조정·실적 일정은 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: KBW 은행지수가 8월 중순 고점보다 10% 넘게 떨어져 기술적 조정에 들어갔고, 10년물 국채금리는 약 5.27%로 약 24년 만의 최고 수준입니다 [사실]",
+  "약세장: 골드만삭스 등 일부 은행주는 20% 넘게 떨어져 기술적 약세장에 들어섰습니다 [채널]",
+  "실적: JP모건·골드만삭스·씨티·웰스파고가 10월 13일 개장 전 실적을 내며, 트레이딩 수입은 약 190억 달러로 예상됩니다 [사실]",
+  "관전 포인트: 투자자들은 고금리가 신용 건전성과 대출 수요를 해치는지 주시하고 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 은행주 {{기술적 조정}}…골드만은 약세장 진입 속 실적 시즌",
+ "id": "n-rtr-0043",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "미 은행 투자자들, 3분기 실적서 고금리 영향·딜 전망 주목",
+   "u": "https://www.reuters.com/business/finance/us-bank-investors-focus-impact-higher-rates-deals-outlook-q3-earnings-2026-10-08/",
+   "s": "미 은행 투자자들이 {{3분기 실적}}에서 {{고금리 영향}}과 딜 전망을 주목하면서 고금리가 신용 건전성과 대출 수요를 해치는지가 관전 포인트가 됐다"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "은행 실적 주간 앞두고 보너스·AI·고용이 2027년 전망 좌우",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-08/bonuses-ai-and-jobs-color-2027-outlook-ahead-of-bank-earnings-week",
+   "s": "은행 실적 주간을 앞두고 {{보너스·AI·고용}} 문제가 은행권의 {{2027년 전망}}을 좌우하는 변수로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "미 주요 은행주 나란히 기술적 조정, 골드만 등 일부는 약세장 진입",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-09",
+   "u": "https://t.me/The_MariTimes/63617",
+   "s": "{{국채금리 상승}}이 은행에 악재로 작용하면서 미 주요 은행주가 한 달 반 새 10% 넘게 떨어지고 {{골드만삭스}} 등은 20% 넘게 밀렸다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "주식 트레이딩 데스크가 은행주 분위기 반전 이끌 수도",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/equity-trading-desks-may-spur-a-vibe-shift-on-bank-stocks",
+   "s": "{{주식 트레이딩}} 데스크 호조로 약 {{190억 달러}}로 예상되는 트레이딩 수입이 침체된 은행주 분위기를 바꿀 수 있다는 분석이 나왔다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "미 은행주, 금리 상승 속 조정 국면에 갇힌 채 실적 시즌으로",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/bank-stocks-mired-in-correction-as-yields-surge-before-earnings",
+   "s": "{{KBW 은행지수}}가 8월 중순 고점보다 {{10% 넘게}} 떨어진 조정 국면에서 10년물 금리가 약 5.27%로 오른 채 은행들이 실적 시즌을 맞았다"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "씨티, 미국 내 규제 부담의 신속한 해소를 추진",
+   "u": "https://www.reuters.com/legal/transactional/citi-seeks-rapid-resolution-its-us-regulatory-burdens-2026-10-12/",
+   "s": "{{씨티}}가 미국 내 {{규제 부담}}을 신속히 해소하려 추진하면서 사업 확대를 막던 규제 제약이 줄어들 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C092-2026-10-09",
+ "nodes": [
+  "macro/rates"
+ ],
+ "num": 43,
+ "one": "{{미 은행주}}가 국채금리 급등 속에 한 달 반 사이 나란히 10% 넘게 떨어지고 {{골드만삭스}} 등 일부는 20% 이상 밀려 약세장에 들어선 가운데 13일 3분기 실적을 맞으면서, 약 190억 달러로 예상되는 {{트레이딩 수입}}이 분위기를 바꿀지가 관건이 됐다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T06:29:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10",
+   "o": "Alphastreet",
+   "u": "https://news.alphastreet.com/jpmorgan-chase-q3-2026-earnings-preview-october-13-street-expects-5-93-eps/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "AdvisorHub",
+   "u": "https://www.advisorhub.com/bank-stocks-mired-in-correction-as-yields-surge-before-earnings/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Forbes",
+   "u": "https://www.forbes.com/sites/jimosman/2026/10/12/jpmorgan-earnings-may-reveal-what-5-rates-are-breaking/"
+  }
+ ],
+ "tags": [],
+ "title": "美 은행주 {{기술적 조정}}…골드만은 약세장 진입 속 실적 시즌",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.reuters.com/business/finance/us-bank-investors-focus-impact-higher-rates-deals-outlook-q3-earnings-2026-10-08/",
+ "added": "이번 텔레그램 1건으로 {{골드만삭스}} 등 일부 은행주가 {{20% 넘게 떨어져}} 기술적 약세장에 들어섰다는 내용이 추가됐다"
+}

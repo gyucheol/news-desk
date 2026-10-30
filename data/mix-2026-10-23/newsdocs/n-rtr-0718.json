@@ -1,0 +1,86 @@
+{
+ "id": "n-rtr-0718",
+ "num": 718,
+ "key": "mix-G2-033-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:10:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/abbvies-skin-disease-drug-reduces-lesions-trial-company-eyes-weight-loss-2026-10-22/",
+ "origTitle": "",
+ "headline": "면역 신약 경쟁…길리어드 펩스타 12.8억 달러 인수·英 J&J 경구 건선약 승인·애브비 임상",
+ "src": [
+  {
+   "o": "Pharmaceutical Technology",
+   "d": "2026-10-23",
+   "u": "https://www.pharmaceutical-technology.com/news/gilead-1-28bn-pepstar-deal-potential-icotyde-rival-ibd/"
+  },
+  {
+   "o": "The Pharma Letter",
+   "d": "2026-10-23",
+   "u": "https://www.thepharmaletter.com/biotech-news/gilead-to-acquire-investigational-oral-il-23r-inhibitor-hcxt-2001"
+  }
+ ],
+ "items": [
+  {
+   "t": "애브비 피부질환 신약, 임상서 병변 감소…비만 진출 모색",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/abbvies-skin-disease-drug-reduces-lesions-trial-company-eyes-weight-loss-2026-10-22/",
+   "s": "애브비의 피부질환 신약이 임상에서 병변을 줄인 가운데 회사가 비만 치료제 시장 진출을 모색하면서 파이프라인을 넓히려 하고 있다 (제목 기준)",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "길리어드, 펩스타 염증 신약 프로그램 12.8억 달러에 인수",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/litigation/gilead-buy-pepstars-inflammation-drug-program-128-billion-deal-2026-10-22/",
+   "s": "길리어드가 펩스타의 경구 IL-23R 억제제 프로그램을 12억 7,500만 달러에 사들이면서, J&J가 앞선 경구 염증성 장질환 치료제 경쟁에 뛰어들었다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "영국 당국, 존슨앤드존슨의 먹는 건선 치료제 승인",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-approves-jjs-oral-psoriasis-pill-2026-10-23/",
+   "s": "영국 당국이 J&J의 먹는 건선 치료제를 승인하면서, J&J가 영국 건선 치료 시장에 경구 신약을 내놓을 수 있게 됐다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "면역 신약 경쟁…길리어드 펩스타 12.8억 달러 인수·英 J&J 경구 건선약 승인·애브비 임상",
+ "one": "면역·염증 신약을 두고 대형 제약사들의 인수·허가·임상 소식이 잇따랐다\n· 길리어드는 펩스타의 경구 IL-23R 억제제 프로그램을 현금 12억 7,500만 달러(약 12.8억 달러)에 산다\n· 선두 후보 HCXT-2001은 초기 임상 중인 염증성 장질환 약이며 거래는 4분기 마무리 예정이다\n· 영국은 J&J의 경구 건선 치료제를 승인했다\n· 애브비의 피부질환 신약은 임상에서 병변을 줄였고, 회사는 비만약 진출을 모색하고 있다",
+ "facts": [
+  "무엇이: 길리어드는 펩스타의 경구 염증 신약 프로그램을 현금 12억 7,500만 달러(약 12.8억 달러)에 인수하기로 했다 [사실]",
+  "자산: 선두 후보 HCXT-2001은 초기 임상 단계의 경구 IL-23R 억제제로 염증성 장질환을 겨냥하며, 거래는 2026년 4분기 마무리 예정이다 [사실]",
+  "경쟁: 이 거래는 최근 승인된 J&J의 경구 IL-23 억제제 아이코티드(icotrokinra)를 따라잡으려는 시도로 평가된다 [사실]",
+  "영국 허가: 영국은 J&J의 경구 건선 치료제를 승인했다 [제목]",
+  "애브비: 애브비의 피부질환 신약이 임상에서 병변을 줄였고, 회사는 비만 시장 진출을 모색하고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "길리어드-펩스타 거래는 검색 결과 요약으로 확인. 영국의 J&J 승인과 애브비 임상 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "길리어드, 펩스타 경구 염증약 12.8억 달러 인수"
+  },
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국, J&J 경구 건선 치료제 승인"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

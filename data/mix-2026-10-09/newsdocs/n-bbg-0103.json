@@ -1,0 +1,99 @@
+{
+ "basis": "verified",
+ "check": "도이치텔레콤 등 유럽 통신주 하락폭·지수·T모바일 지분은 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 9일 도이치텔레콤 주가가 7~8% 떨어져 3년여 만의 최악의 하루로 향했고, 보다폰 4.5%·오랑주 3.4%·텔레포니카 3.3% 내리며 STOXX 600 통신지수는 3.3% 하락해 2월 이후 최저가 됐습니다 [사실]",
+  "연결 고리: 도이치텔레콤은 T모바일US 지분 54%를 보유해 미국 내 경쟁 심화에 직접 노출됩니다 [사실]",
+  "거래: 스페이스X는 그레인 매니지먼트로부터 800MHz 대역 최대 14MHz 쌍을 사들이며 FCC 승인이 필요하고, WSJ는 거래 규모를 80억 달러로 보도했습니다 [사실]",
+  "반론: ODDO BHF와 모건스탠리는 위협이 점진적이고 농촌부터 나타날 것으로 봤고, 아메리칸타워 등 통신탑 기업 주가는 5~6% 올랐습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "스페이스X 주파수 인수 충격, 유럽 통신주로 번져…도이치텔레콤 7% 급락",
+ "id": "n-bbg-0103",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+   "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+   "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/"
+  },
+  {
+   "t": "스페이스X 주파수 거래에 미국·유럽 통신주 동반 하락",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/"
+  },
+  {
+   "t": "스페이스X 주파수 거래에 도이치텔레콤 주가 7% 하락",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-spectrum-deal-sends-deutsche-telekom-shares-falling-7-2026-10-09/"
+  }
+ ],
+ "key": "bnd-C011-2026-10-09",
+ "nodes": [],
+ "num": 103,
+ "one": "스페이스X가 미국 전국 800MHz 저대역 주파수 인수에 합의하자 AT&T·버라이즌·T모바일에 이어 T모바일US 지분 54%를 가진 도이치텔레콤이 7% 넘게 급락하고 유럽 통신지수가 2월 이후 최저로 밀리면서, 통신사 경쟁 우려가 미국과 유럽으로 번지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T18:38:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Via Satellite",
+   "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-09",
+   "u": "https://uk.investing.com/news/stock-market-news/eu-telecom-stocks-fall-after-spacexs-move-to-become-a-wireless-carrier-4902338"
+  },
+  {
+   "o": "ADVFN",
+   "d": "2026-10-09",
+   "u": "https://uk.advfn.com/market-news/article/24372/european-telecom-shares-fall-as-spacex-expands-plans-for-us-mobile-network"
+  }
+ ],
+ "tags": [],
+ "title": "스페이스X 주파수 인수 충격, 유럽 통신주로 번져…도이치텔레콤 7% 급락",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+}

@@ -1,0 +1,525 @@
+import json
+D = "2026-10-23"
+TR, INS, POL, SSI, TNB, HANA = "텔레그램 트릴리온", "텔레그램 미국 주식 인사이더", "텔레그램 Polaristimes", "텔레그램 상상인 김진범", "텔레그램 TNBfolio", "텔레그램 하나증권 중국전략"
+BB, RT = "블룸버그", "로이터"
+
+def it(t, o, u, s=None):
+    x = {"t": t, "o": o, "d": D, "u": u}
+    if s: x["s"] = s
+    return x
+
+def L(*lines):
+    return "\n".join(l[:-1] if l.endswith(".") else l for l in lines)
+
+items = []
+skipped = []
+
+items.append({
+ "cid": "G1-002", "attachTo": "",
+ "title": "러우 종전 협상 재개…러·우·미 3자 회담 11월 초 아부다비·올레슈키 국지 휴전",
+ "one": L("푸틴 대통령이 미국·우크라이나와 종전 협상 재개에 동의하면서 3자 회담 일정이 잡혔다.",
+          "· 푸틴은 트럼프 특사들에게 직접 제안했고, 협상은 러·우와 유럽 전체 안보에 맞춰야 한다고 말했다.",
+          "· 크렘린은 러·우·미 3자 평화회담을 11월 초 아부다비에서 열 예정이라고 밝혔다.",
+          "· 백악관은 멜라니아 여사 중재로 10월 29일부터 올레슈키 인도적 국지 휴전이 발효된다고 밝혔다.",
+          "· 젤렌스키 대통령은 어떤 대러 제재 완화에도 반대한다는 입장을 미국·유럽에 전달했다.",
+          "· 루마니아 대통령은 러시아가 전쟁 종식이 아니라 확전을 노린다고 경고했다."),
+ "facts": ["무엇이: 크렘린은 러·우·미 3자 평화회담을 11월 상반기 아부다비에서 열 예정이라고 밝혔고, 우샤코프 보좌관은 11월 10일 전후로 날짜를 맞췄다고 말했다 [사실]",
+           "푸틴: 위트코프 특사 면담 뒤 협상 재개에 동의했고, 단기 휴전이 아니라 최종 평화협정의 안보 보장을 다뤄야 한다고 말했다 [사실]",
+           "올레슈키: 백악관은 멜라니아 여사 중재로 10월 29일부터 인도적 지원·민간인 대피를 위한 국지 휴전이 발효되며, 주민 약 1,700~2,000명이 남아 있다고 밝혔다 [사실]",
+           "젤렌스키: 어떤 제재 완화에도 반대하며 이를 유럽 파트너와 미 행정부에 직접 전달했다고 말했다 [채널]",
+           "루마니아: 대통령은 러시아가 전쟁을 끝내려는 것이 아니라 확전을 노린다고 말했다 [제목]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 3자 회담 일정·푸틴 발언 확인, 백악관 성명 열람으로 올레슈키 휴전 확인. 젤렌스키 발언은 채널, 루마니아 대통령 발언은 제목만 근거",
+ "src": [{"o": "알자지라", "d": D, "u": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"},
+         {"o": "TASS", "d": D, "u": "https://tass.com/politics/2206847"},
+         {"o": "백악관", "d": D, "u": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"}],
+ "inds": ["macro"], "nodes": ["macro/geo"],
+ "vc": [{"ind": "macro", "node": "geo", "f": "-", "dir": "flat", "k": "예상", "t": "러·우·미 3자 회담 11월 초 아부다비 개최 예정"}],
+ "items": [
+  it("젤렌스키 '어떤 대러 제재 완화에도 반대'…미·유럽에 입장 전달", TR, "https://t.me/Trillion_labs/11143",
+     "젤렌스키 대통령이 어떤 제재 완화에도 반대한다는 입장을 유럽 파트너와 미 행정부에 직접 전달하면서, 종전 협상에서 대러 제재가 쟁점으로 남았다"),
+  it("푸틴, 트럼프 특사에 미·우크라와 종전 협상 재개 제안", TR, "https://t.me/Trillion_labs/11160",
+     "푸틴 대통령이 트럼프 대통령의 특사들에게 우크라이나·미국과의 종전 협상에 응하겠다고 직접 제안하면서, 멈췄던 3자 협상 재개 길이 열렸다"),
+  it("루마니아 대통령 '러시아는 전쟁 종식 아닌 확전 노려'", BB, "https://www.bloomberg.com/news/articles/2026-10-22/russia-looking-to-escalate-war-not-end-it-romanian-leader-says",
+     "루마니아 대통령이 러시아가 전쟁을 끝내기보다 확전을 노린다고 경고하면서, 종전 협상 재개에 대한 동유럽의 불신을 드러냈다 (제목 기준)"),
+  it("푸틴 '협상은 러·우와 유럽 전체의 안보에 초점 맞춰야'", RT, "https://www.reuters.com/world/europe/putin-says-talks-must-focus-security-russia-ukraine-europe-overall-2026-10-22/",
+     "푸틴 대통령이 협상은 러시아·우크라이나와 유럽 전체의 안보에 초점을 맞춰야 한다고 말하면서, 단기 휴전보다 안보 보장 틀을 요구했다"),
+  it("크렘린 '러·우·미 3자 평화회담 11월 초 아부다비 개최'", INS, "https://t.me/insidertracking/67102",
+     "크렘린이 러·우·미 3자 평화회담을 11월 초 아랍에미리트 아부다비에서 열 예정이라고 발표하면서, 미국 중재 협상이 다시 일정에 올랐다"),
+  it("백악관 '멜라니아 중재로 러·우 올레슈키 국지 휴전 성사'", POL, "https://t.me/The_MariTimes/63952",
+     "백악관이 멜라니아 여사가 러·우 사이 올레슈키 국지 휴전을 중재했다고 밝히면서, 10월 29일부터 인도적 지원과 민간인 대피 통로가 열린다"),
+  it("백악관 '멜라니아 여사, 러·우 올레슈키 휴전 확보'", RT, "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/",
+     "로이터가 백악관 발표를 인용해 멜라니아 여사의 올레슈키 휴전 확보를 전하면서, 주민 1,700~2,000명이 남은 도시의 인도적 휴전이 알려졌다")]})
+
+items.append({
+ "cid": "G1-011", "attachTo": "",
+ "title": "카타르, 미국산 LNG 확보…셰니에르 23년 연 400만 톤·캐나다 2030년 수출능력 3,300만 톤",
+ "one": L("카타르에너지가 호르무즈 밖 공급원을 찾아 미국산 LNG 장기 구매에 나섰다.",
+          "· 카타르에너지는 셰니에르와 2031~2054년 23년간 연 400만 톤 구매 계약을 맺었다.",
+          "· 물량은 사빈패스·코퍼스크리스티에서 각 200만 톤이며 헨리허브 연동에 고정 수수료를 더한다.",
+          "· 카타르에너지는 벤처글로벌과도 장기 LNG 구매 협상을 벌이고 있다.",
+          "· 캐나다는 LNG 캐나다 2단계 확장 등으로 2030년 수출능력을 연 3,300만 톤으로 늘릴 예정이다."),
+ "facts": ["무엇이: 카타르에너지는 10월 22일 셰니에르와 사빈패스·코퍼스크리스티에서 각 연 200만 톤, 모두 연 400만 톤을 2031~2054년 사들이는 23년 계약을 맺었다 [사실]",
+           "조건: 본선인도(FOB) 방식에 헨리허브 연동 가격과 고정 수수료를 붙이며, 사빈패스 물량 중 연 100만 톤은 1단계 확장 최종투자결정에 달렸다 [사실]",
+           "배경: 3월 이란의 라스라판 미사일 공격 뒤 카타르에너지는 걸프 밖 공급원을 찾고 있다 [사실]",
+           "벤처글로벌: 카타르에너지가 벤처글로벌과 장기 LNG 구매 계약을 협상 중이라고 소식통들이 전했다 [제목]",
+           "캐나다: LNG 캐나다 2단계 확장과 시더 LNG·우드파이버 추가 생산으로 2030년까지 연 LNG 수출능력을 3,300만 톤으로 늘릴 예정이다 [채널]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 셰니에르 계약 물량·기간·가격 조건 확인. 벤처글로벌 협상은 제목, 캐나다 수출능력은 채널 근거",
+ "src": [{"o": "Natural Gas Intelligence", "d": D, "u": "https://naturalgasintel.com/news/cheniere-inks-long-term-lng-deal-with-qatarenergy/"},
+         {"o": "gCaptain", "d": D, "u": "https://gcaptain.com/qatarenergy-signs-long-term-deal-to-buy-u-s-lng-as-iran-war-disrupts-exports/"},
+         {"o": "AGBI", "d": D, "u": "https://www.agbi.com/oil-and-gas/2026/10/qatarenergy-turns-to-us-lng-to-make-up-for-war-disruption/"}],
+ "inds": ["gas"], "nodes": ["gas/trade", "gas/liquefaction"],
+ "vc": [{"ind": "gas", "node": "trade", "f": "수요", "dir": "up", "k": "실제", "t": "카타르, 셰니에르서 23년간 연 400만 톤 구매 계약"},
+        {"ind": "gas", "node": "liquefaction", "f": "공급", "dir": "up", "k": "예상", "t": "캐나다 2030년 LNG 수출능력 연 3,300만 톤 확대"}],
+ "items": [
+  it("카타르, 중동 밖 공급 늘리려 LNG 추가 확보 물색", BB, "https://www.bloomberg.com/news/articles/2026-10-22/qatar-scours-for-more-lng-to-boost-supply-outside-middle-east",
+     "카타르가 중동 밖 공급을 늘리려 LNG 추가 물량을 찾아 나서면서, 셰니에르와의 연 400만 톤 계약처럼 미국산 장기 계약이 늘고 있다"),
+  it("카타르에너지, 벤처글로벌과 LNG 장기 구매 협상 중(소식통)", RT, "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
+     "카타르에너지가 벤처글로벌과 LNG 장기 공급 계약을 협상 중이라고 소식통들이 전하면서, 셰니에르에 이어 미국산 조달처가 늘어날 수 있다 (제목 기준)"),
+  it("LNG 캐나다 2배 증설…2030년 수출능력 연 3,300만 톤", TR, "https://t.me/Trillion_labs/11171",
+     "캐나다가 LNG 캐나다 2단계 확장과 시더 LNG 등으로 2030년 수출능력을 연 3,300만 톤으로 늘리면서, 짧은 항로를 앞세워 아시아 시장을 노린다"),
+  it("카타르, 셰니에르서 2031~2054년 연 400만 톤 LNG 구매", TR, "https://t.me/Trillion_labs/11175",
+     "카타르가 셰니에르와 헨리허브 연동 23년 계약을 맺으면서, 사빈패스 7호기 최종투자결정과 코퍼스크리스티 4단계 확장에 힘이 실렸다")]})
+
+items.append({
+ "cid": "G1-018", "attachTo": "",
+ "title": "유럽 방산 수요 확대…사브 3분기 수주 3배·독일 유럽산 미사일 수천 기 구매 협상",
+ "one": L("유럽 방산 수요가 이어지며 사브가 3분기 예상을 웃도는 이익과 수주 급증을 기록했다.",
+          "· 사브의 3분기 영업이익은 19억 4,500만 크로나로 42% 늘어 시장 예상을 웃돌았다.",
+          "· 사브의 수주는 658억 크로나로 3배 넘게 늘었고 CEO는 수요 감소 신호가 없다고 말했다.",
+          "· 독일은 유럽산 미사일 수천 기 구매를 협상하고 있다.",
+          "· 영국 전투기가 프랑스 핵 억지 훈련에 처음으로 참가했다."),
+ "facts": ["무엇이: 사브의 3분기 영업이익은 19억 4,500만 크로나로 1년 전 13억 7,400만 크로나보다 42% 늘었고 이익률은 9.5%였다 [사실]",
+           "수주: 3분기 수주는 658억 크로나로 1년 전 209억 크로나의 3배를 넘었고, 우크라이나 그리펜 E 16대 계약 246억 크로나가 가장 컸다 [사실]",
+           "수주잔고: 3,642억 크로나로 1년 전보다 80% 늘었고 3분기 매출은 206억 크로나였다 [사실]",
+           "독일: 유럽산 미사일 수천 기 구매를 협상하고 있다 [제목]",
+           "영국·프랑스: 영국 전투기가 프랑스 핵 억지 훈련에 처음 참가했다고 프랑스가 밝혔다 [제목]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 사브 영업이익·수주·수주잔고 확인. 독일 미사일 협상과 영국 전투기 훈련 참가는 제목만 근거",
+ "src": [{"o": "사브", "d": D, "u": "https://www.saab.com/newsroom/press-releases/2026/saab-q3-results-2026positioned-to-capture-growing-demand"},
+         {"o": "CNBC", "d": D, "u": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html"}],
+ "inds": ["aero"], "nodes": [],
+ "vc": [{"ind": "aero", "node": "defspend", "f": "수요", "dir": "up", "k": "실제", "t": "사브 3분기 수주 658억 크로나로 3배 넘게 증가"},
+        {"ind": "aero", "node": "munitions", "f": "수요", "dir": "up", "k": "예상", "t": "독일, 유럽산 미사일 수천 기 구매 협상"}],
+ "items": [
+  it("방산업체 사브, 3분기 영업이익 시장 예상 웃돌아", RT, "https://www.reuters.com/business/aerospace-defense/defence-group-saabs-q3-operating-profit-beats-expectations-2026-10-23/",
+     "사브의 3분기 영업이익이 19억 4,500만 크로나로 42% 늘어 예상을 웃돌면서, 유럽 재무장 수요가 실적으로 확인됐다"),
+  it("독일, 유럽에서 만든 미사일 수천 기 구매 협상 중", BB, "https://www.bloomberg.com/news/articles/2026-10-23/germany-in-talks-to-buy-thousands-of-european-made-missiles",
+     "독일이 유럽에서 만든 미사일 수천 기 구매를 협상하면서, 유럽 미사일 업체들의 장기 물량이 늘어날 수 있다 (제목 기준)"),
+  it("사브 CEO '수주 3배 늘어…수요 감소 신호 없다'", BB, "https://www.bloomberg.com/news/articles/2026-10-23/saab-ceo-sees-no-signs-of-demand-decline-as-order-intake-triples",
+     "사브 CEO가 수주가 3배로 늘어난 가운데 수요 감소 신호가 없다고 말하면서, 수주잔고 3,642억 크로나가 수요 지속을 뒷받침했다"),
+  it("프랑스 '영국 전투기, 프랑스 핵 훈련에 처음 참가'", RT, "https://www.reuters.com/business/aerospace-defense/british-jets-join-french-nuclear-exercise-first-time-france-says-2026-10-23/",
+     "영국 전투기가 프랑스 핵 억지 훈련에 처음 참가했다고 프랑스가 밝히면서, 유럽 핵 억지력 협력이 한 단계 넓어졌다 (제목 기준)")]})
+
+items.append({
+ "cid": "G1-030", "attachTo": "",
+ "title": "美 국방부·록히드 F-35 850대 10년 기본합의…3분기 매출 207억 달러 11%↑·전망 상향",
+ "one": L("미 국방부가 록히드마틴과 F-35 850대를 10년간 사들이는 기본합의를 발표했다.",
+          "· 합의는 연 156대 생산을 뒷받침하며 록히드는 장기 생산에 70억 달러를 들인다.",
+          "· 다만 의회 예산 승인 전 단계여서 확정 발주와는 구분되며 차기 물량 계약은 2027년으로 밀렸다.",
+          "· 록히드의 3분기 매출은 207억 달러로 11% 늘었고 수주잔고는 2,920억 달러로 사상 최대였다.",
+          "· 록히드는 2026년 매출 전망을 800억~820억 달러로 높였다."),
+ "facts": ["무엇이: 미 국방부는 록히드마틴과 미군용 F-35 850대와 해외 고객용 수백 대·예비부품을 포함한 10년 구매 기본합의를 발표했다 [사실]",
+           "조건: 연 156대 생산 계획을 뒷받침하고 산업 기반에 70억 달러를 들이지만 의회 승인 전이며, 회사는 F-35 20차 이후 생산 계약을 여전히 협상 중이다 [사실]",
+           "실적: 3분기 매출은 207억 달러로 11% 늘었고 주당순이익은 7.97달러, 잉여현금흐름은 30억 달러, 수주잔고는 2,920억 달러로 사상 최대였다 [사실]",
+           "전망: 2026년 매출 전망을 800억~820억 달러로 높였지만 차기 F-35 물량 계약은 2027년으로 미뤄진다고 가정했다 [사실]",
+           "비용: 850대를 기종별 평균 단가로 계산하면 약 918억 달러에 이른다는 추산이 나왔다 [채널]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(회사 실적 발표·10-Q)으로 매출·수주잔고·전망·기본합의 성격 확인. 918억 달러 비용 추산은 채널 근거",
+ "src": [{"o": "록히드마틴 8-K", "d": "2026-10-22", "u": "https://www.sec.gov/Archives/edgar/data/0000936468/000162828026066780/ex991q32026.htm"},
+         {"o": "록히드마틴 10-Q", "d": "2026-10-22", "u": "https://www.sec.gov/Archives/edgar/data/0000936468/000162828026066928/lmt-20260927.htm"},
+         {"o": "Quartz", "d": "2026-10-22", "u": "https://qz.com/lockheed-martin-raises-annual-forecast-missiles-jets-102226"}],
+ "inds": ["aero"], "nodes": [],
+ "vc": [{"ind": "aero", "node": "platforms", "f": "수요", "dir": "up", "k": "예상", "t": "F-35 850대 10년 구매 기본합의, 의회 승인 남아"}],
+ "items": [
+  it("美 국방부, 록히드와 F-35 850대 10년 구매 기본합의", SSI, "https://t.me/PipeBeom/6822",
+     "미 국방부가 록히드와 F-35 850대 구매 기본합의를 발표하면서 연 156대 생산과 70억 달러 투자가 뒷받침되지만, 의회 예산 승인은 아직 남았다"),
+  it("F-35 850대 10년 계약…평균 단가 적용 시 약 918억 달러", INS, "https://t.me/insidertracking/67051",
+     "F-35 850대 10년 계약 비용이 기종별 평균 단가로 약 918억 달러로 추산되면서, 비용 초과와 결함 논란 속 의회 승인 여부가 변수로 떠올랐다"),
+  it("록히드 3분기 매출 207억 달러 11%↑…연간 전망 상향", INS, "https://t.me/insidertracking/67064",
+     "록히드마틴의 3분기 매출이 207억 달러로 11% 늘고 수주잔고가 2,920억 달러로 불어나면서, 연간 매출 전망이 800억~820억 달러로 높아졌다")]})
+
+items.append({
+ "cid": "G1-042", "attachTo": "n-rtr-0361",
+ "title": "폭스바겐 노조 1월 파업 경고…2030년 임금 동결 갈등·스텔란티스 캐나다 97.3% 파업 가결",
+ "one": L("폭스바겐 임금 동결 추진과 스텔란티스 캐나다 파업권 가결에 이어 폭스바겐 노조가 1월 파업을 경고했다.",
+          "· 폭스바겐은 10월 19일 협상을 시작하며 66만 명 넘는 직원 임금을 2030년까지 2026년 수준에 묶으려 했다.",
+          "· IG메탈은 5% 인상을 요구하며 협약 해지를 철회하지 않으면 1월 1일부터 파업에 나서겠다고 경고했다.",
+          "· 폭스바겐은 13개 단체협약 가운데 10개를 12월 31일자로 해지 통보했다.",
+          "· 스텔란티스 캐나다 공장 유니포 노조원 9,000여 명 투표에서 97.3%가 파업권을 승인했다.",
+          "· 스텔란티스는 윈저 조립공장 생산을 11월 2일 주까지 3주간 취소했다."),
+ "facts": ["무엇이: IG메탈은 폭스바겐이 단체협약 해지를 철회하지 않으면 파업 금지 협정이 끝나는 2027년 1월 1일부터 파업 등 쟁의에 대비하겠다고 경고했다 [사실]",
+           "임금: 노사협의회는 이사회가 전 세계 66만 명 넘는 직원의 임금을 2030년까지 2026년 수준으로 묶으려 한다고 밝혔고, IG메탈은 5% 인상을 요구한다 [사실]",
+           "협약 해지: 폭스바겐은 13개 단체협약 중 10개를 2026년 12월 31일자로 해지 통보했고, 협상은 10월 19일 시작됐으며 노조는 11월 24일 본협상 개시를 원한다 [사실]",
+           "스텔란티스: 캐나다 공장 유니포 노조원 9,000여 명 투표에서 97.3%가 파업권을 승인했지만 아직 합법 파업 요건은 갖추지 않았다 [제목]",
+           "생산: 스텔란티스는 윈저 조립공장 생산을 11월 2일 주까지 3주간 취소했다 [제목]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 IG메탈 파업 경고·1월 1일 휴전 만료·13개 중 10개 협약 해지 확인. 스텔란티스 내용은 기존 문서 근거 유지",
+ "src": [{"o": "TimesLIVE", "d": D, "u": "https://www.timeslive.co.za/motoring/2026-10-23-volkswagen-workers-threaten-strikes-unless-wage-deals-are-reinstated/"},
+         {"o": "IndexBox", "d": D, "u": "https://www.indexbox.io/blog/volkswagen-workers-threaten-industrial-action-over-cancelled-wage-agreements/"}],
+ "inds": ["auto"], "nodes": [],
+ "vc": [{"ind": "auto", "node": "oem", "f": "공급", "dir": "down", "k": "예상", "t": "IG메탈, 1월 파업 경고로 폭스바겐 생산 차질 우려"}],
+ "added": "로이터·블룸버그 2건 — IG메탈의 단체협약 해지 철회 요구와 2027년 1월 1일 파업 금지 협정 만료 뒤 파업 경고 내용이 추가됨",
+ "items": [
+  it("폭스바겐 노동자들, 협약 해지 철회 없으면 파업 경고", RT, "https://www.reuters.com/business/world-at-work/volkswagen-workers-threaten-strikes-unless-carmaker-reverses-labour-deal-2026-10-23/",
+     "IG메탈이 폭스바겐에 단체협약 해지 철회를 요구하며 파업을 경고하면서, 13개 협약 중 10개 해지로 독일 공장 생산 차질 위험이 커졌다"),
+  it("폭스바겐, 노사 충돌 심화 속 1월 파업 위협 직면", BB, "https://www.bloomberg.com/news/articles/2026-10-23/volkswagen-faces-january-strike-threat-as-labor-clash-deepens",
+     "폭스바겐 노사 충돌이 깊어지면서 파업 금지 협정이 끝나는 1월부터 파업 위협이 커져, 2030년까지의 임금 동결 추진에 제동이 걸릴 수 있다")]})
+
+items.append({
+ "cid": "G1-052", "attachTo": "n-tg-0687",
+ "title": "디젤 부족 각국 대응…IEA 디젤 2천만 배럴 방출·이탈리아 트럭 시위 식품 배송 차질 뒤 봉쇄 해제",
+ "one": L("디젤 부족에 미국·IEA·프랑스가 대응했고 이탈리아 트럭 시위는 식품 배송 차질 뒤 풀렸다.",
+          "· 트럼프 대통령은 미국이 디젤 수출량 상한제를 실시할 수 있다고 말했다.",
+          "· 비롤 IEA 사무총장은 디젤 2천만 배럴 방출 시기가 각국과 겨울 시장 상황에 달렸다고 밝혔다.",
+          "· 비롤 사무총장은 필요하면 추가 비축유 방출에 나설 준비가 돼 있다고 말했다.",
+          "· 프랑스는 경유값 급등 속에 걸프 국가들에서 디젤 일부를 확보했다.",
+          "· 이탈리아 트럭 시위로 파스타·피자 식품 공급이 막혔고 라도리아는 남부 7개 공장을 세웠다.",
+          "· 정부가 세액공제 1억 600만 유로를 더하자 트럭 운전사들이 도로 봉쇄를 풀었다."),
+ "facts": ["무엇이: IEA는 10월 15일 3월 방출분 중 남은 물량을 앞당겨 풀기로 했고 여기에는 디젤 2천만 배럴 이상이 포함되며, 비롤 사무총장은 시기는 각국과 겨울 시장에 달렸고 필요하면 추가 방출에 나서겠다고 했다 [사실]",
+           "미국: 트럼프 대통령은 석유 수출 제한은 세계에 큰 영향을 주지만 디젤 수출량 상한제는 실시할 수 있다고 말했다 [채널]",
+           "프랑스: 경유값 급등 속에 걸프 국가들에서 디젤 일부를 확보했다 [제목]",
+           "이탈리아 시위: 시칠리아에서 시작된 트럭 시위가 남부로 번져 항구·도로가 막혔고, 라도리아는 남부 7개 공장을 멈췄으며 룸모는 캄파니아 생산을 중단했다 [사실]",
+           "봉쇄 해제: 정부가 기존 4억 3,400만 유로에 세액공제 1억 600만 유로를 더하자 10월 22일 시칠리아·칼라브리아에서 봉쇄 해제·중단이 이어졌다 [사실]"],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 시위 완화·정부 지원 증액·식품 공장 중단 확인. 피자 배송 타격은 블룸버그 제목만 근거",
+ "src": [{"o": "ESM Magazine", "d": "2026-10-22", "u": "https://www.esmmagazine.com/supply-chain/southern-italy-truckers-ease-protests-as-government-approves-aid-324376"},
+         {"o": "Internazionale", "d": "2026-10-22", "u": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/22/southern-italy-truckers-ease-protests-as-government-lines-up-aid"}],
+ "inds": ["consumer"], "nodes": [],
+ "vc": [{"ind": "consumer", "node": "food", "f": "공급", "dir": "down", "k": "실제", "t": "이탈리아 트럭 시위로 파스타·피자 배송 차질"}],
+ "added": "블룸버그 2건 — 이탈리아 트럭 시위로 파스타·피자 식품 공급이 막힌 뒤 정부 지원 증액 속에 도로 봉쇄가 풀린 내용이 추가됨",
+ "items": [
+  it("이탈리아 트럭 운전사 시위에 피자·파스타 공급 타격", BB, "https://www.bloomberg.com/news/newsletters/2026-10-23/pizza-and-pasta-hit-by-italian-trucker-protests",
+     "이탈리아 트럭 시위로 원료 운송이 막히면서 라도리아가 남부 7개 공장을 세우는 등 파스타·피자 식품 공급이 타격을 입었다"),
+  it("이탈리아 트럭 운전사들, 식품 배송 막았던 도로 봉쇄 해제", BB, "https://www.bloomberg.com/news/articles/2026-10-23/italian-truckers-lift-roadblocks-that-snarled-food-deliveries",
+     "정부가 트럭 운전사 세액공제를 1억 600만 유로 늘리자 운전사들이 도로 봉쇄를 풀면서, 막혔던 식품 배송이 다시 풀릴 수 있게 됐다")]})
+
+items.append({
+ "cid": "G1-066", "attachTo": "",
+ "title": "발레오 3분기 매출 2.3% 감소…자동차 업황 부진 속 연간 전망은 유지",
+ "one": L("프랑스 부품사 발레오의 3분기 매출이 48억 8,100만 유로로 2.3% 줄었다.",
+          "· 완성차 납품 매출은 동일 기준 3.8% 줄어 시장 감소폭 1.6%보다 컸다.",
+          "· 발레오는 2026년 매출 200억~210억 유로 전망을 유지했지만 주가는 12.4% 떨어졌다."),
+ "facts": ["무엇이: 발레오의 3분기 매출은 48억 8,100만 유로로 1년 전보다 2.3%, 동일 기준 2.6% 줄었다 [사실]",
+           "부문: 완성차 납품은 동일 기준 3.8% 줄어 시장(-1.6%)보다 부진했고, POWER 부문은 10% 줄었으며 BRAIN 부문은 8.2% 늘었다 [사실]",
+           "전망: 2026년 매출 200억~210억 유로·영업이익률 4.7~5.3% 전망을 유지했고 주가는 12.4% 떨어졌다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(회사 발표·Investing.com)으로 매출·부문별 증감·전망 확인",
+ "src": [{"o": "발레오(GlobeNewswire)", "d": "2026-10-22", "u": "https://www.globenewswire.com/news-release/2026/10/22/3386727/0/en/valeo-q3-2026-sales.html"},
+         {"o": "Investing.com", "d": D, "u": "https://www.investing.com/news/earnings/valeo-stock-tumbles-after-narrowed-guidance-and-sales-decline-93CH-4968232"}],
+ "inds": ["auto"], "nodes": [],
+ "vc": [{"ind": "auto", "node": "parts", "f": "수요", "dir": "down", "k": "실제", "t": "발레오 3분기 매출 2.3% 감소"}],
+ "items": [it("발레오, 자동차 업황 부진 이어지며 분기 매출 감소", RT, "https://www.reuters.com/business/valeo-posts-lower-sales-auto-industry-weakness-persists-2026-10-22/")]})
+
+items.append({
+ "cid": "G1-076", "attachTo": "",
+ "title": "영국 가스·전력망 '겨울 대비 완료'…가스 여유 일 9,900만 m³·전력 예비력 5.9GW",
+ "one": L("영국 가스·전력망 운영사가 세계 공급 혼란에도 이번 겨울 수급에 문제가 없다고 밝혔다.",
+          "· 내셔널가스는 최대 가스 수요 일 4억 9,300만 m³에 공급능력이 5억 9,200만 m³라고 밝혔다.",
+          "· NESO는 전력 예비력을 최대 수요의 9.5%인 5.9GW로 6월 전망보다 높여 잡았다."),
+ "facts": ["무엇이: 영국 가스·전력망 운영사들은 호르무즈 해협 봉쇄 등 세계 혼란에도 2026/27년 겨울 수요를 맞출 수 있다고 밝혔다 [사실]",
+           "가스: 최대 수요는 하루 4억 9,300만 m³로 2% 늘고 공급능력은 5억 9,200만 m³로, 여유는 9,900만 m³이지만 최대 설비 고장 시 1,800만 m³로 준다 [사실]",
+           "전력: 일반적인 한파 때 예비력은 5.9GW(최대 수요의 9.5%)로 6월 전망 5.5GW보다 높고, 12월·1월 일부 날은 빠듯할 수 있다 [사실]",
+           "가격: 이란 전쟁 이후 영국 근월물 가스·전력 가격은 각각 약 180%, 120% 올랐다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 내셔널가스·NESO 겨울 전망 수치 확인",
+ "src": [{"o": "Energy Live News", "d": D, "u": "https://www.energylivenews.com/2026/10/23/britain-will-have-sufficient-gas-supply-this-winter/"},
+         {"o": "Drax", "d": D, "u": "https://energy.drax.com/intelligence/neso-winter-outlook-report-2026-2027/"}],
+ "inds": ["gas", "power"], "nodes": ["gas/demand", "power/market"],
+ "vc": [{"ind": "gas", "node": "demand", "f": "수요", "dir": "up", "k": "예상", "t": "영국 겨울 최대 가스 수요 2% 증가 전망"},
+        {"ind": "power", "node": "market", "f": "공급", "dir": "up", "k": "예상", "t": "영국 겨울 전력 예비력 5.9GW로 6월보다 확대"}],
+ "items": [it("영국 가스·전력망 운영사 '세계 혼란에도 겨울 대비 완료'", RT, "https://www.reuters.com/business/energy/uk-gas-power-grids-ready-winter-despite-global-turmoil-operators-say-2026-10-23/")]})
+
+items.append({
+ "cid": "G1-086", "attachTo": "",
+ "title": "롤스로이스, 신형 협동체 엔진 개발에 英 정부 보조금 최대 2억 파운드 합의 근접",
+ "one": L("롤스로이스가 신형 엔진 개발을 위한 영국 정부 보조금 합의에 다가섰다고 FT가 보도했다.",
+          "· 보조금은 1억~2억 파운드로 단거리 기종용 울트라팬 30 시연 엔진 제작·시험에 쓰인다.",
+          "· 롤스로이스는 약 15년간 협동체 엔진 시장을 떠나 있었고 기체 채택은 보장되지 않는다."),
+ "facts": ["무엇이: FT는 롤스로이스가 영국 정부로부터 최대 2억 파운드의 보조금을 받는 합의에 근접했다고 보도했다 [사실]",
+           "용도: 보조금 1억~2억 파운드는 단거리 항공기용 울트라팬 30 엔진 시연기 제작·시험에 쓰이며 발표는 다음 주가 될 수 있다 [사실]",
+           "한계: 롤스로이스는 약 15년간 협동체 엔진 시장을 떠나 있었고 보조금이 기체 탑재를 보장하지 않으며, 회사는 논평을 거부했다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 FT 보도 내용(보조금 규모·용도) 확인, 정부·회사 공식 발표는 아직 없음",
+ "src": [{"o": "AeroTime", "d": D, "u": "https://www.aerotime.aero/articles/rolls-royce-uk-subsidy-deal-narrowbody-engine-ultrafan"},
+         {"o": "Euronext", "d": D, "u": "https://live.euronext.com/en/financial-news/rolls-royce-nears-government-subsidy-deal-develop-new-engine-uk-ft-reports"}],
+ "inds": ["aero"], "nodes": [],
+ "vc": [{"ind": "aero", "node": "oem", "f": "공급", "dir": "up", "k": "예상", "t": "롤스로이스, 협동체 엔진 개발 보조금 합의 근접"}],
+ "items": [it("롤스로이스, 신형 엔진 개발 英 정부 보조금 합의 근접(FT)", RT, "https://www.reuters.com/business/aerospace-defense/rolls-royce-nears-government-subsidy-deal-develop-new-engine-uk-ft-reports-2026-10-23/")]})
+
+items.append({
+ "cid": "G1-096", "attachTo": "",
+ "title": "브리티시랜드, 런던 개발 위기 속 캐나다워터 사업 중단",
+ "one": L("영국 부동산 개발사 브리티시랜드가 런던 개발 위기 속에 캐나다워터 사업을 멈췄다.",
+          "· 캐나다워터는 다음 단계 착공이 2027년부터로 예정됐던 런던 대형 재개발 단지다 (제목 기준)"),
+ "facts": ["무엇이: 브리티시랜드가 런던 개발 위기 속에 캐나다워터 사업을 중단했다 [제목]",
+           "배경: 캐나다워터 마스터플랜은 2027년부터 다음 단계 착공이 예정돼 있었고, 회사는 건축안전법과 건설비 상승을 이유로 계획을 수정한 바 있다 [사실]"],
+ "basis": "title",
+ "check": "검색과 회사 뉴스 페이지 열람에서 중단 보도는 확인 못 함, 사업 배경만 확인",
+ "src": [{"o": "Show House", "d": "", "u": "https://www.showhouse.co.uk/british-land-and-australiansuper-secure-approval-for-revised-canada-water-masterplan/news/"}],
+ "inds": ["realestate"], "nodes": [],
+ "vc": [{"ind": "realestate", "node": "develop", "f": "공급", "dir": "down", "k": "실제", "t": "브리티시랜드, 캐나다워터 개발 사업 중단"}],
+ "items": [it("브리티시랜드, 런던 개발 위기에 캐나다워터 사업 중단", BB, "https://www.bloomberg.com/news/articles/2026-10-23/british-land-halts-canada-water-project-amid-london-development-crisis")]})
+
+items.append({
+ "cid": "G1-106", "attachTo": "",
+ "title": "中 CMOC, 구리값 랠리와 생산 증가에 실적 급증…상반기 순이익 86%↑ 이어가",
+ "one": L("중국 광산사 CMOC가 구리값 랠리와 생산 증가에 힘입어 실적이 급증했다.",
+          "· 상반기 순이익은 161억 5,000만 위안으로 86% 늘었고 연간 구리 생산 목표는 76만~82만 톤이다 (제목 기준)"),
+ "facts": ["무엇이: CMOC가 구리값 랠리와 생산 증가로 실적이 급증했다 [제목]",
+           "상반기: 순이익은 161억 5,000만 위안으로 86.27% 늘었고 구리 생산은 38만 7,961톤으로 9.73% 늘었다 [사실]",
+           "목표: 2026년 구리 생산 목표는 76만~82만 톤이다 [사실]"],
+ "basis": "title",
+ "check": "검색·회사 사이트 열람에서 3분기 수치는 확인 못 함, 상반기 실적과 연간 목표만 확인",
+ "src": [{"o": "CMOC", "d": "2026-08-20", "u": "https://en.cmoc.com/html/2026/News_0820/97.html"}],
+ "inds": ["metals"], "nodes": [],
+ "vc": [{"ind": "metals", "node": "copper", "f": "공급", "dir": "up", "k": "실제", "t": "CMOC 구리 생산 증가로 실적 급증"},
+        {"ind": "metals", "node": "copper", "f": "가격", "dir": "up", "k": "실제", "t": "구리값 랠리가 CMOC 실적 끌어올려"}],
+ "items": [it("중국 CMOC, 구리값 랠리와 생산 증가에 실적 급증", BB, "https://www.bloomberg.com/news/articles/2026-10-23/china-s-cmoc-sees-earnings-soar-on-copper-rally-and-more-output")]})
+
+items.append({
+ "cid": "G2-009", "attachTo": "",
+ "title": "AI 거품 경고 잇따라…TS롬바드 '기술주 40% 급락 가능'·화타이 'DC 자금 1.3조 달러 부족'",
+ "one": L("AI 인프라 붐의 수익성과 자금 조달을 둘러싼 거품 경고가 기관마다 잇따라 나왔다.",
+          "· TS롬바드는 AI 거품이 2028년 초 터지면 S&P 500이 30%, 기술주가 40% 급락할 수 있다고 봤다.",
+          "· 화타이증권은 2030년까지 데이터센터 건설 자금이 1조 3,000억 달러 넘게 부족할 것으로 봤다.",
+          "· 세미애널리시스는 GPU가 이미 공급 과잉이며 2028년 데이터센터 과잉 위험이 있다고 진단했다.",
+          "· 램프 자료에서 AI 지출 상위 1% 기업의 80%가 벤처캐피털 지원을 받는 순환 구조가 드러났다.",
+          "· 블룸버그는 AI 인프라 구축을 둘러싼 분위기에 큰 전환이 일고 있다고 짚었다."),
+ "facts": ["무엇이: TS롬바드는 AI 설비투자 붕괴 시 S&P 500 30%, 기술주 40% 하락과 미국 시가총액 20조 달러 증발을 상정했다 [사실]",
+           "시점: 하나증권 전언으로는 TS롬바드가 거품 붕괴 시점을 2028년 초로 봤다 [채널]",
+           "자금: 화타이증권은 2030년까지 데이터센터 자금이 1조 3,000억 달러 넘게 부족하고 미국 16개 주에서 데이터센터 제한 법안이 발의됐으며, DDR5 가격은 1년 새 9배 넘게 올랐다고 짚었다 [채널]",
+           "공급: 세미애널리시스는 GPU가 이미 일정 수준 공급 과잉이며 2028년 수급이 뒤집혀 데이터센터가 과잉에 처할 수 있다고 봤다 [채널]",
+           "수요: 램프 자료에서 AI 지출 상위 1% 기업의 80%가 VC 지원을 받아 중간 지출 기업(13%)과 대비됐다 [채널]"],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 TS롬바드 S&P 500 30%·기술주 40%·20조 달러 확인. 2028년 초 시점과 화타이·세미애널리시스·램프 내용은 확인 못 함",
+ "src": [{"o": "Seeking Alpha", "d": "", "u": "https://seekingalpha.com/news/4656071-ai-bust-could-trigger-30-sp-500-plunge-20t-wipeout---ts-lombard"},
+         {"o": "Crypto Briefing", "d": "", "u": "https://cryptobriefing.com/ts-lombard-20-trillion-ai-crash/"}],
+ "inds": ["macro"], "nodes": ["macro/semis"],
+ "vc": [{"ind": "macro", "node": "semis", "f": "수요", "dir": "down", "k": "예상", "t": "TS롬바드, AI 거품 2028년 초 붕괴 가능 경고"},
+        {"ind": "tech", "node": "cloud", "f": "공급", "dir": "up", "k": "예상", "t": "세미애널리시스, 2028년 데이터센터 공급과잉 위험"}],
+ "items": [
+  it("램프 'AI 지출 상위 1% 기업 80%가 VC 지원'…순환 구조 우려", TR, "https://t.me/Trillion_labs/11135",
+     "램프 자료에서 AI 지출 상위 1% 기업의 80%가 벤처캐피털 지원을 받는 것으로 나타나면서, VC 자금이 줄면 클라우드·GPU 수요도 꺾일 수 있다는 우려가 나왔다"),
+  it("AI 인프라 구축을 둘러싼 시장 분위기에 큰 전환", BB, "https://www.bloomberg.com/news/newsletters/2026-10-22/a-big-shift-in-the-ai-buildout-zeitgeist",
+     "블룸버그가 AI 인프라 구축을 둘러싼 시장 분위기가 크게 바뀌고 있다고 짚으면서, 데이터센터 투자 낙관론이 흔들리고 있음을 시사했다 (제목 기준)"),
+  it("세미애널리시스 'GPU 이미 공급 과잉…2028년 데이터센터 과잉 위험'", TNB, "https://t.me/TNBfolio/71679",
+     "세미애널리시스가 GPU는 이미 공급 과잉이고 병목은 전력·데이터센터라고 진단하면서, 2028년에는 데이터센터가 공급과잉에 처할 수 있다고 경고했다"),
+  it("TS롬바드 'AI 거품 2028년 초 붕괴…기술주 40% 급락 가능'", HANA, "https://t.me/HANAchina/70888",
+     "TS롬바드가 AI 거품이 2028년 초 터지면 S&P 500이 30%, 기술주가 40% 떨어져 시가총액 20조 달러가 증발할 수 있다고 경고했다"),
+  it("화타이 '2030년까지 데이터센터 자금 1.3조 달러 부족'", HANA, "https://t.me/HANAchina/70892",
+     "화타이증권이 2030년까지 데이터센터 자금이 1조 3,000억 달러 넘게 부족하고 16개 주에서 제한 법안이 나왔다고 짚으면서, AI 확장의 자금·전력 제약을 부각했다"),
+  it("화타이 'DDR5 1년 새 9배 급등…메모리 고점 부담'", HANA, "https://t.me/HANAchina/70893",
+     "같은 화타이 분석이 DDR5 가격이 1년 만에 9배 넘게 오른 데다 CXMT의 4F² 구조 추진으로 메모리 시장 구도 변화 우려가 커졌다고 짚었다")]})
+
+items.append({
+ "cid": "G2-025", "attachTo": "",
+ "title": "중국 1~9월 재정수입 5.1%↑…부양 전환 앞 긴축 유지·하반기 유동성 다시 정체",
+ "one": L("중국 재정수입이 늘었지만 긴축 기조와 유동성 정체 속에 부양 전환 시점이 주목받고 있다.",
+          "· 중국의 1~9월 재정수입은 약 17조 2,300억 위안으로 5.1% 늘었고 지출은 1% 증가에 그쳤다.",
+          "· 블룸버그는 중국이 부양 모드 전환 직전까지 긴축을 거의 풀지 않았다고 짚었다.",
+          "· 하나증권은 하반기 정기예금 순증 전환 등으로 중국 유동성이 다시 정체됐다고 진단했다.",
+          "· 하나증권은 연말 회의와 정책금리 인하로 2027년 1분기 이후 유동성이 살아날 수 있다고 봤다.",
+          "· 중국 역외 위안 채권 발행 금리는 랠리 속에 사상 최저를 기록했다."),
+ "facts": ["무엇이: 중국의 1~9월 일반공공예산 수입은 약 17조 2,300억 위안으로 5.1% 늘었고 세수는 6.1% 증가했다 [사실]",
+           "지출·토지: 같은 기간 지출은 약 21조 200억 위안으로 1% 늘었고 토지 매각 수입은 27.9% 줄었다 [사실]",
+           "유동성: 하나증권은 정기예금 순증 전환·대출-예금 증가율 격차 축소 등으로 하반기 유동성이 다시 잠겼고, 활성화 시점을 2027년 1분기 이후로 봤다 [채널]",
+           "정책: 블룸버그는 중국이 부양 모드 전환 직전까지 긴축을 거의 풀지 않았다고 전했다 [제목]",
+           "채권: 중국 역외 위안 채권이 랠리 속에 사상 최저 금리로 발행됐다 [제목]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(신화통신 등)으로 1~9월 재정수입 5.1% 증가·지출·토지 수입 확인. 긴축·역외 채권은 제목, 유동성 진단은 채널 근거",
+ "src": [{"o": "신화통신", "d": D, "u": "https://english.news.cn/20261023/2bdbe37330794a5683c9f46fc6e04ded/c.html"}],
+ "inds": ["macro"], "nodes": ["macro/fiscal", "macro/liquidity", "macro/rates"],
+ "vc": [{"ind": "macro", "node": "liquidity", "f": "공급", "dir": "down", "k": "실제", "t": "하나증권, 하반기 중국 유동성 다시 정체"},
+        {"ind": "macro", "node": "rates", "f": "가격", "dir": "down", "k": "실제", "t": "중국 역외 위안 채권 발행 금리 사상 최저"}],
+ "items": [
+  it("하나증권 '하반기 중국 유동성 다시 정체…2027년 1분기 이후 재개'", HANA, "https://t.me/HANAchina/70896",
+     "하나증권이 정기예금 순증 전환 등으로 하반기 중국 유동성이 다시 멈췄다고 진단하면서, 연말 회의와 금리 인하로 2027년 1분기 이후 활성화를 전망했다"),
+  it("중국 역외 위안 채권, 랠리 속 사상 최저 금리로 발행", BB, "https://www.bloomberg.com/news/articles/2026-10-23/china-offshore-yuan-bonds-priced-at-record-lows-amid-rally",
+     "중국 역외 위안 채권이 랠리 속에 사상 최저 금리로 발행되면서, 위안화 채권 발행 비용이 크게 낮아졌다 (제목 기준)"),
+  it("중국, 부양 모드 전환 직전까지 긴축 거의 안 풀어", BB, "https://www.bloomberg.com/news/articles/2026-10-23/china-barely-eased-austerity-just-before-shift-to-stimulus-mode",
+     "중국이 부양 모드로 돌아서기 직전까지 긴축 재정을 거의 완화하지 않았다고 블룸버그가 짚으면서, 연말 재정 확대 의지가 관심사로 떠올랐다 (제목 기준)"),
+  it("중국 1~9월 재정수입 전년 대비 5.1% 증가", RT, "https://www.reuters.com/world/asia-pacific/chinas-january-september-fiscal-revenue-up-51-yy-2026-10-23/",
+     "중국의 1~9월 재정수입이 5.1% 늘었지만 1~8월 5.7%보다 증가율이 낮아지고 토지 매각 수입은 27.9% 줄면서, 지방 재정 압박이 이어졌다")]})
+
+items.append({
+ "cid": "G2-037", "attachTo": "",
+ "title": "아멕스 3분기 매출 200.6억 달러·연간 이익 전망 상향…전체 인력 5% 감축",
+ "one": L("아메리칸익스프레스가 부유층 소비에 힘입어 연간 이익 전망을 높이고 인력 5% 감축을 밝혔다.",
+          "· 3분기 매출은 200억 6,000만 달러로 예상을 소폭 밑돌았지만 조정 주당순이익은 4.68달러였다.",
+          "· 카드 결제액은 4,540억 달러로 8% 늘었고 신용손실 충당금은 10억 달러였다.",
+          "· 아멕스는 2026년 조정 주당순이익 전망을 17.60~17.90달러로 제시했다.",
+          "· 스티븐 스퀘리 CEO는 전체 인력의 약 5%인 3,500명을 줄인다고 밝혔다."),
+ "facts": ["무엇이: 아멕스의 3분기 매출은 200억 6,000만 달러로 9% 늘었으나 예상(201억 2,000만 달러)을 밑돌았고, 조정 주당순이익은 4.68달러로 예상 약 4.48달러를 웃돌았다 [사실]",
+           "결제·비용: 카드 결제액은 4,540억 달러로 8% 늘었고 신용손실 충당금은 10억 달러, 총비용은 145억 달러였다 [사실]",
+           "전망: 2026년 조정 주당순이익 전망을 17.60~17.90달러로 제시했고, 다른 기준으로는 17.30~17.90달러에서 18.30~18.60달러로 높였다는 보도도 있다 [사실]",
+           "감원: 스퀘리 CEO는 관리 계층을 줄이려 전 세계 인력의 약 5%인 3,500명을 감축한다고 밝혔고, 세후 2억 5,300만 달러 구조조정 비용이 반영됐다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 매출·조정 주당순이익·결제액·전망 상향·5% 감원 확인. 이익 전망 수치는 기준에 따라 보도가 엇갈림",
+ "src": [{"o": "KSL", "d": D, "u": "https://www.ksl.com/article/51640108/american-express-raises-2026-profit-forecast-as-affluent-customers-keep-spending"},
+         {"o": "Benzinga", "d": D, "u": "https://www.benzinga.com/markets/earnings/26/10/62559315/american-express-raises-profit-outlook-but-layoff-plans-and-rising-costs-draw-scrutiny"}],
+ "inds": ["fin"], "nodes": [],
+ "vc": [{"ind": "fin", "node": "payments", "f": "수요", "dir": "up", "k": "실제", "t": "아멕스 카드 결제액 4,540억 달러로 8% 증가"}],
+ "items": [
+  it("아멕스 3분기 매출 200억 6천만 달러…연간 EPS 17.60~17.90달러 전망", INS, "https://t.me/insidertracking/67106",
+     "아멕스의 3분기 매출이 200억 6,000만 달러로 예상을 소폭 밑돌았지만 비용이 예상보다 적어, 연간 조정 주당순이익 17.60~17.90달러를 제시했다"),
+  it("아멕스 CEO '회사 전체 인력의 5% 감축할 것'", RT, "https://www.reuters.com/business/amex-ceo-says-company-cut-5-total-workforce-2026-10-23/",
+     "아멕스 CEO가 전체 인력의 5%인 약 3,500명을 줄인다고 밝히면서, 관리 계층 축소와 의사결정 단순화에 나섰다"),
+  it("아멕스, 부유층 소비 지속에 2026년 이익 전망 상향", RT, "https://www.reuters.com/business/american-express-raises-2026-profit-forecast-affluent-customers-keep-spending-2026-10-23/",
+     "부유층 고객의 소비가 이어지며 카드 결제액이 4,540억 달러로 8% 늘자, 아멕스가 2026년 이익 전망을 높였다")]})
+
+items.append({
+ "cid": "G2-043", "attachTo": "n-bbg-0453",
+ "title": "AI 인프라 IPO 투심 악화에 미 IPO 냉각…엘리스 첫날 30~32%↓·나스닥 신규 상장 167건",
+ "one": L("AI 인프라 상장이 잇따라 흔들린 데 이어 미국 IPO 시장 전반이 식고 있다.",
+          "· 엘리스는 공모가 9만 500원에 상장해 장중 6만 1,000원까지 밀리며 블룸버그 기준 32% 떨어졌다.",
+          "· 같은 날 기술주 비중이 큰 코스피도 4% 가까이 내렸다.",
+          "· 엔스케일은 몸값 약 300억 달러를 노렸지만 일부 투자자는 160억~190억 달러를 제시했다.",
+          "· 엔스케일은 최대 30억 달러 조달을 노리며 계약 1,030억 달러의 약 85%가 MS·앤트로픽에 몰려 있다.",
+          "· 나스닥 CEO는 IPO 시장이 소폭 둔화했다고 했고 3분기 신규 상장은 167건으로 줄었다.",
+          "· 미국 IPO 규모는 6월 스페이스X 상장 이후 둔화해 이달 들어 사실상 마비됐다."),
+ "facts": ["무엇이: 엘리스그룹은 10월 20일 코스닥 상장 첫날 공모가 9만 500원 대비 30% 안팎 떨어졌고 장중 6만 1,000원까지 밀려 블룸버그는 32% 급락으로 전했으며, 같은 날 코스피도 4% 가까이 내렸다 [사실]",
+           "엔스케일: 일부 투자자가 IPO 목표 기업가치 약 300억 달러에 반발해 160억~190억 달러를 제시했고, 회사는 최대 30억 달러를 조달할 계획이며 계약 1,030억 달러의 약 85%가 마이크로소프트·앤트로픽에 몰려 있다 [사실]",
+           "업계: 몸값이 40% 넘게 밀려 한 달 새 다섯 번째 AI 데이터센터 상장 좌초라는 평가가 나왔고, 호주 퍼머스는 IPO를 철회했으며 코어위브 조달 비용은 급등했다 [채널]",
+           "나스닥: 프리드먼 CEO는 10월 22일 IPO 시장이 소폭 둔화해 일부 기업이 상장 시기를 다시 따지고 있다고 했고, 3분기 신규 상장은 167건으로 1년 전 205건보다 줄었다 [사실]",
+           "미국 IPO: 연초 이후 규모가 6월 스페이스X 상장 이후 둔화했고 이달 들어서는 사실상 마비됐다 [채널]"],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 나스닥 CEO 발언과 3분기 신규 상장 167건 확인. 미국 IPO 이달 마비는 채널 근거, 기존 문서 사실은 그대로 유지",
+ "src": [{"o": "Finimize", "d": D, "u": "https://finimize.com/content/nasdaq-says-the-ipo-window-just-got-chillier"},
+         {"o": "BigGo Finance", "d": "2026-10-22", "u": "https://finance.biggo.com/news/US_NDAQ_2026-10-22"}],
+ "inds": ["fin", "macro"], "nodes": ["macro/liquidity"],
+ "vc": [{"ind": "fin", "node": "markets", "f": "수요", "dir": "down", "k": "실제", "t": "나스닥 3분기 신규 상장 167건으로 감소"}],
+ "added": "로이터·텔레그램 2건 — 나스닥 CEO의 IPO 시장 소폭 둔화 경고(3분기 신규 상장 167건)와 미국 IPO 이달 사실상 마비 내용이 추가됨",
+ "items": [
+  it("나스닥 CEO 'IPO 시장 소폭 둔화'…거시 불확실성에 상장 타격", RT, "https://www.reuters.com/legal/transactional/nasdaq-ceo-flags-modest-softening-ipo-market-macro-uncertainty-hits-debuts-2026-10-22/",
+     "나스닥 CEO가 거시 불확실성에 IPO 시장이 소폭 둔화했다고 밝히면서, 3분기 나스닥 신규 상장이 167건으로 1년 전 205건보다 줄었다"),
+  it("미국 IPO 규모, 스페이스X 상장 뒤 둔화…이달 사실상 마비", POL, "https://t.me/The_MariTimes/63947",
+     "미국 IPO 규모가 6월 스페이스X 상장 이후 계속 줄어 이달 사실상 마비되면서, 증시 호조가 실물 경제로 이어지는 통로가 막혔다는 평가가 나왔다")]})
+
+items.append({
+ "cid": "G2-053", "attachTo": "",
+ "title": "신장·고혈압 신약 3상 호조…보르바이오 신기능 보존·미네랄리스 알부민뇨 52%↓",
+ "one": L("보르바이오와 미네랄리스가 신장·고혈압 신약 3상에서 긍정적 결과를 내놨다.",
+          "· 보르바이오의 텔리타시셉트는 IgA 신병증 3상에서 신기능 30% 저하 위험을 89% 줄였다.",
+          "· 미네랄리스의 로룬드로스타트는 3상에서 CKD 유무와 관계없이 수축기 혈압을 9.6~12.2mmHg 낮췄다.",
+          "· 로룬드로스타트는 CKD 환자의 알부민뇨를 위약 대비 52% 줄였다."),
+ "facts": ["무엇이: 보르바이오는 10월 22일 텔리타시셉트의 IgA 신병증 3상(TELIGAN) 2년 결과에서 연간 eGFR 기울기가 -0.6으로 위약(-5.7)보다 완만했다고 밝혔다 [사실]",
+           "위험 감소: 텔리타시셉트는 신기능 30% 저하 위험을 89%, 40% 저하 위험을 81% 줄였고 투약군에선 신부전 도달자가 없었다 [사실]",
+           "미네랄리스: 로룬드로스타트 3상 Launch-HTN에서 12주 위약 대비 수축기 혈압이 CKD 환자 9.6mmHg, 비CKD 12.2mmHg 낮아졌다 [사실]",
+           "알부민뇨: 알부민뇨가 있는 CKD 환자에서 소변 알부민/크레아티닌 비가 위약 대비 52.2% 줄었다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(회사 발표)으로 텔리타시셉트 3상 결과 확인, 미네랄리스 발표문 열람으로 혈압·알부민뇨 수치 확인",
+ "src": [{"o": "보르바이오(GlobeNewswire)", "d": "2026-10-22", "u": "https://www.globenewswire.com/news-release/2026/10/22/3386893/0/en/telitacicept-demonstrates-durable-preservation-of-kidney-function-through-two-years-in-phase-3-teligan-trial-in-iga-nephropathy.html"},
+         {"o": "미네랄리스 IR", "d": "2026-10-22", "u": "https://ir.mineralystx.com/news-events/press-releases/detail/123/mineralys-therapeutics-presents-new-lorundrostat-data-in"}],
+ "inds": ["pharma"], "nodes": [],
+ "vc": [{"ind": "pharma", "node": "clinical", "f": "공급", "dir": "up", "k": "실제", "t": "텔리타시셉트·로룬드로스타트 3상 긍정 결과"}],
+ "items": [
+  it("미네랄리스 로룬드로스타트 3상, CKD 유무 무관 혈압 강하", TR, "https://t.me/Trillion_labs/11172",
+     "미네랄리스의 로룬드로스타트가 3상에서 CKD 유무와 관계없이 혈압을 낮추고 CKD 환자 알부민뇨를 52% 줄이면서, 신장 질환 동반 고혈압 치료 근거를 쌓았다"),
+  it("보르바이오 '신약, 후기 임상서 신기능 저하 늦춰'", RT, "https://www.reuters.com/business/healthcare-pharmaceuticals/vor-bio-says-its-experimental-drug-slowed-loss-kidney-function-late-stage-study-2026-10-22/",
+     "보르바이오의 텔리타시셉트가 IgA 신병증 3상에서 신기능 30% 저하 위험을 89% 줄이면서, 중국 조건부 허가에 이어 2년 효과 지속성이 확인됐다")]})
+
+items.append({
+ "cid": "G2-063", "attachTo": "",
+ "title": "페루, 엘니뇨 대응 180억 솔 부양…2027년 재정적자 상한 GDP 2.4%로 확대 추진",
+ "one": L("페루 정부가 엘니뇨 피해에 맞서 경기 대책을 내놓고 재정적자 상한을 높이기로 했다.",
+          "· 정부는 2027년 지출을 약 180억 솔(52억 달러) 늘리고 이 가운데 130억 솔을 인프라에 쓴다.",
+          "· 정부는 2027년 재정적자 상한을 GDP의 1.4%에서 2.4%로 높이려 한다.",
+          "· 엘니뇨 피해 기업에는 유동성 지원과 세금 납부 유예가 제공된다."),
+ "facts": ["무엇이: 페루 정부는 10월 22일 엘니뇨 피해 대응을 위해 피해 기업 유동성 지원·세금 유예와 재정 규칙 완화를 발표했다 [사실]",
+           "규모: 2027년 추가 지출은 약 180억 솔(52억 달러)로 인프라 130억 솔, 취약계층 현금 지원 25억 솔, 연료 보조금 5억 솔이다 [사실]",
+           "적자: 2027년 재정적자 상한을 GDP의 1.4%에서 2.4%로 올린 뒤 임기 말까지 약 1%로 되돌린다는 계획이며 의회 처리가 남았다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(신화통신·Rio Times 등)으로 지출 규모·적자 상한 상향 계획 확인",
+ "src": [{"o": "신화통신", "d": D, "u": "https://english.news.cn/20261023/80349f632e5e4783a8a016d56388d14d/c.html"},
+         {"o": "Rio Times", "d": "", "u": "https://www.riotimesonline.com/peru-el-nino-stimulus-us-5-2-billion-2026"}],
+ "inds": ["macro"], "nodes": ["macro/fiscal"],
+ "vc": [{"ind": "macro", "node": "fiscal", "f": "수요", "dir": "up", "k": "예상", "t": "페루, 2027년 지출 180억 솔 확대·적자 상한 2.4%"}],
+ "items": [
+  it("페루 정부, 경기 방어 위해 재정적자 확대 추진", BB, "https://www.bloomberg.com/news/articles/2026-10-22/peru-government-to-seek-higher-fiscal-deficits-to-shield-economy",
+     "페루 정부가 경기를 지키려 2027년 재정적자 상한을 GDP의 2.4%로 높이려 하면서, 재정 규칙 완화에 의회 처리가 필요해졌다"),
+  it("페루, 엘니뇨 피해 영향에 맞선 경제 대책 발표", RT, "https://www.reuters.com/business/environment/peru-rolls-out-economic-measures-counter-el-nio-impact-2026-10-22/",
+     "페루가 엘니뇨 피해 기업에 유동성 지원과 세금 유예를 내놓고 2027년 지출을 약 180억 솔 늘리면서, 인프라에 130억 솔을 배정했다")]})
+
+items.append({
+ "cid": "G2-070", "attachTo": "n-rtr-0337",
+ "title": "예스은행 AT1 841억 5천만 루피 상각 위법 판결 뒤에도 올해 쿠폰 미지급 방침(소식통)",
+ "one": L("인도 대법원의 AT1 상각 위법 판결에도 예스은행은 올해 AT1 쿠폰을 주지 않을 전망이다.",
+          "· 대법원은 10월 15일 예스은행의 2020년 3월 841억 5,000만 루피 상각이 위법하다는 판결을 유지했다.",
+          "· 예스은행의 2분기 단독 순이익은 108억 루피로 1년 전 65억 4,000만 루피보다 65% 늘었다.",
+          "· 판결을 반영하면 분기 521억 7,000만 루피 순손실이 되고 CET1 비율은 약 250bp 낮아질 수 있다.",
+          "· 소식통들은 예스은행이 채권자 요구에도 올해 AT1 쿠폰을 지급하지 않을 것으로 봤다.",
+          "· 채권자들은 10월 18일 만기 쿠폰을 받지 못했다며 수탁사에 지급 여부 확인을 요청했다."),
+ "facts": ["무엇이: 인도 대법원은 10월 15일 예스은행이 2020년 3월 841억 5,000만 루피 규모 AT1 채권을 상각한 것이 위법하다는 봄베이 고등법원 판결을 유지했다 [사실]",
+           "실적: 2분기 단독 순이익은 108억 루피로 1년 전 65억 4,000만 루피보다 65% 늘었지만 판결 영향을 반영하면 521억 7,000만 루피 순손실이 되며 감사인은 한정 의견을 냈다 [사실]",
+           "자본: AT1 원금이 복원되면 CET1 비율이 약 250bp 낮아질 수 있고, 은행은 판결 재검토를 청구할 준비를 하는 것으로 전해졌다 [사실]",
+           "쿠폰: 소식통들은 채권 약관상 쿠폰 지급은 은행 재량이고 채권 복원 뒤에야 검토할 수 있다며 올해 쿠폰을 지급하지 않을 것으로 봤다 [사실]",
+           "채권자: 채권자들은 판결 사흘 뒤인 10월 18일 만기 쿠폰을 받지 못했다며 수탁사에 지급·취소 여부 서면 확인을 요청했다 [사실]"],
+ "basis": "verified",
+ "check": "검색 결과 요약(비즈니스투데이·Finimize)으로 쿠폰 미지급 전망·10월 18일 쿠폰 미수령 확인. 은행 공식 입장은 없음(익명 소식통)",
+ "src": [{"o": "비즈니스투데이", "d": D, "u": "https://www.businesstoday.in/latest/corporate/story/yes-bank-unlikely-to-pay-at-1-bond-coupons-this-year-despite-supreme-court-ruling-report-563388-2026-10-23"},
+         {"o": "Finimize", "d": D, "u": "https://finimize.com/content/yes-banks-at1-bondholders-want-coupons-but-may-wait"}],
+ "inds": ["fin"], "nodes": [],
+ "vc": [{"ind": "fin", "node": "banks", "f": "가격", "dir": "down", "k": "예상", "t": "예스은행 AT1 쿠폰 올해 미지급 전망"}],
+ "added": "로이터 1건 — 채권자 요구에도 예스은행이 올해 AT1 쿠폰을 지급하지 않을 것이라는 소식통 전언과 10월 18일 쿠폰 미지급 내용이 추가됨",
+ "items": [
+  it("예스은행, 채권자 요구에도 AT1 쿠폰 지급 안 할 듯(소식통)", RT, "https://www.reuters.com/world/india/yes-bank-unlikely-pay-at1-bond-coupons-despite-bond-holders-demand-sources-say-2026-10-22/",
+     "예스은행이 대법원의 AT1 상각 위법 판결에도 약관상 재량을 들어 올해 쿠폰을 지급하지 않을 것으로 전해지면서, 채권자와의 갈등이 커지고 있다")]})
+
+items.append({
+ "cid": "G2-080", "attachTo": "",
+ "title": "리비아 동부 의회, 중앙은행 총재 사임 수용",
+ "one": L("리비아 동부 의회가 중앙은행 총재의 사임을 공식 수용했다고 의회 대변인이 밝혔다.",
+          "· 이에 따라 리비아 중앙은행 수장 자리가 바뀌게 됐다 (제목 기준)"),
+ "facts": ["무엇이: 리비아 동부 의회가 중앙은행 총재의 사임을 수용했다고 대변인이 밝혔다 [제목]",
+           "의미: 중앙은행 수장 교체로 후임 인선이 과제로 남았다 [추론]"],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "src": [],
+ "inds": ["macro"], "nodes": ["macro/cb"],
+ "vc": [{"ind": "macro", "node": "cb", "f": "-", "dir": "flat", "k": "실제", "t": "리비아 중앙은행 총재 사임 수용으로 수장 교체"}],
+ "items": [it("리비아 동부 의회, 중앙은행 총재 사임 수용(대변인)", RT, "https://www.reuters.com/world/africa/libyas-eastern-parliament-accepts-central-bank-governor-resignation-spokesperson-2026-10-22/")]})
+
+items.append({
+ "cid": "G2-090", "attachTo": "",
+ "title": "로저스 3분기, 스포츠 매출로 예상 상회…무선 부문은 부진 지속",
+ "one": L("캐나다 통신사 로저스가 스포츠 매출에 힘입어 시장 예상을 웃도는 실적을 냈다.",
+          "· 다만 본업인 무선 부문은 부진한 흐름이 이어졌다 (제목 기준)"),
+ "facts": ["무엇이: 로저스가 스포츠 매출 덕에 시장 예상을 웃돌았다 [제목]",
+           "무선: 무선 부문은 부진이 이어졌다 [제목]"],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "src": [],
+ "inds": ["tech"], "nodes": [],
+ "vc": [{"ind": "tech", "node": "telecom", "f": "수요", "dir": "down", "k": "실제", "t": "로저스 무선 부문 부진 지속"}],
+ "items": [it("로저스, 스포츠 매출로 예상 상회…무선 부문은 부진", BB, "https://www.bloomberg.com/news/articles/2026-10-23/rogers-beats-on-sports-revenue-as-wireless-remains-sluggish")]})
+
+items.append({
+ "cid": "G2-100", "attachTo": "",
+ "title": "브라질 브라데스코, 신용 수익 둔화에도 이익 예상 부합",
+ "one": L("브라질 대형 은행 브라데스코의 분기 이익이 신용 수익 둔화에도 시장 예상에 부합했다.",
+          "· 다만 대출 등 신용 부문 수익 증가세는 둔화했다 (제목 기준)"),
+ "facts": ["무엇이: 브라데스코의 이익이 시장 예상에 부합했다 [제목]",
+           "신용: 신용 부문 수익 증가가 둔화했다 [제목]"],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "src": [],
+ "inds": ["fin"], "nodes": [],
+ "vc": [{"ind": "fin", "node": "banks", "f": "수요", "dir": "down", "k": "실제", "t": "브라데스코 신용 수익 증가 둔화"}],
+ "items": [it("브라질 브라데스코, 신용 수익 둔화에도 이익 예상 부합", RT, "https://www.reuters.com/business/finance/brazils-bradesco-meets-profit-estimates-despite-slower-credit-revenue-2026-10-22/")]})
+
+out = {"agent": "W3", "searches_used": 18, "fetches_used": 4, "items": items, "skipped": skipped}
+json.dump(out, open("/home/user/news-desk/data/mix-2026-10-23/out2/W3.json", "w"), ensure_ascii=False, indent=1)
+
+# self-checks
+for x in items:
+    print(x["cid"], len(x["title"]), [len(l) for l in x["one"].split("\n")])
+    for i in x["items"]:
+        if "s" in i:
+            s = i["s"].replace(" (제목 기준)", "")
+            if not 45 <= len(s) <= 110: print("  s len", len(s), i["t"])
+        if not 25 <= len(i["t"]) <= 60: print("  t len", len(i["t"]), i["t"])
+    if "added" in x and not 40 <= len(x["added"]) <= 140: print("  added", len(x["added"]))
+    for v in x["vc"]:
+        if not 12 <= len(v["t"]) <= 45: print("  vc", len(v["t"]), v["t"])

@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0405",
+ "num": 405,
+ "key": "split-G2-067-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/crypto-to-crude-coinbase-billionaire-sees-superlative-opening-in-venezuela",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "코인베이스 공동창업자 에르삼, PDVSA와 생산분배계약…하루 10만 배럴 목표",
+ "headline": "코인베이스 공동창업자 에르삼, PDVSA와 생산분배계약…하루 10만 배럴 목표",
+ "one": "코인베이스 공동창업자 에르삼이 베네수엘라를 최고의 투자 기회로 보고 그의 프리마베라가 PDVSA와 생산분배계약을 맺어 하루 10만 배럴을 단기 목표로 잡으면서, 암호화폐 자본이 베네수엘라 원유 생산으로 옮겨 가고 있다",
+ "facts": [
+  "무엇이: 코인베이스 공동창업자 에르삼의 프리마베라는 PDVSA와 생산분배계약을 맺어 하루 10만 배럴을 단기 목표로 잡았다 [사실]",
+  "시각: 에르삼은 베네수엘라를 최고의 투자 기회로 봤다 [사실]",
+  "미확인: 프리마베라 계약 금액은 확인되지 않았다 [미확인]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 프리마베라의 PDVSA 생산분배계약과 하루 10만 배럴 목표는 검색 결과 요약(La República, Crypto Briefing)으로 확인했고 계약 금액은 확인하지 못했다.",
+ "src": [
+  {
+   "o": "La República",
+   "d": "2026-10-13",
+   "u": "https://larepublica.co/globoeconomia/cofundador-de-coinbase-apuesta-fortuna-a-reactivar-campos-petroleros-de-venezuela-4501851"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-13",
+   "u": "https://cryptobriefing.com/fred-ehrsam-primavera-venezuela-oil-investment"
+  }
+ ],
+ "items": [
+  {
+   "t": "암호화폐에서 원유로: 코인베이스 억만장자 '베네수엘라는 최고의 기회'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/crypto-to-crude-coinbase-billionaire-sees-superlative-opening-in-venezuela"
+  }
+ ],
+ "inds": [
+  "oil",
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "프리마베라 PDVSA와 생산분배계약, 하루 10만 배럴 목표"
+  }
+ ]
+}

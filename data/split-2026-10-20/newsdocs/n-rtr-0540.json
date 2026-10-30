@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0540",
+ "num": 540,
+ "key": "split-G5-052-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/unicredit-buy-back-securities-services-unit-societe-generale-document-shows-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유니크레딧, 소시에테제네랄서 증권 서비스 부문 되사기로",
+ "headline": "유니크레딧, 소시에테제네랄서 증권 서비스 부문 되사기로",
+ "one": "유니크레딧이 예전에 넘긴 증권 서비스 부문을 소시에테제네랄로부터 되사기로 하면서 유럽 은행의 수탁 사업 재편이 이어지고, 두 은행의 증권 서비스 사업 구도가 바뀔 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 유니크레딧은 소시에테제네랄에서 증권 서비스 부문을 되사기로 했다 [제목]",
+  "배경: 이 부문은 유니크레딧이 예전에 소시에테제네랄에 넘긴 사업이다 [제목]",
+  "의미: 유럽 은행의 수탁 사업 재편이 이어지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(문서 근거 보도). 원 문서에서도 제목 근거로만 다뤄 기사 제목 기준이며, 거래 금액은 나오지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "유니크레딧, 소시에테제네랄서 증권 서비스 부문 되사기로",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/transactional/unicredit-buy-back-securities-services-unit-societe-generale-document-shows-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "유니크레딧, 증권 서비스 부문 재인수 결정"
+  }
+ ]
+}

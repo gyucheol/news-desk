@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0503",
+ "num": 503,
+ "key": "split-G4-068-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/french-ministries-pension-costs-crowd-out-public-services-spending-report-says-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "\"프랑스 부처 연금 비용이 공공서비스 지출 밀어내\" 보고서",
+ "headline": "\"프랑스 부처 연금 비용이 공공서비스 지출 밀어내\" 보고서",
+ "one": "보고서가 10월 13일 프랑스 정부 부처의 연금 비용이 공공서비스 지출을 밀어내고 있다고 지적하면서, GDP의 119%에 이른 국가부채 속에서 프랑스 재정의 경직성이 커지고 있다는 점이 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터가 전한 보고서는 프랑스 정부 부처의 연금 비용이 공공서비스 지출을 밀어내고 있다고 지적했다 [제목]",
+  "배경: 프랑스 국가부채는 6월 말 GDP의 119%이고, 유로존 장관들은 시장 진정을 위해 2027년 예산 통과를 요구했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 배경의 부채비율은 원 문서 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "보고서 '프랑스 부처 연금 비용이 공공서비스 지출 밀어내'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/finance/french-ministries-pension-costs-crowd-out-public-services-spending-report-says-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "실제",
+   "t": "부처 연금 비용이 공공서비스 지출 밀어내"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "basis": "partial",
+ "check": "전기세 인하가 예산 여건에 달렸다는 정부 입장과 50억 유로 비용은 검색 결과 요약으로 확인. 정유소 폐쇄 저지 방안은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 메르츠 총리는 신뢰 격차를 메우려 지난해 접었던 전 소비자 전기세 인하를 다시 약속하며 kWh당 2.05센트 세율을 EU 최저 수준으로 낮추겠다고 했다 [사실]",
+  "예산 조건: 독일 정부는 10월 23일 인하 목표는 유지하되 예산 부족분을 메울 방안에 달렸다고 했고, 인하 비용은 연간 약 50억 유로로 추산된다 [사실]",
+  "재무장관: 클링바일 재무장관은 예산에 재원 여력이 있는지 아직 분명하지 않다고 했다 [사실]",
+  "정유소: 독일은 비용이 늘어나는 가운데 정유소 추가 폐쇄를 막으려 하고 있다 [제목]",
+  "유럽 흐름: 유럽 각국은 에너지값 급등에 횡재세 검토, 가스값 상한, 전기세 인하 등 대응에 나섰다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "독일 에너지값 대응…전기세 kWh당 2.05센트 인하는 예산 여건에 달려·정유소 추가 폐쇄 저지 추진",
+ "id": "n-rtr-0430",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  },
+  {
+   "t": "독일 정부 '전기세 인하는 예산 여건에 달려'",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/berlin-says-electricity-tax-cut-will-be-contingent-budgeting-options-2026-10-23/",
+   "s": "독일 정부가 전 소비자 전기세 인하 목표는 지지하지만 예산 부족분을 메울 방안에 달렸다고 밝히면서, 메르츠의 인하 약속 시기가 불확실해졌다",
+   "d": "2026-10-23"
+  },
+  {
+   "t": "독일, 비용 증가 속 정유소 추가 폐쇄 막기 추진",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/germany-wants-to-stop-more-oil-refinery-closures-as-costs-mount",
+   "s": "독일 정부가 비용 증가 속에 정유소가 더 문을 닫지 않도록 막으려 하면서, 국내 석유제품 정제능력 지키기에 나섰다 (제목 기준)",
+   "d": "2026-10-23"
+  }
+ ],
+ "key": "split-G2-072-2026-10-20",
+ "nodes": [
+  "macro/fiscal",
+  "power/market"
+ ],
+ "num": 430,
+ "one": "독일 정부가 약속한 전 소비자 전기세 인하가 예산 여건에 묶였고, 정유소 추가 폐쇄도 막으려 한다\n· 메르츠 총리는 지난해 접었던 전기세 인하를 다시 약속하며 kWh당 2.05센트 세율을 EU 최저로 낮추겠다고 했다\n· 정부는 10월 23일 인하 목표는 지지하지만 예산 부족분을 메울 방안에 달렸다고 밝혔다\n· 인하 비용은 연간 약 50억 유로로, 클링바일 재무장관은 재원 여력이 불확실하다고 했다\n· 독일은 비용 증가 속에 정유소가 더 문을 닫지 않도록 막으려 하고 있다\n· 유럽 각국은 에너지값 급등에 횡재세, 가스값 상한, 전기세 인하 등으로 대응하고 있다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:25:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-23",
+   "u": "https://www.globalbankingandfinance.com/berlin-electricity-tax-cut-contingent-budgeting-options/"
+  },
+  {
+   "o": "Clean Energy Wire",
+   "d": "2026-10-23",
+   "u": "https://www.cleanenergywire.org/news/debate-lowering-electricity-tax-all-consumers-resurfaces-german-coalition"
+  }
+ ],
+ "tags": [],
+ "title": "독일 에너지값 대응…전기세 kWh당 2.05센트 인하는 예산 여건에 달려·정유소 추가 폐쇄 저지 추진",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "kWh당 2.05센트 전기세 인하, 예산 조건부"
+  },
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "독일, 정유소 추가 폐쇄 막아 정제능력 유지 추진"
+  }
+ ],
+ "added": "로이터·블룸버그 2건 — 전기세 인하가 예산 여건에 달렸다는 정부 입장, 연 50억 유로 비용, 정유소 추가 폐쇄 저지 추진 내용이 추가됨"
+}

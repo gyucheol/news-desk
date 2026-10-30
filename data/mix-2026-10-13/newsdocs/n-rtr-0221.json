@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0221",
+ "num": 221,
+ "key": "mix-C141-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T00:48:00+09:00",
+ "url": "https://www.reuters.com/sustainability/cop/eu-eyes-cop31-climate-deal-accelerate-co2-cuts-document-shows-2026-10-12/",
+ "origTitle": "",
+ "headline": "EU, COP31서 탄소 감축 가속 합의 추진…내부 문서",
+ "src": [],
+ "items": [
+  {
+   "t": "EU, COP31서 탄소 감축 가속하는 기후 합의 추진…문서",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/sustainability/cop/eu-eyes-cop31-climate-deal-accelerate-co2-cuts-document-shows-2026-10-12/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/policy"
+ ],
+ "title": "EU, COP31서 탄소 감축 가속 합의 추진…내부 문서",
+ "one": "EU가 내부 문서에서 COP31 기후 회의를 통해 각국의 이산화탄소 감축 속도를 높이는 합의를 이끌어내려 하면서, 화석연료 수요와 탄소 비용에 대한 정책 압박이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: EU가 COP31에서 이산화탄소 감축을 가속하는 기후 합의를 노리고 있다 [제목]",
+  "근거: 이 방침은 EU 내부 문서로 드러났다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음"
+}

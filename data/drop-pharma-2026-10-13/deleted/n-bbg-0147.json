@@ -1,0 +1,61 @@
+{
+  "added": "이번 로이터 1건으로 {{할로자임}}이 헤이그 특허법원에서 {{머크 피하주사형 키트루다의 8개국 판매 금지 명령}}을 얻은 내용이 추가됐다",
+  "basis": "verified",
+  "check": "판결 내용·대상국·머크 반응은 검색 결과 요약(할로자임 IR·Fierce Pharma)으로 확인. 항소 여부는 확인 못 함",
+  "cycles": [],
+  "facts": [
+    "무엇이: 헤이그 특허법원이 머크가 할로자임의 MDASE 특허(EP622)를 침해했다고 판단해 피하주사형 키트루다의 제조·판매 금지를 명령했다 [사실]",
+    "범위: 벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드 8개국이며, 정맥주사형 키트루다는 해당되지 않는다 [사실]",
+    "대응: 머크는 판결에 강하게 반대한다며 다투겠다고 했다 [사실]",
+    "다른 소송: 할로자임은 독일에서 2025년 12월 가처분을 얻었고, 미국 뉴저지에서도 15개 특허 침해를 주장하고 있다 [사실]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "{{머크 피하주사형 키트루다}}, 할로자임 특허 소송 패소로 {{유럽 8개국 판매 금지}}",
+  "id": "n-bbg-0147",
+  "incentive": "",
+  "inds": [
+    "pharma"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-07",
+      "o": "블룸버그",
+      "s": "{{머크의 새 키트루다 주사제}}가 {{법원 패소로 유럽에서 판매가 막히}}면서 {{피하주사형 출시 계획에 차질}}이 생길 수 있다",
+      "t": "머크 새 키트루다 주사제, 법원 패소로 유럽서 판매 차단",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-07/merck-s-new-keytruda-shot-blocked-in-europe-after-court-loss"
+    },
+    {
+      "d": "2026-10-08",
+      "o": "로이터",
+      "s": "{{할로자임}}이 헤이그 특허법원에서 {{머크의 MDASE 특허 침해 판단}}을 받아내 벨기에·프랑스 등 8개국에서 {{피하주사형 키트루다 제조·판매}}를 {{막았}}다",
+      "t": "할로자임, 일부 유럽 시장서 머크 주사형 키트루다 차단 명령 얻어",
+      "u": "https://www.reuters.com/legal/litigation/halozyme-wins-court-order-block-mercks-injected-keytruda-select-european-markets-2026-10-07/"
+    }
+  ],
+  "key": "bnd-C114-2026-10-09",
+  "nodes": [],
+  "num": 147,
+  "one": "{{네덜란드 특허법원}}이 {{할로자임의 특허 침해 주장}}을 받아들여 {{머크의 피하주사형 키트루다 제조·판매}}를 {{유럽 8개국에서 금지}}하면서, 정맥주사형만 남게 된 해당 국가에서 {{머크의 피하주사 제품 출시}}가 {{막혔}}다",
+  "origTitle": "",
+  "processed": "2026-10-09",
+  "published": "2026-10-08T03:31:00+09:00",
+  "source": "블룸버그",
+  "src": [
+    {
+      "d": "2026-10-07",
+      "o": "Halozyme IR",
+      "u": "https://ir.halozyme.com/news/news-details/2026/Halozyme-Wins-Injunction-Stopping-Manufacture-and-Sale-of-Mercks-Keytruda-SC-in-Multiple-European-Markets/default.aspx"
+    },
+    {
+      "d": "2026-10-07",
+      "o": "Fierce Pharma",
+      "u": "https://www.fiercepharma.com/pharma/halozyme-stymies-subq-keytruda-launch-select-european-countries-merck-vows-fight-patent"
+    }
+  ],
+  "tags": [],
+  "title": "{{머크 피하주사형 키트루다}}, {{할로자임 특허 소송 패소}}로 {{유럽 8개국 판매 금지}}",
+  "updatedAt": "2026-10-09T15:22:03+09:00",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-07/merck-s-new-keytruda-shot-blocked-in-europe-after-court-loss"
+}

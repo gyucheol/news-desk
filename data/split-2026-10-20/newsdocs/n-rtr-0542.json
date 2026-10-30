@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0542",
+ "num": 542,
+ "key": "split-G5-056-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/africa/south-africa-set-brighter-fiscal-outlook-wednesdays-mid-term-budget-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "남아공, 세수 최소 500억 랜드 초과…21일 중기예산서 적자 축소 전망",
+ "headline": "남아공, 세수 최소 500억 랜드 초과…21일 중기예산서 적자 축소 전망",
+ "one": "세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 더 걷힐 것으로 추정되면서 남아공이 21일 중기예산에서 올해 재정적자 전망을 GDP의 3.3~3.6%로 낮출 것으로 보여, 국채 부담이 줄 수 있다",
+ "facts": [
+  "무엇이: 남아공은 21일 수요일 중기예산에서 재정 전망을 개선할 것으로 예상된다 [사실]",
+  "세수: PSG는 세수가 2월 전망보다 최소 500억 랜드(약 30억 달러) 많을 것으로 추정했다 [사실]",
+  "적자: 은행들은 올해 재정적자가 2월 목표 3.7%에서 GDP의 3.3~3.6%로 줄 것으로 본다 [사실]",
+  "전망: 적자가 줄면 국채 부담이 덜해지고, 인베스텍은 신뢰할 만한 예산이면 등급 상향이 가능하다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. PSG 세수 초과 추정(최소 500억 랜드), 적자 3.3~3.6% 축소 전망, 예산 발표 21일은 검색 결과 요약(bne IntelliNews 등)으로 확인했다.",
+ "src": [
+  {
+   "o": "bne IntelliNews",
+   "d": "2026-10-19",
+   "u": "https://www.intellinews.com/south-africa-s-3bn-tax-windfall-tests-budget-discipline-477046"
+  }
+ ],
+ "items": [
+  {
+   "t": "남아공, 수요일 중기예산서 재정 전망 개선 예상",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/africa/south-africa-set-brighter-fiscal-outlook-wednesdays-mid-term-budget-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "세수 초과로 재정적자 3.3~3.6%로 축소 전망"
+  }
+ ]
+}

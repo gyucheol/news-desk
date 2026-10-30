@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0568",
+ "num": 568,
+ "key": "split-G5-102-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:11:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/litigation/roche-moves-future-germany-investments-on-hold-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로슈, 독일 내 향후 투자 결정 보류…\"정책이 제약업계 신뢰 무너뜨려\"",
+ "headline": "로슈, 독일 내 향후 투자 결정 보류…\"정책이 제약업계 신뢰 무너뜨려\"",
+ "one": "로슈 독일 대표가 건강보험 비용 억제 정책으로 제약업계의 신뢰가 크게 무너졌다며 향후 독일 투자 결정을 보류하면서, 일라이 릴리에 이어 제약사의 독일 투자 축소가 이어지고 있다",
+ "facts": [
+  "무엇이: 로슈 독일 대표는 정책 당국이 제약업계의 신뢰를 크게 무너뜨렸다며 향후 독일 투자 결정을 보류했다(10월 20일 로이터) [사실]",
+  "예외: 펜츠베르크 공장 6억 유로 넘는 확장 등 이미 계획된 투자는 영향받지 않는다고 했다 [사실]",
+  "흐름: 건강보험 비용 억제 정책을 이유로 일라이 릴리에 이어 제약사의 독일 투자 축소가 이어졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 20일)이다. 로슈의 독일 투자 결정 보류와 기존 계획 예외는 Mezha 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "Mezha",
+   "d": "2026-10-20",
+   "u": "https://mezha.net/eng/news/mezha-b72faa744f385e7f846d6829_roche_puts_future"
+  }
+ ],
+ "items": [
+  {
+   "t": "로슈, 독일에서의 향후 투자 결정을 보류로 돌려",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/roche-moves-future-germany-investments-on-hold-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "pharma",
+  "macro"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "production",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "로슈, 향후 독일 투자 결정 보류"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "n-rtr-0275",
+ "num": 275,
+ "key": "mix-C179-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T11:54:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/south-korea-says-us-raises-intelligence-cooperation-concerns-yonhap-says-2026-10-13/",
+ "origTitle": "",
+ "headline": "한국 \"{{미국, 정보 협력 우려}} 제기\"…연합뉴스",
+ "src": [],
+ "items": [
+  {
+   "t": "한국 \"미국, 정보 협력 관련 우려 제기\"…연합뉴스",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korea-says-us-raises-intelligence-cooperation-concerns-yonhap-says-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "한국 \"{{미국, 정보 협력 우려}} 제기\"…연합뉴스",
+ "one": "{{미국}}이 한국과의 정보 협력에 우려를 제기했다고 한국 측이 밝혔다고 연합뉴스가 전하면서, 한미 간 {{안보 공조}}에 마찰이 생기고 {{동맹 관계}}에 부담이 될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 한국은 미국이 정보 협력에 대한 우려를 제기했다고 밝혔다고 연합뉴스가 전했습니다 [제목]",
+  "의미: 한미 정보 공유 관계에 이견이 드러났습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인하지 않음. 제목만 근거"
+}

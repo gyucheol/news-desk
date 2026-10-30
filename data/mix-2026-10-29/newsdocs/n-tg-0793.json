@@ -1,0 +1,66 @@
+{
+ "id": "n-tg-0793",
+ "num": 793,
+ "key": "mix-G-044-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:04:00+09:00",
+ "url": "https://t.me/The_MariTimes/64080",
+ "origTitle": "",
+ "headline": "중국 정제유 수출 쿼터 약 400만 톤 추가 발급…연간 수출 작년 수준 유지 전망",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64080"
+  },
+  {
+   "o": "Hydrocarbon Processing",
+   "d": "2025-12",
+   "u": "http://www.hydrocarbonprocessing.com/news/2025/12/chinas-2026-first-batch-fuel-export-quotas-steady-year-on-year/"
+  },
+  {
+   "o": "ROIC",
+   "d": "2026-06-09",
+   "u": "https://www.roic.ai/news/china-issues-second-batch-of-fuel-export-quotas-at-18-million-tons-unchanged-from-last-year-06-09-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 정제유 수출 쿼터 추가 발표…연간 수출 작년 수준 전망",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64080"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "channel": "Polaristimes",
+ "title": "중국 정제유 수출 쿼터 약 400만 톤 추가 발급…연간 수출 작년 수준 유지 전망",
+ "one": "중국이 휘발유·경유 등 정제유 수출 쿼터 약 400만 톤을 추가로 내준 것으로 전해졌다\n· 이번 추가분으로 연초 수출 통제에도 올해 총 수출량은 작년과 비슷한 수준을 유지할 전망이다\n· 중국은 앞서 1차 1,900만 톤, 2차 1,800만 톤 쿼터를 모두 전년과 같은 규모로 배정했다",
+ "facts": [
+  "무엇이: 중국이 정제유 수출 쿼터 약 400만 톤을 추가 발급했다 [채널]",
+  "전망: 채널은 연초 연료유 금수조치에도 이번 추가분으로 올해 총 수출량이 작년과 같은 수준을 유지할 것으로 봤다 [채널]",
+  "앞선 배정: 2026년 1차 쿼터는 1,900만 톤, 6월 9일 2차 쿼터는 1,800만 톤으로 모두 전년과 같았다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "1차 1,900만 톤·2차 1,800만 톤 쿼터가 전년과 같았다는 점은 검색 결과 요약으로 확인. 이번 약 400만 톤 추가 발급은 독립 출처로 확인 못 함(원문 링크가 로이터 전재로 확인돼 근거로 쓰지 않음).",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "중국 정제유 수출 쿼터 약 400만 톤 추가"
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "added": "이번 텔레그램·블룸버그·로이터 12건으로 에스콘디다 잠정합의(조합원 64% 찬성)로 파업이 피해졌고 센티넬라 협상 교착, BHP의 스펜스 노조 제소, 미국향 구리 차익 축소가 추가됐다",
+ "basis": "verified",
+ "check": "검색 결과 요약으로 에스콘디다 잠정합의·64% 찬성·36개월 계약, 스펜스 노조 제소 확인. 센티넬라 협상 결렬과 구리값 사흘째 하락은 제목, 미국 재고·차익 수치는 채널 전언",
+ "cycles": [],
+ "dupOf": "bbg-074",
+ "facts": [
+  "무엇이: BHP와 에스콘디다 감독직 노조는 정부 중재를 하루 연장해 잠정합의했고, 조합원 64%가 찬성해 36개월 계약으로 파업을 피했습니다 [사실]",
+  "스펜스: BHP는 스펜스 구리광산 노조를 불법 생산 중단으로 약 860만 달러 규모 소송을 냈습니다 [사실]",
+  "센티넬라: 709명이 파업 중인 안토파가스타 센티넬라의 노조는 15일 협상에서 돌파구가 없었다고 했습니다 [제목]",
+  "미국 재고: 맥쿼리 추정 미국 구리 재고는 약 160만 톤, COMEX 재고는 71만 4천 톤 이상으로 세계 가시재고의 약 70%이며, 미국향 차익은 톤당 3,000달러 이상에서 약 310달러로 줄었습니다 [채널]",
+  "가격: 구리값은 강한 미국 물가 지표에 사흘째 떨어졌습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "에스콘디다 파업 피했지만 센티넬라는 교착…美 구리 재고 효과 약화",
+ "id": "n-bbg-0085",
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{안토파가스타 칠레 센티넬라 구리광산 노조}}가 {{중재 결렬 뒤 파업 돌입}}을 예고하면서 {{칠레 구리 공급 차질 우려}}가 {{생길}} 수 있다 (제목 기준)",
+   "t": "안토파가스타 칠레 센티넬라 구리 광산 노조, 중재 결렬 뒤 파업 돌입 예고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{칠레 광산 파업}}이 {{공급 위험}}을 {{더하}}면서 {{구리값이 소폭 올라}} {{공급 차질 우려가 가격에 반영되기 시작}}했다 (제목 기준)",
+   "t": "칠레 광산 파업이 공급 위험 더하며 구리 소폭 상승",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/copper-stable-as-ai-driven-tech-stock-rally-holds-near-record"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{칠레 센티넬라 구리광산 노조 약 700명}}이 협상 결렬 뒤 {{10월 7일부터}} {{파업에 들어가}}면서 {{안토파가스타의 구리 생산}}이 {{차질}}을 빚을 수 있다",
+   "t": "칠레 센티넬라 구리광산 노동자, 협상 결렬 뒤 파업",
+   "u": "https://www.reuters.com/business/world-at-work/workers-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "s": "{{구리}}가 {{중국 시장 복귀}}와 {{공급 우려}}에 {{힘입어}} {{주간 상승}}을 {{앞두}}면서 {{수요와 공급 양쪽 요인}}이 {{가격을 떠받쳤}}다 (제목 기준)",
+   "t": "구리, 중국 복귀와 공급 우려에 주간 상승 앞둬",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/copper-set-for-weekly-gain-on-china-s-return-and-supply-concerns"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{칠레 센티넬라 노동자 700여 명}}이 {{사상 첫 파업}}에 들어가고 {{JP모건}}이 {{장기화 시 생산 차질}}을 경고하면서, {{재고가 낮은 구리 시장의 공급 불안}}이 {{커졌}}다",
+   "t": "구리 사상 최고 근접 속 칠레 센티넬라 첫 파업…JP모건 '차질 상당할 수도'",
+   "u": "https://t.me/HANAchina/70147"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 상상인 김진범",
+   "s": "{{중국 수입 수요 지표}}가 {{4년 만에 최고}}를 기록하고 센티넬라 파업이 이어지면서, {{구리값이 톤당 1만 4,540달러로 오르}}며 {{주간 약 2% 상승}}했다",
+   "t": "구리값 톤당 1만 4,540달러로 1.6% 상승…中 수요·광산 공급 위험",
+   "u": "https://t.me/PipeBeom/6651"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{중국 양산 구리 프리미엄}}이 {{9월 중순 이후 급등세}}를 이어가면서, {{중국 구리 수요의 선행지표}}가 {{강세 신호}}를 보내고 있다",
+   "t": "중국 구리 선행지표 양산 프리미엄, 9월 중순 이후 급등세",
+   "u": "https://t.me/HANAchina/70205"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{UBS}}가 {{구리를 가장 확신하는 원자재}}로 재확인하고 {{도이체방크}}가 {{내년 2분기 목표가를 톤당 2만 2,050달러로 올리}}면서, {{공급 부족 전망}}이 {{힘을 얻었}}다",
+   "t": "구리 사상 최고 근접…UBS '가장 확신하는 원자재', 도이체 목표가 상향",
+   "u": "https://t.me/HANAchina/70210"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{코델코 엘테니엔테 광산}}에 {{눈사태}}가 {{덮쳐}} {{하청 노동자 2명이 숨지}}면서 {{규제당국}}이 {{남쪽 노천광 작업}}을 {{중단시켰}}다",
+   "t": "칠레 코델코 구리광산에 눈사태, 또다시 사망자 발생",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/codelco-races-to-rescue-workers-after-accident-at-chilean-mine"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 트릴리온",
+   "s": "칠레 현지 소식통은 {{에스콘디다의 생산량}}이 {{파업 가능성을 고려하기 전에도}} {{35% 가까이 줄}}었을 수 있다고 전했으나 {{확인되지 않았}}다",
+   "t": "칠레 현지 소식통 \"에스콘디다 생산 35% 가까이 감소 가능성\"",
+   "u": "https://t.me/Trillion_labs/10352"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{코델코 엘테니엔테 광산}}에서 {{토사가 유출}}돼 {{노동자 3명이 피해}}를 입었지만 {{생산의 10% 미만인 노천광}}만 {{멈춰}} {{지하 작업은 정상 가동}} 중이다",
+   "t": "칠레 코델코, 엘테니엔테 광산 토사 유출로 노동자 3명 피해",
+   "u": "https://www.reuters.com/world/americas/chiles-codelco-reports-mudslide-el-teniente-mine-three-workers-affected-2026-10-11/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{금리 인상 기대 완화}}와 {{칠레 광산 눈사태}}가 {{겹치}}면서 {{구리값이 올라}} {{공급 차질 우려가 가격에 반영}}됐다 (제목 기준)",
+   "t": "금리 인상 기대 완화와 칠레 광산 눈사태에 구리값 상승",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{AI 매도세}}로 {{위험 선호가 약해지}}면서 {{구리·알루미늄 가격이 떨어}}져, {{사상 최고에 근접했던 구리 랠리}}가 {{주춤했}}다 (제목 기준)",
+   "t": "AI 매도세에 위험 선호 위축…구리·알루미늄 하락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/copper-and-aluminum-drop-as-ai-selloff-saps-appetite-for-risk"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "s": "{{BHP}}가 {{구리값 랠리}} 속에 {{세계 최대 구리광산 에스콘디다}}의 {{감독자 노조 파업}}을 막으려 {{개선된 최종 제안}}을 내면서 {{공급 차질 여부}}가 {{협상 결과}}에 달렸다",
+   "t": "BHP, 구리값 랠리 속 세계 최대 구리광산 파업 막기 위한 최종 시도",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/bhp-in-final-bid-to-avert-strike-at-top-copper-mine-as-prices-rally"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{안토파가스타 센티넬라 광산}}과 {{파업 중인 두 노조}}가 {{자율 중재}}로 {{협상을 재개}}하면서 {{11월 생산 50% 감소}} {{우려}}를 {{덜}} 수 있을지가 {{변수}}가 됐다",
+   "t": "파업 중인 노조와 센티넬라 구리광산, 협상 재개",
+   "u": "https://www.reuters.com/business/world-at-work/striking-unions-centinela-copper-mine-restart-negotiations-2026-10-13/"
+  },
+  {
+   "t": "에스콘디다, 협상 결렬 시 14일 파업 가능…센티넬라는 운행 트럭 급감 주장",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-14",
+   "u": "https://t.me/PipeBeom/6697",
+   "s": "에스콘디다 노조가 1인당 약 2만 5,500달러 보너스가 부족하다며 추가 개선을 요구하면서 13일 중재 시한을 넘기면 1,000명 이상이 파업할 수 있었다"
+  },
+  {
+   "t": "BHP 에스콘디다 노동자들 합의안 승인, 구리 파업 피해",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/world-s-top-copper-mine-faces-strike-as-wage-talks-break-down",
+   "s": "에스콘디다 노조원들이 BHP 합의안을 승인하면서 세계 최대 구리 광산의 파업 위험이 사라졌다"
+  },
+  {
+   "t": "BHP 에스콘디다 감독직 노조, 계약 협상 실패로 파업 예고",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/world-at-work/supervisors-bhps-escondida-mine-chile-strike-after-contract-talks-fail-2026-10-13/",
+   "s": "에스콘디다 감독직 노조가 계약 협상이 실패했다며 파업에 나서기로 하면서 구리 공급 차질 우려가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "세계 최대 광산 파업 피하자 구리값 소폭 하락",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/copper-climbs-to-three-week-high-on-strike-threat-fed-comments",
+   "s": "세계 최대 구리 광산이 파업을 피하면서 공급 차질 우려가 줄어 구리값이 소폭 내렸다 (제목 기준)"
+  },
+  {
+   "t": "BHP-에스콘디다 감독직 노조 잠정합의…비준 위해 중재 하루 연장",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-15",
+   "u": "https://t.me/PipeBeom/6708",
+   "s": "BHP와 감독직 노조가 처우 개선안에 잠정합의하고 비준 투표를 위해 중재를 하루 연장하면서 광산은 정상 운영을 이어갔다"
+  },
+  {
+   "t": "미국 구리 재고 160만 톤…관세 위협발 미국 쏠림 효과 약해져",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-15",
+   "u": "https://t.me/PipeBeom/6709",
+   "s": "미국향 구리 차익이 톤당 3,000달러 이상에서 약 310달러로 줄면서 추가 유입 유인은 약해졌지만 쌓인 재고는 미국에 머물 수 있다"
+  },
+  {
+   "t": "트럼프 관세 위협이 쌓은 미국 구리 산, 효과 약해져",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/trump-tariff-threat-built-us-copper-mountain-effects-are-fading-2026-10-14/",
+   "s": "관세 위협으로 미국에 쌓인 구리가 세계 가시재고의 약 70%에 이르지만 차익 축소로 쏠림 효과가 약해지고 있다"
+  },
+  {
+   "t": "BHP 에스콘디다 감독직 노조, 잠정합의로 파업 피해",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/world-at-work/bhps-escondida-supervisors-union-avert-strike-with-preliminary-agreement-2026-10-14/",
+   "s": "BHP와 에스콘디다 감독직 노조가 잠정합의에 이르면서 세계 최대 구리 광산의 파업이 회피됐다"
+  },
+  {
+   "t": "강한 미국 물가 지표에 매도세…구리값 사흘째 하락",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
+   "s": "미국 물가 지표가 예상보다 강하게 나오면서 금속 시장에 매도세가 이어져 구리값이 사흘째 떨어졌다 (제목 기준)"
+  },
+  {
+   "t": "LME 위크: 구리 공급난이 오래된 광산에 새 생명 불어넣어",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/",
+   "s": "구리 공급난과 높은 가격이 이어지면서 채산성이 낮던 오래된 광산들이 다시 살아나고 있다 (제목 기준)"
+  },
+  {
+   "t": "안토파가스타 센티넬라 파업 노조 '협상 돌파구 없어'",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/world-at-work/no-breakthrough-talks-antofagastas-striking-centinela-copper-mine-unions-say-2026-10-15/",
+   "s": "센티넬라 파업 노조가 회사와의 협상에서 돌파구가 없었다고 밝히면서 칠레 구리 공급 차질이 길어질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "BHP, 스펜스 구리광산 노조를 불법 생산 중단으로 제소",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/litigation/bhp-sues-union-spence-copper-mine-over-illegal-production-stoppages-lawsuit-2026-10-15/",
+   "s": "BHP가 스펜스 구리광산 노조를 불법 생산 중단 혐의로 제소하면서 칠레 광산 노사 갈등이 법정으로 번졌다"
+  }
+ ],
+ "key": "bbg-1007-antofagasta-centinela-strike",
+ "nodes": [],
+ "num": 85,
+ "one": "BHP가 에스콘디다 감독직 노조와 잠정합의해 파업을 피했지만 센티넬라 파업 협상은 진전이 없고 미국향 구리 차익이 톤당 약 310달러로 줄면서, 칠레 공급 불안 속에서도 구리값은 미국 물가 부담에 사흘째 내렸다",
+ "origTitle": "Antofagasta Copper Miners Strike as High Prices Fan Tensions",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "리오타임스",
+   "u": "https://www.riotimesonline.com/chile-copper-mine-strike-centinela-2026/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "SMM(상하이메탈마켓)",
+   "u": "https://news.metal.com/newscontent/104144099-centinela-copper-mine-mediation-ends-without-agreement-strike-could-begin-october-7"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Northern Miner",
+   "u": "https://www.northernminer.com/news/copper-price-gains-as-chile-strike-threatens-output/1003895558/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "MINING.COM",
+   "u": "https://www.mining.com/antofagastas-centinela-strike-adds-copper-supply-risk/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "The Rio Times",
+   "u": "https://www.riotimesonline.com/chile-el-teniente-avalanche-2026/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "Discovery Alert",
+   "u": "https://discoveryalert.com/news/el-teniente-mudslide-codelco-workers-trapped-october-2026/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "MINING.COM",
+   "u": "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Rio Times",
+   "u": "https://www.riotimesonline.com/chile-centinela-copper-strike-begins-709-workers"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/3f7a5aa1-861d-4c5d-b4e6-20c7abf30ca1"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "MINING.COM",
+   "u": "https://mining.com/web/worlds-top-copper-mine-in-final-bid-to-avert-strike-as-prices-rally"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "MINING.COM",
+   "u": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Mining Journal",
+   "u": "https://www.mining-journal.com/base-metals/news-analysis/4538025/antofagasta-centinela-resume-talks-amid-hunger-strike"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "The Rio Times",
+   "u": "https://www.riotimesonline.com/chile-escondida-copper-strike-deadline-final-offer-2026/"
+  },
+  {
+   "o": "Mining Weekly",
+   "d": "2026-10-15",
+   "u": "https://www.miningweekly.com/article/bhp-escondida-supervisors-reach-deal-to-avert-strike-at-chile-copper-mine-2026-10-15"
+  },
+  {
+   "o": "MINING.COM",
+   "d": "2026-10-14",
+   "u": "https://www.mining.com/bhp-averts-strike-at-worlds-biggest-copper-mine-2"
+  },
+  {
+   "o": "Discovery Alert",
+   "d": "2026-10-15",
+   "u": "https://discoveryalert.com/news/bhp-spence-copper-strike-lawsuit-october-2026/"
+  }
+ ],
+ "tags": [],
+ "title": "에스콘디다 파업 피했지만 센티넬라는 교착…美 구리 재고 효과 약화",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "에스콘디다 잠정합의로 파업 피하고 정상 가동"
+  },
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "미국 물가 강세에 구리값 사흘째 하락"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "basis": "verified",
+ "channel": "하나증권 중국전략",
+ "check": "검색 결과 요약으로 확인(CNBC, Middle East Eye, Daily Sabah 등)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 사우디·파키스탄·튀르키예가 8월 맺은 메카 방위협정을 발동한 뒤 사우디 주도의 대후티 반격이 시작됐다 [사실]",
+  "튀르키예: 드론 운용병·정보·방공 등 방어적·기술적 지원을 보내고 있으나, 대규모 파병과 예멘 직접 개입은 배제했고 추가 배치에는 의회 승인이 필요하다 [사실]",
+  "시리아: 사우디 방어 지원부터 예멘 내 공세 참여까지 군사 지원을 검토 중이며, 공식 요청이 있어야 한다는 입장이다 [사실]",
+  "피해: 후티가 리야드 공항과 석유시설을 겨냥한 미사일 공격을 늘려 이번 주 3명이 숨졌고 루프트한자·에어인디아가 리야드 운항을 중단했다 [사실]",
+  "파키스탄: 의회 관여 없이 무니르 참모총장의 군이 걸프 역할을 맡아 사우디에 병력을 배치하고 아덴에 군수품을 수송했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "사우디 주도 대후티 반격 개시…튀르키예 방공 지원, 시리아도 파병 검토",
+ "id": "n-tg-0112",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-HANAchina-69951",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 112,
+ "one": "후티 반군이 미사일로 사우디 공항과 석유시설을 겨냥하는 가운데 메카 방위협정을 발동한 사우디가 반격에 나서고 튀르키예가 드론 운용병과 방공 지원을, 시리아가 군사 지원을 검토하면서 걸프 석유 인프라를 둘러싼 전선이 다국 간 전쟁으로 넓어지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T11:17:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-06",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "신화통신 영문판",
+   "u": "https://english.news.cn/20261006/5ff16640ca054b1098833b9a4a1676b0/c.html"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/booms-flight-disruptions-riyadh-saudi-houthi-war-escalates.html"
+  },
+  {
+   "o": "Middle East Eye",
+   "d": "2026-10-08",
+   "u": "https://www.middleeasteye.net/news/turkey-to-deploy-troops-and-air-defence-systems-saudi-arabia"
+  },
+  {
+   "o": "Daily Sabah",
+   "d": "2026-10-08",
+   "u": "https://www.dailysabah.com/world/mid-east/syria-mulls-military-aid-to-saudi-arabia-as-houthis-escalate-war"
+  }
+ ],
+ "tags": [],
+ "title": "사우디 주도 대후티 반격 개시…튀르키예 방공 지원, 시리아도 파병 검토",
+ "url": "https://t.me/HANAchina/69951",
+ "items": [
+  {
+   "t": "사우디·파키스탄·튀르키예, 메카 방위협정 첫 발동…사우디에 병력 배치 합의",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-06",
+   "u": "https://t.me/HANAchina/69951"
+  },
+  {
+   "t": "사우디 주도의 후티 반군 상대 반격이 본격적으로 시작됐다",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/saudi-led-fightback-against-the-houthis-begins"
+  },
+  {
+   "t": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/"
+  },
+  {
+   "t": "시리아, 예멘 전쟁 속 사우디 군사 지원 검토…소식통",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/"
+  },
+  {
+   "t": "튀르키예 외무장관 \"사우디 방위 지원 검토 중\"…일부 선택지는 배제",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out-2026-10-08/"
+  },
+  {
+   "t": "사우디 공항들 후티 공격받자 시리아, 예멘 전쟁 지원 검토",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/"
+  },
+  {
+   "t": "무니르의 군대가 걸프 역할 맡는데 파키스탄 의회는 배제돼",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

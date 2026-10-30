@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0612",
+ "num": 612,
+ "key": "split-G6-093-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "LME 위크 '구리 공급난이 오래된 광산에 새 생명'",
+ "headline": "LME 위크 '구리 공급난이 오래된 광산에 새 생명'",
+ "one": "구리 공급난과 높은 가격이 이어지면서 채산성이 낮던 오래된 광산들이 다시 살아나고 있다고 로이터가 LME 위크 기간에 전하면서, 노후·한계 광산의 재가동이 공급을 일부 보탤 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 구리 공급난과 높은 가격이 이어지면서 채산성이 낮던 오래된 광산들이 다시 살아나고 있다고 로이터가 10월 15일 LME 위크 기사로 전했다 [제목]",
+  "의미: 높은 구리값이 노후·한계 광산의 재가동과 증산을 부를 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "LME 위크: 구리 공급난이 오래된 광산에 새 생명 불어넣어",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/lmeweek-copper-squeeze-breathes-new-life-into-old-mines-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "구리 공급난에 오래된 광산 재가동"
+  }
+ ]
+}

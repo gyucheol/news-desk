@@ -1,0 +1,75 @@
+{
+ "id": "n-bbg-0542",
+ "num": 542,
+ "key": "split-G5-042-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:58:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/cpi-test-set-to-make-or-break-new-zealand-dollar-s-losing-run",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "뉴질랜드 연말 물가 급등 전망에 추가 금리 인상 시사…3분기 CPI 주목",
+ "headline": "뉴질랜드 연말 물가 급등 전망에 추가 금리 인상 시사…3분기 CPI 주목",
+ "one": "뉴질랜드 3분기 CPI 발표가 약세를 이어 온 뉴질랜드달러의 방향을 가를 시험대로 꼽힌 가운데, 2분기 4.1%였던 물가가 연말로 갈수록 크게 오를 것으로 보이면서 뉴질랜드중앙은행이 금리를 더 올릴 가능성이 커졌다",
+ "facts": [
+  "무엇이: 뉴질랜드 물가가 연말로 갈수록 크게 오를 것으로 보여 추가 금리 인상 가능성이 커졌다 [제목]",
+  "물가·금리: 뉴질랜드 2분기 물가 상승률은 4.1%였고, 이코노미스트들은 3분기 CPI 발표를 앞두고 10월 28일 기준금리 인상이 여전히 유력하다고 봤다 [사실]",
+  "환율: 3분기 CPI 결과가 약세를 이어 온 뉴질랜드달러의 방향을 가를 시험대로 꼽혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 2건(10월 19·20일)을 묶음. 뉴질랜드 2분기 물가와 10월 인상 가능성은 interest.co.nz 검색 결과로 확인했고, 연말 물가 급등 전망과 뉴질랜드달러 내용은 제목 기준",
+ "src": [
+  {
+   "o": "interest.co.nz",
+   "d": "2026-10",
+   "u": "https://www.interest.co.nz/economy/140719/inflation-projected-soften-slightly-and-temporarily-september-quarter-economists-say"
+  }
+ ],
+ "items": [
+  {
+   "t": "3분기 CPI, 뉴질랜드달러 약세 행진 이어질지 가를 시험대",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/cpi-test-set-to-make-or-break-new-zealand-dollar-s-losing-run",
+   "s": "뉴질랜드 3분기 CPI 발표가 다가오면서, 결과에 따라 약세를 이어 온 뉴질랜드달러의 방향이 갈릴 전망이다 (제목 기준)"
+  },
+  {
+   "t": "뉴질랜드 연말 물가 급등, 추가 금리 인상 시사",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/new-zealand-s-year-end-inflation-surge-points-to-more-rate-hikes",
+   "s": "뉴질랜드 물가가 연말로 갈수록 크게 오를 것으로 보이면서, 뉴질랜드중앙은행이 금리를 더 올릴 가능성이 커졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "뉴질랜드 연말 물가 급등 전망"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "뉴질랜드중앙은행 추가 금리 인상 가능성 확대"
+  }
+ ]
+}

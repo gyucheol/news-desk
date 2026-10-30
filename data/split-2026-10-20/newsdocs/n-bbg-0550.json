@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0550",
+ "num": 550,
+ "key": "split-G5-066-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-15/bolsonaro-s-election-lead-raises-the-odds-of-brazil-oil-asset-sale",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "보우소나루 결선 선두에 브라질 석유 자산 매각 가능성 커져",
+ "headline": "보우소나루 결선 선두에 브라질 석유 자산 매각 가능성 커져",
+ "one": "플라비우 보우소나루가 결선 여론조사에서 앞서면서 차기 정부가 브라질 석유 자산을 팔 가능성이 높아졌다는 분석이 나와, 결선 결과에 따라 국영 석유 자산의 주인이 바뀔 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 보우소나루의 결선 여론조사 선두로 브라질 석유 자산 매각 가능성이 커졌다고 분석했다 [제목]",
+  "연결 공약: 보우소나루는 국영기업 부실 관리 개선과 연방 부동산 자산 매각 등으로 2,000억 헤알 재정 조정을 하겠다고 했다 [사실]",
+  "전망: 결선은 10월 25일이며, 결과에 따라 석유 자산 매각 논의가 본격화할 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건. 원 문서에서 석유 자산 매각 가능성은 제목 근거로만 다뤘고, 재정 조정 공약만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "보우소나루 선두에 브라질 석유 자산 매각 가능성 커져",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/bolsonaro-s-election-lead-raises-the-odds-of-brazil-oil-asset-sale"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "보우소나루 선두에 석유 자산 매각 가능성 커져"
+  }
+ ]
+}

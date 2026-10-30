@@ -1,0 +1,86 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: UMG 3분기 실적 발표(매출 33억 9,400만 유로 12.3%↑, 구독 고정환율 19.2%↑·다운타운 제외 9.5%↑)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유니버설뮤직그룹 3분기 매출은 33억 9,400만 유로로 12.3%(고정환율 11.7%) 늘었고, 다운타운을 빼면 고정환율 기준 5.3% 늘었다 [사실]",
+  "구독: 녹음음악 구독 매출은 약 14억 2,000만 유로로 고정환율 19.2%(다운타운 제외 9.5%) 늘었고, 회사는 도매가 인상과 가입자 증가를 꼽으며 상반기보다 점유율 역풍이 줄었다고 했다 [사실]",
+  "비상장 논의: 경영진이 아폴로·TPG·블랙스톤 등 바이아웃 펀드와 비상장 전환을 초기 논의했으나 진전되지 않았고 공식 매각 절차는 없다 [사실]",
+  "배경: 이사회는 앞서 빌 애크먼의 퍼싱스퀘어가 낸 인수 제안을 만장일치로 거부했다 [사실]",
+  "변수: 비방디와 가문 지주회사를 통해 30% 넘는 지분을 가진 볼로레 가문의 지지가 필요하고 주가는 올해 약 30% 떨어졌다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유니버설뮤직 3분기 구독 매출 19.2%↑…아폴로·TPG·블랙스톤과 비상장 전환 논의",
+ "id": "n-bbg-0746",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "t": "유니버설뮤직, 바이아웃 펀드와 비상장 전환 논의",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/universal-music-group-discussed-going-private-with-buyout-firms"
+  },
+  {
+   "t": "유니버설뮤직 구독 매출 성장률 개선",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/universal-music-subscription-revenue-growth-shows-improvement",
+   "s": "유니버설뮤직그룹의 3분기 구독 매출이 고정환율 기준 19.2% 늘어 성장률이 개선되면서 전체 매출도 33억 9,400만 유로로 12.3% 증가했다"
+  }
+ ],
+ "key": "mix-G2-050-2026-10-27",
+ "nodes": [],
+ "num": 746,
+ "one": "유니버설뮤직그룹이 사모펀드와 비상장 전환을 논의하는 가운데 3분기 구독 매출 성장률이 개선됐다\n· 3분기 매출은 33억 9,400만 유로로 전년보다 12.3% 늘었다\n· 녹음음악 구독 매출은 고정환율 기준 19.2% 늘었고 다운타운을 빼면 9.5% 늘었다\n· 경영진은 아폴로·TPG·블랙스톤 등과 비상장 전환을 논의했지만 진전은 없고 매각 절차도 시작하지 않았다\n· 거래에는 지분 30% 넘게 가진 볼로레 가문의 지지가 필요하며 주가는 올해 약 30% 내렸다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:20:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "Seeking Alpha",
+   "u": "https://seekingalpha.com/news/4657605-universal-music-group-discussed-going-private-with-buyout-shops---bloomberg"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "KSL",
+   "u": "https://www.ksl.com/article/51641318/universal-music-group-discussed-going-private-with-buyout-firms-bloomberg-news-reports"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "ABC News",
+   "u": "https://abc.net.au/news/2026-10-27/asx-markets-business-live-news-anthropic/107312526"
+  },
+  {
+   "o": "UMG 실적 발표(PR Newswire)",
+   "d": "2026-10-29",
+   "u": "https://www.prnewswire.com/news-releases/universal-music-group-nv-reports-financial-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302924002.html"
+  },
+  {
+   "o": "Music Business Worldwide",
+   "d": "2026-10-29",
+   "u": "https://www.musicbusinessworldwide.com/universal-music-group-generated-3-90b-in-q3-up-11-7-yoy-driven-by-mrs-green-apple-olivia-rodrigo-stray-kids-ariana-grande-and-the-beatles/"
+  }
+ ],
+ "tags": [],
+ "title": "유니버설뮤직 3분기 구독 매출 19.2%↑…아폴로·TPG·블랙스톤과 비상장 전환 논의",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/universal-music-group-discussed-going-private-with-buyout-firms",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "media",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "유니버설뮤직 구독 매출 19.2% 증가"
+  }
+ ],
+ "added": "블룸버그 1건 — 3분기 구독 매출이 고정환율 19.2%(다운타운 제외 9.5%) 늘어 성장률이 개선되고 매출이 12.3% 늘어난 내용이 추가됨",
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

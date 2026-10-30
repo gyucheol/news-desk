@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0572",
+ "num": 572,
+ "key": "split-G5-150-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/draghi-says-ai-can-help-us-steady-debt-if-congress-curbs-deficit",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "드라기 '의회가 적자 억제하면 AI가 美 부채 안정 도울 수 있어'",
+ "headline": "드라기 '의회가 적자 억제하면 AI가 美 부채 안정 도울 수 있어'",
+ "one": "드라기가 15일 미국 의회가 적자를 억제한다면 AI에 따른 성장이 미국 부채 안정에 도움이 될 수 있다고 하면서, IMF가 성장만으로는 미국 적자 대응이 어렵다고 본 가운데 재정 규율이 전제 조건으로 강조됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 드라기는 10월 15일 미국 의회가 적자를 억제하면 AI가 미국 부채 안정에 도움이 될 수 있다고 했다 [제목]",
+  "IMF 시각: 게오르기에바 IMF 총재는 미국 성장만으로는 조정을 충분히 빨리 해낼 수 없다며 적자를 줄여야 한다고 했고, IMF는 미국 일반정부 적자를 GDP의 8.5%로 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, IMF 시각은 원 문서의 재정점검 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "드라기 \"의회가 적자 억제하면 AI가 美 부채 안정 도울 수 있어\"",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/draghi-says-ai-can-help-us-steady-debt-if-congress-curbs-deficit"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "드라기, 미국 의회의 적자 억제를 전제로 강조"
+  }
+ ],
+ "ind": "semis"
+}

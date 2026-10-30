@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0391",
+ "num": 391,
+ "key": "split-G1-101-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디·이란 외무장관, 후티 공세 속 역내 긴장 논의",
+ "headline": "사우디·이란 외무장관, 후티 공세 속 역내 긴장 논의",
+ "one": "사우디와 이란 외무장관이 후티의 사우디 공항 공격이 잇따르는 가운데 역내 긴장을 논의했다고 사우디 국영통신이 전하면서, 후티 분쟁을 두고 두 나라의 외교 채널이 가동되고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 사우디·이란 외무장관은 역내 긴장을 논의했다고 국영통신이 전했다 [제목]",
+  "변수: 후티는 사우디의 오만 협상 제안을 거부했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디·이란 외무장관, 역내 긴장 논의…국영통신 보도",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says-2026-10-11/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "사우디·이란 외무장관 역내 긴장 논의, 수급 방향 없음"
+  }
+ ]
+}

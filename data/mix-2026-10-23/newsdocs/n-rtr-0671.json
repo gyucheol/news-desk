@@ -1,0 +1,96 @@
+{
+ "id": "n-rtr-0671",
+ "num": 671,
+ "key": "mix-G1-021-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:00:00+09:00",
+ "url": "https://www.reuters.com/business/energy/indonesia-energy-ministry-consider-additional-quota-subsidised-fuel-demand-rises-2026-10-23/",
+ "origTitle": "",
+ "headline": "아시아 연료 보조금 부담…日 휘발유 보조금 12월 축소 검토·印尼 추가 쿼터·파키스탄 LPG 부족",
+ "src": [
+  {
+   "o": "New Straits Times",
+   "d": "2026-10-23",
+   "u": "https://www.nst.com.my/amp/business/economy/2026/10/1561880/japan-weighs-phasing-out-gasoline-subsidies-december-costs-mount"
+  },
+  {
+   "o": "USO News",
+   "d": "2026-10-23",
+   "u": "https://rallies.ai/news/indonesia-energy-ministry-to-consider-additional-quota-for-subsidised-fuel-as-demand-rises-297cbb8be32d049d"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도네시아 에너지부, 수요 증가에 보조금 연료 추가 쿼터 검토",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/indonesia-energy-ministry-consider-additional-quota-subsidised-fuel-demand-rises-2026-10-23/",
+   "s": "인도네시아 에너지부가 보조 연료 소비가 할당량보다 약 10% 빠르게 늘자 추가 쿼터를 검토하면서, 보조금 재정 부담이 커질 수 있다"
+  },
+  {
+   "t": "일본, 비용 불어나자 12월부터 휘발유 보조금 단계 폐지 검토",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/japan-weighs-phasing-out-gasoline-subsidies-december-costs-mount-officials-say-2026-10-23/",
+   "s": "일본 정부가 보조금 비용이 불어나자 12월부터 휘발유 보조금을 줄이는 방안을 검토하면서, 휘발유값이 리터당 175~180엔으로 오를 수 있다"
+  },
+  {
+   "t": "파키스탄, 국경 폐쇄 뒤 LPG 부족 심화…트레이더들",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/pakistan-lpg-shortage-worsens-after-border-closure-traders-say-2026-10-23/",
+   "s": "파키스탄에서 국경이 폐쇄된 뒤 LPG 부족이 더 심해지면서, 현지 연료 수급 차질이 커지고 있다고 트레이더들이 전했다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "아시아 연료 보조금 부담…日 휘발유 보조금 12월 축소 검토·印尼 추가 쿼터·파키스탄 LPG 부족",
+ "one": "일본·인도네시아가 연료 보조금 조정을 검토하는 가운데 파키스탄은 국경 폐쇄로 LPG 부족이 심해졌다\n· 일본 정부는 보조금 비용이 불어나자 12월부터 휘발유 보조금을 단계적으로 줄이는 방안을 검토하고 있다\n· 이 방안대로면 휘발유값은 12월 리터당 약 175엔, 1월 약 180엔으로 오를 수 있다\n· 인도네시아는 보조 연료 소비가 할당량보다 약 10% 빠르게 늘자 추가 쿼터를 검토하고 있다\n· 파키스탄에서는 국경 폐쇄 뒤 LPG 부족이 심해지고 있다고 트레이더들이 전했다",
+ "facts": [
+  "무엇이: 일본 정부가 보조금 비용이 불어나자 12월부터 휘발유 보조금을 단계적으로 줄이는 방안을 검토하고 있으나 아직 결정되지 않았다 [사실]",
+  "가격: 논의 중인 안대로면 휘발유값은 12월 리터당 약 175엔, 1월 약 180엔으로 오르며, 정부는 4월 식품 소비세 인하 전까지 보조금을 최대한 줄이려 한다 [사실]",
+  "인도네시아: 할당량 2,927만 kL 대비 소비가 6월 비보조 연료값 인상 뒤 약 10% 빠르게 늘어 에너지부가 추가 쿼터를 검토하고, 보조 연료값은 연말까지 동결한다 [사실]",
+  "파키스탄: 국경 폐쇄 뒤 LPG 부족이 심해지고 있다고 트레이더들이 전했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "일본 보조금 축소안·가격 175~180엔, 인도네시아 할당량 대비 10% 초과 소비는 검색 결과 요약(NST·USO News)으로 확인, 파키스탄 LPG 부족은 확인 못 함",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도네시아 보조 연료 소비 할당량보다 10% 빠르게 증가"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본 휘발유 보조금 축소로 12월 리터당 175엔 전망"
+  },
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "일본 휘발유 보조금 12월부터 단계 축소 검토"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0200",
+ "num": 200,
+ "key": "bnd-C186-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T04:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/argentina-s-sluggish-august-points-to-technical-recession",
+ "origTitle": "",
+ "headline": "아르헨티나 8월 경기 부진…2분기 역성장 이어 기술적 침체 조짐",
+ "src": [
+  {
+   "o": "The Rio Times",
+   "d": "2026-09",
+   "u": "https://www.riotimesonline.com/argentina-economic-activity-july-emae-2-9-2026"
+  },
+  {
+   "o": "Buenos Aires Times",
+   "d": "2026-09",
+   "u": "https://batimes.com.ar/news/economy/economic-activity-records-biggest-monthly-fall-since-pandemic.phtml"
+  }
+ ],
+ "items": [
+  {
+   "t": "아르헨티나 8월 부진, 기술적 경기침체 가리켜",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/argentina-s-sluggish-august-points-to-technical-recession"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "아르헨티나 8월 경기 부진…2분기 역성장 이어 기술적 침체 조짐",
+ "one": "아르헨티나 경제가 2분기 0.6% 역성장하고 7월 활동지수가 전월보다 2.9% 떨어진 데 이어 8월도 부진한 흐름을 보이면서, 3분기까지 역성장해 기술적 경기침체에 빠질 가능성이 커지고 있다",
+ "facts": [
+  "무엇이: 8월 경기 부진이 기술적 침체를 가리킨다는 분석 [제목]",
+  "앞선 지표: 2분기 GDP 0.6% 감소, 7월 경제활동지수(EMAE)는 전월 대비 2.9%, 전년 대비 1.4% 하락 [사실]",
+  "판단 시점: 공식 8월 EMAE는 10월 21일, 3분기 GDP는 12월 발표 예정 [사실]",
+  "정부 입장: 카푸토 경제장관은 침체가 아니라 덜 성장하는 것이라고 반박 [사실]"
+ ],
+ "basis": "partial",
+ "check": "2분기·7월 지표와 발표 일정은 검색 결과 요약(Rio Times, BA Times, IndexBox)으로 확인. 블룸버그가 근거로 든 8월 지표 수치는 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ]
+}

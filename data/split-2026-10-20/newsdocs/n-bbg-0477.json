@@ -1,0 +1,87 @@
+{
+ "id": "n-bbg-0477",
+ "num": 477,
+ "key": "split-G4-067-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/blackstone-s-gray-bets-big-on-electriciy-defense-life-sciences",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "블랙스톤 그레이 \"유럽 재정 위험이 미국보다 커\"…월러 \"미국은 버틸 수 있어\"",
+ "headline": "블랙스톤 그레이 \"유럽 재정 위험이 미국보다 커\"…월러 \"미국은 버틸 수 있어\"",
+ "one": "블랙스톤 그레이 사장이 10월 13일 프랑스·영국 등 유럽 재정 압박을 미국보다 급한 위험으로 꼽고 월러 연준 이사는 미국은 성장과 해외 자금 유입으로 버틸 수 있다고 보면서, 투자자들이 유럽 국채 위험을 더 무겁게 볼 수 있다",
+ "facts": [
+  "무엇이: 블랙스톤 그레이 사장은 10월 13일 프랑스·영국 등 유럽의 재정 압박을 미국보다 급한 위험으로 꼽았다 [사실]",
+  "연준: 월러 연준 이사는 프랑스의 재정 스트레스를 경고 신호로 보면서도 미국은 성장과 해외 자금 유입으로 버틸 수 있다고 봤다 [사실]",
+  "다른 보도: 같은 날 블룸버그는 그레이가 유럽 재정 위험이 미국의 문제보다 크다고 경고했다고 전했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 2건(그레이 경고, 그레이·월러 공동 언급). 원 문서 독립 출처 Futu News(10월 13일) 제목이 그레이·월러의 프랑스 재정 압박 언급을 다뤄 이를 근거로 삼음. 원 문서 확인 기록에는 이 사건 부분이 없음",
+ "src": [
+  {
+   "o": "Futu News",
+   "d": "2026-10-13",
+   "u": "https://news.futunn.com/en/post/1001013567/blackstone-president-and-fed-governor-waller-france-s-fiscal-pressure"
+  }
+ ],
+ "items": [
+  {
+   "t": "블랙스톤 그레이 '유럽 재정 위험이 미국 문제보다 크다' 경고",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/blackstone-s-gray-bets-big-on-electriciy-defense-life-sciences",
+   "s": "블랙스톤의 그레이 사장이 유럽 재정 위험이 미국의 문제보다 크다고 경고하면서 유럽 자산의 위험을 더 무겁게 봐야 한다는 시각이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "블랙스톤 그레이·연준 월러, 프랑스 재정 압박에서 경고 신호 읽어",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/blackstone-s-gray-fed-s-waller-see-warning-from-france-s-stress",
+   "s": "블랙스톤 그레이 사장이 프랑스·영국 등 유럽 재정 압박을 미국보다 급한 위험으로 꼽았고, 월러 연준 이사는 미국은 성장·해외 자금 유입으로 버틸 수 있다고 봤다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "유럽 재정 압박이 미국보다 급한 위험이라는 경고"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "월러, 미국은 성장·해외 자금으로 버틸 수 있다고 평가"
+  }
+ ],
+ "fed": [
+  {
+   "k": "Waller",
+   "who": "크리스토퍼 월러",
+   "role": "연준 이사",
+   "kind": "발언",
+   "stance": "",
+   "t": "프랑스 재정 압박을 경고 신호로 보면서도 미국은 성장·해외 자금 유입으로 버틸 수 있다고 봤다",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/blackstone-s-gray-fed-s-waller-see-warning-from-france-s-stress"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "n-tg-0765",
+ "num": 765,
+ "key": "mix-G1-022-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T12:45:00+09:00",
+ "url": "https://t.me/Trillion_labs/11254",
+ "origTitle": "",
+ "headline": "중국 부동산 침체 심화…1~9월 부동산 투자 21%↓ 사상 최대 낙폭·주하이 화파 620억 달러 부채 압박",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-27",
+   "u": "https://t.me/Trillion_labs/11254"
+  },
+  {
+   "o": "GMK Center",
+   "d": "2026-10-19",
+   "u": "https://gmk.center/en/news/investment-in-chinese-property-fell-by-20-6-y-y-over-the-first-nine-months/"
+  },
+  {
+   "o": "Caixin Global",
+   "d": "2026-10-19",
+   "u": "https://www.caixinglobal.com/2026-10-19/chinas-fixed-asset-investment-remains-weak-as-property-slump-deepens-102494819.html"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-27",
+   "u": "https://www.newsquawk.com/headlines/chinese-property-name-huafa-600325-ch-is-said-to-be-seeking-to-extend-repayments-on-some-of-its-debt-bloomberg-reports"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 1~9월 부동산 투자 21% 감소…사상 최대 낙폭",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-27",
+   "u": "https://t.me/Trillion_labs/11254",
+   "s": "중국 부동산 투자가 1~9월 21% 줄어 팬데믹 때 16% 감소보다 깊어지면서 2022년 이후 최장 하락이 이어지고 있다"
+  },
+  {
+   "t": "중국 부동산난, 화파의 620억 달러 부채에 압박",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/china-property-woes-crisis-zhuhai-huafa-62-billion-debt-zhuhai-tower-guangdong",
+   "s": "부동산 침체가 주하이 화파의 620억 달러 부채를 짓누르면서 지방정부 계열 대기업이 은행에 대출 연장을 요청하는 상황이 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "channel": "트릴리온",
+ "title": "중국 부동산 침체 심화…1~9월 부동산 투자 21%↓ 사상 최대 낙폭·주하이 화파 620억 달러 부채 압박",
+ "one": "중국 부동산 투자 감소폭이 사상 최대로 커지면서 지방정부 계열 대기업의 부채로 압박이 번졌다\n· 채널은 1~9월 부동산 투자가 21% 줄었다고 전했고 국가통계국 공식치는 20.6% 감소였다\n· 1~8월 19.9% 감소보다 낙폭이 커졌고 부동산 투자는 2022년 이후 매달 줄었다\n· 같은 기간 신규 착공은 24.9%, 개발사 자금 유입은 21.6% 줄었다\n· 주하이 화파는 620억 달러 규모 부채에 압박을 받아 은행에 대출 연장을 요청한 것으로 전해졌다",
+ "facts": [
+  "무엇이: 국가통계국 기준 1~9월 부동산 개발투자는 5조 3,364억 위안으로 20.6% 줄어 1~8월(-19.9%)보다 낙폭이 커졌다 [사실]",
+  "채널 수치: 코베이시 레터를 인용한 채널은 21% 감소로 이 기간 사상 최대 낙폭이며 2020년 팬데믹 때 16% 감소보다 크다고 전했다 [채널]",
+  "세부: 신규 착공은 24.9%, 개발사 자금 유입은 21.6% 줄었고 부동산 투자는 2022년 이후 매달 감소해 최장 하락을 이어갔다 [사실]",
+  "화파: 주하이 화파는 3월 기준 이자부 부채 4,130억 위안(620억 달러)을 지고 있으며 은행 3곳 이상에 대출 만기 연장과 금리 인하를 요청한 것으로 보도됐다 [사실]",
+  "손실: 화파는 2025년 169억 위안 손실을 냈고 신탁 상품 2건 상환을 놓쳤다는 보도가 있다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 1~9월 부동산 투자 20.6% 감소(채널의 21%와 차이), 화파 부채 4,130억 위안(620억 달러)·대출 연장 요청 확인. 화파 손실·신탁 미상환은 보도 간 차이로 미확인",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "china",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "1~9월 부동산 투자 20.6% 감소 사상 최대 낙폭"
+  },
+  {
+   "ind": "realestate",
+   "node": "finance",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "화파 620억 달러 부채 압박에 대출 연장 요청"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

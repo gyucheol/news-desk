@@ -1,0 +1,137 @@
+{
+ "added": "이번 블룸버그·로이터 3건과 텔레그램 1건으로 인도네시아 발리 연료 부족과 PLN CEO 교체, 케냐의 휘발유 상한가 인상이 추가됐다",
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Jakarta Globe·The Star·Tempo·The Star Kenya·EPRA): 발리 재택근무 명령, PLN CEO 교체와 바탐 정전, 케냐 휘발유 12.93실링 인상. 팜유·식량 분석은 채널 전언",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도네시아 발리주는 연료 부족이 심해지자 10월 15~17일 재택근무와 온라인 수업을 명령했고, 에너지부 장관은 연료 재고가 20일분이라며 수요 이동과 보조 연료 오용을 탓했다 [사실]",
+  "전력: 인도네시아 국영 전력사 PLN은 바탐에서 41만 1,000여 고객이 피해를 본 정전 뒤 다르마완 프라소조 CEO를 수로소 이스난다르로 교체했다 [사실]",
+  "케냐: 에너지규제청(EPRA)은 10월 15일부터 나이로비 휘발유 상한가를 리터당 12.93실링 올린 226.96실링으로 정했고, 수입 휘발유 도착 원가는 11.81% 올랐다 [사실]",
+  "기존: 말라위는 외화 부족으로 연료가 바닥나 주유소 밤샘 줄이 이어졌고, 몰디브는 에너지 비용 완충 재원 지원을 요청했다 [사실]",
+  "식량: 인도네시아가 연료 공급을 확보하려 식량·삼림을 희생하고 있으며 팜유값 상승이 저소득 가구에 전가된다는 분석이 전해졌다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "신흥국 연료·전력난 확산…발리 연료 부족·PLN CEO 교체, 케냐 휘발유값 인상",
+ "id": "n-rtr-0284",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{몰디브}}가 {{에너지 비용 상승}}에 대비한 {{완충 재원}}을 {{쌓기 위해}} {{외부 지원}}을 {{요청}}하면서 {{섬나라 재정}}의 {{에너지 수입 부담}}이 {{드러났}}다 (제목 기준)",
+   "t": "몰디브 장관 \"에너지 비용 상승에 완충 재원 마련 지원 모색\"",
+   "u": "https://www.reuters.com/world/asia-pacific/maldives-seeks-support-build-buffers-energy-costs-rise-minister-says-2026-10-13/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "{{말라위}}에서 {{외화 부족}}으로 {{연료가 다시 바닥나}} 운전자들이 {{주유소에서 밤을 새우고}} 택시 기사들이 {{일을 못 하면서}} {{교통·생계 부담}}이 {{커지고}} 있다",
+   "t": "말라위 연료난 재발…운전자들 주유소에서 밤새워 대기",
+   "u": "https://www.reuters.com/world/africa/malawi-motorists-sleep-petrol-stations-fuel-shortages-return-2026-10-13/"
+  },
+  {
+   "t": "인니 곳곳 연료 부족에 발리 운전자들 주유 행렬",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/bali-motorists-line-up-as-fuel-shortages-hit-parts-of-indonesia",
+   "s": "인도네시아 일부 지역에 연료 부족이 번져 발리 운전자들이 주유소에 줄을 서면서, 주정부가 사흘 재택근무를 명령했다"
+  },
+  {
+   "t": "인니 국영 전력사, 대규모 정전 속 CEO 교체",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/indonesia-state-utility-firm-replaces-ceo-amid-widespread-power-outages-2026-10-15/",
+   "s": "인도네시아 PLN이 바탐 등 잇단 대규모 정전 뒤 다르마완 CEO를 수로소 이스난다르로 바꾸면서, 전력 공급 차질이 경영진 교체로 번졌다"
+  },
+  {
+   "t": "인도네시아, 식량·삼림 희생하며 연료 공급 확보",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-15",
+   "u": "https://t.me/Trillion_labs/10544",
+   "s": "인도네시아가 식량과 삼림을 희생해 연료를 확보하면서 팜유값 상승이 노점·식당을 거쳐 저소득 가구의 식비 부담으로 번지고 있다는 분석이 전해졌다"
+  },
+  {
+   "t": "케냐, 중동 분쟁發 수입 비용 상승에 연료값 인상",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/africa/kenya-raises-fuel-prices-middle-east-conflict-lifts-import-costs-2026-10-15/",
+   "s": "케냐가 중동 분쟁으로 수입 원가가 오르자 나이로비 휘발유 상한가를 리터당 12.93실링 올리면서, 소비자 연료비 부담이 커졌다"
+  }
+ ],
+ "key": "mix-C055-2026-10-14",
+ "nodes": [
+  "macro/commodity",
+  "macro/fx",
+  "power/market"
+ ],
+ "num": 284,
+ "one": "에너지 비용 급등 속에 말라위·몰디브에 이어 인도네시아 발리가 연료 부족으로 사흘 재택근무를 명령하고 국영 전력사 PLN이 대정전 뒤 CEO를 바꿨으며 케냐도 휘발유 상한가를 올리면서, 연료 수입 신흥국의 물가·재정 압박이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T19:25:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "TimesLive",
+   "u": "https://www.timeslive.co.za/news/africa/2026-10-13-malawi-motorists-sleep-at-stations-as-fuel-runs-dry/"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "allAfrica",
+   "u": "https://allafrica.com/stories/202610050295.html"
+  },
+  {
+   "o": "Jakarta Globe",
+   "d": "2026-10-15",
+   "u": "https://jakartaglobe.id/news/bali-orders-three-days-of-remote-work-online-classes-amid-fuel-shortage"
+  },
+  {
+   "o": "The Star(말레이시아)",
+   "d": "2026-10-15",
+   "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/15/indonesia-replaces-state-electricity-chief-after-16-hour-blackout-in-batam"
+  },
+  {
+   "o": "The Star(케냐)",
+   "d": "2026-10-14",
+   "u": "https://www.the-star.co.ke/news/2026-10-14-epra-raises-petrol-by-sh1293"
+  }
+ ],
+ "tags": [],
+ "title": "신흥국 연료·전력난 확산…발리 연료 부족·PLN CEO 교체, 케냐 휘발유값 인상",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/maldives-seeks-support-build-buffers-energy-costs-rise-minister-says-2026-10-13/",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "발리 연료 부족에 사흘 재택근무 명령"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "케냐 휘발유 상한가 리터당 12.93실링 인상"
+  },
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "바탐 대정전 뒤 PLN CEO 교체"
+  }
+ ]
+}

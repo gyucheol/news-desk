@@ -1,0 +1,97 @@
+{
+ "id": "n-bbg-0315",
+ "num": 315,
+ "key": "mix-G2-027-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T23:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/phosphate-giant-seeks-foreign-investors-as-war-squeezes-finances",
+ "origTitle": "",
+ "headline": "호르무즈발 비료난에 수확 타격 시작…G7, 비료·식량 지원 약속",
+ "src": [
+  {
+   "o": "Jamaica Observer(AFP)",
+   "d": "2026-10-15",
+   "u": "https://www.jamaicaobserver.com/2026/10/15/g7-commit-us2-5b-food-insecure-countries-french-econ-minister/"
+  },
+  {
+   "o": "The Peninsula",
+   "d": "2026-10-15",
+   "u": "http://thepeninsulaqatar.com/article/15/10/2026/g7-to-commit-25-bn-for-food-insecure-countries-french-econ-minister"
+  }
+ ],
+ "items": [
+  {
+   "t": "전쟁에 재무 압박받는 인산염 대기업, 외국인 투자자 물색",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/phosphate-giant-seeks-foreign-investors-as-war-squeezes-finances",
+   "s": "전쟁으로 재무 사정이 나빠진 대형 인산염 업체가 외국인 투자자를 찾아 나서면서 비료 원료 공급망의 자금난이 드러났다 (제목 기준)"
+  },
+  {
+   "t": "유엔 관계자 '호르무즈 비료 계획 가동 못 하면 식량 위기 올 수도'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/middle-east/failure-activate-hormuz-fertilizer-plan-could-trigger-food-crisis-un-official-2026-10-14/",
+   "s": "유엔 관계자가 호르무즈 비료 계획을 가동하지 못하면 식량 위기가 촉발될 수 있다고 경고하면서 비료 공급 차질 우려가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "유엔 기구 '호르무즈 해운 차질, 수확에 타격 주기 시작'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/middle-east/hormuz-shipping-disruption-is-starting-hit-harvests-un-agency-says-2026-10-15/",
+   "s": "유엔 기구가 호르무즈 해상 운송 차질이 수확에 타격을 주기 시작했다고 밝히면서 비료난이 실제 작황 피해로 번지고 있다 (제목 기준)"
+  },
+  {
+   "t": "G7, 전쟁발 공급난에 비료·식량 지원 25억 유로 약속",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/g7-pledges-2-5-billion-for-fertilizers-food-as-war-hits-supply",
+   "s": "G7이 전쟁발 공급난에 비료·식량 지원을 약속했고, 레스퀴르 프랑스 경제장관은 25억 달러를 특히 비료에 쓴다고 밝혔다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "호르무즈발 비료난에 수확 타격 시작…G7, 비료·식량 지원 약속",
+ "one": "호르무즈 해상 운송 차질로 비료 공급이 막혀 수확에 타격이 나타나기 시작했다고 유엔 기구가 경고하는 가운데 G7이 비료를 중심으로 식량 불안국에 25억 달러 지원을 약속했지만, 비료 계획이 가동되지 않으면 식량 위기가 올 수 있다는 경고도 나왔다",
+ "facts": [
+  "무엇이: 유엔 기구는 호르무즈 해협 해상 운송 차질이 수확에 타격을 주기 시작했다고 밝혔다 [제목]",
+  "경고: 유엔 관계자는 호르무즈 비료 계획을 가동하지 못하면 식량 위기가 촉발될 수 있다고 경고했다 [제목]",
+  "G7: 레스퀴르 프랑스 경제장관은 10월 15일 방콕에서 G7이 식량 불안국에 25억 달러를 지원하기로 했고 특히 비료에 쓰인다고 밝혔으며, 블룸버그 제목은 25억 유로로 적었다 [사실]",
+  "배경: 세계은행은 에너지값 급등으로 식량 안보 문제를 겪을 수 있는 나라를 44곳으로 꼽았다 [사실]",
+  "인산염: 전쟁으로 재무가 압박받는 대형 인산염 업체가 외국인 투자자를 찾고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "G7 지원 약속·비료 중점·세계은행 44개국은 AFP 기반 Jamaica Observer·The Peninsula 검색 결과 요약으로 확인했으나 통화 단위가 블룸버그 제목(유로)과 달리 달러로 나옴. 유엔의 수확 타격·식량 위기 경고와 인산염 업체의 투자자 모집은 확인 못 함(제목 기준)",
+ "added": "이번 블룸버그 1건으로 G7이 전쟁발 공급난에 맞서 비료·식량에 25억(AFP 기준 달러) 지원을 약속했다는 사실이 추가됐다",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "호르무즈 운송 차질로 비료 공급난"
+  },
+  {
+   "ind": "agri",
+   "node": "grains",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "비료 부족으로 수확 타격 시작, 식량 위기 경고"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

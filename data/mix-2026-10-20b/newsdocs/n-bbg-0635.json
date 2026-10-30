@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0635",
+ "num": 635,
+ "key": "mix-G2-058-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:05:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk",
+ "origTitle": "",
+ "headline": "세네갈 국채 급락…손코 국회의장 예산 반대에 22억 달러 IMF 프로그램 위태",
+ "src": [
+  {
+   "o": "Zawya",
+   "d": "2026-10-20",
+   "u": "https://www.zawya.com/en/economy/bonds/senegal-bonds-fall-after-sonko-opposes-budget-bills-1799246"
+  },
+  {
+   "o": "Finwire",
+   "d": "2026-10-20",
+   "u": "https://finwire.io/news/stock-markets-news/senegal-bonds-drop-as-assembly-president-rejects-budget-plan"
+  }
+ ],
+ "items": [
+  {
+   "t": "세네갈 국채 급락…예산 대치로 IMF 합의 위태",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "title": "세네갈 국채 급락…손코 국회의장 예산 반대에 22억 달러 IMF 프로그램 위태",
+ "one": "세네갈 국회의장이 정부 예산안을 반대하면서 IMF 합의가 흔들리고 국채가 급락했다\n· 손코 국회의장은 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안에 반대했다\n· 유로·달러 표시 국채가 모두 1센트 넘게 떨어졌고 2037년물은 약 48.9센트까지 밀렸다",
+ "facts": [
+  "무엇이: 우스만 손코 국회의장이 연료 보조금 축소를 담은 2026년 수정 예산안과 2027년 예산안을 의회가 통과시키지 않겠다고 하면서 세네갈 국채가 10월 20일 급락했다 [사실]",
+  "가격: 세네갈 유로·달러 표시 국채는 모두 1센트 넘게 떨어졌고 장기물 낙폭이 컸으며, 2037년물은 약 48.9센트였다 [사실]",
+  "IMF: 9월 초 실무 합의한 22억 달러, 36개월 확대신용제도는 이사회 승인을 기다리며, 예산 승인이 늦으면 채무조정 전략 전체가 지연될 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "예산 대치·국채 하락폭·IMF 프로그램 규모를 검색 결과 요약으로 확인. 세네갈 채무 흐름은 기존 문서 n-rtr-0022에도 있음",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "예산 대치에 세네갈 국채 가격 급락"
+  }
+ ]
+}

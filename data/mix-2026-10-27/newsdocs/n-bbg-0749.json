@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0749",
+ "num": 749,
+ "key": "mix-G2-053-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T12:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale",
+ "origTitle": "",
+ "headline": "삼성생명, 첫 해외 발행 15억 달러 신종자본증권…한국 보험사 사상 최대",
+ "src": [
+  {
+   "o": "서울경제",
+   "d": "2026-10-27",
+   "u": "https://en.sedaily.com/finance/2026/10/27/samsung-life-raises-15-billion-in-first-overseas-bond-sale"
+  }
+ ],
+ "items": [
+  {
+   "t": "삼성생명 사상 최대 채권 발행, 혼란 속 우량채 저력 보여",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "삼성생명, 첫 해외 발행 15억 달러 신종자본증권…한국 보험사 사상 최대",
+ "one": "삼성생명이 시장 혼란 속에 15억 달러 규모 30년 만기 달러 신종자본증권을 발행했다\n· 금리는 6.875%로 2025년 한화생명의 10억 달러를 넘는 한국 보험사 최대 해외 발행이다\n· 미국·유럽 장기 투자자가 49%를 가져갔고 자금은 자본비율 보강과 주주환원 유지에 쓴다",
+ "facts": [
+  "무엇이: 삼성생명이 10월 27일 15억 달러 규모 30년 만기 달러 신종자본증권을 금리 6.875%에 발행했다 [사실]",
+  "기록: 회사의 첫 해외 발행이자 한국 보험사 최대 규모로, 2025년 한화생명의 10억 달러 기록을 넘었다 [사실]",
+  "수요: 미국·유럽 장기 투자자가 49%를 가져갔고 금리는 최초 제시 7% 안팎에서 낮아졌다 [사실]",
+  "용도: 자본적정성 비율을 조기에 강화하고 주주환원 정책을 유지하며 성장 자금으로 쓴다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "15억 달러·6.875%·투자자 구성은 서울경제 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "삼성생명 15억 달러 신종자본증권에 우량채 수요"
+  }
+ ]
+}

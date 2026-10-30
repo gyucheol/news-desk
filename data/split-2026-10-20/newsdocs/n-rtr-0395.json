@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0395",
+ "num": 395,
+ "key": "split-G1-112-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/qatar-airways-suspends-riyadh-dammam-flights-airport-attacks-disrupt-air-travel-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "카타르항공, 리야드·담맘 노선 운항 중단…에티하드·걸프에어도 취소",
+ "headline": "카타르항공, 리야드·담맘 노선 운항 중단…에티하드·걸프에어도 취소",
+ "one": "카타르항공이 13일 공항 공격을 이유로 리야드·담맘 노선을 재개 일정 없이 멈추고 에티하드·걸프에어도 항공편 취소에 나서면서, 걸프 항공사들의 사우디 노선 운항과 항공 수요가 끊기고 있다",
+ "facts": [
+  "무엇이: 카타르항공은 10월 13일 공항 공격을 이유로 리야드·담맘 노선 운항을 재개 일정 없이 중단했다 [사실]",
+  "다른 항공사: 에티하드·걸프에어도 사우디 항공편 취소에 나섰고, 앞서 루프트한자도 리야드 운항을 멈췄다 [사실]",
+  "배경: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건이다. 원 문서는 카타르항공 등의 운항 중단을 사실 줄에 적었고, 아랍 항공사들의 리야드 운항 중단은 독립 출처(A News, 10월 13일)로 뒷받침된다.",
+ "src": [
+  {
+   "o": "A News",
+   "d": "2026-10-13",
+   "u": "https://www.anews.com.tr/middle-east/2026/10/13/arab-air-carriers-suspend-service-to-riyadh-in-wake-of-houthi-attacks"
+  }
+ ],
+ "items": [
+  {
+   "t": "카타르항공, 공항 공격으로 리야드·담맘 노선 운항 중단",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/middle-east/qatar-airways-suspends-riyadh-dammam-flights-airport-attacks-disrupt-air-travel-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "카타르항공 리야드·담맘 노선 운항 중단"
+  }
+ ]
+}

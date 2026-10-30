@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0624",
+ "num": 624,
+ "key": "mix-G1-072-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T18:25:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/dubai-luxury-home-sales-fall-from-record-levels-as-war-drags-on",
+ "origTitle": "",
+ "headline": "두바이 고급주택 판매, 전쟁 장기화에 사상 최고서 감소…3분기 주택 거래액 47%↓",
+ "src": [
+  {
+   "o": "더내셔널",
+   "d": "2026-10-07",
+   "u": "https://www.thenationalnews.com/business/property/2026/10/07/dubai-home-sale-transactions-fall-in-third-quarter-due-to-regional-uncertainty/"
+  }
+ ],
+ "items": [
+  {
+   "t": "두바이 고급주택 판매, 전쟁 장기화에 사상 최고서 감소",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/dubai-luxury-home-sales-fall-from-record-levels-as-war-drags-on"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "두바이 고급주택 판매, 전쟁 장기화에 사상 최고서 감소…3분기 주택 거래액 47%↓",
+ "one": "두바이 고급주택 판매가 이란 전쟁 장기화 속에 사상 최고 수준에서 줄었다\n· 3분기 두바이 주택 거래액은 47% 줄어 약 197억 달러, 거래 건수는 38% 줄어 약 3만 4,000건이었다\n· S&P는 고급·초고급 주택의 수요와 투자 심리가 가장 큰 타격을 받을 수 있다고 봤다",
+ "facts": [
+  "무엇이: 두바이 고급주택 판매가 전쟁 장기화 속 사상 최고 수준에서 감소했다 [제목]",
+  "전체 시장: 캐번디시 맥스웰 집계로 3분기 주택 거래액은 47% 줄어든 약 197억 달러, 거래 건수는 38% 줄어든 약 3만 4,000건이었다 [사실]",
+  "가격: S&P는 2025년 말부터 2026년 9월까지 집값이 5~15% 내렸다고 봤다 [사실]",
+  "고가 주택: 1,000만 달러 이상 주택 판매가 3분기 86채로 1년 전 103채보다 17% 줄었다는 나이트프랭크 집계가 전해졌다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "전체 주택 거래 감소와 S&P 전망은 검색 결과 요약으로 확인. 고급주택 판매 감소 폭은 단일 출처라 미확인",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "전쟁 장기화로 두바이 고급주택 판매 감소"
+  }
+ ]
+}

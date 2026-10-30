@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0500",
+ "num": 500,
+ "key": "split-G4-129-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-bond-market-woes-send-worrying-sign-for-uk-finances",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "블룸버그 '프랑스 국채 불안, 영국 재정에 우려스러운 신호'",
+ "headline": "블룸버그 '프랑스 국채 불안, 영국 재정에 우려스러운 신호'",
+ "one": "블룸버그가 프랑스 국채시장 불안이 재정 신뢰를 시험받는 영국에도 우려스러운 신호라고 짚으면서, 30년물 금리 6.02%와 이란 전쟁발 약 120억 파운드 재정 구멍에 놓인 영국 예산안이 시장의 시험을 받을 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 8일 블룸버그는 프랑스 국채시장 불안이 영국 재정에도 우려스러운 신호라고 짚었다 [제목]",
+  "영국 금리: 10월 7일 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였고, 8일 10년물 차입 비용도 19년 만의 최고였다 [사실]",
+  "영국 재정: 같은 날 FT는 이란 전쟁이 영국 재정에 약 120억 파운드 구멍을 냈다고 보도했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 국채시장 불안, 영국 재정에 우려스러운 신호",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-bond-market-woes-send-worrying-sign-for-uk-finances"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "프랑스 국채 불안이 영국 국채에 부담 신호"
+  }
+ ]
+}

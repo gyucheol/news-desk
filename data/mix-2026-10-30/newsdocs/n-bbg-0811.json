@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0811",
+ "num": 811,
+ "key": "mix-G1-063-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T05:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/rivian-beats-estimates-as-r2-suv-becomes-top-seller-after-debut",
+ "origTitle": "",
+ "headline": "리비안 3분기 예상 상회…R2 SUV가 최다 판매 EV, 인도 1만 9,248대 사상 최대",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-29",
+   "u": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html"
+  },
+  {
+   "o": "Electrek",
+   "d": "2026-10-29",
+   "u": "https://electrek.co/2026/10/29/rivian-rivn-q3-2026-earnings-r2-best-seller/"
+  }
+ ],
+ "items": [
+  {
+   "t": "리비안, R2 SUV가 최다 판매 EV 되며 실적 예상 상회",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/rivian-beats-estimates-as-r2-suv-becomes-top-seller-after-debut"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "리비안 3분기 예상 상회…R2 SUV가 최다 판매 EV, 인도 1만 9,248대 사상 최대",
+ "one": "리비안이 R2 SUV 증산에 힘입어 3분기 매출과 손실 모두 시장 예상보다 좋은 실적을 냈다\n· 3분기 매출은 21억 5,500만 달러로 예상 20억 2,000만 달러를 웃돌았고 조정 주당손실은 0.48달러였다\n· R2가 R1과 상용 밴을 제치고 최다 판매 차종이 됐고 연간 인도 전망은 6만 7,000~7만 대로 올랐다",
+ "facts": [
+  "무엇이: 리비안 3분기 매출은 21억 5,500만 달러로 예상 약 20억 2,000만 달러를 넘었고, 조정 주당손실 0.48달러로 예상 0.61달러보다 작았다 [사실]",
+  "인도: 3분기 1만 9,751대를 생산하고 1만 9,248대를 인도해 사상 최대였으며, R2가 R1과 EDV를 제치고 최다 판매 차종이 됐다 [사실]",
+  "전망: 2026년 인도 전망을 6만 5,000대 이상에서 6만 7,000~7만 대로 올렸다 [사실]",
+  "손익: 보통주 귀속 순손실은 9억 1,300만 달러로 여전히 적자이며 R2 증산으로 자동차 마진은 나빠졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "SEC 8-K·CNBC·Electrek 검색 결과 요약으로 매출·EPS·인도·전망 상향 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "R2 효과로 리비안 3분기 인도 사상 최대"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0372",
+ "num": 372,
+ "key": "split-G1-030-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "호르무즈 정체에 원유 해상 운송비 사상 최고치",
+ "headline": "호르무즈 정체에 원유 해상 운송비 사상 최고치",
+ "one": "이란의 유조선 공격으로 호르무즈 해협 정체가 이어지면서 8일 원유 해상 운송비가 아찔한 사상 최고치로 치솟아, 원유를 실어 나르는 화주들의 운송비 부담이 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 호르무즈 정체로 원유 해상 운송비가 사상 최고치로 치솟았다 [제목]",
+  "영향: 원유를 실어 나르는 화주 부담이 커지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "호르무즈 정체로 원유 운송비 아찔한 사상 최고치",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "호르무즈 정체로 원유 운송비 사상 최고"
+  }
+ ]
+}

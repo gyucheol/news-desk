@@ -1,0 +1,468 @@
+{
+ "id": "oil",
+ "summary": "원유·석유제품 산업은 OPEC+·미국 셰일 같은 생산자가 뽑은 원유를 유조선·송유관으로 정유공장에 보내 경유·휘발유·항공유 같은 제품으로 바꿔 운송·항공·산업 수요에 파는 사슬이며, 재고·전략비축유가 그 사이를 완충합니다. 10월 중순에는 이란이 호르무즈 선박 공격을 늘리고 후티가 아람코 본사와 얀부 쪽을 노리면서 브렌트가 5월 이후 처음 배럴당 110달러에 닿았고, 미국 상업용 원유 재고는 한 주 새 860만 배럴 줄었습니다. 가장 빠듯한 곳은 여전히 경유입니다. IEA는 경유 부족이 2027년까지 간다고 봤고 미국 중간유분 재고는 계절 평균보다 약 12% 적으며, 토탈(33.2달러)·엑손(이익 약 45억 달러 증가)까지 3분기 정제마진 급등을 알렸습니다. 반면 걸프 원유 수출은 전쟁 전의 75%를 넘고 UAE는 9월 사상 최대로 생산했으며, 유럽 정유사의 경유 크랙은 10월 초 100달러에서 60달러 안팎으로 내려 원유보다 제품·수송 쪽 병목이 더 오래 남는 모습입니다.",
+ "state": {
+  "opec": [
+   {
+    "d": "2026-10-15",
+    "o": "텔레그램 트릴리온(IEA 자료)",
+    "u": "https://t.me/Trillion_labs/10530",
+    "nid": "n-tg-0161",
+    "t": "IEA에 따르면 OPEC을 떠난 UAE의 9월 원유(콘덴세이트 포함) 생산은 하루 40만 배럴 늘어난 530만 배럴로 사상 최대였고, 9월 걸프 원유 수출은 하루 1,390만 배럴로 전쟁 전의 75%를 넘었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 트릴리온(미 중부사령부 발표)",
+    "u": "https://t.me/Trillion_labs/10668",
+    "nid": "n-rtr-0014",
+    "t": "미 중부사령관은 해상 봉쇄로 이란이 최소 250억 달러어치 원유를 수출하지 못했고, 지난 1주일 동안 약 400척과 원유 1억 배럴 이상이 호르무즈 해협을 지났다고 밝혔습니다 [사실]"
+   }
+  ],
+  "nonopec": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/about-30-us-gulf-oil-production-shut-response-isaias-2026-10-12/",
+    "nid": "n-tg-0187",
+    "t": "허리케인 이사야스로 미 멕시코만 원유 생산 중단 비율이 10월 9일 약 71.5%까지 올랐다가 상륙 뒤 약 30%로 내려왔고, 15일에는 약 10%라는 채널 전언이 나왔습니다 [사실]"
+   }
+  ],
+  "transport": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/",
+    "nid": "n-rtr-0282",
+    "t": "발틱거래소 기준 오만만~중국 VLCC 운임은 지수 출범 이후 최고였던 지난주 WS 841에서 약 776으로 내렸고, 세계 평균 원유 운송료는 1년 전 배럴당 4달러에서 30달러가 됐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say-2026-10-14/",
+    "nid": "n-tg-0157",
+    "t": "싱가포르 선적 컨테이너선 GFS 프라이드가 호르무즈 인근에서 발사체에 맞아 침몰했고, 이란 관계자들은 미국 중간선거를 앞두고 공격 빈도를 늘려 오만만까지 넓히겠다고 했다고 전해졌습니다 [채널]"
+   }
+  ],
+  "refining": [
+   {
+    "d": "2026-10-15",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/",
+    "nid": "n-bbg-0100",
+    "t": "토탈에너지스는 3분기 정제 마진이 배럴당 33.2달러로 2분기 13.5달러, 1년 전 8.4달러보다 높았고 정제·화학 현금흐름이 전분기의 약 두 배인 40억 달러 안팎이라고 밝혔습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10671",
+    "nid": "n-tg-0121",
+    "t": "우크라이나 드론 공격 뒤 러시아 정제능력의 5%를 차지하는 로스네프트 랴잔 정유소가 주요 원유 증류설비 CDU-6를 멈췄고, 나머지 CDU-1·3·4는 가동 중이라는 전언이 나왔습니다 [사실]"
+   }
+  ],
+  "products": [
+   {
+    "d": "2026-10-15",
+    "o": "텔레그램 상상인 김진범(IEA 10월 보고서)",
+    "u": "https://t.me/PipeBeom/6705",
+    "nid": "n-tg-0289",
+    "t": "IEA는 9월 세계 경유 수출이 러시아·중동의 하루 130만 배럴 감소로 1년 전보다 70만 배럴 줄었고, 유럽·미국 경유 도매가는 배럴당 약 220달러로 사상 최고였다고 했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/global-fuel-oil-market-stays-tight-conflicts-hit-mideast-russia-supplies-vitol-2026-10-16/",
+    "nid": "n-rtr-0352",
+    "t": "비톨은 중동 고유황 연료유 수출이 전쟁 전보다 월 80만 톤 이상, 러시아 연료유 공급이 월 약 100만 톤 줄어 호르무즈 원유 통항이 늘어도 선박 연료 부족이 이어진다고 봤습니다 [사실]"
+   }
+  ],
+  "stocks": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10612",
+    "nid": "n-tg-0228",
+    "t": "미국 중간유분 재고는 10월 2일 기준 1억 510만 배럴로 계절 평균보다 약 12% 적었고, 스탠다드차타드는 러시아산 경유 거래가 세계 순공급을 늘리지 못한다고 분석했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/us-solicits-exchange-up-17-million-barrels-oil-strategic-reserve-2026-10-16/",
+    "nid": "n-bbg-0092",
+    "t": "미국 에너지부는 전략비축유 최대 1,700만 배럴을 나중에 프리미엄을 얹어 돌려받는 교환 방식으로 내놓았고, 3월 IEA 공동 방출 때 약속한 1억 7,200만 배럴의 남은 몫입니다 [사실]"
+   }
+  ],
+  "price": [
+   {
+    "d": "2026-10-16",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63776",
+    "nid": "n-bbg-0077",
+    "t": "브렌트가 16일 5월 이후 처음 배럴당 110달러에 닿은 뒤 109.86달러, WTI는 101.41달러에 마감해 한 주 새 각각 4.9%, 10.4% 올랐다는 전언이 나왔습니다 [채널]"
+   }
+  ],
+  "policy": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/",
+    "nid": "n-bbg-0230",
+    "t": "트럼프 대통령은 그레이엄 대러·대이란 제재법의 제재·관세 다수를 시행 직전 유예했고, 여기에는 러시아 원유 상위 5개 구매국 상품에 최대 100%까지 붙을 수 있던 관세가 들어 있습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/india-sets-windfall-tax-petrol-exports-25-rupees-per-litre-2026-10-15/",
+    "nid": "n-rtr-0324",
+    "t": "인도는 10월 16일부터 휘발유 수출 횡재세를 리터당 2.5루피로 올리고 경유 수출세는 16루피에서 8.5루피로 낮췄으며, 2주마다 원유값에 맞춰 조정합니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-16",
+   "kind": "price",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63776",
+   "nid": "n-bbg-0077",
+   "t": "브렌트가 10월 16일 5월 이후 처음 배럴당 110달러에 닿은 뒤 109.86달러, WTI는 101.41달러에 마감했다는 전언이 나왔습니다 [채널]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "supply",
+   "o": "UA.News(EIA 주간 재고, 검색 확인)",
+   "u": "https://ua.news/en/energetika/zapasi-nafti-u-ssha-vpali-na-8-6-mln-bareliv-i-pidtrimali-wti-oilprice",
+   "nid": "n-bbg-0077",
+   "t": "10월 9일로 끝난 주 미국 상업용 원유 재고가 860만 배럴 줄어 4억 1,560만 배럴이 됐습니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "capex",
+   "o": "Energy News Beat",
+   "u": "https://energynewsbeat.co/downstream/morgan-stanley-leads-fundraise-for-4-billion-texas-refinery-project-as-america-first-refining-advances-brownsville-plans/",
+   "nid": "n-bbg-0058",
+   "t": "모건스탠리가 아메리카퍼스트리파이닝의 텍사스 브라운즈빌 신규 정유소(하루 약 16만~16.8만 배럴, 약 40억 달러) 주식·채권 자금 모집을 주관하고 있습니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "supply",
+   "o": "텔레그램 트릴리온(IEA 자료)",
+   "u": "https://t.me/Trillion_labs/10530",
+   "nid": "n-tg-0161",
+   "t": "IEA 기준 9월 걸프 원유 수출은 하루 1,390만 배럴로 전쟁 전의 75%를 넘었고, UAE 생산은 하루 530만 배럴로 사상 최대였습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0058",
+   "t": "재검토 필요: 국방물자생산법을 쓴 델렉 타일러 정유소 증설과 50년 만의 미국 신규 대형 정유소 자금 모집이 ② 자본 유입·증설 국면을 가리키며, 높은 정제마진이 정제 노드의 증설 결정을 앞당기고 있기 때문입니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0282",
+   "t": "재검토 필요: VLCC 운임이 사상 최고에서 내려오고 걸프 원유 수출이 전쟁 전의 75%를 넘은 것은 ③ 공급 과잉 쪽 되돌림의 시작을 가리킬 수 있으며, 원유 물류가 풀리면 운임·유가가 먼저 꺾이기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "전쟁이 원유보다 석유제품·수송 고리를 더 오래 막는 구조가 굳어지고 있습니다. 걸프 원유 수출은 전쟁 전의 75%를 넘었지만 IEA는 경유 부족이 2027년까지 간다고 봤고, 비톨은 원유 통항이 늘어도 선박 연료 부족이 이어진다고 했습니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 상상인 김진범(IEA 10월 보고서)",
+      "d": "2026-10-15",
+      "u": "https://t.me/PipeBeom/6705"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/energy/global-fuel-oil-market-stays-tight-conflicts-hit-mideast-russia-supplies-vitol-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "미국 정부가 국방물자생산법으로 정유 증설을 밀고 50년 만의 신규 대형 정유소가 자금을 모으면서, 정제 능력이 시장 논리만이 아니라 안보 정책으로 늘어나는 단계에 들어섰습니다 [사실]",
+    "src": [
+     {
+      "o": "Energy News Beat",
+      "d": "2026-10-15",
+      "u": "https://energynewsbeat.co/downstream/morgan-stanley-leads-fundraise-for-4-billion-texas-refinery-project-as-america-first-refining-advances-brownsville-plans/"
+     }
+    ]
+   }
+  ],
+  "a1": [
+   {
+    "t": "정제마진이 높은 동안 서방 정유사의 3분기 이익은 크게 늘고(토탈 마진 33.2달러, 엑손 이익 약 45억 달러 증가), 증설·재가동 발표가 이어져 정제 노드가 다른 노드보다 먼저 ② 증설 국면으로 갈 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/"
+     },
+     {
+      "o": "텔레그램 TNBfolio",
+      "d": "2026-10-16",
+      "u": "https://t.me/TNBfolio/71583"
+     }
+    ]
+   }
+  ],
+  "a2": [
+   {
+    "t": "호르무즈 제품 통항이 정상으로 돌아오면 정제 병목이 빠르게 풀릴 수 있습니다. 신규 정유소는 2027년 10월까지 착공해야 허가가 유지될 만큼 일정이 멀어, 증설분이 들어올 때쯤 마진이 이미 꺾여 있을 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "Energy News Beat",
+      "d": "2026-10-15",
+      "u": "https://energynewsbeat.co/downstream/morgan-stanley-leads-fundraise-for-4-billion-texas-refinery-project-as-america-first-refining-advances-brownsville-plans/"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "공급 쪽은 원유와 제품이 갈렸습니다. UAE가 9월 사상 최대(하루 530만 배럴)로 생산하고 걸프 수출이 회복되는 반면, 러시아·중동 경유 수출은 하루 130만 배럴 줄었고 우크라이나 드론이 랴잔 정유소 증류설비를 멈췄습니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온(IEA 자료)",
+      "d": "2026-10-15",
+      "u": "https://t.me/Trillion_labs/10530"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-17",
+      "u": "https://t.me/Trillion_labs/10671"
+     }
+    ]
+   },
+   {
+    "t": "수요 쪽은 고유가가 소비를 줄이고 있습니다. IEA는 올해 세계 수요가 하루 260만 배럴 줄고 2027년 소비도 2025년보다 하루 62만 배럴 적을 것으로 봤고, 앙골라는 연료보조금이 예상의 두 배 가까운 약 41억 6,000만 달러로 불었습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 상상인 김진범(IEA 10월 보고서)",
+      "d": "2026-10-15",
+      "u": "https://t.me/PipeBeom/6705"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/business/energy/angolas-fuel-subsidies-spending-projected-hit-4-billion-2026-official-says-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "원유는 수출 회복과 수요 감소로 차츰 남는 쪽으로 가고, 경유·연료유는 재고 바닥(미국 중간유분 계절 평균 대비 약 12% 적음) 탓에 겨울까지 빠듯해 원유와 제품 가격의 차이가 오래 벌어질 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-16",
+      "u": "https://t.me/Trillion_labs/10612"
+     },
+     {
+      "o": "텔레그램 TNBfolio",
+      "d": "2026-10-16",
+      "u": "https://t.me/TNBfolio/71583"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "러시아산 경유가 제재 유예로 계속 흘러나오고 미국 전략비축유 1,700만 배럴 교환, IEA 회원국의 경유 우선 방출이 겹치면 경유 부족이 예상보다 빨리 풀릴 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/business/energy/us-solicits-exchange-up-17-million-barrels-oil-strategic-reserve-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "IEA는 유럽 정유사 경유 크랙이 10월 초 배럴당 100달러에서 60달러 안팎으로 내렸다고 했고, 원유·운송비가 치솟으면서 유럽 정유 마진이 급감해 가동률 감축이 나올 수 있다는 경고도 나왔습니다 [사실]",
+    "src": [
+     {
+      "o": "텔레그램 상상인 김진범(IEA 10월 보고서)",
+      "d": "2026-10-15",
+      "u": "https://t.me/PipeBeom/6705"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-15",
+      "u": "https://t.me/Trillion_labs/10565"
+     }
+    ]
+   },
+   {
+    "t": "VLCC 운임은 사상 최고(WS 841)에서 약 776으로 내렸고, 미 중부사령부는 지난 1주일 동안 원유 1억 배럴 이상이 호르무즈를 지났다고 밝혔습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-17",
+      "u": "https://t.me/Trillion_labs/10668"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "아직은 덮지 못합니다. 마진 하락은 원가(원유·운임) 급등 탓이라 제품이 남아서 생긴 것이 아니고, 같은 주에 이란의 선박 공격 확대와 후티의 얀부 겨냥으로 브렌트가 다시 110달러에 닿았습니다. 다만 유럽 정유사가 실제로 가동을 줄이면 정제 노드부터 판단이 달라집니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 Polaristimes",
+      "d": "2026-10-17",
+      "u": "https://t.me/The_MariTimes/63776"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "유가가 정치 변수가 됐습니다. 이란은 미국 중간선거 전에 유가를 높게 묶으려 공격을 늘린다고 전해졌고, 미국은 제재 유예·비축유 교환·정유 증설로 맞서고 있어 11월 선거 전후로 공급 정책이 크게 바뀔 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-15",
+      "u": "https://t.me/Trillion_labs/10573"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-17",
+      "u": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 1,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "국면은 ① 그대로이고 근거를 새 뉴스로 바꿨습니다. 재고 완충이 바닥나 가격이 높습니다. 미국 상업용 원유 재고가 한 주 새 860만 배럴 줄어 4억 1,560만 배럴이 됐고, IEA는 9월 말 관측 재고가 전쟁 전보다 5억 900만 배럴 적다고 했습니다 [사실]",
+    "src": [
+     {
+      "o": "UA.News(EIA 주간 재고, 검색 확인)",
+      "d": "2026-10-15",
+      "u": "https://ua.news/en/energetika/zapasi-nafti-u-ssha-vpali-na-8-6-mln-bareliv-i-pidtrimali-wti-oilprice"
+     },
+     {
+      "o": "IEA 10월 석유시장보고서(본문 미열람, 검색 요약)",
+      "d": "2026-10",
+      "u": "https://www.iea.org/reports/oil-market-report-october-2026"
+     }
+    ]
+   },
+   {
+    "t": "사슬 중간의 마진이 사상 최고권입니다. BP(46.7달러)·셸(42달러)에 이어 토탈도 3분기 정제 마진을 33.2달러(2분기 13.5달러)로 밝혔고, 엑손은 정제마진 상승이 이익을 약 45억 달러 늘렸다고 공시했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/energy/totalenergies-flags-q3-profit-surge-iran-war-continues-drive-energy-prices-2026-10-15/"
+     },
+     {
+      "o": "Mugglehead(BP 3분기 트레이딩 업데이트)",
+      "d": "2026-10-13",
+      "u": "https://mugglehead.com/bp-third-quarter-net-debt-refining-margins/"
+     }
+    ]
+   },
+   {
+    "t": "자본 유입은 정제에서 먼저 보이고 상류는 신중합니다. 모건스탠리가 50년 만의 미국 신규 대형 정유소 자금 모집을 주관하고 정부가 국방물자생산법으로 증설을 밀지만, 미국 원유 리그는 462개로 1년 새 44개 늘어나는 데 그쳤습니다 [귀납]",
+    "src": [
+     {
+      "o": "Energy News Beat",
+      "d": "2026-10-15",
+      "u": "https://energynewsbeat.co/downstream/morgan-stanley-leads-fundraise-for-4-billion-texas-refinery-project-as-america-first-refining-advances-brownsville-plans/"
+     },
+     {
+      "o": "Rigzone(베이커휴즈 집계)",
+      "d": "2026-10-12",
+      "u": "https://rigzone.com/news/north_america_adds_rigs_for_3_straight_weeks_bh_count_shows-12-oct-2026-184827-article"
+     }
+    ]
+   },
+   {
+    "t": "호황의 원인이 전쟁발 물류 차단이라 되돌림도 빠를 수 있습니다. 걸프 원유 수출은 9월 전쟁 전의 75%를 넘었고 VLCC 운임은 사상 최고에서 내려왔으며, IEA는 올해 수요가 하루 260만 배럴 줄 것으로 봤습니다 [귀납]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온(IEA 자료)",
+      "d": "2026-10-15",
+      "u": "https://t.me/Trillion_labs/10530"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "next": "호르무즈 제품 통항과 걸프 정제제품 수출이 정상화되고 재고가 다시 쌓이기 시작하면 운임·마진·유가가 함께 내려 ③ 공급 과잉으로 넘어갈 수 있습니다. 반대로 전쟁이 길어진 채 신규 정유소·증설 자금 모집과 유조선 발주가 실제 착공·계약으로 이어지면 ② 자본 유입·증설로 진행합니다 [유추]",
+  "watch": [
+   "미국 상업용 원유·중간유분 재고(EIA 주간)",
+   "호르무즈 통항량·걸프 제품 수출",
+   "유럽 경유 크랙·정유 가동률",
+   "VLCC 운임(TD3C)",
+   "미국 신규 정유소·증설 자금 조달과 착공"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 검색 3회와 열람 1회(EnergyNow 기사, 접속 차단)로 확인했고, 블룸버그·로이터 기사와 전재본은 열지 않았습니다. 아래는 확인하지 못했습니다. (1) 브렌트 110달러 터치와 109.86달러 마감은 텔레그램 전언으로만 보았고, 검색에서는 10월 15일 브렌트 105.92달러 마감, 16일 108.51달러 상승 제목까지만 확인돼 '채널'로 표시했습니다. (2) 유럽 정유 마진 급감(FT 보도)은 IEA의 경유 크랙 100→60달러 하락 외에 정유사 실제 가동 감축 규모를 찾지 못했습니다. (3) 멕시코만 생산 중단 비율 약 10%는 독립 출처로 확인하지 못했습니다. (4) 브라운즈빌 정유소의 자금 모집 규모와 착공 일정은 회사 발표 외에 확인되지 않았고, 사업비는 매체마다 30억~40억 달러로 다릅니다. (5) IEA 10월 석유시장보고서는 여전히 본문을 열지 못해 검색 요약과 텔레그램 인용으로만 썼습니다. (6) 이란의 선박 공격 건수(2주간 23~24척)와 전술 전환은 채널·관계자 전언입니다. (7) VLCC 운임은 집계마다 크게 달라(포텐 하루 약 130만 달러, 클락슨 약 64만 2,000달러, 발틱 WS 776) 서로 직접 비교하지 않았습니다. (8) 브라질 경제활동·우크라이나 재정·EU 가스 정상회의·EGA 알루미늄 뉴스는 석유 사슬과 연결이 약해 근거로 쓰지 않았습니다.",
+ "note": "뉴스 32건 반영: 브렌트 110달러 터치·미 원유 재고 860만 배럴 감소, 토탈·엑손 정제마진 급등과 미국 신규 정유소 자금 모집, IEA 경유 부족 2027년까지. 국면 ① 그대로(근거 교체), 근거 14줄, 수치 4줄, 재검토 신호 2건, 검색 3회",
+ "applied": [
+  "n-bbg-0296",
+  "n-rtr-0033",
+  "n-rtr-0296",
+  "n-bbg-0058",
+  "n-bbg-0078",
+  "n-bbg-0100",
+  "n-rtr-0032",
+  "n-rtr-0324",
+  "n-tg-0157",
+  "n-tg-0161",
+  "n-tg-0187",
+  "n-tg-0276",
+  "n-tg-0288",
+  "n-tg-0289",
+  "n-tg-0290",
+  "n-rtr-0352",
+  "n-tg-0228",
+  "n-bbg-0077",
+  "n-bbg-0092",
+  "n-bbg-0230",
+  "n-rtr-0014",
+  "n-rtr-0024",
+  "n-rtr-0034",
+  "n-rtr-0201",
+  "n-rtr-0282",
+  "n-rtr-0284",
+  "n-rtr-0317",
+  "n-rtr-0321",
+  "n-rtr-0322",
+  "n-tg-0121",
+  "n-tg-0166",
+  "n-tg-0308"
+ ],
+ "searches": 3,
+ "fetches": 1
+}

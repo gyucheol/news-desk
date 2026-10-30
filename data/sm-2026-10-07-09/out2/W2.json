@@ -1,0 +1,1147 @@
+{
+ "agent": "W2",
+ "searches_used": 18,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C012",
+   "attachTo": "n-tg-0129",
+   "title": "英 국채금리 19년 만에 최고…주택대출 공급 축소·카드 연체 17년 최장 증가",
+   "one": "유가 급등에 영국 10년물 국채금리가 5.5% 안팎으로 2007년 이후 최고에 오르고 30년물이 6%를 넘으면서, 금리 인상 우려에 은행들이 3년 만에 처음 주택대출 공급을 줄이고 카드 연체가 17년 만에 가장 오래 늘어 가계 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 영국 10년물 국채금리가 유가 급등 뒤 5.5% 안팎까지 올라 2007년 7월 이후 최고를 기록했고, 30년물은 앞서 6.02%로 1998년 이후 최고를 썼다 [사실]",
+    "통화정책: 베일리 총재 등 영란은행 위원들이 에너지발 물가 위험에 금리 인상 가능성을 열어 두면서 시장은 11월 인상 확률을 약 80%로 반영하고 있다 [사실]",
+    "가계: 은행들이 3년 만에 처음 주택대출 공급을 줄였고, 영란은행 조사에서 카드 연체 증가가 17년 만에 가장 긴 기간 이어졌다 [제목]",
+    "재정: 베일리 총재는 정부들의 재정 여력이 바닥나고 있다며 부채 관리 약속이 어느 때보다 필요하다고 말했고, 10월 28일 힐리 재무장관의 예산안이 시험대가 된다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "10년물 19년 최고·5.5%·11월 인상 확률 80%는 Trading Economics로 확인. 대출 공급 축소·카드 연체·베일리 발언은 제목 기준",
+   "src": [
+    {
+     "o": "Trading Economics",
+     "d": "2026-10-08",
+     "u": "https://tradingeconomics.com/united-kingdom/government-bond-yield"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/rates",
+    "macro/fiscal"
+   ],
+   "items": [
+    {
+     "t": "헤지펀드들, 영란은행 레포 시장 개혁이 역효과 낼 수 있다고 경고",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/finance/hedge-funds-warn-boe-repo-reforms-could-backfire-2026-10-07/"
+    },
+    {
+     "t": "영국 9월 집값 전월과 같은 수준으로 보합…로이즈은행 자료",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/uk/uk-house-prices-unchanged-september-lloyds-data-shows-2026-10-07/"
+    },
+    {
+     "t": "힐리 영국 재무장관의 10월 28일 예산안 선택지",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/transactional/options-uk-finance-minister-healey-october-28-budget-2026-10-07/"
+    },
+    {
+     "t": "억만장자들 런던 떠나고 고가 주택 매수자는 헐값 매물 찾아",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/billionaires-are-leaving-london-and-luxury-home-buyers-want-bargains"
+    },
+    {
+     "t": "프랑스 국채시장 불안, 영국 재정에 우려스러운 신호",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/france-s-bond-market-woes-send-worrying-sign-for-uk-finances"
+    },
+    {
+     "t": "금리 인상 공포에 영국 주택 구매자들 발길 끊어",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/fear-of-rising-interest-rates-puts-off-britain-s-housebuyers"
+    },
+    {
+     "t": "금리 인상 우려가 영국 주택시장 짓눌러…RICS 조사",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/rate-hike-fears-weigh-uk-housing-market-rics-says-2026-10-07/"
+    },
+    {
+     "t": "영국 9월 노동시장 회복 신호 늘어…KPMG·REC 조사",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/uk-labour-market-shows-more-signs-recovery-september-kpmgrec-survey-shows-2026-10-07/"
+    },
+    {
+     "t": "영국 대출기관들 3년 만에 처음 주택담보대출 공급 축소",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/uk-lenders-scale-back-mortgage-supply-first-time-3-years-2026-10-08/"
+    },
+    {
+     "t": "베일리 영란은행 총재 연설 앞두고 파운드화 소폭 하락",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/sterling-edges-down-before-boes-bailey-speech-2026-10-08/"
+    },
+    {
+     "t": "그린 영란은행 위원 \"영국 임금 전망이 걱정스럽다\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/bank-englands-greene-says-uk-pay-outlook-worries-her-2026-10-08/"
+    },
+    {
+     "t": "영국 카드 연체 증가 17년 만에 최장 기간 이어져…영란은행",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/uk-card-defaults-rise-for-longest-period-in-17-years-boe-says"
+    },
+    {
+     "t": "그린 위원 \"영란은행이 물가 억제를 높은 국채금리에 기대는 건 위험\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/dangerous-boe-rely-high-bond-yields-control-inflation-mpcs-greene-says-2026-10-08/"
+    },
+    {
+     "t": "베일리 영란은행 총재, 각국 정부 재정 여력 바닥날까 우려",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/boe-s-bailey-fears-governments-running-out-of-fiscal-firepower"
+    },
+    {
+     "t": "필 영란은행 수석이코노미스트 \"중앙은행은 물가에 집중해야\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/bank-englands-pill-says-central-banks-must-focus-inflation-2026-10-08/"
+    },
+    {
+     "t": "유가 급등에 영국 10년물 차입 비용 19년 만에 최고로 상승",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/us/uk-10-year-borrowing-costs-rise-19-year-high-after-oil-prices-jump-2026-10-08/"
+    },
+    {
+     "t": "베일리 총재 \"정부 부채 관리 약속이 어느 때보다 필요\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/markets/europe/bank-englands-bailey-says-government-debt-commitments-needed-more-than-ever-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C020",
+   "attachTo": "n-tg-0112",
+   "title": "사우디 주도 대후티 반격 개시…튀르키예 방공 지원, 시리아도 파병 검토",
+   "one": "후티 반군이 미사일로 사우디 공항과 석유시설을 겨냥하는 가운데 메카 방위협정을 발동한 사우디가 반격에 나서고 튀르키예가 드론 운용병과 방공 지원을, 시리아가 군사 지원을 검토하면서 걸프 석유 인프라를 둘러싼 전선이 다국 간 전쟁으로 넓어지고 있다",
+   "facts": [
+    "무엇이: 사우디·파키스탄·튀르키예가 8월 맺은 메카 방위협정을 발동한 뒤 사우디 주도의 대후티 반격이 시작됐다 [사실]",
+    "튀르키예: 드론 운용병·정보·방공 등 방어적·기술적 지원을 보내고 있으나, 대규모 파병과 예멘 직접 개입은 배제했고 추가 배치에는 의회 승인이 필요하다 [사실]",
+    "시리아: 사우디 방어 지원부터 예멘 내 공세 참여까지 군사 지원을 검토 중이며, 공식 요청이 있어야 한다는 입장이다 [사실]",
+    "피해: 후티가 리야드 공항과 석유시설을 겨냥한 미사일 공격을 늘려 이번 주 3명이 숨졌고 루프트한자·에어인디아가 리야드 운항을 중단했다 [사실]",
+    "파키스탄: 의회 관여 없이 무니르 참모총장의 군이 걸프 역할을 맡아 사우디에 병력을 배치하고 아덴에 군수품을 수송했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(CNBC, Middle East Eye, Daily Sabah 등)",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-10-08",
+     "u": "https://www.cnbc.com/2026/10/08/booms-flight-disruptions-riyadh-saudi-houthi-war-escalates.html"
+    },
+    {
+     "o": "Middle East Eye",
+     "d": "2026-10-08",
+     "u": "https://www.middleeasteye.net/news/turkey-to-deploy-troops-and-air-defence-systems-saudi-arabia"
+    },
+    {
+     "o": "Daily Sabah",
+     "d": "2026-10-08",
+     "u": "https://www.dailysabah.com/world/mid-east/syria-mulls-military-aid-to-saudi-arabia-as-houthis-escalate-war"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "사우디 주도의 후티 반군 상대 반격이 본격적으로 시작됐다",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/saudi-led-fightback-against-the-houthis-begins"
+    },
+    {
+     "t": "튀르키예, 후티와 싸우는 사우디에 기술·방어 지원 파견",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/"
+    },
+    {
+     "t": "시리아, 예멘 전쟁 속 사우디 군사 지원 검토…소식통",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/"
+    },
+    {
+     "t": "튀르키예 외무장관 \"사우디 방위 지원 검토 중\"…일부 선택지는 배제",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out-2026-10-08/"
+    },
+    {
+     "t": "사우디 공항들 후티 공격받자 시리아, 예멘 전쟁 지원 검토",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/"
+    },
+    {
+     "t": "무니르의 군대가 걸프 역할 맡는데 파키스탄 의회는 배제돼",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C032",
+   "attachTo": "",
+   "title": "AI 앞세운 감원 확산…FICO 15% 감축, HSBC 자산관리·아마존 소매 인력도 줄여",
+   "one": "FICO가 AI 중심 구조조정으로 인력 15%를 줄이고 HSBC가 영국 자산관리 부문, 아마존이 소매 부문에서 1천 명 미만을 감원하면서, AI 도입과 비용 절감을 명분으로 한 사무직 일자리 축소가 금융·유통 전반으로 번지고 있다",
+   "facts": [
+    "무엇이: FICO가 AI를 제품 개발에 녹이는 구조조정으로 인력의 약 15%를 줄이고 4분기에 약 2,700만 달러의 세전 비용을 반영한다 [사실]",
+    "아마존: 10월 7일 주력 전자상거래를 맡는 스토어 부문을 중심으로 1천 명 미만의 사무직을 추가 감원했다(비공식 수치) [사실]",
+    "HSBC: AI 도입을 추진하며 영국 자산관리 사업 전반의 감원을 계획 중이라고 FT가 보도했다 [제목]",
+    "플록 세이프티: 반발 여론 속에 AI 감시 스타트업 플록 세이프티가 수백 명을 감원했다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "FICO·아마존은 검색 결과 요약으로 확인(CNBC 등). HSBC·플록 세이프티는 제목 기준",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-10-08",
+     "u": "https://www.cnbc.com/2026/10/08/amazon-makes-fresh-job-cuts-mainly-in-retail-division.html"
+    },
+    {
+     "o": "GuruFocus",
+     "d": "2026-10-06",
+     "u": "https://www.gurufocus.com/news/9113404/fair-isaac-corp-fico-announces-15-workforce-reduction-amid-ai-restructuring"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/growth"
+   ],
+   "items": [
+    {
+     "t": "HSBC, AI 추진 속 영국 자산관리 사업 전반 감원 계획…FT 보도",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/"
+    },
+    {
+     "t": "HSBC, 영국 자산관리 사업 전반 감원 계획 중인 것으로 알려져",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/hsbc-reportedly-planning-job-cuts-across-uk-wealth-management-business"
+    },
+    {
+     "t": "FICO, AI 중심 구조조정으로 인력 15% 감축",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/world-at-work/fico-cuts-workforce-by-15-ai-driven-restructuring-2026-10-06/"
+    },
+    {
+     "t": "아마존, 소매 부문 중심으로 새로운 일자리 감축 단행",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/"
+    },
+    {
+     "t": "AI 감시 스타트업 플록 세이프티, 반발 속 수백 명 감원",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C049",
+   "attachTo": "n-tg-0209",
+   "title": "연준 의사록 \"대다수 연내 추가 인상\"…무살렘도 인상 필요, 10월은 쉬어갈 듯",
+   "one": "9월 0.25%p 인상을 결정한 연준 위원 대다수가 연내 추가 인상이 적절하다고 본 의사록이 공개되고 무살렘·월러 등이 추가 인상 필요성을 밝히면서, 시장은 10월 27~28일 동결 뒤 12월 인상 쪽으로 기대를 옮기고 있다",
+   "facts": [
+    "무엇이: 연준이 9월 15~16일 회의에서 기준금리를 3.75~4.00%로 0.25%p 올렸고, 의사록에서 대다수 위원이 연말까지 추가 인상이 적절할 것으로 봤다 [사실]",
+    "이견: 일부는 에너지 충격 대응을, 매파 쪽은 수요발 물가를 인상 이유로 들어 논리가 갈렸고, 일부는 시장 스트레스 대비를 주문했다 [사실]",
+    "발언: 무살렘 세인트루이스 연은 총재는 물가를 2%로 낮추려면 6~9개월 안에 추가 인상이 필요할 수 있다고 했으나 10월 인상은 약속하지 않았다 [사실]",
+    "시장: 투자자들은 10월 회의 동결, 12월 8~9일 회의 인상을 예상하는 쪽으로 기대를 조정했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(CNBC, Raisin 등)",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-10-07",
+     "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+    },
+    {
+     "o": "Raisin",
+     "d": "2026-10-08",
+     "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/rates"
+   ],
+   "items": [
+    {
+     "t": "데일리 연은 총재 \"추가 인상 필요성은 충격 전개에 달려\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/feds-daly-need-more-hikes-hinges-what-happens-with-shocks-2026-10-06/"
+    },
+    {
+     "t": "9월 의사록, 연준 위원들 금리 인상 논리 두고 의견 갈려",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/"
+    },
+    {
+     "t": "연준 의사록, 일부 위원은 시장 스트레스 대비 원해",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/fed-minutes-show-some-officials-want-prepare-market-stress-2026-10-07/"
+    },
+    {
+     "t": "무살렘 연은 총재 \"물가 낮추려면 추가 금리 인상 필요\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/markets/us/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C064",
+   "attachTo": "",
+   "title": "중국차, 무역 갈등에도 유럽 공세…파리모터쇼 20여 개 브랜드 출전, 하이브리드 앞세워",
+   "one": "EU·중국 무역 갈등 속에도 립모터가 신형 주행거리 연장형 하이브리드를 유럽에 들여오고 BYD 등 중국 20여 개 브랜드가 10월 12~18일 파리모터쇼에 대거 나서면서, 전기차 관세를 피할 수 있는 하이브리드를 앞세운 중국차 공세에 유럽 완성차가 압박받고 있다",
+   "facts": [
+    "무엇이: 10월 12~18일 파리모터쇼에 중국 브랜드가 20여 개 참가해 유럽 브랜드(28개 안팎)에 맞먹는 규모로 나선다 [사실]",
+    "립모터: 스텔란티스와 손잡은 립모터가 주행거리 연장형 SUV D19와 B03을 중국 밖에서 처음 공개하며, 올해 세계 판매의 13%가 유럽에서 나왔다 [사실]",
+    "BYD: 저가 플러그인하이브리드 돌핀 G DM-i 등을 내놓고, 경영진은 해외 확장의 가장 큰 난관으로 지정학을 꼽았다 [사실]",
+    "의미: 전기차 상계관세를 받는 중국 업체들이 하이브리드로 유럽 시장 공략 경로를 넓히면서 유럽 업체의 가격 경쟁 부담이 커질 수 있다 [추론]"
+   ],
+   "basis": "partial",
+   "check": "참가 규모·립모터·BYD 차종은 검색 결과 요약으로 확인(Motor1, Stellantis 보도자료, Il Sole 24 Ore). '역대 최다' 표현과 BYD 경영진 발언은 제목 기준",
+   "src": [
+    {
+     "o": "Stellantis 미디어(립모터)",
+     "d": "2026-10",
+     "u": "https://www.media.stellantis.com/em-en/leapmotor/press/leapmotor-will-showcase-its-ever-growing-line-up-at-2026-paris-motor-show"
+    },
+    {
+     "o": "Motor1",
+     "d": "2026-10",
+     "u": "https://www.motor1.com/features/808793/2026-paris-auto-show-preview/"
+    },
+    {
+     "o": "Il Sole 24 Ore",
+     "d": "2026-10",
+     "u": "https://en.ilsole24ore.com/art/paris-motor-show-previews-and-participating-manufacturers-AJgQmEbB"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "립모터, EU·중국 무역 갈등에도 신형 하이브리드차 유럽 출시",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/leapmotor-to-bring-new-hybrid-car-to-europe-despite-eu-china-trade-tensions"
+    },
+    {
+     "t": "BYD 경영진 \"해외 확장의 가장 큰 난관은 지정학\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/byd-exec-says-biggest-challenge-expansion-is-geopolitics-2026-10-08/"
+    },
+    {
+     "t": "파리모터쇼에 중국 업체 역대 최다 참가…유럽 완성차 압박",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/autos-transportation/record-chinese-turnout-puts-european-carmakers-under-pressure-paris-show-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C077",
+   "attachTo": "",
+   "title": "인도네시아, 재정적자 3% 한도 지키려 긴축 지시…투자 유치엔 임대료 면제",
+   "one": "인도네시아 재무장관이 올해 재정적자가 GDP의 2.85%로 3% 법정 한도에 다가서자 출장비 30% 삭감과 불요불급 지출 동결을 지시하는 한편 단안타라 산업단지 임대료 면제로 투자를 끌어들이려 하면서, 에너지 보조금 부담 속 재정 여력이 빠듯해지고 있다",
+   "facts": [
+    "무엇이: 수아하실 나자라 재무장관이 부처들에 남은 출장 예산 30% 삭감, 불요불급 지출 동결, 신규 차량 구매·청사 공사 중단을 지시했고 10월 16일까지 감액안을 내라고 했다 [사실]",
+    "재정: 정부의 2026년 재정적자 추정치는 GDP 대비 2.85%로 당초 목표 2.68%를 넘어 법정 한도 3%에 근접했고, 에너지 가격 급등으로 보조금 지급이 불어나고 있다 [사실]",
+    "투자 유치: 국부펀드 단안타라가 산업단지 토지 임대료를 면제해 투자를 끌어들이고, 정부는 배터리·태양광·알루미늄 공장 착공과 투자 보호를 약속했다 [제목]"
+   ],
+   "basis": "partial",
+   "check": "긴축 지시·적자 추정치는 자카르타포스트 등 검색 결과 요약으로 확인. 단안타라 임대료 면제·공장 착공은 제목 기준",
+   "src": [
+    {
+     "o": "The Jakarta Post",
+     "d": "2026-10-09",
+     "u": "https://www.thejakartapost.com/business/2026/10/09/indonesia-orders-cost-cutting-measures-to-keep-fiscal-deficit-in-check"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal"
+   ],
+   "items": [
+    {
+     "t": "인도네시아 산업단지, 투자 유치 위해 토지 임대료 면제…단안타라",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/indonesia-industrial-parks-waive-land-rental-fees-attract-investment-danantara-2026-10-08/"
+    },
+    {
+     "t": "인도네시아, 재정적자 억제 위해 비용 절감 조치 지시…소식통",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/indonesia-orders-cost-cutting-measures-keep-fiscal-deficit-check-sources-say-2026-10-08/"
+    },
+    {
+     "t": "인도네시아, 투자 보호 약속하며 배터리·태양광·알루미늄 공장 착공",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/indonesia-vows-protect-investment-launch-battery-solar-aluminium-plants-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C088",
+   "attachTo": "",
+   "title": "레볼루트 CEO \"상장하면 미국 1차 상장\"…기업가치 1150억 달러 런던 이탈 신호",
+   "one": "기업가치 1,150억 달러의 레볼루트 스토론스키 CEO가 상장한다면 유동성이 깊은 미국을 1차 상장지로 삼겠다고 밝히면서, 영국 핀테크 대어의 런던 상장 기대가 꺾이고 런던 증시의 상장 유치 경쟁력 약화가 다시 부각되고 있다",
+   "facts": [
+    "무엇이: 니콜라이 스토론스키 레볼루트 CEO가 10월 8일 블룸버그TV 인터뷰에서 상장 시 미국 1차 상장을 원한다고 말했다 [사실]",
+    "시점: 상장은 빨라도 1년 이상 뒤이며 과거 보도는 2028년을 거론했고, 앞서 그는 뉴욕·런던 이중상장을 검토한다고 했었다 [사실]",
+    "규모: 비상장 기업가치 1,150억 달러로 바클레이스·소시에테제네랄보다 크고, 9월 미국 은행 인가 예비 승인을 받았다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(Global Banking & Finance 등)",
+   "src": [
+    {
+     "o": "Global Banking & Finance Review",
+     "d": "2026-10-08",
+     "u": "https://www.globalbankingandfinance.com/revolut-ceo-wants-us-primary-listing-if-goes-public/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "레볼루트 스토론스키 CEO \"미국 1차 상장을 목표로 한다\"",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/revolut-ceo-storonsky-says-he-s-targeting-us-primary-listing"
+    },
+    {
+     "t": "레볼루트 CEO, 상장한다면 미국 1차 상장 원해…블룸버그 보도",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/finance/revolut-ceo-wants-us-primary-listing-if-it-goes-public-bloomberg-news-reports-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C099",
+   "attachTo": "",
+   "title": "헝가리, 유럽 최고 전기요금 낮추려 에너지 개편…풍력 동결 해제·저장장치 3GW",
+   "one": "헝가리 정부가 유럽에서 가장 비싼 기업용 전기요금과 80%가 넘는 에너지 수입 의존을 줄이려 신규 풍력 동결을 풀고 2028년까지 저장장치 3GW, 풍력 4GW를 늘리는 개편안을 내놓으면서, 풍력·저장장치 발주와 팍시 원전 수명 연장 수요가 생길 전망이다",
+   "facts": [
+    "무엇이: 마자르 총리 정부가 재생에너지 확대로 기업 전기요금과 수입 의존을 낮추는 에너지 개편 계획을 10월 8일 내놨다 [사실]",
+    "내용: 신규 풍력 동결 폐지, 풍력 4GW 확대(목표 시점 2030년 또는 2032년으로 보도 엇갈림), 2028년까지 저장장치 3GW 이상, 2GW 팍시 원전 수명 연장이 담겼다 [사실]",
+    "배경: 헝가리는 연료의 80% 이상을 수입하고, 여름 가뭄으로 다뉴브 수위가 내려가 8월 팍시 원전이 정지 직전까지 갔다 [사실]",
+    "가격: 정부는 도매가격이 현 체계의 MWh당 약 128유로에서 2040년 약 50유로로 60% 넘게 내려갈 수 있다고 본다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(Global Banking & Finance, Briefs). 풍력 목표 연도는 출처마다 다름",
+   "src": [
+    {
+     "o": "Global Banking & Finance Review",
+     "d": "2026-10-08",
+     "u": "https://www.globalbankingandfinance.com/hungary-plans-renewable-energy-push-curb-prices-import-needs/"
+    },
+    {
+     "o": "Briefs",
+     "d": "2026-10-08",
+     "u": "https://www.briefs.co/news/hungary-plots-big-energy-reboot-to-tame-some-of-europe-s-pri/"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/market",
+    "power/wind",
+    "power/storage"
+   ],
+   "items": [
+    {
+     "t": "헝가리, 전기요금과 수입 의존 줄이려 재생에너지 확대 추진",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/hungary-plans-renewable-energy-push-curb-prices-import-needs-2026-10-08/"
+    },
+    {
+     "t": "헝가리, 유럽 최고 수준 전력 비용 낮추려 에너지 체계 개편 계획",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/hungary-plans-energy-overhaul-to-cut-europe-s-highest-power-cost"
+    }
+   ]
+  },
+  {
+   "cid": "C120",
+   "attachTo": "",
+   "title": "독일 유니퍼 매각전 가열…아폴로 입찰 가세, RWE는 KKR과 공동 입찰",
+   "one": "독일 정부가 국유화한 유니퍼 지분 최대 74.12% 매각에 아폴로가 비구속 입찰을 내고 RWE·KKR 컨소시엄, 에퀴노르, EPH, 브룩필드 등이 뛰어들면서, 기업가치 약 100억 유로로 거론되는 올해 유럽 최대급 유틸리티 거래의 경쟁이 달아오르고 있다",
+   "facts": [
+    "무엇이: 아폴로가 독일 국유 에너지 기업 유니퍼 인수를 위한 비구속 입찰을 냈다고 소식통이 전했다 [사실]",
+    "경쟁: 에퀴노르, 크레틴스키의 EPH, 브룩필드·캐나다연금 컨소시엄, RWE·KKR 컨소시엄도 입찰했고, RWE는 공동 입찰 뒤 유니퍼에서 자사 역할은 제한적일 것이라고 했다 [사실]",
+    "구조: 독일 재무부는 2028년까지 지분을 저지 지분 수준으로 낮추라는 EU 요건에 따라 최대 74.12%를 팔며, 상장(IPO)도 병행 검토한다 [사실]",
+    "규모: 매각 시 기업가치는 약 100억 유로로 평가될 수 있고, 다음 라운드 진출 여부는 몇 주 안에 통보된다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(OilPrice, Global Banking & Finance). RWE 역할 제한 발언은 제목 기준",
+   "src": [
+    {
+     "o": "OilPrice.com",
+     "d": "2026-10-07",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Apollo-Joins-115-Billion-Race-for-German-Gas-Giant-Uniper.html"
+    },
+    {
+     "o": "Global Banking & Finance Review",
+     "d": "2026-10-07",
+     "u": "https://www.globalbankingandfinance.com/exclusive-apollo-submits-non-binding-bid-german-energy-firm/"
+    }
+   ],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/trade"
+   ],
+   "items": [
+    {
+     "t": "RWE, KKR과 유니퍼 공동 입찰 뒤 자사 역할은 제한적일 것으로 봐",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/rwe-sees-limited-role-in-uniper-after-making-joint-bid-with-kkr"
+    },
+    {
+     "t": "아폴로, 독일 에너지 기업 유니퍼에 비구속 입찰 제출…소식통",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/apollo-submits-non-binding-bid-german-energy-firm-uniper-sources-say-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C130",
+   "attachTo": "n-bbg-0099",
+   "title": "카타르 LNG 복구 속도…NFE 첫 트레인 11월 가동 준비, 셸 펄 GTL 부분 재가동",
+   "one": "카타르가 빈 LNG선을 걸프 안으로 불러들이는 가운데 연산 800만 톤 규모 노스필드이스트 첫 트레인이 11월 가동 준비를 마치고 셸이 3월 공격으로 멈춘 펄 GTL을 부분 재가동하면서, 호르무즈 통행이 풀리면 카타르의 LNG·석유제품 공급이 빠르게 늘어날 수 있다",
+   "facts": [
+    "무엇이: 카타르에너지의 노스필드이스트(NFE) 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤고, 첫 LNG 생산은 2027년 1분기로 예상된다고 소식통이 전했다 [사실]",
+    "셸: 3월 이란 전쟁 중 공격으로 2개 트레인 중 하나가 손상된 펄 GTL을 부분 재가동해 제한된 재고를 쌓고 있으며, 2번 트레인 수리는 내년 1분기 완료 예정이다 [사실]",
+    "제약: 추가 트레인 장비 반입과 제품 선적은 호르무즈 해협 안전 통행에 달려 있다 [사실]",
+    "기존: 카타르는 빈 LNG선을 라스라판 앞으로 모으며 9월 전쟁 이후 최대로 회복된 수출을 더 늘릴 선적 여력을 만들고 있다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(Zawya, Upstream, OGJ). 회사 공식 가동 시점은 2027년 상반기",
+   "src": [
+    {
+     "o": "Zawya",
+     "d": "2026-10-07",
+     "u": "https://www.zawya.com/en/business/commodities/first-lng-train-at-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-1545253"
+    },
+    {
+     "o": "Upstream",
+     "d": "2026-10-08",
+     "u": "https://www.upstreamonline.com/energy-security/shell-partially-restarts-pearl-facility-in-qatar-after-attacks/2-1-2056091"
+    }
+   ],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/liquefaction",
+    "gas/trade"
+   ],
+   "items": [
+    {
+     "t": "카타르에너지 NFE 프로젝트 첫 LNG 트레인 가동 준비 완료…소식통 2명",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-start-two-sources-say-2026-10-07/"
+    },
+    {
+     "t": "셸, 카타르 펄 가스액화연료(GTL) 공장 부분 재가동",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C140",
+   "attachTo": "",
+   "title": "에퀴노르, 정제마진·LNG 트레이딩 호조에 3분기 마케팅 이익 가이던스 상회",
+   "one": "에퀴노르가 유럽 정제마진 급등과 LNG 트레이딩 최적화로 3분기 마케팅·미드스트림 부문 이익이 분기 가이던스 4억 달러를 넘을 것이라고 밝히고 북해 굴팍스 남부에서 가스를 새로 발견하면서, 유럽 연료 공급난이 노르웨이 생산자의 이익으로 이어지고 있다",
+   "facts": [
+    "무엇이: 에퀴노르가 3분기 MMP(마케팅·미드스트림·가공) 부문 이익이 4억 달러 가이던스를 웃돌 것이라고 10월 7일 밝혔다. 2분기에는 7억 7,700만 달러였다 [사실]",
+    "원인: 이례적으로 강한 유럽 정제마진과 자사·제3자 LNG 트레이딩 최적화를 들었고, 3분기 실적은 10월 28일 발표된다 [사실]",
+    "발견: 베르겐 북서쪽 190km 굴팍스 남부에서 회수 가능량 330만~1,030만 배럴(석유환산)의 가스를 발견했으며 개발 일정은 아직 없다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(에퀴노르 발표, Offshore Energy, energynews.pro)",
+   "src": [
+    {
+     "o": "Equinor",
+     "d": "2026-10-08",
+     "u": "https://www.equinor.com/news/20261008-gas-discovery-gullfaks-field"
+    },
+    {
+     "o": "energynews.pro",
+     "d": "2026-10-07",
+     "u": "https://energynews.pro/en/equinor-expects-its-mmp-segment-to-exceed-the-400-million-guidance"
+    }
+   ],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/upstream",
+    "gas/trade"
+   ],
+   "items": [
+    {
+     "t": "에퀴노르 \"3분기 트레이딩 이익 가이던스 웃돌 것\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/equinor-says-trading-profit-will-top-guidance-third-quarter-2026-10-07/"
+    },
+    {
+     "t": "에퀴노르, 노르웨이 북해 해역에서 새로운 가스 매장지를 발견",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/equinor-makes-gas-discovery-north-sea-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C150",
+   "attachTo": "",
+   "title": "AI 빚잔치에 기술기업 채권 약세…트레이더들 위험 재평가 서둘러",
+   "one": "하이퍼스케일러들이 AI 설비 자금을 대규모 회사채로 조달하면서 공급 부담과 레버리지 우려에 기술기업 채권 가격이 떨어지고 있어, 오라클을 중심으로 신용부도스와프가 오르고 우량 기술기업의 차입 비용도 높아지고 있다",
+   "facts": [
+    "무엇이: AI 관련 부채 발행이 급증하면서 투자자들이 기술기업 채권의 위험을 다시 매기고 있다 [제목]",
+    "규모: 알파벳·아마존·메타·마이크로소프트·오라클 5개사 채권 발행은 지난해 930억 달러에서 올해 7월까지 1,320억 달러에 이르렀고, 20~30년 장기채 발행도 흔해졌다 [사실]",
+    "가격: S&P가 오라클 신용등급을 BBB-로 낮췄고 오라클 5년물 CDS는 수년래 최고권이며, 아마존 250억 달러 발행 땐 기존 30년물 가산금리가 20bp 벌어졌다 [사실]",
+    "의미: 대형 발행이 이어지는 한 기술기업 가산금리가 넓게 유지될 수 있다는 전망이 나온다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "발행 규모·오라클 등급·CDS·아마존 발행 영향은 9월까지의 자료(Sage Advisory, Portfolio Adviser 등) 검색 결과 요약으로 확인. 10월 8일 기사 속 구체 가격 변동은 미확인",
+   "src": [
+    {
+     "o": "Sage Advisory",
+     "d": "2026-09",
+     "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+    },
+    {
+     "o": "Portfolio Adviser",
+     "d": "2026",
+     "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis",
+    "macro/liquidity"
+   ],
+   "items": [
+    {
+     "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+    }
+   ]
+  },
+  {
+   "cid": "C160",
+   "attachTo": "",
+   "title": "美 FTC, 계좌 동결 민원 1,500건 넘자 블록 조사…법원에 자료 제출 명령 요청",
+   "one": "미국 연방거래위원회가 스퀘어 계좌 동결·해지로 고객이 돈을 찾지 못했다는 민원 1,500여 건을 근거로 블록을 조사하며 법원에 자료 제출 강제를 요청하면서, 블록이 소비자보호법 위반 여부를 두고 규제 위험을 안게 됐다",
+   "facts": [
+    "무엇이: FTC가 블록이 동결·해지된 계좌 고객을 제대로 돕지 않아 소비자보호법을 어겼는지 조사 중이며, 캘리포니아 북부 연방법원에 자료 제출 명령을 청구했다 [사실]",
+    "민원: 1,500건 넘는 민원이 접수됐고, 2022년 이후 동결된 스퀘어 계좌의 묶인 자금이 최대 250만 달러에 이른다고 청원서에 적혔다 [사실]",
+    "회사: 블록은 남은 소수 요청에 성실히 대응해 왔다고 밝혔으며, 조사가 곧 제재로 이어지는 것은 아니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(Quartz, PYMNTS)",
+   "src": [
+    {
+     "o": "Quartz",
+     "d": "2026-10-08",
+     "u": "https://qz.com/ftc-investigating-block-frozen-square-cash-app-accounts-100826"
+    },
+    {
+     "o": "PYMNTS",
+     "d": "2026-10-08",
+     "u": "https://www.pymnts.com/cpi-posts/block-parent-of-cash-app-and-square-faces-ftc-probe-over-frozen-accounts/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "FTC, 계좌 동결 소비자 민원 이후 블록 조사 착수",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ftc-probes-block-after-consumer-complaints-over-frozen-accounts"
+    }
+   ]
+  },
+  {
+   "cid": "C170",
+   "attachTo": "",
+   "title": "車유리 수리업체 벨론, 유럽 IPO 주관사 선정…기업가치 300억 유로 넘봐",
+   "one": "디테렌이 절반 남짓을 가진 자동차 유리 수리업체 벨론이 뱅크오브아메리카·BNP파리바·JP모건·모건스탠리를 상장 주관사로 고르면서, 암스테르담에서 기업가치 300억 유로 이상을 노리는 유럽 대형 IPO가 이르면 내년 나올 수 있다",
+   "facts": [
+    "무엇이: 벨론이 뱅크오브아메리카·BNP파리바·JP모건·모건스탠리를 상장 준비 주관사로 선정했다 [사실]",
+    "규모: 암스테르담이 유력 상장지로, 기업가치 300억 유로 이상을 목표로 할 수 있다 [사실]",
+    "지배구조: 디테렌이 지분 절반 남짓을 갖고 있으며 상장 뒤에도 지배 지분을 유지할 것으로 예상된다 [사실]",
+    "시점: 이르면 내년이지만 2027년으로 밀릴 수 있다는 보도도 있다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(Briefs 등). 상장 시점은 보도마다 다름",
+   "src": [
+    {
+     "o": "Briefs",
+     "d": "2026-10-08",
+     "u": "https://www.briefs.co/news/belron-lines-up-banks-for-possible-ipo-weighs-amsterdam-and/"
+    }
+   ],
+   "inds": [
+    "auto"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "자동차 유리 수리업체 벨론, 유럽 IPO 주관 은행 선정",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/windshield-repair-group-belron-picks-banks-for-europe-ipo"
+    }
+   ]
+  },
+  {
+   "cid": "C180",
+   "attachTo": "",
+   "title": "인도 대법원, 제약사 의사 리베이트 관행 점검 위원회 구성 명령",
+   "one": "인도 대법원이 제약사가 선물·접대·여행 지원으로 의사 처방에 영향을 준다는 청원을 받아들여 정부에 2주 안에 위원회를 꾸려 판촉 규제를 점검하라고 명령하면서, 인도 제약사 영업 관행에 대한 처벌 장치가 강화될 수 있다",
+   "facts": [
+    "무엇이: 인도 대법원이 10월 8일 중앙정부에 제약사의 비윤리적 판촉 관행을 점검할 위원회를 2주 안에 구성하라고 명령했다 [사실]",
+    "범위: 위원회는 현행 제약 판촉 통일규약(UCPMP 2024)의 적정성과 감시·집행 장치를 검토해 첫 회의 후 2개월 안에 권고안을 낸다 [사실]",
+    "쟁점: 청원인들은 현 체계가 선물을 받은 의사는 처벌하지만 이를 제공한 제약사를 처벌할 법적 장치는 없다고 주장했으며, 다음 심리는 1월 29일이다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(ThePrint, Deccan Herald)",
+   "src": [
+    {
+     "o": "ThePrint",
+     "d": "2026-10-08",
+     "u": "https://theprint.in/india/set-up-panel-to-examine-unethical-pharma-marketing-practices-sc-to-govt/3065853/"
+    },
+    {
+     "o": "Deccan Herald",
+     "d": "2026-10-08",
+     "u": "https://www.deccanherald.com/india/set-up-panel-to-examine-unethical-pharma-marketing-practices-supreme-court-to-govt-4175258"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 대법원, 비윤리적 의약품 판촉 관행 검토할 위원회 구성 요구",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/india-top-court-seeks-panel-to-review-unethical-drug-promotions"
+    }
+   ]
+  },
+  {
+   "cid": "C200",
+   "attachTo": "",
+   "title": "세레반스 파킨슨병 먹는 신약 솔렌게프라스, 3상서 1차 목표 달성",
+   "one": "세레반스가 하루 한 번 먹는 파킨슨병 신약 솔렌게프라스 3상에서 레보도파 병용 시 하루 운동 증상 악화 시간을 위약보다 0.61시간 줄여 1차 목표를 달성하면서, FDA와 신약 허가 신청 경로를 협의하게 됐다",
+   "facts": [
+    "무엇이: 세레반스의 3상 ARISE 시험에서 솔렌게프라스 150mg이 12주째 하루 평균 오프(OFF) 시간을 위약 대비 0.61시간 줄여 1차 평가지표를 충족했다(p=0.035) [사실]",
+    "부가 결과: 문제성 이상운동 없는 온(ON) 시간이 0.60시간 늘었고, 이상운동 발생은 4.4%로 위약 1.8%보다 많았다 [사실]",
+    "다음 단계: 회사는 FDA와 신약허가신청(NDA) 경로를 논의할 계획이며, 2상 단독요법에서는 1차 목표를 놓친 바 있다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(회사 발표, Fierce Biotech)",
+   "src": [
+    {
+     "o": "Cerevance(GlobeNewswire)",
+     "d": "2026-10-07",
+     "u": "https://www.globenewswire.com/news-release/2026/10/07/3376417/0/en/cerevance-announces-positive-phase-3-arise-results-once-daily-oral-solengepras-meets-primary-endpoint-and-demonstrates-motor-and-non-motor-benefits-in-parkinson-s-disease.html"
+    },
+    {
+     "o": "Fierce Biotech",
+     "d": "2026-10-07",
+     "u": "https://www.fiercebiotech.com/biotech/cerevance-rescues-its-parkinsons-drug-phase-3-win"
+    }
+   ],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "세레반스 \"파킨슨병 먹는 약, 후기 임상시험에서 목표 달성\"",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/parkinson-s-pill-met-goals-in-late-stage-trial-cerevance-says"
+    }
+   ]
+  },
+  {
+   "cid": "C210",
+   "attachTo": "",
+   "title": "싱가포르, 성장 호조·물가 위험에 14일 세 번째 통화 긴축 나설 듯",
+   "one": "싱가포르통화청이 AI 수요에 기댄 강한 성장과 유가발 물가 위험에 4월·7월에 이어 10월 14일 통화정책을 다시 조일 것으로 로이터 설문 응답자 10명 전원이 예상하면서, 싱가포르달러 환율 정책밴드 기울기가 더 가팔라질 전망이다",
+   "facts": [
+    "무엇이: 로이터 설문에서 이코노미스트 10명 전원이 싱가포르통화청(MAS)이 10월 14일 통화정책을 긴축할 것으로 예상했다 [사실]",
+    "근거: AI가 이끄는 강한 성장과 이란 전쟁발 유가 상승에 따른 운송·에너지 비용 압력이 꼽힌다 [사실]",
+    "물가: 8월 근원물가 2.2%, 헤드라인 2.3%로 예상보다 온건해 긴축 폭은 작을 것이란 관측이 많다 [사실]",
+    "경로: MAS는 4월에 이어 7월에도 시장 예상을 깨고 아주 소폭 긴축했다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약으로 확인(로이터 전재 지역 매체, MAS 일정표)",
+   "src": [
+    {
+     "o": "MAS 발표 일정",
+     "d": "2026-10",
+     "u": "https://www.mas.gov.sg/monetary-policy/advance-release-calendar"
+    },
+    {
+     "o": "1027 WBOW(로이터 전재 요약)",
+     "d": "2026-10-09",
+     "u": "https://1027wbow.com/2026/10/09/singapore-poised-to-tighten-monetary-policy-amid-strong-growth-and-rising-inflation-risks/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/fx"
+   ],
+   "items": [
+    {
+     "t": "싱가포르, 강한 성장·물가 상승 위험 속 통화정책 긴축 채비",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C220",
+   "attachTo": "",
+   "title": "英 온라인 의류업체 아소스, 해킹으로 일부 고객 개인정보 유출",
+   "one": "영국 온라인 패션업체 아소스가 보안 침해로 일부 고객의 개인정보가 노출됐다고 밝히면서, 회사가 고객 신뢰 하락과 영국 개인정보 보호 당국 대응 부담을 안게 될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 아소스가 보안 침해로 일부 고객 개인정보가 노출됐다고 밝혔다 [제목]",
+    "범위: 유출된 고객 수와 정보 종류는 확인하지 못했다 [미확인]",
+    "영향: 영국 개인정보 규제 당국 조사와 고객 이탈 위험이 생길 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 유출 규모 미확인",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "영국 아소스 \"보안 침해로 일부 고객 개인정보 노출\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/retail-consumer/uks-asos-says-breach-exposed-some-customer-personal-data-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C240",
+   "attachTo": "",
+   "title": "아람코, 유전서비스업체 NESR과 사우디 리튬 사업 공동 개발 합의",
+   "one": "사우디 아람코와 중동 유전서비스업체 NESR이 사우디에서 리튬 사업을 함께 개발하기로 합의하면서, 석유 기업과 유전 서비스 업체가 배터리 원료 공급망에 발을 들이는 사우디의 리튬 확보 시도가 구체화될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: NESR과 아람코가 사우디아라비아에서 리튬 프로젝트를 개발하기로 합의했다 [제목]",
+    "방식: 유전 염수에서 리튬을 추출하는 방식일 가능성이 크나 사업 규모·일정은 확인하지 못했다 [미확인]",
+    "의미: 산유국이 배터리 원료 공급망에 들어오면 중장기 리튬 공급원이 다변화될 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 추출 방식·규모 미확인",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "NESR과 아람코, 사우디아라비아에서 리튬 프로젝트 개발 합의",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/nesr-aramco-agree-develop-lithium-project-saudi-arabia-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C250",
+   "attachTo": "",
+   "title": "佛 크레디아그리콜, 소매금융 앞세워 독일 시장 확장 추진",
+   "one": "프랑스 크레디아그리콜이 독일에서 소매금융 사업으로 영역을 넓히기로 하면서, 유럽 최대 경제국인 독일의 개인·소기업 금융 시장에서 기존 은행과 외국계 은행 간 경쟁이 거세질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 크레디아그리콜이 소매금융 사업으로 독일 진출을 확대한다 [제목]",
+    "방식: 신규 설립인지 인수인지, 투자 규모와 일정은 확인하지 못했다 [미확인]",
+    "의미: 유럽 은행 간 국경 넘는 확장이 늘어나는 흐름의 한 사례가 될 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 진출 방식·규모 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "프랑스 크레디아그리콜, 소매금융 사업으로 독일 확장",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/finance/frances-credit-agricole-expand-germany-with-retail-business-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C260",
+   "attachTo": "",
+   "title": "화이자, 이탈리아에서 약 330명 감원…비용 절감 이어가",
+   "one": "화이자가 이탈리아에서 약 330개 일자리를 줄이기로 하면서, 대형 제약사의 비용 절감이 유럽 현지 인력 축소로 이어지고 이탈리아 내 화이자 사업장 운영 규모가 줄어들 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 화이자가 이탈리아에서 약 330명을 감원한다 [제목]",
+    "대상: 감원 대상 사업장과 부서는 확인하지 못했다 [미확인]",
+    "배경: 화이자가 진행해 온 전사 비용 절감 계획의 연장선일 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 감원 사업장·배경 미확인",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "화이자, 이탈리아에서 약 330개 일자리 감축 예정",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/world-at-work/pfizer-cut-around-330-jobs-italy-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C270",
+   "attachTo": "",
+   "title": "크리스챤 디올, 새 지분구조 앞두고 이사 2명 교체",
+   "one": "LVMH 지배 지주사 크리스챤 디올 이사회가 새 지분구조 도입을 앞두고 이사 2명을 교체하면서, 아르노 일가의 LVMH 지배구조 재편이 다음 단계로 넘어가고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 크리스챤 디올 이사회가 새 지분구조를 앞두고 이사 2명을 교체했다 [제목]",
+    "내용: 교체된 이사의 이름과 새 지분구조의 구체 내용은 확인하지 못했다 [미확인]",
+    "의미: 크리스챤 디올은 LVMH의 최대주주 지주사여서 지분구조 변경이 LVMH 지배구조와 소액주주에 영향을 줄 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 새 지분구조 내용·교체 이사 미확인",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "크리스챤 디올 이사회, 새 지분구조 앞두고 이사 2명 교체",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/retail-consumer/christian-dior-board-replaces-two-members-ahead-new-shareholding-structure-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C280",
+   "attachTo": "",
+   "title": "소송금융업체 옴니브리지웨이, 10억 달러 자금 조달",
+   "one": "호주 소송금융업체 옴니브리지웨이가 10억 달러를 조달하면서, 기업 소송 비용을 대신 대고 승소금 일부를 받는 소송금융 시장으로 기관 자금이 계속 흘러들고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 소송금융업체 옴니브리지웨이가 10억 달러를 조달했다 [제목]",
+    "구조: 펀드 형태인지, 투자자 구성은 어떤지 확인하지 못했다 [미확인]",
+    "의미: 사모신용 투자자의 대체 자산 수요가 소송금융으로 넓어지고 있음을 보여 줄 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 조달 구조·투자자 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "소송금융업체 옴니브리지웨이, 10억 달러 자금 조달",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/litigation-funder-omni-bridgeway-raises-1-billion-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C290",
+   "attachTo": "",
+   "title": "파이어플라이 로보틱스, 나스닥 직상장 신청",
+   "one": "로봇업체 파이어플라이 로보틱스가 신주 공모 없이 기존 주식을 거래소에 올리는 나스닥 직상장을 신청하면서, 로봇 기업에 대한 공개시장 투자 수요를 가늠할 시험대가 될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 파이어플라이 로보틱스가 나스닥 직상장을 신청했다 [제목]",
+    "내용: 회사 사업 분야, 기준가격과 상장 시점은 확인하지 못했다 [미확인]",
+    "의미: 직상장은 신규 자금 조달 없이 기존 주주의 유동화를 여는 방식이다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 사업 내용·상장 시점 미확인",
+   "src": [],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "파이어플라이 로보틱스, 나스닥 직상장 신청서 제출",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/firefly-robotics-files-nasdaq-direct-listing-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C320",
+   "attachTo": "",
+   "title": "인도 철강부, 값싼 수입 철강 추가 규제 요청 안 할 듯",
+   "one": "인도 철강부가 값싼 수입 철강에 대한 새 규제를 요청하지 않을 것으로 정부 소식통이 전하면서, 중국 등의 저가 철강 유입을 막아 달라는 인도 철강업계의 추가 보호 기대가 약해지고 수입재 가격 압박이 이어질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 인도 철강부가 값싼 수입 철강에 대한 새 규제를 요구하지 않을 것으로 보인다고 정부 소식통이 말했다 [제목]",
+    "배경: 기존 세이프가드 관세 수준과 수입량 추이는 확인하지 못했다 [미확인]",
+    "의미: 추가 보호조치가 없으면 인도 내 철강 가격과 업계 마진에 수입재 압력이 남을 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 기존 관세·수입량 미확인",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 철강부, 값싼 수입 철강 신규 규제 요청 가능성 낮아…정부 소식통",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/china/india-steel-ministry-unlikely-seek-new-curbs-cheap-imports-government-source-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C330",
+   "attachTo": "",
+   "title": "보우먼 연준 부의장 \"은행 감독 책임 체계 전면 개편 계획\"",
+   "one": "미셸 보우먼 연준 감독 담당 부의장이 연준의 은행 감독 책임 체계를 개편할 계획이라고 밝히면서, 감독 권한과 검사 방식이 바뀌어 미국 은행들의 규제 부담과 감독 강도가 달라질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 연준이 은행 감독 책임 체계를 개편할 계획이라고 보우먼 부의장이 말했다 [제목]",
+    "내용: 개편의 구체 내용과 시행 시점은 확인하지 못했다 [미확인]",
+    "의미: 감독 책임이 재배분되면 은행 검사 방식과 규제 부담이 바뀔 수 있다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도 소진으로 독립 출처 확인 못 함. 개편 내용·시점 미확인",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "보우먼 \"연준, 은행 감독 책임 체계 개편 계획\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/finance/fed-plans-overhaul-bank-supervision-responsibilities-bowman-says-2026-10-06/"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "cid": "C109",
+   "reason": "범위 밖"
+  },
+  {
+   "cid": "C230",
+   "reason": "범위 밖"
+  },
+  {
+   "cid": "C190",
+   "reason": "범위 밖(구상 수준, 구체 사실 부족)"
+  },
+  {
+   "cid": "C300",
+   "reason": "범위 밖(단일 기업 분기 실적, 구체 수치 미확인)"
+  },
+  {
+   "cid": "C310",
+   "reason": "범위 밖(구체 사실 부족)"
+  }
+ ]
+}

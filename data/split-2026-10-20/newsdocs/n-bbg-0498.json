@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0498",
+ "num": 498,
+ "key": "split-G4-120-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/uk-inflation-can-seal-the-deal-on-the-boe-s-november-rate-hike",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 9월 물가, 영란은행 11월 4% 인상 굳힐 전망",
+ "headline": "영국 9월 물가, 영란은행 11월 4% 인상 굳힐 전망",
+ "one": "블룸버그가 10월 18일 영국 9월 물가 지표가 영란은행의 11월 금리 인상을 굳힐 수 있다고 분석하면서, 3.75%인 기준금리가 11월 5일 회의에서 4%로 오를 가능성이 커졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 영국 9월 물가가 영란은행의 11월 금리 인상을 굳힐 수 있다는 분석이 나왔다(10월 18일 블룸버그) [제목]",
+  "전망: 10월 12~14일 로이터 조사에서 이코노미스트 63명 중 54명이 11월 5일 기준금리를 3.75%에서 4.0%로 올릴 것으로 봤다 [사실]",
+  "주의: 9월 물가 예상치는 출처마다 달라 이 요약에 쓰지 않았다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 18일)이다. 원 문서 확인 기록대로 분석 내용은 제목만 근거이고, 9월 물가 예상치는 출처마다 달라 쓰지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "영국 물가, 영란은행 11월 금리 인상 굳힐 수 있다",
+   "o": "블룸버그",
+   "d": "2026-10-18",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/uk-inflation-can-seal-the-deal-on-the-boe-s-november-rate-hike"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 9월 물가가 11월 인상 굳힐 전망"
+  }
+ ]
+}

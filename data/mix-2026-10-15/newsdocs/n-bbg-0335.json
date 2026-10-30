@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0335",
+ "num": 335,
+ "key": "mix-G4-051-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T14:55:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/ericsson-earnings-beat-forecast-on-solid-mobile-network-demand",
+ "origTitle": "",
+ "headline": "에릭슨, 네트워크 수요에 3분기 이익 예상 상회…주가 최대 11% 급등",
+ "src": [
+  {
+   "o": "에릭슨 보도자료",
+   "d": "2026-10-15",
+   "u": "https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-15",
+   "u": "https://qz.com/ericsson-stock-earnings-beat-network-demand-101526"
+  }
+ ],
+ "items": [
+  {
+   "t": "모바일 네트워크 수요가 이익 끌어올려…에릭슨 주가 급등",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/ericsson-earnings-beat-forecast-on-solid-mobile-network-demand",
+   "s": "모바일 네트워크 장비 수요가 3분기 이익을 끌어올리면서 에릭슨 주가가 스톡홀름에서 장중 최대 11% 뛰었다"
+  },
+  {
+   "t": "에릭슨 3분기 핵심이익, 예상보다 덜 줄어들어",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/ericssons-third-quarter-core-profit-falls-less-than-expected-2026-10-15/",
+   "s": "에릭슨의 3분기 조정 EBITA가 전년 매각 차익 효과로 101억 크로나로 줄었지만 감소 폭이 예상보다 작아, 네트워크 본업의 이익 개선이 드러났다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "에릭슨, 네트워크 수요에 3분기 이익 예상 상회…주가 최대 11% 급등",
+ "one": "에릭슨이 3분기 매출 595억 크로나(유기 성장 7%)와 조정 EBITA 101억 크로나로 예상치 79억 3,000만 크로나를 웃돌고 네트워크 부문 이익이 90억 크로나로 늘면서 주가가 최대 11% 올랐지만, 부품 비용 상승이 마진을 압박할 전망이다",
+ "facts": [
+  "무엇이: 에릭슨의 3분기 조정 EBITA는 101억 크로나(마진 17.0%)로 블룸버그 집계 예상치 79억 3,000만 크로나를 웃돌았고, 전년 76억 크로나 매각 차익을 빼면 늘었습니다 [사실]",
+  "매출: 순매출은 595억 크로나로 6% 늘었고 유기 성장률은 7%였습니다 [사실]",
+  "부문: 네트워크 부문 조정 EBITA는 72억에서 90억 크로나로 늘어 마진 23.1%였고, 기업 부문은 아이코넥티브 매각 여파로 5억 크로나 적자였습니다 [사실]",
+  "위험: 경영진은 부품 비용이 올라 마진을 계속 압박할 것이라고 경고했고, 인수·매각 전 잉여현금흐름은 26% 줄어 약 49억 크로나였습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "조정 EBITA·매출·부문 이익·주가 상승 폭·부품 비용 경고는 검색 결과 요약(에릭슨 보도자료 포함)으로 확인",
+ "added": "이번 블룸버그·로이터 2건으로 네트워크 수요에 따른 3분기 이익 예상 상회와 전년 매각 차익을 뺀 조정 EBITA 증가, 주가 최대 11% 급등이 추가됐다",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "모바일 네트워크 장비 수요로 네트워크 이익 증가"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

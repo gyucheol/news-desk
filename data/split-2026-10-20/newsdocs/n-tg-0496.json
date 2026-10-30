@@ -1,0 +1,61 @@
+{
+ "id": "n-tg-0496",
+ "num": 496,
+ "key": "split-G2-178-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66663",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "레닌그라드주 330kV 보스토치나야 변전소 피격…야니노 일대 정전 지속",
+ "headline": "레닌그라드주 330kV 보스토치나야 변전소 피격…야니노 일대 정전 지속",
+ "one": "레닌그라드주 야니노의 330kV 보스토치나야 변전소가 공격을 받아 배선이 손상되고 정전이 이어지면서, 상트페테르부르크 에너지 링의 핵심 거점이 흔들렸고 당국의 복구 발표에도 주민들의 정전 호소가 계속됐다",
+ "facts": [
+  "무엇이: 레닌그라드주 야니노의 330kV 보스토치나야 변전소가 공격을 받아 배선이 손상되고 야니노 일대가 정전됐다 [사실]",
+  "영향: 이 변전소는 상트페테르부르크 에너지 링의 핵심 거점으로, 피격 뒤 정전이 이어졌다 [채널]",
+  "반응: 당국이 복구를 발표했지만 정전 호소가 이어졌다 [채널]",
+  "배경: 18일 밤 상트페테르부르크·레닌그라드주의 석유터미널·저장고와 VK 데이터센터·오존 창고가 공격받아 1명이 숨졌다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 미국 주식 인사이더 1건. 원 문서 확인 기록에서 보스토치나야 변전소 피격·배선 손상·야니노 정전을 검색 결과 요약으로 확인했고(일부는 OSINT·목격 영상 기반), 에너지 링 거점 평가와 정전 지속은 채널 전언",
+ "src": [
+  {
+   "o": "UNITED24 Media",
+   "d": "2026-10-18",
+   "u": "https://united24media.com/war-in-ukraine/drone-strike-hits-russias-vkontakte-data-center-knocking-services-offline-as-st-petersburg-faces-blackouts-23551"
+  }
+ ],
+ "items": [
+  {
+   "t": "레닌그라드주 330kV 보스토치나야 변전소 피격, 정전 지속",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-19",
+   "u": "https://t.me/insidertracking/66663"
+  }
+ ],
+ "inds": [
+  "utilities",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "elecnet",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "보스토치나야 변전소 피격으로 야니노 일대 정전"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

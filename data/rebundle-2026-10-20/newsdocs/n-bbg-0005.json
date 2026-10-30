@@ -1,0 +1,136 @@
+{
+ "check": "블룸버그 2건·텔레그램 3건(8월 19일~10월 19일)을 묶었다. 인디애나 960MW 검토는 Utility Dive·아마존 발표로, 블루 에너지 허가 신청은 회사 보도자료·World Nuclear News로, 현대건설 협약은 보도자료로, WSJ 수치는 토 비마 전재본으로 확인했고 뉴스케일·TVA PPA 관전 포인트는 채널 전언이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아마존·AEP·X-에너지는 10월 19일 인디애나 설리번카운티의 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 규모 원전을 짓는 방안을 검토한다고 밝혔고, 아마존이 개발 자금을 대고 전력을 장기 계약으로 살 계획이며 진행 여부는 2029년 말까지 정한다 [사실]",
+  "블루 에너지: 9월 16일 NRC에 텍사스 빅토리아항 사업 건설허가 신청서 1부를 냈고, GE 베르노바 가스터빈 2기로 1GW를 먼저 공급한 뒤 BWRX-300 SMR 최대 5기로 1.5GW를 더해 크루소 AI 데이터센터 단지에 2028년부터 전력을 댄다 [사실]",
+  "현대건설: 테라파워와 나트륨 원전 기본 협약을 맺고 후속 호기 최대 8기의 EPC 파트너 권한을 보장받았다고 8월 18일 발표했다 [사실]",
+  "뉴스케일: 뉴스케일·TVA 6GW SMR 사업은 완공되면 세계 최대 SMR 시설이 되며, 시장은 11월 5일 3분기 실적 발표에서 PPA 체결 여부에 주목한다 [채널]",
+  "업계 규모: WSJ에 따르면 미국에서 진행 중인 원자로 프로젝트는 22개, 핵분열 기업 VC 조달은 2020년 1억 300만 달러에서 2025년 29억 달러로 늘었다 [사실]",
+  "거품 경고: JP모건의 마이클 존슨은 시장이 받아 줄 SMR 업체를 3~6곳으로 봤고, 오클로 시가총액은 고점 300억 달러 이상에서 약 82억 달러로 줄었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미국 SMR 경쟁…아마존·AEP 960MW 검토·블루에너지 SMR 1.5GW 허가 신청·현대건설 테라파워 8기",
+ "id": "n-bbg-0005",
+ "incentive": "",
+ "inds": [
+  "uranium",
+  "power",
+  "gas"
+ ],
+ "insight": {},
+ "key": "bbg-05",
+ "nodes": [
+  "uranium/build",
+  "uranium/operators",
+  "power/gen",
+  "gas/demand"
+ ],
+ "num": 5,
+ "processed": "2026-10-20",
+ "published": "2026-09-16",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "Utility Dive",
+   "d": "2026-10-19",
+   "u": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/"
+  },
+  {
+   "o": "About Amazon",
+   "d": "2026-10-19",
+   "u": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep"
+  },
+  {
+   "o": "블루 에너지 보도자료",
+   "d": "2026-09-16",
+   "u": "https://www.blueenergy.co/news/blue-energy-submits-construction-permit-application-to-nuclear-regulatory-commission"
+  },
+  {
+   "o": "World Nuclear News",
+   "d": "2026-09-16",
+   "u": "https://www.world-nuclear-news.org/articles/blue-energy-submits-first-construction-application-to-nrc"
+  },
+  {
+   "o": "현대건설 보도자료(현대차그룹 뉴스룸)",
+   "d": "2026-08-18",
+   "u": "https://www.hyundaimotorgroup.com/ko/news/hyundai-engineering-construction-next-generation-nuclear-power"
+  },
+  {
+   "o": "월스트리트저널(토 비마 전재)",
+   "d": "2026-08-18",
+   "u": "https://www.tovima.com/wsj/inside-the-race-to-build-americas-first-nuclear-reactor-in-a-generation/amp/"
+  }
+ ],
+ "tags": [],
+ "url": "https://t.me/PipeBeom/6065",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "title": "미국 SMR 경쟁…아마존·AEP 960MW 검토·블루에너지 SMR 1.5GW 허가 신청·현대건설 테라파워 8기",
+ "one": "AI 데이터센터 전력 수요로 미국 원전 건설 경쟁이 붙으면서 WSJ는 미국 원자로 프로젝트 22개와 2025년 핵분열 스타트업 VC 조달 29억 달러를 전하면서도 JP모건이 시장이 받아 줄 SMR 업체를 3~6곳으로 봤다고 짚었고, 현대건설은 8월 테라파워와 나트륨 원전 기본 협약을 맺어 후속 최대 8기의 EPC 파트너 권한을 확보했으며, 뉴스케일·TVA의 6GW SMR 사업은 11월 5일 실적 발표 때 PPA 체결 여부가 주목되고, 블루 에너지는 9월 16일 텍사스에 가스터빈 1GW 뒤 SMR 1.5GW를 더하는 데이터센터 발전소의 NRC 건설허가를 신청했으며, 아마존·AEP·X-에너지는 10월 19일 인디애나 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 원전 건설을 검토한다고 밝혔다",
+ "basis": "partial",
+ "items": [
+  {
+   "t": "WSJ, 미국 원전 '한 세대 만의 건설 경쟁' 조명 — 원자로 프로젝트 22개·핵분열 스타트업 VC 29억 달러(2025년), 그러나 JP모건은 시장이 받아 줄 SMR 업체 3~6곳",
+   "o": "텔레그램",
+   "d": "2026-08-19",
+   "u": "https://t.me/PipeBeom/6065",
+   "s": "WSJ가 미국 원자로 프로젝트 22개와 2025년 핵분열 스타트업 VC 29억 달러를 전하며 JP모건은 살아남을 SMR 업체를 3~6곳으로 봤다고 짚었다"
+  },
+  {
+   "t": "현대건설, 테라파워와 나트륨 원전 기본 협약 — 후속 최대 8기의 EPC(설계·조달·시공) 파트너 권한 확보, 빌 게이츠와도 회동",
+   "o": "텔레그램",
+   "d": "2026-08-19",
+   "u": "https://t.me/PipeBeom/6068",
+   "s": "현대건설이 테라파워와 나트륨 원전 기본 협약을 맺고 후속 최대 8기의 EPC 파트너 권한을 확보했다"
+  },
+  {
+   "t": "뉴스케일·TVA 6GW SMR 사업, 완공 시 세계 최대 SMR 시설 — 시장은 11월 5일 실적 발표 때 전력구매계약(PPA) 체결 여부에 주목",
+   "o": "텔레그램",
+   "d": "2026-08-27",
+   "u": "https://t.me/TNBfolio/71072",
+   "s": "뉴스케일·TVA의 6GW SMR 사업이 완공되면 세계 최대 SMR 시설이 되며, 시장은 11월 5일 실적 발표 때 PPA 체결 여부에 주목했다"
+  },
+  {
+   "t": "블루 에너지, 텍사스 '가스 먼저, 원전 나중' 데이터센터 발전소 NRC 건설허가 신청 — 가스 1GW 뒤 SMR 1.5GW",
+   "o": "블룸버그",
+   "d": "2026-09-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-16/blue-energy-submits-nrc-application-for-texas-nuclear-project",
+   "s": "블루 에너지가 텍사스에 가스터빈 1GW를 먼저 돌린 뒤 SMR 1.5GW로 넘어가는 데이터센터 발전소의 NRC 건설허가를 신청했다"
+  },
+  {
+   "t": "아마존·AEP, 인디애나 960MW 원전 사업 검토",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana",
+   "s": "아마존·AEP·X-에너지가 인디애나 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 원전을 짓는 방안을 검토하고 아마존이 개발 자금과 전력 구매를 맡기로 하면서, 소형원자로 수요가 생길 전망이다"
+  }
+ ],
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "아마존·AEP 인디애나 960MW 소형원전 검토"
+  },
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "블루에너지 가스 1GW 뒤 SMR 1.5GW 데이터센터 발전소"
+  },
+  {
+   "ind": "uranium",
+   "node": "operators",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "뉴스케일·TVA 6GW SMR, 11월 PPA 체결 주목"
+  }
+ ],
+ "channel": "텔레그램"
+}

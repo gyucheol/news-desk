@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0602",
+ "num": 602,
+ "key": "split-G6-133-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/terma-euroclear-said-to-join-nordic-defense-financial-alliance",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "테르마·유로클리어, 북유럽 방산·금융 동맹 합류할 듯",
+ "headline": "테르마·유로클리어, 북유럽 방산·금융 동맹 합류할 듯",
+ "one": "블룸버그에 따르면 테르마와 유로클리어가 10월 19일 북유럽 방산·금융 동맹에 합류할 것으로 전해지면서, 방산 기업과 금융 인프라 사이의 협력이 넓어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 테르마와 유로클리어가 북유럽 방산·금융 동맹에 합류할 것으로 전해졌다(10월 19일 블룸버그) [제목]",
+  "의미: 방산 기업과 금융 인프라의 협력이 넓어지는 흐름이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 19일)이다. 원 문서 확인 기록대로 테르마 건은 제목 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "테르마·유로클리어, 북유럽 방산·금융 동맹 합류할 듯",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/terma-euroclear-said-to-join-nordic-defense-financial-alliance"
+  }
+ ],
+ "inds": [
+  "aero",
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "테르마·유로클리어 북유럽 방산·금융 동맹 합류 전망"
+  }
+ ]
+}

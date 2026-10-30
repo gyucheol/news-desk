@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0511",
+ "num": 511,
+ "key": "split-G4-105-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:13:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/uk-housing-market-showing-signs-mortgage-rates-impact-rightmove-says-2026-10-18/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라이트무브 \"영국 주택시장에 모기지 금리 상승 영향 조짐\"",
+ "headline": "라이트무브 \"영국 주택시장에 모기지 금리 상승 영향 조짐\"",
+ "one": "라이트무브가 영국 주택시장에 모기지 금리 상승의 영향이 나타나기 시작했다고 밝히면서, 미국처럼 높은 대출 금리가 영국 주택 수요도 둔화시킬 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 라이트무브가 영국 주택시장에 모기지 금리 상승의 영향이 나타나기 시작했다고 했다 [제목]",
+  "영향: 영국 주택 수요도 둔화할 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(10월 19일). 원 문서 확인 기록에서도 라이트무브 내용은 제목만 근거여서 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "라이트무브 '영국 주택시장에 모기지 금리 영향 조짐'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/uk/uk-housing-market-showing-signs-mortgage-rates-impact-rightmove-says-2026-10-18/"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "영국 주택시장에 모기지 금리 상승 영향 조짐"
+  }
+ ]
+}

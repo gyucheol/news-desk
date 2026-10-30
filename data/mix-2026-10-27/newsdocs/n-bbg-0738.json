@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0738",
+ "num": 738,
+ "key": "mix-G2-027-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T15:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+ "origTitle": "",
+ "headline": "日 FX 자동매매 서버 해킹, 해커 5,000만 달러 몸값 요구…FX사 5곳 고객 피해",
+ "src": [
+  {
+   "o": "nippon.com(지지통신)",
+   "d": "2026-10-27",
+   "u": "https://www.nippon.com/en/news/yjj2026102700409/"
+  },
+  {
+   "o": "더스타",
+   "d": "2026-10-27",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/27/japan-vows-to-address-cyber-attack-on-fx-with-urgency"
+  }
+ ],
+ "items": [
+  {
+   "t": "거래 플랫폼, 일본 해킹에 흔들려…5,000만 달러 몸값 요구",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+   "s": "일본 FX 거래에 쓰이는 플랫폼이 해킹당해 해커가 5,000만 달러를 요구하자 가타야마 재무상이 긴급 대응을 약속했다"
+  },
+  {
+   "t": "일본 FX 마진 거래 플랫폼 해킹, 해커 5,000만 달러 요구",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-27",
+   "u": "https://t.me/The_MariTimes/64020",
+   "s": "Polaristimes는 일본 FX 마진 플랫폼 해킹으로 해커가 5,000만 달러를 요구한 사건을 전하며 주식 거래도 언제든 셧다운될 수 있다고 경고했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "日 FX 자동매매 서버 해킹, 해커 5,000만 달러 몸값 요구…FX사 5곳 고객 피해",
+ "one": "일본 GMO인터넷그룹 서버가 해킹돼 FX 마진 거래 이용자 피해가 번지고 있다\n· 해커는 약 80억 엔(5,000만 달러)을 암호화폐로 요구했고 GMO는 지급을 거부했다\n· FX 업체 5곳이 고객 피해를 보고했고 가타야마 재무상은 긴급히 대응하겠다고 밝혔다\n· 피해 가능 서버는 2만 6,739대이며 GMO는 이용자 전원에 5,000엔을 보상하기로 했다",
+ "facts": [
+  "무엇이: FX 자동매매에 널리 쓰이는 GMO인터넷그룹의 오나마에닷컴 데스크톱 클라우드가 해킹돼 해커가 약 80억 엔(5,000만 달러)을 요구했고 GMO는 거부했다 [사실]",
+  "피해: FX 업체 5곳이 고객 피해를 보고했고, 피해 가능 서버는 2만 6,739대로 공시됐다 [사실]",
+  "정부: 가타야마 재무상은 추가 부정 거래 가능성을 배제할 수 없다며 긴급히 대응하겠다고 했다 [사실]",
+  "보상: GMO는 이용자 전원에 5,000엔을 지급하고 부정 거래 손실을 보전하며 대체 서비스를 6개월 무료로 제공하기로 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "5,000만 달러 요구·FX 업체 5곳 피해·가타야마 발언은 검색 결과 요약으로 확인. 별도 100만 달러 요구 보도도 있어 액수 경위는 불명확",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "FX 자동매매 서버 해킹으로 거래 서비스 차질"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

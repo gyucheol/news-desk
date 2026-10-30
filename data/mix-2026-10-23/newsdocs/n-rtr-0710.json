@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0710",
+ "num": 710,
+ "key": "mix-G1-109-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:54:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/fast-fashion-group-shein-agrees-pay-100-million-settle-us-ftc-probe-2026-10-23/",
+ "origTitle": "",
+ "headline": "셰인, 美 FTC 조사 1억 달러에 합의…2분기 이익의 44% 규모",
+ "src": [
+  {
+   "o": "Retail Dive",
+   "d": "2026",
+   "u": "https://www.retaildive.com/news/shein-us-business-ftc-investigation-tariff-costs-prices-hong-kong-ipo/826451/"
+  }
+ ],
+ "items": [
+  {
+   "t": "패스트패션 셰인, 美 FTC 조사 1억 달러에 합의",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/retail-consumer/fast-fashion-group-shein-agrees-pay-100-million-settle-us-ftc-probe-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "셰인, 美 FTC 조사 1억 달러에 합의…2분기 이익의 44% 규모",
+ "one": "패스트패션 업체 셰인이 미국 FTC 조사를 1억 달러를 내고 끝내기로 합의했다\n· 합의금은 셰인 2분기 이익의 44%에 해당하며 조사는 배송 지연 등 소비자 불만을 다뤘다\n· 셰인 주가는 EU 소포 수수료 부담에 9월 1일 상장가보다 22% 떨어진 상태다",
+ "facts": [
+  "무엇이: 셰인이 미국 FTC 조사를 1억 달러에 합의해 끝내기로 했다 [제목]",
+  "셰인 입장: FTC와 건설적인 결과에 이르렀으며 곧 세부 내용을 밝히겠다고 했다 [사실]",
+  "규모: 합의금은 2분기 이익의 44%이며, 조사 대상은 배송 지연 등 소비자 불만이다 [사실]",
+  "배경: 셰인은 7월 홍콩 상장 서류에서 조사 결과 상당한 금전 지급이 필요할 수 있다고 경고했고, 주가는 9월 1일 상장가보다 22% 떨어졌다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "합의 사실과 44%·22%는 검색 결과 요약으로 확인했으나 원 보도는 로이터 단독이며 FTC 공식 발표는 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "apparel",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "셰인, FTC 조사 1억 달러 합의로 비용 발생"
+  }
+ ]
+}

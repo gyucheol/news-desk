@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0491",
+ "num": 491,
+ "key": "split-G4-037-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/german-wholesale-prices-rise-87-september-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "독일 9월 도매물가 8.7% 상승…석유제품 48.8% 급등",
+ "headline": "독일 9월 도매물가 8.7% 상승…석유제품 48.8% 급등",
+ "one": "독일 연방통계청이 9월 도매물가가 1년 전보다 8.7% 올랐다고 발표하면서, 석유제품이 48.8% 뛰는 등 에너지발 원가 압력이 소비자물가에 이어 도매 단계까지 번진 것으로 드러났다",
+ "facts": [
+  "무엇이: 독일 연방통계청은 9월 도매물가가 1년 전보다 8.7% 올랐다고 발표했다(10월 14일) [사실]",
+  "요인: 석유제품이 48.8% 오르는 등 에너지발 원가 압력이 도매 단계로 번졌다 [사실]",
+  "같은 흐름: 독일 9월 소비자물가는 3.3%로 2023년 12월 이후 최고였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 14일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, Global Banking and Finance 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Global Banking and Finance",
+   "d": "2026-10-14",
+   "u": "https://www.globalbankingandfinance.com/german-wholesale-prices-rise-8-7-september/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 9월 도매물가 1년 전보다 8.7% 상승",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/german-wholesale-prices-rise-87-september-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "독일 9월 도매물가 전년 대비 8.7% 상승"
+  }
+ ]
+}

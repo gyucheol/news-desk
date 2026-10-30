@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0454",
+ "num": 454,
+ "key": "split-G3-156-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:11:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/nextdc-flags-earnings-risk-on-melbourne-data-center-power-delay",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "호주 넥스트DC, 멜버른 데이터센터 전력 지연에 실적 위험 경고",
+ "headline": "호주 넥스트DC, 멜버른 데이터센터 전력 지연에 실적 위험 경고",
+ "one": "호주 데이터센터 업체 넥스트DC가 멜버른 데이터센터의 전력 공급 지연에 따른 실적 위험을 알리면서, 영국에 이어 호주에서도 AI 인프라 확장이 전력 병목에 막힐 수 있다는 우려가 커지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 넥스트DC가 멜버른 데이터센터의 전력 공급 지연에 따른 실적 위험을 알렸다 [제목]",
+  "의미: 블룸버그는 이 사례가 호주 AI 인프라의 전력 병목을 드러낸다고 전했다 [제목]",
+  "배경: 같은 주 영국에서는 마이크로소프트가 계통 연결 지연을 이유로 엔스케일 러프턴 부지 계약에서 빠졌다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건. 원 문서 확인 기록에서 넥스트DC 전력 지연은 제목 기준으로만 남아 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "호주 데이터센터 전력 지연, AI 병목 드러내",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/nextdc-flags-earnings-risk-on-melbourne-data-center-power-delay"
+  }
+ ],
+ "inds": [
+  "power",
+  "realestate"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "넥스트DC 멜버른 데이터센터 전력 공급 지연"
+  }
+ ]
+}

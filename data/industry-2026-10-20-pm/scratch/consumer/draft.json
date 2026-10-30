@@ -1,0 +1,101 @@
+{
+ "summary": "",
+ "state": {
+  "retail": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/albert-heijn-online-deliveries-stay-offline-until-least-thursday-after-cyber-2026-10-19/",
+    "nid": "n-rtr-0230",
+    "t": "아홀드 델레이즈 사이버 사고로 알버트 하인 온라인 배송 재개가 빨라야 목요일로 밀려 공백이 최소 11일로 늘었고, 문을 연 매장도 물량 확보에 어려움을 겪었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/",
+    "nid": "n-rtr-0604",
+    "t": "프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격을 받아 일부 매장이 식품을 버렸고, 보험사들은 이런 물리적 손실을 대개 보상하지 않는다고 했습니다 [사실]"
+   }
+  ],
+  "food": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/retail-consumer/uk-grocery-inflation-accelerates-over-last-month-says-worldpanel-2026-10-13/",
+    "nid": "n-rtr-0524",
+    "t": "월드패널 집계로 10월 4일까지 4주간 영국 식료품 물가 상승률은 2.5%로 전달 2.3%보다 빨라졌고, 같은 기간 판매 물량은 줄었습니다 [사실]"
+   }
+  ],
+  "demand": [
+   {
+    "d": "2026-10-08",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/uk-card-defaults-rise-for-longest-period-in-17-years-boe-says",
+    "nid": "n-bbg-0502",
+    "t": "영란은행 자료에서 영국 카드 연체 증가가 17년 만에 가장 긴 기간 이어졌고, 10월 7일 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였습니다 [제목]"
+   }
+  ],
+  "leisure": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/middle-east/saudi-fii-postpones-flagship-conference-until-2027-2026-10-19/",
+    "nid": "n-tg-0357",
+    "t": "후티 공격 뒤 다시 연 리야드 공항에서 19일 예정편의 18%인 108편이 결항했고, 10월 26~29일 FII 정상회의는 2027년으로 미뤄졌습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-13",
+   "kind": "price",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/retail-consumer/uk-grocery-inflation-accelerates-over-last-month-says-worldpanel-2026-10-13/",
+   "nid": "n-rtr-0524",
+   "t": "영국 식료품 물가 상승률은 10월 4일까지 4주간 2.5%로 전달 2.3%보다 빨라졌고 판매 물량은 줄었습니다(월드패널) [사실]"
+  },
+  {
+   "d": "2026-10-13",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/kroger-plans-to-slash-37-of-corporate-jobs-in-next-three-years",
+   "nid": "n-bbg-0588",
+   "t": "크로거는 향후 3년간 본사 직원 약 8,200명 가운데 약 3,000명(약 37%)을 줄이고 절감분을 가격 인하와 매장 직원에 쓰겠다고 했습니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "d": [
+   {
+    "t": "운영 위험 쪽에서 보면, 아홀드 온라인 배송이 최소 11일 멈추고 프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격을 받는 등 유통 사이버공격이 온라인 매출과 식품 공급의 새 병목이 되고 있고, 식품 폐기 손실은 보험으로도 대개 보상받지 못합니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/business/albert-heijn-online-deliveries-stay-offline-until-least-thursday-after-cyber-2026-10-19/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/legal/litigation/french-supermarkets-cyber-insurance-unlikely-cover-food-losses-insurers-say-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "중국에서는 7개 부처가 전자상거래의 자동 가격 추종·전국 최저가 경쟁을 바로잡겠다고 해, 수요 회복이 아니라 정책으로 가격 경쟁이 누그러지는 경로가 열릴 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-10",
+      "u": "https://t.me/HANAchina/70174"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "gaps": "",
+ "note": "뉴스 16건 반영: 영국 식료품 물가 2.5% 가속·물량 감소, 아홀드 배송 11일 이상 중단과 프랑스 슈퍼마켓 약 700곳 사이버공격, 리야드 공항 결항과 FII 2027년 연기. 국면 ④ 그대로, 근거 5줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+ "searches": 0,
+ "fetches": 0
+}

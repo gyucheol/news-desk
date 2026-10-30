@@ -1,0 +1,80 @@
+{
+ "basis": "partial",
+ "check": "이번 대만 해경 발표는 검색 결과 요약으로 확인. 기존 문서의 대만 동부 순찰·사비나 암초 내용은 제목 기준 그대로",
+ "cycles": [],
+ "facts": [
+  "무엇이: 대만 해경은 중국이 민병대 선박과 해경선을 섞어 대만 주변과 서태평양에서 전장 준비를 넓히고 있다고 밝혔다 [사실]",
+  "접근: 의심 민병대 어선 민푸딩위 07902호가 8월 16일 대만 제한수역 약 2.7해리까지 접근했고, 6월 이후 대만·일본·필리핀 중첩 경제수역에서 활동이 늘었다 [사실]",
+  "대만 동부: 미 의회가 임명한 인사는 대만 동부 해역의 중국 순찰이 불안정을 키운다고 밝혔다 [제목]",
+  "남중국해: 중국 해군은 사비나 암초 인근의 미국 함정이 해양 안보를 위협했다고 주장했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "대만 주변 미중 긴장…대만 '中 민병대 선박으로 서태평양 전장 준비 확대'·사비나 암초 마찰",
+ "id": "n-rtr-0633",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "s": "미 의회가 임명한 인사가 대만 동쪽 해역의 중국 순찰이 지역을 불안정하게 만든다고 지적하면서, 대만 주변 군사 긴장이 다시 부각됐다 (제목 기준)",
+   "t": "미 의회 임명 인사 '대만 동부 중국 순찰은 불안정 요인'",
+   "u": "https://www.reuters.com/world/china/chinese-patrols-taiwans-east-are-destabilising-us-congress-appointed-official-2026-10-20/"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "s": "중국 해군이 남중국해 사비나 암초 인근의 미국 함정이 해양 안보를 위협했다고 주장하면서, 남중국해에서 미·중 마찰이 커졌다 (제목 기준)",
+   "t": "중국 해군 '사비나 암초 인근 미 함정이 해양 안보 위협'",
+   "u": "https://www.reuters.com/world/china/chinese-navy-says-us-ship-near-sabina-shoal-jeopardised-maritime-security-2026-10-20/"
+  },
+  {
+   "t": "대만 '중국, 민병대 선박으로 서태평양 전장 준비 확대'",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/china/taiwan-says-china-using-militia-boats-expand-battlefield-preparation-western-2026-10-23/",
+   "s": "대만이 중국이 민병대 어선과 해경선을 섞어 서태평양까지 전장 준비를 넓힌다고 밝히면서, 일본·필리핀 수역까지 회색지대 압박이 커졌다",
+   "d": "2026-10-23"
+  }
+ ],
+ "key": "mix-G1-036-2026-10-21",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 633,
+ "one": "대만 해경이 중국이 민병대 어선과 해경선을 섞어 서태평양까지 전장 준비를 넓히고 있다고 밝혔다\n· 의심 민병대 어선 민푸딩위 07902호는 8월 16일 대만 제한수역 약 2.7해리까지 접근했다\n· 대만은 6월 이후 대만·일본·필리핀 중첩 수역에서 활동이 늘었고 해상 봉쇄 연습으로 본다\n· 미 의회가 임명한 인사는 대만 동부의 중국 순찰이 지역을 불안정하게 한다고 밝혔다\n· 중국 해군은 사비나 암초 인근 미 함정이 해양 안보를 위협했다고 주장했다",
+ "origTitle": "",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T15:38:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "ThePrint",
+   "d": "2026-10-23",
+   "u": "https://theprint.in/world/taiwan-says-china-using-militia-boats-to-expand-battlefield-preparation-in-western-pacific/3079387/"
+  },
+  {
+   "o": "AsiaOne",
+   "d": "2026-10-23",
+   "u": "https://www.asiaone.com/asia/taiwan-says-china-using-militia-boats-expand-battlefield-preparation-western-pacific"
+  }
+ ],
+ "tags": [],
+ "title": "대만 주변 미중 긴장…대만 '中 민병대 선박으로 서태평양 전장 준비 확대'·사비나 암초 마찰",
+ "updatedAt": "2026-10-23T23:31:11+09:00",
+ "url": "https://www.reuters.com/world/china/chinese-patrols-taiwans-east-are-destabilising-us-congress-appointed-official-2026-10-20/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "中 민병대 선박 활동 확대로 대만 해상 봉쇄 우려"
+  }
+ ],
+ "added": "로이터 1건 — 中 민병대 어선의 대만 제한수역 2.7해리 접근, 서태평양 전장 준비 확대 내용이 추가됨"
+}

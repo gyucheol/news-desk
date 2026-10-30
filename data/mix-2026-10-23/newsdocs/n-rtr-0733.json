@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0733",
+ "num": 733,
+ "key": "mix-G2-092-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:14:00+09:00",
+ "url": "https://www.reuters.com/business/munich-re-raises-full-year-profit-guidance-after-stronger-than-expected-quarter-2026-10-23/",
+ "origTitle": "",
+ "headline": "뮌헨리, 3분기 순이익 17억 유로로 예상 상회…연간 이익 전망 66억 유로로 상향",
+ "src": [
+  {
+   "o": "Artemis",
+   "d": "2026-10-23",
+   "u": "https://www.artemis.bm/news/munich-re-raises-full-year-2026-profit-target-as-q3-result-well-above-consensus/"
+  },
+  {
+   "o": "Reinsurance News",
+   "d": "2026-10-23",
+   "u": "https://www.reinsurancene.ws/munich-re-raises-2026-profit-guidance-to-e6-6bn-on-strong-preliminary-q3-results/"
+  }
+ ],
+ "items": [
+  {
+   "t": "뮌헨리, 예상 웃돈 3분기에 연간 이익 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/munich-re-raises-full-year-profit-guidance-after-stronger-than-expected-quarter-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "뮌헨리, 3분기 순이익 17억 유로로 예상 상회…연간 이익 전망 66억 유로로 상향",
+ "one": "뮌헨리가 3분기 호실적에 힘입어 올해 순이익 전망을 63억 유로에서 66억 유로로 올렸다\n· 3분기 잠정 순이익은 약 17억 유로로 시장 예상 14.79억 유로를 웃돌았다\n· 재보험 대형 손실이 예상보다 적었고 재보험 투자 수익이 강해 실적을 끌어올렸다",
+ "facts": [
+  "무엇이: 뮌헨리는 23일 2026년 순이익 전망을 63억 유로에서 66억 유로로 올렸다 [사실]",
+  "3분기: 잠정 순이익은 약 17억 유로로 예상 14.79억 유로를 웃돌았고, 9개월 누적 순이익은 57억 유로다 [사실]",
+  "요인·향후: 재보험 손해보험 대형 손실이 평균 예상보다 적고 투자 수익이 강했으며, 4분기에는 대형 손실 추이에 따라 준비금을 더 쌓을 계획이고 전체 3분기 보고서는 11월 12일 나온다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Artemis·Reinsurance News·The Insurer)으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "insurance",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "뮌헨리 연간 이익 전망 66억 유로로 상향"
+  }
+ ]
+}

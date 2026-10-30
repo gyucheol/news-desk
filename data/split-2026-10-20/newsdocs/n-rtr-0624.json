@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0624",
+ "num": 624,
+ "key": "split-G6-132-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/aerospace-defense/rheinmetall-msc-jointly-acquire-romanian-shipyard-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라인메탈·MSC, 루마니아 망갈리아 조선소 1억 3,800만 유로에 공동 인수",
+ "headline": "라인메탈·MSC, 루마니아 망갈리아 조선소 1억 3,800만 유로에 공동 인수",
+ "one": "라인메탈과 MSC가 10월 19일 루마니아 망갈리아 조선소를 1억 3,800만 유로에 공동 인수하면서, 흑해 연안에 민군 겸용 함정 건조 거점을 만들고 루마니아 정부가 발주한 함정 4척 건조에 쓸 계획이다",
+ "facts": [
+  "무엇이: 라인메탈과 MSC는 루마니아 망갈리아 조선소를 1억 3,800만 유로에 공동 인수했다(10월 19일) [사실]",
+  "용도: 두 회사는 조선소를 민군 겸용으로 키우고, 루마니아 정부가 발주한 함정 4척 건조에 쓸 계획이다 [사실]",
+  "의미: 흑해 연안에 민군 겸용 함정 건조 거점이 생긴다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 19일)이다. 망갈리아 조선소 1억 3,800만 유로 인수는 Naval News 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "Naval News",
+   "d": "2026-10",
+   "u": "https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania"
+  }
+ ],
+ "items": [
+  {
+   "t": "라인메탈·MSC, 루마니아 망갈리아 조선소 공동 인수",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/aerospace-defense/rheinmetall-msc-jointly-acquire-romanian-shipyard-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "aero",
+  "industrial"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "라인메탈 루마니아 조선소 인수로 함정 건조 확대"
+  }
+ ]
+}

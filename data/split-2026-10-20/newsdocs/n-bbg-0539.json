@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0539",
+ "num": 539,
+ "key": "split-G5-038-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:42:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/western-union-moneygram-turn-to-stablecoins-as-crypto-disrupts-money-transfers",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+ "headline": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+ "one": "암호화폐가 국제 송금 시장을 흔들자 웨스턴유니온과 머니그램이 스테이블코인을 받아들이고 있어, 기존 송금사의 수수료 구조와 송금 방식이 바뀔 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 암호화폐가 송금 시장을 흔들자 웨스턴유니온·머니그램이 스테이블코인으로 돌아서고 있다 [제목]",
+  "영향: 기존 송금사의 수수료 구조가 바뀔 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 19일). 원 문서 확인 기록에서도 웨스턴유니온·머니그램 내용은 제목 기준이어서 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "웨스턴유니온·머니그램, 암호화폐 공세에 스테이블코인으로 선회",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/western-union-moneygram-turn-to-stablecoins-as-crypto-disrupts-money-transfers"
+  }
+ ],
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "웨스턴유니온·머니그램 스테이블코인 도입 선회"
+  }
+ ]
+}

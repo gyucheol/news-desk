@@ -1,0 +1,87 @@
+{
+ "basis": "verified",
+ "check": "브뤼셀 충돌·체포 수와 리에주 200명 이상 체포는 검색 결과 요약으로 확인. 100억 유로 절감 규모는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 10월 9일 브뤼셀의 전국 파업·긴축 반대 행진에 약 3만 명이 모였고, 일부가 경찰과 충돌해 미성년자 13명을 포함한 21명이 구금·체포됐습니다 [사실]",
+  "학생 시위: 프랑스어권 중등학생들은 2029년까지 교육 예산 5억 유로 절감 계획에 반대해 10월 1일부터 시위 중이며, 리에주에서는 200명 넘게 체포됐습니다 [사실]",
+  "긴축: 데베버 총리는 재정적자를 줄이려 향후 몇 년간 100억 유로를 절감하려 하고, 노조는 최고소득층 증세를 요구합니다 [채널]",
+  "기존 흐름: 연정이 예산에 합의하지 못해 데베버 총리는 13일 시정연설을 취소했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "벨기에 긴축 반대 시위 {{폭력 사태로 번져}}…예산 합의는 지연",
+ "id": "n-bbg-0243",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "벨기에 학생 교육예산 삭감 반대 시위 폭력화…약 200명 체포",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-10",
+   "u": "https://t.me/insidertracking/65857",
+   "s": "{{벨기에 고등학생}}들의 교육 예산 삭감 반대 시위가 폭력 사태로 번져 {{약 200명이 체포}}되면서, 100억 유로 절감안 협상이 압박받고 있다"
+  },
+  {
+   "t": "브뤼셀, 긴축 반대 시위가 폭력적 소요 사태로 번져",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-10",
+   "u": "https://t.me/Trillion_labs/10275",
+   "s": "{{브뤼셀}}의 긴축 반대 시위가 교육 예산 삭감·학비 인상 반발 속에 {{소요 사태}}로 번지면서, 예산 개혁의 정치적 비용이 커졌다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "벨기에 총리, 예산 교착 이유로 시정연설 취소",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/belgium-s-premier-cancels-policy-speech-citing-budget-deadlock",
+   "s": "{{데베버 총리}}가 연정의 예산 합의 실패로 13일 {{시정연설}}을 취소하면서, 벨기에 예산 합의가 10월 말이나 11월 초로 늦어질 수 있다"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "벨기에 파업으로 공공부문 일부 마비…예산 합의는 지연",
+   "u": "https://www.reuters.com/world/belgium-strike-partly-shuts-public-sector-budget-deal-delayed-2026-10-12/",
+   "s": "예산 삭감에 반대하는 {{공공부문 전국 파업}}이 {{철도·대중교통}}과 학교를 멈춰 세우면서, 시민 불편이 커지고 예산 합의도 지연됐다"
+  }
+ ],
+ "key": "mix-C066-2026-10-13",
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "num": 243,
+ "one": "{{벨기에 연정}}이 예산 합의에 실패한 가운데 교육 예산 삭감에 반대하는 {{학생 시위}}가 브뤼셀과 리에주에서 폭력 사태로 번져 200명 넘게 체포되면서, {{긴축 예산}} 합의가 더 어려워질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T18:40:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "RTBF",
+   "u": "https://www.rtbf.be/article/greve-des-services-publics-ce-lundi-12-octobre-forte-mobilisation-de-nombreux-secteurs-contre-les-economies-annoncees-11798656"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "RTBF",
+   "u": "https://rtbf.be/article/budget-federal-bart-de-wever-declare-qu-il-n-y-aura-pas-de-declaration-de-politique-generale-mardi-et-qu-il-n-acceptera-pas-un-scenario-de-douziemes-provisoires-11798596"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-09",
+   "u": "https://www.euronews.com/2026/10/09/police-and-protesters-clash-in-brussels-as-anti-austerity-rally-disrupts-city"
+  },
+  {
+   "o": "Euronews",
+   "d": "2026-10-13",
+   "u": "https://www.euronews.com/video/2026/10/13/belgium-9-minors-arrested-as-clashes-erupt-near-brussels-midi"
+  }
+ ],
+ "tags": [],
+ "title": "벨기에 긴축 반대 시위 {{폭력 사태로 번져}}…예산 합의는 지연",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/belgium-s-premier-cancels-policy-speech-citing-budget-deadlock",
+ "added": "이번 텔레그램 2건으로 교육 예산 삭감 반대 {{학생 시위의 폭력화}}와 {{약 200명 체포}}, 100억 유로 절감안에 대한 반발이 추가됐다"
+}

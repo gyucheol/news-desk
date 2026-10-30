@@ -1,0 +1,115 @@
+{
+ "id": "n-bbg-0439",
+ "num": 439,
+ "key": "split-G3-076-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T16:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/korean-chip-stocks-sink-on-chinese-rival-worry-broadcom-remarks",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "코스피 13일 7%·15일 8% 폭락…사이드카 이어 서킷브레이커 발동",
+ "headline": "코스피 13일 7%·15일 8% 폭락…사이드카 이어 서킷브레이커 발동",
+ "one": "반도체 매도와 CXMT 메모리 경쟁 우려에 코스피가 13일 7% 넘게 떨어져 사이드카가 발동된 데 이어 15일 AI·금리 우려로 삼성전자·SK하이닉스가 급락하며 8% 폭락해 서킷브레이커로 거래가 20분간 멈췄고, 6월 고점 대비 낙폭은 약 39%로 커졌다",
+ "facts": [
+  "무엇이: 코스피가 13일 반도체주 매도세에 7% 넘게 급락했고 지수 비중이 큰 삼성전자·SK하이닉스가 각각 7.7%·8.8% 떨어졌다 [사실]",
+  "13일 배경: 코스피가 장중 5.1% 떨어진 시점에 사이드카가 발동됐고 CXMT의 4F² 메모리 개발 진전이 한국 메모리 밸류에이션에 부담을 줬으며, 신한투자증권은 외국인 매물을 받을 수급이 없다면서도 추가 투매 가능성은 작다고 봤다 [채널]",
+  "15일: 삼성전자·SK하이닉스가 AI·금리 우려에 급락하며 코스피가 약 8% 떨어져 서킷브레이커로 거래가 20분간 멈췄고, 코스피는 6월 22일 사상 최고 종가 9,114.55에서 약 39% 하락했다 [사실]",
+  "수급: 외국인은 15일 코스피에서 하루 3조 7천억 원을 순매도했고, 반대매매는 14일 893억 원·15일 805억 원으로 7월 31일 이후 가장 컸으며 금융당국은 긴급회의를 열어 과도한 신용공급 자제를 주문했다 [채널]",
+  "배경: 혹 탄 브로드컴 CEO의 자본 병목·카지노 발언 뒤 세계 반도체주 매도가 번졌고, 필라델피아 반도체지수는 2008년 이후 최장인 8거래일 연속 하락했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건·로이터 1건·텔레그램 2건을 묶음(원 문서 n-tg-0136·n-tg-0294). 원 문서 확인 기록에 급락 부분은 따로 없어 기사 요약 기준이며, 13일·15일 급락과 서킷브레이커는 원 문서 출처 목록의 NBC·서울경제·코리아헤럴드 보도로 뒷받침. 반대매매 805억 원은 원 문서도 확인 못 함",
+ "src": [
+  {
+   "o": "NBC News",
+   "d": "2026-10-13",
+   "u": "https://www.nbcnews.com/world/asia/south-korea-kospi-index-sinks-semiconductor-share-sell-ai-boom-worries-rcna603143"
+  },
+  {
+   "o": "서울경제(영문)",
+   "d": "2026-10-13",
+   "u": "https://en.sedaily.com/finance/2026/10/13/kospi-plunges-6-percent-falls-below-6000-on-memory-supply"
+  },
+  {
+   "o": "코리아헤럴드",
+   "d": "2026-10-15",
+   "u": "https://www.koreaherald.com/article/10903746"
+  },
+  {
+   "o": "서울경제",
+   "d": "2026-10-15",
+   "u": "https://en.sedaily.com/finance/2026/10/15/korea-halts-trading-as-kospi-kosdaq-plunge-8-percent-on"
+  }
+ ],
+ "items": [
+  {
+   "t": "CEO의 '카지노' 경고 뒤 반도체 매도세에 한국 증시 7% 폭락",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/korean-chip-stocks-sink-on-chinese-rival-worry-broadcom-remarks",
+   "s": "반도체주 매도세가 번지면서 한국 증시가 7% 넘게 급락했고, 지수 비중이 큰 삼성전자와 SK하이닉스도 각각 7.7%, 8.8% 떨어졌다"
+  },
+  {
+   "t": "AI 열기 둔화·메모리 경쟁에 코스피 장중 5% 급락…사이드카 발동",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70334",
+   "s": "코스피가 장중 5.1% 떨어져 사이드카가 발동되고 SK하이닉스가 약 8% 하락하면서, CXMT의 4F² 메모리 개발 진전이 한국 메모리 밸류에이션에 부담을 줬다"
+  },
+  {
+   "t": "신한투자증권 '외국인 매물 받아줄 수급 없다'…추가 투매는 제한적",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-13",
+   "u": "https://t.me/w_compass/7277",
+   "s": "신한투자증권 연구원이 CXMT 보도로 2027~2028년 이익 둔화 우려가 생겼고 외국인 매물을 받을 수급이 없어 낙폭이 커졌다면서도 추가 투매 가능성은 작다고 봤다"
+  },
+  {
+   "t": "삼성·SK하이닉스 급락에 코스피 8% 하락…AI·금리 우려",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt",
+   "s": "삼성전자와 SK하이닉스가 AI와 금리 우려에 급락하면서 코스피가 8% 떨어져, 한국 증시가 반도체 쏠림의 충격을 그대로 받았다"
+  },
+  {
+   "t": "기술주 주도 매도에 한국 코스피 서킷브레이커 발동",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
+   "s": "기술주 주도 매도로 코스피에 서킷브레이커가 발동돼 거래가 20분간 멈추면서, 올해 들어 거듭된 급락에 시장 변동성이 커졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "코스피 13일 7%·15일 8% 급락"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "외국인 15일 3조 7천억 원 순매도, 반대매매 급증"
+  }
+ ],
+ "ind": "semis"
+}

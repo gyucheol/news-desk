@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0142",
+ "feed": "v5",
+ "format": "one1",
+ "num": 142,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-cahier_de_market-10898",
+ "published": "2026-10-01T13:32:00+09:00",
+ "url": "https://t.me/cahier_de_market/10898",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "마이크론 '2027·2028년 메모리 수급, 올해보다 더 빠듯'…설비투자 확대",
+ "one": "마이크론이 9월 30일 실적 발표에서 2027·2028년 메모리 수급이 2026년보다 훨씬 빠듯하고 균형 시점이 보이지 않는다고 밝히면서, 2027 회계연도 설비투자를 기존 계획보다 늘리기로 했다",
+ "headline": "마이크론 '2027·2028년 메모리 수급, 올해보다 더 빠듯'…설비투자 확대",
+ "facts": [
+  "무엇이: 마이크론 경영진은 2027·2028년 메모리·스토리지 수급이 2026년보다 훨씬 타이트하고 수급 균형 시점이 보이지 않는다고 말했습니다 [사실]",
+  "얼마나: 2027 회계연도 1분기 매출 가이던스는 615억 달러이며 상반기 설비투자는 약 250억 달러, 하반기는 더 많을 전망입니다 [사실]",
+  "공급: 2027 회계연도 출하 물량의 75% 이상이 이미 확정됐고 D램 비트 공급 증가율은 20% 초반입니다 [사실]",
+  "다음 일정: 이번 실적은 6~8월분이라 9월 수출 급증은 반영되지 않았고, 10월 SK하이닉스 실적이 주목됩니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "채널 글(마이크론 실적 코멘트)로 들어온 소식이며, Computerworld 자체 기사와 트렌드포스 뉴스(검색 결과 요약으로 확인)로 2027·2028년 수급 전망과 설비투자 확대를 확인했습니다. 채널 메모의 2027 회계연도 설비투자 550억 달러는 독립 출처로 확인하지 못해 쓰지 않았습니다.",
+ "src": [
+  {
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-01",
+   "u": "https://t.me/cahier_de_market/10898"
+  },
+  {
+   "o": "Computerworld",
+   "d": "2026-10",
+   "u": "https://www.computerworld.com/article/4229635/memory-squeeze-set-to-tighten-through-2028-micron-says-3.html"
+  },
+  {
+   "o": "트렌드포스 뉴스",
+   "d": "2026-10-06",
+   "u": "https://www.trendforce.com/news/2026/10/06/news-micron-sees-tighter-memory-supply-through-fy28-when-will-the-big-threes-new-capacity-arrive/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "카이에 de market",
+ "ind": "semis"
+}

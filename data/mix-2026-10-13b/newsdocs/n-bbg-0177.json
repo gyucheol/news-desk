@@ -1,0 +1,81 @@
+{
+ "basis": "partial",
+ "check": "트럼프 발언·부채 규모는 검색 결과 요약으로 확인. 베선트의 적자 감축안 연내 처리 발언은 미확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프가 특정 수준의 인플레이션이 약 40조 달러 국가부채를 매우 빠르게 상환하는 데 도움이 될 수 있다고 말했으나 구체 물가 수준이나 정책은 밝히지 않았다 [사실]",
+  "재무부: 베선트 장관은 중간선거에서 민주당이 상·하원 중 한 곳이라도 장악하면 적자 감축안을 연말까지 서둘러 통과시키겠다고 밝혔다 [채널]",
+  "배경: 미국 국가부채는 40조 달러를 넘었고 연간 이자 비용이 1조 달러를 웃돈다 [사실]",
+  "기존: 스와겔 CBO 국장은 금리 4~5% 전제에서 성장만으로 부채를 안정시키려면 5~6% 성장이 필요하다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "트럼프 '{{인플레가 부채 상환 도와}}'…성장만으론 어렵다는 CBO 경고 겹쳐",
+ "id": "n-bbg-0177",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "CBO 국장 '성장으로 미 부채 해결하는 방안은 통하기 어려워'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+  },
+  {
+   "t": "트럼프 '특정 수준의 인플레이션이 부채 빠르게 갚는 데 도움'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63626",
+   "s": "{{트럼프}}가 특정 수준의 인플레이션이 국가부채를 매우 빠르게 갚는 데 도움이 된다고 공개 발언하면서, 채널은 이를 {{재정 지배}}의 공개 선언으로 봤다"
+  },
+  {
+   "t": "베선트 '민주당이 한 곳이라도 장악하면 적자 감축안 연내 처리'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-10",
+   "u": "https://t.me/The_MariTimes/63638",
+   "s": "{{베선트}}가 민주당이 의회 한 곳이라도 장악하면 {{적자 감축안}}을 연말까지 서둘러 통과시키겠다고 밝혔으나, 채널은 필리버스터 탓에 실현이 어렵다고 봤다"
+  }
+ ],
+ "key": "bnd-C161-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/inflation",
+  "macro/rates"
+ ],
+ "num": 177,
+ "one": "{{CBO}}가 성장만으로 부채를 안정시키려면 5~6% 성장이 필요하다고 경고한 가운데 {{트럼프}}가 특정 수준의 인플레이션이 부채를 매우 빠르게 갚는 데 도움이 된다고 말하면서, {{재정 지배}} 우려가 국채금리 부담으로 이어질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T07:30:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/cbo-director-swagel-says-growth-estimates-for-debt-stabilisation-assume-4-5-rates-and-"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Saxo",
+   "u": "https://home.saxo/en-sg/content/articles/macro/asia-market-quick-take--9-october-2026-09102026"
+  },
+  {
+   "o": "Hokanews",
+   "d": "2026-10",
+   "u": "https://www.hokanews.com/2026/10/trump-says-inflation-could-pay-down-40.html"
+  },
+  {
+   "o": "The Financial District",
+   "d": "2026-10",
+   "u": "https://www.thefinancialdistrict.com.ph/post/trump-says-certain-levels-of-inflation-could-help-pay-down-u-s-debt"
+  }
+ ],
+ "tags": [],
+ "title": "트럼프 '{{인플레가 부채 상환 도와}}'…성장만으론 어렵다는 CBO 경고 겹쳐",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work",
+ "added": "이번 텔레그램 2건으로 트럼프의 {{인플레 통한 부채 상환}} 발언과 베선트의 {{적자 감축안 연내 처리}} 방침이 추가됐다",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

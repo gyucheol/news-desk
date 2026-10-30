@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0576",
+ "num": 576,
+ "key": "split-G5-117-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/autos-transportation/eu-debates-local-content-rules-chinese-automakers-are-already-adapting-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU 현지 조달 규정 논의…중국 완성차는 이미 적응 중",
+ "headline": "EU 현지 조달 규정 논의…중국 완성차는 이미 적응 중",
+ "one": "EU가 역내 부품 조달 규정을 논의하는 가운데 중국 완성차 업체들은 이미 규정에 맞춰 적응하고 있다고 14일 전해지면서, 현지 조달 규제로 중국차를 견제하는 효과가 제한될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: EU가 현지 조달 규정을 논의하는 가운데 중국 완성차 업체들은 이미 적응하고 있다 [제목]",
+  "관련: 국련증권은 산업가속화법의 유럽산 기준 확정을 EU·중국 무역의 핵심 변수로 꼽았다 [채널]",
+  "의미: 규제 효과가 제한될 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "EU 현지 조달 규정 논의…중국 완성차는 이미 적응 중",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/autos-transportation/eu-debates-local-content-rules-chinese-automakers-are-already-adapting-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "chinaoem",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중국 완성차, EU 현지 조달 규정에 이미 적응"
+  }
+ ]
+}

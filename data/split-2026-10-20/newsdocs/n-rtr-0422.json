@@ -1,0 +1,71 @@
+{
+ "id": "n-rtr-0422",
+ "num": 422,
+ "key": "split-G2-045-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/trump-says-zelenskiy-should-get-somebody-else-negotiate-end-war-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 \"젤렌스키는 다른 사람에게 종전 협상 맡겨야\"…교체 압박 지속",
+ "headline": "트럼프 \"젤렌스키는 다른 사람에게 종전 협상 맡겨야\"…교체 압박 지속",
+ "one": "트럼프 대통령이 10일 우크라이나 대통령 교체를 요구한 데 이어 19일 젤렌스키가 다른 사람에게 종전 협상을 맡길 때일 수 있다고 말하고 자기 말을 들었으면 우크라이나인 100만 명이 더 살았을 것이라고 하면서, 지도부 교체 압박을 이어 갔다",
+ "facts": [
+  "무엇이: 트럼프는 10월 19일 젤렌스키가 다른 사람에게 협상을 맡길 때일 수 있다고 말했고, 10일에는 우크라이나 대통령 교체를 요구한 바 있다 [사실]",
+  "주장: 트럼프는 젤렌스키에게 선거를 요구한 데 이어 협상 배제를 공개 주장하며 자기 말을 들었으면 우크라이나인 100만 명이 더 살았을 것이라고 했다 [채널]",
+  "의미: 로이터는 이를 우크라이나 지도부 교체 압박을 이어 간 것으로 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터와 미국 주식 인사이더 텔레그램(모두 10월 20일)을 묶음. '다른 협상가' 발언과 10일 대통령 교체 요구는 TRT World·SCMP 검색 결과로 확인했고, '100만 명' 발언은 채널 기준",
+ "src": [
+  {
+   "o": "TRT World",
+   "d": "2026-10-19",
+   "u": "https://www.trtworld.com/article/f3e88d74769f"
+  },
+  {
+   "o": "SCMP",
+   "d": "2026-10-20",
+   "u": "https://www.scmp.com/news/world/russia-central-asia/article/3371432/zelensky-should-get-somebody-else-negotiate-end-ukraine-war-trump-says"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 '젤렌스키는 다른 사람에게 종전 협상 맡겨야'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/trump-says-zelenskiy-should-get-somebody-else-negotiate-end-war-2026-10-19/",
+   "s": "트럼프가 젤렌스키 대신 다른 인물이 종전 협상을 맡아야 한다고 말하면서 우크라이나 지도부 교체 압박을 이어 갔다"
+  },
+  {
+   "t": "트럼프, 평화협상서 젤렌스키 배제 주장…'100만 명 더 살았을 것'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-20",
+   "u": "https://t.me/insidertracking/66733",
+   "s": "트럼프가 젤렌스키에게 선거를 요구한 데 이어 협상 배제를 공개 주장하면서 자기 말을 들었으면 우크라이나인 100만 명이 더 살았을 것이라고 반박했다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "젤렌스키 협상 배제 요구, 종전 협상 방향 불투명"
+  }
+ ]
+}

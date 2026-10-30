@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0666",
+ "num": 666,
+ "key": "mix-G1-106-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-s-cmoc-sees-earnings-soar-on-copper-rally-and-more-output",
+ "origTitle": "",
+ "headline": "中 CMOC, 구리값 랠리와 생산 증가에 실적 급증…상반기 순이익 86%↑ 이어가",
+ "src": [
+  {
+   "o": "CMOC",
+   "d": "2026-08-20",
+   "u": "https://en.cmoc.com/html/2026/News_0820/97.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 CMOC, 구리값 랠리와 생산 증가에 실적 급증",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/china-s-cmoc-sees-earnings-soar-on-copper-rally-and-more-output"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "中 CMOC, 구리값 랠리와 생산 증가에 실적 급증…상반기 순이익 86%↑ 이어가",
+ "one": "중국 광산사 CMOC가 구리값 랠리와 생산 증가에 힘입어 실적이 급증했다\n· 상반기 순이익은 161억 5,000만 위안으로 86% 늘었고 연간 구리 생산 목표는 76만~82만 톤이다 (제목 기준)",
+ "facts": [
+  "무엇이: CMOC가 구리값 랠리와 생산 증가로 실적이 급증했다 [제목]",
+  "상반기: 순이익은 161억 5,000만 위안으로 86.27% 늘었고 구리 생산은 38만 7,961톤으로 9.73% 늘었다 [사실]",
+  "목표: 2026년 구리 생산 목표는 76만~82만 톤이다 [사실]"
+ ],
+ "basis": "title",
+ "check": "검색·회사 사이트 열람에서 3분기 수치는 확인 못 함, 상반기 실적과 연간 목표만 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "CMOC 구리 생산 증가로 실적 급증"
+  },
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "구리값 랠리가 CMOC 실적 끌어올려"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-tg-0493",
+ "num": 493,
+ "key": "split-G2-175-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10762",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "우크라 드론, 상트페테르부르크 VK 데이터센터 타격",
+ "headline": "우크라 드론, 상트페테르부르크 VK 데이터센터 타격",
+ "one": "우크라이나 드론이 18일 상트페테르부르크의 VK(브콘탁테) 데이터센터를 타격하고 데이터센터 한 곳이 더 부서졌다는 전언까지 나오면서, 러시아 IT 기반시설도 정유시설과 함께 표적이 됐다",
+ "facts": [
+  "무엇이: 18일 우크라이나 드론이 상트페테르부르크의 VK(브콘탁테) 데이터센터를 타격했다 [사실]",
+  "추가 피해: 피격 순간 영상이 추가로 나왔고 데이터센터 한 곳이 더 부서졌다고 채널이 전했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "트릴리온 텔레그램 1건. 원 문서는 VK 데이터센터 피격을 사실로 확인했고 src UNITED24 Media(VK 데이터센터 드론 피격) 제목이 뒷받침함. 추가 파손은 채널 기준",
+ "src": [
+  {
+   "o": "UNITED24 Media",
+   "d": "2026-10-18",
+   "u": "https://united24media.com/war-in-ukraine/drone-strike-hits-russias-vkontakte-data-center-knocking-services-offline-as-st-petersburg-faces-blackouts-23551"
+  }
+ ],
+ "items": [
+  {
+   "t": "VK 데이터센터 피격 순간 영상…데이터센터 1곳 추가 파손",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-18",
+   "u": "https://t.me/Trillion_labs/10762"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "상트페테르부르크 VK 데이터센터 드론 피격"
+  }
+ ],
+ "channel": "트릴리온"
+}

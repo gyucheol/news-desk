@@ -1,0 +1,485 @@
+{
+ "id": "auto",
+ "summary": "자동차는 리튬·배터리 셀과 반도체·부품이 완성차 공장에서 차로 조립되고, 딜러·자동차 금융을 거쳐 소비자에게 팔린 뒤 정비·중고차로 이어지는 사슬이며, 관세·보조금·배출 규제가 어디서 무엇을 팔지를 정합니다. 2026년 10월 남는 쪽은 여전히 중국의 생산능력으로, 9월 중국 자동차 내수가 26% 줄어 6개월째 20%대 감소를 이어 가자 승용차 수출이 64% 늘고 중국 업체들이 유럽 프리미엄 시장까지 들어오고 있습니다. 배터리도 남기 시작해 탄산리튬 선물이 5월 고점의 절반으로 내렸습니다. 기존 업체는 폭스바겐이 올해 이익률 전망을 최저 1%로 낮추고 BMW·메르세데스의 중국 판매가 24.8%·31% 줄 만큼 눌렸지만, 공장을 닫기보다 중국 업체와 나눠 쓰는 쪽을 택합니다. 수요 쪽 변화는 고유가로, 유럽 9월 전기차 판매가 사상 최대였고 미국 3분기 전기차 판매도 1년 만에 가장 많았습니다.",
+ "state": {
+  "battery": [
+   {
+    "d": "2026-10-12",
+    "o": "Mining Weekly",
+    "u": "https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12",
+    "t": "광저우선물거래소 탄산리튬 주력 계약이 10월 12일 하루 11.8% 내린 톤당 10만 4,740위안으로 3월 이후 최대 낙폭을 냈고, 5월 13일 고점(20만 9,880위안)의 절반 수준이 됐습니다 [사실]"
+   },
+   {
+    "d": "2026-10-14",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70426",
+    "nid": "n-tg-0119",
+    "t": "중국 리튬배터리 수출은 1~3분기 36.4% 늘었고, 중국 밖 전기차 배터리 시장에서 CATL 점유율은 29%에서 33.7%로 오른 반면 한국 3사 합산은 37.9%에서 26.8%로 내렸습니다 [채널]"
+   }
+  ],
+  "parts": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/autos-transportation/mexico-limits-tariffs-break-established-local-carmakers-2026-10-16/",
+    "nid": "n-rtr-0259",
+    "t": "멕시코가 SKD·CKD 등 조립용 부품 수입관세를 5년간 10%에서 0%로 낮추고, 혜택을 현지 생산 시설을 갖춘 기존 완성차 11곳으로 한정해 중국 업체의 우회 진출을 막았습니다 [사실]"
+   }
+  ],
+  "oem": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/autos-transportation/european-automakers-urge-support-vw-warns-enormous-pressure-2026-10-13/",
+    "nid": "n-bbg-0112",
+    "t": "폭스바겐은 3분기 글로벌 인도량이 14.3%, 중국이 38.5% 줄었고, 포르쉐·중국·구조조정 관련 약 100억 유로 특별비용으로 2026년 이익률 전망을 4~5.5%에서 최저 1%로 낮췄습니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/autos-transportation/bmw-deliveries-fall-63-third-quarter-china-sales-slump-2026-10-13/",
+    "nid": "n-rtr-0147",
+    "t": "BMW 3분기 인도량은 중국 24.8% 급감으로 6.3% 줄어 55만 1,072대였고, 메르세데스-벤츠도 중국 31% 감소로 승용차 판매가 8% 줄어 40만 7,200대였습니다 [사실]"
+   }
+  ],
+  "chinaoem": [
+   {
+    "d": "2026-10-14",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70422",
+    "nid": "n-rtr-0199",
+    "t": "중국자동차공업협회 집계로 9월 자동차 내수 판매는 190만 4,000대로 26% 줄어 6개월 연속 20% 넘게 감소했고, 승용차 수출은 91만 9,000대로 64.2% 늘었습니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/china/volkswagen-stellantis-show-ev-confidence-with-lessons-china-2026-10-13/",
+    "nid": "n-rtr-0198",
+    "t": "필로사 스텔란티스 CEO는 남는 유럽 공장을 닫지 않고 립모터·둥펑과 생산능력을 나눠 쓰겠다고 했고, 2028년 포밀리아노에서 립모터와 약 1만 5천 유로짜리 소형 전기차를 만듭니다 [사실]"
+   }
+  ],
+  "sales": [
+   {
+    "d": "2026-10-12",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/evs-reached-60-renault-brand-car-sales-france-over-past-days-brand-ceo-2026-10-12/",
+    "nid": "n-bbg-0140",
+    "t": "고유가로 르노 브랜드의 최근 프랑스 판매에서 전기차 비중이 약 60%로 사상 최고였고, 9월 프랑스 신차 등록 중 전기차는 42%였으며 두에 공장은 3교대로 돌고 있습니다 [사실]"
+   },
+   {
+    "d": "2026-10-15",
+    "o": "텔레그램 부의 나침반",
+    "u": "https://t.me/w_compass/7332",
+    "nid": "n-tg-0306",
+    "t": "콕스 오토모티브 집계 미국 3분기 전기차 판매는 26만 2,649대로 1년 만에 가장 많았고 신차 중 비중은 약 6.4%(2분기 5.8%)였지만, 1년 전보다는 39.5% 적습니다 [채널]"
+   }
+  ],
+  "autonomy": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/googles-waymo-plans-first-canada-robotaxi-service-toronto-2028-2026-10-16/",
+    "nid": "n-rtr-0041",
+    "t": "웨이모가 토론토를 캐나다 첫 도시로 정해 2028년 로보택시 서비스를 목표로 지도 작업을 시작했지만, 온타리오주 시범 규정이 2027년 10월 끝나고 면허·보험 문제가 남았습니다 [사실]"
+   }
+  ],
+  "policy": [
+   {
+    "d": "2026-10-16",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/france-germany-agree-deal-car-emissions-uk-special-status-2026-10-16/",
+    "nid": "n-rtr-0349",
+    "t": "프랑스·독일이 2035년 신차 평균 배출을 90%만 줄이고 2030년 55% 목표를 5년에 걸쳐 맞추는 안에 합의했고, 메르츠 총리는 내연기관 퇴출은 과거 일이라고 했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-14",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-14/canada-s-doug-ford-says-trump-tariffs-on-steel-autos-may-last-permanently",
+    "nid": "n-bbg-0120",
+    "t": "더그 포드 온타리오 주지사가 미국의 철강·자동차 232조 관세가 트럼프 이후에도 이어질 수 있다고 경고했고, 트럼프는 2027년 1월부터 캐나다산 자동차·부품 관세를 50%로 올리겠다고 위협했습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-12",
+   "kind": "price",
+   "o": "Mining Weekly",
+   "u": "https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12",
+   "t": "중국 탄산리튬 선물 주력 계약은 10월 12일 11.8% 내린 톤당 10만 4,740위안으로 거의 10개월 만의 최저였고, 5월 13일 고점 20만 9,880위안의 절반 수준입니다 [사실]"
+  },
+  {
+   "d": "2026-10-15",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/",
+   "nid": "n-rtr-0353",
+   "t": "9월 세계 전기차 판매는 215만 대로 2% 줄어 6개월 연속 증가가 끊겼고, 유럽은 약 60만 대로 사상 최대였지만 북미는 44%, 중국은 18%(111만 대) 줄었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-13",
+   "kind": "capex",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/asia-pacific/hyundai-motor-group-invest-155-billion-india-through-2032-2026-10-13/",
+   "nid": "n-bbg-0302",
+   "t": "현대차그룹은 2026~2032년 인도에 155억 달러를 투자해 생산·연구개발·부품 협력사를 키우기로 했고, 인도 연간 생산능력은 140만 대를 넘습니다 [사실]"
+  },
+  {
+   "d": "2026-10-16",
+   "kind": "policy",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/france-germany-agree-deal-car-emissions-uk-special-status-2026-10-16/",
+   "nid": "n-rtr-0349",
+   "t": "프랑스·독일은 2035년 신차 CO2 감축 목표를 100%가 아닌 90%로 하고, 2030년 55% 감축을 3년이 아닌 5년에 걸쳐 달성하는 방안을 제안했습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-rtr-0258",
+   "t": "재검토 필요: 타타모터스의 이베코 인수 최종 제안(최대 약 39억 1,000만 유로)과 펜스케 오토모티브 비상장 전환은 ⑥ 공급 파괴·통합 쪽 움직임이지만, 스텔란티스가 남는 유럽 공장을 닫지 않겠다고 해 생산능력 감축은 아직 아닙니다 [유추]"
+  },
+  {
+   "nid": "n-bbg-0140",
+   "t": "재검토 필요: 고유가로 르노의 프랑스 전기차 비중이 60%에 이르고 유럽 9월 전기차 판매가 사상 최대인 것은 유럽 전기차 판매 쪽이 ⑧ 회복 초기를 가리킬 수 있다는 신호입니다. 유가가 내리면 되돌아갈 수 있습니다 [유추]"
+  },
+  {
+   "nid": "n-tg-0119",
+   "t": "재검토 필요: 탄산리튬 선물이 5월 고점의 절반으로 내리고 중국 배터리 수출이 36.4% 늘어, 배터리·소재 노드는 ② 증설에서 ③ 공급 과잉 쪽으로 옮겨 가는 신호를 보입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a": [
+   {
+    "t": "중국 내수가 6개월째 20%대로 줄자 남는 차가 수출과 유럽 프리미엄 시장으로 나가고, 기존 업체는 공장을 닫는 대신 중국 업체와 나눠 씁니다. 스텔란티스는 립모터·둥펑과 유럽 공장 능력을 공유하기로 했습니다 [귀납]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/world/china/volkswagen-stellantis-show-ev-confidence-with-lessons-china-2026-10-13/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/autos-transportation/chinese-automakers-make-tech-led-pitch-europes-premium-car-market-2026-10-16/"
+     }
+    ]
+   },
+   {
+    "t": "무역장벽이 현지 생산을 강요하는 구조로 바뀌고 있습니다. 멕시코는 부품 무관세를 현지 공장 11곳에만 주고, 남아공은 수입 키트 조립 지원을 끊으며, 캐나다는 중국산 전기차를 연 4만 9,000대 쿼터로 묶었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/autos-transportation/mexico-limits-tariffs-break-established-local-carmakers-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/africa/south-africa-stop-subsidizing-imported-vehicle-kits-pushing-automakers-build-2026-10-15/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/world/asia-pacific/geely-enters-canadian-market-plans-first-vehicle-sales-2027-2026-10-09/"
+     }
+    ]
+   }
+  ],
+  "a1": [
+   {
+    "t": "중국 업체는 유럽 공장 공유·캐나다 진출처럼 관세 안쪽에서 만드는 쪽으로, 기존 업체는 폭스바겐의 미국 트럭·SUV(스카우트 2028년 판매)처럼 보호된 시장의 고마진 차로 옮겨 갈 가능성이 높습니다 [유추]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-14",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-14/volkswagen-bets-on-trucks-suvs-to-crack-us-market-as-china-profits-slide"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-09",
+      "u": "https://www.reuters.com/world/asia-pacific/geely-enters-canadian-market-plans-first-vehicle-sales-2027-2026-10-09/"
+     }
+    ]
+   }
+  ],
+  "a2": [
+   {
+    "t": "유럽이 다시 문을 닫으면 반대로 흐를 수 있습니다. 프랑스·독일은 바이 유러피언에 합의했고, 폰데어라이엔은 하이브리드차 합의를 넘어 다른 중국 업종에도 수입 제한을 제안하겠다고 해 중국차의 유럽 진입이 늦어질 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/france-germany-agree-deal-car-emissions-uk-special-status-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/world/china/eu-propose-import-curbs-other-chinese-sectors-says-eu-chief-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "b": [
+   {
+    "t": "고유가가 수요를 전기차로 옮깁니다. 휘발유가 갤런당 4달러를 넘자 미국 3분기 전기차 판매는 1년 만에 최대였고, 유럽 9월 전기차 판매는 약 60만 대로 사상 최대였습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/"
+     },
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-15",
+      "u": "https://t.me/w_compass/7332"
+     }
+    ]
+   },
+   {
+    "t": "배터리 쪽은 공급이 남습니다. 탄산리튬 선물은 5월 고점의 절반인 톤당 약 10만 5천 위안까지 내렸고, 중국 리튬배터리 수출은 1~3분기 36.4% 늘었습니다 [사실]",
+    "src": [
+     {
+      "o": "Mining Weekly",
+      "d": "2026-10-12",
+      "u": "https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-14",
+      "u": "https://t.me/HANAchina/70426"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "배터리 원가가 내리고 수요가 살아나면 유럽 전기차 공장 가동률이 오를 가능성이 높습니다. 르노 두에 공장은 이미 3교대로 돌고 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-12",
+      "u": "https://www.reuters.com/business/evs-reached-60-renault-brand-car-sales-france-over-past-days-brand-ceo-2026-10-12/"
+     }
+    ]
+   }
+  ],
+  "b2": [
+   {
+    "t": "유가가 내려가면 전기차 수요 회복은 되돌아갈 수 있습니다. 미국 전기차 판매는 여전히 1년 전보다 39.5% 적고, 2035년 목표가 90%로 완화되면 업체가 전기차 투자를 늦출 이유도 생깁니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 부의 나침반",
+      "d": "2026-10-15",
+      "u": "https://t.me/w_compass/7332"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/france-germany-agree-deal-car-emissions-uk-special-status-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "수익 악화와 반대되는 투자도 나옵니다. 현대차그룹은 2032년까지 인도에 155억 달러를 투자하고, 도요타는 캐나다 생산을 유지하기로 했으며, 펜스케 오토모티브는 웃돈 약 8.8%로 비상장 전환에 합의했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/world/asia-pacific/hyundai-motor-group-invest-155-billion-india-through-2032-2026-10-13/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-15",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-15/toyota-commits-to-making-cars-in-canada-as-us-rivals-downsize"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/legal/transactional/penske-automotive-agrees-be-taken-private-by-penske-mitsui-2026-10-15/"
+     }
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "t": "지금은 덮을 만큼 크지 않습니다. 투자는 인도·북미처럼 커지거나 보호된 시장에 몰리고, 중국 내수 감소와 폭스바겐 이익률 전망 최저 1% 같은 과잉·이익 악화는 그대로입니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/autos-transportation/european-automakers-urge-support-vw-warns-enormous-pressure-2026-10-13/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-14",
+      "u": "https://t.me/HANAchina/70422"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "규제로 보면 중국 당국이 공급을 걸러 낼 수단이 생겼습니다. 숨은 문손잡이·접이식 화면 금지 초안은 기존 승인 모델도 2027년 7월까지 보완 자료를 내게 했고, 마에스트로 브레이크 결함에는 3개 부처 합동 조사가 시작됐습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-10",
+      "u": "https://www.reuters.com/world/asia-pacific/china-proposes-stricter-car-design-testing-rules-including-ban-fully-hidden-door-2026-10-10/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/world/asia-pacific/china-investigates-reported-brake-pedal-bracket-fracture-huawei-backed-maextro-2026-10-15/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 4,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "중국은 공급이 내수를 앞질러 9월 승용차 소매가 28% 줄고, 중국자동차공업협회 기준 자동차 내수는 6개월 연속 20% 넘게 줄었으며, 승용차 수출이 64~74% 늘어 남는 물량을 해외로 밀어내고 있습니다 [사실]",
+    "src": [
+     {
+      "o": "CnEVPost(중국승용차협회 확정치)",
+      "d": "2026-10-12",
+      "u": "https://cnevpost.com/2026/10/12/china-sept-2026-nev-retail-cpca/"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-14",
+      "u": "https://t.me/HANAchina/70422"
+     }
+    ]
+   },
+   {
+    "t": "기존 업체의 이익이 더 눌렸습니다. 폭스바겐은 약 100억 유로 특별비용으로 올해 이익률 전망을 최저 1%로 낮췄고 3분기 중국 인도가 38.5% 줄었으며, BMW·메르세데스도 중국 판매가 24.8%·31% 줄었습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/autos-transportation/european-automakers-urge-support-vw-warns-enormous-pressure-2026-10-13/"
+     },
+     {
+      "o": "The Auto Wire",
+      "d": "2026-09-25",
+      "u": "https://theautowire.com/2026/09/25/volkswagen-profit-warning-porsche-goodwill-writedown-china/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/business/autos-transportation/bmw-deliveries-fall-63-third-quarter-china-sales-slump-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "전기차 투자가 거둬지고 공장 감축이 거론되지만 실제 폐쇄는 드뭅니다. 아우디는 네카르줄름 공장 해법을 2027년 중반까지 요구했고, 스텔란티스는 남는 유럽 공장을 닫지 않고 중국 업체와 나눠 쓰겠다고 했습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-08",
+      "u": "https://www.reuters.com/world/china/audi-plant-facing-closure-needs-viable-solutions-ceo-tells-workers-2026-10-08/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/world/china/volkswagen-stellantis-show-ev-confidence-with-lessons-china-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "반대로 ESS 배터리와 로보택시에는 돈이 몰려 CATL은 상반기 이익 급증과 최대 규모 자사주 매입을, 웨이모는 주당 유료 운행 50만 건과 2028년 토론토 진출을 발표했습니다. 다만 탄산리튬 값은 5월 고점의 절반으로 내렸습니다 [사실]",
+    "src": [
+     {
+      "o": "Caixin Global",
+      "d": "2026-07-28",
+      "u": "https://www.caixinglobal.com/2026-07-28/energy-insider-catl-profit-surges-plans-record-share-buyback-102468755.html"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/googles-waymo-plans-first-canada-robotaxi-service-toronto-2028-2026-10-16/"
+     },
+     {
+      "o": "Mining Weekly",
+      "d": "2026-10-12",
+      "u": "https://www.miningweekly.com/article/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns-2026-10-12"
+     }
+    ]
+   }
+  ],
+  "next": "기존 업체가 공장 폐쇄·합병으로 생산능력을 실제로 줄이고 중국이 가격 경쟁 억제·업체 정리에 나서면 ⑤ 자본 철수를 지나 ⑥ 공급 파괴·통합으로 넘어갑니다. 반대로 중국 수출이 관세에 막혀 내수로 되돌아오면 가격 경쟁이 길어집니다 [유추]",
+  "watch": [
+   "중국 승용차 소매·수출(CPCA·CAAM 월간)",
+   "폭스바겐·스텔란티스 등 3분기 영업이익률(10월 말 발표)",
+   "유럽 공장 폐쇄·공유와 인수합병(이베코 응모율 등)",
+   "탄산리튬 값과 중국 배터리 수출",
+   "유가와 미국·유럽 전기차 판매 비중"
+  ],
+  "split": [
+   {
+    "stage": 2,
+    "label": "ESS 배터리·로보택시 투자",
+    "nodes": [
+     "battery",
+     "autonomy"
+    ]
+   },
+   {
+    "stage": 3,
+    "label": "중국 과잉·수출",
+    "nodes": [
+     "chinaoem"
+    ]
+   },
+   {
+    "stage": 4,
+    "label": "기존 업체·부품 이익 악화",
+    "nodes": [
+     "oem",
+     "parts"
+    ]
+   }
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) CATL의 상반기 가동률과 건설 중 설비는 검색 요약에서만 봤고, 포스코퓨처엠의 CATL 음극재 시험과 중국 밖 배터리 점유율(CATL 33.7%, 한국 3사 26.8%)은 텔레그램 전언으로만 확인했습니다. (2) BYD 상반기 실적은 2차 출처 요약으로만 확인했습니다. (3) 미국 232조 관세의 국가별 세율과 USMCA 검토 결과, 캐나다산 자동차 50% 관세가 실제로 2027년 1월 시행될지는 확인하지 못했습니다. (4) 피치 서브프라임 연체율은 7월에 산출 방식이 바뀌어 최신치 비교가 어렵습니다. (5) 프랑스·독일 배출 합의의 EU 의회·이사회 최종 결정, 중국의 가격 경쟁 억제(반내권) 정책 집행 상황, 도요타·GM·포드·스텔란티스의 3분기 실적(10월 말 발표), 미국 중고차 가격과 딜러 재고 일수는 확인하지 못했습니다. (6) 탄산리튬 현물·선물 값은 출처마다 날짜·수치가 조금씩 달라 Mining Weekly의 10월 12일 선물 종가만 썼고, 폭스바겐 이익률 전망 하향은 9월 18일 발표로 보도됐습니다. 이베코 응모율(10월 초 약 28.4%)은 미확인 보도입니다. (7) 데스크 뉴스(로이터·블룸버그)를 근거로 쓴 줄은 원문을 열지 않고 데스크 요약만 근거로 했습니다. 이번 업데이트의 웹 조회는 검색 2회, 열람 0회입니다.",
+ "note": "뉴스 29건 반영: 폭스바겐 이익률 전망 최저 1%·독일 고급차 중국 판매 급감, 중국 내수 6개월째 20%대 감소와 수출 급증, 고유가발 유럽 전기차 판매 사상 최대. 국면 ④ 그대로(why 근거 교체), 근거 12줄, 수치 4줄, 재검토 신호 3건, 인사이트 9칸 첫 작성, 검색 2회",
+ "applied": [
+  "n-bbg-0140",
+  "n-bbg-0257",
+  "n-bbg-0265",
+  "n-rtr-0254",
+  "n-rtr-0258",
+  "n-tg-0235",
+  "n-tg-0267",
+  "n-bbg-0302",
+  "n-bbg-0306",
+  "n-bbg-0309",
+  "n-rtr-0147",
+  "n-rtr-0198",
+  "n-bbg-0112",
+  "n-bbg-0120",
+  "n-bbg-0179",
+  "n-bbg-0334",
+  "n-bbg-0337",
+  "n-rtr-0199",
+  "n-rtr-0346",
+  "n-rtr-0347",
+  "n-tg-0119",
+  "n-tg-0306",
+  "n-bbg-0222",
+  "n-rtr-0353",
+  "n-tg-0225",
+  "n-rtr-0041",
+  "n-rtr-0259",
+  "n-rtr-0349",
+  "n-tg-0132"
+ ],
+ "searches": 2,
+ "fetches": 0
+}

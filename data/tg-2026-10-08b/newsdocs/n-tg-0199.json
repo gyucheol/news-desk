@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0199",
+ "feed": "v5",
+ "format": "one1",
+ "num": 199,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-70059",
+ "published": "2026-10-08T14:19:00+09:00",
+ "url": "https://t.me/HANAchina/70059",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "씨티 \"메타 Muse형 상시 에이전트로 CPU 시장 2030년 3,000억 달러\"",
+ "one": "씨티가 메타 Muse 같은 상시 구동 AI 에이전트가 늘면 CPU와 GPU 비율이 학습기의 1대 8에서 1대 1로 바뀐다고 보면서, 2030년 CPU 시장이 2025년 290억 달러에서 3,000억 달러로 커질 수 있다고 전망했다",
+ "headline": "씨티 \"메타 Muse형 상시 에이전트로 CPU 시장 2030년 3,000억 달러\"",
+ "facts": [
+  "무엇이: 씨티가 에이전트형 AI로 CPU 시장이 2025년 290억 달러에서 2030년 3,000억 달러로 연평균 60% 커질 것으로 추정했습니다 [사실]",
+  "왜: 상시 온라인인 에이전트는 유휴율이 높은 챗봇보다 연산을 많이 써 CPU 대 GPU 비율이 학습 1대 8, 추론 1대 4를 거쳐 1대 1 이상으로 간다고 봤습니다 [사실]",
+  "GPU: Muse 일간 이용자가 1억 명이면 엔비디아에 70억~190억 달러의 GPU 매출이 생길 수 있다고 봤습니다 [사실]",
+  "후속: 씨티는 같은 근거로 AMD 목표가를 575달러에서 800달러로 올렸습니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(월스트리트견문 전재)로 들어온 소식이며, 푸투 뉴스와 Financefeeds 등의 씨티 보고서 보도를 검색 결과 요약으로 확인했습니다. 보고서 원문은 읽지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-08",
+   "u": "https://t.me/HANAchina/70059"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-07",
+   "u": "https://news.futunn.com/en/post/1000620361/agentic-ai-reshapes-computing-power-demand-citi-cpu-market-size"
+  },
+  {
+   "o": "Financefeeds",
+   "d": "2026-10-07",
+   "u": "https://financefeeds.com/amd-price-target-citi-800-cpu-market/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략",
+ "ind": "semis"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0812",
+ "num": 812,
+ "key": "mix-G1-065-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T05:55:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/mondelez-to-acquire-undercover-snacks-to-boost-healthier-options",
+ "origTitle": "",
+ "headline": "몬델리즈, 건강 간식 브랜드 언더커버 스낵스 인수…'허용 가능한 간식' 부문 강화",
+ "src": [
+  {
+   "o": "SEC(몬델리즈 8-K 실적 발표)",
+   "d": "2026-10-29",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001103982/000162828026068233/mdlzearningsreleasecontent.htm"
+  },
+  {
+   "o": "Chartmill",
+   "d": "2026-10-29",
+   "u": "https://www.chartmill.com/news/MDLZ/Chartmill-57299-Mondelez-International-NASDAQMDLZ-Q3-Profit-Beats-as-Revenue-Falls-Slightly-Short"
+  }
+ ],
+ "items": [
+  {
+   "t": "몬델리즈, 언더커버 스낵스 인수로 건강 간식 강화",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/mondelez-to-acquire-undercover-snacks-to-boost-healthier-options"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "몬델리즈, 건강 간식 브랜드 언더커버 스낵스 인수…'허용 가능한 간식' 부문 강화",
+ "one": "몬델리즈가 건강 간식 강화를 위해 초콜릿 퀴노아 크리스프 브랜드 언더커버 스낵스를 인수하기로 했다\n· 회사는 3분기 실적 발표에서 인수 합의를 밝혔고 인수가와 마감 시점은 알려지지 않았다\n· 같은 날 나온 몬델리즈의 3분기 이익은 원가 부담 완화로 시장 예상을 웃돌았다",
+ "facts": [
+  "무엇이: 몬델리즈는 10월 29일 3분기 실적 발표에서 언더커버 스낵스 인수 합의를 밝혔다 [사실]",
+  "대상: 초콜릿·프로스팅을 입힌 퀴노아 크리스프 브랜드로, '허용 가능한 간식(permissible indulgence)' 부문을 강화하려는 거래다 [사실]",
+  "실적: 3분기 이익은 원가 부담 완화로 예상을 웃돌았고 매출은 예상에 조금 못 미쳤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "인수 합의와 대상 브랜드는 검색 결과 요약(회사 실적 발표)으로 확인. 인수가·마감 일정은 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "몬델리즈, 건강 간식 브랜드 언더커버 인수 합의"
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "basis": "partial",
+ "check": "엔젤원 이익·매출과 지오파이낸셜 매출은 검색 결과 요약으로 확인. 그로우·HDB·ICICI롬바드·HDFC생명 실적과 9월 예금 기록(3조의 단위 포함)은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 엔젤원의 9월 분기 순이익은 334.9크로르 루피로 늘었고 매출은 약 17.8% 증가한 1,426.9크로르 루피였다 [사실]",
+  "지오파이낸셜: 분기 매출은 약 1,699크로르 루피로 1년 전 1,002크로르보다 늘었지만 로이터는 분기 이익 감소를 전했다 [사실]",
+  "보험: HDFC생명은 보험료 수입 증가로, ICICI롬바드는 세제 혜택에 힘입은 자동차·건강보험 호조로 분기 이익이 늘었다 [제목]",
+  "증권·여신: 그로우는 고객 증가 속에 이익이 늘었고, HDB파이낸셜은 대출 수요 둔화에도 분기 이익이 늘었다 [제목]",
+  "예금: 인도 은행 예금이 9월 달러 예금 증가에 힘입어 사상 최대인 3조 규모를 기록했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 금융사 9월 분기 이익 대체로 증가…지오파이낸셜만 감소, 은행 예금은 사상 최대",
+ "id": "n-rtr-0217",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "인도 RBL은행 분기 순이익 약 3배, 대출 증가 덕",
+   "u": "https://www.reuters.com/world/india/indias-rbl-bank-quarterly-profit-nearly-triples-higher-loan-growth-2026-10-12/"
+  },
+  {
+   "t": "인도 증권사 그로우, 고객 증가 속 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/india/indian-brokerage-groww-posts-higher-profit-customer-rises-2026-10-14/",
+   "s": "인도 온라인 증권사 그로우가 고객 수 증가에 힘입어 이익을 늘리면서, 개인 투자자의 주식 거래 수요가 이어지고 있다 (제목 기준)"
+  },
+  {
+   "t": "인도 HDB파이낸셜, 대출 수요 둔화에도 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/india/indias-hdb-financial-services-posts-quarterly-profit-rise-loan-demand-lower-2026-10-14/",
+   "s": "HDFC은행 계열 여신사 HDB파이낸셜이 대출 수요가 줄었는데도 분기 이익을 늘리면서, 성장보다 수익성 관리가 실적을 받쳤다 (제목 기준)"
+  },
+  {
+   "t": "인도 ICICI롬바드, 세제 혜택에 자동차·건강보험 호조로 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/litigation/indias-icici-lombard-posts-higher-profit-tax-breaks-lift-motor-health-insurance-2026-10-14/",
+   "s": "손해보험사 ICICI롬바드가 세제 혜택으로 자동차·건강보험 판매가 늘면서 이익을 키워, 감세가 보험 수요를 끌어올리고 있다 (제목 기준)"
+  },
+  {
+   "t": "인도 은행 예금, 달러 예금 힘입어 9월 사상 최대 3조 기록",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/indian-bank-deposits-hit-record-3-trillion-september-boosted-by-dollar-deposits-2026-10-15/",
+   "s": "인도 은행 예금이 달러 예금 증가에 힘입어 9월 3조 규모로 사상 최대를 기록하면서, 은행의 대출 재원이 넉넉해졌다 (제목 기준)"
+  },
+  {
+   "t": "인도 증권사 엔젤원, 고객 수 증가에 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/indian-brokerage-angel-one-posts-higher-quarterly-profit-customer-numbers-climb-2026-10-15/",
+   "s": "엔젤원이 고객 수 증가로 9월 분기 순이익을 334.9크로르 루피로 늘리고 매출도 약 17.8% 키우면서, 증권 중개 수요 회복을 보여 줬다"
+  },
+  {
+   "t": "인도 HDFC생명, 보험료 수입 늘어 분기 이익 증가",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/indias-hdfc-life-posts-quarterly-profit-rise-higher-premium-income-2026-10-15/",
+   "s": "생명보험사 HDFC생명이 보험료 수입 증가에 힘입어 분기 이익을 늘리면서, 인도 생명보험 수요가 이어지고 있다 (제목 기준)"
+  },
+  {
+   "t": "릴라이언스 계열 인도 지오파이낸셜, 9월 분기 이익 감소",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/india/indias-jio-financial-posts-drop-quarterly-profit-2026-10-15/",
+   "s": "릴라이언스 계열 지오파이낸셜이 매출은 약 1,699크로르 루피로 늘었지만 분기 이익이 줄면서, 인도 금융사 가운데 드물게 부진했다"
+  }
+ ],
+ "key": "mix-C133-2026-10-13",
+ "nodes": [],
+ "num": 217,
+ "one": "인도 증권사 그로우·엔젤원이 고객 증가로, HDFC생명·ICICI롬바드가 보험료 수입과 세제 혜택으로 분기 이익을 늘리고 9월 은행 예금도 달러 예금 덕에 사상 최대를 기록하면서, RBL은행에 이어 인도 금융사 실적이 대체로 개선됐지만 지오파이낸셜은 이익이 줄었다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T23:21:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Business Standard",
+   "u": "https://www.business-standard.com/industry/banking/rbl-bank-q2fy27-results-net-profit-rises-2-7-fold-to-482-crore-126101200815_1.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Kotak Neo",
+   "u": "https://www.kotakneo.com/news/stocks/rbl-bank-q2-fy27-results-profit-income-deposits/"
+  },
+  {
+   "o": "NewsBytes",
+   "d": "2026-10-15",
+   "u": "https://www.newsbytesapp.com/news/business/angel-one-posts-strong-september-quarter-rs3349cr-profit-interim-dividend/tldr"
+  },
+  {
+   "o": "Upstox",
+   "d": "2026-10-15",
+   "u": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-wipro-nestle-india-tech-mahindra-polycab-jio-financial-hdfc-life-irfc-hdfc-amc-angel-one-others-to-declare-earnings-oct015/liveblog-201887/"
+  }
+ ],
+ "tags": [],
+ "title": "인도 금융사 9월 분기 이익 대체로 증가…지오파이낸셜만 감소, 은행 예금은 사상 최대",
+ "url": "https://www.reuters.com/world/india/indias-rbl-bank-quarterly-profit-nearly-triples-higher-loan-growth-2026-10-12/",
+ "added": "이번 로이터 7건으로 그로우·엔젤원·HDFC생명·ICICI롬바드·HDB파이낸셜의 이익 증가, 지오파이낸셜의 이익 감소, 9월 은행 예금 사상 최대 기록이 추가됐다",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 9월 은행 예금 사상 최대, 달러 예금이 견인"
+  },
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "그로우·엔젤원 고객 증가에 분기 이익 늘어"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

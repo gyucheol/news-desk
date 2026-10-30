@@ -1,0 +1,78 @@
+{
+ "id": "n-tg-0441",
+ "num": 441,
+ "key": "split-G1-197-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10873",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프, 이란 원유 수출 90% 처리 카르그섬 공격 검토 보도",
+ "headline": "트럼프, 이란 원유 수출 90% 처리 카르그섬 공격 검토 보도",
+ "one": "트럼프 대통령이 이란 원유 수출의 약 90%를 처리하는 카르그섬의 석유·군사시설 공격을 검토한다는 보도가 나오면서, 미국 봉쇄로 이미 주요 터미널이 빈 이란의 석유 수출망이 마비될 위험이 커졌다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 이란 원유 수출의 약 90%를 처리하는 카르그섬의 석유·군사시설 공격을 검토 중이라는 보도가 나왔다 [사실]",
+  "대상: 채널은 공격 검토 대상으로 저장탱크·송유관·선적시설을 꼽았다 [채널]",
+  "현황: 블룸버그는 미국 봉쇄로 이란 주요 원유 터미널이 비어 있다고 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "트릴리온 채널 글 1건. 카르그섬 공격 검토 보도는 검색 결과 요약으로 확인(원 문서에 출처별 구분이 없어 독립 출처 3곳을 함께 적음), 공격 대상 시설 세부는 채널 전언",
+ "src": [
+  {
+   "o": "Shafaq News",
+   "d": "2026-10-19",
+   "u": "https://shafaq.com/en/World/US-denies-reported-strike-on-Iranian-naval-base"
+  },
+  {
+   "o": "News.az",
+   "d": "2026-10-19",
+   "u": "https://news.az/news/iran-says-us-strike-on-konarak-naval-base-wounds-two-soldiers"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-19",
+   "u": "https://www.newsquawk.com/headlines/iranian-navy-says-that-the-us-military-attacked-the-konarak-naval-base-with-two-light-projectiles-early-this-morning-reports-al-jazeera"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 이란 원유 수출 90% 처리 카르그섬 공격 검토 보도",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-20",
+   "u": "https://t.me/Trillion_labs/10873"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "트럼프 카르그섬 공격 검토로 이란 수출 차질 우려"
+  },
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "미국 봉쇄로 이란 주요 원유 터미널 비어"
+  }
+ ],
+ "channel": "트릴리온"
+}

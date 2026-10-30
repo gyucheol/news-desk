@@ -1,0 +1,164 @@
+{
+ "asOf": "2026-10-15",
+ "note": "연준 인사 명단. 이사회 7명과 FOMC 투표·대체 위원은 연준 이사회 FOMC 페이지·이사회 구성 페이지(2026-10-15 열람) 기준. 콜린스·무살렘은 10월 뉴스에 연은 총재로 나오며 소속(보스턴·세인트루이스)은 2025년까지의 공개 정보 기준이라 2026년에는 다시 확인하지 못함. 캔자스시티 연은 총재는 확인하지 못해 넣지 않음.",
+ "src": [
+  {
+   "o": "연준 이사회 FOMC 페이지",
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+   "d": "2026-10-15"
+  },
+  {
+   "o": "연준 이사회 구성",
+   "u": "https://www.federalreserve.gov/aboutthefed/bios/board/default.htm",
+   "d": "2026-10-15"
+  }
+ ],
+ "people": [
+  {
+   "k": "Warsh",
+   "n": "케빈 워시",
+   "role": "연준 의장",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Jefferson",
+   "n": "필립 제퍼슨",
+   "role": "연준 부의장",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Bowman",
+   "n": "미셸 보우먼",
+   "role": "감독 담당 부의장",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Barr",
+   "n": "마이클 바",
+   "role": "연준 이사",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Cook",
+   "n": "리사 쿡",
+   "role": "연준 이사",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Powell",
+   "n": "제롬 파월",
+   "role": "연준 이사(전 의장)",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Waller",
+   "n": "크리스토퍼 월러",
+   "role": "연준 이사",
+   "grp": "이사회",
+   "vote": true
+  },
+  {
+   "k": "Williams",
+   "n": "존 윌리엄스",
+   "role": "뉴욕연은 총재(FOMC 부의장)",
+   "grp": "지역 연은",
+   "vote": true
+  },
+  {
+   "k": "Hammack",
+   "n": "베스 해맥",
+   "role": "클리블랜드 연은 총재",
+   "grp": "지역 연은",
+   "vote": true
+  },
+  {
+   "k": "Kashkari",
+   "n": "닐 카시카리",
+   "role": "미니애폴리스 연은 총재",
+   "grp": "지역 연은",
+   "vote": true
+  },
+  {
+   "k": "Logan",
+   "n": "로리 로건",
+   "role": "댈러스 연은 총재",
+   "grp": "지역 연은",
+   "vote": true
+  },
+  {
+   "k": "Paulson",
+   "n": "애나 폴슨",
+   "role": "필라델피아 연은 총재",
+   "grp": "지역 연은",
+   "vote": true
+  },
+  {
+   "k": "Barkin",
+   "n": "토머스 바킨",
+   "role": "리치먼드 연은 총재",
+   "grp": "지역 연은",
+   "vote": false,
+   "alt": true
+  },
+  {
+   "k": "Daly",
+   "n": "메리 데일리",
+   "role": "샌프란시스코 연은 총재",
+   "grp": "지역 연은",
+   "vote": false,
+   "alt": true
+  },
+  {
+   "k": "Goolsbee",
+   "n": "오스턴 굴스비",
+   "role": "시카고 연은 총재",
+   "grp": "지역 연은",
+   "vote": false,
+   "alt": true
+  },
+  {
+   "k": "Venable",
+   "n": "셰릴 베너블",
+   "role": "애틀랜타 연은 임시 총재",
+   "grp": "지역 연은",
+   "vote": false,
+   "alt": true
+  },
+  {
+   "k": "Collins",
+   "n": "수전 콜린스",
+   "role": "보스턴 연은 총재",
+   "grp": "지역 연은",
+   "vote": false
+  },
+  {
+   "k": "Musalem",
+   "n": "알베르토 무살렘",
+   "role": "세인트루이스 연은 총재",
+   "grp": "지역 연은",
+   "vote": false
+  }
+ ],
+ "banks": {
+  "board": "이사회",
+  "fomc": "FOMC",
+  "ny": "뉴욕연은",
+  "boston": "보스턴연은",
+  "philadelphia": "필라델피아연은",
+  "cleveland": "클리블랜드연은",
+  "richmond": "리치먼드연은",
+  "atlanta": "애틀랜타연은",
+  "chicago": "시카고연은",
+  "stlouis": "세인트루이스연은",
+  "minneapolis": "미니애폴리스연은",
+  "kansascity": "캔자스시티연은",
+  "dallas": "댈러스연은",
+  "sf": "샌프란시스코연은"
+ }
+}

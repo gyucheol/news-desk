@@ -1,0 +1,77 @@
+{
+ "basis": "partial",
+ "check": "칼라일 백서(Briefs Finance·포브스 기고)와 기술기업 채권 발행·오라클 등급·CDS(Sage Advisory·Portfolio Adviser 등 9월까지 자료, 검색 결과 요약) 문서 2건을 묶었습니다. 백서 원문과 10월 8일 기사 속 구체 가격 변동은 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: AI 관련 부채 발행이 급증하면서 투자자들이 기술기업 채권의 위험을 다시 매기고 있습니다 [제목]",
+  "규모: 알파벳·아마존·메타·마이크로소프트·오라클 5개사 채권 발행은 지난해 930억 달러에서 올해 7월까지 1,320억 달러에 이르렀습니다 [사실]",
+  "가격: S&P가 오라클 신용등급을 BBB-로 낮췄고, 아마존 250억 달러 발행 땐 기존 30년물 가산금리가 20bp 벌어졌습니다 [사실]",
+  "경고: 칼라일은 백서에서 AI 연산 설비에 필요한 사모신용 약 1조 달러가 현재 사모신용 운용자산의 절반을 넘는다고 추정했고, 젠킨스는 거래 대부분이 최상위 상대방 7~8곳에 몰려 있다고 말했습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 설비 빚 조달 급증에 기술기업 채권 약세…칼라일 '사모신용 쏠림' 경고",
+ "id": "n-bbg-0049",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1001-carlyle-ai-private-credit-concentration",
+ "nodes": [
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 49,
+ "one": "칼라일이 AI 연산 설비 구축에 사모신용 약 1조 달러가 필요할 수 있다며 대출 쏠림을 경고한 가운데, 알파벳·아마존 등 5개사 회사채 발행이 올해 7월까지 1,320억 달러로 늘고 오라클 등급이 강등되면서 기술기업 차입 비용이 오르고 있다",
+ "origTitle": "AI Buildout May Spur $1 Trillion in Private Credit, Carlyle White Paper Finds",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T07:24:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-01",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "Briefs Finance",
+   "u": "https://www.briefs.co/news/carlyle-warns-private-credit-don-t-repeat-software-s-concent/"
+  },
+  {
+   "d": "2026-10-03",
+   "o": "포브스(기고)",
+   "u": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/"
+  },
+  {
+   "d": "2026-09",
+   "o": "Sage Advisory",
+   "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+  },
+  {
+   "d": "2026",
+   "o": "Portfolio Adviser",
+   "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+  }
+ ],
+ "tags": [],
+ "title": "AI 설비 빚 조달 급증에 기술기업 채권 약세…칼라일 '사모신용 쏠림' 경고",
+ "url": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk",
+ "items": [
+  {
+   "t": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+   "o": "블룸버그",
+   "d": "2026-10-01",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

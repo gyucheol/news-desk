@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0596",
+ "num": 596,
+ "key": "split-G5-160-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/high-debt-growing-strains-put-focus-need-new-development-approaches-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "높은 부채·재정 압박에 개도국 새 개발 접근법 필요성 부각",
+ "headline": "높은 부채·재정 압박에 개도국 새 개발 접근법 필요성 부각",
+ "one": "높은 부채와 커지는 재정 압박이 겹치면서 개도국 개발 자금을 마련할 새로운 접근법이 필요하다는 논의가 부각돼, 부채가 큰 나라의 개발 재원 마련이 IMF·세계은행 연차총회의 숙제로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 18일 높은 부채와 커지는 재정 압박이 겹치면서 개도국 개발 자금을 마련하는 새로운 접근법이 필요하다는 논의가 부각됐다고 전했다 [제목]",
+  "배경: 게오르기에바 IMF 총재는 유가 100달러 안팎의 에너지 충격과 GDP 100%를 넘을 공공부채, AI 실망을 '위험 칵테일'로 꼽았다 [사실]",
+  "지원 논의: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록상 고부채 개발 접근법 기사는 제목만 근거이고, 배경의 공공부채·지원 촉구는 원 문서 사실 줄을 따랐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "높은 부채·커지는 압박에 새로운 개발 접근법 필요성 부각",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/high-debt-growing-strains-put-focus-need-new-development-approaches-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "높은 부채·재정 압박에 개도국 개발 자금 조달난"
+  }
+ ]
+}

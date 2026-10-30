@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0549",
+ "num": 549,
+ "key": "split-G5-065-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/brazil-election-what-s-at-stake-in-the-oct-25-presidential-runoff",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질 대선 10월 25일 결선, 룰라 대 플라비우 보우소나루 쟁점",
+ "headline": "브라질 대선 10월 25일 결선, 룰라 대 플라비우 보우소나루 쟁점",
+ "one": "블룸버그가 룰라 대통령과 플라비우 보우소나루가 맞붙는 10월 25일 대선 결선에 걸린 쟁점을 짚으면서, 재정 계획과 세금·국영 자산 정책을 가를 결선 결과가 브라질 정책 방향의 변수로 부각됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 25일 브라질 대선 결선에 걸린 쟁점을 짚었다 [제목]",
+  "대진: 결선은 룰라 대통령과 플라비우 보우소나루가 치르며, 보우소나루는 결선 여론조사에서 앞서 있다 [사실]",
+  "쟁점: 보우소나루의 2,000억 헤알 재정 조정 공약, 룰라 시대 세금 재검토, 석유 자산 매각 가능성이 거론됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 해설 기사 1건. 원 문서 확인 기록에 이 해설 부분이 없어 기사 요약 기준이며, 결선 날짜와 대진만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질 대선: 10월 25일 결선에 걸린 것들",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/brazil-election-what-s-at-stake-in-the-oct-25-presidential-runoff"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "10월 25일 결선이 브라질 정책 방향 가를 변수"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0515",
+ "num": 515,
+ "key": "split-G4-117-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/pound-rises-against-weaker-dollar-uk-gdp-unexpectedly-rises-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "파운드, 영국 8월 GDP 깜짝 증가에 약달러 상대로 상승",
+ "headline": "파운드, 영국 8월 GDP 깜짝 증가에 약달러 상대로 상승",
+ "one": "영국 8월 GDP가 전월보다 0.1% 늘어 수축 예상을 깨고 달러가 약세를 보이면서, 10월 15일 파운드화가 달러 대비 올랐고 영란은행 인상 논의에도 힘이 실릴 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 15일 파운드화가 영국 GDP 깜짝 증가와 약달러에 달러 대비 올랐다 [제목]",
+  "배경: 영국 8월 GDP는 전월보다 0.1% 늘어 수축 예상을 깼고 제조업 생산이 1.2% 늘며 성장을 이끌었다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 15일)이다. 파운드 움직임은 원 문서 확인 기록에 없어 기사 제목 기준이고, GDP 수치는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "파운드, 영국 GDP 깜짝 증가에 약달러 상대로 상승",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/uk/pound-rises-against-weaker-dollar-uk-gdp-unexpectedly-rises-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국 GDP 깜짝 증가에 파운드 달러 대비 상승"
+  }
+ ]
+}

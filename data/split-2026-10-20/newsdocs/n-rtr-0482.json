@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0482",
+ "num": 482,
+ "key": "split-G4-011-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/dollar-stays-near-18-month-high-mideast-conflict-inflation-data-focus-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "달러, 중동 분쟁·미국 물가 지표 주시 속 18개월 고점 부근 유지",
+ "headline": "달러, 중동 분쟁·미국 물가 지표 주시 속 18개월 고점 부근 유지",
+ "one": "달러가 중동 분쟁과 이번 주 미국 물가 지표를 주시하는 가운데 18개월 고점 부근에 머물면서, 지정학 위험과 물가 결과가 달러의 다음 방향을 정할 변수로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 달러가 10월 13일 중동 분쟁과 미국 물가 지표를 주시하는 가운데 18개월 고점 부근에 머물렀다고 로이터가 전했다 [제목]",
+  "변수: 시장은 중동 분쟁 전개와 미국 물가 지표 발표를 달러 방향의 변수로 보고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "달러, 중동 분쟁·물가 지표 주시 속 18개월 고점 부근 유지",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/dollar-stays-near-18-month-high-mideast-conflict-inflation-data-focus-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "달러, 18개월 고점 부근 유지"
+  }
+ ]
+}

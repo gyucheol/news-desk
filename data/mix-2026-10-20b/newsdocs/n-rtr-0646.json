@@ -1,0 +1,50 @@
+{
+ "id": "n-rtr-0646",
+ "num": 646,
+ "key": "mix-G1-078-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T21:41:00+09:00",
+ "url": "https://www.reuters.com/world/europe/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boycott-2026-10-20/",
+ "origTitle": "",
+ "headline": "리비아 동부 의회, 튀르키예와 해양 협정 승인…2020년 보이콧 해제",
+ "src": [],
+ "items": [
+  {
+   "t": "리비아 동부 의회, 튀르키예 해양 협정 승인·2020년 보이콧 해제",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boycott-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "리비아 동부 의회, 튀르키예와 해양 협정 승인…2020년 보이콧 해제",
+ "one": "리비아 동부 의회가 튀르키예와의 해양 협정을 승인했다고 로이터가 10월 20일 전했다\n· 동부 의회는 이번 승인과 함께 2020년부터 이어온 보이콧을 풀었다 (제목 기준)",
+ "facts": [
+  "무엇이: 리비아 동부 의회가 튀르키예와의 해양 협정을 승인했다 [제목]",
+  "보이콧: 동부 의회는 2020년 보이콧을 해제했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 우선순위가 낮아 확인하지 못함. 기사 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "리비아 동부 의회 튀르키예 해양 협정 승인으로 수급 영향 불명"
+  }
+ ]
+}

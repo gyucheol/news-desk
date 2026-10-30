@@ -1,0 +1,241 @@
+{
+ "added": "이번 블룸버그·로이터·텔레그램 5건으로 엑손의 정제마진 이익 45억 달러 증가 예고, 골드만의 경유 강세 지속 전망, 미 전략비축유 1,700만 배럴 교환 공고가 추가됐다",
+ "basis": "verified",
+ "check": "엑손 8-K 예비 수치(정제 +45억, 유가 -13억, 시점 차이 -25억 달러)와 전략비축유 1,700만 배럴 교환 공고를 검색 결과 요약으로 확인. 골드만 스트루이벤 발언과 워시의 크랙 스프레드 언급은 텔레그램 원문에만 있음",
+ "cycles": [],
+ "dupOf": "n-tg-0101",
+ "facts": [
+  "무엇이: 엑손모빌은 10월 16일 8-K 예비 공시에서 3분기 정제마진 상승이 이익을 약 45억 달러 늘렸다고 밝혔다 [사실]",
+  "상쇄: 유가 하락이 약 13억 달러, 파생상품 평가 시점 차이가 약 25억 달러 이익을 깎았고, 전체 실적은 10월 30일 나온다 [사실]",
+  "경유: 골드만삭스 스트루이벤은 호르무즈를 지나는 석유제품 물동량이 평소의 약 30%이고 러시아 경유 수출도 낮아 경유값이 오래 높을 것으로 봤고, 워시 의장도 지난 FOMC 회견에서 크랙 스프레드를 언급했다고 전했다 [채널]",
+  "비축유: 미국 에너지부는 10월 16일 전략비축유 최대 1,700만 배럴을 나중에 프리미엄을 얹어 돌려받는 교환 방식으로 내놓았고, 3월 IEA 공동 방출 때 약속한 1억 7,200만 배럴의 남은 몫이다 [사실]",
+  "한계: 앞선 프리미엄 상환 조건 공고에는 약 50만 배럴의 수요만 몰렸고, 비축유 재고는 약 2억 8,300만 배럴이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "경유 강세에 엑손 정제이익 45억 달러 증가…美 전략비축유 1,700만 배럴 교환 공고",
+ "id": "n-bbg-0092",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "IEA, 새 방출 대신 3월 약속분 남은 1억 배럴 조기 방출…경유 우선",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/eu-states-expect-oil-release-will-just-enact-prior-commitments"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 트릴리온",
+   "s": "{{독일}}이 {{G7 비축 협정 이행}}으로 {{최대 1,500만 배럴}}을 풀기로 하면서, {{경유와 난방유}}가 {{원유보다 먼저}} 시장에 나오게 됐다",
+   "t": "독일, 비상 석유 비축 최대 1,500만 배럴 방출 예정",
+   "u": "https://t.me/Trillion_labs/10232"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "s": "{{독일 정부}}가 {{G7 계획의 일환으로 석유 방출}}을 결정했지만 {{품목별 배분과 일정}}은 {{밝히지 않아}} 실제 공급 시점은 {{불확실}}하다",
+   "t": "독일, G7 계획에 따라 최대 1,500만 배럴 석유 방출",
+   "u": "https://www.reuters.com/business/energy/germany-release-up-15-million-barrels-oil-under-g7-plan-2026-10-09/"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "블룸버그",
+   "s": "{{IEA}}가 {{세계 석유 시장이 빠듯해지}}자 {{경유 추가 방출}}을 {{촉구}}하면서 {{비축 경유 공급}}이 {{더 늘어날}} 수 있다 (제목 기준)",
+   "t": "IEA, 세계 시장 경색에 경유 추가 방출 촉구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/iea-urges-more-diesel-releases-as-global-market-tightens"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "IEA 회원국 회의를 앞두고 유럽이 경유 비축분을 얼마나 빨리 풀지가 쟁점으로 떠올랐다 (제목 기준)",
+   "t": "IEA 회의 앞두고 유럽 경유 비축분 방출 속도에 관심",
+   "u": "https://www.reuters.com/business/energy/speed-europes-diesel-stock-release-focus-iea-meets-2026-10-14/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "블룸버그",
+   "s": "IEA 회원국들이 3월 약속분 가운데 남은 약 1억 배럴 방출에 합의하면서 이미 풀린 약 3억 3,000만 배럴에 공급이 더해진다",
+   "t": "IEA, 아직 풀지 않은 원유 1억 배럴 방출 합의",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/iea-agrees-to-release-of-outstanding-100-million-barrels-of-oil"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "텔레그램 트릴리온",
+   "s": "미국이 IEA 회원국들의 비상 방출량에 불만을 표하며 1억 배럴 추가 방출을 제안해 방출 확대 압력이 커졌다",
+   "t": "미국, IEA 비축유 방출량에 불만…1억 배럴 추가 방출 제안",
+   "u": "https://t.me/Trillion_labs/10611"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "일부 회원국이 약속보다 많이 풀면서 IEA는 전체 비축유 방출량이 3월 목표 4억 배럴을 넘을 것이라고 밝혔다",
+   "t": "IEA '총 비축유 방출량 4억 배럴 넘을 것'",
+   "u": "https://www.reuters.com/business/energy/iea-says-total-oil-stock-release-will-exceed-400-million-barrels-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "취리히 공항이 연료 부족에 놓이자 스위스 정부가 비축분 인출을 승인하면서 유럽 연료 공급난이 공항까지 번졌다 (제목 기준)",
+   "t": "취리히 공항 연료 부족…스위스 정부 비축분 인출 승인",
+   "u": "https://www.reuters.com/business/energy/zurich-airport-faces-fuel-shortage-swiss-government-approves-reserve-withdrawals-2026-10-15/"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "s": "IEA가 경유 2,000만 배럴 이상을 최대한 빨리 풀기로 했지만 논의된 최대 5,000만 배럴에 못 미쳐 시장의 실망도 나왔다",
+   "t": "IEA, 경유 2,000만 배럴 이상 포함해 비축유 방출 가속",
+   "u": "https://www.reuters.com/business/energy/iea-speed-up-oil-stocks-release-including-over-20-million-barrels-diesel-2026-10-15/"
+  },
+  {
+   "t": "엑손, 경유값 급등에 사상 최대 정제 이익 예고",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/exxon-signals-knockout-refining-earnings-as-diesel-prices-soar",
+   "s": "엑손모빌이 경유값 급등으로 3분기 정제마진 효과가 약 45억 달러에 이른다고 예고하면서 정제 부문 이익이 사상 최대에 이를 전망이다"
+  },
+  {
+   "t": "엑손모빌, 3분기 이익이 전 분기보다 줄어들 것이라고 예고",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/exxonmobil-signals-lower-third-quarter-earnings-2026-10-16/",
+   "s": "엑손모빌이 유가 하락과 파생상품 평가 시점 차이로 이익이 깎인다고 밝히면서 정제마진 호조에도 3분기 전체 이익은 줄어들 전망이다"
+  },
+  {
+   "t": "골드만 '원유는 내려도 경유값은 더 오래 높을 것'",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-16",
+   "u": "https://t.me/TNBfolio/71583",
+   "s": "골드만삭스가 호르무즈 제품 물동량 급감과 러시아 경유 수출 부진으로 경유값이 원유보다 오래 높을 것으로 보면서 에너지발 물가 압력이 길어질 수 있다"
+  },
+  {
+   "t": "미 전략비축유 사무소, 최대 1,700만 배럴 원유 교환 요청",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10646",
+   "s": "미국 에너지부 전략비축유 사무소가 최대 1,700만 배럴 원유 교환을 요청하면서 정유사들이 당장 쓸 수 있는 원유 공급이 늘어날 수 있다"
+  },
+  {
+   "t": "미국, 전략비축유 최대 1,700만 배럴 교환 공고",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/energy/us-solicits-exchange-up-17-million-barrels-oil-strategic-reserve-2026-10-16/",
+   "s": "미국이 IEA 공동 방출 약속의 남은 몫인 최대 1,700만 배럴을 교환 방식으로 내놓았지만 앞선 공고 수요가 적어 실제 방출량은 더 적을 수 있다"
+  }
+ ],
+ "key": "bbg-1007-iea-accelerate-march-pledges",
+ "nodes": [
+  "macro/cb",
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 92,
+ "one": "경유값 급등으로 엑손모빌의 3분기 정제마진 효과가 45억 달러에 이르고 골드만삭스는 경유값이 원유보다 오래 높을 것으로 보는 가운데, IEA의 1억 배럴 조기 방출에 이어 미국 에너지부가 전략비축유 최대 1,700만 배럴 교환을 공고해 경유 부족이 일부 누그러질 수 있다",
+ "origTitle": "EU States Expect Oil Release Will Just Enact Prior Pledges",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T06:36:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/eu-states-expect-oil-release-will-just-enact-prior-commitments"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/iea-to-meet-wednesday-to-discuss-diesel-crude-stocks-release"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "IEA 사무총장 성명",
+   "u": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "오일프라이스",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "OilPrice.com",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "UkraNews",
+   "u": "https://ukranews.com/en/news/1180338-germany-will-release-up-to-15-million-barrels-of-oil-and-petroleum-products-from-its-emergency"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "The National",
+   "u": "https://www.thenationalnews.com/business/energy/2026/10/15/iea-oil-supply-pledge-to-exceed-target-as-it-boosts-release-of-remaining-stocks/"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "OilPrice",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-16",
+   "u": "https://qz.com/exxonmobil-refining-margins-earnings-preliminary-statement-101626"
+  },
+  {
+   "o": "OilPrice",
+   "d": "2026-10-16",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html"
+  }
+ ],
+ "tags": [],
+ "title": "경유 강세에 엑손 정제이익 45억 달러 증가…美 전략비축유 1,700만 배럴 교환 공고",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/eu-states-expect-oil-release-will-just-enact-prior-commitments",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "정제마진 상승에 엑손 이익 약 45억 달러 증가"
+  },
+  {
+   "ind": "oil",
+   "node": "stocks",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "미 전략비축유 최대 1,700만 배럴 교환 공고"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "워시 의장 FOMC 회견서 크랙 스프레드 언급"
+  }
+ ],
+ "fed": [
+  {
+   "k": "Warsh",
+   "who": "케빈 워시",
+   "role": "연준 의장",
+   "kind": "관련 뉴스",
+   "stance": "중립",
+   "t": "지난 FOMC 기자회견에서 경유 크랙 스프레드를 언급했다는 전언이 나왔다",
+   "d": "2026-10-16",
+   "u": "https://t.me/TNBfolio/71583"
+  }
+ ]
+}

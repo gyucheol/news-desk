@@ -1,0 +1,219 @@
+{
+ "added": "이번 텔레그램 5건·블룸버그·로이터 각 1건으로 UAE의 9월 사상 최대 생산, 아람코의 유럽 현물 추가 제안, 걸프 수출의 전쟁 전 80~90% 회복과 누적 차질 20억 배럴이 추가됐다",
+ "basis": "verified",
+ "channel": "카이에 de market",
+ "check": "UAE 9월 생산, 걸프 수출 75% 회복, 아람코 유럽 현물 추가 제안은 검색 결과 요약으로 확인. TankerTrackers 10월 수치, Kpler 누적 차질, Vortexa 이란 수출은 확인 못 함",
+ "cycles": [],
+ "dupOf": "bbg-065",
+ "facts": [
+  "무엇이: IEA에 따르면 UAE의 9월 원유(콘덴세이트 포함) 생산은 하루 40만 배럴 늘어난 530만 배럴로 사상 최대였고, 원유만 하루 440만 배럴을 넘어 최대 능력에 가까웠다 [사실]",
+  "걸프 수출: IEA 기준 9월 걸프 원유 수출은 하루 1,390만 배럴로 전쟁 전의 75%를 넘었고 사우디가 회복을 이끌었다 [사실]",
+  "아람코: 아람코는 이번 주 트레이더들에게 10월 말~11월 중순 유럽 인도분 현물 원유를 추가로 제안했으며, 물량과 가격은 알려지지 않았다 [사실]",
+  "이란: Vortexa에 따르면 이란 해상 원유 수출은 9월 둘째 주부터 10월 5일까지 0이었고, 해상의 이란 원유 약 8,300만 배럴 중 4,300만 배럴이 호르무즈 서쪽에 묶여 있다 [채널]",
+  "차질: TankerTrackers는 10월 중동 원유 수출을 하루 1,727만 배럴(전쟁 전의 약 90%)로 집계했지만, Kpler는 중동 원유·콘덴세이트 누적 생산 차질이 20억 배럴을 넘었다고 했고 정제유 수출 회복은 더디다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "걸프 원유 수출 회복…UAE 9월 하루 530만 배럴 사상 최대, 아람코 유럽 현물 추가",
+ "id": "n-tg-0161",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 카이에 de market",
+   "s": "{{사우디}}가 국내 정유시설 공급을 줄이고 {{동서 송유관 수송량}}을 {{최대 능력의 80% 이상으로 끌어올리}}면서, {{홍해 수출 여력}}이 {{전쟁 뒤 최고에 이르}}렀다",
+   "t": "사우디 동서 송유관 수송량 능력의 80% 넘어…홍해 수출 여력 전쟁 뒤 최고",
+   "u": "https://t.me/cahier_de_market/10912"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{사우디 동서 송유관}}이 다시 {{공격받아 운영이 중단}}됐다는 보도가 나오면서, {{브렌트유}}가 {{5분 만에 약 1달러 올라}} {{102.31달러}}를 {{기록}}했다",
+   "t": "사우디 동서 송유관 펌프장 또 피격…중단 보도 뒤 '정상 가동' 엇갈려",
+   "u": "https://t.me/HANAchina/69878"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{트럼프 특사}}가 {{150억 달러 규모 호르무즈 우회 송유 사업}}을 {{추진하는 회사}}와 {{금전 관계}}를 {{유지해 온}} 것으로 알려지면서 {{이해충돌 논란}}이 {{생길}} 수 있다 (제목 기준)",
+   "t": "트럼프 특사, 150억 달러 호르무즈 우회 송유 사업 회사와 금전 관계 유지",
+   "u": "https://www.reuters.com/world/us/trump-envoy-kept-financial-ties-firm-behind-15-billion-hormuz-bypass-oil-2026-10-09/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{사우디 아람코}}가 {{송유관 능력이 80% 이상 회복}}되자 {{11월부터 유럽 정유사에 원유를 정상 공급}}하기로 하면서 {{유럽 정유사의 대체 조달 부담}}이 크게 {{줄었}}다",
+   "t": "사우디 아람코, 11월부터 유럽 고객에 원유 전량 공급 재개",
+   "u": "https://t.me/HANAchina/70163"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{사우디}}가 {{수출 회복력을 높이}}려 {{송유관 능력을 하루 1,000만 배럴로 늘리는 방안}}을 {{추진}}하면서, {{호르무즈 차질에 대한 대응력}}이 {{커질}} 수 있다",
+   "t": "사우디, 수출 회복력 높이려 송유관 능력 확대 계획",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/saudi-arabia-eyes-10-million-barrels-a-day-of-oil-pipe-capacity"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{사우디}}가 {{송유관을 통한 원유 수출 능력}}을 {{하루 1,000만 배럴로 높이는 방안}}을 {{검토}}하면서, {{호르무즈를 거치지 않는 원유 수출}}이 {{늘 수 있다}} (제목 기준)",
+   "t": "사우디, 송유관 원유 수출 능력 하루 1,000만 배럴로 확대 검토",
+   "u": "https://www.reuters.com/business/energy/saudi-arabia-eyes-raising-its-pipeline-oil-export-capacity-10-million-bpd-energy-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "{{사우디}}가 {{2~3년 안에}} {{동서 송유관 펌프장을 개선}}하고 천연가스관을 임시로 돌려 {{하루 120만 배럴부터 최대 300만 배럴}}을 {{더하는 방식}}으로 {{우회 송유 능력을 키운}}다",
+   "t": "사우디, 우회 송유 능력 하루 1,000만 배럴로 확대…가스관도 임시 전환",
+   "u": "https://t.me/HANAchina/70303"
+  },
+  {
+   "t": "美 봉쇄로 이란 해상 원유 수출 '0'…걸프 9월 수송량 전쟁 전 81%",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-14",
+   "u": "https://t.me/HANAchina/70378",
+   "s": "미국 봉쇄로 이란 해상 원유 수출이 9월 둘째 주부터 0으로 멈춘 가운데, 사우디 수출 회복에 힘입어 이란을 뺀 걸프 9월 원유 수송량은 전쟁 전의 81%를 넘었다"
+  },
+  {
+   "t": "10월 중동 원유 수출 전쟁 전 90% 회복…정제유는 더뎌",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-14",
+   "u": "https://t.me/cahier_de_market/10986",
+   "s": "TankerTrackers 집계로 10월 중동 원유 수출이 하루 1,727만 배럴로 전쟁 전의 90% 수준까지 올라왔지만, 디젤 등 정제유 수출 회복은 상대적으로 더디다"
+  },
+  {
+   "t": "美 에너지장관 '호르무즈 통과 원유 분쟁 전 80~90% 회복'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-14",
+   "u": "https://t.me/Trillion_labs/10452",
+   "s": "미 에너지장관이 호르무즈를 지나는 원유 흐름이 분쟁 전의 80~90%로 회복됐다고 밝혔지만, 채널은 호위·운임 비용이 커져 정유사 크랙마진이 압박받는다고 지적했다"
+  },
+  {
+   "t": "IEA 'UAE 9월 원유 생산 사상 최대로 급증'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/uae-oil-production-surged-to-records-in-september-iea-says",
+   "s": "UAE가 OPEC 탈퇴로 생산 상한에서 벗어나 9월 생산을 하루 530만 배럴로 늘리면서, 지상 재고는 사상 최저로 줄었지만 걸프 공급 회복을 이끌었다"
+  },
+  {
+   "t": "Kpler '중동 원유 누적 생산 차질 20억 배럴 돌파'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-15",
+   "u": "https://t.me/Trillion_labs/10530",
+   "s": "Kpler가 중동 원유·콘덴세이트 누적 생산 차질이 20억 배럴을 넘었다고 집계하면서, 수출 회복에도 전쟁으로 잃은 공급 공백이 크다는 점이 드러났다"
+  },
+  {
+   "t": "사우디 아람코, 유럽에 현물 원유 추가 제안…소식통",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/saudi-aramco-offers-extra-spot-crude-cargoes-europe-sources-say-2026-10-15/",
+   "s": "아람코가 10월 말~11월 중순 유럽 인도분 현물 원유를 트레이더들에게 추가로 제안하면서, 송유관 피격으로 줄었던 유럽 공급을 되살리고 있다"
+  },
+  {
+   "t": "걸프 원유·정유제품 수출, 최근 최고치에서 하락",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-15",
+   "u": "https://t.me/Trillion_labs/10603",
+   "s": "걸프 지역 원유와 정유제품 수출량이 최근 최고치에서 내려오면서, 이란·후티 공격이 이어지는 가운데 회복세가 유지될지 불확실해졌다"
+  }
+ ],
+ "key": "tg-cahier_de_market-10912",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 161,
+ "one": "UAE가 OPEC 탈퇴 뒤 9월 생산을 하루 530만 배럴로 사상 최대로 늘리고 아람코가 유럽에 현물 원유를 추가로 내놓으면서, 걸프 원유 수출이 전쟁 전의 75~90% 수준까지 회복돼 공급 차질이 줄고 있다",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T22:49:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 카이에 de market",
+   "u": "https://t.me/cahier_de_market/10912"
+  },
+  {
+   "d": "2026-10",
+   "o": "파이프라인 저널",
+   "u": "https://www.pipeline-journal.net/news/saudi-arabia-ramps-east-west-pipeline-flows-over-80-following-repairs-after-attacks"
+  },
+  {
+   "d": "2026-10",
+   "o": "시킹알파",
+   "u": "https://seekingalpha.com/news/4650566-saudi-east-west-pipeline-flowing-at-5_8m-bbl-day-as-middle-east-oil-exports-recover"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/69878"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Free Malaysia Today(AFP)",
+   "u": "https://www.freemalaysiatoday.com/category/world/2026/10/05/saudi-s-east-west-oil-pipeline-pumping-halted-after-new-attack"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Business Recorder(AFP)",
+   "u": "https://www.brecorder.com/news/40442740/east-west-oil-pipeline-pumping-halted-after-new-attack-saudi-energy-sector-source"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "NewsBytes",
+   "u": "https://newsbytesapp.com/news/world/saudi-arabia-aims-10-million-bpd-via-east-west-pipeline/tldr"
+  },
+  {
+   "d": "",
+   "o": "Vision2030.ai",
+   "u": "https://vision2030.ai/encyclopedia/petroline-east-west-pipeline/"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "AzerNews",
+   "u": "https://azernews.az/region/265287.html"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "Report.az",
+   "u": "https://report.az/en/other-countries/saudi-aramco-to-supply-full-oil-volumes-to-europe-customers-next-month"
+  },
+  {
+   "o": "World Oil",
+   "d": "2026-10-14",
+   "u": "https://www.worldoil.com/news/2026/10/14/uae-oil-output-hits-record-5-3-mmbpd-in-september-iea-says/"
+  },
+  {
+   "o": "Energy News",
+   "d": "2026-10-15",
+   "u": "https://energynews.pro/en/aramco-offers-traders-additional-spot-crude-cargoes-for-europe"
+  }
+ ],
+ "tags": [],
+ "title": "걸프 원유 수출 회복…UAE 9월 하루 530만 배럴 사상 최대, 아람코 유럽 현물 추가",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://t.me/cahier_de_market/10912",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "UAE 9월 하루 530만 배럴 사상 최대 생산"
+  },
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "걸프 원유 수출 전쟁 전 75~90% 수준 회복"
+  }
+ ]
+}

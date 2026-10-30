@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0712",
+ "num": 712,
+ "key": "mix-G1-037-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T02:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/ftc-states-sue-dollar-general-over-deceptive-pricing-claims",
+ "origTitle": "",
+ "headline": "FTC·20개 주, 달러제너럴 기만적 가격 표시로 제소…계산대 가격이 진열가보다 비싸",
+ "src": [
+  {
+   "o": "FTC 보도자료",
+   "d": "2026-10-26",
+   "u": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-state-partners-sue-dollar-general-charging-consumers-more-advertised-many-products"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-26",
+   "u": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "FTC·주정부, 기만적 가격 표시 혐의로 달러제너럴 제소",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/ftc-states-sue-dollar-general-over-deceptive-pricing-claims"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "FTC·20개 주, 달러제너럴 기만적 가격 표시로 제소…계산대 가격이 진열가보다 비싸",
+ "one": "미국 연방거래위원회(FTC)와 20개 주가 10월 26일 달러제너럴을 기만적 가격 표시 혐의로 제소했다\n· 2019년부터 2026년 3월까지 진열가와 계산대 가격 차이로 소비자 불만이 3만 건 가까이 쌓였다고 주장했다\n· 달러제너럴은 적극 방어하겠다고 했고 주가는 약 4% 내렸다",
+ "facts": [
+  "무엇이: FTC와 20개 주는 테네시 중부 연방법원에 달러제너럴이 계산대에서 진열·광고 가격보다 비싸게 받았다며 소송을 냈다 [사실]",
+  "규모: 2019년~2026년 3월 가격 불일치로 회사에 접수된 소비자 불만은 3만 건 가까이이며 회사는 그동안 6개 주 7건 합의로 600만 달러를 냈다 [사실]",
+  "청구·반응: 영구 금지명령과 배상·민사 벌금을 청구했고 회사는 적극 방어하겠다고 했으며 주가는 약 4% 내렸다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(FTC 보도자료·CBS·CNBC)으로 20개 주 공동 제소, 불만 약 3만 건, 주가 약 4% 하락 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "가격 표시 소송 시작으로 수급 영향은 아직 불분명"
+  }
+ ]
+}

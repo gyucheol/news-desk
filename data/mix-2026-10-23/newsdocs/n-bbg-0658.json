@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0658",
+ "num": 658,
+ "key": "mix-G1-079-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T09:53:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023",
+ "origTitle": "",
+ "headline": "싱가포르 3분기 민간 집값 1.4%↑…임대료 1.3% 올라 2023년 이후 최대 상승",
+ "src": [
+  {
+   "o": "URA",
+   "d": "2026-10-23",
+   "u": "https://www.ura.gov.sg/news/media/pr26-73/"
+  },
+  {
+   "o": "99.co",
+   "d": "2026-10-23",
+   "u": "https://www.99.co/singapore/insider/singapore-private-home-prices-rise-1-4-in-q3-2026-amid-a-quieter-new-launch-calendar/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 집값 상승…임대료 2023년 이후 최대 급등",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "싱가포르 3분기 민간 집값 1.4%↑…임대료 1.3% 올라 2023년 이후 최대 상승",
+ "one": "싱가포르 민간 주택 가격이 3분기 1.4% 오르고 임대료는 2023년 이후 가장 크게 뛰었다\n· URA 임대료 지수는 3분기 1.3% 올라 2분기 0.7%보다 빨라지며 2023년 2분기 이후 최대였다\n· 민간 임대 계약은 2만 8,423건으로 1995년 집계 이후 분기 최대였다",
+ "facts": [
+  "무엇이: URA에 따르면 3분기 민간 주택 가격지수는 1.4% 올라 2분기 0.5%보다 상승 폭이 커졌다 [사실]",
+  "임대료: 임대료 지수는 1.3% 올라 2분기 0.7%에서 가속했고, 2023년 2분기 2.8% 이후 가장 큰 상승이다 [사실]",
+  "계약: 민간 임대 계약은 2만 8,423건으로 2분기보다 25.6% 늘어 1995년 집계 이후 최대였다 [사실]",
+  "거래: 신규 주택 판매는 1998년 이후 3분기 기준 가장 부진했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "URA 3분기 통계 발표를 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "싱가포르 임대료 3분기 1.3%로 2023년 이후 최대"
+  }
+ ]
+}

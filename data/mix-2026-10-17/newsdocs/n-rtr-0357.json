@@ -1,0 +1,91 @@
+{
+ "id": "n-rtr-0357",
+ "num": 357,
+ "key": "mix-G1-038-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T07:55:00+09:00",
+ "url": "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-reach-deal-with-faa-28-pay-rise-wsj-reports-2026-10-16/",
+ "origTitle": "",
+ "headline": "FAA·관제사 노조, 2.8% 임금 인상 합의…출입 기록·근무 개편 함께 도입",
+ "src": [
+  {
+   "o": "Spokesman-Review",
+   "d": "2026-10-16",
+   "u": "https://www.spokesman.com/stories/2026/oct/16/faa-air-traffic-controllers-union-reach-agreement-/"
+  },
+  {
+   "o": "EIN Presswire",
+   "d": "2026-10-16",
+   "u": "https://www.einnews.com/pr_news/950281318/trump-s-transportation-department-air-traffic-controller-union-announce-2-8-pay-increase-deal"
+  },
+  {
+   "o": "The Aviation Hub",
+   "d": "2026-10-16",
+   "u": "https://theaviationhub.co.uk/faa-air-traffic-controllers-pay-deal/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 관제사, FAA와 2.8% 임금 인상 합의…WSJ 보도",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-reach-deal-with-faa-28-pay-rise-wsj-reports-2026-10-16/",
+   "s": "WSJ 보도로 미 관제사 노조가 FAA와 2.8% 임금 인상에 합의했다고 알려지면서, 지연됐던 의회 승인 인상분의 지급 길이 열렸다"
+  },
+  {
+   "t": "미 FAA와 관제사 노조, 임금 인상 합의에 도달",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/faa-air-traffic-controllers-union-reach-agreement-on-pay-bump",
+   "s": "FAA와 관제사 노조 NATCA가 임금 인상에 합의하면서, 출입 기록과 업무량 기반 근무표 같은 인력 개편도 함께 시행된다"
+  },
+  {
+   "t": "미 관제사, FAA 합의로 2.8% 임금 인상 받는다",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-get-28-pay-raise-under-faa-deal-2026-10-16/",
+   "s": "미 관제사들이 FAA 합의에 따라 1월로 소급된 2.8% 임금 인상을 10월 18일부터 받게 되면서, 초과근무에 시달려 온 인력의 불만이 일부 풀릴 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "FAA·관제사 노조, 2.8% 임금 인상 합의…출입 기록·근무 개편 함께 도입",
+ "one": "미 연방항공청(FAA)과 관제사 노조 NATCA가 1월로 소급한 2.8% 임금 인상에 합의하고 출입 기록·업무량 기반 근무표 등 인력 개편을 함께 도입하면서, 인력난이 심한 시설로 재배치가 이뤄지는 등 관제 인력 운영 방식이 바뀐다",
+ "facts": [
+  "무엇이: FAA와 NATCA는 10월 16일 관제사 임금을 2.8% 올리는 데 합의했고, 인상은 10월 18일 시행돼 1월 1일로 소급된다 [사실]",
+  "수치: 묶음의 로이터 주소에는 '28 pay rise'로 적혀 있지만 검색된 보도는 모두 2.8%로 전했다 [사실]",
+  "조건: 의회가 승인한 인상분 가운데 1%만 먼저 지급되고 나머지는 인력 개편을 조건으로 묶여 있었으며, 관제사는 출입 기록을 남기고 근무표는 예상 업무량에 맞춰 짠다 [사실]",
+  "배경: 많은 관제사가 의무 초과근무와 주 6일 근무를 하고 있고, 반복된 정부 셧다운의 부담을 떠안아 왔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "2.8% 인상·시행일·소급·인력 개편 조건은 검색 결과 요약으로 확인. 묶음 주소의 '28'은 소수점이 빠진 표기로 판단",
+ "added": "이번 로이터 후속 1건으로 노조 확인을 거친 2.8% 인상이 1월로 소급되고 10월 18일부터 시행된다는 점이 추가됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "미 관제사 임금 2.8% 인상 합의"
+  },
+  {
+   "ind": "aero",
+   "node": "airports",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "인력난 시설 중심 관제사 재배치"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

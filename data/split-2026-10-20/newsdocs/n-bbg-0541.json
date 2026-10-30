@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0541",
+ "num": 541,
+ "key": "split-G5-041-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:58:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "뉴질랜드중앙은행 수석이코노미스트 \"다음 금리 결정 완전히 열려 있다\"",
+ "headline": "뉴질랜드중앙은행 수석이코노미스트 \"다음 금리 결정 완전히 열려 있다\"",
+ "one": "뉴질랜드중앙은행 수석이코노미스트가 다음 금리 결정이 완전히 열려 있다고 말하면서, 10월 28일 결정을 앞두고 뉴질랜드 금리 경로의 불확실성이 커졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 뉴질랜드중앙은행 수석이코노미스트가 다음 금리 결정이 완전히 열려 있다고 말했다 [제목]",
+  "시장 전망: 이코노미스트들은 3분기 CPI 발표를 앞두고 10월 28일 기준금리 인상이 여전히 유력하다고 봤다 [사실]",
+  "영향: 뉴질랜드 금리 경로의 불확실성이 커졌다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 15일). 수석이코노미스트 발언을 확인한 기록은 원 문서에 없어 제목 기준이고, 10월 28일 인상 가능성만 원 문서 검색 결과로 확인됨",
+ "src": [],
+ "items": [
+  {
+   "t": "뉴질랜드중앙은행 수석이코노미스트 '다음 금리 결정 완전히 열려 있다'",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "다음 결정 완전히 열려 있다며 방향 제시 안 해"
+  }
+ ]
+}

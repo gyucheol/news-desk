@@ -1,0 +1,50 @@
+{
+ "basis": "verified",
+ "check": "AT&T 보도자료와 Fierce Network 등 검색 결과 요약으로 확인. 투자 금액과 두 투자자의 지분 배분은 미공개.",
+ "cycles": [],
+ "facts": [
+  "무엇이: AT&T가 GIP·CPP인베스트먼츠와 미국 도매 개방형 광통신 합작사를 세운다고 2026-10-06 발표, 2027년 상반기 거래 종결 예정 [사실]",
+  "구조: AT&T 50%, GIP와 CPP가 나머지 50%, 루멘에서 인수한 광망 자산(Forged Fiber 37)과 기존 합작사 기가파워를 합침 [사실]",
+  "자금: AT&T는 종결 시 대금을 받아 부채 축소 등에 쓸 계획이나 금액은 미공개 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AT&T, 블랙록 GIP·CPP인베스트먼츠와 광통신 합작사 설립",
+ "id": "n-rtr-0172",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "AT&T, 블랙록 GIP·CPP인베스트먼츠와 광통신 합작사 설립",
+   "u": "https://www.reuters.com/legal/transactional/att-form-fiber-joint-venture-with-blackrocks-gip-cpp-investments-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C331-2026-10-09",
+ "nodes": [],
+ "num": 172,
+ "one": "AT&T가 블랙록 산하 GIP, 캐나다 연기금 CPP인베스트먼츠와 지분 50 대 50의 도매 광통신 합작사를 세우면서, 16개 주 광케이블 구축 비용 일부를 외부 인프라 투자자와 나눠 지게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T02:35:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "AT&T",
+   "d": "2026-10-06",
+   "u": "https://about.att.com/story/2026/forged-fiber-37-gigapower-joint-venture.html"
+  },
+  {
+   "o": "Fierce Network",
+   "d": "2026-10-06",
+   "u": "https://www.fierce-network.com/broadband/att-and-2-equity-partners-create-new-fiber-broadband-joint-venture"
+  }
+ ],
+ "tags": [],
+ "title": "AT&T, 블랙록 GIP·CPP인베스트먼츠와 광통신 합작사 설립",
+ "url": "https://www.reuters.com/legal/transactional/att-form-fiber-joint-venture-with-blackrocks-gip-cpp-investments-2026-10-06/"
+}

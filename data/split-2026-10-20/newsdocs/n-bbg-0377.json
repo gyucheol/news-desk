@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0377",
+ "num": 377,
+ "key": "split-G1-089-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/houthi-attacks-on-saudi-arabia-raise-risk-of-wider-war",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디 겨냥한 치명적 공격, 미국까지 끌어들일 확전 위험",
+ "headline": "사우디 겨냥한 치명적 공격, 미국까지 끌어들일 확전 위험",
+ "one": "후티의 10일 리야드 공항 공격으로 최소 12명이 숨지자 블룸버그가 사우디를 겨냥한 치명적 공격이 미국까지 끌어들일 확전 위험을 키운다고 잇달아 짚으면서, 예멘 전쟁이 더 넓은 분쟁으로 번질 수 있다는 우려가 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 사우디를 겨냥한 치명적 공격이 미국까지 끌어들일 확전 위험을 키우고 있다고 분석했다 [제목]",
+  "계기: 후티는 10일 리야드 킹칼리드 국제공항을 공격해 최소 12명이 숨지고 300명 넘게 다쳤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사·뉴스레터 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "사우디 겨냥한 치명적 공격, 미국까지 끌어들일 확전 위험",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/houthi-attacks-on-saudi-arabia-raise-risk-of-wider-war",
+   "s": "후티의 사우디 공격이 더 넓은 전쟁으로 번질 위험을 키우면서 미국까지 분쟁에 끌려들 수 있다는 분석이 나왔다"
+  },
+  {
+   "t": "사우디 겨냥한 치명적 공격, 미국 끌어들일 확전 위험(뉴스레터)",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/deadly-attacks-on-saudi-arabia-risk-wider-war-that-draws-in-us",
+   "s": "사우디를 겨냥한 치명적 공격이 미국을 끌어들일 확전 위험을 안고 있다고 블룸버그 뉴스레터가 짚었다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "사우디 공격이 미국 끌어들일 확전 위험"
+  }
+ ]
+}

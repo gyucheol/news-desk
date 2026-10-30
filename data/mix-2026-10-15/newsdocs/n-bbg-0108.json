@@ -1,0 +1,154 @@
+{
+ "added": "이번 블룸버그·로이터 4건으로 슬로바키아의 적자 GDP 4.94% 선거해 예산 통과와 폴란드 정치 마비·즐로티 약세 논란이 추가됐다",
+ "basis": "partial",
+ "check": "슬로바키아 예산 표결·적자·지출·부채 전망은 검색 결과 요약으로 확인. 폴란드 정치 마비와 리트비니우크 위원의 즐로티 발언은 제목만 근거(검색하지 않음)",
+ "cycles": [],
+ "facts": [
+  "무엇이: 슬로바키아 의회는 10월 14일 재정적자 목표를 GDP의 4.94%로 잡은 2027년 예산을 150석 중 76표로 통과시켰다. 올해 적자 예상치는 4.37%다 [사실]",
+  "지출: 공공부문 임금을 2027년 7월부터 8.4% 올리고 에너지 가격 지원에 2억 5,000만 유로를 쓰며, EU 재정준칙을 맞추는 긴축 패키지가 없는 첫 예산이다 [사실]",
+  "부채: 예산책임위원회는 국가부채가 2025년 GDP의 61.4%에서 내년 65.9%로 늘 것으로 봤고, 야당은 헌법재판소 제소를 예고했다 [사실]",
+  "폴란드: 정치 마비가 1조 달러 규모 경제를 위협한다는 분석이 나왔고, 리트비니우크 통화정책위원은 하락 뒤에도 즐로티가 여전히 강하다고 했다 [제목]",
+  "기존: 폴란드는 10월 7일 물가 4% 속에 금리를 3.75%로 동결했고, 루마니아(6.50%)·세르비아(5.75%)도 동결했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "슬로바키아, 선거 앞 적자 GDP 4.94% 예산 통과…폴란드는 정치 마비·즐로티 약세",
+ "id": "n-bbg-0108",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{헝가리}}가 {{경제 성장 반등}}을 전망한 가운데 {{유로 도입 기대에 국채가 강세}}를 보이면서 {{헝가리의 차입 비용}}이 {{낮아질}} 수 있다 (제목 기준)",
+   "t": "헝가리, 성장 반등 전망…유로 도입 기대에 국채 강세",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/hungary-sees-economic-growth-upswing-bond-rally-on-euro-path"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{폴란드 중앙은행}}이 연료가격 상한이 물가를 누르자 {{기준금리를 3.75%로 동결}}했지만, {{9월 물가가 4%로 올라}} {{시장은 약 1%p 인상}}을 반영하고 있다",
+   "t": "폴란드, 연료가격 상한이 물가 억제하자 금리 동결",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/poland-keeps-rates-unchanged-as-fuel-price-cap-curbs-inflation"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{루마니아}}가 {{정치 불안으로 레우화가 약세}}인 가운데 금리를 EU 최고 수준인 {{6.50%}}로 {{유지}}하면서 {{가계와 기업의 높은 차입 비용}}이 {{이어진다}}",
+   "t": "루마니아, 정치 불안에 레우 약세 속 EU 최고 금리 유지 전망",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/romania-to-keep-eu-s-highest-rates-as-political-woes-weaken-leu"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{세르비아}}가 {{중대 선거를 앞두고}} 기준금리 {{5.75% 동결}}을 기록적으로 {{이어가}}면서 {{선거 전 통화정책 변화는 없게}} 됐다",
+   "t": "세르비아, 중대 선거 앞두고 기록적 금리 동결 연장",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/serbia-extends-record-rate-pause-in-run-up-to-pivotal-election"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "s": "{{글라핀스키 폴란드 중앙은행 총재}}가 {{자신의 행위에 대한 조사는 근거 없다}}고 반박하면서 {{중앙은행을 둘러싼 정치 공방}}이 {{이어질}} 수 있다 (제목 기준)",
+   "t": "폴란드 글라핀스키 총재 '본인 행위 조사는 근거 없다'",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/polish-central-bank-chief-calls-probe-into-his-conduct-baseless"
+  },
+  {
+   "t": "폴란드 정치 마비가 1조 달러 규모 경제를 위협한다",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/poland-s-political-dysfunction-threatens-1-trillion-economy",
+   "s": "폴란드 정치권의 기능 마비가 이어지면서 1조 달러 규모 폴란드 경제의 정책 결정과 성장에 위험이 되고 있다 (제목 기준)"
+  },
+  {
+   "t": "슬로바키아 의회, 피초 선거 준비 속 적자 확대 예산 지지",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/slovak-lawmakers-back-wider-deficit-as-fico-readies-for-election",
+   "s": "슬로바키아 의회가 피초 총리의 선거 준비 속에 재정적자를 GDP의 4.94%로 늘린 예산을 지지하면서 국가부채 증가 우려가 커졌다"
+  },
+  {
+   "t": "슬로바키아 의회, 적자 늘린 2027년 선거해 정부 예산안 승인",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/slovak-lawmakers-approve-governments-2027-election-year-budget-widening-deficit-2026-10-14/",
+   "s": "슬로바키아 의회가 공공부문 임금 8.4% 인상을 담은 2027년 예산을 76표로 승인해, 긴축 없이 선거해 지출을 늘리게 됐다"
+  },
+  {
+   "t": "폴란드 통화위원 리트비니우크 '하락 뒤에도 즐로티는 여전히 강하다'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/zloty-is-still-strong-after-slide-polish-mpc-s-litwiniuk-says",
+   "s": "리트비니우크 폴란드 통화정책위원이 최근 하락에도 즐로티가 여전히 강하다고 말해, 환율 약세를 크게 문제 삼지 않는 뜻을 보였다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C025-2026-10-09",
+ "nodes": [
+  "macro/cb",
+  "macro/fiscal",
+  "macro/fx",
+  "macro/rates"
+ ],
+ "num": 108,
+ "one": "슬로바키아 의회가 선거를 앞두고 재정적자를 GDP의 4.94%로 늘린 2027년 예산을 통과시키고 폴란드는 정치 마비와 즐로티 약세 논란에 휩싸이면서, 금리를 동결해 온 중동부 유럽의 재정·통화 부담이 커지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-14T21:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Poland Insight",
+   "u": "https://polandinsight.com/poland-interest-rates-375-investors-price-in-hikes-19771/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Central Banking",
+   "u": "https://www.centralbanking.com/central-banks/monetary-policy/7976610/national-bank-of-romania-holds-rates-amid-political-instability"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Briefs",
+   "u": "https://www.briefs.co/news/serbia-keeps-key-rate-steady-for-25th-straight-month-ahead-o/"
+  },
+  {
+   "o": "TASR",
+   "d": "2026-10-14",
+   "u": "https://newsnow.tasr.sk/parliament-passes-next-years-budget-with-deficit-at-4-94-of-gdp/"
+  },
+  {
+   "o": "STVR Radio Slovakia International",
+   "d": "2026-10-14",
+   "u": "https://enrsi.stvr.sk/articles/news/464604/parliament-approves-2027-budget"
+  },
+  {
+   "o": "신화통신",
+   "d": "2026-10-14",
+   "u": "https://english.news.cn/20261014/e95ec7e5e39343e791c43384e241072d/c.html"
+  }
+ ],
+ "tags": [],
+ "title": "슬로바키아, 선거 앞 적자 GDP 4.94% 예산 통과…폴란드는 정치 마비·즐로티 약세",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/hungary-sees-economic-growth-upswing-bond-rally-on-euro-path",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "슬로바키아 적자 GDP 4.94%로 늘린 선거해 예산 통과"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "폴란드 즐로티 하락, 통화위원은 여전히 강하다고 평가"
+  }
+ ]
+}

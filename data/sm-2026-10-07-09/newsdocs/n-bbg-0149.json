@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0149",
+ "num": 149,
+ "key": "bnd-C116-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T21:08:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/putin-ramped-up-2026-war-spending-to-record-after-talks-stalled",
+ "origTitle": "",
+ "headline": "러시아 올해 전비 사상 최대 2천억 달러…협상 결렬 후 600억 달러 추가",
+ "src": [
+  {
+   "o": "ThePrint",
+   "d": "2026-10-07",
+   "u": "https://theprint.in/world/200-billion-russias-2026-spending-on-ukraine-war-likely-to-be-40-higher-than-initial-estimate/3064308/"
+  },
+  {
+   "o": "SIPRI",
+   "d": "2026",
+   "u": "https://www.sipri.org/publications/2026/sipri-insights-peace-and-security/budget-fifth-year-war-military-spending-russias-budget-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "푸틴, 올해 전쟁에 사상 최대 2천억 달러 지출",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/putin-ramped-up-2026-war-spending-to-record-after-talks-stalled"
+  },
+  {
+   "t": "러시아 재벌, 9억 달러 매각 대금 일부 국방에 기부 약속",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/russian-tycoon-pledges-part-of-900-million-sale-for-defense"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "러시아 올해 전비 사상 최대 2천억 달러…협상 결렬 후 600억 달러 추가",
+ "one": "푸틴 대통령이 미국과의 협상이 성과 없을 것으로 보고 600억 달러를 추가로 쓰도록 지시해 올해 전쟁 관련 지출이 원래 계획보다 40% 많은 약 2천억 달러로 늘면서, 러시아 재정적자가 7조 루블을 넘고 국내 차입과 금 매각이 늘고 있다",
+ "facts": [
+  "무엇이: 러시아의 2026년 전쟁 관련 지출이 약 17조 루블(약 2천억 달러)로 원래 계획보다 약 40% 많아질 전망 [사실]",
+  "이유: 크렘린이 1월까지 미국과의 협상이 타결되지 않을 것으로 판단하고 방산 선급금 등을 늘림 [사실]",
+  "재정: 올해 재정적자 전망이 당초 3조 8천억 루블에서 7조 루블 이상으로 확대, 국내 차입과 금 매각으로 충당 [사실]",
+  "민간: 러시아 재벌이 9억 달러 매각 대금 일부를 국방에 내놓겠다고 약속 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(ThePrint, United24, SIPRI)으로 확인. 원 수치는 블룸버그 익명 소식통 기준. 재벌 이름·약정액은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "n-bbg-0648",
+ "num": 648,
+ "key": "mix-G1-025-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:47:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/australia-gas-generation-drops-to-lowest-since-2000-as-batteries-boom",
+ "origTitle": "",
+ "headline": "배터리 저장 확산…호주 가스발전 2000년 이후 최저·불가리아 유럽 선두·시그에너지 인도 공장",
+ "src": [
+  {
+   "o": "OilPrice",
+   "d": "2026-10-23",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Renewables-Boom-Pushes-Australias-Gas-Power-to-Quarter-Century-Low.html"
+  },
+  {
+   "o": "RenewEconomy",
+   "d": "2026-10-23",
+   "u": "https://reneweconomy.com.au/record-battery-output-big-winds-push-monthly-gas-generation-to-lowest-level-in-more-than-two-decades/"
+  }
+ ],
+ "items": [
+  {
+   "t": "배터리 붐에 호주 가스발전 2000년 이후 최저로 감소",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/australia-gas-generation-drops-to-lowest-since-2000-as-batteries-boom",
+   "s": "호주에서 계통 배터리가 급증하면서, 3분기 가스발전이 약 3분의 1 줄어 2000년 이후 최저로 떨어졌다"
+  },
+  {
+   "t": "불가리아, 유럽 배터리 저장 경쟁의 의외 선두로 부상",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/bulgaria-emerges-surprise-leader-europes-quest-battery-storage-2026-10-23/",
+   "s": "불가리아가 배터리 저장 설비 확대에서 앞서 나가면서, 유럽 배터리 저장 경쟁에서 의외의 선두로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "중국 시그에너지, 인도에 인버터·배터리 저장 공장 건설",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/chinas-sigenergy-build-inverter-battery-storage-plants-india-2026-10-23/",
+   "s": "중국 시그에너지가 인도에 인버터·배터리 저장 공장을 짓기로 하면서, 중국 저장 장비 업체의 인도 현지 생산이 넓어지고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/storage",
+  "gas/demand"
+ ],
+ "title": "배터리 저장 확산…호주 가스발전 2000년 이후 최저·불가리아 유럽 선두·시그에너지 인도 공장",
+ "one": "배터리 저장 설비가 빠르게 늘면서 호주·유럽·인도에서 전력 공급 구조가 바뀌고 있다\n· 호주 전력시장(NEM)의 3분기 가스발전은 전년보다 약 3분의 1 줄어 2000년 이후 최저였다\n· 같은 기간 호주 계통 배터리 용량은 3배 넘게 늘었고 저녁 피크에서 처음으로 가스발전을 앞섰다\n· 불가리아가 유럽의 배터리 저장 확대 경쟁에서 의외의 선두로 떠올랐다\n· 중국 시그에너지는 인도에 인버터·배터리 저장 공장을 짓기로 했다",
+ "facts": [
+  "무엇이: 호주 NEM의 3분기 가스발전은 전년보다 약 3분의 1 줄어 2000년 이후 같은 분기 최저였다(AEMO 분기 보고서) [사실]",
+  "배터리: 계통 배터리 용량이 1년 새 3배 넘게 늘었고, 저녁 4~9시 발전 비중은 배터리 약 8%, 가스 5.1%였다 [사실]",
+  "재생·가격: 3분기 재생에너지 비중은 44.3%로 3분기 기준 최고였고, 평균 도매가격은 5년 만의 최저였다 [사실]",
+  "불가리아·인도: 불가리아가 유럽 배터리 저장 경쟁의 의외 선두로 떠올랐고, 중국 시그에너지는 인도에 인버터·배터리 저장 공장을 짓는다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "호주 가스발전 2000년 이후 최저·배터리 3배 증가는 검색 결과 요약(OilPrice·RenewEconomy)으로 확인, 불가리아·시그에너지 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "storage",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "호주 계통 배터리 용량 1년 새 3배 넘게 증가"
+  },
+  {
+   "ind": "gas",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "호주 3분기 가스발전 2000년 이후 최저"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

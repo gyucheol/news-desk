@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "로봇·산업기계 232조 포고문(관세 미부과·180일 협상·대상 품목)은 백악관 팩트시트 등 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 28일 232조 포고문으로 수입 로봇·산업기계·부품이 국가안보를 위협한다고 판단했지만 관세는 매기지 않고 무역 협상을 지시했다 [사실]",
+  "시한: 상무장관과 USTR이 협상해 180일 안에 보고하며, 결과에 따라 관세·쿼터·수수료나 미국 내 생산 투자 유인책을 검토할 수 있다 [사실]",
+  "대상: CNC 머시닝센터·선반·밀링·연삭기·프레스 등이며 무인기는 별도 232조 조사가 있어 빠졌다 [사실]",
+  "풍력터빈: 10월 22일 풍력터빈도 관세 없이 180일 협상을 지시했고, 2025년 8월 13일 시작된 상무부 조사는 외산 인버터의 사이버보안 취약성·레이더 간섭을 지적했다 [사실]",
+  "기존 관세: 일부 터빈 부품의 철강·알루미늄·구리 232조 관세는 그대로 유지된다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "트럼프, 풍력터빈 이어 로봇·산업기계 관세도 미루고 180일 협상 지시…철강·구리 관세는 유지",
+ "id": "n-bbg-0653",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "industrial",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "트럼프 대통령이 풍력터빈 관세 결정을 미루고 180일 협상 기간을 주면서, 터빈 수입 관세 부과 여부가 협상 결과 뒤로 밀렸다",
+   "t": "트럼프, 풍력터빈 관세 미루고 180일 협상 기간 부여",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-punts-on-wind-turbine-tariffs-allows-180-days-for-talks"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "트럼프 대통령이 232조 조사를 근거로 풍력터빈 수입에 관한 무역협상을 지시하면서, 상무장관과 USTR이 180일 안에 결과를 보고하게 됐다",
+   "t": "트럼프, 행정명령으로 풍력터빈 수입 무역협상 지시",
+   "u": "https://www.reuters.com/world/trump-directs-trade-negotiations-wind-turbine-imports-executive-order-2026-10-22/"
+  },
+  {
+   "t": "트럼프, 로봇·기계류 관세 미루고 추가 협상 택해",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/trump-delays-robotics-machinery-tariffs-in-favor-of-more-talks",
+   "s": "트럼프 대통령이 로봇·산업기계 수입 관세를 미루고 180일 협상을 택하면서 수입 장비에 기대는 미국 제조업체가 당장의 관세 부담을 피했다"
+  }
+ ],
+ "key": "mix-G1-047-2026-10-23",
+ "nodes": [
+  "macro/geo",
+  "power/wind"
+ ],
+ "num": 653,
+ "one": "트럼프 대통령이 풍력터빈에 이어 로봇·산업기계 수입에도 관세 대신 180일 협상을 지시했다\n· 10월 28일 232조 포고문은 수입 로봇·산업기계가 안보를 위협한다고 봤지만 관세는 미뤘다\n· 러트닉 상무장관과 그리어 USTR 대표는 협상을 벌여 180일 안에 결과를 보고해야 한다\n· 협상이 무산되면 트럼프 대통령이 관세·쿼터 같은 다른 수입 조정 조치를 검토할 수 있다\n· 풍력터빈 조사는 외산 인버터의 사이버보안 취약성과 레이더 간섭 우려를 근거로 들었다\n· 일부 터빈 부품에 붙는 철강·알루미늄·구리 232조 관세는 그대로 유지된다",
+ "origTitle": "",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:37:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "GHY International",
+   "u": "https://www.ghy.com/trade-compliance/section-232-wind-turbine-imports"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "HNGN",
+   "u": "https://www.hngn.com/articles/273576/20261023/trump-signs-housing-order-delays-wind-tariffs-mortgage-rates-top-7.htm"
+  },
+  {
+   "o": "백악관",
+   "d": "2026-10-28",
+   "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-adjusts-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+  }
+ ],
+ "tags": [],
+ "title": "트럼프, 풍력터빈 이어 로봇·산업기계 관세도 미루고 180일 협상 지시…철강·구리 관세는 유지",
+ "updatedAt": "2026-10-29T09:40:10+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-punts-on-wind-turbine-tariffs-allows-180-days-for-talks",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "machinery",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "로봇·산업기계 관세 미루고 180일 협상"
+  }
+ ],
+ "added": "블룸버그 1건 — 트럼프가 로봇·산업기계 수입 관세도 미루고 180일 협상을 지시한 내용이 추가됨"
+}

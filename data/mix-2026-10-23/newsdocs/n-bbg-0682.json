@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0682",
+ "num": 682,
+ "key": "mix-G2-050-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/swiggy-shares-plunge-after-losses-mount-on-intense-competition",
+ "origTitle": "",
+ "headline": "스위기, 퀵커머스 손실 확대에 주가 사상 최대 17% 급락…인스타마트 적자 89억 5천만 루피",
+ "src": [
+  {
+   "o": "Inc42",
+   "d": "2026-10-23",
+   "u": "https://inc42.com/buzz/swiggy-shares-plunge-17-to-52-week-low-after-q2-brokerages-cut-price-targets/"
+  },
+  {
+   "o": "The Tech Portal",
+   "d": "2026-10-23",
+   "u": "https://thetechportal.com/2026/10/23/swiggy-stock-falls-17-to-a-52-week-low-as-instamart-losses-widen-to-%E2%82%B9895-crore-in-q2/"
+  }
+ ],
+ "items": [
+  {
+   "t": "스위기 주가, 손실 확대에 사상 최대 폭 급락해 신저가",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/swiggy-shares-plunge-after-losses-mount-on-intense-competition",
+   "s": "스위기가 치열한 경쟁 속 손실을 키우면서 주가가 사상 최대 폭으로 급락해 신저가를 썼다"
+  },
+  {
+   "t": "인도 스위기, 2분기 퀵커머스 손실 확대에 하락",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-swiggy-falls-after-quick-commerce-losses-widen-during-second-quarter-2026-10-23/",
+   "s": "스위기의 인스타마트 손실이 2분기 89억 5천만 루피로 커지면서 퀵커머스 출혈 경쟁 부담이 주가를 끌어내렸다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "스위기, 퀵커머스 손실 확대에 주가 사상 최대 17% 급락…인스타마트 적자 89억 5천만 루피",
+ "one": "인도 스위기의 2분기 퀵커머스 손실이 커지면서 주가가 상장 후 최대 폭인 17% 급락했다\n· 인스타마트 조정 EBITDA 손실은 89억 5천만 루피로 1분기 77억 8천만 루피에서 늘었다\n· 연결 순손실은 92억 2천만 루피로 전 분기 79억 1천만 루피보다 커졌다\n· 경쟁사 블링킷은 같은 분기 조정 EBITDA 18억 4천만 루피 흑자를 냈다\n· 골드만삭스·HSBC·JP모건 등이 목표가를 낮췄고 주가는 174.90루피로 52주 최저를 찍었다",
+ "facts": [
+  "무엇이: 스위기 주가가 10월 23일 장중 최대 17% 내려 52주 최저 174.90루피를 찍었고 16.3% 내린 176.70루피로 마감했다 [사실]",
+  "실적: 2분기 매출은 약 36% 늘어 757억 1천만 루피, 연결 순손실은 92억 2천만 루피로 전 분기 79억 1천만 루피보다 커졌다 [사실]",
+  "퀵커머스: 인스타마트 조정 EBITDA 손실은 89억 5천만 루피로 1분기 77억 8천만 루피에서 늘었고, 회사는 2분기가 손실 정점이라고 밝혔다 [사실]",
+  "경쟁·평가: 블링킷은 같은 분기 조정 EBITDA 18억 4천만 루피 흑자를 냈고, 골드만삭스·HSBC·CLSA·번스타인·JP모건·씨티가 목표가를 낮췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Inc42·The Tech Portal·Business Today 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "퀵커머스 손실 확대에 스위기 주가 17% 급락"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,99 @@
+{
+ "basis": "verified",
+ "check": "블룸버그(10월 14일)·로이터·텔레그램(10월 17일) 3건을 묶었다. 이탈리아-EU 원칙 합의와 59유로 상한은 몬텔·유뉴스·일솔레24오레·게오폴리티카 보도로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 이탈리아가 발전용 가스값이 전기요금에 번지는 것을 막는 조치에 EU 집행위와 원칙 합의했고, 정식 통보 뒤 우선 심사를 받게 됐다 [사실]",
+  "상한: 발전용 가스값이 MWh당 59유로를 넘으면 59유로로 고정하는 방식이다 [사실]",
+  "경과: 멜로니 총리는 14일 이탈리아가 EU와 가스 가격 상한 합의에 근접했다고 밝혔다 [제목]",
+  "영향: 채널은 이 협약으로 가스발전 수요와 보조금 부담이 늘 수 있다고 분석했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "이탈리아-EU 가스값 상한 합의…발전용 가스 MWh당 59유로 상한 원칙 합의",
+ "id": "n-bbg-0408",
+ "incentive": "",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "멜로니 '이탈리아, EU와 가스 가격 상한 합의 근접'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/italy-is-nearing-deal-with-eu-on-gas-price-cap-meloni-says",
+   "s": "멜로니 총리가 이탈리아가 EU와 가스 가격 상한 합의에 다가섰다고 밝히면서, 가스값 급등에 상한을 두는 대응이 가시화될 수 있다 (제목 기준)"
+  },
+  {
+   "t": "이탈리아, 가스값의 전기요금 영향 줄이는 조치로 EU와 합의",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/italy-clinches-deal-with-eu-over-measures-limit-impact-gas-prices-electricity-2026-10-16/",
+   "s": "이탈리아가 발전용 가스값이 전기요금에 번지는 것을 막는 조치에 집행위와 원칙 합의하면서, 정식 통보 뒤 우선 심사를 받게 됐다"
+  },
+  {
+   "t": "이탈리아, EU와 전기요금 인하 협약…가스값 59유로 상한",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10731",
+   "s": "이탈리아가 가스값이 MWh당 59유로를 넘으면 59유로로 고정하는 전기요금 인하 협약을 EU와 맺으면서 가스발전 수요와 보조금 부담이 늘 수 있다는 분석이 나왔다"
+  }
+ ],
+ "key": "split-G2-077-2026-10-20",
+ "nodes": [
+  "power/market",
+  "gas/demand"
+ ],
+ "num": 408,
+ "one": "가스값 급등 속 이탈리아 전기요금 대책에서 멜로니 총리가 14일 EU와 가스 가격 상한 합의에 근접했다고 밝힌 뒤, 이탈리아가 발전용 가스값이 MWh당 59유로를 넘으면 59유로로 고정해 전기요금 전가를 막는 조치에 EU 집행위와 원칙 합의하고 정식 통보 뒤 우선 심사를 받게 됐으며, 이 협약으로 가스발전 수요와 보조금 부담이 늘 수 있다는 분석이 나왔다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:03:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Montel News",
+   "d": "2026-10-16",
+   "u": "https://montelnews.com/news/4b1e7e0f-fb2e-4e2e-9e90-97ca48851020/ec-italy-near-power-market-reform-deal-to-curb-gas-costs"
+  },
+  {
+   "o": "Eunews",
+   "d": "2026-10-14",
+   "u": "https://www.eunews.it/en/2026/10/14/brussels-is-open-to-melonis-energy-bill-decree-broad-agreement-reached-between-italy-and-the-eu-technical-issues-remain/"
+  },
+  {
+   "o": "Il Sole 24 Ore",
+   "d": "2026-10-16",
+   "u": "https://en.ilsole24ore.com/art/electricity-prices-the-eu-italia-agreement-ets-neutralisation-AJqKpejB"
+  },
+  {
+   "o": "Geopolitika",
+   "d": "2026-10-17",
+   "u": "https://geopolitika.no/italia-far-eu-avtale-om-strompriser/"
+  }
+ ],
+ "tags": [],
+ "title": "이탈리아-EU 가스값 상한 합의…발전용 가스 MWh당 59유로 상한 원칙 합의",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/italy-is-nearing-deal-with-eu-on-gas-price-cap-meloni-says",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "발전용 가스값 59유로 상한으로 전기요금 억제"
+  },
+  {
+   "ind": "gas",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "가스값 상한에 가스발전 수요 늘 수 있어"
+  }
+ ]
+}

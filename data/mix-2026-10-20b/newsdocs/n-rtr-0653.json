@@ -1,0 +1,75 @@
+{
+ "id": "n-rtr-0653",
+ "num": 653,
+ "key": "mix-G2-055-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:27:00+09:00",
+ "url": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/",
+ "origTitle": "",
+ "headline": "로이터 조사 '연준 10월 동결 뒤 12월 인상'…100명 전원 12월 인상 예상",
+ "src": [
+  {
+   "o": "러프킨데일리뉴스",
+   "d": "2026-10-20",
+   "u": "https://lufkindailynews.com/news_reuters/business/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters/article_ca47be28-f51e-5b9e-9d64-b7442da5a1fb.html"
+  },
+  {
+   "o": "포렉스팩토리",
+   "d": "2026-10-20",
+   "u": "https://www.forexfactory.com/news/1432322-fed-to-skip-october-but-raise-rates-again"
+  }
+ ],
+ "items": [
+  {
+   "t": "이코노미스트 거의 전원 '연준 10월 건너뛰고 12월 다시 인상'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "title": "로이터 조사 '연준 10월 동결 뒤 12월 인상'…100명 전원 12월 인상 예상",
+ "one": "이코노미스트 거의 전원이 연준이 10월에는 금리를 동결하고 12월에 다시 올릴 것으로 봤다\n· 100명 중 94명이 10월 27~28일 회의의 3.75~4.00% 동결을, 100명 전원이 12월 인상을 예상했다\n· 약 60%는 금리 정점을 4.00~4.25%로 봤고 물가는 2028년 전에는 목표로 돌아오기 어렵다고 봤다",
+ "facts": [
+  "무엇이: 10월 16~20일 로이터 조사에서 이코노미스트 100명 중 94명이 10월 27~28일 회의의 3.75~4.00% 동결을 예상했다 [사실]",
+  "12월: 100명 전원이 12월 인상을 예상해 지난달 조사의 절반 미만에서 크게 늘었다 [사실]",
+  "정점: 약 60%는 금리 정점을 4.00~4.25%로 봤고 92명 중 38명은 최소 두 차례 추가 인상을 예상했으며, 연준 선호 물가지표는 2028년 이전 목표 복귀가 어려울 것으로 나타났다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "조사 결과는 검색 결과 요약(로이터 조사 전재 지역 언론·포렉스팩토리)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "이코노미스트 100명 전원 12월 연준 인상 예상"
+  }
+ ],
+ "fed": [
+  {
+   "k": "",
+   "who": "FOMC",
+   "role": "연방공개시장위원회",
+   "kind": "관련 뉴스",
+   "stance": "",
+   "t": "이코노미스트 거의 전원이 연준의 10월 동결 뒤 12월 인상을 예상했다",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/"
+  }
+ ]
+}

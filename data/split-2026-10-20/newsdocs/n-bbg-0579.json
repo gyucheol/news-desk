@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0579",
+ "num": 579,
+ "key": "split-G6-048-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/data-center-boom-raises-issue-of-who-pays-for-grid-rwe-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "RWE '데이터센터 붐에 전력망 비용 누가 내나' 문제 제기",
+ "headline": "RWE '데이터센터 붐에 전력망 비용 누가 내나' 문제 제기",
+ "one": "블룸버그가 10월 7일 전한 바로는 RWE가 데이터센터 붐으로 늘어나는 전력망 비용을 누가 낼지가 문제로 떠올랐다고 지적하면서, 망 투자 비용 분담을 둘러싼 논쟁이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 RWE가 데이터센터 붐으로 전력망 비용을 누가 부담할지가 문제로 떠올랐다고 말했다고 전했다 [제목]",
+  "쟁점: 데이터센터 연결을 위한 망 투자 비용을 데이터센터와 기존 요금 납부자 가운데 누가 질지가 쟁점이 될 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 7일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "RWE \"데이터센터 붐에 전력망 비용 누가 내나 문제 대두\"",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/data-center-boom-raises-issue-of-who-pays-for-grid-rwe-says"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "grid",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "데이터센터 붐에 전력망 비용 분담 문제 대두"
+  }
+ ]
+}

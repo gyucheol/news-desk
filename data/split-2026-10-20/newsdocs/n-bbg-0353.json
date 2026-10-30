@@ -1,0 +1,81 @@
+{
+ "basis": "title",
+ "check": "블룸버그 4건(기사·뉴스레터, 10월 19일)과 로이터 1건(10월 20일)을 묶음. 원 문서 확인 기록에서도 젤렌스키 반발은 기사 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 젤렌스키는 트럼프가 푸틴이 아닌 우크라이나에 양보와 굴복을 압박하고 있다고 말했다 [제목]",
+  "수위: 젤렌스키는 트럼프가 러시아에 대한 항복을 강요한다고까지 말해 미국 중재 방식에 대한 반발 수위를 높였다 [제목]",
+  "후속: 젤렌스키는 우크라이나에 대한 미국의 결정들이 설명하기 어렵다고 말해 당혹감을 드러냈다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "젤렌스키 \"트럼프가 푸틴 아닌 우크라이나에 양보·항복 압박\"",
+ "id": "n-bbg-0353",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "젤렌스키 '트럼프가 푸틴 아닌 우크라이나에 양보 압박'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-trump-is-pushing-ukraine-to-capitulate-to-russia",
+   "s": "젤렌스키 대통령이 트럼프가 푸틴이 아닌 우크라이나에 양보를 압박한다고 말하면서 미·우크라 갈등이 공개적으로 드러났다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '트럼프가 러시아에 대한 항복 강요'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-18/zelenskyy-says-trump-forcing-capitulation-to-russia",
+   "s": "젤렌스키가 트럼프가 러시아에 대한 항복을 강요하고 있다고 주장하면서 미국 중재 방식에 대한 반발 수위를 높였다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '트럼프가 우크라이나에 러시아 양보 압박'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/zelenskyy-says-trump-is-pushing-ukraine-to-yield-to-russia",
+   "s": "젤렌스키가 트럼프가 우크라이나에 러시아에 양보하라고 압박한다고 거듭 말하면서 양국 정상 간 공방이 이어졌다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '트럼프가 우크라이나에 양보 강요'(뉴스레터)",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/zelenskyy-says-trump-is-pushing-ukraine-to-yield-to-russia-mvf4ptjj",
+   "s": "블룸버그 뉴스레터가 트럼프가 러시아가 아닌 우크라이나를 압박한다는 젤렌스키 발언을 다시 다루면서 미·우크라 갈등에 대한 관심이 이어졌다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '우크라이나 관련 미국 결정, 설명하기 어려워'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/ukraines-zelenskiy-says-us-decisions-ukraine-hard-explain-2026-10-19/",
+   "s": "젤렌스키가 우크라이나에 대한 미국의 결정들을 설명하기 어렵다고 말하면서 미국 정책에 대한 당혹감을 드러냈다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G1-004-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 353,
+ "one": "젤렌스키 대통령이 19일 트럼프 대통령이 푸틴이 아닌 우크라이나에 양보와 러시아에 대한 항복을 강요한다고 거듭 말한 데 이어 미국의 결정들을 설명하기 어렵다고 밝히면서, 미·우크라 갈등이 공개적으로 드러났다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:04:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "젤렌스키 \"트럼프가 푸틴 아닌 우크라이나에 양보·항복 압박\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-trump-is-pushing-ukraine-to-capitulate-to-russia",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미·우크라 정상 공방으로 종전 협상 방향 불투명"
+  }
+ ]
+}

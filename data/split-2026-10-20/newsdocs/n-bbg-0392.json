@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0392",
+ "num": 392,
+ "key": "split-G2-028-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/us-to-help-expand-delek-refinery-vance-says-in-visit-to-texas",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "밴스 '국방물자생산법으로 하루 7만 4,000배럴 델렉 타일러 정유공장 증설'",
+ "headline": "밴스 '국방물자생산법으로 하루 7만 4,000배럴 델렉 타일러 정유공장 증설'",
+ "one": "밴스 부통령이 텍사스 방문에서 국방물자생산법을 써서 하루 7만 4,000배럴 규모 델렉 타일러 정유공장을 증설한다고 밝히면서 정유 증산이 시작됐지만, 투입 자금과 증설 폭은 공개되지 않았다",
+ "facts": [
+  "무엇이: 밴스 부통령이 10월 13일 텍사스 방문에서 냉전 시대 법인 국방물자생산법을 써서 하루 7만 4,000배럴 규모 델렉 타일러 정유공장을 증설한다고 밝혔다 [사실]",
+  "미공개: 투입 자금과 증설 폭은 공개되지 않았다 [사실]",
+  "배경: 미국 정유 가동률은 이미 98%이고, 경유값은 9월 22일 갤런당 6.53달러로 사상 최고를 찍었다 [사실]",
+  "의미: 국방물자생산법이 검토 단계를 넘어 실제 정유 설비 확충에 쓰인 사례다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 사실에 밴스 부통령의 델렉 증설 발표가 담겨 있고, 원 문서 출처 목록의 Tyler Morning Telegraph·Washington Examiner 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Tyler Morning Telegraph",
+   "d": "2026-10-13",
+   "u": "https://tylerpaper.com/2026/10/13/during-tyler-stop-jd-vance-announces-partnership-with-delek-refinery/"
+  },
+  {
+   "o": "Washington Examiner",
+   "d": "2026-10-13",
+   "u": "http://www.washingtonexaminer.com/news/white-house/4764352/trump-invokes-defense-production-act-expand-oil-refinery-texas/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 냉전 시대 법으로 텍사스 델렉 정유공장 증설",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/us-to-help-expand-delek-refinery-vance-says-in-visit-to-texas"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "국방물자생산법으로 델렉 타일러 정유공장 증설"
+  }
+ ]
+}

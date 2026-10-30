@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0365",
+ "num": 365,
+ "key": "split-G1-015-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시리아, 이라크 원유의 호르무즈 우회 경로로 부상",
+ "headline": "시리아, 이라크 원유의 호르무즈 우회 경로로 부상",
+ "one": "시리아가 7일 이라크 원유의 호르무즈 해협 우회 경로로 떠오르면서, 해협에서 선박 공격이 이어지는 가운데 이라크가 해협을 거치지 않는 새 원유 수출길을 확보할 수 있게 됐다",
+ "facts": [
+  "무엇이: 시리아가 이라크 원유의 호르무즈 우회 경로로 떠오르고 있다 [사실]",
+  "전망: 이라크가 해협을 거치지 않는 수출길을 얻을 수 있다 [추론]",
+  "배경: UKMTO는 10월 16일로 끝난 한 주에 호르무즈 10건 등 12건의 공격을 집계했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 시리아 우회 경로 부상은 원 문서 출처 목록의 알아라비야 보도로 뒷받침",
+ "src": [
+  {
+   "o": "Al Arabiya",
+   "d": "2026-10-07",
+   "u": "https://english.alarabiya.net/News/middle-east/2026/10/07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+  }
+ ],
+ "items": [
+  {
+   "t": "시리아, 이라크 원유의 호르무즈 우회 경로로 부상할 듯",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-set-to-emerge-as-hormuz-bypass-option-for-iraq-s-crude-oil"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "시리아, 이라크 원유 호르무즈 우회로 부상"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0662",
+ "num": 662,
+ "key": "mix-G1-097-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T18:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-23/thc-drink-ban-could-cost-willie-nelson-cheech-chong-their-beverage-empires",
+ "origTitle": "",
+ "headline": "미 THC 음료 금지 임박…윌리 넬슨·치치 앤 총 음료 사업 존폐 위기",
+ "src": [
+  {
+   "o": "PBS NewsHour",
+   "d": "2026-10",
+   "u": "https://www.pbs.org/newshour/politics/what-to-know-about-the-looming-federal-ban-on-thc-infused-drinks-and-snacks"
+  },
+  {
+   "o": "BevNET",
+   "d": "2026",
+   "u": "https://www.bevnet.com/magazine/issue/2026/hemp-hopes-thc-drinks-prepare-for-uncertain-future-amid-regulatory-fight/"
+  }
+ ],
+ "items": [
+  {
+   "t": "THC 음료 금지로 윌리 넬슨·치치 앤 총 음료 사업 잃을 수도",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/features/2026-10-23/thc-drink-ban-could-cost-willie-nelson-cheech-chong-their-beverage-empires"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "미 THC 음료 금지 임박…윌리 넬슨·치치 앤 총 음료 사업 존폐 위기",
+ "one": "미국 연방 대마 유래 THC 음료 금지가 다가오며 유명인 음료 사업이 존폐 기로에 섰다\n· 용기당 총 THC 0.4mg 초과 제품을 막는 규제 시행일은 11월 12일에서 12월 11일로 미뤄졌다\n· 윌리 넬슨 가족이 세운 윌리스 레메디와 치치 앤 총 음료 사업이 타격을 받을 수 있다",
+ "facts": [
+  "무엇이: 블룸버그는 THC 음료 금지로 윌리 넬슨과 치치 앤 총이 음료 사업을 잃을 수 있다고 보도했다 [제목]",
+  "규제: 용기당 총 THC 0.4mg 초과 대마 제품을 막는 연방 규제 시행일은 9월 예산법으로 11월 12일에서 12월 11일로 미뤄졌다 [사실]",
+  "업계: 윌리스 레메디 CEO는 12월 11일 전까지 일괄 금지 대신 연방 규칙을 만들라고 의회에 촉구했고, THC 음료를 주류처럼 규제하는 법안은 아직 통과되지 않았다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "규제 시행일·기준은 검색 결과 요약으로 확인(일부는 업계 블로그), 브랜드별 사업 규모와 손실은 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "THC 0.4mg 초과 음료 판매 금지 임박"
+  }
+ ]
+}

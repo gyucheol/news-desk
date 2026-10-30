@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0631",
+ "num": 631,
+ "key": "mix-G2-022-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T10:57:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-katayama-vows-fiscal-prudence-on-defense-funding",
+ "origTitle": "",
+ "headline": "日 가타야마 '방위비 재원 미정·재정 신중 유지'…법인세 인상엔 거리 둬",
+ "src": [
+  {
+   "o": "The Japan Times",
+   "d": "2026-10-20",
+   "u": "https://www.japantimes.co.jp/business/2026/10/20/economy/japan-katayama-defense-spending/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-20",
+   "u": "https://www.newsquawk.com/headlines/japanese-finance-minister-katayama-says-no-decisions-have-been-made-on-funding-defence-spending-increases-but-measures-to-secure-stable-funding-will-be-considered-while-maintaining-fiscal-sustainability"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본 가타야마, 방위비 재원에 재정 신중 약속",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-katayama-vows-fiscal-prudence-on-defense-funding",
+   "s": "가타야마 재무상이 방위비 재원을 논하며 재정 신중을 약속하면서, 법인세 인상 같은 증세안에 거리를 뒀다"
+  },
+  {
+   "t": "일본, 방위예산 재원 아직 미정…재무상",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-yet-decide-defence-budget-funding-finance-minister-says-2026-10-20/",
+   "s": "가타야마 재무상이 방위비 증액 재원을 아직 정하지 않았다고 밝히면서, 연말 새 방위계획을 앞두고 재원 논쟁이 이어질 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "日 가타야마 '방위비 재원 미정·재정 신중 유지'…법인세 인상엔 거리 둬",
+ "one": "가타야마 사쓰키 일본 재무상이 방위비 증액 재원을 아직 정하지 않았다며 재정 신중 기조를 강조했다\n· 그는 재정 지속가능성을 고려해 안정 재원을 확보할 방안을 검토하겠다고 말했다\n· 교도통신이 재원 후보로 거론한 법인세 인상은 지지하지 않았다\n· 연말 나올 5년 방위계획 총액이 70조~80조 엔에 이를 수 있다는 미확인 보도가 있다",
+ "facts": [
+  "무엇이: 가타야마 재무상은 10월 20일 방위비 증액 재원으로 법인세 인상을 포함해 어떤 방식도 정하지 않았다고 말했다 [사실]",
+  "원칙: 재정 지속가능성을 충분히 고려해 안정 재원을 확보할 방안을 검토하겠다고 밝혔다 [사실]",
+  "규모: 교도통신은 연말 새 5년 방위계획 총액이 70조~80조 엔에 이를 수 있다고 익명 관계자를 인용해 전했다 [미확인]",
+  "시장: 이날 20년물 국채 입찰 수요가 강해 초장기 금리가 내려갔다는 보도가 있었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "재원 미정·재정 지속가능성 고려 발언은 검색 결과 요약(Japan Times·Newsquawk)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "방위비 증액 재원 미정, 재정 신중 유지"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

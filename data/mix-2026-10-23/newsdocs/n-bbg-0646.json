@@ -1,0 +1,101 @@
+{
+ "id": "n-bbg-0646",
+ "num": 646,
+ "key": "mix-G1-011-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T12:37:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/qatar-scours-for-more-lng-to-boost-supply-outside-middle-east",
+ "origTitle": "",
+ "headline": "카타르, 미국산 LNG 확보…셰니에르 23년 연 400만 톤·캐나다 2030년 수출능력 3,300만 톤",
+ "src": [
+  {
+   "o": "Natural Gas Intelligence",
+   "d": "2026-10-23",
+   "u": "https://naturalgasintel.com/news/cheniere-inks-long-term-lng-deal-with-qatarenergy/"
+  },
+  {
+   "o": "gCaptain",
+   "d": "2026-10-23",
+   "u": "https://gcaptain.com/qatarenergy-signs-long-term-deal-to-buy-u-s-lng-as-iran-war-disrupts-exports/"
+  },
+  {
+   "o": "AGBI",
+   "d": "2026-10-23",
+   "u": "https://www.agbi.com/oil-and-gas/2026/10/qatarenergy-turns-to-us-lng-to-make-up-for-war-disruption/"
+  }
+ ],
+ "items": [
+  {
+   "t": "카타르, 중동 밖 공급 늘리려 LNG 추가 확보 물색",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/qatar-scours-for-more-lng-to-boost-supply-outside-middle-east",
+   "s": "카타르가 중동 밖 공급을 늘리려 LNG 추가 물량을 찾아 나서면서, 셰니에르와의 연 400만 톤 계약처럼 미국산 장기 계약이 늘고 있다"
+  },
+  {
+   "t": "카타르에너지, 벤처글로벌과 LNG 장기 구매 협상 중(소식통)",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/",
+   "s": "카타르에너지가 벤처글로벌과 LNG 장기 공급 계약을 협상 중이라고 소식통들이 전하면서, 셰니에르에 이어 미국산 조달처가 늘어날 수 있다 (제목 기준)"
+  },
+  {
+   "t": "LNG 캐나다 2배 증설…2030년 수출능력 연 3,300만 톤",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11171",
+   "s": "캐나다가 LNG 캐나다 2단계 확장과 시더 LNG 등으로 2030년 수출능력을 연 3,300만 톤으로 늘리면서, 짧은 항로를 앞세워 아시아 시장을 노린다"
+  },
+  {
+   "t": "카타르, 셰니에르서 2031~2054년 연 400만 톤 LNG 구매",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11175",
+   "s": "카타르가 셰니에르와 헨리허브 연동 23년 계약을 맺으면서, 사빈패스 7호기 최종투자결정과 코퍼스크리스티 4단계 확장에 힘이 실렸다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/trade",
+  "gas/liquefaction"
+ ],
+ "title": "카타르, 미국산 LNG 확보…셰니에르 23년 연 400만 톤·캐나다 2030년 수출능력 3,300만 톤",
+ "one": "카타르에너지가 호르무즈 밖 공급원을 찾아 미국산 LNG 장기 구매에 나섰다\n· 카타르에너지는 셰니에르와 2031~2054년 23년간 연 400만 톤 구매 계약을 맺었다\n· 물량은 사빈패스·코퍼스크리스티에서 각 200만 톤이며 헨리허브 연동에 고정 수수료를 더한다\n· 카타르에너지는 벤처글로벌과도 장기 LNG 구매 협상을 벌이고 있다\n· 캐나다는 LNG 캐나다 2단계 확장 등으로 2030년 수출능력을 연 3,300만 톤으로 늘릴 예정이다",
+ "facts": [
+  "무엇이: 카타르에너지는 10월 22일 셰니에르와 사빈패스·코퍼스크리스티에서 각 연 200만 톤, 모두 연 400만 톤을 2031~2054년 사들이는 23년 계약을 맺었다 [사실]",
+  "조건: 본선인도(FOB) 방식에 헨리허브 연동 가격과 고정 수수료를 붙이며, 사빈패스 물량 중 연 100만 톤은 1단계 확장 최종투자결정에 달렸다 [사실]",
+  "배경: 3월 이란의 라스라판 미사일 공격 뒤 카타르에너지는 걸프 밖 공급원을 찾고 있다 [사실]",
+  "벤처글로벌: 카타르에너지가 벤처글로벌과 장기 LNG 구매 계약을 협상 중이라고 소식통들이 전했다 [제목]",
+  "캐나다: LNG 캐나다 2단계 확장과 시더 LNG·우드파이버 추가 생산으로 2030년까지 연 LNG 수출능력을 3,300만 톤으로 늘릴 예정이다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 셰니에르 계약 물량·기간·가격 조건 확인. 벤처글로벌 협상은 제목, 캐나다 수출능력은 채널 근거",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "카타르, 셰니에르서 23년간 연 400만 톤 구매 계약"
+  },
+  {
+   "ind": "gas",
+   "node": "liquefaction",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "캐나다 2030년 LNG 수출능력 연 3,300만 톤 확대"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

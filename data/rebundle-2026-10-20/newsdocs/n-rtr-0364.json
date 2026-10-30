@@ -1,0 +1,116 @@
+{
+ "basis": "partial",
+ "check": "로이터 1건·텔레그램 하나증권 중국전략 3건(10월 18~19일)을 묶었다. 삼성의 TSMC 3나노 베이스 다이 채택은 여러 매체 요약으로, UBS 전망은 Bitget의 보고서 요약으로 확인했고 키옥시아 시총 축소는 채널 전언이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 삼성전자는 TSMC 3나노 공정으로 엔비디아 차세대 맞춤형 HBM의 베이스 다이를 만들 예정이며, HBM 제조에서 TSMC와 협력하는 첫 사례라고 서울경제가 보도했다 [사실]",
+  "요구: 엔비디아는 삼성·SK하이닉스·마이크론에 TSMC 공정 베이스 다이와 6세대(1c) D램 코어 다이를 쓰도록 요청한 것으로 전해졌다 [사실]",
+  "삼성: 삼성은 표준 HBM과 다른 고객용 맞춤 제품은 자체 생산을 유지하고, TSMC 생산능력이 모자라면 자체 파운드리 생산도 검토한다 [사실]",
+  "HBM 수요: UBS는 구글 TPU의 HBM 소비량이 2027년 192억 4,000만 Gb로 229% 늘 것으로 내다봤다 [사실]",
+  "낸드: 키옥시아 시가총액이 약 40조 엔 줄어 기존의 3분의 1로 쪼그라들고 일본 시총 1위에서 밀려났다 [채널]",
+  "원인: AI 투자수익률 의구심과 중국 업체 증설에 따른 낸드 가격 압박이 꼽혔다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "삼성, 엔비디아 HBM 베이스 다이에 TSMC 3나노…구글 TPU HBM 229%↑ 전망·키옥시아 시총 40조 엔↓",
+ "id": "n-rtr-0364",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "서울경제 '삼성, 엔비디아 차세대 메모리 칩에 TSMC 기술 사용'",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+   "s": "삼성전자가 엔비디아 차세대 메모리 칩 생산에 TSMC 기술을 쓰기로 했다는 서울경제 보도가 나오면서, 경쟁사인 두 회사가 HBM에서 손잡게 됐다"
+  },
+  {
+   "t": "삼성전자, 엔비디아 NVHBM 베이스 다이에 TSMC 3나노 채택 보도",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70617",
+   "s": "엔비디아가 메모리 3사에 TSMC 공정 베이스 다이를 요구하고 삼성이 이를 받아들이면서, 표준 HBM은 자체 생산하되 NVHBM 로직 다이는 TSMC에 맡기게 됐다"
+  },
+  {
+   "t": "UBS '구글 TPU HBM 소비량 2027년 229% 급증'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70597",
+   "s": "UBS가 구글 TPU의 HBM 소비량이 2027년 192억 4,000만 Gb로 229% 늘 것으로 내다보면서, HBM 구매 수요의 무게중심이 클라우드 기업의 맞춤형 칩 쪽으로 옮겨 갈 전망이다"
+  },
+  {
+   "t": "키옥시아 시총 약 40조 엔 증발…일본 1위서 밀려나",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-19",
+   "u": "https://t.me/HANAchina/70670",
+   "s": "키옥시아 시가총액이 AI 투자수익률 의구심과 중국 업체 증설에 따른 낸드 가격 압박으로 약 40조 엔 줄어 기존의 3분의 1로 쪼그라들면서, 일본 시총 1위 자리에서도 밀려났다 (채널 전언)"
+  }
+ ],
+ "key": "mix-G2-034-2026-10-20",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 364,
+ "one": "메모리 반도체에서 삼성전자가 엔비디아 차세대 맞춤형 HBM(NVHBM)의 베이스 다이를 TSMC 3나노 공정으로 만들기로 했다는 서울경제 보도가 나오고 엔비디아는 삼성·SK하이닉스·마이크론에 TSMC 공정 베이스 다이를 요청한 것으로 전해졌으며, UBS는 구글 TPU의 HBM 소비량이 2027년 192억 4,000만 Gb로 229% 늘 것으로 내다본 반면, 키옥시아 시가총액은 AI 투자수익률 의구심과 중국 업체 증설에 따른 낸드 가격 압박으로 약 40조 엔 줄어 기존의 3분의 1로 쪼그라들며 일본 시총 1위에서 밀려났다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T21:12:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "CommonWealth Magazine",
+   "d": "2026-10-19",
+   "u": "https://english.cw.com.tw/article/article.action?id=5066"
+  },
+  {
+   "o": "Tech Monitor",
+   "d": "2026-10-19",
+   "u": "https://www.techmonitor.ai/news/samsung-collaborates-with-tsmc-for-nvidias-custom-hbm-chips"
+  },
+  {
+   "o": "Silicon Analysts",
+   "d": "2026-10-18",
+   "u": "https://siliconanalysts.com/market/samsung-to-use-tsmc-3nm-for-base-dies-of-nvidia-custom-hbm-2026-10-18"
+  },
+  {
+   "o": "Bitget(UBS 보고서 요약)",
+   "d": "2026-10",
+   "u": "https://www.bitget.com/news/detail/12560605661592"
+  }
+ ],
+ "tags": [],
+ "title": "삼성, 엔비디아 HBM 베이스 다이에 TSMC 3나노…구글 TPU HBM 229%↑ 전망·키옥시아 시총 40조 엔↓",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "foundry",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "엔비디아 HBM 베이스 다이 TSMC 3나노로 표준화"
+  },
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "구글 TPU HBM 소비량 2027년 229% 증가 전망"
+  },
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "중국 증설에 낸드 가격 압박, 키옥시아 시총 40조 엔 증발"
+  }
+ ]
+}

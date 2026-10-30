@@ -1,0 +1,53 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 회사 뉴스센터 보도자료 요약과 더스타 보도로 계약 상대, 생산 용량, 가동 시점을 확인했다. 투자액은 확인 못 했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 에어프로덕츠가 페트로나스가스·다이알로그 그룹 합작사 PG콜드에너지1과 본계약을 맺고 공기분리설비를 설계·건설·운영한다 [사실]",
+  "규모: 하루 600톤 이상의 액체 산소·질소·아르곤을 생산하며 2027년 초 가동 예정이다 [사실]",
+  "위치: 조호르주 펭게랑 LNG 재기화 터미널에 들어서는 말레이시아 첫 LNG 기반 공기분리설비다 [사실]",
+  "의미: LNG 기화 냉열로 공기를 냉각해 에너지 효율을 높이고 배출을 줄인다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "에어프로덕츠, 말레이시아 페트로나스 합작사에 LNG 냉열 공기분리설비 건설",
+ "id": "n-rtr-0135",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "에어프로덕츠, 말레이시아 페트로나스 주도 합작사에 LNG 기반 공기분리설비 건설",
+   "u": "https://www.reuters.com/world/asia-pacific/air-products-build-lng-based-air-separation-unit-petronas-led-venture-malaysia-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C287-2026-10-09",
+ "nodes": [
+  "gas/regas"
+ ],
+ "num": 135,
+ "one": "미국 산업가스업체 에어프로덕츠가 페트로나스가스 주도 합작사와 계약해 펭게랑 LNG 터미널에 하루 600톤 이상 규모의 LNG 냉열 공기분리설비를 짓기로 하면서, 2027년 초부터 말레이시아 산업체에 산소·질소를 공급하게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-08T02:51:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "에어프로덕츠 뉴스센터",
+   "d": "2026-10-07",
+   "u": "https://www.airproducts.com/company/news-center/2026/10/1007-air-products-supply-malaysia-first-lng-based-asu-petronas-jv"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-08",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/08/air-products-to-build-lng-based-air-separation-unit-for-petronas-led-venture-in-malaysia"
+  }
+ ],
+ "tags": [],
+ "title": "에어프로덕츠, 말레이시아 페트로나스 합작사에 LNG 냉열 공기분리설비 건설",
+ "url": "https://www.reuters.com/world/asia-pacific/air-products-build-lng-based-air-separation-unit-petronas-led-venture-malaysia-2026-10-07/"
+}

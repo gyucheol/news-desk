@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0753",
+ "num": 753,
+ "key": "mix-G2-057-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T00:07:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/euro-shy-czech-government-backs-constitutional-shield-for-koruna",
+ "origTitle": "",
+ "headline": "체코 정부, 코루나를 헌법에 명시하는 개헌안 지지…유로 도입 문턱 높여",
+ "src": [
+  {
+   "o": "엑스팻츠 체코",
+   "d": "2026-10-26",
+   "u": "https://www.expats.cz/czech-news/article/government-approves-plans-to-enshrine-czech-crown-in-constitution"
+  },
+  {
+   "o": "어라운드프라하",
+   "d": "2026-10-26",
+   "u": "https://aroundprague.cz/en/news/politics/czech-government-backs-enshrining-the-koruna-in-the-constitution"
+  }
+ ],
+ "items": [
+  {
+   "t": "유로 꺼리는 체코 정부, 코루나 지키는 헌법 방패 지지",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/euro-shy-czech-government-backs-constitutional-shield-for-koruna"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx"
+ ],
+ "title": "체코 정부, 코루나를 헌법에 명시하는 개헌안 지지…유로 도입 문턱 높여",
+ "one": "체코 정부가 코루나를 법정 통화로 헌법에 못 박아 유로 도입을 어렵게 하는 개헌안을 지지했다\n· 개헌안은 통화를 바꾸려면 하원과 상원 출석 의원 각각 5분의 3 찬성을 받도록 했다\n· 여당만으로는 하원 200석 중 120표에 못 미쳐 야당 표가 최소 12표 필요하다",
+ "facts": [
+  "무엇이: 체코 정부가 10월 26일 '체코의 통화는 코루나'라는 98조를 신설하는 개헌안을 지지했다 [사실]",
+  "요건: 앞으로 통화를 바꾸려면 하원과 상원 출석 의원의 5분의 3 찬성이 필요하다 [사실]",
+  "표결: 개헌에는 하원 200석 중 120표가 필요해 여당은 야당 표를 최소 12표 얻어야 하며 시민민주당(ODS) 설득을 노린다 [사실]",
+  "반대: 산업연맹은 체코 수출의 65%가 유로존으로 간다며 유로 도입을 지지해 개헌안에 반대한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "엑스팻츠·어라운드프라하 검색 결과 요약으로 정부의 개헌안 승인과 5분의 3 요건 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "코루나 헌법 명시는 통화 제도 문제라 가격 영향 불명"
+  }
+ ]
+}

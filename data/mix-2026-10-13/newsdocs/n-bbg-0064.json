@@ -1,0 +1,72 @@
+{
+ "basis": "verified",
+ "check": "13억 달러 인수 제한과 대출 구조는 검색 결과 요약(Techmeme, Seeking Alpha)으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 볼타의 50억 달러 대출 판매를 이끄는 JP모건과 골드만삭스가 13억 달러만 인수하는 방식으로 익스포저를 줄였습니다 [사실]",
+  "구조: 대출은 데이터센터 임대료와 연결된 13억 달러 대출과 엔비디아 GPU 구매용 37억 달러 칩 대출로 나뉩니다 [사실]",
+  "조건: 액면가의 97~98% 가격, 수익률 약 11%이며 투자 약정 마감은 10월 14일입니다 [사실]",
+  "배경: 은행들은 신생 AI 기업 대형 대출에 큰 위험을 지지 않으려 하고, 투자자들은 더 높은 수익률을 요구하고 있습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "JP모건·골드만, 볼타 50억달러 AI 대출 인수 물량 13억달러로 제한",
+ "id": "n-bbg-0064",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1005-jpmorgan-volta-5bn-ai-loan",
+ "nodes": [
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 64,
+ "one": "JP모건과 골드만삭스가 볼타의 50억 달러 AI 대출 판매를 이끌면서도 자체 인수 물량을 13억 달러로 묶는 이례적 조치를 택하면서, 무등급 신생 AI 인프라 기업 대출의 위험을 은행이 떠안지 않으려는 흐름이 드러나 연 11% 안팎 금리에도 투자자 수요가 관건이 됐다",
+ "origTitle": "JPMorgan Offers 11% Yield on Volta’s $5 Billion AI Loan Sale",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T03:30:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/jpmorgan-dangles-11-yield-on-volta-s-5-billion-ai-loan-sale"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Briefs Finance",
+   "u": "https://www.briefs.co/news/jpmorgan-pitches-5-billion-ai-loan-for-volta-at-roughly-11-y/"
+  },
+  {
+   "o": "Techmeme",
+   "d": "2026-10-12",
+   "u": "https://www.techmeme.com/261012/p41"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-12",
+   "u": "https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report"
+  }
+ ],
+ "tags": [],
+ "title": "JP모건·골드만, 볼타 50억달러 AI 대출 인수 물량 13억달러로 제한",
+ "url": "https://bloomberg.com/news/articles/2026-10-05/jpmorgan-dangles-11-yield-on-volta-s-5-billion-ai-loan-sale",
+ "items": [
+  {
+   "t": "JP모건, 볼타의 50억 달러 AI 대출을 연 11% 수익률로 판매",
+   "o": "블룸버그",
+   "d": "2026-10-05",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/jpmorgan-dangles-11-yield-on-volta-s-5-billion-ai-loan-sale"
+  },
+  {
+   "t": "JP모건·골드만, 50억 달러 볼타 AI 대출 판매에서 익스포저 축소",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/jpmorgan-goldman-curb-exposure-on-5-billion-volta-ai-loan-sale"
+  }
+ ],
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

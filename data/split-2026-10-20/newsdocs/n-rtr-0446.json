@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0446",
+ "num": 446,
+ "key": "split-G2-144-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/ukraine-fortifies-its-filling-stations-against-russian-attacks-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "우크라이나, 러시아 공격 대비해 주유소 방호 강화",
+ "headline": "우크라이나, 러시아 공격 대비해 주유소 방호 강화",
+ "one": "우크라이나가 러시아 공격에 대비해 주유소 방호를 강화하면서, 러·우 양측이 서로의 에너지 시설을 겨냥하는 가운데 자국 연료 유통망을 지키려는 조치에 나섰다 (제목 기준)",
+ "facts": [
+  "무엇이: 우크라이나가 러시아 공격에 대비해 주유소 방호를 강화했다 [제목]",
+  "배경: 러·우 양측이 서로의 정유·발전 시설을 겨냥하는 가운데 연료 유통망이 표적이 될 수 있다는 판단에 따른 조치로 보인다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "우크라이나, 러시아 공격에 대비해 주유소 방호 강화",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/ukraine-fortifies-its-filling-stations-against-russian-attacks-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "러 공격 대비 우크라 주유소 방호 강화"
+  }
+ ]
+}

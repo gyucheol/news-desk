@@ -1,0 +1,132 @@
+{
+ "basis": "partial",
+ "channel": "부의 나침반",
+ "check": "골드만 보고서(Finimize 등)와 샌프란시스코·오클랜드 45일 중단(Mission Local·SFist, 검색 결과 요약) 문서 2건을 묶었습니다. 오라클·비톨·스페인·인도 내용은 제목 기준이라 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 샌프란시스코 시의회가 10월 6일 만장일치로 신규 데이터센터 건설·증설을 45일간 중단하는 조례를 통과시켰고, 오클랜드도 같은 날 45일 중단을 승인했습니다 [사실]",
+  "확산: 최대 22개월 연장이나 영구 규제로 이어질 수 있고, 캘리포니아 최소 26개 도시가 비슷한 조치를 검토하거나 통과시켰습니다 [사실]",
+  "수요 전망: 골드만삭스는 미국 데이터센터 전력 수요가 2026년 12GW, 2027년 17GW 늘고 용량은 2026년 말 64GW, 2027년 말 90GW가 될 것으로 봤습니다 [사실]",
+  "부족분: 모건스탠리는 미국 데이터센터 전력 부족분을 2028년 32GW(필요량의 34%)로 추산했습니다 [사실]",
+  "임시 전력: 오라클은 전력 지연을 피하려 트럭으로 가스를 실어 나르고 있습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "샌프란시스코·오클랜드 데이터센터 45일 중단…골드만 '내년 전력 17GW↑'",
+ "id": "n-tg-0182",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "insight": {},
+ "key": "tg-w_compass-7177",
+ "nodes": [
+  "macro/semis",
+  "power/demand",
+  "power/grid"
+ ],
+ "num": 182,
+ "one": "골드만삭스가 미국 데이터센터 전력 수요 증가분이 2027년 17GW로 2026년보다 클 것으로 본 가운데, 샌프란시스코·오클랜드가 10월 6일 신규 데이터센터를 45일간 막는 조례를 통과시키면서 전력난에 따른 지역 반발이 실제 규제로 번지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:38:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-05",
+   "o": "텔레그램 부의 나침반",
+   "u": "https://t.me/w_compass/7177"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/goldman-thinks-us-data-center-growth-can-power-through-pushback"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 하나증권 중국전략",
+   "u": "https://t.me/HANAchina/70006"
+  },
+  {
+   "d": "2026-10",
+   "o": "Benzinga",
+   "u": "https://www.benzinga.com/markets/prediction-markets/26/10/62174172/nvidia-broadcom-ai-power-shortage"
+  },
+  {
+   "d": "2026-10",
+   "o": "Igor'sLAB",
+   "u": "https://www.igorslab.de/en/ai-buildout-power-grid-morgan-stanley-32-gw-shortfall-2028/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Mission Local",
+   "u": "https://missionlocal.org/2026/10/sf-supervisors-pass-data-center-moratorium/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "SFist",
+   "u": "https://sfist.com/2026/10/07/san-francisco-oakland-pass-45-day-moratoriums-on-new-data-centers/"
+  }
+ ],
+ "tags": [],
+ "title": "샌프란시스코·오클랜드 데이터센터 45일 중단…골드만 '내년 전력 17GW↑'",
+ "url": "https://t.me/w_compass/7177",
+ "items": [
+  {
+   "t": "골드만 \"미 데이터센터 전력 수요 2027년 17GW 증가\"…지역 반발에도 증설 지속",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-05",
+   "u": "https://t.me/w_compass/7177"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 하나증권 중국전략",
+   "t": "모건스탠리 \"미 데이터센터 2028년 전력 32GW 부족\"…부품사 먼저 타격",
+   "u": "https://t.me/HANAchina/70006"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "굿맨의 일본 데이터센터, 시드니 부지 차질 이후 비판 직면",
+   "u": "https://www.reuters.com/world/asia-pacific/goodmans-japanese-data-centre-comes-under-fire-following-sydney-site-setback-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "RWE \"데이터센터 붐에 전력망 비용 누가 내나 문제 대두\"",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/data-center-boom-raises-issue-of-who-pays-for-grid-rwe-says"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "AI의 본고장 샌프란시스코, 데이터센터 모라토리엄 통과",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/san-francisco-passes-data-center-moratorium-in-hometown-of-ai"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "비톨 등 투자자, 데이터센터용 유연 전력 사업에 투자",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/vitol-among-investors-backing-flexible-power-for-data-centers"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "스페인 정부, 총선 앞두고 데이터센터 규제 강화 추진",
+   "u": "https://www.reuters.com/business/spanish-government-press-with-tighter-data-centre-rules-before-election-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "오라클, 데이터센터 전력 지연 피하려 트럭으로 가스 운송",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/oracle-moves-gas-by-trucks-to-avoid-data-center-power-delays"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "모디는 인도를 AI 시대 전력 강국으로 만들려 하지만 주민들은 반발",
+   "u": "https://www.reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

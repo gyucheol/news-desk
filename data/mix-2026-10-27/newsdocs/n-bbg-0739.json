@@ -1,0 +1,66 @@
+{
+ "id": "n-bbg-0739",
+ "num": 739,
+ "key": "mix-G2-029-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T05:53:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/novo-nordisk-loses-court-ruling-over-eli-lilly-obesity-drug-ads",
+ "origTitle": "",
+ "headline": "노보 노디스크, 릴리 비만약 광고 금지 가처분 패소…법원 '시장 영향 미미'",
+ "src": [
+  {
+   "o": "클레임스저널",
+   "d": "2026-10-27",
+   "u": "https://www.claimsjournal.com/news/national/2026/10/27/340924.htm"
+  },
+  {
+   "o": "벤징가",
+   "d": "2026-10-27",
+   "u": "https://www.benzinga.com/news/health-care/26/10/62612844/novo-nordisk-loses-court-bid-against-eli-lillys-weight-loss-drug-ads-judge-says-sales-impact-was-negligible"
+  },
+  {
+   "o": "피어스파마",
+   "d": "2024-06",
+   "u": "https://www.fiercepharma.com/manufacturing/41b-novo-nordisk-will-add-second-fill-finish-plant-nc-produce-ozempic-and-wegovy"
+  }
+ ],
+ "items": [
+  {
+   "t": "노보 노디스크, 릴리 비만약 광고 관련 미국 판결서 패소",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/novo-nordisk-loses-court-ruling-over-eli-lilly-obesity-drug-ads"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "노보 노디스크, 릴리 비만약 광고 금지 가처분 패소…법원 '시장 영향 미미'",
+ "one": "미국 법원이 일라이릴리의 비만약 비교 광고를 막아 달라는 노보 노디스크의 요청을 기각했다\n· 뉴저지 연방법원은 젭바운드·마운자로가 위고비·오젬픽보다 낫다는 광고를 본안 소송 중에도 허용했다\n· 판사는 4~7월 광고의 시장 영향이 미미했고 손해는 금전 배상으로 보전할 수 있다고 봤다",
+ "facts": [
+  "무엇이: 뉴저지 연방법원 쿠라이시 판사가 릴리의 젭바운드·마운자로 비교 광고를 일시 금지해 달라는 노보의 가처분 신청을 기각했다 [사실]",
+  "판단: 판사는 4~7월 광고의 시장 영향이 많아야 미미했고 금전 배상으로 손해를 보전할 수 있다고 봤으며, 광고의 오해 소지 여부는 판단하지 않았다 [사실]",
+  "쟁점: 노보는 7월 소송을 내며 릴리가 자사 약 고용량을 다루지 않은 연구를 근거로 했다고 주장했고 릴리는 잘못을 부인했다 [사실]",
+  "제외 글: 텔레그램이 새 소식으로 전한 노스캐롤라이나 클레이턴 공장 41억 달러 투자는 2024년 6월 발표 내용이라 기사 목록에서 뺐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "클레임스저널·벤징가 검색 결과 요약으로 가처분 기각 확인. 텔레그램 67433(클레이턴 41억 달러 투자)은 검색 결과 2024년 6월 발표의 재탕으로 확인돼 items에서 제외",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "obesity",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "노보 가처분 기각은 소송 판단이라 수급 변화 없음"
+  }
+ ]
+}

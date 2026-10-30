@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0463",
+ "num": 463,
+ "key": "split-G3-007-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/media-telecom/telecom-stocks-australia-nz-slide-after-spacex-spectrum-deal-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스페이스X 충격 호주·뉴질랜드로…텔스트라 2.5%·TPG 5% 가까이 하락",
+ "headline": "스페이스X 충격 호주·뉴질랜드로…텔스트라 2.5%·TPG 5% 가까이 하락",
+ "one": "스페이스X 주파수 충격이 번지면서 10월 12일 호주 텔스트라가 2.5% 내려 6주 최저를 기록하고 TPG텔레콤이 5% 가까이 떨어지는 등 호주·뉴질랜드 통신주가 줄줄이 하락했다",
+ "facts": [
+  "무엇이: 10월 12일 텔스트라가 2.5% 내린 6주 최저로, TPG텔레콤이 5% 가까이 떨어지는 등 호주·뉴질랜드 통신주가 하락했다 [사실]",
+  "배경: 스페이스X가 10월 9일 스타링크 모바일용 800MHz 대역 주파수 인수를 발표한 여파가 미국·유럽에 이어 번졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 12일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 사실 줄의 텔스트라·TPG 하락폭([사실])과 Kalkine Media·NZ Herald 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Kalkine Media",
+   "d": "2026-10-12",
+   "u": "https://kalkinemedia.com/au/stocks/communication/why-did-telstra-asxtls-fall-after-spacexs-reported-us-spectrum-deal"
+  },
+  {
+   "o": "NZ Herald",
+   "d": "2026-10-12",
+   "u": "https://www.nzherald.co.nz/business/companies/telecommunications/spark-shares-fall-after-elon-musks-spacex-spectrum-deal-rattles-telcos/premium/LQUL4S3N4JBUBBWRLD5TNYWWPA/"
+  }
+ ],
+ "items": [
+  {
+   "t": "스페이스X 주파수 거래 뒤 호주·뉴질랜드 통신주 하락",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/media-telecom/telecom-stocks-australia-nz-slide-after-spacex-spectrum-deal-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "텔스트라 2.5%·TPG텔레콤 5% 가까이 하락"
+  }
+ ]
+}

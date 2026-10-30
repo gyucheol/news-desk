@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0516",
+ "num": 516,
+ "key": "split-G4-118-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T05:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/boe-raise-rates-4-november-economists-narrowly-expect-hold-there-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로이터 조사 \"영란은행 11월 3.75%→4% 인상 뒤 동결\" 63명 중 54명 인상 전망",
+ "headline": "로이터 조사 \"영란은행 11월 3.75%→4% 인상 뒤 동결\" 63명 중 54명 인상 전망",
+ "one": "로이터가 10월 12~14일 조사한 이코노미스트 63명 중 54명이 영란은행이 11월 5일 기준금리를 3.75%에서 4%로 올릴 것으로 보면서, 인상 뒤 동결 전망이 근소하게 우세해 시장의 연속 인상 기대와 차이를 보였다",
+ "facts": [
+  "무엇이: 10월 12~14일 로이터 조사에서 이코노미스트 63명 중 54명이 11월 5일 기준금리를 3.75%에서 4.0%로 올릴 것으로 내다봤다 [사실]",
+  "경로: 인상 뒤 그 수준에 머물 것이라는 전망이 근소하게 우세했다 [사실]",
+  "시장과 차이: 영란은행은 9월 17일 6 대 3으로 동결했고, 시장은 내년 말까지 0.25%포인트씩 네 차례 인상을 반영하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 15일)이다. 63명 중 54명 인상 전망·9월 6 대 3 표결·시장 반영은 FX스트리트·홈오너스 얼라이언스 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "FX스트리트",
+   "d": "2026-10-15",
+   "u": "https://www.fxstreet.com/news/boe-to-hike-interest-rates-by-25-bps-to-4-in-november-reuters-poll-202610150945"
+  },
+  {
+   "o": "홈오너스 얼라이언스",
+   "d": "2026-10-17",
+   "u": "https://hoa.org.uk/news/interest-rate-predictions-2/"
+  }
+ ],
+ "items": [
+  {
+   "t": "로이터 조사: 영란은행 11월 4%로 인상 뒤 동결 전망 근소 우세",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/uk/boe-raise-rates-4-november-economists-narrowly-expect-hold-there-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "영란은행 11월 3.75%에서 4% 인상 전망 우세"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건을 묶음. 지분 2.25%와 종가 대비 약 12% 할증은 원 문서 사실 줄과 Business Today Malaysia·Free Malaysia Today 출처로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 말레이시아 국왕은 10월 13일 희토류로 확장하는 광산업체 서던얼라이언스 지분 2.25%를 최대주주로부터 사들였다 [사실]",
+  "가격: 매입가는 종가보다 약 12% 비쌌다 [사실]",
+  "사업: 서던얼라이언스의 조호르 라비스 희토류 사업에 관심이 쏠리며 말레이 희토류 개발에 왕실 자금이 들어갔다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "말레이 국왕, 서던얼라이언스 지분 2.25% 매입…희토류 확장 주목",
+ "id": "n-tg-0254",
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "말레이시아 국왕, 희토류로 확장하는 광산업체 지분 매입",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
+   "s": "말레이시아 국왕이 희토류로 사업을 넓히는 광산업체 지분을 사들이면서 말레이 희토류 개발에 왕실 자금이 들어갔다"
+  },
+  {
+   "t": "말레이 국왕, 서던얼라이언스 지분 매입…희토류 확장 박차",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/malaysias-king-buys-stake-southern-alliance-mining-firm-expands-rare-earths-push-2026-10-13/",
+   "s": "국왕이 최대주주로부터 서던얼라이언스 지분 2.25%를 종가보다 약 12% 비싸게 사면서 조호르 라비스 희토류 사업에 관심이 쏠리고 있다"
+  }
+ ],
+ "key": "mix-C044-2026-10-13",
+ "nodes": [],
+ "num": 254,
+ "one": "말레이시아 국왕이 10월 13일 희토류로 사업을 넓히는 광산업체 서던얼라이언스 지분 2.25%를 최대주주로부터 종가보다 약 12% 비싸게 사들이면서, 조호르 라비스 희토류 사업에 왕실 자금이 들어가 관심이 쏠리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T21:57:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Business Today Malaysia",
+   "d": "2026-10-13",
+   "u": "https://www.businesstoday.com.my/2026/10/13/sultan-ibrahim-acquires-2-25-stake-in-southern-alliance-mining-for-s6-1-million/"
+  },
+  {
+   "o": "Free Malaysia Today",
+   "d": "2026-10-13",
+   "u": "https://www.freemalaysiatoday.com/category/business/2026/10/13/king-buys-stake-in-mining-firm-expanding-into-rare-earths"
+  }
+ ],
+ "tags": [],
+ "title": "말레이 국왕, 서던얼라이언스 지분 2.25% 매입…희토류 확장 주목",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "critical",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "말레이 국왕 희토류 확장 광산업체 지분 매입"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "basis": "verified",
+ "check": "로이터 2건을 묶음. 주가 최대 5% 하락·연결 순이익 39% 증가·비용 증가는 Business Standard 검색 결과 요약으로 확인했고, 37.6%는 17일 로이터 기사 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 액시스은행 주가는 19일 장중 최대 5% 떨어졌고, 영업비용 증가와 트레저리 이익 둔화가 예상 하회 이유로 꼽혔다 [사실]",
+  "이익: 19일 보도는 연결 순이익 39% 증가로 전했고, 17일 로이터 보도는 순이익 7,003크로르 루피·37.6% 증가로 전해 기준에 따라 수치가 엇갈린다 [사실]",
+  "대출: 대출은 1년 전보다 23% 늘었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 액시스은행 분기 이익 늘고도 예상 하회…주가 최대 5%↓",
+ "id": "n-rtr-0217",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "인도 액시스은행 분기 이익 37.6% 증가…비용 늘어 예상 하회",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/india/indias-axis-bank-quarterly-profit-rises-376-misses-estimates-higher-costs-2026-10-17/",
+   "s": "액시스은행이 분기 순이익을 7,003크로르 루피로 37.6% 늘렸지만 비용 증가로 시장 예상에는 못 미쳤다"
+  },
+  {
+   "t": "인도 액시스은행, 분기 이익 예상 하회에 주가 하락",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/india/indias-axis-bank-slides-after-quarterly-profit-falls-short-expectations-2026-10-19/",
+   "s": "액시스은행 순이익이 비용 증가로 시장 예상에 못 미치면서 주가가 장중 최대 5% 떨어졌다"
+  }
+ ],
+ "key": "mix-C133-2026-10-13",
+ "nodes": [],
+ "num": 217,
+ "one": "액시스은행이 연결 순이익을 39% 늘렸지만(17일 로이터 보도는 7,003크로르 루피·37.6% 증가) 영업비용 증가와 트레저리 이익 둔화로 예상에 못 미치면서, 대출이 23% 늘었는데도 19일 주가가 장중 최대 5% 떨어졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:36:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Kotak Neo",
+   "d": "2026-10-17",
+   "u": "https://www.kotakneo.com/news/stocks/axis-bank-q2-fy27-results/"
+  },
+  {
+   "o": "Upstox",
+   "d": "2026-10-17",
+   "u": "https://upstox.com/news/market-news/stocks/hdfc-bank-vs-icici-bank-vs-axis-bank-here-s-how-top-private-lenders-fared-in-q2/article-183351/"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-19",
+   "u": "https://www.business-standard.com/amp/markets/news/axis-bank-shares-fall-5-despite-39-rise-in-q2-net-profit-here-s-why-126101900187_1.html"
+  }
+ ],
+ "tags": [],
+ "title": "인도 액시스은행 분기 이익 늘고도 예상 하회…주가 최대 5%↓",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/world/india/indias-axis-bank-quarterly-profit-rises-376-misses-estimates-higher-costs-2026-10-17/",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "이익 예상 하회에 액시스은행 주가 최대 5% 하락"
+  },
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "액시스은행 대출 1년 전보다 23% 증가"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0592",
+ "num": 592,
+ "key": "split-G6-099-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:57:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/trump-s-mineral-stockpile-prepares-up-to-1-billion-in-loans",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 프로젝트 볼트, 제조업체에 최대 10억 달러 대출 준비",
+ "headline": "美 프로젝트 볼트, 제조업체에 최대 10억 달러 대출 준비",
+ "one": "트럼프 정부의 광물 비축기구 프로젝트 볼트가 12곳 넘는 OEM 등 제조업체에 최대 10억 달러 초기 대출을 준비하고 맞춤형 자석·합금 비축에 나서면서, 중국 밖 핵심광물 생산·비축에 정부 자금이 들어갈 수 있다",
+ "facts": [
+  "무엇이: 프로젝트 볼트 운영사 VaultCo는 12곳 넘는 OEM 등 제조업체에 최대 10억 달러 규모 초기 대출을 준비하며 70곳 넘는 기업과 협의 중이다 [사실]",
+  "비축: VaultCo는 공급 차질에 대비해 맞춤형 자석·합금 비축에 나섰다 [사실]",
+  "재원: 재원은 미 수출입은행 100억 달러 대출과 약 20억 달러 민간 자금이다 [사실]",
+  "보도: 블룸버그가 10월 15일 최대 10억 달러 대출 준비를 전했고, 10월 19일 채널이 OEM 대상 초기 대출과 비축 착수를 다시 전했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건과 텔레그램 1건을 묶음. 최대 10억 달러 대출, 70곳 협의, 수출입은행 100억 달러는 MINING.COM·SupplyChainBrain 출처로 확인",
+ "src": [
+  {
+   "o": "MINING.COM",
+   "d": "2026-10-16",
+   "u": "https://www.mining.com/us-project-vault-readies-1b-loan-blitz-for-industry/"
+  },
+  {
+   "o": "SupplyChainBrain",
+   "d": "2026-10-16",
+   "u": "https://www.supplychainbrain.com/articles/45031-trumps-mineral-stockpile-prepares-up-to-1b-in-loans"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프의 광물 비축기구, 최대 10억 달러 대출 준비",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/trump-s-mineral-stockpile-prepares-up-to-1-billion-in-loans",
+   "s": "트럼프 정부의 광물 비축기구가 최대 10억 달러 대출을 준비하면서, 중국 밖 핵심광물 생산·비축에 정부 자금이 들어갈 수 있다 (제목 기준)"
+  },
+  {
+   "t": "美 프로젝트 볼트, 제조업체에 최대 10억 달러 대출 준비",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-19",
+   "u": "https://t.me/PipeBeom/6747",
+   "s": "프로젝트 볼트가 12곳 넘는 OEM에 최대 10억 달러 초기 대출을 준비하고 맞춤형 자석·합금 비축에 나서면서, 공급 차질에 대비한 핵심광물 재고 확보가 시작됐다"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "critical",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "프로젝트 볼트 최대 10억 달러 대출로 비축 수요 확대"
+  }
+ ]
+}

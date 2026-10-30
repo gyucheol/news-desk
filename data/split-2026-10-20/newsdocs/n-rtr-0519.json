@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0519",
+ "num": 519,
+ "key": "split-G4-126-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/options-uk-finance-minister-healey-october-28-budget-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로이터, 힐리 재무장관의 10월 28일 예산안 선택지 정리",
+ "headline": "로이터, 힐리 재무장관의 10월 28일 예산안 선택지 정리",
+ "one": "로이터가 힐리 영국 재무장관이 10월 28일 예산안에서 고를 수 있는 선택지를 정리했고, 같은 날 30년물 금리가 6.02%로 뛰고 이튿날 FT가 이란 전쟁발 약 120억 파운드 재정 구멍을 전하면서 선택 폭이 좁아질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 7일 로이터는 힐리 재무장관이 10월 28일 예산안에서 고를 수 있는 선택지를 정리했다 [제목]",
+  "금리: 같은 날 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였다 [사실]",
+  "재정 공백: 이튿날 FT는 이란 전쟁이 영국 재정에 약 120억 파운드 구멍을 냈다고 보도했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "힐리 영국 재무장관의 10월 28일 예산안 선택지",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/legal/transactional/options-uk-finance-minister-healey-october-28-budget-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "예산안 선택지 정리 단계로 방향 미정"
+  }
+ ]
+}

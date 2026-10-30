@@ -1,0 +1,163 @@
+[
+ {
+  "cid": "C142",
+  "attachTo": "",
+  "title": "무디스, 사하라 이남 아프리카 국가 전망 '긍정적'으로…AU는 첫 자체 신용평가사 출범",
+  "one": "무디스가 개혁 성과와 원자재 강세, 자금 조달 여건 개선을 들어 사하라 이남 아프리카 국가 신용 전망을 긍정적으로 바꾸고 아프리카연합이 첫 자체 신용평가사를 출범시키면서, 역내 국가의 차입 비용이 낮아질 여지가 생겼다",
+  "facts": [
+   "무엇이: 무디스가 10월 7일 사하라 이남 아프리카 국가 신용 전망을 긍정적으로 바꿨다 [사실]",
+   "근거: 역내 성장률을 2026·2027년 각 4.3%로, 정부부채는 2025년 GDP의 62.4%에서 2027년 56.6%로 낮아질 것으로 봤다 [사실]",
+   "위험: 케냐·잠비아는 2027년 정부 수입의 약 35%를 이자로 쓸 전망이며 평가 대상 25개국 중 투자등급은 보츠와나·모리셔스뿐이다 [사실]",
+   "AU: 아프리카연합이 모리셔스 포트루이스에 본부를 둔 아프리카신용평가사(AfCRA)를 출범시켰지만 첫 평가 시점은 정해지지 않았다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인",
+  "src": [
+   {
+    "o": "CNBC Africa",
+    "d": "2026-10-07",
+    "u": "https://www.cnbcafrica.com/2026/moodys-turns-positive-on-sub-saharan-african-countries"
+   },
+   {
+    "o": "Foreign Policy",
+    "d": "2026-10-08",
+    "u": "https://foreignpolicy.com/2026/10/08/africa-credit-rating-agency-borrowing-debt/"
+   }
+  ],
+  "inds": [
+   "macro"
+  ],
+  "nodes": [
+   "macro/fiscal"
+  ],
+  "items": [
+   {
+    "t": "무디스, 사하라 이남 아프리카 국가 전망 긍정적으로 전환",
+    "o": "로이터",
+    "d": "2026-10-07",
+    "u": "https://www.reuters.com/world/africa/moodys-turns-positive-sub-saharan-african-countries-2026-10-07/"
+   },
+   {
+    "t": "아프리카연합, 대륙 첫 신용평가사 출범",
+    "o": "로이터",
+    "d": "2026-10-08",
+    "u": "https://www.reuters.com/world/africa/african-union-launch-continents-first-credit-rating-agency-2026-10-07/"
+   }
+  ]
+ },
+ {
+  "cid": "C153",
+  "attachTo": "",
+  "title": "美 국제무역법원, 관세 환급 집단소송 인정…소송 안 낸 수입업체까지 환급 길 열려",
+  "one": "미 국제무역법원 이턴 판사가 아직 환급을 청구하지 않은 모든 수입업체를 대표하는 집단소송을 인정하면서, 대법원이 위법 판단한 트럼프 관세의 환급 대상이 소송 여력이 없는 중소 수입업체로 넓어질 수 있다",
+  "facts": [
+   "무엇이: 국제무역법원 리처드 이턴 판사가 10월 8일 환급을 청구하지 않은 모든 수입업체를 대표하는 집단소송(Freestyle World 대 CBP)을 인정했다 [사실]",
+   "규모: 대법원의 위법 판결 뒤 세관은 약 1300억 달러의 환급을 처리했다 [사실]",
+   "쟁점: 정부는 일부 청구는 개별 소송이 필요하다고 주장했고, 비원고 환급 명령에 대해 연방순회항소법원에 항소한 상태다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(Law360, Transport Topics). 판결문 원문은 확인 못 함",
+  "src": [
+   {
+    "o": "Transport Topics",
+    "d": "2026-10-08",
+    "u": "https://www.ttnews.com/articles/importers-class-trump-tariffs"
+   },
+   {
+    "o": "Law360",
+    "d": "2026-10-08",
+    "u": "https://www.law360.com/articles/2535991/trade-court-certifies-broad-ieepa-tariff-refund-class"
+   }
+  ],
+  "inds": [
+   "macro"
+  ],
+  "nodes": [
+   "macro/fiscal"
+  ],
+  "items": [
+   {
+    "t": "판사, 수입업체 손들어 트럼프 관세 환급 소송 확대",
+    "o": "블룸버그",
+    "d": "2026-10-09",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/judge-sides-with-importers-to-expand-trump-tariff-refund-fight"
+   }
+  ]
+ },
+ {
+  "cid": "C163",
+  "attachTo": "",
+  "title": "화웨이·JAC 마에스트로, 브레이크 페달 파손 시험에 부품 재설계…JAC 주가 하한가",
+  "one": "화웨이·JAC 합작 브랜드 마에스트로가 V800 3대 모두 급제동 시험에서 브레이크 페달 브래킷이 부러졌다는 영상이 나오자 부품 재설계와 무상 교체를 약속했지만, JAC 주가는 하한가로 떨어져 시가총액 약 62억 위안이 사라졌다",
+  "facts": [
+   "무엇이: 바이트댄스 계열 둥처디가 V800 3대를 시속 100km에서 반복 급제동한 결과 모두 페달 브래킷이 부러졌다고 공개했다 [사실]",
+   "대응: 마에스트로는 브래킷 설계를 개선하고 인도 차량에 무상 업그레이드를 하겠다고 했으며, 실사용 파손 사례는 없다고 밝혔다 [사실]",
+   "주가: JAC(안후이장화이자동차) 주가가 10월 8일 하한가로 떨어져 시가총액 약 62억 위안이 줄었다 [사실]",
+   "남은 점: 규제당국 발표나 리콜은 아직 없다 [사실]"
+  ],
+  "basis": "verified",
+  "check": "검색 결과 요약으로 확인(CnEVPost, CarNewsChina)",
+  "src": [
+   {
+    "o": "CnEVPost",
+    "d": "2026-10-08",
+    "u": "https://cnevpost.com/2026/10/08/maextro-v800-brake-test-controversy-jac-shares-fall/"
+   },
+   {
+    "o": "CarNewsChina",
+    "d": "2026-10-08",
+    "u": "https://carnewschina.com/2026/10/08/huawei-jacs-maextro-v800-faces-safety-scrutiny-following-brake-pedal-failure-reports/"
+   }
+  ],
+  "inds": [
+   "auto"
+  ],
+  "nodes": [],
+  "items": [
+   {
+    "t": "마에스트로, 시험 보고서에 주가 하락하자 브레이크 재설계 약속",
+    "o": "블룸버그",
+    "d": "2026-10-09",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/maextro-pledges-brake-redesign-after-stock-slides-on-test-report"
+   }
+  ]
+ },
+ {
+  "cid": "C173",
+  "attachTo": "",
+  "title": "카타르 최대 은행 QNB, 아시아 은행 주도로 25억 달러 대출 조달",
+  "one": "카타르국립은행(QNB)이 아시아 은행 주도의 5년 만기 신디케이트론을 수요가 몰려 20억 달러에서 25억 달러로 늘려 조달하면서, 역내 분쟁으로 물러났던 아시아 대주들이 걸프 금융시장으로 돌아오고 있음을 보여줬다",
+  "facts": [
+   "무엇이: QNB가 5년 만기 25억 달러 신디케이트론을 체결했고 금리는 SOFR+0.75%p다 [사실]",
+   "증액: 20여 개 대주단 수요로 당초 20억 달러에서 늘었고 주간사는 DBS·HSBC·ICBC·미즈호·스탠다드차타드다 [사실]",
+   "용도: 2023년 10월 체결한 3년 만기 20억 달러 대출 차환이다 [사실]",
+   "배경: 며칠 전 카타르에너지도 중국 은행에서 30억 달러를 조달해 아시아 대주의 걸프 복귀 신호로 해석된다 [사실]"
+  ],
+  "basis": "partial",
+  "check": "검색 결과 요약으로 확인했으나 2차 보도(Briefs, Zawya)도 블룸버그 보도를 인용한 것이며 QNB는 논평하지 않음",
+  "src": [
+   {
+    "o": "Zawya",
+    "d": "2026-10",
+    "u": "https://www.zawya.com/en/capital-markets/qatar-national-bank-raises-2.5bln-to-repay-existing-facility-report-1586360"
+   },
+   {
+    "o": "Briefs",
+    "d": "2026-10-08",
+    "u": "https://www.briefs.co/news/asian-lenders-anchor-2-5-billion-financing-for-qatar-nationa/"
+   }
+  ],
+  "inds": [
+   "fin"
+  ],
+  "nodes": [],
+  "items": [
+   {
+    "t": "카타르 최대 은행 QNB, 아시아 은행 주도 25억 달러 대출 체결",
+    "o": "블룸버그",
+    "d": "2026-10-08",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-08/top-qatari-bank-qnb-inks-2-5-billion-loan-led-by-asian-lenders"
+   }
+  ]
+ }
+]

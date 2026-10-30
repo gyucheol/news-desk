@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0575",
+ "num": 575,
+ "key": "split-G5-115-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/taiwan-warns-europe-dangers-dependence-china-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "대만, 유럽에 '중국 의존 위험' 경고…EU 대중 의존 축소 논의에 힘",
+ "headline": "대만, 유럽에 '중국 의존 위험' 경고…EU 대중 의존 축소 논의에 힘",
+ "one": "대만이 13일 유럽을 향해 중국에 대한 의존이 지닌 위험성을 경고하면서, 하이브리드차 합의 뒤 EU 안에서 이어지는 대중 의존 축소 논의에 힘을 싣고 나섰다 (제목 기준)",
+ "facts": [
+  "무엇이: 대만이 유럽에 중국 의존의 위험성을 경고했다 [제목]",
+  "의미: EU의 대중 의존 축소 논의에 힘을 실었다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "대만, 유럽을 향해 중국에 대한 의존이 지닌 위험성 경고",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/taiwan-warns-europe-dangers-dependence-china-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "대만의 경고, 수급 변화로 읽기 어려움"
+  }
+ ]
+}

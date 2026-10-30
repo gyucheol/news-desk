@@ -1,0 +1,73 @@
+{
+ "check": "텔레그램 1건·블룸버그 1건(8월 26일·9월 8일)을 묶었다. eVinci 임계 시험은 Interesting Engineering, 블루코어 투자 유치는 더레지스터 보도로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 웨스팅하우스가 eVinci 마이크로원자로의 영출력 임계 시험을 네바다주 NCERC에서 성공적으로 마쳤다(8월 26일 채널 전언) [사실]",
+  "eVinci: 히트파이프와 TRISO 연료를 결합한 소형 구조로 연료 교체 없이 최대 8년 연속 전력 공급을 목표로 하며 원격지·국방·우주 임무를 겨냥한다 [사실]",
+  "블루코어: 블루코어 에너지는 실버턴 파트너스가 이끈 5,000만 달러 시드 투자를 받아 누적 6,000만 달러를 모았다(9월 8일) [사실]",
+  "부유식: 바지선에 실은 경수로로 약 10MWe를 내며 항만·AI 데이터센터·해안 기반시설을 목표로 하고, 아직 시제품 모듈 단계로 NRC·해안경비대와 협의를 시작했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "웨스팅하우스 eVinci 영출력 임계 시험 통과…블루코어, 부유식 10MWe 원자로로 시드 5,000만 달러",
+ "id": "n-bbg-0014",
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "insight": {},
+ "key": "bbg4-06",
+ "nodes": [
+  "uranium/build",
+  "uranium/fabrication"
+ ],
+ "num": 14,
+ "processed": "2026-10-20",
+ "published": "2026-09-08",
+ "source": "텔레그램",
+ "src": [
+  {
+   "o": "Interesting Engineering",
+   "d": "2026-08-25",
+   "u": "https://interestingengineering.com/energy/westinghouse-evinci-microreactor-zero-power-criticality-test"
+  },
+  {
+   "o": "더레지스터",
+   "d": "2026-09-08",
+   "u": "https://www.theregister.com/systems/2026/09/08/floating-nuclear-startup-bluecore-lands-50m-funding-before-setting-sail/5295032"
+  }
+ ],
+ "tags": [],
+ "url": "https://t.me/TNBfolio/71056",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "title": "웨스팅하우스 eVinci 영출력 임계 시험 통과…블루코어, 부유식 10MWe 원자로로 시드 5,000만 달러",
+ "one": "마이크로·부유식 원자로 개발에서 웨스팅하우스가 히트파이프와 TRISO 연료를 쓰는 eVinci 마이크로원자로의 영출력 임계 시험을 네바다주 NCERC에서 마쳐 연료 교체 없이 최대 8년 전력 공급을 목표로 했고, 롱비치항의 블루코어 에너지는 실버턴 파트너스가 이끈 5,000만 달러 시드 투자(누적 6,000만 달러)를 받아 바지선 위 약 10MWe 경수로로 항만·AI 데이터센터를 겨냥한다",
+ "basis": "verified",
+ "items": [
+  {
+   "t": "웨스팅하우스 eVinci 마이크로원자로, 영출력 임계 시험 통과 — 연료 교체 없이 최대 8년 전력 공급 목표",
+   "o": "텔레그램",
+   "d": "2026-08-26",
+   "u": "https://t.me/TNBfolio/71056",
+   "s": "웨스팅하우스 eVinci 마이크로원자로가 영출력 임계 시험을 통과했고 연료 교체 없이 최대 8년 전력 공급을 목표로 한다"
+  },
+  {
+   "t": "부유식 원전 스타트업 블루코어, 시드 5,000만 달러 유치 — 바지선 위 약 10MWe 경수로로 항만·AI 데이터센터 겨냥",
+   "o": "블룸버그",
+   "d": "2026-09-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-08/bluecore-energy-raises-50-million-for-maritime-nuclear-system",
+   "s": "부유식 원전 스타트업 블루코어가 5,000만 달러 시드 투자를 받아 바지선 위 약 10MWe 경수로로 항만·데이터센터를 겨냥한다"
+  }
+ ],
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "eVinci 임계 시험 통과, 블루코어 부유식 원자로 투자 유치"
+  }
+ ],
+ "channel": "텔레그램"
+}

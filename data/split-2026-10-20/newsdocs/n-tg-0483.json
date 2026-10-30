@@ -1,0 +1,83 @@
+{
+ "id": "n-tg-0483",
+ "num": 483,
+ "key": "split-G2-152-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10338",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "휴전 발표 몇 시간 만에 러, 하르키우 CHP-5 발전소 공격…도시 전체 정전",
+ "headline": "휴전 발표 몇 시간 만에 러, 하르키우 CHP-5 발전소 공격…도시 전체 정전",
+ "one": "러시아가 11일 트럼프의 에너지 휴전 발표 몇 시간 만에 하르키우 CHP-5 화력발전소와 가스시설, 지토미르 변전소를 공격하면서, 하르키우 도시 전체가 정전·단수를 겪고 휴전의 실효성이 곧바로 흔들렸다",
+ "facts": [
+  "무엇이: 러시아가 11일 트럼프의 에너지 휴전 발표 몇 시간 만에 하르키우 CHP-5 화력발전소를 공격했다 [사실]",
+  "피해: 하르키우 도시 전체가 정전되고 물 공급도 끊겼다 [채널]",
+  "가스·변전소: 나프토가즈는 러시아가 휴전 선언 몇 시간 만에 하르키우 가스시설과 지토미르 변전소도 공격했다고 밝혔다 [채널]",
+  "크렘린: 크렘린은 휴전 합의 여부에 대한 공식 입장을 유보했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "트릴리온 2건·상상인 김진범 1건 텔레그램을 묶음. 휴전 발표 직후 하르키우 발전소 피격은 src 키이우인디펜던트·유로마이단프레스 제목으로 뒷받침되고, 정전·가스시설·크렘린 반응은 채널 기준",
+ "src": [
+  {
+   "o": "Kyiv Independent",
+   "d": "2026-10-11",
+   "u": "https://kyivindependent.com/russia-struck-kharkivs-power-plant-shortly-after-trump-announced-energy-ceasefire/"
+  },
+  {
+   "o": "Euromaidan Press",
+   "d": "2026-10-11",
+   "u": "https://euromaidanpress.com/2026/10/11/hours-after-trump-declared-an-energy-ceasefire-russia-hit-kharkiv-power-plant-one-of-200-plus-strikes-on-ukraines-grid-this-week-zelenskyy-says/"
+  }
+ ],
+ "items": [
+  {
+   "t": "에너지 휴전 발표 몇 시간 만에 러시아, 하르키우 발전소 공격",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10338",
+   "s": "러시아가 트럼프의 에너지 휴전 발표 몇 시간 만에 하르키우 발전소를 공격하면서, 채널은 러시아가 휴전 협정을 위반했다고 전했다"
+  },
+  {
+   "t": "하르키우 CHP-5 화력발전소 피격에 도시 전체 정전·단수",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10345",
+   "s": "러시아의 공격으로 하르키우 CHP-5 화력발전소가 피격되면서, 하르키우 도시 전체가 정전되고 물 공급도 끊겼다"
+  },
+  {
+   "t": "러시아, 휴전 선언 몇 시간 만에 하르키우 가스시설·지토미르 변전소 공격",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-12",
+   "u": "https://t.me/PipeBeom/6677",
+   "s": "나프토가즈는 러시아가 휴전 선언 몇 시간 만에 하르키우 가스시설과 지토미르 변전소를 공격했다고 밝혔고, 크렘린은 휴전 합의 여부에 대한 공식 입장을 유보했다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/geo",
+  "power/gen",
+  "power/grid"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "하르키우 CHP-5 화력발전소 피격에 도시 전체 정전"
+  }
+ ],
+ "channel": "트릴리온"
+}

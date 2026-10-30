@@ -1,0 +1,96 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약과 서울경제 영문판 열람으로 3분기 1.0%(전년 대비 3.4%), 민간소비 -0.2%, 반도체 성장 기여 확인. 0.35%p 상향은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 한은 속보치로 3분기 성장률은 전기 대비 1.0%, 전년 대비 3.4%로 8월 한은 전망 0.3%와 로이터 조사 예상 0.7%(16명), 2분기 0.6%를 웃돌았다 [사실]",
+  "부문: 수출 2.3%, 설비투자 4.1%, 정부소비 1.9% 늘었고 반도체가 성장의 약 절반을 차지했으며 민간소비는 0.2% 줄었다 [사실]",
+  "수출: 9월 수출은 1,209억 달러로 84% 늘어 최대였고 반도체 수출은 262.8% 늘어난 603억 달러였다 [사실]",
+  "연간: 3분기까지 누적 성장률은 3.6%이고 4분기 1.4% 이상 성장하면 연 4%도 가능하다 [사실]",
+  "한은 관계자: 올해 성장률 전망 0.35%p 상향, 민간소비는 4분기부터 2027년 1분기까지 점진 회복, 내년 반도체 생산 증가와 가격 상승폭 둔화를 전망했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "한국 3분기 성장률 1.0%로 예상 0.7% 상회…반도체 호조 속 민간소비 0.2% 감소",
+ "id": "n-rtr-0729",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "t": "한국 경제, 반도체 수출에 3분기 성장 개선 전망",
+   "u": "https://www.reuters.com/world/asia-pacific/south-korean-economys-growth-likely-picked-up-q3-chip-exports-2026-10-23/"
+  },
+  {
+   "t": "한국 성장률 예상 상회…반도체 호황이 약한 수요 가려",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
+   "s": "한국 3분기 성장률이 반도체 호황에 1.0%로 예상을 넘었지만 민간소비가 0.2% 줄어 내수 부진이 가려졌다"
+  },
+  {
+   "t": "한은 관계자 '소비 점진 회복…올해 성장률 전망 0.35%p 상향'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71061",
+   "s": "한은 관계자가 3분기 GDP를 반영해 올해 성장률 전망이 0.35%p 높아지고 민간소비는 2027년 1분기까지 점진 회복한다고 봤다"
+  }
+ ],
+ "key": "mix-G2-082-2026-10-23",
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "num": 729,
+ "one": "한국 3분기 성장률이 반도체 호조에 예상을 크게 넘었지만 민간소비는 뒷걸음질했다\n· 3분기 GDP는 전기 대비 1.0% 늘어 로이터 조사 16명 예상 0.7%와 2분기 0.6%를 웃돌았다\n· 앞서 9월 수출은 반도체가 262.8% 늘어난 데 힘입어 84% 급증한 1,209억 달러로 최대였다\n· 수출 2.3%, 설비투자 4.1%가 늘었고 반도체가 성장의 약 절반을 차지했다\n· 민간소비는 0.2% 줄어 2022년 4분기 이후 처음 감소했다\n· 한은 관계자는 올해 성장률 전망이 0.35%p 높아지고 소비는 2027년 1분기까지 점진 회복한다고 봤다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T09:38:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "Yahoo Finance",
+   "u": "https://finance.yahoo.com/economy/articles/south-korean-economys-growth-likely-054144476.html"
+  },
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-27",
+   "u": "https://en.sedaily.com/finance/2026/10/27/koreas-economy-grows-1-percent-in-q3-as-chips-boom-but"
+  },
+  {
+   "o": "Korea JoongAng Daily",
+   "d": "2026-10-27",
+   "u": "https://www.koreajoongangdaily.com/business/koreas-gdp-expands-1-in-q3-on-strong-exports-investment-bok/12939633"
+  }
+ ],
+ "tags": [],
+ "title": "한국 3분기 성장률 1.0%로 예상 0.7% 상회…반도체 호조 속 민간소비 0.2% 감소",
+ "url": "https://www.reuters.com/world/asia-pacific/south-korean-economys-growth-likely-picked-up-q3-chip-exports-2026-10-23/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "3분기 성장률 1.0%로 예상 상회"
+  },
+  {
+   "ind": "consumer",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "민간소비 0.2% 감소"
+  }
+ ],
+ "added": "블룸버그·텔레그램 2건 — 3분기 성장률 1.0%(전년 대비 3.4%) 속보치와 민간소비 0.2% 감소, 한은 관계자의 성장률 전망 0.35%p 상향 내용이 추가됨",
+ "updatedAt": "2026-10-27T21:25:26+09:00",
+ "ind": "semis"
+}

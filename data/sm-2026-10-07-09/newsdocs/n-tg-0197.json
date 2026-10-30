@@ -1,0 +1,95 @@
+{
+ "basis": "partial",
+ "channel": "트릴리온",
+ "check": "얀덱스 데이터센터 피해와 드론 399대는 검색 결과 요약(CNBC·NBC·모스크바타임스)으로 확인. '최대 정유소'가 옴스크인지는 목격자 증언뿐이라 확인 못 함. 수출 통계와 한국 부인은 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 우크라이나가 10월 8일 러시아 최대 정유소를 타격했다고 밝혔다 [제목]",
+  "얀덱스: 랴잔주 사소보 데이터센터가 드론 공격으로 불이 나 가동을 멈췄고, 러시아 데이터 거점에 대한 첫 대형 공격이다 [사실]",
+  "규모: 러시아 국방부는 하룻밤 사이 18개 지역에서 드론 399대를 격추했다고 밝혔다 [사실]",
+  "수출: 러시아 석유제품 수출은 늘었지만 디젤 선적은 급감했다 [제목]",
+  "한국: 우크라이나 측 보도와 달리 한국 정부는 러시아 연료난을 덜어줬다는 주장을 부인했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우크라 드론, 살라바트 이어 러시아 최대 정유소·얀덱스 데이터센터 타격",
+ "id": "n-tg-0197",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-10189",
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "num": 197,
+ "one": "우크라이나 드론이 가스프롬 살라바트 정유단지에 이어 러시아 최대 정유소와 얀덱스 데이터센터까지 공격하면서, 러시아 디젤 수출이 줄어든 가운데 석유제품 공급 차질과 기반시설 피해가 넓어지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T01:26:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Meduza",
+   "u": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Militarnyi",
+   "u": "https://militarnyi.com/en/news/drones-strike-salavat-oil-refinery-in-bashkortostan-fire-erupts/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-08",
+   "u": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915"
+  }
+ ],
+ "tags": [],
+ "title": "우크라 드론, 살라바트 이어 러시아 최대 정유소·얀덱스 데이터센터 타격",
+ "url": "https://t.me/Trillion_labs/10189",
+ "items": [
+  {
+   "t": "우크라이나 드론, 러시아 가스프롬 살라바트 정유단지 타격…화재",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-08",
+   "u": "https://t.me/Trillion_labs/10189"
+  },
+  {
+   "t": "한국, 러시아 연료난 완화했다는 우크라이나 보도 부인",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/energy/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis-2026-10-07/"
+  },
+  {
+   "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+  },
+  {
+   "t": "우크라이나 '러시아 최대 정유소 타격'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/energy/ukraine-says-it-hit-russias-largest-oil-refinery-2026-10-08/"
+  },
+  {
+   "t": "드론, 얀덱스 데이터센터 타격…러시아 데이터 거점에 첫 대형 공격",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

@@ -1,0 +1,76 @@
+{
+ "basis": "verified",
+ "check": "주주권리계획 도입·10%/20% 발동 기준·2027년 10월 27일 만료는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 다인브랜즈 이사회가 인수 시도를 막기 위해 2027년 10월 27일 만료되는 한시적 주주권리계획(포이즌필)을 도입했다 [사실]",
+  "발동 조건: 지분 10%(수동 투자자는 20%)를 넘기면 권리가 발동되며 기존 초과 보유자는 현재 지분 수준까지 예외가 인정된다 [사실]",
+  "인수 제안: 코블러스 코브 캐피털과 아크하우스가 10월 26일 주당 39달러 현금 인수를 제안했고, 제안가는 최근 주가 34.68달러를 웃돌며 주가는 10월 28일 9.3% 올랐다 [사실]",
+  "지분: 투자자 그룹은 여러 금융상품으로 지분 약 20%를 쥐고 있고 실사·경영진 협의 뒤 제안가 인상을 검토한다 [사실]",
+  "배경: 다인은 애플비·IHOP 가맹 사업과 퍼지스 타코숍을 갖고 있으며, 앞서 행동주의 투자자가 부채 5억 달러 차환과 배당 조정을 요구했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "다인브랜즈, 코블러스·아크하우스 주당 39달러 인수 제안에 포이즌필 도입…지분 10% 넘으면 발동",
+ "id": "n-bbg-0778",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "t": "애플비 모회사, 코블러스·아크하우스서 인수 제안 받아",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/applebee-s-owner-said-to-get-buyout-bid-from-cobblers-arkhouse"
+  },
+  {
+   "t": "애플비 모회사 다인브랜즈, 인수 저지 위해 포이즌필 도입",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/applebee-s-owner-adopts-poison-pill-to-fend-off-hostile-takeover",
+   "s": "다인브랜즈가 지분 10%를 넘기면 발동하는 포이즌필을 도입하면서 코블러스·아크하우스의 주당 39달러 인수 시도에 제동을 걸었다"
+  }
+ ],
+ "key": "mix-G-043-2026-10-29",
+ "nodes": [],
+ "num": 778,
+ "one": "애플비·IHOP 모회사 다인브랜즈가 주당 39달러 인수 제안을 받은 뒤 포이즌필을 도입했다\n· 코블러스 코브·아크하우스의 제안가는 최근 주가 34.68달러를 웃돌았고 다인 주가는 10월 28일 9.3% 올랐다\n· 투자자 그룹은 스와프 등으로 지분 약 20%를 쥐고 있고 실사 뒤 제안가 인상도 검토한다\n· 다인 이사회는 지분 10%(수동 투자자 20%)를 넘기면 발동하는 주주권리계획을 1년 한시로 도입했다",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T00:21:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-28",
+   "o": "GuruFocus",
+   "u": "https://www.gurufocus.com/news/9149316/dine-brands-global-din-shares-jump-93-on-buyout-proposal-from-major-investors"
+  },
+  {
+   "o": "FSR magazine",
+   "d": "2026-10-29",
+   "u": "https://www.fsrmagazine.com/feature/dine-brands-receives-reported-buyout-bid-adopts-poison-pill/"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-29",
+   "u": "https://seekingalpha.com/news/4660123-dine-brands-adopts-shareholder-rights-plan-amid-report-of-takeover-offer"
+  }
+ ],
+ "tags": [],
+ "title": "다인브랜즈, 코블러스·아크하우스 주당 39달러 인수 제안에 포이즌필 도입…지분 10% 넘으면 발동",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/applebee-s-owner-said-to-get-buyout-bid-from-cobblers-arkhouse",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "dining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "주당 39달러 인수 제안에 다인 주가 9.3% 상승"
+  }
+ ],
+ "added": "블룸버그 1건 — 다인브랜즈가 인수를 막으려 지분 10% 기준으로 발동하는 포이즌필(2027년 10월 만료)을 도입한 내용이 추가됨",
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

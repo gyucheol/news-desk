@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0383",
+ "num": 383,
+ "key": "split-G1-053-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "파키스탄 무니르의 군대 걸프 역할…의회는 배제돼",
+ "headline": "파키스탄 무니르의 군대 걸프 역할…의회는 배제돼",
+ "one": "파키스탄 무니르의 군대가 걸프 지역에서 역할을 맡게 됐지만 파키스탄 의회는 이 결정에 관여하지 못하면서, 사우디 방위 지원을 둘러싼 파키스탄의 군사 개입이 의회 논의 없이 진행되고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 파키스탄 무니르의 군대가 걸프 역할을 맡고 있지만 파키스탄 의회는 관여하지 못하고 있다 [제목]",
+  "배경: 사우디는 요격탄 재고 부족 속 튀르키예·파키스탄·유럽에 방공 지원을 요청했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "무니르의 군대가 걸프 역할 맡는데 파키스탄 의회는 배제돼",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/munirs-military-takes-gulf-role-pakistans-parliament-is-not-involved-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "파키스탄군 걸프 역할 확대, 의회는 배제"
+  }
+ ]
+}

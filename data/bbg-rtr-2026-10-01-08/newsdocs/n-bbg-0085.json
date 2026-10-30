@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0085",
+ "feed": "v5",
+ "format": "one1",
+ "num": 85,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1007-antofagasta-centinela-strike",
+ "published": "2026-10-07",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity"
+ ],
+ "title": "안토파가스타 칠레 센티넬라 구리 광산 노조, 중재 결렬 뒤 파업 돌입 예고",
+ "one": "안토파가스타의 칠레 센티넬라 구리 광산 두 노조(708명)가 정부 중재가 결렬되자 10월 7일 파업에 들어가기로 하면서, 그룹 생산의 약 3분의 1을 맡은 광산의 조업 차질 우려가 높은 구리값을 더 떠받칠 수 있다",
+ "headline": "안토파가스타 칠레 센티넬라 구리 광산 노조, 중재 결렬 뒤 파업 돌입 예고",
+ "facts": [
+  "무엇이: 센티넬라 광산의 미네라 에스페란사·디스트리토 센티넬라 두 노조(조합원 708명)가 10월 6일 정부 의무 중재가 합의 없이 끝나자 7일 오전 8시(현지) 파업 돌입을 예고했습니다. [사실]",
+  "왜: 다른 노조와 같은 일을 하면서 임금·복지가 낮다며 차별 해소를 요구했고 9월 말 투표에서 98.73%가 파업에 찬성했습니다. 회사는 차별을 부인하며 대화에 열려 있다고 밝혔습니다. [사실]",
+  "얼마나: 센티넬라는 상반기 구리 9만 7,100톤(1년 전보다 16% 감소)을 생산했고 이는 그룹 생산 28만 5,000톤의 약 3분의 1입니다. [사실]",
+  "배경: 런던 구리값은 10월 6일 파운드당 6.58달러(코칠코)였고, BHP 에스콘디다 감독직 노조도 94.8%로 파업을 가결해 5일 중재가 신청됐습니다. [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 리오타임스(10-07)·SMM(10-07) 보도로 작성. 파업이 실제로 시작됐는지, 참여 인원과 생산 차질 규모는 확인하지 못함(두 출처 모두 '예고' 단계).",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/antofagasta-copper-miners-to-strike-as-high-prices-fan-tensions"
+  },
+  {
+   "o": "리오타임스",
+   "d": "2026-10-07",
+   "u": "https://www.riotimesonline.com/chile-copper-mine-strike-centinela-2026/"
+  },
+  {
+   "o": "SMM(상하이메탈마켓)",
+   "d": "2026-10-07",
+   "u": "https://news.metal.com/newscontent/104144099-centinela-copper-mine-mediation-ends-without-agreement-strike-could-begin-october-7"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Antofagasta Copper Miners Strike as High Prices Fan Tensions",
+ "dupOf": "bbg-074"
+}

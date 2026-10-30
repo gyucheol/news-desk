@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0724",
+ "num": 724,
+ "key": "mix-G2-068-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:14:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/",
+ "origTitle": "",
+ "headline": "유니세프·가비, GSK 모스키릭스 말라리아 백신값 40% 인하…도스당 5.5유로",
+ "src": [
+  {
+   "o": "TimesLIVE",
+   "d": "2026-10-22",
+   "u": "https://www.timeslive.co.za/news/sci-tech/2026-10-22-unicef-and-gavi-agree-to-cut-mosquirix-malaria-vaccine-price-by-40/"
+  },
+  {
+   "o": "RTTNews",
+   "d": "2026-10-22",
+   "u": "https://www.rttnews.com/3701934/gavi-unicef-cut-gsk-mosquirix-vaccine-price-by-40.aspx"
+  }
+ ],
+ "items": [
+  {
+   "t": "유니세프·가비, 모스키릭스 말라리아 백신값 40% 인하 합의",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/unicef-gavi-agree-cut-mosquirix-malaria-vaccine-price-by-40-2026-10-22/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "유니세프·가비, GSK 모스키릭스 말라리아 백신값 40% 인하…도스당 5.5유로",
+ "one": "유니세프와 가비가 말라리아 백신 모스키릭스 가격을 약 40% 내리는 데 합의했다\n· 도스당 5.5유로로 낮아져 2027~2029년 약 5,000만 달러를 아낄 것으로 예상된다\n· 생산은 GSK에서 인도 바라트바이오텍으로 넘어가며 2028년까지 이전을 마친다",
+ "facts": [
+  "무엇이: 유니세프·가비가 모스키릭스 가격을 약 40% 내린 도스당 5.5유로(약 6.16달러)로 합의했다 [사실]",
+  "효과: 2027~2029년 약 5,000만 달러 절감이 예상되며 새 가격은 2027년 초 적용된다 [사실]",
+  "생산: GSK에서 바라트바이오텍으로 생산이 넘어가고 GSK는 보조제를 계속 공급하며, 새 공장의 WHO 사전적격성 인증이 조건이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(타임즈라이브·RTT뉴스)으로 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "payers",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "모스키릭스 말라리아 백신값 40% 인하 합의"
+  }
+ ]
+}

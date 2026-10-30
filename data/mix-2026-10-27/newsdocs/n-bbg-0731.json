@@ -1,0 +1,96 @@
+{
+ "id": "n-bbg-0731",
+ "num": 731,
+ "key": "mix-G2-011-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-minimum-wages-set-for-4-rise-as-healey-slows-hike-for-youth",
+ "origTitle": "",
+ "headline": "영국 버넘 정부 첫 예산 앞두고 최저임금 4% 인상…긴축 예산에 파운드 약세 압력",
+ "src": [
+  {
+   "o": "브릿브리프",
+   "d": "2026-10-26",
+   "u": "https://britbrief.co.uk/business/economy/healey-to-announce-4-minimum-wage-rise-slower-hikes-for-young.html"
+  },
+  {
+   "o": "GB뉴스",
+   "d": "2026-10-26",
+   "u": "https://www.gbnews.com/money/budget-2026-john-healey-labour-chancellor-minimum-wage-hike"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국, 최저임금 4% 인상…버넘 총리 생계비 해법 모색",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/uk-minimum-wages-set-for-4-rise-as-healey-slows-hike-for-youth",
+   "s": "영국 정부가 버넘 총리의 생계비 대책으로 최저임금을 약 4% 올려 21세 이상 시급을 약 13.20파운드로 높이되 청년층 인상 폭은 줄이기로 했다"
+  },
+  {
+   "t": "존 힐리 재무장관이 버넘 정부 첫 예산에 담을 구상",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/what-john-healey-plans-in-the-first-budget-of-andy-burnham-s-uk-premiership",
+   "s": "블룸버그가 힐리 재무장관이 버넘 총리 취임 뒤 첫 예산에 담을 구상을 정리하면서 발표를 앞둔 영국 재정의 쟁점을 짚었다 (제목 기준)"
+  },
+  {
+   "t": "되살아난 영국 증시 매력, 어려운 예산 시험대에 서",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/uk-s-renewed-appeal-runs-into-a-tough-budget-test-taking-stock",
+   "s": "투자자 사이에서 되살아난 영국 자산 매력이 버넘 정부 첫 예산이라는 까다로운 시험대에 오르면서 예산 내용에 따라 흐름이 갈릴 수 있다 (제목 기준)"
+  },
+  {
+   "t": "영국의 예산 긴축에 파운드화가 대가를 치를 수도",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/pound-may-have-to-pay-the-price-for-britain-s-budget-restraint",
+   "s": "영국 예산이 지출을 억제하는 쪽으로 짜이면서 파운드화가 그 대가로 약세 압력을 받을 수 있다는 전망이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/fx",
+  "macro/inflation"
+ ],
+ "title": "영국 버넘 정부 첫 예산 앞두고 최저임금 4% 인상…긴축 예산에 파운드 약세 압력",
+ "one": "영국 버넘 정부의 첫 예산을 앞두고 힐리 재무장관이 최저임금 약 4% 인상을 준비했다\n· 21세 이상 최저 시급은 12.71파운드에서 약 13.20파운드로 오르고 18~20세 인상 폭은 줄어든다\n· 인상률은 9월 소비자물가 상승률 3.5%를 웃돌아 기업의 고용 비용 부담 우려가 나온다\n· 블룸버그는 되살아난 영국 증시 매력이 이번 예산에서 어려운 시험대에 오른다고 봤다\n· 지출을 억제하는 예산에 파운드가 약세라는 대가를 치를 수 있다는 전망도 나왔다",
+ "facts": [
+  "무엇이: 힐리 재무장관이 10월 28일 버넘 정부 첫 예산에서 최저임금을 약 4% 올릴 것이라고 보도됐다 [사실]",
+  "세부: 21세 이상 시급은 12.71파운드에서 약 13.20파운드로, 18~20세는 10.85파운드에서 약 11.27파운드로 내년 4월부터 오를 예정이다 [사실]",
+  "물가: 9월 소비자물가 상승률은 3.5%로 최저임금 인상률이 이를 웃돌며, 영국경영자협회는 고용 비용 부담을 경고했다 [사실]",
+  "시장: 되살아난 영국 증시 매력이 예산 시험대에 놓였고 긴축적인 예산에 파운드가 약세 압력을 받을 수 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "브릿브리프·GB뉴스 등 사전 보도 검색 결과 요약으로 최저임금 약 4%·13.20파운드 확인. 예산 구상·증시 매력·파운드 전망은 제목만 근거",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 최저임금 약 4% 인상 예정"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "긴축 예산에 파운드 약세 압력 전망"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "n-rtr-0365",
+ "num": 365,
+ "key": "mix-G2-040-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:52:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/",
+ "origTitle": "",
+ "headline": "AI 칩 경쟁…아마존 칩 파이토치 지원, 엔비디아는 경쟁 칩 쓴 네오클라우드 배제",
+ "src": [
+  {
+   "o": "About Amazon",
+   "d": "2026-10-19",
+   "u": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
+  },
+  {
+   "o": "PyTorch 블로그",
+   "d": "2026-10-19",
+   "u": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+  }
+ ],
+ "items": [
+  {
+   "t": "아마존 'AI 칩, 인기 코딩 언어와 호환'…엔비디아에 도전",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/",
+   "s": "아마존이 트레이니엄 칩에서 파이토치 모델을 코드 수정 없이 돌리는 TorchNeuron을 내놓으면서, 엔비디아 소프트웨어 생태계의 고객 묶어두기에 도전했다"
+  },
+  {
+   "t": "세미애널리시스 '엔비디아, 경쟁 칩 도입한 네오클라우드 GTC 베를린 참가 제한'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-20",
+   "u": "https://t.me/insidertracking/66722",
+   "s": "엔비디아가 AMD·구글 칩을 들인 일부 소규모 네오클라우드의 GTC 베를린 참가를 막았다는 분석이 나오면서, 의존도 높은 업체들의 경쟁 칩 도입이 더 어려워질 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "semis",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "AI 칩 경쟁…아마존 칩 파이토치 지원, 엔비디아는 경쟁 칩 쓴 네오클라우드 배제",
+ "one": "아마존이 자체 AI 칩 트레이니엄에서 파이토치 코드를 고치지 않고 돌리는 TorchNeuron을 내놓고 엔비디아는 AMD·구글 칩을 들인 일부 네오클라우드의 GTC 베를린 참가를 막은 것으로 알려지면서, 엔비디아 중심 AI 가속기 시장에서 대체 칩 경쟁과 고객 압박이 함께 커지고 있다",
+ "facts": [
+  "무엇이: 아마존과 파이토치 팀은 트레이니엄을 표준 파이토치 장치로 등록해 코드 수정 없이 모델을 돌리는 TorchNeuron을 10월 20일부터 공개 베타로 내놓는다 [사실]",
+  "범위: TorchNeuron은 트레이니엄2·3에서 즉시 실행·torch.compile·분산 학습을 지원하고, 이전의 XLA 방식 연동을 대신한다 [사실]",
+  "엔비디아: 세미애널리시스에 따르면 엔비디아는 AMD 가속기·구글 TPU를 도입한 일부 소규모 네오클라우드의 GTC 베를린 참가를 제한했고, 엔비디아는 공식 입장을 내지 않았다 [채널]",
+  "배경: 엔비디아 의존도가 높은 소규모 네오클라우드 일부는 보복을 우려해 경쟁사 가속기 제공 사실을 드러내지 않는 것으로 전해졌다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "아마존 TorchNeuron(트레이니엄 파이토치 기본 지원, 10월 20일 공개 베타)은 아마존·파이토치 공식 글 검색 결과 요약으로 확인. 엔비디아의 네오클라우드 GTC 베를린 참가 제한은 확인 못 함",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "design",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "아마존 트레이니엄, 코드 수정 없이 파이토치 지원"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

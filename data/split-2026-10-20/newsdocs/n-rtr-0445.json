@@ -1,0 +1,91 @@
+{
+ "id": "n-rtr-0445",
+ "num": 445,
+ "key": "split-G2-142-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "우크라 드론, 얀덱스 데이터센터 잇단 타격…택시·지도 서비스 차질",
+ "headline": "우크라 드론, 얀덱스 데이터센터 잇단 타격…택시·지도 서비스 차질",
+ "one": "우크라이나 드론이 8~9일 러시아 얀덱스 데이터센터 두 곳을 잇달아 타격해 러시아 데이터 거점이 처음으로 대형 공격을 받으면서 얀덱스 택시·지도 서비스가 차질을 빚었고, 채널은 데이터센터 4곳 파괴로 러시아·벨라루스 전역에 혼란이 생겼다고 주장했다",
+ "facts": [
+  "무엇이: 우크라이나 드론이 8일 러시아 얀덱스 데이터센터를 타격해 러시아 데이터 거점이 처음으로 대형 공격을 받았고, 9일에는 두 번째 데이터센터도 공격받았다 [사실]",
+  "서비스: 데이터센터 피격으로 얀덱스의 택시·지도 서비스가 차질을 빚었다 [제목]",
+  "채널 주장: 채널은 얀덱스 데이터센터 4곳이 파괴돼 기업들이 고객 데이터와 클라우드 저장소를 잃고 러시아·벨라루스 전역에 서비스 혼란이 생겼다고 주장했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "로이터 2건·블룸버그 1건·트릴리온 텔레그램 1건을 묶음. 첫 번째·두 번째 데이터센터 피격은 src CNBC·모스크바타임스 제목으로 뒷받침되고, 택시·지도 차질은 제목 기준, 4곳 파괴는 채널 주장",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-08",
+   "u": "https://www.themoscowtimes.com/2026/10/08/ukrainian-drones-hit-yandex-data-center-after-wave-of-russian-attacks-a93915"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-09",
+   "u": "https://www.themoscowtimes.com/2026/10/09/ukraine-drones-hit-second-yandex-data-center-in-two-days-a93927"
+  }
+ ],
+ "items": [
+  {
+   "t": "드론, 얀덱스 데이터센터 타격…러시아 데이터 거점에 첫 대형 공격",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/drones-hit-yandex-data-centre-first-major-attack-russian-data-hub-2026-10-08/",
+   "s": "드론이 얀덱스 데이터센터를 타격하면서, 러시아 데이터 거점이 처음으로 대형 공격을 받아 온라인 서비스에 차질이 생길 수 있다 (제목 기준)"
+  },
+  {
+   "t": "러시아 얀덱스 '두 번째 데이터센터도 드론 공격 받아'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/",
+   "s": "얀덱스가 두 번째 데이터센터도 드론 공격을 받았다고 밝히면서, 러시아 데이터 인프라의 피해가 확대될 수 있다 (제목 기준)"
+  },
+  {
+   "t": "얀덱스 데이터센터 4곳 파괴로 러시아 전역 서비스 혼란 주장",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10369",
+   "s": "채널은 얀덱스 데이터센터 4곳이 파괴돼 기업들이 고객 데이터와 클라우드 저장소를 잃으면서, 러시아·벨라루스 전역에 서비스 혼란이 생겼다고 주장했다"
+  },
+  {
+   "t": "우크라이나 데이터센터 타격에 얀덱스 택시·지도 서비스 차질",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/yandex-taxi-map-services-curbed-after-ukraine-hits-data-centers",
+   "s": "우크라이나의 데이터센터 공격으로 얀덱스의 택시·지도 서비스가 차질을 빚으면서, 러시아 이용자들의 일상 서비스가 제약을 받았다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "얀덱스 데이터센터 피격에 택시·지도 서비스 차질"
+  }
+ ]
+}

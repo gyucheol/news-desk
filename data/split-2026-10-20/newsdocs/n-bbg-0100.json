@@ -1,0 +1,95 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 2건·로이터 1건·텔레그램 TNBfolio 1건(10월 13~14일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 순부채 축소와 46.7달러는 원 문서 사실 줄([사실])과 BP 3분기 트레이딩 스테이트먼트·TipRanks 보도를 근거로 붙였다. 손상차손 규모는 채널 전언이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: BP는 10월 13일 3분기 안내에서 순부채가 2분기 223억 달러에서 135억~145억 달러로 줄어 2027년 순부채 목표를 약 1년 앞당겨 달성하게 됐다고 밝혔다 [사실]",
+  "정제: 3분기 정제 지표 마진은 배럴당 46.7달러였다 [사실]",
+  "트레이딩: 이란 전쟁으로 석유·가스 트레이딩이 호조를 보였고, 오일 트레이딩은 정체됐지만 3분기 가스 트레이딩 실적은 전분기를 크게 웃돌 것으로 예상됐다 [사실]",
+  "부담: 채널은 정제 마진이 1년 전의 약 3배로 뛰었지만 가스·저탄소 부문에서 30억~45억 달러 손상차손이 생길 전망이라고 전했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "BP 정제 마진 46.7달러로 3배…순부채 2027년 목표 1년 앞당겨 달성",
+ "id": "n-bbg-0100",
+ "incentive": "",
+ "inds": [
+  "oil",
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "BP, 에너지 트레이딩·정제 호조에 힘입어 부채 대폭 축소",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/bp-debt-shrinks-with-boost-from-oil-and-gas-trading-refining",
+   "s": "BP가 에너지 트레이딩과 정제 호조에 힘입어 순부채를 2분기 223억 달러에서 135억~145억 달러로 줄이면서 재무구조가 개선됐다"
+  },
+  {
+   "t": "BP, 이란 전쟁發 석유·가스 트레이딩 호조에 2027년 순부채 목표 달성",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/bp-reaches-net-debt-2027-target-as-iran-war-boosts-oil-gas-trading",
+   "s": "이란 전쟁으로 석유·가스 트레이딩이 호조를 보이자 BP가 2027년 순부채 목표를 약 1년 앞당겨 달성하게 됐다"
+  },
+  {
+   "t": "BP 3분기 정제 마진 46.7달러로 1년 새 3배…손상차손 최대 45억 달러",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71527",
+   "s": "BP 3분기 정제 지표 마진이 배럴당 46.7달러로 1년 전의 약 3배로 뛰었지만 가스·저탄소 부문에서 30억~45억 달러 손상차손이 발생할 전망이다"
+  },
+  {
+   "t": "BP, 3분기 가스 트레이딩 실적 크게 개선 예상",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/bp-expects-significantly-higher-gas-trading-third-quarter-2026-10-13/",
+   "s": "BP가 3분기 가스 트레이딩 실적이 전분기를 크게 웃돌 것으로 예상하면서 오일 트레이딩 정체에도 트레이딩 이익이 늘 전망이다"
+  }
+ ],
+ "key": "bbg-1007-shell-q3-refining-margin",
+ "nodes": [
+  "gas/trade"
+ ],
+ "num": 100,
+ "one": "BP가 10월 13일 3분기 안내에서 정제 지표 마진이 배럴당 46.7달러로 뛰고 가스 트레이딩도 좋아져 순부채를 223억 달러에서 135억~145억 달러로 줄였다고 밝히면서, 2027년 목표를 약 1년 앞당겼지만 손상차손 부담도 생겼다",
+ "origTitle": "Shell Sees Record Refining Margins as War Roils Fuel Markets",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:14:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "BP 3분기 트레이딩 스테이트먼트",
+   "d": "2026-10-13",
+   "u": "https://www.bp.com/press-and-publications/press-releases/third-quarter-2026-trading-statement"
+  },
+  {
+   "o": "TipRanks",
+   "d": "2026-10-13",
+   "u": "https://www.tipranks.com/news/company-announcements/bp-signals-lower-net-debt-and-major-impairments-in-third-quarter-2026-trading-update"
+  }
+ ],
+ "tags": [],
+ "title": "BP 정제 마진 46.7달러로 3배…순부채 2027년 목표 1년 앞당겨 달성",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/bp-debt-shrinks-with-boost-from-oil-and-gas-trading-refining",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "BP 3분기 정제 지표 마진 배럴당 46.7달러"
+  },
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "BP 3분기 가스 트레이딩 실적 크게 개선 예상"
+  }
+ ]
+}

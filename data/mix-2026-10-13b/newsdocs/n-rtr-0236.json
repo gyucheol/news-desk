@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0236",
+ "num": 236,
+ "key": "mix-C061-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T02:25:00+09:00",
+ "url": "https://www.reuters.com/world/americas/canadas-employment-surprisingly-shrinks-september-jobless-rate-inches-up-2026-10-09/",
+ "origTitle": "",
+ "headline": "캐나다 9월 일자리 6만8천 개 증발…{{캐나다달러}} 18개월 저점",
+ "src": [
+  {
+   "o": "Statistics Canada",
+   "d": "2026-10-09",
+   "u": "https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-10-09",
+   "u": "https://www.cbc.ca/news/business/canada-jobs-numbers-september-2026-9.7375345"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐나다 9월 고용 예상 밖 감소…실업률 소폭 상승",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/canadas-employment-surprisingly-shrinks-september-jobless-rate-inches-up-2026-10-09/",
+   "s": "캐나다 9월 일자리가 예상과 달리 {{6만8천 개}} 줄고 실업률이 6.5%로 오르면서 {{캐나다 고용시장}}의 두 달 연속 후퇴가 드러났다"
+  },
+  {
+   "t": "고용 지표에 금리 인상 베팅 꺾이며 캐나다달러 18개월 저점",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/canadian-dollar-hits-18-month-low-jobs-data-clips-rate-hike-bets-2026-10-09/",
+   "s": "고용 부진으로 금리 인상 베팅이 줄면서 {{캐나다달러}}가 {{18개월 저점}}으로 떨어져 수입 물가 부담이 커질 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/fx"
+ ],
+ "title": "캐나다 9월 일자리 6만8천 개 증발…{{캐나다달러}} 18개월 저점",
+ "one": "캐나다 9월 일자리가 예상과 달리 {{6만8천 개}} 줄고 실업률이 6.5%로 오르면서, 금리 인상 기대가 꺾여 {{캐나다달러}}가 18개월 저점으로 밀리고 10월 28일 {{캐나다은행 결정}}에 부담이 생겼다",
+ "facts": [
+  "무엇이: 캐나다 통계청에 따르면 9월 일자리가 약 6만8천 개 줄어 두 달 연속 감소했고 실업률은 6.5%로 올랐습니다(예상은 약 9천 개 증가) [사실]",
+  "내용: 감소는 교육·보건·공공 부문과 15~24세에 몰렸고 경제활동참가율은 64.8%로 떨어졌습니다 [사실]",
+  "환율: 고용 지표가 금리 인상 기대를 꺾으면서 캐나다달러가 18개월 저점을 기록했습니다 [제목]",
+  "일정: 이번 지표는 10월 28일 캐나다은행 금리 결정 전 마지막 고용 통계입니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "9월 고용 6만8천 개 감소·실업률 6.5%는 검색 결과 요약으로 확인. 캐나다달러 18개월 저점은 확인 못 함",
+ "added": "이번 로이터 2건 중 나중 글로 고용 쇼크가 {{금리 인상 기대}}를 꺾어 {{캐나다달러 18개월 저점}}으로 이어졌다는 점이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

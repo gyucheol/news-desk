@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0695",
+ "num": 695,
+ "key": "mix-G1-086-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T15:29:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/rolls-royce-nears-government-subsidy-deal-develop-new-engine-uk-ft-reports-2026-10-23/",
+ "origTitle": "",
+ "headline": "롤스로이스, 신형 협동체 엔진 개발에 英 정부 보조금 최대 2억 파운드 합의 근접",
+ "src": [
+  {
+   "o": "AeroTime",
+   "d": "2026-10-23",
+   "u": "https://www.aerotime.aero/articles/rolls-royce-uk-subsidy-deal-narrowbody-engine-ultrafan"
+  },
+  {
+   "o": "Euronext",
+   "d": "2026-10-23",
+   "u": "https://live.euronext.com/en/financial-news/rolls-royce-nears-government-subsidy-deal-develop-new-engine-uk-ft-reports"
+  }
+ ],
+ "items": [
+  {
+   "t": "롤스로이스, 신형 엔진 개발 英 정부 보조금 합의 근접(FT)",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/aerospace-defense/rolls-royce-nears-government-subsidy-deal-develop-new-engine-uk-ft-reports-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "롤스로이스, 신형 협동체 엔진 개발에 英 정부 보조금 최대 2억 파운드 합의 근접",
+ "one": "롤스로이스가 신형 엔진 개발을 위한 영국 정부 보조금 합의에 다가섰다고 FT가 보도했다\n· 보조금은 1억~2억 파운드로 단거리 기종용 울트라팬 30 시연 엔진 제작·시험에 쓰인다\n· 롤스로이스는 약 15년간 협동체 엔진 시장을 떠나 있었고 기체 채택은 보장되지 않는다",
+ "facts": [
+  "무엇이: FT는 롤스로이스가 영국 정부로부터 최대 2억 파운드의 보조금을 받는 합의에 근접했다고 보도했다 [사실]",
+  "용도: 보조금 1억~2억 파운드는 단거리 항공기용 울트라팬 30 엔진 시연기 제작·시험에 쓰이며 발표는 다음 주가 될 수 있다 [사실]",
+  "한계: 롤스로이스는 약 15년간 협동체 엔진 시장을 떠나 있었고 보조금이 기체 탑재를 보장하지 않으며, 회사는 논평을 거부했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 FT 보도 내용(보조금 규모·용도) 확인, 정부·회사 공식 발표는 아직 없음",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "oem",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "롤스로이스, 협동체 엔진 개발 보조금 합의 근접"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0804",
+ "num": 804,
+ "key": "mix-G1-047-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T18:39:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/uk-mortgage-approvals-fall-more-than-forecast-as-loan-costs-bite",
+ "origTitle": "",
+ "headline": "영국 9월 모기지 승인 5만 3,443건…대출 비용 부담에 33개월 만의 최저",
+ "src": [
+  {
+   "o": "Irish News(PA)",
+   "d": "2026-10-29",
+   "u": "https://www.irishnews.com/news/uk/mortgage-approvals-fall-further-to-lowest-since-2023-WRGDRIBIAFPWXLYQNYXIGXPFCM/"
+  },
+  {
+   "o": "AJ Bell",
+   "d": "2026-10-29",
+   "u": "https://www.ajbell.co.uk/news/articles/uk-mortgage-approvals-fall-september-borrowing-slows"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 모기지 승인, 대출 비용 부담에 33개월 만의 최저",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/uk-mortgage-approvals-fall-more-than-forecast-as-loan-costs-bite"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "영국 9월 모기지 승인 5만 3,443건…대출 비용 부담에 33개월 만의 최저",
+ "one": "영국 9월 주택 구입용 모기지 승인이 5만 3,443건으로 2023년 12월 이후 33개월 만의 최저로 줄었다\n· 8월 5만 4,800건에서 줄었고 신규 모기지 실효금리는 4.60%에서 4.63%로 올랐다\n· 리모기지 승인은 3만 4,000건에서 4만 2,600건으로 늘었다",
+ "facts": [
+  "무엇이: 영란은행 집계로 9월 주택 구입용 모기지 승인은 5만 3,443건으로 8월 5만 4,800건에서 줄어 2023년 12월 이후 최저였다 [사실]",
+  "금리: 신규 모기지 실효금리는 9월 4.63%로 8월 4.60%에서 올랐다 [사실]",
+  "리모기지·전망: 리모기지 승인은 3만 4,000건에서 4만 2,600건으로 늘었고, 시장은 11월 5일 영란은행 회의의 기준금리 인상 가능성을 반영하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 영란은행 9월 통계(승인 5만 3,443건, 2023년 12월 이후 최저, 실효금리 4.63%)",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "영국 9월 모기지 승인 33개월 만의 최저"
+  }
+ ]
+}

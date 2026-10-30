@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0570",
+ "num": 570,
+ "key": "split-G5-145-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/why-the-ai-boom-is-papering-over-cracks-in-global-economy",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "블룸버그 분석 'AI 붐이 세계경제 균열 덮어 가려'",
+ "headline": "블룸버그 분석 'AI 붐이 세계경제 균열 덮어 가려'",
+ "one": "블룸버그 경제 뉴스레터가 13일 AI 붐이 세계경제의 균열을 가리고 있다고 분석하면서, IMF가 올해 세계성장률 전망을 3.1%로 올린 가운데 AI 모멘텀이 꺾이면 감춰진 약점이 드러날 수 있다는 경고가 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 경제 뉴스레터는 10월 13일 AI 붐이 세계경제의 균열을 덮어 가리고 있다고 분석했다 [제목]",
+  "배경: IMF는 올해 세계성장률을 3.1%로 올리면서도 AI 실망과 에너지 충격, 공공부채를 위험으로 꼽았다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 3.1% 상향은 원 문서의 채널 근거 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "AI 붐이 세계경제의 균열을 덮어 가리고 있는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/why-the-ai-boom-is-papering-over-cracks-in-global-economy"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "AI 붐이 세계경제 균열 가린다는 분석"
+  }
+ ],
+ "ind": "semis"
+}

@@ -1,0 +1,81 @@
+{
+ "id": "n-bbg-0687",
+ "num": 687,
+ "key": "mix-G2-062-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T15:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst",
+ "origTitle": "",
+ "headline": "인도네시아 회사채 위험지표 6년 최고…중앙은행 '동결·인상·인하 정책 조합에 논리'",
+ "src": [
+  {
+   "o": "바자르타임스",
+   "d": "2026-10-23",
+   "u": "https://bazaartimes.com/indonesias-private-sector-bond-risk-hits-six-year-high-amid-msci-warning/"
+  },
+  {
+   "o": "MUFG 리서치",
+   "d": "2026-10-21",
+   "u": "https://www.mufgresearch.com/fx/asia-fx-special-focus-21-october-2026"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도네시아 회사채 위험 지표, 6년 만에 최고로 상승",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst",
+   "s": "MSCI 지위 하향 우려로 인도네시아 회사채 위험 지표가 6년 만에 최고로 오르면서 기업들의 조달 비용 부담이 커졌다"
+  },
+  {
+   "t": "인도네시아중앙은행 '동결·인상·인하 정책 조합에 논리 있어'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/hold-hike-cut-bank-indonesia-says-theres-logic-policy-mix-2026-10-23/",
+   "s": "인도네시아중앙은행이 금리 동결과 인상·인하가 섞인 정책 조합에 논리가 있다고 하면서 시장의 정책 혼선 지적을 반박했다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/cb"
+ ],
+ "title": "인도네시아 회사채 위험지표 6년 최고…중앙은행 '동결·인상·인하 정책 조합에 논리'",
+ "one": "MSCI 지위 하향 우려 속에 인도네시아 회사채 위험 프리미엄이 6년 만에 최고로 올랐다\n· MSCI 우려는 주식을 넘어 국채와 루피아로 번졌다\n· 인도네시아중앙은행은 금리 동결·인상·인하를 섞은 정책 조합에 논리가 있다고 밝혔다",
+ "facts": [
+  "무엇이: 인도네시아 회사채 위험 지표가 MSCI 우려 속에 6년 최고로 올랐다 [사실]",
+  "파급: MSCI는 인도네시아를 신흥시장에서 단독 시장으로 재분류하는 안을 내놨고, 10년물 국채와 미국채 스프레드는 219.4bp에서 228.6bp로 벌어졌다 [사실]",
+  "중앙은행: 인도네시아중앙은행은 동결·인상·인하가 뒤섞인 정책 조합에 논리가 있다고 밝혔다 [제목]",
+  "전망: MUFG는 연말까지 기준금리 6.25% 인상을, 골드만삭스는 2026년 4분기와 2027년 1분기 25bp씩 두 차례 인상을 예상했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "회사채 위험 6년 최고·국채 스프레드·인상 전망은 검색 결과 요약으로 확인. 중앙은행 정책 조합 발언은 로이터 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도네시아 회사채 위험 프리미엄 6년 최고"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "MUFG 인도네시아 연말 기준금리 6.25% 인상 전망"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

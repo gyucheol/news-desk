@@ -1,0 +1,80 @@
+{
+ "id": "n-rtr-0569",
+ "num": 569,
+ "key": "split-G5-103-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/eu-seeks-cut-trade-deficit-with-china-talks-with-beijing-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU, 중국과 무역협의 개시…대중 적자에 강경 기조, 셰프초비치 방중",
+ "headline": "EU, 중국과 무역협의 개시…대중 적자에 강경 기조, 셰프초비치 방중",
+ "one": "EU가 10월 7~8일 대중 무역적자 축소를 내걸고 강경 기조로 중국과 무역협의를 시작했고 셰프초비치 무역 집행위원이 베이징에서 왕원타오 상무부장과 회담하면서, 중국산 수입품에 대한 견제가 강해질 수 있다",
+ "facts": [
+  "무엇이: EU가 중국과의 협의를 통해 대중 무역적자 축소를 추진하며, 협의 개시와 함께 대중 무역적자에 강경 기조를 내세웠다 [제목]",
+  "회담: 셰프초비치 EU 무역·경제안보 담당 집행위원이 이번 주 베이징을 방문해 왕원타오 중국 상무부장과 회담한다고 전해졌다 [사실]",
+  "적자 규모: EU의 대중 상품 무역적자는 하루 10억 유로를 넘는다 [사실]",
+  "의미: 협의 첫머리부터 EU가 압박 수위를 높이면서 중국산 수입품 견제가 강해질 수 있다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "로이터·블룸버그 제목 기사 2건과 텔레그램 Polaristimes 1건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 베이징 협의 개시와 상무부장 회담은 원 문서 출처 목록의 CGTN·알자지라 보도로 뒷받침",
+ "src": [
+  {
+   "o": "CGTN",
+   "d": "2026-10-08",
+   "u": "https://news.cgtn.com/news/2026-10-08/Chinese-commerce-minister-meets-with-EU-trade-chief-in-Beijing-1R4VxG03528/p.html"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-07",
+   "u": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU, 중국과 협의 통해 대중 무역적자 축소 추진",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/china/eu-seeks-cut-trade-deficit-with-china-talks-with-beijing-2026-10-07/",
+   "s": "EU가 중국과의 협의를 통해 대중 무역적자 축소를 추진하면서 중국산 수입품에 대한 견제가 강해질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "EU, 무역협의 개시하며 대중 무역적자에 강경 기조",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-is-taking-harder-line-on-china-s-trade-gap-as-talks-kick-off",
+   "s": "EU가 중국과 무역협의를 시작하며 대중 무역적자에 강경 기조를 내세워 중국산 제품에 대한 압박 수위를 높였다 (제목 기준)"
+  },
+  {
+   "t": "셰프초비치 EU 무역 집행위원, 이번 주 방중해 왕원타오 상무부장과 회담",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-08",
+   "u": "https://t.me/The_MariTimes/63596",
+   "s": "셰프초비치 EU 무역·경제안보 담당 집행위원이 이번 주 베이징을 방문해 왕원타오 중국 상무부장과 회담할 예정이라고 전해졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "auto"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU, 대중 무역적자 축소 내걸고 중국과 협의 개시"
+  }
+ ]
+}

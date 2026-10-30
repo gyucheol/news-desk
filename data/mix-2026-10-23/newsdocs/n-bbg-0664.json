@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0664",
+ "num": 664,
+ "key": "mix-G1-101-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/chipotle-s-softening-sales-force-analyst-to-throw-in-the-towel",
+ "origTitle": "",
+ "headline": "치폴레 매출 둔화에 애널리스트 결국 두 손 들어…투자의견 포기",
+ "src": [],
+ "items": [
+  {
+   "t": "치폴레 매출 둔화에 애널리스트 결국 두 손 들어",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/chipotle-s-softening-sales-force-analyst-to-throw-in-the-towel"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "치폴레 매출 둔화에 애널리스트 결국 두 손 들어…투자의견 포기",
+ "one": "치폴레의 매출 둔화가 이어지자 한 애널리스트가 결국 기존 투자의견을 포기했다\n· 블룸버그는 매출 약세가 애널리스트를 두 손 들게 만들었다고 전했다 (제목 기준)",
+ "facts": [
+  "무엇이: 치폴레의 매출 둔화로 한 애널리스트가 기존 투자의견을 포기했다 [제목]",
+  "확인: 블룸버그 기사 제목에만 근거하며 애널리스트 이름과 매출 수치는 확인하지 못했다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인 검색을 하지 못해 제목 기준",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "dining",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "치폴레 매출 둔화에 애널리스트 의견 포기"
+  }
+ ]
+}

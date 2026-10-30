@@ -1,0 +1,121 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 CEO 발언은 확인 검색하지 않음. 인도량 사실은 기존 문서 한줄 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 폭스바겐 CEO가 전환은 공동의 책임이라며 EU에 호소했습니다 [제목]",
+  "인도량: 3분기 글로벌 인도량은 약 189만 대로 14.3% 줄어 2022년 2분기 이후 가장 큰 감소였습니다 [사실]",
+  "중국: 중국 인도량은 40만 5,800대로 38.5% 급감했습니다 [사실]",
+  "포르쉐: 1~9월 인도는 17만 8,532대로 16% 줄었습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "폭스바겐 CEO, EU에 \"{{전환은 공동 책임}}\"…3분기 인도 14% 감소 속 호소",
+ "id": "n-bbg-0112",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "포르쉐, 최상위 스포츠카 가격 20% 인상 목표",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/porsche-s-ceo-to-chase-returns-with-fresh-lineup-of-pricier-cars",
+   "s": "{{포르쉐}}가 최상위 스포츠카 가격을 약 {{20% 인상}}하는 가치 중심 전략을 내놓으면서 판매량보다 수익성을 앞세우는 방향으로 돌아섰다"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "포르쉐, 장기 이익률 목표 15% 제시",
+   "u": "https://www.reuters.com/business/porsche-sets-long-term-margin-target-15-2026-10-07/",
+   "s": "포르쉐가 {{장기 이익률 목표 15%}}를 제시하면서 판매 감소 속에서도 수익성 회복을 겨냥한 중장기 목표를 내놨다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "포르쉐 회생 계획의 핵심 내용",
+   "u": "https://www.reuters.com/business/key-elements-porsches-turnaround-plan-2026-10-07/",
+   "s": "로이터가 {{포르쉐 회생 계획}}의 핵심 내용을 정리하며 판매 부진에 맞선 포르쉐의 대응 방향을 짚었다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "판매 감소 시대 대비하는 포르쉐, 초고가 전략에서 활로 모색",
+   "u": "https://www.reuters.com/business/autos-transportation/porsche-braces-lower-sales-era-seeks-lifeline-luxury-2026-10-07/",
+   "s": "판매 감소 시대에 대비하는 포르쉐가 {{초고가 전략}}에서 활로를 찾으면서 물량 대신 고가 모델 중심으로 수익을 지키려 한다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "포르쉐 9개월 판매 16% 감소…중국 부진 속 물량보다 가치 중시",
+   "u": "https://www.reuters.com/world/china/porsches-nine-month-sales-slide-16-on-weak-china-demand-focus-value-over-volume-2026-10-09/",
+   "s": "포르쉐의 1~9월 인도가 {{17만 8,532대}}로 {{16% 감소}}하자 중국 부진 속에서 물량보다 가치를 중시하는 전략을 내세웠다"
+  },
+  {
+   "t": "폭스바겐 CEO '전환은 공동의 책임'이라며 EU에 호소",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/business/autos-transportation/volkswagen-ceo-says-transformation-is-shared-responsibility-appeal-eu-2026-10-11/",
+   "s": "{{폭스바겐 CEO}}가 전환은 공동의 책임이라며 {{EU}}에 호소하면서 완성차 업계의 전환 비용 분담 논의를 꺼냈다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "폭스바겐그룹, 3분기 차량 인도량 14% 감소 발표",
+   "u": "https://www.reuters.com/business/volkswagen-reports-14-drop-third-quarter-deliveries-2026-10-12/",
+   "s": "폭스바겐그룹의 3분기 인도량이 {{중국 38.5% 급감}} 여파로 {{14.3% 줄어든}} 약 189만 대에 그쳐 2022년 2분기 이후 최대 분기 감소를 기록했다"
+  }
+ ],
+ "key": "bnd-C048-2026-10-09",
+ "nodes": [],
+ "num": 112,
+ "one": "폭스바겐그룹의 3분기 인도량이 중국 38.5% 급감 여파로 14.3% 줄어든 가운데 {{폭스바겐 CEO}}가 전환은 {{공동의 책임}}이라며 EU에 호소하면서, 판매 급감 속 전환 비용 부담이 {{EU 정책 논의}}로 넘어가고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T18:36:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Porsche Newsroom",
+   "u": "https://newsroom.porsche.com/en/2026/company/porsche-capital-markets-day-strategy-sportwagenschmiede-35-43419.html"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "finews.asia",
+   "u": "https://www.finews.asia/high-end/45127-porsche-capital-markets-day-2026-new-ceo-michael-leiters-mission-s-sports-car-strategy"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Porsche Newsroom",
+   "u": "https://newsroom.porsche.com/en/2026/company/porsche-deliveries-third-quarter-2026-43480.html"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "TimesLIVE",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-09-porsches-nine-month-sales-slide-on-weak-chinese-demand/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "RTE",
+   "u": "https://www.rte.ie/news/business/2026/1012/1594972-volkswagen-quarterly-deliveries/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Quartz",
+   "u": "https://qz.com/volkswagen-deliveries-decline-china-sales-third-quarter-101226"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "RTTNews",
+   "u": "https://www.rttnews.com/3698112/volkswagen-q3-deliveries-fall-14-3.aspx"
+  }
+ ],
+ "tags": [],
+ "title": "폭스바겐 CEO, EU에 \"{{전환은 공동 책임}}\"…3분기 인도 14% 감소 속 호소",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/porsche-s-ceo-to-chase-returns-with-fresh-lineup-of-pricier-cars",
+ "added": "이번 로이터 1건으로 {{폭스바겐 CEO}}가 판매 급감 속에서 {{전환 책임 분담}}을 EU에 호소했다는 내용이 추가됐다 (제목 기준)"
+}

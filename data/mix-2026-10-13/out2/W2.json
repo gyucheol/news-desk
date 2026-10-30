@@ -1,0 +1,1024 @@
+{
+ "agent": "W2",
+ "searches_used": 16,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C002",
+   "attachTo": "n-tg-0121",
+   "title": "'에너지 휴전' 몇 시간 만에 러, 하르키우 발전소 공격…美는 우크라 압박",
+   "one": "트럼프 대통령이 러·우 에너지 휴전을 발표한 지 몇 시간 만에 러시아가 하르키우 발전소를 공격했고 미국은 정유시설 공격을 멈추지 않으면 정보·무기 지원을 끊겠다고 우크라이나를 압박하면서, 러시아 정유시설 공격 중단 여부가 경유 공급과 종전 협상의 변수가 되고 있다",
+   "facts": [
+    "무엇이: 트럼프 대통령이 10월 11일 러·우 에너지 휴전이 즉시 발효된다고 발표했으나 세부 내용은 없었고, 같은 날 저녁 러시아가 하르키우 CHP-5 발전소를 공격했다고 젤렌스키 대통령이 밝혔습니다 [사실]",
+    "우크라이나: 젤렌스키는 러시아가 우크라이나 에너지망 공격을 멈춰야 러시아 정유시설 타격도 멈추겠다는 입장이며, 지난 한 주 러시아의 전력망 공격이 200회를 넘었다고 했습니다 [사실]",
+    "미국 압박: 미 국무부·국방부가 공격이 계속되면 정보 공유와 유럽 자금으로 사는 미국산 무기 조달을 막을 수 있다고 전했다는 CNN·FT 보도가 나왔고, 악시오스는 휴전이 정유시설 공격 중단에 한정된 잠재 합의라고 보도했습니다 [채널]",
+    "러시아: 백악관 관계자는 러시아가 어떤 형태의 휴전도 수용하지 않았다고 했고 위트코프·쿠슈너의 모스크바 방문은 보류됐습니다 [채널]",
+    "얀덱스: 우크라이나의 데이터센터 공격 뒤 얀덱스 택시·지도 서비스가 제약을 받았습니다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "휴전 발표·하르키우 발전소 피격·젤렌스키 상호주의 입장은 검색 결과 요약(Kyiv Independent, Euromaidan Press, CNN)으로 확인. 미국의 무기·정보 중단 경고와 악시오스 '정유시설 한정' 보도, 얀덱스 데이터센터 4곳 파괴 주장은 확인 못 함",
+   "src": [
+    {
+     "o": "Kyiv Independent",
+     "d": "2026-10-11",
+     "u": "https://kyivindependent.com/russia-struck-kharkivs-power-plant-shortly-after-trump-announced-energy-ceasefire/"
+    },
+    {
+     "o": "Euromaidan Press",
+     "d": "2026-10-11",
+     "u": "https://euromaidanpress.com/2026/10/11/hours-after-trump-declared-an-energy-ceasefire-russia-hit-kharkiv-power-plant-one-of-200-plus-strikes-on-ukraines-grid-this-week-zelenskyy-says/"
+    },
+    {
+     "o": "CNN",
+     "d": "2026-10-11",
+     "u": "https://www.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "트럼프 러·우 에너지 휴전 발표…러시아 확인 없어 실효성 불확실",
+     "o": "텔레그램 상상인 김진범",
+     "d": "2026-10-12",
+     "u": "https://t.me/PipeBeom/6663"
+    },
+    {
+     "t": "우크라이나, 미국 휴전 제안 세부 내용 기다려…젤렌스키 '러시아는 공격 지속'",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/"
+    },
+    {
+     "t": "미국, 정유시설 공격 이유로 우크라이나 무기 지원 차단 위협 - FT",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/world/europe/us-threatens-block-arms-ukraine-over-refinery-attacks-ft-reports-2026-10-11/"
+    },
+    {
+     "t": "에너지 휴전 발표 몇 시간 만에 러시아, 하르키우 발전소 공격",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10338"
+    },
+    {
+     "t": "에너지 휴전·우크라 무기지원 갈등·러시아산 디젤 논란 등 트럼프 정치 정리",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/65976"
+    },
+    {
+     "t": "트럼프 SNS '러·우 에너지 휴전 즉시 발효, 양측 모두 합의'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/65977"
+    },
+    {
+     "t": "트럼프 '에너지 분야 휴전 성립…합의 위반하지 마라'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/65994"
+    },
+    {
+     "t": "WSJ '트럼프·젤렌스키 관계 2025년 집무실 충돌 이후 최악'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/65997"
+    },
+    {
+     "t": "백악관 관계자 '러시아, 어떤 휴전도 수용 안 해'…위트코프·쿠슈너 방러 보류",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "u": "https://t.me/HANAchina/70235"
+    },
+    {
+     "t": "하르키우 CHP-5 화력발전소 피격에 도시 전체 정전·단수",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10345"
+    },
+    {
+     "t": "젤렌스키, 미국 압박에 맞서며 트럼프와 결별 위험 감수",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/zelenskyy-risks-rupture-with-trump-as-midterms-pressure-mounts"
+    },
+    {
+     "t": "얀덱스 데이터센터 4곳 파괴로 러시아 전역 서비스 혼란 주장",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10369"
+    },
+    {
+     "t": "젤렌스키 '러시아 휴전 위반…공격 안 멈추면 장거리 타격 계속'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "u": "https://t.me/HANAchina/70282"
+    },
+    {
+     "t": "젤렌스키 '푸틴이 에너지 휴전 거부하면 타격 계속'",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/zelenskyy-says-strikes-to-continue-if-putin-rejects-energy-truce"
+    },
+    {
+     "t": "휴전 뒤 발전소 피격, 석유 인프라 한정 휴전 가능성 높다는 분석",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-12",
+     "u": "https://t.me/The_MariTimes/63669"
+    },
+    {
+     "t": "러시아, 휴전 선언 몇 시간 만에 하르키우 가스시설·지토미르 변전소 공격",
+     "o": "텔레그램 상상인 김진범",
+     "d": "2026-10-12",
+     "u": "https://t.me/PipeBeom/6677"
+    },
+    {
+     "t": "우크라이나 데이터센터 타격에 얀덱스 택시·지도 서비스 차질",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/yandex-taxi-map-services-curbed-after-ukraine-hits-data-centers"
+    },
+    {
+     "t": "악시오스 '트럼프의 에너지 휴전은 정유시설에만 적용'",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-12",
+     "u": "https://t.me/The_MariTimes/63670"
+    },
+    {
+     "t": "트럼프 전 특사 '우크라이나, 러시아를 자유롭게 공격할 수 있어야'",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-s-ex-envoy-says-ukraine-should-be-free-to-strike-russia"
+    },
+    {
+     "t": "폴란드 시코르스키 '트럼프는 우크라이나 아닌 러시아를 압박해야'",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/poland-s-sikorski-says-trump-must-pressure-russia-not-ukraine"
+    },
+    {
+     "t": "젤렌스키 '트럼프의 에너지 휴전, 러시아 없이는 작동 안 해'",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/trump-s-energy-truce-won-t-work-without-russia-zelenskyy-says"
+    },
+    {
+     "t": "악시오스 '트럼프, 젤렌스키에 매우 강한 분노'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-13",
+     "u": "https://t.me/insidertracking/66081"
+    },
+    {
+     "t": "CNN '미국, 에너지시설 공격 안 멈추면 우크라 정보·무기 지원 중단 경고'",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-13",
+     "u": "https://t.me/insidertracking/66083"
+    },
+    {
+     "t": "우크라이나, 러시아의 트럼프 에너지 휴전 위반 비판…EU는 새 조치",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/business/energy/ukraine-accuses-russia-violating-trumps-energy-ceasefire-eu-imposes-new-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C020",
+   "attachTo": "n-tg-0201",
+   "title": "IFS '힐리, 350억 파운드 필요'…10월 말 예산안 앞 英 국채 시험대",
+   "one": "영국 IFS가 힐리 재무장관이 지출 계획을 지키려면 2030~31년까지 약 350억 파운드가 필요하고 재정 여력은 약 200억 파운드로 줄었다고 경고하면서, 10년물 금리가 2007년 이후 최고인 가운데 10월 28일 예산안이 영국 국채시장의 시험대가 되고 있다",
+   "facts": [
+    "무엇이: IFS는 힐리 재무장관이 노동당의 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했습니다 [사실]",
+    "재정 여력: IFS는 2029~30년 재정 여력을 3월 전망 240억 파운드보다 적은 약 200억 파운드로 봤고, 현상 유지식 예산은 위험하다고 경고했습니다 [사실]",
+    "국채: 영국 10년물 금리는 앞서 5.5% 안팎으로 2007년 이후 최고를 기록했고, 2022년 트러스 쇼크 이후 예산 이벤트는 국채 변동성을 키워 왔습니다 [사실]",
+    "일정: 예산안은 10월 28일 발표되며, 번햄 총리와 힐리 장관은 예산 전 기업인들을 만납니다 [사실]",
+    "부유세: 영국의 고가주택세는 부 과세의 어려움을 보여준다는 지적이 나왔습니다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "IFS 350억 파운드·재정 여력 200억 파운드·예산 10월 28일은 검색 결과 요약으로 확인. 기업인 간담회는 제목 기준",
+   "src": [
+    {
+     "o": "Guido Fawkes(order-order)",
+     "d": "2026-10-12",
+     "u": "https://order-order.com/2026/10/12/ifs-says-healey-has-35-billion-budget-black-hole/"
+    },
+    {
+     "o": "Brit Brief",
+     "d": "2026-10-12",
+     "u": "https://britbrief.co.uk/business/economy/john-healey-faces-35bn-budget-dilemma-ifs-warns.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/rates"
+   ],
+   "items": [
+    {
+     "t": "IFS '힐리, 영국 지출계획 맞추려면 350억 파운드 필요'",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-11/healey-needs-35-billion-to-meet-uk-spending-plans-ifs-says"
+    },
+    {
+     "t": "싱크탱크 '힐리, 현상 유지식 예산 위험 감수할 수 없어'",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/legal/transactional/uks-healey-cant-risk-steady-you-go-budget-think-tank-warns-2026-10-11/"
+    },
+    {
+     "t": "영국 고가주택세가 보여주는 부유층 과세의 어려움",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/britain-s-mansion-tax-shows-the-difficulty-of-targeting-wealth"
+    },
+    {
+     "t": "IFS '힐리 재무장관, 예산안 앞두고 350억 파운드 마련해야'",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/uk-chancellor-healey-must-find-35b-ahead-of-budget-ifs-warns"
+    },
+    {
+     "t": "영국, 이달 말 예산안 앞두고 국채시장 신뢰 시험대",
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-12",
+     "u": "https://t.me/The_MariTimes/63667"
+    },
+    {
+     "t": "번햄·힐리, 예산안 앞두고 기업인 초청 간담회",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/burnham-healey-to-host-business-leaders-in-pre-budget-outreach"
+    }
+   ]
+  },
+  {
+   "cid": "C027",
+   "attachTo": "",
+   "title": "러 '연말까지 경유 수출 월 350만톤'…미국은 경유 거래로 종전 협상 유도",
+   "one": "노박 러시아 부총리가 연말까지 경유 수출을 월 300만~350만 톤으로 되돌릴 수 있다고 밝혔고 미국은 러시아산 경유 수출 허용을 종전 협상 유인책으로 설명했지만, 러시아 수출 여력이 미국 기대에 못 미친다는 분석이 나오면서 경유 가격 안정 효과는 불확실하다",
+   "facts": [
+    "무엇이: 노박 러시아 부총리는 10월 12일 경유 수출이 연말까지 위기 전 수준인 월 300만~350만 톤으로 돌아갈 수 있다고 말했습니다 [사실]",
+    "거래: 트럼프 대통령은 러시아가 즉시 30만 톤 이상, 11월 50만 톤, 이후 100만 톤을 공급한다고 했고, 미 재무부는 일반허가 135호로 러시아산 경유 거래를 허용했습니다 [사실]",
+    "협상 지렛대: 쿠슈너·위트코프 특사가 우크라이나 측에 러시아 경유 수출 허용은 러시아를 협상 테이블로 돌아오게 하려는 노력이라고 설명했다는 보도가 나왔습니다 [채널]",
+    "한계: 러시아가 트럼프가 원하는 만큼 경유를 수출할 수 없다는 분석이 나왔고, 물량이 너무 작아 가격을 의미 있게 낮추기 어렵다는 평가도 있습니다 [제목]",
+    "시장: 경유 가격 스프레드가 금리 변동성으로 이어질 만큼 에너지 위험이 여러 자산군으로 번지고 있다는 분석입니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "노박 발언(월 300만~350만 톤)과 트럼프 거래 물량·일반허가 135호는 검색 결과 요약(Asharq Al-Awsat, NPR)으로 확인. 협상 유인책 발언은 확인 못 함",
+   "src": [
+    {
+     "o": "Asharq Al-Awsat",
+     "d": "2026-10-12",
+     "u": "https://english.aawsat.com/world/5328915-russia-says-its-diesel-exports-may-exceed-volumes-announced-trump"
+    },
+    {
+     "o": "NPR",
+     "d": "2026-10-09",
+     "u": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "시장 최대 변수는 경유 가격…트럼프 경유 협정은 수급 부족 해결 어려워",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "u": "https://t.me/HANAchina/70275"
+    },
+    {
+     "t": "로이터 모닝비드 팟캐스트: 경유를 앞세운 외교",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/podcasts/reuters-morning-bid/diesel-diplomacy-2026-10-12/"
+    },
+    {
+     "t": "러시아, 트럼프가 원하는 만큼 경유 수출 못 해",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/russia-can-t-export-as-much-diesel-as-trump-needs"
+    },
+    {
+     "t": "미국, 경유 거래로 러시아의 종전 협상 태도 누그러뜨리길 기대",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/business/energy/us-hopes-diesel-deal-can-soften-moscow-peace-talks-sources-say-2026-10-12/"
+    },
+    {
+     "t": "미 특사 '러시아 경유 수출 허용은 협상 테이블 복귀 유도책'",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-13",
+     "u": "https://t.me/HANAchina/70310"
+    },
+    {
+     "t": "러시아 '연말까지 경유 월 최대 350만 톤 수출 가능'",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/business/energy/russia-says-it-may-export-up-35-million-tons-diesel-month-by-year-end-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C034",
+   "attachTo": "",
+   "title": "EU 가스 저장률 73%로 2011년 이후 최저…트레이더는 엘니뇨 온화한 겨울에 베팅",
+   "one": "EU 가스 저장률이 10월 초 약 73%로 2011년 집계 이후 같은 시기 최저에 머물러 겨울 수요를 7% 줄여야 할 수 있다는 경고가 나온 가운데, 트레이더들이 엘니뇨발 온화한 겨울에 베팅하고 있어 북극 한파가 오면 유럽 가스 가격이 다시 뛸 수 있다",
+   "facts": [
+    "무엇이: EU 가스 저장률이 10월 3일 72.4%, 10월 6일 약 73%로 2011년 집계 이후 같은 날짜 기준 최저를 기록했습니다 [사실]",
+    "수요 감축: IEEFA는 EU가 지난겨울보다 가스 수요를 7%(약 140억 입방미터) 줄여야 할 수 있다고 경고했습니다 [사실]",
+    "트레이더: 북극 한파 위험에도 가스 트레이더들이 엘니뇨 베팅에 몰리고 있습니다 [제목]",
+    "가격: 저장 저점 속에 유럽 가스 가격이 또 한 해 고가를 이어갈 전망입니다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "저장률 72.4~73%·2011년 이후 최저, IEEFA 7% 감축 경고는 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "IEEFA",
+     "d": "2026-10",
+     "u": "https://ieefa.org/resources/eu-may-need-cut-winter-gas-demand-7-gas-storage-record-seasonal-low"
+    },
+    {
+     "o": "Euronews",
+     "d": "2026-10-09",
+     "u": "https://www.euronews.com/2026/10/09/eu-may-need-to-cut-winter-gas-demand-by-7-as-storage-hits-record-low-ieefa-warns"
+    }
+   ],
+   "inds": [
+    "gas"
+   ],
+   "nodes": [
+    "gas/trade",
+    "gas/demand"
+   ],
+   "items": [
+    {
+     "t": "북극 한파 가능성, 에너지 트레이더들의 엘니뇨 베팅 위협",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-11/prospect-of-arctic-blasts-threatens-energy-traders-el-nino-bets"
+    },
+    {
+     "t": "10월 초 EU 가스 저장량 약 73%로 2011년 이후 계절 최저",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10348"
+    },
+    {
+     "t": "유럽, 가스 재고 저점 속 또 한 해 가스 고가 예고",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/business/energy/europe-set-another-year-high-gas-prices-reserves-hit-lows-2026-10-12/"
+    },
+    {
+     "t": "가스 트레이더들, 북극 한파 위험에도 엘니뇨 베팅 몰려",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/gas-traders-pile-into-el-nino-bet-despite-arctic-cold-risk"
+    }
+   ]
+  },
+  {
+   "cid": "C042",
+   "attachTo": "",
+   "title": "EU 1억1500만유로 방산혁신 프로그램 확정…에어버스, 발키리 드론 2029년 실전 목표",
+   "one": "EU가 드론·AI 등 방산 신기술의 실전 배치를 앞당길 1억 1,500만 유로 규모 AGILE 프로그램을 확정하고 에어버스가 유럽에서 발키리 무인전투기를 시험 비행하며 2029년 실전 배치를 겨냥하면서, 유럽 역내 방산 조달 확대 논의가 이어지고 있다",
+   "facts": [
+    "무엇이: EU 회원국들이 10월 12일 중소 방산기업의 시제품을 빠르게 실전에 투입하도록 돕는 1억 1,500만 유로 규모 AGILE 프로그램을 최종 승인했습니다 [사실]",
+    "지원: AGILE은 AI·드론·양자·로봇·사이버·우주 분야 20~30개 과제를 지원하며, 첫 공모는 2027년 초 시작될 예정입니다 [사실]",
+    "드론: 에어버스가 크라토스와 개발하는 발키리 무인전투기를 유럽에서 시험 비행했고, 2029년까지 독일용 실전 준비를 목표로 합니다 [사실]",
+    "조달: MBDA 최고경영자는 유럽이 방산 장비 역내 구매를 두고 여전히 나뉘어 있다고 말했습니다 [제목]",
+    "주가: 유럽 방산주는 강세였지만 한국 방산주는 수주 지연 등으로 최근 조정을 받았다는 전언입니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "AGILE 1억 1,500만 유로 최종 승인·지원 범위, 발키리 유럽 시험비행·2029년 목표는 검색 결과 요약으로 확인(첫 비행 날짜는 출처마다 다름). MBDA 발언은 제목 기준",
+   "src": [
+    {
+     "o": "European Commission",
+     "d": "2026",
+     "u": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_687"
+    },
+    {
+     "o": "Democrata",
+     "d": "2026-10-12",
+     "u": "https://www.democrata.es/en/international/the-eu-approves-the-fund-of-115-million-to-boost-innovation-in-the-defense-industry/"
+    },
+    {
+     "o": "Migflug",
+     "d": "2026-10",
+     "u": "https://migflug.com/afterburner/airbus-u740-valkyrie-first-flight-europe-kratos-cca/"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "EU, 신속 방산 혁신 위한 1억 1,500만 유로 AGILE 프로그램 채택",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/business/eu-adopts-115-million-agile-programme-rapid-defence-innovation-2026-10-12/"
+    },
+    {
+     "t": "에어버스, 발키리 드론 시험…유럽은 2029년 실전 준비 계획",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/business/aerospace-defense/airbus-tests-valkyrie-drone-europe-plans-2029-combat-readiness-2026-10-12/"
+    },
+    {
+     "t": "유럽 방산주 강세 속 한국 방산주는 수주 지연에 4거래일 조정",
+     "o": "텔레그램 나쁜양파",
+     "d": "2026-10-12",
+     "u": "https://t.me/Badonions/7752"
+    },
+    {
+     "t": "MBDA CEO '유럽, 방산 역내 구매 두고 여전히 분열'",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/business/aerospace-defense/europe-still-divided-buying-locally-defence-mbda-ceo-says-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C050",
+   "attachTo": "",
+   "title": "세계 팔라듐 정제 40%가 드론 사거리 안에…주석도 반도체 수요에 상승",
+   "one": "노릴스크니켈이 세계 팔라듐 정제능력의 약 40%를 우크라이나 드론 사거리 안의 몬체고르스크 공장 한 곳에 모았지만 팔라듐 가격은 연초보다 약 30% 떨어졌고, 반도체 수요로 주석값도 오르면서 데이터센터용 소수 금속의 공급 위험이 부각되고 있다",
+   "facts": [
+    "무엇이: 노릴스크니켈은 콜라반도 몬체고르스크 공장이 세계 팔라듐 정제의 약 40%를 맡는다고 밝혔고, 정제를 노릴스크에서 이곳으로 옮겼습니다 [사실]",
+    "위험: 우크라이나 드론이 9월 북극 가스 지역을 처음 공격한 뒤 몬체고르스크도 사거리 안이라는 지적이 나왔지만, 공격 의도나 피해 보도는 없습니다 [사실]",
+    "가격: 현물 팔라듐 가격은 연초보다 약 30% 떨어져 공급 위험을 거의 반영하지 않고 있다는 분석입니다 [채널]",
+    "주석: 반도체 칩 수요로 주석 가격이 오르고 있습니다 [채널]",
+    "수입 의존: 미국은 데이터센터 핵심 소재 중 갈륨·게르마늄·인듐·탄탈럼·비소·형석을 100%, 주석은 73%, 팔라듐은 36% 수입에 의존합니다(USGS 자료) [채널]"
+   ],
+   "basis": "partial",
+   "check": "몬체고르스크 40%(회사 주장)와 드론 사거리 논의는 검색 결과 요약(Yle, ZeroHedge)으로 확인. 팔라듐 연초 대비 30% 하락과 주석 가격 상승은 확인 못 함",
+   "src": [
+    {
+     "o": "Yle",
+     "d": "",
+     "u": "https://yle.fi/a/74-20237105"
+    },
+    {
+     "o": "ZeroHedge",
+     "d": "2026-10-11",
+     "u": "http://www.zerohedge.com/commodities/ukraines-drones-reach-russias-arctic-gas-capital-nornickels-palladium-next"
+    }
+   ],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "팔라듐 연초 대비 30% 급락 속 시장이 놓친 몬체고르스크 공급 위험",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "u": "https://t.me/HANAchina/70229"
+    },
+    {
+     "t": "주석 가격, 반도체 칩 수요에 따라 상승세 이어가",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10351"
+    },
+    {
+     "t": "데이터센터 핵심 광물의 미국 수입 의존도…갈륨·게르마늄 등 100%",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/66044"
+    }
+   ]
+  },
+  {
+   "cid": "C058",
+   "attachTo": "n-rtr-0043",
+   "title": "미 은행주, 금리 급등에 조정 국면 속 실적 시즌 돌입…트레이딩이 반전 카드",
+   "one": "미 은행주가 국채금리 급등 속에 8월 중순 고점보다 10% 넘게 떨어진 조정 국면에서 13일 JP모건·골드만삭스·씨티·웰스파고 3분기 실적을 맞으면서, 약 190억 달러로 예상되는 트레이딩 수입이 은행주 분위기를 바꿀지와 고금리의 대출 영향이 관건이 됐다",
+   "facts": [
+    "무엇이: KBW 은행지수가 8월 중순 고점보다 10% 넘게 떨어져 기술적 조정에 들어갔고, 10년물 국채금리는 약 5.27%로 약 24년 만의 최고 수준입니다 [사실]",
+    "실적: JP모건·골드만삭스·씨티·웰스파고가 10월 13일 개장 전 실적을 내며, 트레이딩 수입은 약 190억 달러로 예상됩니다 [사실]",
+    "관전 포인트: 투자자들은 고금리가 신용 건전성과 대출 수요를 해치는지 주시하고 있고, 주식 트레이딩 호조가 은행주 분위기를 바꿀 수 있다는 분석이 나왔습니다 [사실]",
+    "씨티: 씨티는 미국 규제 부담의 빠른 해소를 추진하고 있습니다 [제목]"
+   ],
+   "basis": "verified",
+   "check": "KBW 은행지수 조정(10% 이상)·10년물 약 5.27%·13일 실적 발표·트레이딩 수입 예상은 검색 결과 요약으로 확인(하락 폭은 출처마다 10~14%로 다름). 씨티 규제 건은 제목 기준",
+   "src": [
+    {
+     "o": "AdvisorHub",
+     "d": "2026-10-12",
+     "u": "https://www.advisorhub.com/bank-stocks-mired-in-correction-as-yields-surge-before-earnings/"
+    },
+    {
+     "o": "Forbes",
+     "d": "2026-10-12",
+     "u": "https://www.forbes.com/sites/jimosman/2026/10/12/jpmorgan-earnings-may-reveal-what-5-rates-are-breaking/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "주식 트레이딩 데스크가 은행주 분위기 반전 이끌 수도",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/equity-trading-desks-may-spur-a-vibe-shift-on-bank-stocks"
+    },
+    {
+     "t": "미 은행주, 금리 상승 속 조정 국면에 갇힌 채 실적 시즌으로",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/bank-stocks-mired-in-correction-as-yields-surge-before-earnings"
+    },
+    {
+     "t": "씨티, 미국 내 규제 부담의 신속한 해소를 추진",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/legal/transactional/citi-seeks-rapid-resolution-its-us-regulatory-burdens-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C066",
+   "attachTo": "",
+   "title": "벨기에 예산 교착에 총리 시정연설 취소…공공부문 파업으로 철도·학교 마비",
+   "one": "벨기에 연립정부가 예산안 합의에 실패해 데베버 총리가 13일 시정연설을 취소한 가운데 긴축에 반대하는 공공부문 전국 파업이 12일 철도·대중교통·학교를 멈춰 세우면서, 예산 합의가 10월 말이나 11월 초로 늦어질 수 있다",
+   "facts": [
+    "무엇이: 벨기에 연정이 예산안에 합의하지 못해 데베버 총리가 10월 13일 예정된 시정연설을 취소했습니다 [사실]",
+    "파업: 10월 12일 예산 삭감에 반대하는 두 번째 공공부문 전국 파업으로 철도·대중교통·공영방송·학교가 차질을 빚었습니다 [사실]",
+    "전망: 데베버 총리는 임시 월별 예산 집행은 선택지가 아니라고 했고, 현지 언론은 합의가 10월 말이나 11월 초로 늦어질 수 있다고 보도했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "시정연설 취소·12일 파업·합의 지연 전망은 검색 결과 요약(RTBF, Euronews 등)으로 확인",
+   "src": [
+    {
+     "o": "RTBF",
+     "d": "2026-10-12",
+     "u": "https://www.rtbf.be/article/greve-des-services-publics-ce-lundi-12-octobre-forte-mobilisation-de-nombreux-secteurs-contre-les-economies-annoncees-11798656"
+    },
+    {
+     "o": "RTBF",
+     "d": "2026-10-11",
+     "u": "https://rtbf.be/article/budget-federal-bart-de-wever-declare-qu-il-n-y-aura-pas-de-declaration-de-politique-generale-mardi-et-qu-il-n-acceptera-pas-un-scenario-de-douziemes-provisoires-11798596"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal"
+   ],
+   "items": [
+    {
+     "t": "벨기에 총리, 예산 교착 이유로 시정연설 취소",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-11/belgium-s-premier-cancels-policy-speech-citing-budget-deadlock"
+    },
+    {
+     "t": "벨기에 파업으로 공공부문 일부 마비…예산 합의는 지연",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/world/belgium-strike-partly-shuts-public-sector-budget-deal-delayed-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C074",
+   "attachTo": "n-tg-0187",
+   "title": "이사야스發 멕시코만 원유 중단 63%서 약 30%로…누적 손실 583만 배럴",
+   "one": "허리케인 이사야스로 한때 63%까지 멈췄던 미 멕시코만 원유 생산의 중단 비율이 약 30%로 낮아졌다는 보도가 나왔지만, 누적 생산 손실이 583만 배럴에 이르고 경로 인근 정유설비 점검도 남아 있어 미 원유·석유제품 공급 공백이 이어지고 있다",
+   "facts": [
+    "무엇이: 10월 12일 기준 이사야스 대응으로 멈춘 미 멕시코만 원유 생산이 약 30%라는 보도가 나왔습니다 [제목]",
+    "이전 수치: BSEE는 한때 원유 생산 약 63%(하루 약 130만 배럴)가 중단됐다고 했고, 이후 약 57.5%(하루 약 117만 배럴)로 집계했습니다 [사실]",
+    "누적 손실: 이사야스로 인한 누적 원유 생산 손실은 583만 배럴입니다 [채널]",
+    "정유: 미 정유능력의 약 14%인 하루 270만 배럴이 예상 경로 안팎에 있었습니다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "63%·57.5% 중단 수치는 검색 결과 요약(CNBC, Bernama 인용 BSEE)으로 확인. 약 30% 수치와 누적 손실 583만 배럴은 확인 못 함",
+   "src": [
+    {
+     "o": "CNBC",
+     "d": "2026-10-09",
+     "u": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+    },
+    {
+     "o": "Bernama",
+     "d": "2026-10-12",
+     "u": "https://www.bernama.com/en/world/news.php?id=2619174"
+    }
+   ],
+   "inds": [
+    "drilling"
+   ],
+   "nodes": [
+    "drilling/subsea"
+   ],
+   "items": [
+    {
+     "t": "이사야스 일일 원유 생산 감소…누적 손실 583만 배럴",
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-12",
+     "u": "https://t.me/Trillion_labs/10367"
+    },
+    {
+     "t": "이사야스 대응으로 미 멕시코만 원유 생산 약 30% 중단",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/business/energy/about-30-us-gulf-oil-production-shut-response-isaias-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C082",
+   "attachTo": "",
+   "title": "EU, 11월 20일 영국과 정상회의…번햄 '브렉시트 무역협정 일부 재협상'",
+   "one": "번햄 영국 총리가 의회에서 브렉시트 뒤 맺은 EU 무역협정 일부를 재협상하겠다고 밝히고 EU가 11월 20일 브뤼셀에서 영국과 정상회의를 열기로 하면서, 식품 교역 협정·청년 이동 제도·탄소배출권 연계 등 영국·EU 관계 재설정 논의가 본격화할 전망이다",
+   "facts": [
+    "무엇이: 유럽이사회가 스타머 총리 사임으로 미뤄졌던 영국·EU 정상회의를 11월 20일 브뤼셀에서 연다고 확정했습니다 [사실]",
+    "번햄: 번햄 총리는 의회에서 EU와의 무역협정 일부를 재협상하겠다고 밝히고, 식품 교역 협정·청년 이동 제도·배출권 거래 협정 서명을 추진하겠다고 했습니다 [사실]",
+    "반대: 배드녹 보수당 대표는 브렉시트 논쟁을 다시 여는 것은 끔찍한 생각이라고 비판했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "정상회의 날짜와 번햄의 재협상 발언은 검색 결과 요약으로 확인(집계 사이트 위주라 원문 대조는 못 함)",
+   "src": [
+    {
+     "o": "Europe Says",
+     "d": "2026-10-12",
+     "u": "https://www.europesays.com/europe/157435/"
+    },
+    {
+     "o": "Newscord",
+     "d": "2026-10-12",
+     "u": "https://newscord.org/article/andy-burnham-tells-mps-rejecting-closer-eu-ties-would-be-dereliction-of-duty--Story_20261012_RejectingcloserEUtiecb73d083"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "EU, 오는 11월 20일 영국과의 정상회의를 주최하기로",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/world/uk/eu-host-britain-summit-nov-20-2026-10-12/"
+    },
+    {
+     "t": "번햄, 의회에 '영국은 EU와 새 협정 검토해야' 밝힐 예정",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/world/uk/burnham-tell-parliament-uk-needs-consider-new-deal-with-eu-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C090",
+   "attachTo": "",
+   "title": "美 ITC, 바이코 특허 제소로 폭스콘 산업인터넷 337조 조사 착수",
+   "one": "미국 바이코가 수직 전력공급 시스템 특허 1건 침해를 주장하자 미 ITC가 폭스콘 산업인터넷과 지배 자회사에 대한 무역법 337조 조사에 착수하면서, 폭스콘의 서버용 전력 설계가 미국 특허 분쟁에 휘말렸다 (채널 전언)",
+   "facts": [
+    "무엇이: 미 ITC가 현지시간 10월 9일 바이코의 특허 침해 주장에 따라 폭스콘 산업인터넷과 지배 자회사에 대한 337조 조사를 개시했고, 회사는 10월 11일 이를 공시했습니다 [채널]",
+    "쟁점: 바이코는 자사 '수직 전력 공급 시스템' 관련 특허 1건이 침해됐다고 주장합니다 [채널]"
+   ],
+   "basis": "channel",
+   "check": "검색 한도로 확인 못 함. 텔레그램 원문 공시 요약 기준",
+   "src": [],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "폭스콘 산업인터넷, 바이코 특허 관련 미 ITC 337조 조사 통보받아",
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-12",
+     "u": "https://t.me/insidertracking/66015"
+    }
+   ]
+  },
+  {
+   "cid": "C098",
+   "attachTo": "",
+   "title": "AWS 37% 성장에도 아마존 PER 29배로 월마트 아래…AI 투자 회수 의구심",
+   "one": "AWS 연매출이 1,600억~1,700억 달러에 37% 성장하는데도 아마존 선행 PER이 29배로 월마트 37배보다 낮아지면서, AI 자본지출이 실제 수익으로 이어질지에 대한 시장의 의구심이 아마존 평가를 누르고 있다 (채널 전언)",
+   "facts": [
+    "무엇이: 아마존의 선행 PER은 29배로 월마트의 37배보다 낮지만 매출 증가율은 월마트의 3배입니다 [채널]",
+    "AWS: 맷 가먼 AWS 최고경영자는 AWS 연매출이 1,600억~1,700억 달러, 성장률이 37%라고 밝혔습니다 [채널]",
+    "해석: 이 역전은 AI 자본지출이 수익으로 이어질지에 대한 시장의 우려를 반영한다는 분석입니다 [채널]"
+   ],
+   "basis": "channel",
+   "check": "검색 한도로 확인 못 함. 텔레그램 원문(월스트리트견문 요약) 기준",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "아마존 AI 자본지출 수익률, 시장이 과소평가하나…PER 29배 vs 월마트 37배",
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-12",
+     "u": "https://t.me/HANAchina/70271"
+    }
+   ]
+  },
+  {
+   "cid": "C106",
+   "attachTo": "n-rtr-0176",
+   "title": "히스로, 의회 심사 앞두고 3활주로 지지 결집…규제당국은 비용 감독 강화",
+   "one": "영국 민간항공청이 히스로 확장 지출을 감독할 독립위원회를 두기로 한 데 이어 히스로가 의회의 제3활주로 정책성명 심사를 앞두고 노조·항공사·투자자 지지와 330억 파운드 민간투자를 내세우면서, 확장 사업이 비용 통제 속에 의회 승인 단계로 넘어가고 있다",
+   "facts": [
+    "무엇이: 히스로가 의회의 제3활주로 국가정책성명 초안 심사를 앞두고 노조·항공사·지역공항·투자자의 지지를 내세웠습니다 [사실]",
+    "근거: 히스로는 주민 9,000여 명 조사에서 68%가 확장을 지지했고, 10만 개 넘는 일자리와 330억 파운드 민간투자를 가져온다고 주장합니다 [사실]",
+    "일정: 볼드바이 최고경영자가 10월 14일 하원 교통위원회에 출석합니다 [사실]",
+    "감독: 민간항공청은 확장 지출을 감독할 독립위원회를 두고 11월 2027~2031년 가격 규제 최종안을 낼 계획입니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "히스로 지지 결집·여론조사·투자 규모·10월 14일 출석은 검색 결과 요약(FlightGlobal 등)으로 확인. 지지 수치는 히스로 측 주장",
+   "src": [
+    {
+     "o": "FlightGlobal",
+     "d": "2026-10",
+     "u": "https://www.flightglobal.com/airlines/2026/10/london-heathrow-chief-urges-uk-government-to-clear-third-runway/"
+    }
+   ],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "히스로, 의회 확장안 심사 앞두고 제3활주로 지지 결집",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/world/uk/uks-heathrow-rallies-support-third-runway-parliament-weighs-expansion-plans-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C114",
+   "attachTo": "",
+   "title": "中 발전용 석탄값 3년 만에 최고…탄광 안전점검·수입 감소에 상승 지속",
+   "one": "산시성 탄광 사고 뒤 안전점검 감산과 인도네시아산 수입 감소로 중국 발전용 석탄 가격이 친황다오 기준 톤당 986위안을 넘어 3년 만의 최고로 오르면서, 겨울을 앞둔 중국 발전사의 연료비 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 중국 발전용 석탄 가격이 11주 연속 올라 9월 말 톤당 986위안(147달러)으로 3년 만의 최고를 기록했고, 10월 10일에는 1,003위안이라는 집계도 있습니다 [사실]",
+    "원인: 산시성 탄광 사고 뒤 안전점검으로 6~8월 생산이 약 3분의 1 줄었고, 인도네시아산 수입은 올해 25% 감소했습니다 [사실]",
+    "전망: 당분간 가격 부담이 풀릴 기미가 적다는 평가이며, 정부는 겨울을 앞두고 증산을 추진하고 있습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "3년 최고·986위안·감산과 수입 감소 원인은 검색 결과 요약(OilPrice)으로 확인. 1,003위안은 집계 사이트 수치",
+   "src": [
+    {
+     "o": "OilPrice",
+     "d": "2026-10",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Thermal-Coal-Prices-Surge-to-Three-Year-High.html"
+    }
+   ],
+   "inds": [
+    "coal"
+   ],
+   "nodes": [
+    "coal/thermal",
+    "coal/trade",
+    "coal/power"
+   ],
+   "items": [
+    {
+     "t": "중국 석탄값 3년 만에 최고…당분간 완화 조짐 없어",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-coal-prices-at-three-year-high-with-little-relief-in-sight"
+    }
+   ]
+  },
+  {
+   "cid": "C122",
+   "attachTo": "",
+   "title": "영란은행 브리든 '브릿코인 출시 서두르지 않아'",
+   "one": "영란은행의 브리든이 디지털 파운드(브릿코인) 출시를 서두르지 않겠다는 입장을 밝히면서, 영국 중앙은행 디지털화폐 도입이 신중하게 진행될 전망이다 (제목 기준)",
+   "facts": [
+    "무엇이: 영란은행의 브리든이 브릿코인 출시를 서두르지 않는다는 입장입니다 [제목]",
+    "의미: 영국 중앙은행 디지털화폐 도입 일정이 급하게 당겨지지는 않을 것으로 보입니다 [추론]"
+   ],
+   "basis": "title",
+   "check": "검색 한도로 확인 못 함. 블룸버그 제목 기준",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "영란은행 브리든, '브릿코인' 출시 서두르지 않아",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/bank-of-england-s-breeden-in-no-rush-to-launch-britcoin"
+    }
+   ]
+  },
+  {
+   "cid": "C130",
+   "attachTo": "n-bbg-0104",
+   "title": "ECB 의사록 '비례적 인상' 뒤 신중론 확산…파차리데스 '금리 인상으로 충격 못 막아'",
+   "one": "ECB가 9월 0.25%p 인상을 비례적 대응으로 설명한 의사록과 레인 수석 이코노미스트의 신중론으로 단기 추가 인상 기대가 꺾인 가운데, 파차리데스가 금리를 올려도 추가 충격을 막을 수 없다고 말하면서 유로존 금리 경로의 불확실성이 이어지고 있다 (제목 기준)",
+   "facts": [
+    "무엇이: ECB가 9월 3대 정책금리를 0.25%p 올렸고(예금금리 2.50%) 10월 8일 공개된 의사록에서 위원 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤습니다 [사실]",
+    "파차리데스: ECB의 금리 인상이 추가 충격을 막을 수는 없다고 말했습니다 [제목]",
+    "매파: 돌렌츠 슬로베니아 중앙은행 총재는 추가 인상이 필요할 수 있다고 했습니다 [사실]",
+    "인사: 슈나벨 이사 후임 후보 제출 마감은 10월 28일입니다 [사실]"
+   ],
+   "basis": "title",
+   "check": "이번 글(파차리데스 발언)은 검색 한도로 확인 못 함. 나머지 사실은 기존 문서 n-bbg-0104 기준",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/rates"
+   ],
+   "items": [
+    {
+     "t": "파차리데스 'ECB 금리 인상으로 추가 충격 막을 수 없어'",
+     "o": "블룸버그",
+     "d": "2026-10-12",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/ecb-s-higher-rates-can-t-prevent-more-shocks-patsalides-says"
+    }
+   ]
+  },
+  {
+   "cid": "C138",
+   "attachTo": "",
+   "title": "토탈에너지, KKR과 美 합작사에 태양광 700MW 추가…2.1GW로 확대",
+   "one": "토탈에너지가 KKR과 50대50으로 세운 미국 합작사에 텍사스·오하이오 태양광 3곳 700MW를 더해 설비를 약 2.1GW로 키우면서, 기업가치 12억 달러 규모 자산이 2027년 1분기 상업운전에 들어갈 예정이다",
+   "facts": [
+    "무엇이: 토탈에너지와 KKR이 10월 12일 1.4GW 규모 50대50 미국 합작사에 텍사스·오하이오의 대형 태양광 3곳 700MW를 넣기로 했습니다 [사실]",
+    "규모: 편입 자산의 기업가치는 12억 달러이며 합작사 설비는 약 2.1GW가 됩니다 [사실]",
+    "일정: 상업운전은 2027년 1분기 목표이고, 거래 종결은 2026년 안에 예상되며 운영은 토탈에너지가 맡습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "700MW·12억 달러·2027년 1분기 상업운전은 토탈에너지 발표와 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "TotalEnergies",
+     "d": "2026-10-12",
+     "u": "https://totalenergies.com/newsroom/etats-unis-totalenergies-etend-sa-coentreprise-avec-kkr-avec-lajout-dun-portefeuille-de-700-mw-de-renouvelables-506845/?lang=eng"
+    },
+    {
+     "o": "Renewables Now",
+     "d": "2026-10-12",
+     "u": "https://renewablesnow.com/news/totalenergies-kkr-add-700-mw-of-solar-to-north-american-jv-1302817/"
+    }
+   ],
+   "inds": [
+    "power"
+   ],
+   "nodes": [
+    "power/developers",
+    "power/gen"
+   ],
+   "items": [
+    {
+     "t": "토탈에너지, 700MW 포트폴리오로 KKR과의 미국 합작 확대",
+     "o": "로이터",
+     "d": "2026-10-12",
+     "u": "https://www.reuters.com/legal/transactional/totalenergies-expands-us-venture-with-kkr-with-700-mw-portfolio-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C146",
+   "attachTo": "",
+   "title": "그린란드 의회 다수, 미국과의 안보협정 지지…미군 기지 2곳·골든돔 길 열려",
+   "one": "그린란드 의회 다수가 지난달 미국·덴마크와 맺은 안보협정을 지지하면서, 미군 기지 2곳 신설과 트럼프의 골든돔 미사일방어 배치 길을 여는 협정이 2차 독회 뒤 표결에서 통과될 전망이다",
+   "facts": [
+    "무엇이: 10월 12일 누크 의회 토론에서 의석 과반을 가진 여당들이 미국·덴마크·그린란드 안보협정을 옹호했고, 시우무트당도 지지했습니다 [사실]",
+    "내용: 협정은 미군의 역할을 넓혀 새 기지 2곳과 골든돔 미사일방어 체계의 길을 열면서 덴마크 주권과 그린란드 자결권은 재확인합니다 [사실]",
+    "이견: 야당 나레라크는 세부 이행 방식이 불분명하고 고정 대가가 보장되지 않는다고 지적했습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "의회 다수 지지·협정 내용·2차 독회 일정은 검색 결과 요약으로 확인",
+   "src": [
+    {
+     "o": "Fortune",
+     "d": "2026-09-24",
+     "u": "https://fortune.com/2026/09/24/trumps-greenland-nato-security-deal/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "그린란드 의원들, 트럼프와의 안보협정 지지 시사",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/world/europe/greenland-lawmakers-signal-support-trump-security-deal-2026-10-12/"
+    }
+   ]
+  },
+  {
+   "cid": "C154",
+   "attachTo": "n-bbg-0064",
+   "title": "JP모건·골드만, 볼타 50억달러 AI 대출 인수 물량 13억달러로 제한",
+   "one": "JP모건과 골드만삭스가 볼타의 50억 달러 AI 대출 판매를 이끌면서도 자체 인수 물량을 13억 달러로 묶는 이례적 조치를 택하면서, 무등급 신생 AI 인프라 기업 대출의 위험을 은행이 떠안지 않으려는 흐름이 드러나 연 11% 안팎 금리에도 투자자 수요가 관건이 됐다",
+   "facts": [
+    "무엇이: 볼타의 50억 달러 대출 판매를 이끄는 JP모건과 골드만삭스가 13억 달러만 인수하는 방식으로 익스포저를 줄였습니다 [사실]",
+    "구조: 대출은 데이터센터 임대료와 연결된 13억 달러 대출과 엔비디아 GPU 구매용 37억 달러 칩 대출로 나뉩니다 [사실]",
+    "조건: 액면가의 97~98% 가격, 수익률 약 11%이며 투자 약정 마감은 10월 14일입니다 [사실]",
+    "배경: 은행들은 신생 AI 기업 대형 대출에 큰 위험을 지지 않으려 하고, 투자자들은 더 높은 수익률을 요구하고 있습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "13억 달러 인수 제한과 대출 구조는 검색 결과 요약(Techmeme, Seeking Alpha)으로 확인",
+   "src": [
+    {
+     "o": "Techmeme",
+     "d": "2026-10-12",
+     "u": "https://www.techmeme.com/261012/p41"
+    },
+    {
+     "o": "Seeking Alpha",
+     "d": "2026-10-12",
+     "u": "https://seekingalpha.com/news/4652223-jpmorgan-goldman-sachs-tread-carefully-in-5b-volta-ai-loan-offering---report"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/semis",
+    "macro/liquidity"
+   ],
+   "items": [
+    {
+     "t": "JP모건·골드만, 50억 달러 볼타 AI 대출 판매에서 익스포저 축소",
+     "o": "블룸버그",
+     "d": "2026-10-13",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-12/jpmorgan-goldman-curb-exposure-on-5-billion-volta-ai-loan-sale"
+    }
+   ]
+  },
+  {
+   "cid": "C162",
+   "attachTo": "",
+   "title": "페루 8억4400만달러 코리오 항만에 미·중·인도 기업 관심…찬카이와 경쟁",
+   "one": "페루 아레키파주 코리오 항만 사업에 미국·중국·인도 기업들이 관심을 보이면서, 아직 사업자와 자금이 정해지지 않은 8억 4,400만 달러 규모 항만이 중국계 찬카이항과 경쟁할 남미 벌크 물류 거점 후보로 떠오르고 있다",
+   "facts": [
+    "무엇이: 산체스 아레키파 주지사는 미국·중국·인도·네덜란드 기업 그룹이 코리오 항만에 관심을 보였다고 밝혔지만, 구체 기업명은 나오지 않았습니다 [사실]",
+    "규모: 총 사업비는 3단계에 걸쳐 8억 4,448만 달러로 추산되며, 항만당국 기본계획은 약 8억 달러로 잡았습니다 [사실]",
+    "상태: 아직 사업자·자금·화물이 확정되지 않아 운영 시작까지 5~6년이 걸릴 수 있으며, 볼리비아·브라질 벌크 화물을 겨냥해 찬카이항과 경쟁하는 구도입니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "관심 국가·사업비·진행 상태는 검색 결과 요약(Infobae, Rumbo Minero)으로 확인",
+   "src": [
+    {
+     "o": "Infobae",
+     "d": "2026-10-12",
+     "u": "https://infobae.com/america/agencias/2026/10/12/peru-impulsa-eje-logistico-en-puerto-de-corio-con-una-inversion-de-844-millones-de-dolares"
+    },
+    {
+     "o": "Rumbo Minero",
+     "d": "2026-10",
+     "u": "https://rumbominero.com/peru/noticias/economia/estados-unidos-china-india-y-paises-bajos-muestran-interes-en-invertir-en-el-puerto-corio-de-arequipa"
+    }
+   ],
+   "inds": [
+    "shipping"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "미국·중국·인도 기업, 페루 8억 4,400만 달러 항만 사업에 관심",
+     "o": "로이터",
+     "d": "2026-10-13",
+     "u": "https://www.reuters.com/world/asia-pacific/us-chinese-indian-firms-show-interest-perus-844-million-port-project-2026-10-12/"
+    }
+   ]
+  }
+ ],
+ "skipped": []
+}

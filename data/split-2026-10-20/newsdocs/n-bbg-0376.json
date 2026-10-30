@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0376",
+ "num": 376,
+ "key": "split-G1-088-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/iran-war-has-no-easy-way-out-former-us-defense-secretary-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "오스틴 전 美 국방장관 \"이란 전쟁에 쉬운 출구 없다\"",
+ "headline": "오스틴 전 美 국방장관 \"이란 전쟁에 쉬운 출구 없다\"",
+ "one": "오스틴 전 미 국방장관이 10월 12일 이란 전쟁에는 쉬운 출구가 없다고 평가하면서, 재공격 위협과 협상이 엇갈리는 미·이란 분쟁이 쉽게 끝나지 않고 길어질 수 있다는 우려가 제기됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 오스틴 전 미 국방장관이 이란 전쟁에는 쉬운 출구가 없다고 말했다(블룸버그, 10월 12일) [제목]",
+  "의미: 분쟁이 길어질 수 있다는 우려로 이어졌다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준으로 썼다.",
+ "src": [],
+ "items": [
+  {
+   "t": "오스틴 전 美 국방장관 \"이란 전쟁에 쉬운 출구 없다\"",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/iran-war-has-no-easy-way-out-former-us-defense-secretary-says"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "오스틴, 이란 전쟁에 쉬운 출구 없다고 평가"
+  }
+ ]
+}

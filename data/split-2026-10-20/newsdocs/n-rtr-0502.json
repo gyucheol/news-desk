@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0502",
+ "num": 502,
+ "key": "split-G4-056-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/le-pen-lifting-retirement-age-is-key-french-bond-yields-rbc-bluebay-strategist-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "RBC 블루베이 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+ "headline": "RBC 블루베이 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+ "one": "로이터에 따르면 RBC 블루베이 전략가가 르펜이 정년을 올릴지가 프랑스 국채 금리의 관건이라고 짚으면서, 연금 개혁을 둘러싼 정치 판단이 프랑스 차입 비용의 향방을 가를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: RBC 블루베이 전략가는 르펜의 정년 인상 여부가 프랑스 국채 금리의 관건이라고 했다(10월 8일 로이터) [제목]",
+  "의미: 연금 개혁을 둘러싼 정치 판단이 국채 금리 향방의 변수다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 8일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "RBC 블루베이 전략가 \"르펜의 정년 인상 여부가 프랑스 국채 금리 관건\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/le-pen-lifting-retirement-age-is-key-french-bond-yields-rbc-bluebay-strategist-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "르펜 정년 인상 여부가 프랑스 국채 금리 관건"
+  }
+ ]
+}

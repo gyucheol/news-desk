@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0049",
+ "feed": "v5",
+ "format": "one1",
+ "num": 49,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1001-carlyle-ai-private-credit-concentration",
+ "published": "2026-10-01",
+ "url": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/liquidity"
+ ],
+ "title": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+ "one": "칼라일이 백서에서 AI 연산 설비 구축에 사모신용 약 1조 달러가 필요할 수 있다고 추정하면서, 대출이 소수의 대형 거래 상대방에 몰려 소프트웨어 대출 때와 같은 집중 위험이 되풀이될 수 있다고 대출기관들에 경고했다",
+ "headline": "칼라일 \"AI 구축에 사모신용 1조 달러 필요…쏠림 위험\" 경고",
+ "facts": [
+  "무엇이: 칼라일이 이번 주 백서 'Financing AI Without a SaaS Repeat'(제이슨 토머스·마크 젠킨스)를 내고 사모신용의 AI 대출 쏠림을 경고했습니다. [사실]",
+  "얼마나: 필요한 사모신용 약 1조 달러는 현재 사모신용 운용자산의 절반을 넘는 규모이고, AI 인프라 지출은 2030년까지 5조 달러를 넘을 것으로 전망됩니다. [사실]",
+  "왜: 젠킨스는 자신이 보는 금융 거래의 대부분이 최상위 거래 상대방 7~8곳에 몰려 있다고 했고, 지금의 AI 금융 구조는 실제 위기에서 검증된 적이 없다고 봅니다. [사실]",
+  "배경: 칼라일은 AI 대출을 피하자는 것이 아니라 엄격한 노출 한도를 두고 균형 있게 위험을 지자는 입장이며, 자금은 데이터센터·전력, 칩 담보 대출, 특수목적법인 대출로 흘러가고 있습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — Briefs Finance(10/1)와 포브스 기고(10/3)로 작성. 백서 원문은 직접 읽지 못했습니다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-01",
+   "u": "https://bloomberg.com/news/articles/2026-10-01/carlyle-warns-private-credit-s-ai-push-raises-concentration-risk"
+  },
+  {
+   "o": "Briefs Finance",
+   "d": "2026-10-01",
+   "u": "https://www.briefs.co/news/carlyle-warns-private-credit-don-t-repeat-software-s-concent/"
+  },
+  {
+   "o": "포브스(기고)",
+   "d": "2026-10-03",
+   "u": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "ind": "semis",
+ "origTitle": "AI Buildout May Spur $1 Trillion in Private Credit, Carlyle White Paper Finds"
+}

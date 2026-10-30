@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0595",
+ "num": 595,
+ "key": "split-G6-106-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:55:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/h-m-outage-hits-stock-as-cyberattacks-spook-traders",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "H&M 시스템 장애에 주가 하락…잇단 사이버공격에 유통주 경계",
+ "headline": "H&M 시스템 장애에 주가 하락…잇단 사이버공격에 유통주 경계",
+ "one": "H&M의 시스템 장애가 주가를 끌어내리면서, 아홀드 델레이즈와 프랑스 슈퍼마켓을 겨냥한 사이버공격이 잇따르는 가운데 유통주 전반에 대한 트레이더들의 경계가 커졌다 (제목 기준)",
+ "facts": [
+  "무엇이: H&M 시스템 장애로 주가가 떨어졌다 [제목]",
+  "시장 반응: 잇단 사이버공격에 트레이더들이 긴장했다 [제목]",
+  "연쇄: 같은 시기 프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격을 받았고, 아홀드 델레이즈는 사이버 사고로 온라인 배송이 멈췄다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. H&M 장애 원인은 확인 기록이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "H&M 시스템 장애에 주가 하락…사이버공격에 트레이더들 긴장",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/h-m-outage-hits-stock-as-cyberattacks-spook-traders"
+  }
+ ],
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "apparel",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "H&M 시스템 장애에 주가 하락"
+  }
+ ]
+}

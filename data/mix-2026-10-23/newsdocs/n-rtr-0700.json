@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0700",
+ "num": 700,
+ "key": "mix-G1-091-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:31:00+09:00",
+ "url": "https://www.reuters.com/world/india/indias-godrej-properties-reports-profit-slump-soaring-construction-costs-2026-10-23/",
+ "origTitle": "",
+ "headline": "인도 고드레지 프로퍼티스, 건설비 급등 속 분기 순이익 62% 급감",
+ "src": [
+  {
+   "o": "The Hawk",
+   "d": "2026-10-23",
+   "u": "https://www.thehawk.in/news/economy-and-business/godrej-properties-clocks-62-pc-drop-in-q2-net-profit-at-rs-154-crore"
+  },
+  {
+   "o": "Angel One",
+   "d": "2026-10-23",
+   "u": "https://www.angelone.in/news/stocks/godrej-properties-share-price-falls-over-4-after-q2-fy27-earnings-results-total-income-up-31-9-yoy"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 고드레지 프로퍼티스, 건설비 급등에 이익 급감",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/india/indias-godrej-properties-reports-profit-slump-soaring-construction-costs-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "인도 고드레지 프로퍼티스, 건설비 급등 속 분기 순이익 62% 급감",
+ "one": "인도 부동산 개발사 고드레지 프로퍼티스의 9월 분기 순이익이 건설비 급등 속에 62% 줄었다\n· 순이익은 15.4억 루피로 전년 40.5억 루피에서 줄었고 EBITDA는 72% 감소했다\n· 건설 관련 지출은 31% 늘었지만 분기 예약 판매액은 800.8억 루피를 기록했다",
+ "facts": [
+  "무엇이: 고드레지 프로퍼티스의 9월 분기 순이익은 15.4억 루피로 전년 40.5억 루피보다 62% 줄었다(연결 기준 14.5억 루피, 64% 감소라는 보도도 있다) [사실]",
+  "수익성: 총수입은 늘었지만 EBITDA는 72% 줄어 17.1억 루피였고, 주가는 발표 뒤 4.38% 내렸다 [사실]",
+  "원인: 건설 관련 지출은 전년보다 31% 늘었고, 회사는 프로젝트 인도 시점과 합작 구조조정 회계 영향도 이유로 들었다 [사실]",
+  "판매: 분기 예약 판매액은 800.8억 루피, 영업현금흐름은 158.4억 루피로 33% 늘었다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "순이익 62% 감소·EBITDA 72% 감소·건설 지출 31% 증가는 검색 결과 요약(The Hawk·Investing.com·Angel One)으로 확인, 건설비 급등이 주원인인지는 회사 설명(인도 시점·회계 영향)과 달라 일부만 확인",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "고드레지 건설 지출 31% 증가에 이익 62% 급감"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 리테일뱅커인터내셔널·FF뉴스 보도로 대상 기준 수(128개), 첫 조정 시점, 의견 수렴 기한을 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 영국 PRA가 10월 7일 규제 기준 128개를 명목 GDP에 연동하는 협의안 CP13/26을 냈다 [사실]",
+  "일정: 2026년을 기준으로 첫 자동 조정은 2031년 7월이며 의견 수렴은 2월 7일까지다 [사실]",
+  "제외: 재무부가 정한 350억 파운드 링펜싱 예금 기준은 대상에서 빠진다 [사실]",
+  "의미: 명목 성장에 따른 규제 대상 자동 확대 완화 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "영국 PRA, 규제 적용 기준 128개를 명목 GDP에 연동하는 방안 제안",
+ "id": "n-rtr-0153",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "영국 PRA, 규제 기준을 GDP에 연동하는 방안 제안",
+   "u": "https://www.reuters.com/business/uks-pra-proposes-linking-regulatory-thresholds-gdp-2026-10-07/"
+  }
+ ],
+ "key": "bnd-C308-2026-10-09",
+ "nodes": [],
+ "num": 153,
+ "one": "영국 건전성감독청(PRA)이 은행·보험사·신협에 적용하는 규제 기준 128개를 명목 GDP에 맞춰 자동으로 올리는 방안을 제안하면서, 경제 규모가 커져도 중소 금융사가 자동으로 더 무거운 규제를 받는 일이 줄어들 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T18:07:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Retail Banker International",
+   "d": "2026-10-08",
+   "u": "https://www.retailbankerinternational.com/news/uk-pra-link-gdp-regulatory-thresholds/"
+  },
+  {
+   "o": "FF News",
+   "d": "2026-10-08",
+   "u": "https://ffnews.com/news/regulatory-thresholds-set-to-shift-to-automatic-increases-f8df4a17"
+  }
+ ],
+ "tags": [],
+ "title": "영국 PRA, 규제 적용 기준 128개를 명목 GDP에 연동하는 방안 제안",
+ "url": "https://www.reuters.com/business/uks-pra-proposes-linking-regulatory-thresholds-gdp-2026-10-07/"
+}

@@ -1,0 +1,80 @@
+{
+ "basis": "verified",
+ "check": "NPCI 운영위의 디왈리 뒤 연기 결정(10월 13일), 0.4%·300루피 상한·2,000루피 기준·96% 제외, 소비자 전가 금지, 연기 요청 주체는 더페더럴·오거나이저·커넥티드투인디아 검색 결과 요약으로 확인. 11월 8일 이후 시행 예상은 한 매체 보도로 확정 일정 아님. 10월 8일 주가 하락은 기존 문서 근거.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도결제공사(NPCI) 운영위원회가 10월 13일, 2,000루피 넘는 일부 가맹점 결제에 매기려던 수수료(MDR)를 디왈리 뒤로 미루고 새 시행일은 따로 알리기로 했습니다 [사실]",
+  "내용: 수수료율은 0.4%이고 7만 5,000루피 이상 결제는 300루피가 상한이며, 개인 간 송금은 무료이고 거래의 약 96%는 대상이 아니며 가맹점은 수수료를 소비자에게 넘길 수 없습니다 [사실]",
+  "연기 이유: 가맹점 단체·핀테크·결제사들이 축제철 소비 심리 위축을 우려해 연기를 요청했고, 새 시행일은 11월 8일 이후로 예상된다는 보도가 있습니다 [사실]",
+  "시장: 연기 가능성이 처음 보도된 10월 8일 페이티엠 모회사 원97은 5.42%, 파인랩스는 4.39% 하락 마감했고 모비퀵은 장중 8.43% 떨어졌습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{인도}}, {{UPI 가맹점 수수료}} 도입 {{디왈리 뒤로 연기}}…10월 15일 시행 {{무산}}",
+ "id": "n-rtr-0119",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "UPI 가맹점 수수료 도입 지연 보도에 인도 결제주 하락",
+   "u": "https://www.reuters.com/world/india/indian-payment-stocks-slide-after-report-upi-mdr-rollout-delay-2026-10-08/"
+  },
+  {
+   "t": "인도, UPI 결제 수수료 도입을 디왈리 축제 뒤로 연기",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/india/india-postpones-upi-payment-fee-rollout-after-diwali-festival-2026-10-13/",
+   "s": "{{인도}}가 {{10월 15일}}로 잡았던 {{UPI 가맹점 결제 수수료}} 도입을 {{디왈리 축제 뒤}}로 {{미루}}면서 {{가맹점}}들은 {{축제철}}에 {{수수료 부담 없이}} 영업하게 됐다"
+  }
+ ],
+ "key": "bnd-C269-2026-10-09",
+ "nodes": [],
+ "num": 119,
+ "one": "{{인도 NPCI}}가 {{10월 15일}} 시행 예정이던 {{UPI 가맹점 수수료(MDR) 0.4%}} 부과를 축제철 {{소비 위축 우려}}에 {{디왈리 뒤로 미루고}} 새 시행일은 따로 정하기로 하면서, {{페이티엠·모비퀵·파인랩스}} 등 결제사의 {{수수료 수익}}도 {{늦춰지게}} 됐다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T18:39:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "ETV Bharat",
+   "u": "https://www.etvbharat.com/en/business/upi-mdr-rollout-may-be-deferred-to-january-2027-paytm-pine-labs-stocks-drop-enn26100806738"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "DSIJ",
+   "u": "https://insights.dsij.in/dsijarticledetail/paytm-shares-fall-5-as-upi-mdr-rollout-may-be-delayed-id022-59900"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Siasat",
+   "u": "https://www.siasat.com/paytm-mobikwik-shares-fall-amid-upi-mdr-rollout-delay-reports-3554408/"
+  },
+  {
+   "o": "더페더럴",
+   "d": "2026-10",
+   "u": "https://thefederal.com/category/business/upi-mdr-charges-deferred-until-after-diwali-259449"
+  },
+  {
+   "o": "오거나이저",
+   "d": "2026-10-14",
+   "u": "https://organiser.org/2026/10/14/386311/bharat/mdr-on-upi-transactions-till-rs-2000-postponed-govts-digital-payments-push-remains-focused-on-accessibility/"
+  },
+  {
+   "o": "커넥티드투인디아",
+   "d": "2026-10",
+   "u": "https://www.connectedtoindia.com/indian-govt-defers-mdr-rollout-on-upi-transactions-until-after-diwali/"
+  }
+ ],
+ "tags": [],
+ "title": "{{인도}}, {{UPI 가맹점 수수료}} 도입 {{디왈리 뒤로 연기}}…10월 15일 시행 {{무산}}",
+ "url": "https://www.reuters.com/world/india/indian-payment-stocks-slide-after-report-upi-mdr-rollout-delay-2026-10-08/",
+ "added": "이번 로이터 1건으로 {{2027년 1월}}까지 {{미뤄질 수 있다}}던 {{수수료 도입}}이 {{디왈리 뒤}}로 {{연기}}되고 {{새 시행일}}은 {{따로 알리기로}} 한 {{결정}}이 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

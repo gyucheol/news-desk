@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0552",
+ "num": 552,
+ "key": "split-G5-077-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T08:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/us-lifts-sanctions-daughter-myanmar-military-linked-businessman-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미국, 미얀마 군부 연계 사업가의 딸 제재 해제",
+ "headline": "미국, 미얀마 군부 연계 사업가의 딸 제재 해제",
+ "one": "미국이 미얀마 군부 연계 사업가의 딸을 제재 명단에서 빼면서, 군부 정부와의 직접 대화가 제재 완화 조치로 이어지기 시작했고 중희토류 접근을 노린 관계 개선이 속도를 낼 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국은 미얀마 군부 연계 사업가의 딸에 대한 제재를 해제했다 [제목]",
+  "의미: 군부와의 대화가 제재 완화 조치로 이어지기 시작했다 [제목]",
+  "배경: 미국은 군부 정부와 9월 네피도, 지난주 도쿄에서 비공개 회담을 하며 중희토류 매장지 접근을 거론했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서에서 제재 해제는 제목 근거로만 다뤘고, 배경의 회담과 희토류 의제만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "미국, 미얀마 군부 연계 사업가의 딸 제재 해제",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/world/asia-pacific/us-lifts-sanctions-daughter-myanmar-military-linked-businessman-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "metals"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "미얀마 군부 연계 사업가 딸 제재 해제"
+  }
+ ]
+}

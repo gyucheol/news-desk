@@ -1,0 +1,110 @@
+{
+ "basis": "verified",
+ "check": "백악관 연구 페이지(whitehouse.gov) 검색 결과 요약으로 낮은 시나리오 GDP 0.28~0.56%·실질임금 연 306~637달러·세수 연 140억~280억 달러·전기요금 연 178~251달러 감소, NEPA 평균 4.2년→2년 전제 확인. 나머지는 기존 문서 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 상원 양당 협상단이 9월 30일 에너지·인프라 건설을 빠르게 하고 데이터센터발 비용을 억제하는 인허가 개혁 합의를 발표했고, 소송 제기 기한 6년→150일 단축이 거론되지만 표결은 11월 중간선거 뒤로 미뤄졌으며 풍력·태양광 문제가 남았다 [사실]",
+  "백악관 분석: 경제자문위원회는 낮은 시나리오에서 인허가 개혁으로 장기 GDP가 0.28~0.56%(연 820억~1,640억 달러) 늘고 가구 실질임금은 연 306~637달러, 세수는 연 140억~280억 달러 늘 수 있다고 추산했다 [사실]",
+  "분석 전제: 평균 4.2년 걸리는 NEPA 환경영향평가를 2년으로 묶는 개혁을 가정했고, 가구 전기요금은 연 178~251달러 줄 수 있다고 봤다 [사실]",
+  "가스관 지원: 미 에너지부는 10월 19일 국방물자법 3편 자금 최대 4,200만 달러를 펜실베이니아~뉴욕 약 125마일 컨스티튜션 가스관 인허가 작업에 대기로 했지만 뉴욕주 수질 인증이 관건이고, 호컬 주지사 측은 정치적 술책이라 했으며 윌리엄스는 2028년 4분기 가동을 목표로 한다 [사실]",
+  "반응: 트릴리온은 전시 자금까지 끌어와 중단된 뉴욕행 관로 건설을 돕는다는 소식을 비꼬듯 전하며 화석연료 지원 행보에 주목했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미 인허가 개혁…백악관 'GDP·임금 상승' 분석·소송 기한 6년→150일·가스관 4,200만 달러",
+ "id": "n-bbg-0425",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "gas",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-09-30",
+   "o": "로이터",
+   "s": "미 상원 양당이 에너지 인허가 개혁 합의를 발표하고 소송 제기 기한을 6년에서 150일로 줄이는 방안이 거론됐지만, 표결은 11월 중간선거 뒤로 미뤄졌다",
+   "t": "미 상원 양당, 에너지 인허가 개혁 합의 발표 — 표결은 11월 중간선거 뒤, 소송 제기 기한 6년→150일 거론",
+   "u": "https://www.reuters.com/legal/litigation/us-senators-hit-deal-energy-project-permitting-bill-vote-seen-after-november-2026-09-30/"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "미 에너지부가 국방물자법 자금 최대 4,200만 달러를 컨스티튜션 가스관 인허가 작업에 대면서 뉴욕주 반대로 멈췄던 사업을 다시 밀고 있다",
+   "t": "미국, 전시법 동원해 멈춰 선 뉴욕 가스관 건설 지원",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/us-taps-wartime-funds-to-help-build-stalled-new-york-pipeline"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 트릴리온",
+   "s": "트릴리온은 미국이 전시 자금까지 끌어와 중단된 뉴욕행 관로 건설을 돕는다는 소식을 비꼬듯 전하며 화석연료 지원 행보에 주목했다",
+   "t": "미국, 전시 자금으로 중단된 뉴욕 송유관 건설 지원",
+   "u": "https://t.me/Trillion_labs/10872"
+  },
+  {
+   "t": "백악관 연구, 인허가 법안으로 성장·임금 높아질 것으로 전망",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/white-house-study-sees-higher-growth-wages-from-permitting-bill",
+   "s": "백악관 경제자문위원회가 인허가 법안이 성장과 임금을 끌어올린다고 추산하면서 중간선거 뒤 상원 표결을 앞두고 개혁 명분을 더했다"
+  }
+ ],
+ "key": "split-G2-189-2026-10-20",
+ "nodes": [
+  "gas/midstream",
+  "macro/growth",
+  "power/developers"
+ ],
+ "num": 425,
+ "one": "미국이 에너지 인프라 건설을 앞당기려 인허가 개혁과 가스관 지원을 밀고 있고 백악관은 경제 효과 분석을 냈다\n· 백악관 경제자문위원회는 인허가 개혁으로 장기 GDP가 0.28~0.56% 늘어날 수 있다고 추산했다\n· 같은 분석은 가구 실질임금이 연 306~637달러 오르고 전기요금은 연 178~251달러 줄 수 있다고 봤다\n· 상원 양당 협상단은 9월 30일 인허가 개혁 합의를 발표했지만 표결은 11월 중간선거 뒤로 미뤄졌다\n· 사업 반대 측의 소송 제기 기한을 6년에서 150일로 줄이는 방안이 거론된다\n· 미 에너지부는 10월 19일 국방물자법 3편 자금 최대 4,200만 달러를 컨스티튜션 가스관에 대기로 했다\n· 약 125마일 이 가스관은 뉴욕주 수질 인증이 관건이며 윌리엄스는 2028년 4분기 가동이 목표다",
+ "origTitle": "",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T00:21:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-19",
+   "o": "미 에너지부",
+   "u": "https://www.energy.gov/articles/energy-department-advances-constitution-pipeline-project-42-million-defense-production-act"
+  },
+  {
+   "d": "2026-10-19",
+   "o": "Discovery Alert",
+   "u": "https://discoveryalert.com/news/constitution-pipeline-doe-funding-october-2026/"
+  },
+  {
+   "d": "2026-09-30",
+   "o": "The Hill(요약문)",
+   "u": "https://thehill.com/policy/energy-environment/6120853-permitting-reform-bipartisan-deal-infrastructure-energy-projects/"
+  },
+  {
+   "o": "백악관 경제자문위원회",
+   "d": "2026-10",
+   "u": "https://www.whitehouse.gov/research/2026/10/the-economic-benefits-of-permitting-reform/"
+  }
+ ],
+ "tags": [],
+ "title": "미 인허가 개혁…백악관 'GDP·임금 상승' 분석·소송 기한 6년→150일·가스관 4,200만 달러",
+ "updatedAt": "2026-10-29T09:40:10+09:00",
+ "url": "https://www.reuters.com/legal/litigation/us-senators-hit-deal-energy-project-permitting-bill-vote-seen-after-november-2026-09-30/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "인허가 개혁으로 장기 GDP 0.28~0.56% 증가 추산"
+  },
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "컨스티튜션 가스관 인허가 작업 자금 지원"
+  }
+ ],
+ "added": "블룸버그 1건 — 백악관이 인허가 개혁으로 장기 GDP 0.28~0.56%, 가구 실질임금 연 306~637달러 상승을 추산했다는 내용이 추가됨"
+}

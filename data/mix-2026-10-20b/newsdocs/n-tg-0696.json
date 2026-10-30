@@ -1,0 +1,71 @@
+{
+ "id": "n-tg-0696",
+ "num": 696,
+ "key": "mix-G1-057-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T09:02:00+09:00",
+ "url": "https://t.me/HANAchina/70719",
+ "origTitle": "",
+ "headline": "인텔, FCC에 외국산 로봇 금지 면제 신청…반도체 공장 자동유도차 유지보수 차질 우려",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-20",
+   "u": "https://t.me/HANAchina/70719"
+  },
+  {
+   "o": "Tom's Hardware",
+   "d": "2026-10-20",
+   "u": "https://www.tomshardware.com/tech-industry/semiconductors/intel-asks-fcc-for-waiver-to-buy-foreign-robots-chipmakers-automated-guided-vehicles-could-run-afoul-of-agencys-sweeping-robot-ban"
+  },
+  {
+   "o": "DroneXL",
+   "d": "2026-10-20",
+   "u": "https://dronexl.co/2026/10/20/intel-fcc-waiver-fab-robots-covered-list-drone-ban/"
+  }
+ ],
+ "items": [
+  {
+   "t": "인텔, 반도체 공장 장비 위해 FCC에 외국산 로봇 금지 면제 신청",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-20",
+   "u": "https://t.me/HANAchina/70719"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "semis",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "channel": "하나증권 중국전략",
+ "ind": "semis",
+ "title": "인텔, FCC에 외국산 로봇 금지 면제 신청…반도체 공장 자동유도차 유지보수 차질 우려",
+ "one": "인텔이 10월 16일 미 연방통신위원회(FCC)에 외국산 첨단 로봇 금지 조치의 조건부 면제를 신청했다\n· 인텔은 공장 자재를 나르는 자동유도차(AGV)의 유지보수·업그레이드가 막힐 수 있다고 우려했다\n· TSMC·마이크론·삼성전자 등 미국 내 다른 공장 운영사도 비슷한 면제를 신청해야 할 수 있다",
+ "facts": [
+  "무엇이: 인텔은 10월 16일 FCC에 외국산 첨단 로봇 금지와 관련해 반도체 공장 자동유도차(AGV)의 하드웨어·소프트웨어 변경을 허용해 달라는 조건부 면제를 신청했고, 신청서는 19일 공개됐다 [사실]",
+  "규정: FCC는 7월 외국산 첨단 로봇을 규제 목록(Covered List)에 올렸고, 기존 장비 사용은 가능하지만 업데이트 제한이 문제가 된다 [사실]",
+  "논리: 인텔은 요건에 맞는 검증된 국산 대체품이 없고 장비 교체에 수년이 걸린다고 주장했다 [사실]",
+  "파급: TSMC·마이크론·글로벌파운드리스·삼성전자·텍사스인스트루먼츠 등 미국 공장 운영사도 비슷한 면제가 필요할 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "인텔의 10월 16일 FCC 조건부 면제 신청, AGV 우려, 7월 Covered List 지정은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "equipment",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "외국산 로봇 금지로 팹 자동유도차 유지보수 차질 우려"
+  }
+ ]
+}

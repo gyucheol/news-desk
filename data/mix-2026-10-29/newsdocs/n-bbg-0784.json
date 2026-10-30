@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0784",
+ "num": 784,
+ "key": "mix-G-051-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T06:24:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales",
+ "origTitle": "",
+ "headline": "스프라우츠, 사이클로스포라 발병·소비 부진에 연간 전망 하향…3분기 동일점 매출 0.9%↓",
+ "src": [
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-28",
+   "u": "https://seekingalpha.com/news/4659742-sprouts-farmers-market-cuts-fy26-outlook-as-cyclospora-fallout-lingers"
+  },
+  {
+   "o": "Chartmill",
+   "d": "2026-10-28",
+   "u": "https://www.chartmill.com/news/SFM/Chartmill-57119-Sprouts-Farmers-Market-NASDAQSFM-Shares-Fall-on-Q3-Revenue-and-EPS-Miss-Negative-Comps-and-Cautious-Q4-Outlook"
+  }
+ ],
+ "items": [
+  {
+   "t": "스프라우츠, 사이클로스포라·소비 부진에 전망 하향 후 급락",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "스프라우츠, 사이클로스포라 발병·소비 부진에 연간 전망 하향…3분기 동일점 매출 0.9%↓",
+ "one": "미국 식료품 체인 스프라우츠가 사이클로스포라 발병과 소비 부진으로 연간 전망을 낮추자 주가가 급락했다\n· 3분기 동일점 매출은 거래 건수가 3.3% 줄며 0.9% 감소했고 EPS는 1.21달러로 예상을 밑돌았다\n· 4분기 동일점 매출 전망은 -2~-4%로, 연간은 약 -1.7%와 EPS 약 4.80달러로 낮췄다",
+ "facts": [
+  "무엇이: 스프라우츠가 10월 28일 3분기 실적과 함께 연간 전망을 낮췄고 주가는 시간외 거래에서 15~21% 급락했다 [사실]",
+  "실적: 동일점 매출은 거래 건수 3.3% 감소로 0.9% 줄었고, 매출은 약 5% 늘어난 23억 달러, EPS는 1.21달러로 예상 1.23달러를 밑돌았다 [사실]",
+  "전망: 4분기 동일점 매출 -2~-4%, 연간 동일점 매출 약 -1.7%, 희석 EPS 약 4.80달러를 제시했다 [사실]",
+  "사이클로스포라: CFO는 분기 중 발병 영향을 0.6%p(60bp)로 짚었지만 분기보고서는 1~3분기 누적 감소에 미친 영향이 크지 않다고 적었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "전망 하향·동일점 매출 -0.9%·거래 -3.3%·EPS 1.21달러·4분기 가이던스는 시킹알파·차트밀 등 검색 결과 요약으로 확인. 시간외 하락 폭은 출처마다 15~21%로 다름",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "거래 건수 3.3% 감소에 동일점 매출 0.9% 감소"
+  }
+ ]
+}

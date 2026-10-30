@@ -1,0 +1,42 @@
+{
+ "id": "n-rtr-0144",
+ "num": 144,
+ "key": "bnd-C297-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T23:18:00+09:00",
+ "url": "https://www.reuters.com/business/energy/south-korea-unveils-747-billion-energy-transition-plan-through-2035-2026-10-07/",
+ "origTitle": "",
+ "headline": "한국, 2035년까지 에너지 전환 계획 발표",
+ "src": [],
+ "items": [
+  {
+   "t": "한국, 2035년까지 7470억 규모 에너지 전환 계획 공개",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/south-korea-unveils-747-billion-energy-transition-plan-through-2035-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "한국, 2035년까지 에너지 전환 계획 발표",
+ "one": "한국 정부가 2035년까지의 에너지 전환 계획을 내놓으면서, 앞으로 10년간 재생에너지·전력망 등 전력 설비 투자와 발주의 방향이 이 계획에 맞춰 정해질 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 한국 정부가 2035년까지의 에너지 전환 계획을 발표 [제목]",
+  "규모: 기사 제목상 747 billion 규모이며 통화 단위(달러 또는 원)는 확인 못 함 [미확인]",
+  "영향: 전력 설비 발주 방향이 계획에 따라 정해질 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함. 규모의 통화 단위와 부문별 배분 미확인",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers",
+  "power/grid"
+ ]
+}

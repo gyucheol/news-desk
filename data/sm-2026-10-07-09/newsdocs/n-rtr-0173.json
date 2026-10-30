@@ -1,0 +1,42 @@
+{
+ "id": "n-rtr-0173",
+ "num": 173,
+ "key": "bnd-C332-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T01:19:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/",
+ "origTitle": "",
+ "headline": "튀르키예 중앙은행 총재 \"디스인플레이션 다시 속도…신중 기조 유지\"",
+ "src": [],
+ "items": [
+  {
+   "t": "튀르키예 중앙은행 총재 \"신중 기조 속 디스인플레이션 다시 속도 낼 것\"",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "튀르키예 중앙은행 총재 \"디스인플레이션 다시 속도…신중 기조 유지\"",
+ "one": "튀르키예 중앙은행 총재가 물가 둔화가 다시 속도를 낼 것이라며 신중한 통화정책 기조를 유지하겠다고 밝히면서, 리라화 자산에 대한 급격한 금리 인하 기대는 제한될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 튀르키예 중앙은행 총재가 디스인플레이션이 다시 속도를 낼 것이라고 언급 [제목]",
+  "정책: 신중한 정책 기조 유지 [제목]",
+  "영향: 빠른 금리 인하 기대가 제한될 수 있음 [추론]"
+ ],
+ "basis": "title",
+ "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ]
+}

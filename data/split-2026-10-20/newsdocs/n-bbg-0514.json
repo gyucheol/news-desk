@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0514",
+ "num": 514,
+ "key": "split-G4-152-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/uk-needs-to-slash-spending-to-fund-defense-buildup-imf-warns",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF '영국, 국방비 재원 위한 지출 삭감안 설명해야'",
+ "headline": "IMF '영국, 국방비 재원 위한 지출 삭감안 설명해야'",
+ "one": "IMF가 10월 14일 영국에 국방력 증강 재원을 마련하려면 다른 지출을 줄여야 한다고 경고하고 어떤 지출을 줄일지 설명하라고 요구하면서, 10월 28일 예산안의 지출 우선순위와 배분 부담이 쟁점으로 떠올랐다",
+ "facts": [
+  "무엇이: 10월 14일 IMF는 영국이 국방력 증강 재원을 마련하려면 다른 지출을 줄여야 한다고 경고했다 [사실]",
+  "요구: IMF는 영국 정부에 국방비 재원을 위해 어떤 지출을 줄일지 설명하라고 요구했다 [제목]",
+  "함께 낸 권고: IMF는 재정건전화 속도를 높이기보다 기존 경로를 지키라고 했고, 영국 성장률이 내년 1.2%로 둔화한다고 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건을 묶음. 원 문서 사실의 IMF 권고(국방비 재원 위한 지출 삭감 요구 포함)는 [사실]이며 출처 목록의 The National·IndexBox가 뒷받침. 설명 요구 기사는 제목 기준",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-13",
+   "u": "https://www.thenationalnews.com/business/economy/2026/10/13/imf-urges-uk-to-stay-course-on-deficit-reduction/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-14",
+   "u": "https://www.indexbox.io/blog/imf-warns-uk-to-stay-on-deficit-reduction-path-ahead-of-healeys-budget/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF '영국, 국방력 증강 재원 마련하려면 지출 삭감해야'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/uk-needs-to-slash-spending-to-fund-defense-buildup-imf-warns",
+   "s": "IMF가 영국에 국방비 증액 재원을 위해 다른 지출을 줄여야 한다고 경고하면서, 예산안의 지출 배분 부담이 커지고 있다"
+  },
+  {
+   "t": "IMF '영국은 국방비 재원을 위한 지출 삭감안을 설명해야'",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/imf-says-the-uk-must-explain-spending-cuts-needed-to-fund-defence",
+   "s": "IMF가 영국 정부에 국방비 재원을 위해 어떤 지출을 줄일지 설명하라고 요구하면서, 예산안의 지출 우선순위가 쟁점으로 떠올랐다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 국방비 재원 위해 다른 지출 삭감 요구"
+  },
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 국방력 증강 재원 마련 논의"
+  }
+ ]
+}

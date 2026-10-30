@@ -1,0 +1,89 @@
+{
+ "id": "n-bbg-0460",
+ "num": 460,
+ "key": "split-G4-026-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "나스닥100 5.5% 급락한 주에 美 10년물 17bp 하락…CTA 국채 숏 청산",
+ "headline": "나스닥100 5.5% 급락한 주에 美 10년물 17bp 하락…CTA 국채 숏 청산",
+ "one": "AI 거래 불안에 나스닥100이 주간 5.5% 급락하는 사이 미 10년물 금리가 약 17bp 내리고 국채 선물에 쌓였던 CTA 숏 포지션 청산이 랠리를 키우면서, 국채가 2025년 4월 이후 처음 안전자산 역할을 되찾았다",
+ "facts": [
+  "무엇이: 나스닥100이 5.5% 급락한 지난주 미 10년물 금리가 약 17bp 내려, 두 지표가 주간으로 이만큼 함께 떨어진 것은 2025년 4월 관세 충격 이후 처음이었다 [사실]",
+  "배경: 앤트로픽 매출 성장 둔화 신호와 코어위브 채권 가격 하락이 AI 거래 균열 우려를 키웠다 [사실]",
+  "수급: 국채 선물에 극단적으로 쌓였던 CTA 숏 포지션이 청산되면서 랠리가 커졌고 채권시장의 쏠림 위험이 드러났다 [사실]",
+  "평가: 채널들은 증시 급락 때 국채가 다시 헤지 수단이자 안전자산 역할을 하고 있다고 봤다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건과 텔레그램 2건(TNBfolio, 하나증권 중국전략)을 묶었다. 원 문서 확인 기록에서 10년물 주간 약 17bp 하락·나스닥100 5.5% 급락, 2025년 4월 이후 첫 동반 하락, 앤트로픽·코어위브발 AI 우려, CTA 숏 청산을 검색 결과 요약으로 확인했다.",
+ "src": [
+  {
+   "o": "Futu News",
+   "d": "2026-10-19",
+   "u": "https://news.futunn.com/en/post/1001498945/10-year-treasury-yield-plunges-17-basis-points-in-a"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-19",
+   "u": "https://www.briefs.co/news/treasuries-edge-back-into-haven-mode-as-ai-jitters-hit-tech/"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 거래 흔들리자 채권시장 대규모 숏 베팅에 경고등",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+   "s": "AI 거래가 흔들려 국채가 랠리하자 국채 선물에 극단적으로 쌓였던 CTA 숏 포지션이 청산되면서 채권시장의 쏠림 위험이 드러났다"
+  },
+  {
+   "t": "나스닥100 5.5% 급락한 주에 10년물 17bp 하락…국채 안전자산 역할 회복",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-19",
+   "u": "https://t.me/TNBfolio/71595",
+   "s": "나스닥100이 5.5% 급락한 주에 10년물 금리가 약 17bp 내려 2025년 4월 이후 처음 함께 떨어지면서, 증시 급락 때 국채가 다시 헤지 수단 역할을 하고 있다"
+  },
+  {
+   "t": "미 10년물 주간 17bp 급락…AI 거래 불안에 안전자산 매력 재부각",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-19",
+   "u": "https://t.me/HANAchina/70658",
+   "s": "AI 거래 불안 속에 이례적으로 쌓였던 국채 공매도가 청산되면서 10년물 금리가 한 주 새 17bp 떨어져 미 국채의 안전자산 매력이 다시 부각됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "AI 거래 불안에 10년물 금리 주간 17bp 하락"
+  },
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "AI 거래 균열 우려에 나스닥100 주간 5.5% 급락"
+  }
+ ],
+ "ind": "semis"
+}

@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0383",
+ "num": 383,
+ "key": "split-G1-116-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/egypt-vows-any-kind-of-support-for-saudis-after-houthi-strikes",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이집트, 후티 공습 뒤 사우디에 '모든 종류' 지원 약속·준비 표명",
+ "headline": "이집트, 후티 공습 뒤 사우디에 '모든 종류' 지원 약속·준비 표명",
+ "one": "이집트 외무장관이 13일 후티 공습을 받은 사우디에 모든 종류의 지원을 약속하고 메카 방위협정 참여를 검토한 데 이어 18일 필요한 지원을 할 준비가 됐다고 밝히면서, 아랍권의 사우디 방어 지원이 구체화되고 있다",
+ "facts": [
+  "무엇이: 이집트 외무장관은 10월 13일 후티 공습을 받은 사우디에 모든 종류의 지원을 약속하고 메카 방위협정 참여를 검토했지만 구체적 파병은 밝히지 않았다 [사실]",
+  "후속: 로이터는 18일 이집트가 후티 충돌 속에 사우디에 필요한 지원을 제공할 준비가 됐다고 밝혔다고 보도했다 [제목]",
+  "다음 단계: 이집트 의회는 사우디 방어 파병 권한 표결을 10월 26일로 미뤘고 통과에는 재적 3분의 2 찬성이 필요하다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그(13일)와 로이터(18일, 제목 기준) 기사를 묶었다. 이집트의 '모든 종류' 지원 약속은 독립 출처(Middle East Monitor·Arab News Pakistan, 13일)로 확인되고, 파병 표결 연기는 원 문서에서 로이터 제목과 텔레그램 근거다.",
+ "src": [
+  {
+   "o": "Middle East Monitor",
+   "d": "2026-10-13",
+   "u": "https://www.middleeastmonitor.com/20261013-egypt-vows-any-kind-of-support-for-saudi-arabia-after-houthi-attacks/"
+  },
+  {
+   "o": "Arab News Pakistan",
+   "d": "2026-10-13",
+   "u": "https://www.arabnews.pk/saudi-arabia/egypt-ready-with-any-kind-of-support-for-saudi-arabia-to-tackle-houthis-3004049"
+  }
+ ],
+ "items": [
+  {
+   "t": "이집트, 후티 공습 뒤 사우디에 '모든 종류' 지원 약속",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/egypt-vows-any-kind-of-support-for-saudis-after-houthi-strikes",
+   "s": "이집트 외무장관이 사우디에 모든 종류의 지원을 약속하고 메카 방위협정 참여를 검토하면서도 구체적 파병은 밝히지 않았다"
+  },
+  {
+   "t": "이집트 '후티 충돌 속 사우디에 필요한 지원 제공할 준비'",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/middle-east/egypt-says-ready-give-saudi-arabia-necessary-support-amid-houthi-conflict-2026-10-18/",
+   "s": "이집트가 후티와의 충돌 속에 사우디에 필요한 지원을 할 준비가 됐다고 밝히면서, 사우디 방어에 대한 아랍권 지원이 구체화되고 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "이집트의 사우디 지원 약속, 파병 여부는 미정"
+  }
+ ]
+}

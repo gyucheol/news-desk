@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0555",
+ "num": 555,
+ "key": "split-G5-106-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/china-central-bank-defends-currency-policy-before-eu-trade-talks",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "中 인민은행, EU 협의 앞두고 위안화 약세 유도 의혹 부인",
+ "headline": "中 인민은행, EU 협의 앞두고 위안화 약세 유도 의혹 부인",
+ "one": "중국이 8일 EU와의 협의에서 불균형 쟁점 속에 위안화 정책을 방어한 데 이어 9일 인민은행이 무역 우위를 위해 위안화 약세를 유도할 필요도 의도도 없다고 밝히면서, 환율이 EU·중국 무역협의의 쟁점으로 떠올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국 인민은행은 무역 우위를 위해 위안화 약세를 유도할 필요도 의도도 없다고 밝혀 환율 조작 의혹에 선을 그었다 [제목]",
+  "방어: 중국은 EU와의 협의에서 불균형 쟁점 속에 위안화 정책을 방어했다 [제목]",
+  "배경: EU의 대중 상품 무역적자는 하루 10억 유로를 넘고, 중국 해관총서 기준 9월 적자는 사상 최대인 348억 달러였다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 제목 기사 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중국, EU 협의서 불균형 쟁점 속 위안화 정책 방어",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/china-central-bank-defends-currency-policy-before-eu-trade-talks",
+   "s": "중국이 EU와의 협의에서 불균형 쟁점 속에 위안화 정책을 방어하면서 환율이 양측 협의의 쟁점으로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "중국 인민은행 '무역 우위 위해 위안화 약세 유도할 필요도 의도도 없어'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/china-has-no-need-or-intention-weaken-yuan-trade-edge-central-bank-says-2026-10-08/",
+   "s": "중국 인민은행이 무역 우위를 위해 위안화 약세를 유도할 필요도 의도도 없다고 밝히며 환율 조작 의혹에 선을 그었다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fx",
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "인민은행, 위안화 약세 유도 의도 없다고 밝힘"
+  }
+ ]
+}

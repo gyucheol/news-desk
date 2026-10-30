@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0481",
+ "num": 481,
+ "key": "split-G4-008-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/us-a-wealth-boom-price-shock-collide-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로이터 '미국, 자산 붐과 물가 충격이 충돌'",
+ "headline": "로이터 '미국, 자산 붐과 물가 충격이 충돌'",
+ "one": "로이터가 미국에서 자산 가격 붐과 물가 충격이 동시에 나타나 충돌하고 있다고 분석하면서, 자산 효과로 버티는 소비와 오르는 물가 사이에서 연준의 긴축 판단이 더 복잡해질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 미국에서 자산 붐과 물가 충격이 함께 나타나 충돌하고 있다고 로이터가 10월 12일 분석했다 [제목]",
+  "의미: 자산 가격 상승이 소비를 받치는 가운데 물가 충격이 겹치면 연준이 경기와 물가 사이에서 판단하기 더 어려워질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "미국, 자산 붐과 물가 충격이 충돌",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/business/finance/us-a-wealth-boom-price-shock-collide-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "자산 붐 속 물가 충격 동반"
+  }
+ ]
+}

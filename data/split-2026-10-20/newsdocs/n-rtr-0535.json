@@ -1,0 +1,95 @@
+{
+ "id": "n-rtr-0535",
+ "num": 535,
+ "key": "split-G5-023-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/canadian-firms-outlooks-dimmed-after-trade-talks-collapse-boc-survey-finds-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "캐나다은행 설문 \"협상 결렬 뒤 기업 전망 악화\"…소비자 기대물가 3.91%",
+ "headline": "캐나다은행 설문 \"협상 결렬 뒤 기업 전망 악화\"…소비자 기대물가 3.91%",
+ "one": "캐나다은행 3분기 기업전망조사 지표가 -0.33으로 소폭 올랐지만 대미 무역협상 결렬 뒤 기업 수출·투자 전망이 약해지고 소비자 5년 기대물가가 3.91%, 기업의 1년 물가 예상이 3.7%로 높아지면서, 10월 28일 금리 결정의 인상 부담이 커졌다",
+ "facts": [
+  "무엇이: 캐나다은행의 3분기 기업전망조사 지표는 -0.33으로 직전 -0.38에서 소폭 올랐지만 면담의 약 4분의 3이 협상 결렬 전에 이뤄졌고, 결렬 뒤 관세가 수출·투자 전망을 누르고 비용·가격을 밀어 올리고 있다고 봤다 [사실]",
+  "기대물가: 소비자 5년 기대인플레이션은 3.91%로 2022년 2분기 이후 최고였고, 기업들은 향후 1년 물가를 평균 3.7%로 예상했다 [사실]",
+  "가격 전가: 블룸버그는 설문에서 기대 인플레이션과 원가의 소비자 가격 전가가 함께 커졌다고 전했다 [사실]",
+  "금리: 캐나다은행은 10월 28일 금리를 정하며, 시장은 인상에 베팅하기 시작했지만 TD 등은 동결을, RBC는 인상 가능성을 거론해 결정은 박빙으로 평가된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터·블룸버그 기사 2건(10월 19일 발표). 기업전망 지표 -0.33(직전 -0.38), 면담 약 4분의 3이 결렬 전, 소비자 5년 기대물가 3.91%는 원 문서에서 캐나다은행 발표와 검색 결과 요약으로, 기업 1년 기대 3.7%와 인상 베팅은 다른 원 문서에서 검색 결과 요약으로 확인",
+ "src": [
+  {
+   "o": "캐나다은행",
+   "d": "2026-10-19",
+   "u": "https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+  },
+  {
+   "o": "Investment Executive",
+   "d": "2026-10-19",
+   "u": "https://www.investmentexecutive.com/news/economy/sentiment-improved-in-q3-but-new-tariffs-weigh-on-business-outlook-boc-report/"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-19",
+   "u": "https://www.theglobeandmail.com/business/economy/article-bank-of-canada-interest-rate-hike-bets-tiff-macklem-hawkish-speech/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐나다은행 조사 \"무역협상 결렬 뒤 기업 전망 어두워져\"",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/canadian-firms-outlooks-dimmed-after-trade-talks-collapse-boc-survey-finds-2026-10-19/",
+   "s": "캐나다은행 조사에서 대미 무역협상 결렬 뒤 기업들의 수출·투자 전망이 약해지고 소비자 기대물가가 3.91%로 뛰면서 28일 금리 결정의 부담이 커졌다"
+  },
+  {
+   "t": "캐나다은행 설문, 기대 인플레·가격 전가 확대 확인",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/boc-surveys-show-higher-inflation-expectations-passthrough",
+   "s": "캐나다은행 설문에서 기대 인플레이션이 오르고 기업들이 향후 1년 물가를 3.7%로 예상하면서, 원가가 소비자 가격으로 넘어갈 위험이 커졌다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/growth",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "캐나다 소비자 5년 기대물가 3.91%로 상승"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "협상 결렬 뒤 캐나다 기업 수출·투자 전망 위축"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "10월 28일 캐나다은행 인상 부담 커져"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "n-tg-0632",
+ "num": 632,
+ "key": "split-G5-098-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T20:54:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70665",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "中 9월 소매판매 1.1% 증가 예상 상회…자동차 소매판매는 21.2% 급감",
+ "headline": "中 9월 소매판매 1.1% 증가 예상 상회…자동차 소매판매는 21.2% 급감",
+ "one": "중국 9월 소매판매가 1.1% 늘어 예상 0.6% 안팎과 8월 0.4%를 웃돌았지만 자동차 소매판매는 21.2% 급감하면서, 자동차를 뺀 소매판매가 3.9% 늘고 통신기기 판매가 31.1% 증가하는 등 소비가 품목별로 크게 엇갈렸다",
+ "facts": [
+  "무엇이: 중국 9월 소매판매는 1.1% 늘어 예상 0.6% 안팎과 8월 0.4%를 웃돌았고, 성장률은 목표 궤도를 유지했다 [사실]",
+  "자동차: 9월 자동차 소매판매는 21.2% 줄었지만 자동차를 뺀 소매판매는 3.9% 늘었다 [채널]",
+  "품목: 통신기기 판매는 31.1% 늘었고, 1~9월 재화 소비 증가율은 6개월 만에 1%대를 회복했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 하나증권 중국전략·블룸버그 각 1건(10월 19일)을 묶었다. 소매판매 1.1%는 CNBC·investingLive로 확인했고, 자동차·통신기기 등 품목별 수치는 채널 근거다.",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-19",
+   "u": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-19",
+   "u": "https://investinglive.com/news/china-q3-gdp-beats-forecasts-at-4-5-retail-sales-grow-at-fastest-pace-since-march/"
+  }
+ ],
+ "items": [
+  {
+   "t": "中 9월 자동차 소매판매 21.2% 급감, 통신기기는 31.1% 증가",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-19",
+   "u": "https://t.me/HANAchina/70665",
+   "s": "중국 9월 자동차 소매판매가 21.2% 줄었지만 자동차를 뺀 소매판매는 3.9% 늘고 1~9월 재화 소비 증가율도 6개월 만에 1%대를 회복했다"
+  },
+  {
+   "t": "中 소매판매 예상 상회…성장률 목표 궤도 유지",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/china-growth-stays-on-track-as-retail-sales-beat-forecasts",
+   "s": "중국 9월 소매판매가 1.1% 늘어 예상을 웃돌면서 성장률이 목표 궤도를 유지했다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "auto"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "中 9월 소매판매 1.1% 증가로 예상 상회"
+  },
+  {
+   "ind": "auto",
+   "node": "chinaoem",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "中 9월 자동차 소매판매 21.2% 급감"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0697",
+ "num": 697,
+ "key": "mix-G2-094-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:22:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/tokyo-bourse-data-fix-revives-kioxia-margin-position-concerns",
+ "origTitle": "",
+ "headline": "도쿄증권거래소 데이터 정정에 키옥시아 신용매수 잔고 우려 재부상…3,117만→4,694만 주",
+ "src": [
+  {
+   "o": "애드혹뉴스",
+   "d": "2026-10-23",
+   "u": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/kioxia-s-leverage-overhang-survives-a-data-correction-as-ai-spending-doubts-bite/70399023"
+  },
+  {
+   "o": "서울경제",
+   "d": "2026-10-20",
+   "u": "https://en.sedaily.com/society/2026/10/20/kioxia-margin-debt-hits-920-billion-yen-raising-forced"
+  }
+ ],
+ "items": [
+  {
+   "t": "도쿄증권거래소 데이터 정정에 키옥시아 신용잔고 우려 재부상",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/tokyo-bourse-data-fix-revives-kioxia-margin-position-concerns"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "jpins",
+  "semis"
+ ],
+ "nodes": [
+  "jpins/securities"
+ ],
+ "title": "도쿄증권거래소 데이터 정정에 키옥시아 신용매수 잔고 우려 재부상…3,117만→4,694만 주",
+ "one": "도쿄증권거래소가 키옥시아 신용매수 잔고 자료를 정정하면서 매물 부담 우려가 다시 커졌다\n· 정정으로 신용매수 잔고는 3,117만 주로 줄었다는 수치가 4,694만 주로 오히려 늘어난 것으로 바뀌었다\n· 10월 15일 기준 신용매수 잔고는 약 9,200억 엔으로 거래소 최대이며 주가는 6월 고점 대비 63% 내렸다",
+ "facts": [
+  "무엇이: 도쿄증권거래소 정정으로 키옥시아 신용매수 잔고가 3,117만 주로 줄었다는 원래 자료가 4,694만 주로 늘어난 것으로 바뀌었다 [사실]",
+  "규모: 10월 15일 기준 키옥시아 신용매수 잔고는 약 9,200억 엔으로 도쿄증권거래소 상장사 중 최대다 [사실]",
+  "주가·일정: 주가는 6월 고점 대비 63% 내렸고, 6개월 상환 기한이 연말~2027년 초에 몰리며 10월 30일 분기 실적이 다음 고비다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "정정 수치는 애드혹뉴스 한 곳에서만 확인, 9,200억 엔·63% 하락은 서울경제 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "키옥시아 신용잔고 9,200억 엔 매물 부담"
+  }
+ ]
+}

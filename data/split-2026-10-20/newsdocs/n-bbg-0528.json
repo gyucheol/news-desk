@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0528",
+ "num": 528,
+ "key": "split-G5-020-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:36:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/chrystia-freeland-flays-allies-quisling-behavior-in-trade-war-with-trump",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프리랜드, 대트럼프 무역전쟁서 동맹들의 \"부역자 행태\" 비판",
+ "headline": "프리랜드, 대트럼프 무역전쟁서 동맹들의 \"부역자 행태\" 비판",
+ "one": "크리스티아 프리랜드가 10월 13일 트럼프와의 무역전쟁에서 동맹국들이 부역자 같은 행태를 보인다고 비판하면서, 미국 관세에 맞선 동맹들의 공동 대응이 흔들리고 있다는 불만이 캐나다에서 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 13일 크리스티아 프리랜드가 트럼프와의 무역전쟁에서 동맹들의 부역자 행태를 맹비난했다고 전했다 [제목]",
+  "배경: 그리어 USTR은 캐나다와의 무역 입장을 고수하고 있고, 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프리랜드, 대트럼프 무역전쟁서 동맹들의 '부역자 행태' 비판",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/chrystia-freeland-flays-allies-quisling-behavior-in-trade-war-with-trump"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "프리랜드, 동맹들의 대트럼프 부역자 행태 비판"
+  }
+ ]
+}

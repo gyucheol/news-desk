@@ -1,0 +1,83 @@
+{
+ "id": "n-rtr-0471",
+ "num": 471,
+ "key": "split-G3-035-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/markets/europe/msci-freezes-certain-turkey-index-changes-warns-potential-market-downgrade-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "MSCI, 튀르키예 지수 일부 변경 동결·강등 경고…튀르키예 증시 3% 넘게 하락",
+ "headline": "MSCI, 튀르키예 지수 일부 변경 동결·강등 경고…튀르키예 증시 3% 넘게 하락",
+ "one": "MSCI가 담합 거래·유동주식 안정성 우려로 튀르키예 지수의 편입비율 상향과 신규 편입을 무기한 동결하고 2027년 6월까지 진전이 없으면 강등 협의를 하겠다고 경고하면서, 튀르키예 증시가 하루 새 3% 넘게 떨어졌다",
+ "facts": [
+  "무엇이: MSCI는 담합 거래 우려로 튀르키예 지수의 편입비율 상향과 신규 편입을 무기한 동결했다 [사실]",
+  "경고: 2027년 6월까지 진전이 없으면 시장 강등 협의를 할 수 있다고 했다 [사실]",
+  "시장: 튀르키예 증시는 하루 새 3% 넘게 떨어졌다 [제목]",
+  "배경: 채널은 주가조작 스캔들과 유동주식 안정성 우려로 튀르키예 기업들이 글로벌 지수에서 빠질 위기에 놓였다고 전했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 2건과 텔레그램 1건을 묶었다. MSCI의 튀르키예 지수 변경 동결은 MSCI 발표로 확인했고, 증시 하락폭은 기사 제목 기준이다.",
+ "src": [
+  {
+   "o": "MSCI",
+   "d": "2026-10-15",
+   "u": "https://ir.msci.com/news-releases/news-release-details/msci-implements-freeze-msci-turkey-indexes"
+  }
+ ],
+ "items": [
+  {
+   "t": "MSCI, 튀르키예 지수 일부 변경 동결…시장 강등 가능성 경고",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/markets/europe/msci-freezes-certain-turkey-index-changes-warns-potential-market-downgrade-2026-10-16/",
+   "s": "MSCI가 담합 거래 우려로 튀르키예 지수의 편입비율 상향과 신규 편입을 무기한 동결하면서, 2027년 6월까지 진전이 없으면 강등 협의를 할 수 있다고 경고했다"
+  },
+  {
+   "t": "MSCI의 일부 지수 변경 동결에 튀르키예 증시 3% 넘게 하락",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/middle-east/turkish-stocks-drop-more-than-3-after-msci-freezes-certain-index-changes-2026-10-16/",
+   "s": "MSCI가 튀르키예 지수의 일부 변경을 동결하면서 튀르키예 증시가 하루 새 3% 넘게 떨어졌다 (제목 기준)"
+  },
+  {
+   "t": "주가조작 스캔들에 튀르키예 기업들 글로벌 지수 제외 위기",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10681",
+   "s": "MSCI가 유동주식 안정성 우려로 튀르키예 지수 변경을 동결하고 2027년 6월까지 진전이 없으면 강등 협의를 하겠다고 하면서, 튀르키예 기업들이 지수에서 빠질 위기에 놓였다"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "지수 변경 동결에 튀르키예 증시 3% 넘게 하락"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "편입비율 상향·신규 편입 무기한 동결"
+  }
+ ]
+}

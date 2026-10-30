@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0589",
+ "num": 589,
+ "key": "split-G6-078-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T19:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/albertsons-pauses-full-year-outlook-as-it-reviews-operations",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "앨버트슨, 2분기 순이익 5,150만 달러로 줄자 연간 전망 철회·사업 검토",
+ "headline": "앨버트슨, 2분기 순이익 5,150만 달러로 줄자 연간 전망 철회·사업 검토",
+ "one": "앨버트슨이 2분기 조정 주당순이익 36센트로 예상을 웃돌았지만 순이익이 5,150만 달러로 줄고 동일점 매출이 0.8% 감소하자 연간 전망을 철회하고 사업 전반 검토에 착수하면서, 투자자는 4분기 새 목표까지 가이던스 없이 지켜보게 됐다",
+ "facts": [
+  "무엇이: 앨버트슨은 10월 13일 2분기 순이익이 5,150만 달러로 줄자 2026회계연도 전망을 철회하고 전면 사업 검토에 들어갔다 [사실]",
+  "실적: 조정 주당순이익은 36센트로 예상을 웃돌았지만 동일점 매출이 0.8% 줄고 점유율이 밀렸다 [사실]",
+  "향후: 앨버트슨은 비용 구조 개편에 나섰고, 투자자들은 4분기 새 목표 발표까지 가이던스 없이 지켜보게 됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그(10월 13일)·로이터(10월 14일) 기사를 묶음. 전망 철회와 사업 검토, 2분기 순이익 감소는 Chain Store Age·Quartz 기사가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "Chain Store Age",
+   "d": "2026-10-13",
+   "u": "https://chainstoreage.com/albertsons-beats-street-q2-profit-pulls-guidance-review-business"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/albertsons-suspends-guidance-business-review-profit-falls-101326"
+  }
+ ],
+ "items": [
+  {
+   "t": "앨버트슨, 사업 검토 착수하며 연간 전망 중단",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/albertsons-pauses-full-year-outlook-as-it-reviews-operations",
+   "s": "앨버트슨이 사업 전반 검토에 착수하면서 연간 실적 전망을 중단해, 투자자들은 4분기 새 목표 발표까지 가이던스 없이 지켜보게 됐다"
+  },
+  {
+   "t": "미 식료품 체인 앨버트슨, 사업 검토 속 연간 전망 철회",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/us-grocer-albertsons-suspends-full-year-forecasts-amid-business-review-2026-10-13/",
+   "s": "앨버트슨이 조정 주당순이익 36센트로 예상을 웃돌았지만 동일점 매출이 0.8% 줄고 점유율이 밀리자 연간 전망을 거두고 비용 구조 개편에 나섰다"
+  }
+ ],
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "동일점 매출 0.8% 감소, 연간 전망 철회"
+  }
+ ]
+}

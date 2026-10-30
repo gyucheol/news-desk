@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0767",
+ "num": 767,
+ "key": "mix-G-020-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/deutsche-telekom-is-said-to-hit-brakes-on-giant-t-mobile-merger",
+ "origTitle": "",
+ "headline": "도이치텔레콤, T모바일 초대형 합병에 제동…T모바일은 새 요금제로 가입자·이익 늘려",
+ "src": [
+  {
+   "o": "T모바일 IR",
+   "d": "2026-10-28",
+   "u": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-delivers-strong-account-and-arpa-growth-translating"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-28",
+   "u": "https://www.gurufocus.com/news/9148504/tmobile-us-inc-reports-q3-2026-earnings-eps-of-322-beats-estimates-revenue-reaches-2358-billion"
+  }
+ ],
+ "items": [
+  {
+   "t": "도이치텔레콤, T모바일 초대형 합병에 제동 거는 것으로 알려져",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/deutsche-telekom-is-said-to-hit-brakes-on-giant-t-mobile-merger",
+   "s": "도이치텔레콤이 T모바일을 둘러싼 초대형 합병 추진에 제동을 건 것으로 전해지면서 거래 향방이 불투명해졌다 (제목 기준)"
+  },
+  {
+   "t": "T모바일, 새 요금제로 가입자 늘리며 이익 증가",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/t-mobile-boosts-profit-accounts-as-network-and-offers-resonate",
+   "s": "T모바일이 새 요금제와 네트워크 호응으로 후불 계정 27만 4,000개를 늘리면서 3분기 이익이 시장 예상을 웃돌았다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "도이치텔레콤, T모바일 초대형 합병에 제동…T모바일은 새 요금제로 가입자·이익 늘려",
+ "one": "도이치텔레콤이 T모바일과의 초대형 합병에 제동을 건 가운데 T모바일 3분기 실적은 예상을 웃돌았다\n· 도이치텔레콤은 T모바일 관련 초대형 합병 추진에 브레이크를 건 것으로 전해졌다\n· T모바일은 3분기 후불 계정 27만 4,000개를 순증했고 계정당 매출은 4% 늘어난 155.73달러였다\n· 조정 주당순이익 3.22달러, 매출 235억 8,000만 달러로 예상을 웃돌았고 연간 목표를 일부 올렸다",
+ "facts": [
+  "무엇이: 도이치텔레콤이 T모바일 초대형 합병에 제동을 걸었다고 전해졌다 [제목]",
+  "가입자: T모바일 3분기 후불 계정 순증은 27만 4,000개, 후불 계정당 매출은 4% 늘어난 155.73달러, 후불 계정은 3,500만 개였다 [사실]",
+  "실적: 조정 주당순이익 3.22달러(예상 2.89달러), 매출 235억 8,000만 달러로 예상을 웃돌았고 후불 서비스 매출은 9%, 핵심 조정 EBITDA는 11% 늘었다 [사실]",
+  "전망: 올해 후불 계정 순증 전망을 약 100만 개로 제시하는 등 연간 목표를 일부 올렸다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "T모바일 3분기 실적(후불 계정 27만 4,000개 순증, EPS 3.22달러, 매출 235억 8,000만 달러)은 회사 발표·검색 결과 요약으로 확인. 도이치텔레콤의 합병 제동은 독립 출처를 찾지 못해 제목 기준.",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "T모바일 3분기 후불 계정 27만 4천 개 순증"
+  }
+ ],
+ "updatedAt": "2026-10-29T09:40:10+09:00"
+}

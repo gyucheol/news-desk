@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0558",
+ "num": 558,
+ "key": "split-G5-112-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/macron-sees-imminent-agreement-with-berlin-to-shield-eu-autos",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "마크롱, EU 자동차 보호 위한 독일과의 합의 임박 전망",
+ "headline": "마크롱, EU 자동차 보호 위한 독일과의 합의 임박 전망",
+ "one": "마크롱 프랑스 대통령이 12일 EU 자동차 산업을 보호하기 위한 독일과의 합의가 임박했다고 내다보면서, 역내 보호 조치를 둘러싼 독·불 이견이 좁혀지고 대중 보호 조치에 힘이 실릴 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 마크롱 대통령이 EU 자동차 보호를 위한 독일과의 합의가 임박했다고 내다봤다 [제목]",
+  "의미: 역내 보호 조치를 둘러싼 이견이 좁혀질 수 있다 [제목]",
+  "추가: 마크롱 대통령은 중국산 수입 제한 대상으로 화학·플라스틱·페로합금도 거론했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "마크롱, EU 자동차 보호 위한 독일과의 합의 임박 전망",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/macron-sees-imminent-agreement-with-berlin-to-shield-eu-autos"
+  }
+ ],
+ "inds": [
+  "auto",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "독·불, EU 자동차 보호 합의 임박 전망"
+  }
+ ]
+}

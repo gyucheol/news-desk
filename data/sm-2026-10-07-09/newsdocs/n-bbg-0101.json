@@ -1,0 +1,177 @@
+{
+ "basis": "verified",
+ "check": "30년물 2002년 이후 최고(5.69~5.70%)와 MBA 모기지 7.49%는 검색 결과 요약으로 확인. 냇웨스트·싱가포르 은행·핌코 발언은 제목만 근거",
+ "cycles": [],
+ "dupOf": "n-bbg-0048",
+ "facts": [
+  "무엇이: 미 국채 30년물 금리가 2002년 이후 최고 수준으로 상승, 10월 8일 5.69% 안팎 [사실]",
+  "모기지: MBA 30년 고정 평균 금리가 10월 2일 주간 19bp 올라 7.49%, 2023년 11월 이후 최고 [사실]",
+  "기존 문서: 10년물 390억 달러 입찰은 낙찰금리 5.300%로 호조 [사실]",
+  "파장: 싱가포르 은행주 급락, 냇웨스트는 미·유럽 국채 딜링 축소, 핌코 이바식은 10년물 6% 도달 위험 언급 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 30년물 금리 2002년 이후 최고·모기지 7.49%…입찰 호조에도 채권 매도세 지속",
+ "id": "n-bbg-0101",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "bbg-1007-ust-10y-auction-strong",
+ "nodes": [
+  "macro/rates"
+ ],
+ "num": 101,
+ "one": "유가가 배럴당 100달러를 다시 넘으면서 미 국채 30년물 금리가 2002년 이후 최고인 5.7% 안팎까지 오르고 30년 고정 모기지 금리도 7.49%로 2023년 이후 최고를 찍어, 10년물 입찰 호조에도 주택 수요와 은행 실적에 금리 부담이 커지고 있다",
+ "origTitle": "US Bonds Rise as Yields at 2002 High Lures Buyers at Auction",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:30:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-bonds-rise-as-yields-at-2002-high-lures-buyers-at-auction"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "investingLive",
+   "u": "https://investinglive.com/news/the-us-treasury-sells-39-billion-of-10-year-notes-at-a-high-yield-of-5-300-versus-wi-level-of-5-317/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "미 재무부 일별 국채 금리(1차 자료)",
+   "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-09-29",
+   "u": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html"
+  },
+  {
+   "o": "Detroit News",
+   "d": "2026-10-07",
+   "u": "https://www.detroitnews.com/story/business/real-estate/2026/10/07/the-average-30-year-mortgage-rate-is-up-again/92136783007/"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10-08",
+   "u": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+  }
+ ],
+ "tags": [],
+ "title": "美 30년물 금리 2002년 이후 최고·모기지 7.49%…입찰 호조에도 채권 매도세 지속",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/us-bonds-rise-as-yields-at-2002-high-lures-buyers-at-auction",
+ "items": [
+  {
+   "t": "미 10년물 390억 달러 입찰 호조…낙찰금리 5.300%, 간접 응찰 80%",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-bonds-rise-as-yields-at-2002-high-lures-buyers-at-auction"
+  },
+  {
+   "t": "짧은 충격 뒤 트레이더들, 미 국채 금리 상승 베팅 재개",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/bonds-traders-revive-treasury-short-bets-after-fleeting-shakeout"
+  },
+  {
+   "t": "BofA 수브라마니안 \"채권이 주식과 드물게 경쟁하는 국면\"",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/bofa-s-subramanian-says-bonds-in-rare-competition-with-stocks"
+  },
+  {
+   "t": "미 모기지 금리 7.49%로 급등…2023년 이후 최고",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-mortgage-rates-jump-to-7-49-highest-in-nearly-three-years"
+  },
+  {
+   "t": "유가 100달러 넘자 미 30년물 금리 2002년 고점으로 복귀",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/us-30-year-yields-return-to-2002-high-with-crude-back-above-100"
+  },
+  {
+   "t": "워런, 베선트에 '혼란스러운' 국채 바이백 추궁",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/bessent-pressed-by-warren-on-chaotic-us-treasuries-buybacks"
+  },
+  {
+   "t": "1994년 이후 최대 분기 급등에도 미 국채 금리 하락 전망 유지",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/lower-us-treasury-yield-view-persists-despite-biggest-quarterly-surge-since-1994-2026-10-07/"
+  },
+  {
+   "t": "골드만부터 BofA까지, 전략가들 채권 금리 고점 점치기",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/from-goldman-to-bofa-strategists-try-to-call-peak-bond-yields"
+  },
+  {
+   "t": "유럽 채권시장 매도세 속 투자자들이 고른 새 유망주와 실패작",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/investors-pick-new-darlings-duds-selloff-rocks-europes-bond-market-2026-10-07/"
+  },
+  {
+   "t": "미 30년 모기지 금리, 근 3년 만에 최고",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/us/us-30-year-mortgage-rate-hits-highest-nearly-three-years-2026-10-07/"
+  },
+  {
+   "t": "미 30년물 국채 금리, 24년 만에 최고치 또 경신",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/"
+  },
+  {
+   "t": "도이체방크 \"부유층 투자자, 금리를 최대 성장 위험으로 인식\"",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/finance/wealthy-investors-view-rates-yields-biggest-growth-risk-says-deutsche-bank-2026-10-07/"
+  },
+  {
+   "t": "금리 급등이 실적 위협하자 싱가포르 은행주 급락",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/singapore-banks-hot-rally-stutters-over-surging-bond-yields"
+  },
+  {
+   "t": "냇웨스트, 미국·유럽 국채 딜링에서 발 뺀다",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/natwest-pulls-back-from-dealing-us-and-european-government-bonds"
+  },
+  {
+   "t": "높은 금리에 30년물 입찰 수요 몰리며 미 국채 강세",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale"
+  },
+  {
+   "t": "미 30년 고정 모기지 금리 7.40%로 급등",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/us-30-year-fixed-rate-mortgage-rate-jumps-740-2026-10-08/"
+  },
+  {
+   "t": "유가 부담·30년물 입찰 앞두고 미 국채 이틀째 하락, 금리 상승",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/us-bonds-fall-lifting-yields-2nd-day-oil-weighs-30-year-auction-looms-2026-10-08/"
+  },
+  {
+   "t": "핌코 이바식 \"미 10년물 금리, 2000년 이후 처음 6% 갈 위험\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/markets/us/us-10-year-treasury-yield-risks-hitting-6-first-time-since-2000-pimcos-ivascyn-2026-10-09/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

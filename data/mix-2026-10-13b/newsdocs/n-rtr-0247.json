@@ -1,0 +1,38 @@
+{
+ "id": "n-rtr-0247",
+ "num": 247,
+ "key": "mix-C101-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-09T21:52:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/berlin-rejects-claim-it-dropped-franco-german-tank-project-2026-10-09/",
+ "origTitle": "",
+ "headline": "독일 정부, {{독불 전차 공동사업}} 포기설 부인",
+ "src": [],
+ "items": [
+  {
+   "t": "독일, 독불 전차 공동사업 포기했다는 주장 부인",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/aerospace-defense/berlin-rejects-claim-it-dropped-franco-german-tank-project-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "독일 정부, {{독불 전차 공동사업}} 포기설 부인",
+ "one": "{{독일 정부}}가 프랑스와 함께하는 전차 공동 개발 사업에서 손을 뗐다는 주장을 부인하면서, {{독불 전차 사업}}이 계속 유지된다는 입장이 확인돼 양국 방산 협력의 불확실성이 다소 줄었다 (제목 기준)",
+ "facts": [
+  "무엇이: 독일 정부가 독불 전차 사업을 포기했다는 주장을 부인했습니다 [제목]",
+  "의미: 사업 지속 여부를 둘러싼 논란이 있었다는 뜻으로, 양국 방산 협력의 마찰이 이어지고 있음을 보여줍니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색하지 않음. 로이터 제목만 근거"
+}

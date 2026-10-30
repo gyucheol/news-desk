@@ -1,0 +1,73 @@
+{
+ "id": "n-rtr-0628",
+ "num": 628,
+ "key": "split-G6-161-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/disc-medicines-rare-disease-drug-succeeds-late-stage-trial-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "디스크 메디슨 비토퍼틴 3상 성공…주가 약 38% 급등, 연말 허가 재신청",
+ "headline": "디스크 메디슨 비토퍼틴 3상 성공…주가 약 38% 급등, 연말 허가 재신청",
+ "one": "디스크 메디슨의 비토퍼틴이 적혈구생성 프로토포르피린증 3상에서 모든 1·2차 평가변수를 충족하면서, 주가가 약 38% 오르고 회사가 연말까지 신약 허가를 재신청할 계획이다",
+ "facts": [
+  "무엇이: 디스크 메디슨의 비토퍼틴은 적혈구생성 프로토포르피린증 3상에서 모든 1·2차 평가변수를 충족했다 [사실]",
+  "반응: 결과 발표 뒤 주가가 약 38% 올랐고, 회사는 연말까지 신약 허가를 재신청할 계획이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 3상 성공·주가 약 38% 상승·연말 재신청은 검색 결과 요약으로 확인(원 문서에 출처별 구분이 없어 독립 출처 3곳을 함께 적음)",
+ "src": [
+  {
+   "o": "BioWorld",
+   "d": "2026-10-19",
+   "u": "https://www.bioworld.com/articles/734772-disc-readies-for-round-two-at-fda-with-positive-phase-iii-data-in-epp"
+  },
+  {
+   "o": "Fierce Pharma",
+   "d": "2026-10-19",
+   "u": "https://www.fiercepharma.com/pharma/eyepoint-cuts-staff-and-shifts-priorities-after-another-amd-ph3-miss"
+  },
+  {
+   "o": "BioSpace",
+   "d": "2026-10-19",
+   "u": "https://www.biospace.com/job-trends/eyepoint-will-halve-workforce-end-pivotal-wet-amd-trials-early-following-second-fail"
+  }
+ ],
+ "items": [
+  {
+   "t": "디스크 메디슨 희귀질환 신약, 후기 임상 성공",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/disc-medicines-rare-disease-drug-succeeds-late-stage-trial-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "디스크 비토퍼틴 3상 모든 평가변수 충족"
+  },
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "연말까지 신약 허가 재신청 계획"
+  }
+ ]
+}

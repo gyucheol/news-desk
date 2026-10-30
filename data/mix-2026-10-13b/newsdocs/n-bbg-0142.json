@@ -1,0 +1,128 @@
+{
+ "basis": "verified",
+ "check": "에어트렁크 IPO 연기와 이유는 검색 결과 요약으로 확인. 새 상장 시점은 보도마다 엇갈림",
+ "cycles": [],
+ "facts": [
+  "무엇이: 데이터센터 운영사 에어트렁크가 15억 달러 규모 싱가포르 리츠 IPO를 연기했다는 보도가 나왔습니다 [사실]",
+  "이유: 금리 상승과 시장 변동성으로 투자 수요가 약해졌고, 리츠 수익률을 5.5%에서 약 6%로 올리는 방안도 검토됐다고 전해졌습니다 [사실]",
+  "시점: 상장은 2027년으로 미뤄졌다는 보도와 내년 1~2분기에 나올 수 있다는 보도가 엇갈립니다 [사실]",
+  "기존 흐름: 엔비디아가 투자한 Firmus는 10월 9일 50억 달러 호주 IPO를 철회했고, 마스 그룹 시총이 10억 호주달러 넘게 줄었습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "에어트렁크, {{15억 달러 싱가포르 IPO 연기}}…아시아 AI 인프라 상장 위축",
+ "id": "n-bbg-0142",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "엔비디아 투자 Firmus, 대형 IPO 난항에 수요예측 마감 소식",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "엔비디아 투자 Firmus 50억 달러 IPO 보류에 호주 마스 거래정지",
+   "u": "https://www.reuters.com/business/australias-maas-enters-trading-halt-after-nvidia-backed-firmus-shelves-5-billion-2026-10-09/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "Firmus 50억 달러 상장 실패, 위축되는 호주 증시에 타격",
+   "u": "https://www.reuters.com/legal/transactional/firmus-5-bln-float-failure-deals-blow-australias-shrinking-share-market-2026-10-09/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "Firmus 상장 실패로 초기 투자자 마스 시총 7억 달러 증발",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/firmus-fiasco-wipes-out-700-million-of-early-backer-maas-value"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "t": "Firmus IPO 실패, 대기 중인 아시아 AI 거래의 문턱 높여",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/firmus-ipo-debacle-raises-the-bar-for-asia-ai-deals-in-pipeline"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "Firmus IPO 무산 파장 아시아 확산…마스 주가 급락",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/failed-firmus-ipo-ripples-across-asia-maas-shares-slump-treasury-wine-estates"
+  },
+  {
+   "t": "에어트렁크, 싱가포르 IPO 연기…WSJ 보도",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/airtrunk-delay-singapore-ipo-wsj-reports-2026-10-13/",
+   "s": "{{에어트렁크}}가 {{싱가포르 IPO를 연기}}한다는 WSJ 보도가 나오면서, 아시아 데이터센터 자산의 상장 일정이 늦어지고 있다"
+  },
+  {
+   "t": "데이터센터 운영사 에어트렁크, 15억 달러 IPO 연기",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/data-center-operator-airtrunk-is-said-to-delay-1-5-billion-ipo",
+   "s": "{{에어트렁크}}가 금리 상승과 변동성에 {{15억 달러 IPO}}를 미루면서, 데이터센터 리츠가 투자자에게 더 높은 수익률을 내줘야 할 수 있다"
+  }
+ ],
+ "key": "bnd-C105-2026-10-09",
+ "nodes": [
+  "macro/liquidity",
+  "macro/semis",
+  "power/demand"
+ ],
+ "num": 142,
+ "one": "블랙스톤이 투자한 {{에어트렁크}}가 금리 상승과 시장 변동성에 투자 수요가 약해지자 {{15억 달러}} 싱가포르 리츠 상장을 미루면서, Firmus의 IPO 철회에 이어 {{아시아 데이터센터 상장}} 문턱이 더 높아지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:12:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Inside AI News",
+   "u": "https://insideai.news/news/ai-in-business/firmus-ipo-shelved-maas-trading-halt/13932/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Tradingpedia",
+   "u": "https://www.tradingpedia.com/2026/10/09/firmus-halts-australia-ipo-as-ai-market-risks-mount/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Tradingkey",
+   "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207581-firmus-australia-ipo-shelved-openai-private-funding-tradingkey"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Mugglehead",
+   "u": "https://mugglehead.com/maas-group-holdings-firmus-ipo-work-orders-funding/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Crypto Briefing",
+   "u": "https://cryptobriefing.com/maas-group-firmus-grid-ipo-selloff/"
+  },
+  {
+   "o": "PANews",
+   "d": "2026-10-13",
+   "u": "https://panews.io/articles/01a133cf-3aff-7179-871f-13d65525632c"
+  },
+  {
+   "o": "Phemex",
+   "d": "2026-10-13",
+   "u": "https://phemex.com/news/article/blackstonebacked-airtrunk-delays-15b-singapore-reit-ipo-to-2027-99667"
+  }
+ ],
+ "tags": [],
+ "title": "에어트렁크, {{15억 달러 싱가포르 IPO 연기}}…아시아 AI 인프라 상장 위축",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles",
+ "added": "이번 로이터·블룸버그 2건으로 {{에어트렁크의 15억 달러 IPO 연기}}와 금리 상승에 따른 {{투자 수요 약화}}가 추가됐다"
+}

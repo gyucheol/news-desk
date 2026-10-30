@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0523",
+ "num": 523,
+ "key": "split-G4-146-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/imf-sees-higher-energy-prices-interest-rates-hitting-uk-growth-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF '에너지값·금리 상승에 영국 성장률 내년 1.2%로 둔화'",
+ "headline": "IMF '에너지값·금리 상승에 영국 성장률 내년 1.2%로 둔화'",
+ "one": "IMF가 에너지 가격과 장기금리 상승을 이유로 영국 성장률이 올해 1.3%에서 내년 1.2%로 둔화한다고 내다보면서, 소비와 투자가 약해지고 10월 28일 예산안의 재정 여력도 빠듯해질 수 있다",
+ "facts": [
+  "무엇이: 10월 13일 IMF는 에너지 가격과 장기금리 상승이 영국 성장을 끌어내릴 것이라며 성장률이 올해 1.3%에서 내년 1.2%로 둔화한다고 봤다 [사실]",
+  "금리 배경: 10월 7일 영국 30년물 국채금리는 6.02%로 1998년 이후 최고였고, 10년물 차입 비용도 유가 급등에 19년 만에 최고로 올랐다 [사실]",
+  "정책 권고: IMF는 재정건전화 속도를 높이기보다 기존 경로를 지키라고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 원 문서 사실의 IMF 성장 전망(1.3%→1.2%)은 [사실]이며 출처 목록의 The Bold News·IndexBox가 뒷받침",
+ "src": [
+  {
+   "o": "The Bold News",
+   "d": "2026-10-13",
+   "u": "https://theboldnews.com/uk-growth-upgraded-but-energy-prices-and-rates-to-bite-in-2027/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-13",
+   "u": "https://www.indexbox.io/blog/imf-warns-high-energy-costs-and-long-term-interest-rates-will-weigh-on-uk-growth/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF \"에너지 가격·금리 상승이 영국 성장 끌어내릴 것\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/uk/imf-sees-higher-energy-prices-interest-rates-hitting-uk-growth-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 영국 성장률 내년 1.2%로 둔화 전망"
+  }
+ ]
+}

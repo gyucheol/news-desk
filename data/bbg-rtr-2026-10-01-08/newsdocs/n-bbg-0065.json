@@ -1,0 +1,44 @@
+{
+ "id": "n-bbg-0065",
+ "feed": "v5",
+ "format": "one1",
+ "num": 65,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1005-kuwait-output-75pct-prewar",
+ "published": "2026-10-05",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity"
+ ],
+ "title": "쿠웨이트 원유 생산 하루 200만 배럴…전쟁 전의 약 75% 수준",
+ "one": "쿠웨이트석유공사 CEO가 원유 생산이 하루 약 200만 배럴로 전쟁 전(약 260만 배럴)의 75% 수준이라고 밝히면서, 호르무즈를 지나는 유조선이 늘어도 걸프 산유국의 생산 회복은 아직 덜 끝났음이 확인됐다",
+ "headline": "쿠웨이트 원유 생산 하루 200만 배럴…전쟁 전의 약 75% 수준",
+ "facts": [
+  "무엇이: 쿠웨이트석유공사(KPC) 셰이크 나와프 CEO가 원유 생산이 하루 약 200만 배럴로 전쟁 전 약 260만 배럴의 75% 수준이라고 밝혔습니다. [사실]",
+  "얼마나: 생산능력은 하루 약 300만 배럴이며, 고객과의 원유 공급 약속은 지키고 있고 정유소는 모두 가동 중이라고 했습니다. [사실]",
+  "왜: '호르무즈를 대신할 길이 없다는 걸 알기에 더 많은 배가 지나고 있다'고 말했고, 사우디·UAE를 거치는 우회 송유관 계획도 검토가 진행 중입니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 타임스 쿠웨이트(10-06)가 블룸버그 인터뷰를 인용해 쓴 자체 기사로 작성. 영어 원제목의 'Drops'가 가리키는 감소 폭·시점은 확인하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says"
+  },
+  {
+   "o": "타임스 쿠웨이트(블룸버그 인용)",
+   "d": "2026-10-06",
+   "u": "https://timeskuwait.com/kuwait-currently-produces-around-2-million-bpd-as-strait-of-hormuz-traffic-picks-up/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Kuwait Oil Output Drops to 2 Million Barrels Daily, KPC CEO Says"
+}

@@ -1,0 +1,103 @@
+{
+ "basis": "partial",
+ "check": "10년물 금리 7.16%→7.45% 상승은 검색 결과 요약(Trading Economics)으로 확인. '4년 최고' 여부와 회사채 발행 보류는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: MSCI 위험과 유가 부담에 인도네시아 10년물 국채 금리가 4년 최고로 올랐고 MSCI 여파로 회사채 발행이 보류됐다 [제목]",
+  "금리 수준: 10년물 금리는 10월 19일 7.16%에서 23일 7.44%, 26일 7.45%로 올랐고 미국채와의 스프레드는 219.4bp에서 228.6bp로 벌어졌다 [사실]",
+  "회사채·배경: MSCI가 인도네시아를 신흥시장에서 단독 시장으로 재분류하는 안을 내놓은 뒤 회사채 위험 지표가 6년 최고로 올랐다 [사실]",
+  "중앙은행: 인도네시아중앙은행은 동결·인상·인하가 뒤섞인 정책 조합에 논리가 있다고 밝혔다 [제목]",
+  "전망: MUFG는 연말까지 기준금리 6.25% 인상을, 골드만삭스는 2026년 4분기와 2027년 1분기 25bp씩 두 차례 인상을 예상했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도네시아 MSCI 충격 확산…10년물 국채금리 4년 최고·회사채 발행 보류·회사채 위험지표 6년 최고",
+ "id": "n-bbg-0687",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "MSCI 지위 하향 우려로 인도네시아 회사채 위험 지표가 6년 만에 최고로 오르면서 기업들의 조달 비용 부담이 커졌다",
+   "t": "인도네시아 회사채 위험 지표, 6년 만에 최고로 상승",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "인도네시아중앙은행이 금리 동결과 인상·인하가 섞인 정책 조합에 논리가 있다고 하면서 시장의 정책 혼선 지적을 반박했다 (제목 기준)",
+   "t": "인도네시아중앙은행 '동결·인상·인하 정책 조합에 논리 있어'",
+   "u": "https://www.reuters.com/world/asia-pacific/hold-hike-cut-bank-indonesia-says-theres-logic-policy-mix-2026-10-23/"
+  },
+  {
+   "t": "MSCI 여파 확산, 인도네시아 회사채 발행 보류",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/msci-indonesian-corporate-bond-sale-kb-bank-moodys-ratings-fitch-prabowo",
+   "s": "MSCI 지위 하향 우려가 회사채 시장까지 번지면서 인도네시아 기업의 회사채 발행 계획이 보류됐다 (제목 기준)"
+  },
+  {
+   "t": "인도네시아 국채 금리 4년 최고…MSCI 위험·유가 부담",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-10-year-yield-at-four-year-high-on-msci-risk-oil",
+   "s": "MSCI 위험과 유가 부담이 겹치면서 인도네시아 10년물 국채 금리가 4년 만에 최고로 올라 정부 조달 비용이 커졌다"
+  }
+ ],
+ "key": "mix-G2-062-2026-10-23",
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "num": 687,
+ "one": "MSCI 지위 하향 우려가 인도네시아 주식에서 국채·회사채 시장으로 번지고 있다\n· 회사채 위험 프리미엄은 6년 만에 최고로 올랐고 MSCI 여파로 회사채 발행이 보류됐다\n· 10년물 국채 금리는 MSCI 위험과 유가 부담에 4년 만에 최고로 올랐다\n· 10년물 금리는 10월 19일 7.16%에서 26일 7.45%로 뛰었다\n· 인도네시아중앙은행은 금리 동결·인상·인하를 섞은 정책 조합에 논리가 있다고 밝혔다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T15:52:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "바자르타임스",
+   "u": "https://bazaartimes.com/indonesias-private-sector-bond-risk-hits-six-year-high-amid-msci-warning/"
+  },
+  {
+   "d": "2026-10-21",
+   "o": "MUFG 리서치",
+   "u": "https://www.mufgresearch.com/fx/asia-fx-special-focus-21-october-2026"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10-27",
+   "u": "https://tradingeconomics.com/indonesia/government-bond-yield"
+  }
+ ],
+ "tags": [],
+ "title": "인도네시아 MSCI 충격 확산…10년물 국채금리 4년 최고·회사채 발행 보류·회사채 위험지표 6년 최고",
+ "updatedAt": "2026-10-27T21:25:26+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "MSCI 위험·유가에 인니 10년물 금리 4년 최고"
+  },
+  {
+   "ind": "fin",
+   "node": "markets",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "MSCI 여파로 인니 회사채 발행 보류"
+  }
+ ],
+ "added": "블룸버그 2건 — 10년물 국채 금리 4년 최고(MSCI 위험·유가), MSCI 여파로 회사채 발행 보류 내용이 추가됨"
+}

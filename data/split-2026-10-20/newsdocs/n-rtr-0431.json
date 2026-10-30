@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0431",
+ "num": 431,
+ "key": "split-G2-074-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU, 석유·가스 횡재세 검토 작업반 구성…재무장관들도 촉구",
+ "headline": "EU, 석유·가스 횡재세 검토 작업반 구성…재무장관들도 촉구",
+ "one": "에너지값 급등에 EU 훅스트라 집행위원이 석유·가스 기업 횡재세의 득실을 따질 작업반을 꾸리고 유럽 각국 재무장관들도 에너지 기업 횡재세를 다시 촉구하면서, 2022년처럼 석유·가스 기업 초과이익 과세가 다시 추진될 수 있다",
+ "facts": [
+  "무엇이: EU 집행위는 석유·가스 횡재세 득실을 따질 작업반을 꾸렸다 [사실]",
+  "주체: 작업반은 훅스트라 집행위원이 꾸렸고, 2022년처럼 초과이익 과세가 다시 추진될 수 있다 [사실]",
+  "재무장관: 유럽 각국 재무장관들은 에너지 기업 횡재세를 다시 촉구했다 [채널]",
+  "배경: 유럽 각국은 10월 중순 에너지값 급등에 대응하고 있지만 뾰족한 수단을 찾지 못했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건과 텔레그램 1건을 묶었다. EU 집행위의 횡재세 작업반 구성은 검색 결과 요약(Global Banking & Finance Review)으로 확인했고, 재무장관 촉구는 채널 전언이다.",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-12",
+   "u": "https://www.globalbankingandfinance.com/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar/"
+  }
+ ],
+ "items": [
+  {
+   "t": "에너지 가격 급등에 EU, 석유·가스 횡재세 검토",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/eu-looking-oil-gas-windfall-profit-tax-energy-prices-soar-2026-10-12/",
+   "s": "EU 훅스트라 집행위원이 석유·가스 기업 횡재세의 득실을 따질 작업반을 꾸리면서, 2022년처럼 초과이익 과세가 다시 추진될 수 있다"
+  },
+  {
+   "t": "유럽 각국 재무장관들, 에너지 기업 횡재세 또 촉구",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-13",
+   "u": "https://t.me/The_MariTimes/63696",
+   "s": "유럽 각국 재무장관이 에너지 기업 횡재세를 다시 촉구하면서, 석유·가스 기업 이익에 대한 과세 압력이 이어지고 있다"
+  }
+ ],
+ "inds": [
+  "oil",
+  "gas",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "gas/trade"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "석유·가스 기업 횡재세 검토 작업반 구성"
+  }
+ ]
+}

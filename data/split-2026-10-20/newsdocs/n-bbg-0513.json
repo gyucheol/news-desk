@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0513",
+ "num": 513,
+ "key": "split-G4-150-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/chancellor-john-healey-s-uk-budget-enters-the-final-straight",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "힐리 재무장관의 영국 예산안, 10월 28일 발표 앞두고 막바지 단계",
+ "headline": "힐리 재무장관의 영국 예산안, 10월 28일 발표 앞두고 막바지 단계",
+ "one": "힐리 재무장관의 영국 예산안이 10월 28일 발표를 앞두고 막바지 단계에 들어서면서, 약 350억 파운드 재원 공백 추산과 이란 전쟁발 약 120억 파운드 재정 구멍 속에 세제·지출 조정 내용에 관심이 모이고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 14일 블룸버그는 힐리 재무장관의 예산안이 막바지 단계에 들어섰다고 전했다 [제목]",
+  "재정 공백: FT는 이란 전쟁이 영국 재정에 약 120억 파운드 구멍을 냈다고 보도했고, IFS는 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "해석: 막바지 조율 과정에서 증세 범위와 지출 조정 폭이 정해질 전망이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(재정 공백 추산은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "힐리 재무장관의 영국 예산안, 막바지 단계 진입",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/chancellor-john-healey-s-uk-budget-enters-the-final-straight"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "예산안 막바지 단계로 내용 미정"
+  }
+ ]
+}

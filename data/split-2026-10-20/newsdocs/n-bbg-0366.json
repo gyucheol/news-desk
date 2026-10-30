@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0366",
+ "num": 366,
+ "key": "split-G1-016-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/syria-plans-to-double-oil-output-in-a-year-as-investors-return",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시리아, 투자자 복귀 속 1년 안에 원유 생산 두 배 추진",
+ "headline": "시리아, 투자자 복귀 속 1년 안에 원유 생산 두 배 추진",
+ "one": "시리아가 7일 투자자 복귀에 힘입어 1년 안에 원유 생산을 두 배로 늘리겠다는 계획을 내놓으면서, 호르무즈 위험이 이어지는 중동에서 원유 공급원이 넓어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 시리아가 투자자 복귀 속에 1년 안에 원유 생산을 두 배로 늘리려 한다 [제목]",
+  "의미: 역내 원유 공급원이 넓어질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "투자자 복귀 속 시리아, 1년 안에 원유 생산 두 배 노려",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/syria-plans-to-double-oil-output-in-a-year-as-investors-return"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "nonopec",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "시리아, 1년 안에 원유 생산 두 배 추진"
+  }
+ ]
+}

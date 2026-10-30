@@ -1,0 +1,77 @@
+{
+ "basis": "verified",
+ "check": "로이터·블룸버그 각 1건(10월 19일)을 묶었다. 임금 동결 지시·66만 명·IG메탈 5% 요구는 heise online·Electric Vehicles 검색 결과 요약으로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 폭스바겐 노사협의회는 이사회가 전 세계 인사 책임자들에게 2030년까지 임금을 2026년 수준으로 유지하도록 지시했다고 밝혔고, IG메탈은 66만 명 넘는 직원이 영향을 받는다고 했다 [사실]",
+  "협상: IG메탈은 5% 인상을 요구하고 있고, 폭스바겐은 대부분의 단체협약을 2026년 12월 31일자로 해지 통보해 1월 1일부터 파업 가능성이 거론된다 [사실]",
+  "회사 입장: 폭스바겐은 추측에 논평하지 않는다는 입장이다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "폭스바겐, 66만 명 임금 2030년까지 동결 추진…IG메탈 5% 인상 요구와 충돌",
+ "id": "n-rtr-0361",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "노사협의회 '폭스바겐, 2030년까지 임금 동결 계획'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/world-at-work/vw-plans-freeze-salaries-until-2030-works-council-says-2026-10-19/",
+   "s": "폭스바겐 노사협의회가 회사가 2030년까지 임금을 동결하려 한다고 밝히면서 전 세계 66만 명 넘는 직원의 임금이 노사 쟁점으로 떠올랐다"
+  },
+  {
+   "t": "폭스바겐, 노조 협상 시작과 함께 임금 동결 압박",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/volkswagen-pushes-for-pay-freeze-as-union-talks-get-underway",
+   "s": "폭스바겐이 노조와 임금 협상을 시작하면서 동결을 요구해 5% 인상을 요구하는 IG메탈과 정면으로 맞서게 됐다"
+  }
+ ],
+ "key": "mix-G1-031-2026-10-20",
+ "nodes": [],
+ "num": 361,
+ "one": "폭스바겐이 10월 19일 노조 협상을 시작하며 전 세계 66만 명 넘는 직원의 임금을 2030년까지 2026년 수준에 묶는 방안을 추진하면서, 5% 인상을 요구하는 IG메탈과 정면으로 맞서 1월 1일부터 파업 가능성이 거론된다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T00:44:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "heise online",
+   "d": "2026-10-19",
+   "u": "https://www.heise.de/en/news/Volkswagen-Internal-guidelines-reportedly-call-for-pay-freeze-through-2030-11492445.html"
+  },
+  {
+   "o": "Electric Vehicles",
+   "d": "2026-10-19",
+   "u": "https://eletric-vehicles.com/vw-group/vw-group-plans-pay-freeze-for-660000-staff-through-2030-union-says/"
+  }
+ ],
+ "tags": [],
+ "title": "폭스바겐, 66만 명 임금 2030년까지 동결 추진…IG메탈 5% 인상 요구와 충돌",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/business/world-at-work/vw-plans-freeze-salaries-until-2030-works-council-says-2026-10-19/",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "폭스바겐 2030년까지 임금 동결 추진"
+  },
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "단체협약 해지로 1월부터 파업 가능성 거론"
+  }
+ ]
+}

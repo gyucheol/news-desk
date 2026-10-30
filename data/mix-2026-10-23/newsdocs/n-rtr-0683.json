@@ -1,0 +1,86 @@
+{
+ "id": "n-rtr-0683",
+ "num": 683,
+ "key": "mix-G1-054-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:11:00+09:00",
+ "url": "https://www.reuters.com/business/energy/indias-welspun-bags-580-million-us-gas-pipeline-order-tied-data-centre-buildout-2026-10-23/",
+ "origTitle": "",
+ "headline": "데이터센터발 설비 수요…웰스펀 美 가스관 5.8억 달러 수주·렉셀 연간 전망 재상향",
+ "src": [
+  {
+   "o": "Trade Brains",
+   "d": "2026-10-23",
+   "u": "https://tradebrains.in/indian-markets/welspun-corp-bags-5500-crore-us-gas-pipeline-order-global-order-book-hits-record-525-billion-12740320"
+  },
+  {
+   "o": "Rexel",
+   "d": "2026-10-22",
+   "u": "https://www.rexel.com/en/q3-2026-sales"
+  },
+  {
+   "o": "Investing.com",
+   "d": "2026-10-22",
+   "u": "https://www.investing.com/news/stock-market-news/rexel-sales-up-on-data-center-demand-guidance-raised-4968374"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 웰스펀, 데이터센터 연계 美 가스관 5.8억 달러 수주",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/indias-welspun-bags-580-million-us-gas-pipeline-order-tied-data-centre-buildout-2026-10-23/",
+   "s": "웰스펀이 데이터센터 단지로 가스를 보낼 미국 퍼미안 가스관용 강관 5.8억 달러 주문을 따내면서 수주잔고가 최대로 늘었다"
+  },
+  {
+   "t": "렉셀, 美 데이터센터·유럽 전기화 수요에 전망 재상향",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/rexel-raises-outlook-again-us-data-centre-demand-european-electrification-drive-2026-10-22/",
+   "s": "렉셀이 미국 데이터센터 매출 급증과 유럽 전기화 수요로 연간 매출 증가율 전망을 약 7%로 다시 올리면서 전기 자재 수요 강세가 드러났다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas",
+  "industrial"
+ ],
+ "nodes": [
+  "gas/midstream"
+ ],
+ "title": "데이터센터발 설비 수요…웰스펀 美 가스관 5.8억 달러 수주·렉셀 연간 전망 재상향",
+ "one": "미국 데이터센터 수요가 인도 웰스펀의 가스관 수주와 프랑스 렉셀의 실적 전망 상향으로 이어졌다\n· 웰스펀 미국 법인은 퍼미안 분지 가스관용 강관을 공급하는 약 5.8억 달러 주문을 따냈다\n· 이 가스관은 대형 기술기업의 데이터센터 단지로 가스를 보내며, 웰스펀 수주잔고는 52.5억 달러로 최대다\n· 렉셀은 3분기 같은 영업일 기준 매출이 11.4% 늘었고 미국 데이터센터 매출은 3배 넘게 늘었다\n· 렉셀은 연간 같은 영업일 매출 증가율 전망을 약 5%에서 약 7%로 다시 올렸다",
+ "facts": [
+  "무엇이: 웰스펀 미국 법인 웰스펀 튜블러는 데이터센터 단지에 가스를 보낼 퍼미안 분지 가스관용 코팅 강관 약 5.8억 달러(약 5,500크로르 루피) 주문을 따냈다 [사실]",
+  "웰스펀: 강관은 미국 공장에서 만들어 2029 회계연도에 납품하며, 수주잔고는 약 52.5억 달러로 최대가 됐다 [사실]",
+  "렉셀 실적: 3분기 매출은 약 54.5억 유로로 같은 영업일 기준 11.4% 늘었고, 미국 데이터센터 매출은 3배 넘게 늘어 미국 매출의 약 13%를 차지했다 [사실]",
+  "렉셀 전망: 2026년 같은 영업일 매출 증가율 전망을 약 5%에서 약 7%로, 조정 EBITA 마진 하한을 6.2%에서 6.4%로 올렸지만 4분기 증가율은 약 6.5%로 둔화를 예상했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Tradebrains·Angel One, 렉셀 발표·Investing.com)으로 확인",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "웰스펀 데이터센터용 가스관 5.8억 달러 수주"
+  },
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "렉셀 미국 데이터센터 매출 3배 증가"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

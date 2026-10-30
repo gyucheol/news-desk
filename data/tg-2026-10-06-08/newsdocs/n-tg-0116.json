@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0116",
+ "feed": "v5",
+ "format": "one1",
+ "num": 116,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-PipeBeom-6620",
+ "published": "2026-10-07T01:35:00+09:00",
+ "url": "https://t.me/PipeBeom/6620",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "petchem/commodity"
+ ],
+ "title": "호르무즈 원유 통과 전쟁 전 76%로 회복…석유제품은 11%에 그쳐 경유난 지속",
+ "one": "호르무즈 해협 원유 물동량이 하루 1,030만 배럴로 전쟁 전의 76%까지 회복했지만 걸프 정유시설이 멈춰 석유제품 비중은 11%에 그치면서, 미국 경유값이 사상 최고로 오른 경유 부족이 2027년까지 이어질 수 있다",
+ "headline": "호르무즈 원유 통과 전쟁 전 76%로 회복…석유제품은 11%에 그쳐 경유난 지속",
+ "facts": [
+  "무엇이: 케이플러 자료로 10월 3일까지 7일 평균 호르무즈 원유 물동량은 하루 약 1,030만 배럴로 전쟁 전의 약 76%였습니다 [사실]",
+  "얼마나: 석유제품 물동량은 하루 약 130만 배럴로 전체의 11%에 그쳐 전쟁 전 20% 이상에 못 미쳤고, 사우디·쿠웨이트·UAE·이라크 정유시설이 멈춘 탓입니다 [사실]",
+  "가격: 9월 말 미국 평균 경유값은 갤런당 약 6.5달러, 캘리포니아는 약 8.4달러로 사상 최고였습니다 [사실]",
+  "대응: 미국 정부는 면세 착색 경유의 도로 사용을 허용하고 갤런당 24.4센트 연방 경유세를 연말까지 유예했습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 글(WSJ 기사 요약)로 들어온 소식이며, 물동량은 CNBC(2026-10-06, 하루 1,030만 배럴·전쟁 전 1,350만 배럴 대비 23% 적음)와 investingLive 요약 기사를 검색 결과 요약으로 확인했습니다. WSJ 원문과 연방 경유세 유예 조치는 직접 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-07",
+   "u": "https://t.me/PipeBeom/6620"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-06",
+   "u": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
+  {
+   "o": "investingLive",
+   "d": "2026-10-06",
+   "u": "https://investinglive.com/commodities/reports-that-hormuz-crude-flows-near-76-of-prewar-levels-diesel-shortage-persists"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "상상인 김진범"
+}

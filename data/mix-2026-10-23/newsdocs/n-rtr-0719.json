@@ -1,0 +1,74 @@
+{
+ "id": "n-rtr-0719",
+ "num": 719,
+ "key": "mix-G2-040-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:50:00+09:00",
+ "url": "https://www.reuters.com/technology/artificial-intelligence/why-anthropic-is-turning-away-some-users-2026-10-22/",
+ "origTitle": "",
+ "headline": "레저버, 가사 853곡 무단 학습 혐의로 앤트로픽 제소…앤트로픽 이용자 거절 배경도 주목",
+ "src": [
+  {
+   "o": "Music Business Worldwide",
+   "d": "2026-10-22",
+   "u": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+  },
+  {
+   "o": "Digital Music News",
+   "d": "2026-10-22",
+   "u": "https://www.digitalmusicnews.com/2026/10/22/reservoir-media-suno-anthropic-lawsuit/"
+  }
+ ],
+ "items": [
+  {
+   "t": "앤트로픽은 왜 일부 이용자를 돌려보내고 있나",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/technology/artificial-intelligence/why-anthropic-is-turning-away-some-users-2026-10-22/",
+   "s": "로이터가 앤트로픽이 일부 이용자의 가입·이용을 거절하는 배경을 짚으면서 앤트로픽의 이용자 선별 방침이 주목받았다 (제목 기준)"
+  },
+  {
+   "t": "레저버, 가사 무단 학습 혐의로 앤트로픽 제소",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-23",
+   "u": "https://t.me/insidertracking/67069",
+   "s": "레저버가 앤트로픽이 가사를 허가 없이 클로드 학습에 쓰고 출력에서도 재현했다며 법정 손해배상과 영구 금지명령을 청구하면서 AI 저작권 소송이 늘었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "레저버, 가사 853곡 무단 학습 혐의로 앤트로픽 제소…앤트로픽 이용자 거절 배경도 주목",
+ "one": "음악 저작권사 레저버가 클로드 학습에 노래 가사를 무단 사용했다며 앤트로픽을 제소했다\n· 소송은 10월 21일 북부 캘리포니아 연방법원에 냈고 대상은 가사 853곡이다\n· 레저버는 법정손해배상 1억 2,795만 달러에 DMCA 위반을 더해 약 1억 5,140만 달러를 청구했다\n· 앤트로픽은 혐의에 동의하지 않으며 적극 대응하겠다고 밝혔다\n· 로이터는 앤트로픽이 일부 이용자를 거절하는 이유를 짚었다",
+ "facts": [
+  "무엇이: 레저버는 10월 21일 북부 캘리포니아 연방법원에 앤트로픽이 가사 853곡을 클로드 학습과 출력에 무단 사용했다며 소송을 냈다 [사실]",
+  "청구: 법정손해배상 1억 2,795만 달러에 DMCA 위반 2건을 더해 약 1억 5,140만 달러와 침해금지명령, 학습 데이터·모델 가중치 속 복제본 폐기를 요구했다 [사실]",
+  "반응: 앤트로픽은 혐의에 동의하지 않으며 적극 방어하겠다고 밝혔다 [사실]",
+  "이용자: 로이터는 앤트로픽이 일부 이용자를 거절하는 이유를 분석했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "레저버 소송은 Billboard·Music Business Worldwide·Digital Music News 검색 결과 요약으로 확인(제소일은 채널의 23일과 달리 21일). 이용자 거절 기사는 제목만 근거",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "레저버 가사 853곡 무단 학습 소송 제기"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

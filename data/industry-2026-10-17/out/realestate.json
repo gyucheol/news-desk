@@ -1,0 +1,104 @@
+{
+ "id": "realestate",
+ "summary": "부동산은 땅에서 개발·건설을 거쳐 집·오피스·물류창고·데이터센터가 지어지고, 가계·기업이 이를 사거나 빌리며, 리츠·펀드가 보유하고 은행·CMBS·사모 신용이 돈을 대는 사슬입니다. 2026년 10월 중순 빠듯한 곳은 여전히 데이터센터로 북미 주요 시장 공실률이 1.4%이지만, 금리 상승에 데이터센터 업체 상장이 잇따라 철회·연기되고 지역 반대로 인허가가 막히기 시작해 자금과 인허가가 새 병목이 되고 있습니다. 남는 곳은 미국·영국 주택과 오피스입니다: 미국 30년 모기지 금리는 프레디맥 기준 7.40%로 2023년 11월 이후 최고이고 기존주택 재고는 2019년 이후 최대이며, 영국 벨웨이는 예약 감소에 완공 목표를 낮췄습니다. CMBS 오피스 연체율은 12.16%이고 유럽에서는 대형 쇼핑몰 대출 매각이 타진되며, 리츠는 행동주의 펀드와 인수 제안으로 자산 매각 압박을 받고 있습니다. 중국은 S&P가 집값 바닥을 2028년 3분기로 보고 홍콩 뉴월드는 채권 교환으로 만기를 늦추고 있으며, 서울 아파트는 87주 연속 올랐습니다.",
+ "state": {
+  "develop": [
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-homebuilder-bellway-sees-lower-sales-on-constrained-demand", "nid": "n-bbg-0283", "t": "영국 벨웨이는 80% LTV 모기지 금리가 5%를 넘자 주간 예약이 131채로 1년 전보다 5.8% 줄었고, 2027 회계연도 완공 목표를 9,000~9,400채(2026 회계연도 9,695채)로 낮췄습니다 [사실]"},
+   {"d": "2026-10-14", "o": "로이터", "u": "https://www.reuters.com/world/middle-east/eagle-hills-plans-up-17-billion-investment-syria-chairman-says-2026-10-14/", "nid": "n-rtr-0336", "t": "UAE 개발사 이글힐스 회장은 시리아 다마스쿠스·라타키아 두 개발사업에 160억~170억 달러를 넣을 계획이라고 밝혔지만, 서명된 계약 금액은 아닙니다 [사실]"}
+  ],
+  "housing": [
+   {"d": "2026-10-14", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity", "nid": "n-bbg-0234", "t": "MBA 집계 30년 고정 모기지 계약금리는 7.50%로 2023년 11월 이후 최고였고, 주택 구매 신청지수는 1년 전보다 16% 낮았습니다 [사실]"}
+  ],
+  "commercial": [
+   {"d": "2026-10-12", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-12/mall-of-berlin-lenders-eye-debt-sale-as-owners-try-to-refinance", "nid": "n-bbg-0256", "t": "몰 오브 베를린 대주단은 2014년 10년 만기로 내준 약 5억 5천만 유로 대출의 매각을 타진하고 있고, 소유주 HGHI는 우니크레디트 주도 차환을 막바지 협상 중입니다 [사실]"}
+  ],
+  "reits": [
+   {"d": "2026-10-15", "o": "로이터", "u": "https://www.reuters.com/business/activist-irenic-builds-stake-uks-big-yellow-pushes-sale-ft-reports-2026-10-15/", "nid": "n-bbg-0284", "t": "앵코라에 이어 아이레닉도 영국 셀프스토리지 리츠 빅옐로 지분 약 4%를 쌓아 두 행동주의 펀드 지분이 8%에 가까워졌고, 1년 새 약 25% 내린 주가는 5.5% 올라 888펜스가 됐습니다 [사실]"},
+   {"d": "2026-10-09", "o": "로이터", "u": "https://www.reuters.com/business/tko-offers-2-billion-service-properties-trusts-hotel-portfolio-2026-10-09/", "nid": "n-rtr-0262", "t": "TKO는 서비스프로퍼티 트러스트의 호텔 약 93곳(객실 2만 1,000개 이상)을 20억 달러 현금에 사겠다고 제안했고, 성사되면 SVC는 부채의 40% 넘게 갚을 수 있다고 주장했습니다 [사실]"}
+  ],
+  "datacenter": [
+   {"d": "2026-10-14", "o": "로이터", "u": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/", "nid": "n-tg-0295", "t": "금리 상승 속에 코어위브 주가가 10월 14일 약 15.5% 급락하고 2032년 만기 채권 수익률이 14.8%로 뛰었으며, 엔스케일은 노르웨이 데이터센터가 늦어져 30MW 중 6.4MW만 가동 중입니다 [사실]"},
+   {"d": "2026-10-15", "o": "텔레그램 트릴리온", "u": "https://t.me/Trillion_labs/10532", "nid": "n-tg-0182", "t": "한 조사에서 미국인 61%가 자기 지역의 새 데이터센터에 반대했고 뉴욕주 하이퍼스케일 유예와 텍사스 승인 중단이 보도됐으며, 이탈리아 롬바르디아주도 신청 급증에 법 개정에 나섭니다 [사실]"}
+  ],
+  "finance": [
+   {"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield", "nid": "n-bbg-0234", "t": "투자자들이 더 높은 수익률을 요구해 피겨테크놀로지 계열의 3억 4,600만 달러 주택저당증권 발행이 미뤄졌고, AGNC에 따르면 9월 모기지 스프레드는 약 13bp 넓어진 125bp였습니다 [사실]"},
+   {"d": "2026-10-13", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-12/home-equity-sharing-firm-unison-is-said-to-pick-banks-for-us-ipo", "nid": "n-bbg-0263", "t": "주택 지분을 사들이는 방식으로 자금을 대는 유니슨이 UBS·캔터 피츠제럴드를 주관사로 골라 최대 5억 달러 규모 미국 상장을 이르면 11월 준비하고 있습니다 [사실]"}
+  ],
+  "china": [
+   {"d": "2026-10-09", "o": "텔레그램 하나증권 중국전략", "u": "https://t.me/HANAchina/70136", "nid": "n-tg-0253", "t": "S&P는 2021년 고점보다 22% 내린 중국 주택가격이 2028년 3분기에 바닥을 찍고 1선 도시는 이르면 2027년 회복할 것으로 봤으며, 국경절 연휴 50개 도시 중고주택 거래는 45% 넘게 늘었습니다 [사실]"},
+   {"d": "2026-10-15", "o": "로이터", "u": "https://www.reuters.com/world/asia-pacific/new-world-expects-issue-189-million-new-notes-after-early-debt-exchange-results-2026-10-14/", "nid": "n-bbg-0269", "t": "뉴월드개발은 2027·2028년 만기 달러채 약 9억 9,100만 달러를 2032년 만기 담보채로 바꾸는 교환의 조기 응모 결과 새 채권 약 1억 8,910만 달러를 발행할 예정입니다 [사실]"}
+  ]
+ },
+ "industryState": [
+  {"d": "2026-10-15", "kind": "price", "o": "프레디맥(GlobeNewswire 보도자료)", "u": "https://www.globenewswire.com/news-release/2026/10/15/3381991/0/en/mortgage-rates-hold-steady-at-7-40.html", "t": "미국 30년 고정 모기지 금리는 10월 15일 7.40%로 전주와 같았고 1년 전(6.27%)보다 높아 2023년 11월 이후 최고 수준이었습니다 [사실]"},
+  {"d": "2026-10-14", "kind": "demand", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity", "nid": "n-bbg-0234", "t": "MBA 집계 미국 30년 고정 모기지 계약금리는 7.50%였고 주택 구매 신청지수는 1년 전보다 16% 낮았습니다 [사실]"},
+  {"d": "2026-10-13", "kind": "supply", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-homebuilder-bellway-sees-lower-sales-on-constrained-demand", "nid": "n-bbg-0283", "t": "영국 벨웨이의 2027 회계연도 완공 목표는 9,000~9,400채로 2026 회계연도 9,695채보다 적고, 기초 영업이익률은 10.9%에서 10.1%로 내렸습니다 [사실]"},
+  {"d": "2026-10-09", "kind": "price", "o": "텔레그램 하나증권 중국전략", "u": "https://t.me/HANAchina/70136", "nid": "n-tg-0253", "t": "S&P는 중국 주택가격이 2021년 고점보다 22% 떨어졌고 2028년 3분기에 바닥을 찍을 것으로 봤습니다 [사실]"}
+ ],
+ "flags": [
+  {"nid": "n-tg-0295", "t": "재검토 필요: 데이터센터 업체 상장 철회·연기와 코어위브 채권 수익률 14.8%는 데이터센터 노드가 ② 자본 유입·증설에서 자본 유입이 식는 쪽(⑤ 자본 철수의 초기 신호)을 가리키며, 금리가 자금 조달 비용을 올리고 있기 때문입니다 [유추]"},
+  {"nid": "n-bbg-0283", "t": "재검토 필요: 벨웨이의 마진 추가 하락 예고와 미국 모기지 금리 7.50%는 주택·건설 노드가 ③ 공급 과잉에서 ④ 수익 악화·비관으로 넘어가는 쪽을 가리키며, 판촉 비용과 건축비가 동시에 마진을 깎고 있기 때문입니다 [유추]"}
+ ],
+ "insight": {
+  "a": [
+   {"t": "금리 상승이 사슬 전체의 자금 조달 비용을 끌어올리고 있습니다. 미국 모기지 금리 7.50%, 주택저당증권 발행 보류, 데이터센터 업체 상장 연기가 같은 주에 나왔습니다 [귀납]", "src": [{"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"}]},
+   {"t": "상장 리츠는 할인된 주가 때문에 행동주의 펀드와 인수 제안을 받아 자산을 팔거나 회사를 넘기는 통합 단계에 있습니다(빅옐로, 서비스프로퍼티 호텔) [귀납]", "src": [{"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/activist-irenic-builds-stake-uks-big-yellow-pushes-sale-ft-reports-2026-10-15/"}, {"o": "로이터", "d": "2026-10-10", "u": "https://www.reuters.com/business/tko-offers-2-billion-service-properties-trusts-hotel-portfolio-2026-10-09/"}]}
+  ],
+  "a1": [
+   {"t": "금리가 높게 머물면 리츠·호텔 포트폴리오 매각과 지분 통합, 몰 오브 베를린 같은 대형 부실 대출 매각이 이어질 가능성이 높습니다 [유추]", "src": [{"o": "블룸버그", "d": "2026-10-12", "u": "https://www.bloomberg.com/news/articles/2026-10-12/mall-of-berlin-lenders-eye-debt-sale-as-owners-try-to-refinance"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/activist-irenic-builds-stake-uks-big-yellow-pushes-sale-ft-reports-2026-10-15/"}]}
+  ],
+  "a2": [
+   {"t": "금리가 빠르게 내리면 매수·매도 호가 차이가 좁혀져 리츠 할인과 매각 압력이 줄 수 있습니다. 상업용 부동산 가격지수는 9월 전까지 1년 동안 4.7% 올라 있었습니다 [유추]", "src": [{"o": "그린스트리트 보도자료", "d": "2026-10-06", "u": "https://www.greenstreet.com/waiting-for-price-clarity/"}]}
+  ],
+  "b": [
+   {"t": "주택은 수요가 금리로 줄고(벨웨이 주간 예약 -5.8%, 미국 구매 신청지수 -16%) 건설사가 완공 목표를 낮춰 공급도 줄이는 중입니다 [귀납]", "src": [{"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-homebuilder-bellway-sees-lower-sales-on-constrained-demand"}, {"o": "블룸버그", "d": "2026-10-14", "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity"}]},
+   {"t": "데이터센터는 공실 1.4%로 수요가 빠듯하지만, 지역 반대·인허가 규제와 자금 조달 비용이 공급을 막기 시작했습니다 [귀납]", "src": [{"o": "CBRE 보도자료", "d": "2026-08-27", "u": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction-activity"}, {"o": "텔레그램 트릴리온", "d": "2026-10-15", "u": "https://t.me/Trillion_labs/10532"}]}
+  ],
+  "b1": [
+   {"t": "건설사가 완공을 줄이면 몇 분기 뒤 미국·영국 주택 재고가 소화되기 시작하고, 데이터센터는 인허가와 전력을 이미 확보한 가동 시설의 임대료 강세가 이어질 가능성이 높습니다 [유추]", "src": [{"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-homebuilder-bellway-sees-lower-sales-on-constrained-demand"}, {"o": "CBRE 보도자료", "d": "2026-08-27", "u": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction-activity"}]}
+  ],
+  "b2": [
+   {"t": "금리가 더 오르면 미국 기존주택 재고 160만 채가 더 쌓여 가격 인하로 번지고, AI 수요가 꺾이면 건설 중인 데이터센터 7,481MW가 과잉이 될 수 있습니다 [유추]", "src": [{"o": "전미부동산중개인협회(NAR)", "d": "2026-10-13", "u": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"}, {"o": "CBRE 보도자료", "d": "2026-08-27", "u": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction-activity"}]}
+  ],
+  "c": [
+   {"t": "자본이 아직 들어오는 곳도 있습니다. 이글힐스는 시리아에 최대 170억 달러 개발 계획을 밝혔고, 주택지분 공유업체 유니슨은 최대 5억 달러 상장을 준비하며, 중국 연휴 중고주택 거래는 45% 넘게 늘었습니다 [사실]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/middle-east/eagle-hills-plans-up-17-billion-investment-syria-chairman-says-2026-10-14/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-12/home-equity-sharing-firm-unison-is-said-to-pick-banks-for-us-ipo"}, {"o": "텔레그램 하나증권 중국전략", "d": "2026-10-09", "u": "https://t.me/HANAchina/70136"}]}
+  ],
+  "c1": [
+   {"t": "덮을 만큼 크지 않다고 봅니다. 이글힐스 금액은 서명된 계약이 아닌 계획이고, S&P는 중국 바닥을 2028년 3분기로 봤으며, 미국·유럽의 금리·차환 부담이 더 넓게 퍼져 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/world/middle-east/eagle-hills-plans-up-17-billion-investment-syria-chairman-says-2026-10-14/"}, {"o": "텔레그램 하나증권 중국전략", "d": "2026-10-09", "u": "https://t.me/HANAchina/70136"}]}
+  ],
+  "d": [
+   {"t": "데이터센터를 금리가 아니라 전력·지역 정치 문제로 보면, 오하이오 조사에서 69%가 데이터센터가 가정 에너지 비용에 나쁘다고 답한 만큼 부지 가치는 인허가와 전력을 이미 확보한 곳으로 쏠릴 수 있습니다 [유추]", "src": [{"o": "로이터", "d": "2026-10-14", "u": "https://www.reuters.com/business/goldman-ceo-watching-election-driven-volatility-around-data-centers-2026-10-13/"}]},
+   {"t": "영국이 주택 소유자의 홍수 위험 인증제를 시작한 것은 기후 위험이 주택 가격과 보험에 직접 매겨지는 쪽으로 가는 신호일 수 있습니다 [제목]", "src": [{"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-12/uk-launches-certificate-program-to-track-homeowners-flood-risk"}]}
+  ]
+ },
+ "cycle": {
+  "stage": 6,
+  "conf": "낮음",
+  "why": [
+   {"t": "리츠가 합병·인수와 자산 매각으로 통합되고 있습니다. 에이벌론베이·에퀴티레지덴셜이 8월 합병을 마쳤고, 10월에는 빅옐로가 행동주의 펀드(지분 약 8%)의 매각 압박을, 서비스프로퍼티는 호텔 20억 달러 인수 제안을 받았습니다 [사실]", "src": [{"o": "CRE Daily", "d": "2026-10-07", "u": "https://www.credaily.com/briefs/rising-yields-stall-reit-ma-as-buyers-and-sellers-split/"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/activist-irenic-builds-stake-uks-big-yellow-pushes-sale-ft-reports-2026-10-15/"}, {"o": "로이터", "d": "2026-10-10", "u": "https://www.reuters.com/business/tko-offers-2-billion-service-properties-trusts-hotel-portfolio-2026-10-09/"}]},
+   {"t": "부실 정리가 진행 중입니다. 9월 CMBS 연체율은 8.02%, 오피스는 12.16%이고 올해 만기는 8,750억 달러이며, 유럽에서는 몰 오브 베를린 대주단이 5억 5천만 유로 대출 매각을, 홍콩 뉴월드는 채권 교환으로 만기 연장을 하고 있습니다 [사실]", "src": [{"o": "Yield PRO(Trepp 집계 인용)", "d": "2026-10-04", "u": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september"}, {"o": "미국 모기지은행협회(MBA)", "d": "2026-02-09", "u": "https://www.mba.org/news-and-research/newsroom/news/2026/02/09/17-percent-of-commercial-and-multifamily-mortgage-balances-to-mature-in-2026"}, {"o": "블룸버그", "d": "2026-10-12", "u": "https://www.bloomberg.com/news/articles/2026-10-12/mall-of-berlin-lenders-eye-debt-sale-as-owners-try-to-refinance"}, {"o": "로이터", "d": "2026-10-15", "u": "https://www.reuters.com/world/asia-pacific/new-world-expects-issue-189-million-new-notes-after-early-debt-exchange-results-2026-10-14/"}]},
+   {"t": "금리가 회복을 막고 있습니다. 미국 30년 모기지 금리는 10월 15일 7.40%(프레디맥)로 2023년 11월 이후 최고이고, 투자자들이 더 높은 수익률을 요구해 주택저당증권 발행까지 보류됐습니다 [사실]", "src": [{"o": "프레디맥(GlobeNewswire 보도자료)", "d": "2026-10-15", "u": "https://www.globenewswire.com/news-release/2026/10/15/3381991/0/en/mortgage-rates-hold-steady-at-7-40.html"}, {"o": "블룸버그", "d": "2026-10-16", "u": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield"}]},
+   {"t": "부문별 국면은 크게 갈립니다. 데이터센터는 공실 1.4%에 착공 사상 최대(②)이지만 상장 철회·연기가 잇따르고, 미국·영국 주택은 재고가 쌓이고 건설사 예약·마진이 줄어드는 ③입니다 [귀납]", "src": [{"o": "CBRE 보도자료", "d": "2026-08-27", "u": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction-activity"}, {"o": "로이터", "d": "2026-10-16", "u": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"}, {"o": "블룸버그", "d": "2026-10-13", "u": "https://www.bloomberg.com/news/articles/2026-10-13/uk-homebuilder-bellway-sees-lower-sales-on-constrained-demand"}]}
+  ],
+  "next": "CMBS 연체율이 꺾이고 리츠 할인이 사라지며 거래가 늘면 ⑦ 바닥 형성으로 넘어갑니다. 10년물 금리와 모기지 금리가 더 오르면 차환 실패와 강제 매각이 늘어 ⑥이 길어지고, 데이터센터도 자금 조달이 막혀 증설이 늦어질 수 있습니다 [유추]",
+  "watch": [
+   "CMBS 연체율(Trepp)",
+   "미 30년 모기지 금리(Freddie Mac)",
+   "기존주택 재고·판매(NAR)",
+   "리츠 NAV 할인율",
+   "중국 70개 도시 신규주택 가격",
+   "데이터센터 업체 상장·채권 발행 여건"
+  ],
+  "split": [
+   {"stage": 2, "label": "증설(데이터센터)", "nodes": ["datacenter"]},
+   {"stage": 3, "label": "공급 과잉(미국·영국 주택)", "nodes": ["develop", "housing"]},
+   {"stage": 6, "label": "부실 정리·통합(오피스·리츠·금융·중국)", "nodes": ["commercial", "reits", "finance", "china"]}
+  ]
+ },
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 웹 검색 3회, 열람 0회 안에서 확인했고 다음은 확인하지 못했습니다. (1) 중국 9월 70개 도시 신규주택 가격: 국가통계국 발표를 검색으로 찾지 못했습니다(보통 10월 중순 발표). 상위 100개 개발사 9월 판매와 비구이위안 등 다른 개발사 구조조정 현황도 확인하지 못했습니다. (2) 미국 3분기 전국 오피스 공실률과 착공·용도 전환·철거 물량(뉴마크 2분기 말 19.9%는 검색 요약 기준), 10월 NAHB 지수(10월 19일 발표 예정), 미국 8월 주택 착공. (3) 데이터센터 상장 철회·연기(에어트렁크·퍼머스·SB에너지)는 텔레그램 글 기준이며, 코어위브 5년물 CDS는 자료에 따라 643bp에서 1,000bp 이상까지 엇갈려 쓰지 않았습니다. (4) 한국 하반기 대출 규제·공급 대책, PF 부실 현황과 건설사 실적. (5) 사모 부동산 펀드 환매·수익률, 유럽·일본 상업용 부동산 가격, 리츠 3분기 실적, 리츠 평균 할인(약 10%, 호야캐피털 인용 CRE Daily 기준). (6) 블룸버그·로이터 기사는 데스크 뉴스 요약 기준이며 원문은 열지 않았습니다.",
+ "note": "뉴스 12건 반영: 미 모기지 금리 7.40~7.50%와 주택저당증권 발행 보류, 데이터센터 상장 철회·연기와 인허가 반대, 리츠 매각 압박(빅옐로·SVC), 국면 ⑥ 그대로(why 근거 교체), 근거 12줄, 수치 4줄, 재검토 신호 2건, 검색 3회",
+ "applied": ["n-bbg-0256", "n-bbg-0263", "n-bbg-0271", "n-rtr-0262", "n-tg-0253", "n-bbg-0283", "n-bbg-0269", "n-bbg-0284", "n-rtr-0336", "n-tg-0182", "n-tg-0295", "n-bbg-0234"],
+ "searches": 3,
+ "fetches": 0
+}

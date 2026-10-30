@@ -1,0 +1,73 @@
+{
+ "basis": "verified",
+ "check": "로이터 1건과 텔레그램 Polaristimes 2건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 OilPrice.com(백악관 국방물자생산법 검토) 보도를 근거로 붙였다.",
+ "cycles": [],
+ "dupOf": "n-tg-0101",
+ "facts": [
+  "무엇이: 트럼프 대통령이 국방물자생산법을 써서 주·지방 규제를 우회해 석유·연료 생산을 늘리도록 관리들을 압박할 방침이라고 로이터가 10월 10일 소식통 3명을 인용해 전했다 [사실]",
+  "효과: 이 방침이 실행되면 정유 인허가 규제가 약해질 수 있다 [사실]",
+  "배경: 미국 정유 가동률은 이미 98%다 [사실]",
+  "채널 해석: 채널은 이를 또 하나의 비상대권 사용으로 보고 비상 권한 활용이 에너지로 넓어지고 있으며, 중간선거에서 지면 비상대권 사용이 늘 수 있다고 짚었다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "트럼프 정부, 국방물자생산법으로 주 규제 우회해 석유·연료 증산 검토",
+ "id": "n-bbg-0058",
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "트럼프, 국방물자생산법으로 석유·연료 증산 압박 방침…소식통",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/energy/trump-push-us-officials-use-defense-production-act-raise-oil-fuel-output-three-2026-10-09/",
+   "s": "트럼프가 국방물자생산법을 써서 주·지방 규제를 우회해 석유·연료를 증산하도록 관리들을 압박할 방침이어서 정유 인허가 규제가 약해질 수 있다"
+  },
+  {
+   "t": "트럼프 정부, 국방물자생산법으로 에너지 규제 우회 검토",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-11",
+   "u": "https://t.me/The_MariTimes/63659",
+   "s": "채널은 트럼프 정부의 국방물자생산법 활용 검토를 또 하나의 비상대권 사용으로 보고, 중간선거 패배 시 비상대권 사용이 늘 수 있다고 짚었다"
+  },
+  {
+   "t": "트럼프 정부, 국방물자생산법으로 주 규제 우회해 연료 증산 검토",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-15",
+   "u": "https://t.me/The_MariTimes/63713",
+   "s": "트럼프 정부가 국방물자생산법으로 주·지방 규제를 우회해 석유·연료유 생산을 늘리는 방안을 검토하면서 비상 권한 활용이 에너지로 넓어지고 있다"
+  }
+ ],
+ "key": "bbg-1002-trump-no-diesel-export-ban-g7",
+ "nodes": [],
+ "num": 58,
+ "one": "트럼프 대통령이 국방물자생산법으로 주·지방 규제를 우회해 석유·연료 생산을 늘리도록 관리들을 압박할 방침이라는 보도가 나온 뒤 채널들이 비상 권한 확대에 주목하면서, 정유 인허가 규제가 약해질 수 있다",
+ "origTitle": "Trump Says US to Hold Off on Diesel Export Ban After G7 Release",
+ "processed": "2026-10-20",
+ "published": "2026-10-17T22:00:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "OilPrice.com",
+   "d": "2026-10",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html"
+  }
+ ],
+ "tags": [],
+ "title": "트럼프 정부, 국방물자생산법으로 주 규제 우회해 석유·연료 증산 검토",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/business/energy/trump-push-us-officials-use-defense-production-act-raise-oil-fuel-output-three-2026-10-09/",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "국방물자생산법으로 석유·연료 증산 압박"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0836",
+ "num": 836,
+ "key": "mix-G2-068-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:02:00+09:00",
+ "url": "https://t.me/Trillion_labs/11356",
+ "origTitle": "",
+ "headline": "FDA, 팔벨라 QTORIN 라파마이신 우선심사…PDUFA 2027년 2월 28일로 앞당겨져",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-29",
+   "u": "https://t.me/Trillion_labs/11356"
+  },
+  {
+   "o": "SEC 8-K(팔벨라)",
+   "d": "2026-10-28",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001583648/000119312526435113/pvla-ex99_1.htm"
+  },
+  {
+   "o": "PharmaShots",
+   "d": "2026-10-28",
+   "u": "https://pharmashots.com/36852/palvella-qtorin-rapamycin-nda-priority-review"
+  }
+ ],
+ "items": [
+  {
+   "t": "FDA, 팔벨라 QTORIN 라파마이신 우선심사…PDUFA 2027년 2월 28일",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-29",
+   "u": "https://t.me/Trillion_labs/11356"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "channel": "트릴리온",
+ "title": "FDA, 팔벨라 QTORIN 라파마이신 우선심사…PDUFA 2027년 2월 28일로 앞당겨져",
+ "one": "FDA가 팔벨라의 미세낭성 림프관 기형 치료제 QTORIN 라파마이신 신약 신청을 우선심사 대상으로 받아들였다\n· 심사 목표일(PDUFA)은 2027년 2월 28일로 정해져 기존 예상인 상반기보다 앞당겨졌다\n· 3상 SELVA에서 6개 효능 지표가 모두 유의했고 회사는 2027년 상반기 미국 출시를 준비하고 있다",
+ "facts": [
+  "무엇이: 팔벨라는 10월 28일 FDA가 QTORIN 3.9% 라파마이신 겔 신약 신청을 받아들여 우선심사를 부여했고 PDUFA 목표일이 2027년 2월 28일이라고 발표했다 [사실]",
+  "임상: 3상 SELVA에서 사전 정의된 6개 효능 지표가 모두 통계적으로 유의(p<0.001)했고, 효능 평가를 마친 43명 중 41명(95%)이 mLM-IGA 1점 이상 개선됐으며 약물 관련 중대 이상반응은 없었다 [사실]",
+  "지정: 혁신 치료제·신속심사·희귀의약품 지정을 받았고 해당 적응증에는 승인된 치료제가 없다 [사실]",
+  "시장: 레이먼드 제임스는 2027년 1분기 말 출시를 예상했고 미국 진단 환자는 3만 명 이상으로 전해졌다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(회사 발표·SEC 8-K)으로 우선심사·PDUFA 2027년 2월 28일·3상 결과 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "regulatory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "QTORIN 라파마이신 우선심사로 PDUFA 앞당겨져"
+  }
+ ]
+}

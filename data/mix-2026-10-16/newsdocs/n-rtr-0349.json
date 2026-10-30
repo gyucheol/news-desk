@@ -1,0 +1,95 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약으로 확인: 잠정 합의 보도(AFP·프랑스24)와 독일 정부의 최종 합의 부인·사민당 반대(폴리티코), 초안 내용, EU 승인 절차. 독일 고용 약속 우려와 한국·일본·튀르키예 제외는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 독일 정부 대변인은 10월 15일 저녁 프랑스와의 자동차·메이드 인 유럽 패키지에 최종 합의가 아직 없다고 했고, 연정 소수당 사민당이 초안에 반대했다고 폴리티코가 전했다 [사실]",
+  "보류: 독일 측 고용 약속 우려로 독일·프랑스 자동차 협정이 보류됐다 [제목]",
+  "초안: 초안은 내연차 CO2 감축 기준을 낮추고 재생연료 차량을 무배출로 인정하는 대신 독일이 더 엄격한 메이드 인 유럽 규칙을 지지하는 구조이며, 영국을 메이드 인 유럽 정의에 넣는다 [사실]",
+  "대상: 혜택은 유럽 무역 보호 조치와 대외 관세를 맞추는 영국·노르웨이 등에만 주고 한국·일본·튀르키예는 빼며, 하이브리드 배출 규제와 기업 차량 전기차 의무도 완화한다 [채널]",
+  "절차: 파리와 베를린이 합의해도 다른 EU 회원국과 유럽의회 승인을 거쳐야 한다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "佛·獨 '메이드 인 유럽' 차 협정, 獨 고용 우려에 보류…한국·일본은 혜택 제외",
+ "id": "n-rtr-0349",
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "로이터",
+   "t": "佛·獨, 차 배출가스·영국 '메이드 인 EU' 지위 합의 근접",
+   "u": "https://www.reuters.com/business/environment/france-germany-near-deal-car-emissions-britain-made-eu-status-2026-10-15/"
+  },
+  {
+   "t": "佛·獨, 영국이 中 관세 동참하면 EU 자동차 정책 편입 허용 방침",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-10-16",
+   "u": "https://t.me/w_compass/7355",
+   "s": "프랑스와 독일이 영국이 대중국 관세에서 EU 자동차 정책에 동참하면 편입을 허용할 예정이라고 파이낸셜타임스가 전하면서, 영국산 차가 EU 혜택을 받을 길이 열릴 수 있다"
+  },
+  {
+   "t": "佛·獨 '메이드 인 유럽' 조건 합의…한국·일본 제외, 2035년 목표 90%로 후퇴",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-16",
+   "u": "https://t.me/The_MariTimes/63746",
+   "s": "프랑스와 독일이 메이드 인 유럽 혜택을 영국·노르웨이 등에만 주고 한국·일본·튀르키예는 빼기로 하면서, 한국·일본산 차가 EU 조달·보조금에서 불리해질 수 있다"
+  },
+  {
+   "t": "독일·프랑스 자동차 협정, 독일 고용 우려로 보류",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/german-french-auto-pact-on-hold-over-berlin-job-pledge-worries",
+   "s": "독일 정부가 최종 합의는 없다고 밝힌 가운데 독일·프랑스 자동차 협정이 독일의 고용 우려로 보류되면서, 메이드 인 유럽 패키지 확정이 미뤄졌다"
+  }
+ ],
+ "key": "mix-G4-062-2026-10-15",
+ "nodes": [],
+ "num": 349,
+ "one": "프랑스와 독일이 2035년 CO2 감축 목표를 90%로 낮추고 영국·노르웨이 등만 '메이드 인 유럽' 혜택에 넣는 자동차 협정 초안을 마련했지만 독일 정부가 최종 합의는 없다고 하고 고용 우려로 보류되면서, 유럽 완성차 규제 완화 시점이 불투명해졌다",
+ "origTitle": "",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T14:00:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-15",
+   "o": "France24(AFP)",
+   "u": "https://www.france24.com/en/live-news/20261015-france-germany-reach-deal-on-future-of-car-industry-1"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Global Banking and Finance",
+   "u": "https://www.globalbankingandfinance.com/france-germany-near-deal-car-emissions-britain-made-eu/"
+  },
+  {
+   "o": "France 24",
+   "d": "2026-10-15",
+   "u": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal"
+  },
+  {
+   "o": "ua.news(폴리티코 유럽 인용)",
+   "d": "2026-10-16",
+   "u": "https://ua.news/en/world/frantsiia-i-nimechchina-ne-uzgodili-paket-shchodo-avto-i-made-in-europe-politico-europe"
+  }
+ ],
+ "tags": [],
+ "title": "佛·獨 '메이드 인 유럽' 차 협정, 獨 고용 우려에 보류…한국·일본은 혜택 제외",
+ "url": "https://www.reuters.com/business/environment/france-germany-near-deal-car-emissions-britain-made-eu-status-2026-10-15/",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "policy",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "독일 고용 우려로 메이드 인 유럽 협정 보류"
+  }
+ ],
+ "added": "이번 텔레그램 2건과 블룸버그 1건으로 한국·일본을 뺀 메이드 인 유럽 혜택 조건과 함께, 독일 고용 우려로 협정이 보류됐다는 소식이 추가됐다",
+ "updatedAt": "2026-10-16T18:17:05+09:00"
+}

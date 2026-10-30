@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0468",
+ "num": 468,
+ "key": "split-G3-023-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T06:52:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/singapores-september-exports-rise-684-year-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "싱가포르 9월 비석유 수출 68.4% 급증…전자 수출 107.6%↑",
+ "headline": "싱가포르 9월 비석유 수출 68.4% 급증…전자 수출 107.6%↑",
+ "one": "싱가포르의 9월 비석유 국내 수출이 AI 수요에 힘입어 1년 전보다 68.4% 늘고 전자 수출은 107.6% 뛰면서, 말레이시아·대만과 함께 아시아의 AI 수출 호황이 이어지고 있다",
+ "facts": [
+  "무엇이: 싱가포르의 9월 비석유 국내 수출은 1년 전보다 68.4% 늘었다(10월 16일 발표) [사실]",
+  "전자: 전자 수출은 107.6% 뛰어 AI 수요가 수출 증가를 이끌었다 [사실]",
+  "흐름: 같은 날 말레이시아 3분기 성장률도 AI 수출에 힘입어 예상을 웃돌았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 16일)이다. 9월 비석유 수출 68.4% 증가는 AsiaOne 보도로 확인했다.",
+ "src": [
+  {
+   "o": "AsiaOne",
+   "d": "2026-10-16",
+   "u": "https://www.asiaone.com/money/singapore-external-trade-september-2026-nodx"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르 9월 수출, 전년 대비 68.4% 증가",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/singapores-september-exports-rise-684-year-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "싱가포르 9월 비석유 수출 68.4% 증가"
+  }
+ ],
+ "ind": "semis"
+}

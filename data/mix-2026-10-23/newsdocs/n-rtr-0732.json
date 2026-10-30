@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0732",
+ "num": 732,
+ "key": "mix-G2-091-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:36:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-doctor-2026-10-23/",
+ "origTitle": "",
+ "headline": "마이크로소프트, 의사처럼 단계별로 진단하는 AI 도구 개발…복잡 사례 정확도 의사의 2배 이상",
+ "src": [
+  {
+   "o": "Detroit News",
+   "d": "2026-10-22",
+   "u": "https://www.detroitnews.com/story/tech/2026/10/22/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor/92388908007/"
+  },
+  {
+   "o": "Deccan Chronicle",
+   "d": "2026-10-23",
+   "u": "https://www.deccanchronicle.com/technology/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor-1998132"
+  }
+ ],
+ "items": [
+  {
+   "t": "마이크로소프트, 의사처럼 순차적으로 진단하는 AI 도구 개발",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-doctor-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "마이크로소프트, 의사처럼 단계별로 진단하는 AI 도구 개발…복잡 사례 정확도 의사의 2배 이상",
+ "one": "마이크로소프트 연구진이 의사처럼 순차적으로 진단하는 AI 도구를 사이언스지에 발표했다\n· AI가 병력 질문과 검사를 차례로 정하고 결과에 따라 가설을 고치며, 가상 전문의 패널을 활용한다\n· 300건 넘는 난해 사례에서 일반 의사보다 2배 이상 정확했고 진단 비용도 낮췄다",
+ "facts": [
+  "무엇이: 마이크로소프트 연구진은 10월 22일 사이언스에 순차 진단 AI 도구 연구를 발표했다 [사실]",
+  "방식: 오케스트레이터가 가상 임상 전문가 패널을 활용해 병력 질문과 검사를 차례로 정하고 결과에 따라 가설을 수정한다 [사실]",
+  "성과: 300건 넘는 특이 진단 사례에서 일반 의사보다 2배 이상 정확했고 응급실 입원 사례에서도 의사를 앞섰으며, 진단 비용도 낮았다 [사실]",
+  "다음: 보스턴 베스 이스라엘 디코니스 메디컬센터와 협력해 시험을 이어간다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(사이언스 게재·정확도·사례 수)",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "마이크로소프트 순차 진단 AI 도구 개발"
+  }
+ ]
+}

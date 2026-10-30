@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0484",
+ "num": 484,
+ "key": "split-G4-083-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "폭동에 프랑스 국채·주식 동반 하락…독일과 금리차 146bp",
+ "headline": "폭동에 프랑스 국채·주식 동반 하락…독일과 금리차 146bp",
+ "one": "주말 폭동이 정치 위기를 키우면서 10월 19일 프랑스 10년물 금리가 약 4.9%로 9월 말 이후 가장 크게 오르고 독일과의 금리차가 146bp로 2주 만의 최대로 벌어졌으며 CAC 40도 1.5% 내려, 무디스 심사를 앞둔 정부의 부담이 커졌다",
+ "facts": [
+  "무엇이: 주말 폭동 뒤 10월 19일 프랑스 10년물 금리는 약 4.9%로 9월 말 이후 가장 크게 올랐고, 독일 국채와의 금리차는 146bp로 2주 만의 최대였다 [사실]",
+  "주식: 같은 날 CAC 40은 1.5% 내렸고 프랑스 주식과 채권이 함께 밀렸다 [사실]",
+  "흐름: 금리차는 10월 5일 145bp를 넘었다가 15일 130bp대로 좁혀졌지만 폭동 뒤 다시 벌어졌다 [채널]",
+  "일정: 무디스는 이번 주 금요일 프랑스 신용등급을 검토하고, 정부는 2027년 예산 처리를 앞두고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 2건·로이터 1건(10월 19~20일). 10년물 약 4.9%, 독일 대비 146bp, 무디스 금요일 검토는 원 문서에서 검색 결과 요약(CNBC 등)으로 확인",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-19",
+   "u": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+  },
+  {
+   "o": "KuCoin News",
+   "d": "2026-10-19",
+   "u": "https://www.kucoin.com/news/flash/french-markets-tumble-amid-protests-and-political-crisis"
+  }
+ ],
+ "items": [
+  {
+   "t": "폭동이 정부에 대한 압박 키우며 프랑스 국채 하락",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government",
+   "s": "주말 폭동이 정부를 더 압박하면서 프랑스 국채 값이 떨어져, 10년물 금리가 약 4.9%로 9월 말 이후 가장 크게 올랐다"
+  },
+  {
+   "t": "정부가 압박받는 가운데 프랑스 주식·채권 동반 후퇴",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/french-stocks-and-bonds-retreat-as-government-comes-under-pressure",
+   "s": "정부가 정치적 압박을 받으면서 프랑스 주식과 채권이 함께 밀려, 프랑스 자산 전반의 위험 프리미엄이 커지고 있다 (제목 기준)"
+  },
+  {
+   "t": "폭동이 정치 위기에 더해지며 프랑스 금융시장 급락",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/finance/french-markets-tumble-riots-add-political-crisis-2026-10-19/",
+   "s": "폭동이 정치 위기를 키우면서 프랑스 국채 금리차가 146bp로 벌어지고 CAC 40이 1.5% 내려, 프랑스 자산 매도가 확산됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "폭동 뒤 프랑스 10년물 4.9%, 독일과 금리차 146bp"
+  }
+ ]
+}

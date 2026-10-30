@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0782",
+ "num": 782,
+ "key": "mix-G-048-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T05:16:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/aurora-s-autonomous-trucks-on-track-for-2027-after-missing-goals",
+ "origTitle": "",
+ "headline": "오로라 자율주행 트럭, 연말 목표 미달에도 2027년 계획 유지",
+ "src": [
+  {
+   "o": "오로라 IR",
+   "d": "2026-10-28",
+   "u": "https://ir.aurora.tech/news-events/press-releases/detail/155/aurora-announces-third-quarter-2026-results"
+  },
+  {
+   "o": "인베스팅닷컴(오로라 3분기 자료)",
+   "d": "2026-10-28",
+   "u": "https://www.investing.com/news/company-news/aurora-q3-2026-slides-driverless-fleet-expands-amid-production-delays-93CH-4981047"
+  }
+ ],
+ "items": [
+  {
+   "t": "오로라 자율주행 트럭, 목표 미달 뒤에도 2027년 계획대로",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/aurora-s-autonomous-trucks-on-track-for-2027-after-missing-goals"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "오로라 자율주행 트럭, 연말 목표 미달에도 2027년 계획 유지",
+ "one": "오로라가 무인 트럭 생산 목표에 못 미쳤지만 2027년 사업 계획은 그대로 유지했다\n· 무인 트럭은 20대 남짓 만들어져 연말 200대 목표에 크게 못 미쳤고 생산은 약 6주 늦어졌다\n· 볼보 오토노머스 솔루션은 2027년 1분기 오로라 드라이버 탑재 트럭을 내놓을 계획이다",
+ "facts": [
+  "무엇이: 오로라가 3분기 실적에서 무인 트럭 20대 이상을 만들어 운행에 넣고 있다고 밝혀 연말 200대 이상 목표에 크게 못 미쳤다 [사실]",
+  "지연: 초기 생산 문제로 생산 확대가 약 6주 늦어졌고, 12월 초 주당 20대 생산 속도에 이를 것으로 본다 [사실]",
+  "2027년: 볼보 오토노머스 솔루션이 2027년 1분기 오로라 드라이버 탑재 트럭을 내놓을 계획이고, 2027~2028년 1,000대 규모 양해각서도 있다 [사실]",
+  "실적: 3분기 영업손실은 2억 5,700만 달러, 매출은 300만 달러였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "오로라 3분기 실적 발표·실적 설명 자료 검색 결과 요약으로 무인 트럭 20대 이상(목표 200대), 6주 생산 지연, 볼보 2027년 1분기 출시 계획, 영업손실 2억 5,700만 달러를 확인.",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "autonomy",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "무인 트럭 생산 6주 지연으로 연말 목표 미달"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0436",
+ "num": 436,
+ "key": "split-G3-053-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/ark-s-wood-shuns-memory-chip-sector-on-vicious-cycle-risk",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "캐시 우드, 메모리주 회피…'중국 D램 증설이 HBM값도 흔들 수 있어'",
+ "headline": "캐시 우드, 메모리주 회피…'중국 D램 증설이 HBM값도 흔들 수 있어'",
+ "one": "캐시 우드가 메모리 업종은 악순환적 호황·불황 주기에 취약하다며 ARK 펀드가 전통 메모리 업체를 피한다고 밝히고, 중국 국가 지원 업체의 D램 증설이 HBM 가격까지 흔들 수 있다고 경고하면서 메모리주 투자심리가 식고 있다",
+ "facts": [
+  "무엇이: 캐시 우드는 13일 메모리 업종이 악순환적 호황·불황 주기에 취약하다며 ARK 펀드가 전통 메모리 업체를 피한다고 밝혔다 [사실]",
+  "중국 공급: 그는 CXMT 등 중국 국가 지원 업체의 D램 증설이 공급 압력을 키우고 중국 신규 진입자가 HBM 가격까지 흔들 수 있다고 지적했다 [채널]",
+  "AI: 다만 AI 버블 우려는 일축했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건과 나쁜양파 텔레그램 1건을 묶음. 캐시 우드의 메모리 업종 회피는 src Quartz·TipRanks(캐시 우드의 메모리 사이클·마이크론·삼성·SK하이닉스 위험 경고) 제목으로 뒷받침, 중국 증설·HBM 가격 발언은 채널 기준",
+ "src": [
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/cathie-wood-china-chip-memory-cycles-ark-invest-101326"
+  },
+  {
+   "o": "TipRanks",
+   "d": "2026-10-13",
+   "u": "https://www.tipranks.com/news/why-cathie-wood-sees-more-risk-ahead-for-micron-samsung-and-sk-hynix-stocks"
+  }
+ ],
+ "items": [
+  {
+   "t": "ARK 캐시 우드, '악순환' 사이클 위험에 메모리칩 업종 회피",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/ark-s-wood-shuns-memory-chip-sector-on-vicious-cycle-risk",
+   "s": "캐시 우드가 메모리 업종은 악순환적 호황·불황 주기에 취약하다며 ARK 펀드가 전통 메모리 업체를 피한다고 밝혀, 메모리주 투자심리가 식고 있다"
+  },
+  {
+   "t": "캐시 우드 \"중국 D램 증설이 공급 압력…HBM 가격도 흔들 수 있어\"",
+   "o": "텔레그램 나쁜양파",
+   "d": "2026-10-14",
+   "u": "https://t.me/Badonions/7768",
+   "s": "캐시 우드가 CXMT 등 중국 국가 지원 업체의 D램 증설이 공급 압력을 키우고 중국 신규 진입자가 HBM 가격까지 흔들 수 있다고 지적하면서도 AI 버블 우려는 일축했다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "중국 국가 지원 업체 D램 증설로 공급 압력"
+  }
+ ],
+ "ind": "semis"
+}

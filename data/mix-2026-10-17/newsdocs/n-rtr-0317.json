@@ -1,0 +1,110 @@
+{
+ "added": "이번 블룸버그 1건으로 세계은행의 2년간 최대 50억 달러 대출 검토와 수도·전력 5억 달러 첫 사업, 다자은행 연체 해소 조건이 추가됐다",
+ "basis": "verified",
+ "check": "대출 규모·조건·첫 사업·연체·채무 추산은 검색 결과 요약(여러 매체)으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 세계은행 수사나 코르데이루 게하 중남미·카리브 부총재는 앞으로 2년간 공공·민간 부문을 합쳐 베네수엘라에 최대 50억 달러를 빌려줄 수 있다고 말했다 [사실]",
+  "조건: 첫해 최대 20억 달러는 베네수엘라가 미주개발은행 20억 달러 넘는 연체 등 다른 다자은행 연체를 풀어야 하며, 모든 자금은 이사회 승인이 필요하다 [사실]",
+  "첫 사업: 수도·전력 분야 5억 달러 사업이 이미 정해졌고, 세계은행의 베네수엘라 대출은 2005년이 마지막이었다 [사실]",
+  "채무: 세계은행은 거시재정 체계와 채무 재조정 작업을 돕고 있으며, 민간 추산 채무는 약 1,700억 달러다 [사실]",
+  "기존: 미국 재무부는 14일 호르헤 로드리게스 국회의장을 제재 명단에서 뺐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "세계은행, 베네수엘라에 2년간 최대 50억 달러 대출 검토…제재 해제 뒤 재건 지원",
+ "id": "n-rtr-0317",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "로이터",
+   "s": "베네수엘라 최고 경제고문이 채무 지속가능성 분석을 공개하겠다고 밝히면서, 채권자들과의 채무 재조정 논의의 기초 자료가 나올 수 있다 (제목 기준)",
+   "t": "베네수엘라 최고 경제고문 '채무 지속가능성 분석 공개 추진'",
+   "u": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "미국이 관계 해빙 속에 베네수엘라 국회의장의 제재를 해제하면서, 양국 관계 정상화가 한 걸음 더 나아갔다",
+   "t": "미국, 관계 해빙 속 베네수엘라 최고위 입법자 제재 해제",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "로이터",
+   "s": "미국 재무부가 베네수엘라 의회 수장의 미국 내 자산 동결을 풀면서, 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다",
+   "t": "美 재무부, 베네수엘라 의회 수장에 대한 제재 해제",
+   "u": "https://www.reuters.com/business/energy/us-lifts-sanctions-head-venezuela-legislature-2026-10-14/"
+  },
+  {
+   "t": "세계은행, 베네수엘라에 최대 50억 달러 대출 가능성",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/world-bank-sees-up-to-5-billion-in-possible-loans-to-venezuela",
+   "s": "세계은행이 베네수엘라에 2년간 최대 50억 달러 대출을 검토하면서, 2005년 이후 끊긴 국제 개발 자금이 다시 들어갈 길이 열렸다"
+  }
+ ],
+ "key": "mix-G1-035-2026-10-15",
+ "nodes": [
+  "macro/geo",
+  "macro/liquidity"
+ ],
+ "num": 317,
+ "one": "미국이 베네수엘라 국회의장 제재를 푼 데 이어 세계은행이 2년간 최대 50억 달러 대출을 검토하고 첫해 최대 20억 달러는 다른 다자은행 연체 해소를 조건으로 걸면서, 베네수엘라 채무 재조정과 재건 자금 유입의 길이 열릴 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T21:13:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-14",
+   "o": "Anadolu/aNews",
+   "u": "https://www.anews.com.tr/americas/2026/10/14/us-removes-head-of-venezuelas-national-assembly-from-sanctions-list"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Xinhua",
+   "u": "https://english.news.cn/20261015/1b9e0af2721c4f558a35045cfc1d0e68/c.html"
+  },
+  {
+   "d": "2026-10-15",
+   "o": "Jerusalem Post",
+   "u": "http://www.jpost.com/international/article-911704"
+  },
+  {
+   "o": "La República",
+   "d": "2026-10-16",
+   "u": "https://www.larepublica.co/globoeconomia/el-banco-mundial-preve-posibles-prestamos-de-hasta-us-5-000-millones-a-venezuela-4504285"
+  },
+  {
+   "o": "El Informador Venezuela",
+   "d": "2026-10-16",
+   "u": "https://elinformadorve.com/16/10/2026/actualidad/banco-mundial-evalua-prestamos-de-hasta-5-000-millones-de-dolares-para-venezuela-en-dos-anos/"
+  },
+  {
+   "o": "InvestNews",
+   "d": "2026-10-16",
+   "u": "https://investnews.com.br/economia/banco-mundial-preve-emprestar-ate-us-5-bilhoes-a-venezuela/"
+  }
+ ],
+ "tags": [],
+ "title": "세계은행, 베네수엘라에 2년간 최대 50억 달러 대출 검토…제재 해제 뒤 재건 지원",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "세계은행, 베네수엘라에 최대 50억 달러 대출 검토"
+  }
+ ]
+}

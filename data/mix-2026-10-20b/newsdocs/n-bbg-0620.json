@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0620",
+ "num": 620,
+ "key": "mix-G1-058-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T13:25:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/china-moves-to-curb-hydrogen-overcapacity-as-investment-surges",
+ "origTitle": "",
+ "headline": "중국, 투자 급증한 수소 산업 과잉 생산능력 억제 착수…대형 사업 배분 계획",
+ "src": [
+  {
+   "o": "EnergyConnects",
+   "d": "2026-10-20",
+   "u": "https://www.energyconnects.com/news/renewables/2026/october/china-moves-to-curb-hydrogen-overcapacity-as-investment-surges/"
+  },
+  {
+   "o": "OilPrice",
+   "d": "2026-10-20",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/China-Moves-to-Rein-In-Its-Booming-Hydrogen-Industry.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 투자 급증한 수소 산업 과잉 생산능력 억제 나서",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/china-moves-to-curb-hydrogen-overcapacity-as-investment-surges"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "중국, 투자 급증한 수소 산업 과잉 생산능력 억제 착수…대형 사업 배분 계획",
+ "one": "중국 국가발전개혁위원회가 투자가 과열된 수소 산업의 과잉 생산능력 억제에 나섰다\n· 런중바오 발개위 관계자는 일부 분야 투자 과열에 대형 사업을 합리적으로 배분하는 계획을 마련 중이라고 했다\n· IEA는 중국 수전해기 제조능력이 2025년 연 35GW로 수요 2GW 미만을 크게 웃돈다고 봤다",
+ "facts": [
+  "무엇이: 중국 국가발전개혁위원회는 수소 산업 일부의 투자 과열에 대응해 대형 사업을 합리적으로 배분하는 계획을 마련하고 있다 [사실]",
+  "과잉: IEA 집계로 중국 수전해기 제조능력은 2025년 연 35GW, 수요는 2GW 미만이었다 [사실]",
+  "목표: 중국은 2030년까지 그린수소 생산을 연 200만 톤으로 8배 늘리려 하며, 태양광·배터리식 과잉과 가격 전쟁 재연을 피하려 한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "발개위의 과잉 억제 계획과 IEA 수치를 검색 결과 요약으로 확인 수소·수전해 산업 페이지가 없어 산업재(electrical)에 임시로 연결함(새 산업 후보: 수소).",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국 수소 과잉 생산능력 억제 착수"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0397",
+ "num": 397,
+ "key": "split-G2-039-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:14:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/citgo-raises-profit-outlook-by-2-billion-as-fuel-margins-surge",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시트고, 연료 마진 급등에 이익 전망 20억 달러 상향",
+ "headline": "시트고, 연료 마진 급등에 이익 전망 20억 달러 상향",
+ "one": "블룸버그에 따르면 미국 정유사 시트고가 연료 마진 급등을 반영해 이익 전망을 20억 달러 올리면서, 셸·BP·토탈에너지스 등 유럽 대형사에 이어 미국 정유사로도 마진 호황이 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 시트고가 연료 마진 급등에 이익 전망을 20억 달러 올렸다(10월 20일 블룸버그) [제목]",
+  "흐름: 앞서 셸(42달러)·BP(46.7달러)·토탈에너지스(33.2달러)도 3분기 정제 마진이 크게 올랐다고 안내했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 20일)이다. 원 문서 확인 기록대로 시트고 20억 달러 상향은 검색·열람에서 찾지 못해 제목 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "시트고, 연료 마진 급등에 이익 전망 20억 달러 상향",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/citgo-raises-profit-outlook-by-2-billion-as-fuel-margins-surge"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "시트고, 연료 마진 급등에 이익 전망 20억 달러 상향"
+  }
+ ]
+}

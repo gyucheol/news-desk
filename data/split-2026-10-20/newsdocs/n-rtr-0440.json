@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0440",
+ "num": 440,
+ "key": "split-G2-101-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T21:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk/uk-finance-minister-calls-tighter-russian-shipping-sanctions-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "英 재무장관, 러시아 해운에 대한 제재 강화 촉구",
+ "headline": "英 재무장관, 러시아 해운에 대한 제재 강화 촉구",
+ "one": "영국 재무장관이 러시아 해운에 대한 제재를 더 조여야 한다고 촉구하면서, 운임을 낮추려 그림자 선단 제재 완화를 검토하는 미국과 반대 방향의 압박이 나와 서방의 제재 공조가 엇갈리고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 영국 재무장관이 러시아 해운에 대한 제재 강화를 촉구했다 [제목]",
+  "대비: 미국은 운임을 낮추려 러시아·이란·베네수엘라 원유를 나른 그림자 선단 일부의 제재 완화를 검토했다 [사실]",
+  "보험: 분석가들은 보험사가 EU·영국 규정에 묶여 있어 미국의 완화 효과가 크지 않을 것으로 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 미국 완화 검토와 분석가 평가는 원 문서가 확인한 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "英 재무장관, 러시아 해운에 대한 제재 강화 촉구",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/uk/uk-finance-minister-calls-tighter-russian-shipping-sanctions-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "oil",
+  "shipping",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "英, 러시아 해운 제재 강화 촉구"
+  }
+ ]
+}

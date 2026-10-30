@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0577",
+ "num": 577,
+ "key": "split-G5-172-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:28:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/pboc-s-pan-says-to-monitor-ai-impact-on-economy-monetary-policy",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "판궁성 인민은행장 '경제·통화정책에 대한 AI 영향 점검할 것'",
+ "headline": "판궁성 인민은행장 '경제·통화정책에 대한 AI 영향 점검할 것'",
+ "one": "판궁성 인민은행장이 인공지능이 경제와 통화정책에 미치는 영향을 지켜보겠다고 밝히면서, 익일물 금리의 정책금리 전환 검토와 함께 AI가 중국 통화정책 판단 요소로 들어올 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 판궁성 인민은행장은 AI가 경제와 통화정책에 미치는 영향을 점검하겠다고 말했다 [제목]",
+  "같은 날: 판궁성은 익일물 레포 금리를 주 정책금리로 삼는 방안을 연구하겠다고도 밝혔다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건. 원 문서 확인 기록에서 판궁성의 AI 영향 점검 발언은 제목 기준으로만 남아 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "판궁성 '경제·통화정책에 대한 AI 영향 점검할 것'",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/pboc-s-pan-says-to-monitor-ai-impact-on-economy-monetary-policy"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "AI 영향 점검 발언은 금리 방향 신호 아님"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0364",
+ "num": 364,
+ "key": "split-G1-011-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "쿠웨이트 원유 생산 하루 200만 배럴…전쟁 전 75% 수준 회복",
+ "headline": "쿠웨이트 원유 생산 하루 200만 배럴…전쟁 전 75% 수준 회복",
+ "one": "쿠웨이트가 원유를 하루 200만 배럴씩 생산해 생산량이 전쟁 전의 약 75% 수준까지 회복했다고 5일 전해지면서, 전쟁으로 줄었던 걸프 산유국의 원유 공급이 되살아나고 있다",
+ "facts": [
+  "무엇이: 쿠웨이트가 원유를 하루 200만 배럴씩 생산해 전쟁 전의 약 75% 수준까지 회복했다 [사실]",
+  "위험: 호르무즈에서는 이후에도 공격이 이어져 UKMTO는 10월 16일로 끝난 한 주에 호르무즈 10건 등 12건의 공격을 집계했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 하루 200만 배럴 생산은 원 문서 출처 목록의 타임스 쿠웨이트(블룸버그 인용) 보도로 뒷받침",
+ "src": [
+  {
+   "o": "타임스 쿠웨이트(블룸버그 인용)",
+   "d": "2026-10-06",
+   "u": "https://timeskuwait.com/kuwait-currently-produces-around-2-million-bpd-as-strait-of-hormuz-traffic-picks-up/"
+  }
+ ],
+ "items": [
+  {
+   "t": "쿠웨이트 원유 생산 하루 200만 배럴…전쟁 전의 약 75% 수준",
+   "o": "블룸버그",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "쿠웨이트 원유 생산 하루 200만 배럴로 회복"
+  }
+ ]
+}

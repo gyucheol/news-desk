@@ -1,0 +1,83 @@
+{
+ "id": "n-bbg-0580",
+ "num": 580,
+ "key": "split-G6-049-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/san-francisco-passes-data-center-moratorium-in-hometown-of-ai",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "샌프란시스코, 신규 데이터센터 45일 모라토리엄…오클랜드도 중단",
+ "headline": "샌프란시스코, 신규 데이터센터 45일 모라토리엄…오클랜드도 중단",
+ "one": "AI의 본고장 샌프란시스코가 데이터센터 모라토리엄을 통과시키고 시장이 신규 승인을 45일 멈추는 조례에 서명해 오클랜드도 비슷한 중단을 승인하면서, 전기요금·물 소비 우려 속에 데이터센터 규제가 강해질 전망이다",
+ "facts": [
+  "무엇이: 샌프란시스코는 데이터센터 모라토리엄을 통과시켰고, 시장은 신규 데이터센터 승인을 45일 멈추는 조례에 서명했다 [사실]",
+  "이유: 전기요금과 물 소비 우려가 중단 결정의 배경이 됐다 [채널]",
+  "인근 도시: 오클랜드도 비슷한 중단을 승인했다 [사실]",
+  "전망: 중간선거를 앞두고 데이터센터 규제가 강해질 전망이다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그(10월 8일)·텔레그램(17일) 2건을 묶음. 원 문서 사실 줄은 시장의 45일 승인 중단 조례 서명과 오클랜드의 비슷한 중단을 사실로 다뤘고, 출처 목록의 Mission Local·SFist·Local News Matters·Benzinga 보도가 이를 다룸.",
+ "src": [
+  {
+   "o": "Mission Local",
+   "d": "2026-10",
+   "u": "https://missionlocal.org/2026/10/sf-supervisors-pass-data-center-moratorium/"
+  },
+  {
+   "o": "SFist",
+   "d": "2026-10-07",
+   "u": "https://sfist.com/2026/10/07/san-francisco-oakland-pass-45-day-moratoriums-on-new-data-centers/"
+  },
+  {
+   "o": "Benzinga",
+   "d": "2026-10-17",
+   "u": "https://www.benzinga.com/markets/tech/26/10/62427270/san-francisco-data-center-moratorium"
+  },
+  {
+   "o": "Local News Matters",
+   "d": "2026-10-07",
+   "u": "https://localnewsmatters.org/2026/10/07/san-francisco-data-center-moratorium/"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI의 본고장 샌프란시스코, 데이터센터 모라토리엄 통과",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/san-francisco-passes-data-center-moratorium-in-hometown-of-ai",
+   "s": "AI의 본고장인 샌프란시스코가 데이터센터 모라토리엄을 통과시키면서 도시 안의 신규 데이터센터 건설이 일시 중단된다"
+  },
+  {
+   "t": "샌프란시스코, 전기요금·물 소비 우려에 신규 데이터센터 45일 중단",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-17",
+   "u": "https://t.me/insidertracking/66537",
+   "s": "샌프란시스코가 전기요금과 물 소비 우려로 신규 데이터센터 개발을 45일 멈추기로 하면서, 중간선거를 앞두고 데이터센터 규제가 강해질 전망이다"
+  }
+ ],
+ "inds": [
+  "realestate",
+  "power"
+ ],
+ "nodes": [
+  "power/demand"
+ ],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "datacenter",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "샌프란시스코 신규 데이터센터 45일 승인 중단"
+  }
+ ]
+}

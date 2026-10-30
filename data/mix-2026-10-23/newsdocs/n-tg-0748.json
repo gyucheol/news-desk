@@ -1,0 +1,76 @@
+{
+ "id": "n-tg-0748",
+ "num": 748,
+ "key": "mix-G2-053-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:08:00+09:00",
+ "url": "https://t.me/Trillion_labs/11172",
+ "origTitle": "",
+ "headline": "신장·고혈압 신약 3상 호조…보르바이오 신기능 보존·미네랄리스 알부민뇨 52%↓",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11172"
+  },
+  {
+   "o": "보르바이오(GlobeNewswire)",
+   "d": "2026-10-22",
+   "u": "https://www.globenewswire.com/news-release/2026/10/22/3386893/0/en/telitacicept-demonstrates-durable-preservation-of-kidney-function-through-two-years-in-phase-3-teligan-trial-in-iga-nephropathy.html"
+  },
+  {
+   "o": "미네랄리스 IR",
+   "d": "2026-10-22",
+   "u": "https://ir.mineralystx.com/news-events/press-releases/detail/123/mineralys-therapeutics-presents-new-lorundrostat-data-in"
+  }
+ ],
+ "items": [
+  {
+   "t": "미네랄리스 로룬드로스타트 3상, CKD 유무 무관 혈압 강하",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-23",
+   "u": "https://t.me/Trillion_labs/11172",
+   "s": "미네랄리스의 로룬드로스타트가 3상에서 CKD 유무와 관계없이 혈압을 낮추고 CKD 환자 알부민뇨를 52% 줄이면서, 신장 질환 동반 고혈압 치료 근거를 쌓았다"
+  },
+  {
+   "t": "보르바이오 '신약, 후기 임상서 신기능 저하 늦춰'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/vor-bio-says-its-experimental-drug-slowed-loss-kidney-function-late-stage-study-2026-10-22/",
+   "s": "보르바이오의 텔리타시셉트가 IgA 신병증 3상에서 신기능 30% 저하 위험을 89% 줄이면서, 중국 조건부 허가에 이어 2년 효과 지속성이 확인됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "channel": "트릴리온",
+ "title": "신장·고혈압 신약 3상 호조…보르바이오 신기능 보존·미네랄리스 알부민뇨 52%↓",
+ "one": "보르바이오와 미네랄리스가 신장·고혈압 신약 3상에서 긍정적 결과를 내놨다\n· 보르바이오의 텔리타시셉트는 IgA 신병증 3상에서 신기능 30% 저하 위험을 89% 줄였다\n· 미네랄리스의 로룬드로스타트는 3상에서 CKD 유무와 관계없이 수축기 혈압을 9.6~12.2mmHg 낮췄다\n· 로룬드로스타트는 CKD 환자의 알부민뇨를 위약 대비 52% 줄였다",
+ "facts": [
+  "무엇이: 보르바이오는 10월 22일 텔리타시셉트의 IgA 신병증 3상(TELIGAN) 2년 결과에서 연간 eGFR 기울기가 -0.6으로 위약(-5.7)보다 완만했다고 밝혔다 [사실]",
+  "위험 감소: 텔리타시셉트는 신기능 30% 저하 위험을 89%, 40% 저하 위험을 81% 줄였고 투약군에선 신부전 도달자가 없었다 [사실]",
+  "미네랄리스: 로룬드로스타트 3상 Launch-HTN에서 12주 위약 대비 수축기 혈압이 CKD 환자 9.6mmHg, 비CKD 12.2mmHg 낮아졌다 [사실]",
+  "알부민뇨: 알부민뇨가 있는 CKD 환자에서 소변 알부민/크레아티닌 비가 위약 대비 52.2% 줄었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(회사 발표)으로 텔리타시셉트 3상 결과 확인, 미네랄리스 발표문 열람으로 혈압·알부민뇨 수치 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "텔리타시셉트·로룬드로스타트 3상 긍정 결과"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

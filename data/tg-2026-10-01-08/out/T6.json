@@ -1,0 +1,345 @@
+{
+ "agent": "T6",
+ "searches_used": 8,
+ "fetches_used": 0,
+ "items": [
+  {
+   "key": "tg-HANAchina-69830",
+   "source": "텔레그램",
+   "channel": "하나증권 중국전략",
+   "url": "https://t.me/HANAchina/69830",
+   "published": "2026-10-04T17:09:00+09:00",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "title": "이란 의회의장 '7개 조건 충족 전 호르무즈 재개방 없다'…사찰 제안 보도는 부인",
+   "one": "이란 갈리바프 의회의장이 6월 이슬라마바드 양해각서에 따른 7개 조건을 미국이 채우기 전에는 호르무즈 해협을 열지 않겠다고 밝히면서, 걸프 원유·LNG 수송 정상화가 미·이란의 양보 순서 다툼에 계속 묶이게 됐다",
+   "facts": [
+    "무엇이: 10월 4일 갈리바프 이란 의회의장이 7개 조건이 충족되기 전에는 호르무즈 해협을 다시 열지 않겠다고 밝혔습니다 [사실]",
+    "배경: 조건은 6월 이슬라마바드 양해각서에서 나왔고 군사작전 종료, 미 해상봉쇄 해제, 제재 해제, 동결 자금 해제 등이 담긴 것으로 보도됐습니다 [사실]",
+    "미국 측: 갈리바프 의장은 미국이 공개 발언과 달리 중재자를 통해 제안을 보내 왔다고 말했습니다 [사실]",
+    "쟁점: 이란은 제재 완화 대가로 핵 사찰을 제안했다는 10월 2일 블룸버그 보도를 부인했고, 양보 순서가 핵심 쟁점으로 남았다고 전해졌습니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(CCTV 인용)로 들어온 소식이며, 알자지라·타임스오브이스라엘(2026-10-04) 기사로 확인했습니다(검색 결과 요약으로 확인). 같은 묶음의 '이란 제재 완화 시 핵 사찰 허용 제안' 글(Trillion_labs/9882)은 이 건에 합쳤고, 사찰 제안 부인은 채널 글에만 있습니다.",
+   "src": [
+    {
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-04",
+     "u": "https://t.me/HANAchina/69830"
+    },
+    {
+     "o": "알자지라",
+     "d": "2026-10-04",
+     "u": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
+    },
+    {
+     "o": "타임스오브이스라엘",
+     "d": "2026-10-04",
+     "u": "https://www.timesofisrael.com/liveblog_entry/irans-parliament-speaker-says-strait-of-hormuz-wont-reopen-until-tehrans-7-conditions-met/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-Trillion_labs-9991",
+   "source": "텔레그램",
+   "channel": "트릴리온",
+   "url": "https://t.me/Trillion_labs/9991",
+   "published": "2026-10-04T16:01:00+09:00",
+   "inds": [
+    "macro",
+    "petchem"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "petchem/feedstock"
+   ],
+   "title": "포텐 'VLCC 운임이 원유 도착비용의 27%'…고운임발 수요 위축 경고",
+   "one": "중동~아시아 VLCC 운임이 하루 약 130만 달러로 1월의 43배까지 오르면서 운송비가 배럴당 약 33달러, 원유 도착비용의 27%로 커져 정유사의 원유 선택과 원유 수요를 억누를 수 있다",
+   "facts": [
+    "무엇이: 포텐앤파트너스가 10월 2일 탱커 오피니언에서 고운임이 원유 수요를 꺾을 수 있는지 분석했습니다 [사실]",
+    "얼마나: 1월 하루 약 3만 달러(배럴당 약 1.73달러, 도착비용의 약 3%)였던 VLCC 운임이 약 130만 달러로 올라 배럴당 약 33달러, 약 27%가 됐습니다 [사실]",
+    "왜: 전쟁 위험에 따른 보험료 급등, 제재로 인한 가용 선박 감소, VLCC 소유 집중이 겹쳤습니다 [채널]",
+    "전망: 포텐은 원유 공급이 풀리면 운임이 빠르게 떨어질 수 있어 2027년 최대 변수로 봤습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "채널이 포텐 탱커 오피니언을 번역해 옮긴 글이며, 마리타임 이그제큐티브에 실린 포텐 글과 에너지뉴스비트 기사로 숫자를 확인했습니다(검색 결과 요약으로 확인).",
+   "src": [
+    {
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-04",
+     "u": "https://t.me/Trillion_labs/9991"
+    },
+    {
+     "o": "마리타임 이그제큐티브(포텐 기고)",
+     "d": "2026-10",
+     "u": "https://maritime-executive.com/editorials/poten-vlcc-rates-hit-unprecedented-levels-amidst-mideast-conflict"
+    },
+    {
+     "o": "에너지뉴스비트",
+     "d": "2026-10",
+     "u": "https://energynewsbeat.co/crude-oil/1-3-million-a-day-when-freight-forces-paper-oil-to-meet-the-physical-barrel/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-insidertracking-65264",
+   "source": "텔레그램",
+   "channel": "미국 주식 인사이더",
+   "url": "https://t.me/insidertracking/65264",
+   "published": "2026-10-03T15:38:00+09:00",
+   "inds": [
+    "petchem",
+    "macro"
+   ],
+   "nodes": [
+    "petchem/feedstock",
+    "macro/geo"
+   ],
+   "title": "후티, 사우디 아람코 리야드 정유소 공격 주장…대형 화재 발생",
+   "one": "예멘 후티 반군이 미사일·드론으로 하루 약 13만 배럴 규모의 아람코 리야드 정유소를 공격했다고 주장하고 현장 화재가 확인되면서, 지잔에 이어 사우디 내수용 정제설비까지 공격 대상이 넓어졌다",
+   "facts": [
+    "무엇이: 10월 3일 리야드의 아람코 정유소에서 큰 화재와 연기가 관측됐고, 후티는 탄도미사일과 드론으로 공격했다고 주장했습니다 [사실]",
+    "얼마나: 리야드 정유소는 하루 약 13만 배럴 규모로 수도권에 석유제품을 공급하는 것으로 보도됐습니다 [사실]",
+    "배경: 앞서 후티는 하루 40만 배럴 규모의 지잔 정유소도 공격했습니다 [사실]",
+    "미확인: 사우디 당국은 공격 여부와 피해 규모를 확인하지 않았습니다 [미확인]"
+   ],
+   "basis": "partial",
+   "check": "NBC뉴스·타임스오브이스라엘 기사로 화재와 후티 주장을 확인했습니다(검색 결과 요약으로 확인). 사우디·아람코의 공식 확인과 피해 규모는 확인하지 못했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-03",
+     "u": "https://t.me/insidertracking/65264"
+    },
+    {
+     "o": "NBC뉴스",
+     "d": "2026-10-03",
+     "u": "https://www.nbcnews.com/world/middle-east/fire-smoke-seen-aramco-facility-riyadh-rcna601278"
+    },
+    {
+     "o": "타임스오브이스라엘",
+     "d": "2026-10-03",
+     "u": "https://www.timesofisrael.com/liveblog_entry/iran-backed-houthis-say-they-targeted-riyadh-airport-aramco-refinery/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-cahier_de_market-10912",
+   "source": "텔레그램",
+   "channel": "카이에 de market",
+   "url": "https://t.me/cahier_de_market/10912",
+   "published": "2026-10-02T22:11:00+09:00",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity"
+   ],
+   "title": "사우디 동서 송유관 수송량 능력의 80% 넘어…홍해 수출 여력 전쟁 뒤 최고",
+   "one": "사우디가 드론 피격 뒤 절반에 그쳤던 동서 송유관 수송량을 하루 약 600만 배럴, 능력의 80% 이상으로 끌어올리면서 호르무즈를 피해 홍해로 내보낼 수 있는 원유가 전쟁 뒤 가장 많아졌다",
+   "facts": [
+    "무엇이: 사우디 동서 송유관 수송량이 하루 약 600만 배럴(능력 700만 배럴)로 80%를 넘었습니다 [사실]",
+    "얼마나: 서부 정유소 공급분을 빼고 하루 약 450만 배럴이 수출 가능 물량으로 남아 2월 말 전쟁 뒤 최고 수준입니다 [사실]",
+    "배경: 송유관은 9월 10일 피격으로 멈췄다가 9월 22일 줄어든 양으로 재개됐고, 이번 주 초까지 절반 수준이었습니다 [사실]",
+    "왜: 국내 정유시설 공급을 줄여 수출 물량을 늘렸습니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "텔레그램 글(블룸버그 보도 전재)로 들어온 소식이며, 파이프라인 저널·시킹알파(에너지장관 하루 580만 배럴 언급) 기사로 확인했습니다(검색 결과 요약으로 확인). 9월 28일 절반 복구 소식(bbg-065)의 후속입니다.",
+   "src": [
+    {
+     "o": "텔레그램 카이에 de market",
+     "d": "2026-10-02",
+     "u": "https://t.me/cahier_de_market/10912"
+    },
+    {
+     "o": "파이프라인 저널",
+     "d": "2026-10",
+     "u": "https://www.pipeline-journal.net/news/saudi-arabia-ramps-east-west-pipeline-flows-over-80-following-repairs-after-attacks"
+    },
+    {
+     "o": "시킹알파",
+     "d": "2026-10",
+     "u": "https://seekingalpha.com/news/4650566-saudi-east-west-pipeline-flowing-at-5_8m-bbl-day-as-middle-east-oil-exports-recover"
+    }
+   ],
+   "dupOf": "bbg-065"
+  },
+  {
+   "key": "tg-The_MariTimes-63458",
+   "source": "텔레그램",
+   "channel": "Polaristimes",
+   "url": "https://t.me/The_MariTimes/63458",
+   "published": "2026-10-02T21:20:00+09:00",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "title": "중국, 보잉 200대 주문에 엔진 부품 장기 보장 요구…계약 무산 위기",
+   "one": "중국이 미·중 정상회담 성과였던 보잉 항공기 200대 주문의 조건으로 엔진·부품의 장기 공급 보장을 요구하고 미국 정부가 이를 꺼리면서, 170억~190억 달러 규모 계약이 무산될 위기에 놓였다",
+   "facts": [
+    "무엇이: 중국이 보잉 200대 주문과 관련해 엔진·예비부품·정비의 장기 공급 보장을 요구하며 협상이 멈췄습니다 [사실]",
+    "왜: 중국은 미국이 나중에 부품·서비스 제공을 일방적으로 끊는 상황을 피하려 합니다 [사실]",
+    "미국 측: 백악관은 판매 뒤 정비가 5월 합의(약 170억~190억 달러)에 포함되지 않았다는 입장입니다 [사실]",
+    "규모: 중국은 보잉 상업기 수주잔고의 약 10%를 차지하지만 2017년 이후 중국 항공사와 확정 계약은 없었습니다 [사실]"
+   ],
+   "basis": "partial",
+   "check": "심플플라잉 기사로 협상 교착과 요구 내용을 확인했습니다(검색 결과 요약으로 확인). 보도 시점과 최신 협상 상태는 확인하지 못했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 Polaristimes",
+     "d": "2026-10-02",
+     "u": "https://t.me/The_MariTimes/63458"
+    },
+    {
+     "o": "심플플라잉",
+     "d": "2026-10",
+     "u": "https://simpleflying.com/boeing-china-200-jet-order-engine-parts-standoff/"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "tg-insidertracking-65209",
+   "source": "텔레그램",
+   "channel": "미국 주식 인사이더",
+   "url": "https://t.me/insidertracking/65209",
+   "published": "2026-10-02T18:46:00+09:00",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "title": "NYT '이란, 8월 이후 주당 드론 30회·미사일 10회로 호르무즈 상선 공격'",
+   "one": "이란이 8월 초부터 호르무즈 해협 상선에 주당 약 30회의 드론과 10회의 대함미사일 공격을 이어 가 9월 10일 이후 최소 13척이 맞으면서, 걸프 원유 수출이 회복되는 중에도 유조선 운항 위험이 이어지고 있다",
+   "facts": [
+    "무엇이: 뉴욕타임스가 비공개 자료를 인용해 이란이 8월 초 이후 매주 드론 약 30회, 대함미사일 약 10회 공격을 했다고 보도했습니다 [사실]",
+    "얼마나: 최근 10일 사이 최소 4척이 피격됐고, 영국 해군 집계로 9월 10일 이후 최소 13척이 발사체나 파편에 맞았습니다 [사실]",
+    "후속: 10월 2~3일 오만 앞바다에서 초대형 유조선 피격, 미국 호위 유조선 피격(이번 주 6번째)이 잇따랐습니다 [채널]",
+    "홍해: 후티가 하루 약 150만 배럴 처리 규모의 얀부 북부 터미널을 처음 공격해 하역이 일시 중단됐다고 전해졌습니다 [채널]"
+   ],
+   "basis": "partial",
+   "check": "텔레그램 글(뉴욕타임스 보도 전재)로 들어온 소식이며, 이를 인용한 사우스프런트 등 2차 기사로 숫자를 확인했습니다(검색 결과 요약으로 확인). 뉴욕타임스 원문과 얀부 북부 터미널 피격은 확인하지 못했습니다. 같은 묶음의 오만 앞바다 VLCC 피격 글(Trillion_labs/9925)을 합쳤습니다.",
+   "src": [
+    {
+     "o": "텔레그램 미국 주식 인사이더",
+     "d": "2026-10-02",
+     "u": "https://t.me/insidertracking/65209"
+    },
+    {
+     "o": "사우스프런트(뉴욕타임스 인용)",
+     "d": "2026-10-02",
+     "u": "https://www.southfront.press/iran-is-launching-dozens-of-drones-and-missiles-at-ships-near-hormuz-every-week"
+    }
+   ],
+   "dupOf": "n-tg-0055"
+  },
+  {
+   "key": "tg-HANAchina-69748",
+   "source": "텔레그램",
+   "channel": "하나증권 중국전략",
+   "url": "https://t.me/HANAchina/69748",
+   "published": "2026-10-02T10:49:00+09:00",
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "title": "그리어 USTR '과잉생산 대응 조치 수주 안에'…중국·베트남·일본 겨냥",
+   "one": "그리어 미 무역대표가 3월 시작한 16개 경제권 과잉생산 301조 조사의 대응 조치를 수주 안에 내놓겠다고 밝히면서, 중국 전기차와 베트남·일본 등의 대미 수출품에 추가 관세가 붙을 수 있다",
+   "facts": [
+    "무엇이: 그리어 대표가 10월 1일 밀워키 G20 무역장관회의 기간 닛케이 인터뷰에서 과잉생산 대응 조치를 수주 안에 발표하겠다고 말했습니다 [사실]",
+    "대상: 중국 전기차, 내수가 약해 수출에 기대는 베트남, 좀비기업을 살려 두는 일본을 지목했습니다 [사실]",
+    "배경: USTR은 3월 11일 한국·중국·일본·베트남 등 16개 경제권에 무역법 301조 과잉생산 조사를 시작했습니다 [사실]",
+    "미정: 구체적인 관세율과 시행 시점은 밝히지 않았습니다 [사실]"
+   ],
+   "basis": "verified",
+   "check": "아시아경제·닛케이 아시아(2026-10-02) 기사로 확인했습니다(검색 결과 요약으로 확인). 같은 인터뷰의 미·중 관세 인하 일정 미정 발언은 n-bbg-0050에서 다뤘고, 이번 건은 과잉생산 대응 부분입니다.",
+   "src": [
+    {
+     "o": "텔레그램 하나증권 중국전략",
+     "d": "2026-10-02",
+     "u": "https://t.me/HANAchina/69748"
+    },
+    {
+     "o": "아시아경제",
+     "d": "2026-10-02",
+     "u": "https://view.asiae.co.kr/article/2026100210280597063"
+    },
+    {
+     "o": "닛케이 아시아",
+     "d": "2026-10-02",
+     "u": "https://asia.nikkei.com/editor-s-picks/interview/us-won-t-sit-there-and-take-overproduction-from-china-ustr-greer"
+    }
+   ],
+   "dupOf": "n-bbg-0050"
+  },
+  {
+   "key": "tg-Trillion_labs-9911",
+   "source": "텔레그램",
+   "channel": "트릴리온",
+   "url": "https://t.me/Trillion_labs/9911",
+   "published": "2026-10-02T10:14:00+09:00",
+   "inds": [
+    "macro",
+    "gas"
+   ],
+   "nodes": [
+    "macro/geo",
+    "gas/liquefaction"
+   ],
+   "title": "미군, 사우디 석유·카타르 가스 시설에 패트리엇 포대 1개씩 추가 배치",
+   "one": "미군이 이란 공습 재개 가능성에 대비해 사우디 석유시설과 카타르 가스시설에 패트리엇 포대를 1개씩 추가 배치하면서, 공습을 재개해도 걸프 에너지 기반시설을 지키겠다는 신호를 두 나라에 보냈다",
+   "facts": [
+    "무엇이: 악시오스가 미 당국자 2명 등을 인용해 최근 몇 주 사이 패트리엇 포대 2개가 사우디 석유시설과 카타르 가스시설에 배치됐다고 보도했습니다 [사실]",
+    "왜: 사우디·카타르는 8월 이란 에너지시설 공격이 자국 시설 보복으로 이어질 수 있다며 공습에 반대했고, 미국은 작전 재개 시 사우디 영공이 필요합니다 [사실]",
+    "부담: 패트리엇 재고 부족으로 다른 지역 전력을 중동으로 옮기고 있다는 우려가 나왔습니다 [채널]",
+    "다음 일정: 시어도어 루스벨트 항모전단이 11월 중순까지 중동에 도착해 최대 3개 항모전단이 배치될 수 있습니다 [채널]"
+   ],
+   "basis": "verified",
+   "check": "악시오스(2026-10-02) 단독 기사와 미들이스트아이 보도로 확인했습니다(검색 결과 요약으로 확인). 미 중부사령부는 논평을 거부했습니다.",
+   "src": [
+    {
+     "o": "텔레그램 트릴리온",
+     "d": "2026-10-02",
+     "u": "https://t.me/Trillion_labs/9911"
+    },
+    {
+     "o": "악시오스",
+     "d": "2026-10-02",
+     "u": "https://www.axios.com/2026/10/02/patriot-missiles-iran-war-saudi-arabia-qatar"
+    },
+    {
+     "o": "미들이스트아이",
+     "d": "2026-10-02",
+     "u": "https://www.middleeasteye.net/news/us-sends-additional-patriot-batteries-saudi-arabia-and-qatar-report"
+    }
+   ],
+   "dupOf": ""
+  }
+ ],
+ "skipped": [
+  {
+   "key": "tg-Trillion_labs-9925",
+   "reason": "같은 사건 합침(tg-insidertracking-65209)"
+  },
+  {
+   "key": "tg-Trillion_labs-9882",
+   "reason": "같은 흐름 합침(tg-HANAchina-69830)"
+  },
+  {
+   "key": "tg-Trillion_labs-9809",
+   "reason": "이미 다룸(pf-bbg-009)"
+  }
+ ]
+}

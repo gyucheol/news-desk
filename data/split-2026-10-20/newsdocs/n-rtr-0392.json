@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0392",
+ "num": 392,
+ "key": "split-G1-102-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/faa-tells-us-airlines-exercise-caution-saudi-arabia-flights-citing-safety-risks-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "FAA, 미국 항공사에 안전 위험 들어 사우디 운항 주의 당부",
+ "headline": "FAA, 미국 항공사에 안전 위험 들어 사우디 운항 주의 당부",
+ "one": "미국 연방항공청(FAA)이 안전 위험을 들어 미국 항공사들에 사우디 운항에 주의하라고 당부하면서, 델타의 리야드 노선 개시 연기에 이어 미국 항공사들의 사우디 운항이 더 위축될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: FAA는 안전 위험을 들어 미국 항공사들에 사우디 운항에 주의하라고 당부했다 [제목]",
+  "항공사: 델타는 리야드 노선 개시를 미뤘고 루프트한자·카타르항공 등은 운항을 멈췄다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "FAA, 미국 항공사에 안전 위험 들어 사우디 운항 주의 당부",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/faa-tells-us-airlines-exercise-caution-saudi-arabia-flights-citing-safety-risks-2026-10-11/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "FAA 미국 항공사에 사우디 운항 주의 당부"
+  }
+ ]
+}

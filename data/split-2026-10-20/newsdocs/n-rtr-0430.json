@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0430",
+ "num": 430,
+ "key": "split-G2-072-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "메르츠, 전 소비자 전기세 kWh당 2.05센트서 EU 최저 수준으로 인하 약속",
+ "headline": "메르츠, 전 소비자 전기세 kWh당 2.05센트서 EU 최저 수준으로 인하 약속",
+ "one": "메르츠 독일 총리가 신뢰 격차를 메우겠다며 지난해 접었던 전 소비자 전기세 인하를 다시 약속하고 kWh당 2.05센트인 세율을 EU 최저 수준으로 낮추겠다고 밝히면서, 에너지값 급등 속 가계 전기요금 부담이 줄 수 있다",
+ "facts": [
+  "무엇이: 메르츠 총리는 모든 소비자의 전기세를 인하하겠다고 약속했다 [사실]",
+  "세율: kWh당 2.05센트인 전기세를 EU 최저 수준으로 낮추겠다고 했다 [사실]",
+  "배경: 이 인하는 지난해 접었던 약속으로, 신뢰 격차를 메우려는 조치다 [사실]",
+  "유럽 흐름: 유럽 각국은 에너지값 급등에 횡재세 검토, 가스값 상한, 전기세 인하 등 대응에 나섰다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 메르츠의 전 소비자 전기세 인하 약속은 검색 결과 요약(Global Banking & Finance Review)으로 확인했다.",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-12",
+   "u": "https://www.globalbankingandfinance.com/merz-vows-electricity-tax-cut-consumers-close-credibility/"
+  }
+ ],
+ "items": [
+  {
+   "t": "메르츠, 신뢰 격차 해소 위해 모든 소비자 전기세 인하 약속",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/merz-vows-electricity-tax-cut-all-consumers-close-credibility-gap-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/market",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "전기세 kWh당 2.05센트서 EU 최저로 인하 약속"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0695",
+ "num": 695,
+ "key": "mix-G2-085-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T01:26:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/argentina-seals-water-deal-in-win-for-milei-s-privatization-push",
+ "origTitle": "",
+ "headline": "아르헨티나, 수도 사업 매각 계약 체결…밀레이 민영화 추진에 성과",
+ "src": [],
+ "items": [
+  {
+   "t": "아르헨티나, 수도 계약 체결…밀레이 민영화 추진에 성과",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/argentina-seals-water-deal-in-win-for-milei-s-privatization-push"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "utilities"
+ ],
+ "nodes": [],
+ "title": "아르헨티나, 수도 사업 매각 계약 체결…밀레이 민영화 추진에 성과",
+ "one": "아르헨티나 정부가 수도 사업 매각 계약을 마무리해 밀레이 대통령의 민영화 추진에 힘이 실렸다\n· 블룸버그는 이번 계약을 밀레이 정부 민영화 정책의 성과로 평가했다 (제목 기준)",
+ "facts": [
+  "무엇이: 아르헨티나가 수도 사업 매각 계약을 체결했다 [제목]",
+  "의미: 이번 계약은 밀레이 대통령의 민영화 추진에 성과가 됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인 검색을 하지 못해 제목 기준, 매각 대상·금액은 확인 못 함",
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "water",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "아르헨티나 수도 사업 매각 계약 체결"
+  }
+ ]
+}

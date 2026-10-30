@@ -1,0 +1,111 @@
+{
+ "added": "이번 로이터 1건으로 {{단고테 정유}}가 1~9월 {{순이익 47억 3,000만 달러}}로 {{흑자 전환}}했고 {{매출}}은 {{224억 8,000만 달러}}로 늘었다는 사실이 추가됐다",
+ "basis": "verified",
+ "check": "1~9월 순이익 47억 3,000만 달러와 매출, 정제마진은 검색 결과 요약(Technext, Finimize, Dabafinance)으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 단고테 정유는 2026년 1~9월 감사 전 순이익 47억 3,000만 달러로 1년 전 1억 1,720만 달러 손실에서 흑자 전환했고, 매출은 91억 9,000만 달러에서 224억 8,000만 달러로 늘었다 [사실]",
+  "마진: 상반기 정제마진은 배럴당 24.5달러로 2025년 13.7달러보다 높았고, 1분기에는 이란 분쟁에 따른 공급 차질로 33.7달러까지 올랐다 [사실]",
+  "IPO: 41억 주를 주당 525나이라에 팔아 약 16억 달러를 조달하며, 청약 마감은 10월 13일에서 27일로 연장됐다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{단고테 정유}}, 1~9월 {{순이익 47억 달러}}로 {{흑자 전환}}…IPO 마감 {{27일로 연장}}",
+ "id": "n-rtr-0159",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin",
+  "petchem"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{우간다}}가 {{단고테 정유 주식}}을 {{자국 투자자}}에게 {{팔도록 승인}}하면서 나이지리아 밖 아프리카 투자자도 {{IPO에 참여}}할 수 있게 됐다 (제목 기준)",
+   "t": "우간다, 단고테 정유 주식의 자국 투자자 판매 승인",
+   "u": "https://www.reuters.com/business/energy/uganda-approves-sale-dangote-refinery-shares-domestic-investors-2026-10-07/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "s": "{{씨티}}가 단고테 IPO 열기가 {{아프리카 자본시장을 더 깊게 만들}} 수 있다고 보면서 {{역내 상장 시장 활성화 가능성}}에 {{주목했다}} (제목 기준)",
+   "t": "씨티 '단고테 IPO 열기, 아프리카 자본시장 심화시킬 수 있어'",
+   "u": "https://www.reuters.com/world/africa/dangote-ipo-fever-could-deepen-africas-capital-markets-citi-says-2026-10-12/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "{{단고테 정유}}가 {{강한 수요와 다른 아프리카 국가 투자자 참여}}를 이유로 {{IPO 청약 마감을 10월 27일로 2주 늘리면서}} 상장 일정도 밀리게 됐다",
+   "t": "단고테 정유, 강한 수요에 IPO 2주 연장",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/dangote-refinery-to-extend-ipo-by-two-weeks-to-add-more-nations"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "자문역들이 {{단고테 정유 IPO를 10일 연장할 예정}}이라고 전하면서 {{청약 기간이 늘어나 투자자 참여 기회가 넓어질}} 수 있다 (제목 기준)",
+   "t": "나이지리아 단고테 정유 IPO 10일 연장 예정…자문역",
+   "u": "https://www.reuters.com/business/energy/nigerias-dangote-oil-refinery-ipo-be-extended-by-10-days-executive-adviser-say-2026-10-12/"
+  },
+  {
+   "t": "나이지리아 단고테 정유, IPO 앞두고 순이익 흑자 전환",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/nigerias-dangote-oil-refinery-swings-net-profit-ahead-ipo-2026-10-13/",
+   "s": "{{단고테 정유}}가 IPO를 앞두고 1~9월 {{순이익 47억 3,000만 달러}}로 {{흑자 전환}}하면서 청약 투자자에게 {{수익성 근거}}를 {{내놓았다}}"
+  }
+ ],
+ "key": "bnd-C318-2026-10-09",
+ "nodes": [
+  "macro/commodity",
+  "petchem/feedstock"
+ ],
+ "num": 159,
+ "one": "{{나이지리아 단고테 정유}}가 {{정제마진 상승}}으로 1~9월 {{순이익 47억 3,000만 달러}}를 내 {{흑자 전환}}하고 16억 달러 {{IPO 청약}}을 {{10월 27일까지 연장}}하면서, 아프리카 최대 상장에 {{역내 투자자 참여}}가 {{넓어질}} 전망이다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T00:22:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "Africanews",
+   "u": "https://www.africanews.com/2026/10/07/after-kenya-uganda-opens-dangote-refinery-ipo-to-domestic-investors/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "People Daily",
+   "u": "https://peopledaily.digital/business/uganda-restricts-dangote-refinery-ipo-to-wealthy-professional-investors"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Vanguard",
+   "u": "https://www.vanguardngr.com/2026/10/dangote-refinery-extends-ipo/"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Channels Television",
+   "u": "https://www.channelstv.com/2026/10/12/ipo-dangote-refinery-extends-offer-period-by-two-weeks/"
+  },
+  {
+   "o": "Technext",
+   "d": "2026-10-13",
+   "u": "https://technext24.com/news/dangote-refinery-posts-4-7-billion-profit/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-13",
+   "u": "https://finimize.com/content/dangote-refinerys-ipo-pitch-got-a-profit-story"
+  },
+  {
+   "o": "Dabafinance",
+   "d": "2026-09-07",
+   "u": "https://dabafinance.com/en/news/dangote-refinery-posts-1-82-billion-profit-as-europe-fuel-sales-rise"
+  }
+ ],
+ "tags": [],
+ "title": "{{단고테 정유}}, 1~9월 {{순이익 47억 달러}}로 {{흑자 전환}}…IPO 마감 {{27일로 연장}}",
+ "updatedAt": "2026-10-14T08:32:43+09:00",
+ "url": "https://www.reuters.com/business/energy/uganda-approves-sale-dangote-refinery-shares-domestic-investors-2026-10-07/"
+}

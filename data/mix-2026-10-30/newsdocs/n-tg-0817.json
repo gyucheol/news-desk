@@ -1,0 +1,70 @@
+{
+ "id": "n-tg-0817",
+ "num": 817,
+ "key": "mix-G1-049-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T19:18:00+09:00",
+ "url": "https://t.me/insidertracking/67770",
+ "origTitle": "",
+ "headline": "한국, 7~8월 러시아에 연료 17만 톤 이상 공급(FT)…유럽 동맹 우려·대통령실 반박",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67770"
+  },
+  {
+   "o": "Euromaidan Press",
+   "d": "2026-10-29",
+   "u": "https://euromaidanpress.com/2026/10/29/some-european-diplomats-doubt-seoul-over-what-they-see-as-a-tilt-toward-russia-during-moscows-war-on-ukraine-but-seoul-says-it-backs-ending-the-war-ft-reports/"
+  },
+  {
+   "o": "Femida",
+   "d": "2026-10-29",
+   "u": "https://femida.ua/en/news/south-korea-moves-closer-to-russia-amid-diplomatic-conflict-with-ukraine-ft/"
+  }
+ ],
+ "items": [
+  {
+   "t": "FT '한국, 7~8월 러시아에 연료 17만 톤 이상 공급'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67770"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "channel": "미국 주식 인사이더",
+ "title": "한국, 7~8월 러시아에 연료 17만 톤 이상 공급(FT)…유럽 동맹 우려·대통령실 반박",
+ "one": "한국이 7~8월 두 달간 러시아에 연료 17만 톤 이상을 공급했다고 파이낸셜타임스가 보도했다\n· 우크라이나 제재 담당은 8월 러시아 연료 수입의 31%를 한국산이 차지했다고 주장했다\n· 대통령실은 거래의 핵심 사실이 확인되지 않았다며 부정확한 주장이라고 반박했다",
+ "facts": [
+  "무엇이: FT 보도를 전한 기사들에 따르면 7~8월 한국에서 러시아로 경유 중심 연료 약 17만 6,000톤이 공급됐다 [사실]",
+  "운송: 연료는 러시아 극동행 유조선 7척에 실렸고 그중 3척은 영국·EU 제재 대상이다 [사실]",
+  "우크라이나 주장: 블라디슬라프 블라슈크 제재 고문은 한국산이 8월 러시아 연료 수입의 31%였다고 했다 [사실]",
+  "반응: 유럽 동맹국 사이에 우려가 나왔고, 대통령실과 외교부는 친러 기울기 지적이 사실과 다르다고 반박했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Euromaidan Press·Femida 등 FT 인용 기사 검색 결과 요약으로 7~8월 17만 6,000톤(채널 '17만 톤 이상'과 일치)·유조선 7척·31% 확인. FT 원문은 열지 않음",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "한국산 연료 7~8월 러시아에 17만 톤 이상 공급"
+  }
+ ]
+}

@@ -1,0 +1,826 @@
+{
+ "clusters": [
+  {
+   "cid": "G3-001",
+   "theme": "미 증시 심리·전략가 전망",
+   "field": "fin",
+   "attachTo": "n-bbg-0232",
+   "lines": [
+    68,
+    92,
+    1204,
+    1216,
+    523,
+    1564,
+    1565,
+    1717,
+    429
+   ]
+  },
+  {
+   "cid": "G3-002",
+   "theme": "미 대형은행 3분기 실적(JPM·GS·BofA·MS)",
+   "field": "fin",
+   "attachTo": "n-rtr-0043",
+   "lines": [
+    57,
+    59,
+    461,
+    497,
+    733,
+    887,
+    798,
+    787
+   ]
+  },
+  {
+   "cid": "G3-003",
+   "theme": "인도 금융사 9월 분기 실적·예금",
+   "field": "fin",
+   "attachTo": "n-rtr-0217",
+   "lines": [
+    339,
+    499,
+    654,
+    1648,
+    1670,
+    1749,
+    1544
+   ]
+  },
+  {
+   "cid": "G3-004",
+   "theme": "코스피 급락·외국인 매도와 금융당국 긴급회의",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1034,
+    1398,
+    1407,
+    1314,
+    1325,
+    1333,
+    46
+   ]
+  },
+  {
+   "cid": "G3-005",
+   "theme": "월가 투자은행 딜·트레이딩 전망",
+   "field": "fin",
+   "attachTo": "n-rtr-0043",
+   "lines": [
+    719,
+    811,
+    837,
+    1138,
+    1863
+   ]
+  },
+  {
+   "cid": "G3-006",
+   "theme": "레버리지론·SRT·대출 매각 등 은행 신용 거래",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1791,
+    1817,
+    1556,
+    1859,
+    848
+   ]
+  },
+  {
+   "cid": "G3-007",
+   "theme": "페어팩스, IDBI은행 경영권 인수",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    568,
+    1115,
+    1228,
+    1278,
+    1786
+   ]
+  },
+  {
+   "cid": "G3-008",
+   "theme": "중국 증시 조정·ETF 거래 급증(개입 추정)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1199,
+    1304,
+    1358,
+    44,
+    45
+   ]
+  },
+  {
+   "cid": "G3-009",
+   "theme": "크립토 파생·무기한 선물 확산(하이퍼리퀴드·리플)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    723,
+    1399,
+    1444,
+    1613,
+    1836
+   ]
+  },
+  {
+   "cid": "G3-010",
+   "theme": "자산운용사 3분기 실적·자금 유입(블랙록 등)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    419,
+    679,
+    267,
+    1342
+   ]
+  },
+  {
+   "cid": "G3-011",
+   "theme": "UBS 본사 해외 이전 검토·스위스 자본규제",
+   "field": "fin",
+   "attachTo": "n-rtr-0193",
+   "lines": [
+    1330,
+    1414,
+    1907,
+    1713
+   ]
+  },
+  {
+   "cid": "G3-012",
+   "theme": "사모신용 스트레스·은행 대출 축소",
+   "field": "fin",
+   "attachTo": "n-bbg-0116",
+   "lines": [
+    756,
+    827,
+    964,
+    1937
+   ]
+  },
+  {
+   "cid": "G3-013",
+   "theme": "인도 SEBI 규제 개편(소형 IPO·파생 결제)",
+   "field": "fin",
+   "attachTo": "n-bbg-0231",
+   "lines": [
+    474,
+    737,
+    1583,
+    1918
+   ]
+  },
+  {
+   "cid": "G3-014",
+   "theme": "일본 기관·국부펀드 채권 배분 변화",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1747,
+    921,
+    451,
+    1396
+   ]
+  },
+  {
+   "cid": "G3-015",
+   "theme": "유럽 명품·주류 실적(쿠치넬리·페르노리카·샤넬)",
+   "field": "consumer",
+   "attachTo": "n-bbg-0237",
+   "lines": [
+    1852,
+    1293,
+    1603,
+    1355
+   ]
+  },
+  {
+   "cid": "G3-016",
+   "theme": "BofA 규제 위반 여파·인력 이탈",
+   "field": "fin",
+   "attachTo": "n-rtr-0300",
+   "lines": [
+    692,
+    707,
+    957
+   ]
+  },
+  {
+   "cid": "G3-017",
+   "theme": "미 은행 감독 제재·디뱅킹 조사",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    825,
+    933,
+    1788
+   ]
+  },
+  {
+   "cid": "G3-018",
+   "theme": "영국 은행세 인상 추진",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1436,
+    1866,
+    1951
+   ]
+  },
+  {
+   "cid": "G3-019",
+   "theme": "금융감독기구 AI 위험·FSB 개편",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1795,
+    1920,
+    885
+   ]
+  },
+  {
+   "cid": "G3-020",
+   "theme": "소형 IPO 조작 단속(홍콩·미국)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    311,
+    930,
+    1722
+   ]
+  },
+  {
+   "cid": "G3-021",
+   "theme": "예측시장 확대·규제(Cboe·선거 베팅·대만 차단)",
+   "field": "fin",
+   "attachTo": "n-rtr-0031",
+   "lines": [
+    755,
+    877,
+    1566
+   ]
+  },
+  {
+   "cid": "G3-022",
+   "theme": "미 연말 쇼핑 전망·장난감값 급등",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    1781,
+    1809,
+    1509
+   ]
+  },
+  {
+   "cid": "G3-023",
+   "theme": "펩시코 악재: KFC 코카콜라로 교체·인도 에너지음료 금지",
+   "field": "consumer",
+   "attachTo": "n-rtr-0035",
+   "lines": [
+    1966,
+    1981,
+    1856
+   ]
+  },
+  {
+   "cid": "G3-024",
+   "theme": "영국 소비·유통 기업 실적(던엘름·THG·엔테인)",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    1339,
+    1393,
+    1375
+   ]
+  },
+  {
+   "cid": "G3-025",
+   "theme": "영국 수도회사 요금 삭감·템스워터 추가 긴급자금",
+   "field": "other",
+   "attachTo": "n-bbg-0252",
+   "lines": [
+    248,
+    301,
+    1796
+   ]
+  },
+  {
+   "cid": "G3-026",
+   "theme": "인도 소비재 실적·마진 압박",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    315,
+    1627
+   ]
+  },
+  {
+   "cid": "G3-027",
+   "theme": "유럽 유통 사이버공격 피해",
+   "field": "consumer",
+   "attachTo": "n-rtr-0230",
+   "lines": [
+    436,
+    1799
+   ]
+  },
+  {
+   "cid": "G3-028",
+   "theme": "오바마케어 가입자 감소·보조금 삭감",
+   "field": "other",
+   "attachTo": "",
+   "lines": [
+    688,
+    832
+   ]
+  },
+  {
+   "cid": "G3-029",
+   "theme": "걸프 자본 대형 부동산 개발(시리아·두바이)",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    458,
+    1721
+   ]
+  },
+  {
+   "cid": "G3-030",
+   "theme": "MSCI, 인도네시아 신흥시장 지위 강등 검토",
+   "field": "fin",
+   "attachTo": "n-rtr-0181",
+   "lines": [
+    2029,
+    2075
+   ]
+  },
+  {
+   "cid": "G3-031",
+   "theme": "핀테크 램프, 600억 달러 가치로 투자 유치",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1500,
+    1624
+   ]
+  },
+  {
+   "cid": "G3-032",
+   "theme": "사모펀드 회수 경로",
+   "field": "fin",
+   "attachTo": "n-bbg-0205",
+   "lines": [
+    636
+   ]
+  },
+  {
+   "cid": "G3-033",
+   "theme": "유니크레디트, 코메르츠방크 지배 ECB 승인",
+   "field": "fin",
+   "attachTo": "n-rtr-0246",
+   "lines": [
+    1962
+   ]
+  },
+  {
+   "cid": "G3-034",
+   "theme": "MPS 인수전 의결권 자문",
+   "field": "fin",
+   "attachTo": "n-rtr-0054",
+   "lines": [
+    739
+   ]
+  },
+  {
+   "cid": "G3-035",
+   "theme": "인도 대법원, 예스은행 AT1 상각 위법 판결",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1921
+   ]
+  },
+  {
+   "cid": "G3-036",
+   "theme": "단고테 IPO 아프리카 시장 접근",
+   "field": "fin",
+   "attachTo": "n-rtr-0159",
+   "lines": [
+    1487
+   ]
+  },
+  {
+   "cid": "G3-037",
+   "theme": "나스닥 네트워크 장애로 미 주식 시세 차질",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1928
+   ]
+  },
+  {
+   "cid": "G3-038",
+   "theme": "도미노피자 3분기 어닝콜",
+   "field": "consumer",
+   "attachTo": "n-bbg-0285",
+   "lines": [
+    61
+   ]
+  },
+  {
+   "cid": "G3-039",
+   "theme": "킴벌리클라크 잠정 실적 예상 상회",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    1806
+   ]
+  },
+  {
+   "cid": "G3-040",
+   "theme": "드비어스 인수전에 리치몬트·시그넷 합류 협의",
+   "field": "consumer",
+   "attachTo": "n-rtr-0294",
+   "lines": [
+    1429
+   ]
+  },
+  {
+   "cid": "G3-041",
+   "theme": "프랑스 화장품 중국 통관 지연",
+   "field": "consumer",
+   "attachTo": "n-tg-0132",
+   "lines": [
+    601
+   ]
+  },
+  {
+   "cid": "G3-042",
+   "theme": "유나이티드헬스 3분기 어닝콜",
+   "field": "fin",
+   "attachTo": "n-bbg-0298",
+   "lines": [
+    55
+   ]
+  },
+  {
+   "cid": "G3-043",
+   "theme": "미 모기지 금리 7.5%·주택구매 6주째 부진",
+   "field": "realestate",
+   "attachTo": "n-bbg-0234",
+   "lines": [
+    465
+   ]
+  },
+  {
+   "cid": "G3-044",
+   "theme": "행동주의 아이레닉, 빅옐로 매각 압박",
+   "field": "realestate",
+   "attachTo": "n-bbg-0284",
+   "lines": [
+    1787
+   ]
+  },
+  {
+   "cid": "G3-045",
+   "theme": "뉴월드 채권 교환 결과",
+   "field": "fin",
+   "attachTo": "n-bbg-0269",
+   "lines": [
+    1037
+   ]
+  },
+  {
+   "cid": "G3-046",
+   "theme": "한국, 외국계 은행 채권 주선 감독 강화",
+   "field": "fin",
+   "attachTo": "n-bbg-0141",
+   "lines": [
+    1239
+   ]
+  },
+  {
+   "cid": "G3-047",
+   "theme": "브라질 대선 1차 뒤 외국인 자금 유입",
+   "field": "fin",
+   "attachTo": "n-rtr-0024",
+   "lines": [
+    73
+   ]
+  },
+  {
+   "cid": "G3-048",
+   "theme": "노르웨이 국부펀드 윤리 규정 개편",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    1690
+   ]
+  },
+  {
+   "cid": "G3-049",
+   "theme": "한국 금융사 16곳 해킹 피해 확인",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    256
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 1113,
+   "reason": "이미 다룸(n-tg-0286)"
+  },
+  {
+   "line": 175,
+   "reason": "이미 다룸(n-bbg-0266)"
+  },
+  {
+   "line": 777,
+   "reason": "이미 다룸(n-tg-0140)"
+  },
+  {
+   "line": 874,
+   "reason": "종목 순위 나열"
+  },
+  {
+   "line": 2004,
+   "reason": "종목 순위 나열"
+  },
+  {
+   "line": 260,
+   "reason": "시황 잡담"
+  },
+  {
+   "line": 855,
+   "reason": "여러 기업 단신 모음"
+  },
+  {
+   "line": 52,
+   "reason": "새 사실 없는 견해"
+  },
+  {
+   "line": 303,
+   "reason": "새 사실 없는 견해"
+  },
+  {
+   "line": 401,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 30,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 683,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1276,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 258,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 391,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 423,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 477,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 472,
+   "reason": "일상 인사 이동"
+  },
+  {
+   "line": 480,
+   "reason": "일상 인사 이동"
+  },
+  {
+   "line": 1965,
+   "reason": "일상 인사 이동"
+  },
+  {
+   "line": 765,
+   "reason": "일상 인사 이동"
+  },
+  {
+   "line": 717,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 722,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 735,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 761,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 804,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 836,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 915,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 927,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 939,
+   "reason": "지역 사건"
+  },
+  {
+   "line": 991,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1136,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 445,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 880,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1746,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1947,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 191,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 594,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 1401,
+   "reason": "새 사실 없는 견해"
+  },
+  {
+   "line": 402,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 1878,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1546,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 878,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1790,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1612,
+   "reason": "이미 다룬 흐름의 사소한 후속(n-bbg-0279)"
+  },
+  {
+   "line": 1543,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1783,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1602,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1380,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1678,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 742,
+   "reason": "행사·회의 안내"
+  },
+  {
+   "line": 448,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 123,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1344,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 515,
+   "reason": "지역 사건"
+  },
+  {
+   "line": 1665,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 8,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 570,
+   "reason": "작은 기업 소식"
+  },
+  {
+   "line": 354,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 819,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 833,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1897,
+   "reason": "작은 기업 소식"
+  },
+  {
+   "line": 1910,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1945,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 1524,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1356,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 1205,
+   "reason": "지역 사건"
+  },
+  {
+   "line": 63,
+   "reason": "작은 거래"
+  },
+  {
+   "line": 466,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 886,
+   "reason": "투자 관련성 낮음(스포츠)"
+  },
+  {
+   "line": 918,
+   "reason": "투자 관련성 낮음(스포츠)"
+  },
+  {
+   "line": 944,
+   "reason": "투자 관련성 낮음(스포츠)"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "n-rtr-0713",
+ "num": 713,
+ "key": "mix-G2-012-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:35:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/laboratory-operator-quest-reports-cyber-breach-affecting-patient-records-2026-10-22/",
+ "origTitle": "",
+ "headline": "PHP 결함에 세계 웹 70% 흔들려…AI 발견 취약점 급증 경고·일본 사이버공격 모의훈련",
+ "src": [
+  {
+   "o": "악시오스",
+   "d": "2026-10-22",
+   "u": "https://www.axios.com/2026/10/22/php-vulnerability-security-update-websites"
+  },
+  {
+   "o": "CNN",
+   "d": "2026-10-21",
+   "u": "https://www.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl"
+  },
+  {
+   "o": "포춘",
+   "d": "2026-10-21",
+   "u": "https://fortune.com/2026/10/21/ai-tools-discovered-the-php-vulnerability-that-could-take-down-70-of-the-internet-now-the-race-is-on-to-patch-it-before-ai-powered-hackers-attack/"
+  }
+ ],
+ "items": [
+  {
+   "t": "임상검사업체 퀘스트, 환자 기록 영향 준 사이버 침해 공개",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/litigation/laboratory-operator-quest-reports-cyber-breach-affecting-patient-records-2026-10-22/",
+   "s": "미국 임상검사업체 퀘스트 진단이 사이버 침해로 환자 기록이 영향을 받았다고 밝히면서 의료 데이터 보안 우려가 커졌다 (제목 기준)"
+  },
+  {
+   "t": "中 매체 'PHP 결함에 사이버 보안 역사상 가장 어두운 48시간'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-23",
+   "u": "https://t.me/HANAchina/70868",
+   "s": "중국 매체가 세계 웹의 70%를 받치는 코드가 무너져 월가가 망을 차단하고 중남미 은행 400곳이 AI 에이전트에 털렸다고 전하며 AI발 사이버 위기를 부각했다"
+  },
+  {
+   "t": "일본, PHP 결함이 세계 인터넷 뒤흔들자 사이버공격 모의훈련",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/media-telecom/japan-simulate-cyberattacks-php-flaws-roil-global-internet-2026-10-23/",
+   "s": "일본이 PHP 결함으로 세계 인터넷이 흔들리자 사이버공격 모의훈련에 나서면서 정부 차원의 대응 태세를 점검하기로 했다 (제목 기준)"
+  },
+  {
+   "t": "사이버 전문가들 'AI가 찾은 버그, 곧 새로운 장애 일으킬 수도'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/legal/litigation/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-2026-10-23/",
+   "s": "사이버 전문가들이 AI가 찾아낸 소프트웨어 버그가 곧 새로운 장애를 일으킬 수 있다고 경고하면서 PHP 사태가 되풀이될 위험을 지적했다 (제목 기준)"
+  },
+  {
+   "t": "AI가 소프트웨어 취약점이 빠르게 쏟아지는 시대 열어",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/ai-ushers-in-era-of-rapid-fire-software-vulnerabilities",
+   "s": "AI가 소프트웨어 취약점을 빠르게 찾아내는 시대를 열면서 기업과 정부의 보안 패치 부담이 커지고 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "PHP 결함에 세계 웹 70% 흔들려…AI 발견 취약점 급증 경고·일본 사이버공격 모의훈련",
+ "one": "AI가 찾아낸 PHP 결함 php2shell이 공개되며 세계 웹사이트들이 긴급 대응에 나섰다\n· PHP는 세계 웹사이트의 70%를 떠받치며 미국·영국 등에서 사이트 수십 곳이 일시 차단됐다\n· 클라우드플레어는 공개 2시간 만에 수십만 건의 공격 시도를 관측했다\n· 일본은 PHP 결함 혼란 속에 사이버공격 모의훈련을 벌이기로 했다\n· 전문가들은 AI가 찾은 버그가 곧 새로운 장애를 일으킬 수 있다고 경고했다\n· 미국 임상검사업체 퀘스트 진단은 사이버 침해로 환자 기록이 영향을 받았다고 공개했다",
+ "facts": [
+  "무엇이: PHP 재단이 약 14년간 숨어 있던 치명적 결함 2건(php2shell)을 공개·패치했고 미 NSA와 유럽 사이버보안청이 즉각 조치를 권고했다 [사실]",
+  "규모: PHP는 세계 웹사이트의 70%를 떠받치며, 클라우드플레어는 2시간 만에 수십만 건의 공격 시도를, 팔로알토는 잠재 취약 인스턴스 2,260만 개를 집계했다 [사실]",
+  "AI 역할: 오픈AI·구글 모델 등 AI 도구가 결함 발견에 핵심 역할을 했고, 전문가들은 AI가 찾은 버그가 새로운 장애를 부를 수 있다고 경고했다 [사실]",
+  "파장: 중국 매체는 월가가 긴급히 망 연결을 차단했고 중남미 은행 400곳이 AI 에이전트에 털렸다고 전했다 [채널]",
+  "대응: 다카이치 일본 총리는 필요하면 서비스 중단을 검토하라고 했고 일본은 사이버공격 모의훈련을 벌이며, 퀘스트 진단은 환자 기록 침해를 공개했다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "php2shell 공개·70%·공격 시도·AI 역할은 악시오스·CNN·포춘 검색 결과 요약으로 확인. 월가 망 차단·중남미 은행 400곳은 중국 매체 전언으로 확인 못 함, 일본 모의훈련·퀘스트 침해는 제목 기준",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "PHP 결함에 세계 웹사이트 일시 차단"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

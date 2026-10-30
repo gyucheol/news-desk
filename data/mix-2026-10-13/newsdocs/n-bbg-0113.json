@@ -1,0 +1,80 @@
+{
+ "basis": "partial",
+ "check": "HCL테크 실적 수치는 검색 결과 요약으로 확인. 예상치 하회 여부는 확인 못 함(포브스 인디아는 이익이 예상을 웃돌았다고 보도)",
+ "cycles": [],
+ "facts": [
+  "무엇이: HCL테크의 9월 분기 매출은 3,562억 루피(37억 2,400만 달러)로 전년보다 11.5% 늘었고 고정환율 기준 전분기보다 2.3% 늘었습니다 [사실]",
+  "예상비: HCL테크 매출은 시장 예상을 소폭 밑돌았습니다 [제목]",
+  "HCL 수익·AI: 순이익은 513억 2,000만 루피로 21.2% 늘었고 신규 수주 32억 6,000만 달러(27% 증가), 고급 AI 매출 2억 1,900만 달러(78% 증가)였으며 연간 고정환율 매출 증가율 전망은 2.5~4%입니다 [사실]",
+  "TCS: 순이익은 약 1,388억 루피로 15% 늘었지만 고정환율 매출은 전분기보다 0.5% 늘었습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 IT 2분기 엇갈린 성적…TCS 순익 15% 늘고 HCL테크 매출은 예상 소폭 하회",
+ "id": "n-bbg-0113",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "TCS, IT 수주 서서히 회복하며 순이익 예상 상회",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "인도 IT, 지정학·AI 위험에 4년째 약한 성장 예상",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/india-it-set-for-fourth-year-of-weak-growth-on-geopolitics-ai-risks"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "인도 TCS 주가 상승…해외 사업·AI 관련 성장에 투자자 환호",
+   "u": "https://www.reuters.com/world/india/indias-tcs-rises-investors-cheer-growth-international-business-ai-related-2026-10-09/"
+  },
+  {
+   "t": "인도 HCL테크, 2분기 매출 예상치 소폭 하회",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/india/indias-hcltech-marginally-misses-second-quarter-revenue-estimates-2026-10-12/"
+  }
+ ],
+ "key": "bnd-C053-2026-10-09",
+ "nodes": [],
+ "num": 113,
+ "one": "인도 IT 서비스 업체들의 9월 분기 실적이 나오면서 TCS는 순이익이 15% 늘었지만 고정환율 매출 증가가 0.5%에 그쳤고, HCL테크도 매출이 예상을 소폭 밑돈 반면 AI 매출은 78% 늘어 업종 저성장 속 AI 전환 효과가 시험받고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T01:01:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Zee Business",
+   "u": "https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Kotak Neo",
+   "u": "https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/"
+  },
+  {
+   "o": "Kotak Neo",
+   "d": "2026-10-12",
+   "u": "https://www.kotakneo.com/news/stocks/hcltech-q2-fy27-results-revenue-profit-and-deal-wins/"
+  },
+  {
+   "o": "InfotechLead",
+   "d": "2026-10-12",
+   "u": "https://infotechlead.com/software/hcltech-q2-fy27-results-ai-revenue-jumps-78-orders-reach-3-26-billion-as-hiring-rebounds-98785"
+  }
+ ],
+ "tags": [],
+ "title": "인도 IT 2분기 엇갈린 성적…TCS 순익 15% 늘고 HCL테크 매출은 예상 소폭 하회",
+ "updatedAt": "2026-10-13T08:47:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/tcs-profit-beats-estimates-after-it-deal-flow-slowly-picks-up"
+}

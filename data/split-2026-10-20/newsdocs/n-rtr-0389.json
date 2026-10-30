@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0389",
+ "num": 389,
+ "key": "split-G1-098-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-riyadh-airport-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "튀르키예·파키스탄·이집트·사우디, 후티 리야드 공항 공격 규탄",
+ "headline": "튀르키예·파키스탄·이집트·사우디, 후티 리야드 공항 공격 규탄",
+ "one": "튀르키예·파키스탄·이집트·사우디가 후티의 리야드 공항 공격을 함께 규탄하면서, 이집트가 사우디 방어 파병 권한 표결을 앞두는 등 사우디를 지원하는 역내 국가들의 공동 대응이 뚜렷해지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 튀르키예·파키스탄·이집트·사우디는 후티의 리야드 공항 공격을 규탄했다 [제목]",
+  "후속: 이집트 의회는 사우디 방어 파병 권한 표결을 10월 26일로 미뤘고 통과에는 재적 3분의 2 찬성이 필요하다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "튀르키예·파키스탄·이집트·사우디, 후티 리야드 공항 공격 규탄",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/asia-pacific/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-riyadh-airport-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "4개국 후티 리야드 공항 공격 공동 규탄, 수급 방향 없음"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "n-tg-0332",
+ "num": 332,
+ "key": "split-G1-013-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/69951",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "사우디·파키스탄·튀르키예 메카 방위협정 첫 발동…병력 배치 합의",
+ "headline": "사우디·파키스탄·튀르키예 메카 방위협정 첫 발동…병력 배치 합의",
+ "one": "사우디·파키스탄·튀르키예가 10월 6일 메카 방위협정을 처음 발동해 사우디에 병력을 배치하기로 합의했고, 13일 에르도안 대통령이 협정을 곧 튀르키예 의회에 보내겠다고 밝히면서 후티에 맞선 집단 방위 체제가 구체화되고 있다",
+ "facts": [
+  "무엇이: 사우디·파키스탄·튀르키예는 메카 방위협정을 처음 발동해 사우디에 병력을 배치하기로 합의했다 [채널]",
+  "튀르키예: 에르도안 대통령은 메카 협정을 곧 튀르키예 의회에 송부하겠다고 밝혔다 [제목]",
+  "방공: 사우디는 요격탄 재고 부족 속 튀르키예·파키스탄·유럽에 방공 지원을 요청했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 1건과 로이터 1건을 묶음. 메카 방위협정 발동은 알자지라 출처가 뒷받침하고, 에르도안 발언은 로이터 제목 기준",
+ "src": [
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-05",
+   "u": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+  },
+  {
+   "o": "Al Jazeera",
+   "d": "2026-10-06",
+   "u": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means"
+  }
+ ],
+ "items": [
+  {
+   "t": "사우디·파키스탄·튀르키예, 메카 방위협정 첫 발동…사우디에 병력 배치 합의",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-06",
+   "u": "https://t.me/HANAchina/69951",
+   "s": "사우디·파키스탄·튀르키예가 메카 방위협정을 처음 발동해 사우디에 병력을 배치하기로 합의하면서 후티에 맞선 집단 방위가 시작됐다"
+  },
+  {
+   "t": "에르도안 \"메카 협정, 곧 튀르키예 의회에 송부\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/middle-east/turkey-send-mecca-agreement-parliament-soon-erdogan-says-2026-10-12/",
+   "s": "에르도안 대통령이 메카 협정을 곧 튀르키예 의회에 보내겠다고 밝히면서 튀르키예의 사우디 방위 참여가 의회 절차를 밟게 됐다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "메카 방위협정 발동으로 사우디에 병력 배치 합의"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0412",
+ "num": 412,
+ "key": "split-G2-086-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/britain-has-a-renewable-energy-edge-as-europe-braces-for-winter",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "겨울 대비하는 유럽 속 영국은 재생에너지 우위",
+ "headline": "겨울 대비하는 유럽 속 영국은 재생에너지 우위",
+ "one": "유럽이 높은 에너지값 속에 겨울 부담에 대비하는 가운데 영국은 재생에너지 덕에 상대적으로 유리한 위치에 있어, 가스값 급등이 전력값으로 번지는 충격을 덜 받을 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 겨울을 대비하는 유럽 가운데 영국이 재생에너지 덕에 상대적 우위에 있다고 짚었다 [제목]",
+  "영국 대응: 영국 오프젬은 시장안정 부담금 재가동을 추진한다 [사실]",
+  "의미: 재생에너지 비중이 높을수록 가스값 급등이 전력값으로 번지는 정도가 작을 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "겨울 대비하는 유럽 속 영국은 재생에너지 우위",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/britain-has-a-renewable-energy-edge-as-europe-braces-for-winter"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "wind",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국, 재생에너지 덕에 겨울 대비 상대적 우위"
+  }
+ ]
+}

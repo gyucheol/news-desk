@@ -1,0 +1,81 @@
+{
+ "id": "n-rtr-0345",
+ "num": 345,
+ "key": "mix-G4-035-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T20:01:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/central-ukrainian-region-hit-by-vast-drone-attack-killing-three-2026-10-15/",
+ "origTitle": "",
+ "headline": "우크라, 러 공군기지 미사일 타격 Su-34M 6대 피해…도네츠크 영토 탈환 주장",
+ "src": [
+  {
+   "o": "TVP World",
+   "d": "2026-10-15",
+   "u": "https://tvpworld.com/95941085/ukraine-says-it-damaged-six-russian-military-jets-in-missile-strike-on-airfield"
+  },
+  {
+   "o": "Eurasia Review",
+   "d": "2026-10-15",
+   "u": "https://www.eurasiareview.com/15102026-ukraine-takes-out-six-russian-fighter-jets-in-one-strike/"
+  }
+ ],
+ "items": [
+  {
+   "t": "우크라이나 중부, 대규모 드론 공격에 3명 사망",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/central-ukrainian-region-hit-by-vast-drone-attack-killing-three-2026-10-15/",
+   "s": "러시아의 대규모 드론 공격이 우크라이나 중부 지역을 덮쳐 3명이 숨지면서, 민간 피해가 다시 커졌다 (제목 기준)"
+  },
+  {
+   "t": "우크라이나 \"도네츠크 반격으로 영토 추가 해방\"",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/ukraine-says-it-frees-more-territory-donetsk-region-counteroffensive-2026-10-14/",
+   "s": "우크라이나가 도네츠크주 반격에서 영토를 더 되찾았다고 밝히면서, 동부 전선의 공방이 거세지고 있다 (제목 기준)"
+  },
+  {
+   "t": "우크라 \"비행장 미사일 타격으로 러 군용기 6대 손상\"",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/ukraine-says-it-damaged-six-russian-military-jets-missile-strike-airfield-2026-10-15/",
+   "s": "우크라이나가 넵튠 미사일로 보리소글렙스크 비행장을 타격해 Su-34M 6대에 피해를 줬다고 밝혀, 러시아 공군 전력에 타격이 될 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "우크라, 러 공군기지 미사일 타격 Su-34M 6대 피해…도네츠크 영토 탈환 주장",
+ "one": "우크라이나가 넵튠 미사일로 러시아 보로네시주 보리소글렙스크 비행장을 타격해 Su-34M 전폭기 6대에 피해를 줬다고 밝히고 도네츠크에서 영토를 더 되찾았다고 하면서, 러시아의 대규모 드론 공세와 맞물려 양측 공방이 거세지고 있다",
+ "facts": [
+  "무엇이: 우크라이나 총참모부는 10월 14~15일 밤 보로네시주 보리소글렙스크 비행장을 공격해 Su-34M 6대에 정도가 다른 피해를 확인했다고 밝혔다 [사실]",
+  "무기·검증: 해군은 넵튠 해안 미사일 체계를 썼다고 했고, 피해는 독립적으로 확인되지 않았다 [사실]",
+  "반격: 우크라이나는 도네츠크주 반격에서 영토를 더 해방했다고 밝혔다 [제목]",
+  "피해: 우크라이나 중부 지역이 대규모 드론 공격을 받아 3명이 숨졌다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(TVP World·Al Arabiya·Eurasia Review): Su-34M 6대 피해 주장, 넵튠 사용, 독립 확인 안 됨. 도네츠크 반격과 중부 드론 공격은 제목 기준",
+ "added": "이번 로이터 1건으로 우크라이나가 넵튠 미사일로 러시아 비행장을 타격해 Su-34M 6대에 피해를 줬다는 주장이 추가됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "러 Su-34M 6대 피해 주장, 독립 확인 안 됨"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

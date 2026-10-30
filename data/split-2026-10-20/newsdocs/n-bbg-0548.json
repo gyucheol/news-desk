@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0548",
+ "num": 548,
+ "key": "split-G5-063-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/brazil-economists-cut-selic-bets-as-bolsonaro-leads-runoff-polls",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "보우소나루 결선 선두에 브라질 셀릭 전망 13.25%로 하향…물가 전망 5.22%",
+ "headline": "보우소나루 결선 선두에 브라질 셀릭 전망 13.25%로 하향…물가 전망 5.22%",
+ "one": "보우소나루가 결선 여론조사 선두에 서자 브라질 이코노미스트들이 연말 셀릭 금리 전망을 13.50%에서 13.25%로 낮추고 물가 전망은 5.22%로 올리면서, 11월 초 금리 결정을 앞두고 인하 기대가 커졌다",
+ "facts": [
+  "무엇이: 브라질 이코노미스트들은 보우소나루의 결선 여론조사 선두 뒤 연말 셀릭 금리 전망을 13.50%에서 13.25%로 낮췄다 [사실]",
+  "물가: 같은 조사에서 물가 전망은 5.22%로 올랐다 [사실]",
+  "금리 현황: 셀릭 금리는 9월 0.25%포인트 인하로 13.75%이며 다음 결정은 11월 초다 [사실]",
+  "엇갈린 신호: 금리 인하 기대는 커졌지만 물가 전망은 오히려 높아졌다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 셀릭 전망 하향과 물가 전망 5.22%, 현재 금리 13.75%는 검색 결과 요약(리우타임스 포커스 조사 보도 등)으로 확인했다.",
+ "src": [
+  {
+   "o": "The Rio Times",
+   "d": "2026-10-13",
+   "u": "https://www.riotimesonline.com/brazil-focus-inflation-forecast-5-22-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "보우소나루 결선 여론조사 선두에 브라질 분석가들 기준금리 전망 낮춰",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/brazil-economists-cut-selic-bets-as-bolsonaro-leads-runoff-polls"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "연말 셀릭 전망 13.50%에서 13.25%로 하향"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "물가 전망 5.22%로 상향"
+  }
+ ]
+}

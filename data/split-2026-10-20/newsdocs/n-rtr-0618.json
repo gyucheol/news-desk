@@ -1,0 +1,55 @@
+{
+ "id": "n-rtr-0618",
+ "num": 618,
+ "key": "split-G6-109-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:12:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "세계 전기차 판매 9월 215만 대로 2% 감소…6개월 연속 증가 끝나",
+ "headline": "세계 전기차 판매 9월 215만 대로 2% 감소…6개월 연속 증가 끝나",
+ "one": "벤치마크 집계로 9월 세계 전기차 판매가 215만 대로 2% 줄어 6개월 연속 증가가 끝나면서, 유럽은 약 60만 대로 사상 최대였지만 북미 44%, 중국 18% 감소가 전체를 끌어내렸다",
+ "facts": [
+  "무엇이: 벤치마크 집계로 9월 세계 전기차 판매는 215만 대로 1년 전보다 2% 줄어 6개월 연속 증가가 끝났다(10월 16일 로이터) [사실]",
+  "지역: 유럽은 약 60만 대로 사상 최대였지만 북미는 44%, 중국은 18% 줄었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 16일)이다. 세계 판매 2% 감소와 6개월 연속 증가 마감은 WBOW 보도로 확인했다.",
+ "src": [
+  {
+   "o": "WBOW",
+   "d": "2026-10-15",
+   "u": "https://1027wbow.com/2026/10/15/global-ev-sales-fall-2-in-september-ending-six-month-growth-streak/"
+  }
+ ],
+ "items": [
+  {
+   "t": "세계 전기차 판매 9월 2% 감소, 6개월 연속 증가 끝나",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/autos-transportation/global-ev-sales-fall-2-september-ending-six-month-growth-streak-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "9월 세계 전기차 판매 215만 대로 2% 감소"
+  }
+ ]
+}

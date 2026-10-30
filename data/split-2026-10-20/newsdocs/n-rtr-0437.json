@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0437",
+ "num": 437,
+ "key": "split-G2-094-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/india-shelves-coal-import-mandate-power-plants-bloomberg-news-reports-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "인도, 발전소에 부과한 석탄 수입 의무 보류",
+ "headline": "인도, 발전소에 부과한 석탄 수입 의무 보류",
+ "one": "인도 정부가 발전소에 물렸던 석탄 수입 의무를 보류하면서 발전사의 수입탄 구매 부담이 줄어들 수 있고, 중국 발전용 석탄값이 3년 만에 톤당 1,000위안을 넘은 가운데 인도의 수입탄 수요도 덜 늘 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 인도 정부가 발전소에 부과한 석탄 수입 의무를 보류했다고 블룸버그가 보도했다 [제목]",
+  "영향: 발전사가 수입탄을 의무적으로 사들일 필요가 없어져 수입 수요가 약해질 수 있다 [추론]",
+  "배경: 중국 발전용 석탄값은 3년 만에 톤당 1,000위안을 넘었다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서는 인도 석탄 수입 의무 보류를 제목 기준으로 분류",
+ "src": [],
+ "items": [
+  {
+   "t": "인도, 발전소에 부과한 석탄 수입 의무 보류(블룸버그 보도)",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/energy/india-shelves-coal-import-mandate-power-plants-bloomberg-news-reports-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/trade",
+  "coal/policy"
+ ],
+ "vc": [
+  {
+   "ind": "coal",
+   "node": "trade",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "인도 발전소 석탄 수입 의무 보류"
+  }
+ ]
+}

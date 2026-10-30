@@ -1,0 +1,62 @@
+{
+ "basis": "title",
+ "check": "검색하지 않음, 제재 해제는 기사 제목만 근거. 기존 문서 사실은 기존 한줄 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미국이 미얀마 군부와 연계된 사업가의 딸에 대한 제재를 해제했습니다 [제목]",
+  "기존: 미국은 2021년 쿠데타 이후 고립 정책을 뒤집고 9월 네피도에서 민아웅흘라잉과 회담하며 군부와 직접 대화를 시작했습니다 [사실]",
+  "의제: 대화는 미국인 억류 석방과 사기 단지 단속에서 시작됐고 중희토류 접근도 논의됐습니다 [사실]",
+  "영향: 이번 해제가 더 넓은 제재 완화로 이어질지는 지켜봐야 합니다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미얀마 군부와 대화 튼 미국, {{군부 연계 사업가 딸}} 제재 해제",
+ "id": "n-rtr-0118",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "미국, 미얀마 군부와 직접 대화 시작…수년간 고립 정책 뒤집어",
+   "u": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/"
+  },
+  {
+   "t": "미국, 미얀마 군부 연계 사업가의 딸 제재 해제",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/world/asia-pacific/us-lifts-sanctions-daughter-myanmar-military-linked-businessman-2026-10-09/",
+   "s": "{{미국}}이 미얀마 군부 연계 사업가의 딸을 제재 명단에서 빼면서 군부와의 대화가 {{제재 완화 조치}}로 이어지기 시작했다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C268-2026-10-09",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 118,
+ "one": "미국이 수년간의 미얀마 군부 고립 정책을 뒤집고 장성들과 직접 대화를 시작한 데 이어 {{군부 연계 사업가의 딸}}에 대한 제재를 풀면서, {{대미얀마 제재}} 완화와 희토류 등 경제 관계 변화가 이어질 수 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T01:45:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Bangkok Post",
+   "u": "https://www.bangkokpost.com/world/3333614/us-opens-direct-talks-with-myanmar"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "Modern Diplomacy",
+   "u": "https://moderndiplomacy.eu/2026/10/08/why-is-washington-talking-directly-to-myanmars-military-government/"
+  }
+ ],
+ "tags": [],
+ "title": "미얀마 군부와 대화 튼 미국, {{군부 연계 사업가 딸}} 제재 해제",
+ "url": "https://www.reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/",
+ "added": "이번 로이터 1건으로 미국이 {{군부 연계 사업가 딸}}의 제재를 풀어 대화 국면이 {{실제 제재 완화}}로 이어지기 시작했다는 점이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

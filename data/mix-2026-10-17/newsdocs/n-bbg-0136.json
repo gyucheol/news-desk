@@ -1,0 +1,116 @@
+{
+ "added": "이번 블룸버그 1건으로 팔란티어·애플·MS의 민주당 인사 영입과 기업들의 소환장 대비 내부 문서 점검, 백악관 연회장 기부 조사 가능성이 추가됐다",
+ "basis": "partial",
+ "check": "인사 영입·문서 점검·기부 내역은 검색 결과 요약으로 확인했으나 대부분 블룸버그를 인용한 2차 보도이며, 민주당의 조사 대상 명단은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 팔란티어·애플·마이크로소프트는 민주당이 11월 하원을 되찾을 경우에 대비해 마크 베기치 전 상원의원 등 민주당 인사를 영입하고 있다 [사실]",
+  "준비: 이민 단속 관련 계약을 따거나 대통령 역점 사업에 돈을 댄 기업들은 소환장에 대비해 내부 문서를 점검하는 것으로 전해졌다 [사실]",
+  "기부: 애플은 백악관 연회장 사업에 2,500만 달러, 마이크로소프트는 1,000만 달러를 낸 것으로 전해졌고, 민주당 의원들은 아마존·애플·메타·MS·엔비디아 등에 기부 관련 서한을 보냈다 [사실]",
+  "조사 범위: 정부의 기업 지분 투자 합의, 약가 인하, 관세 면제 등이 조사 대상으로 거론된다 [사실]",
+  "기존: 민주당이 상·하원 중 한 곳이라도 이기면 소환권과 기관장·CEO 증언 요구 권한을 얻는다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "팔란티어·애플·MS, 민주당 의회 공세 대비…민주당 인사 영입·내부 문서 점검",
+ "id": "n-bbg-0136",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "aero",
+  "fin",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "중간선거, 미 방산 투자자들에게 시험대 될 수도",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/midterm-elections-are-potential-test-for-us-defense-investors"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "미 중간선거 임박에 AI 인기주·방산주가 가장 위험",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-darlings-defense-shares-most-at-risk-as-us-midterms-near"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "s": "{{민주당}}이 {{중간선거}}에서 {{한 원이라도 이기면}} {{소환권}}을 쥐고 월가의 {{AI 자금 역할}}과 {{트럼프 일가 암호화폐 관계}}를 {{조사}}할 수 있어 {{월가·암호화폐 업계}}의 {{규제 부담}}이 커질 수 있다",
+   "t": "민주당 중간선거 승리 땐 월가·암호화폐 업계 감독 강화 가능성",
+   "u": "https://www.reuters.com/legal/government/democratic-midterm-wins-could-bring-scrutiny-wall-street-crypto-firms-2026-10-13/"
+  },
+  {
+   "t": "팔란티어·애플·마이크로소프트, 민주당 공세에 대비",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/palantir-apple-microsoft-brace-for-democrats-to-go-on-offensive",
+   "s": "팔란티어·애플·마이크로소프트가 민주당의 하원 탈환과 소환장 공세에 대비해 민주당 출신 인사를 영입하면서, 빅테크의 의회 조사 대응이 본격화했다"
+  }
+ ],
+ "key": "bnd-C094-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/semis"
+ ],
+ "num": 136,
+ "one": "중간선거에서 민주당이 한 원만 이겨도 소환권을 얻을 수 있게 되자 팔란티어·애플·마이크로소프트가 민주당 출신 인사를 영입하고 관련 기업들이 내부 문서를 점검하면서, AI·빅테크 업계의 의회 조사 부담이 커질 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-17",
+ "published": "2026-10-16T20:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-09-24",
+   "o": "Advisor Perspectives",
+   "u": "https://www.advisorperspectives.com/articles/2026/09/24/ai-trade-key-concern-stock-investors-election-risks"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "Futu 뉴스(차이롄)",
+   "u": "https://news.futunn.com/en/post/1000760817/less-than-a-month-until-the-midterm-elections-will-these"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "The Crypto Times",
+   "u": "https://www.cryptotimes.io/2026/10/13/trumps-crypto-ties-could-face-congressional-probes-if-democrats-win/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "crypto.news",
+   "u": "https://crypto.news/clarity-act-democrat-committee-chairs-crypto-regulation/"
+  },
+  {
+   "o": "Briefs",
+   "d": "2026-10-16",
+   "u": "https://www.briefs.co/news/corporations-brace-for-democratic-oversight-of-trump-era-tie/"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-16",
+   "u": "https://news.futunn.com/en/post/1001398598/is-a-reckoning-risk-looming-control-of-congress-may-shift"
+  },
+  {
+   "o": "IBTimes UK",
+   "d": "2026-10-16",
+   "u": "https://www.ibtimes.co.uk/tech-companies-trump-ballroom-donations-house-subpoenas-1825550"
+  }
+ ],
+ "tags": [],
+ "title": "팔란티어·애플·MS, 민주당 의회 공세 대비…민주당 인사 영입·내부 문서 점검",
+ "updatedAt": "2026-10-17T11:49:34+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/midterm-elections-are-potential-test-for-us-defense-investors",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "민주당 조사 대비 인사 영입, 수급 영향은 불분명"
+  }
+ ]
+}

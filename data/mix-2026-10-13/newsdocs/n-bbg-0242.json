@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0242",
+ "num": 242,
+ "key": "mix-C065-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T08:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/bond-selloff-may-mean-fewer-rate-hikes-from-global-central-banks",
+ "origTitle": "",
+ "headline": "국채 매도에 중앙은행 인상 횟수 줄 수도…2027년 앞두고 고금리 세계 예고",
+ "src": [],
+ "items": [
+  {
+   "t": "국채 매도세로 글로벌 중앙은행 금리 인상 줄어들 수도",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/bond-selloff-may-mean-fewer-rate-hikes-from-global-central-banks"
+  },
+  {
+   "t": "중앙은행들 2027년 다가서며 고금리 세계가 기다린다",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/a-higher-rate-world-is-in-store-as-central-banks-approach-2027"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/rates"
+ ],
+ "title": "국채 매도에 중앙은행 인상 횟수 줄 수도…2027년 앞두고 고금리 세계 예고",
+ "one": "글로벌 국채 매도로 시장금리가 먼저 뛰면서 각국 중앙은행의 추가 금리 인상은 줄어들 수 있지만, 2027년을 앞두고 높은 금리가 오래 이어지는 세계가 기다리고 있어 차입 비용 부담은 쉽게 줄지 않을 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 국채 매도세로 글로벌 중앙은행의 금리 인상이 줄어들 수 있다는 분석이 나왔습니다 [제목]",
+  "전망: 중앙은행들이 2027년에 다가서면서 고금리 세계가 기다리고 있다는 전망이 제시됐습니다 [제목]",
+  "연결: 시장금리 상승이 긴축 효과를 대신해 정책금리 인상 필요를 줄이는 구도로 읽힙니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 미실시(한도 배분). 블룸버그 제목 2건 기준",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

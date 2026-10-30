@@ -1,0 +1,72 @@
+{
+ "basis": "title",
+ "check": "검색 한도 소진으로 새 기사는 독립 확인 못 함. 기존 문서 한줄과 새 기사 제목을 근거로 작성",
+ "cycles": [],
+ "dupOf": "n-bbg-0007",
+ "facts": [
+  "무엇이: 인도 최대 발전사 NTPC가 민간 석탄 구매를 늘릴 계획이라고 소식통이 전했다 [제목]",
+  "기존: 10월 2일 기준 석탄발전소 191곳 가운데 절반 가까이의 재고가 권장량의 25%에도 못 미친다 [사실]",
+  "영향: 수력·풍력이 부진한 저녁 시간대 정전 위험이 커지고 있다 [사실]",
+  "남은 점: 추가 구매 물량과 수입탄 비중은 확인하지 못했다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도 석탄발전 재고 '위험 수준'…최대 발전사 NTPC, 민간 석탄 구매 확대",
+ "id": "n-bbg-0094",
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "insight": {},
+ "key": "bbg-1007-india-coal-reserves-blackout",
+ "nodes": [
+  "coal/power",
+  "coal/thermal"
+ ],
+ "num": 94,
+ "one": "인도 석탄발전소 191곳 중 절반 가까이의 재고가 권장량의 25%에도 못 미치자 최대 발전사 NTPC가 민간에서 사들이는 석탄을 늘리기로 하면서, 저녁 시간대 정전 위험을 줄이려는 수요가 민간 석탄 공급처로 옮겨갈 수 있다 (제목 기준)",
+ "origTitle": "Indian Power Plants’ Depleted Coal Reserves Raise Blackout Risk",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T01:08:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "d": "2026-10-05",
+   "o": "Briefs(블룸버그·계통운영기관 자료 인용)",
+   "u": "https://www.briefs.co/news/india-s-power-shortfall-deepens-as-wind-slows-and-reservoirs/"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "컨스트럭션월드",
+   "u": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/indias-peak-power-demand-eases-as-coal-stocks-stay-critical/98041"
+  },
+  {
+   "d": "2026-10-04",
+   "o": "디스커버리얼러트",
+   "u": "https://discoveryalert.com/analysis/india-power-crunch-2026-grid-timing/"
+  }
+ ],
+ "tags": [],
+ "title": "인도 석탄발전 재고 '위험 수준'…최대 발전사 NTPC, 민간 석탄 구매 확대",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk",
+ "items": [
+  {
+   "t": "인도 석탄발전소 절반 가까이 재고 '위험 수준'…정전 위험 커져",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/indian-power-plants-depleted-coal-reserves-raise-blackout-risk"
+  },
+  {
+   "t": "인도 최대 발전사, 민간 석탄 구매 확대 계획",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-06/"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

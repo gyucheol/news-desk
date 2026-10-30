@@ -1,0 +1,58 @@
+{
+ "basis": "title",
+ "check": "블룸버그(WSJ 인용)·로이터 기사 2건을 KKR의 인피니티 매각으로 묶었다. 독립 출처로 확인하지 못해 기사 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: KKR이 철도차량 리스사 인피니티를 아레스에 29억 달러에 판다 [제목]",
+  "보도 경로: 블룸버그는 WSJ를 인용해 아레스의 인수로 전했고, 로이터는 KKR의 매각으로 전했다 [제목]",
+  "의미: 사모펀드 사이에서 실물 리스 자산이 손바뀜했고, KKR은 보유 자산 회수에 나섰다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "KKR, 철도차량 리스사 인피니티 아레스에 29억 달러에 매각…사모펀드 간 실물 리스 자산 손바뀜",
+ "id": "n-bbg-0545",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "WSJ \"아레스, KKR서 철도 리스사 인피니티 29억 달러에 인수\"",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/ares-buys-rail-leasing-firm-infinity-from-kkr-for-2-9-billion",
+   "s": "아레스가 KKR로부터 철도차량 리스사 인피니티를 29억 달러에 사들이면서 사모펀드 사이에서 실물 리스 자산이 손바뀜했다 (제목 기준)"
+  },
+  {
+   "t": "KKR, 철도차량 리스사 인피니티 아레스에 29억 달러에 매각",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/kkr-sell-railcar-leasing-company-infinity-ares-29-billion-2026-10-19/",
+   "s": "KKR이 철도차량 리스사 인피니티를 아레스에 29억 달러에 팔기로 하면서 보유 자산 회수에 나섰다 (제목 기준)"
+  }
+ ],
+ "key": "split-G5-049-2026-10-20",
+ "nodes": [],
+ "num": 545,
+ "one": "블룸버그가 WSJ를 인용해 아레스의 인수로, 로이터가 KKR의 매각으로 전한 바에 따르면 KKR이 철도차량 리스사 인피니티를 아레스에 29억 달러에 팔기로 하면서, 사모펀드 사이에서 실물 리스 자산이 손바뀜하고 KKR은 보유 자산 회수에 나섰다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T07:03:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "KKR, 철도차량 리스사 인피니티 아레스에 29억 달러에 매각…사모펀드 간 실물 리스 자산 손바뀜",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/ares-buys-rail-leasing-firm-infinity-from-kkr-for-2-9-billion",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "아레스, KKR서 철도 리스사 인피니티 29억 달러 인수"
+  }
+ ]
+}

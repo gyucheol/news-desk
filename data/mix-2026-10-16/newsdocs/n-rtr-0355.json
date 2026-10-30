@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0355",
+ "num": 355,
+ "key": "mix-G1-053-2026-10-16",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-16",
+ "published": "2026-10-16T08:41:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/japan-sidestep-35-defence-spending-target-despite-us-pressure-asahi-reports-2026-10-15/",
+ "origTitle": "",
+ "headline": "日, 美 요구한 방위비 GDP 3.5% 목표 명시 피할 듯…아사히 보도",
+ "src": [
+  {
+   "o": "아사히신문(야후재팬 전재)",
+   "d": "2026-10-16",
+   "u": "https://news.yahoo.co.jp/articles/b77fe6a26a32bc3aa8afa55c0312461a236fbe09"
+  },
+  {
+   "o": "닛케이",
+   "d": "2026-10-16",
+   "u": "https://www.nikkei.com/article/DGKKZO98928180U6A920C2EA1000/"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본, 미국 압박에도 방위비 3.5% 목표 피할 듯…아사히 보도",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-sidestep-35-defence-spending-target-despite-us-pressure-asahi-reports-2026-10-15/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "日, 美 요구한 방위비 GDP 3.5% 목표 명시 피할 듯…아사히 보도",
+ "one": "일본 정부가 연말 안보 3문서 개정에서 미국이 요구한 향후 5년 방위비 GDP 대비 3.5% 목표를 명시하지 않는 쪽으로 기울면서, 재정 부담 탓에 숫자 약속은 피하되 방위비는 크게 늘릴 전망이다",
+ "facts": [
+  "무엇이: 아사히신문은 일본 정부가 연말 안보 3문서 개정에서 미국이 요구한 방위비 GDP 대비 3.5% 목표를 명시하지 않는 방향으로 검토한다고 보도했다 [사실]",
+  "이유: 3.5% 명시를 피하는 배경에는 재정 사정이 있지만, 관련 경비를 포함한 방위비는 크게 늘릴 방침이며 정부 안에서는 연 10조 엔으로는 부족하다는 말도 나온다 [사실]",
+  "대안: 닛케이는 다카이치 총리가 5년 뒤 GDP 대비 목표 명시에 신중해졌고 참고치나 10년 이상 장기 목표안이 떠올랐다고 전했다 [사실]",
+  "기존: 9월에는 일본이 3.5% 목표를 검토한다는 보도가 나왔고, 3.5%를 맞추려면 현재 가격으로 연 24조 엔이 더 필요하다는 추산이 있었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 아사히 보도(야후재팬 전재)의 3.5% 명시 보류 검토와 방위비 대폭 증액 방침, 닛케이의 목표 명시 신중론, 9월 3.5% 검토 보도와 연 24조 엔 추산",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "방위비 3.5% 목표 명시 보류, 증액은 지속"
+  }
+ ]
+}

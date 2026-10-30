@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0692",
+ "num": 692,
+ "key": "mix-G2-077-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:02:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/kazakhstan-cuts-base-rate-by-50-basis-points-as-inflation-slows",
+ "origTitle": "",
+ "headline": "카자흐스탄, 물가 9.3%로 둔화에 기준금리 50bp 인하…15.75%로",
+ "src": [
+  {
+   "o": "The Astana Times",
+   "d": "2026-10-23",
+   "u": "https://astanatimes.com/2026/10/kazakhstan-cuts-base-rate-to-15-75-as-annual-inflation-falls-to-9-3/"
+  },
+  {
+   "o": "Kursiv",
+   "d": "2026-10-23",
+   "u": "https://kz.kursiv.media/en/2026-10-23/engk-nknk-kazakhstans-central-bank-cuts-base-rate-may-hold-it-steady-for-rest-of-year/"
+  }
+ ],
+ "items": [
+  {
+   "t": "카자흐스탄, 물가 둔화에 기준금리 50bp 인하",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/kazakhstan-cuts-base-rate-by-50-basis-points-as-inflation-slows"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "카자흐스탄, 물가 9.3%로 둔화에 기준금리 50bp 인하…15.75%로",
+ "one": "카자흐스탄 중앙은행이 10월 23일 물가 둔화에 기준금리를 50bp 내려 15.75%로 낮췄다\n· 9월 연간 물가상승률은 9.3%로 12개월 연속 낮아졌고 기대인플레이션도 11.8%로 내렸다\n· 시장은 25bp 인하를 예상했고 중앙은행은 연말까지 추가 변경 가능성이 낮다고 밝혔다",
+ "facts": [
+  "무엇이: 카자흐스탄 중앙은행이 10월 23일 기준금리를 16.25%에서 15.75%로 50bp 내렸다 [사실]",
+  "근거: 9월 연간 물가는 9.3%로 12개월 연속 둔화했고 12개월 기대인플레이션은 12.1%에서 11.8%로 내렸다 [사실]",
+  "전망: 2026년 말 물가 전망을 10%에서 9.5%로 낮췄고 연말까지 금리 변경 가능성은 낮다고 했으며 다음 결정은 12월 4일이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "The Astana Times·Qazinform·Kursiv 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "카자흐스탄 기준금리 50bp 인하해 15.75%"
+  }
+ ]
+}

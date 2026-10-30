@@ -1,0 +1,16 @@
+{"id": "agri", "summary": "",
+ "state": {
+  "weather": [{"d": "2026-10-17", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops", "nid": "n-bbg-0350", "t": "마하라슈트라·카르나타카 등 인도 주요 설탕 산지의 몬순 강우가 부진해, 인도설탕협회는 2026~27년 순 설탕 생산을 약 2,800만 톤으로 전년 3,100만 톤보다 적게 봤습니다 [사실]"}],
+  "demand": [{"d": "2026-10-16", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops", "nid": "n-bbg-0350", "t": "인도 국영 석유회사들이 약 110억 리터 에탄올 입찰에서 사탕수수즙·설탕시럽·B-헤비 당밀을 빼고 옥수수·싸라기·인도식량공사 잉여 쌀 원료로만 조달하기로 했습니다 [사실]"}]
+ },
+ "industryState": [
+  {"d": "2026-10-17", "kind": "supply", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops", "nid": "n-bbg-0350", "t": "인도설탕협회는 몬순 부진으로 2026~27년 인도 순 설탕 생산을 약 2,800만 톤으로 전년 3,100만 톤보다 약 300만 톤 적게 예상했습니다 [사실]"},
+  {"d": "2026-10-16", "kind": "policy", "o": "블룸버그", "u": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops", "nid": "n-bbg-0350", "t": "인도는 약 110억 리터 에탄올을 곡물 원료로만 입찰하면서 옥수수 에탄올 장려금을 리터당 5.79루피에서 2.79루피로 줄여 조달가를 71.86루피에서 68.86루피로 낮췄습니다 [사실]"}
+ ],
+ "flags": [],
+ "insight": {},
+ "cycle": null, "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 1건 반영: 인도 설탕 에탄올 전용 중단·곡물 원료 110억 리터 입찰, 2026~27년 설탕 생산 약 2,800만 톤 전망, 국면 그대로(④), 근거 2줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+ "applied": ["n-bbg-0350"],
+ "searches": 0, "fetches": 0}

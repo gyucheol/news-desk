@@ -1,0 +1,65 @@
+{
+ "id": "n-tg-0572",
+ "num": 572,
+ "key": "split-G3-128-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/TNBfolio/71562",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "가트너 \"AI 매출로 인프라 투자 회수 못 해…상각 4조 달러 넘을 수도\"",
+ "headline": "가트너 \"AI 매출로 인프라 투자 회수 못 해…상각 4조 달러 넘을 수도\"",
+ "one": "가트너가 2032년 이전엔 AI 매출로 설비투자를 수익성 있게 회수하기 어렵고 그때까지 자본 상각이 4조 달러를 넘을 수 있다고 분석하면서, AI 인프라 투자의 손상 위험이 부각됐다",
+ "facts": [
+  "무엇이: 가트너는 AI 인프라 투자가 대규모 상각에 노출될 수 있다고 경고했다 [사실]",
+  "수치: 채널 전언으로는 2032년 이전엔 AI 설비투자를 수익성 있게 회수하기 어렵고 그때까지 자본 상각이 4조 달러를 넘을 수 있다고 했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "TNBfolio 텔레그램 1건이다. 원 문서 확인 기록에 이 사건 부분은 없으나 원 문서 출처 가트너 보도자료(10월 14일)·TechTarget 기사가 AI 인프라 상각 경고를 다뤄 붙였고, 보도자료와 기간·금액이 다를 수 있어 2032년·4조 달러는 채널 전언으로 뒀다.",
+ "src": [
+  {
+   "o": "Gartner",
+   "d": "2026-10-14",
+   "u": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030"
+  },
+  {
+   "o": "TechTarget",
+   "d": "2026-10-14",
+   "u": "https://www.techtarget.com/it-infrastructure/news/366652181/Gartner-forecasts-massive-AI-infrastructure-write-downs"
+  }
+ ],
+ "items": [
+  {
+   "t": "가트너 'AI 매출로 인프라 투자 회수 못 해…상각 4조 달러 넘을 수도'",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-15",
+   "u": "https://t.me/TNBfolio/71562"
+  }
+ ],
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 인프라 상각 4조 달러 넘을 수도"
+  }
+ ],
+ "channel": "TNBfolio",
+ "ind": "semis"
+}

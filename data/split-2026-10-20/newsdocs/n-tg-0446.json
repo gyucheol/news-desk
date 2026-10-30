@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0446",
+ "num": 446,
+ "key": "split-G2-016-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63563",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 '연방 휘발유세 유예 검토'…휘발유 갤런당 4.37달러에 선거 앞 대응",
+ "headline": "트럼프 '연방 휘발유세 유예 검토'…휘발유 갤런당 4.37달러에 선거 앞 대응",
+ "one": "트럼프 대통령이 휘발유값이 갤런당 4.37달러에 이른 가운데 연방 휘발유세 유예를 검토한다고 밝히면서, 중간선거를 앞두고 세금으로 주유소 가격을 낮추는 방안이 거론되기 시작했다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 비용 부담을 덜기 위해 연방 휘발유세 유예를 검토한다고 말했다 [사실]",
+  "배경: 채널은 휘발유값이 갤런당 4.37달러에 이른 상황에서 선거를 앞둔 대응이라고 10월 7일 전했다 [채널]",
+  "의미: 유예가 실현되면 주유소 판매가를 일부 낮출 수 있지만 정유 공급 병목은 그대로 남는다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 Polaristimes 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 블룸버그·Transport Topics·뉴스위크 휘발유세 유예 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "o": "Transport Topics",
+   "d": "2026-10",
+   "u": "https://www.ttnews.com/articles/trump-gas-tax-suspension"
+  },
+  {
+   "o": "뉴스위크",
+   "d": "2026-10",
+   "u": "https://www.newsweek.com/trump-floats-gas-tax-cut-how-much-you-could-save-12533288"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-07",
+   "u": "https://t.me/The_MariTimes/63563"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "트럼프, 연방 휘발유세 유예 검토"
+  }
+ ],
+ "channel": "Polaristimes"
+}

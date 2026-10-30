@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 경향신문·신아일보 보도와 정책브리핑 사진 자료에서 10월 8일 HGV 첫 시험발사 참관과 성공 발표를 확인했다. 발사 장소는 보도가 엇갈려 쓰지 않았다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 이재명 대통령이 10월 8일 국방과학연구소의 극초음속 활공비행체(HGV) 최초 시험발사를 참관했다 [사실]",
+  "결과: 청와대는 목표 고도 상승, 추진체 분리, 불규칙 활공 뒤 목표점에 정확히 떨어졌다며 성공이라고 밝혔다 [사실]",
+  "이후: 참관 뒤 고위력 미사일 현무-5를 시찰했다 [사실]",
+  "의미: 국산 극초음속 무기 개발이 비행시험 단계에 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "이재명 대통령, 극초음속 미사일 시험 발사 참관",
+ "id": "n-rtr-0063",
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "한국 이재명 대통령, 극초음속 미사일 시험 발사 참관",
+   "u": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-oversees-test-fire-hypersonic-missile-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C211-2026-10-09",
+ "nodes": [],
+ "num": 63,
+ "one": "이재명 대통령이 10월 8일 국방과학연구소의 극초음속 활공비행체 첫 시험발사를 참관하고 청와대가 성공을 발표하면서, 국산 극초음속 무기 개발이 비행시험 단계에 들어섰다는 사실이 공개적으로 드러났다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T12:10:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "경향신문",
+   "d": "2026-10-08",
+   "u": "https://www.khan.co.kr/article/202610081740001"
+  },
+  {
+   "o": "대한민국 정책브리핑",
+   "d": "2026-10-08",
+   "u": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=73750"
+  }
+ ],
+ "tags": [],
+ "title": "이재명 대통령, 극초음속 미사일 시험 발사 참관",
+ "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-oversees-test-fire-hypersonic-missile-2026-10-08/"
+}

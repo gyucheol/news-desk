@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0708",
+ "num": 708,
+ "key": "mix-G1-104-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:11:00+09:00",
+ "url": "https://www.reuters.com/world/eu-opens-antitrust-investigation-paper-industry-supply-chain-2026-10-23/",
+ "origTitle": "",
+ "headline": "EU, 제지업계 공급망 반독점 조사…탄산칼슘 최대 공급사 옴야 배타 거래 혐의",
+ "src": [
+  {
+   "o": "European Commission",
+   "d": "2026-10-23",
+   "u": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_913/IP_26_913_EN.pdf"
+  },
+  {
+   "o": "EU Law Live",
+   "d": "2026-10-23",
+   "u": "https://eulawlive.com/commission-opens-antitrust-investigation-into-omyas-calcium-carbonate-supply-practices/"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU, 제지 산업 공급망에 대한 반독점 조사 착수",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/eu-opens-antitrust-investigation-paper-industry-supply-chain-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "EU, 제지업계 공급망 반독점 조사…탄산칼슘 최대 공급사 옴야 배타 거래 혐의",
+ "one": "EU 집행위원회가 제지업계에 탄산칼슘을 공급하는 스위스 옴야를 상대로 반독점 조사에 착수했다\n· 옴야가 배타적 구매 의무와 독점 리베이트로 경쟁 공급사를 막았는지가 쟁점이다\n· 집행위는 지배적 지위 남용 금지 조항에 따라 이 사건을 우선 처리한다고 밝혔다",
+ "facts": [
+  "무엇이: EU 집행위가 10월 23일 옴야의 제지업계용 탄산칼슘 공급 관행에 정식 반독점 조사를 열었다 [사실]",
+  "혐의: 고객사에 필요량 전부나 대부분을 자사에서 사도록 한 배타 구매 의무와 독점 리베이트다 [사실]",
+  "지위: 옴야는 유럽경제지역 최대 탄산칼슘 공급사로 지배적 지위에 있을 수 있다고 집행위는 봤다 [사실]",
+  "절차: 조사 개시는 결론을 예단하지 않으며 법정 종료 기한은 없다(사건번호 AT.40893) [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(EU 집행위 보도자료·EU Law Live)으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "탄산칼슘 공급 반독점 조사 착수, 수급 영향 미정"
+  }
+ ]
+}

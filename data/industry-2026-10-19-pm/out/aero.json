@@ -1,0 +1,64 @@
+{
+ "id": "aero",
+ "summary": "",
+ "state": {
+  "airports": [
+   {
+    "d": "2026-10-18",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace",
+    "nid": "n-bbg-0197",
+    "t": "러시아 공습 중 폴란드가 루블린·제슈프 공항을 예방 차원에서 일시 닫았고, 리투아니아는 미확인 비행체 탐지로 카우나스 공항을 일시 폐쇄했습니다 [사실]"
+   }
+  ],
+  "munitions": [
+   {
+    "d": "2026-10-18",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63801",
+    "nid": "n-rtr-0321",
+    "t": "미국이 유럽에 수개월 안에 우크라이나행 무기 공급이 끊길 수 있다고 경고했고, 에너지 시설 공격이 이어지면 PURL 무기 구매 체계를 막겠다고 했다는 보도가 나왔습니다 [채널]"
+   }
+  ],
+  "defspend": [
+   {
+    "d": "2026-10-18",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/middle-east/egypt-says-ready-give-saudi-arabia-necessary-support-amid-houthi-conflict-2026-10-18/",
+    "nid": "n-tg-0166",
+    "t": "후티가 리야드·얀부를 겨냥하자 UAE가 반후티 세력 자금 지원 재개, 사우디가 공중 엄호를 맡기로 했다는 보도가 나왔고 이집트도 사우디 방어 지원 준비를 밝혔습니다 [사실]"
+   },
+   {
+    "d": "2026-10-18",
+    "o": "텔레그램 Polaristimes",
+    "u": "https://t.me/The_MariTimes/63802",
+    "nid": "n-rtr-0321",
+    "t": "에스토니아 총리는 우크라이나의 내년 700억 달러 넘는 재정 공백에 EU 새 대출이 필요하다고 했고, 독일 개발부 장관은 지원을 부채 브레이크 예외로 하자고 했습니다 [채널]"
+   }
+  ],
+  "space": [
+   {
+    "d": "2026-10-17",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-17/zelenskyy-says-starlink-restrictions-on-ukraine-look-deliberate",
+    "nid": "n-tg-0308",
+    "t": "젤렌스키는 스타링크가 우크라이나에서만 시속 약 161km에서 끊겨 요격 드론 운용이 막혔다며 의도적이라고 했고, 루비오 국무장관은 미국 정부의 지시를 부인했습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [],
+ "flags": [],
+ "insight": {},
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "",
+ "note": "뉴스 4건 반영: 폴란드·리투아니아 공항 일시 폐쇄, 미국의 우크라행 무기 공급 중단 경고, 사우디 방어 연대와 스타링크 속도 제한 공방. 국면 ② 그대로, 근거 5줄, 수치 0줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0197",
+  "n-rtr-0321",
+  "n-tg-0166",
+  "n-tg-0308"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

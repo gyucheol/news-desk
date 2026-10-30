@@ -1,0 +1,69 @@
+{
+ "id": "n-tg-0442",
+ "num": 442,
+ "key": "split-G1-198-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10878",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란 '미군이 코나르크 해군기지 공격, 2명 부상'…미 당국자는 부인",
+ "headline": "이란 '미군이 코나르크 해군기지 공격, 2명 부상'…미 당국자는 부인",
+ "one": "이란 해군이 19일 새벽 미군이 코나르크 해군기지를 발사체 2발로 공격해 2명이 다쳤다고 주장했지만 미 당국자가 부인하면서, 사실이면 해상 봉쇄 이후 첫 미군 무력 사용이 돼 충돌 위험이 커질 수 있다",
+ "facts": [
+  "무엇이: 이란 해군은 10월 19일 새벽 미군이 코나르크 해군기지를 발사체 2발로 공격해 2명이 다쳤다고 주장했다 [사실]",
+  "반박: 미 당국자는 공격 보도를 부인했다 [사실]",
+  "의미: 채널은 해상 봉쇄 돌파 시도 이후 첫 미군 무력 사용 사례로 거론했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "트릴리온 채널 글 1건. 이란 해군의 피격 주장(2명 부상)과 미 당국자의 부인은 검색 결과 요약으로 확인(원 문서에 출처별 구분이 없어 독립 출처 3곳을 함께 적음)",
+ "src": [
+  {
+   "o": "Shafaq News",
+   "d": "2026-10-19",
+   "u": "https://shafaq.com/en/World/US-denies-reported-strike-on-Iranian-naval-base"
+  },
+  {
+   "o": "News.az",
+   "d": "2026-10-19",
+   "u": "https://news.az/news/iran-says-us-strike-on-konarak-naval-base-wounds-two-soldiers"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-19",
+   "u": "https://www.newsquawk.com/headlines/iranian-navy-says-that-the-us-military-attacked-the-konarak-naval-base-with-two-light-projectiles-early-this-morning-reports-al-jazeera"
+  }
+ ],
+ "items": [
+  {
+   "t": "'미국, 이란 코나르크 해군기지 공격…이란군 2명 부상'",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-20",
+   "u": "https://t.me/Trillion_labs/10878"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "코나르크 기지 피격 주장으로 미·이란 충돌 위험"
+  }
+ ],
+ "channel": "트릴리온"
+}

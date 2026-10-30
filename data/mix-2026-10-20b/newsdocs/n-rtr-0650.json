@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0650",
+ "num": 650,
+ "key": "mix-G2-034-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T16:53:00+09:00",
+ "url": "https://www.reuters.com/business/ovhcloud-meets-2026-targets-posts-first-positive-cash-flow-since-ipo-2026-10-20/",
+ "origTitle": "",
+ "headline": "OVH클라우드 2026 목표 달성·상장 후 첫 플러스 현금흐름…용량 절반 가용, 2027년 초 AI 모델",
+ "src": [
+  {
+   "o": "글로브뉴스와이어(OVH클라우드 발표)",
+   "d": "2026-10-20",
+   "u": "https://www.globenewswire.com/news-release/2026/10/20/3384010/0/en/all-2026-targets-achieved-excellence-in-execution-focus-on-value-creation.html"
+  },
+  {
+   "o": "애널리틱스인사이트",
+   "d": "2026-10-20",
+   "u": "https://www.analyticsinsight.net/news/ovhcloud-plans-first-ai-model-for-early-2027"
+  }
+ ],
+ "items": [
+  {
+   "t": "OVH클라우드, 2026 목표 달성·상장 후 첫 플러스 현금흐름",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/ovhcloud-meets-2026-targets-posts-first-positive-cash-flow-since-ipo-2026-10-20/",
+   "s": "OVH클라우드가 2026 회계연도 목표를 모두 달성하고 레버리지 잉여현금흐름 2,470만 유로로 상장 뒤 첫 플러스를 내면서, 2027년 10% 이상 성장을 목표로 내걸었다"
+  },
+  {
+   "t": "OVH클라우드 CEO '용량 절반 가용, 2027년 초 AI 모델 출시'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/half-ovhcloud-capacity-is-available-ai-model-launching-early-2027-ceo-says-2026-10-20/",
+   "s": "클라바 CEO가 연결된 250MW 중 110MW가 새 수요를 받을 수 있고 첫 AI 모델을 2027년 초 내놓겠다고 밝히면서, 남는 용량을 AI 서비스로 채우려 하고 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "OVH클라우드 2026 목표 달성·상장 후 첫 플러스 현금흐름…용량 절반 가용, 2027년 초 AI 모델",
+ "one": "OVH클라우드가 2026 회계연도 목표를 모두 달성하고 상장 뒤 처음으로 현금흐름을 플러스로 돌렸다\n· 매출은 11억 4,510만 유로로 같은 기준 7.2% 늘었고 조정 EBITDA 마진은 42%였다\n· 레버리지 잉여현금흐름은 2,470만 유로로 상장 뒤 첫 플러스였다\n· 연결된 250MW 중 110MW가 새 수요를 받을 수 있어 용량 절반가량이 비어 있다\n· 클라바 CEO는 첫 AI 모델을 2027년 초 내놓겠다고 했다",
+ "facts": [
+  "무엇이: OVH클라우드 2026 회계연도 매출은 11억 4,510만 유로로 같은 기준 7.2% 늘었고, 조정 EBITDA는 4억 8,050만 유로로 마진 42%였다 [사실]",
+  "현금흐름: 레버리지 잉여현금흐름은 2,470만 유로로 상장 뒤 처음 플러스였다 [사실]",
+  "용량: 연결된 250MW 가운데 140MW가 가동 중이고 110MW가 새 수요를 받을 수 있다 [사실]",
+  "계획: 2027 회계연도 같은 기준 성장률 10% 이상, EBITDA 마진 42.5% 이상을 목표로 했고, 첫 AI 모델은 2027년 초 출시한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "실적·현금흐름·용량·AI 모델 시기는 검색 결과 요약(회사 발표 글로브뉴스와이어·글로벌뱅킹앤파이낸스)으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "연결 용량 250MW 중 110MW 가용"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

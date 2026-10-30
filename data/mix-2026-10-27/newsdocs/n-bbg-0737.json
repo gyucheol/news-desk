@@ -1,0 +1,81 @@
+{
+ "id": "n-bbg-0737",
+ "num": 737,
+ "key": "mix-G2-025-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/india-overnight-rates-climb-as-liquidity-surplus-evaporates",
+ "origTitle": "",
+ "headline": "인도 유동성 잉여 소멸에 익일물 금리 상승…주간 콜금리 5.70%, RBI 굽타 '국내 금융 강화'",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-27",
+   "u": "https://www.business-standard.com/finance/news/liquidity-tightens-as-overnight-rates-near-rbi-s-penal-rate-126102000696_1.html"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2026-10-27",
+   "u": "https://www.business-standard.com/finance/news/rbi-may-continue-liquidity-absorption-as-it-begins-rate-hiking-cycle-126100501153_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 익일물 금리 상승…은행 유동성 잉여 사라져",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/india-overnight-rates-climb-as-liquidity-surplus-evaporates",
+   "s": "인도 은행 시스템의 유동성 잉여가 사라지면서 익일물 금리가 올라 단기 자금 조달 비용이 높아졌다"
+  },
+  {
+   "t": "RBI 굽타 '신흥국, 국내 금융 기반 강화해야' 발언",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/rbi-s-gupta-says-emerging-markets-must-bolster-domestic-finances",
+   "s": "RBI의 굽타가 신흥국이 국내 금융 기반을 강화해야 한다고 강조하면서 해외 자금 의존을 줄이자는 메시지를 냈다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "title": "인도 유동성 잉여 소멸에 익일물 금리 상승…주간 콜금리 5.70%, RBI 굽타 '국내 금융 강화'",
+ "one": "인도 은행 시스템의 유동성 잉여가 거의 사라지면서 익일물 금리가 뛰어올랐다\n· 유동성 잉여는 9월 말 약 4조 8,700억 루피에서 22일 약 3,126억 루피로 줄었다\n· 주간 평균 콜금리는 5.48%에서 5.70%로 올라 기준금리 5.50%를 웃돌았다\n· RBI의 굽타는 신흥국이 자국 내 금융 기반을 더 튼튼히 해야 한다고 밝혔다",
+ "facts": [
+  "무엇이: 인도 은행 시스템 유동성 잉여가 9월 30일 약 4조 8,700억 루피에서 10월 22일 약 3,126억 루피로 줄어 익일물 금리가 올랐다 [사실]",
+  "금리: RBI는 7일 기준금리를 5.50%로 25bp 올렸고, 주간 평균 콜금리는 5.48%에서 5.70%로 올랐다 [사실]",
+  "원인·대응: GST 납부, CRR 일일 최소 유지비율 90%에서 99%로 상향, 축제철 현금 유출이 유동성을 말렸고 RBI는 VRR 레포로 자금 공급을 시작했다 [사실]",
+  "RBI 발언: RBI의 굽타는 신흥국이 국내 금융을 강화해야 한다고 말했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "유동성 잉여 축소와 콜금리 상승은 검색 결과 요약으로 확인, 굽타 발언 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "인도 은행 유동성 잉여 거의 소멸"
+  },
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 주간 평균 콜금리 5.70%로 상승"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0487",
+ "num": 487,
+ "key": "split-G4-089-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T07:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "CBO 국장 \"성장으로 미국 부채 해결하는 방안은 통하기 어려워\"",
+ "headline": "CBO 국장 \"성장으로 미국 부채 해결하는 방안은 통하기 어려워\"",
+ "one": "CBO 국장이 10월 8일 경제 성장으로 미국 부채를 안정시키는 방안은 통하기 어렵다고 경고하면서, 9월 이후 10년물 금리가 5%를 넘어 차환 비용이 오르는 가운데 재정 조정 없이 부채를 줄이기 어렵다는 시각이 커졌다",
+ "facts": [
+  "무엇이: CBO 국장은 10월 8일 성장으로 미국 부채 문제를 풀겠다는 해법은 통하기 어렵다고 경고했다 [사실]",
+  "금리: 9월 이후 10년물 금리가 5%를 넘어 부채 차환 비용을 끌어올리고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건(제목만 있음). 원 문서 독립 출처 Newsquawk(10월 8일, 스와겔 CBO 국장의 부채 안정화 성장 가정 발언)를 근거로 삼음. 원 문서 확인 기록에는 이 사건 부분이 없음",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/cbo-director-swagel-says-growth-estimates-for-debt-stabilisation-assume-4-5-rates-and-"
+  }
+ ],
+ "items": [
+  {
+   "t": "CBO 국장 '성장으로 미 부채 해결하는 방안은 통하기 어려워'",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/cbo-chief-warns-growth-solution-for-us-debt-is-unlikely-to-work"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "CBO 국장, 성장만으로 미국 부채 해결 어렵다 경고"
+  }
+ ]
+}

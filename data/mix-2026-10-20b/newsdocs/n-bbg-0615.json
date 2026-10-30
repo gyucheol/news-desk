@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0615",
+ "num": 615,
+ "key": "mix-G1-029-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T19:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/3m-lifts-forecast-again-in-boost-to-ceo-s-revitalization-effort",
+ "origTitle": "",
+ "headline": "3M, 비용 통제·가격 인상에 연간 이익 전망 재상향…조정 EPS 9.10~9.15달러",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-20",
+   "u": "https://www.cnbc.com/2026/10/20/3m-mmm-earnings-q3-2026.html"
+  },
+  {
+   "o": "SEC 3M 8-K",
+   "d": "2026-10-20",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000308/q32026-8kerexx991.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "3M, 연간 전망 다시 올려 CEO 재건 노력에 힘 실어",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/3m-lifts-forecast-again-in-boost-to-ceo-s-revitalization-effort",
+   "s": "3M이 연간 전망을 다시 올리면서 CEO의 회사 재건 노력에 힘이 실렸고 연간 조정 EPS 전망은 9.10~9.15달러가 됐다"
+  },
+  {
+   "t": "3M, 비용 통제·가격 인상에 연간 이익 전망 상향",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/retail-consumer/3m-lifts-annual-profit-forecast-cost-controls-price-hikes-2026-10-20/",
+   "s": "3M이 비용 통제와 가격 인상으로 3분기 조정 EPS 2.50달러를 내면서 소비자 부문 부진 속에서도 이익 전망을 올렸다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "3M, 비용 통제·가격 인상에 연간 이익 전망 재상향…조정 EPS 9.10~9.15달러",
+ "one": "3M이 비용 통제와 가격 인상을 바탕으로 연간 이익 전망을 두 분기 연속 올렸다\n· 3분기 조정 EPS는 2.50달러로 시장 예상 2.38달러를 웃돌았다\n· 연간 조정 EPS 전망은 8.80~8.95달러에서 9.10~9.15달러로 올랐다\n· 조정 매출은 4.2% 늘어난 66억 달러로 시장 예상에 대체로 부합했다\n· 데이터센터·반도체 수요가 다른 부문 부진을 메웠고 소비자 부문은 어려운 여건이 이어졌다",
+ "facts": [
+  "무엇이: 3M은 10월 20일 연간 조정 EPS 전망을 8.80~8.95달러에서 9.10~9.15달러로 올렸다 [사실]",
+  "3분기: 조정 EPS 2.50달러(LSEG 예상 2.38달러), 조정 매출은 4.2% 늘어난 66억 달러였다 [사실]",
+  "동력: 비용 통제와 가격 인상이 마진을 받쳤고, 데이터센터·반도체 수요가 소비자 부문 부진을 상쇄했다 [사실]",
+  "유의: 조정 이익에서 무형자산 상각을 빼는 기준 변경으로 3분기 조정 EPS가 약 4센트 높아져 이전 전망과 바로 비교하기 어렵다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "전망 상향 폭·3분기 EPS·매출·동력을 CNBC와 SEC 공시 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "3M 가격 인상과 비용 통제로 이익 전망 상향"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

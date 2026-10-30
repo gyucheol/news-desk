@@ -1,0 +1,107 @@
+{
+ "basis": "verified",
+ "check": "블룸버그 2건(제목 기준)·텔레그램 2건·로이터 기사(12~14일)를 묶었다. 선진국 적자 5.2%와 미국 8.5%는 원 문서 사실 줄과 독립 출처(IMF 미디어센터·CNBC·Fortune)로 확인되며, 미국 2027년 6.1%는 채널 전언이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: IMF는 재정점검보고서에서 선진국 재정적자가 2021년 이후 최고 수준인 2026년 GDP의 5.2%에 이르고 미국 일반정부 적자(순차입)는 8.5%에 이를 것으로 봤다 [사실]",
+  "건전화: IMF는 국채 금리 상승이 재정 압박을 더하며 건전화를 미룰수록 필요한 조정 폭이 커진다고 경고했다 [사실]",
+  "악순환: 블룸버그는 선진국 국채 매도로 선진 경제가 IMF의 주목 대상이 됐다고 짚었고, IMF는 높은 부채와 국채 금리가 서로를 키우는 악순환에 정부들이 갇혔다고 했다 [제목]",
+  "2027년: 채널은 미국 재정적자가 2027년 GDP의 6.1%로 5대 선진국 중 가장 크고 독일·일본·프랑스도 커지는 반면 영국만 비율이 줄 것이라고 전했다(2026년 8.5%와는 해와 기준이 다름) [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IMF 재정점검 '선진국 적자 2021년 이후 최고…美 GDP 8.5%'",
+ "id": "n-tg-0277",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "선진국 국채 매도로 선진 경제가 IMF의 주목 대상에",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/rich-world-bond-selloff-puts-advanced-economies-in-imf-spotlight",
+   "s": "선진국 국채 매도가 이어지면서 선진 경제의 재정 상황이 IMF 연차총회에서 주목받는 대상으로 떠올랐다 (제목 기준)"
+  },
+  {
+   "t": "IMF \"선진국 재정적자 2021년 이후 최고…재정 건전화 시급\"",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70357",
+   "s": "IMF가 선진국 재정적자가 2021년 이후 최고에 이르고 미국 순차입이 GDP의 8.5%에 달할 것이라며 각국의 재정 여력 재건을 촉구했다"
+  },
+  {
+   "t": "美 2027년 재정적자 비율 6.1% 전망…5대 선진국 중 최대",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-14",
+   "u": "https://t.me/HANAchina/70386",
+   "s": "미국 재정적자가 2027년 GDP의 6.1%로 5대 선진국 중 가장 크고 독일·일본·프랑스도 커지면서, 영국만 적자 비율이 줄 것이라는 전망이 전해졌다"
+  },
+  {
+   "t": "IMF \"높은 부채·금리의 악순환에 갇힌 정부들\"",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-14/feedback-loop-ensnares-governments-with-debt-and-yields-high-imf-says",
+   "s": "IMF가 높은 부채와 국채 금리가 서로를 키우는 악순환에 정부들이 갇혔다고 경고하면서, 재정 여력이 더 좁아질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "IMF \"국채 금리 상승, 재정 건전화 시급성 부각\"",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/china/imf-says-higher-bond-yields-underscore-urgency-fiscal-consolidation-2026-10-14/",
+   "s": "IMF가 국채 금리 상승이 재정 압박을 더한다며 재정 건전화를 미룰수록 필요한 조정 폭이 커진다고 경고했다"
+  }
+ ],
+ "key": "mix-C022-2026-10-14",
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "num": 277,
+ "one": "IMF가 13~14일 재정점검보고서에서 선진국 재정적자가 2021년 이후 최고인 GDP의 5.2%, 미국 순차입이 8.5%에 이를 것으로 보고 높은 부채와 국채금리의 악순환을 경고하면서, 국채 매도 속 선진국의 재정 건전화 압박이 커졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T19:45:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-14",
+   "u": "https://cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html"
+  },
+  {
+   "o": "Fortune",
+   "d": "2026-10-14",
+   "u": "https://fortune.com/2026/10/14/imf-us-nations-global-debt-economic-growth"
+  },
+  {
+   "o": "IMF 미디어센터",
+   "d": "2026-10-14",
+   "u": "https://mediacenter.imf.org/news/imf---fiscal-monitor-report-annual-meetings--2026/s/1b05cec6-cde8-4b75-80ec-2b29f9fb5d19"
+  }
+ ],
+ "tags": [],
+ "title": "IMF 재정점검 '선진국 적자 2021년 이후 최고…美 GDP 8.5%'",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-12/rich-world-bond-selloff-puts-advanced-economies-in-imf-spotlight",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "선진국 재정적자 2021년 이후 최고, 미국 8.5%"
+  },
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "선진국 국채 매도에 국채 금리 상승"
+  }
+ ]
+}

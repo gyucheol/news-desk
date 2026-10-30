@@ -1,0 +1,84 @@
+{
+ "basis": "partial",
+ "check": "원유 해상 수출 하루 313만 배럴·4주 평균 359만 배럴·프리모르스크 약 3일 중단은 OilPrice 인용 보도의 검색 결과 요약으로 확인. 디젤 기존 행선지 복귀는 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 18일까지 한 주 러시아 원유 해상 수출은 하루 313만 배럴로 39만 배럴 줄었고, 4주 평균은 하루 359만 배럴로 한 달 최저였다 [사실]",
+  "원인: 발트해 프리모르스크 항에서 약 3일간 선적이 멈췄다가 주말께 재개됐다 [사실]",
+  "디젤: 러시아 석유제품 수출은 늘었지만 디젤 선적은 급감했으며, 수출 금지가 풀린 뒤 러시아산 디젤은 기존 행선지로 돌아가고 있다 [제목]",
+  "배경: 우크라이나 드론이 볼고그라드 등 러시아 정유시설을 잇달아 공격해 볼고그라드 정유소는 2일부터 원유 처리를 전면 중단했다 [채널]",
+  "엇갈린 주장: 트럼프는 러시아가 여전히 수백만 배럴의 디젤을 싸게 수출한다고 주장했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "러시아 원유 해상 수출 한 달 최저…프리모르스크 항 중단·디젤은 기존 행선지 복귀",
+ "id": "n-bbg-0420",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+  },
+  {
+   "t": "러시아 원유 수출 한 달 최저…발트해 주요 항 가동 중단",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/russia-ships-the-least-oil-in-a-month-as-major-baltic-port-halts",
+   "s": "발트해 프리모르스크 항이 선적을 멈추면서 러시아 원유 해상 수출이 하루 313만 배럴로 줄어, 4주 평균이 한 달 최저로 내려갔다"
+  },
+  {
+   "t": "러시아 디젤, 수출 금지 해제 뒤 기존 행선지로 복귀",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/russian-diesel-returns-familiar-destinations-following-export-ban-lift-shipping-2026-10-20/",
+   "s": "러시아가 디젤 수출 금지를 풀자 러시아산 디젤이 예전 수입처로 다시 향하면서, 디젤 부족을 겪는 시장에 공급이 일부 돌아오고 있다 (제목 기준)"
+  }
+ ],
+ "key": "split-G2-141-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 420,
+ "one": "러시아 석유 수출이 정유시설 피격과 발트해 항구 중단으로 흔들리고 있다\n· 10월 초 러시아 석유제품 수출은 늘었지만 디젤 선적은 급감했다\n· 18일까지 한 주 원유 해상 수출은 하루 313만 배럴로 39만 배럴 줄었다\n· 발트해 프리모르스크 항이 약 3일간 선적을 멈춘 것이 감소의 주원인이었다\n· 수출 금지가 풀린 뒤 러시아산 디젤은 기존 행선지로 다시 향하고 있다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:36:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "ua.news(OilPrice 인용)",
+   "d": "2026-10-20",
+   "u": "https://ua.news/en/energetika/rosiiskii-morskii-eksport-nafti-vpav-do-minimumu-z-bereznia-oilprice"
+  }
+ ],
+ "tags": [],
+ "title": "러시아 원유 해상 수출 한 달 최저…프리모르스크 항 중단·디젤은 기존 행선지 복귀",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "프리모르스크 중단에 러 원유 해상 수출 감소"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "수출 금지 해제 뒤 러 디젤 기존 행선지 복귀"
+  }
+ ],
+ "added": "블룸버그·로이터 2건 — 원유 해상 수출 한 달 최저(프리모르스크 항 중단)와 수출 금지 해제 뒤 디젤의 기존 행선지 복귀 내용이 추가됨"
+}

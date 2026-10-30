@@ -1,0 +1,79 @@
+{
+ "id": "n-rtr-0682",
+ "num": 682,
+ "key": "mix-G1-051-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:09:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/pg-flags-bigger-hit-annual-profit-higher-commodity-costs-beats-revenue-estimates-2026-10-22/",
+ "origTitle": "",
+ "headline": "P&G 1분기 유기적 매출 4%↑ 예상 상회…원자재 비용 부담 14억 달러로 확대 경고",
+ "src": [
+  {
+   "o": "P&G 실적 발표",
+   "d": "2026-10-22",
+   "u": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2027-First-Quarter-Results/default.aspx"
+  },
+  {
+   "o": "모틀리풀 어닝콜",
+   "d": "2026-10-22",
+   "u": "https://www.fool.com/earnings/call-transcripts/2026/10/22/pg-pg-q1-2027-earnings-call-transcript/"
+  }
+ ],
+ "items": [
+  {
+   "t": "P&G, 원자재 비용 상승에 연간 이익 타격 확대 경고…매출은 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/retail-consumer/pg-flags-bigger-hit-annual-profit-higher-commodity-costs-beats-revenue-estimates-2026-10-22/",
+   "s": "P&G가 매출 예상을 넘었지만 원자재 비용 상승으로 연간 이익 타격이 커진다고 경고하면서 생활용품 업체의 원가 부담을 드러냈다"
+  },
+  {
+   "t": "P&G 1분기 유기적 매출 4% 증가…판매량 회복이 성장 견인",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-23",
+   "u": "https://t.me/insidertracking/67063",
+   "s": "P&G가 판매량 2.4%p 기여로 유기적 매출을 4% 늘렸지만 핵심 매출총이익률이 150bp 떨어지면서 하반기 비용 압박이 커질 것으로 봤다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "P&G 1분기 유기적 매출 4%↑ 예상 상회…원자재 비용 부담 14억 달러로 확대 경고",
+ "one": "P&G가 1분기 매출은 예상을 넘었지만 원자재 비용 상승으로 연간 이익 타격이 커질 것이라고 경고했다\n· 1분기 순매출은 233억 달러, 유기적 매출은 4% 늘었고 판매량이 성장을 이끌었다\n· 핵심 영업이익률은 25.9%로 80bp 떨어졌고 핵심 매출총이익률은 150bp 낮아졌다\n· 원자재·에너지 세후 비용 부담 전망은 브렌트유 배럴당 약 100달러 가정에서 약 14억 달러로 커졌다\n· 연간 유기적 매출 1~3%, 핵심 EPS 0~3% 성장 전망은 그대로 유지했다",
+ "facts": [
+  "무엇이: P&G의 2027 회계연도 1분기 순매출이 233억 달러로 4% 늘었고 유기적 매출도 4% 증가했다 [사실]",
+  "이익: 희석 EPS 1.97달러, 핵심 EPS 2.00달러로 각각 1% 늘었고 핵심 영업이익률은 25.9%로 80bp 하락했다 [사실]",
+  "비용: 원자재·에너지 세후 비용 부담 전망을 약 14억 달러로 올렸고(브렌트유 배럴당 약 100달러 가정), 영업이익 아래 항목까지 포함하면 약 19억 달러로 봤다 [채널]",
+  "전망: 연간 유기적 매출 1~3%, 핵심 EPS 0~3% 성장 가이던스는 유지했고 연간 FCF 생산성 전망은 85~90%로 낮췄다 [채널]",
+  "지역: 10개 제품군과 6개 지역 모두 성장했고 중화권 유기적 매출은 8% 늘었다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "매출·EPS·영업이익률은 회사 발표·CNBC, 원자재 비용 14억 달러는 모틀리풀 어닝콜 요약(검색 결과 요약)으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "household",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "P&G 원자재·에너지 비용 부담 14억 달러로 확대"
+  },
+  {
+   "ind": "consumer",
+   "node": "household",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "P&G 1분기 유기적 매출 4% 증가"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

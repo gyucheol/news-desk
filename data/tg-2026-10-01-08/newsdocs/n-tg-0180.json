@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0180",
+ "feed": "v5",
+ "format": "one1",
+ "num": 180,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-HANAchina-69878",
+ "published": "2026-10-05T17:38:00+09:00",
+ "url": "https://t.me/HANAchina/69878",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "title": "사우디 동서 송유관 펌프장 또 피격…중단 보도 뒤 '정상 가동' 엇갈려",
+ "one": "사우디 동서 송유관의 리야드 동쪽 펌프장이 다시 공격받아 송유가 멈췄다는 보도가 나오면서, 호르무즈를 피하는 사우디 유일의 원유 수출로가 흔들려 브렌트유가 한때 102달러를 넘었다",
+ "headline": "사우디 동서 송유관 펌프장 또 피격…중단 보도 뒤 '정상 가동' 엇갈려",
+ "facts": [
+  "무엇이: 사우디 에너지 업계 소식통은 AFP에 리야드 동쪽 쿠라이스 인근 펌프장이 새 공격으로 크게 부서져 송유가 다시 멈췄다고 말했습니다 [사실]",
+  "반론: 이후 송유관이 정상 가동 중이라는 소식통 전언이 나왔지만, 사우디 정부의 공식 확인은 없습니다 [사실]",
+  "유가: 중단 보도에 브렌트유가 5분 만에 약 1달러 올라 배럴당 102.31달러를 기록했다가 정상 가동 소식에 101.81달러로 내렸습니다 [채널]",
+  "배경: 이 송유관은 9월 11일 첫 피격 뒤 22일까지 멈췄다가 부분 재가동했으며, 아람코 CEO는 송유관이 없으면 브렌트가 200달러에 이를 수 있다고 말했습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 글(월스트리트견문·블룸버그 전재)로 들어온 소식이며, 프리말레이시아투데이·비즈니스레코더의 AFP 기사로 펌프장 피격과 송유 중단 보도를 확인했습니다(검색 결과 요약으로 확인). 정상 가동 여부와 브렌트 가격 움직임은 확인하지 못했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-05",
+   "u": "https://t.me/HANAchina/69878"
+  },
+  {
+   "o": "Free Malaysia Today(AFP)",
+   "d": "2026-10-05",
+   "u": "https://www.freemalaysiatoday.com/category/world/2026/10/05/saudi-s-east-west-oil-pipeline-pumping-halted-after-new-attack"
+  },
+  {
+   "o": "Business Recorder(AFP)",
+   "d": "2026-10-05",
+   "u": "https://www.brecorder.com/news/40442740/east-west-oil-pipeline-pumping-halted-after-new-attack-saudi-energy-sector-source"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "하나증권 중국전략"
+}

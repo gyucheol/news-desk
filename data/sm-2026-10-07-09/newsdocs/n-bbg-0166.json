@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0166",
+ "num": 166,
+ "key": "bnd-C150-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T07:24:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk",
+ "origTitle": "",
+ "headline": "AI 빚잔치에 기술기업 채권 약세…트레이더들 위험 재평가 서둘러",
+ "src": [
+  {
+   "o": "Sage Advisory",
+   "d": "2026-09",
+   "u": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure"
+  },
+  {
+   "o": "Portfolio Adviser",
+   "d": "2026",
+   "u": "https://portfolio-adviser.com/ai-debt-issuance-is-transforming-the-corporate-bond-market/"
+  }
+ ],
+ "items": [
+  {
+   "t": "AI 부채 발행 급증이 기술기업 채권 강타…트레이더들 위험 재평가 서둘러",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ai-debt-spree-hammers-tech-debt-as-traders-rush-to-reprice-risk"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "AI 빚잔치에 기술기업 채권 약세…트레이더들 위험 재평가 서둘러",
+ "one": "하이퍼스케일러들이 AI 설비 자금을 대규모 회사채로 조달하면서 공급 부담과 레버리지 우려에 기술기업 채권 가격이 떨어지고 있어, 오라클을 중심으로 신용부도스와프가 오르고 우량 기술기업의 차입 비용도 높아지고 있다",
+ "facts": [
+  "무엇이: AI 관련 부채 발행이 급증하면서 투자자들이 기술기업 채권의 위험을 다시 매기고 있다 [제목]",
+  "규모: 알파벳·아마존·메타·마이크로소프트·오라클 5개사 채권 발행은 지난해 930억 달러에서 올해 7월까지 1,320억 달러에 이르렀고, 20~30년 장기채 발행도 흔해졌다 [사실]",
+  "가격: S&P가 오라클 신용등급을 BBB-로 낮췄고 오라클 5년물 CDS는 수년래 최고권이며, 아마존 250억 달러 발행 땐 기존 30년물 가산금리가 20bp 벌어졌다 [사실]",
+  "의미: 대형 발행이 이어지는 한 기술기업 가산금리가 넓게 유지될 수 있다는 전망이 나온다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "발행 규모·오라클 등급·CDS·아마존 발행 영향은 9월까지의 자료(Sage Advisory, Portfolio Adviser 등) 검색 결과 요약으로 확인. 10월 8일 기사 속 구체 가격 변동은 미확인",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis",
+  "macro/liquidity"
+ ]
+}

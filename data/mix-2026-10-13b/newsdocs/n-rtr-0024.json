@@ -1,0 +1,105 @@
+{
+ "basis": "partial",
+ "check": "Rio Times 검색 결과 요약으로 보베스파 사상 최고·10월 상승률·은행주 급등·결선 일정 확인. EWZ 연초 37%와 주간 순유입 23억 달러, 금융주 25% 상승은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 보베스파 지수가 10월 9일 20만 9,067로 사상 최고로 마감했고, 10월 들어 약 11.7% 올랐습니다 [사실]",
+  "주도: 10월 5일 1차 투표 뒤 BTG팩추얼 22.5%, 브라데스코 13.6% 등 은행주가 급등을 이끌었습니다 [사실]",
+  "자금: EWZ는 연초 이후 달러 기준 37% 올랐고 한 주 순유입이 23억 달러였으며, 브라질이 AI 쏠림 위험의 헤지처로 떠올랐다는 분석입니다 [채널]",
+  "결선: 10월 25일 결선 투표를 앞두고 여론조사는 접전이며, 대선 결과가 관세·광물이 걸린 대미 무역을 바꿀 수 있습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "보베스파 {{사상 최고}}…브라질 대선發 랠리에 금융주 주도, 대미 무역도 변수",
+ "id": "n-rtr-0024",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "브라질 보우소나루, 룰라 시대 세금의 광범위한 재검토 약속",
+   "u": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/",
+   "s": "{{보우소나루}} 측이 {{룰라 시대 세금}}의 광범위한 재검토를 약속하면서, 브라질 납세자와 기업의 세 부담 구조가 바뀔 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "브라질 대선: 플라비우 보우소나루 약진에 유력 재무장관 후보들 몰려",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-flavio-bolsonaro-surge-attracts-top-finance-minister-names",
+   "s": "{{플라비우 보우소나루}}가 대선 1차 투표에서 약진하면서 {{유력 재무장관 후보}}들이 몰려, 브라질의 정책 전환 기대가 커질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "보우소나루, 브라질 경제 운용에 크레디트스위스·BofA 출신 인사 검토",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/bolsonaro-evalua-figuras-de-credit-suisse-y-bofa-para-manejar-economia-de-brasil",
+   "s": "{{보우소나루}}가 브라질 경제 운용을 맡길 인물로 {{크레디트스위스·BofA}} 출신 인사를 검토하면서, 시장 친화적 경제팀이 꾸려질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "브라질 선거 베팅으로 대박 난 헤지펀드들, 추가 상승에 베팅",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/hedge-funds-that-nailed-brazil-vote-bet-on-more-gains-ahead",
+   "s": "브라질 선거 베팅으로 큰 수익을 낸 {{헤지펀드}}들이 {{추가 상승}}에 다시 베팅하면서, 브라질 자산 랠리가 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+   "u": "https://www.reuters.com/business/environment/new-brazil-congress-poses-risk-environmental-legislation-campaign-group-says-2026-10-08/",
+   "s": "{{환경단체}}가 브라질 {{새 의회}}가 환경 입법에 위험 요인이라고 경고하면서, 브라질의 환경 규제가 약해질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "브라질 대선, 관세·광물 걸린 대미 무역 재편할 듯",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/americas/brazil-election-reshape-trade-with-us-with-tariffs-minerals-stake-2026-10-09/",
+   "s": "{{브라질 대선}} 결과에 따라 관세와 광물 이해가 걸린 {{대미 무역 관계}}가 다시 짜일 수 있다는 분석이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "AI 위험 헤지처로 부상한 브라질 증시, 장기 하락 추세 돌파",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70340",
+   "s": "{{보베스파}}가 이달 12.2% 올라 사상 최고를 찍고 한 주에 23억 달러가 유입되면서, 브라질이 {{AI 쏠림 위험}}의 헤지처로 떠오르고 있다"
+  }
+ ],
+ "key": "bnd-C024-2026-10-09",
+ "nodes": [
+  "macro/fiscal",
+  "macro/fx"
+ ],
+ "num": 24,
+ "one": "{{브라질 대선}} 1차 투표에서 플라비우 보우소나루가 선전한 뒤 재정 개혁 기대가 커지면서 {{보베스파}}가 10월 9일 20만 9,067로 사상 최고를 찍었고, 은행주가 랠리를 이끄는 가운데 {{해외 자금}}이 브라질로 몰리고 있다",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T12:56:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Investing.com(재무장관 발언 보도 요약)",
+   "u": "https://www.investing.com/news/economy-news/brazil-finance-minister-calls-bolsonaro-trade-a-hollow-illusion-4939666"
+  },
+  {
+   "o": "The Rio Times",
+   "d": "2026-10-09",
+   "u": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-friday-october-9-2026/"
+  },
+  {
+   "o": "The Rio Times",
+   "d": "2026-10-09",
+   "u": "https://www.riotimesonline.com/brazil-etf-ewz-jumps-14-percent-after-first-round-2026/"
+  }
+ ],
+ "tags": [],
+ "title": "보베스파 {{사상 최고}}…브라질 대선發 랠리에 금융주 주도, 대미 무역도 변수",
+ "updatedAt": "2026-10-13T15:19:07+09:00",
+ "url": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/",
+ "added": "이번 로이터·텔레그램 2건으로 {{보베스파 사상 최고}}와 {{금융주 25% 상승}}, 대선이 관세·광물 등 {{대미 무역}}을 바꿀 수 있다는 관측이 추가됐다"
+}

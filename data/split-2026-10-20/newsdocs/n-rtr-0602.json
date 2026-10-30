@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0602",
+ "num": 602,
+ "key": "split-G6-056-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "모디의 인도 'AI 시대 전력 강국' 구상에 주민 반발",
+ "headline": "모디의 인도 'AI 시대 전력 강국' 구상에 주민 반발",
+ "one": "로이터가 10월 9일 전한 바로는 모디 총리가 인도를 AI 시대 전력 강국으로 만들려 하지만 주민 반발이 커지면서, 인도의 데이터센터·전력 사업 추진에 차질이 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 모디 총리가 인도를 AI 시대 전력 강국으로 만들려 하지만 주민들이 반발하고 있다고 전했다 [제목]",
+  "영향: 인도의 데이터센터·전력 사업 추진에 차질이 생길 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 9일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "모디는 인도를 AI 시대 전력 강국으로 만들려 하지만 주민들은 반발",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/developers"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "인도 AI 전력 강국 구상에 주민 반발"
+  }
+ ]
+}

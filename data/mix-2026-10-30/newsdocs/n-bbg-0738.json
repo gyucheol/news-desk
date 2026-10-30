@@ -1,0 +1,82 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 이번 채권 스프레드 기사는 확인 못 함(제목 기준). 기존 문서 사실은 기존 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: FX 자동매매에 널리 쓰이는 GMO인터넷그룹의 오나마에닷컴 데스크톱 클라우드가 해킹돼 해커가 약 80억 엔(5,000만 달러)을 요구했고 GMO는 거부했다 [사실]",
+  "피해: FX 업체 5곳이 고객 피해를 보고했고, 피해 가능 서버는 2만 6,739대로 공시됐다 [사실]",
+  "정부: 가타야마 재무상은 추가 부정 거래 가능성을 배제할 수 없다며 긴급히 대응하겠다고 했다 [사실]",
+  "보상: GMO는 이용자 전원에 5,000엔을 지급하고 부정 거래 손실을 보전하며 대체 서비스를 6개월 무료로 제공하기로 했다 [사실]",
+  "신용시장: 사이버공격 여파가 신용시장에 번지며 GMO 채권 스프레드가 급등했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "日 GMO 해킹 여파 신용시장으로…해커 5,000만 달러 요구·FX사 5곳 피해·GMO 채권 스프레드 급등",
+ "id": "n-bbg-0738",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "일본 FX 거래에 쓰이는 플랫폼이 해킹당해 해커가 5,000만 달러를 요구하자 가타야마 재무상이 긴급 대응을 약속했다",
+   "t": "거래 플랫폼, 일본 해킹에 흔들려…5,000만 달러 몸값 요구",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes는 일본 FX 마진 플랫폼 해킹으로 해커가 5,000만 달러를 요구한 사건을 전하며 주식 거래도 언제든 셧다운될 수 있다고 경고했다",
+   "t": "일본 FX 마진 거래 플랫폼 해킹, 해커 5,000만 달러 요구",
+   "u": "https://t.me/The_MariTimes/64020"
+  },
+  {
+   "t": "사이버공격이 신용시장 강타…GMO 채권 스프레드 급등",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/gmo-bond-spread-jumps-as-cyberattack-hits-credit-market",
+   "s": "해킹 사태가 GMO의 신용 위험으로 번지면서 GMO 채권 스프레드가 급등해 회사의 자금 조달 비용이 오를 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-027-2026-10-27",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 738,
+ "one": "일본 GMO인터넷그룹 서버 해킹 피해가 FX 거래 이용자를 넘어 회사채 시장으로 번졌다\n· 해커는 약 80억 엔(5,000만 달러)을 암호화폐로 요구했고 GMO는 지급을 거부했다\n· FX 업체 5곳이 고객 피해를 보고했고 가타야마 재무상은 긴급히 대응하겠다고 밝혔다\n· 피해 가능 서버는 2만 6,739대이며 GMO는 이용자 전원에 5,000엔을 보상하기로 했다\n· 사이버공격 여파로 GMO 채권 스프레드가 급등했다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T12:25:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "nippon.com(지지통신)",
+   "u": "https://www.nippon.com/en/news/yjj2026102700409/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "더스타",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/27/japan-vows-to-address-cyber-attack-on-fx-with-urgency"
+  }
+ ],
+ "tags": [],
+ "title": "日 GMO 해킹 여파 신용시장으로…해커 5,000만 달러 요구·FX사 5곳 피해·GMO 채권 스프레드 급등",
+ "updatedAt": "2026-10-30T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "해킹 여파로 GMO 채권 스프레드 급등"
+  }
+ ],
+ "added": "블룸버그 1건 — 사이버공격 여파가 신용시장으로 번져 GMO 채권 스프레드가 급등한 내용이 추가됨 (제목 기준)"
+}

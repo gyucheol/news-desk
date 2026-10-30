@@ -1,0 +1,331 @@
+{
+ "clusters": [
+  {
+   "cid": "G1-001",
+   "theme": "호르무즈 선박 피격 급증·UKMTO 미보고 경고",
+   "field": "shipping",
+   "attachTo": "n-tg-0157",
+   "lines": [
+    6,
+    8,
+    58,
+    72,
+    82,
+    162,
+    17
+   ]
+  },
+  {
+   "cid": "G1-002",
+   "theme": "ECB 12월 인상 기울기·라가르드·IMF의 BOJ 인상 권고",
+   "field": "rates",
+   "attachTo": "n-bbg-0104",
+   "lines": [
+    65,
+    79,
+    49,
+    39
+   ]
+  },
+  {
+   "cid": "G1-003",
+   "theme": "데이터센터 전력: 가스발전·전력장비 수요",
+   "field": "power",
+   "attachTo": "n-rtr-0283",
+   "lines": [
+    137,
+    136,
+    139,
+    109
+   ]
+  },
+  {
+   "cid": "G1-004",
+   "theme": "우크라이나 지원 균열: 트럼프-젤렌스키·스타링크·독일 부채 브레이크",
+   "field": "geo",
+   "attachTo": "n-rtr-0321",
+   "lines": [
+    128,
+    134,
+    43
+   ]
+  },
+  {
+   "cid": "G1-005",
+   "theme": "후티 아덴 공항 공격·이란 표적 정보 제공",
+   "field": "geo",
+   "attachTo": "n-tg-0166",
+   "lines": [
+    88,
+    38,
+    32
+   ]
+  },
+  {
+   "cid": "G1-006",
+   "theme": "AI 투자 자금 부담: 하이퍼스케일러 현금흐름·메타 SPV 채권·CCC 스프레드",
+   "field": "ai",
+   "attachTo": "n-bbg-0049",
+   "lines": [
+    99,
+    130,
+    66
+   ]
+  },
+  {
+   "cid": "G1-007",
+   "theme": "금·은 실물 수급과 中 레버리지 거래 억제",
+   "field": "metals",
+   "attachTo": "n-tg-0124",
+   "lines": [
+    83,
+    91,
+    19
+   ]
+  },
+  {
+   "cid": "G1-008",
+   "theme": "인도 대형은행 2분기 실적(HDFC·ICICI·액시스)",
+   "field": "fin",
+   "attachTo": "n-rtr-0217",
+   "lines": [
+    153,
+    117,
+    80
+   ]
+  },
+  {
+   "cid": "G1-009",
+   "theme": "앤트로픽 클라크 IMF 강연: AI 대응 시간 촉박",
+   "field": "ai",
+   "attachTo": "n-rtr-0023",
+   "lines": [
+    158,
+    133
+   ]
+  },
+  {
+   "cid": "G1-010",
+   "theme": "러시아, 우크라 에너지·철강 시설 공격",
+   "field": "power",
+   "attachTo": "n-tg-0162",
+   "lines": [
+    70,
+    81
+   ]
+  },
+  {
+   "cid": "G1-011",
+   "theme": "IMF 연차총회: 전쟁 파급 지원·이라크 프로그램",
+   "field": "macro",
+   "attachTo": "n-bbg-0093",
+   "lines": [
+    76,
+    55
+   ]
+  },
+  {
+   "cid": "G1-012",
+   "theme": "미국-이란 긴장: 곡괭이산 상징 타격 제안 거부·혁명수비대 호르무즈 폐쇄 성명",
+   "field": "geo",
+   "attachTo": "n-rtr-0014",
+   "lines": [
+    15,
+    69
+   ]
+  },
+  {
+   "cid": "G1-013",
+   "theme": "칠레 센티넬라 구리광산 파업 잠정 타결·개발은행 핵심광물 지원",
+   "field": "metals",
+   "attachTo": "n-bbg-0085",
+   "lines": [
+    20,
+    36
+   ]
+  },
+  {
+   "cid": "G1-014",
+   "theme": "베센트-실루아노프 회동, 독일 반발",
+   "field": "geo",
+   "attachTo": "n-bbg-0230",
+   "lines": [
+    103
+   ]
+  },
+  {
+   "cid": "G1-015",
+   "theme": "샌프란시스코 신규 데이터센터 45일 중단",
+   "field": "ai",
+   "attachTo": "n-tg-0182",
+   "lines": [
+    97
+   ]
+  },
+  {
+   "cid": "G1-016",
+   "theme": "중국 40개 기술 '수출 전 등록' 시행",
+   "field": "trade",
+   "attachTo": "n-bbg-0338",
+   "lines": [
+    95
+   ]
+  },
+  {
+   "cid": "G1-017",
+   "theme": "美 중간선거 민주당 장악 확률 64%·민주당 팩터",
+   "field": "macro",
+   "attachTo": "n-bbg-0136",
+   "lines": [
+    25
+   ]
+  },
+  {
+   "cid": "G1-018",
+   "theme": "美 대형은행 AI 에이전트 계좌 접근 차단",
+   "field": "fin",
+   "attachTo": "n-rtr-0331",
+   "lines": [
+    89
+   ]
+  },
+  {
+   "cid": "G1-019",
+   "theme": "르펜, ECB 발권 통한 재원 조달 주장",
+   "field": "macro",
+   "attachTo": "n-bbg-0111",
+   "lines": [
+    106
+   ]
+  },
+  {
+   "cid": "G1-020",
+   "theme": "플라비우 보우소나루 재정 조정 공약",
+   "field": "macro",
+   "attachTo": "n-rtr-0024",
+   "lines": [
+    2
+   ]
+  },
+  {
+   "cid": "G1-021",
+   "theme": "이스라엘, 튀르키예 시리아 증강 시 전면전 경고",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    4
+   ]
+  },
+  {
+   "cid": "G1-022",
+   "theme": "인도, 엘니뇨 작황 피해에 설탕 에탄올 전용 중단",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    40
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 24,
+   "reason": "이미 다룸(n-bbg-0230)"
+  },
+  {
+   "line": 26,
+   "reason": "이미 다룸(n-rtr-0023)"
+  },
+  {
+   "line": 123,
+   "reason": "이미 다룸(n-rtr-0023)"
+  },
+  {
+   "line": 51,
+   "reason": "이미 다룸(n-rtr-0025)"
+  },
+  {
+   "line": 84,
+   "reason": "이미 다룸(n-tg-0118)"
+  },
+  {
+   "line": 21,
+   "reason": "이미 다룸(n-bbg-0052)"
+  },
+  {
+   "line": 7,
+   "reason": "이미 다룸(n-bbg-0122)"
+  },
+  {
+   "line": 107,
+   "reason": "이미 다룸(n-tg-0234)"
+  },
+  {
+   "line": 140,
+   "reason": "이미 다룸(n-rtr-0351)"
+  },
+  {
+   "line": 60,
+   "reason": "10월 10일 이전 보도 재탕"
+  },
+  {
+   "line": 3,
+   "reason": "중요도 낮음(실적 발표 일정 안내)"
+  },
+  {
+   "line": 23,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 33,
+   "reason": "중요도 낮음(시황 해설)"
+  },
+  {
+   "line": 46,
+   "reason": "중요도 낮음"
+  },
+  {
+   "line": 48,
+   "reason": "중요도 낮음(증권사 전망)"
+  },
+  {
+   "line": 53,
+   "reason": "중요도 낮음(지역 사건)"
+  },
+  {
+   "line": 73,
+   "reason": "중요도 낮음(근거 불명 주장)"
+  },
+  {
+   "line": 78,
+   "reason": "중요도 낮음(지역 사건)"
+  },
+  {
+   "line": 85,
+   "reason": "중요도 낮음(애널리스트 견해)"
+  },
+  {
+   "line": 98,
+   "reason": "중요도 낮음(목표주가 조정)"
+  },
+  {
+   "line": 101,
+   "reason": "중요도 낮음(발언 수사)"
+  },
+  {
+   "line": 104,
+   "reason": "중요도 낮음(작은 거래)"
+  },
+  {
+   "line": 116,
+   "reason": "중요도 낮음(지역 사건)"
+  },
+  {
+   "line": 144,
+   "reason": "중요도 낮음(일상 소식)"
+  },
+  {
+   "line": 147,
+   "reason": "중요도 낮음"
+  }
+ ]
+}

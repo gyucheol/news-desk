@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0665",
+ "num": 665,
+ "key": "mix-G2-082-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T22:10:00+09:00",
+ "url": "https://www.reuters.com/world/britain-seeks-break-apples-grip-contactless-payments-2026-10-20/",
+ "origTitle": "",
+ "headline": "영국 CMA, 애플 아이폰 비접촉 결제 장악 해소 추진…NFC 개방·수수료 인하 요구",
+ "src": [
+  {
+   "o": "Payment Expert",
+   "d": "2026-10-20",
+   "u": "https://paymentexpert.com/2026/10/20/cma-wants-apple-to-open-up-nfc-access/"
+  },
+  {
+   "o": "City AM",
+   "d": "2026-10-20",
+   "u": "https://www.cityam.com/apple-faces-uk-crackdown-over-iphone-contactless-payments/"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국, 애플의 아이폰 비접촉 결제 장악 해소 추진",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/britain-seeks-break-apples-grip-contactless-payments-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin",
+  "tech"
+ ],
+ "nodes": [],
+ "title": "영국 CMA, 애플 아이폰 비접촉 결제 장악 해소 추진…NFC 개방·수수료 인하 요구",
+ "one": "영국 경쟁시장청이 애플의 아이폰 비접촉 결제 장악을 풀기 위한 행위 요건을 제안했다\n· 경쟁시장청은 애플이 경쟁 지갑에 NFC를 열고 수수료를 지금보다 크게 낮추도록 요구했다\n· 의견 수렴은 11월 17일까지이며 애플은 보안·개인정보 우려를 들어 반대했다",
+ "facts": [
+  "무엇이: 영국 경쟁시장청은 10월 20일 디지털시장법(2024년)에 따라 애플이 아이폰 NFC를 경쟁 지갑에 열도록 하는 행위 요건을 제안했다 [사실]",
+  "내용: 두 가지 NFC 방식을 모두 지원하게 하고, 수수료는 원칙만 정해 지금보다 크게 낮아지길 기대했다 [사실]",
+  "배경·일정: 비접촉 결제는 영국 결제의 약 39%지만 경쟁 지갑이 없고, 의견 수렴은 11월 17일까지이며 애플은 반대했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CMA 제안 내용·일정·애플 반대를 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "영국 애플 NFC 개방으로 경쟁 지갑 진입 추진"
+  }
+ ]
+}

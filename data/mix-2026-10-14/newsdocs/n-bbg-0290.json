@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0290",
+ "num": 290,
+ "key": "mix-C092-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T19:41:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/indian-stocks-rise-on-sitharaman-s-comments-on-transaction-tax",
+ "origTitle": "",
+ "headline": "{{시타라만}} '{{거래세 논쟁 건전}}' 발언에 {{인도 증시 반등}}…센섹스 {{1.54%}} 상승",
+ "src": [
+  {
+   "o": "BusinessToday",
+   "d": "2026-10-13",
+   "u": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-gains-on-fm-sitharamans-ltcg-tax-stt-remark-561274-2026-10-13"
+  },
+  {
+   "o": "The Week",
+   "d": "2026-10-13",
+   "u": "https://theweek.in/news/biz-tech/2026/10/13/indian-stock-market-rebound.html"
+  },
+  {
+   "o": "OpIndia",
+   "d": "2026-10-13",
+   "u": "https://opindia.com/2026/10/why-sensex-surged-1100-points-sitharaman-tax-remarks-it-earnings-and-rupee-recovery-explain-dalal-streets-dramatic-rebound"
+  }
+ ],
+ "items": [
+  {
+   "t": "시타라만 재무장관 거래세 발언에 인도 증시 상승",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/indian-stocks-rise-on-sitharaman-s-comments-on-transaction-tax"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "{{시타라만}} '{{거래세 논쟁 건전}}' 발언에 {{인도 증시 반등}}…센섹스 {{1.54%}} 상승",
+ "one": "{{시타라만 인도 재무장관}}이 {{증권거래세·장기 양도세 논쟁}}을 {{건전하다}}고 {{평가}}하자 세 부담 완화 기대에 {{센섹스}}가 {{1,109포인트(1.54%) 올라}}, 2027년 2월 예산안의 {{세제 개편 여부}}가 {{주목}}된다",
+ "facts": [
+  "무엇이: 시타라만 재무장관은 10월 13일 블룸버그 뉴이코노미 포럼에서 거래세와 자산별 동일 과세를 둘러싼 논쟁이 충분히 나왔고 건전하다고 했다 [사실]",
+  "시장: 센섹스는 1,109.10포인트(1.54%) 오른 73,033.78, 니프티50은 358.60포인트(1.60%) 오른 22,721.95에 마감했다 [사실]",
+  "한계: 감세나 면제 발표는 없었고, IT 기업 실적과 루피 강세·유가 하락도 상승을 거들었다 [사실]",
+  "일정: 다음 연방 예산안은 2027년 2월 1일 발표된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BusinessToday·The Week·OpIndia 검색 결과 요약으로 확인"
+}

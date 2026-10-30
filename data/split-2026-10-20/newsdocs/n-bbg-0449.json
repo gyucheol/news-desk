@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0449",
+ "num": 449,
+ "key": "split-G3-127-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:27:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-selloff-deepens-in-asia-as-funding-fears-mount",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "자금 조달 우려 커지며 아시아 AI주 매도 심화",
+ "headline": "자금 조달 우려 커지며 아시아 AI주 매도 심화",
+ "one": "AI 자금 조달에 대한 우려가 커지면서 15일 아시아 증시의 AI 관련주 매도가 깊어졌고, 혹 탄 브로드컴 CEO의 자본 병목 경고 이후 반도체주를 중심으로 매도 압력이 이어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 15일 AI 자금 조달 우려가 커지며 아시아의 AI 관련주 매도가 심해졌다고 전했다 [제목]",
+  "배경: 혹 탄 브로드컴 CEO의 자본 병목·'카지노' 발언과 제프리스·골드만삭스의 AI 투자 경고 뒤 세계 반도체주 매도가 번졌다 [채널]",
+  "한국: 외국인은 15일 코스피에서 하루 3조 7천억 원을 순매도했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "자금 조달 우려 커지며 아시아 AI주 매도 심화",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-selloff-deepens-in-asia-as-funding-fears-mount"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "자금 조달 우려에 아시아 AI주 매도 심화"
+  }
+ ],
+ "ind": "semis"
+}

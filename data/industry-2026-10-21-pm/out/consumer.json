@@ -1,0 +1,123 @@
+{
+ "id": "consumer",
+ "summary": "",
+ "state": {
+  "retail": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+    "nid": "n-bbg-0617",
+    "t": "아마존은 미국 연말 채용을 30만 명 이상으로 2025년 계획(25만 명)보다 약 20% 늘려 3년 만에 처음 늘렸고, 계절직 평균 시급은 20달러입니다 [사실]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/walmart-launches-120-membership-bundle-with-sams-club-ahead-holidays-2026-10-20/",
+    "nid": "n-rtr-0632",
+    "t": "월마트는 월마트+와 샘스클럽 플러스를 묶은 연 120달러 멤버십을 내놔 따로 사는 것보다 약 100달러 싸게 했고, 8월에는 6년 만에 가장 느린 분기 동일점 매출 증가를 냈습니다 [사실]"
+   }
+  ],
+  "leisure": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/world-at-work/betting-giant-flutter-cut-up-1400-jobs-2026-10-20/",
+    "nid": "n-rtr-0645",
+    "t": "플러터는 영국 원격 게임세가 21%에서 40%로 오른 부담을 다 흡수할 수 없다며 영국·아일랜드에서 최대 1,400명을 줄이고 세전 비용 약 8,000만~9,000만 달러를 씁니다 [사실]"
+   }
+  ],
+  "durables": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/technology/hasbro-raises-annual-revenue-forecast-strong-demand-digital-games-toys-2026-10-20/",
+    "nid": "n-tg-0690",
+    "t": "하스브로 3분기 매출은 약 16억 달러로 15% 늘었고 매직: 더 개더링이 34% 늘었으며, 연간 매출 증가율 전망을 5~7%에서 7~9%로 올렸습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-20",
+   "kind": "demand",
+   "o": "로이터",
+   "u": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+   "nid": "n-bbg-0617",
+   "t": "아마존 연말 채용은 30만 명 이상으로 2025년 25만 명보다 약 20% 많아 3년 만에 처음 늘었습니다 [사실]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "price",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/walmart-launches-120-membership-bundle-with-sams-club-ahead-holidays-2026-10-20/",
+   "nid": "n-rtr-0632",
+   "t": "월마트 묶음 멤버십은 연 120달러로 따로 살 때(월마트+ 98달러, 샘스클럽 플러스 120달러)보다 약 100달러 쌉니다 [사실]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "policy",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/world-at-work/betting-giant-flutter-cut-up-1400-jobs-2026-10-20/",
+   "nid": "n-rtr-0645",
+   "t": "영국 원격 게임세는 2026년 4월 21%에서 40%로 올랐고 원격 베팅세는 2027년 4월 25%로 오르며, 플러터는 최대 1,400명을 줄입니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0617",
+   "t": "재검토 필요: 아마존이 3년 만에 처음 연말 채용을 20% 늘린 것은 온라인 유통이 ④ 비관이 아니라 ⑧ 회복 초기 쪽을 가리킬 수 있지만, 월마트가 묶음 할인으로 회원을 붙드는 것처럼 물량을 가격 인하로 사는 중이라 아직 약합니다 [유추]"
+  },
+  {
+   "nid": "n-rtr-0645",
+   "t": "재검토 필요: 플러터의 영국·아일랜드 최대 1,400명 감원은 세금 인상에 밀린 레저(온라인 도박) 노드가 ⑤ 자본 철수로 들어서는 신호를 가리키며, 수요가 아니라 정책이 비용을 올렸기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "c": [
+   {
+    "t": "수요가 버틴다는 정보도 있습니다. 9월 소매판매가 0.8% 늘어 예상을 넘었고 8월은 1.3%로 올려 잡혔으며, 네슬레 인도는 두 자릿수 물량 증가, 영국 던엘름·THG는 매출과 전망을 지켰습니다 [사실]",
+    "src": [
+     {
+      "o": "미국 인구조사국(9월 소매판매 속보)",
+      "d": "2026-10-15",
+      "u": "https://www.census.gov/retail/sales.html"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/retail-consumer/uk-retailer-dunelms-quarterly-sales-rise-demand-curtains-kitchenware-rebounds-2026-10-15/"
+     }
+    ]
+   },
+   {
+    "t": "연말 수요를 낙관하는 움직임도 있습니다. 아마존은 연말 채용을 30만 명 이상으로 20% 늘려 3년 만에 처음 늘렸고, 하스브로는 3분기 매출이 15% 늘어 연간 매출 증가율 전망을 7~9%로 올렸습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-20",
+      "u": "https://www.reuters.com/technology/hasbro-raises-annual-revenue-forecast-strong-demand-digital-games-toys-2026-10-20/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "10월 17일 업데이트는 웹 검색 2회(열람 0회)로 미국 9월 소매판매(10월 15일)와 9월 CPI(10월 14일)만 확인했고, 두 수치는 기관 원문을 열지 않고 검색 요약에 근거합니다. 확인하지 못한 것: (1) 9월 CPI 전체·근원 상승률과 미시간대 10월 확정치는 확인하지 않아 소비자심리 근거는 10월 예비치(46.3)에 머물러 있습니다. (2) 블랙박스의 3분기 외식 객수, 월마트·코스트코·맥도날드의 최신 분기 실적은 아직 찾지 못했습니다. (3) 복서의 새 CEO와 이익 수치, XXX루츠 독일 거래의 대상·규모, 우버의 아프리카 후퇴 범위, 엉클 니어리스트 매각 조건, 엔테인 실적 세부, KFC 음료 교체와 펩시코 인도 공급 경고는 제목 수준입니다. (4) DJI·인스타360 점유율과 중국 전자상거래 가격 경쟁 시정은 텔레그램 전언입니다. (5) 위스키 재고 과잉·증류소 가동 중단, 2026년 캘리포니아 추가 포도밭 철거 면적, IEEPA 판결 뒤 소비재 실제 관세율은 여전히 공식 수치로 확인하지 못했습니다. (6) 노드 국면은 일부 기업 실적과 업계 집계에서 귀납한 것으로, 하위 업종 전체의 자본수익률·설비투자 자료로는 확인하지 못했습니다. (7) 10월 21일 저녁 업데이트는 검색·열람 없이 입력 뉴스 5건으로만 반영했고, 하스브로 조정 영업이익 52% 증가는 채널 전언이며, 아메리카나스 회생 종료 결정에 대한 항소 여부는 확인하지 못했습니다.",
+ "note": "뉴스 5건 반영: 아마존 연말 채용 30만 명 이상(20%↑), 월마트 연 120달러 묶음 멤버십, 플러터 영국·아일랜드 최대 1,400명 감원·하스브로 전망 상향. 국면 ④ 그대로, 근거 4줄, 수치 3줄, 재검토 신호 2건, 검색 0회",
+ "applied": [
+  "n-bbg-0617",
+  "n-rtr-0632",
+  "n-rtr-0644",
+  "n-rtr-0645",
+  "n-tg-0690"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

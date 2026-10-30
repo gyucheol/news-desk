@@ -1,0 +1,83 @@
+{
+ "id": "n-rtr-0448",
+ "num": 448,
+ "key": "split-G2-150-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "젤렌스키 '러시아 휴전 위반…공격 안 멈추면 장거리 타격 계속'",
+ "headline": "젤렌스키 '러시아 휴전 위반…공격 안 멈추면 장거리 타격 계속'",
+ "one": "젤렌스키가 12일 러시아가 에너지 휴전을 위반했다며 푸틴이 휴전을 거부하고 공격을 멈추지 않는 한 장거리 타격을 계속하겠다고 밝히고 13일엔 트럼프 휴전이 러시아 없이는 작동하지 않는다고 말하면서, 러시아 정유시설 공격이 이어질 수 있다 (채널 전언)",
+ "facts": [
+  "무엇이: 젤렌스키는 12일 러시아가 에너지 휴전을 위반했다며 러시아가 공격을 멈추지 않는 한 장거리 타격도 끝나지 않을 것이라고 밝혔다 [채널]",
+  "조건: 그는 푸틴이 에너지 휴전을 거부하면 타격을 계속하겠다고 했고, 13일에는 트럼프의 에너지 휴전이 러시아 없이는 작동하지 않는다고 말했다 [제목]",
+  "대기: 우크라이나는 미국 휴전 제안의 세부 내용을 기다렸고 젤렌스키는 러시아가 공격을 지속한다고 말했다 [제목]",
+  "EU: 우크라이나가 러시아의 휴전 위반을 비판하는 가운데 EU는 새 조치를 내놨다 [제목]"
+ ],
+ "basis": "channel",
+ "check": "로이터 2건·블룸버그 2건·하나증권 텔레그램 1건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(블룸버그·로이터는 제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "우크라이나, 미국 휴전 제안 세부 내용 기다려…젤렌스키 '러시아는 공격 지속'",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/",
+   "s": "우크라이나가 미국 휴전 제안의 세부 내용을 기다리는 가운데, 젤렌스키는 러시아가 공격을 지속한다고 밝혀 휴전 이행이 불투명해졌다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '러시아 휴전 위반…공격 안 멈추면 장거리 타격 계속'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70282",
+   "s": "젤렌스키가 러시아가 에너지 휴전을 위반했다고 비판하면서, 러시아가 공격을 멈추지 않는 한 장거리 타격도 끝나지 않을 것이라고 밝혔다"
+  },
+  {
+   "t": "젤렌스키 '푸틴이 에너지 휴전 거부하면 타격 계속'",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/zelenskyy-says-strikes-to-continue-if-putin-rejects-energy-truce",
+   "s": "젤렌스키가 푸틴이 에너지 휴전을 거부하면 러시아에 대한 타격을 계속하겠다고 밝히면서, 러시아 정유시설 공격이 이어질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "젤렌스키 '트럼프의 에너지 휴전, 러시아 없이는 작동 안 해'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-12/trump-s-energy-truce-won-t-work-without-russia-zelenskyy-says",
+   "s": "젤렌스키가 트럼프의 에너지 휴전은 러시아가 함께하지 않으면 작동하지 않는다고 밝히면서, 휴전 이행의 열쇠를 러시아에 돌렸다 (제목 기준)"
+  },
+  {
+   "t": "우크라이나, 러시아의 트럼프 에너지 휴전 위반 비판…EU는 새 조치",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/ukraine-accuses-russia-violating-trumps-energy-ceasefire-eu-imposes-new-2026-10-12/",
+   "s": "우크라이나가 러시아의 에너지 휴전 위반을 비판하는 가운데, EU는 우크라이나를 위한 새 조치를 내놓으면서 지원에 나섰다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "러 휴전 거부 시 장거리 타격 지속 경고"
+  }
+ ]
+}

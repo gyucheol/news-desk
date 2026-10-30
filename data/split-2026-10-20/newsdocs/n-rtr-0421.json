@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0421",
+ "num": 421,
+ "key": "split-G2-044-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/kremlin-hawks-savour-trump-zelenskiy-rift-if-it-lasts-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "크렘린 강경파, 트럼프·젤렌스키 균열 반겨…지속 여부가 관건",
+ "headline": "크렘린 강경파, 트럼프·젤렌스키 균열 반겨…지속 여부가 관건",
+ "one": "크렘린 강경파가 트럼프 대통령과 젤렌스키 대통령의 균열을 반기면서도 그 균열이 오래갈지를 지켜보고 있어, 미·우크라 관계의 향방이 러시아의 종전 협상 셈법을 좌우할 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 크렘린 강경파가 트럼프와 젤렌스키의 균열을 반기고 있다 [제목]",
+  "관건: 강경파는 그 균열이 오래갈지를 지켜보고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(10월 19일). 원 문서 확인 기록에서도 크렘린 반응은 기사 제목 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "크렘린 강경파, 트럼프·젤렌스키 균열 반겨…지속될지가 관건",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/europe/kremlin-hawks-savour-trump-zelenskiy-rift-if-it-lasts-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "러시아 강경파 미·우크라 균열 반겨, 수급 방향 불분명"
+  }
+ ]
+}

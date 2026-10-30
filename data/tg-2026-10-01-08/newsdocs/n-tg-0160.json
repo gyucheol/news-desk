@@ -1,0 +1,51 @@
+{
+ "id": "n-tg-0160",
+ "feed": "v5",
+ "format": "one1",
+ "num": 160,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-9928",
+ "published": "2026-10-02T21:55:00+09:00",
+ "url": "https://t.me/Trillion_labs/9928",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "title": "벤처글로벌, 코노코필립스와 연 100만 톤 20년 LNG 판매계약",
+ "one": "벤처글로벌이 코노코필립스와 2030년부터 20년간 연 100만 톤의 LNG 판매계약을 맺으면서, 미국산 LNG의 장기 판매 물량이 늘었지만 공급 설비와 가격 조건은 공개되지 않았다",
+ "headline": "벤처글로벌, 코노코필립스와 연 100만 톤 20년 LNG 판매계약",
+ "facts": [
+  "무엇이: 벤처글로벌과 코노코필립스가 10월 1일 LNG 장기 판매·구매계약(SPA)을 발표했습니다 [사실]",
+  "얼마나: 2030년부터 20년간 연 100만 톤입니다. 공급 설비·가격·인도 조건은 공개하지 않았습니다 [사실]",
+  "배경: 벤처글로벌은 CP2 2단계 최종투자결정을 위해 추가 장기계약과 건설 자금 조달을 진행 중이라고 밝혀 왔습니다 [사실]",
+  "해석: 이번 물량이 CP2 2단계에 배정될지는 발표에 없습니다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(회사 보도자료 번역)로 들어온 소식이며, 벤처글로벌 보도자료와 World Oil 기사(2026-10-02)를 검색 결과 요약으로 확인했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9928"
+  },
+  {
+   "o": "벤처글로벌 보도자료",
+   "d": "2026-10-01",
+   "u": "https://ventureglobal.com/2026/10/01/venture-global-and-conocophillips-announce-20-year-lng-sales-and-purchase-agreement/"
+  },
+  {
+   "o": "World Oil",
+   "d": "2026-10-02",
+   "u": "https://www.worldoil.com/news/2026/10/2/conocophillips-expands-lng-portfolio-with-20-year-venture-global-agreement/"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온"
+}

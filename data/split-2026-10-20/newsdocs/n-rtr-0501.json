@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0501",
+ "num": 501,
+ "key": "split-G4-053-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/french-lawmakers-spare-pensioners-cuts-budget-review-begins-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 의회 예산 심사 착수…연금 수급자는 삭감 면제",
+ "headline": "프랑스 의회 예산 심사 착수…연금 수급자는 삭감 면제",
+ "one": "로이터에 따르면 프랑스 의원들이 10월 7일 예산 심사를 시작하면서 연금 수급자는 삭감 대상에서 빼기로 해, 국가부채가 GDP의 119%인 프랑스의 지출 감축 폭이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 프랑스 의원들이 예산 심사를 시작하면서 연금 수급자는 삭감 대상에서 뺐다(10월 7일 로이터) [제목]",
+  "부채: 프랑스 국가부채는 6월 말 GDP의 119%다 [사실]",
+  "의미: 연금 수급자가 빠지면 지출 감축 폭이 줄어 재정 건전화가 더뎌질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 7일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 의원들, 예산 심사 시작하며 연금 수급자 삭감은 면제",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/finance/french-lawmakers-spare-pensioners-cuts-budget-review-begins-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "예산 심사서 연금 수급자 삭감 면제"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "id": "n-bbg-0356",
+ "num": 356,
+ "key": "mix-G1-022-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T05:42:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/data-centers-and-green-shift-are-reviving-europe-s-power-demand",
+ "origTitle": "",
+ "headline": "전력 수요 반등…아마존·AEP 960MW 원전 검토, 버지니아 요금 6년 동결 요구",
+ "src": [
+  {
+   "o": "Utility Dive",
+   "d": "2026-10-19",
+   "u": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/"
+  },
+  {
+   "o": "About Amazon",
+   "d": "2026-10-19",
+   "u": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep"
+  }
+ ],
+ "items": [
+  {
+   "t": "수년간 부진하던 유럽 전력 수요, 데이터센터·전환에 다시 증가",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/data-centers-and-green-shift-are-reviving-europe-s-power-demand",
+   "s": "데이터센터와 전기화 전환이 유럽 전력 수요를 되살리면서, 수년간 줄던 수요가 다시 늘기 시작했다 (제목 기준)"
+  },
+  {
+   "t": "센트러스, 원심분리기 부품사 웨스터먼 1억 1,600만 달러에 인수",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-19",
+   "u": "https://t.me/insidertracking/66690",
+   "s": "센트러스 에너지가 원자력 부품 업체 웨스터먼을 1억 1,600만 달러에 사들이면서, 우라늄 농축 확장에 쓸 원심분리기 케이싱·부품 제조를 내재화한다"
+  },
+  {
+   "t": "아마존·AEP, 인디애나 960MW 원전 사업 검토",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/amazon-and-aep-explore-960-megawatt-nuclear-project-in-indiana",
+   "s": "아마존이 AEP·X-에너지의 인디애나 옛 석탄발전소 부지 960MW 소형원전 개발 자금을 대고 전력을 사기로 하면서, 소형원자로 수요가 생길 전망이다"
+  },
+  {
+   "t": "버지니아, 넥스트에라-도미니언 거래에 6년 요금 동결 요구",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/virginia-wants-6-year-power-rate-freeze-in-nextera-dominion-deal",
+   "s": "버지니아주가 넥스트에라의 도미니언 인수 승인 조건으로 6년간 전력요금 동결을 요구하면서, 합병 회사의 요금 인상 여지가 좁아질 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "uranium",
+  "utilities"
+ ],
+ "nodes": [
+  "power/demand",
+  "uranium/build",
+  "uranium/enrichment"
+ ],
+ "title": "전력 수요 반등…아마존·AEP 960MW 원전 검토, 버지니아 요금 6년 동결 요구",
+ "one": "유럽 전력 수요가 수년간의 부진 뒤 다시 늘고 아마존이 AEP·X-에너지의 인디애나 960MW 소형원전 개발 자금을 대 전력을 사기로 한 가운데, 버지니아주는 넥스트에라-도미니언 거래에 6년 요금 동결을 요구해 전력회사 수익을 묶을 수 있다",
+ "facts": [
+  "무엇이: 아마존·AEP·X-에너지는 10월 19일 인디애나 설리번카운티의 옛 석탄발전소 부지에 80MW 소형원자로 12기, 960MW 규모 원전을 짓는 방안을 검토한다고 밝혔고, 아마존이 개발 자금을 대고 전력을 장기 계약으로 살 계획이다 [사실]",
+  "일정: 진행 여부는 2029년 말까지 결정하며, Xe-100 노형은 아직 연방 승인이 필요하고 계약 조건은 공개되지 않았다 [사실]",
+  "버지니아: 버지니아주는 넥스트에라-도미니언 거래에서 6년간 전력요금 동결을 원한다 [제목]",
+  "유럽: 유럽 전력 수요가 수년간의 부진 끝에 다시 늘고 있다 [제목]",
+  "우라늄: 센트러스 에너지는 원심분리기 케이싱 등 핵심 부품 업체 웨스터먼을 1억 1,600만 달러(현금 약 9,500만 달러, 주식 2,100만 달러)에 인수한다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "아마존·AEP·X-에너지 960MW 원전 검토를 검색 결과 요약으로 확인. 버지니아 요금 동결 요구와 유럽 전력 수요 반등은 제목 기준, 센트러스의 웨스터먼 인수는 확인 못 함",
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "아마존·AEP 인디애나 960MW 소형원전 검토"
+  },
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "유럽 전력 수요 수년 부진 뒤 반등"
+  },
+  {
+   "ind": "utilities",
+   "node": "regulator",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "버지니아, 도미니언 합병에 요금 6년 동결 요구"
+  }
+ ],
+ "updatedAt": "2026-10-20T08:26:01+09:00"
+}

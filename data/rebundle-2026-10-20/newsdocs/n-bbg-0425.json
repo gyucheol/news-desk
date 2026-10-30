@@ -1,0 +1,95 @@
+{
+ "basis": "verified",
+ "check": "로이터 9월 30일 인허가 개혁 합의 기사와 블룸버그·텔레그램 트릴리온의 10월 19~20일 컨스티튜션 가스관 지원 기사를 묶었다. 가스관 지원은 미 에너지부 발표, 인허가 합의는 더힐 요약문으로 확인했고 법안 세부 조항은 확인하지 못했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 미 상원 양당 협상단이 9월 30일 에너지·인프라 사업 건설을 빠르게 하면서 데이터센터발 비용을 억제하는 인허가 개혁 합의를 발표했다 [사실]",
+  "핵심 조항: 사업 반대 측의 소송 제기 기한을 6년에서 150일로 줄이는 방안이 거론되며, 상원 휴회로 표결은 11월 중간선거 뒤로 미뤄졌고 풍력·태양광 문제가 남아 있다 [사실]",
+  "가스관 지원: 미 에너지부는 10월 19일 국방물자법 3편 자금 최대 4,200만 달러를 펜실베이니아~뉴욕 약 125마일 컨스티튜션 가스관의 착공 전·인허가 작업에 지원한다고 발표했다 [사실]",
+  "한계: 이 결정은 주의 인허가 권한을 넘어서지 않아 뉴욕주 수질 인증이 여전히 관건이고, 호컬 주지사 측은 정치적 술책이라고 했으며 사업자 윌리엄스는 2028년 4분기 가동을 목표로 한다 [사실]",
+  "반응: 트릴리온은 전시 자금까지 끌어와 중단된 뉴욕행 관로 건설을 돕는다는 소식을 비꼬듯 전하며 화석연료 지원 행보에 주목했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미국 에너지 인허가 개혁·가스관 지원…상원 소송 기한 6년→150일 거론·국방물자법 4,200만 달러",
+ "id": "n-bbg-0425",
+ "incentive": "",
+ "inds": [
+  "gas",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "미 상원 양당, 에너지 인허가 개혁 합의 발표 — 표결은 11월 중간선거 뒤, 소송 제기 기한 6년→150일 거론",
+   "o": "로이터",
+   "d": "2026-09-30",
+   "u": "https://www.reuters.com/legal/litigation/us-senators-hit-deal-energy-project-permitting-bill-vote-seen-after-november-2026-09-30/",
+   "s": "미 상원 양당이 에너지 인허가 개혁 합의를 발표하고 소송 제기 기한을 6년에서 150일로 줄이는 방안이 거론됐지만, 표결은 11월 중간선거 뒤로 미뤄졌다"
+  },
+  {
+   "t": "미국, 전시법 동원해 멈춰 선 뉴욕 가스관 건설 지원",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/us-taps-wartime-funds-to-help-build-stalled-new-york-pipeline",
+   "s": "미 에너지부가 국방물자법 자금 최대 4,200만 달러를 컨스티튜션 가스관 인허가 작업에 대면서 뉴욕주 반대로 멈췄던 사업을 다시 밀고 있다"
+  },
+  {
+   "t": "미국, 전시 자금으로 중단된 뉴욕 송유관 건설 지원",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-20",
+   "u": "https://t.me/Trillion_labs/10872",
+   "s": "트릴리온은 미국이 전시 자금까지 끌어와 중단된 뉴욕행 관로 건설을 돕는다는 소식을 비꼬듯 전하며 화석연료 지원 행보에 주목했다"
+  }
+ ],
+ "key": "split-G2-189-2026-10-20",
+ "nodes": [
+  "gas/midstream",
+  "power/developers"
+ ],
+ "num": 425,
+ "one": "미국 에너지 인프라에서 상원 양당 협상단이 9월 30일 에너지·인프라 사업 건설을 빠르게 하고 데이터센터발 비용을 억제하는 인허가 개혁 합의를 발표해 사업 반대 측의 소송 제기 기한을 6년에서 150일로 줄이는 방안이 거론되지만 표결은 11월 중간선거 뒤로 미뤄졌고, 미 에너지부는 10월 19일 국방물자법 3편 자금 최대 4,200만 달러를 뉴욕주 반대로 멈춰 있던 펜실베이니아~뉴욕 약 125마일 컨스티튜션 가스관의 인허가 작업에 대기로 했지만(윌리엄스, 2028년 4분기 가동 목표) 뉴욕주 수질 인증이 여전히 관건이다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T01:43:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "미 에너지부",
+   "d": "2026-10-19",
+   "u": "https://www.energy.gov/articles/energy-department-advances-constitution-pipeline-project-42-million-defense-production-act"
+  },
+  {
+   "o": "Discovery Alert",
+   "d": "2026-10-19",
+   "u": "https://discoveryalert.com/news/constitution-pipeline-doe-funding-october-2026/"
+  },
+  {
+   "o": "The Hill(요약문)",
+   "d": "2026-09-30",
+   "u": "https://thehill.com/policy/energy-environment/6120853-permitting-reform-bipartisan-deal-infrastructure-energy-projects/"
+  }
+ ],
+ "tags": [],
+ "title": "미국 에너지 인허가 개혁·가스관 지원…상원 소송 기한 6년→150일 거론·국방물자법 4,200만 달러",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.reuters.com/legal/litigation/us-senators-hit-deal-energy-project-permitting-bill-vote-seen-after-november-2026-09-30/",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "국방물자법 4,200만 달러로 뉴욕행 가스관 인허가 지원"
+  },
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "상원 양당 인허가 개혁 합의, 소송 기한 150일 거론"
+  }
+ ]
+}

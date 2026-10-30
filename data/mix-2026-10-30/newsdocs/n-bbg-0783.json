@@ -1,0 +1,71 @@
+{
+ "basis": "channel",
+ "check": "이번 새 글(어닝콜 요약)의 FCF 마진·cRPO 가이던스는 따로 검색하지 않음. 구독 매출·EPS·전망은 기존 문서의 확인을 그대로 씀",
+ "cycles": [],
+ "facts": [
+  "무엇이: 서비스나우 주가가 3분기 실적과 4분기 전망 발표 뒤 시간외에서 크게 떨어졌고 애프터마켓에서 20% 가까이 내렸다는 전언이 있다 [채널]",
+  "실적: 3분기 구독 매출은 39억 8,800만 달러로 21%, 총매출은 41억 1,000만 달러로 예상 40억 9,000만 달러를 조금 웃돌았지만 조정 EPS 1.00달러는 예상 1.02달러에 못 미쳤다 [사실]",
+  "전망: 4분기 구독 매출 전망은 42억 4,500만~42억 5,500만 달러(22.5~23% 증가)이며 잔여수행의무는 297억 달러로 22% 늘었다 [사실]",
+  "AI: 2026년 AI 연간계약가치 목표를 17억 달러로 올렸고 AI 순신규 계약가치는 65% 늘었다 [사실]",
+  "수익성·둔화: 고정환율 구독 매출 20.5% 증가, 비GAAP 영업이익률 32.5%, FCF 마진 20%였고 연간 FCF 마진 전망을 35%에서 36%로 올렸지만 4분기 cRPO 성장률 가이던스는 18.5%다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "서비스나우 3분기 구독 매출 39.9억 달러 20.5%↑·FCF 마진 20%에도 AI 우려로 주가 급락",
+ "id": "n-bbg-0783",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "t": "서비스나우, 분기 매출 전망에 AI 우려 되살아나며 하락",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears"
+  },
+  {
+   "t": "서비스나우 3분기 어닝콜…구독 매출 20.5%↑·FCF 마진 20%",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-29",
+   "u": "https://t.me/insidertracking/67718",
+   "s": "서비스나우가 구독 매출 20.5% 증가와 FCF 마진 20%를 내고도 4분기 cRPO 성장률 18.5% 둔화를 예고하면서 주가가 애프터마켓에서 20% 가까이 빠졌다"
+  }
+ ],
+ "key": "mix-G-049-2026-10-29",
+ "nodes": [],
+ "num": 783,
+ "one": "서비스나우가 3분기 구독 매출을 늘렸지만 AI 우려가 다시 불거지며 주가가 시간외에서 크게 떨어졌다\n· 3분기 구독 매출은 39억 8,800만 달러로 21%(고정환율 20.5%) 늘었고 FCF 마진은 20%였다\n· 조정 EPS 1.00달러는 시장 예상 1.02달러에 못 미쳤다\n· 4분기 구독 매출 전망은 42억 4,500만~42억 5,500만 달러로 22.5~23% 증가 수준이다\n· AI 신규 ACV는 65% 늘었고 회사는 AI ACV 목표를 17억 달러로 올렸다\n· 4분기 cRPO 성장률 가이던스는 고정환율 기준 18.5%로 둔화될 전망이다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:24:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-28",
+   "o": "서비스나우 뉴스룸",
+   "u": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+  },
+  {
+   "d": "2026-10-28",
+   "o": "Investing.com 컨콜 전문",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-q3-2026-revenue-beats-shares-sink-after-hours-93CH-4981127"
+  }
+ ],
+ "tags": [],
+ "title": "서비스나우 3분기 구독 매출 39.9억 달러 20.5%↑·FCF 마진 20%에도 AI 우려로 주가 급락",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "수요",
+   "dir": "mixed",
+   "k": "실제",
+   "t": "구독 매출 21% 증가에도 4분기 cRPO 둔화 전망"
+  }
+ ],
+ "added": "텔레그램 1건 — 고정환율 20.5% 구독 매출 증가, FCF 마진 20%·연간 36%로 상향, 4분기 cRPO 18.5% 둔화 가이던스 내용이 추가됨",
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

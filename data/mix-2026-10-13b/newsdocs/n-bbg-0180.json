@@ -1,0 +1,61 @@
+{
+ "basis": "title",
+ "check": "새 블룸버그 글은 검색하지 않음, 제목 기준. 무브 관련 사실은 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 우버가 편의와 안전보다 비용이 앞서는 아프리카에서 후퇴하고 있습니다 [제목]",
+  "무브: 무브가 10월 8일 나이지리아 철수를 발표했으며, 우버가 9월 2일 나이지리아 철수를 밝힌 지 약 5주 만입니다 [사실]",
+  "이유: 무브 공동 CEO 라디 델라노는 우버 이탈로 사업 경제성이 바뀌어 기존 모델 유지가 어렵다고 설명했습니다 [사실]",
+  "정리: 무브는 350억 나이라 이상(약 2,200만~2,600만 달러)어치 차량 소유권을 운전자에게 넘깁니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "우버, 비용 경쟁에 {{아프리카서 후퇴}}…나이지리아 무브도 철수",
+ "id": "n-bbg-0180",
+ "incentive": "",
+ "inds": [
+  "consumer",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "t": "나이지리아 창업 무브, 우버 철수 뒤 나이지리아 떠나",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nigeria-founded-moove-to-exit-country-after-uber-pulled-out"
+  },
+  {
+   "t": "우버, 편의·안전보다 비용이 앞서는 아프리카에서 후퇴",
+   "o": "블룸버그",
+   "d": "2026-10-11",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/uber-retreats-in-africa-as-cost-comes-before-comfort-and-safety",
+   "s": "{{우버}}가 승객들이 편의와 안전보다 {{비용}}을 우선하는 아프리카 시장에서 사업을 줄이며 물러나고 있다 (제목 기준)"
+  }
+ ],
+ "key": "bnd-C164-2026-10-09",
+ "nodes": [],
+ "num": 180,
+ "one": "{{우버}}가 9월 나이지리아에서 철수한 데 이어 편의와 안전보다 비용이 앞서는 아프리카 시장에서 물러나고 차량금융 업체 {{무브}}도 현지 사업을 접으면서, {{현지 차량호출 시장}}에서 이탈이 이어지고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-13",
+ "published": "2026-10-11T16:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "Techpoint Africa",
+   "u": "https://techpoint.africa/news/moove-exit-nigeria-after-ubers-departure/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "The Guardian Nigeria",
+   "u": "https://guardian.ng/news/moove-ends-nigerian-operations-one-month-after-uber-exit/"
+  }
+ ],
+ "tags": [],
+ "title": "우버, 비용 경쟁에 {{아프리카서 후퇴}}…나이지리아 무브도 철수",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/nigeria-founded-moove-to-exit-country-after-uber-pulled-out",
+ "added": "이번 블룸버그 1건으로 우버가 {{비용 경쟁}} 탓에 나이지리아를 넘어 {{아프리카}} 시장에서 물러나고 있다는 분석이 추가됐다 (제목 기준)",
+ "updatedAt": "2026-10-13T15:19:07+09:00"
+}

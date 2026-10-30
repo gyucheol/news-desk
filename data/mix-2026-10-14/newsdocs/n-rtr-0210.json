@@ -1,0 +1,79 @@
+{
+ "basis": "verified",
+ "check": "마이클 페이지 3분기 실적과 지역별 수치는 검색 결과 요약으로 확인. 블룸버그 기사의 '채용업체 대표'가 누구인지와 발언 내용은 확인하지 못함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 마이클 페이지의 3분기 매출총이익은 1억 9,050만 파운드로 고정환율 기준 1.5% 늘어 2022년 4분기 이후 첫 분기 성장을 기록했다 [사실]",
+  "지역: 미주는 고정환율 기준 8.9%, 아시아태평양은 14.7% 늘었고(중화권 28%, 일본 23%, 인도 18%), EMEA는 3.8% 줄었으며 영국도 감소했다 [사실]",
+  "유럽 신호: 한 채용업체 대표는 유럽 채용 회복에 새싹이 보인다고 말했다 [제목]",
+  "기존 흐름: 헤이스의 1분기 순수수료는 3% 줄어 예상(4% 감소)보다 나았지만 정규직 수수료는 7% 줄었다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{마이클 페이지}}, 2022년 이후 {{첫 성장}}…{{美·아시아 회복}}, 유럽은 {{부진}}",
+ "id": "n-rtr-0210",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-12",
+   "o": "로이터",
+   "t": "英 채용업체 헤이스, 美·아시아 성장에 분기 순수수료 예상 상회",
+   "u": "https://www.reuters.com/business/british-recruiter-hays-tops-quarterly-net-fee-forecasts-strong-us-asia-growth-2026-10-12/"
+  },
+  {
+   "t": "채용업체 대표 '유럽 채용 회복에 새싹 신호 보여'",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/europe-recruitment-recovery-shows-green-shoots-hiring-boss-says",
+   "s": "{{채용업체 대표}}가 {{유럽 채용 회복}}에 {{새싹 신호}}가 {{보인다}}고 말하면서 길었던 {{유럽 고용 부진}}이 {{바닥을 지날}} 수 있다는 관측이 나왔다 (제목 기준)"
+  },
+  {
+   "t": "채용업체 마이클 페이지, 미주·아태 호조에 성장 복귀",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/uk/recruiter-michael-page-returns-growth-americas-asia-pacific-strength-2026-10-13/",
+   "s": "{{마이클 페이지}}가 미주(8.9%)·아시아태평양(14.7%) {{호조}}로 {{3분기 매출총이익이 1.5% 늘어}} {{성장}}에 {{복귀}}했지만 {{EMEA}}는 {{3.8% 줄었다}}"
+  }
+ ],
+ "key": "mix-C116-2026-10-13",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 210,
+ "one": "{{마이클 페이지}}가 {{미주·아시아태평양 호조}}로 3분기 {{매출총이익이 1.5% 늘어}} 2022년 이후 {{첫 성장}}에 {{복귀}}하고 {{헤이스}}도 예상보다 {{선방}}했지만, {{유럽·영국 채용}}은 여전히 {{줄어}} 채용 경기 {{회복}}이 {{지역별로 엇갈리고}} 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T18:22:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Finimize",
+   "u": "https://finimize.com/content/hays-fee-slide-hit-fourteen-quarters-but-the-us-held-up"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "Global Banking & Finance Review",
+   "u": "https://www.globalbankingandfinance.com/british-recruiter-hays-tops-quarterly-net-fee-forecasts/"
+  },
+  {
+   "o": "Staffing Industry Analysts",
+   "d": "2026-10-13",
+   "u": "https://www.staffingindustry.com/news/global-daily-news/michael-page-returns-to-growth-in-q3-as-apac-offsets-slump-in-europe"
+  },
+  {
+   "o": "Sharecast",
+   "d": "2026-10-13",
+   "u": "https://www.sharecast.com/news/news-and-announcements/michael-page-ftse-ftse-250-recruitment-jobs--23829904.html"
+  }
+ ],
+ "tags": [],
+ "title": "{{마이클 페이지}}, 2022년 이후 {{첫 성장}}…{{美·아시아 회복}}, 유럽은 {{부진}}",
+ "url": "https://www.reuters.com/business/british-recruiter-hays-tops-quarterly-net-fee-forecasts-strong-us-asia-growth-2026-10-12/",
+ "added": "이번 블룸버그·로이터 2건으로 {{마이클 페이지}}의 {{2022년 이후 첫 분기 성장}}과 {{아시아태평양 14.7% 증가}}, {{유럽 채용 회복의 새싹 신호}}가 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

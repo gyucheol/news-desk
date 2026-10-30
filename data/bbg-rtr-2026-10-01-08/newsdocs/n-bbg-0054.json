@@ -1,0 +1,46 @@
+{
+ "id": "n-bbg-0054",
+ "feed": "v5",
+ "format": "one1",
+ "num": 54,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1002-doe-vistra-nuclear-loan",
+ "published": "2026-10-02",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-02/us-to-offer-4-billion-loan-for-vistra-to-boost-nuclear-output",
+ "inds": [
+  "uranium"
+ ],
+ "nodes": [
+  "uranium/operators",
+  "uranium/policy"
+ ],
+ "title": "미 에너지부, 비스트라 원전 3곳 개보수·출력 증강에 최대 42억 달러 대출 약정",
+ "one": "미국 에너지부가 비스트라에 최대 42억 달러의 조건부 대출을 약정해 오하이오·펜실베이니아 원전 3곳의 개보수와 출력 증강을 지원하면서, 기존 원전 약 4GW의 운전 기간이 20년 늘고 433MW의 발전 능력이 새로 더해질 전망이다",
+ "headline": "미 에너지부, 비스트라 원전 3곳 개보수·출력 증강에 최대 42억 달러 대출 약정",
+ "facts": [
+  "무엇이: 미 에너지부 에너지우위금융국이 비스트라에 최대 42억 달러의 조건부 대출 약정을 발표했습니다(블룸버그는 10월 2일 '40억 달러 대출 제공 예정'으로 먼저 보도). [사실]",
+  "어디에: 대상은 펜실베이니아 비버밸리, 오하이오 데이비스-베시와 페리 원전이며, 텍사스 코만치피크의 향후 출력 증강 자금도 선택 사항으로 들어 있습니다. [사실]",
+  "얼마나: 에너지부는 약 4GW의 기저 전력을 지키고 433MW를 새로 더하며, 기존 면허보다 20년 더 운전하도록 뒷받침한다고 밝혔습니다. [사실]",
+  "조건: 비스트라가 기술·법률·환경·재무 조건을 충족해야 최종 계약과 자금 집행이 이뤄집니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 월드뉴클리어뉴스(10월 6일) 보도로 작성. 에너지부의 공식 발표일과 원전별 증강 규모는 확인 못 함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-02/us-to-offer-4-billion-loan-for-vistra-to-boost-nuclear-output"
+  },
+  {
+   "o": "월드뉴클리어뉴스",
+   "d": "2026-10-06",
+   "u": "https://www.world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "US to Offer $4 Billion Loan to Vistra for Nuclear Plant Upgrades"
+}

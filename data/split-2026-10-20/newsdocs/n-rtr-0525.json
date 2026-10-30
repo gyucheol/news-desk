@@ -1,0 +1,82 @@
+{
+ "id": "n-rtr-0525",
+ "num": 525,
+ "key": "split-G4-148-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/uk-will-not-raise-capital-gains-tax-same-level-income-tax-ft-reports-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "힐리, 예산안서 자본이득세 인상 배제…18%·24% 유지",
+ "headline": "힐리, 예산안서 자본이득세 인상 배제…18%·24% 유지",
+ "one": "FT가 10월 13일 영국이 자본이득세를 소득세 수준으로 올리지 않는다고 전한 데 이어 20일 더타임스가 힐리 재무장관이 성장·투자를 이유로 자본이득세 인상 자체를 배제했다고 보도하면서, 세수 확충은 은행 부담금 등 다른 수단에 기대게 됐다",
+ "facts": [
+  "무엇이: 더타임스 보도로 힐리 재무장관은 성장과 투자를 이유로 10월 28일 예산안에서 자본이득세(현재 18%·24%)를 올리지 않기로 했다 [사실]",
+  "앞선 보도: 10월 13일 FT는 영국이 자본이득세를 소득세 수준으로 올리지 않을 것이라고 전해 소폭 인상 여지는 남았지만, 20일 보도는 인상 자체를 배제했다 [사실]",
+  "재원: 생계비 지원 재원으로는 은행 부담금이 거론됐다 [사실]",
+  "재정 배경: IFS는 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 2건(13일 FT 인용, 20일 더타임스 인용)을 묶음. 원 문서 확인 기록상 더타임스의 자본이득세 인상 배제 보도와 은행 부담금 방안은 검색 결과 요약으로 확인. 두 보도의 인상 범위 차이는 최신 보도를 따름",
+ "src": [
+  {
+   "o": "Traders Union",
+   "d": "2026-10-13",
+   "u": "https://tradersunion.com/news/financial-news/show/3784513-uk-treasury-rejects-cgt-equalisation/"
+  },
+  {
+   "o": "The Negotiator",
+   "d": "2026-10-19",
+   "u": "https://thenegotiator.co.uk/news/regulation-law-news/healey-rules-out-big-increase-in-capital-gains-tax/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-19",
+   "u": "https://www.newsquawk.com/headlines/uk-chancellor-healey-has-ruled-out-raising-capital-gains-tax-in-the-october-28th-budget-amid-concerns-over-growth-and-investment-the-times-reports"
+  },
+  {
+   "o": "City AM",
+   "d": "2026-10",
+   "u": "https://www.cityam.com/uk-bank-bosses-and-john-healey-set-for-tax-showdown/"
+  }
+ ],
+ "items": [
+  {
+   "t": "FT '英, 자본이득세를 소득세 수준으로 올리지 않는다'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/uk-will-not-raise-capital-gains-tax-same-level-income-tax-ft-reports-2026-10-13/",
+   "s": "힐리 재무장관이 자본이득세를 소득세 수준으로 올리지 않기로 하면서 예산안의 증세 범위가 좁아지고 소폭 인상 여지만 남았다"
+  },
+  {
+   "t": "더타임스 '힐리, 예산안서 자본이득세 인상 배제'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/transactional/uks-healey-rules-out-capital-gains-tax-increase-budget-times-reports-2026-10-19/",
+   "s": "힐리 재무장관이 성장·투자를 이유로 예산안에서 자본이득세 인상을 배제하면서, 세수 확충은 은행 부담금 등 다른 수단에 기대게 됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "자본이득세 18%·24% 유지로 세율 변화 없음"
+  }
+ ]
+}

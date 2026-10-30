@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0626",
+ "num": 626,
+ "key": "split-G6-159-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/retail-consumer/second-hand-clothing-app-vinted-purges-suspected-stolen-goods-after-france-riots-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "빈티드, 프랑스 폭동 뒤 도난 의심 물품 정리…정부는 플랫폼에 협력 요구",
+ "headline": "빈티드, 프랑스 폭동 뒤 도난 의심 물품 정리…정부는 플랫폼에 협력 요구",
+ "one": "중고의류 앱 빈티드가 프랑스 폭동 뒤 도난 의심 물품을 걸러내고 계정 영구 정지를 예고하고 정부도 빈티드·아마존·이베이 등에 경찰 협력을 요구하면서, 온라인 플랫폼의 약탈품 유통 차단 부담이 커지고 있다",
+ "facts": [
+  "무엇이: 향수·명품 가방·화장품 등 도난 의심 물품이 중고 플랫폼에 올라오자 빈티드는 감시를 강화하고 계정 영구 정지 등 조치를 하겠다고 했다 [사실]",
+  "정부: 프랑스 정부는 빈티드·아마존·이베이·메타·틱톡에 경찰과 협력해 도난품 판매를 막으라고 요구했다 [사실]",
+  "배경: 폭동으로 까르푸 매장 50곳을 비롯해 프랑스 전역 약 1,500개 사업체가 피해를 입었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 빈티드 대응과 정부의 플랫폼 협력 요구는 검색 결과 요약(Retail Gazette·RetailDetail)으로 확인",
+ "src": [
+  {
+   "o": "Retail Gazette",
+   "d": "2026-10",
+   "u": "https://www.retailgazette.co.uk/blog/2026/10/france-riots-vinted/"
+  },
+  {
+   "o": "RetailDetail",
+   "d": "2026-10",
+   "u": "https://www.retaildetail.eu/news/general/french-riots-damage-3000-stores-sephora-closes-all-locations-carrefour-fears-million-euro-bill/"
+  }
+ ],
+ "items": [
+  {
+   "t": "중고의류 앱 빈티드, 프랑스 폭동 뒤 도난 의심 물품 정리",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/retail-consumer/second-hand-clothing-app-vinted-purges-suspected-stolen-goods-after-france-riots-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "consumer",
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "빈티드 도난 의심 물품 걸러내고 계정 정지 예고"
+  }
+ ]
+}

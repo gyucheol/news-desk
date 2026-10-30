@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0583",
+ "num": 583,
+ "key": "split-G6-065-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/codelco-races-to-rescue-workers-after-accident-at-chilean-mine",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "코델코 엘테니엔테 광산 눈사태·토사 유출로 하청 노동자 2명 사망…노천광 중단",
+ "headline": "코델코 엘테니엔테 광산 눈사태·토사 유출로 하청 노동자 2명 사망…노천광 중단",
+ "one": "칠레 코델코 엘테니엔테 광산에 눈사태·토사 유출이 덮쳐 하청 노동자 2명이 숨지자 규제당국이 남쪽 노천광 작업을 중단시켰지만, 멈춘 노천광은 생산의 10% 미만이고 지하 작업은 정상 가동 중이다",
+ "facts": [
+  "무엇이: 칠레 코델코 엘테니엔테 광산에 눈사태가 덮쳐 하청 노동자 2명이 숨지면서 규제당국이 남쪽 노천광 작업을 중단시켰고, 블룸버그는 또다시 사망자가 나왔다고 10월 12일 전했다 [사실]",
+  "피해 집계: 로이터는 토사 유출로 노동자 3명이 피해를 입었다고 전해 매체별 집계가 다르다 [사실]",
+  "생산 영향: 멈춘 노천광은 생산의 10% 미만이며 지하 작업은 정상 가동 중이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 The Rio Times(눈사태)·Discovery Alert(토사 유출) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "The Rio Times",
+   "d": "2026-10-12",
+   "u": "https://www.riotimesonline.com/chile-el-teniente-avalanche-2026/"
+  },
+  {
+   "o": "Discovery Alert",
+   "d": "2026-10-11",
+   "u": "https://discoveryalert.com/news/el-teniente-mudslide-codelco-workers-trapped-october-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "칠레 코델코 구리광산에 눈사태, 또다시 사망자 발생",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/codelco-races-to-rescue-workers-after-accident-at-chilean-mine",
+   "s": "코델코 엘테니엔테 광산에 눈사태가 덮쳐 하청 노동자 2명이 숨지면서 규제당국이 남쪽 노천광 작업을 중단시켰다"
+  },
+  {
+   "t": "칠레 코델코, 엘테니엔테 광산 토사 유출로 노동자 3명 피해",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/americas/chiles-codelco-reports-mudslide-el-teniente-mine-three-workers-affected-2026-10-11/",
+   "s": "코델코 엘테니엔테 광산에서 토사가 유출돼 노동자 3명이 피해를 입었지만 생산의 10% 미만인 노천광만 멈춰 지하 작업은 정상 가동 중이다"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "엘테니엔테 노천광 작업 중단, 생산 10% 미만"
+  }
+ ]
+}

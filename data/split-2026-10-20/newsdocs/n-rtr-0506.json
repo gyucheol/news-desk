@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0506",
+ "num": 506,
+ "key": "split-G4-078-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/europes-bond-market-turmoil-shines-spotlight-hedge-funds-role-key-markets-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유럽 채권시장 혼란, 핵심 시장 속 헤지펀드 역할에 관심",
+ "headline": "유럽 채권시장 혼란, 핵심 시장 속 헤지펀드 역할에 관심",
+ "one": "로이터가 10월 16일 유럽 채권시장 혼란이 국채 등 핵심 시장에서 헤지펀드가 맡는 역할을 드러냈다고 짚으면서, 프랑스-독일 금리차 급변 속 레버리지 포지션의 위험에 시선이 쏠리고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 16일 유럽 채권시장 혼란이 핵심 시장에서 헤지펀드의 역할에 관심을 모으고 있다고 전했다 [제목]",
+  "흐름: 프랑스-독일 금리차는 10월 5일 145bp를 넘었다가 15일 유럽 금리 급락에 130bp대로 좁혀지는 등 크게 출렁였다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "유럽 채권시장 혼란, 핵심 시장 속 헤지펀드 역할에 관심",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/europes-bond-market-turmoil-shines-spotlight-hedge-funds-role-key-markets-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "유럽 채권 혼란 속 헤지펀드 역할에 관심"
+  }
+ ]
+}

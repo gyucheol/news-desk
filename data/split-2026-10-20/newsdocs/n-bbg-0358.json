@@ -1,0 +1,76 @@
+{
+ "basis": "verified",
+ "check": "블룸버그·로이터(모두 10월 19일) 기사를 묶음. 중국대사 초치와 발언 내용은 Rappler·Manila Times·Taipei Times 검색 결과로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 필리핀 테레사 라사로 외교장관은 19일 징취안 중국대사를 불러 무력 사용 위협을 담았다고 본 10월 15일 발언에 강하게 항의했다 [사실]",
+  "발언: 징 대사는 테오도로 국방장관이 중국을 지역의 말썽꾼이라 부른 데 맞서 중국은 쉽게 이길 수 있지만 평화를 사랑해 무력을 쓰지 않겠다고 말했다 [사실]",
+  "반응: 중국 외교부는 대사를 두둔하며 필리핀의 반응이 과잉이라고 했고, 필리핀 일부 상원의원은 대사 추방을 요구했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "필리핀, '무력 사용' 위협 발언 문제 삼아 징취안 중국대사 초치",
+ "id": "n-bbg-0358",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "필리핀, '무력 사용' 위협 발언에 중국대사 초치",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/philippines-summons-china-envoy-over-use-of-force-threat",
+   "s": "필리핀 외교부가 무력 사용 위협을 담았다고 본 징취안 대사의 발언을 문제 삼아 대사를 초치하면서, 양국 외교 갈등이 공식 항의로 번졌다"
+  },
+  {
+   "t": "필리핀, 위협을 전달한 발언 두고 중국대사 초치",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/china/philippines-summons-chinas-envoy-over-remarks-conveying-threat-2026-10-19/",
+   "s": "필리핀이 테오도로 국방장관을 겨냥한 중국대사의 발언을 위협으로 규정하자 중국 외교부가 과잉 반응이라고 맞서면서, 양국 공방이 이어지고 있다"
+  }
+ ],
+ "key": "mix-G1-026-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 358,
+ "one": "필리핀 라사로 외교장관이 19일 무력 사용 위협을 담았다고 본 징취안 중국대사의 10월 15일 발언을 문제 삼아 대사를 초치하고 중국 외교부가 과잉 반응이라고 맞서면서, 양국 갈등이 공식 외교 공방으로 번졌다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T17:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Rappler",
+   "d": "2026-10-19",
+   "u": "https://rappler.com/philippines/lazaro-summons-china-jing-quan-october-2026"
+  },
+  {
+   "o": "The Manila Times",
+   "d": "2026-10-19",
+   "u": "https://www.manilatimes.net/2026/10/19/news/dfa-summons-chinese-envoy-to-manila-over-recent-remarks-vs-ph/2448369"
+  },
+  {
+   "o": "Taipei Times",
+   "d": "2026-10-20",
+   "u": "https://www.taipeitimes.com/News/world/archives/2026/10/20/2003866304"
+  }
+ ],
+ "tags": [],
+ "title": "필리핀, '무력 사용' 위협 발언 문제 삼아 징취안 중국대사 초치",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/philippines-summons-china-envoy-over-use-of-force-threat",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "수급 영향은 불분명한 중·필리핀 외교 마찰 격화"
+  }
+ ]
+}

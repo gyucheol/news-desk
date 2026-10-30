@@ -1,0 +1,115 @@
+{
+ "added": "이번 블룸버그·로이터 3건으로 서던캘리포니아에디슨의 최대 24만 5,700 고객 단전 경고와 남부 지역 실제 단전 시작이 추가됐다",
+ "basis": "verified",
+ "check": "에디슨 단전 예고 규모와 실제 단전 시작은 검색 결과 요약으로 확인. 보도마다 고객 수가 24만 5천~26만으로 달라 로이터 수치를 씀",
+ "cycles": [],
+ "facts": [
+  "무엇이: 서던캘리포니아에디슨은 10월 14일 산불 위험에 최대 24만 5,700 고객의 공공안전 단전 가능성을 경고했고, 그중 약 12만 4천 고객이 벤투라 카운티다 [사실]",
+  "실행: 서던캘리포니아에디슨은 LA·벤투라 카운티에서 1만 7천여 고객의 단전을 시작했다 [사실]",
+  "기간: 위험 기상은 목요일 아침부터 토요일까지 이어질 전망이고, 재송전 전 설비 점검에 통상 최대 8시간이 걸린다 [사실]",
+  "기존: PG&E는 10월 9일부터 북부 카운티에서 약 1만~1만 1천 고객 단전을 시행했다 [사실]",
+  "확대: 캘리포니아 전력사들이 산불 위험 증가에 단전 범위를 넓혔다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "캘리포니아 전력사들 산불 위험에 단전 확대…에디슨 최대 24만여 고객 검토",
+ "id": "n-bbg-0175",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "블룸버그",
+   "s": "PG&E가 {{강풍 예보 속에 17개 카운티 일부}} 약 {{1만 2,200 고객}}에게 {{주말 단전 가능성}}을 통보하면서 {{북부 캘리포니아 주민들이 정전에 대비}}하게 됐다",
+   "t": "PG&E, 강풍 속 주말 단전 가능성 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "블룸버그",
+   "s": "PG&E가 {{산불 위험이 커지}}자 예방 단전을 시작해 12일에도 {{섀스타·테하마·글렌의 약 1만 고객}}이 {{전기가 끊긴 채 복구를 기다리}}고 있다",
+   "t": "PG&E, 캘리포니아 산불 위험 커지자 예방 단전 시작",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/pg-e-begins-preemptive-power-cuts-as-california-fire-risk-rises"
+  },
+  {
+   "t": "캘리포니아 산불 위험에 전력사들 광범위 단전 채비",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/edison-eyes-power-shutoffs-for-246-000-customers-on-fire-risk",
+   "s": "캘리포니아 산불 위험이 커지면서 전력사들이 광범위한 단전을 준비했고, 에디슨은 약 24만 5천 고객의 단전을 검토했다"
+  },
+  {
+   "t": "서던캘리포니아에디슨, 산불 관련 단전 가능성 경고",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/legal/litigation/southern-california-edison-warns-potential-wildfire-related-power-shutoffs-2026-10-14/",
+   "s": "서던캘리포니아에디슨이 최대 24만 5,700 고객의 전력을 끊을 수 있다고 경고하면서 실제 단전 여부는 실시간 기상 조건을 보고 정하기로 했다"
+  },
+  {
+   "t": "캘리포니아 전력사들, 산불 위험 커지자 단전 확대",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/pg-e-ramps-up-california-power-shutoffs-on-rising-fire-risk",
+   "s": "산불 위험이 높아지자 PG&E 등 캘리포니아 전력사들이 단전 범위를 넓히면서 남부에서는 LA·벤투라 카운티 1만 7천여 고객의 전기가 끊겼다"
+  }
+ ],
+ "key": "bnd-C159-2026-10-09",
+ "nodes": [
+  "power/grid"
+ ],
+ "num": 175,
+ "one": "PG&E에 이어 서던캘리포니아에디슨이 산불 위험에 최대 24만 5,700 고객의 예방 단전을 예고하고 LA·벤투라 카운티 1만 7천여 고객의 전기를 실제로 끊으면서, 캘리포니아 전력사들의 단전이 북부에서 남부로 번지고 있다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T21:58:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Insurance Journal",
+   "u": "https://www.insurancejournal.com/news/west/2026/10/09/888527.htm"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "ABC10",
+   "u": "https://www.abc10.com/article/news/local/california/potential-pge-power-shutoffs-could-affect-17-california-counties/103-28018f82-95ec-429e-b2f3-830a7de80690"
+  },
+  {
+   "d": "2026-10-11",
+   "o": "PG&E",
+   "u": "https://www.pge.com/en/newsroom/currents/safety/potential-public-safety-power-shutoff-could-impact-small-portion.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "KRCR",
+   "u": "https://krcrtv.com/news/local/pge-confirms-wind-driven-shutoffs-nearly-10000-northstate-customers-affected-monday"
+  },
+  {
+   "o": "KTLA",
+   "d": "2026-10-15",
+   "u": "https://ktla.com/news/california/red-flag-warning-power-shutoffs-southern-california/"
+  },
+  {
+   "o": "WHTC",
+   "d": "2026-10-14",
+   "u": "https://whtc.com/2026/10/14/southern-california-edison-warns-of-potential-wildfire-related-power-shutoffs/"
+  }
+ ],
+ "tags": [],
+ "title": "캘리포니아 전력사들 산불 위험에 단전 확대…에디슨 최대 24만여 고객 검토",
+ "updatedAt": "2026-10-16T07:31:48+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/pg-e-warns-of-possible-weekend-power-shutoffs-amid-windy-weather",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "grid",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "산불 위험에 캘리포니아 전력사 예방 단전 확대"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0424",
+ "num": 424,
+ "key": "split-G2-170-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/drones-hit-russian-industrial-site-deep-in-western-siberia",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "드론, 러 최대 산유지 서시베리아 수르구트 인근 산업시설 타격",
+ "headline": "드론, 러 최대 산유지 서시베리아 수르구트 인근 산업시설 타격",
+ "one": "드론이 16일 러시아 최대 산유 지역인 서시베리아 수르구트 인근 산업시설을 때려 불이 나면서, 우크라이나의 공격 범위가 2,500km 넘게 떨어진 러시아 에너지 중심지까지 넓어졌다",
+ "facts": [
+  "무엇이: 16일 드론이 러시아 최대 산유 지역인 서시베리아 수르구트 인근 산업시설을 때려 불이 났다 [사실]",
+  "거리: 공격 지점은 2,500km 넘게 떨어진 에너지 중심지로, 우크라이나의 공격 범위가 넓어졌다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 1건. src 모스크바타임스(러시아 최대 산유 지역 에너지 시설 드론 피격) 제목으로 뒷받침",
+ "src": [
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-16",
+   "u": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
+  }
+ ],
+ "items": [
+  {
+   "t": "서시베리아 깊숙한 러시아 산업시설에 드론 공격",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/drones-hit-russian-industrial-site-deep-in-western-siberia"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "서시베리아 최대 산유 지역 시설 드론 피격"
+  }
+ ]
+}

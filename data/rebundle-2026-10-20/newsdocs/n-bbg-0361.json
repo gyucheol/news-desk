@@ -1,0 +1,60 @@
+{
+ "basis": "title",
+ "check": "블룸버그·로이터(10월 19일) 기사 2건을 묶었다. 독립 출처로 확인하지 못해 제목 기준이며, 지수 수치는 기사 제목에 없어 쓰지 않았다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 남아공 9월 기업신뢰지수가 유가 불확실성 탓에 소폭 내렸다 [제목]",
+  "안정세: 블룸버그는 이란 전쟁이 이어지는데도 남아공 기업 심리가 크게 흔들리지 않고 안정됐다고 전했다 [제목]",
+  "엇갈린 신호: 지수는 소폭 내렸지만 경기 급랭 우려는 덜해졌고, 기업들은 연료비 부담을 경계하고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "남아공 기업심리…9월 기업신뢰지수 유가 불확실성에 소폭 하락, 이란 전쟁에도 대체로 안정",
+ "id": "n-bbg-0361",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "이란 전쟁 이어지는데도 남아공 기업 심리는 안정세",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-s-business-mood-steadies-despite-ongoing-iran-war",
+   "s": "이란 전쟁이 이어지는데도 남아공 기업 심리가 크게 흔들리지 않고 안정되면서 경기 급랭 우려가 일단 덜해졌다 (제목 기준)"
+  },
+  {
+   "t": "남아공 9월 기업신뢰지수, 유가 불확실성에 소폭 하락",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/africa/south-african-business-confidence-eases-slightly-september-oil-price-uncertainty-2026-10-19/",
+   "s": "유가 불확실성 탓에 남아공 9월 기업신뢰지수가 소폭 내리면서 기업들이 연료비 부담을 경계하고 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-018-2026-10-20",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 361,
+ "one": "이란 전쟁에 따른 유가 불확실성 속 남아공 경기에서 9월 기업신뢰지수가 유가 불확실성 탓에 소폭 내렸다고 로이터가 전했지만, 블룸버그는 이란 전쟁이 이어지는데도 남아공 기업 심리가 크게 흔들리지 않고 안정세를 보였다고 전해, 기업들이 연료비 부담을 경계하는 가운데서도 경기 급랭 우려는 일단 덜해졌다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-19T22:40:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "남아공 기업심리…9월 기업신뢰지수 유가 불확실성에 소폭 하락, 이란 전쟁에도 대체로 안정",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-s-business-mood-steadies-despite-ongoing-iran-war",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "flat",
+   "k": "실제",
+   "t": "9월 기업신뢰지수 소폭 하락했지만 대체로 안정"
+  }
+ ]
+}

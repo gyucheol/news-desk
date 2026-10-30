@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0596",
+ "num": 596,
+ "key": "split-G6-107-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:55:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/supermarket-cyberattacks-add-to-food-security-threats",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "슈퍼마켓 사이버공격, 식품 안보 위협을 키운다",
+ "headline": "슈퍼마켓 사이버공격, 식품 안보 위협을 키운다",
+ "one": "슈퍼마켓을 겨냥한 사이버공격이 프랑스 매장 약 700곳과 아홀드 델레이즈로 이어지면서, 이미 쌓여 있던 식품 안보 위협 요인이 하나 더 늘었다는 분석이 나왔고 매장 공급 차질과 식품 폐기 손실이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 슈퍼마켓을 겨냥한 사이버공격이 식품 안보 위협을 키운다고 분석했다 [제목]",
+  "사례: 프랑스 슈퍼마켓 약 700곳이 냉장 관리 소프트웨어 공격을 받았고, 아홀드 델레이즈 물류망도 영향을 받아 문을 연 매장들이 물량 확보에 어려움을 겪었다 [사실]",
+  "손실: 보험사들은 식품 폐기 같은 물리적 손실은 대개 보상하지 않는다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 사례 수치는 원 문서가 검색 결과로 확인한 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "슈퍼마켓 사이버공격, 식품 안보 위협을 키운다",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/supermarket-cyberattacks-add-to-food-security-threats"
+  }
+ ],
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "슈퍼마켓 사이버공격에 식품 공급 차질 우려"
+  }
+ ]
+}

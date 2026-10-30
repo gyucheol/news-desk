@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0414",
+ "num": 414,
+ "key": "split-G2-098-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T21:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/russia-s-oil-exports-slow-as-black-sea-loading-takes-longer",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "흑해 선적 시간 길어지며 러시아 원유 수출 속도 둔화",
+ "headline": "흑해 선적 시간 길어지며 러시아 원유 수출 속도 둔화",
+ "one": "흑해 항구의 선적 시간이 길어지면서 러시아 원유 수출 속도가 둔화해, 흑해발 인도행 수에즈맥스 운임이 사상 최고로 뛴 가운데 세계 원유 공급이 더 빠듯해질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 흑해 항구 선적 시간이 길어지면서 러시아 원유 수출이 둔화했다 [제목]",
+  "운임: 흑해발 인도행 수에즈맥스 운임은 2,700만~3,000만 달러로 뛰었다 [사실]",
+  "영향: 수출 둔화가 이어지면 세계 원유 공급이 더 빠듯해질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "흑해 선적 시간 길어지며 러시아 원유 수출 속도 둔화",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/russia-s-oil-exports-slow-as-black-sea-loading-takes-longer"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "흑해 선적 지연으로 러시아 원유 수출 둔화"
+  }
+ ]
+}

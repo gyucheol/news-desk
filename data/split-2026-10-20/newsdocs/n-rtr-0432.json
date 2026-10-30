@@ -1,0 +1,58 @@
+{
+ "id": "n-rtr-0432",
+ "num": 432,
+ "key": "split-G2-075-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "독일, 비상 가스 비축 재원 소비자 부담금으로…가구 연 최대 7.20유로",
+ "headline": "독일, 비상 가스 비축 재원 소비자 부담금으로…가구 연 최대 7.20유로",
+ "one": "독일이 새 비상 가스 비축을 소비자 부담금으로 충당하는 초안을 마련하면서, 가구가 2027년 10월부터 연 최대 7.20유로를 부담하게 돼 겨울 가스 공급 대비 비용이 소비자에게 넘어갈 수 있다",
+ "facts": [
+  "무엇이: 독일이 새 비상 가스 비축 재원을 소비자 부담금으로 마련하는 초안을 만들었다 [사실]",
+  "부담: 가구는 2027년 10월부터 연 최대 7.20유로를 내게 될 수 있다 [사실]",
+  "배경: 9월 29일 유럽 가스 저장률은 71.5%로 2011년 집계 이후 같은 날 기준 최저였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 독일 경제부의 비축 재원 부담금 초안 보도(한델스블라트 인용)를 독립 출처로 확인했고, 부담액 7.20유로는 기사 요약 기준",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-13",
+   "u": "https://www.newsquawk.com/headlines/germanys-ministry-of-economic-affairs-reportedly-plans-to-finance-a-planned-national-crisis-gas-reserve-via-a-levy-handelsblatt-reports-citing-a-draft"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일, 새 비상 가스 비축 재원을 소비자 부담금으로 마련(초안)",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/energy/germany-fund-new-emergency-gas-reserve-via-consumer-levy-draft-says-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/regas"
+ ],
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "regas",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "독일 새 비상 가스 비축 신설 초안, 재원은 소비자 부담금"
+  }
+ ]
+}

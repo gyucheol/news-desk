@@ -1,0 +1,78 @@
+{
+ "id": "n-tg-0626",
+ "num": 626,
+ "key": "split-G4-123-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70019",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "英 30년물 국채금리 6.02%로 1998년 이후 최고…10년물 19년 만의 최고",
+ "headline": "英 30년물 국채금리 6.02%로 1998년 이후 최고…10년물 19년 만의 최고",
+ "one": "영국 30년물 국채금리가 10월 7일 12bp 올라 6.02%로 1998년 이후 최고를 찍은 데 이어 8일 유가 급등에 10년물 차입 비용도 19년 만의 최고로 오르면서, 10월 28일 예산안을 앞둔 영국 정부의 장기 차입·이자 부담이 커질 수 있다",
+ "facts": [
+  "무엇이: 10월 7일 영국 30년물 국채금리는 12bp 올라 6.02%로 1998년 이후 최고를 기록했다 [사실]",
+  "10년물: 10월 8일 유가 급등에 영국 10년물 차입 비용이 19년 만에 최고로 올랐다 [사실]",
+  "채널 전언: 7일 기준 10년물 금리도 5.5%에 근접했다 [채널]",
+  "영향: 장기 금리 상승으로 10월 28일 예산안을 앞둔 영국 정부의 장기 차입과 국채 이자 부담이 커질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 하나증권 중국전략(30년물 6.02%)과 로이터(10년물 19년 최고)를 묶음. 원 문서 사실에서 30년물 6.02%·10년물 19년 최고는 [사실]이며 출처 목록의 Global Banking & Finance Review·서울경제·Trading Economics가 뒷받침. 10년물 5.5% 근접은 채널 전언",
+ "src": [
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-07",
+   "u": "https://www.globalbankingandfinance.com/uk-30-year-gilt-yields-hit-28-year-high-global-selloff/"
+  },
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-02",
+   "u": "https://en.sedaily.com/international/2026/10/02/uk-30-year-yield-tops-6-percent-for-first-time-since-1998"
+  },
+  {
+   "o": "Trading Economics",
+   "d": "2026-10-08",
+   "u": "https://tradingeconomics.com/united-kingdom/government-bond-yield"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국 30년물 국채금리 6.02%…1998년 이후 최고, 10년물도 5.5% 근접",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-07",
+   "u": "https://t.me/HANAchina/70019",
+   "s": "영국 30년물 국채금리가 12bp 올라 6.02%로 1998년 이후 최고를 기록하면서 영국 정부의 장기 차입 부담이 커질 수 있다"
+  },
+  {
+   "t": "유가 급등에 영국 10년물 차입 비용 19년 만에 최고로 상승",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/us/uk-10-year-borrowing-costs-rise-19-year-high-after-oil-prices-jump-2026-10-08/",
+   "s": "유가 급등에 영국 10년물 차입 비용이 19년 만에 최고로 오르면서 영국 정부의 국채 이자 부담이 커질 수 있다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국 30년물 6.02%로 1998년 이후 최고"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

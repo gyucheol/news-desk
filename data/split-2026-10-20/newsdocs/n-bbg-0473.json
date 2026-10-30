@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0473",
+ "num": 473,
+ "key": "split-G4-060-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/europe-s-bond-market-turbulence-puts-ecb-repo-funding-into-focus",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유럽 채권시장 혼란에 ECB 레포 자금 공급 주목",
+ "headline": "유럽 채권시장 혼란에 ECB 레포 자금 공급 주목",
+ "one": "블룸버그에 따르면 프랑스발 유럽 채권시장 혼란이 이어지자 ECB의 레포 자금 공급이 주목받고 있어, 국채 매도세가 커지면 시장 유동성을 받쳐 줄 장치로 ECB 레포의 역할이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 유럽 채권시장 혼란으로 ECB 레포 자금 공급이 주목받고 있다(10월 9일 블룸버그) [제목]",
+  "배경: 10월 5일 프랑스-독일 10년물 금리차가 145bp를 넘어 유로존 위기 이후 최대였다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 9일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "유럽 채권시장 혼란에 ECB 레포 자금 공급 주목",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/europe-s-bond-market-turbulence-puts-ecb-repo-funding-into-focus"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "유럽 채권 혼란에 ECB 레포 자금 공급 주목"
+  }
+ ]
+}

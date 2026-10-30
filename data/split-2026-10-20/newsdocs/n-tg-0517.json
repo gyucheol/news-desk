@@ -1,0 +1,91 @@
+{
+ "id": "n-tg-0517",
+ "num": 517,
+ "key": "split-G3-047-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/TNBfolio/71510",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "CXMT 서버용 DDR5 진전에 마이크론 4%·美 반도체지수 2.7% 하락",
+ "headline": "CXMT 서버용 DDR5 진전에 마이크론 4%·美 반도체지수 2.7% 하락",
+ "one": "중국 CXMT가 연말 전 4F² 서버용 DDR5 출시 등 메모리 기술 진전을 내놓자 13일 마이크론이 4%, 필라델피아 반도체지수가 2.7% 떨어지고 AI 지출 불안까지 겹쳐 미국 반도체주 하락이 이어지면서, 메모리 공급 경쟁 우려가 커졌다",
+ "facts": [
+  "무엇이: 중국 CXMT가 연말 전 4F² 구조 서버용 DDR5를 내놓는 등 메모리 기술 진전을 알리자 13일 마이크론 주가가 4%, 필라델피아 반도체지수가 2.7% 떨어졌다 [채널]",
+  "업종: 마이크론 하락으로 기술 섹터가 S&P 500 업종 가운데 하락률 1위를 기록했다 [채널]",
+  "로이터: 미국 반도체주는 중국 메모리 기술 보도와 AI 지출 불안이 겹치며 하락을 이어갔고 마이크론 등 메모리주의 낙폭이 커졌다 [사실]",
+  "반응: 머스크는 중국의 대량생산 능력이 압도적이라고 평가했고, 파이슨 CEO는 CXMT의 4F² 출시설을 허구라고 반박했다 [채널]",
+  "반대 시각: 씨티는 CXMT가 4세대 뒤처져 있어 2028년 전에는 공급 영향이 제한적이라고 봤다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 2건(TNBfolio·하나증권)과 로이터 1건을 묶음. 원 문서 사실 줄에서 이 사건은 채널 전언이고, src 가운데 Invezz(CXMT 위협에 마이크론·SK하이닉스 하락)와 TrendForce(연말 서버용 DDR5 출시 추진) 제목이 사건을 뒷받침함",
+ "src": [
+  {
+   "o": "Invezz",
+   "d": "2026-10-13",
+   "u": "https://invezz.com/ng/news/2026/10/13/micron-sk-hynix-stocks-continue-fall-on-cxmt-threat-cathie-wood-musk-weigh-in/"
+  },
+  {
+   "o": "TrendForce",
+   "d": "2026-10-12",
+   "u": "https://www.trendforce.com/news/2026/10/12/news-cxmt-accelerates-4f%C2%B2-dram-push-eyes-year-end-server-ddr5-rdimm-launch/"
+  }
+ ],
+ "items": [
+  {
+   "t": "CXMT 메모리 경쟁 선언에 마이크론 4% 하락, 기술주 약세",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-13",
+   "u": "https://t.me/TNBfolio/71510",
+   "s": "중국 CXMT가 미국·한국 기업과 경쟁할 메모리 생산을 선언하자 마이크론 주가가 4% 떨어지며 기술 섹터를 S&P 500 하락률 1위로 끌어내렸다"
+  },
+  {
+   "t": "CXMT DDR5 진전에 美 반도체지수 2.7% 하락…머스크 \"中 대량생산 능력 압도적\"",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70344",
+   "s": "CXMT의 서버용 DDR5 기술 진전 발표 뒤 필라델피아 반도체지수가 2.7% 내리고 머스크가 중국의 대량생산 능력을 높이 평가하면서, 메모리 경쟁 우려가 커졌다"
+  },
+  {
+   "t": "미 반도체주, 중국 메모리 보도·AI 지출 불안에 하락 이어가",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/",
+   "s": "중국 메모리 기술 보도와 AI 지출 불안이 겹치면서 미국 반도체주가 하락을 이어가, 마이크론 등 메모리주의 낙폭이 커지고 있다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "CXMT 4F² 서버용 DDR5 연내 출시 추진"
+  },
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "마이크론 4%·필라델피아 반도체지수 2.7% 하락"
+  }
+ ],
+ "channel": "TNBfolio",
+ "ind": "semis"
+}

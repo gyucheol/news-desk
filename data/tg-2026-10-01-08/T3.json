@@ -1,0 +1,146 @@
+[
+ {
+  "post": "Onionfarmer/18047",
+  "key": "tg-Onionfarmer-18047",
+  "channel": "양파농장",
+  "url": "https://t.me/Onionfarmer/18047",
+  "published": "2026-10-08T12:17:51+09:00",
+  "gist": "텍사스 ERCOT 대형 신규 부하 대기열 2024년 말 63GW→6월 474GW, 대기열 일시 중단·데이터센터 허가 동결",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/grid",
+   "power/demand"
+  ],
+  "also": "Onionfarmer/18048·18049·18051"
+ },
+ {
+  "post": "TNBfolio/71464",
+  "key": "tg-TNBfolio-71464",
+  "channel": "TNBfolio",
+  "url": "https://t.me/TNBfolio/71464",
+  "published": "2026-10-08T08:48:15+09:00",
+  "gist": "한국 정부, 미국 원전 시장 진출 앞두고 웨스팅하우스에 지분(투자) 검토",
+  "inds": [
+   "uranium"
+  ],
+  "nodes": [
+   "uranium/build",
+   "uranium/policy"
+  ],
+  "also": ""
+ },
+ {
+  "post": "w_compass/7177",
+  "key": "tg-w_compass-7177",
+  "channel": "부의 나침반",
+  "url": "https://t.me/w_compass/7177",
+  "published": "2026-10-05T21:05:09+09:00",
+  "gist": "골드만: 미 데이터센터 용량 2026년 말 64GW(+5GW 상향), 2027년 말 90GW(-5GW 하향), 2027년 전력 수요 +17GW",
+  "inds": [
+   "power",
+   "macro"
+  ],
+  "nodes": [
+   "power/demand",
+   "macro/semis"
+  ],
+  "also": ""
+ },
+ {
+  "post": "w_compass/7174",
+  "key": "tg-w_compass-7174",
+  "channel": "부의 나침반",
+  "url": "https://t.me/w_compass/7174",
+  "published": "2026-10-05T14:50:15+09:00",
+  "gist": "PJM 용량 경매가 상한, 예비율 3년 연속 목표(20%) 미달",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/market",
+   "power/grid"
+  ],
+  "also": "w_compass/7173"
+ },
+ {
+  "post": "Onionfarmer/18025",
+  "key": "tg-Onionfarmer-18025",
+  "channel": "양파농장",
+  "url": "https://t.me/Onionfarmer/18025",
+  "published": "2026-10-05T13:57:13+09:00",
+  "gist": "JPM 싱가포르 데이터센터 월드: 800V DC 도입 지연, 하이브리드 AC/DC가 2030년대까지 주류",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/grid"
+  ],
+  "also": ""
+ },
+ {
+  "post": "PipeBeom/6595",
+  "key": "tg-PipeBeom-6595",
+  "channel": "상상인 김진범",
+  "url": "https://t.me/PipeBeom/6595",
+  "published": "2026-10-04T22:57:40+09:00",
+  "gist": "북미 OCTG 5.5인치 현물 주간 +4.8%(숏톤당 2,625달러), 9월 미국향 유정관·송유관 수출 9.1만 톤(+30%)",
+  "inds": [
+   "drilling"
+  ],
+  "nodes": [
+   "drilling/octg"
+  ],
+  "also": ""
+ },
+ {
+  "post": "Onionfarmer/17994",
+  "key": "tg-Onionfarmer-17994",
+  "channel": "양파농장",
+  "url": "https://t.me/Onionfarmer/17994",
+  "published": "2026-10-04T10:22:13+09:00",
+  "gist": "네비우스 인디애나 525MW+ 캠퍼스는 계통 350MW에 블룸 연료전지 175MW를 현장 발전으로 더함",
+  "inds": [
+   "power"
+  ],
+  "nodes": [
+   "power/demand",
+   "power/gen"
+  ],
+  "also": ""
+ },
+ {
+  "post": "HANAchina/69804",
+  "key": "tg-HANAchina-69804",
+  "channel": "하나증권 중국전략",
+  "url": "https://t.me/HANAchina/69804",
+  "published": "2026-10-04T09:09:59+09:00",
+  "gist": "대만 철강 성수기 진입, 철광석·원료탄 가격 고수준과 데이터센터 철골 수요로 4분기 회복 기대",
+  "inds": [
+   "coal"
+  ],
+  "nodes": [
+   "coal/met",
+   "coal/steel"
+  ],
+  "also": ""
+ },
+ {
+  "post": "insidertracking/65226",
+  "key": "tg-insidertracking-65226",
+  "channel": "미국 주식 인사이더",
+  "url": "https://t.me/insidertracking/65226",
+  "published": "2026-10-03T07:35:43+09:00",
+  "gist": "트럼프, 한국과의 합의로 84억 달러 원유 회수 증진(EOR) 프로젝트 발표",
+  "inds": [
+   "gas",
+   "macro"
+  ],
+  "nodes": [
+   "gas/upstream",
+   "macro/geo"
+  ],
+  "also": "insidertracking/65227"
+ }
+]

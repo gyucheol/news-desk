@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0689",
+ "num": 689,
+ "key": "mix-G1-072-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T07:41:00+09:00",
+ "url": "https://www.reuters.com/business/deckers-results-show-aggressive-discounts-rivals-are-hitting-premium-brands-2026-10-22/",
+ "origTitle": "",
+ "headline": "데커스, 경쟁사 공격적 할인에 연간 매출 전망 하향…호카·어그 프리미엄 신발 타격",
+ "src": [
+  {
+   "o": "FashionNetwork",
+   "d": "2026-10-23",
+   "u": "https://be.fashionnetwork.com/en-be/news/Deckers-results-show-aggressive-discounts-from-rivals-are-hitting-premium-brands,1878559.html"
+  },
+  {
+   "o": "Footwear Magazine",
+   "d": "2026-10-23",
+   "u": "https://footwearmagazine.com/deckers-q2-fy2027-hoka-ugg-results-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "데커스 실적, 경쟁사 공격적 할인이 프리미엄 브랜드 타격 보여줘",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/deckers-results-show-aggressive-discounts-rivals-are-hitting-premium-brands-2026-10-22/",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "데커스, 경쟁사 공격적 할인에 연간 매출 전망 하향…호카·어그 프리미엄 신발 타격",
+ "one": "데커스가 경쟁사의 공격적 할인으로 프리미엄 신발 판매가 타격을 받았다며 연간 매출 전망을 낮췄다\n· 2분기 매출은 3.5% 늘어난 14억 8,100만 달러였지만 직접판매 매출은 1.8% 줄었다\n· 연간 매출 전망을 57억~57억 2,500만 달러로 낮췄고 주가는 시간외에서 8.3% 떨어졌다",
+ "facts": [
+  "무엇이: 데커스는 미국에서 운동화를 중심으로 경쟁사 할인이 늘며 자사 전자상거래 판매가 타격을 받았다고 밝혔다 [사실]",
+  "실적: 2분기 매출은 14억 8,100만 달러로 3.5% 늘었고 호카는 6.8%, 어그는 3.5% 늘었지만 직접판매는 1.8% 줄었다 [사실]",
+  "전망·주가: 연간 매출 전망을 57억~57억 2,500만 달러로 낮춰 컨센서스(약 58억 8,000만 달러)를 밑돌았고 주가는 시간외에서 8.3% 떨어졌다 [사실]",
+  "점유율: CEO는 경쟁이 치열한 120달러 미만 가격대에서 점유율 손실 가능성이 크다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "할인 경쟁 언급·실적·전망 하향은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "apparel",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "경쟁사 할인 확대로 프리미엄 신발 판매 타격"
+  }
+ ]
+}

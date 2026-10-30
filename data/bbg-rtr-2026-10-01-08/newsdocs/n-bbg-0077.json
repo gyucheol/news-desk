@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0077",
+ "feed": "v5",
+ "format": "one1",
+ "num": 77,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-oil-bosses-buffers-thin",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/oil-bosses-warn-on-dwindling-buffers-even-as-hormuz-ramps-up",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity"
+ ],
+ "title": "아람코 CEO '공급 완충 무서울 만큼 얇다'…재고 복구에 최대 2년",
+ "one": "아람코 CEO가 런던 에너지 포럼에서 세계 석유 공급의 완충이 무서울 만큼 얇고 호르무즈가 열려도 재고를 다시 채우는 데 최대 2년이 걸린다고 경고하면서, 통항이 회복돼도 유가가 전쟁 전 수준으로 빨리 돌아가기 어려울 수 있다",
+ "headline": "아람코 CEO '공급 완충 무서울 만큼 얇다'…재고 복구에 최대 2년",
+ "facts": [
+  "무엇이: 아민 나세르 아람코 CEO가 10월 5일 런던 에너지 인텔리전스 포럼에서 '시스템이 이미 한계에 가깝고 공급 완충이 무서울 만큼 얇다'고 말했습니다. [사실]",
+  "얼마나: 전쟁 뒤 잃은 공급이 약 30억 배럴, 세계 비축에서 빠져나간 물량이 10억 배럴 이상이며 재고를 다시 채우는 데 최대 2년이 걸린다고 했습니다(8월에는 18개월이라고 말함). [사실]",
+  "그 밖에: 쿠웨이트석유공사 CEO는 유럽 소비지 가까이에 정제제품을 저장하는 방안을 유럽 측과 협의 중이라고 밝혔고, 나세르는 '어떤 나라도 혼자 감당해선 안 된다'고 했습니다. [사실]",
+  "해석: 통항 물량 회복과 재고 복구는 별개라는 것이 산유국 경영진의 공통된 메시지로 읽힙니다. [추론]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 원문 미확인 — 오일프라이스(10-06, 아람코 웹사이트·블룸버그 인용)와 테크타임스(10-05·10-07) 보도로 작성. 30억 배럴·10억 배럴 수치는 테크타임스 한 곳에서만 확인했고 블룸버그 기사에 실린 다른 경영진 발언은 확인하지 못함. 블룸버그 10-05 기사(Aramco CEO 'Scarily Thin')와 한 건으로 합침.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/oil-bosses-warn-on-dwindling-buffers-even-as-hormuz-ramps-up"
+  },
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/global-oil-supply-buffer-running-scarily-thin-aramco-ceo-says"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-06",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html"
+  },
+  {
+   "o": "테크타임스",
+   "d": "2026-10-05",
+   "u": "https://www.techtimes.com/articles/328562/20261005/aramco-ceo-oil-stocks-are-scarily-thin-replenishment-takes-two-years.htm"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Oil Executives Warn Global Buffers Are Running Low as Hormuz Shipments Recover"
+}

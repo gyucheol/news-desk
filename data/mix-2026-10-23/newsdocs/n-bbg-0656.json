@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0656",
+ "num": 656,
+ "key": "mix-G1-068-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T06:59:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/keurig-must-face-coffee-pod-monopoly-allegations-judge-says",
+ "origTitle": "",
+ "headline": "법원, 큐리그 커피포드 독점·끼워팔기 혐의 소송 진행 판단…2027년 재판 전망",
+ "src": [
+  {
+   "o": "Capitol Forum",
+   "d": "2026-10",
+   "u": "https://thecapitolforum.com/judge-allows-monopolization-tying-claims-against-keurig-to-move-forward-setting-stage-for-2027-trial-over-5-billion-in-damages-claims/"
+  },
+  {
+   "o": "FoodBev",
+   "d": "2026-10",
+   "u": "https://www.foodbev.com/news/keurig-faces-jury-trial-in-long-running-coffee-pod-antitrust-case"
+  }
+ ],
+ "items": [
+  {
+   "t": "법원 '큐리그, 커피포드 독점 혐의 소송 받아야'",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/keurig-must-face-coffee-pod-monopoly-allegations-judge-says"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "법원, 큐리그 커피포드 독점·끼워팔기 혐의 소송 진행 판단…2027년 재판 전망",
+ "one": "미국 연방법원이 커피포드 독점 혐의 소송을 끝내 달라는 큐리그의 요청을 받아들이지 않았다\n· 판사는 큐리그가 커피 머신과 포드를 불법으로 끼워 팔았다는 원고 주장을 재판에서 다툴 수 있다고 봤다\n· 원고 측은 50억 달러 넘는 배상을 청구하고 있어 2027년 재판이 열릴 수 있다",
+ "facts": [
+  "무엇이: 뉴욕남부연방지법 버넌 브로데릭 판사는 큐리그의 약식판결 요청을 기각해 커피 머신 시장 독점력·경쟁 침해·배타적 계약 쟁점을 배심 재판에 넘겼다 [사실]",
+  "쟁점: 판사는 원고가 머신과 포드의 불법 끼워팔기를 입증할 수 있다고 봤고, 경쟁 포드에 대한 큐리그의 일부 발언은 명백히 거짓이라고 판단했다 [사실]",
+  "규모: 원고 측은 50억 달러 넘는 배상을 청구해 2027년 재판이 예상되며, 큐리그는 기각된 청구들을 들어 결정에 만족한다고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Capitol Forum·FoodBev·PYMNTS)으로 확인; 결정문은 9월 18일자로 10월에 공개됨",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "큐리그 커피포드 독점 혐의 배심 재판행"
+  }
+ ]
+}

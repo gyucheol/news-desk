@@ -1,0 +1,71 @@
+{
+ "id": "n-tg-0799",
+ "num": 799,
+ "key": "mix-G-059-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T08:16:00+09:00",
+ "url": "https://t.me/PipeBeom/6911",
+ "origTitle": "",
+ "headline": "컨스텔레이션, 원전 8곳 출력 증강에 DOE 최대 50억 달러 조건부 대출…약 1.1GW 추가",
+ "src": [
+  {
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-29",
+   "u": "https://t.me/PipeBeom/6911"
+  },
+  {
+   "o": "POWER Magazine",
+   "d": "2026-10-27",
+   "u": "https://www.powermag.com/doe-offers-constellation-up-to-5b-loan-for-1-1-gw-of-nuclear-uprates-at-eight-plants/"
+  },
+  {
+   "o": "TechCrunch",
+   "d": "2026-10-28",
+   "u": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/"
+  }
+ ],
+ "items": [
+  {
+   "t": "컨스텔레이션, 원전 출력 증강에 DOE 최대 50억 달러 조건부 대출",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-29",
+   "u": "https://t.me/PipeBeom/6911"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "uranium",
+  "power"
+ ],
+ "nodes": [
+  "uranium/operators"
+ ],
+ "channel": "상상인 김진범",
+ "title": "컨스텔레이션, 원전 8곳 출력 증강에 DOE 최대 50억 달러 조건부 대출…약 1.1GW 추가",
+ "one": "컨스텔레이션이 기존 원전 8곳의 출력 증강을 위해 미 에너지부에서 최대 50억 달러 조건부 대출 약정을 받았다\n· DOE는 일리노이·메릴랜드·펜실베이니아 8개 발전소 15기에서 약 1.1GW를 더할 수 있다고 밝혔다\n· 실사와 최종 금융계약이 남은 조건부 약정이어서 개별 증강 투자는 아직 확정되지 않았다",
+ "facts": [
+  "무엇이: 컨스텔레이션이 10월 27일 기존 원전 출력 증강을 위해 미 에너지부(DOE)에서 최대 50억 달러 조건부 대출 약정을 확보했다 [사실]",
+  "대상: 일리노이 브레이드우드·바이런·클린턴·드레스덴·라살·쿼드시티, 메릴랜드 캘버트클리프스, 펜실베이니아 리머릭 등 8개 발전소 15기로 약 1.1GW가 늘 수 있다 [사실]",
+  "조건: 실사·최종 금융계약 등 조건을 채워야 하며 개별 증강의 최종 투자 결정은 아니고, 금리·만기·발전소별 지원액은 공개되지 않았다 [사실]",
+  "수요처: 테크크런치는 7곳의 추가 전력 대부분이 이미 구글·메타·아마존에 팔렸다고 전했다 [사실]",
+  "정책: DOE의 UPRISE 사업은 이번까지 약 4.7GW의 원전 용량 추가를 확보해 5GW 목표에 다가섰다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "최대 50억 달러 조건부 대출·8개 발전소·약 1.1GW·조건부 성격은 POWER·ANS·테크크런치 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "operators",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "원전 8곳 출력 증강에 DOE 최대 50억 달러 대출"
+  }
+ ]
+}

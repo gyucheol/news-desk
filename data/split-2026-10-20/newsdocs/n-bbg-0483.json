@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0483",
+ "num": 483,
+ "key": "split-G4-082-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/french-protests-and-the-end-of-checkbook-politics",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 시위와 \"돈으로 달래는 정치\" 시대의 종말",
+ "headline": "프랑스 시위와 \"돈으로 달래는 정치\" 시대의 종말",
+ "one": "블룸버그가 10월 16일 재정 여력이 줄면서 프랑스 정부가 시위를 재정 지출로 달래던 방식이 끝나고 있다고 짚으면서, GDP의 119%인 국가부채가 사회 갈등 대응의 폭을 좁히고 있다는 진단이 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 16일 프랑스 시위가 돈으로 달래는 정치 시대의 종말을 보여 준다고 분석했다 [제목]",
+  "배경: 프랑스 국가부채는 6월 말 GDP의 119%이고, 유로존 장관들은 2027년 예산 통과를 요구했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 시위와 '돈으로 달래는 정치' 시대의 종말",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/french-protests-and-the-end-of-checkbook-politics"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "재정 여력 줄어 시위 달래는 지출 어려워"
+  }
+ ]
+}

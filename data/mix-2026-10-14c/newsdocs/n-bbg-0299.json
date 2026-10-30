@@ -1,0 +1,67 @@
+{
+ "id": "n-bbg-0299",
+ "num": 299,
+ "key": "mix-C010-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T02:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/j-j-lifts-earnings-outlook-after-jump-in-quarterly-drug-sales",
+ "origTitle": "",
+ "headline": "{{J&J}}, 3분기 {{이익 예상 상회}}에도 {{의료기기 매출 부진}}…{{정형외과 분사}}에 {{무게}}",
+ "src": [
+  {
+   "o": "J&J 투자자 공시",
+   "d": "2026-10-13",
+   "u": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-13",
+   "u": "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html"
+  },
+  {
+   "o": "MedTech Dive",
+   "d": "2026-10-13",
+   "u": "https://www.medtechdive.com/news/jjs-medtech-business-slows-again-in-q3/832861/"
+  }
+ ],
+ "items": [
+  {
+   "t": "J&J, 의료기기 매출 실망 속 정형외과 분사 쪽으로 기울어",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/j-j-lifts-earnings-outlook-after-jump-in-quarterly-drug-sales",
+   "s": "{{J&J}}의 {{의료기기 매출}}이 {{2.5% 증가}}에 그쳐 {{예상을 밑돌}}면서 {{회사}}가 {{정형외과 사업 분사}} 쪽으로 {{기울}}어 {{의료기기 부문 재편}}에 {{무게}}가 실렸다"
+  },
+  {
+   "t": "J&J, 이익 예상 웃돌았지만 중동 분쟁에 의료기기 매출 타격",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/litigation/jj-beats-earnings-estimates-middle-east-conflict-weighs-medical-device-sales-2026-10-13/",
+   "s": "{{J&J}}가 {{조정 EPS 2.59달러}}로 {{예상을 넘었}}지만 {{중동 분쟁}}이 {{의료기기 매출}}을 {{눌러}} {{메드테크 매출}}이 {{예상}}(87억 1,000만 달러)에 {{못 미쳤}}다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "{{J&J}}, 3분기 {{이익 예상 상회}}에도 {{의료기기 매출 부진}}…{{정형외과 분사}}에 {{무게}}",
+ "one": "{{존슨앤드존슨(J&J)}}이 3분기 {{조정 EPS 2.59달러}}로 {{예상을 넘고}} {{연간 전망}}을 {{올렸}}지만, {{중동 분쟁}} 등으로 {{의료기기 매출}}이 {{2.5% 증가}}에 그쳐 {{예상}}에 {{못 미치}}면서 {{주가}}가 {{밀리}}고 {{정형외과 분사}} 쪽으로 {{무게}}가 실렸다",
+ "facts": [
+  "무엇이: J&J의 3분기 매출은 5.9% 늘어난 253억 9,900만 달러, 조정 EPS는 2.59달러로 시장 예상을 6센트 웃돌았고 회사는 2026년 연간 전망을 올렸습니다 [사실]",
+  "의료기기: 메드테크 매출은 2.5% 늘어난 약 86억 4,000만 달러로 예상(87억 1,000만 달러)에 못 미쳤고, 미국 밖 매출은 사실상 제자리였습니다 [사실]",
+  "원인·주가: 메드테크 부진에는 중동 분쟁 등 지정학 문제가 꼽혔고, 실적 발표 뒤 주가는 떨어졌습니다 [사실]",
+  "정형외과: 정형외과 매출은 23억 5,000만 달러로 3.2% 늘었고, J&J는 지난해 정형외과 사업 디퓨이 신테스를 독립 회사로 분사할 계획을 밝힌 바 있습니다 [사실]",
+  "분사 방향: J&J가 의료기기 매출 실망 속에 정형외과 분사 쪽으로 기울고 있습니다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "매출·조정 EPS·연간 전망 상향, 메드테크 매출과 예상치, 중동 분쟁 영향, 정형외과 매출, 주가 하락, 디퓨이 신테스 분사 계획은 검색 결과 요약(J&J 투자자 공시·CNBC·MedTech Dive·GuruFocus)으로 확인. 분사 쪽으로 기울었다는 내용은 블룸버그 제목 기준.",
+ "added": "이번 로이터 1건으로 {{조정 EPS 2.59달러}}의 {{예상 상회}}와 함께 {{중동 분쟁}}이 {{의료기기 매출}}을 {{끌어내렸다}}는 {{부진 원인}}이 추가됐다",
+ "updatedAt": "2026-10-15T07:54:15+09:00"
+}

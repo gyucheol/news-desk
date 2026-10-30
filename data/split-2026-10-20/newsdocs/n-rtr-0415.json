@@ -1,0 +1,55 @@
+{
+ "id": "n-rtr-0415",
+ "num": 415,
+ "key": "split-G2-017-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+ "headline": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+ "one": "미국 에너지정보청(EIA)이 올겨울 미국 가구의 난방 연료비가 엇갈릴 것으로 전망하면서, 가구가 쓰는 난방 연료 종류에 따라 겨울철 에너지 부담이 크게 달라질 수 있다",
+ "facts": [
+  "무엇이: 미국 에너지정보청(EIA)이 10월 6일 올겨울 미국 가구의 난방 연료비가 엇갈릴 것으로 전망했다 [사실]",
+  "의미: 난방 연료 종류에 따라 가구의 겨울 부담이 달라질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 EIA 보도자료(10월 6일)를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "EIA",
+   "d": "2026-10-06",
+   "u": "https://www.eia.gov/pressroom/releases/press593.php"
+  }
+ ],
+ "items": [
+  {
+   "t": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "EIA, 올겨울 가구 난방 연료비 엇갈림 전망"
+  }
+ ]
+}

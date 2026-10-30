@@ -1,0 +1,75 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(The Standard·BigGo Finance): 새 채권 1억 8,910만 달러, 대상 채권 3종 약 9억 9,100만 달러, 교환 조건, 10월 20일 결제",
+ "cycles": [],
+ "facts": [
+  "무엇이: 뉴월드개발은 10월 15일 채권 교환 조기 응모 결과 약 1억 8,910만 달러의 새 채권을 발행할 것으로 예상한다고 밝혔다 [사실]",
+  "조건: 대상은 2027·2028년 만기 달러채 3종 약 9억 9,100만 달러로, 액면 1,000달러당 2032년 만기 새 담보채 950달러와 현금 35달러를 주고 조기 응모자에게 17.5달러를 더 준다 [사실]",
+  "일정: 조기 응모분 결제는 10월 20일로 예정됐다 [사실]",
+  "기존: 홍콩 공항청이 180억 홍콩달러 규모 11 스카이즈 사업을 넘겨받는 구제안으로 정씨 일가는 2029년 말까지 자본구조를 손볼 시간을 벌었고, 이르면 내년 약 110억 달러 부채 만기가 돌아온다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "뉴월드, 채권 교환 조기 응모에 새 채권 1억 8,910만 달러 발행 예정",
+ "id": "n-bbg-0269",
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "블룸버그",
+   "t": "홍콩의 구명줄, 정씨 일가에 뉴월드 구할 시간 벌어줘",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/hong-kong-lifeline-buys-cheng-family-time-to-save-new-world"
+  },
+  {
+   "t": "뉴월드, 채권 교환 조기 결과 뒤 새 채권 1억 8,900만 달러 발행 예정",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/new-world-expects-issue-189-million-new-notes-after-early-debt-exchange-results-2026-10-14/",
+   "s": "뉴월드가 채권 교환 조기 응모 결과 2032년 만기 새 채권 1억 8,910만 달러를 발행할 예정이라고 밝혀, 일부 부채 만기가 뒤로 밀리게 됐다"
+  }
+ ],
+ "key": "mix-C165-2026-10-13",
+ "nodes": [],
+ "num": 269,
+ "one": "홍콩 공항청 구제안으로 시간을 번 뉴월드개발이 2027~2028년 만기 달러채 약 9억 9,100만 달러를 2032년 만기 담보채로 바꾸는 교환에서 조기 응모를 받아 새 채권 1억 8,910만 달러를 발행할 예정이어서, 단기 부채 만기 부담을 일부 늦추게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T08:53:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "Briefs",
+   "u": "https://www.briefs.co/news/hong-kong-s-airport-authority-moves-to-rescue-new-world-deve/"
+  },
+  {
+   "o": "The Standard",
+   "d": "2026-10-15",
+   "u": "https://www.thestandard.com.hk/finance/article/345531/New-World-expects-to-issue-US189-million-of-new-notes-after-early-debt-exchange-results"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-15",
+   "u": "https://finance.biggo.com/news/5b0735a8-a706-4b7a-a269-6f2a035d998e"
+  }
+ ],
+ "tags": [],
+ "title": "뉴월드, 채권 교환 조기 응모에 새 채권 1억 8,910만 달러 발행 예정",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/hong-kong-lifeline-buys-cheng-family-time-to-save-new-world",
+ "added": "이번 로이터 1건으로 뉴월드가 2027~2028년 만기 달러채 교환 조기 응모 결과 2032년 만기 새 채권 1억 8,910만 달러를 발행할 예정이라는 점이 추가됐다",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "china",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "액면 1천 달러당 새 채권 950달러·현금 35달러로 교환"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

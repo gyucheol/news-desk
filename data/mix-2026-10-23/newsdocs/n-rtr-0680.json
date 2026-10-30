@@ -1,0 +1,70 @@
+{
+ "id": "n-rtr-0680",
+ "num": 680,
+ "key": "mix-G1-046-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T21:05:00+09:00",
+ "url": "https://www.reuters.com/world/china/bolt-stellantis-plan-autonomous-driving-experiment-greater-paris-2028-2026-10-23/",
+ "origTitle": "",
+ "headline": "로보택시 유럽 진출…볼트·스텔란티스 2028년 파리 시험 계획·바이두, 런던 도로 시험 운행",
+ "src": [
+  {
+   "o": "eletric-vehicles.com",
+   "d": "2026-10-23",
+   "u": "https://eletric-vehicles.com/stellantis/bolt-plans-paris-robotaxi-pilot-with-stellantis-from-2028-eyes-pony-ai/"
+  },
+  {
+   "o": "테크크런치",
+   "d": "2026-07-28",
+   "u": "https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/"
+  }
+ ],
+ "items": [
+  {
+   "t": "볼트·스텔란티스, 2028년 파리 수도권 자율주행 시험 계획",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/china/bolt-stellantis-plan-autonomous-driving-experiment-greater-paris-2028-2026-10-23/",
+   "s": "볼트와 스텔란티스가 파리 수도권과 2028년 자율주행 차량호출 시험을 계획하면서, 인허가를 전제로 2030년 상업 운행을 노린다"
+  },
+  {
+   "t": "中 바이두, 런던 도로에서 로보택시 시험 운행 진행",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/finance/chinas-baidu-tests-robotaxi-london-streets-2026-10-23/",
+   "s": "바이두가 리프트 자회사 프리나우와 런던 도로에서 RT6 로보택시를 시험하면서, 2027년 런던 무인 서비스 경쟁에 뛰어들었다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "로보택시 유럽 진출…볼트·스텔란티스 2028년 파리 시험 계획·바이두, 런던 도로 시험 운행",
+ "one": "유럽 대도시에서 차량호출 업체와 완성차·중국 기술사의 로보택시 시험이 잇따르고 있다\n· 볼트·스텔란티스는 파리 수도권과 함께 2028년 자율주행 차량호출 시험을 시작할 계획이다\n· 두 회사는 인허가를 전제로 2030년 파리 수도권 상업 운행을 노린다\n· 바이두는 리프트 자회사 프리나우와 런던 도로에서 RT6 로보택시를 시험하고 있다\n· 바이두와 프리나우는 규제 승인을 전제로 2027년 런던 무인 로보택시 서비스를 목표로 한다",
+ "facts": [
+  "무엇이: 볼트·스텔란티스·파리 수도권은 2028년 자율주행 차량호출 시험을 시작해 인허가를 전제로 2030년 상업 운행을 노린다 [사실]",
+  "파리 세부: 초기 운행은 북서부 최대 5개 기초자치단체에서 하며 스텔란티스가 차량을, 볼트가 서비스를 맡고 포니AI는 기술 공급 후보다 [사실]",
+  "런던: 바이두는 프리나우와 7월부터 런던 브렌트구에서 안전요원이 탄 RT6 차량을 시험 중이며 2027년 무인 서비스를 목표로 한다 [사실]",
+  "경쟁: 우버·웨이브는 9월 런던에서 안전요원 탑승 로보택시를 시작했고 웨이모는 연내 런던 완전 무인 서비스를 노린다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "두 계획 모두 일렉트릭비히클스·테크크런치·플리트포인트 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "autonomy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "볼트·스텔란티스 2028년 파리 로보택시 시험"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

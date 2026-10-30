@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0633",
+ "num": 633,
+ "key": "mix-G1-036-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T17:29:00+09:00",
+ "url": "https://www.reuters.com/world/china/chinese-patrols-taiwans-east-are-destabilising-us-congress-appointed-official-2026-10-20/",
+ "origTitle": "",
+ "headline": "대만·남중국해 미중 군사 긴장…'中 대만 동부 순찰 불안정'·中 해군 '사비나 암초 미 함정 위협'",
+ "src": [],
+ "items": [
+  {
+   "t": "미 의회 임명 인사 '대만 동부 중국 순찰은 불안정 요인'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/china/chinese-patrols-taiwans-east-are-destabilising-us-congress-appointed-official-2026-10-20/",
+   "s": "미 의회가 임명한 인사가 대만 동쪽 해역의 중국 순찰이 지역을 불안정하게 만든다고 지적하면서, 대만 주변 군사 긴장이 다시 부각됐다 (제목 기준)"
+  },
+  {
+   "t": "중국 해군 '사비나 암초 인근 미 함정이 해양 안보 위협'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/china/chinese-navy-says-us-ship-near-sabina-shoal-jeopardised-maritime-security-2026-10-20/",
+   "s": "중국 해군이 남중국해 사비나 암초 인근의 미국 함정이 해양 안보를 위협했다고 주장하면서, 남중국해에서 미·중 마찰이 커졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "대만·남중국해 미중 군사 긴장…'中 대만 동부 순찰 불안정'·中 해군 '사비나 암초 미 함정 위협'",
+ "one": "대만 동부 해역과 남중국해 사비나 암초에서 미·중 군사 긴장이 함께 불거졌다\n· 미 의회가 임명한 인사는 대만 동부의 중국 순찰이 지역을 불안정하게 한다고 밝혔다\n· 중국 해군은 사비나 암초 인근 미 함정이 해양 안보를 위협했다고 주장했다 (제목 기준)",
+ "facts": [
+  "무엇이: 미 의회가 임명한 인사는 대만 동부 해역의 중국 순찰이 불안정을 키운다고 밝혔다 [제목]",
+  "남중국해: 중국 해군은 사비나 암초 인근의 미국 함정이 해양 안보를 위협했다고 주장했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 독립 출처 확인 안 함(제목 기준)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "대만·남중국해 미중 군사 마찰 고조"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

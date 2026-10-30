@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0578",
+ "num": 578,
+ "key": "split-G5-119-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/china/pressured-home-eu-leaders-weigh-china-trade-steps-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU 정상회의, 대중 무역 조치·에너지값·예산 논의",
+ "headline": "EU 정상회의, 대중 무역 조치·에너지값·예산 논의",
+ "one": "국내 압박을 받는 EU 정상들이 14일 대중 무역 조치를 저울질한 데 이어 15일 정상회의에서 중국 수출과 에너지값, 예산을 다루면서, 대중 무역 조치의 정치적 방향이 정해질 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: EU 정상들이 10월 15일 정상회의에서 중국 수출과 에너지값, 예산을 다뤘다 [사실]",
+  "압박: 자국 압박을 받는 EU 정상들이 대중 무역 조치를 저울질했다 [제목]",
+  "쟁점: 마크롱 대통령은 중국산 수입 제한 대상으로 화학·플라스틱·페로합금을 거론했다 [사실]",
+  "전망: 정상회의에서 대중 무역 조치의 정치적 방향이 정해질 전망이다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 2건을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록에서 정상회의 기사와 맞는 출처를 고르지 못해 제목 기준으로 둠",
+ "src": [],
+ "items": [
+  {
+   "t": "국내 압박 받는 EU 정상들, 대중 무역 조치 저울질",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/china/pressured-home-eu-leaders-weigh-china-trade-steps-2026-10-14/",
+   "s": "자국 압박을 받는 EU 정상들이 대중 무역 조치를 저울질하면서, 정상회의에서 추가 규제 논의가 커질 수 있다 (제목 기준)"
+  },
+  {
+   "t": "EU 정상들, 정상회의서 중국 수출·에너지값·예산 논의",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/china/eu-leaders-tackle-china-exports-energy-prices-budget-summit-2026-10-15/",
+   "s": "EU 정상들이 10월 15일 정상회의에서 중국 수출과 에너지값, 예산을 다루면서, 대중 무역 조치의 정치적 방향이 정해질 전망이다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU 정상회의, 대중 무역 조치 논의"
+  }
+ ]
+}

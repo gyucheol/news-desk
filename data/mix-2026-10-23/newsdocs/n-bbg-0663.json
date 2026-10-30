@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0663",
+ "num": 663,
+ "key": "mix-G1-098-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T18:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/volkswagen-freezes-india-ev-investment-as-partner-talks-continue",
+ "origTitle": "",
+ "headline": "폭스바겐, JSW와 파트너 협상 중 인도 전기차 투자 동결…저가 EV 플랫폼은 대기",
+ "src": [
+  {
+   "o": "KuCoin News",
+   "d": "2026-10-23",
+   "u": "https://www.kucoin.com/news/flash/volkswagen-pauses-india-ev-investment-amid-jsw-partnership-talks"
+  },
+  {
+   "o": "Business Standard",
+   "d": "2025-11-19",
+   "u": "https://www.business-standard.com/industry/auto/volkswagen-pares-india-ev-development-costs-amid-hunt-for-partner-125111900085_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "폭스바겐, 파트너 협상 이어지며 인도 전기차 투자 동결",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/volkswagen-freezes-india-ev-investment-as-partner-talks-continue"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "폭스바겐, JSW와 파트너 협상 중 인도 전기차 투자 동결…저가 EV 플랫폼은 대기",
+ "one": "폭스바겐그룹이 인도 JSW그룹과 제휴 협상이 이어지는 동안 인도 전기차 사업 추가 투자를 멈췄다\n· 폭스바겐은 설계 작업을 마쳐 협상이 진전되면 기존 저가 전기차 플랫폼으로 빠르게 추진할 수 있다\n· 인도 법인은 지난해 11월 전기차 플랫폼 비용을 10억 달러에서 약 7억 달러로 줄였다",
+ "facts": [
+  "무엇이: 폭스바겐그룹은 인도 JSW그룹의 구체적 제휴안을 기다리며 인도 전기차 사업 추가 투자를 멈췄다 [사실]",
+  "준비: 관련 설계 작업은 끝났고, 협상이 진전되면 앞서 개발한 저가 전기차 플랫폼으로 빠르게 추진할 수 있다 [사실]",
+  "배경: 인도 법인은 2025년 11월 전기차 플랫폼 비용을 10억 달러에서 약 7억 달러로 줄였고, 앞서 마힌드라와의 협상은 결렬됐다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "투자 동결과 JSW 협상은 블룸버그를 인용한 KuCoin 요약 등 검색 결과 요약으로 확인(2차 인용); 비용 축소는 electrive·Business Standard 요약으로 확인",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "폭스바겐 인도 전기차 추가 투자 동결"
+  }
+ ]
+}

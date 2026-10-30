@@ -1,0 +1,77 @@
+{
+ "id": "n-bbg-0706",
+ "num": 706,
+ "key": "mix-G1-024-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T12:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/singapore-s-top-envoy-visits-indonesia-after-natural-gas-cuts",
+ "origTitle": "",
+ "headline": "인도네시아, 싱가포르행 가스 수출 하루 3,100만 입방피트 축소…양국 화재 TF로 긴장 완화",
+ "src": [
+  {
+   "o": "The Star",
+   "d": "2026-10-27",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/26/indonesia-begins-trimming-pipeline-gas-exports-to-singapore"
+  },
+  {
+   "o": "The Diplomat",
+   "d": "2026-10-27",
+   "u": "https://thediplomat.com/2026/10/indonesia-reduces-gas-supply-to-singapore-citing-domestic-energy-needs/"
+  },
+  {
+   "o": "Mothership",
+   "d": "2026-10-27",
+   "u": "https://mothership.sg/2026/10/indonesia-cut-gas-exports-sg/"
+  }
+ ],
+ "items": [
+  {
+   "t": "싱가포르·인도네시아, 화재 태스크포스로 긴장 완화 모색",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/singapore-s-top-envoy-visits-indonesia-after-natural-gas-cuts",
+   "s": "싱가포르와 인도네시아가 화재 태스크포스를 꾸리면서 가스 수출 축소로 불거진 양국 긴장을 누그러뜨리려 하고 있다"
+  },
+  {
+   "t": "인도네시아가 싱가포르행 가스 수출을 줄이는 이유",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/why-indonesia-is-reducing-gas-exports-to-singapore",
+   "s": "인도네시아가 국내 발전 수요를 이유로 싱가포르행 가스 수출을 하루 3,100만 표준입방피트 줄이면서 공급 계약 이행 문제가 불거졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/midstream"
+ ],
+ "title": "인도네시아, 싱가포르행 가스 수출 하루 3,100만 입방피트 축소…양국 화재 TF로 긴장 완화",
+ "one": "인도네시아가 10월 24일부터 싱가포르행 파이프라인 가스 수출을 줄이면서 양국 갈등이 불거졌다\n· 감축량은 하루 3,100만 표준입방피트로 나투나 1,500만, 수마트라 1,600만이다\n· 인도네시아는 바탐·빈탄·수마트라 발전용 국내 수요를 먼저 채우려는 조치라고 밝혔다\n· 싱가포르는 감축이 18일간 일일 가스 수요의 2% 미만이라며 계약 위반 여부를 따지겠다고 했다\n· 양국은 산불 연무 갈등을 다룰 화재 태스크포스로 긴장 완화에 나섰다",
+ "facts": [
+  "무엇이: 인도네시아가 10월 24일부터 싱가포르행 파이프라인 가스 수출을 하루 약 3,100만 표준입방피트(나투나 1,500만, 수마트라 1,600만) 줄였다 [사실]",
+  "이유: 규제기관 SKK Migas는 바탐·빈탄·수마트라 발전용 국내 공급을 위한 것이라 했고, 에너지장관은 인도네시아를 존중하지 않는 나라에 수출 중단도 검토할 수 있다고 말했다 [사실]",
+  "싱가포르: 에너지시장청은 감축이 18일간이며 일일 가스 수요의 2% 미만이라고 밝혔고, 정부는 계약 위반 여부를 확인하겠다고 했다 [사실]",
+  "긴장 완화: 양국은 산불 연무 문제를 다룰 화재 태스크포스로 긴장을 누그러뜨리려 하고 있다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "감축 시작일(10월 24일)·하루 3,100만 표준입방피트·싱가포르 반응은 검색 결과 요약으로 확인. 화재 태스크포스 내용은 제목 기준",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "인도네시아 싱가포르행 파이프라인 가스 수출 축소"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

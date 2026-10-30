@@ -1,0 +1,126 @@
+{
+ "id": "shipping",
+ "summary": "",
+ "state": {
+  "tankers": [
+   {
+    "d": "2026-10-20",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/10960",
+    "nid": "n-rtr-0282",
+    "t": "오일 브로커리지는 EU·영국 제재 밖 유조선 294척 중 70%가 20년 넘은 노후선이라 상업적으로 거래 가능한 배는 75척(초대형 50척)뿐이라고 추산했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/asian-refiners-use-smaller-tankers-buy-delivered-crude-freight-rates-soar-2026-10-20/",
+    "nid": "n-rtr-0379",
+    "t": "운임이 치솟자 아시아 정유사들은 소형 유조선을 쓰고 도착조건 원유를 사며, 한국·인도 정유사는 11월 선적 미국산을 아프라막스 1척(약 75만 배럴)씩 샀습니다 [채널]"
+   }
+  ],
+  "routes": [
+   {
+    "d": "2026-10-20",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-20/iran-strikes-more-ship-engine-rooms-in-ramp-up-of-hormuz-attacks",
+    "nid": "n-tg-0688",
+    "t": "UKMTO 집계로 10월 17일까지 7일간 호르무즈 안팎에서 선박 최소 10척이 공격받아 개전 이후 주간 최다였고, 혁명수비대는 유조선 2척 기뢰 피격을 주장했습니다 [사실]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/energy/hsbc-ceo-says-alternative-routes-could-make-strait-hormuz-redundant-five-years-2026-10-20/",
+    "nid": "n-rtr-0638",
+    "t": "HSBC CEO는 걸프 대체 경로로 호르무즈가 5년 안에 불필요해질 수 있다고 했지만, 우회 송유관은 사우디·UAE만 운영하고 여유 용량도 해협 물동량에 크게 못 미칩니다 [사실]"
+   }
+  ],
+  "ports": [
+   {
+    "d": "2026-10-20",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/asia-pacific/maersk-hateco-sign-non-binding-agreement-rail-freight-terminals-vietnam-2026-10-20/",
+    "nid": "n-bbg-0618",
+    "t": "APM터미널스(머스크)와 하테코가 베트남 북부 철도 화물 터미널 조사에 비구속 합의했고 투자액은 최대 35억 달러지만 최종 투자 결정은 공개되지 않았습니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-20",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/iran-strikes-more-ship-engine-rooms-in-ramp-up-of-hormuz-attacks",
+   "nid": "n-tg-0688",
+   "t": "UKMTO 집계로 10월 17일까지 7일간 호르무즈 안팎에서 공격받은 선박은 최소 10척으로 개전 이후 주간 최다였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "supply",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/10960",
+   "nid": "n-rtr-0282",
+   "t": "EU·영국 제재 밖 유조선 294척 중 약 70%가 선령 20년을 넘어 상업적으로 거래 가능한 배는 75척(초대형 50척)뿐이라는 추산이 나왔습니다 [채널]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "capex",
+   "o": "로이터",
+   "u": "https://www.reuters.com/world/asia-pacific/maersk-hateco-sign-non-binding-agreement-rail-freight-terminals-vietnam-2026-10-20/",
+   "nid": "n-bbg-0618",
+   "t": "머스크·하테코의 베트남 북부 철도 화물 터미널 사업 투자액은 베트남 정부 기준 최대 35억 달러, 머스크 기준 25억~35억 달러입니다 [사실]"
+  }
+ ],
+ "flags": [],
+ "insight": {
+  "a2": [
+   {
+    "t": "반대라면 호르무즈가 안정되고 그림자 선단 제재가 풀려 쓸 수 있는 유조선이 늘어나는 경우입니다. 미국은 다크플릿 유조선의 합법 운항을 허용했지만, EU·영국 제재 밖 유조선 294척 중 70%가 20년 넘은 노후선이라 상업적으로 거래 가능한 배는 75척뿐이라는 추산이 나왔습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/"
+     },
+     {
+      "o": "Lloyd's List",
+      "d": "2026-10",
+      "u": "https://www.lloydslist.com/LL1158725/US-shadow-fleet-sanctions-plan-rattles-tanker-rates-but-offers-limited-capacity-relief"
+     },
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-20",
+      "u": "https://t.me/insidertracking/66739"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-20",
+      "u": "https://t.me/Trillion_labs/10960"
+     }
+    ]
+   },
+   {
+    "t": "우회로가 생겨도 거리 프리미엄이 줄어듭니다. 아부다비는 300억 달러로 푸자이라 우회 수출 허브를 짓고 골드만삭스는 2028년 말 걸프 원유 수출의 60% 이상이 해협을 우회할 수 있다고 봐, 해협 위험이 남아도 톤마일 증가분은 줄어들 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-17",
+      "u": "https://t.me/Trillion_labs/10692"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것: (1) 컨테이너선 발주잔량의 9월 집계(5월 38.3%를 씀)와 클락슨 신조선가 지수의 9월 값, (2) TD3C 등 VLCC 하루 수익의 10월 셋째 주 값(미 걸프~중국 하루 63만 7,675달러는 10월 12일 자료), (3) 호르무즈 공격 규모는 UKMTO 집계(10월 16일까지 한 주 12건, 누적 135건)와 채널 해석(10월 이후 최소 60척)이 크게 다르고, 혁명수비대의 기뢰 피격 주장은 독립 확인이 없습니다, (4) 다크플릿 허용으로 복귀할 수 있는 배가 24척이라는 분석, VLCC 2년 용선료 하루 25만~26만 달러, 아프라막스 운임 4.2배, 운송비 비중 25%는 채널 전언입니다, (5) 바브엘만데브 기뢰 매설·후티 병력 배치는 채널 전언이고, 60개국 해협 통행료 반대 선언의 대상 해협은 확인하지 못했습니다, (6) LNG선 발주·계선 척수와 해체량, VLGC 발주잔량, 선사들의 3분기 실적, 항공 화물 최신 운임. 이번 업데이트(10월 21일 저녁 포함)는 검색·열람 없이 입력 뉴스로만 반영했고, 블룸버그·로이터 기사는 열지 않고 입력 뉴스의 원문 주소만 적었습니다. 10월 8~13일 날짜의 운임 사실(VLCC 사상 최고, 수에즈맥스 3,000만 달러 등)은 더 새 근거가 있어 근거 줄로 쓰지 않았습니다. 이번 반영분에서 확인하지 못한 것: 거래 가능 유조선 75척 추산과 한국·인도 정유사의 미국산 매입 물량은 채널 전언이고, 혁명수비대의 유조선 기뢰 피격·MQ-9 격추 주장은 독립 확인이 없으며, 사우디와 아시아 정유사의 2027년 계약 분쟁 결과(보통 10월 말 마무리)는 아직 모릅니다.",
+ "note": "뉴스 5건 반영: 호르무즈 주간 공격 최소 10척으로 최다, 제재 유조선 재활성화에도 거래 가능 75척뿐, 아시아 정유사 소형 유조선·도착조건 구매와 머스크 베트남 철도 터미널 최대 35억 달러. 국면 ② 그대로, 근거 5줄, 수치 3줄, 재검토 신호 0건, 검색 0회",
+ "applied": [
+  "n-bbg-0618",
+  "n-rtr-0282",
+  "n-rtr-0379",
+  "n-rtr-0638",
+  "n-tg-0688"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

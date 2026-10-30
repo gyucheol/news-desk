@@ -1,0 +1,81 @@
+{
+ "basis": "verified",
+ "check": "로이터 3건(10월 14~19일)을 묶었다. 독일 정부 지분 50% 협상과 상장 보류는 Adria Defense·Euronext 뉴스로, CEO의 조기 상장 발언은 Global Banking & Finance Review로 확인했다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 독일 정부는 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상 중이며, 그 과정에서 상장 계획은 일단 보류됐다(10월 14일 보도) [사실]",
+  "가격: 정부와 주주 간 매입 가격 차이가 크지 않아 결정이 몇 주 안에 나올 수 있다는 보도가 이어졌다 [사실]",
+  "상장: 알라리 CEO는 10월 19일 시장 여건이 허락하는 대로 상장을 추진하고 2027년 4월 프랑스 대선 전을 선호한다며, 독일 정부의 지분 참여를 환영하고 상장이 두 단계로 나뉠 수 있다고 했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "독일 정부 KNDS 지분 50% 인수 협상…KNDS CEO \"가능한 한 빨리 상장\"",
+ "id": "n-rtr-0344",
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "독일 정부, KNDS 지분 50% 인수 협상 중",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/aerospace-defense/german-government-talks-buy-50-knds-source-says-2026-10-14/",
+   "s": "독일 정부가 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상하면서 KNDS 상장 계획이 보류됐다"
+  },
+  {
+   "t": "독일 정부, KNDS 지분 50% 인수 협상 중(증시면)",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/markets/europe/german-government-talks-buy-50-knds-source-says-2026-10-14/",
+   "s": "독일 정부와 KNDS 주주 간 매입 가격 차이가 크지 않아 결정이 몇 주 안에 나올 수 있다는 보도가 이어졌다"
+  },
+  {
+   "t": "KNDS CEO '가능한 한 빨리 상장 추진할 것'",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/business/knds-would-seek-ipo-soon-possible-ceo-says-2026-10-19/",
+   "s": "KNDS CEO가 독일 정부의 지분 참여를 환영하며 시장 여건이 허락하는 대로 상장하겠다고 밝히면서 보류됐던 IPO가 두 단계로 진행될 수 있다"
+  }
+ ],
+ "key": "mix-G4-026-2026-10-15",
+ "nodes": [],
+ "num": 344,
+ "one": "독일 정부가 KNDS의 독일 가문 주주들과 지분 50% 인수를 협상하면서 상장 계획이 보류된 뒤, 장폴 알라리 CEO가 10월 19일 정부 참여를 환영하며 2027년 4월 프랑스 대선 전 상장을 선호한다고 밝혀 IPO가 두 단계로 진행될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T06:09:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Adria Defense",
+   "d": "2026-10-14",
+   "u": "https://www.adriadefense.com/germany-in-talks-to-acquire-50-of-knds-as-ipo-plans-stall/"
+  },
+  {
+   "o": "Euronext 뉴스",
+   "d": "2026-10-14",
+   "u": "https://live.euronext.com/en/financial-news/german-government-talks-buy-50-knds-source-says-0"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-19",
+   "u": "https://www.globalbankingandfinance.com/knds-seek-ipo-soon-possible-ceo/"
+  }
+ ],
+ "tags": [],
+ "title": "독일 정부 KNDS 지분 50% 인수 협상…KNDS CEO \"가능한 한 빨리 상장\"",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/german-government-talks-buy-50-knds-source-says-2026-10-14/",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "독일 정부 KNDS 지분 50% 인수 협상과 상장 추진"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0591",
+ "num": 591,
+ "key": "split-G6-094-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T01:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/banks-vie-for-4-25-billion-debt-financing-to-back-lantheus-deal",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "랜시어스 거래용 42억 5천만 달러 대출 두고 은행들 경쟁",
+ "headline": "랜시어스 거래용 42억 5천만 달러 대출 두고 은행들 경쟁",
+ "one": "블룸버그에 따르면 은행들이 랜시어스 거래를 뒷받침할 42억 5천만 달러 대출 주선을 놓고 경쟁하면서, 헬스케어 인수금융 수요가 드러나고 은행 인수금융 사업이 늘어날 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 은행들이 랜시어스 거래에 쓸 42억 5천만 달러 대출 주선을 놓고 경쟁하고 있다(10월 15일 블룸버그) [제목]",
+  "의미: 같은 주 제약·헬스케어 인수가 잇따르는 가운데 헬스케어 인수금융 수요가 크다는 신호다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 15일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "랜시어스 거래 뒷받침할 42억 5천만 달러 대출 두고 은행들 경쟁",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/banks-vie-for-4-25-billion-debt-financing-to-back-lantheus-deal"
+  }
+ ],
+ "inds": [
+  "fin",
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "ib",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "랜시어스 거래 42억 5천만 달러 대출 주선 경쟁"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0441",
+ "num": 441,
+ "key": "split-G2-103-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T21:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "VLCC 운임 사상 최고서 하락…오만만~중국 WS 841에서 776",
+ "headline": "VLCC 운임 사상 최고서 하락…오만만~중국 WS 841에서 776",
+ "one": "걸프 수출 감소와 그림자 선단 제재 완화 언급에 오만만~중국 초대형 유조선 운임이 사상 최고인 WS 841에서 776으로 내리면서, 1년 새 배럴당 30달러까지 치솟았던 원유 운임이 한풀 꺾였다",
+ "facts": [
+  "무엇이: 오만만~중국 VLCC 운임은 사상 최고 WS 841에서 776으로 내렸다 [사실]",
+  "원인: 걸프 수출 감소와 그림자 선단 제재 완화 언급이 운임을 끌어내렸다 [사실]",
+  "수준: 세계 평균 원유 운송료는 1년 전 배럴당 4달러에서 30달러로 오른 상태다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. VLCC 운임의 사상 최고치 하락을 IndexBox 검색 결과로 확인",
+ "src": [
+  {
+   "o": "IndexBox",
+   "d": "2026-10-16",
+   "u": "https://www.indexbox.io/blog/supertanker-freight-rates-fall-from-record-highs-as-middle-east-tensions-ease/"
+  }
+ ],
+ "items": [
+  {
+   "t": "초대형 유조선(VLCC) 운임, 사상 최고치에서 하락",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/supertanker-rates-fall-record-highs-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "shipping",
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "오만만~중국 VLCC 운임 WS 841에서 776으로"
+  }
+ ]
+}

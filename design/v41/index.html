@@ -1,0 +1,993 @@
+<title>다운턴 뉴스 선별 데스크</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+@font-face{font-family:"Pretendard Variable";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
+/* Layout: 토스 계열 제품 화면 — 흰 바탕, 푸른 기가 도는 회색, 주 동작 하나에만 브랜드 파랑. 항상 밝은 테마(사용자 결정).
+   뉴스 = 날짜별 한 단 목록(제목 + 한줄 요약, 번호 없음). 깊이는 고른 뉴스에만: 자세히 체크 → 자세한 정리 → 투자 인사이트(산업 구조 · 뒤집어 보기 · 후보 기업).
+   산업 한 페이지 = 가는 선으로 두른 한 장짜리 문서. 이전 기록 = 산업 한 페이지에 반영을 마친 예전 요약 카드 보관함. */
+:root{
+  --bg:#FFFFFF; --soft:#F9FAFB; --card:#F2F4F6; --card-strong:#E5E8EB;
+  --surf:#F9FAFB; --surf-line:#E5E8EB; --on-surf:#191F28; --on-surf-soft:#6B7684;
+  --feat:#191F28; --feat-ink:#FFFFFF;
+  --ink:#191F28; --strong:#333D4B; --body:#4E5968; --muted:#6B7684; --faint:#8B95A1;
+  --line:#E5E8EB; --line-soft:#F2F4F6; --line-strong:#D1D6DB;
+  --accent:#3182F6; --accent-press:#1065CC; --accent-ink:#FFFFFF; --link:#3182F6;
+  --accent-soft:#E8F3FF; --accent-strong:#1B64DA; --accent-ring:rgba(49,130,246,.24); --accent-hover:#2272EB;
+  --warn:#FF8800; --warn-soft:#FFF3E5; --warn-strong:#B85E00;
+  --good-soft:#E8F7EE; --good-strong:#0E7A3E;
+  --note-soft:#EEF0FF; --note-strong:#4450B8;
+  --risk-soft:#FDECEC; --risk-strong:#B42318;
+  --bar-bg:rgba(255,255,255,.96);
+  --hl:#333D4B; --hl-bg:rgba(25,31,40,.08);
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7684' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  --font-body:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", "Noto Sans KR", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display:var(--font-body); --font-mono:var(--font-body);
+  --r-xs:4px; --r-sm:8px; --r:12px; --r-lg:16px; --r-xl:24px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--body);font-family:var(--font-body);font-size:15px;line-height:1.6;letter-spacing:-.005em;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+.wrap{max-width:960px;margin:0 auto;padding-inline:clamp(16px,3.4vw,32px);padding-block:40px 132px;display:flex;flex-direction:column;gap:24px}
+h1,h2,h3,h4{margin:0;text-wrap:balance;color:var(--ink);letter-spacing:-.015em}
+p{margin:0}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:var(--r-sm)}
+.mono{font-variant-numeric:tabular-nums}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px 24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.mast-t{display:flex;flex-direction:column;gap:6px;min-width:0}
+.mast h1{font-weight:700;font-size:30px;line-height:1.3;letter-spacing:-.02em}
+.sub{color:var(--muted);font-size:14px}
+.topnav{display:flex;flex-wrap:wrap;gap:4px;white-space:nowrap}
+.navlink{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px;background:transparent;border:0;border-radius:var(--r);font-size:14px;font-weight:600;color:var(--muted);cursor:pointer}
+.navlink:hover{color:var(--ink)}
+.navlink[aria-current="page"]{background:var(--card);color:var(--ink)}
+.badge{display:inline-block;min-width:1.6em;padding:0 7px;border-radius:999px;background:var(--feat);color:var(--feat-ink);font-size:12px;font-weight:600;line-height:1.7;text-align:center;font-variant-numeric:tabular-nums}
+.status{color:var(--muted);font-size:14px}
+
+/* shared controls */
+input[type=search]{min-height:40px;min-width:0;max-width:100%;flex:1 1 13rem;padding:0 12px;border:1px solid var(--line);border-radius:var(--r);background-color:var(--card);color:var(--ink);font:inherit;font-size:15px}
+input[type=search]::placeholder{color:var(--faint)}
+input[type=search]:hover{border-color:var(--line-strong)}
+input[type=search]:focus-visible{outline:0;background-color:var(--bg);border-color:var(--accent);box-shadow:0 0 0 .5px var(--accent);border-radius:var(--r)}
+.tg{min-height:40px;padding:0 14px;border:1px solid transparent;border-radius:var(--r);background:var(--card);color:var(--ink);font-size:14px;font-weight:600;line-height:1;cursor:pointer;white-space:nowrap}
+.tg:hover,.more:hover{background:var(--card-strong)}
+.tg[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-strong)}
+.tg.pri,.tg.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tg.pri:hover,.tg.on:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+.lnk{display:inline-flex;align-items:center;min-height:36px;padding:0;background:none;border:0;font-size:14px;font-weight:600;color:var(--link);cursor:pointer;text-align:left}
+.lnk:hover{text-decoration:underline;text-underline-offset:4px}
+.navlink,.tg,.chip,.sgb,.tile,.more,.read,.ck,input[type=search]{transition:background-color .15s ease,border-color .15s ease,color .15s ease}
+
+/* news toolbar */
+.nb{display:flex;flex-direction:column;gap:12px}
+.guide{padding:14px 16px;border-radius:var(--r);background:var(--soft);border:1px solid var(--line);font-size:14px;color:var(--strong);line-height:1.65}
+.guide b{color:var(--ink)}
+.sg{display:flex;flex-wrap:wrap;gap:4px}
+.sgb{min-height:38px;padding:0 14px;border:0;border-radius:var(--r);background:transparent;color:var(--muted);font-size:14px;font-weight:600;cursor:pointer;font-variant-numeric:tabular-nums}
+.sgb:hover{color:var(--ink)}
+.sgb[aria-pressed="true"]{background:var(--card-strong);color:var(--ink)}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.chip{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;min-height:34px;padding:0 12px;border-radius:999px;cursor:pointer;font-variant-numeric:tabular-nums}
+.chip:hover{background:var(--soft)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--feat-ink)}
+.tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.bulk{display:inline-flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--strong)}
+
+/* day groups and one-line list */
+.days{display:flex;flex-direction:column;gap:28px;margin-top:8px}
+.dayh{display:flex;align-items:baseline;gap:10px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.dayh h2{font-size:20px;font-weight:700;line-height:1.35}
+.dayh span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.news{list-style:none;margin:0;padding:0;display:grid}
+.item{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:start;padding:18px 2px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+.item .ctrl{display:contents}
+.ck{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:0 10px 0 6px;border:1px solid var(--line-strong);border-radius:999px;font-size:13px;font-weight:600;color:var(--strong);cursor:pointer;user-select:none;background:var(--bg);white-space:nowrap}
+.ck input{width:18px;height:18px;margin:0;accent-color:var(--accent);cursor:pointer}
+.ck:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-strong)}
+.ck.done{border-color:var(--good-soft);background:var(--good-soft);color:var(--good-strong);padding:0 10px}
+.imeta{font-size:12.5px;color:var(--faint);display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px}
+.imeta .itag{color:var(--accent-strong);font-weight:600}
+.ttl{font-size:16.5px;line-height:1.45;font-weight:700;color:var(--ink);margin-top:4px}
+.one{margin-top:6px;color:var(--strong);font-size:15px;line-height:1.65;max-width:70ch}
+.links{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:13px}
+.links .wait{color:var(--muted)}
+.basis{margin-top:8px;font-size:13.5px}
+.basis>summary{cursor:pointer;color:var(--muted);font-weight:600;width:max-content;max-width:100%}
+.basis ul{margin:8px 0 0;padding-left:1.1em;display:grid;gap:5px;color:var(--body);max-width:72ch}
+.basis li::marker{color:var(--line-strong)}
+.basis .chk{margin-top:8px;color:var(--muted);max-width:72ch}
+.basis .sl{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 12px}
+.read{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;min-height:32px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.read:hover{background:var(--soft)}
+.read[aria-pressed="true"]{background:var(--card);border-color:var(--card);color:var(--faint)}
+.item.is-read .ttl,.item.is-read .one{color:var(--faint)}
+.dbtn{appearance:none;border:0;background:var(--accent-soft);color:var(--accent-strong);font:inherit;font-size:13px;font-weight:700;min-height:32px;padding:0 12px;border-radius:999px;cursor:pointer}
+.dbtn:hover{background:var(--card-strong)}
+.more-row{margin-top:8px;display:flex;justify-content:center}
+.btn{appearance:none;border:0;border-radius:var(--r);min-height:40px;padding:0 16px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn:hover{background:var(--accent-hover)}
+.btn:active{background:var(--accent-press)}
+.btn[disabled]{background:var(--card-strong);color:var(--faint);cursor:not-allowed}
+.btn.ghost{background:var(--card);color:var(--strong)}
+.btn.ghost:hover{background:var(--card-strong)}
+
+/* evidence labels */
+.ev{display:inline-block;margin-left:4px;padding:0 6px;border-radius:var(--r-xs);font-size:11px;font-weight:700;line-height:18px;vertical-align:1px;white-space:nowrap}
+.ev.f{background:var(--card-strong);color:var(--strong)}
+.ev.p{background:var(--accent-soft);color:var(--accent-strong)}
+.ev.a{background:var(--note-soft);color:var(--note-strong)}
+.ev.i{background:var(--warn-soft);color:var(--warn-strong)}
+.ev.u{background:transparent;color:var(--muted);box-shadow:inset 0 0 0 1px var(--line-strong)}
+.imeta .ev{margin-left:0}
+.evlegend{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;color:var(--muted);align-items:center}
+.evlegend .ev{margin-left:0;margin-right:2px}
+
+/* opened detail: 자세한 정리와 투자 인사이트 */
+.dwrap{grid-column:1/-1;display:grid;gap:16px;min-width:0;margin-top:2px}
+.dsec{display:grid;gap:10px;min-width:0}
+.dsh{display:grid;gap:4px}
+.dsh .tag{font-size:12px;font-weight:700;color:var(--accent-strong);letter-spacing:.02em}
+.dsh h3{font-size:19px;line-height:1.4;font-weight:700}
+.dsh p{color:var(--muted);font-size:13.5px}
+.dpanel{background:var(--soft);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;display:grid;gap:14px;min-width:0;overflow-wrap:anywhere}
+.dpanel h3{font-size:17px;line-height:1.45;font-weight:700;margin-top:8px}
+.dpanel h3:first-child{margin-top:0}
+.dpanel h4{font-size:15px;line-height:1.5;font-weight:700;color:var(--strong)}
+.lead{font-size:16.5px;line-height:1.65;color:var(--ink);font-weight:600}
+.pts{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.pts li{position:relative;padding-left:16px;line-height:1.7}
+.pts li::before{content:"";position:absolute;left:2px;top:.72em;width:5px;height:5px;border-radius:50%;background:var(--line-strong)}
+ol.num{list-style:none;margin:0;padding:0;counter-reset:n;display:grid;gap:12px}
+ol.num>li{counter-increment:n;position:relative;padding-left:30px;line-height:1.7}
+ol.num>li::before{content:counter(n);position:absolute;left:0;top:2px;width:20px;height:20px;border-radius:50%;background:var(--card-strong);color:var(--strong);font-size:12px;font-weight:700;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.mech{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;font-size:13.5px}
+.mech span{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm);padding:6px 10px;color:var(--strong)}
+.mech i{font-style:normal;color:var(--faint);align-self:center}
+.vc{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
+.vc .col{flex:1 1 200px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.vc .col.here{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-ring)}
+.vc .arrow{align-self:center;color:var(--faint);font-size:18px}
+.vc h4{font-size:13px;color:var(--muted)}
+.vc ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13.5px;line-height:1.5}
+.vc li b{color:var(--ink);font-weight:700}
+.here-tag{justify-self:start;font-size:11px;font-weight:700;color:var(--accent-ink);background:var(--accent);padding:1px 8px;border-radius:999px}
+.segl{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.segl li{display:grid;grid-template-columns:minmax(0,9em) auto minmax(0,1fr);gap:10px;align-items:baseline;padding:10px 12px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm)}
+.segl .nm{font-weight:700;color:var(--ink);font-size:14px}
+.stg{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;background:var(--card);color:var(--strong)}
+.stg.tight{background:var(--warn-soft);color:var(--warn-strong)}
+.stg.build{background:var(--accent-soft);color:var(--accent-strong)}
+.stg.turn{background:var(--risk-soft);color:var(--risk-strong)}
+.segl .why{font-size:13.5px;color:var(--body);min-width:0}
+.hyps{display:grid;gap:14px}
+.hyp{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:10px;min-width:0}
+.hyp .hd{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.hyp .hd .k{font-size:12px;font-weight:700;color:var(--muted)}
+.kv{display:grid;grid-template-columns:minmax(0,8.5em) minmax(0,1fr);gap:6px 14px;font-size:14px;line-height:1.65;margin:0}
+.kv dt{color:var(--muted);font-weight:600}
+.kv dd{margin:0;color:var(--body);min-width:0}
+.verdict{display:grid;gap:10px}
+.verdict .v{padding:14px 16px;border-radius:var(--r);background:var(--bg);border:1px solid var(--line)}
+.verdict .v h4{margin-bottom:4px}
+.verdict .v.strong{border-left:4px solid var(--accent)}
+.verdict .v.swing{border-left:4px solid var(--warn)}
+.callout{padding:12px 14px;border-radius:var(--r);background:var(--card);font-size:14px;color:var(--strong)}
+.cco{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;display:grid;gap:12px;min-width:0}
+.cco .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;align-items:baseline}
+.cco .top h4{font-size:18px;color:var(--ink)}
+.cco .tk{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.cco .px{font-size:13px;color:var(--strong);font-variant-numeric:tabular-nums}
+.cco .role{justify-self:start;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--card);color:var(--strong)}
+.cco .role.cond{background:var(--warn-soft);color:var(--warn-strong)}
+.cco details{border-top:1px solid var(--line-soft);padding-top:10px}
+.cco summary{cursor:pointer;font-weight:700;color:var(--ink);font-size:14.5px}
+.cco details>div{margin-top:10px;display:grid;gap:10px}
+.series{display:grid;gap:4px;font-size:13.5px;font-variant-numeric:tabular-nums;margin:0}
+.series div{display:grid;grid-template-columns:minmax(0,7.5em) minmax(0,1fr);gap:10px}
+.series dt{color:var(--muted)}
+.series dd{margin:0;color:var(--strong);min-width:0}
+.cmp{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.cmp li{display:grid;grid-template-columns:minmax(0,9.5em) minmax(0,1fr);gap:12px;padding:10px 12px;border-radius:var(--r-sm);background:var(--bg);border:1px solid var(--line);font-size:14px}
+.cmp .l{font-weight:700;color:var(--ink)}
+.picks{display:flex;flex-wrap:wrap;gap:10px}
+.pick{flex:1 1 200px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:4px;align-content:start;min-width:0}
+.pick .k{font-size:12px;color:var(--muted);font-weight:700}
+.pick .n{font-size:17px;font-weight:700;color:var(--ink)}
+.pick p{font-size:13.5px}
+.big-ck{display:flex;gap:10px;align-items:flex-start;padding:14px 16px;border:1px dashed var(--line-strong);border-radius:var(--r);background:var(--bg);cursor:pointer}
+.big-ck input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--accent);flex:none}
+.big-ck:has(input:checked){border-style:solid;border-color:var(--accent);background:var(--accent-soft)}
+.big-ck b{color:var(--ink)}
+.srcl{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.srcl a{word-break:break-all}
+.dim{color:var(--muted);font-size:13.5px}
+.dfoot{display:flex;justify-content:flex-end}
+
+/* sticky request bar */
+.reqbar{position:fixed;left:0;right:0;bottom:0;z-index:5;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:var(--bar-bg);border-top:1px solid var(--line);backdrop-filter:saturate(1.4) blur(8px)}
+.reqbar .in{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.reqbar .cnt{font-size:14px;color:var(--strong)}
+.reqbar .cnt b{color:var(--accent-strong);font-variant-numeric:tabular-nums}
+.reqmsg{font-size:13px;color:var(--good-strong);min-height:1em;flex:1 1 12rem}
+.reqtext{width:100%;min-height:72px;padding:10px;border:1px solid var(--line-strong);border-radius:var(--r-sm);font:inherit;font-size:13px;color:var(--strong);background:var(--bg)}
+
+/* opened old card */
+.cardbox{margin:10px 0 4px;background:var(--soft);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px;min-width:0;overflow-wrap:anywhere;color:var(--body);font-size:15px;line-height:1.65}
+.cb-h{margin:0 0 12px;font-size:16px;font-weight:600;line-height:1.55;color:var(--ink)}
+.cb-act{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:flex-end;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.cb-act .sp{flex:1 1 auto}
+.orow{border-bottom:1px solid var(--line);padding:4px 0;scroll-margin-top:12px}
+.obtn{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 12px;width:100%;min-height:44px;padding:8px 0;background:none;border:0;text-align:left;cursor:pointer;color:var(--strong);font-size:15px}
+.obtn .om{flex:none;font-size:12.5px;color:var(--faint);font-variant-numeric:tabular-nums}
+.obtn .ot{flex:1 1 280px;min-width:0}
+.obtn:hover .ot{text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:4px}
+.orow.is-read .ot{color:var(--faint)}
+
+/* v41: 근거·출처 접기 없앰, 버튼 두 개를 한 줄에, 위아래 여백 줄임, 뉴스마다 날짜 */
+.item{grid-template-columns:minmax(0,1fr);gap:0;padding:12px 2px}
+.item .body{min-width:0}
+.imeta .idate{color:var(--muted);font-variant-numeric:tabular-nums}
+.item .one{margin-top:2px}
+.acts{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.act{appearance:none;border:1px solid var(--line-strong);background:var(--bg);color:var(--strong);font:inherit;font-size:13px;font-weight:600;min-height:30px;padding:0 12px;border-radius:999px;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center}
+.act:hover{background:var(--soft)}
+.act:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.act[aria-pressed="true"]:not(.rd){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-strong)}
+.act.rd[aria-pressed="true"]{background:var(--card);border-color:var(--card);color:var(--faint)}
+.act.wait{cursor:default;color:var(--muted);border-style:dashed}
+.act.done{border-color:var(--good-soft);background:var(--good-soft);color:var(--good-strong)}
+.acts .orig{font-size:13px;margin-left:4px}
+.rq{font-weight:600;color:var(--accent-strong)}
+.rq.done{color:var(--good-strong)}
+.rqnote{margin-top:8px;font-size:13px;color:var(--muted)}
+.rqi .dwrap{margin-top:10px}
+
+/* industry tiles: equal squares */
+.tiles{display:grid;grid-template-columns:repeat(var(--m,4),minmax(0,1fr));gap:8px;margin-bottom:20px}
+@media (min-width:900px){.tiles{grid-template-columns:repeat(var(--n,8),minmax(0,1fr))}}
+.tile{aspect-ratio:1/1;max-width:100%;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r-lg);padding:6px 4px;cursor:pointer;text-align:center;color:var(--body)}
+.tile .ic{font-size:1.6rem;line-height:1}
+.tile .tl{font-size:13.5px;font-weight:500;line-height:1.3;color:var(--ink);word-break:keep-all;overflow-wrap:break-word;max-width:100%}
+.tile .ts{font-size:12px;color:var(--muted);line-height:1.2}
+.tile:hover{border-color:var(--line-strong)}
+.tile[aria-pressed="true"]{border-color:var(--card-strong);background:var(--card)}
+.tile[aria-pressed="true"] .tl{font-weight:600}
+
+/* industry page */
+.ind{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:32px 32px 16px}
+.ind-h{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
+.ind-icon{font-size:2rem;line-height:1.1}
+.ind-h h2{font-family:var(--font-display);font-size:24px;font-weight:700;line-height:1.3;letter-spacing:-.02em}
+.ind-meta{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font-size:13px;color:var(--muted)}
+.stage-badge{color:var(--ink);font-weight:600}
+.summary{margin:0 0 10px;color:var(--strong);font-size:16px;line-height:1.6;max-width:68ch}
+.blk{border-top:1px solid var(--line);padding:24px 0 20px}
+.blk>h3{font-family:var(--font-display);font-size:18px;font-weight:600;letter-spacing:-.01em;margin-bottom:12px}
+.hint{margin:-4px 0 12px;color:var(--muted);font-size:13px}
+.lines{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.lines li{max-width:72ch}
+.lb{display:inline-block;font-size:11px;line-height:1.5;padding:0 6px;border:1px solid var(--line-strong);border-radius:var(--r-xs);color:var(--muted);margin-left:3px;vertical-align:1px;white-space:nowrap;font-weight:500}
+.srcs{display:inline-flex;flex-wrap:wrap;gap:4px;margin-left:4px;vertical-align:1px}
+.src{display:inline-block;font-size:11.5px;font-weight:500;line-height:1.6;padding:0 8px;border:0;border-radius:999px;background:var(--card);color:var(--muted);text-decoration:none;white-space:nowrap;max-width:15rem;overflow:hidden;text-overflow:ellipsis}
+a.src:hover,button.src:hover{color:var(--link)}
+button.src{cursor:pointer}
+.new{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.09em;color:var(--accent-strong);background:var(--accent-soft);border-radius:999px;padding:1px 7px;margin-right:6px;vertical-align:1px}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:8px;margin:0 0 12px}
+.split div{background:var(--card);border-radius:var(--r);padding:10px 14px;font-size:14px}
+.split b{color:var(--ink);font-weight:600}
+.flags{margin-top:14px;padding:14px 16px;background:var(--warn-soft);border-radius:var(--r-lg);max-width:72ch}
+.flags .fh{font-size:14px;font-weight:600;color:var(--warn-strong);margin:0 0 8px}
+.next{margin:12px 0 0;padding:14px 16px;background:var(--card);border-radius:var(--r-lg);font-size:15px;max-width:72ch}
+.next .k,.kk{font-weight:600;color:var(--ink);margin-right:6px}
+.watch{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;font-size:13px;align-items:baseline}
+.watch span.w{background:var(--card);border-radius:999px;padding:2px 12px;font-weight:500;color:var(--body)}
+
+/* insight a~d */
+.qs{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.qg{border:1px solid var(--line);border-radius:var(--r-lg);padding:16px 18px;background:var(--bg)}
+.q+.q{margin-top:12px;padding-top:12px;border-top:1px solid var(--line-soft)}
+.qh{display:flex;gap:8px;align-items:baseline;font-size:13.5px;color:var(--muted);font-weight:500;margin-bottom:6px}
+.qk{font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px;min-width:2.2em}
+.q.opp .qh{color:var(--ink)}
+
+/* value chain */
+.chain{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;counter-reset:node}
+.node{border:1px solid var(--line);border-radius:var(--r-lg);padding:16px 18px;background:var(--bg);scroll-margin-top:16px;min-width:0;overflow-wrap:anywhere}
+.node.hl{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-ring)}
+.node-h{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.node-h::before{counter-increment:node;content:counter(node);font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:12px;color:var(--faint)}
+.node-h h4{font-size:16px;font-weight:600}
+.nstage{font-size:13px;color:var(--strong);font-weight:500;white-space:nowrap}
+.nnote{font-size:13px;color:var(--muted)}
+.bneck{margin:6px 0 8px;font-size:14.5px;color:var(--body);max-width:72ch}
+.bneck .kk{color:var(--muted);font-weight:500}
+.cos{display:flex;flex-wrap:wrap;gap:5px}
+.co{display:inline-flex;align-items:baseline;gap:5px;background:var(--soft);border-radius:var(--r-sm);padding:2px 8px;font-size:13px;max-width:100%}
+.co .tk{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:12px;font-weight:500;color:var(--ink)}
+.co .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.mk{font-style:normal;font-size:11px;color:var(--faint);white-space:nowrap}
+.mk.kr{color:var(--muted)}
+.node details{margin-top:10px}
+.node summary,.cardbox summary,.nc summary{cursor:pointer;font-size:14px;font-weight:500;color:var(--link)}
+.nd-body{display:grid;gap:12px;margin-top:10px;font-size:14.5px}
+.nd-body h5{margin:0 0 4px;font-size:13px;color:var(--muted);font-weight:500}
+.nd-body p{margin:0;max-width:72ch}
+.nd-body ul{margin:0;padding-left:1.1em;display:grid;gap:5px}
+.lk{display:inline-flex;gap:5px;align-items:baseline;border:0;border-radius:999px;padding:3px 12px;margin:0 4px 4px 0;font-size:13px;font-weight:500;cursor:pointer;background:var(--card);color:var(--ink);text-align:left}
+.lk.ext{cursor:default;background:transparent;border:1px solid var(--line)}
+.lk small{color:var(--muted);font-weight:400}
+.conote{color:var(--muted);font-size:13.5px}
+
+/* flows */
+.fl-filter{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
+.ff{border:0;background:transparent;border-radius:var(--r);padding:5px 12px;font-size:13px;font-weight:500;color:var(--muted);cursor:pointer}
+.ff[aria-pressed="true"]{background:var(--card-strong);color:var(--ink)}
+.flows{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.flows li{display:grid;grid-template-columns:3.4rem minmax(0,1fr);gap:8px;font-size:14.5px}
+.flows time{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:12px;color:var(--faint);padding-top:3px}
+.ndtag{display:inline-block;font-size:11.5px;font-weight:500;color:var(--muted);background:var(--card);border-radius:999px;padding:0 8px;margin-right:6px}
+.more{margin-top:14px;min-height:40px;background:var(--card);border:1px solid transparent;border-radius:var(--r);padding:0 16px;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink)}
+.gaps summary,.hist summary{cursor:pointer;color:var(--muted);font-size:14px}
+.gaps p{font-size:14px;color:var(--muted);max-width:72ch}
+.hist ul{font-size:13.5px;color:var(--muted);padding-left:1.1em}
+
+/* card body (opened card, old cards) */
+.nlist{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.nc{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px 22px;scroll-margin-top:16px;min-width:0;overflow-wrap:anywhere}
+.nc.read{opacity:.74}
+.nc-top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:13px;color:var(--muted)}
+.nc-top .rd{margin-left:auto}
+.nc h3{font-size:16px;font-weight:600;margin:10px 0 8px;line-height:1.5}
+.nc-chain{display:flex;flex-wrap:wrap;gap:2px;margin-bottom:8px}
+.facts{margin:0 0 8px;padding-left:1.1em;display:grid;gap:6px;list-style:disc}
+.facts li{max-width:72ch}
+.facts li::marker{color:var(--line-strong)}
+.facts .fk{display:inline-block;margin-right:7px;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.01em}
+.nmeta{font-size:14px;margin:6px 0;max-width:72ch}
+.cardbox details,.nc details{margin-top:8px}
+.reqrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:flex-end;margin-top:12px}
+.reqdone{font-size:13px;color:var(--muted)}
+mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;border-radius:var(--r-xs);-webkit-box-decoration-break:clone;box-decoration-break:clone}.empty{background:var(--card);border-radius:var(--r-lg);padding:28px 28px;color:var(--muted);font-size:15px}
+.empty b{color:var(--ink);font-weight:600}
+
+/* archive */
+.atools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.arch details{border-bottom:1px solid var(--line);padding:12px 0}
+.arch summary{cursor:pointer;font-size:15px;color:var(--strong)}
+.arch .meta{color:var(--faint);font-size:12px;font-family:var(--font-mono);font-variant-numeric:tabular-nums;margin-right:8px}
+.arch ul{margin:8px 0;padding-left:1.1em;font-size:14.5px;display:grid;gap:5px}
+
+/* closing band */
+.foot{margin:20px 0 0;background:var(--surf);color:var(--on-surf-soft);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px 28px;font-size:13px;line-height:1.5}
+@media (max-width:640px),(pointer:coarse){
+  .navlink,.tg,input[type=search],.more,.btn{min-height:44px}
+  .sgb{min-height:42px}
+  .chip{min-height:38px}
+  .ck,.read,.dbtn{min-height:38px}
+}
+@media (max-width:640px){
+  .wrap{padding-block:26px 150px;gap:18px}
+  .mast{padding-bottom:14px}
+  .mast h1{font-size:25px}
+  .navlink{padding:0 12px}
+  input[type=search]{font-size:16px;flex-basis:100%}
+  .item{grid-template-columns:minmax(0,1fr);gap:10px;padding:16px 0}
+  .item .ctrl{display:flex;gap:8px;align-items:center;order:2}
+  .item .body{order:1}
+  .item .dwrap{order:3}
+  .dpanel{padding:16px}
+  .cardbox{padding:16px}
+  .segl li{grid-template-columns:minmax(0,1fr) auto}
+  .segl .why{grid-column:1/-1}
+  .kv,.cmp li,.series div{grid-template-columns:minmax(0,1fr)}
+  .kv dt{margin-top:6px}
+  .vc .arrow{flex-basis:100%;text-align:center;transform:rotate(90deg)}
+  .ind{padding:22px 16px 8px}
+  .ind-h h2{font-size:22px}
+  .summary{font-size:15.5px}
+  .flows li{grid-template-columns:3rem minmax(0,1fr)}
+  .foot{padding:18px 18px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="mast-t">
+      <h1>다운턴 뉴스 선별 데스크</h1>
+      <p class="sub" id="sub">제목과 한줄 요약으로 고르고, 고른 뉴스만 깊게 봅니다</p>
+    </div>
+    <nav class="topnav" aria-label="화면 이동">
+      <button type="button" class="navlink" id="tab-news" data-tab="news" aria-current="page">뉴스</button>
+      <button type="button" class="navlink" id="tab-ind" data-tab="ind">산업 한 페이지</button>
+      <button type="button" class="navlink" id="tab-req" data-tab="req">요청한 뉴스</button>
+    </nav>
+  </header>
+
+  <p class="status" id="status">데이터를 불러오는 중입니다.</p>
+
+  <main id="main"></main>
+
+  <p class="foot">한줄 요약과 산업 위치는 Claude가 조사 근거로 정리·판정한 것입니다. 블룸버그·로이터 원문은 직접 읽지 못해 독립 매체와 1차 출처로 확인했습니다. 투자 권유가 아닌 관찰 기록입니다.</p>
+</div>
+
+<div class="reqbar" id="reqbar" role="region" aria-label="체크한 뉴스 요청" hidden>
+  <div class="in">
+    <span class="cnt">뉴스 내용 및 인사이트 요청 <b id="n-detail">0</b>건 <span class="dim" id="n-insight" hidden></span></span>
+    <button class="btn" id="reqgo" type="button">요청</button>
+    <span class="reqmsg" id="reqmsg" aria-live="polite"></span>
+  </div>
+</div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const CIRC = ['', '①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
+  const SIG = { 1: '실물 공급 파괴', 2: '자본 철수', 3: '산업 통합', 4: '정책 충격', 5: '병목 이동', 6: '심리 극단', 7: '과열 신호' };
+  const SIGS = { 1: '실물 공급 파괴', 2: '자본 철수', 3: '산업 통합', 4: '정책 충격', 5: '병목 이동', 6: '심리 극단', 7: '과열' };
+  const DOW = ['일', '월', '화', '수', '목', '금', '토'];
+  const QS = [
+    ['a', 'a', '산업·밸류체인의 구조적 변화'], ['a1', 'a-1', '그 변화로 가능성이 높은 흐름'], ['a2', 'a-2', '정반대로 흐른다면, 그 이유'],
+    ['b', 'b', '공급·수요의 구조적 변화'], ['b1', 'b-1', '그 변화로 가능성이 높은 흐름'], ['b2', 'b-2', '정반대로 흐른다면, 그 이유'],
+    ['c', 'c', '이 흐름과 정반대되는 정보'], ['c1', 'c-1', '그 정보가 이 흐름을 덮을 만큼 큰가'], ['d', 'd', '완전히 다른 각도로 보면']
+  ];
+  const GROUPS = [['a', 'a1', 'a2'], ['b', 'b1', 'b2'], ['c', 'c1'], ['d']];
+  const TRADE = new Set(['NYSE', 'NASDAQ', 'NYSEAMERICAN', 'NYSE Arca', 'NYSEARCA', 'HKEX', 'SSE', 'SZSE', 'TSE', 'SGX']);
+  const FALLBACK_STAGES = [
+    [1, '고수익·호황', '호황'], [2, '자본 유입·증설', '증설'], [3, '공급 과잉', '과잉'], [4, '수익 악화·비관', '비관'],
+    [5, '자본 철수', '철수'], [6, '공급 파괴·통합', '파괴'], [7, '바닥 형성', '바닥'], [8, '회복 초기', '회복']
+  ].map(([n, name, short]) => ({ n, name, short, desc: '', sig: '' }));
+  const IND = { macro: '매크로', semis: '반도체·AI 투자', power: '전력·재생에너지', gas: '가스·LNG', coal: '석탄', uranium: '원전·우라늄', drilling: '시추·해양', petchem: '석유화학·정유', jpins: '일본 보험·금융', beauty: '화장품' };
+  const IND_ORDER = ['semis', 'macro', 'power', 'gas', 'petchem', 'uranium', 'drilling', 'coal', 'jpins', 'beauty'];
+  const SRC_ORDER = ['블룸버그', '로이터', '텔레그램'];
+  const PAGE = 80;
+  const coarse = (() => { try { return matchMedia('(pointer:coarse)').matches; } catch (e) { return false; } })();
+
+  let stages = FALLBACK_STAGES;
+  let cycUpdated = '';
+  let chains = {};
+  let news = [], newsLoaded = false, dbMissing = false;
+  let reads = {};
+  let readRef = null, writing = Promise.resolve();
+  let archive = null, archLoading = false, dbRef = null;
+  let reqs = {}, reqDone = {}, reqRef = null;      // 투자 인사이트 요청
+  let dreqs = {}, dreqDone = {}, dsent = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
+  const st = {
+    tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(),
+    ind: null, flowNode: 'all', flowMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()
+  };
+  try {
+    const s = JSON.parse(localStorage.getItem('v6state') || localStorage.getItem('v5state') || '{}');
+    if (['news', 'ind', 'req'].includes(s.tab)) st.tab = s.tab;
+    if (s.ind) st.ind = s.ind;
+  } catch (e) {}
+  const h = (location.hash || '').replace('#', '');
+  if (h === 'news' || h === 'req') st.tab = h;
+  else if (/^[a-z]+$/.test(h)) { st.tab = 'ind'; st.ind = h; }
+  const save = () => { try { localStorage.setItem('v6state', JSON.stringify({ tab: st.tab, ind: st.ind })); } catch (e) {} };
+
+  /* ── text and date helpers ── */
+  const today = (() => { try { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date()); } catch (e) { return new Date().toISOString().slice(0, 10); } })();
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const md = d => { const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?/.exec(d || ''); return m ? (m[3] ? m[2] + '-' + m[3] : m[1].slice(2) + '-' + m[2]) : ''; };
+  const kday = d => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(d || ''); return m ? (+m[2]) + '월 ' + (+m[3]) + '일' : ''; };
+  const dowOf = d => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(d || ''); return m ? DOW[new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).getUTCDay()] + '요일' : ''; };
+  const plain = t => String(t == null ? '' : t).replace(/\{\{|\}\}/g, '');
+  const LBL = /\s*\[(사실|귀납|연역|유추|추측)[^\]]*\]\s*\.?\s*$/;
+  const KEY = /^([^:{}\[\]]{1,8}):\s*/;
+  const bare = t => plain(t).replace(LBL, '').replace(KEY, '').trim();
+  const labeled = t => esc(t).replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]/g, (m, a, b) => ' <span class="lb">' + a + b + '</span>');
+  function rich(t) {
+    let s = esc(t);
+    s = s.replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+    s = s.replace(/\s*\[(사실|귀납|연역|유추|추측)([^\]]*)\]\s*$/, (m, a, b) => ' <span class="lb">' + a + esc(b) + '</span>');
+    return s;
+  }
+  // 보도 시각: 한국 시간 기준 정렬 키. 시각이 없는 카드는 날짜만 남아 그날의 마지막으로 정렬됩니다.
+  function pubParts(p) {
+    p = String(p || '');
+    const m = /^(\d{4}-\d{2}-\d{2})(?:T(\d{2}):(\d{2})(?::(\d{2}))?)?/.exec(p);
+    if (!m) return { key: p, day: '', time: '' };
+    if (m[2] == null) return { key: m[1], day: m[1], time: '' };
+    if (!/\+09:00$/.test(p)) {
+      const t = Date.parse(p);
+      if (!isNaN(t)) { const k = new Date(t + 9 * 3600e3).toISOString(); return { key: k.slice(0, 19), day: k.slice(0, 10), time: k.slice(11, 16) }; }
+    }
+    return { key: m[1] + 'T' + m[2] + ':' + m[3] + ':' + (m[4] || '00'), day: m[1], time: m[2] + ':' + m[3] };
+  }
+  function splitHead(hd) { const s = plain(hd); const i = s.indexOf(' — '); return i < 0 ? { title: s, detail: '' } : { title: s.slice(0, i), detail: s.slice(i + 3) }; }
+  function srcChips(src) {
+    if (!src || !src.length) return '';
+    return '<span class="srcs">' + src.map(x => {
+      const o = (x.o || '').replace(/\(.*?\)/g, '').trim();
+      const label = esc((o.length > 18 ? o.slice(0, 17) + '…' : o) + (x.d ? ' · ' + md(x.d) : ''));
+      if (x.nid) return '<button type="button" class="src" data-act="gonews" data-id="' + esc(x.nid) + '">' + label + '</button>';
+      return x.u ? '<a class="src" href="' + esc(x.u) + '" target="_blank" rel="noopener" title="' + esc(x.o || '') + '">' + label + '</a>' : '<span class="src" title="' + esc(x.o || '') + '">' + label + '</span>';
+    }).join('') + '</span>';
+  }
+  // NEW: 오늘 바뀐 것 + 이 산업의 가장 최근 저녁 업데이트(최근 2일 이내)에서 더해진 것
+  let curRev = '';
+  const dayBefore = n => { try { const d = new Date(today + 'T12:00:00+09:00'); d.setUTCDate(d.getUTCDate() - n); return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(d); } catch (e) { return ''; } };
+  const isNew = x => x && x.rev && (x.rev === today || (curRev && x.rev === curRev && curRev >= dayBefore(2))) ? '<span class="new">NEW</span>' : '';
+  const newsSrc = nid => { const n = news.find(z => z.id === nid); return n ? { o: (n.source || '') + ' 새 #' + (n.num || ''), d: n.processed || '', nid } : { o: '새 뉴스', d: '', nid }; };
+  function lineList(arr) {
+    if (!arr || !arr.length) return '<p class="hint">아직 내용이 없습니다.</p>';
+    return '<ul class="lines">' + arr.map(x => {
+      const o = typeof x === 'string' ? { t: x } : x;
+      return '<li>' + isNew(o) + rich(o.t) + srcChips(o.src) + '</li>';
+    }).join('') + '</ul>';
+  }
+  const ord = c => typeof c.order === 'number' ? c.order : 99;
+  const sortedInds = () => Object.values(chains).sort((a, b) => ord(a) - ord(b));
+  // 문서에 stages가 있으면(매크로) 자본순환 8국면 대신 그 문서의 국면 이름을 씁니다.
+  const ownStages = c => (c && Array.isArray(c.stages) && c.stages.length) ? c.stages : null;
+  const stageName = (n, c) => { const s = (ownStages(c) || stages).find(x => x.n === n); return s ? s.name : ''; };
+  const stageShort = (n, c) => { const s = (ownStages(c) || stages).find(x => x.n === n); return s ? (s.short || s.name) : ''; };
+  const stageMark = c => { const cy = c.cycle || {}; if ((cy.split || []).length) return cy.split.map(p => CIRC[p.stage]).join('·'); return cy.stage ? CIRC[cy.stage] + ' ' + stageShort(cy.stage, c) : ''; };
+  const qLabel = (k, c) => (c && c.qs && c.qs[k]) || QS.find(z => z[0] === k)[2];
+  const brk = s => esc(s).replace(/·/g, '·&#8203;');
+  const dotb = s => esc(s).replace(/·/g, '&#8288;·&#8203;');
+  const tileVars = (n, m) => ' style="--n:' + n + ';--m:' + m + '"';
+  const nobr = t => String(t == null ? '' : t).replace(/·/g, '\u2060·\u2060');
+  const indShort = id => { const c = chains[id]; return nobr(c ? (c.short || c.name) : id); };
+  const curStage = id => { const c = chains[id]; return c && c.cycle && c.cycle.stage ? c.cycle.stage : null; };
+  function mkt(m) {
+    if (!m) return '';
+    if (TRADE.has(m)) return '<i class="mk">' + esc(m === 'NYSEAMERICAN' ? 'NYSE American' : m) + '</i>';
+    if (m === 'KRX') return '<i class="mk kr">KRX 국내</i>';
+    if (m === 'private') return '<i class="mk">비상장</i>';
+    if (m === 'OTC') return '<i class="mk">미국 장외 · 투자 경로 확인</i>';
+    return '<i class="mk">' + esc(m) + ' · 투자 경로 없음</i>';
+  }
+
+  /* ── industry one-pager ── */
+  function renderInd() {
+    const list = sortedInds();
+    if (!list.length) { $('main').innerHTML = '<div class="empty"><b>산업 데이터를 기다리는 중입니다.</b> 잠시 뒤에도 비어 있으면 새로고침해 주세요.</div>'; return; }
+    if (!st.ind || !chains[st.ind]) st.ind = list[0].id;
+    const c = chains[st.ind];
+    curRev = c.rev || '';
+    const ui = c.ui || {};
+    const chooser = '<div class="tiles" role="group" aria-label="산업 고르기"' + tileVars(list.length, list.length === 9 ? 3 : 4) + '>' + list.map(x => '<button type="button" class="tile" data-act="ind" data-id="' + esc(x.id) + '" aria-pressed="' + (x.id === c.id) + '"><span class="ic" aria-hidden="true">' + esc(x.icon || '') + '</span><span class="tl">' + brk(x.short || x.name) + '</span><span class="ts">' + brk(stageMark(x)) + '</span></button>').join('') + '</div>';
+    const cy = c.cycle || {};
+    const split = (cy.split || []).length ? '<div class="split">' + cy.split.map(p => '<div><b>' + CIRC[p.stage] + ' ' + esc(stageName(p.stage, c)) + '</b> ' + esc(p.label) + '<br><span class="nnote">' + (p.nodes || []).map(id => { const n = (c.nodes || []).find(z => z.id === id); return esc(n ? (n.short || n.name) : id); }).join(' · ') + '</span></div>').join('') + '</div>' : '';
+    const ins = c.insight || {};
+    const qs = GROUPS.map(g => '<div class="qg">' + g.map(k => { const q = QS.find(z => z[0] === k); return '<div class="q' + (/2$/.test(k) ? ' opp' : '') + '"><div class="qh"><span class="qk">' + q[1] + '</span>' + esc(qLabel(k, c)) + '</div>' + lineList(ins[k]) + '</div>'; }).join('') + '</div>').join('');
+    const nodes = (c.nodes || []).map(n => nodeCard(c, n)).join('');
+    const hist = (c.history || []).slice().reverse().map(x => '<li>' + esc(x.rev) + ' — ' + esc(x.note || '') + '</li>').join('');
+    $('main').innerHTML = chooser +
+      '<article class="ind" id="ind-' + esc(c.id) + '">' +
+      '<header class="ind-h"><div class="ind-icon" aria-hidden="true">' + esc(c.icon || '') + '</div><div><h2>' + esc(c.name) + '</h2><div class="ind-meta"><span class="stage-badge">' + (cy.stage ? CIRC[cy.stage] + ' ' + esc(stageName(cy.stage, c)) : '국면 판정 전') + '</span>' + (cy.conf ? '<span>판정 확신도 ' + esc(cy.conf) + '</span>' : '') + '<span>' + esc(md(c.rev || c.asOf)) + ' 갱신</span></div></div></header>' +
+      '<p class="summary">' + rich(c.summary) + '</p>' +
+      '<section class="blk"><h3>' + esc(ui.cycle || '사이클 위치') + '</h3>' + split + lineList(cy.why) +
+        ((cy.flags || []).length ? '<div class="flags"><p class="fh">재검토 신호 — 국면은 그대로 두고 새 뉴스가 가리키는 다른 국면을 모아 둡니다</p><ul class="lines">' + cy.flags.slice().reverse().map(f => '<li>' + isNew(f) + rich(f.t) + (f.nid ? srcChips([newsSrc(f.nid)]) : '') + '</li>').join('') + '</ul></div>' : '') +
+        (cy.next ? '<p class="next"><span class="k">다음 국면 조건</span>' + rich(cy.next) + '</p>' : '') +
+        ((cy.watch || []).length ? '<div class="watch"><span class="kk">볼 지표</span>' + cy.watch.map(w => '<span class="w">' + esc(w) + '</span>').join('') + '</div>' : '') + '</section>' +
+      '<section class="blk"><h3>투자 인사이트</h3><div class="qs">' + qs + '</div></section>' +
+      '<section class="blk"><h3>' + esc(ui.chain || '밸류체인') + '</h3><p class="hint">' + esc(ui.chainHint || '상류에서 하류 순서입니다. 자세히를 누르면 역할·지표·연관 노드·근거·흐름이 열립니다.') + '</p><div class="chain">' + nodes + '</div></section>' +
+      '<section class="blk" id="flowsBlk">' + flowsBlock(c) + '</section>' +
+      (c.gaps ? '<section class="blk gaps"><details><summary>조사에서 확인하지 못한 것</summary><p>' + esc(c.gaps) + '</p></details></section>' : '') +
+      (hist ? '<section class="blk hist"><details><summary>업데이트 이력</summary><ul>' + hist + '</ul></details></section>' : '') +
+      '</article>';
+  }
+  function nodeCard(c, n) {
+    const cos = (n.companies || []).map(x => '<span class="co" title="' + esc(plain(x.note)) + '">' + (x.t ? '<b class="tk">' + esc(x.t) + '</b>' : '') + '<span class="nm">' + esc((x.n || '').replace(/\(.*?\)/g, '').trim()) + '</span>' + mkt(x.m) + '</span>').join('');
+    const links = (n.links || []).map(l => {
+      if (l.to) { const [ci, ni] = l.to.split('/'); const tc = chains[ci]; const tn = tc && (tc.nodes || []).find(z => z.id === ni);
+        return '<button type="button" class="lk" data-act="node" data-ind="' + esc(ci) + '" data-id="' + esc(ni) + '">' + esc(tc ? tc.icon : '') + ' ' + esc(tn ? (tn.short || tn.name) : l.to) + ' <small>' + esc(l.why || '') + '</small></button>'; }
+      return '<span class="lk ext">' + esc(l.ext || '') + ' <small>' + esc(l.why || '') + '</small></span>';
+    }).join('');
+    const ev = (n.state || []).slice().reverse().map(x => '<li>' + isNew(x) + rich(x.t) + srcChips([{ o: x.o, d: x.d, u: x.u }]) + '</li>').join('');
+    const fl = (c.flows || []).filter(f => f.node === n.id).slice(0, 8).map(f => '<li>' + isNew(f) + '<span class="mono" style="color:var(--faint);font-size:.76rem">' + esc(md(f.d)) + '</span> ' + rich(f.t) + srcChips(f.src) + '</li>').join('');
+    const conotes = (n.companies || []).filter(x => x.note).map(x => '<li><b class="mono" style="font-size:.78rem">' + esc(x.t || '—') + '</b> ' + esc((x.n || '').replace(/\(.*?\)/g, '').trim()) + ' <span class="conote">' + rich(x.note) + '</span></li>').join('');
+    const ind = (n.indicators || []).map(x => '<li>' + esc(x.n) + (x.src ? ' <span class="conote">(' + esc(x.src) + ')</span>' : '') + '</li>').join('');
+    return '<div class="node" id="node-' + esc(c.id) + '-' + esc(n.id) + '">' +
+      '<div class="node-h"><h4>' + esc(n.name) + '</h4>' + (n.stage ? '<span class="nstage">' + CIRC[n.stage] + ' ' + esc(stageName(n.stage, c)) + '</span>' : '') + (n.stageNote ? '<span class="nnote">' + esc(n.stageNote) + '</span>' : '') + '</div>' +
+      (n.bottleneck ? '<p class="bneck"><span class="kk">' + esc((c.ui || {}).bneck || '병목') + '</span>' + rich(n.bottleneck) + '</p>' : '') +
+      (cos ? '<div class="cos">' + cos + '</div>' : '') +
+      '<details><summary>자세히</summary><div class="nd-body">' +
+        (n.role ? '<div><h5>' + esc((c.ui || {}).role || '역할과 돈의 흐름') + '</h5><p>' + rich(n.role) + '</p></div>' : '') +
+        (ind ? '<div><h5>핵심 지표</h5><ul>' + ind + '</ul></div>' : '') +
+        (links ? '<div><h5>연관 노드</h5><div>' + links + '</div></div>' : '') +
+        (ev ? '<div><h5>최근 상태 근거</h5><ul>' + ev + '</ul></div>' : '') +
+        (fl ? '<div><h5>이 노드의 최근 흐름</h5><ul>' + fl + '</ul></div>' : '') +
+        (conotes ? '<div><h5>기업 메모</h5><ul>' + conotes + '</ul></div>' : '') +
+      '</div></details></div>';
+  }
+  function flowsBlock(c) {
+    const nodeIds = Array.from(new Set((c.flows || []).map(f => f.node)));
+    const btn = (id, label) => '<button type="button" class="ff" data-act="flownode" data-id="' + esc(id) + '" aria-pressed="' + (st.flowNode === id) + '">' + esc(label) + '</button>';
+    const filt = '<div class="fl-filter">' + btn('all', '전체') + (c.nodes || []).filter(n => nodeIds.includes(n.id)).map(n => btn(n.id, n.short || n.name)).join('') + '</div>';
+    let arr = (c.flows || []).filter(f => st.flowNode === 'all' || f.node === st.flowNode);
+    const total = arr.length; if (!st.flowMore) arr = arr.slice(0, 15);
+    const nm = id => { const n = (c.nodes || []).find(z => z.id === id); return n ? (n.short || n.name) : id; };
+    const items = arr.map(f => '<li><time>' + esc(md(f.d)) + '</time><div>' + isNew(f) + '<span class="ndtag">' + esc(nm(f.node)) + '</span>' + rich(f.t) + srcChips(f.src) + '</div></li>').join('');
+    return '<h3>최근 흐름</h3><p class="hint">' + esc((c.ui || {}).flowsHint || '기존 카드 110건에서 옮긴 사실과 새 뉴스가 저녁 업데이트로 쌓입니다. 최신순입니다.') + '</p>' + filt +
+      (items ? '<ul class="flows">' + items + '</ul>' : '<p class="hint">이 노드의 흐름이 아직 없습니다.</p>') +
+      (total > 15 && !st.flowMore ? '<button type="button" class="more" data-act="flowmore">' + (total - 15) + '건 더 보기</button>' : '');
+  }
+
+  const hasIns = n => { const i = n.insight || {}; return Object.keys(i).some(k => (i[k] || []).length); };
+  const factLine = f => { const m = /^([^:{}\[\]]{1,8}):\s*/.exec(f || ''); return m ? '<span class="fk">' + esc(m[1]) + '</span>' + rich(f.slice(m[0].length)) : rich(f); };
+  function reqBtn(id, written) {
+    if (written || reqDone[id]) return '<span class="reqdone">투자 인사이트 작성됨</span>';
+    const on = !!reqs[id];
+    return '<button type="button" class="tg req" data-act="req" data-id="' + esc(id) + '" data-fk="q:' + esc(id) + '" aria-pressed="' + on + '">' + (on ? '☑ 투자 인사이트 요청함' : '☐ 투자 인사이트 요청') + '</button>';
+  }
+  function cardBox(n) {
+    const read = !!reads[n.id];
+    const chainChips = (n.nodes || []).map(p => { const [ci, ni] = p.split('/'); const c = chains[ci]; const nd = c && (c.nodes || []).find(z => z.id === ni);
+      return '<button type="button" class="lk" data-act="node" data-ind="' + esc(ci) + '" data-id="' + esc(ni) + '">' + esc(c ? c.icon : '') + ' ' + esc(c ? (c.short || c.name) : ci) + ' › ' + esc(nd ? (nd.short || nd.name) : ni) + '</button>'; }).join('');
+    const ins = n.insight || {};
+    // 매크로만 붙은 카드는 인사이트 질문 이름도 매크로 문서의 것을 씁니다.
+    const qc = (n.inds || []).length && n.inds.every(i => ownStages(chains[i])) ? chains[n.inds[0]] : null;
+    const insHtml = GROUPS.map(g => '<div class="qg">' + g.map(k => { const q = QS.find(z => z[0] === k); return '<div class="q' + (/2$/.test(k) ? ' opp' : '') + '"><div class="qh"><span class="qk">' + q[1] + '</span>' + esc(qLabel(k, qc)) + '</div>' + lineList(ins[k]) + '</div>'; }).join('') + '</div>').join('');
+    const tags = (n.tags || []).map(t => '<li><span class="kk">' + esc(t.s ? t.s + ' ' + (SIG[t.s] || '') : '동인') + '</span>' + rich(t.t) + '</li>').join('');
+    return '<div class="cardbox" data-card="' + esc(n.id) + '">' +
+      '<p class="cb-h">' + rich(n.headline) + '</p>' +
+      (chainChips ? '<div class="nc-chain">' + chainChips + '</div>' : '') +
+      ((n.facts || []).length ? '<ul class="facts">' + n.facts.map(f => '<li>' + factLine(f) + '</li>').join('') + '</ul>' : '') +
+      (tags ? '<div class="nmeta"><span class="kk">③ 신호 태그</span><ul class="facts">' + tags + '</ul></div>' : '') +
+      ((n.cycles || []).length ? '<p class="nmeta"><span class="kk">④ 사이클 위치</span>' + n.cycles.map(x => { const c = chains[x.ind]; return esc(c ? c.icon + ' ' + (c.short || c.name) : x.ind) + ' ' + CIRC[x.stage] + ' ' + esc(stageName(x.stage, c)) + ' — ' + rich(x.why || ''); }).join('<br>') + '</p>' : '') +
+      (n.incentive ? '<p class="nmeta"><span class="kk">⑤ 숨은 유인</span>' + rich(n.incentive) + '</p>' : '') +
+      (n.check ? '<p class="nmeta"><span class="kk">확인</span>' + rich(n.check) + '</p>' : '') +
+      ((n.src || []).length ? '<div class="nmeta"><span class="kk">출처</span>' + srcChips(n.src) + '</div>' : (n.url ? '<div class="nmeta"><span class="kk">출처</span><a class="src" href="' + esc(n.url) + '" target="_blank" rel="noopener">원문</a></div>' : '')) +
+      (hasIns(n) ? '<details' + (read ? '' : ' open') + '><summary>투자 인사이트</summary><div class="qs" style="margin-top:8px">' + insHtml + '</div></details>' : '') +
+      '<div class="cb-act"><button type="button" class="tg" data-act="open" data-id="' + esc(n.id) + '">접기</button><span class="sp"></span>' + reqBtn(n.id, hasIns(n)) +
+      '<button type="button" class="tg rd' + (read ? '' : ' pri') + '" data-act="read" data-id="' + esc(n.id) + '" data-fk="r:' + esc(n.id) + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 표시') + '</button></div>' +
+      '</div>';
+  }
+
+  const SRCK = { bloomberg: '블룸버그', reuters: '로이터', telegram: '텔레그램' };
+  const oldPre = id => id.startsWith('pf-tg') || id.startsWith('tg') ? 'TG' : id.startsWith('pf-rtr') || id.startsWith('rtr') ? 'RTR' : 'BBG';
+  function oldCard(x) {
+    const read = !!reads[x.id];
+    const pub = x.published || x.processed || '';
+    const when = pub ? (md(pub) + (pub.length > 15 ? ' ' + pub.slice(11, 16) : '')) : '';
+    const facts = (x.facts || []).length ? x.facts : (x.newFacts || []);
+    const tags = (x.tags || []).map(t => typeof t === 'string' ? t : (t && t.t) || '').filter(Boolean);
+    const cyc = x.cycle || (x.v2 && x.v2.cycle) || '';
+    let inc = x.incentive && x.incentive !== '—' ? x.incentive : '';
+    if (!inc && x.v2 && Array.isArray(x.v2.incentive)) inc = x.v2.incentive.join(' / ');
+    const url = x.url || (x.src && x.src[0] && x.src[0].u) || '';
+    return '<article class="nc old' + (read ? ' read' : '') + '" id="' + esc(x.id) + '">' +
+      '<div class="nc-top"><span>' + esc(SRCK[x.source] || x.source || '') + (x.channel ? ' · ' + esc(x.channel) : '') + ' · 개편 전 ' + oldPre(x.id) + ' #' + esc(x.num || '') + '</span><time class="mono">' + esc(when) + '</time>' +
+      '<button type="button" class="tg rd" data-act="read" data-id="' + esc(x.id) + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 표시') + '</button></div>' +
+      '<h3>' + rich(x.headline || '') + '</h3>' +
+      (x.dup ? '<p class="nmeta"><span class="kk">이미 다룬 사건</span>' + esc(x.dup) + ' — 아래는 새 내용</p>' : '') +
+      (facts.length ? '<ul class="facts">' + facts.map(f => '<li>' + factLine(f) + '</li>').join('') + '</ul>' : '') +
+      (tags.length ? '<p class="nmeta"><span class="kk">③ 신호 태그</span>' + tags.map(t => rich(t)).join(' · ') + '</p>' : '') +
+      (cyc ? '<p class="nmeta"><span class="kk">④ 사이클 위치</span>' + rich(cyc) + '</p>' : '') +
+      (inc ? '<p class="nmeta"><span class="kk">⑤ 숨은 유인</span>' + rich(inc) + '</p>' : '') +
+      (x.check ? '<p class="nmeta"><span class="kk">확인</span>' + rich(x.check) + '</p>' : '') +
+      (url ? '<div class="nmeta"><span class="kk">출처</span><a class="src" href="' + esc(url) + '" target="_blank" rel="noopener">원문</a></div>' : '') +
+      '<div class="reqrow">' + reqBtn(x.id, false) + '</div>' +
+      '</article>';
+  }
+  async function loadArchive() {
+    if (archive || archLoading || !dbRef) return;
+    archLoading = true; if (st.tab === 'arch') renderArchive();
+    try {
+      const snap = await dbRef.collection('items').limit(1000).get();
+      archive = snap.docs.map(d => Object.assign({ id: d.id }, d.data()));
+    } catch (e) { archive = []; $('status').hidden = false; $('status').textContent = '개편 전 기록을 불러오지 못했습니다. 잠시 뒤 다시 열어 주세요.'; }
+    archLoading = false; if (st.tab === 'arch') renderArchive();
+  }
+
+  /* ── 새 형식(제목 + 한줄 요약) 뉴스 ── */
+  // 한줄 요약(one)이 있는 문서만 뉴스 목록에 나옵니다. 그 전의 요약 카드는 산업 한 페이지에 반영을 마쳐 '이전 기록'으로만 봅니다.
+  const isFresh = n => typeof n.one === 'string' && n.one.trim() !== '';
+  const fresh = () => news.filter(isFresh);
+  const legacy = () => news.filter(n => !isFresh(n));
+  const indTags = n => { const s = new Set(n.inds || []), mac = (n.nodes || []).filter(p => p.indexOf('macro/') === 0); if (mac.includes('macro/semis')) { s.add('semis'); if (mac.length === 1) s.delete('macro'); } if (n.ind) s.add(n.ind); return s; };
+  const mainInd = n => n.ind || ((n.nodes || []).includes('macro/semis') ? 'semis' : (n.inds || [])[0] || 'macro');
+  const indLabel = n => { const m = mainInd(n); const rest = (n.inds || []).filter(i => i !== m && !(m === 'semis' && i === 'macro')); return [m].concat(rest).map(i => IND[i] || i).join(' · '); };
+  const dayOf = n => pubParts(n.published || n.processed).day;
+  const srcName = n => n.source === '텔레그램' && n.channel ? '텔레그램 ' + n.channel : (n.source || '');
+  const hasDetail = n => !!(n.detail && Array.isArray(n.detail.blocks) && n.detail.blocks.length);
+  const hasIns2 = n => !!(n.insight2 && Array.isArray(n.insight2.parts) && n.insight2.parts.length);
+  const pendingDetail = () => fresh().filter(n => dreqs[n.id] && !dsent[n.id] && !hasDetail(n));   // 체크만 하고 아직 '요청'을 누르지 않은 것
+  const reqState = n => hasDetail(n) ? 'done' : dsent[n.id] ? 'sent' : dreqs[n.id] ? 'ck' : '';
+  const pendingInsight = () => fresh().filter(n => reqs[n.id] && !hasIns2(n));
+  const unreadCount = () => fresh().filter(n => !reads[n.id]).length;
+  const ordInd = n => { const i = IND_ORDER.indexOf(mainInd(n)); return i < 0 ? 99 : i; };
+  const byList = (a, b) => { const da = dayOf(a), db = dayOf(b); return da < db ? 1 : da > db ? -1 : ordInd(a) - ordInd(b) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0); };
+  function listFiltered(skip) {
+    const q = st.q.trim().toLowerCase();
+    return fresh().filter(n => {
+      if (skip !== 'src' && st.src !== 'all' && n.source !== st.src) return false;
+      if (skip !== 'ind' && st.nind !== 'all' && !indTags(n).has(st.nind)) return false;
+      if (st.unreadOnly && reads[n.id]) return false;
+      if (st.ckOnly && !dreqs[n.id] && !dsent[n.id]) return false;
+      if (q && !plain(JSON.stringify([n.title, n.one, n.facts, n.origTitle, n.channel, n.source])).toLowerCase().includes(q)) return false;
+      return true;
+    });
+  }
+
+  /* 본문 표기: {{강조}}, {f:사실}·{p:회사 발표}·{a:증권사}·{i:추론}·{u:미확인} 꼬리표, [글자](주소) 링크. 예전 꼬리표 [사실]·[추론]도 읽습니다. */
+  const EVK = { '사실': 'f', '추론': 'i', '귀납': 'i', '연역': 'i', '유추': 'i', '추측': 'i', '미확인': 'u' };
+  function rt(t) {
+    let s = esc(t);
+    s = s.replace(/\{\{(.+?)\}\}/g, '<mark>$1</mark>');
+    s = s.replace(/\[([^\[\]]+)\]\((https?:\/\/[^\s()]+)\)/g, (m, a, u) => '<a href="' + u + '" target="_blank" rel="noopener">' + a + '</a>');
+    s = s.replace(/\s*\{([fpaiu]):([^{}]+)\}/g, (m, c, a) => '<span class="ev ' + c + '">' + a + '</span>');
+    s = s.replace(/\s*\[(사실|추론|귀납|연역|유추|추측|미확인)\]/g, (m, a) => '<span class="ev ' + EVK[a] + '">' + a + '</span>');
+    return s;
+  }
+  const EVLEGEND = '<p class="evlegend"><span><span class="ev f">사실</span>보도·공시로 확인</span><span><span class="ev p">회사 발표</span>회사 계획·발언</span><span><span class="ev a">증권사</span>분석 기관 견해</span><span><span class="ev i">추론</span>Claude의 판단</span><span><span class="ev u">미확인</span>원문 확인 못 함</span></p>';
+  const li = arr => (arr || []).map(x => '<li>' + rt(x) + '</li>').join('');
+  function blocksHtml(arr) {
+    return (arr || []).map(b => {
+      if (!b || typeof b !== 'object') return '';
+      switch (b.k) {
+        case 'h3': return '<h3>' + rt(b.t) + '</h3>';
+        case 'h4': return '<h4>' + rt(b.t) + '</h4>';
+        case 'lead': return '<p class="lead">' + rt(b.t) + '</p>';
+        case 'p': return '<p>' + rt(b.t) + '</p>';
+        case 'dim': return '<p class="dim">' + rt(b.t) + '</p>';
+        case 'callout': return '<p class="callout">' + rt(b.t) + '</p>';
+        case 'legend': return EVLEGEND;
+        case 'pts': return '<ul class="pts">' + li(b.items) + '</ul>';
+        case 'num': return '<ol class="num">' + li(b.items) + '</ol>';
+        case 'src': return '<ul class="srcl">' + li(b.items) + '</ul>';
+        case 'chain': return '<p class="mech">' + (b.items || []).map(x => '<span>' + rt(x) + '</span>').join('<i aria-hidden="true">→</i>') + '</p>';
+        case 'vc': return '<div class="vc" role="group"' + (b.label ? ' aria-label="' + esc(b.label) + '"' : '') + '>' + (b.cols || []).map(c => '<div class="col' + (c.here ? ' here' : '') + '">' + (c.here ? '<span class="here-tag">' + esc(c.tag || '이번 변화') + '</span>' : '') + '<h4>' + rt(c.h) + '</h4><ul>' + (c.items || []).map(x => typeof x === 'string' ? '<li>' + rt(x) + '</li>' : '<li>' + (x.b ? '<b>' + esc(x.b) + '</b> ' : '') + rt(x.t) + '</li>').join('') + '</ul></div>').join('<span class="arrow" aria-hidden="true">→</span>') + '</div>';
+        case 'seg': return '<ul class="segl">' + (b.items || []).map(x => '<li><span class="nm">' + rt(x.nm) + '</span><span class="stg ' + esc(x.tone || '') + '">' + rt(x.stage) + '</span><span class="why">' + rt(x.why) + '</span></li>').join('') + '</ul>';
+        case 'hyps': return '<div class="hyps">' + (b.items || []).map(x => '<article class="hyp"><div class="hd"><span class="k">' + rt(x.kicker) + '</span><h4>' + rt(x.h) + '</h4></div><dl class="kv">' + (x.kv || []).map(p => '<dt>' + rt(p[0]) + '</dt><dd>' + rt(p[1]) + '</dd>').join('') + '</dl></article>').join('') + '</div>';
+        case 'verdict': return '<div class="verdict">' + (b.items || []).map(x => '<div class="v ' + esc(x.tone || '') + '"><h4>' + rt(x.h) + '</h4><p>' + rt(x.t) + '</p></div>').join('') + '</div>';
+        case 'cmp': return '<ul class="cmp">' + (b.items || []).map(p => '<li><span class="l">' + rt(p[0]) + '</span><span>' + rt(p[1]) + '</span></li>').join('') + '</ul>';
+        case 'series': return '<dl class="series">' + (b.items || []).map(p => '<div><dt>' + rt(p[0]) + '</dt><dd>' + rt(p[1]) + '</dd></div>').join('') + '</dl>';
+        case 'picks': return '<div class="picks">' + (b.items || []).map(x => '<div class="pick"><span class="k">' + rt(x.k) + '</span><span class="n">' + rt(x.n) + '</span><p>' + rt(x.t) + '</p></div>').join('') + '</div>';
+        case 'co': return '<article class="cco"><div class="top"><h4>' + rt(b.name) + '</h4><span class="tk">' + rt(b.tk) + '</span></div>' + (b.px ? '<p class="px">' + rt(b.px) + '</p>' : '') + (b.role ? '<span class="role' + (b.cond ? ' cond' : '') + '">' + rt(b.role) + '</span>' : '') +
+          (b.parts || []).map((p, i) => '<details' + (i === 0 ? ' open' : '') + '><summary>' + rt(p.h) + '</summary><div>' + blocksHtml(p.blocks) + '</div></details>').join('') + '</article>';
+        default: return b.t ? '<p>' + rt(b.t) + '</p>' : '';
+      }
+    }).join('');
+  }
+  function detailHtml(n) {
+    const d = n.detail || {};
+    let out = '<section class="dsec"><div class="dsh"><span class="tag">자세한 정리' + (d.updated ? ' · ' + esc(kday(d.updated)) + ' 작성' : '') + '</span><p>원문이나 이전 기사를 읽지 않아도 앞뒤 맥락이 이해되도록 썼습니다.</p></div>' +
+      '<div class="dpanel">' + EVLEGEND + blocksHtml(d.blocks) +
+      '</div></section>';
+    if (hasIns2(n)) out += n.insight2.parts.map(p => '<section class="dsec"><div class="dsh"><span class="tag">' + esc(p.tag || '투자 인사이트') + '</span><h3>' + rt(p.title || '') + '</h3>' + (p.sub ? '<p>' + rt(p.sub) + '</p>' : '') + '</div><div class="dpanel">' + blocksHtml(p.blocks) + '</div></section>').join('');
+    return '<div class="dwrap" id="dw-' + esc(n.id) + '">' + out + '<div class="dfoot"><button type="button" class="tg" data-act="dopen" data-id="' + esc(n.id) + '">접기</button></div></div>';
+  }
+  const BASIS = { partial: ['u', '일부 미확인'], channel: ['i', '채널 전언'] };
+  const pubDay = n => { const d = dayOf(n); return d ? kday(d) + ' ' + dowOf(d).replace('요일', '') : ''; };
+  function reqBtn(n) {
+    const id = esc(n.id), s = reqState(n);
+    if (s === 'done') return '<button type="button" class="act done" data-act="goreq" data-id="' + id + '">내용·인사이트 보기</button>';
+    if (s === 'sent') return '<span class="act wait">조사 중</span>';
+    return '<button type="button" class="act" data-act="dreq" data-id="' + id + '" aria-pressed="' + !!dreqs[n.id] + '">' + (dreqs[n.id] ? '요청 담음' : '뉴스 내용 및 인사이트 요청') + '</button>';
+  }
+  function itemHtml(n) {
+    const id = esc(n.id), read = !!reads[n.id];
+    const bs = BASIS[n.basis];
+    return '<li class="item' + (read ? ' is-read' : '') + '" id="row-' + id + '">' +
+      '<div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + (bs ? '<span class="ev ' + bs[0] + '">' + bs[1] + '</span>' : '') + (n.dupOf ? '<span>이미 다룬 사건의 후속</span>' : '') + '</p>' +
+        '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
+        '<div class="acts">' + reqBtn(n) +
+          '<button type="button" class="act rd" data-act="read" data-id="' + id + '" aria-pressed="' + read + '">' + (read ? '읽음' : '읽음 처리') + '</button>' +
+          (n.url ? '<a class="orig" href="' + esc(n.url) + '" target="_blank" rel="noopener">원문</a>' : '') + '</div></div></li>';
+  }
+  function reqItemHtml(n) {
+    const s = reqState(n), id = esc(n.id);
+    const tag = s === 'done' ? '<span class="rq done">작성 완료' + (n.detail && n.detail.updated ? ' · ' + esc(kday(n.detail.updated)) : '') + '</span>' : '<span class="rq">조사 중' + (dsent[n.id] ? ' · ' + esc(kday(new Date(dsent[n.id]).toISOString().slice(0, 10))) + ' 요청' : '') + '</span>';
+    const open = st.dopen.has(n.id);
+    return '<li class="item rqi" id="rq-' + id + '"><div class="body"><p class="imeta"><span class="idate">' + esc(pubDay(n)) + '</span><span class="itag">' + esc(indLabel(n)) + '</span><span>' + esc(srcName(n)) + '</span>' + tag + '</p>' +
+      '<h3 class="ttl">' + esc(n.title) + '</h3><p class="one">' + esc(n.one) + '</p>' +
+      (s === 'done' ? '<div class="acts"><button type="button" class="act" data-act="dopen" data-id="' + id + '" aria-expanded="' + open + '">' + (open ? '접기' : '자세한 내용·투자 인사이트 펼치기') + '</button></div>' + (open ? detailHtml(n) : '')
+        : '<p class="rqnote">새 Claude Code 창에서 자세한 내용과 투자 인사이트를 조사하고 있습니다. 끝나면 이 자리에 나옵니다.</p>') + '</div></li>';
+  }
+  function renderReq() {
+    const arr = fresh().filter(n => reqState(n) === 'sent' || reqState(n) === 'done').sort((a, b) => (reqState(a) === reqState(b) ? byList(a, b) : reqState(a) === 'sent' ? -1 : 1));
+    $('main').innerHTML = '<div class="nb"><p class="guide">뉴스 목록에서 요청한 뉴스입니다. 조사 중인 뉴스가 위에, 작성이 끝난 뉴스가 아래에 나옵니다.</p></div>' +
+      (arr.length ? '<ul class="news">' + arr.map(reqItemHtml).join('') + '</ul>' : '<div class="empty"><b>아직 요청한 뉴스가 없습니다.</b><br>뉴스 목록에서 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르면 여기에 모입니다.</div>');
+  }
+  const emptyBox = () => dbMissing
+    ? '<div class="empty"><b>저장된 뉴스를 불러올 수 없습니다.</b><br>claude.ai에서 로그인한 상태로 이 페이지를 열면 목록이 보입니다.</div>'
+    : !newsLoaded
+    ? '<div class="empty">뉴스를 불러오는 중입니다. 날짜별로 제목과 한줄 요약이 여기에 나옵니다.</div>'
+    : !fresh().length
+    ? '<div class="empty"><b>아직 새 형식으로 정리한 뉴스가 없습니다.</b><br>Claude에게 뉴스 정리를 요청하면 제목과 한줄 요약이 날짜별로 쌓입니다. 예전 요약 카드는 이전 기록에 있습니다.</div>'
+    : '<div class="empty"><b>조건에 맞는 뉴스가 없습니다.</b><br><button type="button" class="lnk" data-act="clearall">필터 모두 지우기</button></div>';
+  function ensureNewsSkeleton() {
+    if ($('nb')) return;
+    $('main').innerHTML =
+      '<div class="nb" id="nb">' +
+        '<p class="guide">더 알고 싶은 뉴스는 <b>뉴스 내용 및 인사이트 요청</b>을 누르고 아래 막대의 <b>요청</b>을 누르세요. 다 본 뉴스는 <b>읽음 처리</b>를 누르세요.</p>' +
+        '<div class="sg" role="group" aria-label="출처" id="nb-src"></div>' +
+        '<div class="filters" role="group" aria-label="산업" id="nb-ind"></div>' +
+        '<div class="tools"><input type="search" id="nq" placeholder="뉴스 검색" aria-label="뉴스 검색" autocomplete="off">' +
+          '<button type="button" class="tg" id="nb-unread" data-act="unread" aria-pressed="false">안 읽은 것만</button>' +
+          '<button type="button" class="tg" id="nb-ck" data-act="ckonly" aria-pressed="false">요청한 것만</button>' +
+          '<span class="bulk" id="nb-bulk"></span></div>' +
+      '</div><div id="nb-body"></div>';
+    const inp = $('nq'); inp.value = st.q;
+    inp.addEventListener('input', () => { st.q = inp.value; clearTimeout(inp._t); inp._t = setTimeout(() => { st.shown = PAGE; st.confirmAll = false; renderNews(); }, 250); });
+  }
+  function renderNews() {
+    ensureNewsSkeleton();
+    curRev = '';
+    const all = fresh();
+    const bySrc = {}; listFiltered('src').forEach(n => { bySrc[n.source] = (bySrc[n.source] || 0) + 1; });
+    const srcTotal = listFiltered('src').length;
+    const srcs = SRC_ORDER.filter(s => bySrc[s]).concat(Object.keys(bySrc).filter(s => !SRC_ORDER.includes(s)));
+    if (st.src !== 'all' && !all.some(n => n.source === st.src)) st.src = 'all';
+    $('nb-src').innerHTML = [['all', '전체 ' + srcTotal]].concat(srcs.map(s => [s, s + ' ' + bySrc[s]])).concat(st.src !== 'all' && !bySrc[st.src] ? [[st.src, st.src + ' 0']] : [])
+      .map(p => '<button type="button" class="sgb" data-act="src" data-id="' + esc(p[0]) + '" aria-pressed="' + (st.src === p[0]) + '">' + esc(p[1]) + '</button>').join('');
+    const base = listFiltered('ind'), cnt = {};
+    base.forEach(n => indTags(n).forEach(i => { cnt[i] = (cnt[i] || 0) + 1; }));
+    $('nb-ind').innerHTML = [['all', '전체 ' + base.length]].concat(IND_ORDER.filter(k => cnt[k] || k === st.nind).map(k => [k, IND[k] + ' ' + (cnt[k] || 0)]))
+      .map(p => '<button type="button" class="chip" data-act="nind" data-id="' + p[0] + '" aria-pressed="' + (st.nind === p[0]) + '">' + esc(p[1]) + '</button>').join('');
+    const nq = $('nq'); if (document.activeElement !== nq && nq.value !== st.q) nq.value = st.q;
+    const ub = $('nb-unread'); ub.setAttribute('aria-pressed', String(st.unreadOnly)); ub.textContent = '안 읽은 것만 ' + all.filter(n => !reads[n.id]).length;
+    const cb = $('nb-ck'); cb.setAttribute('aria-pressed', String(st.ckOnly)); cb.textContent = '요청한 것만 ' + all.filter(n => dreqs[n.id] || dsent[n.id]).length;
+    const rows = listFiltered().sort(byList);
+    const unreadShown = rows.filter(n => !reads[n.id]).length;
+    $('nb-bulk').innerHTML = !unreadShown ? '' : st.confirmAll
+      ? '<span>지금 조건에 맞는 ' + unreadShown + '건을 읽음으로 표시할까요?</span><button type="button" class="tg on" data-act="readall-yes">읽음으로 표시</button><button type="button" class="tg" data-act="readall-no">취소</button>'
+      : '<button type="button" class="tg" data-act="readall">' + unreadShown + '건 모두 읽음</button>';
+    let html;
+    if (!rows.length) html = emptyBox();
+    else {
+      const shown = rows.slice(0, st.shown), days = [];
+      shown.forEach(n => { const d = dayOf(n); let g = days[days.length - 1]; if (!g || g.day !== d) days.push(g = { day: d, xs: [] }); g.xs.push(n); });
+      const total = {}; rows.forEach(n => { const d = dayOf(n); total[d] = (total[d] || 0) + 1; });
+      html = '<div class="days">' + days.map(g => '<section aria-label="' + esc(kday(g.day)) + ' 뉴스"><div class="dayh"><h2>' + esc(kday(g.day) || '날짜 미상') + ' ' + esc(dowOf(g.day)) + '</h2><span>' + total[g.day] + '건</span></div><ul class="news">' + g.xs.map(itemHtml).join('') + '</ul></section>').join('') + '</div>' +
+        (rows.length > st.shown ? '<p class="more-row"><button type="button" class="btn ghost" data-act="more">더 보기 (' + Math.min(PAGE, rows.length - st.shown) + '건)</button></p>' : '');
+    }
+    const body = $('nb-body'), a = document.activeElement, keep = a && body.contains(a) ? [a.dataset.act || a.dataset.ck || '', a.dataset.id || ''] : null;
+    const opened = Array.from(body.querySelectorAll('details[open]')).map(d => { const it = d.closest('.item'); return (it ? it.id : '') + '|' + (d.className || '') + '|' + (d.querySelector('summary') || {}).textContent; });
+    body.innerHTML = html;
+    if (opened.length) body.querySelectorAll('details').forEach(d => { const it = d.closest('.item'); if (opened.includes((it ? it.id : '') + '|' + (d.className || '') + '|' + (d.querySelector('summary') || {}).textContent)) d.open = true; });
+    if (keep) { const el = Array.from(body.querySelectorAll('[data-id]')).find(z => (z.dataset.act || z.dataset.ck || '') === keep[0] && z.dataset.id === keep[1]); if (el) el.focus({ preventScroll: true }); }
+    renderBar();
+  }
+  function renderBar() {
+    const nd = pendingDetail().length, bar = $('reqbar');
+    bar.hidden = st.tab !== 'news' || !nd;
+    $('n-detail').textContent = nd;
+  }
+  // 새 Claude Code 창 열기. 시안(PREVIEW)에서는 실제로 열지 않고 흉내만 냅니다. 실제 연결은 확정 뒤에 넣습니다.
+  async function startResearch(list) {
+    if (window.PREVIEW) return window.PREVIEW.start(list);
+    throw new Error('아직 연결하지 않았습니다.');
+  }
+  function reqText() {
+    const d = pendingDetail().sort(byList), i = pendingInsight().sort(byList), lines = [];
+    if (d.length) { lines.push('체크한 뉴스 자세히 정리 요청 (' + d.length + '건)'); d.forEach(n => lines.push('- ' + n.title + ' [' + n.id + ']')); }
+    if (i.length) { lines.push('체크한 뉴스 투자 인사이트 요청 (' + i.length + '건)'); i.forEach(n => lines.push('- ' + n.title + ' [' + n.id + ']')); }
+    return lines.join('\n');
+  }
+
+  /* ── masthead and routing ── */
+  function renderNav() {
+    ['news', 'ind', 'req'].forEach(t => { const b = $('tab-' + t); if (st.tab === t) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+    const u = unreadCount();
+    $('tab-news').innerHTML = '뉴스' + (u ? '<span class="badge" aria-label="안 읽은 뉴스 ' + u + '건">' + u + '</span>' : '');
+    const f = fresh();
+    if (f.length) {
+      const days = f.map(dayOf).filter(Boolean).sort();
+      $('sub').textContent = kday(days[days.length - 1]) + '부터 ' + kday(days[0]) + '까지 거슬러 올라가며 정리한 뉴스 ' + f.length + '건';
+    }
+  }
+  function render() {
+    renderNav();
+    if (st.tab === 'ind') { const l = sortedInds(); if (l.length && (!st.ind || !chains[st.ind])) st.ind = l[0].id; renderInd(); }
+    else if (st.tab === 'req') renderReq();
+    else renderNews();
+    renderBar();
+  }
+  const reduce = (() => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } })();
+  const scrollTo = el => { if (el) el.scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' }); };
+  function goNode(ind, node) {
+    st.tab = 'ind'; st.ind = ind; st.flowNode = 'all'; st.flowMore = false; save(); render();
+    const el = document.getElementById('node-' + ind + '-' + node);
+    if (el) { el.classList.add('hl'); const d = el.querySelector('details'); if (d) d.open = true; scrollTo(el); setTimeout(() => el.classList.remove('hl'), 2400); }
+  }
+  // 산업 한 페이지의 출처 칩에서 뉴스로: 새 형식이면 뉴스 목록, 예전 요약 카드면 이전 기록에서 펼쳐 보여 줍니다.
+  function goNews(id) {
+    const n = news.find(z => z.id === id);
+    if (n && !isFresh(n)) return;
+    { st.tab = 'news'; st.src = 'all'; st.nind = 'all'; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.shown = 1e6; st.confirmAll = false; if (n && hasDetail(n)) st.dopen.add(id); }
+    save(); render(); scrollTo(document.getElementById('row-' + id));
+  }
+  const setDoc = (ref, body) => { if (ref) writing = writing.then(() => ref.set(body)).catch(() => {}); };
+  const saveReqs = () => setDoc(reqRef, { ids: Object.assign({}, reqs), done: Object.assign({}, reqDone) });
+  const saveDreqs = () => setDoc(dreqRef, { ids: Object.assign({}, dreqs), sent: Object.assign({}, dsent), done: Object.assign({}, dreqDone) });
+  const saveReads = () => setDoc(readRef, { ids: Object.assign({}, reads) });
+  const rerender = () => { renderNav(); if (st.tab === 'req') renderReq(); else if (st.tab === 'news') renderNews(); renderBar(); };
+
+  document.addEventListener('change', e => {
+    const b = e.target; if (!b || !b.dataset || !b.dataset.ck) return;
+    const id = b.dataset.id, map = b.dataset.ck === 'insight' ? reqs : dreqs;
+    if (b.checked) map[id] = today; else delete map[id];
+    if (b.dataset.ck === 'insight') saveReqs(); else saveDreqs();
+    $('reqmsg').textContent = ''; rerender();
+  });
+  // '요청': 체크해 둔 뉴스를 '요청 보냄'으로 바꾸고 새 Claude Code 창(세션)에 조사를 맡깁니다. 실제 시작은 startResearch가 합니다.
+  $('reqgo').addEventListener('click', async () => {
+    const list = pendingDetail().sort(byList), msg = $('reqmsg'), btn = $('reqgo');
+    if (!list.length) return;
+    btn.disabled = true; msg.textContent = '새 Claude Code 창을 여는 중입니다.';
+    try {
+      await startResearch(list);
+      const ts = Date.now(); list.forEach(n => { dsent[n.id] = ts; }); saveDreqs();
+      msg.textContent = list.length + '건을 새 Claude Code 창에 맡겼습니다. 진행 상황은 요청한 뉴스 탭에서 볼 수 있습니다.';
+      rerender();
+    } catch (e) { msg.textContent = '새 창을 열지 못했습니다. ' + ((e && e.message) || '') + ' 잠시 뒤 다시 눌러 주세요.'; }
+    btn.disabled = false;
+  });
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-tab]');
+    if (t) { st.tab = t.dataset.tab; save(); render(); return; }
+    const b = e.target.closest('[data-act]'); if (!b) return;
+    const act = b.dataset.act, id = b.dataset.id;
+    if (act === 'ind') { st.tab = 'ind'; st.ind = id; st.flowNode = 'all'; st.flowMore = false; save(); render(); window.scrollTo(0, 0); }
+    else if (act === 'node') goNode(b.dataset.ind, id);
+    else if (act === 'flownode') { st.flowNode = id; st.flowMore = false; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
+    else if (act === 'flowmore') { st.flowMore = true; $('flowsBlk').innerHTML = flowsBlock(chains[st.ind]); }
+    else if (act === 'gonews') goNews(id);
+    else if (act === 'src') { st.src = id; st.shown = PAGE; st.confirmAll = false; renderNews(); }
+    else if (act === 'nind') { st.nind = st.nind === id ? 'all' : id; st.shown = PAGE; st.confirmAll = false; renderNews(); }
+    else if (act === 'unread') { st.unreadOnly = !st.unreadOnly; st.shown = PAGE; st.confirmAll = false; renderNews(); }
+    else if (act === 'ckonly') { st.ckOnly = !st.ckOnly; st.shown = PAGE; st.confirmAll = false; renderNews(); }
+    else if (act === 'clearall') { st.src = 'all'; st.nind = 'all'; st.unreadOnly = false; st.ckOnly = false; st.q = ''; st.confirmAll = false; renderNews(); }
+    else if (act === 'more') { st.shown += PAGE; renderNews(); }
+    else if (act === 'dopen') { const was = st.dopen.has(id); if (was) st.dopen.delete(id); else st.dopen.add(id); if (st.tab === 'req') renderReq(); else renderNews(); if (was) scrollTo(document.getElementById((st.tab === 'req' ? 'rq-' : 'row-') + id)); }
+    else if (act === 'dreq') { if (dreqs[id]) delete dreqs[id]; else dreqs[id] = today; saveDreqs(); $('reqmsg').textContent = ''; rerender(); }
+    else if (act === 'goreq') { st.tab = 'req'; st.dopen.add(id); save(); render(); scrollTo(document.getElementById('rq-' + id)); }
+    else if (act === 'open') { if (st.open.has(id)) st.open.delete(id); else st.open.add(id); }
+    else if (act === 'req') { if (reqs[id]) delete reqs[id]; else reqs[id] = today; saveReqs(); rerender(); }
+    else if (act === 'read') { if (reads[id]) delete reads[id]; else reads[id] = Date.now(); saveReads(); rerender(); }
+    else if (act === 'readall') { st.confirmAll = true; renderNews(); }
+    else if (act === 'readall-no') { st.confirmAll = false; renderNews(); }
+    else if (act === 'readall-yes') { const ts = Date.now(); listFiltered().forEach(n => { if (!reads[n.id]) reads[n.id] = ts; }); st.confirmAll = false; saveReads(); rerender(); }
+  });
+
+  render();
+
+  (async () => {
+    const status = $('status');
+    const say = t => { status.textContent = t; status.hidden = !t; };
+    const CL = window.PREVIEW_CLAUDE || window.claude;
+    const db = CL && await CL.use('db');
+    if (!db) { dbMissing = true; say('이 화면에서는 저장된 데이터를 불러올 수 없습니다. claude.ai에서 로그인한 상태로 열어 주세요.'); render(); return; }
+    dbRef = db;
+    db.collection('chains').onSnapshot(snap => {
+      chains = {}; snap.docs.forEach(d => { chains[d.id] = Object.assign({ id: d.id }, d.data()); });
+      say(''); if (st.tab === 'ind') render();
+    }, () => { say('산업 데이터를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.'); });
+    // 뉴스가 1,000건을 넘어도 최근 정리분이 잘리지 않도록 정리한 날 역순으로 읽고, 그 읽기가 안 되면 문서 id순 1,000건으로 읽습니다.
+    let newsVia = '', plainOn = false;
+    const onNews = via => snap => {
+      if (via === 'plain' && newsVia === 'ordered') return;
+      newsVia = via; news = snap.docs.map(d => Object.assign({ id: d.id }, d.data())); newsLoaded = true; say(''); render();
+    };
+    const startPlain = () => { if (plainOn) return; plainOn = true; db.collection('news').limit(1000).onSnapshot(onNews('plain'), () => {}); };
+    try { db.collection('news').orderBy('processed', 'desc').limit(1000).onSnapshot(onNews('ordered'), startPlain); } catch (e) { startPlain(); }
+    setTimeout(() => { if (!newsLoaded) startPlain(); }, 6000);
+    db.doc('meta/cycle').onSnapshot(snap => {
+      const d = snap.exists ? snap.data() : null;
+      if (d && Array.isArray(d.stages) && d.stages.length === 8) { stages = d.stages; cycUpdated = d.updated || ''; if (st.tab === 'ind') render(); }
+    }, () => {});
+    try {
+      const user = await CL.use('user');
+      const uid = user && await user.id();
+      if (uid) {
+        const watch = (name, fn) => { const ref = db.doc('data/users/' + uid + '/' + name); ref.onSnapshot(snap => { fn(snap.exists ? (snap.data() || {}) : {}); rerender(); }, () => {}); return ref; };
+        readRef = watch('reads', d => { if (d.ids) reads = Object.assign({}, d.ids); });
+        reqRef = watch('insightReq', d => { reqs = Object.assign({}, d.ids || {}); reqDone = Object.assign({}, d.done || {}); });
+        dreqRef = watch('detailReq', d => { dreqs = Object.assign({}, d.ids || {}); dreqDone = Object.assign({}, d.done || {}); dsent = Object.assign({}, d.sent || {}); });
+      }
+    } catch (e) {}
+  })();
+})();
+</script>

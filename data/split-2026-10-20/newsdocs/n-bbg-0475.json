@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0475",
+ "num": 475,
+ "key": "split-G4-065-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/features/2026-10-11/france-bond-crisis-revives-ghost-of-europe-s-sovereign-debt-crisis",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 국채 위기, 유럽 재정위기의 망령을 되살리다",
+ "headline": "프랑스 국채 위기, 유럽 재정위기의 망령을 되살리다",
+ "one": "프랑스 국채 위기가 커지면서 블룸버그가 10월 12일 이를 유럽 재정위기의 망령을 되살리는 일로 짚었고, 프랑스-독일 금리차가 유로존 위기 이후 최대로 벌어지며 유럽 국채 전반의 경계가 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 10월 12일 기획 기사에서 프랑스 국채 위기가 유럽 재정위기의 망령을 되살리고 있다고 짚었다 [제목]",
+  "금리차: 10월 5일 프랑스-독일 10년물 금리차가 145bp를 넘어 유로존 위기 이후 최대였다 [채널]",
+  "부채: 프랑스 국가부채는 6월 말 GDP의 119%다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기획 기사 1건(제목만 있음). 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목과 원 문서 사실 줄(금리차는 채널, 부채비율은 사실) 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 국채 위기, 유럽 재정위기의 망령을 되살리다",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/features/2026-10-11/france-bond-crisis-revives-ghost-of-europe-s-sovereign-debt-crisis"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "프랑스 국채 위기로 금리차 유로존 위기 이후 최대"
+  }
+ ]
+}

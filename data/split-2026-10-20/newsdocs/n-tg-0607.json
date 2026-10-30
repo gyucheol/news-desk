@@ -1,0 +1,53 @@
+{
+ "id": "n-tg-0607",
+ "num": 607,
+ "key": "split-G4-028-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/The_MariTimes/63833",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "Polaristimes '미 실질 소매판매 대폭 하향 조정, 2021년 고점에도 못 미쳐'",
+ "headline": "Polaristimes '미 실질 소매판매 대폭 하향 조정, 2021년 고점에도 못 미쳐'",
+ "one": "텔레그램 채널 Polaristimes가 미국 실질 소매판매가 대폭 하향 조정돼 2021년 고점에도 못 미친다고 지적하면서, 물가를 뺀 소비가 약한 상황에서 연준의 추가 인상 주장에 의문을 제기했다 (채널 전언)",
+ "facts": [
+  "무엇이: 미국 실질 소매판매가 대폭 하향 조정돼 2021년 고점에도 못 미친다고 채널 Polaristimes가 10월 19일 전했다 [채널]",
+  "주장: 채널은 이런 소비 여건에서 연준의 추가 인상 주장에 의문을 제기했다 [채널]",
+  "의미: 명목 판매가 늘어도 물가를 빼면 실제 소비량은 약할 수 있다는 지적이다 [추론]"
+ ],
+ "basis": "channel",
+ "check": "텔레그램 Polaristimes 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "Polaristimes \"미 실질 소매판매 대폭 하향 조정, 21년 고점에도 못 미쳐\"",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-19",
+   "u": "https://t.me/The_MariTimes/63833"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "미 실질 소매판매 대폭 하향 조정"
+  }
+ ],
+ "channel": "Polaristimes"
+}

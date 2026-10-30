@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0544",
+ "num": 544,
+ "key": "split-G5-061-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/environment/new-brazil-congress-poses-risk-environmental-legislation-campaign-group-says-2026-10-08/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+ "headline": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+ "one": "환경단체가 브라질 새 의회가 환경 입법에 위험 요인이 된다고 경고하면서, 새 의회가 들어선 뒤 브라질의 환경 규제와 관련 입법이 약해질 수 있다는 우려가 나왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 환경단체는 브라질 새 의회가 환경 입법에 위험 요인이라고 경고했다 [제목]",
+  "우려: 새 의회 아래 브라질의 환경 규제가 약해질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/environment/new-brazil-congress-poses-risk-environmental-legislation-campaign-group-says-2026-10-08/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "새 의회가 환경 입법 위험 요인이라는 경고"
+  }
+ ]
+}

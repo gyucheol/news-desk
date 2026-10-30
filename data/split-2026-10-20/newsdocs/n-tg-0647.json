@@ -1,0 +1,60 @@
+{
+ "id": "n-tg-0647",
+ "num": 647,
+ "key": "split-G6-054-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T13:26:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70087",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "JP모건 '탈CATL 쉽지 않다'…CATL 점유율 44%로 오히려 확대",
+ "headline": "JP모건 '탈CATL 쉽지 않다'…CATL 점유율 44%로 오히려 확대",
+ "one": "JP모건이 시장이 2선 업체 추격만 보고 CATL의 경쟁우위를 과소평가한다며 기술 격차 축소가 경쟁우위 소멸은 아니고 CATL 점유율이 44%로 오히려 커졌다고 평가하면서, 배터리 공급망의 CATL 의존이 쉽게 줄지 않을 수 있다",
+ "facts": [
+  "무엇이: 10월 8일 JP모건은 탈CATL이 말처럼 쉽지 않다는 보고서를 냈다 [사실]",
+  "평가: JP모건은 시장이 2선 업체 추격만 보고 CATL의 경쟁우위를 과소평가한다며, 기술 격차 축소가 곧 경쟁우위 소멸을 뜻하지는 않는다고 했다 [채널]",
+  "점유율: JP모건은 CATL 점유율이 44%로 오히려 커졌다고 봤다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 하나증권 중국전략 1건. 출처 목록의 Futu News(JP모건 보고서 전재)로 보고서 존재와 요지는 뒷받침되지만, 점유율 44% 등 세부는 원 문서에서 채널로 표시",
+ "src": [
+  {
+   "o": "Futu News(摩根大通 보고서 전재)",
+   "d": "2026-10-08",
+   "u": "https://news.futunn.com/post/1000728280/de-catlization-is-easier-said-than-done-jpmorgan-notes-that"
+  }
+ ],
+ "items": [
+  {
+   "t": "JP모건 \"탈CATL 쉽지 않아…기술 격차 축소가 경쟁우위 소멸은 아냐\"",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-08",
+   "u": "https://t.me/HANAchina/70087"
+  }
+ ],
+ "inds": [
+  "auto",
+  "power"
+ ],
+ "nodes": [
+  "power/storage"
+ ],
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "battery",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "JP모건, CATL 점유율 44%로 오히려 확대 평가"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

@@ -1,0 +1,81 @@
+{
+ "id": "n-bbg-0685",
+ "num": 685,
+ "key": "mix-G2-060-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:50:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
+ "origTitle": "",
+ "headline": "미 10월 PMI 57.6으로 둔화했지만 판매가격 2022년 이후 최대 상승",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-23",
+   "u": "https://www.newsquawk.com/headlines/us-sp-global-composite-pmi-flash-oct-576-prev-584"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-23",
+   "u": "https://finimize.com/content/us-business-growth-cooled-but-prices-kept-rising"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국 기업활동 확장, 가격은 2022년 이후 최대 폭 급등",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
+   "s": "미국 기업활동이 10월에도 확장한 가운데 판매가격이 2022년 이후 가장 크게 오르면서 물가 재가속 우려가 커졌다"
+  },
+  {
+   "t": "미 10월 기업활동 식어도 강한 수요에 가격 압력",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/us-business-activity-cools-october-strong-demand-fueling-price-pressures-2026-10-23/",
+   "s": "미국 종합 PMI가 57.6으로 내려 기업활동은 식었지만 강한 수요와 공급망 병목이 판매가격을 59.8까지 밀어 올렸다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation",
+  "macro/growth"
+ ],
+ "title": "미 10월 PMI 57.6으로 둔화했지만 판매가격 2022년 이후 최대 상승",
+ "one": "미국 10월 기업활동이 확장을 이어갔지만 판매가격 지수가 2022년 이후 최대 폭으로 올랐다\n· 종합 PMI 속보치는 9월 5년 최고 58.4에서 10월 57.6으로 낮아졌다\n· 서비스업 PMI는 57.9, 제조업 PMI는 56.0을 기록했다\n· 판매가격 지수는 59.8로 2022년 8월 이후 최고였고 투입가격 지수도 64.9로 높았다\n· S&P글로벌은 공급망 병목과 주문 적체로 기업들이 비용을 넘기기 쉬워졌다고 설명했다",
+ "facts": [
+  "무엇이: S&P글로벌 미국 10월 종합 PMI 속보치는 57.6으로 9월 58.4에서 낮아졌지만 확장세를 유지했다 [사실]",
+  "부문: 서비스업 57.9(예상 58.0), 제조업 56.0(예상 55.5)이었다 [사실]",
+  "가격: 판매가격 지수는 59.8로 2022년 8월 이후 최고였고, 투입가격 지수는 65.9에서 64.9로 소폭 내렸다 [사실]",
+  "배경: 공급망 병목과 주문 적체가 커졌고 유가 재급등이 가격 압력 요인으로 꼽혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Newsquawk·Finimize·S&P글로벌 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "판매가격 지수 59.8로 2022년 8월 이후 최고"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "종합 PMI 58.4에서 57.6으로 둔화"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

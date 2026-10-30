@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0083",
+ "feed": "v5",
+ "format": "one1",
+ "num": 83,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-venture-global-china-buyers",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "title": "벤처글로벌, 페트로차이나 등 중국 3곳 이상과 LNG 장기 공급 협상",
+ "one": "미국 벤처글로벌이 페트로차이나 등 중국 수입사 3곳 이상과 LNG 장기 공급을 협의하면서, 카타르 물량이 막힌 중국 구매자들이 현물 대신 미국산 장기 계약으로 조달처를 옮길 수 있다",
+ "headline": "벤처글로벌, 페트로차이나 등 중국 3곳 이상과 LNG 장기 공급 협상",
+ "facts": [
+  "무엇이: 벤처글로벌이 중국 수입사 최소 3곳과 LNG 장기 공급을 초기 단계에서 협의 중이라고 블룸버그가 관계자를 인용해 전했습니다. [사실]",
+  "얼마나: 국영 페트로차이나는 벤처글로벌의 루이지애나 수출 설비에서 연 100만 톤 이상을 받는 방안을 검토하고 있습니다. [사실]",
+  "왜: 지난해 중국 LNG 수입의 약 30%를 댄 카타르 공급이 호르무즈 차질로 막히고 현물값이 뛰자, 중국 구매자들이 현물 구매를 줄이고 장기 물량을 찾고 있습니다. [사실]",
+  "배경: 중국은 2025년 미국산 가스에 관세를 매겼고, 벤처글로벌은 지난달 2030년 인도 시작 장기 계약을 한 건 맺었습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 인베스팅닷컴 자체 기사(10월 6일, 블룸버그 인용)로 작성. 페트로차이나 외 수입사 이름과 계약 기간은 확인 못 함. 로이터도 블룸버그를 인용해 보도.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers"
+  },
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S112:0-venture-global-in-talks-to-sell-us-lng-to-chinese-buyers-bloomberg-news-reports/"
+  },
+  {
+   "o": "Investing.com 자체 기사",
+   "d": "2026-10-06",
+   "u": "https://ca.investing.com/news/stock-market-news/venture-global-shares-rise-amid-report-chinese-buyers-eye-expanded-us-lng-deals-4868316"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Venture Global in Talks to Supply US LNG to More Chinese Buyers"
+}

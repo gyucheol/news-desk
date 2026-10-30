@@ -1,0 +1,76 @@
+{
+ "id": "n-rtr-0336",
+ "num": 336,
+ "key": "mix-G3-029-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T22:45:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/eagle-hills-plans-up-17-billion-investment-syria-chairman-says-2026-10-14/",
+ "origTitle": "",
+ "headline": "이글힐스, 시리아에 최대 170억 달러 개발 계획…두바이는 14억 달러 금융지구",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-10-05",
+   "u": "https://www.thenationalnews.com/business/property/2026/10/05/abu-dhabis-eagle-hills-to-develop-residential-and-tourism-projects-in-syria/"
+  },
+  {
+   "o": "AGBI",
+   "d": "2026-10",
+   "u": "https://www.agbi.com/real-estate/2026/10/eagle-hills-to-start-work-on-two-projects-in-syria/"
+  },
+  {
+   "o": "LBCI",
+   "d": "2026-10-14",
+   "u": "https://www.lbcgroup.tv/news/middleeastnews/962809/eagle-hills-plans-up-to-17-billion-investment-in-syria-chairman-says/en"
+  }
+ ],
+ "items": [
+  {
+   "t": "이글힐스 회장 '시리아에 최대 170억 달러 투자 계획'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/middle-east/eagle-hills-plans-up-17-billion-investment-syria-chairman-says-2026-10-14/",
+   "s": "이글힐스 알아바르 회장이 시리아 다마스쿠스·라타키아 개발에 최대 170억 달러를 넣겠다고 밝히면서, 전후 시리아 재건에 걸프 부동산 자본이 들어가게 됐다"
+  },
+  {
+   "t": "두바이, 14억 달러 새 지구로 금융센터 확장",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/dubai-builds-up-financial-center-with-new-1-4-billion-district",
+   "s": "두바이가 14억 달러 규모 새 지구를 지어 금융센터를 키우기로 하면서, 금융권 업무 공간 공급이 늘어날 전망이다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "이글힐스, 시리아에 최대 170억 달러 개발 계획…두바이는 14억 달러 금융지구",
+ "one": "UAE 개발사 이글힐스의 알아바르 회장이 다마스쿠스·라타키아 두 개발사업에 최대 170억 달러를 넣겠다고 밝히고 두바이도 14억 달러 규모 새 금융지구 개발에 나서면서, 걸프 자본이 역내 대형 부동산 개발 물량을 늘리고 있다",
+ "facts": [
+  "무엇이: 이글힐스의 무함마드 알아바르 회장이 10월 14일 시리아에 160억~170억 달러를 투자할 계획이라고 밝혔고, 이는 서명된 계약 금액이 아닌 계획입니다 [사실]",
+  "사업: 다마스쿠스의 타다문 타워 개발과 라타키아의 마리나를 낀 주거·관광 사업 에코 라이프 두 곳이며, 10월 5일 알샤라 대통령이 참석한 가운데 기본협약을 맺었습니다 [사실]",
+  "규모: 두 사업은 4만 개 넘는 일자리를 만들 것으로 예상되지만, 당국은 사업 금액과 완공 시점을 밝히지 않았습니다 [사실]",
+  "두바이: 두바이는 14억 달러를 들인 새 지구로 금융센터를 키웁니다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "이글힐스 투자 계획·사업 내용·협약 시점은 검색 결과 요약으로 확인. 두바이 14억 달러 금융지구는 확인 못 함(제목 기준)",
+ "added": "이번 블룸버그 10월 15일 글로 두바이가 14억 달러 규모 새 지구를 지어 금융센터를 키운다는 계획이 추가됐다 (제목 기준)",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "이글힐스 시리아 개발 최대 170억 달러 계획"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

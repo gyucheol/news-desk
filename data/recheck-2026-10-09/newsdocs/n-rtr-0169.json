@@ -1,0 +1,54 @@
+{
+ "basis": "verified",
+ "check": "International Finance 보도와 IMF GFSR 예고 페이지의 검색 결과 요약으로 확인. 전체 보고서는 10월 13일 공개 예정이라 수치는 미리보기 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: IMF가 10월 세계금융안정보고서(GFSR) 미리보기 장에서 헤지펀드의 시장 영향력이 커져 감독 강화가 필요하다고 밝혔다 [사실]",
+  "규모: 헤지펀드 총자산은 약 13조 달러로 2013년 약 4조 달러에서 늘었고 성장은 주로 파생상품을 통한 레버리지에서 나왔다 [사실]",
+  "국채: 헤지펀드의 미 국채 시장 비중은 9%로 2022년 4%에서 높아졌다 [사실]",
+  "권고: 데이터 공백을 메우고 위험 감시를 강화하며 쏠린 포지션·동시 디레버리징 위험에 맞춘 대책이 필요하다고 했다 [사실]",
+  "영향: 비은행 금융 규제 논의 확대 가능성 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IMF '헤지펀드 시장 영향력 커져 감독 강화 필요'",
+ "id": "n-rtr-0169",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "IMF '헤지펀드 시장 영향력 커져 면밀한 감독 필요'",
+   "u": "https://www.reuters.com/business/finance/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny-2026-10-06/"
+  }
+ ],
+ "key": "bnd-C328-2026-10-09",
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "num": 169,
+ "one": "IMF가 헤지펀드의 시장 내 비중이 커지고 있다며 더 면밀한 감독이 필요하다고 지적하면서, 레버리지를 쓰는 비은행 투자자에 대한 규제 논의가 확대될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T05:40:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "International Finance",
+   "d": "2026-10-07",
+   "u": "https://internationalfinance.com/markets/imf-warns-growing-hedge-fund-footprint-merits-closer-scrutiny/"
+  },
+  {
+   "o": "IMF",
+   "d": "2026-10-13",
+   "u": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026"
+  }
+ ],
+ "tags": [],
+ "title": "IMF '헤지펀드 시장 영향력 커져 감독 강화 필요'",
+ "url": "https://www.reuters.com/business/finance/imf-says-hedge-funds-market-footprint-growing-merits-closer-scrutiny-2026-10-06/"
+}

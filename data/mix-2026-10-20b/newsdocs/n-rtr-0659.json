@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0659",
+ "num": 659,
+ "key": "mix-G2-074-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:42:00+09:00",
+ "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazeneca-amgen-asthma-drug-hits-69-remission-esophageal-disease-trial-2026-10-20/",
+ "origTitle": "",
+ "headline": "아스트라제네카·암젠 천식약 테즈파이어, 호산구성 식도염 3상서 조직학적 관해 69%",
+ "src": [
+  {
+   "o": "Amgen",
+   "d": "2026-10-20",
+   "u": "https://www.amgen.com/newsroom/press-releases/2026/10/tezspire-delivered-histologic-remission-and-symptom-improvement-in-eosinophilic-esophagitis"
+  },
+  {
+   "o": "AstraZeneca",
+   "d": "2026-10-20",
+   "u": "https://www.astrazeneca.com/media-centre/press-releases/2026/tezspire-positive-results-from-phase-iii-crossing-trial-eosinophilic-esophagitis.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "아스트라제네카·암젠 천식약, 식도 질환 임상서 관해율 69%",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazeneca-amgen-asthma-drug-hits-69-remission-esophageal-disease-trial-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "아스트라제네카·암젠 천식약 테즈파이어, 호산구성 식도염 3상서 조직학적 관해 69%",
+ "one": "아스트라제네카·암젠의 천식약 테즈파이어가 호산구성 식도염 3상에서 높은 관해율을 보였다\n· 24주 차 조직학적 관해율은 420mg군 68.9%, 210mg군 64.8%로 위약 3.5%를 크게 웃돌았다\n· 52주 차에도 관해율이 63.3~67.8%로 유지돼 위약 5.4%를 앞섰다",
+ "facts": [
+  "무엇이: 테즈파이어(테제펠루맙)는 호산구성 식도염 3상 CROSSING에서 조직학적 관해와 삼킴곤란 개선의 공동 1차 평가변수를 충족했다 [사실]",
+  "수치: 24주 차 조직학적 관해율은 420mg군 68.9%(약 69%), 210mg군 64.8%, 위약 3.5%였고, 52주 차에는 63.3%·67.8% 대 5.4%였다 [사실]",
+  "발표: 결과는 10월 20일 유럽소화기학회 주간(UEG Week)에서 발표됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 보도자료 검색 결과 요약으로 관해율 수치 확인",
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "clinical",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "테즈파이어 식도염 3상 관해율 69%"
+  }
+ ]
+}

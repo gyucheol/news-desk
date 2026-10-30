@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0264",
+ "num": 264,
+ "key": "mix-C127-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-10T06:38:00+09:00",
+ "url": "https://www.reuters.com/business/media-telecom/qualcomm-arm-set-jury-verdict-contract-breach-feud-2026-10-09/",
+ "origTitle": "",
+ "headline": "{{퀄컴·암}} 계약 위반 분쟁, 델라웨어 배심 평결 앞둬",
+ "src": [
+  {
+   "o": "Yahoo Finance",
+   "d": "2026-10",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-arm-trial-ends-hung-130049760.html"
+  },
+  {
+   "o": "Hoodline",
+   "d": "2026-10",
+   "u": "https://hoodline.com/2026/10/qualcomm-arm-return-to-delaware-court-over-billions-in-royalty-fight/"
+  }
+ ],
+ "items": [
+  {
+   "t": "퀄컴과 암, 계약 위반 분쟁에서 배심 평결 받을 예정",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/media-telecom/qualcomm-arm-set-jury-verdict-contract-breach-feud-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "{{퀄컴·암}} 계약 위반 분쟁, 델라웨어 배심 평결 앞둬",
+ "one": "{{퀄컴}}이 암이 계약상 제공물을 주지 않고 최저가 보장 조항을 어겼다며 낸 소송에서 {{델라웨어 배심}}이 첫 심의에서 결론을 못 내면서, 차세대 아키텍처 {{라이선스 협상}}을 둘러싼 양사 분쟁의 향방이 평결에 걸렸다",
+ "facts": [
+  "무엇이: 퀄컴이 암을 상대로 낸 계약 위반 소송의 배심이 델라웨어 윌밍턴에서 금요일 약 4시간 심의했지만 결론을 내지 못했고 화요일 다시 모인다 [사실]",
+  "쟁점: 퀄컴은 암이 칩 테스트 도구 등 제공물을 주지 않고 해지 위협을 흘려 메타와의 협상을 해쳤으며, 최저가 대비 10% 이내 가격 조항을 어겼다고 주장한다 [사실]",
+  "반론: 암은 퀄컴이 금전 피해를 보지 않았고 소송이 라이선스 조건 다툼의 지렛대라고 본다 [사실]",
+  "미확인: 배심 교착으로 재판이 끝났다는 보도 제목도 있어 최종 평결 여부는 확인하지 못했다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "배심 심의 교착과 화요일 재개, 양측 주장은 검색 결과 요약으로 확인. 최종 평결 여부는 확인 못 함"
+}

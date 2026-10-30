@@ -1,0 +1,65 @@
+{
+ "id": "n-rtr-0034",
+ "num": 34,
+ "key": "bnd-C051-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T13:00:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/",
+ "origTitle": "",
+ "headline": "EU 1646건·英 38건 대러 제재 추가…그림자 선단·우회 결제망 겨냥",
+ "src": [
+  {
+   "o": "Brussels Morning",
+   "d": "2026-10-08",
+   "u": "https://brusselsmorning.com/eu-envoys-approve-1646-new-sanctions-targeting-russia/104903/"
+  },
+  {
+   "o": "AML Intelligence",
+   "d": "2026-10-08",
+   "u": "https://www.amlintelligence.com/2026/10/news-uk-announces-new-russia-sanctions-targeting-the-countrys-shadow-fleet/"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU 대사들, 대러 제재 대상 신규 지정 승인…외교관들 전해",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+  },
+  {
+   "t": "영국, 금융서비스·그림자 선단 겨냥한 새 대러 제재 발표",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+  },
+  {
+   "t": "러시아에 발 묶인 미국·유럽 기업들, 철수 위해 모든 것을 걸다",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/features/2026-russia-exits/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "EU 1646건·英 38건 대러 제재 추가…그림자 선단·우회 결제망 겨냥",
+ "one": "EU 대사들이 군수 공급망 중심의 대러 제재 대상 1646건을 승인하고 영국이 그림자 선단 유조선 12척과 우회 결제·가상자산 거래소 등 38건을 추가 제재하면서, 러시아의 원유 수출·결제 경로와 현지에 남은 서방 기업의 부담이 커지고 있다",
+ "facts": [
+  "무엇이: EU 대사들이 10월 7일 대러 제재 대상 1646건(대부분 미사일 등 군수산업) 신규 지정을 승인, 외교장관들이 10월 12일 공식 채택 예정이며 새 업종·금융 제한은 없음 [사실]",
+  "영국: 10월 8일 38건 지정, 유조선 12척 추가로 그림자 선단 제재 선박이 600척 넘었고 캐나다·키르기스스탄 소재 결제업체 5곳과 자루베즈네프트 등 석유사 포함 [사실]",
+  "기업: 러시아에 남은 미국·유럽 기업들이 철수에 모든 것을 걸어야 하는 상황 [제목]"
+ ],
+ "basis": "verified",
+ "check": "EU 1646건·채택 일정, 영국 38건·유조선 12척·결제업체는 검색 결과 요약(Brussels Morning·AML Intelligence·Moscow Times)으로 확인. 기업 철수 기사는 제목 기준",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

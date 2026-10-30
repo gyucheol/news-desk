@@ -1,0 +1,56 @@
+{
+ "id": "n-tg-0178",
+ "feed": "v5",
+ "format": "one1",
+ "num": 178,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65379",
+ "published": "2026-10-05T09:56:00+09:00",
+ "url": "https://t.me/insidertracking/65379",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "title": "라피더스, 도시바 자회사 등 설계업체 17곳과 고객 칩 설계 지원",
+ "one": "일본 라피더스가 도시바 자회사 등 반도체 설계 업체 17곳과 손잡고 고객사의 자체 칩 설계를 돕기로 하면서, 설계 인력이 부족한 일본 기업의 수요를 2나노 파운드리 수주로 이어가려 하고 있다",
+ "headline": "라피더스, 도시바 자회사 등 설계업체 17곳과 고객 칩 설계 지원",
+ "facts": [
+  "무엇이: 라피더스가 설계 지원 협력 체계 'Design Solutions Associate'에 17개 업체를 모았습니다 [사실]",
+  "누가: 도시바정보시스템, 다이닛폰인쇄, 톱판, 시놉시스, 케이던스, 인포시스 등이 참여하며 17곳 전체 명단은 공개되지 않았습니다 [사실]",
+  "왜: 일본 기업은 첨단 칩 설계 인력이 부족해 라피더스에 주문할 수 있는 고객 수가 제한돼 왔습니다 [사실]",
+  "배경: TSMC도 20곳이 넘는 설계 지원 업체 네트워크를 운영합니다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(닛케이 아시아 보도 인용)로 들어온 소식이며, 지지통신을 실은 nippon.com과 파이낸셜뉴스 자체 기사(검색 결과 요약)로 확인했습니다. 닛케이 아시아 본문은 유료라 열지 않았습니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-05",
+   "u": "https://t.me/insidertracking/65379"
+  },
+  {
+   "o": "nippon.com(지지통신)",
+   "d": "2026-10-05",
+   "u": "https://www.nippon.com/en/news/yjj2026100500666/japan's-rapidus-teams-with-17-firms-on-chip-design-support.html"
+  },
+  {
+   "o": "파이낸셜뉴스 영문판",
+   "d": "2026-10-05",
+   "u": "https://en.fnnews.com/news/202610051240152035"
+  },
+  {
+   "o": "닛케이 아시아(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-rapidus-to-help-17-companies-design-chips-for-clients"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더",
+ "ind": "semis"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0458",
+ "num": 458,
+ "key": "split-G2-180-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "러시아 공습에 키이우 지하철역 피격…여성 1명 사망",
+ "headline": "러시아 공습에 키이우 지하철역 피격…여성 1명 사망",
+ "one": "러시아 공습이 우크라이나 수도 키이우의 지하철역을 때려 여성 1명이 숨졌다고 키이우 시장이 밝히면서, 에너지 휴전이 무너진 뒤 러시아의 공격 대상이 수도의 민간 기반시설까지 넓어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 러시아 공습이 키이우 지하철역을 때려 여성 1명이 숨졌다고 키이우 시장이 밝혔다 [제목]",
+  "배경: 러시아는 앞서 드론 269대와 이스칸데르 미사일로 우크라이나 25개 지역을 공습했다 [채널]",
+  "의미: 우크라이나 수도의 민간 기반시설까지 공격 대상이 넓어졌다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에서도 키이우 지하철역 피격은 제목 기준으로만 남아 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "러시아 공습에 키이우 지하철역 피격, 여성 1명 사망…시장 발표",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "키이우 지하철역 피격, 수급 영향은 드러나지 않음"
+  }
+ ]
+}

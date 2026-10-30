@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0579",
+ "num": 579,
+ "key": "split-G5-121-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/retail-consumer/french-cosmetics-facing-delays-clearing-china-customs-says-industry-association-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 화장품, 중국 세관 통관 지연 겪어…업계 단체",
+ "headline": "프랑스 화장품, 중국 세관 통관 지연 겪어…업계 단체",
+ "one": "프랑스 화장품 업계 단체가 14일 자국 화장품이 중국 세관 통관에서 지연을 겪고 있다고 밝히면서, 프랑스 화장품의 중국 수출 물량 흐름에 차질이 생기고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 프랑스 화장품 업계 단체가 중국 세관 통관이 늦어지고 있다고 밝혔다 [제목]",
+  "영향: 프랑스 화장품의 중국 수출에 차질이 생기고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 화장품, 중국 통관 지연 겪어…업계 단체",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/retail-consumer/french-cosmetics-facing-delays-clearing-china-customs-says-industry-association-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "beauty"
+ ],
+ "nodes": [
+  "beauty/exports"
+ ],
+ "vc": [
+  {
+   "ind": "beauty",
+   "node": "exports",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스 화장품 중국 통관 지연으로 수출 차질"
+  }
+ ]
+}

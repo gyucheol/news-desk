@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0485",
+ "num": 485,
+ "key": "split-G4-085-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/europe-fiscal-challenges-laid-bare-as-protests-in-france-spill-into-riots",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스 시위 폭동 비화로 드러난 유럽 재정 난제",
+ "headline": "프랑스 시위 폭동 비화로 드러난 유럽 재정 난제",
+ "one": "블룸버그가 10월 19일 프랑스 시위가 폭동으로 번지면서 유럽 각국의 재정 부담이 다시 드러났다고 짚었고, 같은 날 프랑스-독일 금리차가 146bp로 벌어져 재정 취약국 국채에 대한 경계가 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 뉴스레터는 10월 19일 프랑스 시위가 폭동으로 번지면서 유럽의 재정 난제가 드러났다고 분석했다 [제목]",
+  "시장: 같은 날 프랑스 10년물 금리는 약 4.9%로 오르고 독일과의 금리차는 146bp로 2주 만의 최대였다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 뉴스레터 1건(제목 기준). 원 문서 확인 기록에 이 분석 부분은 없어 기사 요약 기준이며, 금리 수치는 원 문서에서 검색 결과 요약으로 확인된 사실",
+ "src": [],
+ "items": [
+  {
+   "t": "프랑스 시위 폭동 비화로 드러난 유럽 재정 난제",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-19/europe-fiscal-challenges-laid-bare-as-protests-in-france-spill-into-riots"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/rates"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "유럽 재정 취약국 국채 경계 커져"
+  }
+ ]
+}

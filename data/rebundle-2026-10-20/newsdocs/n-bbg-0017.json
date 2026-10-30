@@ -1,0 +1,107 @@
+{
+ "check": "블룸버그 3건(YPF 계약 임박, 가스텍 미국산 장기 계약, JERA 해외 판매)과 텔레그램 1건(포스코인터내셔널 마셀러스 인수)을 묶었다. 리오타임스·LNG인더스트리·에너지뉴스·비즈트리뷴 보도로 확인했고, 셰니에르 계약 조건은 리포트 기술만으로 썼다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 방콕 가스텍 2026에서 행사 사흘째까지 발표된 거래가 약 400억 달러로 추산됐고, 차이나가스홀딩스는 벤처글로벌에서 2030년부터 20년간 연 50만 톤을 사는 계약을 맺었다 [사실]",
+  "YPF: 오라시오 마린 최고경영자는 9월 14일 연 1,200만 톤·사업비 약 240억 달러 수출 사업의 판매 계약 2~3건 서명이 가까워졌다고 했지만 아직 서명된 계약은 없고, 최종 투자 결정은 2026년 11월 목표다 [사실]",
+  "JERA: 7월 1일 출범한 싱가포르 100% 자회사 JERA GES가 장기 판매를 맡아 인도 토렌트파워와 일본 밖 첫 장기 LNG 공급 계약을 맺었고, JERA의 LNG 취급량은 2025회계연도 약 3,500만 톤이다 [사실]",
+  "포스코인터내셔널: 9월 14일 미국 마셀러스 분지 셰일가스 자산을 5.5억 달러에 사는 계약을 맺었고 연간 판매량은 LNG 환산 약 100만 톤, 거래 종결은 11월 중순 예정이다 [사실]",
+  "왜: 셰니에르와 맺은 연 40만 톤·20년 도입계약이 헨리허브 연동이라 미국 가스값이 오르면 생산 가스 판매이익으로 원가 상승을 일부 메울 수 있다는 것이 리포트 설명이다 [사실]",
+  "그 밖에: 삼성중공업은 가스텍에서 LNG선·원유선 12억 달러 수주를 발표했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "LNG 장기계약 재편…가스텍 거래 400억 달러·YPF 연 1,200만 톤 계약 임박·포스코인터 5.5억 달러 인수",
+ "id": "n-bbg-0017",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "key": "bbg4-11",
+ "nodes": [
+  "gas/trade",
+  "gas/liquefaction",
+  "gas/upstream"
+ ],
+ "num": 17,
+ "processed": "2026-10-20",
+ "published": "2026-09-14",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "리오타임스",
+   "d": "2026-09-15",
+   "u": "https://www.riotimesonline.com/ypf-argentina-lng-contracts-close-signing-2026/"
+  },
+  {
+   "o": "LNG인더스트리",
+   "d": "2026-09-17",
+   "u": "https://www.lngindustry.com/special-reports/17092026/gastech-2026-converts-global-energy-ambition-into-billions-of-dollars-in-deals/"
+  },
+  {
+   "o": "에너지뉴스(energynews.pro)",
+   "d": "2026-09-17",
+   "u": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales"
+  },
+  {
+   "o": "비즈트리뷴",
+   "d": "2026-09-17",
+   "u": "https://www.biztribune.co.kr/news/articleView.html?idxno=359165"
+  }
+ ],
+ "tags": [],
+ "url": "https://www.bloomberg.com/news/articles/2026-09-14/argentina-s-ypf-says-close-to-signing-more-lng-sales-contracts",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "title": "LNG 장기계약 재편…가스텍 거래 400억 달러·YPF 연 1,200만 톤 계약 임박·포스코인터 5.5억 달러 인수",
+ "one": "호르무즈 위험 속 LNG 장기계약 시장 재편에서 방콕 가스텍 2026 사흘째까지 발표된 거래가 약 400억 달러로 추산되는 가운데 차이나가스홀딩스가 벤처글로벌에서 2030년부터 20년간 연 50만 톤을 사기로 했고, 아르헨티나 YPF는 연 1,200만 톤·약 240억 달러 수출 사업(11월 최종 투자 결정 목표)의 판매 계약 2~3건 서명이 임박했다고 밝혔으며, 일본 최대 LNG 구매자 JERA는 싱가포르 자회사 JERA GES를 통해 해외 판매에 나서 인도 토렌트파워와 첫 해외 장기 공급 계약을 맺었고, 포스코인터내셔널은 미국 마셀러스 셰일가스 자산을 5.5억 달러(연 LNG 환산 약 100만 톤)에 사들여 셰니에르 헨리허브 연동 도입계약의 원가 위험을 메우기로 했다",
+ "basis": "verified",
+ "items": [
+  {
+   "t": "아르헨티나 YPF, LNG 판매 계약 2~3건 서명 임박 — 연 1,200만 톤·240억 달러 수출 사업, 11월 투자 결정 목표",
+   "o": "블룸버그",
+   "d": "2026-09-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-14/argentina-s-ypf-says-close-to-signing-more-lng-sales-contracts",
+   "s": "아르헨티나 YPF가 연 1,200만 톤·약 240억 달러 LNG 수출 사업의 판매 계약 2~3건 서명이 임박했다며 11월 최종 투자 결정을 목표로 한다"
+  },
+  {
+   "t": "가스텍 2026(방콕): 구매자들 호르무즈 위험 헤지로 미국산 장기 계약 모색 — 차이나가스·벤처글로벌 20년·연 50만 톤, 사흘간 거래 약 400억 달러",
+   "o": "블룸버그",
+   "d": "2026-09-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-15/lng-buyers-look-to-us-to-hedge-future-risk-of-hormuz-disruption",
+   "s": "가스텍 2026에서 구매자들이 호르무즈 위험을 피하려 미국산 장기 계약을 찾으면서 차이나가스가 벤처글로벌과 20년·연 50만 톤 계약을 맺었다"
+  },
+  {
+   "t": "일본 최대 LNG 구매자 JERA, 사는 쪽에서 세계 판매로 — 싱가포르 자회사 JERA GES가 장기 판매 맡고 인도 토렌트파워와 첫 해외 장기 계약",
+   "o": "블룸버그",
+   "d": "2026-09-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-09-16/japan-s-jera-looks-to-pivot-lng-buying-muscle-into-global-sales",
+   "s": "일본 최대 LNG 구매자 JERA가 싱가포르 자회사 JERA GES를 통해 해외 판매에 나서 인도 토렌트파워와 첫 해외 장기 계약을 맺었다"
+  },
+  {
+   "t": "포스코인터내셔널, 미국 마셀러스 셰일가스 자산을 5.5억 달러에 인수 — 연 LNG 환산 약 100만 톤, 셰니에르 헨리허브 연동 도입계약의 원가 위험 상쇄용",
+   "o": "텔레그램",
+   "d": "2026-10-01",
+   "u": "https://t.me/PipeBeom/6577",
+   "s": "포스코인터내셔널이 미국 마셀러스 셰일가스 자산을 5.5억 달러에 사들여 연 LNG 환산 약 100만 톤을 확보하고 헨리허브 연동 도입계약의 원가 위험을 메운다"
+  }
+ ],
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "가스텍 사흘 거래 약 400억 달러, 미국산 장기 계약"
+  },
+  {
+   "ind": "gas",
+   "node": "liquefaction",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "YPF 연 1,200만 톤 LNG 사업 판매 계약 임박"
+  }
+ ]
+}

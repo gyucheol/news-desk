@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0582",
+ "num": 582,
+ "key": "split-G5-131-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "방가 세계은행 총재 '수십 개국과 위기 지원 논의 중'",
+ "headline": "방가 세계은행 총재 '수십 개국과 위기 지원 논의 중'",
+ "one": "방가 세계은행 총재가 11일 수십 개국과 위기 지원을 논의하고 있다고 밝히면서, 전쟁 파급과 고유가로 자금난을 겪는 나라들에 대한 세계은행의 긴급 자금 지원이 여러 나라로 넓어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 방가 세계은행 총재는 10월 11일 수십 개국과 위기 지원을 논의하고 있다고 밝혔다 [제목]",
+  "배경: IMFC 의장 알자단 사우디 재무장관은 회원국들이 전쟁 파급과 고유가로 단기 자금난을 겪는 나라에 지원 확대를 촉구했다고 했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 배경의 IMFC 지원 촉구는 원 문서 사실 줄에서 가져왔다.",
+ "src": [],
+ "items": [
+  {
+   "t": "방가 세계은행 총재 \"수십 개국과 위기 지원 논의 중\"",
+   "o": "로이터",
+   "d": "2026-10-11",
+   "u": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "세계은행, 수십 개국과 위기 지원 논의"
+  }
+ ]
+}

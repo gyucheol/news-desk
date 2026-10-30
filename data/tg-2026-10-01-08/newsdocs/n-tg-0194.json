@@ -1,0 +1,50 @@
+{
+ "id": "n-tg-0194",
+ "feed": "v5",
+ "format": "one1",
+ "num": 194,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-insidertracking-65704",
+ "published": "2026-10-08T11:16:00+09:00",
+ "url": "https://t.me/insidertracking/65704",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "후티, 사우디 아브하·리야드 공항 공격…3명 사망·36명 부상",
+ "one": "예멘 후티가 6~7일 사우디 아브하 공항과 리야드 킹칼리드 공항을 미사일·드론으로 공격해 3명이 숨지고 36명이 다치면서, 사우디 본토의 민간 기반시설까지 공격 대상이 넓어지고 있다",
+ "headline": "후티, 사우디 아브하·리야드 공항 공격…3명 사망·36명 부상",
+ "facts": [
+  "무엇이: 사우디 민간항공총국은 6~7일 아브하 국제공항과 리야드 킹칼리드 국제공항이 공격받아 모두 3명이 숨지고 36명이 다쳤다고 밝혔습니다 [사실]",
+  "얼마나: 아브하 공항에서 모로코·알제리 국적 여성 2명 사망, 28명 부상, 킹칼리드 공항에서 수단 국적자 1명 사망, 8명 부상입니다 [사실]",
+  "누가: 후티는 킹칼리드 공항은 드론으로, 아브하 공항은 탄도미사일과 드론으로 공격했다고 주장했습니다 [사실]",
+  "배경: 후티와 사우디 주도 연합군 사이 교전이 바브엘만데브 일대에서 격해지는 가운데 나온 공격입니다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(신화통신 전재)로 들어온 소식이며, 아나돌루(AA)·트리뷴 등 자체 기사로 사상자 수와 후티의 공격 주장을 확인했습니다(검색 결과 요약으로 확인). 공항별 피격 날짜는 매체마다 엇갈립니다.",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-08",
+   "u": "https://t.me/insidertracking/65704"
+  },
+  {
+   "o": "아나돌루(AA)",
+   "d": "2026-10-07",
+   "u": "https://www.aa.com.tr/en/middle-east/3-killed-36-injured-in-attacks-on-saudi-arabias-abha-riyadh-airports/4081390"
+  },
+  {
+   "o": "The Tribune",
+   "d": "2026-10-07",
+   "u": "https://www.tribuneindia.com/news/abha-airport/3-killed-36-injured-in-houthi-attacks-on-abha-king-khalid-airports-saudi-gaca"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "미국 주식 인사이더"
+}

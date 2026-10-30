@@ -1,0 +1,51 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인. 테크크런치·블리핑컴퓨터·패션네트워크가 무단 앱 알림, 제3자 플랫폼 침해, 이름·연락처 노출, 결제정보 무관을 전함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 아소스가 고객 소통용 제3자 플랫폼 해킹으로 일부 고객 개인정보가 노출됐다고 확인했다 [사실]",
+  "경위: 10월 6일 해커가 아소스 앱으로 무단 푸시 알림을 보냈고, 직원 계정이 사회공학 수법으로 뚫렸다 [사실]",
+  "범위: 이름·연락처가 노출됐을 수 있으나 결제카드 정보와 비밀번호는 영향이 없다고 회사는 밝혔다 [사실]",
+  "남은 점: 피해 고객 수는 공개되지 않았다 [미확인]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "英 온라인 의류업체 아소스, 해킹으로 일부 고객 개인정보 유출",
+ "id": "n-rtr-0072",
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "영국 아소스 \"보안 침해로 일부 고객 개인정보 노출\"",
+   "u": "https://www.reuters.com/business/retail-consumer/uks-asos-says-breach-exposed-some-customer-personal-data-2026-10-08/"
+  }
+ ],
+ "key": "bnd-C220-2026-10-09",
+ "nodes": [],
+ "num": 72,
+ "one": "영국 온라인 패션업체 아소스가 외부 데이터 플랫폼 해킹으로 고객 이름·연락처 등이 노출됐다고 확인하면서, 결제정보는 안전하다고 했지만 고객 신뢰 하락과 규제 대응 부담을 안게 됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T06:33:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "TechCrunch",
+   "d": "2026-10-08",
+   "u": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/"
+  },
+  {
+   "o": "BleepingComputer",
+   "d": "2026-10-08",
+   "u": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
+  }
+ ],
+ "tags": [],
+ "title": "英 온라인 의류업체 아소스, 해킹으로 일부 고객 개인정보 유출",
+ "url": "https://www.reuters.com/business/retail-consumer/uks-asos-says-breach-exposed-some-customer-personal-data-2026-10-08/"
+}

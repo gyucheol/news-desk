@@ -1,0 +1,94 @@
+{
+ "basis": "verified",
+ "channel": "Polaristimes",
+ "check": "EIA 수치는 EIA 보도자료(검색 결과 요약)로 확인. 휘발유세 내용은 기존 한줄 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예 검토, 입법 필요·인하 효과 갤런당 10~16센트 추산 [사실]",
+  "난방유: EIA 겨울 전망에서 난방유 평균 가격 갤런당 5.26달러로 34% 상승, 가구 지출 2,115달러로 21% 증가 [사실]",
+  "다른 연료: 천연가스 가구 지출 9% 감소, 프로판 3% 감소, 전기 4% 증가 [사실]",
+  "원인: 세계 정제 생산 감소, 동부 해안 중간유분 재고 9월 5년 평균보다 32% 적음, 4분기 브렌트 평균 105달러 전망 [사실]",
+  "정치: 북동부 민주당 의원들이 난방유 급등에 행정부 조치 촉구 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "휘발유세 유예 검토 이어 난방유 21% 상승 전망…트럼프, 중간선거 앞 연료비 압박",
+ "id": "n-tg-0130",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "key": "tg-The_MariTimes-63563",
+ "nodes": [
+  "macro/commodity",
+  "macro/inflation"
+ ],
+ "num": 130,
+ "one": "트럼프 대통령이 갤런당 18.4센트 연방 휘발유세 유예를 검토하는 가운데 미 에너지정보청(EIA)이 올겨울 난방유 가구 지출이 21% 늘 것으로 전망하고 북동부 민주당 의원들이 대책을 요구하면서, 중간선거 앞 연료비가 정치 부담으로 커지고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T22:58:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-07",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "d": "2026-10",
+   "o": "Transport Topics",
+   "u": "https://www.ttnews.com/articles/trump-gas-tax-suspension"
+  },
+  {
+   "d": "2026-10",
+   "o": "뉴스위크",
+   "u": "https://www.newsweek.com/trump-floats-gas-tax-cut-how-much-you-could-save-12533288"
+  },
+  {
+   "o": "EIA",
+   "d": "2026-10-06",
+   "u": "https://www.eia.gov/pressroom/releases/press593.php"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-07",
+   "u": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"
+  }
+ ],
+ "tags": [],
+ "title": "휘발유세 유예 검토 이어 난방유 21% 상승 전망…트럼프, 중간선거 앞 연료비 압박",
+ "url": "https://t.me/The_MariTimes/63563",
+ "items": [
+  {
+   "t": "트럼프 \"연방 휘발유세 유예 검토\"…갤런당 4.37달러 휘발유값에 선거 앞 대응",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-07",
+   "u": "https://t.me/The_MariTimes/63563"
+  },
+  {
+   "t": "EIA, 올겨울 미국 가구 난방 연료비 엇갈릴 것으로 전망",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/eia-expects-mixed-picture-us-households-winter-fuel-costs-this-year-2026-10-06/"
+  },
+  {
+   "t": "북동부 민주당 의원들, 난방유 급등에 트럼프 행정부 조치 촉구",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/legal/litigation/northeast-democrats-urge-trump-administration-action-heating-oil-costs-surge-2026-10-06/"
+  },
+  {
+   "t": "트럼프, 중간선거 전 휘발유·디젤 가격 낮출 수 있을까",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/can-trump-lower-gas-and-diesel-prices-before-the-midterms"
+  }
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

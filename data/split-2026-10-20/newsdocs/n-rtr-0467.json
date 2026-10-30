@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0467",
+ "num": 467,
+ "key": "split-G3-020-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/china-commerce-ministry-announces-export-controls-tunnel-boring-machines-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국 상무부, 터널굴착기·부품 수출 통제…11월 18일부터 허가제",
+ "headline": "중국 상무부, 터널굴착기·부품 수출 통제…11월 18일부터 허가제",
+ "one": "중국 상무부가 19일 쉴드·암반 터널굴착기와 부품을 이중용도 품목으로 지정해 11월 18일부터 수출 허가를 받게 하면서, 중국 장비에 기대는 인도 등 해외 인프라 사업에 차질이 생길 수 있다",
+ "facts": [
+  "무엇이: 중국 상무부는 10월 19일 토압식·이수식 쉴드와 암반 터널굴착기, 그 부품을 이중용도 품목으로 지정해 11월 18일부터 수출을 통제한다 [사실]",
+  "함께: 같은 날 드론·준설선 부품 통제도 조정했다 [사실]",
+  "영향: 중국 장비에 기대는 인도 등 해외 인프라 사업에 차질이 생길 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건(10월 19일). 터널굴착기 수출 통제(11월 18일 시행)와 드론·준설선 부품 조정은 신화통신·닛케이아시아 검색 결과로 확인",
+ "src": [
+  {
+   "o": "신화통신",
+   "d": "2026-10-19",
+   "u": "https://english.news.cn/20261019/fda010dc392047b29cfc6631d468ec4b/c.html"
+  },
+  {
+   "o": "Nikkei Asia",
+   "d": "2026-10-19",
+   "u": "https://asia.nikkei.com/economy/china-announces-export-controls-for-tunnel-boring-machines"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 상무부, 터널굴착기에 대한 수출 통제 발표",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/china-commerce-ministry-announces-export-controls-tunnel-boring-machines-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "industrial",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "machinery",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "터널굴착기 11월 18일부터 수출 허가제"
+  }
+ ]
+}

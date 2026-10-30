@@ -1,0 +1,56 @@
+{
+ "id": "n-rtr-0694",
+ "num": 694,
+ "key": "mix-G1-085-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T14:55:00+09:00",
+ "url": "https://www.reuters.com/business/signify-beats-profit-expectations-helped-by-us-tariff-refund-2026-10-23/",
+ "origTitle": "",
+ "headline": "시그니파이, 美 관세 환급 2,800만 유로에 3분기 조정 EBITA 1.45억 유로…예상 상회",
+ "src": [
+  {
+   "o": "에디슨리포트",
+   "d": "2026-10-23",
+   "u": "https://edisonreport.com/2026/10/23/signify-q3-2026-results/"
+  }
+ ],
+ "items": [
+  {
+   "t": "시그니파이, 미국 관세 환급 덕에 이익 시장 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/signify-beats-profit-expectations-helped-by-us-tariff-refund-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "시그니파이, 美 관세 환급 2,800만 유로에 3분기 조정 EBITA 1.45억 유로…예상 상회",
+ "one": "시그니파이가 미국 관세 환급과 비용 절감 덕에 3분기 이익 시장 예상을 넘었다\n· 조정 EBITA는 1억 4,500만 유로로 시장 예상 1억 1,300만 유로를 웃돌았다\n· 관세 환급이 2,800만 유로를 보탰지만 비교 가능 매출은 3.4% 줄었다",
+ "facts": [
+  "무엇이: 시그니파이의 3분기 조정 EBITA가 1억 4,500만 유로로 회사 집계 예상치 1억 1,300만 유로를 넘었다 [사실]",
+  "관세 환급: 미국 관세 환급이 순 2,800만 유로를 기여해 조정 EBITA 마진을 약 2.1%p 끌어올렸고, 이를 빼면 마진은 8.5%였다 [사실]",
+  "매출: 매출은 13억 6,700만 유로, 비교 가능 매출은 3.4% 줄었고 소비자·OEM·재래식 조명이 부진했다 [사실]",
+  "전망: 연간 조정 EBITA 마진은 가이던스 7.5~8.5% 범위 상단을 예상한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "조정 EBITA·관세 환급 기여·매출 감소는 에디슨리포트 등 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "electrical",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "시그니파이 비교 가능 매출 3.4% 감소"
+  }
+ ]
+}

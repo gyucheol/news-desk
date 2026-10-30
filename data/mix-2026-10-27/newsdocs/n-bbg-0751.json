@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0751",
+ "num": 751,
+ "key": "mix-G2-055-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T12:25:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/jpmorgan-asset-management-bob-michele-us-bonds-treasury-fed",
+ "origTitle": "",
+ "headline": "JP모건운용 미셸 '미 국채 12개월 수익률 7~8%' 전망…실질금리 3%는 매수 신호",
+ "src": [
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-27",
+   "u": "https://en.sedaily.com/finance/2026/10/27/jp-morgan-sees-8-percent-return-in-us-bonds-as-real-yields"
+  },
+  {
+   "o": "Futu News",
+   "d": "2026-10-27",
+   "u": "https://news.futunn.com/en/post/1002379895/jp-morgan-asset-management-cio-us-treasury-returns-expected-to"
+  }
+ ],
+ "items": [
+  {
+   "t": "JP모건 미셸 '미 채권 12개월 수익률 7~8% 예상'",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/jpmorgan-asset-management-bob-michele-us-bonds-treasury-fed"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "title": "JP모건운용 미셸 '미 국채 12개월 수익률 7~8%' 전망…실질금리 3%는 매수 신호",
+ "one": "JP모건자산운용의 밥 미셸 글로벌 채권 총괄이 미국 채권이 향후 12개월 7~8% 수익을 낼 것으로 봤다\n· 미 실질금리가 2002년 이후 처음 3%에 이른 것을 매수 신호로 보고 장기물이 가장 가치 있다고 했다\n· 연준이 이번 주에는 올리지 않겠지만 12월에는 인상할 가능성이 매우 크다고 내다봤다",
+ "facts": [
+  "무엇이: 밥 미셸은 10월 27일 싱가포르 간담회에서 이자 수입과 가격 상승을 합쳐 미국 채권이 12개월간 7~8% 수익을 낼 수 있다고 했다 [사실]",
+  "근거: 미국 실질금리가 2002년 이후 처음 3%에 이르러 매수 신호이며 미 국채 곡선 장기물이 가장 가치 있다고 했다 [사실]",
+  "연준·기타: 연준이 이번 주는 동결하고 12월 인상할 가능성이 매우 크다고 봤고 일본·호주 국채, 투자등급 회사채, 신흥국 국채도 유망하다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(서울경제 영문판·Futu 등)으로 7~8% 수익 전망, 실질금리 3% 매수 신호, 12월 연준 인상 예상 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "미 국채 12개월 수익률 7~8% 전망"
+  }
+ ]
+}

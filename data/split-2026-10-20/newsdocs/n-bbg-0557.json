@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0557",
+ "num": 557,
+ "key": "split-G5-111-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T10:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/eu-agrees-to-discuss-curbs-on-chinese-inverters-after-trade-meet",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU, 중국과 무역회의 뒤 중국산 인버터 규제 논의 합의",
+ "headline": "EU, 중국과 무역회의 뒤 중국산 인버터 규제 논의 합의",
+ "one": "EU가 12일 중국과의 무역회의를 마친 뒤 중국산 인버터 규제를 논의하기로 합의하면서, 대중 규제 대상이 완성차를 넘어 인버터 같은 핵심 부품으로까지 넓어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: EU가 중국과 무역회의를 마친 뒤 중국산 인버터 규제를 논의하기로 합의했다 [제목]",
+  "의미: 규제 대상이 완성차에서 핵심 부품으로 넓어질 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "EU, 무역회의 뒤 중국산 인버터 규제 논의에 합의",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/eu-agrees-to-discuss-curbs-on-chinese-inverters-after-trade-meet"
+  }
+ ],
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "EU, 중국산 인버터 규제 논의 합의"
+  }
+ ]
+}

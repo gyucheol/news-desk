@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0614",
+ "num": 614,
+ "key": "split-G6-096-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/aerospace-defense/eu-commission-clears-leonardo-acquisition-ivecos-defence-unit-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "EU 집행위, 레오나르도의 이베코 방산 부문 인수 승인",
+ "headline": "EU 집행위, 레오나르도의 이베코 방산 부문 인수 승인",
+ "one": "EU 집행위원회가 10월 14일 레오나르도의 이베코 방산 부문 인수를 승인하면서, 레오나르도의 지상 방산 사업이 커지고 유럽 방산 업계의 재편이 한 걸음 더 나아갔다 (제목 기준)",
+ "facts": [
+  "무엇이: EU 집행위원회가 레오나르도의 이베코 방산 부문 인수를 승인했다(10월 15일 로이터) [제목]",
+  "의미: 승인으로 레오나르도의 지상 방산 사업이 커지게 됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 15일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 제목 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "EU 집행위, 레오나르도의 이베코 방산 부문 인수 승인",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/aerospace-defense/eu-commission-clears-leonardo-acquisition-ivecos-defence-unit-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "레오나르도 이베코 방산 인수 승인으로 지상 방산 통합"
+  }
+ ]
+}

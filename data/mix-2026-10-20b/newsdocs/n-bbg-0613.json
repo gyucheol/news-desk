@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0613",
+ "num": 613,
+ "key": "mix-G1-024-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T16:42:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/us-announces-8-billion-fuel-aid-for-farmers-during-harvest-peak",
+ "origTitle": "",
+ "headline": "트럼프, 수확기 농가 디젤 비용 보전 80억 달러 지원…농무부 일회성 지급",
+ "src": [
+  {
+   "o": "더힐",
+   "d": "2026-10-20",
+   "u": "https://thehill.com/homenews/administration/6159427-trump-announces-8-billion-harvest-relief/"
+  },
+  {
+   "o": "팜프로그레스",
+   "d": "2026-10-20",
+   "u": "https://www.farmprogress.com/farm-policy/trump-announces-8-billion-for-farm-diesel-relief"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 수확기 80억 달러 연료 지원으로 농민 표심 공략",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/us-announces-8-billion-fuel-aid-for-farmers-during-harvest-peak",
+   "s": "트럼프 대통령이 수확기 농가에 80억 달러 연료 지원을 내놓으면서, 디젤값 급등에 시달리는 농가의 비용 부담을 덜고 중간선거 표심을 겨냥했다"
+  },
+  {
+   "t": "트럼프 '디젤 비용 상쇄할 80억 달러 농가 지원 프로그램 시작'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/us/us-launch-8-billion-support-program-farmers-offset-diesel-costs-trump-says-2026-10-20/",
+   "s": "미국이 디젤 비용을 상쇄하는 80억 달러 농가 지원 프로그램을 시작하면서, 농무부가 작부 면적 기준 추정 손실에 비례해 일회성으로 지급한다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "트럼프, 수확기 농가 디젤 비용 보전 80억 달러 지원…농무부 일회성 지급",
+ "one": "트럼프 대통령이 수확기 디젤값 급등을 보전하는 80억 달러 농가 지원을 발표했다\n· 농무부는 수확기 연료 지원 프로그램으로 상품신용공사 재원을 써 일회성 지급을 한다\n· 지급액은 2026년 작부 면적과 생산비 등으로 추정한 손실에 비례해 정해진다\n· 경유 전국 평균 가격은 갤런당 약 6.32달러로 9월 사상 최고 뒤에도 높은 수준이다",
+ "facts": [
+  "무엇이: 트럼프 대통령은 10월 19일 캔자스 유세에서 수확기 디젤 비용을 보전하는 80억 달러 농가 지원을 발표했다 [사실]",
+  "방식: 농무부 농업서비스청이 상품신용공사 재원으로 2026년 작부 추정 손실에 비례한 일회성 지급을 하며, 품목별 단가는 11월 발표 예정이고 작물보험 가입은 조건이 아니다 [사실]",
+  "배경: 디젤 전국 평균 가격은 갤런당 약 6.32달러로 9월 사상 최고 뒤에도 높았고, 앞서 농가 가교 지원으로 120억 달러가 지급됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "80억 달러 규모·지급 방식은 검색 결과 요약(더힐·팜프로그레스·텍사스 농업인연맹)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "농가 디젤 비용 보전 80억 달러 지출"
+  },
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "경유 갤런당 약 6.32달러로 농가 연료비 부담"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

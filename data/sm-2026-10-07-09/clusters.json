@@ -1,0 +1,3393 @@
+{
+ "clusters": [
+  {
+   "cid": "C001",
+   "theme": "프랑스 국채·재정 위기와 ECB 개입 논쟁",
+   "field": "rates",
+   "attachTo": "n-tg-0183",
+   "lines": [
+    2,
+    70,
+    91,
+    121,
+    130,
+    186,
+    567,
+    675,
+    122,
+    191,
+    268,
+    616,
+    353,
+    475,
+    611,
+    702
+   ]
+  },
+  {
+   "cid": "C002",
+   "theme": "미·이란 협상·공습 위협",
+   "field": "geo",
+   "attachTo": "n-tg-0195",
+   "lines": [
+    51,
+    179,
+    298,
+    343,
+    362,
+    605,
+    694,
+    720
+   ]
+  },
+  {
+   "cid": "C003",
+   "theme": "아프리카 금리·물가",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    196,
+    239,
+    352,
+    411,
+    444,
+    599,
+    633,
+    719
+   ]
+  },
+  {
+   "cid": "C004",
+   "theme": "데이터센터 전력난·지역 반발",
+   "field": "ai",
+   "attachTo": "n-tg-0127",
+   "lines": [
+    49,
+    113,
+    184,
+    222,
+    301,
+    406,
+    661
+   ]
+  },
+  {
+   "cid": "C005",
+   "theme": "미·글로벌 국채 금리 급등",
+   "field": "rates",
+   "attachTo": "n-bbg-0101",
+   "lines": [
+    56,
+    214,
+    227,
+    286,
+    290,
+    339,
+    546,
+    111,
+    145,
+    193,
+    249,
+    523,
+    590,
+    608,
+    234,
+    367,
+    553
+   ]
+  },
+  {
+   "cid": "C006",
+   "theme": "EU·중국 무역협의와 하이브리드차 쿼터",
+   "field": "trade",
+   "attachTo": "n-tg-0132",
+   "lines": [
+    93,
+    143,
+    307,
+    331,
+    473,
+    578,
+    620
+   ]
+  },
+  {
+   "cid": "C007",
+   "theme": "독일 경기 반등·성장률 상향",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    101,
+    273,
+    400,
+    488,
+    490,
+    646,
+    647
+   ]
+  },
+  {
+   "cid": "C009",
+   "theme": "신흥국 IMF 지원·채무 재조정",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    131,
+    371,
+    374,
+    528,
+    663,
+    693,
+    708
+   ]
+  },
+  {
+   "cid": "C010",
+   "theme": "AI 소송·안전 규제",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    146,
+    326,
+    333,
+    393,
+    570,
+    580,
+    586
+   ]
+  },
+  {
+   "cid": "C011",
+   "theme": "스페이스X 스타링크 주파수·위성통신",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    27,
+    198,
+    246,
+    312,
+    510,
+    593
+   ]
+  },
+  {
+   "cid": "C012",
+   "theme": "영국 금리·재정·가계 부담",
+   "field": "rates",
+   "attachTo": "n-tg-0129",
+   "lines": [
+    71,
+    189,
+    391,
+    403,
+    468,
+    628,
+    422,
+    458,
+    464,
+    492,
+    677,
+    99,
+    156,
+    207,
+    472,
+    530,
+    667
+   ]
+  },
+  {
+   "cid": "C013",
+   "theme": "금 가격·수입세·금 허브",
+   "field": "metals",
+   "attachTo": "n-tg-0124",
+   "lines": [
+    72,
+    255,
+    283,
+    296,
+    305,
+    682
+   ]
+  },
+  {
+   "cid": "C014",
+   "theme": "ECB 인사 발언·의사록·후임 경쟁",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    92,
+    110,
+    119,
+    250,
+    484,
+    486,
+    83,
+    425,
+    427,
+    59,
+    182,
+    372
+   ]
+  },
+  {
+   "cid": "C016",
+   "theme": "사모신용 스트레스·환매 제한",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    114,
+    116,
+    229,
+    271,
+    342,
+    355
+   ]
+  },
+  {
+   "cid": "C018",
+   "theme": "인도 금리 인상·루피 약세·물가",
+   "field": "rates",
+   "attachTo": "n-tg-0125",
+   "lines": [
+    139,
+    216,
+    233,
+    278,
+    493,
+    651,
+    144,
+    251,
+    287,
+    460,
+    652,
+    654,
+    206,
+    509,
+    624,
+    100,
+    501
+   ]
+  },
+  {
+   "cid": "C020",
+   "theme": "사우디 주도 대후티 반격·주변국 지원",
+   "field": "geo",
+   "attachTo": "n-tg-0112",
+   "lines": [
+    244,
+    314,
+    359,
+    380,
+    497,
+    600
+   ]
+  },
+  {
+   "cid": "C021",
+   "theme": "호르무즈 유조선 공격·운임 급등",
+   "field": "geo",
+   "attachTo": "n-tg-0202",
+   "lines": [
+    270,
+    379,
+    423,
+    424,
+    522,
+    615,
+    127,
+    192,
+    225,
+    289,
+    451,
+    649
+   ]
+  },
+  {
+   "cid": "C022",
+   "theme": "파라마운트·워너브러더스 인수",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    24,
+    35,
+    150,
+    188,
+    220
+   ]
+  },
+  {
+   "cid": "C023",
+   "theme": "중남미 금리·물가",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    26,
+    75,
+    87,
+    155,
+    241
+   ]
+  },
+  {
+   "cid": "C024",
+   "theme": "브라질 대선·차기 정부",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    41,
+    53,
+    67,
+    334,
+    545
+   ]
+  },
+  {
+   "cid": "C025",
+   "theme": "중동부 유럽 금리·정치",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    62,
+    105,
+    141,
+    201,
+    263
+   ]
+  },
+  {
+   "cid": "C026",
+   "theme": "AI 거품 경고",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    64,
+    129,
+    174,
+    187,
+    627
+   ]
+  },
+  {
+   "cid": "C028",
+   "theme": "과잉생산 대응 공동성명·수입 규제",
+   "field": "trade",
+   "attachTo": "n-tg-0153",
+   "lines": [
+    90,
+    169,
+    172,
+    573,
+    629
+   ]
+  },
+  {
+   "cid": "C029",
+   "theme": "AI가 이끄는 세계 교역",
+   "field": "trade",
+   "attachTo": "n-tg-0122",
+   "lines": [
+    137,
+    219,
+    428,
+    469,
+    474
+   ]
+  },
+  {
+   "cid": "C030",
+   "theme": "일본 금리·재정·엔화·경기",
+   "field": "rates",
+   "attachTo": "n-bbg-0082",
+   "lines": [
+    140,
+    322,
+    485,
+    515,
+    691,
+    316,
+    508,
+    690,
+    173,
+    309,
+    21,
+    324,
+    692
+   ]
+  },
+  {
+   "cid": "C031",
+   "theme": "흑해 선박 공격",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    194,
+    414,
+    418,
+    467,
+    659
+   ]
+  },
+  {
+   "cid": "C032",
+   "theme": "AI발 감원",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    265,
+    321,
+    405,
+    602,
+    660
+   ]
+  },
+  {
+   "cid": "C033",
+   "theme": "유가·석유 재고·제품 수급",
+   "field": "energy",
+   "attachTo": "n-tg-0203",
+   "lines": [
+    299,
+    348,
+    527,
+    556,
+    589,
+    85,
+    317,
+    453,
+    636,
+    681,
+    118,
+    281,
+    291
+   ]
+  },
+  {
+   "cid": "C035",
+   "theme": "바이오·의료기기 IPO",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    11,
+    117,
+    365,
+    532
+   ]
+  },
+  {
+   "cid": "C036",
+   "theme": "초강력 엘니뇨",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    33,
+    370,
+    384,
+    489
+   ]
+  },
+  {
+   "cid": "C037",
+   "theme": "EU 재정준칙 유연성 논쟁",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    37,
+    347,
+    442,
+    625
+   ]
+  },
+  {
+   "cid": "C038",
+   "theme": "예측시장 규제·상품 확대",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    46,
+    209,
+    320,
+    706
+   ]
+  },
+  {
+   "cid": "C039",
+   "theme": "항공사 연료비 부담",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    48,
+    230,
+    445,
+    658
+   ]
+  },
+  {
+   "cid": "C040",
+   "theme": "후티의 사우디 공격·항공편 중단",
+   "field": "geo",
+   "attachTo": "n-tg-0194",
+   "lines": [
+    68,
+    376,
+    478,
+    613
+   ]
+  },
+  {
+   "cid": "C041",
+   "theme": "우크라 드론의 러시아 정유·기반시설 타격",
+   "field": "energy",
+   "attachTo": "n-tg-0197",
+   "lines": [
+    84,
+    382,
+    398,
+    575
+   ]
+  },
+  {
+   "cid": "C042",
+   "theme": "중동 원유 수출 회복·우회로",
+   "field": "energy",
+   "attachTo": "n-tg-0116",
+   "lines": [
+    112,
+    123,
+    199,
+    208
+   ]
+  },
+  {
+   "cid": "C044",
+   "theme": "베네수엘라 석유·경제",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    181,
+    204,
+    266,
+    716,
+    42,
+    338
+   ]
+  },
+  {
+   "cid": "C045",
+   "theme": "태국 경제·통화정책",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    203,
+    487,
+    511,
+    514
+   ]
+  },
+  {
+   "cid": "C046",
+   "theme": "남아공 경제·정책",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    235,
+    410,
+    417,
+    449
+   ]
+  },
+  {
+   "cid": "C047",
+   "theme": "유로 약세·달러 강세",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    258,
+    308,
+    360,
+    459
+   ]
+  },
+  {
+   "cid": "C048",
+   "theme": "포르쉐 구조조정·가격 인상",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    275,
+    597,
+    619,
+    670
+   ]
+  },
+  {
+   "cid": "C049",
+   "theme": "연준 의사록·인사 발언",
+   "field": "rates",
+   "attachTo": "n-tg-0209",
+   "lines": [
+    341,
+    538,
+    539,
+    713
+   ]
+  },
+  {
+   "cid": "C051",
+   "theme": "대러 제재·러시아 철수 기업",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    9,
+    397,
+    562
+   ]
+  },
+  {
+   "cid": "C052",
+   "theme": "구리 가격·칠레 센티넬라 파업",
+   "field": "metals",
+   "attachTo": "n-bbg-0085",
+   "lines": [
+    14,
+    280,
+    535
+   ]
+  },
+  {
+   "cid": "C053",
+   "theme": "인도 IT 실적·성장 전망",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    18,
+    98,
+    304
+   ]
+  },
+  {
+   "cid": "C054",
+   "theme": "일본 자본시장(IPO·지수·채권 발행)",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    19,
+    25,
+    279
+   ]
+  },
+  {
+   "cid": "C055",
+   "theme": "AI 부품 공급 부족·칩주 수혜",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    20,
+    86,
+    134
+   ]
+  },
+  {
+   "cid": "C057",
+   "theme": "사모시장 구조 변화",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    36,
+    215,
+    226
+   ]
+  },
+  {
+   "cid": "C059",
+   "theme": "미 고용·경기 지표",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    74,
+    390,
+    409
+   ]
+  },
+  {
+   "cid": "C061",
+   "theme": "펩시코 실적·전략",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    103,
+    408,
+    596
+   ]
+  },
+  {
+   "cid": "C063",
+   "theme": "테스코 실적·전망",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    128,
+    439,
+    476
+   ]
+  },
+  {
+   "cid": "C064",
+   "theme": "중국차의 유럽 공세",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    135,
+    292,
+    483
+   ]
+  },
+  {
+   "cid": "C065",
+   "theme": "SNS 청소년 안전 소송",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    153,
+    524,
+    560
+   ]
+  },
+  {
+   "cid": "C066",
+   "theme": "미·EU 메탄 규제 완화·연기",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    175,
+    496,
+    712
+   ]
+  },
+  {
+   "cid": "C067",
+   "theme": "미 연료비 대책(중간선거)",
+   "field": "energy",
+   "attachTo": "n-tg-0130",
+   "lines": [
+    200,
+    705,
+    711
+   ]
+  },
+  {
+   "cid": "C070",
+   "theme": "미·캐나다 관세 갈등",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    243,
+    440,
+    563
+   ]
+  },
+  {
+   "cid": "C071",
+   "theme": "암호화폐 시장·제도",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    245,
+    361,
+    495
+   ]
+  },
+  {
+   "cid": "C073",
+   "theme": "우크라이나 평화협상",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    344,
+    351,
+    420
+   ]
+  },
+  {
+   "cid": "C074",
+   "theme": "미국 무기 수출",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    350,
+    413,
+    426
+   ]
+  },
+  {
+   "cid": "C075",
+   "theme": "앵글로아메리칸 니켈 매각·EU 심사",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    378,
+    550,
+    555
+   ]
+  },
+  {
+   "cid": "C076",
+   "theme": "테슬라 FSD 유럽 승인",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    456,
+    521,
+    631
+   ]
+  },
+  {
+   "cid": "C077",
+   "theme": "인도네시아 투자 유치·재정",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    462,
+    465,
+    513
+   ]
+  },
+  {
+   "cid": "C078",
+   "theme": "지오 IPO",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    3,
+    136
+   ]
+  },
+  {
+   "cid": "C079",
+   "theme": "글렌코어 호주 상장",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    4,
+    297
+   ]
+  },
+  {
+   "cid": "C080",
+   "theme": "철광석 약세·포테스큐",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    7,
+    158
+   ]
+  },
+  {
+   "cid": "C081",
+   "theme": "PAG, 헝다 자회사 인수 협상",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    13,
+    302
+   ]
+  },
+  {
+   "cid": "C082",
+   "theme": "필리핀 국채",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    15,
+    151
+   ]
+  },
+  {
+   "cid": "C083",
+   "theme": "니덱 주가 급락·매각 압박",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    16,
+    238
+   ]
+  },
+  {
+   "cid": "C084",
+   "theme": "오픈AI 매출 전망",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    17,
+    315
+   ]
+  },
+  {
+   "cid": "C085",
+   "theme": "메타, 바이트댄스 광고 금지",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    22,
+    306
+   ]
+  },
+  {
+   "cid": "C086",
+   "theme": "애플 M&A 책임자 교체",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    38,
+    345
+   ]
+  },
+  {
+   "cid": "C088",
+   "theme": "레볼루트 미국 상장 추진",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    52,
+    373
+   ]
+  },
+  {
+   "cid": "C089",
+   "theme": "제인스트리트 인도 조사",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    55,
+    253
+   ]
+  },
+  {
+   "cid": "C090",
+   "theme": "마이크로소프트·인도 기업 비자 프로그램 배제",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    57,
+    336
+   ]
+  },
+  {
+   "cid": "C091",
+   "theme": "스타벅스의 치폴레 인수 검토",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    60,
+    325
+   ]
+  },
+  {
+   "cid": "C092",
+   "theme": "미 은행 3분기 실적 전망",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    61,
+    452
+   ]
+  },
+  {
+   "cid": "C093",
+   "theme": "독일의 GCAP 전투기 참여",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    76,
+    399
+   ]
+  },
+  {
+   "cid": "C094",
+   "theme": "미 중간선거와 AI·방산주",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    78,
+    167
+   ]
+  },
+  {
+   "cid": "C095",
+   "theme": "앤트로픽 IPO",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    81,
+    564
+   ]
+  },
+  {
+   "cid": "C096",
+   "theme": "데본, 이글포드 자산 크레센트에 매각",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    88,
+    387
+   ]
+  },
+  {
+   "cid": "C097",
+   "theme": "CH로빈슨 RXO 인수·물류 통합",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    96,
+    695
+   ]
+  },
+  {
+   "cid": "C099",
+   "theme": "헝가리 에너지 요금 개편",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    102,
+    466
+   ]
+  },
+  {
+   "cid": "C100",
+   "theme": "홍콩, 부실 상장사 규제 강화",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    107,
+    357
+   ]
+  },
+  {
+   "cid": "C101",
+   "theme": "보다폰 영국 비용 절감 목표 상향",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    120,
+    502
+   ]
+  },
+  {
+   "cid": "C102",
+   "theme": "임페리얼 브랜즈 자사주 매입",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    126,
+    500
+   ]
+  },
+  {
+   "cid": "C103",
+   "theme": "고유가에 전기차 전환 가속",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    133,
+    310
+   ]
+  },
+  {
+   "cid": "C104",
+   "theme": "한국, 무인가 외국은행 채권 주선 금지 검토",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    138,
+    481
+   ]
+  },
+  {
+   "cid": "C105",
+   "theme": "엔비디아 투자 Firmus IPO 난항",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    149,
+    288
+   ]
+  },
+  {
+   "cid": "C106",
+   "theme": "LG에너지솔루션 3분기 최대 실적",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    152,
+    529
+   ]
+  },
+  {
+   "cid": "C107",
+   "theme": "블루 오리진 IPO",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    154,
+    385
+   ]
+  },
+  {
+   "cid": "C108",
+   "theme": "삼성·TSMC 실적과 주가 반응",
+   "field": "semis",
+   "attachTo": "n-tg-0136",
+   "lines": [
+    157,
+    284
+   ]
+  },
+  {
+   "cid": "C109",
+   "theme": "트럼프 AI 정책 책임자 행보",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    159,
+    354
+   ]
+  },
+  {
+   "cid": "C110",
+   "theme": "룰루레몬 경영진 개편",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    162,
+    541
+   ]
+  },
+  {
+   "cid": "C111",
+   "theme": "리바이스 실적",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    164,
+    536
+   ]
+  },
+  {
+   "cid": "C113",
+   "theme": "SEC, 기후 행동주의 압박",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    178,
+    525
+   ]
+  },
+  {
+   "cid": "C114",
+   "theme": "머크 키트루다 피하주사 유럽 차단",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    202,
+    559
+   ]
+  },
+  {
+   "cid": "C115",
+   "theme": "웨스턴 가문, 부츠 89억 달러 인수",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    205,
+    534
+   ]
+  },
+  {
+   "cid": "C116",
+   "theme": "러시아 전비 지출",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    223,
+    256
+   ]
+  },
+  {
+   "cid": "C117",
+   "theme": "프랑스 와인 생산 급감",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    228,
+    640
+   ]
+  },
+  {
+   "cid": "C118",
+   "theme": "쿠바 에너지 위기",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    232,
+    554
+   ]
+  },
+  {
+   "cid": "C119",
+   "theme": "로열메일 감원",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    240,
+    583
+   ]
+  },
+  {
+   "cid": "C120",
+   "theme": "유니퍼 매각 입찰",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    252,
+    581
+   ]
+  },
+  {
+   "cid": "C121",
+   "theme": "텅스텐 광산 IPO",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    254,
+    262
+   ]
+  },
+  {
+   "cid": "C122",
+   "theme": "북유럽 금리(아이슬란드·스웨덴)",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    257,
+    272
+   ]
+  },
+  {
+   "cid": "C123",
+   "theme": "페넌(사우스웨스트워터) 유상증자",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    264,
+    637
+   ]
+  },
+  {
+   "cid": "C124",
+   "theme": "노르웨이 예산",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    269,
+    664
+   ]
+  },
+  {
+   "cid": "C125",
+   "theme": "IMF 총재 'AI·유가·부채' 위험 경고",
+   "field": "macro",
+   "attachTo": "n-bbg-0093",
+   "lines": [
+    274,
+    653
+   ]
+  },
+  {
+   "cid": "C126",
+   "theme": "이라크 디나르 평가절하",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    276,
+    639
+   ]
+  },
+  {
+   "cid": "C127",
+   "theme": "네덜란드 정부 ABN암로 지분 축소",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    277,
+    591
+   ]
+  },
+  {
+   "cid": "C128",
+   "theme": "재규어 전기차 리부트",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    282,
+    622
+   ]
+  },
+  {
+   "cid": "C129",
+   "theme": "명품 소비 둔화",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    294,
+    666
+   ]
+  },
+  {
+   "cid": "C130",
+   "theme": "카타르 LNG·GTL 재가동",
+   "field": "energy",
+   "attachTo": "n-bbg-0099",
+   "lines": [
+    295,
+    594
+   ]
+  },
+  {
+   "cid": "C131",
+   "theme": "미국의 중국 기술 보안 조치",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    303,
+    551
+   ]
+  },
+  {
+   "cid": "C132",
+   "theme": "케네디 장관 백신 정책",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    329,
+    703
+   ]
+  },
+  {
+   "cid": "C133",
+   "theme": "캐나다 달러",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    368,
+    714
+   ]
+  },
+  {
+   "cid": "C134",
+   "theme": "에어버스 인도·수주",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    375,
+    579
+   ]
+  },
+  {
+   "cid": "C135",
+   "theme": "이탈리아 금융권 재편",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    381,
+    463
+   ]
+  },
+  {
+   "cid": "C136",
+   "theme": "낙태약 규제",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    402,
+    421
+   ]
+  },
+  {
+   "cid": "C137",
+   "theme": "튀르키예 펀드 위기",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    438,
+    710
+   ]
+  },
+  {
+   "cid": "C138",
+   "theme": "태국 홍수 산업 피해",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    482,
+    673
+   ]
+  },
+  {
+   "cid": "C139",
+   "theme": "대만 안보",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    491,
+    526
+   ]
+  },
+  {
+   "cid": "C140",
+   "theme": "에퀴노르 동향",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    499,
+    672
+   ]
+  },
+  {
+   "cid": "C141",
+   "theme": "미·동남아 무역협정 타결",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    512,
+    614
+   ]
+  },
+  {
+   "cid": "C142",
+   "theme": "아프리카 국가 신용등급",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    576,
+    609
+   ]
+  },
+  {
+   "cid": "C143",
+   "theme": "베트남 물가·은행 자금 조달",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    592,
+    643
+   ]
+  },
+  {
+   "cid": "C144",
+   "theme": "에티오피아·에리트레아 긴장과 홍해 해운",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    1
+   ]
+  },
+  {
+   "cid": "C145",
+   "theme": "우즈베크 핀테크 우줌 유로본드 추진",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    5
+   ]
+  },
+  {
+   "cid": "C146",
+   "theme": "에어텔 머니 런던 상장",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    6
+   ]
+  },
+  {
+   "cid": "C147",
+   "theme": "호주 LNG 국내 공급 확대안",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    8
+   ]
+  },
+  {
+   "cid": "C148",
+   "theme": "에코뱅크 위안화 결제",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    10
+   ]
+  },
+  {
+   "cid": "C149",
+   "theme": "샤오미 SUV 주문 호조에 주가 급등",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    12
+   ]
+  },
+  {
+   "cid": "C150",
+   "theme": "AI 부채 급증에 기술기업 채권 재평가",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    23
+   ]
+  },
+  {
+   "cid": "C151",
+   "theme": "휴매나, 메디케어 등급 상향에 급등",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    28
+   ]
+  },
+  {
+   "cid": "C152",
+   "theme": "라마스와미 원전 스타트업 투자 유치",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    29
+   ]
+  },
+  {
+   "cid": "C153",
+   "theme": "트럼프 관세 환급 소송 확대",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    30
+   ]
+  },
+  {
+   "cid": "C154",
+   "theme": "테일러팜스 멕시코산 양상추 중단",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    31
+   ]
+  },
+  {
+   "cid": "C155",
+   "theme": "킨더모건 미·멕시코 가스관 불가항력 해제",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    32
+   ]
+  },
+  {
+   "cid": "C156",
+   "theme": "미 재무부 ETF 세금 경고",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    34
+   ]
+  },
+  {
+   "cid": "C157",
+   "theme": "오릭스 에너지스 경영진 인수",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    39
+   ]
+  },
+  {
+   "cid": "C158",
+   "theme": "미 제재 기업인, 짐바브웨 투자장관 임명",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    40
+   ]
+  },
+  {
+   "cid": "C159",
+   "theme": "PG&E 강풍에 주말 단전 경고",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    43
+   ]
+  },
+  {
+   "cid": "C160",
+   "theme": "FTC, 블록 계좌 동결 조사",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    44
+   ]
+  },
+  {
+   "cid": "C161",
+   "theme": "CBO 국장 '성장으로 미 부채 해결 어려워'",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    45
+   ]
+  },
+  {
+   "cid": "C162",
+   "theme": "칼라일 루코일 해외자산 인수 무산",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    47
+   ]
+  },
+  {
+   "cid": "C163",
+   "theme": "마에스트로 브레이크 결함에 주가 하락",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    50
+   ]
+  },
+  {
+   "cid": "C164",
+   "theme": "무브, 나이지리아 철수",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    54
+   ]
+  },
+  {
+   "cid": "C165",
+   "theme": "미시간주, 블루크로스 독점 소송",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    58
+   ]
+  },
+  {
+   "cid": "C166",
+   "theme": "블랙스톤 H&R 리츠 분할안 반대",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    63
+   ]
+  },
+  {
+   "cid": "C167",
+   "theme": "동남아 M&A 활황",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    65
+   ]
+  },
+  {
+   "cid": "C168",
+   "theme": "루비오, 유럽에 대중 의존 축소 촉구",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    66
+   ]
+  },
+  {
+   "cid": "C169",
+   "theme": "코메르츠방크 타워 자금난",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    73
+   ]
+  },
+  {
+   "cid": "C170",
+   "theme": "벨론 유럽 IPO 주관사 선정",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    77
+   ]
+  },
+  {
+   "cid": "C171",
+   "theme": "엑스박스 영화·TV 사업부 신설",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    79
+   ]
+  },
+  {
+   "cid": "C172",
+   "theme": "그리핀의 마이애미 부동산 거래",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    80
+   ]
+  },
+  {
+   "cid": "C173",
+   "theme": "카타르 QNB 25억 달러 대출",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    82
+   ]
+  },
+  {
+   "cid": "C174",
+   "theme": "중국 부양책과 불균형",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    89
+   ]
+  },
+  {
+   "cid": "C175",
+   "theme": "라이언에어·루프트한자 조종사 점검 위험",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    94
+   ]
+  },
+  {
+   "cid": "C176",
+   "theme": "바레인 국채 매도",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    95
+   ]
+  },
+  {
+   "cid": "C177",
+   "theme": "플립카트 전 임원들, 월마트에 스톡옵션 매입 요구",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    97
+   ]
+  },
+  {
+   "cid": "C178",
+   "theme": "마다가스카르, 러시아와 전력설비 수의계약",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    104
+   ]
+  },
+  {
+   "cid": "C179",
+   "theme": "미 상원 인허가 개혁 합의 비판",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    106
+   ]
+  },
+  {
+   "cid": "C180",
+   "theme": "인도 대법원, 제약 판촉 관행 검토",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    108
+   ]
+  },
+  {
+   "cid": "C181",
+   "theme": "핼러도어, 인디애나 전력회사와 6.9억 달러 계약",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    109
+   ]
+  },
+  {
+   "cid": "C182",
+   "theme": "코인베이스의 은행 고객 전략",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    124
+   ]
+  },
+  {
+   "cid": "C183",
+   "theme": "아시아 밀 수입사 선매입 축소",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    148
+   ]
+  },
+  {
+   "cid": "C184",
+   "theme": "프라임 테라퓨틱스 약가 모델",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    165
+   ]
+  },
+  {
+   "cid": "C185",
+   "theme": "퍼스트브랜즈 형제 재판",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    166
+   ]
+  },
+  {
+   "cid": "C186",
+   "theme": "아르헨티나 기술적 경기침체 조짐",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    168
+   ]
+  },
+  {
+   "cid": "C187",
+   "theme": "UPS 실수로 F-35 부품 중국 유출",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    171
+   ]
+  },
+  {
+   "cid": "C188",
+   "theme": "허츠 대주단 채무 분쟁 대비",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    176
+   ]
+  },
+  {
+   "cid": "C189",
+   "theme": "캐나다 외국인 주택 구매 금지 재검토",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    180
+   ]
+  },
+  {
+   "cid": "C190",
+   "theme": "힌지헬스 하드웨어 인수 구상",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    183
+   ]
+  },
+  {
+   "cid": "C191",
+   "theme": "AMC 부채 재조정",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    185
+   ]
+  },
+  {
+   "cid": "C192",
+   "theme": "AI 대형 IPO에 사모펀드 회수 밀려",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    190
+   ]
+  },
+  {
+   "cid": "C193",
+   "theme": "미 농기계 시장 조사에 관련주 급락",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    195
+   ]
+  },
+  {
+   "cid": "C194",
+   "theme": "허리케인 이사야스 강해져 멕시코만 생산 중단",
+   "field": "energy",
+   "attachTo": "n-tg-0187",
+   "lines": [
+    197
+   ]
+  },
+  {
+   "cid": "C195",
+   "theme": "멕시코 회사채 발행 사상 최대",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    210
+   ]
+  },
+  {
+   "cid": "C196",
+   "theme": "SK하이닉스 보호예수 해제와 ADR 프리미엄",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    212
+   ]
+  },
+  {
+   "cid": "C197",
+   "theme": "영국 풍력 최대에도 가스 의존",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    217
+   ]
+  },
+  {
+   "cid": "C198",
+   "theme": "유럽 방산 붐, 에너지 기술 자금원으로",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    218
+   ]
+  },
+  {
+   "cid": "C199",
+   "theme": "텍사스 로드하우스 매수 의견",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    221
+   ]
+  },
+  {
+   "cid": "C200",
+   "theme": "세레반스 파킨슨병 신약 3상 성공",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    224
+   ]
+  },
+  {
+   "cid": "C201",
+   "theme": "남아공 경쟁당국, 프리미어-RFG 합병 취소 추진",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    231
+   ]
+  },
+  {
+   "cid": "C202",
+   "theme": "이민 단속에 학자금 대출사 파산",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    236
+   ]
+  },
+  {
+   "cid": "C203",
+   "theme": "가민 사상 최고가",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    242
+   ]
+  },
+  {
+   "cid": "C204",
+   "theme": "항셍테크 지수 50종목으로 확대",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    247
+   ]
+  },
+  {
+   "cid": "C205",
+   "theme": "나파밸리 고급 와인 저가 판매",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    248
+   ]
+  },
+  {
+   "cid": "C206",
+   "theme": "상하이 앨리스트, 파트너 임상 실패에 급락",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    259
+   ]
+  },
+  {
+   "cid": "C207",
+   "theme": "폭스바겐 영국 자동차금융 보상 충당금",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    261
+   ]
+  },
+  {
+   "cid": "C208",
+   "theme": "프레이저스, 언더아머 지분 8.8% 확보",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    267
+   ]
+  },
+  {
+   "cid": "C209",
+   "theme": "FTSE 러셀, 튀르키예 선진신흥국 지위 유지",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    285
+   ]
+  },
+  {
+   "cid": "C210",
+   "theme": "싱가포르 통화 긴축 전망",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    300
+   ]
+  },
+  {
+   "cid": "C211",
+   "theme": "한국 극초음속 미사일 시험",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    311
+   ]
+  },
+  {
+   "cid": "C212",
+   "theme": "코카콜라, 코스타 커피 매각 추진",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    313
+   ]
+  },
+  {
+   "cid": "C213",
+   "theme": "맥도날드 AI 가격 책정 소송",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    318
+   ]
+  },
+  {
+   "cid": "C214",
+   "theme": "아멕스 은행 자금세탁 방지 미흡 벌금",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    319
+   ]
+  },
+  {
+   "cid": "C215",
+   "theme": "콜롬비아, 쯔진 광산 보안 위험 축소 지적",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    323
+   ]
+  },
+  {
+   "cid": "C216",
+   "theme": "사우스웨스트, 보잉 787 장거리 노선 검토",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    327
+   ]
+  },
+  {
+   "cid": "C217",
+   "theme": "구글의 스피릿항공 데이터 인수 우려",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    328
+   ]
+  },
+  {
+   "cid": "C218",
+   "theme": "킹스팬 EU 벌금",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    330
+   ]
+  },
+  {
+   "cid": "C219",
+   "theme": "레프레스코 IPO 추진",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    332
+   ]
+  },
+  {
+   "cid": "C220",
+   "theme": "아소스 고객정보 유출",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    335
+   ]
+  },
+  {
+   "cid": "C221",
+   "theme": "레이시온 미사일 계약 수주",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    337
+   ]
+  },
+  {
+   "cid": "C222",
+   "theme": "아젠엑스 비브가트 임상 중단에 급락",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    340
+   ]
+  },
+  {
+   "cid": "C223",
+   "theme": "벤처글로벌, 갈프와의 LNG 계약 위반 판정",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    346
+   ]
+  },
+  {
+   "cid": "C224",
+   "theme": "영국 디젤 배출 소송 항소 기각",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    349
+   ]
+  },
+  {
+   "cid": "C225",
+   "theme": "딜로이트 영국 회계감사 벌금",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    356
+   ]
+  },
+  {
+   "cid": "C226",
+   "theme": "악조노벨·액설타 합병 조건부 승인 전망",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    358
+   ]
+  },
+  {
+   "cid": "C227",
+   "theme": "모로코·이스라엘 방산업체 MMI 포탑 납품",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    363
+   ]
+  },
+  {
+   "cid": "C228",
+   "theme": "글라우코스 안질환 치료 3상 결과",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    364
+   ]
+  },
+  {
+   "cid": "C229",
+   "theme": "FDA, 뉴론 조현병 신약 임상 보류",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    366
+   ]
+  },
+  {
+   "cid": "C230",
+   "theme": "한국, 주우크라이나 대사 소환",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    369
+   ]
+  },
+  {
+   "cid": "C231",
+   "theme": "나이지리아 휘발유 가격 상한제",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    377
+   ]
+  },
+  {
+   "cid": "C232",
+   "theme": "트레비, 웨빌드 인수가 평가",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    386
+   ]
+  },
+  {
+   "cid": "C233",
+   "theme": "아우디 공장 폐쇄 위기",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    388
+   ]
+  },
+  {
+   "cid": "C234",
+   "theme": "보스턴사이언티픽, J&J 특허 소송",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    389
+   ]
+  },
+  {
+   "cid": "C235",
+   "theme": "덴마크 '러시아, 방산업체 사보타주'",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    392
+   ]
+  },
+  {
+   "cid": "C236",
+   "theme": "쿠팡, 개인정보 유출 과징금 불복 소송",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    395
+   ]
+  },
+  {
+   "cid": "C237",
+   "theme": "싱가포르 세비오라 자산운용사 통합",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    401
+   ]
+  },
+  {
+   "cid": "C238",
+   "theme": "미 농가 부채 사상 최대",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    404
+   ]
+  },
+  {
+   "cid": "C239",
+   "theme": "비아트리스, 퍼시라 인수",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    407
+   ]
+  },
+  {
+   "cid": "C240",
+   "theme": "NESR·아람코 사우디 리튬 사업",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    412
+   ]
+  },
+  {
+   "cid": "C241",
+   "theme": "에너지돔 자금 유치·IPO 검토",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    415
+   ]
+  },
+  {
+   "cid": "C242",
+   "theme": "모로코 항공우주 수출 전망",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    419
+   ]
+  },
+  {
+   "cid": "C243",
+   "theme": "아마존 안드로이드 태블릿 출시",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    429
+   ]
+  },
+  {
+   "cid": "C244",
+   "theme": "글로벌파운드리, TSMC 대신 AI 칩 부품 생산",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    430
+   ]
+  },
+  {
+   "cid": "C245",
+   "theme": "ASML·자이스 차세대 노광기술 10년 뒤",
+   "field": "semis",
+   "attachTo": "",
+   "lines": [
+    431
+   ]
+  },
+  {
+   "cid": "C246",
+   "theme": "폴스타 분기 판매와 미국 판매 금지 우려",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    432
+   ]
+  },
+  {
+   "cid": "C247",
+   "theme": "나발그룹 유럽 방산 공략",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    434
+   ]
+  },
+  {
+   "cid": "C248",
+   "theme": "인도 GST 처벌 규정 완화",
+   "field": "trade",
+   "attachTo": "",
+   "lines": [
+    437
+   ]
+  },
+  {
+   "cid": "C249",
+   "theme": "업스케일 AI 칩 연결 플랫폼 출시",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    441
+   ]
+  },
+  {
+   "cid": "C250",
+   "theme": "크레디아그리콜 독일 소매금융 진출",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    443
+   ]
+  },
+  {
+   "cid": "C251",
+   "theme": "루비오 '지중해 해저 전력망 지원'",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    446
+   ]
+  },
+  {
+   "cid": "C252",
+   "theme": "AI 붐이 호주 물가 자극",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    447
+   ]
+  },
+  {
+   "cid": "C253",
+   "theme": "이탈리아, MS 게임 자회사 조사",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    448
+   ]
+  },
+  {
+   "cid": "C254",
+   "theme": "멕시코 자동차 수출 급감(미 관세)",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    450
+   ]
+  },
+  {
+   "cid": "C255",
+   "theme": "잠비아·미국 광물 협정 협상",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    454
+   ]
+  },
+  {
+   "cid": "C256",
+   "theme": "캄파리 회장 탈세 기소 추진",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    455
+   ]
+  },
+  {
+   "cid": "C257",
+   "theme": "패스트리테일링 연간 이익 32% 증가",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    457
+   ]
+  },
+  {
+   "cid": "C258",
+   "theme": "ECB 분트슈, 은행 부담금 인상안 반대",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    461
+   ]
+  },
+  {
+   "cid": "C259",
+   "theme": "쥐트추커 상반기 매출",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    470
+   ]
+  },
+  {
+   "cid": "C260",
+   "theme": "화이자 이탈리아 감원",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    471
+   ]
+  },
+  {
+   "cid": "C261",
+   "theme": "가나 코코아 수매 자금 확보",
+   "field": "agri",
+   "attachTo": "",
+   "lines": [
+    477
+   ]
+  },
+  {
+   "cid": "C262",
+   "theme": "애버딘, 스탠다드라이프 지분 절반 매각",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    479
+   ]
+  },
+  {
+   "cid": "C263",
+   "theme": "인도 브리게이드 40억 달러 투자",
+   "field": "realestate",
+   "attachTo": "",
+   "lines": [
+    480
+   ]
+  },
+  {
+   "cid": "C264",
+   "theme": "세븐&아이 영업이익 11% 감소",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    494
+   ]
+  },
+  {
+   "cid": "C265",
+   "theme": "미·러, 유럽행 가스 판매 모색",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    498
+   ]
+  },
+  {
+   "cid": "C266",
+   "theme": "포비아 헬라 수주",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    503
+   ]
+  },
+  {
+   "cid": "C267",
+   "theme": "다임러트럭 3분기 판매 26% 증가",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    504
+   ]
+  },
+  {
+   "cid": "C268",
+   "theme": "미국, 미얀마 군정과 직접 대화",
+   "field": "geo",
+   "attachTo": "",
+   "lines": [
+    505
+   ]
+  },
+  {
+   "cid": "C269",
+   "theme": "인도 결제주, UPI 수수료 지연 보도에 하락",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    507
+   ]
+  },
+  {
+   "cid": "C270",
+   "theme": "크리스챤 디올 이사회 교체",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    516
+   ]
+  },
+  {
+   "cid": "C271",
+   "theme": "제약협회, 트럼프 행정부 제소",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    518
+   ]
+  },
+  {
+   "cid": "C272",
+   "theme": "프라이스라인 FTC 제재 위기",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    519
+   ]
+  },
+  {
+   "cid": "C273",
+   "theme": "오로라 자율주행 트럭 규제 면제",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    520
+   ]
+  },
+  {
+   "cid": "C274",
+   "theme": "웨불, 중국 연계 지적에 급락",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    531
+   ]
+  },
+  {
+   "cid": "C275",
+   "theme": "제너럴다이내믹스 차기 CEO",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    537
+   ]
+  },
+  {
+   "cid": "C276",
+   "theme": "어플라이드 디지털 매출 급증·적자 확대",
+   "field": "ai",
+   "attachTo": "",
+   "lines": [
+    540
+   ]
+  },
+  {
+   "cid": "C277",
+   "theme": "레볼루트 해킹 피해 보상",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    543
+   ]
+  },
+  {
+   "cid": "C278",
+   "theme": "UPS 연말 임시직 10만 명 채용",
+   "field": "shipping",
+   "attachTo": "",
+   "lines": [
+    544
+   ]
+  },
+  {
+   "cid": "C279",
+   "theme": "질랜드·로슈 비만약 2상 결과",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    547
+   ]
+  },
+  {
+   "cid": "C280",
+   "theme": "옴니브리지웨이 10억 달러 조달",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    548
+   ]
+  },
+  {
+   "cid": "C281",
+   "theme": "노바티스 피부질환약 적응증 확대",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    549
+   ]
+  },
+  {
+   "cid": "C282",
+   "theme": "탄자니아 금광 사망과 런던 정련사 인증",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    557
+   ]
+  },
+  {
+   "cid": "C283",
+   "theme": "엘리엇·시리스, 기가몬 매각 검토",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    558
+   ]
+  },
+  {
+   "cid": "C284",
+   "theme": "사우디, 플라이두바이 사고 조사",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    561
+   ]
+  },
+  {
+   "cid": "C285",
+   "theme": "브라질, 아메리칸항공의 아줄 투자 승인",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    566
+   ]
+  },
+  {
+   "cid": "C286",
+   "theme": "영국 헤드램 법정관리·상장폐지",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    568
+   ]
+  },
+  {
+   "cid": "C287",
+   "theme": "에어프로덕츠 말레이시아 LNG 기반 공기분리 설비",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    569
+   ]
+  },
+  {
+   "cid": "C288",
+   "theme": "OP모빌리티 목표 하향·감원",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    572
+   ]
+  },
+  {
+   "cid": "C289",
+   "theme": "웰스파고 규제 조사",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    574
+   ]
+  },
+  {
+   "cid": "C290",
+   "theme": "파이어플라이 로보틱스 나스닥 직상장",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    577
+   ]
+  },
+  {
+   "cid": "C291",
+   "theme": "로사톰, 델로 인수로 러시아 최대 물류그룹",
+   "field": "shipping",
+   "attachTo": "",
+   "lines": [
+    582
+   ]
+  },
+  {
+   "cid": "C292",
+   "theme": "서클8 스리 인수 기한 연장",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    585
+   ]
+  },
+  {
+   "cid": "C293",
+   "theme": "CFPB 검사 완화",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    587
+   ]
+  },
+  {
+   "cid": "C294",
+   "theme": "선파마 회사채 발행 검토",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    588
+   ]
+  },
+  {
+   "cid": "C295",
+   "theme": "WHO, 아동 비만에 GLP-1보다 생활습관 권고",
+   "field": "pharma",
+   "attachTo": "",
+   "lines": [
+    604
+   ]
+  },
+  {
+   "cid": "C296",
+   "theme": "셸 3분기 가스 생산 전망 상향",
+   "field": "energy",
+   "attachTo": "n-bbg-0100",
+   "lines": [
+    606
+   ]
+  },
+  {
+   "cid": "C297",
+   "theme": "한국 에너지 전환 계획",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    607
+   ]
+  },
+  {
+   "cid": "C298",
+   "theme": "케냐 인프라펀드 투자 개시",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    610
+   ]
+  },
+  {
+   "cid": "C299",
+   "theme": "인도 증권거래소, 고평가 해외 ETF 경고",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    612
+   ]
+  },
+  {
+   "cid": "C300",
+   "theme": "주빌런트 푸드웍스 실적",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    618
+   ]
+  },
+  {
+   "cid": "C301",
+   "theme": "메르세데스 3분기 판매 8% 감소",
+   "field": "auto",
+   "attachTo": "",
+   "lines": [
+    623
+   ]
+  },
+  {
+   "cid": "C302",
+   "theme": "콜롬비아 연기금 해외투자 상한 철회",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    626
+   ]
+  },
+  {
+   "cid": "C303",
+   "theme": "독일 '러시아 원자로 부품 공장 막아야'",
+   "field": "power",
+   "attachTo": "n-rtr-0020",
+   "lines": [
+    630
+   ]
+  },
+  {
+   "cid": "C304",
+   "theme": "싱가포르 녹색전력 수입 목표 미달 전망",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    632
+   ]
+  },
+  {
+   "cid": "C305",
+   "theme": "독일, 코스코의 물류회사 인수 차단",
+   "field": "shipping",
+   "attachTo": "",
+   "lines": [
+    634
+   ]
+  },
+  {
+   "cid": "C306",
+   "theme": "남아공 배터리·가스발전 우선",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    638
+   ]
+  },
+  {
+   "cid": "C307",
+   "theme": "폴란드 첫 해상풍력 터빈 설치 완료",
+   "field": "power",
+   "attachTo": "",
+   "lines": [
+    641
+   ]
+  },
+  {
+   "cid": "C308",
+   "theme": "영국 PRA 규제 기준 GDP 연동",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    644
+   ]
+  },
+  {
+   "cid": "C309",
+   "theme": "아커BP 노르웨이 사업비 증가",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    648
+   ]
+  },
+  {
+   "cid": "C310",
+   "theme": "노무라자산운용 해외 사업 확대",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    650
+   ]
+  },
+  {
+   "cid": "C311",
+   "theme": "AMD, 삼성 파운드리 협력 계속 검토",
+   "field": "semis",
+   "attachTo": "n-tg-0190",
+   "lines": [
+    655
+   ]
+  },
+  {
+   "cid": "C312",
+   "theme": "라코스테 CEO 해임",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    656
+   ]
+  },
+  {
+   "cid": "C313",
+   "theme": "EU, 대형 IT기업 과세 구상",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    657
+   ]
+  },
+  {
+   "cid": "C314",
+   "theme": "타이탄 귀금속 성장 둔화",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    662
+   ]
+  },
+  {
+   "cid": "C315",
+   "theme": "일본 맥주회사 담합 조사",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    665
+   ]
+  },
+  {
+   "cid": "C316",
+   "theme": "라피더스 고객 확보 관건",
+   "field": "semis",
+   "attachTo": "n-tg-0178",
+   "lines": [
+    669
+   ]
+  },
+  {
+   "cid": "C317",
+   "theme": "구글 원전 계약에 호주 우라늄주 급등",
+   "field": "metals",
+   "attachTo": "n-bbg-0072",
+   "lines": [
+    671
+   ]
+  },
+  {
+   "cid": "C318",
+   "theme": "우간다, 단고테 정유 지분 매입 승인",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    674
+   ]
+  },
+  {
+   "cid": "C319",
+   "theme": "보스턴다이내믹스 새 CEO",
+   "field": "industrial",
+   "attachTo": "",
+   "lines": [
+    676
+   ]
+  },
+  {
+   "cid": "C320",
+   "theme": "인도 철강 수입 규제 추가 없을 듯",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    678
+   ]
+  },
+  {
+   "cid": "C321",
+   "theme": "말레이시아 2027년 예산",
+   "field": "macro",
+   "attachTo": "",
+   "lines": [
+    679
+   ]
+  },
+  {
+   "cid": "C322",
+   "theme": "BHP 캄발다 니켈 자산 매각",
+   "field": "metals",
+   "attachTo": "",
+   "lines": [
+    683
+   ]
+  },
+  {
+   "cid": "C323",
+   "theme": "셰브론 헤스 미드스트림 지분 매각",
+   "field": "energy",
+   "attachTo": "",
+   "lines": [
+    684
+   ]
+  },
+  {
+   "cid": "C324",
+   "theme": "라디언트 관련 뉴욕연은 문서 소환 허가",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    686
+   ]
+  },
+  {
+   "cid": "C325",
+   "theme": "안두릴·미 해군 잠수함 부품 투자",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    687
+   ]
+  },
+  {
+   "cid": "C326",
+   "theme": "미 FAA 상업 우주발사 규제 간소화",
+   "field": "aero",
+   "attachTo": "",
+   "lines": [
+    688
+   ]
+  },
+  {
+   "cid": "C327",
+   "theme": "컨스텔레이션 브랜즈 실적 호조",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    696
+   ]
+  },
+  {
+   "cid": "C328",
+   "theme": "IMF '헤지펀드 영향력 커져 감독 필요'",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    698
+   ]
+  },
+  {
+   "cid": "C329",
+   "theme": "텍사스주, 해인스 유해물질 조사",
+   "field": "consumer",
+   "attachTo": "",
+   "lines": [
+    700
+   ]
+  },
+  {
+   "cid": "C330",
+   "theme": "연준 은행감독 체계 개편",
+   "field": "fin",
+   "attachTo": "",
+   "lines": [
+    704
+   ]
+  },
+  {
+   "cid": "C331",
+   "theme": "AT&T 광통신 합작사 설립",
+   "field": "tech",
+   "attachTo": "",
+   "lines": [
+    709
+   ]
+  },
+  {
+   "cid": "C332",
+   "theme": "튀르키예 중앙은행",
+   "field": "rates",
+   "attachTo": "",
+   "lines": [
+    715
+   ]
+  },
+  {
+   "cid": "C333",
+   "theme": "인도 NTPC 민간 석탄 구매 확대",
+   "field": "power",
+   "attachTo": "n-bbg-0094",
+   "lines": [
+    717
+   ]
+  }
+ ],
+ "drop": [
+  {
+   "line": 115,
+   "reason": "이미 다룸(n-tg-0209)"
+  },
+  {
+   "line": 394,
+   "reason": "이미 다룸(n-tg-0209)"
+  },
+  {
+   "line": 163,
+   "reason": "이미 다룸(n-bbg-0090)"
+  },
+  {
+   "line": 598,
+   "reason": "이미 다룸(n-bbg-0097)"
+  },
+  {
+   "line": 621,
+   "reason": "이미 다룸(n-tg-0122)"
+  },
+  {
+   "line": 601,
+   "reason": "이미 다룸(n-tg-0129)"
+  },
+  {
+   "line": 689,
+   "reason": "이미 다룸(n-tg-0126)"
+  },
+  {
+   "line": 635,
+   "reason": "이미 다룸(n-tg-0125)"
+  },
+  {
+   "line": 147,
+   "reason": "이미 다룸(n-tg-0202)"
+  },
+  {
+   "line": 125,
+   "reason": "이미 다룸(n-tg-0193)"
+  },
+  {
+   "line": 170,
+   "reason": "이미 다룸(n-tg-0194)"
+  },
+  {
+   "line": 517,
+   "reason": "이미 다룸(n-tg-0194)"
+  },
+  {
+   "line": 433,
+   "reason": "이미 다룸(n-tg-0194)"
+  },
+  {
+   "line": 707,
+   "reason": "이미 다룸(n-tg-0117)"
+  },
+  {
+   "line": 552,
+   "reason": "이미 다룸(n-bbg-0092)"
+  },
+  {
+   "line": 177,
+   "reason": "이미 다룸(n-tg-0189)"
+  },
+  {
+   "line": 571,
+   "reason": "이미 다룸(n-tg-0189)"
+  },
+  {
+   "line": 685,
+   "reason": "이미 다룸(n-tg-0130)"
+  },
+  {
+   "line": 396,
+   "reason": "이미 다룸(n-tg-0187)"
+  },
+  {
+   "line": 642,
+   "reason": "이미 다룸(n-tg-0187)"
+  },
+  {
+   "line": 680,
+   "reason": "이미 다룸(n-tg-0121)"
+  },
+  {
+   "line": 718,
+   "reason": "이미 다룸(n-bbg-0083)"
+  },
+  {
+   "line": 584,
+   "reason": "이미 다룸(n-bbg-0086)"
+  },
+  {
+   "line": 699,
+   "reason": "이미 다룸(n-rtr-0019)"
+  },
+  {
+   "line": 565,
+   "reason": "이미 다룸(n-bbg-0081)"
+  },
+  {
+   "line": 211,
+   "reason": "이미 다룸(n-tg-0134)"
+  },
+  {
+   "line": 132,
+   "reason": "이미 다룸(n-tg-0206)"
+  },
+  {
+   "line": 506,
+   "reason": "이미 다룸(n-tg-0206)"
+  },
+  {
+   "line": 435,
+   "reason": "이미 다룸(n-tg-0136)"
+  },
+  {
+   "line": 668,
+   "reason": "이미 다룸(n-tg-0136)"
+  },
+  {
+   "line": 603,
+   "reason": "이미 다룸(n-tg-0128)"
+  },
+  {
+   "line": 160,
+   "reason": "이미 다룸(n-tg-0135)"
+  },
+  {
+   "line": 645,
+   "reason": "이미 다룸(n-bbg-0095)"
+  },
+  {
+   "line": 697,
+   "reason": "이미 다룸(n-tg-0115)"
+  },
+  {
+   "line": 161,
+   "reason": "이미 다룸(n-tg-0139)"
+  },
+  {
+   "line": 542,
+   "reason": "이미 다룸(n-tg-0139)"
+  },
+  {
+   "line": 213,
+   "reason": "이미 다룸(n-tg-0132)"
+  },
+  {
+   "line": 260,
+   "reason": "이미 다룸(n-tg-0132)"
+  },
+  {
+   "line": 595,
+   "reason": "이미 다룸(n-tg-0133)"
+  },
+  {
+   "line": 293,
+   "reason": "AI 자금 조달"
+  },
+  {
+   "line": 383,
+   "reason": "AI 자금 조달(웨이모 대출)"
+  },
+  {
+   "line": 416,
+   "reason": "AI 자금 조달"
+  },
+  {
+   "line": 142,
+   "reason": "AI 칩 업체 자금 조달"
+  },
+  {
+   "line": 533,
+   "reason": "여론조사, 투자 무관"
+  },
+  {
+   "line": 237,
+   "reason": "투자 무관"
+  },
+  {
+   "line": 69,
+   "reason": "개인 소송 분쟁, 투자 무관"
+  },
+  {
+   "line": 436,
+   "reason": "은행장 보수, 투자 무관"
+  },
+  {
+   "line": 617,
+   "reason": "야당 공약, 투자 무관"
+  },
+  {
+   "line": 701,
+   "reason": "차량 전조등 규제, 투자 무관"
+  }
+ ]
+}

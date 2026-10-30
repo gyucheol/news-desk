@@ -1,0 +1,68 @@
+{
+ "basis": "partial",
+ "check": "검색 결과 요약(SCMP)으로 8월 16~24세 실업률 18.9%와 대졸자 1,270만 명을 확인. WSJ 원문, 25~29세 7.5%, 일자리 3,700만 개 부족, 상하이과기대 연구는 확인 못 함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 중국 국가통계국 자료로 재학생을 뺀 16~24세 실업률은 8월 18.9%로 7월 17.9%에서 올랐고, 올여름 대졸자는 사상 최대인 약 1,270만 명이었습니다 [사실]",
+  "연령: 25~29세 실업률은 7.5%로 전체 약 5%를 웃돌았고, 코로나 이전 추세와 비교하면 도시 일자리가 약 3,700만 개 부족하다는 분석이 있습니다 [채널]",
+  "AI: WSJ가 인용한 상하이과기대 연구는 2022~2026년 채용공고 7억 건을 분석해 AI 도입에 따른 채용 감소가 경력 1~3년 인력에서 가장 컸다고 했고, 중국 정부는 기업에 AI를 이유로 감원하지 말라고 경고했습니다 [채널]",
+  "소비: 취업난이 결혼·출산 지연과 부모 의존을 키워 내수 부진과 인구 감소를 심화시킬 수 있다는 우려가 나옵니다 [채널]",
+  "기존: 1~9월 도시 신규 일자리는 1,052만 개로 연간 목표의 87.7%였고, 정부는 서비스업 고용 정책 문서를 준비 중입니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{中 대졸}} {{1,270만 명}} 사상 최대에 {{청년 실업률 19%}}…{{AI}}가 초급 일자리 {{잠식}}",
+ "id": "n-rtr-0268",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "t": "중국, 1~9월 도시 일자리 1,052만 개 창출…서비스업 고용 정책 내놓는다",
+   "u": "https://www.reuters.com/world/asia-pacific/china-adds-1052-million-urban-jobs-jan-sept-roll-out-services-jobs-policy-2026-10-10/"
+  },
+  {
+   "t": "WSJ '中 청년, 대졸 1,270만 명·AI에 취업난…내수 부진 심화 우려'",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-13",
+   "u": "https://t.me/PipeBeom/6696",
+   "s": "{{대졸자 1,270만 명}}과 AI의 {{초급 일자리 대체}}로 {{중국 청년 취업난}}이 {{깊어지}}면서 결혼·출산 지연과 {{내수 부진}}이 {{심해질}} 수 있다"
+  }
+ ],
+ "key": "mix-C135-2026-10-13",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 268,
+ "one": "{{중국}}이 1~9월 {{도시 일자리 1,052만 개}}를 만들었지만 사상 최대인 {{대졸자 1,270만 명}}이 {{쏟아지}}고 {{AI}}가 {{초급 일자리}}를 {{줄이}}면서 {{16~24세 실업률}}이 {{19% 안팎}}에 이르러, 청년층 {{소비와 가구 형성}}이 {{위축}}될 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T22:08:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-10",
+   "o": "SCIO(국무원 신문판공실)",
+   "u": "http://english.scio.gov.cn/pressroom/2026-10/10/content_118728380.html"
+  },
+  {
+   "d": "2026-10-10",
+   "o": "Business Recorder",
+   "u": "https://www.brecorder.com/news/40443581/china-adds-1052m-urban-jobs-in-jan-sept-to-roll-out-services-jobs-policy"
+  },
+  {
+   "o": "South China Morning Post",
+   "d": "2026-09",
+   "u": "https://www.scmp.com/economy/economic-indicators/article/3367869/record-influx-university-graduates-pushes-chinas-youth-unemployment-rate-189"
+  }
+ ],
+ "tags": [],
+ "title": "{{中 대졸}} {{1,270만 명}} 사상 최대에 {{청년 실업률 19%}}…{{AI}}가 초급 일자리 {{잠식}}",
+ "url": "https://www.reuters.com/world/asia-pacific/china-adds-1052-million-urban-jobs-jan-sept-roll-out-services-jobs-policy-2026-10-10/",
+ "added": "이번 텔레그램 1건으로 {{16~24세 실업률}} 약 19%, {{대졸자 1,270만 명}}, AI가 {{경력 1~3년 채용}}을 {{가장 많이 줄였다}}는 연구 결과가 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

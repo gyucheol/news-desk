@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0433",
+ "num": 433,
+ "key": "split-G2-076-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "체코 하원, 정유 부문 횡재세 법안 1차 지지…정유사 이익 과세 추진",
+ "headline": "체코 하원, 정유 부문 횡재세 법안 1차 지지…정유사 이익 과세 추진",
+ "one": "체코 하원이 정유 부문 횡재세 법안을 1차로 지지하면서, 높은 에너지값 속에 늘어난 정유사 이익에 대한 과세가 현실화될 수 있고 EU 차원의 석유·가스 횡재세 논의에도 힘이 실릴 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 체코 하원이 정유 부문 횡재세 법안에 1차 지지를 보냈다 [제목]",
+  "EU 흐름: EU 집행위는 석유·가스 횡재세 득실을 따질 작업반을 꾸렸다 [사실]",
+  "의미: 법안이 최종 통과되면 높은 에너지값으로 늘어난 정유사 이익에 과세가 이뤄질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건, 제목 기준. 원 문서는 EU 집행위 횡재세 작업반만 확인했고 체코 법안은 확인 기록이 없음",
+ "src": [],
+ "items": [
+  {
+   "t": "체코 하원, 정유 부문 횡재세 법안에 1차 지지",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/legal/transactional/czech-lower-house-gives-initial-backing-windfall-tax-refinery-sector-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "체코 정유사 이익에 횡재세 부과 추진"
+  }
+ ]
+}

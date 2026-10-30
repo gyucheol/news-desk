@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0827",
+ "num": 827,
+ "key": "mix-G2-052-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/tencent-s-cloud-boss-plays-long-game-to-patch-leaky-ai-ship",
+ "origTitle": "",
+ "headline": "텐센트 클라우드 수장 다우슨 퉁, '새는 배' AI 사업 기업용 전환으로 장기전…워크버디 월 3,200만 명",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-29",
+   "u": "https://cryptobriefing.com/tencent-dowson-tong-ai-strategy-overhaul/"
+  },
+  {
+   "o": "BigGo Finance",
+   "d": "2026-10-21",
+   "u": "https://finance.biggo.com/news/0b52ecf7-3aec-4640-bbfd-58571eb3800e"
+  }
+ ],
+ "items": [
+  {
+   "t": "텐센트 클라우드 수장, '새는' AI 사업 고치려 장기전",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/tencent-s-cloud-boss-plays-long-game-to-patch-leaky-ai-ship"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "텐센트 클라우드 수장 다우슨 퉁, '새는 배' AI 사업 기업용 전환으로 장기전…워크버디 월 3,200만 명",
+ "one": "텐센트 클라우드 수장 다우슨 퉁이 창업자가 '새는 배'라 부른 AI 사업을 장기전으로 수습하고 있다\n· 퉁은 거대 기반 모델 경쟁 대신 기업용 AI 도구 워크버디에 힘을 실어 월 이용자 3,200만 명을 모았다\n· 텐센트 순현금은 설비투자 지급과 배당으로 1,469억 위안에서 582억 위안으로 줄었다",
+ "facts": [
+  "무엇이: 텐센트 클라우드 수장 다우슨 퉁이 창업자가 '새는 배'라고 표현한 AI 사업을 기업용 중심으로 재편하며 장기전에 나섰다 [사실]",
+  "워크버디: 곁가지였던 기업용 AI 도구 워크버디를 주력으로 삼아 가을 들어 월 이용자 3,200만 명으로 경쟁사 합계를 넘었다 [사실]",
+  "재무: 텐센트 클라우드는 2025년 조정 영업이익 50억 위안을 냈고, 그룹 순현금은 설비투자 지급과 배당으로 1,469억 위안에서 582억 위안으로 줄었다 [사실]",
+  "주가: 텐센트 주가는 10월 21일 393.8홍콩달러로 4.04% 떨어져 52주 최저였다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "다우슨 퉁의 기업용 전환·워크버디 월 3,200만 명·'새는 배' 발언은 검색 결과 요약(Japan Times 전재 포함)으로 확인. AI 사업 손실 규모는 확인 못 함",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "기업용 AI 워크버디 월 이용자 3,200만 명"
+  }
+ ]
+}

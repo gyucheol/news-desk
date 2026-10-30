@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0393",
+ "num": 393,
+ "key": "split-G2-029-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/morgan-stanley-leads-fundraise-for-texas-refinery-company-says",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "모건스탠리, 텍사스 브라운즈빌 신규 정유소 자금 모집 주관…50년 만의 대형 정유소",
+ "headline": "모건스탠리, 텍사스 브라운즈빌 신규 정유소 자금 모집 주관…50년 만의 대형 정유소",
+ "one": "모건스탠리가 텍사스 브라운즈빌에 짓는 신규 정유소의 주식·채권 자금 모집을 주관하면서, 가동률 98%로 꽉 찬 미국 정유 설비에 50년 만의 대형 신규 정유소 건설 자금 조달이 시작됐다",
+ "facts": [
+  "무엇이: 모건스탠리가 텍사스 브라운즈빌 신규 정유소의 주식·채권 자금 모집을 주관한다고 회사 측이 10월 15일 밝혔다 [사실]",
+  "의미: 50년 만의 미국 대형 정유소 건설 자금 조달이 시작됐다 [사실]",
+  "배경: 미국 정유 가동률은 이미 98%이고, 경유값은 9월 22일 갤런당 6.53달러로 사상 최고를 찍었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 사실에 모건스탠리의 신규 정유소 자금 모집 주관이 담겨 있고, 원 문서 출처 목록의 Seeking Alpha·GuruFocus 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-15",
+   "u": "https://seekingalpha.com/news/4653593-morgan-stanley-leading-fundraising-for-new-u-s-oil-refinery-report"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-10-15",
+   "u": "https://www.gurufocus.com/news/9126514/morgan-stanley-ms-leads-fundraising-for-new-texas-oil-refinery-amid-solid-dividend-profile"
+  }
+ ],
+ "items": [
+  {
+   "t": "모건스탠리, 텍사스 정유소 자금 모집 주관…회사 측 밝혀",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/morgan-stanley-leads-fundraise-for-texas-refinery-company-says"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "50년 만의 미국 대형 신규 정유소 자금 모집"
+  }
+ ]
+}

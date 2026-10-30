@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0073",
+ "feed": "v5",
+ "format": "one1",
+ "num": 73,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1006-gulf-exports-recover-attacks",
+ "published": "2026-10-06",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-06/latest-oil-market-news-and-analysis-for-oct-7",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "macro/geo"
+ ],
+ "title": "걸프 원유 수출 전쟁 전의 91%까지 회복…선박 피격 잇따라 유가 100달러 안팎",
+ "one": "걸프 산유국의 9월 원유 수출이 전쟁 전의 91%까지 회복됐지만 석유제품 수출은 60%에 그치고 10월 들어 호르무즈 인근 선박 사건이 9건 보고되면서, 브렌트유는 배럴당 100달러 안팎에서 더 내려가지 못하고 있다",
+ "headline": "걸프 원유 수출 전쟁 전의 91%까지 회복…선박 피격 잇따라 유가 100달러 안팎",
+ "facts": [
+  "무엇이: 보텍사 집계로 9월 걸프 7개국(이란 제외)의 원유·콘덴세이트·LPG 수출은 하루 1,920만 배럴로 전쟁 전(2,360만 배럴)의 81%, 원유만 보면 91%였습니다. [사실]",
+  "얼마나: 케플러 잠정치로 9월 27~29일 원유 흐름은 하루 1,950만~2,250만 배럴로 전쟁 전을 웃돈 날도 있었지만 9월 평균은 1,860만 배럴이고, 석유제품은 전쟁 전(730만 배럴)의 60%입니다. [사실]",
+  "위험: 영국 해사무역기구(UKMTO)는 10월 들어 6일까지 호르무즈 인근 선박 사건 9건을 보고했고, 초대형 유조선 용선료는 하루 100만 달러를 넘습니다. [사실]",
+  "가격: 브렌트유는 10월 5~7일 배럴당 100~101달러대, WTI는 89~90달러로 한 달여 만의 최저 근처에서 움직였습니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — 오일프라이스 자체 기사 2건(10-05·10-06, 로이터가 전한 케플러·보텍사 수치 인용)과 트레이딩이코노믹스 시황(10-06·10-07)으로 작성. 블룸버그 10-05 기사(Oil Holds Two-Day Drop…)와 한 건으로 합침. 블룸버그 기사 자체의 수치는 확인하지 못함.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/latest-oil-market-news-and-analysis-for-oct-7"
+  },
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/latest-oil-market-news-and-analysis-for-oct-6"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-06",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html"
+  },
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-05",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html"
+  },
+  {
+   "o": "트레이딩이코노믹스",
+   "d": "2026-10-07",
+   "u": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Oil Steadies With Focus on Hormuz Shipments and Vessel Attacks",
+ "dupOf": "pf-bbg-009"
+}

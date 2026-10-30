@@ -1,0 +1,47 @@
+{
+ "id": "n-rtr-0152",
+ "num": 152,
+ "key": "bnd-C307-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-07T18:47:00+09:00",
+ "url": "https://www.reuters.com/business/energy/northland-orlen-complete-turbine-installation-polands-first-offshore-wind-2026-10-07/",
+ "origTitle": "",
+ "headline": "폴란드 첫 해상풍력 발틱파워, 터빈 76기 설치 완료",
+ "src": [
+  {
+   "o": "노스랜드파워 뉴스룸",
+   "d": "2026-10",
+   "u": "https://www.northlandpower.com/newsroom/"
+  }
+ ],
+ "items": [
+  {
+   "t": "노스랜드·오를렌, 폴란드 첫 해상풍력 터빈 설치 완료",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/business/energy/northland-orlen-complete-turbine-installation-polands-first-offshore-wind-2026-10-07/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "폴란드 첫 해상풍력 발틱파워, 터빈 76기 설치 완료",
+ "one": "노스랜드파워와 오를렌이 폴란드 첫 해상풍력 단지 발틱파워의 터빈 76기 설치를 모두 마치면서, 폴란드 전력망에 해상풍력 전력이 처음으로 들어가기 위한 시운전·연결 단계만 남게 됐다",
+ "facts": [
+  "무엇이: 노스랜드파워·오를렌의 발틱파워 해상풍력 단지가 터빈 76기 설치를 완료 [사실]",
+  "의미: 폴란드 첫 해상풍력 단지 [제목]",
+  "다음 단계: 설비 용량과 상업운전 시점은 확인 못 함 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "노스랜드파워 뉴스룸 보도자료 제목으로 76기 설치 완료 확인. 용량·상업운전 시점 미확인, 폴란드 석탄 비중은 일반 사실",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/wind"
+ ]
+}

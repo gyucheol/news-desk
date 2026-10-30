@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0754",
+ "num": 754,
+ "key": "mix-G2-058-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T00:54:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-26/fitch-diverges-from-south-africa-s-treasury-on-debt-outlook",
+ "origTitle": "",
+ "headline": "피치, 남아공 부채 전망서 재무부와 엇갈려…부채비율 2028/29년 79%로 상승 전망",
+ "src": [
+  {
+   "o": "Ghanamma",
+   "d": "2026-10-27",
+   "u": "https://www.ghanamma.com/2026/10/27/fitch-diverges-from-national-treasury-on-debt-outlook/"
+  },
+  {
+   "o": "EWN",
+   "d": "2026-10-27",
+   "u": "https://www.ewn.co.za/fitch-says-mtbps-supports-sas-debt-stability-while-flagging-growth-risks"
+  }
+ ],
+ "items": [
+  {
+   "t": "피치, 남아공 부채 전망에서 재무부와 엇갈린 시각",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/fitch-diverges-from-south-africa-s-treasury-on-debt-outlook"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "피치, 남아공 부채 전망서 재무부와 엇갈려…부채비율 2028/29년 79%로 상승 전망",
+ "one": "신용평가사 피치가 남아공 정부부채 전망에서 재무부와 다른 시각을 내놓으며 부채비율 상승을 예상했다\n· 피치는 부채비율이 GDP 대비 약 78%를 유지하다 2028/29회계연도에 79%로 오를 것으로 봤다\n· 재무부는 부채비율이 2025/26년 78.4%로 정점을 찍고 2029/30년 76.6%로 내려간다고 밝혔다",
+ "facts": [
+  "무엇이: 피치는 남아공 부채비율이 향후 2개 회계연도 GDP 대비 약 78%에 머문 뒤 2028/29년 79%로 오를 것으로 봐 재무부·무디스 전망과 엇갈렸다 [사실]",
+  "재무부: 고동와나 재무장관은 부채비율이 2025/26년 78.4%로 정점을 찍고 2029/30년 76.6%로 내려간다고 밝혔다 [사실]",
+  "이유: 피치는 주로 약한 성장 탓으로 봤지만 중기예산정책보고서(MTBPS)의 재정건전화 노력은 순항 중이라고 평가했다 [사실]",
+  "등급 일정: 피치는 6월 BB(안정적)로 올렸고, 무디스·S&P는 11월 27일, 피치는 12월 11일 평가를 내놓는다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "피치의 부채비율 78%→2028/29년 79% 전망과 재무부의 78.4% 정점·76.6% 하락 전망은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "피치, 남아공 부채비율 2028/29년 79% 상승 전망"
+  }
+ ]
+}

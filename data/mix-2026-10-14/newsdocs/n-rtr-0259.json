@@ -1,0 +1,63 @@
+{
+ "basis": "verified",
+ "check": "셰인바움 발언·대미 흑자 규모·협상 상황은 검색 결과 요약으로 확인. 서명된 합의는 아직 없음.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 셰인바움 대통령은 10월 13일 미국산 수입을 늘리고 다른 나라 구매를 줄여 무역 불균형을 줄이겠다고 밝혔습니다 [사실]",
+  "미국 반응: 트럼프는 지난달 통화에서 멕시코가 불균형 해소에 충분히 하지 않았다고 했고, 양측은 협상을 이어가기로 했습니다 [사실]",
+  "규모: 멕시코의 대미 상품 흑자는 8월까지 2,800억 달러를 넘어 1년 전보다 51% 늘었습니다 [사실]",
+  "노림수: 멕시코는 철강·알루미늄 50% 관세와 자동차 관세 완화를 바라며, 11월 3일 중간선거 전 잠정 양자 합의 협상이 빨라지고 있다는 보도입니다 [사실]",
+  "기존: 트럼프가 멕시코에 양국 에너지 기업 간 제휴를 늘리라고 압박하고 있다고 FT가 보도했습니다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "{{셰인바움}} '{{미국산 더 사겠다}}'…{{대미 흑자 2,800억 달러}} 넘어 {{무역합의}} 겨냥",
+ "id": "n-rtr-0259",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-10",
+   "o": "로이터",
+   "t": "트럼프, 멕시코에 양국 에너지 기업 간 제휴 확대 압박 - FT",
+   "u": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/"
+  },
+  {
+   "t": "셰인바움, 트럼프와 무역합의 위해 미국산 구매 확대 약속",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/sheinbaum-vows-to-buy-more-goods-from-the-us-to-sign-trade-deal",
+   "s": "{{셰인바움}} 멕시코 대통령이 {{미국산 수입}}을 {{늘리고}} {{다른 나라 구매}}를 {{줄여}} {{대미 흑자}}를 {{줄이겠다}}고 밝히면서, {{철강·자동차 관세 완화}}를 끌어낼 {{협상 카드}}로 쓰려 한다"
+  }
+ ],
+ "key": "mix-C117-2026-10-13",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 259,
+ "one": "{{트럼프}}가 {{멕시코}}에 {{에너지 제휴 확대}}를 {{압박}}한 데 이어 {{셰인바움 대통령}}이 {{미국산 수입 확대}}로 8월까지 {{2,800억 달러}}를 넘은 {{대미 흑자}}를 {{줄이겠다}}고 {{약속}}하면서, 중간선거 전 {{잠정 무역합의 협상}}이 {{빨라지}}고 있다",
+ "origTitle": "",
+ "processed": "2026-10-14",
+ "published": "2026-10-14T03:34:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Transport Topics",
+   "d": "2026-10-13",
+   "u": "https://www.ttnews.com/articles/sheinbaum-mexico-trump-trade"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-13",
+   "u": "https://qz.com/mexico-us-trade-deal-goods-purchases-sheinbaum-101326"
+  }
+ ],
+ "tags": [],
+ "title": "{{셰인바움}} '{{미국산 더 사겠다}}'…{{대미 흑자 2,800억 달러}} 넘어 {{무역합의}} 겨냥",
+ "url": "https://www.reuters.com/business/energy/trump-pushes-mexico-more-cross-nation-tie-ups-between-energy-companies-ft-2026-10-09/",
+ "added": "이번 {{블룸버그}} 건으로 {{셰인바움의 미국산 구매 확대 약속}}과 {{2,800억 달러 넘는 대미 흑자}} 축소 구상이 추가됐다",
+ "updatedAt": "2026-10-14T08:32:43+09:00"
+}

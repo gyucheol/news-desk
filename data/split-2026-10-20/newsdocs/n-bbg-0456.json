@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0456",
+ "num": 456,
+ "key": "split-G4-001-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프 '내가 워시였다면 인상에 반대표'…금리 인상 책임은 연준 이사회로",
+ "headline": "트럼프 '내가 워시였다면 인상에 반대표'…금리 인상 책임은 연준 이사회로",
+ "one": "트럼프 대통령이 10월 1일 자신이 워시 의장이었다면 연준의 금리 인상에 반대표를 던졌을 것이라며 책임을 연준 이사회로 돌리면서, 대통령의 연준 결정 비판과 독립성 논란이 이어질 수 있다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 1일 자신이 워시 의장이었다면 연준의 금리 인상에 반대표를 던졌을 것이라고 말했다 [사실]",
+  "책임 소재: 트럼프는 인상 결정의 책임을 워시 의장이 아니라 연준 이사회로 돌렸다 [사실]",
+  "의미: 대통령이 의장의 표결 방향까지 공개적으로 언급하면서 연준 독립성 논란이 커질 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 Quartz(10월 1일) 보도가 같은 발언을 다뤄 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Quartz",
+   "d": "2026-10-01",
+   "u": "https://qz.com/trump-warsh-fed-rate-hike-vote-100126"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 '내가 워시였다면 인상에 반대표'…책임은 연준 이사회로 돌려",
+   "o": "블룸버그",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "트럼프, 워시 인상 표결 비판하며 이사회 책임론"
+  }
+ ],
+ "fed": [
+  {
+   "k": "Trump",
+   "who": "도널드 트럼프",
+   "role": "미국 대통령",
+   "kind": "인사·독립성",
+   "stance": "",
+   "t": "트럼프가 자신이 워시였다면 인상에 반대했을 것이라며 이사회에 책임을 돌렸다",
+   "d": "2026-10-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+  }
+ ]
+}

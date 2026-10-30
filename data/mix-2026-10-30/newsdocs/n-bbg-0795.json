@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0795",
+ "num": 795,
+ "key": "mix-G1-031-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T08:31:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-28/equinix-says-data-project-barriers-could-boost-its-pricing-power",
+ "origTitle": "",
+ "headline": "에퀴닉스 '데이터센터 건설 장벽이 가격결정력 높여'…3분기 신규 계약 가격 12%↑",
+ "src": [
+  {
+   "o": "SEC 8-K(에퀴닉스)",
+   "d": "2026-10-28",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm"
+  },
+  {
+   "o": "Yahoo Finance(Zacks)",
+   "d": "2026-10-29",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/equinix-q3-affo-beat-estimates-163500751.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "에퀴닉스 '데이터센터 프로젝트 장벽이 가격결정력 높일 수 있어'",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-28/equinix-says-data-project-barriers-could-boost-its-pricing-power"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "에퀴닉스 '데이터센터 건설 장벽이 가격결정력 높여'…3분기 신규 계약 가격 12%↑",
+ "one": "에퀴닉스는 데이터센터 건설을 가로막는 장벽이 자사의 가격결정력을 높일 수 있다고 밝혔다\n· 3분기 신규 계약 가격은 12% 올랐고 연환산 총예약은 사상 최대인 5억 3,300만 달러로 35% 늘었다\n· 3분기 매출은 25.7억 달러로 11% 늘었고 회사는 2026년 주당 AFFO 전망을 올렸다",
+ "facts": [
+  "무엇이: 에퀴닉스가 데이터센터 건설 장벽이 가격결정력을 키울 수 있다고 했다 [제목]",
+  "가격·수요: 3분기 신규 계약 가격은 12% 올랐고 경영진은 시장 수요를 채울 용량이 부족하다고 했으며, 연환산 총예약은 5억 3,300만 달러(35%↑)로 사상 최대였다 [사실]",
+  "실적: 3분기 매출은 25.7억 달러(11%↑), 조정 EBITDA 마진은 51.4%였고 2026년 주당 AFFO 전망을 43.71~44.11달러로 올렸다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 3분기 신규 계약 가격 12%↑·용량 부족 발언 확인. '건설 장벽' 발언 자체는 제목만 근거",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "datacenter",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "에퀴닉스 신규 계약 가격 12% 상승"
+  }
+ ]
+}

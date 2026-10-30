@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0368",
+ "num": 368,
+ "key": "split-G1-019-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트라피구라, 운임 상승 속 SFL로부터 유조선 7척 매입",
+ "headline": "트라피구라, 운임 상승 속 SFL로부터 유조선 7척 매입",
+ "one": "트라피구라가 7일 유조선 운임이 오르는 가운데 SFL로부터 유조선 7척을 사들여 자체 선대를 늘리면서, 운송비가 오르는 시기에 화물을 가진 쪽이 직접 배를 확보하려는 움직임이 나타났다 (제목 기준)",
+ "facts": [
+  "무엇이: 트라피구라가 운임 상승 속에 SFL로부터 유조선 7척을 매입했다 [제목]",
+  "의미: 운송비가 오르는 시기에 화주가 직접 선대를 늘린 사례다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "트라피구라, 운임 상승 속 SFL로부터 유조선 7척 매입",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise"
+  }
+ ],
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "트라피구라, SFL 유조선 7척 매입"
+  }
+ ]
+}

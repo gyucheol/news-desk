@@ -1,0 +1,71 @@
+{
+ "id": "n-tg-0665",
+ "num": 665,
+ "key": "split-G6-102-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:33:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/PipeBeom/6730",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "빅테크, AI 데이터센터용 구리 확보 위해 광산 지분 투자 검토",
+ "headline": "빅테크, AI 데이터센터용 구리 확보 위해 광산 지분 투자 검토",
+ "one": "앵글로아메리칸 CEO가 기술기업들이 금속 공급 확보를 위해 광산 지분 직접 취득에 큰 관심을 보였다고 밝히면서, 빅테크의 공급망 확보 관심이 전력에서 AI 데이터센터용 구리로 넓어지고 있다",
+ "facts": [
+  "무엇이: 앵글로아메리칸 CEO가 기술기업들이 금속 공급 확보를 위해 직접 지분 취득에 큰 관심을 보였다고 밝혔다 [사실]",
+  "목적: 빅테크가 AI 데이터센터용 구리를 확보하려 광산 지분 투자를 검토하고 있다고 채널이 10월 16일 전했다 [채널]",
+  "의미: 빅테크의 공급망 확보 관심이 전력에서 구리로 넓어지고 있다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 상상인 김진범 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 Miningmx·Traders Union·NAI500 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Miningmx",
+   "d": "2026-10-15",
+   "u": "http://www.miningmx.com/2026-10-15-tech-firms-in-conversations-about-metals-supply-says-anglo-s-wanblad/"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-15",
+   "u": "https://tradersunion.com/news/companies/show/3830812-tech-firms-mining-investments-metal-supply/"
+  },
+  {
+   "o": "NAI500",
+   "d": "2026-10-16",
+   "u": "https://nai500.com/blog/2026/10/tech-giants-want-equity-in-anglo-american-to-lock-up-copper-supply/"
+  }
+ ],
+ "items": [
+  {
+   "t": "빅테크, AI 데이터센터용 구리 확보 위해 광산 지분 투자 검토",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-16",
+   "u": "https://t.me/PipeBeom/6730"
+  }
+ ],
+ "inds": [
+  "metals",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "copper",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "빅테크, AI 데이터센터용 구리 광산 지분 검토"
+  }
+ ],
+ "channel": "상상인 김진범",
+ "ind": "semis"
+}

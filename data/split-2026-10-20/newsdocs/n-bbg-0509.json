@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0509",
+ "num": 509,
+ "key": "split-G4-143-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/burnham-healey-to-host-business-leaders-in-pre-budget-outreach",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "번햄 총리·힐리 재무장관, 예산안 앞두고 기업인 초청 간담회",
+ "headline": "번햄 총리·힐리 재무장관, 예산안 앞두고 기업인 초청 간담회",
+ "one": "번햄 총리와 힐리 재무장관이 10월 28일 예산안 발표를 앞두고 기업인들을 초청해 간담회를 열고 재계 의견을 들으면서, IFS가 약 350억 파운드 증세·복지 축소 필요를 추산한 가운데 세제 방향이 조율될 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 13일 블룸버그는 번햄 총리와 힐리 재무장관이 예산안 발표를 앞두고 기업인들을 초청해 간담회를 연다고 전했다 [사실]",
+  "재정 배경: IFS는 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "해석: 재계 의견 수렴은 예산안의 증세 범위가 기업 부담을 고려해 조정될 수 있음을 시사한다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건. 원 문서 확인 기록과 출처 목록에 간담회를 뒷받침하는 출처가 없어 제목 기준으로 낮춤",
+ "src": [],
+ "items": [
+  {
+   "t": "번햄·힐리, 예산안 앞두고 기업인 초청 간담회",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/burnham-healey-to-host-business-leaders-in-pre-budget-outreach"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "예산안 앞 재계 의견 청취로 방향 미정"
+  }
+ ]
+}

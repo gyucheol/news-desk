@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0803",
+ "num": 803,
+ "key": "mix-G1-046-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T18:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/kaczynski-floats-polish-eu-exit-talks-to-force-change-in-europe",
+ "origTitle": "",
+ "headline": "폴란드 제1야당 카친스키, EU 개혁 압박 위해 탈퇴 협상 가능성 제기",
+ "src": [
+  {
+   "o": "Notes from Poland",
+   "d": "2026-10-29",
+   "u": "https://notesfrompoland.com/2026/10/29/polish-opposition-leader-sparks-controversy-with-speech-on-potential-eu-exit-talks/"
+  },
+  {
+   "o": "ABC News(AP)",
+   "d": "2026-10-29",
+   "u": "https://abcnews.com/International/wireStory/polish-opposition-leader-floats-eu-exit-talks-force-137678181"
+  }
+ ],
+ "items": [
+  {
+   "t": "폴란드 야당 대표, EU 탈퇴 협상 위협 제기",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/kaczynski-floats-polish-eu-exit-talks-to-force-change-in-europe"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "폴란드 제1야당 카친스키, EU 개혁 압박 위해 탈퇴 협상 가능성 제기",
+ "one": "폴란드 제1야당 법과정의당(PiS)의 카친스키 대표가 EU 개혁을 압박하려 탈퇴 협상 가능성을 거론했다\n· 그는 10월 28일 크리니차 포럼에서 다른 방법이 실패할 때 쓸 위험한 최후 수단이라고 말했다\n· 투스크 총리는 탈퇴 협상 위협이라며 맞서겠다고 했고 PiS 부대표는 탈퇴 계획이 없다고 밝혔다",
+ "facts": [
+  "무엇이: 카친스키 PiS 대표가 10월 28일 크리니차 포럼에서 EU 개혁을 강제하기 위한 최후 수단으로 탈퇴 협상을 열 수 있다고 말했다 [사실]",
+  "반응: 투스크 총리는 탈퇴 조건 협상을 시작하자는 말이라며 맞서겠다고 했고, 카친스키는 투스크가 거짓말을 한다며 EU에 필요한 것은 탈퇴가 아니라 개혁이라고 반박했다 [사실]",
+  "일정: 폴란드 총선은 2027년 말 예정이며 공식 탈퇴 협상이 시작됐다는 보도는 없다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "카친스키의 10월 28일 크리니차 포럼 발언과 투스크 총리·PiS 쪽 반응을 검색 결과로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "폴란드 EU 탈퇴 논쟁은 아직 정치 공방 단계"
+  }
+ ]
+}

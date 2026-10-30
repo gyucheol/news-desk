@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0692",
+ "num": 692,
+ "key": "mix-G1-081-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T11:26:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/hd-hyundai-build-us-shipyard-with-kiewit-create-3000-jobs-2026-10-23/",
+ "origTitle": "",
+ "headline": "HD현대, 키위트와 美 조선소 건설…2027년 착공·2029년 가동·일자리 3,000개",
+ "src": [
+  {
+   "o": "New Straits Times",
+   "d": "2026-10-23",
+   "u": "https://www.nst.com.my/business/corporate/2026/10/1561777/hd-hyundai-build-us-shipyard-kiewit-create-3000-jobs"
+  },
+  {
+   "o": "Construction Review Online",
+   "d": "2026-10-23",
+   "u": "https://constructionreviewonline.com/hd-hyundai-to-start-building-us-shipyard-with-kiewit-in-2027/"
+  }
+ ],
+ "items": [
+  {
+   "t": "HD현대, 키위트와 美 조선소 건설…일자리 3,000개 창출",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/hd-hyundai-build-us-shipyard-with-kiewit-create-3000-jobs-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "HD현대, 키위트와 美 조선소 건설…2027년 착공·2029년 가동·일자리 3,000개",
+ "one": "HD현대가 미국 건설사 키위트와 합작사를 세워 미국에 새 조선소를 짓기로 했다\n· 합작사 HD 키위트 조선은 2027년 착공해 2029년 완전 가동하고 약 3,000명을 고용할 계획이다\n· 미 해군 지원함·상선 건조와 다른 미국 조선소에 선박 블록·모듈 공급을 검토한다",
+ "facts": [
+  "무엇이: HD현대와 키위트가 10월 22일 휴스턴에서 합작사 HD 키위트 조선을 세워 미국에 새 조선소를 짓기로 합의했다 [사실]",
+  "일정·고용: 2027년 착공해 2029년 완전 가동하며, 가동 뒤 약 3,000명을 고용할 전망이다 [사실]",
+  "사업: 미 해군 지원함·상선 건조와 다른 미국 조선소에 대한 블록·모듈 공급을 검토하고, 디지털 트윈·로봇 용접을 적용한다 [사실]",
+  "미정: 지분 구조·투자 규모·부지는 공개되지 않았고, 한국의 1,500억 달러 미국 조선 협력 약속과 이어진 사업이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "합작 조선소 건설·2027년 착공·2029년 가동·약 3,000명 고용은 검색 결과 요약(NST·Splash247·Construction Review Online)으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "shipbuild",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "HD현대·키위트 美 조선소 2029년 가동 목표"
+  }
+ ]
+}

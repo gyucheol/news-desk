@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0420",
+ "num": 420,
+ "key": "split-G2-141-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "러시아 석유제품 수출 늘었지만 디젤 선적은 급감",
+ "headline": "러시아 석유제품 수출 늘었지만 디젤 선적은 급감",
+ "one": "러시아의 석유제품 수출은 늘었지만 디젤 선적은 급감하면서, 우크라이나 드론의 정유시설 공격이 이어지는 가운데 러시아산 경유에 기대는 수입처의 공급이 줄어들 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 러시아의 석유제품 수출은 늘었지만 디젤 선적은 급감했다 [제목]",
+  "배경: 우크라이나 드론이 볼고그라드 등 러시아 정유시설을 잇달아 공격해 볼고그라드 정유소는 2일부터 원유 처리를 전면 중단했다 [채널]",
+  "엇갈린 주장: 트럼프는 이후 러시아가 여전히 수백만 배럴의 디젤을 싸게 수출한다고 주장했다 [채널]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준이고, 배경은 원 문서 채널 사실에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "러시아 석유제품 수출 증가…디젤 선적은 급감",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/russia-s-oil-product-exports-rise-even-as-diesel-shipments-slump"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "러시아 디젤 선적 급감"
+  }
+ ]
+}

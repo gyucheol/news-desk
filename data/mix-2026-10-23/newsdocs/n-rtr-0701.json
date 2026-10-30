@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0701",
+ "num": 701,
+ "key": "mix-G1-092-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:43:00+09:00",
+ "url": "https://www.reuters.com/business/aluminium-producer-norsk-hydros-quarterly-core-profit-misses-market-view-2026-10-23/",
+ "origTitle": "",
+ "headline": "노르스크 하이드로 3분기 핵심이익 예상 하회…조정 EBITDA 90.9억 크로네, 주가 약 7%↓",
+ "src": [
+  {
+   "o": "GlobeNewswire",
+   "d": "2026-10-23",
+   "u": "https://www.globenewswire.com/news-release/2026/10/23/3387045/0/en/norsk-hydro-solid-results-and-strong-performance.html"
+  },
+  {
+   "o": "Stocktitan",
+   "d": "2026-10-23",
+   "u": "https://www.stocktitan.net/news/NHYDY/norsk-hydro-solid-results-and-strong-7j71kd41pmp9.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "알루미늄 업체 노르스크 하이드로, 분기 핵심이익 시장 예상 하회",
+   "o": "로이터",
+   "u": "https://www.reuters.com/business/aluminium-producer-norsk-hydros-quarterly-core-profit-misses-market-view-2026-10-23/",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "노르스크 하이드로 3분기 핵심이익 예상 하회…조정 EBITDA 90.9억 크로네, 주가 약 7%↓",
+ "one": "알루미늄 업체 노르스크 하이드로의 3분기 핵심이익이 시장 예상을 밑돌았다\n· 조정 EBITDA는 90억 8,900만 크로네로 전년 59억 9,600만 크로네보다는 늘었다\n· 보크사이트·알루미나 부문은 알루노르트 가스 공급 차질로 2억 8,300만 크로네로 줄었다",
+ "facts": [
+  "무엇이: 노르스크 하이드로의 3분기 핵심이익이 시장 예상을 밑돌았다 [제목]",
+  "실적: 조정 EBITDA는 90억 8,900만 크로네로 전년(59억 9,600만)과 전분기(89억 2,300만)보다 늘었고, 금속·알루미나 가격 상승과 재활용·압출 부문 개선이 기여했다 [사실]",
+  "약점: 보크사이트·알루미나 부문은 알루노르트 가스 공급 차질로 2억 8,300만 크로네(전년 12억 9,000만)로 줄었다 [사실]",
+  "주가: 잉여현금흐름이 14억 크로네로 약해지고 순부채가 늘면서 주가는 약 7% 떨어진 것으로 전해졌다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "조정 EBITDA·부문 실적·주가 하락은 회사 발표와 검색 결과 요약으로 확인. 시장 예상치와 하회 폭은 확인 못 함",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "aluminum",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "알루노르트 가스 공급 차질로 알루미나 이익 급감"
+  }
+ ]
+}

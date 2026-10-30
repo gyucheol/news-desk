@@ -1,0 +1,64 @@
+{
+ "id": "n-rtr-0524",
+ "num": 524,
+ "key": "split-G4-147-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/retail-consumer/uk-grocery-inflation-accelerates-over-last-month-says-worldpanel-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "영국 식료품 물가 2.5%로 가속…판매 물량은 감소, 월드패널 집계",
+ "headline": "영국 식료품 물가 2.5%로 가속…판매 물량은 감소, 월드패널 집계",
+ "one": "월드패널 집계로 영국 식료품 물가 상승률이 10월 4일까지 4주간 2.5%로 전달 2.3%보다 빨라지고 판매 물량은 줄면서, 가계의 생필품 부담이 커지고 영란은행의 물가 판단에도 부담이 될 수 있다",
+ "facts": [
+  "무엇이: 월드패널 집계로 10월 4일까지 4주간 영국 식료품 물가 상승률은 2.5%로 전달 2.3%보다 빨라졌다 [사실]",
+  "물량: 같은 기간 식료품 판매 물량은 줄었다 [사실]",
+  "해석: 식료품 물가 가속과 물량 감소가 겹치면 가계 실질 소비가 약해지고 영란은행의 물가 판단에도 부담이 될 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분은 없지만 출처 목록의 Retail Times·ITV News(식료품 물가 2.5%)가 기사 요약을 뒷받침",
+ "src": [
+  {
+   "o": "Retail Times",
+   "d": "2026-10-13",
+   "u": "https://retailtimes.co.uk/shoppers-seek-autumn-staples-while-grocery-inflation-edges-up-to-2-5-worldpanel-by-numerator-reports/"
+  },
+  {
+   "o": "ITV News",
+   "d": "2026-10-13",
+   "u": "https://www.itv.com/news/2026-10-13/grocery-price-inflation-edges-up-as-shoppers-lean-on-special-offers"
+  }
+ ],
+ "items": [
+  {
+   "t": "월드패널 '英 식료품 물가, 지난 한 달 새 가속'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/business/retail-consumer/uk-grocery-inflation-accelerates-over-last-month-says-worldpanel-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "consumer"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "영국 식료품 물가 4주간 2.5%로 가속"
+  }
+ ]
+}

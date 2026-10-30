@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0016",
+ "feed": "v5",
+ "format": "one1",
+ "num": 16,
+ "processed": "2026-10-08",
+ "source": "로이터",
+ "key": "rtr-1005-jgb-30y-record-takaichi",
+ "published": "2026-10-05",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/",
+ "inds": [
+  "jpins",
+  "macro"
+ ],
+ "nodes": [
+  "jpins/rates",
+  "macro/rates",
+  "macro/fiscal"
+ ],
+ "title": "일본 30년물 금리 4.235% 사상 최고…다카이치 '국채 발행 억제'",
+ "one": "일본 30년물 국채 금리가 10월 5일 사상 최고인 4.235%까지 오르자 다카이치 총리가 국회 연설에서 국채 발행을 억제하겠다고 밝혔지만, 식품 소비세 감세의 재원이 제시되지 않아 초장기 국채 매도 압력이 이어질 수 있다",
+ "headline": "일본 30년물 금리 4.235% 사상 최고…다카이치 '국채 발행 억제'",
+ "facts": [
+  "무엇이: 10월 5일 30년물 국채 금리가 사상 최고인 4.235%까지 올랐고, 10년물은 3.08% 부근, 2년물은 1.9% 안팎이었습니다. [사실]",
+  "누가: 다카이치 총리가 같은 날 임시국회 연설에서 연간 국채 발행을 억제하고 시장이 급변하면 기민하게 대응하겠다고 말했습니다. [사실]",
+  "왜: 내년 4월부터 2년간 식품 소비세를 낮추는 계획의 재원이 제시되지 않은 데다, 중동 전쟁발 물가 우려와 일본은행의 금리 인상·국채 매입 축소가 겹쳤습니다. [사실]",
+  "배경: 일본 정부 부채는 경제 규모의 약 2배이고, 내년도 예산은 각 부처가 사상 최대 규모를 요구한 상태입니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 원문 미확인 — IndexBox(10월 5일, 로이터를 인용한 자체 기사)와 Finimize(10월 5일)로 작성. 매도 압력이 이어질 수 있다는 부분은 출처가 든 매도 원인에 근거한 추론이며, 20년·40년물 금리와 국채 발행 억제의 구체 금액은 확인 못 함.",
+ "src": [
+  {
+   "o": "로이터(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-05",
+   "u": "https://www.indexbox.io/blog/japan-pm-takaichi-pledges-bond-issuance-control-as-30-year-jgb-yield-hits-record-4235/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-05",
+   "u": "https://finimize.com/content/japans-30-year-bond-yield-hit-a-record-ahead-of-takaichis-speech"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Japan's 30-year bond yields hit record high ahead of PM's remarks"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0595",
+ "num": 595,
+ "key": "split-G5-159-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/china-central-bank-chief-says-he-supports-closer-imf-surveillance-fiscal-risks-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "판궁성 인민은행 총재 'IMF, 선진국 재정 위험 감시 강화해야'",
+ "headline": "판궁성 인민은행 총재 'IMF, 선진국 재정 위험 감시 강화해야'",
+ "one": "판궁성 중국 인민은행 총재가 17일 방콕 IMFC 회의에서 IMF가 주요 선진국의 재정 위험과 그 파급 효과를 더 면밀히 감시해야 한다고 하면서, 적자가 큰 미국 등 선진국 재정에 대한 국제적 압박이 커졌다",
+ "facts": [
+  "무엇이: 판궁성 인민은행 총재는 10월 17일 방콕 IMFC 회의에서 IMF가 주요 선진국의 재정 위험과 그 파급 효과를 더 면밀히 감시해야 한다고 했다 [사실]",
+  "배경: IMF는 선진국 재정적자가 2026년 GDP의 5.2%, 미국 일반정부 적자가 8.5%에 이를 것으로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건이다. 원 문서 확인 기록에서 판궁성의 감시 강화 요구를 검색 결과로 확인했고, 독립 출처는 SCMP(17일)다.",
+ "src": [
+  {
+   "o": "SCMP",
+   "d": "2026-10-17",
+   "u": "https://www.scmp.com/economy/global-economy/article/3350718/china-presses-imf-quota-reform-better-surveillance-advanced-economies"
+  }
+ ],
+ "items": [
+  {
+   "t": "中 인민은행 총재 \"IMF의 재정 위험 감시 강화 지지\"",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/asia-pacific/china-central-bank-chief-says-he-supports-closer-imf-surveillance-fiscal-risks-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "판궁성, IMF에 선진국 재정 위험 감시 강화 요구"
+  }
+ ]
+}

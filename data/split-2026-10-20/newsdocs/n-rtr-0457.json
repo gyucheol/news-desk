@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0457",
+ "num": 457,
+ "key": "split-G2-169-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/putin-says-ukrainian-refinery-attacks-caused-little-damage-interfax-reports-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "푸틴 '우크라 정유소 공격 피해 작아'…랴잔은 정제설비 1기 멈춰",
+ "headline": "푸틴 '우크라 정유소 공격 피해 작아'…랴잔은 정제설비 1기 멈춰",
+ "one": "푸틴 대통령이 우크라이나의 정유소 공격 피해가 작았다고 말하면서 러시아가 정유 생산 차질이 크지 않다는 입장을 냈지만, 랴잔 정유소는 15일 공격 뒤 주요 증류설비 한 기를 멈췄다 (제목 기준)",
+ "facts": [
+  "무엇이: 푸틴 대통령은 우크라이나의 정유소 공격 피해가 작았다고 말했다 [제목]",
+  "반대 신호: 랴잔 정유소는 15일 드론 공격 뒤 주요 원유 증류설비 CDU-6의 가동을 멈췄다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 푸틴 발언은 원 문서 확인 기록에 없어 제목 기준이고, 랴잔 가동 중단은 원 문서 사실 줄에서 가져옴",
+ "src": [],
+ "items": [
+  {
+   "t": "푸틴 '우크라 정유소 공격 피해는 작아'…인테르팍스 보도",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/business/energy/putin-says-ukrainian-refinery-attacks-caused-little-damage-interfax-reports-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "refining",
+   "f": "공급",
+   "dir": "flat",
+   "k": "예상",
+   "t": "푸틴, 정유소 공격 피해 작다고 주장"
+  }
+ ]
+}

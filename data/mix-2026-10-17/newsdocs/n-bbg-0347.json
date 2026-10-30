@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0347",
+ "num": 347,
+ "key": "mix-G1-044-2026-10-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-17",
+ "published": "2026-10-17T04:48:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-regulator-approval-of-boeing-s-largest-737-max-jet-imminent",
+ "origTitle": "",
+ "headline": "FAA, 보잉 최대 기종 737 맥스10 이르면 다음 주 승인",
+ "src": [
+  {
+   "o": "Virginia Business",
+   "d": "2026-10-16",
+   "u": "https://virginiabusiness.com/faa-approve-boeing-737-max-10-safety-review/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-02",
+   "u": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 당국, 보잉 최대 737 맥스 기종 승인 임박",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/us-regulator-approval-of-boeing-s-largest-737-max-jet-imminent",
+   "s": "FAA의 보잉 최대 737 맥스 기종 승인이 임박하면서 오래 미뤄진 맥스10 인도 준비가 다시 속도를 낼 전망이다"
+  },
+  {
+   "t": "FAA, 이르면 다음 주 737 맥스10 승인 예정",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/business/aerospace-defense/faa-set-approve-737-max-10-soon-next-week-2026-10-16/",
+   "s": "FAA가 형식증명위원회 검토를 마치고 이르면 다음 주 737 맥스10을 승인할 예정이어서 2027년 첫 상업 인도 길이 열릴 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "FAA, 보잉 최대 기종 737 맥스10 이르면 다음 주 승인",
+ "one": "FAA가 형식증명위원회 검토를 마치고 이르면 다음 주 보잉 737 맥스10을 승인할 전망이고 소프트웨어 결함도 안전 문제가 아니라고 봤지만, 일부 항공사가 결함 소프트웨어를 단 새 항공기 인수를 꺼려 첫 상업 인도는 2027년이 될 수 있다",
+ "facts": [
+  "무엇이: 소식통 3명에 따르면 FAA는 16일 형식증명위원회 검토 뒤 이르면 다음 주 737 맥스10을 승인할 예정이다 [사실]",
+  "쟁점: FAA 검토단은 10월 2일 비행관리 소프트웨어 결함이 안전 문제가 아니어서 인증 조건으로 고칠 필요가 없다고 결론냈다 [사실]",
+  "고객: 사우스웨스트와 유나이티드는 결함 소프트웨어가 실린 새 항공기를 받지 않겠다고 했다 [사실]",
+  "인도: 인증되면 첫 상업 인도는 2027년에 시작될 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "이르면 다음 주 승인 전망, 10월 2일 소프트웨어 결함 판단, 고객사 반응을 검색 결과 요약으로 확인. 승인 자체는 아직 나오지 않음",
+ "added": "이번 로이터 1건으로 FAA의 737 맥스10 승인 시점이 형식증명위원회 검토 뒤 이르면 다음 주로 구체화됐다",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "oem",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "737 맥스10 이르면 다음 주 FAA 승인"
+  }
+ ],
+ "updatedAt": "2026-10-17T11:49:34+09:00"
+}

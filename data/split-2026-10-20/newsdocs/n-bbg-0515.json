@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0515",
+ "num": 515,
+ "key": "split-G4-154-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/wages-may-deliver-a-9-billion-boost-for-healey-at-uk-budget",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "임금 상승, 힐리 예산에 90억 파운드 보탬 가능",
+ "headline": "임금 상승, 힐리 예산에 90억 파운드 보탬 가능",
+ "one": "임금 상승이 힐리 재무장관의 예산에 90억 파운드를 보태 줄 수 있다는 분석이 나오면서, IFS가 지출 약속 이행에 약 350억 파운드가 필요하다고 추산한 재원 공백 가운데 일부 부담이 덜어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 10월 14일 블룸버그는 임금 상승이 힐리 재무장관의 예산에 90억 파운드를 보탤 수 있다고 전했다 [제목]",
+  "재정 공백: IFS는 지출 약속을 지키려면 2030~31년까지 약 350억 파운드를 증세나 복지 축소로 마련해야 한다고 추산했다 [사실]",
+  "해석: 임금 상승은 세수에는 보탬이 되지만 물가 압력으로 이어지면 영란은행의 금리 판단을 어렵게 할 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준(IFS 추산은 원 문서 사실)",
+ "src": [],
+ "items": [
+  {
+   "t": "임금 상승, 힐리의 예산에 90억 파운드 보탬 가능",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/wages-may-deliver-a-9-billion-boost-for-healey-at-uk-budget"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal",
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "임금 상승이 예산에 90억 파운드 보탬 가능"
+  }
+ ]
+}

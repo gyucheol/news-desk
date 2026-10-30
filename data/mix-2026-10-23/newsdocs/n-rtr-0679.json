@@ -1,0 +1,73 @@
+{
+ "id": "n-rtr-0679",
+ "num": 679,
+ "key": "mix-G1-043-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:15:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/us-bans-byd-air-base-japan-over-security-concern-news-report-says-2026-10-23/",
+ "origTitle": "",
+ "headline": "미군, 보안 우려로 일본 가데나 공군기지에 BYD 차량 출입 금지…26일 시행",
+ "src": [
+  {
+   "o": "코리아타임스",
+   "d": "2026-10-23",
+   "u": "https://www.koreatimes.co.kr/world/20261023/us-bans-byd-from-air-base-in-japan-over-security-concern-news-report-says"
+  },
+  {
+   "o": "The China-Global South Project",
+   "d": "2026-10-23",
+   "u": "https://chinaglobalsouth.com/2026/10/23/us-military-byd-vehicle-ban-kadena-japan/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 보안 우려로 일본 공군기지서 BYD 금지…현지 보도",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/us-bans-byd-air-base-japan-over-security-concern-news-report-says-2026-10-23/",
+   "s": "미국이 보안 우려로 일본 공군기지에서 BYD를 금지했다는 연합뉴스 보도가 나오면서, 중국 전기차의 미군 시설 출입이 막히게 됐다"
+  },
+  {
+   "t": "미군, 일본 전략 공군기지서 BYD 차량 금지",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/asia-pacific/us-military-bans-byd-vehicles-strategic-air-base-japan-2026-10-23/",
+   "s": "미군이 가데나 기지에서 BYD 차량을 26일부터 금지한다고 확인하면서, 기지 인력·계약업체·택시 차량까지 예외 없이 적용된다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "미군, 보안 우려로 일본 가데나 공군기지에 BYD 차량 출입 금지…26일 시행",
+ "one": "미군이 보안 우려를 이유로 일본 오키나와 가데나 공군기지에서 BYD 차량을 금지한다\n· 금지는 10월 26일부터 시행되며, 기지 대변인은 BYD 차량이 인력과 임무에 받아들일 수 없는 위험이라고 했다\n· 연합뉴스는 BYD 카메라·센서가 기지 정보를 수집·유출할 수 있다는 우려라고 전했다\n· 기지 인력·계약업체·상업 차량·택시 모두 예외 없이 적용된다고 전해졌다\n· 미 국방부는 6월 BYD를 중국군 지원 기업 명단에 올렸고, BYD는 법적 대응을 밝힌 바 있다",
+ "facts": [
+  "무엇이: 미군은 10월 26일 월요일부터 오키나와 가데나 공군기지에서 BYD 차량을 금지한다 [사실]",
+  "이유: 기지 대변인은 BYD 차량이 인력과 임무에 받아들일 수 없고 완화할 수 없는 위험이라고 했지만 구체적 우려는 밝히지 않았고, 연합뉴스는 카메라·센서를 통한 기지 정보 유출 우려를 전했다 [사실]",
+  "범위: 기지 인력·계약업체·상업 차량·택시 모두 예외 없이 적용된다고 연합뉴스가 전했다 [사실]",
+  "배경: 미 국방부는 6월 BYD를 중국군 지원 기업으로 지정했고 BYD는 이를 부인하며 법적 대응을 밝혔으며, BYD는 7월 일본에 경차 라코를 내놨다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "기지명·시행일·대변인 발언은 검색 결과 요약으로 확인, 구체적 우려 내용은 연합뉴스 전언",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "chinaoem",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "미군 가데나 기지 BYD 차량 출입 금지"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "n-tg-0731",
+ "num": 731,
+ "key": "mix-G1-032-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T22:13:00+09:00",
+ "url": "https://t.me/PipeBeom/6820",
+ "origTitle": "",
+ "headline": "에너지 위기, 식량 위기로 번질 우려…S&P '황 70%↑'·알제리, 프랑스행 요소 수출 중단 지시",
+ "src": [
+  {
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-23",
+   "u": "https://t.me/PipeBeom/6820"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-23",
+   "u": "https://www.globalbankingandfinance.com/exclusive-algerian-urea-exports-france-threat-diplomatic/"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-23",
+   "u": "https://www.newsquawk.com/headlines/algeria-has-instructed-producers-of-urea-fertiliser-to-stop-supplying-france-according-to-reports-france-has-raised-algerian-trade-curbs-at-eu-level"
+  }
+ ],
+ "items": [
+  {
+   "t": "WSJ '에너지 위기 뒤 식량 위기 올 수도'…S&P, 황 70% 상승 경고",
+   "o": "텔레그램 상상인 김진범",
+   "d": "2026-10-23",
+   "u": "https://t.me/PipeBeom/6820",
+   "s": "S&P글로벌이 비료값 상승·경유 불안·엘니뇨를 위험으로 꼽고 황 가격이 1월 대비 약 70% 올랐다고 하면서, 수확량 감소와 식량 위기 우려가 커졌다"
+  },
+  {
+   "t": "소식통 '외교 갈등 지속에 알제리산 요소의 프랑스 수출 위협받아'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/africa/algerian-urea-exports-france-under-threat-diplomatic-tensions-persist-sources-2026-10-23/",
+   "s": "알제리가 프랑스와의 외교 갈등 속에 자국 요소 생산업체들에 프랑스 수출 중단을 지시했다고 소식통들이 전하면서, 유럽 질소비료 공급에 차질 우려가 생겼다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "channel": "상상인 김진범",
+ "title": "에너지 위기, 식량 위기로 번질 우려…S&P '황 70%↑'·알제리, 프랑스행 요소 수출 중단 지시",
+ "one": "호르무즈발 에너지 위기가 비료값과 공급 차질을 거쳐 식량 위기로 번질 수 있다는 경고가 나왔다\n· S&P글로벌은 비료값 상승·경유 공급 불안·엘니뇨를 주요 위험으로 꼽았다\n· 공급 부족이 이어진 황 가격은 9월에 1월보다 약 70% 올랐다\n· 농가가 비료를 덜 쓰면 수확량이 줄 수 있는데 농산물 선물값은 이를 덜 반영한다는 지적이 나왔다\n· 알제리는 외교 갈등 속에 자국 요소 생산업체에 프랑스 수출 중단을 지시했다고 소식통들이 전했다",
+ "facts": [
+  "무엇이: WSJ는 S&P글로벌을 인용해 비료값 상승, 경유 공급 불안, 엘니뇨가 에너지 위기를 식량 위기로 번지게 할 수 있다고 전했다 [채널]",
+  "황: 호르무즈 해협은 비료와 원료의 주요 운송로이며, 공급 부족이 이어진 황 가격은 9월에 1월 대비 약 70% 올랐다 [채널]",
+  "알제리: 알제리가 요소 생산업체들에 프랑스 수출을 멈추라고 지시했다고 외교·업계 소식통 5명이 전했고, 7월 말 프랑스산 수입의 사실상 전면 금지에 이은 조치다 [사실]",
+  "교역: 양국 교역은 2024년 약 110억 유로에서 2026년 중반까지 12개월간 약 86억~89억 유로로 줄었다 [사실]",
+  "전망: 식량 공급 충격은 파종·수확 주기를 거쳐 늦게 드러나고 식비 비중이 큰 저소득국에 더 클 수 있다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "알제리 요소 수출 중단 지시는 검색 결과 요약으로 확인. S&P 황 70% 상승은 독립 출처로 확인 못 함",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "황 가격 9월에 1월 대비 약 70% 상승"
+  },
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "알제리, 프랑스행 요소 수출 중단 지시"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

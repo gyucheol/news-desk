@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0450",
+ "num": 450,
+ "key": "split-G2-156-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/kremlin-says-contacts-trumps-russia-ukraine-energy-ceasefire-are-continuing-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "크렘린 '트럼프 에너지 휴전 관련 접촉 계속…발표할 것 없어'",
+ "headline": "크렘린 '트럼프 에너지 휴전 관련 접촉 계속…발표할 것 없어'",
+ "one": "크렘린이 트럼프가 밝힌 러·우 에너지 휴전을 두고 접촉은 계속되지만 발표할 내용은 없다고 하면서, 트럼프의 즉시 발효 주장에도 러시아의 휴전 수용 여부가 불확실하게 남았다 (제목 기준)",
+ "facts": [
+  "무엇이: 크렘린은 13일 트럼프의 러·우 에너지 휴전과 관련한 접촉이 계속되고 있지만 발표할 내용은 없다고 밝혔다 [제목]",
+  "배경: 트럼프는 11일 에너지 휴전이 즉시 발효됐다고 했지만 러시아는 이를 확인하지 않았다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 src 가운데 크렘린 발언을 뒷받침하는 것을 고르지 못해 제목 기준으로 낮춤",
+ "src": [],
+ "items": [
+  {
+   "t": "크렘린 \"트럼프의 러·우 에너지 휴전 관련 접촉 계속\"",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/kremlin-says-contacts-trumps-russia-ukraine-energy-ceasefire-are-continuing-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "크렘린 휴전 접촉 계속, 수용 여부 불확실"
+  }
+ ]
+}

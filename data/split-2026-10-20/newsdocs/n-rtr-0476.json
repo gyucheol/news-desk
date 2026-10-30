@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0476",
+ "num": 476,
+ "key": "split-G3-102-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/government/chinas-securities-regulator-vows-prioritise-market-stability-global-risks-mount-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "中 증감회, 글로벌 위험 커지자 '시장 안정 최우선' 다짐",
+ "headline": "中 증감회, 글로벌 위험 커지자 '시장 안정 최우선' 다짐",
+ "one": "중국 증권감독관리위원회가 글로벌 위험이 커지는 가운데 시장 안정을 최우선하겠다고 다짐하면서, 사상 최장 주간 연속 하락을 겪은 중국 증시에 추가 안정 조치가 나올 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 20일 중국 증감회가 글로벌 위험이 커지는 가운데 시장 안정을 최우선하겠다고 다짐했다고 전했다 [제목]",
+  "앞선 조치: 당국은 매도 제한과 자사주 매입으로 증시를 떠받쳤고, 15일에는 주식형 ETF 거래대금이 약 40% 급증해 정부 개입이 추정됐다 [채널]",
+  "확인: 원 문서 검색 결과 요약에는 증감회의 10월 19일 발언이 없었다 [미확인]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(제목 기준)이다. 원 문서 확인 기록상 검색 결과 요약에 증감회의 10월 19일 발언이 없어 제목만 근거다.",
+ "src": [],
+ "items": [
+  {
+   "t": "中 증감회, 글로벌 위험 커지자 '시장 안정 최우선' 다짐",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/government/chinas-securities-regulator-vows-prioritise-market-stability-global-risks-mount-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "증감회 시장 안정 최우선 다짐, 추가 조치 가능"
+  }
+ ]
+}

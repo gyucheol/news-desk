@@ -1,0 +1,55 @@
+{
+ "id": "n-tg-0133",
+ "feed": "v5",
+ "format": "one1",
+ "num": 133,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-The_MariTimes-63578",
+ "published": "2026-10-08T01:36:00+09:00",
+ "url": "https://t.me/The_MariTimes/63578",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "title": "IIF \"9월 신흥국 주식서 192억 달러 유출\"…한국 주식 매도가 주도",
+ "one": "국제금융협회(IIF) 집계에서 9월 신흥국 주식시장의 외국인 자금 192억 달러가 빠져나갔고 그 중심이 한국 주식 매도여서, 코스피 반도체 대형주에 외국인 매도 압력이 몰렸다",
+ "headline": "IIF \"9월 신흥국 주식서 192억 달러 유출\"…한국 주식 매도가 주도",
+ "facts": [
+  "무엇이: 국제금융협회(IIF)는 9월 신흥국 주식에서 외국인 자금 192억 달러가 빠져나갔고 한국 주식 대량 매도가 이를 이끌었다고 집계했습니다 [채널]",
+  "한국: 외국인은 9월 유가증권시장에서 21조 5,108억 원을 순매도해 5개월 연속 매도를 이어갔습니다 [사실]",
+  "어디에: 9월 외국인 순매도액의 76.6%가 SK하이닉스와 삼성전자 두 종목에 몰렸습니다 [사실]",
+  "배경: 미국 10년물 국채금리가 5.29%까지 오르는 가운데 외국인 매도가 이어졌습니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "텔레그램 글(스트레이츠타임스 기사 링크, 로이터발 IIF 집계)로 들어온 소식입니다. 192억 달러라는 IIF 수치는 로이터 계열 보도에만 있어 독립 출처로 확인하지 못했고, 한국 쪽 외국인 순매도 규모와 종목 쏠림은 서울경제(2026-10-01 전후) 기사 검색 결과 요약으로 확인했습니다.",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-08",
+   "u": "https://t.me/The_MariTimes/63578"
+  },
+  {
+   "o": "스트레이츠타임스(원문 미확인)",
+   "d": "2026-10-07",
+   "u": "https://www.straitstimes.com/business/hawkish-fed-triggers-emerging-market-outflows-in-september"
+  },
+  {
+   "o": "서울경제",
+   "d": "2026-10",
+   "u": "https://www.sedaily.com/article/20096754"
+  },
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-01",
+   "u": "https://en.sedaily.com/finance/2026/10/01/foreign-investors-sell-korean-stocks-for-fifth-month-as-us"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "Polaristimes"
+}

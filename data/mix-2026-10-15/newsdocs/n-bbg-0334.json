@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0334",
+ "num": 334,
+ "key": "mix-G4-048-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-15",
+ "published": "2026-10-16T06:43:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-15/penske-automotive-to-be-taken-private-at-16-3-billion-valuation",
+ "origTitle": "",
+ "headline": "펜스케 오토모티브, 펜스케·미쓰이에 163억 달러 가치로 비상장 전환",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-15",
+   "u": "https://www.cnbc.com/2026/10/15/penske-automotive-agrees-to-be-taken-private-by-penske-mitsui.html"
+  },
+  {
+   "o": "Pulse 2.0",
+   "d": "2026-10-15",
+   "u": "https://pulse2.com/penske-automotive-group-to-be-taken-private-by-penske-corporation-and-mitsui-in-16-3-billion-deal/"
+  }
+ ],
+ "items": [
+  {
+   "t": "펜스케 오토모티브, 163억 달러 가치로 비상장 전환",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/penske-automotive-to-be-taken-private-at-16-3-billion-valuation",
+   "s": "펜스케 오토모티브가 기업가치 163억 달러에 비상장으로 전환하기로 하면서 일반 주주들이 주당 212달러 현금을 받게 됐다"
+  },
+  {
+   "t": "펜스케 오토모티브, 펜스케·미쓰이의 비상장 전환에 합의",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/legal/transactional/penske-automotive-agrees-be-taken-private-by-penske-mitsui-2026-10-15/",
+   "s": "펜스케 코퍼레이션이 약 64%, 미쓰이가 약 36%를 갖는 구조로 비상장 전환에 합의해 2027년 1분기 상장 폐지될 예정이다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "펜스케 오토모티브, 펜스케·미쓰이에 163억 달러 가치로 비상장 전환",
+ "one": "펜스케 코퍼레이션과 미쓰이물산이 미국 자동차 딜러 펜스케 오토모티브를 기업가치 약 163억 달러에 비상장으로 전환하기로 하면서, 일반 주주는 주당 212달러를 현금으로 받고 회사는 2027년 1분기 뉴욕증권거래소를 떠난다",
+ "facts": [
+  "무엇이: 펜스케 오토모티브는 10월 15일 펜스케 코퍼레이션·미쓰이물산에 부채 포함 약 163억 달러 가치로 비상장 전환하는 데 합의했다 [사실]",
+  "가격: 일반 주주는 주당 212달러를 현금으로 받으며, 전일 종가 대비 웃돈은 약 8.8%다 [사실]",
+  "지분·자금: 거래 뒤 펜스케 코퍼레이션이 약 64%, 미쓰이가 약 36%를 갖고, 22억 달러 자기자본 약정과 18억 달러 차입 약정을 확보했다 [사실]",
+  "일정: 거래는 비계열 주주 과반 승인을 거쳐 2027년 1분기 마무리될 예정이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "거래 가치·주당 가격·지분 구조·일정은 검색 결과 요약으로 확인",
+ "added": "이번 로이터 1건으로 거래 뒤 펜스케 코퍼레이션 약 64%·미쓰이 약 36% 지분 구조와 2027년 1분기 마무리 일정이 추가됐다",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "주당 212달러, 웃돈 약 8.8%로 비상장 전환"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

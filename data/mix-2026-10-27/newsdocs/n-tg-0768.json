@@ -1,0 +1,69 @@
+{
+ "id": "n-tg-0768",
+ "num": 768,
+ "key": "mix-G1-040-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T06:10:00+09:00",
+ "url": "https://t.me/insidertracking/67430",
+ "origTitle": "",
+ "headline": "엘리멘틀 파워, 최대 7.5억 달러 원전 개발 파트너십 예비합의…GE버노바 히타치 BWRX-300 활용",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67430"
+  },
+  {
+   "o": "OilPrice",
+   "d": "2026-10-27",
+   "u": "https://oilprice.com/Company-News/Elementl-Power-Eyes-750-Million-Deal-for-US-Nuclear-Projects.html"
+  },
+  {
+   "o": "POWER Magazine",
+   "d": "2026-10-27",
+   "u": "https://www.powermag.com/elementl-power-developing-ohio-smr-project-with-ge-vernova-hitachi-nuclear-energy/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엘리멘틀 파워, BWRX-300 활용 7.5억 달러 원전 개발 예비합의",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67430"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "uranium"
+ ],
+ "nodes": [
+  "uranium/build"
+ ],
+ "channel": "미국 주식 인사이더",
+ "title": "엘리멘틀 파워, 최대 7.5억 달러 원전 개발 파트너십 예비합의…GE버노바 히타치 BWRX-300 활용",
+ "one": "미국 원전 개발사 엘리멘틀 파워가 최대 7억 5,000만 달러 규모 원전 개발 파트너십 예비합의를 맺었다\n· 한국 DS투자파트너스 주도 컨소시엄과 맺은 합의로 삼성물산 건설부문이 전략 투자자 후보로 참여한다\n· 자금은 GE버노바 히타치 BWRX-300을 쓰는 오하이오 1.5GW 사업 등 최대 3개 사업의 투자결정 전 단계에 쓰인다",
+ "facts": [
+  "무엇이: 엘리멘틀 파워가 DS투자파트너스 주도 컨소시엄과 최대 7억 5,000만 달러(7.5억 달러) 규모 원전 개발 파트너십 예비합의(의향서·조건 합의서)를 맺었다 [사실]",
+  "기술: 계획된 사업에는 GE버노바 히타치 원자력의 BWRX-300 소형모듈원자로가 쓰이며 오하이오 1.5GW 사업이 포함된다 [사실]",
+  "용도: 최대 3개 사업의 인허가·계통 연결·장납기 기자재 조달 등 최종투자결정 전 비용 일부를 댄다 [사실]",
+  "단계: 최종 계약·규제 승인 전의 예비 단계로 최종투자결정이 아니며 구체 일정은 공개되지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "7억 5,000만 달러 예비합의, DS투자파트너스·삼성물산 컨소시엄, 오하이오 BWRX-300 사업은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "build",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "BWRX-300 SMR 사업에 최대 7.5억 달러 개발자금 예비합의"
+  }
+ ]
+}

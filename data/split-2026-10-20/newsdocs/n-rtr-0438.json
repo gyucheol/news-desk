@@ -1,0 +1,74 @@
+{
+ "id": "n-rtr-0438",
+ "num": 438,
+ "key": "split-G2-096-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T21:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/russia-calls-french-seizure-alleged-shadow-fleet-tanker-violation-international-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "프랑스, 그림자 선단 유조선 DF피크 또 나포…러시아 \"해적 행위\"",
+ "headline": "프랑스, 그림자 선단 유조선 DF피크 또 나포…러시아 \"해적 행위\"",
+ "one": "프랑스가 인도양에서 제재 대상 유조선 DF피크를 나포해 레위니옹으로 끌고 가자 러시아가 해적 행위이자 국제법 위반이라며 사전 통보도 없었다고 반발하면서, 그림자 선단 운항 위험과 제재 단속을 둘러싼 러·佛 갈등이 커지고 있다",
+ "facts": [
+  "무엇이: 프랑스가 인도양에서 제재 대상 유조선 DF피크를 나포해 레위니옹으로 끌고 갔다 [사실]",
+  "반발: 러시아는 나포를 해적 행위이자 국제법 위반으로 규정하고 사전 통보도 없었다고 반발했다 [사실]",
+  "흐름: 프랑스는 그림자 선단 유조선을 잇따라 나포해 왔다 [사실]",
+  "반대 신호: 미국은 같은 주 운임을 낮추려 그림자 선단 일부의 제재 완화를 검토했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 2건을 묶음. 프랑스의 그림자 선단 유조선 나포와 러시아 반발을 gCaptain·The Moscow Times 검색 결과로 확인",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-13",
+   "u": "https://gcaptain.com/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy/"
+  },
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-13",
+   "u": "https://www.themoscowtimes.com/2026/10/13/french-navy-boards-russia-linked-tanker-in-indian-ocean-a93956"
+  }
+ ],
+ "items": [
+  {
+   "t": "러시아, 프랑스의 그림자 선단 의심 유조선 나포는 국제법 위반",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/europe/russia-calls-french-seizure-alleged-shadow-fleet-tanker-violation-international-2026-10-13/",
+   "s": "러시아가 프랑스의 그림자 선단 유조선 나포를 국제법 위반으로 규정하고 사전 통보도 없었다고 반발하면서 제재 단속을 둘러싼 러·佛 갈등이 커지고 있다"
+  },
+  {
+   "t": "프랑스, 그림자 선단 유조선 또 나포…러시아 '해적 행위' 비난",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/france-seizes-another-shadow-fleet-tanker-russia-decries-piracy-2026-10-13/",
+   "s": "프랑스가 인도양에서 제재 대상 유조선 DF피크를 나포해 레위니옹으로 끌고 가자 러시아가 해적 행위라고 비난하면서 그림자 선단 운항 위험이 커지고 있다"
+  }
+ ],
+ "inds": [
+  "oil",
+  "shipping",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스, 그림자 선단 유조선 DF피크 나포"
+  }
+ ]
+}

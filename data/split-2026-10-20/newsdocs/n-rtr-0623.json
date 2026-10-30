@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0623",
+ "num": 623,
+ "key": "split-G6-131-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/legal/transactional/austrias-steyr-motors-receives-takeover-offer-us-drone-firm-red-cat-2026-10-19/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "오스트리아 슈타이어 모터스, 미국 드론업체 레드캣서 인수 제안 받아",
+ "headline": "오스트리아 슈타이어 모터스, 미국 드론업체 레드캣서 인수 제안 받아",
+ "one": "로이터에 따르면 오스트리아 슈타이어 모터스가 10월 19일 미국 드론업체 레드캣으로부터 인수 제안을 받으면서, 유럽 방산 공급망 기업을 둘러싼 인수 움직임이 이어지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 오스트리아 슈타이어 모터스가 미국 드론업체 레드캣으로부터 인수 제안을 받았다(10월 19일 로이터) [제목]",
+  "흐름: 같은 날 라인메탈·MSC의 루마니아 조선소 인수가 발표되는 등 유럽 방산 재편이 이어졌다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 19일)이다. 원 문서 확인 기록대로 레드캣 건은 제목 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "오스트리아 슈타이어 모터스, 미국 드론업체 레드캣서 인수 제안 받아",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/legal/transactional/austrias-steyr-motors-receives-takeover-offer-us-drone-firm-red-cat-2026-10-19/"
+  }
+ ],
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "parts",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "레드캣, 슈타이어 모터스에 인수 제안"
+  }
+ ]
+}

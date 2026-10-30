@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0451",
+ "num": 451,
+ "key": "split-G2-158-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/russia-hits-no-energy-targets-ukraine-first-time-since-trumps-truce-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "러시아, 트럼프 휴전 뒤 처음으로 우크라 에너지 시설 공격 안 해",
+ "headline": "러시아, 트럼프 휴전 뒤 처음으로 우크라 에너지 시설 공격 안 해",
+ "one": "러시아가 트럼프의 에너지 휴전 발표 뒤 처음으로 우크라이나 에너지 시설을 공격하지 않으면서, 발표 직후 하르키우 발전소 피격으로 흔들렸던 에너지 휴전이 자리 잡을지 시험대에 올랐다 (제목 기준)",
+ "facts": [
+  "무엇이: 러시아가 트럼프의 휴전 발표 뒤 처음으로 우크라이나 에너지 시설을 공격하지 않았다 [제목]",
+  "배경: 러시아는 11일 휴전 발표 몇 시간 만에 하르키우 CHP-5 발전소를 때려 도시 전체가 정전됐었다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "러시아, 트럼프 휴전 뒤 처음으로 우크라이나 에너지 시설 공격 안 해",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/russia-hits-no-energy-targets-ukraine-first-time-since-trumps-truce-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/geo",
+  "power/gen"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "러, 휴전 뒤 처음 우크라 에너지 시설 공격 안 해"
+  }
+ ]
+}

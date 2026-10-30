@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0465",
+ "num": 465,
+ "key": "split-G4-044-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라가르드 \"지속 가능한 재정이 경제 안정의 열쇠\"",
+ "headline": "라가르드 \"지속 가능한 재정이 경제 안정의 열쇠\"",
+ "one": "라가르드 ECB 총재가 10월 17일 지속 가능한 재정을 경제 안정의 열쇠로 꼽으면서, 장기금리 급등 속에 국채 금리가 뛴 유로존 정부들의 재정 관리 부담이 한층 부각됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 라가르드 ECB 총재가 지속 가능한 재정을 경제 안정의 열쇠로 꼽았다(10월 17일 블룸버그) [제목]",
+  "배경: 라가르드는 같은 날 장기금리 급등으로 금융 여건이 조여졌다고 했다 [사실]",
+  "의미: 국채 금리가 뛴 유로존 정부들의 재정 관리 부담이 부각됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 17일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "라가르드 '지속 가능한 재정이 경제 안정의 열쇠'",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "라가르드, 지속 가능한 재정을 안정의 열쇠로 꼽아"
+  }
+ ]
+}

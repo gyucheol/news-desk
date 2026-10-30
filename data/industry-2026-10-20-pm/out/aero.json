@@ -1,0 +1,300 @@
+{
+ "id": "aero",
+ "summary": "항공·방산의 민간 사슬은 소재·부품이 엔진·기체 제조사로 모여 항공기가 되고, 리스사와 항공사가 그 기재로 승객·화물을 나르며 공항이 이착륙 길목을 여는 흐름입니다. 여기에 국방 예산이 무기 체계·미사일·탄약 주문으로 이어지는 방산 사슬과 발사체·위성의 우주 사슬이 붙어 있습니다. 2026년 10월 가장 빠듯한 곳은 여전히 항공기 생산과 인증으로, 에어버스는 연 목표 약 870대까지 4분기 323대가 남았고 약 1,500대 주문이 쌓인 737 맥스10은 인증 발표를 앞뒀지만 첫 상업 인도는 2027년이 될 전망입니다. 방산은 요격미사일이 가장 빠듯해 사우디가 재고 부족을 인정하고 외부 방공 지원을 요청했으며 폴란드행 패트리엇 인도도 늦어지고, 유럽에서는 라인메탈·MSC의 루마니아 조선소 인수처럼 생산능력 확보가 이어집니다. 여유가 생긴 쪽은 항공사로, 연료비 급등에 에어아시아·케냐항공이 손실과 정부 자금 문제를 겪고, 후티의 리야드 공항 공격 뒤 걸프·유럽 항공사가 사우디 운항을 멈췄습니다. 다만 미국 항공 운임은 9월 22.4% 올라 비용을 운임에 넘기는 곳도 나옵니다.",
+ "state": {
+  "oem": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/aerospace-defense/us-set-announce-certification-boeing-737-max-10-tuesday-sources-say-2026-10-19/",
+    "nid": "n-bbg-0347",
+    "t": "FAA 형식증명위원회 검토를 마친 737 맥스10은 미국 정부가 10월 20일 인증을 발표할 예정으로 전해졌고, 쌓인 주문 약 1,500대는 737 미인도 주문의 약 30%입니다 [사실]"
+   }
+  ],
+  "airlines": [
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22",
+    "nid": "n-bbg-0357",
+    "t": "미국 항공 운임은 9월 전년 대비 22.4% 올라 소비자물가 상승률 3.7%를 크게 웃돌았고, 항공사들은 비싼 프리미엄 좌석 비중을 늘리고 있습니다 [사실]"
+   },
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/middle-east/qatar-airways-suspends-riyadh-dammam-flights-airport-attacks-disrupt-air-travel-2026-10-13/",
+    "nid": "n-rtr-0395",
+    "t": "카타르항공이 10월 13일 리야드·담맘 노선을 재개 일정 없이 멈췄고 에티하드·걸프에어도 사우디 항공편을 취소했으며, 루프트한자·에어인디아는 리야드 운항을 중단했습니다 [사실]"
+   }
+  ],
+  "airports": [
+   {
+    "d": "2026-10-10",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/india/indian-national-injured-riyadh-airport-attack-dies-embassy-says-2026-10-11/",
+    "nid": "n-rtr-0387",
+    "t": "후티가 10월 10일 리야드 킹칼리드 국제공항을 다시 공격해 최소 12명이 숨지고 300명 넘게 다쳤고, 8일 아브하·리야드 공항 공격에서도 3명이 숨졌습니다 [사실]"
+   },
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/middle-east/saudi-fii-postpones-flagship-conference-until-2027-2026-10-19/",
+    "nid": "n-tg-0357",
+    "t": "일주일 폐쇄 뒤 다시 연 리야드 공항은 운항을 제한해 19일 예정편의 18%인 108편이 결항했고, 10월 26~29일 열려던 FII 정상회의는 2027년으로 미뤄졌습니다 [사실]"
+   }
+  ],
+  "munitions": [
+   {
+    "d": "2026-10-11",
+    "o": "텔레그램 하나증권 중국전략",
+    "u": "https://t.me/HANAchina/70219",
+    "nid": "n-tg-0368",
+    "t": "사우디 관리들이 요격미사일 재고 부족을 인정하고 프랑스·영국·파키스탄·이집트에 방공 지원을 요청했고, 후티 공격의 절반 이상이 방공망 없는 지역에 몰렸다는 미 당국자 발언이 전해졌습니다 [채널]"
+   },
+   {
+    "d": "2026-10-12",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/aerospace-defense/patriot-interceptor-deliveries-poland-will-be-delayed-top-general-says-2026-10-12/",
+    "nid": "n-rtr-0393",
+    "t": "폴란드군 최고사령관은 폴란드행 패트리엇 요격미사일 인도가 늦어질 것이라고 밝혔고, 채널은 이란 전쟁 소모로 PAC-3 MSE 인도가 밀린다고 전했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-20",
+    "o": "텔레그램 미국 주식 인사이더",
+    "u": "https://t.me/insidertracking/66741",
+    "nid": "n-tg-0683",
+    "t": "미국 전쟁부와 BAE시스템스가 저비용 대드론 무기인 APKWS 유도 키트를 연 최대 2만 5,000개(최대 3만 5,000개까지 확대) 공급하는 기본 협약을 맺었습니다 [채널]"
+   }
+  ],
+  "platforms": [
+   {
+    "d": "2026-10-19",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/aerospace-defense/rheinmetall-msc-jointly-acquire-romanian-shipyard-2026-10-19/",
+    "nid": "n-rtr-0344",
+    "t": "라인메탈과 MSC가 루마니아 망갈리아 조선소를 1억 3,800만 유로에 공동 인수해 루마니아 정부 발주 함정 4척 건조에 쓰기로 했고, KNDS CEO는 2027년 4월 전 상장을 원한다고 했습니다 [사실]"
+   }
+  ],
+  "parts": [
+   {
+    "d": "2026-10-14",
+    "o": "로이터",
+    "u": "https://www.reuters.com/business/aerospace-defense/renk-wins-130-million-leopard-2-contract-extension-knds-2026-10-14/",
+    "nid": "n-rtr-0608",
+    "t": "변속기 업체 렝크가 KNDS로부터 레오파르트2 전차 관련 1억 3,000만 규모 계약 연장을 따내 전차 부품 수요가 이어집니다 [제목]"
+   }
+  ],
+  "defspend": [
+   {
+    "d": "2026-10-13",
+    "o": "로이터",
+    "u": "https://www.reuters.com/world/middle-east/turkey-send-mecca-agreement-parliament-soon-erdogan-says-2026-10-12/",
+    "nid": "n-tg-0332",
+    "t": "사우디·파키스탄·튀르키예가 메카 방위협정을 처음 발동해 사우디에 병력을 배치하기로 했고, 에르도안 대통령은 협정을 곧 의회에 보내겠다고 했습니다 [채널]"
+   },
+   {
+    "d": "2026-10-14",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-14/uk-needs-to-slash-spending-to-fund-defense-buildup-imf-warns",
+    "nid": "n-bbg-0514",
+    "t": "IMF는 영국이 국방력 증강 재원을 마련하려면 다른 지출을 줄여야 한다고 경고하고, 10월 28일 예산안을 앞두고 어떤 지출을 줄일지 설명하라고 요구했습니다 [사실]"
+   }
+  ],
+  "space": [
+   {
+    "d": "2026-10-19",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-19/musk-says-he-will-gift-spacex-shares-to-every-kid-in-america",
+    "nid": "n-tg-0316",
+    "t": "머스크가 내년 미국 모든 어린이에게 보유한 스페이스X 주식을 1주씩 주겠다고 했고, 직전 종가 146.03달러·미성년자 약 7,200만 명 기준 약 105억 달러어치입니다 [사실]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-19",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/airlines-target-rich-travelers-as-us-ticket-prices-surge-22",
+   "nid": "n-bbg-0357",
+   "t": "미국 항공 운임은 9월 전년 대비 22.4% 올라 전체 소비자물가 상승률 3.7%를 크게 웃돌았습니다 [사실]"
+  },
+  {
+   "d": "2026-10-19",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/riyadh-airport-restricts-jet-traffic-in-wake-of-houthi-attacks",
+   "nid": "n-tg-0357",
+   "t": "후티 공격 뒤 일주일 폐쇄했다 다시 연 리야드 킹칼리드 공항에서 19일 예정편의 18%인 108편이 결항했습니다 [사실]"
+  },
+  {
+   "d": "2026-10-20",
+   "kind": "supply",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/66741",
+   "nid": "n-tg-0683",
+   "t": "BAE시스템스의 APKWS 유도 키트 공급 협약 물량은 연 최대 2만 5,000개이며 최대 3만 5,000개까지 늘릴 수 있습니다 [채널]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0357",
+   "t": "재검토 필요: 미국 항공 운임 9월 +22.4%와 프리미엄 좌석 확대는 항공사가 연료비를 운임에 넘기는 ⑧ 회복 초기를 가리킬 수 있지만, 라탐항공의 성장 억제와 사우디 노선 중단이 엇갈려 아직 미국 중심 신호입니다 [유추]"
+  },
+  {
+   "nid": "n-tg-0368",
+   "t": "재검토 필요: 사우디의 요격미사일 재고 부족 인정과 폴란드행 패트리엇 인도 지연은 미사일·탄약 노드가 ② 증설보다 공급이 빠듯한 ① 고수익·호황 쪽에 있음을 가리키며, 소모가 생산을 앞서기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "b": [
+   {
+    "t": "민항기는 수요가 10년 뒤 인도분까지 잡혀 있고 공급은 인증·부품에서 막힙니다. ACG는 2032~2035년 인도분 75대를 주문했고 에이볼론의 확정 잔량은 749대이며, 약 1,500대 주문이 쌓인 737 맥스10은 인증을 앞뒀지만 첫 상업 인도는 2027년이 될 전망입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/aerospace-defense/acg-orders-75-airbus-a320neo-jets-lessors-biggest-purchase-yet-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-19",
+      "u": "https://www.reuters.com/business/aerospace-defense/us-set-announce-certification-boeing-737-max-10-tuesday-sources-say-2026-10-19/"
+     }
+    ]
+   },
+   {
+    "t": "요격미사일은 소모가 생산을 앞섭니다. CSIS는 미국이 이란 전쟁에서 패트리엇 1,050~1,430발을 쓴 것으로 추정했고, 사우디는 요격미사일 재고 부족을 인정해 외부에 방공 지원을 요청했으며 폴란드행 패트리엇 인도도 늦어집니다 [채널]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-13",
+      "u": "https://t.me/insidertracking/66078"
+     },
+     {
+      "o": "텔레그램 하나증권 중국전략",
+      "d": "2026-10-11",
+      "u": "https://t.me/HANAchina/70219"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-12",
+      "u": "https://www.reuters.com/business/aerospace-defense/patriot-interceptor-deliveries-poland-will-be-delayed-top-general-says-2026-10-12/"
+     }
+    ]
+   }
+  ],
+  "b1": [
+   {
+    "t": "인도 슬롯이 귀해 리스사가 기체를 미리 잡는 흐름이 이어지고, 인증 가속 논의가 결실을 보면 보잉 신기종 인도가 앞당겨질 수 있습니다 [유추]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/aerospace-defense/acg-orders-75-airbus-a320neo-jets-lessors-biggest-purchase-yet-2026-10-16/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-14",
+      "u": "https://www.reuters.com/business/aerospace-defense/us-transportation-secretary-meeting-with-boeing-ge-ceos-aircraft-certification-2026-10-14/"
+     }
+    ]
+   },
+   {
+    "t": "고가 요격미사일이 모자라자 값싼 대드론 무기 공급이 늘어날 가능성이 높습니다. BAE는 APKWS 유도 키트를 연 최대 2만 5,000개 공급하기로 했고, 안두릴은 저가 요격미사일의 유럽 생산을 폴란드 PGZ와 논의합니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 미국 주식 인사이더",
+      "d": "2026-10-20",
+      "u": "https://t.me/insidertracking/66741"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-16",
+      "u": "https://www.reuters.com/business/aerospace-defense/us-arms-firm-anduril-could-make-interceptors-europe-executive-says-2026-10-16/"
+     }
+    ]
+   }
+  ],
+  "d": [
+   {
+    "t": "에너지·지정학으로 보면 같은 사건이 두 사슬을 반대로 움직입니다. 후티가 리야드 공항을 공격해 최소 12명이 숨지고 공항이 일주일 닫히자 카타르항공·루프트한자가 사우디 운항을 멈췄지만, 사우디·파키스탄·튀르키예는 메카 방위협정을 발동하고 방공 지원을 찾습니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/world/middle-east/qatar-airways-suspends-riyadh-dammam-flights-airport-attacks-disrupt-air-travel-2026-10-13/"
+     },
+     {
+      "o": "로이터",
+      "d": "2026-10-13",
+      "u": "https://www.reuters.com/world/middle-east/turkey-send-mecca-agreement-parliament-soon-erdogan-says-2026-10-12/"
+     }
+    ]
+   },
+   {
+    "t": "항공유는 가격뿐 아니라 물류도 병목입니다. 프랑크푸르트 공항은 송유관 정비와 라인강 저수위로 공급이 빠듯해져 루프트한자가 연료 추가 탑재를 지시했고, 공항 탱크는 새 공급 없이 약 12일분입니다 [사실]",
+    "src": [
+     {
+      "o": "로이터",
+      "d": "2026-10-15",
+      "u": "https://www.reuters.com/business/lufthansa-jets-told-carry-extra-fuel-into-frankfurt-supplies-tighten-bild-2026-10-15/"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": null,
+ "nodeStage": {},
+ "gaps": "확인하지 못한 것은 다음과 같습니다. (1) 10월 현재 항공유 가격은 출처·날짜가 엇갈려 쓰지 않았고, 대한항공 등 한국 항공사와 미국 대형 항공사의 3분기 실적은 아직 확인하지 못했습니다. (2) 737 맥스10의 FAA 인증은 10월 20일 발표 예정이라는 보도까지만 확인했고, 검색 시점에 FAA·보잉의 공식 발표는 보지 못했습니다. (3) 프랫앤휘트니 GTF 엔진 문제로 지상에 선 항공기 대수, 보잉·에어버스·엔진사의 2026년 연간 이익 전망, 롤스로이스·사프란·헥셀 등의 최근 실적은 확인하지 못했습니다. (4) 사우디 요격미사일 재고와 방공 지원 요청, 폴란드행 PAC-3 MSE 지연 원인, BAE APKWS 협약 물량, 담맘 공항 항공기 화재, 리야드 공항 주기 항공기 134대→38대 이동은 텔레그램 전언(AP·WSJ 인용 포함)으로만 봤습니다. (5) 리야드 공항 피격으로 파괴된 여객기의 항공사·기종과 보험 손실, 걸프 항공사의 사우디 노선 재개 시점. (6) 튀르키예 조달 예산 229% 증가가 한 해 증가인지 누적인지, 에이볼론 주문의 보하이리스 승인 결과(10월 말 표결), KNDS 지분 매입 가격, 렝크 계약 통화 단위. (7) 데스크 뉴스(로이터·블룸버그)를 근거로 쓴 줄은 원문을 열지 않고 데스크 요약만 근거로 했습니다. 이번 업데이트의 웹 조회는 검색 1회, 열람 0회입니다.",
+ "note": "뉴스 45건 반영: 후티 리야드 공항 공격·사우디 노선 중단, 사우디 요격미사일 부족·폴란드 패트리엇 지연, 737 맥스10 인증 임박·미국 운임 +22.4%. 국면 ② 그대로, 근거 13줄, 수치 3줄, 재검토 신호 2건, 검색 1회",
+ "applied": [
+  "n-bbg-0178",
+  "n-bbg-0347",
+  "n-bbg-0357",
+  "n-bbg-0369",
+  "n-bbg-0374",
+  "n-bbg-0382",
+  "n-bbg-0426",
+  "n-bbg-0427",
+  "n-bbg-0514",
+  "n-rtr-0344",
+  "n-rtr-0373",
+  "n-rtr-0376",
+  "n-rtr-0377",
+  "n-rtr-0383",
+  "n-rtr-0384",
+  "n-rtr-0385",
+  "n-rtr-0387",
+  "n-rtr-0388",
+  "n-rtr-0392",
+  "n-rtr-0393",
+  "n-rtr-0394",
+  "n-rtr-0395",
+  "n-rtr-0396",
+  "n-rtr-0409",
+  "n-rtr-0410",
+  "n-rtr-0447",
+  "n-rtr-0449",
+  "n-rtr-0608",
+  "n-rtr-0614",
+  "n-tg-0162",
+  "n-tg-0313",
+  "n-tg-0316",
+  "n-tg-0328",
+  "n-tg-0332",
+  "n-tg-0338",
+  "n-tg-0348",
+  "n-tg-0357",
+  "n-tg-0368",
+  "n-tg-0378",
+  "n-tg-0379",
+  "n-tg-0380",
+  "n-tg-0385",
+  "n-tg-0412",
+  "n-tg-0434",
+  "n-tg-0683"
+ ],
+ "searches": 1,
+ "fetches": 0
+}

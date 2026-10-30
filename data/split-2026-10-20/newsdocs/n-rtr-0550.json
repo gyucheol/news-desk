@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0550",
+ "num": 550,
+ "key": "split-G5-071-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/brazils-flavio-bolsonaro-pledges-fiscal-adjustment-rejects-cuts-social-spending-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "플라비우 보우소나루, 2,000억 헤알 재정 조정 약속…사회 지출 삭감은 거부",
+ "headline": "플라비우 보우소나루, 2,000억 헤알 재정 조정 약속…사회 지출 삭감은 거부",
+ "one": "플라비우 보우소나루가 사회 지출에 손대지 않고 부처 폐지·국영기업 관리 개선·연방 부동산 매각으로 2,000억 헤알 재정 조정을 하겠다고 약속하고 최저임금·사회 급여 삭감설은 부인하면서, 결선 앞 재정 계획이 시장 변수가 됐다",
+ "facts": [
+  "무엇이: 보우소나루는 공공부채를 줄이겠다며 연방 예산에서 2,000억 헤알의 재정 조정을 하겠다고 했다 [사실]",
+  "재원: 부처 폐지, 국영기업 부실 관리 개선, 연방 부동산 자산 매각을 내세웠다 [사실]",
+  "부인: 실질 최저임금 인상 중단, 사회 급여 자동 조정 폐지, 의무 사회 지출 축소 같은 캠프 검토설은 부인했다 [사실]",
+  "일정: 결선은 10월 25일 룰라 대통령과 치른다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 2,000억 헤알 재정 조정과 재원, 사회 지출 삭감설 부인, 10월 25일 결선은 검색 결과 요약으로 확인했다(독립 출처는 Policy Wire).",
+ "src": [
+  {
+   "o": "Policy Wire",
+   "d": "2026-10-17",
+   "u": "https://policywire.substack.com/p/flavio-bolsonaro-outlines-economic"
+  }
+ ],
+ "items": [
+  {
+   "t": "브라질 플라비우 보우소나루, 재정 조정 약속…사회 지출 삭감은 거부",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/americas/brazils-flavio-bolsonaro-pledges-fiscal-adjustment-rejects-cuts-social-spending-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "보우소나루, 2,000억 헤알 재정 조정 공약"
+  }
+ ]
+}

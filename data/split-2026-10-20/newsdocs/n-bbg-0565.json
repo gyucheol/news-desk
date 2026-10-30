@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0565",
+ "num": 565,
+ "key": "split-G5-132-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 총재, AI가 일자리·세수에 미칠 '느린 쓰나미' 경고",
+ "headline": "IMF 총재, AI가 일자리·세수에 미칠 '느린 쓰나미' 경고",
+ "one": "게오르기에바 IMF 총재가 12일 AI가 반복 업무 수요를 줄이고 소득을 노동에서 자본으로 옮겨 세수를 압박할 수 있다며 '느린 쓰나미'라고 경고하면서, 각국 고용과 재정에 새로운 부담이 될 수 있다",
+ "facts": [
+  "무엇이: 게오르기에바 IMF 총재는 10월 12일 AI가 일자리와 세수에 미칠 영향을 '느린 쓰나미'라고 부르며 경각심을 드러냈다 [사실]",
+  "경로: 총재는 AI가 반복 업무에 대한 수요를 줄이고 소득을 노동에서 자본으로 옮겨 세수를 압박할 수 있다고 했다 [사실]",
+  "같은 맥락: 총재는 앞서 AI 실망을 에너지 충격·공공부채와 함께 위험 칵테일로 꼽았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건이다. 원 문서 확인 기록에 이 사건 부분은 없지만 독립 출처(Irish Times '느린 쓰나미'·CNBC AI 일자리 기사, 12일)가 내용을 뒷받침한다.",
+ "src": [
+  {
+   "o": "Irish Times",
+   "d": "2026-10-12",
+   "u": "https://www.irishtimes.com/business/work/2026/10/12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-12",
+   "u": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF 총재, AI가 일자리·세수에 미칠 '느린 쓰나미'에 경각심",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI가 반복 업무 수요 줄여 고용 압박 우려"
+  }
+ ]
+}

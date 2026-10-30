@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0717",
+ "num": 717,
+ "key": "mix-G1-047-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T15:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/le-pen-s-rise-spurs-rush-for-french-renewable-contracts",
+ "origTitle": "",
+ "headline": "르펜 부상에 프랑스 재생에너지 입찰 쇄도…대형 태양광 경쟁 6배·낙찰가 23%↓",
+ "src": [
+  {
+   "o": "에너지커넥츠(블룸버그 재게재)",
+   "d": "2026-10-27",
+   "u": "https://www.energyconnects.com/news/renewables/2026/october/le-pen-s-rise-spurs-rush-for-french-renewable-contracts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "르펜 부상에 프랑스 재생에너지 계약 확보 쇄도",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/le-pen-s-rise-spurs-rush-for-french-renewable-contracts"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "macro"
+ ],
+ "nodes": [
+  "power/developers"
+ ],
+ "title": "르펜 부상에 프랑스 재생에너지 입찰 쇄도…대형 태양광 경쟁 6배·낙찰가 23%↓",
+ "one": "르펜 집권 시 신규 재생에너지 사업이 멈출 것을 우려한 개발사들이 프랑스 정부 입찰로 몰리고 있다\n· 최근 대형 태양광 입찰은 약 6배 초과 응찰됐고 낙찰가는 지난해보다 평균 23% 낮았다\n· 소규모 입찰도 초과 응찰로 가격이 15% 내려 감원 중인 업계의 수익을 압박할 수 있다",
+ "facts": [
+  "무엇이: 르펜이 신규 풍력·태양광 사업 중단을 공약하자 개발사들이 마지막일 수 있는 정부 입찰에 몰리고 있다 [사실]",
+  "대형 입찰: 직전 대형 태양광 입찰은 약 6배 초과 응찰됐고 EDF·레덴솔라 등 낙찰자 판매가는 지난해보다 평균 23% 낮았다 [사실]",
+  "소형 입찰: 소규모 사업 입찰도 초과 응찰돼 가격이 15% 내렸다 [사실]",
+  "업계: 레덴은 올해 프랑스 개발 인력 채용을 동결하고 스페인·이탈리아·독일로 확장하고 있으며, 브레종 에너지 장관은 추가 입찰을 예고했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "입찰 경쟁률·낙찰가 하락은 같은 기사의 재게재본(에너지커넥츠) 검색 결과 요약으로 확인, 독립 출처는 찾지 못함",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "developers",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "프랑스 대형 태양광 낙찰가 평균 23% 하락"
+  }
+ ]
+}

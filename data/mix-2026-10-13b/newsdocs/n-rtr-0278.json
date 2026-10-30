@@ -1,0 +1,54 @@
+{
+ "id": "n-rtr-0278",
+ "num": 278,
+ "key": "mix-C194-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T14:12:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
+ "origTitle": "",
+ "headline": "{{캐릭터AI}} 파산 신청…디즈니에 일부 자산 2,000만 달러 매각",
+ "src": [
+  {
+   "o": "Finimize",
+   "d": "2026-10-13",
+   "u": "https://finimize.com/content/characterai-files-for-chapter-11-with-disney-as-lead-bidder"
+  },
+  {
+   "o": "Trending Topics",
+   "d": "2026-10-13",
+   "u": "https://www.trendingtopics.eu/character-ai-bankruptcy-disney/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐릭터AI, 파산 신청하고 일부 자산 디즈니에 2,000만 달러 매각 합의",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "{{캐릭터AI}} 파산 신청…디즈니에 일부 자산 2,000만 달러 매각",
+ "one": "AI 챗봇 업체 {{캐릭터AI}}가 챕터11 파산보호를 신청하고 일부 자산을 {{디즈니}}에 2,000만 달러에 팔기로 하면서, 운영을 이어갈 인수자가 나오지 않으면 {{서비스가 청산}}될 수 있다",
+ "facts": [
+  "무엇이: 캐릭터AI 모회사 캐릭터 테크놀로지스가 미국에서 챕터11 파산보호를 신청하고 일부 자산을 디즈니에 2,000만 달러에 팔기로 했다 [사실]",
+  "구조: 디즈니는 최저가를 정하는 스토킹호스 입찰자로 특정 IP의 비독점·영구 라이선스를 받으며, 다른 업체가 더 높게 입찰할 수 있다 [사실]",
+  "재무: 법원 제출 자료상 자산과 부채는 각각 5,000만~1억 달러로 추정됐다 [사실]",
+  "일정: 매각은 11월 말~12월 초 마무리 예정이며, 운영을 이을 매수자가 없으면 청산된다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "파산 신청·디즈니 2,000만 달러 매각·자산 부채 규모는 검색 결과 요약으로 확인"
+}

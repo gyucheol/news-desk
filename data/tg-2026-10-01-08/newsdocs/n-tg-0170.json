@@ -1,0 +1,52 @@
+{
+ "id": "n-tg-0170",
+ "feed": "v5",
+ "format": "one1",
+ "num": 170,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Onionfarmer-17994",
+ "published": "2026-10-04T10:22:00+09:00",
+ "url": "https://t.me/Onionfarmer/17994",
+ "inds": [
+  "power",
+  "gas"
+ ],
+ "nodes": [
+  "power/demand",
+  "power/gen",
+  "gas/demand"
+ ],
+ "title": "DataOne 인디애나 525MW 데이터센터, 계통 350MW에 연료전지 175MW",
+ "one": "DataOne이 인디애나 프랭크퍼트에 75억 달러 규모 AI 데이터센터를 추진하면서 필요 전력 525MW 중 350MW만 계통에서 받고 175MW는 천연가스 연료전지로 현장에서 만들기로 해, 계통 부족분을 자가발전으로 메운다",
+ "headline": "DataOne 인디애나 525MW 데이터센터, 계통 350MW에 연료전지 175MW",
+ "facts": [
+  "무엇이: DataOne이 프랭크퍼트 Logix Innovation Campus에 약 80만 제곱피트, 75억 달러 규모 AI 팩토리를 추진하며 시의회가 지역 협약을 승인했습니다 [사실]",
+  "전력: 인디애나 시영전력청(IMPA)에서 350MW를 받고 블룸에너지 천연가스 연료전지로 175MW를 현장 발전해 합계 약 525MW입니다 [사실]",
+  "고객: 채널은 DataOne과 블룸에너지가 네비우스의 개발·전력 파트너이며 Vineland 사업도 같은 조합이라고 전했습니다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "사업 규모·전력 구성·시의회 승인은 Clinton County Daily News 등 현지 매체 검색 결과 요약으로 확인했습니다. 이 캠퍼스와 네비우스의 연결은 확인하지 못했습니다(현지 보도는 고객을 추후 공개한다고 함).",
+ "src": [
+  {
+   "o": "텔레그램 양파농장",
+   "d": "2026-10-04",
+   "u": "https://t.me/Onionfarmer/17994"
+  },
+  {
+   "o": "Clinton County Daily News",
+   "d": "",
+   "u": "https://clintoncountydailynews.com/635676-2/"
+  },
+  {
+   "o": "Inside Indiana Business",
+   "d": "",
+   "u": "https://www.insideindianabusiness.com/articles/7-5-billion-data-center-campus-planned-for-frankfort"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "양파농장"
+}

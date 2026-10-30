@@ -1,0 +1,85 @@
+{
+ "id": "n-rtr-0400",
+ "num": 400,
+ "key": "split-G1-132-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/us-blockade-keeps-iranian-crude-exports-zero-october-report-says-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 봉쇄에 이란 원유 수출 10월에도 0…250억 달러 차단·터미널 텅 비어",
+ "headline": "美 봉쇄에 이란 원유 수출 10월에도 0…250억 달러 차단·터미널 텅 비어",
+ "one": "미국 해상 봉쇄로 이란 원유 수출이 10월에도 0에 머물고 쿠퍼 중부사령관이 최소 250억 달러어치 수출을 막았다고 밝힌 데 이어 19일 주요 수출 터미널이 빈 상태로 전해지면서, 이란산 원유 공급과 외화 수입이 막혀 있다",
+ "facts": [
+  "무엇이: 로이터가 10월 14일 전한 보고서에 따르면 미국의 해상 봉쇄로 이란 원유 수출은 10월 들어서도 0에 머물렀다 [사실]",
+  "중부사령부: 쿠퍼 중부사령관은 봉쇄로 이란이 최소 250억 달러어치 원유를 수출하지 못했다고 밝혔다 [사실]",
+  "해상 교역: 채널은 중부사령부가 인도적 지원을 뺀 이란의 해상 수출입을 멈췄고 이란의 외화 수입이 크게 줄었다고 전했다 [채널]",
+  "터미널: 블룸버그는 10월 19일 봉쇄 효과로 이란 주요 원유 수출 터미널이 비어 있다고 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터(10월 14일)·텔레그램(17일)·블룸버그(19일) 3건을 묶음. 원 문서 확인 기록에 이 사건 부분은 따로 없으나 원 문서 사실 줄이 250억 달러 발언과 터미널 공백 보도를 사실로 다뤘고, 출처 목록의 Baird Maritime(13일)·The Hill·알아라비야(16일) 보도가 수출 0과 250억 달러 차단을 다룸.",
+ "src": [
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-13",
+   "u": "https://www.bairdmaritime.com/shipping/tankers/us-blockade-successfully-locks-down-iranian-crude-exports-at-zero"
+  },
+  {
+   "o": "The Hill",
+   "d": "2026-10-16",
+   "u": "https://thehill.com/newsletters/defense-national-security/6155474-centcom-commander-says-naval-blockade-cost-iran-25b-in-oil-revenue/"
+  },
+  {
+   "o": "Al Arabiya",
+   "d": "2026-10-16",
+   "u": "https://english.alarabiya.net/News/middle-east/2026/10/16/us-military-aids-financial-chokehold-on-iran-blocking-25-billion-in-oil-exports"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국 봉쇄로 이란 원유 수출 10월에도 0…보고서",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/energy/us-blockade-keeps-iranian-crude-exports-zero-october-report-says-2026-10-13/",
+   "s": "미국의 해상 봉쇄가 이어지면서 이란 원유 수출이 10월 들어서도 0에 머물러, 이란의 원유 수입원이 말라가고 있다"
+  },
+  {
+   "t": "중부사령부 '봉쇄로 이란 석유 수출 250억 달러 차단, 해상 수출입 중단'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-17",
+   "u": "https://t.me/insidertracking/66498",
+   "s": "쿠퍼 중부사령관이 봉쇄로 이란 석유 수출 최소 250억 달러를 막고 인도적 지원 외 해상 수출입을 멈췄다고 밝히면서, 이란의 외화 수입이 크게 줄었다"
+  },
+  {
+   "t": "미국 봉쇄 효과에 이란 주요 원유 터미널 텅 비어",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/iran-s-main-oil-terminals-remain-empty-as-us-blockade-bites",
+   "s": "미국의 해상 봉쇄가 효과를 내면서 이란 주요 원유 수출 터미널이 비어 있는 상태가 이어져, 이란산 원유 공급이 막혀 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "미국 봉쇄로 이란 원유 수출 10월에도 0"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "id": "n-rtr-0631",
+ "num": 631,
+ "key": "mix-G1-018-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:30:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/catl-bets-battery-swapping-speed-electrification-heavy-trucks-2026-10-20/",
+ "origTitle": "",
+ "headline": "CATL, 교환소 연말 900곳 목표로 중국 전기트럭 공략…스카니아도 확대 가속",
+ "src": [
+  {
+   "o": "Mezha",
+   "d": "2026-10-20",
+   "u": "https://mezha.net/eng/news/mezha-8781f4cffd6c5d7b47a76f08_catl_expands_battery"
+  }
+ ],
+ "items": [
+  {
+   "t": "CATL, 배터리 교환으로 대형트럭 전기화 속도전",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/catl-bets-battery-swapping-speed-electrification-heavy-trucks-2026-10-20/",
+   "s": "CATL이 대형트럭 교환소를 연말 900곳, 2027년 2,000곳으로 늘리기로 하면서, 고속 충전 대신 교환 방식으로 트럭 전기화를 앞당기려 한다"
+  },
+  {
+   "t": "CATL, 배터리 업그레이드·교환소로 전기트럭 시장 노려",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/catl-to-grow-e-truck-business-with-battery-upgrades-swap-sites",
+   "s": "CATL이 760kWh 장거리 배터리 등 새 대형트럭 배터리와 교환소 확대를 내세우면서, 전기트럭 배터리 공급을 키우려 한다"
+  },
+  {
+   "t": "폭스바겐 스카니아, 디젤 이탈에 중국 전기트럭 확대 가속",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/vw-s-scania-hastens-china-e-truck-push-as-drivers-abandon-diesel",
+   "s": "스카니아가 중국 트럭 운전자들의 디젤 이탈에 맞춰 전기트럭 사업을 서두르면서, 외국 상용차 업체도 중국 전기트럭 경쟁에 뛰어들었다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "CATL, 교환소 연말 900곳 목표로 중국 전기트럭 공략…스카니아도 확대 가속",
+ "one": "CATL과 스카니아가 디젤 이탈이 이어지는 중국 전기트럭 시장 공략을 서두르고 있다\n· CATL은 새 대형트럭 배터리를 내놓고 교환소를 연말 900곳, 2027년 2,000곳으로 늘리겠다고 밝혔다\n· CATL은 교환 시스템이 트럭 배터리를 약 5분 만에 바꿔 고속 충전보다 낫다고 봤다\n· 폭스바겐 계열 스카니아는 운전자들이 디젤을 떠나자 중국 전기트럭 사업을 서두르고 있다",
+ "facts": [
+  "무엇이: CATL은 20일 새 세대 대형트럭 배터리를 내놓고 중국 대형트럭 교환소를 연말 900곳, 2027년 2,000곳, 장기적으로 1만 곳으로 늘리겠다고 밝혔다 [사실]",
+  "제품: 장거리용 톈싱 II는 760kWh 배터리팩에 주행거리 600km 이상이고, 교환 시스템은 약 5분 만에 배터리를 바꾼다 [사실]",
+  "시장: CATL은 세계 대형트럭 전기화율이 아직 10% 미만이라고 밝혔다 [사실]",
+  "경쟁: 폭스바겐의 스카니아는 운전자들의 디젤 이탈에 중국 전기트럭 사업을 서두르고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "CATL 교환소 목표(연말 900곳·2027년 2,000곳)와 신형 배터리는 검색 결과 요약으로 확인. 스카니아 중국 확대는 제목만 근거",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "battery",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "CATL 대형트럭 교환소 연말 900곳으로 확대"
+  },
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국 트럭 운전자 디젤 떠나 전기트럭으로"
+  }
+ ],
+ "updatedAt": "2026-10-21T07:06:33+09:00"
+}

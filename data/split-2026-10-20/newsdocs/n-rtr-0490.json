@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0490",
+ "num": 490,
+ "key": "split-G4-036-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "ECB 레인 \"AI가 유럽 노동자 협상력 제한\"",
+ "headline": "ECB 레인 \"AI가 유럽 노동자 협상력 제한\"",
+ "one": "레인 ECB 수석 이코노미스트가 AI가 유럽 노동자의 협상력을 제한하고 있다고 말하면서, 에너지발 물가 압력 속에서도 유로존 임금 상승 압력은 눌려 ECB의 물가 판단에 영향을 줄 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 레인 ECB 수석 이코노미스트가 AI가 유럽 노동자의 협상력을 제한하고 있다고 말했다(10월 14일 로이터) [제목]",
+  "영향: 임금 상승 압력이 눌릴 수 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 14일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "ECB 레인 'AI가 유럽 노동자 협상력 제한'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/ai-limiting-european-workers-bargaining-power-ecbs-lane-says-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI가 노동자 협상력 제한, 임금 압력 억제"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0287",
+ "num": 287,
+ "key": "mix-C081-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T17:52:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/asml-s-guidance-key-to-instill-confidence-in-fragile-chip-trade",
+ "origTitle": "",
+ "headline": "{{ASML 3분기 실적}} 앞두고 {{가이던스 주목}}…흔들리는 {{반도체주 신뢰}} 시험대",
+ "src": [
+  {
+   "o": "AskTraders",
+   "d": "2026-10",
+   "u": "https://www.asktraders.com/analysis/asml-q3-earnings-preview-what-to-expect-on-wednesday/"
+  },
+  {
+   "o": "INDmoney",
+   "d": "2026-10",
+   "u": "https://www.indmoney.com/blog/us-stocks/asml-stock-q3-earnings-preview"
+  }
+ ],
+ "items": [
+  {
+   "t": "ASML 가이던스, 취약한 반도체 거래에 신뢰 심을 열쇠",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/asml-s-guidance-key-to-instill-confidence-in-fragile-chip-trade"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "{{ASML 3분기 실적}} 앞두고 {{가이던스 주목}}…흔들리는 {{반도체주 신뢰}} 시험대",
+ "one": "{{ASML}}이 10월 14일 {{3분기 실적}}과 함께 내놓을 {{가이던스}}가 흔들리는 {{반도체주 신뢰}}를 {{되살릴 열쇠}}로 꼽히면서, {{3분기 매출 110억~120억 유로}} 안내의 {{달성 여부}}가 {{반도체 업종 흐름}}을 {{가를}} 수 있다",
+ "facts": [
+  "무엇이: 블룸버그는 ASML의 가이던스가 취약한 반도체 거래에 신뢰를 심을 열쇠라고 보도했습니다 [제목]",
+  "일정: ASML은 10월 14일 미국 장 개장 전 3분기 실적을 발표하고 같은 날 투자자 설명회를 엽니다 [사실]",
+  "기존 안내: 3분기 매출 110억~120억 유로, 매출총이익률 55~57%, 2026년 연간 매출 430억~450억 유로를 제시했습니다 [사실]",
+  "주의: ASML은 2025년 4분기를 끝으로 분기 수주액 공개를 중단해 경영진 발언이 수요 판단의 근거가 됩니다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "실적 발표일과 기존 3분기·연간 안내치는 검색 결과 요약(실적 미리보기 글)으로 확인. 블룸버그 기사 본문의 시장 우려 내용은 확인하지 못함."
+}

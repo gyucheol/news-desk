@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0584",
+ "num": 584,
+ "key": "split-G6-068-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "가뭄 지역서 늘어나는 AI 데이터센터 물 사용",
+ "headline": "가뭄 지역서 늘어나는 AI 데이터센터 물 사용",
+ "one": "블룸버그가 10월 12일 전한 바로는 가뭄에 시달리는 지역에서 AI 데이터센터의 물 사용이 늘어나면서, 물 부족을 겪는 지역사회와 데이터센터 사이의 자원 갈등이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그는 가뭄 지역에서 AI 데이터센터의 물 사용이 늘고 있다고 전했다 [제목]",
+  "영향: 물 부족 지역사회와 데이터센터 사이의 자원 갈등이 커질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(10월 12일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "가뭄 지역에서 늘어나는 AI 데이터센터 물 사용",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/ai-data-center-water-use-grows-in-drought-stricken-areas"
+  }
+ ],
+ "inds": [
+  "utilities"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "utilities",
+   "node": "water",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "가뭄 지역 AI 데이터센터 물 사용 증가"
+  }
+ ]
+}

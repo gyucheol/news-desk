@@ -1,0 +1,69 @@
+{
+ "basis": "partial",
+ "check": "로이터 2건(10월 18·20일)을 IT서비스 업체 사업부 매각으로 묶었다. 액센츄어 중국 사업 매각 검토는 Whalesbook·Mezha로 FT 보도 내용을 확인했고, DXC 매각 협상은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: FT 보도에 따르면 액센츄어는 중국 사업을 최대 15억 달러에 매각하는 방안을 찾고 있으며, 지난 1년간 원치 않은 인수 문의를 받은 뒤 JP모건을 고용해 전략 검토에 나섰다 [사실]",
+  "구조: 사모펀드와 소수의 전략적 인수자가 관심을 보일 것으로 보이며, 액센츄어가 상당한 소수 지분을 남길 수 있고 중화권 사업은 대만·홍콩·중국 본토를 포함한다 [사실]",
+  "DXC: DXC는 보험 소프트웨어 부문을 24억 달러에 파는 막바지 협상을 하고 있고, 매수자와 마무리 시점은 나오지 않았다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "IT서비스 업체 사업부 매각…액센츄어 중국 사업 최대 15억 달러·DXC 보험 소프트웨어 24억 달러",
+ "id": "n-rtr-0360",
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "액센츄어, 중국 사업 최대 15억 달러에 매각 추진…FT 보도",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/world/asia-pacific/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-2026-10-18/",
+   "s": "액센츄어가 원치 않은 인수 문의를 받은 뒤 JP모건을 고용해 중국 사업을 최대 15억 달러에 파는 방안을 검토하면서, 사모펀드와 소수 전략적 인수자 사이에 인수전이 벌어질 전망이다"
+  },
+  {
+   "t": "DXC, 보험 소프트웨어 부문 24억 달러 매각 막바지 협상",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/transactional/dxc-advanced-talks-sell-insurance-software-unit-24-billion-sources-say-2026-10-19/",
+   "s": "DXC가 보험 소프트웨어 부문을 24억 달러에 파는 막바지 협상을 하면서 보험사용 IT 서비스 시장에서도 사업 재편이 진행되고 있고, 거래가 성사되면 DXC의 사업 구성이 바뀔 수 있다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G1-043-2026-10-18",
+ "nodes": [],
+ "num": 360,
+ "one": "IT서비스 업체들의 사업부 매각이 이어지면서 액센츄어는 지난 1년간 원치 않은 인수 문의를 받은 뒤 JP모건을 고용해 대만·홍콩·중국 본토를 포함한 중국 사업을 최대 15억 달러에 파는 방안을 검토해 사모펀드와 소수 전략적 인수자 사이 인수전이 예상되고 상당한 소수 지분을 남길 수 있으며, DXC는 보험 소프트웨어 부문을 24억 달러에 파는 막바지 협상을 하고 있다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-18T19:59:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "Whalesbook",
+   "d": "2026-10-18",
+   "u": "https://www.whalesbook.com/news/Hinglish/technology/Accenture-Reportedly-Weighs-dollar15-Billion-Sale-of-China-Unit/6ad4aa6979a16deaeaf5cff9"
+  },
+  {
+   "o": "Mezha",
+   "d": "2026-10-18",
+   "u": "https://mezha.net/eng/news/mezha-3e942c98c823a92a390361fb_accenture_weighs_sale"
+  }
+ ],
+ "tags": [],
+ "title": "IT서비스 업체 사업부 매각…액센츄어 중국 사업 최대 15억 달러·DXC 보험 소프트웨어 24억 달러",
+ "url": "https://www.reuters.com/world/asia-pacific/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-2026-10-18/",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "액센츄어 중국 사업·DXC 보험 소프트웨어 부문 매각 추진"
+  }
+ ],
+ "updatedAt": "2026-10-20T12:09:45+09:00"
+}

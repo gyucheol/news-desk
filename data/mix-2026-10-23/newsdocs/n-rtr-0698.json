@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0698",
+ "num": 698,
+ "key": "mix-G1-089-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T16:09:00+09:00",
+ "url": "https://www.reuters.com/world/uk/william-hill-owner-evokes-q3-revenue-falls-uk-shop-closures-unfavourable-sports-2026-10-23/",
+ "origTitle": "",
+ "headline": "윌리엄힐 모회사 에보크, 3분기 매출 7% 감소한 4억 600만 파운드…매장 270곳 폐쇄 여파",
+ "src": [
+  {
+   "o": "Proactive Investors",
+   "d": "2026-10-23",
+   "u": "https://www.proactiveinvestors.com/companies/news/1100596/evoke-revenue-falls-7-to-406m-as-shop-closures-and-customer-friendly-results-weigh-1100596.html"
+  },
+  {
+   "o": "NEXT.io",
+   "d": "2026-10-23",
+   "u": "https://next.io/news/results/q3-2026-evoke-revenue-falls-amid-retail-closures/"
+  }
+ ],
+ "items": [
+  {
+   "t": "윌리엄힐 모회사 에보크, 영국 매장 폐쇄·불리한 경기 결과에 3분기 매출 감소",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/uk/william-hill-owner-evokes-q3-revenue-falls-uk-shop-closures-unfavourable-sports-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "윌리엄힐 모회사 에보크, 3분기 매출 7% 감소한 4억 600만 파운드…매장 270곳 폐쇄 여파",
+ "one": "윌리엄힐 모회사 에보크의 3분기 매출이 영국 매장 폐쇄와 불리한 경기 결과로 7% 줄었다\n· 매출은 4억 600만 파운드였고 폐쇄 매장은 당초 계획 약 200곳에서 270곳으로 늘었다\n· 온라인 도박세가 21%에서 40%로 오른 가운데 회사는 추가 증세에 반대했다",
+ "facts": [
+  "무엇이: 에보크의 3분기 매출은 4억 600만 파운드로 전년보다 7% 줄었고, 매장 폐쇄를 뺀 동일 기준으로는 2% 감소했다 [사실]",
+  "원인: 윌리엄힐 매장 폐쇄가 당초 약 200곳에서 270곳으로 늘었고, 시즌 초 고객에 유리한 경기 결과가 성장률을 1~2%p 깎았다 [사실]",
+  "세금: 영국 온라인 도박세율이 올해 21%에서 40%로 오르자 회사는 가을 예산안에서 추가 인상을 신중히 검토하라고 촉구했다 [사실]",
+  "거래: 에보크는 그리스 발리스 인트라롯에 2억 4,300만 파운드에 인수되는 절차를 앞두고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "매출·폐쇄 매장 수·세율은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "윌리엄힐 매장 270곳 폐쇄로 매출 7% 감소"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "n-tg-0131",
+ "feed": "v5",
+ "format": "one1",
+ "num": 131,
+ "processed": "2026-10-08",
+ "source": "텔레그램",
+ "key": "tg-Trillion_labs-10124",
+ "published": "2026-10-07T22:18:00+09:00",
+ "url": "https://t.me/Trillion_labs/10124",
+ "inds": [
+  "macro",
+  "petchem"
+ ],
+ "nodes": [
+  "macro/commodity",
+  "petchem/feedstock"
+ ],
+ "title": "오만만 선적 VLCC 하루 116만 달러에 계약…최근 거래보다 30만 달러 높아",
+ "one": "에쓰오일이 오만만에서 한국으로 원유를 실어 올 DHT 홀딩스의 VLCC를 하루 116만 2,000달러에 빌리면서, 최근 오만만 계약(72만~86만 달러)보다 운임이 약 30만 달러 뛰어 한국 정유사의 원유 운송비 부담이 커졌다",
+ "headline": "오만만 선적 VLCC 하루 116만 달러에 계약…최근 거래보다 30만 달러 높아",
+ "facts": [
+  "무엇이: DHT 홀딩스의 2025년 건조 VLCC 'DHT 앤털로프'가 오만만 선적·한국행 조건으로 에쓰오일에 하루 116만 2,000달러에 용선됐습니다 [사실]",
+  "얼마나: 최근 몇 주 오만만 선적 계약은 하루 71만 9,000~86만 4,000달러였고, 코크 시핑의 VLCC 실버스톤도 하루 101만 5,000달러에 계약됐습니다 [사실]",
+  "왜: 사우디가 후티 공격으로 얀부 대신 오만만 쪽으로 수출을 돌리면서 오만 앞바다 해상 환적 여력이 한계에 이르렀습니다 [사실]",
+  "파급: 채널은 VLCC 부족이 수에즈막스 등 다른 유조선 운임으로 번지고 있다고 전했습니다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 글(DHT 소속 VLCC 하루 120만 달러)로 들어온 소식이며, Seatrade Maritime(2026-10-07) 자체 기사를 검색 결과 요약으로 확인했습니다. 실제 계약가는 하루 116만 2,000달러로, 120만 달러는 제목의 반올림입니다. 9월 말 VLCC 기록 운임(rtr-036)의 후속입니다.",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-07",
+   "u": "https://t.me/Trillion_labs/10124"
+  },
+  {
+   "o": "Seatrade Maritime",
+   "d": "2026-10-07",
+   "u": "https://www.seatrade-maritime.com/tankers/vlcc-rates-push-to-1-2m-per-day-for-gulf-of-oman-loading"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "channel": "트릴리온",
+ "dupOf": "rtr-036"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0169",
+ "num": 169,
+ "key": "bnd-C153-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T04:58:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/judge-sides-with-importers-to-expand-trump-tariff-refund-fight",
+ "origTitle": "",
+ "headline": "美 국제무역법원, 관세 환급 집단소송 인정…소송 안 낸 수입업체까지 환급 길 열려",
+ "src": [
+  {
+   "o": "Transport Topics",
+   "d": "2026-10-08",
+   "u": "https://www.ttnews.com/articles/importers-class-trump-tariffs"
+  },
+  {
+   "o": "Law360",
+   "d": "2026-10-08",
+   "u": "https://www.law360.com/articles/2535991/trade-court-certifies-broad-ieepa-tariff-refund-class"
+  }
+ ],
+ "items": [
+  {
+   "t": "판사, 수입업체 손들어 트럼프 관세 환급 소송 확대",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/judge-sides-with-importers-to-expand-trump-tariff-refund-fight"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "美 국제무역법원, 관세 환급 집단소송 인정…소송 안 낸 수입업체까지 환급 길 열려",
+ "one": "미 국제무역법원 이턴 판사가 아직 환급을 청구하지 않은 모든 수입업체를 대표하는 집단소송을 인정하면서, 대법원이 위법 판단한 트럼프 관세의 환급 대상이 소송 여력이 없는 중소 수입업체로 넓어질 수 있다",
+ "facts": [
+  "무엇이: 국제무역법원 리처드 이턴 판사가 10월 8일 환급을 청구하지 않은 모든 수입업체를 대표하는 집단소송(Freestyle World 대 CBP)을 인정했다 [사실]",
+  "규모: 대법원의 위법 판결 뒤 세관은 약 1300억 달러의 환급을 처리했다 [사실]",
+  "쟁점: 정부는 일부 청구는 개별 소송이 필요하다고 주장했고, 비원고 환급 명령에 대해 연방순회항소법원에 항소한 상태다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(Law360, Transport Topics). 판결문 원문은 확인 못 함",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ]
+}

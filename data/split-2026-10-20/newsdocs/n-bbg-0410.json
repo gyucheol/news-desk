@@ -1,0 +1,52 @@
+{
+ "id": "n-bbg-0410",
+ "num": 410,
+ "key": "split-G2-082-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/german-power-supplier-exits-raise-specter-of-2022-energy-crisis",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "독일 전력 공급사 잇단 이탈…2022년 에너지 위기 재현 우려",
+ "headline": "독일 전력 공급사 잇단 이탈…2022년 에너지 위기 재현 우려",
+ "one": "독일 전력 공급사들이 잇따라 시장에서 빠지면서, 공급사 이탈이 소비자 요금과 공급 안정을 흔들었던 2022년 에너지 위기가 재연될 수 있다는 우려가 커지고 있고 독일 정부는 전 소비자 전기세 인하를 추진하고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 독일 전력 공급사들이 잇따라 시장에서 이탈하고 있다 [제목]",
+  "우려: 공급사 이탈이 2022년 에너지 위기를 재현할 수 있다는 우려가 커졌다 [제목]",
+  "정부 대응: 독일은 전 소비자 전기세 인하를 추진한다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건, 제목 기준. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "독일 전력 공급사 잇단 이탈, 2022년 에너지 위기 재현 우려 키워",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/german-power-supplier-exits-raise-specter-of-2022-energy-crisis"
+  }
+ ],
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "독일 전력 소매 공급사 잇단 시장 이탈"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "n-tg-0425",
+ "num": 425,
+ "key": "split-G1-173-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66491",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "후티, 아덴 국제공항 미사일 타격…사우디 연합군 얀부行 미사일 요격",
+ "headline": "후티, 아덴 국제공항 미사일 타격…사우디 연합군 얀부行 미사일 요격",
+ "one": "후티가 17일 미사일 2발로 예멘 아덴 공항을 때리고 사우디 연합군이 원유 수출항 얀부로 향하던 탄도미사일을 요격한 가운데 이란이 사우디 공격 관여를 부인하면서, 사우디 홍해 수출 거점까지 공격 대상이 됐다",
+ "facts": [
+  "무엇이: 로이터는 10월 17일 미사일 2발이 예멘 아덴 공항에 떨어졌다고 보도했고, 후티는 아덴 공항 공격 책임을 주장했다 [사실]",
+  "얀부: 사우디 연합군은 원유 수출항 얀부로 향하던 탄도미사일을 요격했고, 블룸버그는 사우디가 잇단 미사일·드론 공격을 요격했다고 전했다 [사실]",
+  "발사 지점: 채널은 후티가 알달레주에서 쏜 탄도미사일이 아덴 국제공항 인근을 때린 영상을 전했다 [채널]",
+  "이란: 이란은 별도로 일어난 사우디 공격에 관여하지 않았다고 부인했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "로이터·블룸버그·텔레그램 2건(17일 자)을 묶었다. 아덴 공항 피격과 얀부행 미사일 요격, 이란의 관여 부인은 독립 출처(The New Arab·L'Orient Today·Türkiye Today)로 확인되며 원 문서는 얀부 요격을 채널 근거로 적었다.",
+ "src": [
+  {
+   "o": "The New Arab",
+   "d": "2026-10-16",
+   "u": "https://www.newarab.com/news/missiles-hit-aden-airport-saudi-coalition-intercepts-missile"
+  },
+  {
+   "o": "L'Orient Today",
+   "d": "2026-10-17",
+   "u": "https://today.lorientlejour.com/article/1551139/iran-denies-involvement-in-houthi-attacks-on-saudi-arabia.html"
+  },
+  {
+   "o": "Türkiye Today",
+   "d": "2026-10-17",
+   "u": "https://www.turkiyetoday.com/region/houthis-claim-missile-attack-on-aden-airport-as-iran-denies-involvement-3230464"
+  }
+ ],
+ "items": [
+  {
+   "t": "후티 탄도미사일, 예멘 아덴 국제공항 인근 타격 영상 공개",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-17",
+   "u": "https://t.me/insidertracking/66491",
+   "s": "후티 반군이 알달레주에서 쏜 탄도미사일이 아덴 국제공항 인근을 때린 영상이 공개되면서, 예멘 정부 거점 공항에 대한 위협이 다시 드러났다"
+  },
+  {
+   "t": "미사일 아덴 공항 타격…사우디 연합군, 얀부行 미사일 요격",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
+   "s": "미사일 2발이 아덴 공항에 떨어지고 사우디 연합군이 원유 수출항 얀부로 향하던 탄도미사일을 요격하면서, 사우디 홍해 수출 거점까지 공격 대상이 됐다"
+  },
+  {
+   "t": "후티, 아덴 공항 공격 책임 주장…이란은 사우디 공격 관여 부인",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-17",
+   "u": "https://t.me/insidertracking/66524",
+   "s": "후티가 아덴 공항 공격 책임을 주장하고 이란이 별도로 일어난 사우디 공격 관여를 부인하면서, 중동 긴장이 한층 높아졌다"
+  },
+  {
+   "t": "후티, 예멘 공항 타격…사우디는 잇단 공격 요격",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/houthis-hit-yemen-airport-as-saudi-arabia-intercepts-attacks",
+   "s": "후티가 예멘 아덴 공항을 타격하고 사우디가 잇단 미사일·드론 공격을 요격하면서, 사우디 영토와 홍해 수출 시설에 대한 위협이 이어졌다"
+  }
+ ],
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "얀부행 탄도미사일 요격, 홍해 수출로 위협"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

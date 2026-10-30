@@ -1,0 +1,86 @@
+{
+ "id": "n-rtr-0317",
+ "num": 317,
+ "key": "mix-G1-035-2026-10-15",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-15",
+ "published": "2026-10-15T01:25:00+09:00",
+ "url": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/",
+ "origTitle": "",
+ "headline": "美, 베네수엘라 국회의장 제재 해제…경제고문은 채무 지속가능성 분석 공개 추진",
+ "src": [
+  {
+   "o": "Anadolu/aNews",
+   "d": "2026-10-14",
+   "u": "https://www.anews.com.tr/americas/2026/10/14/us-removes-head-of-venezuelas-national-assembly-from-sanctions-list"
+  },
+  {
+   "o": "Xinhua",
+   "d": "2026-10-15",
+   "u": "https://english.news.cn/20261015/1b9e0af2721c4f558a35045cfc1d0e68/c.html"
+  },
+  {
+   "o": "Jerusalem Post",
+   "d": "2026-10-15",
+   "u": "http://www.jpost.com/international/article-911704"
+  }
+ ],
+ "items": [
+  {
+   "t": "베네수엘라 최고 경제고문 '채무 지속가능성 분석 공개 추진'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/americas/venezuelas-top-economic-adviser-says-aims-publish-debt-sustainability-analysis-2026-10-14/",
+   "s": "베네수엘라 최고 경제고문이 채무 지속가능성 분석을 공개하겠다고 밝히면서, 채권자들과의 채무 재조정 논의의 기초 자료가 나올 수 있다 (제목 기준)"
+  },
+  {
+   "t": "미국, 관계 해빙 속 베네수엘라 최고위 입법자 제재 해제",
+   "o": "블룸버그",
+   "d": "2026-10-14",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
+   "s": "미국이 관계 해빙 속에 베네수엘라 국회의장의 제재를 해제하면서, 양국 관계 정상화가 한 걸음 더 나아갔다"
+  },
+  {
+   "t": "美 재무부, 베네수엘라 의회 수장에 대한 제재 해제",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/business/energy/us-lifts-sanctions-head-venezuela-legislature-2026-10-14/",
+   "s": "미국 재무부가 베네수엘라 의회 수장의 미국 내 자산 동결을 풀면서, 외국 석유사 진입을 넓힐 석유법 개정 추진에 힘이 실릴 수 있다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "美, 베네수엘라 국회의장 제재 해제…경제고문은 채무 지속가능성 분석 공개 추진",
+ "one": "미국 재무부가 베네수엘라 국회의장 호르헤 로드리게스를 제재 명단에서 빼고 베네수엘라 최고 경제고문이 채무 지속가능성 분석 공개를 추진하면서, 외국 석유사 진입을 넓힐 석유법 개정과 채무 재조정 논의가 진전될 수 있다",
+ "facts": [
+  "무엇이: 미국 재무부 해외자산통제실은 10월 14일 베네수엘라 국회의장 호르헤 로드리게스를 제재 명단에서 삭제해 미국 관할 내 자산 동결을 풀었다 [사실]",
+  "배경: 그는 델시 로드리게스 대통령 권한대행의 동생으로 2021년부터 의회를 이끌었고 2018년 9월 제재됐으며, 델시 로드리게스의 제재는 4월 해제됐다 [사실]",
+  "석유법: 그는 외국 기업이 더 들어올 수 있도록 석유법 개정을 이끌 것으로 예상된다 [사실]",
+  "채무: 베네수엘라 최고 경제고문은 채무 지속가능성 분석을 공개하려 한다고 밝혔다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "국회의장 제재 해제와 석유법 개정 역할은 검색 결과 요약으로 확인. 채무 지속가능성 분석 공개 계획은 확인 못 함(제목 기준)",
+ "added": "이번 10월 15일 로이터 보도로 제재가 풀린 인물이 2021년부터 의회를 이끈 국회의장 호르헤 로드리게스라는 점과 석유법 개정 역할이 추가됐다",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "미국 베네수엘라 국회의장 제재 해제"
+  }
+ ],
+ "updatedAt": "2026-10-16T07:31:48+09:00"
+}

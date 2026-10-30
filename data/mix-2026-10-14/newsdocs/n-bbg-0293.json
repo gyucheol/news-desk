@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0293",
+ "num": 293,
+ "key": "mix-C096-2026-10-14",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-14",
+ "published": "2026-10-13T20:37:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/coal-s-revival-is-dividing-canada-s-energy-heartland-over-environmental-concerns",
+ "origTitle": "",
+ "headline": "{{캐나다 석탄 부활}}, 에너지 중심지를 {{환경 우려로 분열}}시켜",
+ "src": [
+  {
+   "o": "The Narwhal",
+   "d": "2026",
+   "u": "https://thenarwhal.ca/alberta-coal-mining-2026/"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-07",
+   "u": "https://www.cbc.ca/news/canada/edmonton/alberta-coal-vista-mine-coalspur-environment-trout-9.7292037"
+  },
+  {
+   "o": "EHN",
+   "d": "2026",
+   "u": "https://www.ehn.org/alberta-town-faces-deep-divide-over-proposed-coal-mine-revival-2669451396.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "석탄 부활, 환경 우려로 캐나다 에너지 중심지 분열",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-13/coal-s-revival-is-dividing-canada-s-energy-heartland-over-environmental-concerns"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/policy",
+  "coal/met"
+ ],
+ "title": "{{캐나다 석탄 부활}}, 에너지 중심지를 {{환경 우려로 분열}}시켜",
+ "one": "{{앨버타 정부}}가 로키·구릉지 노천 탄광을 막던 {{1976년 석탄 정책}}을 {{폐지}}하고 {{광산 확장}}을 {{승인}}하면서, {{셀레늄 수질 오염 우려}}를 둘러싼 {{지역 갈등}}이 {{석탄 개발 속도}}를 {{좌우할}} 수 있다",
+ "facts": [
+  "무엇이: 캐나다 에너지 중심지에서 석탄 부활이 환경 우려를 둘러싸고 지역을 갈라놓고 있다 [제목]",
+  "정책: 앨버타는 로키·구릉지 노천 탄광을 막아 온 1976년 석탄 정책을 폐지하고 있으며, 주정부는 대규모 신규 투자 유치를 이유로 든다 [사실]",
+  "승인: 힌턴 인근 비스타 광산 확장이 공청회 없이 승인됐고(7월 20일), 2030년까지 발전용 석탄 수출을 없애려는 연방 계획과 충돌한다는 비판을 받는다 [사실]",
+  "쟁점: 크로우스네스트패스의 그래시마운틴 사업은 일자리 기대와 셀레늄 유출 우려로 주민이 갈려 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 뉴스레터 본문과 10월의 새 사건은 확인 못 함. 앨버타 석탄 정책 폐지·비스타 확장 승인·그래시마운틴 갈등 배경은 The Narwhal·CBC·EHN 검색 결과 요약으로 확인."
+}

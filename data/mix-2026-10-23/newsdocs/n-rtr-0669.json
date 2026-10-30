@@ -1,0 +1,93 @@
+{
+ "id": "n-rtr-0669",
+ "num": 669,
+ "key": "mix-G1-018-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:26:00+09:00",
+ "url": "https://www.reuters.com/business/aerospace-defense/defence-group-saabs-q3-operating-profit-beats-expectations-2026-10-23/",
+ "origTitle": "",
+ "headline": "유럽 방산 수요 확대…사브 3분기 수주 3배·독일 유럽산 미사일 수천 기 구매 협상",
+ "src": [
+  {
+   "o": "사브",
+   "d": "2026-10-23",
+   "u": "https://www.saab.com/newsroom/press-releases/2026/saab-q3-results-2026positioned-to-capture-growing-demand"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-23",
+   "u": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "방산업체 사브, 3분기 영업이익 시장 예상 웃돌아",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/aerospace-defense/defence-group-saabs-q3-operating-profit-beats-expectations-2026-10-23/",
+   "s": "사브의 3분기 영업이익이 19억 4,500만 크로나로 42% 늘어 예상을 웃돌면서, 유럽 재무장 수요가 실적으로 확인됐다"
+  },
+  {
+   "t": "독일, 유럽에서 만든 미사일 수천 기 구매 협상 중",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/germany-in-talks-to-buy-thousands-of-european-made-missiles",
+   "s": "독일이 유럽에서 만든 미사일 수천 기 구매를 협상하면서, 유럽 미사일 업체들의 장기 물량이 늘어날 수 있다 (제목 기준)"
+  },
+  {
+   "t": "사브 CEO '수주 3배 늘어…수요 감소 신호 없다'",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/saab-ceo-sees-no-signs-of-demand-decline-as-order-intake-triples",
+   "s": "사브 CEO가 수주가 3배로 늘어난 가운데 수요 감소 신호가 없다고 말하면서, 수주잔고 3,642억 크로나가 수요 지속을 뒷받침했다"
+  },
+  {
+   "t": "프랑스 '영국 전투기, 프랑스 핵 훈련에 처음 참가'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/aerospace-defense/british-jets-join-french-nuclear-exercise-first-time-france-says-2026-10-23/",
+   "s": "영국 전투기가 프랑스 핵 억지 훈련에 처음 참가했다고 프랑스가 밝히면서, 유럽 핵 억지력 협력이 한 단계 넓어졌다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "유럽 방산 수요 확대…사브 3분기 수주 3배·독일 유럽산 미사일 수천 기 구매 협상",
+ "one": "유럽 방산 수요가 이어지며 사브가 3분기 예상을 웃도는 이익과 수주 급증을 기록했다\n· 사브의 3분기 영업이익은 19억 4,500만 크로나로 42% 늘어 시장 예상을 웃돌았다\n· 사브의 수주는 658억 크로나로 3배 넘게 늘었고 CEO는 수요 감소 신호가 없다고 말했다\n· 독일은 유럽산 미사일 수천 기 구매를 협상하고 있다\n· 영국 전투기가 프랑스 핵 억지 훈련에 처음으로 참가했다",
+ "facts": [
+  "무엇이: 사브의 3분기 영업이익은 19억 4,500만 크로나로 1년 전 13억 7,400만 크로나보다 42% 늘었고 이익률은 9.5%였다 [사실]",
+  "수주: 3분기 수주는 658억 크로나로 1년 전 209억 크로나의 3배를 넘었고, 우크라이나 그리펜 E 16대 계약 246억 크로나가 가장 컸다 [사실]",
+  "수주잔고: 3,642억 크로나로 1년 전보다 80% 늘었고 3분기 매출은 206억 크로나였다 [사실]",
+  "독일: 유럽산 미사일 수천 기 구매를 협상하고 있다 [제목]",
+  "영국·프랑스: 영국 전투기가 프랑스 핵 억지 훈련에 처음 참가했다고 프랑스가 밝혔다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 사브 영업이익·수주·수주잔고 확인. 독일 미사일 협상과 영국 전투기 훈련 참가는 제목만 근거",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "사브 3분기 수주 658억 크로나로 3배 넘게 증가"
+  },
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "독일, 유럽산 미사일 수천 기 구매 협상"
+  }
+ ],
+ "updatedAt": "2026-10-23T23:31:11+09:00"
+}

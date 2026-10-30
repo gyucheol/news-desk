@@ -1,0 +1,74 @@
+{
+ "id": "n-rtr-0652",
+ "num": 652,
+ "key": "mix-G2-054-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T15:11:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/",
+ "origTitle": "",
+ "headline": "일본은행, 10월 금리 1.25% 동결하고 물가 전망 상향 가능(소식통)",
+ "src": [
+  {
+   "o": "FXStreet",
+   "d": "2026-10-20",
+   "u": "https://www.fxstreet.com/news/boj-to-leave-rates-steady-raise-inflation-forecast-in-october-meeting-reuters-202610200736"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-20",
+   "u": "https://www.indexbox.io/blog/boj-may-raise-inflation-forecast-this-month-as-oil-prices-bite/"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본은행, 물가 전망 올리고 금리는 동결할 듯…소식통",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "jpins"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "jpins/rates"
+ ],
+ "title": "일본은행, 10월 금리 1.25% 동결하고 물가 전망 상향 가능(소식통)",
+ "one": "일본은행이 10월 30일 끝나는 회의에서 금리를 동결하고 다음 회계연도 물가 전망을 올릴 수 있다고 소식통들이 전했다\n· 고유가가 예상보다 오래 물가를 밀어 올린 점이 상향 이유이며 조정 폭은 작을 전망이다\n· 9월 인상으로 정책금리는 31년 만의 최고인 1.25%이며 12월 추가 인상 여지가 남아 있다",
+ "facts": [
+  "무엇이: 소식통 4명에 따르면 일본은행은 10월 30일 끝나는 회의에서 다음 회계연도 물가 전망을 올리고 금리는 동결할 수 있다 [사실]",
+  "이유: 고유가가 예상보다 오래 물가를 밀어 올리고 있으나 조정 폭은 작고 임금·물가의 2차 효과 징후는 적다 [사실]",
+  "금리: 9월 인상으로 정책금리는 31년 만의 최고인 1.25%이며, 엔화가 다시 약해지지 않으면 동결이 유력하고 12월 인상 여지가 남는다 [사실]",
+  "성장: 성장 전망은 2026 회계연도 0.6%, 2027 회계연도 0.8%로 거의 유지될 전망이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(FXStreet 등)으로 동결·물가 전망 상향 가능, 1.25%, 10월 30일 회의 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "일본은행 10월 금리 1.25% 동결 전망"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본은행 다음 회계연도 물가 전망 상향 가능"
+  }
+ ]
+}

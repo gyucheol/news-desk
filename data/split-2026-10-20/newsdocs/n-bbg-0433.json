@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0433",
+ "num": 433,
+ "key": "split-G3-031-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-rate-hike-bets-grow-as-msci-alarm-pressures-rupiah",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "MSCI 경보에 루피아 압박…인니 중앙은행 금리 인상 베팅 vs 동결 근소 우세",
+ "headline": "MSCI 경보에 루피아 압박…인니 중앙은행 금리 인상 베팅 vs 동결 근소 우세",
+ "one": "MSCI 경보가 루피아를 짓누르면서 16일 인도네시아 중앙은행의 금리 인상 베팅이 커졌지만, 19일에는 증시·루피아 혼란에도 금리를 묶을 것이라는 예상이 근소하게 우세해 인상 가능성이 남은 채 결정을 앞두게 됐다 (제목 기준)",
+ "facts": [
+  "무엇이: MSCI 경보가 루피아를 짓누르면서 인도네시아 중앙은행이 금리를 올릴 것이라는 시장 베팅이 커졌다 [제목]",
+  "최근 예상: 19일 기준으로는 시장 혼란에도 금리 동결 예상이 근소하게 우세하다 [제목]",
+  "배경: 루피아는 16일 달러당 18,070으로 8월 초 이후 최저였다 [사실]",
+  "엇갈린 신호: 동결 예상이 근소 우세지만 금리 인상 가능성도 남아 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 원 문서에서 인니 중앙은행 금리 동결 예상은 제목 기준으로 다뤘고, 루피아 수준만 검색 결과 요약으로 확인됐다.",
+ "src": [],
+ "items": [
+  {
+   "t": "MSCI 경보에 루피아 압박…인도네시아 금리 인상 베팅 커져",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-rate-hike-bets-grow-as-msci-alarm-pressures-rupiah",
+   "s": "MSCI 경보가 루피아를 짓누르면서 인도네시아 중앙은행이 금리를 올릴 것이라는 시장 베팅이 커졌다 (제목 기준)"
+  },
+  {
+   "t": "인니 중앙은행, 시장 혼란에도 금리 동결 예상 근소 우세",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/asia-pacific/bank-indonesia-narrowly-expected-hold-interest-rates-despite-market-turmoil-2026-10-19/",
+   "s": "증시·루피아 혼란에도 인도네시아 중앙은행이 금리를 묶을 것이라는 예상이 근소하게 우세하면서, 금리 인상 가능성도 남아 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "인니 중앙은행 금리 인상 베팅과 동결 예상 엇갈려"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0456",
+ "num": 456,
+ "key": "split-G2-168-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T05:38:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로사톰 '자포리자 원전 전력선 수리 위해 국지 휴전 시행'",
+ "headline": "로사톰 '자포리자 원전 전력선 수리 위해 국지 휴전 시행'",
+ "one": "러시아 로사톰이 자포리자 원전 전력 공급선 수리를 위한 국지 휴전이 시행 중이라고 밝히면서, 러·우 에너지 시설 공방 속에서도 원전 외부 전력을 되살리는 복구 작업이 진행되고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로사톰은 15일 자포리자 원전 전력 공급선 수리를 위한 휴전이 시행 중이라고 밝혔다 [제목]",
+  "배경: 트럼프는 11일 러·우 에너지 휴전이 즉시 발효됐다고 했지만 러시아는 확인하지 않았다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약(제목) 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "로사톰 '자포리자 원전 전력선 수리 위해 휴전 시행 중'",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/"
+  }
+ ],
+ "inds": [
+  "macro",
+  "uranium"
+ ],
+ "nodes": [
+  "macro/geo",
+  "uranium/operators"
+ ],
+ "vc": [
+  {
+   "ind": "uranium",
+   "node": "operators",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "자포리자 원전 전력선 수리 위한 국지 휴전"
+  }
+ ]
+}

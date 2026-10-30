@@ -1,0 +1,1248 @@
+{
+ "agent": "W6",
+ "searches_used": 20,
+ "fetches_used": 0,
+ "items": [
+  {
+   "cid": "C011",
+   "attachTo": "",
+   "title": "스페이스X, 800MHz 저대역 주파수 확보…스타링크 모바일로 美 통신사 정면 도전",
+   "one": "스페이스X가 그레인 매니지먼트로부터 미국 전국 800MHz 저대역 주파수(최대 14MHz 쌍) 인수에 합의하면서 스타링크 모바일의 실내 커버리지가 넓어질 수 있고, 발표 직후 AT&T·버라이즌·T모바일 주가가 6~7%대 급락했다",
+   "facts": [
+    "무엇이: 스페이스X가 10월 8일 그레인 매니지먼트 보유 800MHz 대역 최대 14MHz 쌍 주파수 면허 인수 합의, 금액 비공개·FCC 승인 필요 [사실]",
+    "의미: 저대역은 건물 벽을 통과하는 커버리지층으로, 기존 2GHz 중대역과 묶어 스타링크를 미국 주요 이동통신사로 만들겠다는 구상 [사실]",
+    "시장 반응: 시간외 거래에서 AT&T 7.3%, T모바일·버라이즌 6.6% 하락 [사실]",
+    "주변 흐름: 美 FCC는 직접-단말 서비스용 신규 주파수 경매 추진을 표결했고, 항공우주 업계는 스페이스X의 주파수 접근 확대에 반발, 인도는 머스크의 위성인터넷 승인 편파 비판을 부인 [제목]"
+   ],
+   "basis": "verified",
+   "check": "주파수 인수·규모·통신주 하락은 Via Satellite 등 검색 결과 요약으로 확인. FCC 경매·업계 반발·인도·델타 기사는 제목 기준",
+   "src": [
+    {
+     "o": "Via Satellite",
+     "d": "2026-10-08",
+     "u": "https://www.satellitetoday.com/connectivity/2026/10/08/spacex-moves-to-acquire-nationwide-low-band-spectrum-for-starlink-mobile/"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "스페이스X의 주파수 접근 확대 추진에 항공우주 업계 반발",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/spacex-push-on-spectrum-access-gets-aerospace-industry-backlash"
+    },
+    {
+     "t": "머스크, 항공기 위성통신 경쟁의 빠진 고리 델타항공을 겨냥",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/musk-targets-delta-the-missing-link-in-airline-satellite-fight"
+    },
+    {
+     "t": "美 FCC, 직접-단말 서비스 확대 위한 신규 주파수 경매 추진 표결",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/media-telecom/us-fcc-vote-advancing-new-spectrum-auction-boost-direct-device-services-2026-10-07/"
+    },
+    {
+     "t": "인도, 머스크 '올리가르히' 비판 뒤 위성인터넷 승인 편파 의혹 부인",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/media-telecom/india-denies-bias-satellite-internet-approvals-after-musks-oligarchs-jab-2026-10-08/"
+    },
+    {
+     "t": "스페이스X, 스타링크 휴대전화 서비스용 주파수 인수 계약 발표",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/spacex-to-acquire-low-band-spectrum-for-mobile-phone-service"
+    },
+    {
+     "t": "스페이스X, 스타링크 모바일 서비스를 가능케 할 주파수 인수",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C024",
+   "attachTo": "",
+   "title": "플라비우 보우소나루 약진에 브라질 자산 랠리…재무장관 후보·감세 재검토 거론",
+   "one": "브라질 대선 1차 투표에서 플라비우 보우소나루가 예상보다 선전하면서 브라질 자산이 랠리했고, 보우소나루 측이 룰라 정부 세금의 전면 재검토를 약속하며 시장 친화 재무장관 후보를 물색해 정책 전환 기대가 커지고 있다",
+   "facts": [
+    "무엇이: 플라비우 보우소나루 상원의원이 1차 투표에서 룰라 대통령을 상대로 예상보다 강한 성적을 내 브라질 자산이 랠리 [사실]",
+    "정부 반응: 두리강 현 재무장관은 10월 8일 보우소나루 집권 기대 랠리를 '값싸고 공허한 환상'이라 일축 [사실]",
+    "정책: 보우소나루 측이 룰라 시대 세금의 광범위한 재검토를 약속, 크레디트스위스·BofA 출신 인사 등이 재무장관 후보로 거론 [제목]",
+    "시장: 선거 베팅으로 큰 수익을 낸 헤지펀드들이 추가 상승에 베팅, 환경단체는 새 의회가 환경 입법에 위험이라고 경고 [제목]"
+   ],
+   "basis": "partial",
+   "check": "1차 투표 선전·자산 랠리·두리강 발언은 검색 결과 요약으로 확인. 재무장관 후보 이름·세금 재검토·헤지펀드 포지션은 확인 못 함",
+   "src": [
+    {
+     "o": "Investing.com(재무장관 발언 보도 요약)",
+     "d": "2026-10-08",
+     "u": "https://www.investing.com/news/economy-news/brazil-finance-minister-calls-bolsonaro-trade-a-hollow-illusion-4939666"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fiscal",
+    "macro/fx"
+   ],
+   "items": [
+    {
+     "t": "브라질 보우소나루, 룰라 시대 세금의 광범위한 재검토 약속",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/brazils-bolsonaro-pledges-broad-review-lula-era-taxes-2026-10-07/"
+    },
+    {
+     "t": "브라질 대선: 플라비우 보우소나루 약진에 유력 재무장관 후보들 몰려",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-flavio-bolsonaro-surge-attracts-top-finance-minister-names"
+    },
+    {
+     "t": "보우소나루, 브라질 경제 운용에 크레디트스위스·BofA 출신 인사 검토",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/bolsonaro-evalua-figuras-de-credit-suisse-y-bofa-para-manejar-economia-de-brasil"
+    },
+    {
+     "t": "브라질 선거 베팅으로 대박 난 헤지펀드들, 추가 상승에 베팅",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/hedge-funds-that-nailed-brazil-vote-bet-on-more-gains-ahead"
+    },
+    {
+     "t": "환경단체 \"브라질 새 의회, 환경 입법에 위험 요인\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/environment/new-brazil-congress-poses-risk-environmental-legislation-campaign-group-says-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C033",
+   "attachTo": "n-tg-0203",
+   "title": "원유 완충재고 바닥 경고…中 연료유 18% 급등 뒤 아시아 비축 확대·유가 출렁",
+   "one": "중동 사태 이후 10억 배럴 넘는 재고가 풀려 세계 원유 완충재고가 거의 바닥났다는 경고 속에 중국 연료유 선물이 18% 급등하고 일본·사우디·UAE가 아시아 비축 확대에 나섰으며, 유가는 트럼프의 이란 협상 발언에 하락하는 등 변동성이 커지고 있다",
+   "facts": [
+    "무엇이: 아람코 나세르 CEO는 올해 중동 위기 이후 10억 배럴 넘게 상업재고가 풀렸고 남은 60억 배럴 미만의 상업재고도 대부분 실제로 쓸 수 없다고 경고 [사실]",
+    "가격 바닥: 셰브런 워스 CEO는 완충재고 소진으로 시장이 취약해지고 유가 하단이 올라갔다고 언급, 美 전략비축유는 1982년 10월 이후 최저 [사실]",
+    "아시아 비축: 일본 주도 'POWERR Asia'(약 100억 달러 지원)에 사우디·UAE가 동참해 아시아 비축 능력 강화 협력 의사 [사실]",
+    "기존 흐름: 국경절 연휴 뒤 상하이 연료유 선물 18% 넘게 급등, 브렌트 103~104달러 [사실]",
+    "이후: 트럼프의 이란 협상 발언에 유가 하락, 중국은 10월 연료 수출을 잠시 멈춘 뒤 재개 [제목]"
+   ],
+   "basis": "verified",
+   "check": "재고 경고·SPR 최저·POWERR Asia·사우디 UAE 동참은 검색 결과 요약(boereport·oilprice 등)으로 확인. 기존 문서 사실은 기존 한줄 근거. 유가 하락·중국 수출 재개·디젤 가격·EIA 재고는 제목 기준",
+   "src": [
+    {
+     "o": "BOE Report(재고 경고 전재)",
+     "d": "2026-10-06",
+     "u": "https://boereport.com/2026/10/06/the-world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say/"
+    },
+    {
+     "o": "OilPrice.com",
+     "d": "2026-10-08",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Courts-Saudi-Arabia-and-UAE-as-Asias-Oil-Supply-Fears-Persist.html"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/commodity",
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "디젤 가격 급등에 농가 타격…식품 물가 상승 위험 커져",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/features/2026-10-07/diesel-price-surge-hits-farmers-raising-food-inflation-risk"
+    },
+    {
+     "t": "석유업계 경영진 \"세계는 원유 비축 완충재고를 거의 다 써버렸다\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/"
+    },
+    {
+     "t": "'적기공급'에서 '만일 대비'로…석유업계 \"세계에 수출 경로 더 필요\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/energy/just-in-time-just-in-case-oil-executives-say-world-needs-more-export-routes-2026-10-06/"
+    },
+    {
+     "t": "美 EIA: 원유·중간유분 재고 감소, 휘발유 재고는 증가",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/us-crude-stocks-distillate-inventories-fall-gasoline-inventories-rise-eia-says-2026-10-07/"
+    },
+    {
+     "t": "폭풍과 공습이 공급 위협하며 유가 상승",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/oil-prices-rise-storms-air-strikes-threaten-supply-2026-10-07/"
+    },
+    {
+     "t": "로이터 조사: 일본 기업 실적 위험 1순위는 유가 변동성",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/oil-price-volatility-tops-list-earnings-risks-japan-firms-reuters-survey-2026-10-07/"
+    },
+    {
+     "t": "제트바이오, 공장에 에탄올-디젤 전환 설비 추가",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/jetbio-to-add-ethanol-to-diesel-capacity-at-proposed-plant"
+    },
+    {
+     "t": "이탈리아 \"유럽국들이 약속 이행하면 원유 비축분 추가 방출 가능\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/energy/italy-open-more-oil-stock-releases-if-european-countries-meet-pledges-2026-10-08/"
+    },
+    {
+     "t": "사우디·UAE, 일본 주도 아시아 원유 비축 강화 구상에 동참",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/saudi-uae-join-japan-led-push-to-bolster-asian-oil-buffers"
+    },
+    {
+     "t": "선박 공격 속 중동 공급 우려 지속에 유가 상승",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/"
+    },
+    {
+     "t": "아시아, 이란 전쟁 대응해 원유 비축·재생에너지 확대 서둘러",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/asia-races-stockpile-oil-speed-up-renewables-response-iran-war-2026-10-08/"
+    },
+    {
+     "t": "트럼프의 이란 협상 발언에 공급 우려 완화되며 유가 하락",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/"
+    },
+    {
+     "t": "소식통 4명 \"중국, 짧은 중단 뒤 10월 연료 수출 재개\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/energy/china-resume-october-fuel-exports-after-brief-halt-four-trade-sources-say-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C038",
+   "attachTo": "",
+   "title": "칼시, 주가지수·원유 무기한 선물로 상품 확대…NFL은 대법원에 주 규제 인정 요청",
+   "one": "예측시장 칼시가 주가지수 무기한 선물을 내놓고 원유 무기한형 계약을 CFTC에 신청하며 상품을 넓히는 가운데, NFL이 39개 주와 함께 대법원에 예측시장을 주 도박법으로 규제하게 해달라고 요청해 규제 관할 다툼이 커지고 있다",
+   "facts": [
+    "무엇이: NFL이 10월 8일 Flaherty 대 KalshiEX 사건(26-299호)에 의견서를 내 예측시장 스포츠 계약은 CFTC 전속 관할 스와프가 아닌 도박이라고 주장, 39개 주와 함께 대법원 판단 요청 [사실]",
+    "규모: NFL 시즌 첫 일요일 예측시장 거래 33억 달러 중 약 18억~20억 달러가 NFL 관련 [사실]",
+    "쟁점: 제3순회법원은 뉴저지가 칼시에 도박법을 적용할 수 없다고, 제9순회법원은 네바다 사건에서 주법 관할이라고 판결해 엇갈림, 대법원 상고 여부 판단은 12월 이후 [사실]",
+    "상품 확대: 칼시가 주가지수 무기한 선물을 출시하고 만기 없는 원유 계약을 CFTC에 신청 [제목]"
+   ],
+   "basis": "partial",
+   "check": "NFL 의견서·거래 규모·순회법원 판결 갈림은 The Block·UPI 등 검색 결과 요약으로 확인. 칼시 주가지수·원유 무기한 계약은 확인 못 함",
+   "src": [
+    {
+     "o": "The Block",
+     "d": "2026-10-08",
+     "u": "https://www.theblock.co/news/regulation/2026-10-08-nfl-amicus-brief-supreme-court-kalshi-new-jersey-prediction-markets-418064"
+    },
+    {
+     "o": "UPI",
+     "d": "2026-10-08",
+     "u": "https://www.upi.com/Top_News/US/2026/10/08/nfl-supreme-court-prediction-markets/7601791479351"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "칼시, 주가지수 무기한 선물 출시하며 상품군 확대",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/kalshi-launches-stock-index-perpetual-future-expand-product-suite-2026-10-06/"
+    },
+    {
+     "t": "칼시, 만기 없는 무기한형 원유 계약을 CFTC에 신청",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/kalshi-files-proposal-for-never-expiring-oil-contract-with-cftc"
+    },
+    {
+     "t": "NFL, 대법원에 주정부의 이벤트 시장 규제 허용 요청",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/nfl-asks-supreme-court-to-let-states-regulate-prediction-markets"
+    },
+    {
+     "t": "NFL, 베팅 감독 사건의 대법원 심리 지지",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/government/nfl-backs-supreme-court-review-betting-oversight-case-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C051",
+   "attachTo": "",
+   "title": "EU 1646건·英 38건 대러 제재 추가…그림자 선단·우회 결제망 겨냥",
+   "one": "EU 대사들이 군수 공급망 중심의 대러 제재 대상 1646건을 승인하고 영국이 그림자 선단 유조선 12척과 우회 결제·가상자산 거래소 등 38건을 추가 제재하면서, 러시아의 원유 수출·결제 경로와 현지에 남은 서방 기업의 부담이 커지고 있다",
+   "facts": [
+    "무엇이: EU 대사들이 10월 7일 대러 제재 대상 1646건(대부분 미사일 등 군수산업) 신규 지정을 승인, 외교장관들이 10월 12일 공식 채택 예정이며 새 업종·금융 제한은 없음 [사실]",
+    "영국: 10월 8일 38건 지정, 유조선 12척 추가로 그림자 선단 제재 선박이 600척 넘었고 캐나다·키르기스스탄 소재 결제업체 5곳과 자루베즈네프트 등 석유사 포함 [사실]",
+    "기업: 러시아에 남은 미국·유럽 기업들이 철수에 모든 것을 걸어야 하는 상황 [제목]"
+   ],
+   "basis": "verified",
+   "check": "EU 1646건·채택 일정, 영국 38건·유조선 12척·결제업체는 검색 결과 요약(Brussels Morning·AML Intelligence·Moscow Times)으로 확인. 기업 철수 기사는 제목 기준",
+   "src": [
+    {
+     "o": "Brussels Morning",
+     "d": "2026-10-08",
+     "u": "https://brusselsmorning.com/eu-envoys-approve-1646-new-sanctions-targeting-russia/104903/"
+    },
+    {
+     "o": "AML Intelligence",
+     "d": "2026-10-08",
+     "u": "https://www.amlintelligence.com/2026/10/news-uk-announces-new-russia-sanctions-targeting-the-countrys-shadow-fleet/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo"
+   ],
+   "items": [
+    {
+     "t": "EU 대사들, 대러 제재 대상 신규 지정 승인…외교관들 전해",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+    },
+    {
+     "t": "영국, 금융서비스·그림자 선단 겨냥한 새 대러 제재 발표",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+    },
+    {
+     "t": "러시아에 발 묶인 미국·유럽 기업들, 철수 위해 모든 것을 걸다",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/features/2026-russia-exits/"
+    }
+   ]
+  },
+  {
+   "cid": "C065",
+   "attachTo": "",
+   "title": "美 주정부, SNS 청소년 보호 소송 압박…틱톡 '가짜 안전기능' 실험·메타 변경 요구",
+   "one": "뉴욕주가 틱톡이 청소년을 포함한 이용자에게 작동하지 않는 '가짜' 피드 초기화 기능을 주고 체류 시간·광고 수익 영향을 실험했다고 소장에 추가하고 플로리다주는 메타에 페이스북·인스타그램 변경 명령을 법원에 요청하면서, SNS 기업들의 소송·합의 부담이 커지고 있다",
+   "facts": [
+    "무엇이: 뉴욕주 검찰총장이 봉인 해제된 수정 소장에서 틱톡이 2023년 'Algo Refresh' 실험 중 일부 이용자에게 작동하지 않는 위약 버전을 줬다고 주장 [사실]",
+    "배경: 뉴욕은 틱톡을 제소한 10여 개 주 중 하나이며 틱톡은 9월 앨라배마 유사 소송을 최대 3억 달러에 합의, 틱톡은 혐의를 부인 [사실]",
+    "플로리다: 플로리다주가 법원에 메타의 페이스북·인스타그램 10대 관련 변경 강제를 요청 [제목]"
+   ],
+   "basis": "partial",
+   "check": "뉴욕 틱톡 소장 내용·앨라배마 합의는 검색 결과 요약(Business Standard·Benzinga 등)으로 확인. 플로리다의 메타 관련 법원 요청은 확인 못 함",
+   "src": [
+    {
+     "o": "Business Standard",
+     "d": "2026-10-08",
+     "u": "https://www.business-standard.com/world-news/tiktok-accused-by-new-york-ag-of-secretly-testing-safety-features-on-teens-126100800269_1.html"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "플로리다, 법원에 메타의 페이스북·인스타그램 10대 관련 변경 강제 요청",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/us/florida-asks-court-force-meta-change-facebook-instagram-teens-2026-10-07/"
+    },
+    {
+     "t": "뉴욕주, 틱톡이 10대 대상 비밀 안전 실험을 했다고 고발",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/tiktok-accused-by-ny-of-running-secret-safety-tests-on-teens"
+    },
+    {
+     "t": "뉴욕주 \"틱톡, 실험에서 10대·아동에 가짜 안전기능 제공\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/china/tiktok-gave-teens-children-placebo-safety-feature-experiment-new-york-alleges-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C078",
+   "attachTo": "",
+   "title": "인도 최대 지오 IPO 로드쇼…암바니 후계자들 투자자 질문 공세",
+   "one": "아카시·이샤 암바니가 약 38억 달러로 인도 사상 최대가 될 지오 플랫폼스 IPO 해외 로드쇼를 이끌며 투자자들의 까다로운 질문을 받는 가운데, 상장 뒤 모회사 릴라이언스가 지오를 더 싸게 사는 경로가 될 수 있다는 분석이 나왔다",
+   "facts": [
+    "무엇이: 지오 플랫폼스 IPO는 약 38억 달러 규모로 2024년 현대차 인도법인(29억 달러)을 넘어 인도 최대가 될 전망, 10월 21일 청약 개시 보도 [사실]",
+    "구조: 최대 2억7000만 주 전량 신주, 조달 자금은 주로 릴라이언스 지오 인포콤 부채 상환 [사실]",
+    "로드쇼: 아카시·이샤 암바니가 미국·영국·두바이·홍콩·싱가포르 투자자 설명회를 이끌며 어려운 질문을 받음 [사실]",
+    "릴라이언스: 상장 뒤 릴라이언스 주식이 지오를 더 싸게 사는 방법일 수 있다는 분석 [제목]"
+   ],
+   "basis": "verified",
+   "check": "규모·일정·신주 구조·로드쇼 지역은 검색 결과 요약(thedailyjagran 등)으로 확인, 규모·일정은 비공식 보도 기준. 릴라이언스 할인 분석은 제목 기준",
+   "src": [
+    {
+     "o": "Billionaires.Africa",
+     "d": "2026-10-05",
+     "u": "https://www.billionaires.africa/2026/10/05/indian-billionaire-mukesh-ambanis-jio-platforms-sets-october-21-launch-for-3-8-billion-ipo/"
+    },
+    {
+     "o": "Daily Jagran",
+     "d": "2026-10",
+     "u": "https://www.thedailyjagran.com/business/news/sebi-approval-global-roadshows-clear-way-latest-update-on-jio-platforms-historic-rs-36000-cr-ipo-10331314"
+    }
+   ],
+   "inds": [
+    "tech"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "상장 후엔 릴라이언스가 지오를 더 싸게 사는 방법일 수도",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/reliance-may-be-a-cheaper-way-to-buy-jio-after-its-listing"
+    },
+    {
+     "t": "암바니 후계자들, 사상 최대 지오 IPO 로드쇼에서 까다로운 질문 직면",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-09/ambani-heirs-face-tough-questions-in-roadshow-for-record-jio-ipo"
+    }
+   ]
+  },
+  {
+   "cid": "C089",
+   "attachTo": "",
+   "title": "인도 SEBI, 거래 기록 넘기며 제인스트리트에 답변 압박…조사 지연 공방",
+   "one": "인도 증권거래위원회(SEBI)가 조작 혐의 판단에 쓴 거래 기록을 제인스트리트에 넘기고 답변을 요구하자 제인스트리트가 증권항소법원에서 조사를 늦출 동기가 없다며 추가 자료를 요구해, 약 484억 루피 규모 부당이득 혐의 사건의 결론이 미뤄지고 있다",
+   "facts": [
+    "무엇이: SEBI가 예비 명령의 근거인 거래 로그(시각·수량·가격)를 제인스트리트에 공유하고 혐의에 대한 답변을 요구 [사실]",
+    "공방: 제인스트리트는 SEBI와 NSE가 주고받은 이메일 최대 60건 등을 요구하며 SEBI가 사후에 기준을 바꿨다고 주장, SEBI는 끝없는 '낚시성' 요구라고 반박 [사실]",
+    "배경: SEBI는 2025년 7월 뱅크니프티 지수 조작으로 약 484억 루피(4843크로르) 부당이득 혐의를 제기했고, 제인스트리트는 부인하며 자금을 예치 [사실]",
+    "일정: 서면 제출 뒤 증권항소법원(SAT)이 10월 21일 다룰 수 있음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Business Standard·BusinessToday)으로 확인. 부당이득은 4843크로르 루피(약 484억 루피)",
+   "src": [
+    {
+     "o": "Business Standard",
+     "d": "2026-10-07",
+     "u": "https://www.business-standard.com/markets/news/sebi-shares-trade-data-with-jane-street-seeks-response-to-allegations-126100700677_1.html"
+    },
+    {
+     "o": "Business Standard",
+     "d": "2026-10-08",
+     "u": "https://www.business-standard.com/markets/news/jane-street-accuses-sebi-of-shifting-goalposts-in-sat-hearing-on-documents-126100801282_1.html"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "인도 규제당국, 데이터 공유 뒤 제인스트리트에 답변 압박",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/india-regulator-presses-jane-street-to-respond-after-data-share"
+    },
+    {
+     "t": "제인스트리트, 법원에 \"인도 조사 지연시킬 동기 없다\"",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/jane-street-tells-court-firm-has-no-motive-to-delay-india-probe"
+    }
+   ]
+  },
+  {
+   "cid": "C100",
+   "attachTo": "",
+   "title": "홍콩 당국, '계속기업 의견거절' 상장사 거래정지 검토…부실기업 규제 강화",
+   "one": "홍콩 회계감독원·증권선물위원회·거래소가 계속기업 문제만으로 감사 의견거절을 받은 상장사가 2017년 12곳에서 2025년 95곳으로 늘었다며 공동 경고하면서, 개선이 없으면 이들 기업의 거래를 정지하도록 상장규정을 바꿀 수 있다",
+   "facts": [
+    "무엇이: AFRC·SFC·HKEX가 계속기업 사유만의 감사 의견거절 증가에 공동 성명 발표 [사실]",
+    "규모: 해당 상장사는 2017년 12곳에서 2025년 95곳으로 늘었고 65곳은 1년 넘게 의견거절 상태 [사실]",
+    "대응: 경영진·감사위원회·감사인에 엄격한 평가를 요구, 개선이 없으면 이런 기업도 거래정지 대상에 넣는 상장규정 개정 검토, 위반 시 징계 가능 [사실]",
+    "배경: 2019년부터 의견거절·부적정 의견 기업은 거래정지 대상이지만 계속기업 사유만인 경우는 예외였음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(The Standard·Finimize·AASTOCKS)으로 확인. 성명 정확한 날짜는 공식 페이지로 확인 못 함",
+   "src": [
+    {
+     "o": "The Standard(홍콩)",
+     "d": "2026-10-08",
+     "u": "https://www.thestandard.com.hk/finance/article/344974/AFRC-SFC-and-HKEX-join-forces-to-address-disclaimers-of-opinion-solely-relating-to-going-concern"
+    },
+    {
+     "o": "Finimize",
+     "d": "2026-10-08",
+     "u": "https://finimize.com/content/hkex-tightens-the-screws-on-going-concern-doubts"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "홍콩 규제당국, 부실 상장 종목 규제 강화 신호",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/hk-regulators-signal-tightening-for-distressed-listed-stocks"
+    },
+    {
+     "t": "홍콩 규제당국·거래소, 계속기업 의견거절에 강경 대응",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/government/hong-kongs-regulators-bourse-toughen-stance-going-concern-disclaimers-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C110",
+   "attachTo": "",
+   "title": "룰루레몬, 애슬레타 CEO 출신 나이키 베테랑에 제품 총괄…경영진 대개편",
+   "one": "룰루레몬의 하이디 오닐 CEO가 제품 실수·리콜로 소비자 반발을 산 회사를 되살리려 애슬레타 CEO 출신 나이키 베테랑 매기 고거를 최고제품책임자로 영입하고 브랜드·공급망 책임자를 내보내면서, 경영진 구조가 제품·디자인 중심으로 재편된다",
+   "facts": [
+    "무엇이: 룰루레몬이 10월 7일 갭 산하 애슬레타 CEO 매기 고거를 최고제품책임자로 영입, 10월 26일 합류 [사실]",
+    "배경: 회사는 소비자 반발과 리콜을 부른 제품 실수로 어려움을 겪어 옴 [사실]",
+    "인사: 조지프 갓시를 COO로 선임, 최고브랜드책임자 니키 뉴버거·최고공급망책임자 테드 다그네스는 11월 퇴임 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(FashionNetwork·Manila Times 전재)으로 확인",
+   "src": [
+    {
+     "o": "FashionNetwork",
+     "d": "2026-10-07",
+     "u": "https://uk.fashionnetwork.com/news/Lululemon-puts-nike-veteran-in-charge-of-product-as-ceo-o-neill-looks-to-right-ship,1874038.html"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "룰루레몬 CEO, 경영진 개편에서 애슬레타 대표 영입",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/lululemon-s-new-ceo-hires-head-of-athleta-in-management-shakeup"
+    },
+    {
+     "t": "룰루레몬, 오닐 CEO 회사 정상화 나서며 나이키 베테랑에 제품 총괄 맡겨",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/retail-consumer/lululemon-puts-nike-veteran-charge-product-ceo-oneill-looks-right-ship-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C121",
+   "attachTo": "",
+   "title": "텅스텐값 급등에 광산사 상장 러시…르완다 트리니티는 뉴욕, 스페인 아베노하르는 런던",
+   "one": "군수용 금속 텅스텐 가격이 치솟고 중국이 세계 광산 생산의 약 79%를 쥔 채 수출을 제한하면서, 르완다 트리니티 메탈스가 뉴욕 상장을 검토하고 스페인 아베노하르 텅스텐이 2억1100만 유로 규모 엘모토 광산 개발 자금을 위해 런던 상장 계획을 발표했다",
+   "facts": [
+    "무엇이: 아베노하르 텅스텐이 10월 7일 4분기 런던증권거래소 메인마켓 상장 계획 발표, 엘모토 광산은 초기 비용 2억1100만 유로·2029년 초 생산 목표 [사실]",
+    "르완다: 트리니티 메탈스 CEO 피터 겔레타는 뉴욕 상장 쪽으로 강하게 기울어 있다고 언급 [사실]",
+    "배경: 중국이 세계 텅스텐 광산 생산의 약 79%를 차지하고 수출을 강하게 제한 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Investing News·Mining.com.au)으로 확인. 텅스텐 가격 상승 폭은 출처마다 달라 넣지 않음",
+   "src": [
+    {
+     "o": "Mining.com.au",
+     "d": "2026-10",
+     "u": "https://mining.com.au/tungsten-miners-turn-to-public-markets-as-prices-surge/"
+    },
+    {
+     "o": "Investing News Network",
+     "d": "2026-10-07",
+     "u": "https://investingnews.com/abenojar-london-ipo-tungsten-project/"
+    }
+   ],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "군수 금속 가격 급등 속 르완다 텅스텐 광산사, 뉴욕 IPO 추진",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/rwanda-tungsten-miner-eyes-new-york-ipo-as-munitions-metal-soars"
+    },
+    {
+     "t": "스페인 광산사 아베노하르 텅스텐, 런던 IPO 계획 발표",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/spanish-miner-abenojar-tungsten-announces-plans-for-london-ipo"
+    }
+   ]
+  },
+  {
+   "cid": "C131",
+   "attachTo": "",
+   "title": "美, 중국 시험소 전자기기 인증 배제 표결·中 해킹업체 인프라 차단",
+   "one": "미국 FCC가 미국행 전자기기 인증 시험에서 중국 시험소를 모두 배제하는 안을 10월 29일 표결하기로 하고 법무부·FBI가 중국 인테그리티 테크의 해킹 도구 도메인 7개를 압류하면서, 기기 제조사의 시험 비용과 미중 기술 갈등이 커질 수 있다",
+   "facts": [
+    "무엇이: FCC가 상호주의를 거부하는 국가의 시험소·인증기관을 배제하는 안을 10월 29일 표결, 승인 시 2028년 12월 시행 [사실]",
+    "영향: 2025년 기준 기기의 82%가 중국에서 시험됐고, 중국 시험비는 400~1300달러로 미국(3000~4000달러)보다 훨씬 싸 중소 제조사 부담이 커질 수 있음 [사실]",
+    "해킹: 미 당국이 '플랙스 타이푼' 활동에 쓰인 인테그리티 테크 연계 도구 'Microscan'·'FishHub' 도메인 7개를 압류 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Tom's Hardware·technology.org·BleepingComputer·법무부 보도자료)으로 확인",
+   "src": [
+    {
+     "o": "Tom's Hardware",
+     "d": "2026-10-08",
+     "u": "https://www.tomshardware.com/tech-industry/fcc-votes-to-ban-all-chinese-labs-from-certifying-electronics-sold-in-the-us"
+    },
+    {
+     "o": "BleepingComputer",
+     "d": "2026-10-08",
+     "u": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/semis"
+   ],
+   "items": [
+    {
+     "t": "美 FCC, 중국 시험소의 미국 전자기기 시험 금지안 표결 예정",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/"
+    },
+    {
+     "t": "미국, 중국 인테그리티 테크가 운영하는 해킹 인프라 무력화 착수",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/technology/us-announces-effort-disrupt-hacking-infrastructure-run-by-chinas-integrity-tech-2026-10-09/"
+    }
+   ]
+  },
+  {
+   "cid": "C141",
+   "attachTo": "",
+   "title": "태국 \"美 무역협정 마지막 문단\"…베트남도 협상 대부분 마무리",
+   "one": "태국 아누틴 총리가 미국과의 상호무역협정이 '마지막 문단' 단계라며 11월 트럼프의 아시아 방문 때 서명을 희망하고 베트남도 대미 협상이 대부분 끝났다고 밝히면서, 동남아 수출품에 붙는 미국 관세 조건이 곧 확정될 전망이다",
+   "facts": [
+    "무엇이: 아누틴 태국 총리가 10월 7일 싱가포르 포럼에서 대미 무역협정이 '마지막 문단'에 와 있다고 언급, 지난주 트럼프로부터 최종 단계 확인 서한을 받았다고 밝힘 [사실]",
+    "일정: 11월 16~18일 마닐라 아세안 정상회의나 11월 18~19일 선전 APEC 계기 서명을 희망 [사실]",
+    "베트남: 베트남이 미국과의 무역협상이 대부분 완료됐다고 밝힘 [제목]"
+   ],
+   "basis": "partial",
+   "check": "태국 발언·서명 일정은 검색 결과 요약(The Diplomat·Bangkok Post)으로 확인. 베트남 협상 완료 발언은 확인 못 함",
+   "src": [
+    {
+     "o": "The Diplomat",
+     "d": "2026-10-07",
+     "u": "https://thediplomat.com/2026/10/trade-agreement-with-us-close-to-completion-thai-prime-minister-says"
+    },
+    {
+     "o": "Bangkok Post",
+     "d": "2026-10-07",
+     "u": "https://www.bangkokpost.com/business/general/3333009/thailand-at-last-paragraph-of-us-trade-deal-says-pm"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/growth"
+   ],
+   "items": [
+    {
+     "t": "태국 총리 \"미국과 무역협정 마지막 문단에 와 있다\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/asia-pacific/thailand-last-paragraph-us-trade-agreement-pm-says-2026-10-07/"
+    },
+    {
+     "t": "베트남 \"미국과의 무역협정 협상 대부분 완료\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/vietnam-says-its-trade-deal-negotiations-with-us-are-largely-completed-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C152",
+   "attachTo": "",
+   "title": "라마스와미의 원전 스타트업 아틀라스 아토믹스, 기업가치 19억 달러로 4억 달러 조달",
+   "one": "비벡 라마스와미가 공동 창업한 원전 스타트업 아틀라스 아토믹스가 제너럴 캐털리스트 주도로 기업가치 19억 달러에 약 4억 달러를 조달하면서, 농축우라늄이 필요 없는 개량형 중수로 개발 자금을 확보했다",
+   "facts": [
+    "무엇이: 아틀라스 아토믹스가 시리즈A로 약 4억 달러를 기업가치 약 19억 달러에 조달, 제너럴 캐털리스트 주도·안드리센 호로위츠 참여 [사실]",
+    "기술: 농축우라늄에 의존하지 않는 개량형 중수로 설계를 개발 중이며 아직 스텔스 상태 [사실]",
+    "배경: 라마스와미는 오하이오 주지사 선거 공약의 중심에 원자력을 두고 있음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Bloomberg Law 공개 요약·Investing.com 'Bloomberg' 인용 요약)으로 확인, 익명 소식통 기준",
+   "src": [
+    {
+     "o": "Mining.com.au",
+     "d": "2026-10-09",
+     "u": "https://mining.com.au/vivek-ramaswamy-backed-atlas-atomics-hits-2-72-billion-valuation/"
+    }
+   ],
+   "inds": [
+    "uranium"
+   ],
+   "nodes": [
+    "uranium/build"
+   ],
+   "items": [
+    {
+     "t": "비벡 라마스와미의 원전 스타트업, 기업가치 19억 달러에 자금 조달",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/vivek-ramaswamy-s-nuclear-startup-raises-at-1-9-billion-value"
+    }
+   ]
+  },
+  {
+   "cid": "C162",
+   "attachTo": "",
+   "title": "칼라일의 루코일 해외자산 인수 계약 만료…美 OFAC 승인 못 받아",
+   "one": "칼라일이 연초 합의한 루코일 해외자산 인수 계약이 미국 해외자산통제실(OFAC) 승인을 받지 못해 7월 말 만료됐다고 밝히면서, 제재 대상 루코일은 해외자산을 넘길 다른 인수자를 찾아야 한다",
+   "facts": [
+    "무엇이: 칼라일이 1월 합의한 루코일 해외자산 인수 계약이 여름에 만료됐으며 적극 추진하지 않는다고 밝힘 [사실]",
+    "원인: 루코일 연차보고서에 따르면 OFAC가 승인하지 않아 7월 말 계약이 만료 [사실]",
+    "다음: 루코일은 다른 인수 희망자와 협상 중이며, 토드 보일리 주도 투자자 그룹이 지분 인수 협상 중이라는 보도도 있음 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(TASS·Bloomberg Tax 공개 요약)으로 확인",
+   "src": [
+    {
+     "o": "TASS",
+     "d": "2026-10-08",
+     "u": "https://tass.com/economy/2199365"
+    }
+   ],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/geo",
+    "macro/commodity"
+   ],
+   "items": [
+    {
+     "t": "칼라일 \"루코일 해외자산 인수 계약 만료\"",
+     "o": "블룸버그",
+     "d": "2026-10-09",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/carlyle-says-deal-to-buy-lukoil-international-assets-has-expired"
+    }
+   ]
+  },
+  {
+   "cid": "C172",
+   "attachTo": "",
+   "title": "켄 그리핀, 마이애미 윈우드 부지 11억 달러 매입…개발사 마나에 '10억 달러 승리'",
+   "one": "시타델 창업자 켄 그리핀이 마이애미 윈우드 부지 약 30에이커를 약 11억 달러 현금에 사들여 카네기멜런대 캠퍼스 부지로 쓰기로 하면서, 개발사 마나는 플로리다 최대 토지 거래 대금을 손에 쥐게 됐다",
+   "facts": [
+    "무엇이: 마나 커먼 창업자 모이셰 마나가 9월 29일 윈우드 부지 약 30에이커를 그리핀에게 약 11억 달러에 매각 완료, 플로리다 최대 토지 집적 거래 [사실]",
+    "용도: 그리핀이 카네기멜런대에 기부한 30억 달러 중 20억 달러로 마이애미 캠퍼스를 세우며 2028년 학생 모집 예정 [사실]",
+    "마나: 윈우드 15에이커 이상을 계속 보유하고 다운타운 플래글러 지구로 초점 이동 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Mana Common 발표·The Real Deal)으로 확인",
+   "src": [
+    {
+     "o": "Mana Common",
+     "d": "2026-09-30",
+     "u": "https://manacommon.com/mana-wynwood-sale-ken-griffin/"
+    },
+    {
+     "o": "The Real Deal",
+     "d": "2026-09-30",
+     "u": "https://therealdeal.com/miami/2026/09/30/ken-griffin-buys-mana-wynwood-complex-for-1-billion/"
+    }
+   ],
+   "inds": [
+    "realestate"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "켄 그리핀의 마이애미 거래로 윈우드 개발사 마나, 10억 달러 승리",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/ken-griffin-s-miami-deal-gives-wynwood-real-estate-developer-mana-1b-win"
+    }
+   ]
+  },
+  {
+   "cid": "C182",
+   "attachTo": "",
+   "title": "코인베이스 \"은행은 경쟁자이자 큰 고객\"…수탁·프라임브로커리지로 은행 인프라 공략",
+   "one": "코인베이스가 디지털자산 사업에 뛰어드는 은행들의 인프라 공급자 역할을 키우며 프라임브로커리지가 가장 빠르게 크는 사업이라고 밝히면서, 은행의 가상자산 진출이 코인베이스에는 경쟁이자 새 고객 확보 기회가 되고 있다",
+   "facts": [
+    "무엇이: 코인베이스 인스티튜셔널 대표 리즈 마틴이 은행들이 자체 디지털자산 사업을 세우는 가운데 코인베이스가 인프라 공급자 역할을 하며 프라임브로커리지를 확대 중이라고 언급 [사실]",
+    "성장: 프라임브로커리지(수탁·거래·금융·결제 묶음)가 '아마도 가장 빠르게 성장하는 분야' [사실]",
+    "경쟁: BNY·DBS·US뱅크가 가상자산 수탁을 제공하고 도이체방크도 진출 계획을 발표 [사실]",
+    "거래: 같은 날 코인베이스가 코인베이스 프라임을 통해 서클 USDC 잔고 수탁을 맡는다고 발표 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Bloomberg Law 공개 요약·PYMNTS)으로 확인",
+   "src": [
+    {
+     "o": "PYMNTS",
+     "d": "2026-10-08",
+     "u": "https://www.pymnts.com/cryptocurrency/2026/coinbase-looks-to-cash-in-as-banks-embrace-crypto/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "코인베이스, 은행이 경쟁자이자 큰 고객이 될 것에 베팅",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-08/coinbase-bets-banks-will-be-bigger-customers-as-well-as-rivals"
+    }
+   ]
+  },
+  {
+   "cid": "C192",
+   "attachTo": "",
+   "title": "퍼미라 루더 \"AI 초대형 IPO가 사모펀드 회수 밀어내\"",
+   "one": "퍼미라의 브라이언 루더 공동 CEO가 앤스로픽·오픈AI 등 AI 초대형 상장에 투자자 관심이 쏠리면서 다른 기업이 같은 주목을 받기 어려워졌다고 밝혀, 사모펀드의 IPO를 통한 투자금 회수가 늦어질 수 있다",
+   "facts": [
+    "무엇이: 루더 공동 CEO가 역사적 대형 상장이 줄줄이 이어지면 다른 상장이 같은 관심을 받기 '정말 까다롭다'며 AI 초대형 IPO가 일부 사모펀드 회수를 밀어낸다고 언급 [사실]",
+    "배경: 앤스로픽은 추수감사절 전 상장을 노리고, 오우라 등 일부 기업은 상장을 연기 [사실]",
+    "자본 구조: 금리 상승과 AI 불확실성에 공격적인 레버리지가 줄고 있으며 퍼미라 평균 레버리지는 약 4.5배 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Quartz·Crypto Briefing)으로 확인",
+   "src": [
+    {
+     "o": "Quartz",
+     "d": "2026-10-07",
+     "u": "https://qz.com/permira-ceo-ai-ipos-private-equity-exits-100726"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "퍼미라 루더 \"AI 초대형 IPO가 일부 사모펀드 회수를 밀어내고 있다\"",
+     "o": "블룸버그",
+     "d": "2026-10-08",
+     "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/permira-s-ruder-says-ai-mega-ipos-crowding-out-some-private-equity-exits"
+    }
+   ]
+  },
+  {
+   "cid": "C202",
+   "attachTo": "",
+   "title": "유학생 대출사 엠파워 붕괴…트럼프 이민 단속에 ABS 수요 끊겨",
+   "one": "유학생 대상 대출사 엠파워 파이낸싱이 짐바브웨 등 여행금지국 학생 대출 비중이 커진 상태에서 트럼프 정부의 이민 단속으로 자산유동화증권 수요가 끊기자 문을 닫으면서, 4억 달러 넘는 ABS 투자자와 지분 투자자가 손실을 떠안게 됐다",
+   "facts": [
+    "무엇이: 유학생 대출업체 엠파워 파이낸싱이 영업을 접음, 이민 단속 관련 최대 기업 붕괴 중 하나 [사실]",
+    "원인: 2025년 여행금지 대상이 된 짐바브웨 등 아프리카 학생 대출에 크게 의존했고, 금지 뒤 대출을 묶은 ABS 수요가 줄어 신규 대출 여력이 막힘 [사실]",
+    "현황: 매각 실패, 창업자 겸 CEO 포함 인력 대부분 감축, 4억 달러 넘는 ABS가 남아 채권자와 협상 중이며 지분 투자자는 전액 손실 가능성 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(PYMNTS의 블룸버그 인용 보도)으로 확인. 독립 출처는 1곳뿐",
+   "src": [
+    {
+     "o": "PYMNTS",
+     "d": "2026-10-07",
+     "u": "https://www.pymnts.com/loans/2026/student-lender-mpower-shutters-following-immigration-crackdown/"
+    }
+   ],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "이민자 단속에 대출 장부 흔들린 학자금 대출사 붕괴",
+     "o": "블룸버그",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/student-lender-collapses-as-immigrant-crackdown-roils-loan-book"
+    }
+   ]
+  },
+  {
+   "cid": "C212",
+   "attachTo": "",
+   "title": "코카콜라, 51억 달러에 산 코스타 커피 매각 재추진",
+   "one": "코카콜라가 2018년 51억 달러에 인수했지만 성장시키지 못한 코스타 커피를 올해 초 사모펀드 입찰 부진으로 중단했던 매각 절차를 다시 추진하고 있다고 세마포가 보도하면서, 실패한 커피 사업 확장을 정리하는 수순에 들어갈 수 있다",
+   "facts": [
+    "무엇이: 세마포가 10월 8일 코카콜라가 코스타 커피 매각을 다시 검토 중이라고 보도 [사실]",
+    "배경: 2018년 휘트브레드로부터 51억 달러에 인수, 2025년 말 매각을 추진했다가 올해 초 사모펀드 반응 부진으로 중단 [사실]",
+    "실적: 코스타는 2023~2024년 합계 2000만 파운드 가까운 손실 [사실]",
+    "시장: 보도 당일 코카콜라 주가 2% 넘게 상승 [사실]"
+   ],
+   "basis": "verified",
+   "check": "검색 결과 요약(Semafor 원문 기사·CashCow)으로 확인. 희망 매각가는 확인 안 됨",
+   "src": [
+    {
+     "o": "Semafor",
+     "d": "2026-10-08",
+     "u": "https://www.semafor.com/article/10/08/2026/coca-cola-looks-to-sell-costa-coffee"
+    }
+   ],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "코카콜라, 코스타 커피 매각 추진…세마포 보도",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/transactional/coca-cola-looks-sell-costa-coffee-semafor-reports-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C222",
+   "attachTo": "",
+   "title": "아젠엑스, 쇼그렌증후군 비브가트 임상 중단…주가 급락",
+   "one": "벨기에 바이오기업 아젠엑스가 대표 약물 비브가트의 쇼그렌증후군 임상시험을 중단하면서 주가가 급락했고, 비브가트의 적응증 확대 기대가 줄어들 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 아젠엑스가 쇼그렌증후군 대상 비브가트 임상시험을 중단 [제목]",
+    "시장: 발표 뒤 아젠엑스 주가 급락 [제목]",
+    "영향: 비브가트의 새 적응증 확대 계획에 차질 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "pharma"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "아젠엑스, 쇼그렌증후군 비브가트 임상 중단…주가 급락",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/legal/litigation/argenx-discontinues-vyvgart-study-sjgrens-disease-shares-tumble-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C232",
+   "attachTo": "",
+   "title": "트레비 \"웨빌드 상향 인수가는 적정가치 범위 하단\"",
+   "one": "이탈리아 지반공사업체 트레비가 웨빌드의 상향된 인수 제안가를 자사 적정가치 범위의 하단에 해당한다고 평가하면서, 웨빌드의 제안가가 트레비가 보는 적정가치 범위 안에 들어오게 됐다 (제목 기준)",
+   "facts": [
+    "무엇이: 트레비가 웨빌드의 상향된 인수 제안가가 적정가치 범위 하단이라고 평가 [제목]",
+    "의미: 제안가가 범위 안에 들어 거래 성사 가능성은 열려 있지만 높은 가격이라는 평가는 아님 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "트레비 \"웨빌드의 상향 제안가는 적정가치 범위 하단\"",
+     "o": "로이터",
+     "d": "2026-10-09",
+     "u": "https://www.reuters.com/business/trevi-says-webuilds-sweetened-bid-is-low-end-fair-value-range-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C242",
+   "attachTo": "",
+   "title": "모로코 항공우주 수출, 50억 달러로 늘 수 있다…업계 단체 전망",
+   "one": "모로코 항공우주 업계 단체가 자국 항공우주 수출이 50억 달러 규모로 늘어날 수 있다고 전망하면서, 항공기 부품 공급망에서 모로코의 비중이 커질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 모로코 항공우주 업계 단체가 항공우주 수출이 50억 달러로 늘 수 있다고 전망 [제목]",
+    "의미: 항공기 제작사들의 부품 조달처로 모로코 역할 확대 가능성 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함. 제목의 '5 billion'을 50억 달러 수준으로 읽음(통화·기준 연도 미확인)",
+   "src": [],
+   "inds": [
+    "aero"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "업계 단체 \"모로코 항공우주 수출 50억 달러로 늘 수 있다\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/business/aerospace-defense/morocco-aerospace-exports-could-rise-5-billion-industry-group-says-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C252",
+   "attachTo": "",
+   "title": "전 RBA 인사 \"AI 붐, 금리 올라도 호주 물가 자극할 것\"",
+   "one": "호주중앙은행(RBA) 전직 인사가 AI 붐이 금리 인상에도 불구하고 호주 인플레이션을 부추길 것이라고 밝히면서, RBA의 긴축이 길어지거나 추가 인상 압력이 생길 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 전 RBA 인사가 AI 붐이 높아진 금리에도 호주 물가를 끌어올릴 것이라고 언급 [제목]",
+    "의미: 물가 압력이 이어지면 RBA 통화정책이 더 오래 긴축적으로 유지될 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/inflation",
+    "macro/cb"
+   ],
+   "items": [
+    {
+     "t": "전 RBA 인사 \"AI 붐, 금리 인상에도 호주 물가 부추길 것\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/asia-pacific/ai-boom-fuel-australia-inflation-despite-higher-rates-ex-rba-official-says-2026-10-08/"
+    }
+   ]
+  },
+  {
+   "cid": "C262",
+   "attachTo": "",
+   "title": "영국 애버딘, 스탠다드라이프 지분 절반으로 축소",
+   "one": "영국 자산운용사 애버딘이 보유한 보험사 스탠다드라이프 지분을 절반으로 줄이기로 하면서, 두 회사의 자본 관계가 느슨해지고 매각 대금이 애버딘에 유입된다 (제목 기준)",
+   "facts": [
+    "무엇이: 애버딘이 스탠다드라이프 지분을 절반으로 줄임 [제목]",
+    "영향: 지분 매각 대금이 애버딘에 들어오고 두 회사 연결고리가 약해짐 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 확인 못 함. 원제 주소의 'about 52'(매각 후 지분율 또는 규모로 보임)는 뜻이 불분명해 쓰지 않음",
+   "src": [],
+   "inds": [
+    "fin"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "영국 애버딘, 스탠다드라이프 지분 절반 매각",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/legal/transactional/uks-aberdeen-halve-standard-life-stake-about-52-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C272",
+   "attachTo": "",
+   "title": "프라이스라인 모회사, 제휴사 호텔 광고로 FTC 제재 직면",
+   "one": "프라이스라인 모회사가 제휴사들의 호텔 광고 문제로 미국 연방거래위원회(FTC)의 제재 조치를 받게 될 것이라고 소식통들이 전하면서, 온라인 여행 플랫폼의 광고 관행에 규제 부담이 커질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 프라이스라인 모회사가 제휴사 호텔 광고와 관련해 FTC 조치에 직면할 것이라고 소식통들이 전함 [제목]",
+    "모회사: 프라이스라인의 모회사는 부킹홀딩스 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "소식통 \"프라이스라인 모회사, 제휴사 호텔 광고로 FTC 조치 직면\"",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/priceline-owner-face-ftc-action-over-affiliates-hotel-ads-sources-say-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C282",
+   "attachTo": "",
+   "title": "탄자니아 금광 사망 사건, 런던 금 인증기관·정련사 상대 소송 중심에",
+   "one": "탄자니아 금광에서 발생한 사망 사건이 런던의 금 인증기관과 정련사들을 상대로 한 소송의 핵심 쟁점이 되면서, 금 정련사의 공급망 책임과 원산지 인증 관리에 대한 압박이 커질 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 탄자니아 금광 사망 사건이 런던 인증기관·정련사 상대 소송의 중심에 섬 [제목]",
+    "의미: 금 공급망 실사·인증 체계의 법적 책임이 쟁점화 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "탄자니아 금광 사망 사건, 런던 인증기관·정련사 상대 소송의 중심에",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/africa/tanzania-gold-mine-deaths-centre-case-against-london-accreditor-refiners-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C292",
+   "attachTo": "",
+   "title": "서클8, 스리 인수 제안 기한 연장 받아",
+   "one": "인수 제안자 서클8이 영국 인력파견업체 스리에 대한 인수 제안 기한을 연장받으면서, 인수 협상이 계속 이어지게 됐고 스리의 매각 여부에 대한 결론은 뒤로 미뤄졌다 (제목 기준)",
+   "facts": [
+    "무엇이: 서클8이 스리 인수 제안 관련 기한을 연장받음 [제목]",
+    "의미: 확정 제안 여부 결정 시점이 늦춰짐 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "industrial"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "서클8, 스리 인수 제안 기한 연장 받아",
+     "o": "로이터",
+     "d": "2026-10-08",
+     "u": "https://www.reuters.com/world/uk/circle8-gets-deadline-extension-sthree-takeover-bid-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C302",
+   "attachTo": "",
+   "title": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+   "one": "콜롬비아 정부가 연기금의 해외투자에 상한을 두는 법령을 철회하면서, 연기금이 해외 자산 비중을 유지하거나 늘릴 길이 열려 페소화와 국내 자산시장 수급에 영향을 줄 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 콜롬비아가 연기금 해외투자 상한 법령을 철회 [제목]",
+    "영향: 연기금 자금의 국내 송환 압력이 줄어 환율·국내 자산 수급에 영향 가능 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/fx",
+    "macro/liquidity"
+   ],
+   "items": [
+    {
+     "t": "콜롬비아, 연기금 해외투자 상한 법령 철회",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/colombia-revokes-decree-capping-pension-funds-foreign-investments-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C312",
+   "attachTo": "",
+   "title": "라코스테, 파리 패션쇼 앞두고 CEO 해임",
+   "one": "프랑스 패션 브랜드 라코스테가 파리 런웨이 쇼를 앞두고 최고경영자를 해임했다고 소식통들이 전하면서, 브랜드 경영과 전략 방향에 공백이 생길 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 라코스테가 파리 런웨이 쇼를 앞두고 CEO를 해임했다고 소식통들이 전함 [제목]",
+    "의미: 새 경영자 선임 전까지 경영 공백 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "consumer"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "소식통 \"프랑스 브랜드 라코스테, 파리 런웨이 쇼 앞두고 CEO 해임\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/business/retail-consumer/french-brand-lacoste-fired-ceo-ahead-paris-runway-show-sources-say-2026-10-07/"
+    }
+   ]
+  },
+  {
+   "cid": "C322",
+   "attachTo": "",
+   "title": "BHP, 캄발다 니켈 선광장·광구 골드필즈에 매각",
+   "one": "BHP가 서호주 캄발다의 니켈 선광 설비와 광구를 금광업체 골드필즈에 매각하기로 하면서, BHP의 니켈 자산 정리가 이어지고 골드필즈는 캄발다 일대 사업 기반을 넓히게 된다 (제목 기준)",
+   "facts": [
+    "무엇이: BHP가 캄발다 니켈 선광장과 광구를 골드필즈에 매각 [제목]",
+    "의미: BHP 니켈 자산 축소와 골드필즈의 현지 기반 확대 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "metals"
+   ],
+   "nodes": [],
+   "items": [
+    {
+     "t": "BHP, 캄발다 니켈 선광장·광구를 골드필즈에 매각",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/legal/transactional/bhp-sell-kambalda-nickel-concentrator-tenements-gold-fields-2026-10-06/"
+    }
+   ]
+  },
+  {
+   "cid": "C332",
+   "attachTo": "",
+   "title": "튀르키예 중앙은행 총재 \"디스인플레이션 다시 속도…신중 기조 유지\"",
+   "one": "튀르키예 중앙은행 총재가 물가 둔화가 다시 속도를 낼 것이라며 신중한 통화정책 기조를 유지하겠다고 밝히면서, 리라화 자산에 대한 급격한 금리 인하 기대는 제한될 수 있다 (제목 기준)",
+   "facts": [
+    "무엇이: 튀르키예 중앙은행 총재가 디스인플레이션이 다시 속도를 낼 것이라고 언급 [제목]",
+    "정책: 신중한 정책 기조 유지 [제목]",
+    "영향: 빠른 금리 인하 기대가 제한될 수 있음 [추론]"
+   ],
+   "basis": "title",
+   "check": "웹 검색 한도 소진으로 독립 출처 확인 못 함, 기사 제목 기준",
+   "src": [],
+   "inds": [
+    "macro"
+   ],
+   "nodes": [
+    "macro/cb",
+    "macro/inflation"
+   ],
+   "items": [
+    {
+     "t": "튀르키예 중앙은행 총재 \"신중 기조 속 디스인플레이션 다시 속도 낼 것\"",
+     "o": "로이터",
+     "d": "2026-10-07",
+     "u": "https://www.reuters.com/world/middle-east/turkey-central-bank-governor-says-disinflation-regain-pace-cautious-stance-2026-10-06/"
+    }
+   ]
+  }
+ ],
+ "skipped": []
+}

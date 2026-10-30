@@ -1,0 +1,150 @@
+{
+ "basis": "partial",
+ "check": "블룸버그 4건·로이터 4건을 캐나다 고유가 물가와 10월 28일 금리 인상 베팅으로 묶었다. 매클럼 발언·9월 물가·근원 지표·설문 기대물가·인상 베팅은 캐나다은행 발표와 CBC·글로브앤드메일 검색 결과로 확인했고, 캐나다달러 약 4주 고점은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 매클럼 캐나다은행 총재는 브렌트유가 가정치 75달러를 크게 웃도는 약 110달러에 머물자 고유가가 성장과 물가를 함께 끌어올린다며 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝혔다 [사실]",
+  "9월 물가: 캐나다 9월 소비자물가는 전년 대비 3.1%로 8월 3.0%보다 올랐지만 예상치 3.2%에 못 미쳤고, 휘발유가 27.8% 오른 반면 에너지를 뺀 물가는 2.2%였다 [사실]",
+  "근원: 캐나다은행이 중시하는 CPI-트림·CPI-중간값 평균은 1.9%로 8월 2.0%에서 내려 목표치 2%를 밑돌았다 [사실]",
+  "설문: 3분기 기업전망조사 지표는 -0.33으로 직전 -0.38에서 소폭 올랐지만 협상 결렬 뒤 관세가 수출·투자 전망을 누르고 있고, 소비자 5년 기대물가는 3.91%로 2022년 2분기 이후 최고, 기업의 1년 물가 예상은 3.7%였다 [사실]",
+  "금리 베팅: 트레이더와 이코노미스트들이 28일 인상 쪽으로 베팅을 늘려 결정이 박빙이 됐고, TD 등은 동결을, RBC는 인상 가능성을 거론했다 [사실]",
+  "환율: 인상 베팅에 캐나다달러가 약 4주 만의 고점으로 올랐다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "캐나다 고유가 물가에 10월 28일 인상 베팅…9월 물가 3.1%·소비자 기대물가 3.91%·캐나다달러 4주 고점",
+ "id": "n-bbg-0530",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "매클럼 \"고유가가 성장과 물가 함께 끌어올린다\"",
+   "o": "블룸버그",
+   "d": "2026-10-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+   "s": "매클럼 총재가 에너지 순수출국인 캐나다에서 고유가가 성장과 물가를 함께 끌어올린다고 보면서 물가가 넓게 번질 위험이 커졌다고 경고했다"
+  },
+  {
+   "t": "캐나다은행 \"유가 급등에 물가 전망 크게 높아져\"…매클럼",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
+   "s": "매클럼 총재가 유가 급등으로 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝히면서 금리 인상 여부가 쟁점으로 떠올랐다"
+  },
+  {
+   "t": "캐나다 물가 상승률 3.1%로 소폭 상승, 근원 지표는 둔화",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/canada-inflation-rate-edges-up-to-3-1-core-measures-ease",
+   "s": "캐나다 9월 물가가 휘발유값 급등에 3.1%로 올랐지만 근원 지표가 1.9%로 내려가면서, 캐나다은행의 인상 판단이 더 어려워졌다"
+  },
+  {
+   "t": "캐나다 9월 연간 물가 상승률 3.1%로 올라",
+   "o": "로이터",
+   "d": "2026-10-19",
+   "u": "https://www.reuters.com/world/americas/canadas-annual-inflation-rate-rose-31-september-2026-10-19/",
+   "s": "캐나다 9월 물가 상승률이 8월 3.0%에서 3.1%로 오르면서, 에너지발 물가 압력이 커지고 있음이 확인됐다"
+  },
+  {
+   "t": "캐나다은행 조사 \"무역협상 결렬 뒤 기업 전망 어두워져\"",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/canadian-firms-outlooks-dimmed-after-trade-talks-collapse-boc-survey-finds-2026-10-19/",
+   "s": "캐나다은행 조사에서 대미 무역협상 결렬 뒤 기업들의 수출·투자 전망이 약해지고 소비자 기대물가가 3.91%로 뛰면서 28일 금리 결정의 부담이 커졌다"
+  },
+  {
+   "t": "캐나다은행 설문, 기대 인플레·가격 전가 확대 확인",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/boc-surveys-show-higher-inflation-expectations-passthrough",
+   "s": "캐나다은행 설문에서 기대 인플레이션이 오르고 기업들이 향후 1년 물가를 3.7%로 예상하면서, 원가가 소비자 가격으로 넘어갈 위험이 커졌다"
+  },
+  {
+   "t": "캐나다은행 인상 베팅에 캐나다달러 약 4주 만의 고점",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/canadian-dollar-notches-nearly-four-week-high-on-boc-rate-hike-bets-2026-10-19/",
+   "s": "캐나다은행 금리 인상 베팅이 커지면서, 캐나다달러가 약 4주 만의 고점으로 올랐다 (제목 기준)"
+  },
+  {
+   "t": "트레이더·이코노미스트, 다음 주 캐나다 금리 인상 베팅 확대",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/bank-of-canada-hike-bets-grow-among-economists-traders",
+   "s": "트레이더와 이코노미스트들이 다음 주 캐나다은행의 금리 인상 쪽으로 베팅을 늘리면서, 10월 28일 결정이 인상과 동결 사이 박빙이 됐다"
+  }
+ ],
+ "key": "split-G5-025-2026-10-20",
+ "nodes": [
+  "macro/cb",
+  "macro/inflation",
+  "macro/fx",
+  "macro/growth"
+ ],
+ "num": 530,
+ "one": "브렌트유가 캐나다은행 가정치 75달러를 크게 웃도는 약 110달러에 머물자 매클럼 총재가 고유가가 성장과 물가를 함께 끌어올린다며 10월 28일 새 물가 전망이 7월보다 크게 높아질 것이라고 밝힌 가운데, 캐나다 9월 소비자물가가 휘발유 27.8% 급등에 8월 3.0%에서 3.1%로 올랐지만 근원 지표는 1.9%로 내려갔고, 캐나다은행 설문에서는 대미 무역협상 결렬 뒤 기업 수출·투자 전망이 약해진 반면 소비자 5년 기대물가가 3.91%로 2022년 2분기 이후 최고, 기업의 1년 물가 예상이 3.7%로 높아지면서 28일 금리 인상 베팅이 커져 캐나다달러가 약 4주 만의 고점으로 올랐다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T04:23:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "글로브앤드메일",
+   "d": "2026-10-17",
+   "u": "https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/"
+  },
+  {
+   "o": "CBC",
+   "d": "2026-10-19",
+   "u": "https://www.cbc.ca/news/business/inflation-september-2026-9.7386437"
+  },
+  {
+   "o": "캐나다은행",
+   "d": "2026-10-19",
+   "u": "https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-19",
+   "u": "https://www.theglobeandmail.com/business/economy/article-bank-of-canada-interest-rate-hike-bets-tiff-macklem-hawkish-speech/"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-19",
+   "u": "https://www.theglobeandmail.com/business/economy/article-bank-of-canada-interest-rate-hike-bets-tiff-macklem-hawkish-speech/"
+  }
+ ],
+ "tags": [],
+ "title": "캐나다 고유가 물가에 10월 28일 인상 베팅…9월 물가 3.1%·소비자 기대물가 3.91%·캐나다달러 4주 고점",
+ "updatedAt": "2026-10-20T12:09:45+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "10월 28일 캐나다은행 금리 인상 베팅 확대"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "캐나다 9월 물가 3.1%, 소비자 기대물가 3.91%"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "인상 베팅에 캐나다달러 약 4주 고점"
+  }
+ ]
+}

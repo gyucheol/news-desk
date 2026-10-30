@@ -1,0 +1,84 @@
+{
+ "id": "n-tg-0780",
+ "num": 780,
+ "key": "mix-G2-030-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T18:37:00+09:00",
+ "url": "https://t.me/cahier_de_market/11137",
+ "origTitle": "",
+ "headline": "오픈AI, AI로 국소 평활화 추측·ETH 반증 등 난제 3건 증명 발표…GPT 6.1 Terra는 10분의 1 가격",
+ "src": [
+  {
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-27",
+   "u": "https://t.me/cahier_de_market/11137"
+  },
+  {
+   "o": "MindStudio",
+   "d": "2026-10-27",
+   "u": "https://www.mindstudio.ai/blog/openai-ai-discoveries-math-physics-cs"
+  },
+  {
+   "o": "FourWeekMBA",
+   "d": "2026-10-27",
+   "u": "https://fourweekmba.com/ai-openai-says-its-ai-refuted-the-exponential-time-hypothesis/"
+  }
+ ],
+ "items": [
+  {
+   "t": "오픈AI, 수학·CS·물리 분야 AI 연구 성과 3건 발표",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-27",
+   "u": "https://t.me/cahier_de_market/11137",
+   "s": "오픈AI가 AI로 국소 평활화 추측 증명, 지수시간 가설 반증, 양-밀스 존재성 증명을 내놓으면서 AI의 과학 연구 활용 범위가 넓어졌다"
+  },
+  {
+   "t": "GPT 6.1 Terra, 10분의 1 가격으로 Astra와 같은 벤치 점수",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-27",
+   "u": "https://t.me/cahier_de_market/11141",
+   "s": "GPT 6.1 Terra가 Agent's Last Exam에서 상위 모델 Astra와 같은 점수를 10분의 1 가격에 내면서 AI 모델 사용 단가가 크게 낮아졌다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "channel": "카이에 de market",
+ "title": "오픈AI, AI로 국소 평활화 추측·ETH 반증 등 난제 3건 증명 발표…GPT 6.1 Terra는 10분의 1 가격",
+ "one": "오픈AI가 자사 AI 모델로 수학·컴퓨터과학·물리학 난제 3건의 증명을 생성했다고 발표했다\n· 1991년 제안된 국소 평활화 추측을 모든 차원에서 증명해 카케야·스타인 제한 추측도 풀렸다고 밝혔다\n· 30년간 받아들여진 지수시간 가설(ETH)이 거짓이라는 반증을 Lean으로 형식화했다\n· 4차원 양자색역학·양-밀스 이론 존재성 증명은 데이비드 그로스 연구진 검토를 위해 공개를 미뤘다\n· GPT 6.1 Terra는 Agent's Last Exam에서 Astra와 같은 점수를 10분의 1 가격으로 냈다는 전언이 있다",
+ "facts": [
+  "무엇이: 오픈AI는 AI 모델로 조화해석학·계산복잡도·양자장론 난제 3건의 증명을 생성했다고 발표했다 [사실]",
+  "수학·CS: 국소 평활화 추측(1991년) 증명과 지수시간 가설 반증은 Lean 형식화를 마쳤고 임팔리아초·파투리·라이언 윌리엄스가 ETH 외부 검증을 이끈다 [사실]",
+  "물리: 양-밀스·QCD 존재성 증명은 그로스 연구진이 검토하며 질량 간극 문제까지 푼 것은 아니고 동료 검토는 아직이다 [사실]",
+  "모델: GPT 6.1 Terra는 Agent's Last Exam 벤치에서 Astra와 같은 점수를 10분의 1 가격으로 기록했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 국소 평활화 추측·ETH 반증·양-밀스 존재성 증명 발표와 외부 검토 체계 확인. GPT 6.1 Terra 벤치마크는 확인 못 함",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "AI 모델로 수학·물리 난제 3건 증명 생성"
+  },
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "GPT 6.1 Terra 10분의 1 가격에 같은 점수"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

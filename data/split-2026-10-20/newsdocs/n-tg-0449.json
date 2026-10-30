@@ -1,0 +1,62 @@
+{
+ "id": "n-tg-0449",
+ "num": 449,
+ "key": "split-G2-024-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/Trillion_labs/10360",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "카니 총리, 트럼프와 통화…'대미 석유·경유 수출 극대화, 하루 100만 배럴 이상'",
+ "headline": "카니 총리, 트럼프와 통화…'대미 석유·경유 수출 극대화, 하루 100만 배럴 이상'",
+ "one": "마크 카니 캐나다 총리가 트럼프 대통령과 통화하고 대미 석유·경유 수출을 극대화해 하루 100만 배럴 이상을 보내겠다고 밝히면서, 경유 부족에 시달리는 미국의 연료 공급이 늘어날 전망이다",
+ "facts": [
+  "무엇이: 마크 카니 캐나다 총리가 트럼프 대통령과 통화하고 대미 석유·경유 수출을 극대화하겠다고 밝혔다고 채널이 10월 12일 전했다 [사실]",
+  "규모: 대미 수출은 하루 100만 배럴 이상이 될 것이라고 했다 [사실]",
+  "의미: 사상 최고 경유값과 정유 가동률 98%의 병목 속에서 수입 공급이 늘면 미국 경유 수급이 다소 숨통을 틀 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 트릴리온 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 캐나다 총리실 통화 요약·Newsquawk 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "캐나다 총리실",
+   "d": "2026-10-11",
+   "u": "https://www.pm.gc.ca/en/news/readouts/2026/10/11/prime-minister-carney-speaks-president-united-states-donald-j-trump"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-11",
+   "u": "https://www.newsquawk.com/headlines/canadian-pm-carneys-office-says-carney-spoke-with-us-president-trump-and-that-canada-will-maximize-exports-of-oil-and-diesel-to-the-us-with-all-exports-to-the-us-yielding-over-1mln-barrels-of-diesel-daily"
+  }
+ ],
+ "items": [
+  {
+   "t": "카니 총리, 트럼프와 통화…\"대미 석유·경유 수출 극대화, 하루 100만 배럴 이상\"",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-12",
+   "u": "https://t.me/Trillion_labs/10360"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "캐나다, 대미 석유·경유 수출 하루 100만 배럴 이상"
+  }
+ ],
+ "channel": "트릴리온"
+}

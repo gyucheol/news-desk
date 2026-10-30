@@ -1,0 +1,45 @@
+{
+ "id": "n-bbg-0067",
+ "feed": "v5",
+ "format": "one1",
+ "num": 67,
+ "processed": "2026-10-08",
+ "source": "블룸버그",
+ "key": "bbg-1005-st-croix-refinery-restart",
+ "published": "2026-10-05",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-05/troubled-caribbean-refinery-eyes-restart-amid-global-fuel-crunch",
+ "inds": [
+  "petchem"
+ ],
+ "nodes": [
+  "petchem/commodity"
+ ],
+ "title": "미국령 세인트크로이 정유소, 2027년 재가동 추진…원유 공급·제품 구매처 확보",
+ "one": "2021년에 멈춘 미국령 버진아일랜드 세인트크로이 정유소의 소유주 포트해밀턴이 원유 공급과 제품 구매를 맡을 상대를 확보하고 2027년 재가동을 추진하면서, 하루 20만 배럴 넘는 정제 능력이 연료 부족 시장에 돌아올 수 있다",
+ "headline": "미국령 세인트크로이 정유소, 2027년 재가동 추진…원유 공급·제품 구매처 확보",
+ "facts": [
+  "무엇이: 포트해밀턴 리파이닝의 데이비드 존슨 이사가 블룸버그에 약 12개월 안, 2027년 재가동을 목표로 한다고 밝혔습니다. [사실]",
+  "얼마나: 단계적으로 재가동해 최종적으로 하루 20만 배럴을 넘기는 계획이며, 5월에는 약 22만 배럴을 목표로 제시했습니다. [사실]",
+  "조건: 원유를 대고 제품을 사 갈 상업 파트너(이름 비공개)는 정해졌지만, 자금 조달은 확정되지 않았고 재가동 시점도 승인된 일정이 아닙니다. [사실]",
+  "배경: 라임트리베이가 32억 달러 넘게 들여 2021년 2월 재가동했다가 같은 해 5월 미 환경보호청 명령으로 멈춘 뒤 파산한 설비입니다. [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 원문 미확인 — VI 컨소시엄(버진아일랜드 현지 매체, 10월 7일)이 블룸버그 인터뷰를 인용해 쓴 자체 기사로 작성.",
+ "src": [
+  {
+   "o": "블룸버그(원문 미확인)",
+   "d": "2026-10-05",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-05/troubled-caribbean-refinery-eyes-restart-amid-global-fuel-crunch"
+  },
+  {
+   "o": "VI 컨소시엄",
+   "d": "2026-10-07",
+   "u": "https://viconsortium.com/vi-economy/virgin-islands-st--croix-refinery-targets-2027-restart-with-crude-supplier-and-fuel-buyer-lined-up"
+  }
+ ],
+ "tags": [],
+ "cycles": [],
+ "incentive": "",
+ "insight": {},
+ "origTitle": "Troubled Caribbean Refinery Eyes Restart Amid Global Fuel Crunch"
+}

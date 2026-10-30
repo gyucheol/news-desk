@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0644",
+ "num": 644,
+ "key": "mix-G1-076-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T07:55:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/brazils-americanas-exits-bankruptcy-proceedings-2026-10-19/",
+ "origTitle": "",
+ "headline": "브라질 아메리카나스, 약 4년 만에 회생 절차 종료…주가 6.99% 상승",
+ "src": [
+  {
+   "o": "Rio Times",
+   "d": "2026-10-20",
+   "u": "https://www.riotimesonline.com/americanas-ends-judicial-recovery/"
+  },
+  {
+   "o": "Visno Invest(회사 공시)",
+   "d": "2026-10-20",
+   "u": "https://visnoinvest.com/news/15787/americanas-amer3-announces-end-of-judicial-recovery"
+  }
+ ],
+ "items": [
+  {
+   "t": "브라질 아메리카나스, 회생 절차 종료",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/legal/litigation/brazils-americanas-exits-bankruptcy-proceedings-2026-10-19/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "브라질 아메리카나스, 약 4년 만에 회생 절차 종료…주가 6.99% 상승",
+ "one": "브라질 법원이 회계 부정으로 회생 절차에 들어간 소매업체 아메리카나스의 회생 절차를 19일 끝냈다\n· 법원은 회사가 회생계획 인가 뒤 2년 안에 도래한 의무를 이행했다고 판단했으며 결정에는 항소가 가능하다\n· 아메리카나스 주가는 이날 6.99% 올라 약 5.97헤알이 됐다",
+ "facts": [
+  "무엇이: 리우데자네이루 제4기업법원은 10월 19일 아메리카나스의 회생 절차를 종료했다 [사실]",
+  "근거: 법원은 회생계획 인가 뒤 2년 안에 도래한 의무를 회사가 이행했다고 판단했고, 자회사 B2W 디지털 등도 대상이며 결정에는 항소가 가능하다 [사실]",
+  "시장: 주가는 6.99% 올라 약 5.97헤알이 됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Rio Times와 회사 공시 보도로 회생 절차 종료 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "아메리카나스 회생 절차 종료로 법정관리 졸업"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0794",
+ "num": 794,
+ "key": "mix-G1-030-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-30T02:32:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/china-makes-first-inquiry-for-us-wheat-since-trump-xi-summit",
+ "origTitle": "",
+ "headline": "中, 트럼프-시진핑 회담 뒤 첫 미국산 밀 구매 문의…美 농업 기업은 비용 급등에 불투명 업황 경고",
+ "src": [
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-29",
+   "u": "https://www.newsquawk.com/headlines/china-makes-first-inquiry-for-us-wheat-since-the-trump-xi-summit"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 트럼프-시진핑 회담 뒤 첫 미국산 밀 구매 문의",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/china-makes-first-inquiry-for-us-wheat-since-trump-xi-summit",
+   "s": "중국이 트럼프-시진핑 회담 이후 처음 미국산 밀 구매를 문의하면서 미 곡물 수출 재개 기대가 생겼지만 물량과 성사 여부는 아직 불확실하다"
+  },
+  {
+   "t": "미국 농업 기업들, 비용 급등에 불투명한 업황 예고",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/america-s-farm-firms-signal-more-murky-times-with-soaring-costs",
+   "s": "미국 농업 기업들이 치솟는 비용 탓에 앞으로도 어려운 시기가 이어질 것이라는 신호를 보내 농업 경기 회복이 늦어질 수 있다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "中, 트럼프-시진핑 회담 뒤 첫 미국산 밀 구매 문의…美 농업 기업은 비용 급등에 불투명 업황 경고",
+ "one": "중국이 트럼프-시진핑 정상회담 이후 처음으로 미국산 밀 구매를 문의했다는 보도가 나왔다\n· 문의 물량·밀 종류·구매 주체는 알려지지 않았고 실제 계약으로 이어질지는 아직 확인되지 않았다\n· 앞서 미 농무부 자료상 중국의 2026~27년산 옥수수·밀 구매 실적은 0이었다\n· 미국 농업 기업들은 치솟는 비용 탓에 앞으로도 업황이 불투명하다는 신호를 보냈다",
+ "facts": [
+  "무엇이: 중국이 트럼프-시진핑 정상회담 이후 처음으로 미국산 밀 구매를 문의했다 [사실]",
+  "내용: 10월 29일 전해진 문의로 물량·밀 종류·구매 주체는 공개되지 않았고, 성사 여부는 미 수출 판매 통계나 플래시 판매 발표로 확인된다 [사실]",
+  "배경: 미 농무부 자료상 2026~27년산 옥수수·밀의 대중 판매는 0으로 주요 작물 대량 구매가 이뤄지지 않았다는 보도가 있었다 [사실]",
+  "미 농업 기업: 비용 급등 속에 더 불투명한 시기가 이어질 것이라는 신호를 보냈다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "중국의 미국산 밀 첫 구매 문의는 Newsquawk 열람으로 확인(물량·주체 미공개). 미 농업 기업 비용 급등 기사는 확인 못 함",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "grains",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "중국 회담 뒤 첫 미국산 밀 구매 문의"
+  }
+ ],
+ "updatedAt": "2026-10-30T08:15:00+09:00"
+}

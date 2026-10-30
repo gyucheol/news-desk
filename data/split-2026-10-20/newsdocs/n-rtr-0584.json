@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0584",
+ "num": 584,
+ "key": "split-G5-134-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF 'AI 생산성, 아시아 선진국 성장률 0.5~1%p 높여 고령화 상쇄'",
+ "headline": "IMF 'AI 생산성, 아시아 선진국 성장률 0.5~1%p 높여 고령화 상쇄'",
+ "one": "IMF가 12일 AI가 아시아 선진국 성장률을 0.5~1%포인트 높일 수 있다며 AI 생산성 향상이 아시아 고령화 문제를 상쇄할 수 있다고 보면서, 고령화로 둔해지는 아시아 성장의 새 동력으로 AI가 꼽혔다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 12일 AI 생산성 향상이 아시아의 고령화 문제를 상쇄할 수 있다고 밝혔다 [사실]",
+  "규모: IMF는 AI가 아시아 선진국 성장률을 0.5~1%포인트 높일 수 있다고 봤다 [사실]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 이를 직접 뒷받침하는 독립 출처를 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF \"AI 생산성 향상이 아시아 고령화 문제 상쇄할 수 있어\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth",
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI로 아시아 선진국 성장률 0.5~1%p 상승 가능"
+  }
+ ],
+ "ind": "semis"
+}

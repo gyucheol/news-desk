@@ -1,0 +1,51 @@
+{
+ "id": "n-bbg-0603",
+ "num": 603,
+ "key": "split-G6-142-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:57:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/rubio-visits-uzbekistan-seeking-strong-central-asia-partnership",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "루비오, 우즈베키스탄 방문서 中·러 견제 중앙아시아 협정 공개",
+ "headline": "루비오, 우즈베키스탄 방문서 中·러 견제 중앙아시아 협정 공개",
+ "one": "루비오 미 국무장관이 우즈베키스탄을 방문해 중국·러시아를 견제하는 중앙아시아 협정들을 공개하면서, 미국이 중앙아시아와 협력을 넓혀 역내 영향력 확대에 나섰다 (제목 기준)",
+ "facts": [
+  "무엇이: 루비오 국무장관은 우즈베키스탄 방문에서 중국·러시아를 견제하는 중앙아시아 협정들을 공개했다 [제목]",
+  "의미: 미국은 중국·러시아에 맞서 중앙아시아에서 영향력 확대를 추진하고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에도 루비오 중앙아시아 협정은 제목만 근거로 적혀 있음",
+ "src": [],
+ "items": [
+  {
+   "t": "루비오, 中·러 견제 중앙아시아 공략 협정 공개",
+   "o": "블룸버그",
+   "d": "2026-10-19",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/rubio-visits-uzbekistan-seeking-strong-central-asia-partnership"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "루비오 중·러 견제 중앙아시아 협정 공개, 수급 방향 없음"
+  }
+ ]
+}

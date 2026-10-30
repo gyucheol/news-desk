@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "새 북극 전략의 약속 유지·2021년 약속 삭제·모라토리엄 문구 완화를 검색 결과 요약으로 확인. 이타카 건은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: EU 집행위원회는 10월 20일 새 북극 전략에서 석유·석탄·가스를 북극에서도 땅속에 두겠다는 약속을 유지했다 [사실]",
+  "삭제: 극지방 추가 탄화수소 개발을 막는 다자간 법적 의무를 추진하겠다는 2021년 약속은 빠졌고, EU 관계자는 다자 합의가 어려워진 여건을 이유로 들었다 [사실]",
+  "초안: 블룸버그는 초안에서 석유 개발 금지 문구가 후퇴했다고 전했고, 노르웨이가 반대한 모라토리엄 언급은 최종본에서 완화됐다 [사실]",
+  "북해: FT는 이타카가 로즈뱅크 유전 승인이 없으면 영국 투자를 멈출 수 있다고 보도했다 [제목]",
+  "의미: 요르겐센 에너지 집행위원은 북극 시추 입장이 그대로라고 했고, 환경단체도 큰 후퇴는 아니라고 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "EU 새 북극 전략 '화석연료 땅속에' 유지…2021년 법적 금지 추진 약속은 삭제",
+ "id": "n-tg-0315",
+ "incentive": "",
+ "inds": [
+  "drilling",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "s": "EU가 북극 전략 초안에서 석유 개발 금지 문구를 물리면서 극지방 탄화수소 개발을 막겠다던 기존 기조가 약해졌다 (제목 기준)",
+   "t": "EU, 북극 전략 초안서 석유 개발 금지 문구 후퇴",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/eu-retreats-from-arctic-oil-ban-language-in-strategy-draft"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "s": "이타카가 로즈뱅크 유전 개발 승인이 나지 않으면 영국 투자를 멈출 수 있다고 압박하면서, 영국 정부의 북해 개발 허가 결정이 업계 투자 여부를 가를 변수로 떠오르고 있다 (제목 기준)",
+   "t": "FT \"이타카, 로즈뱅크 승인 없으면 영국 투자 중단할 수도\"",
+   "u": "https://www.reuters.com/legal/litigation/ithaca-may-halt-britain-investment-without-rosebank-approval-ft-reports-2026-10-19/"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 트릴리온",
+   "s": "EU 새 북극 전략에서 극지방 탄화수소 개발을 막는 다자간 법적 의무를 추진한다는 2021년 약속이 빠지면서 북극 시추 전면 금지 방침이 사실상 철회됐다",
+   "t": "FT \"EU, 북극 시추 전면 금지 추진 철회\"",
+   "u": "https://t.me/Trillion_labs/10876"
+  },
+  {
+   "t": "EU 새 북극 전략 '석유·석탄·가스 땅속에 두는 약속 유지'",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/energy/eu-still-committed-keeping-oil-coal-gas-ground-arctic-new-strategy-says-2026-10-20/",
+   "s": "EU가 새 북극 전략에서 화석연료를 땅속에 두겠다는 약속을 유지하면서, 2021년 법적 금지 추진 약속 삭제가 전면 후퇴는 아님을 밝혔다"
+  }
+ ],
+ "key": "mix-G1-013-2026-10-20",
+ "nodes": [
+  "drilling/capex"
+ ],
+ "num": 315,
+ "one": "EU가 새 북극 전략에서 화석연료를 땅속에 두겠다는 원칙은 지켰지만 2021년의 법적 금지 추진 약속은 뺐다\n· 최종 전략은 석유·석탄·가스를 북극을 포함해 땅속에 두겠다는 약속을 유지했다\n· 극지방 추가 탄화수소 개발을 막는 다자간 법적 의무를 추진하겠다는 2021년 약속은 빠졌다\n· 블룸버그가 전한 초안의 모라토리엄 문구도 최종본에서 완화됐다\n· 북해에서는 이타카가 로즈뱅크 승인이 없으면 영국 투자를 멈출 수 있다고 압박했다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T21:54:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Rigzone",
+   "d": "2026-10-20",
+   "u": "https://www.rigzone.com/news/eu_policy_draft_softens_language_on_arctic_drilling-20-oct-2026-184879-article"
+  },
+  {
+   "o": "Modern Diplomacy",
+   "d": "2026-10-20",
+   "u": "https://moderndiplomacy.eu/2026/10/20/eu-vows-to-keep-arctic-oil-gas-and-coal-in-the-ground-despite-growing-energy-rivalry/"
+  }
+ ],
+ "tags": [],
+ "title": "EU 새 북극 전략 '화석연료 땅속에' 유지…2021년 법적 금지 추진 약속은 삭제",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/eu-retreats-from-arctic-oil-ban-language-in-strategy-draft",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "EU 북극 화석연료 반대 유지·2021년 약속 삭제"
+  }
+ ],
+ "added": "로이터 1건 — 최종 북극 전략이 석유·석탄·가스를 땅속에 두겠다는 약속은 유지했다는 내용이 추가됨"
+}

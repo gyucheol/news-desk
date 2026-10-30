@@ -1,0 +1,72 @@
+{
+ "id": "n-rtr-0725",
+ "num": 725,
+ "key": "mix-G2-075-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T18:39:00+09:00",
+ "url": "https://www.reuters.com/world/middle-east/turkeys-policy-shift-track-despite-slower-disinflation-election-test-awaits-sp-2026-10-23/",
+ "origTitle": "",
+ "headline": "S&P '튀르키예 정책 전환 궤도 유지'…디스인플레 지연·선거가 시험대, BB- 유지",
+ "src": [
+  {
+   "o": "Daily Sabah",
+   "d": "2026-10-23",
+   "u": "https://www.dailysabah.com/business/economy/sp-says-turkiyes-policy-shift-on-track-banking-risks-manageable"
+  },
+  {
+   "o": "IndexBox",
+   "d": "2026-10-23",
+   "u": "https://www.indexbox.io/blog/sp-turkeys-tight-monetary-policy-supports-bb-sovereign-rating-but-elections-and-slow-disinflation-test-resolve/"
+  }
+ ],
+ "items": [
+  {
+   "t": "S&P '튀르키예 정책 전환 궤도 유지…디스인플레 둔화·선거 시험대'",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/world/middle-east/turkeys-policy-shift-track-despite-slower-disinflation-election-test-awaits-sp-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/inflation"
+ ],
+ "title": "S&P '튀르키예 정책 전환 궤도 유지'…디스인플레 지연·선거가 시험대, BB- 유지",
+ "one": "S&P는 튀르키예의 통화정책 전환이 디스인플레이션 둔화에도 궤도를 유지하고 있다고 평가했다\n· S&P는 BB- 등급과 안정적 전망을 유지했고 연간 물가는 30%를 조금 밑돈다고 짚었다\n· 2028년 5월 예정된 선거를 앞두고 긴축을 얼마나 이어갈지가 시험대가 될 수 있다",
+ "facts": [
+  "무엇이: S&P의 카렌 바르타페토프 국가신용 분석가는 튀르키예 정책 전환이 궤도에 있으며 디스인플레이션은 지연됐을 뿐 탈선하지 않았다고 말했다 [사실]",
+  "등급·물가: S&P는 BB-·안정적 전망을 확인했고, 연간 물가는 30%를 조금 밑돌며 다음 등급 검토는 내년 4월이다 [사실]",
+  "금리: 튀르키예 중앙은행은 5차례 회의 동안 37%에 묶었던 기준금리를 22일 36%로 내렸다 [사실]",
+  "선거·펀드: 대선·총선은 2028년 5월 예정이나 앞당겨질 수 있고, S&P는 투자펀드 위기를 금융안정 위협보다 지배구조·감독 문제로 봤다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "S&P 평가·BB- 유지·물가 30% 미만·기준금리 36% 인하·선거 일정은 검색 결과 요약(Daily Sabah·IndexBox·Finimize)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "튀르키예 기준금리 37%에서 36%로 인하"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "튀르키예 물가 30% 아래로 디스인플레 지연"
+  }
+ ]
+}

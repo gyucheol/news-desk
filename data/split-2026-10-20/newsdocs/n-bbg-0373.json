@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0373",
+ "num": 373,
+ "key": "split-G1-031-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/supertankers-racing-to-middle-east-worsen-global-ships-crunch",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "초대형 유조선 중동 쏠림에 세계 선박 부족 심화",
+ "headline": "초대형 유조선 중동 쏠림에 세계 선박 부족 심화",
+ "one": "초대형 유조선들이 8일 중동으로 몰려가면서 다른 항로에 투입할 배가 모자라 세계 선박 부족이 심해지고 있어, 다른 지역 유조선 운임에도 상승 압력이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 초대형 유조선들이 중동으로 몰리면서 세계 선박 부족이 심해지고 있다 [제목]",
+  "영향: 다른 항로에 투입할 배가 모자라 운임 상승 압력이 커질 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "중동으로 몰리는 초대형 유조선, 세계 선박 부족 심화",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/supertankers-racing-to-middle-east-worsen-global-ships-crunch"
+  }
+ ],
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "초대형 유조선 중동 쏠림에 세계 선박 부족 심화"
+  }
+ ]
+}

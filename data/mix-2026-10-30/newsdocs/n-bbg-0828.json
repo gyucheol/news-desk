@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0828",
+ "num": 828,
+ "key": "mix-G2-054-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T20:38:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/investors-buy-rogers-rci-bce-telus-stocks-after-canada-telecom-selloff",
+ "origTitle": "",
+ "headline": "캐나다 통신주 급락 뒤 저가 매수…로저스·BCE·텔러스에 투자자 몰려",
+ "src": [],
+ "items": [
+  {
+   "t": "캐나다 통신주 매도세 뒤 로저스·BCE·텔러스 사들이는 투자자들",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/investors-buy-rogers-rci-bce-telus-stocks-after-canada-telecom-selloff"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "캐나다 통신주 급락 뒤 저가 매수…로저스·BCE·텔러스에 투자자 몰려",
+ "one": "캐나다 통신주가 급락한 뒤 투자자들이 로저스·BCE·텔러스 주식을 사들이고 있다\n· 매도세로 떨어진 통신 3사 주가에 매수세가 들어온 것으로 전해졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 캐나다 통신주 매도세 뒤 투자자들이 로저스·BCE·텔러스 주식을 사들였다 [제목]",
+  "앞서: 로저스는 3분기 스포츠 매출로 예상을 웃돌았지만 무선 부문은 부진했다(n-bbg-0696) [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도로 확인 못 함, 제목만 근거",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "캐나다 통신주 급락 뒤 매수세 유입"
+  }
+ ]
+}

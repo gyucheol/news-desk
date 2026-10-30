@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0330",
+ "num": 330,
+ "key": "split-G1-010-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/69830",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란 의회의장 '7개 조건 충족 전 호르무즈 재개방 없다'…사찰 제안 보도 부인",
+ "headline": "이란 의회의장 '7개 조건 충족 전 호르무즈 재개방 없다'…사찰 제안 보도 부인",
+ "one": "이란 의회의장 칼리바프가 10월 4일 이슬라마바드 양해각서에 근거한 7개 조건이 충족되기 전에는 호르무즈 해협을 열지 않겠다고 밝히면서, 해협 원유 수송 재개가 미국의 조건 수용 여부에 달리게 됐다",
+ "facts": [
+  "무엇이: 칼리바프 이란 의회의장이 이슬라마바드 양해각서에 근거한 7개 조건이 충족되기 전에는 호르무즈 해협을 다시 열지 않겠다고 밝혔다(10월 4일) [사실]",
+  "사찰: 이란이 사찰을 제안했다는 보도는 부인했다 [채널]",
+  "조건: 이란이 내건 조건에는 봉쇄·제재 해제 등이 들어 있고, 이는 조건 충족 시 6일 안에 해협을 다시 열겠다는 제안으로 이어졌다 [사실]",
+  "영향: 미국이 조건을 받아들이기 전까지 해협 재개방이 미뤄질 수 있다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "하나증권 중국전략 채널 기사 1건. 7개 조건 전 재개방 불가 발언은 원 문서 독립 출처(알자지라·타임스오브이스라엘)로 확인했고, 사찰 제안 부인은 채널 전언이다.",
+ "src": [
+  {
+   "o": "알자지라",
+   "d": "2026-10-04",
+   "u": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
+  },
+  {
+   "o": "타임스오브이스라엘",
+   "d": "2026-10-04",
+   "u": "https://www.timesofisrael.com/liveblog_entry/irans-parliament-speaker-says-strait-of-hormuz-wont-reopen-until-tehrans-7-conditions-met/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란 의회의장 '7개 조건 충족 전 호르무즈 재개방 없다'…사찰 제안 보도는 부인",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-04",
+   "u": "https://t.me/HANAchina/69830"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "7개 조건 충족 전 호르무즈 재개방 거부"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

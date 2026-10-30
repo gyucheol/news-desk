@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0691",
+ "num": 691,
+ "key": "mix-G2-076-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:44:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/russia-holds-key-rate-as-ukrainian-strikes-spur-inflation",
+ "origTitle": "",
+ "headline": "러시아중앙은행 기준금리 14% 동결…정유시설 피격 물가에 고금리 장기화 시사",
+ "src": [
+  {
+   "o": "The Moscow Times",
+   "d": "2026-10-23",
+   "u": "https://www.themoscowtimes.com/2026/10/23/russian-central-bank-holds-key-interest-rate-steady-a94062"
+  },
+  {
+   "o": "TASS",
+   "d": "2026-10-23",
+   "u": "https://tass.com/economy/2206951"
+  }
+ ],
+ "items": [
+  {
+   "t": "러시아중앙은행, 정유시설 피격에 고금리 장기화 전망",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/russia-holds-key-rate-as-ukrainian-strikes-spur-inflation",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "title": "러시아중앙은행 기준금리 14% 동결…정유시설 피격 물가에 고금리 장기화 시사",
+ "one": "러시아중앙은행이 10월 23일 기준금리를 14%로 동결하고 고금리를 더 오래 유지할 뜻을 내비쳤다\n· 연간 물가는 10월 19일 기준 6.8%이고, 올해 말 7.1~7.6%로 전망됐다\n· 정유시설 피격에 따른 연료값 상승을 들며 내년 금리 전망 범위를 12.5~13.5%로 올렸다",
+ "facts": [
+  "무엇이: 러시아중앙은행은 10월 23일 기준금리를 14%로 동결해 두 달이 안 돼 두 번째 동결을 했다 [사실]",
+  "물가: 연간 물가는 10월 19일 기준 6.8%였고, 연말 전망은 7.1~7.6%다 [사실]",
+  "정유시설: 우크라이나의 정유시설 공격으로 휘발유·경유값이 오른 것을 일시 요인으로 꼽았고, 기조 물가는 연율 5~6%에 머물렀다 [사실]",
+  "전망: 2026년 성장률 전망을 0.5~1%로 올리고 내년 기준금리 예상 범위를 12.5~13.5%로 높였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "14% 동결, 물가, 내년 금리 전망은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "러시아 기준금리 14% 동결·고금리 장기화"
+  }
+ ]
+}

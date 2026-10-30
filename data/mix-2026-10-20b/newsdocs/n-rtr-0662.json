@@ -1,0 +1,48 @@
+{
+ "id": "n-rtr-0662",
+ "num": 662,
+ "key": "mix-G2-077-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T14:05:00+09:00",
+ "url": "https://www.reuters.com/world/asia-pacific/sea-plans-ipo-financial-services-arm-monee-memo-says-2026-10-20/",
+ "origTitle": "",
+ "headline": "씨(Sea), 금융 자회사 머니(Monee) 기업공개 계획…내부 메모",
+ "src": [],
+ "items": [
+  {
+   "t": "씨, 금융 자회사 머니 기업공개 계획(메모)",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/asia-pacific/sea-plans-ipo-financial-services-arm-monee-memo-says-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "씨(Sea), 금융 자회사 머니(Monee) 기업공개 계획…내부 메모",
+ "one": "씨(Sea)가 금융 서비스 자회사 머니(Monee)의 기업공개를 계획하고 있다\n· 로이터는 내부 메모를 근거로 머니 상장 계획을 전했다 (제목 기준)",
+ "facts": [
+  "무엇이: 씨가 금융 서비스 자회사 머니의 기업공개를 계획하고 있다 [제목]",
+  "근거: 계획은 내부 메모로 알려졌다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 생략(한도). 로이터 제목만 근거",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "payments",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "씨, 금융 자회사 머니 상장 추진"
+  }
+ ]
+}

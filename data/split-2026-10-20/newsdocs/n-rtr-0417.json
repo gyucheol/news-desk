@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0417",
+ "num": 417,
+ "key": "split-G2-020-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/brazil-extends-fuel-price-relief-cuts-gasoline-taxes-ahead-runoff-vote-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질, 대선 결선 앞두고 연료값 지원 연장·휘발유세 인하",
+ "headline": "브라질, 대선 결선 앞두고 연료값 지원 연장·휘발유세 인하",
+ "one": "브라질 정부가 대선 결선 투표를 앞두고 연료값 지원을 연장하고 휘발유세를 내리면서, 미국에서 논의되던 고유가 대응 연료 감세가 미국 밖으로도 번지고 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 브라질 정부가 대선 결선을 앞두고 연료값 지원을 연장하고 휘발유세를 내렸다고 로이터가 10월 10일 전했다 [제목]",
+  "의미: 고유가 대응 감세가 미국 밖으로도 번지고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질, 결선 투표 앞두고 연료값 지원 연장·휘발유세 인하",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/energy/brazil-extends-fuel-price-relief-cuts-gasoline-taxes-ahead-runoff-vote-2026-10-09/"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "브라질 연료값 지원 연장·휘발유세 인하"
+  }
+ ]
+}

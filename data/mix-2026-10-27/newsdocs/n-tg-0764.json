@@ -1,0 +1,76 @@
+{
+ "id": "n-tg-0764",
+ "num": 764,
+ "key": "mix-G1-019-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T20:03:00+09:00",
+ "url": "https://t.me/insidertracking/67502",
+ "origTitle": "",
+ "headline": "코카콜라 3분기 매출 134억 달러 7%↑·조정 EPS 0.91달러…연간 가이던스 상향",
+ "src": [
+  {
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67502"
+  },
+  {
+   "o": "코카콜라 보도자료",
+   "d": "2026-10-27",
+   "u": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
+  },
+  {
+   "o": "Qz",
+   "d": "2026-10-27",
+   "u": "https://qz.com/coca-cola-earnings-beat-raises-full-year-outlook-102726"
+  }
+ ],
+ "items": [
+  {
+   "t": "코카콜라 3분기 매출 134억 달러·EPS 0.91달러, 가이던스 상향",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-27",
+   "u": "https://t.me/insidertracking/67502",
+   "s": "코카콜라가 3분기 매출 134억 달러, 조정 EPS 0.91달러로 예상을 넘고 판매량 5% 증가를 바탕으로 연간 가이던스를 올렸다"
+  },
+  {
+   "t": "코카콜라, 해외 탄산음료 판매 호조에 가이던스 상향",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/coca-cola-raises-full-year-guidance-buoyed-by-soda-sales",
+   "s": "코카콜라가 해외 탄산음료 판매 호조에 힘입어 연간 유기적 매출·EPS 성장 전망을 높이면서 음료 수요가 견조함을 보였다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "channel": "미국 주식 인사이더",
+ "title": "코카콜라 3분기 매출 134억 달러 7%↑·조정 EPS 0.91달러…연간 가이던스 상향",
+ "one": "코카콜라가 3분기 시장 예상을 웃도는 실적을 내고 연간 가이던스를 올렸다\n· 매출은 134억 달러로 7% 늘었고 조정 EPS는 0.91달러로 예상 0.88달러를 넘었다\n· 글로벌 판매량이 5% 늘었고 해외 탄산음료 판매가 실적을 받쳤다\n· 연간 유기적 매출 성장 전망은 5% 이상, 조정 EPS 성장은 11% 이상으로 높였다",
+ "facts": [
+  "무엇이: 코카콜라 3분기 매출은 134억 달러로 7% 늘었고 조정 EPS는 0.91달러로 11% 늘어 LSEG 예상 0.88달러를 넘었다 [사실]",
+  "세부: GAAP EPS 0.93달러(8%↑), 유기적 매출 7%↑, 글로벌 판매량 5%↑, 영업이익률 33.4%였고 연초 이후 FCF는 114억 달러다 [채널]",
+  "전망: 연간 유기적 매출 성장 전망을 약 5%에서 5% 이상으로, 조정 EPS 성장 전망을 9~10%에서 11% 이상으로, FCF를 130억 달러 이상으로 높였다 [사실]",
+  "전제: 가이던스는 아프리카 보틀링 사업 매각이 4분기에 마무리되는 것을 전제로 한다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "매출·EPS·가이던스 상향은 회사 발표와 Qz 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "코카콜라 3분기 글로벌 판매량 5% 증가"
+  }
+ ],
+ "updatedAt": "2026-10-27T21:25:26+09:00"
+}

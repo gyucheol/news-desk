@@ -1,0 +1,54 @@
+{
+ "id": "n-bbg-0661",
+ "num": 661,
+ "key": "mix-G1-096-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T18:29:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/british-land-halts-canada-water-project-amid-london-development-crisis",
+ "origTitle": "",
+ "headline": "브리티시랜드, 런던 개발 위기 속 캐나다워터 사업 중단",
+ "src": [
+  {
+   "o": "Show House",
+   "d": "",
+   "u": "https://www.showhouse.co.uk/british-land-and-australiansuper-secure-approval-for-revised-canada-water-masterplan/news/"
+  }
+ ],
+ "items": [
+  {
+   "t": "브리티시랜드, 런던 개발 위기에 캐나다워터 사업 중단",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/british-land-halts-canada-water-project-amid-london-development-crisis"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "브리티시랜드, 런던 개발 위기 속 캐나다워터 사업 중단",
+ "one": "영국 부동산 개발사 브리티시랜드가 런던 개발 위기 속에 캐나다워터 사업을 멈췄다\n· 캐나다워터는 다음 단계 착공이 2027년부터로 예정됐던 런던 대형 재개발 단지다 (제목 기준)",
+ "facts": [
+  "무엇이: 브리티시랜드가 런던 개발 위기 속에 캐나다워터 사업을 중단했다 [제목]",
+  "배경: 캐나다워터 마스터플랜은 2027년부터 다음 단계 착공이 예정돼 있었고, 회사는 건축안전법과 건설비 상승을 이유로 계획을 수정한 바 있다 [사실]"
+ ],
+ "basis": "title",
+ "check": "검색과 회사 뉴스 페이지 열람에서 중단 보도는 확인 못 함, 사업 배경만 확인",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "브리티시랜드, 캐나다워터 개발 사업 중단"
+  }
+ ]
+}

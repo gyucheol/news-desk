@@ -1,0 +1,89 @@
+{
+ "id": "n-bbg-0440",
+ "num": 440,
+ "key": "split-G3-078-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T16:29:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/bok-governor-backs-further-won-gains-vows-to-keep-policy-tight",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "신현송 한은 총재 긴축 유지·원화 강세 지지…22일 3% 동결 전망",
+ "headline": "신현송 한은 총재 긴축 유지·원화 강세 지지…22일 3% 동결 전망",
+ "one": "신현송 한국은행 총재가 13일 끈질긴 물가 압력을 이유로 긴축 유지를 약속하고 원화 추가 강세를 지지한 가운데, 18일 이코노미스트 6명 전원이 22일 기준금리 3% 동결을 예상하면서도 11월 추가 인상 가능성은 열어 뒀다",
+ "facts": [
+  "무엇이: 신현송 총재는 13일 물가 확신이 들 때까지 긴축을 유지하고 원화가 더 오르는 것이 바람직하다고 했다 [사실]",
+  "의미: 블룸버그는 총재가 가계 구매력을 위한 원화 절상에 힘을 실었다고 전했고, 로이터는 10월 22일 회의의 추가 인상 여부에 관심이 쏠린다고 했다 [사실]",
+  "배경: 기준금리는 7·8월 인상으로 3.00%이며 18일 원·달러 환율은 1,328.9원으로 내렸다 [사실]",
+  "전망: 이코노미스트 6명 전원이 근원물가 안정과 1,330원대 환율을 들어 22일 3% 동결을 예상하면서도 11월 추가 인상 가능성을 열어 뒀다 [채널]",
+  "시장: 스왑시장은 6개월 내 50bp 인상 확률을 약 70%로 반영했다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그·로이터 각 1건과 텔레그램 하나증권 중국전략 1건을 묶음. 원 문서 확인 기록에서 18일 원화 강세(1,328.9원)를 검색 결과 요약으로 확인했고 총재의 긴축 유지 발언은 서울경제 보도로 뒷받침, 이코노미스트 6명 동결 조사는 확인 못 함",
+ "src": [
+  {
+   "o": "Seoul Economic Daily",
+   "d": "2026-10-13",
+   "u": "https://en.sedaily.com/finance/2026/10/13/bok-chief-vows-tight-policy-until-2-percent-inflation-is-in"
+  },
+  {
+   "o": "코리아타임스",
+   "d": "2026-10-18",
+   "u": "https://koreatimes.co.kr/amp/economy/20261018/won-strengthens-on-robust-exports-increased-dollar-supply"
+  }
+ ],
+ "items": [
+  {
+   "t": "한은 총재, 원화 추가 강세 지지…긴축 유지 약속",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/bok-governor-backs-further-won-gains-vows-to-keep-policy-tight",
+   "s": "한은 총재가 원화 추가 강세를 지지하고 긴축 유지를 약속하면서 가계 구매력을 위한 원화 절상에 힘을 실었다"
+  },
+  {
+   "t": "한은 총재 '통화정책 당분간 긴축적으로 유지'",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/bank-korea-chief-says-monetary-policy-to-stay-restrictive-now-2026-10-13/",
+   "s": "한은 총재가 끈질긴 물가 압력을 이유로 통화정책을 당분간 긴축적으로 유지하겠다고 밝혀 10월 22일 회의의 추가 인상 여부에 관심이 쏠린다"
+  },
+  {
+   "t": "한국은행, 이번 회의서 기준금리 3% 동결 전망",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-18",
+   "u": "https://t.me/HANAchina/70596",
+   "s": "이코노미스트 6명 전원이 근원물가 안정과 1,330원대 환율을 들어 22일 3% 동결을 예상하면서도 11월 추가 인상 가능성은 열어 뒀다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb",
+  "macro/fx"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "한은 22일 기준금리 3% 동결 전망"
+  },
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "한은 총재, 원화 추가 강세 지지"
+  }
+ ]
+}

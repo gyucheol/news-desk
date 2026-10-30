@@ -1,0 +1,59 @@
+{
+ "id": "n-rtr-0586",
+ "num": 586,
+ "key": "split-G5-138-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/japan-finance-minister-named-next-chair-world-bank-imf-joint-development-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "가타야마 일본 재무상, 일본인 최초 IMF·세계은행 개발위원회 의장",
+ "headline": "가타야마 일본 재무상, 일본인 최초 IMF·세계은행 개발위원회 의장",
+ "one": "가타야마 일본 재무상이 13일 세계은행·IMF 합동개발위원회 차기 의장에 지명돼 일본인으로는 처음 이 자리를 맡게 되면서, 두 기관의 개발금융 논의에서 일본의 발언권이 커질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터와 블룸버그는 10월 13일 가타야마 일본 재무상이 세계은행·IMF 합동개발위원회 차기 의장에 지명됐다고 보도했다 [제목]",
+  "의미: 일본인이 이 위원회 의장을 맡는 것은 처음이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터·블룸버그 기사 2건(제목 기준)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "일본 재무상, 세계은행·IMF 합동개발위원회 차기 의장에 지명",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/japan-finance-minister-named-next-chair-world-bank-imf-joint-development-2026-10-13/",
+   "s": "일본 재무상이 세계은행·IMF 합동개발위원회 차기 의장에 지명되면서, 일본이 개발금융 논의를 이끄는 자리를 맡게 됐다 (제목 기준)"
+  },
+  {
+   "t": "가타야마, 일본인 최초로 IMF·세계은행 개발위원회 의장 맡는다",
+   "o": "블룸버그",
+   "d": "2026-10-13",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/katayama-to-be-first-japanese-chair-of-imf-wb-development-panel",
+   "s": "가타야마 재무상이 일본인으로는 처음 IMF·세계은행 개발위원회 의장을 맡게 되면서, 두 기관의 개발 의제에서 일본의 발언권이 커질 수 있다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "일본 재무상 개발위원회 의장 지명, 인사 뉴스"
+  }
+ ]
+}

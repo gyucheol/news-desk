@@ -1,0 +1,56 @@
+{
+ "id": "n-bbg-0401",
+ "num": 401,
+ "key": "split-G2-060-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "릴라이언스 주도로 인도의 베네수엘라 원유 수입 하루 46만 5천 배럴, 7년 만 최대",
+ "headline": "릴라이언스 주도로 인도의 베네수엘라 원유 수입 하루 46만 5천 배럴, 7년 만 최대",
+ "one": "릴라이언스 주도로 10월 인도의 베네수엘라산 원유 수입이 최대 하루 46만 5,000배럴로 7년 만에 최대가 되면서, 할인된 메레이유가 비싸진 우랄유 자리를 채우고 있다",
+ "facts": [
+  "무엇이: 10월 인도의 베네수엘라산 원유 수입은 릴라이언스 주도로 최대 하루 46만 5,000배럴로 7년 만에 최대다 [사실]",
+  "대체: 할인된 베네수엘라 메레이유가 비싸진 러시아 우랄유 자리를 채우고 있다 [사실]",
+  "공급 배경: PDVSA 생산량은 하루 약 120만 배럴이다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그 기사 1건. 인도의 10월 베네수엘라산 수입 7년 만 최대는 검색 결과 요약(Business Standard)으로 확인했다.",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-07",
+   "u": "https://www.business-standard.com/economy/news/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high-in-oct-126100700608_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "릴라이언스 주도로 인도의 베네수엘라 원유 수입 7년 만에 최대",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도의 베네수엘라 원유 수입 7년 만에 최대"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "n-bbg-0693",
+ "num": 693,
+ "key": "mix-G2-081-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T06:53:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices",
+ "origTitle": "",
+ "headline": "차머스 호주 재무장관 '성장 예상보다 둔화·실업률 상승'…9월 실업률 4.7%",
+ "src": [
+  {
+   "o": "Finwire",
+   "d": "2026-10-23",
+   "u": "https://finwire.io/news/economy-news/australias-treasurer-warns-of-softer-growth-higher-unemployment"
+  },
+  {
+   "o": "CathNews",
+   "d": "2026-10-23",
+   "u": "https://cathnews.com/2026/10/23/budget-update-projects-weaker-growth-and-higher-unemployment/"
+  }
+ ],
+ "items": [
+  {
+   "t": "차머스 재무장관 '호주 성장, 예상보다 둔화할 듯'",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "title": "차머스 호주 재무장관 '성장 예상보다 둔화·실업률 상승'…9월 실업률 4.7%",
+ "one": "짐 차머스 호주 재무장관이 성장은 5월 예산 전망보다 약하고 실업률은 높아질 것이라고 경고했다\n· 9월 실업률은 4.7%로 5년 만의 최고였고, 기준금리는 올해 4.6%까지 올랐다\n· 중동 위기로 유가가 호주중앙은행 8월 가정보다 약 3분의 1 높아진 것이 주요 원인으로 꼽혔다",
+ "facts": [
+  "무엇이: 차머스 장관은 10월 23일 시드니 포럼에서 성장은 5월 예산 전망보다 약하고 실업률은 높을 것이라며 12월 중간 예산 수정에 반영한다고 했다 [사실]",
+  "고용·물가: 9월 실업률은 4.7%로 5년 만의 최고였고, 근원 물가는 약 3.6%에 머물렀다 [사실]",
+  "금리: 호주중앙은행은 올해 기준금리를 4.6%로 올렸고, 시장은 다음 달 4.85%로 추가 인상할 확률을 64%로 본다 [사실]",
+  "원인·예외: 중동 위기로 유가가 8월 가정보다 약 3분의 1 높아졌고, 기업투자는 올해 5% 넘게 늘어 5월 예상의 두 배를 넘을 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(차머스 연설·실업률·금리)",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "호주 성장 예상보다 둔화·실업률 상승 경고"
+  }
+ ]
+}

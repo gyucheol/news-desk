@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0621",
+ "num": 621,
+ "key": "mix-G1-059-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T15:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-20/china-s-huachen-energy-risks-fresh-default-on-956-million-debt",
+ "origTitle": "",
+ "headline": "중국 화천에너지, 9억 5,600만 달러 채무 재디폴트 위험…만기 6년 연장 추진",
+ "src": [
+  {
+   "o": "Streamline Feed",
+   "d": "2026-09-09",
+   "u": "https://streamlinefeed.co.ke/news/chinas-huachen-energy-seeks-six-year-extension-on-maturing-corporate-bonds"
+  },
+  {
+   "o": "Latham & Watkins",
+   "d": "2022-02",
+   "u": "https://www.lw.com/en/news/2022/02/latham-watkins-advises-huachen-energy-innovative-bond-restructuring-and-the-first-ever-us-chapter-15"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 화천에너지, 9억 5,600만 달러 채무 재디폴트 위험",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/china-s-huachen-energy-risks-fresh-default-on-956-million-debt"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity"
+ ],
+ "title": "중국 화천에너지, 9억 5,600만 달러 채무 재디폴트 위험…만기 6년 연장 추진",
+ "one": "중국 화천에너지가 9억 5,600만 달러 규모 채무에서 다시 디폴트를 낼 위험에 놓였다\n· 회사는 9월 채권 만기를 6년 늘리고 금리를 6%에서 8.5%로 올리는 안을 추진한다는 보도가 있었다\n· 화천에너지는 2019년 5억 달러 선순위채 디폴트 뒤 회생 절차를 거쳤다",
+ "facts": [
+  "무엇이: 화천에너지가 9억 5,600만 달러 채무에서 다시 디폴트를 낼 위험에 놓였다 [제목]",
+  "만기 연장: 9월 보도에 따르면 회사는 12월 끝나는 기존 상환유예 합의 전에 유동성 위기를 피하려고 채권 만기 6년 연장과 금리 6%→8.5% 인상을 추진했다 [사실]",
+  "이력: 2019년 5억 달러 선순위채가 디폴트됐고, 2022년 미국 법원이 중국 회생계획을 챕터 15로 인정했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "9억 5,600만 달러 재디폴트 위험은 검색에서 헤드라인으로만 보여 세부 확인 못 함. 9월 만기 6년 연장 추진·2019년 디폴트 이력은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "화천에너지 9억 5,600만 달러 채무 재디폴트 위험"
+  }
+ ]
+}

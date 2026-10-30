@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0696",
+ "num": 696,
+ "key": "mix-G2-090-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T20:27:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/rogers-beats-on-sports-revenue-as-wireless-remains-sluggish",
+ "origTitle": "",
+ "headline": "로저스 3분기, 스포츠 매출로 예상 상회…무선 부문은 부진 지속",
+ "src": [],
+ "items": [
+  {
+   "t": "로저스, 스포츠 매출로 예상 상회…무선 부문은 부진",
+   "o": "블룸버그",
+   "d": "2026-10-23",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/rogers-beats-on-sports-revenue-as-wireless-remains-sluggish"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "로저스 3분기, 스포츠 매출로 예상 상회…무선 부문은 부진 지속",
+ "one": "캐나다 통신사 로저스가 스포츠 매출에 힘입어 시장 예상을 웃도는 실적을 냈다\n· 다만 본업인 무선 부문은 부진한 흐름이 이어졌다 (제목 기준)",
+ "facts": [
+  "무엇이: 로저스가 스포츠 매출 덕에 시장 예상을 웃돌았다 [제목]",
+  "무선: 무선 부문은 부진이 이어졌다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 따로 확인하지 못함, 제목 기준",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "로저스 무선 부문 부진 지속"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0123",
+ "num": 123,
+ "key": "bnd-C079-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:13:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing",
+ "origTitle": "",
+ "headline": "글렌코어, 14일 호주 증시 2차 상장…'전기화 수요에 투자자 관심 강해'",
+ "src": [
+  {
+   "o": "MINING.COM",
+   "d": "2026-10",
+   "u": "https://www.mining.com/web/glencores-planned-australian-debut-draws-interest-as-investors-look-past-coal/"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10",
+   "u": "https://finimize.com/content/glencore-heads-to-the-asx-with-copper-in-the-lead"
+  }
+ ],
+ "items": [
+  {
+   "t": "글렌코어, 호주 상장 앞두고 석탄 우려 일축",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing"
+  },
+  {
+   "t": "글렌코어 '전기화 흐름이 호주 상장 수요 견인할 것'",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/retail-consumer/glencore-sees-electrification-trend-driving-strong-uptake-australia-listing-2026-10-09/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "글렌코어, 14일 호주 증시 2차 상장…'전기화 수요에 투자자 관심 강해'",
+ "one": "글렌코어가 10월 14일 호주증권거래소 2차 상장을 앞두고 이익의 약 30%를 차지하는 구리의 전기화 수요를 내세워 투자자 관심이 강하다고 밝히면서, 세계 최대 연료탄 수출사라는 석탄 우려를 넘어 호주 자금 유입을 노리고 있다",
+ "facts": [
+  "무엇이: 글렌코어가 10월 14일 CDI 방식으로 ASX에 2차 상장하며 신주 발행은 없고 1차 상장은 런던에 남는다 [사실]",
+  "주장: 나글 CEO는 전기화 흐름에 투자하려는 수요로 인수 관심이 강하다고 말했다 [사실]",
+  "석탄: 연료탄이 산업 부문 기초이익의 약 15%로, 일부 투자자 반발 가능성이 거론되지만 회사는 에너지 충격 뒤 석탄 보유 의향이 늘었다고 본다 [사실]",
+  "지수: 나글은 12개월 안에 S&P/ASX 200 편입이 가능하다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인(MINING.COM, Finimize 등)",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/thermal",
+  "coal/trade"
+ ],
+ "updatedAt": "2026-10-09T15:22:03+09:00"
+}

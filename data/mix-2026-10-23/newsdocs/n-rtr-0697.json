@@ -1,0 +1,60 @@
+{
+ "id": "n-rtr-0697",
+ "num": 697,
+ "key": "mix-G1-088-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T15:59:00+09:00",
+ "url": "https://www.reuters.com/business/testing-firm-sgs-posts-higher-q3-sales-confirms-outlook-2026-10-23/",
+ "origTitle": "",
+ "headline": "SGS 3분기 매출 14.6% 늘어 19.8억 스위스프랑…유기적 성장 5.7%·연간 전망 유지",
+ "src": [
+  {
+   "o": "RTTNews",
+   "d": "2026-10-23",
+   "u": "https://www.rttnews.com/3702153/sgs-q3-sales-rise.aspx"
+  },
+  {
+   "o": "Yahoo Finance",
+   "d": "2026-10-23",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/sgs-beats-q3-revenue-estimates-060308898.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "검사기업 SGS, 3분기 매출 증가…연간 전망 유지",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/testing-firm-sgs-posts-higher-q3-sales-confirms-outlook-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "SGS 3분기 매출 14.6% 늘어 19.8억 스위스프랑…유기적 성장 5.7%·연간 전망 유지",
+ "one": "스위스 검사·인증 기업 SGS의 3분기 매출이 14.6% 늘어 19.82억 스위스프랑을 기록했다\n· 유기적 성장률은 5.7%로 2분기 5.9%보다 조금 낮아졌고, 인수 효과가 6.9%를 보탰다\n· SGS는 올해 유기적 매출 성장 5~7%와 조정 영업이익률 16% 전망을 유지했다",
+ "facts": [
+  "무엇이: SGS 3분기 매출은 19.82억 스위스프랑으로 14.6% 늘었고 유기적 성장 5.7%, 인수 효과 6.9%, 환율 효과 2%였다 [사실]",
+  "지역: 아시아태평양은 유기적으로 9.3% 늘었지만 유럽은 2.4%에 그쳤고, 일부 유럽 산업 시장 약세와 중동 변동성이 언급됐다 [사실]",
+  "전망: 2026년 유기적 매출 성장 5~7%, 조정 영업이익률 16% 목표를 유지하고 예상 인수 효과는 높였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(RTTNews·Yahoo Finance·Investing.com 콜 전문)으로 확인",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "services",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "SGS 3분기 유기적 성장 5.7%, 연간 전망 유지"
+  }
+ ]
+}

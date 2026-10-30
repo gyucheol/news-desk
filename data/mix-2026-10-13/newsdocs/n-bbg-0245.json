@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0245",
+ "num": 245,
+ "key": "mix-C077-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T17:07:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-12/china-steel-mill-turns-to-shipbuilding-as-industry-booms",
+ "origTitle": "",
+ "headline": "세계철강협회 '올해 철강 수요 17억 2,200만 톤 정체'…中 제철소는 조선으로",
+ "src": [
+  {
+   "o": "worldsteel",
+   "d": "2026-10-12",
+   "u": "https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 제철소, 호황 맞은 조선업으로 눈 돌려",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/china-steel-mill-turns-to-shipbuilding-as-industry-booms"
+  },
+  {
+   "t": "세계철강협회 '2026년 철강 수요 17억 2,200만 톤으로 정체'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70280"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "coal"
+ ],
+ "nodes": [
+  "coal/steel"
+ ],
+ "title": "세계철강협회 '올해 철강 수요 17억 2,200만 톤 정체'…中 제철소는 조선으로",
+ "one": "세계철강협회가 중국 수요 감소로 올해 세계 철강 수요가 17억 2,200만 톤으로 지난해와 비슷하고 2027년에야 1.7% 늘 것으로 내다본 가운데, 중국 제철소가 호황인 조선업으로 사업을 돌리면서 철강 수요 공백을 메우려는 움직임이 나타나고 있다",
+ "facts": [
+  "무엇이: 세계철강협회는 10월 12일 2026년 세계 철강 수요를 17억 2,200만 톤으로 지난해와 비슷하게, 2027년은 1.7% 늘어난 17억 5,200만 톤으로 전망했다 [사실]",
+  "중국: 중국 수요는 2026년 2.0%, 2027년 1.0% 줄 것으로 봤다 [사실]",
+  "중국 밖: 중국 외 수요는 2026년 1.5%, 2027년 4% 늘고, 인도는 2026년 7.9% 성장할 전망이다 [사실]",
+  "전환: 한 중국 제철소가 호황인 조선업으로 사업을 돌리고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "세계철강협회 전망 수치는 협회 보도자료 검색 결과 요약으로 확인. 중국 제철소의 조선 전환은 관련 보도를 찾지 못해 제목 기준",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

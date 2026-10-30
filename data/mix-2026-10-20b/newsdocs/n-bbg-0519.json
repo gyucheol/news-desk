@@ -1,0 +1,58 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 독립 확인 못 함, 블룸버그 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: 파트너스그룹은 핵심 펀드 재편을 앞두고 운용보수를 인하했다 [제목]",
+  "앞선 보도: 블룸버그는 10월 7일 파트너스그룹이 환매 물결을 맞은 펀드를 고치려 창의적인 방안을 내놓고 있다고 전했다 [제목]",
+  "의미: 환매 압박이 운용사의 보수와 펀드 구조 변화로 이어지고 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "파트너스그룹, 환매 몰린 펀드 재편 앞두고 핵심 펀드 운용보수 인하",
+ "id": "n-bbg-0519",
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "t": "환매 몰린 펀드 수습 위해 묘수 짜내는 파트너스그룹",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/partners-group-gets-creative-to-fix-funds-hit-by-redemption-wave"
+  },
+  {
+   "t": "파트너스그룹, 펀드 재편 앞두고 운용보수 인하",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/partners-group-cuts-management-fees-at-key-fund-before-overhaul",
+   "s": "파트너스그룹이 환매가 몰린 핵심 펀드의 재편을 앞두고 운용보수를 내리면서, 투자자 이탈을 막으려 수수료를 양보했다 (제목 기준)"
+  }
+ ],
+ "key": "split-G5-003-2026-10-20",
+ "nodes": [],
+ "num": 519,
+ "one": "파트너스그룹이 환매 요청이 몰린 펀드를 수습하려 펀드 구조 재편에 나서고 있다\n· 블룸버그는 10월 7일 파트너스그룹이 환매 물결을 맞은 펀드를 고칠 새 방안을 짜내고 있다고 전했다\n· 파트너스그룹은 핵심 펀드 재편을 앞두고 운용보수를 내렸다\n· 사모시장 펀드의 환매 압박이 운용사의 보수와 펀드 구조 변화로 이어지고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T18:22:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "파트너스그룹, 환매 몰린 펀드 재편 앞두고 핵심 펀드 운용보수 인하",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/partners-group-gets-creative-to-fix-funds-hit-by-redemption-wave",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "assetmgmt",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "파트너스그룹 핵심 펀드 운용보수 인하"
+  }
+ ],
+ "added": "블룸버그 1건 — 펀드 재편을 앞두고 핵심 펀드의 운용보수를 내린 내용이 추가됨 (제목 기준)"
+}

@@ -1,0 +1,73 @@
+{
+ "basis": "partial",
+ "check": "블룸버그·로이터 3건(10월 7~9일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 5주 연속 주간 하락은 Business Recorder 보도(10월 9일)로 뒷받침되고 나머지는 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유로는 매도 압력이 둔화되면서도 5주 연속 주간 하락을 향했다(10월 9일 로이터) [사실]",
+  "심리: 정치 위험이 커지며 유로 비관론이 확산됐다(10월 7일 블룸버그) [제목]",
+  "달러: 유럽의 어려움이 달러 강세론자들에게 새 근거를 줬다(10월 8일 로이터) [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "정치 위험에 유로 비관론 확산…유로 5주 연속 주간 하락 향해",
+ "id": "n-bbg-0111",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "t": "정치 위험 커지며 유로 비관론 확산",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks",
+   "s": "유럽 정치 위험이 커지면서 유로화 약세를 점치는 비관론이 외환시장에 빠르게 퍼지고 있다"
+  },
+  {
+   "t": "유럽의 어려움이 달러 강세론자들에게 새 근거 제공",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/europe/europes-woes-give-dollar-bulls-fresh-reason-press-2026-10-08/",
+   "s": "유럽의 정치·재정 어려움이 달러 강세론자들에게 달러 매수를 밀어붙일 새 근거를 주고 있다"
+  },
+  {
+   "t": "유로, 5주 연속 주간 하락 향해…매도 압력은 둔화",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/euro-skids-toward-fifth-weekly-fall-selling-pressure-slows-2026-10-09/",
+   "s": "유로가 매도 압력이 다소 누그러졌는데도 5주 연속 주간 하락을 향하면서 약세 흐름을 이어 갔다"
+  }
+ ],
+ "key": "bnd-C047-2026-10-09",
+ "nodes": [
+  "macro/fx"
+ ],
+ "num": 111,
+ "one": "유럽 정치 위험이 커지며 10월 7일 유로 비관론이 확산되고 8일에는 유럽의 어려움이 달러 강세론자들에게 새 근거가 된 가운데, 유로는 9일 매도 압력이 둔화되면서도 5주 연속 주간 하락을 향했다",
+ "origTitle": "",
+ "processed": "2026-10-20",
+ "published": "2026-10-20T04:22:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "Business Recorder",
+   "d": "2026-10-09",
+   "u": "https://www.brecorder.com/news/40443407/euro-skids-toward-fifth-weekly-fall-but-selling-pressure-slows"
+  }
+ ],
+ "tags": [],
+ "title": "정치 위험에 유로 비관론 확산…유로 5주 연속 주간 하락 향해",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/euro-falls-to-16-month-low-versus-pound-on-france-s-fiscal-risks",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "유로, 5주 연속 주간 하락 향해"
+  }
+ ]
+}

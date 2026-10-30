@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0807",
+ "num": 807,
+ "key": "mix-G1-052-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T21:27:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/harley-s-electric-bike-spinoff-livewire-warns-it-may-not-survive",
+ "origTitle": "",
+ "headline": "할리 전기오토바이 분사사 라이브와이어 '존속 불확실' 경고…현금 3,990만 달러로 급감",
+ "src": [
+  {
+   "o": "Axios",
+   "d": "2026-10-29",
+   "u": "https://www.axios.com/2026/10/29/harley-davidson-livewire-electric-motorcycles"
+  },
+  {
+   "o": "Arabian Post",
+   "d": "2026-10-29",
+   "u": "https://thearabianpost.com/livewire-flags-survival-doubts-as-cash-reserves-shrink/"
+  }
+ ],
+ "items": [
+  {
+   "t": "할리 전기오토바이 분사사, 존속 불확실 경고에 폭락",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/harley-s-electric-bike-spinoff-livewire-warns-it-may-not-survive"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "할리 전기오토바이 분사사 라이브와이어 '존속 불확실' 경고…현금 3,990만 달러로 급감",
+ "one": "할리데이비슨의 전기오토바이 분사사 라이브와이어가 계속기업으로 존속할지 의문이 있다고 경고했다\n· 9월 말 현금은 3,990만 달러로 2025년 말 8,280만 달러의 절반 아래로 줄었다\n· 할리는 영업손실을 더는 메우지 않겠다고 했고 라이브와이어 주가는 장중 35% 넘게 떨어졌다",
+ "facts": [
+  "무엇이: 라이브와이어가 10월 29일 반복된 영업손실·영업현금흐름 적자·유동성 부족으로 향후 1년 존속에 상당한 의문이 있다는 계속기업 경고를 냈다 [사실]",
+  "재무: 3분기 매출은 790만 달러, 순손실은 1,860만 달러였고 9월 말 현금은 3,990만 달러(2025년 말 8,280만 달러)였다 [사실]",
+  "대응: 이사회는 10월 22일 특별 구조조정위원회를 꾸려 부채·지분 조달, 자산 매각, 자본 재구성을 검토하고 있고 할리는 영업손실을 지원하지 않겠다고 했다 [사실]",
+  "주가: 악시오스는 개장 뒤 35% 넘게 떨어진 1.02달러를, 다른 보도는 오전 10시 42% 하락을 전했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "Axios·Yahoo Finance·Arabian Post 검색 결과 요약으로 계속기업 경고, 현금 3,990만 달러, 구조조정위원회, 할리의 지원 중단, 주가 급락을 확인. 하락폭은 보도 시점마다 다름.",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "oem",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "라이브와이어 계속기업 존속 의문 경고"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "n-rtr-0549",
+ "num": 549,
+ "key": "split-G5-070-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T11:21:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/americas/brazil-may-offer-credit-lines-ease-impact-tax-labor-reforms-minister-says-2026-10-16/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "브라질, 세제·노동 개혁 충격 완화 위해 신용 한도 제공 검토",
+ "headline": "브라질, 세제·노동 개혁 충격 완화 위해 신용 한도 제공 검토",
+ "one": "브라질 장관이 세제·노동 개혁이 가져올 충격을 덜기 위해 신용 한도를 제공할 수 있다고 밝히면서, 개혁 비용을 정부 금융 지원으로 완충하는 방안이 결선을 앞두고 거론됐다 (제목 기준)",
+ "facts": [
+  "무엇이: 브라질 장관은 세제·노동 개혁의 충격을 덜기 위해 신용 한도를 제공할 수 있다고 밝혔다 [제목]",
+  "의미: 개혁 비용을 정부 금융 지원으로 완충하는 방안이다 [제목]",
+  "배경: 결선을 앞두고 두 후보가 재정 계획과 유권자 친화 공약에 집중하고 있다 [제목]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "브라질, 세제·노동 개혁 충격 완화 위해 신용 한도 제공 검토…장관",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/americas/brazil-may-offer-credit-lines-ease-impact-tax-labor-reforms-minister-says-2026-10-16/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/liquidity",
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "개혁 충격 완화용 정부 신용 한도 제공 검토"
+  }
+ ]
+}

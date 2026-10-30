@@ -1,0 +1,83 @@
+{
+ "id": "n-rtr-0480",
+ "num": 480,
+ "key": "split-G4-003-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T23:04:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "연준 9월 의사록, 인상 논리 두고 의견 갈려…일부는 시장 스트레스 대비론",
+ "headline": "연준 9월 의사록, 인상 논리 두고 의견 갈려…일부는 시장 스트레스 대비론",
+ "one": "연준이 공개한 9월 FOMC 의사록에서 위원들이 금리 인상의 논리를 두고 의견이 갈리고 일부는 시장 스트레스에 대비하길 원한 것으로 나타나면서, 추가 인상의 근거와 속도를 둘러싼 내부 시각차가 확인됐다",
+ "facts": [
+  "무엇이: 로이터가 10월 8일 전한 연준 9월 FOMC 의사록에서 위원들이 금리 인상 논리를 두고 의견이 갈린 것으로 나타났다 [사실]",
+  "시장 스트레스: 의사록에는 일부 위원이 시장 스트레스에 대비하기를 원했다는 내용도 담겼다 [사실]",
+  "의미: 인상의 근거를 두고 위원 간 시각차가 있어 10월 말 회의의 결정과 표결이 엇갈릴 수 있다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "9월 FOMC 의사록을 다룬 로이터 기사 2건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 CNBC(10월 7일)·Raisin(10월 8일) 의사록 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-07",
+   "u": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+  },
+  {
+   "o": "Raisin",
+   "d": "2026-10-08",
+   "u": "https://www.raisin.com/en-us/news/fomc-minutes-breakdown-rate-hike-division/"
+  }
+ ],
+ "items": [
+  {
+   "t": "9월 의사록, 연준 위원들 금리 인상 논리 두고 의견 갈려",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/",
+   "s": "연준 9월 FOMC 의사록에서 위원들이 금리 인상의 논리를 두고 의견이 갈린 것으로 나타나 내부 시각차가 드러났다"
+  },
+  {
+   "t": "연준 의사록, 일부 위원은 시장 스트레스 대비 원해",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/fed-minutes-show-some-officials-want-prepare-market-stress-2026-10-07/",
+   "s": "연준 9월 의사록에서 일부 위원이 시장 스트레스에 대비하기를 원한 것으로 나타나 금융시장 불안이 정책 변수로 떠올랐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "9월 의사록, 인상 논리 두고 위원 의견 갈림"
+  }
+ ],
+ "fed": [
+  {
+   "k": "",
+   "who": "FOMC",
+   "role": "연방공개시장위원회",
+   "kind": "성명·의사록",
+   "stance": "중립",
+   "t": "9월 의사록에서 위원들이 인상 논리를 두고 갈리고 일부는 시장 스트레스 대비를 원했다",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/business/fed-policymakers-divided-over-rate-hike-logic-september-minutes-show-2026-10-07/"
+  }
+ ]
+}

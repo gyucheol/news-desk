@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0659",
+ "num": 659,
+ "key": "mix-G1-082-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T11:47:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+ "origTitle": "",
+ "headline": "일본제철, 자재값 상승에 US스틸 몬밸리 제철소 개선 투자 30억 달러로 증액",
+ "src": [
+  {
+   "o": "The Edge Malaysia",
+   "d": "2026-10-23",
+   "u": "https://theedgemalaysia.com/node/822963"
+  },
+  {
+   "o": "GMK Center",
+   "d": "2026-10-23",
+   "u": "https://gmk.center/en/news/nippon-steel-to-invest-3-billion-in-upgrading-us-steel-plant-in-the-us/"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본제철, 비용 증가에 美 제철소 개선 투자 30억 달러로 상향",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/nippon-steel-raises-us-mill-upgrade-to-3-billion-as-costs-climb",
+   "d": "2026-10-23"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "일본제철, 자재값 상승에 US스틸 몬밸리 제철소 개선 투자 30억 달러로 증액",
+ "one": "일본제철이 자재값 상승을 이유로 US스틸 몬밸리 제철소 열연설비 개선 투자를 약 30억 달러로 늘렸다\n· 6월 추산 최대 25억 달러에서 늘었고, 회사는 자재값 상승과 더 정확한 비용 산정을 이유로 들었다\n· 생산능력은 약 220만 톤에서 350만 톤으로 늘고 2029년 하반기 상업 가동이 목표다",
+ "facts": [
+  "무엇이: 일본제철은 펜실베이니아 몬밸리 제철소 열연설비 개선에 약 30억 달러를 투자한다 [사실]",
+  "비용: US스틸이 6월 밝힌 최대 25억 달러에서 늘었으며, 회사는 자재값 상승과 더 정확한 비용 산정을 이유로 들었다 [사실]",
+  "규모·일정: 생산능력은 약 220만 톤에서 350만 톤으로 늘고 2029년 하반기 상업 가동이 목표다 [사실]",
+  "맥락: 2025년 US스틸 인수 때 약속한 2028년까지 110억 달러 투자의 일부다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "30억 달러 증액과 비용 상승 이유, 생산능력·일정은 검색 결과 요약으로 확인(금액은 닛케이 보도 인용)",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "steel",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "몬밸리 열연 능력 350만 톤으로 확대 계획"
+  }
+ ]
+}

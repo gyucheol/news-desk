@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0234",
+ "num": 234,
+ "key": "mix-C033-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-13T06:45:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages",
+ "origTitle": "",
+ "headline": "美 모기지 7%대에 9월 주택 계약 2014년來 최저…모기지채권 펀드 대규모 유출",
+ "src": [
+  {
+   "o": "레드핀(PR Newswire)",
+   "d": "2026-10-12",
+   "u": "https://www.prnewswire.com/news-releases/us-pending-home-sales-sink-near-12-year-low-302905207.html"
+  },
+  {
+   "o": "The MortgagePoint",
+   "d": "2026-10-12",
+   "u": "https://themortgagepoint.com/2026/10/12/pending-home-sales-fall-to-near-12-year-low/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 중서부 주택 구입 여력, 집값·모기지 금리 상승에 악화",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/features/2026-10-11/midwest-housing-affordability-worsens-with-higher-home-prices-mortgages"
+  },
+  {
+   "t": "트럼프가 지지하는 주택 규정, 비용 인하 노력 약화시킬 수도",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/trump-backed-housing-rule-could-undercut-effort-to-lower-costs"
+  },
+  {
+   "t": "미국 모기지채권 펀드, 2021년 이후 최악 수준 자금 유출",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-12/us-mortgage-bond-funds-suffer-one-of-worst-outflows-since-2021"
+  },
+  {
+   "t": "미 모기지 금리 7%대 재상승…기존주택 계약 12년 만의 최저",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-13",
+   "u": "https://t.me/HANAchina/70307"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "美 모기지 7%대에 9월 주택 계약 2014년來 최저…모기지채권 펀드 대규모 유출",
+ "one": "30년 모기지 금리가 7%대로 다시 오르면서 9월 미국 기존주택 매매 계약이 전월보다 4% 줄어 2014년 이후 최저로 떨어지고 계약 취소율이 14.5%로 치솟았으며, 모기지채권 펀드에서도 2021년 이후 최악 수준의 자금이 빠져나가고 있다",
+ "facts": [
+  "무엇이: 레드핀 집계로 9월 미국 기존주택 매매 계약이 전월 대비 4% 줄어 3년여 만에 가장 큰 월간 낙폭을 보였고, 2020년 4월을 빼면 2014년 봄 이후 최저입니다 [사실]",
+  "취소·매물: 계약 취소율은 14.5%로 2020년 3~4월을 빼면 역대 최고였고, 매물은 2020년 3월 이후 최대로 늘었지만 성사된 매매는 1.6% 줄어 2023년 말 이후 최저입니다 [사실]",
+  "금리: 프레디맥 30년 고정 모기지 금리는 7.4%로 약 3년 만에 최고이고, 매도자 약 5분의 1이 가격을 내렸습니다 [사실]",
+  "자금: 미국 모기지채권 펀드에서 2021년 이후 손꼽히는 대규모 자금 유출이 나왔습니다 [제목]",
+  "정책: 중서부 주택 구입 여력이 집값·금리 상승으로 나빠졌고, 트럼프가 지지하는 주택 규정이 비용 인하 노력을 약화시킬 수 있다는 지적이 나왔습니다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "레드핀 9월 계약 감소·취소율·매물·성사 매매는 검색 결과 요약(레드핀 보도자료·MortgagePoint)으로 확인. 모기지채권 펀드 유출과 주택 규정 논란은 제목 기준. 7%대 금리 자체는 n-tg-0140에서 다룸",
+ "updatedAt": "2026-10-13T08:47:02+09:00"
+}

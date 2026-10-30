@@ -1,0 +1,46 @@
+{
+ "id": "n-rtr-0081",
+ "num": 81,
+ "key": "bnd-C229-2026-10-09",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T02:47:00+09:00",
+ "url": "https://www.reuters.com/legal/litigation/us-fda-cites-4-deaths-newrons-schizophrenia-drug-trial-hold-2026-10-08/",
+ "origTitle": "",
+ "headline": "FDA, 뉴론 조현병 신약 임상 보류 이유로 사망 4건 지목",
+ "src": [
+  {
+   "o": "BioSpace",
+   "d": "2026-10-08",
+   "u": "https://www.biospace.com/drug-development/newron-reveals-5-deaths-in-late-stage-schizophrenia-program-as-fda-maintains-hold"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 FDA, 뉴론 조현병 신약 임상 보류에 사망 4건 지목",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/litigation/us-fda-cites-4-deaths-newrons-schizophrenia-drug-trial-hold-2026-10-08/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "title": "FDA, 뉴론 조현병 신약 임상 보류 이유로 사망 4건 지목",
+ "one": "미 FDA가 뉴론의 조현병 신약 에베나마이드 투여 환자 사망 4건을 부정맥 가능성이 배제되지 않은 안전성 신호로 지목하고 미국 내 3상 임상 보류를 유지하면서, 뉴론 주가가 약 8.5% 떨어지고 신약 개발 일정에 차질이 생길 수 있다",
+ "facts": [
+  "무엇이: FDA가 에베나마이드 전체 임상에서 투여군 사망 4건(0.56%)을 잠재 안전성 신호로 판단, 위약군은 1건(0.27%) [사실]",
+  "임상: 치료저항성 조현병 대상 3상 ENIGMA-TRS 2의 미국 내 보류 유지, 미국 밖 등록은 계속 [사실]",
+  "회사: 약 700명의 심전도 1만여 건에서 심장 이상 패턴은 없었다며 심장 검사 강화 검토 [사실]",
+  "주가: 발표 후 약 8.5% 하락 [사실]"
+ ],
+ "basis": "verified",
+ "check": "BioSpace 등 검색 결과 요약으로 확인. FDA 판단은 회사 발표 기준",
+ "inds": [
+  "pharma"
+ ],
+ "nodes": []
+}

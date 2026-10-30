@@ -1,0 +1,96 @@
+{
+ "id": "n-tg-0398",
+ "num": 398,
+ "key": "split-G1-135-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T13:51:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/66216",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "싱가포르 선적 GFS 프라이드호 호르무즈서 피격·침몰…지젤호도 손상",
+ "headline": "싱가포르 선적 GFS 프라이드호 호르무즈서 피격·침몰…지젤호도 손상",
+ "one": "싱가포르 선적 GFS 프라이드와 GFS 지젤이 호르무즈에서 피격돼 프라이드는 불이 난 뒤 가라앉고 지젤은 손상된 채 피항했으며, 혁명수비대는 기뢰 충돌을 주장했지만 해상보안 소식통은 발사체 공격으로 보면서 해협 운항 위험이 높아졌다",
+ "facts": [
+  "무엇이: 싱가포르 선적 GFS 프라이드와 GFS 지젤이 호르무즈 해협에서 피격돼 프라이드는 불이 난 뒤 가라앉았고 지젤은 선체가 손상된 뒤 자력으로 피항했다 [사실]",
+  "이란 주장: 혁명수비대는 컨테이너 2,500개를 실은 화물선이 허가되지 않은 항로를 쓰다 기뢰에 부딪혀 불이 나 침몰했다고 주장하며 다른 선박에도 위험을 경고했다 [채널]",
+  "엇갈린 원인: 해상보안 소식통들은 침몰을 발사체 공격 탓으로 봐 기뢰 충돌이라는 이란 주장과 엇갈렸다 [사실]",
+  "블룸버그: 블룸버그는 10월 15일 공격이 잦아지는 호르무즈에서 컨테이너선이 피격 뒤 화재로 가라앉았다고 전했다 [사실]",
+  "이미지: GFS 프라이드호로 추정되는 컨테이너선이 실제로 가라앉는 이미지가 퍼졌다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 2건·로이터 2건·블룸버그 1건(10월 14~15일)을 묶음. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준. 원 문서 출처 목록의 gCaptain·The National 10월 15일 보도가 컨테이너선 침몰을 다룸.",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-15",
+   "u": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/"
+  },
+  {
+   "o": "The National",
+   "d": "2026-10-15",
+   "u": "https://thenationalnews.com/news/gulf/2026/10/15/fire-sinking-and-reported-scramble-for-cargo-what-we-know-about-ship-lost-in-strait-of-hormuz"
+  }
+ ],
+ "items": [
+  {
+   "t": "혁명수비대 '컨테이너 2,500개 실은 화물선, 기뢰 충돌 뒤 침몰'",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-14",
+   "u": "https://t.me/insidertracking/66216",
+   "s": "이란 혁명수비대가 허가되지 않은 항로를 쓴 화물선이 기뢰에 부딪혀 불이 나 가라앉았다고 주장하며 다른 선박에도 위험을 경고했다"
+  },
+  {
+   "t": "GFS 프라이드호 추정 컨테이너선 침몰 이미지 유포",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-14",
+   "u": "https://t.me/Trillion_labs/10475",
+   "s": "GFS 프라이드호로 추정되는 컨테이너선이 실제로 가라앉는 이미지가 퍼지면서 기뢰 충돌이라는 이란 주장과 별개로 긴장 고조 신호가 됐다"
+  },
+  {
+   "t": "싱가포르 선적 선박 2척 호르무즈서 피격, 1척 침몰",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/world/asia-pacific/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks-2026-10-14/",
+   "s": "싱가포르 선적 GFS 프라이드와 GFS 지젤이 피격돼 프라이드는 불이 난 뒤 가라앉았고 지젤은 선체 손상 뒤 자력으로 피항했다"
+  },
+  {
+   "t": "공격 잦아지는 호르무즈 해협서 컨테이너선 침몰",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/cargo-ship-sinks-in-strait-of-hormuz-after-strike-triggers-fire",
+   "s": "호르무즈 해협 공격이 잦아지는 가운데 컨테이너선이 피격 뒤 화재로 가라앉으면서 선박 운항 위험이 높아졌다"
+  },
+  {
+   "t": "컨테이너선, 호르무즈 인근서 발사체 맞고 침몰…소식통",
+   "o": "로이터",
+   "d": "2026-10-15",
+   "u": "https://www.reuters.com/world/asia-pacific/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say-2026-10-14/",
+   "s": "해상보안 소식통들이 컨테이너선 침몰을 발사체 공격 탓으로 보면서 기뢰 충돌이라는 이란 주장과 엇갈렸다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "containers",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "GFS 프라이드호 호르무즈서 피격·침몰"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

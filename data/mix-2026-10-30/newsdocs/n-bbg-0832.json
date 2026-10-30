@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0832",
+ "num": 832,
+ "key": "mix-G2-058-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T23:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/americans-reject-use-of-ai-for-medical-and-coverage-decisions",
+ "origTitle": "",
+ "headline": "미국인 다수, 의료·보험 결정에 AI 단독 사용 반대…보험 청구 46% 'AI 개입 불가'",
+ "src": [
+  {
+   "o": "Pew Research Center",
+   "d": "2026-10-29",
+   "u": "https://www.pewresearch.org/science/2026/10/29/americans-are-open-to-ai-in-healthcare-but-want-humans-making-final-calls/"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-29",
+   "u": "https://qz.com/americans-oppose-ai-medical-insurance-decisions-pew-survey-102926"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국인, 의료·보험 결정에 AI 사용 거부",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/americans-reject-use-of-ai-for-medical-and-coverage-decisions"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "pharma"
+ ],
+ "nodes": [],
+ "title": "미국인 다수, 의료·보험 결정에 AI 단독 사용 반대…보험 청구 46% 'AI 개입 불가'",
+ "one": "퓨리서치 조사에서 미국인 다수가 AI가 의료·보험 결정을 홀로 내리는 데 반대했다\n· 보험 청구 결정에서 46%는 AI 역할을 전혀 원하지 않았고 AI 단독 결정 허용은 5%에 그쳤다\n· 60%는 의료진이 진단·치료에 AI에 기대는 것이 불편하다고 답했다",
+ "facts": [
+  "무엇이: 퓨리서치센터가 10월 29일 공개한 성인 3,488명 조사(6월 22~28일)에서 보험 청구 결정에 46%가 AI 역할에 반대했고 38%는 사람이 최종 검토하면 수용, 5%만 AI 단독 결정을 허용했다 [사실]",
+  "진단: 60%는 의료진이 진단·치료에 AI에 기대는 것이 불편하다고 했고(편안 30%), AI 단독 진단 수용은 3%, 사람 검토 조건 수용 47%, 불수용 41%였다 [사실]",
+  "다른 조사: 이헬스 조사에서는 82%가 AI가 거절한 의료 청구를 사람이 반드시 검토하도록 하는 법에 찬성했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 확인: 퓨리서치 10월 29일 조사(보험 청구 46% 반대·5% 단독 허용, 진단 60% 불편), 이헬스 82%",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "ai",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "미국인 다수, 의료·보험 결정 AI 단독 사용 반대"
+  }
+ ]
+}

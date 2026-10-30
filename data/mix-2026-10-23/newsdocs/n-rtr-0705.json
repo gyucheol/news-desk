@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0705",
+ "num": 705,
+ "key": "mix-G1-099-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T19:04:00+09:00",
+ "url": "https://www.reuters.com/business/energy/indias-adani-power-quarterly-profit-doubles-strong-power-demand-one-off-gains-2026-10-23/",
+ "origTitle": "",
+ "headline": "아다니 파워 분기 이익 2배 넘게 증가…전력 판매 11.5%↑에 일회성 세금 이익 더해져",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-23",
+   "u": "https://www.business-standard.com/companies/news/adani-power-q2-results-net-profit-increases-142-to-7-019-crore-126102300818_1.html"
+  },
+  {
+   "o": "The Tribune",
+   "d": "2026-10-23",
+   "u": "https://www.tribuneindia.com/news/business/adani-power-q2-fy27-profit-surges-142-pc-to-rs-7019-crore-revenue-rises-39-pc"
+  }
+ ],
+ "items": [
+  {
+   "t": "인도 아다니 파워, 강한 전력 수요·일회성 이익에 분기 이익 2배",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/energy/indias-adani-power-quarterly-profit-doubles-strong-power-demand-one-off-gains-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/demand"
+ ],
+ "title": "아다니 파워 분기 이익 2배 넘게 증가…전력 판매 11.5%↑에 일회성 세금 이익 더해져",
+ "one": "인도 아다니 파워의 7~9월 분기 순이익이 전력 수요 호조와 일회성 이익으로 2배 넘게 늘었다\n· 순이익은 약 701억 9,000만 루피로 전년 약 290억 6,000만 루피보다 142% 늘었다\n· 연결 전력 판매량은 11.5% 늘어 264억 kWh였다",
+ "facts": [
+  "무엇이: 아다니 파워의 2027회계연도 2분기(2026년 7~9월) 순이익은 약 701억 9,000만 루피로 전년보다 142% 늘었다 [사실]",
+  "원인: 전력 판매량이 11.5% 늘어 264억 kWh였고, 수입 석탄값과 연동된 요금 인상과 상업 전력값 개선이 보탰다 [사실]",
+  "일회성: 과거 연도 법인세 환입 약 121억 루피와 이연법인세 이익 약 46억 루피가 포함됐고, 일회성 항목 전 세전이익은 32.5% 늘었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "순이익 142% 증가·판매량·일회성 항목은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "아다니 파워 전력 판매량 11.5% 증가"
+  }
+ ]
+}

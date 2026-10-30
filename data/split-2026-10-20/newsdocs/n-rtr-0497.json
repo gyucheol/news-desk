@@ -1,0 +1,57 @@
+{
+ "id": "n-rtr-0497",
+ "num": 497,
+ "key": "split-G4-043-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/boj-may-need-tighten-faster-if-inflation-beats-forecast-imf-says-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF \"물가 전망 웃돌면 일본은행 더 빨리 긴축해야 할 수도\"",
+ "headline": "IMF \"물가 전망 웃돌면 일본은행 더 빨리 긴축해야 할 수도\"",
+ "one": "IMF가 일본 물가가 전망을 웃돌면 일본은행이 긴축 속도를 높여야 할 수 있다고 하면서, 9월 1.25%로 오른 일본 정책금리에 추가 인상 압력이 커질 수 있다",
+ "facts": [
+  "무엇이: IMF는 물가가 전망을 웃돌면 일본은행이 더 빨리 긴축해야 할 수 있다고 했다(10월 17일) [사실]",
+  "금리: 일본 금리는 9월 1.25%로 올랐고, 추가 인상 압력이 커질 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 17일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, Archyde의 IMF 일본은행 권고 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Archyde",
+   "d": "2026-10-17",
+   "u": "https://www.archyde.com/imf-bank-of-japan-may-need-faster-rate-path/"
+  }
+ ],
+ "items": [
+  {
+   "t": "IMF '물가가 전망 웃돌면 일본은행 더 빨리 긴축해야 할 수도'",
+   "o": "로이터",
+   "d": "2026-10-17",
+   "u": "https://www.reuters.com/world/asia-pacific/boj-may-need-tighten-faster-if-inflation-beats-forecast-imf-says-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "IMF, 일본은행 긴축 가속 필요 가능성 제기"
+  }
+ ]
+}

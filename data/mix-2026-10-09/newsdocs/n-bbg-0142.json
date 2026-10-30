@@ -1,0 +1,73 @@
+{
+ "basis": "partial",
+ "check": "IPO 철회와 해외 수요 감소·부채 우려는 검색 결과 요약으로 확인. 호주 증시 위축에 대한 영향은 제목 기준. 비상장 자금 조달(30억 달러) 기사 2건은 AI 자금 조달이라 items에서 뺌",
+ "cycles": [],
+ "facts": [
+  "무엇이: Firmus가 시장 변동성을 이유로 50억 달러 규모 호주 IPO를 철회했습니다 [사실]",
+  "원인: 공모가 기준 몸값 306억 달러는 8월 투자 유치 때 105억 달러의 거의 세 배였고, 부채와 AI 데이터센터 건설 실적에 대한 우려 속에 해외 투자자 관심이 줄었습니다 [사실]",
+  "파장: 지분 3.2%를 가진 마스 그룹 주가가 하루 20% 넘게 떨어진 뒤 거래정지를 요청했습니다 [사실]",
+  "증시: 이번 상장 실패가 상장사가 줄고 있는 호주 증시에 타격이 됐다는 평가입니다 [제목]",
+  "의미: AI 발행사에 대해 투자자들이 선별적으로 바뀌었다는 신호로 해석됩니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "엔비디아 투자 Firmus 50억 달러 IPO 무산…위축된 호주 증시에 타격",
+ "id": "n-bbg-0142",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "엔비디아 투자 Firmus, 대형 IPO 난항에 수요예측 마감 소식",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "엔비디아 투자 Firmus 50억 달러 IPO 보류에 호주 마스 거래정지",
+   "u": "https://www.reuters.com/business/australias-maas-enters-trading-halt-after-nvidia-backed-firmus-shelves-5-billion-2026-10-09/"
+  },
+  {
+   "t": "Firmus 50억 달러 상장 실패, 위축되는 호주 증시에 타격",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/legal/transactional/firmus-5-bln-float-failure-deals-blow-australias-shrinking-share-market-2026-10-09/"
+  }
+ ],
+ "key": "bnd-C105-2026-10-09",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 142,
+ "one": "엔비디아가 투자한 호주 AI 데이터센터 운영사 Firmus가 306억 달러 몸값과 약 300억 달러 부채에 대한 우려 속에 해외 투자자 수요까지 줄어 50억 달러 IPO를 접으면서, 대형 상장이 줄어드는 호주 증시에 타격이 되고 협력사 마스 그룹은 거래정지됐다",
+ "origTitle": "",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T15:51:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-09",
+   "o": "Inside AI News",
+   "u": "https://insideai.news/news/ai-in-business/firmus-ipo-shelved-maas-trading-halt/13932/"
+  },
+  {
+   "o": "Tradingpedia",
+   "d": "2026-10-09",
+   "u": "https://www.tradingpedia.com/2026/10/09/firmus-halts-australia-ipo-as-ai-market-risks-mount/"
+  },
+  {
+   "o": "Tradingkey",
+   "d": "2026-10-09",
+   "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207581-firmus-australia-ipo-shelved-openai-private-funding-tradingkey"
+  }
+ ],
+ "tags": [],
+ "title": "엔비디아 투자 Firmus 50억 달러 IPO 무산…위축된 호주 증시에 타격",
+ "updatedAt": "2026-10-09T19:13:39+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles",
+ "ind": "semis"
+}

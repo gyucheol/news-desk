@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0506",
+ "num": 506,
+ "key": "split-G4-138-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:35:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-09/labour-keenly-aware-of-need-for-competitiveness-ahead-of-bank-tax-decision",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "노동당, 은행세 결정 앞두고 '은행 경쟁력 필요성 잘 알고 있다'",
+ "headline": "노동당, 은행세 결정 앞두고 '은행 경쟁력 필요성 잘 알고 있다'",
+ "one": "노동당이 은행세 결정을 앞두고 은행 경쟁력의 필요성을 잘 알고 있다고 밝히면서 은행권 추가 과세 강도가 조절될 수 있고, 10월 28일 예산안에서는 생계비 지원 재원으로 은행 부담금이 거론되고 있다",
+ "facts": [
+  "무엇이: 10월 9일 노동당은 은행세 결정을 앞두고 은행 경쟁력의 필요성을 잘 알고 있다고 밝혔다 [제목]",
+  "재원 논의: 10월 28일 예산안에서 생계비 지원 재원으로 은행 부담금이 거론됐다 [사실]",
+  "해석: 경쟁력 언급은 은행 부담금을 걷더라도 세율·규모를 조절할 수 있다는 신호로 읽힌다 [추론]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 1건, 노동당 발언은 제목 기준. 원 문서 확인 기록상 은행 부담금 방안은 검색 결과 요약으로 확인(출처 목록의 City AM)",
+ "src": [
+  {
+   "o": "City AM",
+   "d": "2026-10",
+   "u": "https://www.cityam.com/uk-bank-bosses-and-john-healey-set-for-tax-showdown/"
+  }
+ ],
+ "items": [
+  {
+   "t": "노동당, 은행세 결정 앞두고 \"경쟁력 필요성 잘 알고 있다\"",
+   "o": "블룸버그",
+   "d": "2026-10-09",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-09/labour-keenly-aware-of-need-for-competitiveness-ahead-of-bank-tax-decision"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "은행세 결정 앞두고 과세 강도 미정"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0806",
+ "num": 806,
+ "key": "mix-G1-051-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T21:04:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/altria-s-lower-priced-cigarettes-capture-cash-strapped-smokers",
+ "origTitle": "",
+ "headline": "알트리아 저가 담배, 생활고 흡연자 흡수…할인 담배 점유율 34.1%로 2.0%p 상승",
+ "src": [
+  {
+   "o": "Motley Fool(실적 콜 녹취)",
+   "d": "2026-10-29",
+   "u": "https://www.fool.com/earnings/call-transcripts/2026/10/29/altria-mo-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "o": "Quartz",
+   "d": "2026-10-29",
+   "u": "https://qz.com/altria-raises-full-year-earnings-outlook-profit-beat-102926"
+  }
+ ],
+ "items": [
+  {
+   "t": "알트리아 저가 담배, 생활고에 시달리는 흡연자 흡수",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/altria-s-lower-priced-cigarettes-capture-cash-strapped-smokers"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "알트리아 저가 담배, 생활고 흡연자 흡수…할인 담배 점유율 34.1%로 2.0%p 상승",
+ "one": "생활고에 몰린 흡연자들이 저가 담배로 옮겨 가며 알트리아의 저가 브랜드 판매가 늘었다\n· 3분기 업계 할인 담배 점유율은 34.1%로 1년 새 2.0%p 높아졌고 회사는 재량소득 압박을 이유로 꼽았다\n· 말보로 점유율은 39.5%로 1.0%p 낮아졌고 국내 담배 출하량은 2.9% 줄었다",
+ "facts": [
+  "무엇이: 알트리아는 3분기 업계 할인 담배 소매 점유율이 34.1%로 1년 새 2.0%p 올랐고 성인 흡연자의 재량소득 압박 때문이라고 밝혔다 [사실]",
+  "말보로: 총 소매 점유율은 39.5%로 1.0%p 내렸고 프리미엄 부문 내 점유율은 60.0%였다 [사실]",
+  "물량: 국내 담배 출하량은 157억 개비로 2.9% 줄었고 업계 물량은 약 5% 감소로 추정됐으며, 저가 브랜드 베이직은 판매가 늘었다 [사실]",
+  "실적: 조정 EPS는 1.52달러로 4.8% 늘었고 연간 전망은 5.66~5.74달러로 올렸다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "알트리아 3분기 실적의 할인 담배 점유율·말보로 점유율·물량은 검색 결과 요약으로 확인. 베이직의 판매 수치는 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "alcohol",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "알트리아 국내 담배 출하량 2.9% 감소"
+  },
+  {
+   "ind": "consumer",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "재량소득 압박에 할인 담배 점유율 34.1%로 상승"
+  }
+ ]
+}

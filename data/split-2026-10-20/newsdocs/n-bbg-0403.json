@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0403",
+ "num": 403,
+ "key": "split-G2-062-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/a-wall-street-upstart-bets-on-trump-s-venezuelan-mining-push",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "월가 신생 투자사, 트럼프의 베네수엘라 광업 추진에 베팅",
+ "headline": "월가 신생 투자사, 트럼프의 베네수엘라 광업 추진에 베팅",
+ "one": "월가의 신생 투자사가 트럼프 행정부의 베네수엘라 광업 추진에 베팅하면서, 미국과의 관계 해빙 속에 석유에 이어 베네수엘라 광물 개발에도 미국 자본이 들어갈 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 월가 신생 투자사가 트럼프의 베네수엘라 광업 추진에 베팅했다 [제목]",
+  "의미: 베네수엘라 광물 개발에 미국 자본이 들어갈 수 있다 [제목]",
+  "관계: 미국은 베네수엘라 의회 수장의 제재를 해제하는 등 관계 해빙을 이어가고 있다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 투자사 이름과 대상 광물은 기사 제목에 나오지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "월가 신생 투자사, 트럼프의 베네수엘라 광업 추진에 베팅",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/a-wall-street-upstart-bets-on-trump-s-venezuelan-mining-push"
+  }
+ ],
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "트럼프의 베네수엘라 광업 추진에 미국 자본 베팅"
+  }
+ ]
+}

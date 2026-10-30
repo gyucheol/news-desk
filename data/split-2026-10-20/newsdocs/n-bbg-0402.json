@@ -1,0 +1,53 @@
+{
+ "id": "n-bbg-0402",
+ "num": 402,
+ "key": "split-G2-061-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-07/pacific-coast-energy-starts-work-to-revive-venezuela-oil-fields",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "캘리포니아 소형 석유사, 베네수엘라 유전 진출 선발주자로",
+ "headline": "캘리포니아 소형 석유사, 베네수엘라 유전 진출 선발주자로",
+ "one": "캘리포니아의 소형 석유사가 베네수엘라 진출 선발주자로 나서면서, 미국과의 관계 해빙 속에 미국 업체의 베네수엘라 유전 복귀가 시작될 수 있고 외국 자본의 증산 투자가 뒤따를 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 캘리포니아 소형 석유사가 베네수엘라 진출 선발주자로 나섰다 [제목]",
+  "의미: 미국 업체의 베네수엘라 유전 복귀가 시작될 수 있다 [제목]",
+  "배경: PDVSA는 연내 석유계약 105건을 목표로 61건을 서명했다 [사실]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 회사 이름과 계약 내용은 기사 제목에 나오지 않았다.",
+ "src": [],
+ "items": [
+  {
+   "t": "캘리포니아 소형 석유사, 베네수엘라 진출 선발주자로",
+   "o": "블룸버그",
+   "d": "2026-10-07",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-07/pacific-coast-energy-starts-work-to-revive-venezuela-oil-fields"
+  }
+ ],
+ "inds": [
+  "drilling",
+  "oil"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "vc": [
+  {
+   "ind": "drilling",
+   "node": "capex",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "미국 소형 석유사, 베네수엘라 유전 진출 선발"
+  }
+ ]
+}

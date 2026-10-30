@@ -1,0 +1,62 @@
+{
+ "id": "n-rtr-0657",
+ "num": 657,
+ "key": "mix-G2-072-2026-10-21",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T21:03:00+09:00",
+ "url": "https://www.reuters.com/business/retail-consumer/apple-commits-up-100-million-us-titanium-domestic-manufacturing-push-2026-10-20/",
+ "origTitle": "",
+ "headline": "애플, 미국산 티타늄에 최대 1억 달러 약정…페리먼서 아이폰 듀오용 조달",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-20",
+   "u": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html"
+  },
+  {
+   "o": "맥루머스",
+   "d": "2026-10-20",
+   "u": "https://macrumors.com/2026/10/20/apple-touts-iphone-duo-18-pro-parts-made-in-usa"
+  }
+ ],
+ "items": [
+  {
+   "t": "애플, 미국 제조 확대 위해 미국산 티타늄에 최대 1억 달러 약정",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/retail-consumer/apple-commits-up-100-million-us-titanium-domestic-manufacturing-push-2026-10-20/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "metals"
+ ],
+ "nodes": [],
+ "title": "애플, 미국산 티타늄에 최대 1억 달러 약정…페리먼서 아이폰 듀오용 조달",
+ "one": "애플이 미국 제조 확대를 위해 미국산 티타늄 구매에 3년간 최대 1억 달러를 약정했다\n· 펜실베이니아 페리먼이 재활용 원료 80% 이상의 티타늄을 만들어 첫 폴더블 아이폰 듀오에 공급한다\n· 애플은 아이폰 듀오·18 프로 부품 약 100개를 미국 기업에서 조달한다고 밝혔다",
+ "facts": [
+  "무엇이: 애플은 10월 20일 펜실베이니아 티타늄 업체 페리먼에 3년간 최대 1억 달러를 약정했다 [사실]",
+  "용도: 티타늄은 애플의 첫 폴더블 아이폰 듀오에 쓰이며 재활용 원료를 80% 이상 쓴다 [사실]",
+  "조달: 아이폰 듀오·아이폰 18 프로 부품 약 100개가 미국 기업에서 나온다 [사실]",
+  "공급: JP모건은 올해 듀오 출하를 800만~900만 대로 기존 기대보다 낮게 본다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "1억 달러·3년·페리먼·용도를 CNBC·맥루머스 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "critical",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "애플, 미국산 티타늄 3년간 최대 1억 달러 약정"
+  }
+ ]
+}

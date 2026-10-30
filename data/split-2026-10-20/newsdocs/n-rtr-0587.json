@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0587",
+ "num": 587,
+ "key": "split-G5-140-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T19:45:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/imf-cuts-latin-america-caribbean-growth-forecasts-energy-shock-little-ai-boost-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "IMF, 에너지 충격·미미한 AI 효과에 중남미·카리브 성장률 하향",
+ "headline": "IMF, 에너지 충격·미미한 AI 효과에 중남미·카리브 성장률 하향",
+ "one": "IMF가 13일 에너지 충격과 미미한 AI 효과를 이유로 중남미·카리브 지역 성장률 전망을 낮추면서, 세계성장률 전망은 올린 가운데서도 AI 투자의 혜택이 지역마다 엇갈리고 있음이 드러났다 (제목 기준)",
+ "facts": [
+  "무엇이: IMF는 10월 13일 에너지 충격과 미미한 AI 효과를 이유로 중남미·카리브 성장률 전망을 낮췄다 [제목]",
+  "대조: IMF는 같은 시기 올해 세계성장률 전망은 3.1%로 올렸다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이다.",
+ "src": [],
+ "items": [
+  {
+   "t": "IMF, 에너지 충격·미미한 AI 효과에 중남미·카리브 성장률 전망 하향",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/asia-pacific/imf-cuts-latin-america-caribbean-growth-forecasts-energy-shock-little-ai-boost-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/growth"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "IMF, 중남미·카리브 성장률 전망 하향"
+  }
+ ]
+}

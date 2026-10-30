@@ -1,0 +1,68 @@
+{
+ "id": "n-bbg-0411",
+ "num": 411,
+ "key": "split-G2-084-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:03:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/dwindling-coal-fleet-in-europe-reaps-windfall-from-gas-rally",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "가스값 급등에 유럽 남은 석탄발전소 횡재…독일 갈탄 MWh당 72달러",
+ "headline": "가스값 급등에 유럽 남은 석탄발전소 횡재…독일 갈탄 MWh당 72달러",
+ "one": "유럽 가스값이 치솟으면서 줄어든 석탄발전소들이 전력 판매에서 큰 이익을 거두고, 세계적 가스 부족 속에 독일 갈탄 발전 수익성 지표가 1년 전 0달러에서 MWh당 최대 72달러로 뛰면서 유럽 석탄발전의 가동 유인이 커지고 있다",
+ "facts": [
+  "무엇이: 유럽 가스값 급등으로 줄어든 석탄발전소들이 전력 판매에서 횡재를 거두고 있다 [제목]",
+  "수익성: 독일 갈탄 발전 수익성 지표는 MWh당 최대 72달러로 1년 전 0달러에서 뛰었다 [사실]",
+  "배경: 9월 29일 유럽 가스 저장률은 71.5%로 2011년 집계 이후 같은 날 기준 최저였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·텔레그램 2건을 묶음. 독일 갈탄 발전 수익성 지표 72달러는 오일프라이스 검색 결과 요약으로 확인",
+ "src": [
+  {
+   "o": "오일프라이스",
+   "d": "2026-10-17",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Global-Gas-Crunch-Makes-Europes-Remaining-Coal-Plants-Profitable.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "가스값 급등에 유럽의 줄어든 석탄발전소들이 횡재",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/dwindling-coal-fleet-in-europe-reaps-windfall-from-gas-rally",
+   "s": "유럽 가스값이 치솟으면서 줄어든 석탄발전소들이 전력 판매에서 큰 이익을 거두고 있다 (제목 기준)"
+  },
+  {
+   "t": "세계 가스난에 유럽의 남은 석탄발전소 수익성 회복",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10728",
+   "s": "세계적 가스 부족으로 독일 갈탄 발전 수익성 지표가 1년 전 0달러에서 MWh당 최대 72달러로 뛰면서 유럽에 남은 석탄발전소들이 수익을 내고 있다"
+  }
+ ],
+ "inds": [
+  "coal",
+  "power"
+ ],
+ "nodes": [
+  "coal/power",
+  "power/market"
+ ],
+ "vc": [
+  {
+   "ind": "coal",
+   "node": "power",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "독일 갈탄 발전 수익성 MWh당 최대 72달러"
+  }
+ ]
+}

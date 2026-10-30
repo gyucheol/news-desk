@@ -1,0 +1,49 @@
+{
+ "id": "n-rtr-0600",
+ "num": 600,
+ "key": "split-G6-047-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T09:47:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/asia-pacific/goodmans-japanese-data-centre-comes-under-fire-following-sydney-site-setback-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "굿맨의 일본 데이터센터, 시드니 부지 차질 뒤 비판 직면",
+ "headline": "굿맨의 일본 데이터센터, 시드니 부지 차질 뒤 비판 직면",
+ "one": "로이터가 10월 7일 전한 바로는 굿맨의 일본 데이터센터 사업이 시드니 부지 차질 이후 비판에 직면하면서, 회사의 데이터센터 개발 계획 추진에 부담이 생길 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 7일 굿맨의 일본 데이터센터가 시드니 부지 차질 이후 비판을 받고 있다고 전했다 [제목]",
+  "영향: 굿맨의 데이터센터 개발 계획 추진에 부담이 생길 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 7일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "굿맨의 일본 데이터센터, 시드니 부지 차질 이후 비판 직면",
+   "o": "로이터",
+   "d": "2026-10-07",
+   "u": "https://www.reuters.com/world/asia-pacific/goodmans-japanese-data-centre-comes-under-fire-following-sydney-site-setback-2026-10-07/"
+  }
+ ],
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "datacenter",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "굿맨 일본 데이터센터, 시드니 부지 차질 뒤 비판"
+  }
+ ]
+}

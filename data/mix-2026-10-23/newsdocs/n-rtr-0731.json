@@ -1,0 +1,61 @@
+{
+ "id": "n-rtr-0731",
+ "num": 731,
+ "key": "mix-G2-089-2026-10-23",
+ "feed": "v5",
+ "format": "one1",
+ "source": "로이터",
+ "processed": "2026-10-23",
+ "published": "2026-10-23T17:03:00+09:00",
+ "url": "https://www.reuters.com/business/electrolux-q3-core-profit-tops-expectations-2026-10-23/",
+ "origTitle": "",
+ "headline": "일렉트로룩스 3분기 조정 영업이익 9.12억 크로나로 예상 상회…순손실 3.4억 크로나",
+ "src": [
+  {
+   "o": "일렉트로룩스 3분기 보고서",
+   "d": "2026-10-23",
+   "u": "https://www.electroluxgroup.com/en/electrolux-group-interim-report-q3-2026-47822/"
+  },
+  {
+   "o": "RTE",
+   "d": "2026-10-23",
+   "u": "https://www.rte.ie/news/business/2026/1023/1596546-electroluxs-third-quarter-results/"
+  }
+ ],
+ "items": [
+  {
+   "t": "일렉트로룩스, 3분기 핵심 이익 시장 예상 상회",
+   "o": "로이터",
+   "d": "2026-10-23",
+   "u": "https://www.reuters.com/business/electrolux-q3-core-profit-tops-expectations-2026-10-23/"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "일렉트로룩스 3분기 조정 영업이익 9.12억 크로나로 예상 상회…순손실 3.4억 크로나",
+ "one": "일렉트로룩스의 3분기 조정 영업이익이 비용 절감 덕에 시장 예상을 넘었다\n· 조정 영업이익은 9억 1,200만 크로나로 예상치 8억 6,700만 크로나를 웃돌았다\n· 다만 순손실 3억 4,000만 크로나를 냈고 연간 물량·가격·믹스 기여 전망을 중립으로 낮췄다",
+ "facts": [
+  "무엇이: 일렉트로룩스의 3분기 조정 영업이익이 9억 1,200만 크로나로 회사 집계 예상 8억 6,700만 크로나를 넘었고 유기적 매출은 3.5% 늘었다 [사실]",
+  "손익: 순매출은 339억 2,000만 크로나였고 순손실 3억 4,000만 크로나로 순이익 예상 6,360만 크로나에 못 미쳤다 [사실]",
+  "비용: 비용 효율화가 14억 크로나를 보탰지만 중동 분쟁에 따른 원자재·물류비와 미국 관세가 부담이 됐다 [사실]",
+  "전망: 연간 물량·가격·믹스의 영업이익 기여 전망을 긍정에서 중립으로 낮췄다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "회사 3분기 보고서·RTE 보도(검색 결과 요약)로 확인",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "durables",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "일렉트로룩스 물량·가격·믹스 전망 중립으로 하향"
+  }
+ ]
+}

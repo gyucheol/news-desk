@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0432",
+ "num": 432,
+ "key": "split-G3-030-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T21:31:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-outflows-to-worsen-as-msci-mulls-cut-analysts-say",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "MSCI 강등 위협에 인니 외국인 매도 확대 우려…루피아 18,070으로 8월 이후 최저",
+ "headline": "MSCI 강등 위협에 인니 외국인 매도 확대 우려…루피아 18,070으로 8월 이후 최저",
+ "one": "MSCI의 강등 검토로 올해 이미 47억 달러에 이른 인도네시아 외국인 순매도가 더 커질 것이란 분석이 나오고 투자자들이 자금 유출과 환율 위험을 경계하면서, 16일 루피아가 달러당 18,070으로 8월 초 이후 최저로 밀렸다 (제목 기준)",
+ "facts": [
+  "무엇이: 분석가들은 MSCI의 강등 검토로 올해 47억 달러에 이른 인도네시아 외국인 순매도가 더 커질 것으로 봤다 [사실]",
+  "루피아: 투자자들이 자금 유출과 환율 위험을 경계하는 가운데 루피아는 달러당 18,070으로 8월 초 이후 최저였다 [사실]",
+  "기록: 올해 외국인 순매도 47억 달러는 사상 최대다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 원 문서에서 외국인 순매도는 제목 기준이었고, 루피아 수치를 직접 뒷받침하는 독립 출처를 고르지 못해 제목 기준으로 낮췄다.",
+ "src": [],
+ "items": [
+  {
+   "t": "MSCI 강등 위협에 인도네시아 사상 최대 외국인 매도 더 심해질 듯",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-outflows-to-worsen-as-msci-mulls-cut-analysts-say",
+   "s": "분석가들이 MSCI의 강등 검토로 올해 47억 달러에 이른 인도네시아 외국인 순매도가 더 커질 것으로 보면서, 증시 자금 이탈 압력이 높아지고 있다"
+  },
+  {
+   "t": "투자자들, MSCI 인도네시아 강등 추진에 자금 유출·환율 위험 경계",
+   "o": "로이터",
+   "d": "2026-10-16",
+   "u": "https://www.reuters.com/world/asia-pacific/investors-see-outflow-fx-risks-msci-moves-downgrade-indonesia-2026-10-16/",
+   "s": "투자자들이 MSCI의 인도네시아 강등 추진으로 자금 유출과 환율 위험을 경계하는 가운데, 루피아가 달러당 18,070으로 8월 초 이후 최저로 밀렸다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "fin"
+ ],
+ "nodes": [
+  "macro/fx",
+  "macro/liquidity"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fx",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "루피아 달러당 18,070, 8월 초 이후 최저"
+  },
+  {
+   "ind": "macro",
+   "node": "liquidity",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "올해 47억 달러 외국인 순매도 확대 우려"
+  }
+ ]
+}

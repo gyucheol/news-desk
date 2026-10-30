@@ -1,0 +1,69 @@
+{
+ "id": "n-tg-0792",
+ "num": 792,
+ "key": "mix-G-025-2026-10-29",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-10-29",
+ "published": "2026-10-29T02:17:00+09:00",
+ "url": "https://t.me/The_MariTimes/64051",
+ "origTitle": "",
+ "headline": "UAE 라스알카이마, 호르무즈 유조선 기름 유출에 역내 모든 해안 폐쇄",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64051"
+  },
+  {
+   "o": "The National",
+   "d": "2026-10-24",
+   "u": "https://www.thenationalnews.com/news/uae/2026/10/24/uae-oil-spill-ras-al-khaimah-closes-all-beaches-until-further-notice/"
+  },
+  {
+   "o": "Arab News",
+   "d": "2026-10-28",
+   "u": "https://www.arabnews.com/middle-east/uaes-ras-al-khaimah-shuts-beaches-amid-tanker-oil-spill-3008025"
+  }
+ ],
+ "items": [
+  {
+   "t": "라스알카이마, 유조선 기름 유출에 역내 모든 해안 폐쇄",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-29",
+   "u": "https://t.me/The_MariTimes/64051"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping",
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "channel": "Polaristimes",
+ "title": "UAE 라스알카이마, 호르무즈 유조선 기름 유출에 역내 모든 해안 폐쇄",
+ "one": "UAE 라스알카이마 지방정부가 유조선에서 새어 나온 기름의 해양 오염으로 역내 모든 해안을 폐쇄했다\n· 폐쇄는 10월 24일 시작돼 별도 공지 때까지 이어지며 샤르자·움알쿠와인도 해변을 닫았다\n· 채널은 기뢰 피격을 원인으로 봤지만 보도들은 미확인 발사체나 드론 공격설을 전하고 있다",
+ "facts": [
+  "무엇이: 라스알카이마 공공서비스국이 10월 24일 모든 공공 해변을 별도 공지 때까지 폐쇄했다 [사실]",
+  "확산: UAE 기후변화환경부가 유조선 기름 유출을 확인했고 움알쿠와인·샤르자도 해양 오염에 대비해 해변을 닫았다 [사실]",
+  "원인: 채널은 기뢰 피격을 기정사실로 봤지만, 보도들은 유조선 젬 No.2가 미확인 발사체에 맞았다거나 이란 드론 공격설을 전할 뿐 당국은 원인을 밝히지 않았다 [미확인]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 해안 폐쇄(10월 24일, 별도 공지 때까지)와 유출 확인. 기뢰 피격 원인은 확인 못 함(발사체·드론설만 있음)",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "routes",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "호르무즈 유조선 기름 유출로 UAE 해안 폐쇄"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "n-tg-0512",
+ "num": 512,
+ "key": "split-G3-042-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T22:01:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/cahier_de_market/10956",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "R200 원가 분석 \"HBM값 2~3배 올라도 GPU 총이익률 72% 방어\"",
+ "headline": "R200 원가 분석 \"HBM값 2~3배 올라도 GPU 총이익률 72% 방어\"",
+ "one": "R200 원가 분석에서 HBM 가격이 두세 배 올라도 GPU 가격을 15% 올리면 총이익률 72%를 지킬 수 있다는 계산이 나오면서, HBM 공급사의 가격 인상 여력이 크다는 해석이 붙었다 (채널 전언)",
+ "facts": [
+  "무엇이: R200 원가 분석에서 HBM 가격이 2~3배 올라도 GPU 총이익률 72%를 지킬 수 있다는 계산이 나왔다(10월 10일 채널) [채널]",
+  "조건: 이 계산은 GPU 가격을 15% 올리는 것을 전제로 한다 [채널]",
+  "해석: 채널은 이를 HBM 가격 인상 여력이 크다는 뜻으로 풀이했다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "텔레그램 카이에 de market 1건(10월 10일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "R200 원가 분석: HBM값 2~3배 올라도 GPU 총이익률 72% 방어 가능",
+   "o": "텔레그램 카이에 de market",
+   "d": "2026-10-10",
+   "u": "https://t.me/cahier_de_market/10956"
+  }
+ ],
+ "inds": [
+  "macro",
+  "semis"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "vc": [
+  {
+   "ind": "semis",
+   "node": "memory",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "HBM값 2~3배 올라도 GPU 이익률 72% 방어 계산"
+  }
+ ],
+ "channel": "카이에 de market",
+ "ind": "semis"
+}

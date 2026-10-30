@@ -1,0 +1,130 @@
+{
+ "basis": "verified",
+ "check": "검색 결과 요약으로 워시의 AI 투자 충격·수요 우선 발언, 10월 회의 신호 없음, 카작스의 자금 다툼·중립금리 발언, 일본은행·남아공 총재 언급 확인. 12월 인상 반영·영란은행 11월 인상 예상은 채널만",
+ "cycles": [],
+ "facts": [
+  "무엇이: 워시 의장은 방콕 IMF·세계은행 연차총회에서 중앙은행들이 AI 투자 급증을 충격으로 다뤄야 하며 이 충격이 공급보다 수요에 먼저 닿는다고 말했다 [사실]",
+  "금리 신호: 워시는 10월 28일 회의의 인상 여부는 말하지 않았고 9월 인상은 옹호했다 [사실]",
+  "ECB: 마르틴스 카작스 ECB 정책위원은 AI 투자를 세계적 자금 다툼의 핵심 요인으로 꼽고 미국·일본·독일 정부 차입도 압력을 더한다며, 중립금리는 높아졌지만 수준은 알 수 없다고 했다 [사실]",
+  "다른 중앙은행: 일본은행은 최근 금리 인상 근거로 AI 관련 수요를 들었고, 크가냐고 남아공 중앙은행 총재는 중립금리가 높아진 것은 보인다고 했다 [사실]",
+  "시장: 채널은 연준과 ECB가 9월에 금리를 올렸고 시장이 12월 추가 인상을 반영하며 영란은행도 11월 5일 인상이 예상된다고 전했다 [채널]"
+ ],
+ "fed": [
+  {
+   "d": "2026-10-16",
+   "k": "",
+   "kind": "관련 뉴스",
+   "role": "워시 발언 뒤 시장 반응",
+   "stance": "",
+   "t": "워시가 금리 경로 단서를 주지 않자 연준 동결 베팅이 커졌다",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/warsh-s-missing-words-fuel-bets-fed-will-hold-rates",
+   "who": "연준"
+  },
+  {
+   "d": "2026-10-16",
+   "k": "Warsh",
+   "kind": "발언",
+   "role": "연준 의장",
+   "stance": "중립",
+   "t": "남은 회의 결정을 예단하지 않겠다며 AI는 수요에 먼저 작용한다고 했다",
+   "u": "https://t.me/insidertracking/66454",
+   "who": "케빈 워시"
+  },
+  {
+   "k": "Warsh",
+   "who": "케빈 워시",
+   "role": "연준 의장",
+   "kind": "발언",
+   "stance": "중립",
+   "t": "AI 투자를 공급보다 수요에 먼저 작용하는 충격으로 봐야 한다고 했다",
+   "d": "2026-10-18",
+   "u": "https://t.me/TNBfolio/71592"
+  }
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "워시 \"AI 투자는 수요 충격\"…중앙은행들 '자금 쟁탈전'에 고금리 장기화 경고",
+ "id": "n-bbg-0343",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-16",
+   "o": "블룸버그",
+   "s": "워시 의장이 향후 금리 경로에 대한 단서를 내놓지 않으면서 연준이 금리를 동결할 것이라는 시장 베팅이 커졌다 (제목 기준)",
+   "t": "워시가 하지 않은 말, 연준 금리 동결 베팅 키워",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-16/warsh-s-missing-words-fuel-bets-fed-will-hold-rates"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "워시 의장이 남은 FOMC 회의 결정을 미리 예측하는 데 회의적이라고 하면서 통화정책 사전 확약을 경계하는 신중한 태도를 드러냈다",
+   "t": "글로벌 브리핑: 워시 '남은 FOMC 결정 예측에 회의적'",
+   "u": "https://t.me/insidertracking/66454"
+  },
+  {
+   "d": "2026-10-16",
+   "o": "텔레그램 Polaristimes",
+   "s": "워시 의장이 회의별 결정을 예단하지 않으면서 AI가 수요에 먼저 작용하고 연준이 꼬리 위험을 생각해야 한다고 해, 가이던스 없는 기조를 이어갔다",
+   "t": "워시 'AI는 수요 측에 먼저 작용…연준, 한 달 뒤 AI 청문회'",
+   "u": "https://t.me/The_MariTimes/63748"
+  },
+  {
+   "t": "중앙은행들 \"AI발 자금 쟁탈전에 금리 구조적으로 높아질 수도\"",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-18",
+   "u": "https://t.me/TNBfolio/71592",
+   "s": "워시 의장이 AI 투자를 수요 충격으로 보고 카작스 ECB 위원이 자금 전쟁을 경고하면서 중립금리 상승과 고금리 장기화 가능성이 제기됐다"
+  }
+ ],
+ "key": "mix-G1-025-2026-10-17",
+ "nodes": [
+  "macro/cb"
+ ],
+ "num": 343,
+ "one": "워시 연준 의장이 IMF 연차총회에서 포워드 가이던스 없이 AI 투자를 공급보다 수요에 먼저 작용하는 충격으로 봐야 한다고 하고 ECB 카작스 위원 등이 AI 투자와 정부 차입이 키운 자금 쟁탈전을 경고하면서, 중립금리 상승으로 세계 금리가 더 오래 높게 머물 수 있다",
+ "origTitle": "",
+ "processed": "2026-10-18",
+ "published": "2026-10-18T18:55:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-16",
+   "o": "The Nation Thailand",
+   "u": "https://www.nationthailand.com/business/economy/40072363"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-16",
+   "u": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+  },
+  {
+   "o": "Global Banking & Finance Review",
+   "d": "2026-10-16",
+   "u": "https://www.globalbankingandfinance.com/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash/"
+  },
+  {
+   "o": "TradersUnion",
+   "d": "2026-10-16",
+   "u": "https://tradersunion.com/news/regulators/show/3847436-ai-investment-boom-borrowing-costs/"
+  }
+ ],
+ "tags": [],
+ "title": "워시 \"AI 투자는 수요 충격\"…중앙은행들 '자금 쟁탈전'에 고금리 장기화 경고",
+ "updatedAt": "2026-10-18T21:41:11+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/warsh-s-missing-words-fuel-bets-fed-will-hold-rates",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "AI 자금 쟁탈전에 중앙은행들 고금리 장기화 경고"
+  }
+ ],
+ "added": "텔레그램 1건 — 워시의 AI 투자 수요 충격론과 ECB 카작스 등 각국 중앙은행의 자금 쟁탈전·중립금리 상승 경고 내용이 추가됨"
+}

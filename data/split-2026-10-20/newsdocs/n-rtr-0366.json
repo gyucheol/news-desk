@@ -1,0 +1,52 @@
+{
+ "id": "n-rtr-0366",
+ "num": 366,
+ "key": "split-G1-006-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+ "headline": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+ "one": "로이터가 10월 1일 전한 바로는 미 재무부가 이란 자동차·철도 산업 30곳을 제재하면서, 해상 봉쇄로 선박 항로가 막힌 이란에 남은 자금줄이 추가로 막힐 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 로이터는 10월 1일 미 재무부가 이란 자동차·철도 산업 30곳을 제재했다고 전했다 [제목]",
+  "배경: 이번 제재는 미국의 해상 봉쇄가 이란 선박 항로를 조이는 가운데 나왔다 [제목]",
+  "영향: 봉쇄 속에 이란에 남은 자금줄이 추가로 막힐 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "로이터 1건(10월 1일) 제목 기준 요약. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준.",
+ "src": [],
+ "items": [
+  {
+   "t": "미 재무부, 이란 자동차·철도 산업 30곳 제재…봉쇄 속 남은 돈줄 겨냥",
+   "o": "로이터",
+   "d": "2026-10-01",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45N0UK:0-us-sanctions-target-iran-s-auto-rail-sectors-as-blockade-chokes-ship-lanes/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "미 재무부, 이란 자동차·철도 산업 30곳 제재"
+  }
+ ]
+}

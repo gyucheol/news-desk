@@ -1,0 +1,91 @@
+{
+ "id": "n-tg-0631",
+ "num": 631,
+ "key": "split-G5-095-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T17:39:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70570",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 차단…저비용 예금 이탈 방어",
+ "headline": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 차단…저비용 예금 이탈 방어",
+ "one": "씨티·BofA·JP모건이 AI 에이전트의 고객 계좌 접근과 대리 거래를 잇달아 막으면서, AI가 저비용 예금을 고금리 상품으로 옮기는 이탈을 억제하는 대신 은행권의 AI 운영 통제 부담이 커졌다",
+ "facts": [
+  "무엇이: 씨티는 제3자 AI 에이전트가 고객 계좌에 로그인하거나 직접 거래하는 것을 허용하지 않는다고 했고, 모이니핸 BofA CEO는 AI가 승인한 결제의 책임 소재를 정할 때까지 예금 계좌 접근을 제한한다고 했다 [사실]",
+  "JP모건: 다이먼 CEO는 실적 발표에서 보호 장치를 갖출 때까지 외부 AI 에이전트가 시스템에 들어오지 못하게 하겠다고 했다 [사실]",
+  "이유: AI 도구가 자금을 고금리 상품으로 옮겨 저비용 예금을 빼낼 수 있다는 우려 때문이며, 한 보도는 대형 3개 은행이 1조 6,000억 달러 무이자 예금에 3%를 주면 연 470억 달러 비용이 는다고 추산했다 [사실]",
+  "감독: 거래 책임 소재 기준은 아직 없고, 연준 감독 당국이 비공식적으로 이 조치를 지지했다고 전해졌다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "텔레그램 하나증권 중국전략 1건(10월 17일)이다. 세 은행의 접근 제한과 예금 이탈 우려, 470억 달러 추산은 Crypto Briefing·Traders Union·디지털투데이로 확인했고, 연준 감독 당국의 비공식 지지는 '규제 당국이 수용적'이라는 보도만 있어 채널 전언으로 뒀다.",
+ "src": [
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-10-17",
+   "u": "https://cryptobriefing.com/citi-restricts-ai-agents-customer-accounts/"
+  },
+  {
+   "o": "Traders Union",
+   "d": "2026-10-17",
+   "u": "https://tradersunion.com/news/institutions/show/3849745-us-banks-limit-ai-agent-access/"
+  },
+  {
+   "o": "디지털투데이",
+   "d": "2026-10-17",
+   "u": "https://www.digitaltoday.co.kr/en/view/115865/major-financial-firms-move-to-block-access-by-personal-ai-agents-citing-deposit-flight-risk"
+  }
+ ],
+ "items": [
+  {
+   "t": "씨티·BofA·JP모건, AI 에이전트 계좌 접근 일제히 차단",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-17",
+   "u": "https://t.me/HANAchina/70570"
+  }
+ ],
+ "inds": [
+  "fin",
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "banks",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 에이전트발 저비용 예금 이탈 우려"
+  },
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "연준 감독 당국, 은행 AI 차단에 비공식 지지"
+  }
+ ],
+ "channel": "하나증권 중국전략",
+ "fed": [
+  {
+   "d": "2026-10-17",
+   "k": "",
+   "kind": "관련 뉴스",
+   "role": "은행 감독 당국",
+   "stance": "",
+   "t": "연준 감독 당국이 대형은행의 AI 에이전트 계좌 접근 차단에 비공식 지지를 보냈다고 전해졌다",
+   "u": "https://t.me/HANAchina/70570",
+   "who": "연준"
+  }
+ ]
+}

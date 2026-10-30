@@ -1,0 +1,63 @@
+{
+ "id": "n-rtr-0489",
+ "num": 489,
+ "key": "split-G4-035-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/europe/german-september-inflation-confirmed-33-2026-10-13/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "독일 9월 소비자물가 3.3% 확정…난방유 74.9%·연료 37.1% 급등",
+ "headline": "독일 9월 소비자물가 3.3% 확정…난방유 74.9%·연료 37.1% 급등",
+ "one": "독일 9월 소비자물가 상승률이 난방유 74.9%·연료 37.1% 급등에 3.3%로 확정돼 2023년 12월 이후 최고를 기록하면서, ECB 위원들의 추가 인상론에 힘이 실릴 수 있다",
+ "facts": [
+  "무엇이: 독일 9월 소비자물가 상승률이 3.3%로 최종 확정돼 2023년 12월 이후 최고를 기록했다(10월 13일) [사실]",
+  "요인: 난방유가 74.9%, 연료가 37.1% 급등했다 [사실]",
+  "의미: 분쉬·심쿠스·나겔 등 ECB 위원들의 추가 인상론에 근거를 더한다 [추론]"
+ ],
+ "basis": "verified",
+ "check": "로이터 1건(10월 13일)이다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 독일 연방통계청 발표와 RTÉ 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "독일 연방통계청",
+   "d": "2026-10-13",
+   "u": "https://www.destatis.de/EN/Press/2026/10/PE26_364_611.html"
+  },
+  {
+   "o": "RTÉ",
+   "d": "2026-10-13",
+   "u": "https://www.rte.ie/news/business/2026/1013/1595139-german-september-inflation-confirmed-at-3-3/"
+  }
+ ],
+ "items": [
+  {
+   "t": "독일 9월 소비자물가 상승률 3.3%로 최종 확정",
+   "o": "로이터",
+   "d": "2026-10-13",
+   "u": "https://www.reuters.com/world/europe/german-september-inflation-confirmed-33-2026-10-13/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/inflation"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "독일 9월 소비자물가 3.3%로 확정"
+  }
+ ]
+}

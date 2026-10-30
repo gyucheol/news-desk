@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0464",
+ "num": 464,
+ "key": "split-G4-034-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/schnabel-ecb-job-deadline-is-set-as-lagarde-plans-stay-unclear",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "유로그룹, ECB 슈나벨 후임 후보 마감 10월 28일로…라가르드 거취는 불투명",
+ "headline": "유로그룹, ECB 슈나벨 후임 후보 마감 10월 28일로…라가르드 거취는 불투명",
+ "one": "유로그룹이 ECB 슈나벨 이사 후임 후보 제출 마감을 10월 28일로 정해 이사회 인선 절차가 본격 시작됐지만, 라가르드 총재의 거취는 여전히 불투명해 ECB 지도부 인선의 불확실성이 남아 있다",
+ "facts": [
+  "무엇이: 유로그룹은 ECB 슈나벨 이사 후임 후보 제출 마감을 10월 28일로 정했다(10월 9일 로이터) [사실]",
+  "불확실성: 후보 마감은 확정됐지만 라가르드 거취는 불투명하다(10월 8일 블룸버그) [제목]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 2건(10월 8~9일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 출처 목록의 ECB 보도자료(슈나벨 사임)와 Newsquawk(유로그룹 마감) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "ECB 보도자료(슈나벨 사임)",
+   "d": "2026-09-24",
+   "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-08",
+   "u": "https://www.newsquawk.com/headlines/eurogroup-sets-october-28th-deadline-for-ecb-nominations-and-expects-to-decide-on-a-successor-to-ecbs-schnabel-as-soon-as-next-month"
+  }
+ ],
+ "items": [
+  {
+   "t": "슈나벨 후임 ECB 자리 마감 확정…라가르드 거취는 불투명",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/schnabel-ecb-job-deadline-is-set-as-lagarde-plans-stay-unclear",
+   "s": "슈나벨 후임 ECB 이사 자리의 후보 마감은 확정됐지만 라가르드 거취는 불투명해 ECB 지도부 인선의 불확실성이 남았다 (제목 기준)"
+  },
+  {
+   "t": "유로그룹, ECB 슈나벨 후임 후보 제출 마감 10월 28일로 설정",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/eurogroup-sets-deadline-submit-candidates-replace-ecbs-schnabel-oct-28-2026-10-08/",
+   "s": "유로그룹이 ECB 슈나벨 이사 후임 후보 제출 마감을 10월 28일로 정하면서 ECB 이사회 인선 절차가 본격적으로 시작됐다"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "슈나벨 후임 후보 마감 10월 28일 설정"
+  }
+ ]
+}

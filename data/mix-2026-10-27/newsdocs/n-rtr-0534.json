@@ -1,0 +1,90 @@
+{
+ "basis": "verified",
+ "check": "카니의 협상 진전 발언과 8월안 거부는 검색 결과 요약으로 확인",
+ "cycles": [],
+ "facts": [
+  "무엇이: 카니 총리는 10월 26일 미국과의 무역협상이 다소 속도를 내고 있지만 합의는 아직 없다고 밝혔다 [사실]",
+  "8월안: 카니는 철강·알루미늄·자동차 관세를 낮은 세율로 남기는 8월 미국 제안은 레드라인을 넘는다며 서명하지 않겠다고 했다 [사실]",
+  "미국 입장: 그리어 USTR은 10월 8일 CNBC 인터뷰에서 캐나다와의 무역 입장을 고수한다며 퀘벡 선거가 오타와를 붙잡고 있다고 했다 [사실]",
+  "관세: 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다 [사실]",
+  "일정: 캐나다 관리는 문서 교환이 없었다며 11월 3일 미국 중간선거 전 합의 가능성을 낮게 봤다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미·캐나다 무역협상 속도 내지만 합의 없어…카니 '8월 미국안엔 서명 안 해'",
+ "id": "n-rtr-0534",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "그리어 USTR '캐나다와 무역 입장 고수'",
+   "u": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/"
+  },
+  {
+   "t": "카니 '미·캐나다 무역협상 속도 내지만 아직 합의 없어'",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/us-canada-trade-talks-are-picking-up-pace-but-no-deal-yet-carney-says",
+   "s": "카니 캐나다 총리가 미국과의 무역협상이 속도를 내고 있지만 합의는 아직이라고 하면서 관세 완화 시점은 여전히 불확실하게 남았다"
+  },
+  {
+   "t": "카니 '트럼프 정부의 8월 무역협정안엔 서명 안 해'",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-27",
+   "u": "https://t.me/HANAchina/71047",
+   "s": "카니 총리가 트럼프 정부가 8월에 내놓은 무역협정안에는 서명할 뜻이 없다고 하면서 한때 양국 협상 관계가 다소 긴장됐었다고 밝혔다"
+  }
+ ],
+ "key": "split-G5-019-2026-10-20",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 534,
+ "one": "카니 캐나다 총리가 미국과의 무역협상이 속도를 내지만 아직 합의는 없다고 밝혔다\n· 카니는 진전이 있다면 미국이 캐나다 입장에 가까워졌기 때문이라고 말했다\n· 그는 철강·알루미늄·자동차 관세를 낮춰 남기는 8월 미국 제안에는 서명하지 않겠다고 했다\n· 그리어 USTR은 10월 8일 CNBC 인터뷰에서 캐나다와의 입장을 고수한다며 퀘벡 선거 탓을 했다\n· 트럼프는 2027년 1월부터 캐나다산 자동차·부품·철강 관세를 50%로 올리겠다고 위협했다",
+ "origTitle": "",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T06:55:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "The Globe and Mail",
+   "u": "https://www.theglobeandmail.com/business/article-us-trade-stance-with-canada-jamieson-greer/"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-10-26",
+   "u": "https://www.theglobeandmail.com/world/us-politics/article-us-trade-talks-unclear-auto-parts-lobby-group-flavio-volpe-oct-26/"
+  },
+  {
+   "o": "CTV News",
+   "d": "2026-10-26",
+   "u": "https://www.ctvnews.ca/world/trumps-tariffs/article/pm-carney-says-us-is-coming-closer-to-our-position-in-trade-war-as-talks-gain-momentum/"
+  },
+  {
+   "o": "Washington Post",
+   "d": "2026-10-26",
+   "u": "https://www.washingtonpost.com/business/2026/10/26/canada-trump-trade-talks-carney-midterms/5ba3bd58-d18a-11f1-9931-2a41b76fc976_story.html"
+  }
+ ],
+ "tags": [],
+ "title": "미·캐나다 무역협상 속도 내지만 합의 없어…카니 '8월 미국안엔 서명 안 해'",
+ "updatedAt": "2026-10-27T21:25:26+09:00",
+ "url": "https://www.reuters.com/world/ustr-greer-says-us-holding-fast-trade-stance-with-canada-2026-10-08/",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "가격",
+   "dir": "flat",
+   "k": "예상",
+   "t": "미·캐나다 관세 협상 속도에도 합의 없음"
+  }
+ ],
+ "added": "블룸버그·텔레그램 2건 — 카니의 '협상에 속도는 붙었지만 합의 없음' 평가와 8월 미국 무역협정안 서명 거부 내용이 추가됨"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0430",
+ "num": 430,
+ "key": "split-G3-015-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-19T17:40:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-looks-to-tighten-biotech-exports-allows-licensing-deals",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "중국, 세포·유전자치료·siRNA 기술 수출 제한…기술이전 라이선스는 허용",
+ "headline": "중국, 세포·유전자치료·siRNA 기술 수출 제한…기술이전 라이선스는 허용",
+ "one": "중국이 세포·유전자 치료와 siRNA 기술의 수출을 묶고 이들 플랫폼의 외국 인수를 막는 안을 내면서도 라이선스·제휴는 통제에서 빼, 중국 바이오의 해외 기술이전 거래는 이어질 수 있다",
+ "facts": [
+  "무엇이: 중국이 세포·유전자 치료와 siRNA 기술의 수출을 제한하되 라이선스·제휴는 통제에서 빼는 안을 추진한다 [사실]",
+  "인수 제한: 세포·유전자 치료와 siRNA 플랫폼은 외국 기업의 인수를 막는 안이다 [채널]",
+  "영향: 라이선스가 열려 있어 바이오 기술이전 거래에 미칠 영향은 제한적일 수 있다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그(10월 16일)와 트릴리온 텔레그램(10월 17일)을 묶음. 바이오 기술 수출 제한과 라이선스 허용은 Quartz 기사가 독립 출처로 남아 있음",
+ "src": [
+  {
+   "o": "Quartz",
+   "d": "2026-10-16",
+   "u": "https://qz.com/china-biotech-export-controls-licensing-deals-exemption-101626"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 바이오 기술 수출 제한 추진하되 기술이전 계약은 허용",
+   "o": "블룸버그",
+   "d": "2026-10-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-16/china-looks-to-tighten-biotech-exports-allows-licensing-deals",
+   "s": "중국이 세포·유전자 치료와 siRNA 기술의 수출을 묶되 라이선스·제휴는 통제에서 빼면서 중국 바이오의 해외 기술이전 거래는 이어질 수 있다"
+  },
+  {
+   "t": "중국, 핵심 바이오 제약 플랫폼의 외국 기업 인수 금지 추진",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-17",
+   "u": "https://t.me/Trillion_labs/10714",
+   "s": "중국이 세포·유전자 치료와 siRNA 플랫폼의 외국 인수를 막는 안을 내면서도 라이선스는 열어 두어, 바이오 기술이전 거래 영향은 제한적일 수 있다"
+  }
+ ],
+ "inds": [
+  "pharma"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "pharma",
+   "node": "deals",
+   "f": "공급",
+   "dir": "mixed",
+   "k": "예상",
+   "t": "바이오 플랫폼 외국 인수 금지, 라이선스는 허용"
+  }
+ ]
+}

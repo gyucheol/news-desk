@@ -1,0 +1,143 @@
+{
+ "basis": "partial",
+ "channel": "Polaristimes",
+ "check": "중국의 자율제한 거부(FT 인용 보도, 15%는 외교 소식통 기준)와 파리모터쇼 참가·립모터 차종(Motor1·스텔란티스 보도자료·Il Sole 24 Ore, 검색 결과 요약) 문서 2건을 묶었습니다. 위안화·산업단체 내용과 BYD 경영진 발언은 제목 기준입니다.",
+ "cycles": [],
+ "dupOf": "pf-tg-032",
+ "facts": [
+  "무엇이: 중국 상무부가 EU의 하이브리드차 수출 자율제한 요구를 'WTO 규칙 위반'이라며 거부했다고 FT가 보도했습니다 [사실]",
+  "EU 요구: 중국산 플러그인 하이브리드를 EU 시장의 약 15%로 제한하자는 것이며, 현재 중국산 비중은 3분의 1 이상입니다 [사실]",
+  "대안: EU 집행위는 일정 물량 초과분에 관세를 매기는 관세할당형 한시 세이프가드를 검토하고 있습니다 [사실]",
+  "중국차 공세: 10월 12~18일 파리모터쇼에 중국 브랜드 20여 개가 참가하고, 립모터는 주행거리 연장형 SUV D19·B03을 중국 밖에서 처음 공개합니다 [사실]",
+  "의미: 전기차 상계관세를 받는 중국 업체들이 하이브리드로 유럽 공략 경로를 넓히면서 유럽 업체의 가격 경쟁 부담이 커질 수 있습니다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "중국, EU 하이브리드차 수출 자율제한 거부…파리모터쇼엔 20여 개 브랜드",
+ "id": "n-tg-0132",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "auto"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "t": "EU, 중국과 협의 통해 대중 무역적자 축소 추진",
+   "u": "https://www.reuters.com/world/china/eu-seeks-cut-trade-deficit-with-china-talks-with-beijing-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 Polaristimes",
+   "t": "EU, 중국산 하이브리드차 수입 제한 준비…초과분 관세 매기는 관세할당 검토",
+   "u": "https://t.me/The_MariTimes/63577"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "중국, EU의 하이브리드차 수출 자율제한 요구 거부(FT)",
+   "u": "https://www.reuters.com/world/china/china-rejects-eu-request-voluntary-hybrid-car-export-curbs-ft-reports-2026-10-07/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "EU, 무역협의 개시하며 대중 무역적자에 강경 기조",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/eu-is-taking-harder-line-on-china-s-trade-gap-as-talks-kick-off"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "중국, EU와 무역 이견 해소 위한 대등한 대화 촉구",
+   "u": "https://www.reuters.com/world/china/china-pushes-equal-dialogue-resolving-trade-differences-with-eu-2026-10-08/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "중국, EU 협의서 불균형 쟁점 속 위안화 정책 방어",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/china-central-bank-defends-currency-policy-before-eu-trade-talks"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "블룸버그",
+   "t": "립모터, EU·중국 무역 갈등에도 신형 하이브리드차 유럽 출시",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/leapmotor-to-bring-new-hybrid-car-to-europe-despite-eu-china-trade-tensions"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "t": "BYD 경영진 \"해외 확장의 가장 큰 난관은 지정학\"",
+   "u": "https://www.reuters.com/world/asia-pacific/byd-exec-says-biggest-challenge-expansion-is-geopolitics-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "유럽 산업단체들, 대중 무역에 EU 긴급 조치 촉구",
+   "u": "https://www.reuters.com/world/china/european-industry-groups-call-urgent-eu-action-china-trade-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "중국 인민은행 '무역 우위 위해 위안화 약세 유도할 필요도 의도도 없어'",
+   "u": "https://www.reuters.com/world/asia-pacific/china-has-no-need-or-intention-weaken-yuan-trade-edge-central-bank-says-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "t": "파리모터쇼에 중국 업체 역대 최다 참가…유럽 완성차 압박",
+   "u": "https://www.reuters.com/business/autos-transportation/record-chinese-turnout-puts-european-carmakers-under-pressure-paris-show-2026-10-09/"
+  }
+ ],
+ "key": "tg-The_MariTimes-63577",
+ "nodes": [
+  "macro/fx",
+  "macro/geo"
+ ],
+ "num": 132,
+ "one": "EU가 중국산 하이브리드차를 시장의 약 15%로 묶는 수출 자율제한을 요구했으나 중국이 WTO 위반이라며 거부해 초과분에 관세를 매기는 세이프가드 가능성이 커진 가운데, 중국 20여 개 브랜드가 파리모터쇼에 하이브리드를 앞세워 나서며 유럽 공세를 이어가고 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-09T14:23:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 Polaristimes",
+   "u": "https://t.me/The_MariTimes/63577"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "CnEVPost",
+   "u": "https://cnevpost.com/2026/10/07/eu-plans-chinese-hybrid-import-curbs/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "TimesLIVE",
+   "u": "https://www.timeslive.co.za/motoring/2026-10-08-china-rejects-eu-request-for-voluntary-hybrid-car-export-curbs-report/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "Newsquawk(FT 인용)",
+   "u": "https://www.newsquawk.com/headlines/china-has-rejected-an-eu-request-to-voluntarily-restrict-exports-of-hybrid-cars-to-europe-as-the-two-sides-enter-last-ditch-talks-to-avert-a-trade-conflict-ft-reports"
+  },
+  {
+   "d": "2026-10",
+   "o": "Stellantis 미디어(립모터)",
+   "u": "https://www.media.stellantis.com/em-en/leapmotor/press/leapmotor-will-showcase-its-ever-growing-line-up-at-2026-paris-motor-show"
+  },
+  {
+   "d": "2026-10",
+   "o": "Motor1",
+   "u": "https://www.motor1.com/features/808793/2026-paris-auto-show-preview/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Il Sole 24 Ore",
+   "u": "https://en.ilsole24ore.com/art/paris-motor-show-previews-and-participating-manufacturers-AJgQmEbB"
+  }
+ ],
+ "tags": [],
+ "title": "중국, EU 하이브리드차 수출 자율제한 거부…파리모터쇼엔 20여 개 브랜드",
+ "updatedAt": "2026-10-09T18:17:26+09:00",
+ "url": "https://t.me/The_MariTimes/63577"
+}

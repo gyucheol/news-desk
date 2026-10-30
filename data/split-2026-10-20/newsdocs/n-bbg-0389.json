@@ -1,0 +1,83 @@
+{
+ "id": "n-bbg-0389",
+ "num": 389,
+ "key": "split-G2-014-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-17T22:00:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "트럼프, 면세 적색 경유 도로 사용 연말까지 허용…정유 병목에 경유값은 아직 그대로",
+ "headline": "트럼프, 면세 적색 경유 도로 사용 연말까지 허용…정유 병목에 경유값은 아직 그대로",
+ "one": "트럼프 대통령이 10월 5일 면세 적색 경유를 연말까지 도로에서 쓸 수 있게 하는 행정명령에 서명했지만 정유 병목 탓에 10일까지 미국 경유값이 내려가지 않으면서, 높은 연료비가 중간선거 부담으로 이어지고 있다",
+ "facts": [
+  "무엇이: 트럼프 대통령이 10월 5일 면세 적색 경유를 연말까지 도로에서 쓸 수 있게 허용하는 행정명령에 서명했다 [사실]",
+  "효과: 로이터는 10월 10일 적색 경유 허용 등 공급 확대책에도 정유 병목 탓에 미국 경유값이 아직 내려가지 않았다고 전했다 [사실]",
+  "배경: 미국 정유 가동률은 이미 98%이고, 경유값은 9월 22일 갤런당 6.53달러로 사상 최고를 찍었다 [사실]",
+  "정치: 경유값이 내려가지 않으면서 중간선거를 앞둔 정부의 부담이 이어지고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 기사 2건을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 원 문서 출처 목록의 백악관 설명자료·일리노이대 팜폴리시뉴스·CNBC(적색 경유) 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "백악관 설명자료",
+   "d": "2026-10-05",
+   "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/"
+  },
+  {
+   "o": "일리노이대 팜폴리시뉴스",
+   "d": "2026-10-06",
+   "u": "https://farmpolicynews.illinois.edu/2026/10/trump-order-allows-tax-exempt-diesel-use-on-highways/"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-07",
+   "u": "https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+   "o": "블룸버그",
+   "d": "2026-10-05",
+   "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel",
+   "s": "트럼프 대통령이 면세 적색 경유를 연말까지 도로에서 쓸 수 있게 하는 행정명령에 서명하면서 경유 공급을 늘리려 했다"
+  },
+  {
+   "t": "트럼프의 경유 공급 확대책, 아직 가격 못 낮춰",
+   "o": "로이터",
+   "d": "2026-10-10",
+   "u": "https://www.reuters.com/business/energy/trumps-moves-boost-diesel-supplies-have-not-yet-lowered-prices-2026-10-09/",
+   "s": "트럼프의 적색 경유 허용 등 공급 확대책에도 정유 병목 탓에 미국 경유값이 아직 내려가지 않아 중간선거 부담이 이어지고 있다"
+  }
+ ],
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "면세 적색 경유 도로 사용 연말까지 허용"
+  },
+  {
+   "ind": "oil",
+   "node": "products",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "적색 경유 허용에도 경유값 안 내려"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "basis": "title",
+ "check": "검색 한도로 이번 로이터 기사는 확인하지 못함. 기존 문서의 셸·BP 수치는 그 문서 근거를 따름",
+ "cycles": [],
+ "facts": [
+  "무엇이: 유럽 기업 이익 호황이 에너지·AI 업종을 넘어 확산하고 있다(10월 20일 로이터) [제목]",
+  "에너지: 에너지 기업들이 3분기 실적 시즌에 다시 유럽 기업 이익 증가를 주도할 것으로 전망됐다(10월 14일 블룸버그) [제목]",
+  "근거: 셸은 3분기 정제 마진 지표를 배럴당 42달러로, BP는 46.7달러로 높여 안내했다 [사실]",
+  "의미: 이란 전쟁발 유가·정제마진 상승이 3분기 실적의 버팀목이 될 전망이다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "유럽 기업 이익 호황, 3분기 에너지 주도 넘어 AI 밖으로 확산",
+ "id": "n-bbg-0396",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "t": "에너지 기업, 다시 유럽 기업 이익 증가 주도할 전망",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/energy-companies-set-to-lead-european-earnings-growth-again"
+  },
+  {
+   "t": "유럽 기업 이익 호황, 에너지·AI 업종 넘어 확산",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/finance/europes-earnings-boom-widens-beyond-energy-ai-2026-10-20/",
+   "s": "유럽 기업 이익 증가가 에너지·AI 업종 밖으로 넓어지면서, 3분기 실적 호조가 특정 업종 편중에서 벗어나고 있다 (제목 기준)"
+  }
+ ],
+ "key": "split-G2-033-2026-10-20",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 396,
+ "one": "유럽 기업 이익 호황이 에너지와 AI를 넘어 다른 업종으로 번지고 있다\n· 블룸버그는 3분기 실적 시즌에도 에너지 기업이 유럽 이익 증가를 다시 이끌 것으로 봤다\n· 셸은 3분기 정제 마진 지표를 배럴당 42달러, BP는 46.7달러로 높여 안내했다\n· 로이터는 이익 호황이 에너지·AI 밖으로 넓어지고 있다고 전했다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T20:04:00+09:00",
+ "source": "블룸버그",
+ "src": [],
+ "tags": [],
+ "title": "유럽 기업 이익 호황, 3분기 에너지 주도 넘어 AI 밖으로 확산",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-14/energy-companies-set-to-lead-european-earnings-growth-again",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "유럽 이익 호황 에너지·AI 넘어 확산"
+  }
+ ],
+ "added": "로이터 1건 — 유럽 이익 호황이 에너지·AI를 넘어 다른 업종으로 넓어지고 있다는 내용이 추가됨 (제목 기준)"
+}

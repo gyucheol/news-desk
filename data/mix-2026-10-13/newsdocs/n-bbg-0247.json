@@ -1,0 +1,40 @@
+{
+ "id": "n-bbg-0247",
+ "num": 247,
+ "key": "mix-C088-2026-10-13",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-13",
+ "published": "2026-10-12T08:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-11/nz-national-party-will-wait-for-budget-surplus-before-tax-cuts",
+ "origTitle": "",
+ "headline": "뉴질랜드 국민당, 재정 흑자 전환 전까지 감세 미루기로",
+ "src": [],
+ "items": [
+  {
+   "t": "뉴질랜드 국민당, 재정 흑자 달성 전까지 감세 기다리기로",
+   "o": "블룸버그",
+   "d": "2026-10-12",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-11/nz-national-party-will-wait-for-budget-surplus-before-tax-cuts"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "뉴질랜드 국민당, 재정 흑자 전환 전까지 감세 미루기로",
+ "one": "뉴질랜드 국민당이 예산 흑자를 낸 뒤에야 감세하겠다고 밝히면서, 감세 시점이 재정 흑자 전환에 묶여 가계 감세 기대는 뒤로 밀리고 재정 건전성을 먼저 챙기는 기조가 굳어질 수 있다 (제목 기준)",
+ "facts": [
+  "무엇이: 뉴질랜드 국민당은 예산 흑자가 날 때까지 감세를 기다리겠다고 밝혔습니다 [제목]",
+  "의미: 감세 시점이 재정 흑자 전환 시기에 따라 정해지는 구조가 됐습니다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 미실시(한도 배분). 블룸버그 제목 기준"
+}

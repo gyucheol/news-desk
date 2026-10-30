@@ -1,0 +1,76 @@
+{
+ "id": "n-rtr-0462",
+ "num": 462,
+ "key": "split-G3-006-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T00:07:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "스페이스X 주파수 거래에 美·유럽 통신주 급락…도이치텔레콤 7~8% 하락",
+ "headline": "스페이스X 주파수 거래에 美·유럽 통신주 급락…도이치텔레콤 7~8% 하락",
+ "one": "스페이스X의 주파수 거래가 업계를 흔들면서 10월 9일 STOXX 600 통신지수가 3.3% 내려 2월 이후 최저로 떨어지고 도이치텔레콤이 7~8% 급락했으며, 15일에는 미국 대형 통신주의 위험도 부각됐다",
+ "facts": [
+  "무엇이: 스페이스X 주파수 거래 여파로 10월 9일 미국·유럽 통신주가 동반 하락해 STOXX 600 통신지수가 3.3% 내린 2월 이후 최저를 기록했다 [사실]",
+  "유럽 대형사: 도이치텔레콤 주가는 7~8% 급락해 유럽 대형 통신사도 위성통신 경쟁 우려를 피하지 못했다 [사실]",
+  "미국: 위성 기반 이동통신 경쟁자가 생기면서 미국 대형 통신사 주가의 위험이 부각됐다(10월 15일 블룸버그) [제목]"
+ ],
+ "basis": "verified",
+ "check": "로이터 2건·블룸버그 1건(10월 9~15일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 통신지수 3.3% 하락과 도이치텔레콤 급락은 원 문서 사실 줄([사실])과 Investing.com·ADVFN 보도를 근거로 붙였다.",
+ "src": [
+  {
+   "o": "Investing.com",
+   "d": "2026-10-09",
+   "u": "https://uk.investing.com/news/stock-market-news/eu-telecom-stocks-fall-after-spacexs-move-to-become-a-wireless-carrier-4902338"
+  },
+  {
+   "o": "ADVFN",
+   "d": "2026-10-09",
+   "u": "https://uk.advfn.com/market-news/article/24372/european-telecom-shares-fall-as-spacex-expands-plans-for-us-mobile-network"
+  }
+ ],
+ "items": [
+  {
+   "t": "스페이스X 주파수 거래에 미국·유럽 통신주 동반 하락",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/",
+   "s": "스페이스X 주파수 거래가 업계를 흔들면서 미국·유럽 통신주가 동반 하락해 STOXX 600 통신지수가 3.3% 내린 2월 이후 최저로 떨어졌다"
+  },
+  {
+   "t": "스페이스X 주파수 거래에 도이치텔레콤 주가 7% 하락",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/business/media-telecom/spacex-spectrum-deal-sends-deutsche-telekom-shares-falling-7-2026-10-09/",
+   "s": "스페이스X 주파수 거래 여파로 도이치텔레콤 주가가 7~8% 급락하면서 유럽 대형 통신사도 위성통신 경쟁 우려를 피하지 못했다"
+  },
+  {
+   "t": "스페이스X 주파수 매입, 대형 통신주 위험 드러내",
+   "o": "블룸버그",
+   "d": "2026-10-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-15/spacex-s-spectrum-purchase-exposes-risks-for-big-telecom-stocks",
+   "s": "스페이스X의 주파수 매입으로 위성 기반 이동통신 경쟁자가 생기면서 미국 대형 통신사 주가의 위험이 부각됐다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "STOXX 600 통신지수 3.3% 하락, 2월 이후 최저"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "basis": "verified",
+ "channel": "트릴리온",
+ "check": "코노코필립스 계약(벤처글로벌 보도자료·World Oil)과 중국 수입사 협상(인베스팅닷컴, 블룸버그 인용) 문서 2건을 묶었습니다. 페트로차이나 외 수입사 이름과 계약 기간은 확인하지 못했습니다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 벤처글로벌이 중국 수입사 최소 3곳과 LNG 장기 공급을 초기 단계에서 협의 중이며, 페트로차이나는 루이지애나 수출 설비에서 연 100만 톤 이상을 받는 방안을 검토하고 있습니다 [사실]",
+  "계약: 벤처글로벌과 코노코필립스는 10월 1일 2030년부터 20년간 연 100만 톤의 LNG 판매계약을 발표했고, 공급 설비·가격 조건은 공개하지 않았습니다 [사실]",
+  "왜: 지난해 중국 LNG 수입의 약 30%를 댄 카타르 공급이 호르무즈 차질로 막히자 중국 구매자들이 현물 대신 장기 물량을 찾고 있습니다 [사실]",
+  "배경: 중국은 2025년 미국산 가스에 관세를 매겼고, 벤처글로벌은 CP2 2단계 최종투자결정을 위해 추가 장기계약을 진행 중이라고 밝혀 왔습니다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "벤처글로벌, 코노코와 20년 LNG 계약 이어 페트로차이나 등 중국과 협상",
+ "id": "n-tg-0160",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "key": "tg-Trillion_labs-9928",
+ "nodes": [
+  "gas/liquefaction",
+  "gas/trade"
+ ],
+ "num": 160,
+ "one": "벤처글로벌이 10월 1일 코노코필립스와 2030년부터 20년간 연 100만 톤 LNG 판매계약을 맺은 데 이어 페트로차이나 등 중국 수입사 3곳 이상과 장기 공급을 협의하면서, 카타르 물량이 막힌 중국 구매자들이 미국산 장기 계약으로 조달처를 옮길 수 있다",
+ "processed": "2026-10-09",
+ "published": "2026-10-06",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-02",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/9928"
+  },
+  {
+   "d": "2026-10-01",
+   "o": "벤처글로벌 보도자료",
+   "u": "https://ventureglobal.com/2026/10/01/venture-global-and-conocophillips-announce-20-year-lng-sales-and-purchase-agreement/"
+  },
+  {
+   "d": "2026-10-02",
+   "o": "World Oil",
+   "u": "https://www.worldoil.com/news/2026/10/2/conocophillips-expands-lng-portfolio-with-20-year-venture-global-agreement/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "블룸버그(원문 미확인)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "로이터(원문 미확인)",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S112:0-venture-global-in-talks-to-sell-us-lng-to-chinese-buyers-bloomberg-news-reports/"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "Investing.com 자체 기사",
+   "u": "https://ca.investing.com/news/stock-market-news/venture-global-shares-rise-amid-report-chinese-buyers-eye-expanded-us-lng-deals-4868316"
+  }
+ ],
+ "tags": [],
+ "title": "벤처글로벌, 코노코와 20년 LNG 계약 이어 페트로차이나 등 중국과 협상",
+ "url": "https://t.me/Trillion_labs/9928",
+ "items": [
+  {
+   "t": "벤처글로벌, 코노코필립스와 연 100만 톤 20년 LNG 판매계약",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-02",
+   "u": "https://t.me/Trillion_labs/9928"
+  },
+  {
+   "t": "벤처글로벌, 페트로차이나 등 중국 3곳 이상과 LNG 장기 공급 협상",
+   "o": "블룸버그",
+   "d": "2026-10-06",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-06/venture-global-is-in-talks-to-sell-us-lng-to-more-chinese-buyers"
+  }
+ ],
+ "updatedAt": "2026-10-09T18:17:26+09:00"
+}

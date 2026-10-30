@@ -1,0 +1,49 @@
+{
+ "id": "n-bbg-0387",
+ "num": 387,
+ "key": "split-G1-189-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:09:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/latam-airlines-says-high-fuel-costs-expected-to-restrain-growth",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "라탐항공 \"높은 연료비가 올해 성장 억제할 것\"",
+ "headline": "라탐항공 \"높은 연료비가 올해 성장 억제할 것\"",
+ "one": "라탐항공이 높은 연료비가 올해 성장을 억제할 것이라고 밝히면서, 중동발 고유가 부담 속에 남미 항공사도 노선과 좌석 확대에 제약을 받을 전망이다 (제목 기준)",
+ "facts": [
+  "무엇이: 라탐항공은 높은 연료비가 올해 성장을 억제할 것이라고 밝혔다 [제목]",
+  "영향: 남미 항공사도 고유가로 노선·좌석 확대에 제약을 받을 전망이다 [제목]"
+ ],
+ "basis": "title",
+ "check": "블룸버그 기사 1건(10월 20일). 원 문서 확인 기록은 라탐항공 발언을 확인 못 해 기사 요약 기준(제목 기준)",
+ "src": [],
+ "items": [
+  {
+   "t": "라탐항공 '높은 연료비가 올해 성장을 억제할 것'",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/latam-airlines-says-high-fuel-costs-expected-to-restrain-growth"
+  }
+ ],
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "높은 연료비에 라탐항공 성장 억제 전망"
+  }
+ ]
+}

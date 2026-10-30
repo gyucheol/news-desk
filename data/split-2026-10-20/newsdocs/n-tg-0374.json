@@ -1,0 +1,82 @@
+{
+ "id": "n-tg-0374",
+ "num": 374,
+ "key": "split-G1-086-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/HANAchina/70279",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "이란 \"호르무즈 재개방 제안 美 답변 불충분\"…검토 뒤 회신 예고",
+ "headline": "이란 \"호르무즈 재개방 제안 美 답변 불충분\"…검토 뒤 회신 예고",
+ "one": "이란이 10월 12일 카타르를 거쳐 온 미국 답변이 일부 조건만 받아들여 불충분하다며 호르무즈 개방도 협상도 없다고 밝히면서도 검토가 끝나면 회신하겠다고 해, 해협 재개방은 늦어질 수 있지만 협상 창구는 열어 뒀다",
+ "facts": [
+  "무엇이: 이란 측 레자에이는 카타르를 거쳐 온 미국 답변이 일부 조건만 받아들여 불충분하다며 호르무즈 개방도 협상도 없다고 밝혔다(로이터, 10월 12일) [사실]",
+  "제안 내용: 이란은 봉쇄·제재 해제 등 7가지 조건을 미국이 받아들이면 6일 안에 해협을 다시 열고 7일째 협상을 재개하겠다고 제안해 둔 상태였다 [사실]",
+  "회신: 이란은 검토가 끝나면 미국 답변에 회신하겠다고 밝혀 협상 창구를 닫지 않았다(로이터) [제목]",
+  "외교부: 이란 외교부 대변인은 미국의 최신 반응을 주시하며 대응하겠다고 했다 [채널]"
+ ],
+ "basis": "verified",
+ "check": "하나증권 중국전략 1건과 로이터 2건. 미국 답변이 불충분하다는 이란 입장은 원 문서 사실과 독립 출처(Shafaq News·SAFETY4SEA)로 확인했다.",
+ "src": [
+  {
+   "o": "Shafaq News",
+   "d": "2026-10-11",
+   "u": "https://shafaq.com/en/World/Iran-deems-US-response-to-its-proposal-insufficient"
+  },
+  {
+   "o": "SAFETY4SEA",
+   "d": "2026-10-12",
+   "u": "https://safety4sea.com/iran-says-us-response-to-its-7-day-proposal-to-reopen-hormuz-is-insufficient/"
+  }
+ ],
+ "items": [
+  {
+   "t": "이란 외무부 \"미국의 최신 반응 주시하며 대응할 것\"",
+   "o": "텔레그램 하나증권 중국전략",
+   "d": "2026-10-12",
+   "u": "https://t.me/HANAchina/70279",
+   "s": "이란 외교부 대변인이 미국의 최신 반응을 주시하고 있으며 이에 대응하겠다고 밝혀 호르무즈 협상에서 이란의 추가 회신이 나올 수 있다"
+  },
+  {
+   "t": "이란 \"호르무즈 재개방 제안에 대한 미국 답변 불충분\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+   "s": "이란 측 레자에이가 카타르를 거쳐 온 미국 답변이 일부 조건만 받아들여 불충분하다며 호르무즈 개방도 협상도 없다고 밝혀 해협 재개방이 늦어질 수 있다"
+  },
+  {
+   "t": "이란 \"검토 끝나면 호르무즈 제안 관련 미국 답변에 회신\"",
+   "o": "로이터",
+   "d": "2026-10-12",
+   "u": "https://www.reuters.com/world/middle-east/iran-says-it-will-reply-us-response-hormuz-proposal-once-review-over-2026-10-12/",
+   "s": "이란은 검토가 끝나면 호르무즈 제안에 대한 미국 답변에 회신하겠다고 밝혀 미국과의 협상 창구를 닫지는 않았다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "transport",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "미국 답변 불충분 판단에 해협 재개방 지연"
+  }
+ ],
+ "channel": "하나증권 중국전략"
+}

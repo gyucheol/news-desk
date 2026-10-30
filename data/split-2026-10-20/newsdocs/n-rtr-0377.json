@@ -1,0 +1,66 @@
+{
+ "id": "n-rtr-0377",
+ "num": 377,
+ "key": "split-G1-040-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:10:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "시리아, 후티 공격받는 사우디에 군사 지원 검토",
+ "headline": "시리아, 후티 공격받는 사우디에 군사 지원 검토",
+ "one": "시리아가 예멘 전쟁 속 사우디에 대한 군사 지원을 검토한다는 소식통 전언에 이어 사우디 공항들이 후티 공격을 받자 예멘 전쟁 지원을 검토한다는 보도가 나오면서, 사우디를 돕겠다는 역내 국가가 늘고 있다",
+ "facts": [
+  "무엇이: 시리아는 예멘 전쟁 속 사우디에 대한 군사 지원을 검토하고 있다고 소식통들이 전했다 [제목]",
+  "계기: 사우디 공항들이 후티 공격을 받은 뒤 시리아의 예멘 전쟁 지원 검토가 다시 전해졌다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "로이터 기사 2건을 묶음. 시리아의 군사 지원 검토는 Daily Sabah 출처가 뒷받침하고 세부는 로이터 제목 기준",
+ "src": [
+  {
+   "o": "Daily Sabah",
+   "d": "2026-10-08",
+   "u": "https://www.dailysabah.com/world/mid-east/syria-mulls-military-aid-to-saudi-arabia-as-houthis-escalate-war"
+  }
+ ],
+ "items": [
+  {
+   "t": "시리아, 예멘 전쟁 속 사우디 군사 지원 검토…소식통",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/middle-east/syria-weighs-military-aid-saudi-arabia-amid-yemen-war-sources-say-2026-10-07/",
+   "s": "시리아가 예멘 전쟁 속 사우디에 대한 군사 지원을 검토하고 있다고 소식통들이 전하면서 사우디 지원국이 늘어날 수 있다"
+  },
+  {
+   "t": "사우디 공항들 후티 공격받자 시리아, 예멘 전쟁 지원 검토",
+   "o": "로이터",
+   "d": "2026-10-09",
+   "u": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/",
+   "s": "사우디 공항들이 후티 공격을 받자 시리아가 예멘 전쟁 지원을 검토하면서 역내 군사 협력 논의가 넓어졌다"
+  }
+ ],
+ "inds": [
+  "macro",
+  "aero"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "시리아 사우디 군사 지원 검토"
+  }
+ ]
+}

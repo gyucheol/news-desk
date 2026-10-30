@@ -1,0 +1,133 @@
+{
+ "basis": "verified",
+ "channel": "하나증권 중국전략",
+ "check": "잠정주택판매 7.3%↓·66.0 최저, 착공 5.2%↓·122만 1천 호, 단독 85만 9천 호를 검색 결과 요약으로 확인. 단독주택 허가 감소폭은 확인 못 함",
+ "cycles": [],
+ "facts": [
+  "무엇이: 9월 잠정주택판매지수가 7.3% 떨어진 66.0으로 2001년 집계 이후 최저였고, 1년 전보다 11.3% 낮았다 [사실]",
+  "착공: 9월 주택 착공은 5.2% 줄어 연율 122만 1천 호로 예상치 약 130만 호를 밑돌았고, 단독주택 착공은 4.6% 줄어 85만 9천 호로 1년 만의 최저였다. 단독주택 허가 급감은 로이터 제목 근거 [사실]",
+  "금리: MBA 집계 30년 고정 모기지 계약금리는 7.50%로 2023년 11월 이후 최고였고(10월 13일 채널 전언은 7.4%), 프레디맥 조사로는 7.40%였다 [사실]",
+  "계약·신청: 9월 기존주택 매매 계약은 전월보다 4% 줄어 2014년 이후 최저였고 계약 취소율은 14.5%였으며, 구매 신청은 6주째 부진해 1년 전보다 16% 낮았다 [사실]",
+  "원인: 전미부동산협회 로런스 윤 수석이코노미스트는 빠르게 오른 모기지 금리를 부진 원인으로 꼽았다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 주택시장 급랭…9월 잠정주택판매 7.3%↓ 사상 최저·착공 5.2%↓ 122만 1천 호",
+ "id": "n-tg-0625",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "realestate"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "30년 고정 모기지 금리가 7.4%로 오르면서 9월 기존주택 매매 계약이 전월보다 4% 줄어 2014년 이후 최저가 됐고, 계약 취소율은 14.5%로 치솟았다",
+   "t": "미 모기지 금리 7%대 재상승…기존주택 계약 12년 만의 최저",
+   "u": "https://t.me/HANAchina/70307"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "s": "미국 30년 모기지 금리가 7.5%로 오르면서 주택구매 신청이 6주째 부진해 1년 전보다 16% 낮은 수준까지 떨어졌다",
+   "t": "미 모기지 금리 7.5% 도달…주택구매 부진 6주째 이어져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-14/us-mortgage-rates-hit-7-5-extending-slump-in-purchase-activity"
+  },
+  {
+   "t": "미 주택 착공, 팬데믹 이후 가장 부진한 수준으로 감소",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/us-housing-starts-fall-to-four-month-low-as-demand-falters",
+   "s": "미국 9월 주택 착공이 5.2% 줄어 연율 122만 1천 호로 떨어지면서, 수요 둔화가 신규 공급까지 위축시키고 있다"
+  },
+  {
+   "t": "미 9월 잠정주택판매, 모기지 금리 상승에 급감해 사상 최저",
+   "o": "블룸버그",
+   "d": "2026-10-20",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/us-pending-home-sales-fall-to-record-low-as-mortgage-rates-rise",
+   "s": "모기지 금리 상승에 9월 잠정주택판매지수가 7.3% 떨어진 66.0으로 사상 최저가 되면서, 향후 1~2개월 기존주택 거래 감소가 예고됐다"
+  },
+  {
+   "t": "미국 9월 잠정주택판매, 사상 최저 수준으로 추락",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/business/us-pending-home-sales-tumble-record-low-september-2026-10-20/",
+   "s": "로이터는 9월 잠정주택판매가 1년 전보다 11.3% 낮고 네 지역 모두 감소했다고 전하면서, 매수 계약 위축이 전국으로 번졌음을 보였다"
+  },
+  {
+   "t": "미국 9월 단독주택 착공과 건축 허가 함께 급감",
+   "o": "로이터",
+   "d": "2026-10-20",
+   "u": "https://www.reuters.com/world/us/us-single-family-housing-starts-building-permits-tumble-september-2026-10-20/",
+   "s": "9월 단독주택 착공이 4.6% 줄어 85만 9천 호로 1년 만의 최저가 되고 허가도 급감하면서, 주택 건설 선행지표가 꺾였다"
+  }
+ ],
+ "key": "split-G4-102-2026-10-20",
+ "nodes": [
+  "macro/growth",
+  "macro/rates"
+ ],
+ "num": 625,
+ "one": "미국 모기지 금리가 7%대 중반으로 오르면서 9월 주택 계약과 착공이 함께 급감했다\n· 30년 고정 모기지 금리는 7.4%를 거쳐 7.5%로 2023년 11월 이후 최고가 됐다\n· 9월 기존주택 매매 계약은 4% 줄어 2014년 이후 최저였고, 구매 신청은 6주째 부진해 1년 전보다 16% 낮았다\n· 전미부동산협회 9월 잠정주택판매지수는 7.3% 떨어진 66.0으로 2001년 집계 이후 최저였다\n· 9월 주택 착공은 5.2% 줄어 연율 122만 1천 호로 팬데믹 이후 가장 부진한 수준에 속했다\n· 단독주택 착공은 4.6% 줄어 85만 9천 호로 1년 만의 최저였고 단독주택 허가도 급감했다",
+ "origTitle": "",
+ "processed": "2026-10-21",
+ "published": "2026-10-20T23:17:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-12",
+   "o": "레드핀(PR Newswire)",
+   "u": "https://www.prnewswire.com/news-releases/us-pending-home-sales-sink-near-12-year-low-302905207.html"
+  },
+  {
+   "d": "2026-10-12",
+   "o": "The MortgagePoint",
+   "u": "https://themortgagepoint.com/2026/10/12/pending-home-sales-fall-to-near-12-year-low/"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "MBA",
+   "u": "https://www.mba.org/news-and-research/newsroom/news/2026/10/14/mortgage-applications-decrease-in-latest-mba-weekly-survey"
+  },
+  {
+   "d": "2026-10-14",
+   "o": "HousingWire",
+   "u": "https://www.housingwire.com/articles/mba-applications-slip-2-7/"
+  },
+  {
+   "o": "Wolf Street",
+   "d": "2026-10-20",
+   "u": "https://wolfstreet.com/2026/10/20/pending-home-sales-plunge-to-record-low/"
+  },
+  {
+   "o": "Breitbart",
+   "d": "2026-10-20",
+   "u": "https://www.breitbart.com/economy/2026/10/20/housing-slump-worsens-amid-higher-rates/"
+  }
+ ],
+ "tags": [],
+ "title": "美 주택시장 급랭…9월 잠정주택판매 7.3%↓ 사상 최저·착공 5.2%↓ 122만 1천 호",
+ "updatedAt": "2026-10-21T07:06:33+09:00",
+ "url": "https://t.me/HANAchina/70307",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "9월 잠정주택판매지수 66.0으로 사상 최저"
+  },
+  {
+   "ind": "realestate",
+   "node": "develop",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "9월 주택 착공 5.2% 줄어 122만 1천 호"
+  }
+ ],
+ "added": "블룸버그·로이터 4건 — 9월 잠정주택판매 7.3% 급감한 사상 최저(66.0), 착공 5.2% 감소·단독주택 착공·허가 급감 내용이 추가됨"
+}

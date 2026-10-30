@@ -1,0 +1,66 @@
+{
+ "id": "n-bbg-0463",
+ "num": 463,
+ "key": "split-G4-032-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T02:44:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "블룸버그",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-officials-took-proporionate-step-with-last-month-s-hike",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "ECB 의사록 \"9월 0.25%p 인상은 비례적\"…단기 인상 기대 약해져",
+ "headline": "ECB 의사록 \"9월 0.25%p 인상은 비례적\"…단기 인상 기대 약해져",
+ "one": "10월 8일 공개된 ECB 의사록에서 위원들이 9월 0.25%포인트 인상을 비례적 조치로 설명하고 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤지만, 신중한 기조가 드러나면서 시장의 단기 인상 기대는 약해졌다",
+ "facts": [
+  "무엇이: 10월 8일 공개된 ECB 의사록에서 위원들은 9월 0.25%포인트 인상을 비례적 조치로 설명했다 [사실]",
+  "위험 판단: 위원 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤다 [사실]",
+  "시장: 정책위원 발언과 의사록이 신중한 기조를 보이면서 단기 금리 인상 기대가 약해졌다(10월 8일 로이터) [제목]"
+ ],
+ "basis": "verified",
+ "check": "블룸버그·로이터 2건(10월 8일)을 묶었다. 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준이며, 출처 목록의 ECB 통화정책회의 의사록 원문을 근거로 붙였다. 시장 기대 약화는 제목 기준이다.",
+ "src": [
+  {
+   "o": "ECB 통화정책회의 의사록",
+   "d": "2026-10-08",
+   "u": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "ECB 위원들, 지난 인상 때 '비례적' 조치 추구",
+   "o": "블룸버그",
+   "d": "2026-10-08",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-08/ecb-officials-took-proporionate-step-with-last-month-s-hike",
+   "s": "10월 8일 공개된 ECB 의사록에서 위원들은 9월 0.25%p 인상을 비례적 조치로 설명했고, 전원이 인플레이션 위험이 위쪽으로 치우쳤다고 봤다"
+  },
+  {
+   "t": "ECB 정책위원 발언·의사록, 단기 금리 인상 기대 약화",
+   "o": "로이터",
+   "d": "2026-10-08",
+   "u": "https://www.reuters.com/world/europe/ecb-policymakers-accounts-dampen-near-term-rate-hike-bets-2026-10-08/",
+   "s": "ECB 정책위원 발언과 의사록이 신중한 기조를 보이면서 시장의 단기 금리 인상 기대가 약해졌다 (제목 기준)"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/cb"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "cb",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "ECB 의사록·발언에 단기 인상 기대 약화"
+  }
+ ]
+}

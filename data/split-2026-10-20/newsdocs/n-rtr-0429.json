@@ -1,0 +1,74 @@
+{
+ "id": "n-rtr-0429",
+ "num": 429,
+ "key": "split-G2-071-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-18T07:53:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "로드리게스 권한대행 \"5년간 석유 투자 약 760억 달러 예상\"…유전 17곳·리그 250기",
+ "headline": "로드리게스 권한대행 \"5년간 석유 투자 약 760억 달러 예상\"…유전 17곳·리그 250기",
+ "one": "델시 로드리게스 대통령 권한대행이 17개 유전과 시추 리그 250기 계획을 담은 미국과의 양자 협정 등으로 5년간 석유 투자 약 760억 달러를 예상한다고 밝히면서, 공공·민간 비중과 집행 시기는 빠졌지만 원유 증산 기대가 커졌다",
+ "facts": [
+  "무엇이: 로드리게스 권한대행은 10월 17일 미국과의 양자 협정 등에 따라 5년간 석유 투자 약 760억 달러를 예상한다고 했다 [사실]",
+  "협정 내용: 미국과의 협정에는 17개 유전과 시추 리그 250기 계획이 담겼다 [사실]",
+  "빈칸: 투자의 공공·민간 비중과 집행 시기는 밝히지 않았다 [사실]",
+  "생산: PDVSA 생산량은 하루 약 120만 배럴이고, 술리아주 생산은 하루 7만 배럴에서 37만 배럴로 늘었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "로이터 기사 1건. 760억 달러 투자 전망, 17개 유전, 리그 250기, 술리아 생산은 검색 결과 요약(리우타임스 인용 보도 등)으로 확인했다.",
+ "src": [
+  {
+   "o": "UA.news(리우타임스)",
+   "d": "2026-10-18",
+   "u": "https://ua.news/en/energetika/rodriges-zaiavila-pro-maizhe-76-mlrd-investitsii-u-naftu-venesueli-the-rio-times"
+  },
+  {
+   "o": "Europe Says",
+   "d": "2026-10-18",
+   "u": "https://www.europesays.com/3317182/"
+  }
+ ],
+ "items": [
+  {
+   "t": "베네수엘라 권한대행 \"5년간 석유 투자 약 760억 달러 예상\"",
+   "o": "로이터",
+   "d": "2026-10-18",
+   "u": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/"
+  }
+ ],
+ "inds": [
+  "drilling",
+  "oil"
+ ],
+ "nodes": [
+  "drilling/capex",
+  "drilling/rigs"
+ ],
+ "vc": [
+  {
+   "ind": "drilling",
+   "node": "capex",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "5년간 석유 투자 약 760억 달러 예상"
+  },
+  {
+   "ind": "drilling",
+   "node": "rigs",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "17개 유전에 시추 리그 250기 계획"
+  }
+ ]
+}

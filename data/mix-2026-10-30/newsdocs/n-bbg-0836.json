@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0836",
+ "num": 836,
+ "key": "mix-G2-062-2026-10-30",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-30",
+ "published": "2026-10-29T11:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/indonesia-s-wealth-fund-cio-owns-stake-in-sanctioned-brokerage",
+ "origTitle": "",
+ "headline": "인니 국부펀드 다난타라 CIO, 시세조종 제재 증권사 지분 27.5% 간접 보유",
+ "src": [
+  {
+   "o": "The Jakarta Post",
+   "d": "2026-10-29",
+   "u": "http://www.thejakartapost.com/business/2026/10/29/danantara-executive-owns-stakes-in-ojk-sanctioned-brokerage-bloomberg"
+  },
+  {
+   "o": "Jakarta Globe",
+   "d": "",
+   "u": "https://jakartaglobe.id/business/danantara-cio-pandu-defends-supra-sekuritas-stake-after-market-fines"
+  }
+ ],
+ "items": [
+  {
+   "t": "인니 국부펀드 CIO, 제재 대상 증권사 지분 보유",
+   "o": "블룸버그",
+   "d": "2026-10-29",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/indonesia-s-wealth-fund-cio-owns-stake-in-sanctioned-brokerage"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "fin"
+ ],
+ "nodes": [],
+ "title": "인니 국부펀드 다난타라 CIO, 시세조종 제재 증권사 지분 27.5% 간접 보유",
+ "one": "인도네시아 국부펀드 다난타라의 판두 샤흐리르 CIO가 금융당국 제재를 받은 증권사 지분을 간접 보유한 것으로 드러났다\n· 샤흐리르는 투자회사를 통해 수프라 세쿠리타스 지분 27.5%를 가진 것으로 전해졌다\n· 금융감독청은 시세조종 혐의로 이 증권사를 포함한 9곳을 제재했고 그는 경영에 관여하지 않는 소수 지분이라고 해명했다",
+ "facts": [
+  "무엇이: 다난타라 CIO 판두 샤흐리르가 거의 전부 소유한 투자회사를 통해 금융감독청(OJK) 제재를 받은 PT 수프라 세쿠리타스 지분 27.5%를 간접 보유하고 있다고 블룸버그가 보도했다 [사실]",
+  "제재: OJK는 10월 21일 협조 매매를 통한 시세조종 증거를 들어 증권사 9곳을 제재했고, 사건은 시나르마스 계열 DSSA 거래와 연관돼 있다 [사실]",
+  "해명: 샤흐리르는 2023년 말부터의 수동적 소수 지분으로 이사회 자리나 경영 관여가 없다고 밝혔고, 로산 로슬라니 CEO는 이해상충 규정 준수를 강조했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CIO의 수프라 세쿠리타스 지분 27.5% 간접 보유와 OJK 제재는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "fin",
+   "node": "regulation",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "국부펀드 CIO의 제재 증권사 지분 보유로 이해상충 논란"
+  }
+ ]
+}

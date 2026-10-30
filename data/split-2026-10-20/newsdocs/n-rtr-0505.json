@@ -1,0 +1,51 @@
+{
+ "id": "n-rtr-0505",
+ "num": 505,
+ "key": "split-G4-073-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T04:22:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "로이터",
+ "url": "https://www.reuters.com/business/no-signs-new-eu-debt-crisis-prudent-fiscal-policy-is-needed-dombrovskis-2026-10-14/",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "돔브로브스키스 \"EU 새 부채위기 징후 없지만 신중한 재정 필요\"",
+ "headline": "돔브로브스키스 \"EU 새 부채위기 징후 없지만 신중한 재정 필요\"",
+ "one": "돔브로브스키스 EU 집행위원이 10월 14일 새 부채위기 징후는 없다면서도 신중한 재정정책을 주문하면서, 프랑스발 국채 불안이 아직 EU 전체의 위기로 번지지는 않았다는 판단을 내놨다 (제목 기준)",
+ "facts": [
+  "무엇이: 돔브로브스키스 EU 집행위원은 10월 14일 EU에 새 부채위기의 징후는 없지만 신중한 재정정책이 필요하다고 말했다 [제목]",
+  "배경: 10월 5일 프랑스-독일 10년물 금리차가 145bp를 넘어 유로존 위기 이후 최대로 벌어진 뒤 나온 발언이다 [채널]"
+ ],
+ "basis": "title",
+ "check": "로이터 기사 1건(제목 기준). 원 문서 확인 기록에 이 사건 부분이 없어 기사 요약 기준",
+ "src": [],
+ "items": [
+  {
+   "t": "돔브로브스키스 'EU 새 부채위기 징후 없지만 신중한 재정정책 필요'",
+   "o": "로이터",
+   "d": "2026-10-14",
+   "u": "https://www.reuters.com/business/no-signs-new-eu-debt-crisis-prudent-fiscal-policy-is-needed-dombrovskis-2026-10-14/"
+  }
+ ],
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "EU 새 부채위기 징후 없지만 신중한 재정 주문"
+  }
+ ]
+}

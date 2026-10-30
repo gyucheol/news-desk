@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0755",
+ "num": 755,
+ "key": "mix-G2-059-2026-10-27",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-10-27",
+ "published": "2026-10-27T18:47:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-gives-initial-nod-to-serbia-s-untested-ballot-winner",
+ "origTitle": "",
+ "headline": "세르비아 채권시장, 총선 승리한 신예 학생 명단에 일단 긍정 반응",
+ "src": [
+  {
+   "o": "유로뉴스",
+   "d": "2026-10-25",
+   "u": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+  },
+  {
+   "o": "알자지라",
+   "d": "2026-10-26",
+   "u": "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed"
+  }
+ ],
+ "items": [
+  {
+   "t": "채권시장, 검증 안 된 세르비아 총선 승자에 일단 긍정 신호",
+   "o": "블룸버그",
+   "d": "2026-10-27",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-gives-initial-nod-to-serbia-s-untested-ballot-winner"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates"
+ ],
+ "title": "세르비아 채권시장, 총선 승리한 신예 학생 명단에 일단 긍정 반응",
+ "one": "세르비아 채권시장이 10월 25일 조기 총선에서 이긴 신예 학생 명단에 일단 긍정적으로 반응했다\n· 학생 명단은 잠정 득표율 약 53.4%로 250석 중 140석이 예상되며 부치치 대통령은 패배를 인정했다\n· 채권시장 반응의 구체적 수치는 확인되지 않았다",
+ "facts": [
+  "무엇이: 채권시장이 세르비아 총선의 검증되지 않은 승자에게 일단 긍정 신호를 보냈다 [제목]",
+  "선거: 10월 25일 조기 총선에서 학생 명단이 잠정 득표율 약 53.4%로 250석 중 140석이 예상되고, 부치치의 통합 세르비아는 약 39.7%였으며 부치치는 패배를 인정했다 [사실]",
+  "금리: 선거 전인 10월 23일 세르비아 10년물 금리는 5.7%였고 선거 뒤 금리 움직임은 확인되지 않았다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "총선 결과는 검색 결과 요약으로 확인, 선거 뒤 채권 금리 움직임은 확인 못 함",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "세르비아 총선 정권 교체, 채권시장 일단 긍정 반응"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "n-tg-0343",
+ "num": 343,
+ "key": "split-G1-051-2026-10-20",
+ "feed": "v5",
+ "format": "one1",
+ "published": "2026-10-20T06:05:00+09:00",
+ "origTitle": "",
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "source": "텔레그램",
+ "url": "https://t.me/insidertracking/65782",
+ "processed": "2026-10-20",
+ "updatedAt": "2026-10-20T10:21:55+09:00",
+ "title": "美 재무부, 이란 그림자 선단 유조선 17척 추가 제재…남은 선단 무력화",
+ "headline": "美 재무부, 이란 그림자 선단 유조선 17척 추가 제재…남은 선단 무력화",
+ "one": "미 재무부 OFAC가 이란 그림자 선단 유조선 17척을 추가 제재하고 남은 선단 대부분을 무력화했다고 10월 9일 전해지면서, 남·동아시아로 가는 이란산 원유 운송이 더 줄어들 수 있다",
+ "facts": [
+  "무엇이: 미 재무부 해외자산통제실(OFAC)이 이란 그림자 선단 유조선을 추가 제재했다(10월 9일 전언) [사실]",
+  "규모: 제재 대상은 유조선 17척이며, OFAC는 남은 선단 대부분을 무력화했다고 밝혔다 [채널]",
+  "영향: 남·동아시아로 가는 이란산 원유 운송이 더 줄 수 있다 [채널]",
+  "배경: 쿠퍼 중부사령관은 봉쇄로 이란이 최소 250억 달러어치 원유를 수출하지 못했다고 밝혔다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "미국 주식 인사이더 채널 기사 1건. 그림자 선단 추가 제재는 원 문서 독립 출처(CNBC·미 국무부 발표)로 확인했고 17척과 무력화 규모는 채널 전언이다.",
+ "src": [
+  {
+   "o": "CNBC",
+   "d": "2026-10-08",
+   "u": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html"
+  },
+  {
+   "o": "미 국무부",
+   "d": "2026-10-08",
+   "u": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network"
+  }
+ ],
+ "items": [
+  {
+   "t": "美 재무부, 이란 그림자 선단 유조선 17척 추가 제재",
+   "o": "텔레그램 미국 주식 인사이더",
+   "d": "2026-10-09",
+   "u": "https://t.me/insidertracking/65782"
+  }
+ ],
+ "inds": [
+  "macro",
+  "oil",
+  "shipping"
+ ],
+ "nodes": [
+  "macro/geo",
+  "macro/commodity"
+ ],
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "policy",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "이란 그림자 선단 유조선 17척 추가 제재"
+  },
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "제재로 이란 그림자 선단 대부분 무력화"
+  }
+ ],
+ "channel": "미국 주식 인사이더"
+}

@@ -1,0 +1,274 @@
+{
+ "agent": "A3",
+ "searches_used": 22,
+ "items": [
+  {
+   "key": "bbg-1007-shell-q3-refining-margin",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings",
+   "origTitle": "Shell Sees Record Refining Margins as War Roils Fuel Markets",
+   "published": "2026-10-07",
+   "inds": [
+    "petchem",
+    "gas"
+   ],
+   "nodes": [
+    "petchem/commodity",
+    "gas/liquefaction"
+   ],
+   "title": "셸, 3분기 정제 마진 배럴당 42달러로 75% 급등 예고…화학 마진은 하락",
+   "one": "셸이 3분기 정제 마진 지표를 2분기 24달러에서 배럴당 42달러로 높여 안내하면서, 정유 부문 이익은 크게 늘어나지만 화학 마진은 톤당 208달러로 떨어져 석유화학 부문 부진은 이어질 전망이다.",
+   "facts": [
+    "무엇이: 셸이 10월 7일 3분기 실적 사전 안내문에서 정제 마진 지표를 배럴당 42달러(2분기 24달러)로 제시했습니다. [사실]",
+    "화학: 화학 마진 지표는 톤당 208달러(2분기 270달러)로 낮아지고, 화학 설비 가동률은 81~85%로 안내했습니다. [사실]",
+    "가동률: 정유 가동률은 93~97%(2분기 102%)로 내려가며, 라인강 저수위가 독일 라인란트 정유소 가동에 영향을 줬다고 밝혔습니다. [사실]",
+    "그 밖에: LNG 액화 물량은 720만~760만 톤, 탐사정 손실 처리는 약 3억 달러로 예상했고 3분기 실적은 10월 29일에 발표합니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 셸 공식 안내문(GlobeNewswire, 10월 7일)으로 작성. '사상 최고 정제 마진'과 전쟁 요인은 블룸버그 제목의 표현으로 안내문에는 없음.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/shell-sees-strong-oil-and-gas-trading-as-war-drives-price-swings"
+    },
+    {
+     "o": "셸 3분기 안내문(GlobeNewswire)",
+     "d": "2026-10-07",
+     "u": "https://www.globenewswire.com/news-release/2026/10/07/3376190/0/en/shell-third-quarter-2026-update-note.html"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1007-braskem-creditors-balk",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms",
+   "origTitle": "Braskem Creditors Balk at Restructuring Plan as Deadline Looms",
+   "published": "2026-10-07",
+   "inds": [
+    "petchem"
+   ],
+   "nodes": [
+    "petchem/cracker",
+    "petchem/commodity"
+   ],
+   "title": "브라스켐 채권단, 구조조정안에 반발…10월 9일 합의 시한 앞두고 교착",
+   "one": "남미 최대 석유화학사 브라스켐의 채권단이 109억 달러 채무 조정안에 반발하며 대주주의 자본 투입을 요구하면서, 10월 9일로 잡힌 주요 조건 합의 시한을 넘기면 법정 회생으로 갈 가능성이 커질 수 있다.",
+   "facts": [
+    "무엇이: 블룸버그는 10월 7일 브라스켐 채권단이 시한을 앞두고 구조조정안에 반발한다고 제목으로 전했습니다(본문 내용은 확인하지 못했습니다). [미확인]",
+    "얼마나: 법정 밖 회생 절차로 조정하려는 채무는 109억 달러이고, 주요 조건 합의 시한은 10월 9일, 절차 종료 예정은 11월 22일입니다. [사실]",
+    "배경: 채권단은 9월에 대주주 페트로브라스·IG4에 30억 달러 자본 투입을 요구했고, 회사가 8월 말 낸 안(채권단 신규 자금 약 20억 달러)은 거부했습니다. [사실]",
+    "멕시코: 상파울루 법원은 9월 24일 채권단 요청으로 멕시코 자회사 브라스켐 이데사 추가 지원을 중단시켰고, 채권단은 최소 8억 달러 자산 훼손을 추정합니다. [사실]"
+   ],
+   "basis": "partial",
+   "check": "블룸버그 원문 미확인 — 타임스브라질(10월 6일, 발로르 인용)과 리우타임스(9월 18·22일, 블룸버그 인용) 보도로 작성. 10월 7일자에 새로 나온 반발의 구체 내용은 확인하지 못함.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-07",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/braskem-creditors-balk-at-restructuring-plan-as-deadline-looms"
+    },
+    {
+     "o": "타임스브라질(CNBC 제휴)",
+     "d": "2026-10-06",
+     "u": "https://timesbrasil.com.br/empresas-e-negocios/braskem-credores-pressionam-companhia-por-reestruturacao-no-mexico-e-estimam-impacto-de-us-800-milhoes"
+    },
+    {
+     "o": "리우타임스",
+     "d": "2026-09-22",
+     "u": "https://www.riotimesonline.com/braskem-creditors-us3-billion-owners-board-rejection-2026/"
+    },
+    {
+     "o": "리우타임스",
+     "d": "2026-09-18",
+     "u": "https://www.riotimesonline.com/braskem-creditors-reject-plan-petrobras-capital-2026/"
+    }
+   ],
+   "dupOf": "pf-rtr-028"
+  },
+  {
+   "key": "bbg-1005-st-croix-refinery-restart",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/troubled-caribbean-refinery-eyes-restart-amid-global-fuel-crunch",
+   "origTitle": "Troubled Caribbean Refinery Eyes Restart Amid Global Fuel Crunch",
+   "published": "2026-10-05",
+   "inds": [
+    "petchem"
+   ],
+   "nodes": [
+    "petchem/commodity"
+   ],
+   "title": "미국령 세인트크로이 정유소, 2027년 재가동 추진…원유 공급·제품 구매처 확보",
+   "one": "2021년에 멈춘 미국령 버진아일랜드 세인트크로이 정유소의 소유주 포트해밀턴이 원유 공급과 제품 구매를 맡을 상대를 확보하고 2027년 재가동을 추진하면서, 하루 20만 배럴 넘는 정제 능력이 연료 부족 시장에 돌아올 수 있다.",
+   "facts": [
+    "무엇이: 포트해밀턴 리파이닝의 데이비드 존슨 이사가 블룸버그에 약 12개월 안, 2027년 재가동을 목표로 한다고 밝혔습니다. [사실]",
+    "얼마나: 단계적으로 재가동해 최종적으로 하루 20만 배럴을 넘기는 계획이며, 5월에는 약 22만 배럴을 목표로 제시했습니다. [사실]",
+    "조건: 원유를 대고 제품을 사 갈 상업 파트너(이름 비공개)는 정해졌지만, 자금 조달은 확정되지 않았고 재가동 시점도 승인된 일정이 아닙니다. [사실]",
+    "배경: 라임트리베이가 32억 달러 넘게 들여 2021년 2월 재가동했다가 같은 해 5월 미 환경보호청 명령으로 멈춘 뒤 파산한 설비입니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — VI 컨소시엄(버진아일랜드 현지 매체, 10월 7일)이 블룸버그 인터뷰를 인용해 쓴 자체 기사로 작성.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-05",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-05/troubled-caribbean-refinery-eyes-restart-amid-global-fuel-crunch"
+    },
+    {
+     "o": "VI 컨소시엄",
+     "d": "2026-10-07",
+     "u": "https://viconsortium.com/vi-economy/virgin-islands-st--croix-refinery-targets-2027-restart-with-crude-supplier-and-fuel-buyer-lined-up"
+    }
+   ],
+   "dupOf": ""
+  },
+  {
+   "key": "bbg-1005-trump-dyed-diesel-order",
+   "source": "블룸버그",
+   "url": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel",
+   "origTitle": "Trump Plans to Ease Limits on Tax-Exempt Diesel Variety",
+   "published": "2026-10-05",
+   "inds": [
+    "petchem"
+   ],
+   "nodes": [
+    "petchem/policy",
+    "petchem/commodity"
+   ],
+   "title": "트럼프, 면세 적색 경유의 도로 사용을 연말까지 허용하는 행정명령 서명",
+   "one": "트럼프 대통령이 농기계용 면세 적색 경유를 연말까지 도로 주행에도 쓸 수 있게 하는 행정명령에 서명하면서 트럭 운전자의 세금 부담은 줄지만, 경유 공급이 늘지는 않아 농가가 쓰는 경유 값이 오를 수 있다는 지적이 나온다.",
+   "facts": [
+    "무엇이: 트럼프 대통령이 10월 5일 비도로용 적색 경유의 도로 사용을 허용하고 연방 유류세를 연말까지 이자·벌금 없이 유예하는 행정명령에 서명했습니다. [사실]",
+    "얼마나: 대상 연방세는 갤런당 24.4센트(가스버디 분석가)이고, 백악관은 트럭 운전자가 주유 한 번에 100달러 넘게 아낀다고 주장했습니다. [사실]",
+    "왜: 미국 경유 평균값이 9월에 사상 처음으로 갤런당 6달러를 넘었습니다. [사실]",
+    "한계: 블룸버그가 인용한 전문가들은 적색 경유 배송 시설이 한정돼 효과가 크지 않고, 도로 수요가 몰리면 농가 가격이 오를 수 있다고 봤습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 백악관 설명자료(10월 5일)와 일리노이대 팜폴리시뉴스(10월 6일, 블룸버그·로이터·CNBC 인용 정리)로 작성.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-05",
+     "u": "https://bloomberg.com/news/articles/2026-10-05/trump-plans-to-ease-limits-on-tax-exempt-variety-of-diesel-fuel"
+    },
+    {
+     "o": "백악관 설명자료",
+     "d": "2026-10-05",
+     "u": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-promotes-diesel-affordability/"
+    },
+    {
+     "o": "일리노이대 팜폴리시뉴스",
+     "d": "2026-10-06",
+     "u": "https://farmpolicynews.illinois.edu/2026/10/trump-order-allows-tax-exempt-diesel-use-on-highways/"
+    }
+   ],
+   "dupOf": "rtr-081"
+  },
+  {
+   "key": "bbg-1003-petrobras-refining-plan",
+   "source": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-03/global-diesel-crisis-boosts-petrobras-hot-button-refining-plan",
+   "origTitle": "Global Diesel Crisis Boosts Petrobras’ Hot-Button Refining Plan",
+   "published": "2026-10-03",
+   "inds": [
+    "petchem"
+   ],
+   "nodes": [
+    "petchem/commodity",
+    "petchem/policy"
+   ],
+   "title": "세계 경유난에 힘 받는 페트로브라스 정유 증설 구상…브라질 대선이 변수",
+   "one": "세계적인 경유 부족으로 수입 의존 부담이 커지자 브라질 페트로브라스가 경유 자급을 위한 정유 증설을 2027~2031년 계획에 넣으려 하면서, 국내 수요의 약 30%를 채우는 미국산 중심의 수입 경유 물량이 줄어들 수 있다.",
+   "facts": [
+    "무엇이: 페트로브라스가 국내 경유 수요 전부를 자체 공급하는 투자를 검토 중이며, 최고경영자는 2027~2031년 사업계획에 담길 가능성이 크다고 말했습니다. [사실]",
+    "얼마나: 페트로브라스가 국내 경유의 약 70%를 공급하고 나머지는 수입이며, 10월 수입 예약은 하루 약 17만 배럴로 그중 약 68%가 미국산입니다. [사실]",
+    "변수: 10월 4일 대선에서 룰라 대통령은 정유 증설을 지지하고, 야권 플라비우 보우소나루 후보는 민간 투자와 일부 민영화 쪽에 섰습니다. [사실]",
+    "배경: 증설 후보로는 헤네스트 정유소와 보아벤투라 단지가 거론되지만, 투자액과 증설 규모는 공개되지 않았습니다. [사실]"
+   ],
+   "basis": "verified",
+   "check": "블룸버그 원문 미확인 — 브리프스 파이낸스(10월 3일, 블룸버그 기사 연결)와 리우타임스(8월 8일) 보도로 작성. 수입 물량이 줄어든다는 부분은 자급 목표에서 끌어낸 해석임.",
+   "src": [
+    {
+     "o": "블룸버그(원문 미확인)",
+     "d": "2026-10-03",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-03/global-diesel-crisis-boosts-petrobras-hot-button-refining-plan"
+    },
+    {
+     "o": "브리프스 파이낸스",
+     "d": "2026-10-03",
+     "u": "https://www.briefs.co/news/diesel-squeeze-puts-petrobras-self-sufficiency-push-in-the-s/"
+    },
+    {
+     "o": "리우타임스",
+     "d": "2026-08-08",
+     "u": "https://www.riotimesonline.com/petrobras-diesel-self-sufficiency-2027-2031/"
+    }
+   ],
+   "dupOf": ""
+  }
+ ],
+ "skipped": [
+  {
+   "title": "Diesel Price Surge Hits Farmers, Raising Food Inflation Risk",
+   "url": "https://www.bloomberg.com/news/features/2026-10-07/diesel-price-surge-hits-farmers-raising-food-inflation-risk",
+   "date": "2026-10-07",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Diesel Crunch Adds to Inflation Pressure, Sparks Food Price Concerns (newsletter)",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/farmers-and-diesel-prices",
+   "date": "2026-10-07",
+   "reason": "독립 출처 없음"
+  },
+  {
+   "title": "Russia’s Oil-Export Boom Undercut by Payouts, Diesel Sales Ban",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/russia-s-oil-export-boom-undercut-by-payouts-diesel-sales-ban",
+   "date": "2026-10-06",
+   "reason": "예산"
+  },
+  {
+   "title": "The War on High Oil Prices has Many Fronts (newsletter)",
+   "url": "https://bloomberg.com/news/newsletters/2026-10-06/the-war-on-high-oil-prices-has-many-fronts",
+   "date": "2026-10-06",
+   "reason": "예산"
+  },
+  {
+   "title": "China refiners halt October fuel exports",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/china-cancels-some-fuel-shipments-to-support-domestic-supply",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(n-bbg-0028)"
+  },
+  {
+   "title": "Transocean receives DOJ clearance for Valaris deal (TradingView·Zacks 제목, 블룸버그·로이터 제목은 찾지 못함)",
+   "url": "https://www.tradingview.com/news/tradingview:0d79df2372464:0-transocean-receives-doj-clearance-hsr-waiting-period-expired-deal-closing-expected-q4-2026/",
+   "date": "2026-10-01",
+   "reason": "이미 다룸(n-tg-0010)"
+  },
+  {
+   "title": "Dangote's planned Kenya refinery faces legal challenge by consumer-rights group",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45O0UO:0-dangote-s-planned-kenya-refinery-faces-legal-challenge-by-consumer-rights-group/",
+   "date": "",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "Diesel markets ease further, some Oct refiner sales done in discount",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45E09F:0-diesel-markets-ease-further-some-oct-refiner-sales-done-in-discount/",
+   "date": "",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "ZAWYA: East Africans struggling to buy Dangote stake",
+   "url": "https://tradingview.com/news/reuters.com,2026-10-05:newsml_ZawHGzt4:0-zawya-east-africans-struggling-to-buy-dangote-stake",
+   "date": "2026-10-05",
+   "reason": "범위 밖"
+  },
+  {
+   "title": "Trump’s Tariffs Allow Mark Carney to Fast-Track Canada Oil Pipeline",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-07/trump-s-tariffs-allow-carney-to-fast-track-canada-oil-pipeline-investment-push",
+   "date": "2026-10-07",
+   "reason": "범위 밖"
+  }
+ ],
+ "note": "해양시추·유전 서비스·OCTG(drilling) 쪽은 블룸버그·로이터(tradingview) 검색 7회에서 10월 1~8일자 제목이 한 건도 나오지 않았습니다. 시드릴·테나리스·노블·타이드워터·NOV 관련 기간 내 두 매체 제목 없음(트랜스오션–발라리스 법무부 승인은 n-tg-0010으로 이미 다룸)."
+}

@@ -15,10 +15,14 @@
 
 ## 1. 텔레그램 (이 세션에서 직접 수집 — 토큰 최소)
 
-채널 8개(2026-10-30 사용자 지시 — 앞으로 이 채널만): stockhasoo(재야의 괴수들), TNBfolio, w_compass(부의 나침반),
-The_MariTimes(카드 표기 Polaristimes), sunstudy1111(선진짱 주식공부방), Trillion_labs(트릴리온), verteinsight(Verte Research), habit4117(습관이 부자를 만든다)
-- sunstudy1111은 웹 미리보기(t.me/s)가 막혀 있고 embed도 'Please open Telegram to view this post'만 나와 글 내용을 읽을 수 없음(2026-10-30 확인). 사용자가 글을 붙여 주면 처리.
-- 예전 채널(Onionfarmer, insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions)은 받지 않음.
+채널 9개(2026-11-02 사용자 지시 — 앞으로 이 채널만): habit4117(습관이 부자를 만든다), w_compass(부의 나침반),
+sunstudy1111(선진짱 주식공부방), The_MariTimes(카드 표기 Polaristimes), Onionfarmer(양파농장), TNBfolio,
+kyobofnbcosmetic(교보 음식료/화장품 권우정), stockhasoo(재야의 괴수들), Trillion_labs(트릴리온)
+- 10월 30일 목록에서 verteinsight는 빠지고 Onionfarmer가 다시 들어오고 kyobofnbcosmetic이 새로 들어옴.
+- 뉴스가 아닌 정보형 글(리포트·코멘트 요약, 업황·통계 정리, 산업 구조 설명, 탐방·IR 메모)도 받아 요약함(규칙 36).
+- 화장품(beauty) 섹터를 거르기·묶기·작성 분야에 넣음(규칙 37). 산업 페이지 chains/beauty와 데스크 '화장품' 칩은 원래 있음.
+- sunstudy1111은 웹 미리보기(t.me/s)가 302로 막혀 있고 embed도 'Please open Telegram to view this post'만 나와 글 내용을 읽을 수 없음(2026-10-30, 2026-11-02 확인). 사용자가 글을 붙여 주면 처리.
+- 예전 채널(insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions, verteinsight)은 받지 않음.
 
 ```
 python3 tools/tgcollect.py new  <채널> <시작id>              # 새 글

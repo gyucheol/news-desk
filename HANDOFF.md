@@ -4,6 +4,16 @@
 
 ---
 
+## 0-6. 추가(11월 2일 아침) — 텔레그램 9개 채널로 다시 바꿈, 정보형 글 포함, 화장품 섹터 추가
+
+- 사용자: "뉴스 데스크에 너가 띄워주는 뉴스 및 정보 자료 텔레그램 링크 다시 갱신해서 줄께. 꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약 요청. 그리고 화장품 섹터 추가 요청" + 채널 9개(규칙 35를 바꿈).
+- 채널: habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic(교보 음식료/화장품 권우정, 새로), stockhasoo, Trillion_labs. verteinsight는 빠짐, Onionfarmer는 다시 들어옴.
+- 접속 확인(11월 2일): 8개는 t.me/s 200. sunstudy1111은 여전히 302(웹 미리보기 막힘)라 읽을 수 없음.
+- 고친 곳: RUNBOOK.md 1절, data/mix-2026-10-30b/FILTER·CLUSTER·WRITE.md(정보형 글 K·drop 금지·작성 규칙, 분야 beauty), chan.json, tools/tg_bundle.py 표기 이름. 다음 회차는 이 폴더의 md를 복사해 쓰면 됨.
+- DB: meta/progressV4.telegram의 channels(9개)·channelsNote를 바꾸고 new에 kyobofnbcosmetic 2502(10월 30일 11시 30분 KST 직전 글)를 넣음. Onionfarmer는 new 18261 그대로(그다음 글이 10월 30일 12시 22분부터라 마지막 회차 끝과 이어짐).
+- 마지막 회차(10월 30일 11시 30분) 뒤 11월 2일 아침까지 쌓인 텔레그램 글(본문 있는 것, 대략): habit4117 133, The_MariTimes 51, Trillion_labs 31, stockhasoo 26, Onionfarmer 16, TNBfolio 15, kyobofnbcosmetic 11, w_compass 7 — 약 290건. 블룸버그는 따로.
+- 데스크 페이지와 chains는 바꾸지 않음(화장품 칩·산업 페이지는 원래 있음, 칩은 화장품 뉴스가 있을 때만 보임).
+
 ## 0-5. 추가(10월 30일 낮) — 10월 30일 2차 회차, 텔레그램 8개 채널로 바꿈(data/mix-2026-10-30b)
 
 - 사용자: "그리고 텔레그램 채널들은 내가 다시 알려줄께. 앞으로도 이 채널들만 가지고 해주면 돼. 이 채널들을 가지고 오늘자 뉴스 업데이트 요청" + 채널 8개(규칙 35).
@@ -159,6 +169,8 @@
 33. (10월 30일) 제약·바이오 섹터 삭제. 뉴스는 D(pharma)·skipped("제약·바이오"), 페이지는 지움, 지금까지의 안 읽은 제약 뉴스는 읽음 처리. 의약품 관세 같은 나라 사이 무역 조치는 매크로(지정학) 기준.
 34. (10월 30일) '반도체·AI 투자' 섹터는 부정적인 내용만(사용자 답: 섹터 전체). AI는 투자 축소·연기, 자금난·몸값 하향·상장 연기, AI 부채·신용 경색, 거품 경고, AI 때문의 급락, 규제·소송·반발, 보안 사고만. 반도체는 업황·수요 둔화, 가격 하락, 재고 증가, 투자 축소·연기, 실적·전망 부진과 주가 급락, 감원, 수출 통제·규제·소송, 공급 차질만. 긍정·중립(모델 출시, 매출 증가, 제휴, 반도체 실적 호조·가격 상승·수요 회복·인수합병·신제품)은 D(ai-positive·semi-positive)·skipped("AI 긍정"·"반도체 긍정"). 실적이 좋아도 전망 부진·주가 급락이 핵심이면 남김. AI 때문에 생긴 다른 산업 수요(전력 장비 등)는 그 산업 뉴스로 봄.
 35. (10월 30일) 텔레그램은 사용자가 준 8개 채널만 받음("앞으로도 이 채널들만 가지고 해주면 돼"): stockhasoo(재야의 괴수들), TNBfolio, w_compass(부의 나침반), The_MariTimes(Polaristimes), sunstudy1111(선진짱 주식공부방), Trillion_labs(트릴리온), verteinsight(Verte Research), habit4117(습관이 부자를 만든다). sunstudy1111은 웹 미리보기가 막혀 글 내용을 읽을 수 없음(사용자가 붙여 주면 처리). 예전 채널 7개(Onionfarmer, insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions)는 받지 않음. 블룸버그(사이트맵 목록)는 전처럼 함께 받음(로이터는 401이 풀리면). 채널 표기 이름은 회차 폴더의 chan.json.
+36. (11월 2일) 텔레그램은 정보형 글도 받아 요약합니다("꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약"). 리포트·코멘트 요약, 업황·통계 정리, 산업 구조·밸류체인 설명, 탐방·IR·컨퍼런스콜 메모, 수치를 곁들인 차트 설명은 거르기 K, 묶기에서 drop하지 않고, 작성에서 '범위 밖'으로 빼지 않음. 의견은 누구의 판단인지 밝힘. 정보 없이 의견·잡담·광고·공지·링크만인 글은 전처럼 뺌. 섹터 규칙 31~34는 정보형 글에도 그대로.
+37. (11월 2일) 화장품 섹터 추가: 거르기 분야 beauty(소비재와 따로), 작성 inds ["beauty"]·nodes beauty/*. 산업 페이지 chains/beauty와 데스크 칩은 원래 있음. 텔레그램 채널은 9개로 바꿈(규칙 35 대체): habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic, stockhasoo, Trillion_labs.
 
 ---
 

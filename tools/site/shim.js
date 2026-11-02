@@ -8,6 +8,17 @@
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   });
+  // 데스크 읽음 기록 사본(data/reads.json)을 이 브라우저의 읽음 기록(deskReads:anon)에 합칩니다. 사본이 바뀔 때(asof)마다 한 번.
+  const seed = fetch('data/reads.json?v=' + encodeURIComponent(V), { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(s => {
+    if (!s || !s.ids) return;
+    try {
+      if (localStorage.getItem('siteReadsAsof') === s.asof) return;
+      const cur = JSON.parse(localStorage.getItem('deskReads:anon') || '{}') || {};
+      Object.keys(s.ids).forEach(k => { if (!(cur[k] >= s.ids[k])) cur[k] = s.ids[k]; });
+      localStorage.setItem('deskReads:anon', JSON.stringify(cur));
+      localStorage.setItem('siteReadsAsof', s.asof);
+    } catch (e) {}
+  }).catch(() => {});
   const snapOf = arr => ({ docs: arr.map(d => ({ id: d.id, data: () => d })) });
   const query = name => {
     const q = {
@@ -27,6 +38,6 @@
   });
   const db = { collection: query, doc };
   window.PREVIEW_CLAUDE = {
-    use: async name => (name === 'db' ? db : name === 'user' ? { id: async () => null } : null)
+    use: async name => { await seed; return name === 'db' ? db : name === 'user' ? { id: async () => null } : null; }
   };
 })();

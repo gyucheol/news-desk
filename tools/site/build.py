@@ -1,10 +1,12 @@
 """데스크를 Claude 밖에서 볼 수 있는 정적 웹사이트로 만든다(GitHub Pages용).
 
-사용: python3 -I tools/site/build.py <DB 사본 폴더> <출력 폴더>
+사용: python3 -I tools/site/build.py <DB 사본 폴더> <출력 폴더> [읽음 기록 reads.json]
   예) python3 -I tools/site/build.py work/live49 work/site
 - DB 사본: ArtifactData list로 받은 폴더(news/, chains/, meta/cycle.json).
 - 화면은 desk/index.html(데스크 게시본 원본)을 그대로 쓰고, tools/site/shim.js로 데이터 읽기를 data/*.json으로 바꾼다.
 - 데스크와 같게 뉴스는 processed 최신순 1,000건만 넣는다.
+- 읽음 기록(data/users/me/reads)을 주면 그 시점에 읽은 뉴스 id만 data/reads.json에 넣는다(읽은 시각은 넣지 않고 그 뉴스의 updatedAt만).
+  사이트는 처음 열 때 이 목록을 그 브라우저의 읽음 기록에 합치고, '안 읽은 것만'이 켜진 채로 시작한다(2026-11-02 사용자 요청).
 - 요청 버튼(뉴스 내용 및 인사이트 요청)은 Claude 안에서만 동작하므로 숨긴다. 읽음 표시는 보는 브라우저에만 남는다.
 """
 import json, glob, os, sys, shutil, re
@@ -12,6 +14,7 @@ from datetime import datetime, timezone, timedelta
 
 R = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
 DB, OUT = sys.argv[1], sys.argv[2]
+READS = sys.argv[3] if len(sys.argv) > 3 else None
 KST = timezone(timedelta(hours=9))
 stamp = datetime.now(KST).strftime('%Y-%m-%d %H:%M')
 
@@ -34,6 +37,14 @@ assert news and chains, 'DB 사본에 news·chains가 없습니다'
 
 os.makedirs(f'{OUT}/data', exist_ok=True); os.makedirs(f'{OUT}/fonts', exist_ok=True)
 dump = lambda o, f: json.dump(o, open(f'{OUT}/data/{f}', 'w'), ensure_ascii=False, separators=(',', ':'))
+def upd(d):
+    u = d.get('updatedAt')
+    return int(datetime.fromisoformat(u.replace('Z', '+00:00')).timestamp() * 1000) if u else 0
+readmap = {}
+if READS:
+    ids = json.load(open(READS)).get('ids', {})
+    readmap = {d['id']: max(upd(d), 1) for d in news if ids.get(d['id']) and ids[d['id']] >= upd(d)}
+dump({'asof': stamp, 'ids': readmap}, 'reads.json')
 dump(news, 'news.json'); dump(chains, 'chains.json'); dump(cyc, 'cycle.json')
 shutil.copy(f'{R}/tools/site/shim.js', f'{OUT}/shim.js')
 shutil.copy(f'{R}/design/fonts/PretendardVariable.woff2', f'{OUT}/fonts/PretendardVariable.woff2')
@@ -52,11 +63,14 @@ head = ('<!doctype html>\n<html lang="ko">\n<head>\n<meta charset="utf-8">\n'
         '<script src="shim.js"></script>\n</head>\n<body>\n')
 main = '<script>\n(() => {\n  const $ = id => document.getElementById(id);'
 assert page.count(main) == 1, '데스크 원본의 본 스크립트 시작을 찾지 못했습니다'
+ub = "tab: 'news', src: 'all', nind: 'all', unreadOnly: false,"
+assert page.count(ub) == 1
+page = page.replace(ub, "tab: 'news', src: 'all', nind: 'all', unreadOnly: true,")
 note = (f'<p class="sitenote">웹 보기판 · 마지막 갱신 {stamp} (KST) · 읽음 표시는 이 기기에만 저장되고, '
         '요청 버튼은 Claude 데스크에서만 쓸 수 있습니다.</p>\n')
 anchor = '<p class="status" id="status">'
 assert page.count(anchor) == 1
 page = page.replace(anchor, note + anchor)
 open(f'{OUT}/index.html', 'w', encoding='utf-8').write(head + page + '\n</body>\n</html>\n')
-print('news', len(news), 'chains', len(chains), 'cycle', bool(cyc), 'stamp', stamp,
+print('read', len(readmap), 'unread', len(news) - len(readmap), 'news', len(news), 'chains', len(chains), 'cycle', bool(cyc), 'stamp', stamp,
       'size', {f: os.path.getsize(f'{OUT}/data/{f}') for f in os.listdir(f'{OUT}/data')})

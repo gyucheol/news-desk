@@ -1,0 +1,300 @@
+{
+ "id": "gas",
+ "summary": "천연가스 사슬은 가스를 뽑는 상류와 가스관, 액화·수송·재기화, 거래, 수요로 이어지며, 미국 가스는 증산에도 액화·수출 능력에 막혀 헨리허브가 낮게 묶이고 해외 가격(TTF·JKM)과 큰 격차가 납니다. 가장 빠듯한 곳은 유럽 저장과 수송로로, 독일 저장률은 61.7%로 11월 1일 법정 목표에 못 미쳤고 TTF는 10월 28일 MWh당 100유로로 2022년 12월 이후 최고였다는 전언입니다. 호르무즈에서는 이란 승인을 받은 파키스탄행 LNG선까지 공격받았습니다. 반대로 미국 원산지는 더 남는 쪽으로 가, 포근한 겨울 예보에 미국 가스 선물이 한 주 새 15% 넘게 내렸고 헤지펀드 숏 포지션은 사상 최대입니다. 그 사이 카타르의 미국산 장기 구매, 엑손의 로부마 LNG 지분 확대(연 1,860만 톤), 넥스트디케이드 1호기 연말 첫 가스처럼 액화 증설은 계속 이어집니다.",
+ "state": {
+  "upstream": [
+   {
+    "d": "2026-10-31",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record",
+    "nid": "n-bbg-0855",
+    "t": "헤지펀드의 헨리허브 숏 포지션이 62만 5,150계약으로 2013년 집계 이래 최대였고, 포근한 겨울 예보에 미국 천연가스 선물은 한 주 새 15% 넘게 내렸습니다 [사실]"
+   },
+   {
+    "d": "2026-10-30",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/us-natural-gas-drillers-scale-up-as-demand-grows",
+    "nid": "n-bbg-0855",
+    "t": "미국 가스 시추업체들이 수요 증가에 맞춰 생산을 늘리고 있다는 분석이 나와, 수출 능력에 막힌 원산지 공급이 더 쌓일 수 있습니다 [제목]"
+   }
+  ],
+  "liquefaction": [
+   {
+    "d": "2026-10-30",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap",
+    "nid": "n-bbg-0860",
+    "t": "엑손모빌은 에니와의 자산 스왑으로 약 300억 달러, 연 1,860만 톤 규모 모잠비크 로부마 LNG 지분을 50%로 늘렸고, 2026년 말 FID와 2031년 첫 생산을 목표로 합니다 [사실]"
+   },
+   {
+    "d": "2026-10-30",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/11447",
+    "nid": "n-tg-0810",
+    "t": "넥스트디케이드 리오그란데 1·2호기 공정률은 합쳐 79.7%, 3호기 55.2%이며 올해 말 1호기 첫 가스와 2027년 2분기 첫 생산이 예상된다는 전언입니다 [채널]"
+   }
+  ],
+  "shipping": [
+   {
+    "d": "2026-11-01",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-01/pakistan-lng-cargo-attacked-near-hormuz-had-iranian-approval",
+    "nid": "n-tg-0688",
+    "t": "이란의 승인을 받고 호르무즈 인근을 지나던 파키스탄행 LNG 화물선이 공격받아, 통항 승인을 받은 LNG선도 안전하지 않다는 신호가 나왔습니다 [제목]"
+   }
+  ],
+  "regas": [
+   {
+    "d": "2026-11-01",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-01/germany-misses-gas-storage-target-as-cold-snap-sets-in",
+    "nid": "n-tg-0761",
+    "t": "독일 가스 저장률은 61.7%로 11월 1일 법정 목표에 못 미쳤고 이탈리아는 거의 91%였으며, 3억 유로를 쓴 이탈리아는 가격 급등을 독일 탓으로 돌렸습니다 [사실]"
+   }
+  ],
+  "trade": [
+   {
+    "d": "2026-10-30",
+    "o": "텔레그램 트릴리온",
+    "u": "https://t.me/Trillion_labs/11467",
+    "nid": "n-tg-0761",
+    "t": "유럽 TTF 가스값이 10월 28일 MWh당 100유로로 2022년 12월 이후 처음 100유로를 넘었고, 30일에도 트럼프의 이란 옵션 검토 속에 100유로 위로 올랐다는 전언입니다 [채널]"
+   },
+   {
+    "d": "2026-11-02",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-02/us-pushes-for-russia-to-resume-gas-sales-to-europe-wsj-reports",
+    "nid": "n-tg-0761",
+    "t": "WSJ 보도로 미국이 우크라이나 경유 러시아 가스의 유럽 판매 재개를 압박하고 있다고 전해져, 외교가 유럽 공급을 바꿀 변수로 다시 떠올랐습니다 [제목]"
+   }
+  ],
+  "demand": [
+   {
+    "d": "2026-11-02",
+    "o": "블룸버그",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-02/tokyo-chubu-power-price-hit-multi-year-high-as-fuel-costs-climb",
+    "nid": "n-bbg-0413",
+    "t": "연료비 상승에 도쿄·주부 지역 전력값이 수년 만의 최고를 기록해, LNG·석탄값 상승이 일본 발전 비용으로 옮겨 가고 있습니다 [제목]"
+   }
+  ]
+ },
+ "industryState": [
+  {
+   "d": "2026-10-31",
+   "kind": "price",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record",
+   "nid": "n-bbg-0855",
+   "t": "헤지펀드의 헨리허브 숏 포지션은 62만 5,150계약으로 1주 전 기록(59만 9,731계약)을 넘었고 순매도는 22만 3,591계약으로 2020년 2월 이후 최대였습니다 [사실]"
+  },
+  {
+   "d": "2026-10-30",
+   "kind": "price",
+   "o": "텔레그램 트릴리온",
+   "u": "https://t.me/Trillion_labs/11467",
+   "nid": "n-tg-0761",
+   "t": "유럽 TTF는 10월 28일 MWh당 100유로로 2022년 12월 이후 최고였고, 이탈리아 노체 국장은 1월이 추우면 150~180유로까지 오를 수 있다고 봤다는 전언입니다 [채널]"
+  },
+  {
+   "d": "2026-11-01",
+   "kind": "supply",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-01/germany-misses-gas-storage-target-as-cold-snap-sets-in",
+   "nid": "n-tg-0761",
+   "t": "독일 가스 저장률은 61.7%로 11월 1일 법정 목표에 못 미쳤고, EU 전체는 10월 24일 74.6%로 1년 전 82.9%보다 낮았습니다 [사실]"
+  },
+  {
+   "d": "2026-10-30",
+   "kind": "capex",
+   "o": "블룸버그",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap",
+   "nid": "n-bbg-0860",
+   "t": "엑손은 약 300억 달러, 연 1,860만 톤 규모 로부마 LNG 지분을 50%로 늘리고 파푸아 LNG 지분도 34%로 높이기로 했습니다 [사실]"
+  }
+ ],
+ "flags": [
+  {
+   "nid": "n-bbg-0855",
+   "t": "재검토 필요: 헨리허브 숏 포지션 사상 최대와 미국 시추업체 증산은 원산지 쪽이 ③ 공급 과잉 국면에 더 깊이 들어가고 있음을 가리키며, 액화 증설보다 생산이 먼저 늘면 미국 가격이 더 눌리기 때문입니다 [유추]"
+  }
+ ],
+ "insight": {
+  "a1": [
+   {
+    "t": "2026~2027년은 카타르 공백 때문에 빠듯하지만, 2028년 이후 노스필드 이스트·사우스, 미국 신규 터미널, LNG캐나다 2단계가 겹치며 가격이 내려갈 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "d": "2026-09-21",
+      "o": "텔레그램 트릴리온",
+      "u": "https://t.me/Trillion_labs/9217"
+     },
+     {
+      "d": "2026-09-28",
+      "o": "블룸버그",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-28/qatar-extends-lng-force-majeure-as-hormuz-disruptions-drag-on"
+     }
+    ]
+   },
+   {
+    "t": "노스필드 이스트 첫 트레인(연 800만 톤)이 11월 가동 준비를 마쳤다는 전언이 나와, 공식 안내(2027년 상반기)보다 카타르 물량 복귀가 몇 달 앞당겨질 수 있습니다. 다만 가동을 늘리려면 호르무즈 통항이 자유로워야 한다는 분석도 있습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-07",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/first-lng-train-qatarenergys-nfe-project-is-ready-to-start-two-sources-say-2026-10-07/"
+     },
+     {
+      "d": "2026-10",
+      "o": "Oil & Gas Middle East",
+      "u": "https://www.oilandgasmiddleeast.com/news/north-field-east-first-train"
+     }
+    ]
+   },
+   {
+    "t": "2030년대 공급 후보가 더 늘었습니다. 알래스카 LNG와 탄자니아 420억 달러 협정, YPF 연 1,200만 톤 사업에 더해 엑손이 연 1,860만 톤 로부마 LNG 지분을 50%로 늘려 2026년 말 FID를 노립니다. 과잉이 오면 그 폭이 커질 가능성이 큽니다 [유추]",
+    "src": [
+     {
+      "d": "2026-10-15",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/trump-says-taiwan-agrees-buy-30-gas-alaska-pipeline-2026-10-14/"
+     },
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-30",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap"
+     }
+    ]
+   }
+  ],
+  "c": [
+   {
+    "t": "이코노미스트는 메이저들이 횡재 이익 대부분을 주주에게 돌리고 순부채를 약 20% 줄였으며 주가현금흐름배수는 전쟁 전과 같다고 전했습니다. 업계 전반이 과열됐다는 증거는 약합니다 [사실]",
+    "src": [
+     {
+      "d": "2026-09-14",
+      "o": "The Economist(The Nightly 재게재)",
+      "u": "https://thenightly.com.au/business/the-economist-how-an-oil-supply-crisis-could-bring-about-an-investment-boom-c-22865339"
+     }
+    ]
+   },
+   {
+    "t": "증설 계획이 줄거나 밀리는 사례도 나옵니다. 가이아나는 엑손 컨소시엄의 하루 약 20억 입방피트 재주입 수요 때문에 연 600만 톤 LNG를 최대 300만 톤으로 줄이는 방안을 검토하고, 탄자니아 협정은 2026년 6월 서명 목표를 넘겼습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-14",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"
+     },
+     {
+      "d": "2026-10-13",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/tanzania-close-finalising-42-billion-lng-deal-finance-minister-says-2026-10-13/"
+     }
+    ]
+   },
+   {
+    "t": "당장의 부족은 더 깊어졌습니다. 독일 저장률은 61.7%로 11월 1일 법정 목표에 못 미쳤고, TTF는 10월 28일 MWh당 100유로로 2022년 12월 이후 최고였으며, 우드맥켄지는 3월 말 유럽 저장률이 17~20%까지 낮아질 수 있다고 봤다는 전언입니다 [채널]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-11-01",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-01/germany-misses-gas-storage-target-as-cold-snap-sets-in"
+     },
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-30",
+      "u": "https://t.me/Trillion_labs/11467"
+     }
+    ]
+   }
+  ]
+ },
+ "cycle": {
+  "stage": 2,
+  "conf": "중간",
+  "why": [
+   {
+    "t": "국면은 ② 그대로이고 근거를 새 뉴스로 바꿨습니다. 장기계약이 증설을 받칩니다. 카타르에너지가 셰니에르와 2031~2054년 연 400만 톤 계약을 맺었고 그중 연 100만 톤은 사빈패스 1단계 확장 FID에 달렸으며, 벤처글로벌과도 협상 중입니다 [사실]",
+    "src": [
+     {
+      "d": "2026-10-22",
+      "o": "로이터",
+      "u": "https://www.reuters.com/business/energy/qatarenergy-talks-with-venture-global-buy-lng-long-term-supply-deal-sources-say-2026-10-22/"
+     }
+    ]
+   },
+   {
+    "t": "증설 자본이 계속 들어옵니다. LNG캐나다 2단계(연 1,400만 톤)가 확정됐고, 엑손은 연 1,860만 톤 로부마 LNG 지분을 50%로 늘려 2026년 말 FID를 노리며, 넥스트디케이드 1호기는 올해 말 첫 가스를 앞뒀습니다 [사실]",
+    "src": [
+     {
+      "d": "2026-09-29",
+      "o": "LNG Prime·로이터",
+      "u": "https://lngprime.com/americas/shell-partners-take-fid-on-lng-canada-phase-2/197607/"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-10-30",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap"
+     }
+    ]
+   },
+   {
+    "t": "지금 가격이 높은 것은 카타르 트레인 손상과 호르무즈 차질 때문입니다. TTF는 10월 28일 MWh당 100유로로 2022년 12월 이후 최고였고 독일 저장률은 61.7%로 법정 목표에 못 미쳐, 구조적 부족보다 사건이 만든 부족에 가깝습니다 [유추]",
+    "src": [
+     {
+      "o": "텔레그램 트릴리온",
+      "d": "2026-10-30",
+      "u": "https://t.me/Trillion_labs/11467"
+     },
+     {
+      "o": "블룸버그",
+      "d": "2026-11-01",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-01/germany-misses-gas-storage-target-as-cold-snap-sets-in"
+     }
+    ]
+   },
+   {
+    "t": "출구(액화)가 막힌 미국 원산지는 이미 남는 쪽입니다. 포근한 겨울 예보에 미국 가스 선물은 한 주 새 15% 넘게 내렸고 헤지펀드 숏 포지션은 사상 최대였으며, EIA는 헨리허브가 2027년 3.28달러로 내려갈 것으로 봅니다 [사실]",
+    "src": [
+     {
+      "o": "블룸버그",
+      "d": "2026-10-31",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record"
+     },
+     {
+      "d": "2026-09-09",
+      "o": "EIA 단기에너지전망(STEO)",
+      "u": "https://www.eia.gov/outlooks/steo/"
+     }
+    ]
+   }
+  ],
+  "next": "2027~2030년 미국·카타르·캐나다의 신규 액화가 한꺼번에 가동되면 ③ 공급 과잉으로 넘어갑니다. 카타르 복구나 호르무즈 통항 정상화가 빨라지면 그 시점이 앞당겨집니다 [유추]",
+  "watch": [
+   "JKM·TTF와 헨리허브의 차이",
+   "신규 액화 FID와 장기 구매계약(카타르·아시아 구매자)",
+   "EU·독일 가스 저장률",
+   "LNG선 현물 운임·계선 척수"
+  ],
+  "split": []
+ },
+ "nodeStage": {},
+ "gaps": "이번 업데이트는 검색·열람 없이 입력 뉴스만으로 반영했고, 블룸버그·로이터 기사와 전재본은 열지 않았습니다. 아래는 확인하지 못했습니다. (1) TTF 90.16유로는 장중 고점이고 종가는 확인하지 못했으며, 아시아 LNG 30.4달러와 10월 16일 집계 사이트(LNGInsights) JKM 약 29.9달러는 기준이 다릅니다. (2) EU 저장률은 약 74.6%(이번 보도), 약 75%, 74.02%(10월 13일 GIE AGSI 인용)로 날짜·출처마다 다르고 원자료를 직접 열지 못했습니다. (3) 노스필드 이스트 첫 트레인의 11월 가동은 소식통 전언이고, 카타르에너지 공식 안내는 2027년 상반기 생산입니다. (4) 스카버러 시운전 중단 기간과 첫 화물 일정 변경 여부, 에니 멜레이하 2단계 초기 생산량은 회사가 밝히지 않았습니다. (5) 러시아 가스의 우크라이나 경유 재개 제안은 뉴욕타임스 보도를 채널로 전해 들은 것이고, 노르트스트림 재가동은 백악관이 부인했습니다. (6) 독일 갈탄 수익성 72달러와 이탈리아 59유로 기준은 채널 전언(에너지 애스펙츠·FT 인용)입니다. (7) 호주 비축 의무 시작일(2028년 1월 1일과 2028년 7월)은 최종안 확인이 필요합니다. 기존 확인 못 한 항목(EQT·익스팬드·에너지 트랜스퍼·타가 실적, 9월 LNG선 운임 원문, 카타르 손상 규모 원문)은 그대로 남아 있습니다. 10월 24일 저녁 업데이트도 검색·열람 없이 입력 뉴스 7건으로만 반영했습니다. 카타르에너지–벤처글로벌 장기계약 협상은 소식통 전언(제목)이고, 캐나다 2030년 수출능력 3,300만 톤은 채널 전언이며, 데본에너지 인수 후보와 캐나다 M&A 사상 최고 발언은 제목·채널 기준이라 근거로 쓰지 않았습니다. 10월 28일 저녁 업데이트도 검색·열람 없이 입력 뉴스 6건으로만 반영했습니다. TTF·아시아 LNG·헨리허브의 MMBtu 환산값과 독일 저장률 61%는 채널 전언이고, EU 저장률 비교 기준은 이번 보도에서 2011년 기록 이후로 적혀 이전 보도(2009년 이후)와 다릅니다. EPA 메탄 규제 완화의 최종안 내용, 인도네시아 감축이 18일 뒤 끝나는지, CPPIB 네드히아 매각 여부는 확인하지 못했습니다. 러시아 경유 대미 수출 뉴스는 가스 사슬과 직접 닿지 않아 근거로 쓰지 않았습니다. 10월 29일 저녁 업데이트는 검색·열람 없이 입력 뉴스 1건으로만 반영했습니다. 상원 인허가 개혁안의 중간선거 뒤 표결 일정과 소송 기한 150일 조항의 최종 포함 여부, 컨스티튜션 가스관의 뉴욕주 수질 인증 결과는 확인하지 못했습니다. 10월 30일 저녁 업데이트도 검색·열람 없이 입력 뉴스 5건으로만 반영했습니다. 루이지애나 LNG 첫 인도는 2029년(첫 생산 목표·텔레그램)과 2030년(카타르 국영통신)으로 엇갈리고, 셰브론 미개발 지역 탐사 비중 50%는 WSJ를 채널로 전해 들은 것이며, 미국산 LNG 아시아행 차익 소멸은 채널 전언입니다. 방글라데시 추가 구매 협상과 헝가리 양해각서의 물량·투자액은 확인하지 못했습니다. 11월 2일 저녁 업데이트도 검색·열람 없이 입력 뉴스 7건으로만 반영했습니다. TTF 100유로 돌파, 노체 국장의 150~180유로 전망, 우드맥켄지의 3월 말 저장률 17~20%, 프랑스 전력 200유로 돌파는 채널 전언입니다. 미국의 러시아 가스 유럽 판매 재개 압박은 WSJ 보도를 다룬 기사 제목 수준이고, 파키스탄행 LNG선 피격의 피해와 도쿄·주부 전력값 수치, 미국 시추업체 증산 규모는 확인하지 못했습니다. 넥스트디케이드 공정률은 채널 전언입니다.",
+ "note": "뉴스 7건 반영: TTF 100유로 돌파·독일 저장 61.7% 법정 목표 미달, 헨리허브 숏 포지션 사상 최대·미 가스 선물 주간 15% 하락, 엑손 로부마 LNG 지분 50%. 국면 ② 그대로(근거 교체), 근거 10줄, 수치 4줄, 인사이트 a1·c 고침, 재검토 신호 1건, 검색 0회",
+ "applied": [
+  "n-bbg-0413",
+  "n-bbg-0706",
+  "n-bbg-0855",
+  "n-bbg-0860",
+  "n-tg-0688",
+  "n-tg-0761",
+  "n-tg-0810"
+ ],
+ "searches": 0,
+ "fetches": 0
+}

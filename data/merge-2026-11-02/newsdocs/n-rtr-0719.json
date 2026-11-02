@@ -1,0 +1,252 @@
+{
+ "basis": "title",
+ "check": "레저버 소송(n-rtr-0719)·METR·호주(n-rtr-0715)·미국 데이터센터 반대(n-tg-0646)·중간선거 역풍(n-bbg-0821)·구글 핀란드와 앤트로픽 경호비(n-tg-0853)를 합쳤다. 소송·METR·샌프란시스코·핀란드 수사는 검색 요약으로 확인했고 앤트로픽 경호비·주민투표는 채널, 기부·플로리다·선거 시장 압박은 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 레저버는 10월 21일 북부 캘리포니아 연방법원에 앤트로픽이 가사 853곡을 클로드 학습·출력에 무단 사용했다며 법정손해배상 1억 2,795만 달러와 DMCA 위반을 더해 약 1억 5,140만 달러, 침해금지명령을 청구했고 앤트로픽은 적극 방어하겠다고 했다 [사실]",
+  "AI 안전: METR와 레드우드 리서치는 7월 21일~8월 11일 시험에서 오픈AI 내부 감시 시스템의 취약점을 찾았고, 오픈AI는 고쳤다고 했지만 평가기관은 검증하지 않았다 [사실]",
+  "규제·업계: 플로리다 법무장관은 SNS의 AI 기능 제한 법안을 제안했고, 앤트로픽·오픈AI·머스크는 기부를 약속했으며, 로이터는 앤트로픽의 일부 이용자 거절 배경을 짚었고 빅테크는 중간선거 뒤 AI 규제 싸움에 대비한다 [제목]",
+  "데이터센터 반대: 뉴욕주·시카고가 건설 중단 행정명령에 서명하고 15개 주의회가 금지를 검토하며, 샌프란시스코는 10월 6일 45일 모라토리엄(최장 22개월 연장 가능)을 만장일치로 승인했고, 10개 주 38개 지자체 41개 안건 중 21개가 오하이오에 몰려 선버리 25MW 이상 금지안이 통과되면 아마존 20억 달러 사업이 차질을 빚을 수 있으며, 호주 데이터센터 40여 곳 중 23%만 전력 연결을 확인했다 [채널]",
+  "해외·경호: 구글은 핀란드 무호스 약 330ha·카야니 약 200ha를 개간해 약 40만 그루가 베어졌고 당국이 작업을 중단시켰으며 오울루 경찰은 10월 29일 수자원법 위반 혐의 예비 수사에 착수했고, 앤트로픽은 경영진 경호비로 580억 원을 써 미국 대기업 중 7위였다 [채널]",
+  "정치자금·여론: AI 슈퍼팩들은 직접 지출의 5%만 본선 경합 지역에 썼고 리딩더퓨처는 뉴욕 예비선거에서 830만 달러를 썼으며, 데이터포프로그레스 조사에서 유권자 약 4분의 3이 AI 슈퍼팩 지원 후보를 덜 지지한다고 답했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 반발 확산…레저버 1.5억 달러 소송·미 41개 데이터센터 제한 투표·구글 핀란드 공사 중단",
+ "id": "n-rtr-0719",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "realestate",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-08",
+   "o": "텔레그램 Polaristimes",
+   "t": "뉴욕주·시카고 데이터센터 모라토리엄…15개 주의회 건설 금지 검토",
+   "u": "https://t.me/The_MariTimes/63598"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "로이터가 앤트로픽이 일부 이용자의 가입·이용을 거절하는 배경을 짚으면서 앤트로픽의 이용자 선별 방침이 주목받았다 (제목 기준)",
+   "t": "앤트로픽은 왜 일부 이용자를 돌려보내고 있나",
+   "u": "https://www.reuters.com/technology/artificial-intelligence/why-anthropic-is-turning-away-some-users-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "레저버가 앤트로픽이 가사를 허가 없이 클로드 학습에 쓰고 출력에서도 재현했다며 법정 손해배상과 영구 금지명령을 청구하면서 AI 저작권 소송이 늘었다",
+   "t": "레저버, 가사 무단 학습 혐의로 앤트로픽 제소",
+   "u": "https://t.me/insidertracking/67069"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "METR가 오픈AI 내부 감시 시스템에서 에이전트 행동 수백 건을 감시망 밖으로 빼낼 수 있는 결함을 찾으면서, AI 에이전트 통제의 허점이 드러났다",
+   "t": "AI 안전단체 METR, 오픈AI 내부 감시 시스템 결함 발견",
+   "u": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "앤트로픽·오픈AI·머스크가 커지는 AI 반발 속에 기부를 약속하면서, AI 기업들이 여론 달래기에 나섰다 (제목 기준)",
+   "t": "앤트로픽·오픈AI·머스크, AI 반발 속 기부 약속",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-22/anthropic-openai-musk-pledge-donations-amid-ai-backlash"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "호주 대형 데이터센터 40여 곳 중 23%만 전력 연결을 확인한 가운데 주민 반발이 커지면서, 약 700억 달러 규모 AI 데이터센터 구상이 흔들렸다",
+   "t": "AI 데이터센터 반발, 호주 700억 달러 구상 위협",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/ai-data-center-backlash-threatens-australia-s-70-billion-dream"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "플로리다 법무장관이 SNS의 AI 기능을 제한하는 법안을 제안하면서, 미국 주 차원의 AI 규제 움직임이 하나 더 늘었다 (제목 기준)",
+   "t": "플로리다 법무장관, SNS AI 기능 제한 법안 제안",
+   "u": "https://www.reuters.com/legal/government/florida-attorney-general-proposes-bill-that-limits-social-media-ai-features-2026-10-22/"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "텍사스의 데이터센터 건설 붐이 중간선거를 앞두고 주민 반발에 부딪히면서 데이터센터 입지 규제가 정치 쟁점으로 번지고 있다 (제목 기준)",
+   "t": "텍사스 데이터센터 붐, 중간선거 앞두고 주민 반발과 충돌",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/texas-data-center-boom-collides-with-backlash-ahead-of-midterms"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "AI 업계가 트럼프와 손잡은 뒤 중간선거에서 정치적 입지를 잃을 수 있다는 분석이 나오면서 규제 환경 변화 위험이 커졌다 (제목 기준)",
+   "t": "트럼프와 손잡은 AI 업계, 중간선거에서 잃을 처지",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "빅테크가 중간선거 뒤 의회 구도 변화에 맞춰 AI 규제 싸움을 준비하면서 연방·주 단위 규제 공방이 다시 커질 수 있다 (제목 기준)",
+   "t": "빅테크, 미 중간선거 뒤 AI 규제 싸움 대비",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/big-tech-prepares-for-ai-regulation-fight-after-us-midterms"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "AI 업계가 트럼프에 크게 건 정치적 베팅이 중간선거 뒤 역효과를 낼 수 있다는 지적이 나오면서 업계의 정치 전략이 시험대에 올랐다 (제목 기준)",
+   "t": "트럼프에 건 AI 업계의 큰 베팅, 중간선거 뒤 역효과 위험",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/ai-s-big-bet-on-trump-risks-backfiring-after-the-midterms"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "텔레그램 상상인 김진범",
+   "s": "로이터 조사로 미국 10개 주 38개 지자체에서 데이터센터 제한 안건 41개가 투표에 부쳐지면서 아마존 오하이오 20억 달러 사업도 차질 위험에 놓였다",
+   "t": "미 10개 주 데이터센터 제한 주민투표…38개 지자체 41개 안건",
+   "u": "https://t.me/PipeBeom/6927"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "텔레그램 Polaristimes",
+   "s": "채널이 샌프란시스코 시의회의 10월 6일 45일 데이터센터 모라토리엄 승인을 다시 전하면서 민주당의 AI 데이터센터 규제 기조가 굳어졌다고 봤다",
+   "t": "샌프란시스코 시의회, AI 데이터센터 45일 모라토리엄 만장일치 승인",
+   "u": "https://t.me/The_MariTimes/64105"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "s": "미국 중간선거를 며칠 앞두고 AI 정책 위험이 주식·채권 트레이더를 압박하면서 선거 결과가 AI 관련 자산 가격 변수로 떠올랐다 (제목 기준)",
+   "t": "중간선거 앞두고 AI 정책 위험, 주식·채권 트레이더 압박",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "s": "앤트로픽이 AI 일자리 대체 반발과 신변 위협에 경영진 경호비로 580억 원을 쓰면서 미국 대기업 중 7위에 올랐다",
+   "t": "AI 반발에 신변 위협…앤트로픽, 경영진 경호에 580억 원",
+   "u": "https://t.me/habit4117/86951"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "s": "구글이 핀란드 데이터센터 부지에서 약 40만 그루를 베어 공사 중단 명령과 경찰 수사를 받으면서 데이터센터 반발이 커졌다",
+   "t": "구글 데이터센터 40만 그루 무단 벌채…핀란드 공사 중단·경찰 수사",
+   "u": "https://t.me/habit4117/86999"
+  }
+ ],
+ "key": "mix-G2-040-2026-10-23",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 719,
+ "one": "앤트로픽 저작권 소송부터 데이터센터 모라토리엄·중간선거 역풍까지 AI 반발이 미국 안팎으로 번지고 있다\n· 레저버는 10월 21일 가사 853곡 무단 학습을 이유로 앤트로픽에 약 1억 5,140만 달러를 청구했다\n· METR·레드우드는 오픈AI 내부 감시에서 에이전트 행동 수백 건을 빼낼 수 있는 취약점을 찾았다\n· 약 700억 달러 규모 호주 대형 데이터센터 40여 곳 중 전력 연결을 확인한 곳은 23%뿐이다\n· 샌프란시스코가 45일 모라토리엄을 승인했고 미국 10개 주 38개 지자체에서 41개 제한 안건이 투표에 부쳐진다\n· 구글 핀란드 데이터센터 부지 두 곳에서 약 40만 그루가 베어져 작업 중단 명령과 경찰 수사가 이어졌다\n· AI 슈퍼팩은 본선 경합 지역 지출을 줄였고 AI 정책 위험이 선거를 앞둔 주식·채권 트레이더를 압박했다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T22:12:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/"
+  },
+  {
+   "d": "2026-10-22",
+   "o": "Digital Music News",
+   "u": "https://www.digitalmusicnews.com/2026/10/22/reservoir-media-suno-anthropic-lawsuit/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Business Standard",
+   "u": "https://www.business-standard.com/amp/world-news/ai-data-centre-backlash-threatens-australia-s-70-billion-investment-boom-126102300178_1.html"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "The San Francisco Standard",
+   "u": "https://sfstandard.com/2026/10/06/data-center-moratorium-san-francisco/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "SFist",
+   "u": "https://sfist.com/2026/10/07/san-francisco-oakland-pass-45-day-moratoriums-on-new-data-centers/"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "The Intercept",
+   "u": "https://theintercept.com/2026/10/29/midterms-election-money-ai-super-pac/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Transformer",
+   "u": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "u": "https://t.me/habit4117/86951"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "DatacenterDynamics",
+   "u": "https://www.datacenterdynamics.com/en/news/finnish-police-open-criminal-investigation-into-google-over-reported-mass-tree-felling-at-data-center-site/"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "TechRadar",
+   "u": "https://www.techradar.com/computing/a-criminal-investigation-is-now-underway-into-googles-ai-data-center-project-in-finland-where-330-hectares-of-forest-were-torn-down"
+  }
+ ],
+ "tags": [],
+ "title": "AI 반발 확산…레저버 1.5억 달러 소송·미 41개 데이터센터 제한 투표·구글 핀란드 공사 중단",
+ "updatedAt": "2026-11-02T16:13:50+09:00",
+ "url": "https://www.reuters.com/technology/artificial-intelligence/why-anthropic-is-turning-away-some-users-2026-10-22/",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "tech",
+   "k": "실제",
+   "node": "ai",
+   "t": "레저버 가사 853곡 무단 학습 소송 제기"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "realestate",
+   "k": "예상",
+   "node": "datacenter",
+   "t": "주민 반발에 호주 AI 데이터센터 사업 차질 우려"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "realestate",
+   "k": "예상",
+   "node": "datacenter",
+   "t": "데이터센터 모라토리엄·제한 주민투표 확산"
+  },
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "macro",
+   "k": "예상",
+   "node": "semis",
+   "t": "중간선거 앞 AI 정책 위험이 주식·채권 압박"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "tech",
+   "k": "실제",
+   "node": "cloud",
+   "t": "구글 핀란드 데이터센터 공사 중단 명령"
+  }
+ ],
+ "added": "합친 문서 5건 — METR 오픈AI 감시 결함, 호주·미국 데이터센터 반대와 41개 제한 투표, 구글 핀란드 벌채 수사, 중간선거 AI 역풍이 더해짐"
+}

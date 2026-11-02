@@ -4,6 +4,14 @@
 
 ---
 
+## 0-9. 추가(11월 2일 오후) — 매크로·반도체 같은 흐름 문서 합치기(data/merge-2026-11-02), 로이터 제외(규칙 38)
+
+- 사용자: "매크로와 반도체 얘기가 제일 많은데, 이거 분명 같은 내용이면 내가 묶어달라고했는데 안묶여있음. 제대로 묶어줘", "앞으로 블룸버그랑 텔레그램에서만 뉴스 가져와줘".
+- 대상: 10월 21일 이후 매크로·반도체 문서 280건(안 읽음 143, 읽음 137). 묶기 Opus 1개 → 23묶음, 흡수 57건(모두 안 읽음). keep은 묶음에서 가장 이른 문서(읽은 문서 포함, 합치면 다시 안 읽음). 다시 쓰기 Opus 3개(mcheck.py 문제 0).
+- 도구: tools/merge_ml.py(여러 줄 요약판, vc·fed 합침, 산업 페이지 nid·newsSeen* id를 keep으로), MERGE.md, mcheck.py. 지운 57건 원본은 data/merge-2026-11-02/backup/.
+- 저장 4묶음(news 23 set·57 delete, chains 9개 nid, newsSeen·Old·Old3~6 id). 저장 전 80건·meta 6건 대조(바뀐 것 0), 저장 뒤 23건 다시 받아 일치(work/mergeafter). DB news 1,979. chains aero v12·consumer v10·jpins v18·macro v22·oil v12·realestate v13·semis v13·shipping v13·tech v12, newsSeen v33·Old v9·Old3 v6·Old4 v6·Old5 v5·Old6 v2. 웹 보기판 갱신.
+- 다음 회차 묶기도 같은 기준: 날짜가 달라도 같은 흐름이면 기존 문서에 붙임(CLUSTER.md의 attachTo). 이번처럼 핵심 사건 5개 상한 때문에 새 문서로 나뉜 것이 많았으므로, 같은 흐름이면 붙이는 쪽을 우선할 것(사용자 요청).
+
 ## 0-8. 추가(11월 2일 오후) — 11월 2일 2차 회차(data/mix-2026-11-02b), 웹 보기판 읽음 반영
 
 - 사용자 "지금 기준으로 안읽은것만 뜨게 해줘" → 웹 보기판이 데스크 읽음 기록(data/users/me/reads, 읽은 뉴스 id와 그 뉴스 updatedAt만)으로 시작하고 '안 읽은 것만'이 기본(tools/site, RUNBOOK 4절). 데스크 페이지 자체는 바꾸지 않음(물어봄, 답 없음).
@@ -189,6 +197,7 @@
 35. (10월 30일) 텔레그램은 사용자가 준 8개 채널만 받음("앞으로도 이 채널들만 가지고 해주면 돼"): stockhasoo(재야의 괴수들), TNBfolio, w_compass(부의 나침반), The_MariTimes(Polaristimes), sunstudy1111(선진짱 주식공부방), Trillion_labs(트릴리온), verteinsight(Verte Research), habit4117(습관이 부자를 만든다). sunstudy1111은 웹 미리보기가 막혀 글 내용을 읽을 수 없음(사용자가 붙여 주면 처리). 예전 채널 7개(Onionfarmer, insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions)는 받지 않음. 블룸버그(사이트맵 목록)는 전처럼 함께 받음(로이터는 401이 풀리면). 채널 표기 이름은 회차 폴더의 chan.json.
 36. (11월 2일) 텔레그램은 정보형 글도 받아 요약합니다("꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약"). 리포트·코멘트 요약, 업황·통계 정리, 산업 구조·밸류체인 설명, 탐방·IR·컨퍼런스콜 메모, 수치를 곁들인 차트 설명은 거르기 K, 묶기에서 drop하지 않고, 작성에서 '범위 밖'으로 빼지 않음. 의견은 누구의 판단인지 밝힘. 정보 없이 의견·잡담·광고·공지·링크만인 글은 전처럼 뺌. 섹터 규칙 31~34는 정보형 글에도 그대로.
 37. (11월 2일) 화장품 섹터 추가: 거르기 분야 beauty(소비재와 따로), 작성 inds ["beauty"]·nodes beauty/*. 산업 페이지 chains/beauty와 데스크 칩은 원래 있음. 텔레그램 채널은 9개로 바꿈(규칙 35 대체): habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic, stockhasoo, Trillion_labs.
+38. (11월 2일) 뉴스는 블룸버그와 텔레그램에서만 가져옴("로이터까지 보려니까 너무 많다"). 수집에서 로이터 사이트맵(sitemap_list.py rtr)을 돌리지 않음. 기존 로이터 문서는 그대로.
 
 ---
 

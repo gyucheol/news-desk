@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0859",
+ "num": 859,
+ "key": "mix-G1-028-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T21:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program",
+ "origTitle": "",
+ "headline": "미 국방 신기술 조달…알파벳 1,850억 달러 골든돔 참여 협상·저가 드론 생산 '사실상 제로'",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-10-31",
+   "u": "https://business-standard.com/world-news/google-in-talks-with-pentagon-to-join-trump-s-golden-dome-defence-programme-126103100094_1.html"
+  },
+  {
+   "o": "DroneXL",
+   "d": "2026-10-31",
+   "u": "https://dronexl.co/2026/10/31/pentagon-basically-zero-cheap-drones-russia-7-million/"
+  }
+ ],
+ "items": [
+  {
+   "t": "알파벳, 트럼프 골든돔 방어 프로그램 참여 협상",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/alphabet-is-in-talks-to-join-trump-s-golden-dome-defense-program",
+   "s": "알파벳 구글이 1,850억 달러 골든돔의 데이터 보안 컨소시엄 참여를 협상하면서 2018년 메이븐 철수 이후 군사 사업을 넓히고 있다"
+  },
+  {
+   "t": "미국, 저가 군용 드론 생산 '사실상 제로'에서 출발",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/features/2026-10-31/us-starts-at-basically-zero-in-building-cheap-military-drones",
+   "s": "미국이 저가 군용 드론 생산을 사실상 제로에서 시작하면서 연 730만 대를 만드는 러시아와의 생산 격차가 국방부 과제로 드러났다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "미 국방 신기술 조달…알파벳 1,850억 달러 골든돔 참여 협상·저가 드론 생산 '사실상 제로'",
+ "one": "미 국방부가 골든돔과 저가 드론 대량 생산을 서두르지만 산업 기반이 따라가지 못하고 있다\n· 구글은 1,850억 달러 규모 골든돔의 지휘통제 데이터 보안 컨소시엄 참여를 국방부와 협상하고 있다\n· 국방부는 컨소시엄 구조와 참여 기업 명단이 아직 정해지지 않았다고 밝혔다\n· 국방혁신단 대행은 미국의 저가 군용 드론 생산이 사실상 제로에서 출발한다고 했다\n· 국방부는 2027년 말까지 저가 드론 25만 대를 원하지만 러시아는 한 해 730만 대를 만든다",
+ "facts": [
+  "무엇이: 알파벳 구글은 1,850억 달러 규모 골든돔 미사일 방어 프로그램의 지휘통제 데이터를 지키는 보안 컨소시엄 참여를 국방부와 초기 협상 중이며, 구글에서 분사한 알리리아도 참여한다 [사실]",
+  "상태: 국방부 관계자는 초기 개념을 검토 중이며 컨소시엄 구조와 기업 명단은 정해지지 않았다고 했고, 지휘통제층은 안두릴·팔란티어·스페이스X가 맡고 있다 [사실]",
+  "드론: 국방혁신단(DIU) 대행은 미국이 저가 군용 드론 대량 생산에서 사실상 제로에서 출발한다고 했고, 국방부 목표는 2027년 말까지 25만 대지만 러시아는 연 730만 대를 생산한다 [사실]",
+  "공급망: 드론 지배 프로그램에는 약 11억 달러가 배정됐으나 9월 중순까지 1단계 업체 3곳만 전량을 납품했고, 소형 드론용 배터리·모터·프로펠러는 중국이 장악하고 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 구글의 골든돔 데이터 보안 협상과 DIU 대행의 '사실상 제로' 발언·드론 목표치 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "munitions",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "미국 저가 군용 드론 생산 기반 사실상 제로"
+  },
+  {
+   "ind": "aero",
+   "node": "defspend",
+   "f": "수요",
+   "dir": "up",
+   "k": "예상",
+   "t": "1,850억 달러 골든돔에 구글 참여 협상"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

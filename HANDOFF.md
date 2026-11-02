@@ -4,6 +4,17 @@
 
 ---
 
+## 0-7. 추가(11월 2일 오전) — 11월 2일 회차(data/mix-2026-11-02), 웹 보기판(GitHub Pages)
+
+- 사용자: "마지막 회차 이후 쌓인 건들+블룸버그까지 ㄱㄱㄱㄱ", 정보형 글에도 섹터 규칙 적용 "ㅇㅇ", "claude랑 별개인 웹사이트 만들어줘", gh-pages 브랜치 사용 허락.
+- 범위: 텔레그램 8채널 progressV4.telegram.new 다음 번호~11월 2일 10시 KST, 블룸버그 10월 30일 02:30Z~. 로이터 계속 401.
+- 블룸버그 latest.xml이 듬성듬성(10월 30일 5건뿐)이라 월별 사이트맵(sitemaps/news/2026-10.xml·2026-11.xml, 제목 없음 → 주소로 제목)과 합쳐 work/sm21/bbg.txt를 만듦(429건). 다음 회차도 월별 사이트맵을 함께 볼 것(tools/sitemap_list.py는 아직 latest.xml만 읽음).
+- 후보 734(블룸버그 424, 텔레그램 306, 연준 4) → 거르기 Haiku 4개 남김 295(정보형 글 3건 바로잡음, overrides.tsv) → 묶기 Opus 2개 88묶음(drop 47) → 작성 Opus 5개(검색 16회씩) → 문서 86(새 58, 기존 문서에 더함 28), 기사 245, 건너뜀 2. basis verified 34, partial 39, title 8, channel 5. 화장품 새 문서 2건(n-tg-0840 K뷰티 10월 수출, n-tg-0842 에이피알 3분기).
+- 고친 것: partial인데 src 빈 2건(G2-014·G2-022, 붙인 기존 문서 src 넣음), G1-033 원문별 요약 s 비어 있어 채움.
+- newsSeen 회전으로 옮긴 290줄은 새 문서 meta/newsSeenOld6(v1)에 넣음(newsSeenOld.unused.json은 저장 안 함).
+- 저장 batch 2개(50, 36+meta 3). 붙일 28건은 저장 전 query로 받아 사본과 대조(바뀐 것 0), 저장 뒤 processed=2026-11-02로 다시 받아 86건 일치(work/live49after). DB: news 2,028, progressV4 v37, newsSeen v31, newsSeenOld6 v1. newsSeq bbg 889·rtr 736·tg 853·fed 2.
+- 웹 보기판: tools/site/build.py <DB 사본> <출력>로 만들고(desk/index.html + tools/site/shim.js, 데이터 data/news.json(processed 최신 1,000건)·chains.json·cycle.json), 브랜치 gh-pages 루트에 올림. 주소 https://gyucheol.github.io/news-desk/ (사용자가 저장소 Settings → Pages에서 gh-pages /(root)를 켜야 열림). 요청 버튼은 숨김, 읽음은 그 브라우저에만. 회차 저장 뒤마다 다시 만들어 gh-pages에 커밋·푸시(사용자 허락, 11월 2일).
+
 ## 0-6. 추가(11월 2일 아침) — 텔레그램 9개 채널로 다시 바꿈, 정보형 글 포함, 화장품 섹터 추가
 
 - 사용자: "뉴스 데스크에 너가 띄워주는 뉴스 및 정보 자료 텔레그램 링크 다시 갱신해서 줄께. 꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약 요청. 그리고 화장품 섹터 추가 요청" + 채널 9개(규칙 35를 바꿈).

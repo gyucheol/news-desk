@@ -1,0 +1,55 @@
+{
+ "id": "n-tg-0846",
+ "num": 846,
+ "key": "mix-G1-040-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T03:09:00+09:00",
+ "url": "https://t.me/The_MariTimes/64126",
+ "origTitle": "",
+ "headline": "스페이스X 400억 달러 채권, SPV 통한 부외부채…금리 최대 8.75% 전망",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-31",
+   "u": "https://t.me/The_MariTimes/64126"
+  }
+ ],
+ "items": [
+  {
+   "t": "스페이스X 400억 달러 채권은 SPV 부외부채, 금리 최대 8.75%",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-10-31",
+   "u": "https://t.me/The_MariTimes/64126"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "channel": "Polaristimes",
+ "title": "스페이스X 400억 달러 채권, SPV 통한 부외부채…금리 최대 8.75% 전망",
+ "one": "스페이스X의 400억 달러 규모 채권 발행이 SPV를 통한 부외부채인 것으로 전해졌다\n· 이 채권의 금리는 최대 8.75%에 이를 수 있다고 채널은 전했다 (채널 전언)",
+ "facts": [
+  "무엇이: 일론 머스크가 언급한 스페이스X의 400억 달러 규모 채권 발행이 SPV를 통한 부외(off-balance sheet) 부채로 알려졌다 [채널]",
+  "금리: 금리는 최대 8.75%에 달할 수 있다 [채널]"
+ ],
+ "basis": "channel",
+ "check": "검색 한도 안에서 따로 확인하지 않음, 채널 원문 기준",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "space",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "스페이스X 부외 채권 금리 최대 8.75% 전망"
+  }
+ ]
+}

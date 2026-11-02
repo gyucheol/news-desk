@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0872",
+ "num": 872,
+ "key": "mix-G1-053-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T17:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/japan-s-omron-targets-india-for-manufacturing-exports-push",
+ "origTitle": "",
+ "headline": "일본 옴론, 인도를 제조업 수출 확대 거점으로 겨냥",
+ "src": [],
+ "items": [
+  {
+   "t": "일본 옴론, 인도를 제조업 수출 확대 거점으로 겨냥",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/japan-s-omron-targets-india-for-manufacturing-exports-push"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "일본 옴론, 인도를 제조업 수출 확대 거점으로 겨냥",
+ "one": "일본 전자·자동화 기업 옴론이 인도를 제조업 수출 확대의 거점으로 겨냥하고 나섰다\n· 옴론은 인도 생산을 발판으로 해외 수출을 키우는 방안을 추진한다 (제목 기준)",
+ "facts": [
+  "무엇이: 일본 옴론이 제조업 수출 확대를 위해 인도를 겨냥하고 있다 [제목]",
+  "의미: 일본 제조사의 생산·수출 거점이 인도로 넓어지는 흐름의 한 사례다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색하지 않음, 제목 기준.",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "robotics",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "옴론 인도를 제조 수출 거점으로 육성"
+  }
+ ]
+}

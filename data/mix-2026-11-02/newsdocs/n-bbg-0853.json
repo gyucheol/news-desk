@@ -1,0 +1,94 @@
+{
+ "id": "n-bbg-0853",
+ "num": 853,
+ "key": "mix-G1-017-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T03:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/blackstone-s-qts-vantage-vow-to-step-up-data-center-disclosures",
+ "origTitle": "",
+ "headline": "데이터센터 전력 수급…PJM 6,831MW 경매 3월 추진·텍사스 허가 중단·QTS 정보공개",
+ "src": [
+  {
+   "o": "Utility Dive",
+   "d": "2026-10-30",
+   "u": "https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/"
+  },
+  {
+   "o": "mgrid.org",
+   "d": "2026-10-31",
+   "u": "https://mgrid.org/2026/10/31/pjm-refiles-its-6831-mw-backstop-procurement-for-a-march-1-launch-and-bills-large-load-growth-since-summer-2026/"
+  },
+  {
+   "o": "Natural Gas Intelligence",
+   "d": "2026-10-30",
+   "u": "https://www.naturalgasintel.com/news/chevron-advancing-microsoft-natural-gas-project-despite-texas-data-center-clouds/"
+  }
+ ],
+ "items": [
+  {
+   "t": "블랙스톤 QTS·밴티지, 데이터센터 정보공개 확대 약속",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/blackstone-s-qts-vantage-vow-to-step-up-data-center-disclosures",
+   "s": "블랙스톤의 QTS와 밴티지가 데이터센터 정보공개를 늘리겠다고 약속하면서 전력·용수 부담을 둘러싼 투명성 요구에 대응했다 (제목 기준)"
+  },
+  {
+   "t": "미 최대 전력망 PJM, 데이터센터 전력 경매 3월 개최 추진",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/largest-us-grid-seeks-to-hold-data-center-power-auction-in-march",
+   "s": "PJM이 6,831MW 부족분을 메울 1회성 경매를 2027년 3월 열겠다는 수정안을 내면서 FERC가 미뤄 둔 데이터센터 전력 조달이 다시 일정에 올랐다"
+  },
+  {
+   "t": "셰브런, 텍사스 허가 중단에도 MS 데이터센터 일정 유지",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/chevron-keeps-microsoft-data-center-timeline-despite-texas-pause",
+   "s": "텍사스가 데이터센터 신규 환경 허가를 멈춘 가운데 셰브런은 2028년 첫 전력 일정을 유지한다고 했지만 투자결정 지연 가능성이 거론됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/market",
+  "power/demand"
+ ],
+ "title": "데이터센터 전력 수급…PJM 6,831MW 경매 3월 추진·텍사스 허가 중단·QTS 정보공개",
+ "one": "미국 데이터센터 전력 공급을 놓고 전력망·규제·사업자 쪽 움직임이 잇따랐다\n· 최대 전력망 PJM은 6,831MW 부족분을 메울 1회성 경매 입찰을 2027년 3월 1~28일 여는 수정안을 냈다\n· 텍사스 애벗 주지사가 데이터센터 신규 환경 허가를 멈춘 가운데 셰브런은 MS용 발전 일정을 유지한다고 했다\n· 블룸버그 제목에 따르면 블랙스톤의 QTS와 밴티지는 데이터센터 정보공개 확대를 약속했다",
+ "facts": [
+  "무엇이: PJM은 10월 29일 FERC에 1회성 백스톱 조달 수정안을 내고 입찰을 2027년 3월 1~28일, 결과 공표를 5월 10일로 잡았다 [사실]",
+  "규모: 2028/2029년 기본 경매에서 생긴 6,831MW 부족분이 기준이고, 가격 상한은 MW-일당 가중평균 555달러이며 비용은 대형 부하 증가분에 매긴다 [사실]",
+  "배경: FERC는 9월 29일 PJM 백스톱 조달 대부분을 받아들였지만 비용 배분 문제 등을 들어 2027년 2월 28일까지 효력을 미뤘다 [사실]",
+  "텍사스: 애벗 주지사 명령으로 데이터센터 신규 환경 허가가 멈췄고, 셰브런 CFO는 MS와 맺은 2.67GW 전력 공급 사업이 2028년 첫 전력 일정을 지킬 것이라 했으나 최종투자결정은 2027년으로 밀릴 수 있다는 보도가 있다 [사실]",
+  "공개: 블랙스톤 QTS와 밴티지가 데이터센터 관련 정보공개 확대를 약속했다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "PJM 수정안·셰브런 일정은 검색 결과 요약으로 확인. QTS·밴티지 정보공개 내용은 확인 못 함. PJM 3월 일정은 FERC 승인 전 제안.",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "PJM 6,831MW 부족분 메울 경매 3월 추진"
+  },
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "텍사스 데이터센터 신규 환경 허가 중단"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

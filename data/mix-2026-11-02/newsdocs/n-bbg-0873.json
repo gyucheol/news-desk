@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0873",
+ "num": 873,
+ "key": "mix-G1-054-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T21:49:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/evonik-turns-down-offer-to-enter-takeover-talks-with-suitor-basf",
+ "origTitle": "",
+ "headline": "에보닉, BASF 111억 8,000만 유로 상향 제안에도 인수 협상 거절",
+ "src": [
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-30",
+   "u": "https://seekingalpha.com/news/4661420-evonik-rejects-basfs-125b-takeover-bid-but-leaves-opening-for-purely-informational-talks"
+  },
+  {
+   "o": "Euronext",
+   "d": "2026-10-30",
+   "u": "https://live.euronext.com/en/financial-news/evonik-rejects-basf-bid-despite-sweetened-125-billion-terms"
+  }
+ ],
+ "items": [
+  {
+   "t": "에보닉, 인수 희망자 BASF의 협상 제안 거절",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/evonik-turns-down-offer-to-enter-takeover-talks-with-suitor-basf"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "에보닉, BASF 111억 8,000만 유로 상향 제안에도 인수 협상 거절",
+ "one": "에보닉이 BASF의 상향된 인수 제안에도 공식 인수 협상에 들어가지 않기로 했다\n· BASF 제안은 주당 24유로, 총 111억 8,000만 유로(125억 달러) 규모였다\n· 에보닉은 독자 노선을 유지하되 정보 교환 차원의 비공개 대화는 열어 뒀다",
+ "facts": [
+  "무엇이: 에보닉 이사회는 10월 30일 BASF의 10월 22일자 공개매수 관련 서한을 검토한 뒤 공식 인수 협상을 거절하고 독립 회사로 발전하겠다고 밝혔다 [사실]",
+  "제안: BASF의 상향 제안은 주당 24유로, 총 111억 8,000만 유로(125억 달러)였고, 9월 첫 제안(103억 유로)도 거절됐다 [사실]",
+  "여지: 에보닉은 순수한 정보 교환 차원의 비공개 대화는 받겠다고 했고, 거래 성사는 최대주주 RAG재단 지지에 달렸으며 3분기 실적은 11월 3일 나온다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "거절·제안 규모는 검색 결과 요약으로 확인. 기존 n-rtr-0191(제안가 상향)과 같은 흐름이나 거절 결정은 새 사실.",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "에보닉 BASF 인수 협상 거절로 재편 무산"
+  }
+ ]
+}

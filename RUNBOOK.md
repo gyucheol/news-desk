@@ -51,3 +51,10 @@ python3 tools/tgcollect.py find <채널> 2026-08-15T00:00       # 날짜로 시�
 ## 3. 저장
 
 ArtifactData batch: news 신규는 if_version 없이, meta/progressV4·newsSeen은 방금 읽은 버전을 if_version으로.
+
+## 4. 웹 보기판 갱신 (회차 저장 뒤마다, 2026-11-02 사용자 허락)
+
+1. DB 사본(news·chains·meta)을 최신으로 맞춘 뒤 `python3 -I tools/site/build.py work/liveN work/site`
+2. gh-pages 브랜치(사이트 파일만 있음)에 work/site/ 내용을 그대로 덮어 커밋·푸시:
+   `git worktree add <임시폴더> gh-pages && cp -r work/site/. <임시폴더>/ && (cd <임시폴더> && git add -A && git commit -m "웹 보기판 갱신" && git push origin gh-pages)`
+3. 주소: https://gyucheol.github.io/news-desk/ (공개 저장소라 주소를 아는 사람은 누구나 볼 수 있음, noindex)

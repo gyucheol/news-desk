@@ -81,6 +81,7 @@ for d in SEG['segs']:
         st = d['value']
         pk = dict(PICKS.get(st, {}))
         pk.update(OVR.get(st, {}))
+        pk = {k: v for k, v in pk.items() if v is not None}
         if not pk.get('id'):
             notes.append(f"{st}: no pick yet")
             sc = {"id": sid, "type": "card", "from": lid(i0), "note": f"{st} 스톡 없음(임시 검은 화면)"}
@@ -92,6 +93,10 @@ for d in SEG['segs']:
             for k in ('crop', 'blur', 'blur_box', 'cont'):
                 if pk.get(k):
                     sc[k] = pk[k]
+            bb = sc.get('blur_box')
+            if bb and not isinstance(bb[0], (list, tuple)):
+                # 고른 사람이 적은 1920x1080 픽셀 상자 [x0, y0, x1, y1] -> render.py 형식 [[x0, y0, x1, y1, sigma]] (화면 비율)
+                sc['blur_box'] = [[round(bb[0] / 1920, 4), round(bb[1] / 1080, 4), round(bb[2] / 1920, 4), round(bb[3] / 1080, 4), 12]]
     if sc['type'] in ('photo', 'video'):
         sp = soft_plan(i0, i1, t_end)
         if sp:

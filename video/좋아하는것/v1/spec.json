@@ -1,0 +1,2037 @@
+{
+ "sub_lead": 0,
+ "fade_in": 0.3,
+ "fade_out": 0.8,
+ "last_sub_hold": 1.0,
+ "scenes": [
+  {
+   "id": "s001",
+   "type": "photo",
+   "image": "photos_final/P01.png",
+   "from": "V001",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 1"
+  },
+  {
+   "id": "s002",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V003",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 2"
+  },
+  {
+   "id": "s003",
+   "type": "photo",
+   "image": "photos_final/P03.png",
+   "from": "V004",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 3",
+   "mix": {
+    "at": "V004",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s004",
+   "type": "photo",
+   "image": "photos_final/P04.png",
+   "from": "V005",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 4"
+  },
+  {
+   "id": "s005",
+   "type": "photo",
+   "image": "photos_final/P05.png",
+   "from": "V006",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 5"
+  },
+  {
+   "id": "s006",
+   "type": "photo",
+   "image": "photos_final/P06.png",
+   "from": "V007",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 6"
+  },
+  {
+   "id": "s007",
+   "type": "video",
+   "src": "stock/full/43264.mp4",
+   "in": 7.0,
+   "speed": 1.0,
+   "from": "V009",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st01 Mixkit 43264 Person stirring latte art in a cup"
+  },
+  {
+   "id": "s008",
+   "type": "photo",
+   "image": "photos_final/P07.png",
+   "from": "V011",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 7"
+  },
+  {
+   "id": "s009",
+   "type": "video",
+   "src": "stock/full/43264.mp4",
+   "in": 13.4,
+   "speed": 1.0,
+   "from": "V013",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st02 Mixkit 43264 Person stirring latte art in a cup"
+  },
+  {
+   "id": "s010",
+   "type": "photo",
+   "image": "photos_final/P08.png",
+   "from": "V014",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 8",
+   "mix": {
+    "at": "V014",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6,
+    "until": "V016",
+    "until_shift": -0.25
+   }
+  },
+  {
+   "id": "s011",
+   "type": "photo",
+   "image": "photos_final/P09.png",
+   "from": "V018",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 9"
+  },
+  {
+   "id": "s012",
+   "type": "photo",
+   "image": "photos_final/P10.png",
+   "from": "V019",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 10"
+  },
+  {
+   "id": "s013",
+   "type": "video",
+   "src": "stock/full/40733.mp4",
+   "in": 3.4,
+   "speed": 1.0,
+   "from": "V021",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st03 Mixkit 40733 Walking in the city at night seeing its buildings",
+   "blur_box": [
+    [
+     0.9036,
+     0.4306,
+     0.9401,
+     0.5093,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s014",
+   "type": "photo",
+   "image": "photos_final/P12.png",
+   "from": "V024",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 12",
+   "mix": {
+    "at": "V024",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s015",
+   "type": "video",
+   "src": "stock/full/5197.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V026",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st04 Mixkit 5197 Hand of an artist with a brush when painting"
+  },
+  {
+   "id": "s016",
+   "type": "photo",
+   "image": "photos_final/P13.png",
+   "from": "V031",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 13"
+  },
+  {
+   "id": "s017",
+   "type": "photo",
+   "image": "photos_final/P14.png",
+   "from": "V032",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 14"
+  },
+  {
+   "id": "s018",
+   "type": "video",
+   "src": "stock/full/25581.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "from": "V036",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st05 Mixkit 25581 Sad and crestfallen man sitting in the dark",
+   "mix": {
+    "at": "V037",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s019",
+   "type": "photo",
+   "image": "photos_final/P15.png",
+   "from": "V039",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 15",
+   "mix": {
+    "at": "V039",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s020",
+   "type": "video",
+   "src": "stock/full/50731.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V042",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st06 Mixkit 50731 A woman gently turning the pages of a book"
+  },
+  {
+   "id": "s021",
+   "type": "video",
+   "src": "stock/full/4776.mp4",
+   "in": 2.3,
+   "speed": 1.0,
+   "from": "V046",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st07 Mixkit 4776 Watering plants in a garden"
+  },
+  {
+   "id": "s022",
+   "type": "photo",
+   "image": "photos_final/P16.png",
+   "from": "V051",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 16"
+  },
+  {
+   "id": "s023",
+   "type": "photo",
+   "image": "photos_final/P17.png",
+   "from": "V052",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 17"
+  },
+  {
+   "id": "s024",
+   "type": "photo",
+   "image": "photos_final/P18.png",
+   "from": "V054",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 18"
+  },
+  {
+   "id": "s025",
+   "type": "photo",
+   "image": "photos_final/P19.png",
+   "from": "V055",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 19"
+  },
+  {
+   "id": "s026",
+   "type": "photo",
+   "image": "photos_final/P20.png",
+   "from": "V057",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 20"
+  },
+  {
+   "id": "s027",
+   "type": "photo",
+   "image": "photos_final/P21.png",
+   "from": "V059",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 21"
+  },
+  {
+   "id": "s028",
+   "type": "photo",
+   "image": "photos_final/P22.png",
+   "from": "V063",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 22"
+  },
+  {
+   "id": "s029",
+   "type": "photo",
+   "image": "photos_final/P23.png",
+   "from": "V067",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 23"
+  },
+  {
+   "id": "s030",
+   "type": "photo",
+   "image": "photos_final/P24.png",
+   "from": "V068",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 24"
+  },
+  {
+   "id": "s031",
+   "type": "photo",
+   "image": "photos_final/P25.png",
+   "from": "V069",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 25"
+  },
+  {
+   "id": "s032",
+   "type": "video",
+   "src": "stock/full/29984.mp4",
+   "in": 2.5,
+   "speed": 1.0,
+   "from": "V073",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st08 Mixkit 29984 Drawing in a notebook on a white table",
+   "blur_box": [
+    [
+     0.5208,
+     0.463,
+     1.0,
+     0.6574,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V076",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s033",
+   "type": "photo",
+   "image": "photos_final/P26.png",
+   "from": "V080",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 26",
+   "mix": {
+    "at": "V080",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s034",
+   "type": "video",
+   "src": "stock/full/50113.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V082",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st09 Mixkit 50113 A young student with a black pen draws a mathematical chart on his squared notebook. ",
+   "mix": {
+    "at": "V082",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s035",
+   "type": "video",
+   "src": "stock/full/4531.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V088",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st10 Mixkit 4531 Girl doing homework in a library"
+  },
+  {
+   "id": "s036",
+   "type": "photo",
+   "image": "photos_final/P27.png",
+   "from": "V091",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 27"
+  },
+  {
+   "id": "s037",
+   "type": "photo",
+   "image": "photos_final/P28.png",
+   "from": "V093",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 28"
+  },
+  {
+   "id": "s038",
+   "type": "photo",
+   "image": "photos_final/P29.png",
+   "from": "V096",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 29"
+  },
+  {
+   "id": "s039",
+   "type": "photo",
+   "image": "photos_final/P30.png",
+   "from": "V099",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 30"
+  },
+  {
+   "id": "s040",
+   "type": "photo",
+   "image": "photos_final/P31.png",
+   "from": "V104",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 31"
+  },
+  {
+   "id": "s041",
+   "type": "photo",
+   "image": "photos_final/P32.png",
+   "from": "V107",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 32"
+  },
+  {
+   "id": "s042",
+   "type": "photo",
+   "image": "photos_final/P33.png",
+   "from": "V109",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 33",
+   "mix": {
+    "at": "V109",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s043",
+   "type": "photo",
+   "image": "photos_final/P34.png",
+   "from": "V110",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 34"
+  },
+  {
+   "id": "s044",
+   "type": "photo",
+   "image": "photos_final/P35.png",
+   "from": "V113",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 35"
+  },
+  {
+   "id": "s045",
+   "type": "photo",
+   "image": "photos_final/P36.png",
+   "from": "V118",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 36"
+  },
+  {
+   "id": "s046",
+   "type": "photo",
+   "image": "photos_final/P37.png",
+   "from": "V121",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 37"
+  },
+  {
+   "id": "s047",
+   "type": "video",
+   "src": "stock/full/29983.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V124",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st11 Mixkit 29983 Designer in his studio giving color to his strokes in a notebook",
+   "mix": {
+    "at": "V124",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s048",
+   "type": "photo",
+   "image": "photos_final/P38.png",
+   "from": "V127",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 38"
+  },
+  {
+   "id": "s049",
+   "type": "photo",
+   "image": "photos_final/P39.png",
+   "from": "V129",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 39",
+   "mix": {
+    "at": "V129",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s050",
+   "type": "video",
+   "src": "stock/full/100112.mp4",
+   "in": 0.2,
+   "speed": 1.0,
+   "from": "V133",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st12 Mixkit 100112 A young man sitting in a dark room focuses on the unfolding chess game",
+   "mix": {
+    "at": "V133",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s051",
+   "type": "photo",
+   "image": "photos_final/P40.png",
+   "from": "V139",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 40"
+  },
+  {
+   "id": "s052",
+   "type": "photo",
+   "image": "photos_final/P41.png",
+   "from": "V141",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 41"
+  },
+  {
+   "id": "s053",
+   "type": "video",
+   "src": "stock/full/1973.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V144",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st13 Mixkit 1973 A ceramic artist modeling pottery"
+  },
+  {
+   "id": "s054",
+   "type": "video",
+   "src": "stock/full/18308.mp4",
+   "in": 8.0,
+   "speed": 1.0,
+   "from": "V146",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st14 Mixkit 18308 Drawing a heart on a foggy window on a rainy day"
+  },
+  {
+   "id": "s055",
+   "type": "photo",
+   "image": "photos_final/P42.png",
+   "from": "V149",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 42"
+  },
+  {
+   "id": "s056",
+   "type": "video",
+   "src": "stock/full/4484.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V153",
+   "grade": {
+    "sat": 0.2,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6,
+    "gain": 0.85
+   },
+   "note": "st15 Mixkit 4484 Lilies flowers on its stem slowly opening",
+   "mix": {
+    "at": "V153",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.19,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6,
+     "gain": 0.85
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s057",
+   "type": "video",
+   "src": "stock/full/43772.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V156",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st16 Mixkit 43772 Shot of the hands of a talented pianist playing",
+   "blur_box": [
+    [
+     0.5417,
+     0.2639,
+     0.6562,
+     0.3426,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V156",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s058",
+   "type": "photo",
+   "image": "photos_final/P43.png",
+   "from": "V161",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 43"
+  },
+  {
+   "id": "s059",
+   "type": "photo",
+   "image": "photos_final/P44.png",
+   "from": "V162",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 44"
+  },
+  {
+   "id": "s060",
+   "type": "photo",
+   "image": "photos_final/P45.png",
+   "from": "V163",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 45"
+  },
+  {
+   "id": "s061",
+   "type": "photo",
+   "image": "photos_final/P46.png",
+   "from": "V165",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 46"
+  },
+  {
+   "id": "s062",
+   "type": "photo",
+   "image": "photos_final/P47.png",
+   "from": "V169",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 47"
+  },
+  {
+   "id": "s063",
+   "type": "video",
+   "src": "stock/full/2860.mp4",
+   "in": 6.5,
+   "speed": 1.0,
+   "from": "V173",
+   "grade": {
+    "sat": 0.15,
+    "black": 0.04,
+    "gamma": 1.2,
+    "vignette": 0.55
+   },
+   "note": "st17 Mixkit 2860 Movie tape"
+  },
+  {
+   "id": "s064",
+   "type": "photo",
+   "image": "photos_final/P48.png",
+   "from": "V175",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 48"
+  },
+  {
+   "id": "s065",
+   "type": "photo",
+   "image": "photos_final/P49.png",
+   "from": "V178",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 49"
+  },
+  {
+   "id": "s066",
+   "type": "photo",
+   "image": "photos_final/P50.png",
+   "from": "V179",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 50"
+  }
+ ],
+ "subs": [
+  {
+   "line": "V001",
+   "text": "당신은 오늘 소개팅 상대와"
+  },
+  {
+   "line": "V002",
+   "text": "카페에 마주 앉아 있습니다."
+  },
+  {
+   "line": "V003",
+   "text": "이야기를 나누던 상대가 묻습니다."
+  },
+  {
+   "line": "V004",
+   "text": "쉬는 날에는 보통 뭐 하세요?",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V005",
+   "text": "잠깐 지난 주말을 떠올려 봅니다."
+  },
+  {
+   "line": "V006",
+   "text": "침대에 누워 유튜브를 보다가"
+  },
+  {
+   "line": "V007",
+   "text": "볼 만한 영상이 없으면"
+  },
+  {
+   "line": "V008",
+   "text": "OTT를 켜고 드라마를 봤습니다."
+  },
+  {
+   "line": "V009",
+   "text": "생각해 보니 그게 전부입니다."
+  },
+  {
+   "line": "V010",
+   "text": "그대로 말하자니 괜히 머쓱합니다."
+  },
+  {
+   "line": "V011",
+   "text": "다른 이야기를 꺼내 보려 해도"
+  },
+  {
+   "line": "V012",
+   "text": "딱히 떠오르는 게 없습니다."
+  },
+  {
+   "line": "V013",
+   "text": "잠깐 망설이다 이렇게 대답합니다."
+  },
+  {
+   "line": "V014",
+   "text": "저는 집에서 책도 좀 보고",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V015",
+   "text": "쉬는 편이에요.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V016",
+   "text": "요즘 읽고 있는 책도 없는데"
+  },
+  {
+   "line": "V017",
+   "text": "그렇게 둘러댑니다."
+  },
+  {
+   "line": "V018",
+   "text": "대화는 다른 이야기로 넘어갔지만"
+  },
+  {
+   "line": "V019",
+   "text": "집에 오는 길에"
+  },
+  {
+   "line": "V020",
+   "text": "내가 했던 대답이 다시 떠오릅니다."
+  },
+  {
+   "line": "V021",
+   "text": "쉬는 날에 뭘 하느냐는"
+  },
+  {
+   "line": "V022",
+   "text": "가벼운 질문이었는데"
+  },
+  {
+   "line": "V023",
+   "text": "왜 이렇게 할 말이 없었을까요?"
+  },
+  {
+   "line": "V024",
+   "text": "나는 왜 확실하게",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V025",
+   "text": "좋아하는 게 없을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V026",
+   "text": "누가 시키지 않아도"
+  },
+  {
+   "line": "V027",
+   "text": "찾아서 하는 일 하나쯤은"
+  },
+  {
+   "line": "V028",
+   "text": "있어야 할 것 같습니다."
+  },
+  {
+   "line": "V029",
+   "text": "그렇다고 시도해 본 적이"
+  },
+  {
+   "line": "V030",
+   "text": "없는 것도 아닙니다."
+  },
+  {
+   "line": "V031",
+   "text": "그림도 배워 봤고"
+  },
+  {
+   "line": "V032",
+   "text": "운동도 등록해 봤습니다."
+  },
+  {
+   "line": "V033",
+   "text": "처음에는 괜찮다가"
+  },
+  {
+   "line": "V034",
+   "text": "조금 어려워지면"
+  },
+  {
+   "line": "V035",
+   "text": "손이 가지 않았죠."
+  },
+  {
+   "line": "V036",
+   "text": "그러고는 생각합니다."
+  },
+  {
+   "line": "V037",
+   "text": "역시 이것도",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V038",
+   "text": "내 취미는 아니었나 봅니다.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V039",
+   "text": "하지만 좋아하는 게 분명한 사람들은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V040",
+   "text": "정말 처음부터",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V041",
+   "text": "자기 취향을 알고 있었을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V042",
+   "text": "심리학 연구들을 살펴보면"
+  },
+  {
+   "line": "V043",
+   "text": "좋아하는 마음을 어떻게 바라보고"
+  },
+  {
+   "line": "V044",
+   "text": "어떤 경험을 쌓느냐도"
+  },
+  {
+   "line": "V045",
+   "text": "중요하다는 것을 알 수 있습니다."
+  },
+  {
+   "line": "V046",
+   "text": "오늘은 관심이 생겨도"
+  },
+  {
+   "line": "V047",
+   "text": "금방 놓아 버리는 이유를 살펴보고"
+  },
+  {
+   "line": "V048",
+   "text": "작은 관심을 내 취미로 키워 볼"
+  },
+  {
+   "line": "V049",
+   "text": "방법 3가지를"
+  },
+  {
+   "line": "V050",
+   "text": "이야기해 보겠습니다."
+  },
+  {
+   "line": "V051",
+   "text": "주말 오후입니다."
+  },
+  {
+   "line": "V052",
+   "text": "당신은 취미를 하나"
+  },
+  {
+   "line": "V053",
+   "text": "만들어 보기로 합니다."
+  },
+  {
+   "line": "V054",
+   "text": "검색창에 직장인 취미 추천을 입력합니다."
+  },
+  {
+   "line": "V055",
+   "text": "그림과 뜨개질과 사진이"
+  },
+  {
+   "line": "V056",
+   "text": "차례로 나옵니다."
+  },
+  {
+   "line": "V057",
+   "text": "그림도 목도리 만들기도"
+  },
+  {
+   "line": "V058",
+   "text": "좋아 보입니다."
+  },
+  {
+   "line": "V059",
+   "text": "그런데 또 금방 질리면"
+  },
+  {
+   "line": "V060",
+   "text": "어떡할까요?"
+  },
+  {
+   "line": "V061",
+   "text": "이번에는 정말 오래 좋아할 수 있는 걸"
+  },
+  {
+   "line": "V062",
+   "text": "고르고 싶습니다."
+  },
+  {
+   "line": "V063",
+   "text": "아직 해 보지도 않았는데"
+  },
+  {
+   "line": "V064",
+   "text": "이것이 내 취미가 될지부터"
+  },
+  {
+   "line": "V065",
+   "text": "확실히 알고 싶어"
+  },
+  {
+   "line": "V066",
+   "text": "후기를 더 찾아봅니다."
+  },
+  {
+   "line": "V067",
+   "text": "그리고 마음에 드는 그림을 보고"
+  },
+  {
+   "line": "V068",
+   "text": "연필을 집어 듭니다."
+  },
+  {
+   "line": "V069",
+   "text": "그런데 영상에서는"
+  },
+  {
+   "line": "V070",
+   "text": "쉽게 그려지던 얼굴이"
+  },
+  {
+   "line": "V071",
+   "text": "내 종이 위에서는"
+  },
+  {
+   "line": "V072",
+   "text": "자꾸 이상해집니다."
+  },
+  {
+   "line": "V073",
+   "text": "재미있을 줄 알았는데"
+  },
+  {
+   "line": "V074",
+   "text": "생각보다 어렵습니다."
+  },
+  {
+   "line": "V075",
+   "text": "여기서"
+  },
+  {
+   "line": "V076",
+   "text": "아직 손에 익지 않았구나",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V077",
+   "text": "라고 생각할 수도 있습니다."
+  },
+  {
+   "line": "V078",
+   "text": "하지만 우리는 종종",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V079",
+   "text": "훨씬 큰 결론을 내립니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V080",
+   "text": "나는 그림을 좋아하는 사람이",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V081",
+   "text": "아닌가 봐.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V082",
+   "text": "어려웠다는 한 번의 경험이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V083",
+   "text": "내가 어떤 사람인지를",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V084",
+   "text": "판정하는 근거가 되는 것이죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V085",
+   "text": "그런데 이 해석 자체가",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V086",
+   "text": "막 생긴 관심에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V087",
+   "text": "영향을 줄 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V088",
+   "text": "여러분이 새로운 관심사에 관한"
+  },
+  {
+   "line": "V089",
+   "text": "실험에 참여했다고"
+  },
+  {
+   "line": "V090",
+   "text": "생각해 보겠습니다."
+  },
+  {
+   "line": "V091",
+   "text": "실험을 시작하며"
+  },
+  {
+   "line": "V092",
+   "text": "글 한 편을 읽습니다."
+  },
+  {
+   "line": "V093",
+   "text": "한 집단은 사람의 관심사가"
+  },
+  {
+   "line": "V094",
+   "text": "비교적 고정돼 있다는"
+  },
+  {
+   "line": "V095",
+   "text": "강연을 듣습니다."
+  },
+  {
+   "line": "V096",
+   "text": "다른 집단은 관심사를"
+  },
+  {
+   "line": "V097",
+   "text": "경험을 통해 발전시킬 수 있다는"
+  },
+  {
+   "line": "V098",
+   "text": "강연을 듣습니다."
+  },
+  {
+   "line": "V099",
+   "text": "이후에는 두 집단 모두"
+  },
+  {
+   "line": "V100",
+   "text": "블랙홀을 쉽게 설명해 주는"
+  },
+  {
+   "line": "V101",
+   "text": "짧은 영상을 봅니다."
+  },
+  {
+   "line": "V102",
+   "text": "그리고 이 영상에"
+  },
+  {
+   "line": "V103",
+   "text": "흥미를 느낀 학생들에게"
+  },
+  {
+   "line": "V104",
+   "text": "이번에는 같은 주제의"
+  },
+  {
+   "line": "V105",
+   "text": "전문적인 과학 논문 일부를"
+  },
+  {
+   "line": "V106",
+   "text": "읽게 합니다."
+  },
+  {
+   "line": "V107",
+   "text": "쉽게 풀어 준 영상을 볼 때와 달리"
+  },
+  {
+   "line": "V108",
+   "text": "내용을 따라가기가 어려워집니다."
+  },
+  {
+   "line": "V109",
+   "text": "두 그룹은 어떻게 반응했을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V110",
+   "text": "처음 영상을 봤을 때"
+  },
+  {
+   "line": "V111",
+   "text": "두 집단의 관심 수준은"
+  },
+  {
+   "line": "V112",
+   "text": "비슷했습니다."
+  },
+  {
+   "line": "V113",
+   "text": "어려운 글을 읽은 뒤에는"
+  },
+  {
+   "line": "V114",
+   "text": "두 집단 모두 흥미가 줄었지만"
+  },
+  {
+   "line": "V115",
+   "text": "사람의 관심사는 고정돼 있다는"
+  },
+  {
+   "line": "V116",
+   "text": "강연을 들은 집단에서"
+  },
+  {
+   "line": "V117",
+   "text": "더 크게 떨어졌습니다."
+  },
+  {
+   "line": "V118",
+   "text": "연구진은 본인의 관심사는"
+  },
+  {
+   "line": "V119",
+   "text": "이미 정해져 있다고 믿는 사람에게"
+  },
+  {
+   "line": "V120",
+   "text": "어려움이 생기면"
+  },
+  {
+   "line": "V121",
+   "text": "이것이 자신의 진짜 관심사가"
+  },
+  {
+   "line": "V122",
+   "text": "아니라는 신호처럼"
+  },
+  {
+   "line": "V123",
+   "text": "받아들여질 수 있다고 설명했습니다."
+  },
+  {
+   "line": "V124",
+   "text": "이 관점을 앞서",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V125",
+   "text": "그림을 그리던 장면에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V126",
+   "text": "가져와 보겠습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V127",
+   "text": "얼굴을 그리는데"
+  },
+  {
+   "line": "V128",
+   "text": "자꾸 비율이 어긋납니다."
+  },
+  {
+   "line": "V129",
+   "text": "정말 좋아하는 일이면",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V130",
+   "text": "계속 재미있어야 할 텐데",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V131",
+   "text": "이렇게 답답한 걸 보니",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V132",
+   "text": "내 취미는 아닌가 봐.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V133",
+   "text": "이렇게 생각하면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V134",
+   "text": "아직 익숙하지 않아서 겪는 어려움을",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V135",
+   "text": "관심이 없다는 증거로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V136",
+   "text": "받아들이게 될 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V137",
+   "text": "하지만 같은 순간에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V138",
+   "text": "이렇게 물어볼 수도 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V139",
+   "text": "그림을 그리는 일이"
+  },
+  {
+   "line": "V140",
+   "text": "싫어진 걸까요"
+  },
+  {
+   "line": "V141",
+   "text": "아니면 그리고 싶은데"
+  },
+  {
+   "line": "V142",
+   "text": "아직 원하는 대로 그리지 못해서"
+  },
+  {
+   "line": "V143",
+   "text": "답답한 걸까요?"
+  },
+  {
+   "line": "V144",
+   "text": "그림 자체에 마음이 가지 않는다면"
+  },
+  {
+   "line": "V145",
+   "text": "다른 활동을 골라도 됩니다."
+  },
+  {
+   "line": "V146",
+   "text": "그런데 그리고 싶은 마음은 남아 있다면"
+  },
+  {
+   "line": "V147",
+   "text": "지금 필요한 것은"
+  },
+  {
+   "line": "V148",
+   "text": "조금 더 쉬운 그림일 수도 있죠."
+  },
+  {
+   "line": "V149",
+   "text": "막 싹이 난 화분을 보고"
+  },
+  {
+   "line": "V150",
+   "text": "꽃이 없으니"
+  },
+  {
+   "line": "V151",
+   "text": "꽃이 피지 않는 식물이라고"
+  },
+  {
+   "line": "V152",
+   "text": "단정할 수는 없습니다."
+  },
+  {
+   "line": "V153",
+   "text": "작은 관심에도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V154",
+   "text": "아직 경험해 보지 못한 재미가",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V155",
+   "text": "남아 있을 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V156",
+   "text": "그렇다고 관심이 생긴 뒤에는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V157",
+   "text": "연습만 계속하면 되는 걸까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V158",
+   "text": "이제 다른 문제가 나타납니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V159",
+   "text": "좋아하는 일을 시작했는데",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V160",
+   "text": "어느새 잘해야 할 일이 되는 겁니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V161",
+   "text": "사진을 찍으러 나갔습니다."
+  },
+  {
+   "line": "V162",
+   "text": "처음에는 길가의 빛이 예뻐서 찍었습니다."
+  },
+  {
+   "line": "V163",
+   "text": "그런데 사진을 올리고"
+  },
+  {
+   "line": "V164",
+   "text": "반응을 확인하기 시작합니다."
+  },
+  {
+   "line": "V165",
+   "text": "어느 순간부터"
+  },
+  {
+   "line": "V166",
+   "text": "내가 좋아하는 장면보다"
+  },
+  {
+   "line": "V167",
+   "text": "다른 사람이 좋아할 사진을"
+  },
+  {
+   "line": "V168",
+   "text": "먼저 생각합니다."
+  },
+  {
+   "line": "V169",
+   "text": "처음에는 취미를 더 즐기려고"
+  },
+  {
+   "line": "V170",
+   "text": "시작한 일이었는데"
+  },
+  {
+   "line": "V171",
+   "text": "평가를 받을 준비가 안 된 날에는"
+  },
+  {
+   "line": "V172",
+   "text": "아예 하고 싶지 않아집니다."
+  },
+  {
+   "line": "V173",
+   "text": "이 변화를 생각해 볼 만한"
+  },
+  {
+   "line": "V174",
+   "text": "오래된 실험이 있습니다."
+  },
+  {
+   "line": "V175",
+   "text": "한 유치원에"
+  },
+  {
+   "line": "V176",
+   "text": "그림 그리기를 좋아하는"
+  },
+  {
+   "line": "V177",
+   "text": "아이들이 있습니다."
+  },
+  {
+   "line": "V178",
+   "text": "아이들을 세 그룹으로 나눕니다."
+  },
+  {
+   "line": "V179",
+   "text": "A그룹의 아이들에게는"
+  },
+  {
+   "line": "V180",
+   "text": "그림을 그리면"
+  },
+  {
+   "line": "V181",
+   "text": "상을 주기로 약속하고"
+  },
+  {
+   "line": "V182",
+   "text": "B그룹의 아이들에게는"
+  },
+  {
+   "line": "V183",
+   "text": "상에 관한 말 없이"
+  },
+  {
+   "line": "V184",
+   "text": "그림을 그렸다가"
+  },
+  {
+   "line": "V185",
+   "text": "나중에 예상하지 못한 상을 줬습니다."
+  }
+ ]
+}

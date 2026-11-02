@@ -37,3 +37,35 @@
   자막은 대본대로 '싫어진', 다시 녹음을 제안함.
 - 발음 차이만 있는 곳은 대본 글자(재밌을 -> 재미있을, 재밌어야 -> 재미있어야). whisper가 잘못 적은 곳(근거, 와 달리, 정말 좋아하는)은
   음절 모델로 대본과 같음을 확인.
+
+스톡(Mixkit, 모두 라이선스 Free, 2026-11-02 확인. 고른 기록은 stock/picks/group_A·B.json, 바꾼 것은 stock_overrides.json)
+- st01 14.0초부터 3.9초, Mixkit 43264 "Person stirring latte art in a cup" (7.0초부터): 생각해 보니 그게 전부입니다. / 그대로 말하자니 괜히 머쓱합니다.
+- st02 20.7초부터 2.1초, Mixkit 43264 "Person stirring latte art in a cup" (13.4초부터): 잠깐 망설이다 이렇게 대답합니다. | 바꿈: 고른 39957(외국 카페 데이트)은 두 사람 얼굴이 사진 속 주인공·상대와 달라서, st01과 같은 라테 영상의 다른 부분(13.4초~, 손만 보임)으로 바꿈
+- st03 32.5초부터 4.2초, Mixkit 40733 "Walking in the city at night seeing its buildings" (3.4초부터): 쉬는 날에 뭘 하느냐는 / 가벼운 질문이었는데 / 왜 이렇게 할 말이 없 | 상표 자리 흐림
+- st04 39.2초부터 5.8초, Mixkit 5197 "Hand of an artist with a brush when painting" (0.5초부터): 누가 시키지 않아도 / 찾아서 하는 일 하나쯤은 / 있어야 할 것 같습니
+- st05 50.7초부터 3.5초, Mixkit 25581 "Sad and crestfallen man sitting in the dark" (0.0초부터): 그러고는 생각합니다. / 역시 이것도 / 내 취미는 아니었나 봅니다. | 바꿈: 고른 100112는 주인공과 다른 얼굴(수염, 긴 머리)이 아래 자막 동안 선명하게 보여서, 얼굴 없는 실루엣 25581의 앞부분(0~4.1초)으로 바꿈
+- st06 58.9초부터 6.3초, Mixkit 50731 "A woman gently turning the pages of a book" (0.3초부터): 심리학 연구들을 살펴보면 / 좋아하는 마음을 어떻게 바라보고 / 어떤 경
+- st07 65.2초부터 7.1초, Mixkit 4776 "Watering plants in a garden" (2.3초부터): 오늘은 관심이 생겨도 / 금방 놓아 버리는 이유를 살펴보고 / 작은 관심
+- st08 100.5초부터 8.7초, Mixkit 29984 "Drawing in a notebook on a white table" (2.5초부터): 재미있을 줄 알았는데 / 생각보다 어렵습니다. / 여기서 / 아직 손에  | 상표 자리 흐림
+- st09 111.4초부터 8.2초, Mixkit 50113 "A young student with a black pen draws a mathematical chart on his squared notebook. " (0.3초부터): 어려웠다는 한 번의 경험이 / 내가 어떤 사람인지를 / 판정하는 근거가 
+- st10 119.5초부터 3.6초, Mixkit 4531 "Girl doing homework in a library" (0.5초부터): 여러분이 새로운 관심사에 관한 / 실험에 참여했다고 / 생각해 보겠습니다
+- st11 168.8초부터 3.1초, Mixkit 29983 "Designer in his studio giving color to his strokes in a notebook" (1.0초부터): 이 관점을 앞서 / 그림을 그리던 장면에 / 가져와 보겠습니다.
+- st12 179.5초부터 8.0초, Mixkit 100112 "A young man sitting in a dark room focuses on the unfolding chess game" (0.2초부터): 이렇게 생각하면 / 아직 익숙하지 않아서 겪는 어려움을 / 관심이 없다는 | 바꿈: 가운데 자막만 나오는 구간이라 처음부터 끝까지 흐리게 보여, 얼굴이 보이는 100112를 여기로 옮김(25581은 st05에 씀). 1280x720 파일
+- st13 193.3초부터 3.4초, Mixkit 1973 "A ceramic artist modeling pottery" (0.5초부터): 그림 자체에 마음이 가지 않는다면 / 다른 활동을 골라도 됩니다.
+- st14 196.7초부터 4.8초, Mixkit 18308 "Drawing a heart on a foggy window on a rainy day" (8.0초부터): 그런데 그리고 싶은 마음은 남아 있다면 / 지금 필요한 것은 / 조금 더
+- st15 206.6초부터 4.2초, Mixkit 4484 "Lilies flowers on its stem slowly opening" (2.0초부터): 작은 관심에도 / 아직 경험해 보지 못한 재미가 / 남아 있을 수 있습니 | 바꿈: 밝고 진한 파란 배경(스튜디오)이라 색을 많이 빼고 어둡게(가운데 자막 밑)
+- st16 210.8초부터 9.1초, Mixkit 43772 "Shot of the hands of a talented pianist playing" (1.0초부터): 그렇다고 관심이 생긴 뒤에는 / 연습만 계속하면 되는 걸까요? / 이제  | 상표 자리 흐림
+- st17 238.3초부터 3.0초, Mixkit 2860 "Movie tape" (6.5초부터): 이 변화를 생각해 볼 만한 / 오래된 실험이 있습니다. | 바꿈: 청록빛 필름 릴을 거의 흑백으로(오래된 실험 느낌)
+
+배경음악(Mixkit Stock Music Free License, 곡마다 고정 크기, 배경음악 전체 -36 LUFS, 끝 4초 줄임)
+- 0:00~1:12.3 Fallen (Asper) / Eugenio Mininni (565): ① 도입. 03편 v2에서 사용자가 고른 긴장감 있고 약간 미스터리한 도입 곡
+- 1:12.3~1:59.5 Classical 7 / Jonny S. (714): ② 주말 오후와 그림 장면, 잔잔한 피아노
+- 1:59.5~3:30.8 Tapis / Eugenio Mininni (615): ③ 블랙홀 실험과 해석, 차분한 궁금증(03편 실험 구간과 같은 곡)
+- 3:30.8~끝 Staring at the Night Sky / Alejandro Magaña (168): ④ 사진 취미와 오래된 실험
+
+화면과 소리 설정(03편 v2와 같음)
+- 사진: 아주 천천히 확대만(초당 0.8%), 색은 거의 그대로. 가운데 자막(가운데, 가운데 기울임) 동안 그림을 흐리고 약간 어둡게.
+- 자막과 장면은 목소리가 그 말을 시작하는 때에만 바뀜(onsets_v2.py). 효과음 없음.
+- 목소리 -14 LUFS(녹음 전체에 같은 크기), 섞은 뒤 -14 LUFS, 최고 -1.5 dBFS 제한.
+- 사진 표시가 없는 문장은 모두 스톡(검은 화면 없음, 사용자 요청 "ai 사진 없는 건 스톡에서 영상 가져와서"). 이어지는 표시 없는
+  문장은 한 영상, 길고 내용이 바뀌는 곳(st06/st07, st09/st10, st13/st14)은 둘로 나눔.

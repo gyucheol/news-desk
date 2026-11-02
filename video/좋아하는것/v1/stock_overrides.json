@@ -1,0 +1,45 @@
+{
+ "st15": {
+  "grade": {
+   "sat": 0.2,
+   "black": 0.08,
+   "gamma": 1.6,
+   "vignette": 0.6,
+   "gain": 0.85
+  },
+  "why": "밝고 진한 파란 배경(스튜디오)이라 색을 많이 빼고 어둡게(가운데 자막 밑)"
+ },
+ "st17": {
+  "grade": {
+   "sat": 0.15,
+   "black": 0.04,
+   "gamma": 1.2,
+   "vignette": 0.55
+  },
+  "why": "청록빛 필름 릴을 거의 흑백으로(오래된 실험 느낌)"
+ },
+ "st02": {
+  "id": "43264",
+  "title": "Person stirring latte art in a cup",
+  "url": "https://mixkit.co/free-stock-video/person-stirring-latte-art-in-a-cup-43264/",
+  "in": 13.4,
+  "blur_box": null,
+  "why": "고른 39957(외국 카페 데이트)은 두 사람 얼굴이 사진 속 주인공·상대와 달라서, st01과 같은 라테 영상의 다른 부분(13.4초~, 손만 보임)으로 바꿈"
+ },
+ "st05": {
+  "id": "25581",
+  "title": "Sad and crestfallen man sitting in the dark",
+  "url": "https://mixkit.co/free-stock-video/sad-and-crestfallen-man-sitting-in-the-dark-25581/",
+  "in": 0.0,
+  "blur_box": null,
+  "why": "고른 100112는 주인공과 다른 얼굴(수염, 긴 머리)이 아래 자막 동안 선명하게 보여서, 얼굴 없는 실루엣 25581의 앞부분(0~4.1초)으로 바꿈"
+ },
+ "st12": {
+  "id": "100112",
+  "title": "A young man sitting in a dark room focuses on the unfolding chess game",
+  "url": "https://mixkit.co/free-stock-video/a-young-man-sitting-in-a-dark-room-focuses-on-100112/",
+  "in": 0.2,
+  "blur_box": null,
+  "why": "가운데 자막만 나오는 구간이라 처음부터 끝까지 흐리게 보여, 얼굴이 보이는 100112를 여기로 옮김(25581은 st05에 씀). 1280x720 파일"
+ }
+}

@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-title" content="뉴스 데스크">
 <meta name="theme-color" content="#101318">
 <style>.reqbar,[data-act="dreq"],[data-act="req"]{display:none!important}.sitenote{margin:0;color:var(--muted);font-size:13px}</style>
-<script>window.SITE_BUILD="2026-11-02 10:32";</script>
+<script>window.SITE_BUILD="2026-11-02 12:03";</script>
 <script src="shim.js"></script>
 </head>
 <body>
@@ -518,7 +518,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
     </nav>
   </header>
 
-  <p class="sitenote">웹 보기판 · 마지막 갱신 2026-11-02 10:32 (KST) · 읽음 표시는 이 기기에만 저장되고, 요청 버튼은 Claude 데스크에서만 쓸 수 있습니다.</p>
+  <p class="sitenote">웹 보기판 · 마지막 갱신 2026-11-02 12:03 (KST) · 읽음 표시는 이 기기에만 저장되고, 요청 버튼은 Claude 데스크에서만 쓸 수 있습니다.</p>
 <p class="status" id="status">데이터를 불러오는 중입니다.</p>
 
   <main id="main"></main>
@@ -570,7 +570,7 @@ mark{background:var(--hl-bg);color:var(--hl);font-weight:600;padding:.06em 2px;b
   let dreqs = {}, dreqDone = {}, dsent = {}, dsess = {}, dreqRef = null;   // 뉴스 내용 및 인사이트 요청(ids 체크, sent 요청 보냄, done 작성 끝)
   let rqReads = {}, rqReadRef = null;   // 요청한 뉴스 탭의 읽음 처리(뉴스 목록의 읽음과 따로 기록)
   const st = {
-    tab: 'news', src: 'all', nind: 'all', unreadOnly: false, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(), rqAll: false,
+    tab: 'news', src: 'all', nind: 'all', unreadOnly: true, ckOnly: false, q: '', shown: PAGE, confirmAll: false, dopen: new Set(), rqAll: false,
     ind: null, flowNode: 'all', flowMore: false, fedWho: 'all', fedMore: false, aq: '', archMode: 'cards', archMore: false, cq: '', cardsMore: false, open: new Set()
   };
   try {

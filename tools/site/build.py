@@ -58,7 +58,8 @@ head = ('<!doctype html>\n<html lang="ko">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="apple-mobile-web-app-title" content="뉴스 데스크">\n'
         '<meta name="theme-color" content="#101318">\n'
         '<style>.reqbar,[data-act="dreq"],[data-act="req"]{display:none!important}'
-        '.sitenote{margin:0;color:var(--muted);font-size:13px}</style>\n'
+        '.sitenote{margin:0;color:var(--muted);font-size:13px}.sitesync{display:flex;flex-wrap:wrap;gap:8px;align-items:center}'
+        '.sitemsg{font-size:13px;color:var(--good-strong)}</style>\n'
         f'<script>window.SITE_BUILD={json.dumps(stamp)};</script>\n'
         '<script src="shim.js"></script>\n</head>\n<body>\n')
 main = '<script>\n(() => {\n  const $ = id => document.getElementById(id);'
@@ -66,11 +67,34 @@ assert page.count(main) == 1, '데스크 원본의 본 스크립트 시작을 �
 ub = "tab: 'news', src: 'all', nind: 'all', unreadOnly: false,"
 assert page.count(ub) == 1
 page = page.replace(ub, "tab: 'news', src: 'all', nind: 'all', unreadOnly: true,")
-note = (f'<p class="sitenote">웹 보기판 · 마지막 갱신 {stamp} (KST) · 읽음 표시는 이 기기에만 저장되고, '
-        '요청 버튼은 Claude 데스크에서만 쓸 수 있습니다.</p>\n')
+note = (f'<p class="sitenote">웹 보기판 · 마지막 갱신 {stamp} (KST) · 여기서 누른 읽음은 이 기기에만 저장됩니다. '
+        'Claude 데스크에도 반영하려면 아래 버튼으로 복사해 Claude 대화에 붙여 주세요. 요청 버튼은 Claude 데스크에서만 쓸 수 있습니다.</p>\n'
+        '<div class="sitesync"><button type="button" class="tg" id="sitesync">Claude에 보낼 읽음 기록 복사</button>'
+        '<span class="sitemsg" id="sitemsg" aria-live="polite"></span>'
+        '<textarea id="sitetext" class="reqtext" readonly hidden aria-label="Claude에 붙여 넣을 읽음 기록"></textarea></div>\n')
+# 웹에서 새로 읽음 처리한 뉴스 = 이 브라우저 읽음 기록 중 데스크 사본(data/reads.json)보다 새로 생긴 것
+sync = '''<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const btn = $('sitesync'); if (!btn) return;
+  btn.addEventListener('click', async () => {
+    let seed = {}, cur = {};
+    try { seed = ((await (await fetch('data/reads.json?v=' + encodeURIComponent(window.SITE_BUILD || ''), { cache: 'no-cache' })).json()) || {}).ids || {}; } catch (e) {}
+    try { cur = JSON.parse(localStorage.getItem('deskReads:anon') || '{}') || {}; } catch (e) {}
+    const ids = Object.keys(cur).filter(k => cur[k] && (!seed[k] || cur[k] > seed[k])).sort();
+    const t = $('sitetext'), m = $('sitemsg');
+    if (!ids.length) { m.textContent = '웹에서 새로 읽음 처리한 뉴스가 없습니다.'; t.hidden = true; return; }
+    const text = '웹 읽음 ' + ids.length + '건: ' + ids.join(' ');
+    t.value = text; t.hidden = false;
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (e) { try { t.select(); ok = document.execCommand('copy'); } catch (e2) {} }
+    m.textContent = ok ? ids.length + '건을 복사했습니다. Claude 대화에 붙여 넣어 주세요.' : '아래 글을 길게 눌러 복사해 Claude 대화에 붙여 넣어 주세요.';
+  });
+})();
+</script>'''
 anchor = '<p class="status" id="status">'
 assert page.count(anchor) == 1
 page = page.replace(anchor, note + anchor)
-open(f'{OUT}/index.html', 'w', encoding='utf-8').write(head + page + '\n</body>\n</html>\n')
+open(f'{OUT}/index.html', 'w', encoding='utf-8').write(head + page + '\n' + sync + '\n</body>\n</html>\n')
 print('read', len(readmap), 'unread', len(news) - len(readmap), 'news', len(news), 'chains', len(chains), 'cycle', bool(cyc), 'stamp', stamp,
       'size', {f: os.path.getsize(f'{OUT}/data/{f}') for f in os.listdir(f'{OUT}/data')})

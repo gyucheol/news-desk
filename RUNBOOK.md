@@ -59,3 +59,6 @@ ArtifactData batch: news 신규는 if_version 없이, meta/progressV4·newsSeen�
 2. gh-pages 브랜치(사이트 파일만 있음)에 work/site/ 내용을 그대로 덮어 커밋·푸시:
    `git worktree add <임시폴더> gh-pages && cp -r work/site/. <임시폴더>/ && (cd <임시폴더> && git add -A && git commit -m "웹 보기판 갱신" && git push origin gh-pages)`
 3. 주소: https://gyucheol.github.io/news-desk/ (공개 저장소라 주소를 아는 사람은 누구나 볼 수 있음, noindex)
+4. 웹에서 읽음 처리한 것을 Claude 데스크에 반영(2026-11-02 사용자 요청): 사용자가 사이트의 'Claude에 보낼 읽음 기록 복사'로 '웹 읽음 N건: id …'를 붙여 주면
+   reads를 받아(get data/users/me/reads, 버전 기억) `python3 -I tools/site/apply_reads.py <reads.json> <붙인 글.txt> <out.json>` → ArtifactData update(if_version) → 사이트 다시 만들기(1~2).
+   붙여 준 id는 지금 시각으로 넣으므로 그 뒤 기사가 더해지면(updatedAt이 더 나중) 다시 안 읽음이 됩니다(데스크와 같은 규칙).

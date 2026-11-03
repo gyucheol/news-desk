@@ -3,7 +3,8 @@
 # 넘치는 부분만 자름), 흰 글씨 Noto Sans KR 800, 글자 아래 그림자(아래로 6px, 흐림 14px), 빨강 (230,40,48)은 고를 수 있는 색.
 # 다른 점(사용자 요청): 글씨를 아래 칸이 아니라 화면 가운데(세로 가운데 y=360)에 둠. 7글자라 한 단어 규격 262px로는 화면에
 # 들어가지 않아, 한 줄(가로 1150px 안에 드는 가장 큰 크기) 또는 두 줄("취미가 있는" / "사람")로 만듦.
-# usage: thumb_mid.py OUT.jpg IMAGE --lines 1|2 [--box x0,y0,x1,y1] [--red 취미] [--cy 360] [--size px]
+# 2026-11-03 추가: --text로 다른 문구(짧으면 채널 틀 크기 262px, 길면 가로 1150px 안에 맞춤).
+# usage: thumb_mid.py OUT.jpg IMAGE --lines 1|2 [--text 문구] [--box x0,y0,x1,y1] [--red 취미] [--cy 360] [--size px]
 import sys
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 FONT = '/tmp/claude-0/-home-user-news-desk/6ce83ec0-0608-598d-bae7-3d2c42c6eb05/scratchpad/fonts/NotoSansKR-VF.ttf'
@@ -80,8 +81,13 @@ if __name__ == '__main__':
     out, src = a[0], a[1]
     n = int(opt('--lines', '1'))
     lines = [TEXT] if n == 1 else ['취미가 있는', '사람']
+    if '--text' in a:
+        lines = [opt('--text', TEXT)]
     box = tuple(int(v) for v in opt('--box', '').split(',')) if '--box' in a else None
     img = fill_photo(src, box)
-    img, size, lh, span = put_text(img, lines, float(opt('--cy', '360')), opt('--red', None), size=int(opt('--size', '0')) or None)
+    size = int(opt('--size', '0')) or None
+    if size is None and '--text' in a:
+        size = min(262, fit_size(lines))          # 짧은 문구는 채널 틀의 한 단어 크기(262px)까지
+    img, size, lh, span = put_text(img, lines, float(opt('--cy', '360')), opt('--red', None), size=size)
     img.save(out, quality=93)
     print(out, f'font {size}px, ink height {lh}px, text y {span[0]:.0f}-{span[1]:.0f}')

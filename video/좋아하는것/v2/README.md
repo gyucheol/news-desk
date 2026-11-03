@@ -49,3 +49,54 @@
 - 5:06.2~7:14.3 Forest Mist Whispers / Alejandro Magaña (148): ⑤ 호출기 실험과 그림 예시 (차분한 다큐 느낌, 크기 변화가 작음)
 - 7:14.3~9:50.6 Miss You / Eugenio Mininni (592): ⑥ 해결책 세 가지 (희망적이고 차분함)
 - 9:50.6~끝 Rebecca on the Shore / Eugenio Mininni (545): ⑦ 마무리 (곡의 끝이 영상 끝과 맞음)
+
+스톡(Mixkit, 모두 라이선스 Free, 2026-11-02~03 확인. 고른 기록은 stock/picks/group_C·D·E.json, 앞부분 st01~st17은 v1과 같음)
+- st18 262.3초부터 8.9초, Mixkit 43350 "Little girl drawing with her father in front" (1.0초부터): 상을 받은 아이들이 / 더 자주 그림을 그렸을까요? / 놀랍게도 미리 상 | 상표·글자 자리 흐림
+- st18b 271.2초부터 5.5초, Mixkit 44849 "A girl's hands embellishing a Valentine's Day card" (1.5초부터): 똑같이 상을 받았어도 / 예상하지 못한 상을 받은 / B그룹에서는 / 그 | 상표·글자 자리 흐림
+- st19 276.8초부터 11.1초, Mixkit 43353 "Young father working alongside his daughter" (7.0초부터): 이 연구는 과잉정당화 효과를 / 보여 주는 대표적인 사례입니다. / 원래 | 상표·글자 자리 흐림
+- st20 287.8초부터 10.2초, Mixkit 100467 "Painter's Hand Softly Brushing a Canvas" (0.2초부터): 이 장면을 보며 우리 취미에도 / 질문 하나를 가져와 볼 수 있습니다. 
+- st21 300.7초부터 5.5초, Mixkit 100483 "Finished Still Life Painting on an Easel" (0.5초부터): 다만 그 이유만 남는다면 / 아무도 봐 주지 않는 날에는 / 다시 시작할
+- st22 306.2초부터 9.1초, Mixkit 4726 "Drunk young man watching television" (2.0초부터): 그런데 평가를 내려놓고 / 자유시간까지 생겼는데도 / 무엇을 해야 즐거울
+- st23 353.8초부터 6.0초, Mixkit 44588 "A person turning up the volume on the TV" (1.6초부터): 일에서 벗어나 자유롭게 / 시간을 보내고 싶은 마음과 / 실제로 몰입하는 | 상표·글자 자리 흐림
+- st24 359.9초부터 8.9초, Mixkit 772 "Wood lathe in action" (0.5초부터): 취미를 찾을 때도 여기서 / 한 가지 질문을 가져와 볼 수 있습니다. /
+- st25 376.9초부터 8.3초, Mixkit 41199 "Young man browsing the Internet with a tablet" (0.3초부터): 그럴 때는 머릿속으로 / 잘 맞을 취미를 고르는 것만으로는 / 답을 찾기
+- st26 402.8초부터 11.2초, Mixkit 41603 "Focus on the hand of an artist girl painting with watercolor" (2.5초부터): 시작하기 전에는 / 그저 그림을 그려 보고 싶었습니다. / 해 보고 나니 | 상표·글자 자리 흐림
+- st27 414.0초부터 16.0초, Mixkit 2851 "A person sowing a seed" (9.8초부터): 이런 경험이 쌓이면서 / 막연했던 관심은 / 조금씩 구체적인 취향이 되어
+- st28 439.0초부터 4.5초, Mixkit 42189 "Hands of a girl putting together the edge of a puzzle" (7.0초부터): 처음이 매끄럽지 않았다는 사실만으로 / 나와 맞지 않는다고 / 결론 내릴
+- st29 448.2초부터 4.2초, Mixkit 265 "Guy texting at sunset" (8.5초부터): 사진이 궁금하다면 / 지금 쓰는 휴대폰으로 / 마음에 드는 빛을 찍어 볼
+- st30 460.1초부터 6.3초, Mixkit 43432 "Painting a picture with a palette knife" (3.0초부터): 색을 고를 때는 좋았는데 / 얼굴을 똑같이 그리는 게 답답했다면 / 다음
+- st31 466.4초부터 6.0초, Mixkit 4793 "Happy young man writing with pen and paper" (0.0초부터): 좋았던 순간을 알아내면 / 다음 시도에 남길 것이 생깁니다. / 불편했던
+- st32 472.4초부터 8.0초, Mixkit 649 "Man packing his saxophone" (6.5초부터): 여러 번 해 봐도 / 마음이 가지 않는다면 / 다른 활동으로 옮겨 가도  | 상표·글자 자리 흐림
+- st33 480.5초부터 6.7초, Mixkit 39846 "Trash basket of an office with paper balls" (0.0초부터): 하지만 다시 해 볼 마음이 생겨도 / 매번 너무 어렵다면 / 금세 지치기 | 속도 0.86
+- st34 487.1초부터 4.0초, Mixkit 50917 "A young man firmly grips the training climbing wall" (0.0초부터): 둘째. / 지금 할 수 있는 것보다 / 조금만 어려운 목표를 만들어 보세
+- st35 507.8초부터 7.4초, Mixkit 42824 "Skillful guitarist playing a black guitar" (0.2초부터): 오늘은 두 코드를 바꿀 때 / 소리가 끊기지 않게 해 보는 겁니다. / 
+- st36 515.2초부터 9.4초, Mixkit 44140 "Close view of a keyboard player's hands playing" (1.0초부터): 해 보니 여전히 어렵다면 / 더 쉬운 부분으로 바꿔 보세요. / 이미 너
+- st37 524.6초부터 4.5초, Mixkit 50299 "Long-Haired Guitarist Tuning Electric Guitar in Store" (0.0초부터): 어제는 구분하지 못했던 소리가 들리거나 / 전에는 놓쳤던 모양이 / 보일 | 상표·글자 자리 흐림
+- st38 529.1초부터 8.8초, Mixkit 42843 "Playing chords on the electric guitar in the dark" (1.0초부터): 처음부터 큰 열정이 없어도 / 이런 작은 궁금증을 / 따라가 볼 수 있습
+- st39 537.9초부터 4.9초, Mixkit 4838 "Photographing a delicious dessert" (5.0초부터): 그런데 작은 진전이 생기면 / 또다시 남에게 보여 줄 결과에만 / 마음이 | 상표·글자 자리 흐림
+- st40 542.8초부터 7.6초, Mixkit 808 "Steaming mug" (0.0초부터): 마지막 방법은 / 그렇게 자라기 시작한 관심을 / 지키는 데 관한 것입니
+- st41 555.9초부터 3.8초, Mixkit 41709 "Violinist carefully removing his violin from its case" (0.6초부터): 취미에서도 내가 무엇을 기대하며 / 시작하는지 살펴볼 수 있겠습니다.
+- st42 562.8초부터 3.7초, Mixkit 44161 "Close view of a musician playing a Spanish guitar" (0.0초부터): 악기를 연주한 시간도 / 녹음해서 누군가에게 / 들려줄 필요는 없죠.
+- st43 566.5초부터 4.9초, Mixkit 41602 "Hand of a woman painting with watercolors" (5.0초부터): 예를 들어 오늘은 10분 동안 / 마음에 드는 색을 써 보고 / 그 종이
+- st43b 571.4초부터 8.3초, Mixkit 5257 "Mixing colors in a paint palette" (0.5초부터): 끝난 뒤 잘했는지보다 / 어떤 색을 고를 때 좋았는지 / 떠올려 보세요.
+- st44 579.7초부터 6.0초, Mixkit 3272 "Amateur band playing rock" (1.0초부터): 혼자만 즐기라는 뜻은 아닙니다. / 친구와 함께하는 시간이 좋다면 / 그 | 상표·글자 자리 흐림
+- st45 585.8초부터 4.9초, Mixkit 100473 "Artist Working on a Painting" (2.0초부터): 다만 다른 사람이 반응하지 않는 날에도 / 내가 좋아했던 부분을 / 알아
+- st46 590.6초부터 5.1초, Mixkit 43935 "Demonstration video of a steaming cup of coffee" (0.3초부터): 취미가 있다는 것은 / 내가 어떤 시간을 좋아하는지 / 조금 더 알고 있
+- st47 595.7초부터 4.7초, Mixkit 44135 "Talented drummer playing in a close shot" (0.5초부터): 생각해 보면 우리가 부러워했던 사람은 / 꼭 취미 실력이 뛰어난 사람만은
+- st47b 600.4초부터 7.2초, Mixkit 41846 "Two friends chatting happily" (0.5초부터): 다음 주말에 무엇을 할지 이야기할 때 / 표정이 밝아지는 사람 / 별것 
+- st48 607.7초부터 11.7초, Mixkit 4409 "Modern buildings at dusk" (7.0초부터): 그런 마음이 언제부터 생겼는지는 / 겉으로 잘 보이지 않습니다. / 지금 | 상표·글자 자리 흐림
+- st49 626.8초부터 8.0초, Mixkit 41059 "Two mountaineers putting away their things during the sunset" (0.5초부터): 물론 모든 활동을 오래 붙잡는다고 / 좋아하게 되는 것은 아닙니다. / 
+- st50 634.8초부터 4.0초, Mixkit 43735 "Portrait of a man breathing while meditating" (0.3초부터): 관심을 키운다는 것은 / 내 마음을 무시한 채 / 버틴다는 뜻이 아니니까
+- st51 638.7초부터 5.9초, Mixkit 39845 "Man in an office throws a ball of paper into the trash can" (0.5초부터): 다만 작은 관심이 생겼을 때 / 아직 잘하지 못한다는 이유로 / 너무 빨 | 속도 0.8
+- st51b 644.6초부터 5.4초, Mixkit 1780 "Watering a flower pot" (0.0초부터): 무엇이 좋았는지 살펴보고 / 나에게 맞는 방식을 바꿔 가며 / 조금 더 
+- st52 650.0초부터 9.3초, Mixkit 43264 "Person stirring latte art in a cup" (0.0초부터): 취미를 묻는 말에 / 꼭 완성된 대답을 준비할 필요도 / 없겠습니다. / | 속도 0.8
+- st53 659.3초부터 7.6초, Mixkit 1086 "Sunrise on the ocean" (0.5초부터): 좋아하는 마음이 분명해진 뒤에만 / 시작할 수 있는 것은 아닙니다. / 
+- st54 667.0초부터 9.7초, Mixkit 3977 "View of a window with a curtain" (0.3초부터): 여러분에게도 처음에는 / 별생각 없이 시작했다가 / 점점 좋아진 활동이 
+- 고르는 기준(v1과 같음): 대사를 그대로 보여 주는 장면, 어둡고 따뜻한 밤 실내 느낌, 주인공 대신 나오는 사람은 손·뒷모습 위주,
+  글자와 상표가 없을 것(있으면 흐림 상자). 무료(Free) 라이선스만 쓰고 Restricted는 쓰지 않음.
+- 무료 클립이 없어 가까운 장면으로 대신한 곳: st19(트로피·메달·스티커 클립이 모두 Restricted -> 아빠가 아이 그림을 크게 칭찬하는
+  장면, 가운데 자막 밑이라 흐림), st28(지우개·구긴 종이 -> 퍼즐 조각을 맞춰 보는 손), st29(휴대폰으로 사진 찍기 -> 노을빛에 휴대폰을
+  든 손), st33(답답한 표정 -> 구긴 종이가 가득한 휴지통).
+- 같은 촬영에서 나온 클립이 두 번 나오는 곳: st33(휴지통)과 st51(종이를 휴지통에 던지는 사람), st20·st21(화실)과 st45(같은 화실),
+  st26과 st43(같은 수채화 촬영). 장면 내용은 서로 다름.
+- st52는 도입부 카페 장면(st01·st02)에 쓴 라테 영상을 다시 씀(취미를 묻는 대답으로 돌아오는 장면).

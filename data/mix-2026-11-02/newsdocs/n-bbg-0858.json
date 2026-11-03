@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0858",
+ "num": 858,
+ "key": "mix-G1-027-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T09:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/ge-vernova-s-monster-grid-deal-signals-new-era-for-supply-chain-takeovers",
+ "origTitle": "",
+ "headline": "GE 버노바, 트렌치 90억 달러 인수로 전력망 공급망 흡수…효성중공업 목표가 400만 원 유지",
+ "src": [
+  {
+   "o": "GE Vernova",
+   "d": "2026-10-28",
+   "u": "https://www.gevernova.com/news/press-releases/ge-vernova-acquire-trench-group"
+  },
+  {
+   "o": "SolarQuarter",
+   "d": "2026-10-29",
+   "u": "https://solarquarter.com/2026/10/29/ge-vernova-to-acquire-trench-group-for-9-billion-to-expand-high-voltage-grid-equipment-business/"
+  }
+ ],
+ "items": [
+  {
+   "t": "GE 버노바 대형 전력망 거래, 공급망 인수 새 시대 신호",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/ge-vernova-s-monster-grid-deal-signals-new-era-for-supply-chain-takeovers",
+   "s": "GE 버노바가 공급업체 트렌치를 약 90억 달러에 사들이면서 전력기기 업체들의 공급망 수직계열화 경쟁이 본격화했다"
+  },
+  {
+   "t": "효성중공업, 일회성 비용에도 수익성 견조…목표가 400만 원 유지",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-11-02",
+   "u": "https://t.me/habit4117/87088",
+   "s": "증권가가 효성중공업의 인도 지연 등 일회성 비용에도 수익성이 견조하다고 보면서 목표가 400만 원을 유지했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "nodes": [
+  "power/grid"
+ ],
+ "title": "GE 버노바, 트렌치 90억 달러 인수로 전력망 공급망 흡수…효성중공업 목표가 400만 원 유지",
+ "one": "전력기기 업계에서 공급업체 인수와 실적 견조 평가가 함께 나왔다\n· GE 버노바는 고압 전력기기 업체 트렌치를 약 90억 달러에 사들이기로 했다\n· 블룸버그는 이 거래가 공급망 인수의 새 국면을 알린다고 짚었다\n· 증권가는 효성중공업이 인도 지연 등 일회성 비용에도 수익성이 견조하다고 봤다\n· 목표가 400만 원이 유지됐고 직전 종가는 180만 9,000원이었다",
+ "facts": [
+  "무엇이: GE 버노바는 트리톤으로부터 고압 전력기기 업체 트렌치그룹을 약 90억 달러(2028년 조정 EBITDA의 약 13배)에 인수하기로 했고, 대금은 현금과 부채 절반씩, 완료는 2027년 말 목표다 [사실]",
+  "의미: 기존 공급업체를 수직계열화해 핵심 전력망 장비 생산능력을 늘리고 약 50억 달러의 수주잔고·기본계약을 더하며, 샬럿 공장의 765kV 장비 생산은 2027년 말 시작 예정이다 [사실]",
+  "효성중공업: 증권사 리포트는 인도 지연 등 일회성 비용에도 수익성이 견조하다며 목표가 400만 원을 유지했고 직전 종가는 180만 9,000원이었다 [채널]"
+ ],
+ "basis": "partial",
+ "check": "GE 버노바의 트렌치 90억 달러 인수는 검색 결과 요약으로 확인. 효성중공업 리포트 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "grid",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "GE 버노바 트렌치 인수로 고압 전력기기 생산능력 확대"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

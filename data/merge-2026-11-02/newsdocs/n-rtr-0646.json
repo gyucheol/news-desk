@@ -1,0 +1,79 @@
+{
+ "basis": "title",
+ "check": "n-rtr-0646에 n-rtr-0684를 합침. 비준과 그리스·이집트 협상은 원 문서의 검색 결과 요약(알모니터·마린링크) 확인을 따르고, 2020년 보이콧 해제는 로이터 제목 기준이라 basis는 title로 둠.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 리비아 동부 의회가 튀르키예와의 해양 협정(2019년 터키·리비아 해양 양해각서)을 승인·비준했다 [사실]",
+  "보이콧: 동부 의회는 2020년 보이콧을 해제했다 [제목]",
+  "그리스·이집트: 두 나라는 2020년 맺은 배타적경제수역 경계 합의를 키프로스 쪽 동쪽으로 넓히는 방안을 논의하고 있고, 외무장관들은 리비아 동부의 비준을 거부한다고 재확인했으며 그리스 외무장관은 확장이 국제법과 유엔해양법협약에 맞을 것이라고 했다 [사실]",
+  "의미: 동지중해 해역 권리를 둘러싼 터키와의 갈등이 커질 수 있다 [추론]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "리비아 동부 튀르키예 해양 협정 승인…그리스·이집트 EEZ 경계 동쪽 확장 협상으로 대응",
+ "id": "n-rtr-0646",
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-20",
+   "o": "로이터",
+   "t": "리비아 동부 의회, 튀르키예 해양 협정 승인·2020년 보이콧 해제",
+   "u": "https://www.reuters.com/world/europe/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boycott-2026-10-20/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "t": "그리스·이집트, 해양경계를 동쪽으로 넓히는 협상",
+   "u": "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/"
+  }
+ ],
+ "key": "mix-G1-078-2026-10-21",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 646,
+ "one": "리비아 동부 의회의 튀르키예 해양 협정 승인에 그리스·이집트가 해양경계 확장 협상으로 맞섰다\n· 리비아 동부 의회는 10월 20일 무렵 2019년 터키·리비아 해양 양해각서를 비준했다\n· 그리스와 이집트는 2020년 배타적경제수역 경계 합의를 키프로스 쪽 동쪽으로 넓히는 협상을 벌이고 있다\n· 두 나라 외무장관은 리비아 동부의 비준을 거부한다고 재확인했고 확장이 국제법에 맞을 것이라고 밝혔다\n· 리비아 동부 의회는 이번 승인과 함께 2020년부터 이어 온 보이콧을 풀었다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-10-23T00:31:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/10/greece-egypt-talks-extend-maritime-zone-further-east"
+  },
+  {
+   "d": "2026-10-22",
+   "o": "MarineLink",
+   "u": "https://www.marinelink.com/news/greece-egypt-discuss-extending-eez-543847"
+  }
+ ],
+ "tags": [],
+ "title": "리비아 동부 튀르키예 해양 협정 승인…그리스·이집트 EEZ 경계 동쪽 확장 협상으로 대응",
+ "url": "https://www.reuters.com/world/europe/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boycott-2026-10-20/",
+ "vc": [
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "macro",
+   "k": "실제",
+   "node": "geo",
+   "t": "리비아 동부 의회 튀르키예 해양 협정 승인으로 수급 영향 불명"
+  },
+  {
+   "dir": "flat",
+   "f": "-",
+   "ind": "macro",
+   "k": "예상",
+   "node": "geo",
+   "t": "동지중해 해양경계 협상, 수급 영향은 아직 없음"
+  }
+ ],
+ "added": "합친 문서 2건 — 리비아 동부의 튀르키예 협정 승인에 맞서 그리스·이집트가 EEZ 경계를 키프로스 쪽 동쪽으로 넓히는 협상을 벌이는 내용이 더해짐",
+ "updatedAt": "2026-11-02T16:13:50+09:00"
+}

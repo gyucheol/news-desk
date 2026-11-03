@@ -1,0 +1,69 @@
+{
+ "id": "n-bbg-0887",
+ "num": 887,
+ "key": "mix-G2-020-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T05:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/gaming-s-billion-dollar-bet-on-grand-theft-auto-vi",
+ "origTitle": "",
+ "headline": "게임업계 구조조정…EA 바이오웨어 폐쇄·매스 이펙트 취소, GTA VI에 수십억 달러 베팅",
+ "src": [
+  {
+   "o": "Forbes",
+   "d": "2026-10-21",
+   "u": "https://www.forbes.com/sites/paultassi/2026/10/21/ea-shuts-down-bioware-cancels-mass-effect-5-and-ends-an-era/"
+  },
+  {
+   "o": "TechRaptor",
+   "d": "2026-10-21",
+   "u": "https://techraptor.net/gaming/news/electronic-arts-shuts-down-bioware-cancels-new-mass-effect-and-cuts-400-jobs"
+  }
+ ],
+ "items": [
+  {
+   "t": "게임업계, GTA VI 한 편에 수십억 달러 베팅",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/gaming-s-billion-dollar-bet-on-grand-theft-auto-vi",
+   "s": "게임업계가 GTA VI 출시에 수십억 달러 규모의 기대를 걸면서 한 작품에 업계의 관심과 자금이 쏠리고 있다 (제목 기준)"
+  },
+  {
+   "t": "EA가 바이오웨어를 닫고 매스 이펙트를 취소한 이유",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/why-electronic-arts-shut-down-bioware-and-cancelled-mass-effect",
+   "s": "EA가 바이오웨어를 폐쇄하고 차기 매스 이펙트를 취소하면서 약 400명을 감원했고 비상장 전환 뒤 재정 압박이 배경으로 꼽혔다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "게임업계 구조조정…EA 바이오웨어 폐쇄·매스 이펙트 취소, GTA VI에 수십억 달러 베팅",
+ "one": "EA가 바이오웨어를 닫고 차기 매스 이펙트를 취소한 가운데 업계는 GTA VI에 큰 기대를 걸고 있다\n· EA는 10월 21일 30년 된 바이오웨어 폐쇄와 약 400명 감원을 발표했다\n· 결정은 EA가 8월 사우디 PIF 등이 참여한 550억 달러 인수로 비상장사가 된 뒤 나왔다\n· 게임업계는 GTA VI에 수십억 달러 규모의 기대를 걸고 있다",
+ "facts": [
+  "무엇이: EA는 10월 21일 바이오웨어를 폐쇄하고 2020년 발표한 차기 매스 이펙트 개발을 끝낸다고 밝혔으며 바이오웨어 약 50명을 포함해 약 400명을 감원한다 [사실]",
+  "배경: EA는 8월 사우디 국부펀드 PIF 등이 참여한 550억 달러 인수로 비상장사가 됐고, 재정 압박 속에 스타워즈 배틀프론트 3와 매스 이펙트 중 하나를 골라야 했다는 보도가 있다 [사실]",
+  "GTA VI: 게임업계가 GTA VI에 수십억 달러를 걸고 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "EA 바이오웨어 폐쇄·감원은 검색 결과 요약(Forbes·TechRaptor)으로 확인. GTA VI 관련은 제목 기준.",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "games",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "EA 바이오웨어 폐쇄·매스 이펙트 개발 취소"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

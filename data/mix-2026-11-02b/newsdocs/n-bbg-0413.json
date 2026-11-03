@@ -1,0 +1,79 @@
+{
+ "basis": "partial",
+ "check": "10월 지역별 상승률·연료 요인·11월 요금 인상은 EnergyConnects·nippon.com 검색 결과 요약으로 확인. 11월 도쿄·주부 수년 만의 최고 수치는 확인 못 함(제목 근거).",
+ "cycles": [],
+ "facts": [
+  "무엇이: 연료비 상승에 도쿄·주부 지역 전력값이 수년 만의 최고를 기록했다 [제목]",
+  "10월 급등: 일본전력거래소 전국 익일 현물 가격은 10월 19일 kWh당 31.15엔으로 한 주 새 25% 넘게 올라 약 4년 만의 최고였고, 도쿄·주부는 각각 19%, 간사이는 61% 올랐다 [사실]",
+  "원인: LNG·석탄값 상승과 겨울 전 정기 보수가 겹쳤고, 미·이란 전쟁에 따른 연료 공급 차질로 LNG값이 뛰고 뉴캐슬 석탄 선물은 전쟁 전보다 약 30% 높으며, 중국 발전용 석탄값은 3년 만에 톤당 1,000위안을 넘었다 [사실]",
+  "소매 요금: 11월 사용분 표준 가정 요금은 7개 전력사에서 오르며 주부전력은 273엔 오른 9,920엔으로 인상 폭이 가장 크다(송전요금 개정분 포함) [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "연료비 상승에 日 전력값 고공행진…도쿄·주부 수년 만의 최고·전국 익일가 kWh당 31.15엔",
+ "id": "n-bbg-0413",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "gas",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "t": "석탄·LNG 비용 상승에 일본 전력값 4년 만의 최고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/japan-power-price-at-four-year-high-with-rising-coal-lng-costs"
+  },
+  {
+   "t": "연료비 상승에 도쿄·주부 전력값 수년 만의 최고",
+   "o": "블룸버그",
+   "d": "2026-11-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-02/tokyo-chubu-power-price-hit-multi-year-high-as-fuel-costs-climb",
+   "s": "도쿄·주부 지역 전력값이 연료비 상승에 수년 만의 최고로 오르면서 일본 전력 도매가 상승세가 이어졌다 (제목 기준)"
+  }
+ ],
+ "key": "split-G2-091-2026-10-20",
+ "nodes": [
+  "power/market"
+ ],
+ "num": 413,
+ "one": "LNG·석탄 등 연료비 상승에 일본 전력 도매가가 4년 만의 최고에 이어 도쿄·주부 지역에서도 수년 만의 최고를 찍었다\n· 일본전력거래소 전국 익일 현물 전력값은 10월 19일 kWh당 31.15엔으로 약 4년 만의 최고였다\n· LNG·석탄값 상승과 겨울 전 정기 보수가 겹쳐 전력값이 한 주 새 25% 넘게 뛰었다\n· 당시 도쿄·주부 지역 가격은 한 주 새 각각 19%, 간사이는 61% 올랐다\n· 11월 2일에는 도쿄·주부 지역 전력값이 연료비 상승에 수년 만의 최고를 기록했다",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T13:09:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-19",
+   "o": "OilPrice.com",
+   "u": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-25-as-LNG-and-Coal-Costs-Soar.html"
+  },
+  {
+   "o": "EnergyConnects",
+   "d": "2026-10",
+   "u": "https://www.energyconnects.com/news/gas-lng/2026/october/japan-power-price-at-four-year-high-with-rising-coal-lng-costs/"
+  },
+  {
+   "o": "nippon.com",
+   "d": "2026-10",
+   "u": "https://www.nippon.com/en/articles/-/56597"
+  }
+ ],
+ "tags": [],
+ "title": "연료비 상승에 日 전력값 고공행진…도쿄·주부 수년 만의 최고·전국 익일가 kWh당 31.15엔",
+ "updatedAt": "2026-11-02T14:43:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/japan-power-price-at-four-year-high-with-rising-coal-lng-costs",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "market",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "연료비 상승에 도쿄·주부 전력값 수년 만의 최고"
+  }
+ ],
+ "added": "블룸버그 1건 — 연료비 상승에 도쿄·주부 지역 전력값이 수년 만의 최고를 기록한 내용이 추가됨 (제목 기준)"
+}

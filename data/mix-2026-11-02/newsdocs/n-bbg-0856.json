@@ -1,0 +1,80 @@
+{
+ "id": "n-bbg-0856",
+ "num": 856,
+ "key": "mix-G1-025-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T05:13:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/cnooc-profit-rises-as-oil-rally-boosts-upstream-operations",
+ "origTitle": "",
+ "headline": "국영 석유사 3분기 엇갈려…CNOOC 유가 랠리에 이익 2.7%↑·페멕스 5.73억 달러 손실",
+ "src": [
+  {
+   "o": "MarketScreener(CNOOC 3분기 리뷰)",
+   "d": "2026-10-30",
+   "u": "https://www.marketscreener.com/news/cnooc-2026-third-quarter-review-ce785fdbdb88f022"
+  },
+  {
+   "o": "Finimize",
+   "d": "2026-10-30",
+   "u": "https://finimize.com/content/cnoocs-q3-profit-rose-as-oil-prices-did-the-heavy-lifting"
+  },
+  {
+   "o": "Rio Times",
+   "d": "2026-10-31",
+   "u": "https://www.riotimesonline.com/mexico-pemex-third-quarter-loss-october/"
+  },
+  {
+   "o": "BNamericas",
+   "d": "2026-10-31",
+   "u": "https://www.bnamericas.com/en/features/mexicos-pemex-readies-supplier-payment-scheme-with-us23bn-still-owed"
+  }
+ ],
+ "items": [
+  {
+   "t": "CNOOC, 유가 랠리에 상류 사업 이익 증가",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/cnooc-profit-rises-as-oil-rally-boosts-upstream-operations",
+   "s": "CNOOC가 유가 랠리로 상류 사업 이익을 늘리면서 3분기 순이익이 333억 위안으로 전년보다 2.7% 늘었다"
+  },
+  {
+   "t": "페멕스, 유가 급등에도 5억 7,300만 달러 손실",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/pemex-posts-573-million-loss-even-as-oil-prices-have-surged",
+   "s": "페멕스가 유가 급등에도 3분기 5억 7,300만 달러 손실을 내면서 환차손과 파생상품 비용이 고유가 효과를 지웠다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "국영 석유사 3분기 엇갈려…CNOOC 유가 랠리에 이익 2.7%↑·페멕스 5.73억 달러 손실",
+ "one": "유가 랠리 속 국영 석유사 3분기 실적이 CNOOC 이익 증가와 페멕스 적자로 엇갈렸다\n· CNOOC 3분기 순이익은 333억 위안으로 2.7% 늘었고 실현 유가는 배럴당 88.03달러로 32.1% 올랐다\n· 페멕스는 유가 급등에도 3분기 5.73억 달러 손실을 내며 2분기 흑자에서 적자로 돌아섰다\n· 페멕스 손실은 환차손과 파생상품 비용이 키웠고 9월 말 금융부채는 776억 달러다",
+ "facts": [
+  "무엇이: CNOOC는 3분기 순이익 333억 위안(2.7%↑), 매출 1,129억 위안(7.6%↑)을 냈고 1~9월 순이익은 1,191억 위안(16.8%↑)이다 [사실]",
+  "유가: CNOOC 3분기 실현 원유가격은 배럴당 88.03달러로 32.1% 올랐지만 유가 연동 세금·로열티와 가스 판매 7% 감소로 이익 증가폭은 작았다 [사실]",
+  "페멕스: 3분기 순손실은 107억 9,500만 페소(약 5.73억~6.05억 달러)로 2분기 180억 2,400만 페소 흑자에서 돌아섰지만 전년 동기 손실보다 82.4% 줄었다 [사실]",
+  "요인: 환차손 163억 9,100만 페소와 파생상품 비용, 석유 권리세가 페멕스 실적을 눌렀고 9월 말 금융부채는 776억 달러다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 CNOOC 3분기 실적(MarketScreener 회사 리뷰·Finimize)과 페멕스 손실(Rio Times·BNamericas) 확인. 달러 환산액은 출처마다 5.74억~6.05억 달러.",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "price",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "CNOOC 3분기 실현 유가 배럴당 88.03달러로 32.1% 상승"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "n-bbg-0854",
+ "num": 854,
+ "key": "mix-G1-020-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T02:39:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/us-awards-last-of-trump-s-massive-strategic-oil-reserve-drawdown",
+ "origTitle": "",
+ "headline": "OPEC+ 12월 쿼터 3개월째 동결…미 전략비축유 마지막 방출 낙찰, 베센트 '유가 40달러 가능'",
+ "src": [
+  {
+   "o": "The National",
+   "d": "2026-11-01",
+   "u": "https://www.thenationalnews.com/business/energy/2026/11/01/opec-holds-december-oil-output-targets-steady-as-iran-war-disrupts-supply/"
+  },
+  {
+   "o": "FinanceFeeds",
+   "d": "2026-11-01",
+   "u": "https://financefeeds.com/oil-price-opec-holds-december-targets-for-a-third-month-as-brent-ends-october-at-113-43/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 트럼프의 대규모 전략비축유 방출 마지막 물량 낙찰",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/us-awards-last-of-trump-s-massive-strategic-oil-reserve-drawdown",
+   "s": "미국이 트럼프 행정부의 대규모 전략비축유 방출 마지막 물량을 낙찰하면서 비축유로 시장에 풀던 공급이 끝을 맞게 됐다 (제목 기준)"
+  },
+  {
+   "t": "OPEC+, 12월 원유 생산 쿼터 동결 유지",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-01/opec-set-to-stick-with-plan-for-steady-quotas-delegates-say",
+   "s": "OPEC+ 7개 핵심국이 12월 생산 쿼터를 3개월 연속 동결하면서 2027년 기준 생산량 결정으로 관심이 옮겨갔다"
+  },
+  {
+   "t": "베센트 '이란 전쟁 뒤 증산에 유가 40달러까지 하락 가능'",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-11-02",
+   "u": "https://t.me/The_MariTimes/64167",
+   "s": "베센트 재무장관이 이란 전쟁 뒤 증산으로 유가가 40달러까지 내릴 수 있다고 주장했지만 채널은 증산 유인과 모순된다고 반박했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil"
+ ],
+ "nodes": [],
+ "title": "OPEC+ 12월 쿼터 3개월째 동결…미 전략비축유 마지막 방출 낙찰, 베센트 '유가 40달러 가능'",
+ "one": "OPEC+가 쿼터를 묶고 미국이 비축유 방출을 마무리하는 가운데 유가 하락 전망까지 나왔다\n· OPEC+ 7개 핵심국은 12월 생산 쿼터를 3개월 연속 동결했다\n· 미국은 트럼프 행정부의 대규모 전략비축유 방출 가운데 마지막 물량을 낙찰했다\n· 베센트 재무장관은 이란 전쟁 뒤 증산으로 유가가 40달러까지 떨어질 수 있다고 주장했다",
+ "facts": [
+  "무엇이: 사우디·이라크·쿠웨이트·오만·알제리·러시아·카자흐스탄 등 OPEC+ 7개 핵심국은 12월에도 9월 생산 목표를 유지해 3개월 연속 쿼터를 동결했고, 시선은 2027년 기준 생산량을 정할 4분기 생산능력 평가로 옮겨갔다 [사실]",
+  "전략비축유: 미국은 트럼프 행정부의 대규모 전략비축유 방출 가운데 마지막 물량을 낙찰했다 [제목]",
+  "베센트: 베센트 재무장관은 이란 전쟁 이후 생산이 크게 늘어 유가가 40달러까지 떨어질 수 있다고 주장했다 [채널]",
+  "배경: 브렌트유는 10월을 113.43달러로 마쳤고 실제 공급은 서류상 목표에 못 미친다는 보도가 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "OPEC+ 12월 동결은 검색 결과 요약으로 확인. 전략비축유 마지막 낙찰과 베센트 40달러 발언은 확인 못 함",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "opec",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "OPEC+ 12월 생산 쿼터 3개월째 동결"
+  },
+  {
+   "ind": "oil",
+   "node": "stocks",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "미국 전략비축유 방출 마지막 물량 낙찰"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

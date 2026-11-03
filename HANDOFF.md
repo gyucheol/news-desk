@@ -4,6 +4,42 @@
 
 ---
 
+## 0-9. 추가(11월 2일 오후) — 매크로·반도체 같은 흐름 문서 합치기(data/merge-2026-11-02), 로이터 제외(규칙 38)
+
+- 사용자: "매크로와 반도체 얘기가 제일 많은데, 이거 분명 같은 내용이면 내가 묶어달라고했는데 안묶여있음. 제대로 묶어줘", "앞으로 블룸버그랑 텔레그램에서만 뉴스 가져와줘".
+- 대상: 10월 21일 이후 매크로·반도체 문서 280건(안 읽음 143, 읽음 137). 묶기 Opus 1개 → 23묶음, 흡수 57건(모두 안 읽음). keep은 묶음에서 가장 이른 문서(읽은 문서 포함, 합치면 다시 안 읽음). 다시 쓰기 Opus 3개(mcheck.py 문제 0).
+- 도구: tools/merge_ml.py(여러 줄 요약판, vc·fed 합침, 산업 페이지 nid·newsSeen* id를 keep으로), MERGE.md, mcheck.py. 지운 57건 원본은 data/merge-2026-11-02/backup/.
+- 저장 4묶음(news 23 set·57 delete, chains 9개 nid, newsSeen·Old·Old3~6 id). 저장 전 80건·meta 6건 대조(바뀐 것 0), 저장 뒤 23건 다시 받아 일치(work/mergeafter). DB news 1,979. chains aero v12·consumer v10·jpins v18·macro v22·oil v12·realestate v13·semis v13·shipping v13·tech v12, newsSeen v33·Old v9·Old3 v6·Old4 v6·Old5 v5·Old6 v2. 웹 보기판 갱신.
+- 다음 회차 묶기도 같은 기준: 날짜가 달라도 같은 흐름이면 기존 문서에 붙임(CLUSTER.md의 attachTo). 이번처럼 핵심 사건 5개 상한 때문에 새 문서로 나뉜 것이 많았으므로, 같은 흐름이면 붙이는 쪽을 우선할 것(사용자 요청).
+
+## 0-8. 추가(11월 2일 오후) — 11월 2일 2차 회차(data/mix-2026-11-02b), 웹 보기판 읽음 반영
+
+- 사용자 "지금 기준으로 안읽은것만 뜨게 해줘" → 웹 보기판이 데스크 읽음 기록(data/users/me/reads, 읽은 뉴스 id와 그 뉴스 updatedAt만)으로 시작하고 '안 읽은 것만'이 기본(tools/site, RUNBOOK 4절). 데스크 페이지 자체는 바꾸지 않음(물어봄, 답 없음).
+- 사용자 "뉴스 이어서 ㄱㄱㄱ" → 텔레그램 telegram.new 다음 번호~11월 2일 14시 30분, 블룸버그 11월 1일 23:00Z~(월별·latest 사이트맵, 앞 회차 all.tsv·seen 뺌).
+- 후보 73(블룸버그 37, 텔레그램 36) → 거르기 Haiku 1개 남김 30 → 묶기 Opus 1개 20묶음(붙이기 11, drop 6) → 작성 Opus 2개 → 문서 19(새 8, 더함 11), 기사 23, 건너뜀 1(SK스퀘어 주주환원, 반도체 긍정). basis verified 10, partial 7, title 2. G-007 partial·src 빈 것은 붙인 문서(n-bbg-0885) src를 넣음.
+- 저장 batch 1개(21), 다시 받아 일치(work/live50after). DB: news 2,036, progressV4 v38, newsSeen v32. 웹 보기판 갱신(안 읽은 401).
+
+## 0-7. 추가(11월 2일 오전) — 11월 2일 회차(data/mix-2026-11-02), 웹 보기판(GitHub Pages)
+
+- 사용자: "마지막 회차 이후 쌓인 건들+블룸버그까지 ㄱㄱㄱㄱ", 정보형 글에도 섹터 규칙 적용 "ㅇㅇ", "claude랑 별개인 웹사이트 만들어줘", gh-pages 브랜치 사용 허락.
+- 범위: 텔레그램 8채널 progressV4.telegram.new 다음 번호~11월 2일 10시 KST, 블룸버그 10월 30일 02:30Z~. 로이터 계속 401.
+- 블룸버그 latest.xml이 듬성듬성(10월 30일 5건뿐)이라 월별 사이트맵(sitemaps/news/2026-10.xml·2026-11.xml, 제목 없음 → 주소로 제목)과 합쳐 work/sm21/bbg.txt를 만듦(429건). 다음 회차도 월별 사이트맵을 함께 볼 것(tools/sitemap_list.py는 아직 latest.xml만 읽음).
+- 후보 734(블룸버그 424, 텔레그램 306, 연준 4) → 거르기 Haiku 4개 남김 295(정보형 글 3건 바로잡음, overrides.tsv) → 묶기 Opus 2개 88묶음(drop 47) → 작성 Opus 5개(검색 16회씩) → 문서 86(새 58, 기존 문서에 더함 28), 기사 245, 건너뜀 2. basis verified 34, partial 39, title 8, channel 5. 화장품 새 문서 2건(n-tg-0840 K뷰티 10월 수출, n-tg-0842 에이피알 3분기).
+- 고친 것: partial인데 src 빈 2건(G2-014·G2-022, 붙인 기존 문서 src 넣음), G1-033 원문별 요약 s 비어 있어 채움.
+- newsSeen 회전으로 옮긴 290줄은 새 문서 meta/newsSeenOld6(v1)에 넣음(newsSeenOld.unused.json은 저장 안 함).
+- 저장 batch 2개(50, 36+meta 3). 붙일 28건은 저장 전 query로 받아 사본과 대조(바뀐 것 0), 저장 뒤 processed=2026-11-02로 다시 받아 86건 일치(work/live49after). DB: news 2,028, progressV4 v37, newsSeen v31, newsSeenOld6 v1. newsSeq bbg 889·rtr 736·tg 853·fed 2.
+- 웹 보기판: tools/site/build.py <DB 사본> <출력>로 만들고(desk/index.html + tools/site/shim.js, 데이터 data/news.json(processed 최신 1,000건)·chains.json·cycle.json), 브랜치 gh-pages 루트에 올림. 주소 https://gyucheol.github.io/news-desk/ (사용자가 저장소 Settings → Pages에서 gh-pages /(root)를 켜야 열림). 요청 버튼은 숨김, 읽음은 그 브라우저에만. 회차 저장 뒤마다 다시 만들어 gh-pages에 커밋·푸시(사용자 허락, 11월 2일).
+
+## 0-6. 추가(11월 2일 아침) — 텔레그램 9개 채널로 다시 바꿈, 정보형 글 포함, 화장품 섹터 추가
+
+- 사용자: "뉴스 데스크에 너가 띄워주는 뉴스 및 정보 자료 텔레그램 링크 다시 갱신해서 줄께. 꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약 요청. 그리고 화장품 섹터 추가 요청" + 채널 9개(규칙 35를 바꿈).
+- 채널: habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic(교보 음식료/화장품 권우정, 새로), stockhasoo, Trillion_labs. verteinsight는 빠짐, Onionfarmer는 다시 들어옴.
+- 접속 확인(11월 2일): 8개는 t.me/s 200. sunstudy1111은 여전히 302(웹 미리보기 막힘)라 읽을 수 없음.
+- 고친 곳: RUNBOOK.md 1절, data/mix-2026-10-30b/FILTER·CLUSTER·WRITE.md(정보형 글 K·drop 금지·작성 규칙, 분야 beauty), chan.json, tools/tg_bundle.py 표기 이름. 다음 회차는 이 폴더의 md를 복사해 쓰면 됨.
+- DB: meta/progressV4.telegram의 channels(9개)·channelsNote를 바꾸고 new에 kyobofnbcosmetic 2502(10월 30일 11시 30분 KST 직전 글)를 넣음. Onionfarmer는 new 18261 그대로(그다음 글이 10월 30일 12시 22분부터라 마지막 회차 끝과 이어짐).
+- 마지막 회차(10월 30일 11시 30분) 뒤 11월 2일 아침까지 쌓인 텔레그램 글(본문 있는 것, 대략): habit4117 133, The_MariTimes 51, Trillion_labs 31, stockhasoo 26, Onionfarmer 16, TNBfolio 15, kyobofnbcosmetic 11, w_compass 7 — 약 290건. 블룸버그는 따로.
+- 데스크 페이지와 chains는 바꾸지 않음(화장품 칩·산업 페이지는 원래 있음, 칩은 화장품 뉴스가 있을 때만 보임).
+
 ## 0-5. 추가(10월 30일 낮) — 10월 30일 2차 회차, 텔레그램 8개 채널로 바꿈(data/mix-2026-10-30b)
 
 - 사용자: "그리고 텔레그램 채널들은 내가 다시 알려줄께. 앞으로도 이 채널들만 가지고 해주면 돼. 이 채널들을 가지고 오늘자 뉴스 업데이트 요청" + 채널 8개(규칙 35).
@@ -159,6 +195,10 @@
 33. (10월 30일) 제약·바이오 섹터 삭제. 뉴스는 D(pharma)·skipped("제약·바이오"), 페이지는 지움, 지금까지의 안 읽은 제약 뉴스는 읽음 처리. 의약품 관세 같은 나라 사이 무역 조치는 매크로(지정학) 기준.
 34. (10월 30일) '반도체·AI 투자' 섹터는 부정적인 내용만(사용자 답: 섹터 전체). AI는 투자 축소·연기, 자금난·몸값 하향·상장 연기, AI 부채·신용 경색, 거품 경고, AI 때문의 급락, 규제·소송·반발, 보안 사고만. 반도체는 업황·수요 둔화, 가격 하락, 재고 증가, 투자 축소·연기, 실적·전망 부진과 주가 급락, 감원, 수출 통제·규제·소송, 공급 차질만. 긍정·중립(모델 출시, 매출 증가, 제휴, 반도체 실적 호조·가격 상승·수요 회복·인수합병·신제품)은 D(ai-positive·semi-positive)·skipped("AI 긍정"·"반도체 긍정"). 실적이 좋아도 전망 부진·주가 급락이 핵심이면 남김. AI 때문에 생긴 다른 산업 수요(전력 장비 등)는 그 산업 뉴스로 봄.
 35. (10월 30일) 텔레그램은 사용자가 준 8개 채널만 받음("앞으로도 이 채널들만 가지고 해주면 돼"): stockhasoo(재야의 괴수들), TNBfolio, w_compass(부의 나침반), The_MariTimes(Polaristimes), sunstudy1111(선진짱 주식공부방), Trillion_labs(트릴리온), verteinsight(Verte Research), habit4117(습관이 부자를 만든다). sunstudy1111은 웹 미리보기가 막혀 글 내용을 읽을 수 없음(사용자가 붙여 주면 처리). 예전 채널 7개(Onionfarmer, insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions)는 받지 않음. 블룸버그(사이트맵 목록)는 전처럼 함께 받음(로이터는 401이 풀리면). 채널 표기 이름은 회차 폴더의 chan.json.
+36. (11월 2일) 텔레그램은 정보형 글도 받아 요약합니다("꼭 뉴스 형태가 아니라 정보의 형태여도 가져와서 한줄요약"). 리포트·코멘트 요약, 업황·통계 정리, 산업 구조·밸류체인 설명, 탐방·IR·컨퍼런스콜 메모, 수치를 곁들인 차트 설명은 거르기 K, 묶기에서 drop하지 않고, 작성에서 '범위 밖'으로 빼지 않음. 의견은 누구의 판단인지 밝힘. 정보 없이 의견·잡담·광고·공지·링크만인 글은 전처럼 뺌. 섹터 규칙 31~34는 정보형 글에도 그대로.
+37. (11월 2일) 화장품 섹터 추가: 거르기 분야 beauty(소비재와 따로), 작성 inds ["beauty"]·nodes beauty/*. 산업 페이지 chains/beauty와 데스크 칩은 원래 있음. 텔레그램 채널은 9개로 바꿈(규칙 35 대체): habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic, stockhasoo, Trillion_labs.
+38. (11월 2일) 뉴스는 블룸버그와 텔레그램에서만 가져옴("로이터까지 보려니까 너무 많다"). 수집에서 로이터 사이트맵(sitemap_list.py rtr)을 돌리지 않음. 기존 로이터 문서는 그대로.
+39. (11월 2일) 같은 흐름이면 날짜가 달라도 기존 문서에 붙임(핵심 사건 5개 상한보다 우선, 규칙 26·29를 바꿈). 기사 60건이 넘는 문서만 하위 흐름 새 문서. 묶기 지시서 CLUSTER.md(data/mix-2026-11-02b판부터) 반영.
 
 ---
 

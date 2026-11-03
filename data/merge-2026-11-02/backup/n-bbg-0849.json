@@ -1,0 +1,112 @@
+{
+  "basis": "partial",
+  "check": "유조선 폭발물 공격은 검색 결과 요약(gCaptain·Asharq Al-Awsat 등)으로 확인, 파키스탄 LNG선 피격·영국 회담·DP월드 경고는 확인 못 함",
+  "cycles": [],
+  "facts": [
+    "무엇이: UKMTO는 오만 카사브 북동쪽 25해리에서 소형 보트가 유조선 수면 위 선체에 폭발물 2개를 붙여 기관실 화재가 났고, 화재는 진압됐으며 승무원은 무사하다고 밝혔다 [사실]",
+    "엇갈린 설명: 이란 해군은 제한 수역을 지나던 유조선이 기뢰에 부딪혀 불이 났다고 밝혔고, 이번 공격은 2월 전쟁 이후 이 수법이 상선에 처음 성공한 사례로 거론됐다 [사실]",
+    "파키스탄 LNG: 호르무즈 인근에서 공격받은 파키스탄 LNG 화물선은 이란 승인을 받은 상태였다 [제목]",
+    "국제연합 회담: 미국이 다음 주 영국에서 호르무즈 국제연합 구성 고위급 회담을 열며, 이란은 영국이 개입하면 영국 기지도 공격 대상이라고 경고해 왔다 [채널]",
+    "비용: DP월드 CEO는 호르무즈 우회 비용이 가격에 전가될 것이라고 경고했고, 블룸버그는 해운 공격이 양측 모두에 경제적 고통을 준다고 짚었다 [제목]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "호르무즈 선박 공격 확산…소형보트 폭발물 2개로 유조선 화재·이란 승인 파키스탄 LNG선도 피격",
+  "id": "n-bbg-0849",
+  "incentive": "",
+  "inds": [
+    "shipping",
+    "macro",
+    "gas"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-30",
+      "o": "블룸버그",
+      "s": "DP월드 CEO가 호르무즈 우회 비용이 결국 가격에 반영될 것이라고 경고하면서 해상 물류비 상승이 물가로 번질 우려가 커졌다 (제목 기준)",
+      "t": "DP월드 CEO '호르무즈 우회, 물가로 전가될 것' 경고",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/dp-world-ceo-warns-hormuz-rerouting-will-feed-through-to-prices"
+    },
+    {
+      "d": "2026-10-30",
+      "o": "텔레그램 트릴리온",
+      "s": "소형 보트가 유조선 좌현에 폭발물 2개를 붙여 기관실에 불이 나면서 배가 일시 운항 불능이 됐고 승무원은 무사했다",
+      "t": "UKMTO '소형 보트가 유조선에 폭발물 2개 부착, 기관실 화재'",
+      "u": "https://t.me/Trillion_labs/11459"
+    },
+    {
+      "d": "2026-10-31",
+      "o": "블룸버그",
+      "s": "호르무즈에서 고속정이 유조선을 공격해 기관실에 불이 나면서 2월 전쟁 이후 처음 성공한 부착 폭발물 공격으로 해운 위험이 커졌다",
+      "t": "호르무즈서 드문 고속정 공격, 유조선 기관실에 불",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/rare-speedboat-attack-in-hormuz-ignites-tanker-s-engine-room"
+    },
+    {
+      "d": "2026-10-31",
+      "o": "블룸버그",
+      "s": "호르무즈에서 이어지는 해운 공격이 미국 쪽과 이란 쪽 모두에 경제적 고통을 남기면서 장기전 비용이 커지고 있다 (제목 기준)",
+      "t": "호르무즈 해운 공격, 양측 모두에 경제적 고통",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-31/shipping-strikes-in-hormuz-leave-both-sides-with-economic-pain"
+    },
+    {
+      "d": "2026-11-01",
+      "o": "블룸버그",
+      "s": "이란 승인을 받은 파키스탄 LNG 화물선마저 호르무즈 인근에서 공격받으면서 통항 허가도 안전을 보장하지 못하게 됐다 (제목 기준)",
+      "t": "호르무즈 인근 피격 파키스탄 LNG선, 이란 승인 받았었다",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-01/pakistan-lng-cargo-attacked-near-hormuz-had-iranian-approval"
+    },
+    {
+      "d": "2026-11-02",
+      "o": "텔레그램 Polaristimes",
+      "s": "미국이 다음 주 영국에서 호르무즈 국제연합 구성을 논의하는 고위급 회담을 열면서 영국 기지를 위협한 이란과의 긴장이 커졌다",
+      "t": "미국, 다음 주 영국서 호르무즈 국제연합 고위급 회담",
+      "u": "https://t.me/The_MariTimes/64171"
+    }
+  ],
+  "key": "mix-G1-004-2026-11-02",
+  "nodes": [
+    "macro/geo",
+    "gas/shipping"
+  ],
+  "num": 849,
+  "one": "호르무즈 해협에서 소형 보트 폭발물 공격과 LNG선 피격이 잇따르며 해상 위험이 커졌다\n· 소형 보트가 유조선 좌현에 폭발물 2개를 붙여 기관실 화재로 배가 일시 운항 불능이 됐다\n· 공격은 오만 카사브 북동쪽 25해리에서 일어났고 승무원은 모두 무사했다\n· 이란 승인을 받은 파키스탄 LNG 화물선도 호르무즈 인근에서 공격받았다고 블룸버그가 전했다\n· 미국은 다음 주 영국에서 호르무즈 국제연합 구성을 위한 고위급 회담을 연다\n· DP월드 CEO는 호르무즈 우회 비용이 물가로 전가될 것이라고 경고했다\n· 블룸버그는 해운 공격이 양측 모두에 경제적 고통을 남긴다고 짚었다",
+  "origTitle": "",
+  "processed": "2026-11-02",
+  "published": "2026-11-02T03:01:00+09:00",
+  "source": "블룸버그",
+  "src": [
+    {
+      "d": "2026-10-30",
+      "o": "gCaptain",
+      "u": "https://gcaptain.com/tanker-hit-by-limpet-mines-in-strait-of-hormuz-as-new-threat-to-shipping-emerges/"
+    },
+    {
+      "d": "2026-10-30",
+      "o": "Asharq Al-Awsat",
+      "u": "https://english.aawsat.com/world/5335521-ukmto-tanker-strait-hormuz-hit-explosives-attached-small-boat"
+    }
+  ],
+  "tags": [],
+  "title": "호르무즈 선박 공격 확산…소형보트 폭발물 2개로 유조선 화재·이란 승인 파키스탄 LNG선도 피격",
+  "updatedAt": "2026-11-02T10:30:37+09:00",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-30/dp-world-ceo-warns-hormuz-rerouting-will-feed-through-to-prices",
+  "vc": [
+    {
+      "dir": "down",
+      "f": "공급",
+      "ind": "shipping",
+      "k": "실제",
+      "node": "routes",
+      "t": "소형보트 폭발물 공격으로 유조선 일시 운항 불능"
+    },
+    {
+      "dir": "down",
+      "f": "공급",
+      "ind": "gas",
+      "k": "실제",
+      "node": "shipping",
+      "t": "이란 승인 받은 파키스탄 LNG선도 피격"
+    }
+  ]
+}

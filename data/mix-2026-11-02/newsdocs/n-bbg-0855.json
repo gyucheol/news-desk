@@ -1,0 +1,76 @@
+{
+ "id": "n-bbg-0855",
+ "num": 855,
+ "key": "mix-G1-022-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T05:40:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/us-natural-gas-drillers-scale-up-as-demand-grows",
+ "origTitle": "",
+ "headline": "미 천연가스 시추업체 증산 속 헤지펀드 숏 포지션 사상 최대…선물 주간 15% 넘게 급락",
+ "src": [
+  {
+   "o": "Hedgeweek",
+   "d": "2026-10-31",
+   "u": "https://hedgeweek.com/news/hedge-funds-build-record-us-natural-gas-shorts-on-mild-winter-forecasts"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 천연가스 시추업체, 수요 증가에 생산 확대",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/us-natural-gas-drillers-scale-up-as-demand-grows",
+   "s": "미국 천연가스 시추업체들이 수요 증가에 맞춰 생산을 늘리면서 겨울을 앞둔 가스 공급이 불어나고 있다 (제목 기준)"
+  },
+  {
+   "t": "헤지펀드, 천연가스 숏 포지션 사상 최대로 늘려",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record",
+   "s": "헤지펀드가 포근한 겨울 전망에 헨리허브 숏을 62만 계약대로 늘리면서 미국 가스 가격 약세 베팅이 사상 최대가 됐다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/upstream",
+  "gas/trade"
+ ],
+ "title": "미 천연가스 시추업체 증산 속 헤지펀드 숏 포지션 사상 최대…선물 주간 15% 넘게 급락",
+ "one": "미국 천연가스 생산이 늘어나는 가운데 헤지펀드의 약세 베팅이 사상 최대로 쌓였다\n· 미국 가스 시추업체들은 수요 증가에 맞춰 생산을 늘리고 있다\n· 헤지펀드의 헨리허브 숏 포지션은 62만 5,150계약으로 일주일 만에 기록을 다시 썼다\n· 포근한 겨울 전망에 미국 천연가스 선물은 한 주 새 15% 넘게 떨어졌다",
+ "facts": [
+  "무엇이: 헤지펀드의 헨리허브 7개 기준 계약 숏 포지션은 62만 5,150계약으로 1주 전 기록(59만 9,731계약)을 넘어 2013년 집계 이래 최대였고, 순매도는 22만 3,591계약으로 2020년 2월 이후 가장 컸다 [사실]",
+  "원인: 10~11월이 1950년 이후 세 번째로 따뜻할 것이라는 예보에 미국 천연가스 선물은 한 주 새 15% 넘게 내려 2월 이후 최대 주간 낙폭을 보였다 [사실]",
+  "공급: 미국 가스 시추업체들은 수요 증가에 맞춰 생산을 늘리고 있다 [제목]",
+  "위험: 갑작스러운 한파가 오면 숏 커버링으로 가격이 급반등할 수 있다는 분석이 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "헤지펀드 숏 사상 최대와 선물 주간 급락은 검색 결과 요약으로 확인. 시추업체 증산은 확인 못 함",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "upstream",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "미 가스 시추업체 수요 증가에 증산"
+  },
+  {
+   "ind": "gas",
+   "node": "trade",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "헤지펀드 숏 사상 최대 속 선물 주간 15%↓"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

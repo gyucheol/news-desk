@@ -1,0 +1,71 @@
+{
+  "basis": "verified",
+  "check": "검색 결과 요약으로 매달 5엔 상한 인상과 비용 규모 확인",
+  "cycles": [],
+  "facts": [
+    "무엇이: 다카이치 총리가 휘발유 소매가 상한을 매달 리터당 5엔씩 올려 연료보조금을 단계적으로 줄이겠다고 밝혔지만 종료 시점은 정하지 않았다 [사실]",
+    "비용: 휘발유·경유·항공유 보조금에 매달 수십억 달러가 들어 휘발유 평균가를 리터당 약 170엔으로 묶어 왔고, 6월 3.1조 엔 추경이 빠르게 줄어 예비비 1.1조 엔(약 70억 달러)을 추가 배정했다 [사실]",
+    "전망: 당국자들은 축소 시 휘발유 가격이 12월 약 175엔, 1월 180엔이 될 수 있다고 했고, 내년 4월 식품 소비세 인하 전까지 보조금을 최대한 줄이려 한다 [사실]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "일본, 이란 전쟁 비용 불어나자 휘발유 보조금 단계적 축소…상한 매달 리터당 5엔 인상",
+  "id": "n-bbg-0889",
+  "incentive": "",
+  "inds": [
+    "macro"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-10-30",
+      "o": "블룸버그",
+      "t": "일본, 이란 전쟁 비용 불어나자 연료보조금 축소",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/japan-to-scale-back-fuel-subsidies-as-iran-war-costs-mount"
+    }
+  ],
+  "key": "mix-G2-025-2026-11-02",
+  "nodes": [
+    "macro/fiscal",
+    "macro/inflation"
+  ],
+  "num": 889,
+  "one": "일본 정부가 이란 전쟁 이후 도입한 연료보조금을 단계적으로 줄이기로 했다\n· 다카이치 총리는 휘발유 소매가 상한을 매달 리터당 5엔씩 올리겠다고 했지만 종료 시점은 밝히지 않았다\n· 보조금은 매달 수십억 달러가 들어 6월 3.1조 엔 추경을 빠르게 소진했고 예비비 1.1조 엔이 더 배정됐다",
+  "origTitle": "",
+  "processed": "2026-11-02",
+  "published": "2026-10-30T14:19:00+09:00",
+  "source": "블룸버그",
+  "src": [
+    {
+      "d": "2026-10",
+      "o": "OilPrice",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html"
+    },
+    {
+      "d": "2026-10",
+      "o": "IndexBox",
+      "u": "https://www.indexbox.io/blog/japan-weighs-scaling-back-gasoline-subsidies-as-costs-mount/"
+    }
+  ],
+  "tags": [],
+  "title": "일본, 이란 전쟁 비용 불어나자 휘발유 보조금 단계적 축소…상한 매달 리터당 5엔 인상",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-30/japan-to-scale-back-fuel-subsidies-as-iran-war-costs-mount",
+  "vc": [
+    {
+      "dir": "down",
+      "f": "수요",
+      "ind": "macro",
+      "k": "예상",
+      "node": "fiscal",
+      "t": "연료보조금 단계적 축소"
+    },
+    {
+      "dir": "up",
+      "f": "가격",
+      "ind": "oil",
+      "k": "예상",
+      "node": "products",
+      "t": "휘발유 상한 매달 리터당 5엔 인상"
+    }
+  ]
+}

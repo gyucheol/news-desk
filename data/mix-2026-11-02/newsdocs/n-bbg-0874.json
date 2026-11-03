@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0874",
+ "num": 874,
+ "key": "mix-G1-055-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T23:56:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/canada-railways-strong-earnings-show-resilience-amid-us-tariffs",
+ "origTitle": "",
+ "headline": "캐나다 철도사 3분기 실적 견조…CPKC 매출 15%↑·CN EPS 9%↑, 미 관세 속 버텨",
+ "src": [
+  {
+   "o": "CPKC",
+   "d": "2026-10-28",
+   "u": "https://www.cpkcr.com/en/media/Q3-Oct2026"
+  },
+  {
+   "o": "SEC(CN 6-K)",
+   "d": "2026-10",
+   "u": "https://www.sec.gov/Archives/edgar/data/0000016868/000001686826000041/a2026q3mda.htm"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐나다 철도사 호실적, 미 관세 속 회복력 보여",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/canada-railways-strong-earnings-show-resilience-amid-us-tariffs"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "캐나다 철도사 3분기 실적 견조…CPKC 매출 15%↑·CN EPS 9%↑, 미 관세 속 버텨",
+ "one": "캐나다 양대 철도사가 미국 관세 속에서도 견조한 3분기 실적을 냈다\n· CPKC 매출은 15% 늘어 42억 달러였지만 조정 EPS는 1.28달러로 예상 1.31달러에 못 미쳤다\n· CN 희석 EPS는 9% 늘어 2.00달러였고 연료비 상승에 영업비율은 63.7%로 높아졌다",
+ "facts": [
+  "무엇이: 블룸버그는 캐나다 철도사들의 강한 실적이 미국 관세 속 회복력을 보여 준다고 전했다 [제목]",
+  "CPKC: 3분기 매출은 15% 늘어 42억 달러, 희석 EPS는 1.04달러로 3% 늘었고 조정 영업비율은 61.9%로 1.2%p 높아졌으며 연료비가 약 1.9%p 부담이 됐다 [사실]",
+  "CN: 영업비용은 연료비와 자산 손상으로 19% 늘었고 영업비율은 61.4%에서 63.7%로 높아졌지만 희석 EPS는 9% 늘어 2.00달러였다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "CPKC·CN 3분기 실적은 검색 결과 요약(CPKC 발표·SEC 공시)으로 확인, 관세 관련 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "services",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "CPKC 매출 15% 증가로 철도 화물 견조"
+  }
+ ]
+}

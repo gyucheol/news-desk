@@ -1,0 +1,3318 @@
+{
+ "sub_lead": 0,
+ "fade_in": 0.3,
+ "fade_out": 0.8,
+ "last_sub_hold": 1.0,
+ "scenes": [
+  {
+   "id": "s001",
+   "type": "photo",
+   "image": "photos_final/P01.png",
+   "from": "V001",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 01"
+  },
+  {
+   "id": "s002",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V003",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 02"
+  },
+  {
+   "id": "s003",
+   "type": "photo",
+   "image": "photos_final/P03.png",
+   "from": "V005",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 03"
+  },
+  {
+   "id": "s004",
+   "type": "video",
+   "src": "stock/full/914.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V008",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st01 Mixkit 914 Open office space",
+   "blur_box": [
+    [
+     0.5625,
+     0.5556,
+     0.5911,
+     0.5889,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s005",
+   "type": "photo",
+   "image": "photos_final/P04.png",
+   "from": "V011",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 04"
+  },
+  {
+   "id": "s006",
+   "type": "photo",
+   "image": "photos_final/P05.png",
+   "from": "V012",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 05"
+  },
+  {
+   "id": "s007",
+   "type": "photo",
+   "image": "photos_final/P06.png",
+   "from": "V013",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 06"
+  },
+  {
+   "id": "s008",
+   "type": "photo",
+   "image": "photos_final/P07.png",
+   "from": "V014",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 07"
+  },
+  {
+   "id": "s009",
+   "type": "video",
+   "src": "stock/full/4827.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V015",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st02 Mixkit 4827 Hands of a man typing on a laptop"
+  },
+  {
+   "id": "s010",
+   "type": "video",
+   "src": "stock/full/100825.mp4",
+   "in": 3.3,
+   "speed": 1.0,
+   "from": "V016",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st03 Mixkit 100825 Sky on a Night to Sunrise Transition"
+  },
+  {
+   "id": "s011",
+   "type": "photo",
+   "image": "photos_final/P08.png",
+   "from": "V018",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 08"
+  },
+  {
+   "id": "s012",
+   "type": "photo",
+   "image": "photos_final/P09.png",
+   "from": "V019",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 09"
+  },
+  {
+   "id": "s013",
+   "type": "photo",
+   "image": "photos_final/P10.png",
+   "from": "V020",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 10"
+  },
+  {
+   "id": "s014",
+   "type": "video",
+   "src": "stock/full/3112.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "from": "V022",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st04 Mixkit 3112 Interior of a department room"
+  },
+  {
+   "id": "s015",
+   "type": "photo",
+   "image": "photos_final/P11.png",
+   "from": "V024",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 11",
+   "mix": {
+    "at": "V024",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s016",
+   "type": "photo",
+   "image": "photos_final/P04.png",
+   "from": "V026",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 04"
+  },
+  {
+   "id": "s017",
+   "type": "photo",
+   "image": "photos_final/P03b.png",
+   "from": "V028",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 03b",
+   "mix": {
+    "at": "V028",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s018",
+   "type": "photo",
+   "image": "photos_final/P08b.png",
+   "from": "V030",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 08b",
+   "mix": {
+    "at": "V030",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s019",
+   "type": "video",
+   "src": "stock/full/3111.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V032",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st05 Mixkit 3111 Master bedroom and window"
+  },
+  {
+   "id": "s020",
+   "type": "photo",
+   "image": "photos_final/P12.png",
+   "from": "V036",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 12"
+  },
+  {
+   "id": "s021",
+   "type": "photo",
+   "image": "photos_final/P13.png",
+   "from": "V038",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 13"
+  },
+  {
+   "id": "s022",
+   "type": "photo",
+   "image": "photos_final/P14.png",
+   "from": "V039",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 14"
+  },
+  {
+   "id": "s023",
+   "type": "photo",
+   "image": "photos_final/P07.png",
+   "from": "V041",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 07"
+  },
+  {
+   "id": "s024",
+   "type": "video",
+   "src": "stock/full/4835.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V043",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st06 Mixkit 4835 Office workers hands typing on their devices",
+   "mix": {
+    "at": "V045",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s025",
+   "type": "photo",
+   "image": "photos_final/P15.png",
+   "from": "V048",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 15"
+  },
+  {
+   "id": "s026",
+   "type": "photo",
+   "image": "photos_final/P16.png",
+   "from": "V050",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 16"
+  },
+  {
+   "id": "s027",
+   "type": "photo",
+   "image": "photos_final/P17.png",
+   "from": "V052",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 17"
+  },
+  {
+   "id": "s028",
+   "type": "photo",
+   "image": "photos_final/P18.png",
+   "from": "V056",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 18"
+  },
+  {
+   "id": "s029",
+   "type": "photo",
+   "image": "photos_final/P19.png",
+   "from": "V058",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 19"
+  },
+  {
+   "id": "s030",
+   "type": "photo",
+   "image": "photos_final/P20.png",
+   "from": "V061",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 20"
+  },
+  {
+   "id": "s031",
+   "type": "photo",
+   "image": "photos_final/P21.png",
+   "from": "V063",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 21"
+  },
+  {
+   "id": "s032",
+   "type": "photo",
+   "image": "photos_final/P20.png",
+   "from": "V069",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 20"
+  },
+  {
+   "id": "s033",
+   "type": "photo",
+   "image": "photos_final/P19.png",
+   "from": "V071",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 19"
+  },
+  {
+   "id": "s034",
+   "type": "video",
+   "src": "stock/full/28894.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V073",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st07 Mixkit 28894 Hourglass in the dark finishes its count",
+   "mix": {
+    "at": "V073",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s035",
+   "type": "video",
+   "src": "stock/full/4808.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V077",
+   "grade": {
+    "sat": 0.7,
+    "black": 0.03,
+    "gamma": 1.15,
+    "vignette": 0.45
+   },
+   "note": "st08 Mixkit 4808 Silhouette of a man texting during the sunset",
+   "mix": {
+    "at": "V077",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.665,
+     "black": 0.05,
+     "gamma": 1.322,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s036",
+   "type": "photo",
+   "image": "photos_final/P23.png",
+   "from": "V080",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 23",
+   "mix": {
+    "at": "V080",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s037",
+   "type": "photo",
+   "image": "photos_final/P06.png",
+   "from": "V082",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 06",
+   "mix": {
+    "at": "V082",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s038",
+   "type": "photo",
+   "image": "photos_final/P24.png",
+   "from": "V084",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 24"
+  },
+  {
+   "id": "s039",
+   "type": "video",
+   "src": "stock/full/1808.mp4",
+   "in": 0.1,
+   "speed": 1.0,
+   "from": "V087",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st09 Mixkit 1808 Close up shot of a person typing on a laptop",
+   "mix": {
+    "at": "V087",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s040",
+   "type": "video",
+   "src": "stock/full/3110.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V092",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st10 Mixkit 3110 Minimalist room with gray sofa"
+  },
+  {
+   "id": "s041",
+   "type": "photo",
+   "image": "photos_final/P08.png",
+   "from": "V093",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 08",
+   "mix": {
+    "at": "V093",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s042",
+   "type": "video",
+   "src": "stock/full/3978.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V095",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st11 Mixkit 3978 View from a window of the night outside",
+   "mix": {
+    "at": "V095",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s043",
+   "type": "photo",
+   "image": "photos_final/P25.png",
+   "from": "V098",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 25"
+  },
+  {
+   "id": "s044",
+   "type": "photo",
+   "image": "photos_final/P26.png",
+   "from": "V101",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 26"
+  },
+  {
+   "id": "s045",
+   "type": "photo",
+   "image": "photos_final/P27.png",
+   "from": "V103",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 27"
+  },
+  {
+   "id": "s046",
+   "type": "photo",
+   "image": "photos_final/P28.png",
+   "from": "V106",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 28"
+  },
+  {
+   "id": "s047",
+   "type": "photo",
+   "image": "photos_final/P27.png",
+   "from": "V108",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 27"
+  },
+  {
+   "id": "s048",
+   "type": "photo",
+   "image": "photos_final/P29.png",
+   "from": "V110",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 29"
+  },
+  {
+   "id": "s049",
+   "type": "photo",
+   "image": "photos_final/P30.png",
+   "from": "V113",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 30"
+  },
+  {
+   "id": "s050",
+   "type": "photo",
+   "image": "photos_final/P31.png",
+   "from": "V116",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 31"
+  },
+  {
+   "id": "s051",
+   "type": "video",
+   "src": "stock/full/3768.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V118",
+   "grade": {
+    "sat": 0.7,
+    "black": 0.1,
+    "gamma": 1.8,
+    "vignette": 0.7,
+    "gain": 0.55
+   },
+   "note": "st12 Mixkit 3768 Glucose molecule"
+  },
+  {
+   "id": "s052",
+   "type": "video",
+   "src": "stock/full/42896.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V121",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st13 Mixkit 42896 Young woman laying on a white soft bed slowly wakes up in the morning",
+   "mix": {
+    "at": "V121",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s053",
+   "type": "video",
+   "src": "stock/full/1623.mp4",
+   "in": 5.0,
+   "speed": 1.0,
+   "from": "V126",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st14 Mixkit 1623 People getting into the subway train",
+   "mix": {
+    "at": "V126",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s054",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V131",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 02",
+   "mix": {
+    "at": "V131",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s055",
+   "type": "video",
+   "src": "stock/full/42343.mp4",
+   "in": 13.0,
+   "speed": 1.0,
+   "from": "V133",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st15 Mixkit 42343 Movement in a city at night in an aerial shot",
+   "mix": {
+    "at": "V133",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s056",
+   "type": "photo",
+   "image": "photos_final/P32.png",
+   "from": "V139",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 32",
+   "mix": {
+    "at": "V139",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s057",
+   "type": "photo",
+   "image": "photos_final/P33.png",
+   "from": "V142",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 33"
+  },
+  {
+   "id": "s058",
+   "type": "video",
+   "src": "stock/full/51394.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V145",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st16 Mixkit 51394 Woman with insomnia lying in her bed trying to sleep"
+  },
+  {
+   "id": "s059",
+   "type": "video",
+   "src": "stock/full/28900.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V148",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st17 Mixkit 28900 Digital clock in the dark marking midnight"
+  },
+  {
+   "id": "s060",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V151",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 02"
+  },
+  {
+   "id": "s061",
+   "type": "video",
+   "src": "stock/full/42664.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V154",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st18 Mixkit 42664 Professional woman working in an office",
+   "blur_box": [
+    [
+     0.8125,
+     0.3148,
+     0.9063,
+     0.3981,
+     12
+    ],
+    [
+     0.3125,
+     0.2778,
+     0.4167,
+     0.3796,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s062",
+   "type": "photo",
+   "image": "photos_final/P34.png",
+   "from": "V157",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 34"
+  },
+  {
+   "id": "s063",
+   "type": "video",
+   "src": "stock/full/3213.mp4",
+   "in": 6.2,
+   "speed": 1.0,
+   "from": "V161",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st19 Mixkit 3213 Woman falls asleep in her bed"
+  },
+  {
+   "id": "s064",
+   "type": "video",
+   "src": "stock/full/4433.mp4",
+   "in": 5.0,
+   "speed": 1.0,
+   "from": "V164",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st20 Mixkit 4433 Full moon with a soft haze",
+   "mix": {
+    "at": "V164",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s065",
+   "type": "photo",
+   "image": "photos_final/P35.png",
+   "from": "V170",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 35",
+   "mix": {
+    "at": "V170",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s066",
+   "type": "photo",
+   "image": "photos_final/P36.png",
+   "from": "V172",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 36",
+   "mix": {
+    "at": "V172",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s067",
+   "type": "video",
+   "src": "stock/full/40734.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V174",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st21 Mixkit 40734 Large buildings of a city at dusk"
+  },
+  {
+   "id": "s068",
+   "type": "photo",
+   "image": "photos_final/P37.png",
+   "from": "V176",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 37",
+   "mix": {
+    "at": "V176",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s069",
+   "type": "photo",
+   "image": "photos_final/P38.png",
+   "from": "V177",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 38"
+  },
+  {
+   "id": "s070",
+   "type": "photo",
+   "image": "photos_final/P39.png",
+   "from": "V178",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 39"
+  },
+  {
+   "id": "s071",
+   "type": "photo",
+   "image": "photos_final/P37.png",
+   "from": "V179",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 37"
+  },
+  {
+   "id": "s072",
+   "type": "video",
+   "src": "stock/full/1711.mp4",
+   "in": 0.2,
+   "speed": 1.0,
+   "from": "V182",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st22 Mixkit 1711 A person texting on a smartphone",
+   "mix": {
+    "at": "V182",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s073",
+   "type": "video",
+   "src": "stock/full/99910.mp4",
+   "in": 6.0,
+   "speed": 1.0,
+   "from": "V185",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st23 Mixkit 99910 Beside a modern laptop the hands write a note on a yellow page notebook with a pen"
+  },
+  {
+   "id": "s074",
+   "type": "photo",
+   "image": "photos_final/P36.png",
+   "from": "V188",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 36"
+  },
+  {
+   "id": "s075",
+   "type": "photo",
+   "image": "photos_final/P40.png",
+   "from": "V190",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 40"
+  },
+  {
+   "id": "s076",
+   "type": "photo",
+   "image": "photos_final/P41.png",
+   "from": "V193",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 41"
+  },
+  {
+   "id": "s077",
+   "type": "video",
+   "src": "stock/full/4948.mp4",
+   "in": 0.8,
+   "speed": 1.0,
+   "from": "V194",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st24 Mixkit 4948 Blonde woman reading a book"
+  },
+  {
+   "id": "s078",
+   "type": "video",
+   "src": "stock/full/42653.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V197",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st25 Mixkit 42653 Woman finishes working on her computer",
+   "blur_box": [
+    [
+     0.5729,
+     0.3333,
+     0.7604,
+     0.6481,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s079",
+   "type": "video",
+   "src": "stock/full/28885.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V199",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st25b Mixkit 28885 Circular clock a very close shot illuminated in the dark",
+   "mix": {
+    "at": "V199",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s080",
+   "type": "photo",
+   "image": "photos_final/P42.png",
+   "from": "V203",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 42"
+  },
+  {
+   "id": "s081",
+   "type": "photo",
+   "image": "photos_final/P40.png",
+   "from": "V206",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 40"
+  },
+  {
+   "id": "s082",
+   "type": "video",
+   "src": "stock/full/52255.mp4",
+   "in": 0.4,
+   "speed": 1.0,
+   "from": "V207",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st26 Mixkit 52255 A young mother working on a laptop at a tiny desk in the room corner looks on her back to check on her little daughter laying on the bed"
+  },
+  {
+   "id": "s083",
+   "type": "video",
+   "src": "stock/full/42629.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V209",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st27 Mixkit 42629 Checking the calendar on a tablet",
+   "blur_box": [
+    [
+     0.5885,
+     0.8796,
+     0.9062,
+     1.0,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s084",
+   "type": "photo",
+   "image": "photos_final/P43.png",
+   "from": "V212",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 43",
+   "mix": {
+    "at": "V212",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s085",
+   "type": "video",
+   "src": "stock/full/100067.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V215",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st28 Mixkit 100067 A young smiling woman enjoys social media scrolling on her red phone laying on the comfy bed at midnight"
+  },
+  {
+   "id": "s086",
+   "type": "photo",
+   "image": "photos_final/P09.png",
+   "from": "V219",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 09"
+  },
+  {
+   "id": "s087",
+   "type": "photo",
+   "image": "photos_final/P44.png",
+   "from": "V220",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 44"
+  },
+  {
+   "id": "s088",
+   "type": "photo",
+   "image": "photos_final/P45.png",
+   "from": "V223",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 45"
+  },
+  {
+   "id": "s089",
+   "type": "video",
+   "src": "stock/full/39826.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V225",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st29 Mixkit 39826 Alarm clock outside, time lapse"
+  },
+  {
+   "id": "s090",
+   "type": "video",
+   "src": "stock/full/4749.mp4",
+   "in": 1.2,
+   "speed": 1.0,
+   "from": "V230",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st30 Mixkit 4749 Woman waking up while turning off her alarm clock"
+  },
+  {
+   "id": "s091",
+   "type": "video",
+   "src": "stock/full/3208.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "from": "V233",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st31 Mixkit 3208 Man falls asleep hugging his wife"
+  },
+  {
+   "id": "s092",
+   "type": "photo",
+   "image": "photos_final/P46.png",
+   "from": "V236",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 46"
+  },
+  {
+   "id": "s093",
+   "type": "photo",
+   "image": "photos_final/P47.png",
+   "from": "V238",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 47"
+  },
+  {
+   "id": "s094",
+   "type": "video",
+   "src": "stock/full/42981.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "from": "V240",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st32 Mixkit 42981 Loving couple sleeping together at night"
+  },
+  {
+   "id": "s095",
+   "type": "video",
+   "src": "stock/full/4795.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V244",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st32b Mixkit 4795 Young doctor listening through his stethoscope"
+  },
+  {
+   "id": "s096",
+   "type": "video",
+   "src": "stock/full/31407.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "from": "V245",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st33 Mixkit 31407 Woman stretching in the morning before starting her day",
+   "mix": {
+    "at": "V245",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s097",
+   "type": "photo",
+   "image": "photos_final/P09.png",
+   "from": "V247",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 09"
+  },
+  {
+   "id": "s098",
+   "type": "video",
+   "src": "stock/full/41375.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V248",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st34 Mixkit 41375 Tour high above a city at dusk",
+   "mix": {
+    "at": "V250",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.712,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s099",
+   "type": "video",
+   "src": "stock/full/39828.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V253",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st35 Mixkit 39828 Alarm clock on a table while time flies by",
+   "blur_box": [
+    [
+     0.9193,
+     0.1806,
+     1.0,
+     0.2778,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V253",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s100",
+   "type": "photo",
+   "image": "photos_final/P48.png",
+   "from": "V256",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 48"
+  },
+  {
+   "id": "s101",
+   "type": "video",
+   "src": "stock/full/28342.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V258",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st36 Mixkit 28342 Slow aerial tour through a mist-covered forest",
+   "mix": {
+    "at": "V259",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s102",
+   "type": "video",
+   "src": "stock/full/402.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V262",
+   "grade": {
+    "sat": 0.7,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st37 Mixkit 402 Man stands in the shadows",
+   "mix": {
+    "at": "V262",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.665,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s103",
+   "type": "video",
+   "src": "stock/full/52452.mp4",
+   "in": 8.0,
+   "speed": 1.0,
+   "from": "V265",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st37b Mixkit 52452 Gliding along a quiet asphalt road at dawn, the soft, golden light of the rising sun iluminates the highway.",
+   "mix": {
+    "at": "V265",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.712,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s104",
+   "type": "video",
+   "src": "stock/full/3132.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V269",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st38 Mixkit 3132 Time lapse of a small town at night",
+   "mix": {
+    "at": "V269",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s105",
+   "type": "video",
+   "src": "stock/full/4148.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V272",
+   "grade": {
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "st39 Mixkit 4148 Milky way seen at night",
+   "mix": {
+    "at": "V272",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.855,
+     "black": 0.03,
+     "gamma": 1.208,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  }
+ ],
+ "subs": [
+  {
+   "line": "V001",
+   "text": "당신은 내일도"
+  },
+  {
+   "line": "V002",
+   "text": "아침 7시에 일어나야 합니다."
+  },
+  {
+   "line": "V003",
+   "text": "휴대폰을 내려놓으려고"
+  },
+  {
+   "line": "V004",
+   "text": "시간을 보니 새벽 1시입니다."
+  },
+  {
+   "line": "V005",
+   "text": "지금 자면 6시간."
+  },
+  {
+   "line": "V006",
+   "text": "조금 짧은 것 같지만"
+  },
+  {
+   "line": "V007",
+   "text": "괜찮다고 생각합니다."
+  },
+  {
+   "line": "V008",
+   "text": "어제도 그만큼 잤고"
+  },
+  {
+   "line": "V009",
+   "text": "오늘도 별문제 없이"
+  },
+  {
+   "line": "V010",
+   "text": "하루를 보냈으니까요."
+  },
+  {
+   "line": "V011",
+   "text": "아침에는 일어나기 힘들어도"
+  },
+  {
+   "line": "V012",
+   "text": "씻고 출근해서"
+  },
+  {
+   "line": "V013",
+   "text": "커피를 마시면 일할 만해집니다."
+  },
+  {
+   "line": "V014",
+   "text": "가끔 머리가 멍하지만"
+  },
+  {
+   "line": "V015",
+   "text": "직장인이 다 그렇지 싶습니다."
+  },
+  {
+   "line": "V016",
+   "text": "그렇게 평일을 보내고"
+  },
+  {
+   "line": "V017",
+   "text": "토요일이 됩니다."
+  },
+  {
+   "line": "V018",
+   "text": "알람 없이 잠들었는데"
+  },
+  {
+   "line": "V019",
+   "text": "눈을 떠 보니 낮 12시입니다."
+  },
+  {
+   "line": "V020",
+   "text": "밥을 먹고 나니"
+  },
+  {
+   "line": "V021",
+   "text": "벌써 오후입니다."
+  },
+  {
+   "line": "V022",
+   "text": "쉬는 날이 아깝지만"
+  },
+  {
+   "line": "V023",
+   "text": "이렇게 생각합니다."
+  },
+  {
+   "line": "V024",
+   "text": "평일에 못 잔 잠을 몰아서 잤으니까",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V025",
+   "text": "이제 괜찮겠지.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V026",
+   "text": "그런데 월요일 아침이면"
+  },
+  {
+   "line": "V027",
+   "text": "다시 일어나기가 힘듭니다."
+  },
+  {
+   "line": "V028",
+   "text": "나는 정말 6시간만 자도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V029",
+   "text": "괜찮은 사람일까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V030",
+   "text": "주말에 푹 자는데도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V031",
+   "text": "왜 피곤함은 반복될까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V032",
+   "text": "오늘은 이 두 가지 질문을 살펴보고"
+  },
+  {
+   "line": "V033",
+   "text": "잠자는 습관을 바꿔 볼"
+  },
+  {
+   "line": "V034",
+   "text": "방법 3가지를"
+  },
+  {
+   "line": "V035",
+   "text": "이야기해 보겠습니다."
+  },
+  {
+   "line": "V036",
+   "text": "평일 오후"
+  },
+  {
+   "line": "V037",
+   "text": "당신은 회사에서 이메일을 읽고 있습니다."
+  },
+  {
+   "line": "V038",
+   "text": "같은 문장을 몇 번이나 읽고"
+  },
+  {
+   "line": "V039",
+   "text": "방금 확인한 숫자를 잊어"
+  },
+  {
+   "line": "V040",
+   "text": "앞의 화면으로 돌아갑니다."
+  },
+  {
+   "line": "V041",
+   "text": "집중이 잘 안 되지만"
+  },
+  {
+   "line": "V042",
+   "text": "눈이 감길 만큼 졸리지는 않습니다."
+  },
+  {
+   "line": "V043",
+   "text": "그래서 잠이 부족하다는 생각까지는"
+  },
+  {
+   "line": "V044",
+   "text": "하지 않습니다."
+  },
+  {
+   "line": "V045",
+   "text": "그런데 잠이 부족해도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V046",
+   "text": "본인은 그 영향을",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V047",
+   "text": "충분히 알아차리지 못할 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V048",
+   "text": "2003년 반 동겐 연구팀은"
+  },
+  {
+   "line": "V049",
+   "text": "건강한 성인들을 세 집단으로 나누고"
+  },
+  {
+   "line": "V050",
+   "text": "매일 밤 잘 수 있는 시간을"
+  },
+  {
+   "line": "V051",
+   "text": "4시간 6시간 8시간으로 정했습니다."
+  },
+  {
+   "line": "V052",
+   "text": "참가자들은 14일 동안"
+  },
+  {
+   "line": "V053",
+   "text": "이 일정에 맞춰 생활하면서"
+  },
+  {
+   "line": "V054",
+   "text": "주의력과 기억력 검사를"
+  },
+  {
+   "line": "V055",
+   "text": "반복해서 받았습니다."
+  },
+  {
+   "line": "V056",
+   "text": "화면에 신호가 나타나면"
+  },
+  {
+   "line": "V057",
+   "text": "빠르게 반응하는 검사 등이었습니다."
+  },
+  {
+   "line": "V058",
+   "text": "연구진은 검사 성적과 함께"
+  },
+  {
+   "line": "V059",
+   "text": "참가자들이 스스로 평가한"
+  },
+  {
+   "line": "V060",
+   "text": "졸림도 기록했습니다."
+  },
+  {
+   "line": "V061",
+   "text": "그리고 밤을 새운 별도 집단의"
+  },
+  {
+   "line": "V062",
+   "text": "검사 결과와 비교했습니다."
+  },
+  {
+   "line": "V063",
+   "text": "6시간씩 자도록 한 집단에서는"
+  },
+  {
+   "line": "V064",
+   "text": "날이 지날수록"
+  },
+  {
+   "line": "V065",
+   "text": "신호에 제때 반응하지 못하는 경우가"
+  },
+  {
+   "line": "V066",
+   "text": "늘었습니다."
+  },
+  {
+   "line": "V067",
+   "text": "14일 뒤에는"
+  },
+  {
+   "line": "V068",
+   "text": "주의력과 일부 기억력 검사 성적이"
+  },
+  {
+   "line": "V069",
+   "text": "하룻밤을 꼬박 새운 집단의 성적과"
+  },
+  {
+   "line": "V070",
+   "text": "비슷한 수준까지 떨어졌습니다."
+  },
+  {
+   "line": "V071",
+   "text": "그런데 본인이 느끼는 졸림은"
+  },
+  {
+   "line": "V072",
+   "text": "그만큼 심해지지 않았습니다."
+  },
+  {
+   "line": "V073",
+   "text": "잠을 줄인 초기에는 졸림이 늘었지만",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V074",
+   "text": "그 뒤로는 검사 성적이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V075",
+   "text": "계속 나빠지는 동안에도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V076",
+   "text": "졸림이 크게 늘지 않았던 겁니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V077",
+   "text": "이 결과를 생각하면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V078",
+   "text": "우리가 말하는 “괜찮다”의 기준도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V079",
+   "text": "돌아볼 필요가 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V080",
+   "text": "충분히 잤을 때처럼",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V081",
+   "text": "집중할 수 있다는 뜻일까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V082",
+   "text": "아니면 어제만큼은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V083",
+   "text": "버틸 수 있다는 뜻일까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V084",
+   "text": "한동안 비슷하게 자 왔다면"
+  },
+  {
+   "line": "V085",
+   "text": "비교 대상인 어제의 나도"
+  },
+  {
+   "line": "V086",
+   "text": "잠이 부족한 상태였을 수 있습니다."
+  },
+  {
+   "line": "V087",
+   "text": "집중이 끊기는 이유는 여러 가지입니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V088",
+   "text": "다만 이런 일이 반복된다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V089",
+   "text": "직장인은 원래 피곤하지",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V090",
+   "text": "하고 넘기기 전에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V091",
+   "text": "잠은 충분했는지도 확인해 봐야 합니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V092",
+   "text": "그러면 이렇게 생각할 수 있습니다."
+  },
+  {
+   "line": "V093",
+   "text": "평일에 부족한 건 맞아.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V094",
+   "text": "그래서 주말에 많이 자잖아.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V095",
+   "text": "평일에 덜 잔 만큼",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V096",
+   "text": "주말에 더 자면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V097",
+   "text": "결국 비슷하지 않을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V098",
+   "text": "2019년 데프너 연구팀은"
+  },
+  {
+   "line": "V099",
+   "text": "건강한 젊은 성인 36명을"
+  },
+  {
+   "line": "V100",
+   "text": "세 집단으로 나눴습니다."
+  },
+  {
+   "line": "V101",
+   "text": "한 집단에는 매일 밤"
+  },
+  {
+   "line": "V102",
+   "text": "9시간의 수면 기회를 줬고"
+  },
+  {
+   "line": "V103",
+   "text": "다른 집단에는 5시간만 줬습니다."
+  },
+  {
+   "line": "V104",
+   "text": "나머지 집단은 처음 닷새 동안"
+  },
+  {
+   "line": "V105",
+   "text": "5시간씩 자도록 한 뒤"
+  },
+  {
+   "line": "V106",
+   "text": "주말 이틀 동안"
+  },
+  {
+   "line": "V107",
+   "text": "자유롭게 잠을 보충하게 했습니다."
+  },
+  {
+   "line": "V108",
+   "text": "주말이 끝나면"
+  },
+  {
+   "line": "V109",
+   "text": "다시 짧게 자도록 했고요."
+  },
+  {
+   "line": "V110",
+   "text": "연구진은 이런 생활을 하면서"
+  },
+  {
+   "line": "V111",
+   "text": "식사량과 혈당 조절에 관련된 지표가"
+  },
+  {
+   "line": "V112",
+   "text": "어떻게 달라지는지 확인했습니다."
+  },
+  {
+   "line": "V113",
+   "text": "주말에 잠을 보충하는 동안에는"
+  },
+  {
+   "line": "V114",
+   "text": "저녁 식사 후 추가로 먹는 양이"
+  },
+  {
+   "line": "V115",
+   "text": "줄었습니다."
+  },
+  {
+   "line": "V116",
+   "text": "하지만 다시 잠을 줄이자"
+  },
+  {
+   "line": "V117",
+   "text": "먹는 양이 늘었고"
+  },
+  {
+   "line": "V118",
+   "text": "혈당을 조절하는 호르몬인"
+  },
+  {
+   "line": "V119",
+   "text": "인슐린에 몸이 반응하는 정도도"
+  },
+  {
+   "line": "V120",
+   "text": "실험 전보다 낮아졌습니다."
+  },
+  {
+   "line": "V121",
+   "text": "이 연구에서는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V122",
+   "text": "주말에 잠을 보충하는 것만으로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V123",
+   "text": "이런 변화를 막지 못했습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V124",
+   "text": "주말에 더 자는 것이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V125",
+   "text": "소용없다는 뜻은 아닙니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V126",
+   "text": "주말 이후 다시 잠을 줄이는 생활로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V127",
+   "text": "돌아갔다는 점을 봐야 합니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V128",
+   "text": "우리도 주말에 얼마나 잤는지와 함께",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V129",
+   "text": "그다음 평일에 어떻게 자는지",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V130",
+   "text": "살펴볼 필요가 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V131",
+   "text": "오늘도 조금만 더 보고 자자.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V132",
+   "text": "주말에 푹 자면 되니까.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V133",
+   "text": "이런 생각이 반복되면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V134",
+   "text": "주말의 휴식이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V135",
+   "text": "평일의 잠을 계속 미루는 이유가",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V136",
+   "text": "될 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V137",
+   "text": "그렇다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V138",
+   "text": "무엇부터 바꿔 보면 좋을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V139",
+   "text": "첫째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V140",
+   "text": "평일과 주말에 어떻게 자는지",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V141",
+   "text": "일주일 정도 기록해 보세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V142",
+   "text": "잠자리에 든 시각"
+  },
+  {
+   "line": "V143",
+   "text": "대략 잠든 시각"
+  },
+  {
+   "line": "V144",
+   "text": "아침에 일어난 시각을 적어 보는 겁니다."
+  },
+  {
+   "line": "V145",
+   "text": "밤중에 오래 깨어 있었거나"
+  },
+  {
+   "line": "V146",
+   "text": "낮잠을 잤다면"
+  },
+  {
+   "line": "V147",
+   "text": "그것도 함께 남겨 보세요."
+  },
+  {
+   "line": "V148",
+   "text": "밤마다 시계를 확인하지 말고"
+  },
+  {
+   "line": "V149",
+   "text": "다음 날 아침 기억나는 범위에서"
+  },
+  {
+   "line": "V150",
+   "text": "적으면 됩니다."
+  },
+  {
+   "line": "V151",
+   "text": "누워서 휴대폰을 본 시간까지"
+  },
+  {
+   "line": "V152",
+   "text": "잠잔 시간으로 세고 있지는 않았는지"
+  },
+  {
+   "line": "V153",
+   "text": "확인하는 겁니다."
+  },
+  {
+   "line": "V154",
+   "text": "낮에 유난히 졸렸던 때나"
+  },
+  {
+   "line": "V155",
+   "text": "집중이 어려웠던 순간도"
+  },
+  {
+   "line": "V156",
+   "text": "짧게 적어 봅니다."
+  },
+  {
+   "line": "V157",
+   "text": "이렇게 적어 보면"
+  },
+  {
+   "line": "V158",
+   "text": "평일에 짧게 자고"
+  },
+  {
+   "line": "V159",
+   "text": "휴일에 몰아 자는 패턴이"
+  },
+  {
+   "line": "V160",
+   "text": "더 잘 보일 수 있습니다."
+  },
+  {
+   "line": "V161",
+   "text": "미국 국립보건원은 성인에게"
+  },
+  {
+   "line": "V162",
+   "text": "대체로 하루 7시간에서 9시간의"
+  },
+  {
+   "line": "V163",
+   "text": "수면을 권합니다."
+  },
+  {
+   "line": "V164",
+   "text": "개인마다 차이는 있지만",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V165",
+   "text": "6시간이면 충분하다고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V166",
+   "text": "결론 내리기 전에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V167",
+   "text": "충분히 잘 시간을 꾸준히",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V168",
+   "text": "확보하고 있는지부터",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V169",
+   "text": "살펴보는 것이 좋겠습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V170",
+   "text": "둘째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V171",
+   "text": "잠들 준비를 시작할 시간을 정하고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V172",
+   "text": "그 전에 내가 즐길 시간도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V173",
+   "text": "남겨 두세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V174",
+   "text": "잠을 더 자야 한다는 것을 알아도"
+  },
+  {
+   "line": "V175",
+   "text": "밤이 되면 이런 마음이 듭니다."
+  },
+  {
+   "line": "V176",
+   "text": "일찍 자면 내 시간은 언제 가져요?",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V177",
+   "text": "퇴근하고 밥을 먹고"
+  },
+  {
+   "line": "V178",
+   "text": "집안일을 마치면 벌써 밤입니다."
+  },
+  {
+   "line": "V179",
+   "text": "이제 겨우 좋아하는 영상을"
+  },
+  {
+   "line": "V180",
+   "text": "보기 시작했는데"
+  },
+  {
+   "line": "V181",
+   "text": "자려고 하니 아쉽습니다."
+  },
+  {
+   "line": "V182",
+   "text": "이때 무조건 휴대폰을 내려놓으라는 말은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V183",
+   "text": "남은 즐거움마저",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V184",
+   "text": "포기하라는 말처럼 들릴 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V185",
+   "text": "그래서 잠들 시각만 정하기보다"
+  },
+  {
+   "line": "V186",
+   "text": "저녁을 어떻게 보낼지도"
+  },
+  {
+   "line": "V187",
+   "text": "함께 정해 보는 겁니다."
+  },
+  {
+   "line": "V188",
+   "text": "밥을 먹고 나서"
+  },
+  {
+   "line": "V189",
+   "text": "보고 싶었던 드라마 한 편을 봅니다."
+  },
+  {
+   "line": "V190",
+   "text": "한 편이 끝나면"
+  },
+  {
+   "line": "V191",
+   "text": "새로운 영상을 계속 찾기보다"
+  },
+  {
+   "line": "V192",
+   "text": "씻고 하루를 마무리합니다."
+  },
+  {
+   "line": "V193",
+   "text": "음악을 들으며 쉬어도 좋습니다."
+  },
+  {
+   "line": "V194",
+   "text": "내가 좋아하는 시간을 보내되"
+  },
+  {
+   "line": "V195",
+   "text": "하루를 마칠 시점도"
+  },
+  {
+   "line": "V196",
+   "text": "함께 정하는 겁니다."
+  },
+  {
+   "line": "V197",
+   "text": "처음에는 평소보다 30분 먼저"
+  },
+  {
+   "line": "V198",
+   "text": "저녁 일과를 마무리해 볼 수 있습니다."
+  },
+  {
+   "line": "V199",
+   "text": "30분만 더 자면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V200",
+   "text": "충분하다는 뜻은 아닙니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V201",
+   "text": "필요한 수면 시간을",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V202",
+   "text": "확보해 가기 위한 첫 단계입니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V203",
+   "text": "눕기로 한 시각에 씻기 시작하면"
+  },
+  {
+   "line": "V204",
+   "text": "잠자리에 드는 시간은"
+  },
+  {
+   "line": "V205",
+   "text": "다시 늦어집니다."
+  },
+  {
+   "line": "V206",
+   "text": "잠자리 준비도 함께 앞당겨 보세요."
+  },
+  {
+   "line": "V207",
+   "text": "야근이나 돌봄으로"
+  },
+  {
+   "line": "V208",
+   "text": "시간을 조정하기 어려운 날도 있습니다."
+  },
+  {
+   "line": "V209",
+   "text": "그런 상황까지 의지의 문제로"
+  },
+  {
+   "line": "V210",
+   "text": "돌리지 말고"
+  },
+  {
+   "line": "V211",
+   "text": "바꿀 수 있는 일정부터 살펴보세요."
+  },
+  {
+   "line": "V212",
+   "text": "셋째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V213",
+   "text": "주말에도 잠들고 일어나는 시각이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V214",
+   "text": "크게 달라지지 않도록 해 보세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V215",
+   "text": "주말에는 늦게 자고"
+  },
+  {
+   "line": "V216",
+   "text": "늦게 일어나는 생활이 이어지기 쉽습니다."
+  },
+  {
+   "line": "V217",
+   "text": "이런 변화는"
+  },
+  {
+   "line": "V218",
+   "text": "수면 리듬을 흔들 수 있습니다."
+  },
+  {
+   "line": "V219",
+   "text": "일요일 낮 12시에 일어난 뒤"
+  },
+  {
+   "line": "V220",
+   "text": "내일 출근해야 한다며"
+  },
+  {
+   "line": "V221",
+   "text": "밤 11시에 누웠던 장면을"
+  },
+  {
+   "line": "V222",
+   "text": "떠올려 보세요."
+  },
+  {
+   "line": "V223",
+   "text": "마음은 급한데"
+  },
+  {
+   "line": "V224",
+   "text": "잠은 바로 오지 않을 수 있습니다."
+  },
+  {
+   "line": "V225",
+   "text": "미국 국립보건원은"
+  },
+  {
+   "line": "V226",
+   "text": "평일과 주말의 수면 일정을"
+  },
+  {
+   "line": "V227",
+   "text": "비슷하게 유지하고"
+  },
+  {
+   "line": "V228",
+   "text": "그 차이를 대략 1시간 이내로"
+  },
+  {
+   "line": "V229",
+   "text": "줄이도록 권합니다."
+  },
+  {
+   "line": "V230",
+   "text": "다만 이미 잠이 부족한데"
+  },
+  {
+   "line": "V231",
+   "text": "기상 시각만 맞추려고"
+  },
+  {
+   "line": "V232",
+   "text": "필요한 잠까지 줄이지는 마세요."
+  },
+  {
+   "line": "V233",
+   "text": "평일의 수면 시간을 늘리면서"
+  },
+  {
+   "line": "V234",
+   "text": "주말에도 지나치게 늦게 잠들지 않도록"
+  },
+  {
+   "line": "V235",
+   "text": "함께 조정하는 겁니다."
+  },
+  {
+   "line": "V236",
+   "text": "아침에는 가능하면"
+  },
+  {
+   "line": "V237",
+   "text": "밖에서 자연광을 쬐고"
+  },
+  {
+   "line": "V238",
+   "text": "밤에는 밝은 조명과 화면을 줄이며"
+  },
+  {
+   "line": "V239",
+   "text": "잠들 준비를 해 보세요."
+  },
+  {
+   "line": "V240",
+   "text": "충분히 잘 시간을 확보했는데도"
+  },
+  {
+   "line": "V241",
+   "text": "낮에 심하게 졸리거나"
+  },
+  {
+   "line": "V242",
+   "text": "큰 코골이와 함께"
+  },
+  {
+   "line": "V243",
+   "text": "자는 동안 숨이 멎는다는 이야기를 들었다면"
+  },
+  {
+   "line": "V244",
+   "text": "진료를 받아 볼 필요도 있습니다."
+  },
+  {
+   "line": "V245",
+   "text": "이제 처음의 토요일로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V246",
+   "text": "돌아가 보겠습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V247",
+   "text": "눈을 떠 보니 낮 12시입니다."
+  },
+  {
+   "line": "V248",
+   "text": "우리는 주말을 또 날렸다고"
+  },
+  {
+   "line": "V249",
+   "text": "생각하기 쉽습니다."
+  },
+  {
+   "line": "V250",
+   "text": "하지만 늦게 일어난 자신을 탓하기 전에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V251",
+   "text": "지난 닷새의 밤도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V252",
+   "text": "함께 떠올려 보면 어떨까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V253",
+   "text": "일어날 시간은 정해 둔 채",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V254",
+   "text": "잠들 시간만 계속 뒤로 미루고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V255",
+   "text": "있지는 않았을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V256",
+   "text": "잠을 1시간 줄이면"
+  },
+  {
+   "line": "V257",
+   "text": "오늘 밤 영상을 한 편 더 볼 수 있습니다."
+  },
+  {
+   "line": "V258",
+   "text": "그 시간은 분명하게 눈에 보입니다."
+  },
+  {
+   "line": "V259",
+   "text": "하지만 다음 날 어떤 상태로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V260",
+   "text": "하루를 보내게 될지는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V261",
+   "text": "그 순간에는 잘 보이지 않습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V262",
+   "text": "얼마나 오래 깨어 있었는지와 함께",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V263",
+   "text": "어떤 상태로 하루를 보냈는지도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V264",
+   "text": "돌아보면 좋겠습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V265",
+   "text": "6시간으로도 버틸 만하다는 이유만으로",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V266",
+   "text": "나에게 충분한 잠이라고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V267",
+   "text": "너무 빨리 결론 내리지는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V268",
+   "text": "않았으면 합니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V269",
+   "text": "오늘은 내일 몇 시에 일어날지 정하면서",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V270",
+   "text": "오늘 몇 시부터 하루를 마무리할지도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V271",
+   "text": "함께 정해 보세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V272",
+   "text": "여러분은 평일과 주말에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V273",
+   "text": "자는 시간이 얼마나 다른가요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V274",
+   "text": "잠자는 습관을 바꾸고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V275",
+   "text": "달라진 경험이 있다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V276",
+   "text": "댓글로 공유해 주세요.",
+   "pos": "center",
+   "shadow": true
+  }
+ ]
+}

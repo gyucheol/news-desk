@@ -1,0 +1,374 @@
+{
+ "num": {
+  "alarm7": 1,
+  "phone1am": 2,
+  "lieceiling": 3,
+  "hardwake": 4,
+  "commute": 5,
+  "coffee": 6,
+  "blank": 7,
+  "satsleep": 8,
+  "noon": 9,
+  "lunch": 10,
+  "content": 11,
+  "email": 12,
+  "reread": 13,
+  "backscreen": 14,
+  "vd_groups": 15,
+  "vd_468": 16,
+  "vd_tests": 17,
+  "vd_pvt": 18,
+  "vd_sleepy": 19,
+  "vd_allnight": 20,
+  "vd_miss": 21,
+  "vd_same": 22,
+  "focused": 23,
+  "yesterday": 24,
+  "dp_groups": 25,
+  "dp_9h": 26,
+  "dp_5h": 27,
+  "dp_weekend": 28,
+  "dp_measure": 29,
+  "dp_lesssnack": 30,
+  "dp_moresnack": 31,
+  "diary": 32,
+  "diary_write": 33,
+  "diary_pattern": 34,
+  "prep_time": 35,
+  "enjoy": 36,
+  "mytime": 37,
+  "dinner": 38,
+  "chores": 39,
+  "wash": 40,
+  "music": 41,
+  "latewash": 42,
+  "weekend_wake": 43,
+  "sun11pm": 44,
+  "cantsleep": 45,
+  "sunlight": 46,
+  "dimlight": 47,
+  "onemore": 48
+ },
+ "marks": [
+  [
+   1,
+   "alarm7",
+   26
+  ],
+  [
+   2,
+   "phone1am",
+   57
+  ],
+  [
+   3,
+   "lieceiling",
+   95
+  ],
+  [
+   4,
+   "hardwake",
+   145
+  ],
+  [
+   5,
+   "commute",
+   153
+  ],
+  [
+   6,
+   "coffee",
+   171
+  ],
+  [
+   7,
+   "blank",
+   183
+  ],
+  [
+   8,
+   "satsleep",
+   236
+  ],
+  [
+   9,
+   "noon",
+   255
+  ],
+  [
+   10,
+   "lunch",
+   274
+  ],
+  [
+   11,
+   "content",
+   329
+  ],
+  [
+   4,
+   "hardwake",
+   358
+  ],
+  [
+   3,
+   "lieceiling",
+   386
+  ],
+  [
+   8,
+   "satsleep",
+   411
+  ],
+  [
+   12,
+   "email",
+   498
+  ],
+  [
+   13,
+   "reread",
+   516
+  ],
+  [
+   14,
+   "backscreen",
+   545
+  ],
+  [
+   7,
+   "blank",
+   578
+  ],
+  [
+   15,
+   "vd_groups",
+   688
+  ],
+  [
+   16,
+   "vd_468",
+   732
+  ],
+  [
+   17,
+   "vd_tests",
+   786
+  ],
+  [
+   18,
+   "vd_pvt",
+   819
+  ],
+  [
+   19,
+   "vd_sleepy",
+   861
+  ],
+  [
+   20,
+   "vd_allnight",
+   893
+  ],
+  [
+   21,
+   "vd_miss",
+   948
+  ],
+  [
+   22,
+   "vd_same",
+   1012
+  ],
+  [
+   19,
+   "vd_sleepy",
+   1045
+  ],
+  [
+   23,
+   "focused",
+   1185
+  ],
+  [
+   6,
+   "coffee",
+   1210
+  ],
+  [
+   24,
+   "yesterday",
+   1260
+  ],
+  [
+   8,
+   "satsleep",
+   1399
+  ],
+  [
+   25,
+   "dp_groups",
+   1483
+  ],
+  [
+   26,
+   "dp_9h",
+   1514
+  ],
+  [
+   27,
+   "dp_5h",
+   1535
+  ],
+  [
+   27,
+   "dp_5h",
+   1569
+  ],
+  [
+   28,
+   "dp_weekend",
+   1597
+  ],
+  [
+   27,
+   "dp_5h",
+   1620
+  ],
+  [
+   29,
+   "dp_measure",
+   1675
+  ],
+  [
+   30,
+   "dp_lesssnack",
+   1718
+  ],
+  [
+   31,
+   "dp_moresnack",
+   1744
+  ],
+  [
+   2,
+   "phone1am",
+   1983
+  ],
+  [
+   32,
+   "diary",
+   2092
+  ],
+  [
+   33,
+   "diary_write",
+   2137
+  ],
+  [
+   2,
+   "phone1am",
+   2267
+  ],
+  [
+   34,
+   "diary_pattern",
+   2356
+  ],
+  [
+   35,
+   "prep_time",
+   2508
+  ],
+  [
+   36,
+   "enjoy",
+   2531
+  ],
+  [
+   37,
+   "mytime",
+   2592
+  ],
+  [
+   38,
+   "dinner",
+   2604
+  ],
+  [
+   39,
+   "chores",
+   2622
+  ],
+  [
+   37,
+   "mytime",
+   2660
+  ],
+  [
+   36,
+   "enjoy",
+   2789
+  ],
+  [
+   40,
+   "wash",
+   2829
+  ],
+  [
+   41,
+   "music",
+   2848
+  ],
+  [
+   42,
+   "latewash",
+   3027
+  ],
+  [
+   40,
+   "wash",
+   3047
+  ],
+  [
+   43,
+   "weekend_wake",
+   3166
+  ],
+  [
+   9,
+   "noon",
+   3246
+  ],
+  [
+   44,
+   "sun11pm",
+   3283
+  ],
+  [
+   45,
+   "cantsleep",
+   3311
+  ],
+  [
+   46,
+   "sunlight",
+   3496
+  ],
+  [
+   47,
+   "dimlight",
+   3529
+  ],
+  [
+   9,
+   "noon",
+   3657
+  ],
+  [
+   48,
+   "onemore",
+   3814
+  ]
+ ]
+}

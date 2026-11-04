@@ -29,7 +29,7 @@
    - 22번 자리('열나흘 뒤에는 … 비슷한 수준까지 떨어졌습니다'): 21번을 이어 쓰고 '하룻밤을 꼬박 새운 집단의 성적과'부터 20번
      (밤샘 집단)을 다시 씀. 22번 사진을 받으면 바꿈.
 7. run_align.sh -> onsets_v2.json(04편과 같은 도구: align_words.py, onsets.py, ctc_align.py, onsets_v2.py).
-8. build_segments.py -> segments.json(장면 104개: 사진 63, 스톡 41), build_spec.py -> spec.json(04편 build_spec_full.py와 같은 방식).
+8. build_segments.py -> segments.json(장면 105개: 사진 63, 스톡 42), build_spec.py -> spec.json(04편 build_spec_full.py와 같은 방식).
 9. 소리: prep_audio.py(목소리 -14 LUFS, 이 녹음은 이미 -14.0 LUFS라 이득 0 dB), bgm_sequence.py(배경음악 5곡, -36 LUFS, 곡마다
    고정 크기, 3초 겹쳐 바꿈, 끝 4초 줄임), mix_audio.py(-14 LUFS, 끝 단계 제한기).
 10. build_timeline.py, fit_clips.py, render_parallel.py(3조각, 영상만) + ffmpeg로 소리 합침(AAC 320kbps).
@@ -53,7 +53,7 @@
 - st09 124.9초부터 8.3초, Mixkit 1808 "Close up shot of a person typing on a laptop" (0.1초부터): 집중이 끊기는 이유는 여러 가지입니다. / 다만 이런 일이 반복된다면 / 직장인은 원래 피곤하지 / 하고 넘…
 - st10 133.3초부터 1.7초, Mixkit 3110 "Minimalist room with gray sofa" (0.5초부터): 그러면 이렇게 생각할 수 있습니다.
 - st11 137.8초부터 3.6초, Mixkit 3978 "View from a window of the night outside" (0.3초부터): 평일에 덜 잔 만큼 / 주말에 더 자면 / 결국 비슷하지 않을까요?
-- st12 171.9초부터 4.8초, Mixkit 3768 "Glucose molecule" (0.5초부터): 혈당을 조절하는 호르몬인 / 인슐린에 몸이 반응하는 정도도 / 실험 전보다 낮아졌습니다.
+- st12 171.9초부터 4.8초, Mixkit 3768 "Glucose molecule" (0.5초부터): 혈당을 조절하는 호르몬인 / 인슐린에 몸이 반응하는 정도도 / 실험 전보다 낮아졌습니다. | 흰 바탕이라 전체 밝기를 0.55배로(점검 뒤)
 - st13 176.7초부터 6.7초, Mixkit 42896 "Young woman laying on a white soft bed slowly wakes up in the morning" (0.5초부터): 이 연구에서는 / 주말에 잠을 보충하는 것만으로 / 이런 변화를 막지 못했습니다. / 주말에 더 자는 것이 …
 - st14 183.4초부터 8.7초, Mixkit 1623 "People getting into the subway train" (5.0초부터): 주말 이후 다시 잠을 줄이는 생활로 / 돌아갔다는 점을 봐야 합니다. / 우리도 주말에 얼마나 잤는지와 함께… | 창 너머 티셔츠 그림(2.2~5.0초)을 건너뛰어 흐림 없이
 - st15 195.0초부터 7.0초, Mixkit 42343 "Movement in a city at night in an aerial shot" (13.0초부터): 이런 생각이 반복되면 / 주말의 휴식이 / 평일의 잠을 계속 미루는 이유가 / 될 수 있습니다. / 그렇다면…
@@ -74,7 +74,8 @@
 - st29 326.1초부터 6.8초, Mixkit 39826 "Alarm clock outside, time lapse" (1.0초부터): 미국 국립보건원은 / 평일과 주말의 수면 일정을 / 비슷하게 유지하고 / 그 차이를 대략 1시간 이내로 / …
 - st30 332.9초부터 4.8초, Mixkit 4749 "Woman waking up while turning off her alarm clock" (1.2초부터): 다만 이미 잠이 부족한데 / 기상 시각만 맞추려고 / 필요한 잠까지 줄이지는 마세요.
 - st31 337.8초부터 5.2초, Mixkit 3208 "Man falls asleep hugging his wife" (0.0초부터): 평일의 수면 시간을 늘리면서 / 주말에도 지나치게 늦게 잠들지 않도록 / 함께 조정하는 겁니다.
-- st32 349.0초부터 8.4초, Mixkit 4834 "Therapist in his office talking to the camera" (0.3초부터): 충분히 잘 시간을 확보했는데도 / 낮에 심하게 졸리거나 / 큰 코골이와 함께 / 자는 동안 숨이 멎는다는 이…
+- st32 349.0초부터 6.7초, Mixkit 42981 "Loving couple sleeping together at night" (0.0초부터): 충분히 잘 시간을 확보했는데도 / 낮에 심하게 졸리거나 / 큰 코골이와 함께 / 자는 동안 숨이 멎는다는 이… | 바꿈(점검 뒤): 고른 4834(밝은 진료실에서 의사가 카메라를 보며 웃고 말함)는 광고처럼 보이고 문장과 분위기가 달라서, 밤에 함께 자는 두 사람(곁에서 코골이를 알아채는 상황)으로
+- st32b 355.7초부터 1.7초, Mixkit 4795 "Young doctor listening through his stethoscope" (0.5초부터): 진료를 받아 볼 필요도 있습니다. | 새로 나눔(점검 뒤): 진료 문장 한 줄만, 청진기로 듣는 의사의 옆얼굴(카메라를 보지 않음)
 - st33 357.4초부터 2.3초, Mixkit 31407 "Woman stretching in the morning before starting her day" (0.0초부터): 이제 처음의 토요일로 / 돌아가 보겠습니다.
 - st34 361.6초부터 7.7초, Mixkit 41375 "Tour high above a city at dusk" (0.5초부터): 우리는 주말을 또 날렸다고 / 생각하기 쉽습니다. / 하지만 늦게 일어난 자신을 탓하기 전에 / 지난 닷새의…
 - st35 369.3초부터 4.4초, Mixkit 39828 "Alarm clock on a table while time flies by" (2.0초부터): 일어날 시간은 정해 둔 채 / 잠들 시간만 계속 뒤로 미루고 / 있지는 않았을까요? | 상표·글자 자리 흐림

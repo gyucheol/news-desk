@@ -903,10 +903,11 @@
    "speed": 1.0,
    "from": "V118",
    "grade": {
-    "sat": 0.75,
+    "sat": 0.7,
     "black": 0.1,
     "gamma": 1.8,
-    "vignette": 0.65
+    "vignette": 0.7,
+    "gain": 0.55
    },
    "note": "st12 Mixkit 3768 Glucose molecule"
   },
@@ -1721,20 +1722,35 @@
   {
    "id": "s094",
    "type": "video",
-   "src": "stock/full/4834.mp4",
-   "in": 0.3,
+   "src": "stock/full/42981.mp4",
+   "in": 0.0,
    "speed": 1.0,
    "from": "V240",
    "grade": {
-    "sat": 0.78,
-    "black": 0.08,
-    "gamma": 1.6,
-    "vignette": 0.6
+    "sat": 0.9,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
    },
-   "note": "st32 Mixkit 4834 Therapist in his office talking to the camera"
+   "note": "st32 Mixkit 42981 Loving couple sleeping together at night"
   },
   {
    "id": "s095",
+   "type": "video",
+   "src": "stock/full/4795.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V244",
+   "grade": {
+    "sat": 0.75,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st32b Mixkit 4795 Young doctor listening through his stethoscope"
+  },
+  {
+   "id": "s096",
    "type": "video",
    "src": "stock/full/31407.mp4",
    "in": 0.0,
@@ -1761,7 +1777,7 @@
    }
   },
   {
-   "id": "s096",
+   "id": "s097",
    "type": "photo",
    "image": "photos_final/P09.png",
    "from": "V247",
@@ -1776,7 +1792,7 @@
    "note": "사용자 사진 09"
   },
   {
-   "id": "s097",
+   "id": "s098",
    "type": "video",
    "src": "stock/full/41375.mp4",
    "in": 0.5,
@@ -1803,7 +1819,7 @@
    }
   },
   {
-   "id": "s098",
+   "id": "s099",
    "type": "video",
    "src": "stock/full/39828.mp4",
    "in": 2.0,
@@ -1839,7 +1855,7 @@
    }
   },
   {
-   "id": "s099",
+   "id": "s100",
    "type": "photo",
    "image": "photos_final/P48.png",
    "from": "V256",
@@ -1854,7 +1870,7 @@
    "note": "사용자 사진 48"
   },
   {
-   "id": "s100",
+   "id": "s101",
    "type": "video",
    "src": "stock/full/28342.mp4",
    "in": 3.0,
@@ -1881,7 +1897,7 @@
    }
   },
   {
-   "id": "s101",
+   "id": "s102",
    "type": "video",
    "src": "stock/full/402.mp4",
    "in": 2.0,
@@ -1908,7 +1924,7 @@
    }
   },
   {
-   "id": "s102",
+   "id": "s103",
    "type": "video",
    "src": "stock/full/52452.mp4",
    "in": 8.0,
@@ -1935,7 +1951,7 @@
    }
   },
   {
-   "id": "s103",
+   "id": "s104",
    "type": "video",
    "src": "stock/full/3132.mp4",
    "in": 0.3,
@@ -1962,7 +1978,7 @@
    }
   },
   {
-   "id": "s104",
+   "id": "s105",
    "type": "video",
    "src": "stock/full/4148.mp4",
    "in": 1.0,

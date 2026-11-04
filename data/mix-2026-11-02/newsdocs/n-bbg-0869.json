@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0869",
+ "num": 869,
+ "key": "mix-G1-049-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T15:38:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/etg-group-plans-2-billion-mozambique-urea-plant-as-iran-war-lifts-prices",
+ "origTitle": "",
+ "headline": "이란전 비료값 상승에 ETG, 모잠비크 연 150만 톤 요소 공장 20억 달러 검토",
+ "src": [
+  {
+   "o": "briefs.co",
+   "d": "2026-10-30",
+   "u": "https://www.briefs.co/news/etg-lines-up-up-to-2-billion-urea-plant-in-northern-mozambiq/"
+  },
+  {
+   "o": "Construction Review Online",
+   "d": "2026-10-30",
+   "u": "https://constructionreviewonline.com/2-billion-mozambique-factory-planned-by-africas-largest-fertilizer-trader-etg-group/"
+  }
+ ],
+ "items": [
+  {
+   "t": "ETG, 이란전 비료값 상승에 모잠비크 20억 달러 요소 공장 계획",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/etg-group-plans-2-billion-mozambique-urea-plant-as-iran-war-lifts-prices"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "이란전 비료값 상승에 ETG, 모잠비크 연 150만 톤 요소 공장 20억 달러 검토",
+ "one": "아프리카 최대 비료 무역상 ETG가 모잠비크 북부에 최대 20억 달러 요소 공장을 추진한다\n· 공장은 연 150만 톤 규모로 투자비는 15억~20억 달러, 결정은 약 1년 뒤 타당성 조사 이후다\n· 이란 전쟁으로 호르무즈 해협 비료 수송이 막혀 값이 오른 것이 계기로 꼽혔다",
+ "facts": [
+  "무엇이: ETG는 모잠비크 북부에 연 150만 톤 규모 요소 공장을 계획하고 있으며 투자비는 15억~20억 달러로 추산되고 타당성 조사 뒤 약 1년 안에 결정한다 [사실]",
+  "원료: 토탈에너지 모잠비크 LNG 가스를 쓸 계획이나 이 사업 첫 수출 목표는 2029년이고 가스 가격은 정해지지 않았다 [사실]",
+  "배경: 이란 전쟁으로 호르무즈 해협을 지나는 비료 수송이 차질을 빚어 값이 올랐고, 2017년 야라의 20억 달러 모잠비크 비료 공장 계획은 무산된 전례가 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "공장 규모·투자비·가스 조달은 검색 결과 요약으로 확인.",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "inputs",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "모잠비크 연 150만 톤 요소 공장 검토"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0891",
+ "num": 891,
+ "key": "mix-G-016-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T13:55:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-02/japan-extends-transition-bond-push-despite-fossil-fuel-reliance",
+ "origTitle": "",
+ "headline": "일본, 화석연료 의존 비판에도 기후 전환채권 발행 연장",
+ "src": [
+  {
+   "o": "Green Central Banking",
+   "d": "2026-03-30",
+   "u": "https://greencentralbanking.com/2026/03/30/japans-gx-transition-bond-was-never-about-decarbonisation/"
+  }
+ ],
+ "items": [
+  {
+   "t": "일본, 화석연료 의존에도 전환채권 발행 연장",
+   "o": "블룸버그",
+   "d": "2026-11-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-02/japan-extends-transition-bond-push-despite-fossil-fuel-reliance"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/fiscal"
+ ],
+ "title": "일본, 화석연료 의존 비판에도 기후 전환채권 발행 연장",
+ "one": "일본 정부가 화석연료 의존 비판 속에서도 기후 전환채권 발행을 이어가기로 했다\n· 전환채권은 3월 기준 누적 약 4.2조 엔으로 10년간 20조 엔 계획 중 일부만 발행됐다\n· 조달 자금이 가스·암모니아 혼소 등 화석연료 사업에 쓰인다는 비판이 이어져 왔다 (제목 기준)",
+ "facts": [
+  "무엇이: 일본이 화석연료 의존 비판에도 전환채권 발행을 연장한다 [제목]",
+  "규모: GX 전환채권 누적 발행은 2026년 3월 기준 약 4.2조 엔으로 10년간 20조 엔 계획이며, 2028년부터 화석연료 부과금, 2033년부터 배출권 경매로 상환한다 [사실]",
+  "비판: 기후채권이니셔티브는 2024년 2월 첫 발행 뒤 GX 채권 인증을 거부했고, 석탄·가스·암모니아 혼소 관련 배분이 2024→2025년 40% 늘었다는 분석이 있다 [사실]"
+ ],
+ "basis": "title",
+ "check": "발행 연장 자체는 검색으로 찾지 못함. 누적 발행 규모·비판 배경은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "fiscal",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "일본 기후 전환채권 발행 연장"
+  }
+ ]
+}

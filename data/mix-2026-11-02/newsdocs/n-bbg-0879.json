@@ -1,0 +1,72 @@
+{
+ "id": "n-bbg-0879",
+ "num": 879,
+ "key": "mix-G1-061-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T20:18:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-31/ntpc-profit-jumps-as-el-nino-heat-drives-india-power-demand",
+ "origTitle": "",
+ "headline": "인도 NTPC, 엘니뇨 폭염발 전력 수요에 2분기 순이익 14% 증가…석탄 발전 13%↑",
+ "src": [
+  {
+   "o": "BusinessMirror",
+   "d": "2026-11-02",
+   "u": "https://businessmirror.com.ph/2026/11/02/ntpc-profit-jumps-as-heat-drives-india-power-demand/"
+  },
+  {
+   "o": "ANI",
+   "d": "2026-10-31",
+   "u": "https://www.aninews.in/news/business/ntpc-q2-net-profit-jumps-39-to-rs-7030-crore-revenue-rises-2120261031163418/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엘니뇨 폭염발 인도 전력 수요에 NTPC 이익 급증",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/ntpc-profit-jumps-as-el-nino-heat-drives-india-power-demand"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "power",
+  "coal"
+ ],
+ "nodes": [
+  "power/demand",
+  "coal/power"
+ ],
+ "title": "인도 NTPC, 엘니뇨 폭염발 전력 수요에 2분기 순이익 14% 증가…석탄 발전 13%↑",
+ "one": "인도 최대 발전사 NTPC의 이익이 엘니뇨 폭염과 약한 몬순에 따른 전력 수요로 크게 늘었다\n· 7~9월 단독 순이익은 532억 루피로 14% 늘었고 연결 기준으로는 약 39% 증가했다\n· 수력·풍력 발전이 줄며 석탄 발전이 13% 늘었고 석탄발전소 가동률은 73.5%로 올랐다",
+ "facts": [
+  "무엇이: NTPC의 7~9월 단독 순이익은 532억 루피로 전년 465억 루피보다 14% 늘어 시장 예상 494억 2,000만 루피를 웃돌았고, 연결 순이익은 7,030억 루피(7,029.56크로어)로 38.7% 늘었다 [사실]",
+  "수요: 엘니뇨 폭염과 10여 년 만에 가장 약한 몬순으로 냉방·관개 전력 수요가 늘었고 NTPC 전력 판매는 11.3% 증가했다 [사실]",
+  "전원: 수력·풍력 발전이 줄며 석탄 발전이 13% 늘어 전체 발전 증가율(약 12%)을 웃돌았고, 석탄발전소 가동률은 7%포인트 넘게 올라 73.5%가 됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "순이익 14% 증가와 수요 요인은 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "엘니뇨 폭염에 인도 전력 수요 급증"
+  },
+  {
+   "ind": "coal",
+   "node": "power",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "수력·풍력 부진에 석탄 발전 13% 증가"
+  }
+ ]
+}

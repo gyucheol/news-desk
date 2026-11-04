@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0868",
+ "num": 868,
+ "key": "mix-G1-048-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T06:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/port-workers-employers-push-long-beach-strike-threat-to-nov-4",
+ "origTitle": "",
+ "headline": "LA·롱비치 항만 경비원 파업 시한 11월 4일로 연기…노사 협상 연장",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-30",
+   "u": "https://gcaptain.com/strike-threat-at-los-angeles-long-beach-ports-delayed-as-union-and-employers-extend-talks/"
+  },
+  {
+   "o": "Dimerco",
+   "d": "2026-10-30",
+   "u": "https://dimerco.com/news-press/potential-la-lb-terminal-disruption-strike-deadline-expected-to-extend-to-november-4/"
+  }
+ ],
+ "items": [
+  {
+   "t": "롱비치 항만 노사, 파업 위협 시한 11월 4일로 연기",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/port-workers-employers-push-long-beach-strike-threat-to-nov-4"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "LA·롱비치 항만 경비원 파업 시한 11월 4일로 연기…노사 협상 연장",
+ "one": "롱비치·LA 항만 노사가 경비원 노조 파업 시한을 11월 4일 오후 5시(태평양시)로 미뤘다\n· ILWU 로컬 26 경비원은 롱비치 물동량의 약 85%, LA의 33%를 처리하는 터미널 6곳에서 일한다\n· 노사는 연방 중재조정청 중재로 협상을 이어 가지만 1년 넘는 교섭에도 이견이 크다",
+ "facts": [
+  "무엇이: 태평양해사협회(PMA)와 ILWU 로컬 26이 10월 30일 협상을 연장해 11월 1일이던 파업 시한을 11월 4일 오후 5시(태평양시)로 미뤘다 [사실]",
+  "영향: 경비원은 노조 인력의 약 2%지만 롱비치 물동량의 약 85%, LA의 33%를 처리하는 터미널 6곳에서 일하며 다른 항만 노동자가 피켓 라인을 넘지 않을 수 있다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(gCaptain·Dimerco 등)으로 시한 연기와 터미널 비중 확인.",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "ports",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "롱비치·LA 항만 경비원 파업 위협, 시한 11월 4일"
+  }
+ ]
+}

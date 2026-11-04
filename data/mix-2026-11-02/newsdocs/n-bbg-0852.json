@@ -1,0 +1,71 @@
+{
+ "id": "n-bbg-0852",
+ "num": 852,
+ "key": "mix-G1-015-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-01T05:41:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-31/eu-s-kallas-hosting-putin-at-g20-risks-normalizing-war-crimes",
+ "origTitle": "",
+ "headline": "러시아 G20 참석 두고 미·유럽 충돌…칼라스 '전쟁범죄 정상화' 비판, 루비오는 옹호",
+ "src": [
+  {
+   "o": "Ukrainska Pravda",
+   "d": "2026-10-31",
+   "u": "https://www.pravda.com.ua/eng/news/2026/10/31/8060672/"
+  },
+  {
+   "o": "Red Hot Singapore",
+   "d": "2026-10-31",
+   "u": "https://www.redhot.sg/rubio-defends-russian-g-20-presence-despite-criticism-from-allies-734339.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "EU 칼라스 'G20 푸틴 초청은 전쟁범죄 정상화 위험'",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/eu-s-kallas-hosting-putin-at-g20-risks-normalizing-war-crimes",
+   "s": "칼라스 EU 외교안보대표가 푸틴의 G20 참석이 전쟁범죄를 정상화할 수 있다고 비판하면서 러시아 복귀에 유럽의 반대가 드러났다"
+  },
+  {
+   "t": "루비오, 동맹 비판에도 러시아 G20 참석 옹호",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-defends-russian-g20-presence-despite-criticism-from-allies",
+   "s": "루비오 국무장관이 동맹의 비판에도 러시아의 G20 참석을 옹호하면서 전쟁 종식을 위한 대러 대화 노선을 고수했다"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "러시아 G20 참석 두고 미·유럽 충돌…칼라스 '전쟁범죄 정상화' 비판, 루비오는 옹호",
+ "one": "러시아의 G20 참석을 두고 미국과 유럽 동맹 사이에 공개적인 이견이 불거졌다\n· EU 칼라스 외교안보대표는 푸틴을 G20에 부르면 전쟁범죄를 정상화할 위험이 있다고 비판했다\n· 루비오 국무장관은 전쟁을 끝내려면 대화가 필요하다며 러시아의 G20 참석을 옹호했다\n· 루비오는 러시아 핵전력에 따른 확전 위험 때문에 소통 창구를 유지해야 한다고 말했다",
+ "facts": [
+  "무엇이: 미국이 주최하는 G20 회의에 러시아가 참석하는 문제를 두고 칼라스 EU 외교안보대표는 푸틴 초청이 전쟁범죄 정상화 위험을 키운다고 비판했고, 루비오 국무장관은 동맹 비판에도 러시아 참석을 옹호했다 [사실]",
+  "루비오 논리: 대화가 행위를 승인하는 것은 아니며 러시아 핵전력 때문에 확전 위험을 막을 소통 창구가 필요하다고 했지만, 협상 타결이 임박했다고 보지는 않는다고 말했다 [사실]",
+  "배경: 라브로프 러시아 외무장관은 10월 30일 미국에서 열린 G20 외교장관회의에 참석했고, 12월 마이애미 정상회의 푸틴 참석 여부는 확인되지 않았다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "루비오의 러시아 참석 옹호와 칼라스 비판은 검색 결과 요약으로 확인. 텔레그램의 '다음 주 남아공 G20 트럼프·시진핑·푸틴 불참' 글은 검색상 2026년 G20 정상회의가 12월 마이애미 개최로 나와 이전 사건 재탕으로 보고 items에서 뺌",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "러시아 G20 참석 두고 미국과 유럽 이견"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

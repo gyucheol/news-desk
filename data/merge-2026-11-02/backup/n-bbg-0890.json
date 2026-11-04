@@ -1,0 +1,62 @@
+{
+  "basis": "verified",
+  "check": "Japan Times·FXStreet 검색 결과 요약으로 확인.",
+  "cycles": [],
+  "facts": [
+    "무엇이: 가타야마 재무상은 11월 2일 무질서한 외환 움직임에 미국과 협력해 대응할 준비가 돼 있다고 밝혔다 [사실]",
+    "공동성명: 미·일 외환 공동성명은 여전히 유효하며 이에 맞춰 행동하겠다고 했고, 특정 수준에 대해선 언급을 피하며 이전보다 여건이 나아졌다고 했다 [사실]",
+    "시장: 엔화는 도쿄 오전 달러당 157.84엔 안팎에서 거래됐고 일본은행 다음 인상 시점 불확실성 속에 발언 뒤에도 약세를 보였다 [사실]"
+  ],
+  "feed": "v5",
+  "format": "one1",
+  "headline": "가타야마 日 재무상 '무질서한 외환 움직임에 대응 준비'…엔 달러당 157엔대 약세",
+  "id": "n-bbg-0890",
+  "incentive": "",
+  "inds": [
+    "macro"
+  ],
+  "insight": {},
+  "items": [
+    {
+      "d": "2026-11-02",
+      "o": "블룸버그",
+      "t": "가타야마 일본 재무상 '외환시장 안정 위해 대응 준비'",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-02/japan-s-katayama-says-ready-to-take-steps-for-stable-fx-market"
+    }
+  ],
+  "key": "mix-G-015-2026-11-02",
+  "nodes": [
+    "macro/fx"
+  ],
+  "num": 890,
+  "one": "가타야마 사쓰키 일본 재무상이 11월 2일 무질서한 외환 움직임에 미국과 협력해 대응할 준비가 돼 있다고 밝혔다\n· 가타야마는 미·일 외환 공동성명이 여전히 유효하다고 했지만 특정 환율 수준 언급은 피했다\n· 발언 뒤에도 엔화는 도쿄 오전 달러당 157.84엔 안팎에서 약세를 보였다",
+  "origTitle": "",
+  "processed": "2026-11-02",
+  "published": "2026-11-02T10:09:00+09:00",
+  "source": "블룸버그",
+  "src": [
+    {
+      "d": "2026-11-02",
+      "o": "The Japan Times",
+      "u": "https://www.japantimes.co.jp/business/2026/11/02/markets/katayama-ready-market-election/"
+    },
+    {
+      "d": "2026-11-02",
+      "o": "FXStreet",
+      "u": "https://fxstreet.com/news/japanese-yen-weakens-amid-less-hawkish-boj-as-bears-shrug-off-fresh-intervention-warning-202611020204"
+    }
+  ],
+  "tags": [],
+  "title": "가타야마 日 재무상 '무질서한 외환 움직임에 대응 준비'…엔 달러당 157엔대 약세",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-02/japan-s-katayama-says-ready-to-take-steps-for-stable-fx-market",
+  "vc": [
+    {
+      "dir": "down",
+      "f": "가격",
+      "ind": "macro",
+      "k": "실제",
+      "node": "fx",
+      "t": "구두 개입 경고에도 엔화 157엔대 약세"
+    }
+  ]
+}

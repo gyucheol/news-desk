@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0863",
+ "num": 863,
+ "key": "mix-G1-042-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T06:42:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/guyana-seeks-regional-support-ahead-of-venezuela-border-ruling",
+ "origTitle": "",
+ "headline": "가이아나, 베네수엘라 에세키보 국경 ICJ 판결 앞두고 브라질·콜롬비아에 지지 요청",
+ "src": [
+  {
+   "o": "La Patilla",
+   "d": "2026-10-30",
+   "u": "https://lapatilla.com/2026/10/30/guyana-busca-apoyo-de-dos-paises-vecinos-para-presionar-a-venezuela-por-el-esequibo"
+  },
+  {
+   "o": "JURIST",
+   "d": "2026-05",
+   "u": "https://www.jurist.org/news/2026/05/icj-opens-oral-hearings-as-guyana-asks-court-to-affirm-century-old-boundary-with-venezuela/"
+  }
+ ],
+ "items": [
+  {
+   "t": "가이아나, 베네수엘라 국경 판결 앞두고 역내 지지 요청",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/guyana-seeks-regional-support-ahead-of-venezuela-border-ruling"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "가이아나, 베네수엘라 에세키보 국경 ICJ 판결 앞두고 브라질·콜롬비아에 지지 요청",
+ "one": "가이아나가 베네수엘라와의 에세키보 국경 분쟁 ICJ 판결을 앞두고 역내 지지를 구하고 있다\n· 알리 대통령은 브라질·콜롬비아에 지지를 요청했고 ICJ는 아직 판결 날짜를 정하지 않았다\n· 베네수엘라 로드리게스 대통령 대행은 판결을 인정하지 않겠다는 입장으로 전해졌다",
+ "facts": [
+  "무엇이: 이르판 알리 가이아나 대통령이 ICJ 국경 판결을 앞두고 브라질·콜롬비아에 지지를 요청했고, 콜롬비아 부통령은 논의 사실만 확인했다 [사실]",
+  "재판: ICJ 본안 심리는 2026년 5월 4~11일 열렸고 판결 날짜는 발표되지 않았다 [사실]",
+  "베네수엘라: 델시 로드리게스 대통령 대행은 판결을 인정하지 않고 협상 해결을 원한다는 입장이며, CARICOM은 5월 가이아나 영토 보전 지지를 재확인했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약으로 알리 대통령의 브라질·콜롬비아 지지 요청과 ICJ 일정 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "판결 전 외교전으로 공급 변화 없음"
+  }
+ ]
+}

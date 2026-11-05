@@ -1,0 +1,58 @@
+{
+ "id": "n-bbg-0893",
+ "num": 893,
+ "key": "mix-G-020-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T11:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-s-5-000-ton-digging-machines-are-a-trade-war-risk-to-india",
+ "origTitle": "",
+ "headline": "中 5,000톤급 굴착기계 수출통제, 인도에 무역전쟁 위험으로 부상",
+ "src": [
+  {
+   "o": "Business Standard",
+   "d": "2026-11-02",
+   "u": "https://www.business-standard.com/amp/world-news/china-s-5k-tonne-digging-machines-could-become-trade-weapon-against-india-126110200075_1.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 5,000톤급 굴착기계, 인도에 무역전쟁 위험",
+   "o": "블룸버그",
+   "d": "2026-11-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-02/china-s-5-000-ton-digging-machines-are-a-trade-war-risk-to-india"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "industrial"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "中 5,000톤급 굴착기계 수출통제, 인도에 무역전쟁 위험으로 부상",
+ "one": "중국의 5,000톤급 대형 굴착기계가 인도에 무역전쟁 위험 요인으로 떠올랐다\n· 중국 새 수출통제는 터널굴착기 등 건설장비와 그 부품까지 대상으로 한다\n· 인도는 중국 장비의 주요 고객이고 자국 제조 기반이 초기 단계라 비용 경쟁이 어렵다",
+ "facts": [
+  "무엇이: 중국의 5,000톤급 굴착기계가 인도에 무역전쟁 위험이 된다는 분석이다 [제목]",
+  "통제: 중국의 새 수출통제는 터널굴착기 등 건설장비와 부품에 적용되며, 중국이 세계 시장을 장악하고 인도가 주요 고객이다 [사실]",
+  "인도 대응: 인도는 우선 사업에 다른 현장 장비를 돌릴 수 있지만 제조 기반이 초기 단계라 규모 면에서 중국과 비용 경쟁이 어렵다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "수출통제 대상(터널굴착기·부품)과 인도 노출은 검색 결과 요약으로 확인. 5,000톤이 정확히 어떤 장비를 가리키는지는 확인 못 함",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "machinery",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "중국 터널굴착기 수출통제로 인도 장비 공급 위험"
+  }
+ ]
+}

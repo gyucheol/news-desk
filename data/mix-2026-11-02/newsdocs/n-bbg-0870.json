@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0870",
+ "num": 870,
+ "key": "mix-G1-050-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T07:48:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/us-won-t-halt-mexican-cattle-imports-despite-screwworm-surge",
+ "origTitle": "",
+ "headline": "미국, 나선구더기 확산에도 멕시코산 소 수입 유지…6월 이후 국내 감염 73건",
+ "src": [
+  {
+   "o": "Briefs",
+   "d": "2026-10-30",
+   "u": "https://www.briefs.co/news/usda-keeps-mexican-cattle-flowing-as-screwworm-cases-climb/"
+  },
+  {
+   "o": "US News",
+   "d": "2026-10-20",
+   "u": "https://www.usnews.com/news/top-news/articles/2026-10-20/usda-plans-to-resume-imports-of-mexican-cattle-at-more-ports-of-entry"
+  }
+ ],
+ "items": [
+  {
+   "t": "미국, 나선구더기 급증에도 멕시코산 소 수입 중단 안 해",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/us-won-t-halt-mexican-cattle-imports-despite-screwworm-surge"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "agri"
+ ],
+ "nodes": [],
+ "title": "미국, 나선구더기 확산에도 멕시코산 소 수입 유지…6월 이후 국내 감염 73건",
+ "one": "미 농무부가 나선구더기 감염 증가에도 멕시코산 소 수입을 멈추지 않겠다고 밝혔다\n· 6월 초 이후 미국 내 가축 감염은 73건이며 21건이 활성 상태이고 애리조나에서도 처음 발견됐다\n· 농무부는 뉴멕시코 콜럼버스 수입을 재개했고 애리조나 노갈레스는 11월 30일 재개를 계획한다",
+ "facts": [
+  "무엇이: 미 농무부는 애리조나·뉴멕시코를 통한 멕시코산 소 수입을 계속하며, 국경을 넘은 소에서 나선구더기 감염은 없었다고 밝혔다 [사실]",
+  "확산: 6월 초 이후 미국 내 가축 감염 73건, 활성 21건이며 애리조나에서 첫 감염이 확인됐다 [사실]",
+  "일정·배경: 콜럼버스(뉴멕시코)는 10월 26일, 노갈레스(애리조나)는 여건이 되면 11월 30일 수입을 재개하며, 국경 봉쇄는 올해 미국 다진 소고기 값을 사상 최고로 끌어올린 요인이었다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "수입 유지·감염 73건·재개 일정은 검색 결과 요약(Briefs·US News)으로 확인, 73건은 단일 출처",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "공급",
+   "dir": "up",
+   "k": "실제",
+   "t": "나선구더기 확산에도 멕시코산 소 수입 유지"
+  }
+ ]
+}

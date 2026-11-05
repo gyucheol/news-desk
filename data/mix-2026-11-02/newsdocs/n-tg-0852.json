@@ -1,0 +1,94 @@
+{
+ "id": "n-tg-0852",
+ "num": 852,
+ "key": "mix-G2-013-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-11-02",
+ "published": "2026-11-01T05:00:00+09:00",
+ "url": "https://t.me/habit4117/86985",
+ "origTitle": "",
+ "headline": "미 3분기 고용비용 0.8%↑·임금 물가 밑돌아…BofA, 연준 12월·내년 3월 추가 인상 예상",
+ "src": [
+  {
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-10-30",
+   "u": "https://t.me/habit4117/86985"
+  },
+  {
+   "o": "Marketplace",
+   "d": "2026-10-30",
+   "u": "https://www.marketplace.org/story/2026/10/30/the-cost-of-employing-a-worker-rose-8-in-q3-whats-that-mean-for-inflation"
+  },
+  {
+   "o": "Seeking Alpha",
+   "d": "2026-10-30",
+   "u": "https://seekingalpha.com/news/4661372-employment-cost-index-growth-decelerates-in-q3-as-expected"
+  }
+ ],
+ "items": [
+  {
+   "t": "BofA, 연준 금리 전망 수정…12월·내년 3월 추가 인상 예상",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-10-30",
+   "u": "https://t.me/habit4117/86985",
+   "s": "BofA가 연준이 12월과 내년 3월에 금리를 추가로 올릴 것으로 전망을 바꾸면서 인상 사이클 장기화 전망에 힘이 실렸다"
+  },
+  {
+   "t": "미 고용비용 증가율 유지…물가 상승률은 밑돌아",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/us-employment-cost-growth-holds-steady-stays-below-inflation",
+   "s": "미국 3분기 고용비용이 0.8% 올라 증가세를 유지했지만 임금 상승률이 물가에 못 미쳐 실질임금 감소가 이어졌다"
+  },
+  {
+   "t": "미 고용 회복, 연준 추가 인상 경로 유지시킬 수도",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+   "s": "미국 고용이 다시 늘면서 연준이 추가 금리 인상 경로를 유지할 수 있다는 관측이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/rates",
+  "macro/inflation"
+ ],
+ "channel": "습관이 부자를 만든다",
+ "title": "미 3분기 고용비용 0.8%↑·임금 물가 밑돌아…BofA, 연준 12월·내년 3월 추가 인상 예상",
+ "one": "미국 임금 상승이 물가를 밑도는 가운데 고용 회복으로 연준 추가 인상 전망이 힘을 얻고 있다\n· 3분기 고용비용지수는 0.8% 올라 2분기 0.9%에서 소폭 둔화했고 연간 상승률은 3.4%를 유지했다\n· 임금·급여는 1년 새 3.1% 올라 물가 상승률에 못 미쳤다\n· BofA는 연준이 12월과 내년 3월에 추가 인상할 것으로 전망을 수정했다\n· 블룸버그는 고용 회복이 연준의 추가 인상 경로를 유지시킬 수 있다고 전했다",
+ "facts": [
+  "무엇이: 미국 3분기 고용비용지수는 0.8% 올라 예상과 같았고 2분기 0.9%에서 둔화했으며 연간 상승률은 3.4%였다 [사실]",
+  "임금·복리후생: 임금·급여는 연 3.1%(6월 3.2%), 복리후생은 3.9% 올랐고 9월 CPI 3.72%를 밑돌아 실질임금이 줄었다는 분석이 나왔다 [사실]",
+  "BofA: BofA는 연준 금리 전망을 수정해 12월과 내년 3월 추가 인상을 예상했다 [채널]",
+  "고용: 고용 회복이 연준의 추가 인상 경로를 유지시킬 수 있다 [제목]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 3분기 고용비용지수 확인. BofA 전망 수정은 채널 전언, 고용 회복 기사는 제목 기준",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "rates",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "BofA 연준 12월·내년 3월 추가 인상 예상"
+  },
+  {
+   "ind": "macro",
+   "node": "inflation",
+   "f": "가격",
+   "dir": "flat",
+   "k": "실제",
+   "t": "3분기 고용비용 0.8% 상승 연간 3.4% 유지"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

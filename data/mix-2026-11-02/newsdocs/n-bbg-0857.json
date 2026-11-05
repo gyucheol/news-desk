@@ -1,0 +1,70 @@
+{
+ "id": "n-bbg-0857",
+ "num": 857,
+ "key": "mix-G1-026-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T20:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-29/mercuria-baltic-case-reveals-claims-tanker-rate-was-manipulated",
+ "origTitle": "",
+ "headline": "머큐리아-발틱거래소 TD3C 소송…유조선 운임 조작 내부고발·노르웨이사 1억 달러 걸려",
+ "src": [
+  {
+   "o": "gCaptain",
+   "d": "2026-10-30",
+   "u": "https://gcaptain.com/whistleblowers-claimed-key-oil-tanker-rate-was-manipulated/"
+  },
+  {
+   "o": "Baird Maritime",
+   "d": "2026-10-30",
+   "u": "https://www.bairdmaritime.com/shipping/baltic-exchange-blames-mercuria-lawsuit-for-muddying-shipping-markets"
+  }
+ ],
+ "items": [
+  {
+   "t": "머큐리아 발틱 소송서 '유조선 운임 조작' 주장 드러나",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-29/mercuria-baltic-case-reveals-claims-tanker-rate-was-manipulated",
+   "s": "머큐리아의 발틱거래소 소송에서 TD3C 유조선 운임이 조작됐다는 내부고발이 드러나면서 운임 지표의 신뢰성이 도마에 올랐다"
+  },
+  {
+   "t": "노르웨이 업체, 머큐리아 발틱 소송에 1억 달러 걸려",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/norwegian-firm-has-100-million-riding-on-mercuria-s-baltic-case",
+   "s": "노르웨이 업체 한 곳이 머큐리아 소송 결과에 1억 달러가 걸리면서 TD3C 연동 용선료를 받는 선주들의 손익이 판결에 좌우된다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "shipping"
+ ],
+ "nodes": [],
+ "title": "머큐리아-발틱거래소 TD3C 소송…유조선 운임 조작 내부고발·노르웨이사 1억 달러 걸려",
+ "one": "머큐리아가 발틱거래소를 상대로 낸 소송에서 중동-중국 유조선 운임 지표 조작 내부고발이 드러났다\n· 내부고발 한 건은 머큐리아와 다른 1곳을 지목했으나 발틱거래소 조사에서 조작이 확인되지 않았다\n· 머큐리아는 TD3C 지표가 현실을 반영하지 못했다고 주장하며 최근 청구에서 손실 추정치를 뺐다\n· 블룸버그는 노르웨이 업체 한 곳이 이 소송 결과에 1억 달러가 걸려 있다고 전했다",
+ "facts": [
+  "무엇이: 머큐리아는 중동-중국 원유 운임 지표 TD3C가 왜곡됐다며 발틱거래소를 상대로 소송을 냈고, 최근 청구에서는 수억 달러 손실 추정치를 뺐다 [사실]",
+  "조작 주장: 내부고발 두 건 중 머큐리아와 다른 1곳을 지목한 건은 발틱거래소 조사에서 조작이 확인되지 않았고 다른 1곳에 대한 건은 조사 중이다 [사실]",
+  "노르웨이사: 노르웨이 업체 한 곳이 머큐리아 소송 결과에 1억 달러가 걸려 있다 [제목]",
+  "발틱거래소: TD3C 발표를 이어 간 것은 신중한 결정이었다며 청구가 근거 없다고 반박했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "소송 구도와 내부고발 조작 주장은 검색 결과 요약(gCaptain·Baird Maritime)으로 확인, 노르웨이사 1억 달러는 확인 못 함",
+ "vc": [
+  {
+   "ind": "shipping",
+   "node": "tankers",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "TD3C 운임 지표 조작 주장 소송으로 가격 결정 논란"
+  }
+ ],
+ "updatedAt": "2026-11-02T10:30:37+09:00"
+}

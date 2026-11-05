@@ -1,0 +1,106 @@
+{
+ "basis": "partial",
+ "check": "하이실리콘 칩 기기 차단(n-rtr-0672)과 중국 시험소 인정 중단·상무부 보복 경고(n-bbg-0866)를 합쳤다. FCC 차단·규정·시험소 의결·상무부 경고는 검색 요약으로 확인했고, 중국의 '연구 차별' 발언은 주체·맥락을 확인하지 못해 제목 기준이다.",
+ "cycles": [],
+ "facts": [
+  "무엇이: FCC가 10월 29일 중국 등 비상호 경제권의 시험소·인증기관·인정기관 인정을 2028년 12월 1일부터 끝내기로 의결하자(기존 인증은 유효), 중국 상무부는 30일 즉시 철회를 요구하며 추가 조치를 경고했다 [사실]",
+  "첫 차단: FCC는 10월 22일 화웨이 자회사 하이실리콘의 얼굴 인식 감시칩이 든 대시보드 카메라·무선 영상 송신기 2종의 미국 시장 진입을 새 규정에 따라 처음 막았고, 카 위원장은 국가와 국민에게 받아들일 수 없는 위험이라고 했다 [사실]",
+  "규정: 10월 13일 발효된 규정은 커버드 리스트 기업의 스마트 부품이 든 기기의 장비 인증을 금지하며 그 전에 인증된 장비에는 소급되지 않는다 [사실]",
+  "중국 반발: 중국은 미국이 중국 연구에 대한 차별적 조치를 멈춰야 한다고 밝혔다 [제목]",
+  "앞선 대응: 중국은 8월 5일 미국 시험소 컴플라이언스테스팅을 대응 명단에 올리고 미국 인증기관의 CCC 공장 사후 점검을 중단시켰으며 미국행 드론 수출을 건별 심사하기 시작했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "미 FCC 대중 조치…하이실리콘 칩 기기 첫 차단·중국 시험소 인정 2028년 종료, 중국 보복 경고",
+ "id": "n-rtr-0672",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "미국 FCC가 중국산 감시칩이 든 기기 2종을 막으면서, 하이실리콘 칩을 쓴 대시캠·영상 송신기의 미국 판매 길이 끊겼다",
+   "t": "미국, 중국산 감시칩 탑재 기기 2종 시장 차단",
+   "u": "https://www.reuters.com/world/us-blocks-two-devices-with-chinese-made-surveillance-chips-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "FCC가 새 규정에 따른 차단 권한을 처음 행사하면서, 얼굴 인식 감시칩을 쓴 중국 기술 제품에 대한 미국 규제가 한층 강해졌다",
+   "t": "미 FCC, 하이실리콘 감시칩 탑재 기기 2종 시장 진입 첫 차단",
+   "u": "https://t.me/HANAchina/70864"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "중국이 미국에 중국 연구를 겨냥한 차별적 조치를 멈추라고 요구하면서, 미국의 중국 기술 규제에 맞선 반발을 드러냈다 (제목 기준)",
+   "t": "중국 '미국은 중국 연구에 대한 차별 조치 멈춰야'",
+   "u": "https://www.reuters.com/world/china/china-says-us-should-stop-discriminatory-measures-against-chinese-research-2026-10-23/"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "블룸버그",
+   "t": "중국, 미국 시험소 제한 조치에 보복 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/china-warns-of-retaliation-over-us-test-lab-restrictions"
+  }
+ ],
+ "key": "mix-G1-023-2026-10-23",
+ "nodes": [
+  "macro/geo"
+ ],
+ "num": 672,
+ "one": "미 FCC가 중국 감시칩 기기와 중국 시험소를 잇달아 막자 중국이 철회를 요구하며 보복을 경고했다\n· FCC는 10월 22일 하이실리콘 감시칩이 든 대시보드 카메라·무선 영상 송신기 2종의 미국 진입을 처음 막았다\n· 카 위원장은 받아들일 수 없는 위험이라고 했고 중국은 중국 연구에 대한 차별 조치를 멈추라고 했다\n· FCC는 10월 29일 중국 내 시험소·인증기관 인정을 2028년 12월 1일부터 끝내기로 의결했다\n· 중국 상무부는 10월 30일 즉시 철회를 요구하며 미국이 고집하면 추가 조치를 취하겠다고 했다",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T01:44:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-22",
+   "o": "Light Reading",
+   "u": "https://www.lightreading.com/regulatory-politics/fcc-blocks-two-devices-powered-by-huawei-silicon-subsidiary"
+  },
+  {
+   "d": "2026-10-22",
+   "o": "DroneXL",
+   "u": "https://dronexl.co/2026/10/22/fcc-hisilicon-chips-dash-cam-video-transmitter-first-component-ban/"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "Global Times",
+   "u": "https://www.globaltimes.cn/page/202610/1373339.shtml"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "Xinhua",
+   "u": "https://english.news.cn/20261031/30b6d51ca5d540c8bac66612306a03b1/c.html"
+  }
+ ],
+ "tags": [],
+ "title": "미 FCC 대중 조치…하이실리콘 칩 기기 첫 차단·중국 시험소 인정 2028년 종료, 중국 보복 경고",
+ "updatedAt": "2026-11-02T16:13:50+09:00",
+ "url": "https://www.reuters.com/world/us-blocks-two-devices-with-chinese-made-surveillance-chips-2026-10-22/",
+ "vc": [
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "tech",
+   "k": "실제",
+   "node": "devices",
+   "t": "하이실리콘 칩 탑재 기기 2종 미국 시장 차단"
+  },
+  {
+   "dir": "down",
+   "f": "공급",
+   "ind": "macro",
+   "k": "예상",
+   "node": "geo",
+   "t": "미 FCC 중국 시험소 배제에 중국 보복 경고"
+  }
+ ],
+ "added": "합친 문서 2건 — FCC의 중국 시험소·인증기관 인정 2028년 12월 종료 의결과 중국 상무부의 철회 요구·추가 조치 경고가 더해짐"
+}

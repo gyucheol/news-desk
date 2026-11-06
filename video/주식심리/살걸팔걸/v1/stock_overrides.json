@@ -71,5 +71,50 @@
   "clip_len": 5.44,
   "notes": "A man's hands undo the brass clasp of a thick old album and open it to a white page (0.5-4.4 s); no face. For the inner line '그때 내가 너무 좋은 쪽으로만 생각했었던 것 같아' in photo 48's place: the main character is a man looking back at that time. Replaces group C's 4511 (a woman at a window) and 3978 (night window), which was used in the sleep video.",
   "backup": null
+ },
+ "st07": {
+  "id": "4308",
+  "title": "Aerial view of a city during the night",
+  "url": "https://mixkit.co/free-stock-video/aerial-view-of-a-city-during-the-night-4308/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-06",
+  "in": 5.0,
+  "speed": 1.0,
+  "use": 6.59,
+  "good_span": [
+   0.0,
+   12.3
+  ],
+  "file": "full/4308.mp4",
+  "clip_len": 12.3,
+  "blur_box": null,
+  "blur_secs": null,
+  "notes": "Time-lapse over a huge city (Tokyo, Tokyo Tower at right) from dusk to night: thousands of buildings, lights coming on; no people, no readable signs at 1080p. Bright at the start (mean luma about 115 -> 56). For '수천 개의 종목': replaces group A's 4192 (a busy animated collage of film-leader cards with flashing numbers and words), which did not fit the channel's calm live-action look.",
+  "backup": {
+   "id": "4192",
+   "title": "Digital animation of screens",
+   "in": 0.3,
+   "why": "group A pick; animated, busy, flashing film-leader text"
+  }
+ },
+ "st03": {
+  "grade": {
+   "sat": 0.8,
+   "black": 0.06,
+   "gamma": 1.45,
+   "vignette": 0.55,
+   "gain": 0.78
+  },
+  "grade_why": "light grey water (mean luma about 175): the bright grade plus gain 0.78 so it does not jump out between the dark st02 and st04"
+ },
+ "st12": {
+  "grade": {
+   "sat": 0.88,
+   "black": 0.02,
+   "gamma": 1.12,
+   "vignette": 0.35
+  },
+  "grade_why": "the word 'brightens' in the notes picked the bright grade; this is a dark spotlight shot (mean luma 15 -> 68), so the default grade"
  }
 }

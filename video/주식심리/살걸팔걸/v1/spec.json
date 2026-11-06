@@ -1,0 +1,3205 @@
+{
+ "sub_lead": 0,
+ "fade_in": 0.3,
+ "fade_out": 0.8,
+ "last_sub_hold": 1.0,
+ "scenes": [
+  {
+   "id": "s001",
+   "type": "photo",
+   "image": "photos_final/P01.png",
+   "from": "V001",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 01"
+  },
+  {
+   "id": "s002",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V003",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 02"
+  },
+  {
+   "id": "s003",
+   "type": "photo",
+   "image": "photos_final/P03.png",
+   "from": "V007",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 03",
+   "mix": {
+    "at": "V007",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s004",
+   "type": "photo",
+   "image": "photos_final/P04.png",
+   "from": "V008",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 04"
+  },
+  {
+   "id": "s005",
+   "type": "photo",
+   "image": "photos_final/P05.png",
+   "from": "V011",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 05"
+  },
+  {
+   "id": "s006",
+   "type": "photo",
+   "image": "photos_final/P06.png",
+   "from": "V013",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 06"
+  },
+  {
+   "id": "s007",
+   "type": "photo",
+   "image": "photos_final/P07.png",
+   "from": "V017",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 07"
+  },
+  {
+   "id": "s008",
+   "type": "photo",
+   "image": "photos_final/P08.png",
+   "from": "V019",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 08"
+  },
+  {
+   "id": "s009",
+   "type": "photo",
+   "image": "photos_final/P09.png",
+   "from": "V021",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 09"
+  },
+  {
+   "id": "s010",
+   "type": "photo",
+   "image": "photos_final/P10.png",
+   "from": "V022",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 10"
+  },
+  {
+   "id": "s011",
+   "type": "photo",
+   "image": "photos_final/P11.png",
+   "from": "V024",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 11",
+   "mix": {
+    "at": "V024",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s012",
+   "type": "video",
+   "src": "stock/full/2374.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V026",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st01 Mixkit 2374 DSRL camera shutter opening and closing",
+   "mix": {
+    "at": "V026",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s013",
+   "type": "photo",
+   "image": "photos_final/P12.png",
+   "from": "V030",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 12",
+   "mix": {
+    "at": "V030",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s014",
+   "type": "video",
+   "src": "stock/full/4326.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V032",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st02 Mixkit 4326 Numbers in a nixie tube counter"
+  },
+  {
+   "id": "s015",
+   "type": "video",
+   "src": "stock/full/106.mp4",
+   "in": 6.6,
+   "speed": 1.0,
+   "from": "V035",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55,
+    "gain": 0.78
+   },
+   "note": "st03 Mixkit 106 Water drops creating ripples"
+  },
+  {
+   "id": "s016",
+   "type": "video",
+   "src": "stock/full/41638.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V038",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st04 Mixkit 41638 Programmer using his cell phone while working at his desk",
+   "blur_box": [
+    [
+     0.7292,
+     0.3333,
+     0.9896,
+     0.537,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "s017",
+   "type": "video",
+   "src": "stock/full/21595.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V042",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st05 Mixkit 21595 Reverse tour of a library full of books",
+   "blur_box": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.1296,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V044",
+    "dur": 0.5,
+    "shift": -0.25,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s018",
+   "type": "photo",
+   "image": "photos_final/P13.png",
+   "from": "V046",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 13"
+  },
+  {
+   "id": "s019",
+   "type": "photo",
+   "image": "photos_final/P14.png",
+   "from": "V049",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 14"
+  },
+  {
+   "id": "s020",
+   "type": "video",
+   "src": "stock/full/308.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V052",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st06 Mixkit 308 Man working on his laptop",
+   "blur_box": [
+    [
+     0.3125,
+     0.5185,
+     0.651,
+     0.6667,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V052",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s021",
+   "type": "photo",
+   "image": "photos_final/P06.png",
+   "from": "V056",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 06"
+  },
+  {
+   "id": "s022",
+   "type": "photo",
+   "image": "photos_final/P02.png",
+   "from": "V058",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 02"
+  },
+  {
+   "id": "s023",
+   "type": "photo",
+   "image": "photos_final/P04.png",
+   "from": "V060",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 04"
+  },
+  {
+   "id": "s024",
+   "type": "photo",
+   "image": "photos_final/P05.png",
+   "from": "V061",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 05"
+  },
+  {
+   "id": "s025",
+   "type": "video",
+   "src": "stock/full/4308.mp4",
+   "in": 5.0,
+   "speed": 1.0,
+   "from": "V062",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st07 Mixkit 4308 Aerial view of a city during the night"
+  },
+  {
+   "id": "s026",
+   "type": "video",
+   "src": "stock/full/50111.mp4",
+   "in": 2.5,
+   "speed": 1.0,
+   "from": "V066",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st08 Mixkit 50111 Student makes a note over wooden desk filled with mathematical books and a calculator"
+  },
+  {
+   "id": "s027",
+   "type": "photo",
+   "image": "photos_final/P13.png",
+   "from": "V067",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 13"
+  },
+  {
+   "id": "s028",
+   "type": "photo",
+   "image": "photos_final/P15.png",
+   "from": "V071",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 15"
+  },
+  {
+   "id": "s029",
+   "type": "photo",
+   "image": "photos_final/P16.png",
+   "from": "V074",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 16"
+  },
+  {
+   "id": "s030",
+   "type": "video",
+   "src": "stock/full/4454.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V076",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st09 Mixkit 4454 People in the subway hall in Tokyo",
+   "blur_box": [
+    [
+     0.3125,
+     0.3333,
+     0.4896,
+     0.3981,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V076",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s031",
+   "type": "photo",
+   "image": "photos_final/P17.png",
+   "from": "V078",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 17"
+  },
+  {
+   "id": "s032",
+   "type": "photo",
+   "image": "photos_final/P18.png",
+   "from": "V081",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 18"
+  },
+  {
+   "id": "s033",
+   "type": "video",
+   "src": "stock/full/4188.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V083",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st10 Mixkit 4188 Stage of an electronic music festival",
+   "mix": {
+    "at": "V083",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s034",
+   "type": "photo",
+   "image": "photos_final/P19.png",
+   "from": "V086",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 19"
+  },
+  {
+   "id": "s035",
+   "type": "video",
+   "src": "stock/full/41190.mp4",
+   "in": 3.5,
+   "speed": 1.0,
+   "from": "V089",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st11 Mixkit 41190 Young man from behind reading newspaper",
+   "mix": {
+    "at": "V089",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s036",
+   "type": "video",
+   "src": "stock/full/1038.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V092",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st12 Mixkit 1038 Dancer in the dark back view",
+   "mix": {
+    "at": "V092",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s037",
+   "type": "video",
+   "src": "stock/full/4377.mp4",
+   "in": 23.8,
+   "speed": 1.0,
+   "from": "V095",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st13 Mixkit 4377 Neighborhood in a city at dusk",
+   "blur_box": [
+    [
+     0.0,
+     0.9074,
+     0.5469,
+     1.0,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V095",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s038",
+   "type": "photo",
+   "image": "photos_final/P20.png",
+   "from": "V097",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 20"
+  },
+  {
+   "id": "s039",
+   "type": "photo",
+   "image": "photos_final/P21.png",
+   "from": "V099",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 21"
+  },
+  {
+   "id": "s040",
+   "type": "photo",
+   "image": "photos_final/P22.png",
+   "from": "V101",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 22"
+  },
+  {
+   "id": "s041",
+   "type": "photo",
+   "image": "photos_final/P23.png",
+   "from": "V103",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 23"
+  },
+  {
+   "id": "s042",
+   "type": "photo",
+   "image": "photos_final/P24.png",
+   "from": "V105",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 24"
+  },
+  {
+   "id": "s043",
+   "type": "photo",
+   "image": "photos_final/P25.png",
+   "from": "V108",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 25"
+  },
+  {
+   "id": "s044",
+   "type": "photo",
+   "image": "photos_final/P26.png",
+   "from": "V113",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 26"
+  },
+  {
+   "id": "s045",
+   "type": "video",
+   "src": "stock/full/3916.mp4",
+   "in": 4.0,
+   "speed": 1.0,
+   "from": "V115",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st14 Mixkit 3916 Hand of a person in the dark through colored lights",
+   "mix": {
+    "at": "V115",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s046",
+   "type": "photo",
+   "image": "photos_final/P27.png",
+   "from": "V116",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 27"
+  },
+  {
+   "id": "s047",
+   "type": "photo",
+   "image": "photos_final/P26.png",
+   "from": "V122",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 26"
+  },
+  {
+   "id": "s048",
+   "type": "photo",
+   "image": "photos_final/P28.png",
+   "from": "V124",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 28"
+  },
+  {
+   "id": "s049",
+   "type": "photo",
+   "image": "photos_final/P27.png",
+   "from": "V128",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 27"
+  },
+  {
+   "id": "s050",
+   "type": "video",
+   "src": "stock/full/99839.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V130",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st15 Mixkit 99839 Raindrops on a window with blurred lights in the background",
+   "mix": {
+    "at": "V130",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s051",
+   "type": "video",
+   "src": "stock/full/49815.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V133",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st16 Mixkit 49815 Timelapse of a crossroads in a city at night",
+   "blur_box": [
+    [
+     0.4427,
+     0.412,
+     0.5677,
+     0.5,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V133",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s052",
+   "type": "photo",
+   "image": "photos_final/P29.png",
+   "from": "V135",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 29"
+  },
+  {
+   "id": "s053",
+   "type": "photo",
+   "image": "photos_final/P30.png",
+   "from": "V136",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 30"
+  },
+  {
+   "id": "s054",
+   "type": "photo",
+   "image": "photos_final/P31.png",
+   "from": "V140",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 31"
+  },
+  {
+   "id": "s055",
+   "type": "photo",
+   "image": "photos_final/P32.png",
+   "from": "V142",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 32"
+  },
+  {
+   "id": "s056",
+   "type": "photo",
+   "image": "photos_final/P33.png",
+   "from": "V144",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 33"
+  },
+  {
+   "id": "s057",
+   "type": "video",
+   "src": "stock/full/18306.mp4",
+   "in": 3.0,
+   "speed": 1.0,
+   "from": "V146",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st17 Mixkit 18306 Pennies falling on a reflective surface with a dark background",
+   "mix": {
+    "at": "V146",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s058",
+   "type": "photo",
+   "image": "photos_final/P34.png",
+   "from": "V148",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 34"
+  },
+  {
+   "id": "s059",
+   "type": "video",
+   "src": "stock/full/100113.mp4",
+   "in": 0.3,
+   "speed": 1.0,
+   "from": "V150",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st18 Mixkit 100113 A hand moves a white chess piece and takes a black one to the side of the board",
+   "mix": {
+    "at": "V150",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s060",
+   "type": "video",
+   "src": "stock/full/4519.mp4",
+   "in": 9.0,
+   "speed": 1.0,
+   "from": "V153",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st19 Mixkit 4519 Students walking in a university",
+   "blur_box": [
+    [
+     0.224,
+     0.2963,
+     0.3125,
+     0.5231,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V153",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.741,
+     "black": 0.1,
+     "gamma": 1.84,
+     "vignette": 0.6
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s061",
+   "type": "photo",
+   "image": "photos_final/P35.png",
+   "from": "V154",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 35"
+  },
+  {
+   "id": "s062",
+   "type": "photo",
+   "image": "photos_final/P36.png",
+   "from": "V157",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 36"
+  },
+  {
+   "id": "s063",
+   "type": "video",
+   "src": "stock/full/1692.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V160",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st20 Mixkit 1692 Dry leaves from autumn on the ground"
+  },
+  {
+   "id": "s064",
+   "type": "photo",
+   "image": "photos_final/P37.png",
+   "from": "V162",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 37"
+  },
+  {
+   "id": "s065",
+   "type": "photo",
+   "image": "photos_final/P38.png",
+   "from": "V167",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 38"
+  },
+  {
+   "id": "s066",
+   "type": "video",
+   "src": "stock/full/28889.mp4",
+   "in": 1.5,
+   "speed": 1.0,
+   "from": "V171",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st21 Mixkit 28889 Glass hourglass close up on a black background",
+   "mix": {
+    "at": "V171",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s067",
+   "type": "photo",
+   "image": "photos_final/P23.png",
+   "from": "V175",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 23"
+  },
+  {
+   "id": "s068",
+   "type": "photo",
+   "image": "photos_final/P03.png",
+   "from": "V177",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 03"
+  },
+  {
+   "id": "s069",
+   "type": "video",
+   "src": "stock/full/3006.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V179",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st22 Mixkit 3006 Forest illuminated by the sun's rays",
+   "mix": {
+    "at": "V179",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s070",
+   "type": "photo",
+   "image": "photos_final/P39.png",
+   "from": "V182",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 39",
+   "mix": {
+    "at": "V182",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s071",
+   "type": "photo",
+   "image": "photos_final/P40.png",
+   "from": "V185",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 40"
+  },
+  {
+   "id": "s072",
+   "type": "photo",
+   "image": "photos_final/P12.png",
+   "from": "V189",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 12"
+  },
+  {
+   "id": "s073",
+   "type": "video",
+   "src": "stock/full/100228.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V190",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st23 Mixkit 100228 Sunset Through A Car Side Mirror",
+   "mix": {
+    "at": "V190",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s074",
+   "type": "photo",
+   "image": "photos_final/P39.png",
+   "from": "V194",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 39"
+  },
+  {
+   "id": "s075",
+   "type": "photo",
+   "image": "photos_final/P41.png",
+   "from": "V196",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 41",
+   "mix": {
+    "at": "V196",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s076",
+   "type": "video",
+   "src": "stock/full/1744.mp4",
+   "in": 4.5,
+   "speed": 1.0,
+   "from": "V199",
+   "grade": {
+    "sat": 0.78,
+    "black": 0.08,
+    "gamma": 1.6,
+    "vignette": 0.6
+   },
+   "note": "st24 Mixkit 1744 A person writing on a notebook at a coffee shop"
+  },
+  {
+   "id": "s077",
+   "type": "video",
+   "src": "stock/full/818.mp4",
+   "in": 3.5,
+   "speed": 1.0,
+   "from": "V202",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st25 Mixkit 818 Coffee in green mug"
+  },
+  {
+   "id": "s078",
+   "type": "photo",
+   "image": "photos_final/P42.png",
+   "from": "V204",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 42"
+  },
+  {
+   "id": "s079",
+   "type": "video",
+   "src": "stock/full/5248.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V206",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st26 Mixkit 5248 Poker chips and a pair of dice",
+   "mix": {
+    "at": "V206",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s080",
+   "type": "video",
+   "src": "stock/full/100868.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V209",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st26b Mixkit 100868 Focus Pull from Raindrops to Payphone",
+   "blur_box": [
+    [
+     0.5208,
+     0.1574,
+     0.7083,
+     0.2963,
+     12
+    ]
+   ],
+   "mix": {
+    "at": "V209",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s081",
+   "type": "video",
+   "src": "stock/full/101529.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V211",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st27 Mixkit 101529 Distorted Leaf Reflections on Lake",
+   "mix": {
+    "at": "V211",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s082",
+   "type": "photo",
+   "image": "photos_final/P43.png",
+   "from": "V214",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 43",
+   "mix": {
+    "at": "V214",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s083",
+   "type": "video",
+   "src": "stock/full/4423.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V217",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st28 Mixkit 4423 Electrical storm in the mountains"
+  },
+  {
+   "id": "s084",
+   "type": "photo",
+   "image": "photos_final/P22.png",
+   "from": "V219",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 22"
+  },
+  {
+   "id": "s085",
+   "type": "photo",
+   "image": "photos_final/P44.png",
+   "from": "V223",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 44"
+  },
+  {
+   "id": "s086",
+   "type": "photo",
+   "image": "photos_final/P45.png",
+   "from": "V226",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 45"
+  },
+  {
+   "id": "s087",
+   "type": "video",
+   "src": "stock/full/28897.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V228",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st29 Mixkit 28897 Slowly approaching a clock on a black background",
+   "mix": {
+    "at": "V228",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s088",
+   "type": "video",
+   "src": "stock/full/269.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V231",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st30 Mixkit 269 A guy texting on his smartphone"
+  },
+  {
+   "id": "s089",
+   "type": "photo",
+   "image": "photos_final/P46.png",
+   "from": "V233",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 46",
+   "mix": {
+    "at": "V233",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s090",
+   "type": "video",
+   "src": "stock/full/1622.mp4",
+   "in": 6.0,
+   "speed": 1.0,
+   "from": "V236",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st31 Mixkit 1622 Train arriving to a subway station",
+   "mix": {
+    "at": "V236",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s091",
+   "type": "video",
+   "src": "stock/full/51662.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V238",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st31b Mixkit 51662 A picturesque small creek with calm waters and steam at dawn",
+   "mix": {
+    "at": "V238",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s092",
+   "type": "video",
+   "src": "stock/full/3147.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V241",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st32 Mixkit 3147 Clouds passing over the moon",
+   "mix": {
+    "at": "V241",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s093",
+   "type": "photo",
+   "image": "photos_final/P47.png",
+   "from": "V244",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 47",
+   "mix": {
+    "at": "V244",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s094",
+   "type": "video",
+   "src": "stock/full/4644.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "from": "V248",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st32b Mixkit 4644 Photo album opened by a man",
+   "mix": {
+    "at": "V248",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s095",
+   "type": "photo",
+   "image": "photos_final/P39.png",
+   "from": "V250",
+   "z0": 1.0,
+   "zoom_rate": 0.008,
+   "grade": {
+    "sat": 0.95,
+    "black": 0.01,
+    "gamma": 1.05,
+    "vignette": 0.3
+   },
+   "note": "사용자 사진 39",
+   "mix": {
+    "at": "V250",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.85,
+     "black": 0.05,
+     "gamma": 1.45,
+     "vignette": 0.55
+    },
+    "blur": 6
+   }
+  },
+  {
+   "id": "s096",
+   "type": "video",
+   "src": "stock/full/4113.mp4",
+   "in": 2.0,
+   "speed": 1.0,
+   "from": "V252",
+   "grade": {
+    "sat": 0.8,
+    "black": 0.06,
+    "gamma": 1.45,
+    "vignette": 0.55
+   },
+   "note": "st33 Mixkit 4113 Sun rays pass through the clouds in the mountains",
+   "mix": {
+    "at": "V252",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.76,
+     "black": 0.08,
+     "gamma": 1.667,
+     "vignette": 0.55
+    },
+    "blur": 10
+   }
+  },
+  {
+   "id": "s097",
+   "type": "video",
+   "src": "stock/full/1704.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "from": "V254",
+   "grade": {
+    "sat": 0.88,
+    "black": 0.02,
+    "gamma": 1.12,
+    "vignette": 0.35
+   },
+   "note": "st34 Mixkit 1704 Night sky with stars at a calm lake, time lapse",
+   "mix": {
+    "at": "V254",
+    "dur": 0.5,
+    "shift": -0.6,
+    "grade": {
+     "sat": 0.836,
+     "black": 0.04,
+     "gamma": 1.288,
+     "vignette": 0.5
+    },
+    "blur": 10
+   }
+  }
+ ],
+ "subs": [
+  {
+   "line": "V001",
+   "text": "당신은 오늘 점심을 먹다가"
+  },
+  {
+   "line": "V002",
+   "text": "주식 앱을 엽니다."
+  },
+  {
+   "line": "V003",
+   "text": "한 달 전부터 지켜보던 종목이"
+  },
+  {
+   "line": "V004",
+   "text": "오늘도 올랐습니다."
+  },
+  {
+   "line": "V005",
+   "text": "처음 눈여겨봤을 때 샀다면"
+  },
+  {
+   "line": "V006",
+   "text": "벌써 30% 넘게 벌었을 겁니다."
+  },
+  {
+   "line": "V007",
+   "text": "아 그때 살걸.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V008",
+   "text": "친구 단톡방에는 그 종목으로"
+  },
+  {
+   "line": "V009",
+   "text": "수익을 냈다고 자랑하는 인증이"
+  },
+  {
+   "line": "V010",
+   "text": "연달아 올라옵니다."
+  },
+  {
+   "line": "V011",
+   "text": "뉴스에도 그 회사가 대형 호재로"
+  },
+  {
+   "line": "V012",
+   "text": "주가가 폭등했다고 나옵니다."
+  },
+  {
+   "line": "V013",
+   "text": "이대로 지나치면"
+  },
+  {
+   "line": "V014",
+   "text": "또 후회할 것만 같습니다."
+  },
+  {
+   "line": "V015",
+   "text": "그래서 퇴근길 지하철에서"
+  },
+  {
+   "line": "V016",
+   "text": "매수 버튼을 누릅니다."
+  },
+  {
+   "line": "V017",
+   "text": "그런데 다음 날 아침"
+  },
+  {
+   "line": "V018",
+   "text": "주가는 산 가격보다 5% 떨어져 있습니다."
+  },
+  {
+   "line": "V019",
+   "text": "조금만 기다리면 오를 거라고 믿었지만"
+  },
+  {
+   "line": "V020",
+   "text": "주가는 일주일 내내 내려갑니다."
+  },
+  {
+   "line": "V021",
+   "text": "결국 더 잃기 전에 팔기로 합니다."
+  },
+  {
+   "line": "V022",
+   "text": "그리고 판 바로 다음 날"
+  },
+  {
+   "line": "V023",
+   "text": "그 종목은 다시 오르기 시작합니다."
+  },
+  {
+   "line": "V024",
+   "text": "팔지 말걸.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V025",
+   "text": "아니 처음부터 사지 말걸.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V026",
+   "text": "나만 사면 떨어지고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V027",
+   "text": "나만 팔면 오르는 것 같습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V028",
+   "text": "누군가 내 계좌만",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V029",
+   "text": "지켜보고 있는 걸까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V030",
+   "text": "아니면 나는 원래",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V031",
+   "text": "주식에 맞지 않는 사람일까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V032",
+   "text": "오늘은 내가 사면 떨어지고"
+  },
+  {
+   "line": "V033",
+   "text": "팔면 오르는 것처럼 느껴지는"
+  },
+  {
+   "line": "V034",
+   "text": "이유를 살펴보고"
+  },
+  {
+   "line": "V035",
+   "text": "살걸 팔걸 하는 후회에"
+  },
+  {
+   "line": "V036",
+   "text": "덜 흔들리는 방법 3가지를"
+  },
+  {
+   "line": "V037",
+   "text": "이야기해 보겠습니다."
+  },
+  {
+   "line": "V038",
+   "text": "어떤 종목을 사라거나"
+  },
+  {
+   "line": "V039",
+   "text": "팔라는 이야기는 아닙니다."
+  },
+  {
+   "line": "V040",
+   "text": "사고파는 순간에 벌어지는"
+  },
+  {
+   "line": "V041",
+   "text": "심리에 대한 이야기입니다."
+  },
+  {
+   "line": "V042",
+   "text": "먼저 조금 뜻밖의 이야기부터"
+  },
+  {
+   "line": "V043",
+   "text": "해 보겠습니다."
+  },
+  {
+   "line": "V044",
+   "text": "내가 사면 떨어진다는 말이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V045",
+   "text": "꼭 기분 탓만은 아닐 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V046",
+   "text": "미국의 재무학자 오딘은"
+  },
+  {
+   "line": "V047",
+   "text": "한 대형 증권사 고객 1만 명이"
+  },
+  {
+   "line": "V048",
+   "text": "7년 동안 거래한 기록을 살펴봤습니다."
+  },
+  {
+   "line": "V049",
+   "text": "그랬더니 사람들이 산 종목은"
+  },
+  {
+   "line": "V050",
+   "text": "판 종목보다 그다음 1년 동안"
+  },
+  {
+   "line": "V051",
+   "text": "평균 3% 정도 낮은 수익을 냈습니다."
+  },
+  {
+   "line": "V052",
+   "text": "산 것은 덜 오르고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V053",
+   "text": "판 것은 더 오른 셈이죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V054",
+   "text": "그렇다면 우리는 언제",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V055",
+   "text": "어떤 종목을 사게 될까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V056",
+   "text": "그날 매수 버튼을 누른 순간을"
+  },
+  {
+   "line": "V057",
+   "text": "다시 떠올려 보겠습니다."
+  },
+  {
+   "line": "V058",
+   "text": "한 달 동안 지켜보기만 하던 종목을"
+  },
+  {
+   "line": "V059",
+   "text": "하필 그날 샀습니다."
+  },
+  {
+   "line": "V060",
+   "text": "단톡방에 수익 인증이 올라오고"
+  },
+  {
+   "line": "V061",
+   "text": "뉴스에 회사 이름이 나온 날이었죠."
+  },
+  {
+   "line": "V062",
+   "text": "주식 시장에는"
+  },
+  {
+   "line": "V063",
+   "text": "수천 개의 종목이 있습니다."
+  },
+  {
+   "line": "V064",
+   "text": "그 많은 종목을 하나하나 비교해 보고"
+  },
+  {
+   "line": "V065",
+   "text": "고르기는 어렵죠."
+  },
+  {
+   "line": "V066",
+   "text": "오딘은 이 문제도 살펴봤습니다."
+  },
+  {
+   "line": "V067",
+   "text": "이번에는 종목이"
+  },
+  {
+   "line": "V068",
+   "text": "사람들의 눈길을 끄는 날에 발생한"
+  },
+  {
+   "line": "V069",
+   "text": "증권사 고객 78,000가구의"
+  },
+  {
+   "line": "V070",
+   "text": "거래 기록을 분석했습니다."
+  },
+  {
+   "line": "V071",
+   "text": "뉴스에 나온 날"
+  },
+  {
+   "line": "V072",
+   "text": "거래량이 갑자기 몰린 날"
+  },
+  {
+   "line": "V073",
+   "text": "전날 주가가 크게 움직인 날이었죠."
+  },
+  {
+   "line": "V074",
+   "text": "그리고 이런 날"
+  },
+  {
+   "line": "V075",
+   "text": "누가 사고 누가 파는지 살펴봤습니다."
+  },
+  {
+   "line": "V076",
+   "text": "개인 투자자들은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V077",
+   "text": "어떻게 움직였을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V078",
+   "text": "거래량이 갑자기 몰린 종목을"
+  },
+  {
+   "line": "V079",
+   "text": "개인 투자자들은 판 횟수보다"
+  },
+  {
+   "line": "V080",
+   "text": "두 배 가까이 많이 샀습니다."
+  },
+  {
+   "line": "V081",
+   "text": "전날 주가가 크게 떨어진 종목도"
+  },
+  {
+   "line": "V082",
+   "text": "마찬가지였습니다."
+  },
+  {
+   "line": "V083",
+   "text": "오른 종목만 산 게 아니었던 거죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V084",
+   "text": "오르든 떨어지든",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V085",
+   "text": "눈에 띄면 사는 쪽이 많았습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V086",
+   "text": "문제는 내 눈길을 끈 소식이라면"
+  },
+  {
+   "line": "V087",
+   "text": "다른 사람들도 이미 봤을"
+  },
+  {
+   "line": "V088",
+   "text": "가능성이 크다는 점입니다."
+  },
+  {
+   "line": "V089",
+   "text": "연구진은 그런 소식이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V090",
+   "text": "주가에 먼저 반영돼 있을 수 있다고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V091",
+   "text": "짚었습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V092",
+   "text": "한마디로 내가 사고 싶어지는 순간은",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V093",
+   "text": "그 종목이 가장 눈에 띄는 순간과",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V094",
+   "text": "겹치기 쉽다는 것입니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V095",
+   "text": "그렇다면 내가 팔면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V096",
+   "text": "오르는 것처럼 느껴지는 건 왜일까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V097",
+   "text": "판 지 사흘째 되는 밤 11시입니다."
+  },
+  {
+   "line": "V098",
+   "text": "잠들기 전 습관처럼 주식 앱을 엽니다."
+  },
+  {
+   "line": "V099",
+   "text": "그 종목은 아직"
+  },
+  {
+   "line": "V100",
+   "text": "관심 목록에 그대로 있습니다."
+  },
+  {
+   "line": "V101",
+   "text": "팔고 나서도 출근길이며 점심시간이며"
+  },
+  {
+   "line": "V102",
+   "text": "틈틈이 들여다본 종목입니다."
+  },
+  {
+   "line": "V103",
+   "text": "내가 판 가격보다 훌쩍 오른 주가를"
+  },
+  {
+   "line": "V104",
+   "text": "보는 순간 속이 쓰립니다."
+  },
+  {
+   "line": "V105",
+   "text": "2016년 프리드먼과 캐머러는"
+  },
+  {
+   "line": "V106",
+   "text": "뇌를 촬영하는 장치를 쓴 28명에게"
+  },
+  {
+   "line": "V107",
+   "text": "모의 주식 거래를 하게 했습니다."
+  },
+  {
+   "line": "V108",
+   "text": "참가자들은 세 종목을"
+  },
+  {
+   "line": "V109",
+   "text": "사고팔 수 있었습니다."
+  },
+  {
+   "line": "V110",
+   "text": "그리고 한 번 오른 종목은"
+  },
+  {
+   "line": "V111",
+   "text": "다음에도 오를 가능성이 조금 더 크다는"
+  },
+  {
+   "line": "V112",
+   "text": "규칙을 미리 들었습니다."
+  },
+  {
+   "line": "V113",
+   "text": "즉 본인이 판 종목이 올랐다면"
+  },
+  {
+   "line": "V114",
+   "text": "다시 사는 편이 유리했습니다."
+  },
+  {
+   "line": "V115",
+   "text": "참가자들은 어떻게 했을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V116",
+   "text": "28명 가운데 26명이"
+  },
+  {
+   "line": "V117",
+   "text": "판 뒤에 오른 종목을"
+  },
+  {
+   "line": "V118",
+   "text": "다시 사는 데 머뭇거렸습니다."
+  },
+  {
+   "line": "V119",
+   "text": "한 번 오른 종목은 다음에도"
+  },
+  {
+   "line": "V120",
+   "text": "오를 가능성이 조금 더 크다는"
+  },
+  {
+   "line": "V121",
+   "text": "규칙을 알고 있었는데도요."
+  },
+  {
+   "line": "V122",
+   "text": "그리고 본인이 판 종목이"
+  },
+  {
+   "line": "V123",
+   "text": "오르는 화면을 보는 순간"
+  },
+  {
+   "line": "V124",
+   "text": "뇌에서는 후회로 볼 수 있는"
+  },
+  {
+   "line": "V125",
+   "text": "신호가 나타났습니다."
+  },
+  {
+   "line": "V126",
+   "text": "평소 보상을 처리할 때"
+  },
+  {
+   "line": "V127",
+   "text": "활발해지는 부위였습니다."
+  },
+  {
+   "line": "V128",
+   "text": "이 신호가 강하게 나타난 사람일수록"
+  },
+  {
+   "line": "V129",
+   "text": "다시 사기를 더 꺼렸습니다."
+  },
+  {
+   "line": "V130",
+   "text": "판 뒤에 오른 날이",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V131",
+   "text": "유독 오래 기억에 남는 것도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V132",
+   "text": "이런 후회 때문일 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V133",
+   "text": "그런데 같은 후회라도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V134",
+   "text": "더 아픈 쪽이 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V135",
+   "text": "두 사람이 있습니다."
+  },
+  {
+   "line": "V136",
+   "text": "당신은 A 회사 주식을 갖고 있습니다."
+  },
+  {
+   "line": "V137",
+   "text": "지난 1년 동안"
+  },
+  {
+   "line": "V138",
+   "text": "B 회사 주식으로 바꿀까 고민했지만"
+  },
+  {
+   "line": "V139",
+   "text": "그대로 뒀습니다."
+  },
+  {
+   "line": "V140",
+   "text": "나중에 보니 바꿨다면"
+  },
+  {
+   "line": "V141",
+   "text": "1,200달러를 더 벌었을 겁니다."
+  },
+  {
+   "line": "V142",
+   "text": "상철은 B 회사 주식을 갖고 있다가"
+  },
+  {
+   "line": "V143",
+   "text": "A 회사 주식으로 바꿨습니다."
+  },
+  {
+   "line": "V144",
+   "text": "알고 보니 그대로 뒀다면"
+  },
+  {
+   "line": "V145",
+   "text": "1,200달러를 더 벌었을 겁니다."
+  },
+  {
+   "line": "V146",
+   "text": "당신과 상철이 놓친 돈은 같습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V147",
+   "text": "누가 더 후회할까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V148",
+   "text": "이 질문에 응답자의 92%가"
+  },
+  {
+   "line": "V149",
+   "text": "상철이라고 답했습니다."
+  },
+  {
+   "line": "V150",
+   "text": "사람들은 가만히 있다가 놓친 것보다",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V151",
+   "text": "직접 움직였다가 놓친 것을",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V152",
+   "text": "더 후회할 일로 보는 거죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V153",
+   "text": "또 다른 실험 하나를 보겠습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V154",
+   "text": "1994년 길로비치와 메드벡은"
+  },
+  {
+   "line": "V155",
+   "text": "대학생 80명에게"
+  },
+  {
+   "line": "V156",
+   "text": "두 학생의 이야기를 들려줬습니다."
+  },
+  {
+   "line": "V157",
+   "text": "만약 다른 대학으로"
+  },
+  {
+   "line": "V158",
+   "text": "편입할지 고민하다가 그대로 남은 데이브와"
+  },
+  {
+   "line": "V159",
+   "text": "편입을 선택한 케빈이 있습니다."
+  },
+  {
+   "line": "V160",
+   "text": "이후에 두 사람 모두"
+  },
+  {
+   "line": "V161",
+   "text": "자신의 선택이 잘못됐다는 걸 알게 됩니다."
+  },
+  {
+   "line": "V162",
+   "text": "본인의 선택이 잘못되었다는"
+  },
+  {
+   "line": "V163",
+   "text": "사실을 안 직후에는"
+  },
+  {
+   "line": "V164",
+   "text": "편입을 선택한 케빈이"
+  },
+  {
+   "line": "V165",
+   "text": "더 후회할 거라고"
+  },
+  {
+   "line": "V166",
+   "text": "답한 사람이 76%였습니다."
+  },
+  {
+   "line": "V167",
+   "text": "하지만 길게 보면"
+  },
+  {
+   "line": "V168",
+   "text": "그대로 남기로 선택한 데이브가"
+  },
+  {
+   "line": "V169",
+   "text": "더 후회할 거라고"
+  },
+  {
+   "line": "V170",
+   "text": "답한 사람이 64%였습니다."
+  },
+  {
+   "line": "V171",
+   "text": "무언가를 해서 생긴 후회는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V172",
+   "text": "당장 아프고",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V173",
+   "text": "하지 않아서 생긴 후회는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V174",
+   "text": "오래 남는 경향이 있다는 거죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V175",
+   "text": "주식으로 치면"
+  },
+  {
+   "line": "V176",
+   "text": "팔고 나서 오른 건 당장 쓰리고"
+  },
+  {
+   "line": "V177",
+   "text": "사지 않고 지나친 건"
+  },
+  {
+   "line": "V178",
+   "text": "오래 마음에 남는 셈입니다."
+  },
+  {
+   "line": "V179",
+   "text": "그렇다면 살걸 팔걸 하는 후회에",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V180",
+   "text": "덜 흔들리려면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V181",
+   "text": "무엇부터 해 보면 좋을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V182",
+   "text": "첫째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V183",
+   "text": "사기 전에 왜 사는지를",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V184",
+   "text": "한 줄로 적어 두세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V185",
+   "text": "주가가 오르고 내린 걸 보고 나면"
+  },
+  {
+   "line": "V186",
+   "text": "우리는 그 결정을"
+  },
+  {
+   "line": "V187",
+   "text": "결과만으로 채점하기 쉽습니다."
+  },
+  {
+   "line": "V188",
+   "text": "오르면 잘한 결정 같고"
+  },
+  {
+   "line": "V189",
+   "text": "떨어지면 어리석은 결정 같습니다."
+  },
+  {
+   "line": "V190",
+   "text": "게다가 결과를 알고 나면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V191",
+   "text": "처음부터 알 수 있었던 일처럼",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V192",
+   "text": "느껴지기 쉽습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V193",
+   "text": "이것을 사후 확신 편향이라고 부릅니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V194",
+   "text": "그래서 결과를 알기 전에"
+  },
+  {
+   "line": "V195",
+   "text": "사는 이유를 미리 남겨 두는 겁니다."
+  },
+  {
+   "line": "V196",
+   "text": "이 회사의 이런 점을 보고 산다.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V197",
+   "text": "이런 일이 생기면",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V198",
+   "text": "내 판단이 틀렸다고 본다.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V199",
+   "text": "이유를 적다 보면"
+  },
+  {
+   "line": "V200",
+   "text": "단톡방에서 다들 산다는 것 말고는"
+  },
+  {
+   "line": "V201",
+   "text": "이유가 없다는 걸 알게 될 때도 있습니다."
+  },
+  {
+   "line": "V202",
+   "text": "그걸 알아차리는 것만으로도"
+  },
+  {
+   "line": "V203",
+   "text": "한 번 더 생각해 볼 틈이 생깁니다."
+  },
+  {
+   "line": "V204",
+   "text": "나중에 주가가 떨어지면"
+  },
+  {
+   "line": "V205",
+   "text": "이 메모를 다시 꺼내 보세요."
+  },
+  {
+   "line": "V206",
+   "text": "샀던 이유가 그대로인데 떨어졌다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V207",
+   "text": "내가 어쩔 수 없는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V208",
+   "text": "운의 몫일 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V209",
+   "text": "이유부터 흐릿했다면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V210",
+   "text": "다음에 고칠 점이 생긴 거고요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V211",
+   "text": "그런데 이유를 적어 두어도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V212",
+   "text": "판 종목이 오르는 걸 보면",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V213",
+   "text": "마음은 또 흔들립니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V214",
+   "text": "둘째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V215",
+   "text": "판 종목은 한동안",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V216",
+   "text": "자주 들여다보지 마세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V217",
+   "text": "앞의 실험에서 후회 신호가 나타난 건"
+  },
+  {
+   "line": "V218",
+   "text": "판 종목이 오른 걸 보는 순간이었습니다."
+  },
+  {
+   "line": "V219",
+   "text": "판 뒤에도 하루에 몇 번씩"
+  },
+  {
+   "line": "V220",
+   "text": "그 종목을 확인한다면"
+  },
+  {
+   "line": "V221",
+   "text": "그때마다 팔지 말걸 하고"
+  },
+  {
+   "line": "V222",
+   "text": "후회할 수도 있습니다."
+  },
+  {
+   "line": "V223",
+   "text": "그래서 판 종목은"
+  },
+  {
+   "line": "V224",
+   "text": "관심 목록에서 잠시 내려 두거나"
+  },
+  {
+   "line": "V225",
+   "text": "확인하는 때를 정해 두는 겁니다."
+  },
+  {
+   "line": "V226",
+   "text": "예를 들어 일주일에 한 번"
+  },
+  {
+   "line": "V227",
+   "text": "주말 아침에만 확인하는 식입니다."
+  },
+  {
+   "line": "V228",
+   "text": "일주일이 정답은 아닙니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V229",
+   "text": "후회를 곱씹는 횟수를 줄이기 위한",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V230",
+   "text": "예시입니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V231",
+   "text": "그리고 다시 볼 때는"
+  },
+  {
+   "line": "V232",
+   "text": "이렇게 물어보세요."
+  },
+  {
+   "line": "V233",
+   "text": "팔지 말걸 대신",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V234",
+   "text": "이 종목을 오늘 처음 봤다면",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V235",
+   "text": "나는 어떻게 판단할까?라고요.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V236",
+   "text": "실제로 후회 신호가 강했던 사람일수록",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V237",
+   "text": "더 나은 선택을 놓쳤죠.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V238",
+   "text": "후회와 지금의 판단을",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V239",
+   "text": "나눠 보는 것만으로도",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V240",
+   "text": "결정이 조금 덜 흔들릴 수 있습니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V241",
+   "text": "하지만 이미 지나간",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V242",
+   "text": "살걸 후회와 팔걸 후회는",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V243",
+   "text": "어떻게 하면 좋을까요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V244",
+   "text": "셋째.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V245",
+   "text": "오답노트를 작성하세요.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V246",
+   "text": "그때 알던 정보로는",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V247",
+   "text": "그렇게 판단할 수 있었어.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V248",
+   "text": "그때 내가 너무 좋은 쪽으로만",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V249",
+   "text": "생각했었던 것 같아.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V250",
+   "text": "다음에는 사기 전에",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V251",
+   "text": "이유부터 적어 보자.",
+   "pos": "center",
+   "italic": true,
+   "shadow": true
+  },
+  {
+   "line": "V252",
+   "text": "이렇게 후회를",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V253",
+   "text": "다음에 쓸 기준 하나로 바꾸는 겁니다.",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V254",
+   "text": "여러분에게도 가장 아쉬웠던",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V255",
+   "text": "살걸 후회한 순간이나",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V256",
+   "text": "팔걸 후회한 순간이 있나요?",
+   "pos": "center",
+   "shadow": true
+  },
+  {
+   "line": "V257",
+   "text": "댓글로 공유해 주세요.",
+   "pos": "center",
+   "shadow": true
+  }
+ ]
+}

@@ -36,7 +36,9 @@ END=$(python3 -c "import json; print(json.load(open('segments.json'))['end'])")
 ffmpeg -v error -y -i audio/narration.wav -af "apad=whole_dur=$END,atrim=0:$END" -ar 48000 -ac 1 -c:a pcm_f32le audio/narration_end.wav
 (cd "$S" && "$PY" -I "$SC/bgm_sequence.py" "$W/audio/bgm_segments.json" "$END" "$W/audio/bgm.wav" --lufs -36 --constant --fade-out 4)
 "$PY" -I "$SC/mix_audio.py" audio/narration_end.wav audio/bgm.wav audio/final_audio.wav
-# 6. 장면 명세 -> 타임라인 -> 화면(3 프로세스) -> 소리 붙이기
+# 6. 장면 명세 -> 타임라인 -> 화면(3 프로세스) -> 소리 붙이기 (6~7단계는 render_all.sh로도 한 번에 돌림)
+#    스톡: 세 묶음(stock/picks/group_A·B·C.json) + 바꾼 것(stock_overrides.json). 렌더링 전에 점검 시트를 봄:
+#    "$PY" -I pick_sheet.py chk/picks/all   (장면마다 쓰는 구간의 처음, 가운데, 끝 프레임)
 python3 -I build_spec.py
 "$PY" -I "$SC/build_timeline.py" spec.json onsets_v3.json audio/final_audio.wav timeline.json onsets_v3.json > timeline.log
 "$PY" -I "$SC/fit_clips.py" timeline.json

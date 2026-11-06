@@ -90,7 +90,7 @@ def video_info(p):
     pk = P[-1].split()[1] if P else '?'
     m, s = divmod(dur, 60)
     return (f'- 완성: {os.path.basename(p)}(올리지 않음), {w}x{h}, {round(int(num) / int(den))}fps, {int(nb):,}프레임({dur:.2f}초, '
-            f'{int(m)}분 {s:.0f}초), 소리 {a[0].upper()} {round(int(a[3]) / 1000)}kbps {int(a[1]) // 1000} kHz '
+            f'{int(m)}분 {s:.0f}초), 소리 {a[0].upper()}(320kbps로 설정, 실제 평균 {round(int(a[3]) / 1000)}kbps) {int(a[1]) // 1000} kHz '
             f"{'스테레오' if a[2] == '2' else a[2] + '채널'}, {li} LUFS, true peak {pk} dBFS.")
 
 

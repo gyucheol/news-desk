@@ -22,7 +22,7 @@ TED와 졸업연설을 빼면, 단일 영상 조회수 1위권은 대학 공식 
 | 3 | Marty Lobdell *Study Less Study Smart* (Pierce College) | 2011-07-22 | 25,516,160 | [공식] | 학습심리, 공부법 | [YouTube](https://www.youtube.com/watch?v=IlU-zDU6aQ0) |
 | 4 | *Brené Brown on Empathy* (RSA 쇼트 애니메이션, 2:53) | 2013-12-10 | 24,141,646 | [공식] | 공감과 동정의 차이 | [YouTube](https://www.youtube.com/watch?v=1Evwgu369Jw) |
 | 5 | *How to Speak* (MIT OCW, 연사 Patrick Winston은 배경지식) | 2019-12-20 | 23,558,634 | [공식] | 말하기 기술 | [YouTube](https://www.youtube.com/watch?v=Unzc731iCUY) |
-| 6 | *Jordan B. Peterson on 12 Rules for Life* (How To Academy, 런던 강연) | 2018-01-16 | 23,406,107 | [공식·주최측] | 책임, 의미, 질서와 혼돈 | [YouTube](https://www.youtube.com/watch?v=-5RCmu-HuTg) |
+| 6 | *Jordan B. Peterson on 12 Rules for Life* (How To Academy 주최 강연) | 2018-01-16 | 23,406,107 | [공식·주최측] | 책임, 의미, 질서와 혼돈 | [YouTube](https://www.youtube.com/watch?v=-5RCmu-HuTg) |
 | 7 | Randy Pausch *Last Lecture: Achieving Your Childhood Dreams* (Carnegie Mellon University) | 2007-12-20 | 22,436,370 | [공식] | 꿈, 죽음, 삶의 태도 | [YouTube](https://www.youtube.com/watch?v=ji5_MqicxSo) |
 | 8 | Robert Sapolsky *1. Introduction to Human Behavioral Biology* (Stanford) | 2011-02-01 | 20,566,144 | [공식] | 행동의 생물학 | [YouTube](https://www.youtube.com/watch?v=NNnIGh9g6fA) |
 | 9 | *RSA ANIMATE: Drive* (연사 Dan Pink는 배경지식) | 2010-04-01 | 20,249,758 | [공식] | 동기 심리(내재 동기) | [YouTube](https://www.youtube.com/watch?v=u6XAPnuFjJc) |
@@ -134,12 +134,13 @@ TED와 졸업연설을 빼면, 단일 영상 조회수 1위권은 대학 공식 
   - *Kurzgesagt – Loneliness*는 28,147,296회(2019-02-17)이며, 강연이 아닌 애니메이션 해설이다. [YouTube](https://www.youtube.com/watch?v=n3Xv_g3g-mA)
   - Eric Thomas 음성의 *How Bad Do You Want It? (Success)*는 50,219,573회(15년 전, 제3자 편집)다. [YouTube](https://www.youtube.com/watch?v=lsSC2vx7zFQ)
   - *Crash Course Psychology #1*은 17,951,913회이며, 교육 시리즈다. [YouTube](https://www.youtube.com/watch?v=vo4pMVb0R6M)
+  - Esther Perel(TED 외)은 Oprah 대담 2,870,359회(2025-02-11), Skavlan 3,918,702회(9년 전)다. [YouTube](https://www.youtube.com/watch?v=wrgkD1BVpDs) [YouTube](https://www.youtube.com/watch?v=RmiKAoAmYSg)
 
 #### C. 참고: 제외 대상과의 규모 비교 (TED·졸업연설)
 - Waldinger의 TED *What Makes a Good Life?*는 30,496,776회다. [YouTube](https://www.youtube.com/watch?v=8KkKuTCFvzI)
 - Sinek의 TED는 22,892,713회다. [YouTube](https://www.youtube.com/watch?v=qp0HIF3SfI4)
 - Steve Jobs의 2005 Stanford 졸업연설은 49,384,880회다. [YouTube](https://www.youtube.com/watch?v=UF8uR6Z6KLc)
-- 결론적으로 비TED 심리 강연 중 2,000만 회를 넘는 것은 Brené Brown(RSA), Sapolsky 1강, Pausch, *Drive*, Peterson의 *12 Rules* 강연 정도다.
+- 결론적으로 비TED 심리(학습심리 포함) 강연 중 2,000만 회를 넘는 것은 Lobdell *Study Less Study Smart*, Brené Brown(RSA), Peterson의 *12 Rules* 강연, Pausch, Sapolsky 1강, *Drive* 정도다.
 
 ### Inferences
 반복 주제 묶음 (위 검증 항목 기준):

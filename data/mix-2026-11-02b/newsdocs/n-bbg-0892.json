@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0892",
+ "num": 892,
+ "key": "mix-G-017-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T13:03:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-02/chinese-steel-group-chides-mills-for-ignoring-output-curb-calls",
+ "origTitle": "",
+ "headline": "중국 철강협회, 감산 요구 무시한 제철소들 공개 질타",
+ "src": [
+  {
+   "o": "BigGo Finance",
+   "d": "2026-09",
+   "u": "https://finance.biggo.com/news/85a015cf-9448-4a64-99fe-83bbe23b24f3"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국 철강 단체, 감산 요구 무시한 제철소들 질타",
+   "o": "블룸버그",
+   "d": "2026-11-02",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-02/chinese-steel-group-chides-mills-for-ignoring-output-curb-calls"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "중국 철강협회, 감산 요구 무시한 제철소들 공개 질타",
+ "one": "중국 철강업계 단체가 자율 감산 요구에도 생산을 줄이지 않은 제철소들을 공개적으로 질타했다\n· 중국철강협회는 9월 15일 바오우·안강 등 45개 철강그룹과 함께 생산 통제와 재고 감축을 촉구했다\n· 이번 질타는 감산 요구가 일부 제철소에서 지켜지지 않고 있음을 보여 준다 (제목 기준)",
+ "facts": [
+  "무엇이: 중국 철강업계 단체가 감산 요구를 무시한 제철소들을 공개적으로 질타했다 [제목]",
+  "배경: 중국철강협회는 9월 15일 바오우·안강·서우강·HBIS 등 45개 철강그룹과 함께 생산 통제와 재고 감축을 촉구했으나 목표·일정·강제 수단은 없었다 [사실]",
+  "수급: 상반기 중국 조강 생산은 3%, 철강 소비는 3.6% 줄었고 주요 제철소 재고는 1,602만 톤으로 3년 만의 최고였다 [사실]"
+ ],
+ "basis": "title",
+ "check": "11월 질타 보도는 검색으로 찾지 못함. 9월 15일 자율 감산 촉구·수급 배경은 BigGo·업계 보도 검색 결과 요약으로 확인.",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "steel",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "감산 요구에도 일부 제철소 생산 유지"
+  }
+ ]
+}

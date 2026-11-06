@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0866",
+ "num": 866,
+ "key": "mix-G1-045-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T01:44:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/china-warns-of-retaliation-over-us-test-lab-restrictions",
+ "origTitle": "",
+ "headline": "중국, 미 FCC의 중국 시험소 인정 중단에 '추가 조치' 보복 경고",
+ "src": [
+  {
+   "o": "Global Times",
+   "d": "2026-10-30",
+   "u": "https://www.globaltimes.cn/page/202610/1373339.shtml"
+  },
+  {
+   "o": "Xinhua",
+   "d": "2026-10-31",
+   "u": "https://english.news.cn/20261031/30b6d51ca5d540c8bac66612306a03b1/c.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국, 미국 시험소 제한 조치에 보복 경고",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/china-warns-of-retaliation-over-us-test-lab-restrictions"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "중국, 미 FCC의 중국 시험소 인정 중단에 '추가 조치' 보복 경고",
+ "one": "중국 상무부가 미 FCC의 중국 시험소 배제 결정에 즉시 철회를 요구하며 추가 대응을 경고했다\n· FCC는 10월 29일 중국 내 시험소·인증기관 인정을 2028년 12월 1일부터 끝내기로 의결했다\n· 중국은 8월 미국 시험소를 반외국제재법 대응 명단에 올린 바 있어 맞대응이 커질 수 있다",
+ "facts": [
+  "무엇이: 중국 상무부는 10월 30일 미국이 고집하면 추가로 필요한 조치를 취하겠다며 FCC 제한의 즉시 철회를 요구했다 [사실]",
+  "FCC 결정: FCC는 10월 29일 중국 등 비상호 경제권의 시험소·인증기관·인정기관 인정을 2028년 12월 1일부터 끝내기로 의결했고 기존 기기 인증은 유효하다 [사실]",
+  "앞선 대응: 중국은 8월 5일 미국 시험소 컴플라이언스테스팅을 대응 명단에 올리고 미국 인증기관의 CCC 공장 사후 점검을 중단시켰으며, 미국행 드론 수출을 건별 심사하기 시작했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "FCC 의결과 중국 상무부 보복 경고는 검색 결과 요약(US News·글로벌타임스·신화)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "미 FCC 중국 시험소 배제에 중국 보복 경고"
+  }
+ ]
+}

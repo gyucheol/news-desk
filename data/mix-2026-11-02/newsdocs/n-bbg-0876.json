@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0876",
+ "num": 876,
+ "key": "mix-G1-057-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T01:02:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/poundland-s-woes-are-turning-into-a-big-test-for-the-government",
+ "origTitle": "",
+ "headline": "영국 파운드랜드 법정관리 위기…정부, 소유주 고든브라더스의 붕괴 유도 여부 조사",
+ "src": [
+  {
+   "o": "TheBusinessDesk",
+   "d": "2026-10",
+   "u": "https://www.thebusinessdesk.com/westmidlands/news/2118669-government-questions-whether-poundland%E2%80%99s-owner-is-pushing-it-to-collapse"
+  },
+  {
+   "o": "Talking Retail",
+   "d": "2026-10-28",
+   "u": "https://www.talkingretail.com/featured/poundland-on-the-brink-of-administration-28-10-2026/"
+  }
+ ],
+ "items": [
+  {
+   "t": "파운드랜드 경영난, 영국 정부의 큰 시험대로",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/poundland-s-woes-are-turning-into-a-big-test-for-the-government"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "영국 파운드랜드 법정관리 위기…정부, 소유주 고든브라더스의 붕괴 유도 여부 조사",
+ "one": "영국 할인점 파운드랜드가 법정관리 위기에 몰리면서 영국 정부 대응이 시험대에 올랐다\n· 레이놀즈 산업장관은 소유주 고든브라더스가 회사를 붕괴로 몰고 있는지 사실 확인을 지시했다\n· 주주가 마틴 프로퍼티 그룹의 인수 제안을 받지 않으면서 일자리 1만 1,000~1만 2,000개가 위태롭다",
+ "facts": [
+  "무엇이: 영국 정부가 파운드랜드 소유주 고든브라더스가 회사를 법정관리로 몰고 있는지 조사에 나섰다 [사실]",
+  "쟁점: 고든브라더스는 2025년 인수 뒤 매각에 나섰고, 경영진이 우선협상자로 정한 마틴 프로퍼티 그룹의 지불능력 있는 제안을 주주가 받지 않은 것이 분쟁의 핵심이다 [사실]",
+  "영향: 이사회는 관리인 선임 의향 통지를 준비한 것으로 전해졌고 일자리 1만 1,000~1만 2,000개가 걸려 있다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 정부 조사와 매각 분쟁·고용 규모 확인. 블룸버그 기사의 정부 정책 시험대 분석 내용은 확인 못 함",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "파운드랜드 법정관리 위기로 매장 폐쇄 우려"
+  }
+ ]
+}

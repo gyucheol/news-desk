@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0878",
+ "num": 878,
+ "key": "mix-G1-059-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-01T14:14:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-01/macau-gaming-revenue-decline-extends-despite-golden-week-boost",
+ "origTitle": "",
+ "headline": "마카오 10월 카지노 매출 10%↓…골든위크 방문객 늘어도 5개월 연속 감소",
+ "src": [
+  {
+   "o": "GGRAsia",
+   "d": "2026-11-01",
+   "u": "https://www.ggrasia.com/october-casino-ggr-follows-downward-trend-dips-10pct-y-o-y-to-us2-68bln-macau-govt"
+  },
+  {
+   "o": "The Standard",
+   "d": "2026-11-01",
+   "u": "https://www.thestandard.com.hk/finance/article/347138/Macau-gaming-revenue-declines-10pc-in-October-despite-Golden-Week-boost"
+  }
+ ],
+ "items": [
+  {
+   "t": "마카오 카지노 매출, 골든위크 효과에도 감소 이어가",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-01/macau-gaming-revenue-decline-extends-despite-golden-week-boost"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "마카오 10월 카지노 매출 10%↓…골든위크 방문객 늘어도 5개월 연속 감소",
+ "one": "마카오 10월 카지노 매출이 골든위크 특수에도 10% 줄어 감소세가 이어졌다\n· 10월 매출은 216억 8,000만 파타카(26억 8,000만 달러)로 5개월 연속 전년 대비 줄었다\n· 골든위크 방문객은 약 114만 명으로 15.5% 늘었지만 고액 베팅 부진으로 지출이 따라오지 못했다",
+ "facts": [
+  "무엇이: 마카오 10월 카지노 총매출은 216억 8,000만 파타카(약 26억 8,000만 달러)로 전년보다 10% 줄어 5개월 연속 감소했다 [사실]",
+  "골든위크: 연휴 방문객은 약 114만 명으로 15.5% 늘었지만 제프리스는 방문 증가가 게임 지출로 이어지지 않았다고 봤다 [사실]",
+  "누계: 1~10월 매출은 2,088억 파타카로 1.6% 늘었고, 정부 연간 목표 2,360억 파타카는 유지됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "10월 매출·방문객 수치는 검색 결과 요약으로 확인.",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "leisure",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "마카오 10월 카지노 매출 10% 감소"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "added": "텔레그램 3건·블룸버그 1건 — S&P의 메타 신용전망 부정적 하향과 FOCF 2026년 390억·2027년 710억 달러 적자 전망 내용이 추가됨",
+ "basis": "verified",
+ "check": "S&P 전망 하향과 FOCF 2026년 390억·2027년 710억 달러 적자는 검색 결과 요약으로 확인(일부 매체는 2026년 220억 달러로 달리 보도)",
+ "cycles": [],
+ "facts": [
+  "무엇이: S&P는 10월 30일 메타의 신용등급 전망을 안정적에서 부정적으로 낮추고 AA- 등급은 유지했으며, FOCF가 2026년 390억 달러, 2027년 710억 달러 적자를 내고 높은 투자가 이어지면 2028년 이후에도 적자일 수 있다고 봤다 [사실]",
+  "근거: 메타는 3분기 21억 2,000만 달러 FCF 적자(전년 흑자)를 냈고 연간 설비투자 가이던스 1,350억~1,450억 달러를 내놨으며, S&P는 조정 레버리지가 1.0배를 넘고 FOCF 적자가 2028년 이후 이어지면 등급을 내릴 수 있다고 했고 메타는 S&P 판단에 동의하지 않는다고 밝혔다 [사실]",
+  "신용시장: 메타 5년물 CDS는 실적 뒤 최대 8.9bp 오른 약 119.3bp로 거래 이래 최고였고, 리스·계약 등 지출 약정은 약 8,250억 달러로 7월 약 7,000억 달러에서 늘었다 [사실]",
+  "부외부채·현금흐름: 3분기 부외 보증부채 누적치는 7,500억 달러로 추산되고 주요 하이퍼스케일러 합산 FCF는 약 16억 달러 적자로 돌아섰으며, 실적 뒤 메타 등 기술주가 약세였다 [채널]",
+  "배경: 저커버그는 메타의 1,000억~2,000억 달러 AI 투자를 성공 확신 없이 결정했다고 인정했다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "S&P, 메타 신용전망 '부정적' 하향…FOCF 2027년 710억 달러 적자 전망·CDS 사상 최고",
+ "id": "n-bbg-0448",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "t": "저커버그, 메타의 2,000억 달러 AI 베팅에 확신 없었다고 인정",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "메타의 5년물 CDS가 실적 뒤 약 119bp로 거래 시작 이래 최고를 찍으면서, AI 지출 부담에 대한 채권 투자자의 불안이 드러났다",
+   "t": "메타 신용위험 지표, 실적 발표 뒤 사상 최고로 급등",
+   "u": "https://www.reuters.com/business/metas-credit-risk-indicator-jumps-record-high-after-results-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "투자자들이 메타의 매출 성장과 늘어나는 AI 비용을 저울질하면서 실적 뒤 주가가 내려 AI 투자 회수 우려가 커졌다 (제목 기준)",
+   "t": "투자자들 성장과 AI 비용 증가 저울질에 메타 주가 하락",
+   "u": "https://www.reuters.com/business/meta-falls-investors-balance-muse-growth-with-rising-ai-costs-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 Polaristimes",
+   "s": "메타 CDS가 120bp에 육박해 상장 이래 최고를 경신하면서, AI 하이퍼스케일러·반도체 밸류체인에 대한 크레딧 투자 심리가 나빠졌음을 보여 줬다",
+   "t": "메타 CDS 120bp 육박, 상장 이래 최고…AI 밸류체인 크레딧 투심 악화",
+   "u": "https://t.me/The_MariTimes/63933"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 Polaristimes",
+   "s": "메타의 2·3분기 부외 보증부채가 3분기 누적 7,500억 달러에 이를 것으로 추산되면서, 장부에 잡히지 않는 AI 인프라 부담이 부각됐다",
+   "t": "메타 부외 보증부채, 3분기 누적 7,500억 달러 추산",
+   "u": "https://t.me/The_MariTimes/63936"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "빅테크의 AI 지출 계획이 일부 투자자를 불안하게 한다고 블룸버그 팟캐스트가 짚으면서, 막대한 설비투자의 회수 의문이 이어졌다 (제목 기준)",
+   "t": "빅테크 AI 지출 계획에 일부 투자자 불안(빅테이크 팟캐스트)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/big-tech-s-ai-spending-plans-leave-some-investors-jittery-big-take-podcast"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "주요 하이퍼스케일러들의 합산 잉여현금흐름이 약 16억 달러 적자로 돌아서면서, AI 비용이 빅테크 현금흐름을 압박하고 있음을 드러냈다",
+   "t": "주요 하이퍼스케일러 합산 FCF, 약 16억 달러 적자로 전환",
+   "u": "https://t.me/insidertracking/67096"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "AI 인프라 구축에 드는 막대한 비용이 메타 등 기술 인기주 주가를 끌어내리면서 빅테크 동반 약세가 나타났다 (제목 기준)",
+   "t": "막대한 AI 구축 비용, 메타 등 기술 인기주에 타격",
+   "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
+  },
+  {
+   "t": "S&P, 메타 신용전망 '부정적' 하향…FOCF 대규모 적자 전망",
+   "o": "텔레그램 TNBfolio",
+   "d": "2026-10-31",
+   "u": "https://t.me/TNBfolio/71783",
+   "s": "S&P가 메타 신용전망을 부정적으로 낮추고 FOCF 적자를 2027년 710억 달러로 내다보면서 AI 군비 경쟁의 비용이 신용등급으로 번졌다"
+  },
+  {
+   "t": "S&P, 메타 신용등급 전망 '부정적'으로 하향",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
+   "s": "S&P가 설비투자와 현금흐름 불확실성을 이유로 메타 신용등급 전망을 낮추면서 AA- 등급 강등 가능성이 열렸다"
+  },
+  {
+   "t": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-11-01",
+   "u": "https://t.me/habit4117/87041",
+   "s": "메타가 AI 투자 부담으로 현금흐름이 악화하면서 신용등급 강등 경고를 받았다는 국내 보도가 전해졌다"
+  },
+  {
+   "t": "AI 인프라 190조 원 메타, 평가사 신용 경고등",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "d": "2026-11-02",
+   "u": "https://t.me/habit4117/87067",
+   "s": "AI 인프라에 190조 원을 쏟는 메타의 현금 곳간이 비면서 S&P가 신용전망을 안정에서 부정으로 낮췄다는 보도가 나왔다"
+  }
+ ],
+ "key": "split-G3-116-2026-10-20",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 448,
+ "one": "AI 비용 부담이 메타의 신용·주가·현금흐름 우려로 번지다 S&P의 신용전망 하향으로 이어졌다\n· S&P는 메타 신용등급 전망을 안정적에서 부정적으로 낮추고 AA- 등급은 유지했다\n· S&P는 메타 FOCF가 2026년 390억 달러, 2027년 710억 달러 적자를 낼 것으로 내다봤다\n· 메타는 3분기 21억 2,000만 달러 FCF 적자를 냈고 연간 설비투자 1,350억~1,450억 달러를 제시했다\n· 메타 5년물 CDS는 실적 뒤 120bp에 육박해 상장 이래 최고를 찍었다\n· 3분기 부외 보증부채는 7,500억 달러로 추산되고 하이퍼스케일러 합산 FCF는 16억 달러 적자였다\n· 앞서 저커버그는 1,000억~2,000억 달러 AI 투자를 확신 없이 결정했다고 인정했다",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T06:23:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-13",
+   "o": "Quartz",
+   "u": "https://qz.com/zuckerberg-meta-ai-spending-uncertainty-muse-wonder-101326"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "The Next Web",
+   "u": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Edward Conard Macro Roundup",
+   "u": "https://www.edwardconard.com/macro-roundup/meta-credit-risk-gauge-surges-to-record-on-ai-spending-plans/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Analytics Insight",
+   "u": "https://www.analyticsinsight.net/news/metas-ai-spending-raises-investor-concerns-despite-strong-revenue-growth"
+  },
+  {
+   "o": "CNBC",
+   "d": "2026-10-30",
+   "u": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+  },
+  {
+   "o": "The Star",
+   "d": "2026-10-31",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/31/sp-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns"
+  }
+ ],
+ "tags": [],
+ "title": "S&P, 메타 신용전망 '부정적' 하향…FOCF 2027년 710억 달러 적자 전망·CDS 사상 최고",
+ "updatedAt": "2026-11-02T10:30:37+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "가격",
+   "dir": "down",
+   "k": "실제",
+   "t": "S&P 메타 신용전망 부정적으로 하향"
+  }
+ ]
+}

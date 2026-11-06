@@ -1,0 +1,67 @@
+{
+ "id": "n-tg-0845",
+ "num": 845,
+ "key": "mix-G1-038-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T12:52:00+09:00",
+ "url": "https://t.me/Trillion_labs/11432",
+ "origTitle": "",
+ "headline": "미 재무부, 이란 제재 대상 이라크 국제개발은행 거래 정리 시한 12월 1일로 연장",
+ "src": [
+  {
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-30",
+   "u": "https://t.me/Trillion_labs/11432"
+  },
+  {
+   "o": "Newsquawk",
+   "d": "2026-10-29",
+   "u": "https://www.newsquawk.com/headlines/us-ofac-issued-general-license-ff-1-authorising-transactions-ordinarily-incident-and-necessary-to-the-wind-down-of-international-development-bank-for-investment-and-finance-also-known-as-iraq-development-bank"
+  },
+  {
+   "o": "Enterprise MENA+",
+   "d": "2026-10-19",
+   "u": "https://enterpriseam.com/menaplus/2026/10/19/us-treasury-sanctions-iraqs-international-development-bank-over-alleged-iran-links/"
+  }
+ ],
+ "items": [
+  {
+   "t": "미 재무부, 이라크 국제개발은행 거래 12월 1일까지 정리 허용",
+   "o": "텔레그램 트릴리온",
+   "d": "2026-10-30",
+   "u": "https://t.me/Trillion_labs/11432"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "channel": "트릴리온",
+ "title": "미 재무부, 이란 제재 대상 이라크 국제개발은행 거래 정리 시한 12월 1일로 연장",
+ "one": "미 재무부가 이란 제재로 지정한 이라크 국제개발은행과의 거래 정리 시한을 12월 1일로 늦췄다\n· 일반면허 FF-1이 10월 30일까지였던 기존 면허를 대체해 은행과 계열사 거래 정리를 허용한다\n· 재무부는 이 은행이 이란의 달러 접근을 도왔다며 10월 15일 제재했고 은행은 부인했다",
+ "facts": [
+  "무엇이: 미 재무부 OFAC은 10월 29일 일반면허 FF-1을 내 이라크 국제개발은행과 50% 이상 소유 계열사 거래의 정리를 2026년 12월 1일 0시 1분(미 동부)까지 허용했다 [사실]",
+  "배경: 재무부는 10월 15일 이 은행이 이란의 달러 접근을 돕고 이란 연계 세력과 얽혀 있다며 행정명령 13902로 제재했고, 기존 정리 면허는 10월 30일까지였다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(Newsquawk·Enterprise·Sanctions Expert)으로 일반면허 FF-1과 12월 1일 시한 확인.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "이란 연계 이라크 은행 제재, 12월 1일까지 거래 정리 허용"
+  }
+ ]
+}

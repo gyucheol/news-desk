@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0860",
+ "num": 860,
+ "key": "mix-G1-037-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T21:28:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap",
+ "origTitle": "",
+ "headline": "엑손, 에니와 자산 스왑으로 모잠비크 로부마 LNG 지분 50%로 확대",
+ "src": [
+  {
+   "o": "Green Building Africa",
+   "d": "2026-10-30",
+   "u": "https://www.greenbuildingafrica.co.za/exxonmobil-doubles-stake-in-mozambiques-rovuma-lng-project-to-50-through-eni-asset-swap/"
+  },
+  {
+   "o": "BusinessDay",
+   "d": "2026-10-30",
+   "u": "https://businessday.ng/news/article/exxon-mobil-increases-stake-in-mozambique-gas-project/"
+  }
+ ],
+ "items": [
+  {
+   "t": "엑손, 에니와 스왑으로 모잠비크 가스 사업 지분 확대",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-increases-stake-in-mozambique-gas-project-via-eni-swap"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "nodes": [
+  "gas/liquefaction"
+ ],
+ "title": "엑손, 에니와 자산 스왑으로 모잠비크 로부마 LNG 지분 50%로 확대",
+ "one": "엑손모빌이 에니와의 자산 스왑으로 모잠비크 로부마 LNG 사업 지분을 50%로 늘렸다\n· 연 1,860만 톤 규모 사업으로 2026년 말 최종투자결정, 2031년 첫 생산을 목표로 한다\n· 에니는 대가로 그 지역의 다른 자산을 받는다고 밝혔다",
+ "facts": [
+  "무엇이: 엑손모빌이 에니와의 스왑으로 운영을 맡은 모잠비크 로부마 LNG 지분을 50%로 늘렸다 [사실]",
+  "사업: 약 300억 달러, 연 1,860만 톤 규모로 2026년 말 최종투자결정, 2031년 첫 생산이 목표다 [사실]",
+  "조건·배경: 에니 CFO는 그 지역의 다른 자산을 받는다고 했고, 엑손은 파푸아 LNG 지분도 34%로 늘리기로 했다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "검색 결과 요약으로 지분 50% 확대와 사업 일정 확인. 이전 지분은 25%와 37.5%로 출처가 엇갈려 쓰지 않음",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "liquefaction",
+   "f": "공급",
+   "dir": "up",
+   "k": "예상",
+   "t": "엑손 로부마 LNG 지분 50%로 확대"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "basis": "title",
+ "check": "이번 블룸버그 뉴스레터는 검색하지 않아 제목 기준. 기존 사실은 기존 문서(verified) 근거 유지",
+ "cycles": [],
+ "facts": [
+  "무엇이: 인도네시아가 10월 24일부터 싱가포르행 파이프라인 가스 수출을 하루 약 3,100만 표준입방피트(나투나 1,500만, 수마트라 1,600만) 줄였다 [사실]",
+  "이유: 규제기관 SKK Migas는 바탐·빈탄·수마트라 발전용 국내 공급을 위한 것이라 했고, 에너지장관은 인도네시아를 존중하지 않는 나라에 수출 중단도 검토할 수 있다고 말했다 [사실]",
+  "싱가포르: 에너지시장청은 감축이 18일간이며 일일 가스 수요의 2% 미만이라고 밝혔고, 정부는 계약 위반 여부를 확인하겠다고 했다 [사실]",
+  "에너지 안보: 인도네시아의 가스 감축으로 싱가포르의 에너지 안보 문제가 부각됐다 [제목]",
+  "긴장 완화: 양국은 산불 연무 문제를 다룰 화재 태스크포스로 긴장을 누그러뜨리려 하고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "인도네시아, 싱가포르행 가스 하루 3,100만 입방피트 감축…싱가포르 에너지 안보 부각",
+ "id": "n-bbg-0706",
+ "incentive": "",
+ "inds": [
+  "gas"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "싱가포르와 인도네시아가 화재 태스크포스를 꾸리면서 가스 수출 축소로 불거진 양국 긴장을 누그러뜨리려 하고 있다",
+   "t": "싱가포르·인도네시아, 화재 태스크포스로 긴장 완화 모색",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/singapore-s-top-envoy-visits-indonesia-after-natural-gas-cuts"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "인도네시아가 국내 발전 수요를 이유로 싱가포르행 가스 수출을 하루 3,100만 표준입방피트 줄이면서 공급 계약 이행 문제가 불거졌다",
+   "t": "인도네시아가 싱가포르행 가스 수출을 줄이는 이유",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/why-indonesia-is-reducing-gas-exports-to-singapore"
+  },
+  {
+   "t": "인도네시아 가스 감축에 싱가포르 에너지 안보 부각",
+   "o": "블룸버그",
+   "d": "2026-10-31",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-31/indonesia-s-gas-cut-puts-singapore-s-energy-security-in-focus",
+   "s": "인도네시아가 싱가포르행 가스를 줄이면서 수입 가스에 기대는 싱가포르의 에너지 안보 문제가 부각됐다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G1-024-2026-10-27",
+ "nodes": [
+  "gas/demand",
+  "gas/midstream"
+ ],
+ "num": 706,
+ "one": "인도네시아가 10월 24일부터 싱가포르행 파이프라인 가스 수출을 줄이면서 싱가포르 에너지 안보가 쟁점이 됐다\n· 감축량은 하루 3,100만 표준입방피트로 나투나 1,500만, 수마트라 1,600만이다\n· 인도네시아는 바탐·빈탄·수마트라 발전용 국내 수요를 먼저 채우려는 조치라고 밝혔다\n· 싱가포르는 감축이 18일간 일일 가스 수요의 2% 미만이라며 계약 위반 여부를 따지겠다고 했다\n· 블룸버그는 이번 감축으로 수입 가스에 기대는 싱가포르의 에너지 안보가 주목받는다고 짚었다\n· 양국은 산불 연무 갈등을 다룰 화재 태스크포스로 긴장 완화에 나섰다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-10-31T10:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-27",
+   "o": "The Star",
+   "u": "https://www.thestar.com.my/business/business-news/2026/10/26/indonesia-begins-trimming-pipeline-gas-exports-to-singapore"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "The Diplomat",
+   "u": "https://thediplomat.com/2026/10/indonesia-reduces-gas-supply-to-singapore-citing-domestic-energy-needs/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "Mothership",
+   "u": "https://mothership.sg/2026/10/indonesia-cut-gas-exports-sg/"
+  }
+ ],
+ "tags": [],
+ "title": "인도네시아, 싱가포르행 가스 하루 3,100만 입방피트 감축…싱가포르 에너지 안보 부각",
+ "updatedAt": "2026-11-02T10:30:37+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-27/singapore-s-top-envoy-visits-indonesia-after-natural-gas-cuts",
+ "vc": [
+  {
+   "ind": "gas",
+   "node": "midstream",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "인도네시아 싱가포르행 파이프라인 가스 감축"
+  }
+ ],
+ "added": "블룸버그 1건 — 인도네시아 가스 감축으로 싱가포르 에너지 안보가 부각됐다는 분석 내용이 추가됨 (제목 기준)"
+}

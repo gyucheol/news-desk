@@ -1,0 +1,113 @@
+{
+ "basis": "partial",
+ "check": "모건스탠리 70GW 추산은 검색 결과 요약으로 확인. 대책 후 43GW와 가스터빈 3배는 2차 정리글에만 있고 다른 보도는 33GW로 전해 확인 못 함. 채널의 '2023년 1,560억 달러 취소' 연도는 확인 못 해 뺌",
+ "cycles": [],
+ "facts": [
+  "무엇이: PJM은 10월 29일 FERC에 1회성 백스톱 조달 수정안을 내고 입찰을 2027년 3월 1~28일, 결과 공표를 5월 10일로 잡았으며, 기준은 6,831MW 부족분, 가격 상한은 MW-일당 가중평균 555달러다 [사실]",
+  "부족 추산: 모건스탠리 스티븐 버드는 2028년까지 대책 전 미 데이터센터 전력 부족을 약 70GW(앞선 57GW에서 상향), 수요를 97GW로 추산했고, 대책 후 잔여 부족은 43GW라는 글과 약 33GW라는 보도가 엇갈린다 [사실]",
+  "병목: 가스터빈 가격 3배, 대형 변압기 납기 최대 4년, 인력 부족으로 2030년까지 IT 설비 구축이 142GW로 제한되고, 1,560억 달러 이상 데이터센터 사업이 취소·연기됐으며 미국인 70%가 지역 데이터센터 건설에 반대한다는 전언이 있다 [채널]",
+  "텍사스·FERC: FERC는 9월 29일 PJM 백스톱 조달 대부분을 받아들였으나 효력을 2027년 2월 28일까지 미뤘고, 애벗 주지사 명령으로 텍사스 데이터센터 신규 환경 허가가 멈춘 가운데 셰브런 CFO는 MS용 2.67GW 사업의 2028년 첫 전력 일정을 지킨다고 했다 [사실]",
+  "공개: 블랙스톤 QTS와 밴티지가 데이터센터 관련 정보공개 확대를 약속했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "데이터센터 전력 수급…MS '70GW 부족·대책 후 43GW'·PJM 6,831MW 경매·텍사스 허가 중단",
+ "id": "n-bbg-0853",
+ "incentive": "",
+ "inds": [
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "s": "블랙스톤의 QTS와 밴티지가 데이터센터 정보공개를 늘리겠다고 약속하면서 전력·용수 부담을 둘러싼 투명성 요구에 대응했다 (제목 기준)",
+   "t": "블랙스톤 QTS·밴티지, 데이터센터 정보공개 확대 약속",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/blackstone-s-qts-vantage-vow-to-step-up-data-center-disclosures"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "블룸버그",
+   "s": "PJM이 6,831MW 부족분을 메울 1회성 경매를 2027년 3월 열겠다는 수정안을 내면서 FERC가 미뤄 둔 데이터센터 전력 조달이 다시 일정에 올랐다",
+   "t": "미 최대 전력망 PJM, 데이터센터 전력 경매 3월 개최 추진",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/largest-us-grid-seeks-to-hold-data-center-power-auction-in-march"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "블룸버그",
+   "s": "텍사스가 데이터센터 신규 환경 허가를 멈춘 가운데 셰브런은 2028년 첫 전력 일정을 유지한다고 했지만 투자결정 지연 가능성이 거론됐다",
+   "t": "셰브런, 텍사스 허가 중단에도 MS 데이터센터 일정 유지",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/chevron-keeps-microsoft-data-center-timeline-despite-texas-pause"
+  },
+  {
+   "t": "모건스탠리 '미 전력 부족 70GW, 모든 대책 써도 43GW 부족'",
+   "o": "텔레그램 부의 나침반",
+   "d": "2026-11-02",
+   "u": "https://t.me/w_compass/7570",
+   "s": "모건스탠리가 미국 전력 부족을 70GW, 모든 대책 후에도 43GW로 추산하면서 가스터빈값 3배 등 병목이 데이터센터 구축을 제약할 수 있다고 봤다"
+  }
+ ],
+ "key": "mix-G1-017-2026-11-02",
+ "nodes": [
+  "power/demand",
+  "power/gen",
+  "power/market"
+ ],
+ "num": 853,
+ "one": "미국 데이터센터 전력 부족을 놓고 대규모 부족 추산과 전력망·규제·사업자 쪽 대응이 잇따랐다\n· 모건스탠리는 2028년까지 미 데이터센터 전력 부족을 70GW로 추산했다\n· 원자력·연료전지 등 모든 대책을 써도 순부족이 43GW에 이른다는 전언이 있다\n· 가스터빈 값은 세 배로 오르고 대형 변압기 납기는 최대 4년이라는 전언이 있다\n· PJM은 6,831MW 부족분을 메울 1회성 경매 입찰을 2027년 3월 1~28일 여는 수정안을 냈다\n· 텍사스 애벗 주지사가 데이터센터 신규 환경 허가를 멈췄지만 셰브런은 MS용 발전 일정을 유지한다고 했다\n· 블룸버그 제목에 따르면 블랙스톤의 QTS와 밴티지는 데이터센터 정보공개 확대를 약속했다",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T10:44:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-30",
+   "o": "Utility Dive",
+   "u": "https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "mgrid.org",
+   "u": "https://mgrid.org/2026/10/31/pjm-refiles-its-6831-mw-backstop-procurement-for-a-march-1-launch-and-bills-large-load-growth-since-summer-2026/"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "Natural Gas Intelligence",
+   "u": "https://www.naturalgasintel.com/news/chevron-advancing-microsoft-natural-gas-project-despite-texas-data-center-clouds/"
+  },
+  {
+   "o": "Crypto Briefing",
+   "d": "2026-11",
+   "u": "https://cryptobriefing.com/morgan-stanley-70-gw-data-center-power-shortfall/"
+  },
+  {
+   "o": "TokenPost",
+   "d": "2026-11",
+   "u": "https://www.tokenpost.com/news/technology/45976"
+  }
+ ],
+ "tags": [],
+ "title": "데이터센터 전력 수급…MS '70GW 부족·대책 후 43GW'·PJM 6,831MW 경매·텍사스 허가 중단",
+ "updatedAt": "2026-11-02T14:43:02+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/blackstone-s-qts-vantage-vow-to-step-up-data-center-disclosures",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "모든 대책 써도 전력 43GW 부족 추산"
+  },
+  {
+   "ind": "power",
+   "node": "gen",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "가스터빈 가격 세 배로 상승"
+  }
+ ],
+ "added": "텔레그램 1건 — 모건스탠리의 미 전력 부족 70GW·대책 후 43GW 추산, 가스터빈값 3배·변압기 납기 4년 병목 내용이 추가됨"
+}

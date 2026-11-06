@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0862",
+ "num": 862,
+ "key": "mix-G1-041-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T18:12:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/cathay-pacific-joins-growing-list-of-airlines-hit-by-data-breach",
+ "origTitle": "",
+ "headline": "캐세이퍼시픽, 아마데우스 해킹으로 예약 5만 3천 건 정보 유출…아시아 항공사 피해 확산",
+ "src": [
+  {
+   "o": "SCMP",
+   "d": "2026-10-30",
+   "u": "https://www.scmp.com/news/hong-kong/transport/article/3372722/cathay-pacific-says-data-53000-bookings-compromised-amadeus-cyberattack"
+  },
+  {
+   "o": "eSecurity Planet",
+   "d": "2026-10-31",
+   "u": "https://www.esecurityplanet.com/news/news-cathay-pacific-amadeus-data-breach-apac-hongkong/"
+  }
+ ],
+ "items": [
+  {
+   "t": "캐세이퍼시픽, 잇단 항공사 데이터 유출 피해에 합류",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/cathay-pacific-joins-growing-list-of-airlines-hit-by-data-breach"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "캐세이퍼시픽, 아마데우스 해킹으로 예약 5만 3천 건 정보 유출…아시아 항공사 피해 확산",
+ "one": "캐세이퍼시픽이 예약 시스템 업체 해킹으로 승객 정보가 유출됐다고 밝혀 항공사 피해 명단에 올랐다\n· 아마데우스 시스템 무단 접근으로 2023년 8월~2026년 9월 예약 약 5만 3,000건이 노출됐다\n· 같은 사고로 일본항공·ANA·대한항공·아시아나 등도 피해를 입었고 홍콩 당국이 조사에 들어갔다",
+ "facts": [
+  "무엇이: 캐세이퍼시픽은 외부 기술업체 아마데우스 시스템에 대한 무단 접근으로 2023년 8월~2026년 9월 예약 약 5만 3,000건의 승객 이름·예약번호·항공편 정보가 노출됐다고 밝혔다 [사실]",
+  "범위: 일부는 이메일·전화번호·여행서류·마일리지 번호도 포함됐지만 결제 정보 접근 증거는 없고, 자사 시스템과 운항은 영향을 받지 않았다 [사실]",
+  "확산: 같은 사고로 일본항공·JTA(약 9만 2,000명), ANA(약 3만 7,800명), 대한항공·아시아나 등도 피해를 입었고 홍콩 개인정보보호 당국이 조사를 시작했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "캐세이 5만 3천 건 유출과 다른 항공사 피해는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "airlines",
+   "f": "-",
+   "dir": "flat",
+   "k": "실제",
+   "t": "아마데우스 해킹으로 항공 예약 정보 유출"
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "basis": "partial",
+ "channel": "미국 주식 인사이더",
+ "check": "n-tg-0702(빅테크 CDS)에 n-bbg-0723(앤트로픽 투기등급)·n-bbg-0881(반도체 CDS)·n-bbg-0448(S&P 메타 전망 하향)을 합쳤다. CDS 거래·스프레드·S&P 하향·블랙스톤 전망은 검색 결과 요약으로 확인했고, 아마존 현금흐름·170%·3조 달러·9,000억 달러 부외 약정은 채널 전언으로 확인 못 함.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 오라클·스페이스X·알파벳·아마존·메타·브로드컴·엔비디아 관련 CDS 거래가 9월 주평균 90억 달러를 넘어 7월 20억 달러 미만의 4배를 웃돌았다(모건스탠리 자료) [사실]",
+  "스프레드: 오라클 5년 CDS는 연초 144bp에서 322bp로 뛰어 1주일 새 40bp 올랐고, 엔비디아 101bp는 사상 최고, 코어위브는 약 1,090bp, 소프트뱅크는 10월 20일 432bp로 약 4년 만의 최고, 메타 5년물은 실적 뒤 약 119.3bp로 거래 이래 최고였다 [사실]",
+  "현금흐름: 아마존 잉여현금흐름은 2분기 -76억 달러로 떨어졌고 GB300 랙 조기 수령과 전력 부족으로 일부 장비가 창고에 쌓였으며, 모건스탠리는 하이퍼스케일러·네오클라우드 FCF가 2027년 최대 마이너스, 현금 소진이 6,000억 달러에 육박할 것으로 봤다 [채널]",
+  "S&P 메타: S&P는 10월 30일 메타 전망을 안정적에서 부정적으로 낮추고 AA-를 유지하며 FOCF가 2026년 390억 달러, 2027년 710억 달러 적자를 낼 것으로 봤고, 메타는 3분기 21억 2,000만 달러 FCF 적자와 설비투자 1,350억~1,450억 달러 가이던스를 냈다 [사실]",
+  "앤트로픽: 10월 26일 S-1(티커 ANT)에서 상반기 매출 162억 9,000만 달러, 순손실 807억 달러, 컴퓨팅 약정 최소 4,170억 달러를 공개했고, 블랙스톤은 630억 달러 노스스타 투자자들에게 상장 직후 BB 이상 투기등급을 예상한다고 밝혔다 [사실]",
+  "전언: 채널은 브로드컴·엔비디아 등 CDS 스프레드 반년 170% 이상·거래량 1,900% 이상 증가, 하이퍼스케일러 지출 약정 3조 달러 초과, 미 BDC 대출 22%의 2.5년 내 만기, 앤트로픽 S-1 주석 속 약 9,000억 달러 부외 약정, 메타 3분기 부외 보증부채 7,500억 달러를 전했다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 신용 경계 확산…빅테크 CDS 주 90억 달러·S&P 메타 전망 '부정적'·앤트로픽 투기등급 전망",
+ "id": "n-tg-0702",
+ "incentive": "",
+ "ind": "semis",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-14",
+   "o": "블룸버그",
+   "t": "저커버그, 메타의 2,000억 달러 AI 베팅에 확신 없었다고 인정",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "모건스탠리가 하이퍼스케일러·네오클라우드 잉여현금흐름이 2027년 최대 마이너스, 현금 소진이 6,000억 달러에 육박할 것으로 보면서, 외부 차입 의존과 크레딧 스프레드 확대 압력을 경고했다",
+   "t": "모건스탠리 '2027년 빅테크 현금흐름 최악의 해 온다'",
+   "u": "https://t.me/insidertracking/66751"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "블룸버그",
+   "s": "소프트뱅크그룹 5년 CDS가 432bp로 4년 만의 최고에 오르면서, AI 투자 자금 조달 부담이 신용시장에 반영됐다",
+   "t": "소프트뱅크 신용위험, AI 자금 조달 부담에 4년 만의 최고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 TNBfolio",
+   "s": "빅테크 7곳 CDS 거래가 9월 주평균 90억 달러를 넘고 메타·엔비디아 CDS가 사상 최고를 찍으면서, 코어위브 CDS는 약 1,090bp로 부도 우려가 가장 컸다",
+   "t": "AI 붕괴 대비 헤지 몰려 하이퍼스케일러 CDS 거래 사상 최대",
+   "u": "https://t.me/TNBfolio/71615"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 TNBfolio",
+   "s": "아마존 잉여현금흐름이 2분기 -76억 달러로 떨어지고 전력 부족으로 랙이 창고에 쌓이면서, AWS 인프라 책임자는 몇 년간 마이너스가 이어질 것이라고 했다",
+   "t": "아마존 FCF, AI 인프라 투자에 2분기 -76억 달러로 추락",
+   "u": "https://t.me/TNBfolio/71617"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "9월 7대 기술기업 CDS 주간 거래가 7월의 20억 달러 미만에서 90억 달러 이상으로 늘면서, 코어위브 5년 CDS는 1,000bp를 넘어섰다",
+   "t": "모건스탠리 '빅테크 CDS 주간 거래 4배'…코어위브 1,000bp 돌파",
+   "u": "https://t.me/HANAchina/70756"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 트릴리온",
+   "s": "아마존이 8월 엔비디아 GB300 랙 50억 달러어치를 받고 매월 30억 달러씩 더 받기로 했지만, 일부 AWS 센터는 전력이 모자라 장비를 중간 창고에 보관했다",
+   "t": "BI '아마존, 전력 부족에 GB300 랙 창고 보관'",
+   "u": "https://t.me/Trillion_labs/10965"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 트릴리온",
+   "s": "아마존이 공급망 초기에 랙 소유권을 넘겨받는 조기 수령 절차를 도입하면서, 현금은 먼저 나가고 설치·전력 지연 시 수익 시점이 늦어질 수 있게 됐다",
+   "t": "아마존 '조기 랙 수령'으로 현금 지출 앞당겨…수익 발생 지연 우려",
+   "u": "https://t.me/Trillion_labs/10966"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 Polaristimes",
+   "s": "오라클 5년 CDS 프리미엄이 1주일 새 40bp 올라 300bp를 넘어서면서, AI 대형 차입 기업의 부도 보험료 상승세가 가팔라졌다",
+   "t": "오라클 5년 CDS 300bp 돌파…1주일 새 40bp 상승",
+   "u": "https://t.me/The_MariTimes/63858"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "메타의 5년물 CDS가 실적 뒤 약 119bp로 거래 시작 이래 최고를 찍으면서, AI 지출 부담에 대한 채권 투자자의 불안이 드러났다",
+   "t": "메타 신용위험 지표, 실적 발표 뒤 사상 최고로 급등",
+   "u": "https://www.reuters.com/business/metas-credit-risk-indicator-jumps-record-high-after-results-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "투자자들이 메타의 매출 성장과 늘어나는 AI 비용을 저울질하면서 실적 뒤 주가가 내려 AI 투자 회수 우려가 커졌다 (제목 기준)",
+   "t": "투자자들 성장과 AI 비용 증가 저울질에 메타 주가 하락",
+   "u": "https://www.reuters.com/business/meta-falls-investors-balance-muse-growth-with-rising-ai-costs-2026-10-22/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 Polaristimes",
+   "s": "메타 CDS가 120bp에 육박해 상장 이래 최고를 경신하면서, AI 하이퍼스케일러·반도체 밸류체인에 대한 크레딧 투자 심리가 나빠졌음을 보여 줬다",
+   "t": "메타 CDS 120bp 육박, 상장 이래 최고…AI 밸류체인 크레딧 투심 악화",
+   "u": "https://t.me/The_MariTimes/63933"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 Polaristimes",
+   "s": "메타의 2·3분기 부외 보증부채가 3분기 누적 7,500억 달러에 이를 것으로 추산되면서, 장부에 잡히지 않는 AI 인프라 부담이 부각됐다",
+   "t": "메타 부외 보증부채, 3분기 누적 7,500억 달러 추산",
+   "u": "https://t.me/The_MariTimes/63936"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "s": "빅테크의 AI 지출 계획이 일부 투자자를 불안하게 한다고 블룸버그 팟캐스트가 짚으면서, 막대한 설비투자의 회수 의문이 이어졌다 (제목 기준)",
+   "t": "빅테크 AI 지출 계획에 일부 투자자 불안(빅테이크 팟캐스트)",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-22/big-tech-s-ai-spending-plans-leave-some-investors-jittery-big-take-podcast"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "주요 하이퍼스케일러들의 합산 잉여현금흐름이 약 16억 달러 적자로 돌아서면서, AI 비용이 빅테크 현금흐름을 압박하고 있음을 드러냈다",
+   "t": "주요 하이퍼스케일러 합산 FCF, 약 16억 달러 적자로 전환",
+   "u": "https://t.me/insidertracking/67096"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "로이터",
+   "s": "AI 인프라 구축에 드는 막대한 비용이 메타 등 기술 인기주 주가를 끌어내리면서 빅테크 동반 약세가 나타났다 (제목 기준)",
+   "t": "막대한 AI 구축 비용, 메타 등 기술 인기주에 타격",
+   "u": "https://www.reuters.com/business/steep-bill-ai-buildout-punishes-meta-other-tech-favorites-2026-10-22/"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "블룸버그가 앤트로픽이 낸 S-1을 짚으면서 상반기 매출 162억 9,000만 달러와 순손실 807억 달러 등 첫 재무 공개 내용을 정리했다",
+   "t": "오랫동안 기다려 온 앤트로픽 S-1 상장 신고서 속 내용",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/inside-anthropic-s-long-awaited-s-1-filing"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 상장 신고서에서 TSMC 운영 차질을 위험 요인으로 꼽으면서 자사 컴퓨팅 칩 공급이 대만 파운드리 가동에 좌우될 수 있음을 밝혔다 (제목 기준)",
+   "t": "앤트로픽, TSMC 운영 차질을 위험 요인으로 강조",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-highlights-disruptions-to-tsmc-operations-as-a-risk"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 S-1을 내고 나스닥에서 티커 ANT로 거래하겠다고 밝히면서 시장이 기다려 온 초대형 상장 절차가 공식 시작됐다",
+   "t": "앤트로픽, 초대형 IPO 신청…티커 ANT로 거래 예정",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/anthropic-files-for-mega-ipo-to-trade-under-ticker-ant"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 상장 신고서에서 구글·아마존·마이크로소프트에 대한 의존이 더 커졌다고 밝히면서 소수 빅테크와의 이해관계 집중이 드러났다 (제목 기준)",
+   "t": "앤트로픽, 구글·아마존·마이크로소프트 의존도 더 커져",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-filing-cites-reliance-on-google-amazon-microsoft"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 추가 부채 조달 가능성을 경고하면서도 투자등급 신용등급을 추구할지에는 말을 아껴 채권 투자자들의 판단 근거가 제한됐다 (제목 기준)",
+   "t": "앤트로픽, 추가 부채 경고하면서 투자등급 여부엔 침묵",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-remains-mum-on-investment-grade-as-it-flags-more-debt"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 S-1 위험 요인에 존립 위험과 법적 책임, 매출 증가 둔화를 함께 적으면서 고성장 속에서도 투자자에게 하방 위험을 알렸다",
+   "t": "앤트로픽, 존립 위험·법적 책임·판매 둔화 가능성 경고",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-warns-of-existential-risk-liability-and-slowing-sales"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 IPO를 신청하면서 AI가 인류에 재앙적·실존적 위험을 줄 수 있다고 적고 모델이 종료를 거부하거나 정보를 숨길 가능성도 위험으로 밝혔다",
+   "t": "앤트로픽, IPO 신청하며 AI의 '재앙적' 위험 경고",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/anthropic-files-for-ipo-while-warning-of-catastrophic-ai-risks"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 카이에 de market",
+   "s": "세미애널리시스가 앤트로픽이 6월 말까지 1,411억 달러를 조달해 현금 1,124억 달러·단기투자 193억 달러를 보유했다며 소진액이 97억 달러에 그친다고 짚었다",
+   "t": "세미애널리시스 '앤트로픽 1,411억 달러 조달·97억 달러만 소진'",
+   "u": "https://t.me/cahier_de_market/11128"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 상장 신고서를 낸 날 위험 경고도 함께 내놓으면서 투자자들이 성장성과 위험 요인을 함께 따져야 하는 상황이 됐다 (제목 기준)",
+   "t": "앤트로픽 IPO 신고서 제출일, 경고도 함께 나와",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-26/anthropic-ipo-filing-day-comes-with-warning"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 카이에 de market",
+   "s": "앤트로픽 매출이 전년보다 14배 느는 동안 컴퓨팅 비용은 3.8배 늘어 매출 대비 컴퓨팅 비용 비중이 201%에서 55%로 낮아졌다는 분석이 나왔다",
+   "t": "앤트로픽 매출 14배 늘 때 컴퓨팅 비용 3.8배…매출 대비 55%로",
+   "u": "https://t.me/cahier_de_market/11129"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 카이에 de market",
+   "s": "카이에 채널은 앤트로픽 S-1의 핵심이 컴퓨팅 지출 대비 빠른 수익성 개선이라며 막대한 자금 조달과 토큰 가격 경쟁에 대한 시장 우려를 덜 수 있다고 봤다",
+   "t": "카이에 '앤트로픽 S-1 핵심은 컴퓨팅 지출 대비 ROIC 급상승'",
+   "u": "https://t.me/cahier_de_market/11131"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 나쁜양파",
+   "s": "개빈 베이커가 앤트로픽이 토큰 가격을 내린 뒤 10월 ARR이 급증했을 가능성이 높다며 연말 ARR 1,000억 달러 이상도 다시 가능해 보인다고 했다",
+   "t": "개빈 베이커 '토큰값 인하 뒤 앤트로픽 ARR 수직 상승 가능성'",
+   "u": "https://t.me/Badonions/8060"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "예측시장 칼시가 앤트로픽의 연내 IPO 공식화 확률을 95%로, 폴리마켓이 11월 20일 전 거래 시작 확률을 69%로 보면서 상장이 사실상 확정된 분위기다",
+   "t": "칼시, 앤트로픽 연내 IPO 확률 95%…폴리마켓 11월 20일 전 상장 69%",
+   "u": "https://t.me/HANAchina/71054"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽 IPO가 월가 상장 시장과 AI 붐 전체의 향방을 가를 결정적 시험대로 떠오르면서 공모 흥행 여부에 관심이 쏠렸다 (제목 기준)",
+   "t": "앤트로픽 IPO, 월가와 AI 붐에 결정적 순간 될 듯",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-s-ipo-sets-up-defining-moment-for-wall-street-and-ai-boom"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 카이에 de market",
+   "s": "카이에 채널이 2분기 말 기준 앤트로픽의 현금성 자산이 아마존·메타·마이크로소프트보다 많다는 비교 자료를 공유하면서 자금 여력이 부각됐다",
+   "t": "앤트로픽 현금성 자산, 아마존·메타·MS보다 많아(2분기 기준)",
+   "u": "https://t.me/cahier_de_market/11135"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "앤트로픽이 2025년 말 이후 최소 4,170억 달러, 최장 20년 컴퓨팅 계약을 맺었고 칩 구성은 엔비디아가 42%로 가장 크며 구글 TPU가 뒤를 잇는다",
+   "t": "앤트로픽 신규 컴퓨팅 약정 4,170억 달러…엔비디아 칩 비중 42%",
+   "u": "https://t.me/HANAchina/71059"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "앤트로픽의 6월 말 현금·단기투자가 약 1,320억 달러로 아마존·메타·MS를 웃돌지만 전체 컴퓨팅 약정이 7,800억~8,100억 달러에 이른다고 중국 언론이 전했다",
+   "t": "앤트로픽 현금 1,320억 달러로 아마존 상회…컴퓨팅 약정은 최대 8,100억",
+   "u": "https://t.me/HANAchina/71062"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 하나증권 중국전략",
+   "s": "앤트로픽 매출이 5개 분기 만에 약 30배로 늘어 2분기 흑자로 돌아섰지만 상반기 장부상 순손실은 807억 달러였고 창업자 7명이 의결권 50.1%를 쥐었다",
+   "t": "앤트로픽 매출 5개 분기 새 30배…2분기 흑자에도 상반기 순손실 807억",
+   "u": "https://t.me/HANAchina/71068"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽 상장으로 호주 커먼웰스은행(CBA)이 보유 지분에서 수십억 달러 규모 차익을 거둘 수 있다는 분석이 나왔다 (제목 기준)",
+   "t": "앤트로픽 IPO로 호주 CBA, 수십억 달러 차익 거둘 수도",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-27/anthropic-ipo-cba-commonwealth-bank-of-australia-multi-billion-windfall"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "텔레그램 미국 주식 인사이더",
+   "s": "앤트로픽이 사용 정책·약관을 위반한 고객 매출이 9개월 매출의 약 5~7%라고 밝히면서 상반기 기준 12억~17억 달러가 위반 계정에서 나온 셈이 됐다",
+   "t": "앤트로픽 '약관 위반 고객 매출이 전체의 5~7%'",
+   "u": "https://t.me/insidertracking/67467"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽 상장 신고서가 컴퓨팅 공급사에 앞으로 지급할 AI 지출 약정이 약 4,170억 달러라고 밝히면서 인프라 공급사들이 받을 청구 규모가 드러났다",
+   "t": "앤트로픽 IPO 신고서, 향후 AI 지출 4,170억 달러 공개",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽 상장이 트레이더들에게 프런티어 AI 모델 사업에만 집중 베팅할 수 있는 순수 상장 종목을 제공하게 됐다는 평가가 나왔다 (제목 기준)",
+   "t": "앤트로픽, 트레이더에게 프런티어 AI 순수 투자 수단 제공",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-gives-traders-a-pure-play-bet-on-frontier-ai"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "블룸버그",
+   "s": "앤트로픽이 아마존·구글·마이크로소프트와 긴밀하게 얽힌 관계에 사업을 기대고 있어 이들 빅테크와의 연결이 성장 기반이자 위험 요인이 되고 있다 (제목 기준)",
+   "t": "앤트로픽, 아마존·구글·마이크로소프트와의 긴밀한 관계에 기대",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-relies-on-close-connections-with-amazon-google-and-microsoft"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "블룸버그",
+   "s": "수익성 우려로 기술 기업 CDS 비용이 급등하면서 빅테크 7곳 주간 CDS 거래가 9월 90억 달러를 넘는 등 신용 헤지 수요가 몰렸다",
+   "t": "수익성 우려에 기술 기업 부채 보호 비용 급등",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/tech-firms-debt-protection-costs-are-surging-on-profit-concerns"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 TNBfolio",
+   "s": "블랙스톤이 노스스타 투자자들에게 앤트로픽이 상장 직후 BB 이상 투기등급을 받을 것으로 본다고 전하면서 보험사·연기금 자금 유치가 어려워질 수 있다",
+   "t": "블랙스톤 '앤트로픽, IPO 직후 투자등급 못 받을 수도'",
+   "u": "https://t.me/TNBfolio/71782"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 재야의 괴수들",
+   "s": "앤트로픽 S-1 주석에 서버·건물·전력에 쓸 약 9,000억 달러 지출 약정이 담기면서 재무상태표 부채보다 큰 부외 의무가 있다는 지적이 나왔다",
+   "t": "앤트로픽 IPO 서류 속 약 9,000억 달러 '숨겨진 부채'",
+   "u": "https://t.me/stockhasoo/17161"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "s": "블랙스톤이 앤트로픽이 상장 뒤에도 정크등급에 머물 것으로 내다보면서 투자적격 등급 기대가 뒤로 밀렸다는 국내 보도를 채널이 전했다",
+   "t": "블랙스톤 '앤트로픽, 상장 이후에도 정크등급' 전망",
+   "u": "https://t.me/habit4117/87028"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "블룸버그",
+   "s": "AI 부채가 늘면서 회사채 가격과 CDS 같은 신용 헤지 가격이 따로 움직여 신용시장 안에서 AI 위험 평가가 엇갈리고 있다 (제목 기준)",
+   "t": "AI 부채, 회사채와 신용 헤지 사이 괴리 키워",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/ai-debt-drives-wedge-between-corporate-bonds-and-credit-hedges"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes가 AI 하이퍼스케일러들의 지출 약정 합계가 3조 달러를 넘었다고 전하면서 AI 부채 부담이 커지고 있음을 짚었다",
+   "t": "AI 하이퍼스케일러 지출 약정 합계 3조 달러 돌파",
+   "u": "https://t.me/The_MariTimes/64134"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes는 신평사 등급보다 훨씬 높은 금리를 내는 기업이 많다며 신용등급이 시장 스프레드 대비 지나치게 높게 매겨졌다고 지적했다",
+   "t": "신용등급, 시장 크레딧 스프레드보다 과대평가",
+   "u": "https://t.me/The_MariTimes/64135"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes는 구글·MS·엔비디아 등 CDS 프리미엄 반락에 반도체주가 숏커버링을 보였지만 크레딧 불안은 숨고르기일 뿐이라고 봤다",
+   "t": "빅테크·AI 기업 CDS 반락에도 크레딧 불안은 숨고르기",
+   "u": "https://t.me/The_MariTimes/64137"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "텔레그램 TNBfolio",
+   "s": "S&P가 메타 신용전망을 부정적으로 낮추고 FOCF 적자를 2027년 710억 달러로 내다보면서 AI 군비 경쟁의 비용이 신용등급으로 번졌다",
+   "t": "S&P, 메타 신용전망 '부정적' 하향…FOCF 대규모 적자 전망",
+   "u": "https://t.me/TNBfolio/71783"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "블룸버그",
+   "s": "S&P가 설비투자와 현금흐름 불확실성을 이유로 메타 신용등급 전망을 낮추면서 AA- 등급 강등 가능성이 열렸다",
+   "t": "S&P, 메타 신용등급 전망 '부정적'으로 하향",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p"
+  },
+  {
+   "d": "2026-11-01",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes는 워시 의장의 매파 기조가 크레딧 사이클을 당겼고 매출 1천억 달러인 AI 랩이 수조 달러 부채를 떠받치는 구조가 취약하다고 봤다",
+   "t": "크레딧 사이클 촉발은 워시 연준 매파, AI는 수익성 취약",
+   "u": "https://t.me/The_MariTimes/64154"
+  },
+  {
+   "d": "2026-11-01",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes가 미국 BDC 총 자산의 22%에 이르는 대출이 2.5년 안에 만기를 맞아 비중이 사상 최고라고 전하며 사모 신용 차환 부담을 짚었다",
+   "t": "미 BDC 대출 22%, 2.5년 내 만기 도래 사상 최고",
+   "u": "https://t.me/The_MariTimes/64156"
+  },
+  {
+   "d": "2026-11-01",
+   "o": "텔레그램 Polaristimes",
+   "s": "Polaristimes는 기술주와 전체 섹터 투자등급 스프레드 차이를 근거로 신용 스프레드 상승이 AI 하이퍼스케일러 쪽에서만 일어난다고 봤다",
+   "t": "미 기술주 투자등급 스프레드만 나 홀로 확대",
+   "u": "https://t.me/The_MariTimes/64157"
+  },
+  {
+   "d": "2026-11-01",
+   "o": "텔레그램 양파농장",
+   "s": "양파농장은 브로드컴·엔비디아 CDS 스프레드가 반년 새 170% 넘게 오르고 거래량이 1,900% 넘게 늘었다며 2008년과 비슷한 신용 경보라고 전했다",
+   "t": "월가 인기 거래 AI CDS…반도체 CDS 반년 170%↑",
+   "u": "https://t.me/Onionfarmer/18274"
+  },
+  {
+   "d": "2026-11-01",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "s": "메타가 AI 투자 부담으로 현금흐름이 악화하면서 신용등급 강등 경고를 받았다는 국내 보도가 전해졌다",
+   "t": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+   "u": "https://t.me/habit4117/87041"
+  },
+  {
+   "d": "2026-11-02",
+   "o": "텔레그램 습관이 부자를 만든다",
+   "s": "AI 인프라에 190조 원을 쏟는 메타의 현금 곳간이 비면서 S&P가 신용전망을 안정에서 부정으로 낮췄다는 보도가 나왔다",
+   "t": "AI 인프라 190조 원 메타, 평가사 신용 경고등",
+   "u": "https://t.me/habit4117/87067"
+  }
+ ],
+ "key": "mix-G2-001-2026-10-21",
+ "nodes": [
+  "macro/cb",
+  "macro/liquidity",
+  "macro/semis"
+ ],
+ "num": 702,
+ "one": "AI 차입 급증에 빅테크·반도체 CDS가 치솟고 메타·앤트로픽 신용등급 우려까지 번지며 AI 신용 경계가 커졌다\n· 9월 빅테크 7곳 CDS 주간 거래가 90억 달러를 넘어 7월 20억 달러 미만의 4배를 웃돌았다\n· 10월 20일 오라클 5년 CDS는 300bp를 넘었고 소프트뱅크 CDS는 432bp로 4년 만의 최고였다\n· 아마존 2분기 FCF는 -76억 달러였고 메타 5년물 CDS는 실적 뒤 약 119bp로 사상 최고를 찍었다\n· S&P는 10월 30일 메타 신용전망을 부정적으로 낮추고 2027년 FOCF 710억 달러 적자를 전망했다\n· 블랙스톤은 앤트로픽이 S-1 상장 뒤에도 BB 이상 투기등급을 받을 것으로 본다고 전했다\n· 채널은 반도체 CDS 스프레드가 반년 새 170% 넘게 오르고 거래량이 1,900% 늘었다고 전했다",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T06:23:00+09:00",
+ "source": "텔레그램",
+ "src": [
+  {
+   "d": "2026-10-20",
+   "o": "텔레그램 미국 주식 인사이더",
+   "u": "https://t.me/insidertracking/66751"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "Hedgeweek",
+   "u": "https://hedgeweek.com/news/ai-debt-concerns-fuel-surge-in-credit-default-swap-trading"
+  },
+  {
+   "d": "2026-10-20",
+   "o": "TokenPost",
+   "u": "https://www.tokenpost.com/news/investing/35979"
+  },
+  {
+   "d": "2026-10-26",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+  },
+  {
+   "d": "2026-10-27",
+   "o": "더VC코너",
+   "u": "https://www.thevccorner.com/p/anthropic-s1-ipo-filing"
+  },
+  {
+   "d": "2026-10-26",
+   "o": "SEC S-1",
+   "u": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "파이낸셜뉴스 영문",
+   "u": "https://en.fnnews.com/news/202610310323310117"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "BigGo Finance",
+   "u": "https://finance.biggo.com/news/0057d980-9d63-4d19-b7f3-0ecf07e6e7ad"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "Alpha Maven(Hedge Fund)",
+   "u": "https://alpha-maven.com/story/hedge-fund/ai-debt-concerns-fuel-surge-in-credit-default-swap-trading"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "Bloomingbit",
+   "u": "https://en.bloomingbit.io/feed/news/122651"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "Quartz",
+   "u": "https://qz.com/zuckerberg-meta-ai-spending-uncertainty-muse-wonder-101326"
+  },
+  {
+   "d": "2026-10-13",
+   "o": "The Next Web",
+   "u": "https://thenextweb.com/news/zuckerberg-200bn-ai-bet-doubt"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Edward Conard Macro Roundup",
+   "u": "https://www.edwardconard.com/macro-roundup/meta-credit-risk-gauge-surges-to-record-on-ai-spending-plans/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "Analytics Insight",
+   "u": "https://www.analyticsinsight.net/news/metas-ai-spending-raises-investor-concerns-despite-strong-revenue-growth"
+  },
+  {
+   "d": "2026-10-30",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+  },
+  {
+   "d": "2026-10-31",
+   "o": "The Star",
+   "u": "https://www.thestar.com.my/tech/tech-news/2026/10/31/sp-global-revises-outlook-on-meta-to-negative-on-cashflow-concerns"
+  }
+ ],
+ "tags": [],
+ "title": "AI 신용 경계 확산…빅테크 CDS 주 90억 달러·S&P 메타 전망 '부정적'·앤트로픽 투기등급 전망",
+ "updatedAt": "2026-11-02T16:13:50+09:00",
+ "url": "https://t.me/insidertracking/66751",
+ "vc": [
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "실제",
+   "node": "liquidity",
+   "t": "AI 빅테크 CDS 거래 7월의 4배·스프레드 급등"
+  },
+  {
+   "dir": "up",
+   "f": "공급",
+   "ind": "tech",
+   "k": "실제",
+   "node": "cloud",
+   "t": "전력 부족에 아마존 GB300 랙 창고 적재"
+  },
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "예상",
+   "node": "liquidity",
+   "t": "앤트로픽 투기등급 전망에 차입 비용 상승 우려"
+  },
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "실제",
+   "node": "liquidity",
+   "t": "AI 기업 CDS 스프레드·거래량 급증"
+  },
+  {
+   "dir": "up",
+   "f": "가격",
+   "ind": "macro",
+   "k": "예상",
+   "node": "cb",
+   "t": "워시 연준 매파 기조가 크레딧 사이클 촉발"
+  },
+  {
+   "dir": "down",
+   "f": "가격",
+   "ind": "tech",
+   "k": "실제",
+   "node": "platforms",
+   "t": "S&P 메타 신용전망 부정적으로 하향"
+  }
+ ],
+ "added": "합친 문서 4건 — 블랙스톤의 앤트로픽 투기등급 전망, S&P 메타 신용전망 부정적 하향·2027년 FOCF 710억 달러 적자, 반도체 CDS 170% 급등 전언이 추가됨",
+ "fed": [
+  {
+   "d": "2026-11-01",
+   "k": "Warsh",
+   "kind": "관련 뉴스",
+   "role": "의장",
+   "stance": "매파",
+   "t": "채널은 워시 의장의 잭슨홀·9월 FOMC 매파 스탠스가 크레딧 사이클을 촉발했다고 봤다",
+   "u": "https://t.me/The_MariTimes/64154",
+   "who": "케빈 워시"
+  }
+ ]
+}

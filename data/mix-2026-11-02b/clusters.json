@@ -1,0 +1,32 @@
+{
+ "clusters": [
+  {"cid": "G-001", "theme": "배터리·ESS 실적과 점유율", "field": "industrial", "attachTo": "", "core": ["포스코퓨처엠 3분기 영업익 821억 원, 컨센 192억 원 328% 상회", "파나소닉 연간 영업익 전망 5,900억→7,100억 엔 20% 상향(배터리·ESS)", "중국 배터리 점유율 73%·한국 배터리 3사 12%대로 하락", "선그로우, ESS 전망 낙관에 주가 급등"], "lines": [4, 17, 28, 41]},
+  {"cid": "G-002", "theme": "AI 거래 회의론", "field": "ai", "attachTo": "n-tg-0824", "core": ["하워드 막스 'AI 무결점 신화 깨져 회의론 확산은 건전'"], "lines": [36, 42]},
+  {"cid": "G-003", "theme": "미·이란 전쟁-루비오 외교 선호·선거 뒤 공습 대비", "field": "geo", "attachTo": "", "core": ["루비오 '트럼프 이란전 외교 해결 선호, 아직 결정 안 해'·WSJ·NYT 11월 3일 선거 뒤 공습 대비"], "lines": [33]},
+  {"cid": "G-004", "theme": "데이터센터 전력 부족", "field": "power", "attachTo": "n-bbg-0853", "core": ["모건스탠리 '미 전력 부족 70GW, 모든 대책 써도 43GW 부족'·가스터빈값 3배"], "lines": [14]},
+  {"cid": "G-005", "theme": "키옥시아 실적 정점 논란", "field": "semis", "attachTo": "n-bbg-0697", "core": ["키옥시아 '실적 정점' 논란에 도쿄 주가 15% 급락"], "lines": [15]},
+  {"cid": "G-006", "theme": "메모리 부족 스마트폰 출하 감소", "field": "tech", "attachTo": "n-rtr-0474", "core": ["3분기 세계 스마트폰 출하 20%↓…삼성 1위, 애플과 130만 대 차이"], "lines": [50]},
+  {"cid": "G-007", "theme": "미 중간선거와 시장", "field": "macro", "attachTo": "n-bbg-0885", "core": ["연합인포맥스 '미 중간선거, 시장에 세 가지 경로로 영향'"], "lines": [8]},
+  {"cid": "G-008", "theme": "유럽 가스 수급", "field": "energy", "attachTo": "n-tg-0761", "core": ["WSJ '미국, 러시아에 유럽 가스 판매 재개 압박'"], "lines": [34]},
+  {"cid": "G-009", "theme": "유가 전망", "field": "energy", "attachTo": "n-bbg-0854", "core": ["골드만, '상당한 공급 위험'에 유가 전망 상향"], "lines": [35]},
+  {"cid": "G-010", "theme": "정제마진 호황", "field": "energy", "attachTo": "n-bbg-0848", "core": ["릴라이언스, 이란전 정제마진 호황·실적 상회에 주가 9개월 최고"], "lines": [44]},
+  {"cid": "G-011", "theme": "일본 전력 가격 상승", "field": "power", "attachTo": "n-bbg-0413", "core": ["연료비 상승에 도쿄·주부 전력값 수년 만의 최고"], "lines": [51]},
+  {"cid": "G-012", "theme": "BYD 판매·실적", "field": "auto", "attachTo": "n-tg-0805", "core": ["BYD 10월 판매 6개월 연속 증가, 수출이 견인·주가 상승"], "lines": [71]},
+  {"cid": "G-013", "theme": "리튬 가격", "field": "metals", "attachTo": "n-tg-0766", "core": ["씨티, 배터리 수요 전망 악화에 리튬 가격 전망 하향"], "lines": [48]},
+  {"cid": "G-014", "theme": "대만 대중 반도체 수출통제 확대", "field": "semis", "attachTo": "", "core": ["대만, 대중 칩·소재·장비 수출통제 확대 추진·우회수출 최대 징역 10년"], "lines": [24]},
+  {"cid": "G-015", "theme": "일본 외환 구두 개입", "field": "macro", "attachTo": "", "core": ["가타야마 일본 재무상 '외환시장 안정 위해 대응 준비'"], "lines": [3]},
+  {"cid": "G-016", "theme": "일본 전환채권 발행 확대", "field": "macro", "attachTo": "", "core": ["일본, 화석연료 의존 비판에도 기후 전환채권 발행 연장"], "lines": [61]},
+  {"cid": "G-017", "theme": "중국 철강 감산 갈등", "field": "metals", "attachTo": "", "core": ["중국 철강협회, 감산 요구 무시한 제철소 공개 질타"], "lines": [47]},
+  {"cid": "G-018", "theme": "SK스퀘어 주주환원", "field": "tech", "attachTo": "", "core": ["SK스퀘어, 역대 최대 주주환원 최소 4조 3천억 원 발표"], "lines": [22]},
+  {"cid": "G-019", "theme": "호반, 한진칼 최대주주 등극", "field": "aero", "attachTo": "", "core": ["호반그룹 장내 매수로 한진칼 지분 조원태 측 20.6% 넘어 최대주주"], "lines": [56]},
+  {"cid": "G-020", "theme": "중국 초대형 광산 굴착기 인도 진출", "field": "trade", "attachTo": "", "core": ["중국 5,000톤급 굴착기 수출 확대, 인도 장비업계에 무역 분쟁 위험"], "lines": [23]}
+ ],
+ "drop": [
+  {"line": 2, "reason": "비미·일 증시 자금 흐름(10/30 지시)"},
+  {"line": 26, "reason": "비미·일 증시 자금 흐름(10/30 지시)"},
+  {"line": 27, "reason": "비미·일 증시(인도, 10/30 지시)"},
+  {"line": 20, "reason": "AI 자금 조달(데이터센터 대출)"},
+  {"line": 49, "reason": "긍정 AI 전력 제품 출시·중요도 낮음"},
+  {"line": 52, "reason": "중요도 낮음(AI 투자 조언 일반론)"}
+ ]
+}

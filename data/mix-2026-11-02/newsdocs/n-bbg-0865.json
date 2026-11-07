@@ -1,0 +1,50 @@
+{
+ "id": "n-bbg-0865",
+ "num": 865,
+ "key": "mix-G1-044-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T21:55:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/xi-urges-germany-to-maintain-pragmatic-policy-toward-china",
+ "origTitle": "",
+ "headline": "시진핑, 독일에 '실용적 대중 정책 유지' 촉구",
+ "src": [],
+ "items": [
+  {
+   "t": "시진핑, 독일에 실용적 대중 정책 유지 촉구",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/xi-urges-germany-to-maintain-pragmatic-policy-toward-china"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "시진핑, 독일에 '실용적 대중 정책 유지' 촉구",
+ "one": "시진핑 중국 국가주석이 독일에 실용적인 대중국 정책을 유지하라고 촉구했다\n· 유럽의 대중 견제 속에서 중국이 최대 교역 상대인 독일을 붙잡으려는 움직임으로 읽힌다 (제목 기준)",
+ "facts": [
+  "무엇이: 시진핑 주석이 독일에 대중국 정책을 실용적으로 유지하라고 촉구했다 [제목]",
+  "의미: 중·독 관계를 무역·외교 측면에서 묶어 두려는 메시지로 볼 수 있다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 안 함(한도). 블룸버그 제목만 근거.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "중국, 독일에 실용적 대중 정책 유지 요구"
+  }
+ ]
+}

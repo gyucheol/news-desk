@@ -1,0 +1,89 @@
+{
+ "basis": "title",
+ "check": "이번 글은 검색하지 않아 제목 기준. 기존 문서 사실은 그 문서 근거 유지.",
+ "cycles": [],
+ "facts": [
+  "무엇이: 트럼프와 손잡은 AI 업계가 중간선거에서 잃을 수 있고 빅테크는 선거 뒤 AI 규제 싸움에 대비한다 [제목]",
+  "정치자금: 데이터센터·일자리 우려로 여론이 나빠지자 AI 슈퍼팩들은 직접 지출의 5%만 본선 경합 지역에 썼고, 리딩더퓨처는 계열 단체를 통해 뉴욕 예비선거에서 830만 달러를 썼다 [사실]",
+  "여론: 데이터포프로그레스 조사에서 유권자 약 4분의 3이 AI 슈퍼팩 지원을 받은 후보를 덜 지지하게 된다고 답했다 [사실]",
+  "시장: 중간선거를 며칠 앞두고 AI 정책 위험이 주식·채권 트레이더에게 드리우고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 업계 중간선거 역풍 위험…AI 정책 리스크가 주식·채권 트레이더 압박",
+ "id": "n-bbg-0821",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "AI 업계가 트럼프와 손잡은 뒤 중간선거에서 정치적 입지를 잃을 수 있다는 분석이 나오면서 규제 환경 변화 위험이 커졌다 (제목 기준)",
+   "t": "트럼프와 손잡은 AI 업계, 중간선거에서 잃을 처지",
+   "u": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "빅테크가 중간선거 뒤 의회 구도 변화에 맞춰 AI 규제 싸움을 준비하면서 연방·주 단위 규제 공방이 다시 커질 수 있다 (제목 기준)",
+   "t": "빅테크, 미 중간선거 뒤 AI 규제 싸움 대비",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/big-tech-prepares-for-ai-regulation-fight-after-us-midterms"
+  },
+  {
+   "d": "2026-10-29",
+   "o": "블룸버그",
+   "s": "AI 업계가 트럼프에 크게 건 정치적 베팅이 중간선거 뒤 역효과를 낼 수 있다는 지적이 나오면서 업계의 정치 전략이 시험대에 올랐다 (제목 기준)",
+   "t": "트럼프에 건 AI 업계의 큰 베팅, 중간선거 뒤 역효과 위험",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-29/ai-s-big-bet-on-trump-risks-backfiring-after-the-midterms"
+  },
+  {
+   "t": "중간선거 앞두고 AI 정책 위험, 주식·채권 트레이더 압박",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away",
+   "s": "미국 중간선거를 며칠 앞두고 AI 정책 위험이 주식·채권 트레이더를 압박하면서 선거 결과가 AI 관련 자산 가격 변수로 떠올랐다 (제목 기준)"
+  }
+ ],
+ "key": "mix-G2-019-2026-10-30",
+ "nodes": [
+  "macro/semis"
+ ],
+ "num": 821,
+ "one": "미국 중간선거를 앞두고 AI 정책 위험이 업계와 금융시장 모두에 부담으로 떠올랐다\n· 트럼프 행정부와 밀착한 AI 업계가 중간선거 뒤 정치적 역풍을 맞을 수 있다는 분석이 나왔다\n· 빅테크는 중간선거 뒤 벌어질 AI 규제 싸움에 대비하고 있다\n· AI 슈퍼팩들은 데이터센터·일자리 반발 속에 본선 경합 지역 지출을 크게 줄였다\n· 유권자 약 4분의 3은 AI 슈퍼팩 지원을 받은 후보를 덜 지지한다는 여론조사가 나왔다\n· 선거를 며칠 앞두고 AI 정책 위험이 주식·채권 트레이더를 압박하고 있다 (제목 기준)",
+ "origTitle": "",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T20:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-29",
+   "o": "The Intercept",
+   "u": "https://theintercept.com/2026/10/29/midterms-election-money-ai-super-pac/"
+  },
+  {
+   "d": "2026-10",
+   "o": "Transformer",
+   "u": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+  }
+ ],
+ "tags": [],
+ "title": "AI 업계 중간선거 역풍 위험…AI 정책 리스크가 주식·채권 트레이더 압박",
+ "updatedAt": "2026-11-02T10:30:37+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "semis",
+   "f": "가격",
+   "dir": "down",
+   "k": "예상",
+   "t": "중간선거 앞 AI 정책 위험이 주식·채권 압박"
+  }
+ ],
+ "added": "블룸버그 1건 — 중간선거를 며칠 앞두고 AI 정책 위험이 주식·채권 트레이더를 압박한다는 내용이 추가됨 (제목 기준)",
+ "ind": "semis"
+}

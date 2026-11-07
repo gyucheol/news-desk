@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0875",
+ "num": 875,
+ "key": "mix-G1-056-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T18:49:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/tesco-strikes-deal-to-sell-czech-slovakia-unit-for-1-7-billion",
+ "origTitle": "",
+ "headline": "테스코, 체코·슬로바키아 사업 17억 유로에 아홀드델하이즈 매각…영국·아일랜드 집중",
+ "src": [
+  {
+   "o": "Retail Gazette",
+   "d": "2026-10-30",
+   "u": "https://www.retailgazette.co.uk/blog/2026/10/tesco-agrees-e1-7bn/"
+  },
+  {
+   "o": "Euronext",
+   "d": "2026-10-30",
+   "u": "https://live.euronext.com/en/financial-news/tesco-sell-czech-slovak-businesses-ahold-delhaize-19-billion-deal"
+  }
+ ],
+ "items": [
+  {
+   "t": "테스코, 체코·슬로바키아 사업 17억 매각 합의",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/tesco-strikes-deal-to-sell-czech-slovakia-unit-for-1-7-billion"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "테스코, 체코·슬로바키아 사업 17억 유로에 아홀드델하이즈 매각…영국·아일랜드 집중",
+ "one": "테스코가 체코·슬로바키아 사업을 기업가치 17억 유로에 아홀드델하이즈에 팔기로 했다\n· 테스코는 세전 순현금 약 12억 유로를 받아 대부분을 자사주 매입으로 돌려줄 계획이다\n· 헝가리 사업은 빠졌고 거래는 2027년 하반기 마무리될 예정이다",
+ "facts": [
+  "무엇이: 테스코는 10월 30일 체코·슬로바키아의 모든 매장·사무실과 물류센터를 기업가치 17억 유로(약 19억 달러)에 아홀드델하이즈에 매각하기로 했다 [사실]",
+  "자금·일정: 세전 순현금 약 12억 유로 대부분을 자사주 매입으로 환원하고, 경쟁당국 승인을 거쳐 2027년 하반기 완료를 목표로 한다 [사실]",
+  "전략: 헝가리 사업은 매각에서 빠졌고 테스코는 영국·아일랜드 핵심 사업에 집중한다고 밝혔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "매각가는 17억 달러가 아니라 17억 유로로 검색 결과 요약에서 확인(블룸버그 제목은 달러 표기)",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "retail",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "테스코 체코·슬로바키아 사업 아홀드델하이즈에 매각"
+  }
+ ]
+}

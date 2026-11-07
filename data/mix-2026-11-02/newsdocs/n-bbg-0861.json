@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0861",
+ "num": 861,
+ "key": "mix-G1-039-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T21:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/ather-outruns-jio-as-india-s-electric-scooter-boom-accelerates",
+ "origTitle": "",
+ "headline": "인도 전기 스쿠터 붐…아더, 지오 앞질러·첫 분기 흑자",
+ "src": [
+  {
+   "o": "Forbes India",
+   "d": "2026-10-30",
+   "u": "https://www.forbesindia.com/article/business/automobile/ather-energy-posts-first-profit-as-ev-demand-outstrips-supply/2999852/1"
+  },
+  {
+   "o": "evelectree",
+   "d": "2026-11-01",
+   "u": "https://evelectree.com/article/two-wheeler-ev-sales-in-october-2026-tvs-leads-hero-gains-ground-1335"
+  }
+ ],
+ "items": [
+  {
+   "t": "아더, 인도 전기 스쿠터 붐 가속 속 지오 앞질러",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-30/ather-outruns-jio-as-india-s-electric-scooter-boom-accelerates"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "auto"
+ ],
+ "nodes": [],
+ "title": "인도 전기 스쿠터 붐…아더, 지오 앞질러·첫 분기 흑자",
+ "one": "인도 전기 스쿠터 수요가 커지면서 아더 에너지가 지오를 앞질렀다는 분석이 나왔다\n· 아더는 9월 분기에 인도 독립 전기차 업체로는 처음 흑자를 냈고 수요가 공급을 웃돈다고 했다\n· 10월 등록 대수 기준 아더는 3만 1,796대로 TVS·바자즈에 이어 3위였다",
+ "facts": [
+  "무엇이: 블룸버그는 인도 전기 스쿠터 붐 속 아더가 지오를 앞질렀다고 전했다 [제목]",
+  "실적: 아더 에너지는 9월 분기 순이익 1억 2,600만 루피로 첫 흑자를 냈고, CEO는 전기차 수요가 공급을 웃돈다고 했다 [사실]",
+  "점유: 바한 자료로 10월 전기 이륜차 등록은 TVS 6만 429대, 바자즈 4만 9,067대, 아더 3만 1,796대 순이었고 아더 점유율은 14.83%에서 14.20%로 낮아졌다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "아더 첫 흑자·10월 등록 순위는 검색 결과 요약으로 확인. '지오를 앞질렀다'는 내용은 확인 못 함(제목 기준).",
+ "vc": [
+  {
+   "ind": "auto",
+   "node": "sales",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "인도 전기 스쿠터 수요가 공급 웃돌아"
+  }
+ ]
+}

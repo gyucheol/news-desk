@@ -1,0 +1,78 @@
+{
+ "id": "n-tg-0847",
+ "num": 847,
+ "key": "mix-G1-047-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "텔레그램",
+ "processed": "2026-11-02",
+ "published": "2026-11-02T00:35:00+09:00",
+ "url": "https://t.me/The_MariTimes/64162",
+ "origTitle": "",
+ "headline": "트럼프 정부, 중간선거 패배 대비 의회 없이 광물·풍력터빈 관세·비자 강화 추진 방안",
+ "src": [
+  {
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-11-02",
+   "u": "https://t.me/The_MariTimes/64162"
+  },
+  {
+   "o": "GV Wire",
+   "d": "2026-11-01",
+   "u": "https://gvwire.com/2026/11/01/trump-white-house-maps-path-to-govern-without-congress-if-democrats-win"
+  },
+  {
+   "o": "The Standard",
+   "d": "2026-11-01",
+   "u": "https://www.thestandard.com.hk/world/article/347179/Trump-White-House-maps-path-to-govern-without-Congress-if-Democrats-win"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 정부, 선거 패배 시 의회 없이 관세·비자 강화 추진 방안",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-11-02",
+   "u": "https://t.me/The_MariTimes/64162"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro",
+  "power"
+ ],
+ "nodes": [
+  "macro/geo",
+  "power/wind"
+ ],
+ "channel": "Polaristimes",
+ "title": "트럼프 정부, 중간선거 패배 대비 의회 없이 광물·풍력터빈 관세·비자 강화 추진 방안",
+ "one": "트럼프 정부가 중간선거에서 지면 의회 승인 없이 국정을 운영할 방안을 4월부터 준비해 왔다\n· 핵심 광물과 풍력터빈 수입 추가 관세, 유학생·임시 외국인 근로자 비자 강화가 검토 대상이다\n· 주택·건설 비용 인하 조치와 이미 배정된 예산 활용도 함께 거론된다",
+ "facts": [
+  "무엇이: 로이터는 백악관이 중간선거에서 민주당이 의회를 장악하면 행정 조치로 국정을 이어 갈 방안을 수개월째 준비해 왔다고 보도했다 [사실]",
+  "내용: 핵심 광물·풍력터빈 수입 추가 관세, 유학생·임시 외국인 근로자 비자 강화, 주택·건설 비용 인하 조치가 포함되며 보트 예산국장은 이미 배정된 예산 활용을 검토한다 [사실]",
+  "주체: 4월부터 스티븐 밀러, 러셀 보트, 윌 샤프 법률고문이 주도했고, 트럼프는 한두 달 거부권을 행사한 뒤 타협할 수 있다고 했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(로이터 보도를 전한 GV Wire 등)으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "핵심 광물 수입 추가 관세 검토"
+  },
+  {
+   "ind": "power",
+   "node": "wind",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "풍력터빈 수입 추가 관세 검토"
+  }
+ ]
+}

@@ -6,7 +6,9 @@ import json, glob, os, re, sys
 CAND, DUMP = sys.argv[1], sys.argv[2]
 NAME = {'HANAchina': '하나증권 중국전략', 'Trillion_labs': '트릴리온', 'The_MariTimes': 'Polaristimes', 'insidertracking': '미국 주식 인사이더',
         'Badonions': '나쁜양파', 'PipeBeom': '상상인 김진범', 'w_compass': '부의 나침반', 'TNBfolio': 'TNBfolio', 'Onionfarmer': '양파농장',
-        'cahier_de_market': '카이에 de market', 'kkkontemp': 'KK Kontemporaries'}
+        'cahier_de_market': '카이에 de market', 'kkkontemp': 'KK Kontemporaries',
+        'stockhasoo': '재야의 괴수들', 'verteinsight': 'Verte Research', 'habit4117': '습관이 부자를 만든다',
+        'sunstudy1111': '선진짱 주식공부방', 'kyobofnbcosmetic': '교보 음식료/화장품 권우정'}
 posts = {}
 for p in glob.glob(f'{DUMP}/**/*.jsonl', recursive=True):
     ch = os.path.basename(p)[:-6]

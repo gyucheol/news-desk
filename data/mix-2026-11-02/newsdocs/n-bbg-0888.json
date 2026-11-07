@@ -1,0 +1,55 @@
+{
+ "id": "n-bbg-0888",
+ "num": 888,
+ "key": "mix-G2-024-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-10-30T21:15:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-30/meta-investigated-by-uk-over-alleged-harm-caused-in-commercial-small-print",
+ "origTitle": "",
+ "headline": "영국 CMA, 메타 상업 약관 경쟁법 조사 착수…콘텐츠 무단 AI 활용·불공정 조건 의혹",
+ "src": [
+  {
+   "o": "GOV.UK CMA",
+   "d": "2026-10-30",
+   "u": "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2"
+  }
+ ],
+ "items": [
+  {
+   "t": "영국, 메타 상업 약관 깨알 조항 피해 혐의 조사",
+   "o": "블룸버그",
+   "d": "2026-10-30",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-30/meta-investigated-by-uk-over-alleged-harm-caused-in-commercial-small-print"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "영국 CMA, 메타 상업 약관 경쟁법 조사 착수…콘텐츠 무단 AI 활용·불공정 조건 의혹",
+ "one": "영국 경쟁시장청이 메타의 기업용 약관이 지배적 지위 남용인지 정식 조사에 들어갔다\n· CMA는 약관이 언론사 등 사업자 콘텐츠를 AI 기능에 선택권 없이 쓰게 하는지 들여다본다\n· 메타는 11월 20일 시행하려던 새 약관을 보류했고 개입 근거가 없다는 입장이다",
+ "facts": [
+  "무엇이: 영국 CMA는 10월 30일 경쟁법(1998년)에 따라 메타의 상업 약관이 수천 개 영국 사업자에게 불공정 거래 조건을 강요하는지 정식 조사를 시작했다 [사실]",
+  "쟁점: 약관이 언론사·콘텐츠 사업자 웹사이트 콘텐츠를 수집해 AI 기능 등 자사 제품에 선택권 없이 쓰게 할 수 있다는 우려이며, 위법 여부는 아직 판단하지 않았다 [사실]",
+  "메타·일정: 메타는 11월 20일 시행 예정이던 새 약관을 보류했고 개입 근거가 없다고 밝혔으며, 1단계 조사는 2026년 10월~2027년 1월로 제시됐다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "CMA 조사 착수와 쟁점은 검색 결과 요약(GOV.UK 발표 포함)으로 확인",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "영국 CMA 메타 상업 약관 경쟁법 조사 착수"
+  }
+ ]
+}

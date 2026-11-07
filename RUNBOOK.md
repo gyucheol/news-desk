@@ -15,10 +15,14 @@
 
 ## 1. 텔레그램 (이 세션에서 직접 수집 — 토큰 최소)
 
-채널 8개(2026-10-30 사용자 지시 — 앞으로 이 채널만): stockhasoo(재야의 괴수들), TNBfolio, w_compass(부의 나침반),
-The_MariTimes(카드 표기 Polaristimes), sunstudy1111(선진짱 주식공부방), Trillion_labs(트릴리온), verteinsight(Verte Research), habit4117(습관이 부자를 만든다)
-- sunstudy1111은 웹 미리보기(t.me/s)가 막혀 있고 embed도 'Please open Telegram to view this post'만 나와 글 내용을 읽을 수 없음(2026-10-30 확인). 사용자가 글을 붙여 주면 처리.
-- 예전 채널(Onionfarmer, insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions)은 받지 않음.
+채널 9개(2026-11-02 사용자 지시 — 앞으로 이 채널만): habit4117(습관이 부자를 만든다), w_compass(부의 나침반),
+sunstudy1111(선진짱 주식공부방), The_MariTimes(카드 표기 Polaristimes), Onionfarmer(양파농장), TNBfolio,
+kyobofnbcosmetic(교보 음식료/화장품 권우정), stockhasoo(재야의 괴수들), Trillion_labs(트릴리온)
+- 10월 30일 목록에서 verteinsight는 빠지고 Onionfarmer가 다시 들어오고 kyobofnbcosmetic이 새로 들어옴.
+- 뉴스가 아닌 정보형 글(리포트·코멘트 요약, 업황·통계 정리, 산업 구조 설명, 탐방·IR 메모)도 받아 요약함(규칙 36).
+- 화장품(beauty) 섹터를 거르기·묶기·작성 분야에 넣음(규칙 37). 산업 페이지 chains/beauty와 데스크 '화장품' 칩은 원래 있음.
+- sunstudy1111은 웹 미리보기(t.me/s)가 302로 막혀 있고 embed도 'Please open Telegram to view this post'만 나와 글 내용을 읽을 수 없음(2026-10-30, 2026-11-02 확인). 사용자가 글을 붙여 주면 처리.
+- 예전 채널(insidertracking, HANAchina, cahier_de_market, PipeBeom, kkkontemp, Badonions, verteinsight)은 받지 않음.
 
 ```
 python3 tools/tgcollect.py new  <채널> <시작id>              # 새 글
@@ -30,7 +34,11 @@ python3 tools/tgcollect.py find <채널> 2026-08-15T00:00       # 날짜로 시�
 - w_compass: 2026-10-04 추가. 8월 15일 소급 시작 id 6641(08-15 17:50 KST), 당시 최신 7171.
   사용자 지시로 다른 산업 채널과 같이 8월 15일분부터 소급한다.
 
-## 2. 블룸버그·로이터 (목록은 이 세션, 본문은 Chrome의 Claude 확장)
+## 2. 블룸버그 (목록은 이 세션) — 로이터는 2026-11-02 사용자 지시로 받지 않음(규칙 38)
+
+블룸버그 목록은 latest.xml만으로는 빠지는 날이 있어 월별 사이트맵(https://www.bloomberg.com/sitemaps/news/YYYY-M.xml)과 합쳐 받는다(제목이 없으면 주소 끝으로 제목).
+
+### (예전 절차)
 
 1. 이 세션에서 제목 목록만 받는다(본문은 블룸버그 403, 로이터 401로 막힘).
    ```
@@ -47,3 +55,14 @@ python3 tools/tgcollect.py find <채널> 2026-08-15T00:00       # 날짜로 시�
 ## 3. 저장
 
 ArtifactData batch: news 신규는 if_version 없이, meta/progressV4·newsSeen은 방금 읽은 버전을 if_version으로.
+
+## 4. 웹 보기판 갱신 (회차 저장 뒤마다, 2026-11-02 사용자 허락)
+
+1. DB 사본(news·chains·meta)과 읽음 기록(ArtifactData get collection=data/users/me doc_id=reads)을 받은 뒤
+   `python3 -I tools/site/build.py work/liveN work/site <reads.json>` — 그 시점에 읽은 뉴스는 읽음으로, '안 읽은 것만'이 켜진 채로 시작(2026-11-02 사용자 요청)
+2. gh-pages 브랜치(사이트 파일만 있음)에 work/site/ 내용을 그대로 덮어 커밋·푸시:
+   `git worktree add <임시폴더> gh-pages && cp -r work/site/. <임시폴더>/ && (cd <임시폴더> && git add -A && git commit -m "웹 보기판 갱신" && git push origin gh-pages)`
+3. 주소: https://gyucheol.github.io/news-desk/ (공개 저장소라 주소를 아는 사람은 누구나 볼 수 있음, noindex)
+4. 웹에서 읽음 처리한 것을 Claude 데스크에 반영(2026-11-02 사용자 요청): 사용자가 사이트의 'Claude에 보낼 읽음 기록 복사'로 '웹 읽음 N건: id …'를 붙여 주면
+   reads를 받아(get data/users/me/reads, 버전 기억) `python3 -I tools/site/apply_reads.py <reads.json> <붙인 글.txt> <out.json>` → ArtifactData update(if_version) → 사이트 다시 만들기(1~2).
+   붙여 준 id는 지금 시각으로 넣으므로 그 뒤 기사가 더해지면(updatedAt이 더 나중) 다시 안 읽음이 됩니다(데스크와 같은 규칙).

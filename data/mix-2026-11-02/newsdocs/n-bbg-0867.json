@@ -1,0 +1,62 @@
+{
+ "id": "n-bbg-0867",
+ "num": 867,
+ "key": "mix-G1-046-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-01T12:33:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-01/china-s-upgraded-peru-trade-deal-takes-effect-widening-ties",
+ "origTitle": "",
+ "headline": "중국-페루 개정 FTA 11월 1일 발효…12개 장 손질, 양국 교역 504억 달러로 확대",
+ "src": [
+  {
+   "o": "Xinhua",
+   "d": "2026-11-01",
+   "u": "https://english.news.cn/20261101/88362012adda403fb7a588b6b956e332/c.html"
+  },
+  {
+   "o": "Latin Times",
+   "d": "2026-11-01",
+   "u": "https://www.latintimes.com/peru-china-trade-agreement-update-new-rules-600691"
+  }
+ ],
+ "items": [
+  {
+   "t": "중국-페루 개정 무역협정 발효, 양국 관계 확대",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-01/china-s-upgraded-peru-trade-deal-takes-effect-widening-ties"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "중국-페루 개정 FTA 11월 1일 발효…12개 장 손질, 양국 교역 504억 달러로 확대",
+ "one": "중국과 페루가 2009년 FTA를 고친 개정 의정서를 11월 1일 발효해 교역 관계를 넓혔다\n· 원산지·통관·서비스·투자 등 7개 장을 고치고 전자상거래·공급망 등 5개 장을 새로 넣었다\n· 광범위한 추가 관세 인하는 없고 양국 교역은 2025년 504억 달러로 커졌다",
+ "facts": [
+  "무엇이: 중국-페루 FTA 개정 의정서가 11월 1일 발효됐으며, 2018년 11월 협상을 시작해 2024년 11월 14일 서명했다 [사실]",
+  "내용: 원산지 규정·통관·위생검역·지식재산·서비스 교역·인력 이동·투자 등 7개 장을 개정하고 표준·경쟁·전자상거래·글로벌 공급망·환경 5개 장을 새로 넣었으며, 2년 안에 서비스·투자 네거티브 리스트 협상을 시작한다 [사실]",
+  "교역: 양국 교역은 2009년 64억 달러에서 2025년 504억 달러로 늘었고, 이번 개정에는 광범위한 신규 관세 인하가 없다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "발효일·개정 범위·교역 규모는 검색 결과 요약으로 확인",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "중국-페루 개정 FTA 발효로 교역 확대"
+  }
+ ]
+}

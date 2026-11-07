@@ -1,0 +1,61 @@
+{
+ "id": "n-bbg-0864",
+ "num": 864,
+ "key": "mix-G1-043-2026-11-02",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-02",
+ "published": "2026-11-01T01:21:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-31/trump-s-board-of-peace-petitions-italy-for-gaza-police-support",
+ "origTitle": "",
+ "headline": "트럼프 '평화위원회', 이탈리아에 가자 경찰·카라비니에리 지원 요청",
+ "src": [
+  {
+   "o": "ua.news",
+   "d": "2026-10-31",
+   "u": "https://ua.news/en/world/rada-miru-trampa-poprosila-italiiu-pidtrimati-sili-bezpeki-gazi-asharq-al-awsat"
+  },
+  {
+   "o": "Secolo d'Italia",
+   "d": "2026-10-31",
+   "u": "https://www.secoloditalia.it/2026/10/gaza-trump-punta-sui-carabinieri-italiani-per-la-sicurezza-ha-chiesto-a-meloni-un-ufficiale-ai-vertici-della-nuova-polizia/"
+  }
+ ],
+ "items": [
+  {
+   "t": "트럼프 평화위원회, 이탈리아에 가자 경찰 지원 요청",
+   "o": "블룸버그",
+   "d": "2026-11-01",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-31/trump-s-board-of-peace-petitions-italy-for-gaza-police-support"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "트럼프 '평화위원회', 이탈리아에 가자 경찰·카라비니에리 지원 요청",
+ "one": "트럼프 대통령이 이끄는 가자 평화위원회가 이탈리아에 가자 치안 병력 지원을 요청했다\n· 위원회는 서한으로 경찰·소방·카라비니에리 자문관과 경찰 프로그램 부책임자를 맡을 고위 장교를 요청했다\n· 이탈리아는 고위 장교 파견을 검토하지만 안보 우려로 결정을 미루고 있다",
+ "facts": [
+  "무엇이: 평화위원회는 이탈리아에 경찰·소방·카라비니에리 자문관과 경찰 프로그램 부책임자를 맡을 카라비니에리 고위 장교 지명을 요청했다 [사실]",
+  "이탈리아 입장: 이탈리아는 고위 장교 임명을 검토하지만 안보 우려로 결정이 늦어지고 있으며, 멜로니 총리는 올해 초 헌법 제약을 들어 평화위원회 헌장 서명을 거절했다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "검색 결과 요약(ua.news·Secolo d'Italia 등)으로 요청 내용과 이탈리아 검토 상황 확인.",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "평화위원회 이탈리아에 가자 치안 지원 요청"
+  }
+ ]
+}

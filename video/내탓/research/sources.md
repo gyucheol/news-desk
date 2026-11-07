@@ -25,11 +25,12 @@
 - 칭화대 연설: 2015년 6월 27일 베이징 칭화대 경제관리학원 졸업 연설에서 "No one won more hearts than my beloved husband Dave Goldberg who passed away suddenly two months ago."라고 언급(칭화대 경제관리학원 소식, TIME 2015-06-28·29, Poets&Quants 2015-06-29). 그래서 버클리 연설은 '남편의 죽음을 처음 언급한 연설'이 아니라 '죽음에서 배운 것(슬픔과 회복)을 처음 길게 털어놓은 연설'.
 - '처음'에 대한 메모: TIME(2016-05-14)은 "has written Facebook posts about the loss of her husband, but has not yet spoken publicly about his death."라고 씀. Entrepreneur(2015-06-03)에 실린 2015년 6월 페이스북 글(사후 30일)에 이미 Option B와 3P가 나옴(그 글에서는 3P를 애덤 그랜트에게서 배웠다고 씀).
 - 사실 메모: 데이브 골드버그는 서베이몽키 CEO였음(창업자 아님). 사망일은 원고 기준 역산 2015년 5월 1일.
+- 최종 보고서에서 더한 메모: 장소는 원고에 없고 버클리 뉴스 예고 기사(2016-05-09)에 캘리포니아 메모리얼 스타디움으로 나옴. 원고의 'poured over'는 'pored over'의 오타라 영어로 띄울 때는 [sic]을 붙임(대본에는 영어로 쓰지 않음). 2015년 보도에는 데이브를 처음 발견한 사람이 남편의 형제 롭이라는 내용이 있음(검증자 메모, 직접 확인하지 않음). 대본은 '쓰러진 채 발견된'으로 써서 누가 발견했는지 말하지 않음. 책 『Option B』의 같은 일화는 '2주 뒤', 'father-child activity'로 세부가 다르다고 함(보고서 메모, 직접 확인하지 않음). 대본은 연설을 따름.
 
 ## 2. 논문
 
 1. Abramson, Seligman, & Teasdale (1978). Journal of Abnormal Psychology, 87(1), 49-74. [초록] 원인을 안정/불안정, 전반/특수, 내부/외부로 나누고, 고른 귀인이 앞으로의 무기력이 오래갈지(만성/급성), 넓을지(넓음/좁음), 자존감을 낮출지를 좌우한다고 봄.
-2. Metalsky, Abramson, Seligman, Semmel, & Peterson (1982). JPSP, 43(3), 612-617. [초록] 앞서 잰 귀인 양식이 중간고사 낮은 점수 뒤의 우울한 기분 반응을 예측. 내부 또는 전반 양식은 반응이 있고, 외부 또는 특수 양식은 반응이 없음. 안정성은 관련 없음. 높은 점수에서는 예측 안 됨. Peterson & Seligman(1984)의 소개: 스토니브룩 학생, 기대보다 낮은 점수를 받은 53명, 내부 r=.34, 전반 r=.32, 안정 r=.04.
+2. Metalsky, Abramson, Seligman, Semmel, & Peterson (1982). JPSP, 43(3), 612-617. [초록] 앞서 잰 귀인 양식이 중간고사 낮은 점수 뒤의 우울한 기분 반응을 예측. 내부 또는 전반 양식은 반응이 있고, 외부 또는 특수 양식은 반응이 없음. 안정성은 관련 없음. 높은 점수에서는 예측 안 됨. Peterson & Seligman(1984) 연구 7의 소개 [전문]: 스토니브룩 심리학 개론 수강생. 1차 때 귀인 양식 질문지(ASQ)와 함께 어떤 성적이면 기쁘고 어떤 성적이면 속상할지 적음. 11일 뒤 시험 직전, 다시 5일 뒤 성적을 받은 직후 우울한 기분(MAACL)을 잼. "Subjects were considered to have received a low grade if their midterm grade was less than or equal to the grade with which they said they would be unhappy (n = 53)." 이 53명에서 내부 r=.34, 전반 r=.32(p<.02), 안정 r=.04(유의하지 않음). 높은 성적 28명에서는 유의하지 않음. (처음 이 기록에 쓴 '기대보다 낮은 점수'는 이 기준과 달라 고침.)
 3. Peterson & Seligman (1984). Psychological Review, 91(3), 347-374. [전문] "the depressive explanatory style, in which one tends to give internal, stable, and global explanations for bad events (it's me; it's going to last forever; and it's going to affect everything I do)". 위험 요인("just as smoking is a risk factor for lung cancer")이지 충분조건은 아님. 펜실베이니아대 학생 143명에서 우울 증상과의 상관: 내부 .41, 안정 .34, 전반 .35.
 4. Sweeney, Anderson, & Bailey (1986). JPSP, 50(5), 974-991. [초록] 104개 연구, 약 15,000명. 나쁜 일을 내부·안정·전반 원인으로 돌리는 것과 우울의 믿을 만한 관련.
 5. Huang (2015). Cognitive Therapy and Research, 39(6), 721-735. [초록] 종단 연구 52편, 12,594명. 중간 크기의 상관, 처음 우울을 통제하면 β=.10으로 작음. (대본에서 '원인'이라고 쓰지 않은 근거)
@@ -49,3 +50,20 @@
 ## 4. MBTI 메모 (추론)
 
 - INFJ 유형 설명은 흔히 "Want to understand what motivates people and are insightful about others" 같은 문장으로 소개됨(대학 진로센터 유형 설명). INFJ가 더 자책한다는 연구는 찾지 못함.
+
+## 5. 딥리서치 최종 보고서와 대조 (2026-11-07)
+
+- 규모: 출처 24곳, 주장 118건 추출, 그 가운데 25건을 검증자 셋이 따로 확인(통과 20, 기각 5). 실천 방법, 관계 갈등 귀인, 국내 자료는 검증까지 가지 못함.
+- 통과해서 대본과 맞는 것: 연설 날짜와 '1년 13일 전', 3P 첫 문장(원고와 엠대시까지 같음), 개인화는 책임과 다르다는 문장, Option B 일화(몇 주 뒤, 친구 필, father-son activity), 근육 문장이 맺음말(원고 6쪽)에 있다는 것, 1978년 이론의 세 차원(오래갈지, 넓을지, 자존감), Peterson & Seligman(1984)의 '위험 요인'(흡연과 폐암의 비유), Sweeney 외(1986) 104개 연구.
+- 기각된 5건(모두 대본에 쓰지 않은 내용)
+  1. "근육 문장 바로 뒤에 'Class of 2016…'이 온다": 사이에 "In that process you will figure out who you really are—and you just might become the very best version of yourself."가 있음. 'Like a muscle'은 준비 원고 표현.
+  2. "'공개 연설로는 처음'이라고 쓰면 안전하다": 2015-06-27 칭화대 연설이 반례. 날짜, 기사 문구("spoke publicly for the first time"), 청중 규모("some 4,700 graduating seniors and another 20,000-plus friends and family members")는 맞다고 확인됨.
+  3. "Peterson & Seligman(1984)에서 내부 차원을 덜 중시하는 대목은 두 곳뿐": 더 있음. p.361 종단 연구 요약(Golin 외 1981은 안정·전반만 인과적 우선성, 내부는 없음), p.366 실험실 연구 요약("The internal-external dimension, when manipulated, appears to govern self-esteem deficits"). 이 주장에 든 수치(연구 1: 펜실베이니아대 143명, 내부 .41, 안정 .34, 전반 .35, 합산 .48 / 연구 7: 낮은 성적 53명, 내부 .34, 안정 .04, 전반 .32)는 세 검증자 모두 원문과 같다고 확인.
+  4. "1978 논문은 내부 차원이 자존감만 정한다고 못 박았다": 같은 논문이 내부 귀인이 우울한 기분의 세기도 키울 수 있다고 씀("intensity of depressed affect may depend on whether the person views his helplessness as universal or personal"). 대본은 "특히 … 자존감까지 떨어지기 쉽다"고만 씀.
+  5. "1978 논문의 취약성 절이 Rizley 등 초기 연구를 근거로 들었다": 그 연구들은 앞 절(Inadequacy 3)에 있고, 이미 우울한 사람을 한 시점에서 본 연구임.
+- 대본과 관련된 보고서 주의 사항
+  - Huang(2015)의 '중간 크기 상관'은 2대 1로 통과. 처음 우울을 통제하면 β=.10. Hazzard 외(2023) 우산 리뷰가 이 메타분석의 방법 품질과 근거 확실성을 매우 낮게 평가했다고 함(검증자 메모, 직접 확인하지 않음). 대본에는 Huang을 쓰지 않음.
+  - 절망감 이론(Abramson, Metalsky, & Alloy, 1989, Psychological Review, 96(2), 358-372)은 절망감으로 가는 길에서 안정·전반 귀인을 핵심으로 두고 내부 귀인을 핵심 조건에서 뺌. 그래도 '내 탓 하나는 덜 해롭다'는 실증 수치는 확인되지 않음. 대본은 이 비교를 말하지 않음.
+  - 3P라는 이름은 1978·1984 논문에 없음. 『Learned Optimism』(1990)이 기원이라는 것은 2차 자료로만 확인.
+- 보고서가 검증하지 못한 부분은 이 기록의 직접 확인에 기댐: 실천 대목은 2장(Anderson 1983 초록, Breines & Chen 2012 전문, Wilson & Linville 1982 전문, Janoff-Bulman 1979 초록), 국내 자료는 3장.
+- 이 대조로 고친 곳: 성적표 연구의 '낮은 점수' 기준(2장 2번), 1978년 이론의 자존감 표현('무너지기' -> '떨어지기'). 자세한 것은 대본_v1.md 9장 끝.

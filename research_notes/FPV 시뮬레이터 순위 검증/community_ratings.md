@@ -71,7 +71,7 @@ The histogram columns (all-time and Jan 1–Nov 11) sum all languages. "Not show
   - ₩6,700; Early Access since 2023-12-15.
   - English: 82% of 2,488. All languages: 86% of 12,372 (매우 긍정적).
   - Recent: 85% of 138. 2026 so far: 82.4% of 2,749.
-  - It has the **largest review count of any dedicated drone title** checked.
+  - It has the **second-largest review count among dedicated drone titles** checked: 13,728 in the all-language histogram, behind Liftoff's 14,231.
 - [The Zone – FPV Drone Simulator (3491280)](https://store.steampowered.com/app/3491280/)
   - Developer Nils Vollenbruch; Early Access since 2025-03-07; ₩15,500.
   - All languages: **97% of 487**. Recent: 98% of 56. 2026 so far: 97.3% of 413.
@@ -146,7 +146,7 @@ In Korea's DCInside FPV gallery, 2026 beginners mostly start on **Liftoff**, the
 - **QuadFlyer68** (Jan 17, 2026), on DRL: "it fails to "connect to server". Oh joy - they pulled the plug."
 - **BadRaven** (Jan 17, 2026):
   - "Prefer Uncrashed for 4" up"
-  - On Tiny Whoop GO: after it "was changed to enforced career and half the sites I'd got (inc bought ones ) suddenly became barred till I "progressed" to them … I lost interest and cannot recommend, shame."
+  - On what he calls "Mr Whoop Jesse's Whoop Go" (apparently Tiny Whoop GO): after it "was changed to enforced career and half the sites I'd got (inc bought ones ) suddenly became barred till I "progressed" to them … I lost interest and cannot recommend, shame."
   - "Do not like DRL's physics, IMO very unrealistic." / "Like Velocidrone even less."
 
 "DRL vs LiftOff vs Uncrashed" (Jun–Aug 2024; listed at 21,107 views) — [IntoFPV](https://intofpv.com/t-drl-vs-liftoff-vs-uncrashed)
@@ -200,6 +200,7 @@ The only "poll" found is old and tiny. An IntoFPV event poll, "Which simulator d
 - **RCGroups:** no relevant threads surfaced in search, and none were read.
 - **Naver cafes** were not reached; they are typically login-gated. I found no 2026 Korean poll.
 - I found **no large-sample poll** (hundreds of votes or more) of which sim pilots use. The only polls found had 1–9 votes.
+- I found no official or news confirmation of *why* DRL's servers went down. User reviews report a 503 error from api.drlgame.com since about Dec 17–18, 2025, and one claims the "Company closed". A web search on 2026-11-11 returned no shutdown news.
 
 ## Q3. Common complaints and praise per simulator
 
@@ -286,7 +287,7 @@ The Steam reviews below are ranked "most helpful" (English) on each game's commu
   - "it was a good game before the servers went down. The physics feel accurate … you will need to enter all your settings every time you play" (Mar 11, 2026) — [Steam review](https://steamcommunity.com/profiles/76561199778157851/recommended/641780/)
   - "will let you play 8 missions. after that, requires online and cant connect" (Sep 21, 2026) — [Steam review](https://steamcommunity.com/id/desmodus/recommended/641780/)
   - "Online server no exist. Game no fun now. Get yourself Uncrashed or Tryp FPV instead!" (Oct 8, 2026) — [Steam review](https://steamcommunity.com/id/roartiz/recommended/641780/)
-  - "Company closed, online mode no longer available" (Sep 13, 2026). This is **unverified**: my news search found no report of a DRL shutdown — [Steam review](https://steamcommunity.com/profiles/76561198984770857/recommended/641780/); [search check](https://en.wikipedia.org/wiki/Drone_Racing_League)
+  - "Company closed, online mode no longer available" (Sep 13, 2026). This is **unverified**: a web search on 2026-11-11 surfaced no news report of a DRL company or simulator shutdown — [Steam review](https://steamcommunity.com/profiles/76561198984770857/recommended/641780/)
 - Workaround: "The official servers are down, but the community has created custom servers. You just need to install a simple patch" (Jun 20, 2026, Recommended) — [Steam review](https://steamcommunity.com/id/L1nc3d/recommended/641780/)
 - Older physics criticism:
   - "DRL is wholly unrealistic IMO with its throttle giving little or no reaction" (BadRaven, 2024) — [IntoFPV](https://intofpv.com/t-drl-vs-liftoff-vs-uncrashed)

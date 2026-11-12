@@ -272,7 +272,6 @@ Three 2026 YouTube comparisons exist: DimmyV in Jan, Hucubama in Aug and Slav FP
   - The video "TRYP FPV : iFlight NAZGUL Evoque F5 V2" (2023-05-24, older) [raw]. — [YouTube RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UC9HMafzXRtY4P32qyQ0-qjw)
 - **Betaflight team**: "aiding us in the direct implementation of their original algorithms and source code for PID management" (2023, older) [raw]. — [Steam news](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/7585814657460852365)
 - **Bodycam / Reissad Studio**: commercial partner since Sep 2026 (§5).
-- Searches turned up no TRYP coverage by Mr Steele, Botgrinder or Le Drib, and no 2026 article by a major FPV news site.
 
 ### Inferences
 - For a "very close to real" verdict, the strongest current independent expert evidence is moderate, not glowing: "reasonably accurate" with a stated weight bias. It is also probably not refreshed after Jun 2026.
@@ -284,6 +283,7 @@ Three 2026 YouTube comparisons exist: DimmyV in Jan, Hucubama in Aug and Slav FP
 - I found no named pilot's hands-on after the Jun 2026 rework.
 - Whether Oscar has any commercial relationship with TRYP is not stated in the text I fetched.
 - Bardwell's relationship to "Bardwell House" is unconfirmed.
+- I did not run name-specific searches for Mr Steele, Botgrinder or Le Drib. My general TRYP searches surfaced no coverage by them, and no 2026 TRYP article by a major FPV news site.
 
 ## 4. What Steam reviews, Steam forums, Reddit, IntoFPV and YouTube comments say about physics and handling
 

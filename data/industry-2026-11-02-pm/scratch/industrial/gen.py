@@ -1,0 +1,20 @@
+import json
+O='/home/user/news-desk/data/industry-2026-11-02-pm/out/'
+OM='https://www.bloomberg.com/news/articles/2026-10-30/japan-s-omron-targets-india-for-manufacturing-exports-push'
+EV='https://www.bloomberg.com/news/articles/2026-10-30/evonik-turns-down-offer-to-enter-takeover-talks-with-suitor-basf'
+RL='https://www.bloomberg.com/news/articles/2026-10-30/canada-railways-strong-earnings-show-resilience-amid-us-tariffs'
+TB='https://www.bloomberg.com/news/articles/2026-11-02/china-s-5-000-ton-digging-machines-are-a-trade-war-risk-to-india'
+x={"id":"industrial",
+"summary":"산업재는 코팅·산업용 가스 같은 소재와 전기 장비·기계·로봇을 만들어 조선·건설·인프라에 공급하고, 물류·우편·인력 같은 산업 서비스가 이를 잇는 넓은 사슬입니다. 11월 초에도 가장 빠듯한 곳은 데이터센터·전력용 장비입니다. GE버노바의 3분기 수주는 293억 달러로 96% 늘었고, 콴타서비스 수주잔고는 사상 최대 637억 달러, 캐리어의 3분기 데이터센터 수주는 300% 늘었습니다. 다만 바클레이즈는 전기장비 성장 사이클이 정점에 이르고 있다고 경고했고, 캐터필러는 수주잔고 780억 달러에도 4분기 성장 둔화와 관세 비용 약 22억 달러를 예고했습니다. 공급 위험은 중국 쪽에서 새로 생겨, 중국은 터널굴착기 등 대형 건설장비와 부품까지 수출통제 대상에 넣었습니다. 남는 쪽은 유럽 기계와 중국 수전해기이고, 화학의 통합은 에보닉이 BASF의 111억 8,000만 유로 상향 제안에도 협상을 거절해 멈칫했습니다. 북미 철도는 CPKC 매출이 15% 늘었지만 연료비로 영업비율이 높아졌습니다.",
+"state":{
+ "materials":[{"d":"2026-10-30","o":"블룸버그","u":EV,"nid":"n-bbg-0873","t":"에보닉 이사회는 BASF의 주당 24유로, 총 111억 8,000만 유로 상향 제안에도 공식 인수 협상을 거절하고 독립 회사로 가겠다고 했으며, 정보 교환 차원의 비공개 대화는 열어 뒀습니다 [사실]"}],
+ "services":[{"d":"2026-10-30","o":"블룸버그","u":RL,"nid":"n-bbg-0874","t":"CPKC의 3분기 매출은 15% 늘어 42억 달러였지만 조정 영업비율이 61.9%로 높아졌고, CN은 연료비·자산 손상으로 영업비용이 19% 늘어 영업비율이 63.7%가 됐습니다 [사실]"}],
+ "machinery":[{"d":"2026-11-02","o":"블룸버그","u":TB,"nid":"n-bbg-0893","t":"중국의 새 수출통제가 터널굴착기 등 건설장비와 부품에 적용되면서, 중국 장비의 주요 고객이지만 자국 제조 기반이 초기 단계인 인도의 인프라 사업에 공급 위험이 생겼습니다 [사실]"}],
+ "robotics":[{"d":"2026-10-30","o":"블룸버그","u":OM,"nid":"n-bbg-0872","t":"일본 자동화 기업 옴론이 인도를 제조업 수출 확대 거점으로 겨냥하고 나서, 일본 제조사의 생산 거점이 인도로 넓어지는 흐름에 합류했습니다 [제목]"}]},
+"industryState":[
+ {"d":"2026-10-30","kind":"demand","o":"블룸버그","u":RL,"nid":"n-bbg-0874","t":"CPKC의 3분기 매출은 42억 달러로 15% 늘었고 조정 EPS는 1.28달러로 예상 1.31달러에 못 미쳤으며, CN의 희석 EPS는 9% 늘어 2.00달러였습니다 [사실]"}],
+"flags":[],"insight":{},
+"cycle":None,"nodeStage":{},"gaps":"",
+"note":"뉴스 4건 반영: 중국 터널굴착기 등 건설장비 수출통제, 에보닉 BASF 111억 8,000만 유로 제안 거절, CPKC 매출 15%↑·영업비율 상승, 옴론 인도 수출 거점. 국면 ② 그대로, 근거 4줄, 수치 1줄, 재검토 신호 0건, 검색 0회",
+"applied":["n-bbg-0872","n-bbg-0873","n-bbg-0874","n-bbg-0893"],"searches":0,"fetches":0}
+json.dump(x,open(O+'industrial.json','w'),ensure_ascii=False,indent=1)

@@ -1,0 +1,17 @@
+import json
+O='/home/user/news-desk/data/industry-2026-11-02-pm/out/'
+BOC='https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-rate-hike-hurts-housing-market-already-in-slump'
+UKB='https://www.bloomberg.com/news/articles/2026-10-28/british-business-laments-healey-s-lack-of-help-in-budget'
+UKK='https://www.bloomberg.com/news/articles/2026-10-28/here-are-the-key-uk-budget-measures-announced-by-john-healey'
+DC='https://t.me/habit4117/86999'
+x={"id":"realestate","summary":"",
+"state":{
+ "develop":[{"d":"2026-10-28","o":"블룸버그","u":UKB,"nid":"n-bbg-0630","t":"영국 예산의 첫 주택 구입 지원책이 기대에 못 미치자 주택건설주가 내렸고, 기업계는 예산에 기업 지원이 부족하다고 반발했습니다 [제목]"}],
+ "housing":[{"d":"2026-10-28","o":"블룸버그","u":BOC,"nid":"n-bbg-0530","t":"캐나다은행의 2023년 7월 이후 첫 금리 인상이 이미 침체한 캐나다 주택시장을 더 누르고 있고, 다음 결정은 12월 9일로 추가 인상 여지가 열려 있습니다 [사실]"}],
+ "finance":[{"d":"2026-10-29","o":"블룸버그","u":UKK,"nid":"n-bbg-0630","t":"딜러들은 이번 회계연도 길트 발행이 약 34억 파운드 늘어 2,496억 파운드에 이를 것으로 봤고, 10년물 길트 금리는 약 5.4%, 30년물은 10월 한때 6%를 넘었습니다 [사실]"}],
+ "datacenter":[{"d":"2026-10-30","o":"텔레그램 습관이 부자를 만든다","u":DC,"nid":"n-rtr-0719","t":"구글 핀란드 데이터센터 부지 두 곳에서 나무 약 40만 그루가 베어져 작업 중단 명령과 경찰 수사가 이어지는 등, 데이터센터 반대가 미국 밖으로도 번졌습니다 [채널]"}]},
+"industryState":[{"d":"2026-10-29","kind":"price","o":"블룸버그","u":UKK,"nid":"n-bbg-0630","t":"영국 10년물 길트 금리는 약 5.4%, 30년물은 10월 한때 6%를 넘었고, 딜러 중간값 재정 여력은 약 152억 파운드로 약 3분의 1 줄었습니다 [사실]"}],
+"flags":[],"insight":{},"cycle":None,"nodeStage":{},"gaps":"",
+"note":"뉴스 3건 반영(대부분 이미 반영된 문서의 추가분): 영국 예산 뒤 주택건설주 하락·길트 금리 약 5.4%, 캐나다 금리 인상의 주택시장 압박, 구글 핀란드 데이터센터 공사 중단. 국면 ⑥(분할) 그대로, 근거 4줄, 수치 1줄, 재검토 신호 0건, 검색 0회",
+"applied":["n-bbg-0530","n-bbg-0630","n-rtr-0719"],"searches":0,"fetches":0}
+json.dump(x,open(O+'realestate.json','w'),ensure_ascii=False,indent=1)

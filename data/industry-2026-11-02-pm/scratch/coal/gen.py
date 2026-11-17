@@ -1,0 +1,16 @@
+import json
+O='/home/user/news-desk/data/industry-2026-11-02-pm/out/'
+JP='https://www.bloomberg.com/news/articles/2026-11-02/tokyo-chubu-power-price-hit-multi-year-high-as-fuel-costs-climb'
+NT='https://www.bloomberg.com/news/articles/2026-10-31/ntpc-profit-jumps-as-el-nino-heat-drives-india-power-demand'
+x={"id":"coal","summary":"",
+"state":{
+ "power":[
+  {"d":"2026-10-31","o":"블룸버그","u":NT,"nid":"n-bbg-0879","t":"인도 NTPC는 엘니뇨 폭염과 약한 몬순으로 수력·풍력 발전이 줄자 7~9월 석탄 발전을 13% 늘렸고, 석탄발전소 가동률은 7%포인트 넘게 올라 73.5%가 됐습니다 [사실]"},
+  {"d":"2026-11-02","o":"블룸버그","u":JP,"nid":"n-bbg-0413","t":"연료비 상승에 도쿄·주부 지역 전력 도매가가 11월 2일 수년 만의 최고를 기록해, 10월 19일 4년 만의 고점 뒤에도 LNG·석탄발 발전 비용 부담이 이어졌습니다 [제목]"}]},
+"industryState":[
+ {"d":"2026-10-31","kind":"demand","o":"블룸버그","u":NT,"nid":"n-bbg-0879","t":"NTPC의 7~9월 전력 판매는 11.3% 늘었고 석탄 발전은 13% 늘어 전체 발전 증가율(약 12%)을 웃돌았으며, 단독 순이익은 532억 루피로 14% 늘었습니다 [사실]"},
+ {"d":"2026-11-02","kind":"price","o":"블룸버그","u":JP,"nid":"n-bbg-0413","t":"일본 11월 사용분 표준 가정 전기요금은 7개 전력사에서 오르고, 주부전력은 273엔 오른 9,920엔으로 인상 폭이 가장 큽니다(송전요금 개정분 포함) [사실]"}],
+"flags":[],"insight":{},"cycle":None,"nodeStage":{},"gaps":"",
+"note":"뉴스 2건 반영: 인도 NTPC 석탄 발전 13%↑·가동률 73.5%, 도쿄·주부 전력 도매가 수년 만의 최고·11월 가정 요금 인상. 국면 ⑧ 그대로, 근거 2줄, 수치 2줄, 재검토 신호 0건, 검색 0회",
+"applied":["n-bbg-0413","n-bbg-0879"],"searches":0,"fetches":0}
+json.dump(x,open(O+'coal.json','w'),ensure_ascii=False,indent=1)

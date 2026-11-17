@@ -1,0 +1,439 @@
+[
+ {
+  "seg": "st14",
+  "id": "1623",
+  "title": "People getting into the subway train",
+  "url": "https://mixkit.co/free-stock-video/people-getting-into-the-subway-train-1623/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.3,
+  "speed": 1.0,
+  "use": 15.3,
+  "good_span": [
+   0.0,
+   20.5
+  ],
+  "file": "full/1623.mp4",
+  "clip_len": 21.02,
+  "notes": "One clip for the whole slot (all 5 lines are centre lines). Low camera at platform level, no faces: 0-9 s legs and sneakers of commuters stepping into a stopped maroon-and-cream subway car (heads only small and soft through the windows at the top); ~9.5 s doors close; 9.6-14 s the train stands still; ~14.5 s it starts to move, 15-21 s it slides past with motion blur. Reads as 'back to the weekday commute' for 주말 이후 다시 잠을 줄이는 생활로… 그다음 평일에 어떻게 자는지. LOGO: a passenger's Super Mario T-shirt print shows through the top-left window 2.2-5.0 s -> blur_box (or start at in=5.0, 5.0-20.3 s, no blur, but only ~4 s of boarding). Only other marks: a no-smoking pictogram sticker inside the car. Grade: warm fluorescent grey -> desaturate, cool, darken. Optional two-clip version: st14 = backup 28883 (alarm) for lines 1-2, then 1623 from '우리도 주말에 얼마나 잤는지와 함께'.",
+  "blur_box": [
+   140,
+   0,
+   500,
+   140
+  ],
+  "backup": {
+   "id": "28883",
+   "title": "Alarm clock activated close up on a black background",
+   "url": "https://mixkit.co/free-stock-video/alarm-clock-activated-close-up-on-a-black-background-28883/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "Split option for lines 1-2 only (10 s clip): static top of a chrome twin-bell alarm clock on pure black, '12' of the dial at the bottom edge; almost no visible motion. Dark, fits the look; pair with 1623 for lines 3-5."
+  },
+  "blur_secs": [
+   2.2,
+   5.0
+  ]
+ },
+ {
+  "seg": "st15",
+  "id": "42343",
+  "title": "Movement in a city at night in an aerial shot",
+  "url": "https://mixkit.co/free-stock-video/movement-in-a-city-at-night-in-an-aerial-shot-42343/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 13.0,
+  "speed": 1.0,
+  "use": 12.9,
+  "good_span": [
+   0.0,
+   27.0
+  ],
+  "file": "full/42343.mp4",
+  "clip_len": 27.03,
+  "notes": "Aerial drone shot of a downtown (looks like Austin) at blue hour/night. 0-12.4 s slow tilted, rotating top-down view over lit towers; 12.4-14.6 s the camera tilts up; 14.6-27 s wide skyline with deep-blue sky, warm windows, slow drift. Chosen 13.0-25.9 = the tilt-up reveal into the calm skyline: night-city lights for the 6 centre lines leading to '그렇다면 무엇부터 바꿔 보면 좋을까요?'. No people. Tiny vertical hotel sign (JW Marriott) and a building mural are a few px and will be gone under the centre-line blur, so no blur box. Grade: already dark blue; pull down orange/neon saturation a little.",
+  "blur_box": null,
+  "backup": {
+   "id": "40640",
+   "title": "Walking a big city walker at night",
+   "url": "https://mixkit.co/free-stock-video/walking-a-big-city-walker-at-night-40640/",
+   "license_notice": "Free",
+   "in": 0.5,
+   "why": "Night skyline seen from a park while walking (20 s): very dark, static-feeling, small blinking lights, lower half almost black. Calm but darker and less detailed than 42343."
+  }
+ },
+ {
+  "seg": "st16",
+  "id": "51394",
+  "title": "Woman with insomnia lying in her bed trying to sleep",
+  "url": "https://mixkit.co/free-stock-video/woman-with-insomnia-lying-in-her-bed-trying-to-sleep-51394/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 1.0,
+  "speed": 1.0,
+  "use": 7.3,
+  "good_span": [
+   0.5,
+   17.5
+  ],
+  "file": "full/51394.mp4",
+  "clip_len": 36.62,
+  "notes": "Dim bedroom at night, an open laptop at the left edge (keyboard only, no logo seen), a woman with short dark hair in a dark top tossing on a white pillow: 1.0 s face pressed into the pillow, eyes closed; ~3-4 s turns her head; ~5.7 s turns away; ~8 s rolls onto her back with an arm over her head; keeps shifting until ~17 s. (19-29 s she lies awake on her stomach looking at the camera with her face clearly visible - not used.) Fits 밤중에 오래 깨어 있었거나 / 낮잠을 잤다면. Face: a woman (earring), partly visible; NOTE she has short dark hair and is the same actress as st19 (51383), so the two shots could read as one recurring person. Grade: neutral dark -> slightly cooler, lower saturation of the yellow cushion behind.",
+  "blur_box": null,
+  "backup": {
+   "id": "51399",
+   "title": "Restless woman with insomnia trying to sleep",
+   "url": "https://mixkit.co/free-stock-video/restless-woman-with-insomnia-trying-to-sleep-51399/",
+   "license_notice": "Free",
+   "in": 1.0,
+   "why": "Wide, very dark bedroom with a dark red headboard; a woman lies awake under a grey duvet, small in frame, face small (16.8 s). Calmer, almost no face. (Another agent also previewed this ID.)"
+  }
+ },
+ {
+  "seg": "st17",
+  "id": "28900",
+  "title": "Digital clock in the dark marking midnight",
+  "url": "https://mixkit.co/free-stock-video/digital-clock-in-the-dark-marking-midnight-28900/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.5,
+  "speed": 1.0,
+  "use": 8.0,
+  "good_span": [
+   0.0,
+   9.0
+  ],
+  "file": "full/28900.mp4",
+  "clip_len": 9.0,
+  "notes": "Black background, a silver bedside digital clock with red LED digits, slight slow camera drift: 0-3.6 s '11:59' (tiny 'PM'), ~3.7 s it flips to '12:00' ('AM') and holds to the end. Literal image for 밤마다 시계를 확인하지 말고 and very close to the photos' dark look; bottom subtitles sit on black. No brand on the clock. Grade: keep dark; cool the silver, red digits can be slightly desaturated. NOTE: another agent also previewed 28900; if it is taken, use backup.",
+  "blur_box": null,
+  "backup": {
+   "id": "28897",
+   "title": "Slowly approaching a clock on a black background",
+   "url": "https://mixkit.co/free-stock-video/slowly-approaching-a-clock-on-a-black-background-28897/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "Analog wall clock on pure black, slow push-in, hands spin fast (time-lapse), 9.5 s. Same dark look; less literal than a bedside clock."
+  }
+ },
+ {
+  "seg": "st18",
+  "id": "42664",
+  "title": "Professional woman working in an office",
+  "url": "https://mixkit.co/free-stock-video/professional-woman-working-in-an-office-42664/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.5,
+  "speed": 1.0,
+  "use": 7.3,
+  "good_span": [
+   0.0,
+   9.18
+  ],
+  "file": "full/42664.mp4",
+  "clip_len": 9.18,
+  "notes": "Daytime office, back / over-the-shoulder view of a woman with long dark hair in a houndstooth jacket writing short notes with a blue pen in a small notebook next to a laptop on a stand (dashboard slides) and a large monitor (bar chart + finance table); she looks up at the screens and back down to write throughout, face never frontal (brief partial profile ~4-6 s). Fits 낮에… 집중이 어려웠던 순간도 짧게 적어 봅니다 (does not show yawning). LOGOS: 'MacBook Pro' text on the laptop's lower bezel all through -> blur_box; small 'LG' logo on the monitor's bottom bezel when her head moves aside (~4-7 s and 8.5-9.2 s) -> second box in blur_box_extra. Screens show generic charts, 'Lorem ipsum' and a Spanish slide-presenter view (no app name/logo). Grade: bright daylight with a green wall -> darken, desaturate, cool.",
+  "blur_box": [
+   1560,
+   340,
+   1740,
+   430
+  ],
+  "backup": {
+   "id": "51324",
+   "title": "Woman with insomnia yawning in the dark",
+   "url": "https://mixkit.co/free-stock-video/woman-with-insomnia-yawning-in-the-dark-51324/",
+   "license_notice": "Free",
+   "in": 1.5,
+   "why": "Profile of a woman with short dark hair in a dark room who yawns and rubs her face (~2.4-5.6 s), 12.9 s. Shows sleepiness directly but it is night, not daytime."
+  },
+  "blur_secs": [
+   0.0,
+   9.18
+  ],
+  "blur_box_extra": [
+   [
+    600,
+    300,
+    800,
+    410
+   ]
+  ],
+  "blur_extra_secs": [
+   [
+    4.0,
+    7.0
+   ],
+   [
+    8.5,
+    9.18
+   ]
+  ]
+ },
+ {
+  "seg": "st19",
+  "id": "51383",
+  "title": "Young woman lying in her bed just before sleeping",
+  "url": "https://mixkit.co/free-stock-video/young-woman-lying-in-her-bed-just-before-sleeping-51383/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 12.5,
+  "speed": 1.0,
+  "use": 8.8,
+  "good_span": [
+   12.0,
+   24.2
+  ],
+  "file": "full/51383.mp4",
+  "clip_len": 24.27,
+  "notes": "Dark bedroom, close shot of a young woman with short dark hair on a grey/orange patterned pillow: 0-3 s eyes open looking up, then she closes them; 5-8 s turns onto her side; 8.6-10 s eyes briefly open again; from ~11 s eyes closed, asleep and nearly motionless to the end (24.2 s). Chosen 12.5-21.3 = calm, peaceful sleep for 성인에게 대체로 하루 일곱 시간에서 아홉 시간의 수면을 권합니다. No text/logos. Face visible (a woman with an earring) - same actress as st16 (51394); if a recurring stranger is unwanted, use backup 3111. Grade: dark warm-neutral -> cooler, keep low-key.",
+  "blur_box": null,
+  "backup": {
+   "id": "3213",
+   "title": "Woman falls asleep in her bed",
+   "url": "https://mixkit.co/free-stock-video/woman-falls-asleep-in-her-bed-3213/",
+   "license_notice": "Free",
+   "in": 6.2,
+   "why": "Warm bedroom: a woman reads a tablet in bed under a lamp (0-6 s), puts it away and lies down (~6-9 s), asleep 9.4-15 s; face visible (woman). Warmer and brighter than the photos -> darken/cool. (Replaces 3111, which another agent has downloaded.)"
+  }
+ },
+ {
+  "seg": "st20",
+  "id": "4433",
+  "title": "Full moon with a soft haze",
+  "url": "https://mixkit.co/free-stock-video/full-moon-with-a-soft-haze-4433/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 5.0,
+  "speed": 1.0,
+  "use": 14.4,
+  "good_span": [
+   4.0,
+   30.0
+  ],
+  "file": "full/4433.mp4",
+  "clip_len": 43.76,
+  "notes": "Black sky with a full moon behind thin moving haze: 0-5 s hazy and dim, ~5-7 s the haze clears, 7-26 s bright moon with a soft glow drifting slowly up and to the right, 28-44 s it fades behind haze again. Very slow and calm, ideal under 6 centre lines; nothing else in frame. Grade: moon is warm cream -> cool to bluish white and lower the brightness. NOTE: another agent may also have looked at 4433 (a strip of it appeared in stock/prev); if it is taken, use backup.",
+  "blur_box": null,
+  "backup": {
+   "id": "100824",
+   "title": "Starry Sky Framed by Trees",
+   "url": "https://mixkit.co/free-stock-video/starry-sky-framed-by-trees-100824/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "Starry sky with drifting clouds framed by tree branches, teal-blue (9.9 s only - would need ~0.7x speed or a second clip such as 100830, 6.5 s, which is the same kind of shot)."
+  }
+ },
+ {
+  "seg": "st21",
+  "id": "40734",
+  "title": "Large buildings of a city at dusk",
+  "url": "https://mixkit.co/free-stock-video/large-buildings-of-a-city-at-dusk-40734/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.5,
+  "speed": 1.0,
+  "use": 6.6,
+  "good_span": [
+   0.0,
+   10.2
+  ],
+  "file": "full/40734.mp4",
+  "clip_len": 10.26,
+  "notes": "Blue hour turning to night: low-angle shot of glass office towers with scattered lit windows against a deep-blue sky, slow lateral camera move from left to right across 3-4 towers; no people, no signage (only a decorative zigzag LED line on one facade). 'When night comes' image for 밤이 되면 이런 마음이 듭니다, between the TV photo P36 and the phone photo P37. Bottom subtitles sit on the dark tower bases. Grade: already cool and dark; slightly lower saturation.",
+  "blur_box": null,
+  "backup": {
+   "id": "100632",
+   "title": "Timelapse of Highway at Sunset Transitioning to Night",
+   "url": "https://mixkit.co/free-stock-video/timelapse-of-highway-at-sunset-transitioning-to-night-100632/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "Time-lapse of dusk turning to night over a highway and a mountain ridge, orange horizon fading to deep blue, car lights along the bottom (12.2 s); literal 'night falls' but an exterior landscape. (Replaces 3110, which another agent has downloaded.)"
+  }
+ },
+ {
+  "seg": "st22",
+  "id": "1711",
+  "title": "A person texting on a smartphone",
+  "url": "https://mixkit.co/free-stock-video/a-person-texting-on-a-smartphone-1711/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.2,
+  "speed": 1.0,
+  "use": 9.7,
+  "good_span": [
+   0.0,
+   10.04
+  ],
+  "file": "full/1711.mp4",
+  "clip_len": 10.04,
+  "notes": "Close-up of a man's hands (hairy forearms, dark green T-shirt, torso only, no face) holding a black smartphone seen edge-on and scrolling/typing with the thumb; screen never visible; soft teal bokeh background. The same gentle motion for the whole 10 s (span is tight: 0.2-9.9 s). Under the 3 centre lines it reads as 'still scrolling the phone' for 휴대폰을 내려놓으라는 말은… 포기하라는 말처럼. No logo visible on the phone. Grade: the teal background is daylight -> desaturate strongly, darken and cool so it feels like night.",
+  "blur_box": null,
+  "backup": {
+   "id": "4915",
+   "title": "Hands of a person typing on a cell phone",
+   "url": "https://mixkit.co/free-stock-video/hands-of-a-person-typing-on-a-cell-phone-4915/",
+   "license_notice": "Free",
+   "in": 0.5,
+   "why": "Warm close-up of two hands typing on a phone over a dark wooden background (15 s); the screen faces the camera and shows a blurry colourful image - check for any app UI before use."
+  }
+ },
+ {
+  "seg": "st23",
+  "id": "99910",
+  "title": "Beside a modern laptop the hands write a note on a yellow page notebook with a pen",
+  "url": "https://mixkit.co/free-stock-video/beside-a-modern-laptop-the-hands-write-a-note-on-99910/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 6.0,
+  "speed": 0.86,
+  "use": 8.3,
+  "good_span": [
+   6.0,
+   13.15
+  ],
+  "file": "full/99910.mp4",
+  "clip_len": 13.18,
+  "notes": "Over-the-shoulder close shot at a glass café table: a man's hands (denim sleeve, silver ring) write with a pen in a spiral notebook - 'to do list' handwritten in English, then underlined (~6-11 s); a black mug behind; from ~6 s a dark out-of-focus shoulder/head fills the right half, which gives the same shallow-depth look as the photos. Planning the evening on paper for 저녁을 어떻게 보낼지도 함께 정해 보는 겁니다. 0-6 s a small black notebook with a printed 'CRS' logo plus a laptop corner are at the left, so the span starts at 6.0 s; to fill 8.3 s from the logo-free part it needs 0.86x (6.0-13.14 s). Alternative at 1.0x: in 4.8 with blur_box [0,400,320,620] for 4.8-6.0 s. Grade: daylight -> darken, a little warmer (lamp feel) but low saturation.",
+  "blur_box": null,
+  "backup": {
+   "id": "49914",
+   "title": "Woman in her living room carefully writing in a notepad",
+   "url": "https://mixkit.co/free-stock-video/woman-in-her-living-room-carefully-writing-in-a-notepad-49914/",
+   "license_notice": "Free",
+   "in": 0.5,
+   "why": "Living room in soft daylight: a woman with a bob sits cross-legged on a grey sofa writing in a notepad (10.3 s); face visible (woman), wide shot. Home + writing, but daytime -> darken. (99888, the same shoot as 99910, has now been downloaded by another agent - if it is used elsewhere, 99910 here will look like the same scene; then consider swapping st23 to 49914.)"
+  }
+ },
+ {
+  "seg": "st24",
+  "id": "4948",
+  "title": "Blonde woman reading a book",
+  "url": "https://mixkit.co/free-stock-video/blonde-woman-reading-a-book-4948/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.8,
+  "speed": 1.0,
+  "use": 7.4,
+  "good_span": [
+   0.0,
+   10.3
+  ],
+  "file": "full/4948.mp4",
+  "clip_len": 10.3,
+  "notes": "Over-the-shoulder close shot, no face: a woman's hands (red nails) hold an open book on her lap (paisley trousers), out-of-focus blonde hair fills the right third (same shallow-depth look as the photos), grey sofa behind. ~1.9-4.5 s she turns a page, then keeps reading with small hand movements to the end; muted, low-saturation light. Quiet 'my own time' image for 내가 좋아하는 시간을 보내되 / 하루를 마칠 시점도, after the headphones photo P41. Page text is small generic Spanish print ('CAPITULO X' heading), no brand. Grade: soft daylight -> darken and add a little warm lamp tone; pages are bright under the bottom subtitles, so pull highlights down. (Replaces 50731, which turned out to be in used_before.txt.)",
+  "blur_box": null,
+  "backup": {
+   "id": "3819",
+   "title": "Book being leafed through, seen in detail",
+   "url": "https://mixkit.co/free-stock-video/book-being-leafed-through-seen-in-detail-3819/",
+   "license_notice": "Free",
+   "in": 1.0,
+   "why": "Soft-focus pages of a book being leafed through, grey and calm (17 s); text mostly not legible; no hands."
+  }
+ },
+ {
+  "seg": "st25",
+  "id": "42653",
+  "title": "Woman finishes working on her computer",
+  "url": "https://mixkit.co/free-stock-video/woman-finishes-working-on-her-computer-42653/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.2,
+  "speed": 1.0,
+  "use": 7.6,
+  "good_span": [
+   0.0,
+   7.84
+  ],
+  "file": "full/42653.mp4",
+  "clip_len": 7.84,
+  "notes": "First of two clips (lines 1-2, bottom subtitles; switch to st25b at the centre line '삼십 분만 더 자면'). Cool blue-grey close-up: a woman's hands typing on a slim dark-blue laptop (0-5.4 s), hands lift, ~5.9-6.9 s she closes the lid, 6.9-7.84 s her hand rests on the closed laptop = 저녁 일과를 마무리. Face never shown. LOGO: an Apple logo on the lid is visible from ~6.4 s to the end -> blur_box (lid is a plain surface, so a soft blur blends). Timing: the lid closes at source 5.9-6.9 s, i.e. ~5.7-6.7 s into the segment with in=0.2; once the real duration of lines 1-2 is known, setting in ≈ 6.9 - real_dur puts the close at the end. Clip is only 7.84 s, so 7.6 s is nearly all of it. Grade: fits the cool look; darken a bit. NOTE: a strip of 42653 also appeared in stock/prev from another agent.",
+  "blur_box": [
+   1100,
+   360,
+   1460,
+   700
+  ],
+  "backup": {
+   "id": "31416",
+   "title": "Young man turns off the light to lie down to sleep",
+   "url": "https://mixkit.co/free-stock-video/young-man-turns-off-the-light-to-lie-down-to-31416/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "A hand switches off a warm bedside lamp, then a young man lies down in blue night light and puts on an eye mask (11 s); his face is clearly visible around 3-4 s (avoid that part). (Another agent also previewed this ID.)"
+  },
+  "blur_secs": [
+   6.4,
+   7.84
+  ]
+ },
+ {
+  "seg": "st25b",
+  "id": "28885",
+  "title": "Circular clock a very close shot illuminated in the dark",
+  "url": "https://mixkit.co/free-stock-video/circular-clock-a-very-close-shot-illuminated-in-the-dark-28885/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 1.0,
+  "speed": 0.88,
+  "use": 10.0,
+  "good_span": [
+   1.0,
+   9.8
+  ],
+  "file": "full/28885.mp4",
+  "clip_len": 12.04,
+  "notes": "Second clip of st25 (4 centre lines from '삼십 분만 더 자면' to '확보해 가기 위한 첫 단계입니다'). Black frame; light slowly sweeps in over a close, angled white analog wall clock (numerals 8-12 visible, hands at about 11:40) from ~1 s, brightest 5-8 s, dimming ~9.5 s, black again by 10.5 s (black to 12 s). Calm, dark 'time' image; at 0.88x the source 1.0-9.8 s fills 10.0 s and ends just as it dims. No brand. Grade: cool grey already; keep dark. Note: same clock series as 28886/28887 used in earlier episodes (different shot), and st17 is also a clock (digital).",
+  "blur_box": null,
+  "backup": {
+   "id": "28897",
+   "title": "Slowly approaching a clock on a black background",
+   "url": "https://mixkit.co/free-stock-video/slowly-approaching-a-clock-on-a-black-background-28897/",
+   "license_notice": "Free",
+   "in": 0.0,
+   "why": "Analog clock on black, slow push-in, hands spinning fast (9.5 s; needs ~0.95x for 10 s). Also st17's backup - use for only one of them."
+  }
+ },
+ {
+  "seg": "st26",
+  "id": "52255",
+  "title": "A young mother working on a laptop at a tiny desk in the room corner looks on her back to check on her little daughter laying on the bed",
+  "url": "https://mixkit.co/free-stock-video/a-young-mother-working-on-a-laptop-at-a-tiny-52255/",
+  "free": true,
+  "license_notice": "Free",
+  "checked": "2026-11-04",
+  "in": 0.4,
+  "speed": 1.0,
+  "use": 6.3,
+  "good_span": [
+   0.0,
+   6.97
+  ],
+  "file": "full/52255.mp4",
+  "clip_len": 6.97,
+  "notes": "Home bedroom in daylight: in the foreground a little girl in printed pyjamas lies face-down across a bed (only the back of her head, no face); in the background a mother sits at a small corner desk working on a laptop, back/three-quarter view, and turns to glance at the child (face small and soft); the child lifts a hand ~5 s. Work and care at the same time for 야근이나 돌봄으로 시간을 조정하기 어려운 날. Faces small/turned away as required. Pyjama sleeve has a small purple decorative print (not a readable brand); laptop too small to show a logo. Grade: warm daylight with bright windows -> darken strongly, cool and desaturate (it will read as 'home, caring', not as night). Clip is 6.97 s, so 6.3 s is almost all of it.",
+  "blur_box": null,
+  "backup": {
+   "id": "50120",
+   "title": "A father helping his son with academic problems in the living room late at night.",
+   "url": "https://mixkit.co/free-stock-video/a-father-helping-his-son-with-academic-problems-in-the-50120/",
+   "license_notice": "Free",
+   "in": 0.5,
+   "why": "A grey-haired father helps his teenage son with homework at a living-room table late at night (7.6 s); both faces are large and visible, so it breaks the 'faces small' rule - only if needed."
+  }
+ }
+]

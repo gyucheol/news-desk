@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0913",
+ "num": 913,
+ "key": "mix-G2b-027-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T14:36:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/mtn-holds-talks-to-buy-south-africa-s-telkom-in-cash-share-deal",
+ "origTitle": "",
+ "headline": "MTN, 텔콤 인수 협상 재개…남아공 이통 4사→3사 재편 가능성에 텔콤 주가 7년 만에 최고",
+ "src": [
+  {
+   "o": "Moneyweb",
+   "d": "2026-11-16",
+   "u": "https://www.moneyweb.co.za/news/companies-and-deals/mtn-in-talks-to-acquire-telkom/"
+  },
+  {
+   "o": "ITWeb",
+   "d": "2026-11-16",
+   "u": "https://www.itweb.co.za/article/mtn-targets-telkom-in-renewed-takeover-talks/raYAyMormbO7J38N"
+  }
+ ],
+ "items": [
+  {
+   "t": "MTN 인수 협상 재개에 텔콤 주가 7년 만에 최고",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/mtn-holds-talks-to-buy-south-africa-s-telkom-in-cash-share-deal"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "MTN, 텔콤 인수 협상 재개…남아공 이통 4사→3사 재편 가능성에 텔콤 주가 7년 만에 최고",
+ "one": "남아공 MTN이 2022년 무산된 텔콤 인수 협상을 다시 시작하자 텔콤 주가가 7년 만의 최고로 뛰었다\n· 양사는 MTN의 제안에 따른 초기 협상을 공시했고 대가는 현금을 기본으로 MTN 주식 선택지가 거론된다\n· 거래가 성사되면 남아공 이동통신사가 4곳에서 3곳으로 줄어 경쟁당국과 정부의 승인이 필요하다",
+ "facts": [
+  "무엇이: MTN과 텔콤은 16일 각각 주의 공시에서 MTN의 접근에 따라 텔콤 발행주식 전부를 인수하는 방안을 협상 중이라고 밝혔고, 대가는 현금을 기본으로 텔콤 주주가 MTN 주식을 받는 선택지가 거론되지만 조건은 협상 중이다 [사실]",
+  "배경·심사: MTN은 2022년 10월 텔콤이 독점 협상 보장을 주지 못하자 협상에서 물러난 바 있고, 이번 거래가 성사되면 이동통신사가 4곳에서 3곳으로 줄어 경쟁위원회·ICASA와 최대 주주인 정부의 승인이 필요하다 [사실]",
+  "주가: 텔콤 주가는 인수 협상 재개 소식에 7년 만의 최고로 올랐다 [제목]"
+ ],
+ "basis": "verified",
+ "check": "양사 주의 공시와 현금·주식 대가 구조, 2022년 결렬 경위, 4사→3사 재편과 승인 절차는 검색 결과 요약으로 확인(머니웹·ITWeb). 주가 상승폭은 매체마다 달라(최대 18%·11.29%) 제목의 7년 만의 최고만 씀",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "telecom",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "남아공 이통 4사에서 3사로 재편 가능성"
+  }
+ ]
+}

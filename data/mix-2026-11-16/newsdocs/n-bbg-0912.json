@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0912",
+ "num": 912,
+ "key": "mix-G2b-026-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T20:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/canada-s-carney-faces-meta-google-apple-backlash-over-lawful-access-bill-c-22",
+ "origTitle": "",
+ "headline": "캐나다 감청법 C-22에 메타·구글·애플 반발…암호화 백도어 우려·메타데이터 1년 보관 의무",
+ "src": [
+  {
+   "o": "CBC",
+   "d": "2026",
+   "u": "https://www.cbc.ca/news/politics/lawful-access-c-22-committee-9.7211701"
+  },
+  {
+   "o": "The Globe and Mail",
+   "d": "2026-11",
+   "u": "https://www.theglobeandmail.com/politics/article-lawful-access-bill-security-risks-cryptographers-warn/"
+  },
+  {
+   "o": "TechRadar",
+   "d": "2026",
+   "u": "https://www.techradar.com/vpn/vpn-privacy-security/canada-vows-to-amend-bill-c-22s-encryption-and-metadata-rules-amid-massive-tech-backlash"
+  }
+ ],
+ "items": [
+  {
+   "t": "카니 캐나다 총리, 감청법 C-22 두고 메타·구글·애플 반발 직면",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/canada-s-carney-faces-meta-google-apple-backlash-over-lawful-access-bill-c-22"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "캐나다 감청법 C-22에 메타·구글·애플 반발…암호화 백도어 우려·메타데이터 1년 보관 의무",
+ "one": "카니 정부가 추진하는 합법 감청법 C-22가 암호화 약화 우려 속에 메타·구글·애플의 반발에 부딪혔다\n· 애플은 정부가 백도어로 암호화를 깨도록 강제할 수 있다고, 메타는 정부 스파이웨어 설치를 요구할 수 있다고 경고했다\n· 정부는 암호화를 해치지 않도록 고치겠다면서도 최대 1년 메타데이터 보관 의무는 유지하기로 했고 시그널은 철수를 경고했다",
+ "facts": [
+  "무엇이: 카니 캐나다 총리가 합법 감청 법안 C-22를 두고 메타·구글·애플의 반발에 직면했다 [제목]",
+  "업계 우려: 애플은 법안이 백도어 삽입으로 암호화를 깨도록 강제할 수 있다고, 구글은 공공안전부 장관에게 비밀 명령 권한을 폭넓게 준다고, 메타 캐나다 정책 책임자는 정부 스파이웨어를 시스템에 설치하라고 요구할 수 있다고 경고했다 [사실]",
+  "정부·파장: 게리 아난다상가리 공공안전부 장관은 암호화가 훼손되지 않도록 법안을 고치겠다면서도 최대 1년 메타데이터 보관 의무는 물러서지 않겠다고 했고, 시그널은 따르느니 캐나다 시장에서 철수하겠다고, 윈드스크라이브는 본사를 옮기겠다고 했으며, 상원 심사는 11월 초 시작됐다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "애플·구글·메타의 우려와 정부의 수정 방침·최대 1년 메타데이터 보관, 시그널 철수 경고는 CBC·글로브앤메일·테크레이더 검색 결과 요약으로 확인했으나 상당수가 5월 보도여서, 이번 블룸버그 기사의 새 내용과 법안의 현재 단계는 확인 못 함.",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "감청법 C-22에 시그널 등 캐나다 철수 경고"
+  }
+ ]
+}

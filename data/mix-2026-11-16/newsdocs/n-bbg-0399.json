@@ -1,0 +1,84 @@
+{
+ "basis": "verified",
+ "check": "2027 회계연도 소고기 부문 전망(3억 달러 손실~1억 달러 이익)·미 농무부 생산 2% 감소 예상·3개 공장 통합·매출 3.5~5.5% 감소는 검색 결과 요약으로 확인(회사 발표 전재·인베스팅닷컴 콜 녹취·구루포커스). 4분기·연간 소고기 손실액은 매체마다 달라 뺌",
+ "cycles": [],
+ "facts": [
+  "무엇이: 타이슨은 16일 4분기 실적과 함께 2027 회계연도 소고기 부문 영업손익을 3억 달러 손실~1억 달러 이익으로 제시했고, 소고기 부진 완화 전망에 주가가 올랐다 [사실]",
+  "공급: 미 농무부는 2027 회계연도 미국 소고기 생산이 약 2% 줄 것으로 보고, 타이슨 경영진은 소 사이클이 소고기 사업의 가장 큰 변수라고 했다 [사실]",
+  "대응·전망: 타이슨은 소고기 생산망을 미 중부 3개 공장으로 모아 2027 회계연도부터 운영비 압박을 줄일 계획이고, 회사 전체 2027 회계연도 매출은 3.5~5.5% 줄 것으로 봤다 [사실]",
+  "배경: 가뭄으로 미국 소 사육두수가 줄면서 소고기 공급이 빠듯해져 소비자 소고기값이 계속 오르고 있다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "美 소 부족에 소고기값 상승…타이슨, 소고기 부진 완화 전망·2027 회계연도 생산 2%↓ 예상",
+ "id": "n-bbg-0399",
+ "incentive": "",
+ "inds": [
+  "agri",
+  "consumer"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-19",
+   "o": "블룸버그",
+   "t": "가뭄에 미국 소 사육두수 줄며 소고기값 계속 오르는 이유",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds"
+  },
+  {
+   "t": "육가공업체 타이슨, 소고기 부진 완화 전망에 주가 상승",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/tyson-sees-beef-woes-easing-as-cattle-supplies-improve",
+   "s": "타이슨이 2027 회계연도 소고기 부문 손익을 3억 달러 손실~1억 달러 이익으로 내다보며 부진 완화를 예고하자 주가가 올랐다"
+  }
+ ],
+ "key": "split-G2-052-2026-10-20",
+ "nodes": [],
+ "num": 399,
+ "one": "가뭄으로 미국 소 사육두수가 줄어 소고기값이 오르는 가운데 타이슨이 소고기 부문 부진 완화를 내다봤다\n· 소 사육두수 감소로 소고기 공급이 빠듯해지면서 소비자 소고기값이 계속 오르고 있다\n· 타이슨은 2027 회계연도 소고기 부문 영업손익을 3억 달러 손실에서 1억 달러 이익 사이로 제시했다\n· 미 농무부는 2027 회계연도 미국 소고기 생산이 약 2% 줄 것으로 봤다\n· 타이슨은 소고기 생산망을 미 중부 3개 공장으로 모으기로 했고 부진 완화 전망에 주가가 올랐다",
+ "origTitle": "",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T21:00:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "o": "MarketScreener(타이슨 실적 발표문)",
+   "d": "2026-11-16",
+   "u": "https://www.marketscreener.com/news/tyson-foods-reports-fourth-quarter-and-fiscal-2026-results-ce785edfd888f620"
+  },
+  {
+   "o": "Investing.com(실적 콜 녹취)",
+   "d": "2026-11-16",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-tyson-foods-posts-q4-miss-but-shares-jump-on-outlook-93CH-5030386"
+  },
+  {
+   "o": "GuruFocus",
+   "d": "2026-11-16",
+   "u": "https://www.gurufocus.com/news/9202326/tyson-foods-reports-q4-results-revenue-growth-amidst-profitability-challenges"
+  }
+ ],
+ "tags": [],
+ "title": "美 소 부족에 소고기값 상승…타이슨, 소고기 부진 완화 전망·2027 회계연도 생산 2%↓ 예상",
+ "updatedAt": "2026-11-17T09:13:29+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-19/why-beef-prices-keep-rising-as-drought-shrinks-us-cattle-herds",
+ "vc": [
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "미 농무부, 2027 회계연도 소고기 생산 2% 감소 전망"
+  },
+  {
+   "ind": "agri",
+   "node": "livestock",
+   "f": "가격",
+   "dir": "up",
+   "k": "예상",
+   "t": "타이슨 소고기 손익 -3억~+1억 달러로 개선 전망"
+  }
+ ],
+ "added": "블룸버그 1건 — 타이슨의 2027 회계연도 소고기 부문 손익 전망(3억 달러 손실~1억 달러 이익)과 미 농무부의 생산 2% 감소 예상, 주가 상승 내용이 추가됨"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "n-bbg-0906",
+ "num": 906,
+ "key": "mix-G1-046-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T22:05:00+09:00",
+ "url": "https://www.bloomberg.com/news/features/2026-11-16/welly-s-plight-shows-bringing-manufacturing-back-to-the-us-still-relies-on-china",
+ "origTitle": "",
+ "headline": "美 제조 리쇼어링도 중국 공급망 의존…웰리 사례와 미중 교역의 새 의존 구조",
+ "src": [],
+ "items": [
+  {
+   "t": "웰리의 곤경, 미국 제조 리쇼어링이 여전히 중국에 기대고 있음을 보여 줘",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/features/2026-11-16/welly-s-plight-shows-bringing-manufacturing-back-to-the-us-still-relies-on-china",
+   "s": "웰리가 생산을 미국으로 되돌리려다 어려움을 겪으면서 미국 제조업 리쇼어링이 여전히 중국 공급망에 기대고 있음이 드러났다 (제목 기준)"
+  },
+  {
+   "t": "미국과 중국의 교역 관계에 생긴 새로운 의존 구조",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-11-16/new-dependencies-in-the-us-and-china-s-trade-relationship",
+   "s": "블룸버그 뉴스레터가 미국과 중국 교역에서 새로운 상호 의존 관계가 생기고 있다고 짚으면서 양국 교역 구조의 변화가 공급망 재편의 새 변수로 떠올랐다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "macro"
+ ],
+ "nodes": [
+  "macro/geo"
+ ],
+ "title": "美 제조 리쇼어링도 중국 공급망 의존…웰리 사례와 미중 교역의 새 의존 구조",
+ "one": "블룸버그가 미국 제조업 리쇼어링이 여전히 중국 공급망에 기대고 있다는 사례와 분석을 잇달아 내놓았다\n· 블룸버그 기획기사는 웰리의 어려움이 생산을 미국으로 되돌려도 중국 의존을 벗어나기 어렵다는 점을 보여 준다고 짚었다\n· 블룸버그 뉴스레터는 미국과 중국의 교역 관계에 새로운 의존 구조가 생기고 있다고 분석했다 (제목 기준)",
+ "facts": [
+  "무엇이: 블룸버그 기획기사는 웰리의 사례를 들어 제조업을 미국으로 되돌려도 여전히 중국 공급망에 의존한다고 짚었다 [제목]",
+  "교역 구조: 블룸버그 뉴스레터는 미국과 중국의 교역 관계에 새로운 의존 관계가 생기고 있다고 분석했다 [제목]"
+ ],
+ "basis": "title",
+ "check": "웰리 사례를 검색했으나 관련 보도를 찾지 못함. 웰리의 업종·생산 품목·중국 의존 내용은 확인 못 해 제목만 근거",
+ "vc": [
+  {
+   "ind": "macro",
+   "node": "geo",
+   "f": "공급",
+   "dir": "flat",
+   "k": "실제",
+   "t": "미 제조 리쇼어링에도 중국 공급망 의존 지속"
+  }
+ ],
+ "updatedAt": "2026-11-17T09:13:29+09:00"
+}

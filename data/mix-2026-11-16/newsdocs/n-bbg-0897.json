@@ -1,0 +1,78 @@
+{
+ "id": "n-bbg-0897",
+ "num": 897,
+ "key": "mix-G1-025-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-15T20:14:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-15/burnham-faces-labour-rebellion-over-rosebank-sunday-times-says",
+ "origTitle": "",
+ "headline": "버넘 총리, 로즈뱅크 유전 승인 두고 노동당 의원 75명 반대 서한…최대 규모 당내 반란",
+ "src": [
+  {
+   "o": "GB News",
+   "d": "2026-11",
+   "u": "https://www.gbnews.com/politics/rosebank-andy-burnham-faces-biggest-labour-rebellion"
+  },
+  {
+   "o": "GB News",
+   "d": "2026-11",
+   "u": "https://www.gbnews.com/politics/andy-burnham-rosebank-steve-yemm"
+  },
+  {
+   "o": "Politics.co.uk",
+   "d": "2026-11",
+   "u": "https://www.politics.co.uk/2026/11/tracker-the-labour-mps-opposed-to-rosebank-oilfield-as-rebellion-mounts/"
+  }
+ ],
+ "items": [
+  {
+   "t": "선데이타임스 '버넘, 로즈뱅크 유전 두고 노동당 반란 직면'",
+   "o": "블룸버그",
+   "d": "2026-11-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-15/burnham-faces-labour-rebellion-over-rosebank-sunday-times-says"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "oil",
+  "drilling"
+ ],
+ "nodes": [
+  "drilling/capex"
+ ],
+ "title": "버넘 총리, 로즈뱅크 유전 승인 두고 노동당 의원 75명 반대 서한…최대 규모 당내 반란",
+ "one": "버넘 총리가 로즈뱅크 유전 승인을 두고 노동당 의원 75명이 서명한 반대 서한에 부딪히며 최대 규모 당내 반란에 직면했다\n· 의원들은 기후 신뢰도가 훼손되고 에너지 요금도 내리지 못한다고 주장했고 승인 땐 정부 내 사퇴 가능성도 거론됐다\n· 힐리 재무장관·레이놀즈 산업장관은 시추를 원하지만 밀리밴드 외무장관·판불레 에너지장관은 반대하는 것으로 전해졌다",
+ "facts": [
+  "무엇이: 선데이타임스는 노동당 의원 75명이 로즈뱅크 유전 승인에 반대하는 비공개 서한에 서명했고 100명까지 늘 수 있다고 보도했으며, 반면 스티브 옘 의원은 시추 개시를 원하는 노동당 의원도 100명에 이를 수 있다고 했다 [사실]",
+  "쟁점: 서한은 영국의 기후 신뢰도가 떨어지고 사업이 에너지 요금을 낮추지 못한다고 주장했고, 승인 땐 정부 내 사퇴가 나올 수 있으며 한 각료의 의회 보좌관(PPS)이 이미 사퇴를 검토 중이다 [사실]",
+  "내각: 존 힐리 재무장관·조너선 레이놀즈 산업장관은 시추 개시를 원하고 에드 밀리밴드 외무장관·미아타 판불레 에너지장관은 반대하며, 가디언은 판불레가 불허 쪽으로 기울었지만 뒤집힐 수 있다고 전했고 총리실은 판불레가 이끄는 독립적 준사법 절차라고 했다 [사실]",
+  "배경: 영국은 지난달 북해 잭도 가스전을 승인했고 기후 단체들은 더 큰 로즈뱅크 유전을 막으라고 압박을 높였다 [사실]",
+  "앞서: 10월 FT는 이타카가 로즈뱅크 승인 없이는 영국 투자를 멈출 수 있다고 보도했다(n-tg-0315) [제목]"
+ ],
+ "basis": "verified",
+ "check": "노동당 의원 75명 반대 서한, 사퇴 가능성, 내각 찬반 구도, 잭도 가스전 승인은 GB뉴스·Politics.co.uk 검색 결과 요약으로 확인(Politics.co.uk 집계로 공개 반대·우려 의원은 45명).",
+ "vc": [
+  {
+   "ind": "oil",
+   "node": "nonopec",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "노동당 반발에 로즈뱅크 유전 승인 불투명"
+  },
+  {
+   "ind": "drilling",
+   "node": "capex",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "로즈뱅크 불허 땐 이타카 영국 투자 중단 우려"
+  }
+ ]
+}

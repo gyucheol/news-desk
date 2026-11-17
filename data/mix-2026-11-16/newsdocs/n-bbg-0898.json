@@ -1,0 +1,60 @@
+{
+ "id": "n-bbg-0898",
+ "num": 898,
+ "key": "mix-G1-028-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-15T14:30:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-15/novelis-cuts-china-exposure-with-265-million-sale",
+ "origTitle": "",
+ "headline": "노벨리스, 중국 사업 2억 6,500만 달러에 매각…창저우 자동차 판재 공장 넘겨 중국 노출 축소",
+ "src": [
+  {
+   "o": "Aluminium Today",
+   "d": "2026-11",
+   "u": "https://aluminiumtoday.com/news/hindalco-to-sell-two-novelis-china-units-for-265-million"
+  },
+  {
+   "o": "Asianet Newsable",
+   "d": "2026-11",
+   "u": "https://newsable.asianetnews.com/business/hindalco-unit-novelis-sells-chinese-subsidiaries-for-265-million-articleshow-vfso0sg"
+  }
+ ],
+ "items": [
+  {
+   "t": "노벨리스, 2억 6,500만 달러 매각으로 중국 노출 축소",
+   "o": "블룸버그",
+   "d": "2026-11-15",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-15/novelis-cuts-china-exposure-with-265-million-sale"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "metals"
+ ],
+ "nodes": [],
+ "title": "노벨리스, 중국 사업 2억 6,500만 달러에 매각…창저우 자동차 판재 공장 넘겨 중국 노출 축소",
+ "one": "힌달코 자회사 노벨리스가 중국 사업 두 곳을 2억 6,500만 달러에 팔아 중국 노출을 줄인다\n· 인수자는 중국 선전훙즈산업투자로, 자동차 차체용 알루미늄 판재를 만드는 창저우 공장 사업이 포함된다\n· 두 법인의 2026 회계연도 순매출은 3억 7,600만 달러였고 거래는 규제 승인을 거쳐 12개월 안에 끝난다",
+ "facts": [
+  "무엇이: 노벨리스는 11월 14일 노벨리스(중국)알루미늄제품과 노벨리스(상하이)알루미늄무역을 선전훙즈산업투자(또는 계열사)에 약 2억 6,500만 달러에 팔기로 계약했고, 조건을 채우면 최대 1,000만 달러를 더 받는다 [사실]",
+  "규모·일정: 두 법인의 2026 회계연도 순매출은 3억 7,600만 달러로 모회사 힌달코 연결 매출의 약 1%이며, 규제 승인을 거쳐 12개월 안에 거래를 마칠 예정이다 [사실]",
+  "대상·배경: 매각 대상에는 자동차 차체 패널·경량 구조용 알루미늄 판재를 만드는 창저우 공장 사업이 들어 있고, 발표는 데브 아후자 노벨리스 CFO의 퇴임 발표 며칠 뒤 나왔다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "매각가 2억 6,500만 달러·인수자·창저우 공장·두 법인 순매출 3억 7,600만 달러는 검색 결과 요약으로 확인(알루미늄투데이·아시아넷)",
+ "vc": [
+  {
+   "ind": "metals",
+   "node": "aluminum",
+   "f": "-",
+   "dir": "flat",
+   "k": "예상",
+   "t": "노벨리스 중국 2개 법인 소유권이 중국 투자사로 이전"
+  }
+ ]
+}

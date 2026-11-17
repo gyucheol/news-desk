@@ -1,0 +1,73 @@
+{
+ "id": "n-bbg-0902",
+ "num": 902,
+ "key": "mix-G1-036-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-15T01:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-11-14/paper-makers-are-starting-to-crumple-as-rising-costs-bite",
+ "origTitle": "",
+ "headline": "제지업체, 원가 상승에 흔들리기 시작…에너지 비용·펄프 운송 할증 부담",
+ "src": [
+  {
+   "o": "Pulp & Paper Chronicle",
+   "d": "2026",
+   "u": "https://pulpandpaperchronicle.com/the-machines-are-going-quiet-inside-the-global-pulp-and-paper-shutdown-wave"
+  },
+  {
+   "o": "Fastmarkets",
+   "d": "2026",
+   "u": "https://www.fastmarkets.com/insights/shanghai-pulp-week-stalemate-comes-to-a-head-as-global-costs-begin-to-surge/"
+  },
+  {
+   "o": "Allianz Trade(제지 산업 보고서)",
+   "d": "2026",
+   "u": "https://www.allianz-trade.com/en_global/economic-research/sector-reports/paper.html"
+  }
+ ],
+ "items": [
+  {
+   "t": "제지업체들, 원가 상승이 실적 짓누르며 흔들리기 시작",
+   "o": "블룸버그",
+   "d": "2026-11-15",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-11-14/paper-makers-are-starting-to-crumple-as-rising-costs-bite"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "industrial"
+ ],
+ "nodes": [],
+ "title": "제지업체, 원가 상승에 흔들리기 시작…에너지 비용·펄프 운송 할증 부담",
+ "one": "블룸버그는 원가 상승이 실적을 짓누르면서 제지업체들이 흔들리기 시작했다고 전했다\n· 업계에서는 이란 관련 분쟁으로 에너지 가격 변동성이 커져 제지의 핵심 투입 비용이 올랐다는 분석이 나온다\n· 북미·유럽에서는 펄프·판지 공장의 폐쇄와 가동 중단이 잇따르고 있다는 업계 보도가 있다",
+ "facts": [
+  "무엇이: 블룸버그는 11월 14일 원가 상승이 제지업체들을 짓누르기 시작했다고 전했다 [제목]",
+  "원가: 업계 전망은 이란 관련 분쟁에 따른 에너지 가격 변동성이 제지의 핵심 투입재 비용을 끌어올렸다고 봤고, 펄프 시장 보고서는 해상운송 할증료가 펄프 톤당 10~30달러에 이르렀다고 전했다 [사실]",
+  "공급 조정: 업계 보도에 따르면 북미·유럽에서 펄프·제지·판지 공장의 폐쇄·가동 중단·구조조정이 잇따르고 있고, 알리안츠는 업황 회복이 수요 가속보다 공급 축소에 기대고 있어 수익성이 과거 수준을 밑돈다고 봤다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "블룸버그 뉴스레터 본문은 찾지 못함. 에너지 비용 상승·펄프 운송 할증·공장 폐쇄 흐름은 업계지·알리안츠 자료의 검색 결과 요약으로 확인했으나 개별 공장 사례는 날짜가 불분명해 뺌",
+ "vc": [
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "에너지 비용·펄프 운송 할증에 제지 원가 상승"
+  },
+  {
+   "ind": "industrial",
+   "node": "materials",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "북미·유럽 펄프·판지 공장 폐쇄·가동 중단"
+  }
+ ]
+}

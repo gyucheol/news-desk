@@ -1,0 +1,86 @@
+{
+ "basis": "partial",
+ "check": "'35 by 35' 서약(2035년 35%, 현재 약 23%)과 최소 14개국 지지·브라질·사우디 미서명은 WRI·WINS·FINCHANNEL 검색 결과 요약으로 확인. 중국·인도·방글라데시의 반대는 확인 못 함(채널 전언)이고 채널의 현재 20%는 보도의 약 23%와 다름. EU 내부 문서는 로이터 제목 기준",
+ "cycles": [],
+ "facts": [
+  "무엇이: COP31 주최국 튀르키예가 내놓은 '35 by 35' 서약은 세계 최종 에너지 소비 중 전기 비중을 현재 약 23%에서 2035년 35%로 높이자는 자발적 목표로, 최소 14개국이 지지했고 브라질·사우디는 서명하지 않고 반대 의견을 냈다 [사실]",
+  "반발: 채널은 현재 20%인 전기화 비중을 35%로 늘리려는 목표에 중국·인도·방글라데시 등 개도국 연합이 전기화 서약을 인정하는 문구를 합의문에 절대 넣지 않겠다며 맞서 회담이 공전 중이라고 전했다 [채널]",
+  "한계: 서약은 늘어날 전력을 어떤 연료로 만들지 정하지 않았고, 클라이밋 액션 트래커는 현 정책으로는 2035년 비중이 약 28%에 그칠 것으로 본다 [사실]",
+  "EU: EU는 내부 문서에서 COP31을 통해 이산화탄소 감축을 가속하는 기후 합의를 이끌어내려 했다 [제목]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "COP31 기후 합의 진통…EU 탄소 감축 가속 추진·전기화 35% 목표에 개도국 반발",
+ "id": "n-rtr-0221",
+ "incentive": "",
+ "inds": [
+  "coal",
+  "power"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-13",
+   "o": "로이터",
+   "t": "EU, COP31서 탄소 감축 가속하는 기후 합의 추진…문서",
+   "u": "https://www.reuters.com/sustainability/cop/eu-eyes-cop31-climate-deal-accelerate-co2-cuts-document-shows-2026-10-12/"
+  },
+  {
+   "t": "COP31 기후 회담서 세계 전기화 추진에 반발",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/global-electrification-push-runs-into-resistance-at-cop31-climate-talks",
+   "s": "COP31 기후 회담에서 세계 경제 전기화를 밀어붙이는 서약이 일부 국가의 반발에 부딪히면서 최종 합의문에 담길지 불투명해졌다"
+  },
+  {
+   "t": "COP31 전기화 20→35% 목표, 중국·인도 등 개도국 반대로 공전",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-11-16",
+   "u": "https://t.me/The_MariTimes/64685",
+   "s": "주최측이 2035년까지 최종 에너지 수요의 전기화 비율을 20%에서 35%로 높이려 하자 중국·인도·방글라데시 등 개도국 연합이 합의문 반영을 거부하면서 회담이 공전하고 있다"
+  }
+ ],
+ "key": "mix-C141-2026-10-13",
+ "nodes": [
+  "coal/policy",
+  "power/demand"
+ ],
+ "num": 221,
+ "one": "COP31에서 EU의 감축 가속 구상과 주최국의 전기화 목표가 일부 국가의 반대에 부딪혔다\n· EU는 내부 문서에서 COP31을 통해 이산화탄소 감축 속도를 높이는 합의를 노렸다\n· 주최국 튀르키예는 최종 에너지 중 전기 비중을 2035년까지 35%로 높이는 서약을 내놨다\n· 채널은 현재 20%인 비중을 35%로 높이려는 목표에 중국·인도·방글라데시 등이 합의문 반영을 거부해 공전한다고 전했다\n· 독일·노르웨이·한국·파키스탄 등 최소 14개국이 지지했지만 브라질·사우디는 서명하지 않았다",
+ "origTitle": "",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T19:32:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "o": "WRI",
+   "d": "2026-11",
+   "u": "https://www.wri.org/news/statement-countries-endorse-35x35-electrification-pledge-cop31"
+  },
+  {
+   "o": "WINS",
+   "d": "2026-11",
+   "u": "https://www.winssolutions.org/cop31-35-by-35-electrification-pledge/"
+  },
+  {
+   "o": "FINCHANNEL",
+   "d": "2026-11",
+   "u": "https://finchannel.com/cop31-electrification-pledge-puts-35-global-power-target-at-center-of-antalya-talks/141132/environment/2026/11/"
+  }
+ ],
+ "tags": [],
+ "title": "COP31 기후 합의 진통…EU 탄소 감축 가속 추진·전기화 35% 목표에 개도국 반발",
+ "url": "https://www.reuters.com/sustainability/cop/eu-eyes-cop31-climate-deal-accelerate-co2-cuts-document-shows-2026-10-12/",
+ "added": "블룸버그·텔레그램 2건 — 주최국의 2035년 전기화 35% 목표와 중국·인도 등 개도국의 합의문 반영 거부로 회담이 공전한다는 내용이 추가됨",
+ "vc": [
+  {
+   "ind": "power",
+   "node": "demand",
+   "f": "수요",
+   "dir": "flat",
+   "k": "예상",
+   "t": "전기화 35% 목표, 개도국 반대로 공전"
+  }
+ ],
+ "updatedAt": "2026-11-17T09:13:29+09:00"
+}

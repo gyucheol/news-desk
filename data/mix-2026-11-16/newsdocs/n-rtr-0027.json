@@ -1,0 +1,110 @@
+{
+ "added": "텔레그램 1건 — AI 도입이 인도 IT 인력의 대량 해고를 부르며 아웃소싱 모델을 흔든다는 Polaristimes의 분석 내용이 추가됨",
+ "basis": "channel",
+ "check": "인도 IT 대량 해고 위기는 검색 결과에 11월 보도가 없고 블로그 수치도 엇갈려 확인 못 함(채널 전언). FICO·아마존·HSBC·플록 세이프티 내용은 기존 문서 근거",
+ "cycles": [],
+ "facts": [
+  "무엇이: FICO는 AI를 제품 개발에 녹이는 구조조정으로 인력의 약 15%를 줄이고 4분기에 약 2,700만 달러의 세전 비용을 반영한다 [사실]",
+  "유통·금융: 아마존은 10월 7일 스토어 부문 중심으로 1천 명 미만의 사무직을 추가 감원했고(비공식 수치) [사실], HSBC는 AI 도입을 추진하며 영국 자산관리 사업 전반 감원을 계획 중이며 AI 감시 스타트업 플록 세이프티도 반발 여론 속에 수백 명을 감원했다 [제목]",
+  "인도 IT: Polaristimes는 AI 도입이 인도 IT 근로자에게 대량 해고의 칼날을 겨누며 인도의 IT 인력 아웃소싱 모델이 크게 흔들리고 있다고 전했다 [채널]",
+  "채널 판단: 빅테크는 AI가 일자리를 늘린다고 하지만 AI로 해고되는 사례가 새로 생기는 일자리보다 훨씬 많아 정치 문제가 될 것이라고 봤다 [채널]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "AI 앞세운 감원 확산…FICO 15% 감축·아마존 소매 감원 이어 인도 IT 인력 대량 해고 위기",
+ "id": "n-rtr-0027",
+ "incentive": "",
+ "inds": [
+  "macro",
+  "tech"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{HSBC}}가 {{AI 도입}}을 {{추진}}하며 {{영국 자산관리 사업 전반에서 감원}}을 {{계획}} 중이라고 FT가 보도하면서, {{관련 직원들의 일자리가 줄}} 수 있다 (제목 기준)",
+   "t": "HSBC, AI 추진 속 영국 자산관리 사업 전반 감원 계획…FT 보도",
+   "u": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "블룸버그",
+   "s": "{{HSBC}}가 {{영국 자산관리 부문 전반의 감원}}을 {{계획}} 중인 것으로 알려지면서, {{은행권 인력 축소 흐름}}이 {{이어질}} 수 있다 (제목 기준)",
+   "t": "HSBC, 영국 자산관리 사업 전반 감원 계획 중인 것으로 알려져",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-10-07/hsbc-reportedly-planning-job-cuts-across-uk-wealth-management-business"
+  },
+  {
+   "d": "2026-10-07",
+   "o": "로이터",
+   "s": "{{FICO}}가 {{AI를 제품 개발에 녹이는 구조조정}}으로 {{인력을 약 15% 줄이}}고, 4분기에 약 2,700만 달러의 세전 비용을 반영한다",
+   "t": "FICO, AI 중심 구조조정으로 인력 15% 감축",
+   "u": "https://www.reuters.com/business/world-at-work/fico-cuts-workforce-by-15-ai-driven-restructuring-2026-10-06/"
+  },
+  {
+   "d": "2026-10-08",
+   "o": "로이터",
+   "s": "{{아마존}}이 {{주력 전자상거래를 맡는 스토어 부문}}을 중심으로 {{1천 명 미만의 사무직을 추가 감원}}하면서, {{소매 부문 인력}}이 {{줄었}}다",
+   "t": "아마존, 소매 부문 중심으로 새로운 일자리 감축 단행",
+   "u": "https://www.reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/"
+  },
+  {
+   "d": "2026-10-09",
+   "o": "로이터",
+   "s": "{{AI 감시 스타트업 플록 세이프티}}가 {{반발 여론 속에 수백 명을 감원}}하면서, {{AI 감시 사업의 성장}}에 {{제동이 걸릴}} 수 있다 (제목 기준)",
+   "t": "AI 감시 스타트업 플록 세이프티, 반발 속 수백 명 감원",
+   "u": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+  },
+  {
+   "t": "AI 도입에 인도 IT 인력 대량 해고 위기…아웃소싱 모델 흔들",
+   "o": "텔레그램 Polaristimes",
+   "d": "2026-11-15",
+   "u": "https://t.me/The_MariTimes/64657",
+   "s": "Polaristimes가 AI 도입이 인도 IT 근로자의 대량 해고를 부르며 인도의 IT 인력 아웃소싱 모델을 흔들고 있다고 짚으면서 정치 문제로 번질 것으로 봤다"
+  }
+ ],
+ "key": "bnd-C032-2026-10-09",
+ "nodes": [
+  "macro/growth"
+ ],
+ "num": 27,
+ "one": "AI 도입과 비용 절감을 내세운 사무직 감원이 금융·유통에서 인도 IT 아웃소싱으로 번지고 있다\n· FICO는 AI 중심 구조조정으로 인력 약 15%를 줄이고 4분기에 약 2,700만 달러 비용을 반영한다\n· 아마존은 스토어 부문을 중심으로 1천 명 미만의 사무직을 추가로 줄였다\n· HSBC는 영국 자산관리 부문 감원을 계획 중이고 AI 감시 스타트업 플록 세이프티도 수백 명을 줄였다\n· Polaristimes는 AI 도입이 인도 IT 인력에 대량 해고를 겨누며 아웃소싱 모델을 흔든다고 봤다\n· 채널은 AI로 새로 생기는 일자리보다 해고가 훨씬 많아 정치 문제로 번질 것으로 봤다 (채널 전언)",
+ "origTitle": "",
+ "processed": "2026-11-17",
+ "published": "2026-11-15T19:18:00+09:00",
+ "source": "로이터",
+ "src": [
+  {
+   "d": "2026-10-08",
+   "o": "CNBC",
+   "u": "https://www.cnbc.com/2026/10/08/amazon-makes-fresh-job-cuts-mainly-in-retail-division.html"
+  },
+  {
+   "d": "2026-10-06",
+   "o": "GuruFocus",
+   "u": "https://www.gurufocus.com/news/9113404/fair-isaac-corp-fico-announces-15-workforce-reduction-amid-ai-restructuring"
+  }
+ ],
+ "tags": [],
+ "title": "AI 앞세운 감원 확산…FICO 15% 감축·아마존 소매 감원 이어 인도 IT 인력 대량 해고 위기",
+ "updatedAt": "2026-11-17T09:13:29+09:00",
+ "url": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "software",
+   "f": "수요",
+   "dir": "down",
+   "k": "예상",
+   "t": "AI 도입에 인도 IT 아웃소싱 모델 흔들"
+  },
+  {
+   "ind": "macro",
+   "node": "growth",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "FICO 15%·아마존 사무직 등 AI발 감원 확산"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0911",
+ "num": 911,
+ "key": "mix-G2b-024-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-17T04:10:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
+ "origTitle": "",
+ "headline": "MS, 7월부터 숨어 있던 버그가 마이크로소프트 365 세계 장애 일으켜",
+ "src": [
+  {
+   "o": "BleepingComputer",
+   "d": "2026-11",
+   "u": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
+  },
+  {
+   "o": "Cybersecuritynews",
+   "d": "2026-11",
+   "u": "https://cybersecuritynews.com/microsoft-outage-incident-report/"
+  },
+  {
+   "o": "Windows Central",
+   "d": "2026-11",
+   "u": "https://www.windowscentral.com/microsoft/azure/microsoft-365-outlook-teams-onedrive-and-copilot-are-all-down-right-now"
+  }
+ ],
+ "items": [
+  {
+   "t": "MS, 7월부터 못 찾은 버그가 세계적 서비스 장애 일으켜",
+   "o": "블룸버그",
+   "d": "2026-11-17",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/microsoft-bug-undetected-since-july-triggered-worldwide-outage"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech"
+ ],
+ "nodes": [],
+ "title": "MS, 7월부터 숨어 있던 버그가 마이크로소프트 365 세계 장애 일으켜",
+ "one": "마이크로소프트는 11월 12~13일 세계적 마이크로소프트 365 장애가 7월부터 숨어 있던 버그 때문이라고 밝혔다\n· 네트워킹 게이트웨이 서버 업데이트의 결함이 석 달 넘게 드러나지 않다가 트래픽이 몰리자 서버를 마비시켰다\n· 용량 약 14%가 꺼진 상태에서 자동 장애 조치가 결함을 퍼뜨려 게이트웨이 서버 80% 이상이 응답을 멈췄다",
+ "facts": [
+  "무엇이: 마이크로소프트는 예비 보고서에서 11월 12~13일 아웃룩·팀즈·코파일럿 등 마이크로소프트 365 세계 장애가 7월 네트워킹 게이트웨이 서버 업데이트에 들어간 잠복 버그 때문이라고 밝혔다 [사실]",
+  "확산: 팀즈 트래픽이 익스체인지 온라인과 같이 쓰는 게이트웨이로 옮겨지는 동안 용량 약 14%가 이미 꺼져 있었고 자동 장애 조치가 결함을 퍼뜨려 게이트웨이 서버 80% 이상이 응답을 멈췄다 [사실]",
+  "테스트 한계: 실험실 부하 시험은 코어 수가 적은 약한 장비로 이뤄져 결함을 놓쳤고, 엔지니어는 코드를 되돌리는 패치를 냈으며 자세한 보고서는 11월 20일 나온다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "7월 잠복 버그·게이트웨이 서버 80% 이상 무응답·11월 20일 보고서 예정은 BleepingComputer·Cybersecuritynews 검색 결과 요약으로 확인(마이크로소프트 예비 보고서 기준)",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "cloud",
+   "f": "공급",
+   "dir": "down",
+   "k": "실제",
+   "t": "7월 잠복 버그로 마이크로소프트 365 세계 장애"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "basis": "verified",
+ "check": "10월 개발사 판매 1,716가구(9월 296가구)·톰슨 리저브 1,029가구·1~10월 7,053가구는 검색 결과 요약으로 확인. '연중 최고'는 지난해 10월 이후 최대라는 뜻이며 지난해 10월보다는 29.2% 적음",
+ "cycles": [],
+ "facts": [
+  "무엇이: URA 자료로 싱가포르 개발사는 10월 신규 민간 주택(EC 제외) 1,716가구를 팔아 9월 296가구보다 약 480% 늘며 1년 만에 가장 많았고, 출시 물량도 158가구에서 2,058가구로 늘었다 [사실]",
+  "쏠림·누적: 톰슨 리저브가 1,029가구(중간값 평방피트당 2,865싱가포르달러)로 약 60%를, 루체른 그랜드가 570가구 중 393가구를 팔았고 두 단지를 빼면 294가구였으며, 10월 판매는 지난해 10월 2,424가구보다 29.2% 적고 1~10월 누적은 7,053가구로 31.5% 줄었다 [사실]",
+  "가격: URA에 따르면 3분기 민간 주택 가격지수는 1.4% 올라 2분기 0.5%보다 상승 폭이 커졌고, 신규 주택 판매는 1998년 이후 3분기 기준 가장 부진했다 [사실]",
+  "임대료: 임대료 지수는 1.3% 올라 2분기 0.7%에서 가속했고, 2023년 2분기 2.8% 이후 가장 큰 상승이다 [사실]",
+  "계약: 민간 임대 계약은 2만 8,423건으로 2분기보다 25.6% 늘어 1995년 집계 이후 최대였다 [사실]"
+ ],
+ "feed": "v5",
+ "format": "one1",
+ "headline": "싱가포르 주택 매수 열기 귀환…10월 신규 판매 1,716가구 연중 최고·3분기 집값 1.4%↑",
+ "id": "n-bbg-0658",
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "insight": {},
+ "items": [
+  {
+   "d": "2026-10-23",
+   "o": "블룸버그",
+   "t": "싱가포르 집값 상승…임대료 2023년 이후 최대 급등",
+   "u": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023"
+  },
+  {
+   "t": "싱가포르 부동산 매수 열기 귀환…주택 판매 연중 최고",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/singapore-property-frenzy-returns-with-sales-hitting-year-high",
+   "s": "싱가포르 개발사의 10월 신규 주택 판매가 1,716가구로 연중 최고를 찍으면서 대형 단지 분양을 중심으로 부동산 매수 열기가 되살아났다"
+  }
+ ],
+ "key": "mix-G1-079-2026-10-23",
+ "nodes": [],
+ "num": 658,
+ "one": "싱가포르 민간 주택 가격과 임대료가 3분기 오른 데 이어 10월 신규 주택 판매가 연중 최고로 뛰었다\n· URA 민간 주택 가격지수는 3분기 1.4%, 임대료 지수는 1.3% 올라 임대료는 2023년 2분기 이후 최대 상승이었다\n· 민간 임대 계약은 2만 8,423건으로 1995년 집계 이후 분기 최대였다\n· 10월 개발사 신규 주택 판매는 1,716가구로 9월 296가구보다 약 480% 늘어 1년 만에 가장 많았다\n· 톰슨 리저브 한 곳이 1,029가구로 약 60%를 차지했고 1~10월 누적 판매는 7,053가구로 31.5% 줄었다",
+ "origTitle": "",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T13:23:00+09:00",
+ "source": "블룸버그",
+ "src": [
+  {
+   "d": "2026-10-23",
+   "o": "URA",
+   "u": "https://www.ura.gov.sg/news/media/pr26-73/"
+  },
+  {
+   "d": "2026-10-23",
+   "o": "99.co",
+   "u": "https://www.99.co/singapore/insider/singapore-private-home-prices-rise-1-4-in-q3-2026-amid-a-quieter-new-launch-calendar/"
+  },
+  {
+   "o": "99.co",
+   "d": "2026-11",
+   "u": "https://www.99.co/singapore/insider/october-2026-developer-sales/"
+  },
+  {
+   "o": "VnExpress International",
+   "d": "2026-11",
+   "u": "https://e.vnexpress.net/news/business/property/singapore-developers-home-sales-hit-year-high-in-october-with-60-from-one-project-5145295.html"
+  }
+ ],
+ "tags": [],
+ "title": "싱가포르 주택 매수 열기 귀환…10월 신규 판매 1,716가구 연중 최고·3분기 집값 1.4%↑",
+ "url": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-private-home-prices-climb-rents-surge-most-since-2023",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "10월 신규 주택 판매 1,716가구로 연중 최고"
+  },
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "3분기 민간 집값 1.4%·임대료 1.3% 상승"
+  }
+ ],
+ "added": "블룸버그 1건 — 10월 개발사 신규 주택 판매가 1,716가구로 연중 최고였고 톰슨 리저브 한 곳이 약 60%를 차지한 내용이 추가됨",
+ "updatedAt": "2026-11-17T09:13:29+09:00"
+}

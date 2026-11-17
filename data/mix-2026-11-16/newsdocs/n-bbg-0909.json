@@ -1,0 +1,65 @@
+{
+ "id": "n-bbg-0909",
+ "num": 909,
+ "key": "mix-G1-059-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T18:35:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/mitsui-co-said-to-back-j-oil-mills-in-battle-over-kadoya",
+ "origTitle": "",
+ "headline": "카도야제유 인수전…미쓰이물산, J-오일밀스 지원 보도·인테그랄 2,514엔 대 어드밴티지 약 3,000엔",
+ "src": [
+  {
+   "o": "Smartkarma",
+   "d": "2026",
+   "u": "https://www.smartkarma.com/insights/kadoya-2612-jp-rumoured-advantage-partners-bid-sets-up-a-bidding-war-with-integral"
+  },
+  {
+   "o": "Infoseek 뉴스",
+   "d": "2026",
+   "u": "https://news.infoseek.co.jp/amp/article/naigaitimes_602173"
+  },
+  {
+   "o": "문춘 전자판",
+   "d": "2026",
+   "u": "https://bunshun.jp/denshiban/articles/b15219"
+  }
+ ],
+ "items": [
+  {
+   "t": "미쓰이물산, 카도야 인수전서 J-오일밀스 지원 보도",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/mitsui-co-said-to-back-j-oil-mills-in-battle-over-kadoya"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "카도야제유 인수전…미쓰이물산, J-오일밀스 지원 보도·인테그랄 2,514엔 대 어드밴티지 약 3,000엔",
+ "one": "미쓰이물산이 일본 참기름 업체 카도야제유 인수전에서 J-오일밀스를 지원한다는 보도가 나왔다\n· 카도야를 두고는 인테그랄이 주당 2,514엔 공개매수를 진행 중이고 어드밴티지파트너스가 최대 약 3,000엔의 대항 제안을 냈다\n· 미쓰비시상사와 미쓰이물산이 지분 약 48.8%를 쥐고 있어 두 상사가 인수전 향방을 가를 것으로 꼽힌다",
+ "facts": [
+  "무엇이: 미쓰이물산이 카도야제유 인수전에서 J-오일밀스를 지원하는 것으로 전해졌다 [제목]",
+  "인수전: 인테그랄 계열 ITG-G홀딩스가 주당 2,514엔에 공개매수를 하고 있고 경쟁 제안이 나오면 2,760엔까지 올릴 수 있는 조항을 뒀으며 매수 기간을 11월 13일까지 늘렸고, 닛케이는 어드밴티지파트너스가 대항 제안을 냈다고 보도했으며 제안가는 최대 약 3,000엔으로 전해졌다 [사실]",
+  "주주·주가: 미쓰비시상사와 미쓰이물산이 지분 약 48.8%를 보유해 인수전 향방을 가를 쪽으로 꼽히고, 주가는 양측이 밝힌 가격 상한을 웃돌아 기존 제안가에 응할 유인이 약해졌다는 지적이 나왔다 [사실]"
+ ],
+ "basis": "partial",
+ "check": "인테그랄 공개매수(주당 2,514엔, 2,760엔 상향 조항, 11월 13일까지 연장)와 어드밴티지파트너스 대항 제안(최대 약 3,000엔), 미쓰비시·미쓰이 지분 약 48.8%는 스마트카르마·인포시크·문춘 검색 결과 요약으로 확인. 미쓰이의 J-오일밀스 지원 내용과 인수전 최종 결과는 확인 못 함.",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "food",
+   "f": "공급",
+   "dir": "down",
+   "k": "예상",
+   "t": "J-오일밀스, 미쓰이 지원 속 경쟁사 카도야 인수 추진"
+  }
+ ]
+}

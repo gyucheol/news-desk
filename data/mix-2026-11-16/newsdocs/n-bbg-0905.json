@@ -1,0 +1,57 @@
+{
+ "id": "n-bbg-0905",
+ "num": 905,
+ "key": "mix-G1-044-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T11:46:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/airbus-boeing-supply-chain-shift-boosts-india-aerospace-stocks",
+ "origTitle": "",
+ "headline": "에어버스·보잉 공급망 인도 이동…반AI 자금 유입 속 인도 항공우주주 강세",
+ "src": [],
+ "items": [
+  {
+   "t": "에어버스·보잉 공급망 이동, 인도 항공우주주 끌어올려",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/airbus-boeing-supply-chain-shift-boosts-india-aerospace-stocks",
+   "s": "에어버스·보잉의 공급망 이동이 인도 항공우주 관련주 상승으로 이어지면서 인도 증시에서 항공우주 업종이 강세를 보였다 (제목 기준)"
+  },
+  {
+   "t": "반AI 자금 인도로 몰리며 인도 항공우주주 강세",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-11-16/aerospace-stocks-shine-as-anti-ai-flows-pour-into-india",
+   "s": "AI 관련주를 피하려는 자금이 인도 증시로 몰리면서 항공우주주가 두드러진 강세를 보였다는 분석이 나왔다 (제목 기준)"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "aero"
+ ],
+ "nodes": [],
+ "title": "에어버스·보잉 공급망 인도 이동…반AI 자금 유입 속 인도 항공우주주 강세",
+ "one": "인도 증시에서 항공우주 관련주가 에어버스·보잉의 공급망 이동과 반AI 자금 유입에 힘입어 강세를 보였다\n· 에어버스·보잉이 공급망을 인도로 옮기면서 인도 항공우주주가 올랐다\n· AI 관련주를 피하려는 자금이 인도로 쏟아지면서 항공우주주가 돋보였다 (제목 기준)",
+ "facts": [
+  "무엇이: 에어버스·보잉의 공급망 이동이 인도 항공우주주를 끌어올렸다 [제목]",
+  "자금 흐름: AI 관련주를 피하려는 자금이 인도로 몰리면서 항공우주주가 강세를 보였다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 확인하지 못해 두 기사 제목 기준",
+ "vc": [
+  {
+   "ind": "aero",
+   "node": "parts",
+   "f": "가격",
+   "dir": "up",
+   "k": "실제",
+   "t": "에어버스·보잉 공급망 이동에 인도 항공우주주 강세"
+  }
+ ],
+ "updatedAt": "2026-11-17T09:13:29+09:00"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0901",
+ "num": 901,
+ "key": "mix-G1-035-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T06:00:00+09:00",
+ "url": "https://www.bloomberg.com/news/newsletters/2026-11-15/cfos-face-rising-costs-reluctant-consumers-goos-hlf-pii-smg-ferg",
+ "origTitle": "",
+ "headline": "CFO들, 비용 상승·소비 위축 직면…캐나다구스·허벌라이프·폴라리스 등 사례",
+ "src": [],
+ "items": [
+  {
+   "t": "CFO들, 비용 상승·소비 꺼리는 고객에 직면(GOOS·HLF·PII·SMG·FERG)",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-11-15/cfos-face-rising-costs-reluctant-consumers-goos-hlf-pii-smg-ferg"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "consumer"
+ ],
+ "nodes": [],
+ "title": "CFO들, 비용 상승·소비 위축 직면…캐나다구스·허벌라이프·폴라리스 등 사례",
+ "one": "캐나다구스·폴라리스 등 기업 CFO들이 비용 상승과 소비를 꺼리는 고객이라는 이중 부담에 맞닥뜨렸다\n· 블룸버그 CFO 뉴스레터는 허벌라이프·스콧츠 미라클그로·퍼거슨도 함께 사례로 들었다 (제목 기준)",
+ "facts": [
+  "무엇이: 기업 CFO들이 비용 상승과 소비를 꺼리는 소비자에 동시에 직면했다 [제목]",
+  "사례: 캐나다구스(GOOS)·허벌라이프(HLF)·폴라리스(PII)·스콧츠 미라클그로(SMG)·퍼거슨(FERG)이 거론됐다 [제목]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 확인 못 함(블룸버그 뉴스레터 제목 기준)",
+ "vc": [
+  {
+   "ind": "consumer",
+   "node": "demand",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "CFO들, 소비 꺼리는 고객과 비용 상승에 직면"
+  }
+ ]
+}

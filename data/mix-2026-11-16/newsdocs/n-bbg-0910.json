@@ -1,0 +1,64 @@
+{
+ "id": "n-bbg-0910",
+ "num": 910,
+ "key": "mix-G2b-021-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T18:06:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/baidu-posts-sixth-straight-sales-drop-after-ai-drag-persists",
+ "origTitle": "",
+ "headline": "바이두 3분기 매출 1% 줄어 6분기 연속 감소…온라인 마케팅 22%↓로 AI 부담 지속",
+ "src": [
+  {
+   "o": "The Next Web",
+   "d": "2026-11-16",
+   "u": "https://thenextweb.com/news/baidu-ai-cloud-q3-2026-earnings-sixth-revenue-drop"
+  },
+  {
+   "o": "Manila Times(PR Newswire 발표문)",
+   "d": "2026-11-16",
+   "u": "https://www.manilatimes.net/2026/11/16/tmt-newswire/pr-newswire/baidu-announces-third-quarter-2026-results/2470623"
+  }
+ ],
+ "items": [
+  {
+   "t": "바이두, AI 부담 지속에 매출 6분기 연속 감소",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/baidu-posts-sixth-straight-sales-drop-after-ai-drag-persists"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "tech",
+  "macro"
+ ],
+ "nodes": [
+  "macro/semis"
+ ],
+ "ind": "semis",
+ "title": "바이두 3분기 매출 1% 줄어 6분기 연속 감소…온라인 마케팅 22%↓로 AI 부담 지속",
+ "one": "바이두 3분기 매출이 308억 위안으로 1년 전보다 1% 줄어 6분기 연속 감소했다\n· 검색 광고 중심의 온라인 마케팅 매출은 119억 위안으로 22% 줄었고 AI 네이티브 마케팅도 15% 감소했다\n· AI 클라우드 인프라 매출은 94% 늘었지만 광고 감소를 메우지 못했다",
+ "facts": [
+  "무엇이: 바이두 3분기 총매출은 308억 위안(46억 달러)으로 1% 줄어 6분기 연속 감소했고, 온라인 마케팅 매출은 119억 위안으로 22% 줄었다 [사실]",
+  "AI 사업: AI 네이티브 마케팅 매출은 24억 위안으로 15% 줄었고 바이두는 거시 환경·경쟁 변화와 단기 수익화보다 이용자 경험을 앞세운 결정을 이유로 들었으며, AI 클라우드 인프라 매출은 82억 위안으로 94% 늘었다 [사실]",
+  "이익: 지배주주 순이익은 14억 위안(2억 800만 달러)으로 1년 전 112억 위안 손실(장기자산 손상 162억 위안 포함)에서 흑자로 돌아섰다 [사실]"
+ ],
+ "basis": "verified",
+ "check": "총매출 308억 위안(1% 감소)·온라인 마케팅 119억 위안(22% 감소)·AI 클라우드 인프라 82억 위안(94% 증가)·순이익은 검색 결과 요약으로 확인(PR뉴스와이어 발표문 전재·더넥스트웹·쿼츠)",
+ "vc": [
+  {
+   "ind": "tech",
+   "node": "platforms",
+   "f": "수요",
+   "dir": "down",
+   "k": "실제",
+   "t": "바이두 온라인 마케팅 매출 22% 감소"
+  }
+ ]
+}

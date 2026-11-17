@@ -1,0 +1,48 @@
+{
+ "id": "n-bbg-0908",
+ "num": 908,
+ "key": "mix-G1-057-2026-11-17",
+ "feed": "v5",
+ "format": "one1",
+ "source": "블룸버그",
+ "processed": "2026-11-17",
+ "published": "2026-11-16T18:01:00+09:00",
+ "url": "https://www.bloomberg.com/news/articles/2026-11-16/gsa-buys-600-million-student-housing-portfolio-from-sanctuary",
+ "origTitle": "",
+ "headline": "GSA·캘퍼스, 영국 학생 기숙사 6억 파운드 포트폴리오 인수",
+ "src": [],
+ "items": [
+  {
+   "t": "GSA·캘퍼스, 6억 파운드 규모 학생 기숙사 포트폴리오 매입",
+   "o": "블룸버그",
+   "d": "2026-11-16",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-16/gsa-buys-600-million-student-housing-portfolio-from-sanctuary"
+  }
+ ],
+ "cycles": [],
+ "tags": [],
+ "insight": {},
+ "incentive": "",
+ "inds": [
+  "realestate"
+ ],
+ "nodes": [],
+ "title": "GSA·캘퍼스, 영국 학생 기숙사 6억 파운드 포트폴리오 인수",
+ "one": "학생 주거 투자사 GSA와 캘퍼스가 6억 파운드 규모 학생 기숙사 포트폴리오를 사들였다\n· 파운드화 거래로 영국 학생 주거 자산에 연기금 자금이 들어간 거래다 (제목 기준)",
+ "facts": [
+  "무엇이: GSA와 캘퍼스가 6억 파운드 규모 학생 기숙사 포트폴리오를 인수했다 [제목]",
+  "자산: 파운드화 거래여서 영국 학생 주거 자산으로 보인다 [추론]"
+ ],
+ "basis": "title",
+ "check": "검색 한도 안에서 확인 못 함(블룸버그 제목 기준)",
+ "vc": [
+  {
+   "ind": "realestate",
+   "node": "housing",
+   "f": "수요",
+   "dir": "up",
+   "k": "실제",
+   "t": "GSA·캘퍼스, 학생 기숙사 6억 파운드 매입"
+  }
+ ]
+}

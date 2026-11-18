@@ -221,6 +221,7 @@
 37. (11월 2일) 화장품 섹터 추가: 거르기 분야 beauty(소비재와 따로), 작성 inds ["beauty"]·nodes beauty/*. 산업 페이지 chains/beauty와 데스크 칩은 원래 있음. 텔레그램 채널은 9개로 바꿈(규칙 35 대체): habit4117, w_compass, sunstudy1111, The_MariTimes, Onionfarmer, TNBfolio, kyobofnbcosmetic, stockhasoo, Trillion_labs.
 38. (11월 2일) 뉴스는 블룸버그와 텔레그램에서만 가져옴("로이터까지 보려니까 너무 많다"). 수집에서 로이터 사이트맵(sitemap_list.py rtr)을 돌리지 않음. 기존 로이터 문서는 그대로.
 39. (11월 2일) 같은 흐름이면 날짜가 달라도 기존 문서에 붙임(핵심 사건 5개 상한보다 우선, 규칙 26·29를 바꿈). 기사 60건이 넘는 문서만 하위 흐름 새 문서. 묶기 지시서 CLUSTER.md(data/mix-2026-11-02b판부터) 반영.
+40. (11월 18일) 텔레그램 공시 알림(DART·SEC, .github/workflows/disclosure-watch.yml) 예약 실행 멈춤("텔레그램이랑 연동해서 기업들 공시 업데이트하는 것도 멈춰줘"). 사용자 허락을 받아 기본 브랜치 claude/zen-tesla-ez7jin에 커밋 09f2872(schedule 주석 처리, 수동 실행만 남김). 이 세션 브랜치의 같은 파일도 똑같이 고침.
 
 ---
 

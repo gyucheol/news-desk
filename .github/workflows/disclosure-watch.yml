@@ -6,8 +6,9 @@
 name: disclosure-watch
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
+  # 2026-11-18 사용자 요청으로 예약 실행(5분마다)을 멈춤. 되살리려면 아래 두 줄의 # 를 지우면 됩니다.
+  # schedule:
+  #   - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
